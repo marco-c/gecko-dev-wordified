@@ -1819,12 +1819,6 @@ rv
 rv
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JS
 :
 :
@@ -2487,12 +2481,6 @@ the
 xbl
 scope
 .
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JSAutoCompartment
 ac
 (

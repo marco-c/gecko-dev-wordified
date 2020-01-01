@@ -2539,12 +2539,6 @@ mRooted
 true
 ;
 }
-JSAutoRequest
-ar
-(
-aCx
-)
-;
 nsresult
 rv
 =

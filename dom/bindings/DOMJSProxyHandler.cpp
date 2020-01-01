@@ -224,12 +224,6 @@ JSContext
 cx
 )
 {
-JSAutoRequest
-ar
-(
-cx
-)
-;
 return
 InternJSString
 (
@@ -1698,12 +1692,6 @@ jsid
 id
 )
 {
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JS
 :
 :

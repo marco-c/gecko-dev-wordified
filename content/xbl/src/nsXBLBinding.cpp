@@ -6050,12 +6050,6 @@ the
 right
 prototype
 .
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JSAutoCompartment
 ac
 (
@@ -6863,12 +6857,6 @@ nsAutoCString
 xblKey
 (
 aClassName
-)
-;
-JSAutoRequest
-ar
-(
-cx
 )
 ;
 JSAutoCompartment

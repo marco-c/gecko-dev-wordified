@@ -414,12 +414,6 @@ global
 NS_ERROR_FAILURE
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JSAutoCompartment
 ac
 (

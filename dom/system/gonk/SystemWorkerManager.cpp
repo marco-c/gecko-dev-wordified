@@ -2577,12 +2577,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-JSAutoRequest
-ar
-(
-aCx
-)
-;
 JSAutoCompartment
 ac
 (
@@ -2759,12 +2753,6 @@ JSVAL_IS_PRIMITIVE
 workerval
 )
 NS_ERROR_UNEXPECTED
-)
-;
-JSAutoRequest
-ar
-(
-cx
 )
 ;
 JSAutoCompartment

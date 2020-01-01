@@ -5551,12 +5551,6 @@ GetJSContext
 )
 )
 ;
-JSAutoRequest
-ar
-(
-ctx
-)
-;
 uint32_t
 len
 =

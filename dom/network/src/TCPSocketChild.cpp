@@ -193,12 +193,6 @@ GetSafeJSContext
 (
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JSAutoCompartment
 ac
 (

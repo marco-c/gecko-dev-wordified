@@ -9840,12 +9840,6 @@ nsIXPConnectJSObjectHolder
 >
 holder
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 /
 *
 *

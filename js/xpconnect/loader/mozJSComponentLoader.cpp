@@ -6069,12 +6069,6 @@ if
 global
 )
 {
-JSAutoRequest
-ar
-(
-mContext
-)
-;
 JS_SetAllNonReservedSlotsToUndefined
 (
 mContext
@@ -6202,12 +6196,6 @@ Value
 retval
 )
 {
-JSAutoRequest
-ar
-(
-cx
-)
-;
 MOZ_ASSERT
 (
 nsContentUtils

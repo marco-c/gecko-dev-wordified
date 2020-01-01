@@ -5753,12 +5753,6 @@ mCurrentScript
 =
 oldCurrent
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 context
 -
 >

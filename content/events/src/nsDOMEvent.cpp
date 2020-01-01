@@ -1808,12 +1808,6 @@ mOwner
 w
 ;
 }
-JSAutoRequest
-ar
-(
-aCx
-)
-;
 JSString
 *
 jsstr

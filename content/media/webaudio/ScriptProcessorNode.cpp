@@ -1780,12 +1780,6 @@ if
 cx
 )
 {
-JSAutoRequest
-ar
-(
-cx
-)
-;
 /
 /
 Create

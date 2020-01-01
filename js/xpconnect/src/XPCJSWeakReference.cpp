@@ -145,12 +145,6 @@ Value
 object
 )
 {
-JSAutoRequest
-ar
-(
-cx
-)
-;
 if
 (
 !

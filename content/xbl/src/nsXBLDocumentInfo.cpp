@@ -1572,12 +1572,6 @@ GetNativeContext
 )
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 /
 /
 nsJSEnvironment

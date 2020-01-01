@@ -7524,12 +7524,6 @@ return
 JSVAL_NULL
 ;
 }
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JS
 :
 :

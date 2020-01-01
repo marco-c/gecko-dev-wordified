@@ -1467,12 +1467,6 @@ evaluate
 the
 expression
 .
-JSAutoRequest
-ar
-(
-cx
-)
-;
 if
 (
 useSandbox

@@ -673,12 +673,6 @@ object
 "
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JSAutoCompartment
 ac
 (

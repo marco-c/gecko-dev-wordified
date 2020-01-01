@@ -3693,12 +3693,6 @@ JSContext
 cx
 )
 {
-JSAutoRequest
-ar
-(
-cx
-)
-;
 if
 (
 !

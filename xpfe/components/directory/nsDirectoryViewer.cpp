@@ -1071,12 +1071,6 @@ AssignWithConversion
 msg
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JSString
 *
 jsMsgStr
@@ -1622,12 +1616,6 @@ into
 the
 global
 context
-JSAutoRequest
-ar
-(
-cx
-)
-;
 bool
 ok
 =

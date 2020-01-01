@@ -3919,12 +3919,6 @@ GetNativeContext
 )
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JS
 :
 :

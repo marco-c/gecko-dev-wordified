@@ -344,12 +344,6 @@ GetCurrentJSContext
 )
 )
 ;
-JSAutoRequest
-ar
-(
-aCx
-)
-;
 JS_WrapValue
 (
 aCx

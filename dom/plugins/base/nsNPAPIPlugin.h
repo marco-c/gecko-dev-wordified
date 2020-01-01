@@ -704,12 +704,6 @@ id
 AutoSafeJSContext
 cx
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 return
 JS_StringHasBeenInterned
 (

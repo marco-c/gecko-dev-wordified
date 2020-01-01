@@ -1860,12 +1860,6 @@ cx
 NS_ERROR_FAILURE
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JS
 :
 :

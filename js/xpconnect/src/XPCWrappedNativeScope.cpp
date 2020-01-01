@@ -1720,12 +1720,6 @@ Create
 the
 sandbox
 .
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JS
 :
 :
