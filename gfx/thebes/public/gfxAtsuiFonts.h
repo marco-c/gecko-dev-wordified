@@ -520,6 +520,8 @@ const
 gfxFontStyle
 *
 fontStyle
+PRBool
+aNeedsBold
 )
 ;
 virtual
