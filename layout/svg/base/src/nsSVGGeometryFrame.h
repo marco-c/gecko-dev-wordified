@@ -314,6 +314,8 @@ virtual
 gfxMatrix
 GetCanvasTM
 (
+PRUint32
+aFor
 )
 =
 0

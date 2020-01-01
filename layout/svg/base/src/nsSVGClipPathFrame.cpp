@@ -1791,6 +1791,8 @@ nsSVGClipPathFrame
 :
 GetCanvasTM
 (
+PRUint32
+aFor
 )
 {
 nsSVGClipPathElement

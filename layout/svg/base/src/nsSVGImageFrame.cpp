@@ -500,11 +500,15 @@ PRInt32
 aNativeWidth
 PRInt32
 aNativeHeight
+PRUint32
+aFor
 )
 ;
 gfxMatrix
 GetVectorImageTransform
 (
+PRUint32
+aFor
 )
 ;
 bool
@@ -1309,6 +1313,8 @@ PRInt32
 aNativeWidth
 PRInt32
 aNativeHeight
+PRUint32
+aFor
 )
 {
 float
@@ -1385,6 +1391,7 @@ y
 *
 GetCanvasTM
 (
+aFor
 )
 ;
 }
@@ -1394,6 +1401,8 @@ nsSVGImageFrame
 :
 GetVectorImageTransform
 (
+PRUint32
+aFor
 )
 {
 float
@@ -1496,6 +1505,7 @@ y
 *
 GetCanvasTM
 (
+aFor
 )
 ;
 }
@@ -1533,6 +1543,7 @@ imageTransform
 =
 GetVectorImageTransform
 (
+FOR_PAINTING
 )
 ;
 }
@@ -1592,6 +1603,7 @@ GetRasterImageTransform
 (
 nativeWidth
 nativeHeight
+FOR_PAINTING
 )
 ;
 }
@@ -1967,6 +1979,7 @@ SetClipRect
 ctx
 GetCanvasTM
 (
+FOR_PAINTING
 )
 clipRect
 )
@@ -2140,6 +2153,7 @@ TransformFrameRectToOuterSVG
 mRect
 GetCanvasTM
 (
+FOR_PAINTING
 )
 PresContext
 (
@@ -2786,6 +2800,7 @@ GetRasterImageTransform
 (
 nativeWidth
 nativeHeight
+FOR_HIT_TESTING
 )
 0
 0
@@ -3164,6 +3179,7 @@ TransformFrameRectToOuterSVG
 mRect
 GetCanvasTM
 (
+FOR_OUTERSVG_TM
 )
 PresContext
 (
