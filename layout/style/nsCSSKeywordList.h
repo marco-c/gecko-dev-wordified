@@ -3306,6 +3306,11 @@ step_start
 )
 CSS_KEY
 (
+sticky
+sticky
+)
+CSS_KEY
+(
 stretch
 stretch
 )
