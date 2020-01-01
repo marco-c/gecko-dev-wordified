@@ -226,6 +226,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 nsCMSSecureMessage
 .
 h
@@ -325,6 +332,13 @@ h
 include
 "
 nsXULAppAPI
+.
+h
+"
+#
+include
+"
+PSMContentListener
 .
 h
 "
