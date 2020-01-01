@@ -726,10 +726,6 @@ PRPackedBool
 sIsVistaOrLater
 ;
 static
-PRPackedBool
-sHaveCompositor
-;
-static
 PRBool
 sTitlebarInfoPopulated
 ;
@@ -1474,13 +1470,11 @@ MOZ_WINSDK_TARGETVER
 =
 MOZ_NTDDI_LONGHORN
 return
-sHaveCompositor
-=
 (
 compositionIsEnabled
 !
 =
-0
+FALSE
 )
 ;
 }

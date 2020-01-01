@@ -2148,7 +2148,9 @@ aMetric
 nsUXThemeData
 :
 :
-sHaveCompositor
+CheckForCompositor
+(
+)
 ;
 #
 else

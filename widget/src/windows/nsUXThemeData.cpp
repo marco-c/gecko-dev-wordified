@@ -586,14 +586,6 @@ sIsVistaOrLater
 =
 PR_FALSE
 ;
-PRPackedBool
-nsUXThemeData
-:
-:
-sHaveCompositor
-=
-PR_FALSE
-;
 PRBool
 nsUXThemeData
 :
