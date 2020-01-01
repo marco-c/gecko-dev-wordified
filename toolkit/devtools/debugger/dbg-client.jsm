@@ -1309,6 +1309,13 @@ watchpoint
 "
 watchpoint
 "
+"
+exception
+"
+:
+"
+exception
+"
 }
 ;
 const
