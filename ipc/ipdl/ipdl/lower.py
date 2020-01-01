@@ -22600,6 +22600,20 @@ MethodDecl
 '
 OnChannelConnected
 '
+                                            
+params
+=
+[
+Decl
+(
+Type
+.
+INT32
+'
+pid
+'
+)
+]
 )
 )
         
