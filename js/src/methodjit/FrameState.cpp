@@ -2947,6 +2947,9 @@ synced
 killType
 |
 |
+killData
+|
+|
 fe
 >
 =
