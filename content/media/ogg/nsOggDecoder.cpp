@@ -14582,6 +14582,11 @@ UpdateReadyStateForData
 (
 )
 ;
+Progress
+(
+PR_FALSE
+)
+;
 }
 void
 nsOggDecoder
