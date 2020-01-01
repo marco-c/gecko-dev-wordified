@@ -1017,8 +1017,6 @@ nsFrameLoader
 public
 nsIFrameLoader
 public
-nsIFrameLoader_MOZILLA_2_0_BRANCH
-public
 nsIContentViewManager
 {
 friend
@@ -1138,7 +1136,6 @@ nsFrameLoader
 nsIFrameLoader
 )
 NS_DECL_NSIFRAMELOADER
-NS_DECL_NSIFRAMELOADER_MOZILLA_2_0_BRANCH
 NS_DECL_NSICONTENTVIEWMANAGER
 NS_HIDDEN_
 (
