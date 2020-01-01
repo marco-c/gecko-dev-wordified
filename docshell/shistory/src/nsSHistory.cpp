@@ -3454,6 +3454,10 @@ s
 n
 "
 url
+.
+get
+(
+)
 )
 ;
 printf
@@ -3497,6 +3501,10 @@ x
 n
 "
 layoutHistoryState
+.
+get
+(
+)
 )
 ;
 #

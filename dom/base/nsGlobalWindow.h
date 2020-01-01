@@ -2664,6 +2664,12 @@ DispatchSyncHashchange
 ;
 virtual
 nsresult
+DispatchSyncPopState
+(
+)
+;
+virtual
+nsresult
 SetArguments
 (
 nsIArray

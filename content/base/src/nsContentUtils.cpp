@@ -2609,6 +2609,17 @@ EventNameType_All
 nsGkAtoms
 :
 :
+onpopstate
+{
+NS_POPSTATE
+EventNameType_HTMLXUL
+}
+}
+{
+&
+nsGkAtoms
+:
+:
 onunload
 {
 NS_PAGE_UNLOAD
