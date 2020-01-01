@@ -2182,6 +2182,14 @@ bool
 aDrawingCritical
 )
 {
+aScaleX
+=
+aScaleY
+=
+1
+.
+0
+;
 #
 ifdef
 MOZ_WIDGET_ANDROID
