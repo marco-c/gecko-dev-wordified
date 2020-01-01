@@ -309,9 +309,6 @@ js
 SyncScheduler
 "
 "
-ErrorHandler
-"
-"
 SendCredentialsController
 "
 ]

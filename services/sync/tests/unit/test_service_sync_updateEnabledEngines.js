@@ -1632,7 +1632,9 @@ Sync
 "
 )
 ;
-ErrorHandler
+Service
+.
+errorHandler
 .
 syncAndReportErrors
 (
