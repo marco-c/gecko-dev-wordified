@@ -129,10 +129,17 @@ blah
 blah
 "
 ;
+js
+:
+:
+Rooted
+<
 JSAtom
 *
+>
 atom
-=
+(
+cx
 js
 :
 :
@@ -143,6 +150,7 @@ someChars
 ArrayLength
 (
 someChars
+)
 )
 )
 ;

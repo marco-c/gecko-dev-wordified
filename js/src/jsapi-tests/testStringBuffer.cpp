@@ -160,10 +160,17 @@ CHECK
 str
 )
 ;
+js
+:
+:
+Rooted
+<
 JSAtom
 *
+>
 atom
-=
+(
+cx
 js
 :
 :
@@ -171,6 +178,7 @@ AtomizeString
 (
 cx
 str
+)
 )
 ;
 CHECK

@@ -95,9 +95,15 @@ LooseEqualityFixture
 bool
 leq
 (
-jsval
+JS
+:
+:
+HandleValue
 x
-jsval
+JS
+:
+:
+HandleValue
 y
 )
 {
