@@ -3452,6 +3452,13 @@ function
 (
 )
 {
+if
+(
+this
+.
+aus
+)
+{
 this
 .
 aus
@@ -3461,6 +3468,7 @@ removeDownloadListener
 this
 )
 ;
+}
 }
 /
 *
