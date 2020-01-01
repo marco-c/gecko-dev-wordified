@@ -17238,6 +17238,8 @@ NS_LITERAL_STRING
 MozAudioAvailable
 "
 )
+false
+false
 frameBuffer
 .
 forget
