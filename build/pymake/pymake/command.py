@@ -104,17 +104,9 @@ path
 .
 makepypath
 =
-os
+util
 .
-path
-.
-normpath
-(
-os
-.
-path
-.
-join
+normaljoin
 (
 os
 .
@@ -132,7 +124,6 @@ make
 .
 py
 '
-)
 )
 _simpleopts
 =
@@ -1677,11 +1668,9 @@ else
             
 workdir
 =
-os
+util
 .
-path
-.
-join
+normaljoin
 (
 cwd
 options
@@ -1826,11 +1815,9 @@ path
 .
 exists
 (
-os
+util
 .
-path
-.
-join
+normaljoin
 (
 workdir
 '

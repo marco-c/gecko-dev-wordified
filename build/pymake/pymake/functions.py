@@ -2946,11 +2946,9 @@ write
 join
 (
 [
-os
+util
 .
-path
-.
-join
+normaljoin
 (
 makefile
 .
