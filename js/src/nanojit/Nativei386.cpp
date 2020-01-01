@@ -12411,7 +12411,17 @@ SETNP
 succeeds
 int
 mask
+=
+0
 ;
+/
+/
+init
+to
+avoid
+MSVC
+compile
+warnings
 switch
 (
 condop
