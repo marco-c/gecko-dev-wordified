@@ -2294,6 +2294,17 @@ _initialized
 return
 ;
 }
+if
+(
+!
+DownloadsCommon
+.
+animateNotifications
+)
+{
+return
+;
+}
 /
 /
 No
