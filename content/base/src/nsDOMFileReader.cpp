@@ -1422,7 +1422,7 @@ nsDOMFileReader
 :
 ReadAsBinaryString
 (
-nsIDOMFile
+nsIDOMBlob
 *
 aFile
 )
@@ -1444,7 +1444,7 @@ nsDOMFileReader
 :
 ReadAsText
 (
-nsIDOMFile
+nsIDOMBlob
 *
 aFile
 const
@@ -1468,7 +1468,7 @@ nsDOMFileReader
 :
 ReadAsDataURL
 (
-nsIDOMFile
+nsIDOMBlob
 *
 aFile
 )
@@ -2345,7 +2345,7 @@ nsDOMFileReader
 :
 ReadFileContent
 (
-nsIDOMFile
+nsIDOMBlob
 *
 aFile
 const
@@ -2930,7 +2930,7 @@ nsDOMFileReader
 :
 GetAsDataURL
 (
-nsIDOMFile
+nsIDOMBlob
 *
 aFile
 const

@@ -723,7 +723,7 @@ FILE_AS_DATAURL
 nsresult
 ReadFileContent
 (
-nsIDOMFile
+nsIDOMBlob
 *
 aFile
 const
@@ -755,7 +755,7 @@ aResult
 nsresult
 GetAsDataURL
 (
-nsIDOMFile
+nsIDOMBlob
 *
 aFile
 const
@@ -838,7 +838,7 @@ mFileData
 ;
 nsCOMPtr
 <
-nsIDOMFile
+nsIDOMBlob
 >
 mFile
 ;

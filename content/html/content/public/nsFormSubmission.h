@@ -483,7 +483,7 @@ class
 nsIMultiplexInputStream
 ;
 class
-nsIDOMFile
+nsIDOMBlob
 ;
 /
 *
@@ -597,7 +597,7 @@ the
 parameter
 *
 param
-aFile
+aBlob
 the
 file
 to
@@ -612,9 +612,9 @@ const
 nsAString
 &
 aName
-nsIDOMFile
+nsIDOMBlob
 *
-aFile
+aBlob
 )
 =
 0
@@ -1101,9 +1101,9 @@ const
 nsAString
 &
 aName
-nsIDOMFile
+nsIDOMBlob
 *
-aFile
+aBlob
 )
 ;
 virtual

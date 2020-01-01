@@ -570,7 +570,7 @@ FileDataInfo
 {
 nsCOMPtr
 <
-nsIDOMFile
+nsIDOMBlob
 >
 mFile
 ;
@@ -600,7 +600,7 @@ AddFileDataEntry
 nsACString
 &
 aUri
-nsIDOMFile
+nsIDOMBlob
 *
 aFile
 nsIPrincipal
