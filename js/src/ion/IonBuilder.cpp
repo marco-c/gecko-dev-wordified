@@ -30331,12 +30331,6 @@ script
 )
 )
 ;
-if
-(
-!
-thisTypes
-)
-{
 /
 /
 The
@@ -30444,7 +30438,6 @@ this
 "
 )
 ;
-}
 CallInfo
 callInfo
 (
