@@ -2030,11 +2030,11 @@ array
 or
 by
 converting
-the
-values
+an
+element
 /
 /
-in
+of
 the
 whitelist
 .
