@@ -29910,6 +29910,9 @@ JSCompartment
 c
 )
 {
+#
+ifdef
+JS_METHODJIT
 mjit
 :
 :
@@ -30031,6 +30034,9 @@ purgeCaches
 ;
 }
 }
+#
+ifdef
+JS_ION
 /
 *
 Discard
@@ -30058,7 +30064,11 @@ purgeCaches
 (
 )
 ;
+#
+endif
 }
+#
+endif
 }
 }
 /
