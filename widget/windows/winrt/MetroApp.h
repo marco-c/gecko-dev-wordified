@@ -377,13 +377,6 @@ framework
 and
 widget
 static
-FrameworkView
-*
-GetView
-(
-)
-;
-static
 void
 SetBaseWidget
 (
