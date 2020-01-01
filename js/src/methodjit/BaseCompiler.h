@@ -1274,7 +1274,7 @@ f
 cx
 f
 .
-jit
+chunk
 (
 )
 f
