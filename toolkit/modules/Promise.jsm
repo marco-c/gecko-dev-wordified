@@ -1845,7 +1845,7 @@ rejected
 .
 *
 /
-every
+all
 :
 function
 (
@@ -1870,7 +1870,7 @@ Error
 "
 Promise
 .
-every
+all
 (
 )
 expects
@@ -1898,7 +1898,8 @@ Promise
 .
 resolve
 (
-undefined
+[
+]
 )
 ;
 }
