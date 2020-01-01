@@ -1782,7 +1782,7 @@ PRUint32
 n
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mHdr
 !
@@ -2058,7 +2058,7 @@ size_t
 elemAlign
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 IsAutoArray
 (
@@ -2092,7 +2092,7 @@ elemAlign
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 IsAutoArray
 (
@@ -3965,7 +3965,7 @@ index_type
 i
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 i
 <
@@ -4057,7 +4057,7 @@ i
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 i
 <
@@ -7054,7 +7054,7 @@ Allocator
 array
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 &
 array
@@ -7205,7 +7205,7 @@ size_type
 count
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 count
 =
@@ -7225,7 +7225,7 @@ index
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 start
 +
@@ -9917,7 +9917,7 @@ mIsAutoArray
 =
 1
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 base_type
 :
