@@ -2825,7 +2825,7 @@ list
 .
 Downloads
 .
-_privateDownloadList
+_promisePrivateDownloadList
 =
 null
 ;
