@@ -412,7 +412,7 @@ do_check_true
 success
 )
 ;
-server
+gServer
 .
 stop
 (
@@ -436,6 +436,13 @@ run_test
 (
 )
 {
+run_captivedetect_test
+(
+xhr_handler
+fakeUIResponse
+test_portal_found
+)
+;
 server
 =
 new
