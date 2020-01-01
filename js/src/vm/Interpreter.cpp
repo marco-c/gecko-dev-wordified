@@ -8424,14 +8424,6 @@ arguments
 if
 (
 script
-|
-|
-cx
--
->
-currentlyRunningInInterpreter
-(
-)
 )
 {
 JS_ASSERT
