@@ -386,6 +386,14 @@ py
 '
 python
 /
+mach_commands
+.
+py
+'
+    
+'
+python
+/
 mach
 /
 mach
@@ -1031,7 +1039,7 @@ makedirs
 state_env_dir
 mode
 =
-0o770
+0777
 )
             
 print
