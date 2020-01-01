@@ -5763,10 +5763,12 @@ nsHTMLEditor
 :
 RelativizeURIInFragmentList
 (
+const
 nsCOMArray
 <
 nsIDOMNode
 >
+&
 aNodeList
 const
 nsAString
