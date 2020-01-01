@@ -1299,6 +1299,10 @@ False
 perfserv
 =
 None
+                 
+gecko_path
+=
+None
 )
 :
         
@@ -1445,6 +1449,12 @@ self
 perfserv
 =
 perfserv
+        
+self
+.
+gecko_path
+=
+gecko_path
         
 #
 set
@@ -1891,6 +1901,12 @@ logcat_dir
 self
 .
 logcat_dir
+                                             
+gecko_path
+=
+self
+.
+gecko_path
 )
             
 else
@@ -1979,6 +1995,12 @@ logcat_dir
 self
 .
 logcat_dir
+                                         
+gecko_path
+=
+self
+.
+gecko_path
 )
         
 else
@@ -5070,6 +5092,55 @@ output
 '
 )
     
+parser
+.
+add_option
+(
+'
+-
+-
+gecko
+-
+path
+'
+dest
+=
+'
+gecko_path
+'
+action
+=
+'
+store
+'
+                      
+default
+=
+None
+                      
+help
+=
+'
+path
+to
+B2G
+gecko
+binaries
+that
+should
+be
+'
+                      
+'
+installed
+on
+the
+device
+or
+emulator
+'
+)
+    
 options
 tests
 =
@@ -5399,6 +5470,12 @@ perfserv
 options
 .
 perfserv
+                          
+gecko_path
+=
+options
+.
+gecko_path
 )
     
 runner

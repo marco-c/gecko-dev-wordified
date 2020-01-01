@@ -1003,6 +1003,14 @@ self
 marionette
 .
 noWindow
+                               
+gecko_path
+=
+self
+.
+marionette
+.
+gecko_path
 )
             
 qemu
