@@ -986,15 +986,6 @@ RegisterShutdownObserver
 this
 )
 ;
-mImageContainer
-=
-aElement
--
->
-GetImageContainer
-(
-)
-;
 return
 true
 ;

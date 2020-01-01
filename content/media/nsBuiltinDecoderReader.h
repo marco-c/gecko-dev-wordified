@@ -2348,6 +2348,13 @@ mozilla
 ReentrantMonitorAutoEnter
 ReentrantMonitorAutoEnter
 ;
+typedef
+mozilla
+:
+:
+VideoFrameContainer
+VideoFrameContainer
+;
 nsBuiltinDecoderReader
 (
 nsBuiltinDecoder

@@ -3814,8 +3814,6 @@ PRUint32
 aLength
 )
 ;
-public
-:
 /
 /
 Return
@@ -4538,8 +4536,6 @@ NotifyAudioAvailableListener
 (
 )
 ;
-public
-:
 /
 /
 Notifies

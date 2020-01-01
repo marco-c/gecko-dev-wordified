@@ -1298,6 +1298,13 @@ mozilla
 TimeDuration
 TimeDuration
 ;
+typedef
+mozilla
+:
+:
+VideoFrameContainer
+VideoFrameContainer
+;
 nsBuiltinDecoderStateMachine
 (
 nsBuiltinDecoder
