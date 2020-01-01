@@ -458,7 +458,7 @@ class
 NS_COM_GLUE
 nsTObserverArray_base
 {
-protected
+public
 :
 typedef
 PRUint32
@@ -472,6 +472,8 @@ typedef
 PRInt32
 diff_type
 ;
+protected
+:
 class
 Iterator_base
 {
