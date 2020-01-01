@@ -407,10 +407,10 @@ assert
 .
 is
 (
-1
 stubScratchpad
 .
 activatedCount
+1
 '
 scratchpad
 is
