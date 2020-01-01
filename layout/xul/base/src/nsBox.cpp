@@ -2994,6 +2994,13 @@ if
 DoesClipChildren
 (
 )
+&
+&
+!
+IsCollapsed
+(
+aState
+)
 )
 {
 /
