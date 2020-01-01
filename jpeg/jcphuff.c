@@ -1644,7 +1644,6 @@ sufficient
 .
 *
 /
-INLINE
 LOCAL
 (
 void
@@ -1995,7 +1994,6 @@ symbol
 .
 *
 /
-INLINE
 LOCAL
 (
 void

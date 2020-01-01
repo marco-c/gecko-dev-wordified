@@ -888,7 +888,7 @@ memory
 /
 EXTERN
 (
-long
+size_t
 )
 jpeg_mem_available
 JPP
@@ -896,11 +896,11 @@ JPP
 (
 j_common_ptr
 cinfo
-long
+size_t
 min_bytes_needed
-long
+size_t
 max_bytes_needed
-long
+size_t
 already_allocated
 )
 )
