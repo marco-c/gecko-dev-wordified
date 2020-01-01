@@ -163,6 +163,9 @@ nsICryptoHash
 h
 "
 #
+ifdef
+MOZ_PLACES
+#
 include
 "
 nsIFaviconService
@@ -170,9 +173,18 @@ nsIFaviconService
 h
 "
 #
+endif
+#
 include
 "
 nsIDownloader
+.
+h
+"
+#
+include
+"
+nsIURI
 .
 h
 "
@@ -1796,6 +1808,9 @@ VistaCreateItemFromParsingNameInit
 ;
 }
 ;
+#
+ifdef
+MOZ_PLACES
 class
 AsyncFaviconDataReady
 MOZ_FINAL
@@ -1849,6 +1864,8 @@ mURLShortcut
 ;
 }
 ;
+#
+endif
 /
 *
 *

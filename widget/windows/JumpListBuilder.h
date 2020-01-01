@@ -172,13 +172,6 @@ h
 #
 include
 "
-nsIFaviconService
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
