@@ -534,6 +534,10 @@ NS_DECL_EVENT_HANDLER
 (
 resuming
 )
+NS_DECL_EVENT_HANDLER
+(
+error
+)
 nsRefPtr
 <
 Telephony
@@ -545,6 +549,12 @@ mNumber
 ;
 nsString
 mState
+;
+nsCOMPtr
+<
+nsIDOMDOMError
+>
+mError
 ;
 PRUint32
 mCallIndex
