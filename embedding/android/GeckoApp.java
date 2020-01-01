@@ -7773,6 +7773,17 @@ getFavicon
 ;
 mBrowserToolbar
 .
+setProgressVisibility
+(
+tab
+.
+isLoading
+(
+)
+)
+;
+mBrowserToolbar
+.
 updateTabs
 (
 Tabs
