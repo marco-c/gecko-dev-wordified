@@ -2125,6 +2125,14 @@ jsop_initelem_dense
 )
 ;
 bool
+jsop_initprop
+(
+JSAtom
+*
+atom
+)
+;
+bool
 jsop_regexp
 (
 RegExpObject
