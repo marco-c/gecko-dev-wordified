@@ -1316,6 +1316,20 @@ header_offset
 )
 )
     
+#
+empty
+_remove
+for
+multiple
+closes
+    
+self
+.
+_remove
+=
+[
+]
+    
 lengths
 =
 [
