@@ -3106,14 +3106,14 @@ rval
 )
 ;
 bool
-InvokeConstructorFunction
+InvokeConstructor
 (
 JSContext
 *
 cx
-JSFunction
+JSObject
 *
-fun
+obj
 uint32
 argc
 Value
