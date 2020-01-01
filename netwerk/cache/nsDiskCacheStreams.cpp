@@ -1404,6 +1404,11 @@ Close
 (
 )
 {
+nsresult
+rv
+=
+NS_OK
+;
 mozilla
 :
 :
@@ -1438,6 +1443,8 @@ streamIO
 we
 are
 closing
+rv
+=
 mStreamIO
 -
 >
@@ -1496,7 +1503,7 @@ start
 )
 ;
 return
-NS_OK
+rv
 ;
 }
 NS_IMETHODIMP
@@ -1507,6 +1514,11 @@ CloseInternal
 (
 )
 {
+nsresult
+rv
+=
+NS_OK
+;
 mozilla
 :
 :
@@ -1541,6 +1553,8 @@ streamIO
 we
 are
 closing
+rv
+=
 mStreamIO
 -
 >
@@ -1599,7 +1613,7 @@ start
 )
 ;
 return
-NS_OK
+rv
 ;
 }
 NS_IMETHODIMP
@@ -2687,7 +2701,7 @@ return
 NS_OK
 ;
 }
-void
+nsresult
 nsDiskCacheStreamIO
 :
 :
@@ -2695,6 +2709,11 @@ ClearBinding
 (
 )
 {
+nsresult
+rv
+=
+NS_OK
+;
 if
 (
 mBinding
@@ -2702,6 +2721,8 @@ mBinding
 &
 mOutStream
 )
+rv
+=
 Flush
 (
 )
@@ -2709,6 +2730,9 @@ Flush
 mBinding
 =
 nsnull
+;
+return
+rv
 ;
 }
 nsresult
@@ -3067,14 +3091,6 @@ DeleteStorage
 failed
 .
 "
-)
-;
-cacheMap
--
->
-DeleteRecord
-(
-record
 )
 ;
 return
