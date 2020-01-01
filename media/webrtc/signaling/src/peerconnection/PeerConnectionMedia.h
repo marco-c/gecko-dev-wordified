@@ -1350,6 +1350,10 @@ PeerConnectionMedia
 aParent
 )
 :
+mTrackTypeHints
+(
+0
+)
 mMediaStream
 (
 aMediaStream
@@ -1360,10 +1364,6 @@ mPipelines
 mParent
 (
 aParent
-)
-mTrackTypeHints
-(
-0
 )
 {
 MOZ_ASSERT
