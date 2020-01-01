@@ -19483,8 +19483,10 @@ locationStr
 =
 nsnull
 ;
+nsCOMPtr
+<
 nsIException
-*
+>
 e
 =
 nsnull
@@ -19499,8 +19501,10 @@ NewException
 NS_OK
 nsnull
 nsnull
-&
+getter_AddRefs
+(
 e
+)
 )
 ;
 if
