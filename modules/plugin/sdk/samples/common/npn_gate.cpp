@@ -592,7 +592,7 @@ const
 char
 *
 window
-uint32
+uint32_t
 len
 const
 char
@@ -664,7 +664,7 @@ const
 char
 *
 window
-uint32
+uint32_t
 len
 const
 char
@@ -771,7 +771,7 @@ return
 rv
 ;
 }
-int32
+int32_t
 NPN_Write
 (
 NPP
@@ -779,7 +779,7 @@ instance
 NPStream
 *
 stream
-int32
+int32_t
 len
 void
 *
@@ -795,7 +795,7 @@ version
 &
 0xFF
 ;
-int32
+int32_t
 rv
 =
 0
@@ -928,7 +928,7 @@ void
 *
 NPN_MemAlloc
 (
-uint32
+uint32_t
 size
 )
 {
@@ -959,10 +959,10 @@ ptr
 )
 ;
 }
-uint32
+uint32_t
 NPN_MemFlush
 (
-uint32
+uint32_t
 size
 )
 {
