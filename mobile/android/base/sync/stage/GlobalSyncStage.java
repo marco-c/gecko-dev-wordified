@@ -466,7 +466,11 @@ ensureKeysStage
 *
 ensureSpecialRecords
 updateEngineTimestamps
+*
+/
 syncClientsEngine
+/
+*
 processFirstSyncPref
 processClientCommands
 updateEnabledEngines
