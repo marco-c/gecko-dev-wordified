@@ -4688,6 +4688,8 @@ loadBaselineOrIonCode
 (
 Register
 script
+Register
+scratch
 Label
 *
 failure
