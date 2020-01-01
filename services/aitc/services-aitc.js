@@ -67,7 +67,9 @@ https
 :
 /
 /
-browserid
+login
+.
+persona
 .
 org
 /
