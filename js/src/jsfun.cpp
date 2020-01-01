@@ -11200,12 +11200,11 @@ argslen
 )
 )
 ;
-copySlotRange
+initSlotRange
 (
 BOUND_FUNCTION_RESERVED_SLOTS
 args
 argslen
-false
 )
 ;
 return

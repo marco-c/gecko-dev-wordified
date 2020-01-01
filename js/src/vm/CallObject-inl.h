@@ -1180,7 +1180,6 @@ copySlotRange
 RESERVED_SLOTS
 argv
 nargs
-true
 )
 ;
 copySlotRange
@@ -1190,7 +1189,6 @@ RESERVED_SLOTS
 nargs
 slots
 nvars
-true
 )
 ;
 }
