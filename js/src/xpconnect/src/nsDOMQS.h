@@ -596,6 +596,7 @@ _bit
 )
 DOMCI_CASTABLE_INTERFACES
 (
+unused
 )
 #
 undef

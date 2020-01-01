@@ -845,6 +845,7 @@ return
 }
 DOMCI_CASTABLE_INTERFACES
 (
+unused
 )
 #
 undef
