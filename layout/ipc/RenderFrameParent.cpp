@@ -244,6 +244,17 @@ RenderFrameParent
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+LayerManagerComposite
+.
+h
+"
 typedef
 nsContentView
 :

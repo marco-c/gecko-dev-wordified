@@ -327,6 +327,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+AsyncCompositionManager
+.
+h
+"
+#
+include
+"
 GLContext
 .
 h
