@@ -3671,7 +3671,7 @@ cpp
 .
 *
 /
-JSGCArenaInfo
+JSGCArena
 *
 gcUnmarkedArenaStackTop
 ;
