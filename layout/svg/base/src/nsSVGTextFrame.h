@@ -619,12 +619,6 @@ PRUint32
 aFlags
 )
 ;
-virtual
-void
-NotifyRedrawUnsuspended
-(
-)
-;
 /
 /
 Override
