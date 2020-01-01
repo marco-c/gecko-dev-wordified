@@ -801,6 +801,8 @@ aResult
 PRBool
 *
 aAppendContent
+PRBool
+aFromParser
 )
 ;
 nsresult

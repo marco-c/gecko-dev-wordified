@@ -2874,6 +2874,8 @@ aResult
 PRBool
 *
 aAppendContent
+PRBool
+aFromParser
 )
 {
 NS_ASSERTION
@@ -2926,7 +2928,7 @@ NamespaceID
 (
 )
 aNodeInfo
-PR_TRUE
+aFromParser
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5604,6 +5606,7 @@ content
 )
 &
 appendContent
+PR_TRUE
 )
 ;
 NS_ENSURE_SUCCESS

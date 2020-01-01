@@ -5218,6 +5218,8 @@ aResult
 PRBool
 *
 aAppendContent
+PRBool
+aFromParser
 )
 {
 #
@@ -5249,6 +5251,7 @@ aNodeInfo
 aLineNumber
 aResult
 aAppendContent
+aFromParser
 )
 ;
 #

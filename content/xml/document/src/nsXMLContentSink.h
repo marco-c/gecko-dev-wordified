@@ -880,6 +880,8 @@ aResult
 PRBool
 *
 aAppendContent
+PRBool
+aFromParser
 )
 ;
 /
