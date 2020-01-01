@@ -881,10 +881,9 @@ to
 notify
 that
 we
-are
-about
-to
-start
+have
+just
+started
 a
 transaction
 on
@@ -898,7 +897,7 @@ aManager
 *
 /
 void
-WillBeginRetainedLayerTransaction
+DidBeginRetainedLayerTransaction
 (
 LayerManager
 *

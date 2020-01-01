@@ -3148,7 +3148,7 @@ void
 FrameLayerBuilder
 :
 :
-WillBeginRetainedLayerTransaction
+DidBeginRetainedLayerTransaction
 (
 LayerManager
 *
