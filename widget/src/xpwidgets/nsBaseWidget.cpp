@@ -8122,6 +8122,17 @@ SetShadowManager
 shadowManager
 )
 ;
+lf
+-
+>
+SetParentBackendType
+(
+LayerManager
+:
+:
+LAYERS_OPENGL
+)
+;
 mLayerManager
 =
 lm
