@@ -321,7 +321,7 @@ msg
 ;
 this
 .
-num
+code
 =
 num
 ;
