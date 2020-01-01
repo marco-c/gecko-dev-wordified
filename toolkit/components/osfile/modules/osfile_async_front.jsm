@@ -1390,8 +1390,6 @@ options
 outExecutionDuration
 +
 =
-data
-.
 durationMs
 ;
 }
@@ -1401,8 +1399,6 @@ options
 .
 outExecutionDuration
 =
-data
-.
 durationMs
 ;
 }
