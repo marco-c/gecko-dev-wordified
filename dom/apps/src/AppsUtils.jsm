@@ -246,11 +246,6 @@ appStatus
 aApp
 .
 appStatus
-removable
-:
-aApp
-.
-removable
 localId
 :
 aApp
