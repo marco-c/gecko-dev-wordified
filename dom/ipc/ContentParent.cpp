@@ -5147,7 +5147,7 @@ nsAString
 aAppManifestURL
 bool
 aIsForBrowser
-ChildOSPrivileges
+ChildPrivileges
 aOSPrivileges
 )
 :

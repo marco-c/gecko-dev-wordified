@@ -826,13 +826,6 @@ why
 ;
 private
 :
-typedef
-base
-:
-:
-ChildPrivileges
-ChildOSPrivileges
-;
 static
 nsDataHashtable
 <
@@ -954,7 +947,10 @@ nsAString
 aAppManifestURL
 bool
 aIsForBrowser
-ChildOSPrivileges
+base
+:
+:
+ChildPrivileges
 aOSPrivileges
 =
 base
@@ -1946,7 +1942,10 @@ GeckoChildProcessHost
 *
 mSubprocess
 ;
-ChildOSPrivileges
+base
+:
+:
+ChildPrivileges
 mOSPrivileges
 ;
 uint64_t
