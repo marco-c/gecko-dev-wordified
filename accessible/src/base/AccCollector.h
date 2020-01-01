@@ -65,7 +65,7 @@ mozilla_a11y_AccCollector_h__
 #
 include
 "
-AccFilters
+Filters
 .
 h
 "
