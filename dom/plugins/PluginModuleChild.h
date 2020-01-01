@@ -925,6 +925,12 @@ ActorDestroyReason
 why
 )
 ;
+NS_NORETURN
+void
+QuickExit
+(
+)
+;
 public
 :
 PluginModuleChild
