@@ -30001,7 +30001,7 @@ date
 we
 cannot
 depend
-soley
+solely
 on
 the
 offset

@@ -806,7 +806,7 @@ provider
 creates
 an
 array
-soley
+solely
 for
 the
 /
