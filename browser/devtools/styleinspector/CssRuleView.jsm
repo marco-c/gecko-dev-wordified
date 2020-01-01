@@ -2654,7 +2654,7 @@ formatStringFromName
 "
 rule
 .
-inheritedSource
+inheritedFrom
 "
 [
 eltText
