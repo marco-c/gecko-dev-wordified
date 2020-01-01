@@ -535,6 +535,9 @@ jsbytecode
 *
 pc
 ;
+bool
+scriptedCall
+;
 }
 ;
 class
