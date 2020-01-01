@@ -2695,7 +2695,10 @@ shape
 =
 js_GenerateShape
 (
+(
 cx
+)
+JS_FALSE
 )
 )
 #
@@ -2769,7 +2772,10 @@ shape
 =
 js_GenerateShape
 (
+(
 cx
+)
+JS_FALSE
 )
 ;
 \

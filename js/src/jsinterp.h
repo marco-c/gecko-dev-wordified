@@ -1436,6 +1436,8 @@ js_GenerateShape
 JSContext
 *
 cx
+JSBool
+gcLocked
 )
 ;
 struct
