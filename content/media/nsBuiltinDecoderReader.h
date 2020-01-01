@@ -2292,7 +2292,6 @@ on
 the
 decode
 thread
-thread
 .
 Never
 hold
