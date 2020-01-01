@@ -2230,7 +2230,7 @@ static
 bool
 gPropertyEnabled
 [
-eCSSProperty_COUNT
+eCSSProperty_COUNT_with_aliases
 ]
 ;
 public
@@ -2253,7 +2253,7 @@ aProperty
 &
 aProperty
 <
-eCSSProperty_COUNT
+eCSSProperty_COUNT_with_aliases
 "
 out
 of
