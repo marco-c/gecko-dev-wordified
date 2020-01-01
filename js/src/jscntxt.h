@@ -2285,7 +2285,7 @@ JSGCThing
 *
 gcFreeLists
 [
-FINALIZE_LIMIT
+GC_NUM_FREELISTS
 ]
 ;
 /
@@ -2709,7 +2709,7 @@ gcChunkList
 JSGCArenaList
 gcArenaList
 [
-FINALIZE_LIMIT
+GC_NUM_FREELISTS
 ]
 ;
 JSGCDoubleArenaList
