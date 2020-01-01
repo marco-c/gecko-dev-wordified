@@ -1177,7 +1177,7 @@ eReadState_Unknown
 *
 aRead
 =
-JSVAL_VOID
+JSVAL_NULL
 ;
 return
 NS_OK
@@ -1222,7 +1222,7 @@ if
 aRead
 =
 =
-JSVAL_VOID
+JSVAL_NULL
 )
 {
 mData
@@ -1301,7 +1301,7 @@ threadId
 *
 aThreadId
 =
-JSVAL_VOID
+JSVAL_NULL
 ;
 return
 NS_OK
@@ -1352,7 +1352,7 @@ if
 aThreadId
 =
 =
-JSVAL_VOID
+JSVAL_NULL
 )
 {
 mData
