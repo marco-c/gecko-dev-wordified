@@ -1094,6 +1094,8 @@ i
 }
 NPError
 prv
+=
+NPERR_GENERIC_ERROR
 ;
 nsAutoPtr
 <
