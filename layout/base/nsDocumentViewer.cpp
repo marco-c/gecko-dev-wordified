@@ -6207,6 +6207,7 @@ mDocument
 OnPageShow
 (
 restoring
+nsnull
 )
 ;
 /
@@ -7061,6 +7062,7 @@ OnPageHide
 (
 !
 aIsUnload
+nsnull
 )
 ;
 if

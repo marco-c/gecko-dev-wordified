@@ -4622,6 +4622,9 @@ OnPageShow
 (
 PRBool
 aPersisted
+nsIDOMEventTarget
+*
+aDispatchStartTarget
 )
 ;
 virtual
@@ -4630,6 +4633,9 @@ OnPageHide
 (
 PRBool
 aPersisted
+nsIDOMEventTarget
+*
+aDispatchStartTarget
 )
 ;
 virtual
