@@ -491,10 +491,10 @@ DSTOffsetCache
 public
 :
 JSInt64
-getDSTOffset
+getDSTOffsetMilliseconds
 (
 int64
-localTime
+localTimeMilliseconds
 JSContext
 *
 cx
@@ -503,10 +503,10 @@ cx
 private
 :
 JSInt64
-computeDSTOffset
+computeDSTOffsetMilliseconds
 (
 int64
-localTime
+localTimeSeconds
 )
 ;
 static
@@ -529,9 +529,9 @@ time_t
 static
 const
 JSInt64
-MICROSECONDS_PER_SECOND
+MILLISECONDS_PER_SECOND
 =
-1000000
+1000
 ;
 static
 const
