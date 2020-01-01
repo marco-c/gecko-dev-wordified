@@ -5932,11 +5932,11 @@ available
 .
 /
 /
-DWORD
+DWORD_PTR
 addr
 =
 (
-DWORD
+DWORD_PTR
 )
 aPC
 ;
