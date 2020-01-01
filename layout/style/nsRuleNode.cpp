@@ -1266,6 +1266,25 @@ aStyleContext
 nsPresContext
 *
 aPresContext
+/
+/
+aUseUserFontSet
+should
+always
+be
+PR_TRUE
+/
+/
+except
+when
+called
+from
+/
+/
+CalcLengthWithInitialFont
+.
+PRBool
+aUseUserFontSet
 PRBool
 &
 aInherited
@@ -1500,6 +1519,7 @@ aPresContext
 GetMetricsFor
 (
 font
+aUseUserFontSet
 )
 ;
 nscoord
@@ -1559,6 +1579,7 @@ aPresContext
 GetMetricsFor
 (
 font
+aUseUserFontSet
 )
 ;
 nsCOMPtr
@@ -1684,6 +1705,7 @@ aValue
 nsnull
 aStyleContext
 aPresContext
+PR_TRUE
 aInherited
 )
 ;
@@ -1773,6 +1795,7 @@ aValue
 defaultFont
 nsnull
 aPresContext
+PR_FALSE
 inherited
 )
 ;
@@ -14743,6 +14766,7 @@ aParentSize
 aParentFont
 nsnull
 aPresContext
+PR_TRUE
 aInherited
 )
 ;
@@ -16597,6 +16621,7 @@ mSize
 aParentFont
 nsnull
 aPresContext
+PR_TRUE
 aInherited
 )
 ;

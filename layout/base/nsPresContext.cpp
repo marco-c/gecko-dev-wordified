@@ -6900,6 +6900,8 @@ const
 nsFont
 &
 aFont
+PRBool
+aUseUserFontSet
 )
 {
 nsIFontMetrics
@@ -6915,9 +6917,13 @@ GetMetricsFor
 (
 aFont
 mLangGroup
+aUseUserFontSet
+?
 GetUserFontSet
 (
 )
+:
+nsnull
 metrics
 )
 ;
