@@ -1591,7 +1591,7 @@ setNull
 ;
 }
 inline
-JSDHashNumber
+HashNumber
 StackShape
 :
 :
@@ -1600,7 +1600,7 @@ hash
 )
 const
 {
-JSDHashNumber
+HashNumber
 hash
 =
 uintptr_t

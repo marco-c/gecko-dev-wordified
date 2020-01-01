@@ -6040,13 +6040,12 @@ nbytes
 =
 sizeof
 (
-JSAtom
-*
+AtomStateEntry
 )
 +
 sizeof
 (
-JSDHashEntryStub
+HashNumber
 )
 ;
 nbytes
