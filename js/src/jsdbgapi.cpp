@@ -12321,7 +12321,7 @@ rarray
 ;
 for
 (
-int
+uint32
 i
 =
 0
