@@ -981,7 +981,7 @@ init
 )
 ;
 let
-login
+newLogin
 =
 new
 nsLoginInfo
@@ -1009,7 +1009,7 @@ Login
 .
 addLogin
 (
-login
+newLogin
 )
 ;
 }

@@ -565,6 +565,10 @@ displayName
 "
 MicroFormats
 "
+description
+:
+"
+"
 logName
 :
 "

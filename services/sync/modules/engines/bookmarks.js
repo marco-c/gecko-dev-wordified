@@ -862,6 +862,17 @@ displayName
 "
 Bookmarks
 "
+description
+:
+"
+Keep
+your
+favorite
+links
+always
+at
+hand
+"
 logName
 :
 "

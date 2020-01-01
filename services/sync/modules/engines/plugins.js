@@ -565,6 +565,10 @@ displayName
 "
 Plugins
 "
+description
+:
+"
+"
 logName
 :
 "
