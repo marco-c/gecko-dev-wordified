@@ -20044,11 +20044,14 @@ start
 ;
 #
 else
+debug_only_v
+(
 uint64
 cycles
 =
 0
 ;
+)
 #
 endif
 debug_only_v
@@ -22153,7 +22156,6 @@ clear
 ;
 }
 }
-extern
 void
 js_ShutDownJIT
 (
