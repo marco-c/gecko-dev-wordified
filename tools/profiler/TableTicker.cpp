@@ -3821,14 +3821,6 @@ if
 sample
 )
 {
-Address
-pc
-=
-sample
--
->
-pc
-;
 aProfile
 .
 addTag
