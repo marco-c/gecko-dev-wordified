@@ -5411,9 +5411,6 @@ nsClientRectList
 *
 mRectList
 ;
-nsresult
-mRV
-;
 RectListBuilder
 (
 nsClientRectList

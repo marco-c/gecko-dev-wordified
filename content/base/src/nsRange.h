@@ -988,9 +988,6 @@ nsClientRectList
 >
 GetClientRects
 (
-ErrorResult
-&
-aErr
 )
 ;
 nsINode
