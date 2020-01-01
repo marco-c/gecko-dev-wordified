@@ -2275,9 +2275,12 @@ v
 ?
 JSVAL_DOUBLE
 :
+uint8
+(
 JSVAL_TAG
 (
 v
+)
 )
 ;
 }
@@ -42423,6 +42426,7 @@ arg1
 :
 stackval
 (
+0
 -
 (
 i
