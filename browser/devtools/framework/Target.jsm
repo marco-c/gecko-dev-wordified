@@ -1502,7 +1502,7 @@ defaultView
 addEventListener
 (
 "
-close
+unload
 "
 this
 )
@@ -1580,7 +1580,7 @@ TabClose
 :
 case
 "
-close
+unload
 "
 :
 this
@@ -1756,7 +1756,7 @@ defaultView
 removeEventListener
 (
 "
-close
+unload
 "
 this
 )
