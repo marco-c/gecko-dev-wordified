@@ -756,8 +756,7 @@ picker
 dialog
 .
 static
-unsigned
-int
+UINT_PTR
 CALLBACK
 FilePickerHook
 (
