@@ -1574,10 +1574,6 @@ argv
 )
 ;
 }
-XPCOMGlueShutdown
-(
-)
-;
 return
 result
 ;

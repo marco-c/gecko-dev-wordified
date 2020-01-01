@@ -2576,10 +2576,6 @@ NS_LogTerm
 (
 )
 ;
-XPCOMGlueShutdown
-(
-)
-;
 return
 retval
 ;
