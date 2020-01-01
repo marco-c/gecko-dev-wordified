@@ -33193,10 +33193,6 @@ descriptor
 if
 descriptor
 .
-concrete
-or
-descriptor
-.
 interface
 .
 hasInterfacePrototypeObject
@@ -33389,19 +33385,12 @@ workers
         
 if
 (
-(
-descriptor
-.
-concrete
-or
-             
 descriptor
 .
 interface
 .
 hasInterfacePrototypeObject
 (
-)
 )
 and
             
