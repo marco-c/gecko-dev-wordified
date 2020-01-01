@@ -142,14 +142,12 @@ allCompatible
 =
 true
 ;
-aAddons
-.
-forEach
+for
 (
-function
-checkCompatibility
-(
+let
 a
+of
+aAddons
 )
 {
 /
@@ -168,7 +166,7 @@ type
 plugin
 "
 )
-return
+continue
 ;
 ok
 (
@@ -210,8 +208,6 @@ a
 isCompatible
 ;
 }
-)
-;
 /
 /
 Add

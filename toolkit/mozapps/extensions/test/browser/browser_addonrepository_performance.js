@@ -92,6 +92,11 @@ params
 {
 }
 ;
+for
+(
+let
+param
+of
 aQuery
 .
 split
@@ -100,12 +105,6 @@ split
 &
 "
 )
-.
-forEach
-(
-function
-(
-aParam
 )
 {
 let
@@ -114,7 +113,7 @@ key
 value
 ]
 =
-aParam
+param
 .
 split
 (
@@ -131,8 +130,6 @@ key
 value
 ;
 }
-)
-;
 return
 params
 ;

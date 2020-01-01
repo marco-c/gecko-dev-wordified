@@ -855,20 +855,19 @@ function
 aAddons
 )
 {
+for
+(
+let
+addon
+of
 aAddons
-.
-forEach
-(
-function
-(
-aAddon
 )
 {
 if
 (
 !
 (
-aAddon
+addon
 .
 id
 in
@@ -892,7 +891,7 @@ necessary
 above
 if
 (
-aAddon
+addon
 .
 id
 .
@@ -919,7 +918,7 @@ Add
 on
 "
 +
-aAddon
+addon
 .
 id
 +
@@ -933,7 +932,7 @@ data
 "
 )
 ;
-return
+continue
 ;
 }
 info
@@ -947,7 +946,7 @@ add
 on
 "
 +
-aAddon
+addon
 .
 id
 )
@@ -957,7 +956,7 @@ addonData
 =
 data
 [
-aAddon
+addon
 .
 id
 ]
@@ -967,7 +966,7 @@ is
 addonData
 .
 name
-aAddon
+addon
 .
 name
 "
@@ -983,7 +982,7 @@ is
 addonData
 .
 version
-aAddon
+addon
 .
 version
 "
@@ -999,7 +998,7 @@ is
 addonData
 .
 type
-aAddon
+addon
 .
 type
 "
@@ -1015,7 +1014,7 @@ is
 addonData
 .
 userDisabled
-aAddon
+addon
 .
 userDisabled
 "
@@ -1031,7 +1030,7 @@ is
 addonData
 .
 isBlocklisted
-aAddon
+addon
 .
 blocklistState
 =
@@ -1054,7 +1053,7 @@ is
 addonData
 .
 isCompatible
-aAddon
+addon
 .
 isCompatible
 "
@@ -1066,8 +1065,6 @@ correct
 )
 ;
 }
-)
-;
 aCallback
 (
 )
