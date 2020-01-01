@@ -23151,6 +23151,9 @@ file
 )
 ;
 }
+#
+ifdef
+XP_UNIX
 JS_free
 (
 cx
@@ -23161,6 +23164,8 @@ void
 pathname
 )
 ;
+#
+endif
 if
 (
 !
