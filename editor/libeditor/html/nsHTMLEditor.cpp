@@ -21804,7 +21804,7 @@ nsIDocument
 >
 doc
 =
-do_QueryInterface
+do_QueryReferent
 (
 mDocWeak
 )
@@ -21907,7 +21907,7 @@ nsIDocument
 >
 doc
 =
-do_QueryInterface
+do_QueryReferent
 (
 mDocWeak
 )
