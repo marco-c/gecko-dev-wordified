@@ -199,6 +199,9 @@ aWhichClipboard
 0
 ;
 bool
+mEmptyingForSetData
+;
+bool
 mIgnoreEmptyNotification
 ;
 nsIClipboardOwner
