@@ -354,6 +354,9 @@ uint32_t
 timerID
 )
 ;
+bool
+inCallback
+;
 }
 ;
 class
