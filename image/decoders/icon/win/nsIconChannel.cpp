@@ -587,12 +587,6 @@ nsDirectoryServiceDefs
 h
 "
 #
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
-#
 ifdef
 _WIN32_WINNT
 #
@@ -604,8 +598,6 @@ endif
 define
 _WIN32_WINNT
 0x0600
-#
-endif
 /
 /
 we
@@ -703,12 +695,6 @@ ieFileOffset
 ;
 }
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 typedef
 HRESULT
 (
@@ -769,8 +755,6 @@ return
 SIID_INVALID
 ;
 }
-#
-endif
 /
 /
 nsIconChannel
@@ -2380,12 +2364,6 @@ return
 rv
 ;
 }
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 nsresult
 nsIconChannel
 :
@@ -2575,8 +2553,6 @@ return
 rv
 ;
 }
-#
-endif
 /
 /
 Given
@@ -3068,12 +3044,6 @@ hIcon
 =
 NULL
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 nsCOMPtr
 <
 nsIMozIconURI
@@ -3124,8 +3094,6 @@ hIcon
 )
 ;
 else
-#
-endif
 rv
 =
 GetHIconFromFile

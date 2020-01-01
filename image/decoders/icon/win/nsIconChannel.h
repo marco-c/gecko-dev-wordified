@@ -647,12 +647,6 @@ to
 Vista
 and
 above
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 protected
 :
 nsresult
@@ -666,8 +660,6 @@ HICON
 hIcon
 )
 ;
-#
-endif
 }
 ;
 #

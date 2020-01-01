@@ -4747,12 +4747,6 @@ minidump_type
 =
 MiniDumpNormal
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 /
 /
 Try
@@ -4943,14 +4937,6 @@ MiniDumpWithFullMemoryInfo
 }
 }
 }
-#
-endif
-/
-/
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 #
 endif
 /

@@ -1327,6 +1327,13 @@ GetViewWidget
 (
 )
 ;
+virtual
+PRUint32
+GetGLFrameBufferFormat
+(
+)
+MOZ_OVERRIDE
+;
 protected
 :
 nsCOMPtr

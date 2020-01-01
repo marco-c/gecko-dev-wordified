@@ -52,12 +52,6 @@ et
 *
 /
 #
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
-#
 ifndef
 nsDownloadScanner_h_
 #
@@ -564,11 +558,3 @@ nsDownloadScannerWatchdog
 ;
 #
 endif
-#
-endif
-/
-/
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
