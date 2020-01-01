@@ -5401,7 +5401,9 @@ GetCategoryEntry
 (
 "
 XSLT
+-
 extension
+-
 functions
 "
 NS_ConvertUTF16toUTF8
