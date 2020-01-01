@@ -1464,9 +1464,6 @@ mIsAnchor
 PRBool
 mIsAnchorJumped
 ;
-PRUint32
-mAriaPropTypes
-;
 static
 PRUint32
 gLastFocusedAccessiblesState

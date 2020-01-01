@@ -1345,7 +1345,8 @@ code
 nsresult
 GetTextFromRelationID
 (
-EAriaProperty
+nsIAtom
+*
 aIDProperty
 nsString
 &
@@ -1783,7 +1784,7 @@ region
 defined
 by
 aria
-:
+-
 atomic
 =
 "
@@ -1852,7 +1853,8 @@ attribute
 nsresult
 GetAttrValue
 (
-EAriaProperty
+nsIAtom
+*
 aAriaProperty
 double
 *

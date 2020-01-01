@@ -6706,8 +6706,8 @@ attribute
 )
 or
 via
-aaa
-:
+aria
+-
 describedby
 nsAccessible
 :
