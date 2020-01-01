@@ -702,9 +702,7 @@ formatName
 createTexture
 (
 internalFormat
-gl
-.
-RGBA
+internalFormat
 )
 ;
 var
@@ -762,7 +760,7 @@ should
 return
 gl
 .
-INVALID_OPERATION
+INVALID_ENUM
 for
 type
 "
@@ -1278,7 +1276,7 @@ gl
 .
 ARRAY_BUFFER
 new
-WebGLFloatArray
+Float32Array
 (
 [
 -
@@ -1360,7 +1358,7 @@ gl
 .
 ARRAY_BUFFER
 new
-WebGLFloatArray
+Float32Array
 (
 [
 0
@@ -1705,6 +1703,16 @@ flush
 var
 buf
 =
+new
+Uint8Array
+(
+2
+*
+2
+*
+4
+)
+;
 gl
 .
 readPixels
@@ -1719,6 +1727,7 @@ RGBA
 gl
 .
 UNSIGNED_BYTE
+buf
 )
 ;
 for
@@ -1888,7 +1897,7 @@ gl
 .
 RGBA
 new
-WebGLUnsignedByteArray
+Uint8Array
 (
 [
 0
@@ -1924,7 +1933,7 @@ gl
 .
 RGBA
 new
-WebGLUnsignedShortArray
+Uint16Array
 (
 [
 255
@@ -1952,7 +1961,7 @@ gl
 .
 RGB
 new
-WebGLUnsignedShortArray
+Uint16Array
 (
 [
 2016
@@ -1980,7 +1989,7 @@ gl
 .
 RGBA
 new
-WebGLUnsignedShortArray
+Uint16Array
 (
 [
 63
