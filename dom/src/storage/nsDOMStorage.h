@@ -597,16 +597,6 @@ nsWeakReference
 h
 "
 #
-define
-NS_DOMSTORAGE_FLUSH_TIMER_OBSERVER
-"
-domstorage
--
-flush
--
-timer
-"
-#
 include
 "
 nsDOMStorageDBWrapper
