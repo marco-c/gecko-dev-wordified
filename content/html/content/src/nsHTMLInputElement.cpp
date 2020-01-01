@@ -1667,6 +1667,8 @@ PRBool
 IsHTMLFocusable
 (
 PRBool
+aWithMouse
+PRBool
 *
 aIsFocusable
 PRInt32
@@ -16963,6 +16965,8 @@ nsHTMLInputElement
 IsHTMLFocusable
 (
 PRBool
+aWithMouse
+PRBool
 *
 aIsFocusable
 PRInt32
@@ -16977,6 +16981,7 @@ nsGenericHTMLElement
 :
 IsHTMLFocusable
 (
+aWithMouse
 aIsFocusable
 aTabIndex
 )
@@ -17024,6 +17029,26 @@ return
 PR_FALSE
 ;
 }
+#
+ifdef
+XP_MACOSX
+const
+PRBool
+defaultFocusable
+=
+!
+aWithMouse
+;
+#
+else
+const
+PRBool
+defaultFocusable
+=
+PR_TRUE
+;
+#
+endif
 if
 (
 mType
@@ -17047,7 +17072,7 @@ aTabIndex
 *
 aIsFocusable
 =
-PR_TRUE
+defaultFocusable
 ;
 return
 PR_TRUE
@@ -17099,7 +17124,7 @@ focusable
 *
 aIsFocusable
 =
-PR_TRUE
+defaultFocusable
 ;
 return
 PR_FALSE
@@ -17156,7 +17181,7 @@ NS_FORM_INPUT_RADIO
 *
 aIsFocusable
 =
-PR_TRUE
+defaultFocusable
 ;
 return
 PR_FALSE
@@ -17179,7 +17204,7 @@ tabbable
 *
 aIsFocusable
 =
-PR_TRUE
+defaultFocusable
 ;
 return
 PR_FALSE
@@ -17236,7 +17261,7 @@ name
 *
 aIsFocusable
 =
-PR_TRUE
+defaultFocusable
 ;
 return
 PR_FALSE
@@ -17275,7 +17300,7 @@ aTabIndex
 *
 aIsFocusable
 =
-PR_TRUE
+defaultFocusable
 ;
 return
 PR_FALSE

@@ -1291,6 +1291,7 @@ PR_FALSE
 ;
 IsHTMLFocusable
 (
+aWithMouse
 &
 isFocusable
 aTabIndex
@@ -1327,6 +1328,8 @@ virtual
 PRBool
 IsHTMLFocusable
 (
+PRBool
+aWithMouse
 PRBool
 *
 aIsFocusable
@@ -5935,6 +5938,8 @@ virtual
 PRBool
 IsHTMLFocusable
 (
+PRBool
+aWithMouse
 PRBool
 *
 aIsFocusable

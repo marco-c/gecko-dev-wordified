@@ -674,6 +674,8 @@ PRBool
 IsHTMLFocusable
 (
 PRBool
+aWithMouse
+PRBool
 *
 aIsFocusable
 PRInt32
@@ -1519,6 +1521,8 @@ nsHTMLObjectElement
 IsHTMLFocusable
 (
 PRBool
+aWithMouse
+PRBool
 *
 aIsFocusable
 PRInt32
@@ -1585,6 +1589,7 @@ nsGenericHTMLFormElement
 :
 IsHTMLFocusable
 (
+aWithMouse
 aIsFocusable
 aTabIndex
 )

@@ -1475,6 +1475,8 @@ PRBool
 IsHTMLFocusable
 (
 PRBool
+aWithMouse
+PRBool
 *
 aIsFocusable
 PRInt32

@@ -6733,6 +6733,8 @@ nsHTMLSelectElement
 IsHTMLFocusable
 (
 PRBool
+aWithMouse
+PRBool
 *
 aIsFocusable
 PRInt32
@@ -6747,6 +6749,7 @@ nsGenericHTMLElement
 :
 IsHTMLFocusable
 (
+aWithMouse
 aIsFocusable
 aTabIndex
 )

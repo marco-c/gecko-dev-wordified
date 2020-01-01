@@ -758,6 +758,8 @@ PRBool
 IsHTMLFocusable
 (
 PRBool
+aWithMouse
+PRBool
 *
 aIsFocusable
 PRInt32
@@ -1649,6 +1651,8 @@ nsHTMLSharedObjectElement
 IsHTMLFocusable
 (
 PRBool
+aWithMouse
+PRBool
 *
 aIsFocusable
 PRInt32
@@ -1736,6 +1740,7 @@ nsGenericHTMLElement
 :
 IsHTMLFocusable
 (
+aWithMouse
 aIsFocusable
 aTabIndex
 )
