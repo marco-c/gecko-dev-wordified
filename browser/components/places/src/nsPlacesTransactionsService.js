@@ -4429,6 +4429,12 @@ itemId
 )
 ;
 }
+contents
+.
+containerOpen
+=
+false
+;
 }
 }
 ;
@@ -6469,6 +6475,12 @@ item
 )
 ;
 }
+contents
+.
+containerOpen
+=
+false
+;
 if
 (
 preSep

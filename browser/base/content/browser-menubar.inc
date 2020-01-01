@@ -3811,6 +3811,17 @@ this
 )
 ;
 "
+onpopuphidden
+=
+"
+HistoryMenu
+.
+onPopupHidden
+(
+this
+)
+;
+"
 place
 =
 "
