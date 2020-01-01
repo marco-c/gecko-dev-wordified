@@ -1050,12 +1050,11 @@ by
 our
 Display
 .
-XSync
+FinishX
 (
 DefaultXDisplay
 (
 )
-False
 )
 ;
 }
