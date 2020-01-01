@@ -2967,6 +2967,12 @@ return
 DoesMinMaxApply
 (
 )
+&
+&
+mType
+!
+=
+NS_FORM_INPUT_TIME
 ;
 }
 /
@@ -3025,12 +3031,6 @@ return
 DoesMinMaxApply
 (
 )
-|
-|
-mType
-=
-=
-NS_FORM_INPUT_TIME
 ;
 }
 /
