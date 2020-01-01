@@ -1804,10 +1804,10 @@ f
 *
 Include
 space
-to
-push
-another
-frame
+for
+any
+inline
+frames
 .
 *
 /
@@ -1828,7 +1828,10 @@ script
 >
 nslots
 +
-VALUES_PER_STACK_FRAME
+StackSpace
+:
+:
+STACK_EXTRA
 ;
 JS_ASSERT
 (

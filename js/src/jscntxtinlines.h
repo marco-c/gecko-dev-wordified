@@ -1771,13 +1771,11 @@ script
 /
 *
 Include
-an
 extra
-sizeof
-(
-JSStackFrame
-)
+space
 for
+inlining
+by
 the
 method
 -
@@ -1788,7 +1786,7 @@ jit
 uintN
 nvals
 =
-VALUES_PER_STACK_FRAME
+STACK_EXTRA
 +
 script
 -
@@ -2948,7 +2946,7 @@ numSlots
 (
 )
 +
-VALUES_PER_STACK_FRAME
+STACK_EXTRA
 ;
 return
 ensureSpace
@@ -2994,7 +2992,7 @@ numSlots
 (
 )
 +
-VALUES_PER_STACK_FRAME
+STACK_EXTRA
 ;
 return
 ensureSpace
