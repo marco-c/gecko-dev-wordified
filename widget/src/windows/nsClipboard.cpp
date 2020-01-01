@@ -2567,12 +2567,6 @@ OleSetClipboard
 dataObj
 )
 ;
-:
-:
-OleFlushClipboard
-(
-)
-;
 dataObj
 -
 >
