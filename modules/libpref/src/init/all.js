@@ -5616,16 +5616,6 @@ pref
 "
 dom
 .
-disable_window_move_resize
-"
-false
-)
-;
-pref
-(
-"
-dom
-.
 disable_window_status_change
 "
 false
