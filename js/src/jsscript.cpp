@@ -9077,6 +9077,17 @@ rt
 >
 scriptFilenameTable
 ;
+if
+(
+!
+table
+.
+initialized
+(
+)
+)
+return
+;
 for
 (
 ScriptFilenameTable
