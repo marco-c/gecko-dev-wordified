@@ -6378,6 +6378,13 @@ void
 aInstancePtr
 )
 ;
+nsINode
+*
+GetParentObject
+(
+)
+const
+;
 virtual
 bool
 IsNodeOfType
