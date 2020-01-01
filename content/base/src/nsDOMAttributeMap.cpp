@@ -612,7 +612,7 @@ nsDOMAttributeMap
 :
 nsDOMAttributeMap
 (
-nsIContent
+Element
 *
 aContent
 )
