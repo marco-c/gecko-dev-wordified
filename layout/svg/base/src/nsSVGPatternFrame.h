@@ -872,6 +872,9 @@ const
 gfxMatrix
 &
 callerCTM
+nsSVGElement
+*
+aTargetContent
 )
 ;
 nsresult
