@@ -34519,9 +34519,6 @@ inline
 bool
 IsAboutToBeFinalized
 (
-JSContext
-*
-cx
 TypeObjectKey
 *
 key
@@ -41031,7 +41028,6 @@ object
 !
 IsAboutToBeFinalized
 (
-cx
 object
 )
 )
@@ -41106,7 +41102,6 @@ if
 (
 IsAboutToBeFinalized
 (
-cx
 object
 )
 )
@@ -42376,7 +42371,6 @@ if
 (
 IsAboutToBeFinalized
 (
-cx
 key
 .
 script
@@ -42755,7 +42749,6 @@ isObject
 &
 IsAboutToBeFinalized
 (
-cx
 type
 .
 objectKey

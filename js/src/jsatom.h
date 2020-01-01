@@ -3480,9 +3480,9 @@ extern
 void
 js_SweepAtomState
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 )
 ;
 extern

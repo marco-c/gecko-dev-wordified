@@ -8531,9 +8531,6 @@ bool
 )
 IsAboutToBeFinalized
 (
-JSContext
-*
-cx
 const
 js
 :
@@ -8550,9 +8547,6 @@ extern
 bool
 IsAboutToBeFinalized
 (
-JSContext
-*
-cx
 const
 js
 :

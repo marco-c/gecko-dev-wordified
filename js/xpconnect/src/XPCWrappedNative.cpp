@@ -8424,7 +8424,6 @@ NS_ASSERTION
 (
 JS_IsAboutToBeFinalized
 (
-cx
 jso
 )
 "

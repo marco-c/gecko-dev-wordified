@@ -2673,9 +2673,6 @@ Debugger
 :
 hasAnyLiveHooks
 (
-JSContext
-*
-cx
 )
 const
 {
@@ -2758,7 +2755,6 @@ if
 !
 IsAboutToBeFinalized
 (
-cx
 bp
 -
 >
@@ -7568,10 +7564,6 @@ comp
 &
 IsAboutToBeFinalized
 (
-tracer
--
->
-context
 key
 )
 )
@@ -7655,10 +7647,6 @@ comp
 &
 IsAboutToBeFinalized
 (
-tracer
--
->
-context
 key
 )
 )
@@ -7758,10 +7746,6 @@ comp
 &
 IsAboutToBeFinalized
 (
-tracer
--
->
-context
 key
 )
 )
@@ -8252,20 +8236,11 @@ debuggees
 .
 *
 /
-JSContext
-*
-cx
-=
-trc
--
->
-context
-;
 JSRuntime
 *
 rt
 =
-cx
+trc
 -
 >
 runtime
@@ -8422,7 +8397,6 @@ if
 (
 IsAboutToBeFinalized
 (
-cx
 global
 )
 )
@@ -8593,7 +8567,6 @@ dbgMarked
 !
 IsAboutToBeFinalized
 (
-cx
 dbgobj
 )
 ;
@@ -8608,7 +8581,6 @@ dbg
 >
 hasAnyLiveHooks
 (
-cx
 )
 )
 {
@@ -8699,7 +8671,6 @@ if
 !
 IsAboutToBeFinalized
 (
-cx
 bp
 -
 >
@@ -8748,7 +8719,6 @@ if
 (
 IsAboutToBeFinalized
 (
-cx
 handler
 )
 )
@@ -9109,7 +9079,6 @@ if
 (
 IsAboutToBeFinalized
 (
-cx
 dbg
 -
 >
@@ -9361,7 +9330,6 @@ if
 (
 IsAboutToBeFinalized
 (
-cx
 global
 )
 )
