@@ -1993,6 +1993,10 @@ mDownloadError
 nsnull
 :
 mSuccessCallback
+.
+get
+(
+)
 ;
 DownloadDone
 (
@@ -2080,6 +2084,10 @@ mDownloadError
 nsnull
 :
 mUpdateErrorCallback
+.
+get
+(
+)
 ;
 DownloadDone
 (
