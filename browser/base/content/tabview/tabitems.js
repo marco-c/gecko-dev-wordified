@@ -3811,6 +3811,12 @@ _hasBeenDrawn
 true
 ;
 }
+UI
+.
+clearShouldResizeItems
+(
+)
+;
 this
 .
 _updateDebugBounds

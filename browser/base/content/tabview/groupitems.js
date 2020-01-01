@@ -3665,6 +3665,12 @@ adjustTitleSize
 (
 )
 ;
+UI
+.
+clearShouldResizeItems
+(
+)
+;
 this
 .
 _updateDebugBounds
