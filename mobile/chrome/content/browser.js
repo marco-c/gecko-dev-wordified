@@ -6155,6 +6155,11 @@ this
 _identityBox
 .
 className
+|
+|
+this
+.
+IDENTITY_MODE_UNKNOWN
 )
 ;
 /
