@@ -3567,7 +3567,7 @@ _bundle
 GetStringFromName
 (
 "
-lastSyncInProgress
+lastSyncInProgress2
 .
 label
 "
@@ -3711,7 +3711,7 @@ _bundle
 formatStringFromName
 (
 "
-lastSync
+lastSync2
 .
 label
 "
