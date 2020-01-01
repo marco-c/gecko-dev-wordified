@@ -4827,15 +4827,6 @@ Android
 elif
 defined
 (
-MOZ_WIDGET_PHOTON
-)
-"
-Photon
-"
-#
-elif
-defined
-(
 XP_OS2
 )
 "
