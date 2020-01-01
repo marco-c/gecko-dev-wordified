@@ -15760,6 +15760,7 @@ js_FindProperty
 (
 cx
 id
+false
 &
 obj
 &
