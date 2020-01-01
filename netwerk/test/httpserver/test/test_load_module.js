@@ -88,7 +88,8 @@ server
 .
 start
 (
-8080
+-
+1
 )
 ;
 do_test_pending
