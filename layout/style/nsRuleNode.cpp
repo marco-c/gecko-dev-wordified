@@ -5081,10 +5081,11 @@ aResult
 .
 mToCorner
 =
+!
 gradient
 -
 >
-mIsToCorner
+mIsLegacySyntax
 ;
 }
 /

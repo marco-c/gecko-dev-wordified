@@ -6469,7 +6469,7 @@ bool
 mIsRepeating
 ;
 bool
-mIsToCorner
+mIsLegacySyntax
 ;
 /
 /
@@ -6533,12 +6533,12 @@ aOther
 mIsRepeating
 |
 |
-mIsToCorner
+mIsLegacySyntax
 !
 =
 aOther
 .
-mIsToCorner
+mIsLegacySyntax
 |
 |
 mBgPos

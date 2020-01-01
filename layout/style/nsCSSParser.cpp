@@ -29670,8 +29670,9 @@ mIdent
 cssGradient
 -
 >
-mIsToCorner
+mIsLegacySyntax
 =
+!
 toCorner
 ;
 UngetToken
@@ -30079,6 +30080,13 @@ nsCSSValueGradient
 true
 aIsRepeating
 )
+;
+cssGradient
+-
+>
+mIsLegacySyntax
+=
+true
 ;
 /
 /
