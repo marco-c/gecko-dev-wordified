@@ -1771,6 +1771,15 @@ Tag
 ;
 widgetData
 .
+mSupportTranslucency
+=
+mode
+=
+=
+eTransparencyTransparent
+;
+widgetData
+.
 mDropShadow
 =
 !
