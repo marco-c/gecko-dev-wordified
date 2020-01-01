@@ -179,7 +179,7 @@ mTypeface
 endif
 #
 ifdef
-USE_CAIRO
+USE_CAIRO_SCALED_FONT
 cairo_scaled_font_destroy
 (
 mScaledFont
@@ -213,7 +213,7 @@ nullptr
 endif
 #
 ifdef
-USE_CAIRO
+USE_CAIRO_SCALED_FONT
 mScaledFont
 =
 nullptr
@@ -677,7 +677,7 @@ return
 }
 #
 ifdef
-USE_CAIRO
+USE_CAIRO_SCALED_FONT
 void
 ScaledFontBase
 :
