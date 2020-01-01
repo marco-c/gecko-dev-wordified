@@ -991,10 +991,14 @@ it
 binder
 )
 {
-*
 it
 =
-NULL
+mVideoCodecRequestQueue
+.
+erase
+(
+it
+)
 ;
 continue
 ;
