@@ -384,12 +384,10 @@ return
 /
 /
 Move
-to
-the
-left
+up
 to
 find
-row
+column
 header
 cells
 for
