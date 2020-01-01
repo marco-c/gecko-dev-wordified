@@ -4586,10 +4586,10 @@ F
 are
 reserved
 on
-GTK2
+GTK
 #
 ifndef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 <
 key
 id
