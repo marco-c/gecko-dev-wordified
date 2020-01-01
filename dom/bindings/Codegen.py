@@ -25489,6 +25489,7 @@ things
 !
             
 assert
+(
 isResultAlreadyAddRefed
 (
 self
@@ -25498,6 +25499,30 @@ descriptor
 self
 .
 extendedAttributes
+)
+or
+                   
+#
+Workers
+use
+raw
+pointers
+for
+new
+-
+object
+return
+                   
+#
+values
+or
+something
+                   
+self
+.
+descriptor
+.
+workers
 )
         
 resultTemplateValues
