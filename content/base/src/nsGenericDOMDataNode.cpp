@@ -2113,6 +2113,7 @@ HasMutationListeners
 (
 this
 NS_EVENT_BITS_MUTATION_CHARACTERDATAMODIFIED
+this
 )
 ;
 nsCOMPtr
