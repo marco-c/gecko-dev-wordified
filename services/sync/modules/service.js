@@ -3112,6 +3112,19 @@ NORMAL_FILE_TYPE
 PERMS_FILE
 )
 ;
+let
+maxSize
+=
+65536
+;
+/
+/
+64
+*
+1024
+(
+64KB
+)
 this
 .
 _debugApp
@@ -3123,6 +3136,7 @@ RotatingFileAppender
 (
 verbose
 formatter
+maxSize
 )
 ;
 this
