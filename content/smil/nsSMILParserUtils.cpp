@@ -3327,7 +3327,7 @@ nsSMILValue
 aValuesArray
 PRBool
 *
-aCanCache
+aPreventCachingOfSandwich
 )
 :
 mSrcElement
@@ -3342,9 +3342,9 @@ mValuesArray
 (
 aValuesArray
 )
-mCanCache
+mPreventCachingOfSandwich
 (
-aCanCache
+aPreventCachingOfSandwich
 )
 {
 }
@@ -3362,7 +3362,7 @@ nsSMILValue
 newValue
 ;
 PRBool
-tmpCanCache
+tmpPreventCachingOfSandwich
 ;
 nsresult
 rv
@@ -3375,7 +3375,7 @@ ValueFromString
 aValueStr
 mSrcElement
 newValue
-tmpCanCache
+tmpPreventCachingOfSandwich
 )
 ;
 if
@@ -3406,14 +3406,13 @@ NS_ERROR_OUT_OF_MEMORY
 }
 if
 (
-!
-tmpCanCache
+tmpPreventCachingOfSandwich
 )
 {
 *
-mCanCache
+mPreventCachingOfSandwich
 =
-PR_FALSE
+PR_TRUE
 ;
 }
 return
@@ -3441,7 +3440,7 @@ mValuesArray
 ;
 PRBool
 *
-mCanCache
+mPreventCachingOfSandwich
 ;
 }
 ;
@@ -3471,7 +3470,7 @@ nsSMILValue
 aValuesArray
 PRBool
 &
-aCanCache
+aPreventCachingOfSandwich
 )
 {
 /
@@ -3491,9 +3490,9 @@ can
 '
 t
 .
-aCanCache
+aPreventCachingOfSandwich
 =
-PR_TRUE
+PR_FALSE
 ;
 SMILValueParser
 valueParser
@@ -3504,7 +3503,7 @@ aAttribute
 &
 aValuesArray
 &
-aCanCache
+aPreventCachingOfSandwich
 )
 ;
 return

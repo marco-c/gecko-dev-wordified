@@ -837,7 +837,7 @@ nsSMILValue
 aValue
 PRBool
 &
-aCanCache
+aPreventCachingOfSandwich
 )
 const
 {
@@ -928,9 +928,9 @@ aValue
 =
 smilVal
 ;
-aCanCache
+aPreventCachingOfSandwich
 =
-PR_TRUE
+PR_FALSE
 ;
 return
 NS_OK

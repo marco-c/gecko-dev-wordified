@@ -626,7 +626,7 @@ nsSMILValue
 aValuesArray
 PRBool
 &
-aCanCache
+aPreventCachingOfSandwich
 )
 ;
 /

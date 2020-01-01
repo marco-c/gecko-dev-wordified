@@ -597,7 +597,7 @@ nsSMILValue
 aValue
 PRBool
 &
-aCanCache
+aPreventCachingOfSandwich
 )
 const
 {
@@ -662,9 +662,9 @@ nsSMILCSSProperty
 :
 ValueFromString
 .
-aCanCache
+aPreventCachingOfSandwich
 =
-PR_FALSE
+PR_TRUE
 ;
 return
 NS_OK
