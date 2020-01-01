@@ -577,7 +577,6 @@ _flags
 }
 ;
 \
-extern
 nsIClassInfo
 *
 NS_CLASSINFO_NAME
