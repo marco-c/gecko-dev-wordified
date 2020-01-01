@@ -422,6 +422,7 @@ profileName
 ;
 }
 public
+synchronized
 File
 getDir
 (
@@ -1838,6 +1839,7 @@ success
 ;
 }
 private
+synchronized
 File
 ensureMozillaDirectory
 (
