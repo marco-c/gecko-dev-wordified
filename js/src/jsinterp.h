@@ -1594,6 +1594,10 @@ InterpMode
 mode
 =
 JSINTERP_NORMAL
+bool
+useNewType
+=
+false
 )
 ;
 extern
