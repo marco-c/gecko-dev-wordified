@@ -61,7 +61,7 @@ ifndef
 _RM_MGR_H__
 #
 define
-_RM_MGR_H_
+_RM_MGR_H__
 typedef
 struct
 resource_manager
