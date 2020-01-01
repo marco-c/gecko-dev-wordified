@@ -3045,8 +3045,6 @@ js_TraceAtomState
 JSTracer
 *
 trc
-JSBool
-allAtoms
 )
 ;
 extern

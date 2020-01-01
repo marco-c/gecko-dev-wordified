@@ -4496,8 +4496,6 @@ js_MarkScriptFilenames
 JSRuntime
 *
 rt
-JSBool
-keepAtoms
 )
 {
 JSCList
@@ -4522,7 +4520,10 @@ return
 ;
 if
 (
-keepAtoms
+rt
+-
+>
+gcKeepAtoms
 )
 {
 JS_HashTableEnumerateEntries

@@ -3682,8 +3682,6 @@ js_TraceAtomState
 JSTracer
 *
 trc
-JSBool
-allAtoms
 )
 {
 JSRuntime
@@ -3710,7 +3708,10 @@ atomState
 ;
 if
 (
-allAtoms
+rt
+-
+>
+gcKeepAtoms
 )
 {
 JS_DHashTableEnumerate
