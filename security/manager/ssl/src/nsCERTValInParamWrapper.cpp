@@ -160,6 +160,13 @@ mAlreadyConstructed
 return
 NS_ERROR_FAILURE
 ;
+mOCSPDownloadEnabled
+=
+odc
+=
+=
+ocsp_on
+;
 CERTValInParam
 *
 p
