@@ -7282,6 +7282,9 @@ sizeOfMisc
 mallocSizeOf
 )
 ;
+#
+ifdef
+JS_HAS_CTYPES
 }
 else
 {
@@ -7315,6 +7318,8 @@ this
 )
 )
 ;
+#
+endif
 }
 }
 /
