@@ -2330,7 +2330,7 @@ NS_BUILD_REFCNT_LOGGING
 #
 endif
 /
-/
+*
 If
 a
 program
@@ -2347,8 +2347,7 @@ doesn
 '
 t
 make
-/
-/
+*
 sense
 to
 touch
@@ -2360,8 +2359,7 @@ that
 memory
 at
 shutdown
-/
-/
+*
 unless
 we
 are
@@ -2369,6 +2367,8 @@ running
 leak
 stats
 .
+*
+/
 #
 if
 defined
