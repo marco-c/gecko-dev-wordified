@@ -685,6 +685,9 @@ f_is
 testSizedWstring
 :
 f_is
+testInterfaceIs
+:
+f_is
 }
 ;
 var
