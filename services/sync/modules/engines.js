@@ -5528,6 +5528,11 @@ mobile
 let
 batchSize
 =
+this
+.
+downloadLimit
+|
+|
 Infinity
 ;
 let
