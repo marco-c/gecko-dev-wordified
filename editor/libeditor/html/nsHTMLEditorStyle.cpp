@@ -6326,6 +6326,12 @@ startNode
 )
 &
 &
+IsEditable
+(
+startNode
+)
+&
+&
 IsAtFrontOfNode
 (
 startNode
@@ -6379,6 +6385,12 @@ nsTextEditUtils
 :
 :
 IsBody
+(
+endNode
+)
+&
+&
+IsEditable
 (
 endNode
 )
