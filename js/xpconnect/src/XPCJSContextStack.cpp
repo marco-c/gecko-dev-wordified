@@ -816,7 +816,7 @@ global_for_XPCJSContextStack_SafeJSContext
 "
 XPCONNECT_GLOBAL_FLAGS
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub

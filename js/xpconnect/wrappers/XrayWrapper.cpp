@@ -276,7 +276,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 2
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 holder_get
 holder_set
 JS_EnumerateStub
@@ -1739,7 +1739,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 JSSLOT_EXPANDO_COUNT
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub

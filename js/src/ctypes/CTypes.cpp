@@ -3091,7 +3091,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 CTYPESGLOBAL_SLOTS
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -3112,7 +3112,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 CABI_SLOTS
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -3178,7 +3178,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 CTYPEPROTO_SLOTS
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -3237,7 +3237,7 @@ CData
 "
 0
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -3260,7 +3260,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 CTYPE_SLOTS
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -3302,7 +3302,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 CDATA_SLOTS
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 ArrayType
 :
 :
@@ -3345,7 +3345,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 CCLOSURE_SLOTS
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -3387,7 +3387,7 @@ CDataFinalizer
 "
 0
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -3450,7 +3450,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 CDATAFINALIZER_SLOTS
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -4361,7 +4361,7 @@ Int64
 "
 0
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -4379,7 +4379,7 @@ UInt64
 "
 0
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -4400,7 +4400,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 INT64_SLOTS
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -4425,7 +4425,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 INT64_SLOTS
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub

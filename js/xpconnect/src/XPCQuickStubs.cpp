@@ -567,7 +567,7 @@ Pointer
 "
 JSCLASS_HAS_PRIVATE
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub

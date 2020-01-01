@@ -3028,7 +3028,7 @@ WorkerGlobalScope
 "
 0
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -4295,7 +4295,7 @@ JSCLASS_GLOBAL_FLAGS_WITH_SLOTS
 |
 JSCLASS_NEW_RESOLVE
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -4394,7 +4394,7 @@ JS_PropertyStub
 addProperty
 *
 /
-JS_PropertyStub
+JS_DeletePropertyStub
 /
 *
 delProperty

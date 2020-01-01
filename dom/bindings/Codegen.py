@@ -1312,7 +1312,7 @@ addProperty
 *
 /
     
-JS_PropertyStub
+JS_DeletePropertyStub
 /
 *
 delProperty
@@ -1649,7 +1649,7 @@ addProperty
 *
 /
     
-JS_PropertyStub
+JS_DeletePropertyStub
 /
 *
 delProperty
@@ -1968,7 +1968,7 @@ addProperty
 *
 /
     
-JS_PropertyStub
+JS_DeletePropertyStub
 /
 *
 delProperty

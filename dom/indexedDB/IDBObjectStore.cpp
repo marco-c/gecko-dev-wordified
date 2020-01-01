@@ -2199,7 +2199,7 @@ IndexedDBTransactionThreadGlobal
 "
 JSCLASS_GLOBAL_FLAGS
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -3514,7 +3514,7 @@ dummy
 "
 0
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
