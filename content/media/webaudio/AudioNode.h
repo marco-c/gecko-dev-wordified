@@ -843,6 +843,10 @@ aParam
 ;
 private
 :
+friend
+class
+AudioBufferSourceNode
+;
 /
 /
 This

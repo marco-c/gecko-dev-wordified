@@ -1238,6 +1238,10 @@ RemoveEntry
 aNode
 )
 ;
+UpdatePannerSource
+(
+)
+;
 }
 void
 AudioContext
