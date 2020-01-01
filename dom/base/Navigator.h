@@ -520,6 +520,13 @@ h
 #
 include
 "
+nsIDOMNavigatorSms
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -736,6 +743,8 @@ public
 nsIDOMNavigatorDesktopNotification
 public
 nsIDOMMozNavigatorBattery
+public
+nsIDOMMozNavigatorSms
 {
 public
 :
@@ -758,6 +767,7 @@ NS_DECL_NSIDOMCLIENTINFORMATION
 NS_DECL_NSIDOMNAVIGATORGEOLOCATION
 NS_DECL_NSIDOMNAVIGATORDESKTOPNOTIFICATION
 NS_DECL_NSIDOMMOZNAVIGATORBATTERY
+NS_DECL_NSIDOMMOZNAVIGATORSMS
 static
 void
 Init
