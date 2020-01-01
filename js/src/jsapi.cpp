@@ -785,6 +785,15 @@ h
 #
 include
 "
+gc
+/
+Memory
+.
+h
+"
+#
+include
+"
 js
 /
 MemoryMetrics
@@ -5173,6 +5182,10 @@ endif
 DEBUG
 *
 /
+InitMemorySubsystem
+(
+)
+;
 js_NewRuntimeWasCalled
 =
 JS_TRUE
