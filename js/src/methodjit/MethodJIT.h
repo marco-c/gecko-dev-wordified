@@ -2332,8 +2332,14 @@ interpoline
 .
 *
 /
-size_t
-orphanedNativeCount
+Vector
+<
+StackFrame
+*
+8
+SystemAllocPolicy
+>
+orphanedNativeFrames
 ;
 Vector
 <
