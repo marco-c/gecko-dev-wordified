@@ -507,3 +507,8 @@ DOMCI_DATA
 WebGLRenderbuffer
 void
 )
+DOMCI_DATA
+(
+WebGLUniformLocation
+void
+)
