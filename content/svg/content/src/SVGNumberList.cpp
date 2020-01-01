@@ -470,6 +470,7 @@ get
 ;
 if
 (
+*
 token
 =
 =
