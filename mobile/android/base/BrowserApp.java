@@ -8881,13 +8881,6 @@ hide
 ;
 mBrowserToolbar
 .
-setShadowVisibility
-(
-true
-)
-;
-mBrowserToolbar
-.
 setNextFocusDownId
 (
 R
