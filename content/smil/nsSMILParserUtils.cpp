@@ -2029,15 +2029,6 @@ aBreakOnDot
 const
 PRUnichar
 *
-start
-;
-const
-PRUnichar
-*
-tokenEnd
-;
-start
-=
 tokenEnd
 =
 aStr
