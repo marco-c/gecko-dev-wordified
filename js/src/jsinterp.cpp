@@ -922,6 +922,10 @@ seg
 cx
 -
 >
+stack
+(
+)
+.
 containingSegment
 (
 this
@@ -7308,6 +7312,10 @@ varobj
 cx
 -
 >
+stack
+(
+)
+.
 containingSegment
 (
 prev
