@@ -706,7 +706,7 @@ newScope
 )
 ;
 nsresult
-IsWrapperSameOrigin
+CanAccessWrapper
 (
 JSContext
 *
@@ -1390,7 +1390,7 @@ v
 nsresult
 rv
 =
-IsWrapperSameOrigin
+CanAccessWrapper
 (
 cx
 wrappedObj
