@@ -243,6 +243,12 @@ UseOverlayScrollbars
 (
 )
 ;
+static
+bool
+AllowOverlayScrollbarsOverlap
+(
+)
+;
 }
 ;
 #
