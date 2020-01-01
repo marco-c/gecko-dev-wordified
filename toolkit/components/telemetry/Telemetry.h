@@ -538,11 +538,11 @@ ID
 id
 >
 class
-Timer
+AutoTimer
 {
 public
 :
-Timer
+AutoTimer
 (
 )
 :
@@ -558,7 +558,7 @@ Now
 {
 }
 ~
-Timer
+AutoTimer
 (
 )
 {
