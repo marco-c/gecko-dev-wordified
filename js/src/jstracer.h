@@ -628,7 +628,7 @@ base
 T
 map
 [
-0
+1
 ]
 ;
 }
@@ -725,7 +725,7 @@ nativeStackBase
 uint8
 typeMap
 [
-0
+1
 ]
 ;
 }
