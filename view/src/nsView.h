@@ -1027,8 +1027,6 @@ PRBool
 aEnableDragDrop
 PRBool
 aResetVisibility
-nsContentType
-aContentType
 )
 ;
 /
@@ -1052,8 +1050,6 @@ PRBool
 aEnableDragDrop
 PRBool
 aResetVisibility
-nsContentType
-aContentType
 )
 ;
 /
@@ -1077,8 +1073,6 @@ PRBool
 aEnableDragDrop
 PRBool
 aResetVisibility
-nsContentType
-aContentType
 )
 ;
 /

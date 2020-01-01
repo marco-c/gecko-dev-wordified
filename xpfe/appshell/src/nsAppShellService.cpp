@@ -2324,12 +2324,6 @@ PR_TRUE
 ;
 #
 endif
-widgetInitData
-.
-mContentType
-=
-eContentTypeUI
-;
 /
 /
 note
