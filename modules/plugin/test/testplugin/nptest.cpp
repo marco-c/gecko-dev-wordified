@@ -2421,11 +2421,6 @@ instanceData
 scriptableObject
 )
 ;
-free
-(
-instanceData
-)
-;
 if
 (
 sCurrentInstanceCountWatchGeneration
@@ -2442,6 +2437,11 @@ instanceCountWatchGeneration
 sInstanceCount
 ;
 }
+free
+(
+instanceData
+)
+;
 return
 NPERR_NO_ERROR
 ;
