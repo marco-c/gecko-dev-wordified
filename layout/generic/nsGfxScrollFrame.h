@@ -1031,9 +1031,15 @@ nsIBox
 aFrame
 nsIAtom
 *
-atom
+aAtom
 nscoord
-defaultValue
+aDefaultValue
+nscoord
+*
+aRangeStart
+nscoord
+*
+aRangeLength
 )
 ;
 /
