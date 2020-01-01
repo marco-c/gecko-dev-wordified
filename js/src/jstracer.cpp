@@ -4595,7 +4595,7 @@ r
 +
 +
 ;
-AvmAssert
+NanoAssert
 (
 r
 >
@@ -80476,7 +80476,7 @@ lir
 >
 ins2
 (
-LIR_addp
+LIR_piadd
 frameInfo_ins
 INS_CONSTWORD
 (
@@ -80502,7 +80502,7 @@ lir
 >
 ins2
 (
-LIR_addp
+LIR_piadd
 typemap_ins
 lir
 -
@@ -80635,7 +80635,7 @@ lir
 >
 ins2
 (
-LIR_addp
+LIR_piadd
 stackBase_ins
 lir
 -
