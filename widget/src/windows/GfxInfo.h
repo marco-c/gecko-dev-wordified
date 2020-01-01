@@ -766,6 +766,9 @@ mAdapterVendorID
 PRUint32
 mAdapterDeviceID
 ;
+PRUint32
+mAdapterSubsysID
+;
 nsString
 mDeviceString2
 ;
@@ -786,6 +789,9 @@ mAdapterVendorID2
 ;
 PRUint32
 mAdapterDeviceID2
+;
+PRUint32
+mAdapterSubsysID2
 ;
 PRUint32
 mWindowsVersion
