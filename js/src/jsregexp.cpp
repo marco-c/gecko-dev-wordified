@@ -22835,6 +22835,12 @@ compile
 assm
 fragment
 tempAlloc
+/
+*
+optimize
+*
+/
+true
 verbose_only
 (
 lirbuf
