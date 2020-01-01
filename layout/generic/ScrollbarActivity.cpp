@@ -121,6 +121,13 @@ nsIScrollableFrame
 .
 h
 "
+#
+include
+"
+nsComponentManagerUtils
+.
+h
+"
 namespace
 mozilla
 {
