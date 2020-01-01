@@ -446,7 +446,13 @@ directly
 explicit
 nsDependentJSString
 (
+JS
+:
+:
+Handle
+<
 jsid
+>
 id
 )
 :
