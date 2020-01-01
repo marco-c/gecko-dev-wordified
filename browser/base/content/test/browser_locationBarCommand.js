@@ -246,6 +246,12 @@ function
 (
 )
 {
+executeSoon
+(
+function
+(
+)
+{
 info
 (
 "
@@ -338,6 +344,9 @@ close
 ;
 runNextTest
 (
+)
+;
+}
 )
 ;
 }
