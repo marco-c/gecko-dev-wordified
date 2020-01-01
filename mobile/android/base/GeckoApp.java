@@ -9643,7 +9643,7 @@ getState
 )
 !
 =
-tab
+Tab
 .
 STATE_LOADING
 )
