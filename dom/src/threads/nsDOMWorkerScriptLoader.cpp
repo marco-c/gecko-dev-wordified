@@ -1723,9 +1723,6 @@ aCx
 JSOPTION_DONT_REPORT_UNCAUGHT
 )
 ;
-jsval
-val
-;
 PRBool
 success
 =
@@ -1734,8 +1731,7 @@ JS_ExecuteScript
 aCx
 global
 scriptObj
-&
-val
+NULL
 )
 ;
 JS_SetOptions
@@ -4919,6 +4915,8 @@ cx
 )
 |
 JSOPTION_DONT_REPORT_UNCAUGHT
+|
+JSOPTION_NO_SCRIPT_RVAL
 )
 ;
 JSPrincipals

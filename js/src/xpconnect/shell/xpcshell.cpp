@@ -5372,11 +5372,6 @@ default
 if
 !
 defined
-XP_BEOS
-&
-&
-!
-defined
 XP_OS2
 &
 &
@@ -5686,11 +5681,6 @@ valstr
 endif
 /
 *
-!
-defined
-XP_BEOS
-&
-&
 !
 defined
 XP_OS2

@@ -31975,11 +31975,6 @@ default
 if
 !
 defined
-XP_BEOS
-&
-&
-!
-defined
 XP_OS2
 &
 &
@@ -32243,11 +32238,6 @@ getJSVal
 endif
 /
 *
-!
-defined
-XP_BEOS
-&
-&
 !
 defined
 XP_OS2
