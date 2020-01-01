@@ -4066,12 +4066,8 @@ rv
 }
 int64_t
 maxSize
-;
-LL_UI2L
-(
-maxSize
+=
 UINT32_MAX
-)
 ;
 if
 (
