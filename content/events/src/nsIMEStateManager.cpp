@@ -870,7 +870,7 @@ widget
 sPresContext
 -
 >
-GetNearestWidget
+GetRootWidget
 (
 )
 ;
@@ -1063,7 +1063,7 @@ widget
 aPresContext
 -
 >
-GetNearestWidget
+GetRootWidget
 (
 )
 ;
@@ -1214,7 +1214,7 @@ widget
 sPresContext
 -
 >
-GetNearestWidget
+GetRootWidget
 (
 )
 ;
@@ -1344,7 +1344,7 @@ sPresContext
 sPresContext
 -
 >
-GetNearestWidget
+GetRootWidget
 (
 )
 :
@@ -1450,7 +1450,7 @@ get
 aPresContext
 -
 >
-GetNearestWidget
+GetRootWidget
 (
 )
 ;
@@ -1951,7 +1951,7 @@ widget
 aPresContext
 -
 >
-GetNearestWidget
+GetRootWidget
 (
 )
 ;
@@ -2234,7 +2234,7 @@ widget
 sPresContext
 -
 >
-GetNearestWidget
+GetRootWidget
 (
 )
 ;
@@ -3968,7 +3968,7 @@ widget
 aPresContext
 -
 >
-GetNearestWidget
+GetRootWidget
 (
 )
 ;
@@ -5984,7 +5984,7 @@ widget
 sPresContext
 -
 >
-GetNearestWidget
+GetRootWidget
 (
 )
 ;
