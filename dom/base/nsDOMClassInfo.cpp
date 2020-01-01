@@ -22075,11 +22075,14 @@ rv
 WrapNative
 (
 cx
+xpc_UnmarkGrayObject
+(
 frameWin
 -
 >
 GetGlobalJSObject
 (
+)
 )
 frame
 &
