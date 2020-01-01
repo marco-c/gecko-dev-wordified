@@ -276,6 +276,15 @@ aModType
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+DidSetStyleContext
+(
+nsStyleContext
+*
+aOldStyleContext
+)
+;
 /
 *
 *
