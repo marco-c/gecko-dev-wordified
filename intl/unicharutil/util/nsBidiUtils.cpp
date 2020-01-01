@@ -4870,11 +4870,6 @@ aNumFlag
 PRUint32
 i
 ;
-PRUnichar
-prev
-=
-0
-;
 switch
 (
 aNumFlag
