@@ -4163,6 +4163,9 @@ updateToolboxProperty
 iconsize
 "
 aSize
+"
+large
+"
 )
 ;
 }
@@ -4181,6 +4184,9 @@ updateToolboxProperty
 mode
 "
 aModeValue
+"
+icons
+"
 )
 ;
 var
@@ -4215,6 +4221,7 @@ updateToolboxProperty
 (
 aProp
 aValue
+aToolkitDefault
 )
 {
 var
@@ -4230,6 +4237,9 @@ default
 +
 aProp
 )
+|
+|
+aToolkitDefault
 ;
 gToolbox
 .
@@ -4348,6 +4358,9 @@ aProp
 ;
 return
 aValue
+|
+|
+toolboxDefault
 ;
 }
 function
