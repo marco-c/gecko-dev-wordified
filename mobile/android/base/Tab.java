@@ -853,12 +853,6 @@ sizeChange
 )
 {
 mThumbnailBitmap
-.
-recycle
-(
-)
-;
-mThumbnailBitmap
 =
 null
 ;
