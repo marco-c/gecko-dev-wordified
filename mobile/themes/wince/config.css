@@ -383,12 +383,12 @@ BLOCK
 *
 /
 media
-all
-and
 (
-orientation
+max
+-
+width
 :
-portrait
+499px
 )
 {
 #
