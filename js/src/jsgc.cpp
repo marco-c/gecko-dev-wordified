@@ -1795,6 +1795,14 @@ case
 /
 if
 (
+IsBackgroundFinalized
+(
+getAllocKind
+(
+)
+)
+&
+&
 !
 compartment
 -
