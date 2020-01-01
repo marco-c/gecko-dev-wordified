@@ -34897,6 +34897,12 @@ rp
 lir
 -
 >
+ins1
+(
+LIR_i2q
+lir
+-
+>
 ins2i
 (
 LIR_lsh
@@ -34925,6 +34931,7 @@ void
 2
 :
 3
+)
 )
 )
 lirbuf
