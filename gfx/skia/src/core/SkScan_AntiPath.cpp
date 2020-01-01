@@ -204,8 +204,6 @@ FORCE_SUPERMASK
 #
 define
 FORCE_RLE
-/
-/
 #
 define
 SK_SUPPORT_NEW_AA
