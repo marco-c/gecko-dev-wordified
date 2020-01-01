@@ -486,11 +486,12 @@ getMethod
 "
 isHardwareAccelerated
 "
-new
+(
 Class
 [
-0
 ]
+)
+null
 )
 ;
 return
