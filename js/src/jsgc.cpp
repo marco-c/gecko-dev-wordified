@@ -17440,6 +17440,15 @@ purge
 (
 )
 ;
+rt
+-
+>
+nativeIterCache
+.
+purge
+(
+)
+;
 for
 (
 ContextIter

@@ -3754,12 +3754,6 @@ evalHashLink
 ;
 }
 }
-nativeIterCache
-.
-purge
-(
-)
-;
 toSourceCache
 .
 destroyIfConstructed
