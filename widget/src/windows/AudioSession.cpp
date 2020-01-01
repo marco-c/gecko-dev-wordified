@@ -446,7 +446,7 @@ h
 #
 include
 <
-Mmdeviceapi
+mmdeviceapi
 .
 h
 >
@@ -511,7 +511,7 @@ h
 #
 include
 "
-nsXULAppApi
+nsXULAppAPI
 .
 h
 "

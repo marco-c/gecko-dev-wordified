@@ -459,7 +459,7 @@ h
 #
 include
 "
-nsWindowGFX
+nsWindowGfx
 .
 h
 "
