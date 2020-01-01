@@ -1497,12 +1497,6 @@ usesEval
 script
 -
 >
-usesArguments
-|
-|
-script
--
->
 compartment
 -
 >
