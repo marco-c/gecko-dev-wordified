@@ -255,7 +255,7 @@ types
 .
 compiledInfo
 )
-backgroundCompiledLir
+backgroundCodegen_
 (
 NULL
 )

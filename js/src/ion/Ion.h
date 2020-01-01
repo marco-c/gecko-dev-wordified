@@ -1289,9 +1289,9 @@ class
 MIRGenerator
 ;
 class
-LIRGraph
+CodeGenerator
 ;
-LIRGraph
+CodeGenerator
 *
 CompileBackEnd
 (

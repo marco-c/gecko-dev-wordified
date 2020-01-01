@@ -432,6 +432,15 @@ JSRuntime
 *
 runtime
 ;
+mozilla
+:
+:
+Maybe
+<
+PerThreadData
+>
+threadData
+;
 PRThread
 *
 thread
