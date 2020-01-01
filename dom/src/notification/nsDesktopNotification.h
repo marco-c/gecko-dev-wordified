@@ -724,6 +724,13 @@ PostDesktopNotification
 (
 )
 ;
+void
+SetAllow
+(
+PRBool
+aAllow
+)
+;
 /
 *
 *
@@ -790,6 +797,12 @@ nsCOMPtr
 nsIURI
 >
 mURI
+;
+PRBool
+mAllow
+;
+PRBool
+mShowHasBeenCalled
 ;
 }
 ;
