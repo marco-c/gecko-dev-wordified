@@ -1290,14 +1290,6 @@ dumpAllocations
 struct
 PrintLiveIntervalRange
 ;
-CodePosition
-minimalDefEnd
-(
-LInstruction
-*
-ins
-)
-;
 bool
 minimalDef
 (
