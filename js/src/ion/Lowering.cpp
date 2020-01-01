@@ -2129,9 +2129,11 @@ isConstant
 )
 )
 {
-double
-dbl
+bool
+result
 =
+ToBoolean
+(
 opd
 -
 >
@@ -2143,9 +2145,6 @@ toConstant
 value
 (
 )
-.
-toDouble
-(
 )
 ;
 return
@@ -2154,7 +2153,7 @@ add
 new
 LGoto
 (
-dbl
+result
 ?
 ifTrue
 :
