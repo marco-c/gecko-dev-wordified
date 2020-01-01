@@ -157,6 +157,15 @@ nsString
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 endif
 class
 nsIFile
@@ -472,6 +481,7 @@ future
 .
 class
 nsUpdateProcessor
+MOZ_FINAL
 :
 public
 nsIUpdateProcessor
