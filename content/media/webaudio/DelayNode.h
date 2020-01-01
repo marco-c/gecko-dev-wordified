@@ -240,7 +240,9 @@ any
 requests
 to
 release
-mPlayingRef
+the
+playing
+ref
 if
 the
 request
@@ -287,13 +289,6 @@ friend
 class
 DelayNodeEngine
 ;
-friend
-class
-PlayingRefChangeHandler
-<
-DelayNode
->
-;
 private
 :
 int64_t
@@ -304,12 +299,6 @@ nsRefPtr
 AudioParam
 >
 mDelay
-;
-SelfReference
-<
-DelayNode
->
-mPlayingRef
 ;
 }
 ;

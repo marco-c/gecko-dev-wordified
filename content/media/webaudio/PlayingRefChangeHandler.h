@@ -301,11 +301,8 @@ ADDREF
 node
 -
 >
-mPlayingRef
-.
-Take
+MarkActive
 (
-node
 )
 ;
 }
@@ -330,11 +327,8 @@ mLastProcessedGraphUpdateIndex
 node
 -
 >
-mPlayingRef
-.
-Drop
+MarkInactive
 (
-node
 )
 ;
 }

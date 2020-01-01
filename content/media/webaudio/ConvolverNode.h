@@ -353,7 +353,9 @@ any
 requests
 to
 release
-mPlayingRef
+the
+playing
+ref
 if
 the
 request
@@ -387,13 +389,6 @@ mMediaStreamGraphUpdateIndexAtLastInputConnection
 }
 private
 :
-friend
-class
-PlayingRefChangeHandler
-<
-ConvolverNode
->
-;
 int64_t
 mMediaStreamGraphUpdateIndexAtLastInputConnection
 ;
@@ -402,12 +397,6 @@ nsRefPtr
 AudioBuffer
 >
 mBuffer
-;
-SelfReference
-<
-ConvolverNode
->
-mPlayingRef
 ;
 bool
 mNormalize
