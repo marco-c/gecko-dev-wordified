@@ -693,9 +693,6 @@ InitializeGlobal
 nsIThread
 *
 mainThread
-nsIEventTarget
-*
-stsThread
 )
 {
 if
@@ -744,17 +741,6 @@ mainThread
 #
 endif
 }
-CSF
-:
-:
-VcmSIPCCBinding
-:
-:
-setSTSThread
-(
-stsThread
-)
-;
 nsresult
 res
 ;

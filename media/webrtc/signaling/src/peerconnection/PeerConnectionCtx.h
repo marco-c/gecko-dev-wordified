@@ -251,9 +251,6 @@ InitializeGlobal
 nsIThread
 *
 mainThread
-nsIEventTarget
-*
-stsThread
 )
 ;
 static

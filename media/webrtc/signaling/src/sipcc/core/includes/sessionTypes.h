@@ -319,9 +319,6 @@ reason_text
 string_t
 sdp
 ;
-string_t
-extra
-;
 unsigned
 int
 media_stream_id
