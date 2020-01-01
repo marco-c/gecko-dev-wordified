@@ -3431,9 +3431,6 @@ aSheet
 willAdd
 )
 ;
-nsresult
-rv
-=
 mapped
 -
 >
@@ -3441,12 +3438,6 @@ SetAndTakeAttr
 (
 aLocalName
 aValue
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 return
