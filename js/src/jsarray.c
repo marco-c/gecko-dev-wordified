@@ -6298,9 +6298,11 @@ idp
 }
 }
 /
-/
+*
 FALL
 THROUGH
+*
+/
 case
 JSENUMERATE_DESTROY
 :
