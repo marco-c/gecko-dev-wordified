@@ -260,6 +260,13 @@ stun
 .
 h
 "
+#
+include
+"
+local_addr
+.
+h
+"
 extern
 int
 NR_LOG_STUN
@@ -286,7 +293,7 @@ to
 int
 nr_stun_find_local_addresses
 (
-nr_transport_addr
+nr_local_addr
 addrs
 [
 ]
