@@ -2092,6 +2092,7 @@ Panel
 .
 REMOTE_TABS
 )
+{
 mAddTab
 .
 setVisibility
@@ -2101,7 +2102,9 @@ View
 INVISIBLE
 )
 ;
+}
 else
+{
 mAddTab
 .
 setVisibility
@@ -2111,6 +2114,14 @@ View
 VISIBLE
 )
 ;
+mAddTab
+.
+setImageLevel
+(
+index
+)
+;
+}
 if
 (
 isSideBar
