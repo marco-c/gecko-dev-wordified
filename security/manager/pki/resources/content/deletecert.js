@@ -720,7 +720,7 @@ bundle
 GetStringFromName
 (
 "
-deleteCaCertImpact
+deleteCaCertImpactX
 "
 )
 ;
