@@ -2135,6 +2135,7 @@ NETEQ_CELT_CODEC
 #
 define
 NETEQ_OPUS_CODEC
+*
 /
 /
 *
