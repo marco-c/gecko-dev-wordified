@@ -3346,9 +3346,6 @@ mXPCOMifier
 ;
 }
 ;
-#
-undef
-IMPL_EVENT_HANDLER
 /
 /
 A
