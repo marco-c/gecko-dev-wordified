@@ -5656,7 +5656,7 @@ bookmark
 first
 this
 .
-__unfiledItemId
+_unfiledItemId
 =
 PlacesUtils
 .
@@ -5711,7 +5711,7 @@ if
 (
 this
 .
-__unfiledItemId
+_unfiledItemId
 !
 =
 -
@@ -5726,12 +5726,12 @@ removeItem
 (
 this
 .
-__unfiledItemId
+_unfiledItemId
 )
 ;
 this
 .
-__unfiledItemId
+_unfiledItemId
 =
 -
 1
