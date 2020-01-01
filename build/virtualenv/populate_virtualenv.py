@@ -1543,6 +1543,10 @@ CXXFLAGS
 '
 LDFLAGS
 '
+            
+'
+PYTHONDONTWRITEBYTECODE
+'
 )
         
 try
