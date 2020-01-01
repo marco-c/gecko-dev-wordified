@@ -1576,7 +1576,7 @@ return
 E_FAIL
 ;
 }
-nsRect
+nsIntRect
 sum
 (
 0
@@ -1620,7 +1620,7 @@ GetNextContinuation
 )
 )
 {
-nsRect
+nsIntRect
 rect
 =
 iter
