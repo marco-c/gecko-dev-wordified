@@ -1421,7 +1421,7 @@ pretty
 staticmethod
     
 def
-pretty
+prettySS
 (
 ss
 )
