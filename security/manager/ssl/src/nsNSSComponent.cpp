@@ -12398,11 +12398,11 @@ change
 "
 #
 define
-PROFILE_AFTER_CHANGE_TOPIC
+PROFILE_DO_CHANGE_TOPIC
 "
 profile
 -
-after
+do
 -
 change
 "
@@ -12558,7 +12558,7 @@ nsCRT
 strcmp
 (
 aTopic
-PROFILE_AFTER_CHANGE_TOPIC
+PROFILE_DO_CHANGE_TOPIC
 )
 =
 =
@@ -14160,7 +14160,7 @@ observerService
 AddObserver
 (
 this
-PROFILE_AFTER_CHANGE_TOPIC
+PROFILE_DO_CHANGE_TOPIC
 PR_FALSE
 )
 ;
@@ -14315,7 +14315,7 @@ observerService
 RemoveObserver
 (
 this
-PROFILE_AFTER_CHANGE_TOPIC
+PROFILE_DO_CHANGE_TOPIC
 )
 ;
 observerService
