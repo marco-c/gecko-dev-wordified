@@ -36,9 +36,7 @@ is
 (
 gBrowser
 .
-docShell
-.
-isActive
+docShellIsActive
 true
 "
 Docshell
@@ -58,9 +56,7 @@ is
 (
 gBrowser
 .
-docShell
-.
-isActive
+docShellIsActive
 false
 "
 Docshell
@@ -80,9 +76,7 @@ is
 (
 gBrowser
 .
-docShell
-.
-isActive
+docShellIsActive
 true
 "
 Docshell
