@@ -4598,7 +4598,7 @@ phInterface
 =
 Ci
 .
-nsIPluginHost_MOZILLA_2_0_BRANCH
+nsIPluginHost
 ;
 const
 FLAG_CLEAR_ALL

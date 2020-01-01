@@ -603,7 +603,7 @@ class
 nsNPAPIPluginInstance
 :
 public
-nsIPluginInstance_MOZILLA_2_0_BRANCH
+nsIPluginInstance
 {
 private
 :
@@ -618,7 +618,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPLUGININSTANCE
-NS_DECL_NSIPLUGININSTANCE_MOZILLA_2_0_BRANCH
 nsNPAPIPlugin
 *
 GetPlugin
