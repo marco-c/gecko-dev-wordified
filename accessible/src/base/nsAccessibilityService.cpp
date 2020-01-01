@@ -160,6 +160,13 @@ h
 #
 include
 "
+HTMLElementAccessibles
+.
+h
+"
+#
+include
+"
 HTMLListAccessible
 .
 h
@@ -231,13 +238,6 @@ h
 include
 "
 nsHTMLTableAccessibleWrap
-.
-h
-"
-#
-include
-"
-nsHTMLTextAccessible
 .
 h
 "
@@ -2507,7 +2507,7 @@ Accessible
 accessible
 =
 new
-nsHTMLLabelAccessible
+HTMLLabelAccessible
 (
 aContent
 GetDocAccessible
@@ -2547,7 +2547,7 @@ Accessible
 accessible
 =
 new
-nsHTMLHRAccessible
+HTMLHRAccessible
 (
 aContent
 GetDocAccessible
@@ -2587,7 +2587,7 @@ Accessible
 accessible
 =
 new
-nsHTMLBRAccessible
+HTMLBRAccessible
 (
 aContent
 GetDocAccessible
@@ -10427,7 +10427,7 @@ Accessible
 accessible
 =
 new
-nsHTMLOutputAccessible
+HTMLOutputAccessible
 (
 aContent
 aDoc
