@@ -431,11 +431,6 @@ security
 "
 social
 .
-active
-"
-"
-social
-.
 enabled
 "
 "

@@ -129,6 +129,17 @@ function
 provider
 )
 {
+/
+/
+enable
+the
+provider
+provider
+.
+enabled
+=
+true
+;
 ok
 (
 provider

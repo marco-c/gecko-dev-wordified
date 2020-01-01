@@ -132,6 +132,12 @@ function
 p
 )
 {
+p
+.
+enabled
+=
+true
+;
 provider
 =
 p
