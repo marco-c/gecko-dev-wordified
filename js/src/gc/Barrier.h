@@ -2614,6 +2614,13 @@ HeapPtrString
 typedef
 HeapPtr
 <
+PropertyName
+>
+HeapPtrPropertyName
+;
+typedef
+HeapPtr
+<
 JSScript
 >
 HeapPtrScript

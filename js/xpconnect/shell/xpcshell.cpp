@@ -6909,6 +6909,12 @@ cx
 JSOPTION_ION
 )
 ;
+JS_ToggleOptions
+(
+cx
+JSOPTION_ASMJS
+)
+;
 break
 ;
 case

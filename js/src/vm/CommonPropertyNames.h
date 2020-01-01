@@ -1150,6 +1150,16 @@ strict
 \
 macro
 (
+useAsm
+useAsm
+"
+use
+asm
+"
+)
+\
+macro
+(
 value
 value
 "

@@ -488,6 +488,12 @@ Node
 left
 Node
 right
+ParseContext
+<
+SyntaxParseHandler
+>
+*
+pc
 JSOp
 op
 =

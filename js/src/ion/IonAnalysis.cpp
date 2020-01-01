@@ -8301,6 +8301,12 @@ getOperand
 1
 )
 ;
+/
+/
+TODO
+:
+optimize
+Compare_UInt32
 if
 (
 compare

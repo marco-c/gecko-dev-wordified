@@ -2200,11 +2200,11 @@ Elements
 "
 ;
 case
-MIRType_StackFrame
+MIRType_Pointer
 :
 return
 "
-StackFrame
+Pointer
 "
 ;
 case

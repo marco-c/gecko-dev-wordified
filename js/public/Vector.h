@@ -3679,7 +3679,7 @@ ifdef
 DEBUG
 mReserved
 (
-0
+sInlineCapacity
 )
 entered
 (
@@ -3931,7 +3931,7 @@ rhs
 >
 mReserved
 =
-0
+sInlineCapacity
 ;
 #
 endif
@@ -5383,7 +5383,7 @@ ifdef
 DEBUG
 mReserved
 =
-0
+sInlineCapacity
 ;
 #
 endif
@@ -6506,7 +6506,7 @@ ifdef
 DEBUG
 mReserved
 =
-0
+sInlineCapacity
 ;
 #
 endif
