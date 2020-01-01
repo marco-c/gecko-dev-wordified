@@ -128,7 +128,7 @@ ifdef
 JSD_USE_NSPR_LOCKS
 then
 you
-musat
+must
 build
 and
 run
