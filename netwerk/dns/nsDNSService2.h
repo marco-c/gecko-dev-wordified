@@ -412,6 +412,13 @@ h
 #
 include
 "
+nsICancelable
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
