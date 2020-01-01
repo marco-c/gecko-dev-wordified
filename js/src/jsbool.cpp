@@ -1229,8 +1229,7 @@ BooleanGetPrimitiveValueSlow
 JSContext
 *
 cx
-JSObject
-&
+HandleObject
 obj
 Value
 *
@@ -1285,6 +1284,7 @@ setThis
 (
 ObjectValue
 (
+*
 obj
 )
 )

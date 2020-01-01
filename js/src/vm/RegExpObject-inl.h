@@ -596,16 +596,6 @@ RegExpGuard
 g
 )
 {
-JS_ASSERT
-(
-ObjectClassIs
-(
-obj
-ESClass_RegExp
-cx
-)
-)
-;
 if
 (
 obj

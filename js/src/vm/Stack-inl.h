@@ -2927,8 +2927,7 @@ const
 CallArgs
 &
 args
-JSFunction
-&
+HandleFunction
 callee
 HandleScript
 script
@@ -3007,7 +3006,8 @@ LeaveTree
 JS_ASSERT
 (
 callee
-.
+-
+>
 nonLazyScript
 (
 )
@@ -3036,7 +3036,6 @@ getCallFrame
 cx
 report
 args
-&
 callee
 script
 &
@@ -3066,6 +3065,7 @@ fp
 initCallFrame
 (
 cx
+*
 callee
 script
 args
@@ -3139,8 +3139,7 @@ const
 CallArgs
 &
 args
-JSFunction
-&
+HandleFunction
 callee
 HandleScript
 script
@@ -3588,11 +3587,11 @@ beginsIonActivation
 )
 )
 {
-RootedScript
+JSScript
+*
 script
-(
-cx_
-)
+=
+NULL
 ;
 ion
 :

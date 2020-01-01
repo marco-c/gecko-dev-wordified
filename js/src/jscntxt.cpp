@@ -3942,8 +3942,11 @@ hasDefaultGetter
 )
 )
 ;
-jsval
+RootedValue
 usage
+(
+cx
+)
 ;
 if
 (
@@ -3955,8 +3958,11 @@ callee
 "
 usage
 "
-&
 usage
+.
+address
+(
+)
 )
 )
 return

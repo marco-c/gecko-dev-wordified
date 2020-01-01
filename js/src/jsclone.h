@@ -137,9 +137,7 @@ WriteStructuredClone
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 v
 uint64_t
 *

@@ -337,7 +337,9 @@ hash
 uint8_t
 *
 addr
-MutableHandleScript
+JSScript
+*
+*
 scriptRes
 jsbytecode
 *
