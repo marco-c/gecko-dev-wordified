@@ -1233,7 +1233,7 @@ vp
 ;
 static
 JSBool
-getYoungestFrame
+getNewestFrame
 (
 JSContext
 *

@@ -6,7 +6,7 @@ Debugger
 .
 prototype
 .
-getYoungestFrame
+getNewestFrame
 produce
 the
 same
@@ -95,7 +95,7 @@ savedFrame
 =
 dbg
 .
-getYoungestFrame
+getNewestFrame
 (
 )
 ;

@@ -8265,7 +8265,7 @@ JSBool
 Debugger
 :
 :
-getYoungestFrame
+getNewestFrame
 (
 JSContext
 *
@@ -8283,7 +8283,7 @@ cx
 vp
 Debugger
 "
-getYoungestFrame
+getNewestFrame
 "
 thisobj
 dbg
@@ -10062,12 +10062,12 @@ getDebuggees
 JS_FN
 (
 "
-getYoungestFrame
+getNewestFrame
 "
 Debugger
 :
 :
-getYoungestFrame
+getNewestFrame
 0
 0
 )

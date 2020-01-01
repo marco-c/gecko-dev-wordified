@@ -1,6 +1,6 @@
 /
 /
-getYoungestFrame
+getNewestFrame
 basics
 .
 load
@@ -39,7 +39,7 @@ assertEq
 (
 dbg
 .
-getYoungestFrame
+getNewestFrame
 (
 )
 null
@@ -62,7 +62,7 @@ frame
 =
 dbg
 .
-getYoungestFrame
+getNewestFrame
 (
 )
 ;
