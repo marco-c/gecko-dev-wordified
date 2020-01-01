@@ -115,6 +115,15 @@ jsion_frames_h__
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 jsfun
 .
 h

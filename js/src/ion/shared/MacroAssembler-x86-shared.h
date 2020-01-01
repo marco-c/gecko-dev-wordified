@@ -113,6 +113,15 @@ jsion_macro_assembler_x86_shared_h__
 define
 jsion_macro_assembler_x86_shared_h__
 #
+include
+"
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
 ifdef
 JS_CPU_X86
 #
