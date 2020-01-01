@@ -45816,7 +45816,16 @@ _overrideService
 .
 hasMatchingOverride
 (
-lookupHost
+this
+.
+_lastLocation
+.
+hostname
+this
+.
+_lastLocation
+.
+port
 iData
 .
 cert

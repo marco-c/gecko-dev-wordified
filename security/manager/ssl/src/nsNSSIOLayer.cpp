@@ -15478,7 +15478,8 @@ overrideService
 >
 HasMatchingOverride
 (
-hostWithPortStringUTF16
+hostString
+port
 ix509
 &
 overrideBits
