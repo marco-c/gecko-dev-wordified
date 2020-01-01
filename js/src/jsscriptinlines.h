@@ -435,6 +435,11 @@ BaseShape
 :
 :
 VAROBJ
+|
+BaseShape
+:
+:
+DELEGATE
 )
 ;
 }
