@@ -24244,9 +24244,12 @@ to
 set
 *
 /
-void
+PRBool
 StartEvaluating
 (
+JSObject
+*
+scope
 JSErrorReporter
 errorReporter
 =
@@ -24292,6 +24295,9 @@ mEvaluated
 ;
 jsword
 mContextHasThread
+;
+JSAutoEnterCompartment
+mEnterCompartment
 ;
 MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 /
