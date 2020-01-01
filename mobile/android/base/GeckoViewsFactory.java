@@ -754,6 +754,8 @@ mFactoryMap
 put
 (
 "
+menu
+.
 MenuItemActionBar
 "
 MenuItemActionBar
@@ -772,6 +774,8 @@ mFactoryMap
 put
 (
 "
+menu
+.
 MenuItemDefault
 "
 MenuItemDefault
@@ -790,6 +794,8 @@ mFactoryMap
 put
 (
 "
+menu
+.
 GeckoMenu
 DefaultActionItemBar
 "
