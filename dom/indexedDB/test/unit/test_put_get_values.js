@@ -105,7 +105,7 @@ value
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

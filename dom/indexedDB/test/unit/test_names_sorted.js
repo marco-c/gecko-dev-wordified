@@ -143,7 +143,7 @@ location
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -564,7 +564,7 @@ close
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

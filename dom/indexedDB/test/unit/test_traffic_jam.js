@@ -78,7 +78,7 @@ successCallback
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

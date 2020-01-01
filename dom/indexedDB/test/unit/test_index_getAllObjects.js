@@ -755,7 +755,7 @@ weight
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -978,7 +978,7 @@ height
 "
 )
 .
-getAll
+mozGetAll
 (
 65
 )
@@ -1139,7 +1139,7 @@ height
 "
 )
 .
-getAll
+mozGetAll
 (
 65
 0
@@ -1301,7 +1301,7 @@ height
 "
 )
 .
-getAll
+mozGetAll
 (
 65
 null
@@ -1463,7 +1463,7 @@ height
 "
 )
 .
-getAll
+mozGetAll
 (
 65
 undefined
@@ -1625,7 +1625,7 @@ height
 "
 )
 .
-getAll
+mozGetAll
 (
 )
 ;
@@ -1782,7 +1782,7 @@ height
 "
 )
 .
-getAll
+mozGetAll
 (
 null
 4
@@ -1939,7 +1939,7 @@ height
 "
 )
 .
-getAll
+mozGetAll
 (
 65
 1

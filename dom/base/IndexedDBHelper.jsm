@@ -313,7 +313,7 @@ this
 .
 dbGlobal
 .
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -942,7 +942,7 @@ Global
 object
 that
 has
-mozIndexedDB
+indexedDB
 property
 .
 *

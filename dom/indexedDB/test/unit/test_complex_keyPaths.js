@@ -1125,7 +1125,7 @@ true
 let
 openRequest
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -1595,7 +1595,7 @@ test
 ;
 is
 (
-mozIndexedDB
+indexedDB
 .
 cmp
 (

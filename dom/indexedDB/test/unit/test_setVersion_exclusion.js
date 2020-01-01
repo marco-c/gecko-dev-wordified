@@ -63,7 +63,7 @@ Test
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -92,7 +92,7 @@ unexpectedSuccessHandler
 let
 request2
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

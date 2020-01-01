@@ -188,7 +188,7 @@ height
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

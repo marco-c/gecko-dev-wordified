@@ -105,7 +105,7 @@ baz
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

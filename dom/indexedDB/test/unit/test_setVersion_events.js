@@ -82,7 +82,7 @@ time
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -380,7 +380,7 @@ should
 succeed
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -695,7 +695,7 @@ version
 again
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -773,7 +773,7 @@ should
 fail
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -977,7 +977,7 @@ succeed
 .
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

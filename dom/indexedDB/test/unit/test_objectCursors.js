@@ -142,7 +142,7 @@ objectStores
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -346,7 +346,7 @@ yield
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

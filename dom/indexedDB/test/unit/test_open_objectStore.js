@@ -88,7 +88,7 @@ Objects
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

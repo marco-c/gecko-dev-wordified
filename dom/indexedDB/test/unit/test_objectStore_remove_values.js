@@ -242,7 +242,7 @@ i
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

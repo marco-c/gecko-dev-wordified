@@ -482,7 +482,7 @@ location
 .
 pathname
 ;
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -553,7 +553,7 @@ location
 .
 pathname
 ;
-mozIndexedDB
+indexedDB
 .
 open
 (

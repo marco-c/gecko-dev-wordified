@@ -63,7 +63,7 @@ Test
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -472,7 +472,7 @@ preventDefault
 ;
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

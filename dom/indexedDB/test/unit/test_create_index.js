@@ -222,7 +222,7 @@ false
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

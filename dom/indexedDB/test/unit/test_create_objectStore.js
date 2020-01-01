@@ -246,7 +246,7 @@ undefined
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

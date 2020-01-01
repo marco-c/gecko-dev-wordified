@@ -62,7 +62,7 @@ Test
 ;
 ok
 (
-mozIndexedDB
+indexedDB
 .
 deleteDatabase
 "
@@ -77,7 +77,7 @@ exist
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -244,7 +244,7 @@ here
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -502,7 +502,7 @@ closeDBs
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 deleteDatabase
 (
@@ -600,7 +600,7 @@ result
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -667,7 +667,7 @@ stores
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 deleteDatabase
 (
@@ -710,7 +710,7 @@ succeeded
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

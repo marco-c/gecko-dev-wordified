@@ -81,7 +81,7 @@ Database
 var
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
