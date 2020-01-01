@@ -910,13 +910,6 @@ const
 ClonedMessageData
 &
 aData
-const
-InfallibleTArray
-<
-CpowEntry
->
-&
-aCpows
 )
 ;
 virtual
