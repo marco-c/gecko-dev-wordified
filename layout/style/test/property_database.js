@@ -28108,6 +28108,16 @@ resize
 none
 "
 "
+zoom
+-
+in
+"
+"
+zoom
+-
+out
+"
+"
 -
 moz
 -

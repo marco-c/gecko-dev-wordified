@@ -23107,7 +23107,7 @@ eCursor_spinning
 break
 ;
 case
-NS_STYLE_CURSOR_MOZ_ZOOM_IN
+NS_STYLE_CURSOR_ZOOM_IN
 :
 c
 =
@@ -23116,7 +23116,7 @@ eCursor_zoom_in
 break
 ;
 case
-NS_STYLE_CURSOR_MOZ_ZOOM_OUT
+NS_STYLE_CURSOR_ZOOM_OUT
 :
 c
 =
