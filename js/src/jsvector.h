@@ -3425,7 +3425,7 @@ N
 class
 AP
 >
-JS_ALWAYS_INLINE
+JS_NEVER_INLINE
 bool
 Vector
 <
