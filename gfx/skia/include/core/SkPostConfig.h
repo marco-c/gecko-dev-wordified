@@ -1660,7 +1660,7 @@ SK_OVERRIDE
 if
 defined
 (
-SK_BUILD_FOR_WIN
+_MSC_VER
 )
 #
 define
