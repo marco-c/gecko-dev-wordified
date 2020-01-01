@@ -756,9 +756,6 @@ editor
 PRPackedBool
 mCanCreateEditor
 ;
-PRPackedBool
-mInteractive
-;
 /
 /
 True
