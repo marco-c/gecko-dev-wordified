@@ -1105,7 +1105,7 @@ return
 elif
 defined
 (
-MOZ_ENABLE_PANGO
+XP_UNIX
 )
 if
 (
