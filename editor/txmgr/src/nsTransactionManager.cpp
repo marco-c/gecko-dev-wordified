@@ -4658,15 +4658,11 @@ tint
 doInterrupt
 )
 ;
-if
-(
-NS_FAILED
+NS_ENSURE_SUCCESS
 (
 result
-)
-)
-return
 result
+)
 ;
 if
 (
