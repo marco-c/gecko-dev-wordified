@@ -433,7 +433,7 @@ private
 :
 friend
 class
-ImageFactory
+ImageOps
 ;
 }
 ;
