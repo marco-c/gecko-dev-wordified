@@ -153,10 +153,6 @@ mOffset
 (
 0
 )
-mPos
-(
-0
-)
 mClosed
 (
 false
@@ -354,7 +350,7 @@ aCount
 =
 mBufferLength
 -
-mPos
+mOffset
 ;
 return
 NS_OK
@@ -421,7 +417,7 @@ NS_ASSERTION
 mBufferLength
 >
 =
-mPos
+mOffset
 "
 bad
 stream
@@ -443,7 +439,7 @@ remaining
 =
 mBufferLength
 -
-mPos
+mOffset
 ;
 if
 (
@@ -479,16 +475,17 @@ writer
 (
 this
 closure
-(
+reinterpret_cast
+<
 char
 *
-)
+>
 (
 mBuffer
 +
 mOffset
 )
-mPos
+0
 aCount
 result
 )
@@ -523,7 +520,7 @@ write
 "
 )
 ;
-mPos
+mOffset
 +
 =
 *
