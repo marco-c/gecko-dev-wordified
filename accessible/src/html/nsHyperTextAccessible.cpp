@@ -1970,7 +1970,7 @@ startContentOffset
 PRInt32
 frameSubStringLength
 =
-PR_MIN
+NS_MIN
 (
 frameTotalTextLength
 -
