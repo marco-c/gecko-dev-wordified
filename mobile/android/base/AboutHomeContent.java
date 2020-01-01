@@ -1027,9 +1027,9 @@ showAwesomebar
 (
 AwesomeBar
 .
-Type
+Target
 .
-EDIT
+CURRENT_TAB
 )
 ;
 }
