@@ -620,6 +620,17 @@ returned
 .
 *
 *
+aClipboardType
+specifies
+which
+clipboard
+to
+use
+from
+nsIClipboard
+.
+*
+*
 If
 the
 event
@@ -642,6 +653,8 @@ FireClipboardEvent
 (
 int32_t
 aType
+int32_t
+aClipboardType
 nsIPresShell
 *
 aPresShell

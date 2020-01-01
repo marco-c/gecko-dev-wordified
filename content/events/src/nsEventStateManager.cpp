@@ -9289,9 +9289,6 @@ NS_MOUSE_BUTTON_UP
 case
 NS_MOUSE_MOVE
 :
-case
-NS_CONTEXTMENU
-:
 return
 true
 ;
@@ -12077,6 +12074,8 @@ nsDOMDataTransfer
 (
 NS_DRAGDROP_START
 false
+-
+1
 )
 ;
 if
