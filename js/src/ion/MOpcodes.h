@@ -667,7 +667,8 @@ op
 JS_NOT_REACHED
 (
 "
-implement
+NYI
+:
 "
 #
 op
