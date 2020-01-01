@@ -213,6 +213,41 @@ n
             
 continue
         
+#
+Avoid
+overly
+large
+diffs
+.
+        
+if
+url
+.
+contains
+(
+"
+/
+editing
+/
+"
+)
+:
+            
+sep
+=
+'
+:
+'
+        
+else
+:
+            
+sep
+=
+'
+:
+'
+        
 jsonpath
 =
 '
@@ -268,9 +303,7 @@ separators
 (
 '
 '
-'
-:
-'
+sep
 )
 )
         
