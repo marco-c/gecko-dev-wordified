@@ -1120,7 +1120,11 @@ area
 /
 /
 (
-NS_FRAME_OUTSIDE_CHILDREN
+HasOverflowRect
+(
+)
+is
+true
 )
 this
 rectangle

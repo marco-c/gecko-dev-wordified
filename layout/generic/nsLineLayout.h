@@ -965,7 +965,9 @@ and
 the
 setting
 of
-NS_FRAME_OUTSIDE_CHILDREN
+the
+overflow
+rect
 .
 *
 /

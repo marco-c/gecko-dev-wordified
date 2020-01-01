@@ -2523,15 +2523,11 @@ endif
 if
 (
 !
-(
-NS_FRAME_OUTSIDE_CHILDREN
-&
 mFrame
 -
 >
-GetStateBits
+HasOverflowRect
 (
-)
 )
 )
 {

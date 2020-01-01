@@ -684,8 +684,10 @@ not
 be
 allowed
 to
-make
-NS_FRAME_OUTSIDE_CHILDREN
+set
+an
+overflow
+rect
 on
 this
 *

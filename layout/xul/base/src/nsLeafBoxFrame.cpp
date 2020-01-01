@@ -2162,7 +2162,9 @@ state
 ;
 /
 /
-NS_FRAME_OUTSIDE_CHILDREN
+the
+overflow
+rect
 is
 set
 in

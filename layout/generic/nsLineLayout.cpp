@@ -19668,10 +19668,12 @@ rather
 than
 along
 with
-NS_FRAME_OUTSIDE_CHILDREN
+setting
+the
+overflow
+rect
 /
 /
-handling
 below
 )
 so
@@ -19756,8 +19758,9 @@ update
 its
 /
 /
-NS_FRAME_OUTSIDE_CHILDREN
-bit
+overflow
+rect
+.
 .
 .
 if

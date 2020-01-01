@@ -2459,11 +2459,9 @@ if
 f
 -
 >
-GetStateBits
+HasOverflowRect
 (
 )
-&
-NS_FRAME_OUTSIDE_CHILDREN
 )
 {
 nsRect
@@ -8489,9 +8487,9 @@ get
 ;
 if
 (
-mState
-&
-NS_FRAME_OUTSIDE_CHILDREN
+HasOverflowRect
+(
+)
 )
 {
 printf
