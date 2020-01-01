@@ -1776,7 +1776,7 @@ above
 The
 initial
 event
-reciever
+receiver
 uses
 '
 normal

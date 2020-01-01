@@ -20756,7 +20756,7 @@ events
 if
 we
 are
-hiddden
+hidden
 if
 (
 !
@@ -21287,7 +21287,7 @@ events
 if
 we
 are
-hiddden
+hidden
 if
 (
 !

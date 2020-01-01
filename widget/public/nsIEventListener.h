@@ -451,7 +451,7 @@ to
 a
 callback
 for
-recieving
+receiving
 events
 .
 *
