@@ -1082,9 +1082,7 @@ ScriptLoader
 (
 )
 ;
-nsresult
-scriptresult
-=
+return
 loader
 -
 >
@@ -1092,11 +1090,5 @@ ProcessScriptElement
 (
 this
 )
-;
-return
-scriptresult
-=
-=
-NS_ERROR_HTMLPARSER_BLOCK
 ;
 }

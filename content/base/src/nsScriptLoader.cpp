@@ -483,13 +483,6 @@ h
 #
 include
 "
-nsIDOMCharacterData
-.
-h
-"
-#
-include
-"
 nsParserUtils
 .
 h
@@ -579,13 +572,6 @@ h
 include
 "
 nsContentPolicyUtils
-.
-h
-"
-#
-include
-"
-nsIDOMWindow
 .
 h
 "
@@ -2610,7 +2596,7 @@ mRequest
 }
 }
 ;
-nsresult
+bool
 nsScriptLoader
 :
 :
@@ -2634,7 +2620,7 @@ scripts
 NS_ENSURE_TRUE
 (
 mDocument
-NS_ERROR_FAILURE
+false
 )
 ;
 /
@@ -2665,7 +2651,7 @@ IsScriptEnabled
 )
 {
 return
-NS_ERROR_NOT_AVAILABLE
+false
 ;
 }
 NS_ASSERTION
@@ -2686,6 +2672,9 @@ script
 ;
 /
 /
+Step
+12
+.
 Check
 that
 the
@@ -2703,7 +2692,7 @@ aElement
 )
 {
 return
-NS_CONTENT_SCRIPT_IS_EVENTHANDLER
+false
 ;
 }
 /
@@ -2825,7 +2814,7 @@ globalObject
 )
 {
 return
-NS_ERROR_NOT_AVAILABLE
+false
 ;
 }
 nsIScriptContext
@@ -2882,7 +2871,7 @@ GetScriptsEnabled
 )
 {
 return
-NS_ERROR_NOT_AVAILABLE
+false
 ;
 }
 /
@@ -3035,7 +3024,7 @@ mimeType
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+false
 )
 ;
 /
@@ -3342,7 +3331,7 @@ rv
 NS_ERROR_INVALID_ARG
 )
 return
-rv
+false
 ;
 }
 else
@@ -3387,7 +3376,7 @@ ID
 )
 ;
 return
-rv
+false
 ;
 }
 rv
@@ -3487,7 +3476,7 @@ rv
 NS_ERROR_INVALID_ARG
 )
 return
-rv
+false
 ;
 }
 else
@@ -3846,7 +3835,7 @@ UNKNOWN
 )
 {
 return
-NS_ERROR_NOT_AVAILABLE
+false
 ;
 }
 /
@@ -3958,7 +3947,7 @@ ignored
 )
 ;
 return
-NS_ERROR_NOT_AVAILABLE
+false
 ;
 }
 nsCOMPtr
@@ -3984,7 +3973,7 @@ typeID
 /
 /
 Step
-9
+14
 .
 in
 the
@@ -4030,7 +4019,7 @@ scriptURI
 )
 {
 return
-NS_ERROR_NOT_AVAILABLE
+false
 ;
 }
 nsTArray
@@ -4182,7 +4171,7 @@ type
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+false
 )
 ;
 }
@@ -4219,12 +4208,6 @@ aElement
 version
 )
 ;
-NS_ENSURE_TRUE
-(
-request
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 request
 -
 >
@@ -4257,7 +4240,7 @@ type
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+false
 )
 ;
 }
@@ -4323,7 +4306,7 @@ ProcessPendingRequestsAsync
 ;
 }
 return
-NS_OK
+false
 ;
 }
 if
@@ -4440,7 +4423,7 @@ ProcessPendingRequestsAsync
 ;
 }
 return
-NS_OK
+false
 ;
 }
 /
@@ -4598,7 +4581,7 @@ request
 )
 ;
 return
-NS_OK
+false
 ;
 }
 if
@@ -4690,7 +4673,7 @@ ProcessPendingRequestsAsync
 ;
 }
 return
-NS_ERROR_HTMLPARSER_BLOCK
+true
 ;
 }
 if
@@ -4766,6 +4749,9 @@ ProcessRequest
 (
 request
 )
+=
+=
+NS_ERROR_HTMLPARSER_BLOCK
 ;
 }
 /
@@ -4856,7 +4842,7 @@ ProcessPendingRequestsAsync
 )
 ;
 return
-NS_ERROR_HTMLPARSER_BLOCK
+true
 ;
 }
 /
@@ -4942,7 +4928,7 @@ mParserBlockingRequest
 request
 ;
 return
-NS_ERROR_HTMLPARSER_BLOCK
+true
 ;
 }
 /
@@ -4976,7 +4962,7 @@ csp
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+false
 )
 ;
 if
@@ -5024,7 +5010,7 @@ inlineOK
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+false
 )
 ;
 if
@@ -5160,7 +5146,7 @@ GetScriptLineNumber
 )
 ;
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 }
@@ -5171,12 +5157,6 @@ nsScriptLoadRequest
 (
 aElement
 version
-)
-;
-NS_ENSURE_TRUE
-(
-request
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 request
@@ -5292,7 +5272,7 @@ request
 )
 ;
 return
-NS_ERROR_HTMLPARSER_BLOCK
+true
 ;
 }
 if
@@ -5347,7 +5327,7 @@ request
 )
 ;
 return
-NS_OK
+false
 ;
 }
 if
@@ -5417,7 +5397,7 @@ doc
 )
 ;
 return
-NS_ERROR_HTMLPARSER_BLOCK
+true
 ;
 }
 /
@@ -5562,6 +5542,9 @@ ProcessRequest
 (
 request
 )
+=
+=
+NS_ERROR_HTMLPARSER_BLOCK
 ;
 }
 nsresult
