@@ -469,13 +469,6 @@ h
 #
 include
 "
-nsIXSLTProcessorObsolete
-.
-h
-"
-#
-include
-"
 nsIXSLTProcessorPrivate
 .
 h
@@ -621,8 +614,6 @@ txMozillaXSLTProcessor
 public
 nsIXSLTProcessor
 public
-nsIXSLTProcessorObsolete
-public
 nsIXSLTProcessorPrivate
 public
 nsIDocumentTransformer
@@ -677,11 +668,6 @@ nsIXSLTProcessor
 nsIXSLTProcessor
 interface
 NS_DECL_NSIXSLTPROCESSOR
-/
-/
-nsIXSLTProcessorObsolete
-interface
-NS_DECL_NSIXSLTPROCESSOROBSOLETE
 /
 /
 nsIXSLTProcessorPrivate
@@ -818,9 +804,6 @@ mSource
 nsresult
 TransformToDoc
 (
-nsIDOMDocument
-*
-aOutputDoc
 nsIDOMDocument
 *
 *

@@ -687,9 +687,6 @@ aNsID
 nsIDOMDocument
 *
 aSourceDocument
-nsIDOMDocument
-*
-aResultDocument
 )
 ;
 private

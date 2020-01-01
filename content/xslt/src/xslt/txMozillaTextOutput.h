@@ -520,9 +520,6 @@ createResultDocument
 nsIDOMDocument
 *
 aSourceDocument
-nsIDOMDocument
-*
-aResultDocument
 )
 ;
 private
