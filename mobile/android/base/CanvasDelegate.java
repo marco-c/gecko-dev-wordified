@@ -82,14 +82,14 @@ android
 .
 graphics
 .
-Path
+Paint
 ;
 import
 android
 .
 graphics
 .
-Paint
+Path
 ;
 import
 android
