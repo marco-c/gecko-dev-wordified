@@ -536,6 +536,15 @@ GetCurrentSize
 (
 )
 ;
+virtual
+PRBool
+SetLayerManager
+(
+LayerManager
+*
+aManager
+)
+;
 private
 :
 typedef
