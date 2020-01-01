@@ -17963,7 +17963,7 @@ MapToFloatImagePixels
 (
 imageSize
 devPixelDest
-aFill
+devPixelFill
 .
 TopLeft
 (
@@ -17977,7 +17977,7 @@ MapToFloatImagePixels
 (
 imageSize
 devPixelDest
-aFill
+devPixelFill
 .
 BottomRight
 (
@@ -18084,7 +18084,7 @@ MapToFloatImagePixels
 (
 imageSize
 devPixelDest
-aAnchor
+anchorPoint
 )
 ;
 gfxContextMatrixAutoSaveRestore
