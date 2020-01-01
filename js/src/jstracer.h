@@ -8762,7 +8762,7 @@ true
 )
 ;
 JS_REQUIRES_STACK
-void
+RecordingStatus
 strictEquality
 (
 bool

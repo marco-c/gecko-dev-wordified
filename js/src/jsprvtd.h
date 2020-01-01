@@ -753,6 +753,11 @@ typedefs
 /
 typedef
 struct
+JSLinearString
+JSLinearString
+;
+typedef
+struct
 JSAtom
 JSAtom
 ;

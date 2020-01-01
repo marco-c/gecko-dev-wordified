@@ -593,16 +593,7 @@ ATOM_TO_STRING
 atom
 )
 (
-JS_ASSERT_STRING_IS_FLAT
-(
-(
-JSString
-*
-)
-(
 atom
-)
-)
 )
 #
 define
@@ -1935,7 +1926,7 @@ AtomEntryType
 ;
 static
 JS_ALWAYS_INLINE
-JSString
+JSAtom
 *
 AtomEntryToKey
 (
@@ -1953,7 +1944,7 @@ entry
 ;
 return
 (
-JSString
+JSAtom
 *
 )
 (
@@ -1968,7 +1959,7 @@ struct
 AtomHasher
 {
 typedef
-JSString
+JSLinearString
 *
 Lookup
 ;
@@ -1976,7 +1967,7 @@ static
 HashNumber
 hash
 (
-JSString
+JSLinearString
 *
 str
 )
@@ -1994,7 +1985,7 @@ match
 (
 AtomEntryType
 entry
-JSString
+JSLinearString
 *
 lookup
 )
@@ -2002,7 +1993,7 @@ lookup
 return
 entry
 ?
-js_EqualStrings
+EqualStrings
 (
 AtomEntryToKey
 (

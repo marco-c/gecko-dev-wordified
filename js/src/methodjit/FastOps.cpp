@@ -10953,9 +10953,9 @@ isConstant
 )
 )
 {
-bool
+JSBool
 b
-=
+;
 StrictlyEqual
 (
 cx
@@ -10971,6 +10971,8 @@ rhs
 getValue
 (
 )
+&
+b
 )
 ;
 frame

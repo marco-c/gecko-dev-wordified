@@ -9542,9 +9542,7 @@ PutEscapedString
 (
 buf
 bufsize
--
-1
-JSID_TO_STRING
+JSID_TO_ATOM
 (
 id
 )
@@ -9556,8 +9554,6 @@ if
 n
 <
 bufsize
--
-1
 )
 JS_snprintf
 (
@@ -9699,9 +9695,7 @@ PutEscapedString
 (
 buf
 bufsize
--
-1
-JSID_TO_STRING
+JSID_TO_ATOM
 (
 id
 )
@@ -9713,8 +9707,6 @@ if
 n
 <
 bufsize
--
-1
 )
 JS_snprintf
 (

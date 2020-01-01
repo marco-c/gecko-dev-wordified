@@ -6734,6 +6734,9 @@ const
 Value
 &
 rval
+JSBool
+*
+equal
 )
 ;
 /
@@ -6766,6 +6769,9 @@ extern
 bool
 SameValue
 (
+JSContext
+*
+cx
 const
 Value
 &
@@ -6774,9 +6780,9 @@ const
 Value
 &
 v2
-JSContext
+JSBool
 *
-cx
+same
 )
 ;
 extern

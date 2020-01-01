@@ -1829,7 +1829,7 @@ vp
 )
 ;
 extern
-JSString
+JSLinearString
 *
 js_EscapeAttributeValue
 (
