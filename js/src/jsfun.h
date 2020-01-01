@@ -1985,10 +1985,13 @@ funobj
 JSFunction
 *
 )
-OBJ_GET_PRIVATE
 (
-cx
 funobj
+)
+-
+>
+getAssignedPrivate
+(
 )
 )
 extern

@@ -1590,9 +1590,11 @@ funobj_
 JSObject
 *
 )
-STOBJ_GET_PRIVATE
-(
 funobj_
+-
+>
+getAssignedPrivate
+(
 )
 )
 ;
