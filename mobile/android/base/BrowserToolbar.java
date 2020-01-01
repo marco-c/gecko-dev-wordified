@@ -4091,6 +4091,13 @@ PropertyAnimator
 250
 )
 ;
+contentAnimator
+.
+setUseHardwareLayer
+(
+false
+)
+;
 /
 /
 Shrink
@@ -4547,6 +4554,13 @@ new
 PropertyAnimator
 (
 250
+)
+;
+contentAnimator
+.
+setUseHardwareLayer
+(
+false
 )
 ;
 int
