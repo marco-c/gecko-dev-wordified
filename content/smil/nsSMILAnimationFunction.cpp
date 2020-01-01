@@ -2490,7 +2490,7 @@ GetMillis
 /
 Sanity
 Checks
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mSampleTime
 >
@@ -2505,13 +2505,10 @@ should
 not
 be
 negative
-.
-.
-.
 "
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 dur
 >
@@ -2526,9 +2523,6 @@ should
 not
 be
 negative
-.
-.
-.
 "
 )
 ;
@@ -2543,6 +2537,8 @@ dur
 mSampleTime
 <
 0
+.
+0f
 )
 {
 NS_ERROR

@@ -1876,6 +1876,7 @@ UnsetKeySplines
 /
 /
 Helpers
+virtual
 nsresult
 InterpolateResult
 (
