@@ -653,6 +653,7 @@ Clone
 )
 const
 ;
+virtual
 nsIDOMCSSRule
 *
 GetDOMRuleWeak
@@ -686,10 +687,8 @@ NS_DECL_NSIDOMCSSMEDIARULE
 rest
 of
 GroupRule
-NS_IMETHOD_
-(
+virtual
 PRBool
-)
 UseForPresentation
 (
 nsPresContext
@@ -802,6 +801,7 @@ Clone
 )
 const
 ;
+virtual
 nsIDOMCSSRule
 *
 GetDOMRuleWeak
@@ -835,10 +835,8 @@ NS_DECL_NSIDOMCSSMOZDOCUMENTRULE
 rest
 of
 GroupRule
-NS_IMETHOD_
-(
+virtual
 PRBool
-)
 UseForPresentation
 (
 nsPresContext
