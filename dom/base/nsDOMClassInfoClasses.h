@@ -700,13 +700,6 @@ DOMCI_CLASS
 (
 StorageItem
 )
-/
-/
-XMLHttpRequest
-DOMCI_CLASS
-(
-XMLHttpProgressEvent
-)
 DOMCI_CLASS
 (
 ClientRect
