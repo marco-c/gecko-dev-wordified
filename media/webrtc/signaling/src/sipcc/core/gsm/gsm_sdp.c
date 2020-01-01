@@ -16208,9 +16208,6 @@ SDP_MEDIA_AUDIO
 {
 if
 (
-media
--
->
 payload
 =
 =
@@ -16242,9 +16239,6 @@ remote_dynamic_payload_type_value
 }
 if
 (
-media
--
->
 payload
 =
 =

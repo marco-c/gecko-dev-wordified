@@ -1220,7 +1220,7 @@ typedef
 struct
 cc_sdp_t_
 {
-void
+sdp_t
 *
 src_sdp
 ;
@@ -1232,7 +1232,7 @@ source
 SDP
 *
 /
-void
+sdp_t
 *
 dest_sdp
 ;
