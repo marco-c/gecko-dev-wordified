@@ -2094,17 +2094,6 @@ adjustViewport
 (
 )
 {
-Log
-.
-i
-(
-LOGTAG
-"
-Adjusting
-viewport
-"
-)
-;
 ViewportMetrics
 viewportMetrics
 =
