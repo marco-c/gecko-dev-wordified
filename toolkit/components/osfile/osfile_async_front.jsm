@@ -2030,8 +2030,6 @@ readTo
 (
 buffer
 options
-=
-noOptions
 )
 {
 /
@@ -2116,6 +2114,9 @@ options
 clone
 (
 options
+|
+|
+noOptions
 [
 "
 outExecutionDuration
@@ -2391,8 +2392,6 @@ write
 (
 buffer
 options
-=
-noOptions
 )
 {
 /
@@ -2477,6 +2476,9 @@ options
 clone
 (
 options
+|
+|
+noOptions
 [
 "
 outExecutionDuration
@@ -4645,8 +4647,6 @@ writeAtomic
 path
 buffer
 options
-=
-noOptions
 )
 {
 /
@@ -4682,6 +4682,9 @@ options
 clone
 (
 options
+|
+|
+noOptions
 [
 "
 outExecutionDuration
