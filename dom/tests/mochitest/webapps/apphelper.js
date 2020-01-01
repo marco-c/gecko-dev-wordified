@@ -787,10 +787,6 @@ callee
 name
 )
 ;
-uninstallAll
-(
-)
-;
 popupNotifications
 .
 panel
