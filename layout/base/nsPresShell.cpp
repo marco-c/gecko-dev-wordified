@@ -22848,7 +22848,6 @@ CollapseToStart
 )
 ;
 }
-}
 if
 (
 selectAnchor
@@ -22932,6 +22931,7 @@ AddRange
 range
 )
 ;
+}
 }
 }
 /
