@@ -4316,7 +4316,7 @@ jsop_getelem_args
 #
 ifdef
 JS_METHODJIT_TYPED_ARRAY
-void
+bool
 jsop_getelem_typed
 (
 int
