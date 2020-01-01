@@ -660,9 +660,6 @@ jint
 '
 jfloat
 '
-'
-jdouble
-'
 )
 :
                     

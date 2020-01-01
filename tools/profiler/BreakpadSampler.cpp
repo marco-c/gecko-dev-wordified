@@ -1947,7 +1947,7 @@ sample
 >
 timestamp
 -
-sStartTime
+mStartTime
 ;
 utb__addEntry
 (

@@ -1431,17 +1431,6 @@ profiler_js_operation_callback
 )
 {
 }
-static
-inline
-double
-profiler_time
-(
-)
-{
-return
-0
-;
-}
 #
 else
 #
