@@ -455,7 +455,7 @@ _nsAccTreeWalker_H_
 #
 include
 "
-nsIAccessible
+nsAutoPtr
 .
 h
 "
@@ -473,6 +473,9 @@ nsIWeakReference
 .
 h
 "
+class
+nsAccessible
+;
 struct
 WalkState
 ;
@@ -533,7 +536,7 @@ accessible
 /
 already_AddRefed
 <
-nsIAccessible
+nsAccessible
 >
 GetNextChild
 (
@@ -593,7 +596,7 @@ children
 /
 already_AddRefed
 <
-nsIAccessible
+nsAccessible
 >
 GetNextChildInternal
 (
