@@ -51,12 +51,13 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
 devtools
 /
-Promise
+_Promise
 .
 jsm
 "
