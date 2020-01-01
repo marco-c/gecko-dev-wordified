@@ -307,14 +307,12 @@ the
 selection
 into
 view
-nsresult
-GetPresContext
-(
 nsPresContext
 *
-*
-aPresContext
+GetPresContext
+(
 )
+const
 ;
 nsIPresShell
 *
