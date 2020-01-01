@@ -3254,6 +3254,10 @@ const
 nsString
 &
 title
+const
+nsACString
+&
+aGUID
 )
 ;
 bool

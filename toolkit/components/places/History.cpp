@@ -3009,6 +3009,10 @@ const
 nsString
 &
 aTitle
+const
+nsCString
+&
+aGUID
 )
 :
 mSpec
@@ -3018,6 +3022,10 @@ aSpec
 mTitle
 (
 aTitle
+)
+mGUID
+(
+aGUID
 )
 {
 }
@@ -3085,6 +3093,7 @@ NotifyTitleChange
 (
 uri
 mTitle
+mGUID
 )
 ;
 return
@@ -3100,6 +3109,10 @@ mSpec
 const
 nsString
 mTitle
+;
+const
+nsCString
+mGUID
 ;
 }
 ;
@@ -4175,6 +4188,9 @@ spec
 place
 .
 title
+place
+.
+guid
 )
 ;
 rv
@@ -7192,6 +7208,9 @@ spec
 mPlace
 .
 title
+mPlace
+.
+guid
 )
 ;
 nsresult

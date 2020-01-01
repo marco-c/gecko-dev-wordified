@@ -797,6 +797,11 @@ const
 nsAString
 &
 aPageTitle
+\
+const
+nsACString
+&
+aGUID
 )
 ;
 \

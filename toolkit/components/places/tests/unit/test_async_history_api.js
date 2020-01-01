@@ -639,6 +639,7 @@ function
 (
 aURI
 aTitle
+aGUID
 )
 {
 do_log_info
@@ -656,6 +657,11 @@ spec
 "
 +
 aTitle
++
+"
+"
++
+aGUID
 +
 "
 )
@@ -684,6 +690,12 @@ aTitle
 this
 .
 expectedTitle
+)
+;
+do_check_guid_for_uri
+(
+aURI
+aGUID
 )
 ;
 this
