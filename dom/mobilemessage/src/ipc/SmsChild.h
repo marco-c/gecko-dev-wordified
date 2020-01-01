@@ -287,6 +287,17 @@ aMessage
 MOZ_OVERRIDE
 ;
 virtual
+bool
+RecvNotifyReceivedSilentMessage
+(
+const
+MobileMessageData
+&
+aMessage
+)
+MOZ_OVERRIDE
+;
+virtual
 PSmsRequestChild
 *
 AllocPSmsRequestChild
