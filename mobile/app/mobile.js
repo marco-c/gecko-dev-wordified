@@ -5143,13 +5143,7 @@ www
 .
 mozilla
 .
-com
-/
-%
-LOCALE
-%
-/
-mobile
+org
 /
 credits
 /
