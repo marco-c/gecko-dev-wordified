@@ -3950,7 +3950,7 @@ NEXT
 PrefetchHref
 (
 aHref
-nullptr
+mDocument
 hasPrefetch
 )
 ;
@@ -4511,7 +4511,7 @@ const
 nsAString
 &
 aHref
-nsIContent
+nsINode
 *
 aSource
 bool
