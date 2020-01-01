@@ -8020,7 +8020,7 @@ aScriptObject
 *
 /
 static
-nsresult
+void
 HoldJSObjects
 (
 void
@@ -8062,7 +8062,7 @@ drop
 *
 /
 static
-nsresult
+void
 DropJSObjects
 (
 void

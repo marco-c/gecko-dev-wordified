@@ -11523,7 +11523,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-NS_IMETHODIMP
+void
 nsXPConnect
 :
 :
@@ -11537,7 +11537,6 @@ nsScriptObjectTracer
 aTracer
 )
 {
-return
 mRuntime
 -
 >
@@ -11548,7 +11547,7 @@ aTracer
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsXPConnect
 :
 :
@@ -11559,7 +11558,6 @@ void
 aHolder
 )
 {
-return
 mRuntime
 -
 >
@@ -11569,7 +11567,7 @@ aHolder
 )
 ;
 }
-NS_IMETHODIMP
+bool
 nsXPConnect
 :
 :
@@ -11578,9 +11576,6 @@ TestJSHolder
 void
 *
 aHolder
-bool
-*
-aRetval
 )
 {
 #
@@ -11593,18 +11588,12 @@ mRuntime
 TestJSHolder
 (
 aHolder
-aRetval
 )
 ;
 #
 else
-MOZ_ASSERT
-(
-false
-)
-;
 return
-NS_ERROR_FAILURE
+false
 ;
 #
 endif

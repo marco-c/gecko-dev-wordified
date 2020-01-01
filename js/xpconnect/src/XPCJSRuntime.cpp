@@ -1500,7 +1500,7 @@ nullptr
 )
 ;
 }
-nsresult
+void
 XPCJSRuntime
 :
 :
@@ -1575,9 +1575,6 @@ AddRef
 )
 ;
 }
-return
-NS_OK
-;
 }
 #
 ifdef
@@ -1652,7 +1649,7 @@ nullptr
 }
 #
 endif
-nsresult
+void
 XPCJSRuntime
 :
 :
@@ -1772,11 +1769,8 @@ Release
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+bool
 XPCJSRuntime
 :
 :
@@ -1785,14 +1779,9 @@ TestJSHolder
 void
 *
 aHolder
-bool
-*
-aRetval
 )
 {
-*
-aRetval
-=
+return
 mJSHolders
 .
 Get
@@ -1800,9 +1789,6 @@ Get
 aHolder
 nullptr
 )
-;
-return
-NS_OK
 ;
 }
 /
