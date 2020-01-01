@@ -2470,13 +2470,10 @@ nsnull
 ;
 }
 virtual
-nsresult
-GetSMILOverrideStyle
-(
 nsIDOMCSSStyleDeclaration
 *
-*
-aStyle
+GetSMILOverrideStyle
+(
 )
 ;
 virtual
