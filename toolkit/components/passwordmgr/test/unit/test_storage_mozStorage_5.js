@@ -52,6 +52,14 @@ run_test
 try
 {
 /
+/
+Disable
+test
+for
+now
+return
+;
+/
 *
 =
 =

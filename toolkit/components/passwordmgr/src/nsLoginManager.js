@@ -788,7 +788,7 @@ manager
 /
 storage
 /
-mozStorage
+legacy
 ;
 1
 "
