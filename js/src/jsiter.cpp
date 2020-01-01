@@ -3973,11 +3973,6 @@ js_GeneratorClass
 base
 )
 {
-JS_ASSERT_NOT_ON_TRACE
-(
-cx
-)
-;
 return
 CloseGenerator
 (
