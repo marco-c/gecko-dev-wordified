@@ -2559,10 +2559,10 @@ address
 )
 ;
 }
-const
-Shape
-*
-newShape
+JS_ASSERT
+(
+shape
+=
 =
 obj
 -
@@ -2570,10 +2570,11 @@ obj
 lastProperty
 (
 )
+)
 ;
 JS_ASSERT
 (
-newShape
+shape
 !
 =
 initialShape

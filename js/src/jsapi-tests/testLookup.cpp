@@ -71,6 +71,13 @@ js
 :
 :
 IsInternalFunctionObject
+#
+include
+"
+jsobjinlines
+.
+h
+"
 BEGIN_TEST
 (
 testLookup_bug522590
