@@ -1177,6 +1177,13 @@ StackAlignment
 =
 8
 ;
+static
+const
+bool
+StackKeptAligned
+=
+true
+;
 class
 Instruction
 ;
