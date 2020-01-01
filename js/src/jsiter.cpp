@@ -1444,14 +1444,6 @@ propid
 &
 &
 !
-shape
-.
-isAlias
-(
-)
-&
-&
-!
 Enumerate
 (
 cx
