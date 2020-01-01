@@ -2014,7 +2014,7 @@ m_cRef
 the
 reference
 count
-nsTPtrArray
+nsTArray
 <
 nsCString
 >
