@@ -3439,6 +3439,11 @@ if
 message
 .
 header
+&
+&
+message
+.
+header
 .
 destinationPort
 !
