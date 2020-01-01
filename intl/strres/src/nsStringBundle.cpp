@@ -706,6 +706,15 @@ nsStringBundle
 (
 )
 {
+if
+(
+mMonitor
+)
+PR_DestroyMonitor
+(
+mMonitor
+)
+;
 }
 nsStringBundle
 :
