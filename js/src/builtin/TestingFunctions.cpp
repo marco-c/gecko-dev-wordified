@@ -3205,9 +3205,11 @@ return
 false
 ;
 }
-JSObject
-*
+RootedObject
 arr
+(
+cx
+)
 ;
 if
 (
@@ -3224,8 +3226,11 @@ args
 toObject
 (
 )
-&
 arr
+.
+address
+(
+)
 )
 )
 return

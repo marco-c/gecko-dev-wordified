@@ -544,14 +544,6 @@ mozilla
 CheckedInt
 ;
 typedef
-Rooted
-<
-JSLinearString
-*
->
-RootedLinearString
-;
-typedef
 Handle
 <
 JSLinearString
