@@ -8360,7 +8360,7 @@ ConnMgr
 ReportSpdyConnection
 (
 this
-mUsingSpdyVersion
+mEverUsedSpdy
 )
 ;
 }
