@@ -735,6 +735,13 @@ is
 for
 internal
 use
+such
+as
+nsRuleData
+:
+:
+ValueFor
+*
 or
 external
 use
