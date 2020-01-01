@@ -3002,7 +3002,7 @@ browser
 .
 warnOnQuit
 "
-true
+false
 )
 ;
 pref
@@ -3012,7 +3012,7 @@ browser
 .
 warnOnRestart
 "
-true
+false
 )
 ;
 pref
