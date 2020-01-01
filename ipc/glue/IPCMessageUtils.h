@@ -2999,8 +2999,7 @@ param
 ;
 return
 ;
-default
-:
+}
 NS_RUNTIMEABORT
 (
 "
@@ -3009,9 +3008,6 @@ reached
 "
 )
 ;
-return
-;
-}
 }
 static
 bool
