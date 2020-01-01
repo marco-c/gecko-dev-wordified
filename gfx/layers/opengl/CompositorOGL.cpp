@@ -235,6 +235,13 @@ h
 #
 include
 "
+nsMathUtils
+.
+h
+"
+#
+include
+"
 GeckoProfiler
 .
 h
@@ -3960,7 +3967,7 @@ texCoordRect
 =
 IntRect
 (
-roundf
+NS_roundf
 (
 aTexCoordRect
 .
@@ -3975,7 +3982,7 @@ GetSize
 .
 width
 )
-roundf
+NS_roundf
 (
 aTexCoordRect
 .
@@ -3990,7 +3997,7 @@ GetSize
 .
 height
 )
-roundf
+NS_roundf
 (
 aTexCoordRect
 .
@@ -4005,7 +4012,7 @@ GetSize
 .
 width
 )
-roundf
+NS_roundf
 (
 aTexCoordRect
 .
