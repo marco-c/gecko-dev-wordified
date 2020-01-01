@@ -40035,6 +40035,10 @@ const
 nsAString
 &
 charset
+const
+nsAString
+&
+aCrossOriginAttr
 )
 {
 /
@@ -40084,6 +40088,13 @@ NS_LossyConvertUTF16toASCII
 charset
 )
 obs
+nsGenericElement
+:
+:
+StringToCORSMode
+(
+aCrossOriginAttr
+)
 )
 ;
 }

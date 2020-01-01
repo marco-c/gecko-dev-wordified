@@ -1234,9 +1234,6 @@ nsAString
 aMedia
 bool
 aHasAlternateRel
-mozilla
-:
-:
 CORSMode
 aCORSMode
 nsICSSLoaderObserver
@@ -2017,6 +2014,10 @@ aCharset
 nsICSSLoaderObserver
 *
 aObserver
+CORSMode
+aCORSMode
+=
+CORS_NONE
 )
 ;
 /
@@ -2703,6 +2704,10 @@ aSheet
 nsICSSLoaderObserver
 *
 aObserver
+CORSMode
+aCORSMode
+=
+CORS_NONE
 )
 ;
 /

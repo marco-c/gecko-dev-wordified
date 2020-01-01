@@ -13612,6 +13612,8 @@ aCharset
 nsICSSLoaderObserver
 *
 aObserver
+CORSMode
+aCORSMode
 )
 {
 LOG
@@ -13645,6 +13647,7 @@ aOriginPrincipal
 aCharset
 nullptr
 aObserver
+aCORSMode
 )
 ;
 }
@@ -13675,6 +13678,8 @@ aSheet
 nsICSSLoaderObserver
 *
 aObserver
+CORSMode
+aCORSMode
 )
 {
 NS_PRECONDITION
