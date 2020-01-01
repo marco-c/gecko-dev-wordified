@@ -585,6 +585,13 @@ JS
 :
 Value
 &
+aCommand
+const
+JS
+:
+:
+Value
+&
 aResponse
 )
 {
@@ -606,6 +613,7 @@ SendStkResponse
 GetOwner
 (
 )
+aCommand
 aResponse
 )
 ;
