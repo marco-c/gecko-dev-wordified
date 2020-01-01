@@ -562,6 +562,14 @@ nsHtml5AtomTable
 interner
 )
 ;
+PRBool
+equalsAnother
+(
+nsHtml5HtmlAttributes
+*
+other
+)
+;
 static
 void
 initializeStatics
