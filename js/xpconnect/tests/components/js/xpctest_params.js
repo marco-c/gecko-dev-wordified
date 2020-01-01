@@ -676,6 +676,12 @@ f_is
 testWstringArray
 :
 f_is
+testSizedString
+:
+f_is
+testSizedWstring
+:
+f_is
 }
 ;
 var
