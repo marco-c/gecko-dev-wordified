@@ -25661,6 +25661,11 @@ nsRange
 aRange
 )
 {
+NS_ENSURE_TRUE
+(
+mAnchorFocusRange
+)
+;
 nsRefPtr
 <
 nsPresContext
