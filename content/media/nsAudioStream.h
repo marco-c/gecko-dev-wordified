@@ -902,7 +902,7 @@ been
 consumed
 .
 virtual
-nsresult
+void
 Drain
 (
 )

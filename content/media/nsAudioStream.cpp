@@ -744,7 +744,7 @@ double
 aVolume
 )
 ;
-nsresult
+void
 Drain
 (
 )
@@ -945,7 +945,7 @@ double
 aVolume
 )
 ;
-nsresult
+void
 Drain
 (
 )
@@ -2865,7 +2865,7 @@ aVolume
 #
 endif
 }
-nsresult
+void
 nsAudioStreamLocal
 :
 :
@@ -2899,7 +2899,6 @@ if
 mInError
 )
 return
-NS_ERROR_FAILURE
 ;
 /
 /
@@ -2974,7 +2973,6 @@ mInError
 PR_TRUE
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 int
@@ -3024,13 +3022,7 @@ mInError
 =
 PR_TRUE
 ;
-return
-NS_ERROR_FAILURE
-;
 }
-return
-NS_OK
-;
 }
 void
 nsAudioStreamLocal
@@ -3608,7 +3600,7 @@ event
 )
 ;
 }
-nsresult
+void
 nsAudioStreamRemote
 :
 :
@@ -3622,7 +3614,6 @@ if
 mAudioChild
 )
 return
-NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
@@ -3641,7 +3632,6 @@ NS_DispatchToMainThread
 event
 )
 ;
-return
 mAudioChild
 -
 >
