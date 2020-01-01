@@ -5783,7 +5783,7 @@ See
 bug
 472312
 .
-NS_ERROR
+NS_WARNING
 (
 "
 Something
