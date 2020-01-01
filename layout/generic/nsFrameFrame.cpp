@@ -3057,6 +3057,7 @@ GetPositionAndSize
 killed
 us
 return
+PR_FALSE
 ;
 }
 /
