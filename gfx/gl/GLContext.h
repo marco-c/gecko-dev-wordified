@@ -4234,7 +4234,7 @@ aType
 )
 {
 return
-nsnull
+0
 ;
 }
 /

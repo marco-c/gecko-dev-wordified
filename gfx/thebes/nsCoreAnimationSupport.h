@@ -217,7 +217,7 @@ nsnull
 )
 mFBOTexture
 (
-nsnull
+0
 )
 mOpenGLContext
 (
@@ -237,11 +237,11 @@ nsnull
 )
 mFBO
 (
-nsnull
+0
 )
 mIOTexture
 (
-nsnull
+0
 )
 mUnsupportedWidth
 (

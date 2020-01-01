@@ -1916,7 +1916,7 @@ handle
 )
 ;
 return
-nsnull
+0
 ;
 }
 BasicShadowLayerManager

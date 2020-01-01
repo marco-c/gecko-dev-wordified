@@ -10772,7 +10772,7 @@ owner
 NS_ENSURE_TRUE
 (
 owner
-nsnull
+NPERR_NO_ERROR
 )
 ;
 if

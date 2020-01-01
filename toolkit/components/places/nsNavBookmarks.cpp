@@ -3247,7 +3247,7 @@ aFolder
 index
 title
 dateAdded
-nsnull
+0
 folderGuid
 grandParentId
 aURI
@@ -4658,7 +4658,7 @@ aParent
 index
 title
 dateAdded
-nsnull
+0
 folderGuid
 grandParentId
 nsnull
@@ -4910,7 +4910,7 @@ aParent
 index
 voidString
 dateAdded
-nsnull
+0
 folderGuid
 grandParentId
 nsnull

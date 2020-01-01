@@ -2891,7 +2891,7 @@ slotCount
 -
 1
 ]
-nsnull
+0
 sizeof
 (
 InternalAttr

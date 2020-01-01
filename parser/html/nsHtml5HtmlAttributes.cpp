@@ -672,7 +672,7 @@ mode
 else
 {
 return
-nsnull
+0
 ;
 }
 }

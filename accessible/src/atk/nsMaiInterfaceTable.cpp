@@ -1839,7 +1839,7 @@ MEMORY
 )
 ;
 return
-nsnull
+0
 ;
 }
 /
@@ -2033,7 +2033,7 @@ MEMORY
 )
 ;
 return
-nsnull
+0
 ;
 }
 /

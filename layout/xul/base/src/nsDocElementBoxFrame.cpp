@@ -721,7 +721,7 @@ mTooltipContent
 >
 SetAttr
 (
-nsnull
+kNameSpaceID_None
 nsGkAtoms
 :
 :

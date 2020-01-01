@@ -19794,11 +19794,11 @@ end
 {
 strBuf
 =
-nsnull
+0
 ;
 longStrBuf
 =
-nsnull
+0
 ;
 doctypeName
 =

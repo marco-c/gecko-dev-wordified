@@ -2189,7 +2189,10 @@ p
 for
 (
 ;
-nsnull
+'
+\
+0
+'
 !
 =
 *
@@ -2278,7 +2281,10 @@ BeginWriting
 for
 (
 ;
-nsnull
+'
+\
+0
+'
 !
 =
 *

@@ -2984,7 +2984,11 @@ aCharacter
 *
 aCharacter
 =
-nsnull
+L
+'
+\
+0
+'
 ;
 if
 (
