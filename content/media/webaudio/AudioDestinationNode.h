@@ -187,6 +187,13 @@ aSampleRate
 0f
 )
 ;
+virtual
+void
+DestroyMediaStream
+(
+)
+MOZ_OVERRIDE
+;
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 JSObject

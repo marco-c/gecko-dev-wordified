@@ -390,6 +390,9 @@ Shutdown
 (
 )
 ;
+/
+/
+idempotent
 void
 Suspend
 (

@@ -6744,6 +6744,9 @@ CreateNonRealtimeInstance
 (
 )
 ;
+/
+/
+Idempotent
 static
 void
 DestroyNonRealtimeInstance
@@ -7116,6 +7119,12 @@ return
 mGraphUpdatesSent
 ;
 }
+bool
+IsNonRealtime
+(
+)
+const
+;
 /
 *
 *
