@@ -2218,7 +2218,7 @@ height
 nsLayoutUtils
 :
 :
-DrawImage
+DrawSingleImage
 (
 &
 aRenderingContext
