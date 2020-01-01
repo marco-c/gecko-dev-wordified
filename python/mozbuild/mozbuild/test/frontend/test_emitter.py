@@ -1312,6 +1312,25 @@ MODULE
 module_name
 '
             
+OS_LIBS
+=
+[
+'
+foo
+.
+so
+'
+'
+-
+l123
+'
+'
+aaa
+.
+a
+'
+]
+            
 SDK_LIBRARY
 =
 [
