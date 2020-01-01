@@ -734,6 +734,16 @@ RecvResume
 ;
 virtual
 bool
+RecvCancel
+(
+const
+nsresult
+&
+status
+)
+;
+virtual
+bool
 RecvRedirect2Result
 (
 const
