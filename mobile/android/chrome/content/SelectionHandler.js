@@ -667,7 +667,7 @@ zooming
 .
 this
 .
-updateCacheForSelection
+_updateCacheForSelection
 (
 )
 ;
@@ -706,7 +706,7 @@ TYPE_SELECTION
 )
 this
 .
-moveSelection
+_moveSelection
 (
 data
 .
@@ -774,7 +774,7 @@ the
 caret
 this
 .
-positionHandles
+_positionHandles
 (
 )
 ;
@@ -825,7 +825,7 @@ selectionReversed
 =
 this
 .
-updateCacheForSelection
+_updateCacheForSelection
 (
 data
 .
@@ -971,7 +971,7 @@ selection
 .
 this
 .
-positionHandles
+_positionHandles
 (
 )
 ;
@@ -991,7 +991,7 @@ TYPE_CURSOR
 {
 this
 .
-positionHandles
+_positionHandles
 (
 )
 ;
@@ -1392,7 +1392,7 @@ selection
 =
 this
 .
-getSelection
+_getSelection
 (
 )
 ;
@@ -1435,7 +1435,7 @@ selectionController
 =
 this
 .
-getSelectionController
+_getSelectionController
 (
 )
 ;
@@ -1613,7 +1613,7 @@ end
 ;
 this
 .
-updateCacheForSelection
+_updateCacheForSelection
 (
 )
 ;
@@ -1627,7 +1627,7 @@ TYPE_SELECTION
 ;
 this
 .
-positionHandles
+_positionHandles
 (
 )
 ;
@@ -1669,7 +1669,7 @@ focus
 )
 ;
 }
-getSelection
+_getSelection
 :
 function
 sh_getSelection
@@ -1725,7 +1725,7 @@ selection
 =
 this
 .
-getSelection
+_getSelection
 (
 )
 ;
@@ -1749,7 +1749,7 @@ return
 "
 ;
 }
-getSelectionController
+_getSelectionController
 :
 function
 sh_getSelectionController
@@ -1902,7 +1902,7 @@ selectionController
 =
 this
 .
-getSelectionController
+_getSelectionController
 (
 )
 ;
@@ -1914,13 +1914,13 @@ selectAll
 ;
 this
 .
-updateCacheForSelection
+_updateCacheForSelection
 (
 )
 ;
 this
 .
-positionHandles
+_positionHandles
 (
 )
 ;
@@ -1951,7 +1951,7 @@ window
 browser
 coordinates
 .
-moveSelection
+_moveSelection
 :
 function
 sh_moveSelection
@@ -2488,7 +2488,7 @@ y
 ;
 this
 .
-getSelectionController
+_getSelectionController
 (
 )
 .
@@ -2528,7 +2528,7 @@ height
 ;
 this
 .
-getSelectionController
+_getSelectionController
 (
 )
 .
@@ -2566,7 +2566,7 @@ x
 ;
 this
 .
-getSelectionController
+_getSelectionController
 (
 )
 .
@@ -2602,7 +2602,7 @@ width
 ;
 this
 .
-getSelectionController
+_getSelectionController
 (
 )
 .
@@ -2897,7 +2897,7 @@ selection
 =
 this
 .
-getSelection
+_getSelection
 (
 )
 ;
@@ -3147,7 +3147,7 @@ rangeRect
 =
 this
 .
-getSelection
+_getSelection
 (
 )
 .
@@ -3258,7 +3258,7 @@ has
 been
 reversed
 .
-updateCacheForSelection
+_updateCacheForSelection
 :
 function
 sh_updateCacheForSelection
@@ -3271,7 +3271,7 @@ selection
 =
 this
 .
-getSelection
+_getSelection
 (
 )
 ;
@@ -3627,7 +3627,7 @@ TYPE_CURSOR
 ;
 this
 .
-positionHandles
+_positionHandles
 (
 )
 ;
@@ -3652,7 +3652,7 @@ HANDLE_TYPE_MIDDLE
 )
 ;
 }
-positionHandles
+_positionHandles
 :
 function
 sh_positionHandles
@@ -4244,14 +4244,14 @@ TYPE_SELECTION
 {
 this
 .
-updateCacheForSelection
+_updateCacheForSelection
 (
 )
 ;
 }
 this
 .
-positionHandles
+_positionHandles
 (
 )
 ;
