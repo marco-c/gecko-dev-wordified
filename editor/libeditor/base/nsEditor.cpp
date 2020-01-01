@@ -8680,8 +8680,10 @@ aNode
 NS_ERROR_NULL_POINTER
 )
 ;
+nsCOMPtr
+<
 nsINode
-*
+>
 parent
 =
 aNode
@@ -8765,8 +8767,10 @@ HasChildren
 )
 )
 {
+nsCOMPtr
+<
 nsIContent
-*
+>
 child
 =
 aNode
