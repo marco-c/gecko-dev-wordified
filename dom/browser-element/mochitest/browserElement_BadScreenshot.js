@@ -290,16 +290,6 @@ runTest
 (
 )
 {
-dump
-(
-"
-XXX
-runTest
-\
-n
-"
-)
-;
 browserElementTestHelpers
 .
 setEnabledPref
