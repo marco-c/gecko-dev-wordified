@@ -581,7 +581,7 @@ button
 label
 "
 )
-accesskey
+accessKey
 :
 gNavigatorBundle
 .
