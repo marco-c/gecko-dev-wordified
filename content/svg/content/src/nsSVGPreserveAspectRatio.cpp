@@ -1240,6 +1240,14 @@ mBaseVal
 =
 val
 ;
+aSVGElement
+-
+>
+DidChangePreserveAspectRatio
+(
+aDoSetAttr
+)
+;
 return
 NS_OK
 ;
