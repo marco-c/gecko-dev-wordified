@@ -2511,6 +2511,17 @@ currentScript
 -
 >
 lineno
+(
+currentScript
+?
+PCToLineNumber
+(
+currentScript
+bytecode
+)
+:
+0
+)
 )
 ;
 JS_ASSERT
@@ -2676,7 +2687,7 @@ parallelIonScript
 )
 -
 >
-setHasInvalidatedCallTarget
+setHasUncompiledCallTarget
 (
 )
 ;

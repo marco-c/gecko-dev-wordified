@@ -12,7 +12,7 @@ js
 )
 ;
 function
-testScatter
+testScatter9
 (
 )
 {
@@ -93,7 +93,7 @@ getBuildConfiguration
 .
 parallelJS
 )
-testScatter
+testScatter9
 (
 )
 ;

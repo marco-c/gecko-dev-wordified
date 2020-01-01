@@ -79,7 +79,7 @@ distant
 indices
 .
 function
-testScatter
+test
 (
 )
 {
@@ -154,7 +154,7 @@ getBuildConfiguration
 .
 parallelJS
 )
-testScatter
+test
 (
 )
 ;
