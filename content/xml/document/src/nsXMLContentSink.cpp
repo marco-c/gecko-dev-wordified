@@ -184,6 +184,13 @@ h
 #
 include
 "
+nsIDocShellTreeItem
+.
+h
+"
+#
+include
+"
 nsIStyleSheetLinkingElement
 .
 h

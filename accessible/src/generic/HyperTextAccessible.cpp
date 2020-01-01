@@ -9104,14 +9104,14 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDocShell
+nsIDocShellTreeItem
 >
-docShell
+docShellTreeItem
 =
 nsCoreUtils
 :
 :
-GetDocShellFor
+GetDocShellTreeItemFor
 (
 mContent
 )
@@ -9124,7 +9124,7 @@ editingSession
 (
 do_GetInterface
 (
-docShell
+docShellTreeItem
 )
 )
 ;

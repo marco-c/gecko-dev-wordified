@@ -619,6 +619,12 @@ mDocShellAsWin
 ;
 nsCOMPtr
 <
+nsIDocShellTreeItem
+>
+mDocShellAsItem
+;
+nsCOMPtr
+<
 nsIWebNavigation
 >
 mDocShellAsNav

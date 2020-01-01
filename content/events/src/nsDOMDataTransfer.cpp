@@ -238,6 +238,13 @@ h
 #
 include
 "
+nsIDocShellTreeItem
+.
+h
+"
+#
+include
+"
 nsIScriptContext
 .
 h

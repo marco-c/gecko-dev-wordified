@@ -1809,7 +1809,7 @@ aFoundItem
 mWebBrowser
 -
 >
-mDocShell
+mDocShellAsItem
 ;
 NS_IF_ADDREF
 (
@@ -1830,7 +1830,7 @@ aRequestor
 mWebBrowser
 -
 >
-mDocShell
+mDocShellAsItem
 )
 )
 {
@@ -1870,7 +1870,7 @@ rv
 mWebBrowser
 -
 >
-mDocShell
+mDocShellAsItem
 -
 >
 FindItemWithName
@@ -1949,7 +1949,7 @@ aName
 mWebBrowser
 -
 >
-mDocShell
+mDocShellAsItem
 aOriginalRequestor
 aFoundItem
 )
@@ -2452,7 +2452,11 @@ mPrimaryContentShell
 mWebBrowser
 -
 >
-mDocShell
+mDocShellAsItem
+.
+get
+(
+)
 )
 ;
 NS_IF_ADDREF
@@ -2521,7 +2525,7 @@ aShellItem
 mWebBrowser
 -
 >
-mDocShell
+mDocShellAsItem
 )
 return
 webBrowserChrome
