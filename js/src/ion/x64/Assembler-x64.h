@@ -834,6 +834,13 @@ CallTempReg4
 =
 rsi
 ;
+static
+const
+Register
+CallTempReg5
+=
+rdx
+;
 /
 /
 Different
