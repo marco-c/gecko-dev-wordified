@@ -2954,12 +2954,10 @@ aReader
 ticksPerSec
 )
 ;
-LL_DIV
-(
 bigone
-bigone
+/
+=
 tmp64
-)
 ;
 LL_L2UI
 (

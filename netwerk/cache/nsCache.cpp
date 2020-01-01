@@ -271,12 +271,11 @@ microSecondsPerSecond
 PR_USEC_PER_SEC
 )
 ;
-LL_DIV
-(
 intermediateResult
+=
 prTime
+/
 microSecondsPerSecond
-)
 ;
 LL_L2UI
 (

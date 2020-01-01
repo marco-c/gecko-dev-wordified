@@ -10835,15 +10835,14 @@ usecPerMsec
 PR_USEC_PER_MSEC
 )
 ;
-LL_DIV
-(
 *
 aLastModifiedTime
+=
 mFileInfo64
 .
 modifyTime
+/
 usecPerMsec
-)
 ;
 return
 NS_OK

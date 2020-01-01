@@ -2202,12 +2202,11 @@ now
 and
 last
 update
-LL_DIV
-(
 cycleCnt
+=
 diff
+/
 microsecInDayCnt
-)
 ;
 /
 /
