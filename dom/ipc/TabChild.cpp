@@ -4973,6 +4973,7 @@ return
 NS_OK
 ;
 }
+static
 bool
 SendSyncMessageToParent
 (
@@ -5049,6 +5050,7 @@ aJSONRetVal
 )
 ;
 }
+static
 bool
 SendAsyncMessageToParent
 (

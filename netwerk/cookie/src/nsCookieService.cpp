@@ -708,6 +708,15 @@ storage
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 using
 namespace
 mozilla
@@ -4658,6 +4667,8 @@ Init
 (
 )
 {
+NS_TIME_FUNCTION
+;
 if
 (
 !
