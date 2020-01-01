@@ -19389,9 +19389,6 @@ JS_GetElement
 (
 cx
 inArr
-(
-jsint
-)
 i
 &
 sd
