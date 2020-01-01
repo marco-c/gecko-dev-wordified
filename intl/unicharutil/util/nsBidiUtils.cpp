@@ -246,6 +246,7 @@ define
 FE_TO_06_OFFSET
 0xfe70
 static
+const
 PRUnichar
 FE_TO_06
 [
@@ -822,6 +823,7 @@ FE_TO_06
 }
 ;
 static
+const
 PRUnichar
 FB_TO_06
 [
@@ -1256,6 +1258,7 @@ nsRenderingContextWin
 .
 cpp
 static
+const
 PRUint8
 gArabicMap1
 [
@@ -1310,6 +1313,7 @@ gArabicMap1
 }
 ;
 static
+const
 PRUint8
 gArabicMap2
 [
@@ -1339,6 +1343,7 @@ gArabicMap2
 }
 ;
 static
+const
 PRUint8
 gArabicMapEx
 [
@@ -1663,6 +1668,7 @@ c
 )
 )
 )
+typedef
 enum
 {
 eIsolated
@@ -1692,6 +1698,7 @@ M
 }
 eArabicForm
 ;
+typedef
 enum
 {
 eTr
@@ -1914,6 +1921,7 @@ handling
 Arabic
 .
 static
+const
 PRInt8
 gJoiningClass
 [
@@ -2343,6 +2351,7 @@ eTr
 )
 )
 static
+const
 PRUint16
 gArabicLigatureMap
 [
@@ -2524,6 +2533,7 @@ reverse
 a
 PRUnichar
 buffer
+static
 void
 ReverseString
 (
