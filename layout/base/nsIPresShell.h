@@ -245,7 +245,7 @@ com
 >
 *
 Mihai
-ucan
+Sucan
 <
 mihai
 .
