@@ -647,7 +647,7 @@ static
 HINSTANCE
 ghInstanceApp
 =
-NULL
+nullptr
 ;
 static
 char
@@ -688,7 +688,7 @@ char
 *
 found
 =
-NULL
+nullptr
 ;
 for
 (
@@ -1458,7 +1458,7 @@ ghInstanceApp
 =
 GetModuleHandle
 (
-NULL
+nullptr
 )
 ;
 /
@@ -1576,7 +1576,7 @@ xulModule
 LoadLibraryEx
 (
 path
-NULL
+nullptr
 0
 )
 ;
@@ -2278,7 +2278,7 @@ aChrome
 )
 {
 return
-NULL
+nullptr
 ;
 }
 nsCOMPtr
@@ -2295,7 +2295,7 @@ aChrome
 HWND
 hwnd
 =
-NULL
+nullptr
 ;
 baseWindow
 -
@@ -2717,7 +2717,7 @@ hCursor
 =
 LoadCursor
 (
-NULL
+nullptr
 IDC_ARROW
 )
 ;
@@ -3708,7 +3708,7 @@ MAX_LOADSTRING
 ;
 MessageBox
 (
-NULL
+nullptr
 szAbout
 szAboutTitle
 MB_OK
@@ -4507,7 +4507,7 @@ MAKEINTRESOURCE
 (
 IDD_BROWSER
 )
-NULL
+nullptr
 BrowserDlgProc
 )
 ;
@@ -4521,7 +4521,7 @@ MAKEINTRESOURCE
 (
 IDD_BROWSER_NC
 )
-NULL
+nullptr
 BrowserDlgProc
 )
 ;
@@ -4531,7 +4531,7 @@ if
 hwndDialog
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -4812,7 +4812,7 @@ if
 hwndDlg
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -4936,7 +4936,7 @@ if
 hwndDlg
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -5044,7 +5044,7 @@ if
 hwndDlg
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -6338,10 +6338,10 @@ hFakeEvent
 :
 CreateEvent
 (
-NULL
+nullptr
 TRUE
 FALSE
-NULL
+nullptr
 )
 ;
 while
@@ -6362,7 +6362,7 @@ PeekMessage
 (
 &
 msg
-NULL
+nullptr
 0
 0
 PM_NOREMOVE
@@ -6378,7 +6378,7 @@ GetMessage
 (
 &
 msg
-NULL
+nullptr
 0
 0
 )

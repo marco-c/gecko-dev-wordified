@@ -328,7 +328,7 @@ outCommand
 *
 outCommand
 =
-NULL
+nullptr
 ;
 nsCStringKey
 commandKey
