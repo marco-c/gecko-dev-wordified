@@ -776,6 +776,13 @@ h
 #
 include
 "
+nsPlaceholderFrame
+.
+h
+"
+#
+include
+"
 nsTextFrameUtils
 .
 h

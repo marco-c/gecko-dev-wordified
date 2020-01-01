@@ -15653,6 +15653,14 @@ disp
 IsPositioned
 (
 )
+|
+|
+disp
+-
+>
+IsFloating
+(
+)
 ;
 }
 virtual

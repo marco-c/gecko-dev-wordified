@@ -1331,9 +1331,9 @@ type
 PRBool
 AddFloat
 (
-nsPlaceholderFrame
+nsIFrame
 *
-aFrame
+aFloat
 nscoord
 aAvailableWidth
 nsReflowStatus
@@ -1349,7 +1349,7 @@ AddFloat
 (
 *
 this
-aFrame
+aFloat
 aAvailableWidth
 aReflowStatus
 )

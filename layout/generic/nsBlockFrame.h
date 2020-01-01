@@ -3717,9 +3717,9 @@ const
 nsRect
 &
 aFloatAvailableSpace
-nsPlaceholderFrame
+nsIFrame
 *
-aPlaceholder
+aFloat
 )
 ;
 /
@@ -3754,9 +3754,9 @@ const
 nsRect
 &
 aFloatAvailableSpace
-nsPlaceholderFrame
+nsIFrame
 *
-aPlaceholder
+aFloat
 nsMargin
 &
 aFloatMargin

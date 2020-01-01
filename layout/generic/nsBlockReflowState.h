@@ -894,9 +894,9 @@ AddFloat
 nsLineLayout
 &
 aLineLayout
-nsPlaceholderFrame
+nsIFrame
 *
-aPlaceholderFrame
+aFloat
 nscoord
 aAvailableWidth
 nsReflowStatus
@@ -924,9 +924,9 @@ aForceFit
 PRBool
 FlowAndPlaceFloat
 (
-nsFloatCache
+nsIFrame
 *
-aFloatCache
+aFloat
 nsReflowStatus
 &
 aReflowStatus
