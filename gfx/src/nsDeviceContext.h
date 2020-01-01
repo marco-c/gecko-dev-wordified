@@ -1538,6 +1538,17 @@ gfxASurface
 >
 mPrintingSurface
 ;
+#
+ifdef
+XP_MACOSX
+nsRefPtr
+<
+gfxASurface
+>
+mCachedPrintingSurface
+;
+#
+endif
 }
 ;
 #
