@@ -2328,7 +2328,7 @@ error
 )
 {
 return
-NPERR_GENERIC_ERROR
+NS_ERROR_FAILURE
 ;
 }
 else
@@ -2388,7 +2388,7 @@ error
 )
 )
 return
-NPERR_GENERIC_ERROR
+NS_ERROR_FAILURE
 ;
 return
 NS_OK

@@ -2951,9 +2951,17 @@ initError
 =
 NPERR_NO_ERROR
 )
+{
+NS_RELEASE
+(
+*
+aResult
+)
+;
 return
 NS_ERROR_UNEXPECTED
 ;
+}
 /
 /
 now
