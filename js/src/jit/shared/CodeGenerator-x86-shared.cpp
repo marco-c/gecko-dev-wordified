@@ -2633,7 +2633,7 @@ range
 )
 -
 >
-isInfinite
+canBeInfiniteOrNaN
 (
 )
 )
@@ -2813,7 +2813,7 @@ range
 )
 -
 >
-isInfinite
+canBeInfiniteOrNaN
 (
 )
 )

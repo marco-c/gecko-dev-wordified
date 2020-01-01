@@ -53022,7 +53022,7 @@ if
 r
 -
 >
-isInfinite
+canBeInfiniteOrNaN
 (
 )
 )
