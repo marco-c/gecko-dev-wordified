@@ -701,7 +701,7 @@ rv
 )
 rv
 =
-NS_NewUTF8StringEnumerator
+NS_NewAdoptingUTF8StringEnumerator
 (
 aResult
 strings
@@ -837,7 +837,7 @@ rv
 )
 rv
 =
-NS_NewUTF8StringEnumerator
+NS_NewAdoptingUTF8StringEnumerator
 (
 aResult
 strings
