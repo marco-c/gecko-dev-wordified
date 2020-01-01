@@ -65,13 +65,6 @@ mozilla_dom_DOMImplementation_h
 #
 include
 "
-nsIDOMDOMImplementation
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -160,7 +153,7 @@ DOMImplementation
 MOZ_FINAL
 :
 public
-nsIDOMDOMImplementation
+nsISupports
 public
 nsWrapperCache
 {
@@ -251,10 +244,6 @@ aTriedToWrap
 )
 MOZ_OVERRIDE
 ;
-/
-/
-nsIDOMDOMImplementation
-NS_DECL_NSIDOMDOMIMPLEMENTATION
 bool
 HasFeature
 (

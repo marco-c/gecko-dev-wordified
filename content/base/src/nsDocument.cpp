@@ -336,13 +336,6 @@ h
 #
 include
 "
-nsIDOMDOMImplementation
-.
-h
-"
-#
-include
-"
 nsIDOMDocumentXBL
 .
 h
@@ -23961,7 +23954,7 @@ nsDocument
 :
 GetImplementation
 (
-nsIDOMDOMImplementation
+nsISupports
 *
 *
 aImplementation
