@@ -28787,8 +28787,10 @@ Around
 anyway
 *
 /
+union
+{
 char
-databuf
+c
 [
 2
 *
@@ -28797,6 +28799,13 @@ sizeof
 RuleProcessorData
 )
 ]
+;
+void
+*
+p
+;
+}
+databuf
 ;
 RuleProcessorData
 *
