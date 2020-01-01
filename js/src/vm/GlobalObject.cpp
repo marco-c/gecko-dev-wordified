@@ -758,6 +758,13 @@ noScriptRval
 *
 /
 true
+/
+*
+globalObject
+=
+*
+/
+NULL
 JSVERSION_DEFAULT
 /
 *

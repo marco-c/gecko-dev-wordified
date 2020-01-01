@@ -3627,6 +3627,12 @@ bool
 compileAndGo
 bool
 noScriptRval
+js
+:
+:
+GlobalObject
+*
+globalObject
 JSVersion
 version
 unsigned
