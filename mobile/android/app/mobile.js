@@ -9032,6 +9032,9 @@ GET
 ;
 #
 endif
+#
+ifdef
+NIGHTLY_BUILD
 /
 /
 Contacts
@@ -9080,6 +9083,8 @@ mozContact
 false
 )
 ;
+#
+endif
 /
 /
 Shortnumber
