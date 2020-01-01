@@ -800,7 +800,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_REQUEST
+LOAD_COMPLETE
 )
 {
 /
@@ -852,17 +852,6 @@ IsCallerChrome
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-if
-(
-aType
-!
-=
-imgINotificationObserver
-:
-:
-FRAME_CHANGED
-)
-{
 LOOP_OVER_OBSERVERS
 (
 Notify
@@ -873,7 +862,6 @@ aData
 )
 )
 ;
-}
 if
 (
 aType
@@ -882,7 +870,7 @@ aType
 imgINotificationObserver
 :
 :
-START_CONTAINER
+SIZE_AVAILABLE
 )
 {
 /
@@ -921,7 +909,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_REQUEST
+LOAD_COMPLETE
 )
 {
 uint32_t

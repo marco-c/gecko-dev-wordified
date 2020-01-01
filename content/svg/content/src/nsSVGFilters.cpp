@@ -38646,7 +38646,7 @@ aType
 imgINotificationObserver
 :
 :
-START_CONTAINER
+SIZE_AVAILABLE
 )
 {
 /
@@ -38700,7 +38700,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_REQUEST
+LOAD_COMPLETE
 |
 |
 aType
@@ -38709,7 +38709,7 @@ aType
 imgINotificationObserver
 :
 :
-FRAME_CHANGED
+FRAME_UPDATE
 |
 |
 aType
@@ -38718,7 +38718,7 @@ aType
 imgINotificationObserver
 :
 :
-START_CONTAINER
+SIZE_AVAILABLE
 )
 {
 Invalidate

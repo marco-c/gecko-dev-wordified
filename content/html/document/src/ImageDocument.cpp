@@ -2503,7 +2503,7 @@ aType
 imgINotificationObserver
 :
 :
-START_CONTAINER
+SIZE_AVAILABLE
 )
 {
 nsCOMPtr
@@ -2539,7 +2539,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_DECODE
+DECODE_COMPLETE
 )
 {
 if
@@ -2664,7 +2664,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_REQUEST
+LOAD_COMPLETE
 )
 {
 uint32_t

@@ -7955,7 +7955,7 @@ aType
 imgINotificationObserver
 :
 :
-START_CONTAINER
+SIZE_AVAILABLE
 )
 {
 nsCOMPtr
@@ -7991,16 +7991,7 @@ aType
 imgINotificationObserver
 :
 :
-DATA_AVAILABLE
-|
-|
-aType
-=
-=
-imgINotificationObserver
-:
-:
-FRAME_CHANGED
+FRAME_UPDATE
 )
 {
 /

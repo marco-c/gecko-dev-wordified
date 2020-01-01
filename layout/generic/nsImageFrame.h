@@ -1419,6 +1419,9 @@ mIntrinsicRatio
 bool
 mDisplayingIcon
 ;
+bool
+mFirstFrameComplete
+;
 static
 nsIIOService
 *
