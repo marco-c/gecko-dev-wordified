@@ -42778,7 +42778,8 @@ If
 aFrame
 is
 not
-ananonymous
+an
+anonymous
 block
 null
 is
