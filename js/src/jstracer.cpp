@@ -98730,6 +98730,9 @@ len_ins
 stobj_get_fslot
 (
 argsobj_ins
+JSObject
+:
+:
 JSSLOT_ARGS_LENGTH
 )
 ;
@@ -98902,8 +98905,6 @@ fp
 argsobj
 &
 &
-IsOverriddenArgsLength
-(
 JSVAL_TO_OBJECT
 (
 cx
@@ -98914,6 +98915,10 @@ fp
 >
 argsobj
 )
+-
+>
+isArgsLengthOverridden
+(
 )
 )
 RETURN_STOP_A
@@ -103137,9 +103142,11 @@ deleted
 .
 if
 (
-IsOverriddenArgsLength
-(
 obj
+-
+>
+isArgsLengthOverridden
+(
 )
 )
 RETURN_STOP_A
