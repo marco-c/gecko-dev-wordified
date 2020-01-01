@@ -145,17 +145,12 @@ EventHub
 h
 "
 #
-ifdef
-HAVE_ANDROID_OS
-#
 include
 "
 PointerController
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1467,9 +1462,6 @@ outConfig
 =
 0
 ;
-#
-ifdef
-HAVE_ANDROID_OS
 /
 *
 Gets
@@ -1504,8 +1496,6 @@ deviceId
 =
 0
 ;
-#
-endif
 }
 ;
 /
@@ -5195,9 +5185,6 @@ reset
 ;
 }
 ;
-#
-ifdef
-HAVE_ANDROID_OS
 class
 CursorInputMapper
 :
@@ -5448,11 +5435,6 @@ when
 ;
 }
 ;
-#
-endif
-/
-/
-HAVE_ANDROID_OS
 class
 TouchInputMapper
 :
@@ -6045,9 +6027,6 @@ down
 nsecs_t
 mDownTime
 ;
-#
-ifdef
-HAVE_ANDROID_OS
 /
 /
 The
@@ -6069,8 +6048,6 @@ PointerControllerInterface
 >
 mPointerController
 ;
-#
-endif
 Vector
 <
 VirtualKey

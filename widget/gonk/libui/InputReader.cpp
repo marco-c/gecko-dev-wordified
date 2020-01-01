@@ -2491,9 +2491,6 @@ keyboardType
 )
 ;
 }
-#
-if
-0
 /
 /
 Cursor
@@ -2521,8 +2518,6 @@ device
 )
 ;
 }
-#
-endif
 /
 /
 Touchscreens
@@ -11763,9 +11758,6 @@ CursorInputMapper
 -
 -
 -
-#
-ifdef
-HAVE_ANDROID_OS
 CursorInputMapper
 :
 :
@@ -11841,9 +11833,6 @@ minY
 maxX
 maxY
 ;
-#
-if
-0
 if
 (
 mPointerController
@@ -11897,8 +11886,6 @@ maxY
 )
 ;
 }
-#
-endif
 }
 else
 {
@@ -12389,8 +12376,6 @@ mYScale
 .
 0f
 ;
-/
-/
 mPointerController
 =
 getPolicy
@@ -13299,9 +13284,6 @@ deltaX
 deltaY
 )
 ;
-#
-if
-0
 if
 (
 mPointerController
@@ -13407,8 +13389,6 @@ y
 }
 else
 {
-#
-endif
 pointerCoords
 .
 setAxisValue
@@ -13425,8 +13405,6 @@ AMOTION_EVENT_AXIS_Y
 deltaY
 )
 ;
-/
-/
 }
 pointerCoords
 .
@@ -13605,8 +13583,6 @@ AMOTION_EVENT_ACTION_DOWN
 :
 AMOTION_EVENT_ACTION_UP
 ;
-/
-/
 }
 else
 if
@@ -13618,13 +13594,6 @@ mPointerController
 =
 =
 NULL
-)
-{
-}
-else
-if
-(
-1
 )
 {
 motionEventAction
@@ -13692,9 +13661,6 @@ is
 hovering
 now
 .
-#
-if
-0
 if
 (
 motionEventAction
@@ -13745,8 +13711,6 @@ hoverArgs
 )
 ;
 }
-#
-endif
 /
 /
 Send
@@ -13926,11 +13890,6 @@ TRANSITION_GRADUAL
 ;
 }
 }
-#
-endif
-/
-/
-HAVE_ANDROID_OS
 /
 /
 -
@@ -16793,9 +16752,6 @@ showTouches
 )
 )
 {
-#
-if
-0
 if
 (
 mPointerController
@@ -16819,13 +16775,9 @@ getDeviceId
 )
 ;
 }
-#
-endif
 }
 else
 {
-/
-/
 mPointerController
 .
 clear
@@ -20723,9 +20675,6 @@ reset
 (
 )
 ;
-#
-if
-0
 if
 (
 mPointerController
@@ -20753,8 +20702,6 @@ clearSpots
 )
 ;
 }
-#
-endif
 InputMapper
 :
 :
@@ -21680,9 +21627,6 @@ pointerUsage
 }
 else
 {
-#
-if
-0
 if
 (
 mDeviceMode
@@ -21749,8 +21693,6 @@ touchingIdBits
 )
 ;
 }
-#
-endif
 dispatchHoverExit
 (
 when
@@ -24971,9 +24913,6 @@ presentation
 and
 spots
 .
-#
-if
-0
 if
 (
 mParameters
@@ -25283,8 +25222,6 @@ TRANSITION_IMMEDIATE
 break
 ;
 }
-#
-endif
 /
 /
 Send
@@ -25945,9 +25882,6 @@ after
 a
 tap
 .
-#
-if
-0
 float
 x
 y
@@ -26046,8 +25980,6 @@ notifyMotion
 args
 )
 ;
-#
-endif
 }
 /
 /
@@ -26278,9 +26210,6 @@ any
 current
 spots
 .
-#
-if
-0
 if
 (
 mPointerController
@@ -26308,8 +26237,6 @@ clearSpots
 )
 ;
 }
-#
-endif
 }
 bool
 TouchInputMapper
@@ -27675,8 +27602,6 @@ will
 move
 there
 .
-/
-/
 mPointerController
 -
 >
@@ -27700,8 +27625,6 @@ float
 x
 y
 ;
-/
-/
 mPointerController
 -
 >
@@ -27968,8 +27891,6 @@ float
 x
 y
 ;
-/
-/
 mPointerController
 -
 >
@@ -28427,8 +28348,6 @@ float
 x
 y
 ;
-/
-/
 mPointerController
 -
 >
@@ -28701,8 +28620,6 @@ the
 anchor
 spot
 .
-/
-/
 mPointerController
 -
 >
@@ -28807,8 +28724,6 @@ float
 x
 y
 ;
-/
-/
 mPointerController
 -
 >
@@ -29424,8 +29339,6 @@ mPointerGesture
 referenceTouchY
 )
 ;
-/
-/
 mPointerController
 -
 >
@@ -29435,8 +29348,6 @@ getPosition
 mPointerGesture
 .
 referenceGestureX
-/
-/
 &
 mPointerGesture
 .
@@ -31627,8 +31538,6 @@ endif
 }
 }
 }
-/
-/
 mPointerController
 -
 >
@@ -32049,8 +31958,6 @@ getY
 (
 )
 ;
-/
-/
 mPointerController
 -
 >
@@ -32076,8 +31983,6 @@ down
 !
 hovering
 ;
-/
-/
 mPointerController
 -
 >
@@ -32337,8 +32242,6 @@ deltaX
 deltaY
 )
 ;
-/
-/
 mPointerController
 -
 >
@@ -32374,8 +32277,6 @@ float
 x
 y
 ;
-/
-/
 mPointerController
 -
 >
@@ -32542,9 +32443,6 @@ getGlobalMetaState
 (
 )
 ;
-#
-if
-0
 if
 (
 mPointerController
@@ -32635,8 +32533,6 @@ TRANSITION_GRADUAL
 ;
 }
 }
-#
-endif
 if
 (
 mPointerSimple
@@ -33639,9 +33535,6 @@ fadePointer
 (
 )
 {
-#
-if
-0
 if
 (
 mPointerController
@@ -33662,8 +33555,6 @@ TRANSITION_GRADUAL
 )
 ;
 }
-#
-endif
 }
 bool
 TouchInputMapper
