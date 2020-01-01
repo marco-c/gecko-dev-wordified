@@ -1589,6 +1589,21 @@ bounds
 }
 #
 endif
+if
+(
+mFrame
+-
+>
+GetStyleVisibility
+(
+)
+-
+>
+IsVisible
+(
+)
+)
+{
 mFrame
 -
 >
@@ -1597,4 +1612,5 @@ Invalidate
 bounds
 )
 ;
+}
 }
