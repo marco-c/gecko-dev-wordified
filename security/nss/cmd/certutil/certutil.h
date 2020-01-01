@@ -86,6 +86,12 @@ pubkeyp
 char
 *
 pqgFile
+PK11AttrFlags
+attrFlags
+CK_FLAGS
+opFlagsOn
+CK_FLAGS
+opFlagsOff
 secuPWData
 *
 pwdata

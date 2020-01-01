@@ -2927,6 +2927,7 @@ trailer
 =
 NULL
 )
+{
 *
 trailer
 =
@@ -2935,15 +2936,8 @@ trailer
 0
 '
 ;
-if
-(
-!
-body
-|
-|
-!
-trailer
-)
+}
+else
 {
 fprintf
 (
