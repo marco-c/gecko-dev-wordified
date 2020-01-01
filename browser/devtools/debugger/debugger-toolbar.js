@@ -395,7 +395,7 @@ globals
 let
 resumeKey
 =
-DevtoolsHelpers
+LayoutHelpers
 .
 prettyKey
 (
@@ -413,7 +413,7 @@ true
 let
 stepOverKey
 =
-DevtoolsHelpers
+LayoutHelpers
 .
 prettyKey
 (
@@ -431,7 +431,7 @@ true
 let
 stepInKey
 =
-DevtoolsHelpers
+LayoutHelpers
 .
 prettyKey
 (
@@ -449,7 +449,7 @@ true
 let
 stepOutKey
 =
-DevtoolsHelpers
+LayoutHelpers
 .
 prettyKey
 (
@@ -4951,7 +4951,7 @@ this
 .
 _fileSearchKey
 =
-DevtoolsHelpers
+LayoutHelpers
 .
 prettyKey
 (
@@ -4970,7 +4970,7 @@ this
 .
 _globalSearchKey
 =
-DevtoolsHelpers
+LayoutHelpers
 .
 prettyKey
 (
@@ -4989,7 +4989,7 @@ this
 .
 _filteredFunctionsKey
 =
-DevtoolsHelpers
+LayoutHelpers
 .
 prettyKey
 (
@@ -5008,7 +5008,7 @@ this
 .
 _tokenSearchKey
 =
-DevtoolsHelpers
+LayoutHelpers
 .
 prettyKey
 (
@@ -5027,7 +5027,7 @@ this
 .
 _lineSearchKey
 =
-DevtoolsHelpers
+LayoutHelpers
 .
 prettyKey
 (
@@ -5046,7 +5046,7 @@ this
 .
 _variableSearchKey
 =
-DevtoolsHelpers
+LayoutHelpers
 .
 prettyKey
 (

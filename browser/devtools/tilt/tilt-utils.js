@@ -2308,15 +2308,6 @@ aNode
 aParentPosition
 )
 {
-let
-lh
-=
-new
-LayoutHelpers
-(
-aContentWindow
-)
-;
 /
 /
 get
@@ -2333,7 +2324,7 @@ node
 let
 coord
 =
-lh
+LayoutHelpers
 .
 getRect
 (
