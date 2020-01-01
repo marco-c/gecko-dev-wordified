@@ -6713,14 +6713,11 @@ early
 if
 (
 targetElement
-=
+!
 =
 prevElement
 )
 {
-return
-;
-}
 this
 .
 _widget
@@ -6743,6 +6740,7 @@ select
 aItem
 )
 ;
+}
 /
 /
 Updates
