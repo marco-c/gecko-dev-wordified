@@ -3246,7 +3246,7 @@ R
 .
 id
 .
-open_new_private_tab
+open_private_tab
 :
 {
 if
@@ -3324,7 +3324,7 @@ R
 .
 id
 .
-open_new_private_tab
+open_private_tab
 )
 flags
 |
