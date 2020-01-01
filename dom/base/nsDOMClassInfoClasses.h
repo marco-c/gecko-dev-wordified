@@ -274,10 +274,6 @@ undef
 MOZ_GENERATED_EVENT_LIST
 DOMCI_CLASS
 (
-DeviceOrientationEvent
-)
-DOMCI_CLASS
-(
 DeviceMotionEvent
 )
 DOMCI_CLASS
