@@ -649,6 +649,13 @@ height
 !
 important
 ;
+color
+:
+-
+moz
+-
+DialogText
+;
 }
 .
 menulist
@@ -665,13 +672,6 @@ appearance
 menulist
 -
 text
-;
-color
-:
--
-moz
--
-DialogText
 ;
 -
 moz
