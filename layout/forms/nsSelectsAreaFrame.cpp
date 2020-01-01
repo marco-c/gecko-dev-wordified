@@ -1310,7 +1310,7 @@ we
 need
 to
 suppress
-scrolbar
+scrollbar
 updates
 .
 We
