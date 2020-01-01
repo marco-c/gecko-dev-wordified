@@ -240,7 +240,7 @@ WriteParam
 aMsg
 aParam
 .
-mCSSContentSize
+mCSSContentRect
 )
 ;
 WriteParam
@@ -256,7 +256,7 @@ WriteParam
 aMsg
 aParam
 .
-mContentSize
+mContentRect
 )
 ;
 WriteParam
@@ -319,7 +319,7 @@ aIter
 aResult
 -
 >
-mCSSContentSize
+mCSSContentRect
 )
 &
 &
@@ -343,7 +343,7 @@ aIter
 aResult
 -
 >
-mContentSize
+mContentRect
 )
 &
 &
