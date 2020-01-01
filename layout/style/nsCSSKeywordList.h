@@ -1516,16 +1516,6 @@ CSS_KEY
 -
 moz
 -
-pre
--
-wrap
-_moz_pre_wrap
-)
-CSS_KEY
-(
--
-moz
--
 pull
 -
 down
