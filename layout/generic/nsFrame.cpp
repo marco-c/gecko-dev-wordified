@@ -22834,14 +22834,11 @@ r
 }
 nscoord
 offset
-;
+=
 outline
 -
 >
-GetOutlineOffset
-(
-offset
-)
+mOutlineOffset
 ;
 nscoord
 inflateBy

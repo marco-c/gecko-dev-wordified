@@ -5189,13 +5189,10 @@ TopLeft
 ;
 nscoord
 offset
-;
+=
 aOutlineStyle
 .
-GetOutlineOffset
-(
-offset
-)
+mOutlineOffset
 ;
 innerRect
 .
