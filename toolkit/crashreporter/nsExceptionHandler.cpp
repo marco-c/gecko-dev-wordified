@@ -213,7 +213,7 @@ h
 #
 include
 <
-DbgHelp
+dbghelp
 .
 h
 >

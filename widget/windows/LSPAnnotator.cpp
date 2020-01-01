@@ -177,7 +177,7 @@ h
 #
 include
 <
-Ws2spi
+ws2spi
 .
 h
 >

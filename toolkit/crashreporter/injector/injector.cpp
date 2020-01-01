@@ -88,6 +88,10 @@ std
 :
 wstring
 ;
+extern
+"
+C
+"
 BOOL
 WINAPI
 DummyEntryPoint
