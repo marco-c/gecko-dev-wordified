@@ -606,6 +606,8 @@ etc
 nsresult
 StartDevice
 (
+bool
+aRequestPrivate
 )
 ;
 /
