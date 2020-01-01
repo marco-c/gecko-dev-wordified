@@ -2142,6 +2142,17 @@ live
 )
 ACCESSIBILITY_ATOM
 (
+containerLiveRole
+"
+container
+-
+live
+-
+role
+"
+)
+ACCESSIBILITY_ATOM
+(
 containerRelevant
 "
 container
