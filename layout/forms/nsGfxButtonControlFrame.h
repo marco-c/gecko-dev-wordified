@@ -136,14 +136,6 @@ nsIAnonymousContentCreator
 .
 h
 "
-#
-ifdef
-ACCESSIBILITY
-class
-nsIAccessible
-;
-#
-endif
 /
 /
 Class
