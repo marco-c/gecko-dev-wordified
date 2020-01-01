@@ -14083,6 +14083,13 @@ HeapSlot
 :
 Slot
 i
+a
+-
+>
+getSlot
+(
+i
+)
 )
 ;
 HeapSlot
@@ -14102,6 +14109,13 @@ HeapSlot
 :
 Slot
 i
+b
+-
+>
+getSlot
+(
+i
+)
 )
 ;
 }
