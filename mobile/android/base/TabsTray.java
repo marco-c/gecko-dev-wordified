@@ -376,7 +376,7 @@ SWIPE_VERTICAL_WEIGHT
 =
 1
 .
-5
+5f
 ;
 private
 static
