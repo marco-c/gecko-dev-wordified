@@ -484,7 +484,7 @@ h
 #
 include
 "
-RangeAnalysis
+EdgeCaseAnalysis
 .
 h
 "
@@ -1405,7 +1405,7 @@ void
 MDefinition
 :
 :
-analyzeRangeForward
+analyzeEdgeCasesForward
 (
 )
 {
@@ -1416,7 +1416,7 @@ void
 MDefinition
 :
 :
-analyzeRangeBackward
+analyzeEdgeCasesBackward
 (
 )
 {
@@ -4257,7 +4257,7 @@ void
 MDiv
 :
 :
-analyzeRangeForward
+analyzeEdgeCasesForward
 (
 )
 {
@@ -4557,7 +4557,7 @@ void
 MDiv
 :
 :
-analyzeRangeBackward
+analyzeEdgeCasesBackward
 (
 )
 {
@@ -4596,7 +4596,7 @@ js
 ion
 :
 :
-RangeAnalysis
+EdgeCaseAnalysis
 :
 :
 AllUsesTruncate
@@ -4641,7 +4641,7 @@ toDiv
 /
 /
 Since
-RangeAnalysis
+EdgeCaseAnalysis
 is
 not
 being
@@ -5212,7 +5212,7 @@ js
 ion
 :
 :
-RangeAnalysis
+EdgeCaseAnalysis
 :
 :
 AllUsesTruncate
@@ -5297,7 +5297,7 @@ js
 ion
 :
 :
-RangeAnalysis
+EdgeCaseAnalysis
 :
 :
 AllUsesTruncate
@@ -5430,7 +5430,7 @@ void
 MMul
 :
 :
-analyzeRangeForward
+analyzeEdgeCasesForward
 (
 )
 {
@@ -5606,7 +5606,7 @@ void
 MMul
 :
 :
-analyzeRangeBackward
+analyzeEdgeCasesBackward
 (
 )
 {
@@ -7217,7 +7217,7 @@ void
 MToInt32
 :
 :
-analyzeRangeBackward
+analyzeEdgeCasesBackward
 (
 )
 {
