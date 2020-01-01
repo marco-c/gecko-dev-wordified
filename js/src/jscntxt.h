@@ -10054,6 +10054,9 @@ liveEmptyScripts
 jsrefcount
 totalEmptyScripts
 ;
+jsrefcount
+highWaterLiveScripts
+;
 #
 endif
 /
