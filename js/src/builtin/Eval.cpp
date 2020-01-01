@@ -1534,9 +1534,7 @@ stableStr
 return
 false
 ;
-const
-jschar
-*
+StableCharPtr
 chars
 =
 stableStr
