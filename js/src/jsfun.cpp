@@ -12120,11 +12120,6 @@ Value
 vp
 )
 {
-LeaveTrace
-(
-cx
-)
-;
 Value
 fval
 =
@@ -12507,11 +12502,6 @@ length
 )
 return
 false
-;
-LeaveTrace
-(
-cx
-)
 ;
 /
 *
@@ -13065,11 +13055,6 @@ obj
 isBoundFunction
 (
 )
-)
-;
-LeaveTrace
-(
-cx
 )
 ;
 bool
