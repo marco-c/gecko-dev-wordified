@@ -119,7 +119,7 @@ t
 '
 {
 '
-ctrlKey
+accelKey
 '
 :
 true
@@ -151,7 +151,7 @@ w
 '
 {
 '
-ctrlKey
+accelKey
 '
 :
 true
