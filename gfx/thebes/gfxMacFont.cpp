@@ -1292,6 +1292,15 @@ msg
 #
 endif
 }
+aTextRun
+-
+>
+AdjustAdvancesForSyntheticBold
+(
+aRunStart
+aRunLength
+)
+;
 return
 ok
 ;
