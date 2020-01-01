@@ -20661,9 +20661,8 @@ return
 JS_FALSE
 ;
 }
-static
 void
-PurgeScopeChain
+js_PurgeScopeChainHelper
 (
 JSContext
 *
@@ -20675,16 +20674,14 @@ jsid
 id
 )
 {
-if
+JS_ASSERT
 (
-!
 OBJ_IS_DELEGATE
 (
 cx
 obj
 )
 )
-return
 ;
 /
 *
@@ -20851,7 +20848,7 @@ scope
 .
 *
 /
-PurgeScopeChain
+js_PurgeScopeChain
 (
 cx
 obj
@@ -21663,7 +21660,7 @@ locks
 .
 *
 /
-PurgeScopeChain
+js_PurgeScopeChain
 (
 cx
 obj
@@ -25972,7 +25969,7 @@ locks
 .
 *
 /
-PurgeScopeChain
+js_PurgeScopeChain
 (
 cx
 obj
