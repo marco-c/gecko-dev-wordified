@@ -199,6 +199,12 @@ init
 (
 )
 ;
+gApplicationsPane
+.
+init
+(
+)
+;
 var
 initFinished
 =
