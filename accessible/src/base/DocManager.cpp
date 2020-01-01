@@ -2507,15 +2507,6 @@ if
 presShell
 |
 |
-!
-presShell
--
->
-GetRootFrame
-(
-)
-|
-|
 presShell
 -
 >
