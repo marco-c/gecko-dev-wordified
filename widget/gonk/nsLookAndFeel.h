@@ -149,6 +149,12 @@ PRInt32
 aResult
 )
 ;
+virtual
+bool
+GetEchoPasswordImpl
+(
+)
+;
 protected
 :
 virtual
