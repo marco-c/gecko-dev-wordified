@@ -543,9 +543,6 @@ PARENT
 Bookmarks
 .
 KEYWORD
-Bookmarks
-.
-FAVICON
 }
 ;
 public
