@@ -8574,12 +8574,9 @@ etc
 bool
 analyzeFunctions
 (
-JSFunctionBox
+JSTreeContext
 *
-funbox
-uint32
-&
-tcflags
+tc
 )
 ;
 bool
@@ -8588,8 +8585,6 @@ markFunArgs
 JSFunctionBox
 *
 funbox
-uintN
-tcflags
 )
 ;
 void
@@ -8599,7 +8594,7 @@ JSFunctionBox
 *
 funbox
 uint32
-&
+*
 tcflags
 )
 ;
