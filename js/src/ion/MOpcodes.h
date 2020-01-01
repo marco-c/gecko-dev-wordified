@@ -157,6 +157,16 @@ Test
 \
 _
 (
+TypeObjectDispatch
+)
+\
+_
+(
+FunctionDispatch
+)
+\
+_
+(
 PolyInlineDispatch
 )
 \

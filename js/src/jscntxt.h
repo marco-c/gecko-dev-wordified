@@ -2832,6 +2832,8 @@ else
 class
 IonStackLimitLock
 {
+public
+:
 IonStackLimitLock
 (
 PerThreadData
