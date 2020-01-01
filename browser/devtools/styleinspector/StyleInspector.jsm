@@ -583,7 +583,6 @@ aIUI
 )
 ;
 }
-;
 StyleInspector
 .
 prototype
