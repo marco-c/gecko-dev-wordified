@@ -507,6 +507,15 @@ nsGenericDOMDataNode
 )
 /
 /
+nsIDOMCharacterData
+NS_FORWARD_NSIDOMCHARACTERDATA
+(
+nsGenericDOMDataNode
+:
+:
+)
+/
+/
 nsIDOMProcessingInstruction
 NS_DECL_NSIDOMPROCESSINGINSTRUCTION
 /
