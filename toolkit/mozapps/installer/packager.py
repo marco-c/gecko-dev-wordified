@@ -583,6 +583,9 @@ copy
 (
 self
 dest
+skip_if_older
+=
+True
 )
 :
         
@@ -644,6 +647,8 @@ exists
 (
 dest
 )
+and
+skip_if_older
 and
 \
                 
