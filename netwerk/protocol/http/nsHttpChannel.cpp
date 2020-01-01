@@ -30206,9 +30206,6 @@ https
 "
 ftp
 "
-"
-gopher
-"
 nsnull
 }
 ;

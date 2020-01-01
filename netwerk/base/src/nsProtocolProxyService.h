@@ -2165,12 +2165,6 @@ PRInt32
 mFTPProxyPort
 ;
 nsCString
-mGopherProxyHost
-;
-PRInt32
-mGopherProxyPort
-;
-nsCString
 mHTTPSProxyHost
 ;
 PRInt32

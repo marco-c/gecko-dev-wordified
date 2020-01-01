@@ -3300,7 +3300,6 @@ char
 *
 protocols
 [
-4
 ]
 =
 {
@@ -3313,9 +3312,6 @@ HTTPS
 "
 FTP
 "
-"
-GOPHER
-"
 }
 ;
 const
@@ -3323,7 +3319,6 @@ char
 *
 protocols_l
 [
-4
 ]
 =
 {
@@ -3335,9 +3330,6 @@ https
 "
 "
 ftp
-"
-"
-gopher
 "
 }
 ;
@@ -3371,7 +3363,10 @@ i
 ;
 i
 <
-4
+NS_ARRAY_LENGTH
+(
+protocols
+)
 ;
 +
 +

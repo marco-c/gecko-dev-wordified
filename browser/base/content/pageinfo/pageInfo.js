@@ -6740,8 +6740,6 @@ ftp
 |
 file
 |
-gopher
-|
 about
 |
 chrome
