@@ -12449,6 +12449,7 @@ cg
 >
 staticDepth
 >
+=
 JS_DISPLAY_SIZE
 )
 goto
