@@ -153,7 +153,7 @@ not
 /
 /
 *
-nsStrictTransportSecurityService
+nsSiteSecurityService
 .
 cpp
 you
@@ -259,7 +259,7 @@ gPreloadListExpirationTime
 =
 INT64_C
 (
-1386411284101000
+1387620321046000
 )
 ;
 class
@@ -808,6 +808,14 @@ true
 }
 {
 "
+mediacru
+.
+sh
+"
+true
+}
+{
+"
 mega
 .
 co
@@ -835,6 +843,14 @@ nearlyfreespeech
 net
 "
 false
+}
+{
+"
+mudcrab
+.
+us
+"
+true
 }
 {
 "
