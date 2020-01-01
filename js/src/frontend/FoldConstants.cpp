@@ -2693,10 +2693,10 @@ Unknown
 ;
 }
 }
-namespace
-js
-{
 bool
+js
+:
+:
 FoldConstants
 (
 JSContext
@@ -5965,10 +5965,3 @@ return
 true
 ;
 }
-}
-/
-*
-namespace
-js
-*
-/

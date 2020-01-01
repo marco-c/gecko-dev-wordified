@@ -502,9 +502,6 @@ js
 :
 frontend
 ;
-namespace
-js
-{
 /
 *
 *
@@ -3218,10 +3215,3 @@ pn
 NULL
 ;
 }
-}
-/
-*
-namespace
-js
-*
-/

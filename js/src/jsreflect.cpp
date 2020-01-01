@@ -13136,7 +13136,7 @@ pn_count
 {
 /
 *
-js_FoldConstants
+FoldConstants
 optimized
 away
 the
