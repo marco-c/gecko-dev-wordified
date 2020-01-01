@@ -436,13 +436,6 @@ h
 #
 include
 "
-nsICaseConversion
-.
-h
-"
-#
-include
-"
 nsICharsetConverterManager
 .
 h
@@ -569,12 +562,6 @@ dst
 ;
 protected
 :
-nsCOMPtr
-<
-nsICaseConversion
->
-mCaseConversion
-;
 nsCOMPtr
 <
 nsIUnicodeEncoder
