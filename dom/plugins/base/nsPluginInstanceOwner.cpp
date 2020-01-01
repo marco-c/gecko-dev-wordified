@@ -2280,6 +2280,7 @@ mInstance
 !
 aInstance
 )
+{
 mInstance
 -
 >
@@ -2287,6 +2288,16 @@ InvalidateOwner
 (
 )
 ;
+#
+ifdef
+MOZ_WIDGET_ANDROID
+RemovePluginView
+(
+)
+;
+#
+endif
+}
 mInstance
 =
 aInstance
