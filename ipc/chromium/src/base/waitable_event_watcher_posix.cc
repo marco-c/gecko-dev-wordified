@@ -86,6 +86,15 @@ waitable_event
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 base
 {
@@ -737,6 +746,7 @@ list
 -
 class
 AsyncWaiter
+MOZ_FINAL
 :
 public
 WaitableEvent
