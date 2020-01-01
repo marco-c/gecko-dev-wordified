@@ -1392,7 +1392,6 @@ endif
 define
 NUM_EVARS
 4
-typedef
 enum
 {
 LOCK_IS_FREE
