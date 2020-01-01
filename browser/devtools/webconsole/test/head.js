@@ -297,6 +297,11 @@ CATEGORY_OUTPUT
 =
 5
 ;
+const
+CATEGORY_SECURITY
+=
+6
+;
 /
 /
 The
