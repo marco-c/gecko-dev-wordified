@@ -141,7 +141,11 @@ h
 #
 include
 "
-jsgcinlines
+vm
+/
+ObjectImpl
+-
+inl
 .
 h
 "

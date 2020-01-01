@@ -224,6 +224,17 @@ WrapperObject
 .
 h
 "
+#
+include
+"
+vm
+/
+ObjectImpl
+-
+inl
+.
+h
+"
 using
 mozilla
 :

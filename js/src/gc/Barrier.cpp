@@ -120,13 +120,6 @@ h
 #
 include
 "
-jscompartment
-.
-h
-"
-#
-include
-"
 jsobj
 .
 h
@@ -134,9 +127,11 @@ h
 #
 include
 "
-gc
+vm
 /
-Zone
+ObjectImpl
+-
+inl
 .
 h
 "

@@ -183,9 +183,9 @@ h
 #
 include
 "
-gc
+vm
 /
-Barrier
+ObjectImpl
 -
 inl
 .

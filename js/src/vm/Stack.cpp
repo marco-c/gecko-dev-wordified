@@ -177,17 +177,6 @@ endif
 #
 include
 "
-jit
-/
-IonFrameIterator
--
-inl
-.
-h
-"
-#
-include
-"
 vm
 /
 Interpreter

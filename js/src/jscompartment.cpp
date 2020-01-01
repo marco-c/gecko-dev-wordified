@@ -228,13 +228,6 @@ h
 #
 include
 "
-jsatominlines
-.
-h
-"
-#
-include
-"
 jsfuninlines
 .
 h
@@ -250,6 +243,13 @@ h
 include
 "
 jsinferinlines
+.
+h
+"
+#
+include
+"
+jsscriptinlines
 .
 h
 "
