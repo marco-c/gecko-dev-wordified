@@ -263,11 +263,8 @@ obj
 "
 here
 "
+&
 v0
-.
-address
-(
-)
 )
 )
 ;
@@ -435,11 +432,8 @@ JS_SetPropertyById
 cx
 obj
 hereid
+&
 v0
-.
-address
-(
-)
 )
 )
 ;
