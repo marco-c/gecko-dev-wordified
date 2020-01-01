@@ -1956,8 +1956,6 @@ GeckoEvent
 (
 Location
 l
-Address
-a
 )
 {
 mType
@@ -1967,10 +1965,6 @@ LOCATION_EVENT
 mLocation
 =
 l
-;
-mAddress
-=
-a
 ;
 }
 public
