@@ -4850,6 +4850,13 @@ operations
 /
 private
 :
+enum
+ImmutabilityType
+{
+SEAL
+FREEZE
+}
+;
 /
 *
 *
@@ -4931,10 +4938,8 @@ sealOrFreeze
 JSContext
 *
 cx
-bool
-freeze
-=
-false
+ImmutabilityType
+it
 )
 ;
 public
@@ -5002,6 +5007,7 @@ return
 sealOrFreeze
 (
 cx
+SEAL
 )
 ;
 }
@@ -5044,7 +5050,7 @@ return
 sealOrFreeze
 (
 cx
-true
+FREEZE
 )
 ;
 }
