@@ -695,11 +695,6 @@ IsInvalidated
 (
 )
 ;
-void
-WaitForConnectionReleased
-(
-)
-;
 private
 :
 IDBDatabase
