@@ -635,7 +635,7 @@ MOZ_MEDIA
 eDOMEvents_loadstart
 eDOMEvents_progress
 eDOMEvents_loadedmetadata
-eDOMEvents_loadedfirstframe
+eDOMEvents_loadeddata
 eDOMEvents_emptied
 eDOMEvents_stalled
 eDOMEvents_play
@@ -645,8 +645,6 @@ eDOMEvents_seeking
 eDOMEvents_seeked
 eDOMEvents_timeupdate
 eDOMEvents_ended
-eDOMEvents_dataunavailable
-eDOMEvents_canshowcurrentframe
 eDOMEvents_canplay
 eDOMEvents_canplaythrough
 eDOMEvents_ratechange

@@ -1076,7 +1076,7 @@ Is
 the
 media
 element
-actively
+potentially
 playing
 as
 defined
@@ -1109,9 +1109,11 @@ current
 work
 /
 #
-actively
+potentially
+-
+playing
 PRBool
-IsActivelyPlaying
+IsPotentiallyPlaying
 (
 )
 const
