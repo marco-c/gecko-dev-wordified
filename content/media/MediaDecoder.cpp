@@ -3798,9 +3798,6 @@ aTags
 {
 NS_ASSERTION
 (
-mDecoderStateMachine
--
->
 OnDecodeThread
 (
 )
@@ -5543,9 +5540,6 @@ OnStateMachineThread
 )
 |
 |
-mDecoderStateMachine
--
->
 OnDecodeThread
 (
 )
@@ -7533,6 +7527,16 @@ OnDecodeThread
 )
 const
 {
+NS_WARN_IF_FALSE
+(
+mDecoderStateMachine
+"
+mDecoderStateMachine
+is
+null
+"
+)
+;
 return
 mDecoderStateMachine
 ?
