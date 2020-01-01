@@ -513,7 +513,7 @@ h
 #
 include
 "
-nsAccelerometerAndroid
+nsAccelerometerSystem
 .
 h
 "
@@ -599,7 +599,7 @@ nsnull
 ;
 #
 endif
-nsAccelerometerAndroid
+nsAccelerometerSystem
 *
 gAccel
 =

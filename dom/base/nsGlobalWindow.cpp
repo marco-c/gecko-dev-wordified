@@ -790,14 +790,7 @@ h
 #
 include
 "
-nsIAccelerometer
-.
-h
-"
-#
-include
-"
-nsWidgetsCID
+nsAccelerometer
 .
 h
 "
