@@ -1459,7 +1459,15 @@ fputs
 (
 NS_ConvertUTF16toUTF8
 (
+reinterpret_cast
+<
+const
+PRUnichar
+*
+>
+(
 chars
+)
 )
 .
 get
