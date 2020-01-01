@@ -14098,6 +14098,12 @@ if
 (
 !
 baseobj
+|
+|
+monitored
+(
+PC
+)
 )
 {
 prepareStubCall
