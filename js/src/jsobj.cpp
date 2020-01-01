@@ -16607,6 +16607,8 @@ void
 /
 JS_ASSERT
 (
+JSVAL_IS_VOID
+(
 STOBJ_GET_SLOT
 (
 obj
@@ -16615,9 +16617,7 @@ map
 >
 freeslot
 )
-=
-=
-JSVAL_VOID
+)
 )
 ;
 *
@@ -27047,11 +27047,12 @@ vp
 ;
 JS_ASSERT
 (
+!
+JSVAL_IS_VOID
+(
 *
 vp
-!
-=
-JSVAL_VOID
+)
 )
 ;
 clasp
