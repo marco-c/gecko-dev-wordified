@@ -366,7 +366,7 @@ cx
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 )

@@ -5236,7 +5236,7 @@ fun
 )
 -
 >
-script
+nonLazyScript
 (
 )
 .

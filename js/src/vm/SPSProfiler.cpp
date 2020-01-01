@@ -2613,7 +2613,7 @@ i
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 .

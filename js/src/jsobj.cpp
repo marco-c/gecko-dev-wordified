@@ -15325,7 +15325,7 @@ toFunction
 )
 -
 >
-script
+nonLazyScript
 (
 )
 )
@@ -15519,7 +15519,7 @@ toFunction
 )
 -
 >
-script
+nonLazyScript
 (
 )
 )
@@ -34255,7 +34255,7 @@ script
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 .

@@ -4517,7 +4517,7 @@ toFunction
 )
 -
 >
-script
+nonLazyScript
 (
 )
 -
@@ -12232,7 +12232,7 @@ enclosing
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 -
@@ -14373,7 +14373,7 @@ ssi
 innerFun
 -
 >
-script
+nonLazyScript
 (
 )
 -

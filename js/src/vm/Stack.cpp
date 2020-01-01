@@ -1924,7 +1924,7 @@ callee
 (
 )
 .
-script
+nonLazyScript
 (
 )
 =
@@ -2624,7 +2624,7 @@ callee
 (
 )
 .
-script
+nonLazyScript
 (
 )
 =
@@ -6095,7 +6095,7 @@ fun
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 -
@@ -6600,7 +6600,7 @@ cx
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 )

@@ -7597,7 +7597,7 @@ toFunction
 )
 -
 >
-script
+nonLazyScript
 (
 )
 .
@@ -9540,7 +9540,7 @@ hasScript
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 -
@@ -9584,7 +9584,7 @@ script
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 .
@@ -9725,7 +9725,7 @@ toFunction
 )
 -
 >
-script
+nonLazyScript
 (
 )
 =
@@ -9733,7 +9733,7 @@ script
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 )
@@ -10669,7 +10669,7 @@ script
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 .

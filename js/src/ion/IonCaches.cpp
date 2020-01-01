@@ -10880,7 +10880,7 @@ script
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 .

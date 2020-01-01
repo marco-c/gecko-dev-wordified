@@ -1985,7 +1985,7 @@ return
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 -
@@ -2068,7 +2068,7 @@ cx
 scriptedCaller
 -
 >
-script
+nonLazyScript
 (
 )
 )

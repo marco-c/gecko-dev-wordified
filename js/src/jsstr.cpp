@@ -15409,7 +15409,7 @@ script
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 .

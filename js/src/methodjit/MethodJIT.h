@@ -6236,7 +6236,7 @@ inlineIndex
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 ;

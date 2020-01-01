@@ -394,7 +394,7 @@ token
 )
 -
 >
-script
+nonLazyScript
 (
 )
 .

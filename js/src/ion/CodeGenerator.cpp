@@ -2238,7 +2238,7 @@ ImmGCPtr
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 .
@@ -6512,7 +6512,7 @@ cx
 target
 -
 >
-script
+nonLazyScript
 (
 )
 )

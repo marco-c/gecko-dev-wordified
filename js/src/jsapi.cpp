@@ -26996,7 +26996,7 @@ isInterpreted
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 -
@@ -27010,7 +27010,7 @@ enclosingStaticScope
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 -
