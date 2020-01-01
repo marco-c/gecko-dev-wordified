@@ -2541,15 +2541,6 @@ return
 mCanBeMetered
 ;
 }
-int
-TabId
-(
-)
-{
-return
-mTabId
-;
-}
 void
 DoCallback
 (
@@ -2660,9 +2651,6 @@ mBandwidth
 ;
 bool
 mCanBeMetered
-;
-int
-mTabId
 ;
 void
 ReadIntArray
@@ -2883,10 +2871,6 @@ jfieldID
 jCanBeMeteredField
 ;
 static
-jfieldID
-jTabIdField
-;
-static
 jmethodID
 jDoCallbackMethod
 ;
@@ -2969,9 +2953,6 @@ ACTIVITY_RESUMING
 SCREENSHOT
 =
 25
-META_VIEWPORT_QUERY
-=
-26
 dummy_java_enum_list_end
 }
 ;
