@@ -2207,8 +2207,8 @@ querySelectorAll
 (
 "
 button
-input
-select
+toolbarbutton
+textbox
 "
 )
 ;
