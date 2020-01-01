@@ -16868,7 +16868,7 @@ gData
 cpend
 &
 &
-JS_ISDIGIT
+JS7_ISDEC
 (
 *
 x
@@ -16910,7 +16910,7 @@ cpend
 &
 &
 !
-JS_ISDIGIT
+JS7_ISDEC
 (
 *
 x
