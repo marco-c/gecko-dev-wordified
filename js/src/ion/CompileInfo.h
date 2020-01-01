@@ -781,7 +781,7 @@ hasArguments
 ;
 }
 uint32_t
-firstActualArgSlot
+firstArgSlot
 (
 )
 const
