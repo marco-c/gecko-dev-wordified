@@ -1904,7 +1904,14 @@ forgottenConn
 -
 >
 threadOpenedOn
+static_cast
+<
+mozIStorageConnection
+*
+>
+(
 forgottenConn
+)
 )
 ;
 }
