@@ -5825,7 +5825,7 @@ nsIFeed
 .
 TYPE_VIDEO
 :
-stringlabel
+stringLabel
 =
 "
 alwaysUseForVideoPodcasts
@@ -5840,7 +5840,7 @@ nsIFeed
 .
 TYPE_AUDIO
 :
-stringlabel
+stringLabel
 =
 "
 alwaysUseForAudioPodcasts
@@ -5867,7 +5867,7 @@ this
 .
 _getFormattedString
 (
-stringlabel
+stringLabel
 [
 handlerName
 ]
