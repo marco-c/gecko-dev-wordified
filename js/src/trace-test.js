@@ -3487,7 +3487,7 @@ i
 }
 ;
 function
-NewTest
+newTest
 (
 )
 {
@@ -3533,7 +3533,7 @@ join
 )
 ;
 }
-NewTest
+newTest
 .
 expected
 =
@@ -3543,11 +3543,11 @@ expected
 ;
 test
 (
-NewTest
+newTest
 )
 ;
 function
-ShapelessArgCalleeLoop
+shapelessArgCalleeLoop
 (
 f
 a
@@ -3576,7 +3576,7 @@ a
 ;
 }
 function
-ShapelessVarCalleeLoop
+shapelessVarCalleeLoop
 (
 f
 a
@@ -3610,7 +3610,7 @@ a
 ;
 }
 function
-ShapelessLetCalleeLoop
+shapelessLetCalleeLoop
 (
 f
 a
@@ -3646,7 +3646,7 @@ a
 }
 }
 function
-ShapelessUnknownCalleeLoop
+shapelessUnknownCalleeLoop
 (
 f
 g
@@ -3687,7 +3687,7 @@ null
 }
 }
 function
-ShapelessCalleeTest
+shapelessCalleeTest
 (
 )
 {
@@ -3697,7 +3697,7 @@ a
 [
 ]
 ;
-ShapelessArgCalleeLoop
+shapelessArgCalleeLoop
 (
 function
 (
@@ -3713,7 +3713,7 @@ i
 a
 )
 ;
-ShapelessVarCalleeLoop
+shapelessVarCalleeLoop
 (
 function
 (
@@ -3731,7 +3731,7 @@ i
 a
 )
 ;
-ShapelessLetCalleeLoop
+shapelessLetCalleeLoop
 (
 function
 (
@@ -3749,7 +3749,7 @@ i
 a
 )
 ;
-ShapelessUnknownCalleeLoop
+shapelessUnknownCalleeLoop
 (
 null
 function
@@ -3770,7 +3770,7 @@ a
 ;
 try
 {
-ShapelessUnknownCalleeLoop
+shapelessUnknownCalleeLoop
 (
 null
 {
@@ -3808,7 +3808,7 @@ function
 print
 (
 "
-ShapelessUnknownCalleeLoop
+shapelessUnknownCalleeLoop
 :
 unexpected
 exception
@@ -3828,7 +3828,7 @@ join
 )
 ;
 }
-ShapelessCalleeTest
+shapelessCalleeTest
 .
 expected
 =
@@ -3838,7 +3838,7 @@ expected
 ;
 test
 (
-ShapelessCalleeTest
+shapelessCalleeTest
 )
 ;
 function
