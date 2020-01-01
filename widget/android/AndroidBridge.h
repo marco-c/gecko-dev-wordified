@@ -1021,6 +1021,8 @@ PRInt32
 dstH
 PRInt32
 tabId
+float
+scale
 )
 ;
 void

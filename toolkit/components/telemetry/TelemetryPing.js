@@ -3132,6 +3132,14 @@ slowSQL
 ;
 payloadObj
 .
+chromeHangs
+=
+Telemetry
+.
+chromeHangs
+;
+payloadObj
+.
 addonHistograms
 =
 this

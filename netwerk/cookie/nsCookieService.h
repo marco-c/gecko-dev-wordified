@@ -801,6 +801,9 @@ aKey
 )
 {
 return
+mozilla
+:
+:
 HashString
 (
 *
