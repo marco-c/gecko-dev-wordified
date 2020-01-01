@@ -485,6 +485,7 @@ to
 class
 THEBES_API
 DeviceManagerD3D9
+MOZ_FINAL
 {
 public
 :

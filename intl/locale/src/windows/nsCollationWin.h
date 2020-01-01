@@ -124,6 +124,7 @@ h
 "
 class
 nsCollationWin
+MOZ_FINAL
 :
 public
 nsICollation

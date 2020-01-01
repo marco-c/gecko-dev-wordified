@@ -345,6 +345,7 @@ thread
 .
 class
 ReadbackResultWriter
+MOZ_FINAL
 :
 public
 nsIRunnable

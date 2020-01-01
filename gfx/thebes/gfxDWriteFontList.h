@@ -976,6 +976,7 @@ given
 char
 class
 FontFallbackRenderer
+MOZ_FINAL
 :
 public
 IDWriteTextRenderer

@@ -151,6 +151,7 @@ ReadbackTask
 ;
 class
 ReadbackManagerD3D10
+MOZ_FINAL
 :
 public
 IUnknown
