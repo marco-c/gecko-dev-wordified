@@ -2942,6 +2942,12 @@ len
 )
 )
 ;
+if
+(
+hitEOF
+)
+break
+;
 /
 *
 Clear
@@ -3064,10 +3070,6 @@ len
 }
 while
 (
-!
-hitEOF
-&
-&
 !
 gQuitting
 )
