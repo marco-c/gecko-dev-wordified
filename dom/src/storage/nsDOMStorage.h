@@ -827,6 +827,12 @@ Shutdown
 (
 )
 ;
+static
+void
+ShutdownDB
+(
+)
+;
 /
 *
 *
