@@ -702,6 +702,11 @@ values
 eStyleAnimType_nscoord
 /
 /
+nscolor
+values
+eStyleAnimType_Color
+/
+/
 property
 not
 animatable
