@@ -7698,7 +7698,7 @@ interruptCounter
 *
 /
 volatile
-jsword
+int32
 interruptFlags
 ;
 /
@@ -9642,7 +9642,7 @@ interrupts
 *
 /
 volatile
-jsword
+int32
 interruptCounter
 ;
 #
