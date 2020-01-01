@@ -9313,6 +9313,14 @@ if
 mConnection
 )
 {
+mConnection
+-
+>
+TransactionHasDataToWrite
+(
+this
+)
+;
 nsresult
 rv
 =
@@ -9321,7 +9329,6 @@ mConnection
 >
 ResumeSend
 (
-this
 )
 ;
 if
@@ -9539,7 +9546,6 @@ mConnection
 >
 ResumeRecv
 (
-this
 )
 ;
 if

@@ -2538,7 +2538,6 @@ NS_ERROR_FAILURE
 }
 ResumeSend
 (
-httpTransaction
 )
 ;
 return
@@ -5339,8 +5338,6 @@ nsHttpConnection
 :
 ResumeSend
 (
-nsAHttpTransaction
-*
 )
 {
 LOG
@@ -5414,8 +5411,6 @@ nsHttpConnection
 :
 ResumeRecv
 (
-nsAHttpTransaction
-*
 )
 {
 LOG

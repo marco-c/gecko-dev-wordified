@@ -11382,9 +11382,6 @@ nsConnectionHandle
 :
 ResumeSend
 (
-nsAHttpTransaction
-*
-caller
 )
 {
 return
@@ -11393,7 +11390,6 @@ mConn
 >
 ResumeSend
 (
-caller
 )
 ;
 }
@@ -11406,9 +11402,6 @@ nsConnectionHandle
 :
 ResumeRecv
 (
-nsAHttpTransaction
-*
-caller
 )
 {
 return
@@ -11417,7 +11410,6 @@ mConn
 >
 ResumeRecv
 (
-caller
 )
 ;
 }
