@@ -3522,6 +3522,9 @@ writeAtomic
 pathDest
 contents
 {
+flush
+:
+true
 }
 )
 ;
