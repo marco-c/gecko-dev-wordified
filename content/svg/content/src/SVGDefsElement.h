@@ -115,13 +115,6 @@ SVGGraphicsElement
 .
 h
 "
-#
-include
-"
-nsIDOMSVGDefsElement
-.
-h
-"
 nsresult
 NS_NewSVGDefsElement
 (
@@ -149,7 +142,7 @@ MOZ_FINAL
 public
 SVGGraphicsElement
 public
-nsIDOMSVGDefsElement
+nsIDOMSVGElement
 {
 protected
 :
@@ -205,7 +198,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGDEFSELEMENT
 /
 /
 xxx
@@ -253,13 +245,6 @@ nsINode
 aResult
 )
 const
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
 ;
 virtual
 nsIDOMNode
