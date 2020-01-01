@@ -775,10 +775,7 @@ inherit
 .
 textbox
 -
-input
--
-box
-menupopup
+contextmenu
 {
 cursor
 :
