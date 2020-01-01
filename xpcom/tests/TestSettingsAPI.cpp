@@ -941,17 +941,8 @@ aData
 JS
 :
 :
-Rooted
-<
-JS
-:
-:
 Value
->
 data
-(
-cx
-)
 ;
 if
 (
