@@ -9331,7 +9331,7 @@ dimensions
 for
 the
 given
-docshell
+window
 .
 For
 some
@@ -9359,9 +9359,9 @@ nsDeviceContext
 *
 GetDeviceContextForScreenInfo
 (
-nsIDocShell
+nsPIDOMWindow
 *
-aDocShell
+aWindow
 )
 ;
 /

@@ -25757,9 +25757,9 @@ nsLayoutUtils
 :
 GetDeviceContextForScreenInfo
 (
-nsIDocShell
+nsPIDOMWindow
 *
-aDocShell
+aWindow
 )
 {
 nsCOMPtr
@@ -25768,7 +25768,12 @@ nsIDocShell
 >
 docShell
 =
-aDocShell
+aWindow
+-
+>
+GetDocShell
+(
+)
 ;
 while
 (
