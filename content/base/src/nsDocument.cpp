@@ -29506,6 +29506,11 @@ PRBool
 aResult
 )
 {
+WarnOnceAbout
+(
+eIsSameNode
+)
+;
 *
 aResult
 =
