@@ -12115,7 +12115,7 @@ aString
 {
 #
 ifdef
-MOZ_B2G
+ANDROID
 /
 /
 Only
@@ -18044,7 +18044,7 @@ OwnerDoc
 ;
 #
 ifdef
-MOZ_B2G
+ANDROID
 nsCOMPtr
 <
 nsIDOMDocument
@@ -20651,7 +20651,7 @@ AudioChannelService
 .
 #
 ifdef
-MOZ_B2G
+ANDROID
 /
 /
 We
@@ -20745,7 +20745,7 @@ B2G
 .
 #
 ifdef
-MOZ_B2G
+ANDROID
 bool
 playingThroughTheAudioChannel
 =
