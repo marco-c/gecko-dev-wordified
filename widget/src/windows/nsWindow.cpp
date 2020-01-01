@@ -15838,7 +15838,7 @@ aFullScreen
 {
 #
 if
-WINCE
+WINCE_WINDOWS_MOBILE
 RECT
 rc
 ;
@@ -15923,11 +15923,16 @@ top
 TRUE
 )
 ;
-return
-NS_OK
+if
+(
+aFullScreen
+)
+mSizeMode
+=
+nsSizeMode_Fullscreen
 ;
 #
-else
+endif
 return
 nsBaseWidget
 :
@@ -15937,8 +15942,6 @@ MakeFullScreen
 aFullScreen
 )
 ;
-#
-endif
 }
 /
 *
