@@ -2407,12 +2407,9 @@ PlacesUtils
 .
 getFolderContents
 (
-asFolder
-(
 selectedNode
-)
 .
-folderId
+itemId
 )
 .
 childCount
@@ -2679,8 +2676,6 @@ collection
 var
 folderId
 =
-asFolder
-(
 content
 .
 getResult
@@ -2688,9 +2683,8 @@ getResult
 )
 .
 root
-)
 .
-folderId
+itemId
 ;
 content
 .

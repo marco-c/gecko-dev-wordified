@@ -16420,12 +16420,11 @@ keep
 incremental
 updating
 .
-NS_IMPL_ISUPPORTS_INHERITED2
+NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsNavHistoryFolderResultNode
 nsNavHistoryContainerResultNode
 nsINavHistoryQueryResultNode
-nsINavHistoryFolderResultNode
 )
 nsNavHistoryFolderResultNode
 :
