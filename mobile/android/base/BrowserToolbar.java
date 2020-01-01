@@ -7531,6 +7531,16 @@ View
 VISIBLE
 )
 ;
+if
+(
+mEditingTarget
+!
+=
+EditingTarget
+.
+NEW_TAB
+)
+{
 mUrlEditText
 .
 requestFocus
@@ -7541,6 +7551,7 @@ showSoftInput
 (
 )
 ;
+}
 }
 private
 void
