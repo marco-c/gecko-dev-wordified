@@ -1112,6 +1112,11 @@ ApplyPersistentAttributes
 )
 ;
 nsresult
+ApplyPersistentAttributesInternal
+(
+)
+;
+nsresult
 ApplyPersistentAttributesToElements
 (
 nsIRDFResource
@@ -1221,6 +1226,15 @@ static
 PRLogModuleInfo
 *
 gXULLog
+;
+PRBool
+IsCapabilityEnabled
+(
+const
+char
+*
+aCapabilityLabel
+)
 ;
 nsresult
 Persist
