@@ -4254,6 +4254,10 @@ MUnaryInstruction
 ins
 )
 {
+setIdempotent
+(
+)
+;
 setResultType
 (
 MIRType_Value
