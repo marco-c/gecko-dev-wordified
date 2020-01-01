@@ -1769,9 +1769,6 @@ namespace
 js
 *
 /
-#
-if
-JS_HAS_GENERATORS
 /
 *
 *
@@ -1926,8 +1923,6 @@ namespace
 js
 *
 /
-#
-endif
 extern
 JSObject
 *

@@ -28795,11 +28795,6 @@ if
 isYield
 )
 {
-JS_ASSERT
-(
-JS_HAS_GENERATORS
-)
-;
 if
 (
 !
@@ -31644,9 +31639,6 @@ pn2
 ;
 do
 {
-#
-if
-JS_HAS_GENERATORS
 pn2
 =
 pn
@@ -31691,8 +31683,6 @@ null
 )
 ;
 }
-#
-endif
 pn2
 =
 assignExpr
@@ -33050,9 +33040,6 @@ null
 )
 )
 ;
-#
-if
-JS_HAS_GENERATORS
 if
 (
 tokenStream
@@ -33081,8 +33068,6 @@ null
 (
 )
 ;
-#
-endif
 /
 /
 Save
@@ -34203,9 +34188,6 @@ return
 pn
 ;
 }
-#
-if
-JS_HAS_GENERATORS
 /
 *
 *
@@ -39144,13 +39126,6 @@ endif
 JS_HAS_GENERATOR_EXPRS
 *
 /
-#
-endif
-/
-*
-JS_HAS_GENERATORS
-*
-/
 template
 <
 typename
@@ -39173,9 +39148,6 @@ unsigned
 msg
 )
 {
-#
-ifdef
-JS_HAS_GENERATORS
 GenexpGuard
 <
 ParseHandler
@@ -39185,8 +39157,6 @@ yieldGuard
 this
 )
 ;
-#
-endif
 Node
 res
 =
@@ -39205,9 +39175,6 @@ if
 res
 )
 {
-#
-ifdef
-JS_HAS_GENERATORS
 if
 (
 !
@@ -39224,8 +39191,6 @@ null
 (
 )
 ;
-#
-endif
 }
 return
 res
@@ -39303,9 +39268,6 @@ endBody
 (
 )
 ;
-#
-if
-JS_HAS_GENERATORS
 if
 (
 handler
@@ -39340,8 +39302,6 @@ return
 false
 ;
 }
-#
-endif
 #
 if
 JS_HAS_GENERATOR_EXPRS
@@ -40754,9 +40714,6 @@ null
 (
 )
 ;
-#
-if
-JS_HAS_GENERATORS
 handler
 .
 setBlockId
@@ -40768,8 +40725,6 @@ pc
 blockidGen
 )
 ;
-#
-endif
 if
 (
 tokenStream
@@ -41111,9 +41066,6 @@ break
 }
 }
 }
-#
-if
-JS_HAS_GENERATORS
 /
 *
 *
@@ -41504,13 +41456,6 @@ null
 )
 ;
 }
-#
-endif
-/
-*
-JS_HAS_GENERATORS
-*
-/
 MUST_MATCH_TOKEN
 (
 TOK_RB

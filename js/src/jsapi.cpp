@@ -9813,9 +9813,6 @@ EAGER_ATOM_AND_OCLASP
 RegExp
 )
 }
-#
-if
-JS_HAS_GENERATORS
 {
 js_InitIteratorClasses
 EAGER_ATOM_AND_OCLASP
@@ -9823,8 +9820,6 @@ EAGER_ATOM_AND_OCLASP
 StopIteration
 )
 }
-#
-endif
 {
 js_InitJSONClass
 EAGER_ATOM_AND_CLASP

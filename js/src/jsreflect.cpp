@@ -16050,9 +16050,6 @@ function
 bool
 isGenerator
 =
-#
-if
-JS_HAS_GENERATORS
 pn
 -
 >
@@ -16063,12 +16060,6 @@ isGenerator
 (
 )
 ;
-#
-else
-false
-;
-#
-endif
 bool
 isExpression
 =
