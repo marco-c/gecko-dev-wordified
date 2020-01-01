@@ -166,6 +166,15 @@ mDOMRequest
 nsresult
 NotifySuccess
 (
+const
+jsval
+&
+aResult
+)
+;
+nsresult
+NotifySuccess
+(
 nsISupports
 *
 aMessage
