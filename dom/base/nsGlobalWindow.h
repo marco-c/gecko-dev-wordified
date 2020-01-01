@@ -815,8 +815,8 @@ InitTimer
 (
 nsTimerCallbackFunc
 aFunc
-uint64_t
-delay
+uint32_t
+aDelay
 )
 {
 return
@@ -827,13 +827,7 @@ InitWithFuncCallback
 (
 aFunc
 this
-static_cast
-<
-uint32_t
->
-(
-delay
-)
+aDelay
 nsITimer
 :
 :
