@@ -221,13 +221,6 @@ h
 #
 include
 "
-nsHTMLReflowState
-.
-h
-"
-#
-include
-"
 FrameMetrics
 .
 h
