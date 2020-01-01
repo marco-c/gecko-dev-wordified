@@ -151,7 +151,7 @@ StreamInfo
 >
 StreamMapType
 ;
-DECLARE_PTR
+DECLARE_NS_PTR
 (
 CC_SIPCCCallMediaData
 )
@@ -161,6 +161,10 @@ CC_SIPCCCallMediaData
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+CC_SipCCCAllMediaData
+)
 CC_SIPCCCallMediaData
 (
 )
@@ -274,7 +278,7 @@ CC_SIPCCCallMediaData
 ;
 }
 ;
-DECLARE_PTR
+DECLARE_NS_PTR
 (
 CC_SIPCCCall
 )

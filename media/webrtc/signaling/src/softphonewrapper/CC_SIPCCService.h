@@ -213,7 +213,7 @@ CSF
 class
 PhoneConfig
 ;
-DECLARE_PTR
+DECLARE_NS_PTR
 (
 CC_SIPCCService
 )

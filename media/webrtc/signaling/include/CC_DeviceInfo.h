@@ -91,6 +91,12 @@ class
 ECC_API
 CC_DeviceInfo
 {
+public
+:
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+CC_DeviceInfo
+)
 protected
 :
 CC_DeviceInfo
