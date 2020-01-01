@@ -22014,7 +22014,7 @@ fval
 )
 )
 return
-false
+NULL
 ;
 if
 (
@@ -22039,7 +22039,7 @@ rval
 )
 )
 return
-false
+NULL
 ;
 }
 return
