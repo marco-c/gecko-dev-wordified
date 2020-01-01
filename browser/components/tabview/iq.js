@@ -5859,6 +5859,9 @@ mousemove
 click
 '
 '
+dblclick
+'
+'
 resize
 '
 '
