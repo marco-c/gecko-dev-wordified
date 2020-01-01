@@ -622,6 +622,9 @@ r
 {
 return
 (
+r
+&
+&
 Utils
 .
 isNumber
