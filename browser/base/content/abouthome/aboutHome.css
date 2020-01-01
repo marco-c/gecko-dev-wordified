@@ -666,9 +666,6 @@ cursor
 :
 pointer
 ;
--
-moz
--
 transition
 -
 property
@@ -683,9 +680,6 @@ box
 -
 shadow
 ;
--
-moz
--
 transition
 -
 duration
@@ -949,9 +943,6 @@ hsla
 )
 inset
 ;
--
-moz
--
 transition
 -
 duration
@@ -1362,9 +1353,6 @@ cursor
 :
 pointer
 ;
--
-moz
--
 transition
 -
 property
@@ -1379,9 +1367,6 @@ box
 -
 shadow
 ;
--
-moz
--
 transition
 -
 duration
@@ -1572,9 +1557,6 @@ hsla
 )
 inset
 ;
--
-moz
--
 transition
 -
 duration
@@ -2367,9 +2349,6 @@ opacity
 .
 5
 ;
--
-moz
--
 transition
 :
 opacity

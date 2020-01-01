@@ -4807,9 +4807,6 @@ forward
 -
 button
 {
--
-moz
--
 transition
 :
 forwardTransitionLength
@@ -8184,9 +8181,6 @@ container
 #
 urlbar
 {
--
-moz
--
 transition
 :
 margin
@@ -13767,9 +13761,6 @@ end
 :
 0
 ;
--
-moz
--
 transition
 :
 1s
@@ -13811,9 +13802,6 @@ shadow
 Highlight
 inset
 ;
--
-moz
--
 transition
 :
 none

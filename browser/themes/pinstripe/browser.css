@@ -5303,9 +5303,6 @@ forward
 -
 button
 {
--
-moz
--
 transition
 :
 opacity
@@ -8008,9 +8005,6 @@ container
 #
 urlbar
 {
--
-moz
--
 transition
 :
 margin
@@ -8213,9 +8207,6 @@ url
 bar
 *
 /
--
-moz
--
 transition
 -
 delay
@@ -8562,9 +8553,6 @@ dir
 ltr
 )
 {
--
-moz
--
 transition
 :
 0s
@@ -8617,9 +8605,6 @@ dir
 rtl
 )
 {
--
-moz
--
 transition
 :
 0s
@@ -8692,9 +8677,6 @@ url
 bar
 *
 /
--
-moz
--
 transition
 -
 delay
@@ -13668,9 +13650,6 @@ fadein
 ]
 )
 {
--
-moz
--
 transition
 :
 min
@@ -17072,9 +17051,6 @@ start
 solid
 transparent
 ;
--
-moz
--
 transition
 :
 1s
@@ -17105,9 +17081,6 @@ color
 :
 Highlight
 ;
--
-moz
--
 transition
 :
 none

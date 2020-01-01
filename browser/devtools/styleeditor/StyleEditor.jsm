@@ -355,9 +355,6 @@ transitioning
 *
 {
 \
--
-moz
--
 transition
 -
 duration
@@ -372,9 +369,6 @@ ms
 important
 ;
 \
--
-moz
--
 transition
 -
 delay
@@ -384,9 +378,6 @@ delay
 important
 ;
 \
--
-moz
--
 transition
 -
 timing
@@ -400,9 +391,6 @@ out
 important
 ;
 \
--
-moz
--
 transition
 -
 property

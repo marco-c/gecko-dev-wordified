@@ -4251,9 +4251,6 @@ css
 (
 {
 '
--
-moz
--
 transition
 -
 property
@@ -4272,9 +4269,6 @@ join
 "
 )
 '
--
-moz
--
 transition
 -
 duration
@@ -4290,9 +4284,6 @@ duration
 s
 '
 '
--
-moz
--
 transition
 -
 timing
@@ -4328,9 +4319,6 @@ css
 (
 {
 '
--
-moz
--
 transition
 -
 property
@@ -4340,9 +4328,6 @@ property
 none
 '
 '
--
-moz
--
 transition
 -
 duration
@@ -4351,9 +4336,6 @@ duration
 '
 '
 '
--
-moz
--
 transition
 -
 timing
