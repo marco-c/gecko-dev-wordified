@@ -755,7 +755,7 @@ const
 nsRect
 &
 aBounds
-PRInt32
+float
 aFactor
 )
 const
