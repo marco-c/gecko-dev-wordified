@@ -798,6 +798,8 @@ pdbName
 \
 "
 :
+\
+"
 "
 <
 <
@@ -806,6 +808,12 @@ aLib
 GetPdbName
 (
 )
+<
+<
+"
+\
+"
+"
 ;
 #
 endif
