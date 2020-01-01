@@ -1039,8 +1039,6 @@ setup
 self
 gecko_path
 =
-self
-.
 gecko_path
                                 
 load_early
