@@ -956,10 +956,10 @@ Create
 (
 dict
 .
-mMessage
+message
 dict
 .
-mSessionEnded
+sessionEnded
 )
 ;
 NS_ASSERTION

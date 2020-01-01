@@ -5413,7 +5413,7 @@ ActualFormat
 ;
 result
 .
-mAlpha
+alpha
 =
 cf
 .
@@ -5423,7 +5423,7 @@ alpha
 ;
 result
 .
-mDepth
+depth
 =
 cf
 .
@@ -5433,7 +5433,7 @@ depth
 ;
 result
 .
-mStencil
+stencil
 =
 cf
 .
@@ -5443,7 +5443,7 @@ stencil
 ;
 result
 .
-mAntialias
+antialias
 =
 cf
 .
@@ -5453,7 +5453,7 @@ samples
 ;
 result
 .
-mPremultipliedAlpha
+premultipliedAlpha
 =
 mOptions
 .
@@ -5461,7 +5461,7 @@ premultipliedAlpha
 ;
 result
 .
-mPreserveDrawingBuffer
+preserveDrawingBuffer
 =
 mOptions
 .
