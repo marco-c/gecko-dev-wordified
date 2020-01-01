@@ -384,7 +384,7 @@ space
 buffer
 -
 >
-guess_properties
+guess_segment_properties
 (
 )
 ;
@@ -429,7 +429,7 @@ buffer
 unicode
 -
 >
-is_zero_width
+is_default_ignorable
 (
 buffer
 -

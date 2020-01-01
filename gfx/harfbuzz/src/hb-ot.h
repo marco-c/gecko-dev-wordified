@@ -233,6 +233,12 @@ tag
 h
 "
 HB_BEGIN_DECLS
+/
+*
+TODO
+remove
+*
+/
 void
 hb_ot_shape_glyphs_closure
 (

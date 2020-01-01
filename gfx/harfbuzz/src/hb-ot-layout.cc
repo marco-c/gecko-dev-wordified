@@ -2264,7 +2264,7 @@ false
 }
 unsigned
 int
-hb_ot_layout_feature_get_lookup_indexes
+hb_ot_layout_feature_get_lookups
 (
 hb_face_t
 *
@@ -2378,7 +2378,7 @@ GSUB
 ;
 }
 hb_bool_t
-hb_ot_layout_would_substitute_lookup
+hb_ot_layout_lookup_would_substitute
 (
 hb_face_t
 *
@@ -2412,7 +2412,7 @@ return
 false
 ;
 return
-hb_ot_layout_would_substitute_lookup_fast
+hb_ot_layout_lookup_would_substitute_fast
 (
 face
 lookup_index
@@ -2423,7 +2423,7 @@ zero_context
 ;
 }
 hb_bool_t
-hb_ot_layout_would_substitute_lookup_fast
+hb_ot_layout_lookup_would_substitute_fast
 (
 hb_face_t
 *
@@ -2663,7 +2663,7 @@ buffer
 ;
 }
 void
-hb_ot_layout_substitute_closure_lookup
+hb_ot_layout_lookup_substitute_closure
 (
 hb_face_t
 *

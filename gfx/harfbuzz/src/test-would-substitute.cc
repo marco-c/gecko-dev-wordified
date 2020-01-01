@@ -628,7 +628,7 @@ return
 ;
 return
 !
-hb_ot_layout_would_substitute_lookup
+hb_ot_layout_lookup_would_substitute
 (
 face
 strtol

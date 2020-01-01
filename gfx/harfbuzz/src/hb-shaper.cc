@@ -212,6 +212,17 @@ private
 .
 hh
 "
+#
+include
+"
+hb
+-
+atomic
+-
+private
+.
+hh
+"
 static
 const
 hb_shaper_pair_t

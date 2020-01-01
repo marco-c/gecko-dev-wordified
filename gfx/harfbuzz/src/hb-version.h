@@ -236,7 +236,7 @@ HB_VERSION_MINOR
 #
 define
 HB_VERSION_MICRO
-4
+6
 #
 define
 HB_VERSION_STRING
@@ -245,7 +245,7 @@ HB_VERSION_STRING
 .
 9
 .
-4
+6
 "
 #
 define

@@ -514,6 +514,8 @@ uint8_t
 end
 =
 text
+-
+-
 ;
 while
 (
@@ -524,8 +526,6 @@ text
 &
 (
 *
--
--
 text
 &
 0xc0

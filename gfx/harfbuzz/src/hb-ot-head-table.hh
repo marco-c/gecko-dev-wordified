@@ -296,7 +296,7 @@ assume
 1000
 which
 matches
-typicaly
+typical
 Type1
 usage
 .

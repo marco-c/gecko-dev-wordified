@@ -1078,10 +1078,10 @@ void
 {
 ASSERT_STATIC
 (
+sizeof
+(
 Type
-:
-:
-min_size
+)
 <
 =
 sizeof
@@ -1132,10 +1132,10 @@ _Null
 #
 Type
 [
+sizeof
+(
 Type
-:
-:
-min_size
+)
 +
 1
 ]
