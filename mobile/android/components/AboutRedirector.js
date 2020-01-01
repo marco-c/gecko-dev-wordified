@@ -537,9 +537,8 @@ firefox
 (
 )
 this
-[
+.
 fennec
-]
 /
 /
 about
