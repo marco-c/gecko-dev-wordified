@@ -34645,7 +34645,7 @@ and
 put
 them
 in
-Alist
+aList
 .
 If
 /
@@ -35051,6 +35051,13 @@ IsElement
 )
 |
 |
+(
+element
+!
+=
+aRoot
+&
+&
 nsContentUtils
 :
 :
@@ -35058,6 +35065,7 @@ ContentIsDescendantOf
 (
 element
 aRoot
+)
 )
 )
 {
@@ -35076,6 +35084,7 @@ it
 '
 s
 a
+strict
 descendant
 /
 /
