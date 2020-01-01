@@ -912,9 +912,6 @@ IsPrinterSurface
 )
 aFont
 .
-featureSettings
-aFont
-.
 languageOverride
 )
 ;

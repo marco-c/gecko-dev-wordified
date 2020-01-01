@@ -695,10 +695,6 @@ aPrinterFont
 const
 nsString
 &
-aFeatureSettings
-const
-nsString
-&
 aLanguageOverride
 )
 ;
