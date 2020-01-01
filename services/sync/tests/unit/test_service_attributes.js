@@ -521,7 +521,7 @@ do_check_eq
 (
 Service
 .
-userAPI
+userAPIURI
 "
 http
 :
@@ -615,7 +615,7 @@ do_check_eq
 (
 Service
 .
-userAPI
+userAPIURI
 "
 http
 :

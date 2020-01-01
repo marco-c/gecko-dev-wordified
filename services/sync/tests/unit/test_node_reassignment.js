@@ -761,7 +761,7 @@ do_check_eq
 (
 Service
 .
-userAPI
+userAPIURI
 "
 http
 :
