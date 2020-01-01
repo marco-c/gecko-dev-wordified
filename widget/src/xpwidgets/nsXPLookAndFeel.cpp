@@ -1726,14 +1726,6 @@ win
 -
 communicationstext
 "
-"
-ui
-.
--
-moz
--
-nativehyperlinktext
-"
 }
 ;
 PRInt32

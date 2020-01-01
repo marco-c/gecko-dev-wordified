@@ -1444,14 +1444,6 @@ CSS_KEY
 -
 moz
 -
-nativehyperlinktext
-_moz_nativehyperlinktext
-)
-CSS_KEY
-(
--
-moz
--
 none
 _moz_none
 )
