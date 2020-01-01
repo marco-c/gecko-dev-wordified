@@ -1627,14 +1627,14 @@ name
 ;
 mFilters
 .
-AppendCString
+AppendElement
 (
 filter
 )
 ;
 mFilterNames
 .
-AppendCString
+AppendElement
 (
 name
 )
@@ -2544,7 +2544,7 @@ count
 =
 mFilters
 .
-Count
+Length
 (
 )
 ;
@@ -2609,8 +2609,7 @@ mFilters
 [
 i
 ]
--
->
+.
 get
 (
 )
@@ -2696,8 +2695,7 @@ mFilterNames
 [
 i
 ]
--
->
+.
 IsEmpty
 (
 )
@@ -2728,8 +2726,7 @@ mFilterNames
 [
 i
 ]
--
->
+.
 get
 (
 )
@@ -2771,8 +2768,7 @@ mFilters
 [
 i
 ]
--
->
+.
 get
 (
 )

@@ -535,6 +535,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsWeakReference
 .
 h
@@ -655,7 +662,10 @@ mObservers
 nsCString
 mPrefRoot
 ;
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 mObserverDomains
 ;
 PRBool

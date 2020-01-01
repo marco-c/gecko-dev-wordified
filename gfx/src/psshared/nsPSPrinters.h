@@ -462,7 +462,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -673,7 +673,10 @@ destination
 void
 GetPrinterList
 (
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 &
 aList
 )

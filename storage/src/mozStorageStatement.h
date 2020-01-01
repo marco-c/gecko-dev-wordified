@@ -452,7 +452,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -607,7 +607,10 @@ mParamCount
 PRUint32
 mResultColumnCount
 ;
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 mColumnNames
 ;
 PRBool

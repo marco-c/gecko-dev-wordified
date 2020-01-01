@@ -479,7 +479,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -1065,7 +1065,7 @@ const
 return
 mExtensions
 .
-Count
+Length
 (
 )
 !
@@ -1324,7 +1324,10 @@ aFile
 /
 member
 variables
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 mExtensions
 ;
 /

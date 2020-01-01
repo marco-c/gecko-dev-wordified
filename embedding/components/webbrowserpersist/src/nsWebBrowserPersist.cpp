@@ -11664,7 +11664,7 @@ IsEmpty
 |
 mFilenameList
 .
-Count
+Length
 (
 )
 >
@@ -11906,7 +11906,7 @@ filename
 ;
 mFilenameList
 .
-AppendCString
+AppendElement
 (
 newFilepath
 )

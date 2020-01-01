@@ -9377,7 +9377,10 @@ iconFile
 nsCAutoString
 path
 ;
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 iconList
 ;
 /
@@ -9519,7 +9522,7 @@ extensions
 &
 iconList
 .
-Count
+Length
 (
 )
 )
@@ -9563,7 +9566,7 @@ path
 ;
 iconList
 .
-AppendCString
+AppendElement
 (
 path
 )
@@ -9587,7 +9590,7 @@ if
 (
 iconList
 .
-Count
+Length
 (
 )
 =
@@ -25983,7 +25986,10 @@ nsWindow
 SetWindowIconList
 (
 const
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 &
 aIconList
 )
@@ -25996,7 +26002,7 @@ NULL
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -26005,7 +26011,7 @@ i
 <
 aIconList
 .
-Count
+Length
 (
 )
 ;
@@ -26023,8 +26029,7 @@ aIconList
 [
 i
 ]
--
->
+.
 get
 (
 )

@@ -1317,7 +1317,7 @@ from
 nsZipArchive
 mArray
 .
-AppendCString
+AppendElement
 (
 nsDependentCString
 (
@@ -2430,7 +2430,7 @@ arrayLen
 =
 mArray
 .
-Count
+Length
 (
 )
 ;
@@ -2478,8 +2478,7 @@ mArray
 [
 mArrPos
 ]
--
->
+.
 get
 (
 )
@@ -2491,8 +2490,7 @@ mArray
 [
 mArrPos
 ]
--
->
+.
 Length
 (
 )

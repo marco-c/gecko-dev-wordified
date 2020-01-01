@@ -557,6 +557,13 @@ prlog
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 extern
 PRLogModuleInfo
 *
@@ -1950,7 +1957,10 @@ nsresult
 SetWindowIconList
 (
 const
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 &
 aIconList
 )

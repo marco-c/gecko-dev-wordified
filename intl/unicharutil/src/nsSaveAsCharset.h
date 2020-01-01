@@ -439,7 +439,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -753,7 +753,10 @@ nsIEntityConverter
 >
 mEntityConverter
 ;
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 mCharsetList
 ;
 PRInt32

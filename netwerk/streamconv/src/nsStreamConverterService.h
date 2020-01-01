@@ -458,6 +458,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsIAtom
 .
 h
@@ -695,7 +702,10 @@ const
 char
 *
 aContractID
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 *
 *
 aEdgeList

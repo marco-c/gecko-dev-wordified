@@ -418,6 +418,13 @@ nsJAR
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 /
 *
 -
@@ -833,7 +840,10 @@ current
 position
 within
 mArray
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 mArray
 ;
 /

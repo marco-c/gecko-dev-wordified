@@ -532,7 +532,10 @@ nsString
 >
 *
 aNamespaceURIs
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 *
 aContractIDs
 nsCOMArray
