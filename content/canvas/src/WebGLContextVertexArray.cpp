@@ -251,6 +251,10 @@ array
 return
 ;
 }
+InvalidateCachedMinInUseAttribArrayLength
+(
+)
+;
 MakeContextCurrent
 (
 )
