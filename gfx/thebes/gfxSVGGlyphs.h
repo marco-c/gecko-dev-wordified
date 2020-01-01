@@ -462,13 +462,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 gfxPattern
 .
 h

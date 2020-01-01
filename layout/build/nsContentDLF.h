@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsMimeTypes
 .
 h

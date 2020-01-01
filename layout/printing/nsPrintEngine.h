@@ -183,13 +183,6 @@ Interfaces
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
@@ -212,6 +205,9 @@ nsIDocShellTreeNode
 ;
 class
 nsDeviceContext
+;
+class
+nsIDocument
 ;
 class
 nsIDocumentViewerPrint

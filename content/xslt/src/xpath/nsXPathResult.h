@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsStubMutationObserver
 .
 h
@@ -164,6 +157,9 @@ Attributes
 .
 h
 "
+class
+nsIDocument
+;
 /
 /
 {
