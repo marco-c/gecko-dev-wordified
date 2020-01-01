@@ -1535,7 +1535,7 @@ eHTMLTags
 aParent
 eHTMLTags
 aChild
-PRBool
+PRInt32
 aParentContains
 )
 ;
@@ -1625,7 +1625,7 @@ eHTMLTags
 aParent
 eHTMLTags
 aChild
-PRBool
+PRInt32
 &
 aParentContains
 )
