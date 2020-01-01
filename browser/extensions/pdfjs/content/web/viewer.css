@@ -6276,7 +6276,7 @@ canvas
 {
 margin
 :
-auto
+0
 ;
 display
 :
@@ -6865,6 +6865,16 @@ size
 0
 .
 8em
+;
+}
+.
+loadingInProgress
+#
+errorWrapper
+{
+top
+:
+39px
 ;
 }
 #
