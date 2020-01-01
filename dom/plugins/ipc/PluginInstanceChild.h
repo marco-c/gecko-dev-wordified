@@ -203,7 +203,11 @@ h
 #
 include
 "
-nsCoreAnimationSupport
+mozilla
+/
+gfx
+/
+QuartzSupport
 .
 h
 "
@@ -1809,7 +1813,13 @@ mShColorSpace
 CGContextRef
 mShContext
 ;
+mozilla
+:
+:
+RefPtr
+<
 nsCARenderer
+>
 mCARenderer
 ;
 void

@@ -173,7 +173,11 @@ XP_MACOSX
 #
 include
 "
-nsIOSurface
+mozilla
+/
+gfx
+/
+MacIOSurface
 .
 h
 "
@@ -1254,7 +1258,7 @@ will
 be
 a
 simple
-nsIOSurface
+MacIOSurface
 *
 wrapper
 .
@@ -5339,7 +5343,7 @@ public
 struct
 Data
 {
-nsIOSurface
+MacIOSurface
 *
 mIOSurface
 ;
@@ -5559,7 +5563,7 @@ return
 mSize
 ;
 }
-nsIOSurface
+MacIOSurface
 *
 GetIOSurface
 (
@@ -5591,9 +5595,9 @@ private
 gfxIntSize
 mSize
 ;
-nsRefPtr
+RefPtr
 <
-nsIOSurface
+MacIOSurface
 >
 mIOSurface
 ;

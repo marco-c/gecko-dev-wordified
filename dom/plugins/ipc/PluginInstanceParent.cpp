@@ -2728,13 +2728,13 @@ get_IOSurfaceDescriptor
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
-nsIOSurface
+MacIOSurface
 >
 newIOSurface
 =
-nsIOSurface
+MacIOSurface
 :
 :
 LookupSurface
@@ -3388,7 +3388,7 @@ aContainer
 #
 ifdef
 XP_MACOSX
-nsIOSurface
+MacIOSurface
 *
 ioSurface
 =
@@ -5086,7 +5086,7 @@ NPDrawingModelInvalidatingCoreAnimation
 {
 mIOSurface
 =
-nsIOSurface
+MacIOSurface
 :
 :
 CreateIOSurface
