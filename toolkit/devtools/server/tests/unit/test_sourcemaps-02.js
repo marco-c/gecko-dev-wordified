@@ -264,11 +264,6 @@ js
 ]
 )
 ;
-let
-numNewSources
-=
-0
-;
 gClient
 .
 addOneTimeListener
