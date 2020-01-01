@@ -1743,9 +1743,12 @@ in
 /
 subclasses
 .
-PRBool
+nsresult
 PacketOutUntilGranulepos
 (
+PRBool
+&
+aFoundGranulepos
 )
 ;
 /
