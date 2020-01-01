@@ -923,6 +923,16 @@ gfxIntSize
 size
 )
 ;
+virtual
+bool
+RecvFlushMemory
+(
+const
+nsString
+&
+reason
+)
+;
 #
 ifdef
 ANDROID
