@@ -517,7 +517,6 @@ XPCDispParamPropJSClass
 (
 xpc_GetJSPrivate
 (
-cx
 obj
 )
 )
