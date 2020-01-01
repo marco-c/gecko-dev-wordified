@@ -834,10 +834,6 @@ IsSmsSupported
 )
 const
 ;
-static
-bool
-sDoNotTrackEnabled
-;
 nsRefPtr
 <
 nsMimeTypeArray
