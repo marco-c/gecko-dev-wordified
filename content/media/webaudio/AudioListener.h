@@ -680,6 +680,10 @@ aValue
 ;
 private
 :
+friend
+class
+PannerNode
+;
 nsRefPtr
 <
 AudioContext
