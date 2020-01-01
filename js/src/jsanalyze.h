@@ -2210,7 +2210,7 @@ bindingIsArg
 (
 sc
 .
-binding
+frameBinding
 )
 ?
 ArgSlot
@@ -2224,7 +2224,7 @@ bindingToArg
 (
 sc
 .
-binding
+frameBinding
 )
 )
 :
@@ -2240,7 +2240,7 @@ bindingToLocal
 (
 sc
 .
-binding
+frameBinding
 )
 )
 ;
