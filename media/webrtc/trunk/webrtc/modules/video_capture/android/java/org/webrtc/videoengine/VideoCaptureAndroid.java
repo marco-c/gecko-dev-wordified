@@ -1233,7 +1233,7 @@ unlock
 Override
 public
 void
-onConfigurationChanged
+onOrientationChanged
 (
 )
 {

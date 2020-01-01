@@ -13620,7 +13620,7 @@ onResume
 ;
 public
 void
-onConfigurationChanged
+onOrientationChanged
 (
 )
 ;
