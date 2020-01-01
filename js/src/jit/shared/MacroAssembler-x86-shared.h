@@ -176,7 +176,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MacroAssemblerX86Shared
@@ -3193,7 +3193,7 @@ ret
 /
 /
 namespace
-ion
+jit
 }
 /
 /

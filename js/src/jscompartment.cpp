@@ -649,7 +649,7 @@ init
 #
 ifdef
 JS_ION
-ion
+jit
 :
 :
 IonRuntime
@@ -720,7 +720,7 @@ cx
 >
 new_
 <
-ion
+jit
 :
 :
 IonRuntime
@@ -821,7 +821,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 if
 (

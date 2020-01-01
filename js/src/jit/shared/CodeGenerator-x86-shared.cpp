@@ -201,7 +201,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 using
 mozilla
@@ -213,7 +213,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 CodeGeneratorX86Shared
 :
@@ -10465,7 +10465,7 @@ true
 /
 /
 namespace
-ion
+jit
 }
 /
 /

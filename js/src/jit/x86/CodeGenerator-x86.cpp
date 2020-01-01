@@ -204,7 +204,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 using
 mozilla
@@ -2830,7 +2830,7 @@ array
 load
 .
 class
-ion
+jit
 :
 :
 OutOfLineLoadTypedArrayOutOfBounds
@@ -5110,7 +5110,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 OutOfLineTruncate
@@ -5175,7 +5175,7 @@ ins_
 /
 /
 namespace
-ion
+jit
 }
 /
 /

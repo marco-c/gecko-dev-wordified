@@ -130,7 +130,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 static
 MOZ_CONSTEXPR_VAR
@@ -237,7 +237,7 @@ xmm1
 /
 /
 namespace
-ion
+jit
 }
 /
 /

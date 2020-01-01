@@ -151,7 +151,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 struct
 ImmShiftedTag
@@ -8141,7 +8141,7 @@ MacroAssemblerSpecific
 /
 /
 namespace
-ion
+jit
 }
 /
 /

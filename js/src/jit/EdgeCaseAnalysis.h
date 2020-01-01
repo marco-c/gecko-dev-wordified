@@ -127,7 +127,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MIRGraph
@@ -166,7 +166,7 @@ analyzeLate
 /
 /
 namespace
-ion
+jit
 }
 /
 /

@@ -146,7 +146,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 OutOfLineLoadTypedArrayOutOfBounds
@@ -510,7 +510,7 @@ CodeGeneratorSpecific
 /
 /
 namespace
-ion
+jit
 }
 /
 /

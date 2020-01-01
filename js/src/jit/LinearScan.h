@@ -145,7 +145,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 LinearScanVirtualRegister
@@ -688,7 +688,7 @@ go
 /
 /
 namespace
-ion
+jit
 }
 /
 /

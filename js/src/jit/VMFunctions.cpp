@@ -247,13 +247,13 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 namespace
 js
 {
 namespace
-ion
+jit
 {
 /
 /
@@ -4089,7 +4089,7 @@ mustReturn
 true
 ;
 return
-ion
+jit
 :
 :
 DebugEpilogue
@@ -4960,7 +4960,7 @@ rval
 )
 ;
 return
-ion
+jit
 :
 :
 DebugEpilogue
@@ -5140,7 +5140,7 @@ mustReturn
 true
 ;
 return
-ion
+jit
 :
 :
 DebugEpilogue
@@ -5256,7 +5256,7 @@ numStackValues
 /
 /
 namespace
-ion
+jit
 }
 /
 /

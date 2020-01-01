@@ -195,7 +195,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 OutOfLineNewParallelArray
@@ -2708,7 +2708,7 @@ perfSpewer_
 /
 /
 namespace
-ion
+jit
 }
 /
 /

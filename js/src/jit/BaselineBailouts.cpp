@@ -196,7 +196,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 /
 /
@@ -10187,7 +10187,7 @@ true
 ;
 }
 uint32_t
-ion
+jit
 :
 :
 BailoutIonToBaseline
@@ -11844,7 +11844,7 @@ outerScript
 ;
 }
 uint32_t
-ion
+jit
 :
 :
 FinishBailoutToBaseline

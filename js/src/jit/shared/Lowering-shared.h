@@ -155,7 +155,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MBasicBlock
@@ -1385,7 +1385,7 @@ false
 /
 /
 namespace
-ion
+jit
 }
 /
 /

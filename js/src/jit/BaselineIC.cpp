@@ -234,7 +234,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 #
 ifdef
@@ -6690,7 +6690,7 @@ Ion
 if
 (
 !
-ion
+jit
 :
 :
 IsEnabled
@@ -56898,7 +56898,7 @@ pcOffset
 /
 /
 namespace
-ion
+jit
 }
 /
 /

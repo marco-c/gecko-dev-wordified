@@ -193,7 +193,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 /
 /
@@ -2236,7 +2236,7 @@ registerCode
 /
 /
 namespace
-ion
+jit
 }
 /
 /

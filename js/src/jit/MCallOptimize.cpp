@@ -182,7 +182,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 IonBuilder
 :
@@ -10155,7 +10155,7 @@ InliningStatus_Inlined
 /
 /
 namespace
-ion
+jit
 }
 /
 /

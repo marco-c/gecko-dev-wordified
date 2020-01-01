@@ -162,7 +162,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 inline
 void
@@ -507,7 +507,7 @@ CallObject
 /
 /
 namespace
-ion
+jit
 }
 /
 /

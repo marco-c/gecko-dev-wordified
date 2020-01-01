@@ -169,7 +169,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 static
 MOZ_CONSTEXPR_VAR
@@ -1392,7 +1392,7 @@ base_
 /
 /
 namespace
-ion
+jit
 }
 /
 /
@@ -1417,7 +1417,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 static
 inline
@@ -3936,7 +3936,7 @@ true
 /
 /
 namespace
-ion
+jit
 }
 /
 /

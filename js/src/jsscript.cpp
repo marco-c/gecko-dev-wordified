@@ -6015,7 +6015,7 @@ JSScript
 :
 addIonCounts
 (
-ion
+jit
 :
 :
 IonScriptCounts
@@ -6066,7 +6066,7 @@ ionCounts
 ionCounts
 ;
 }
-ion
+jit
 :
 :
 IonScriptCounts
@@ -13676,7 +13676,7 @@ destroy
 #
 ifdef
 JS_ION
-ion
+jit
 :
 :
 DestroyIonScripts
@@ -18531,7 +18531,7 @@ closure
 #
 ifdef
 JS_ION
-ion
+jit
 :
 :
 TraceIonScripts
@@ -19430,7 +19430,7 @@ the
 interpreter
 (
 in
-ion
+jit
 :
 :
 ThunkToInterpreter

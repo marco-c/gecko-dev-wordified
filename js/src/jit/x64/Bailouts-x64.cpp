@@ -135,7 +135,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 #
 if
@@ -156,7 +156,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 BailoutStack
@@ -248,7 +248,7 @@ BailoutStack
 /
 /
 namespace
-ion
+jit
 }
 /
 /

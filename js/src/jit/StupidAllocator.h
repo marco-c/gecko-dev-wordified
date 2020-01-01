@@ -140,7 +140,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 StupidAllocator
@@ -488,7 +488,7 @@ reg
 /
 /
 namespace
-ion
+jit
 }
 /
 /

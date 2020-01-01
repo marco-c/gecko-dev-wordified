@@ -166,7 +166,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 LICM
@@ -202,7 +202,7 @@ analyze
 /
 /
 namespace
-ion
+jit
 }
 /
 /

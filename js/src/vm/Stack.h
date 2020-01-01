@@ -674,7 +674,7 @@ i
 #
 endif
 namespace
-ion
+jit
 {
 class
 BaselineFrame
@@ -752,7 +752,7 @@ fp
 }
 AbstractFramePtr
 (
-ion
+jit
 :
 :
 BaselineFrame
@@ -870,7 +870,7 @@ isStackFrame
 )
 ;
 }
-ion
+jit
 :
 :
 BaselineFrame
@@ -887,7 +887,7 @@ isBaselineFrame
 )
 )
 ;
-ion
+jit
 :
 :
 BaselineFrame
@@ -895,7 +895,7 @@ BaselineFrame
 res
 =
 (
-ion
+jit
 :
 :
 BaselineFrame
@@ -7456,7 +7456,7 @@ class
 InterpreterActivation
 ;
 namespace
-ion
+jit
 {
 class
 JitActivation
@@ -7635,7 +7635,7 @@ InterpreterActivation
 this
 ;
 }
-ion
+jit
 :
 :
 JitActivation
@@ -7654,7 +7654,7 @@ isJit
 ;
 return
 (
-ion
+jit
 :
 :
 JitActivation
@@ -8015,7 +8015,7 @@ NULL
 }
 ;
 namespace
-ion
+jit
 {
 /
 /
@@ -8344,7 +8344,7 @@ end
 /
 /
 namespace
-ion
+jit
 /
 /
 Iterates
@@ -8780,7 +8780,7 @@ activations_
 #
 ifdef
 JS_ION
-ion
+jit
 :
 :
 IonFrameIterator
@@ -8826,7 +8826,7 @@ data_
 #
 ifdef
 JS_ION
-ion
+jit
 :
 :
 InlineFrameIterator

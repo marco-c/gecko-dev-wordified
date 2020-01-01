@@ -180,7 +180,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 StackValue
@@ -1912,7 +1912,7 @@ zone
 /
 /
 namespace
-ion
+jit
 }
 /
 /

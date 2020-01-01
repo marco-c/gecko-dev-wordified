@@ -163,7 +163,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 BaselineCompilerShared
@@ -775,7 +775,7 @@ analysis_
 /
 /
 namespace
-ion
+jit
 }
 /
 /

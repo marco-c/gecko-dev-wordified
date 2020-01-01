@@ -136,7 +136,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 EffectiveAddressAnalysis
@@ -171,7 +171,7 @@ analyze
 /
 *
 namespace
-ion
+jit
 *
 /
 }

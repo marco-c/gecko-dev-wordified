@@ -179,7 +179,7 @@ class
 TypedArrayObject
 ;
 namespace
-ion
+jit
 {
 #
 define
@@ -6719,7 +6719,7 @@ OPCODE_CASTS
 /
 /
 namespace
-ion
+jit
 }
 /
 /

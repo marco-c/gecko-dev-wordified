@@ -3826,7 +3826,7 @@ JS_ION
 if
 (
 !
-ion
+jit
 :
 :
 InitializeIon
@@ -37006,7 +37006,7 @@ value
 #
 ifdef
 JS_ION
-ion
+jit
 :
 :
 IonOptions
@@ -37037,7 +37037,7 @@ defaultValues
 .
 baselineUsesBeforeCompile
 ;
-ion
+jit
 :
 :
 js_IonOptions
@@ -37068,7 +37068,7 @@ defaultValues
 .
 usesBeforeCompile
 ;
-ion
+jit
 :
 :
 js_IonOptions
@@ -37077,7 +37077,7 @@ usesBeforeCompile
 =
 value
 ;
-ion
+jit
 :
 :
 js_IonOptions

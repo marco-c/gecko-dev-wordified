@@ -137,7 +137,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 static
 inline
@@ -596,7 +596,7 @@ mode
 /
 /
 namespace
-ion
+jit
 }
 /
 /

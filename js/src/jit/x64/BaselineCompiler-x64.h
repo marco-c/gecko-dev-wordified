@@ -133,7 +133,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 BaselineCompilerX64
@@ -162,7 +162,7 @@ BaselineCompilerSpecific
 /
 /
 namespace
-ion
+jit
 }
 /
 /

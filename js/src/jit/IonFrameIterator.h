@@ -161,7 +161,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 enum
 FrameType
@@ -2844,7 +2844,7 @@ InlineFrameIteratorNoGC
 /
 /
 namespace
-ion
+jit
 }
 /
 /

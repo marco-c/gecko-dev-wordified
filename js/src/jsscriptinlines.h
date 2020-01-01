@@ -911,7 +911,7 @@ setIonScript
 js
 :
 :
-ion
+jit
 :
 :
 IonScript
@@ -928,7 +928,7 @@ hasIonScript
 js
 :
 :
-ion
+jit
 :
 :
 IonScript
@@ -961,7 +961,7 @@ setParallelIonScript
 js
 :
 :
-ion
+jit
 :
 :
 IonScript
@@ -978,7 +978,7 @@ hasParallelIonScript
 js
 :
 :
-ion
+jit
 :
 :
 IonScript
@@ -1007,7 +1007,7 @@ setBaselineScript
 js
 :
 :
-ion
+jit
 :
 :
 BaselineScript
@@ -1027,7 +1027,7 @@ hasBaselineScript
 js
 :
 :
-ion
+jit
 :
 :
 BaselineScript

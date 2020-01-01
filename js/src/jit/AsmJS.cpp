@@ -305,7 +305,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 using
 mozilla
@@ -31811,7 +31811,7 @@ CodeGenerator
 >
 codegen
 (
-ion
+jit
 :
 :
 GenerateCode
@@ -31866,7 +31866,7 @@ mir
 return
 false
 ;
-ion
+jit
 :
 :
 IonScriptCounts
@@ -36817,7 +36817,7 @@ breakpoint
 js
 :
 :
-ion
+jit
 :
 :
 Assembler

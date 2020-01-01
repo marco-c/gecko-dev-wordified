@@ -204,7 +204,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 /
 /
@@ -1775,7 +1775,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-ion
+jit
 :
 :
 InitBaselineFrameForOsr
@@ -2569,7 +2569,7 @@ rax
 /
 Argument
 to
-ion
+jit
 :
 :
 InvalidationBailout

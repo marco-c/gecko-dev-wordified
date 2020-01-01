@@ -250,7 +250,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 IonContext
@@ -1714,7 +1714,7 @@ cx
 ;
 friend
 class
-ion
+jit
 :
 :
 IonContext

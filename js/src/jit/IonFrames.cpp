@@ -297,7 +297,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 IonFrameIterator
 :
@@ -2569,7 +2569,7 @@ hasReturnValue
 ;
 if
 (
-ion
+jit
 :
 :
 DebugEpilogue
@@ -3700,7 +3700,7 @@ baselineFrame
 ;
 if
 (
-ion
+jit
 :
 :
 DebugEpilogue
@@ -11278,7 +11278,7 @@ stderr
 /
 /
 namespace
-ion
+jit
 }
 /
 /

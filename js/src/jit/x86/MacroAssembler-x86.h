@@ -158,7 +158,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MacroAssemblerX86
@@ -7465,7 +7465,7 @@ MacroAssemblerSpecific
 /
 /
 namespace
-ion
+jit
 }
 /
 /

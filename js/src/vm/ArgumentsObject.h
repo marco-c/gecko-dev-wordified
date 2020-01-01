@@ -140,7 +140,7 @@ class
 ScriptFrameIter
 ;
 namespace
-ion
+jit
 {
 class
 IonJSFrameLayout
@@ -1003,7 +1003,7 @@ createForIon
 JSContext
 *
 cx
-ion
+jit
 :
 :
 IonJSFrameLayout
@@ -1957,7 +1957,7 @@ static
 void
 MaybeForwardToCallObject
 (
-ion
+jit
 :
 :
 IonJSFrameLayout

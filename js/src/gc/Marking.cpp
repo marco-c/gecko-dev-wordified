@@ -763,7 +763,7 @@ MarkChildren
 JSTracer
 *
 trc
-ion
+jit
 :
 :
 IonCode
@@ -2492,7 +2492,7 @@ UnownedBaseShape
 DeclMarkerImpl
 (
 IonCode
-ion
+jit
 :
 :
 IonCode
@@ -2829,7 +2829,7 @@ MarkInternal
 trc
 reinterpret_cast
 <
-ion
+jit
 :
 :
 IonCode
@@ -5416,7 +5416,7 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-ion
+jit
 :
 :
 IonCode
@@ -7604,7 +7604,7 @@ MarkChildren
 JSTracer
 *
 trc
-ion
+jit
 :
 :
 IonCode
@@ -7823,7 +7823,7 @@ PushArenaTyped
 js
 :
 :
-ion
+jit
 :
 :
 IonCode
@@ -8760,7 +8760,7 @@ MarkChildren
 this
 reinterpret_cast
 <
-ion
+jit
 :
 :
 IonCode
@@ -10005,7 +10005,7 @@ trc
 js
 :
 :
-ion
+jit
 :
 :
 IonCode

@@ -169,7 +169,7 @@ js
 ;
 using
 namespace
-ion
+jit
 ;
 using
 parallel
@@ -205,7 +205,7 @@ context
 .
 ForkJoinSlice
 *
-ion
+jit
 :
 :
 ForkJoinSlicePar
@@ -258,7 +258,7 @@ there
 .
 JSObject
 *
-ion
+jit
 :
 :
 NewGCThingPar
@@ -340,7 +340,7 @@ writable
 )
 .
 bool
-ion
+jit
 :
 :
 IsThreadLocalObject
@@ -476,7 +476,7 @@ seqTraceData
 #
 endif
 void
-ion
+jit
 :
 :
 TraceLIR
@@ -773,7 +773,7 @@ cached
 endif
 }
 bool
-ion
+jit
 :
 :
 CheckOverRecursedPar
@@ -968,7 +968,7 @@ slice
 ;
 }
 bool
-ion
+jit
 :
 :
 CheckInterruptPar
@@ -1083,7 +1083,7 @@ true
 }
 JSObject
 *
-ion
+jit
 :
 :
 PushPar
@@ -1194,7 +1194,7 @@ object
 }
 JSObject
 *
-ion
+jit
 :
 :
 ExtendArrayPar
@@ -1243,7 +1243,7 @@ array
 ;
 }
 ParallelResult
-ion
+jit
 :
 :
 ConcatStringsPar
@@ -1293,7 +1293,7 @@ TP_SUCCESS
 ;
 }
 ParallelResult
-ion
+jit
 :
 :
 IntToStringPar
@@ -1340,7 +1340,7 @@ TP_SUCCESS
 ;
 }
 ParallelResult
-ion
+jit
 :
 :
 DoubleToStringPar
@@ -1387,7 +1387,7 @@ TP_SUCCESS
 ;
 }
 ParallelResult
-ion
+jit
 :
 :
 StringToNumberPar
@@ -1924,7 +1924,7 @@ ParallelResult
 js
 :
 :
-ion
+jit
 :
 :
 LooselyEqualPar
@@ -1958,7 +1958,7 @@ ParallelResult
 js
 :
 :
-ion
+jit
 :
 :
 LooselyUnequalPar
@@ -2244,7 +2244,7 @@ ParallelResult
 js
 :
 :
-ion
+jit
 :
 :
 StrictlyEqualPar
@@ -2278,7 +2278,7 @@ ParallelResult
 js
 :
 :
-ion
+jit
 :
 :
 StrictlyUnequalPar
@@ -2312,7 +2312,7 @@ ParallelResult
 js
 :
 :
-ion
+jit
 :
 :
 LessThanPar
@@ -2340,7 +2340,7 @@ ParallelResult
 js
 :
 :
-ion
+jit
 :
 :
 LessThanOrEqualPar
@@ -2369,7 +2369,7 @@ ParallelResult
 js
 :
 :
-ion
+jit
 :
 :
 GreaterThanPar
@@ -2397,7 +2397,7 @@ ParallelResult
 js
 :
 :
-ion
+jit
 :
 :
 GreaterThanOrEqualPar
@@ -2488,7 +2488,7 @@ ParallelResult
 js
 :
 :
-ion
+jit
 :
 :
 StringsEqualPar
@@ -2522,7 +2522,7 @@ ParallelResult
 js
 :
 :
-ion
+jit
 :
 :
 StringsUnequalPar
@@ -2553,7 +2553,7 @@ res
 ;
 }
 ParallelResult
-ion
+jit
 :
 :
 BitNotPar
@@ -2685,7 +2685,7 @@ TP_SUCCESS
 \
 JS_END_MACRO
 ParallelResult
-ion
+jit
 :
 :
 BitXorPar
@@ -2711,7 +2711,7 @@ right
 ;
 }
 ParallelResult
-ion
+jit
 :
 :
 BitOrPar
@@ -2737,7 +2737,7 @@ right
 ;
 }
 ParallelResult
-ion
+jit
 :
 :
 BitAndPar
@@ -2763,7 +2763,7 @@ right
 ;
 }
 ParallelResult
-ion
+jit
 :
 :
 BitLshPar
@@ -2794,7 +2794,7 @@ right
 ;
 }
 ParallelResult
-ion
+jit
 :
 :
 BitRshPar
@@ -2828,7 +2828,7 @@ right
 undef
 BIT_OP
 ParallelResult
-ion
+jit
 :
 :
 UrshValuesPar
@@ -2917,7 +2917,7 @@ TP_SUCCESS
 ;
 }
 void
-ion
+jit
 :
 :
 AbortPar
@@ -3092,7 +3092,7 @@ bytecode
 ;
 }
 void
-ion
+jit
 :
 :
 PropagateAbortPar
@@ -3214,7 +3214,7 @@ NULL
 ;
 }
 void
-ion
+jit
 :
 :
 CallToUncompiledScriptPar
@@ -3562,7 +3562,7 @@ function
 endif
 }
 ParallelResult
-ion
+jit
 :
 :
 InitRestParameterPar

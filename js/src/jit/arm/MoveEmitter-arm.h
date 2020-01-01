@@ -136,7 +136,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 CodeGenerator
@@ -425,7 +425,7 @@ MoveEmitter
 /
 /
 namespace
-ion
+jit
 }
 /
 /

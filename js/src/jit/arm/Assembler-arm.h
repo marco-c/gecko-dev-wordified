@@ -211,7 +211,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 /
 /
@@ -1758,7 +1758,7 @@ VFPRegIndexSplit
 js
 :
 :
-ion
+jit
 :
 :
 VFPRegister
@@ -6635,7 +6635,7 @@ typedef
 js
 :
 :
-ion
+jit
 :
 :
 AssemblerBufferWithConstantPool
@@ -7349,7 +7349,7 @@ AssemblerBufferWithConstantPool
 js
 :
 :
-ion
+jit
 :
 :
 Assembler
@@ -13926,7 +13926,7 @@ leaveNoPool
 /
 /
 namespace
-ion
+jit
 }
 /
 /

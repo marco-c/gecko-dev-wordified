@@ -1472,7 +1472,7 @@ JS_ION
 js
 :
 :
-ion
+jit
 :
 :
 IonSpewEnabled
@@ -1480,7 +1480,7 @@ IonSpewEnabled
 js
 :
 :
-ion
+jit
 :
 :
 IonSpew_Codegen
@@ -1585,7 +1585,7 @@ JS_ION
 js
 :
 :
-ion
+jit
 :
 :
 IonSpew
@@ -1593,7 +1593,7 @@ IonSpew
 js
 :
 :
-ion
+jit
 :
 :
 IonSpew_Codegen
@@ -1646,7 +1646,7 @@ if
 js
 :
 :
-ion
+jit
 :
 :
 IonSpewEnabled
@@ -1654,7 +1654,7 @@ IonSpewEnabled
 js
 :
 :
-ion
+jit
 :
 :
 IonSpew_Codegen
@@ -1705,7 +1705,7 @@ i
 js
 :
 :
-ion
+jit
 :
 :
 IonSpew
@@ -1713,7 +1713,7 @@ IonSpew
 js
 :
 :
-ion
+jit
 :
 :
 IonSpew_Codegen

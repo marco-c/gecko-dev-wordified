@@ -148,7 +148,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 BaselineCompilerShared
 :
@@ -180,7 +180,7 @@ code
 )
 ionCompileable_
 (
-ion
+jit
 :
 :
 IsEnabled
@@ -198,7 +198,7 @@ false
 )
 ionOSRCompileable_
 (
-ion
+jit
 :
 :
 IsEnabled

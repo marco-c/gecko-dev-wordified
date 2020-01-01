@@ -1404,7 +1404,7 @@ if
 js
 :
 :
-ion
+jit
 :
 :
 hasVFP
@@ -2716,7 +2716,7 @@ TriggerOperationCallbackForAsmJSCode
 this
 )
 ;
-ion
+jit
 :
 :
 TriggerOperationCallbackForIonCode

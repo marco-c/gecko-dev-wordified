@@ -148,7 +148,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 BaselineInspector
@@ -619,7 +619,7 @@ pc
 /
 /
 namespace
-ion
+jit
 }
 /
 /

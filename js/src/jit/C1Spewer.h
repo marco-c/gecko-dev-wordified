@@ -137,7 +137,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MDefinition
@@ -296,7 +296,7 @@ nextId
 /
 /
 namespace
-ion
+jit
 }
 /
 /

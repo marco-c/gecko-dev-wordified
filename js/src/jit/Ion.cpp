@@ -511,7 +511,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 /
 /
@@ -519,7 +519,7 @@ Global
 variables
 .
 IonOptions
-ion
+jit
 :
 :
 js_IonOptions
@@ -585,7 +585,7 @@ IonTLSIndex
 ;
 }
 bool
-ion
+jit
 :
 :
 SetIonContext
@@ -626,7 +626,7 @@ GlobalIonContext
 ;
 }
 bool
-ion
+jit
 :
 :
 SetIonContext
@@ -648,7 +648,7 @@ true
 endif
 IonContext
 *
-ion
+jit
 :
 :
 GetIonContext
@@ -670,7 +670,7 @@ CurrentIonContext
 }
 IonContext
 *
-ion
+jit
 :
 :
 MaybeGetIonContext
@@ -895,7 +895,7 @@ prev_
 ;
 }
 bool
-ion
+jit
 :
 :
 InitializeIon
@@ -2318,7 +2318,7 @@ interruptCheck
 }
 }
 void
-ion
+jit
 :
 :
 TriggerOperationCallbackForIonCode
@@ -2743,7 +2743,7 @@ true
 ;
 }
 void
-ion
+jit
 :
 :
 FinishOffThreadBuilder
@@ -6833,7 +6833,7 @@ backedgeEntries_
 ;
 }
 void
-ion
+jit
 :
 :
 ToggleBarriers
@@ -7028,7 +7028,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 bool
 OptimizeMIR
@@ -10587,7 +10587,7 @@ executionMode
 {
 JS_ASSERT
 (
-ion
+jit
 :
 :
 IsEnabled
@@ -10598,7 +10598,7 @@ cx
 ;
 JS_ASSERT
 (
-ion
+jit
 :
 :
 IsBaselineEnabled
@@ -10886,7 +10886,7 @@ Method_Skipped
 /
 /
 namespace
-ion
+jit
 }
 /
 /
@@ -10918,7 +10918,7 @@ target
 JSScript
 .
 MethodStatus
-ion
+jit
 :
 :
 CanEnterAtBranch
@@ -10941,7 +10941,7 @@ isConstructing
 {
 JS_ASSERT
 (
-ion
+jit
 :
 :
 IsEnabled
@@ -11258,7 +11258,7 @@ Method_Compiled
 ;
 }
 MethodStatus
-ion
+jit
 :
 :
 CanEnter
@@ -11273,7 +11273,7 @@ state
 {
 JS_ASSERT
 (
-ion
+jit
 :
 :
 IsEnabled
@@ -11545,7 +11545,7 @@ obj
 |
 |
 !
-ion
+jit
 :
 :
 IsEnabled
@@ -11759,7 +11759,7 @@ Method_Compiled
 ;
 }
 MethodStatus
-ion
+jit
 :
 :
 CompileFunctionForBaseline
@@ -11778,7 +11778,7 @@ isConstructing
 {
 JS_ASSERT
 (
-ion
+jit
 :
 :
 IsEnabled
@@ -11945,7 +11945,7 @@ Method_Compiled
 ;
 }
 MethodStatus
-ion
+jit
 :
 :
 CanEnterInParallel
@@ -12247,7 +12247,7 @@ Method_Compiled
 ;
 }
 MethodStatus
-ion
+jit
 :
 :
 CanEnterUsingFastInvoke
@@ -12263,7 +12263,7 @@ numActualArgs
 {
 JS_ASSERT
 (
-ion
+jit
 :
 :
 IsEnabled
@@ -12453,7 +12453,7 @@ IonExec_Aborted
 ;
 JS_ASSERT
 (
-ion
+jit
 :
 :
 IsEnabled
@@ -12751,7 +12751,7 @@ IonExec_Ok
 ;
 }
 bool
-ion
+jit
 :
 :
 SetEnterJitData
@@ -13149,7 +13149,7 @@ true
 ;
 }
 IonExecStatus
-ion
+jit
 :
 :
 Cannon
@@ -13249,7 +13249,7 @@ status
 ;
 }
 IonExecStatus
-ion
+jit
 :
 :
 FastInvoke
@@ -13311,7 +13311,7 @@ raw
 ;
 JS_ASSERT
 (
-ion
+jit
 :
 :
 IsEnabled
@@ -14580,7 +14580,7 @@ activation
 ;
 }
 void
-ion
+jit
 :
 :
 InvalidateAll
@@ -14748,7 +14748,7 @@ true
 }
 }
 void
-ion
+jit
 :
 :
 Invalidate
@@ -15365,7 +15365,7 @@ resetUseCount
 }
 }
 void
-ion
+jit
 :
 :
 Invalidate
@@ -15387,7 +15387,7 @@ bool
 resetUses
 )
 {
-ion
+jit
 :
 :
 Invalidate
@@ -15418,7 +15418,7 @@ resetUses
 ;
 }
 bool
-ion
+jit
 :
 :
 Invalidate
@@ -15551,7 +15551,7 @@ true
 ;
 }
 bool
-ion
+jit
 :
 :
 Invalidate
@@ -15714,7 +15714,7 @@ invalidate
 (
 )
 ;
-ion
+jit
 :
 :
 IonScript
@@ -15729,7 +15729,7 @@ ionScript
 }
 }
 void
-ion
+jit
 :
 :
 FinishInvalidation
@@ -15788,7 +15788,7 @@ true
 ;
 }
 void
-ion
+jit
 :
 :
 MarkValueFromIon
@@ -15820,7 +15820,7 @@ barrier
 ;
 }
 void
-ion
+jit
 :
 :
 MarkShapeFromIon
@@ -15853,7 +15853,7 @@ barrier
 ;
 }
 void
-ion
+jit
 :
 :
 ForbidCompilation
@@ -15875,7 +15875,7 @@ SequentialExecution
 ;
 }
 void
-ion
+jit
 :
 :
 ForbidCompilation
@@ -16090,7 +16090,7 @@ mode
 ;
 }
 uint32_t
-ion
+jit
 :
 :
 UsesBeforeIonRecompile
@@ -16696,7 +16696,7 @@ IonSpew_CacheFlush
 ;
 }
 void
-ion
+jit
 :
 :
 PurgeCaches
@@ -16755,7 +16755,7 @@ zone
 ;
 }
 size_t
-ion
+jit
 :
 :
 SizeOfIonData
@@ -16830,7 +16830,7 @@ result
 ;
 }
 void
-ion
+jit
 :
 :
 DestroyIonScripts
@@ -16852,7 +16852,7 @@ hasIonScript
 (
 )
 )
-ion
+jit
 :
 :
 IonScript
@@ -16878,7 +16878,7 @@ hasParallelIonScript
 (
 )
 )
-ion
+jit
 :
 :
 IonScript
@@ -16904,7 +16904,7 @@ hasBaselineScript
 (
 )
 )
-ion
+jit
 :
 :
 BaselineScript
@@ -16923,7 +16923,7 @@ baselineScript
 ;
 }
 void
-ion
+jit
 :
 :
 TraceIonScripts
@@ -16945,7 +16945,7 @@ hasIonScript
 (
 )
 )
-ion
+jit
 :
 :
 IonScript
@@ -16971,7 +16971,7 @@ hasParallelIonScript
 (
 )
 )
-ion
+jit
 :
 :
 IonScript
@@ -16997,7 +16997,7 @@ hasBaselineScript
 (
 )
 )
-ion
+jit
 :
 :
 BaselineScript

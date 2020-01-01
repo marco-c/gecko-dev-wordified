@@ -134,7 +134,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 inline
 unsigned
@@ -1326,7 +1326,7 @@ executionMode_
 /
 /
 namespace
-ion
+jit
 }
 /
 /

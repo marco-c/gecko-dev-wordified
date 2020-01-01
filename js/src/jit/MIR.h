@@ -244,7 +244,7 @@ class
 StringObject
 ;
 namespace
-ion
+jit
 {
 class
 BaselineInspector
@@ -37326,7 +37326,7 @@ true
 /
 /
 namespace
-ion
+jit
 }
 /
 /

@@ -158,7 +158,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 struct
 SafepointNunboxEntry
@@ -594,7 +594,7 @@ slot
 /
 /
 namespace
-ion
+jit
 }
 /
 /

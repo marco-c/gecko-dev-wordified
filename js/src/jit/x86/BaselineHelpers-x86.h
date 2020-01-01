@@ -157,7 +157,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 /
 /
@@ -1766,7 +1766,7 @@ offsetOfStubCode
 /
 /
 namespace
-ion
+jit
 }
 /
 /

@@ -204,7 +204,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 using
 mozilla
@@ -635,7 +635,7 @@ uint32_t
 js
 :
 :
-ion
+jit
 :
 :
 RT
@@ -676,7 +676,7 @@ uint32_t
 js
 :
 :
-ion
+jit
 :
 :
 RN
@@ -717,7 +717,7 @@ uint32_t
 js
 :
 :
-ion
+jit
 :
 :
 RD
@@ -758,7 +758,7 @@ uint32_t
 js
 :
 :
-ion
+jit
 :
 :
 RM
@@ -839,7 +839,7 @@ uint32_t
 js
 :
 :
-ion
+jit
 :
 :
 maybeRT
@@ -890,7 +890,7 @@ uint32_t
 js
 :
 :
-ion
+jit
 :
 :
 maybeRN
@@ -941,7 +941,7 @@ uint32_t
 js
 :
 :
-ion
+jit
 :
 :
 maybeRD
@@ -992,7 +992,7 @@ Register
 js
 :
 :
-ion
+jit
 :
 :
 toRD
@@ -1027,7 +1027,7 @@ Register
 js
 :
 :
-ion
+jit
 :
 :
 toR
@@ -1057,7 +1057,7 @@ Register
 js
 :
 :
-ion
+jit
 :
 :
 toRM
@@ -1092,7 +1092,7 @@ Register
 js
 :
 :
-ion
+jit
 :
 :
 toRN
@@ -1127,7 +1127,7 @@ uint32_t
 js
 :
 :
-ion
+jit
 :
 :
 VD
@@ -1187,7 +1187,7 @@ uint32_t
 js
 :
 :
-ion
+jit
 :
 :
 VN
@@ -1247,7 +1247,7 @@ uint32_t
 js
 :
 :
-ion
+jit
 :
 :
 VM
@@ -1304,7 +1304,7 @@ VFPRegister
 :
 :
 VFPRegIndexSplit
-ion
+jit
 :
 :
 VFPRegister
@@ -1386,7 +1386,7 @@ VFPRegister
 js
 :
 :
-ion
+jit
 :
 :
 NoVFPRegister
@@ -2818,7 +2818,7 @@ invalid
 {
 }
 void
-ion
+jit
 :
 :
 PatchJump
@@ -4694,7 +4694,7 @@ uint32_t
 js
 :
 :
-ion
+jit
 :
 :
 Assembler
@@ -4820,7 +4820,7 @@ uint32_t
 *
 >
 (
-ion
+jit
 :
 :
 Assembler
@@ -6431,7 +6431,7 @@ imm2shift
 ;
 }
 ALUOp
-ion
+jit
 :
 :
 ALUNeg
@@ -6667,7 +6667,7 @@ op_invalid
 }
 }
 bool
-ion
+jit
 :
 :
 can_dbl
@@ -6811,7 +6811,7 @@ false
 }
 }
 bool
-ion
+jit
 :
 :
 condsAreSafe
@@ -7039,7 +7039,7 @@ false
 }
 }
 ALUOp
-ion
+jit
 :
 :
 getDestVariant
@@ -7117,7 +7117,7 @@ op
 }
 }
 O2RegImmShift
-ion
+jit
 :
 :
 O2Reg
@@ -7136,7 +7136,7 @@ LSL
 ;
 }
 O2RegImmShift
-ion
+jit
 :
 :
 lsl
@@ -7171,7 +7171,7 @@ amt
 ;
 }
 O2RegImmShift
-ion
+jit
 :
 :
 lsr
@@ -7206,7 +7206,7 @@ amt
 ;
 }
 O2RegImmShift
-ion
+jit
 :
 :
 ror
@@ -7241,7 +7241,7 @@ amt
 ;
 }
 O2RegImmShift
-ion
+jit
 :
 :
 rol
@@ -7278,7 +7278,7 @@ amt
 ;
 }
 O2RegImmShift
-ion
+jit
 :
 :
 asr
@@ -7313,7 +7313,7 @@ amt
 ;
 }
 O2RegRegShift
-ion
+jit
 :
 :
 lsl
@@ -7334,7 +7334,7 @@ amt
 ;
 }
 O2RegRegShift
-ion
+jit
 :
 :
 lsr
@@ -7355,7 +7355,7 @@ amt
 ;
 }
 O2RegRegShift
-ion
+jit
 :
 :
 ror
@@ -7376,7 +7376,7 @@ amt
 ;
 }
 O2RegRegShift
-ion
+jit
 :
 :
 asr
@@ -7399,7 +7399,7 @@ amt
 js
 :
 :
-ion
+jit
 :
 :
 VFPImm
@@ -7550,14 +7550,14 @@ data
 js
 :
 :
-ion
+jit
 :
 :
 DoubleEncoder
 js
 :
 :
-ion
+jit
 :
 :
 DoubleEncoder

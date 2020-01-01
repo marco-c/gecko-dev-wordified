@@ -4896,7 +4896,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 struct
 IonScriptCounts
@@ -4911,7 +4911,7 @@ js
 Sprinter
 *
 sp
-ion
+jit
 :
 :
 IonScriptCounts

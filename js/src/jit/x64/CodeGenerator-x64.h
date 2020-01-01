@@ -146,7 +146,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 CodeGeneratorX64
@@ -471,7 +471,7 @@ CodeGeneratorSpecific
 /
 /
 namespace
-ion
+jit
 }
 /
 /

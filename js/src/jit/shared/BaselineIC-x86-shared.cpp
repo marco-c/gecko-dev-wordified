@@ -162,7 +162,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 bool
 ICCompare_Double

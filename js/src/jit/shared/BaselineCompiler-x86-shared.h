@@ -131,7 +131,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 BaselineCompilerX86Shared
@@ -156,7 +156,7 @@ script
 /
 /
 namespace
-ion
+jit
 }
 /
 /

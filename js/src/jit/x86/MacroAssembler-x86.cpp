@@ -182,7 +182,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 void
 MacroAssemblerX86

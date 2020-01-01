@@ -1122,7 +1122,7 @@ FINALIZE_EXTERNAL_STRING
 /
 sizeof
 (
-ion
+jit
 :
 :
 IonCode
@@ -1356,7 +1356,7 @@ FINALIZE_EXTERNAL_STRING
 /
 OFFSET
 (
-ion
+jit
 :
 :
 IonCode
@@ -3026,7 +3026,7 @@ runtime
 return
 FinalizeTypedArenas
 <
-ion
+jit
 :
 :
 IonCode
@@ -30785,7 +30785,7 @@ active
 .
 *
 /
-ion
+jit
 :
 :
 MarkActiveBaselineScripts
@@ -30793,7 +30793,7 @@ MarkActiveBaselineScripts
 zone
 )
 ;
-ion
+jit
 :
 :
 InvalidateAll
@@ -30838,7 +30838,7 @@ JSScript
 (
 )
 ;
-ion
+jit
 :
 :
 FinishInvalidation
@@ -30874,7 +30874,7 @@ flag
 .
 *
 /
-ion
+jit
 :
 :
 FinishDiscardBaselineScript
@@ -31605,7 +31605,7 @@ caches
 .
 *
 /
-ion
+jit
 :
 :
 PurgeCaches

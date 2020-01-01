@@ -264,7 +264,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 using
 mozilla
@@ -42300,7 +42300,7 @@ input
 inputTypes
 .
 bool
-ion
+jit
 :
 :
 TypeSetIncludes
@@ -42452,7 +42452,7 @@ GC
 purposes
 .
 bool
-ion
+jit
 :
 :
 NeedsPostBarrier

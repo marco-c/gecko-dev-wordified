@@ -155,7 +155,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 /
 /
@@ -445,7 +445,7 @@ CompilerRootValue
 /
 /
 namespace
-ion
+jit
 }
 /
 /

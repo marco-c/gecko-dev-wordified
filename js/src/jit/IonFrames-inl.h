@@ -159,7 +159,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 inline
 void
@@ -450,7 +450,7 @@ baselineFrame
 /
 /
 namespace
-ion
+jit
 }
 /
 /

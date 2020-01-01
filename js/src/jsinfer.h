@@ -665,7 +665,7 @@ class
 CallObject
 ;
 namespace
-ion
+jit
 {
 struct
 IonScript
@@ -8779,7 +8779,7 @@ kindInt
 k
 ;
 }
-ion
+jit
 :
 :
 IonScript

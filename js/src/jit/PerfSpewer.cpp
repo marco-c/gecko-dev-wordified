@@ -195,7 +195,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 #
 define
@@ -228,7 +228,7 @@ void
 js
 :
 :
-ion
+jit
 :
 :
 CheckPerf
@@ -458,7 +458,7 @@ bool
 js
 :
 :
-ion
+jit
 :
 :
 PerfBlockEnabled
@@ -481,7 +481,7 @@ bool
 js
 :
 :
-ion
+jit
 :
 :
 PerfFuncEnabled

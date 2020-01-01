@@ -145,7 +145,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 ValueNumberer
@@ -804,7 +804,7 @@ thisDef
 /
 /
 namespace
-ion
+jit
 }
 /
 /

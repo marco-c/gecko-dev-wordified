@@ -144,7 +144,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 OutOfLineBailout
@@ -1329,7 +1329,7 @@ snapshot_
 /
 /
 namespace
-ion
+jit
 }
 /
 /

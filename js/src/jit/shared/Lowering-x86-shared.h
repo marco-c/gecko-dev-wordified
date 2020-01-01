@@ -131,7 +131,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 LIRGeneratorX86Shared
@@ -424,7 +424,7 @@ ins
 /
 /
 namespace
-ion
+jit
 }
 /
 /

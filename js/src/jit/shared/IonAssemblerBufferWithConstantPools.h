@@ -158,7 +158,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 typedef
 Vector

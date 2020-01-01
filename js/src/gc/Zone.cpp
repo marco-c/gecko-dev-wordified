@@ -434,7 +434,7 @@ needs
 ionUsingBarriers_
 )
 {
-ion
+jit
 :
 :
 ToggleBarriers
@@ -1336,7 +1336,7 @@ active
 .
 *
 /
-ion
+jit
 :
 :
 MarkActiveBaselineScripts
@@ -1358,7 +1358,7 @@ discarded
 .
 *
 /
-ion
+jit
 :
 :
 InvalidateAll
@@ -1403,7 +1403,7 @@ JSScript
 (
 )
 ;
-ion
+jit
 :
 :
 FinishInvalidation
@@ -1439,7 +1439,7 @@ flag
 .
 *
 /
-ion
+jit
 :
 :
 FinishDiscardBaselineScript

@@ -149,7 +149,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 bool
 LIRGeneratorShared
@@ -2777,7 +2777,7 @@ endif
 /
 /
 namespace
-ion
+jit
 }
 /
 /

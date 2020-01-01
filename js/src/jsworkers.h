@@ -207,7 +207,7 @@ struct
 ParseTask
 ;
 namespace
-ion
+jit
 {
 class
 IonBuilder
@@ -324,7 +324,7 @@ threads
 /
 Vector
 <
-ion
+jit
 :
 :
 IonBuilder
@@ -854,7 +854,7 @@ thread
 .
 *
 /
-ion
+jit
 :
 :
 IonBuilder
@@ -1115,7 +1115,7 @@ StartOffThreadIonCompile
 JSContext
 *
 cx
-ion
+jit
 :
 :
 IonBuilder
@@ -1520,7 +1520,7 @@ ModuleCompiler
 :
 Func
 *
-ion
+jit
 :
 :
 MIRGenerator
@@ -1536,7 +1536,7 @@ thread
 to
 worker
 .
-ion
+jit
 :
 :
 LIRGraph
@@ -1589,7 +1589,7 @@ init
 void
 *
 func
-ion
+jit
 :
 :
 MIRGenerator

@@ -136,7 +136,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MIRGraph
@@ -305,7 +305,7 @@ js
 /
 /
 namespace
-ion
+jit
 #
 endif
 /

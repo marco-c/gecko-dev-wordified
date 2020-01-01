@@ -162,7 +162,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 TempAllocator
@@ -1974,7 +1974,7 @@ trigger
 /
 /
 namespace
-ion
+jit
 }
 /
 /

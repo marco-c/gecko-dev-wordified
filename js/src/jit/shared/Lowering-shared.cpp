@@ -156,7 +156,7 @@ js
 ;
 using
 namespace
-ion
+jit
 ;
 bool
 LIRGeneratorShared

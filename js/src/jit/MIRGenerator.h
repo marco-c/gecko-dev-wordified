@@ -213,7 +213,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MBasicBlock
@@ -777,7 +777,7 @@ endif
 /
 /
 namespace
-ion
+jit
 }
 /
 /

@@ -145,7 +145,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 IonCompartment
@@ -2493,7 +2493,7 @@ private
 js
 :
 :
-ion
+jit
 :
 :
 IonCompartment
@@ -2513,7 +2513,7 @@ cx
 js
 :
 :
-ion
+jit
 :
 :
 IonCompartment

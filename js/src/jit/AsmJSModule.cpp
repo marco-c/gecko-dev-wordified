@@ -302,7 +302,7 @@ defined
 (
 JS_CPU_ARM
 )
-ion
+jit
 :
 :
 IonContext
@@ -312,7 +312,7 @@ cx
 NULL
 )
 ;
-ion
+jit
 :
 :
 AutoFlushCache
@@ -358,7 +358,7 @@ i
 +
 +
 )
-ion
+jit
 :
 :
 Assembler
@@ -368,7 +368,7 @@ updateBoundsCheck
 (
 bits
 (
-ion
+jit
 :
 :
 Instruction
@@ -756,7 +756,7 @@ hasIonScript
 )
 continue
 ;
-ion
+jit
 :
 :
 DependentAsmJSModuleExit

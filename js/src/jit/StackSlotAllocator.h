@@ -127,7 +127,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 StackSlotAllocator
@@ -352,7 +352,7 @@ height_
 /
 /
 namespace
-ion
+jit
 }
 /
 /

@@ -180,7 +180,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 static
 Register
@@ -10632,7 +10632,7 @@ MacroAssemblerSpecific
 /
 /
 namespace
-ion
+jit
 }
 /
 /

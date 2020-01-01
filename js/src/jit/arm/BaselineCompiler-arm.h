@@ -131,7 +131,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 BaselineCompilerARM
@@ -160,7 +160,7 @@ BaselineCompilerSpecific
 /
 /
 namespace
-ion
+jit
 }
 /
 /

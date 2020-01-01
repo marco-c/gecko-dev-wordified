@@ -118,7 +118,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 LBox
@@ -1879,7 +1879,7 @@ getTemp
 /
 /
 namespace
-ion
+jit
 }
 /
 /

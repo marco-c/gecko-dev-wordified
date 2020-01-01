@@ -158,7 +158,7 @@ class
 ForkJoinSlice
 ;
 namespace
-ion
+jit
 {
 enum
 DataType
@@ -4787,7 +4787,7 @@ numStackValues
 /
 /
 namespace
-ion
+jit
 }
 /
 /

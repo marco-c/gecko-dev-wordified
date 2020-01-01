@@ -133,7 +133,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 LIRGeneratorX64
@@ -358,7 +358,7 @@ LIRGeneratorSpecific
 /
 /
 namespace
-ion
+jit
 }
 /
 /

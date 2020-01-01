@@ -118,7 +118,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 LBox
@@ -467,7 +467,7 @@ getOperand
 /
 /
 namespace
-ion
+jit
 }
 /
 /

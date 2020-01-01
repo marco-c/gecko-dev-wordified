@@ -256,7 +256,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 using
 mozilla
@@ -7828,7 +7828,7 @@ class
 js
 :
 :
-ion
+jit
 :
 :
 OutOfLineTableSwitch

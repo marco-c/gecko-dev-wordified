@@ -149,7 +149,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MIRGenerator
@@ -556,7 +556,7 @@ constant_
 /
 /
 namespace
-ion
+jit
 }
 /
 /

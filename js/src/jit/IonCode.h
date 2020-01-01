@@ -174,7 +174,7 @@ class
 AsmJSModule
 ;
 namespace
-ion
+jit
 {
 /
 /
@@ -3962,7 +3962,7 @@ AutoFlushInhibitor
 /
 /
 namespace
-ion
+jit
 namespace
 gc
 {
@@ -3971,7 +3971,7 @@ bool
 IsMarked
 (
 const
-ion
+jit
 :
 :
 VMFunction

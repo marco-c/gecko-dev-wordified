@@ -145,7 +145,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MoveResolver
@@ -1075,7 +1075,7 @@ clear
 /
 /
 namespace
-ion
+jit
 }
 /
 /

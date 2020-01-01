@@ -139,7 +139,7 @@ class
 StackFrame
 ;
 namespace
-ion
+jit
 {
 class
 MIRGraph
@@ -326,7 +326,7 @@ targets
 /
 /
 namespace
-ion
+jit
 }
 /
 /

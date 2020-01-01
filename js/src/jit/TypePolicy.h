@@ -127,7 +127,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MInstruction
@@ -1243,7 +1243,7 @@ false
 /
 /
 namespace
-ion
+jit
 }
 /
 /

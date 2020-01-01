@@ -230,7 +230,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 /
 *
@@ -578,7 +578,7 @@ IonExec_Aborted
 ;
 JS_ASSERT
 (
-ion
+jit
 :
 :
 IsBaselineEnabled
@@ -917,7 +917,7 @@ IonExec_Ok
 ;
 }
 IonExecStatus
-ion
+jit
 :
 :
 EnterBaselineMethod
@@ -1020,7 +1020,7 @@ IonExec_Ok
 ;
 }
 IonExecStatus
-ion
+jit
 :
 :
 EnterBaselineAtBranch
@@ -1615,7 +1615,7 @@ osr
 {
 JS_ASSERT
 (
-ion
+jit
 :
 :
 IsBaselineEnabled
@@ -1967,7 +1967,7 @@ script
 ;
 }
 MethodStatus
-ion
+jit
 :
 :
 CanEnterBaselineAtBranch
@@ -2102,7 +2102,7 @@ true
 ;
 }
 MethodStatus
-ion
+jit
 :
 :
 CanEnterBaselineMethod
@@ -5496,7 +5496,7 @@ next
 endif
 }
 void
-ion
+jit
 :
 :
 FinishDiscardBaselineScript
@@ -5647,7 +5647,7 @@ baseline
 ;
 }
 void
-ion
+jit
 :
 :
 IonCompartment
@@ -5713,7 +5713,7 @@ enabled
 }
 }
 void
-ion
+jit
 :
 :
 SizeOfBaselineData
@@ -5770,7 +5770,7 @@ fallbackStubs
 ;
 }
 void
-ion
+jit
 :
 :
 ToggleBaselineSPS
@@ -5889,7 +5889,7 @@ activation
 {
 for
 (
-ion
+jit
 :
 :
 IonFrameIterator
@@ -6032,7 +6032,7 @@ default
 }
 }
 void
-ion
+jit
 :
 :
 MarkActiveBaselineScripts

@@ -211,7 +211,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 static
 const
@@ -2052,7 +2052,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-ion
+jit
 :
 :
 InitBaselineFrameForOsr

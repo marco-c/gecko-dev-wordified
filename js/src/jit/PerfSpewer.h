@@ -137,7 +137,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MBasicBlock
@@ -462,7 +462,7 @@ funcName
 /
 /
 namespace
-ion
+jit
 }
 /
 /

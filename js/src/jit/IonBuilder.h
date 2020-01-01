@@ -157,7 +157,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 CodeGenerator
@@ -5334,7 +5334,7 @@ value
 /
 /
 namespace
-ion
+jit
 }
 /
 /

@@ -159,7 +159,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 static
 const
@@ -1305,7 +1305,7 @@ hasIDIV
 /
 /
 namespace
-ion
+jit
 }
 /
 /

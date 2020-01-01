@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_UnreachableCodeEliminatjit_h
+jit_UnreachableCodeElimination_h
 #
 define
-jit_UnreachableCodeEliminatjit_h
+jit_UnreachableCodeElimination_h
 #
 include
 "
@@ -136,7 +136,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MIRGraph
@@ -318,7 +318,7 @@ marked
 /
 *
 namespace
-ion
+jit
 *
 /
 }
@@ -332,6 +332,6 @@ js
 endif
 /
 *
-jit_UnreachableCodeEliminatjit_h
+jit_UnreachableCodeElimination_h
 *
 /

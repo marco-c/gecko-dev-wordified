@@ -191,7 +191,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 typedef
 void
@@ -621,7 +621,7 @@ one
 per
 activation
 of
-ion
+jit
 :
 :
 Cannon
@@ -1826,7 +1826,7 @@ returnAddrOut
 /
 /
 namespace
-ion
+jit
 }
 /
 /
@@ -1892,7 +1892,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 void
 GetPcScript
@@ -2058,7 +2058,7 @@ token
 /
 *
 namespace
-ion
+jit
 *
 /
 }

@@ -29966,7 +29966,7 @@ off
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -29989,7 +29989,7 @@ pessimistic
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30012,7 +30012,7 @@ optimistic
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30067,7 +30067,7 @@ on
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30090,7 +30090,7 @@ off
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30147,7 +30147,7 @@ on
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30170,7 +30170,7 @@ off
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30229,7 +30229,7 @@ on
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30252,7 +30252,7 @@ off
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30294,7 +30294,7 @@ analysis
 "
 )
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30336,7 +30336,7 @@ on
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30359,7 +30359,7 @@ off
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30414,7 +30414,7 @@ on
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30437,7 +30437,7 @@ off
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30496,7 +30496,7 @@ on
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30519,7 +30519,7 @@ off
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30571,7 +30571,7 @@ useCount
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30605,7 +30605,7 @@ useCount
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30628,7 +30628,7 @@ eager
 "
 )
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30670,14 +30670,14 @@ lsra
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
 .
 registerAllocator
 =
-ion
+jit
 :
 :
 RegisterAllocator_LSRA
@@ -30696,14 +30696,14 @@ backtracking
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
 .
 registerAllocator
 =
-ion
+jit
 :
 :
 RegisterAllocator_Backtracking
@@ -30722,14 +30722,14 @@ stupid
 =
 0
 )
-ion
+jit
 :
 :
 js_IonOptions
 .
 registerAllocator
 =
-ion
+jit
 :
 :
 RegisterAllocator_Stupid
@@ -30761,7 +30761,7 @@ eager
 "
 )
 )
-ion
+jit
 :
 :
 js_IonOptions
@@ -30788,7 +30788,7 @@ catch
 "
 )
 )
-ion
+jit
 :
 :
 js_IonOptions

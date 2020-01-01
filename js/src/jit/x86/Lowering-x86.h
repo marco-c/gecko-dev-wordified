@@ -133,7 +133,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 LIRGeneratorX86
@@ -414,7 +414,7 @@ js
 /
 /
 namespace
-ion
+jit
 #
 endif
 /

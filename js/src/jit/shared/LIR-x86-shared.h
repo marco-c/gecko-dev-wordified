@@ -118,7 +118,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 LDivI
@@ -1462,7 +1462,7 @@ getOperand
 /
 /
 namespace
-ion
+jit
 }
 /
 /

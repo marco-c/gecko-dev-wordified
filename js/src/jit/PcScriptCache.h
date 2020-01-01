@@ -129,7 +129,7 @@ the
 purpose
 of
 caching
-ion
+jit
 :
 :
 GetPcScript
@@ -161,7 +161,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 struct
 PcScriptCacheEntry
@@ -505,7 +505,7 @@ Length
 /
 /
 namespace
-ion
+jit
 }
 /
 /

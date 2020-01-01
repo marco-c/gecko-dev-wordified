@@ -217,7 +217,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 OutOfLineCode
@@ -4323,7 +4323,7 @@ InterruptCheckInfo
 /
 /
 namespace
-ion
+jit
 }
 /
 /

@@ -196,7 +196,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 /
 /
@@ -522,7 +522,7 @@ dump
 }
 }
 uint32_t
-ion
+jit
 :
 :
 Bailout
@@ -706,7 +706,7 @@ retval
 ;
 }
 uint32_t
-ion
+jit
 :
 :
 InvalidationBailout
@@ -1184,7 +1184,7 @@ snapshotOffset
 ;
 }
 uint32_t
-ion
+jit
 :
 :
 ExceptionHandlerBailout
@@ -1345,7 +1345,7 @@ current
 frame
 .
 bool
-ion
+jit
 :
 :
 EnsureHasScopeObjects
@@ -1400,7 +1400,7 @@ true
 ;
 }
 bool
-ion
+jit
 :
 :
 CheckFrequentBailouts

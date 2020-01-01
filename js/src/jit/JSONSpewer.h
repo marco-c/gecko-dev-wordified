@@ -128,7 +128,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MDefinition
@@ -414,7 +414,7 @@ finish
 /
 /
 namespace
-ion
+jit
 }
 /
 /

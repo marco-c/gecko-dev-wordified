@@ -172,7 +172,7 @@ js
 ;
 using
 namespace
-ion
+jit
 ;
 using
 mozilla

@@ -131,7 +131,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 IonFramePrefix
@@ -2608,7 +2608,7 @@ const
 /
 /
 namespace
-ion
+jit
 }
 /
 /

@@ -132,7 +132,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 BaselineCompilerX86Shared
 :

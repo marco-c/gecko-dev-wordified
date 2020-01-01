@@ -234,7 +234,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 struct
 Register
@@ -254,7 +254,7 @@ typedef
 js
 :
 :
-ion
+jit
 :
 :
 Registers
@@ -888,7 +888,7 @@ value
 /
 /
 namespace
-ion
+jit
 }
 /
 /

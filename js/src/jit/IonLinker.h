@@ -177,7 +177,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 Linker
@@ -678,7 +678,7 @@ endif
 /
 /
 namespace
-ion
+jit
 }
 /
 /

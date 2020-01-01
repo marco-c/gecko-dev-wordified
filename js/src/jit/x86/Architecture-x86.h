@@ -129,7 +129,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 static
 const
@@ -931,7 +931,7 @@ NonAllocatableMask
 /
 /
 namespace
-ion
+jit
 }
 /
 /

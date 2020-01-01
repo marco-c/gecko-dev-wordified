@@ -976,7 +976,7 @@ IONMASM
 js
 :
 :
-ion
+jit
 :
 :
 MacroAssembler
@@ -991,7 +991,7 @@ IONALLOC
 js
 :
 :
-ion
+jit
 :
 :
 AutoTempAllocatorRooter

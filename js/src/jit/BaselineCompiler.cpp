@@ -207,7 +207,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 BaselineCompiler
 :
@@ -2079,7 +2079,7 @@ FunctionInfo
 DebugPrologueFn
 >
 (
-ion
+jit
 :
 :
 DebugPrologue
@@ -2247,7 +2247,7 @@ FunctionInfo
 StrictEvalPrologueFn
 >
 (
-ion
+jit
 :
 :
 StrictEvalPrologue
@@ -2276,7 +2276,7 @@ FunctionInfo
 HeavyweightFunPrologueFn
 >
 (
-ion
+jit
 :
 :
 HeavyweightFunPrologue
@@ -12266,7 +12266,7 @@ FunctionInfo
 EnterBlockFn
 >
 (
-ion
+jit
 :
 :
 EnterBlock
@@ -12487,7 +12487,7 @@ FunctionInfo
 LeaveBlockFn
 >
 (
-ion
+jit
 :
 :
 LeaveBlock
@@ -12774,7 +12774,7 @@ FunctionInfo
 OnDebuggerStatementFn
 >
 (
-ion
+jit
 :
 :
 OnDebuggerStatement
@@ -12924,7 +12924,7 @@ FunctionInfo
 DebugEpilogueFn
 >
 (
-ion
+jit
 :
 :
 DebugEpilogue
@@ -13900,7 +13900,7 @@ FunctionInfo
 NewArgumentsObjectFn
 >
 (
-ion
+jit
 :
 :
 NewArgumentsObject
