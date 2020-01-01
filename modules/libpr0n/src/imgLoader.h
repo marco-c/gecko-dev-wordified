@@ -1691,6 +1691,8 @@ aPolicy
 nsIPrincipal
 *
 aLoadingPrincipal
+PRInt32
+aCORSMode
 )
 ;
 PRBool
@@ -1732,6 +1734,8 @@ aPolicy
 nsIPrincipal
 *
 aLoadingPrincipal
+PRInt32
+aCORSMode
 )
 ;
 nsresult
