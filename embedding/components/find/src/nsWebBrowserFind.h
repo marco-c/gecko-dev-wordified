@@ -942,12 +942,6 @@ our
 lifetime
 hence
 weak
-nsCOMPtr
-<
-nsIFind
->
-mFind
-;
 }
 ;
 #
