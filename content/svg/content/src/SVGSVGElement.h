@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsIDOMSVGZoomAndPan
-.
-h
-"
-#
-include
-"
 nsSVGEnum
 .
 h
@@ -597,8 +590,6 @@ public
 nsIDOMSVGSVGElement
 public
 nsIDOMSVGFitToViewBox
-public
-nsIDOMSVGZoomAndPan
 {
 friend
 class
@@ -694,7 +685,6 @@ SVGSVGElementBase
 )
 NS_DECL_NSIDOMSVGSVGELEMENT
 NS_DECL_NSIDOMSVGFITTOVIEWBOX
-NS_DECL_NSIDOMSVGZOOMANDPAN
 /
 /
 xxx
