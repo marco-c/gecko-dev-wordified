@@ -61,6 +61,7 @@ from
 setuptools
 import
 setup
+find_packages
 PACKAGE_NAME
 =
 "
@@ -168,44 +169,34 @@ description
 author
 =
 '
+Andrew
+Halberstadt
 Mozilla
-Automation
-and
-Testing
-Team
 '
       
 author_email
 =
 '
-tools
-lists
+halbersa
+gmail
 .
-mozilla
-.
-org
+com
 '
       
 url
 =
 '
-https
+http
 :
 /
 /
-wiki
+github
 .
-mozilla
-.
-org
+com
 /
-Auto
--
-tools
+ahal
 /
-Projects
-/
-MozBase
+mozbase
 '
       
 license
@@ -229,11 +220,16 @@ LGPL
       
 packages
 =
+find_packages
+(
+exclude
+=
 [
 '
-mozlog
+legacy
 '
 ]
+)
       
 zip_safe
 =
