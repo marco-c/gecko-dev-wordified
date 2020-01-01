@@ -614,7 +614,10 @@ lirGraph_
 .
 addConstantToPool
 (
+DoubleValue
+(
 d
+)
 &
 index
 )
@@ -707,6 +710,11 @@ lirGraph_
 addConstantToPool
 (
 ins
+-
+>
+value
+(
+)
 &
 index
 )
