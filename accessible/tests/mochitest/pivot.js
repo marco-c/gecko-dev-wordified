@@ -1738,7 +1738,7 @@ of
 accessible
 names
 or
-elemnt
+element
 ids
 to
 expect

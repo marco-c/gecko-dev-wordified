@@ -563,7 +563,7 @@ are
 sent
 to
 locked
-elemnt
+element
 #
 define
 CAPTURE_POINTERLOCK
