@@ -759,6 +759,7 @@ aPref
 *
 Gets
 int
+float
 or
 bool
 type
@@ -769,6 +770,7 @@ raw
 return
 value
 of
+*
 nsIPrefBranch
 .
 *
@@ -822,6 +824,19 @@ char
 *
 aPref
 int32_t
+*
+aResult
+)
+;
+static
+nsresult
+GetFloat
+(
+const
+char
+*
+aPref
+float
 *
 aResult
 )
