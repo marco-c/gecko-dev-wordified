@@ -3086,7 +3086,7 @@ gc
 Cell
 {
 friend
-struct
+class
 :
 :
 JSObject

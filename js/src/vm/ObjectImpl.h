@@ -5670,7 +5670,7 @@ class
 ObjectElements
 {
 friend
-struct
+class
 :
 :
 JSObject
