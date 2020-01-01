@@ -2368,6 +2368,12 @@ CanContinueTextRun
 )
 const
 ;
+virtual
+bool
+UpdateOverflow
+(
+)
+;
 /
 /
 Selection
