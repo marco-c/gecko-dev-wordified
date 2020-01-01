@@ -985,7 +985,9 @@ STACK_GRANULARITY
 *
 _activation
 .
-tos
+stackSlotsNeeded
+(
+)
 ;
 uint32_t
 stackPushed

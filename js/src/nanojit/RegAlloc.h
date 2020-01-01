@@ -522,6 +522,7 @@ isFree
 Register
 r
 )
+const
 {
 NanoAssert
 (
@@ -811,6 +812,7 @@ getActive
 Register
 r
 )
+const
 {
 NanoAssert
 (
@@ -846,6 +848,7 @@ LIns
 *
 v
 )
+const
 ;
 )
 debug_only
