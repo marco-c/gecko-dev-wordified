@@ -12932,16 +12932,6 @@ DidEndTransaction
 )
 ;
 }
-basic
--
->
-SetUserData
-(
-&
-gLayerManagerLayerBuilder
-NULL
-)
-;
 #
 ifdef
 MOZ_DUMP_PAINTING
@@ -16309,7 +16299,7 @@ mContainerLayerGeneration
 cdi
 -
 >
-mInactiveLayer
+mInactiveLayerManager
 =
 tempManager
 ;
@@ -16619,7 +16609,7 @@ ClippedDisplayItem
 {
 if
 (
-mInactiveLayer
+mInactiveLayerManager
 )
 {
 /
@@ -16673,7 +16663,7 @@ BasicLayerManager
 *
 >
 (
-mInactiveLayer
+mInactiveLayerManager
 .
 get
 (
@@ -22182,7 +22172,7 @@ if
 cdi
 -
 >
-mInactiveLayer
+mInactiveLayerManager
 )
 {
 PaintInactiveLayer
@@ -22191,7 +22181,7 @@ builder
 cdi
 -
 >
-mInactiveLayer
+mInactiveLayerManager
 cdi
 -
 >

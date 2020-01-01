@@ -4013,7 +4013,7 @@ nsRefPtr
 <
 LayerManager
 >
-mInactiveLayer
+mInactiveLayerManager
 ;
 Clip
 mClip
