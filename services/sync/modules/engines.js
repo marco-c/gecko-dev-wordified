@@ -4866,6 +4866,9 @@ wipe
 (
 )
 ;
+throw
+e
+;
 }
 ret
 .
