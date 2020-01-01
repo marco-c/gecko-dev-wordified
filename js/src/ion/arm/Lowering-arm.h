@@ -804,6 +804,14 @@ MStoreTypedArrayElement
 ins
 )
 ;
+bool
+visitInterruptCheck
+(
+MInterruptCheck
+*
+ins
+)
+;
 }
 ;
 typedef
