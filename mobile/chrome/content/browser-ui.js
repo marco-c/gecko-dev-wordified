@@ -8655,12 +8655,6 @@ checked
 "
 )
 ;
-this
-.
-activePanel
-=
-null
-;
 BrowserUI
 .
 showPanel
