@@ -945,7 +945,7 @@ if
 scope
 -
 >
-hasProperty
+has
 (
 sprop
 )
@@ -1025,15 +1025,15 @@ the
 scope
 -
 >
-hasProperty
+has
 test
 above
 combined
 with
 the
-*
 fact
 that
+*
 obj
 =
 =
@@ -1889,9 +1889,7 @@ sprop
 scope
 -
 >
-lastProperty
-(
-)
+lastProp
 &
 &
 scope
