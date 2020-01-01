@@ -5385,6 +5385,15 @@ nsAString
 aValue
 )
 {
+if
+(
+IsDefunct
+(
+)
+)
+return
+NS_ERROR_FAILURE
+;
 PRUint64
 state
 =
