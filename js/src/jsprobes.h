@@ -583,7 +583,8 @@ enterScript
 (
 JSContext
 *
-RawScript
+JSScript
+*
 JSFunction
 *
 StackFrame
@@ -605,7 +606,8 @@ exitScript
 (
 JSContext
 *
-RawScript
+JSScript
+*
 JSFunction
 *
 StackFrame
@@ -622,7 +624,8 @@ script
 bool
 startExecution
 (
-RawScript
+JSScript
+*
 script
 )
 ;
@@ -637,7 +640,8 @@ execution
 bool
 stopExecution
 (
-RawScript
+JSScript
+*
 script
 )
 ;
@@ -862,7 +866,8 @@ mjit
 JITChunk
 *
 chunk
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -988,7 +993,8 @@ cx
 JSFunction
 *
 fun
-RawScript
+JSScript
+*
 script
 )
 ;
@@ -1001,7 +1007,8 @@ cx
 JSFunction
 *
 fun
-RawScript
+JSScript
+*
 script
 )
 ;
@@ -1129,7 +1136,8 @@ enterScript
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 JSFunction
 *
@@ -1250,7 +1258,8 @@ exitScript
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 JSFunction
 *
@@ -1622,7 +1631,8 @@ Probes
 :
 startExecution
 (
-RawScript
+JSScript
+*
 script
 )
 {
@@ -1682,7 +1692,8 @@ Probes
 :
 stopExecution
 (
-RawScript
+JSScript
+*
 script
 )
 {

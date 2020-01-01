@@ -808,7 +808,8 @@ cx
 JSFunction
 &
 callee
-RawScript
+JSScript
+*
 script
 uint32_t
 nactual
@@ -3340,7 +3341,8 @@ numActualArgs
 ;
 }
 inline
-RawScript
+JSScript
+*
 ContextStack
 :
 :
@@ -3530,7 +3532,8 @@ inlined
 inlineIndex
 ]
 ;
-RawScript
+JSScript
+*
 script
 =
 frame
@@ -3588,7 +3591,8 @@ script
 }
 #
 endif
-RawScript
+JSScript
+*
 script
 =
 fp
@@ -4957,7 +4961,8 @@ false
 ;
 }
 inline
-RawScript
+JSScript
+*
 AbstractFramePtr
 :
 :

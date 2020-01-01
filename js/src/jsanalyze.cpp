@@ -12903,7 +12903,8 @@ cv
 .
 v
 ;
-RawScript
+JSScript
+*
 parentScript
 =
 NULL
@@ -13165,7 +13166,8 @@ that
 .
 *
 /
-RawScript
+JSScript
+*
 callee
 =
 NULL

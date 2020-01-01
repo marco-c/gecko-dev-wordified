@@ -10625,7 +10625,8 @@ hasRootedScript
 )
 )
 ;
-RawScript
+JSScript
+*
 targetScript
 =
 target
@@ -15249,7 +15250,8 @@ info
 (
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 outerInfo
@@ -34731,7 +34733,8 @@ encodeSafepoints
 (
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 gen

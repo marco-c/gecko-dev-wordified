@@ -680,7 +680,8 @@ block
 )
 const
 ;
-RawScript
+JSScript
+*
 funScript
 (
 )

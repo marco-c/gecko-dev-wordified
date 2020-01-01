@@ -1389,7 +1389,8 @@ pc
 void
 toggleDebugTraps
 (
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -1485,7 +1486,8 @@ FinishDiscardBaselineScript
 FreeOp
 *
 fop
-RawScript
+JSScript
+*
 script
 )
 ;

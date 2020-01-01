@@ -129,7 +129,8 @@ js
 namespace
 frontend
 {
-RawScript
+JSScript
+*
 CompileScript
 (
 JSContext

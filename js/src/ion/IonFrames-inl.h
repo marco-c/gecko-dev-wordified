@@ -530,7 +530,8 @@ Ion
 frame
 .
 inline
-RawScript
+JSScript
+*
 GetTopIonJSScript
 (
 PerThreadData
@@ -664,7 +665,8 @@ script
 ;
 }
 inline
-RawScript
+JSScript
+*
 GetTopIonJSScript
 (
 JSContext

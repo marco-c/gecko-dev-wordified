@@ -2154,7 +2154,8 @@ return
 safepointsSize_
 ;
 }
-RawScript
+JSScript
+*
 getScript
 (
 size_t

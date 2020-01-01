@@ -2000,7 +2000,8 @@ isScript
 )
 )
 {
-RawScript
+JSScript
+*
 script
 =
 iter

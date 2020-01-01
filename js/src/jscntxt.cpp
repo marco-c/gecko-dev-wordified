@@ -3568,7 +3568,8 @@ bug
 .
 *
 /
-RawScript
+JSScript
+*
 script
 =
 cx

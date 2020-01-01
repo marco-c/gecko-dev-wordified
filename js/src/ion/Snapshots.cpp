@@ -277,7 +277,8 @@ ptr
 Debug
 only
 :
-RawScript
+JSScript
+*
 /
 /
 [
@@ -2075,7 +2076,8 @@ startFrame
 JSFunction
 *
 fun
-RawScript
+JSScript
+*
 script
 jsbytecode
 *

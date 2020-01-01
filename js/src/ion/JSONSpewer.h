@@ -347,7 +347,8 @@ path
 void
 beginFunction
 (
-RawScript
+JSScript
+*
 script
 )
 ;

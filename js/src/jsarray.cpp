@@ -9732,7 +9732,8 @@ hasScript
 return
 Match_None
 ;
-RawScript
+JSScript
+*
 script
 =
 fun

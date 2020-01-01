@@ -5158,7 +5158,8 @@ const
 char
 *
 str
-RawScript
+JSScript
+*
 s
 Register
 temp

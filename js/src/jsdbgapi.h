@@ -1002,7 +1002,9 @@ cx
 /
 /
 /
-RawScript
+Raw
+JSScript
+*
 because
 this
 needs
@@ -1013,6 +1015,7 @@ from
 a
 signal
 handler
+.
 extern
 JS_PUBLIC_API
 (
@@ -1023,10 +1026,8 @@ JS_PCToLineNumber
 JSContext
 *
 cx
-js
-:
-:
-RawScript
+JSScript
+*
 script
 jsbytecode
 *

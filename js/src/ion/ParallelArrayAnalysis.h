@@ -282,7 +282,8 @@ checkScriptSize
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 )
 ;

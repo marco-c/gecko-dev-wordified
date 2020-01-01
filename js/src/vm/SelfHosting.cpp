@@ -5110,7 +5110,8 @@ enclosingStaticScope
 )
 )
 ;
-RawScript
+JSScript
+*
 cscript
 =
 CloneScript

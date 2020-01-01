@@ -14597,7 +14597,8 @@ callee
 (
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 fun

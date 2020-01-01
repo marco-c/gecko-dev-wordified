@@ -125,7 +125,8 @@ inline
 bool
 HasIonScript
 (
-RawScript
+JSScript
+*
 script
 ExecutionMode
 cmode
@@ -179,7 +180,8 @@ IonScript
 *
 GetIonScript
 (
-RawScript
+JSScript
+*
 script
 ExecutionMode
 cmode
@@ -232,7 +234,8 @@ inline
 void
 SetIonScript
 (
-RawScript
+JSScript
+*
 script
 ExecutionMode
 cmode
@@ -337,7 +340,8 @@ inline
 bool
 CanIonCompile
 (
-RawScript
+JSScript
+*
 script
 ExecutionMode
 cmode
@@ -423,7 +427,8 @@ inline
 bool
 CompilingOffThread
 (
-RawScript
+JSScript
+*
 script
 ExecutionMode
 cmode

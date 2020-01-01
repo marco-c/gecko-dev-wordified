@@ -2343,7 +2343,8 @@ JS_PCToLineNumber
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -3114,7 +3115,8 @@ cx
 rootedFun
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 rootedFun

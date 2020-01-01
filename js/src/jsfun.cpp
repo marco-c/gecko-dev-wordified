@@ -905,7 +905,8 @@ its
 use
 early
 .
-RawScript
+JSScript
+*
 script
 =
 iter
@@ -8034,7 +8035,8 @@ hasScript
 )
 )
 {
-RawScript
+JSScript
+*
 script
 =
 fun

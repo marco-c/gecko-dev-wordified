@@ -8285,7 +8285,8 @@ true
 ;
 }
 static
-RawScript
+JSScript
+*
 ValueToScript
 (
 JSContext
@@ -8750,7 +8751,8 @@ TrapHandler
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 jsbytecode
 *
 pc
@@ -9175,7 +9177,8 @@ DebuggerAndThrowHandler
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 jsbytecode
 *

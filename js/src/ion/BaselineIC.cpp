@@ -6066,7 +6066,8 @@ else
 *
 (
 (
-RawScript
+JSScript
+*
 *
 )
 (
@@ -11820,7 +11821,8 @@ return
 true
 ;
 }
-RawScript
+JSScript
+*
 script
 =
 frame
@@ -14426,7 +14428,8 @@ isBoolean
 )
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 frame

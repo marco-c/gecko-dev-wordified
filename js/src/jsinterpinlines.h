@@ -6077,7 +6077,8 @@ Value
 value
 bool
 strict
-RawScript
+JSScript
+*
 maybeScript
 =
 NULL

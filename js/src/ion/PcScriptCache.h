@@ -187,7 +187,8 @@ pc
 Cached
 PC
 .
-RawScript
+JSScript
+*
 script
 ;
 /
@@ -360,7 +361,8 @@ addr
 jsbytecode
 *
 pc
-RawScript
+JSScript
+*
 script
 )
 {

@@ -3253,7 +3253,8 @@ scriptEntries
 *
 sizeof
 (
-RawScript
+JSScript
+*
 )
 DataAlignment
 )
@@ -3267,7 +3268,8 @@ callTargetEntries
 *
 sizeof
 (
-RawScript
+JSScript
+*
 )
 DataAlignment
 )
@@ -5088,7 +5090,8 @@ next
 )
 )
 {
-RawScript
+JSScript
+*
 script
 =
 i
@@ -6845,7 +6848,8 @@ checkScriptSize
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 )
 ;
@@ -8256,7 +8260,8 @@ static
 bool
 CheckScript
 (
-RawScript
+JSScript
+*
 script
 bool
 osr
@@ -8343,7 +8348,8 @@ checkScriptSize
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 )
 {
@@ -10005,7 +10011,8 @@ checkScriptSize
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 )
 {
@@ -12801,7 +12808,8 @@ maybeCallee
 (
 )
 (
-RawScript
+JSScript
+*
 )
 it
 .
@@ -12995,7 +13003,8 @@ checkInvalidation
 )
 continue
 ;
-RawScript
+JSScript
+*
 script
 =
 it
@@ -14229,7 +14238,8 @@ isValid
 )
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 co
@@ -14556,7 +14566,8 @@ Invalidate
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 ExecutionMode
 mode
@@ -14688,7 +14699,8 @@ Invalidate
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 bool
 resetUses
@@ -14711,7 +14723,8 @@ FinishInvalidationOf
 FreeOp
 *
 fop
-RawScript
+JSScript
+*
 script
 IonScript
 *
@@ -14864,7 +14877,8 @@ FinishInvalidation
 FreeOp
 *
 fop
-RawScript
+JSScript
+*
 script
 )
 {
@@ -14987,7 +15001,8 @@ ForbidCompilation
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 )
 {
@@ -15008,7 +15023,8 @@ ForbidCompilation
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 ExecutionMode
 mode
@@ -15217,7 +15233,8 @@ ion
 :
 UsesBeforeIonRecompile
 (
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -15730,7 +15747,8 @@ ion
 :
 PurgeCaches
 (
-RawScript
+JSScript
+*
 script
 Zone
 *
@@ -15788,7 +15806,8 @@ ion
 :
 SizeOfIonData
 (
-RawScript
+JSScript
+*
 script
 JSMallocSizeOfFun
 mallocSizeOf
@@ -15862,7 +15881,8 @@ DestroyIonScripts
 FreeOp
 *
 fop
-RawScript
+JSScript
+*
 script
 )
 {
@@ -15954,7 +15974,8 @@ TraceIonScripts
 JSTracer
 *
 trc
-RawScript
+JSScript
+*
 script
 )
 {

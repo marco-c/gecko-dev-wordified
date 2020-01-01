@@ -400,7 +400,8 @@ returnAddressToFp
 (
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 this
@@ -1015,7 +1016,8 @@ return
 true
 ;
 }
-RawScript
+JSScript
+*
 IonFrameIterator
 :
 :
@@ -1047,7 +1049,8 @@ script
 (
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 ScriptFromCalleeToken
@@ -1090,7 +1093,8 @@ isBaselineJS
 )
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 this
@@ -2992,7 +2996,8 @@ function
 is
 exiting
 .
-RawScript
+JSScript
+*
 script
 =
 frames
@@ -3127,7 +3132,8 @@ profiler
 pseudo
 -
 stack
-RawScript
+JSScript
+*
 script
 =
 iter
@@ -3970,7 +3976,8 @@ case
 CalleeToken_Script
 :
 {
-RawScript
+JSScript
+*
 script
 =
 CalleeTokenToScript

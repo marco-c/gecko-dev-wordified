@@ -10028,7 +10028,8 @@ JS_ASSERT
 fun
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 fun
@@ -11169,7 +11170,8 @@ fun
 (
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 fun

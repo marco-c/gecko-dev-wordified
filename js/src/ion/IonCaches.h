@@ -1694,7 +1694,8 @@ true
 void
 setScriptedLocation
 (
-RawScript
+JSScript
+*
 script
 jsbytecode
 *

@@ -11251,7 +11251,8 @@ fun
 (
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 fun
@@ -11644,7 +11645,8 @@ checks
 .
 *
 /
-RawScript
+JSScript
+*
 script
 =
 f

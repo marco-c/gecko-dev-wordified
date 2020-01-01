@@ -187,7 +187,8 @@ unsigned
 formalEnd
 unsigned
 iterEnd
-RawScript
+JSScript
+*
 script
 )
 {

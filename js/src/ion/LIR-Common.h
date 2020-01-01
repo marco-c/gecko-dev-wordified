@@ -19363,7 +19363,8 @@ getTemp
 )
 ;
 }
-RawScript
+JSScript
+*
 script
 (
 )

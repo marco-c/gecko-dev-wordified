@@ -10198,7 +10198,8 @@ Detecting
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -10561,7 +10562,8 @@ jsbytecode
 *
 pc
 ;
-RawScript
+JSScript
+*
 script
 =
 cx
@@ -24681,7 +24683,8 @@ jsbytecode
 *
 pc
 ;
-RawScript
+JSScript
+*
 script
 =
 cx
@@ -26935,7 +26938,8 @@ propname
 )
 {
 {
-RawScript
+JSScript
+*
 script
 =
 cx
@@ -27051,7 +27055,8 @@ jsbytecode
 *
 pc
 ;
-RawScript
+JSScript
+*
 script
 =
 cx
@@ -32557,7 +32562,8 @@ hasScript
 )
 )
 {
-RawScript
+JSScript
+*
 script
 =
 fun
@@ -34755,7 +34761,8 @@ pc
 )
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 i

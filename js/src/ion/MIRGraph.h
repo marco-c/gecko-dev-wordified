@@ -3096,7 +3096,8 @@ scripts
 .
 Vector
 <
-RawScript
+JSScript
+*
 4
 IonAllocPolicy
 >
@@ -3129,7 +3130,8 @@ execution
 .
 Vector
 <
-RawScript
+JSScript
+*
 4
 IonAllocPolicy
 >
@@ -3671,7 +3673,8 @@ osrStart_
 bool
 addScript
 (
-RawScript
+JSScript
+*
 script
 )
 {
@@ -3765,7 +3768,8 @@ begin
 bool
 addCallTarget
 (
-RawScript
+JSScript
+*
 script
 )
 {

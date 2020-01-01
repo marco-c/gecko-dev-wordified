@@ -17043,7 +17043,8 @@ hasScript
 return
 NULL
 ;
-RawScript
+JSScript
+*
 script
 =
 fun

@@ -280,7 +280,8 @@ static
 bool
 IsEvalCacheCandidate
 (
-RawScript
+JSScript
+*
 script
 )
 {
@@ -929,7 +930,8 @@ true
 void
 setNewScript
 (
-RawScript
+JSScript
+*
 script
 )
 {
@@ -2224,7 +2226,8 @@ setOriginPrincipals
 originPrincipals
 )
 ;
-RawScript
+JSScript
+*
 compiled
 =
 frontend
@@ -2573,7 +2576,8 @@ setOriginPrincipals
 originPrincipals
 )
 ;
-RawScript
+JSScript
+*
 compiled
 =
 frontend

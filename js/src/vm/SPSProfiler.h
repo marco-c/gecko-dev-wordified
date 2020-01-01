@@ -1250,7 +1250,8 @@ allocProfileString
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 JSFunction
 *
@@ -1267,7 +1268,8 @@ string
 void
 *
 sp
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -1464,7 +1466,8 @@ enter
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 JSFunction
 *
@@ -1477,7 +1480,8 @@ exit
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 JSFunction
 *
@@ -1487,7 +1491,8 @@ maybeFun
 void
 updatePC
 (
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -1712,7 +1717,8 @@ jsbytecode
 *
 convert
 (
-RawScript
+JSScript
+*
 script
 size_t
 ip
@@ -1973,7 +1979,8 @@ mjit
 JITChunk
 *
 chunk
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -1989,7 +1996,8 @@ jsbytecode
 *
 ipToPC
 (
-RawScript
+JSScript
+*
 script
 size_t
 ip
@@ -2024,7 +2032,8 @@ chunk
 void
 unregisterScript
 (
-RawScript
+JSScript
+*
 script
 mjit
 :
@@ -2042,7 +2051,8 @@ jsbytecode
 *
 ipToPC
 (
-RawScript
+JSScript
+*
 script
 size_t
 ip
@@ -2075,7 +2085,8 @@ profileString
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 JSFunction
 *
@@ -2085,7 +2096,8 @@ maybeFun
 void
 onScriptFinalized
 (
-RawScript
+JSScript
+*
 script
 )
 ;
@@ -2995,7 +3007,8 @@ emitted
 void
 setPushed
 (
-RawScript
+JSScript
+*
 script
 )
 {
@@ -3065,7 +3078,8 @@ push
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 Assembler
 &
@@ -3187,7 +3201,8 @@ NULL
 void
 pushManual
 (
-RawScript
+JSScript
+*
 script
 Assembler
 &

@@ -536,7 +536,8 @@ dump
 }
 }
 static
-RawScript
+JSScript
+*
 GetBailedJSScript
 (
 JSContext
@@ -4241,7 +4242,8 @@ GetIonContext
 >
 cx
 ;
-RawScript
+JSScript
+*
 script
 =
 GetBailedJSScript
@@ -4344,7 +4346,8 @@ GetIonContext
 >
 cx
 ;
-RawScript
+JSScript
+*
 script
 =
 GetBailedJSScript
@@ -4415,7 +4418,8 @@ GetIonContext
 >
 cx
 ;
-RawScript
+JSScript
+*
 script
 =
 GetBailedJSScript

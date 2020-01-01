@@ -288,7 +288,8 @@ inline
 CalleeToken
 CalleeToToken
 (
-RawScript
+JSScript
+*
 script
 )
 {
@@ -394,7 +395,8 @@ uintptr_t
 }
 static
 inline
-RawScript
+JSScript
+*
 CalleeTokenToScript
 (
 CalleeToken
@@ -414,7 +416,8 @@ CalleeToken_Script
 ;
 return
 (
-RawScript
+JSScript
+*
 )
 (
 uintptr_t
@@ -432,7 +435,8 @@ uintptr_t
 }
 static
 inline
-RawScript
+JSScript
+*
 ScriptFromCalleeToken
 (
 CalleeToken
@@ -1692,7 +1696,8 @@ js
 namespace
 ion
 {
-RawScript
+JSScript
+*
 GetTopIonJSScript
 (
 JSContext

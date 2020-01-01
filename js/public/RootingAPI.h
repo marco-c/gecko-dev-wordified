@@ -5431,11 +5431,6 @@ js
 /
 ForwardDeclareJS
 (
-Script
-)
-;
-ForwardDeclareJS
-(
 Object
 )
 ;
