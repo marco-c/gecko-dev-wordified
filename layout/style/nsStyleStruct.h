@@ -6228,7 +6228,7 @@ MaxDifference
 ;
 #
 endif
-nsStyleCoord
+nscoord
 mBorderSpacingX
 ;
 /
@@ -6236,8 +6236,7 @@ mBorderSpacingX
 [
 inherited
 ]
-coord
-nsStyleCoord
+nscoord
 mBorderSpacingY
 ;
 /
@@ -6245,7 +6244,6 @@ mBorderSpacingY
 [
 inherited
 ]
-coord
 PRUint8
 mBorderCollapse
 ;
