@@ -20795,16 +20795,6 @@ language
 override
 "
 ]
-/
-*
-XXX
-could
-be
-sans
--
-serif
-*
-/
 initial_values
 :
 [
