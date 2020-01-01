@@ -1940,10 +1940,15 @@ ifdef
 DEBUG
 if
 (
+isTenured
+(
+)
+&
+&
 !
 IsBackgroundFinalized
 (
-getAllocKind
+tenuredGetAllocKind
 (
 )
 )

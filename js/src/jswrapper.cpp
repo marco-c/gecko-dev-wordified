@@ -1357,7 +1357,7 @@ CrossCompartmentWrapper
 :
 finalizeInBackground
 (
-HandleValue
+Value
 priv
 )
 {

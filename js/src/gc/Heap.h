@@ -355,7 +355,7 @@ const
 ;
 inline
 AllocKind
-getAllocKind
+tenuredGetAllocKind
 (
 )
 const
@@ -5813,7 +5813,7 @@ AllocKind
 Cell
 :
 :
-getAllocKind
+tenuredGetAllocKind
 (
 )
 const
