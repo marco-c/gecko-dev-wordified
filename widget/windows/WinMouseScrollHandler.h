@@ -168,15 +168,15 @@ nsMouseScrollEvent
 struct
 nsIntPoint
 ;
-struct
-nsModifierKeyState
-;
 namespace
 mozilla
 {
 namespace
 widget
 {
+class
+ModifierKeyState
+;
 class
 MouseScrollHandler
 {
@@ -461,7 +461,7 @@ message
 *
 /
 static
-nsModifierKeyState
+ModifierKeyState
 GetModifierKeyState
 (
 UINT
@@ -1191,7 +1191,7 @@ EventInfo
 &
 aEvent
 const
-nsModifierKeyState
+ModifierKeyState
 &
 aModiferKeyState
 )
@@ -1684,7 +1684,7 @@ ScrollTargetInfo
 &
 aScrollTargetInfo
 const
-nsModifierKeyState
+ModifierKeyState
 &
 aModKeyState
 )
@@ -1802,7 +1802,7 @@ ScrollTargetInfo
 &
 aScrollTargetInfo
 const
-nsModifierKeyState
+ModifierKeyState
 &
 aModKeyState
 )
