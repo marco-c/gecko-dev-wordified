@@ -691,6 +691,13 @@ h
 #
 include
 "
+nsIUploadChannel2
+.
+h
+"
+#
+include
+"
 nsIStringEnumerator
 .
 h
@@ -954,6 +961,8 @@ nsICachingChannel
 public
 nsIUploadChannel
 public
+nsIUploadChannel2
+public
 nsICacheListener
 public
 nsIEncodedChannel
@@ -984,6 +993,7 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSICACHINGCHANNEL
 NS_DECL_NSIUPLOADCHANNEL
+NS_DECL_NSIUPLOADCHANNEL2
 NS_DECL_NSICACHELISTENER
 NS_DECL_NSIENCODEDCHANNEL
 NS_DECL_NSIHTTPCHANNELINTERNAL
