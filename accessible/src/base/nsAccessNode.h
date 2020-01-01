@@ -1259,6 +1259,7 @@ private
 nsAccessNode
 (
 )
+MOZ_DELETE
 ;
 nsAccessNode
 (
@@ -1266,6 +1267,7 @@ const
 nsAccessNode
 &
 )
+MOZ_DELETE
 ;
 nsAccessNode
 &
@@ -1276,6 +1278,7 @@ const
 nsAccessNode
 &
 )
+MOZ_DELETE
 ;
 static
 nsApplicationAccessible
