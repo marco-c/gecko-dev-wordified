@@ -575,9 +575,10 @@ screen
 *
 /
 static
-const
 float
-TOUCH_START_TOLERANCE
+GetTouchStartTolerance
+(
+)
 ;
 AsyncPanZoomController
 (
