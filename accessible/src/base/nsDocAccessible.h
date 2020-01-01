@@ -1216,9 +1216,6 @@ already_AddRefed
 <
 nsIAccessibleTextChangeEvent
 >
-nsDocAccessible
-:
-:
 CreateTextChangeEventForNode
 (
 nsIAccessible
