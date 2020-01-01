@@ -721,6 +721,15 @@ aFormat
 )
 MOZ_OVERRIDE
 ;
+void
+SetCacheLimits
+(
+int
+number
+int
+sizeInBytes
+)
+;
 #
 endif
 operator
