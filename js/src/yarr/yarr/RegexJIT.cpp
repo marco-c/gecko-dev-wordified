@@ -6516,7 +6516,7 @@ int
 ;
 #
 if
-DEBUG
+0
 store32
 (
 Imm32
