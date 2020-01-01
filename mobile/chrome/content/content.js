@@ -1179,6 +1179,9 @@ return
 true
 ;
 }
+return
+false
+;
 }
 }
 ;
@@ -4540,12 +4543,6 @@ Content
 (
 )
 {
-this
-.
-_iconURI
-=
-null
-;
 addMessageListener
 (
 "
@@ -5421,12 +5418,6 @@ this
 _loading
 =
 true
-;
-this
-.
-_iconURI
-=
-null
 ;
 this
 .
