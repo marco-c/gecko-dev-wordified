@@ -1338,6 +1338,7 @@ AudioContext
 :
 CreateMediaStreamSource
 (
+const
 DOMMediaStream
 &
 aMediaStream
