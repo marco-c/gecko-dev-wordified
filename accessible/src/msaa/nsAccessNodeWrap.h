@@ -1556,10 +1556,6 @@ nsINode
 aNode
 )
 ;
-static
-PRBool
-gIsEnumVariantSupportDisabled
-;
 /
 *
 *
