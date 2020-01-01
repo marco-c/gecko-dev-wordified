@@ -9845,6 +9845,12 @@ PlacesUtils
 TYPE_X_MOZ_PLACE
 |
 |
+(
+dragged
+.
+uri
+&
+&
 dragged
 .
 uri
@@ -9855,6 +9861,7 @@ startsWith
 place
 :
 "
+)
 )
 )
 )
@@ -9895,6 +9902,12 @@ PlacesUtils
 TYPE_X_MOZ_PLACE_CONTAINER
 |
 |
+(
+dragged
+.
+uri
+&
+&
 dragged
 .
 uri
@@ -9905,6 +9918,7 @@ startsWith
 place
 :
 "
+)
 )
 )
 {
