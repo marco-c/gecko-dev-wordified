@@ -758,6 +758,16 @@ finishActivity
 }
 )
 ;
+Tabs
+.
+getInstance
+(
+)
+.
+refreshThumbnails
+(
+)
+;
 GeckoApp
 .
 registerOnTabsChangedListener
