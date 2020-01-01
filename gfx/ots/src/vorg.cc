@@ -459,6 +459,9 @@ file
 -
 >
 vorg
+!
+=
+NULL
 ;
 }
 bool

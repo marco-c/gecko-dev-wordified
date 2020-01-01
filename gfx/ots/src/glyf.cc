@@ -41,11 +41,6 @@ file
 .
 #
 include
-<
-new
->
-#
-include
 "
 glyf
 .
@@ -1768,6 +1763,9 @@ file
 -
 >
 glyf
+!
+=
+NULL
 ;
 }
 bool

@@ -528,6 +528,9 @@ file
 -
 >
 maxp
+!
+=
+NULL
 ;
 }
 bool

@@ -767,6 +767,9 @@ file
 -
 >
 head
+!
+=
+NULL
 ;
 }
 bool
