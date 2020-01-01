@@ -380,15 +380,6 @@ nsCString
 aFileExt
 )
 ;
-virtual
-void
-FixFilePermissions
-(
-nsIFile
-*
-aFile
-)
-;
 private
 :
 uint32_t
