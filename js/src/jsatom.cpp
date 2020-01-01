@@ -868,9 +868,9 @@ JSTYPE_VOID
 (
 which
 is
-pseudo
+special
 -
-boolean
+value
 2
 )
 and
