@@ -14412,7 +14412,12 @@ else
 XXX
 :
 implement
-me
+support
+for
+nsINavHistoryQueryOptions
+:
+:
+QUERY_TYPE_UNIFIED
 return
 NS_ERROR_NOT_IMPLEMENTED
 ;
