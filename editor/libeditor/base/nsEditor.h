@@ -1050,7 +1050,7 @@ nsIDOMDocument
 aDoc
 )
 ;
-NS_IMETHOD
+nsresult
 InsertTextIntoTextNodeImpl
 (
 const
@@ -1063,7 +1063,7 @@ aTextNode
 PRInt32
 aOffset
 PRBool
-suppressIME
+aSuppressIME
 =
 PR_FALSE
 )

@@ -13744,7 +13744,7 @@ return
 res
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsEditor
 :
 :
@@ -13760,7 +13760,7 @@ aTextNode
 PRInt32
 aOffset
 PRBool
-suppressIME
+aSuppressIME
 )
 {
 nsRefPtr
@@ -13774,10 +13774,15 @@ result
 =
 NS_OK
 ;
+PRBool
+isIMETransaction
+=
+PR_FALSE
+;
 /
 /
-suppressIME
-s
+aSuppressIME
+is
 used
 when
 editor
@@ -13815,7 +13820,7 @@ mInIMEMode
 &
 &
 !
-suppressIME
+aSuppressIME
 )
 {
 if
@@ -14039,6 +14044,10 @@ imeTxn
 txn
 =
 imeTxn
+;
+isIMETransaction
+=
+PR_TRUE
 ;
 }
 else
@@ -14351,10 +14360,7 @@ is
 one
 if
 (
-mInIMEMode
-&
-&
-mIMETextNode
+isIMETransaction
 )
 {
 PRUint32
