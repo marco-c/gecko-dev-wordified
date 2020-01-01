@@ -57,15 +57,6 @@ import
 os
 import
 struct
-from
-buildconfig
-import
-(
-    
-substs
-    
-topobjdir
-)
 import
 subprocess
 from
@@ -526,6 +517,11 @@ executables
 '
 '
     
+from
+buildconfig
+import
+substs
+    
 if
 not
 os
@@ -625,6 +621,11 @@ called
 '
 '
     
+from
+buildconfig
+import
+substs
+    
 return
 not
 substs
@@ -659,6 +660,11 @@ path
 '
 '
 '
+    
+from
+buildconfig
+import
+substs
     
 strip
 =
@@ -783,6 +789,11 @@ works
 too
 .
     
+from
+buildconfig
+import
+substs
+    
 return
 '
 USE_ELF_HACK
@@ -834,6 +845,11 @@ path
 '
 '
 '
+    
+from
+buildconfig
+import
+topobjdir
     
 cmd
 =
