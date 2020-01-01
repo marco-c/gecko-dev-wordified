@@ -432,6 +432,13 @@ h
 #
 include
 "
+ElfLoader
+.
+h
+"
+#
+include
+"
 SQLiteBridge
 .
 h
