@@ -508,6 +508,10 @@ void
 buffer
 )
 {
+AssertPluginThread
+(
+)
+;
 int32_t
 written
 =
@@ -561,6 +565,10 @@ NPError
 reason
 )
 {
+AssertPluginThread
+(
+)
+;
 if
 (
 mClosed
