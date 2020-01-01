@@ -901,6 +901,15 @@ ins
 ;
 virtual
 bool
+visitModI
+(
+LModI
+*
+ins
+)
+;
+virtual
+bool
 visitMoveGroup
 (
 LMoveGroup
