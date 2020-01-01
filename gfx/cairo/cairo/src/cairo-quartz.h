@@ -399,6 +399,9 @@ cairo_surface_t
 surface
 )
 ;
+#
+if
+CAIRO_HAS_QUARTZ_FONT
 /
 *
 *
@@ -407,9 +410,6 @@ font
 support
 *
 /
-#
-ifdef
-CAIRO_HAS_QUARTZ_FONT
 cairo_public
 cairo_font_face_t
 *

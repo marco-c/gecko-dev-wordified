@@ -2884,12 +2884,6 @@ depth
 8
 |
 |
-interlace
-!
-=
-PNG_INTERLACE_NONE
-|
-|
 !
 (
 color_type

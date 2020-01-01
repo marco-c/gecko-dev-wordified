@@ -355,7 +355,7 @@ h
 "
 #
 ifndef
-CAIRO_HAS_ATOMIC_OPS
+HAS_ATOMIC_OPS
 void
 _cairo_atomic_int_inc
 (
@@ -466,7 +466,7 @@ ret
 endif
 #
 ifdef
-CAIRO_ATOMIC_OP_NEEDS_MEMORY_BARRIER
+ATOMIC_OP_NEEDS_MEMORY_BARRIER
 int
 _cairo_atomic_int_get
 (

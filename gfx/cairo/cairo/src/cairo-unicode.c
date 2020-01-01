@@ -1747,7 +1747,7 @@ len
 *
 *
 *
-_cairo_utf8_to_utf32
+_cairo_utf8_to_ucs4
 :
 *
 str
@@ -1930,7 +1930,6 @@ CAIRO_STATUS_INVALID_STRING
 if
 an
 *
-an
 invalid
 sequence
 was
@@ -2204,6 +2203,14 @@ available
 Or
 %
 NULL
+.
+*
+*
+This
+space
+left
+intentionally
+blank
 .
 *
 *

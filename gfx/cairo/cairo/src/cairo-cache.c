@@ -609,6 +609,14 @@ for
 this
 cache
 *
+Returns
+:
+the
+newly
+created
+#
+cairo_cache_t
+*
 *
 Creates
 a
@@ -888,11 +896,6 @@ entries
 will
 occur
 .
-*
-*
-Return
-value
-:
 *
 *
 /

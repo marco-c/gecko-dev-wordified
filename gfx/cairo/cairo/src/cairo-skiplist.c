@@ -1976,6 +1976,10 @@ each
 chain
 *
 /
+elt
+=
+NULL
+;
 next
 =
 list
@@ -1999,6 +2003,17 @@ i
 =
 0
 ;
+)
+{
+if
+(
+elt
+!
+=
+next
+[
+i
+]
 )
 {
 for
@@ -2061,6 +2076,7 @@ cmp
 )
 break
 ;
+}
 }
 update
 [
