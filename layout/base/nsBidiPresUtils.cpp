@@ -7185,9 +7185,6 @@ BMP
 .
 if
 (
-mBidiEngine
--
->
 IsBidiControl
 (
 (

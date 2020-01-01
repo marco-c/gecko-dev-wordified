@@ -433,9 +433,11 @@ GENERATED
 BY
 mozilla
 /
-layout
+intl
 /
-tools
+unicharutil
+/
+util
 /
 gensymmtable
 .
