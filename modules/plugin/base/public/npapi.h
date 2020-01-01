@@ -3736,7 +3736,6 @@ char
 *
 NPP_GetMIMEDescription
 (
-void
 )
 ;
 #
@@ -3745,14 +3744,12 @@ NPError
 NP_LOADDS
 NPP_Initialize
 (
-void
 )
 ;
 void
 NP_LOADDS
 NPP_Shutdown
 (
-void
 )
 ;
 NPError
@@ -3926,7 +3923,6 @@ jref
 NP_LOADDS
 NPP_GetJavaClass
 (
-void
 )
 ;
 #
@@ -4202,7 +4198,6 @@ JRIEnv
 NP_LOADDS
 NPN_GetJavaEnv
 (
-void
 )
 ;
 jref
