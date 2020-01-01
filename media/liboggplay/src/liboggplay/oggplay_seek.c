@@ -956,6 +956,14 @@ current_loc
 track
 -
 >
+last_granulepos
+=
+-
+1
+;
+track
+-
+>
 stream_info
 =
 OGGPLAY_STREAM_JUST_SEEKED
