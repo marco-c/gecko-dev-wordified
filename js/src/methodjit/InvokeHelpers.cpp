@@ -4240,7 +4240,6 @@ script
 ensureRanAnalysis
 (
 cx
-NULL
 )
 )
 {
@@ -5554,7 +5553,6 @@ script
 ensureRanAnalysis
 (
 cx
-NULL
 )
 )
 {

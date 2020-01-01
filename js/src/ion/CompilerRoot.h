@@ -700,6 +700,13 @@ PropertyName
 >
 CompilerRootPropertyName
 ;
+typedef
+CompilerRoot
+<
+Value
+>
+CompilerRootValue
+;
 /
 /
 Automatically

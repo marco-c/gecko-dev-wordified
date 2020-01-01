@@ -3404,9 +3404,6 @@ MConstant
 public
 MNullaryInstruction
 {
-js
-:
-:
 Value
 value_
 ;

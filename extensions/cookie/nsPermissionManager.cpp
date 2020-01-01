@@ -220,6 +220,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
@@ -811,6 +820,7 @@ reused
 /
 class
 CloseDatabaseListener
+MOZ_FINAL
 :
 public
 mozIStorageCompletionCallback
@@ -1021,6 +1031,7 @@ reused
 /
 class
 DeleteFromMozHostListener
+MOZ_FINAL
 :
 public
 mozIStorageStatementCallback

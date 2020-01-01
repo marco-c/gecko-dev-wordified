@@ -184,6 +184,12 @@ GetEchoPasswordImpl
 (
 )
 ;
+virtual
+PRUint32
+GetPasswordMaskDelayImpl
+(
+)
+;
 protected
 :
 static

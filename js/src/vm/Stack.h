@@ -2065,7 +2065,7 @@ below
 /
 INITIAL_LOWERED
 =
-0x200000
+0x100000
 /
 *
 =
@@ -2421,17 +2421,6 @@ needsArgsObj
 script
 *
 /
-HAS_NESTING
-=
-0x2000
-/
-*
-NestingPrologue
-called
-for
-frame
-*
-/
 /
 *
 Lazy
@@ -2441,7 +2430,7 @@ initialization
 /
 HAS_HOOK_DATA
 =
-0x4000
+0x2000
 /
 *
 frame
@@ -2452,7 +2441,7 @@ set
 /
 HAS_ANNOTATION
 =
-0x8000
+0x4000
 /
 *
 frame
@@ -2463,7 +2452,7 @@ set
 /
 HAS_RVAL
 =
-0x10000
+0x8000
 /
 *
 frame
@@ -2474,7 +2463,7 @@ set
 /
 HAS_SCOPECHAIN
 =
-0x20000
+0x10000
 /
 *
 frame
@@ -2485,7 +2474,7 @@ set
 /
 HAS_PREVPC
 =
-0x40000
+0x20000
 /
 *
 frame
@@ -2498,7 +2487,7 @@ set
 /
 HAS_BLOCKCHAIN
 =
-0x80000
+0x40000
 /
 *
 frame
@@ -2516,7 +2505,7 @@ state
 /
 DOWN_FRAMES_EXPANDED
 =
-0x100000
+0x80000
 /
 *
 inlining
@@ -2530,7 +2519,7 @@ expanded
 /
 LOWERED_CALL_APPLY
 =
-0x200000
+0x100000
 /
 *
 Pushed
@@ -2550,7 +2539,7 @@ state
 /
 PREV_UP_TO_DATE
 =
-0x400000
+0x200000
 /
 *
 see
@@ -2580,7 +2569,7 @@ cpp
 /
 HAS_PUSHED_SPS_FRAME
 =
-0x800000
+0x400000
 /
 *
 SPS
@@ -2599,7 +2588,7 @@ state
 /
 RUNNING_IN_ION
 =
-0x1000000
+0x800000
 /
 *
 frame
@@ -3569,15 +3558,6 @@ code
 inline
 bool
 jitHeavyweightFunctionPrologue
-(
-JSContext
-*
-cx
-)
-;
-inline
-void
-jitTypeNestingPrologue
 (
 JSContext
 *

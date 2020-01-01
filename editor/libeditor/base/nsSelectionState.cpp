@@ -320,7 +320,7 @@ i
 )
 {
 nsRangeStore
-&
+*
 item
 =
 mArray
@@ -348,7 +348,8 @@ cb
 NoteXPCOMChild
 (
 item
-.
+-
+>
 startNode
 )
 ;
@@ -372,7 +373,8 @@ cb
 NoteXPCOMChild
 (
 item
-.
+-
+>
 endNode
 )
 ;
@@ -459,6 +461,16 @@ i
 mArray
 .
 AppendElement
+(
+)
+;
+mArray
+[
+i
+]
+=
+new
+nsRangeStore
 (
 )
 ;
@@ -560,7 +572,8 @@ mArray
 [
 i
 ]
-.
+-
+>
 StoreRange
 (
 range
@@ -645,7 +658,8 @@ mArray
 [
 i
 ]
-.
+-
+>
 GetRange
 (
 getter_AddRefs
@@ -717,7 +731,8 @@ mArray
 [
 0
 ]
-.
+-
+>
 GetRange
 (
 getter_AddRefs
@@ -832,7 +847,8 @@ mArray
 [
 i
 ]
-.
+-
+>
 GetRange
 (
 getter_AddRefs
@@ -848,7 +864,8 @@ mArray
 [
 i
 ]
-.
+-
+>
 GetRange
 (
 getter_AddRefs
@@ -1257,7 +1274,6 @@ i
 {
 RegisterRangeItem
 (
-&
 aSelState
 .
 mArray
@@ -1320,7 +1336,6 @@ i
 {
 DropRangeItem
 (
-&
 aSelState
 .
 mArray

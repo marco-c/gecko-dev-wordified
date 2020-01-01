@@ -1966,6 +1966,7 @@ GlobalObject
 *
 global
 =
+&
 gen
 -
 >

@@ -2232,7 +2232,10 @@ nsIDOMNode
 >
 mNewBlock
 ;
+nsRefPtr
+<
 nsRangeStore
+>
 mRangeItem
 ;
 StyleCache

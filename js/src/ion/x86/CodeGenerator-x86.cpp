@@ -2152,10 +2152,11 @@ the
 current
 global
 .
-JSObject
+GlobalObject
 *
 global
 =
+&
 gen
 -
 >

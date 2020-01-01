@@ -1151,7 +1151,7 @@ FailDelayManager
 {
 MOZ_COUNT_CTOR
 (
-nsWSAdmissionManager
+FailDelayManager
 )
 ;
 mDelaysDisabled
@@ -1224,7 +1224,7 @@ FailDelayManager
 {
 MOZ_COUNT_DTOR
 (
-nsWSAdmissionManager
+FailDelayManager
 )
 ;
 for
