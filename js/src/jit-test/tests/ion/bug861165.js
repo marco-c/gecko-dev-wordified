@@ -1,15 +1,5 @@
 /
 /
-|
-jit
--
-test
-|
-no
--
-jm
-/
-/
 IM
 has
 the
