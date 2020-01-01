@@ -1669,7 +1669,7 @@ KeyPair
 >
 keySequence
 ;
-nsWindow
+WinUtils
 :
 :
 SetupKeyModifiersSequence
