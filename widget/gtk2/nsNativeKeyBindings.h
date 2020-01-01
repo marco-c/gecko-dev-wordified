@@ -300,8 +300,8 @@ aCallback
 void
 *
 aCallbackData
-uint32_t
-aKeyCode
+guint
+aKeyval
 )
 ;
 GtkWidget
