@@ -1145,9 +1145,6 @@ atomp
 {
 PCMETER
 (
-cache
--
->
 misses
 +
 +
@@ -1155,9 +1152,6 @@ misses
 ;
 PCMETER
 (
-cache
--
->
 setmisses
 +
 +
@@ -1294,9 +1288,6 @@ vcap
 ;
 PCMETER
 (
-cache
--
->
 pchits
 +
 +
@@ -1304,9 +1295,6 @@ pchits
 ;
 PCMETER
 (
-cache
--
->
 inipchits
 +
 +
