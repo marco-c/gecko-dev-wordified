@@ -1442,7 +1442,7 @@ aType
 aListener
 aUseCapture
 PR_FALSE
-0
+1
 )
 ;
 }
@@ -1854,9 +1854,8 @@ yet
 NS_ENSURE_TRUE
 (
 optional_argc
-=
-=
-0
+<
+2
 NS_ERROR_NOT_IMPLEMENTED
 )
 ;

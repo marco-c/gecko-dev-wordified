@@ -38383,7 +38383,7 @@ aType
 aListener
 aUseCapture
 PR_FALSE
-0
+1
 )
 ;
 }
@@ -38889,7 +38889,7 @@ aWantsUntrusted
 |
 optional_argc
 >
-0
+1
 "
 Won
 '
@@ -38979,9 +38979,8 @@ aWantsUntrusted
 |
 (
 optional_argc
-=
-=
-0
+<
+2
 &
 &
 !
