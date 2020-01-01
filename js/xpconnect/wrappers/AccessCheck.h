@@ -129,13 +129,6 @@ jswrapper
 .
 h
 "
-#
-include
-"
-WrapperFactory
-.
-h
-"
 class
 nsIPrincipal
 ;
