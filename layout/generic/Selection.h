@@ -574,8 +574,6 @@ aRange
 int32_t
 *
 aOutIndex
-=
-nullptr
 )
 ;
 nsresult
