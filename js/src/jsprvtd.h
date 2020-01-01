@@ -1118,6 +1118,9 @@ UpvarCookie
 >
 UpvarCookies
 ;
+class
+WatchpointMap
+;
 }
 /
 *

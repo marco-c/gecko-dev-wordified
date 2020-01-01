@@ -7,6 +7,9 @@ crash
 or
 assert
 .
+var
+d
+;
 this
 .
 watch

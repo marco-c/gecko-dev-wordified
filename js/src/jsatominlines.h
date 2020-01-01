@@ -443,6 +443,13 @@ jsnum
 .
 h
 "
+#
+include
+"
+jsobj
+.
+h
+"
 inline
 bool
 js_ValueToAtom

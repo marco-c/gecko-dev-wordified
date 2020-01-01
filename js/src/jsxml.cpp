@@ -26627,11 +26627,12 @@ funid
 {
 ok
 =
-js_SetProperty
+js_SetPropertyHelper
 (
 cx
 obj
 funid
+0
 Valueify
 (
 vp

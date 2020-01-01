@@ -2207,6 +2207,14 @@ shape
 hasSlot
 (
 )
+|
+|
+obj
+-
+>
+watched
+(
+)
 )
 {
 /
@@ -2218,6 +2226,8 @@ for
 weird
 shape
 attributes
+and
+watchpoints
 .
 *
 /

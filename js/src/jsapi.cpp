@@ -3851,12 +3851,6 @@ JS_INIT_CLIST
 trapList
 )
 ;
-JS_INIT_CLIST
-(
-&
-watchPointList
-)
-;
 }
 bool
 JSRuntime
