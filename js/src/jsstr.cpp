@@ -22942,7 +22942,7 @@ cx
 )
 ;
 return
-js_NewNativeObject
+js_NewObjectWithClassProto
 (
 cx
 &

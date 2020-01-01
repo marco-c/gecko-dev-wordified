@@ -151,10 +151,6 @@ n
 "
 )
 ;
-knownFail
-=
-true
-;
 CHECK
 (
 g_counter
