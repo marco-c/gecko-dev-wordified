@@ -835,6 +835,14 @@ records
 DEFAULT_STORE_BATCH_SIZE
 :
 1
+HISTORY_STORE_BATCH_SIZE
+:
+50
+/
+/
+same
+as
+MOBILE_BATCH_SIZE
 /
 /
 score
