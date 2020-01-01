@@ -402,6 +402,11 @@ h
 #
 include
 <
+memory
+>
+#
+include
+<
 QtGui
 /
 QPainter
