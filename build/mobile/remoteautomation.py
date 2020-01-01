@@ -642,6 +642,9 @@ symbolsPath
 )
 :
         
+try
+:
+            
 remoteCrashDir
 =
 self
@@ -653,7 +656,7 @@ _remoteProfile
 minidumps
 /
 '
-        
+            
 if
 not
 self
@@ -665,7 +668,7 @@ dirExists
 remoteCrashDir
 )
 :
-            
+                
 #
 As
 of
@@ -676,7 +679,7 @@ minidumps
 directory
 is
 automatically
-            
+                
 #
 created
 when
@@ -690,7 +693,7 @@ its
 lack
 of
 presence
-            
+                
 #
 is
 a
@@ -700,7 +703,7 @@ something
 went
 wrong
 .
-            
+                
 print
 "
 Automation
@@ -720,7 +723,7 @@ device
 "
 %
 remoteCrashDir
-            
+                
 #
 Whilst
 no
@@ -735,10 +738,10 @@ display
 as
 a
 failure
-            
+                
 return
 True
-        
+            
 dumpDir
 =
 tempfile
@@ -746,7 +749,7 @@ tempfile
 mkdtemp
 (
 )
-        
+            
 self
 .
 _devicemanager
@@ -756,7 +759,7 @@ getDirectory
 remoteCrashDir
 dumpDir
 )
-        
+            
 crashed
 =
 automationutils
@@ -765,25 +768,28 @@ checkForCrashes
 (
 dumpDir
 symbolsPath
-                                        
+                                            
 self
 .
 lastTestSeen
 )
         
-try
+finally
 :
             
+try
+:
+                
 shutil
 .
 rmtree
 (
 dumpDir
 )
-        
+            
 except
 :
-            
+                
 print
 "
 WARNING

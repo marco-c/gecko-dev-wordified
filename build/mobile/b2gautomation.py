@@ -705,6 +705,9 @@ in
 place
 .
         
+try
+:
+            
 dumpDir
 =
 tempfile
@@ -712,7 +715,7 @@ tempfile
 mkdtemp
 (
 )
-        
+            
 self
 .
 _devicemanager
@@ -730,7 +733,7 @@ minidumps
 '
 dumpDir
 )
-        
+            
 crashed
 =
 automationutils
@@ -744,19 +747,22 @@ self
 lastTestSeen
 )
         
-try
+finally
 :
             
+try
+:
+                
 shutil
 .
 rmtree
 (
 dumpDir
 )
-        
+            
 except
 :
-            
+                
 print
 "
 WARNING

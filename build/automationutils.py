@@ -1185,10 +1185,13 @@ dumps
 return
 False
   
+try
+:
+    
 removeSymbolsPath
 =
 False
-  
+    
 #
 If
 our
@@ -1201,7 +1204,7 @@ URL
 download
 them
 now
-  
+    
 if
 symbolsPath
 and
@@ -1210,7 +1213,7 @@ isURL
 symbolsPath
 )
 :
-    
+      
 print
 "
 Downloading
@@ -1220,11 +1223,11 @@ from
 "
 +
 symbolsPath
-    
+      
 removeSymbolsPath
 =
 True
-    
+      
 #
 Get
 the
@@ -1236,7 +1239,7 @@ to
 a
 temporary
 zipfile
-    
+      
 data
 =
 urllib2
@@ -1245,7 +1248,7 @@ urlopen
 (
 symbolsPath
 )
-    
+      
 symbolsFile
 =
 tempfile
@@ -1253,7 +1256,7 @@ tempfile
 TemporaryFile
 (
 )
-    
+      
 symbolsFile
 .
 write
@@ -1264,7 +1267,7 @@ read
 (
 )
 )
-    
+      
 #
 extract
 symbols
@@ -1279,13 +1282,13 @@ we
 ll
 delete
 after
-    
+      
 #
 processing
 all
 crashes
 )
-    
+      
 symbolsPath
 =
 tempfile
@@ -1293,23 +1296,20 @@ tempfile
 mkdtemp
 (
 )
-    
+      
 zfile
 =
 ZipFileReader
 (
 symbolsFile
 )
-    
+      
 zfile
 .
 extractall
 (
 symbolsPath
 )
-  
-try
-:
     
 for
 d
