@@ -9336,7 +9336,7 @@ aEvent
 )
 |
 |
-NS_IS_IME_EVENT
+NS_IS_IME_RELATED_EVENT
 (
 aEvent
 )
