@@ -19875,6 +19875,12 @@ EnsureVisible
 )
 ;
 }
+else
+{
+return
+NS_ERROR_FAILURE
+;
+}
 /
 /
 register
