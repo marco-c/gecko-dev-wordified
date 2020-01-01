@@ -5598,7 +5598,6 @@ toDefinition
 (
 )
 )
-;
 return
 true
 ;
