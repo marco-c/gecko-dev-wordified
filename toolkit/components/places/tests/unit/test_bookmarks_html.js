@@ -1991,6 +1991,11 @@ setAndFetchFaviconForPage
 PAGE_URI
 CHROME_FAVICON_URI
 true
+PlacesUtils
+.
+favicons
+.
+FAVICON_LOAD_NON_PRIVATE
 function
 (
 )
@@ -2114,6 +2119,11 @@ setAndFetchFaviconForPage
 PAGE_URI
 CHROME_FAVICON_URI_2
 true
+PlacesUtils
+.
+favicons
+.
+FAVICON_LOAD_NON_PRIVATE
 function
 (
 )

@@ -381,6 +381,11 @@ setAndFetchFaviconForPage
 TEST_PAGE_URI
 SMALLPNG_DATA_URI
 true
+PlacesUtils
+.
+favicons
+.
+FAVICON_LOAD_NON_PRIVATE
 )
 ;
 /
@@ -422,6 +427,11 @@ setAndFetchFaviconForPage
 BOOKMARKED_PAGE_URI
 SMALLPNG_DATA_URI
 true
+PlacesUtils
+.
+favicons
+.
+FAVICON_LOAD_NON_PRIVATE
 function
 (
 )

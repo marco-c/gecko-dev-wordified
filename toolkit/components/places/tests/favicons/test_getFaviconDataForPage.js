@@ -326,6 +326,11 @@ setAndFetchFaviconForPage
 pageURI
 FAVICON_URI
 true
+PlacesUtils
+.
+favicons
+.
+FAVICON_LOAD_NON_PRIVATE
 function
 (
 )

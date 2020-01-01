@@ -1955,6 +1955,11 @@ setAndFetchFaviconForPage
 pageURI
 iconURI
 false
+PlacesUtils
+.
+favicons
+.
+FAVICON_LOAD_NON_PRIVATE
 function
 AMG_faviconDataCallback
 (
@@ -2127,6 +2132,11 @@ setAndFetchFaviconForPage
 pageURI
 iconURI
 true
+PlacesUtils
+.
+favicons
+.
+FAVICON_LOAD_NON_PRIVATE
 function
 UPG_faviconDataCallback
 (
