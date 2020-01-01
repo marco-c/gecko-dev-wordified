@@ -947,6 +947,13 @@ nsContentSink
 .
 h
 "
+#
+include
+"
+nsFrameMessageManager
+.
+h
+"
 extern
 void
 NS_ShutdownChainItemPool
@@ -1695,6 +1702,13 @@ Shutdown
 (
 )
 {
+nsFrameScriptExecutor
+:
+:
+Shutdown
+(
+)
+;
 nsFocusManager
 :
 :
