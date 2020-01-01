@@ -611,6 +611,14 @@ JSObject
 >
 ObjectSet
 ;
+typedef
+HashSet
+<
+Shape
+*
+>
+ShapeSet
+;
 /
 *
 Detects
