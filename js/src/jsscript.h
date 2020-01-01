@@ -1456,10 +1456,12 @@ size_t
 index
 )
 ;
+const
 js
 :
 :
 Value
+&
 getConst
 (
 size_t

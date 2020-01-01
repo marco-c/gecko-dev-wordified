@@ -2627,7 +2627,7 @@ fslots
 JSSLOT_PRIVATE
 ]
 .
-asPrivateVoidPtr
+asPrivateVoidPtrUnchecked
 (
 )
 ;
