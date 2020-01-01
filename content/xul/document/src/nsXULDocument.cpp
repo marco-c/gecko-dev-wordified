@@ -762,13 +762,6 @@ h
 #
 include
 "
-nsParserUtils
-.
-h
-"
-#
-include
-"
 nsParserCIID
 .
 h
@@ -15004,10 +14997,10 @@ NS_OK
 nsAutoString
 href
 ;
-nsParserUtils
+nsContentUtils
 :
 :
-GetQuotedAttributeValue
+GetPseudoAttributeValue
 (
 aProtoPI
 -

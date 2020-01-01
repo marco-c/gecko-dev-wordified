@@ -527,13 +527,6 @@ h
 #
 include
 "
-nsParserUtils
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

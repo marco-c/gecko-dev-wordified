@@ -490,13 +490,6 @@ h
 #
 include
 "
-nsParserUtils
-.
-h
-"
-#
-include
-"
 nsICharsetConverterManager
 .
 h
@@ -3636,7 +3629,7 @@ IsEmpty
 {
 if
 (
-nsParserUtils
+nsContentUtils
 :
 :
 IsJavaScriptLanguage
@@ -3715,7 +3708,7 @@ own
 code
 to
 check
-nsParserUtils
+nsContentUtils
 :
 :
 IsJavaScriptLanguage
