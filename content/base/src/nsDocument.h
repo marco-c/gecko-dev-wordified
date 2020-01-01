@@ -6835,7 +6835,10 @@ mXMLDeclarationBits
 ;
 nsInterfaceHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+nsIContent
+>
 nsPIBoxObject
 >
 *

@@ -658,8 +658,7 @@ static
 PLDHashOperator
 AppendAndRemoveThread
 (
-const
-void
+PRThread
 *
 key
 nsRefPtr

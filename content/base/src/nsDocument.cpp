@@ -8354,8 +8354,7 @@ static
 PLDHashOperator
 ClearAllBoxObjects
 (
-const
-void
+nsIContent
 *
 aKey
 nsPIBoxObject
@@ -9377,8 +9376,7 @@ static
 PLDHashOperator
 BoxObjectTraverser
 (
-const
-void
+nsIContent
 *
 key
 nsPIBoxObject
@@ -27621,7 +27619,10 @@ mBoxObjectTable
 new
 nsInterfaceHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+nsIContent
+>
 nsPIBoxObject
 >
 ;

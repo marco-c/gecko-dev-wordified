@@ -7617,8 +7617,7 @@ found
 PLDHashOperator
 ActorSearch
 (
-const
-void
+NPObject
 *
 aKey
 PluginScriptableObjectParent

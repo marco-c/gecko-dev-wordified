@@ -680,8 +680,7 @@ nsGTKRemoteService
 :
 StartupHandler
 (
-const
-void
+GtkWidget
 *
 aKey
 nsIWeakReference
