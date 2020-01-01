@@ -2631,6 +2631,15 @@ aXPAccessible
 ;
 protected
 :
+virtual
+nsresult
+FirePlatformEvent
+(
+nsIAccessibleEvent
+*
+aEvent
+)
+;
 /
 /
 mEnumVARIANTPosition
