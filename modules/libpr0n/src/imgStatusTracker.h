@@ -438,9 +438,6 @@ imgStatusTracker_h__
 define
 imgStatusTracker_h__
 class
-nsIntRect
-;
-class
 imgIContainer
 ;
 class
@@ -454,6 +451,9 @@ imgStatusNotifyRunnable
 ;
 class
 imgRequestNotifyRunnable
+;
+struct
+nsIntRect
 ;
 namespace
 mozilla

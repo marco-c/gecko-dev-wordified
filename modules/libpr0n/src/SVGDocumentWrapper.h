@@ -505,7 +505,7 @@ nsILoadGroup
 class
 nsIFrame
 ;
-class
+struct
 nsIntSize
 ;
 class
