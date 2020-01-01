@@ -1007,6 +1007,12 @@ TextureRequiresLocking
 (
 mFlags
 )
+&
+&
+!
+ImplementsLocking
+(
+)
 )
 {
 /
