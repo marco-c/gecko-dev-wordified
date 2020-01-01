@@ -696,10 +696,10 @@ lis_high_security
 }
 ;
 lockIconState
-mPreviousSecurityState
+mNotifiedSecurityState
 ;
 PRBool
-mPreviousToplevelWasEV
+mNotifiedToplevelIsEV
 ;
 void
 ResetStateTracking
