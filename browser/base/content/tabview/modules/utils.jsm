@@ -380,7 +380,7 @@ typeof
 (
 a
 .
-right
+width
 )
 !
 =
@@ -393,7 +393,7 @@ typeof
 (
 a
 .
-bottom
+height
 )
 !
 =
