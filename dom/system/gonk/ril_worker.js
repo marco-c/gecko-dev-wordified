@@ -68363,7 +68363,7 @@ this
 *
 *
 *
-Get
+Find
 free
 record
 id
@@ -68397,10 +68397,10 @@ error
 .
 *
 /
-getFreeRecordId
+findFreeRecordId
 :
 function
-getFreeRecordId
+findFreeRecordId
 (
 fileId
 onsuccess
@@ -72092,7 +72092,7 @@ CARD_APPTYPE_SIM
 :
 ICCRecordHelper
 .
-getFreeRecordId
+findFreeRecordId
 (
 ICC_EF_ADN
 onsuccess
@@ -72122,7 +72122,7 @@ adn
 {
 ICCRecordHelper
 .
-getFreeRecordId
+findFreeRecordId
 (
 pbr
 .
@@ -72161,7 +72161,7 @@ fdn
 :
 ICCRecordHelper
 .
-getFreeRecordId
+findFreeRecordId
 (
 ICC_EF_FDN
 onsuccess

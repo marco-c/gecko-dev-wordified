@@ -11549,14 +11549,14 @@ number
 Verify
 ICCRecordHelper
 .
-getFreeRecordId
+findFreeRecordId
 .
 *
 /
 add_test
 (
 function
-test_get_free_record_id
+test_find_free_record_id
 (
 )
 {
@@ -11789,7 +11789,7 @@ Dummy
 .
 record
 .
-getFreeRecordId
+findFreeRecordId
 (
 fileId
 function
