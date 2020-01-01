@@ -13086,13 +13086,6 @@ GSN_CACHE_THRESHOLD
 =
 100
 ;
-static
-const
-uint32_t
-GSN_CACHE_MAP_INIT_SIZE
-=
-20
-;
 void
 GSNCache
 :
