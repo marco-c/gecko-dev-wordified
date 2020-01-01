@@ -3,10 +3,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 var
 startup_info
 =
@@ -50,7 +46,7 @@ process
 info
 on
 mac
-is
+ok
 (
 startup_info
 .
@@ -60,7 +56,6 @@ process
 startup_info
 .
 main
-true
 "
 process
 created
@@ -99,7 +94,7 @@ startup_info
 .
 firstPaint
 )
-is
+ok
 (
 startup_info
 .
@@ -109,7 +104,6 @@ main
 startup_info
 .
 firstPaint
-true
 "
 main
 ran
@@ -124,7 +118,7 @@ startup_info
 )
 )
 ;
-is
+ok
 (
 startup_info
 .
@@ -133,7 +127,6 @@ main
 startup_info
 .
 sessionRestored
-true
 "
 Session
 restored
@@ -145,10 +138,6 @@ uneval
 (
 startup_info
 )
-)
-;
-finish
-(
 )
 ;
 }
