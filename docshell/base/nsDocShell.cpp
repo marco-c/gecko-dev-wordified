@@ -40786,6 +40786,12 @@ SaveWindowState
 (
 )
 ;
+NS_ENSURE_TRUE
+(
+windowState
+NS_ERROR_FAILURE
+)
+;
 #
 ifdef
 DEBUG_PAGE_CACHE
