@@ -1177,6 +1177,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 nsUnicharUtilCIID
 .
 h
