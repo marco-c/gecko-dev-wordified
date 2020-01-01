@@ -265,11 +265,9 @@ no
 saved
 passphrase
 .
-Weave
+Services
 .
-Svc
-.
-Login
+logins
 .
 removeAllLogins
 (

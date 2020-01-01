@@ -80,13 +80,13 @@ logs
 ]
 ;
 delete
-Svc
+Services
 .
-WinMediator
+wm
 ;
-Svc
+Services
 .
-WinMediator
+wm
 =
 {
 getEnumerator

@@ -549,9 +549,9 @@ Utils
 .
 encodeBase64url
 (
-Svc
+Services
 .
-AppInfo
+appinfo
 .
 ID
 )

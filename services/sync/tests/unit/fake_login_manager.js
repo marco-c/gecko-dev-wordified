@@ -281,13 +281,13 @@ nsILoginManager
 object
 .
 delete
-Svc
+Services
 .
-Login
+logins
 ;
-Svc
+Services
 .
-Login
+logins
 =
 {
 removeAllLogins

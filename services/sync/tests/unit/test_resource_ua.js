@@ -243,9 +243,9 @@ ilovejane
 let
 expectedUA
 =
-Svc
+Services
 .
-AppInfo
+appinfo
 .
 name
 +
@@ -253,9 +253,9 @@ name
 /
 "
 +
-Svc
+Services
 .
-AppInfo
+appinfo
 .
 version
 +
@@ -270,9 +270,9 @@ WEAVE_VERSION
 .
 "
 +
-Svc
+Services
 .
-AppInfo
+appinfo
 .
 appBuildID
 ;

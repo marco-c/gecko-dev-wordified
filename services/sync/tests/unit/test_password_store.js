@@ -279,9 +279,9 @@ record
 makes
 it
 to
-Svc
+Services
 .
-Login
+logins
 .
 let
 badCount
@@ -298,9 +298,9 @@ goodCount
 let
 badLogins
 =
-Svc
+Services
 .
-Login
+logins
 .
 findLogins
 (
@@ -319,9 +319,9 @@ httpRealm
 let
 goodLogins
 =
-Svc
+Services
 .
-Login
+logins
 .
 findLogins
 (

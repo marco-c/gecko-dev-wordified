@@ -1196,9 +1196,9 @@ desktop
 /
 _userAgent
 :
-Svc
+Services
 .
-AppInfo
+appinfo
 .
 name
 +
@@ -1206,9 +1206,9 @@ name
 /
 "
 +
-Svc
+Services
 .
-AppInfo
+appinfo
 .
 version
 +
@@ -1231,9 +1231,9 @@ WEAVE_VERSION
 /
 Sync
 .
-Svc
+Services
 .
-AppInfo
+appinfo
 .
 appBuildID
 +
@@ -1707,9 +1707,9 @@ Res__createRequest
 let
 channel
 =
-Svc
+Services
 .
-IO
+io
 .
 newChannel
 (
