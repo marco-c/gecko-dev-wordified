@@ -51106,6 +51106,12 @@ cancelable
 false
 )
 ;
+EnumerateFreezableElements
+(
+NotifyActivityChanged
+nullptr
+)
+;
 }
 }
 nsDocument
