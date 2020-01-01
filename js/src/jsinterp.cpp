@@ -681,9 +681,25 @@ jsautooplen
 .
 h
 "
+/
+*
+jsinvoke_cpp___
+indicates
+inclusion
+from
+jsinvoke
+.
+cpp
+.
+*
+/
 #
-ifdef
-js_invoke_c__
+if
+!
+JS_LONE_INTERPRET
+^
+defined
+jsinvoke_cpp___
 uint32
 js_GenerateShape
 (
@@ -3669,6 +3685,7 @@ return
 JS_TRUE
 ;
 }
+JS_STATIC_INTERPRET
 jsval
 *
 js_AllocRawStack
@@ -3791,6 +3808,7 @@ return
 sp
 ;
 }
+JS_STATIC_INTERPRET
 void
 js_FreeRawStack
 (
@@ -5042,6 +5060,7 @@ true
 .
 *
 /
+JS_STATIC_INTERPRET
 JSObject
 *
 js_ComputeGlobalThis
@@ -5907,6 +5926,7 @@ parameters
 .
 *
 /
+JS_STATIC_INTERPRET
 JSBool
 js_OnUnknownMethod
 (
@@ -10366,6 +10386,7 @@ obj
 .
 *
 /
+JS_STATIC_INTERPRET
 JSBool
 js_ImportProperty
 (
@@ -12341,6 +12362,7 @@ stackIndex
 .
 *
 /
+JS_STATIC_INTERPRET
 JSBool
 js_EnterWith
 (
@@ -12534,6 +12556,7 @@ return
 JS_TRUE
 ;
 }
+JS_STATIC_INTERPRET
 void
 js_LeaveWith
 (
@@ -12698,6 +12721,7 @@ return
 NULL
 ;
 }
+JS_STATIC_INTERPRET
 jsint
 js_CountWithBlocks
 (
@@ -12998,6 +13022,7 @@ return
 normalUnwind
 ;
 }
+JS_STATIC_INTERPRET
 JSBool
 js_DoIncDec
 (
@@ -13203,6 +13228,7 @@ JS_TRUE
 #
 ifdef
 DEBUG
+JS_STATIC_INTERPRET
 void
 js_TraceOpcode
 (
@@ -13767,6 +13793,7 @@ JSOP_LIMIT
 HIST_NSLOTS
 ]
 ;
+JS_STATIC_INTERPRET
 void
 js_MeterOpcodePair
 (
@@ -13794,6 +13821,7 @@ op2
 ]
 ;
 }
+JS_STATIC_INTERPRET
 void
 js_MeterSlotOpcode
 (
@@ -14674,14 +14702,19 @@ JS_OPSMETER
 *
 /
 #
-else
+endif
 /
 *
 !
+JS_LONE_INTERPRET
+^
 defined
-js_invoke_c__
+jsinvoke_cpp___
 *
 /
+#
+ifndef
+jsinvoke_cpp___
 #
 define
 PUSH
@@ -44179,6 +44212,6 @@ endif
 *
 !
 defined
-js_invoke_c__
+jsinvoke_cpp___
 *
 /
