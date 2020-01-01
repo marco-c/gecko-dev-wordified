@@ -243,7 +243,7 @@ value
 =
 static_cast
 <
-LONG
+int32_t
 const
 volatile
 &
