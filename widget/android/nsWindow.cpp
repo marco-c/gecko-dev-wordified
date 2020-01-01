@@ -6924,7 +6924,6 @@ client
 .
 EndDrawing
 (
-dirtyRect
 )
 ;
 return
