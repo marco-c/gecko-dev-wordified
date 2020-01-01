@@ -1480,9 +1480,6 @@ fitToWidth
 (
 )
 ;
-}
-)
-;
 window
 .
 addEventListener
@@ -1491,6 +1488,9 @@ addEventListener
 resize
 "
 fitToWidth
+)
+;
+}
 )
 ;
 function
