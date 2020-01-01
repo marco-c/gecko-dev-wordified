@@ -7085,10 +7085,7 @@ text
 /
 plain
 "
-nsIDocumentEncoder
-:
-:
-SkipInvisibleContent
+0
 0
 aReturn
 )
