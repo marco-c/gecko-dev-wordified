@@ -1907,7 +1907,6 @@ mDecoder
 >
 mDecoderPosition
 >
-=
 initialDownloadPosition
 )
 {
@@ -1997,7 +1996,6 @@ mDecoder
 >
 mDecoderPosition
 >
-=
 initialDownloadPosition
 )
 {
