@@ -155,7 +155,7 @@ analyzeLate
 )
 ;
 static
-bool
+int
 AllUsesTruncate
 (
 MInstruction
