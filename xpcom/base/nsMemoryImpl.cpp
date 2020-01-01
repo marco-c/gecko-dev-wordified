@@ -539,7 +539,7 @@ endif
 if
 defined
 (
-NS_OSSO
+MOZ_PLATFORM_MAEMO
 )
 #
 include
@@ -925,7 +925,7 @@ ullTotalPageFile
 elif
 defined
 (
-NS_OSSO
+MOZ_PLATFORM_MAEMO
 )
 static
 int

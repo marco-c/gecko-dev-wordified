@@ -1253,7 +1253,7 @@ priv
 ;
 #
 ifdef
-NS_OSSO
+MOZ_PLATFORM_MAEMO
 /
 /
 Maemo
@@ -1486,7 +1486,7 @@ MOZ_X11
 &
 defined
 (
-NS_OSSO
+MOZ_PLATFORM_MAEMO
 )
 EGLint
 attribs
@@ -2843,7 +2843,7 @@ MOZ_X11
 &
 defined
 (
-NS_OSSO
+MOZ_PLATFORM_MAEMO
 )
 if
 (

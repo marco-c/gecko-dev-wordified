@@ -471,7 +471,7 @@ h
 "
 #
 ifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 #
 include
 "
@@ -3088,7 +3088,7 @@ eMetric_TouchEnabled
 :
 #
 ifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 /
 /
 All
@@ -3121,7 +3121,7 @@ eMetric_MaemoClassic
 :
 #
 ifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 {
 aMetric
 =

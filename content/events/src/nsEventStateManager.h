@@ -583,7 +583,7 @@ touch
 screens
 (
 like
-hildon
+maemo
 )
 could
 use
@@ -607,7 +607,7 @@ XP_MACOSX
 |
 defined
 (
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 )
 #
 define

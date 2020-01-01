@@ -7308,7 +7308,7 @@ XP_UNIX
 if
 defined
 (
-NS_OSSO
+MOZ_PLATFORM_MAEMO
 )
 /
 /
