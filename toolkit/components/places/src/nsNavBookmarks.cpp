@@ -12986,6 +12986,15 @@ nsINavHistoryResultNode
 RESULT_TYPE_FOLDER
 &
 &
+nodeType
+!
+=
+nsINavHistoryResultNode
+:
+:
+RESULT_TYPE_FOLDER_SHORTCUT
+&
+&
 aOptions
 -
 >

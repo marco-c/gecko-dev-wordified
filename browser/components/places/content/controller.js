@@ -3075,6 +3075,13 @@ nsINavHistoryResultNode
 .
 RESULT_TYPE_FOLDER
 :
+case
+Ci
+.
+nsINavHistoryResultNode
+.
+RESULT_TYPE_FOLDER_SHORTCUT
+:
 nodeData
 [
 "
