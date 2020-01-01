@@ -470,6 +470,10 @@ Parser
 *
 parser
 bool
+inGenexpLambda
+=
+false
+bool
 inCond
 =
 false
