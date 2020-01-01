@@ -644,15 +644,6 @@ html5
 .
 "
 "
-mozilla
-.
-widget
-.
-render
--
-mode
-"
-"
 layers
 .
 "
