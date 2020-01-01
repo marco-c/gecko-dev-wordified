@@ -970,6 +970,9 @@ nsIStructuredCloneContainer
 h
 "
 #
+ifdef
+MOZ_PLACES
+#
 include
 "
 nsIFaviconService
@@ -983,6 +986,8 @@ mozIAsyncFavicons
 .
 h
 "
+#
+endif
 /
 /
 Editor
@@ -49157,6 +49162,9 @@ Loading
 *
 namespace
 {
+#
+ifdef
+MOZ_PLACES
 /
 /
 Callback
@@ -49349,6 +49357,8 @@ NS_IMPL_ISUPPORTS1
 nsCopyFaviconCallback
 nsIFaviconDataCallback
 )
+#
+endif
 /
 /
 Tell
@@ -49377,6 +49387,9 @@ bool
 inPrivateBrowsing
 )
 {
+#
+ifdef
+MOZ_PLACES
 nsCOMPtr
 <
 mozIAsyncFavicons
@@ -49428,6 +49441,8 @@ callback
 )
 ;
 }
+#
+endif
 }
 }
 /

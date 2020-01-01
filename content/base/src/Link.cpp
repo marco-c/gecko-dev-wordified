@@ -584,6 +584,11 @@ register
 with
 History
 .
+if
+(
+mHistory
+)
+{
 nsresult
 rv
 =
@@ -671,6 +676,7 @@ AddStyleRelevantLink
 self
 )
 ;
+}
 }
 }
 }
@@ -2641,6 +2647,11 @@ stop
 tracking
 us
 .
+if
+(
+mHistory
+)
+{
 nsresult
 rv
 =
@@ -2685,6 +2696,7 @@ mRegistered
 =
 false
 ;
+}
 }
 }
 already_AddRefed
