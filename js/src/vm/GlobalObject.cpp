@@ -2512,12 +2512,12 @@ immutable
 cx
 -
 >
-compartment
+runtime
 -
 >
 newObjectCache
 .
-reset
+purge
 (
 )
 ;

@@ -17969,7 +17969,7 @@ cache
 cx
 -
 >
-compartment
+runtime
 -
 >
 newObjectCache
@@ -18363,7 +18363,7 @@ cache
 cx
 -
 >
-compartment
+runtime
 -
 >
 newObjectCache
@@ -18591,7 +18591,7 @@ cache
 cx
 -
 >
-compartment
+runtime
 -
 >
 newObjectCache

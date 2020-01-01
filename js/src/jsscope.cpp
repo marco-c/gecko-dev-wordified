@@ -9329,7 +9329,7 @@ regeneration
 cx
 -
 >
-compartment
+runtime
 -
 >
 newObjectCache
