@@ -922,7 +922,7 @@ roles
 :
 LIST
 33
-NSAccessibilityRowRole
+NSAccessibilityGroupRole
 /
 /
 roles
