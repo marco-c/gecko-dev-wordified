@@ -175,13 +175,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 ArrayCluster
 .
 h
@@ -243,6 +236,9 @@ nsIURI
 ;
 class
 nsPIDOMWindow
+;
+class
+nsIRunnable
 ;
 BEGIN_QUOTA_NAMESPACE
 class

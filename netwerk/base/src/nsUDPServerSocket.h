@@ -108,6 +108,13 @@ nsIOutputStream
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 /
 /
 -

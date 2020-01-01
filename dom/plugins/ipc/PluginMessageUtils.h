@@ -201,13 +201,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 prlog
 .
 h
