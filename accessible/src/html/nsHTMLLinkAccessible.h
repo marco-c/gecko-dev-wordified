@@ -463,9 +463,6 @@ aDomNode
 nsIWeakReference
 *
 aShell
-nsIFrame
-*
-aFrame
 )
 ;
 /

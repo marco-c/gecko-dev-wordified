@@ -488,9 +488,6 @@ aDomNode
 nsIWeakReference
 *
 aShell
-nsIFrame
-*
-aFrame
 )
 ;
 /
@@ -709,9 +706,6 @@ aDOMNode
 nsIWeakReference
 *
 aShell
-nsIFrame
-*
-aFrame
 const
 nsAString
 &
@@ -1015,9 +1009,6 @@ aDOMNode
 nsIWeakReference
 *
 aShell
-nsIFrame
-*
-aBulletFrame
 const
 nsAString
 &
