@@ -452,13 +452,6 @@ h
 #
 include
 "
-nsAccessibleTreeWalker
-.
-h
-"
-#
-include
-"
 nsIAccessibleDocument
 .
 h

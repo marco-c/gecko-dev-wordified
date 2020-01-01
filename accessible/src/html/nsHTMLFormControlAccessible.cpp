@@ -442,13 +442,6 @@ ordered
 #
 include
 "
-nsAccessibleTreeWalker
-.
-h
-"
-#
-include
-"
 nsAccessibilityAtoms
 .
 h
