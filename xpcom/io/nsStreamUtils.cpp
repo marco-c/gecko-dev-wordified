@@ -4252,7 +4252,7 @@ initialized
 by
 /
 /
-SetLength
+SetLengthAndRetainStorage
 here
 see
 nsTArrayElementTraits
@@ -4261,6 +4261,8 @@ nsTArrayElementTraits
 Construct
 (
 )
+/
+/
 in
 nsTArray
 .
@@ -4268,7 +4270,7 @@ h
 :
 aDest
 .
-SetLength
+SetLengthAndRetainStorage
 (
 aKeep
 +
