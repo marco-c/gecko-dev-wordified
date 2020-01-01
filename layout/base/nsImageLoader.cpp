@@ -590,7 +590,7 @@ mRequest
 mRequest
 -
 >
-Cancel
+CancelAndForgetObserver
 (
 NS_ERROR_FAILURE
 )
@@ -650,7 +650,7 @@ mRequest
 mRequest
 -
 >
-Cancel
+CancelAndForgetObserver
 (
 NS_ERROR_FAILURE
 )
@@ -782,7 +782,7 @@ us
 mRequest
 -
 >
-Cancel
+CancelAndForgetObserver
 (
 NS_ERROR_FAILURE
 )

@@ -1297,7 +1297,7 @@ mImageRequest
 mImageRequest
 -
 >
-Cancel
+CancelAndForgetObserver
 (
 NS_ERROR_FAILURE
 )
