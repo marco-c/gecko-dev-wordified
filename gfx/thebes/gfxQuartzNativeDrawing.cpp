@@ -303,6 +303,17 @@ mBackingScale
 )
 )
 ;
+if
+(
+backingSize
+.
+IsEmpty
+(
+)
+)
+return
+nullptr
+;
 mDrawTarget
 =
 Factory
