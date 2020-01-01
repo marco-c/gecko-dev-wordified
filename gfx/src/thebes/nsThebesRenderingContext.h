@@ -527,13 +527,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsIThebesFontMetrics
 .
 h

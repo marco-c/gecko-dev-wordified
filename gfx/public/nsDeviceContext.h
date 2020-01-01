@@ -476,7 +476,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -636,7 +636,11 @@ fm
 ;
 protected
 :
-nsVoidArray
+nsTArray
+<
+nsIFontMetrics
+*
+>
 mFontMetrics
 ;
 nsIDeviceContext
