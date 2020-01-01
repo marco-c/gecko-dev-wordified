@@ -18865,9 +18865,7 @@ checkAccess
 *
 /
 proxy_Call
-FunctionClass
-.
-hasInstance
+proxy_HasInstance
 proxy_Construct
 proxy_TraceFunction
 /
