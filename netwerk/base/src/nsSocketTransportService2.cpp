@@ -3929,13 +3929,6 @@ poll
 loop
 /
 /
-PRBool
-pollError
-=
-PR_FALSE
-;
-/
-/
 /
 /
 walk
@@ -4369,10 +4362,6 @@ PR_GetError
 )
 )
 )
-;
-pollError
-=
-PR_TRUE
 ;
 }
 else
