@@ -1050,6 +1050,14 @@ cx
 vp
 )
 ;
+if
+(
+!
+obj
+)
+return
+JS_FALSE
+;
 jsval
 v
 ;
