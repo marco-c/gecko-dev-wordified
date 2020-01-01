@@ -994,6 +994,8 @@ Ci
 nsICrashReporter
 )
 ;
+try
+{
 /
 /
 Dogfood
@@ -1257,6 +1259,13 @@ androidVersion
 ;
 #
 endif
+}
+catch
+(
+e
+)
+{
+}
 let
 homeURL
 =
