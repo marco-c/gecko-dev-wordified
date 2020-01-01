@@ -2423,7 +2423,7 @@ font
 -
 size
 :
-10pt
+8pt
 !
 important
 ;
@@ -2447,9 +2447,7 @@ font
 -
 size
 :
-15
-.
-75pt
+9pt
 !
 important
 ;
@@ -2465,9 +2463,7 @@ font
 -
 size
 :
-11
-.
-75pt
+8pt
 !
 important
 ;
@@ -2679,9 +2675,7 @@ font
 -
 size
 :
-15
-.
-75pt
+9pt
 !
 important
 ;
@@ -2700,7 +2694,9 @@ image
 margin
 :
 0
-3mm
+1
+.
+5mm
 ;
 }
 autocompleteresult
@@ -2737,7 +2733,7 @@ url
 (
 images
 /
-arrowRight
+arrowright
 -
 16
 .
@@ -2751,7 +2747,9 @@ margin
 -
 end
 :
-4mm
+1
+.
+1mm
 ;
 }
 /
@@ -3534,7 +3532,7 @@ font
 -
 size
 :
-11pt
+9pt
 !
 important
 ;
