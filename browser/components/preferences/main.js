@@ -1734,7 +1734,7 @@ download
 .
 downloadDir
 *
-depreciated
+deprecated
 .
 *
 browser
@@ -1743,7 +1743,7 @@ download
 .
 defaultFolder
 *
-depreciated
+deprecated
 .
 *
 /
