@@ -495,6 +495,12 @@ std
 :
 string
 ;
+using
+std
+:
+:
+vector
+;
 bool
 UIInit
 (
@@ -549,6 +555,13 @@ const
 string
 &
 sendURL
+const
+vector
+<
+string
+>
+&
+restartArgs
 )
 {
 /
