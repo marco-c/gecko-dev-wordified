@@ -434,10 +434,6 @@ BLOCK
 *
 *
 /
-using
-namespace
-js
-;
 #
 include
 "
@@ -452,6 +448,10 @@ jsutil
 .
 h
 "
+using
+namespace
+js
+;
 /
 *
 This
