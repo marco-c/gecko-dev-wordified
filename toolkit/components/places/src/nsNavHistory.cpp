@@ -797,6 +797,7 @@ s
 #
 define
 RECENT_EVENT_THRESHOLD
+PRTime
 (
 (
 PRInt64
