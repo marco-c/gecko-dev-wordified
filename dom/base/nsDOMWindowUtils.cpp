@@ -2148,6 +2148,7 @@ HandleEvent
 view
 &
 event
+PR_FALSE
 &
 status
 )
