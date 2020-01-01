@@ -932,6 +932,8 @@ PRUint16
 aWeight
 gfxFloat
 aSize
+PRBool
+aUseCleartype
 )
 ;
 static
@@ -1799,6 +1801,8 @@ nsAString
 aName
 gfxWindowsFontType
 aFontType
+PRBool
+aUseCleartype
 )
 ;
 virtual
