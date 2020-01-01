@@ -229,6 +229,10 @@ traceback
 import
 types
 from
+collections
+import
+OrderedDict
+from
 io
 import
 StringIO
@@ -654,6 +658,10 @@ __init__
 self
 config
 path
+metadata
+=
+{
+}
 )
 :
         
@@ -735,6 +743,15 @@ self
 config
 =
 config
+        
+self
+.
+metadata
+=
+dict
+(
+metadata
+)
         
 topobjdir
 =
@@ -4738,6 +4755,15 @@ True
 filesystem_absolute
 =
 True
+metadata
+=
+{
+'
+tier
+'
+:
+None
+}
 )
     
 def
@@ -4755,6 +4781,10 @@ False
 descend
 =
 True
+metadata
+=
+{
+}
 )
 :
         
@@ -4899,6 +4929,65 @@ variable
 values
 .
         
+Arbitrary
+metadata
+in
+the
+form
+of
+a
+dict
+can
+be
+passed
+into
+this
+        
+function
+.
+This
+metadata
+will
+be
+attached
+to
+the
+emitted
+output
+.
+This
+        
+feature
+is
+intended
+to
+facilitate
+the
+build
+reader
+injecting
+state
+and
+        
+annotations
+into
+moz
+.
+build
+files
+that
+is
+independent
+of
+the
+sandbox
+'
+s
+        
+execution
+context
+.
+        
 Traversal
 is
 performed
@@ -4946,6 +5035,10 @@ filesystem_absolute
 descend
 =
 descend
+                
+metadata
+=
+metadata
 )
 :
                 
@@ -5114,6 +5207,8 @@ path
 read_tiers
 filesystem_absolute
 descend
+            
+metadata
 )
 :
         
@@ -5224,6 +5319,9 @@ self
 .
 config
 path
+metadata
+=
+metadata
 )
         
 sandbox
@@ -5360,10 +5458,11 @@ a
 set
 .
         
-dirs
+recurse_info
 =
-[
-]
+OrderedDict
+(
+)
         
 for
 var
@@ -5392,7 +5491,7 @@ var
 if
 d
 in
-dirs
+recurse_info
 :
                     
 raise
@@ -5420,12 +5519,26 @@ var
 )
 )
                 
-dirs
-.
-append
-(
+recurse_info
+[
 d
+]
+=
+{
+'
+tier
+'
+:
+metadata
+.
+get
+(
+'
+tier
+'
+None
 )
+}
         
 #
 We
@@ -5519,7 +5632,7 @@ regular
 if
 d
 in
-dirs
+recurse_info
 :
                         
 raise
@@ -5550,12 +5663,18 @@ tier
 )
 )
                     
-dirs
-.
-append
-(
+recurse_info
+[
 d
-)
+]
+=
+{
+'
+tier
+'
+:
+tier
+}
         
 curdir
 =
@@ -5570,8 +5689,13 @@ path
         
 for
 relpath
+child_metadata
 in
-dirs
+recurse_info
+.
+items
+(
+)
 :
             
 child_path
@@ -5723,6 +5847,9 @@ False
 filesystem_absolute
 =
 True
+metadata
+=
+child_metadata
 )
 :
                 
