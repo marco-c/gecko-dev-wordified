@@ -732,6 +732,13 @@ baselineFrame
 )
 const
 {
+JS_ASSERT
+(
+isBaselineJS
+(
+)
+)
+;
 return
 (
 BaselineFrame

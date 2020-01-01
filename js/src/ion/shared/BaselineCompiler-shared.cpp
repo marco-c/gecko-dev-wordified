@@ -167,7 +167,10 @@ script
 )
 pc
 (
-NULL
+script
+-
+>
+code
 )
 ionCompileable_
 (

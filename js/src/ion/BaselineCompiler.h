@@ -836,6 +836,11 @@ emitUseCountIncrement
 )
 ;
 bool
+emitDebugPrologue
+(
+)
+;
+bool
 initScopeChain
 (
 )
@@ -908,6 +913,11 @@ and
 friends
 bool
 emitCompare
+(
+)
+;
+bool
+emitReturn
 (
 )
 ;
