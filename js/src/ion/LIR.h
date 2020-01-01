@@ -5980,7 +5980,7 @@ blocks_
 ;
 Vector
 <
-Value
+HeapValue
 0
 SystemAllocPolicy
 >
@@ -6269,7 +6269,7 @@ length
 )
 ;
 }
-Value
+HeapValue
 *
 constantPool
 (
@@ -6284,7 +6284,7 @@ constantPool_
 ;
 }
 const
-Value
+HeapValue
 &
 getConstant
 (
