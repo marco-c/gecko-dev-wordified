@@ -1597,7 +1597,7 @@ mPixmap
 mDelayedUpdates
 )
 {
-sGLXLibrary
+sDefGLXLib
 .
 BindTexImage
 (
@@ -1804,7 +1804,7 @@ mPixmap
 mDelayedUpdates
 )
 {
-sGLXLibrary
+sDefGLXLib
 .
 ReleaseTexImage
 (
