@@ -3971,12 +3971,14 @@ PR_TRUE
 }
 else
 {
-NS_NOTYETIMPLEMENTED
+NS_ERROR
 (
 "
 GetOutlineOffset
 :
-eStyleUnit_Chars
+bad
+unit
+type
 "
 )
 ;
