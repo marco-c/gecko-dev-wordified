@@ -428,6 +428,10 @@ linker
 newCode
 (
 cx
+JSC
+:
+:
+BASELINE_CODE
 )
 ;
 if
