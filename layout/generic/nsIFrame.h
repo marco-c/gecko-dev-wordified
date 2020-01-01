@@ -4741,6 +4741,12 @@ of
 child
 elements
 *
+May
+return
+nsnull
+during
+reflow
+*
 /
 virtual
 nsIFrame
