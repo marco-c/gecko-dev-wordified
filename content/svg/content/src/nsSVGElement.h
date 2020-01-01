@@ -1301,7 +1301,6 @@ bool
 aDoSetAttr
 )
 ;
-virtual
 void
 DidChangeString
 (
