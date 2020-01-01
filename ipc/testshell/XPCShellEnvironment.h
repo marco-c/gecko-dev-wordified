@@ -232,16 +232,6 @@ ToJSObject
 )
 ;
 }
-JSContext
-*
-GetContext
-(
-)
-{
-return
-mCx
-;
-}
 void
 SetIsQuitting
 (
@@ -274,10 +264,6 @@ Init
 ;
 private
 :
-JSContext
-*
-mCx
-;
 nsAutoJSValHolder
 mGlobalHolder
 ;
