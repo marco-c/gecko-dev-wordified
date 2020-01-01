@@ -1949,15 +1949,6 @@ appender
 ;
 }
 }
-/
-/
-The
-reporter
-initializes
-in
-the
-background
-.
 this
 .
 _healthReporter
@@ -2010,7 +2001,7 @@ this
 .
 _healthReporter
 .
-onInit
+init
 (
 )
 .
