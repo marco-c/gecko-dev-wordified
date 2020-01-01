@@ -842,6 +842,11 @@ jsperf
 \
 MODULE
 (
+identity
+)
+\
+MODULE
+(
 nsServicesCryptoModule
 )
 \
