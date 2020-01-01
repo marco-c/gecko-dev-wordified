@@ -1407,6 +1407,14 @@ ins
 )
 ;
 bool
+visitDeleteProperty
+(
+MDeleteProperty
+*
+ins
+)
+;
+bool
 visitCallGetName
 (
 MCallGetName
