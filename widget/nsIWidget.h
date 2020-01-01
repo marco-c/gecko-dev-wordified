@@ -9577,6 +9577,7 @@ mNeedsPaint
 aNeedsPaint
 ;
 }
+virtual
 bool
 NeedsPaint
 (
