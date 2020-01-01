@@ -3959,7 +3959,7 @@ certificate
 was
 signed
 using
-an
+a
 signature
 algorithm
 that
