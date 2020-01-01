@@ -28489,6 +28489,8 @@ JS_FALSE
 JSObject
 *
 fieldType
+=
+NULL
 ;
 JSString
 *
