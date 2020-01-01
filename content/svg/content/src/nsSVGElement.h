@@ -965,15 +965,6 @@ kNameSpaceID_None
 )
 ;
 static
-PRBool
-IsGraphicElementEventName
-(
-nsIAtom
-*
-aName
-)
-;
-static
 nsIAtom
 *
 GetEventNameForAttr
