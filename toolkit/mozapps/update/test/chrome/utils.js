@@ -1027,10 +1027,10 @@ errors
 /
 Done
 const
-PAGEID_ERROR_CERT_CHECK
+PAGEID_ERROR_EXTRA
 =
 "
-errorcertcheck
+errorextra
 "
 ;
 /
@@ -3178,7 +3178,7 @@ case
 PAGEID_ERRORS
 :
 case
-PAGEID_ERROR_CERT_CHECK
+PAGEID_ERROR_EXTRA
 :
 case
 PAGEID_INSTALLED
