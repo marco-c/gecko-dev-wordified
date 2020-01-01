@@ -558,7 +558,6 @@ gDecodingThreadLimit
 -
 1
 ;
-+
 /
 /
 The
@@ -572,7 +571,6 @@ megapixel
 decoded
 image
 .
-+
 /
 /
 Equivalent
@@ -582,7 +580,6 @@ example
 3125x1600
 resolution
 .
-+
 static
 uint32_t
 gHQUpscalingMaxSize
