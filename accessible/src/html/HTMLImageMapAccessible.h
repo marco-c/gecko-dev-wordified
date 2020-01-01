@@ -285,16 +285,6 @@ aDoc
 ;
 /
 /
-nsAccessNode
-virtual
-bool
-IsPrimaryForNode
-(
-)
-const
-;
-/
-/
 Accessible
 virtual
 void

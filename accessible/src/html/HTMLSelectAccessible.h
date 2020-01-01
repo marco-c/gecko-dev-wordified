@@ -1153,13 +1153,6 @@ GetFrame
 )
 const
 ;
-virtual
-bool
-IsPrimaryForNode
-(
-)
-const
-;
 /
 /
 Accessible
