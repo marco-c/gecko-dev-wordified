@@ -8045,6 +8045,14 @@ mWeakShell
 )
 )
 ;
+if
+(
+!
+shell
+)
+return
+nsnull
+;
 nsIViewManager
 *
 vm
@@ -8058,9 +8066,12 @@ GetViewManager
 ;
 if
 (
+!
 vm
 )
-{
+return
+nsnull
+;
 nsCOMPtr
 <
 nsIWidget
@@ -8091,7 +8102,6 @@ GetNativeData
 NS_NATIVE_WINDOW
 )
 ;
-}
 return
 nsnull
 ;
