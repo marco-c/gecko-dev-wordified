@@ -1512,7 +1512,7 @@ strict
 commonOptions
 |
 =
-JSOPTION_STRICT
+JSOPTION_EXTRA_WARNINGS
 ;
 }
 if

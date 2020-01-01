@@ -6024,14 +6024,14 @@ strict
 newDefaultJSOptions
 |
 =
-JSOPTION_STRICT
+JSOPTION_EXTRA_WARNINGS
 ;
 else
 newDefaultJSOptions
 &
 =
 ~
-JSOPTION_STRICT
+JSOPTION_EXTRA_WARNINGS
 ;
 /
 /
@@ -6426,7 +6426,7 @@ strictDebug
 (
 newDefaultJSOptions
 &
-JSOPTION_STRICT
+JSOPTION_EXTRA_WARNINGS
 )
 =
 =
@@ -6444,7 +6444,7 @@ contentWindow
 newDefaultJSOptions
 |
 =
-JSOPTION_STRICT
+JSOPTION_EXTRA_WARNINGS
 ;
 }
 #

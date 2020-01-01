@@ -1444,7 +1444,7 @@ true
 }
 /
 /
-JSOPTION_STRICT
+JSOPTION_EXTRA_WARNINGS
 warnings
 or
 strict
