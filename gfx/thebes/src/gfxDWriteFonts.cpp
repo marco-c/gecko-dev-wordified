@@ -1551,7 +1551,12 @@ SanitizeMetrics
 (
 &
 mMetrics
-PR_FALSE
+GetFontEntry
+(
+)
+-
+>
+mIsBadUnderlineFont
 )
 ;
 #
