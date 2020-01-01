@@ -41,10 +41,11 @@ schema
 version
 10
 to
+the
+current
+*
 schema
 version
-*
-11
 .
 *
 /
@@ -2063,7 +2064,7 @@ do_check_eq
 db
 .
 schemaVersion
-11
+CURRENT_SCHEMA_VERSION
 )
 ;
 db
