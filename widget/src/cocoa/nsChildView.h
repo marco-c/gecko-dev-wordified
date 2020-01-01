@@ -1180,15 +1180,6 @@ mKeyPressHandled
 ;
 /
 /
-needed
-for
-NSTextInput
-implementation
-NSRange
-mMarkedRange
-;
-/
-/
 when
 mouseDown
 :
