@@ -266,13 +266,6 @@ defined
 (
 WEBRTC_ANDROID
 )
-&
-&
-!
-defined
-(
-WEBRTC_GONK
-)
 _numberOfCores
 =
 get_nprocs
