@@ -870,13 +870,6 @@ string
 .
 h
 >
-#
-include
-"
-jscompat
-.
-h
-"
 /
 *
 *

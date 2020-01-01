@@ -87,13 +87,6 @@ h
 #
 include
 "
-jscompat
-.
-h
-"
-#
-include
-"
 jscpucfg
 .
 h

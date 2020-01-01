@@ -462,13 +462,6 @@ jstypes
 .
 h
 "
-#
-include
-"
-jscompat
-.
-h
-"
 JS_BEGIN_EXTERN_C
 typedef
 uint32_t
