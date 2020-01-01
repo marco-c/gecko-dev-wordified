@@ -190,12 +190,12 @@ BrowserStreamChild
 (
 )
 ;
-NS_OVERRIDE
 virtual
 bool
 IsBrowserStream
 (
 )
+MOZ_OVERRIDE
 {
 return
 true

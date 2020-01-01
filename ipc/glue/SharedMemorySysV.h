@@ -325,7 +325,6 @@ mData
 nsnull
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 Create
@@ -333,6 +332,7 @@ Create
 size_t
 aNbytes
 )
+MOZ_OVERRIDE
 {
 int
 id
@@ -377,7 +377,6 @@ aNbytes
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 Map
@@ -385,6 +384,7 @@ Map
 size_t
 nBytes
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -563,7 +563,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 void
 *
@@ -571,18 +570,19 @@ memory
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mData
 ;
 }
-NS_OVERRIDE
 virtual
 SharedMemoryType
 Type
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 TYPE_SYSV

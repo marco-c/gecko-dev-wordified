@@ -309,7 +309,6 @@ Destroy
 (
 )
 ;
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -317,6 +316,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 ;
 virtual
 PPluginScriptableObjectParent
@@ -325,7 +325,6 @@ AllocPPluginScriptableObject
 (
 )
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvPPluginScriptableObjectConstructor
@@ -334,6 +333,7 @@ PPluginScriptableObjectParent
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -662,7 +662,6 @@ NPError
 result
 )
 ;
-NS_OVERRIDE
 virtual
 bool
 AnswerPStreamNotifyConstructor
@@ -694,6 +693,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -779,7 +779,6 @@ AnswerNPN_PopPopupsEnabledState
 (
 )
 ;
-NS_OVERRIDE
 virtual
 bool
 AnswerNPN_GetValueForURL
@@ -799,8 +798,8 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 AnswerNPN_SetValueForURL
@@ -821,8 +820,8 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 AnswerNPN_GetAuthenticationInfo
@@ -857,8 +856,8 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 AnswerNPN_ConvertPoint
@@ -897,6 +896,7 @@ bool
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -924,12 +924,12 @@ RecvRedrawPlugin
 (
 )
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNegotiatedCarbon
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1284,15 +1284,14 @@ GetImageContainer
 (
 )
 ;
-NS_OVERRIDE
 virtual
 PPluginBackgroundDestroyerParent
 *
 AllocPPluginBackgroundDestroyer
 (
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 DeallocPPluginBackgroundDestroyer
@@ -1301,6 +1300,7 @@ PPluginBackgroundDestroyerParent
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 bool
 InternalGetValueForNPObject

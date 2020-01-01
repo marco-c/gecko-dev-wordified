@@ -178,7 +178,6 @@ TestDataStructuresSub
 )
 {
 }
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -186,6 +185,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -337,7 +337,6 @@ Main
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 PTestDataStructuresSubParent
 *
@@ -348,6 +347,7 @@ int
 &
 i
 )
+MOZ_OVERRIDE
 {
 PTestDataStructuresSubParent
 *
@@ -370,7 +370,6 @@ return
 actor
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestDataStructuresSub
@@ -379,8 +378,8 @@ PTestDataStructuresSubParent
 *
 actor
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest1
@@ -399,8 +398,8 @@ int
 *
 o1
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest2
@@ -421,8 +420,8 @@ PTestDataStructuresSubParent
 *
 o1
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest3
@@ -442,8 +441,8 @@ IntDouble
 *
 o2
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest4
@@ -462,8 +461,8 @@ IntDouble
 *
 o1
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest5
@@ -490,8 +489,8 @@ IntDoubleArrays
 *
 o3
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest6
@@ -510,8 +509,8 @@ IntDoubleArrays
 *
 o1
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest7_0
@@ -524,8 +523,8 @@ ActorWrapper
 *
 o1
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest7
@@ -552,8 +551,8 @@ Actors
 *
 o3
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest8
@@ -572,8 +571,8 @@ Actors
 *
 o1
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest9
@@ -607,8 +606,8 @@ Unions
 *
 o4
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest10
@@ -627,8 +626,8 @@ Unions
 *
 o1
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest11
@@ -641,8 +640,8 @@ SIntDouble
 *
 o
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest12
@@ -655,8 +654,8 @@ SIntDoubleArrays
 *
 o
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest13
@@ -669,8 +668,8 @@ SActors
 *
 o
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest14
@@ -683,8 +682,8 @@ Structs
 *
 o
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest15
@@ -725,8 +724,8 @@ WithStructs
 *
 o5
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest16
@@ -739,8 +738,8 @@ WithUnions
 *
 o
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest17
@@ -753,8 +752,8 @@ Op
 &
 sa
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest18
@@ -767,8 +766,8 @@ nsIntRegion
 &
 ra
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvDummy
@@ -781,6 +780,7 @@ ShmemUnion
 *
 rsu
 )
+MOZ_OVERRIDE
 {
 *
 rsu
@@ -791,7 +791,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -799,6 +798,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -859,7 +859,6 @@ TestDataStructuresChild
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 PTestDataStructuresSubChild
 *
@@ -870,6 +869,7 @@ int
 &
 i
 )
+MOZ_OVERRIDE
 {
 PTestDataStructuresSubChild
 *
@@ -892,7 +892,6 @@ return
 actor
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestDataStructuresSub
@@ -901,6 +900,7 @@ PTestDataStructuresSubChild
 *
 actor
 )
+MOZ_OVERRIDE
 {
 delete
 actor
@@ -909,14 +909,13 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvStart
 (
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -924,6 +923,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (

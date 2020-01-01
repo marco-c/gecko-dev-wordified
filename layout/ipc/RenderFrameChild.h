@@ -154,15 +154,14 @@ Destroy
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 PLayersChild
 *
 AllocPLayers
 (
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 DeallocPLayers
@@ -171,6 +170,7 @@ PLayersChild
 *
 aLayers
 )
+MOZ_OVERRIDE
 ;
 }
 ;

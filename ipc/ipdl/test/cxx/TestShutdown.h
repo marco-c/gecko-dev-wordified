@@ -200,7 +200,6 @@ TestShutdownSubsubParent
 }
 protected
 :
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -208,6 +207,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -266,12 +266,12 @@ manager
 }
 protected
 :
-NS_OVERRIDE
 virtual
 bool
 AnswerStackFrame
 (
 )
+MOZ_OVERRIDE
 {
 return
 CallStackFrame
@@ -279,7 +279,6 @@ CallStackFrame
 )
 ;
 }
-NS_OVERRIDE
 virtual
 PTestShutdownSubsubParent
 *
@@ -290,6 +289,7 @@ bool
 &
 expectParentDelete
 )
+MOZ_OVERRIDE
 {
 return
 new
@@ -299,7 +299,6 @@ expectParentDelete
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestShutdownSubsub
@@ -308,6 +307,7 @@ PTestShutdownSubsubParent
 *
 actor
 )
+MOZ_OVERRIDE
 {
 delete
 actor
@@ -320,7 +320,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -328,6 +327,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -396,18 +396,17 @@ Main
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 bool
 RecvSync
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 PTestShutdownSubParent
 *
@@ -418,6 +417,7 @@ bool
 &
 expectCrash
 )
+MOZ_OVERRIDE
 {
 return
 new
@@ -427,7 +427,6 @@ expectCrash
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestShutdownSub
@@ -436,6 +435,7 @@ PTestShutdownSubParent
 *
 actor
 )
+MOZ_OVERRIDE
 {
 delete
 actor
@@ -444,7 +444,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -452,6 +451,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -567,7 +567,6 @@ TestShutdownSubsubChild
 }
 protected
 :
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -575,6 +574,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -612,14 +612,13 @@ TestShutdownSubChild
 }
 protected
 :
-NS_OVERRIDE
 virtual
 bool
 AnswerStackFrame
 (
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 PTestShutdownSubsubChild
 *
@@ -630,6 +629,7 @@ bool
 &
 expectParentDelete
 )
+MOZ_OVERRIDE
 {
 return
 new
@@ -639,7 +639,6 @@ expectParentDelete
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestShutdownSubsub
@@ -648,6 +647,7 @@ PTestShutdownSubsubChild
 *
 actor
 )
+MOZ_OVERRIDE
 {
 delete
 actor
@@ -656,7 +656,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -664,6 +663,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -694,14 +694,12 @@ TestShutdownChild
 }
 protected
 :
-NS_OVERRIDE
 virtual
 bool
 RecvStart
 (
 )
 ;
-NS_OVERRIDE
 virtual
 PTestShutdownSubChild
 *
@@ -712,6 +710,7 @@ bool
 &
 expectCrash
 )
+MOZ_OVERRIDE
 {
 return
 new
@@ -721,7 +720,6 @@ expectCrash
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestShutdownSub
@@ -730,6 +728,7 @@ PTestShutdownSubChild
 *
 actor
 )
+MOZ_OVERRIDE
 {
 delete
 actor
@@ -738,7 +737,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -746,6 +744,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 ;
 }
 ;

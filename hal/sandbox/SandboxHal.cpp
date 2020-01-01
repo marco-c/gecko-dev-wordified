@@ -1184,7 +1184,6 @@ SwitchObserver
 {
 public
 :
-NS_OVERRIDE
 virtual
 bool
 RecvVibrate
@@ -1208,6 +1207,7 @@ PBrowserParent
 *
 browserParent
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -1403,7 +1403,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvCancelVibrate
@@ -1419,6 +1418,7 @@ PBrowserParent
 *
 browserParent
 )
+MOZ_OVERRIDE
 {
 TabParent
 *
@@ -1468,12 +1468,12 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvEnableBatteryNotifications
 (
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -1487,12 +1487,12 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvDisableBatteryNotifications
 (
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -1506,7 +1506,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvGetCurrentBatteryInformation
@@ -1515,6 +1514,7 @@ BatteryInformation
 *
 aBatteryInfo
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -1536,6 +1536,7 @@ BatteryInformation
 &
 aBatteryInfo
 )
+MOZ_OVERRIDE
 {
 unused
 <
@@ -1546,12 +1547,12 @@ aBatteryInfo
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvEnableNetworkNotifications
 (
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -1565,12 +1566,12 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvDisableNetworkNotifications
 (
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -1584,7 +1585,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvGetCurrentNetworkInformation
@@ -1593,6 +1593,7 @@ NetworkInformation
 *
 aNetworkInfo
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -1624,12 +1625,12 @@ aNetworkInfo
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvEnableScreenConfigurationNotifications
 (
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -1643,12 +1644,12 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvDisableScreenConfigurationNotifications
 (
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -1662,7 +1663,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvGetCurrentScreenConfiguration
@@ -1671,6 +1671,7 @@ ScreenConfiguration
 *
 aScreenConfiguration
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -1684,7 +1685,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvLockScreenOrientation
@@ -1700,6 +1700,7 @@ bool
 *
 aAllowed
 )
+MOZ_OVERRIDE
 {
 *
 aAllowed
@@ -1716,12 +1717,12 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvUnlockScreenOrientation
 (
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -1752,7 +1753,6 @@ aScreenConfiguration
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvGetScreenEnabled
@@ -1761,6 +1761,7 @@ bool
 *
 enabled
 )
+MOZ_OVERRIDE
 {
 *
 enabled
@@ -1776,7 +1777,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvSetScreenEnabled
@@ -1786,6 +1786,7 @@ bool
 &
 enabled
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -1799,7 +1800,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvGetCpuSleepAllowed
@@ -1808,6 +1808,7 @@ bool
 *
 allowed
 )
+MOZ_OVERRIDE
 {
 *
 allowed
@@ -1823,7 +1824,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvSetCpuSleepAllowed
@@ -1833,6 +1833,7 @@ bool
 &
 allowed
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -1846,7 +1847,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvGetScreenBrightness
@@ -1855,6 +1855,7 @@ double
 *
 brightness
 )
+MOZ_OVERRIDE
 {
 *
 brightness
@@ -1870,7 +1871,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvSetScreenBrightness
@@ -1880,6 +1880,7 @@ double
 &
 brightness
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -1893,7 +1894,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvSetLight
@@ -1913,6 +1913,7 @@ bool
 *
 status
 )
+MOZ_OVERRIDE
 {
 *
 status
@@ -1930,7 +1931,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvGetLight
@@ -1946,6 +1946,7 @@ bool
 *
 status
 )
+MOZ_OVERRIDE
 {
 *
 status
@@ -1963,7 +1964,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvAdjustSystemClock
@@ -1973,6 +1973,7 @@ int32_t
 &
 aDeltaMilliseconds
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -1986,7 +1987,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvSetTimezone
@@ -1996,6 +1996,7 @@ nsCString
 &
 aTimezoneSpec
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -2009,12 +2010,12 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvReboot
 (
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -2027,12 +2028,12 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvPowerOff
 (
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -2045,7 +2046,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvEnableSensorNotifications
@@ -2055,6 +2055,7 @@ SensorType
 &
 aSensor
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -2069,7 +2070,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvDisableSensorNotifications
@@ -2079,6 +2079,7 @@ SensorType
 &
 aSensor
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -2111,7 +2112,6 @@ aSensorData
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvModifyWakeLock
@@ -2129,6 +2129,7 @@ WakeLockControl
 &
 aHiddenAdjust
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -2144,12 +2145,12 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvEnableWakeLockNotifications
 (
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -2163,12 +2164,12 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvDisableWakeLockNotifications
 (
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -2182,7 +2183,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvGetWakeLockInfo
@@ -2195,6 +2195,7 @@ WakeLockInformation
 *
 aWakeLockInfo
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -2227,7 +2228,6 @@ aWakeLockInfo
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvEnableSwitchNotifications
@@ -2237,6 +2237,7 @@ SwitchDevice
 &
 aDevice
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -2251,7 +2252,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvDisableSwitchNotifications
@@ -2261,6 +2261,7 @@ SwitchDevice
 &
 aDevice
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -2293,7 +2294,6 @@ aSwitchEvent
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvGetCurrentSwitchState
@@ -2309,6 +2309,7 @@ SwitchState
 *
 aState
 )
+MOZ_OVERRIDE
 {
 *
 aState
@@ -2335,7 +2336,6 @@ PHalChild
 {
 public
 :
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyBatteryChange
@@ -2345,6 +2345,7 @@ BatteryInformation
 &
 aBatteryInfo
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -2358,7 +2359,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvNotifySensorChange
@@ -2371,8 +2371,8 @@ SensorData
 &
 aSensorData
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyNetworkChange
@@ -2382,6 +2382,7 @@ NetworkInformation
 &
 aNetworkInfo
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -2395,7 +2396,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyWakeLockChange
@@ -2405,6 +2405,7 @@ WakeLockInformation
 &
 aWakeLockInfo
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -2418,7 +2419,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyScreenConfigurationChange
@@ -2428,6 +2428,7 @@ ScreenConfiguration
 &
 aScreenConfiguration
 )
+MOZ_OVERRIDE
 {
 hal
 :
@@ -2441,7 +2442,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvNotifySwitchChange
@@ -2457,6 +2457,7 @@ SwitchEvent
 &
 aEvent
 )
+MOZ_OVERRIDE
 {
 hal
 :

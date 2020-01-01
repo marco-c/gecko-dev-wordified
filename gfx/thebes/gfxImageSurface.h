@@ -625,7 +625,6 @@ h
 .
 *
 /
-NS_OVERRIDE
 virtual
 void
 MovePixels
@@ -639,6 +638,7 @@ nsIntPoint
 &
 aDestTopLeft
 )
+MOZ_OVERRIDE
 ;
 protected
 :

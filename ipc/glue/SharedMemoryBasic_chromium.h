@@ -208,7 +208,6 @@ false
 )
 {
 }
-NS_OVERRIDE
 virtual
 bool
 Create
@@ -216,6 +215,7 @@ Create
 size_t
 aNbytes
 )
+MOZ_OVERRIDE
 {
 bool
 ok
@@ -246,7 +246,6 @@ return
 ok
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 Map
@@ -254,6 +253,7 @@ Map
 size_t
 nBytes
 )
+MOZ_OVERRIDE
 {
 bool
 ok
@@ -280,7 +280,6 @@ return
 ok
 ;
 }
-NS_OVERRIDE
 virtual
 void
 *
@@ -288,6 +287,7 @@ memory
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mSharedMemory
@@ -297,13 +297,13 @@ memory
 )
 ;
 }
-NS_OVERRIDE
 virtual
 SharedMemoryType
 Type
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 TYPE_BASIC

@@ -184,13 +184,13 @@ mWhy
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 PTestSelfManageParent
 *
 AllocPTestSelfManage
 (
 )
+MOZ_OVERRIDE
 {
 return
 new
@@ -199,7 +199,6 @@ TestSelfManageParent
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestSelfManage
@@ -208,12 +207,12 @@ PTestSelfManageParent
 *
 a
 )
+MOZ_OVERRIDE
 {
 return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -221,6 +220,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 mWhy
 =
@@ -286,13 +286,13 @@ Main
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 PTestSelfManageParent
 *
 AllocPTestSelfManage
 (
 )
+MOZ_OVERRIDE
 {
 return
 new
@@ -301,7 +301,6 @@ TestSelfManageParent
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestSelfManage
@@ -310,12 +309,12 @@ PTestSelfManageParent
 *
 a
 )
+MOZ_OVERRIDE
 {
 return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -323,6 +322,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -469,13 +469,13 @@ TestSelfManageChild
 }
 protected
 :
-NS_OVERRIDE
 virtual
 PTestSelfManageChild
 *
 AllocPTestSelfManage
 (
 )
+MOZ_OVERRIDE
 {
 return
 new
@@ -484,7 +484,6 @@ TestSelfManageChild
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestSelfManage
@@ -493,6 +492,7 @@ PTestSelfManageChild
 *
 a
 )
+MOZ_OVERRIDE
 {
 delete
 a
@@ -501,7 +501,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -509,6 +508,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 }
 }
@@ -550,13 +550,13 @@ Main
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 PTestSelfManageChild
 *
 AllocPTestSelfManage
 (
 )
+MOZ_OVERRIDE
 {
 return
 new
@@ -565,7 +565,6 @@ TestSelfManageChild
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestSelfManage
@@ -574,6 +573,7 @@ PTestSelfManageChild
 *
 a
 )
+MOZ_OVERRIDE
 {
 delete
 a
@@ -582,7 +582,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -590,6 +589,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (

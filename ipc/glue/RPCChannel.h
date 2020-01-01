@@ -522,11 +522,11 @@ RPCChannel
 (
 )
 ;
-NS_OVERRIDE
 void
 Clear
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -570,7 +570,6 @@ be
 counted
 against
 mStackFrames
-NS_OVERRIDE
 virtual
 bool
 Send
@@ -579,8 +578,8 @@ Message
 *
 msg
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 Send
@@ -592,6 +591,7 @@ Message
 *
 reply
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -810,7 +810,6 @@ empty
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 OnSpecialMessage
@@ -822,6 +821,7 @@ Message
 &
 msg
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -903,7 +903,6 @@ SpinInternalEventLoop
 endif
 protected
 :
-NS_OVERRIDE
 virtual
 void
 OnMessageReceivedFromLink
@@ -913,13 +912,14 @@ Message
 &
 msg
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 void
 OnChannelErrorFromLink
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -948,13 +948,13 @@ mListener
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 ShouldDeferNotifyMaybeError
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 IsOnCxxStack

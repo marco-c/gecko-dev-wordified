@@ -970,7 +970,6 @@ aRemoteFrame
 )
 {
 }
-NS_OVERRIDE
 virtual
 LayerState
 GetLayerState
@@ -986,6 +985,7 @@ ContainerParameters
 &
 aParameters
 )
+MOZ_OVERRIDE
 {
 return
 mozilla
@@ -994,7 +994,6 @@ mozilla
 LAYER_ACTIVE_FORCE
 ;
 }
-NS_OVERRIDE
 virtual
 already_AddRefed
 <
@@ -1013,6 +1012,7 @@ ContainerParameters
 &
 aContainerParameters
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -1146,7 +1146,6 @@ aId
 )
 {
 }
-NS_OVERRIDE
 nsRect
 GetBounds
 (
@@ -1157,6 +1156,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 {
 *
 aSnap
@@ -1181,7 +1181,6 @@ return
 0
 ;
 }
-NS_OVERRIDE
 void
 HitTest
 (
@@ -1203,6 +1202,7 @@ nsIFrame
 *
 aOutFrames
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (

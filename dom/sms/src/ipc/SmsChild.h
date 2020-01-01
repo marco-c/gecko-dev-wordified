@@ -129,7 +129,6 @@ PSmsChild
 {
 public
 :
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyReceivedMessage
@@ -139,8 +138,8 @@ SmsMessageData
 &
 aMessage
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNotifySentMessage
@@ -150,8 +149,8 @@ SmsMessageData
 &
 aMessage
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyDeliveredMessage
@@ -161,8 +160,8 @@ SmsMessageData
 &
 aMessage
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyRequestSmsSent
@@ -180,8 +179,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyRequestSmsSendFailed
@@ -199,8 +198,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyRequestGotSms
@@ -218,8 +217,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyRequestGetSmsFailed
@@ -237,8 +236,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyRequestSmsDeleted
@@ -256,8 +255,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyRequestSmsDeleteFailed
@@ -275,8 +274,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyRequestNoMessageInList
@@ -290,8 +289,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyRequestCreateMessageList
@@ -313,8 +312,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyRequestGotNextMessage
@@ -332,8 +331,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyRequestReadListFailed
@@ -351,8 +350,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyRequestMarkedMessageRead
@@ -370,8 +369,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvNotifyRequestMarkMessageReadFailed
@@ -389,6 +388,7 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
 }
 ;

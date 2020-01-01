@@ -595,7 +595,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 AnswerPaint
@@ -608,6 +607,7 @@ int16_t
 *
 handled
 )
+MOZ_OVERRIDE
 {
 PaintTracker
 pt
@@ -620,7 +620,6 @@ handled
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 RecvWindowPosChanged
@@ -630,6 +629,7 @@ NPRemoteEvent
 &
 event
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -656,7 +656,6 @@ PPluginScriptableObjectChild
 aObject
 )
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvPPluginScriptableObjectConstructor
@@ -665,6 +664,7 @@ PPluginScriptableObjectChild
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 virtual
 PBrowserStreamChild
@@ -814,7 +814,6 @@ NPError
 result
 )
 ;
-NS_OVERRIDE
 virtual
 bool
 DeallocPStreamNotify
@@ -823,6 +822,7 @@ PStreamNotifyChild
 *
 notifyData
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1054,7 +1054,6 @@ NPAsyncSurface
 aSurface
 )
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvUpdateBackground
@@ -1068,16 +1067,16 @@ nsIntRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 PPluginBackgroundDestroyerChild
 *
 AllocPPluginBackgroundDestroyer
 (
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvPPluginBackgroundDestroyerConstructor
@@ -1086,8 +1085,8 @@ PPluginBackgroundDestroyerChild
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 DeallocPPluginBackgroundDestroyer
@@ -1096,6 +1095,7 @@ PPluginBackgroundDestroyerChild
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 #
 if
@@ -1391,11 +1391,11 @@ isWindowed
 )
 {
 }
-NS_OVERRIDE
 void
 Run
 (
 )
+MOZ_OVERRIDE
 ;
 WNDPROC
 GetProc

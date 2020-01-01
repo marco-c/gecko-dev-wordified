@@ -164,7 +164,6 @@ mLayer
 }
 protected
 :
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -172,6 +171,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 ;
 private
 :
