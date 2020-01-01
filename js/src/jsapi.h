@@ -14865,7 +14865,7 @@ jsval
 v
 ;
 *
-JS_AddNamedRootedValue
+JS_AddNamedValueRoot
 (
 cx
 &
@@ -14883,7 +14883,7 @@ must
 perform
 *
 *
-JS_RemoveRootedValue
+JS_RemoveValueRoot
 (
 cx
 &
