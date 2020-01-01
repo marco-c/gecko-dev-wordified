@@ -2629,7 +2629,6 @@ strlen
 (
 name
 )
-0
 )
 ;
 Value
@@ -7254,7 +7253,6 @@ strlen
 (
 s
 )
-0
 )
 ;
 if
