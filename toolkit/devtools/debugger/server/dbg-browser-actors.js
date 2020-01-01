@@ -2805,6 +2805,13 @@ new
 ThreadActor
 (
 this
+this
+.
+browser
+.
+contentWindow
+.
+wrappedJSObject
 )
 ;
 this
