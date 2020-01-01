@@ -1699,6 +1699,11 @@ None
 return
 None
           
+data
++
+=
+temp
+          
 #
 If
 something
@@ -1729,28 +1734,17 @@ ERROR
 '
           
 if
-(
 self
 .
 agentErrorRE
 .
 match
 (
-temp
-)
+data
 )
 :
             
-data
-=
-temp
-            
 break
-          
-data
-+
-=
-temp
           
 for
 line
@@ -1763,19 +1757,28 @@ splitlines
 :
             
 if
-(
 promptre
 .
 match
 (
 line
 )
-)
 :
               
 found
 =
 True
+              
+data
+=
+self
+.
+_stripPrompt
+(
+data
+)
+              
+break
           
 #
 If
@@ -1877,7 +1880,7 @@ x00
 '
   
 def
-stripPrompt
+_stripPrompt
 (
 self
 data
@@ -2328,12 +2331,7 @@ retVal
       
 retline
 =
-self
-.
-stripPrompt
-(
 retVal
-)
 .
 strip
 (
@@ -2985,27 +2983,6 @@ DMError
 return
 False
     
-retVal
-=
-self
-.
-stripPrompt
-(
-data
-)
-    
-data
-=
-retVal
-.
-split
-(
-'
-\
-n
-'
-)
-    
 found
 =
 False
@@ -3014,6 +2991,10 @@ for
 d
 in
 data
+.
+splitlines
+(
+)
 :
       
 if
@@ -3253,15 +3234,6 @@ return
 [
 ]
     
-retVal
-=
-self
-.
-stripPrompt
-(
-data
-)
-    
 files
 =
 filter
@@ -3270,14 +3242,10 @@ lambda
 x
 :
 x
-retVal
+data
 .
-split
+splitlines
 (
-'
-\
-n
-'
 )
 )
     
@@ -3571,27 +3539,6 @@ return
 [
 ]
     
-retVal
-=
-self
-.
-stripPrompt
-(
-data
-)
-    
-lines
-=
-retVal
-.
-split
-(
-'
-\
-n
-'
-)
-    
 files
 =
 [
@@ -3600,21 +3547,15 @@ files
 for
 line
 in
-lines
+data
+.
+splitlines
+(
+)
 :
       
 if
-(
 line
-.
-strip
-(
-)
-!
-=
-'
-'
-)
 :
         
 pidproc
@@ -4242,19 +4183,10 @@ return
 None
     
 return
-self
-.
-stripPrompt
-(
 data
-)
 .
 strip
 (
-'
-\
-n
-'
 )
   
 #
@@ -4311,12 +4243,7 @@ return
 None
     
 return
-self
-.
-stripPrompt
-(
 data
-)
   
 #
 external
@@ -5766,12 +5693,7 @@ False
     
 retVal
 =
-self
-.
-stripPrompt
-(
 data
-)
 .
 strip
 (
@@ -5956,32 +5878,18 @@ None
     
 retVal
 =
-self
-.
-stripPrompt
-(
-data
-)
+None
     
 if
-(
-retVal
-!
-=
-None
-)
+data
 :
       
 retVal
 =
-retVal
+data
 .
 strip
 (
-'
-\
-n
-'
 )
     
 if
@@ -6179,19 +6087,10 @@ None
     
 deviceRoot
 =
-self
-.
-stripPrompt
-(
 data
-)
 .
 strip
 (
-'
-\
-n
-'
 )
 +
 '
@@ -6263,25 +6162,12 @@ except
 return
 None
     
-appRoot
-=
-self
-.
-stripPrompt
-(
+return
 data
-)
 .
 strip
 (
-'
-\
-n
-'
 )
-    
-return
-appRoot
   
 #
 external
@@ -6998,15 +6884,6 @@ None
 :
         
 continue
-      
-data
-=
-self
-.
-stripPrompt
-(
-data
-)
       
 data
 =
@@ -7948,19 +7825,10 @@ return
 None
     
 return
-self
-.
-stripPrompt
-(
 data
-)
 .
 strip
 (
-'
-\
-n
-'
 )
   
 "
