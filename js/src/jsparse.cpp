@@ -5413,13 +5413,6 @@ pn
 &
 &
 onlyXML
-&
-&
-(
-tcflags
-&
-TCF_NO_SCRIPT_RVAL
-)
 )
 {
 parser
