@@ -3679,6 +3679,7 @@ MAT3
 ;
 if
 (
+!
 MAT3inverse
 (
 &
@@ -3686,8 +3687,6 @@ m
 &
 a_1
 )
-<
-0
 )
 return
 FALSE

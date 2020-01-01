@@ -928,18 +928,6 @@ WhitePt
 >
 y
 ;
-if
-(
-yn
-=
-=
-0
-.
-0
-)
-return
-FALSE
-;
 xr
 =
 Primrs
@@ -1073,6 +1061,7 @@ inverse
 matrix
 if
 (
+!
 MAT3inverse
 (
 &
@@ -1080,8 +1069,6 @@ Primaries
 &
 Result
 )
-<
-0
 )
 return
 FALSE
