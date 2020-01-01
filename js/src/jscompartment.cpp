@@ -4354,8 +4354,10 @@ DebugFromC
 |
 (
 b
-*
+?
 DebugFromC
+:
+0
 )
 ;
 JS_ASSERT
