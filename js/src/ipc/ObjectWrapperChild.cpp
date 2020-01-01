@@ -544,6 +544,10 @@ mozilla
 :
 jsipc
 ;
+using
+namespace
+js
+;
 namespace
 {
 class
@@ -2526,7 +2530,7 @@ state
 return
 false
 ;
-JSAutoTempValueRooter
+AutoValueRooter
 tvr
 (
 cx
@@ -2552,7 +2556,7 @@ proto
 )
 )
 {
-JSAutoIdArray
+AutoIdArray
 ids
 (
 cx
@@ -2607,7 +2611,7 @@ nsString
 strIds
 ;
 {
-JSAutoIdArray
+AutoIdArray
 ids
 (
 cx
@@ -3364,7 +3368,7 @@ jsargs
 return
 false
 ;
-JSAutoTempValueRooter
+AutoArrayRooter
 tvr
 (
 cx
@@ -3527,7 +3531,7 @@ jsargs
 return
 false
 ;
-JSAutoTempValueRooter
+AutoArrayRooter
 tvr
 (
 cx
