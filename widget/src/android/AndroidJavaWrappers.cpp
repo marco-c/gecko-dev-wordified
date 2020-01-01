@@ -2735,6 +2735,7 @@ beginDrawing
 "
 "
 (
+II
 )
 V
 "
@@ -4194,6 +4195,10 @@ AndroidGeckoSoftwareLayerClient
 :
 BeginDrawing
 (
+int
+aWidth
+int
+aHeight
 )
 {
 NS_ASSERTION
@@ -4234,6 +4239,8 @@ CallVoidMethod
 (
 wrapped_obj
 jBeginDrawingMethod
+aWidth
+aHeight
 )
 ;
 }

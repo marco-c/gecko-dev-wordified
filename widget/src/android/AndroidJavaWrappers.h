@@ -932,6 +932,10 @@ UnlockBuffer
 void
 BeginDrawing
 (
+int
+aWidth
+int
+aHeight
 )
 ;
 void
