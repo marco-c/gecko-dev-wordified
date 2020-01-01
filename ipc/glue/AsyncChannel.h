@@ -707,6 +707,14 @@ peer_pid
 ;
 }
 ;
+enum
+Side
+{
+Parent
+Child
+Unknown
+}
+;
 public
 :
 /
@@ -798,6 +806,10 @@ MessageLoop
 aIOLoop
 =
 0
+Side
+aSide
+=
+Unknown
 )
 ;
 /
