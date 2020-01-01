@@ -424,6 +424,10 @@ nsIServiceManager
 .
 h
 "
+#
+define
+DEFAULT_SENSOR_POLL
+100
 using
 namespace
 mozilla
@@ -1620,7 +1624,7 @@ InitWithFuncCallback
 (
 UpdateHandler
 this
-mUpdateInterval
+DEFAULT_SENSOR_POLL
 nsITimer
 :
 :
