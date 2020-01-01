@@ -1104,9 +1104,6 @@ LSnapshot
 *
 snapshot_
 ;
-uint32
-frameSize_
-;
 public
 :
 OutOfLineBailout
@@ -1114,17 +1111,11 @@ OutOfLineBailout
 LSnapshot
 *
 snapshot
-uint32
-frameSize
 )
 :
 snapshot_
 (
 snapshot
-)
-frameSize_
-(
-frameSize
 )
 {
 }

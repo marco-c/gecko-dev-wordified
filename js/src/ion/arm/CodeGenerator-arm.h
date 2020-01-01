@@ -1170,14 +1170,6 @@ unbox
 )
 ;
 bool
-visitUnboxDouble
-(
-LUnboxDouble
-*
-ins
-)
-;
-bool
 visitValue
 (
 LValue
