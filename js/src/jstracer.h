@@ -809,6 +809,10 @@ while
 )
 #
 define
+TYPEMAP_TYPE_ANY
+7
+#
+define
 TYPEMAP_FLAG_DEMOTE
 0x10
 /
@@ -841,6 +845,10 @@ TraceRecorder
 JSContext
 *
 cx
+;
+JSStackFrame
+*
+global
 ;
 Tracker
 <
@@ -1002,6 +1010,7 @@ import
 (
 jsval
 *
+p
 uint8
 &
 t
