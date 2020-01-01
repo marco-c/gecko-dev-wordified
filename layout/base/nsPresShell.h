@@ -675,6 +675,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsRefreshDriver
+.
+h
+"
 class
 nsIRange
 ;
