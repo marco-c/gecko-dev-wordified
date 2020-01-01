@@ -2071,9 +2071,6 @@ NS_LITERAL_STRING
 ville
 "
 )
-nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {
