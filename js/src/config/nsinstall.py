@@ -634,6 +634,17 @@ try_again
 )
 :
     
+dir
+=
+os
+.
+path
+.
+abspath
+(
+dir
+)
+    
 if
 os
 .
