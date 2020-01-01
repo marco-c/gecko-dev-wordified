@@ -809,10 +809,6 @@ NS_ABORT_IF_FALSE
 (
 !
 mBaseInterval
-&
-&
-!
-mCreator
 "
 Destroying
 instance
