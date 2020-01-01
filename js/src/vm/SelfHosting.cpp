@@ -963,7 +963,7 @@ intrinsic_ThrowError
 JS_FN
 (
 "
-_MakeConstructible
+MakeConstructible
 "
 intrinsic_MakeConstructible
 1
@@ -972,7 +972,7 @@ intrinsic_MakeConstructible
 JS_FN
 (
 "
-_DecompileArg
+DecompileArg
 "
 intrinsic_DecompileArg
 2
