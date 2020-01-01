@@ -2422,7 +2422,7 @@ endif
 if
 defined
 (
-_M_IA32
+_M_IX86
 )
 |
 |
@@ -2573,7 +2573,7 @@ FPU
 exceptions
 *
 /
-X86SW
+X87SW
 (
 c
 )
@@ -2593,7 +2593,7 @@ exceptions
 /
 #
 ifdef
-_M_IA32
+_M_IX86
 if
 (
 c
@@ -2642,7 +2642,7 @@ exceptions
 /
 #
 ifdef
-_M_IA32
+_M_IX86
 }
 #
 endif
