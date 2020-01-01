@@ -4363,7 +4363,6 @@ XP_OS2
 /
 *
 Win32
-Win16
 and
 OS
 /
