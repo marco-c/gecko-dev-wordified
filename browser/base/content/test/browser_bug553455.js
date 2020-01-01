@@ -470,6 +470,8 @@ addon
 install
 -
 blocked
+-
+notification
 "
 "
 Should
@@ -624,6 +626,8 @@ addon
 install
 -
 complete
+-
+notification
 "
 "
 Should
@@ -897,6 +901,8 @@ addon
 install
 -
 complete
+-
+notification
 "
 "
 Should
@@ -1158,6 +1164,8 @@ addon
 install
 -
 failed
+-
+notification
 "
 "
 Should
@@ -1366,6 +1374,8 @@ addon
 install
 -
 failed
+-
+notification
 "
 "
 Should
@@ -1576,6 +1586,8 @@ addon
 install
 -
 failed
+-
+notification
 "
 "
 Should
@@ -1811,6 +1823,8 @@ addon
 install
 -
 complete
+-
+notification
 "
 "
 Should
@@ -2123,6 +2137,8 @@ addon
 install
 -
 complete
+-
+notification
 "
 "
 Should
@@ -2381,6 +2397,8 @@ addon
 install
 -
 complete
+-
+notification
 "
 "
 Should
@@ -2614,6 +2632,8 @@ addon
 install
 -
 failed
+-
+notification
 "
 "
 Should
@@ -2785,6 +2805,8 @@ addon
 install
 -
 failed
+-
+notification
 "
 "
 Should
@@ -3022,6 +3044,8 @@ addon
 install
 -
 complete
+-
+notification
 "
 "
 Should
@@ -3415,6 +3439,8 @@ addon
 install
 -
 complete
+-
+notification
 "
 "
 Should
@@ -3608,6 +3634,8 @@ addon
 install
 -
 blocked
+-
+notification
 "
 "
 Should
@@ -3707,6 +3735,8 @@ addon
 install
 -
 blocked
+-
+notification
 "
 "
 Should
@@ -3967,6 +3997,8 @@ addon
 install
 -
 complete
+-
+notification
 "
 "
 Should
@@ -4107,6 +4139,8 @@ addon
 install
 -
 complete
+-
+notification
 "
 "
 Should
