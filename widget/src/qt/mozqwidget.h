@@ -364,6 +364,15 @@ QShowEvent
 aEvent
 )
 ;
+virtual
+bool
+event
+(
+QEvent
+*
+aEvent
+)
+;
 bool
 SetCursor
 (
