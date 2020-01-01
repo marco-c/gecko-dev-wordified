@@ -7882,9 +7882,6 @@ run_next_test
 /
 Test
 Runner
-let
-gTests
-=
 [
 test_interface_exists
 test_invalid_uri_throws
@@ -7937,6 +7934,11 @@ test_title_change_notifies
 test_visit_notifies
 test_referrer_sessionId_persists
 ]
+.
+forEach
+(
+add_test
+)
 ;
 function
 run_test

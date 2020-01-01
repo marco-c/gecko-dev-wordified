@@ -571,12 +571,6 @@ return
 visitId
 ;
 }
-var
-gTests
-=
-[
-]
-;
 /
 *
 *
@@ -596,9 +590,7 @@ asc
 .
 *
 /
-gTests
-.
-push
+add_test
 (
 function
 (
@@ -779,9 +771,7 @@ accordingly
 .
 *
 /
-gTests
-.
-push
+add_test
 (
 function
 (
@@ -972,9 +962,7 @@ asc
 .
 *
 /
-gTests
-.
-push
+add_test
 (
 function
 (
