@@ -1432,6 +1432,12 @@ if
 handle
 )
 {
+PR_MemUnmap
+(
+buf
+size
+)
+;
 PR_CloseFileMap
 (
 map
