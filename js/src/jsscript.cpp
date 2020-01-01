@@ -11665,6 +11665,16 @@ analysis
 return
 NULL
 ;
+if
+(
+!
+analysis
+-
+>
+hasAnalyzed
+(
+)
+)
 analysis
 -
 >
