@@ -1012,10 +1012,6 @@ iter
 callee
 (
 )
-.
-toFunction
-(
-)
 =
 =
 fun

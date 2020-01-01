@@ -12306,10 +12306,6 @@ iter
 callee
 (
 )
-.
-toFunction
-(
-)
 -
 >
 native
