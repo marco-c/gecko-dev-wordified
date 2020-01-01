@@ -7234,6 +7234,12 @@ allowZoom
 autozoomEnabled
 )
 {
+this
+.
+_currentElementRect
+=
+aElementRect
+;
 /
 /
 Even
