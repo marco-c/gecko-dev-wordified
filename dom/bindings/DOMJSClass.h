@@ -1344,6 +1344,17 @@ char
 *
 mToString
 ;
+const
+prototypes
+:
+:
+ID
+mPrototypeID
+;
+const
+uint32_t
+mDepth
+;
 static
 const
 DOMIfaceAndProtoJSClass
