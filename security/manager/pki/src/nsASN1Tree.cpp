@@ -1067,6 +1067,13 @@ CountVisibleNodes
 mTopNode
 )
 ;
+mTree
+-
+>
+BeginUpdateBatch
+(
+)
+;
 /
 /
 Erase
@@ -1100,6 +1107,13 @@ RowCountChanged
 (
 0
 newRows
+)
+;
+mTree
+-
+>
+EndUpdateBatch
+(
 )
 ;
 }
