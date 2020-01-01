@@ -886,13 +886,13 @@ chrome
 :
 /
 /
-browser
+toolkit
 /
 content
 /
 aboutStartup
 .
-html
+xhtml
 "
 nsIAboutModule
 :
