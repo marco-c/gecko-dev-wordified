@@ -3630,6 +3630,11 @@ fillUserbuf
 )
 ;
 int32
+getCharFillLinebuf
+(
+)
+;
+int32
 getChar
 (
 )
