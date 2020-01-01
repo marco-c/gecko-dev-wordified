@@ -781,11 +781,6 @@ dialog
 .
 *
 /
-"
-use
-strict
-"
-;
 var
 gButtons
 =

@@ -420,11 +420,6 @@ manifest
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 Cc
 =

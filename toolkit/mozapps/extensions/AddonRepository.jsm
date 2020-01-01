@@ -400,11 +400,6 @@ BLOCK
 *
 *
 /
-"
-use
-strict
-"
-;
 const
 Cc
 =
