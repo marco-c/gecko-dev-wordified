@@ -63437,14 +63437,22 @@ id
 \
 n
 "
-+
                     
 "
 return
+js
+:
+:
+IsInNonStrictPropertySet
+(
+cx
+)
+|
+|
 ThrowErrorMessage
 (
 cx
-MSG_NO_PROPERTY_SETTER
+MSG_NO_INDEXED_SETTER
 \
 "
 %
@@ -63456,20 +63464,19 @@ s
 \
 n
 "
-+
                     
 "
 }
 \
 n
 "
-)
 %
 self
 .
 descriptor
 .
 name
+)
         
 if
 UseHolderForUnforgeable
@@ -63827,10 +63834,19 @@ n
                         
 "
 return
+js
+:
+:
+IsInNonStrictPropertySet
+(
+cx
+)
+|
+|
 ThrowErrorMessage
 (
 cx
-MSG_NO_PROPERTY_SETTER
+MSG_NO_NAMED_SETTER
 \
 "
 %
@@ -63845,6 +63861,8 @@ n
                         
 "
 }
+\
+n
 "
 %
 self
