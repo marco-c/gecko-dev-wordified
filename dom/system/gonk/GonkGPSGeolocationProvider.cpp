@@ -2637,6 +2637,8 @@ Watch
 nsIGeolocationUpdate
 *
 aCallback
+bool
+aPrivate
 )
 {
 MOZ_ASSERT
