@@ -2592,14 +2592,7 @@ thing
 if
 (
 !
-reinterpret_cast
-<
-Cell
-*
->
-(
 thing
-)
 -
 >
 markIfUnmarked
@@ -2641,7 +2634,6 @@ RecursionTooDeep
 gcmarker
 )
 )
-{
 gcmarker
 -
 >
@@ -2650,16 +2642,13 @@ delayMarkingChildren
 thing
 )
 ;
-}
 else
-{
 MarkChildren
 (
 trc
 thing
 )
 ;
-}
 }
 static
 JS_ALWAYS_INLINE
@@ -2741,7 +2730,6 @@ RecursionTooDeep
 gcmarker
 )
 )
-{
 gcmarker
 -
 >
@@ -2750,16 +2738,13 @@ delayMarkingChildren
 thing
 )
 ;
-}
 else
-{
 MarkChildren
 (
 trc
 thing
 )
 ;
-}
 }
 static
 JS_ALWAYS_INLINE
@@ -2841,7 +2826,6 @@ RecursionTooDeep
 gcmarker
 )
 )
-{
 gcmarker
 -
 >
@@ -2850,9 +2834,7 @@ delayMarkingChildren
 thing
 )
 ;
-}
 else
-{
 MarkChildren
 (
 trc
@@ -2866,7 +2848,6 @@ thing
 )
 )
 ;
-}
 }
 static
 JS_ALWAYS_INLINE
@@ -3123,6 +3104,7 @@ id
 )
 )
 )
+{
 Mark
 (
 trc
@@ -3132,6 +3114,7 @@ id
 )
 )
 ;
+}
 }
 static
 inline

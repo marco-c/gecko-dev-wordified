@@ -6679,7 +6679,6 @@ end
 +
 c
 )
-{
 (
 *
 c
@@ -6691,7 +6690,6 @@ setGCLastBytes
 gcLastBytes
 )
 ;
-}
 }
 void
 JSRuntime
