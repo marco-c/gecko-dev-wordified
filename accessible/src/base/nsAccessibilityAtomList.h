@@ -773,6 +773,16 @@ body
 )
 ACCESSIBILITY_ATOM
 (
+caption
+"
+caption
+"
+)
+/
+/
+XUL
+ACCESSIBILITY_ATOM
+(
 choices
 "
 choices
