@@ -1578,6 +1578,12 @@ JSContext
 cx
 )
 {
+assertSameCompartment
+(
+cx
+this
+)
+;
 DebugVector
 *
 vec
