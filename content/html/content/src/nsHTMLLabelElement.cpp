@@ -635,6 +635,17 @@ Focus
 (
 )
 ;
+virtual
+bool
+IsDisabled
+(
+)
+const
+{
+return
+PR_FALSE
+;
+}
 /
 /
 nsIContent

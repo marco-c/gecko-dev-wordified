@@ -738,6 +738,17 @@ aFormSubmission
 )
 ;
 virtual
+bool
+IsDisabled
+(
+)
+const
+{
+return
+PR_FALSE
+;
+}
+virtual
 nsresult
 DoneAddingChildren
 (
