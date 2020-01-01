@@ -3091,7 +3091,7 @@ nsIPermissionManager
 ;
 permMgr
 .
-RemovePermissionsForApp
+removePermissionsForApp
 (
 localId
 false
