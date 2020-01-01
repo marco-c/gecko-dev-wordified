@@ -18338,7 +18338,7 @@ setUrlAndSearchBarWidthForConditionalForwardButton
 {
 /
 /
-Woraround
+Workaround
 for
 bug
 694084
