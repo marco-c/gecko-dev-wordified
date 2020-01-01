@@ -6509,7 +6509,7 @@ mozilla
 dom
 :
 :
-TraceProtoOrIfaceCache
+TraceProtoAndIfaceCache
 (
 trc
 obj
@@ -7057,7 +7057,7 @@ flags
 JSCLASS_DOM_GLOBAL
 )
 {
-AllocateProtoOrIfaceCache
+AllocateProtoAndIfaceCache
 (
 global
 )

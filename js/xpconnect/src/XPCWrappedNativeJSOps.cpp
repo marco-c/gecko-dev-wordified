@@ -4058,7 +4058,7 @@ mozilla
 dom
 :
 :
-DestroyProtoOrIfaceCache
+DestroyProtoAndIfaceCache
 (
 obj
 )
@@ -4409,7 +4409,7 @@ mozilla
 dom
 :
 :
-TraceProtoOrIfaceCache
+TraceProtoAndIfaceCache
 (
 trc
 obj

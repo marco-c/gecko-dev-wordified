@@ -690,7 +690,7 @@ mBase
 ;
 inline
 bool
-HasProtoOrIfaceArray
+HasProtoAndIfaceArray
 (
 JSObject
 *
@@ -746,7 +746,7 @@ inline
 JSObject
 *
 *
-GetProtoOrIfaceArray
+GetProtoAndIfaceArray
 (
 JSObject
 *

@@ -185,7 +185,7 @@ mozilla
 dom
 :
 :
-DestroyProtoOrIfaceCache
+DestroyProtoAndIfaceCache
 ;
 /
 *
@@ -793,7 +793,7 @@ NS_IF_RELEASE
 sop
 )
 ;
-DestroyProtoOrIfaceCache
+DestroyProtoAndIfaceCache
 (
 obj
 )

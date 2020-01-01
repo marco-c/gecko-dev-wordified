@@ -290,7 +290,7 @@ mozilla
 dom
 :
 :
-DestroyProtoOrIfaceCache
+DestroyProtoAndIfaceCache
 ;
 static
 NS_DEFINE_CID

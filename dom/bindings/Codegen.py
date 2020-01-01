@@ -11131,9 +11131,9 @@ installed
 JSObject
 *
 *
-protoOrIfaceArray
+protoAndIfaceArray
 =
-GetProtoOrIfaceArray
+GetProtoAndIfaceArray
 (
 aGlobal
 )
@@ -11143,7 +11143,7 @@ JSObject
 *
 cachedObject
 =
-protoOrIfaceArray
+protoAndIfaceArray
 [
 %
 s
@@ -11157,7 +11157,7 @@ cachedObject
 )
 {
     
-protoOrIfaceArray
+protoAndIfaceArray
 [
 %
 s
