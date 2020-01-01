@@ -1022,6 +1022,14 @@ gWAIRoleMap
 ]
 ;
 static
+PRUint32
+gWAIRoleMapLength
+;
+static
+nsRoleMapEntry
+gLandmarkRoleMap
+;
+static
 nsStateMapEntry
 gWAIUnivStateMap
 [
