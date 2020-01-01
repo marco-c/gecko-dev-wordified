@@ -13599,6 +13599,11 @@ is
 negative
 if
 (
+!
+aIgnoreRootScrollFrame
+&
+&
+(
 aX
 <
 0
@@ -13607,6 +13612,7 @@ aX
 aY
 <
 0
+)
 )
 return
 NS_OK
