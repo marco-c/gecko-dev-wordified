@@ -2156,6 +2156,12 @@ supports32bitIndices
 )
 const
 ;
+bool
+supportsNonPower2Texture
+(
+)
+const
+;
 void
 blitFramebuffer
 (
@@ -2471,6 +2477,9 @@ mSupportsShaderModel3
 ;
 bool
 mSupportsVertexTexture
+;
+bool
+mSupportsNonPower2Texture
 ;
 int
 mMaxRenderbufferDimension

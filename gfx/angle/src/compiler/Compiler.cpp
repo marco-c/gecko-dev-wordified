@@ -1139,6 +1139,9 @@ root
 {
 MapLongVariableNames
 map
+(
+varyingLongNameMap
+)
 ;
 root
 -

@@ -337,17 +337,6 @@ getBoundTexture
 )
 const
 ;
-void
-setPendingDestroy
-(
-)
-;
-bool
-isPendingDestroy
-(
-)
-const
-;
 private
 :
 DISALLOW_COPY_AND_ASSIGN
@@ -378,9 +367,6 @@ mOffscreenTexture
 ;
 HANDLE
 mShareHandle
-;
-bool
-mIsPendingDestroy
 ;
 void
 subclassWindow

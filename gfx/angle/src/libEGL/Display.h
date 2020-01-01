@@ -414,13 +414,14 @@ getLuminanceAlphaTextureSupport
 ;
 virtual
 bool
-getNonPow2TextureSupport
+getVertexTextureSupport
 (
 )
+const
 ;
 virtual
 bool
-getVertexTextureSupport
+getNonPower2TextureSupport
 (
 )
 const

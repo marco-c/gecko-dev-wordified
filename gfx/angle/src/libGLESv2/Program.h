@@ -1088,6 +1088,15 @@ constantVS
 )
 ;
 void
+appendToInfoLogSanitized
+(
+const
+char
+*
+message
+)
+;
+void
 appendToInfoLog
 (
 const
