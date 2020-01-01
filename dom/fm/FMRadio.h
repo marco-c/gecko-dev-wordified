@@ -279,6 +279,12 @@ FMRadio
 (
 )
 ;
+nsCOMPtr
+<
+nsIAudioChannelAgent
+>
+mAudioChannelAgent
+;
 hal
 :
 :
@@ -290,12 +296,6 @@ mHasInternalAntenna
 ;
 bool
 mHidden
-;
-nsCOMPtr
-<
-nsIAudioChannelAgent
->
-mAudioChannelAgent
 ;
 }
 ;
