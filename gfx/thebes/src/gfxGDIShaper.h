@@ -457,6 +457,11 @@ gfxFontShaper
 aFont
 )
 {
+MOZ_COUNT_CTOR
+(
+gfxGDIShaper
+)
+;
 }
 virtual
 ~
@@ -464,6 +469,11 @@ gfxGDIShaper
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+gfxGDIShaper
+)
+;
 }
 virtual
 PRBool
