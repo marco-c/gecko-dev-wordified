@@ -996,7 +996,6 @@ numberValue
 ;
 result
 =
-DOUBLE_COMPARE
 (
 lval
 =
@@ -1207,7 +1206,6 @@ LESS_THAN
 :
 {
 return
-DOUBLE_COMPARE
 (
 leftDbl
 <
@@ -1220,7 +1218,6 @@ LESS_OR_EQUAL
 :
 {
 return
-DOUBLE_COMPARE
 (
 leftDbl
 <
@@ -1234,7 +1231,6 @@ GREATER_THAN
 :
 {
 return
-DOUBLE_COMPARE
 (
 leftDbl
 >
@@ -1247,7 +1243,6 @@ GREATER_OR_EQUAL
 :
 {
 return
-DOUBLE_COMPARE
 (
 leftDbl
 >

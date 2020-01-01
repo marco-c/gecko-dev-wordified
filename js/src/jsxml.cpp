@@ -33535,13 +33535,11 @@ v
 *
 bp
 =
-JSDOUBLE_COMPARE
 (
 d
 =
 =
 d2
-JS_FALSE
 )
 ;
 }
