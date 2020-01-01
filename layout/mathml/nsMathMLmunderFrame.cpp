@@ -1920,12 +1920,10 @@ aPlaceOrigin
 aDesiredSize
 this
 0
-PresContext
-(
-)
--
->
-PointsToAppUnits
+nsPresContext
+:
+:
+CSSPointsToAppUnits
 (
 0
 .

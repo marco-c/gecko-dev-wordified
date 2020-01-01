@@ -8640,10 +8640,10 @@ float
 b
 )
 -
-aPresContext
--
->
-PointsToAppUnits
+nsPresContext
+:
+:
+CSSPointsToAppUnits
 (
 NS_MATHML_DELIMITER_SHORTFALL_POINTS
 )

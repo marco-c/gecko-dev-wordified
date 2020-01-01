@@ -1279,15 +1279,6 @@ PRUint8
 mCtxType
 )
 ;
-float
-GetMMPerPx
-(
-PRUint8
-mCtxType
-=
-0
-)
-;
 /
 /
 public
@@ -1804,9 +1795,6 @@ destroyed
 float
 mViewportWidth
 mViewportHeight
-;
-float
-mCoordCtxMmPerPx
 ;
 #
 ifdef
