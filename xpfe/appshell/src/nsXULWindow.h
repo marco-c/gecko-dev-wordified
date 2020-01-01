@@ -1051,6 +1051,12 @@ mIsHiddenWindow
 PRPackedBool
 mLockedUntilChromeLoad
 ;
+PRPackedBool
+mIgnoreXULSize
+;
+PRPackedBool
+mIgnoreXULPosition
+;
 PRUint32
 mContextFlags
 ;
