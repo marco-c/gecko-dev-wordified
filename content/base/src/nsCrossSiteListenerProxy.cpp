@@ -1858,7 +1858,7 @@ PR_FALSE
 ;
 /
 /
-Block
+Stop
 the
 parser
 since
@@ -1878,7 +1878,7 @@ parsing
 stuff
 .
 return
-NS_ERROR_HTMLPARSER_BLOCK
+NS_ERROR_HTMLPARSER_STOPPARSING
 ;
 }
 NS_IMETHODIMP
@@ -2552,7 +2552,7 @@ PR_FALSE
 ;
 /
 /
-Block
+Stop
 the
 parser
 since
@@ -2572,7 +2572,7 @@ parsing
 stuff
 .
 return
-NS_ERROR_HTMLPARSER_BLOCK
+NS_ERROR_HTMLPARSER_STOPPARSING
 ;
 }
 return

@@ -953,6 +953,8 @@ HandleError
 void
 MaybeStopParser
 (
+nsresult
+aState
 )
 ;
 PRBool
