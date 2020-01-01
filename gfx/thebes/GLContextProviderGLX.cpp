@@ -3476,7 +3476,6 @@ InUpdate
 const
 {
 return
-!
 mInUpdate
 ;
 }

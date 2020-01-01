@@ -1446,6 +1446,7 @@ TextureImage
 :
 :
 ScopedBindTexture
+texBind
 (
 mTexImage
 LOCAL_GL_TEXTURE0
@@ -1455,6 +1456,7 @@ TextureImage
 :
 :
 ScopedBindTexture
+texOnWhiteBind
 (
 mTexImageOnWhite
 LOCAL_GL_TEXTURE1
