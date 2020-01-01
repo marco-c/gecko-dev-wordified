@@ -785,7 +785,7 @@ PR_NewThreadPrivateIndex
 (
 &
 sCurrentGLContextTLS
-NULL
+nullptr
 )
 ;
 }
@@ -1008,7 +1008,7 @@ destroyed
 .
 This
 will
-NULL
+nullptr
 out
 all
 /
@@ -1066,7 +1066,7 @@ aType
 )
 {
 return
-NULL
+nullptr
 ;
 }
 GLContext
@@ -3807,7 +3807,7 @@ flipped
 .
 Return
 *
-NULL
+nullptr
 if
 creating
 the
@@ -5085,7 +5085,7 @@ calls
 We
 can
 return
-NULL
+nullptr
 if
 we
 choose
@@ -7427,7 +7427,7 @@ GLContext
 *
 currentGLContext
 =
-NULL
+nullptr
 ;
 currentGLContext
 =

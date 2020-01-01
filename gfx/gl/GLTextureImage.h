@@ -417,7 +417,7 @@ s
 image
 if
 successul
-NULL
+nullptr
 if
 not
 .
@@ -461,7 +461,7 @@ by
 this
 .
 Otherwise
-NULL
+nullptr
 is
 returned
 .

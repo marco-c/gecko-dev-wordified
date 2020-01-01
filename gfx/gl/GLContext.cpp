@@ -650,7 +650,7 @@ ActiveTexture
 "
 ActiveTextureARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -669,7 +669,7 @@ AttachShader
 "
 AttachShaderARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -688,7 +688,7 @@ BindAttribLocation
 "
 BindAttribLocationARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -707,7 +707,7 @@ BindBuffer
 "
 BindBufferARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -726,7 +726,7 @@ BindTexture
 "
 BindTextureARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -742,7 +742,7 @@ fBlendColor
 "
 BlendColor
 "
-NULL
+nullptr
 }
 }
 {
@@ -758,7 +758,7 @@ fBlendEquation
 "
 BlendEquation
 "
-NULL
+nullptr
 }
 }
 {
@@ -777,7 +777,7 @@ BlendEquationSeparate
 "
 BlendEquationSeparateEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -793,7 +793,7 @@ fBlendFunc
 "
 BlendFunc
 "
-NULL
+nullptr
 }
 }
 {
@@ -812,7 +812,7 @@ BlendFuncSeparate
 "
 BlendFuncSeparateEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -828,7 +828,7 @@ fBufferData
 "
 BufferData
 "
-NULL
+nullptr
 }
 }
 {
@@ -844,7 +844,7 @@ fBufferSubData
 "
 BufferSubData
 "
-NULL
+nullptr
 }
 }
 {
@@ -860,7 +860,7 @@ fClear
 "
 Clear
 "
-NULL
+nullptr
 }
 }
 {
@@ -876,7 +876,7 @@ fClearColor
 "
 ClearColor
 "
-NULL
+nullptr
 }
 }
 {
@@ -892,7 +892,7 @@ fClearStencil
 "
 ClearStencil
 "
-NULL
+nullptr
 }
 }
 {
@@ -908,7 +908,7 @@ fColorMask
 "
 ColorMask
 "
-NULL
+nullptr
 }
 }
 {
@@ -924,7 +924,7 @@ fCompressedTexImage2D
 "
 CompressedTexImage2D
 "
-NULL
+nullptr
 }
 }
 {
@@ -940,7 +940,7 @@ fCompressedTexSubImage2D
 "
 CompressedTexSubImage2D
 "
-NULL
+nullptr
 }
 }
 {
@@ -956,7 +956,7 @@ fCullFace
 "
 CullFace
 "
-NULL
+nullptr
 }
 }
 {
@@ -975,7 +975,7 @@ DetachShader
 "
 DetachShaderARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -991,7 +991,7 @@ fDepthFunc
 "
 DepthFunc
 "
-NULL
+nullptr
 }
 }
 {
@@ -1007,7 +1007,7 @@ fDepthMask
 "
 DepthMask
 "
-NULL
+nullptr
 }
 }
 {
@@ -1023,7 +1023,7 @@ fDisable
 "
 Disable
 "
-NULL
+nullptr
 }
 }
 {
@@ -1042,7 +1042,7 @@ DisableVertexAttribArray
 "
 DisableVertexAttribArrayARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1058,7 +1058,7 @@ fDrawArrays
 "
 DrawArrays
 "
-NULL
+nullptr
 }
 }
 {
@@ -1074,7 +1074,7 @@ fDrawElements
 "
 DrawElements
 "
-NULL
+nullptr
 }
 }
 {
@@ -1090,7 +1090,7 @@ fEnable
 "
 Enable
 "
-NULL
+nullptr
 }
 }
 {
@@ -1109,7 +1109,7 @@ EnableVertexAttribArray
 "
 EnableVertexAttribArrayARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1125,7 +1125,7 @@ fFinish
 "
 Finish
 "
-NULL
+nullptr
 }
 }
 {
@@ -1141,7 +1141,7 @@ fFlush
 "
 Flush
 "
-NULL
+nullptr
 }
 }
 {
@@ -1157,7 +1157,7 @@ fFrontFace
 "
 FrontFace
 "
-NULL
+nullptr
 }
 }
 {
@@ -1176,7 +1176,7 @@ GetActiveAttrib
 "
 GetActiveAttribARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1195,7 +1195,7 @@ GetActiveUniform
 "
 GetActiveUniformARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1214,7 +1214,7 @@ GetAttachedShaders
 "
 GetAttachedShadersARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1233,7 +1233,7 @@ GetAttribLocation
 "
 GetAttribLocationARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1249,7 +1249,7 @@ fGetIntegerv
 "
 GetIntegerv
 "
-NULL
+nullptr
 }
 }
 {
@@ -1265,7 +1265,7 @@ fGetFloatv
 "
 GetFloatv
 "
-NULL
+nullptr
 }
 }
 {
@@ -1281,7 +1281,7 @@ fGetBooleanv
 "
 GetBooleanv
 "
-NULL
+nullptr
 }
 }
 {
@@ -1300,7 +1300,7 @@ GetBufferParameteriv
 "
 GetBufferParameterivARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1316,7 +1316,7 @@ fGetError
 "
 GetError
 "
-NULL
+nullptr
 }
 }
 {
@@ -1335,7 +1335,7 @@ GetProgramiv
 "
 GetProgramivARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1354,7 +1354,7 @@ GetProgramInfoLog
 "
 GetProgramInfoLogARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1370,7 +1370,7 @@ fTexParameteri
 "
 TexParameteri
 "
-NULL
+nullptr
 }
 }
 {
@@ -1386,7 +1386,7 @@ fTexParameteriv
 "
 TexParameteriv
 "
-NULL
+nullptr
 }
 }
 {
@@ -1402,7 +1402,7 @@ fTexParameterf
 "
 TexParameterf
 "
-NULL
+nullptr
 }
 }
 {
@@ -1418,7 +1418,7 @@ fGetString
 "
 GetString
 "
-NULL
+nullptr
 }
 }
 {
@@ -1434,7 +1434,7 @@ fGetTexParameterfv
 "
 GetTexParameterfv
 "
-NULL
+nullptr
 }
 }
 {
@@ -1450,7 +1450,7 @@ fGetTexParameteriv
 "
 GetTexParameteriv
 "
-NULL
+nullptr
 }
 }
 {
@@ -1469,7 +1469,7 @@ GetUniformfv
 "
 GetUniformfvARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1488,7 +1488,7 @@ GetUniformiv
 "
 GetUniformivARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1507,7 +1507,7 @@ GetUniformLocation
 "
 GetUniformLocationARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1526,7 +1526,7 @@ GetVertexAttribfv
 "
 GetVertexAttribfvARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1545,7 +1545,7 @@ GetVertexAttribiv
 "
 GetVertexAttribivARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1561,7 +1561,7 @@ fGetVertexAttribPointerv
 "
 GetVertexAttribPointerv
 "
-NULL
+nullptr
 }
 }
 {
@@ -1577,7 +1577,7 @@ fHint
 "
 Hint
 "
-NULL
+nullptr
 }
 }
 {
@@ -1596,7 +1596,7 @@ IsBuffer
 "
 IsBufferARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1612,7 +1612,7 @@ fIsEnabled
 "
 IsEnabled
 "
-NULL
+nullptr
 }
 }
 {
@@ -1631,7 +1631,7 @@ IsProgram
 "
 IsProgramARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1650,7 +1650,7 @@ IsShader
 "
 IsShaderARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1669,7 +1669,7 @@ IsTexture
 "
 IsTextureARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1685,7 +1685,7 @@ fLineWidth
 "
 LineWidth
 "
-NULL
+nullptr
 }
 }
 {
@@ -1704,7 +1704,7 @@ LinkProgram
 "
 LinkProgramARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -1720,7 +1720,7 @@ fPixelStorei
 "
 PixelStorei
 "
-NULL
+nullptr
 }
 }
 {
@@ -1736,7 +1736,7 @@ fPolygonOffset
 "
 PolygonOffset
 "
-NULL
+nullptr
 }
 }
 {
@@ -1752,7 +1752,7 @@ fReadPixels
 "
 ReadPixels
 "
-NULL
+nullptr
 }
 }
 {
@@ -1768,7 +1768,7 @@ fSampleCoverage
 "
 SampleCoverage
 "
-NULL
+nullptr
 }
 }
 {
@@ -1784,7 +1784,7 @@ fScissor
 "
 Scissor
 "
-NULL
+nullptr
 }
 }
 {
@@ -1800,7 +1800,7 @@ fStencilFunc
 "
 StencilFunc
 "
-NULL
+nullptr
 }
 }
 {
@@ -1819,7 +1819,7 @@ StencilFuncSeparate
 "
 StencilFuncSeparateEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -1835,7 +1835,7 @@ fStencilMask
 "
 StencilMask
 "
-NULL
+nullptr
 }
 }
 {
@@ -1854,7 +1854,7 @@ StencilMaskSeparate
 "
 StencilMaskSeparateEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -1870,7 +1870,7 @@ fStencilOp
 "
 StencilOp
 "
-NULL
+nullptr
 }
 }
 {
@@ -1889,7 +1889,7 @@ StencilOpSeparate
 "
 StencilOpSeparateEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -1905,7 +1905,7 @@ fTexImage2D
 "
 TexImage2D
 "
-NULL
+nullptr
 }
 }
 {
@@ -1921,7 +1921,7 @@ fTexSubImage2D
 "
 TexSubImage2D
 "
-NULL
+nullptr
 }
 }
 {
@@ -1937,7 +1937,7 @@ fUniform1f
 "
 Uniform1f
 "
-NULL
+nullptr
 }
 }
 {
@@ -1953,7 +1953,7 @@ fUniform1fv
 "
 Uniform1fv
 "
-NULL
+nullptr
 }
 }
 {
@@ -1969,7 +1969,7 @@ fUniform1i
 "
 Uniform1i
 "
-NULL
+nullptr
 }
 }
 {
@@ -1985,7 +1985,7 @@ fUniform1iv
 "
 Uniform1iv
 "
-NULL
+nullptr
 }
 }
 {
@@ -2001,7 +2001,7 @@ fUniform2f
 "
 Uniform2f
 "
-NULL
+nullptr
 }
 }
 {
@@ -2017,7 +2017,7 @@ fUniform2fv
 "
 Uniform2fv
 "
-NULL
+nullptr
 }
 }
 {
@@ -2033,7 +2033,7 @@ fUniform2i
 "
 Uniform2i
 "
-NULL
+nullptr
 }
 }
 {
@@ -2049,7 +2049,7 @@ fUniform2iv
 "
 Uniform2iv
 "
-NULL
+nullptr
 }
 }
 {
@@ -2065,7 +2065,7 @@ fUniform3f
 "
 Uniform3f
 "
-NULL
+nullptr
 }
 }
 {
@@ -2081,7 +2081,7 @@ fUniform3fv
 "
 Uniform3fv
 "
-NULL
+nullptr
 }
 }
 {
@@ -2097,7 +2097,7 @@ fUniform3i
 "
 Uniform3i
 "
-NULL
+nullptr
 }
 }
 {
@@ -2113,7 +2113,7 @@ fUniform3iv
 "
 Uniform3iv
 "
-NULL
+nullptr
 }
 }
 {
@@ -2129,7 +2129,7 @@ fUniform4f
 "
 Uniform4f
 "
-NULL
+nullptr
 }
 }
 {
@@ -2145,7 +2145,7 @@ fUniform4fv
 "
 Uniform4fv
 "
-NULL
+nullptr
 }
 }
 {
@@ -2161,7 +2161,7 @@ fUniform4i
 "
 Uniform4i
 "
-NULL
+nullptr
 }
 }
 {
@@ -2177,7 +2177,7 @@ fUniform4iv
 "
 Uniform4iv
 "
-NULL
+nullptr
 }
 }
 {
@@ -2193,7 +2193,7 @@ fUniformMatrix2fv
 "
 UniformMatrix2fv
 "
-NULL
+nullptr
 }
 }
 {
@@ -2209,7 +2209,7 @@ fUniformMatrix3fv
 "
 UniformMatrix3fv
 "
-NULL
+nullptr
 }
 }
 {
@@ -2225,7 +2225,7 @@ fUniformMatrix4fv
 "
 UniformMatrix4fv
 "
-NULL
+nullptr
 }
 }
 {
@@ -2241,7 +2241,7 @@ fUseProgram
 "
 UseProgram
 "
-NULL
+nullptr
 }
 }
 {
@@ -2257,7 +2257,7 @@ fValidateProgram
 "
 ValidateProgram
 "
-NULL
+nullptr
 }
 }
 {
@@ -2273,7 +2273,7 @@ fVertexAttribPointer
 "
 VertexAttribPointer
 "
-NULL
+nullptr
 }
 }
 {
@@ -2289,7 +2289,7 @@ fVertexAttrib1f
 "
 VertexAttrib1f
 "
-NULL
+nullptr
 }
 }
 {
@@ -2305,7 +2305,7 @@ fVertexAttrib2f
 "
 VertexAttrib2f
 "
-NULL
+nullptr
 }
 }
 {
@@ -2321,7 +2321,7 @@ fVertexAttrib3f
 "
 VertexAttrib3f
 "
-NULL
+nullptr
 }
 }
 {
@@ -2337,7 +2337,7 @@ fVertexAttrib4f
 "
 VertexAttrib4f
 "
-NULL
+nullptr
 }
 }
 {
@@ -2353,7 +2353,7 @@ fVertexAttrib1fv
 "
 VertexAttrib1fv
 "
-NULL
+nullptr
 }
 }
 {
@@ -2369,7 +2369,7 @@ fVertexAttrib2fv
 "
 VertexAttrib2fv
 "
-NULL
+nullptr
 }
 }
 {
@@ -2385,7 +2385,7 @@ fVertexAttrib3fv
 "
 VertexAttrib3fv
 "
-NULL
+nullptr
 }
 }
 {
@@ -2401,7 +2401,7 @@ fVertexAttrib4fv
 "
 VertexAttrib4fv
 "
-NULL
+nullptr
 }
 }
 {
@@ -2417,7 +2417,7 @@ fViewport
 "
 Viewport
 "
-NULL
+nullptr
 }
 }
 {
@@ -2433,7 +2433,7 @@ fCompileShader
 "
 CompileShader
 "
-NULL
+nullptr
 }
 }
 {
@@ -2449,7 +2449,7 @@ fCopyTexImage2D
 "
 CopyTexImage2D
 "
-NULL
+nullptr
 }
 }
 {
@@ -2465,7 +2465,7 @@ fCopyTexSubImage2D
 "
 CopyTexSubImage2D
 "
-NULL
+nullptr
 }
 }
 {
@@ -2481,7 +2481,7 @@ fGetShaderiv
 "
 GetShaderiv
 "
-NULL
+nullptr
 }
 }
 {
@@ -2497,7 +2497,7 @@ fGetShaderInfoLog
 "
 GetShaderInfoLog
 "
-NULL
+nullptr
 }
 }
 {
@@ -2513,7 +2513,7 @@ fGetShaderSource
 "
 GetShaderSource
 "
-NULL
+nullptr
 }
 }
 {
@@ -2529,7 +2529,7 @@ fShaderSource
 "
 ShaderSource
 "
-NULL
+nullptr
 }
 }
 {
@@ -2545,7 +2545,7 @@ fVertexAttribPointer
 "
 VertexAttribPointer
 "
-NULL
+nullptr
 }
 }
 {
@@ -2564,7 +2564,7 @@ BindFramebuffer
 "
 BindFramebufferEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -2583,7 +2583,7 @@ BindRenderbuffer
 "
 BindRenderbufferEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -2602,7 +2602,7 @@ CheckFramebufferStatus
 "
 CheckFramebufferStatusEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -2621,7 +2621,7 @@ FramebufferRenderbuffer
 "
 FramebufferRenderbufferEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -2640,7 +2640,7 @@ FramebufferTexture2D
 "
 FramebufferTexture2DEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -2659,7 +2659,7 @@ GenerateMipmap
 "
 GenerateMipmapEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -2678,7 +2678,7 @@ GetFramebufferAttachmentParameteriv
 "
 GetFramebufferAttachmentParameterivEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -2697,7 +2697,7 @@ GetRenderbufferParameteriv
 "
 GetRenderbufferParameterivEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -2716,7 +2716,7 @@ IsFramebuffer
 "
 IsFramebufferEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -2735,7 +2735,7 @@ IsRenderbuffer
 "
 IsRenderbufferEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -2754,7 +2754,7 @@ RenderbufferStorage
 "
 RenderbufferStorageEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -2773,7 +2773,7 @@ GenBuffers
 "
 GenBuffersARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -2789,7 +2789,7 @@ fGenTextures
 "
 GenTextures
 "
-NULL
+nullptr
 }
 }
 {
@@ -2808,7 +2808,7 @@ CreateProgram
 "
 CreateProgramARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -2827,7 +2827,7 @@ CreateShader
 "
 CreateShaderARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -2846,7 +2846,7 @@ GenFramebuffers
 "
 GenFramebuffersEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -2865,7 +2865,7 @@ GenRenderbuffers
 "
 GenRenderbuffersEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -2884,7 +2884,7 @@ DeleteBuffers
 "
 DeleteBuffersARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -2903,7 +2903,7 @@ DeleteTextures
 "
 DeleteTexturesARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -2922,7 +2922,7 @@ DeleteProgram
 "
 DeleteProgramARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -2941,7 +2941,7 @@ DeleteShader
 "
 DeleteShaderARB
 "
-NULL
+nullptr
 }
 }
 {
@@ -2960,7 +2960,7 @@ DeleteFramebuffers
 "
 DeleteFramebuffersEXT
 "
-NULL
+nullptr
 }
 }
 {
@@ -2979,13 +2979,13 @@ DeleteRenderbuffers
 "
 DeleteRenderbuffersEXT
 "
-NULL
+nullptr
 }
 }
 {
-NULL
+nullptr
 {
-NULL
+nullptr
 }
 }
 }
@@ -3052,7 +3052,7 @@ fGetShaderPrecisionFormat
 "
 GetShaderPrecisionFormat
 "
-NULL
+nullptr
 }
 }
 {
@@ -3068,7 +3068,7 @@ fClearDepthf
 "
 ClearDepthf
 "
-NULL
+nullptr
 }
 }
 {
@@ -3084,13 +3084,13 @@ fDepthRangef
 "
 DepthRangef
 "
-NULL
+nullptr
 }
 }
 {
-NULL
+nullptr
 {
-NULL
+nullptr
 }
 }
 }
@@ -3156,7 +3156,7 @@ fClearDepth
 "
 ClearDepth
 "
-NULL
+nullptr
 }
 }
 {
@@ -3172,7 +3172,7 @@ fDepthRange
 "
 DepthRange
 "
-NULL
+nullptr
 }
 }
 {
@@ -3188,7 +3188,7 @@ fReadBuffer
 "
 ReadBuffer
 "
-NULL
+nullptr
 }
 }
 {
@@ -3204,7 +3204,7 @@ fMapBuffer
 "
 MapBuffer
 "
-NULL
+nullptr
 }
 }
 {
@@ -3220,7 +3220,7 @@ fUnmapBuffer
 "
 UnmapBuffer
 "
-NULL
+nullptr
 }
 }
 {
@@ -3236,7 +3236,7 @@ fPointParameterf
 "
 PointParameterf
 "
-NULL
+nullptr
 }
 }
 {
@@ -3252,7 +3252,7 @@ fBeginQuery
 "
 BeginQuery
 "
-NULL
+nullptr
 }
 }
 {
@@ -3268,7 +3268,7 @@ fGetQueryObjectuiv
 "
 GetQueryObjectuiv
 "
-NULL
+nullptr
 }
 }
 {
@@ -3284,7 +3284,7 @@ fGenQueries
 "
 GenQueries
 "
-NULL
+nullptr
 }
 }
 {
@@ -3300,7 +3300,7 @@ fDeleteQueries
 "
 DeleteQueries
 "
-NULL
+nullptr
 }
 }
 {
@@ -3316,7 +3316,7 @@ fGetQueryiv
 "
 GetQueryiv
 "
-NULL
+nullptr
 }
 }
 {
@@ -3332,7 +3332,7 @@ fGetQueryObjectiv
 "
 GetQueryObjectiv
 "
-NULL
+nullptr
 }
 }
 {
@@ -3348,7 +3348,7 @@ fEndQuery
 "
 EndQuery
 "
-NULL
+nullptr
 }
 }
 {
@@ -3364,7 +3364,7 @@ fDrawBuffer
 "
 DrawBuffer
 "
-NULL
+nullptr
 }
 }
 {
@@ -3380,13 +3380,13 @@ fDrawBuffers
 "
 DrawBuffers
 "
-NULL
+nullptr
 }
 }
 {
-NULL
+nullptr
 {
-NULL
+nullptr
 }
 }
 }
@@ -10199,7 +10199,7 @@ GLchar
 )
 &
 vShader
-NULL
+nullptr
 )
 ;
 fShaderSource
@@ -10214,7 +10214,7 @@ GLchar
 )
 &
 fShader
-NULL
+nullptr
 )
 ;
 fCompileShader
@@ -12692,7 +12692,7 @@ fVertexAttribPointer
 LOCAL_GL_FLOAT
 LOCAL_GL_FALSE
 0
-NULL
+nullptr
 )
 ;
 fVertexAttribPointer
@@ -12702,7 +12702,7 @@ fVertexAttribPointer
 LOCAL_GL_FLOAT
 LOCAL_GL_FALSE
 0
-NULL
+nullptr
 )
 ;
 /
@@ -13445,7 +13445,7 @@ char
 *
 data
 =
-NULL
+nullptr
 ;
 if
 (
@@ -13849,7 +13849,7 @@ data
 =
 aPixelBuffer
 ?
-NULL
+nullptr
 :
 aSurface
 -
@@ -14302,7 +14302,7 @@ height
 border
 format
 type
-NULL
+nullptr
 )
 ;
 TexSubImage2D
@@ -16880,7 +16880,7 @@ GLchar
 )
 &
 blitVSSrc
-NULL
+nullptr
 )
 ;
 fShaderSource
@@ -16898,7 +16898,7 @@ GLchar
 )
 &
 blitFSSrc
-NULL
+nullptr
 )
 ;
 for
@@ -18105,7 +18105,7 @@ GLContext
 *
 lastContext
 =
-NULL
+nullptr
 ;
 for
 (

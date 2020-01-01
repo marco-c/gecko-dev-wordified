@@ -188,7 +188,7 @@ PRLibrary
 *
 sApitraceLibrary
 =
-NULL
+nullptr
 ;
 if
 (
@@ -870,7 +870,7 @@ egl
 "
 #
 name
-NULL
+nullptr
 }
 }
 GLLibraryLoader
@@ -983,9 +983,9 @@ SYMBOL
 QuerySurface
 )
 {
-NULL
+nullptr
 {
-NULL
+nullptr
 }
 }
 }
@@ -1044,8 +1044,8 @@ if
 fInitialize
 (
 mEGLDisplay
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 return
@@ -2072,7 +2072,7 @@ nc
 fGetConfigs
 (
 mEGLDisplay
-NULL
+nullptr
 0
 &
 nc

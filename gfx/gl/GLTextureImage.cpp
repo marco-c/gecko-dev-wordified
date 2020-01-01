@@ -423,7 +423,7 @@ image
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ImageFormat
@@ -483,10 +483,10 @@ CairoStatus
 {
 mUpdateSurface
 =
-NULL
+nullptr
 ;
 return
-NULL
+nullptr
 ;
 }
 mUpdateSurface
@@ -977,7 +977,7 @@ height
 0
 LOCAL_GL_RGBA
 LOCAL_GL_UNSIGNED_BYTE
-NULL
+nullptr
 )
 ;
 mTextureState
