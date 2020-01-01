@@ -1343,6 +1343,15 @@ nsGkAtoms
 :
 :
 mtext_
+|
+|
+tag
+=
+=
+nsGkAtoms
+:
+:
+mspace_
 )
 return
 FindAttributeDependence
