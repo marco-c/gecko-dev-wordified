@@ -29819,6 +29819,16 @@ const
 char
 *
 className
+;
+{
+AutoCompartment
+ac
+(
+cx
+refobj
+)
+;
+className
 =
 JSObject
 :
@@ -29829,6 +29839,7 @@ cx
 refobj
 )
 ;
+}
 JSAtom
 *
 str
