@@ -266,11 +266,11 @@ observe
 (
 null
 "
-sessionstore
+test
 -
-windows
+gather
 -
-restored
+startup
 "
 null
 )
