@@ -293,6 +293,10 @@ file
 startswith
 (
 basename
++
+"
+!
+"
 )
 and
 file
