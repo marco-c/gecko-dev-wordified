@@ -619,7 +619,7 @@ code
 }
 static
 size_t
-offsetOfCode
+OffsetOfCode
 (
 )
 {
@@ -775,8 +775,6 @@ JSScript
 struct
 IonScript
 {
-private
-:
 /
 /
 Code
@@ -1140,14 +1138,6 @@ records
 size_t
 refcount_
 ;
-types
-:
-:
-RecompileInfo
-recompileInfo_
-;
-public
-:
 /
 /
 Number
@@ -1167,6 +1157,12 @@ compileable
 function
 uint32
 slowCallCount
+;
+types
+:
+:
+RecompileInfo
+recompileInfo_
 ;
 SnapshotOffset
 *

@@ -3569,7 +3569,7 @@ code
 IonCode
 :
 :
-offsetOfCode
+OffsetOfCode
 (
 )
 )

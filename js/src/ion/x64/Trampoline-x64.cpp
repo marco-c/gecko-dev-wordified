@@ -2358,11 +2358,10 @@ movq
 Operand
 (
 rax
-IonScript
-:
-:
-offsetOfMethod
+offsetof
 (
+IonScript
+method_
 )
 )
 rax
@@ -2378,7 +2377,7 @@ rax
 IonCode
 :
 :
-offsetOfCode
+OffsetOfCode
 (
 )
 )

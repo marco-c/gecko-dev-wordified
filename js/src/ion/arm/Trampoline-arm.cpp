@@ -2749,11 +2749,10 @@ DTRAddr
 r3
 DtrOffImm
 (
-IonScript
-:
-:
-offsetOfMethod
+offsetof
 (
+IonScript
+method_
 )
 )
 )
@@ -2772,7 +2771,7 @@ DtrOffImm
 IonCode
 :
 :
-offsetOfCode
+OffsetOfCode
 (
 )
 )
