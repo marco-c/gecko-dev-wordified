@@ -442,10 +442,10 @@ BLOCK
 /
 #
 ifndef
-CodeGenerator_h__
+BytecodeGenerator_h__
 #
 define
-CodeGenerator_h__
+BytecodeGenerator_h__
 /
 *
 *
@@ -8967,6 +8967,6 @@ JS_END_EXTERN_C
 endif
 /
 *
-CodeGenerator_h__
+BytecodeGenerator_h__
 *
 /

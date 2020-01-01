@@ -625,7 +625,7 @@ include
 "
 frontend
 /
-CodeGenerator
+BytecodeGenerator
 .
 h
 "
@@ -6707,7 +6707,7 @@ defines
 from
 frontend
 /
-CodeGenerator
+BytecodeGenerator
 .
 h
 .

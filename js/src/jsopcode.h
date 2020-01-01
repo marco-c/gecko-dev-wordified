@@ -2802,7 +2802,7 @@ SN_3BYTE_OFFSET_FLAG
 see
 frontend
 /
-CodeGenerator
+BytecodeGenerator
 .
 h
 .
