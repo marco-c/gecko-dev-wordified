@@ -1743,15 +1743,11 @@ BRS_UNCONSTRAINEDHEIGHT
 ?
 NS_UNCONSTRAINEDSIZE
 :
-NS_MAX
-(
-0
 mReflowState
 .
 availableHeight
 -
 mY
-)
 ;
 /
 /
