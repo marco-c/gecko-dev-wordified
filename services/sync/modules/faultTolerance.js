@@ -602,11 +602,6 @@ _log
 .
 debug
 (
-"
-\
-n
-"
-+
 Utils
 .
 stackTrace
