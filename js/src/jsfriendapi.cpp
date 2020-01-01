@@ -900,6 +900,8 @@ gcreason
 :
 Reason
 reason
+int64_t
+millis
 )
 {
 GCSlice
@@ -907,6 +909,7 @@ GCSlice
 rt
 GC_NORMAL
 reason
+millis
 )
 ;
 }

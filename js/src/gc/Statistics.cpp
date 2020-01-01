@@ -223,7 +223,7 @@ slices
 of
 less
 than
-12ms
+42ms
 are
 not
 reported
@@ -235,7 +235,7 @@ const
 int64_t
 SLICE_MIN_REPORT_TIME
 =
-12
+42
 *
 PRMJ_USEC_PER_MSEC
 ;
