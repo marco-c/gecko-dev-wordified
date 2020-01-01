@@ -603,6 +603,10 @@ mConnection
 (
 aConnection
 )
+mHasTransaction
+(
+PR_FALSE
+)
 mCommitOnComplete
 (
 aCommitOnComplete
@@ -610,6 +614,11 @@ aCommitOnComplete
 mCompleted
 (
 PR_FALSE
+)
+{
+if
+(
+mConnection
 )
 {
 PRBool
@@ -644,6 +653,7 @@ aType
 )
 ;
 }
+}
 ~
 mozStorageTransaction
 (
@@ -651,6 +661,9 @@ mozStorageTransaction
 {
 if
 (
+mConnection
+&
+&
 mHasTransaction
 &
 &
@@ -736,6 +749,10 @@ Commit
 {
 if
 (
+!
+mConnection
+|
+|
 mCompleted
 )
 return
@@ -743,6 +760,9 @@ NS_OK
 ;
 /
 /
+no
+connection
+or
 already
 done
 mCompleted
@@ -824,6 +844,10 @@ Rollback
 {
 if
 (
+!
+mConnection
+|
+|
 mCompleted
 )
 return
@@ -831,6 +855,9 @@ NS_OK
 ;
 /
 /
+no
+connection
+or
 already
 done
 mCompleted
