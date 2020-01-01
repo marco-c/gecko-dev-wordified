@@ -6903,7 +6903,7 @@ syncID
 {
 this
 .
-resetService
+resetClient
 (
 )
 ;
