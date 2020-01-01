@@ -4719,9 +4719,6 @@ STATE_SELECTABLE
 return
 nsnull
 ;
-PRUint32
-containerRole
-;
 while
 (
 0
