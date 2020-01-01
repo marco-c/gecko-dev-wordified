@@ -1000,7 +1000,7 @@ what
 #
 define
 MIN_SPARSE_INDEX
-32
+256
 #
 define
 INDEX_TOO_BIG
