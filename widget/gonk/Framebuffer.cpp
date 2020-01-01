@@ -912,12 +912,6 @@ size
 .
 if
 (
-0
-<
-=
-sFd
-|
-|
 sScreenSize
 )
 {
