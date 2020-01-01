@@ -897,13 +897,9 @@ have
 /
 /
 '
-preload
+autobuffer
 '
 set
-to
-'
-auto
-'
 (
 since
 the
@@ -911,8 +907,6 @@ script
 must
 intend
 to
-/
-/
 play
 the
 audio
@@ -926,11 +920,11 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-preload
+autobuffer
 NS_LITERAL_STRING
 (
 "
-auto
+autobuffer
 "
 )
 PR_TRUE

@@ -9971,6 +9971,11 @@ MOZ_MEDIA
 nsGkAtoms
 :
 :
+autobuffer
+&
+nsGkAtoms
+:
+:
 autoplay
 #
 endif
@@ -10242,11 +10247,6 @@ nsGkAtoms
 :
 :
 poster
-&
-nsGkAtoms
-:
-:
-preload
 #
 endif
 &
