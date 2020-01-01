@@ -3732,11 +3732,6 @@ gdkPixmap
 return
 NS_ERROR_FAILURE
 ;
-if
-(
-visual
-)
-{
 /
 /
 We
@@ -3828,7 +3823,6 @@ gdkColormap
 )
 )
 ;
-}
 }
 NS_ASSERTION
 (
