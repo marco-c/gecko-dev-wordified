@@ -459,9 +459,8 @@ test_table_creation
 var
 msc
 =
-getOpenedDatabase
+getOpenedUnsharedDatabase
 (
-true
 )
 ;
 msc
@@ -503,9 +502,8 @@ test_insertion
 var
 msc
 =
-getOpenedDatabase
+getOpenedUnsharedDatabase
 (
-true
 )
 ;
 msc
@@ -688,9 +686,8 @@ test_selection
 var
 msc
 =
-getOpenedDatabase
+getOpenedUnsharedDatabase
 (
-true
 )
 ;
 var
