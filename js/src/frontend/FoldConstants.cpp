@@ -1453,6 +1453,15 @@ if
 pn
 -
 >
+isKind
+(
+PNK_FUNCTION
+)
+&
+&
+pn
+-
+>
 pn_funbox
 -
 >
@@ -1469,9 +1478,11 @@ hasOption
 JSOPTION_ASMJS
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 pn
