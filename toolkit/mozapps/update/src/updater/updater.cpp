@@ -7364,9 +7364,6 @@ NS_tchar
 argv
 )
 {
-#
-ifndef
-WINCE
 InitProgressUI
 (
 &
@@ -7375,8 +7372,6 @@ argc
 argv
 )
 ;
-#
-endif
 /
 /
 The

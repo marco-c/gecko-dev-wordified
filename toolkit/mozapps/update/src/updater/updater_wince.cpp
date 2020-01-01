@@ -786,6 +786,12 @@ amode
 =
 =
 F_OK
+|
+|
+amode
+=
+=
+R_OK
 )
 return
 (
