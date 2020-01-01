@@ -370,6 +370,11 @@ xpcAccessibleTable
 this
 )
 {
+mFlags
+|
+=
+eTableAccessible
+;
 }
 /
 /
@@ -2027,6 +2032,11 @@ aTreeView
 aRow
 )
 {
+mFlags
+|
+=
+eTableRowAccessible
+;
 mAccessibleCache
 .
 Init

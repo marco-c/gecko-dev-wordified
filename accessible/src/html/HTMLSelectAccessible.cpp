@@ -1287,7 +1287,7 @@ GetAccService
 GetOrCreateAccessible
 (
 childContent
-mDoc
+this
 )
 ;
 if

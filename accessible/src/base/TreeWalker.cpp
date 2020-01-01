@@ -869,7 +869,7 @@ GetAccService
 GetOrCreateAccessible
 (
 childNode
-mDoc
+mContext
 &
 isSubtreeHidden
 )
