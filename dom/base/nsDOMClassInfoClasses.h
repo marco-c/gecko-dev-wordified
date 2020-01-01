@@ -489,10 +489,6 @@ CanvasGradient
 )
 DOMCI_CLASS
 (
-CanvasPattern
-)
-DOMCI_CLASS
-(
 MozCanvasPrintState
 )
 /
