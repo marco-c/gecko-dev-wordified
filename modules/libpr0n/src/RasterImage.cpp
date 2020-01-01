@@ -1618,6 +1618,10 @@ const
 char
 *
 aMimeType
+const
+char
+*
+aURIString
 PRUint32
 aFlags
 )
@@ -1745,6 +1749,13 @@ mSourceDataMimeType
 Assign
 (
 aMimeType
+)
+;
+mURIString
+.
+Assign
+(
+aURIString
 )
 ;
 mDiscardable
@@ -2197,6 +2208,8 @@ img
 Init
 (
 nsnull
+"
+"
 "
 "
 INIT_FLAG_NONE
