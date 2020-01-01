@@ -2337,14 +2337,11 @@ mAsyncStatement
 int
 rc
 =
-prepareStmt
-(
 mDBConnection
 -
 >
-GetNativeConnection
+prepareStatement
 (
-)
 mSQLString
 &
 mAsyncStatement

@@ -985,7 +985,7 @@ zip
 is
 reading
 from
-nsAutoPtr
+nsRefPtr
 <
 nsZipArchive
 >

@@ -7547,15 +7547,9 @@ completely
 JSOp
 op
 =
-js_GetOpcode
+JSOp
 (
-cx_
-fp_
--
->
-script
-(
-)
+*
 pc_
 )
 ;

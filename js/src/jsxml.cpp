@@ -3485,7 +3485,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 v
@@ -3944,7 +3944,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 urival
@@ -4035,7 +4035,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 urival
@@ -4106,7 +4106,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 prefixval
@@ -4199,7 +4199,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 prefixval
@@ -4994,7 +4994,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 nsval
@@ -11751,7 +11751,7 @@ bad
 }
 str
 =
-js_ValueToString
+ToString
 (
 cx
 v
@@ -12149,7 +12149,7 @@ bad
 }
 str
 =
-js_ValueToString
+ToString
 (
 cx
 v
@@ -17799,7 +17799,7 @@ v
 )
 )
 return
-js_ValueToString
+ToString
 (
 cx
 v
@@ -17870,7 +17870,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 v
@@ -18515,7 +18515,7 @@ construct
 }
 name
 =
-js_ValueToString
+ToStringSlow
 (
 cx
 v
@@ -22353,7 +22353,7 @@ vxml
 {
 str
 =
-js_ValueToString
+ToString
 (
 cx
 v
@@ -22815,7 +22815,7 @@ default
 :
 str
 =
-js_ValueToString
+ToString
 (
 cx
 v
@@ -24429,7 +24429,7 @@ return
 NULL
 ;
 return
-js_ValueToString
+ToString
 (
 cx
 ObjectValue
@@ -33323,7 +33323,7 @@ ok
 (
 str
 =
-js_ValueToString
+ToStringSlow
 (
 cx
 ObjectValue
@@ -33338,7 +33338,7 @@ obj
 (
 vstr
 =
-js_ValueToString
+ToString
 (
 cx
 v
@@ -33408,7 +33408,7 @@ ok
 (
 str
 =
-js_ValueToString
+ToString
 (
 cx
 ObjectValue
@@ -33423,7 +33423,7 @@ obj
 (
 vstr
 =
-js_ValueToString
+ToString
 (
 cx
 v
@@ -33462,7 +33462,7 @@ v
 {
 str
 =
-js_ValueToString
+ToString
 (
 cx
 ObjectValue
@@ -38278,7 +38278,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 vp

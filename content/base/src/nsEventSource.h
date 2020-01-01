@@ -1124,6 +1124,9 @@ mErrorLoadOnRedirect
 bool
 mGoingToDispatchAllMessages
 ;
+bool
+mWithCredentials
+;
 /
 /
 used
@@ -1231,7 +1234,7 @@ nsIPrincipal
 >
 mPrincipal
 ;
-nsCString
+nsString
 mOrigin
 ;
 PRUint32

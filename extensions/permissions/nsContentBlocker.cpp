@@ -565,6 +565,9 @@ font
 "
 media
 "
+"
+websocket
+"
 }
 ;
 #

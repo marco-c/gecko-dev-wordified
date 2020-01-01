@@ -6010,7 +6010,7 @@ eviction
 PRInt32
 startSafeIndex
 =
-PR_MAX
+NS_MAX
 (
 0
 aIndex
@@ -6021,7 +6021,7 @@ gHistoryMaxViewers
 PRInt32
 endSafeIndex
 =
-PR_MIN
+NS_MIN
 (
 mLength
 aIndex
@@ -6981,12 +6981,12 @@ container
 .
 mDistance
 =
-PR_MIN
+NS_MIN
 (
 container
 .
 mDistance
-PR_ABS
+NS_ABS
 (
 i
 -
@@ -7036,7 +7036,7 @@ TransactionAndDistance
 container
 (
 trans
-PR_ABS
+NS_ABS
 (
 i
 -

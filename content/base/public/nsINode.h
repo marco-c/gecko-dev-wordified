@@ -2325,19 +2325,6 @@ eHTML_FORM_CONTROL
 /
 *
 *
-svg
-elements
-*
-/
-eSVG
-=
-1
-<
-<
-7
-/
-*
-*
 document
 fragments
 *
@@ -2347,7 +2334,7 @@ eDOCUMENT_FRAGMENT
 1
 <
 <
-8
+7
 /
 *
 *
@@ -2384,7 +2371,7 @@ eDATA_NODE
 1
 <
 <
-19
+8
 /
 *
 *
@@ -2396,7 +2383,7 @@ eMEDIA
 1
 <
 <
-10
+9
 /
 *
 *
@@ -2409,7 +2396,7 @@ eANIMATION
 1
 <
 <
-11
+10
 }
 ;
 /

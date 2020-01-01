@@ -903,11 +903,6 @@ aSelLen
 )
 ;
 void
-NotifyAppShellReady
-(
-)
-;
-void
 NotifyXreExit
 (
 )
