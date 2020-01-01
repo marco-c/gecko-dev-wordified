@@ -35395,13 +35395,6 @@ fp
 c
 -
 >
-spawnedFrom
-=
-anchor
-;
-c
--
->
 parent
 =
 f
