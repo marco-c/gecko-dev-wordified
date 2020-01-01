@@ -8876,6 +8876,8 @@ nanojit
 LIns
 *
 idx_ins
+JSOp
+mode
 )
 ;
 JS_REQUIRES_STACK
