@@ -5490,6 +5490,9 @@ MOZ_CRASH
 )
 ;
 }
+#
+ifdef
+DEBUG
 JS_FRIEND_API
 (
 void
@@ -5531,6 +5534,13 @@ this
 )
 ;
 }
+#
+endif
+/
+*
+DEBUG
+*
+/
 #
 endif
 /
