@@ -35107,7 +35107,7 @@ if
 (
 mFloats
 .
-DestroyFrame
+DestroyFrameIfPresent
 (
 aFloat
 )
@@ -35136,7 +35136,7 @@ oofs
 .
 mList
 .
-DestroyFrame
+DestroyFrameIfPresent
 (
 aFloat
 )
@@ -35517,7 +35517,6 @@ absoluteList
 aListName
 )
 {
-return
 mAbsoluteContainer
 .
 RemoveFrame
@@ -35526,6 +35525,9 @@ this
 aListName
 aOldFrame
 )
+;
+return
+NS_OK
 ;
 }
 else
@@ -38802,7 +38804,7 @@ removed
 =
 mFloats
 .
-RemoveFrame
+RemoveFrameIfPresent
 (
 aChild
 )
@@ -38836,7 +38838,7 @@ removed
 list
 -
 >
-RemoveFrame
+RemoveFrameIfPresent
 (
 aChild
 )
@@ -38844,9 +38846,7 @@ aChild
 }
 }
 return
-(
 removed
-)
 ?
 NS_OK
 :

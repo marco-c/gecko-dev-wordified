@@ -8063,8 +8063,6 @@ absoluteList
 aListName
 )
 {
-rv
-=
 mAbsoluteContainer
 .
 RemoveFrame
@@ -8073,6 +8071,10 @@ this
 aListName
 aOldFrame
 )
+;
+rv
+=
+NS_OK
 ;
 }
 else

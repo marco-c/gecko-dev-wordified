@@ -728,7 +728,7 @@ nsFrameList
 aFrameList
 )
 ;
-nsresult
+void
 RemoveFrame
 (
 nsIFrame
