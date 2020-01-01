@@ -873,11 +873,11 @@ unusedCode
 rtSizes
 -
 >
-stackCommitted
+stack
 =
 stackSpace
 .
-sizeOfCommitted
+sizeOf
 (
 )
 ;
@@ -1013,7 +1013,7 @@ unusedCode
 +
 stackSpace
 .
-sizeOfCommitted
+sizeOf
 (
 )
 ;
