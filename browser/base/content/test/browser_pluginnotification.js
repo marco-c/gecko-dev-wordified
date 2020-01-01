@@ -1184,7 +1184,7 @@ getAnonymousElementByAttribute
 (
 pluginNode
 "
-class
+anonid
 "
 "
 managePluginsLink
@@ -3416,7 +3416,7 @@ getAnonymousElementByAttribute
 (
 plugin
 "
-class
+anonid
 "
 "
 checkForUpdatesLink
@@ -3887,7 +3887,7 @@ getAnonymousElementByAttribute
 (
 plugin
 "
-class
+anonid
 "
 "
 checkForUpdatesLink
