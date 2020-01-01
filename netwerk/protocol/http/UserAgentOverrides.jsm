@@ -649,6 +649,14 @@ userAgent
 )
 ;
 }
+if
+(
+userAgent
+!
+=
+DEFAULT_UA
+)
+{
 gOverrides
 .
 set
@@ -657,6 +665,7 @@ domain
 userAgent
 )
 ;
+}
 }
 }
 function
