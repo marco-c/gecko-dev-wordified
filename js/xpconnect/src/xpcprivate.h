@@ -6366,8 +6366,10 @@ mLastActiveTime
 if
 active
 NOW
+nsRefPtr
+<
 XPCIncrementalReleaseRunnable
-*
+>
 mReleaseRunnable
 ;
 js
