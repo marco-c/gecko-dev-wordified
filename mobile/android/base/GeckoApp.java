@@ -15431,11 +15431,9 @@ configuration
 change
 .
 return
-new
 Boolean
-(
-true
-)
+.
+TRUE
 ;
 }
 abstract
