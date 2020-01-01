@@ -1664,7 +1664,7 @@ label
 =
 "
 &
-showTabView
+showTabView2
 .
 label
 ;
@@ -1673,7 +1673,7 @@ accesskey
 =
 "
 &
-showTabView
+showTabView2
 .
 accesskey
 ;

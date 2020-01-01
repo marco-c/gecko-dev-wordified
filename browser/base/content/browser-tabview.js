@@ -469,7 +469,7 @@ gNavigatorBundle
 getFormattedString
 (
 "
-tabView
+tabView2
 .
 title
 "
