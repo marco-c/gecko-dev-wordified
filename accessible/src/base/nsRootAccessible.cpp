@@ -5572,8 +5572,10 @@ menuitem
 .
 Only
 fire
+a
 focus
 event
+when
 the
 menu
 bar
