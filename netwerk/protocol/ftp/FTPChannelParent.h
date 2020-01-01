@@ -218,10 +218,7 @@ nsCString
 &
 entityID
 const
-IPC
-:
-:
-InputStream
+OptionalInputStreamParams
 &
 uploadStream
 const
