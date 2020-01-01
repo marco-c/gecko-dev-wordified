@@ -7223,6 +7223,16 @@ return
 mStyle
 ;
 }
+cairo_scaled_font_t
+*
+GetCairoScaledFont
+(
+)
+{
+return
+mScaledFont
+;
+}
 virtual
 gfxFont
 *

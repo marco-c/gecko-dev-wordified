@@ -453,7 +453,7 @@ h
 Forward
 declarations
 class
-nsIDOMRange
+nsRange
 ;
 class
 nsIDOMNode
@@ -525,7 +525,7 @@ CompareNodeToRange
 nsIContent
 *
 aNode
-nsIDOMRange
+nsRange
 *
 aRange
 bool

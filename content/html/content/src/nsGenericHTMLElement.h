@@ -516,6 +516,13 @@ nsDOMMemoryReporter
 .
 h
 "
+#
+include
+"
+nsIDOMMozBrowserFrameElement
+.
+h
+"
 class
 nsIDOMAttr
 ;
@@ -6581,6 +6588,8 @@ public
 nsGenericHTMLElement
 public
 nsIFrameLoaderOwner
+public
+nsIDOMMozBrowserFrameElement
 {
 public
 :
@@ -6778,6 +6787,10 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
 nsGenericHTMLFrameElement
 nsGenericHTMLElement
 )
+/
+/
+nsIDOMMozBrowserFrameElement
+NS_DECL_NSIDOMMOZBROWSERFRAMEELEMENT
 protected
 :
 /
@@ -6828,6 +6841,11 @@ nsIDOMWindow
 *
 *
 aContentWindow
+)
+;
+nsresult
+BrowserFrameSecurityCheck
+(
 )
 ;
 nsRefPtr

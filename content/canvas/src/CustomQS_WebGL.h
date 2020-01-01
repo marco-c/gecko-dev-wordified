@@ -454,6 +454,13 @@ qsconf
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jstypedarray
 .
 h
@@ -749,7 +756,7 @@ self
 xpc_qsSelfRef
 selfref
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -1137,7 +1144,7 @@ self
 xpc_qsSelfRef
 selfref
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -1519,7 +1526,7 @@ self
 xpc_qsSelfRef
 selfref
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -1822,7 +1829,7 @@ self
 xpc_qsSelfRef
 selfref
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -2565,7 +2572,7 @@ self
 xpc_qsSelfRef
 selfref
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -3238,7 +3245,7 @@ self
 xpc_qsSelfRef
 selfref
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -3379,7 +3386,7 @@ argv
 ]
 )
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -3683,7 +3690,7 @@ self
 xpc_qsSelfRef
 selfref
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -3824,7 +3831,7 @@ argv
 ]
 )
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -4125,7 +4132,7 @@ self
 xpc_qsSelfRef
 selfref
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -4287,7 +4294,7 @@ argv
 ]
 )
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -4564,7 +4571,7 @@ self
 xpc_qsSelfRef
 selfref
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -4676,7 +4683,7 @@ argv
 ]
 )
 ;
-js
+JS
 :
 :
 AutoValueRooter

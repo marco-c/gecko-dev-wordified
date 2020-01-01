@@ -989,6 +989,13 @@ const
 char
 *
 aCategoryName
+/
+/
+must
+be
+a
+static
+string
 const
 char
 *

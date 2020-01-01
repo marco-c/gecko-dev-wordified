@@ -455,7 +455,7 @@ h
 #
 include
 "
-nsIRange
+nsRange
 .
 h
 "
@@ -4776,7 +4776,7 @@ to
 GetFirstCellNodeInRange
 )
 .
-nsIRange
+nsRange
 *
 GetFirstCellRange
 (
@@ -4824,7 +4824,7 @@ to
 GetFirstCellNodeInRange
 )
 .
-nsIRange
+nsRange
 *
 GetNextCellRange
 (
@@ -4834,7 +4834,7 @@ nsIContent
 *
 GetFirstCellNodeInRange
 (
-nsIRange
+nsRange
 *
 aRange
 )
@@ -4944,9 +4944,9 @@ mSelectedCellIndex
 /
 maintain
 selection
-nsCOMPtr
+nsRefPtr
 <
-nsIRange
+nsRange
 >
 mMaintainRange
 ;

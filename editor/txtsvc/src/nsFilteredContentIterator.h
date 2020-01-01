@@ -461,7 +461,7 @@ h
 #
 include
 "
-nsIDOMNSRange
+nsRange
 .
 h
 "
@@ -537,15 +537,6 @@ nsresult
 Init
 (
 nsIDOMRange
-*
-aRange
-)
-;
-virtual
-nsresult
-Init
-(
-nsIRange
 *
 aRange
 )
@@ -734,7 +725,7 @@ mFilter
 ;
 nsCOMPtr
 <
-nsIDOMNSRange
+nsIDOMRange
 >
 mRange
 ;

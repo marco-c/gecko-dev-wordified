@@ -4283,7 +4283,7 @@ JS_SetNativeStackQuota
 (
 )
 .
-jsuword
+uintptr_t
 *
 limitAddr
 =

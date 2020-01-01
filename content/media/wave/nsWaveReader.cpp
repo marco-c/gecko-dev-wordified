@@ -495,6 +495,15 @@ VideoUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StdInt
+.
+h
+"
 using
 namespace
 mozilla
@@ -1629,7 +1638,7 @@ NS_ASSERTION
 posTime
 <
 =
-PR_INT64_MAX
+INT64_MAX
 /
 USECS_PER_S
 "
@@ -1643,7 +1652,7 @@ NS_ASSERTION
 readSizeTime
 <
 =
-PR_INT64_MAX
+INT64_MAX
 /
 USECS_PER_S
 "
@@ -1825,7 +1834,7 @@ NS_ASSERTION
 (
 d
 <
-PR_INT64_MAX
+INT64_MAX
 /
 USECS_PER_S
 "
@@ -1883,7 +1892,7 @@ seekTime
 ;
 NS_ASSERTION
 (
-PR_INT64_MAX
+INT64_MAX
 -
 mWavePCMOffset
 >

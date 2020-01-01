@@ -494,13 +494,6 @@ class
 nsScriptNameSpaceManager
 ;
 namespace
-js
-{
-class
-AutoArrayRooter
-;
-}
-namespace
 mozilla
 {
 template

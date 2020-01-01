@@ -455,6 +455,13 @@ xpcprivate
 .
 h
 "
+#
+include
+"
+jshash
+.
+h
+"
 /
 *
 *

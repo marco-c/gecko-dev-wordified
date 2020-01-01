@@ -2544,9 +2544,10 @@ GetSelectionDOMRanges
 (
 PRInt16
 aType
-nsCOMArray
+nsTArray
 <
-nsIDOMRange
+nsRange
+*
 >
 *
 aRanges
@@ -2740,9 +2741,9 @@ offset
 *
 /
 nsresult
-DOMRangeBoundToHypertextOffset
+RangeBoundToHypertextOffset
 (
-nsIDOMRange
+nsRange
 *
 aRange
 bool

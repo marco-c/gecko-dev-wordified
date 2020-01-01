@@ -2750,7 +2750,7 @@ script
 return
 true
 ;
-jsuword
+uintptr_t
 pc
 =
 JSD_GetPCForStackFrame
@@ -7637,7 +7637,7 @@ void
 *
 mark
 ;
-jsuword
+uintptr_t
 *
 names
 =
@@ -8461,7 +8461,7 @@ aPcmap
 PCMAP_SOURCETEXT
 )
 {
-jsuword
+uintptr_t
 pc
 =
 JSD_GetClosestPC
@@ -8597,7 +8597,7 @@ aPcmap
 PCMAP_SOURCETEXT
 )
 {
-jsuword
+uintptr_t
 start
 =
 JSD_GetClosestPC
@@ -8624,7 +8624,7 @@ mScript
 -
 1
 ;
-jsuword
+uintptr_t
 end
 =
 JSD_GetClosestPC
@@ -8891,7 +8891,7 @@ aPcmap
 PCMAP_SOURCETEXT
 )
 {
-jsuword
+uintptr_t
 pc
 =
 JSD_GetClosestPC
@@ -9016,7 +9016,7 @@ aPC
 {
 ASSERT_VALID_EPHEMERAL
 ;
-jsuword
+uintptr_t
 pc
 =
 mFirstPC
@@ -9048,7 +9048,7 @@ aPC
 {
 ASSERT_VALID_EPHEMERAL
 ;
-jsuword
+uintptr_t
 pc
 =
 mFirstPC
@@ -10526,7 +10526,7 @@ script
 return
 NS_ERROR_FAILURE
 ;
-jsuword
+uintptr_t
 pcbase
 =
 JSD_GetClosestPC
@@ -10536,7 +10536,7 @@ script
 0
 )
 ;
-jsuword
+uintptr_t
 pc
 =
 JSD_GetPCForStackFrame
@@ -10596,7 +10596,7 @@ if
 script
 )
 {
-jsuword
+uintptr_t
 pc
 =
 JSD_GetPCForStackFrame

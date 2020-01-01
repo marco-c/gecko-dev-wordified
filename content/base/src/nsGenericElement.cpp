@@ -809,7 +809,7 @@ DEBUG
 #
 include
 "
-nsIRange
+nsRange
 .
 h
 "
@@ -1175,6 +1175,13 @@ h
 include
 "
 xpcpublic
+.
+h
+"
+#
+include
+"
+xpcprivate
 .
 h
 "
@@ -27939,7 +27946,7 @@ IsCommonAncestorForRangeInSelection
 )
 )
 {
-nsIRange
+nsRange
 :
 :
 RangeHashTable
@@ -27948,7 +27955,7 @@ ranges
 =
 static_cast
 <
-nsIRange
+nsRange
 :
 :
 RangeHashTable

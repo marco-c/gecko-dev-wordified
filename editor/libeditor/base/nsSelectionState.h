@@ -469,6 +469,9 @@ nsIDOMCharacterData
 class
 nsISelection
 ;
+class
+nsRange
+;
 /
 *
 *
@@ -621,10 +624,8 @@ aRange
 nsresult
 GetRange
 (
-nsCOMPtr
-<
-nsIDOMRange
->
+nsRange
+*
 *
 outRange
 )

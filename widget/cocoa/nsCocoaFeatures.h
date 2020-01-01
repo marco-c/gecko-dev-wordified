@@ -466,6 +466,12 @@ OnLionOrLater
 (
 )
 ;
+static
+bool
+SupportCoreAnimationPlugins
+(
+)
+;
 private
 :
 static
