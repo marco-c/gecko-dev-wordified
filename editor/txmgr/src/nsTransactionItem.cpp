@@ -1593,11 +1593,13 @@ sz
 =
 0
 ;
-NS_ENSURE_TRUE
+if
 (
+!
 mRedoStack
-NS_OK
 )
+return
+NS_OK
 ;
 /
 *
