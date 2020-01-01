@@ -27459,7 +27459,7 @@ JS
 gcreason
 :
 :
-LAST_CONTEXT
+DESTROY_RUNTIME
 )
 ;
 if
