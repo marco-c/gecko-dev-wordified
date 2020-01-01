@@ -4303,7 +4303,7 @@ argslot
 const
 LDefinition
 &
-argJSContext
+argContext
 const
 LDefinition
 &
@@ -4335,7 +4335,7 @@ callWithABI
 setTemp
 (
 0
-argJSContext
+argContext
 )
 ;
 setTemp
@@ -4365,7 +4365,7 @@ tmpreg
 const
 LAllocation
 *
-getArgJSContextReg
+getArgContextReg
 (
 )
 {
