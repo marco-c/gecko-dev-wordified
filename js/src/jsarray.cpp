@@ -11742,6 +11742,16 @@ newlen
 =
 0
 )
+{
+vp
+-
+>
+setObject
+(
+*
+obj
+)
+;
 return
 true
 ;
@@ -11757,6 +11767,7 @@ undefs
 .
 *
 /
+}
 /
 *
 *
