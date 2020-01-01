@@ -950,6 +950,8 @@ int64_t
 maxage
 bool
 includeSubdomains
+uint32_t
+flags
 )
 ;
 nsresult
@@ -961,6 +963,8 @@ aSourceURI
 char
 *
 aHeader
+uint32_t
+flags
 uint64_t
 *
 aMaxAge
@@ -1007,6 +1011,8 @@ uint32_t
 aExpireType
 int64_t
 aExpireTime
+bool
+aIsPrivate
 )
 ;
 nsresult
@@ -1020,6 +1026,8 @@ const
 char
 *
 aType
+bool
+aIsPrivate
 )
 ;
 /
@@ -1037,9 +1045,6 @@ nsCOMPtr
 nsIObserverService
 >
 mObserverService
-;
-bool
-mInPrivateMode
 ;
 nsTHashtable
 <

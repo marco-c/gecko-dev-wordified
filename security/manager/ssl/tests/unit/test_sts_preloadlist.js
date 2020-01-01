@@ -326,6 +326,7 @@ gSTSService
 removeStsState
 (
 uri
+0
 )
 ;
 }
@@ -438,6 +439,7 @@ mozilla
 .
 com
 "
+0
 )
 )
 ;
@@ -464,6 +466,7 @@ isStsHost
 "
 com
 "
+0
 )
 )
 ;
@@ -540,6 +543,7 @@ factor
 .
 cc
 "
+0
 )
 )
 ;
@@ -570,6 +574,7 @@ factor
 .
 cc
 "
+0
 )
 )
 ;
@@ -602,6 +607,7 @@ com
 .
 br
 "
+0
 )
 )
 ;
@@ -635,6 +641,7 @@ com
 .
 br
 "
+0
 )
 )
 ;
@@ -674,6 +681,7 @@ com
 .
 br
 "
+0
 )
 )
 ;
@@ -704,6 +712,7 @@ neg9
 .
 org
 "
+0
 )
 )
 ;
@@ -737,6 +746,7 @@ neg9
 .
 org
 "
+0
 )
 )
 ;
@@ -769,6 +779,7 @@ noisebridge
 .
 net
 "
+0
 )
 )
 ;
@@ -806,6 +817,7 @@ noisebridge
 .
 net
 "
+0
 )
 )
 ;
@@ -842,6 +854,7 @@ mozilla
 com
 .
 "
+0
 )
 )
 ;
@@ -902,6 +915,7 @@ age
 =
 0
 "
+0
 )
 ;
 do_check_false
@@ -915,6 +929,7 @@ keyerror
 .
 com
 "
+0
 )
 )
 ;
@@ -931,6 +946,7 @@ keyerror
 .
 com
 "
+0
 )
 )
 ;
@@ -974,6 +990,7 @@ age
 =
 1000
 "
+0
 )
 ;
 do_check_true
@@ -987,6 +1004,7 @@ keyerror
 .
 com
 "
+0
 )
 )
 ;
@@ -1017,6 +1035,7 @@ keyerror
 .
 com
 "
+0
 )
 )
 ;
@@ -1088,6 +1107,7 @@ age
 =
 0
 "
+0
 )
 ;
 do_check_true
@@ -1101,6 +1121,7 @@ intercom
 .
 io
 "
+0
 )
 )
 ;
@@ -1117,6 +1138,7 @@ intercom
 .
 io
 "
+0
 )
 )
 ;
@@ -1156,6 +1178,7 @@ age
 =
 0
 "
+0
 )
 ;
 /
@@ -1293,6 +1316,7 @@ pixi
 .
 me
 "
+0
 )
 )
 ;
@@ -1309,6 +1333,7 @@ pixi
 .
 me
 "
+0
 )
 )
 ;
@@ -1327,6 +1352,7 @@ pixi
 .
 me
 "
+0
 )
 )
 ;
@@ -1342,6 +1368,7 @@ age
 =
 1000
 "
+0
 )
 ;
 /
@@ -1432,6 +1459,7 @@ pixi
 .
 me
 "
+0
 )
 )
 ;
@@ -1448,6 +1476,7 @@ pixi
 .
 me
 "
+0
 )
 )
 ;
@@ -1466,6 +1495,7 @@ pixi
 .
 me
 "
+0
 )
 )
 ;
@@ -1549,6 +1579,15 @@ run_next_test
 ;
 }
 }
+const
+IS_PRIVATE
+=
+Ci
+.
+nsISocketProvider
+.
+NO_PERMANENT_STORAGE
+;
 function
 test_private_browsing1
 (
@@ -1576,6 +1615,7 @@ crypto
 .
 cat
 "
+IS_PRIVATE
 )
 )
 ;
@@ -1598,6 +1638,7 @@ crypto
 .
 cat
 "
+IS_PRIVATE
 )
 )
 ;
@@ -1635,6 +1676,7 @@ age
 =
 0
 "
+IS_PRIVATE
 )
 ;
 do_check_false
@@ -1648,6 +1690,7 @@ crypto
 .
 cat
 "
+IS_PRIVATE
 )
 )
 ;
@@ -1668,6 +1711,7 @@ crypto
 .
 cat
 "
+IS_PRIVATE
 )
 )
 ;
@@ -1690,6 +1734,7 @@ age
 =
 1000
 "
+IS_PRIVATE
 )
 ;
 do_check_true
@@ -1703,6 +1748,7 @@ crypto
 .
 cat
 "
+IS_PRIVATE
 )
 )
 ;
@@ -1728,6 +1774,7 @@ crypto
 .
 cat
 "
+IS_PRIVATE
 )
 )
 ;
@@ -1753,6 +1800,7 @@ age
 =
 0
 "
+IS_PRIVATE
 )
 ;
 do_check_false
@@ -1766,6 +1814,7 @@ crypto
 .
 cat
 "
+IS_PRIVATE
 )
 )
 ;
@@ -1782,6 +1831,7 @@ crypto
 .
 cat
 "
+IS_PRIVATE
 )
 )
 ;
@@ -1928,6 +1978,7 @@ logentries
 .
 com
 "
+IS_PRIVATE
 )
 )
 ;
@@ -1993,6 +2044,7 @@ age
 -
 1000
 "
+IS_PRIVATE
 )
 ;
 do_check_false
@@ -2006,6 +2058,7 @@ logentries
 .
 com
 "
+IS_PRIVATE
 )
 )
 ;
@@ -2068,6 +2121,7 @@ crypto
 .
 cat
 "
+0
 )
 )
 ;
@@ -2094,6 +2148,7 @@ crypto
 .
 cat
 "
+0
 )
 )
 ;
@@ -2145,6 +2200,7 @@ logentries
 .
 com
 "
+0
 )
 )
 ;

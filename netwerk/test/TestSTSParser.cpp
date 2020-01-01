@@ -294,6 +294,7 @@ ProcessStsHeader
 (
 dummyUri
 hdr
+0
 &
 maxAge
 &
@@ -462,6 +463,7 @@ ProcessStsHeader
 (
 dummyUri
 hdr
+0
 NULL
 NULL
 )
