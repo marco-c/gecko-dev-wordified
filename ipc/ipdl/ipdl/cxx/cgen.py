@@ -1906,7 +1906,13 @@ self
 write
 (
 '
-=
+'
++
+ea
+.
+op
++
+'
 '
 )
         
@@ -2275,7 +2281,7 @@ dedent
             
 self
 .
-println
+printdentln
 (
 '
 }
@@ -2529,12 +2535,6 @@ indent
 (
 )
         
-self
-.
-indent
-(
-)
-        
 for
 i
 decl
@@ -2581,12 +2581,6 @@ write
 (
 '
 '
-)
-        
-self
-.
-dedent
-(
 )
         
 self
