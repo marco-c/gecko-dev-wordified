@@ -46,7 +46,7 @@ a
 trap
 (
 main
-8
+6
 "
 success
 (

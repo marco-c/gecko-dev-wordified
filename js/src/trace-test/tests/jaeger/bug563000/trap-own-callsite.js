@@ -32,7 +32,7 @@ myparent
 trap
 (
 myparent
-40
+37
 "
 failure
 (

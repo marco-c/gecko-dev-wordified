@@ -31,7 +31,7 @@ parent
 trap
 (
 parent
-11
+10
 "
 success
 (
@@ -64,7 +64,7 @@ parent
 trap
 (
 parent
-1
+0
 "
 child
 (

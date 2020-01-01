@@ -4896,10 +4896,6 @@ JS_DECLARE_CALLINFO
 (
 js_NewNullClosure
 )
-JS_DECLARE_CALLINFO
-(
-js_PopInterpFrame
-)
 /
 *
 Defined
