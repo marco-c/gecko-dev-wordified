@@ -3658,6 +3658,7 @@ const
 nsRect
 &
 aRect
+const
 nsIFrame
 *
 aAncestor
