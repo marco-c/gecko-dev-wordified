@@ -9643,6 +9643,9 @@ selection
 cache
 :
 null
+_active
+:
+false
 /
 /
 The
@@ -9886,7 +9889,7 @@ if
 (
 this
 .
-_view
+_active
 )
 this
 .
@@ -9935,7 +9938,7 @@ if
 (
 this
 .
-_view
+_active
 )
 this
 .
@@ -10288,6 +10291,12 @@ this
 showHandles
 (
 )
+;
+this
+.
+_active
+=
+true
 ;
 }
 /
@@ -11586,6 +11595,12 @@ this
 cache
 =
 null
+;
+this
+.
+_active
+=
+false
 ;
 }
 /
