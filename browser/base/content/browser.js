@@ -43325,7 +43325,7 @@ otherPBWindowExists
 false
 ;
 let
-warnAboutClosingTabs
+nonPopupPresent
 =
 false
 ;
@@ -43379,7 +43379,7 @@ toolbar
 .
 visible
 )
-warnAboutClosingTabs
+nonPopupPresent
 =
 true
 ;
@@ -43468,7 +43468,7 @@ otherPBWindowExists
 )
 &
 &
-warnAboutClosingTabs
+nonPopupPresent
 )
 break
 ;
@@ -43545,7 +43545,11 @@ false
 }
 if
 (
-warnAboutClosingTabs
+!
+isPBWindow
+&
+&
+nonPopupPresent
 )
 return
 gBrowser
