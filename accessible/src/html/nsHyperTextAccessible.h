@@ -655,6 +655,12 @@ NS_HYPERTEXTACCESSIBLE_IMPL_CID
 /
 nsAccessible
 virtual
+PRInt32
+GetLevelInternal
+(
+)
+;
+virtual
 nsresult
 GetAttributesInternal
 (
