@@ -3869,7 +3869,6 @@ if
 (
 mParent
 )
-{
 mParent
 -
 >
@@ -3878,11 +3877,6 @@ RemoveChild
 this
 )
 ;
-mParent
-=
-nsnull
-;
-}
 mWeakShell
 =
 nsnull
@@ -8660,12 +8654,11 @@ GetChildCount
 PRInt32
 changeAccIdx
 =
-parent
+changeAcc
 -
 >
-GetIndexOf
+GetIndexInParent
 (
-changeAcc
 )
 ;
 for
@@ -10286,9 +10279,11 @@ if
 accessible
 -
 >
-GetCachedFirstChild
+GetCachedChildCount
 (
 )
+>
+0
 )
 {
 nsCOMPtr

@@ -606,12 +606,6 @@ aEvent
 /
 nsAccessNode
 virtual
-PRBool
-Init
-(
-)
-;
-virtual
 void
 Shutdown
 (

@@ -4798,12 +4798,11 @@ GetLinkIndex
 accWrap
 )
 :
-parent
+accWrap
 -
 >
-GetIndexOf
+GetIndexInParent
 (
-accWrap
 )
 ;
 }
