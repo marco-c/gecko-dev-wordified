@@ -20832,7 +20832,7 @@ aStyleContext
 scrolledFrame
 PR_FALSE
 childItems
-PR_TRUE
+PR_FALSE
 aPendingBinding
 )
 ;
