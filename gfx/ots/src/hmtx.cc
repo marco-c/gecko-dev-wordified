@@ -41,6 +41,11 @@ file
 .
 #
 include
+<
+new
+>
+#
+include
 "
 hmtx
 .
