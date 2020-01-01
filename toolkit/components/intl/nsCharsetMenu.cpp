@@ -8143,7 +8143,7 @@ res
 return
 res
 ;
-AddFromPrefsToMenu
+AddFromNolocPrefsToMenu
 (
 NULL
 container1
@@ -8174,7 +8174,7 @@ res
 return
 res
 ;
-AddFromPrefsToMenu
+AddFromNolocPrefsToMenu
 (
 NULL
 container2
@@ -8205,7 +8205,7 @@ res
 return
 res
 ;
-AddFromPrefsToMenu
+AddFromNolocPrefsToMenu
 (
 NULL
 container3
@@ -8236,7 +8236,7 @@ res
 return
 res
 ;
-AddFromPrefsToMenu
+AddFromNolocPrefsToMenu
 (
 NULL
 container4
@@ -8267,7 +8267,7 @@ res
 return
 res
 ;
-AddFromPrefsToMenu
+AddFromNolocPrefsToMenu
 (
 NULL
 container5
