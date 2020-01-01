@@ -434,6 +434,9 @@ sheet
 ;
 }
 }
+return
+null
+;
 }
 waitForFocus
 (

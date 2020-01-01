@@ -1573,6 +1573,13 @@ finish
 return
 ;
 }
+if
+(
+hud
+.
+jsterm
+)
+{
 hud
 .
 jsterm
@@ -1582,9 +1589,12 @@ clearOutput
 true
 )
 ;
+}
 closeConsole
 (
 hud
+.
+target
 .
 tab
 finish
