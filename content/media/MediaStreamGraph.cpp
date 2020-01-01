@@ -7250,6 +7250,12 @@ track
 GetRate
 (
 )
+audio
+-
+>
+GetFirstFrameFormat
+(
+)
 )
 ;
 }

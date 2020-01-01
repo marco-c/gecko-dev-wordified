@@ -1220,6 +1220,13 @@ Init
 (
 aNumChannels
 aRate
+(
+nsAudioStream
+:
+:
+SampleFormat
+)
+aFormat
 )
 )
 )
