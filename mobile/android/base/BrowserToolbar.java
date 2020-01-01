@@ -3599,6 +3599,14 @@ mHasSoftMenuButton
 return
 false
 ;
+GeckoApp
+.
+mAppContext
+.
+invalidateOptionsMenu
+(
+)
+;
 if
 (
 mMenuPopup
