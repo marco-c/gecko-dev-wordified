@@ -3557,7 +3557,11 @@ KeyTypePointer
 aStr
 )
 :
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+const
+void
+>
 (
 aStr
 )
@@ -3578,7 +3582,11 @@ nsDOMStorageEntry
 aToCopy
 )
 :
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+const
+void
+>
 (
 aToCopy
 )

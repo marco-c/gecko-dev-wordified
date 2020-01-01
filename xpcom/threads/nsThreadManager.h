@@ -711,7 +711,10 @@ sInstance
 ;
 nsRefPtrHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+PRThread
+>
 nsThread
 >
 mThreadsByPRThread

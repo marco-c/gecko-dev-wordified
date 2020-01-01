@@ -1084,14 +1084,14 @@ AcknowledgeEventSync
 )
 ;
 void
-EnableDeviceMotion
+EnableLocation
 (
 bool
 aEnable
 )
 ;
 void
-EnableLocation
+EnableLocationHighAccuracy
 (
 bool
 aEnable
@@ -2581,6 +2581,9 @@ jAcknowledgeEventSync
 ;
 jmethodID
 jEnableLocation
+;
+jmethodID
+jEnableLocationHighAccuracy
 ;
 jmethodID
 jEnableSensor

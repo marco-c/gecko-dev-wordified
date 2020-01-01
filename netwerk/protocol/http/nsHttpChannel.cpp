@@ -5816,6 +5816,9 @@ case
 case
 307
 :
+case
+308
+:
 /
 /
 Bad
@@ -7550,6 +7553,9 @@ case
 :
 case
 307
+:
+case
+308
 :
 case
 303

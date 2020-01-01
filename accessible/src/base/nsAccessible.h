@@ -590,7 +590,11 @@ nsIView
 typedef
 nsRefPtrHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+const
+void
+>
 nsAccessible
 >
 nsAccessibleHashtable

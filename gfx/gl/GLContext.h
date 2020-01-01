@@ -3073,6 +3073,17 @@ ReportOutstandingNames
 endif
 }
 enum
+ContextFlags
+{
+ContextFlagsNone
+=
+0x0
+ContextFlagsGlobal
+=
+0x1
+}
+;
+enum
 GLContextType
 {
 ContextTypeUnknown
@@ -3572,6 +3583,7 @@ enum
 {
 RendererAdreno200
 RendererAdreno205
+RendererSGX530
 RendererSGX540
 RendererOther
 }
@@ -8278,7 +8290,10 @@ protected
 :
 nsDataHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+void
+>
 void
 *
 >

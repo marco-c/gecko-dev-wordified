@@ -6078,7 +6078,10 @@ mApplicationCache
 ;
 nsDataHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+nsXBLPrototypeHandler
+>
 JSObject
 *
 >
