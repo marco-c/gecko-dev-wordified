@@ -3234,6 +3234,7 @@ Visibility
 Outline
 TableBorder
 Table
+Text
 UIReset
 Quotes
 DO_STRUCT_DIFFERENCE
@@ -3284,6 +3285,11 @@ Table
 DO_STRUCT_DIFFERENCE
 (
 UIReset
+)
+;
+DO_STRUCT_DIFFERENCE
+(
+Text
 )
 ;
 DO_STRUCT_DIFFERENCE
@@ -3432,11 +3438,6 @@ Border
 DO_STRUCT_DIFFERENCE
 (
 Position
-)
-;
-DO_STRUCT_DIFFERENCE
-(
-Text
 )
 ;
 DO_STRUCT_DIFFERENCE
