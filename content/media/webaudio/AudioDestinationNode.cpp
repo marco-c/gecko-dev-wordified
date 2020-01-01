@@ -227,6 +227,10 @@ new
 AudioNodeEngine
 (
 )
+MediaStreamGraph
+:
+:
+EXTERNAL_STREAM
 )
 ;
 SetIsDOMBinding
