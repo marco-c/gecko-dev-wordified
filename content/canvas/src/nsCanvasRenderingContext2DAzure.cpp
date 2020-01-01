@@ -19083,8 +19083,10 @@ GetSurfaceSnapshot
 if
 (
 srcSurf
-&
-&
+)
+{
+if
+(
 mCanvasElement
 )
 {
@@ -19116,6 +19118,7 @@ IsWriteOnly
 false
 )
 ;
+}
 imgSize
 =
 gfxIntSize
