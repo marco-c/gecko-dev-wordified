@@ -6123,9 +6123,9 @@ join
 n
 "
 )
-this
+aOutputNode
 .
-doc
+ownerDocument
 )
 ;
 }
