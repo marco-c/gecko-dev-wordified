@@ -3804,6 +3804,9 @@ case
 JSOP_CALLLOCAL
 :
 case
+JSOP_GETLOCALPROP
+:
+case
 JSOP_INCLOCAL
 :
 case
