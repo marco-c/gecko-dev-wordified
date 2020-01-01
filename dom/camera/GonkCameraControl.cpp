@@ -3835,6 +3835,17 @@ mRotation
 )
 ;
 r
++
+=
+GonkCameraHardware
+:
+:
+GetSensorOrientation
+(
+mHwHandle
+)
+;
+r
 %
 =
 360
