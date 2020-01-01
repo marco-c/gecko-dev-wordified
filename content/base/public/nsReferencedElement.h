@@ -767,8 +767,7 @@ aTo
 )
 {
 }
-virtual
-nsresult
+NS_IMETHOD
 Run
 (
 )
