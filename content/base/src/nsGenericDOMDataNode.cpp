@@ -3927,6 +3927,8 @@ PRUint32
 aIndex
 PRBool
 aNotify
+PRBool
+aMutationEvent
 )
 {
 return

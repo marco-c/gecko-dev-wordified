@@ -17377,6 +17377,8 @@ PRUint32
 aIndex
 PRBool
 aNotify
+PRBool
+aMutationEvent
 )
 {
 nsCOMPtr
@@ -17425,6 +17427,7 @@ GetCurrentDoc
 (
 )
 mAttrsAndChildren
+aMutationEvent
 )
 ;
 }
@@ -17459,6 +17462,8 @@ aDocument
 nsAttrAndChildArray
 &
 aChildArray
+PRBool
+aMutationEvent
 )
 {
 NS_PRECONDITION
@@ -17684,6 +17689,9 @@ nsnull
 if
 (
 aNotify
+&
+&
+aMutationEvent
 &
 &
 nsContentUtils

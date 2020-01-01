@@ -3079,6 +3079,15 @@ has
 *
 occurred
 *
+param
+aMutationEvent
+whether
+to
+fire
+a
+mutation
+event
+*
 *
 Note
 :
@@ -3106,6 +3115,10 @@ PRUint32
 aIndex
 PRBool
 aNotify
+PRBool
+aMutationEvent
+=
+PR_TRUE
 )
 =
 0
