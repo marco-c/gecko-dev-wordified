@@ -9534,6 +9534,17 @@ rv
 NPError
 error
 ;
+NPBool
+value
+=
+static_cast
+<
+NPBool
+>
+(
+pme
+)
+;
 NS_TRY_SAFE_CALL_RETURN
 (
 error
@@ -9549,7 +9560,7 @@ setvalue
 mNPP
 NPNVprivateModeBool
 &
-pme
+value
 )
 mLibrary
 this
