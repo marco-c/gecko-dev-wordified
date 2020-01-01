@@ -3967,12 +3967,13 @@ newThumbRect
 ;
 /
 /
-Redraw
+Request
+a
+repaint
+of
 the
 scrollbar
-/
-/
-InvalidateFrame
+SchedulePaint
 (
 )
 ;
