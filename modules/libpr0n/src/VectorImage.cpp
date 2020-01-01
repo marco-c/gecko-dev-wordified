@@ -1060,7 +1060,7 @@ failed
 )
 ;
 return
-NS_ERROR_FAILURE
+PR_FALSE
 ;
 }
 NS_ABORT_IF_FALSE

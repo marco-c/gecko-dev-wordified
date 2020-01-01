@@ -1228,7 +1228,7 @@ captureEnabled
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_TRUE
 )
 ;
 if
@@ -1289,7 +1289,7 @@ captureEnabled
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_TRUE
 )
 ;
 if
@@ -1350,7 +1350,7 @@ captureEnabled
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_TRUE
 )
 ;
 if
@@ -1394,7 +1394,7 @@ captureEnabled
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_TRUE
 )
 ;
 if
@@ -1415,7 +1415,6 @@ MODE_VIDEO_NO_SOUND_CLIP
 ;
 return
 PR_FALSE
-;
 ;
 }
 }

@@ -6707,7 +6707,7 @@ rv
 )
 )
 return
-rv
+PR_TRUE
 ;
 if
 (
@@ -6991,7 +6991,7 @@ rv
 )
 )
 return
-rv
+PR_TRUE
 ;
 nsCOMPtr
 <
@@ -7020,7 +7020,7 @@ rv
 )
 )
 return
-rv
+PR_TRUE
 ;
 nsCOMPtr
 <

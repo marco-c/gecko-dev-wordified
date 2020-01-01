@@ -1603,7 +1603,7 @@ if
 snapshot
 )
 return
-NS_ERROR_FAILURE
+JS_FALSE
 ;
 JS_SET_RVAL
 (
