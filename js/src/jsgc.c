@@ -10401,11 +10401,6 @@ flagp
 uint8
 )
 flags
-|
-cx
--
->
-gcDefaultFlags
 ;
 #
 ifdef
