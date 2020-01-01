@@ -5,15 +5,13 @@
 -
 Mode
 :
-C
-+
-+
+Javascript
 ;
 tab
 -
 width
 :
-8
+2
 ;
 indent
 -
