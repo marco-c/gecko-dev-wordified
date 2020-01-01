@@ -2844,9 +2844,9 @@ param
 {
 object
 }
-sdp
+desc
 *
-SDP
+mozRTCSessionDescription
 for
 the
 local
@@ -2876,7 +2876,7 @@ setLocalDescription
 function
 PCW_setLocalDescription
 (
-sdp
+desc
 onSuccess
 )
 {
@@ -2891,7 +2891,7 @@ _pc
 .
 setLocalDescription
 (
-sdp
+desc
 function
 (
 )
@@ -2946,9 +2946,9 @@ param
 {
 object
 }
-sdp
+desc
 *
-SDP
+mozRTCSessionDescription
 for
 the
 remote
@@ -2978,7 +2978,7 @@ setRemoteDescription
 function
 PCW_setRemoteDescription
 (
-sdp
+desc
 onSuccess
 )
 {
@@ -2993,7 +2993,7 @@ _pc
 .
 setRemoteDescription
 (
-sdp
+desc
 function
 (
 )

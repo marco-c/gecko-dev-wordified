@@ -71082,6 +71082,30 @@ here
                 
 returnCode
 =
+(
+"
+(
+void
+)
+{
+declName
+}
+;
+/
+/
+avoid
+warning
+.
+May
+end
+up
+not
+being
+read
+\
+n
+"
+                              
 "
 return
 {
@@ -71093,6 +71117,7 @@ forget
 )
 ;
 "
+)
             
 elif
 iface
