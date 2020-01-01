@@ -3409,9 +3409,6 @@ JSFunction
 )
 |
 |
-IsBuiltinFunctionConstructor
-(
-&
 callee
 .
 as
@@ -3420,6 +3417,9 @@ JSFunction
 >
 (
 )
+.
+isBuiltinFunctionConstructor
+(
 )
 )
 ;
