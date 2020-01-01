@@ -3385,7 +3385,7 @@ docShell
 .
 isActive
 =
-true
+false
 ;
 this
 .
@@ -3412,7 +3412,7 @@ docShell
 .
 isActive
 =
-false
+true
 ;
 this
 .
