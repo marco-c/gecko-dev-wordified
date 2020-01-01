@@ -1973,7 +1973,7 @@ UnlockScreenOrientation
 (
 )
 ;
-bool
+void
 PumpMessageLoop
 (
 )

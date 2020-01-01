@@ -14887,7 +14887,7 @@ unlockScreenOrientation
 }
 public
 static
-boolean
+void
 pumpMessageLoop
 (
 )
@@ -14917,7 +14917,6 @@ msg
 null
 )
 return
-false
 ;
 if
 (
@@ -14957,9 +14956,6 @@ msg
 recycle
 (
 )
-;
-return
-true
 ;
 }
 static
