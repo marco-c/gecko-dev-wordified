@@ -927,7 +927,7 @@ mPhishyUserPassLength
 ;
 }
 PRBool
-IsPersistentHttpsCachingEnabled
+CanCacheAllSSLContent
 (
 )
 {
