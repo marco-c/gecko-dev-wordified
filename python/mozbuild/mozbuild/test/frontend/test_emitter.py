@@ -1286,9 +1286,7 @@ True
             
 NO_DIST_INSTALL
 =
-'
-1
-'
+True
             
 MODULE
 =
