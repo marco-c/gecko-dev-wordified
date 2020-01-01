@@ -1403,7 +1403,7 @@ mWidget
 >
 GetNativeData
 (
-NS_NATIVE_WINDOW
+NS_NATIVE_ICOREWINDOW
 )
 &
 swapDesc
