@@ -296,33 +296,6 @@ h
 #
 ifdef
 USE_SSE2
-#
-ifdef
-_MSC_VER
-#
-undef
-inline
-#
-define
-inline
-__forceinline
-#
-endif
-#
-ifdef
-__GNUC__
-#
-define
-inline
-__inline__
-__attribute__
-(
-(
-__always_inline__
-)
-)
-#
-endif
 /
 *
 -
@@ -612,7 +585,7 @@ Inlines
 *
 /
 static
-inline
+force_inline
 __m128i
 unpack_32_1x128
 (
@@ -634,7 +607,7 @@ _mm_setzero_si128
 ;
 }
 static
-inline
+force_inline
 void
 unpack_128_2x128
 (
@@ -672,7 +645,7 @@ _mm_setzero_si128
 ;
 }
 static
-inline
+force_inline
 __m128i
 unpack565to8888
 (
@@ -788,7 +761,7 @@ g
 ;
 }
 static
-inline
+force_inline
 void
 unpack565_128_4x128
 (
@@ -862,7 +835,7 @@ data3
 ;
 }
 static
-inline
+force_inline
 uint16_t
 pack565_32_16
 (
@@ -911,7 +884,7 @@ pixel
 ;
 }
 static
-inline
+force_inline
 __m128i
 pack_2x128_128
 (
@@ -930,7 +903,7 @@ hi
 ;
 }
 static
-inline
+force_inline
 __m128i
 pack565_2x128_128
 (
@@ -1018,7 +991,7 @@ b
 ;
 }
 static
-inline
+force_inline
 __m128i
 pack565_4x128_128
 (
@@ -1057,7 +1030,7 @@ xmm3
 ;
 }
 static
-inline
+force_inline
 uint32_t
 packAlpha
 (
@@ -1089,7 +1062,7 @@ _mm_setzero_si128
 ;
 }
 static
-inline
+force_inline
 __m128i
 expandPixel_32_1x128
 (
@@ -1115,7 +1088,7 @@ _MM_SHUFFLE
 ;
 }
 static
-inline
+force_inline
 __m128i
 expandAlpha_1x128
 (
@@ -1148,7 +1121,7 @@ _MM_SHUFFLE
 ;
 }
 static
-inline
+force_inline
 void
 expandAlpha_2x128
 (
@@ -1228,7 +1201,7 @@ _MM_SHUFFLE
 ;
 }
 static
-inline
+force_inline
 void
 expandAlphaRev_2x128
 (
@@ -1308,7 +1281,7 @@ _MM_SHUFFLE
 ;
 }
 static
-inline
+force_inline
 void
 pixMultiply_2x128
 (
@@ -1392,7 +1365,7 @@ Mask0101
 ;
 }
 static
-inline
+force_inline
 void
 pixAddMultiply_2x128
 (
@@ -1528,7 +1501,7 @@ Mask0101
 ;
 }
 static
-inline
+force_inline
 void
 negate_2x128
 (
@@ -1564,7 +1537,7 @@ Mask00ff
 ;
 }
 static
-inline
+force_inline
 void
 invertColors_2x128
 (
@@ -1644,7 +1617,7 @@ _MM_SHUFFLE
 ;
 }
 static
-inline
+force_inline
 void
 over_2x128
 (
@@ -1720,7 +1693,7 @@ dstHi
 ;
 }
 static
-inline
+force_inline
 void
 overRevNonPre_2x128
 (
@@ -1812,7 +1785,7 @@ dstHi
 ;
 }
 static
-inline
+force_inline
 void
 inOver_2x128
 (
@@ -1890,7 +1863,7 @@ dstHi
 ;
 }
 static
-inline
+force_inline
 void
 cachePrefetch
 (
@@ -1907,7 +1880,7 @@ _MM_HINT_T0
 ;
 }
 static
-inline
+force_inline
 void
 cachePrefetchNext
 (
@@ -1946,7 +1919,7 @@ address
 *
 /
 static
-inline
+force_inline
 __m128i
 load128Aligned
 (
@@ -1974,7 +1947,7 @@ address
 *
 /
 static
-inline
+force_inline
 __m128i
 load128Unaligned
 (
@@ -2010,7 +1983,7 @@ address
 *
 /
 static
-inline
+force_inline
 void
 save128WriteCombining
 (
@@ -2044,7 +2017,7 @@ address
 *
 /
 static
-inline
+force_inline
 void
 save128Aligned
 (
@@ -2074,7 +2047,7 @@ address
 *
 /
 static
-inline
+force_inline
 void
 save128Unaligned
 (
@@ -2197,7 +2170,7 @@ inlines
 *
 /
 static
-inline
+force_inline
 __m64
 unpack_32_1x64
 (
@@ -2219,7 +2192,7 @@ _mm_setzero_si64
 ;
 }
 static
-inline
+force_inline
 __m64
 expandAlpha_1x64
 (
@@ -2242,7 +2215,7 @@ _MM_SHUFFLE
 ;
 }
 static
-inline
+force_inline
 __m64
 expandAlphaRev_1x64
 (
@@ -2265,7 +2238,7 @@ _MM_SHUFFLE
 ;
 }
 static
-inline
+force_inline
 __m64
 expandPixel_8_1x64
 (
@@ -2294,7 +2267,7 @@ _MM_SHUFFLE
 ;
 }
 static
-inline
+force_inline
 __m64
 pixMultiply_1x64
 (
@@ -2321,7 +2294,7 @@ xMask0101
 ;
 }
 static
-inline
+force_inline
 __m64
 pixAddMultiply_1x64
 (
@@ -2368,7 +2341,7 @@ xMask0101
 ;
 }
 static
-inline
+force_inline
 __m64
 negate_1x64
 (
@@ -2385,7 +2358,7 @@ xMask00ff
 ;
 }
 static
-inline
+force_inline
 __m64
 invertColors_1x64
 (
@@ -2408,7 +2381,7 @@ _MM_SHUFFLE
 ;
 }
 static
-inline
+force_inline
 __m64
 over_1x64
 (
@@ -2436,7 +2409,7 @@ alpha
 ;
 }
 static
-inline
+force_inline
 __m64
 inOver_1x64
 (
@@ -2477,7 +2450,7 @@ dst
 ;
 }
 static
-inline
+force_inline
 __m64
 overRevNonPre_1x64
 (
@@ -2516,7 +2489,7 @@ dst
 ;
 }
 static
-inline
+force_inline
 uint32_t
 pack_1x64_32
 (
@@ -2653,7 +2626,7 @@ word
 *
 /
 static
-inline
+force_inline
 __m64
 expand565_16_1x64
 (
@@ -2844,7 +2817,7 @@ transformations
 *
 /
 static
-inline
+force_inline
 uint32_t
 coreCombineOverUPixelsse2
 (
@@ -2915,7 +2888,7 @@ dst
 ;
 }
 static
-inline
+force_inline
 void
 coreCombineOverUsse2
 (
@@ -3302,7 +3275,7 @@ w
 }
 }
 static
-inline
+force_inline
 void
 coreCombineOverReverseUsse2
 (
@@ -3645,7 +3618,7 @@ w
 }
 }
 static
-inline
+force_inline
 uint32_t
 coreCombineInUPixelsse2
 (
@@ -3709,7 +3682,7 @@ dst
 ;
 }
 static
-inline
+force_inline
 void
 coreCombineInUsse2
 (
@@ -4005,7 +3978,7 @@ w
 }
 }
 static
-inline
+force_inline
 void
 coreCombineReverseInUsse2
 (
@@ -4301,7 +4274,7 @@ w
 }
 }
 static
-inline
+force_inline
 void
 coreCombineReverseOutUsse2
 (
@@ -4637,7 +4610,7 @@ w
 }
 }
 static
-inline
+force_inline
 void
 coreCombineOutUsse2
 (
@@ -4973,7 +4946,7 @@ w
 }
 }
 static
-inline
+force_inline
 uint32_t
 coreCombineAtopUPixelsse2
 (
@@ -5036,7 +5009,7 @@ sa
 ;
 }
 static
-inline
+force_inline
 void
 coreCombineAtopUsse2
 (
@@ -5368,7 +5341,7 @@ w
 }
 }
 static
-inline
+force_inline
 uint32_t
 coreCombineReverseAtopUPixelsse2
 (
@@ -5431,7 +5404,7 @@ sa
 ;
 }
 static
-inline
+force_inline
 void
 coreCombineReverseAtopUsse2
 (
@@ -5763,7 +5736,7 @@ w
 }
 }
 static
-inline
+force_inline
 uint32_t
 coreCombineXorUPixelsse2
 (
@@ -5829,7 +5802,7 @@ negS
 ;
 }
 static
-inline
+force_inline
 void
 coreCombineXorUsse2
 (
@@ -6191,7 +6164,7 @@ w
 }
 }
 static
-inline
+force_inline
 void
 coreCombineAddUsse2
 (
@@ -6459,7 +6432,7 @@ d
 }
 }
 static
-inline
+force_inline
 uint32_t
 coreCombineSaturateUPixelsse2
 (
@@ -6543,7 +6516,7 @@ ms
 ;
 }
 static
-inline
+force_inline
 void
 coreCombineSaturateUsse2
 (
@@ -6929,7 +6902,7 @@ d
 }
 }
 static
-inline
+force_inline
 void
 coreCombineSrcCsse2
 (
@@ -7275,7 +7248,7 @@ w
 }
 }
 static
-inline
+force_inline
 uint32_t
 coreCombineOverCPixelsse2
 (
@@ -7337,7 +7310,7 @@ unpkDst
 ;
 }
 static
-inline
+force_inline
 void
 coreCombineOverCsse2
 (
@@ -7716,7 +7689,7 @@ w
 }
 }
 static
-inline
+force_inline
 uint32_t
 coreCombineOverReverseCPixelsse2
 (
@@ -7762,7 +7735,7 @@ mask
 ;
 }
 static
-inline
+force_inline
 void
 coreCombineOverReverseCsse2
 (
@@ -8153,7 +8126,7 @@ w
 }
 }
 static
-inline
+force_inline
 void
 coreCombineInCsse2
 (
@@ -8578,7 +8551,7 @@ w
 }
 }
 static
-inline
+force_inline
 void
 coreCombineInReverseCsse2
 (
@@ -9003,7 +8976,7 @@ w
 }
 }
 static
-inline
+force_inline
 void
 coreCombineOutCsse2
 (
@@ -9444,7 +9417,7 @@ w
 }
 }
 static
-inline
+force_inline
 void
 coreCombineOutReverseCsse2
 (
@@ -9885,7 +9858,7 @@ w
 }
 }
 static
-inline
+force_inline
 uint32_t
 coreCombineAtopCPixelsse2
 (
@@ -9974,7 +9947,7 @@ da
 ;
 }
 static
-inline
+force_inline
 void
 coreCombineAtopCsse2
 (
@@ -10411,7 +10384,7 @@ w
 }
 }
 static
-inline
+force_inline
 uint32_t
 coreCombineReverseAtopCPixelsse2
 (
@@ -10500,7 +10473,7 @@ da
 ;
 }
 static
-inline
+force_inline
 void
 coreCombineReverseAtopCsse2
 (
@@ -10937,7 +10910,7 @@ w
 }
 }
 static
-inline
+force_inline
 uint32_t
 coreCombineXorCPixelsse2
 (
@@ -11026,7 +10999,7 @@ alphaSrc
 ;
 }
 static
-inline
+force_inline
 void
 coreCombineXorCsse2
 (
@@ -11473,7 +11446,7 @@ w
 }
 }
 static
-inline
+force_inline
 void
 coreCombineAddCsse2
 (
@@ -11973,7 +11946,7 @@ fbComposeSetupSSE2
 *
 /
 static
-inline
+force_inline
 __m64
 createMask_16_64
 (
@@ -11989,7 +11962,7 @@ mask
 ;
 }
 static
-inline
+force_inline
 __m128i
 createMask_16_128
 (
@@ -12005,7 +11978,7 @@ mask
 ;
 }
 static
-inline
+force_inline
 __m64
 createMask_2x32_64
 (
@@ -12024,7 +11997,7 @@ mask1
 ;
 }
 static
-inline
+force_inline
 __m128i
 createMask_2x32_128
 (
@@ -13158,14 +13131,14 @@ combineMaskU
 =
 sse2CombineMaskU
 ;
+_mm_empty
+(
+)
+;
 }
 initialized
 =
 TRUE
-;
-_mm_empty
-(
-)
 ;
 }
 /
@@ -16306,7 +16279,7 @@ fbCompositeSrc_8888x0565
 *
 /
 static
-inline
+force_inline
 uint16_t
 fbCompositeSrc_8888x0565pixel
 (

@@ -763,16 +763,6 @@ x
 #
 endif
 #
-define
-inline
-__inline__
-__attribute__
-(
-(
-__always_inline__
-)
-)
-#
 endif
 #
 ifdef
@@ -790,16 +780,9 @@ mmx_
 #
 x
 #
-undef
-inline
-#
-define
-inline
-__forceinline
-#
 endif
 static
-inline
+force_inline
 __m64
 M64
 (
@@ -849,7 +832,7 @@ res
 endif
 }
 static
-inline
+force_inline
 ullong
 ULLONG
 (
@@ -899,7 +882,7 @@ res
 endif
 }
 static
-inline
+force_inline
 __m64
 shift
 (
@@ -943,7 +926,7 @@ v
 ;
 }
 static
-inline
+force_inline
 __m64
 negate
 (
@@ -963,7 +946,7 @@ MC
 ;
 }
 static
-inline
+force_inline
 __m64
 pix_multiply
 (
@@ -1020,7 +1003,7 @@ res
 ;
 }
 static
-inline
+force_inline
 __m64
 pix_add
 (
@@ -1039,7 +1022,7 @@ b
 ;
 }
 static
-inline
+force_inline
 __m64
 expand_alpha
 (
@@ -1097,7 +1080,7 @@ t1
 ;
 }
 static
-inline
+force_inline
 __m64
 expand_alpha_rev
 (
@@ -1177,7 +1160,7 @@ t1
 ;
 }
 static
-inline
+force_inline
 __m64
 invert_colors
 (
@@ -1269,7 +1252,7 @@ x
 ;
 }
 static
-inline
+force_inline
 __m64
 over
 (
@@ -1297,7 +1280,7 @@ srca
 ;
 }
 static
-inline
+force_inline
 __m64
 over_rev_non_pre
 (
@@ -1344,7 +1327,7 @@ dest
 ;
 }
 static
-inline
+force_inline
 __m64
 in
 (
@@ -1363,7 +1346,7 @@ mask
 ;
 }
 static
-inline
+force_inline
 __m64
 in_over_full_src_alpha
 (
@@ -1403,7 +1386,7 @@ dest
 ifndef
 _MSC_VER
 static
-inline
+force_inline
 __m64
 in_over
 (
@@ -1462,7 +1445,7 @@ dest
 #
 endif
 static
-inline
+force_inline
 __m64
 load8888
 (
@@ -1484,7 +1467,7 @@ _mm_setzero_si64
 ;
 }
 static
-inline
+force_inline
 __m64
 pack8888
 (
@@ -1503,7 +1486,7 @@ hi
 ;
 }
 static
-inline
+force_inline
 uint32_t
 store8888
 (
@@ -1640,7 +1623,7 @@ word
 *
 /
 static
-inline
+force_inline
 __m64
 expand565
 (
@@ -1759,7 +1742,7 @@ pixel
 ;
 }
 static
-inline
+force_inline
 __m64
 expand8888
 (
@@ -1797,7 +1780,7 @@ _mm_setzero_si64
 ;
 }
 static
-inline
+force_inline
 __m64
 expandx888
 (
@@ -1823,7 +1806,7 @@ full_alpha
 ;
 }
 static
-inline
+force_inline
 __m64
 pack565
 (
@@ -2037,7 +2020,7 @@ p
 ifndef
 _MSC_VER
 static
-inline
+force_inline
 __m64
 pix_add_mul
 (

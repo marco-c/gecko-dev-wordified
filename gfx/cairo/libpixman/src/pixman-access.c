@@ -434,7 +434,7 @@ offset0
 /
 *
 Note
-n
+no
 trailing
 semicolon
 on

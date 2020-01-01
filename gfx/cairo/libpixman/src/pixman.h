@@ -730,6 +730,12 @@ defined
 (
 sun
 )
+|
+|
+defined
+(
+__digital__
+)
 #
 include
 <
