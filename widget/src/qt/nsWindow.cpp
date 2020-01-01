@@ -7897,7 +7897,7 @@ nsEventStatus
 nsWindow
 :
 :
-mouseDoubleClickEvent
+OnMouseDoubleClickEvent
 (
 QGraphicsSceneMouseEvent
 *

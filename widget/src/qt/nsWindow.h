@@ -1508,7 +1508,7 @@ QGraphicsSceneMouseEvent
 ;
 virtual
 nsEventStatus
-mouseDoubleClickEvent
+OnMouseDoubleClickEvent
 (
 QGraphicsSceneMouseEvent
 *
