@@ -9167,9 +9167,12 @@ fun
 JSFunction
 *
 )
-OBJ_GET_PRIVATE
+JS_GetPrivate
 (
-cx
+trc
+-
+>
+context
 obj
 )
 ;
