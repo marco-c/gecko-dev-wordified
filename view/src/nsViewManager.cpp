@@ -2617,10 +2617,6 @@ mPresShell
 >
 ScheduleViewManagerFlush
 (
-nsIFrame
-:
-:
-PAINT_COMPOSITE_ONLY
 )
 ;
 }
