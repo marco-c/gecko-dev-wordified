@@ -605,6 +605,12 @@ JSC
 CodeLocationJump
 traceHint
 ;
+JSC
+:
+:
+CodeLocationJump
+slowTraceHint
+;
 Kind
 kind
 :
@@ -636,6 +642,9 @@ dataWrite
 ;
 }
 name
+;
+bool
+hasSlowTraceHint
 ;
 }
 u
