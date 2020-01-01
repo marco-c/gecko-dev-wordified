@@ -11632,6 +11632,7 @@ eStyleContentType_NoCloseQuote
 eStyleContentType_AltContent
 =
 50
+eStyleContentType_Uninitialized
 }
 ;
 struct
@@ -11674,10 +11675,7 @@ nsStyleContentData
 :
 mType
 (
-nsStyleContentType
-(
-0
-)
+eStyleContentType_Uninitialized
 )
 #
 ifdef

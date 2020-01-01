@@ -46897,9 +46897,13 @@ value
 "
 )
 ;
-}
+type
+=
+eStyleContentType_Uninitialized
+;
 break
 ;
+}
 default
 :
 NS_ERROR
@@ -46910,6 +46914,10 @@ content
 type
 "
 )
+;
+type
+=
+eStyleContentType_Uninitialized
 ;
 }
 data
