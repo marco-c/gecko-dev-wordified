@@ -751,4 +751,14 @@ Ci
 nsILoginManager
 )
 ;
+checkService
+(
+"
+telemetry
+"
+Ci
+.
+nsITelemetry
+)
+;
 }
