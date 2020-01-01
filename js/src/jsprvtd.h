@@ -856,6 +856,11 @@ JSGenerator
 ;
 typedef
 struct
+JSNativeEnumerator
+JSNativeEnumerator
+;
+typedef
+struct
 JSParseContext
 JSParseContext
 ;

@@ -4836,7 +4836,7 @@ idp
 ;
 extern
 void
-js_TraceNativeIteratorStates
+js_TraceNativeEnumerators
 (
 JSTracer
 *
