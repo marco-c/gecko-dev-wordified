@@ -2947,7 +2947,7 @@ the
 lookup
 is
 a
-looupForAdd
+lookupForAdd
 *
 2
 .
