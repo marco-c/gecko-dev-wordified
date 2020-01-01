@@ -1286,6 +1286,17 @@ nsSVGFilterElement
 *
 mFilterElement
 ;
+/
+/
+Bounding
+box
+of
+the
+target
+element
+in
+user
+space
 gfxRect
 mTargetBBox
 ;
