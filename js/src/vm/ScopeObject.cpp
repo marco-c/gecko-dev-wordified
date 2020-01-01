@@ -9794,8 +9794,10 @@ popFront
 {
 if
 (
-IsAboutToBeFinalized
+!
+IsObjectMarked
 (
+&
 e
 .
 front

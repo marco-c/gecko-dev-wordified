@@ -2942,7 +2942,6 @@ public
 :
 JSScript
 *
-const
 script
 ;
 jsbytecode
