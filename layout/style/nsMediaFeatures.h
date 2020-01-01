@@ -605,6 +605,12 @@ uses
 keyword
 table
 )
+eIdent
+/
+/
+values
+are
+eCSSUnit_Ident
 /
 /
 Note
