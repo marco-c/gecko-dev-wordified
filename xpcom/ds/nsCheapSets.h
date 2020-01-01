@@ -435,6 +435,13 @@ nsHashSets
 .
 h
 "
+#
+include
+<
+stdint
+.
+h
+>
 /
 *
 *
