@@ -206,6 +206,15 @@ nsWrapperCacheInlines
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 /
 /
 nsGlobalWindow
@@ -1298,6 +1307,7 @@ T
 :
 PrototypeID
 )
+T
 >
 (
 cx
