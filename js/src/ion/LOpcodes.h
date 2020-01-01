@@ -835,6 +835,11 @@ CallGetNameTypeOf
 \
 _
 (
+CallGetElement
+)
+\
+_
+(
 CallSetPropertyV
 )
 \

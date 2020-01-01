@@ -880,6 +880,14 @@ lir
 )
 ;
 bool
+visitCallGetElement
+(
+LCallGetElement
+*
+lir
+)
+;
+bool
 visitThrow
 (
 LThrow
