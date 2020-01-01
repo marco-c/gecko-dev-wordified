@@ -2147,6 +2147,11 @@ interval
 .
 *
 /
+/
+*
+unsafe
+*
+/
 nsresult
 StartAutoScrollTimer
 (
@@ -2505,6 +2510,11 @@ request
 which
 is
 processed
+*
+/
+/
+*
+unsafe
 *
 /
 nsresult
@@ -3965,6 +3975,10 @@ DisconnectFromPresShell
 (
 )
 {
+StopAutoScrollTimer
+(
+)
+;
 mShell
 =
 nsnull
