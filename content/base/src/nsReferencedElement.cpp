@@ -706,6 +706,8 @@ nsIURI
 aURI
 PRBool
 aWatch
+PRBool
+aReferenceImage
 )
 {
 Unlink
@@ -1322,6 +1324,10 @@ mWatchID
 )
 ;
 }
+mReferencingImage
+=
+aReferenceImage
+;
 HaveNewDocument
 (
 doc
@@ -1407,6 +1413,10 @@ mWatchID
 )
 ;
 }
+mReferencingImage
+=
+PR_FALSE
+;
 HaveNewDocument
 (
 doc
@@ -1456,6 +1466,7 @@ AddIDTargetObserver
 mWatchID
 Observe
 this
+mReferencingImage
 )
 ;
 }
@@ -1475,6 +1486,16 @@ Element
 *
 e
 =
+mReferencingImage
+?
+aDocument
+-
+>
+LookupImageElement
+(
+aRef
+)
+:
 aDocument
 -
 >
@@ -1564,6 +1585,7 @@ RemoveIDTargetObserver
 mWatchID
 Observe
 this
+mReferencingImage
 )
 ;
 }
@@ -1595,6 +1617,10 @@ nsnull
 mElement
 =
 nsnull
+;
+mReferencingImage
+=
+PR_FALSE
 ;
 }
 PRBool
