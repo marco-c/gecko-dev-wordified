@@ -21499,6 +21499,12 @@ JSScopeProperty
 *
 sprop
 ;
+js_LeaveTraceIfGlobalObject
+(
+cx
+obj
+)
+;
 /
 *
 Convert
