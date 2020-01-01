@@ -9654,6 +9654,17 @@ PRInt32
 aSelectionType
 )
 {
+if
+(
+!
+FireClipboardEvent
+(
+NS_PASTE
+)
+)
+return
+NS_OK
+;
 ForceCompositionEnd
 (
 )
