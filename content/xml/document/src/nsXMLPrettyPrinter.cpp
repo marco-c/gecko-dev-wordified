@@ -1382,6 +1382,7 @@ content
 .
 if
 (
+(
 !
 aContent
 |
@@ -1392,6 +1393,7 @@ aContent
 >
 GetBindingParent
 (
+)
 )
 &
 &
