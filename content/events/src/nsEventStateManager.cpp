@@ -15787,9 +15787,14 @@ ss
 nsLayoutUtils
 :
 :
-ScrollbarStylesOfView
+GetScrollableFrameFor
 (
 scrollView
+)
+-
+>
+GetScrollbarStyles
+(
 )
 ;
 if
