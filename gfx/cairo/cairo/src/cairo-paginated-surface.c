@@ -473,7 +473,6 @@ h
 "
 static
 const
-cairo_private
 cairo_surface_backend_t
 cairo_paginated_surface_backend
 ;
