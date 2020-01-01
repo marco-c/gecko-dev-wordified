@@ -2596,9 +2596,6 @@ getClass
 js_AttributeNameClass
 )
 {
-JS
-:
-:
 Anchor
 <
 JSString

@@ -2718,9 +2718,6 @@ s
 return
 JS_FALSE
 ;
-JS
-:
-:
 Anchor
 <
 JSString

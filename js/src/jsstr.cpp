@@ -5592,9 +5592,6 @@ String
 "
 )
 ;
-JS
-:
-:
 Anchor
 <
 JSString
