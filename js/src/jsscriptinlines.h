@@ -1089,7 +1089,10 @@ getFunction
 ;
 }
 inline
-JSObject
+js
+:
+:
+RegExpObject
 *
 JSScript
 :
@@ -1144,6 +1147,13 @@ isRegExp
 )
 ;
 return
+(
+js
+:
+:
+RegExpObject
+*
+)
 obj
 ;
 }

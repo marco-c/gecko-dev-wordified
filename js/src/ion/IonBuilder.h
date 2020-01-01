@@ -2029,6 +2029,14 @@ count
 )
 ;
 bool
+jsop_regexp
+(
+RegExpObject
+*
+reobj
+)
+;
+bool
 jsop_this
 (
 )
