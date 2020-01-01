@@ -80,7 +80,8 @@ and
 give
 a
 name
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
