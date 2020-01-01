@@ -1257,12 +1257,6 @@ data
 )
 ;
 }
-aSummary
-.
-scrollIntoView
-(
-)
-;
 }
 /
 *
