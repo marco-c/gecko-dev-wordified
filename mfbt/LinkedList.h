@@ -1690,7 +1690,7 @@ operator
 =
 (
 const
-LinkedList
+LinkedListElement
 <
 T
 >
@@ -1702,7 +1702,7 @@ MOZ_DELETE
 LinkedListElement
 (
 const
-LinkedList
+LinkedListElement
 <
 T
 >
