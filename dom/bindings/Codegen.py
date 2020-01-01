@@ -21100,6 +21100,8 @@ s
 "
 )
 ;
+\
+n
 '
                  
 '
@@ -22687,6 +22689,7 @@ SetNull
 (
 )
 "
+notSequence
 )
         
 #
@@ -25707,7 +25710,22 @@ declName
 nullptr
 "
                                           
+onFailureBadType
+(
 failureCode
+                                                           
+descriptor
+.
+interface
+.
+identifier
+.
+name
+)
+.
+define
+(
+)
 )
         
 declType
@@ -28589,6 +28607,7 @@ SetNull
 (
 )
 "
+notDate
 )
         
 return
