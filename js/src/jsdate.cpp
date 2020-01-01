@@ -16661,8 +16661,6 @@ createConstructor
 (
 cx
 js_Date
-&
-DateClass
 CLASS_ATOM
 (
 cx

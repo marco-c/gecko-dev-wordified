@@ -3350,8 +3350,6 @@ createConstructor
 (
 cx
 regexp_construct
-&
-RegExpClass
 CLASS_ATOM
 (
 cx

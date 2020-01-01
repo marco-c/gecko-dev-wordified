@@ -6659,8 +6659,6 @@ createConstructor
 (
 cx
 Number
-&
-NumberClass
 CLASS_ATOM
 (
 cx

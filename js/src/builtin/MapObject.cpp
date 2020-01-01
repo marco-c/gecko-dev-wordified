@@ -602,7 +602,6 @@ createConstructor
 (
 cx
 construct
-clasp
 atom
 1
 )

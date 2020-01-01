@@ -22552,8 +22552,6 @@ createConstructor
 (
 cx
 js_Array
-&
-ArrayClass
 CLASS_ATOM
 (
 cx

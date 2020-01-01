@@ -2761,9 +2761,6 @@ JSContext
 cx
 Native
 ctor
-Class
-*
-clasp
 JSAtom
 *
 name
