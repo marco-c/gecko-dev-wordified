@@ -425,6 +425,9 @@ class
 nsIAtom
 ;
 class
+nsIURI
+;
+class
 nsHyphenationManager
 {
 public
@@ -494,7 +497,7 @@ mHyphAliases
 nsInterfaceHashtable
 <
 nsISupportsHashKey
-nsIFile
+nsIURI
 >
 mPatternFiles
 ;
