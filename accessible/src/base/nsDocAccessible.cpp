@@ -1766,6 +1766,14 @@ aState
 aExtraState
 )
 ;
+if
+(
+!
+mDOMNode
+)
+return
+NS_OK
+;
 #
 ifdef
 MOZ_XUL

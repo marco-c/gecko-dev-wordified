@@ -783,6 +783,14 @@ rv
 rv
 )
 ;
+if
+(
+!
+mDOMNode
+)
+return
+NS_OK
+;
 nsCOMPtr
 <
 nsIImageLoadingContent
