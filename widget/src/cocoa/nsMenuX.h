@@ -953,7 +953,7 @@ nsIContent
 inMenuContent
 )
 ;
-NSMenu
+GeckoNSMenu
 *
 CreateMenuWithGeckoString
 (
@@ -1036,7 +1036,7 @@ specific
 PRInt16
 mMacMenuID
 ;
-NSMenu
+GeckoNSMenu
 *
 mMacMenu
 ;
