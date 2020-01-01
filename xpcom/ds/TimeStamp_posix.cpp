@@ -384,6 +384,13 @@ prthread
 .
 h
 "
+#
+include
+"
+nsDebug
+.
+h
+"
 /
 /
 Estimate

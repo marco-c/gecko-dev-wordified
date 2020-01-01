@@ -173,9 +173,6 @@ b1bf
 }
 \
 }
-class
-nsIUnicharInputStream
-;
 typedef
 nsInterfaceHashtable
 <

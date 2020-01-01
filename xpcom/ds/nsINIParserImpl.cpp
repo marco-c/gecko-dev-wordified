@@ -66,13 +66,6 @@ h
 #
 include
 "
-nsIFile
-.
-h
-"
-#
-include
-"
 nsINIParser
 .
 h

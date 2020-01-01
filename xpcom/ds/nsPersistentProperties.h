@@ -123,7 +123,7 @@ h
 #
 include
 "
-nsString
+nsStringGlue
 .
 h
 "
@@ -143,13 +143,9 @@ Attributes
 .
 h
 "
-#
-include
-"
+class
 nsIUnicharInputStream
-.
-h
-"
+;
 class
 nsPersistentProperties
 MOZ_FINAL
