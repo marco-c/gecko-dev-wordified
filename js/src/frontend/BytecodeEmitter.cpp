@@ -6733,15 +6733,6 @@ op
 )
 =
 =
-JOF_SLOTATOM
-|
-|
-JOF_OPTYPE
-(
-op
-)
-=
-=
 JOF_SLOTOBJECT
 )
 ;
