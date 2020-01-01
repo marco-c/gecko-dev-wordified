@@ -850,10 +850,6 @@ process
 -
 browser
 -
-or
--
-app
--
 frame
 -
 shown
@@ -1104,10 +1100,6 @@ in
 process
 -
 browser
--
-or
--
-app
 -
 frame
 -
