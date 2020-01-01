@@ -13356,6 +13356,10 @@ MOZ_ASSERT
 mCurrentRemoteFrame
 )
 ;
+mRemoteFrame
+=
+true
+;
 mRemoteBrowser
 =
 static_cast
