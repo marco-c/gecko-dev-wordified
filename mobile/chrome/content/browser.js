@@ -115,7 +115,7 @@ a
 ;
 }
 function
-SendMessageToJava
+sendMessageToJava
 (
 aMessage
 )
@@ -1315,7 +1315,7 @@ aStateFlags
 }
 }
 ;
-SendMessageToJava
+sendMessageToJava
 (
 message
 )
@@ -1426,7 +1426,7 @@ uri
 }
 }
 ;
-SendMessageToJava
+sendMessageToJava
 (
 message
 )
@@ -1470,7 +1470,7 @@ windowID
 }
 }
 ;
-SendMessageToJava
+sendMessageToJava
 (
 showMessage
 )
@@ -1573,7 +1573,7 @@ aMaxTotalProgress
 }
 }
 ;
-SendMessageToJava
+sendMessageToJava
 (
 message
 )
@@ -1765,7 +1765,7 @@ aEvent
 target
 )
 ;
-SendMessageToJava
+sendMessageToJava
 (
 {
 gecko
