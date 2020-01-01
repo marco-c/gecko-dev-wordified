@@ -469,6 +469,15 @@ h
 #
 include
 "
+js
+-
+config
+.
+h
+"
+#
+include
+"
 jspubtd
 .
 h
