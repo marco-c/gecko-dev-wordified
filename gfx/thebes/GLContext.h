@@ -2633,8 +2633,7 @@ this
 0
 sizeof
 (
-*
-this
+ContextFormat
 )
 )
 ;
@@ -2652,8 +2651,7 @@ this
 0
 sizeof
 (
-*
-this
+ContextFormat
 )
 )
 ;
@@ -2806,6 +2804,9 @@ minBlue
 int
 alpha
 minAlpha
+;
+int
+samples
 ;
 int
 colorBits
