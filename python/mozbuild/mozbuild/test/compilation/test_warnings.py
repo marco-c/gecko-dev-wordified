@@ -87,6 +87,10 @@ compilation
 warnings
 import
 WarningsDatabase
+from
+mozunit
+import
+main
 CLANG_TESTS
 =
 [
@@ -959,7 +963,14 @@ warning
 filename
 '
 ]
+os
+.
+path
+.
+normpath
+(
 filename
+)
 )
             
 self
@@ -1612,4 +1623,16 @@ len
 db
 )
 19
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+main
+(
 )

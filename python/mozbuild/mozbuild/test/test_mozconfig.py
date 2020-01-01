@@ -81,6 +81,10 @@ mozfile
 import
 NamedTemporaryFile
 from
+mozunit
+import
+main
+from
 mozbuild
 .
 mozconfig
@@ -2700,4 +2704,16 @@ hello
 world
 '
 ]
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+main
+(
 )

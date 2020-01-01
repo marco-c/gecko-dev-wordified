@@ -68,6 +68,10 @@ mozfile
 import
 NamedTemporaryFile
 from
+mozunit
+import
+main
+from
 mozbuild
 .
 util
@@ -252,4 +256,16 @@ assertEqual
 (
 actual
 expected
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+main
+(
 )
