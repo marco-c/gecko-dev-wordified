@@ -1340,7 +1340,7 @@ children
 .
 Only
 weak
-refrences
+references
 are
 destroyed
 not
