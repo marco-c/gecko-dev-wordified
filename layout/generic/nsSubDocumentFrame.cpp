@@ -434,6 +434,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+LayerTreeInvalidation
+.
+h
+"
 /
 /
 For
@@ -2358,6 +2365,10 @@ subdocRootFrame
 childItems
 subdocAPD
 parentAPD
+nsDisplayOwnLayer
+:
+:
+GENERATE_SUBDOC_INVALIDATIONS
 )
 ;
 childItems
@@ -2416,6 +2427,10 @@ subdocRootFrame
 this
 &
 childItems
+nsDisplayOwnLayer
+:
+:
+GENERATE_SUBDOC_INVALIDATIONS
 )
 ;
 childItems
