@@ -607,7 +607,8 @@ of
 the
 menu
 .
-NS_IMETHOD
+virtual
+void
 BuildDisplayListForChildren
 (
 nsDisplayListBuilder

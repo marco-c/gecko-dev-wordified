@@ -16655,7 +16655,7 @@ aPt
 /
 Painting
 routines
-NS_IMETHODIMP
+void
 nsTreeBodyFrame
 :
 :
@@ -16701,7 +16701,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 /
 /
@@ -16725,9 +16724,6 @@ border
 and
 outline
 .
-nsresult
-rv
-=
 nsLeafBoxFrame
 :
 :
@@ -16736,12 +16732,6 @@ BuildDisplayList
 aBuilder
 aDirtyRect
 aLists
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 /
@@ -16792,9 +16782,7 @@ GetScriptGlobalObject
 )
 )
 return
-NS_OK
 ;
-return
 aLists
 .
 Content

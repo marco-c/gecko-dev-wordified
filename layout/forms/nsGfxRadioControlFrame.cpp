@@ -428,7 +428,7 @@ rect
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsGfxRadioControlFrame
 :
 :
@@ -466,7 +466,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 if
 (
@@ -475,7 +474,6 @@ IsThemed
 )
 )
 return
-NS_OK
 ;
 /
 /
@@ -514,7 +512,6 @@ if
 checked
 )
 return
-NS_OK
 ;
 aLists
 .
@@ -543,8 +540,5 @@ nsDisplayItem
 TYPE_CHECKED_RADIOBUTTON
 )
 )
-;
-return
-NS_OK
 ;
 }

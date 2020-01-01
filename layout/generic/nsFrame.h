@@ -3398,7 +3398,7 @@ null
 .
 *
 /
-nsresult
+void
 DisplayBackgroundUnconditional
 (
 nsDisplayListBuilder
@@ -3495,7 +3495,7 @@ nsCSSRendering
 FindBackground
 *
 /
-nsresult
+void
 DisplayBorderBackgroundOutline
 (
 nsDisplayListBuilder
@@ -3531,7 +3531,7 @@ visibility
 .
 *
 /
-nsresult
+void
 DisplayOutlineUnconditional
 (
 nsDisplayListBuilder
@@ -3567,7 +3567,7 @@ visible
 .
 *
 /
-nsresult
+void
 DisplayOutline
 (
 nsDisplayListBuilder
@@ -3740,7 +3740,7 @@ is
 for
 *
 /
-nsresult
+void
 DisplaySelectionOverlay
 (
 nsDisplayListBuilder

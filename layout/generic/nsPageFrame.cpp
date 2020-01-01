@@ -3818,7 +3818,7 @@ scale
 -
 -
 -
-NS_IMETHODIMP
+void
 nsPageFrame
 :
 :
@@ -4501,9 +4501,6 @@ MoveTo
 (
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 /

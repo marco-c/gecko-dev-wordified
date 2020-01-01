@@ -181,7 +181,8 @@ TransmitAutomaticDataForMrowLikeElement
 )
 ;
 }
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -198,9 +199,6 @@ aLists
 )
 MOZ_OVERRIDE
 {
-return
-NS_OK
-;
 }
 protected
 :

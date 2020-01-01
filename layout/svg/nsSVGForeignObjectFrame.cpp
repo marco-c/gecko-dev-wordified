@@ -1218,7 +1218,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsSVGForeignObjectFrame
 :
 :
@@ -1257,7 +1257,6 @@ HasValidDimensions
 )
 {
 return
-NS_OK
 ;
 }
 BuildDisplayListForNonBlockChildren
@@ -1266,9 +1265,6 @@ aBuilder
 aDirtyRect
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 bool

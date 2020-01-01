@@ -1746,7 +1746,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsSplitterFrame
 :
 :
@@ -1833,12 +1833,8 @@ this
 )
 ;
 return
-NS_OK
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsSplitterFrame
