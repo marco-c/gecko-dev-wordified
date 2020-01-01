@@ -1473,6 +1473,11 @@ n
 tests_run
 )
 ;
+NS_ShutdownXPCOM
+(
+nsnull
+)
+;
 return
 result
 !
