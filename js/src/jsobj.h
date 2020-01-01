@@ -1087,7 +1087,7 @@ here
 JSObjectOp
 thisObject
 ;
-JSNative
+JSCallOp
 call
 ;
 JSNative
@@ -7881,17 +7881,11 @@ js_Call
 JSContext
 *
 cx
-JSObject
-*
-obj
 uintN
 argc
 jsval
 *
-argv
-jsval
-*
-rval
+vp
 )
 ;
 extern
