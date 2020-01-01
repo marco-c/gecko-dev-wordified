@@ -1358,7 +1358,7 @@ MaybeArguments
 ;
 }
 virtual
-Binary
+BinaryTypes
 incslot
 (
 JSScript
@@ -1370,7 +1370,7 @@ pc
 )
 {
 return
-binaryOp
+binaryTypes
 (
 script
 pc
@@ -2038,7 +2038,7 @@ jsbytecode
 pc
 )
 ;
-Binary
+BinaryTypes
 incslot
 (
 JSScript
