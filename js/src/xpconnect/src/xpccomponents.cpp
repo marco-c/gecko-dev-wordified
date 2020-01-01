@@ -17419,6 +17419,11 @@ cstr
 stderr
 )
 ;
+fflush
+(
+stderr
+)
+;
 NS_Free
 (
 cstr
