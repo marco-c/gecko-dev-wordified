@@ -33,11 +33,12 @@ SyntaxError
 :
 duplicate
 argument
-is
-mixed
-with
-destructuring
-pattern
+names
+not
+allowed
+in
+this
+context
 '
 ;
 var
