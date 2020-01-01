@@ -941,7 +941,7 @@ and
 continue
 the
 test
-var
+let
 starbutton
 =
 document
@@ -1009,7 +1009,7 @@ again
 by
 clicking
 somewhere
-var
+let
 contentarea
 =
 document
@@ -1017,9 +1017,7 @@ document
 getElementById
 (
 "
-tile
--
-container
+browsers
 "
 )
 ;
