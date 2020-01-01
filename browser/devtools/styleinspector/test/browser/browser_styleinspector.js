@@ -763,6 +763,10 @@ waitForExplicitFinish
 (
 )
 ;
+ignoreAllUncaughtExceptions
+(
+)
+;
 gBrowser
 .
 selectedTab
