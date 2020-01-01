@@ -558,6 +558,10 @@ NJ_MAX_STACK_ENTRY
 define
 NJ_ALIGN_STACK
 16
+#
+define
+NJ_JTBL_SUPPORTED
+1
 enum
 ConditionRegister
 {
@@ -2041,7 +2045,9 @@ const
 int
 LARGEST_UNDERRUN_PROT
 =
-32
+9
+*
+4
 ;
 /
 /

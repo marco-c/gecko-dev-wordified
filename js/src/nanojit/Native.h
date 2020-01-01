@@ -928,6 +928,15 @@ architecture
 "
 #
 endif
+#
+ifndef
+NJ_JTBL_SUPPORTED
+#
+define
+NJ_JTBL_SUPPORTED
+0
+#
+endif
 namespace
 nanojit
 {
