@@ -90,36 +90,68 @@ self
 .
 marionette
         
+self
+.
+set_up_test_page
+(
+sender
+"
+test
+.
+html
+"
+[
+"
+dom
+.
+telephony
+.
+app
+.
+phone
+.
+url
+"
+]
+)
+        
+self
+.
+set_up_test_page
+(
+receiver
+"
+test
+.
+html
+"
+[
+"
+dom
+.
+telephony
+.
+app
+.
+phone
+.
+url
+"
+]
+)
+        
 receiver
 .
 set_script_timeout
 (
-30000
+10000
 )
         
 sender
 .
 set_script_timeout
 (
-30000
-)
-        
-receiver
-.
-set_context
-(
-"
-chrome
-"
-)
-        
-sender
-.
-set_context
-(
-"
-chrome
-"
+10000
 )
         
 toPhoneNumber
@@ -208,6 +240,9 @@ null
 "
 "
 "
+new_sandbox
+=
+False
 )
 )
         
@@ -218,9 +253,7 @@ execute_script
 "
 "
 "
-window
-.
-wrappedJSObject
+global
 .
 incoming
 =
@@ -259,9 +292,7 @@ test_incoming
 )
 ;
     
-window
-.
-wrappedJSObject
+global
 .
 incoming
 =
@@ -275,6 +306,9 @@ call
 "
 "
 "
+new_sandbox
+=
+False
 )
         
 #
@@ -292,18 +326,14 @@ execute_script
 "
 "
 "
-window
-.
-wrappedJSObject
+global
 .
 sender_state
 =
 [
 ]
 ;
-window
-.
-wrappedJSObject
+global
 .
 sender_call
 =
@@ -321,9 +351,7 @@ s
 "
 )
 ;
-window
-.
-wrappedJSObject
+global
 .
 sender_call
 .
@@ -353,9 +381,7 @@ disconnected
 '
 )
         
-window
-.
-wrappedJSObject
+global
 .
 sender_call
 .
@@ -368,9 +394,7 @@ test_sender_statechange
 )
 ;
     
-window
-.
-wrappedJSObject
+global
 .
 sender_state
 .
@@ -386,17 +410,13 @@ state
 }
 )
 ;
-window
-.
-wrappedJSObject
+global
 .
 sender_alerting
 =
 false
 ;
-window
-.
-wrappedJSObject
+global
 .
 sender_call
 .
@@ -412,9 +432,7 @@ e
 )
 {
     
-window
-.
-wrappedJSObject
+global
 .
 sender_call
 .
@@ -427,9 +445,7 @@ test_sender_alerting
 )
 ;
     
-window
-.
-wrappedJSObject
+global
 .
 sender_alerting
 =
@@ -452,6 +468,9 @@ alerting
 "
 %
 toPhoneNumber
+new_sandbox
+=
+False
 )
         
 #
@@ -497,9 +516,7 @@ execute_async_script
 "
 "
 "
-window
-.
-wrappedJSObject
+global
 .
 receiver_state
 =
@@ -516,9 +533,7 @@ function
 let
 call
 =
-window
-.
-wrappedJSObject
+global
 .
 incoming
 ;
@@ -562,9 +577,7 @@ test_statechange
 )
 ;
         
-window
-.
-wrappedJSObject
+global
 .
 receiver_state
 .
@@ -607,9 +620,7 @@ test_connected
 )
 ;
         
-window
-.
-wrappedJSObject
+global
 .
 receiver_connected
 =
@@ -643,9 +654,7 @@ function
 {
     
 return
-window
-.
-wrappedJSObject
+global
 .
 incoming
 !
@@ -658,6 +667,9 @@ null
 "
 "
 "
+new_sandbox
+=
+False
 )
         
 #
@@ -726,13 +738,14 @@ execute_script
 (
 "
 return
-window
-.
-wrappedJSObject
+global
 .
 sender_state
 ;
 "
+new_sandbox
+=
+False
 )
 )
         
@@ -746,13 +759,14 @@ execute_script
 (
 "
 return
-window
-.
-wrappedJSObject
+global
 .
 sender_alerting
 ;
 "
+new_sandbox
+=
+False
 )
 )
         
@@ -779,9 +793,7 @@ execute_async_script
 "
 "
 "
-window
-.
-wrappedJSObject
+global
 .
 incoming
 .
@@ -808,9 +820,7 @@ function
 {
     
 return
-window
-.
-wrappedJSObject
+global
 .
 receiver_connected
 ;
@@ -820,6 +830,9 @@ receiver_connected
 "
 "
 "
+new_sandbox
+=
+False
 )
         
 state
@@ -830,13 +843,14 @@ execute_script
 (
 "
 return
-window
-.
-wrappedJSObject
+global
 .
 receiver_state
 ;
 "
+new_sandbox
+=
+False
 )
         
 self
@@ -899,9 +913,7 @@ function
     
 marionetteScriptFinished
 (
-window
-.
-wrappedJSObject
+global
 .
 sender_state
 )
@@ -913,9 +925,7 @@ function
 {
     
 return
-window
-.
-wrappedJSObject
+global
 .
 sender_call
 .
@@ -932,6 +942,9 @@ connected
 "
 "
 "
+new_sandbox
+=
+False
 )
 )
         
@@ -953,17 +966,13 @@ execute_script
 "
 "
 "
-window
-.
-wrappedJSObject
+global
 .
 sender_disconnected
 =
 null
 ;
-window
-.
-wrappedJSObject
+global
 .
 sender_call
 .
@@ -979,9 +988,7 @@ e
 )
 {
     
-window
-.
-wrappedJSObject
+global
 .
 sender_call
 .
@@ -994,9 +1001,7 @@ test_disconnected
 )
 ;
     
-window
-.
-wrappedJSObject
+global
 .
 sender_disconnected
 =
@@ -1017,6 +1022,9 @@ disconnected
 "
 "
 "
+new_sandbox
+=
+False
 )
         
 receiver
@@ -1026,17 +1034,13 @@ execute_script
 "
 "
 "
-window
-.
-wrappedJSObject
+global
 .
 receiver_disconnected
 =
 null
 ;
-window
-.
-wrappedJSObject
+global
 .
 incoming
 .
@@ -1052,9 +1056,7 @@ e
 )
 {
     
-window
-.
-wrappedJSObject
+global
 .
 incoming
 .
@@ -1067,9 +1069,7 @@ test_disconnected
 )
 ;
     
-window
-.
-wrappedJSObject
+global
 .
 receiver_disconnected
 =
@@ -1090,6 +1090,9 @@ disconnected
 "
 "
 "
+new_sandbox
+=
+False
 )
         
 #
@@ -1109,9 +1112,7 @@ execute_script
 "
 "
 "
-window
-.
-wrappedJSObject
+global
 .
 incoming
 .
@@ -1122,6 +1123,9 @@ hangUp
 "
 "
 "
+new_sandbox
+=
+False
 )
         
 #
@@ -1172,9 +1176,7 @@ function
     
 marionetteScriptFinished
 (
-window
-.
-wrappedJSObject
+global
 .
 sender_state
 )
@@ -1186,9 +1188,7 @@ function
 {
     
 return
-window
-.
-wrappedJSObject
+global
 .
 sender_call
 .
@@ -1205,6 +1205,9 @@ disconnected
 "
 "
 "
+new_sandbox
+=
+False
 )
         
 self
@@ -1228,13 +1231,14 @@ execute_script
 (
 "
 return
-window
-.
-wrappedJSObject
+global
 .
 sender_disconnected
 ;
 "
+new_sandbox
+=
+False
 )
 )
         
@@ -1286,9 +1290,7 @@ function
     
 marionetteScriptFinished
 (
-window
-.
-wrappedJSObject
+global
 .
 receiver_state
 )
@@ -1300,9 +1302,7 @@ function
 {
     
 return
-window
-.
-wrappedJSObject
+global
 .
 incoming
 .
@@ -1319,6 +1319,9 @@ disconnected
 "
 "
 "
+new_sandbox
+=
+False
 )
         
 self
@@ -1353,12 +1356,13 @@ execute_script
 (
 "
 return
-window
-.
-wrappedJSObject
+global
 .
 receiver_disconnected
 ;
 "
+new_sandbox
+=
+False
 )
 )
