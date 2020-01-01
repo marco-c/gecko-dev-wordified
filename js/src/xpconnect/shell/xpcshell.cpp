@@ -10582,6 +10582,13 @@ argv
 2
 ;
 }
+else
+{
+appOmni
+=
+greOmni
+;
+}
 XRE_InitOmnijar
 (
 greOmni
