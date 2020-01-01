@@ -1156,7 +1156,7 @@ istream
 available
 (
 )
-1081
+1078
 )
 ;
 var
@@ -1294,7 +1294,7 @@ istream
 available
 (
 )
-4493
+4503
 )
 ;
 referenceBytes
