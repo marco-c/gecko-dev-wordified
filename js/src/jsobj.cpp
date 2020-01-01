@@ -32369,12 +32369,10 @@ slot
 obj
 -
 >
-nativeSetSlot
+nativeSetSlotWithType
 (
+cx
 shape
--
->
-slot
 *
 vp
 )
