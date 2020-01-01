@@ -12217,8 +12217,6 @@ x
 =
 NSToIntRound
 (
-float
-(
 ctxMatrix
 .
 GetTranslation
@@ -12227,15 +12225,12 @@ GetTranslation
 .
 x
 )
-)
 ;
 origin
 .
 y
 =
 NSToIntRound
-(
-float
 (
 ctxMatrix
 .
@@ -12244,7 +12239,6 @@ GetTranslation
 )
 .
 y
-)
 )
 ;
 /
