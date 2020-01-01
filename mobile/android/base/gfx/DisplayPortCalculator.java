@@ -170,7 +170,7 @@ DisplayPortStrategy
 sStrategy
 =
 new
-FixedMarginStrategy
+VelocityBiasStrategy
 (
 )
 ;
