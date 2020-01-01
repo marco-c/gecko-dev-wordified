@@ -539,6 +539,14 @@ aState
 )
 ;
 virtual
+nsIAtom
+*
+GetType
+(
+)
+const
+;
+virtual
 PRBool
 IsFrameOfType
 (
@@ -591,6 +599,11 @@ nsIFrame
 :
 :
 eReplacedContainsBlock
+|
+nsIFrame
+:
+:
+eXULBox
 )
 )
 ;

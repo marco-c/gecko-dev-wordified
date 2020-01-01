@@ -1074,6 +1074,8 @@ nsIFrame
 :
 :
 eReplacedContainsBlock
+|
+eXULBox
 )
 )
 ;
