@@ -1149,7 +1149,10 @@ recorder
 ;
 #
 define
-ENABLE_TRACER
+TRACING_ENABLED
+(
+cx
+)
 JS_HAS_OPTION
 (
 cx
