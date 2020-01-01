@@ -927,7 +927,7 @@ extra
 lang
 ID
 .
-void
+JSObject
 *
 mEventHandler
 ;
