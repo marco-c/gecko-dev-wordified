@@ -11846,7 +11846,7 @@ formatStringFromName
 "
 geolocation
 .
-fileWantsToKnow
+shareWithFile
 "
 [
 requestingURI
@@ -11868,7 +11868,7 @@ formatStringFromName
 "
 geolocation
 .
-siteWantsToKnow
+shareWithSite
 "
 [
 requestingURI
