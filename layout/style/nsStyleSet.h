@@ -2430,6 +2430,9 @@ aParentContext
 nsRuleNode
 *
 aRuleNode
+nsRuleNode
+*
+aVisitedRuleNode
 nsIAtom
 *
 aPseudoTag
