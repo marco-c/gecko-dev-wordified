@@ -733,6 +733,9 @@ nmetrics
 >
 ntmTm
 ;
+#
+ifdef
+DEBUG_pavlov
 printf
 (
 "
@@ -771,6 +774,8 @@ logFont
 lfWeight
 )
 ;
+#
+endif
 /
 /
 Ignore
