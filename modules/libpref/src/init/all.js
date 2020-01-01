@@ -6855,7 +6855,7 @@ dom
 .
 min_timeout_value
 "
-10
+4
 )
 ;
 /
