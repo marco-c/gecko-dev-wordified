@@ -1793,10 +1793,13 @@ if
 !
 IsWordBoundary
 (
+ToLowerCase
+(
 *
 targetStart
 +
 +
+)
 )
 )
 while
