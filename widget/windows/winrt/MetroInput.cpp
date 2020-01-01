@@ -2616,7 +2616,6 @@ status
 DispatchPendingTouchEvent
 (
 status
-true
 )
 ;
 mTouchStartDefaultPrevented
@@ -3026,7 +3025,6 @@ mChanged
 {
 DispatchPendingTouchEvent
 (
-true
 )
 ;
 }
@@ -3665,7 +3663,6 @@ mChanged
 {
 DispatchPendingTouchEvent
 (
-true
 )
 ;
 }
@@ -3729,7 +3726,6 @@ status
 DispatchPendingTouchEvent
 (
 status
-true
 )
 ;
 mTouchMoveDefaultPrevented
@@ -6884,8 +6880,6 @@ DispatchPendingTouchEvent
 nsEventStatus
 &
 aStatus
-bool
-aDispatchToAPZC
 )
 {
 mTouchEvent
@@ -6956,9 +6950,6 @@ aStatus
 nsEventStatus_eConsumeNoDefault
 &
 &
-aDispatchToAPZC
-&
-&
 MetroWidget
 :
 :
@@ -7009,14 +7000,11 @@ MetroInput
 :
 DispatchPendingTouchEvent
 (
-bool
-aDispatchToAPZC
 )
 {
 DispatchPendingTouchEvent
 (
 sThrowawayStatus
-aDispatchToAPZC
 )
 ;
 }
