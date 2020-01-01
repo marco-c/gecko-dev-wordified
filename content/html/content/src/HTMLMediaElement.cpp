@@ -13237,8 +13237,10 @@ IsMediaSeekable
 )
 ;
 }
+nsRefPtr
+<
 MediaResource
-*
+>
 resource
 =
 originalResource
@@ -13469,8 +13471,10 @@ get
 )
 )
 ;
+nsRefPtr
+<
 MediaResource
-*
+>
 resource
 =
 MediaResource

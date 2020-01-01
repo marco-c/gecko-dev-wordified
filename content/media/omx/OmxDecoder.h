@@ -197,8 +197,10 @@ mozilla
 AbstractMediaDecoder
 AbstractMediaDecoder
 ;
+nsRefPtr
+<
 MediaResource
-*
+>
 mResource
 ;
 AbstractMediaDecoder
@@ -392,8 +394,10 @@ AbstractMediaDecoder
 *
 mDecoder
 ;
+nsRefPtr
+<
 MediaResource
-*
+>
 mResource
 ;
 sp
