@@ -3444,11 +3444,6 @@ D
 TRANSPLANT
 )
 \
-D
-(
-RESET
-)
-\
 \
 /
 *
