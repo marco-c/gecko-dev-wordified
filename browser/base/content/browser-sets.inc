@@ -2393,7 +2393,7 @@ label
 =
 "
 &
-devToolbarToolsButton
+devToolboxMenuItem
 .
 label
 ;

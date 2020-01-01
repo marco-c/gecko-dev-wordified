@@ -2899,7 +2899,7 @@ Update
 the
 "
 Toggle
-Toolbox
+Tools
 "
 checkbox
 in
