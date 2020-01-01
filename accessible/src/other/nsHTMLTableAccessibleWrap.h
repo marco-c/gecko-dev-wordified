@@ -477,7 +477,7 @@ nsHTMLTableCellAccessibleWrap
 typedef
 class
 nsHTMLTableHeaderCellAccessible
-nsHTMLTableCellHeaderAccessibleWrap
+nsHTMLTableHeaderCellAccessibleWrap
 ;
 #
 endif
