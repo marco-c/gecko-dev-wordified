@@ -1735,7 +1735,7 @@ JSVAL_VOID
 ;
 if
 (
-obj
+obj2
 -
 >
 isNative
@@ -1812,7 +1812,7 @@ obj2
 }
 else
 {
-obj
+obj2
 -
 >
 dropProperty
@@ -3879,7 +3879,7 @@ true
 ;
 if
 (
-obj
+obj2
 -
 >
 isNative
@@ -4002,7 +4002,7 @@ valcnt
 JS_UNLOCK_OBJ
 (
 cx
-obj
+obj2
 )
 ;
 }
