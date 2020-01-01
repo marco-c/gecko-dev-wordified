@@ -2415,6 +2415,16 @@ return
 nullptr
 ;
 }
+already_AddRefed
+<
+nsIDOMWindow
+>
+GetChildWindow
+(
+jsid
+aName
+)
+;
 /
 /
 Returns
