@@ -131,13 +131,6 @@ PJavaScriptParent
 h
 "
 #
-include
-"
-jsclass
-.
-h
-"
-#
 ifdef
 XP_WIN
 #

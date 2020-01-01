@@ -118,9 +118,7 @@ h
 #
 include
 "
-js
-/
-ProfilingStack
+jsfriendapi
 .
 h
 "
