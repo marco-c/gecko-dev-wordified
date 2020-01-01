@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsIDOMSVGGElement
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
