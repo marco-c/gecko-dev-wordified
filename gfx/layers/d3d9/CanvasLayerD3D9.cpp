@@ -1347,7 +1347,7 @@ ctx
 >
 SetSource
 (
-mSurface
+tempSurface
 )
 ;
 ctx
