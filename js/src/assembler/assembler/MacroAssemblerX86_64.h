@@ -352,6 +352,10 @@ WTF_CPU_X86_64
 #
 include
 "
+assembler
+/
+assembler
+/
 MacroAssemblerX86Common
 .
 h

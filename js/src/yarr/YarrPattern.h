@@ -318,6 +318,8 @@ yarr_YarrPattern_h
 #
 include
 "
+yarr
+/
 wtfbridge
 .
 h
@@ -325,6 +327,8 @@ h
 #
 include
 "
+yarr
+/
 ASCIICType
 .
 h

@@ -239,6 +239,10 @@ DAMAGE
 #
 include
 "
+assembler
+/
+jit
+/
 ExecutableAllocator
 .
 h

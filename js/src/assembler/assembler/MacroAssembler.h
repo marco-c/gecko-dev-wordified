@@ -343,6 +343,10 @@ WTF_CPU_ARM_THUMB2
 #
 include
 "
+assembler
+/
+assembler
+/
 MacroAssemblerARMv7
 .
 h
@@ -361,6 +365,10 @@ WTF_CPU_ARM_TRADITIONAL
 #
 include
 "
+assembler
+/
+assembler
+/
 MacroAssemblerARM
 .
 h
@@ -379,6 +387,10 @@ WTF_CPU_MIPS
 #
 include
 "
+assembler
+/
+assembler
+/
 MacroAssemblerMIPS
 .
 h
@@ -397,6 +409,10 @@ WTF_CPU_X86
 #
 include
 "
+assembler
+/
+assembler
+/
 MacroAssemblerX86
 .
 h
@@ -415,6 +431,10 @@ WTF_CPU_X86_64
 #
 include
 "
+assembler
+/
+assembler
+/
 MacroAssemblerX86_64
 .
 h
@@ -433,6 +453,10 @@ WTF_CPU_SPARC
 #
 include
 "
+assembler
+/
+assembler
+/
 MacroAssemblerSparc
 .
 h

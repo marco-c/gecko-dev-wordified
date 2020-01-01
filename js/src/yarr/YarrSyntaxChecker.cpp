@@ -291,6 +291,8 @@ DAMAGE
 #
 include
 "
+yarr
+/
 YarrSyntaxChecker
 .
 h
@@ -298,6 +300,8 @@ h
 #
 include
 "
+yarr
+/
 YarrParser
 .
 h

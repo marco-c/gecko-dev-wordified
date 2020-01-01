@@ -326,6 +326,8 @@ yarr_PageAllocation_h
 #
 include
 "
+yarr
+/
 wtfbridge
 .
 h
@@ -333,6 +335,8 @@ h
 #
 include
 "
+yarr
+/
 OSAllocator
 .
 h
@@ -340,6 +344,8 @@ h
 #
 include
 "
+yarr
+/
 PageBlock
 .
 h

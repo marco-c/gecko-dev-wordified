@@ -340,14 +340,16 @@ ENABLE_ASSEMBLER
 WTF_OS_WINDOWS
 #
 include
-"
+<
 windows
 .
 h
-"
+>
 #
 include
 "
+assembler
+/
 wtf
 /
 Assertions
@@ -357,6 +359,8 @@ h
 #
 include
 "
+yarr
+/
 OSAllocator
 .
 h

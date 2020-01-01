@@ -297,6 +297,8 @@ yarr_YarrParser_h
 #
 include
 "
+yarr
+/
 Yarr
 .
 h

@@ -297,6 +297,8 @@ yarr_YarrSyntaxChecker_h
 #
 include
 "
+yarr
+/
 wtfbridge
 .
 h
@@ -304,6 +306,8 @@ h
 #
 include
 "
+yarr
+/
 YarrParser
 .
 h

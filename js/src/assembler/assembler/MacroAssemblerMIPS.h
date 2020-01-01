@@ -273,6 +273,10 @@ MIPS
 #
 include
 "
+assembler
+/
+assembler
+/
 AbstractMacroAssembler
 .
 h
@@ -280,6 +284,10 @@ h
 #
 include
 "
+assembler
+/
+assembler
+/
 MIPSAssembler
 .
 h

@@ -119,7 +119,7 @@ define
 assembler_assembler_MacroAssemblerSparc_h
 #
 include
-<
+"
 assembler
 /
 wtf
@@ -127,7 +127,7 @@ wtf
 Platform
 .
 h
->
+"
 #
 if
 ENABLE_ASSEMBLER
@@ -137,6 +137,10 @@ WTF_CPU_SPARC
 #
 include
 "
+assembler
+/
+assembler
+/
 SparcAssembler
 .
 h
@@ -144,6 +148,10 @@ h
 #
 include
 "
+assembler
+/
+assembler
+/
 AbstractMacroAssembler
 .
 h

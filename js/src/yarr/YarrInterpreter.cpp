@@ -312,6 +312,8 @@ DAMAGE
 #
 include
 "
+yarr
+/
 YarrInterpreter
 .
 h
@@ -319,6 +321,8 @@ h
 #
 include
 "
+yarr
+/
 Yarr
 .
 h
@@ -326,6 +330,8 @@ h
 #
 include
 "
+yarr
+/
 YarrCanonicalizeUCS2
 .
 h
@@ -333,6 +339,8 @@ h
 #
 include
 "
+yarr
+/
 BumpPointerAllocator
 .
 h

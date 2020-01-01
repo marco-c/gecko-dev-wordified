@@ -305,6 +305,8 @@ js
 #
 include
 "
+yarr
+/
 YarrCanonicalizeUCS2
 .
 h
