@@ -298,7 +298,7 @@ are
 set
 *
 to
-NULL
+nullptr
 and
 0
 respectively
@@ -313,7 +313,7 @@ assumed
 *
 non
 -
-NULL
+nullptr
 .
 *
 /
@@ -461,7 +461,7 @@ empty
 )
 {
 return
-NULL
+nullptr
 ;
 }
 static
@@ -478,7 +478,7 @@ if
 ptr
 !
 =
-NULL
+nullptr
 )
 XFree
 (

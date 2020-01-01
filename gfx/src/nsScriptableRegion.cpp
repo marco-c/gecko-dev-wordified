@@ -744,8 +744,8 @@ rect
 >
 x
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 |
@@ -765,8 +765,8 @@ rect
 >
 y
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 |
@@ -786,8 +786,8 @@ rect
 >
 width
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 |
@@ -807,8 +807,8 @@ rect
 >
 height
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )

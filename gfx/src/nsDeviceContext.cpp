@@ -1636,12 +1636,10 @@ IsPrinterSurface
 )
 {
 return
-(
 mPrintingSurface
 !
 =
-NULL
-)
+nullptr
 ;
 }
 void
