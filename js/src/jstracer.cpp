@@ -763,7 +763,7 @@ NANOJIT_ARM
 &
 defined
 (
-__GNUCC__
+__GNUC__
 )
 &
 &
