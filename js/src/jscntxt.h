@@ -920,7 +920,7 @@ struct
 VMSideExit
 ;
 struct
-VMFragment
+TreeFragment
 ;
 struct
 InterpState
@@ -940,6 +940,9 @@ uint16
 >
 SlotList
 ;
+struct
+REFragment
+;
 typedef
 nanojit
 :
@@ -947,10 +950,7 @@ nanojit
 HashMap
 <
 REHashKey
-nanojit
-:
-:
-Fragment
+REFragment
 *
 REHashFn
 >
@@ -1845,7 +1845,7 @@ MONITOR_N_GLOBAL_STATES
 ]
 ;
 struct
-VMFragment
+TreeFragment
 *
 vmfragments
 [
