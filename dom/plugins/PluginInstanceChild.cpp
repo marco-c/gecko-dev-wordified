@@ -6879,7 +6879,7 @@ bool
 PluginInstanceChild
 :
 :
-AnswerPPluginScriptableObjectConstructor
+RecvPPluginScriptableObjectConstructor
 (
 PPluginScriptableObjectChild
 *
@@ -7503,7 +7503,7 @@ LocalObject
 if
 (
 !
-CallPPluginScriptableObjectConstructor
+SendPPluginScriptableObjectConstructor
 (
 actor
 )

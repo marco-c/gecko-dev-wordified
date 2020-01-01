@@ -528,14 +528,14 @@ h
 #
 include
 "
-SimpleBuffer
+nsGLPbuffer
 .
 h
 "
 #
 include
 "
-nsGLPbuffer
+localgl
 .
 h
 "
