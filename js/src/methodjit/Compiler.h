@@ -1439,6 +1439,11 @@ JSOp
 fused
 )
 ;
+void
+jsop_pos
+(
+)
+;
 #
 define
 STUB_CALL_TYPE

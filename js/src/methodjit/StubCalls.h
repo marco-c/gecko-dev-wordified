@@ -1343,6 +1343,15 @@ f
 ;
 void
 JS_FASTCALL
+Pos
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 ObjToStr
 (
 VMFrame
