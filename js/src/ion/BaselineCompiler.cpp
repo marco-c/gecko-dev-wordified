@@ -5894,7 +5894,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
