@@ -351,13 +351,6 @@ defaultEngine
 =
 engine
 ;
-/
-/
-XXX
-bug
-493051
-/
-/
 Services
 .
 search
