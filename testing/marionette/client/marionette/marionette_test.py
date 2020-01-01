@@ -62,6 +62,8 @@ re
 import
 sys
 import
+time
+import
 types
 import
 unittest
@@ -892,6 +894,16 @@ self
         
 self
 .
+start_time
+=
+time
+.
+time
+(
+)
+        
+self
+.
 marionette
 .
 test_name
@@ -954,6 +966,20 @@ tearDown
 self
 )
 :
+        
+self
+.
+duration
+=
+time
+.
+time
+(
+)
+-
+self
+.
+start_time
         
 self
 .

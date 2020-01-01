@@ -3791,6 +3791,21 @@ split
 ]
 )
             
+testcase
+.
+setAttribute
+(
+'
+time
+'
+str
+(
+test
+.
+duration
+)
+)
+            
 testsuite
 .
 appendChild
@@ -3889,13 +3904,6 @@ Marionette
 '
 )
         
-#
-convert
-elapsedtime
-to
-integer
-milliseconds
-        
 testsuite
 .
 setAttribute
@@ -3905,17 +3913,12 @@ time
 '
 str
 (
-int
-(
 self
 .
 elapsedtime
 .
 total_seconds
 (
-)
-*
-1000
 )
 )
 )
