@@ -854,12 +854,6 @@ __RPC_FAR
 pszValue
 )
 ;
-virtual
-void
-FireAnchorJumpEvent
-(
-)
-;
 /
 /
 nsDocAccessibleWrap
