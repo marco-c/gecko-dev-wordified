@@ -1740,7 +1740,7 @@ our
 strong
 reference
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 IS_WN_WRAPPER
 (

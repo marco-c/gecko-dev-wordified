@@ -654,7 +654,7 @@ UnwrapObject
 obj
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :
@@ -2068,7 +2068,7 @@ JSObject
 wrapper
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :

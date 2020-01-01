@@ -413,7 +413,7 @@ on
 the
 prototype
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :
@@ -527,7 +527,7 @@ if
 that
 failed
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :
@@ -830,7 +830,7 @@ Try
 the
 prototype
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :

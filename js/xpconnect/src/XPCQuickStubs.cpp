@@ -2433,7 +2433,7 @@ given
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_VOID
 (
@@ -2867,7 +2867,7 @@ given
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_VOID
 (
@@ -5035,7 +5035,7 @@ JSString
 *
 str
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 bytes
