@@ -432,6 +432,12 @@ BLOCK
 *
 *
 /
+#
+ifndef
+nptypes_h_
+#
+define
+nptypes_h_
 /
 *
 *
@@ -889,3 +895,10 @@ endif
 endif
 #
 endif
+#
+endif
+/
+*
+nptypes_h_
+*
+/
