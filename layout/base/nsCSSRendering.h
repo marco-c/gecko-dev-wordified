@@ -932,8 +932,6 @@ const
 nsRect
 &
 aFillArea
-PRBool
-aRepeat
 )
 ;
 /
