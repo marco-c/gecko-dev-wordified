@@ -1609,7 +1609,7 @@ jsbytecode
 pc
 )
 ;
-void
+bool
 jumpInScript
 (
 Jump
@@ -1661,7 +1661,7 @@ Assembler
 masm
 )
 ;
-void
+bool
 emitStubCmpOp
 (
 BoolStub
@@ -1685,7 +1685,7 @@ iterNext
 (
 )
 ;
-void
+bool
 iterMore
 (
 )
@@ -1743,7 +1743,7 @@ handlers
 .
 *
 /
-void
+bool
 jumpAndTrace
 (
 Jump
@@ -2218,7 +2218,7 @@ MaybeRegisterID
 mreg
 )
 ;
-void
+bool
 jsop_relational
 (
 JSOp
@@ -2232,7 +2232,7 @@ JSOp
 fused
 )
 ;
-void
+bool
 jsop_relational_self
 (
 JSOp
@@ -2246,7 +2246,7 @@ JSOp
 fused
 )
 ;
-void
+bool
 jsop_relational_full
 (
 JSOp
@@ -2260,7 +2260,7 @@ JSOp
 fused
 )
 ;
-void
+bool
 jsop_relational_double
 (
 JSOp
@@ -2488,7 +2488,7 @@ jsop_typeof
 (
 )
 ;
-void
+bool
 booleanJumpScript
 (
 JSOp
@@ -2498,7 +2498,7 @@ jsbytecode
 target
 )
 ;
-void
+bool
 jsop_ifneq
 (
 JSOp
@@ -2508,7 +2508,7 @@ jsbytecode
 target
 )
 ;
-void
+bool
 jsop_andor
 (
 JSOp
@@ -2570,7 +2570,7 @@ JSOp
 op
 )
 ;
-void
+bool
 jsop_equality
 (
 JSOp
@@ -2584,7 +2584,7 @@ JSOp
 fused
 )
 ;
-void
+bool
 jsop_equality_int_string
 (
 JSOp

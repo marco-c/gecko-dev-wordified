@@ -1090,7 +1090,7 @@ size_t
 total
 )
 ;
-void
+bool
 jumpInScript
 (
 Jump
