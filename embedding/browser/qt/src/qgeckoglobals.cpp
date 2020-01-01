@@ -631,13 +631,6 @@ nsIDOMWindow
 .
 h
 >
-#
-include
-<
-nsIDOMEventReceiver
-.
-h
->
 static
 NS_DEFINE_CID
 (

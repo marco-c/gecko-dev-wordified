@@ -1060,9 +1060,11 @@ implementing
 the
 interfaces
 *
-nsIDOMEventReceiver
-and
 nsIDOMEventTarget
+nsIDOM3EventTarget
+and
+nsIDOMNSEventTarget
+.
 *
 *
 Use

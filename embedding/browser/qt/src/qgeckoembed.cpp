@@ -669,7 +669,7 @@ h
 #
 include
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 .
 h
 >
@@ -801,12 +801,12 @@ sessionHistory
 /
 our
 event
-receiver
+target
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-eventReceiver
+eventTarget
 ;
 /
 /
@@ -2768,7 +2768,7 @@ if
 d
 -
 >
-eventReceiver
+eventTarget
 )
 return
 ;
@@ -2966,7 +2966,7 @@ if
 d
 -
 >
-eventReceiver
+eventTarget
 )
 return
 ;
@@ -2994,7 +2994,7 @@ return
 d
 -
 >
-eventReceiver
+eventTarget
 =
 do_QueryInterface
 (
@@ -3021,7 +3021,7 @@ if
 d
 -
 >
-eventReceiver
+eventTarget
 |
 |
 d
@@ -3064,7 +3064,7 @@ rv
 d
 -
 >
-eventReceiver
+eventTarget
 -
 >
 AddEventListenerByIID
@@ -3105,7 +3105,7 @@ rv
 d
 -
 >
-eventReceiver
+eventTarget
 -
 >
 AddEventListenerByIID
@@ -3146,7 +3146,7 @@ rv
 d
 -
 >
-eventReceiver
+eventTarget
 -
 >
 AddEventListenerByIID

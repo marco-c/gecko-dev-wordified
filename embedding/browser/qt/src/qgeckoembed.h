@@ -498,9 +498,6 @@ class
 nsISHistory
 ;
 class
-nsIDOMEventReceiver
-;
-class
 EmbedContentListener
 ;
 class

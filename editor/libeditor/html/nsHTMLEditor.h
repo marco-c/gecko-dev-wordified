@@ -628,9 +628,6 @@ class
 nsITransferable
 ;
 class
-nsIDOMEventReceiver
-;
-class
 nsIDOMNSRange
 ;
 class
