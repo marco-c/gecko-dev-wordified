@@ -12380,7 +12380,7 @@ names
 )
 )
 return
-false
+NULL
 ;
 for
 (
@@ -12438,7 +12438,7 @@ kind
 )
 )
 return
-false
+NULL
 ;
 }
 else
@@ -12459,7 +12459,7 @@ _
 )
 )
 return
-false
+NULL
 ;
 }
 }
@@ -12474,7 +12474,7 @@ cx
 )
 )
 return
-false
+NULL
 ;
 bindings
 .
@@ -12590,7 +12590,7 @@ clone
 )
 )
 return
-false
+NULL
 ;
 }
 }
@@ -12684,7 +12684,7 @@ clone
 )
 )
 return
-false
+NULL
 ;
 }
 }

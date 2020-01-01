@@ -6669,7 +6669,7 @@ if
 clone
 )
 return
-false
+NULL
 ;
 uint32_t
 parentId
@@ -6760,7 +6760,7 @@ slotCount
 )
 )
 return
-false
+NULL
 ;
 for
 (
@@ -6894,7 +6894,7 @@ redeclared
 )
 ;
 return
-false
+NULL
 ;
 }
 clone
