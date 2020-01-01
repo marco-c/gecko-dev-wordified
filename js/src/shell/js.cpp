@@ -15877,7 +15877,7 @@ JSContext
 cx
 JSObject
 *
-obj
+obj_
 JSObject
 *
 referent
@@ -15906,6 +15906,13 @@ propFlags
 JSObject
 *
 obj2
+;
+RootedVarObject
+obj
+(
+cx
+obj_
+)
 ;
 *
 objp
@@ -24947,7 +24954,7 @@ JSContext
 cx
 JSObject
 *
-obj
+obj_
 jsid
 id
 unsigned
@@ -24958,6 +24965,13 @@ JSObject
 objp
 )
 {
+RootedVarObject
+obj
+(
+cx
+obj_
+)
+;
 #
 ifdef
 LAZY_STANDARD_CLASSES
