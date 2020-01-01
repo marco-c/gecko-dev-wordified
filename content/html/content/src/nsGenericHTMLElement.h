@@ -227,9 +227,6 @@ class
 nsHTMLFormElement
 ;
 class
-nsIDOMDOMStringMap
-;
-class
 nsIDOMHTMLMenuElement
 ;
 class
@@ -1318,7 +1315,7 @@ aContentEditable
 nsresult
 GetDataset
 (
-nsIDOMDOMStringMap
+nsISupports
 *
 *
 aDataset
