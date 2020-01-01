@@ -778,7 +778,10 @@ eBitSft4bits
 eUnitMsk4bits
 BIG5_st
 }
+CHAR_LEN_TABLE
+(
 Big5CharLenTable
+)
 "
 Big5
 "
@@ -1454,7 +1457,10 @@ eBitSft4bits
 eUnitMsk4bits
 EUCJP_st
 }
+CHAR_LEN_TABLE
+(
 EUCJPCharLenTable
+)
 "
 EUC
 -
@@ -2082,7 +2088,10 @@ eBitSft4bits
 eUnitMsk4bits
 EUCKR_st
 }
+CHAR_LEN_TABLE
+(
 EUCKRCharLenTable
+)
 "
 EUC
 -
@@ -2777,7 +2786,10 @@ eBitSft4bits
 eUnitMsk4bits
 EUCTW_st
 }
+CHAR_LEN_TABLE
+(
 EUCTWCharLenTable
+)
 "
 x
 -
@@ -3410,7 +3422,10 @@ eBitSft4bits
 eUnitMsk4bits
 GB2312_st
 }
+CHAR_LEN_TABLE
+(
 GB2312CharLenTable
+)
 "
 GB2312
 "
@@ -4184,7 +4199,10 @@ eBitSft4bits
 eUnitMsk4bits
 GB18030_st
 }
+CHAR_LEN_TABLE
+(
 GB18030CharLenTable
+)
 "
 GB18030
 "
@@ -4857,7 +4875,10 @@ eBitSft4bits
 eUnitMsk4bits
 SJIS_st
 }
+CHAR_LEN_TABLE
+(
 SJISCharLenTable
+)
 "
 Shift_JIS
 "
@@ -5887,7 +5908,10 @@ eBitSft4bits
 eUnitMsk4bits
 UTF8_st
 }
+CHAR_LEN_TABLE
+(
 UTF8CharLenTable
+)
 "
 UTF
 -
