@@ -5605,7 +5605,7 @@ formtarget
 NS_IMPL_ENUM_ATTR_DEFAULT_VALUE
 (
 nsHTMLInputElement
-Inputmode
+InputMode
 inputmode
 kInputDefaultInputmode
 -
