@@ -1058,6 +1058,14 @@ hasRunOption
 (
 JSOPTION_ION
 )
+&
+&
+cx
+-
+>
+typeInferenceEnabled
+(
+)
 ;
 }
 }
