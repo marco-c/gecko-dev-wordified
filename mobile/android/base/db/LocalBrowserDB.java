@@ -826,6 +826,9 @@ Bookmarks
 PARENT
 Bookmarks
 .
+KEYWORD
+Bookmarks
+.
 FAVICON
 }
 ;
