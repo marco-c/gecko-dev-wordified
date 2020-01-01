@@ -1725,7 +1725,7 @@ opus
 .
 enabled
 "
-false
+true
 )
 ;
 #
