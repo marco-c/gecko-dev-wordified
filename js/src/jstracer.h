@@ -740,6 +740,11 @@ recover
 (
 )
 ;
+void
+abort
+(
+)
+;
 unsigned
 calldepth
 (
@@ -880,15 +885,6 @@ readstack
 (
 void
 *
-char
-*
-prefix
-=
-NULL
-int
-index
-=
-0
 )
 ;
 void

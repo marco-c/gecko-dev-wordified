@@ -17998,6 +17998,11 @@ L_
 OP
 :
 \
+MARK_REGS
+(
+)
+;
+\
 ABORT_TRACE
 (
 #
