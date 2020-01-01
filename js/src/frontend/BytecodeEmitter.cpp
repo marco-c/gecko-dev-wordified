@@ -10340,7 +10340,7 @@ getArity
 )
 {
 case
-PN_CODE
+PN_FUNC
 :
 /
 *

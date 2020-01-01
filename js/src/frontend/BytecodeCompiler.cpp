@@ -1813,7 +1813,7 @@ ParseNode
 *
 fn
 =
-CodeNode
+FunctionNode
 :
 :
 create
