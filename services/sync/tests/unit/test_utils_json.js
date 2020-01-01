@@ -544,12 +544,6 @@ Utils
 .
 getProfileFile
 (
-{
-autoCreate
-:
-true
-path
-:
 "
 weave
 /
@@ -557,7 +551,6 @@ log
 .
 json
 "
-}
 )
 ;
 let
