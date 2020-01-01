@@ -422,7 +422,7 @@ spatial
 -
 navigation
 .
-jsm
+js
 "
 )
 ;
