@@ -187,6 +187,15 @@ Util
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ErrorResult
+.
+h
+"
 struct
 JSContext
 ;
@@ -196,9 +205,6 @@ nsIDOMWindow
 namespace
 mozilla
 {
-class
-ErrorResult
-;
 namespace
 dom
 {
