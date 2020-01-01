@@ -30687,6 +30687,11 @@ false
 ;
 nscolor
 overrideColor
+=
+nscolor
+(
+0
+)
 ;
 /
 /
