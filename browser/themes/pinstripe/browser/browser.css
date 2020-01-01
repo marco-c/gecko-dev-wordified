@@ -7624,10 +7624,9 @@ repeat
 ;
 margin
 :
-0px
-4px
+0
+3px
 1px
-4px
 ;
 -
 moz
@@ -7636,7 +7635,7 @@ padding
 -
 end
 :
-10px
+11px
 ;
 font
 :
@@ -7656,7 +7655,7 @@ width
 ;
 height
 :
-26px
+28px
 ;
 }
 #
@@ -7846,12 +7845,6 @@ box
 align
 :
 center
-;
-min
--
-height
-:
-26px
 ;
 }
 #
@@ -8140,7 +8133,7 @@ margin
 -
 start
 :
-9px
+10px
 ;
 width
 :
@@ -15774,7 +15767,7 @@ min
 -
 width
 :
-44px
+45px
 ;
 }
 #
@@ -15914,7 +15907,7 @@ black
 ;
 padding
 :
-2px
+4px
 6px
 3px
 ;
@@ -16003,7 +15996,7 @@ padding
 -
 start
 :
-12px
+13px
 ;
 }
 #
@@ -16574,7 +16567,7 @@ padding
 -
 start
 :
-12px
+13px
 ;
 }
 #
