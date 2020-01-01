@@ -13409,7 +13409,7 @@ desc
 hasGet
 )
 {
-JSBool
+bool
 same
 ;
 if
@@ -13434,7 +13434,7 @@ same
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -13451,7 +13451,7 @@ desc
 hasSet
 )
 {
-JSBool
+bool
 same
 ;
 if
@@ -13476,7 +13476,7 @@ same
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -13751,7 +13751,7 @@ isDataDescriptor
 )
 break
 ;
-JSBool
+bool
 same
 ;
 if
@@ -13776,7 +13776,7 @@ same
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -14426,7 +14426,7 @@ desc
 hasValue
 )
 {
-JSBool
+bool
 same
 ;
 if
@@ -14444,7 +14444,7 @@ same
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -14532,7 +14532,7 @@ desc
 hasSet
 )
 {
-JSBool
+bool
 same
 ;
 if
@@ -14557,7 +14557,7 @@ same
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -14582,7 +14582,7 @@ desc
 hasGet
 )
 {
-JSBool
+bool
 same
 ;
 if
@@ -14607,7 +14607,7 @@ same
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
