@@ -2174,6 +2174,7 @@ entry
 &
 JS_LIKELY
 (
+!
 obj
 -
 >
@@ -2183,9 +2184,6 @@ getOps
 -
 >
 setProperty
-=
-=
-js_SetProperty
 )
 )
 {
