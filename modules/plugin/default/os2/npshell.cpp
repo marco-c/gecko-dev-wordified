@@ -993,9 +993,9 @@ NPMIMEType
 pluginType
 NPP
 pInstance
-uint16
+uint16_t
 mode
-int16
+int16_t
 argc
 char
 *
@@ -2320,7 +2320,7 @@ NPStream
 stream
 NPBool
 seekable
-uint16
+uint16_t
 *
 stype
 )
