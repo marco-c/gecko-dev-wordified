@@ -641,13 +641,6 @@ nsIFocusController
 aResult
 )
 ;
-virtual
-nsIDOMWindow
-*
-GetWindow
-(
-)
-;
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsWindowRoot
