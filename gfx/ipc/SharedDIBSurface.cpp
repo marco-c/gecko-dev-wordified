@@ -478,6 +478,8 @@ PRUint32
 aWidth
 PRUint32
 aHeight
+bool
+aTransparent
 )
 {
 nsresult
@@ -490,6 +492,7 @@ Create
 adc
 aWidth
 aHeight
+aTransparent
 )
 ;
 if
@@ -514,6 +517,7 @@ InitSurface
 (
 aWidth
 aHeight
+aTransparent
 )
 ;
 return
@@ -532,6 +536,8 @@ PRUint32
 aWidth
 PRUint32
 aHeight
+bool
+aTransparent
 )
 {
 nsresult
@@ -544,6 +550,7 @@ Attach
 aHandle
 aWidth
 aHeight
+aTransparent
 )
 ;
 if
@@ -568,6 +575,7 @@ InitSurface
 (
 aWidth
 aHeight
+aTransparent
 )
 ;
 return
@@ -584,6 +592,8 @@ PRUint32
 aWidth
 PRUint32
 aHeight
+bool
+aTransparent
 )
 {
 /
@@ -657,6 +667,15 @@ aHeight
 *
 stride
 ;
+gfxImageFormat
+format
+=
+aTransparent
+?
+ImageFormatARGB32
+:
+ImageFormatRGB24
+;
 gfxImageSurface
 :
 :
@@ -669,7 +688,7 @@ aWidth
 aHeight
 )
 stride
-ImageFormatRGB24
+format
 )
 ;
 cairo_surface_set_user_data

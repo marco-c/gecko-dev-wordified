@@ -526,6 +526,8 @@ PRUint32
 aWidth
 PRUint32
 aHeight
+bool
+aTransparent
 )
 ;
 /
@@ -553,6 +555,8 @@ PRUint32
 aWidth
 PRUint32
 aHeight
+bool
+aTransparent
 )
 ;
 /
@@ -648,6 +652,8 @@ PRUint32
 aWidth
 PRUint32
 aHeight
+bool
+aTransparent
 )
 ;
 }
