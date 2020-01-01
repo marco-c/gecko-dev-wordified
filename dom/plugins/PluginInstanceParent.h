@@ -1239,13 +1239,6 @@ AnswerPluginGotFocus
 (
 )
 ;
-NS_OVERRIDE
-virtual
-bool
-RecvProcessNativeEventsInRPCCall
-(
-)
-;
 #
 if
 defined

@@ -1083,6 +1083,13 @@ AnswerProcessSomeEvents
 (
 )
 ;
+NS_OVERRIDE
+virtual
+bool
+RecvProcessNativeEventsInRPCCall
+(
+)
+;
 virtual
 bool
 RecvAppendNotesToCrashReport
