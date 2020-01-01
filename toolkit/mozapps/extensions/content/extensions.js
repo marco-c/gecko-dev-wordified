@@ -17019,6 +17019,9 @@ nsIExtensionManager
 .
 UPDATE_CHECK_NEWVERSION
 listener
+nsIExtensionMananger
+.
+UPDATE_WHEN_USER_REQUESTED
 )
 ;
 }
@@ -19437,6 +19440,9 @@ nsIExtensionManager
 .
 UPDATE_CHECK_NEWVERSION
 listener
+nsIExtensionManager
+.
+UPDATE_WHEN_USER_REQUESTED
 )
 ;
 }

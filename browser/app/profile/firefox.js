@@ -2021,6 +2021,12 @@ currentAppVersion
 %
 CURRENT_APP_VERSION
 %
+&
+updateType
+=
+%
+UPDATE_TYPE
+%
 "
 )
 ;

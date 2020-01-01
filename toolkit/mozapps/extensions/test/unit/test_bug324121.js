@@ -1301,6 +1301,11 @@ nsIExtensionManager
 .
 UPDATE_NOTIFY_NEWVERSION
 updateListener
+Ci
+.
+nsIExtensionManager
+.
+UPDATE_WHEN_USER_REQUESTED
 "
 3
 "
