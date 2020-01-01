@@ -443,13 +443,6 @@ BLOCK
 #
 include
 "
-nsSVGLength
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

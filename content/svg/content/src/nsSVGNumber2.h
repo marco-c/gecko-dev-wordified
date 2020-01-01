@@ -457,6 +457,10 @@ h
 class
 nsSVGNumber2
 {
+friend
+class
+DOMSVGNumber
+;
 public
 :
 void
@@ -691,6 +695,15 @@ NS_OK
 }
 ;
 }
+;
+nsresult
+NS_NewDOMSVGNumber
+(
+nsIDOMSVGNumber
+*
+*
+result
+)
 ;
 #
 endif
