@@ -541,15 +541,6 @@ layers
 :
 PlanarYCbCrImage
 ;
-using
-mozilla
-:
-:
-layers
-:
-:
-PlanarYCbCrImage
-;
 /
 /
 Verify
