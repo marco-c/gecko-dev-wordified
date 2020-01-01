@@ -1617,8 +1617,8 @@ getOwnPropertyDescriptor
 cx
 obj
 id
-false
 desc
+0
 )
 ;
 RootedObject
@@ -23948,9 +23948,9 @@ getPropertyDescriptor
 cx
 pobj
 id
-true
 &
 pd
+JSRESOLVE_ASSIGNING
 )
 )
 return

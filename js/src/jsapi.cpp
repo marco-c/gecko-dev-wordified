@@ -19308,9 +19308,9 @@ getPropertyDescriptor
 cx
 obj2
 id
-false
 &
 desc
+0
 )
 )
 return
@@ -22255,8 +22255,8 @@ getOwnPropertyDescriptor
 cx
 obj2
 id
-false
 desc
+0
 )
 :
 Proxy
@@ -22267,8 +22267,8 @@ getPropertyDescriptor
 cx
 obj2
 id
-false
 desc
+0
 )
 ;
 }
