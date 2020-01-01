@@ -297,7 +297,7 @@ unlock
 )
 ;
 bool
-isRenderable
+isRenderableFormat
 (
 )
 const
@@ -1108,7 +1108,7 @@ explicit
 TextureStorage
 (
 bool
-renderable
+renderTarget
 )
 ;
 virtual
@@ -1118,7 +1118,7 @@ TextureStorage
 )
 ;
 bool
-isRenderable
+isRenderTarget
 (
 )
 const
@@ -1163,7 +1163,7 @@ TextureStorage
 ;
 const
 bool
-mRenderable
+mRenderTarget
 ;
 const
 D3DPOOL
@@ -1424,7 +1424,6 @@ int
 getTextureSerial
 (
 )
-const
 ;
 unsigned
 int
@@ -1433,7 +1432,6 @@ getRenderTargetSerial
 GLenum
 target
 )
-const
 ;
 bool
 isImmutable
@@ -1690,8 +1688,9 @@ TextureStorage
 *
 getStorage
 (
+bool
+renderTarget
 )
-const
 =
 0
 ;
@@ -1724,7 +1723,7 @@ width
 int
 height
 bool
-renderable
+renderTarget
 )
 ;
 virtual
@@ -2082,8 +2081,9 @@ TextureStorage
 *
 getStorage
 (
+bool
+renderTarget
 )
-const
 ;
 bool
 isMipmapComplete
@@ -2163,7 +2163,7 @@ format
 int
 size
 bool
-renderable
+renderTarget
 )
 ;
 virtual
@@ -2625,8 +2625,9 @@ TextureStorage
 *
 getStorage
 (
+bool
+renderTarget
 )
-const
 ;
 bool
 isCubeComplete
