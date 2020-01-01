@@ -2168,13 +2168,6 @@ name
 )
 ;
 bool
-jsop_intrinsicname
-(
-HandlePropertyName
-name
-)
-;
-bool
 jsop_bindname
 (
 PropertyName
