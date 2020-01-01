@@ -38260,6 +38260,15 @@ i
 ResetLinkState
 (
 true
+linksToNotify
+[
+i
+]
+-
+>
+ElementHasHref
+(
+)
 )
 ;
 }

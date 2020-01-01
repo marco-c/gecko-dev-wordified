@@ -945,6 +945,12 @@ Link
 ResetLinkState
 (
 false
+Link
+:
+:
+ElementHasHref
+(
+)
 )
 ;
 nsresult
@@ -1122,6 +1128,12 @@ Link
 ResetLinkState
 (
 false
+Link
+:
+:
+ElementHasHref
+(
+)
 )
 ;
 /
@@ -1604,6 +1616,7 @@ ResetLinkState
 !
 !
 aNotify
+true
 )
 ;
 }
@@ -1964,6 +1977,7 @@ ResetLinkState
 !
 !
 aNotify
+false
 )
 ;
 }
