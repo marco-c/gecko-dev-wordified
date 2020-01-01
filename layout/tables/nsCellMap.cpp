@@ -1722,6 +1722,10 @@ map
 delete
 map
 ;
+map
+=
+nsnull
+;
 NS_WARNING
 (
 "
@@ -1730,6 +1734,8 @@ not
 AppendElement
 "
 )
+;
+break
 ;
 }
 }
