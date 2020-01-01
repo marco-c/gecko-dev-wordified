@@ -7696,9 +7696,7 @@ if
 (
 !
 (
-"
-crypto
-"
+CRYPTO_COLLECTION
 in
 info
 )
@@ -7759,8 +7757,9 @@ drift
 if
 (
 info
-.
-crypto
+[
+CRYPTO_COLLECTION
+]
 <
 serverModified
 )
