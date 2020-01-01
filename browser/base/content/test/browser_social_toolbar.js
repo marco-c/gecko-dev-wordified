@@ -470,7 +470,7 @@ menuitem
 )
 .
 length
-5
+6
 "
 The
 minimum
@@ -999,7 +999,7 @@ menuitem
 )
 .
 length
-8
+9
 "
 The
 number
