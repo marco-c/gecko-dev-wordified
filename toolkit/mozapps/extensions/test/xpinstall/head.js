@@ -1325,14 +1325,9 @@ promptType
 =
 window
 .
-gArgs
+args
 .
-getProperty
-(
-"
 promptType
-"
-)
 ;
 switch
 (
