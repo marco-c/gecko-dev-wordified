@@ -2554,6 +2554,9 @@ Value
 from
 ptrdiff_t
 nvals
+JSCompartment
+*
+dest
 )
 const
 {
@@ -2602,6 +2605,7 @@ cx
 report
 from
 nvals
+dest
 )
 ;
 return
