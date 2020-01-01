@@ -130,8 +130,6 @@ endif
 #
 include
 "
-nspr
-/
 prtypes
 .
 h
@@ -161,8 +159,6 @@ endif
 #
 include
 "
-nspr
-/
 obsolete
 /
 protypes
