@@ -2204,6 +2204,9 @@ pc
 )
 )
 ;
+if
+(
+!
 types
 :
 :
@@ -2213,6 +2216,9 @@ cx
 args
 construct
 )
+)
+return
+false
 ;
 /
 *

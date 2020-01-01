@@ -36756,9 +36756,16 @@ if
 !
 types
 )
+{
+js_ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 new
 (
 types
