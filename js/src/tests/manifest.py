@@ -42,31 +42,27 @@ path
 ]
     
 while
-path
-!
-=
-"
-/
-"
+True
 :
         
 path
+tail
 =
 os
 .
 path
 .
-dirname
+split
 (
 path
 )
         
-dirs
-.
-append
-(
-path
-)
+if
+not
+tail
+:
+            
+break
     
 return
 dirs
