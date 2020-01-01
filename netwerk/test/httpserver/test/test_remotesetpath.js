@@ -448,8 +448,11 @@ BLOCK
 /
 Make
 sure
-setIndexHandler
-works
+PUT
+/
+GET
+support
+work
 as
 expected
 var
