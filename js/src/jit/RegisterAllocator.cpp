@@ -3077,7 +3077,14 @@ nBlock
 %
 lu
 "
+static_cast
+<
+unsigned
+long
+>
+(
 blockIndex
+)
 )
 ;
 for
