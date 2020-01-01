@@ -2336,7 +2336,6 @@ ARMRegisters
 :
 d2
 )
-;
 )
 <
 <
@@ -2963,7 +2962,7 @@ defined
 JS_CPU_ARM
 )
 return
-isreg
+isReg
 (
 )
 ?
