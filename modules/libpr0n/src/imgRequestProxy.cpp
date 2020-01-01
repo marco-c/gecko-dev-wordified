@@ -3348,12 +3348,6 @@ imgRequestProxy
 :
 OnStartRequest
 (
-nsIRequest
-*
-request
-nsISupports
-*
-ctxt
 )
 {
 #
@@ -3460,14 +3454,6 @@ imgRequestProxy
 :
 OnStopRequest
 (
-nsIRequest
-*
-request
-nsISupports
-*
-ctxt
-nsresult
-statusCode
 PRBool
 lastPart
 )
