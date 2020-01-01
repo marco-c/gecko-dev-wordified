@@ -438,7 +438,7 @@ nsSBCSGroupProber_h__
 #
 define
 NUM_OF_SBCS_PROBERS
-13
+14
 class
 nsCharSetProber
 ;
