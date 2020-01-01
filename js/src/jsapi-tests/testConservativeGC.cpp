@@ -73,6 +73,10 @@ JSGC_USE_EXACT_ROOTING
 #
 include
 "
+jsapi
+-
+tests
+/
 tests
 .
 h

@@ -85,6 +85,10 @@ Bukanov
 #
 include
 "
+jsapi
+-
+tests
+/
 tests
 .
 h

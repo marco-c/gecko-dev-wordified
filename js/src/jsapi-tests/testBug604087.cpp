@@ -118,6 +118,10 @@ MPL
 #
 include
 "
+jsapi
+-
+tests
+/
 tests
 .
 h

@@ -56,6 +56,10 @@ tw
 #
 include
 "
+jsapi
+-
+tests
+/
 tests
 .
 h
