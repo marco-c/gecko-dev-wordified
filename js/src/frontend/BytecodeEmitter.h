@@ -2002,12 +2002,6 @@ condition
 from
 before
 loop
-(
-same
-arity
-as
-SRC_IF_ELSE
-)
 *
 /
 SRC_CONTINUE

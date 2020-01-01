@@ -9970,9 +9970,6 @@ sp
 else
 %
 u
-elseif
-%
-u
 "
 unsigned
 (
@@ -9980,14 +9977,6 @@ js_GetSrcNoteOffset
 (
 sn
 0
-)
-)
-unsigned
-(
-js_GetSrcNoteOffset
-(
-sn
-1
 )
 )
 )
