@@ -1394,7 +1394,7 @@ Linux
 size_t
 nbytes
 =
-js_GetDeflatedUTF8StringLength
+GetDeflatedUTF8StringLength
 (
 cx
 pathStr
@@ -1452,7 +1452,7 @@ NULL
 ;
 ASSERT_OK
 (
-js_DeflateStringToUTF8Buffer
+DeflateStringToUTF8Buffer
 (
 cx
 pathStr

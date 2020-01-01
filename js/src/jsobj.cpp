@@ -2388,7 +2388,7 @@ SHARP_BIT
 *
 sp
 =
-js_InflateString
+InflateString
 (
 cx
 buf

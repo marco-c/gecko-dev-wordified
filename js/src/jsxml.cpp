@@ -10442,7 +10442,7 @@ dstlen
 =
 length
 ;
-js_InflateStringToBuffer
+InflateStringToBuffer
 (
 cx
 prefix
@@ -10486,7 +10486,7 @@ offset
 +
 1
 ;
-js_InflateStringToBuffer
+InflateStringToBuffer
 (
 cx
 middle
@@ -10556,7 +10556,7 @@ offset
 +
 1
 ;
-js_InflateStringToBuffer
+InflateStringToBuffer
 (
 cx
 suffix

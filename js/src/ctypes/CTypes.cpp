@@ -13353,7 +13353,7 @@ UTF
 size_t
 nbytes
 =
-js_GetDeflatedUTF8StringLength
+GetDeflatedUTF8StringLength
 (
 cx
 sourceChars
@@ -13423,7 +13423,7 @@ false
 }
 ASSERT_OK
 (
-js_DeflateStringToUTF8Buffer
+DeflateStringToUTF8Buffer
 (
 cx
 sourceChars
@@ -13715,7 +13715,7 @@ UTF
 size_t
 nbytes
 =
-js_GetDeflatedUTF8StringLength
+GetDeflatedUTF8StringLength
 (
 cx
 sourceChars
@@ -13773,7 +13773,7 @@ buffer
 ;
 ASSERT_OK
 (
-js_DeflateStringToUTF8Buffer
+DeflateStringToUTF8Buffer
 (
 cx
 sourceChars
@@ -25307,7 +25307,7 @@ length
 .
 length
 =
-js_GetDeflatedUTF8StringLength
+GetDeflatedUTF8StringLength
 (
 cx
 sourceChars
@@ -40592,7 +40592,7 @@ dstlen
 if
 (
 !
-js_InflateUTF8StringToBuffer
+InflateUTF8StringToBuffer
 (
 cx
 bytes
@@ -40641,7 +40641,7 @@ JS_FALSE
 ;
 ASSERT_OK
 (
-js_InflateUTF8StringToBuffer
+InflateUTF8StringToBuffer
 (
 cx
 bytes

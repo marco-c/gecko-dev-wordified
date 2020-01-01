@@ -5614,7 +5614,7 @@ ucmessage
 =
 ucmessage
 =
-js_InflateString
+InflateString
 (
 cx
 message
@@ -6049,7 +6049,7 @@ messageArgs
 i
 ]
 =
-js_InflateString
+InflateString
 (
 cx
 charArg
@@ -6205,7 +6205,7 @@ buffer
 =
 fmt
 =
-js_InflateString
+InflateString
 (
 cx
 efs
@@ -6436,16 +6436,14 @@ buffer
 *
 messagep
 =
-js_DeflateString
+DeflateString
 (
 cx
 reportp
 -
 >
 ucmessage
-(
 size_t
-)
 (
 out
 -
@@ -6536,7 +6534,7 @@ reportp
 >
 ucmessage
 =
-js_InflateString
+InflateString
 (
 cx
 *

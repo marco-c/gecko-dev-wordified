@@ -10940,7 +10940,7 @@ JS_FALSE
 ;
 chars
 =
-js_InflateString
+InflateString
 (
 cx
 bytes
@@ -14238,7 +14238,7 @@ params
 .
 tb5Filename
 =
-js_DeflateString
+DeflateString
 (
 cx
 str
@@ -16014,7 +16014,7 @@ argv
 ;
 filename
 =
-js_DeflateString
+DeflateString
 (
 cx
 str

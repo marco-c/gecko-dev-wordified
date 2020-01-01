@@ -2586,7 +2586,7 @@ JSXDR_ENCODE
 {
 len
 =
-js_GetDeflatedUTF8StringLength
+GetDeflatedUTF8StringLength
 (
 xdr
 -
@@ -2614,12 +2614,12 @@ strp
 length
 (
 )
-true
+CESU8Encoding
 )
 ;
 /
 *
-js_GetDeflatedUTF8StringLength
+GetDeflatedUTF8StringLength
 never
 fails
 in
@@ -2771,7 +2771,7 @@ JSXDR_ENCODE
 {
 JS_ALWAYS_TRUE
 (
-js_DeflateStringToUTF8Buffer
+DeflateStringToUTF8Buffer
 (
 xdr
 -
@@ -2802,7 +2802,7 @@ length
 buf
 &
 len
-true
+CESU8Encoding
 )
 )
 ;
@@ -2813,7 +2813,7 @@ jschar
 *
 chars
 =
-js_InflateString
+InflateString
 (
 xdr
 -
@@ -2822,7 +2822,7 @@ cx
 buf
 &
 len
-true
+CESU8Encoding
 )
 ;
 if
@@ -3962,7 +3962,7 @@ cx
 buf
 len
 DoNotInternAtom
-true
+CESU8Encoding
 )
 ;
 if
