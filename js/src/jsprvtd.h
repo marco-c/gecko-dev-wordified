@@ -592,6 +592,7 @@ jsutil
 .
 h
 "
+JS_BEGIN_EXTERN_C
 /
 *
 *
@@ -2346,6 +2347,7 @@ js_CStringsAreUTF8
 ;
 #
 endif
+JS_END_EXTERN_C
 #
 endif
 /
