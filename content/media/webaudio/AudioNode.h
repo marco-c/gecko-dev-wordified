@@ -807,10 +807,6 @@ mInputNodes
 }
 private
 :
-friend
-class
-AudioBufferSourceNode
-;
 /
 /
 This
