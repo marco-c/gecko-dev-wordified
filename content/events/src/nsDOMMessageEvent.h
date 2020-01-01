@@ -335,7 +335,13 @@ aCancelable
 JS
 :
 :
+Handle
+<
+JS
+:
+:
 Value
+>
 aData
 const
 nsAString

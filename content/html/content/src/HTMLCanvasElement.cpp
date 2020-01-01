@@ -3857,9 +3857,7 @@ aContextId
 JS
 :
 :
-UndefinedValue
-(
-)
+UndefinedHandleValue
 nullptr
 aContext
 )
