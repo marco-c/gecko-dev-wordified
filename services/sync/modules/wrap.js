@@ -1064,7 +1064,6 @@ call
 arguments
 )
 ;
-let
 ret
 =
 this
