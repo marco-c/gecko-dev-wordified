@@ -607,10 +607,6 @@ errorObject
 InitWithWindowID
 (
 msg
-.
-get
-(
-)
 NS_ConvertUTF8toUTF16
 (
 mImage
@@ -619,11 +615,9 @@ GetURIString
 (
 )
 )
-.
-get
+EmptyString
 (
 )
-nullptr
 0
 0
 nsIScriptError

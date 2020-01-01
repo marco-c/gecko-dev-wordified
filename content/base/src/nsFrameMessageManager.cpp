@@ -3590,7 +3590,7 @@ message
 .
 Assign
 (
-reinterpret_cast
+static_cast
 <
 const
 PRUnichar
@@ -3619,7 +3619,7 @@ line
 .
 Assign
 (
-reinterpret_cast
+static_cast
 <
 const
 PRUnichar
@@ -3715,20 +3715,8 @@ scriptError
 Init
 (
 message
-.
-get
-(
-)
 filename
-.
-get
-(
-)
 line
-.
-get
-(
-)
 lineNumber
 columnNumber
 flags
@@ -3911,7 +3899,7 @@ ucmessage
 {
 AppendUTF16toUTF8
 (
-reinterpret_cast
+static_cast
 <
 const
 PRUnichar

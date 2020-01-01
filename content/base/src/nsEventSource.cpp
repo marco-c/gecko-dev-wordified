@@ -6363,16 +6363,10 @@ errObj
 InitWithWindowID
 (
 message
-.
-get
-(
-)
 mScriptFile
-.
-get
+EmptyString
 (
 )
-nullptr
 mScriptLine
 0
 nsIScriptError
