@@ -9885,9 +9885,6 @@ case
 SRC_WHILE
 :
 case
-SRC_PCBASE
-:
-case
 SRC_PCDELTA
 :
 Sprint
