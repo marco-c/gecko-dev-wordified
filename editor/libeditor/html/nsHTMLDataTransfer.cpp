@@ -6665,9 +6665,6 @@ AddDataFlavor
 kFileMime
 )
 ;
-#
-ifdef
-XP_WIN32
 /
 /
 image
@@ -6680,6 +6677,8 @@ only
 implemented
 on
 Windows
+&
+Mac
 right
 now
 .
@@ -6694,8 +6693,6 @@ AddDataFlavor
 kJPEGImageMime
 )
 ;
-#
-endif
 }
 (
 *
