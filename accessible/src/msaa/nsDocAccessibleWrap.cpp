@@ -1953,12 +1953,8 @@ hack
 PRUint32
 role
 =
-nsAccUtils
-:
-:
 Role
 (
-this
 )
 ;
 if
