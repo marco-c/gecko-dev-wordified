@@ -343,13 +343,13 @@ errorhandler
 .
 networkFailureReportTimeout
 "
-604800
+1209600
 )
 ;
 /
 /
-1
-week
+2
+weeks
 pref
 (
 "
