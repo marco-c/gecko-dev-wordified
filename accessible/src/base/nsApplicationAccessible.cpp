@@ -2185,13 +2185,7 @@ nsAccessible
 >
 rootAcc
 =
-nsAccUtils
-:
-:
-QueryObject
-<
-nsAccessible
->
+do_QueryObject
 (
 aRootAccessible
 )
