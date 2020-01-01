@@ -319,6 +319,15 @@ AudioChannelType
 aType
 )
 ;
+const
+char
+*
+ChannelName
+(
+AudioChannelType
+aType
+)
+;
 nsDataHashtable
 <
 nsPtrHashKey
@@ -332,6 +341,9 @@ mMediaElements
 int32_t
 *
 mChannelCounters
+;
+AudioChannelType
+mCurrentHigherChannel
 ;
 }
 ;
