@@ -24836,22 +24836,24 @@ done
 n
 "
                           
-"
+'
 ThrowErrorMessage
 (
 cx
 MSG_NOT_IN_UNION
-\
 "
 %
 s
-\
+"
+"
+%
+s
 "
 )
 ;
 \
 n
-"
+'
                           
 "
 %
@@ -24869,6 +24871,11 @@ exceptionCodeIndented
 .
 define
 (
+)
+                                 
+firstCap
+(
+sourceDescription
 )
                                  
 "
@@ -30057,26 +30064,37 @@ else
 nonFiniteCode
 =
 (
-"
+'
 ThrowErrorMessage
 (
 cx
 MSG_NOT_FINITE
+"
+%
+s
+"
 )
 ;
 \
 n
-"
+'
                              
 "
 %
 s
 "
 %
+(
+firstCap
+(
+sourceDescription
+)
+                                     
 exceptionCodeIndented
 .
 define
 (
+)
 )
 )
         
@@ -42739,10 +42757,14 @@ return
 ThrowErrorMessage
 (
 cx
-MSG_INVALID_ARG
+MSG_OVERLOAD_RESOLUTION_FAILED
 "
 %
-s
+d
+"
+"
+%
+d
 "
 "
 %
@@ -42754,14 +42776,11 @@ s
                   
 %
 (
-str
-(
 distinguishingIndex
-)
-str
-(
++
+1
 argCount
-)
+methodName
 )
 )
 )
