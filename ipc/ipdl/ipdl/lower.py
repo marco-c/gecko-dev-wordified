@@ -3802,16 +3802,6 @@ isActor
 )
 :
         
-t
-.
-const
-=
-1
-#
-const
-Actor
-*
-        
 return
 t
     
@@ -3943,21 +3933,9 @@ ptr
         
 t
 .
-const
-=
-1
-        
-t
-.
 ptrconstptr
 =
 1
-#
-const
-Actor
-*
-const
-*
         
 return
 t
