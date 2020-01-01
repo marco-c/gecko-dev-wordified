@@ -617,13 +617,6 @@ h
 #
 include
 "
-nsIProxyObjectManager
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
