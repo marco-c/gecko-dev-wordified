@@ -599,6 +599,7 @@ newEmbed
 >
 newWindow
 (
+&
 newEmbed
 aChromeFlags
 )
