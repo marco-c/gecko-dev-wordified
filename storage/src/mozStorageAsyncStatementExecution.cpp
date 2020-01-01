@@ -1295,6 +1295,10 @@ the
 pending
 statement
 object
+and
+track
+it
+.
 NS_ADDREF
 (
 *
