@@ -4311,9 +4311,9 @@ ArenaHeader
 *
 allocateArena
 (
-JSContext
+JSCompartment
 *
-cx
+comp
 AllocKind
 kind
 )
@@ -6885,9 +6885,9 @@ void
 *
 allocateFromArena
 (
-JSContext
+JSCompartment
 *
-cx
+comp
 AllocKind
 thingKind
 )
