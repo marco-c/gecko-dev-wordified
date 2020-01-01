@@ -2287,7 +2287,7 @@ rgba
 )
 ;
 }
-#
+%
 ifdef
 MOZ_WIDGET_GONK
 /
@@ -2321,5 +2321,5 @@ none
 important
 ;
 }
-#
+%
 endif
