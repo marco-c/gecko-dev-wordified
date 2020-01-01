@@ -542,6 +542,8 @@ patternMatrix
 nsSVGGeometryFrame
 *
 aSource
+float
+aGraphicOpacity
 )
 ;
 /
@@ -560,7 +562,7 @@ nsSVGGeometryFrame
 *
 aSource
 float
-aOpacity
+aGraphicOpacity
 void
 *
 *
