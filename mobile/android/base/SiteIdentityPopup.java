@@ -1109,12 +1109,6 @@ this
 }
 mMixedContentNotification
 .
-hideDivider
-(
-)
-;
-mMixedContentNotification
-.
 setBackgroundColor
 (
 0xFFDDE4EA
