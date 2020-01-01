@@ -4872,7 +4872,7 @@ nsCycleCollector
 (
 )
 ;
-void
+PRBool
 Suspect
 (
 nsISupports
@@ -10702,7 +10702,7 @@ nsnull
 }
 #
 endif
-void
+PRBool
 nsCycleCollector
 :
 :
@@ -10757,6 +10757,7 @@ if
 mScanInProgress
 )
 return
+PR_FALSE
 ;
 NS_ASSERTION
 (
@@ -10798,6 +10799,7 @@ mParams
 mDoNothing
 )
 return
+PR_FALSE
 ;
 #
 ifdef
@@ -10816,6 +10818,7 @@ n
 )
 )
 return
+PR_FALSE
 ;
 #
 ifndef
@@ -10895,6 +10898,9 @@ Put
 (
 n
 )
+;
+return
+PR_TRUE
 ;
 }
 void
@@ -13772,7 +13778,7 @@ langID
 )
 ;
 }
-void
+PRBool
 nsCycleCollector_suspect
 (
 nsISupports
@@ -13784,6 +13790,7 @@ if
 (
 sCollector
 )
+return
 sCollector
 -
 >
@@ -13791,6 +13798,9 @@ Suspect
 (
 n
 )
+;
+return
+PR_FALSE
 ;
 }
 void
@@ -13805,6 +13815,10 @@ if
 (
 sCollector
 )
+{
+PRBool
+res
+=
 sCollector
 -
 >
@@ -13814,6 +13828,18 @@ n
 PR_TRUE
 )
 ;
+NS_ASSERTION
+(
+res
+"
+suspectCurrent
+should
+not
+fail
+"
+)
+;
+}
 }
 void
 nsCycleCollector_forget
