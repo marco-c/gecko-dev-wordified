@@ -3962,7 +3962,7 @@ static
 nsresult
 GetInterfaceInfoManager
 (
-nsIInterfaceInfoSuperManager
+nsIInterfaceInfoManager
 *
 *
 iim
@@ -4325,7 +4325,7 @@ mRuntime
 ;
 nsCOMPtr
 <
-nsIInterfaceInfoSuperManager
+nsIInterfaceInfoManager
 >
 mInterfaceInfoManager
 ;
