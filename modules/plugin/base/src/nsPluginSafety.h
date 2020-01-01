@@ -613,7 +613,7 @@ host
 (
 do_GetService
 (
-kCPluginManagerCID
+MOZ_PLUGIN_HOST_CONTRACTID
 &
 res
 )
@@ -726,7 +726,7 @@ host
 (
 do_GetService
 (
-kCPluginManagerCID
+MOZ_PLUGIN_HOST_CONTRACTID
 &
 res
 )
