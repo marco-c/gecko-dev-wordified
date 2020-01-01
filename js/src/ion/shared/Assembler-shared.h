@@ -2369,7 +2369,7 @@ endif
 class
 CodeLocationCall
 {
-uint8
+uint8_t
 *
 raw_
 ;
@@ -2385,7 +2385,7 @@ absolute_
 #
 ifdef
 JS_SMALL_BRANCH
-uint8
+uint8_t
 *
 jumpTableEntry_
 ;
@@ -2429,7 +2429,7 @@ base
 raw_
 =
 (
-uint8
+uint8_t
 *
 )
 base
@@ -2448,7 +2448,7 @@ JS_SMALL_BRANCH
 jumpTableEntry_
 =
 (
-uint8
+uint8_t
 *
 )
 base
@@ -2473,7 +2473,7 @@ masm
 NULL
 )
 ;
-uint8
+uint8_t
 *
 raw
 (
@@ -2489,7 +2489,7 @@ return
 raw_
 ;
 }
-uint8
+uint8_t
 *
 offset
 (
@@ -2509,7 +2509,7 @@ raw_
 #
 ifdef
 JS_SMALL_BRANCH
-uint8
+uint8_t
 *
 jumpTableEntry
 (
