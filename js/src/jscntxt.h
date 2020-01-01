@@ -1460,7 +1460,7 @@ tree
 we
 initially
 invoked
-uintptr_t
+uintN
 *
 inlineCallCountp
 ;
@@ -11028,7 +11028,7 @@ JSContext
 *
 JSStackFrame
 *
-uintptr_t
+uintN
 )
 ;
 /

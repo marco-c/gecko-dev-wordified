@@ -10056,7 +10056,7 @@ attemptTreeCall
 TreeFragment
 *
 inner
-uintptr_t
+uintN
 &
 inlineCallCount
 )
@@ -10072,7 +10072,7 @@ cx
 TraceRecorder
 *
 r
-uintptr_t
+uintN
 &
 inlineCallCount
 )
@@ -10350,8 +10350,9 @@ MonitorTracePoint
 (
 JSContext
 *
-uintptr_t
+uintN
 &
+inlineCallCount
 bool
 &
 blacklist
@@ -10480,7 +10481,7 @@ JS_REQUIRES_STACK
 AbortableRecordingStatus
 record_EnterFrame
 (
-uintptr_t
+uintN
 &
 inlineCallCount
 )
@@ -11071,7 +11072,7 @@ MonitorLoopEdge
 JSContext
 *
 cx
-uintptr_t
+uintN
 &
 inlineCallCount
 RecordReason
@@ -11085,8 +11086,9 @@ MonitorTracePoint
 (
 JSContext
 *
-uintptr_t
+uintN
 &
+inlineCallCount
 bool
 &
 blacklist
