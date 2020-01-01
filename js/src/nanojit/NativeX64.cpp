@@ -18875,7 +18875,7 @@ base
 Register
 tablereg
 =
-registerAlloc
+registerAllocTmp
 (
 GpRegs
 &
@@ -18891,13 +18891,6 @@ rmask
 R13
 )
 )
-)
-;
-_allocator
-.
-addFree
-(
-tablereg
 )
 ;
 /

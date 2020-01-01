@@ -3222,7 +3222,7 @@ it
 Register
 t
 =
-registerAlloc
+registerAllocTmp
 (
 GpRegs
 &
@@ -3238,13 +3238,6 @@ rmask
 rs
 )
 )
-)
-;
-_allocator
-.
-addFree
-(
-t
 )
 ;
 STW32
@@ -6378,7 +6371,7 @@ FpRegs
 Register
 rt
 =
-registerAlloc
+registerAllocTmp
 (
 FpRegs
 &
@@ -6389,13 +6382,6 @@ rmask
 rr
 )
 )
-)
-;
-_allocator
-.
-addFree
-(
-rt
 )
 ;
 Register
