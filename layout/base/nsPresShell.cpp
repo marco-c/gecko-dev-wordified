@@ -22227,7 +22227,13 @@ mozFlushType
 !
 MOZ_ASSERT
 (
+static_cast
+<
+uint32_t
+>
+(
 aType
+)
 <
 =
 ArrayLength
