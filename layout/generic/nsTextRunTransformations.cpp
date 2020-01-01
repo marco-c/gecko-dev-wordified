@@ -443,7 +443,7 @@ h
 #
 include
 "
-nsGkAtoms
+gfxAtoms
 .
 h
 "
@@ -2826,7 +2826,7 @@ if
 lang
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 tr
@@ -2835,7 +2835,7 @@ tr
 lang
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 az
@@ -2844,7 +2844,7 @@ az
 lang
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 ba
@@ -2853,7 +2853,7 @@ ba
 lang
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 crh
@@ -2862,7 +2862,7 @@ crh
 lang
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 tt
@@ -2879,7 +2879,7 @@ if
 lang
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 nl

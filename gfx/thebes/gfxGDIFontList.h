@@ -476,7 +476,7 @@ h
 #
 include
 "
-nsGkAtoms
+gfxAtoms
 .
 h
 "
@@ -1324,10 +1324,10 @@ aLangGroup
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
-Unicode
+x_unicode
 )
 {
 return
@@ -1358,7 +1358,7 @@ if
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 x_western
@@ -1375,10 +1375,10 @@ if
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
-Japanese
+ja
 )
 {
 bit
@@ -1392,7 +1392,7 @@ if
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 ko
@@ -1409,7 +1409,7 @@ if
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 ko_xxx
@@ -1426,7 +1426,7 @@ if
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 zh_cn
@@ -1443,7 +1443,7 @@ if
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 zh_tw
@@ -1460,10 +1460,10 @@ if
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
-el_
+el
 )
 {
 bit
@@ -1477,7 +1477,7 @@ if
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 tr
@@ -1494,7 +1494,7 @@ if
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 he
@@ -1511,7 +1511,7 @@ if
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 ar
@@ -1528,7 +1528,7 @@ if
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 x_baltic
@@ -1545,7 +1545,7 @@ if
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 x_cyrillic
@@ -1562,7 +1562,7 @@ if
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 th
@@ -1579,7 +1579,7 @@ if
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 x_central_euro
@@ -1596,7 +1596,7 @@ if
 aLangGroup
 =
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 x_symbol
