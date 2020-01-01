@@ -7250,13 +7250,6 @@ mScreen
 )
 {
 mScreen
--
->
-Invalidate
-(
-)
-;
-mScreen
 =
 nsnull
 ;
