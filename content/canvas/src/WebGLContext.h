@@ -499,7 +499,7 @@ template
 <
 typename
 >
-struct
+class
 Nullable
 ;
 }
@@ -657,7 +657,7 @@ WebGLMemoryPressureObserver
 ;
 friend
 class
-WebGLMemoryReporterWrapper
+WebGLMemoryMultiReporterWrapper
 ;
 friend
 class
@@ -819,19 +819,6 @@ aFlags
 RenderFlagPremultAlpha
 )
 MOZ_OVERRIDE
-;
-virtual
-void
-GetImageBuffer
-(
-uint8_t
-*
-*
-aImageBuffer
-int32_t
-*
-aFormat
-)
 ;
 NS_IMETHOD
 GetInputStream
