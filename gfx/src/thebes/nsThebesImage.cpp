@@ -2148,11 +2148,15 @@ destRect
 size
 .
 width
++
+1
 destRect
 .
 size
 .
 height
++
+1
 )
 )
 return
