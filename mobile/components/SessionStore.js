@@ -6002,6 +6002,7 @@ if
 (
 canvas
 )
+{
 canvas
 .
 getContext
@@ -6018,6 +6019,16 @@ image
 0
 )
 ;
+canvas
+.
+removeAttribute
+(
+"
+empty
+"
+)
+;
+}
 }
 ;
 image
