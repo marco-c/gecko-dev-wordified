@@ -604,6 +604,11 @@ GetElementCache
 \
 _
 (
+SetElementCache
+)
+\
+_
+(
 BindNameCache
 )
 \
@@ -835,6 +840,11 @@ ArgumentsLength
 _
 (
 GetArgument
+)
+\
+_
+(
+RunOncePrologue
 )
 \
 _
