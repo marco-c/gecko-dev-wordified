@@ -14210,6 +14210,10 @@ setupLayerManager
 (
 this
 paintCtx
+BasicLayerManager
+:
+:
+BUFFER_NONE
 )
 ;
 DispatchEvent
