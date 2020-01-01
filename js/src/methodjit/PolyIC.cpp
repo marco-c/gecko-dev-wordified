@@ -5232,6 +5232,16 @@ GETPROP_INLINE_TYPE_GUARD
 start
 )
 ;
+disable
+(
+"
+generated
+string
+length
+stub
+"
+)
+;
 return
 true
 ;
