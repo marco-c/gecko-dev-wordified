@@ -3984,6 +3984,17 @@ stopPropagation
 (
 )
 ;
+if
+(
+!
+this
+.
+_getToolbarVisibility
+(
+)
+)
+return
+;
 let
 dropdownClasses
 =
