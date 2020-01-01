@@ -70,6 +70,15 @@ nsIFormSigningDialog
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_FORMSIGNINGDIALOG_CID
 \
@@ -91,6 +100,7 @@ NS_FORMSIGNINGDIALOG_CID
 }
 class
 nsFormSigningDialog
+MOZ_FINAL
 :
 public
 nsIFormSigningDialog

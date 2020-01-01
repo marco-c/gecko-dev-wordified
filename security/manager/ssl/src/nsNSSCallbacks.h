@@ -143,6 +143,15 @@ Mutex
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 char
 *
 PR_CALLBACK
@@ -182,6 +191,7 @@ UnregisterMyOCSPAIAInfoCallback
 ;
 class
 nsHTTPListener
+MOZ_FINAL
 :
 public
 nsIStreamLoaderObserver

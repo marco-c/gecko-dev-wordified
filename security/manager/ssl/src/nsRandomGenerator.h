@@ -70,6 +70,15 @@ nsIRandomGenerator
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_RANDOMGENERATOR_CID
 \
@@ -107,6 +116,7 @@ generator
 "
 class
 nsRandomGenerator
+MOZ_FINAL
 :
 public
 nsIRandomGenerator

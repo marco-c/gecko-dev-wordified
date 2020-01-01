@@ -72,6 +72,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 keythi
 .
 h
@@ -124,6 +133,7 @@ datasignatureverifier
 "
 class
 nsDataSignatureVerifier
+MOZ_FINAL
 :
 public
 nsIDataSignatureVerifier

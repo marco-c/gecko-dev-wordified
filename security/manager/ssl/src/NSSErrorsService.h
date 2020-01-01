@@ -77,6 +77,15 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -85,6 +94,7 @@ psm
 {
 class
 NSSErrorsService
+MOZ_FINAL
 :
 public
 nsINSSErrorsService

@@ -155,6 +155,15 @@ nsWeakReference
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsClientAuthRemember
 {
@@ -235,6 +244,7 @@ entry
 class
 class
 nsClientAuthRememberEntry
+MOZ_FINAL
 :
 public
 PLDHashEntryHdr
@@ -442,6 +452,7 @@ mHostWithCert
 ;
 class
 nsClientAuthRememberService
+MOZ_FINAL
 :
 public
 nsIObserver
