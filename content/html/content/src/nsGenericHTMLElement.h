@@ -5961,12 +5961,6 @@ PRBool
 aNotify
 )
 ;
-virtual
-void
-DestroyContent
-(
-)
-;
 /
 /
 nsIDOMNSHTMLElement
