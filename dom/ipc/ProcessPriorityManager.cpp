@@ -1403,7 +1403,7 @@ false
 doc
 -
 >
-GetMozHidden
+GetHidden
 (
 &
 hidden

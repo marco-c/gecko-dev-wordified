@@ -3219,7 +3219,7 @@ doc
 doc
 -
 >
-GetMozHidden
+GetHidden
 (
 &
 hidden
@@ -3733,7 +3733,7 @@ true
 domDoc
 -
 >
-GetMozHidden
+GetHidden
 (
 &
 hidden
@@ -3984,7 +3984,7 @@ and
 remove
 the
 old
-mozvisibility
+visibility
 listener
 if
 there

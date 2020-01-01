@@ -2543,7 +2543,7 @@ event
 .
 originalTarget
 .
-mozVisibilityState
+visibilityState
 expected
 .
 visibilityState
@@ -2588,7 +2588,7 @@ event
 .
 originalTarget
 .
-mozHidden
+hidden
 expected
 .
 hidden
