@@ -254,9 +254,13 @@ mListenerType
 ;
 bool
 mListenerIsHandler
+:
+1
 ;
 bool
 mHandlerIsString
+:
+1
 ;
 nsIJSEventListener
 *
