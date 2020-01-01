@@ -6331,11 +6331,6 @@ flags
 nsLayoutUtils
 :
 :
-SFE_WANT_NEW_SURFACE
-|
-nsLayoutUtils
-:
-:
 SFE_WANT_IMAGE_SURFACE
 ;
 if
