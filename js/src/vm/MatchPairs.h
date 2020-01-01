@@ -702,6 +702,9 @@ buffer_
 }
 friend
 class
+detail
+:
+:
 RegExpPrivate
 ;
 public

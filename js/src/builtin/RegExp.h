@@ -585,9 +585,9 @@ cx
 RegExpStatics
 *
 res
-RegExpPrivate
+RegExpMatcher
 *
-rep
+matcher
 JSLinearString
 *
 input
