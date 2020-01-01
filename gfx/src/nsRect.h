@@ -709,7 +709,7 @@ width
 ;
 }
 void
-Empty
+SetEmpty
 (
 )
 {

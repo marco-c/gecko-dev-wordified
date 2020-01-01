@@ -1161,7 +1161,7 @@ invalidation
 rectangle
 mInvalidRect
 .
-Empty
+SetEmpty
 (
 )
 ;

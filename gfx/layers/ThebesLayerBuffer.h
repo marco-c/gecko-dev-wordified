@@ -845,7 +845,7 @@ SizeTo
 ;
 mBufferRect
 .
-Empty
+SetEmpty
 (
 )
 ;

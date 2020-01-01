@@ -2973,7 +2973,7 @@ mLegendFrame
 {
 mLegendRect
 .
-Empty
+SetEmpty
 (
 )
 ;

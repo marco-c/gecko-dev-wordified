@@ -1808,7 +1808,7 @@ UpdateCoveredRegion
 {
 mRect
 .
-Empty
+SetEmpty
 (
 )
 ;

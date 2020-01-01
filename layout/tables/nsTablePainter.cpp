@@ -1454,7 +1454,7 @@ Clear
 {
 mRect
 .
-Empty
+SetEmpty
 (
 )
 ;

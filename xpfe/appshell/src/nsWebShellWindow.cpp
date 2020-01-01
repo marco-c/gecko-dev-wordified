@@ -1055,7 +1055,7 @@ rv
 {
 mOpenerScreenRect
 .
-Empty
+SetEmpty
 (
 )
 ;
