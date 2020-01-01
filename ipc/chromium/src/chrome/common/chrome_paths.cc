@@ -252,6 +252,9 @@ FilePath
 result
 )
 {
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 /
 /
 Some
@@ -1695,6 +1698,8 @@ result
 =
 cur
 ;
+#
+endif
 return
 true
 ;

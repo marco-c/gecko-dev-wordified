@@ -461,7 +461,7 @@ h
 "
 #
 ifdef
-OS_LINUX
+MOZ_WIDGET_GTK2
 #
 include
 <
@@ -1456,7 +1456,7 @@ this
 if
 defined
 (
-OS_LINUX
+MOZ_WIDGET_GTK2
 )
 gtk_init
 (
