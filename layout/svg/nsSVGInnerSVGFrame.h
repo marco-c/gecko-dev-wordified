@@ -284,6 +284,15 @@ aDirtyRect
 )
 MOZ_OVERRIDE
 ;
+NS_IMETHOD_
+(
+nsRect
+)
+GetCoveredRegion
+(
+)
+MOZ_OVERRIDE
+;
 virtual
 void
 ReflowSVG
