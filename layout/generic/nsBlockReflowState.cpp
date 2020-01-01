@@ -7131,6 +7131,8 @@ aBreakType
 nsIFrame
 *
 aReplacedBlock
+PRUint32
+aFlags
 )
 {
 #
@@ -7263,6 +7265,7 @@ bp
 .
 top
 aBreakType
+aFlags
 )
 ;
 }

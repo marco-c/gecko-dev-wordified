@@ -937,6 +937,10 @@ nsIFrame
 aReplacedBlock
 =
 nsnull
+PRUint32
+aFlags
+=
+0
 )
 ;
 PRBool
