@@ -7661,6 +7661,16 @@ char
 buf
 )
 ;
+void
+formatImmq
+(
+uint64_t
+c
+char
+*
+buf
+)
+;
 public
 :
 LabelMap
