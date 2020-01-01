@@ -1276,18 +1276,6 @@ disable
 all
 cookies
 *
-3
-means
-use
-P3P
-policy
-to
-decide
-which
-is
-probably
-broken
-*
 network
 .
 cookie
@@ -1512,7 +1500,7 @@ checkbox
 .
 checked
 ?
-0
+1
 :
 2
 ;
