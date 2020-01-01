@@ -1024,6 +1024,9 @@ mInInternalSubset
 PRPackedBool
 mInExternalDTD
 ;
+PRPackedBool
+mMadeFinalCallToExpat
+;
 /
 /
 Whether
