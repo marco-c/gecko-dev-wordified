@@ -108,7 +108,11 @@ h
 #
 include
 "
-nsHTMLOptionElement
+mozilla
+/
+dom
+/
+HTMLOptionElement
 .
 h
 "
@@ -1074,7 +1078,13 @@ HTMLOptGroupElement
 DEFINE_UNWRAP_CAST_HTML
 (
 option
-nsHTMLOptionElement
+mozilla
+:
+:
+dom
+:
+:
+HTMLOptionElement
 )
 DEFINE_UNWRAP_CAST_HTML
 (
