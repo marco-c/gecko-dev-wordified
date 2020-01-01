@@ -1718,6 +1718,12 @@ check_state_v3
 (
 )
 ;
+/
+/
+(
+Bug
+547039
+)
 do_check_eq
 (
 WindowWatcher
@@ -1856,6 +1862,12 @@ check_state_v2
 (
 )
 ;
+/
+/
+(
+Bug
+547039
+)
 do_check_eq
 (
 WindowWatcher
