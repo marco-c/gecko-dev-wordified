@@ -804,9 +804,10 @@ StackFrame
 :
 pcQuadratic
 (
-JSContext
-*
-cx
+const
+ContextStack
+&
+stack
 StackFrame
 *
 next
@@ -834,9 +835,6 @@ StackSegment
 &
 seg
 =
-cx
--
->
 stack
 .
 space

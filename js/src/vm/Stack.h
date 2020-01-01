@@ -3906,6 +3906,9 @@ fp
 pcQuadratic
 (
 cx
+-
+>
+stack
 )
 ;
 *
@@ -3981,9 +3984,10 @@ jsbytecode
 *
 pcQuadratic
 (
-JSContext
-*
-cx
+const
+ContextStack
+&
+stack
 StackFrame
 *
 next

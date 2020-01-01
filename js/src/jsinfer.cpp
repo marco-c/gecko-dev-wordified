@@ -19883,6 +19883,9 @@ fp
 pcQuadratic
 (
 cx
+-
+>
+stack
 )
 ;
 }
@@ -31619,6 +31622,10 @@ if
 (
 !
 script
+|
+|
+!
+pc
 )
 return
 ;

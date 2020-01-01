@@ -1195,6 +1195,9 @@ fp
 pcQuadratic
 (
 cx
+-
+>
+stack
 )
 ;
 JSScript
@@ -1561,6 +1564,9 @@ fp
 pcQuadratic
 (
 cx
+-
+>
+stack
 )
 ;
 JS_ASSERT
@@ -18023,6 +18029,9 @@ prev
 pcQuadratic
 (
 cx
+-
+>
+stack
 fp
 )
 )
