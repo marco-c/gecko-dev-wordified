@@ -14107,6 +14107,17 @@ false
 )
 ;
 }
+infoObject
+-
+>
+SharedState
+(
+)
+.
+NoteSocketCreated
+(
+)
+;
 return
 NS_OK
 ;
