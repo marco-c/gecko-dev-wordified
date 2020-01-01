@@ -327,15 +327,6 @@ valuetype
 )
 /
 /
-nsIDOMHTMLDirectoryElement
-NS_IMPL_BOOL_ATTR
-(
-HTMLSharedElement
-Compact
-compact
-)
-/
-/
 nsIDOMHTMLQuoteElement
 NS_IMPL_URI_ATTR
 (
