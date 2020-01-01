@@ -18092,6 +18092,17 @@ SetMatrix
 matrix
 )
 ;
+pattern
+-
+>
+SetExtend
+(
+gfxPattern
+:
+:
+EXTEND_PAD
+)
+;
 if
 (
 CurrentState
