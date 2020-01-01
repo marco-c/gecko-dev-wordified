@@ -803,7 +803,7 @@ yield
 ;
 expect
 =
-'
+/
 SyntaxError
 :
 yield
@@ -811,7 +811,7 @@ expression
 must
 be
 parenthesized
-'
+/
 ;
 try
 {
@@ -853,7 +853,7 @@ ex
 '
 ;
 }
-reportCompare
+reportMatch
 (
 expect
 actual
@@ -948,7 +948,7 @@ yield
 ;
 expect
 =
-'
+/
 SyntaxError
 :
 yield
@@ -956,7 +956,7 @@ expression
 must
 be
 parenthesized
-'
+/
 ;
 try
 {
@@ -999,7 +999,7 @@ ex
 '
 ;
 }
-reportCompare
+reportMatch
 (
 expect
 actual

@@ -730,7 +730,7 @@ summary
 ;
 expect
 =
-'
+/
 TypeError
 :
 anonymous
@@ -739,7 +739,7 @@ function
 returns
 a
 value
-'
+/
 ;
 try
 {
@@ -788,7 +788,7 @@ ex
 '
 ;
 }
-reportCompare
+reportMatch
 (
 expect
 actual
