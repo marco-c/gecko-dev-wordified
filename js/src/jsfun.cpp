@@ -3967,7 +3967,7 @@ if
 env
 )
 return
-JS_FALSE
+NULL
 ;
 /
 *
@@ -4081,7 +4081,7 @@ NULL
 )
 {
 return
-JS_FALSE
+NULL
 ;
 }
 fp
