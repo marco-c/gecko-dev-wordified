@@ -18470,7 +18470,7 @@ nsIAccessibleRelation
 relation
 =
 new
-nsAccessibleRelation
+nsAccessibleRelationWrap
 (
 relType
 accessible

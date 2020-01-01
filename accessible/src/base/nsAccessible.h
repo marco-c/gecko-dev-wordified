@@ -503,7 +503,7 @@ h
 #
 include
 "
-nsIAccessibleRelation
+nsAccessibleRelationWrap
 .
 h
 "
