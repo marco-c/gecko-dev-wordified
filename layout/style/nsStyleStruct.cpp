@@ -12869,6 +12869,12 @@ aSource
 .
 mWordWrap
 )
+mTabSize
+(
+aSource
+.
+mTabSize
+)
 mLetterSpacing
 (
 aSource
@@ -12898,12 +12904,6 @@ mTextShadow
 aSource
 .
 mTextShadow
-)
-mTabSize
-(
-aSource
-.
-mTabSize
 )
 {
 MOZ_COUNT_CTOR
