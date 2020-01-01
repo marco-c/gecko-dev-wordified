@@ -3580,6 +3580,16 @@ menulisttextfield
 )
 CSS_KEY
 (
+meterbar
+meterbar
+)
+CSS_KEY
+(
+meterchunk
+meterchunk
+)
+CSS_KEY
+(
 scale
 -
 horizontal
