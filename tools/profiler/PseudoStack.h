@@ -874,6 +874,10 @@ mStartJSSampling
 (
 false
 )
+mPrivacyMode
+(
+false
+)
 {
 }
 void
@@ -1673,6 +1677,9 @@ when
 possible
 bool
 mStartJSSampling
+;
+bool
+mPrivacyMode
 ;
 }
 ;
