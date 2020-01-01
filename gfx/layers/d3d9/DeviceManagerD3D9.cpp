@@ -1074,6 +1074,10 @@ DeviceManagerD3D9
 (
 )
 :
+mDeviceResetCount
+(
+0
+)
 mHasDynamicTextures
 (
 false
@@ -2847,6 +2851,10 @@ OnDeviceManagerDestroy
 this
 )
 ;
++
++
+mDeviceResetCount
+;
 return
 false
 ;
@@ -2990,6 +2998,10 @@ Reset
 &
 pp
 )
+;
++
++
+mDeviceResetCount
 ;
 if
 (

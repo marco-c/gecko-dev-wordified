@@ -996,6 +996,15 @@ return
 mDeviceWasRemoved
 ;
 }
+PRUint32
+GetDeviceResetCount
+(
+)
+{
+return
+mDeviceResetCount
+;
+}
 /
 *
 *
@@ -1402,6 +1411,9 @@ with
 /
 HWND
 mFocusWnd
+;
+PRUint32
+mDeviceResetCount
 ;
 /
 *
