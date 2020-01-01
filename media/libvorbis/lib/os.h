@@ -643,6 +643,13 @@ defined
 (
 __BEOS__
 )
+&
+&
+!
+defined
+(
+WINCE
+)
 #
 define
 VORBIS_FPU_CONTROL
@@ -940,6 +947,13 @@ __GNUC__
 defined
 (
 __BORLANDC__
+)
+&
+&
+!
+defined
+(
+WINCE
 )
 #
 define
