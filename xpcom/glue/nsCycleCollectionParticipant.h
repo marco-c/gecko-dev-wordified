@@ -6128,7 +6128,7 @@ tmp
 >
 mRefCnt
 .
-IsPurple
+HasPurpleBufferEntry
 (
 )
 )
@@ -6139,7 +6139,7 @@ tmp
 >
 mRefCnt
 .
-unmarkPurple
+ReleasePurpleBufferEntry
 (
 )
 ;
