@@ -565,13 +565,6 @@ h
 #
 include
 "
-jsbuiltins
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h
@@ -11499,11 +11492,6 @@ HEAVYWEIGHT
 SHOW_FLAG
 (
 EXPR_CLOSURE
-)
-;
-SHOW_FLAG
-(
-TRCINFO
 )
 ;
 #
