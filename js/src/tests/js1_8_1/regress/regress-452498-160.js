@@ -815,6 +815,8 @@ function
 (
 )
 {
+this
+.
 watch
 (
 \

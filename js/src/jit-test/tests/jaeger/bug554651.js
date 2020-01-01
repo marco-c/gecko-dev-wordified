@@ -19,6 +19,8 @@ try
 Function
 (
 "
+this
+.
 __defineGetter__
 (
 \

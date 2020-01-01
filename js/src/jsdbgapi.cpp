@@ -4731,7 +4731,11 @@ hasSetterValue
 ExternalInvoke
 (
 cx
+ObjectValue
+(
+*
 obj
+)
 ObjectValue
 (
 *
@@ -4806,10 +4810,14 @@ JSObject
 *
 obj
 =
-ComputeThisFromVp
+ToObject
 (
 cx
+&
 vp
+[
+1
+]
 )
 ;
 if

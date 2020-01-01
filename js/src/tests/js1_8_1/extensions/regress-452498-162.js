@@ -582,6 +582,8 @@ jit
 true
 )
 ;
+this
+.
 __defineGetter__
 (
 "

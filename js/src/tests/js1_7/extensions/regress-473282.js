@@ -555,6 +555,8 @@ b
 substring
 )
 ;
+this
+.
 __defineGetter__
 (
 "

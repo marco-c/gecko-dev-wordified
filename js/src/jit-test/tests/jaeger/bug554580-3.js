@@ -46,6 +46,8 @@ else
 \
 n
 \
+this
+.
 __defineSetter__
 (
 \

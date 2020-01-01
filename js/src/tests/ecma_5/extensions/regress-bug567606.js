@@ -23,6 +23,11 @@ licenses
 /
 publicdomain
 /
+var
+global
+=
+this
+;
 (
 function
 (
@@ -55,6 +60,8 @@ b
 {
 configurable
 :
+global
+.
 __defineSetter__
 (
 "

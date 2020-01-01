@@ -19,6 +19,8 @@ count
 =
 0
 ;
+this
+.
 watch
 (
 "
