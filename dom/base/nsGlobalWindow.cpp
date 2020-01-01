@@ -30405,6 +30405,7 @@ cv
 >
 PermitUnload
 (
+PR_FALSE
 &
 canClose
 )
