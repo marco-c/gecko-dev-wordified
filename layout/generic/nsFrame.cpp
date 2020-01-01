@@ -42749,6 +42749,18 @@ bounds
 )
 ;
 }
+if
+(
+!
+nsLayoutUtils
+:
+:
+IsPopup
+(
+this
+)
+)
+{
 /
 /
 Include
@@ -42810,6 +42822,7 @@ so
 marginBounds
 )
 ;
+}
 }
 /
 /
