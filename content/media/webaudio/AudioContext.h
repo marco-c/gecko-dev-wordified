@@ -366,6 +366,16 @@ Shutdown
 )
 ;
 }
+void
+Suspend
+(
+)
+;
+void
+Resume
+(
+)
+;
 virtual
 JSObject
 *
