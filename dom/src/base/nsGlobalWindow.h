@@ -4595,6 +4595,12 @@ void
 >
 mCachedXBLPrototypeHandlers
 ;
+nsCOMPtr
+<
+nsIDocument
+>
+mSuspendedDoc
+;
 friend
 class
 nsDOMScriptableHelper
