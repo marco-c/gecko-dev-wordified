@@ -726,6 +726,17 @@ disposeGLContext
 {
 if
 (
+mEGL
+=
+=
+null
+)
+{
+return
+;
+}
+if
+(
 !
 mEGL
 .
