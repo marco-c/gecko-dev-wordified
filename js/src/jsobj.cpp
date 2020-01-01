@@ -25510,6 +25510,12 @@ cx
 realloc
 (
 slots
+oldcap
+*
+sizeof
+(
+Value
+)
 actualCapacity
 *
 sizeof
