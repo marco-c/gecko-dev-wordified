@@ -299,7 +299,7 @@ IMPL_IUNKNOWN_INHERITED1
 (
 ARIAGridAccessibleWrap
 AccessibleWrap
-CAccessibleTable
+ia2AccessibleTable
 )
 /
 /
@@ -473,5 +473,5 @@ IMPL_IUNKNOWN_INHERITED1
 (
 ARIAGridCellAccessibleWrap
 HyperTextAccessibleWrap
-CAccessibleTableCell
+ia2AccessibleTableCell
 )

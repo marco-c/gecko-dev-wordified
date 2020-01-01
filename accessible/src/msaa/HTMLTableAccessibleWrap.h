@@ -125,14 +125,14 @@ h
 #
 include
 "
-CAccessibleTable
+ia2AccessibleTable
 .
 h
 "
 #
 include
 "
-CAccessibleTableCell
+ia2AccessibleTableCell
 .
 h
 "
@@ -166,7 +166,7 @@ HTMLTableAccessibleWrap
 public
 HTMLTableAccessible
 public
-CAccessibleTable
+ia2AccessibleTable
 {
 public
 :
@@ -219,7 +219,7 @@ HTMLTableCellAccessibleWrap
 public
 HTMLTableCellAccessible
 public
-CAccessibleTableCell
+ia2AccessibleTableCell
 {
 public
 :
@@ -272,7 +272,7 @@ HTMLTableHeaderCellAccessibleWrap
 public
 HTMLTableHeaderCellAccessible
 public
-CAccessibleTableCell
+ia2AccessibleTableCell
 {
 public
 :

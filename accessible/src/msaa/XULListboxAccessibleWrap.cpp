@@ -301,7 +301,7 @@ XULListboxAccessibleWrap
 )
 IMPL_IUNKNOWN_QUERY_CLASS_COND
 (
-CAccessibleTable
+ia2AccessibleTable
 IsMulticolumn
 (
 )
@@ -504,5 +504,5 @@ IMPL_IUNKNOWN_INHERITED1
 (
 XULListCellAccessibleWrap
 HyperTextAccessibleWrap
-CAccessibleTableCell
+ia2AccessibleTableCell
 )
