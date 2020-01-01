@@ -1238,9 +1238,11 @@ false
 ;
 if
 (
+(
 flags
 &
 JSITER_KEYVALUE
+)
 &
 &
 !
