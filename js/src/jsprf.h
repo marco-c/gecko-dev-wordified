@@ -990,7 +990,7 @@ occurs
 *
 /
 typedef
-JSIntn
+int
 (
 *
 JSStuffFunc
