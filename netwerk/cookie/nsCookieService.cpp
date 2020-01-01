@@ -2883,6 +2883,7 @@ define
 COOKIE_LOGEVICTED
 (
 a
+b
 )
 PR_BEGIN_MACRO
 /
