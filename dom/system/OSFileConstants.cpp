@@ -3502,7 +3502,6 @@ JS_SetProperty
 cx
 aObject
 aProperty
-&
 valValue
 )
 ;
@@ -3981,7 +3980,6 @@ objSys
 "
 Name
 "
-&
 valVersion
 )
 )
@@ -4023,7 +4021,6 @@ objSys
 "
 DEBUG
 "
-&
 valDebug
 )
 )

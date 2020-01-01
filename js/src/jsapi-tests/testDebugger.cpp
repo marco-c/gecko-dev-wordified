@@ -1247,7 +1247,6 @@ global
 "
 debuggee
 "
-&
 v
 )
 )
@@ -1512,7 +1511,6 @@ global
 "
 g
 "
-&
 v
 )
 )

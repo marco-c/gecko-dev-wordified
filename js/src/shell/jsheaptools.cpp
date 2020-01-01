@@ -3752,7 +3752,6 @@ JS_SetProperty
 context
 result
 pathName
-&
 v
 )
 ;

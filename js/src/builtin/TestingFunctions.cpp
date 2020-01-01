@@ -292,7 +292,6 @@ rooting
 -
 analysis
 "
-&
 value
 )
 )
@@ -332,7 +331,6 @@ exact
 -
 rooting
 "
-&
 value
 )
 )
@@ -370,7 +368,6 @@ info
 "
 debug
 "
-&
 value
 )
 )
@@ -410,7 +407,6 @@ has
 -
 ctypes
 "
-&
 value
 )
 )
@@ -448,7 +444,6 @@ info
 "
 x86
 "
-&
 value
 )
 )
@@ -486,7 +481,6 @@ info
 "
 x64
 "
-&
 value
 )
 )
@@ -524,7 +518,6 @@ info
 "
 asan
 "
-&
 value
 )
 )
@@ -564,7 +557,6 @@ has
 -
 gczeal
 "
-&
 value
 )
 )
@@ -602,7 +594,6 @@ info
 "
 threadsafe
 "
-&
 value
 )
 )
@@ -642,7 +633,6 @@ more
 -
 deterministic
 "
-&
 value
 )
 )
@@ -680,7 +670,6 @@ info
 "
 profiling
 "
-&
 value
 )
 )
@@ -718,7 +707,6 @@ info
 "
 dtrace
 "
-&
 value
 )
 )
@@ -760,7 +748,6 @@ jscalls
 -
 api
 "
-&
 value
 )
 )
@@ -800,7 +787,6 @@ incremental
 -
 gc
 "
-&
 value
 )
 )
@@ -840,7 +826,6 @@ generational
 -
 gc
 "
-&
 value
 )
 )
@@ -878,7 +863,6 @@ info
 "
 valgrind
 "
-&
 value
 )
 )
@@ -918,7 +902,6 @@ oom
 -
 backtraces
 "
-&
 value
 )
 )
@@ -956,7 +939,6 @@ info
 "
 parallelJS
 "
-&
 value
 )
 )
@@ -996,7 +978,6 @@ binary
 -
 data
 "
-&
 value
 )
 )

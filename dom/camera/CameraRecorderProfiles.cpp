@@ -272,7 +272,6 @@ o
 "
 codec
 "
-&
 v
 )
 )
@@ -307,7 +306,6 @@ o
 "
 bitrate
 "
-&
 v
 )
 )
@@ -343,7 +341,6 @@ o
 "
 framerate
 "
-&
 v
 )
 )
@@ -379,7 +376,6 @@ o
 "
 width
 "
-&
 v
 )
 )
@@ -415,7 +411,6 @@ o
 "
 height
 "
-&
 v
 )
 )
@@ -625,7 +620,6 @@ o
 "
 codec
 "
-&
 v
 )
 )
@@ -660,7 +654,6 @@ o
 "
 bitrate
 "
-&
 v
 )
 )
@@ -696,7 +689,6 @@ o
 "
 samplerate
 "
-&
 v
 )
 )
@@ -732,7 +724,6 @@ o
 "
 channels
 "
-&
 v
 )
 )
@@ -1107,7 +1098,6 @@ JS_SetProperty
 aCx
 o
 profileName
-&
 v
 )
 )

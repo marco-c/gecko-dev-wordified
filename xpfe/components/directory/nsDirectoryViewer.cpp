@@ -1638,7 +1638,6 @@ global
 "
 HTTPIndex
 "
-&
 jslistener
 )
 ;

@@ -4146,7 +4146,6 @@ NPIdentifierToJSId
 (
 id
 )
-&
 v
 )
 ;
