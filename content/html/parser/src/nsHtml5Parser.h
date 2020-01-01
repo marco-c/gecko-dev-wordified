@@ -1298,6 +1298,8 @@ nsIAtom
 aContextLocalName
 PRInt32
 aContextNamespace
+PRBool
+aQuirks
 )
 ;
 /

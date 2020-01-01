@@ -2837,6 +2837,8 @@ nsIAtom
 aContextLocalName
 PRInt32
 aContextNamespace
+PRBool
+aQuirks
 )
 {
 nsCOMPtr
@@ -2871,6 +2873,7 @@ setFragmentContext
 aContextLocalName
 aContextNamespace
 target
+aQuirks
 )
 ;
 mFragmentMode

@@ -19849,6 +19849,17 @@ contextAsContent
 GetNameSpaceID
 (
 )
+(
+document
+-
+>
+GetCompatibilityMode
+(
+)
+=
+=
+eCompatibility_NavQuirks
+)
 )
 ;
 NS_ADDREF
