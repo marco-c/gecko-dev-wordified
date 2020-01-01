@@ -909,8 +909,7 @@ indent
 )
 ;
 virtual
-RegExpShared
-*
+bool
 regexp_toShared
 (
 JSContext
@@ -919,6 +918,9 @@ cx
 JSObject
 *
 proxy
+RegExpGuard
+*
+g
 )
 ;
 virtual
@@ -1508,8 +1510,7 @@ indent
 )
 ;
 static
-RegExpShared
-*
+bool
 regexp_toShared
 (
 JSContext
@@ -1518,6 +1519,9 @@ cx
 JSObject
 *
 proxy
+RegExpGuard
+*
+g
 )
 ;
 static

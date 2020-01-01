@@ -946,8 +946,7 @@ indent
 MOZ_OVERRIDE
 ;
 virtual
-RegExpShared
-*
+bool
 regexp_toShared
 (
 JSContext
@@ -956,6 +955,9 @@ cx
 JSObject
 *
 proxy
+RegExpGuard
+*
+g
 )
 MOZ_OVERRIDE
 ;
@@ -1703,8 +1705,7 @@ cx
 MOZ_OVERRIDE
 ;
 virtual
-RegExpShared
-*
+bool
 regexp_toShared
 (
 JSContext
@@ -1713,6 +1714,9 @@ cx
 JSObject
 *
 proxy
+RegExpGuard
+*
+g
 )
 MOZ_OVERRIDE
 ;

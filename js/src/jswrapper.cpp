@@ -2234,8 +2234,7 @@ return
 str
 ;
 }
-RegExpShared
-*
+bool
 Wrapper
 :
 :
@@ -2247,6 +2246,9 @@ cx
 JSObject
 *
 wrapper
+RegExpGuard
+*
+g
 )
 {
 return
@@ -2263,6 +2265,7 @@ asRegExp
 getShared
 (
 cx
+g
 )
 ;
 }
@@ -5601,8 +5604,7 @@ template
 class
 Base
 >
-RegExpShared
-*
+bool
 SecurityWrapper
 <
 Base
@@ -5617,6 +5619,9 @@ cx
 JSObject
 *
 obj
+RegExpGuard
+*
+g
 )
 {
 return
@@ -5627,6 +5632,7 @@ regexp_toShared
 (
 cx
 obj
+g
 )
 ;
 }
