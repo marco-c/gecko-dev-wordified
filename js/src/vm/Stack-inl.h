@@ -896,16 +896,6 @@ hasHookData
 )
 )
 ;
-JS_ASSERT
-(
-annotation
-(
-)
-=
-=
-NULL
-)
-;
 initVarsToUndefined
 (
 )
