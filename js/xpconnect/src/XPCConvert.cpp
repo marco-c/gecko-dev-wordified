@@ -6830,6 +6830,10 @@ if
 (
 GetISupportsFromJSObject
 (
+inner
+?
+inner
+:
 src
 &
 iface
