@@ -28,11 +28,11 @@ libpng
 .
 4
 .
-2
+6
 [
 April
-29
-2010
+10
+2011
 ]
 *
 Copyright
@@ -41,7 +41,7 @@ c
 )
 1998
 -
-2010
+2011
 Glenn
 Randers
 -
@@ -3937,7 +3937,7 @@ png_voidp
 PNGAPI
 png_get_user_transform_ptr
 (
-png_structp
+png_const_structp
 png_ptr
 )
 {

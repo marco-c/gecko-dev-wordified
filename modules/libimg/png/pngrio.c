@@ -18,11 +18,11 @@ libpng
 .
 4
 .
-1
+6
 [
-February
-25
-2010
+January
+14
+2011
 ]
 *
 Copyright
@@ -31,7 +31,7 @@ c
 )
 1998
 -
-2010
+2011
 Glenn
 Randers
 -

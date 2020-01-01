@@ -1134,6 +1134,10 @@ v
 break
 ;
 }
+default
+:
+break
+;
 }
 row_info
 -
