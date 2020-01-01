@@ -1148,7 +1148,10 @@ in
 layer
 coordinates
 .
-gfxPoint
+gfx
+:
+:
+Point
 metricsScrollOffset
 =
 aMetrics
@@ -5316,7 +5319,10 @@ mPanZoomController
 >
 UpdateCompositionBounds
 (
-nsIntRect
+gfx
+:
+:
+IntRect
 (
 0
 0
