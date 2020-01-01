@@ -367,6 +367,13 @@ aStatus
 )
 ;
 virtual
+bool
+UpdateOverflow
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 void
 BuildDisplayList
 (
