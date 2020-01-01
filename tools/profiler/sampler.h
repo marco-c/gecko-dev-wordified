@@ -957,6 +957,8 @@ SAMPLER_START
 (
 entries
 interval
+features
+featureCount
 )
 #
 define
@@ -999,6 +1001,12 @@ NULL
 #
 define
 SAMPLER_GET_RESPONSIVENESS
+(
+)
+NULL
+#
+define
+SAMPLER_GET_FEATURES
 (
 )
 NULL
