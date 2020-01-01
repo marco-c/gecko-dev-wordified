@@ -1225,6 +1225,7 @@ mBgPosX
 /
 percent
 coord
+calc
 none
 nsStyleCoord
 mBgPosY
@@ -1233,6 +1234,7 @@ mBgPosY
 /
 percent
 coord
+calc
 none
 nsStyleCoord
 mAngle
@@ -9039,7 +9041,7 @@ reset
 ]
 percent
 coord
-.
+calc
 nsAutoTArray
 <
 nsTransition
