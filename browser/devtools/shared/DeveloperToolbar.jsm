@@ -1160,8 +1160,15 @@ contentDocument
 window
 :
 contentDocument
+!
+=
+null
+?
+contentDocument
 .
 defaultView
+:
+undefined
 }
 ;
 Object
