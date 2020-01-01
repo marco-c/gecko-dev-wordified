@@ -964,7 +964,7 @@ thing
 )
 ;
 extern
-JSBool
+void
 js_UnlockGCThingRT
 (
 JSRuntime
@@ -976,12 +976,9 @@ thing
 )
 ;
 extern
-JSBool
+bool
 js_IsAboutToBeFinalized
 (
-JSContext
-*
-cx
 void
 *
 thing
@@ -2342,14 +2339,14 @@ functions
 *
 /
 uint32
-untraced
+unmarked
 ;
 /
 *
 number
 of
 times
-tracing
+marking
 of
 GC
 thing
@@ -2370,7 +2367,7 @@ stack
 ifdef
 DEBUG
 uint32
-maxuntraced
+maxunmarked
 ;
 /
 *
@@ -2381,7 +2378,7 @@ things
 with
 children
 to
-trace
+mark
 later
 *
 /

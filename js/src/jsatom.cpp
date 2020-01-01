@@ -3775,16 +3775,6 @@ TO_ATOM_ENTRY
 hdr
 )
 ;
-JSContext
-*
-cx
-=
-(
-JSContext
-*
-)
-arg
-;
 /
 *
 Remove
@@ -3837,7 +3827,6 @@ JS_ASSERT
 !
 js_IsAboutToBeFinalized
 (
-cx
 ATOM_ENTRY_KEY
 (
 entry
@@ -3851,7 +3840,6 @@ if
 (
 js_IsAboutToBeFinalized
 (
-cx
 ATOM_ENTRY_KEY
 (
 entry
@@ -3911,7 +3899,7 @@ state
 >
 doubleAtoms
 js_atom_sweeper
-cx
+NULL
 )
 ;
 JS_DHashTableEnumerate
@@ -3922,7 +3910,7 @@ state
 >
 stringAtoms
 js_atom_sweeper
-cx
+NULL
 )
 ;
 /
