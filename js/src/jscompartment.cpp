@@ -5315,6 +5315,7 @@ site
 scriptObject
 |
 |
+!
 IsAboutToBeFinalized
 (
 cx
