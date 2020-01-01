@@ -2527,11 +2527,6 @@ blank
 )
 if
 (
-!
-needUnquote
-&
-&
-(
 caseB
 |
 |
@@ -2540,7 +2535,6 @@ caseCorDStart
 &
 &
 acceptContinuations
-)
 )
 )
 {
