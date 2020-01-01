@@ -2093,6 +2093,15 @@ mTimeouts
 ;
 /
 /
+QoS
+setting
+for
+socket
+PRUint8
+mQoSBits
+;
+/
+/
 /
 /
 mFD
