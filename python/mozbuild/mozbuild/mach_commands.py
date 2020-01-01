@@ -2039,9 +2039,10 @@ gtest_filter
 '
 default
 =
-'
+b
+"
 *
-'
+"
 nargs
 =
 '
