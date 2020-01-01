@@ -208,13 +208,11 @@ download
 AVCheckPolicyState
 CheckPolicy
 (
-const
-nsACString
-&
+nsIURI
+*
 aSource
-const
-nsACString
-&
+nsIURI
+*
 aTarget
 )
 ;
@@ -439,6 +437,9 @@ ftp
 download
 PRBool
 mIsHttpDownload
+;
+PRBool
+mSkipSource
 ;
 PRBool
 mIsReadOnlyRequest
