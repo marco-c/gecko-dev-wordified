@@ -526,6 +526,8 @@ nsIPermissionManager
 remove
 (
 uri
+.
+host
 permission
 )
 ;
