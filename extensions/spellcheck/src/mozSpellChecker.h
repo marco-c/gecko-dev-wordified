@@ -718,12 +718,6 @@ mSpellCheckingEngine
 PRBool
 mFromStart
 ;
-nsTArray
-<
-nsString
->
-mIgnoreList
-;
 nsresult
 SetupDoc
 (
