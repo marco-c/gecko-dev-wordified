@@ -595,12 +595,6 @@ RenderFrameChild
 :
 AllocPLayers
 (
-LayerManager
-:
-:
-LayersBackend
-*
-aBackendType
 )
 {
 return
