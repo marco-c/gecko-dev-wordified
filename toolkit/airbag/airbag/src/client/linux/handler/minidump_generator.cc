@@ -323,9 +323,7 @@ h
 #
 include
 <
-asm
-/
-sigcontext
+signal
 .
 h
 >
