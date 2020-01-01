@@ -136,6 +136,13 @@ imgRequestProxy
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 namespace
 mozilla
 {
@@ -916,7 +923,7 @@ aError
 }
 protected
 :
-nsIntPoint
+CSSIntPoint
 GetXY
 (
 )
