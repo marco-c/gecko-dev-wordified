@@ -6108,7 +6108,7 @@ JS_FALSE
 )
 {
 return
-JS_FALSE
+nsnull
 ;
 }
 JSAutoTempValueRooter
