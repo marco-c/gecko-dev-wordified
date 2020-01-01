@@ -14832,7 +14832,13 @@ rv
 ;
 if
 (
+static_cast
+<
+int8_t
+>
+(
 docIsDirty
+)
 =
 =
 mDocDirtyState
@@ -14842,9 +14848,6 @@ NS_OK
 ;
 mDocDirtyState
 =
-(
-int8_t
-)
 docIsDirty
 ;
 for

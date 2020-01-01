@@ -1073,7 +1073,13 @@ SelectionIsCollapsed
 ;
 if
 (
+static_cast
+<
+int8_t
+>
+(
 isCollapsed
+)
 !
 =
 mSelectionCollapsed
@@ -1149,7 +1155,13 @@ if
 mDirtyState
 !
 =
+static_cast
+<
+int8_t
+>
+(
 aNowDirty
+)
 )
 {
 UpdateCommandGroup
