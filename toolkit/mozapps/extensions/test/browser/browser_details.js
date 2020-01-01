@@ -1608,6 +1608,16 @@ automatic
 "
 )
 ;
+/
+/
+XXX
+Disabled
+due
+to
+bug
+596172
+/
+/
 is_element_hidden
 (
 get
