@@ -139,8 +139,10 @@ nsIFrame
 *
 FindFrameTargetedByInputEvent
 (
-nsEventStructType
-aEventStructType
+const
+nsGUIEvent
+*
+aEvent
 nsIFrame
 *
 aRootFrame
