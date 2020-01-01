@@ -454,13 +454,6 @@ BLOCK
 #
 include
 "
-nsISVGLength
-.
-h
-"
-#
-include
-"
 nsSVGLength2
 .
 h
