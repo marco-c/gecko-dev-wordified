@@ -740,9 +740,6 @@ a
 CSP
 policy
 object
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsINode
@@ -999,9 +996,6 @@ a
 CSP
 policy
 object
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsINode
