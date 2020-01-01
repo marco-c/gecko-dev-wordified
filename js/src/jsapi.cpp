@@ -3038,7 +3038,6 @@ js_NewDouble
 (
 cx
 d
-0
 )
 ;
 ok
@@ -10076,7 +10075,6 @@ js_NewDouble
 (
 cx
 d
-0
 )
 ;
 }
@@ -10500,9 +10498,12 @@ cx
 ;
 ok
 =
-js_LockGCThing
+js_LockGCThingRT
 (
 cx
+-
+>
+runtime
 thing
 )
 ;
@@ -10511,12 +10512,9 @@ if
 !
 ok
 )
-JS_ReportErrorNumber
+JS_ReportOutOfMemory
 (
 cx
-js_GetErrorMessage
-NULL
-JSMSG_CANT_LOCK
 )
 ;
 return
@@ -16714,7 +16712,7 @@ SCOPE_SET_SEALED
 scope
 )
 ;
-SCOPE_GENERATE_PCTYPE
+SCOPE_MAKE_UNIQUE_SHAPE
 (
 cx
 scope
