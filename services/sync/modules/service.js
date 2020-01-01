@@ -4307,10 +4307,6 @@ uri
 put
 (
 privkey
-.
-serialize
-(
-)
 )
 ;
 if
@@ -8945,10 +8941,6 @@ uri
 put
 (
 meta
-.
-serialize
-(
-)
 )
 ;
 if

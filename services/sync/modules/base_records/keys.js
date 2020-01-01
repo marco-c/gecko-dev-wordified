@@ -1241,10 +1241,6 @@ uri
 put
 (
 key
-.
-serialize
-(
-)
 )
 ;
 }
