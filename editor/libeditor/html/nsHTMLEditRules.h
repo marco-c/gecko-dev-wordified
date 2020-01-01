@@ -2053,7 +2053,7 @@ ReapplyCachedStyles
 (
 )
 ;
-nsresult
+void
 ClearCachedStyles
 (
 )
