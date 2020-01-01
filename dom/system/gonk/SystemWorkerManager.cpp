@@ -927,7 +927,7 @@ JSObject
 *
 workerGlobal
 =
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 aCx
 )
@@ -1541,7 +1541,7 @@ JSObject
 *
 workerGlobal
 =
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 aCx
 )
@@ -1699,7 +1699,7 @@ JSObject
 *
 obj
 =
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 aCx
 )

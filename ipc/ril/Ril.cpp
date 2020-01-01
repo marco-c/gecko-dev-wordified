@@ -330,7 +330,7 @@ JSObject
 *
 obj
 =
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 aCx
 )
