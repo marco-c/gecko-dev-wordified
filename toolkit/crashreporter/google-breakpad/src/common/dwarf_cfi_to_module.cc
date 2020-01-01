@@ -420,9 +420,9 @@ i
 <
 size
 ;
++
++
 i
-+
-+
 )
 {
 names
@@ -430,7 +430,7 @@ names
 i
 ]
 =
-toUniqueString
+ToUniqueString
 (
 strings
 [
@@ -1551,7 +1551,7 @@ reg
 )
 ;
 return
-toUniqueString
+ToUniqueString
 (
 buf
 )
@@ -2147,7 +2147,7 @@ c_str
 (
 )
 offset
-fromUniqueString
+FromUniqueString
 (
 reg
 )
@@ -2240,7 +2240,7 @@ c_str
 (
 )
 offset
-fromUniqueString
+FromUniqueString
 (
 reg
 )

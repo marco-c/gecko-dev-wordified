@@ -545,13 +545,13 @@ and
 esp
 .
 {
-toUniqueString
+ToUniqueString
 (
 "
 eip
 "
 )
-toUniqueString
+ToUniqueString
 (
 "
 .
@@ -570,13 +570,13 @@ MDRawContextX86
 eip
 }
 {
-toUniqueString
+ToUniqueString
 (
 "
 esp
 "
 )
-toUniqueString
+ToUniqueString
 (
 "
 .
@@ -595,7 +595,7 @@ MDRawContextX86
 esp
 }
 {
-toUniqueString
+ToUniqueString
 (
 "
 ebp
@@ -614,7 +614,7 @@ MDRawContextX86
 ebp
 }
 {
-toUniqueString
+ToUniqueString
 (
 "
 eax
@@ -633,7 +633,7 @@ MDRawContextX86
 eax
 }
 {
-toUniqueString
+ToUniqueString
 (
 "
 ebx
@@ -652,7 +652,7 @@ MDRawContextX86
 ebx
 }
 {
-toUniqueString
+ToUniqueString
 (
 "
 ecx
@@ -671,7 +671,7 @@ MDRawContextX86
 ecx
 }
 {
-toUniqueString
+ToUniqueString
 (
 "
 edx
@@ -690,7 +690,7 @@ MDRawContextX86
 edx
 }
 {
-toUniqueString
+ToUniqueString
 (
 "
 esi
@@ -709,7 +709,7 @@ MDRawContextX86
 esi
 }
 {
-toUniqueString
+ToUniqueString
 (
 "
 edi
