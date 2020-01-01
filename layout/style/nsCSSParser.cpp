@@ -14293,6 +14293,11 @@ nsCSSPseudoElements
 :
 Type
 pseudoElementType
+=
+nsCSSPseudoElements
+:
+:
+ePseudo_NotPseudoElement
 ;
 nsSelectorParsingStatus
 parsingStatus
@@ -14353,9 +14358,6 @@ break
 }
 if
 (
-pseudoElement
-&
-&
 pseudoElementType
 =
 =
