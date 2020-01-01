@@ -4735,7 +4735,7 @@ mLen
 PRUint32
 centralOffset
 =
-1
+4
 ;
 if
 (
