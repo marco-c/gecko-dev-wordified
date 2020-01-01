@@ -729,10 +729,13 @@ return
 JS_NewNumberValue
 (
 cx
+jsdouble
+(
 p
 -
 >
 name
+)
 vp
 )
 ;
