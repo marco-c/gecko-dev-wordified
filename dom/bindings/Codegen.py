@@ -22659,6 +22659,12 @@ type
 isObject
 (
 )
+or
+type
+.
+isSpiderMonkeyInterface
+(
+)
 :
         
 #
@@ -23889,6 +23895,12 @@ if
 returnType
 .
 isObject
+(
+)
+or
+returnType
+.
+isSpiderMonkeyInterface
 (
 )
 :

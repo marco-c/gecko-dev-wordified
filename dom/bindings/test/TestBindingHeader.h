@@ -2373,6 +2373,14 @@ ErrorResult
 &
 )
 ;
+JSObject
+*
+ReceiveUint8Array
+(
+ErrorResult
+&
+)
+;
 /
 /
 String
