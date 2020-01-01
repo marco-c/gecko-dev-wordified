@@ -922,11 +922,6 @@ aOutput
 ;
 if
 (
-SupportsMediaStreams
-(
-)
-&
-&
 aDestination
 .
 mStream
