@@ -4968,6 +4968,9 @@ JSContext
 cx
 JSObject
 *
+receiver
+JSObject
+*
 obj
 JSObject
 *

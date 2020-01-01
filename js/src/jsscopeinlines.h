@@ -1663,6 +1663,9 @@ JSContext
 cx
 JSObject
 *
+receiver
+JSObject
+*
 obj
 JSObject
 *
@@ -1728,7 +1731,7 @@ js
 ExternalGetOrSet
 (
 cx
-obj
+receiver
 id
 fval
 JSACC_READ
