@@ -416,6 +416,8 @@ cpi
 MACROBLOCK
 *
 x
+int
+ok_to_skip
 )
 ;
 extern

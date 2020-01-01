@@ -595,9 +595,6 @@ Exports
 *
 *
 /
-#
-ifndef
-VPX_NO_GLOBALS
 void
 (
 *
@@ -1106,17 +1103,6 @@ dest_width
 =
 0
 ;
-#
-else
-#
-include
-"
-vpxscale_nofp
-.
-h
-"
-#
-endif
 typedef
 struct
 {

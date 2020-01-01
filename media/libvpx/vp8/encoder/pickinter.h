@@ -94,9 +94,7 @@ __INC_PICKINTER_H
 #
 include
 "
-vpx_ports
-/
-config
+vpx_config
 .
 h
 "
@@ -134,6 +132,10 @@ returndistortion
 int
 *
 returnintra
+int
+mb_row
+int
+mb_col
 )
 ;
 extern

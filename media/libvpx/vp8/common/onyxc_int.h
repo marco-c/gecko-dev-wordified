@@ -145,6 +145,13 @@ recon
 h
 "
 #
+include
+"
+variance
+.
+h
+"
+#
 if
 CONFIG_POSTPROC
 #
@@ -156,6 +163,13 @@ h
 "
 #
 endif
+#
+include
+"
+dequantize
+.
+h
+"
 /
 *
 #
@@ -359,6 +373,9 @@ VP8_COMMON_RTCD
 #
 if
 CONFIG_RUNTIME_CPU_DETECT
+vp8_dequant_rtcd_vtable_t
+dequant
+;
 vp8_idct_rtcd_vtable_t
 idct
 ;
@@ -370,6 +387,9 @@ subpix
 ;
 vp8_loopfilter_rtcd_vtable_t
 loopfilter
+;
+vp8_variance_rtcd_vtable_t
+variance
 ;
 #
 if
@@ -409,7 +429,7 @@ Y1dequant
 QINDEX_RANGE
 ]
 [
-16
+2
 ]
 )
 ;
@@ -422,7 +442,7 @@ Y2dequant
 QINDEX_RANGE
 ]
 [
-16
+2
 ]
 )
 ;
@@ -435,7 +455,7 @@ UVdequant
 QINDEX_RANGE
 ]
 [
-16
+2
 ]
 )
 ;
@@ -484,6 +504,12 @@ post_proc_buffer
 ;
 YV12_BUFFER_CONFIG
 temp_scale_frame
+;
+YV12_BUFFER_CONFIG
+post_proc_buffer_int
+;
+int
+post_proc_buffer_int_used
 ;
 FRAME_TYPE
 last_frame_type

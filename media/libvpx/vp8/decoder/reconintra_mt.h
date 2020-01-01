@@ -187,6 +187,8 @@ char
 *
 predictor
 int
+stride
+int
 mb_row
 int
 mb_col

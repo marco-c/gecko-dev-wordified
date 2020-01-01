@@ -122,13 +122,6 @@ vpx_mem
 .
 h
 "
-#
-include
-"
-common_types
-.
-h
-"
 /
 *
 Only

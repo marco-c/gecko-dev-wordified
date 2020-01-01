@@ -1929,7 +1929,7 @@ dst_ybc
 ;
 }
 void
-vp8_yv12_copy_frame_yonly
+vp8_yv12_copy_y_c
 (
 YV12_BUFFER_CONFIG
 *
@@ -2008,9 +2008,4 @@ dst_ybc
 y_stride
 ;
 }
-extend_frame_borders_yonly
-(
-dst_ybc
-)
-;
 }
