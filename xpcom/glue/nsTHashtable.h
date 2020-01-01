@@ -555,12 +555,9 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_
-(
-TRUE
-or
-FALSE
-)
+true
+/
+false
 }
 ;
 *
