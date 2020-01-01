@@ -138,13 +138,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsIDocShellTreeItem
 .
 h

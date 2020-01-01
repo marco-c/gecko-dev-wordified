@@ -158,13 +158,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 prinit
 .
 h
@@ -2734,7 +2727,7 @@ aSize
 )
 {
 return
-PR_Malloc
+moz_malloc
 (
 aSize
 )
@@ -2754,7 +2747,7 @@ void
 aPtr
 )
 {
-PR_Free
+moz_free
 (
 aPtr
 )
