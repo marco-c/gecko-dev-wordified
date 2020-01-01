@@ -11716,7 +11716,7 @@ was
 marked
 black
 .
-uint32
+uint32_t
 mColor
 =
 wm
@@ -11734,7 +11734,7 @@ mColor
 :
 black
 ;
-uint32
+uint32_t
 kColor
 =
 wm
