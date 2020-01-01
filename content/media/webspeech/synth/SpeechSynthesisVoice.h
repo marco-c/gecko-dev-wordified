@@ -143,6 +143,13 @@ EnableSpeechSynthesisCheck
 .
 h
 "
+#
+include
+"
+nsISpeechService
+.
+h
+"
 struct
 JSContext
 ;
@@ -152,6 +159,9 @@ mozilla
 namespace
 dom
 {
+class
+nsSynthVoiceRegistry
+;
 class
 SpeechSynthesis
 ;
@@ -166,6 +176,10 @@ nsWrapperCache
 public
 EnableSpeechSynthesisCheck
 {
+friend
+class
+nsSynthVoiceRegistry
+;
 friend
 class
 SpeechSynthesis

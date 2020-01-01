@@ -274,6 +274,10 @@ Resume
 void
 OnEnd
 (
+const
+nsSpeechTask
+*
+aTask
 )
 ;
 void
@@ -311,6 +315,12 @@ SpeechSynthesisUtterance
 >
 >
 mSpeechQueue
+;
+nsRefPtr
+<
+nsSpeechTask
+>
+mCurrentTask
 ;
 nsRefPtrHashtable
 <
