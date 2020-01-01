@@ -505,7 +505,7 @@ WindowIdentifier
 const
 nsTArray
 <
-uint64
+uint64_t
 >
 &
 id
@@ -534,7 +534,7 @@ contain
 typedef
 InfallibleTArray
 <
-uint64
+uint64_t
 >
 IDArrayType
 ;
@@ -650,7 +650,7 @@ wrap
 .
 *
 /
-uint64
+uint64_t
 GetWindowID
 (
 )
@@ -658,7 +658,7 @@ const
 ;
 AutoInfallibleTArray
 <
-uint64
+uint64_t
 3
 >
 mID

@@ -517,7 +517,7 @@ Vibrate
 const
 nsTArray
 <
-uint32
+uint32_t
 >
 &
 pattern
@@ -532,7 +532,7 @@ Vibrate
 const
 nsTArray
 <
-uint32
+uint32_t
 >
 &
 pattern
