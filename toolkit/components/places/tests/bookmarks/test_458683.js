@@ -1229,7 +1229,9 @@ try
 {
 PlacesUtils
 .
-backupBookmarksToFile
+backups
+.
+saveBookmarksToJSONFile
 (
 jsonFile
 )
@@ -1285,6 +1287,8 @@ file
 try
 {
 PlacesUtils
+.
+backups
 .
 restoreBookmarksFromJSONFile
 (
