@@ -9338,6 +9338,7 @@ PLUGIN_LOG_DEBUG_FUNCTION
 ;
 if
 (
+!
 static_cast
 <
 PluginIdentifierChild
