@@ -15799,7 +15799,7 @@ beasts
 /
 #
 define
-JSOPTION_XML
+JSOPTION_MOAR_XML
 JS_BIT
 (
 6
@@ -16121,7 +16121,7 @@ scripts
 define
 JSCOMPILEOPTION_MASK
 (
-JSOPTION_XML
+JSOPTION_MOAR_XML
 )
 #
 define

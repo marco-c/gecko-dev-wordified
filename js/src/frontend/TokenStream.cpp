@@ -832,9 +832,9 @@ version
 (
 v
 )
-xml
+moarXML
 (
-VersionHasXML
+VersionHasMoarXML
 (
 v
 )
@@ -5714,7 +5714,7 @@ id
 *
 So
 without
-JSOPTION_XML
+JSOPTION_MOAR_XML
 we
 changed
 around
@@ -5726,8 +5726,8 @@ never
 to
 scan
 an
-XML
 *
+XML
 comment
 or
 CDATA
@@ -11834,14 +11834,13 @@ TSF_OPERAND
 )
 &
 &
-!
-isStrictMode
+allowsXML
 (
 )
 &
 &
 (
-hasXML
+hasMoarXML
 (
 )
 |

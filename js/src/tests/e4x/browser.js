@@ -291,7 +291,7 @@ optionsReset
 options
 (
 '
-xml
+moar_xml
 '
 )
 ;

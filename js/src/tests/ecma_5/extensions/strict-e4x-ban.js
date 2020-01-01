@@ -250,7 +250,7 @@ this
 options
 (
 '
-xml
+moar_xml
 '
 )
 ;
@@ -312,7 +312,7 @@ this
 options
 (
 '
-xml
+moar_xml
 '
 )
 ;
