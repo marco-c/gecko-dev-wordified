@@ -629,7 +629,7 @@ h
 #
 include
 "
-nsIImageFrame
+nsImageFrame
 .
 h
 "
@@ -8799,7 +8799,7 @@ is
 area
 >
 .
-nsIImageFrame
+nsImageFrame
 *
 imageFrame
 =

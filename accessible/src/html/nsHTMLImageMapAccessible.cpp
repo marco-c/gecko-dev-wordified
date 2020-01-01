@@ -505,7 +505,7 @@ h
 #
 include
 "
-nsIImageFrame
+nsImageFrame
 .
 h
 "
@@ -1815,7 +1815,7 @@ frame
 NS_ERROR_FAILURE
 )
 ;
-nsIImageFrame
+nsImageFrame
 *
 imageFrame
 =
