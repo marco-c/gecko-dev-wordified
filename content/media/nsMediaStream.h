@@ -1231,6 +1231,7 @@ nsIURI
 URI
 (
 )
+const
 {
 return
 mURI

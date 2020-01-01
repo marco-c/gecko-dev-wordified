@@ -10095,7 +10095,7 @@ originalStream
 aOriginal
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
@@ -15005,7 +15005,7 @@ stream
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
