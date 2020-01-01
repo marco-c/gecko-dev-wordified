@@ -595,7 +595,7 @@ include
 <
 gtk
 /
-gtkinvisible
+gtk
 .
 h
 >

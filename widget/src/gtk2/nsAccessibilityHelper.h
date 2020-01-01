@@ -457,7 +457,7 @@ include
 <
 gtk
 /
-gtkdialog
+gtk
 .
 h
 >

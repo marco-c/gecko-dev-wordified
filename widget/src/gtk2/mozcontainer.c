@@ -451,7 +451,7 @@ include
 <
 gtk
 /
-gtkprivate
+gtk
 .
 h
 >

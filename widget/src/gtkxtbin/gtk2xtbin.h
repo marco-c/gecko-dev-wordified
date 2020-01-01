@@ -445,7 +445,7 @@ include
 <
 gtk
 /
-gtksocket
+gtk
 .
 h
 >

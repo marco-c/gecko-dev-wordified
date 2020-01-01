@@ -510,7 +510,7 @@ include
 <
 gtk
 /
-gtkstyle
+gtk
 .
 h
 >
