@@ -2284,6 +2284,15 @@ mSizeMode
 =
 =
 nsSizeMode_Maximized
+|
+|
+modeEvent
+-
+>
+mSizeMode
+=
+=
+nsSizeMode_Fullscreen
 )
 {
 PRUint32

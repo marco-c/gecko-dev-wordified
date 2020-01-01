@@ -4164,11 +4164,6 @@ inner
 object
 !
 PRPackedBool
-mFullScreen
-:
-1
-;
-PRPackedBool
 mIsClosed
 :
 1
