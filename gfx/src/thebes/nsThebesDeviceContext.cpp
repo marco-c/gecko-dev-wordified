@@ -1290,6 +1290,10 @@ OSVal
 /
 dpi
 ;
+dotsArePixels
+=
+PR_FALSE
+;
 }
 else
 {
