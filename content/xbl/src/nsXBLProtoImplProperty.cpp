@@ -2035,9 +2035,6 @@ aType
 nsresult
 rv
 ;
-PRUint32
-lineNumber
-;
 void
 *
 scriptObject
@@ -2063,8 +2060,6 @@ XBL_DeserializeFunction
 aContext
 aStream
 this
-&
-lineNumber
 &
 scriptObject
 )
@@ -2112,8 +2107,6 @@ XBL_DeserializeFunction
 aContext
 aStream
 this
-&
-lineNumber
 &
 scriptObject
 )
@@ -2248,13 +2241,6 @@ mJSAttributes
 JSPROP_GETTER
 )
 {
-/
-/
-XXXndeakin
-write
-out
-line
-number
 rv
 =
 XBL_SerializeFunction
@@ -2262,7 +2248,6 @@ XBL_SerializeFunction
 aContext
 aStream
 mJSGetterObject
-0
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2279,13 +2264,6 @@ mJSAttributes
 JSPROP_SETTER
 )
 {
-/
-/
-XXXndeakin
-write
-out
-line
-number
 rv
 =
 XBL_SerializeFunction
@@ -2293,7 +2271,6 @@ XBL_SerializeFunction
 aContext
 aStream
 mJSSetterObject
-0
 )
 ;
 NS_ENSURE_SUCCESS
