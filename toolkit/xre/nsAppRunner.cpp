@@ -8416,10 +8416,6 @@ PRBool
 aBlankCommandLine
 =
 PR_FALSE
-int
-needElevation
-=
-0
 )
 {
 aNative
@@ -8578,7 +8574,7 @@ get
 )
 gRestartArgc
 gRestartArgv
-needElevation
+0
 )
 )
 return
@@ -19565,12 +19561,6 @@ LaunchChild
 (
 nativeApp
 appInitiatedRestart
-upgraded
-?
--
-1
-:
-0
 )
 ;
 #
