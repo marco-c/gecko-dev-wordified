@@ -10505,7 +10505,7 @@ false
 vp
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj
@@ -10734,7 +10734,7 @@ JSREG_GLOB
 vp
 -
 >
-setNonFunObjOrNull
+setObjectOrNull
 (
 array
 .
@@ -11842,8 +11842,14 @@ sp
 +
 -
 >
-setNull
+setObjectOrNull
 (
+lambda
+-
+>
+getParent
+(
+)
 )
 ;
 /
@@ -14041,7 +14047,7 @@ false
 vp
 -
 >
-setNonFunObj
+setObject
 (
 *
 aobj
@@ -14618,7 +14624,7 @@ false
 vp
 -
 >
-setNonFunObj
+setObject
 (
 *
 aobj

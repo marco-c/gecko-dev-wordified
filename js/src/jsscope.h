@@ -6002,7 +6002,7 @@ METHOD
 }
 JSObject
 &
-methodFunObj
+methodObject
 (
 )
 const
@@ -7817,9 +7817,9 @@ isMethod
 vp
 -
 >
-setFunObj
+setObject
 (
-methodFunObj
+methodObject
 (
 )
 )

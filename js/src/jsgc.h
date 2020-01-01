@@ -3004,7 +3004,7 @@ if
 (
 v
 .
-isGCThing
+isMarkable
 (
 )
 )
@@ -3019,7 +3019,7 @@ asGCThing
 )
 v
 .
-traceKind
+gcKind
 (
 )
 )

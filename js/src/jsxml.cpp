@@ -29636,11 +29636,10 @@ attrs
 {
 if
 (
-v
--
->
-isFunObj
+IsFunctionObject
 (
+*
+v
 )
 |
 |
@@ -30292,7 +30291,7 @@ JS_FALSE
 vp
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj
@@ -31740,7 +31739,7 @@ out
 vp
 -
 >
-setNonFunObj
+setObject
 (
 *
 listobj
@@ -35504,7 +35503,7 @@ addr
 )
 -
 >
-setNonFunObj
+setObject
 (
 *
 ns
@@ -43886,7 +43885,7 @@ rt
 vp
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj
@@ -44383,7 +44382,7 @@ cx
 JSID_DEFAULT_XML_NAMESPACE
 (
 )
-NonFunObjTag
+ObjectTag
 (
 *
 ns

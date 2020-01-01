@@ -32927,7 +32927,7 @@ possible
 /
 if
 (
-REGEX_JIT_ENABLED
+TRACING_ENABLED
 (
 gData
 -
@@ -34286,7 +34286,7 @@ out
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj
@@ -38034,7 +38034,7 @@ oldre
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj
@@ -38901,7 +38901,7 @@ obj
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj
