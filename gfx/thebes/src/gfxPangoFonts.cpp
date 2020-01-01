@@ -1850,6 +1850,7 @@ index
 *
 /
 static
+const
 int
 fcWeightLookup
 [
@@ -1931,6 +1932,7 @@ value
 *
 /
 static
+const
 int
 fcWeights
 [
@@ -1942,7 +1944,7 @@ fcWeights
 499
 649
 749
-999
+900
 }
 ;
 return
