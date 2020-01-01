@@ -9704,10 +9704,9 @@ TCF_NO_SCRIPT_RVAL
 script
 -
 >
-flags
-|
+noScriptRval
 =
-JSSF_NO_SCRIPT_RVAL
+true
 ;
 if
 (
@@ -9721,10 +9720,9 @@ hasSharps
 script
 -
 >
-flags
-|
+hasSharps
 =
-JSSF_HAS_SHARPS
+true
 ;
 if
 (

@@ -18792,9 +18792,7 @@ jp
 script
 -
 >
-flags
-&
-JSSF_SAVED_CALLER_FUN
+savedCallerFun
 )
 ;
 jp

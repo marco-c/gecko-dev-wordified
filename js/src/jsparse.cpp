@@ -6159,10 +6159,9 @@ funbox
 script
 -
 >
-flags
-|
+savedCallerFun
 =
-JSSF_SAVED_CALLER_FUN
+true
 ;
 #
 ifdef
