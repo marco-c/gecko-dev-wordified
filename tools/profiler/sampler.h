@@ -949,12 +949,6 @@ defined
 (
 __linux__
 )
-|
-|
-defined
-(
-XP_MACOSX
-)
 #
 include
 "
