@@ -2740,7 +2740,6 @@ if
 (
 osflags
 &
-&
 nsILocalFile
 :
 :
