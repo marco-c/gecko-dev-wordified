@@ -653,13 +653,6 @@ h
 #
 include
 "
-jscompartment
-.
-h
-"
-#
-include
-"
 jsprf
 .
 h
@@ -4013,10 +4006,10 @@ caller
 '
 s
 compartment
-js
+JS
 :
 :
-PreserveCompartment
+AutoPreserveCompartment
 pc
 (
 cx
