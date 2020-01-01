@@ -396,7 +396,7 @@ EXPORTED_SYMBOLS
 WEAVE_VERSION
 "
 "
-STORAGE_VERSION
+COMPATIBLE_VERSION
 "
 '
 PREFS_BRANCH
@@ -566,10 +566,10 @@ any
 older
 client
 const
-STORAGE_VERSION
+COMPATIBLE_VERSION
 =
 "
-storage_version
+compatible_version
 "
 ;
 const
