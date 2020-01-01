@@ -1529,7 +1529,7 @@ here
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 mFrame
 )

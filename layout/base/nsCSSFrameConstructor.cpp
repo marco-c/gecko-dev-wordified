@@ -49432,7 +49432,7 @@ area
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 aFrame
 )

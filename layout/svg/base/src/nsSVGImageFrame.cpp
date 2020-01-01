@@ -380,7 +380,7 @@ aPoint
 ;
 virtual
 void
-UpdateBounds
+ReflowSVG
 (
 )
 ;
@@ -1163,7 +1163,7 @@ height
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -3053,7 +3053,7 @@ void
 nsSVGImageFrame
 :
 :
-UpdateBounds
+ReflowSVG
 (
 )
 {
@@ -3062,7 +3062,7 @@ NS_ASSERTION
 nsSVGUtils
 :
 :
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 this
 )
@@ -3070,7 +3070,7 @@ this
 This
 call
 is
-probaby
+probably
 a
 wasteful
 mistake
@@ -3088,7 +3088,7 @@ GetStateBits
 NS_STATE_SVG_NONDISPLAY_CHILD
 )
 "
-UpdateBounds
+ReflowSVG
 mechanism
 not
 designed
@@ -3103,7 +3103,7 @@ if
 nsSVGUtils
 :
 :
-NeedsUpdatedBounds
+NeedsReflowSVG
 (
 this
 )
@@ -3704,7 +3704,7 @@ NS_ERROR_FAILURE
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 mFrame
 )
@@ -3824,7 +3824,7 @@ aContainer
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 mFrame
 )

@@ -439,7 +439,7 @@ GetCoveredRegion
 ;
 virtual
 void
-UpdateBounds
+ReflowSVG
 (
 )
 ;

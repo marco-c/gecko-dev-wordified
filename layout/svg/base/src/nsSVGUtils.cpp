@@ -3885,7 +3885,7 @@ bool
 nsSVGUtils
 :
 :
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 nsIFrame
 *
@@ -3902,7 +3902,7 @@ aFrame
 )
 -
 >
-IsCallingUpdateBounds
+IsCallingReflowSVG
 (
 )
 ;
@@ -3964,7 +3964,7 @@ NS_ASSERTION
 aDuringUpdate
 =
 =
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 aFrame
 )
@@ -3994,7 +3994,7 @@ they
 are
 observing
 _before_
-UpdateBounds
+ReflowSVG
 is
 called
 on
@@ -4018,7 +4018,7 @@ re
 not
 under
 an
-UpdateBounds
+ReflowSVG
 call
 .
 /
@@ -4037,7 +4037,7 @@ while
 under
 /
 /
-UpdateBounds
+ReflowSVG
 because
 the
 observers
@@ -4052,7 +4052,7 @@ dirty
 /
 and
 since
-UpdateBounds
+ReflowSVG
 would
 be
 in
@@ -4081,7 +4081,7 @@ aDuringUpdate
 NS_ASSERTION
 (
 !
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 aFrame
 )
@@ -4097,7 +4097,7 @@ under
 nsISVGChildFrame
 :
 :
-UpdateBounds
+ReflowSVG
 !
 "
 )
@@ -4677,7 +4677,7 @@ void
 nsSVGUtils
 :
 :
-ScheduleBoundsUpdate
+ScheduleReflowSVG
 (
 nsIFrame
 *
@@ -4721,7 +4721,7 @@ us
 before
 /
 /
-UpdateBounds
+ReflowSVG
 is
 called
 .
@@ -4755,7 +4755,7 @@ up
 NS_ASSERTION
 (
 !
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 aFrame
 )
@@ -4767,7 +4767,7 @@ under
 nsISVGChildFrame
 :
 :
-UpdateBounds
+ReflowSVG
 !
 "
 )
@@ -5175,7 +5175,7 @@ void
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 nsIFrame
 *
@@ -5231,7 +5231,7 @@ up
 NS_ASSERTION
 (
 !
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 aFrame
 )
@@ -5243,7 +5243,7 @@ under
 nsISVGChildFrame
 :
 :
-UpdateBounds
+ReflowSVG
 !
 "
 )
@@ -5254,7 +5254,7 @@ aFrame
 false
 )
 ;
-ScheduleBoundsUpdate
+ScheduleReflowSVG
 (
 aFrame
 )
@@ -5264,7 +5264,7 @@ bool
 nsSVGUtils
 :
 :
-NeedsUpdatedBounds
+NeedsReflowSVG
 (
 nsIFrame
 *

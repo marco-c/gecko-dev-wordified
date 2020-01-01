@@ -3149,13 +3149,13 @@ dirty
 call
 /
 /
-UpdateBounds
+ReflowSVG
 (
 )
 on
 them
 :
-mCallingUpdateBounds
+mCallingReflowSVG
 =
 true
 ;
@@ -3183,7 +3183,7 @@ kid
 anonKid
 -
 >
-UpdateBounds
+ReflowSVG
 (
 )
 ;
@@ -3211,7 +3211,7 @@ children
 "
 )
 ;
-mCallingUpdateBounds
+mCallingReflowSVG
 =
 false
 ;

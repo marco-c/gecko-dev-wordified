@@ -290,7 +290,7 @@ interface
 :
 virtual
 void
-UpdateBounds
+ReflowSVG
 (
 )
 ;
@@ -775,7 +775,7 @@ nsnull
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -870,7 +870,7 @@ invalidate
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -912,7 +912,7 @@ information
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -1086,7 +1086,7 @@ void
 nsSVGUseFrame
 :
 :
-UpdateBounds
+ReflowSVG
 (
 )
 {
@@ -1193,7 +1193,7 @@ TopLeft
 nsSVGUseFrameBase
 :
 :
-UpdateBounds
+ReflowSVG
 (
 )
 ;
@@ -1378,7 +1378,7 @@ below
 nsSVGUtils
 :
 :
-ScheduleBoundsUpdate
+ScheduleReflowSVG
 (
 this
 )

@@ -686,7 +686,7 @@ height
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -768,7 +768,7 @@ nsnull
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -931,7 +931,7 @@ changed
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -1068,7 +1068,7 @@ wasteful
 ;
 /
 /
-UpdateBounds
+ReflowSVG
 makes
 sure
 mRect
@@ -2520,7 +2520,7 @@ void
 nsSVGForeignObjectFrame
 :
 :
-UpdateBounds
+ReflowSVG
 (
 )
 {
@@ -2529,7 +2529,7 @@ NS_ASSERTION
 nsSVGUtils
 :
 :
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 this
 )
@@ -2537,7 +2537,7 @@ this
 This
 call
 is
-probaby
+probably
 a
 wasteful
 mistake
@@ -2555,7 +2555,7 @@ GetStateBits
 NS_STATE_SVG_NONDISPLAY_CHILD
 )
 "
-UpdateBounds
+ReflowSVG
 mechanism
 not
 designed
@@ -2570,7 +2570,7 @@ if
 nsSVGUtils
 :
 :
-NeedsUpdatedBounds
+NeedsReflowSVG
 (
 this
 )
@@ -3555,7 +3555,7 @@ area
 nsSVGUtils
 :
 :
-ScheduleBoundsUpdate
+ScheduleReflowSVG
 (
 this
 )
@@ -4153,7 +4153,9 @@ haven
 t
 had
 a
-UpdateBounds
+ReflowSVG
+(
+)
 yet
 nothing
 to
@@ -4554,7 +4556,7 @@ FlushDirtyRegion
 nsSVGUtils
 :
 :
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 this
 )

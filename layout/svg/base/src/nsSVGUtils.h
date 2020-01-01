@@ -1924,7 +1924,7 @@ may
 want
 to
 allow
-UpdateBounds
+ReflowSVG
 to
 be
 called
@@ -1940,7 +1940,7 @@ better
 implemented
 as
 a
-ForceUpdateBounds
+ForceReflowSVG
 function
 to
 *
@@ -2175,7 +2175,7 @@ frames
 /
 static
 void
-ScheduleBoundsUpdate
+ScheduleReflowSVG
 (
 nsIFrame
 *
@@ -2228,7 +2228,7 @@ to
 /
 static
 void
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 nsIFrame
 *
@@ -2250,7 +2250,7 @@ of
 its
 children
 need
-UpdateBounds
+ReflowSVG
 *
 to
 be
@@ -2262,7 +2262,7 @@ them
 /
 static
 bool
-NeedsUpdatedBounds
+NeedsReflowSVG
 (
 nsIFrame
 *
@@ -3856,7 +3856,7 @@ aSurface
 endif
 static
 bool
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 nsIFrame
 *

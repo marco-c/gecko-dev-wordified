@@ -479,7 +479,7 @@ transform
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -541,7 +541,7 @@ rotate
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -1188,7 +1188,7 @@ below
 nsSVGUtils
 :
 :
-ScheduleBoundsUpdate
+ScheduleReflowSVG
 (
 this
 )
@@ -1427,7 +1427,7 @@ void
 nsSVGTextFrame
 :
 :
-UpdateBounds
+ReflowSVG
 (
 )
 {
@@ -1436,7 +1436,7 @@ NS_ASSERTION
 nsSVGUtils
 :
 :
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 this
 )
@@ -1444,7 +1444,7 @@ this
 This
 call
 is
-probaby
+probably
 a
 wasteful
 mistake
@@ -1462,7 +1462,7 @@ GetStateBits
 NS_STATE_SVG_NONDISPLAY_CHILD
 )
 "
-UpdateBounds
+ReflowSVG
 mechanism
 not
 designed
@@ -1477,7 +1477,7 @@ if
 nsSVGUtils
 :
 :
-NeedsUpdatedBounds
+NeedsReflowSVG
 (
 this
 )
@@ -1674,7 +1674,7 @@ correctly
 nsSVGTextFrameBase
 :
 :
-UpdateBounds
+ReflowSVG
 (
 )
 ;
@@ -2189,7 +2189,7 @@ fully
 dirty
 to
 get
-UpdateBounds
+ReflowSVG
 (
 )
 called
@@ -2204,7 +2204,7 @@ this
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )

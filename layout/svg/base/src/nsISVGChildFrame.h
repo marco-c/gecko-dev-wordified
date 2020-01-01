@@ -468,7 +468,7 @@ reflow
 .
 virtual
 void
-UpdateBounds
+ReflowSVG
 (
 )
 =

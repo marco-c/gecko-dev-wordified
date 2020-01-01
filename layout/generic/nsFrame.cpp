@@ -45142,7 +45142,7 @@ the
 invalidation
 happens
 in
-UpdateBounds
+ReflowSVG
 for
 now
 so
