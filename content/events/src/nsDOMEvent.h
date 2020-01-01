@@ -365,6 +365,7 @@ eDOMEvents_deviceorientation
 eDOMEvents_deviceproximity
 eDOMEvents_userproximity
 eDOMEvents_devicelight
+eDOMEvents_moztimechange
 }
 ;
 nsDOMEvent
