@@ -1937,6 +1937,16 @@ jsop_setelem_dense
 )
 ;
 bool
+jsop_length
+(
+)
+;
+bool
+jsop_length_fastPath
+(
+)
+;
+bool
 jsop_getprop
 (
 JSAtom
