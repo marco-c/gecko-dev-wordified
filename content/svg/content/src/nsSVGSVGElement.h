@@ -1253,6 +1253,12 @@ aDoSetAttr
 ;
 virtual
 void
+DidAnimateViewBox
+(
+)
+;
+virtual
+void
 DidAnimatePreserveAspectRatio
 (
 )

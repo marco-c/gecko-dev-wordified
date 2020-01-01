@@ -2733,6 +2733,7 @@ mViewBox
 .
 GetAnimValue
 (
+this
 )
 ;
 if
