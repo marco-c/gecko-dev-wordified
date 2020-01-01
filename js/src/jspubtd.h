@@ -1043,6 +1043,11 @@ struct
 JSSecurityCallbacks
 JSSecurityCallbacks
 ;
+typedef
+struct
+JSONParser
+JSONParser
+;
 /
 *
 JSClass

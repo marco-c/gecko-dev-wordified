@@ -1464,7 +1464,7 @@ pair
 var
 crockfordResult
 =
-JSON
+crockfordJSON
 .
 stringify
 (
