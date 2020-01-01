@@ -175,13 +175,6 @@ h
 #
 include
 "
-imgDecoderObserver
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h
@@ -325,9 +318,6 @@ nsJPEGDecoder
 RasterImage
 &
 aImage
-imgDecoderObserver
-*
-aObserver
 Decoder
 :
 :

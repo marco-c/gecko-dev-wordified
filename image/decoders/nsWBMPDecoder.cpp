@@ -542,15 +542,11 @@ nsWBMPDecoder
 RasterImage
 &
 aImage
-imgDecoderObserver
-*
-aObserver
 )
 :
 Decoder
 (
 aImage
-aObserver
 )
 mWidth
 (

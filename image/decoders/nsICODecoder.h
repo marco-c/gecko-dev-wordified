@@ -100,13 +100,6 @@ h
 #
 include
 "
-imgDecoderObserver
-.
-h
-"
-#
-include
-"
 nsBMPDecoder
 .
 h
@@ -147,9 +140,6 @@ nsICODecoder
 RasterImage
 &
 aImage
-imgDecoderObserver
-*
-aObserver
 )
 ;
 virtual

@@ -299,15 +299,11 @@ nsBMPDecoder
 RasterImage
 &
 aImage
-imgDecoderObserver
-*
-aObserver
 )
 :
 Decoder
 (
 aImage
-aObserver
 )
 {
 mColors
