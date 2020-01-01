@@ -2626,9 +2626,15 @@ NS_FAILED
 rv
 )
 )
+{
+mCallbacks
+=
+nsnull
+;
 return
 rv
 ;
+}
 /
 /
 Store
@@ -2756,6 +2762,10 @@ mListener
 nsnull
 ;
 mListenerContext
+=
+nsnull
+;
+mCallbacks
 =
 nsnull
 ;
