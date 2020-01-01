@@ -785,9 +785,9 @@ mInUse2
 ;
 }
 ;
-nsSVGMarkerFrame
+nsIContent
 *
-NS_GetSVGMarkerFrame
+NS_GetSVGMarkerElement
 (
 nsIURI
 *
