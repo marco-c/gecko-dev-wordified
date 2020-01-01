@@ -613,7 +613,7 @@ Reset
 NS_IMETHOD
 SubmitNamesValues
 (
-nsIFormSubmission
+nsFormSubmission
 *
 aFormSubmission
 nsIContent
@@ -1432,7 +1432,7 @@ nsHTMLLegendElement
 :
 SubmitNamesValues
 (
-nsIFormSubmission
+nsFormSubmission
 *
 aFormSubmission
 nsIContent

@@ -759,7 +759,7 @@ Reset
 NS_IMETHOD
 SubmitNamesValues
 (
-nsIFormSubmission
+nsFormSubmission
 *
 aFormSubmission
 nsIContent
@@ -2908,7 +2908,7 @@ nsHTMLButtonElement
 :
 SubmitNamesValues
 (
-nsIFormSubmission
+nsFormSubmission
 *
 aFormSubmission
 nsIContent
@@ -3073,7 +3073,6 @@ aFormSubmission
 >
 AddNameValuePair
 (
-this
 name
 value
 )

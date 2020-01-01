@@ -3785,9 +3785,9 @@ here
 "
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFormSubmission
+nsFormSubmission
 >
 submission
 ;
@@ -3952,9 +3952,9 @@ nsHTMLFormElement
 :
 BuildSubmission
 (
-nsCOMPtr
+nsRefPtr
 <
-nsIFormSubmission
+nsFormSubmission
 >
 &
 aFormSubmission
@@ -4092,7 +4092,7 @@ nsHTMLFormElement
 :
 SubmitSubmission
 (
-nsIFormSubmission
+nsFormSubmission
 *
 aFormSubmission
 )
@@ -5024,7 +5024,7 @@ nsHTMLFormElement
 :
 WalkFormElements
 (
-nsIFormSubmission
+nsFormSubmission
 *
 aFormSubmission
 nsIContent
@@ -7203,9 +7203,9 @@ FlushPendingSubmission
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIFormSubmission
+nsFormSubmission
 >
 kunkFuDeathGrip
 (

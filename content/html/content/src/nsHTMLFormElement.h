@@ -1760,9 +1760,9 @@ submit
 nsresult
 BuildSubmission
 (
-nsCOMPtr
+nsRefPtr
 <
-nsIFormSubmission
+nsFormSubmission
 >
 &
 aFormSubmission
@@ -1797,7 +1797,7 @@ object
 nsresult
 SubmitSubmission
 (
-nsIFormSubmission
+nsFormSubmission
 *
 aFormSubmission
 )
@@ -1855,7 +1855,7 @@ none
 nsresult
 WalkFormElements
 (
-nsIFormSubmission
+nsFormSubmission
 *
 aFormSubmission
 nsIContent
@@ -2331,9 +2331,9 @@ submission
 object
 *
 /
-nsCOMPtr
+nsRefPtr
 <
-nsIFormSubmission
+nsFormSubmission
 >
 mPendingSubmission
 ;

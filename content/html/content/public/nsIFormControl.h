@@ -454,7 +454,7 @@ class
 nsIFormProcessor
 ;
 class
-nsIFormSubmission
+nsFormSubmission
 ;
 #
 define
@@ -917,7 +917,7 @@ null
 NS_IMETHOD
 SubmitNamesValues
 (
-nsIFormSubmission
+nsFormSubmission
 *
 aFormSubmission
 nsIContent
