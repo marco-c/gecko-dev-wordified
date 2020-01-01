@@ -17537,13 +17537,6 @@ isn
 t
 done
 yet
-tabbrowser
-.
-updateIcon
-(
-tab
-)
-;
 /
 /
 wall
