@@ -1568,6 +1568,12 @@ nsPresState
 aState
 )
 ;
+PRInt32
+IntrinsicState
+(
+)
+const
+;
 /
 /
 nsISelectElement
