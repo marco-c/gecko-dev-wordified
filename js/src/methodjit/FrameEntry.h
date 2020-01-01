@@ -495,6 +495,10 @@ friend
 class
 FrameState
 ;
+friend
+struct
+SyncRegs
+;
 public
 :
 bool
