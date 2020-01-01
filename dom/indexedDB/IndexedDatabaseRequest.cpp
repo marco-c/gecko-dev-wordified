@@ -2683,9 +2683,9 @@ connection
 )
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_SUCCESS
 (
-ss
+rv
 nsnull
 )
 ;
