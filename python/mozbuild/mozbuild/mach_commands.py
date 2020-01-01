@@ -483,6 +483,15 @@ in
 what
 :
                 
+path_arg
+=
+self
+.
+_wrap_path_argument
+(
+target
+)
+                
 make_dir
 make_target
 =
@@ -492,7 +501,11 @@ self
 .
 topobjdir
                     
-target
+path_arg
+.
+relpath
+(
+)
 )
                 
 if

@@ -58,6 +58,10 @@ __future__
 import
 unicode_literals
 import
+mozpack
+.
+path
+import
 os
 import
 re
@@ -72,12 +76,6 @@ MachCommandBase
     
 MozbuildObject
 )
-from
-moztesting
-.
-util
-import
-parse_test_path
 from
 mach
 .
@@ -223,38 +221,46 @@ test_file
 assert
 test_file
         
-parsed
+path_arg
 =
-parse_test_path
-(
-test_file
 self
 .
-topsrcdir
+_wrap_path_argument
+(
+test_file
+)
+        
+relpath
+=
+path_arg
+.
+relpath
+(
 )
         
 if
-parsed
-[
-'
-is_dir
-'
-]
+os
+.
+path
+.
+isdir
+(
+path_arg
+.
+srcdir_path
+(
+)
+)
 :
             
 return
-os
+mozpack
 .
 path
 .
 join
 (
-parsed
-[
-'
-normalized
-'
-]
+relpath
 self
 .
 _manifest_file
@@ -264,12 +270,7 @@ suite
 )
         
 if
-parsed
-[
-'
-normalized
-'
-]
+relpath
 .
 endswith
 (
@@ -281,12 +282,7 @@ list
 :
             
 return
-parsed
-[
-'
-normalized
-'
-]
+relpath
         
 raise
 Exception
@@ -537,7 +533,17 @@ path
 .
 exists
 (
+mozpack
+.
 path
+.
+join
+(
+self
+.
+topsrcdir
+path
+)
 )
 :
                 
