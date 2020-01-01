@@ -339,6 +339,13 @@ h
 #
 include
 "
+nsAHtml5TreeBuilderState
+.
+h
+"
+#
+include
+"
 nsHtml5Tokenizer
 .
 h
