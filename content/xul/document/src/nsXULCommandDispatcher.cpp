@@ -2486,7 +2486,7 @@ content
 }
 for
 (
-PRUint32
+PRInt32
 u
 =
 0
