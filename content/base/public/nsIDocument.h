@@ -10003,7 +10003,7 @@ aOperation
 ;
 private
 :
-PRUint32
+PRUint64
 mWarnedAbout
 ;
 protected
