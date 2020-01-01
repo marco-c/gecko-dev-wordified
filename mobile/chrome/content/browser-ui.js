@@ -1677,12 +1677,6 @@ xul
 "
 )
 ;
-Shortcuts
-.
-init
-(
-)
-;
 }
 switchPane
 :
@@ -2102,12 +2096,6 @@ resize
 "
 this
 false
-)
-;
-Shortcuts
-.
-restore
-(
 )
 ;
 }
