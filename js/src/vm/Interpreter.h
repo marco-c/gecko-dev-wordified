@@ -1058,9 +1058,7 @@ cx
 JSObject
 *
 obj
-const
 Value
-&
 fval
 unsigned
 argc
@@ -1136,9 +1134,7 @@ InvokeConstructor
 JSContext
 *
 cx
-const
 Value
-&
 fval
 unsigned
 argc
