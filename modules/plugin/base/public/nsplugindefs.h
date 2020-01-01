@@ -1393,6 +1393,9 @@ nsPluginInstanceVariable_ScriptableIID
 nsPluginInstanceVariable_NeedsXEmbed
 =
 14
+nsPluginInstanceVariable_WantsAllNetworkStreams
+=
+18
 #
 ifdef
 XP_MACOSX

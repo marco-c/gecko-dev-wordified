@@ -949,6 +949,13 @@ PRBool
 aTransparent
 )
 ;
+NPError
+SetWantsAllNetworkStreams
+(
+PRBool
+aWantsAllNetworkStreams
+)
+;
 #
 ifdef
 XP_MACOSX
@@ -1270,6 +1277,9 @@ mCached
 ;
 PRPackedBool
 mIsJavaPlugin
+;
+PRPackedBool
+mWantsAllNetworkStreams
 ;
 public
 :
