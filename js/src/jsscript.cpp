@@ -15909,6 +15909,16 @@ hasSingletons
 dst
 -
 >
+treatAsRunOnce
+=
+src
+-
+>
+treatAsRunOnce
+;
+dst
+-
+>
 isGenerator
 =
 src
