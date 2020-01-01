@@ -816,6 +816,10 @@ clear
 (
 )
 ;
+generation
++
++
+;
 }
 void
 StubCompiler
@@ -980,10 +984,6 @@ uint32
 slots
 )
 {
-generation
-+
-+
-;
 JaegerSpew
 (
 JSpew_Insns

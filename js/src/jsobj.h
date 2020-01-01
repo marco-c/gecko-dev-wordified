@@ -2840,8 +2840,6 @@ arrays
 .
 *
 /
-private
-:
 /
 /
 Used
@@ -2858,6 +2856,8 @@ JSSLOT_ARRAY_LENGTH
 =
 JSSLOT_PRIVATE
 ;
+private
+:
 /
 /
 Used
