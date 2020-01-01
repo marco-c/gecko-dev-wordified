@@ -2922,7 +2922,7 @@ ntokens
 1
 current
 +
-3
+2
 lookahead
 rounded
 to
@@ -2936,6 +2936,13 @@ by
 3
 *
 /
+static
+const
+unsigned
+maxLookahead
+=
+2
+;
 static
 const
 unsigned
@@ -3939,8 +3946,7 @@ JS_ASSERT
 (
 lookahead
 <
-=
-2
+maxLookahead
 )
 ;
 return
@@ -4029,8 +4035,7 @@ JS_ASSERT
 (
 lookahead
 <
-=
-2
+maxLookahead
 )
 ;
 return
