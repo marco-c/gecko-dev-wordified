@@ -513,12 +513,6 @@ ExceptionClear
 define
 ANDROID_REGION_SIZE
 512
-/
-/
-Copied
-from
-Android
-headers
 enum
 {
 PIXEL_FORMAT_RGBA_8888
