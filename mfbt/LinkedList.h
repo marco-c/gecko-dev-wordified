@@ -244,7 +244,7 @@ private
 *
 LinkedList
 <
-ElemType
+Observer
 >
 list
 ;
