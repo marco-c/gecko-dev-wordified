@@ -36663,7 +36663,7 @@ d
 mozIPlacesAutoComplete
 :
 :
-MATCH_ANYWHERE
+MATCH_ANYWHERE_UNMODIFIED
 )
 .
 get
