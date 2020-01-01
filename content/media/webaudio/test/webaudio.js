@@ -1110,6 +1110,7 @@ function
 testOnOfflineContext
 (
 callback
+sampleRate
 )
 {
 function
@@ -1256,7 +1257,7 @@ gTest
 .
 numberOfChannels
 testLength
-48000
+sampleRate
 )
 ;
 runTestOnContext
@@ -1275,7 +1276,18 @@ function
 {
 testOnOfflineContext
 (
+function
+(
+)
+{
+testOnOfflineContext
+(
 done
+44100
+)
+;
+}
+48000
 )
 ;
 }
