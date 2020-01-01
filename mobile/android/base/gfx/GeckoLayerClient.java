@@ -1785,15 +1785,8 @@ new
 ViewportMetrics
 (
 metrics
-)
-;
-clampedMetrics
 .
-setViewport
-(
-clampedMetrics
-.
-getClampedViewport
+clamp
 (
 )
 )
