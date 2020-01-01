@@ -740,6 +740,13 @@ nsNavHistoryQuery
 .
 h
 "
+#
+include
+"
+nsICharsetResolver
+.
+h
+"
 /
 /
 set
@@ -917,6 +924,8 @@ public
 nsIGlobalHistory3
 public
 nsIDownloadHistory
+public
+nsICharsetResolver
 #
 ifdef
 MOZ_XUL
@@ -2504,6 +2513,10 @@ mDBBookmarkToUrlResult
 kGetInfoIndex_
 *
 results
+/
+/
+nsICharsetResolver
+NS_DECL_NSICHARSETRESOLVER
 /
 *
 *
