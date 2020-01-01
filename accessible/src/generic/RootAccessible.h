@@ -141,9 +141,6 @@ nsIDOMEventListener
 .
 h
 "
-class
-Relation
-;
 namespace
 mozilla
 {

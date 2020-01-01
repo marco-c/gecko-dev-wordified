@@ -212,9 +212,6 @@ HyperTextAccessible
 struct
 nsRoleMapEntry
 ;
-class
-Relation
-;
 namespace
 mozilla
 {
@@ -229,6 +226,9 @@ HTMLLIAccessible
 ;
 class
 ImageAccessible
+;
+class
+Relation
 ;
 class
 TableAccessible
@@ -1618,6 +1618,12 @@ type
 *
 /
 virtual
+mozilla
+:
+:
+a11y
+:
+:
 Relation
 RelationByType
 (

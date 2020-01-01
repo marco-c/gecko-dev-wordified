@@ -144,6 +144,13 @@ AccessibleRelation_i
 .
 c
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 ia2AccessibleRelation
 :
 :
