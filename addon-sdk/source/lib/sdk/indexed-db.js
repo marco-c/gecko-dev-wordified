@@ -471,14 +471,6 @@ nsIDOMDOMException
 ;
 exports
 .
-IDBCursor
-=
-Ci
-.
-nsIIDBCursor
-;
-exports
-.
 IDBOpenDBRequest
 =
 Ci

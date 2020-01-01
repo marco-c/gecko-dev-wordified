@@ -10903,9 +10903,9 @@ Transaction
 )
 )
 ;
-nsresult
+ErrorResult
 rv
-=
+;
 mCursor
 -
 >
@@ -10921,9 +10921,10 @@ aParams
 count
 (
 )
+rv
 )
 ;
-NS_ENSURE_SUCCESS
+ENSURE_SUCCESS
 (
 rv
 false
