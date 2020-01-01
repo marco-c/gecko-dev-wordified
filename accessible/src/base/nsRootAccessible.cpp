@@ -3150,6 +3150,16 @@ the
 activedescendant
 attribute
 .
+if
+(
+!
+finalFocusAccessible
+)
+{
+return
+PR_FALSE
+;
+}
 }
 }
 /
