@@ -671,7 +671,7 @@ CssLogic
 FILTER
 =
 {
-ALL
+USER
 :
 "
 user
@@ -680,16 +680,12 @@ user
 /
 show
 properties
-from
+for
 all
 user
 style
 sheets
-USER
-:
-"
-user
-"
+.
 UA
 :
 "
@@ -697,7 +693,7 @@ ua
 "
 /
 /
-ALL
+USER
 plus
 user
 -
@@ -973,7 +969,7 @@ CssLogic
 .
 FILTER
 .
-ALL
+USER
 /
 /
 Used
@@ -3738,7 +3734,7 @@ CssLogic
 .
 FILTER
 .
-ALL
+USER
 &
 &
 !
@@ -6210,7 +6206,7 @@ CssLogic
 .
 FILTER
 .
-ALL
+USER
 &
 &
 !
@@ -6236,7 +6232,7 @@ CssLogic
 .
 FILTER
 .
-ALL
+USER
 &
 &
 filter

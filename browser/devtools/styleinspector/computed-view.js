@@ -2474,7 +2474,7 @@ CssLogic
 .
 FILTER
 .
-ALL
+USER
 ;
 }
 /
