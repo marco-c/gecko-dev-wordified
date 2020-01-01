@@ -833,6 +833,11 @@ STUB_CALL_TYPE
 VoidStubPIC
 )
 ;
+STUB_CALL_TYPE
+(
+VoidStubGetElemIC
+)
+;
 #
 endif
 #
