@@ -669,6 +669,10 @@ abi
 (
 ABI_FASTCALL
 )
+shared
+(
+false
+)
 {
 clear
 (

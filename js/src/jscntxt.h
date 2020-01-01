@@ -809,6 +809,9 @@ Fragment
 class
 Fragmento
 ;
+class
+LirBuffer
+;
 }
 class
 TraceRecorder
@@ -1038,6 +1041,15 @@ Fragmento
 .
 *
 /
+CLS
+(
+nanojit
+:
+:
+LirBuffer
+)
+reLirBuf
+;
 CLS
 (
 nanojit

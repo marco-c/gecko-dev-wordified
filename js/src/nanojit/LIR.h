@@ -4922,6 +4922,9 @@ NumSavedRegs
 bool
 explicitSavedRegs
 ;
+bool
+shared
+;
 protected
 :
 friend
