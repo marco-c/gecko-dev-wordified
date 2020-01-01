@@ -984,7 +984,10 @@ a
 paused
 state
 bool
-mPaused
+mAudioPaused
+;
+bool
+mVideoPaused
 ;
 public
 :
