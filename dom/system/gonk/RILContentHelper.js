@@ -5050,6 +5050,8 @@ iccInfo
 mcc
 )
 {
+try
+{
 Services
 .
 prefs
@@ -5068,6 +5070,13 @@ iccInfo
 mcc
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 Services
 .
