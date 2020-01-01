@@ -4507,6 +4507,9 @@ public
 :
 nsDisplayNotation
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -4522,6 +4525,7 @@ aType
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 mRect
@@ -4941,6 +4945,7 @@ aBuilder
 )
 nsDisplayNotation
 (
+aBuilder
 aFrame
 aRect
 aThickness

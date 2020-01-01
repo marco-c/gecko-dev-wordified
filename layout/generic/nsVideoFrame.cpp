@@ -2642,6 +2642,9 @@ public
 :
 nsDisplayVideo
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsVideoFrame
 *
 aFrame
@@ -2649,6 +2652,7 @@ aFrame
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -3094,6 +3098,7 @@ aBuilder
 )
 nsDisplayVideo
 (
+aBuilder
 this
 )
 )

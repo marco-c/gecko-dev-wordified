@@ -1125,6 +1125,9 @@ public
 :
 nsDisplayBullet
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsBulletFrame
 *
 aFrame
@@ -1132,6 +1135,7 @@ aFrame
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -1303,6 +1307,7 @@ aBuilder
 )
 nsDisplayBullet
 (
+aBuilder
 this
 )
 )

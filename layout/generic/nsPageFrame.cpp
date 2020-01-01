@@ -3242,6 +3242,7 @@ aBuilder
 )
 nsDisplayGeneric
 (
+aBuilder
 this
 :
 :
@@ -3280,6 +3281,7 @@ aBuilder
 )
 nsDisplayGeneric
 (
+aBuilder
 this
 :
 :
@@ -3329,6 +3331,7 @@ aBuilder
 )
 nsDisplayGeneric
 (
+aBuilder
 this
 :
 :

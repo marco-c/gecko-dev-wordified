@@ -826,6 +826,9 @@ public
 :
 nsDisplayOptionEventGrabber
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -836,6 +839,7 @@ aItem
 :
 nsDisplayWrapList
 (
+aBuilder
 aFrame
 aItem
 )
@@ -843,6 +847,9 @@ aItem
 }
 nsDisplayOptionEventGrabber
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -853,6 +860,7 @@ aList
 :
 nsDisplayWrapList
 (
+aBuilder
 aFrame
 aList
 )
@@ -1067,6 +1075,7 @@ aBuilder
 )
 nsDisplayOptionEventGrabber
 (
+aBuilder
 aItem
 -
 >
@@ -1137,6 +1146,7 @@ aBuilder
 )
 nsDisplayOptionEventGrabber
 (
+aBuilder
 nsnull
 aList
 )
@@ -1162,6 +1172,7 @@ aBuilder
 )
 nsDisplayOptionEventGrabber
 (
+aBuilder
 aItem
 -
 >
@@ -1249,6 +1260,9 @@ public
 :
 nsDisplayListFocus
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsSelectsAreaFrame
 *
 aFrame
@@ -1256,6 +1270,7 @@ aFrame
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -1588,6 +1603,7 @@ aBuilder
 )
 nsDisplayListFocus
 (
+aBuilder
 this
 )
 )

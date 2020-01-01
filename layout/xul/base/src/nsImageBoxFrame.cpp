@@ -1852,6 +1852,9 @@ public
 :
 nsDisplayXULImage
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsImageBoxFrame
 *
 aFrame
@@ -1859,6 +1862,7 @@ aFrame
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -2108,6 +2112,7 @@ aBuilder
 )
 nsDisplayXULImage
 (
+aBuilder
 this
 )
 )
