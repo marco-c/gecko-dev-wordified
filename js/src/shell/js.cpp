@@ -7120,9 +7120,6 @@ JSOPTION_METHODJIT
 /
 *
 *
-:
-XXX
-:
 Ignore
 calls
 to
@@ -7132,8 +7129,8 @@ when
 inference
 is
 enabled
-*
 with
+*
 METHODJIT_ALWAYS
 recompilation
 can
@@ -7141,10 +7138,10 @@ happen
 and
 discard
 the
-*
 script
 '
 s
+*
 jitcode
 .
 *
@@ -7156,6 +7153,14 @@ cx
 -
 >
 typeInferenceEnabled
+(
+)
+&
+&
+cx
+-
+>
+hasfp
 (
 )
 &
