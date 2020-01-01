@@ -8149,7 +8149,7 @@ if
 doc
 -
 >
-GetDisplayDocument
+IsResourceDoc
 (
 )
 |
@@ -8172,8 +8172,7 @@ allow
 subframe
 loads
 in
-external
-reference
+resource
 documents
 nor
 /

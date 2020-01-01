@@ -1548,11 +1548,12 @@ SHELL_WRAPPER1
 notifyUriVisited
 jstring
 )
-SHELL_WRAPPER2
+SHELL_WRAPPER3
 (
 notifyBatteryChange
-jfloat
+jdouble
 jboolean
+jdouble
 )
 ;
 static
