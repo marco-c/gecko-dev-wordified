@@ -606,7 +606,7 @@ server
 |
 |
 '
-http
+https
 :
 /
 /
@@ -906,7 +906,7 @@ EN
 +
 '
 "
-http
+https
 :
 /
 /

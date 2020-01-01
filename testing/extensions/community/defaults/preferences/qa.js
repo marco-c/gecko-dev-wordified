@@ -413,7 +413,7 @@ litmus
 url
 "
 "
-http
+https
 :
 /
 /
@@ -438,7 +438,7 @@ hermes
 url
 "
 "
-http
+https
 :
 /
 /
@@ -467,7 +467,7 @@ bugzilla
 url
 "
 "
-http
+https
 :
 /
 bugzilla
