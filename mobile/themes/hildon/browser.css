@@ -2813,12 +2813,15 @@ autocomplete
 -
 items
 {
+color
+:
+black
+;
 background
 -
 color
 :
-#
-fff
+white
 ;
 }
 .
