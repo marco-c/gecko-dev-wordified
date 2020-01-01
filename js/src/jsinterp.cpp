@@ -5718,7 +5718,7 @@ sp
 =
 v
 ;
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 regs
@@ -5850,7 +5850,7 @@ setString
 s
 )
 ;
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 regs
@@ -5887,7 +5887,7 @@ setObject
 obj
 )
 ;
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 regs
@@ -5924,7 +5924,7 @@ setObjectOrNull
 obj
 )
 ;
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 regs
@@ -13899,7 +13899,7 @@ sp
 =
 rval
 ;
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 regs
@@ -16820,7 +16820,7 @@ JSOP_GETLOCAL_LENGTH
 =
 JSOP_POP
 )
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 regs
@@ -18345,7 +18345,7 @@ sp
 =
 rval
 ;
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 regs

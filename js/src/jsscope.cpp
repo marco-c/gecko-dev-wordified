@@ -573,7 +573,7 @@ isOwned
 )
 )
 ;
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 shape
