@@ -1062,7 +1062,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 Finalize
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 JSPropertySpec

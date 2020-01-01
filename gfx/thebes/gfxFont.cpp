@@ -8076,6 +8076,10 @@ DrawMode
 aDrawMode
 bool
 aReverse
+const
+GlyphRenderingOptions
+*
+aOptions
 bool
 aFinish
 =
@@ -8195,6 +8199,10 @@ FillGlyphs
 aFont
 buf
 aPattern
+DrawOptions
+(
+)
+aOptions
 )
 ;
 mNumGlyphs
@@ -9798,6 +9806,16 @@ GetTransform
 (
 )
 ;
+RefPtr
+<
+GlyphRenderingOptions
+>
+renderingOptions
+=
+GetGlyphRenderingOptions
+(
+)
+;
 if
 (
 mScaledFont
@@ -10178,6 +10196,7 @@ colPat
 scaledFont
 aDrawMode
 isRTL
+renderingOptions
 )
 ;
 /
@@ -10307,6 +10326,7 @@ colPat
 scaledFont
 aDrawMode
 isRTL
+renderingOptions
 )
 ;
 }
@@ -10618,6 +10638,7 @@ colPat
 scaledFont
 aDrawMode
 isRTL
+renderingOptions
 )
 ;
 if
@@ -10718,6 +10739,7 @@ colPat
 scaledFont
 aDrawMode
 isRTL
+renderingOptions
 )
 ;
 }
@@ -10801,6 +10823,7 @@ colPat
 scaledFont
 aDrawMode
 isRTL
+renderingOptions
 true
 )
 ;
