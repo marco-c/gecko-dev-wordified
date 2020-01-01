@@ -3905,11 +3905,15 @@ aLayer
 protected
 :
 void
-RemoveThebesItemsForLayerSubtree
+RemoveThebesItemsAndOwnerDataForLayerSubtree
 (
 Layer
 *
 aLayer
+bool
+aRemoveThebesItems
+bool
+aRemoveOwnerData
 )
 ;
 static
