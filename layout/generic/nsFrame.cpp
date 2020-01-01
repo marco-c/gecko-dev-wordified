@@ -13806,7 +13806,6 @@ clipState
 .
 SetClipForContainingBlockDescendants
 (
-&
 savedOutOfFlowData
 -
 >
