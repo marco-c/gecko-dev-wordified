@@ -913,6 +913,16 @@ width
 scale
 )
 ;
+if
+(
+maxSize
+.
+height
+!
+=
+NS_UNCONSTRAINEDSIZE
+)
+{
 maxSize
 .
 height
@@ -926,6 +936,7 @@ height
 scale
 )
 ;
+}
 /
 /
 Get
