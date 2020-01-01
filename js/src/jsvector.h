@@ -2130,6 +2130,13 @@ other
 ;
 public
 :
+static
+const
+size_t
+sMaxInlineStorage
+=
+N
+;
 typedef
 T
 ElementType

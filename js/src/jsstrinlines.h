@@ -656,6 +656,12 @@ context
 )
 ;
 }
+jschar
+*
+extractWellSized
+(
+)
+;
 public
 :
 explicit
