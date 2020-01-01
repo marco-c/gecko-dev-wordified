@@ -7685,12 +7685,6 @@ defined
 (
 _M_IX86
 )
-#
-if
-defined
-(
-__i386__
-)
 |
 |
 defined

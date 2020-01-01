@@ -7701,7 +7701,7 @@ return
 sXPConnect
 -
 >
-MoveWrappers
+ReparentScopeAwareWrappers
 (
 cx
 oldScopeObj
@@ -30193,7 +30193,10 @@ clone
 jsval
 temp
 ;
-JSAutoIdArray
+js
+:
+:
+AutoIdArray
 ids
 ;
 jsuint
@@ -30277,7 +30280,10 @@ CloneStackFrame
 *
 prevFrame
 ;
-JSAutoTempValueRooter
+js
+:
+:
+AutoArrayRooter
 tvrVals
 ;
 }
@@ -31600,7 +31606,10 @@ OBJECT_TO_JSVAL
 obj
 )
 ;
-JSAutoTempValueRooter
+js
+:
+:
+AutoValueRooter
 tvr
 (
 cx
@@ -32738,11 +32747,8 @@ mozAutoRemovableBlockerRemover
 nsIDocument
 *
 aDocument
-MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 {
-MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
-;
 mNestingLevel
 =
 nsContentUtils

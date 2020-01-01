@@ -1816,11 +1816,13 @@ desc
 setter
 =
 =
-STOBJ_GET_CLASS
-(
 desc
 .
 obj
+-
+>
+getClass
+(
 )
 -
 >

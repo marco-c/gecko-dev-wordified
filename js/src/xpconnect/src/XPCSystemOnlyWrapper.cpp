@@ -1016,9 +1016,11 @@ JSClass
 *
 clasp
 =
-STOBJ_GET_CLASS
-(
 obj
+-
+>
+getClass
+(
 )
 ;
 NS_ASSERTION
