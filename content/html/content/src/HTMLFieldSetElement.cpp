@@ -118,6 +118,13 @@ h
 #
 include
 "
+nsContentList
+.
+h
+"
+#
+include
+"
 nsEventDispatcher
 .
 h

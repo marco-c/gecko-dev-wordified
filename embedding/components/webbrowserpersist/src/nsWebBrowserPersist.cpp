@@ -426,6 +426,13 @@ h
 #
 include
 "
+nsIDOMHTMLCollection
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLImageElement
 .
 h
