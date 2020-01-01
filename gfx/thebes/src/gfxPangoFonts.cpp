@@ -1146,14 +1146,6 @@ FontCallback
 familyArray
 )
 ;
-FindGenericFontFromStyle
-(
-PR_FALSE
-FontCallback
-&
-familyArray
-)
-;
 /
 /
 Construct
