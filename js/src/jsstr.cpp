@@ -5744,9 +5744,8 @@ return
 JS_TRUE
 ;
 }
-static
 JSBool
-str_charAt
+js_str_charAt
 (
 JSContext
 *
@@ -14125,7 +14124,7 @@ JS_FN
 "
 charAt
 "
-str_charAt
+js_str_charAt
 1
 GENERIC_PRIMITIVE
 )
