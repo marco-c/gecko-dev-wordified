@@ -13804,11 +13804,6 @@ aClasses
 )
 ;
 static
-nsIDOMScriptObjectFactory
-*
-sDOMScriptObjectFactory
-;
-static
 nsIXPConnect
 *
 sXPConnect
