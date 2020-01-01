@@ -400,7 +400,7 @@ class
 XULLinkAccessible
 :
 public
-HyperTextAccessibleWrap
+XULLabelAccessible
 {
 public
 :
