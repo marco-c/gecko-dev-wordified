@@ -406,7 +406,7 @@ methods
 *
 readonly
 attribute
-nsIDOMSVGPointList
+DOMSVGPointList
 points
 ;
 *
@@ -417,7 +417,7 @@ nsSVGPolyElement
 :
 GetPoints
 (
-nsIDOMSVGPointList
+nsISupports
 *
 *
 aPoints
@@ -458,7 +458,7 @@ NS_OK
 *
 readonly
 attribute
-nsIDOMSVGPointList
+DOMSVGPointList
 animatedPoints
 ;
 *
@@ -469,7 +469,7 @@ nsSVGPolyElement
 :
 GetAnimatedPoints
 (
-nsIDOMSVGPointList
+nsISupports
 *
 *
 aAnimatedPoints

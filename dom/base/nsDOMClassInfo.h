@@ -241,9 +241,6 @@ class
 nsIDOMSVGPoint
 ;
 class
-nsIDOMSVGPointList
-;
-class
 nsIDOMSVGStringList
 ;
 class
