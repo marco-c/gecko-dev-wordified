@@ -19486,7 +19486,7 @@ InternalLoad
 errorPageURI
 nsnull
 nsnull
-PR_TRUE
+INTERNAL_LOAD_FLAGS_INHERIT_OWNER
 nsnull
 nsnull
 nsnull
