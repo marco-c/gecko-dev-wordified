@@ -492,7 +492,10 @@ AllocPLayers
 const
 LayersBackend
 &
-backendType
+aBackendType
+int
+*
+aMaxTextureSize
 )
 ;
 virtual

@@ -4359,6 +4359,9 @@ LayerManager
 LayersBackend
 be
 ;
+PRInt32
+maxTextureSize
+;
 PLayersChild
 *
 shadowManager
@@ -4370,6 +4373,8 @@ SendPLayersConstructor
 (
 &
 be
+&
+maxTextureSize
 )
 ;
 if
@@ -4455,6 +4460,14 @@ lf
 SetParentBackendType
 (
 be
+)
+;
+lf
+-
+>
+SetMaxTextureSize
+(
+maxTextureSize
 )
 ;
 mRemoteFrame

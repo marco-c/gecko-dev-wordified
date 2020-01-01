@@ -615,6 +615,17 @@ MAX_TEXTURE_SIZE
 ;
 }
 virtual
+PRInt32
+GetMaxTextureSize
+(
+)
+const
+{
+return
+MAX_TEXTURE_SIZE
+;
+}
+virtual
 already_AddRefed
 <
 ThebesLayer
