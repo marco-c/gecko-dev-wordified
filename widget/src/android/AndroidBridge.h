@@ -1028,6 +1028,11 @@ PRBool
 aFullScreen
 )
 ;
+void
+ShowInputMethodPicker
+(
+)
+;
 struct
 AutoLocalJNIFrame
 {
@@ -1359,6 +1364,9 @@ jGetDpi
 ;
 jmethodID
 jSetFullScreen
+;
+jmethodID
+jShowInputMethodPicker
 ;
 /
 /
