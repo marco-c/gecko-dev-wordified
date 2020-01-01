@@ -2130,6 +2130,16 @@ mExpired
 =
 false
 ;
+mIsSrcdocEntry
+=
+false
+;
+mSrcdocData
+=
+NullString
+(
+)
+;
 return
 NS_OK
 ;
