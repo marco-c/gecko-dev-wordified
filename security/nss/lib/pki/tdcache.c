@@ -3840,7 +3840,7 @@ instance
 )
 =
 =
-SECSuccess
+PR_SUCCESS
 )
 {
 continue
