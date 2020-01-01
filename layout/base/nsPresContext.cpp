@@ -2412,6 +2412,8 @@ aLanguage
 :
 nsresult
 rv
+=
+NS_OK
 ;
 nsIAtom
 *
