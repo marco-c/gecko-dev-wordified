@@ -3415,7 +3415,7 @@ oldChild
 aChild
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 Adding
