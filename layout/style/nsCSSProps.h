@@ -3228,6 +3228,13 @@ kWordWrapKTable
 static
 const
 int32_t
+kWritingModeKTable
+[
+]
+;
+static
+const
+int32_t
 kHyphensKTable
 [
 ]
