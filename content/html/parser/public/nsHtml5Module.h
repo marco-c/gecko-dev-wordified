@@ -455,6 +455,17 @@ nsIChannel
 aChannel
 )
 ;
+#
+ifdef
+DEBUG
+private
+:
+static
+PRBool
+sNsHtml5ModuleInitialized
+;
+#
+endif
 }
 ;
 #
