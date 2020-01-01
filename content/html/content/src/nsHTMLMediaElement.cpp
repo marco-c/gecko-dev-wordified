@@ -13461,6 +13461,17 @@ PRUnichar
 aData
 )
 {
+NS_ENSURE_TRUE
+(
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
+NS_ERROR_NOT_AVAILABLE
+)
+;
 if
 (
 strcmp
