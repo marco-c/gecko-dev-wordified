@@ -1532,6 +1532,10 @@ StackFrame
 fp
 )
 {
+if
+(
+fp
+)
 check
 (
 &

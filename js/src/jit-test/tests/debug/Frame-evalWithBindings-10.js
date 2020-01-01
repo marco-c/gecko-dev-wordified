@@ -4,7 +4,7 @@ Direct
 eval
 code
 under
-evalWithbindings
+evalWithBindings
 sees
 both
 the
