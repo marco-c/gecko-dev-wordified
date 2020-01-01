@@ -4063,12 +4063,6 @@ aData
 -
 >
 mContent
-&
-&
-aData
--
->
-mContent
 -
 >
 IsInNativeAnonymousSubtree
