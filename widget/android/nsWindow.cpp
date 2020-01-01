@@ -501,7 +501,7 @@ class
 ContentCreationNotifier
 ;
 static
-nsCOMPtr
+StaticRefPtr
 <
 ContentCreationNotifier
 >
@@ -4387,7 +4387,7 @@ obs
 )
 break
 ;
-nsCOMPtr
+nsRefPtr
 <
 ContentCreationNotifier
 >
