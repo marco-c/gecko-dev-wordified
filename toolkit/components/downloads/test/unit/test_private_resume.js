@@ -355,7 +355,8 @@ httpserv
 .
 start
 (
-4444
+-
+1
 )
 ;
 let
@@ -506,6 +507,7 @@ state
 ;
 addDownload
 (
+httpserv
 {
 isPrivate
 :
@@ -654,7 +656,15 @@ http
 /
 localhost
 :
-4444
+"
++
+httpserv
+.
+identity
+.
+primaryPort
++
+"
 /
 head_download_manager
 .
@@ -686,6 +696,7 @@ dl
 =
 addDownload
 (
+httpserv
 {
 isPrivate
 :

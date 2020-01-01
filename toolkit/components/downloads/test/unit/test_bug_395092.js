@@ -259,7 +259,8 @@ httpserv
 .
 start
 (
-4444
+-
+1
 )
 ;
 /
@@ -465,6 +466,7 @@ false
 ;
 addDownload
 (
+httpserv
 )
 ;
 do_test_pending

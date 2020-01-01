@@ -394,6 +394,7 @@ adding
 ;
 addDownload
 (
+httpserv
 )
 ;
 }
@@ -423,6 +424,7 @@ dl
 =
 addDownload
 (
+httpserv
 )
 ;
 dm
@@ -540,7 +542,8 @@ httpserv
 .
 start
 (
-4444
+-
+1
 )
 ;
 /
