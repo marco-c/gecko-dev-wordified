@@ -986,6 +986,7 @@ is
 scoped
 .
 return
+(
 aContent
 -
 >
@@ -995,6 +996,19 @@ nsGkAtoms
 :
 :
 style
+)
+|
+|
+aContent
+-
+>
+IsSVG
+(
+nsGkAtoms
+:
+:
+style
+)
 )
 &
 &
