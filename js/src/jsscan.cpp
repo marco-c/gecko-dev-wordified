@@ -5405,6 +5405,9 @@ case
 TOK_STRING
 :
 case
+TOK_XMLATTR
+:
+case
 TOK_XMLSPACE
 :
 case
