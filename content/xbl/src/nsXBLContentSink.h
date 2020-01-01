@@ -706,6 +706,9 @@ bug
 bool
 mFoundFirstBinding
 ;
+nsString
+mCurrentBindingID
+;
 nsXBLPrototypeBinding
 *
 mBinding
