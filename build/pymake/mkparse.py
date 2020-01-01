@@ -39,6 +39,23 @@ fd
 open
 (
 f
+'
+rU
+'
+)
+    
+s
+=
+fd
+.
+read
+(
+)
+    
+fd
+.
+close
+(
 )
     
 stmts
@@ -47,16 +64,10 @@ pymake
 .
 parser
 .
-parsestream
+parsestring
 (
-fd
+s
 f
-)
-    
-fd
-.
-close
-(
 )
     
 print
