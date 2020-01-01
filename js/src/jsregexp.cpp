@@ -18851,6 +18851,9 @@ nrefs
 0
 )
 {
+#
+ifdef
+JS_TRACER
 /
 *
 Don
@@ -18867,6 +18870,7 @@ regexp
 at
 same
 addr
+.
 *
 /
 Fragment
@@ -18897,6 +18901,8 @@ blacklist
 (
 )
 ;
+#
+endif
 if
 (
 re
