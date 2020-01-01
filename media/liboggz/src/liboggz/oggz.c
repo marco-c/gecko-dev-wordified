@@ -3190,7 +3190,7 @@ OGGZ_ERR_STOP_ERR
 default
 :
 return
-cb_ret
+OGGZ_ERR_STOP_ERR
 ;
 }
 }
