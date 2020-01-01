@@ -790,10 +790,14 @@ int
 words
 )
 ;
+if
+(
+registers
+)
 printf
 (
 "
-Regsters
+Registers
 R0
 =
 0x
@@ -1028,6 +1032,10 @@ int
 words
 )
 ;
+if
+(
+registers
+)
 printf
 (
 "

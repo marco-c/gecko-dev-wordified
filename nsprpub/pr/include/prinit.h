@@ -780,9 +780,8 @@ PR_VERSION
 .
 8
 .
-6
+7
 Beta
-3
 "
 #
 define
@@ -795,7 +794,7 @@ PR_VMINOR
 #
 define
 PR_VPATCH
-6
+7
 #
 define
 PR_BETA

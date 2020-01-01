@@ -1218,9 +1218,6 @@ PR_SUCCESS
 return
 status
 ;
-#
-ifndef
-GC_LEAK_DETECTOR
 /
 *
 if
@@ -1290,8 +1287,6 @@ return
 status
 ;
 }
-#
-endif
 return
 PR_SUCCESS
 ;
