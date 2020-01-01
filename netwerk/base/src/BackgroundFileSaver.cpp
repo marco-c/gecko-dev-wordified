@@ -3184,6 +3184,9 @@ hash
 .
 if
 (
+mDigestContext
+&
+&
 append
 &
 &
