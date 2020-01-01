@@ -52,6 +52,13 @@ chromium_types
 .
 h
 "
+#
+include
+"
+gfxCore
+.
+h
+"
 namespace
 mozilla
 {
@@ -155,7 +162,10 @@ depending
 on
 source
 format
+NS_GFX_
+(
 void
+)
 ConvertYCbCrToRGB32
 (
 const
