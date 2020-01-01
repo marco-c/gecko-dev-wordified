@@ -2650,12 +2650,6 @@ ProcessHandle
 >
 processHandles
 ;
-base
-:
-:
-ProcessHandle
-handle
-;
 processHandles
 .
 AppendElement
@@ -2668,6 +2662,13 @@ OtherProcess
 #
 ifdef
 MOZ_CRASHREPORTER_INJECTOR
+{
+base
+:
+:
+ProcessHandle
+handle
+;
 if
 (
 mFlashProcess1
@@ -2715,6 +2716,7 @@ AppendElement
 handle
 )
 ;
+}
 }
 #
 endif
