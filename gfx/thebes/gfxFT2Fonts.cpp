@@ -4819,6 +4819,7 @@ mString
 Length
 (
 )
+0
 )
 ;
 PRUint32
