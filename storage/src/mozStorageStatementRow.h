@@ -457,7 +457,7 @@ MOZSTORAGESTATEMENTROW_H
 #
 include
 "
-mozIStorageStatementWrapper
+mozIStorageStatementRow
 .
 h
 "

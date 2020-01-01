@@ -457,7 +457,7 @@ MOZSTORAGESTATEMENTPARAMS_H
 #
 include
 "
-mozIStorageStatementWrapper
+mozIStorageStatementParams
 .
 h
 "
