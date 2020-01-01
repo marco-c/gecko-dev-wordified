@@ -2310,12 +2310,7 @@ Status
 :
 "
 +
-JSON
-.
-stringify
-(
 Status
-)
 )
 ;
 do_check_false
