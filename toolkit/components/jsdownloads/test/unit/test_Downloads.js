@@ -499,9 +499,7 @@ isPrivate
 *
 *
 Tests
-"
-fetch
-"
+startDirect
 with
 nsIURI
 and
@@ -514,7 +512,7 @@ arguments
 add_task
 (
 function
-test_fetch_uri_file_arguments
+test_startDirect_uri_file_arguments
 (
 )
 {
@@ -529,7 +527,7 @@ TEST_TARGET_FILE_NAME
 yield
 Downloads
 .
-fetch
+startDirect
 (
 NetUtil
 .
@@ -564,9 +562,7 @@ TEST_DATA_SHORT
 *
 *
 Tests
-"
-fetch
-"
+startDirect
 with
 DownloadSource
 and
@@ -579,7 +575,7 @@ arguments
 add_task
 (
 function
-test_fetch_object_arguments
+test_startDirect_object_arguments
 (
 )
 {
@@ -596,7 +592,7 @@ path
 yield
 Downloads
 .
-fetch
+startDirect
 (
 {
 url
@@ -632,9 +628,7 @@ TEST_DATA_SHORT
 *
 *
 Tests
-"
-fetch
-"
+startDirect
 with
 string
 arguments
@@ -644,7 +638,7 @@ arguments
 add_task
 (
 function
-test_fetch_string_arguments
+test_startDirect_string_arguments
 (
 )
 {
@@ -661,7 +655,7 @@ path
 yield
 Downloads
 .
-fetch
+startDirect
 (
 httpUrl
 (
@@ -693,7 +687,7 @@ path
 yield
 Downloads
 .
-fetch
+startDirect
 (
 new
 String
