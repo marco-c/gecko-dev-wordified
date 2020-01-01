@@ -2589,6 +2589,13 @@ uint32
 slot
 )
 {
+JS_ASSERT
+(
+slot
+<
+stackPosition_
+)
+;
 if
 (
 slots_

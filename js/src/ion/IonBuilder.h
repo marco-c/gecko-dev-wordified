@@ -1853,6 +1853,11 @@ op
 )
 ;
 bool
+jsop_dup2
+(
+)
+;
+bool
 jsop_incslot
 (
 JSOp
