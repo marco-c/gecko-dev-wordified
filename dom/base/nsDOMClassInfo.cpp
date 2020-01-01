@@ -12723,8 +12723,8 @@ cx
 obj
 sConstructor_id
 val
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_ENUMERATE
 )
 )
@@ -15823,8 +15823,8 @@ cx
 obj
 id
 v
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 0
 )
 )
@@ -17526,8 +17526,8 @@ GetName
 (
 )
 v
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -18187,8 +18187,8 @@ c
 .
 name
 value
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_ENUMERATE
 )
 )
@@ -18372,7 +18372,7 @@ c
 name
 JSVAL_VOID
 IDBConstantGetter
-nullptr
+JS_StrictPropertyStub
 JSPROP_ENUMERATE
 )
 )
@@ -18578,8 +18578,8 @@ NS_strlen
 mClassName
 )
 thisAsVal
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 0
 )
 ;
@@ -22022,8 +22022,8 @@ class_obj
 prototype
 "
 v
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
@@ -22573,8 +22573,8 @@ ObjectValue
 *
 interfaceObject
 )
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 0
 )
 )
@@ -23606,8 +23606,8 @@ cx
 obj
 id
 prop_val
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_ENUMERATE
 )
 ;
@@ -24880,7 +24880,7 @@ cx
 obj
 id
 v
-nullptr
+JS_PropertyStub
 LocationSetterUnwrapper
 JSPROP_PERMANENT
 |
@@ -25014,8 +25014,8 @@ cx
 obj
 id
 v
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -25317,7 +25317,7 @@ JS_DATA_TO_FUNC_PTR
 JSPropertyOp
 funObj
 )
-nullptr
+JS_StrictPropertyStub
 JSPROP_ENUMERATE
 |
 JSPROP_GETTER
@@ -25563,8 +25563,8 @@ cx
 obj
 id
 v
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -25738,8 +25738,8 @@ obj
 document
 "
 v
-NULL
-NULL
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_READONLY
 |
 JSPROP_ENUMERATE
@@ -27262,8 +27262,8 @@ cx
 obj
 id
 prop_val
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_ENUMERATE
 )
 ;
@@ -31728,7 +31728,7 @@ cx
 obj
 id
 v
-nullptr
+JS_PropertyStub
 LocationSetter
 <
 nsIDOMDocument
