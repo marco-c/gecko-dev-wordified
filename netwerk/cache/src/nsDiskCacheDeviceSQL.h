@@ -491,13 +491,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsInterfaceHashtable
 .
 h

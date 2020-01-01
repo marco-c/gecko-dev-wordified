@@ -474,7 +474,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -558,7 +558,7 @@ if
 (
 mRequestQ
 .
-Count
+Length
 (
 )
 =
@@ -569,10 +569,6 @@ return
 nsnull
 ;
 return
-(
-nsAHttpTransaction
-*
-)
 mRequestQ
 [
 i
@@ -591,7 +587,7 @@ if
 (
 mResponseQ
 .
-Count
+Length
 (
 )
 =
@@ -602,10 +598,6 @@ return
 nsnull
 ;
 return
-(
-nsAHttpTransaction
-*
-)
 mResponseQ
 [
 i
@@ -616,7 +608,11 @@ nsAHttpConnection
 *
 mConnection
 ;
-nsVoidArray
+nsTArray
+<
+nsAHttpTransaction
+*
+>
 mRequestQ
 ;
 /
@@ -624,7 +620,11 @@ mRequestQ
 array
 of
 transactions
-nsVoidArray
+nsTArray
+<
+nsAHttpTransaction
+*
+>
 mResponseQ
 ;
 /

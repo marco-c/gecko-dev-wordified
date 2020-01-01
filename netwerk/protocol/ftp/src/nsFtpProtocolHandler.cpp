@@ -1043,7 +1043,7 @@ NS_ASSERTION
 (
 mRootConnectionList
 .
-Count
+Length
 (
 )
 =
@@ -1873,7 +1873,7 @@ ts
 =
 nsnull
 ;
-PRInt32
+PRUint32
 i
 ;
 PRBool
@@ -1891,7 +1891,7 @@ i
 <
 mRootConnectionList
 .
-Count
+Length
 (
 )
 ;
@@ -1902,10 +1902,6 @@ i
 {
 ts
 =
-(
-timerStruct
-*
-)
 mRootConnectionList
 [
 i
@@ -2217,7 +2213,7 @@ if
 (
 mRootConnectionList
 .
-Count
+Length
 (
 )
 =
@@ -2225,7 +2221,7 @@ Count
 IDLE_CONNECTION_LIMIT
 )
 {
-PRInt32
+PRUint32
 i
 ;
 for
@@ -2238,7 +2234,7 @@ i
 <
 mRootConnectionList
 .
-Count
+Length
 (
 )
 ;
@@ -2251,10 +2247,6 @@ timerStruct
 *
 candidate
 =
-(
-timerStruct
-*
-)
 mRootConnectionList
 [
 i
@@ -2296,7 +2288,7 @@ if
 (
 mRootConnectionList
 .
-Count
+Length
 (
 )
 =
@@ -2308,10 +2300,6 @@ timerStruct
 *
 eldest
 =
-(
-timerStruct
-*
-)
 mRootConnectionList
 [
 0
@@ -2549,7 +2537,7 @@ offline
 )
 )
 {
-PRInt32
+PRUint32
 i
 ;
 for
@@ -2562,7 +2550,7 @@ i
 <
 mRootConnectionList
 .
-Count
+Length
 (
 )
 ;
@@ -2571,10 +2559,6 @@ Count
 i
 )
 delete
-(
-timerStruct
-*
-)
 mRootConnectionList
 [
 i
