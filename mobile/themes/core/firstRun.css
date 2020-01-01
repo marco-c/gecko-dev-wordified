@@ -578,6 +578,10 @@ margin
 0
 8px
 ;
+clear
+:
+both
+;
 }
 #
 head
@@ -612,10 +616,6 @@ color
 :
 #
 999
-;
-clear
-:
-both
 ;
 margin
 -
