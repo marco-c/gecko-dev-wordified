@@ -1972,7 +1972,7 @@ InitBadUnderlineList
 {
 nsAutoTArray
 <
-nsAutoString
+nsString
 10
 >
 blacklist
