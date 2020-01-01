@@ -520,12 +520,6 @@ this
 .
 enabled
 ;
-Appbar
-.
-_updateDebugButtons
-(
-)
-;
 }
 observe
 :
