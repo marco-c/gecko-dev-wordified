@@ -4486,17 +4486,6 @@ slotsEnd
 =
 nextSegEnd
 ;
-jsbytecode
-*
-pc
-=
-seg
--
->
-maybepc
-(
-)
-;
 for
 (
 StackFrame
@@ -4574,8 +4563,6 @@ InlinedSite
 *
 site
 ;
-pc
-=
 fp
 -
 >
