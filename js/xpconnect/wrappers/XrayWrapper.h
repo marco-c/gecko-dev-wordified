@@ -258,10 +258,7 @@ JSContext
 cx
 JSObject
 *
-wrappedNative
-JSObject
-*
-parent
+wrapper
 )
 ;
 bool
