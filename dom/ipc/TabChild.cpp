@@ -3044,6 +3044,10 @@ const
 bool
 &
 flushLayout
+const
+nsIntSize
+&
+renderSize
 )
 {
 return
@@ -3100,6 +3104,10 @@ const
 bool
 &
 flushLayout
+const
+nsIntSize
+&
+renderSize
 )
 {
 DocumentRendererChild
@@ -3173,9 +3181,6 @@ true
 silently
 ignore
 }
-nsIntSize
-renderedSize
-;
 nsCString
 data
 ;
@@ -3193,8 +3198,7 @@ transform
 bgcolor
 renderFlags
 flushLayout
-&
-renderedSize
+renderSize
 data
 )
 ;
@@ -3217,7 +3221,7 @@ PDocumentRendererChild
 Send__delete__
 (
 actor
-renderedSize
+renderSize
 data
 )
 ;

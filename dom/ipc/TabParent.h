@@ -999,6 +999,10 @@ const
 bool
 &
 flushLayout
+const
+nsIntSize
+&
+renderSize
 )
 ;
 virtual
