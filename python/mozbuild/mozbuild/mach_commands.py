@@ -60,6 +60,8 @@ import
 print_function
 unicode_literals
 import
+getpass
+import
 logging
 import
 operator
@@ -1402,6 +1404,21 @@ name
 '
 Finder
 '
+:
+                
+continue
+            
+if
+proc
+.
+username
+!
+=
+getpass
+.
+getuser
+(
+)
 :
                 
 continue
