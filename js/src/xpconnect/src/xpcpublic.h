@@ -441,6 +441,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 jsobj
 .
 h
@@ -1418,9 +1425,6 @@ tjitDataAllocatorsReserve
 ;
 #
 endif
-JSCompartment
-:
-:
 TypeInferenceMemoryStats
 typeInferenceMemory
 ;

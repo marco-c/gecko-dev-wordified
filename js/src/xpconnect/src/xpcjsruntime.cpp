@@ -7836,12 +7836,10 @@ compartment
 ;
 #
 endif
-compartment
--
->
-getTypeInferenceMemoryStats
+JS_GetTypeInferenceMemoryStats
 (
 cx
+compartment
 &
 curr
 -
@@ -8251,15 +8249,7 @@ TypeObject
 thing
 )
 ;
-obj
--
->
-compartment
-(
-)
--
->
-getTypeInferenceObjectStats
+JS_GetTypeInferenceObjectStats
 (
 obj
 &
@@ -10597,8 +10587,7 @@ nsIMemoryReporter
 :
 KIND_HEAP
 stats
--
->
+.
 typeInferenceMemory
 .
 scriptMain
@@ -10622,6 +10611,8 @@ observed
 types
 .
 "
+callback
+closure
 )
 ;
 ReportMemoryBytes0
@@ -10647,8 +10638,7 @@ nsIMemoryReporter
 :
 KIND_HEAP
 stats
--
->
+.
 typeInferenceMemory
 .
 scriptSets
@@ -10672,6 +10662,8 @@ with
 scripts
 .
 "
+callback
+closure
 )
 ;
 ReportMemoryBytes0
@@ -10697,8 +10689,7 @@ nsIMemoryReporter
 :
 KIND_HEAP
 stats
--
->
+.
 typeInferenceMemory
 .
 objectMain
@@ -10722,6 +10713,8 @@ JS
 objects
 .
 "
+callback
+closure
 )
 ;
 ReportMemoryBytes0
@@ -10747,8 +10740,7 @@ nsIMemoryReporter
 :
 KIND_HEAP
 stats
--
->
+.
 typeInferenceMemory
 .
 objectSets
@@ -10772,6 +10764,8 @@ with
 objects
 .
 "
+callback
+closure
 )
 ;
 /
@@ -10827,8 +10821,7 @@ nsIMemoryReporter
 :
 KIND_HEAP
 stats
--
->
+.
 typeInferenceMemory
 .
 poolMain
@@ -10845,6 +10838,8 @@ analysis
 information
 .
 "
+callback
+closure
 )
 ;
 }
