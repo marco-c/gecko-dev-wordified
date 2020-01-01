@@ -832,6 +832,16 @@ aRect
 )
 const
 ;
+PRBool
+Contains
+(
+const
+gfxPoint
+&
+aPoint
+)
+const
+;
 /
 /
 XXX

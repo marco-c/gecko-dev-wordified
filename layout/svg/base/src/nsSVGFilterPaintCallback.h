@@ -437,9 +437,6 @@ class
 nsIFrame
 ;
 class
-nsIDOMSVGMatrix
-;
-class
 nsSVGRenderState
 ;
 class
