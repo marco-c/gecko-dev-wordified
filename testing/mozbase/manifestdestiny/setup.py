@@ -126,7 +126,7 @@ PACKAGE_VERSION
 .
 5
 .
-5
+6
 '
 setup
 (

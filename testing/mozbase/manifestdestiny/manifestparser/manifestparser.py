@@ -72,35 +72,6 @@ parser
 "
 "
 "
-#
-this
-file
-lives
-at
-#
-http
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-automation
-/
-ManifestDestiny
-/
-raw
--
-file
-/
-tip
-/
-manifestparser
-.
-py
 __all__
 =
 [
@@ -3097,7 +3068,7 @@ path
 section
 )
             
-relpath
+_relpath
 =
 path
             
@@ -3150,12 +3121,8 @@ here
 path
 )
                 
-relpath
+_relpath
 =
-os
-.
-path
-.
 relpath
 (
 path
@@ -3180,7 +3147,7 @@ relpath
 '
 ]
 =
-relpath
+_relpath
             
 #
 append
