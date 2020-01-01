@@ -2020,6 +2020,22 @@ logging
 .
 DEBUG
         
+self
+.
+log_manager
+.
+register_structured_logger
+(
+logging
+.
+getLogger
+(
+'
+mach
+'
+)
+)
+        
 #
 Always
 enable
