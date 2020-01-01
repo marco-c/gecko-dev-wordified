@@ -3584,6 +3584,7 @@ Find
 "
 ch
 "
+PR_FALSE
 widthOffset
 +
 6
