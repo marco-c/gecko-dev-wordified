@@ -242,13 +242,6 @@ aResult
 )
 const
 ;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
-;
 /
 /
 WebIDL
