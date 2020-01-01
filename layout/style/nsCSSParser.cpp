@@ -10676,13 +10676,13 @@ out
 pseudo
 elements
 here
-nsAtomStringList
+nsPseudoClassList
 *
 prevList
 =
 nsnull
 ;
-nsAtomStringList
+nsPseudoClassList
 *
 pseudoClassList
 =

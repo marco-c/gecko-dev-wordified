@@ -25476,7 +25476,7 @@ have
 a
 match
 .
-nsAtomStringList
+nsPseudoClassList
 *
 curr
 =
