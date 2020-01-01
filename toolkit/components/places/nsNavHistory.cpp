@@ -25393,7 +25393,7 @@ nsPrintfCString
 (
 "
 %
-d
+lld
 "
 includeFolders
 [
