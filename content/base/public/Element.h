@@ -2310,9 +2310,6 @@ aStates
 )
 ;
 }
-nsEventStates
-mState
-;
 public
 :
 virtual
@@ -6485,6 +6482,13 @@ aStyledFrame
 =
 nullptr
 )
+;
+/
+/
+Data
+members
+nsEventStates
+mState
 ;
 }
 ;
