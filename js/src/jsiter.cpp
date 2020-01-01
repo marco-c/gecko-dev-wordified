@@ -4304,6 +4304,14 @@ isNative
 )
 |
 |
+pobj
+-
+>
+hasUncacheableProto
+(
+)
+|
+|
 obj
 -
 >
