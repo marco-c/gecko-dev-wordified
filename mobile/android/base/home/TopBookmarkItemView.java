@@ -105,6 +105,8 @@ mozilla
 .
 gecko
 .
+favicons
+.
 Favicons
 ;
 import
