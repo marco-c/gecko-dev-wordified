@@ -2616,6 +2616,9 @@ makeProxyNodesFor
 uint32_t
 pseudoId
 =
+(
+uint32_t
+)
 ~
 0
 ;
@@ -2625,6 +2628,12 @@ ids
 for
 proxy
 nodes
+LIns
+*
+src
+=
+NULL
+;
 InsBuf
 str
 ;
@@ -2662,8 +2671,6 @@ key
 (
 )
 ;
-LIns
-*
 src
 =
 _alt
