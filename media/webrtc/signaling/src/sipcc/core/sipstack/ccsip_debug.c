@@ -1392,15 +1392,6 @@ NULL
 return
 ;
 }
-CSFLogDebug
-(
-"
-sipstack
-"
-"
-"
-)
-;
 /
 *
 replace
