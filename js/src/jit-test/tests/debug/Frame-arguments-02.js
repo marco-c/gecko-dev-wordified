@@ -69,13 +69,6 @@ length
 2
 )
 ;
-dumpObject
-(
-Debugger
-.
-Object
-)
-;
 assertEq
 (
 args
