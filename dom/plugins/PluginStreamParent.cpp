@@ -508,10 +508,9 @@ get
 (
 )
 )
-target
-.
-get
+NullableStringGet
 (
+target
 )
 &
 mStream
