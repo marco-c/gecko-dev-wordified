@@ -1172,6 +1172,13 @@ aMessage
 json
 )
 {
+if
+(
+!
+presenter
+)
+continue
+;
 Output
 [
 presenter
