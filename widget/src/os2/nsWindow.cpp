@@ -4739,16 +4739,12 @@ PRUint32
 aMsg
 )
 {
-nsMouseEvent
+nsDragEvent
 event
 (
 PR_TRUE
 aMsg
 this
-nsMouseEvent
-:
-:
-eReal
 )
 ;
 InitEvent
