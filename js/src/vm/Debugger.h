@@ -2934,12 +2934,6 @@ compartmentEnum
 )
 ;
 static
-unsigned
-gcGrayLinkSlot
-(
-)
-;
-static
 bool
 isDebugWrapper
 (
