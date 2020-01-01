@@ -245,6 +245,13 @@ MappedPtr
 public
 :
 virtual
+~
+Buffer
+(
+)
+{
+}
+virtual
 bool
 Resize
 (
@@ -778,6 +785,7 @@ stats
 ;
 for
 (
+unsigned
 int
 i
 =
@@ -3059,6 +3067,7 @@ false
 ;
 for
 (
+unsigned
 int
 i
 =
