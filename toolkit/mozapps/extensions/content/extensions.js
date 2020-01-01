@@ -9044,8 +9044,14 @@ selected
 else
 showView
 (
+gShowGetAddonsPane
+?
 "
 search
+"
+:
+"
+extensions
 "
 )
 ;
