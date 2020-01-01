@@ -174,7 +174,7 @@ mobilemessage
 :
 :
 DeliveryState
-aState
+aDelivery
 const
 nsTArray
 <
@@ -229,7 +229,7 @@ aId
 const
 nsAString
 &
-aState
+aDelivery
 const
 JS
 :
@@ -290,7 +290,7 @@ mobilemessage
 :
 :
 DeliveryState
-mState
+mDelivery
 ;
 nsTArray
 <

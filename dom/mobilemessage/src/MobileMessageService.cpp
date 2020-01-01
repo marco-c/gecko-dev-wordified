@@ -254,7 +254,7 @@ aId
 const
 nsAString
 &
-aState
+aDelivery
 const
 JS
 :
@@ -313,7 +313,7 @@ MmsMessage
 Create
 (
 aId
-aState
+aDelivery
 aDeliveryStatus
 aSender
 aReceivers
