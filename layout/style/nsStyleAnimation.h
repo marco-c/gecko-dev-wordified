@@ -1196,9 +1196,6 @@ UncomputeValue
 (
 nsCSSProperty
 aProperty
-nsPresContext
-*
-aPresContext
 const
 Value
 &
@@ -1214,9 +1211,6 @@ UncomputeValue
 (
 nsCSSProperty
 aProperty
-nsPresContext
-*
-aPresContext
 const
 Value
 &

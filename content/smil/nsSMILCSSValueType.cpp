@@ -2825,10 +2825,6 @@ mPropID
 wrapper
 -
 >
-mPresContext
-wrapper
--
->
 mCSSValue
 aString
 )

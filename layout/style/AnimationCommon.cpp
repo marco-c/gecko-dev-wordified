@@ -850,10 +850,6 @@ UncomputeValue
 cv
 .
 mProperty
-aRuleData
--
->
-mPresContext
 cv
 .
 mValue
