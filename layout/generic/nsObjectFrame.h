@@ -1420,6 +1420,10 @@ plugin
 nsresult
 CallSetWindow
 (
+PRBool
+aCheckIsHidden
+=
+PR_TRUE
 )
 ;
 PRBool
