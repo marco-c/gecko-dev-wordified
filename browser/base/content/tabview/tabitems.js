@@ -8737,8 +8737,6 @@ isPaintingPaused
 UI
 .
 isIdle
-(
-)
 )
 return
 ;
