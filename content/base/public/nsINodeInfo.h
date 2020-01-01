@@ -850,7 +850,7 @@ URI
 *
 /
 virtual
-nsresult
+void
 GetNamespaceURI
 (
 nsAString

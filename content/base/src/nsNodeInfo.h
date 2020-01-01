@@ -205,7 +205,7 @@ nsNodeInfo
 /
 nsINodeInfo
 virtual
-nsresult
+void
 GetNamespaceURI
 (
 nsAString
