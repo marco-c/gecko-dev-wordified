@@ -725,6 +725,9 @@ nsIRunnable
 class
 gfxUserFontSet
 ;
+class
+nsUserFontSet
+;
 struct
 nsFontFaceRuleContainer
 ;
@@ -5274,7 +5277,7 @@ SVG
 etc
 .
 )
-gfxUserFontSet
+nsUserFontSet
 *
 mUserFontSet
 ;
