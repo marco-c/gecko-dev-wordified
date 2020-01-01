@@ -6422,6 +6422,14 @@ identifier
 "
 OverrideBuiltins
 "
+or
+                  
+identifier
+=
+=
+"
+ChromeOnly
+"
 )
 :
                 
