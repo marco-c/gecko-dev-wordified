@@ -221,7 +221,7 @@ mLastVideoFrame
 NULL
 )
 {
-reinterpret_cast
+static_cast
 <
 MediaPluginDecoder
 *
