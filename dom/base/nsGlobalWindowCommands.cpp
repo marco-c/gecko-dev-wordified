@@ -196,13 +196,6 @@ h
 #
 include
 "
-nsIClipboard
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h
@@ -2240,10 +2233,6 @@ nsCopySupport
 FireClipboardEvent
 (
 NS_COPY
-nsIClipboard
-:
-:
-kGlobalClipboard
 presShell
 nullptr
 )

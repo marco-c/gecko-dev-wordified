@@ -14382,10 +14382,6 @@ nsCopySupport
 FireClipboardEvent
 (
 NS_COPY
-nsIClipboard
-:
-:
-kGlobalClipboard
 mPresShell
 nullptr
 )

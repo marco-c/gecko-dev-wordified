@@ -1162,8 +1162,6 @@ FireClipboardEvent
 (
 int32_t
 aType
-int32_t
-aSelectionType
 )
 ;
 bool

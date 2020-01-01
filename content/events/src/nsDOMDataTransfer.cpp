@@ -402,8 +402,6 @@ uint32_t
 aEventType
 bool
 aIsExternal
-int32_t
-aClipboardType
 )
 :
 mEventType
@@ -443,10 +441,6 @@ false
 mIsCrossDomainSubFrameDrop
 (
 false
-)
-mClipboardType
-(
-aClipboardType
 )
 mDragImageX
 (
@@ -594,8 +588,6 @@ bool
 aUserCancelled
 bool
 aIsCrossDomainSubFrameDrop
-int32_t
-aClipboardType
 nsTArray
 <
 nsTArray
@@ -648,10 +640,6 @@ aUserCancelled
 mIsCrossDomainSubFrameDrop
 (
 aIsCrossDomainSubFrameDrop
-)
-mClipboardType
-(
-aClipboardType
 )
 mItems
 (
@@ -3532,7 +3520,6 @@ mCursorState
 mIsExternal
 aUserCancelled
 aIsCrossDomainSubFrameDrop
-mClipboardType
 mItems
 mDragImage
 mDragImageX
@@ -5408,11 +5395,6 @@ if
 (
 !
 clipboard
-|
-|
-mClipboardType
-<
-0
 )
 {
 return
@@ -5543,7 +5525,10 @@ f
 ]
 )
 1
-mClipboardType
+nsIClipboard
+:
+:
+kGlobalClipboard
 &
 supported
 )
@@ -5815,11 +5800,6 @@ if
 (
 !
 clipboard
-|
-|
-mClipboardType
-<
-0
 )
 {
 return
@@ -5831,7 +5811,10 @@ clipboard
 GetData
 (
 trans
-mClipboardType
+nsIClipboard
+:
+:
+kGlobalClipboard
 )
 ;
 }
