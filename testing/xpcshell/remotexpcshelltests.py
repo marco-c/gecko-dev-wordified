@@ -4250,6 +4250,9 @@ deviceIP
 options
 .
 devicePort
+packageName
+=
+None
 )
       
 else
@@ -4261,6 +4264,9 @@ devicemanagerADB
 .
 DeviceManagerADB
 (
+packageName
+=
+None
 )
     
 else
