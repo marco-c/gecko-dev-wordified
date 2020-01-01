@@ -1381,7 +1381,7 @@ pagethumbnails
 .
 capturing_disabled
 :
-true
+false
 /
 /
 /
@@ -1747,7 +1747,7 @@ pagethumbnails
 .
 capturing_disabled
 "
-true
+false
 ]
 [
 "
