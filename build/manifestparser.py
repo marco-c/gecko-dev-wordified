@@ -504,7 +504,7 @@ version
 .
 5
 .
-2
+3
 '
 #
 package
@@ -517,7 +517,6 @@ setuptools
 import
 setup
 except
-ImportError
 :
     
 setup
