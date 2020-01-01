@@ -617,7 +617,7 @@ nsTextBoxFrame
 void
 PaintTitle
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -699,7 +699,7 @@ LayoutTitle
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -711,7 +711,7 @@ aRect
 void
 CalculateUnderline
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 )
@@ -727,7 +727,7 @@ aBoxLayoutState
 void
 CalcDrawRect
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 )
@@ -748,7 +748,7 @@ CalculateTitleForWidth
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nscoord
@@ -761,7 +761,7 @@ GetTextSize
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -798,7 +798,7 @@ InsertSeparatorBeforeAccessKey
 void
 DrawText
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const

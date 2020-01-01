@@ -1458,7 +1458,7 @@ nsTextControlFrame
 :
 CalcIntrinsicSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -3038,7 +3038,7 @@ nsTextControlFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3085,7 +3085,7 @@ nsTextControlFrame
 :
 ComputeAutoSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize

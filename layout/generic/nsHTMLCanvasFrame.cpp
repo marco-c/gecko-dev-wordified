@@ -1010,7 +1010,7 @@ nsHTMLCanvasFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1076,7 +1076,7 @@ nsHTMLCanvasFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1187,7 +1187,7 @@ nsHTMLCanvasFrame
 :
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize

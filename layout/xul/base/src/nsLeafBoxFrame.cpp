@@ -496,7 +496,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -1009,7 +1009,7 @@ nsLeafBoxFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1124,7 +1124,7 @@ nsLeafBoxFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1251,7 +1251,7 @@ nsLeafBoxFrame
 :
 ComputeAutoSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize

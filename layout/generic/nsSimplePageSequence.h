@@ -993,7 +993,7 @@ endif
 void
 PaintPageSequence
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const

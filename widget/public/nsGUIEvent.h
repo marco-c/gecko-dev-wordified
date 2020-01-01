@@ -627,7 +627,7 @@ nsAccessible
 #
 endif
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsIMenuItem

@@ -4721,7 +4721,7 @@ static
 nsresult
 PaintFrame
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -4910,7 +4910,7 @@ static
 PRBool
 BinarySearchForPosition
 (
-nsIRenderingContext
+nsRenderingContext
 *
 acx
 const
@@ -5802,7 +5802,7 @@ static
 nscoord
 IntrinsicForContainer
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -6030,7 +6030,7 @@ static
 nscoord
 ComputeWidthValue
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -6452,7 +6452,7 @@ static
 nsSize
 ComputeSizeWithIntrinsicDimensions
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -6498,7 +6498,7 @@ PrefWidthFromInline
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -6524,7 +6524,7 @@ MinWidthFromInline
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -6537,7 +6537,7 @@ const
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 const
@@ -6562,7 +6562,7 @@ const
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 const
@@ -7237,7 +7237,7 @@ static
 nsresult
 DrawImage
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 imgIContainer
@@ -7428,7 +7428,7 @@ static
 void
 DrawPixelSnapped
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 gfxDrawable
@@ -7586,7 +7586,7 @@ static
 nsresult
 DrawSingleUnscaledImage
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 imgIContainer
@@ -7733,7 +7733,7 @@ static
 nsresult
 DrawSingleImage
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 imgIContainer
@@ -8014,7 +8014,7 @@ static
 void
 SetFontFromStyle
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRC
 nsStyleContext

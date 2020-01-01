@@ -550,7 +550,7 @@ PR_FALSE
 void
 PaintBorderBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -874,7 +874,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -897,7 +897,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -1029,7 +1029,7 @@ nsGroupBoxFrame
 :
 PaintBorderBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint

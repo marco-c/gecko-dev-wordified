@@ -446,7 +446,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -1964,7 +1964,7 @@ nsPageFrame
 :
 GetXPosition
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -2213,7 +2213,7 @@ nsPageFrame
 :
 DrawHeaderFooter
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsHeaderFooterEnum
@@ -2484,7 +2484,7 @@ nsPageFrame
 :
 DrawHeaderFooter
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsHeaderFooterEnum
@@ -3006,7 +3006,7 @@ PaintPrintPreviewBackground
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -3042,7 +3042,7 @@ PaintPageContent
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -3079,7 +3079,7 @@ PaintHeaderFooter
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -3471,7 +3471,7 @@ nsPageFrame
 :
 PaintPrintPreviewBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -3799,7 +3799,7 @@ nsPageFrame
 :
 PaintHeaderFooter
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -4209,7 +4209,7 @@ nsPageFrame
 :
 PaintPageContent
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const

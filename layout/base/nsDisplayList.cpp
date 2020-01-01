@@ -3156,7 +3156,7 @@ PaintRoot
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 PRUint32
@@ -3226,7 +3226,7 @@ PaintForFrame
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 nsIFrame
@@ -5178,7 +5178,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -7851,7 +7851,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -8066,7 +8066,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -8336,7 +8336,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -8588,7 +8588,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -8878,7 +8878,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -9193,7 +9193,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -9673,7 +9673,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -11658,7 +11658,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -12571,7 +12571,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -16057,7 +16057,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )

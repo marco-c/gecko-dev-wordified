@@ -2141,7 +2141,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2150,7 +2150,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

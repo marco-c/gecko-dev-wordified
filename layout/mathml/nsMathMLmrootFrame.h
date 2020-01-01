@@ -587,7 +587,7 @@ virtual
 nscoord
 GetIntrinsicWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

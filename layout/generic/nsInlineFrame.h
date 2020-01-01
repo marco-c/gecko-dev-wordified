@@ -736,7 +736,7 @@ virtual
 void
 AddInlineMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 InlineMinWidthData
@@ -748,7 +748,7 @@ virtual
 void
 AddInlinePrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 InlinePrefWidthData
@@ -760,7 +760,7 @@ virtual
 nsSize
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize

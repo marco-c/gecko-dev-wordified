@@ -576,7 +576,7 @@ virtual
 nsSize
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize

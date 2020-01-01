@@ -610,7 +610,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -619,7 +619,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -740,7 +740,7 @@ aResult
 void
 PaintBullet
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -778,7 +778,7 @@ GetDesiredSize
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsHTMLReflowMetrics

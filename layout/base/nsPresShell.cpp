@@ -1206,7 +1206,7 @@ MOZ_REFLOW_PERF
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -2883,7 +2883,7 @@ const
 char
 *
 aName
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsPresContext
@@ -5112,7 +5112,7 @@ NS_HIDDEN_
 (
 already_AddRefed
 <
-nsIRenderingContext
+nsRenderingContext
 >
 )
 GetReferenceRenderingContext
@@ -5918,7 +5918,7 @@ const
 char
 *
 aName
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsPresContext
@@ -21475,7 +21475,7 @@ prev
 }
 already_AddRefed
 <
-nsIRenderingContext
+nsRenderingContext
 >
 PresShell
 :
@@ -21504,7 +21504,7 @@ DeviceContext
 ;
 nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 rc
 ;
@@ -30793,9 +30793,9 @@ _
 this
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 rc
 ;
@@ -33179,9 +33179,9 @@ Fill
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 rc
 ;
@@ -33460,7 +33460,7 @@ translate
 the
 rendering
 context
-nsIRenderingContext
+nsRenderingContext
 :
 :
 AutoPushTranslation
@@ -45918,9 +45918,9 @@ GetRootFrame
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 rcx
 =
@@ -52790,7 +52790,7 @@ const
 char
 *
 aName
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsPresContext
@@ -54949,7 +54949,7 @@ const
 char
 *
 aName
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsPresContext

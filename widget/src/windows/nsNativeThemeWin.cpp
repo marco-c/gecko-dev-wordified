@@ -483,7 +483,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -6891,7 +6891,7 @@ nsNativeThemeWin
 :
 DrawWidgetBackground
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -11389,7 +11389,7 @@ nsNativeThemeWin
 :
 GetMinimumWidgetSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -14543,7 +14543,7 @@ nsNativeThemeWin
 :
 ClassicGetMinimumWidgetSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -18505,7 +18505,7 @@ nsNativeThemeWin
 :
 ClassicDrawWidgetBackground
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame

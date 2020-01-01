@@ -1065,9 +1065,9 @@ if
 widget
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 rcontext
 ;
@@ -1376,7 +1376,7 @@ nscoord
 aWidth
 nscoord
 aHeight
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderContext
 PRBool
@@ -1466,7 +1466,7 @@ PRBool
 aDir
 PRBool
 aBounds
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderContext
 )

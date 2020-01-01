@@ -639,7 +639,7 @@ aPD
 void
 PaintPrintPreviewBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -649,7 +649,7 @@ aPt
 void
 PaintHeaderFooter
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -659,7 +659,7 @@ aPt
 void
 PaintPageContent
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -696,7 +696,7 @@ nsHeaderFooterEnum
 nscoord
 GetXPosition
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -714,7 +714,7 @@ aStr
 void
 DrawHeaderFooter
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsHeaderFooterEnum
@@ -740,7 +740,7 @@ aWidth
 void
 DrawHeaderFooter
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsHeaderFooterEnum

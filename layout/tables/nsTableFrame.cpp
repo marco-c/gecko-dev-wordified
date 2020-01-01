@@ -477,7 +477,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -7326,7 +7326,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -7349,7 +7349,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -8720,7 +8720,7 @@ nsTableFrame
 :
 PaintTableBorderBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -8904,7 +8904,7 @@ mean
 modifying
 PaintBCBorders
 ugh
-nsIRenderingContext
+nsRenderingContext
 :
 :
 AutoPushTranslation
@@ -9760,7 +9760,7 @@ nsTableFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -9803,7 +9803,7 @@ nsTableFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -9850,7 +9850,7 @@ nsTableFrame
 :
 IntrinsicWidthOffsets
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -9918,7 +9918,7 @@ nsTableFrame
 :
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -9994,7 +9994,7 @@ nsTableFrame
 :
 TableShrinkWidthToFit
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord
@@ -10158,7 +10158,7 @@ nsTableFrame
 :
 ComputeAutoSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -19376,7 +19376,7 @@ nsTableFrame
 :
 ReflowColGroups
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -39251,7 +39251,7 @@ Paint
 BCPaintBorderIterator
 &
 aIter
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 BCPixelSize
@@ -39565,7 +39565,7 @@ Paint
 BCPaintBorderIterator
 &
 aIter
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 )
@@ -39879,7 +39879,7 @@ Next
 void
 AccumulateOrPaintHorizontalSegment
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 )
@@ -39887,7 +39887,7 @@ aRenderingContext
 void
 AccumulateOrPaintVerticalSegment
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 )
@@ -44009,7 +44009,7 @@ Paint
 BCPaintBorderIterator
 &
 aIter
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 BCPixelSize
@@ -45100,7 +45100,7 @@ Paint
 BCPaintBorderIterator
 &
 aIter
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 )
@@ -45908,7 +45908,7 @@ BCPaintBorderIterator
 :
 AccumulateOrPaintHorizontalSegment
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 )
@@ -46221,7 +46221,7 @@ BCPaintBorderIterator
 :
 AccumulateOrPaintVerticalSegment
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 )
@@ -46574,7 +46574,7 @@ nsTableFrame
 :
 PaintBCBorders
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const

@@ -549,7 +549,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -2131,7 +2131,7 @@ nsMathMLmencloseFrame
 :
 MeasureForWidth
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsHTMLReflowMetrics
@@ -2160,7 +2160,7 @@ nsMathMLmencloseFrame
 :
 Place
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool
@@ -2191,7 +2191,7 @@ nsMathMLmencloseFrame
 :
 PlaceInternal
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool
@@ -4566,7 +4566,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -4600,7 +4600,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )

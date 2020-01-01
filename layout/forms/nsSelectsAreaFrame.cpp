@@ -1358,7 +1358,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )

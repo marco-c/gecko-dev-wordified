@@ -537,7 +537,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -4060,7 +4060,7 @@ mAppearance
 nsIntSize
 size
 ;
-nsIRenderingContext
+nsRenderingContext
 *
 rendContext
 =

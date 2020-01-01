@@ -442,7 +442,7 @@ nsCSSRendering_h___
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -534,7 +534,7 @@ PaintBoxShadowInner
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -557,7 +557,7 @@ PaintBoxShadowOuter
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -636,7 +636,7 @@ PaintBorder
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -687,7 +687,7 @@ PaintBorderWithStyleBorder
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -762,7 +762,7 @@ PaintOutline
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -841,7 +841,7 @@ PaintFocus
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -872,7 +872,7 @@ PaintGradient
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsStyleGradient
@@ -1516,7 +1516,7 @@ PaintBackground
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -1587,7 +1587,7 @@ PaintBackgroundWithSC
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -1726,7 +1726,7 @@ static
 void
 DrawTableBorderSegment
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aContext
 PRUint8

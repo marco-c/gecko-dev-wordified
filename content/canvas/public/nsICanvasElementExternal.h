@@ -474,7 +474,7 @@ NS_ICANVASELEMENTEXTERNAL_IID
 }
 }
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsICanvasRenderingContextInternal

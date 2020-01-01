@@ -621,7 +621,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -630,7 +630,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -739,7 +739,7 @@ virtual
 void
 PaintColumnRule
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -1257,7 +1257,7 @@ PaintColumnRule
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -1292,7 +1292,7 @@ nsColumnSetFrame
 :
 PaintColumnRule
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -2920,7 +2920,7 @@ nsColumnSetFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3196,7 +3196,7 @@ nsColumnSetFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

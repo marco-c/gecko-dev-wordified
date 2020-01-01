@@ -519,7 +519,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -2143,7 +2143,7 @@ nsMathMLmunderoverFrame
 :
 Place
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool

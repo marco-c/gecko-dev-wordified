@@ -1182,7 +1182,7 @@ ViewportFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1250,7 +1250,7 @@ ViewportFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

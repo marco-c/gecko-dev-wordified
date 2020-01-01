@@ -476,7 +476,7 @@ class
 nsDisplayList
 ;
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 /
 *
@@ -813,7 +813,7 @@ static
 void
 PaintFramesWithEffects
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 nsIFrame
@@ -1140,7 +1140,7 @@ static
 void
 DrawPaintServer
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame

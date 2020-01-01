@@ -517,7 +517,7 @@ PaintOutlineAndFocusBorders
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -536,7 +536,7 @@ PaintBorderAndBackground
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const

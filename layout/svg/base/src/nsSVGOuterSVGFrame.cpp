@@ -1695,7 +1695,7 @@ nsSVGOuterSVGFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1731,7 +1731,7 @@ nsSVGOuterSVGFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2418,7 +2418,7 @@ nsSVGOuterSVGFrame
 :
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -3274,7 +3274,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -3441,7 +3441,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -3909,7 +3909,7 @@ const
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const

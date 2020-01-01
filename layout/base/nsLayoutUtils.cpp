@@ -8787,7 +8787,7 @@ nsLayoutUtils
 :
 PaintFrame
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -10932,7 +10932,7 @@ nsLayoutUtils
 :
 BinarySearchForPosition
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRendContext
 const
@@ -13489,7 +13489,7 @@ const
 nsStyleCoord
 &
 aStyle
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -13757,7 +13757,7 @@ nsLayoutUtils
 :
 IntrinsicForContainer
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -15511,7 +15511,7 @@ nsLayoutUtils
 :
 ComputeWidthValue
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -16080,7 +16080,7 @@ nsLayoutUtils
 :
 ComputeSizeWithIntrinsicDimensions
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -17735,7 +17735,7 @@ MinWidthFromInline
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -17791,7 +17791,7 @@ PrefWidthFromInline
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -17843,7 +17843,7 @@ const
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 const
@@ -17994,7 +17994,7 @@ const
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 const
@@ -20829,7 +20829,7 @@ static
 nsresult
 DrawImageInternal
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 imgIContainer
@@ -20975,7 +20975,7 @@ nsLayoutUtils
 :
 DrawPixelSnapped
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 gfxDrawable
@@ -21216,7 +21216,7 @@ nsLayoutUtils
 :
 DrawSingleUnscaledImage
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 imgIContainer
@@ -21440,7 +21440,7 @@ nsLayoutUtils
 :
 DrawSingleImage
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 imgIContainer
@@ -22036,7 +22036,7 @@ nsLayoutUtils
 :
 DrawImage
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 imgIContainer
@@ -22287,7 +22287,7 @@ nsLayoutUtils
 :
 SetFontFromStyle
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRC
 nsStyleContext

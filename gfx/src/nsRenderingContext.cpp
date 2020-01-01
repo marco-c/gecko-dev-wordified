@@ -992,7 +992,7 @@ aMaxChunkLength
 /
 /
 /
-nsIRenderingContext
+nsRenderingContext
 nsresult
 nsRenderingContext
 :

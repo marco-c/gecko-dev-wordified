@@ -527,7 +527,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -536,7 +536,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 PRBool
@@ -606,7 +606,7 @@ columns
 void
 ComputeColumnIntrinsicWidths
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -849,7 +849,7 @@ columns
 void
 ComputeIntrinsicWidths
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

@@ -2074,7 +2074,7 @@ nsListControlFrame
 :
 PaintFocus
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 nsPoint
@@ -3460,7 +3460,7 @@ nsListControlFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3556,7 +3556,7 @@ nsListControlFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

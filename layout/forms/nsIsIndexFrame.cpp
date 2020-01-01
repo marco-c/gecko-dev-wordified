@@ -1653,7 +1653,7 @@ nsIsIndexFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

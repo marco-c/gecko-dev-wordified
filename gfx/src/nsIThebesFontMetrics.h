@@ -509,7 +509,7 @@ aLength
 nscoord
 &
 aWidth
-nsThebesRenderingContext
+nsRenderingContext
 *
 aContext
 )
@@ -532,7 +532,7 @@ aWidth
 PRInt32
 *
 aFontID
-nsThebesRenderingContext
+nsRenderingContext
 *
 aContext
 )
@@ -667,7 +667,7 @@ const
 nscoord
 *
 aSpacing
-nsThebesRenderingContext
+nsRenderingContext
 *
 aContext
 )
@@ -694,7 +694,7 @@ const
 nscoord
 *
 aSpacing
-nsThebesRenderingContext
+nsRenderingContext
 *
 aContext
 )
@@ -715,10 +715,10 @@ nscoord
 aX
 nscoord
 aY
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
-nsIRenderingContext
+nsRenderingContext
 *
 aTextRunConstructionContext
 )
@@ -779,7 +779,7 @@ char
 aString
 PRUint32
 aLength
-nsThebesRenderingContext
+nsRenderingContext
 *
 aContext
 nsBoundingMetrics
@@ -810,7 +810,7 @@ PRUnichar
 aString
 PRUint32
 aLength
-nsThebesRenderingContext
+nsRenderingContext
 *
 aContext
 nsBoundingMetrics

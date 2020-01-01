@@ -3012,7 +3012,7 @@ nsFileControlFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

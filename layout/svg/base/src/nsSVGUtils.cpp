@@ -9428,7 +9428,7 @@ nsSVGRenderState
 :
 nsSVGRenderState
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 )
@@ -9508,7 +9508,7 @@ aSurface
 )
 ;
 }
-nsIRenderingContext
+nsRenderingContext
 *
 nsSVGRenderState
 :

@@ -523,7 +523,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -4582,7 +4582,7 @@ nsMathMLmoFrame
 :
 Stretch
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsStretchDirection
@@ -7433,7 +7433,7 @@ nsMathMLmoFrame
 :
 GetIntrinsicWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

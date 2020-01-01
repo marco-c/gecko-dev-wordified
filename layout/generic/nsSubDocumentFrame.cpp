@@ -754,7 +754,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -3053,7 +3053,7 @@ nsSubDocumentFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3115,7 +3115,7 @@ nsSubDocumentFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3268,7 +3268,7 @@ nsSubDocumentFrame
 :
 ComputeAutoSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -3336,7 +3336,7 @@ nsSubDocumentFrame
 :
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize

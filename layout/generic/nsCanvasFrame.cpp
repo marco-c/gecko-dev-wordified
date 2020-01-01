@@ -489,7 +489,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -1531,7 +1531,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -1762,7 +1762,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -2274,7 +2274,7 @@ nsCanvasFrame
 :
 PaintFocus
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -2450,7 +2450,7 @@ nsCanvasFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2506,7 +2506,7 @@ nsCanvasFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

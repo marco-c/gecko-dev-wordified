@@ -684,7 +684,7 @@ PaintCheckedRadioButton
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const

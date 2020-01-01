@@ -1280,7 +1280,7 @@ mColumnsScrollFrame
 void
 PaintTreeBody
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -1354,7 +1354,7 @@ aColumnRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -1387,7 +1387,7 @@ aRowRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -1422,7 +1422,7 @@ aSeparatorRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -1462,7 +1462,7 @@ aCellRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -1509,7 +1509,7 @@ aTwistyRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -1553,7 +1553,7 @@ aImageRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -1599,7 +1599,7 @@ aTextRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -1643,7 +1643,7 @@ aCheckboxRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -1683,7 +1683,7 @@ aProgressMeterRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -1714,7 +1714,7 @@ aDropFeedbackRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -1764,7 +1764,7 @@ aStyleContext
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -1867,7 +1867,7 @@ aRowIndex
 nsTreeColumn
 *
 aColumn
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsRect
@@ -1977,7 +1977,7 @@ aTwistyRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsStyleContext
@@ -2574,7 +2574,7 @@ aRow
 nsTreeColumn
 *
 aCol
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord

@@ -508,7 +508,7 @@ interface
 NS_IMETHOD
 DrawWidgetBackground
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -585,7 +585,7 @@ aOverflowRect
 NS_IMETHOD
 GetMinimumWidgetSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame

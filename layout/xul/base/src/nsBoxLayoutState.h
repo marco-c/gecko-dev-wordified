@@ -468,7 +468,7 @@ nsIPresShell
 h
 "
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsCalculatedBoxInfo
@@ -493,7 +493,7 @@ nsBoxLayoutState
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 =
@@ -649,7 +649,7 @@ will
 cause
 bugs
 .
-nsIRenderingContext
+nsRenderingContext
 *
 GetRenderingContext
 (
@@ -735,7 +735,7 @@ nsPresContext
 >
 mPresContext
 ;
-nsIRenderingContext
+nsRenderingContext
 *
 mRenderingContext
 ;

@@ -512,7 +512,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -2956,7 +2956,7 @@ ReflowChar
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsMathMLChar
@@ -3582,7 +3582,7 @@ GetMaxCharWidth
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsMathMLChar
@@ -3660,7 +3660,7 @@ nsMathMLmfencedFrame
 :
 GetIntrinsicWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

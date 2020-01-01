@@ -682,7 +682,7 @@ window
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "

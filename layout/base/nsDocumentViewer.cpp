@@ -19089,9 +19089,9 @@ nscoord
 prefWidth
 ;
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 rcx
 =

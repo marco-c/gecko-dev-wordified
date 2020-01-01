@@ -525,7 +525,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -1811,7 +1811,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -1866,7 +1866,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -2036,7 +2036,7 @@ nsTextBoxFrame
 :
 PaintTitle
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -2184,7 +2184,7 @@ nsTextBoxFrame
 :
 DrawText
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -2808,9 +2808,9 @@ overStyle
 ;
 }
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 refContext
 =
@@ -3467,15 +3467,15 @@ aForegroundColor
 /
 Conjure
 an
-nsIRenderingContext
+nsRenderingContext
 from
 a
 gfxContext
 for
 DrawText
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 renderingContext
 =
@@ -3625,7 +3625,7 @@ nsTextBoxFrame
 :
 CalculateUnderline
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 )
@@ -3757,7 +3757,7 @@ CalculateTitleForWidth
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nscoord
@@ -5470,7 +5470,7 @@ GetTextSize
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -5582,7 +5582,7 @@ PresContext
 (
 )
 ;
-nsIRenderingContext
+nsRenderingContext
 *
 rendContext
 =
@@ -5624,7 +5624,7 @@ nsTextBoxFrame
 :
 CalcDrawRect
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 )

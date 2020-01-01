@@ -631,7 +631,7 @@ nscoord
 )
 GetIntrinsicWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsLayoutUtils
@@ -644,7 +644,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -653,7 +653,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -662,7 +662,7 @@ virtual
 nsSize
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -723,7 +723,7 @@ aLists
 void
 PaintBorderBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -1127,7 +1127,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -1234,7 +1234,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -1714,7 +1714,7 @@ nsFieldSetFrame
 :
 PaintBorderBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -2183,7 +2183,7 @@ nsFieldSetFrame
 :
 GetIntrinsicWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsLayoutUtils
@@ -2253,7 +2253,7 @@ nsFieldSetFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2290,7 +2290,7 @@ nsFieldSetFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2332,7 +2332,7 @@ nsFieldSetFrame
 :
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize

@@ -496,7 +496,7 @@ nsLeafFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -531,7 +531,7 @@ nsLeafFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -566,7 +566,7 @@ nsLeafFrame
 :
 ComputeAutoSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize

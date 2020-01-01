@@ -484,7 +484,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -1012,7 +1012,7 @@ context
 /
 nsSVGRenderState
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 )
@@ -1056,7 +1056,7 @@ gfxASurface
 aSurface
 )
 ;
-nsIRenderingContext
+nsRenderingContext
 *
 GetRenderingContext
 (
@@ -1122,9 +1122,9 @@ private
 RenderMode
 mRenderMode
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 mRenderingContext
 ;

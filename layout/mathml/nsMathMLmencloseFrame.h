@@ -676,7 +676,7 @@ virtual
 nsresult
 Place
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool
@@ -690,7 +690,7 @@ virtual
 nsresult
 MeasureForWidth
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsHTMLReflowMetrics
@@ -801,7 +801,7 @@ nsMathMLmencloseFrame
 nsresult
 PlaceInternal
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool

@@ -736,7 +736,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -745,7 +745,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -801,7 +801,7 @@ aLists
 void
 PaintFocus
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -1424,7 +1424,7 @@ GetPrefWidth
 nscoord
 GetIntrinsicWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsLayoutUtils

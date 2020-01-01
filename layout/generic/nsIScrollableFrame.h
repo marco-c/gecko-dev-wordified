@@ -827,7 +827,7 @@ GetDesiredScrollbarSizes
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 *
 aRC
 )

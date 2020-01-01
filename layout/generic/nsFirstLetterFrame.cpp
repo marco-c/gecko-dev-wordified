@@ -952,7 +952,7 @@ nsFirstLetterFrame
 :
 AddInlineMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -1014,7 +1014,7 @@ nsFirstLetterFrame
 :
 AddInlinePrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -1057,7 +1057,7 @@ nsFirstLetterFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1094,7 +1094,7 @@ nsFirstLetterFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1121,7 +1121,7 @@ nsFirstLetterFrame
 :
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize

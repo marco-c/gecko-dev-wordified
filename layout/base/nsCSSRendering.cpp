@@ -1012,7 +1012,7 @@ Draw
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -2563,7 +2563,7 @@ DrawBorderImage
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -2587,7 +2587,7 @@ static
 void
 DrawBorderImageComponent
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -3165,7 +3165,7 @@ PaintBorder
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -3367,7 +3367,7 @@ PaintBorderWithStyleBorder
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -4376,7 +4376,7 @@ PaintOutline
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -5184,7 +5184,7 @@ PaintFocus
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -7199,7 +7199,7 @@ PaintBoxShadowOuter
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -8204,9 +8204,9 @@ DeviceContext
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 wrapperCtx
 ;
@@ -8648,7 +8648,7 @@ PaintBoxShadowInner
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -9821,7 +9821,7 @@ PaintBackground
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -12865,7 +12865,7 @@ PaintGradient
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsStyleGradient
@@ -15567,7 +15567,7 @@ PaintBackgroundWithSC
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -18976,7 +18976,7 @@ DrawBorderImage
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -20428,7 +20428,7 @@ static
 void
 DrawBorderImageComponent
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -21274,7 +21274,7 @@ static
 void
 DrawSolidBorderSegment
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aContext
 nsRect
@@ -21749,7 +21749,7 @@ nsCSSRendering
 :
 DrawTableBorderSegment
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aContext
 PRUint8
@@ -26933,7 +26933,7 @@ Draw
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const

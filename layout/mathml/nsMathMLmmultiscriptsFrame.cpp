@@ -509,7 +509,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -1033,7 +1033,7 @@ nsMathMLmmultiscriptsFrame
 :
 Place
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool

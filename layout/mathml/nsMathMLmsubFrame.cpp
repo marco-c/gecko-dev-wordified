@@ -509,7 +509,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -709,7 +709,7 @@ nsMathMLmsubFrame
 :
 Place
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool
@@ -869,7 +869,7 @@ PlaceSubScript
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool

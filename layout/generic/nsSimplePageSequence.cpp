@@ -460,7 +460,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -4268,9 +4268,9 @@ mPageNum
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 renderingContext
 ;
@@ -4742,7 +4742,7 @@ PaintPageSequence
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -4858,7 +4858,7 @@ nsSimplePageSequenceFrame
 :
 PaintPageSequence
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const

@@ -500,7 +500,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -4974,7 +4974,7 @@ nsImageFrame
 :
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -5137,7 +5137,7 @@ nsImageFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -5223,7 +5223,7 @@ nsImageFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -6086,7 +6086,7 @@ aMaxWidth
 PRUint32
 &
 aMaxFit
-nsIRenderingContext
+nsRenderingContext
 &
 aContext
 )
@@ -6433,7 +6433,7 @@ DisplayAltText
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -6946,7 +6946,7 @@ nsImageFrame
 :
 DisplayAltFeedback
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -7755,7 +7755,7 @@ PaintAltFeedback
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -7832,7 +7832,7 @@ PaintDebugImageMap
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -7946,7 +7946,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -8457,7 +8457,7 @@ nsImageFrame
 :
 PaintImage
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -13036,7 +13036,7 @@ nsImageFrame
 :
 AddInlineMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame

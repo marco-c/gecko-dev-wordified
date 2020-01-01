@@ -4160,7 +4160,7 @@ nsNativeThemeGTK
 :
 DrawWidgetBackground
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -5576,7 +5576,7 @@ nsNativeThemeGTK
 :
 GetMinimumWidgetSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame

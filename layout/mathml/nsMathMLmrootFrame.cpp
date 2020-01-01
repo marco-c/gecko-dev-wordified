@@ -514,7 +514,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -1396,7 +1396,7 @@ bmSqr
 bmBase
 bmIndex
 ;
-nsIRenderingContext
+nsRenderingContext
 &
 renderingContext
 =
@@ -2769,7 +2769,7 @@ nsMathMLmrootFrame
 :
 GetIntrinsicWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

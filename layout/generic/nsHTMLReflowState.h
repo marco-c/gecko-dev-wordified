@@ -466,7 +466,7 @@ class
 nsPresContext
 ;
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsFloatManager
@@ -974,7 +974,7 @@ to
 use
 for
 measurement
-nsIRenderingContext
+nsRenderingContext
 *
 rendContext
 ;
@@ -1025,7 +1025,7 @@ nsCSSOffsetState
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1045,7 +1045,7 @@ nsCSSOffsetState
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord
@@ -2634,7 +2634,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 const

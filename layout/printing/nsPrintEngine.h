@@ -1762,7 +1762,7 @@ FindSelectionBoundsWithList
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 nsIAtom
@@ -1797,7 +1797,7 @@ FindSelectionBounds
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 nsIFrame
@@ -1832,7 +1832,7 @@ aPresShell
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 nsISelection

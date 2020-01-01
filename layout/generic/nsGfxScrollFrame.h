@@ -2477,7 +2477,7 @@ aScrollPosition
 nscoord
 GetIntrinsicVScrollbarWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2507,7 +2507,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2516,7 +2516,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2845,7 +2845,7 @@ GetDesiredScrollbarSizes
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 *
 aRC
 )
@@ -3569,7 +3569,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -4058,7 +4058,7 @@ GetDesiredScrollbarSizes
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 *
 aRC
 )

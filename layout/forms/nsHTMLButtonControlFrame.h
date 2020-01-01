@@ -506,7 +506,7 @@ nsButtonFrameRenderer
 h
 "
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsPresContext
@@ -564,7 +564,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -573,7 +573,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

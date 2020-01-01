@@ -476,7 +476,7 @@ MOZ_MATHML
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "

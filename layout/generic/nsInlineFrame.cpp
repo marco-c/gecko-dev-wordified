@@ -500,7 +500,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -1534,7 +1534,7 @@ nsInlineFrame
 :
 AddInlineMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -1567,7 +1567,7 @@ nsInlineFrame
 :
 AddInlinePrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -1600,7 +1600,7 @@ nsInlineFrame
 :
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize

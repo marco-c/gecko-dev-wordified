@@ -1639,9 +1639,9 @@ nsTreeColumn
 *
 col
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 rc
 =
@@ -6719,9 +6719,9 @@ cellContext
 cellRect
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 rc
 =
@@ -7849,7 +7849,7 @@ aRowIndex
 nsTreeColumn
 *
 aColumn
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsRect
@@ -8948,9 +8948,9 @@ PresContext
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 rc
 =
@@ -9971,7 +9971,7 @@ aRow
 nsTreeColumn
 *
 aCol
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord
@@ -10550,9 +10550,9 @@ col
 return
 NS_ERROR_INVALID_ARG
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 rc
 =
@@ -12221,7 +12221,7 @@ aTwistyRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsStyleContext
@@ -17075,7 +17075,7 @@ PaintTreeBody
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -17286,7 +17286,7 @@ nsTreeBodyFrame
 :
 PaintTreeBody
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -17839,7 +17839,7 @@ aColumnRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -18014,7 +18014,7 @@ aRowRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -19050,7 +19050,7 @@ aSeparatorRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -19380,7 +19380,7 @@ aCellRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -20590,7 +20590,7 @@ aTwistyRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -21208,7 +21208,7 @@ aImageRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -22304,7 +22304,7 @@ aTextRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -23009,7 +23009,7 @@ aCheckboxRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -23409,7 +23409,7 @@ aProgressMeterRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -24014,7 +24014,7 @@ aDropFeedbackRect
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -24616,7 +24616,7 @@ aStyleContext
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const

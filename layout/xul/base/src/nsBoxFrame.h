@@ -958,7 +958,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -967,7 +967,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1534,7 +1534,7 @@ aName
 void
 PaintXULDebugBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -1544,7 +1544,7 @@ aPt
 void
 PaintXULDebugOverlay
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -1774,7 +1774,7 @@ DrawSpacer
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool
@@ -1794,7 +1794,7 @@ spacerSize
 void
 DrawLine
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool
@@ -1812,7 +1812,7 @@ y2
 void
 FillRect
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool

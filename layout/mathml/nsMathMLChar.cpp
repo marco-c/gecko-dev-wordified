@@ -523,7 +523,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -9523,7 +9523,7 @@ SetFontFamily
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsFont
@@ -9612,7 +9612,7 @@ aChar
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsStretchDirection
@@ -9741,7 +9741,7 @@ nsPresContext
 *
 mPresContext
 ;
-nsIRenderingContext
+nsRenderingContext
 &
 mRenderingContext
 ;
@@ -12133,7 +12133,7 @@ StretchInternal
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsStretchDirection
@@ -14153,7 +14153,7 @@ Stretch
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsStretchDirection
@@ -14386,7 +14386,7 @@ GetMaxWidth
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRUint32
@@ -14455,7 +14455,7 @@ ComposeChildren
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsGlyphTable
@@ -15081,7 +15081,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -15109,7 +15109,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -15250,7 +15250,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -15282,7 +15282,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -15478,7 +15478,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -15602,7 +15602,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -15630,7 +15630,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -16086,7 +16086,7 @@ nsMathMLChar
 :
 ApplyTransforms
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsRect
@@ -16159,7 +16159,7 @@ PaintForeground
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -16693,7 +16693,7 @@ parts
 class
 AutoPushClipRect
 {
-nsIRenderingContext
+nsRenderingContext
 &
 mCtx
 ;
@@ -16701,7 +16701,7 @@ public
 :
 AutoPushClipRect
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aCtx
 const
@@ -16844,7 +16844,7 @@ PaintVertically
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsFont
@@ -18755,7 +18755,7 @@ PaintHorizontally
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsFont

@@ -606,7 +606,7 @@ virtual
 nscoord
 GetIntrinsicWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -647,7 +647,7 @@ itself
 NS_IMETHOD
 Stretch
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsStretchDirection

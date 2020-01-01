@@ -781,7 +781,7 @@ imgIContainer
 ifdef
 MOZ_REFLOW_PERF
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 #
 endif

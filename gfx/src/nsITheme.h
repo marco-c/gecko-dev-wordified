@@ -478,7 +478,7 @@ class
 nsPresContext
 ;
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsIDeviceContext
@@ -786,7 +786,7 @@ drawn
 NS_IMETHOD
 DrawWidgetBackground
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -1151,7 +1151,7 @@ widget
 NS_IMETHOD
 GetMinimumWidgetSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame

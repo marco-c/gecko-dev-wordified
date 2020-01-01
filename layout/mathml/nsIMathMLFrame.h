@@ -463,7 +463,7 @@ nsIMathMLFrame_h___
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -1027,7 +1027,7 @@ stretching
 NS_IMETHOD
 Stretch
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsStretchDirection

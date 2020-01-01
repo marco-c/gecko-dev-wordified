@@ -496,7 +496,7 @@ class
 nsIDOMHTMLMapElement
 ;
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsIURI
@@ -618,7 +618,7 @@ Draw
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 )

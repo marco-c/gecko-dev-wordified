@@ -493,7 +493,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -650,7 +650,7 @@ virtual
 void
 AddInlineMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 InlineMinWidthData
@@ -662,7 +662,7 @@ virtual
 void
 AddInlinePrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 InlinePrefWidthData
@@ -674,7 +674,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -683,7 +683,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1380,7 +1380,7 @@ BRFrame
 :
 AddInlineMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -1411,7 +1411,7 @@ BRFrame
 :
 AddInlinePrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -1442,7 +1442,7 @@ BRFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1473,7 +1473,7 @@ BRFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

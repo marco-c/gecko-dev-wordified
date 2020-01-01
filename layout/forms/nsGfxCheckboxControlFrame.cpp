@@ -504,7 +504,7 @@ PaintCheckMark
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -762,7 +762,7 @@ PaintIndeterminateMark
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const

@@ -497,7 +497,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -1919,7 +1919,7 @@ nsTableCellFrame
 :
 DecorateForSelection
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -2103,7 +2103,7 @@ GetStyleBackground
 mBackgroundColor
 )
 ;
-nsIRenderingContext
+nsRenderingContext
 :
 :
 AutoPushTranslation
@@ -2284,7 +2284,7 @@ nsTableCellFrame
 :
 PaintBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -2333,7 +2333,7 @@ nsTableCellFrame
 :
 PaintCellBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -2455,7 +2455,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -2487,7 +2487,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -2568,7 +2568,7 @@ PaintTableCellSelection
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -4574,7 +4574,7 @@ nsTableCellFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -4630,7 +4630,7 @@ nsTableCellFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -4689,7 +4689,7 @@ nsTableCellFrame
 :
 IntrinsicWidthOffsets
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -6933,7 +6933,7 @@ nsBCTableCellFrame
 :
 PaintBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
