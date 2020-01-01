@@ -13050,6 +13050,15 @@ blacklist
 =
 {
 "
+SCH
+-
+I400
+"
+/
+/
+Samsung
+Continuum
+"
 SGH
 -
 T959
