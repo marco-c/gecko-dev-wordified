@@ -2339,14 +2339,6 @@ nsnull
 ;
 }
 PRBool
-SafeToCreateCanvas3DContext
-(
-nsHTMLCanvasElement
-*
-canvasElement
-)
-;
-PRBool
 InitAndValidateGL
 (
 )
