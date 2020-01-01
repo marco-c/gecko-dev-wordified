@@ -4921,6 +4921,9 @@ UseForPresentation
 nsPresContext
 *
 aPresContext
+nsMediaQueryResultCacheKey
+&
+aKey
 )
 {
 if
@@ -4935,6 +4938,7 @@ mMedia
 Matches
 (
 aPresContext
+aKey
 )
 ;
 }
@@ -5692,6 +5696,9 @@ UseForPresentation
 nsPresContext
 *
 aPresContext
+nsMediaQueryResultCacheKey
+&
+aKey
 )
 {
 nsIURI

@@ -970,6 +970,9 @@ UseForPresentation
 nsPresContext
 *
 aPresContext
+nsMediaQueryResultCacheKey
+&
+aKey
 )
 ;
 /
@@ -1098,6 +1101,9 @@ UseForPresentation
 nsPresContext
 *
 aPresContext
+nsMediaQueryResultCacheKey
+&
+aKey
 )
 ;
 enum

@@ -468,6 +468,9 @@ nsIAtom
 class
 nsPresContext
 ;
+class
+nsMediaQueryResultCacheKey
+;
 /
 /
 IID
@@ -667,6 +670,9 @@ UseForPresentation
 nsPresContext
 *
 aPresContext
+nsMediaQueryResultCacheKey
+&
+aKey
 )
 =
 0
