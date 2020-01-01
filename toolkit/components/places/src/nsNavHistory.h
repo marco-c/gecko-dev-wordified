@@ -3012,9 +3012,6 @@ nsNavHistoryQuery
 >
 &
 aQueries
-nsNavHistoryQueryOptions
-*
-aOptions
 )
 ;
 /
