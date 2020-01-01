@@ -4,7 +4,7 @@ Copyright
 (
 C
 )
-2011
+2009
 Apple
 Computer
 Inc
@@ -5031,13 +5031,13 @@ ctx
 .
 TEXTURE_2D
 0
-ctx
+gl
 .
 RGBA
-ctx
+gl
 .
 RGBA
-ctx
+gl
 .
 UNSIGNED_BYTE
 image
