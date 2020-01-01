@@ -14137,7 +14137,7 @@ return
 /
 /
 Use
-compartment
+zone
 GC
 when
 we
@@ -14262,7 +14262,7 @@ SkipZoneForGC
 js
 :
 :
-GetObjectCompartment
+GetObjectZone
 (
 global
 )
