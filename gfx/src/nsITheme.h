@@ -1215,7 +1215,7 @@ NS_ITHEME_IID
 Creator
 function
 extern
-NS_METHOD
+nsresult
 NS_NewNativeTheme
 (
 nsISupports
