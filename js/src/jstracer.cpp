@@ -19985,7 +19985,7 @@ native
 )
 continue
 ;
-intN
+uintN
 knownargc
 =
 strlen
