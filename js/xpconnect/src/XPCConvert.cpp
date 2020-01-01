@@ -9892,6 +9892,13 @@ arrays
 of
 uint8_t
 .
+DataViews
+/
+/
+are
+not
+supported
+.
 /
 /
 static
@@ -10004,7 +10011,7 @@ nullptr
 ;
 switch
 (
-JS_GetTypedArrayType
+JS_GetArrayBufferViewType
 (
 jsArray
 )

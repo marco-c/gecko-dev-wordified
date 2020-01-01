@@ -17071,7 +17071,7 @@ Obj
 int
 dataType
 =
-JS_GetTypedArrayType
+JS_GetArrayBufferViewType
 (
 pixels
 -
@@ -26545,7 +26545,7 @@ pixels
 (
 int
 )
-JS_GetTypedArrayType
+JS_GetArrayBufferViewType
 (
 pixels
 -
@@ -27490,7 +27490,7 @@ pixels
 Length
 (
 )
-JS_GetTypedArrayType
+JS_GetArrayBufferViewType
 (
 pixels
 -
