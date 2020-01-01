@@ -1491,7 +1491,7 @@ typeTag
 fe
 -
 >
-getTypeTag
+getKnownTag
 (
 )
 ;
@@ -1623,7 +1623,7 @@ typeTag
 fe
 -
 >
-getTypeTag
+getKnownTag
 (
 )
 ;
