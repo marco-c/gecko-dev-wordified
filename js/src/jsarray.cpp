@@ -1279,15 +1279,6 @@ include
 "
 vm
 /
-NumericConversions
-.
-h
-"
-#
-include
-"
-vm
-/
 StringBuffer
 .
 h
@@ -22543,7 +22534,7 @@ toDouble
 ;
 length
 =
-ToUint32
+js_DoubleToECMAUint32
 (
 d
 )

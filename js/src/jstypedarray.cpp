@@ -601,15 +601,6 @@ h
 #
 include
 "
-vm
-/
-NumericConversions
-.
-h
-"
-#
-include
-"
 jsatominlines
 .
 h
@@ -6973,7 +6964,7 @@ NativeType
 uint32_t
 n
 =
-ToUint32
+js_DoubleToECMAUint32
 (
 d
 )
@@ -7045,7 +7036,7 @@ NativeType
 int32_t
 n
 =
-ToInt32
+js_DoubleToECMAInt32
 (
 d
 )
@@ -10337,7 +10328,7 @@ NativeType
 return
 NativeType
 (
-ToUint32
+js_DoubleToECMAUint32
 (
 d
 )
@@ -10346,7 +10337,7 @@ d
 return
 NativeType
 (
-ToInt32
+js_DoubleToECMAInt32
 (
 d
 )

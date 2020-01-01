@@ -457,9 +457,7 @@ h
 #
 include
 "
-vm
-/
-NumericConversions
+jstypedarrayinlines
 .
 h
 "
@@ -1025,7 +1023,7 @@ toDouble
 )
 )
 :
-ToInt32
+js_DoubleToECMAInt32
 (
 v
 .

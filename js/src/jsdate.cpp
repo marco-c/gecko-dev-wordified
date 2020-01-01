@@ -672,15 +672,6 @@ include
 "
 vm
 /
-NumericConversions
-.
-h
-"
-#
-include
-"
-vm
-/
 StringBuffer
 .
 h
@@ -3995,7 +3986,7 @@ array
 loop
 ]
 =
-ToInteger
+js_DoubleToInteger
 (
 d
 )
@@ -4186,7 +4177,7 @@ JS_FALSE
 ;
 msec_time
 =
-TimeClip
+TIMECLIP
 (
 msec_time
 )
@@ -8144,7 +8135,7 @@ true
 }
 result
 =
-TimeClip
+TIMECLIP
 (
 result
 )
@@ -10972,7 +10963,7 @@ SetUTCTime
 (
 cx
 obj
-TimeClip
+TIMECLIP
 (
 result
 )
@@ -11264,7 +11255,7 @@ nums
 i
 ]
 =
-ToInteger
+js_DoubleToInteger
 (
 nums
 [
@@ -11557,7 +11548,7 @@ SetUTCTime
 (
 cx
 obj
-TimeClip
+TIMECLIP
 (
 result
 )
@@ -11984,7 +11975,7 @@ nums
 i
 ]
 =
-ToInteger
+js_DoubleToInteger
 (
 nums
 [
@@ -12280,7 +12271,7 @@ SetUTCTime
 (
 cx
 obj
-TimeClip
+TIMECLIP
 (
 result
 )
@@ -12609,7 +12600,7 @@ true
 }
 year
 =
-ToInteger
+js_DoubleToInteger
 (
 year
 )
@@ -12691,7 +12682,7 @@ SetUTCTime
 (
 cx
 obj
-TimeClip
+TIMECLIP
 (
 result
 )
@@ -16490,7 +16481,7 @@ false
 ;
 d
 =
-TimeClip
+TIMECLIP
 (
 d
 )
@@ -16580,7 +16571,7 @@ js_NaN
 else
 d
 =
-TimeClip
+TIMECLIP
 (
 d
 )
@@ -16624,7 +16615,7 @@ cx
 ;
 msec_time
 =
-TimeClip
+TIMECLIP
 (
 msec_time
 )

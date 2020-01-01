@@ -561,6 +561,9 @@ struct
 JSCompartment
 ;
 extern
+"
+C
+"
 void
 js_TraceXML
 (
