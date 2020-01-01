@@ -3287,7 +3287,6 @@ h
 .
 *
 /
-inline
 nsINode
 *
 OwnerDocAsNode
