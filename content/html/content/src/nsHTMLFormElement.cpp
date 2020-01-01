@@ -5230,6 +5230,11 @@ if
 (
 !
 linkHandler
+|
+|
+IsEditable
+(
+)
 )
 {
 mIsSubmitting

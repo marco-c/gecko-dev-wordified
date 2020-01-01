@@ -4753,9 +4753,8 @@ if
 aContent
 -
 >
-HasFlag
+IsEditable
 (
-NODE_IS_EDITABLE
 )
 )
 {
@@ -4862,9 +4861,8 @@ if
 aContent
 -
 >
-HasFlag
+IsEditable
 (
-NODE_IS_EDITABLE
 )
 )
 {
@@ -5512,9 +5510,8 @@ if
 aContent
 -
 >
-HasFlag
+IsEditable
 (
-NODE_IS_EDITABLE
 )
 )
 {
