@@ -831,10 +831,6 @@ why
 not
 copy
 ?
-mParent
-(
-nsnull
-)
 mURIWasModified
 (
 other
@@ -2503,6 +2499,9 @@ aResult
 *
 aResult
 =
+mShared
+-
+>
 mParent
 ;
 NS_IF_ADDREF
@@ -2560,6 +2559,9 @@ case
 !
 *
 /
+mShared
+-
+>
 mParent
 =
 aParent

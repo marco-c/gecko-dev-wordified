@@ -652,6 +652,10 @@ mDocShellID
 (
 0
 )
+mParent
+(
+nsnull
+)
 mIsFrameNavigation
 (
 false
@@ -861,6 +865,16 @@ aEntry
 -
 >
 mOwner
+;
+newEntry
+-
+>
+mParent
+=
+aEntry
+-
+>
+mParent
 ;
 newEntry
 -
