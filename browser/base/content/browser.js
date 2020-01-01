@@ -31837,16 +31837,6 @@ function
 homeButton
 )
 {
-return
-;
-/
-/
-xxxmpc
-temp
-hack
-for
-perf
-testing
 if
 (
 !
