@@ -1962,11 +1962,6 @@ DeliverNextQueuedEventIgnoreStatus
 )
 ;
 nsEventStatus
-DeliverNextQueuedEvent
-(
-)
-;
-nsEventStatus
 DeliverNextQueuedTouchEvent
 (
 )
