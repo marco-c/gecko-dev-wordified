@@ -3444,6 +3444,12 @@ context
 log_manager
 )
         
+self
+.
+_mach_context
+=
+context
+        
 #
 Incur
 mozconfig
