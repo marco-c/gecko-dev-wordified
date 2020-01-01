@@ -392,9 +392,9 @@ nsACString
 &
 aOrigin
 int64_t
-aLimitBytes
+aLimit
 int64_t
-aUsageBytes
+aUsage
 )
 ;
 void
@@ -897,8 +897,8 @@ const
 nsACString
 &
 aOrigin
-bool
-aTrackQuota
+StoragePrivilege
+aPrivilege
 nsIFile
 *
 *
