@@ -5167,7 +5167,7 @@ EventStateManager
 (
 )
 ;
-PRInt32
+nsEventStates
 state
 =
 esm
@@ -5181,8 +5181,11 @@ mContent
 if
 (
 state
-&
+.
+HasState
+(
 NS_EVENT_STATE_HOVER
+)
 )
 esm
 -

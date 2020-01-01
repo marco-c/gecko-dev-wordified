@@ -4276,7 +4276,7 @@ aExtraState
 =
 0
 ;
-PRInt32
+nsEventStates
 intrinsicState
 =
 mContent
@@ -4289,8 +4289,11 @@ IntrinsicState
 if
 (
 intrinsicState
-&
+.
+HasState
+(
 NS_EVENT_STATE_INVALID
+)
 )
 *
 aState
@@ -4304,8 +4307,11 @@ STATE_INVALID
 if
 (
 intrinsicState
-&
+.
+HasState
+(
 NS_EVENT_STATE_REQUIRED
+)
 )
 *
 aState
@@ -4328,8 +4334,11 @@ IsHTML
 ?
 (
 intrinsicState
-&
+.
+HasState
+(
 NS_EVENT_STATE_DISABLED
+)
 )
 :
 (

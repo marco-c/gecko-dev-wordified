@@ -22181,7 +22181,7 @@ aContent1
 nsIContent
 *
 aContent2
-PRInt32
+nsEventStates
 aStateMask
 )
 {
@@ -22203,7 +22203,7 @@ nsDocument
 :
 DocumentStatesChanged
 (
-PRInt32
+nsEventStates
 aStateMask
 )
 {
@@ -39334,7 +39334,7 @@ request
 ;
 }
 }
-PRInt32
+nsEventStates
 nsDocument
 :
 :
@@ -39345,9 +39345,10 @@ GetDocumentState
 if
 (
 !
-(
 mGotDocumentState
-&
+.
+HasState
+(
 NS_DOCUMENT_STATE_RTL_LOCALE
 )
 )
@@ -39374,9 +39375,10 @@ NS_DOCUMENT_STATE_RTL_LOCALE
 if
 (
 !
-(
 mGotDocumentState
-&
+.
+HasState
+(
 NS_DOCUMENT_STATE_WINDOW_INACTIVE
 )
 )

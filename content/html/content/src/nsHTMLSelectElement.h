@@ -1575,13 +1575,13 @@ virtual
 void
 FieldSetDisabledChanged
 (
-PRInt32
+nsEventStates
 aStates
 PRBool
 aNotify
 )
 ;
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )

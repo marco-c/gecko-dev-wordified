@@ -651,7 +651,7 @@ when
 we
 notify
 .
-PRInt32
+nsEventStates
 oldLinkState
 =
 LinkState
@@ -733,7 +733,7 @@ document
 "
 )
 ;
-PRInt32
+nsEventStates
 newLinkState
 =
 LinkState
@@ -785,7 +785,7 @@ newLinkState
 )
 ;
 }
-PRInt32
+nsEventStates
 Link
 :
 :
@@ -954,7 +954,9 @@ mLinkState
 eLinkState_NotLink
 ;
 return
-0
+nsEventStates
+(
+)
 ;
 }
 /
@@ -1103,7 +1105,9 @@ NS_EVENT_STATE_UNVISITED
 ;
 }
 return
-0
+nsEventStates
+(
+)
 ;
 }
 already_AddRefed
@@ -2998,7 +3002,7 @@ aNotify
 doc
 )
 {
-PRUint32
+nsEventStates
 changedState
 =
 NS_EVENT_STATE_VISITED

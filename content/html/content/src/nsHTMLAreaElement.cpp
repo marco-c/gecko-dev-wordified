@@ -780,7 +780,7 @@ aResult
 const
 ;
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )
@@ -1777,7 +1777,7 @@ GetHrefURIForAnchors
 )
 ;
 }
-PRInt32
+nsEventStates
 nsHTMLAreaElement
 :
 :

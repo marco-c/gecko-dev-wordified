@@ -1022,7 +1022,7 @@ object
 .
 *
 /
-PRInt32
+nsEventStates
 ObjectState
 (
 )
@@ -1895,7 +1895,7 @@ NotifyStateChanged
 (
 ObjectType
 aOldType
-PRInt32
+nsEventStates
 aOldState
 PRBool
 aSync

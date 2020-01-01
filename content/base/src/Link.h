@@ -567,7 +567,7 @@ link
 .
 *
 /
-PRInt32
+nsEventStates
 LinkState
 (
 )

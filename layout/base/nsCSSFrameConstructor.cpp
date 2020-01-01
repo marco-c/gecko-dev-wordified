@@ -23145,7 +23145,8 @@ aContent
 IntrinsicState
 (
 )
-&
+.
+HasAtLeastOneOfStates
 (
 NS_EVENT_STATE_BROKEN
 |
@@ -51538,7 +51539,7 @@ aContent1
 nsIContent
 *
 aContent2
-PRInt32
+nsEventStates
 aStateMask
 )
 {
@@ -51635,7 +51636,7 @@ DoContentStateChanged
 Element
 *
 aElement
-PRInt32
+nsEventStates
 aStateMask
 )
 {
@@ -51812,9 +51813,9 @@ IsGeneratedContentFrame
 )
 &
 &
-(
 aStateMask
-&
+.
+HasAtLeastOneOfStates
 (
 NS_EVENT_STATE_BROKEN
 |
@@ -51823,7 +51824,6 @@ NS_EVENT_STATE_USERDISABLED
 NS_EVENT_STATE_SUPPRESSED
 |
 NS_EVENT_STATE_LOADING
-)
 )
 )
 {
@@ -51927,9 +51927,10 @@ aStateMask
 ;
 if
 (
-(
 aStateMask
-&
+.
+HasState
+(
 NS_EVENT_STATE_HOVER
 )
 &
@@ -51948,8 +51949,11 @@ mHoverGeneration
 if
 (
 aStateMask
-&
+.
+HasState
+(
 NS_EVENT_STATE_VISITED
+)
 )
 {
 /

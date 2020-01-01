@@ -786,7 +786,7 @@ aStr
 const
 ;
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )
@@ -1113,7 +1113,7 @@ IntrinsicState
 )
 *
 /
-PRUint64
+nsEventStates
 mIntrinsicState
 ;
 /

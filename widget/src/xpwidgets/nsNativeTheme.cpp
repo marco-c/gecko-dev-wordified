@@ -630,7 +630,7 @@ GetPresShell
 nsnull
 ;
 }
-PRInt32
+nsEventStates
 nsNativeTheme
 :
 :
@@ -649,7 +649,9 @@ if
 aFrame
 )
 return
-0
+nsEventStates
+(
+)
 ;
 PRBool
 isXULCheckboxRadio
@@ -704,7 +706,9 @@ GetContent
 )
 )
 return
-0
+nsEventStates
+(
+)
 ;
 nsIPresShell
 *
@@ -721,7 +725,9 @@ if
 shell
 )
 return
-0
+nsEventStates
+(
+)
 ;
 nsIEventStateManager
 *
@@ -739,7 +745,7 @@ EventStateManager
 (
 )
 ;
-PRInt32
+nsEventStates
 flags
 =
 esm
@@ -1743,7 +1749,7 @@ IsDisabled
 nsIFrame
 *
 aFrame
-PRInt32
+nsEventStates
 aEventStates
 )
 {
@@ -1789,9 +1795,10 @@ IsHTML
 )
 {
 return
-(
 aEventStates
-&
+.
+HasState
+(
 NS_EVENT_STATE_DISABLED
 )
 ;

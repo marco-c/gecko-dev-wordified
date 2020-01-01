@@ -780,7 +780,9 @@ i
 >
 FieldSetDisabledChanged
 (
-0
+nsEventStates
+(
+)
 aNotify
 )
 ;

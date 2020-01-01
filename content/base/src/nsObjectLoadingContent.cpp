@@ -2333,7 +2333,7 @@ nsObjectLoadingContent
 ObjectType
 mOldType
 ;
-PRInt32
+nsEventStates
 mOldState
 ;
 }
@@ -6050,7 +6050,7 @@ NS_OK
 <
 public
 >
-PRInt32
+nsEventStates
 nsObjectLoadingContent
 :
 :
@@ -6119,7 +6119,9 @@ for
 plugins
 .
 return
-0
+nsEventStates
+(
+)
 ;
 case
 eType_Null
@@ -6142,7 +6144,7 @@ NS_EVENT_STATE_USERDISABLED
 /
 Otherwise
 broken
-PRInt32
+nsEventStates
 state
 =
 NS_EVENT_STATE_BROKEN
@@ -6220,7 +6222,9 @@ a
 compile
 warning
 return
-0
+nsEventStates
+(
+)
 ;
 }
 /
@@ -9544,7 +9548,7 @@ NotifyStateChanged
 (
 ObjectType
 aOldType
-PRInt32
+nsEventStates
 aOldState
 PRBool
 aSync
@@ -9569,7 +9573,7 @@ change
 %
 u
 %
-x
+lx
 )
 -
 >
@@ -9577,7 +9581,7 @@ x
 %
 u
 %
-x
+lx
 )
 (
 sync
@@ -9591,8 +9595,16 @@ n
 this
 aOldType
 aOldState
+.
+GetInternalValue
+(
+)
 mType
 ObjectState
+(
+)
+.
+GetInternalValue
 (
 )
 aSync
@@ -9653,7 +9665,7 @@ Nothing
 to
 do
 }
-PRInt32
+nsEventStates
 newState
 =
 ObjectState
@@ -9690,7 +9702,7 @@ confused
 "
 )
 ;
-PRInt32
+nsEventStates
 changedBits
 =
 aOldState

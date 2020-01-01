@@ -5438,7 +5438,7 @@ GetDesiredIMEState
 )
 ;
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )
@@ -5561,7 +5561,7 @@ virtual
 void
 FieldSetDisabledChanged
 (
-PRInt32
+nsEventStates
 aStates
 PRBool
 aNotify
@@ -5602,7 +5602,9 @@ anymore
 .
 FieldSetDisabledChanged
 (
-0
+nsEventStates
+(
+)
 aNotify
 )
 ;

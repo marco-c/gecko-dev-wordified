@@ -826,7 +826,7 @@ state
 .
 *
 /
-PRInt32
+nsEventStates
 ImageState
 (
 )
@@ -2208,7 +2208,7 @@ ImageState
 .
 *
 /
-PRInt32
+nsEventStates
 mForcedImageState
 ;
 PRInt16

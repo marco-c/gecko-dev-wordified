@@ -1914,7 +1914,7 @@ PR_TRUE
 )
 ;
 }
-PRInt32
+nsEventStates
 nsHTMLOptionElement
 :
 :
@@ -1923,7 +1923,7 @@ IntrinsicState
 )
 const
 {
-PRInt32
+nsEventStates
 state
 =
 nsGenericHTMLElement

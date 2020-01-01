@@ -36027,7 +36027,7 @@ aCompileEventHandlers
 )
 ;
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )
@@ -36911,7 +36911,7 @@ return
 rv
 ;
 }
-PRInt32
+nsEventStates
 nsSVGFEImageElement
 :
 :

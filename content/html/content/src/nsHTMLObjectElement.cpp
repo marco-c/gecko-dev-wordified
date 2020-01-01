@@ -801,7 +801,7 @@ aAttribute
 const
 ;
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )
@@ -2661,7 +2661,7 @@ PR_FALSE
 )
 ;
 }
-PRInt32
+nsEventStates
 nsHTMLObjectElement
 :
 :

@@ -1725,7 +1725,7 @@ return
 rv
 ;
 }
-PRInt32
+nsEventStates
 nsSVGImageElement
 :
 :

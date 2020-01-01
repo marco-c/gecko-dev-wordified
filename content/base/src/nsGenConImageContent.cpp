@@ -536,7 +536,7 @@ PR_FALSE
 nsIContent
 overrides
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )
@@ -658,7 +658,7 @@ DestroyImageLoadingContent
 )
 ;
 }
-PRInt32
+nsEventStates
 nsGenConImageContent
 :
 :
@@ -667,7 +667,7 @@ IntrinsicState
 )
 const
 {
-PRInt32
+nsEventStates
 state
 =
 nsXMLElement
@@ -677,7 +677,7 @@ IntrinsicState
 (
 )
 ;
-PRInt32
+nsEventStates
 imageState
 =
 nsImageLoadingContent
@@ -690,7 +690,8 @@ ImageState
 if
 (
 imageState
-&
+.
+HasAtLeastOneOfStates
 (
 NS_EVENT_STATE_BROKEN
 |

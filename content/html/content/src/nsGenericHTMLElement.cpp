@@ -15409,7 +15409,7 @@ type
 NS_FORM_INPUT_ELEMENT
 ;
 }
-PRInt32
+nsEventStates
 nsGenericHTMLFormElement
 :
 :
@@ -15462,7 +15462,7 @@ by
 that
 attribute
 .
-PRInt32
+nsEventStates
 state
 =
 nsGenericHTMLElement
@@ -16718,7 +16718,7 @@ nsGenericHTMLFormElement
 :
 FieldSetDisabledChanged
 (
-PRInt32
+nsEventStates
 aStates
 PRBool
 aNotify
@@ -19153,7 +19153,7 @@ nsIDocument
 aDocument
 )
 {
-PRInt32
+nsEventStates
 stateBefore
 =
 aContent

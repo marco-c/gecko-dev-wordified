@@ -623,7 +623,7 @@ aCompileEventHandlers
 )
 ;
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )

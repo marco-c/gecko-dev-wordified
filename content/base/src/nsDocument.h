@@ -4025,7 +4025,7 @@ aContent1
 nsIContent
 *
 aContent2
-PRInt32
+nsEventStates
 aStateMask
 )
 ;
@@ -4033,7 +4033,7 @@ virtual
 void
 DocumentStatesChanged
 (
-PRInt32
+nsEventStates
 aStateMask
 )
 ;
@@ -5149,7 +5149,7 @@ GetCurrentContentSink
 )
 ;
 virtual
-PRInt32
+nsEventStates
 GetDocumentState
 (
 )
@@ -6347,10 +6347,10 @@ nsIContent
 >
 mFirstBaseNodeWithHref
 ;
-PRInt32
+nsEventStates
 mDocumentState
 ;
-PRInt32
+nsEventStates
 mGotDocumentState
 ;
 private

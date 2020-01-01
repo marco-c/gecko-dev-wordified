@@ -4545,10 +4545,8 @@ ContentStatesChanged
 (
 )
 .
-PRInt32
+nsEventStates
 states
-=
-0
 ;
 if
 (
@@ -5469,7 +5467,12 @@ if
 doc
 &
 &
+!
 states
+.
+IsEmpty
+(
+)
 )
 {
 MOZ_AUTO_DOC_UPDATE
@@ -17901,7 +17904,7 @@ PR_FALSE
 )
 ;
 }
-PRInt32
+nsEventStates
 nsHTMLInputElement
 :
 :
@@ -17938,7 +17941,7 @@ case
 in
 AfterSetAttr
 .
-PRInt32
+nsEventStates
 state
 =
 nsGenericHTMLFormElement
@@ -23409,7 +23412,7 @@ nsHTMLInputElement
 :
 FieldSetDisabledChanged
 (
-PRInt32
+nsEventStates
 aStates
 PRBool
 aNotify

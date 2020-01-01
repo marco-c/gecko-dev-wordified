@@ -7952,7 +7952,7 @@ aVisitor
 )
 ;
 }
-PRInt32
+nsEventStates
 nsHTMLSelectElement
 :
 :
@@ -7961,7 +7961,7 @@ IntrinsicState
 )
 const
 {
-PRInt32
+nsEventStates
 state
 =
 nsGenericHTMLFormElement
@@ -10735,7 +10735,7 @@ nsHTMLSelectElement
 :
 FieldSetDisabledChanged
 (
-PRInt32
+nsEventStates
 aStates
 PRBool
 aNotify

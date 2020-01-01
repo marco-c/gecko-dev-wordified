@@ -687,7 +687,7 @@ aNotify
 /
 nsIContent
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )
