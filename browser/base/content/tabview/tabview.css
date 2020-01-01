@@ -1036,6 +1036,12 @@ top
 :
 20px
 ;
+pointer
+-
+events
+:
+auto
+;
 }
 html
 [
@@ -1169,6 +1175,12 @@ display
 inline
 -
 block
+;
+pointer
+-
+events
+:
+auto
 ;
 }
 .
