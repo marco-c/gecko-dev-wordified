@@ -10811,6 +10811,14 @@ hud
 .
 consolePanel
 .
+hidePopup
+(
+)
+;
+hud
+.
+consolePanel
+.
 parentNode
 .
 removeChild
