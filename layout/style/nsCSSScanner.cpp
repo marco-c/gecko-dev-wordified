@@ -2061,6 +2061,10 @@ mRecording
 (
 false
 )
+mSeenBadToken
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -5781,6 +5785,10 @@ Advance
 continue
 ;
 }
+mSeenBadToken
+=
+true
+;
 aToken
 .
 mType
@@ -6689,6 +6697,10 @@ eCSSToken_URL
 }
 else
 {
+mSeenBadToken
+=
+true
+;
 aToken
 .
 mType
