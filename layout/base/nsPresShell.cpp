@@ -11086,7 +11086,7 @@ PropertyTable
 )
 -
 >
-DeleteAll
+DeleteAllProperties
 (
 )
 ;
@@ -16504,7 +16504,7 @@ PropertyTable
 )
 -
 >
-DeleteAllFor
+DeleteAllPropertiesFor
 (
 aFrame
 )
@@ -16651,6 +16651,18 @@ aFrame
 ;
 }
 }
+/
+/
+note
+that
+this
+can
+return
+a
+null
+caret
+but
+NS_OK
 already_AddRefed
 <
 nsCaret
@@ -16677,7 +16689,10 @@ return
 caret
 ;
 }
+NS_IMETHODIMP_
+(
 void
+)
 PresShell
 :
 :
