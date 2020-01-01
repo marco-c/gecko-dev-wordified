@@ -289,6 +289,17 @@ HeapValue
 dst
 )
 {
+JS_ASSERT
+(
+!
+fp
+-
+>
+beginsIonActivation
+(
+)
+)
+;
 HeapValue
 *
 dstBase
