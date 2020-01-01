@@ -1586,6 +1586,8 @@ aDirtyRect
 nscoord
 &
 aCurrX
+PRBool
+aTextRTL
 )
 ;
 /
