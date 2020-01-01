@@ -4712,7 +4712,7 @@ container
 )
 return
 ;
-nsHyperTextAccessible
+HyperTextAccessible
 *
 textAccessible
 =

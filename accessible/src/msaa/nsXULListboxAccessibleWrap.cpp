@@ -496,6 +496,6 @@ nsXULListCellAccessible
 IMPL_IUNKNOWN_INHERITED1
 (
 nsXULListCellAccessibleWrap
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 CAccessibleTableCell
 )

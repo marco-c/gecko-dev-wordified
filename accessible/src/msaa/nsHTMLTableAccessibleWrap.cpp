@@ -461,7 +461,7 @@ nsHTMLTableCellAccessible
 IMPL_IUNKNOWN_INHERITED1
 (
 nsHTMLTableCellAccessibleWrap
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 CAccessibleTableCell
 )
 /
@@ -635,6 +635,6 @@ nsHTMLTableHeaderCellAccessible
 IMPL_IUNKNOWN_INHERITED1
 (
 nsHTMLTableHeaderCellAccessibleWrap
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 CAccessibleTableCell
 )

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-_nsHyperTextAccessible_H_
+mozilla_a11y_HyperTextAccessible_h__
 #
 define
-_nsHyperTextAccessible_H_
+mozilla_a11y_HyperTextAccessible_h__
 #
 include
 "
@@ -261,7 +261,7 @@ objects
 *
 /
 class
-nsHyperTextAccessible
+HyperTextAccessible
 :
 public
 AccessibleWrap
@@ -274,7 +274,7 @@ nsIAccessibleEditableText
 {
 public
 :
-nsHyperTextAccessible
+HyperTextAccessible
 (
 nsIContent
 *
@@ -286,7 +286,7 @@ aDoc
 ;
 virtual
 ~
-nsHyperTextAccessible
+HyperTextAccessible
 (
 )
 {
@@ -361,7 +361,7 @@ aAccessible
 ;
 /
 /
-nsHyperTextAccessible
+HyperTextAccessible
 (
 static
 helper
@@ -700,7 +700,7 @@ child
 /
 /
 /
-nsHyperTextAccessible
+HyperTextAccessible
 :
 DOM
 point
@@ -836,7 +836,7 @@ into
 the
 current
 *
-nsHyperTextAccessible
+HyperTextAccessible
 *
 param
 aIsEndOffset
@@ -960,7 +960,7 @@ is
 within
 the
 current
-nsHyperTextAccessible
+HyperTextAccessible
 *
 otherwise
 nsnull
@@ -1785,7 +1785,7 @@ protected
 :
 /
 /
-nsHyperTextAccessible
+HyperTextAccessible
 /
 *
 *
@@ -2739,7 +2739,7 @@ mOffsets
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-nsHyperTextAccessible
+HyperTextAccessible
 NS_HYPERTEXTACCESSIBLE_IMPL_CID
 )
 /
@@ -2828,7 +2828,7 @@ Accessible
 downcasting
 method
 inline
-nsHyperTextAccessible
+HyperTextAccessible
 *
 Accessible
 :
@@ -2844,7 +2844,7 @@ eHyperTextAccessible
 ?
 static_cast
 <
-nsHyperTextAccessible
+HyperTextAccessible
 *
 >
 (
@@ -2856,6 +2856,3 @@ nsnull
 }
 #
 endif
-/
-/
-_nsHyperTextAccessible_H_

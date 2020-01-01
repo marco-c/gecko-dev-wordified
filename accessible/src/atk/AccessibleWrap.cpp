@@ -1840,7 +1840,7 @@ and
 Hypertext
 interface
 .
-nsHyperTextAccessible
+HyperTextAccessible
 *
 hyperText
 =

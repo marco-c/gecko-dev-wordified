@@ -1057,7 +1057,7 @@ NS_IMPL_ISUPPORTS_INHERITED3
 (
 nsXFormsInputAccessible
 Accessible
-nsHyperTextAccessible
+HyperTextAccessible
 nsIAccessibleText
 nsIAccessibleEditableText
 )

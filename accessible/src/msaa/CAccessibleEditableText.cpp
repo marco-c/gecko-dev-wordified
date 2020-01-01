@@ -126,7 +126,7 @@ c
 #
 include
 "
-nsHyperTextAccessible
+HyperTextAccessible
 .
 h
 "
@@ -250,7 +250,7 @@ __try
 {
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -330,7 +330,7 @@ __try
 {
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -411,7 +411,7 @@ __try
 {
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -510,7 +510,7 @@ __try
 {
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -588,7 +588,7 @@ __try
 {
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -670,7 +670,7 @@ __try
 {
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (

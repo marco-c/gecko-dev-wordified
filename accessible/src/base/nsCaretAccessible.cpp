@@ -1409,7 +1409,7 @@ return
 No
 selection
 }
-nsHyperTextAccessible
+HyperTextAccessible
 *
 textAcc
 =
@@ -1642,7 +1642,7 @@ fire
 any
 event
 .
-nsHyperTextAccessible
+HyperTextAccessible
 *
 textAcc
 =

@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 .
 h
 "
@@ -334,7 +334,7 @@ class
 HTMLButtonAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -453,7 +453,7 @@ class
 HTMLTextFieldAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -497,7 +497,7 @@ index
 ;
 /
 /
-nsHyperTextAccessible
+HyperTextAccessible
 virtual
 already_AddRefed
 <
@@ -612,7 +612,7 @@ class
 HTMLFileInputAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -668,7 +668,7 @@ class
 HTMLGroupboxAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -740,7 +740,7 @@ class
 HTMLLegendAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -795,7 +795,7 @@ class
 HTMLFigureAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -877,7 +877,7 @@ class
 HTMLFigcaptionAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :

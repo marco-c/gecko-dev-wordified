@@ -112,6 +112,13 @@ h
 #
 include
 "
+HyperTextAccessibleWrap
+.
+h
+"
+#
+include
+"
 nsAccessibilityService
 .
 h
@@ -127,13 +134,6 @@ h
 include
 "
 nsCoreUtils
-.
-h
-"
-#
-include
-"
-nsHyperTextAccessibleWrap
 .
 h
 "

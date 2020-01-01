@@ -66,7 +66,7 @@ h
 #
 import
 "
-nsHyperTextAccessible
+HyperTextAccessible
 .
 h
 "
@@ -101,7 +101,7 @@ type
 for
 convenience
 .
-nsHyperTextAccessible
+HyperTextAccessible
 *
 mGeckoTextAccessible
 ;

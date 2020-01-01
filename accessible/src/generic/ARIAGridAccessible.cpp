@@ -4294,7 +4294,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -4387,7 +4387,7 @@ nsISupports
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 ARIAGridCellAccessible
-nsHyperTextAccessible
+HyperTextAccessible
 nsIAccessibleTableCell
 )
 /
@@ -5267,7 +5267,7 @@ aState
 )
 const
 {
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 ApplyARIAState
@@ -5427,7 +5427,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 GetAttributesInternal

@@ -472,6 +472,6 @@ ARIAGridCellAccessible
 IMPL_IUNKNOWN_INHERITED1
 (
 ARIAGridCellAccessibleWrap
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 CAccessibleTableCell
 )

@@ -775,7 +775,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -785,7 +785,7 @@ aDoc
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsHTMLLabelAccessible
-nsHyperTextAccessible
+HyperTextAccessible
 )
 nsresult
 nsHTMLLabelAccessible
@@ -1000,7 +1000,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -1010,7 +1010,7 @@ aDoc
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsHTMLOutputAccessible
-nsHyperTextAccessible
+HyperTextAccessible
 )
 Relation
 nsHTMLOutputAccessible

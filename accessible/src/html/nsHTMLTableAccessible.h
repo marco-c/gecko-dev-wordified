@@ -102,7 +102,7 @@ _nsHTMLTableAccessible_H_
 #
 include
 "
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 .
 h
 "
@@ -153,7 +153,7 @@ class
 nsHTMLTableCellAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 public
 nsIAccessibleTableCell
 {
@@ -930,7 +930,7 @@ class
 nsHTMLCaptionAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -944,7 +944,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc

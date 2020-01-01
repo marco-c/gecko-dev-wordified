@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsHyperTextAccessible
+HyperTextAccessible
 .
 h
 "
@@ -513,7 +513,7 @@ TextLeafAccessible
 *
 mTextLeaf
 ;
-nsHyperTextAccessible
+HyperTextAccessible
 *
 mHyperText
 ;

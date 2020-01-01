@@ -121,7 +121,7 @@ h
 #
 include
 "
-nsHyperTextAccessible
+HyperTextAccessible
 .
 h
 "
@@ -176,7 +176,7 @@ accWrap
 return
 nsnull
 ;
-nsHyperTextAccessible
+HyperTextAccessible
 *
 hyperText
 =
@@ -296,7 +296,7 @@ return
 -
 1
 ;
-nsHyperTextAccessible
+HyperTextAccessible
 *
 hyperText
 =
@@ -355,7 +355,7 @@ return
 -
 1
 ;
-nsHyperTextAccessible
+HyperTextAccessible
 *
 hyperText
 =

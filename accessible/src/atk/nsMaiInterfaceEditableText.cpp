@@ -121,7 +121,7 @@ h
 #
 include
 "
-nsHyperTextAccessible
+HyperTextAccessible
 .
 h
 "

@@ -336,7 +336,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -351,7 +351,7 @@ unconditionally
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsHTMLLinkAccessible
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 nsIAccessibleHyperLink
 )
 /
@@ -463,7 +463,7 @@ NativeState
 PRUint64
 states
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 NativeState
@@ -684,7 +684,7 @@ Truncate
 (
 )
 ;
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 Value
@@ -730,7 +730,7 @@ IsLinked
 ?
 1
 :
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 ActionCount
@@ -765,7 +765,7 @@ IsLinked
 )
 )
 return
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetActionName
@@ -827,7 +827,7 @@ IsLinked
 )
 )
 return
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 DoAction

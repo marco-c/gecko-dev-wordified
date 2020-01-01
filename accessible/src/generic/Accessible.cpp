@@ -15815,7 +15815,7 @@ link
 "
 )
 ;
-nsHyperTextAccessible
+HyperTextAccessible
 *
 hyperText
 =
@@ -15869,7 +15869,7 @@ link
 "
 )
 ;
-nsHyperTextAccessible
+HyperTextAccessible
 *
 hyperText
 =

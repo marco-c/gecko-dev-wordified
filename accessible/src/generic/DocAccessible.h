@@ -123,14 +123,14 @@ h
 #
 include
 "
-nsEventShell
+HyperTextAccessibleWrap
 .
 h
 "
 #
 include
 "
-nsHyperTextAccessibleWrap
+nsEventShell
 .
 h
 "
@@ -234,7 +234,7 @@ class
 DocAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 public
 nsIAccessibleDocument
 public
@@ -474,7 +474,7 @@ aRelativeFrame
 ;
 /
 /
-nsHyperTextAccessible
+HyperTextAccessible
 virtual
 already_AddRefed
 <

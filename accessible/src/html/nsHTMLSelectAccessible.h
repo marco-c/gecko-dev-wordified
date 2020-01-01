@@ -385,7 +385,7 @@ class
 nsHTMLSelectOptionAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :

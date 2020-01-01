@@ -1115,7 +1115,7 @@ It
 is
 used
 in
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 for
 IA2
 :

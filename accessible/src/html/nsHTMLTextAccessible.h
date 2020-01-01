@@ -238,7 +238,7 @@ class
 nsHTMLLabelAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -295,7 +295,7 @@ class
 nsHTMLOutputAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :

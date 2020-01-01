@@ -678,7 +678,7 @@ class
 nsXULListCellAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 public
 nsIAccessibleTableCell
 {
