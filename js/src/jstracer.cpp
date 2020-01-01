@@ -7224,7 +7224,7 @@ Switch
 from
 one
 global
-Frame
+frame
 to
 another
 .
