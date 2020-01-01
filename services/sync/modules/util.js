@@ -5701,6 +5701,12 @@ Preferences
 PREFS_BRANCH
 )
 ;
+Svc
+.
+Obs
+=
+Observers
+;
 [
 [
 "
