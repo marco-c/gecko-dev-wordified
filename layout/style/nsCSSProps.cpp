@@ -5146,9 +5146,6 @@ eCSSKeyword_UNKNOWN
 1
 }
 ;
-#
-ifdef
-MOZ_SVG
 /
 /
 keyword
@@ -5367,8 +5364,6 @@ eCSSKeyword_UNKNOWN
 1
 }
 ;
-#
-endif
 PRBool
 nsCSSProps
 :
@@ -7322,9 +7317,6 @@ eCSSProperty_transition_delay
 eCSSProperty_UNKNOWN
 }
 ;
-#
-ifdef
-MOZ_SVG
 static
 const
 nsCSSProperty
@@ -7339,8 +7331,6 @@ eCSSProperty_marker_end
 eCSSProperty_UNKNOWN
 }
 ;
-#
-endif
 const
 nsCSSProperty
 *

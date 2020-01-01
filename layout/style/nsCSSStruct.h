@@ -3373,9 +3373,6 @@ NOT
 IMPLEMENTED
 }
 ;
-#
-ifdef
-MOZ_SVG
 struct
 nsCSSSVG
 :
@@ -3527,8 +3524,6 @@ NOT
 IMPLEMENTED
 }
 ;
-#
-endif
 #
 endif
 /

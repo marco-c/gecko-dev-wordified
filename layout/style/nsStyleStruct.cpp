@@ -4336,9 +4336,6 @@ NS_STYLE_HINT_FRAMECHANGE
 }
 #
 endif
-#
-ifdef
-MOZ_SVG
 /
 /
 -
@@ -5767,11 +5764,6 @@ mPaint
 mColor
 ;
 }
-#
-endif
-/
-/
-MOZ_SVG
 /
 /
 -

@@ -4095,9 +4095,6 @@ unified
 toolbar
 _moz_mac_unified_toolbar
 )
-#
-ifdef
-MOZ_SVG
 CSS_KEY
 (
 alphabetic
@@ -4260,5 +4257,3 @@ crisp
 edges
 _moz_crisp_edges
 )
-#
-endif

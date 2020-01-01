@@ -2346,9 +2346,6 @@ nsIDOMCSSValue
 aValue
 )
 ;
-#
-ifdef
-MOZ_SVG
 /
 *
 SVG
@@ -2636,11 +2633,6 @@ nsIDOMCSSValue
 aValue
 )
 ;
-#
-endif
-/
-/
-MOZ_SVG
 nsROCSSPrimitiveValue
 *
 GetROCSSPrimitiveValue

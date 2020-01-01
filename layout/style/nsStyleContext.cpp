@@ -3426,9 +3426,6 @@ DO_STRUCT_DIFFERENCE
 Quotes
 )
 ;
-#
-ifdef
-MOZ_SVG
 maxHint
 =
 nsChangeHint
@@ -3448,8 +3445,6 @@ DO_STRUCT_DIFFERENCE
 SVG
 )
 ;
-#
-endif
 /
 /
 At

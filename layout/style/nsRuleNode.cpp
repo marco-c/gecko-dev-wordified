@@ -7980,9 +7980,6 @@ undef
 CSS_PROP_XUL
 }
 ;
-#
-ifdef
-MOZ_SVG
 static
 const
 PropertyCheckData
@@ -8031,8 +8028,6 @@ undef
 CSS_PROP_SVGRESET
 }
 ;
-#
-endif
 static
 const
 PropertyCheckData
@@ -10700,9 +10695,6 @@ columnData
 )
 ;
 }
-#
-ifdef
-MOZ_SVG
 const
 void
 *
@@ -10844,8 +10836,6 @@ svgData
 )
 ;
 }
-#
-endif
 /
 /
 If
@@ -13592,9 +13582,6 @@ return
 column
 ;
 }
-#
-ifdef
-MOZ_SVG
 case
 eStyleStruct_SVG
 :
@@ -13677,8 +13664,6 @@ return
 svgReset
 ;
 }
-#
-endif
 default
 :
 /
@@ -37724,9 +37709,6 @@ Column
 column
 )
 }
-#
-ifdef
-MOZ_SVG
 static
 void
 SetSVGPaint
@@ -39828,8 +39810,6 @@ SVGReset
 svgReset
 )
 }
-#
-endif
 inline
 const
 void

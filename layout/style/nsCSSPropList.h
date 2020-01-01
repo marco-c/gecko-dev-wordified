@@ -7373,9 +7373,6 @@ eStyleAnimType_None
 endif
 #
 endif
-#
-ifdef
-MOZ_SVG
 /
 /
 XXX
@@ -7968,8 +7965,6 @@ CSS_PROP_LIST_EXCLUDE_INTERNAL
 )
 *
 /
-#
-endif
 /
 /
 Callers
