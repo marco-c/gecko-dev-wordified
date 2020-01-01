@@ -2668,11 +2668,6 @@ reply
 )
 ;
 }
-dbus_message_unref
-(
-reply
-)
-;
 return
 ret
 ;
