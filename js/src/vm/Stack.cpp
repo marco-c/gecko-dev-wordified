@@ -7325,6 +7325,11 @@ savedOption_
 savedOption
 )
 {
+LeaveTrace
+(
+cx
+)
+;
 if
 (
 StackSegment
