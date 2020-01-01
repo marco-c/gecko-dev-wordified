@@ -1761,6 +1761,14 @@ ins
 )
 ;
 bool
+spillForCall
+(
+LInstruction
+*
+ins
+)
+;
+bool
 informSnapshot
 (
 LSnapshot
