@@ -842,7 +842,7 @@ aType
 aListener
 aUseCapture
 PR_FALSE
-1
+2
 )
 ;
 }
