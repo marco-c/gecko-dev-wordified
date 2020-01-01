@@ -4828,14 +4828,6 @@ BUFFER_WHITE
 ;
 }
 }
-MOZ_ASSERT
-(
-!
-IsAzureBuffer
-(
-)
-)
-;
 mBuffer
 =
 destBuffer
