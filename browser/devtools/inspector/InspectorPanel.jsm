@@ -1981,6 +1981,9 @@ newWindow
 document
 .
 documentElement
+"
+navigateaway
+"
 )
 ;
 }
