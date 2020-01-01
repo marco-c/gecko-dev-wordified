@@ -466,13 +466,6 @@ h
 #
 include
 "
-jsprvtd
-.
-h
-"
-#
-include
-"
 jsvector
 .
 h
@@ -493,6 +486,9 @@ obj
 namespace
 js
 {
+class
+Debugger
+;
 /
 *
 *
@@ -1383,7 +1379,8 @@ SystemAllocPolicy
 DebuggerVector
 ;
 /
-/
+*
+*
 The
 collection
 of
@@ -1396,8 +1393,7 @@ global
 If
 this
 global
-/
-/
+*
 is
 not
 a
@@ -1411,6 +1407,8 @@ an
 empty
 vector
 .
+*
+/
 DebuggerVector
 *
 getDebuggers
@@ -1418,7 +1416,8 @@ getDebuggers
 )
 ;
 /
-/
+*
+*
 The
 same
 but
@@ -1431,8 +1430,7 @@ one
 does
 not
 already
-/
-/
+*
 exist
 .
 Returns
@@ -1441,6 +1439,8 @@ only
 on
 OOM
 .
+*
+/
 DebuggerVector
 *
 getOrCreateDebuggers

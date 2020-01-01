@@ -1944,7 +1944,7 @@ this
 ;
 DebuggerVector
 *
-vec
+debuggers
 =
 getDebuggers
 (
@@ -1952,10 +1952,10 @@ getDebuggers
 ;
 if
 (
-vec
+debuggers
 )
 return
-vec
+debuggers
 ;
 JSObject
 *
@@ -1973,7 +1973,7 @@ cx
 &
 GlobalDebuggees_class
 NULL
-NULL
+this
 )
 ;
 if
@@ -1984,7 +1984,7 @@ obj
 return
 NULL
 ;
-vec
+debuggers
 =
 cx
 -
@@ -1999,7 +1999,7 @@ DebuggerVector
 if
 (
 !
-vec
+debuggers
 )
 return
 NULL
@@ -2009,16 +2009,11 @@ obj
 >
 setPrivate
 (
-vec
+debuggers
 )
 ;
-if
+setReservedSlot
 (
-!
-js_SetReservedSlot
-(
-cx
-this
 DEBUGGERS
 ObjectValue
 (
@@ -2026,12 +2021,9 @@ ObjectValue
 obj
 )
 )
-)
-return
-NULL
 ;
 return
-vec
+debuggers
 ;
 }
 bool
@@ -2050,7 +2042,7 @@ dbg
 {
 DebuggerVector
 *
-vec
+debuggers
 =
 getOrCreateDebuggers
 (
@@ -2060,7 +2052,7 @@ cx
 if
 (
 !
-vec
+debuggers
 )
 return
 false
@@ -2075,7 +2067,7 @@ Debugger
 *
 p
 =
-vec
+debuggers
 -
 >
 begin
@@ -2085,7 +2077,7 @@ begin
 p
 !
 =
-vec
+debuggers
 -
 >
 end
@@ -2109,7 +2101,7 @@ dbg
 endif
 if
 (
-vec
+debuggers
 -
 >
 empty
@@ -2135,7 +2127,7 @@ false
 if
 (
 !
-vec
+debuggers
 -
 >
 append
