@@ -34846,13 +34846,7 @@ argv
 -
 2
 ]
-js_GetTopStackFrame
-(
-cx
-)
--
->
-flags
+0
 )
 ;
 return
