@@ -11567,6 +11567,11 @@ new
 GeckoLayerClient
 (
 this
+GeckoAppShell
+.
+getEventDispatcher
+(
+)
 )
 ;
 mLayerClient
