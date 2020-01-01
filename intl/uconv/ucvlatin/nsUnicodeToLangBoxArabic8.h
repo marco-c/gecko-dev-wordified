@@ -536,7 +536,6 @@ nsUnicodeToLangBoxArabic8
 )
 {
 }
-;
 virtual
 ~
 nsUnicodeToLangBoxArabic8
@@ -544,7 +543,6 @@ nsUnicodeToLangBoxArabic8
 )
 {
 }
-;
 NS_IMETHOD
 Convert
 (

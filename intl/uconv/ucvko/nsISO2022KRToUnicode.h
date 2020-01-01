@@ -469,7 +469,6 @@ mEUCKRDecoder
 nsnull
 ;
 }
-;
 virtual
 ~
 nsISO2022KRToUnicode
@@ -482,7 +481,6 @@ mEUCKRDecoder
 )
 ;
 }
-;
 NS_IMETHOD
 Convert
 (
@@ -524,7 +522,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 Reset
 (
@@ -542,7 +539,6 @@ return
 NS_OK
 ;
 }
-;
 private
 :
 enum

@@ -876,7 +876,6 @@ void
 )
 {
 }
-;
 virtual
 ~
 XULSortServiceImpl
@@ -885,7 +884,6 @@ void
 )
 {
 }
-;
 friend
 nsresult
 NS_NewXULSortService

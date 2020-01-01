@@ -896,7 +896,6 @@ return
 mPushResult
 ;
 }
-;
 private
 :
 nsCOMPtr

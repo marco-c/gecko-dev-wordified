@@ -566,7 +566,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 MouseDblClick
 (
@@ -579,7 +578,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 MouseOver
 (
@@ -592,7 +590,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 MouseOut
 (
@@ -616,7 +613,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 MouseMove
 (
@@ -648,7 +644,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 KeyPress
 (
@@ -661,7 +656,6 @@ return
 NS_OK
 ;
 }
-;
 /
 /
 nsIDOMXULListener
@@ -677,7 +671,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 PopupShown
 (
@@ -690,7 +683,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 PopupHiding
 (
@@ -711,7 +703,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 Close
 (
@@ -724,7 +715,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 Command
 (
@@ -737,7 +727,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 Broadcast
 (
@@ -750,7 +739,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 CommandUpdate
 (
@@ -763,7 +751,6 @@ return
 NS_OK
 ;
 }
-;
 /
 /
 nsIDOMEventListener

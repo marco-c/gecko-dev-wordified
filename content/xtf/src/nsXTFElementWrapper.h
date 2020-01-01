@@ -904,7 +904,6 @@ return
 mXTFElement
 ;
 }
-;
 /
 /
 implementation

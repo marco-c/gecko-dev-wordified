@@ -908,7 +908,6 @@ nsCNullSecurityContext
 )
 {
 }
-;
 }
 ;
 #

@@ -898,7 +898,6 @@ nsCookie
 )
 {
 }
-;
 /
 /
 fast

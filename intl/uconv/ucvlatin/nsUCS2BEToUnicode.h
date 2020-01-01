@@ -472,7 +472,6 @@ Reset
 )
 ;
 }
-;
 public
 :
 /

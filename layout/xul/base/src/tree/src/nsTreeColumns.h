@@ -646,7 +646,6 @@ mColumns
 aColumns
 ;
 }
-;
 const
 nsAString
 &
@@ -658,7 +657,6 @@ return
 mId
 ;
 }
-;
 nsIAtom
 *
 GetAtom
@@ -669,7 +667,6 @@ return
 mAtom
 ;
 }
-;
 PRInt32
 GetIndex
 (
@@ -679,7 +676,6 @@ return
 mIndex
 ;
 }
-;
 PRBool
 IsPrimary
 (
@@ -689,7 +685,6 @@ return
 mIsPrimary
 ;
 }
-;
 PRBool
 IsCycler
 (
@@ -699,7 +694,6 @@ return
 mIsCycler
 ;
 }
-;
 PRBool
 IsEditable
 (
@@ -709,7 +703,6 @@ return
 mIsEditable
 ;
 }
-;
 PRBool
 IsSelectable
 (
@@ -719,7 +712,6 @@ return
 mIsSelectable
 ;
 }
-;
 PRBool
 Overflow
 (
@@ -729,7 +721,6 @@ return
 mOverflow
 ;
 }
-;
 PRInt16
 GetType
 (
@@ -739,7 +730,6 @@ return
 mType
 ;
 }
-;
 PRInt8
 GetCropStyle
 (
@@ -749,7 +739,6 @@ return
 mCropStyle
 ;
 }
-;
 PRInt32
 GetTextAlignment
 (
@@ -759,7 +748,6 @@ return
 mTextAlignment
 ;
 }
-;
 nsTreeColumn
 *
 GetNext
@@ -770,7 +758,6 @@ return
 mNext
 ;
 }
-;
 nsTreeColumn
 *
 GetPrevious
@@ -781,7 +768,6 @@ return
 mPrevious
 ;
 }
-;
 void
 SetNext
 (
@@ -798,7 +784,6 @@ aNext
 )
 ;
 }
-;
 void
 SetPrevious
 (
@@ -812,7 +797,6 @@ mPrevious
 aPrevious
 ;
 }
-;
 private
 :
 /
@@ -967,7 +951,6 @@ mTree
 aTree
 ;
 }
-;
 /
 /
 Builds
@@ -996,7 +979,6 @@ return
 mFirstColumn
 ;
 }
-;
 nsTreeColumn
 *
 GetPrimaryColumn

@@ -680,7 +680,6 @@ return
 mRoot
 ;
 }
-;
 void
 SetRoot
 (
@@ -694,7 +693,6 @@ mRoot
 aRoot
 ;
 }
-;
 void
 GetQueryNode
 (

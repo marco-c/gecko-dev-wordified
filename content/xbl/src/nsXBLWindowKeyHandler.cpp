@@ -768,7 +768,6 @@ PR_FALSE
 )
 {
 }
-;
 }
 ;
 const

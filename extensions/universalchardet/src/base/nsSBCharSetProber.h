@@ -661,7 +661,6 @@ return
 mState
 ;
 }
-;
 virtual
 void
 Reset
@@ -683,7 +682,6 @@ SetOpion
 )
 {
 }
-;
 /
 /
 This
@@ -763,7 +761,6 @@ mModel
 keepEnglishLetter
 ;
 }
-;
 /
 /
 (

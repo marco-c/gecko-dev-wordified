@@ -452,7 +452,6 @@ mBOM
 0
 ;
 }
-;
 /
 /
 -
@@ -713,7 +712,6 @@ mBOM
 0
 ;
 }
-;
 protected
 :
 NS_IMETHOD
@@ -804,7 +802,6 @@ mBOM
 0xFEFF
 ;
 }
-;
 }
 ;
 #

@@ -480,14 +480,12 @@ nsDOMStorageDB
 )
 {
 }
-;
 ~
 nsDOMStorageDB
 (
 )
 {
 }
-;
 nsresult
 Init
 (

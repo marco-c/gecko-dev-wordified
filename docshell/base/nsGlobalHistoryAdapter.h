@@ -570,7 +570,6 @@ NS_DEFINE_STATIC_CID_ACCESSOR
 (
 NS_GLOBALHISTORYADAPTER_CID
 )
-;
 private
 :
 nsGlobalHistoryAdapter

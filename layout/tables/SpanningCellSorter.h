@@ -972,6 +972,5 @@ return
 nsnull
 ;
 }
-;
 }
 ;

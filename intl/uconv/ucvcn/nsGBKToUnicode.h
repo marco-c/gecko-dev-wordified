@@ -602,7 +602,6 @@ m4BytesDecoder
 nsnull
 ;
 }
-;
 protected
 :
 /
@@ -783,7 +782,6 @@ nsGB18030ToUnicode
 )
 {
 }
-;
 virtual
 ~
 nsGB18030ToUnicode
@@ -791,7 +789,6 @@ nsGB18030ToUnicode
 )
 {
 }
-;
 protected
 :
 virtual

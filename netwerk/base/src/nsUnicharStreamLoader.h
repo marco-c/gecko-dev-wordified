@@ -506,7 +506,6 @@ nsUnicharStreamLoader
 )
 {
 }
-;
 static
 NS_METHOD
 Create

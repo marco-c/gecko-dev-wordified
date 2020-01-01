@@ -696,14 +696,12 @@ EmbedCommon
 )
 {
 }
-;
 ~
 EmbedCommon
 (
 )
 {
 }
-;
 static
 EmbedCommon
 *

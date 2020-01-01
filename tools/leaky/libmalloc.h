@@ -726,7 +726,6 @@ newrc
 ifdef
 __cplusplus
 }
-;
 /
 *
 end

@@ -785,7 +785,6 @@ aBidiOptions
 )
 {
 }
-;
 virtual
 ~
 nsFormSubmission
@@ -793,7 +792,6 @@ nsFormSubmission
 )
 {
 }
-;
 NS_DECL_ISUPPORTS
 /
 /

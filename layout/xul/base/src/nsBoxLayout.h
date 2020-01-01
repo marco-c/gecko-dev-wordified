@@ -454,7 +454,6 @@ nsBoxLayout
 )
 {
 }
-;
 NS_DECL_ISUPPORTS
 NS_IMETHOD
 Layout

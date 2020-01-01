@@ -1035,7 +1035,6 @@ nsPrinterFeatures
 )
 {
 }
-;
 /
 *
 Does

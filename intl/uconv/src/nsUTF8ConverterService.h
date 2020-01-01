@@ -516,7 +516,6 @@ nsUTF8ConverterService
 )
 {
 }
-;
 virtual
 ~
 nsUTF8ConverterService
@@ -524,7 +523,6 @@ nsUTF8ConverterService
 )
 {
 }
-;
 }
 ;
 #

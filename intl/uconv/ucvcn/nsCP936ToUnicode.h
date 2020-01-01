@@ -568,7 +568,6 @@ nsCP936ToUnicode
 )
 {
 }
-;
 }
 ;
 #

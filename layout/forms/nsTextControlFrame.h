@@ -1309,7 +1309,6 @@ mFireChangeEventState
 aNewState
 ;
 }
-;
 PRBool
 GetFireChangeEventState
 (

@@ -545,7 +545,6 @@ nsUnicodeToLangBoxArabic16
 )
 {
 }
-;
 virtual
 ~
 nsUnicodeToLangBoxArabic16
@@ -553,7 +552,6 @@ nsUnicodeToLangBoxArabic16
 )
 {
 }
-;
 NS_IMETHOD
 Convert
 (

@@ -638,7 +638,6 @@ mNotifyByReload
 aByReload
 ;
 }
-;
 private
 :
 nsCOMPtr
@@ -887,7 +886,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 ProcessTokens
 (
@@ -898,7 +896,6 @@ return
 NS_OK
 ;
 }
-;
 private
 :
 nsCOMPtr

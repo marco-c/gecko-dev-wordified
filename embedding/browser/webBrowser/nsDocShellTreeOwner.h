@@ -1221,7 +1221,6 @@ return
 NS_OK
 ;
 }
-;
 /
 /
 nsIDOMKeyListener

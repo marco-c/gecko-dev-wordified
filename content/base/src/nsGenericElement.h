@@ -855,7 +855,6 @@ nsNode3Tearoff
 )
 {
 }
-;
 private
 :
 nsCOMPtr

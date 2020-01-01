@@ -606,7 +606,6 @@ constructer
 /
 {
 }
-;
 nsresult
 GetDefaultFromPropertiesFile
 (

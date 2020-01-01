@@ -1562,7 +1562,6 @@ insertElement
 )
 {
 }
-;
 virtual
 ~
 nsTextRulesInfo
@@ -1570,7 +1569,6 @@ nsTextRulesInfo
 )
 {
 }
-;
 /
 /
 kInsertText

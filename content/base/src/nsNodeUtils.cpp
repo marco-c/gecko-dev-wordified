@@ -2010,7 +2010,6 @@ aNodesWithProperties
 )
 {
 }
-;
 nsIDOMElement
 *
 mElement

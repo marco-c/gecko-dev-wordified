@@ -485,7 +485,6 @@ return
 mDetectedCharset
 ;
 }
-;
 nsProbingState
 GetState
 (
@@ -496,7 +495,6 @@ return
 mState
 ;
 }
-;
 void
 Reset
 (
@@ -518,14 +516,12 @@ float
 99
 ;
 }
-;
 void
 SetOpion
 (
 )
 {
 }
-;
 protected
 :
 void

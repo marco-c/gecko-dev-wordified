@@ -881,7 +881,6 @@ return
 NS_OK
 ;
 }
-;
 /
 /
 For

@@ -15489,7 +15489,6 @@ nsRadioVisitor
 )
 {
 }
-;
 NS_DECL_ISUPPORTS
 NS_IMETHOD
 Visit

@@ -454,7 +454,6 @@ nsMIMEHeaderParamImpl
 )
 {
 }
-;
 virtual
 ~
 nsMIMEHeaderParamImpl
@@ -462,7 +461,6 @@ nsMIMEHeaderParamImpl
 )
 {
 }
-;
 }
 ;
 #

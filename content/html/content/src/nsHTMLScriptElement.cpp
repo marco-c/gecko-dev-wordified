@@ -639,7 +639,6 @@ nsHTMLScriptEventHandler
 )
 {
 }
-;
 /
 /
 nsISupports

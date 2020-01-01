@@ -905,7 +905,6 @@ nsIXPInstallManagerUI
 INSTALL_INSTALLING
 ;
 }
-;
 static
 PRBool
 IsInProgress
@@ -960,7 +959,6 @@ nsIXPInstallManagerUI
 INSTALL_INSTALLING
 ;
 }
-;
 static
 PRBool
 CompletedSuccessfully
@@ -988,7 +986,6 @@ nsIXPInstallManagerUI
 INSTALL_FINISHED
 ;
 }
-;
 private
 :
 nsCOMPtr
@@ -1060,7 +1057,6 @@ nsXPIProgressListener
 )
 {
 }
-;
 nsXPIProgressListener
 (
 nsDownloadManager
@@ -1142,7 +1138,6 @@ nsDownloadsDataSource
 )
 {
 }
-;
 virtual
 ~
 nsDownloadsDataSource
@@ -1150,7 +1145,6 @@ nsDownloadsDataSource
 )
 {
 }
-;
 nsresult
 LoadDataSource
 (

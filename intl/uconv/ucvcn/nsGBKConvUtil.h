@@ -452,14 +452,12 @@ nsGBKConvUtil
 )
 {
 }
-;
 ~
 nsGBKConvUtil
 (
 )
 {
 }
-;
 void
 InitToGBKTable
 (

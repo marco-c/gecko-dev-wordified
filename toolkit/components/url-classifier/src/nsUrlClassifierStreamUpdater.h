@@ -539,7 +539,6 @@ nsUrlClassifierStreamUpdater
 )
 {
 }
-;
 /
 /
 Disallow

@@ -2327,7 +2327,6 @@ aClosure
 )
 {
 }
-;
 gfxFontGroup
 :
 :

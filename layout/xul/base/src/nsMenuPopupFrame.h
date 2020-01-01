@@ -824,7 +824,6 @@ return
 NS_OK
 ;
 }
-;
 /
 /
 We
@@ -849,7 +848,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 IsMenuBar
 (
@@ -866,7 +864,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 ConsumeOutsideClicks
 (
@@ -919,7 +916,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 GetIsContextMenu
 (
@@ -936,7 +932,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 GetParentPopup
 (

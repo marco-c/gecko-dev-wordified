@@ -615,7 +615,6 @@ sz
 )
 ;
 }
-;
 void
 ClearInheritedData
 (
@@ -685,7 +684,6 @@ STYLE_STRUCT_INHERITED
 undef
 STYLE_STRUCT_RESET
 }
-;
 void
 Destroy
 (
@@ -775,7 +773,6 @@ this
 )
 ;
 }
-;
 nsInheritedStyleData
 (
 )
@@ -821,7 +818,6 @@ STYLE_STRUCT_INHERITED
 undef
 STYLE_STRUCT_RESET
 }
-;
 }
 ;
 struct
@@ -872,7 +868,6 @@ STYLE_STRUCT_RESET
 undef
 STYLE_STRUCT_INHERITED
 }
-;
 void
 *
 operator
@@ -965,7 +960,6 @@ STYLE_STRUCT_RESET
 undef
 STYLE_STRUCT_INHERITED
 }
-;
 void
 Destroy
 (
@@ -1055,7 +1049,6 @@ this
 )
 ;
 }
-;
 #
 define
 STYLE_STRUCT_RESET
@@ -1151,7 +1144,6 @@ aSID
 mIsReset
 ;
 }
-;
 static
 PRUint32
 GetBitForSID
@@ -1169,7 +1161,6 @@ return
 aSID
 ;
 }
-;
 NS_HIDDEN_
 (
 nsStyleStruct
@@ -1473,7 +1464,6 @@ return
 data
 ;
 }
-;
 /
 /
 Typesafe
@@ -1681,14 +1671,12 @@ nsnull
 )
 {
 }
-;
 ~
 nsCachedStyleData
 (
 )
 {
 }
-;
 }
 ;
 /

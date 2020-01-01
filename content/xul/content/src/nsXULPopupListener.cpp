@@ -946,7 +946,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 MouseClick
 (
@@ -959,7 +958,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 MouseDblClick
 (
@@ -972,7 +970,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 MouseOver
 (
@@ -985,7 +982,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 MouseOut
 (
@@ -998,7 +994,6 @@ return
 NS_OK
 ;
 }
-;
 /
 /
 nsIDOMContextMenuListener
@@ -1025,7 +1020,6 @@ return
 NS_OK
 ;
 }
-;
 protected
 :
 virtual

@@ -536,7 +536,6 @@ nsAccEvent
 )
 {
 }
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIACCESSIBLEEVENT
 private

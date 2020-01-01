@@ -566,7 +566,6 @@ nsUnicodeToCP936
 )
 {
 }
-;
 }
 ;
 #

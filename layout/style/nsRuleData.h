@@ -670,14 +670,12 @@ nsnull
 #
 endif
 }
-;
 ~
 nsRuleData
 (
 )
 {
 }
-;
 }
 ;
 #

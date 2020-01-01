@@ -844,7 +844,6 @@ return
 mCtxDocTitle
 ;
 }
-;
 PRInt32
 mX
 mY

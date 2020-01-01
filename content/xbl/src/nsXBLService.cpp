@@ -1828,7 +1828,6 @@ aRequest
 )
 ;
 }
-;
 PRBool
 HasRequest
 (

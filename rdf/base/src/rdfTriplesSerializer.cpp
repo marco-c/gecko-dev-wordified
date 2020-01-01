@@ -545,7 +545,6 @@ aOut
 )
 {
 }
-;
 NS_DECL_RDFITRIPLEVISITOR
 NS_DECL_ISUPPORTS
 protected

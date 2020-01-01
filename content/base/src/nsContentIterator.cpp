@@ -7717,7 +7717,6 @@ nsContentSubtreeIterator
 )
 {
 }
-;
 virtual
 ~
 nsContentSubtreeIterator
@@ -7725,7 +7724,6 @@ nsContentSubtreeIterator
 )
 {
 }
-;
 /
 /
 nsContentIterator

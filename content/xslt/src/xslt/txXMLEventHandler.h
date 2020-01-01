@@ -531,7 +531,6 @@ txAXMLEventHandler
 )
 {
 }
-;
 /
 *
 *
@@ -1286,7 +1285,6 @@ txAOutputHandlerFactory
 )
 {
 }
-;
 /
 *
 *

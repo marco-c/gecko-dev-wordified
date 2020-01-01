@@ -904,7 +904,6 @@ return
 mUsedLen
 ;
 }
-;
 void
 SetChar
 (

@@ -3247,7 +3247,6 @@ aPrototype
 )
 {
 }
-;
 }
 ;
 PRBool
@@ -4936,7 +4935,6 @@ aContent
 )
 {
 }
-;
 }
 ;
 /

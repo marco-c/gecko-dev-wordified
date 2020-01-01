@@ -580,7 +580,6 @@ nsGB2312ToUnicodeV2
 )
 {
 }
-;
 }
 ;
 #

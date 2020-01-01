@@ -541,7 +541,6 @@ PR_FALSE
 )
 {
 }
-;
 StyleCache
 (
 nsIAtom
@@ -569,14 +568,12 @@ PR_FALSE
 )
 {
 }
-;
 ~
 StyleCache
 (
 )
 {
 }
-;
 }
 ;
 #

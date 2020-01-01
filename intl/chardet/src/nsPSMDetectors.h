@@ -1601,7 +1601,6 @@ nsPSMDetector
 )
 {
 }
-;
 virtual
 PRBool
 HandleData
@@ -1898,7 +1897,6 @@ nsnull
 )
 {
 }
-;
 }
 ;
 class
@@ -1923,7 +1921,6 @@ nsnull
 )
 {
 }
-;
 }
 ;
 class
@@ -1946,7 +1943,6 @@ nsnull
 )
 {
 }
-;
 }
 ;
 class
@@ -1971,7 +1967,6 @@ nsnull
 )
 {
 }
-;
 }
 ;
 class
@@ -1994,7 +1989,6 @@ gZhTwStatisticsSet
 )
 {
 }
-;
 }
 ;
 class
@@ -2019,7 +2013,6 @@ gZhTwStatisticsSet
 )
 {
 }
-;
 }
 ;
 class
@@ -2042,7 +2035,6 @@ nsnull
 )
 {
 }
-;
 }
 ;
 class
@@ -2067,7 +2059,6 @@ nsnull
 )
 {
 }
-;
 }
 ;
 class
@@ -2090,7 +2081,6 @@ gZhStatisticsSet
 )
 {
 }
-;
 }
 ;
 class
@@ -2115,7 +2105,6 @@ gZhStatisticsSet
 )
 {
 }
-;
 }
 ;
 class
@@ -2138,7 +2127,6 @@ gCJKStatisticsSet
 )
 {
 }
-;
 }
 ;
 class
@@ -2163,7 +2151,6 @@ gCJKStatisticsSet
 )
 {
 }
-;
 }
 ;
 #

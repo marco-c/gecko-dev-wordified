@@ -5681,7 +5681,6 @@ nsBaseFontEntry
 )
 {
 }
-;
 nsString
 mFontFamily
 ;

@@ -873,7 +873,6 @@ return
 mCtxInfo
 ;
 }
-;
 /
 /
 nsIDOMFocusListener

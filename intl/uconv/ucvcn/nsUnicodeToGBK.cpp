@@ -860,7 +860,6 @@ g_uf_gb18030_2bytes
 )
 {
 }
-;
 protected
 :
 }
@@ -1063,7 +1062,6 @@ g_uf_gb18030_4bytes
 )
 {
 }
-;
 protected
 :
 }
@@ -1266,7 +1264,6 @@ g_uf_gbk_2bytes
 )
 {
 }
-;
 protected
 :
 }

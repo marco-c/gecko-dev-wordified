@@ -574,7 +574,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 MouseDown
 (
@@ -587,7 +586,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 MouseUp
 (
@@ -600,7 +598,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 MouseClick
 (
@@ -613,7 +610,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 MouseDblClick
 (
@@ -626,7 +622,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 MouseOver
 (
@@ -639,7 +634,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 MouseOut
 (
@@ -652,7 +646,6 @@ return
 NS_OK
 ;
 }
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIROLLUPLISTENER
 NS_DECL_NSIMENUROLLUP

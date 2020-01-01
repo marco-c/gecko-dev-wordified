@@ -803,7 +803,6 @@ return
 NS_OK
 ;
 }
-;
 /
 /
 Overridden
@@ -1387,7 +1386,6 @@ mTopRowIndex
 mPageLength
 ;
 }
-;
 /
 /
 An
@@ -2378,7 +2376,6 @@ aOrientation
 )
 ;
 }
-;
 already_AddRefed
 <
 nsTreeColumn
@@ -2944,7 +2941,6 @@ PRInt32
 )
 {
 }
-;
 ~
 Slots
 (
@@ -2962,7 +2958,6 @@ Cancel
 )
 ;
 }
-;
 friend
 class
 nsTreeBodyFrame

@@ -1293,7 +1293,6 @@ PR_FALSE
 )
 {
 }
-;
 virtual
 void
 *
@@ -1335,7 +1334,6 @@ nsnull
 anObject
 ;
 }
-;
 }
 ;
 /

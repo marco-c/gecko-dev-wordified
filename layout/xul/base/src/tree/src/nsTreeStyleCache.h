@@ -500,7 +500,6 @@ aID
 )
 {
 }
-;
 PRUint32
 GetStateID
 (
@@ -510,7 +509,6 @@ return
 mStateID
 ;
 }
-;
 PRUint32
 HashCode
 (
@@ -606,7 +604,6 @@ aSymbol
 )
 {
 }
-;
 PRUint32
 HashCode
 (
@@ -753,7 +750,6 @@ mNextState
 )
 {
 }
-;
 ~
 nsTreeStyleCache
 (
@@ -764,7 +760,6 @@ Clear
 )
 ;
 }
-;
 void
 Clear
 (
@@ -789,7 +784,6 @@ mNextState
 0
 ;
 }
-;
 nsStyleContext
 *
 GetStyleContext

@@ -559,7 +559,6 @@ SetOpion
 )
 {
 }
-;
 void
 SetModelProbers
 (

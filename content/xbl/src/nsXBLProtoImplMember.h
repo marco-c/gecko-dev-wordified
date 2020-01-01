@@ -674,7 +674,6 @@ aName
 )
 ;
 }
-;
 virtual
 ~
 nsXBLProtoImplMember
@@ -693,7 +692,6 @@ delete
 mNext
 ;
 }
-;
 virtual
 void
 Destroy
@@ -714,7 +712,6 @@ return
 mNext
 ;
 }
-;
 void
 SetNext
 (
@@ -728,7 +725,6 @@ mNext
 aNext
 ;
 }
-;
 virtual
 nsresult
 InstallMember

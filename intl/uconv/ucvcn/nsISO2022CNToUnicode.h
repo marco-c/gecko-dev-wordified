@@ -511,7 +511,6 @@ mPlaneID
 )
 {
 }
-;
 virtual
 ~
 nsISO2022CNToUnicode
@@ -519,7 +518,6 @@ nsISO2022CNToUnicode
 )
 {
 }
-;
 NS_IMETHOD
 Convert
 (
@@ -561,7 +559,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 Reset
 (
@@ -579,7 +576,6 @@ return
 NS_OK
 ;
 }
-;
 private
 :
 /

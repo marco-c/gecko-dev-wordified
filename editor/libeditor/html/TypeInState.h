@@ -506,7 +506,6 @@ value
 )
 {
 }
-;
 PropItem
 (
 nsIAtom

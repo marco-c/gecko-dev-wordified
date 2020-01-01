@@ -509,7 +509,6 @@ nsComposeTxtSrvFilter
 )
 {
 }
-;
 /
 /
 nsISupports

@@ -11712,7 +11712,6 @@ NS_OK
 )
 {
 }
-;
 rdfITripleVisitor
 *
 mVisitor
@@ -11917,7 +11916,6 @@ aClosure
 )
 {
 }
-;
 nsIRDFNode
 *
 mSubject

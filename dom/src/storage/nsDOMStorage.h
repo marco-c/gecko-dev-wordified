@@ -1116,7 +1116,6 @@ Init
 )
 ;
 }
-;
 virtual
 ~
 nsDOMStorageList
@@ -1124,7 +1123,6 @@ nsDOMStorageList
 )
 {
 }
-;
 /
 /
 nsISupports

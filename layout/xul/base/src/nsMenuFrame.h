@@ -820,7 +820,6 @@ return
 NS_OK
 ;
 }
-;
 /
 /
 The
@@ -1242,7 +1241,6 @@ return
 mMenuParent
 ;
 }
-;
 virtual
 nsIFrame
 *
@@ -1274,7 +1272,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 GetMenuType
 (
@@ -1291,7 +1288,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 MarkAsGenerated
 (
@@ -1329,7 +1325,6 @@ return
 mMenuOpen
 ;
 }
-;
 PRBool
 IsMenu
 (
@@ -1369,7 +1364,6 @@ mIsMenu
 aIsMenu
 ;
 }
-;
 #
 ifdef
 DEBUG

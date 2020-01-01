@@ -740,7 +740,6 @@ return
 NS_OK
 ;
 }
-;
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsFocusController

@@ -1378,7 +1378,6 @@ return
 mUnit
 ;
 }
-;
 PRBool
 IsLengthUnit
 (

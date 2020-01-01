@@ -528,7 +528,6 @@ Reset
 )
 ;
 }
-;
 virtual
 ~
 nsEUCJPProber
@@ -540,7 +539,6 @@ delete
 mCodingSM
 ;
 }
-;
 nsProbingState
 HandleData
 (
@@ -567,7 +565,6 @@ JP
 "
 ;
 }
-;
 nsProbingState
 GetState
 (
@@ -578,7 +575,6 @@ return
 mState
 ;
 }
-;
 void
 Reset
 (
@@ -597,7 +593,6 @@ SetOpion
 )
 {
 }
-;
 protected
 :
 nsCodingStateMachine

@@ -599,7 +599,6 @@ nsObserverBase
 )
 {
 }
-;
 virtual
 ~
 nsObserverBase
@@ -607,7 +606,6 @@ nsObserverBase
 )
 {
 }
-;
 /
 *
 *

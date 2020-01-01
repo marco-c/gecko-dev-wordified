@@ -1197,7 +1197,6 @@ return
 nsnull
 ;
 }
-;
 public
 :
 /

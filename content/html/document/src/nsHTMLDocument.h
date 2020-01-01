@@ -1492,7 +1492,6 @@ return
 mDefaultNamespaceID
 ;
 }
-;
 nsCOMArray
 <
 nsIDOMHTMLMapElement

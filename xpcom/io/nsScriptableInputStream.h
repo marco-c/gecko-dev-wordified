@@ -513,7 +513,6 @@ nsScriptableInputStream
 )
 {
 }
-;
 static
 NS_METHOD
 Create
@@ -537,7 +536,6 @@ nsScriptableInputStream
 )
 {
 }
-;
 nsCOMPtr
 <
 nsIInputStream

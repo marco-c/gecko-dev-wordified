@@ -452,7 +452,6 @@ Reset
 )
 ;
 }
-;
 /
 /
 feed
@@ -476,7 +475,6 @@ aLen
 )
 {
 }
-;
 /
 /
 Feed
@@ -573,7 +571,6 @@ mFreqChars
 }
 }
 }
-;
 /
 /
 return
@@ -613,7 +610,6 @@ mFreqChars
 0
 ;
 }
-;
 /
 /
 This
@@ -642,7 +638,6 @@ SetOpion
 )
 {
 }
-;
 /
 /
 It
@@ -679,7 +674,6 @@ mTotalChars
 ENOUGH_DATA_THRESHOLD
 ;
 }
-;
 protected
 :
 /
@@ -738,7 +732,6 @@ return
 1
 ;
 }
-;
 /
 /
 If
@@ -971,7 +964,6 @@ return
 1
 ;
 }
-;
 }
 ;
 class
@@ -1096,7 +1088,6 @@ return
 1
 ;
 }
-;
 }
 ;
 class
@@ -1236,7 +1227,6 @@ return
 1
 ;
 }
-;
 }
 ;
 class
@@ -1419,7 +1409,6 @@ return
 1
 ;
 }
-;
 }
 ;
 class
@@ -1649,7 +1638,6 @@ return
 order
 ;
 }
-;
 }
 ;
 class
@@ -1774,7 +1762,6 @@ return
 1
 ;
 }
-;
 }
 ;
 #

@@ -556,7 +556,6 @@ nsBinaryOutputStream
 )
 {
 }
-;
 /
 /
 virtual
@@ -575,7 +574,6 @@ nsBinaryOutputStream
 )
 {
 }
-;
 protected
 :
 /
@@ -725,7 +723,6 @@ nsBinaryInputStream
 )
 {
 }
-;
 /
 /
 virtual
@@ -744,7 +741,6 @@ nsBinaryInputStream
 )
 {
 }
-;
 protected
 :
 /

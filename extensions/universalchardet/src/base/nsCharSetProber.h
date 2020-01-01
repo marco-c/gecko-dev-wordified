@@ -520,7 +520,6 @@ nsCharSetProber
 )
 {
 }
-;
 virtual
 const
 char

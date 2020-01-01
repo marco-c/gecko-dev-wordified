@@ -817,7 +817,6 @@ aCert
 )
 {
 }
-;
 nsCString
 fingerprint
 ;

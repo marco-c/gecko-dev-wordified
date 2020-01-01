@@ -621,7 +621,6 @@ nsGBKUnique2BytesToUnicode
 )
 {
 }
-;
 protected
 :
 }
@@ -810,7 +809,6 @@ nsGB18030Unique2BytesToUnicode
 )
 {
 }
-;
 protected
 :
 }
@@ -999,7 +997,6 @@ nsGB18030Unique4BytesToUnicode
 )
 {
 }
-;
 protected
 :
 }

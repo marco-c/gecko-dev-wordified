@@ -995,7 +995,6 @@ aFollowOOFs
 )
 {
 }
-;
 protected
 :
 nsIFrame

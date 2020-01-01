@@ -664,7 +664,6 @@ inDOMViewNode
 )
 {
 }
-;
 inDOMViewNode
 (
 nsIDOMNode

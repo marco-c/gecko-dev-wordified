@@ -643,7 +643,6 @@ aSingleVal
 )
 {
 }
-;
 nsTreeRange
 (
 nsTreeSelection
@@ -677,7 +676,6 @@ aMax
 )
 {
 }
-;
 ~
 nsTreeRange
 (
@@ -687,7 +685,6 @@ delete
 mNext
 ;
 }
-;
 void
 Connect
 (
@@ -742,7 +739,6 @@ mNext
 aNext
 ;
 }
-;
 nsresult
 RemoveRange
 (
@@ -990,7 +986,6 @@ aEnd
 NS_OK
 ;
 }
-;
 nsresult
 Remove
 (
@@ -1185,7 +1180,6 @@ return
 NS_OK
 ;
 }
-;
 nsresult
 Add
 (
@@ -1370,7 +1364,6 @@ return
 NS_OK
 ;
 }
-;
 PRBool
 Contains
 (
@@ -1411,7 +1404,6 @@ return
 PR_FALSE
 ;
 }
-;
 PRInt32
 Count
 (
@@ -1444,7 +1436,6 @@ return
 total
 ;
 }
-;
 void
 Invalidate
 (
@@ -1481,7 +1472,6 @@ Invalidate
 )
 ;
 }
-;
 void
 RemoveAllBut
 (
@@ -1603,7 +1593,6 @@ aIndex
 )
 ;
 }
-;
 void
 Insert
 (
@@ -1655,7 +1644,6 @@ nsnull
 )
 ;
 }
-;
 }
 ;
 nsTreeSelection
