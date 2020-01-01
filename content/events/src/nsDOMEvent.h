@@ -827,6 +827,9 @@ nsIDOMEventTarget
 >
 mExplicitOriginalTarget
 ;
+nsString
+mCachedType
+;
 PRPackedBool
 mEventIsInternal
 ;
