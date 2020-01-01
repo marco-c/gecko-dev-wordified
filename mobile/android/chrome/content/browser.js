@@ -49081,7 +49081,7 @@ getManifestFor
 (
 data
 .
-origin
+manifestURL
 (
 function
 (
