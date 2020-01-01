@@ -7215,6 +7215,7 @@ ss
 ;
 public
 :
+explicit
 ScriptSourceHolder
 (
 ScriptSource
