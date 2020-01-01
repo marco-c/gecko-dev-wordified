@@ -8905,7 +8905,6 @@ label
 -
 >
 addr
-false
 )
 ;
 }
@@ -8990,7 +8989,6 @@ op
 LIR_jf
 cond
 0
-false
 )
 ;
 patches
@@ -9288,7 +9286,6 @@ op
 LIR_xf
 cond
 exit
-false
 )
 ;
 break

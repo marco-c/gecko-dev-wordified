@@ -3491,15 +3491,8 @@ cond
 NIns
 *
 targ
-bool
-isfar
 )
 {
-/
-/
-XXX
-ignoring
-isfar
 NIns
 *
 at
