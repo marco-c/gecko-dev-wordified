@@ -612,11 +612,16 @@ nsIAtom
 *
 aChildListName
 )
+#
+ifdef
+DEBUG
 :
 mChildListName
 (
 aChildListName
 )
+#
+endif
 {
 NS_ASSERTION
 (
@@ -650,6 +655,9 @@ content
 )
 ;
 }
+#
+ifdef
+DEBUG
 nsIAtom
 *
 GetChildListName
@@ -661,6 +669,8 @@ return
 mChildListName
 ;
 }
+#
+endif
 nsresult
 FirstChild
 (
@@ -915,6 +925,8 @@ aContainingBlockWidth
 nscoord
 aContainingBlockHeight
 PRBool
+aConstrainHeight
+PRBool
 aCBWidthChanged
 PRBool
 aCBHeightChanged
@@ -1014,6 +1026,8 @@ nscoord
 aContainingBlockWidth
 nscoord
 aContainingBlockHeight
+PRBool
+aConstrainHeight
 nsIFrame
 *
 aKidFrame
@@ -1036,6 +1050,9 @@ additional
 named
 child
 list
+#
+ifdef
+DEBUG
 nsIAtom
 *
 const
@@ -1069,6 +1086,8 @@ char
 aBuf
 )
 ;
+#
+endif
 }
 ;
 #

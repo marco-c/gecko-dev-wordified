@@ -7917,6 +7917,7 @@ width
 containingBlockSize
 .
 height
+PR_TRUE
 cbWidthChanged
 cbHeightChanged
 &
