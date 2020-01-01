@@ -1471,6 +1471,9 @@ attachNative
 JSContext
 *
 cx
+IonScript
+*
+ion
 JSObject
 *
 obj
@@ -1627,6 +1630,9 @@ attachNativeExisting
 JSContext
 *
 cx
+IonScript
+*
+ion
 JSObject
 *
 obj
@@ -1642,6 +1648,9 @@ attachNativeAdding
 JSContext
 *
 cx
+IonScript
+*
+ion
 JSObject
 *
 obj
@@ -1853,6 +1862,9 @@ attachGetProp
 JSContext
 *
 cx
+IonScript
+*
+ion
 HandleObject
 obj
 const
@@ -1870,6 +1882,9 @@ attachDenseArray
 JSContext
 *
 cx
+IonScript
+*
+ion
 JSObject
 *
 obj
@@ -1997,6 +2012,9 @@ attachGlobal
 JSContext
 *
 cx
+IonScript
+*
+ion
 JSObject
 *
 scopeChain
@@ -2008,6 +2026,9 @@ attachNonGlobal
 JSContext
 *
 cx
+IonScript
+*
+ion
 JSObject
 *
 scopeChain
@@ -2157,6 +2178,9 @@ attach
 JSContext
 *
 cx
+IonScript
+*
+ion
 HandleObject
 scopeChain
 HandleObject
