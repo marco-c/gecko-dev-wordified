@@ -3994,13 +3994,6 @@ NaN
 )
 GK_ATOM
 (
-nativescrollbar
-"
-nativescrollbar
-"
-)
-GK_ATOM
-(
 negate
 "
 negate
