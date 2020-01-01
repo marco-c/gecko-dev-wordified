@@ -3047,6 +3047,11 @@ nsIWebProgressListener
 :
 :
 STATE_START
+|
+nsIWebProgressListener
+:
+:
+STATE_IS_NETWORK
 NS_OK
 )
 ;
@@ -3061,6 +3066,11 @@ nsIWebProgressListener
 :
 :
 STATE_STOP
+|
+nsIWebProgressListener
+:
+:
+STATE_IS_NETWORK
 rv
 )
 ;
