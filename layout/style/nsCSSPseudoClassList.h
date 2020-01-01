@@ -215,6 +215,39 @@ of
 the
 atom
 .
+The
+third
+argument
+is
+the
+*
+name
+of
+the
+preference
+controlling
+whether
+the
+pseudo
+-
+class
+is
+*
+recognized
+by
+the
+parser
+or
+the
+empty
+string
+if
+it
+'
+s
+unconditional
+.
+*
 *
 CSS_STATE_DEPENDENT_PSEUDO_CLASS
 and
@@ -344,6 +377,7 @@ CSS_STATE_DEPENDENT_PSEUDO_CLASS
 (
 _name
 _value
+_pref
 _bit
 )
 \
@@ -351,6 +385,7 @@ CSS_PSEUDO_CLASS
 (
 _name
 _value
+_pref
 )
 #
 define
@@ -381,6 +416,7 @@ CSS_STATE_PSEUDO_CLASS
 (
 _name
 _value
+_pref
 _bit
 )
 \
@@ -388,6 +424,7 @@ CSS_STATE_DEPENDENT_PSEUDO_CLASS
 (
 _name
 _value
+_pref
 _bit
 )
 #
@@ -445,6 +482,8 @@ empty
 :
 empty
 "
+"
+"
 )
 CSS_PSEUDO_CLASS
 (
@@ -457,6 +496,8 @@ moz
 only
 -
 whitespace
+"
+"
 "
 )
 CSS_PSEUDO_CLASS
@@ -477,6 +518,8 @@ with
 -
 localname
 "
+"
+"
 )
 CSS_PSEUDO_CLASS
 (
@@ -484,6 +527,8 @@ lang
 "
 :
 lang
+"
+"
 "
 )
 CSS_PSEUDO_CLASS
@@ -498,6 +543,8 @@ bound
 -
 element
 "
+"
+"
 )
 CSS_PSEUDO_CLASS
 (
@@ -505,6 +552,8 @@ root
 "
 :
 root
+"
+"
 "
 )
 CSS_PSEUDO_CLASS
@@ -517,6 +566,8 @@ moz
 -
 any
 "
+"
+"
 )
 CSS_PSEUDO_CLASS
 (
@@ -526,6 +577,8 @@ firstChild
 first
 -
 child
+"
+"
 "
 )
 CSS_PSEUDO_CLASS
@@ -540,6 +593,8 @@ first
 -
 node
 "
+"
+"
 )
 CSS_PSEUDO_CLASS
 (
@@ -549,6 +604,8 @@ lastChild
 last
 -
 child
+"
+"
 "
 )
 CSS_PSEUDO_CLASS
@@ -563,6 +620,8 @@ last
 -
 node
 "
+"
+"
 )
 CSS_PSEUDO_CLASS
 (
@@ -572,6 +631,8 @@ onlyChild
 only
 -
 child
+"
+"
 "
 )
 CSS_PSEUDO_CLASS
@@ -585,6 +646,8 @@ of
 -
 type
 "
+"
+"
 )
 CSS_PSEUDO_CLASS
 (
@@ -596,6 +659,8 @@ last
 of
 -
 type
+"
+"
 "
 )
 CSS_PSEUDO_CLASS
@@ -609,6 +674,8 @@ of
 -
 type
 "
+"
+"
 )
 CSS_PSEUDO_CLASS
 (
@@ -618,6 +685,8 @@ nthChild
 nth
 -
 child
+"
+"
 "
 )
 CSS_PSEUDO_CLASS
@@ -631,6 +700,8 @@ last
 -
 child
 "
+"
+"
 )
 CSS_PSEUDO_CLASS
 (
@@ -642,6 +713,8 @@ nth
 of
 -
 type
+"
+"
 "
 )
 CSS_PSEUDO_CLASS
@@ -656,6 +729,8 @@ last
 of
 -
 type
+"
+"
 "
 )
 /
@@ -679,6 +754,8 @@ moz
 is
 -
 html
+"
+"
 "
 )
 /
@@ -707,6 +784,8 @@ moz
 system
 -
 metric
+"
+"
 "
 )
 /
@@ -757,6 +836,8 @@ locale
 -
 dir
 "
+"
+"
 )
 /
 /
@@ -785,6 +866,8 @@ mozLWTheme
 moz
 -
 lwtheme
+"
+"
 "
 )
 /
@@ -816,6 +899,8 @@ lwtheme
 -
 brighttext
 "
+"
+"
 )
 /
 /
@@ -846,6 +931,8 @@ lwtheme
 -
 darktext
 "
+"
+"
 )
 /
 /
@@ -868,6 +955,8 @@ moz
 window
 -
 inactive
+"
+"
 "
 )
 /
@@ -906,6 +995,8 @@ border
 -
 nonzero
 "
+"
+"
 )
 /
 /
@@ -928,10 +1019,18 @@ CSS_PSEUDO_CLASS
 scope
 "
 :
--
-moz
--
 scope
+"
+"
+layout
+.
+css
+.
+scope
+-
+pseudo
+.
+enabled
 "
 )
 /
@@ -974,6 +1073,8 @@ notPseudo
 "
 :
 not
+"
+"
 "
 )
 /
@@ -1021,6 +1122,8 @@ moz
 -
 dir
 "
+"
+"
 NS_EVENT_STATE_LTR
 |
 NS_EVENT_STATE_RTL
@@ -1031,6 +1134,8 @@ link
 "
 :
 link
+"
+"
 "
 NS_EVENT_STATE_UNVISITED
 )
@@ -1055,6 +1160,8 @@ any
 -
 link
 "
+"
+"
 NS_EVENT_STATE_VISITED
 |
 NS_EVENT_STATE_UNVISITED
@@ -1066,6 +1173,8 @@ visited
 :
 visited
 "
+"
+"
 NS_EVENT_STATE_VISITED
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1074,6 +1183,8 @@ active
 "
 :
 active
+"
+"
 "
 NS_EVENT_STATE_ACTIVE
 )
@@ -1084,6 +1195,8 @@ checked
 :
 checked
 "
+"
+"
 NS_EVENT_STATE_CHECKED
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1092,6 +1205,8 @@ disabled
 "
 :
 disabled
+"
+"
 "
 NS_EVENT_STATE_DISABLED
 )
@@ -1102,6 +1217,8 @@ enabled
 :
 enabled
 "
+"
+"
 NS_EVENT_STATE_ENABLED
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1111,6 +1228,8 @@ focus
 :
 focus
 "
+"
+"
 NS_EVENT_STATE_FOCUS
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1119,6 +1238,8 @@ hover
 "
 :
 hover
+"
+"
 "
 NS_EVENT_STATE_HOVER
 )
@@ -1134,6 +1255,8 @@ drag
 -
 over
 "
+"
+"
 NS_EVENT_STATE_DRAGOVER
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1143,6 +1266,8 @@ target
 :
 target
 "
+"
+"
 NS_EVENT_STATE_URLTARGET
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1151,6 +1276,8 @@ indeterminate
 "
 :
 indeterminate
+"
+"
 "
 NS_EVENT_STATE_INDETERMINATE
 )
@@ -1184,6 +1311,8 @@ moz
 full
 -
 screen
+"
+"
 "
 NS_EVENT_STATE_FULL_SCREEN
 )
@@ -1233,6 +1362,8 @@ screen
 -
 ancestor
 "
+"
+"
 NS_EVENT_STATE_FULL_SCREEN_ANCESTOR
 )
 /
@@ -1259,6 +1390,8 @@ moz
 -
 focusring
 "
+"
+"
 NS_EVENT_STATE_FOCUSRING
 )
 /
@@ -1280,6 +1413,8 @@ moz
 -
 broken
 "
+"
+"
 NS_EVENT_STATE_BROKEN
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1294,6 +1429,8 @@ user
 -
 disabled
 "
+"
+"
 NS_EVENT_STATE_USERDISABLED
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1306,6 +1443,8 @@ moz
 -
 suppressed
 "
+"
+"
 NS_EVENT_STATE_SUPPRESSED
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1317,6 +1456,8 @@ mozLoading
 moz
 -
 loading
+"
+"
 "
 NS_EVENT_STATE_LOADING
 )
@@ -1331,6 +1472,8 @@ moz
 type
 -
 unsupported
+"
+"
 "
 NS_EVENT_STATE_TYPE_UNSUPPORTED
 )
@@ -1348,6 +1491,8 @@ unsupported
 -
 platform
 "
+"
+"
 NS_EVENT_STATE_TYPE_UNSUPPORTED_PLATFORM
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1362,6 +1507,8 @@ handler
 -
 clicktoplay
 "
+"
+"
 NS_EVENT_STATE_TYPE_CLICK_TO_PLAY
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1375,6 +1522,8 @@ moz
 handler
 -
 playpreview
+"
+"
 "
 NS_EVENT_STATE_TYPE_PLAY_PREVIEW
 )
@@ -1391,6 +1540,8 @@ handler
 vulnerable
 -
 updatable
+"
+"
 "
 NS_EVENT_STATE_VULNERABLE_UPDATABLE
 )
@@ -1410,6 +1561,8 @@ no
 -
 update
 "
+"
+"
 NS_EVENT_STATE_VULNERABLE_NO_UPDATE
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1423,6 +1576,8 @@ moz
 handler
 -
 disabled
+"
+"
 "
 NS_EVENT_STATE_HANDLER_DISABLED
 )
@@ -1438,6 +1593,8 @@ handler
 -
 blocked
 "
+"
+"
 NS_EVENT_STATE_HANDLER_BLOCKED
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1451,6 +1608,8 @@ moz
 handler
 -
 crashed
+"
+"
 "
 NS_EVENT_STATE_HANDLER_CRASHED
 )
@@ -1469,6 +1628,8 @@ increment
 script
 -
 level
+"
+"
 "
 NS_EVENT_STATE_INCREMENT_SCRIPT_LEVEL
 )
@@ -1512,6 +1673,8 @@ required
 :
 required
 "
+"
+"
 NS_EVENT_STATE_REQUIRED
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1520,6 +1683,8 @@ optional
 "
 :
 optional
+"
+"
 "
 NS_EVENT_STATE_OPTIONAL
 )
@@ -1530,6 +1695,8 @@ valid
 :
 valid
 "
+"
+"
 NS_EVENT_STATE_VALID
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1538,6 +1705,8 @@ invalid
 "
 :
 invalid
+"
+"
 "
 NS_EVENT_STATE_INVALID
 )
@@ -1549,6 +1718,8 @@ inRange
 in
 -
 range
+"
+"
 "
 NS_EVENT_STATE_INRANGE
 )
@@ -1563,6 +1734,8 @@ of
 -
 range
 "
+"
+"
 NS_EVENT_STATE_OUTOFRANGE
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1571,6 +1744,8 @@ defaultPseudo
 "
 :
 default
+"
+"
 "
 NS_EVENT_STATE_DEFAULT
 )
@@ -1586,6 +1761,8 @@ read
 -
 only
 "
+"
+"
 NS_EVENT_STATE_MOZ_READONLY
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1599,6 +1776,8 @@ moz
 read
 -
 write
+"
+"
 "
 NS_EVENT_STATE_MOZ_READWRITE
 )
@@ -1614,6 +1793,8 @@ submit
 -
 invalid
 "
+"
+"
 NS_EVENT_STATE_MOZ_SUBMITINVALID
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1627,6 +1808,8 @@ moz
 ui
 -
 invalid
+"
+"
 "
 NS_EVENT_STATE_MOZ_UI_INVALID
 )
@@ -1642,6 +1825,8 @@ ui
 -
 valid
 "
+"
+"
 NS_EVENT_STATE_MOZ_UI_VALID
 )
 CSS_STATE_PSEUDO_CLASS
@@ -1655,6 +1840,8 @@ moz
 meter
 -
 optimum
+"
+"
 "
 NS_EVENT_STATE_OPTIMUM
 )
@@ -1671,6 +1858,8 @@ meter
 sub
 -
 optimum
+"
+"
 "
 NS_EVENT_STATE_SUB_OPTIMUM
 )
@@ -1689,6 +1878,8 @@ sub
 sub
 -
 optimum
+"
+"
 "
 NS_EVENT_STATE_SUB_SUB_OPTIMUM
 )
