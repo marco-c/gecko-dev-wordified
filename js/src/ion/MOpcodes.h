@@ -834,6 +834,11 @@ GetArgument
 \
 _
 (
+Rest
+)
+\
+_
+(
 Floor
 )
 \

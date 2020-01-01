@@ -2949,6 +2949,9 @@ JSOP_LOOPENTRY
 case
 JSOP_NOTEARG
 :
+case
+JSOP_REST
+:
 break
 ;
 default

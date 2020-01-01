@@ -1311,6 +1311,10 @@ GetArgument
 )
 SAFE_OP
 (
+Rest
+)
+SAFE_OP
+(
 Floor
 )
 SAFE_OP
