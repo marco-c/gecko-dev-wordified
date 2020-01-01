@@ -477,6 +477,15 @@ pthread
 .
 h
 >
+#
+include
+<
+android
+/
+log
+.
+h
+>
 template
 <
 typename
