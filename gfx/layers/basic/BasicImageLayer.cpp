@@ -2015,6 +2015,7 @@ data
 GetPictureRect
 (
 )
+0
 )
 ;
 BasicManager
