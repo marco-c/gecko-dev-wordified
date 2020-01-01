@@ -466,6 +466,11 @@ Bug
 *
 *
 /
+requestLongerTimeout
+(
+2
+)
+;
 is
 (
 browserWindowsCount
