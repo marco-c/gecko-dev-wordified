@@ -365,6 +365,8 @@ Unknown
 manifest
 version
 :
+%
+s
 '
 %
                 
