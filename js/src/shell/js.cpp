@@ -32068,6 +32068,16 @@ eager
 "
 )
 )
+{
+ion
+:
+:
+js_IonOptions
+.
+enabled
+=
+true
+;
 ion
 :
 :
@@ -32077,6 +32087,7 @@ setEagerCompilation
 (
 )
 ;
+}
 #
 endif
 /
