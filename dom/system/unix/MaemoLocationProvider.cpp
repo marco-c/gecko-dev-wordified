@@ -1305,3 +1305,16 @@ aPosition
 )
 ;
 }
+NS_IMETHODIMP
+MaemoLocationProvider
+:
+:
+SetHighAccuracy
+(
+bool
+)
+{
+return
+NS_OK
+;
+}
