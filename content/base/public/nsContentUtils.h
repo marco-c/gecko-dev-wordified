@@ -617,6 +617,9 @@ EventNameType_SMIL
 /
 smil
 elements
+EventNameType_HTMLBodyOrFramesetOnly
+=
+0x0020
 EventNameType_HTMLXUL
 =
 0x0003
