@@ -619,7 +619,7 @@ HONOR_BLACK_POINT_TAG
 1
 #
 ifdef
-CMS_DEBUG
+DEBUG
 #
 include
 <
