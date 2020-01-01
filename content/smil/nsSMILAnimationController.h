@@ -1260,9 +1260,6 @@ mChildContainerTable
 PRPackedBool
 mResampleNeeded
 ;
-PRPackedBool
-mDeferredStartSampling
-;
 /
 /
 Store
