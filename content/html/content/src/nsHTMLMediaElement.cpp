@@ -11098,6 +11098,17 @@ AddRemoveSelfReference
 (
 )
 ;
+if
+(
+mReadyState
+>
+=
+nsIDOMHTMLMediaElement
+:
+:
+HAVE_METADATA
+)
+{
 ChangeReadyState
 (
 nsIDOMHTMLMediaElement
@@ -11106,6 +11117,7 @@ nsIDOMHTMLMediaElement
 HAVE_ENOUGH_DATA
 )
 ;
+}
 /
 /
 Ensure
