@@ -1790,6 +1790,17 @@ in
 record_JSOP_CALL
 }
 ;
+uint32
+caller_argc
+;
+/
+/
+fp
+-
+>
+argv
+-
+stackBase
 }
 ;
 struct
