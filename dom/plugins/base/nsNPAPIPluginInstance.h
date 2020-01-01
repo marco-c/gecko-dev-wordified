@@ -1077,8 +1077,17 @@ endif
 #
 ifdef
 MOZ_WIDGET_ANDROID
+PRUint32
+GetANPDrawingModel
+(
+)
+{
+return
+mANPDrawingModel
+;
+}
 void
-SetDrawingModel
+SetANPDrawingModel
 (
 PRUint32
 aModel
@@ -1511,7 +1520,7 @@ endif
 ifdef
 MOZ_WIDGET_ANDROID
 PRUint32
-mDrawingModel
+mANPDrawingModel
 ;
 nsCOMPtr
 <
