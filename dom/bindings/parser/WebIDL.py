@@ -11641,6 +11641,14 @@ type
 isDictionary
 (
 )
+and
+            
+not
+type
+.
+isAny
+(
+)
 )
 :
             
