@@ -147,6 +147,13 @@ h
 #
 include
 "
+MediaDecoderReader
+.
+h
+"
+#
+include
+"
 OggCodecState
 .
 h
@@ -169,13 +176,6 @@ h
 include
 "
 VideoUtils
-.
-h
-"
-#
-include
-"
-MediaDecoderReader
 .
 h
 "
