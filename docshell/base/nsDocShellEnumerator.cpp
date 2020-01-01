@@ -429,6 +429,13 @@ h
 #
 include
 "
+nsIDocShellTreeItem
+.
+h
+"
+#
+include
+"
 nsIDocShellTreeNode
 .
 h
