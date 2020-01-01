@@ -3328,6 +3328,14 @@ endif
 bool
 gcPoke
 ;
+#
+ifdef
+DEBUG
+bool
+relaxRootChecks
+;
+#
+endif
 enum
 HeapState
 {

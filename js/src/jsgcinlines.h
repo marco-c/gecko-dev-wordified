@@ -2254,6 +2254,13 @@ endif
 MaybeCheckStackRoots
 (
 cx
+/
+*
+relax
+=
+*
+/
+false
 )
 ;
 JSCompartment
