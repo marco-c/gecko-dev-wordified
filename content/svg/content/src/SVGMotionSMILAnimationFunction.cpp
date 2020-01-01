@@ -2483,7 +2483,7 @@ GetFirstMpathChild
 mAnimationElement
 -
 >
-Content
+AsElement
 (
 )
 )
