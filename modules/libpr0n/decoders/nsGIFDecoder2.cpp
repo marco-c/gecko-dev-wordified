@@ -1437,7 +1437,7 @@ into
 /
 Store
 parameters
-mImageContainer
+mImage
 =
 static_cast
 <
@@ -1853,7 +1853,7 @@ mGIFStruct
 local_colormap
 )
 ;
-mImageContainer
+mImage
 =
 nsnull
 ;
@@ -2031,7 +2031,7 @@ image
 nsresult
 rv
 =
-mImageContainer
+mImage
 -
 >
 FrameUpdated
@@ -2086,7 +2086,7 @@ mObserver
 PRUint32
 imgCurFrame
 =
-mImageContainer
+mImage
 -
 >
 GetCurrentFrameIndex
@@ -2587,10 +2587,10 @@ state
 .
 if
 (
-mImageContainer
+mImage
 &
 &
-mImageContainer
+mImage
 -
 >
 GetNumFrames
@@ -2902,7 +2902,7 @@ mGIFOpen
 =
 PR_TRUE
 ;
-mImageContainer
+mImage
 -
 >
 SetSize
@@ -2925,7 +2925,7 @@ mObserver
 OnStartContainer
 (
 nsnull
-mImageContainer
+mImage
 )
 ;
 /
@@ -3058,7 +3058,7 @@ if
 (
 aSuccess
 )
-mImageContainer
+mImage
 -
 >
 DecodingComplete
@@ -3076,7 +3076,7 @@ mObserver
 OnStopContainer
 (
 nsnull
-mImageContainer
+mImage
 )
 ;
 mObserver
@@ -3094,7 +3094,7 @@ nsnull
 )
 ;
 }
-mImageContainer
+mImage
 -
 >
 SetLoopCount
@@ -3270,7 +3270,7 @@ y_offset
 PRInt32
 imgWidth
 ;
-mImageContainer
+mImage
 -
 >
 GetWidth
@@ -3282,7 +3282,7 @@ imgWidth
 PRUint32
 imgCurFrame
 =
-mImageContainer
+mImage
 -
 >
 GetCurrentFrameIndex
@@ -3403,7 +3403,7 @@ and
 palette
 rv
 =
-mImageContainer
+mImage
 -
 >
 AppendPalettedFrame
@@ -3450,7 +3450,7 @@ into
 RGB
 rv
 =
-mImageContainer
+mImage
 -
 >
 AppendFrame
@@ -3485,7 +3485,7 @@ rv
 return
 rv
 ;
-mImageContainer
+mImage
 -
 >
 SetFrameDisposalMethod
@@ -3715,7 +3715,7 @@ screen_height
 PRUint32
 imgCurFrame
 =
-mImageContainer
+mImage
 -
 >
 GetCurrentFrameIndex
@@ -3783,7 +3783,7 @@ is_transparent
 mSawTransparency
 )
 {
-mImageContainer
+mImage
 -
 >
 SetFrameHasNoAlpha
@@ -3963,7 +3963,7 @@ display
 another
 frame
 .
-mImageContainer
+mImage
 -
 >
 SetFrameTimeout
@@ -3976,7 +3976,7 @@ mGIFStruct
 delay_time
 )
 ;
-mImageContainer
+mImage
 -
 >
 EndFrameDecode
@@ -4016,7 +4016,7 @@ to
 the
 frame
 in
-mImageContainer
+mImage
 we
 '
 re
