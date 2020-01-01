@@ -591,6 +591,12 @@ defined
 (
 __MINGW32__
 )
+|
+|
+defined
+(
+PIXMAN_USE_XP_DLL_TLS_WORKAROUND
+)
 #
 define
 _NO_W32_PSEUDO_MODIFIERS
@@ -601,6 +607,12 @@ windows
 .
 h
 >
+#
+undef
+IN
+#
+undef
+OUT
 #
 define
 PIXMAN_DEFINE_THREAD_LOCAL
