@@ -292,6 +292,10 @@ kDefaultDrawingModel
 =
 NPDrawingModelQuickDraw
 ;
+/
+/
+Not
+supported
 #
 else
 const

@@ -2055,17 +2055,6 @@ defined
 (
 XP_MACOSX
 )
-#
-ifndef
-NP_NO_QUICKDRAW
-drawingModel
-=
-=
-NPDrawingModelQuickDraw
-|
-|
-#
-endif
 drawingModel
 =
 =
