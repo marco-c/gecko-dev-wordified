@@ -2529,6 +2529,10 @@ width
 "
 )
 ;
+SchedulePaint
+(
+)
+;
 mHasPendingInterruptAtStartOfReflow
 =
 aPresContext
