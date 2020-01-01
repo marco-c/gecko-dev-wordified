@@ -587,6 +587,12 @@ realWindowSecs
 0
 .
 0
+|
+|
+numFramesDrawnInWindow
+=
+=
+1
 )
 {
 return
@@ -599,6 +605,8 @@ return
 double
 (
 numFramesDrawnInWindow
+-
+1
 )
 /
 realWindowSecs
