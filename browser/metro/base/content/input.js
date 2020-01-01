@@ -1042,6 +1042,12 @@ present
 if
 (
 !
+InputSourceHelper
+.
+isPrecise
+&
+&
+!
 SelectionHelperUI
 .
 isActive
