@@ -1028,6 +1028,15 @@ IsCharging
 (
 )
 ;
+aBatteryInfo
+-
+>
+remainingTime
+(
+)
+=
+kUnknownRemainingTime
+;
 }
 /
 *
@@ -1847,6 +1856,7 @@ aListener
 -
 >
 mCharging
+kUnknownRemainingTime
 )
 )
 ;
