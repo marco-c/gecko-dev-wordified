@@ -2402,10 +2402,6 @@ CreateAnswer
 MediaConstraints
 &
 constraints
-const
-char
-*
-offer
 )
 ;
 private

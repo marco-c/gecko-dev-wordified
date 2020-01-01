@@ -1113,10 +1113,6 @@ const
 cc_media_constraints_t
 *
 constraints
-const
-char
-*
-sdp
 )
 ;
 cc_return_t

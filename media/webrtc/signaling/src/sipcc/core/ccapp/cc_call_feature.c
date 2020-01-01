@@ -976,9 +976,6 @@ case
 CC_FEATURE_HOLD
 :
 case
-CC_FEATURE_CREATEANSWER
-:
-case
 CC_FEATURE_SETLOCALDESC
 :
 case
@@ -1990,8 +1987,6 @@ const
 cc_media_constraints_t
 *
 constraints
-string_t
-sdp
 )
 {
 CCAPP_DEBUG
@@ -2023,7 +2018,7 @@ JSEP_NO_ACTION
 NO_STREAM
 0
 constraints
-sdp
+NULL
 NULL
 )
 ;

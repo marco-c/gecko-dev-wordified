@@ -344,8 +344,6 @@ const
 cc_media_constraints_t
 *
 constraints
-cc_string_t
-offersdp
 )
 ;
 cc_return_t
