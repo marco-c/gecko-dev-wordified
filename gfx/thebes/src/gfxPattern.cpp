@@ -863,9 +863,6 @@ surf
 )
 {
 case
-CAIRO_SURFACE_TYPE_XLIB
-:
-case
 CAIRO_SURFACE_TYPE_WIN32_PRINTING
 :
 case
@@ -879,6 +876,9 @@ break
 ;
 case
 CAIRO_SURFACE_TYPE_WIN32
+:
+case
+CAIRO_SURFACE_TYPE_XLIB
 :
 default
 :
