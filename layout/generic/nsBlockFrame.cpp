@@ -14320,6 +14320,15 @@ mReflowState
 mFlags
 .
 mVResize
+|
+|
+aState
+.
+mReflowState
+.
+mFlags
+.
+mMustReflowPlaceholders
 )
 &
 &
