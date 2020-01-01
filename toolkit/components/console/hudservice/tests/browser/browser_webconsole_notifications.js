@@ -479,9 +479,9 @@ Services
 .
 obs
 .
-addObserver
+removeObserver
 (
-this
+observer
 "
 web
 -
@@ -489,7 +489,6 @@ console
 -
 created
 "
-false
 )
 ;
 executeSoon
