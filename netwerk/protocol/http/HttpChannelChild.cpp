@@ -2727,6 +2727,10 @@ mKeptAlive
 =
 true
 ;
+SendDocumentChannelCleanup
+(
+)
+;
 }
 }
 class
