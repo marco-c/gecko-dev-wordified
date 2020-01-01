@@ -1516,6 +1516,8 @@ this
 alreadyLocked
 )
 return
+this
+.
 lockMouseMove
 (
 sX
