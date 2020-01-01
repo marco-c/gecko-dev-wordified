@@ -1413,7 +1413,7 @@ iterv
 return
 false
 ;
-RootedVarObject
+RootedObject
 iter
 (
 cx

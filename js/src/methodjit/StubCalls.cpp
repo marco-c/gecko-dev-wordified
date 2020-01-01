@@ -421,7 +421,7 @@ fp
 scopeChain
 (
 )
-RootedVarPropertyName
+RootedPropertyName
 (
 f
 .
@@ -888,7 +888,7 @@ JSObject
 *
 obj
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -1296,7 +1296,7 @@ THROW
 (
 )
 ;
-RootedVarId
+RootedId
 id
 (
 f
@@ -1372,7 +1372,7 @@ PropertyName
 name_
 )
 {
-RootedVarObject
+RootedObject
 scopeObj
 (
 f
@@ -1390,7 +1390,7 @@ currentScriptedScopeChain
 )
 )
 ;
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 f
@@ -2174,7 +2174,7 @@ fp
 (
 )
 ;
-RootedVarFunction
+RootedFunction
 fun
 (
 f
@@ -3551,7 +3551,7 @@ if
 eq
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 l
@@ -4030,7 +4030,7 @@ isString
 (
 )
 ;
-RootedVarString
+RootedString
 lstr
 (
 cx
@@ -6209,7 +6209,7 @@ obj
 CopyInitializerObject
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 baseobj
@@ -6442,7 +6442,7 @@ obj
 .
 *
 /
-RootedVarId
+RootedId
 id
 (
 cx
@@ -6762,7 +6762,7 @@ JSFunction
 fun_
 )
 {
-RootedVarFunction
+RootedFunction
 fun
 (
 f
@@ -7159,7 +7159,7 @@ obj
 .
 *
 /
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -7199,7 +7199,7 @@ id
 .
 *
 /
-RootedVarId
+RootedId
 id
 (
 cx
@@ -7489,7 +7489,7 @@ js_IteratorMore
 f
 .
 cx
-RootedVarObject
+RootedObject
 (
 f
 .
@@ -7987,7 +7987,7 @@ JS_FALSE
 )
 ;
 }
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -9409,7 +9409,7 @@ PropertyName
 name_
 )
 {
-RootedVarObject
+RootedObject
 scopeObj
 (
 f
@@ -9427,7 +9427,7 @@ currentScriptedScopeChain
 )
 )
 ;
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 f
@@ -9597,7 +9597,7 @@ f
 .
 cx
 ;
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 cx
@@ -9887,7 +9887,7 @@ DefVarOrConstOperation
 f
 .
 cx
-RootedVarObject
+RootedObject
 (
 f
 .
@@ -10057,7 +10057,7 @@ toObject
 (
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx

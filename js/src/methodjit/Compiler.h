@@ -1705,7 +1705,7 @@ analyze
 CrossScriptSSA
 ssa
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *

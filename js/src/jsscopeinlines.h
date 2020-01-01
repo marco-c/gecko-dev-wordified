@@ -1707,7 +1707,7 @@ vp
 )
 ;
 }
-RootedVarId
+RootedId
 id
 (
 cx
@@ -1810,7 +1810,7 @@ js_ReportGetterOnlyAssignment
 cx
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -1875,7 +1875,7 @@ isWith
 )
 )
 {
-RootedVarObject
+RootedObject
 nobj
 (
 cx

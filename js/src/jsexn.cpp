@@ -1687,7 +1687,7 @@ NullValue
 (
 )
 ;
-RootedVarId
+RootedId
 callerid
 (
 cx
@@ -1711,7 +1711,7 @@ if
 checkAccess
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 i
@@ -3438,7 +3438,7 @@ toObject
 (
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -3471,7 +3471,7 @@ property
 .
 *
 /
-RootedVarString
+RootedString
 message
 (
 cx
@@ -3550,7 +3550,7 @@ property
 .
 *
 /
-RootedVarString
+RootedString
 filename
 (
 cx
@@ -3921,7 +3921,7 @@ Step
 .
 *
 /
-RootedVarString
+RootedString
 name
 (
 cx
@@ -4870,7 +4870,7 @@ GetExceptionProtoKey
 type
 )
 ;
-RootedVarAtom
+RootedAtom
 name
 (
 cx
@@ -4888,7 +4888,7 @@ key
 ]
 )
 ;
-RootedVarObject
+RootedObject
 errorProto
 (
 cx
@@ -4913,7 +4913,7 @@ errorProto
 return
 NULL
 ;
-RootedVarValue
+RootedValue
 empty
 (
 cx
@@ -4929,7 +4929,7 @@ emptyString
 )
 )
 ;
-RootedVarId
+RootedId
 nameId
 (
 cx
@@ -4947,7 +4947,7 @@ nameAtom
 )
 )
 ;
-RootedVarId
+RootedId
 messageId
 (
 cx
@@ -4965,7 +4965,7 @@ messageAtom
 )
 )
 ;
-RootedVarId
+RootedId
 fileNameId
 (
 cx
@@ -4983,7 +4983,7 @@ fileNameAtom
 )
 )
 ;
-RootedVarId
+RootedId
 lineNumberId
 (
 cx
@@ -5082,7 +5082,7 @@ constructor
 .
 *
 /
-RootedVarFunction
+RootedFunction
 ctor
 (
 cx
@@ -5203,7 +5203,7 @@ isNative
 )
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -5220,7 +5220,7 @@ asGlobal
 )
 )
 ;
-RootedVarObject
+RootedObject
 objectProto
 (
 cx
@@ -5252,7 +5252,7 @@ first
 .
 *
 /
-RootedVarObject
+RootedObject
 errorProto
 (
 cx
@@ -6083,7 +6083,7 @@ OBJECT_TO_JSVAL
 errProto
 )
 ;
-RootedVarObject
+RootedObject
 errObject
 (
 cx
@@ -6115,7 +6115,7 @@ OBJECT_TO_JSVAL
 errObject
 )
 ;
-RootedVarString
+RootedString
 messageStr
 (
 cx
@@ -6144,7 +6144,7 @@ STRING_TO_JSVAL
 messageStr
 )
 ;
-RootedVarString
+RootedString
 filenameStr
 (
 cx
@@ -6386,7 +6386,7 @@ JSErrorReport
 reportp
 report
 ;
-RootedVarString
+RootedString
 str
 (
 cx
@@ -6403,7 +6403,7 @@ cx
 return
 true
 ;
-RootedVarValue
+RootedValue
 exn
 (
 cx
@@ -6492,7 +6492,7 @@ values
 .
 *
 /
-RootedVarObject
+RootedObject
 exnObject
 (
 cx
@@ -6616,7 +6616,7 @@ filename_str
 )
 )
 {
-RootedVarString
+RootedString
 name
 (
 cx
@@ -6657,7 +6657,7 @@ roots
 )
 ;
 }
-RootedVarString
+RootedString
 msg
 (
 cx

@@ -187,7 +187,7 @@ getAllocKind
 2
 )
 ;
-RootedVar
+Rooted
 <
 StringObject
 *
@@ -337,7 +337,7 @@ obj
 return
 NULL
 ;
-RootedVar
+Rooted
 <
 StringObject
 *
@@ -413,7 +413,7 @@ obj
 return
 NULL
 ;
-RootedVar
+Rooted
 <
 StringObject
 *

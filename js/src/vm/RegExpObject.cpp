@@ -607,7 +607,7 @@ staticsFlags
 return
 build
 (
-RootedVar
+Rooted
 <
 JSAtom
 *
@@ -647,7 +647,7 @@ NULL
 return
 build
 (
-RootedVarAtom
+RootedAtom
 (
 cx
 other
@@ -1637,7 +1637,7 @@ TokenStream
 tokenStream
 )
 {
-RootedVarAtom
+RootedAtom
 source
 (
 cx
@@ -1732,7 +1732,7 @@ RegExpGuard
 g
 )
 {
-RootedVar
+Rooted
 <
 RegExpObject
 *
@@ -1876,7 +1876,7 @@ MULTILINE_FLAG_SLOT
 1
 )
 ;
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -2093,7 +2093,7 @@ RegExpFlag
 flags
 )
 {
-RootedVar
+Rooted
 <
 RegExpObject
 *
@@ -3798,7 +3798,7 @@ builder
 .
 clone
 (
-RootedVar
+Rooted
 <
 RegExpObject
 *
@@ -3813,7 +3813,7 @@ asRegExp
 (
 )
 )
-RootedVar
+Rooted
 <
 RegExpObject
 *
@@ -4089,7 +4089,7 @@ CloneScriptRegExpObject
 .
 *
 /
-RootedVarAtom
+RootedAtom
 source
 (
 xdr
@@ -4335,7 +4335,7 @@ XDRScriptRegExpObject
 .
 *
 /
-RootedVarAtom
+RootedAtom
 source
 (
 cx

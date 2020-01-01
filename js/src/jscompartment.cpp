@@ -882,7 +882,7 @@ cheesy
 .
 *
 /
-RootedVarObject
+RootedObject
 global
 (
 cx
@@ -1145,7 +1145,7 @@ outer
 GetOuterObject
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 obj
@@ -1167,7 +1167,7 @@ obj
 #
 endif
 }
-RootedVarValue
+RootedValue
 key
 (
 cx
@@ -1225,7 +1225,7 @@ isObject
 )
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1330,7 +1330,7 @@ isString
 )
 )
 {
-RootedVarValue
+RootedValue
 orig
 (
 cx
@@ -1413,7 +1413,7 @@ vp
 )
 ;
 }
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1519,7 +1519,7 @@ itself
 .
 *
 /
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -1582,7 +1582,7 @@ object
 .
 *
 /
-RootedVarObject
+RootedObject
 wrapper
 (
 cx
@@ -1694,7 +1694,7 @@ JSString
 strp
 )
 {
-RootedVarValue
+RootedValue
 value
 (
 cx
@@ -1752,7 +1752,7 @@ HeapPtrString
 strp
 )
 {
-RootedVarValue
+RootedValue
 value
 (
 cx
@@ -1820,7 +1820,7 @@ objp
 return
 true
 ;
-RootedVarValue
+RootedValue
 value
 (
 cx
@@ -1891,7 +1891,7 @@ idp
 return
 true
 ;
-RootedVarValue
+RootedValue
 value
 (
 cx

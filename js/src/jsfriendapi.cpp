@@ -267,7 +267,7 @@ JSObject
 obj_
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -996,7 +996,7 @@ JSFunctionSpecWithHelp
 fs
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1072,7 +1072,7 @@ atom
 return
 false
 ;
-RootedVarFunction
+RootedFunction
 fun
 (
 cx
@@ -1084,7 +1084,7 @@ js_DefineFunction
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 AtomToId
@@ -1559,7 +1559,7 @@ unsigned
 attrs
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1621,7 +1621,7 @@ js_DefineFunction
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 AtomToId
@@ -1667,7 +1667,7 @@ char
 name
 )
 {
-RootedVarObject
+RootedObject
 parent
 (
 cx
@@ -1783,7 +1783,7 @@ jsid
 id
 )
 {
-RootedVarObject
+RootedObject
 parent
 (
 cx
@@ -1886,7 +1886,7 @@ JSFunctionSpec
 static_fs
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx

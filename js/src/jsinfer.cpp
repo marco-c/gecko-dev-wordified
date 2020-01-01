@@ -11210,7 +11210,7 @@ newScript
 CheckNewScriptProperties
 (
 cx
-RootedVarTypeObject
+RootedTypeObject
 (
 cx
 object
@@ -12366,7 +12366,7 @@ bool
 unknown
 )
 {
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -29439,7 +29439,7 @@ JSOp
 pc
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -29509,7 +29509,7 @@ slot
 .
 *
 /
-RootedVarId
+RootedId
 id
 (
 cx
@@ -30639,7 +30639,7 @@ duplicates
 .
 *
 /
-RootedVarObject
+RootedObject
 baseobj
 (
 cx
@@ -34166,7 +34166,7 @@ JSObject
 scope_
 )
 {
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -34177,7 +34177,7 @@ cx
 script_
 )
 ;
-RootedVarObject
+RootedObject
 scope
 (
 cx
@@ -36959,7 +36959,7 @@ analysis
 return
 false
 ;
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -38851,7 +38851,7 @@ return
 type
 ;
 }
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -38888,7 +38888,7 @@ BaseShape
 NEW_TYPE_UNKNOWN
 )
 ;
-RootedVarTypeObject
+RootedTypeObject
 type
 (
 cx

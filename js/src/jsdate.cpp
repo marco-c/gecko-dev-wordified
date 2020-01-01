@@ -10557,7 +10557,7 @@ vp
 bool
 ok
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -10679,7 +10679,7 @@ vp
 bool
 ok
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -11473,7 +11473,7 @@ vp
 bool
 ok
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -12139,7 +12139,7 @@ vp
 bool
 ok
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -16376,7 +16376,7 @@ PRMJ_LocalGMTDifference
 msPerSecond
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -16393,7 +16393,7 @@ asGlobal
 )
 )
 ;
-RootedVarObject
+RootedObject
 dateProto
 (
 cx
@@ -16422,7 +16422,7 @@ cx
 dateProto
 )
 ;
-RootedVarFunction
+RootedFunction
 ctor
 (
 cx
@@ -16536,7 +16536,7 @@ NULL
 Value
 toUTCStringFun
 ;
-RootedVarId
+RootedId
 toUTCStringId
 (
 cx
@@ -16554,7 +16554,7 @@ toUTCStringAtom
 )
 )
 ;
-RootedVarId
+RootedId
 toGMTStringId
 (
 cx

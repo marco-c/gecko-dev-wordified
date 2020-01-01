@@ -982,7 +982,7 @@ HandleObject
 callee
 )
 {
-RootedVarShape
+RootedShape
 shape
 (
 cx
@@ -1031,7 +1031,7 @@ numFixedSlots
 1
 )
 ;
-RootedVarTypeObject
+RootedTypeObject
 type
 (
 cx
@@ -1076,7 +1076,7 @@ slots
 return
 NULL
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1178,7 +1178,7 @@ setParent
 (
 cx
 obj
-RootedVarObject
+RootedObject
 (
 cx
 &
@@ -1435,7 +1435,7 @@ hasCallObj
 )
 )
 ;
-RootedVarObject
+RootedObject
 scopeChain
 (
 cx
@@ -1520,7 +1520,7 @@ script
 (
 )
 scopeChain
-RootedVarObject
+RootedObject
 (
 cx
 &
@@ -1587,7 +1587,7 @@ fp
 scopeChain
 (
 )
-RootedVarObject
+RootedObject
 (
 cx
 )
@@ -2273,12 +2273,12 @@ JS_ALWAYS_TRUE
 op
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 this
 )
-RootedVarId
+RootedId
 (
 cx
 INT_TO_JSID
@@ -2552,7 +2552,7 @@ StackFrame
 fp
 )
 {
-RootedVarTypeObject
+RootedTypeObject
 type
 (
 cx
@@ -2579,7 +2579,7 @@ type
 return
 NULL
 ;
-RootedVarShape
+RootedShape
 emptyDeclEnvShape
 (
 cx
@@ -2614,7 +2614,7 @@ emptyDeclEnvShape
 return
 NULL
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -2678,7 +2678,7 @@ DefineNativeProperty
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 AtomToId
@@ -2747,7 +2747,7 @@ uint32_t
 depth
 )
 {
-RootedVarTypeObject
+RootedTypeObject
 type
 (
 cx
@@ -2771,7 +2771,7 @@ type
 return
 NULL
 ;
-RootedVarShape
+RootedShape
 emptyWithShape
 (
 cx
@@ -2806,7 +2806,7 @@ emptyWithShape
 return
 NULL
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -3015,7 +3015,7 @@ with_LookupGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -3049,7 +3049,7 @@ JSProperty
 propp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -3109,7 +3109,7 @@ with_LookupGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -3184,7 +3184,7 @@ with_GetGeneric
 cx
 obj
 receiver
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -3214,7 +3214,7 @@ Value
 vp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -3272,7 +3272,7 @@ with_GetGeneric
 cx
 obj
 receiver
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -4175,7 +4175,7 @@ StackFrame
 fp
 )
 {
-RootedVarTypeObject
+RootedTypeObject
 type
 (
 cx
@@ -4222,7 +4222,7 @@ slots
 return
 NULL
 ;
-RootedVarShape
+RootedShape
 shape
 (
 cx
@@ -4237,7 +4237,7 @@ lastProperty
 (
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -4318,7 +4318,7 @@ setParent
 (
 cx
 obj
-RootedVarObject
+RootedObject
 (
 cx
 &
@@ -4915,7 +4915,7 @@ JSContext
 cx
 )
 {
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -4963,7 +4963,7 @@ block_getProperty
 (
 cx
 self
-RootedVarId
+RootedId
 (
 cx
 INT_TO_JSID
@@ -4996,7 +4996,7 @@ JSContext
 cx
 )
 {
-RootedVarTypeObject
+RootedTypeObject
 type
 (
 cx
@@ -5023,7 +5023,7 @@ type
 return
 NULL
 ;
-RootedVarShape
+RootedShape
 emptyBlockShape
 (
 cx
@@ -8936,13 +8936,13 @@ scope
 getGeneric
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 &
 scope
 )
-RootedVarId
+RootedId
 (
 cx
 id
@@ -9000,7 +9000,7 @@ scope
 setGeneric
 (
 cx
-RootedVarId
+RootedId
 (
 cx
 id
@@ -11172,7 +11172,7 @@ ScopeIter
 Block
 :
 {
-RootedVar
+Rooted
 <
 StaticBlockObject
 *

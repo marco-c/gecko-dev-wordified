@@ -3657,7 +3657,7 @@ bindings
 add
 (
 cx
-RootedVarAtom
+RootedAtom
 (
 cx
 pn
@@ -4006,7 +4006,7 @@ this
 return
 NULL
 ;
-RootedVar
+Rooted
 <
 PropertyName
 *
@@ -6594,7 +6594,7 @@ cx
 VarContext
 varContext
 ;
-RootedVar
+Rooted
 <
 StaticBlockObject
 *
@@ -7175,7 +7175,7 @@ tc
 >
 parent
 ;
-RootedVarObject
+RootedObject
 parent
 (
 context
@@ -7203,7 +7203,7 @@ scopeChain
 (
 )
 ;
-RootedVarFunction
+RootedFunction
 fun
 (
 context
@@ -9446,7 +9446,7 @@ case
 TOK_NAME
 :
 {
-RootedVar
+Rooted
 <
 PropertyName
 *
@@ -10659,7 +10659,7 @@ strict
 mode
 from
 parent
-RootedVarFunction
+RootedFunction
 fun
 (
 context
@@ -11916,7 +11916,7 @@ functionStmt
 (
 )
 {
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 context
@@ -12041,7 +12041,7 @@ functionExpr
 (
 )
 {
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 context
@@ -13542,7 +13542,7 @@ pn
 return
 false
 ;
-RootedVar
+Rooted
 <
 StaticBlockObject
 *
@@ -17186,7 +17186,7 @@ return
 false
 ;
 }
-RootedVar
+Rooted
 <
 StaticBlockObject
 *
@@ -19250,7 +19250,7 @@ pnlet
 return
 NULL
 ;
-RootedVar
+Rooted
 <
 StaticBlockObject
 *
@@ -21082,7 +21082,7 @@ statement
 .
 *
 /
-RootedVar
+Rooted
 <
 StaticBlockObject
 *
@@ -34565,7 +34565,7 @@ guard
 this
 )
 ;
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 context
@@ -40573,7 +40573,7 @@ list
 TokenKind
 tt
 ;
-RootedVarAtom
+RootedAtom
 startAtom
 (
 context
@@ -44055,7 +44055,7 @@ pn2
 =
 functionDef
 (
-RootedVarPropertyName
+RootedPropertyName
 (
 context
 NULL
@@ -45245,7 +45245,7 @@ regExpStatics
 (
 )
 ;
-RootedVar
+Rooted
 <
 RegExpObject
 *

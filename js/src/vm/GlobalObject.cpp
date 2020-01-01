@@ -354,7 +354,7 @@ JSContext
 cx
 )
 {
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -470,7 +470,7 @@ cx
 self
 )
 ;
-RootedVarObject
+RootedObject
 objectProto
 (
 cx
@@ -603,7 +603,7 @@ functions
 .
 *
 /
-RootedVarFunction
+RootedFunction
 functionProto
 (
 cx
@@ -878,7 +878,7 @@ it
 .
 *
 /
-RootedVarFunction
+RootedFunction
 objectCtor
 (
 cx
@@ -988,7 +988,7 @@ installed
 .
 *
 /
-RootedVarFunction
+RootedFunction
 functionCtor
 (
 cx
@@ -1282,7 +1282,7 @@ ES5
 .
 *
 /
-RootedVarId
+RootedId
 id
 (
 cx
@@ -1352,7 +1352,7 @@ object
 .
 *
 /
-RootedVarFunction
+RootedFunction
 throwTypeError
 (
 cx
@@ -1598,7 +1598,7 @@ flags
 JSCLASS_IS_GLOBAL
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -2462,7 +2462,7 @@ AllocKind
 kind
 )
 {
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -2643,7 +2643,7 @@ JSObject
 proto_
 )
 {
-RootedVarObject
+RootedObject
 ctor
 (
 cx
@@ -2727,7 +2727,7 @@ JSFunctionSpec
 fs
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx

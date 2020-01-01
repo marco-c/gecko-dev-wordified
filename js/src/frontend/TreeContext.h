@@ -1209,7 +1209,7 @@ scope
 statement
 *
 /
-RootedVar
+Rooted
 <
 StaticBlockObject
 *
@@ -1247,7 +1247,7 @@ expr
 /
 private
 :
-RootedVarFunction
+RootedFunction
 fun_
 ;
 /
@@ -1265,7 +1265,7 @@ is
 set
 *
 /
-RootedVarObject
+RootedObject
 scopeChain_
 ;
 /
@@ -2931,7 +2931,7 @@ in
 loop
 *
 /
-RootedVarAtom
+RootedAtom
 label
 ;
 /
@@ -2941,7 +2941,7 @@ of
 LABEL
 *
 /
-RootedVar
+Rooted
 <
 StaticBlockObject
 *

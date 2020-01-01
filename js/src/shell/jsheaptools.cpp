@@ -2594,7 +2594,7 @@ building
 .
 *
 /
-RootedVarObject
+RootedObject
 result
 ;
 /
@@ -3569,7 +3569,7 @@ Path
 path
 )
 {
-RootedVar
+Rooted
 <
 jsval
 >
@@ -3747,7 +3747,7 @@ array
 .
 *
 /
-RootedVarObject
+RootedObject
 array
 (
 context
@@ -4016,7 +4016,7 @@ finder
 .
 findReferences
 (
-RootedVarObject
+RootedObject
 (
 cx
 &

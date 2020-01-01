@@ -723,7 +723,7 @@ nargs
 nvars
 ;
 }
-RootedVarId
+RootedId
 id
 (
 cx
@@ -1089,7 +1089,7 @@ properties
 .
 *
 /
-RootedVarShape
+RootedShape
 shape
 (
 cx
@@ -2829,7 +2829,7 @@ maybeAtom
 continue
 ;
 }
-RootedVarAtom
+RootedAtom
 name
 (
 cx
@@ -8255,7 +8255,7 @@ mainLength
 prologLength
 nfixed
 ;
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -11756,7 +11756,7 @@ bindings
 add
 (
 cx
-RootedVarAtom
+RootedAtom
 (
 cx
 atom
@@ -14601,7 +14601,7 @@ JSScript
 script_
 )
 {
-RootedVar
+Rooted
 <
 JSScript
 *

@@ -2371,7 +2371,7 @@ HandleObject
 obj
 )
 {
-RootedVarString
+RootedString
 str
 (
 cx
@@ -2775,7 +2775,7 @@ isObject
 )
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -2807,7 +2807,7 @@ cx
 obj
 &
 StringClass
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -8234,7 +8234,7 @@ match
 class
 FlatMatch
 {
-RootedVarAtom
+RootedAtom
 patstr
 ;
 const
@@ -9240,7 +9240,7 @@ string
 .
 *
 /
-RootedVarString
+RootedString
 opt
 (
 cx
@@ -9562,7 +9562,7 @@ Value
 rval
 )
 {
-RootedVar
+Rooted
 <
 JSLinearString
 *
@@ -9898,7 +9898,7 @@ array
 .
 *
 /
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -10165,7 +10165,7 @@ argc
 vp
 )
 ;
-RootedVarString
+RootedString
 str
 (
 cx
@@ -10278,7 +10278,7 @@ args
 return
 false
 ;
-RootedVarObject
+RootedObject
 array
 (
 cx
@@ -10391,7 +10391,7 @@ argc
 vp
 )
 ;
-RootedVarString
+RootedString
 str
 (
 cx
@@ -10708,7 +10708,7 @@ cx
 )
 {
 }
-RootedVarString
+RootedString
 str
 ;
 /
@@ -10736,7 +10736,7 @@ private
 data
 *
 /
-RootedVarObject
+RootedObject
 lambda
 ;
 /
@@ -10748,7 +10748,7 @@ or
 null
 *
 /
-RootedVarObject
+RootedObject
 elembase
 ;
 /
@@ -10769,7 +10769,7 @@ a
 replace
 *
 /
-RootedVar
+Rooted
 <
 JSLinearString
 *
@@ -11295,7 +11295,7 @@ size_t
 sizep
 )
 {
-RootedVarObject
+RootedObject
 base
 (
 cx
@@ -12630,7 +12630,7 @@ empty
 )
 )
 {
-RootedVarString
+RootedString
 str
 (
 cx
@@ -12748,7 +12748,7 @@ here
 .
 *
 /
-RootedVarString
+RootedString
 leftSide
 (
 cx
@@ -12825,7 +12825,7 @@ strEnd
 matchEnd
 )
 {
-RootedVarString
+RootedString
 rightSide
 (
 cx
@@ -12873,7 +12873,7 @@ builder
 .
 append
 (
-RootedVarString
+RootedString
 (
 cx
 str
@@ -12910,7 +12910,7 @@ false
 }
 else
 {
-RootedVarString
+RootedString
 leftSide
 (
 cx
@@ -12934,7 +12934,7 @@ leftSide
 return
 false
 ;
-RootedVarString
+RootedString
 rightSide
 (
 cx
@@ -13099,7 +13099,7 @@ CallArgs
 args
 )
 {
-RootedVar
+Rooted
 <
 JSLinearString
 *
@@ -13579,7 +13579,7 @@ switch
 *
 /
 }
-RootedVarString
+RootedString
 leftSide
 (
 cx
@@ -13597,7 +13597,7 @@ ENSURE
 leftSide
 )
 ;
-RootedVarString
+RootedString
 newReplace
 (
 cx
@@ -13626,7 +13626,7 @@ length
 matchLimit
 )
 ;
-RootedVarString
+RootedString
 rightSide
 (
 cx
@@ -14096,7 +14096,7 @@ args
 return
 false
 ;
-RootedVarString
+RootedString
 repstr
 (
 cx
@@ -14119,7 +14119,7 @@ repstr
 return
 false
 ;
-RootedVarString
+RootedString
 leftSide
 (
 cx
@@ -14161,7 +14161,7 @@ patternLength
 (
 )
 ;
-RootedVarString
+RootedString
 rightSide
 (
 cx
@@ -15586,7 +15586,7 @@ NewDenseEmptyArray
 cx
 )
 ;
-RootedVarValue
+RootedValue
 v
 (
 cx
@@ -16588,7 +16588,7 @@ true
 class
 SplitStringMatcher
 {
-RootedVar
+Rooted
 <
 JSLinearString
 *
@@ -16791,7 +16791,7 @@ Steps
 .
 *
 /
-RootedVarString
+RootedString
 str
 (
 cx
@@ -16810,7 +16810,7 @@ str
 return
 false
 ;
-RootedVarTypeObject
+RootedTypeObject
 type
 (
 cx
@@ -17116,7 +17116,7 @@ return
 true
 ;
 }
-RootedVar
+Rooted
 <
 JSLinearString
 *
@@ -17548,7 +17548,7 @@ argc
 vp
 )
 ;
-RootedVarString
+RootedString
 str
 (
 cx
@@ -17587,7 +17587,7 @@ i
 +
 )
 {
-RootedVarString
+RootedString
 argStr
 (
 cx
@@ -19446,7 +19446,7 @@ argc
 vp
 )
 ;
-RootedVarString
+RootedString
 str
 (
 cx
@@ -19919,7 +19919,7 @@ isNative
 )
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -19936,7 +19936,7 @@ asGlobal
 )
 )
 ;
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -19968,7 +19968,7 @@ asString
 init
 (
 cx
-RootedVarString
+RootedString
 (
 cx
 cx
@@ -19994,7 +19994,7 @@ function
 .
 *
 /
-RootedVarFunction
+RootedFunction
 ctor
 (
 cx
@@ -21300,7 +21300,7 @@ NullValue
 Value
 fval
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -21324,7 +21324,7 @@ if
 GetMethod
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 &

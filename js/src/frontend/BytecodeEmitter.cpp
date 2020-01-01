@@ -6885,7 +6885,7 @@ bce
 return
 false
 ;
-RootedVar
+Rooted
 <
 StaticBlockObject
 *
@@ -8068,7 +8068,7 @@ op
 JOF_ATOM
 )
 ;
-RootedVarAtom
+RootedAtom
 atom
 (
 cx
@@ -24734,7 +24734,7 @@ PNX_NONCONST
 )
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -24758,7 +24758,7 @@ idx
 =
 0
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -24893,7 +24893,7 @@ GuessObjectGCKind
 pn_count
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -24986,7 +24986,7 @@ pnid
 pn_dval
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -25101,7 +25101,7 @@ atomState
 protoAtom
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -28622,7 +28622,7 @@ PNK_LEXICALSCOPE
 )
 )
 ;
-RootedVar
+Rooted
 <
 StaticBlockObject
 *
@@ -30187,7 +30187,7 @@ isLet
 )
 )
 ;
-RootedVar
+Rooted
 <
 StaticBlockObject
 *
@@ -32574,7 +32574,7 @@ JSOP_GETFUNNS
 ;
 #
 endif
-RootedVarFunction
+RootedFunction
 fun
 (
 cx
@@ -38890,7 +38890,7 @@ instead
 .
 *
 /
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -39263,7 +39263,7 @@ DefineNativeProperty
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 AtomToId

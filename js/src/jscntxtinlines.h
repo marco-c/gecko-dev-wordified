@@ -2507,7 +2507,7 @@ args
 #
 ifdef
 DEBUG
-RootedVarObject
+RootedObject
 callee
 (
 cx
@@ -2919,7 +2919,7 @@ strict
 vp
 )
 ;
-RootedVarId
+RootedId
 nid
 (
 cx

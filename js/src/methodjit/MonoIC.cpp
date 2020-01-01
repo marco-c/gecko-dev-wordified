@@ -7932,7 +7932,7 @@ Steps
 .
 *
 /
-RootedVarObject
+RootedObject
 aobj
 (
 cx

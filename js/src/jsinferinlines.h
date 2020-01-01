@@ -9422,7 +9422,7 @@ hasScope
 js
 :
 :
-RootedVarObject
+RootedObject
 scopeRoot
 (
 cx

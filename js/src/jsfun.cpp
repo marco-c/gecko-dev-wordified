@@ -1251,7 +1251,7 @@ isFunction
 )
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -1605,7 +1605,7 @@ objProto
 return
 NULL
 ;
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -1789,7 +1789,7 @@ id
 return
 true
 ;
-RootedVarFunction
+RootedFunction
 fun
 (
 cx
@@ -2511,7 +2511,7 @@ script
 }
 else
 {
-RootedVarObject
+RootedObject
 parent
 (
 cx
@@ -2830,7 +2830,7 @@ XDRInterpretedFunction
 .
 *
 /
-RootedVarObject
+RootedObject
 parent
 (
 cx
@@ -3053,7 +3053,7 @@ JSBool
 bp
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -4141,7 +4141,7 @@ Step
 .
 *
 /
-RootedVarValue
+RootedValue
 fval
 (
 cx
@@ -4456,7 +4456,7 @@ ES5
 .
 *
 /
-RootedVarObject
+RootedObject
 aobj
 (
 cx
@@ -4695,7 +4695,7 @@ isFunction
 )
 )
 ;
-RootedVarFunction
+RootedFunction
 self
 (
 cx
@@ -5559,7 +5559,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 target
 (
 cx
@@ -5633,7 +5633,7 @@ Steps
 .
 *
 /
-RootedVarValue
+RootedValue
 thisArg
 (
 cx
@@ -5807,7 +5807,7 @@ get
 :
 NULL
 ;
-RootedVarObject
+RootedObject
 funobj
 (
 cx
@@ -6088,7 +6088,7 @@ it
 .
 *
 /
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -6920,7 +6920,7 @@ name
 .
 *
 /
-RootedVar
+Rooted
 <
 PropertyName
 *
@@ -7280,7 +7280,7 @@ function
 .
 *
 /
-RootedVarFunction
+RootedFunction
 fun
 (
 cx
@@ -7491,7 +7491,7 @@ ExtendedFinalizeKind
 )
 )
 ;
-RootedVarAtom
+RootedAtom
 atom
 (
 cx
@@ -7786,7 +7786,7 @@ cloneobj
 return
 NULL
 ;
-RootedVarFunction
+RootedFunction
 clone
 (
 cx
@@ -8240,7 +8240,7 @@ gop
 StrictPropertyOp
 sop
 ;
-RootedVarFunction
+RootedFunction
 fun
 (
 cx

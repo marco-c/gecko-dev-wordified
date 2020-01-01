@@ -732,7 +732,7 @@ isNative
 )
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -749,7 +749,7 @@ asGlobal
 )
 )
 ;
-RootedVarObject
+RootedObject
 booleanProto
 (
 cx
@@ -787,7 +787,7 @@ false
 )
 )
 ;
-RootedVarFunction
+RootedFunction
 ctor
 (
 cx

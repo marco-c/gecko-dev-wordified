@@ -1116,7 +1116,7 @@ cx
 child
 )
 ;
-RootedVarShape
+RootedShape
 parent
 (
 cx

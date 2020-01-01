@@ -9153,7 +9153,7 @@ aCx
 JS
 :
 :
-RootedVarObject
+RootedObject
 (
 aCx
 parent

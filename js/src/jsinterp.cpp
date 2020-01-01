@@ -1066,14 +1066,14 @@ Value
 vp
 )
 {
-RootedVarValue
+RootedValue
 idval
 (
 cx
 idval_
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -1091,7 +1091,7 @@ noSuchMethodAtom
 )
 )
 ;
-RootedVarValue
+RootedValue
 value
 (
 cx
@@ -1629,7 +1629,7 @@ StackFrame
 *
 fp
 ;
-RootedVarObject
+RootedObject
 enumerators
 ;
 CheckStackBalance
@@ -2067,7 +2067,7 @@ functions
 .
 *
 /
-RootedVarFunction
+RootedFunction
 fun
 (
 cx
@@ -2913,7 +2913,7 @@ isScope
 JS
 :
 :
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -3165,7 +3165,7 @@ case
 .
 *
 /
-RootedVarObject
+RootedObject
 scopeChain
 (
 cx
@@ -3659,7 +3659,7 @@ if
 eq
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 l
@@ -3756,14 +3756,14 @@ return
 true
 ;
 }
-RootedVarValue
+RootedValue
 lvalue
 (
 cx
 lval
 )
 ;
-RootedVarValue
+RootedValue
 rvalue
 (
 cx
@@ -4510,7 +4510,7 @@ sp
 stackIndex
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -6711,7 +6711,7 @@ savedEntry
 *
 entry
 ;
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 cx
@@ -6732,7 +6732,7 @@ pc
 )
 )
 ;
-RootedVarObject
+RootedObject
 start
 (
 cx
@@ -7129,7 +7129,7 @@ if
 js_IteratorMore
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 iterobj
@@ -8627,7 +8627,7 @@ cx
 >
 runtime
 ;
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -8728,7 +8728,7 @@ gotos
 .
 *
 /
-RootedVarValue
+RootedValue
 rootValue0
 (
 cx
@@ -8738,7 +8738,7 @@ rootValue1
 cx
 )
 ;
-RootedVarString
+RootedString
 rootString0
 (
 cx
@@ -8748,7 +8748,7 @@ rootString1
 cx
 )
 ;
-RootedVarObject
+RootedObject
 rootObject0
 (
 cx
@@ -8758,25 +8758,25 @@ rootObject1
 cx
 )
 ;
-RootedVarFunction
+RootedFunction
 rootFunction0
 (
 cx
 )
 ;
-RootedVarTypeObject
+RootedTypeObject
 rootType0
 (
 cx
 )
 ;
-RootedVarPropertyName
+RootedPropertyName
 rootName0
 (
 cx
 )
 ;
-RootedVarId
+RootedId
 rootId0
 (
 cx
@@ -11549,7 +11549,7 @@ goto
 error
 ;
 }
-RootedVarObject
+RootedObject
 &
 obj
 =
@@ -11564,7 +11564,7 @@ toObject
 (
 )
 ;
-RootedVarId
+RootedId
 &
 id
 =
@@ -12347,7 +12347,7 @@ cx
 obj
 )
 ;
-RootedVarId
+RootedId
 &
 id
 =
@@ -12593,7 +12593,7 @@ isGlobal
 )
 break
 ;
-RootedVarPropertyName
+RootedPropertyName
 &
 name
 =
@@ -12605,7 +12605,7 @@ LOAD_NAME
 name
 )
 ;
-RootedVarObject
+RootedObject
 &
 scopeChain
 =
@@ -13702,7 +13702,7 @@ BEGIN_CASE
 JSOP_SUB
 )
 {
-RootedVarValue
+RootedValue
 &
 lval
 =
@@ -13769,7 +13769,7 @@ BEGIN_CASE
 JSOP_MUL
 )
 {
-RootedVarValue
+RootedValue
 &
 lval
 =
@@ -13836,7 +13836,7 @@ BEGIN_CASE
 JSOP_DIV
 )
 {
-RootedVarValue
+RootedValue
 &
 lval
 =
@@ -13903,7 +13903,7 @@ BEGIN_CASE
 JSOP_MOD
 )
 {
-RootedVarValue
+RootedValue
 &
 lval
 =
@@ -14288,7 +14288,7 @@ BEGIN_CASE
 JSOP_DELNAME
 )
 {
-RootedVarPropertyName
+RootedPropertyName
 &
 name
 =
@@ -14300,7 +14300,7 @@ LOAD_NAME
 name
 )
 ;
-RootedVarObject
+RootedObject
 &
 scopeObj
 =
@@ -14429,7 +14429,7 @@ BEGIN_CASE
 JSOP_DELPROP
 )
 {
-RootedVarPropertyName
+RootedPropertyName
 &
 name
 =
@@ -14453,7 +14453,7 @@ cx
 obj
 )
 ;
-RootedVarValue
+RootedValue
 &
 rval
 =
@@ -14533,7 +14533,7 @@ cx
 obj
 )
 ;
-RootedVarValue
+RootedValue
 &
 propval
 =
@@ -15363,7 +15363,7 @@ BEGIN_CASE
 JSOP_SETELEM
 )
 {
-RootedVarObject
+RootedObject
 &
 obj
 =
@@ -15377,7 +15377,7 @@ cx
 obj
 )
 ;
-RootedVarId
+RootedId
 &
 id
 =
@@ -15448,13 +15448,13 @@ BEGIN_CASE
 JSOP_ENUMELEM
 )
 {
-RootedVarObject
+RootedObject
 &
 obj
 =
 rootObject0
 ;
-RootedVarValue
+RootedValue
 &
 rval
 =
@@ -15487,7 +15487,7 @@ cx
 obj
 )
 ;
-RootedVarId
+RootedId
 &
 id
 =
@@ -15741,7 +15741,7 @@ pc
 JSOP_NEW
 )
 ;
-RootedVarFunction
+RootedFunction
 &
 fun
 =
@@ -16276,7 +16276,7 @@ BEGIN_CASE
 JSOP_IMPLICITTHIS
 )
 {
-RootedVarPropertyName
+RootedPropertyName
 &
 name
 =
@@ -16288,7 +16288,7 @@ LOAD_NAME
 name
 )
 ;
-RootedVarObject
+RootedObject
 &
 scopeObj
 =
@@ -16379,7 +16379,7 @@ BEGIN_CASE
 JSOP_CALLNAME
 )
 {
-RootedVarValue
+RootedValue
 &
 rval
 =
@@ -17930,7 +17930,7 @@ Step
 .
 *
 /
-RootedVarObject
+RootedObject
 &
 obj
 =
@@ -18037,7 +18037,7 @@ body
 .
 *
 /
-RootedVarFunction
+RootedFunction
 &
 fun
 =
@@ -18311,7 +18311,7 @@ blocks
 .
 *
 /
-RootedVarObject
+RootedObject
 &
 parent
 =
@@ -18347,7 +18347,7 @@ errata
 .
 *
 /
-RootedVarPropertyName
+RootedPropertyName
 &
 name
 =
@@ -18394,7 +18394,7 @@ prop
 goto
 error
 ;
-RootedVarValue
+RootedValue
 &
 rval
 =
@@ -18703,7 +18703,7 @@ literal
 .
 *
 /
-RootedVarFunction
+RootedFunction
 &
 fun
 =
@@ -18826,7 +18826,7 @@ regs
 pc
 )
 ;
-RootedVarId
+RootedId
 &
 id
 =
@@ -19572,7 +19572,7 @@ BEGIN_CASE
 JSOP_NEWOBJECT
 )
 {
-RootedVarObject
+RootedObject
 &
 baseobj
 =
@@ -19593,7 +19593,7 @@ pc
 )
 )
 ;
-RootedVarObject
+RootedObject
 &
 obj
 =
@@ -19781,7 +19781,7 @@ obj
 .
 *
 /
-RootedVarObject
+RootedObject
 &
 obj
 =
@@ -19812,7 +19812,7 @@ isObject
 )
 )
 ;
-RootedVarId
+RootedId
 &
 id
 =
@@ -19955,7 +19955,7 @@ sp
 1
 ]
 ;
-RootedVarObject
+RootedObject
 &
 obj
 =
@@ -20018,7 +20018,7 @@ obj
 .
 *
 /
-RootedVarId
+RootedId
 &
 id
 =
@@ -20561,7 +20561,7 @@ goto
 error
 ;
 }
-RootedVarObject
+RootedObject
 &
 obj
 =
@@ -21466,7 +21466,7 @@ sp
 1
 ]
 ;
-RootedVarId
+RootedId
 &
 id
 =
@@ -21566,7 +21566,7 @@ JSObject
 *
 obj
 ;
-RootedVarId
+RootedId
 &
 id
 =
@@ -23305,7 +23305,7 @@ fp
 slot
 )
 ;
-RootedVarObject
+RootedObject
 &
 obj
 =

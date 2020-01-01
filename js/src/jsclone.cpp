@@ -3574,7 +3574,7 @@ empty
 )
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 context
@@ -3642,7 +3642,7 @@ back
 -
 -
 ;
-RootedVarId
+RootedId
 id
 (
 context
@@ -5572,7 +5572,7 @@ length
 0
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 context
@@ -5590,7 +5590,7 @@ toObject
 )
 )
 ;
-RootedVarId
+RootedId
 id
 (
 context

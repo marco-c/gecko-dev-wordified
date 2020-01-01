@@ -198,7 +198,7 @@ JSScript
 script_
 )
 {
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -1536,7 +1536,7 @@ version
 version
 )
 ;
-RootedVar
+Rooted
 <
 JSScript
 *

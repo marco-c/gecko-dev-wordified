@@ -3309,7 +3309,7 @@ popCopy
 (
 )
 ;
-RootedVarId
+RootedId
 propid
 (
 cx
@@ -3333,7 +3333,7 @@ asAtom
 )
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -3602,7 +3602,7 @@ if
 js_NewbornArrayPush
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 &

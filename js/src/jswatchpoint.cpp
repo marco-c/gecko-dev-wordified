@@ -202,10 +202,10 @@ p
 uint32_t
 gen
 ;
-RootedVarObject
+RootedObject
 obj
 ;
-RootedVarId
+RootedId
 id
 ;
 public
@@ -683,7 +683,7 @@ value
 .
 handler
 ;
-RootedVarObject
+RootedObject
 closure
 (
 cx

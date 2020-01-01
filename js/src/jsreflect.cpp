@@ -1001,7 +1001,7 @@ userobj_
 NULL
 )
 {
-RootedVarObject
+RootedObject
 userobj
 (
 cx
@@ -1137,7 +1137,7 @@ atom
 return
 false
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -17127,7 +17127,7 @@ return
 JS_FALSE
 ;
 }
-RootedVarObject
+RootedObject
 config
 (
 cx
@@ -17149,7 +17149,7 @@ config
 loc
 *
 /
-RootedVarId
+RootedId
 locId
 (
 cx
@@ -17208,7 +17208,7 @@ config
 source
 *
 /
-RootedVarId
+RootedId
 sourceId
 (
 cx
@@ -17338,7 +17338,7 @@ config
 line
 *
 /
-RootedVarId
+RootedId
 lineId
 (
 cx
@@ -17398,7 +17398,7 @@ config
 builder
 *
 /
-RootedVarId
+RootedId
 builderId
 (
 cx
@@ -17719,7 +17719,7 @@ JSObject
 obj_
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx

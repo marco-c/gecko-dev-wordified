@@ -1688,7 +1688,7 @@ needsClone
 )
 )
 {
-RootedVar
+Rooted
 <
 StaticBlockObject
 *

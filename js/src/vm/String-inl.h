@@ -725,7 +725,7 @@ length
 JS
 :
 :
-RootedVar
+Rooted
 <
 JSLinearString
 *

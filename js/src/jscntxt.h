@@ -549,7 +549,7 @@ PendingProxyOperation
 *
 next
 ;
-RootedVarObject
+RootedObject
 object
 ;
 PendingProxyOperation

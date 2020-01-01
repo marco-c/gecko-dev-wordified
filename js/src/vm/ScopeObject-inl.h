@@ -244,7 +244,7 @@ HandleObject
 obj
 )
 {
-RootedVarObject
+RootedObject
 self
 (
 cx
