@@ -3066,6 +3066,14 @@ rv
 =
 NS_ERROR_FAILURE
 ;
+if
+(
+!
+mOwner
+)
+return
+rv
+;
 nsCOMPtr
 <
 nsIDocument
