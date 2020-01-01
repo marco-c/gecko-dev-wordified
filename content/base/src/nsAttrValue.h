@@ -1000,6 +1000,17 @@ aInt
 void
 SetTo
 (
+double
+aValue
+const
+nsAString
+*
+aSerialized
+)
+;
+void
+SetTo
+(
 mozilla
 :
 :
