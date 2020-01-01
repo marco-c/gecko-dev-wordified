@@ -167,7 +167,7 @@ class
 VectorImage
 :
 public
-Image
+ImageResource
 public
 nsIStreamListener
 {

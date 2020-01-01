@@ -1036,7 +1036,7 @@ nullptr
 /
 )
 :
-Image
+ImageResource
 (
 aStatusTracker
 aURI
@@ -1568,7 +1568,7 @@ ShouldAnimate
 )
 {
 return
-Image
+ImageResource
 :
 :
 ShouldAnimate

@@ -109,10 +109,10 @@ image
 /
 /
 Constructor
-Image
+ImageResource
 :
 :
-Image
+ImageResource
 (
 imgStatusTracker
 *
@@ -122,13 +122,13 @@ nsIURI
 aURI
 )
 :
-mInnerWindowId
-(
-0
-)
 mURI
 (
 aURI
+)
+mInnerWindowId
+(
+0
 )
 mAnimationConsumers
 (
@@ -182,7 +182,7 @@ this
 }
 }
 uint32_t
-Image
+ImageResource
 :
 :
 SizeOfData
@@ -522,7 +522,7 @@ rv
 ;
 }
 void
-Image
+ImageResource
 :
 :
 IncrementAnimationConsumers
@@ -539,7 +539,7 @@ EvaluateAnimation
 ;
 }
 void
-Image
+ImageResource
 :
 :
 DecrementAnimationConsumers
@@ -573,7 +573,7 @@ EvaluateAnimation
 ;
 }
 nsresult
-Image
+ImageResource
 :
 :
 GetAnimationModeInternal
@@ -605,7 +605,7 @@ NS_OK
 ;
 }
 nsresult
-Image
+ImageResource
 :
 :
 SetAnimationModeInternal
@@ -663,7 +663,7 @@ NS_OK
 ;
 }
 void
-Image
+ImageResource
 :
 :
 EvaluateAnimation
