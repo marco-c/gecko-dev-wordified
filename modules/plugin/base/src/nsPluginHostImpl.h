@@ -1052,6 +1052,9 @@ mXPConnected
 PRPackedBool
 mIsJavaPlugin
 ;
+PRPackedBool
+mIsNPRuntimeEnabledJavaPlugin
+;
 char
 *
 mFileName

@@ -1037,14 +1037,6 @@ InitializeExternalClasses
 (
 )
 ;
-nsresult
-InitializeLiveConnectClasses
-(
-JSObject
-*
-aGlobalObj
-)
-;
 /
 /
 aHolder

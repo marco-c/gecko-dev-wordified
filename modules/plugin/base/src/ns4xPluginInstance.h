@@ -815,6 +815,12 @@ GetPluginAPIVersion
 (
 )
 ;
+virtual
+void
+DefineJavaProperties
+(
+)
+;
 /
 /
 /
