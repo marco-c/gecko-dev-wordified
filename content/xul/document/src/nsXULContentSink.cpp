@@ -286,13 +286,6 @@ h
 #
 include
 "
-nsIScriptRuntime
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h

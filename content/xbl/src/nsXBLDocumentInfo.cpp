@@ -172,13 +172,6 @@ h
 #
 include
 "
-nsIScriptRuntime
-.
-h
-"
-#
-include
-"
 nsIDOMScriptObjectFactory
 .
 h

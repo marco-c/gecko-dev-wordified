@@ -212,13 +212,6 @@ h
 #
 include
 "
-nsIScriptRuntime
-.
-h
-"
-#
-include
-"
 nsIScriptSecurityManager
 .
 h

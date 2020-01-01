@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIScriptRuntime
-.
-h
-"
-#
-include
-"
 nsIXPConnect
 .
 h
