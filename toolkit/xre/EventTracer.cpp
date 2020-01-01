@@ -759,6 +759,13 @@ serviced
 #
 include
 "
+sampler
+.
+h
+"
+#
+include
+"
 EventTracer
 .
 h
@@ -1199,6 +1206,11 @@ TimeStamp
 Now
 (
 )
+)
+;
+SAMPLER_RESPONSIVENESS
+(
+start
 )
 ;
 PRIntervalTime
