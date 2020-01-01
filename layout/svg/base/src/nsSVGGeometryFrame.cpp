@@ -685,6 +685,7 @@ aPrevInFlow
 {
 AddStateBits
 (
+(
 aParent
 -
 >
@@ -693,6 +694,9 @@ GetStateBits
 )
 &
 NS_STATE_SVG_NONDISPLAY_CHILD
+)
+|
+NS_STATE_SVG_PROPAGATE_TRANSFORM
 )
 ;
 nsresult

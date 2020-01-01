@@ -461,6 +461,13 @@ gfxImageSurface
 .
 h
 "
+#
+include
+"
+nsIDOMSVGFilters
+.
+h
+"
 class
 nsSVGFilterResource
 ;

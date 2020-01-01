@@ -494,7 +494,7 @@ ClipPaint
 nsSVGRenderState
 *
 aContext
-nsISVGChildFrame
+nsIFrame
 *
 aParent
 nsIDOMSVGMatrix
@@ -505,7 +505,7 @@ aMatrix
 PRBool
 ClipHitTest
 (
-nsISVGChildFrame
+nsIFrame
 *
 aParent
 nsIDOMSVGMatrix
@@ -745,7 +745,7 @@ mFrame
 ;
 }
 ;
-nsISVGChildFrame
+nsIFrame
 *
 mClipParent
 ;

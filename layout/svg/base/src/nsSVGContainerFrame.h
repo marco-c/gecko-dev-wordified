@@ -793,11 +793,13 @@ SetMatrixPropagation
 PRBool
 aPropagate
 )
-{
-return
-NS_ERROR_FAILURE
 ;
-}
+virtual
+PRBool
+GetMatrixPropagation
+(
+)
+;
 NS_IMETHOD
 SetOverrideCTM
 (
