@@ -2525,6 +2525,9 @@ return
 true
 ;
 }
+namespace
+js
+{
 bool
 VectorToIdArray
 (
@@ -2652,7 +2655,10 @@ return
 true
 ;
 }
+JS_FRIEND_API
+(
 bool
+)
 GetPropertyNames
 (
 JSContext
@@ -2686,6 +2692,7 @@ JSITER_HIDDEN
 props
 )
 ;
+}
 }
 static
 inline
@@ -3926,6 +3933,9 @@ return
 true
 ;
 }
+namespace
+js
+{
 bool
 VectorToKeyIterator
 (
@@ -5033,6 +5043,7 @@ iterobj
 return
 true
 ;
+}
 }
 static
 JSObject

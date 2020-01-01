@@ -617,6 +617,9 @@ XDR
 define
 JSITER_ACTIVE
 0x1000
+namespace
+js
+{
 struct
 NativeIterator
 {
@@ -1012,7 +1015,10 @@ JSIdArray
 idap
 )
 ;
+JS_FRIEND_API
+(
 bool
+)
 GetPropertyNames
 (
 JSContext
@@ -1158,6 +1164,7 @@ Value
 vp
 )
 ;
+}
 /
 *
 *
