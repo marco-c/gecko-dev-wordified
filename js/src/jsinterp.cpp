@@ -17560,7 +17560,6 @@ define
 ABORT_TRACE
 goto
 abort_trace
-;
 #
 else
 #
@@ -43069,6 +43068,10 @@ error
 #
 ifdef
 jstracer_cpp___
+ok
+=
+JS_FALSE
+;
 SAVE_STATE
 (
 state
@@ -43076,7 +43079,7 @@ JS_NEXT_ERROR
 )
 ;
 return
-false
+JS_FALSE
 ;
 abort_trace
 :
@@ -43094,6 +43097,10 @@ pc
 )
 )
 ;
+ok
+=
+JS_FALSE
+;
 SAVE_STATE
 (
 state
@@ -43101,7 +43108,7 @@ JS_NEXT_CONTINUE
 )
 ;
 return
-false
+ok
 ;
 #
 else
@@ -44557,6 +44564,10 @@ DO_OP
 )
 ;
 }
+ok
+=
+JS_TRUE
+;
 JSInterpreterState
 s
 ;
