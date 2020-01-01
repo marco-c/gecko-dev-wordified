@@ -791,6 +791,12 @@ nsMappedAttributes
 aMapped
 )
 ;
+PRInt64
+SizeOf
+(
+)
+const
+;
 private
 :
 /
