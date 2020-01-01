@@ -17867,9 +17867,6 @@ params
 exceptionAdded
 :
 false
-handlePrivateBrowsing
-:
-true
 }
 ;
 try
