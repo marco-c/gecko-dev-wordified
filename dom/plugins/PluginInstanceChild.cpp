@@ -5762,16 +5762,6 @@ an
 ASCII
 WndProc
 .
-printf
-(
-"
-setting
-DefWindowProcA
-\
-n
-"
-)
-;
 SetWindowLongPtrA
 (
 mPluginWindowHWND
