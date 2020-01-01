@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -101,6 +101,9 @@ engine_configurations
 .
 h
 "
+/
+/
+NOLINT
 #
 include
 "
@@ -391,7 +394,7 @@ ViERenderManager
 RegisterVideoRenderModule
 (
 VideoRender
-&
+*
 render_module
 )
 {
@@ -427,7 +430,8 @@ current_module
 FindRenderModule
 (
 render_module
-.
+-
+>
 Window
 (
 )
@@ -481,12 +485,12 @@ p
 .
 "
 render_module
-.
+-
+>
 Window
 (
 )
 current_module
-&
 render_module
 )
 ;
@@ -510,7 +514,6 @@ void
 *
 >
 (
-&
 render_module
 )
 )
@@ -530,7 +533,7 @@ ViERenderManager
 DeRegisterVideoRenderModule
 (
 VideoRender
-&
+*
 render_module
 )
 {
@@ -549,7 +552,8 @@ WebRtc_UWord32
 n_streams
 =
 render_module
-.
+-
+>
 GetNumIncomingRenderStreams
 (
 )
@@ -649,7 +653,6 @@ list_item
 {
 if
 (
-&
 render_module
 =
 =
@@ -1027,8 +1030,8 @@ a
 stream
 .
 ViEManagerWriteScoped
+scope
 (
-*
 this
 )
 ;

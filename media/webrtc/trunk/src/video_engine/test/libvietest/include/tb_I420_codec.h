@@ -204,7 +204,7 @@ const
 webrtc
 :
 :
-RawImage
+VideoFrame
 &
 inputImage
 const
@@ -557,7 +557,7 @@ private
 webrtc
 :
 :
-RawImage
+VideoFrame
 _decodedImage
 ;
 WebRtc_Word32

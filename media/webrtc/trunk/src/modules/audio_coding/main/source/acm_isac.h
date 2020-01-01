@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -405,16 +405,6 @@ WebRtc_Word32
 rate
 bool
 isRED
-)
-;
-WebRtc_Word16
-UnregisterFromNetEqSafe
-(
-ACMNetEQ
-*
-netEq
-WebRtc_Word16
-payloadType
 )
 ;
 void

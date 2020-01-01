@@ -1194,7 +1194,7 @@ mode
 )
 ;
 typedef
-WebRtc_Word16
+int
 (
 *
 VADFunction
@@ -1203,12 +1203,12 @@ VADFunction
 void
 *
 VAD_inst
-WebRtc_Word16
+int
 fs
 WebRtc_Word16
 *
 frame
-WebRtc_Word16
+int
 frameLen
 )
 ;
@@ -1273,7 +1273,7 @@ VAD
 function
 *
 /
-WebRtc_Word16
+int
 VADDecision
 ;
 /

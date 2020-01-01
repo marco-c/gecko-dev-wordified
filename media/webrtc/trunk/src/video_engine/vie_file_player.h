@@ -108,6 +108,9 @@ common_types
 .
 h
 "
+/
+/
+NOLINT
 #
 include
 "
@@ -139,6 +142,9 @@ typedefs
 .
 h
 "
+/
+/
+NOLINT
 #
 include
 "
@@ -162,9 +168,6 @@ ThreadWrapper
 ;
 class
 ViEFileObserver
-;
-class
-ViEInputManager
 ;
 class
 VoEFile
@@ -206,9 +209,6 @@ loop
 const
 FileFormats
 file_format
-ViEInputManager
-&
-input_manager
 VoiceEngine
 *
 voe_ptr
@@ -250,7 +250,7 @@ int
 RegisterObserver
 (
 ViEFileObserver
-&
+*
 observer
 )
 ;
@@ -316,9 +316,6 @@ int
 Id
 int
 engine_id
-ViEInputManager
-&
-input_manager
 )
 ;
 int
@@ -489,10 +486,6 @@ kMaxDecodedAudioLength
 bool
 play_back_started_
 ;
-ViEInputManager
-&
-input_manager_
-;
 CriticalSectionWrapper
 *
 feedback_cs_
@@ -605,7 +598,7 @@ decoded_audio_
 kMaxDecodedAudioLength
 ]
 ;
-WebRtc_UWord32
+int
 decoded_audio_length_
 ;
 /

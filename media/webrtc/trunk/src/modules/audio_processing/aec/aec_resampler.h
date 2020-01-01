@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -185,15 +185,7 @@ using
 linear
 interpolation
 .
-/
-/
-Returns
-size
-of
-resampled
-array
-.
-int
+void
 WebRtcAec_ResampleLinear
 (
 void
@@ -210,6 +202,9 @@ skew
 short
 *
 outspeech
+int
+*
+size_out
 )
 ;
 #

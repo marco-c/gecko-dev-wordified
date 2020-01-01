@@ -966,6 +966,9 @@ int
 capture_id
 )
 {
+/
+/
+NOLINT
 WEBRTC_TRACE
 (
 kTraceApiCall
@@ -1057,6 +1060,7 @@ input_manager
 >
 CreateCaptureDevice
 (
+&
 capture_module
 capture_id
 )
@@ -1562,6 +1566,7 @@ vie_encoder
 >
 GetEncoder
 (
+&
 codec
 )
 =
@@ -3654,6 +3659,7 @@ vie_capture
 >
 RegisterObserver
 (
+&
 observer
 )
 !

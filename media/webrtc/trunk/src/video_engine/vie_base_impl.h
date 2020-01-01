@@ -94,6 +94,10 @@ WEBRTC_VIDEO_ENGINE_VIE_BASE_IMPL_H_
 #
 include
 "
+video_engine
+/
+include
+/
 vie_base
 .
 h
@@ -101,6 +105,8 @@ h
 #
 include
 "
+video_engine
+/
 vie_defines
 .
 h
@@ -108,6 +114,8 @@ h
 #
 include
 "
+video_engine
+/
 vie_ref_count
 .
 h
@@ -115,6 +123,8 @@ h
 #
 include
 "
+video_engine
+/
 vie_shared_data
 .
 h
@@ -173,6 +183,9 @@ int
 video_channel
 )
 ;
+/
+/
+NOLINT
 virtual
 int
 CreateChannel
@@ -180,6 +193,9 @@ CreateChannel
 int
 &
 video_channel
+/
+/
+NOLINT
 int
 original_channel
 )
@@ -191,6 +207,9 @@ CreateReceiveChannel
 int
 &
 video_channel
+/
+/
+NOLINT
 int
 original_channel
 )
@@ -270,6 +289,9 @@ ViEBaseObserver
 observer
 )
 ;
+/
+/
+NOLINT
 virtual
 int
 DeregisterObserver
@@ -358,6 +380,9 @@ int
 video_channel
 int
 original_channel
+/
+/
+NOLINT
 bool
 sender
 )

@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -190,7 +190,7 @@ virtual
 WebRtc_Word32
 Decoded
 (
-RawImage
+VideoFrame
 &
 decodedImage
 )

@@ -505,6 +505,7 @@ set
 to
 NULL
 .
+explicit
 QueueNode
 (
 const

@@ -12,7 +12,7 @@ Copyright
 (
 c
 )
-2009
+2012
 Google
 Inc
 .
@@ -250,6 +250,9 @@ make
 '
 ninja
 '
+'
+android
+'
 )
 :
   
@@ -365,6 +368,12 @@ SHARED_LIB
 chdir
 =
 chdir
+                           
+subdir
+=
+'
+dir1
+'
 )
 test
 .

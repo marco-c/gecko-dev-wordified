@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -216,6 +216,8 @@ payloadType
 const
 WebRtc_UWord32
 timeStamp
+int64_t
+capture_time_ms
 const
 WebRtc_UWord8
 *
@@ -349,17 +351,6 @@ webrtc
 FrameType
 _frameType
 ;
-WebRtc_UWord8
-*
-_payloadData
-;
-/
-/
-max
-payload
-size
-?
-?
 WebRtc_UWord16
 _seqNo
 ;

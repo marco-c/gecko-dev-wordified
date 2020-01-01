@@ -486,8 +486,8 @@ from
 )
 .
 #
-ifdef
-__GLIBCXX__
+if
+GTEST_HAS_CXXABI_H_
 #
 include
 <
@@ -512,7 +512,7 @@ h
 endif
 /
 /
-__GLIBCXX__
+GTEST_HASH_CXXABI_H_
 namespace
 testing
 {
@@ -598,10 +598,7 @@ name
 ;
 #
 if
-defined
-(
-__GLIBCXX__
-)
+GTEST_HAS_CXXABI_H_
 |
 |
 defined
@@ -642,8 +639,8 @@ demangle
 it
 .
 #
-ifdef
-__GLIBCXX__
+if
+GTEST_HAS_CXXABI_H_
 using
 abi
 :
@@ -654,7 +651,7 @@ __cxa_demangle
 endif
 /
 /
-__GLIBCXX__
+GTEST_HAS_CXXABI_H_
 char
 *
 const
@@ -700,7 +697,7 @@ name
 endif
 /
 /
-__GLIBCXX__
+GTEST_HAS_CXXABI_H_
 |
 |
 __HP_aCC

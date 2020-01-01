@@ -374,16 +374,11 @@ h
 #
 elif
 GTEST_OS_SYMBIAN
-|
-|
-GTEST_OS_NACL
 /
 /
 Symbian
 OpenC
-and
-NaCl
-have
+has
 PATH_MAX
 in
 sys

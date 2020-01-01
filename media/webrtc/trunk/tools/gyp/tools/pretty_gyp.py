@@ -12,10 +12,9 @@ Copyright
 (
 c
 )
-2011
-The
-Chromium
-Authors
+2012
+Google
+Inc
 .
 All
 rights
@@ -149,7 +148,7 @@ an
 escaped
 backslash
 .
-quote_re_str
+QUOTE_RE_STR
 =
 r
 '

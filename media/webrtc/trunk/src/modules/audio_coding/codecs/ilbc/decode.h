@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -396,6 +396,7 @@ signal
 block
 *
 /
+const
 WebRtc_UWord16
 *
 bytes

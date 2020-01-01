@@ -12,7 +12,7 @@ Copyright
 (
 c
 )
-2009
+2012
 Google
 Inc
 .
@@ -216,7 +216,7 @@ test
 run_built_executable
 (
 '
-prog1
+program1
 '
                           
 chdir
@@ -258,7 +258,7 @@ test
 run_built_executable
 (
 '
-prog2
+program2
 '
                           
 chdir

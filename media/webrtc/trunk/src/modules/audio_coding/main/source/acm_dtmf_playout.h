@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -209,16 +209,6 @@ InternalCreateEncoder
 WebRtc_Word16
 InternalCreateDecoder
 (
-)
-;
-WebRtc_Word16
-UnregisterFromNetEqSafe
-(
-ACMNetEQ
-*
-netEq
-WebRtc_Word16
-payloadType
 )
 ;
 void

@@ -1430,7 +1430,7 @@ VADInst
 .
 VADEnabled
 ;
-WebRtc_Word16
+int
 savedVADMode
 =
 inst

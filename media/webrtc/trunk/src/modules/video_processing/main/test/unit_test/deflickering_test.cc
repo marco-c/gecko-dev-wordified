@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -470,6 +470,8 @@ runIdx
 0
 )
 {
+if
+(
 fwrite
 (
 _videoFrame
@@ -481,7 +483,14 @@ Buffer
 _frameLength
 deflickerFile
 )
+!
+=
+_frameLength
+)
+{
+return
 ;
+}
 }
 timeStamp
 +

@@ -145,13 +145,6 @@ _id
 (
 id
 )
-_lastError
-(
-AudioDeviceModule
-:
-:
-kAdmErrNone
-)
 {
 WEBRTC_TRACE
 (

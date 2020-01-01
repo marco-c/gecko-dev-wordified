@@ -287,6 +287,13 @@ False
 restat
 =
 False
+rspfile
+=
+None
+             
+rspfile_content
+=
+None
 )
 :
         
@@ -387,6 +394,40 @@ indent
 =
 1
 )
+        
+if
+rspfile
+:
+            
+self
+.
+variable
+(
+'
+rspfile
+'
+rspfile
+indent
+=
+1
+)
+        
+if
+rspfile_content
+:
+            
+self
+.
+variable
+(
+'
+rspfile_content
+'
+rspfile_content
+indent
+=
+1
+)
     
 def
 build
@@ -433,18 +474,24 @@ inputs
         
 out_outputs
 =
+list
+(
 map
 (
 escape_spaces
 outputs
 )
+)
         
 all_inputs
 =
+list
+(
 map
 (
 escape_spaces
 all_inputs
+)
 )
         
 if
@@ -554,11 +601,37 @@ if
 variables
 :
             
+if
+isinstance
+(
+variables
+dict
+)
+:
+                
+iterator
+=
+variables
+.
+iteritems
+(
+)
+            
+else
+:
+                
+iterator
+=
+iter
+(
+variables
+)
+            
 for
 key
 val
 in
-variables
+iterator
 :
                 
 self
@@ -758,6 +831,11 @@ leading_space
 indent
         
 while
+len
+(
+leading_space
+)
++
 len
 (
 text

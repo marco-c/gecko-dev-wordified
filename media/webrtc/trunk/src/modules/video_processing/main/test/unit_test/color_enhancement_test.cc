@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -369,6 +369,8 @@ t1
 -
 t0
 ;
+if
+(
 fwrite
 (
 _videoFrame
@@ -380,7 +382,14 @@ Buffer
 _frameLength
 modFile
 )
+!
+=
+_frameLength
+)
+{
+return
 ;
+}
 }
 ASSERT_NE
 (

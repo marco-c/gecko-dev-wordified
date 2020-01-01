@@ -3,7 +3,7 @@ Copyright
 (
 c
 )
-2011
+2012
 Google
 Inc
 .
@@ -49,6 +49,8 @@ writer
 "
 "
 import
+gyp
+.
 common
 import
 gyp

@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -109,6 +109,9 @@ typedefs
 .
 h
 "
+/
+/
+NOLINT
 #
 include
 "
@@ -139,7 +142,7 @@ char
 *
 file_nameUTF8
 VideoFrame
-&
+*
 video_frame
 )
 ;
@@ -154,7 +157,7 @@ ViEPicture
 &
 picture
 VideoFrame
-&
+*
 video_frame
 )
 ;

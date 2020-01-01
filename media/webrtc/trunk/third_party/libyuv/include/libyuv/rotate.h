@@ -2,18 +2,15 @@
 *
 *
 Copyright
-(
-c
-)
 2011
 The
 LibYuv
-project
-authors
+Project
+Authors
 .
 All
-Rights
-Reserved
+rights
+reserved
 .
 *
 *
@@ -88,6 +85,9 @@ tree
 #
 ifndef
 INCLUDE_LIBYUV_ROTATE_H_
+/
+/
+NOLINT
 #
 define
 INCLUDE_LIBYUV_ROTATE_H_
@@ -117,6 +117,7 @@ endif
 /
 Supported
 rotation
+.
 enum
 RotationMode
 {
@@ -127,6 +128,7 @@ kRotate0
 /
 No
 rotation
+.
 kRotate90
 =
 90
@@ -136,6 +138,7 @@ Rotate
 90
 degrees
 clockwise
+.
 kRotate180
 =
 180
@@ -144,6 +147,7 @@ kRotate180
 Rotate
 180
 degrees
+.
 kRotate270
 =
 270
@@ -153,9 +157,11 @@ Rotate
 270
 degrees
 clockwise
+.
 /
 /
 Deprecated
+.
 kRotateNone
 =
 0
@@ -209,9 +215,9 @@ dst_v
 int
 dst_stride_v
 int
-width
+src_width
 int
-height
+src_height
 RotationMode
 mode
 )
@@ -256,9 +262,9 @@ dst_v
 int
 dst_stride_v
 int
-width
+src_width
 int
-height
+src_height
 RotationMode
 mode
 )
@@ -285,3 +291,4 @@ endif
 /
 /
 INCLUDE_LIBYUV_ROTATE_H_
+NOLINT

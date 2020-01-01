@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -406,9 +406,6 @@ _packetLoss
 ;
 bool
 _useFECTestWithPacketLoss
-;
-WebRtc_Word16
-_chID
 ;
 WebRtc_UWord64
 _beginTime

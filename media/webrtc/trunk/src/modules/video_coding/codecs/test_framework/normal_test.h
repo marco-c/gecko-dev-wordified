@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -102,7 +102,7 @@ class
 NormalTest
 :
 public
-Test
+CodecTest
 {
 public
 :

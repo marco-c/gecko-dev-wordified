@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -88,6 +88,8 @@ tree
 #
 include
 "
+video_engine
+/
 vie_ref_count
 .
 h
@@ -95,6 +97,10 @@ h
 #
 include
 "
+system_wrappers
+/
+interface
+/
 critical_section_wrapper
 .
 h
@@ -145,6 +151,9 @@ operator
 int
 )
 {
+/
+/
+NOLINT
 CriticalSectionScoped
 lock
 (
@@ -176,6 +185,9 @@ operator
 int
 )
 {
+/
+/
+NOLINT
 CriticalSectionScoped
 lock
 (

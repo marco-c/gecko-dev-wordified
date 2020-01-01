@@ -12,7 +12,7 @@ Copyright
 (
 c
 )
-2011
+2012
 Google
 Inc
 .
@@ -57,8 +57,6 @@ works
 "
 import
 TestGyp
-import
-os
 import
 re
 import
@@ -243,9 +241,6 @@ r
 search
 (
 o
-re
-.
-MULTILINE
 )
     
 n

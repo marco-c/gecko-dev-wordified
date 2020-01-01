@@ -128,10 +128,6 @@ CreateCriticalSection
 (
 )
 )
-_window
-(
-window
-)
 _fullscreen
 (
 fullscreen

@@ -688,11 +688,9 @@ do
 /
 it
 .
-EXPECT_TRUE
+EXPECT_LE
 (
 difference
-<
-=
 0
 )
 <

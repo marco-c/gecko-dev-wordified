@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -102,11 +102,11 @@ ViEManagerBase
 {
 friend
 class
-ViEManagerScopedBase
+ViEManagedItemScopedBase
 ;
 friend
 class
-ViEManagedItemScopedBase
+ViEManagerScopedBase
 ;
 friend
 class
@@ -132,6 +132,7 @@ lock
 used
 by
 ViEManagerWriteScoped
+.
 void
 WriteLockManager
 (
@@ -197,7 +198,7 @@ explicit
 ViEManagerWriteScoped
 (
 ViEManagerBase
-&
+*
 vie_manager
 )
 ;
@@ -260,7 +261,7 @@ explicit
 ViEManagedItemScopedBase
 (
 ViEManagerScopedBase
-&
+*
 vie_scoped_manager
 )
 ;
@@ -272,7 +273,7 @@ ViEManagedItemScopedBase
 protected
 :
 ViEManagerScopedBase
-&
+*
 vie_scoped_manager_
 ;
 }

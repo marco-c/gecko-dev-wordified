@@ -827,10 +827,6 @@ _videoConfigLength
 _videoStreamName
 (
 )
-_videoStreamNameLength
-(
-0
-)
 _audioConfigParameters
 (
 )
@@ -8576,6 +8572,13 @@ _audioFormatHeader
 wBitsPerSample
 )
 ;
+if
+(
+chunksize
+>
+0x10
+)
+{
 _bytesRead
 +
 =
@@ -8586,6 +8589,7 @@ _audioFormatHeader
 cbSize
 )
 ;
+}
 const
 WebRtc_UWord32
 diffRead

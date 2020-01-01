@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -497,6 +497,8 @@ WebRtc_UWord8
 payloadType
 WebRtc_UWord32
 timeStamp
+int64_t
+capture_time_ms
 const
 WebRtc_UWord8
 *

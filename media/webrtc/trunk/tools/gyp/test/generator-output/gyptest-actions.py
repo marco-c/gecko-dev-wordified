@@ -12,7 +12,7 @@ Copyright
 (
 c
 )
-2009
+2012
 Google
 Inc
 .
@@ -66,7 +66,9 @@ import
 TestGyp
 #
 Ninja
-doesn
+and
+Android
+don
 '
 t
 support
@@ -88,6 +90,10 @@ formats
 '
 !
 ninja
+'
+'
+!
+android
 '
 ]
 )

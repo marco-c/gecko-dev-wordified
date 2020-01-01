@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -115,7 +115,7 @@ h
 #
 include
 "
-atomic32_wrapper
+atomic32
 .
 h
 "
@@ -337,10 +337,10 @@ head
 PSLIST_HEADER
 _pListHead
 ;
-Atomic32Wrapper
+Atomic32
 _createdMemory
 ;
-Atomic32Wrapper
+Atomic32
 _outstandingMemory
 ;
 }

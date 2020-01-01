@@ -3532,9 +3532,6 @@ f
 QOS
 Qos
 ;
-WebRtc_Word32
-result
-;
 DWORD
 BytesRet
 ;
@@ -3983,11 +3980,16 @@ QosDestaddr
 }
 if
 (
+!
 AquireSocket
 (
 )
 )
 {
+return
+false
+;
+}
 /
 /
 To
@@ -4014,6 +4016,7 @@ error
 code
 10022
 .
+WebRtc_Word32
 result
 =
 WSAIoctl
@@ -4040,7 +4043,6 @@ ReleaseSocket
 (
 )
 ;
-}
 if
 (
 result

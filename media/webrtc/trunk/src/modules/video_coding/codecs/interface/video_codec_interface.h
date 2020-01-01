@@ -101,11 +101,11 @@ h
 #
 include
 "
-common_video
+modules
 /
 interface
 /
-video_image
+module_common_types
 .
 h
 "
@@ -121,6 +121,17 @@ codecs
 interface
 /
 video_error_codes
+.
+h
+"
+#
+include
+"
+common_video
+/
+interface
+/
+video_image
 .
 h
 "
@@ -592,7 +603,7 @@ WebRtc_Word32
 Encode
 (
 const
-RawImage
+VideoFrame
 &
 inputImage
 const
@@ -1030,6 +1041,7 @@ decodedImage
 The
 decoded
 image
+.
 /
 /
 /
@@ -1048,7 +1060,7 @@ virtual
 WebRtc_Word32
 Decoded
 (
-RawImage
+VideoFrame
 &
 decodedImage
 )

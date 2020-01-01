@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -153,11 +153,12 @@ Use
 the
 Resampler
 class
+.
 Resampler
 _resampler
 ;
 CriticalSectionWrapper
-&
+*
 _resamplerCritSect
 ;
 }

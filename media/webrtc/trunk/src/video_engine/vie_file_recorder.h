@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -111,6 +111,9 @@ typedefs
 .
 h
 "
+/
+/
+NOLINT
 #
 include
 "
@@ -127,9 +130,7 @@ include
 "
 voice_engine
 /
-main
-/
-interface
+include
 /
 voe_file
 .

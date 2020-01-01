@@ -12,7 +12,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 Chromium
 Authors
@@ -197,23 +197,9 @@ is
 read
 -
 only
-the
+a
   
 #
-subprocess
-module
-dup
-(
-)
-s
-it
-in
-the
-child
-process
--
-and
-a
 dup
 (
 )
@@ -221,8 +207,6 @@ ed
 sys
 .
 stdin
-  
-#
 is
 writable
 try
@@ -308,9 +292,23 @@ argv
       
 stderr
 =
+os
+.
+fdopen
+(
+os
+.
+dup
+(
 sys
 .
 stdin
+.
+fileno
+(
+)
+)
+)
 )
 if
 __name__

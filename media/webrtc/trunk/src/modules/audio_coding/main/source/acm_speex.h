@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -269,16 +269,6 @@ mode
 ;
 #
 endif
-WebRtc_Word16
-UnregisterFromNetEqSafe
-(
-ACMNetEQ
-*
-netEq
-WebRtc_Word16
-payloadType
-)
-;
 SPEEX_encinst_t_
 *
 _encoderInstPtr

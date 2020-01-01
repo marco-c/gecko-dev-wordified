@@ -98,6 +98,9 @@ typedefs
 .
 h
 "
+/
+/
+NOLINT
 #
 include
 "
@@ -414,6 +417,7 @@ wait
 ;
 protected
 :
+explicit
 ViECodecImpl
 (
 ViESharedData

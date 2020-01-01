@@ -345,6 +345,11 @@ ViECustomCall
 (
 )
 ;
+int
+ViERecordCall
+(
+)
+;
 /
 /
 All

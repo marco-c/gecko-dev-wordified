@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -98,6 +98,9 @@ typedefs
 .
 h
 "
+/
+/
+NOLINT
 #
 include
 "
@@ -168,6 +171,7 @@ video_channel
 ;
 protected
 :
+explicit
 ViEEncryptionImpl
 (
 ViESharedData

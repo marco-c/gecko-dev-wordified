@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -735,6 +735,11 @@ XSync
 (
 display
 false
+)
+;
+XCloseDisplay
+(
+display
 )
 ;
 return

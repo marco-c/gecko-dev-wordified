@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -235,16 +235,6 @@ InternalDestructEncoderInst
 void
 *
 ptrInst
-)
-;
-WebRtc_Word16
-UnregisterFromNetEqSafe
-(
-ACMNetEQ
-*
-netEq
-WebRtc_Word16
-payloadType
 )
 ;
 iLBC_encinst_t_

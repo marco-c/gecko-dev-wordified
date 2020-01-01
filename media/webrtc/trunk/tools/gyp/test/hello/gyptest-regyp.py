@@ -12,7 +12,7 @@ Copyright
 (
 c
 )
-2009
+2012
 Google
 Inc
 .
@@ -81,7 +81,9 @@ supported
 by
 the
 make
-generator
+and
+Android
+generators
 .
 test
 =
@@ -94,6 +96,9 @@ formats
 [
 '
 make
+'
+'
+android
 '
 ]
 )

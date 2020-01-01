@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -111,7 +111,7 @@ libyuv
 /
 include
 /
-libyuv
+webrtc_libyuv
 .
 h
 "

@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -145,12 +145,6 @@ _critSect
 ;
 WebRtc_Word32
 _id
-;
-AudioDeviceModule
-:
-:
-ErrorCode
-_lastError
 ;
 }
 ;

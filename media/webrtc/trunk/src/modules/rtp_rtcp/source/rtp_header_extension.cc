@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -293,8 +293,7 @@ id
 )
 {
 return
--
-1
+0
 ;
 }
 std

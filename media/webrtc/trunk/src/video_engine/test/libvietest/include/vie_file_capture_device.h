@@ -325,10 +325,6 @@ mutex_
 WebRtc_UWord32
 frame_length_
 ;
-WebRtc_UWord8
-*
-frame_buffer_
-;
 WebRtc_UWord32
 width_
 ;

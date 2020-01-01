@@ -4,7 +4,7 @@ Copyright
 (
 c
 )
-2011
+2012
 Google
 Inc
 .
@@ -63,6 +63,10 @@ char
 argv
 )
 {
+FILE
+*
+f
+;
 if
 (
 argc
@@ -72,8 +76,6 @@ argc
 return
 1
 ;
-FILE
-*
 f
 =
 fopen

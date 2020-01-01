@@ -12,7 +12,7 @@ Copyright
 (
 c
 )
-2009
+2012
 Google
 Inc
 .
@@ -157,8 +157,12 @@ replace
 '
 \
 r
+\
+n
 '
 '
+\
+n
 '
 )
 test
@@ -179,14 +183,6 @@ debug
 '
 variables
 '
-'
--
--
-debug
-'
-'
-general
-'
              
 '
 -
@@ -199,6 +195,9 @@ environment
 stdout
 =
 expect
+ignore_line_numbers
+=
+True
 )
 #
 Verify

@@ -127,12 +127,6 @@ TransportCallback
 :
 TransportCallback
 (
-webrtc
-:
-:
-RtpRtcp
-*
-rtp
 TickTimeBase
 *
 clock
@@ -144,13 +138,10 @@ filename
 :
 RTPSendCompleteCallback
 (
-rtp
 clock
 filename
 )
 {
-/
-/
 }
 TransportCallback
 :

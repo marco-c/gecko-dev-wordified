@@ -396,10 +396,15 @@ _codecType
 bool
 _internalSource
 ;
+#
+ifdef
+DEBUG_ENCODER_BIT_STREAM
 FILE
 *
 _bitStreamAfterEncoder
 ;
+#
+endif
 }
 ;
 /

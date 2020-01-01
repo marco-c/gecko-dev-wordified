@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -91,7 +91,11 @@ TODO
 (
 mflodman
 )
-Use
+Remove
+this
+class
+and
+use
 ref
 count
 class
@@ -144,6 +148,9 @@ operator
 int
 )
 ;
+/
+/
+NOLINT
 ViERefCount
 &
 operator
@@ -153,6 +160,9 @@ operator
 int
 )
 ;
+/
+/
+NOLINT
 void
 Reset
 (

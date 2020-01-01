@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -111,7 +111,7 @@ h
 #
 include
 "
-atomic32_wrapper
+atomic32
 .
 h
 "
@@ -455,10 +455,10 @@ _pListHead
 bool
 _init
 ;
-Atomic32Wrapper
+Atomic32
 _size
 ;
-Atomic32Wrapper
+Atomic32
 _inUse
 ;
 }

@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -99,6 +99,12 @@ map
 #
 include
 "
+modules
+/
+rtp_rtcp
+/
+interface
+/
 rtp_rtcp_defines
 .
 h
@@ -121,7 +127,6 @@ RTP_ONE_BYTE_HEADER_EXTENSION
 }
 ;
 enum
-ExtensionLength
 {
 RTP_ONE_BYTE_HEADER_LENGTH_IN_BYTES
 =

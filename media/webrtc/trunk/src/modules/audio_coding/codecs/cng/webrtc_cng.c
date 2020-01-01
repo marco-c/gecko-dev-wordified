@@ -1232,6 +1232,7 @@ WebRtcCngEncInst_t
 ;
 if
 (
+*
 cng_inst
 !
 =
@@ -1320,6 +1321,7 @@ WebRtcCngDecInst_t
 ;
 if
 (
+*
 cng_inst
 !
 =

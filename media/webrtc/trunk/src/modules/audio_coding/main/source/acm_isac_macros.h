@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -150,10 +150,6 @@ ACM_ISAC_GETFRAMELEN
 WebRtcIsac_ReadFrameLen
 #
 define
-ACM_ISAC_VERSION
-WebRtcIsac_version
-#
-define
 ACM_ISAC_GETERRORCODE
 WebRtcIsac_GetErrorCode
 #
@@ -257,10 +253,6 @@ Impl
 define
 ACM_ISAC_GETFRAMELEN
 WebRtcIsacfix_ReadFrameLen
-#
-define
-ACM_ISAC_VERSION
-WebRtcIsacfix_version
 #
 define
 ACM_ISAC_GETERRORCODE

@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -276,16 +276,6 @@ EnableDTX
 WebRtc_Word16
 DisableDTX
 (
-)
-;
-WebRtc_Word16
-UnregisterFromNetEqSafe
-(
-ACMNetEQ
-*
-netEq
-WebRtc_Word16
-payloadType
 )
 ;
 AMR_encinst_t_

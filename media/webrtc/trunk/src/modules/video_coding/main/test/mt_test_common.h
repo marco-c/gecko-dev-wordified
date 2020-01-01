@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -251,12 +251,6 @@ data
 to
 TransportCallback
 (
-webrtc
-:
-:
-RtpRtcp
-*
-rtp
 TickTimeBase
 *
 clock

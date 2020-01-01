@@ -940,6 +940,10 @@ capability
 .
 height
 ;
+_captureDelay
+=
+120
+;
 if
 (
 VideoCaptureRun

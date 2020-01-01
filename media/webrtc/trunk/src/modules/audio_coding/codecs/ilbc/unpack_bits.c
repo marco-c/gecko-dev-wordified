@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -398,6 +398,7 @@ frame
 indicator
 *
 /
+const
 WebRtc_UWord16
 *
 bitstream
@@ -442,6 +443,7 @@ or
 /
 )
 {
+const
 WebRtc_UWord16
 *
 bitstreamPtr

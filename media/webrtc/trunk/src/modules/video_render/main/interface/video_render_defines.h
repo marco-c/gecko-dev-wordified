@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -104,6 +104,10 @@ h
 #
 include
 "
+modules
+/
+interface
+/
 module_common_types
 .
 h

@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -188,7 +188,7 @@ Starts
 interactive
 mode
 .
-bool
+int
 RunInteractiveMode
 (
 )

@@ -12,7 +12,7 @@ Copyright
 (
 c
 )
-2009
+2012
 Google
 Inc
 .
@@ -88,11 +88,11 @@ point
 "
 import
 TestGyp
-import
-errno
 #
 Ninja
-doesn
+and
+Android
+don
 '
 t
 support
@@ -112,6 +112,10 @@ formats
 '
 !
 ninja
+'
+'
+!
+android
 '
 ]
 )

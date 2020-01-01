@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -98,7 +98,7 @@ system_wrappers
 /
 interface
 /
-atomic32_wrapper
+atomic32
 .
 h
 "
@@ -505,7 +505,7 @@ ref_count
 }
 protected
 :
-Atomic32Wrapper
+Atomic32
 ref_count_
 ;
 }

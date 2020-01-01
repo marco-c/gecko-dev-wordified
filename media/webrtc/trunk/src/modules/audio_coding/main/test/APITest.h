@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -609,18 +609,6 @@ _codecCntrA
 ;
 WebRtc_UWord8
 _codecCntrB
-;
-/
-/
-keep
-track
-of
-tests
-WebRtc_UWord8
-_testCntrA
-;
-WebRtc_UWord8
-_testCntrB
 ;
 /
 /

@@ -526,6 +526,10 @@ args
 env
 =
 environ_copy
+                                     
+capture_stderr
+=
+False
 )
 .
 output

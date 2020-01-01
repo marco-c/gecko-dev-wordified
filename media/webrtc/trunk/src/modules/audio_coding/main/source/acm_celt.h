@@ -284,16 +284,6 @@ void
 ptrInst
 )
 ;
-int16_t
-UnregisterFromNetEqSafe
-(
-ACMNetEQ
-*
-netEq
-int16_t
-payloadType
-)
-;
 bool
 IsTrueStereoCodec
 (

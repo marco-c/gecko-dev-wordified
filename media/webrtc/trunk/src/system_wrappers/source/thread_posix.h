@@ -109,6 +109,9 @@ namespace
 webrtc
 {
 class
+CriticalSectionWrapper
+;
+class
 EventWrapper
 ;
 class
@@ -234,6 +237,16 @@ _obj
 /
 internal
 state
+CriticalSectionWrapper
+*
+_crit_state
+;
+/
+/
+Protects
+_alive
+and
+_dead
 bool
 _alive
 ;

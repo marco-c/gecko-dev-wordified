@@ -12,7 +12,7 @@ Copyright
 (
 c
 )
-2009
+2012
 Google
 Inc
 .
@@ -92,7 +92,9 @@ import
 errno
 #
 Ninja
-doesn
+and
+Android
+don
 '
 t
 support
@@ -112,6 +114,10 @@ formats
 '
 !
 ninja
+'
+'
+!
+android
 '
 ]
 )

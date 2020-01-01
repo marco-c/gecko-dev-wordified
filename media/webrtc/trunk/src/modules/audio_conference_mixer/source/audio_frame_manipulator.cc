@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -413,7 +413,7 @@ if
 (
 audioFrame
 .
-_energy
+energy_
 !
 =
 0xffffffff
@@ -424,7 +424,7 @@ return
 }
 audioFrame
 .
-_energy
+energy_
 =
 0
 ;
@@ -439,7 +439,7 @@ position
 <
 audioFrame
 .
-_payloadDataLengthInSamples
+samples_per_channel_
 ;
 position
 +
@@ -460,19 +460,19 @@ overflow
 .
 audioFrame
 .
-_energy
+energy_
 +
 =
 audioFrame
 .
-_payloadData
+data_
 [
 position
 ]
 *
 audioFrame
 .
-_payloadData
+data_
 [
 position
 ]
@@ -494,7 +494,7 @@ rampSize
 =
 audioFrame
 .
-_payloadDataLengthInSamples
+samples_per_channel_
 )
 ;
 for
@@ -515,7 +515,7 @@ i
 {
 audioFrame
 .
-_payloadData
+data_
 [
 i
 ]
@@ -532,7 +532,7 @@ i
 *
 audioFrame
 .
-_payloadData
+data_
 [
 i
 ]
@@ -555,7 +555,7 @@ rampSize
 =
 audioFrame
 .
-_payloadDataLengthInSamples
+samples_per_channel_
 )
 ;
 for
@@ -586,7 +586,7 @@ i
 ;
 audioFrame
 .
-_payloadData
+data_
 [
 i
 ]
@@ -603,7 +603,7 @@ rampPos
 *
 audioFrame
 .
-_payloadData
+data_
 [
 i
 ]
@@ -615,7 +615,7 @@ memset
 &
 audioFrame
 .
-_payloadData
+data_
 [
 rampSize
 ]
@@ -623,7 +623,7 @@ rampSize
 (
 audioFrame
 .
-_payloadDataLengthInSamples
+samples_per_channel_
 -
 rampSize
 )
@@ -632,7 +632,7 @@ sizeof
 (
 audioFrame
 .
-_payloadData
+data_
 [
 0
 ]

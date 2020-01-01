@@ -2534,6 +2534,19 @@ n
 t
 "
     
+if
+os
+.
+environ
+.
+get
+(
+'
+TESTCMD_DEBUG_SKIPS
+'
+)
+:
+        
 at
 =
 _caller
@@ -2545,7 +2558,7 @@ extract_stack
 )
 skip
 )
-    
+        
 sys
 .
 stderr
@@ -2566,6 +2579,23 @@ desc
 sep
 +
 at
+)
+    
+else
+:
+        
+sys
+.
+stderr
+.
+write
+(
+"
+NO
+RESULT
+\
+n
+"
 )
     
 sys

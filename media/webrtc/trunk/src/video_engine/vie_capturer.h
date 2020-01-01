@@ -98,6 +98,9 @@ common_types
 .
 h
 "
+/
+/
+NOLINT
 #
 include
 "
@@ -105,6 +108,9 @@ engine_configurations
 .
 h
 "
+/
+/
+NOLINT
 #
 include
 "
@@ -183,6 +189,9 @@ typedefs
 .
 h
 "
+/
+/
+NOLINT
 #
 include
 "
@@ -264,7 +273,7 @@ capture_id
 int
 engine_id
 VideoCaptureModule
-&
+*
 capture_module
 ProcessThread
 &
@@ -341,11 +350,9 @@ video_frame
 unsigned
 int
 video_frame_length
-unsigned
-short
+uint16_t
 width
-unsigned
-short
+uint16_t
 height
 RawVideoType
 video_type
@@ -357,6 +364,9 @@ capture_time
 0
 )
 ;
+/
+/
+NOLINT
 virtual
 int
 IncomingFrameI420
@@ -373,6 +383,9 @@ capture_time
 0
 )
 ;
+/
+/
+NOLINT
 /
 /
 Use
@@ -515,7 +528,7 @@ WebRtc_Word32
 RegisterObserver
 (
 ViECaptureObserver
-&
+*
 observer
 )
 ;
@@ -573,7 +586,7 @@ WebRtc_Word32
 Init
 (
 VideoCaptureModule
-&
+*
 capture_module
 )
 ;
@@ -735,7 +748,7 @@ WebRtc_Word32
 Encode
 (
 const
-RawImage
+VideoFrame
 &
 input_image
 const
@@ -793,6 +806,18 @@ frame_rate
 Implements
 VCMReceiveCallback
 .
+/
+/
+TODO
+(
+mflodman
+)
+Change
+input
+argument
+to
+pointer
+.
 virtual
 WebRtc_Word32
 FrameToRender
@@ -802,6 +827,9 @@ VideoFrame
 video_frame
 )
 ;
+/
+/
+NOLINT
 /
 /
 Implements
@@ -859,7 +887,7 @@ void
 DeliverI420Frame
 (
 VideoFrame
-&
+*
 video_frame
 )
 ;
@@ -867,7 +895,7 @@ void
 DeliverCodedFrame
 (
 VideoFrame
-&
+*
 video_frame
 )
 ;

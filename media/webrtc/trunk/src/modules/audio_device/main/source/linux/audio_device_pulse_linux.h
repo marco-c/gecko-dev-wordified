@@ -1994,6 +1994,9 @@ _stopPlay
 bool
 _AGC
 ;
+bool
+update_speaker_volume_at_startup_
+;
 private
 :
 WebRtc_UWord16

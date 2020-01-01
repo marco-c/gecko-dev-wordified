@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_COMMONT_AUDIO_VAD_VAD_UNIT_TESTS_H
+WEBRTC_COMMON_AUDIO_VAD_VAD_UNITTEST_H
 #
 define
-WEBRTC_COMMONT_AUDIO_VAD_VAD_UNIT_TESTS_H
+WEBRTC_COMMON_AUDIO_VAD_VAD_UNITTEST_H
 #
 include
 <
@@ -159,7 +159,7 @@ we
 support
 .
 const
-int16_t
+int
 kRates
 [
 ]
@@ -195,13 +195,13 @@ we
 support
 .
 const
-int16_t
+int
 kMaxFrameLength
 =
 960
 ;
 const
-int16_t
+int
 kFrameLengths
 [
 ]
@@ -282,9 +282,9 @@ valid
 bool
 ValidRatesAndFrameLengths
 (
-int16_t
+int
 rate
-int16_t
+int
 frame_length
 )
 ;
@@ -294,4 +294,4 @@ frame_length
 endif
 /
 /
-WEBRTC_COMMONT_AUDIO_VAD_VAD_UNIT_TESTS_H
+WEBRTC_COMMON_AUDIO_VAD_VAD_UNITTEST_H

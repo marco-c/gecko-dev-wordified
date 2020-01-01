@@ -916,10 +916,6 @@ CriticalSectionWrapper
 &
 _critSect
 ;
-void
-*
-_window
-;
 bool
 _fullscreen
 ;

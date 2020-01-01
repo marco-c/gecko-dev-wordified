@@ -146,12 +146,6 @@ _critSect
 WebRtc_Word32
 _id
 ;
-AudioDeviceModule
-:
-:
-ErrorCode
-_lastError
-;
 }
 ;
 }

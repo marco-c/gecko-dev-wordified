@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -492,6 +492,7 @@ bits
 iLBC
 *
 /
+const
 WebRtc_Word16
 *
 block
@@ -3284,6 +3285,7 @@ iLBCenc_inst
 -
 >
 no_of_words
+bytes
 )
 ;
 }
@@ -3296,6 +3298,7 @@ iLBCenc_inst
 -
 >
 no_of_words
+bytes
 )
 ;
 #

@@ -61,8 +61,6 @@ correctly
 import
 TestGyp
 import
-os
-import
 sys
 if
 sys

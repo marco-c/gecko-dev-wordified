@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -970,6 +970,14 @@ kAltRefFrame
 {
 return
 kVideoFrameAltRef
+;
+}
+case
+kSkipFrame
+:
+{
+return
+kFrameEmpty
 ;
 }
 default

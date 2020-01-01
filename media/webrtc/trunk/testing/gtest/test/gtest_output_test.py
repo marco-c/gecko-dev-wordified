@@ -1766,6 +1766,9 @@ env_cmd
 env
 =
 environ
+capture_stderr
+=
+False
 )
   
 return

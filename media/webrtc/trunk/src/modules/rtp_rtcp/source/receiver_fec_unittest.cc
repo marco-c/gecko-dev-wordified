@@ -315,6 +315,7 @@ size
 )
 0
 false
+kFecMaskBursty
 fec_packets
 )
 )
@@ -1693,6 +1694,7 @@ kNumFecPackets
 kNumMediaPackets
 0
 false
+kFecMaskBursty
 &
 fec_packets
 )

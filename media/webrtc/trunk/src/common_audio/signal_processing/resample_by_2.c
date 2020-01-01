@@ -120,7 +120,7 @@ h
 "
 #
 ifdef
-WEBRTC_ARCH_ARM_V7A
+WEBRTC_ARCH_ARM_V7
 /
 /
 allpass
@@ -492,7 +492,7 @@ c
 endif
 /
 /
-WEBRTC_ARCH_ARM_V7A
+WEBRTC_ARCH_ARM_V7
 /
 /
 decimator

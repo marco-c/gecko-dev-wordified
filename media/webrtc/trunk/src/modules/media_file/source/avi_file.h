@@ -878,9 +878,6 @@ _videoStreamName
 STREAM_NAME_LENGTH
 ]
 ;
-WebRtc_Word32
-_videoStreamNameLength
-;
 WebRtc_Word8
 _audioConfigParameters
 [

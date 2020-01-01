@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -131,6 +131,9 @@ typedefs
 .
 h
 "
+/
+/
+NOLINT
 #
 include
 "
@@ -186,7 +189,7 @@ WebRtc_Word32
 RegisterVideoRenderModule
 (
 VideoRender
-&
+*
 render_module
 )
 ;
@@ -194,7 +197,7 @@ WebRtc_Word32
 DeRegisterVideoRenderModule
 (
 VideoRender
-&
+*
 render_module
 )
 ;

@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -214,7 +214,7 @@ class
 UnitTest
 :
 public
-Test
+CodecTest
 {
 public
 :
@@ -368,6 +368,7 @@ char
 *
 _refDecFrame
 ;
+unsigned
 int
 _refEncFrameLength
 ;
@@ -429,14 +430,6 @@ NULL
 _encodedVideoBuffer
 (
 buffer
-)
-_decoderSpecificInfo
-(
-decoderSpecificInfo
-)
-_decoderSpecificSize
-(
-decoderSpecificSize
 )
 _encodeComplete
 (
@@ -505,13 +498,6 @@ TestVideoEncodedBuffer
 *
 _encodedVideoBuffer
 ;
-void
-*
-_decoderSpecificInfo
-;
-WebRtc_UWord32
-_decoderSpecificSize
-;
 bool
 _encodeComplete
 ;
@@ -557,7 +543,7 @@ Decoded
 webrtc
 :
 :
-RawImage
+VideoFrame
 &
 image
 )

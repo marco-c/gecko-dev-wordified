@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -1041,7 +1041,7 @@ assert
 frame
 -
 >
-_audioChannel
+num_channels_
 <
 =
 max_num_channels_
@@ -1052,7 +1052,7 @@ assert
 frame
 -
 >
-_payloadDataLengthInSamples
+samples_per_channel_
 =
 =
 samples_per_channel_
@@ -1063,7 +1063,7 @@ num_channels_
 frame
 -
 >
-_audioChannel
+num_channels_
 ;
 data_was_mixed_
 =
@@ -1086,7 +1086,7 @@ activity_
 frame
 -
 >
-_vadActivity
+vad_activity_
 ;
 is_muted_
 =
@@ -1097,7 +1097,7 @@ if
 frame
 -
 >
-_energy
+energy_
 =
 =
 0
@@ -1135,7 +1135,7 @@ data_
 frame
 -
 >
-_payloadData
+data_
 ;
 return
 ;
@@ -1147,7 +1147,7 @@ interleaved
 frame
 -
 >
-_payloadData
+data_
 ;
 for
 (
@@ -1234,7 +1234,7 @@ assert
 frame
 -
 >
-_audioChannel
+num_channels_
 =
 =
 num_channels_
@@ -1245,7 +1245,7 @@ assert
 frame
 -
 >
-_payloadDataLengthInSamples
+samples_per_channel_
 =
 =
 samples_per_channel_
@@ -1254,7 +1254,7 @@ samples_per_channel_
 frame
 -
 >
-_vadActivity
+vad_activity_
 =
 activity_
 ;
@@ -1285,7 +1285,7 @@ memcpy
 frame
 -
 >
-_payloadData
+data_
 channels_
 [
 0
@@ -1324,7 +1324,7 @@ data_
 frame
 -
 >
-_payloadData
+data_
 )
 ;
 }
@@ -1338,7 +1338,7 @@ interleaved
 frame
 -
 >
-_payloadData
+data_
 ;
 for
 (

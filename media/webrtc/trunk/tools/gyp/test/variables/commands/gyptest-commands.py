@@ -12,7 +12,7 @@ Copyright
 (
 c
 )
-2009
+2012
 Google
 Inc
 .
@@ -121,18 +121,13 @@ debug
 '
 variables
 '
-'
--
--
-debug
-'
-'
-general
-'
              
 stdout
 =
 expect
+ignore_line_numbers
+=
+False
 )
 #
 Verify

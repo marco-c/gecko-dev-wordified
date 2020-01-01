@@ -3,7 +3,7 @@ Copyright
 (
 c
 )
-2009
+2012
 Google
 Inc
 .
@@ -49,8 +49,6 @@ writer
 "
 "
 import
-common
-import
 os
 import
 re
@@ -59,6 +57,10 @@ socket
 #
 for
 gethostname
+import
+gyp
+.
+common
 import
 gyp
 .

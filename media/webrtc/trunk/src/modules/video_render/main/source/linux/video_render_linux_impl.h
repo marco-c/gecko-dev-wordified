@@ -895,9 +895,6 @@ void
 *
 _ptrWindow
 ;
-bool
-_fullscreen
-;
 /
 /
 X11
@@ -905,9 +902,6 @@ Render
 VideoX11Render
 *
 _ptrX11Render
-;
-VideoRenderType
-_renderType
 ;
 }
 ;

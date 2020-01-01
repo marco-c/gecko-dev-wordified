@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -158,7 +158,7 @@ const
 webrtc
 :
 :
-RawImage
+VideoFrame
 &
 decodedImage
 )

@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -636,6 +636,8 @@ runIdx
 0
 )
 {
+if
+(
 fwrite
 (
 _videoFrame
@@ -647,7 +649,14 @@ Buffer
 _frameLength
 noiseFile
 )
+!
+=
+_frameLength
+)
+{
+return
 ;
+}
 }
 t0
 =
@@ -696,6 +705,8 @@ runIdx
 0
 )
 {
+if
+(
 fwrite
 (
 _videoFrame
@@ -707,7 +718,14 @@ Buffer
 _frameLength
 denoiseFile
 )
+!
+=
+_frameLength
+)
+{
+return
 ;
+}
 }
 }
 ASSERT_NE

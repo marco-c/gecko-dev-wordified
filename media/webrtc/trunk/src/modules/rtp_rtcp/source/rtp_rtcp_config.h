@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -243,6 +243,13 @@ MAX_NUMBER_OF_DEPENDENCY_QUALITY_ID
 /
 /
 RFC
+enum
+{
+MAX_NUMBER_OF_REMB_FEEDBACK_SSRCS
+=
+255
+}
+;
 enum
 {
 BW_HISTORY_SIZE

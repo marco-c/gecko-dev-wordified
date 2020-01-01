@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -425,7 +425,7 @@ DeliverFrame
 int
 id
 VideoFrame
-&
+*
 video_frame
 int
 num_csrcs
@@ -456,13 +456,13 @@ int
 GetPreferedFrameSettings
 (
 int
-&
+*
 width
 int
-&
+*
 height
 int
-&
+*
 frame_rate
 )
 ;
@@ -476,9 +476,6 @@ id
 ;
 WebRtc_UWord32
 render_id_
-;
-WebRtc_Word32
-engine_id_
 ;
 VideoRender
 &

@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -87,11 +87,11 @@ tree
 /
 #
 include
-"
+<
 assert
 .
 h
-"
+>
 #
 include
 "
@@ -268,13 +268,12 @@ ViEManagerWriteScoped
 ViEManagerWriteScoped
 (
 ViEManagerBase
-&
+*
 vie_manager
 )
 :
 vie_manager_
 (
-&
 vie_manager
 )
 {
@@ -308,7 +307,7 @@ ViEManagedItemScopedBase
 ViEManagedItemScopedBase
 (
 ViEManagerScopedBase
-&
+*
 vie_scoped_manager
 )
 :
@@ -318,7 +317,8 @@ vie_scoped_manager
 )
 {
 vie_scoped_manager_
-.
+-
+>
 ref_count_
 +
 +
@@ -333,7 +333,8 @@ ViEManagedItemScopedBase
 )
 {
 vie_scoped_manager_
-.
+-
+>
 ref_count_
 -
 -

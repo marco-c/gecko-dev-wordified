@@ -1384,10 +1384,6 @@ _useFECTestWithPacketLoss
 (
 false
 )
-_chID
-(
-chID
-)
 _beginTime
 (
 TickTime

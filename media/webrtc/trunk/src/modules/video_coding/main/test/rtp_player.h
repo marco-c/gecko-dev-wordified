@@ -520,7 +520,7 @@ webrtc
 :
 :
 RtpRtcp
-&
+*
 _rtpModule
 ;
 WebRtc_UWord32

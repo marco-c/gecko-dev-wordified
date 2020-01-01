@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -206,6 +206,7 @@ pl_type
 ;
 protected
 :
+explicit
 ViEExternalCodecImpl
 (
 ViESharedData

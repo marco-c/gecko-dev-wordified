@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -6432,6 +6432,12 @@ probSpeechFinal
 [
 HALF_ANAL_BLOCKL
 ]
+=
+{
+0
+}
+;
+float
 previousEstimateStsa
 [
 HALF_ANAL_BLOCKL

@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2011
+2012
 The
 WebRTC
 project
@@ -253,16 +253,6 @@ IsInternalDTXReplacedSafe
 bool
 *
 internalDTXReplaced
-)
-;
-WebRtc_Word16
-UnregisterFromNetEqSafe
-(
-ACMNetEQ
-*
-netEq
-WebRtc_Word16
-payloadType
 )
 ;
 G729_encinst_t_

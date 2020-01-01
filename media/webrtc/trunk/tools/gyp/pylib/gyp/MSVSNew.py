@@ -3,7 +3,7 @@ Copyright
 (
 c
 )
-2011
+2012
 Google
 Inc
 .
@@ -51,8 +51,6 @@ SCons
 "
 "
 "
-import
-common
 import
 os
 import
@@ -1276,6 +1274,12 @@ self
 fixpath_prefix
 =
 fixpath_prefix
+    
+self
+.
+msbuild_toolset
+=
+None
   
 def
 set_dependencies
@@ -1496,6 +1500,20 @@ return
 self
 .
 guid
+  
+def
+set_msbuild_toolset
+(
+self
+msbuild_toolset
+)
+:
+    
+self
+.
+msbuild_toolset
+=
+msbuild_toolset
 #
 -
 -
@@ -1888,6 +1906,8 @@ Write
 self
 writer
 =
+gyp
+.
 common
 .
 WriteOnDiff
