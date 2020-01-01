@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-_ALGHMACCT_H_
+_HMACCT_H_
 #
 define
-_ALGHMACCT_H_
+_HMACCT_H_
 SEC_BEGIN_PROTOS
 extern
 SECStatus
