@@ -5719,6 +5719,15 @@ clip_region
 ;
 }
 }
+else
+{
+_cairo_win32_surface_set_clip_region
+(
+surface
+NULL
+)
+;
+}
 /
 *
 It
