@@ -1511,8 +1511,6 @@ hdr
 )
 ;
 return
-LL_EQ
-(
 *
 static_cast
 <
@@ -1523,11 +1521,12 @@ PRTime
 (
 key
 )
+=
+=
 entry
 -
 >
 mKey
-)
 ;
 }
 }

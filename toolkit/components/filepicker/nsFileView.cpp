@@ -4066,11 +4066,10 @@ size2
 ;
 if
 (
-LL_EQ
-(
 size1
+=
+=
 size2
-)
 )
 return
 0
@@ -4164,11 +4163,10 @@ time2
 ;
 if
 (
-LL_EQ
-(
 time1
+=
+=
 time2
-)
 )
 return
 0
