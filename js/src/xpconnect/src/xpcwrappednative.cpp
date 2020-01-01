@@ -7053,6 +7053,7 @@ Jsvalify
 jsclazz
 )
 protoJSObject
+false
 parent
 )
 ;
@@ -13113,6 +13114,7 @@ GetScope
 GetPrototypeJSObject
 (
 )
+false
 mFlatJSObject
 )
 ;
@@ -18887,7 +18889,7 @@ NS_OK
 if
 (
 !
-JS_SetPrototype
+JS_SplicePrototype
 (
 ccx
 GetFlatJSObject
@@ -23430,6 +23432,7 @@ xpcproto
 GetJSProtoObject
 (
 )
+false
 parent
 )
 ;

@@ -3341,11 +3341,10 @@ New
 (
 cx
 obj
-obj
--
->
-getProto
+JS_GetPrototype
 (
+cx
+obj
 )
 JS_GetGlobalForObject
 (
