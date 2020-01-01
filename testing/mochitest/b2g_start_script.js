@@ -286,6 +286,11 @@ mozbrowseropenwindow
 openWindow
 )
 ;
+if
+(
+outOfProcess
+)
+{
 let
 specialpowers
 =
@@ -465,6 +470,7 @@ _isFrameScriptLoaded
 =
 true
 ;
+}
 container
 .
 src
