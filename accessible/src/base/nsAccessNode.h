@@ -983,6 +983,7 @@ return
 mContent
 ;
 }
+virtual
 nsIDocument
 *
 GetDocumentNode
