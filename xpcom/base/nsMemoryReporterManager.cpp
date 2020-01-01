@@ -988,11 +988,11 @@ return
 return
 s
 .
-ullTotalPhys
+ullTotalVirtual
 -
 s
 .
-ullAvailPhys
+ullAvailVirtual
 ;
 }
 #
