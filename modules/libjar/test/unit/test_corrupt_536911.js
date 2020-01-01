@@ -160,6 +160,7 @@ is
 *
 Mozilla
 Foundation
+.
 *
 Portions
 created
