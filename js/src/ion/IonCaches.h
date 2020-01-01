@@ -1592,6 +1592,9 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+holder
 const
 Shape
 *
