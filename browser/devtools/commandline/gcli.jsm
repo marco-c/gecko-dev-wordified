@@ -217,6 +217,8 @@ gre
 /
 modules
 /
+devtools
+/
 Require
 .
 jsm
@@ -234,6 +236,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
