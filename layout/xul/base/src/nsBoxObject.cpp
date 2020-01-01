@@ -208,13 +208,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsSupportsPrimitives
 .
 h

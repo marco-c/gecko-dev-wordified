@@ -94,13 +94,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

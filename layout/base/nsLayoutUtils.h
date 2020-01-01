@@ -150,13 +150,6 @@ nsHTMLImageElement
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsChangeHint
 .
 h
