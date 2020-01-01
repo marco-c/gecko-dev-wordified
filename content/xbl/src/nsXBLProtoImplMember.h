@@ -791,10 +791,6 @@ const
 ;
 protected
 :
-friend
-class
-nsAutoGCRoot
-;
 nsXBLProtoImplMember
 *
 mNext
