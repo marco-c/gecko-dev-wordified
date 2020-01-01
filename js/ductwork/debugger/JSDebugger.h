@@ -107,6 +107,15 @@ IJSDebugger
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -115,6 +124,7 @@ jsdebugger
 {
 class
 JSDebugger
+MOZ_FINAL
 :
 public
 IJSDebugger
