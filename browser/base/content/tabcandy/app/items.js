@@ -1217,7 +1217,7 @@ function
 var
 buffer
 =
-2
+10
 ;
 var
 items
@@ -3106,6 +3106,9 @@ item
 ;
 if
 (
+item
+&
+&
 !
 item
 .
