@@ -6019,9 +6019,9 @@ nsIDOMDocument
 aContentDocument
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFrameLoader
+nsFrameLoader
 >
 mFrameLoader
 ;
