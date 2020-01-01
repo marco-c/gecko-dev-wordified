@@ -533,6 +533,13 @@ nsIDialogParamBlock
 .
 h
 "
+#
+include
+"
+nsIAuthPromptProvider
+.
+h
+"
 class
 nsIURI
 ;
@@ -649,6 +656,8 @@ public
 nsITabParent
 public
 nsIWebProgress
+public
+nsIAuthPromptProvider
 {
 public
 :
@@ -1158,6 +1167,7 @@ globalp
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIWEBPROGRESS
+NS_DECL_NSIAUTHPROMPTPROVIDER
 void
 HandleDelayedDialogs
 (
