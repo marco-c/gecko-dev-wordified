@@ -10384,6 +10384,9 @@ aFrameManager
 nsIFrame
 *
 aFrame
+nsIFrame
+*
+aBlockFrame
 PRBool
 *
 aStopLooking
