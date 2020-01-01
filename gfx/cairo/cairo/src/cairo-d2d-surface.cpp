@@ -1554,6 +1554,7 @@ hr
 )
 )
 {
+HRESULT
 hr
 =
 createD3DDevice
@@ -1594,6 +1595,7 @@ fast
 !
 *
 /
+HRESULT
 hr
 =
 createD3DDevice

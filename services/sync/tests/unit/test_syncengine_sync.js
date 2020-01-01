@@ -7016,10 +7016,6 @@ handler
 }
 )
 ;
-do_test_pending
-(
-)
-;
 createAndUploadKeypair
 (
 )
@@ -7325,7 +7321,11 @@ server
 .
 stop
 (
-do_test_finished
+function
+(
+)
+{
+}
 )
 ;
 Svc
