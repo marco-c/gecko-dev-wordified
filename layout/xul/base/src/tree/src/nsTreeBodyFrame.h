@@ -1276,9 +1276,9 @@ nsIFrame
 *
 mColumnsFrame
 ;
-nsIScrollableView
+nsIScrollableFrame
 *
-mColumnsScrollableView
+mColumnsScrollFrame
 ;
 }
 ;
