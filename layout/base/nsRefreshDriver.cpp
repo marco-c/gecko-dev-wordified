@@ -2304,9 +2304,6 @@ mViewManagerFlushIsPending
 =
 false
 ;
-bool
-skippedFlush
-=
 mPresContext
 -
 >
@@ -2323,11 +2320,6 @@ GetViewManager
 ProcessPendingUpdates
 (
 )
-;
-mViewManagerFlushIsPending
-|
-=
-skippedFlush
 ;
 #
 ifdef
