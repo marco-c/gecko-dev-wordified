@@ -660,7 +660,7 @@ libcutils
 endif
 #
 ifdef
-MOZ_SERVICES_CAPTIVEDETECT
+MOZ_CAPTIVEDETECT
 XPCOMUtils
 .
 defineLazyServiceGetter
@@ -674,7 +674,7 @@ mozilla
 .
 org
 /
-services
+toolkit
 /
 captive
 -
