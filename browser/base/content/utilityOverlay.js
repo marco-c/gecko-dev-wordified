@@ -3663,6 +3663,9 @@ tab
 )
 ;
 }
+#
+ifdef
+MOZ_SERVICES_HEALTHREPORT
 /
 *
 *
@@ -3705,6 +3708,8 @@ tab
 )
 ;
 }
+#
+endif
 /
 *
 *
