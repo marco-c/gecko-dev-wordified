@@ -1369,16 +1369,12 @@ nsCOMPtr
 nsIURI
 >
 oldURI
-;
+=
 mStyleSheet
 -
 >
 GetSheetURI
 (
-getter_AddRefs
-(
-oldURI
-)
 )
 ;
 if

@@ -888,16 +888,12 @@ nsCOMPtr
 nsIURI
 >
 uri
-;
+=
 oldSheet
 -
 >
 GetSheetURI
 (
-getter_AddRefs
-(
-uri
-)
 )
 ;
 nsRefPtr
