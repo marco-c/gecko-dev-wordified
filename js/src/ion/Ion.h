@@ -463,8 +463,8 @@ compiled
 /
 Default
 :
-10
-240
+1
+000
 uint32_t
 usesBeforeCompile
 ;
@@ -991,7 +991,7 @@ false
 )
 usesBeforeCompile
 (
-10240
+1000
 )
 usesBeforeCompileNoJaeger
 (
