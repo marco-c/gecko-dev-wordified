@@ -1286,7 +1286,6 @@ JSFrameRegs
 regs
 )
 {
-struct
 JSTraceMonitor
 *
 tm
@@ -1566,6 +1565,7 @@ LOAD_CONTEXT
 (
 p
 )
+\
 tm
 -
 >
@@ -1721,7 +1721,6 @@ JSFrameRegs
 regs
 )
 {
-struct
 JSTraceMonitor
 *
 tm
