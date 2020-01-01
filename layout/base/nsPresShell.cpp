@@ -27543,6 +27543,15 @@ selectorFlags
 !
 =
 0
+&
+&
+!
+aContent
+-
+>
+IsNativeAnonymous
+(
+)
 )
 {
 PRUint32
