@@ -5569,9 +5569,10 @@ return
 JS_TRUE
 ;
 }
+static
 JSObject
 *
-js_CheckScopeChainValidity
+CheckScopeChainValidity
 (
 JSContext
 *
@@ -6780,7 +6781,7 @@ JSObject
 *
 result
 =
-js_CheckScopeChainValidity
+CheckScopeChainValidity
 (
 cx
 scopeobj
