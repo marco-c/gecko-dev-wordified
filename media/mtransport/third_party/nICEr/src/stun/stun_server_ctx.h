@@ -448,6 +448,17 @@ cb_arg
 )
 ;
 int
+nr_stun_server_remove_client
+(
+nr_stun_server_ctx
+*
+ctx
+void
+*
+cb_arg
+)
+;
+int
 nr_stun_server_process_request
 (
 nr_stun_server_ctx
