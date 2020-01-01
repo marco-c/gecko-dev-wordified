@@ -3526,7 +3526,6 @@ nsILocalFile
 >
 localFile
 ;
-nsresult
 rv
 =
 NS_NewLocalFile
