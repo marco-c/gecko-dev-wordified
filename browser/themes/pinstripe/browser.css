@@ -10864,11 +10864,6 @@ appearance
 :
 none
 ;
-color
-:
-#
-fff
-;
 border
 :
 none
@@ -10880,14 +10875,10 @@ color
 transparent
 ;
 margin
--
-top
 :
-0
+1px
 ;
 padding
--
-top
 :
 0
 ;
