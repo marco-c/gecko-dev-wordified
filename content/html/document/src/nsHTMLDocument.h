@@ -1237,17 +1237,6 @@ mEditingState
 ;
 }
 virtual
-void
-DisableCookieAccess
-(
-)
-{
-mDisableCookieAccess
-=
-PR_TRUE
-;
-}
-virtual
 nsIContent
 *
 GetBodyContentExternal
@@ -2183,9 +2172,6 @@ document
 ?
 PRInt32
 mDefaultNamespaceID
-;
-PRBool
-mDisableCookieAccess
 ;
 /
 /
