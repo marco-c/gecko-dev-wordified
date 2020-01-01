@@ -1246,7 +1246,7 @@ false
 onlyBookmarks
 *
 /
-0
+null
 /
 *
 folderRestrict
