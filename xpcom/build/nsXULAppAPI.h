@@ -1157,15 +1157,6 @@ char
 *
 profile
 ;
-/
-*
-*
-*
-*
-/
-PRTime
-startupTimestamp
-;
 }
 ;
 /
