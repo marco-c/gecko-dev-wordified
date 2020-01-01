@@ -62,7 +62,9 @@ sys
 import
 unittest
 from
-tempfile
+mozfile
+.
+mozfile
 import
 NamedTemporaryFile
 from
