@@ -495,8 +495,6 @@ builder
 .
 *
 /
-VanillaBuilder
-=
 function
 VanillaBuilder
 (
