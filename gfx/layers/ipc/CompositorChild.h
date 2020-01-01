@@ -577,15 +577,11 @@ Thread
 *
 mCompositorThread
 ;
-LayerManager
-*
-mLayerManager
-;
 nsRefPtr
 <
-CompositorParent
+LayerManager
 >
-mCompositorParent
+mLayerManager
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
@@ -597,7 +593,7 @@ CompositorChild
 }
 /
 /
-lauers
+layers
 }
 /
 /
