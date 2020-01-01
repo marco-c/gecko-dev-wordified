@@ -12476,11 +12476,14 @@ ARIA
 menu
 and
 fire
+/
+/
 an
 EVENT_MENUPOPUP_START
 if
 it
 did
+.
 nsRoleMapEntry
 *
 roleMapEntry
@@ -12517,7 +12520,7 @@ nsIAccessibleEvent
 :
 EVENT_MENUPOPUP_START
 childNode
-eAllowDupes
+eRemoveDupes
 isAsynch
 )
 ;
