@@ -958,7 +958,7 @@ TestPermissionFromWindow
 (
 aWindow
 "
-mozBluetooth
+bluetooth
 "
 &
 permission
