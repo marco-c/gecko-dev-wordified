@@ -458,13 +458,6 @@ nsGTKToolkit
 .
 h
 "
-#
-include
-"
-nsWidgetAtoms
-.
-h
-"
 /
 /
 /
@@ -1262,13 +1255,6 @@ aThread
 )
 {
 CreateSharedGC
-(
-)
-;
-nsWidgetAtoms
-:
-:
-RegisterAtoms
 (
 )
 ;

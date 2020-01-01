@@ -446,13 +446,6 @@ nsToolkit
 .
 h
 "
-#
-include
-"
-nsWidgetAtoms
-.
-h
-"
 NS_IMPL_ISUPPORTS1
 (
 nsToolkit
@@ -1026,13 +1019,6 @@ the
 current
 thread
 "
-)
-;
-nsWidgetAtoms
-:
-:
-RegisterAtoms
-(
 )
 ;
 return

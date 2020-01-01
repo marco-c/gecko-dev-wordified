@@ -581,7 +581,7 @@ h
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -3602,7 +3602,7 @@ NodeInfo
 >
 Equals
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 richlistitem
@@ -3612,7 +3612,7 @@ return
 CheckBooleanAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 selected
@@ -3622,10 +3622,10 @@ return
 CheckBooleanAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
-mozmenuactive
+menuactive
 )
 ;
 }
@@ -5925,7 +5925,7 @@ GetType
 )
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 menuFrame
@@ -6682,7 +6682,7 @@ isChecked
 CheckBooleanAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
@@ -8319,7 +8319,7 @@ isChecked
 CheckBooleanAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
@@ -13804,7 +13804,7 @@ if
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
@@ -13813,7 +13813,7 @@ disabled
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
@@ -13822,7 +13822,7 @@ checked
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 selected
@@ -13831,7 +13831,7 @@ selected
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 readonly
@@ -13840,7 +13840,7 @@ readonly
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 open
@@ -13849,16 +13849,16 @@ open
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
-mozmenuactive
+menuactive
 |
 |
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 focused
@@ -14471,7 +14471,7 @@ GetType
 )
 !
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 scrollFrame
@@ -17060,7 +17060,7 @@ GetType
 )
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 menuFrame

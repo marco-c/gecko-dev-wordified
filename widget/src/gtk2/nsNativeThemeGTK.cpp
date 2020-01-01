@@ -591,7 +591,7 @@ h
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -1494,12 +1494,12 @@ aWidgetType
 NS_THEME_CHECKBOX_LABEL
 )
 ?
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
 :
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 selected
@@ -1942,7 +1942,7 @@ curpos
 CheckIntAttr
 (
 tmpFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 curpos
@@ -1957,7 +1957,7 @@ maxpos
 CheckIntAttr
 (
 tmpFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 maxpos
@@ -2023,7 +2023,7 @@ curpos
 CheckIntAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 curpos
@@ -2036,7 +2036,7 @@ maxpos
 CheckIntAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 maxpos
@@ -2152,7 +2152,7 @@ if
 CheckBooleanAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 active
@@ -2346,10 +2346,10 @@ inHover
 CheckBooleanAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
-mozmenuactive
+menuactive
 )
 ;
 *
@@ -2413,11 +2413,11 @@ GetContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 _true
@@ -2582,7 +2582,7 @@ aWidgetFlags
 CheckBooleanAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 parentfocused
@@ -7050,7 +7050,7 @@ NS_THEME_SCROLLBAR_BUTTON_RIGHT
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 curpos
@@ -7059,7 +7059,7 @@ curpos
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 maxpos
@@ -7178,7 +7178,7 @@ if
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
@@ -7187,7 +7187,7 @@ disabled
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
@@ -7196,7 +7196,7 @@ checked
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 selected
@@ -7205,7 +7205,7 @@ selected
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 focused
@@ -7214,7 +7214,7 @@ focused
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 readonly
@@ -7223,7 +7223,7 @@ readonly
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 _default
@@ -7232,16 +7232,16 @@ _default
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
-mozmenuactive
+menuactive
 |
 |
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 open
@@ -7250,7 +7250,7 @@ open
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 parentfocused

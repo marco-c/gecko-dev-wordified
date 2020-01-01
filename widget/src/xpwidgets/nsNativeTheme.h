@@ -497,7 +497,7 @@ h
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -693,7 +693,7 @@ return
 CheckBooleanAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 _default
@@ -760,7 +760,7 @@ return
 CheckBooleanAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 focused
@@ -796,7 +796,7 @@ return
 CheckBooleanAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 selected
@@ -914,7 +914,7 @@ return
 CheckBooleanAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
@@ -933,7 +933,7 @@ return
 CheckBooleanAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
@@ -943,7 +943,7 @@ checked
 CheckBooleanAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 selected
@@ -962,7 +962,7 @@ return
 CheckBooleanAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 open
@@ -1063,7 +1063,7 @@ return
 CheckBooleanAttr
 (
 aFrame
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 readonly
