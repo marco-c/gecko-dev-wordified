@@ -3808,6 +3808,16 @@ org
 "
 )
 ;
+user_pref
+(
+"
+marionette
+.
+loadearly
+"
+true
+)
+;
 "
 "
 "
