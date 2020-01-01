@@ -8340,7 +8340,7 @@ mParameters
 mXScale
 0
 .
-00001
+00001f
 )
 |
 |
@@ -8356,7 +8356,7 @@ mParameters
 mYScale
 0
 .
-00001
+00001f
 )
 |
 |

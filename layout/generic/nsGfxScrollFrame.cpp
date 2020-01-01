@@ -110,6 +110,15 @@ scrollable
 #
 include
 "
+base
+/
+compiler_specific
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -687,7 +696,10 @@ aContext
 )
 mInner
 (
+ALLOW_THIS_IN_INITIALIZER_LIST
+(
 this
+)
 aIsRoot
 )
 {
@@ -6121,7 +6133,10 @@ aIsRoot
 )
 mInner
 (
+ALLOW_THIS_IN_INITIALIZER_LIST
+(
 this
+)
 aIsRoot
 )
 {
@@ -14934,7 +14949,7 @@ positiveTolerance
 =
 0
 .
-5
+5f
 ;
 break
 ;
@@ -14971,7 +14986,7 @@ positiveTolerance
 =
 0
 .
-1
+1f
 ;
 break
 ;
@@ -15006,7 +15021,7 @@ negativeTolerance
 =
 0
 .
-05
+05f
 ;
 positiveTolerance
 =
