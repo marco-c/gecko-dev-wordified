@@ -15258,7 +15258,7 @@ if
 found
 )
 {
-MarkImplicitPropertyFound
+MarkNonNativePropertyFound
 (
 propp
 )
