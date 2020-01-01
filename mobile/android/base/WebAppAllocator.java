@@ -156,7 +156,7 @@ static
 int
 MAX_WEB_APPS
 =
-10
+100
 ;
 protected
 static
