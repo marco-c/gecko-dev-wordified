@@ -934,6 +934,7 @@ path
 {
 nsresult
 rv
+rv2
 ;
 nsCOMPtr
 <
@@ -1056,8 +1057,7 @@ GetAsciiHost
 path
 )
 ;
-rv
-|
+rv2
 =
 uri
 -
@@ -1073,6 +1073,12 @@ if
 NS_SUCCEEDED
 (
 rv
+)
+&
+&
+NS_SUCCEEDED
+(
+rv2
 )
 )
 {
@@ -1112,8 +1118,7 @@ GetRequestMethod
 httpMethod
 )
 ;
-rv
-|
+rv2
 =
 uri
 -
@@ -1128,6 +1133,12 @@ if
 NS_SUCCEEDED
 (
 rv
+)
+&
+&
+NS_SUCCEEDED
+(
+rv2
 )
 )
 {
@@ -1953,7 +1964,7 @@ if
 http_channel
 !
 =
-nullptr
+nsnull
 )
 {
 nsIInputStream

@@ -837,7 +837,7 @@ const
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -881,7 +881,7 @@ it
 )
 ;
 nsresult
-rv
+rv1
 =
 it
 -
@@ -890,8 +890,8 @@ Init
 (
 )
 ;
-rv
-|
+nsresult
+rv2
 =
 const_cast
 <
@@ -937,7 +937,13 @@ if
 (
 NS_SUCCEEDED
 (
-rv
+rv1
+)
+&
+&
+NS_SUCCEEDED
+(
+rv2
 )
 )
 {
@@ -951,7 +957,14 @@ aResult
 ;
 }
 return
-rv
+NS_FAILED
+(
+rv1
+)
+?
+rv1
+:
+rv2
 ;
 }
 /
@@ -1649,7 +1662,7 @@ CreateAnonymousContent
 {
 mClone
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -1702,7 +1715,7 @@ IsSVG
 )
 )
 return
-nullptr
+nsnull
 ;
 /
 /
@@ -1855,7 +1868,7 @@ nsGkAtoms
 use
 )
 return
-nullptr
+nsnull
 ;
 /
 /
@@ -1890,7 +1903,7 @@ targetContent
 )
 )
 return
-nullptr
+nsnull
 ;
 /
 /
@@ -1997,7 +2010,7 @@ mOriginal
 mOriginal
 )
 return
-nullptr
+nsnull
 ;
 }
 }
@@ -2030,7 +2043,7 @@ OwnerDoc
 (
 )
 ?
-nullptr
+nsnull
 :
 OwnerDoc
 (
@@ -2073,7 +2086,7 @@ if
 newcontent
 )
 return
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -2116,7 +2129,7 @@ if
 document
 )
 return
-nullptr
+nsnull
 ;
 nsNodeInfoManager
 *
@@ -2135,7 +2148,7 @@ if
 nodeInfoManager
 )
 return
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -2154,7 +2167,7 @@ nsGkAtoms
 :
 :
 svg
-nullptr
+nsnull
 kNameSpaceID_SVG
 nsIDOMNode
 :
@@ -2168,7 +2181,7 @@ if
 nodeInfo
 )
 return
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -2196,7 +2209,7 @@ if
 svgNode
 )
 return
-nullptr
+nsnull
 ;
 /
 /
@@ -2459,7 +2472,7 @@ if
 baseURI
 )
 return
-nullptr
+nsnull
 ;
 newcontent
 -
@@ -3244,7 +3257,7 @@ GetAnimatedLengthValues
 x
 &
 y
-nullptr
+nsnull
 )
 ;
 gfxMatrix

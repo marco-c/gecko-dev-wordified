@@ -1402,7 +1402,7 @@ FirePopupBlockedEvent
 (
 domDoc
 win
-nullptr
+nsnull
 EmptyString
 (
 )
@@ -2534,7 +2534,7 @@ GetPref
 (
 uri
 CPS_PREF_NAME
-nullptr
+nsnull
 getter_AddRefs
 (
 pref
@@ -3151,14 +3151,14 @@ mInputData
 .
 mValue
 =
-nullptr
+nsnull
 ;
 }
 else
 {
 UnbindFromFrame
 (
-nullptr
+nsnull
 )
 ;
 delete
@@ -3170,7 +3170,7 @@ mInputData
 .
 mState
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -3194,7 +3194,7 @@ false
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 NS_ASSERTION
@@ -3310,7 +3310,7 @@ tmp
 >
 mFileList
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -3420,7 +3420,7 @@ const
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -5623,7 +5623,7 @@ aValue
 *
 aValue
 =
-nullptr
+nsnull
 ;
 nsAutoString
 dataListId
@@ -7150,7 +7150,7 @@ GetEditor
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 NS_IMETHODIMP_
@@ -7188,7 +7188,7 @@ GetSelectionController
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 nsFrameSelection
@@ -7223,7 +7223,7 @@ GetConstFrameSelection
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 NS_IMETHODIMP
@@ -7373,7 +7373,7 @@ GetRootNode
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 NS_IMETHODIMP_
@@ -7409,7 +7409,7 @@ state
 CreatePlaceholderNode
 (
 )
-nullptr
+nsnull
 )
 ;
 return
@@ -7422,7 +7422,7 @@ GetPlaceholderNode
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 NS_IMETHODIMP_
@@ -7460,7 +7460,7 @@ GetPlaceholderNode
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 NS_IMETHODIMP_
@@ -8779,7 +8779,7 @@ container
 SetCurrentRadioButton
 (
 name
-nullptr
+nsnull
 )
 ;
 }
@@ -9079,7 +9079,7 @@ IsEmpty
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 if
@@ -9130,7 +9130,7 @@ container
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 nsAutoString
@@ -9296,7 +9296,7 @@ event
 (
 true
 NS_MOUSE_CLICK
-nullptr
+nsnull
 nsMouseEvent
 :
 :
@@ -9958,7 +9958,7 @@ this
 aPresContext
 &
 event
-nullptr
+nsnull
 &
 status
 )
@@ -12421,7 +12421,7 @@ aVisitor
 mEvent
 )
 NS_MOUSE_CLICK
-nullptr
+nsnull
 nsMouseEvent
 :
 :
@@ -12460,7 +12460,7 @@ aVisitor
 mPresContext
 &
 event
-nullptr
+nsnull
 &
 status
 )
@@ -12665,7 +12665,7 @@ aVisitor
 mEvent
 )
 NS_MOUSE_CLICK
-nullptr
+nsnull
 nsMouseEvent
 :
 :
@@ -12694,7 +12694,7 @@ aVisitor
 mPresContext
 &
 event
-nullptr
+nsnull
 &
 status
 )
@@ -13947,7 +13947,7 @@ aNullParent
 GetCurrentDoc
 is
 returning
-nullptr
+nsnull
 so
 we
 can
@@ -15511,7 +15511,7 @@ nsGkAtoms
 type
 }
 {
-nullptr
+nsnull
 }
 }
 ;
@@ -16280,7 +16280,7 @@ aFileList
 *
 aFileList
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -16551,8 +16551,8 @@ textControlFrame
 >
 GetSelectionRange
 (
-nullptr
-nullptr
+nsnull
+nsnull
 &
 dir
 )
@@ -16858,7 +16858,7 @@ nsEventDispatcher
 CreateEvent
 (
 aPresContext
-nullptr
+nsnull
 NS_LITERAL_STRING
 (
 "
@@ -16897,10 +16897,10 @@ nsEventDispatcher
 DispatchDOMEvent
 (
 aTarget
-nullptr
+nsnull
 event
 aPresContext
-nullptr
+nsnull
 )
 ;
 }
@@ -17692,7 +17692,7 @@ aFormSubmission
 AddNameFilePair
 (
 name
-nullptr
+nsnull
 )
 ;
 }
@@ -17985,7 +17985,7 @@ nsPresState
 *
 state
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -18021,8 +18021,8 @@ if
 mDisabledChanged
 )
 {
-rv
-|
+nsresult
+tmp
 =
 GetPrimaryPresState
 (
@@ -18031,6 +18031,19 @@ this
 state
 )
 ;
+if
+(
+NS_FAILED
+(
+tmp
+)
+)
+{
+rv
+=
+tmp
+;
+}
 if
 (
 state
@@ -19390,7 +19403,7 @@ container
 SetCurrentRadioButton
 (
 name
-nullptr
+nsnull
 )
 ;
 }
@@ -21032,8 +21045,8 @@ NS_ConvertUTF16toUTF8
 (
 value
 )
-nullptr
-nullptr
+nsnull
+nsnull
 getter_AddRefs
 (
 uri

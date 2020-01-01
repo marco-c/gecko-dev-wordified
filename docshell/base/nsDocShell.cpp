@@ -2199,7 +2199,7 @@ EmptyCString
 /
 mime
 hint
-nullptr
+nsnull
 /
 /
 extra
@@ -2954,7 +2954,7 @@ stream
 ReadSegments
 (
 NS_DiscardSegment
-nullptr
+nsnull
 count
 &
 result
@@ -3768,7 +3768,7 @@ chan
 AsyncOpen
 (
 listener
-nullptr
+nsnull
 )
 ;
 /
@@ -4406,7 +4406,7 @@ obsvc
 >
 NotifyObservers
 (
-nullptr
+nsnull
 "
 last
 -
@@ -4416,7 +4416,7 @@ context
 -
 exited
 "
-nullptr
+nsnull
 )
 ;
 }
@@ -4621,11 +4621,11 @@ Scrollbar_Auto
 )
 mTreeOwner
 (
-nullptr
+nsnull
 )
 mChromeEventHandler
 (
-nullptr
+nsnull
 )
 mCharsetReloadState
 (
@@ -4816,7 +4816,7 @@ NS_ASSERTION
 sURIFixup
 =
 =
-nullptr
+nsnull
 "
 Huh
 sURIFixup
@@ -4862,7 +4862,7 @@ nsDocShell
 endif
 if
 (
-nullptr
+nsnull
 =
 =
 gDocShellLeakLog
@@ -5001,7 +5001,7 @@ shPrivate
 >
 SetRootDocShell
 (
-nullptr
+nsnull
 )
 ;
 }
@@ -5422,7 +5422,7 @@ shell
 >
 SetTreeOwner
 (
-nullptr
+nsnull
 )
 ;
 }
@@ -5899,7 +5899,7 @@ param
 *
 aSink
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -6152,7 +6152,7 @@ nsIApplicationCacheContainer
 *
 aSink
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -8414,7 +8414,7 @@ if
 mCurrentURI
 =
 =
-nullptr
+nsnull
 )
 {
 /
@@ -8574,7 +8574,7 @@ LOAD_NORMAL_REPLACE
 ;
 shEntry
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -8616,7 +8616,7 @@ history
 .
 shEntry
 =
-nullptr
+nsnull
 ;
 }
 else
@@ -8901,7 +8901,7 @@ LOAD_NORMAL_REPLACE
 ;
 shEntry
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -9556,7 +9556,7 @@ NS_ERROR_DOM_SECURITY_ERR
 }
 owner
 =
-nullptr
+nsnull
 ;
 inheritOwner
 =
@@ -9730,7 +9730,7 @@ target
 get
 (
 )
-nullptr
+nsnull
 /
 /
 No
@@ -9739,18 +9739,18 @@ hint
 postStream
 headersStream
 loadType
-nullptr
+nsnull
 /
 /
 No
 SHEntry
 aFirstParty
-nullptr
+nsnull
 /
 /
 No
 nsIDocShell
-nullptr
+nsnull
 )
 ;
 /
@@ -10884,7 +10884,7 @@ aPresContext
 *
 aPresContext
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -10961,7 +10961,7 @@ aPresContext
 *
 aPresContext
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -11006,7 +11006,7 @@ aPresShell
 *
 aPresShell
 =
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -11073,7 +11073,7 @@ aPresShell
 *
 aPresShell
 =
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -11291,7 +11291,7 @@ https
 SetCurrentURI
 (
 aURI
-nullptr
+nsnull
 true
 0
 )
@@ -11597,7 +11597,7 @@ aCharset
 *
 aCharset
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -12622,7 +12622,7 @@ outEnum
 *
 outEnum
 =
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -13575,7 +13575,7 @@ aStorage
 *
 aStorage
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -14731,7 +14731,7 @@ GetChannel
 }
 }
 return
-nullptr
+nsnull
 ;
 }
 /
@@ -15134,7 +15134,7 @@ nsPresContext
 >
 presContext
 =
-nullptr
+nsnull
 ;
 GetPresContext
 (
@@ -15182,7 +15182,7 @@ mParent
 *
 aParent
 =
-nullptr
+nsnull
 ;
 }
 else
@@ -15561,7 +15561,7 @@ aParent
 *
 aParent
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -15651,7 +15651,7 @@ aParent
 *
 aParent
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -16504,7 +16504,7 @@ result
 *
 _retval
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -16950,7 +16950,7 @@ aOriginalRequestor
 {
 foundItem
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -17079,7 +17079,7 @@ comparing
 /
 /
 against
-nullptr
+nsnull
 serves
 the
 same
@@ -18471,7 +18471,7 @@ aChild
 >
 SetTreeOwner
 (
-nullptr
+nsnull
 )
 ;
 nsresult
@@ -19179,7 +19179,7 @@ aChild
 >
 SetTreeOwner
 (
-nullptr
+nsnull
 )
 ;
 return
@@ -19324,7 +19324,7 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -19781,7 +19781,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -20046,7 +20046,7 @@ null
 *
 aResult
 =
-nullptr
+nsnull
 ;
 return
 rv
@@ -20754,7 +20754,7 @@ aUseGlobalHistory
 {
 mGlobalHistory
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -21023,7 +21023,7 @@ false
 *
 aEntry
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -21338,8 +21338,8 @@ aDisplayErrorDialog
 DisplayLoadError
 (
 NS_ERROR_DOCUMENT_IS_PRINTMODE
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 }
@@ -24297,7 +24297,7 @@ prompter
 >
 Alert
 (
-nullptr
+nsnull
 messageStr
 .
 get
@@ -24558,8 +24558,13 @@ GetSpec
 url
 )
 ;
+NS_ENSURE_SUCCESS
+(
 rv
-|
+rv
+)
+;
+rv
 =
 aURI
 -
@@ -24930,18 +24935,18 @@ return
 InternalLoad
 (
 errorPageURI
-nullptr
-nullptr
+nsnull
+nsnull
 INTERNAL_LOAD_FLAGS_INHERIT_OWNER
-nullptr
-nullptr
-nullptr
-nullptr
+nsnull
+nsnull
+nsnull
+nsnull
 LOAD_ERROR_PAGE
-nullptr
+nsnull
 true
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 }
@@ -25223,7 +25228,7 @@ nsIPrincipal
 *
 principal
 =
-nullptr
+nsnull
 ;
 nsAutoString
 contentTypeHint
@@ -25267,7 +25272,7 @@ inherit
 owner
 from
 document
-nullptr
+nsnull
 /
 /
 No
@@ -25281,13 +25286,13 @@ contentTypeHint
 get
 (
 )
-nullptr
+nsnull
 /
 /
 No
 post
 data
-nullptr
+nsnull
 /
 /
 No
@@ -25298,18 +25303,18 @@ loadType
 /
 Load
 type
-nullptr
+nsnull
 /
 /
 No
 SHEntry
 true
-nullptr
+nsnull
 /
 /
 No
 nsIDocShell
-nullptr
+nsnull
 )
 ;
 /
@@ -25384,17 +25389,17 @@ SetHistoryEntry
 (
 &
 mLSHE
-nullptr
+nsnull
 )
 ;
 }
 mFailedChannel
 =
-nullptr
+nsnull
 ;
 mFailedURI
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -25478,7 +25483,7 @@ mRefreshURIList
 ;
 mRefreshURIList
 =
-nullptr
+nsnull
 ;
 }
 /
@@ -25654,7 +25659,7 @@ aURI
 *
 aURI
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -26367,7 +26372,7 @@ param
 *
 aPageDescriptor
 =
-nullptr
+nsnull
 ;
 nsISHEntry
 *
@@ -26431,7 +26436,7 @@ dest
 >
 SetParent
 (
-nullptr
+nsnull
 )
 ;
 dest
@@ -26871,7 +26876,7 @@ GetAsSupports
 this
 )
 msg
-nullptr
+nsnull
 )
 ;
 }
@@ -26956,7 +26961,7 @@ GetAsSupports
 this
 )
 msg
-nullptr
+nsnull
 )
 ;
 }
@@ -27022,7 +27027,7 @@ pagehide
 .
 mLoadingURI
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -27078,7 +27083,7 @@ mOSHE
 >
 SetEditorData
 (
-nullptr
+nsnull
 )
 ;
 if
@@ -27090,7 +27095,7 @@ mLSHE
 >
 SetEditorData
 (
-nullptr
+nsnull
 )
 ;
 /
@@ -27135,7 +27140,7 @@ mContentListener
 >
 SetParentContentListener
 (
-nullptr
+nsnull
 )
 ;
 /
@@ -27220,11 +27225,11 @@ STOP_ALL
 ;
 mEditorData
 =
-nullptr
+nsnull
 ;
 mTransferableHookData
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -27319,7 +27324,7 @@ mContentViewer
 >
 Close
 (
-nullptr
+nsnull
 )
 ;
 mContentViewer
@@ -27331,7 +27336,7 @@ Destroy
 ;
 mContentViewer
 =
-nullptr
+nsnull
 ;
 }
 nsDocLoader
@@ -27343,11 +27348,11 @@ Destroy
 ;
 mParentWidget
 =
-nullptr
+nsnull
 ;
 mCurrentURI
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -27375,7 +27380,7 @@ DetachFromDocShell
 ;
 mScriptGlobal
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -27443,12 +27448,12 @@ EvictAllContentViewers
 }
 mSessionHistory
 =
-nullptr
+nsnull
 ;
 }
 SetTreeOwner
 (
-nullptr
+nsnull
 )
 ;
 /
@@ -27460,7 +27465,7 @@ ref
 cycle
 mSecurityUI
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -28068,7 +28073,7 @@ else
 *
 parentNativeWindow
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -28439,7 +28444,7 @@ GetPrimaryFrame
 (
 )
 :
-nullptr
+nsnull
 ;
 bool
 isDocShellOffScreen
@@ -30655,7 +30660,7 @@ NS_ENSURE_SUCCESS
 EnsureScriptEnvironment
 (
 )
-nullptr
+nsnull
 )
 ;
 return
@@ -33150,7 +33155,7 @@ getter_AddRefs
 uri
 )
 uriAttrib
-nullptr
+nsnull
 aBaseURI
 )
 ;
@@ -33586,11 +33591,11 @@ mSavedRefreshURIList
 ;
 mRefreshURIList
 =
-nullptr
+nsnull
 ;
 mSavedRefreshURIList
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -34624,7 +34629,7 @@ updateHistory
 )
 SetLayoutHistoryState
 (
-nullptr
+nsnull
 )
 ;
 return
@@ -35313,7 +35318,7 @@ AddToSessionHistory
 (
 uri
 wcwgChannel
-nullptr
+nsnull
 false
 getter_AddRefs
 (
@@ -36287,7 +36292,7 @@ SetHistoryEntry
 (
 &
 mLSHE
-nullptr
+nsnull
 )
 ;
 }
@@ -36496,7 +36501,7 @@ it
 anymore
 mTiming
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -36957,7 +36962,7 @@ SetHistoryEntry
 (
 &
 mLSHE
-nullptr
+nsnull
 )
 ;
 }
@@ -37177,7 +37182,7 @@ DisplayLoadError
 (
 aStatus
 url
-nullptr
+nsnull
 aChannel
 )
 ;
@@ -37877,7 +37882,7 @@ doCreateAlternate
 {
 newURI
 =
-nullptr
+nsnull
 ;
 sURIFixup
 -
@@ -38009,18 +38014,18 @@ LOAD_FLAGS_NONE
 /
 Load
 flags
-nullptr
+nsnull
 /
 /
 Referring
 URI
-nullptr
+nsnull
 /
 /
 Post
 data
 stream
-nullptr
+nsnull
 )
 ;
 /
@@ -38112,7 +38117,7 @@ DisplayLoadError
 (
 aStatus
 url
-nullptr
+nsnull
 aChannel
 )
 ;
@@ -38208,7 +38213,7 @@ DisplayLoadError
 (
 aStatus
 url
-nullptr
+nsnull
 aChannel
 )
 ;
@@ -38280,7 +38285,7 @@ DisplayLoadError
 (
 aStatus
 url
-nullptr
+nsnull
 aChannel
 )
 ;
@@ -38490,7 +38495,7 @@ nsIPrincipal
 *
 principal
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -38942,8 +38947,8 @@ aTryToSaveOldPresentation
 CanSavePresentation
 (
 LOAD_NORMAL
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 if
@@ -38984,7 +38989,7 @@ pagehide
 .
 mLoadingURI
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -39328,7 +39333,7 @@ blankDoc
 GetDocumentURI
 (
 )
-nullptr
+nsnull
 true
 0
 )
@@ -39369,7 +39374,7 @@ SetHistoryEntry
 (
 &
 mOSHE
-nullptr
+nsnull
 )
 ;
 return
@@ -39391,7 +39396,7 @@ return
 CreateAboutBlankContentViewer
 (
 aPrincipal
-nullptr
+nsnull
 )
 ;
 }
@@ -40078,7 +40083,7 @@ forget
 else
 mEditorData
 =
-nullptr
+nsnull
 ;
 }
 #
@@ -40614,7 +40619,7 @@ mLoadGroup
 AddRequest
 (
 channel
-nullptr
+nsnull
 )
 ;
 mIsRestoringDocument
@@ -40804,7 +40809,7 @@ child
 >
 BeginRestore
 (
-nullptr
+nsnull
 false
 )
 ;
@@ -41009,7 +41014,7 @@ mLoadGroup
 RemoveRequest
 (
 channel
-nullptr
+nsnull
 NS_OK
 )
 ;
@@ -41288,7 +41293,7 @@ aSHEntry
 >
 SetContentViewer
 (
-nullptr
+nsnull
 )
 ;
 return
@@ -41700,7 +41705,7 @@ nsIRequest
 *
 request
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -41868,7 +41873,7 @@ pagehide
 .
 mLoadingURI
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -42128,7 +42133,7 @@ false
 }
 mSavedRefreshURIList
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -42233,7 +42238,7 @@ mContentViewer
 >
 SetPreviousViewer
 (
-nullptr
+nsnull
 )
 ;
 previousViewer
@@ -42295,11 +42300,11 @@ nsIView
 *
 rootViewSibling
 =
-nullptr
+nsnull
 *
 rootViewParent
 =
-nullptr
+nsnull
 ;
 nsIntRect
 newBounds
@@ -42458,7 +42463,7 @@ get
 (
 )
 :
-nullptr
+nsnull
 )
 ;
 viewer
@@ -42534,7 +42539,7 @@ does
 .
 mContentViewer
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -42628,7 +42633,7 @@ mLSHE
 >
 SetWindowState
 (
-nullptr
+nsnull
 )
 ;
 bool
@@ -42820,7 +42825,7 @@ the
 /
 SetContentViewer
 (
-nullptr
+nsnull
 )
 call
 below
@@ -42854,7 +42859,7 @@ mLSHE
 >
 SetContentViewer
 (
-nullptr
+nsnull
 )
 ;
 mEODForCurrentDocument
@@ -43053,7 +43058,7 @@ reloaded
 .
 SetLayoutHistoryState
 (
-nullptr
+nsnull
 )
 ;
 /
@@ -43732,7 +43737,7 @@ childShell
 >
 BeginRestore
 (
-nullptr
+nsnull
 false
 )
 ;
@@ -43773,7 +43778,7 @@ GetViewManager
 (
 )
 :
-nullptr
+nsnull
 ;
 nsIView
 *
@@ -43788,7 +43793,7 @@ GetRootView
 (
 )
 :
-nullptr
+nsnull
 ;
 /
 /
@@ -43926,7 +43931,7 @@ parent
 child
 /
 /
-nullptr
+nsnull
 false
 )
 in
@@ -44442,11 +44447,11 @@ rootViewSibling
 =
 rootViewParent
 =
-nullptr
+nsnull
 ;
 newVM
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -44592,7 +44597,7 @@ aContentHandler
 *
 aContentHandler
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -44875,7 +44880,7 @@ mSavingOldViewer
 ;
 mLoadingURI
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -45125,11 +45130,11 @@ APIs
 ;
 mFailedChannel
 =
-nullptr
+nsnull
 ;
 mFailedURI
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -45154,7 +45159,7 @@ OnNewURI
 (
 failedURI
 failedChannel
-nullptr
+nsnull
 mLoadType
 false
 false
@@ -45471,7 +45476,7 @@ mLoadGroup
 AddRequest
 (
 request
-nullptr
+nsnull
 )
 ;
 if
@@ -45484,7 +45489,7 @@ currentLoadGroup
 RemoveRequest
 (
 request
-nullptr
+nsnull
 NS_BINDING_RETARGETED
 )
 ;
@@ -45531,14 +45536,14 @@ viewer
 nsISupports
 *
 )
-nullptr
+nsnull
 )
 NS_ERROR_FAILURE
 )
 ;
 mSavedRefreshURIList
 =
-nullptr
+nsnull
 ;
 mSavingOldViewer
 =
@@ -45876,7 +45881,7 @@ nsIContentViewerContainer
 (
 this
 )
-nullptr
+nsnull
 aContentHandler
 aViewer
 )
@@ -46613,7 +46618,7 @@ get
 (
 )
 :
-nullptr
+nsnull
 )
 ;
 aNewViewer
@@ -46678,7 +46683,7 @@ SyncPresentationState
 }
 mContentViewer
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -46771,7 +46776,7 @@ bounds
 {
 mContentViewer
 =
-nullptr
+nsnull
 ;
 NS_ERROR
 (
@@ -47922,7 +47927,7 @@ SetAndFetchFaviconForPage
 mNewURI
 aFaviconURI
 false
-nullptr
+nsnull
 )
 ;
 }
@@ -48144,7 +48149,7 @@ mURI
 mReferrer
 mOwner
 mFlags
-nullptr
+nsnull
 mTypeHint
 .
 get
@@ -48155,8 +48160,8 @@ mHeadersData
 mLoadType
 mSHEntry
 mFirstParty
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 }
@@ -48474,7 +48479,7 @@ aDocShell
 *
 aDocShell
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -48485,7 +48490,7 @@ aRequest
 *
 aRequest
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -48850,7 +48855,7 @@ EmptyCString
 /
 mime
 guess
-nullptr
+nsnull
 /
 /
 extra
@@ -49411,7 +49416,7 @@ targetItem
 FindItemWithName
 (
 aWindowTarget
-nullptr
+nsnull
 this
 getter_AddRefs
 (
@@ -49636,7 +49641,7 @@ DocShell
 .
 .
 Pass
-nullptr
+nsnull
 as
 the
 /
@@ -49674,7 +49679,7 @@ aURI
 aReferrer
 owner
 aFlags
-nullptr
+nsnull
 /
 /
 No
@@ -50270,8 +50275,8 @@ rv
 =
 CreateAboutBlankContentViewer
 (
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 if
@@ -50716,7 +50721,7 @@ aSHEntry
 aPostData
 =
 =
-nullptr
+nsnull
 &
 &
 sameExceptHashes
@@ -51202,7 +51207,7 @@ scope
 OnNewURI
 (
 aURI
-nullptr
+nsnull
 owner
 mLoadType
 true
@@ -51618,7 +51623,7 @@ SetHistoryEntry
 (
 &
 mLSHE
-nullptr
+nsnull
 )
 ;
 /
@@ -52321,7 +52326,7 @@ parameter
 /
 Also
 pass
-nullptr
+nsnull
 for
 the
 document
@@ -52347,8 +52352,8 @@ savePresentation
 CanSavePresentation
 (
 aLoadType
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 /
@@ -52848,7 +52853,7 @@ mContentViewer
 >
 SetPreviousViewer
 (
-nullptr
+nsnull
 )
 ;
 prevViewer
@@ -53040,7 +53045,7 @@ DisplayLoadError
 (
 rv
 aURI
-nullptr
+nsnull
 chan
 )
 ;
@@ -53140,7 +53145,7 @@ aConsiderCurrentDocument
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 /
@@ -53189,7 +53194,7 @@ if
 mContentViewer
 )
 return
-nullptr
+nsnull
 ;
 document
 =
@@ -53269,7 +53274,7 @@ docPrincipal
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -53277,7 +53282,7 @@ docPrincipal
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 bool
@@ -53333,7 +53338,7 @@ offlineService
 OfflineAppAllowedForURI
 (
 aURI
-nullptr
+nsnull
 &
 allowed
 )
@@ -53639,8 +53644,8 @@ getter_AddRefs
 channel
 )
 aURI
-nullptr
-nullptr
+nsnull
+nsnull
 static_cast
 <
 nsIInterfaceRequestor
@@ -57014,7 +57019,7 @@ shAvailable
 rootSH
 !
 =
-nullptr
+nsnull
 )
 ;
 /
@@ -58174,7 +58179,7 @@ OnNewURI
 (
 uri
 aChannel
-nullptr
+nsnull
 mLoadType
 aFireOnLocationChange
 aAddToGlobalHistory
@@ -59895,8 +59900,8 @@ rv
 AddToSessionHistory
 (
 newURI
-nullptr
-nullptr
+nsnull
+nsnull
 true
 getter_AddRefs
 (
@@ -60071,7 +60076,7 @@ newSHEntry
 >
 SetPostData
 (
-nullptr
+nsnull
 )
 ;
 /
@@ -60405,7 +60410,7 @@ FireDummyOnLocationChange
 pass
 /
 /
-nullptr
+nsnull
 for
 aRequest
 param
@@ -60466,7 +60471,7 @@ equalURIs
 SetCurrentURI
 (
 newURI
-nullptr
+nsnull
 true
 LOCATION_CHANGE_SAME_DOCUMENT
 )
@@ -61432,7 +61437,7 @@ inputStream
 Post
 data
 stream
-nullptr
+nsnull
 /
 /
 LayoutHistory
@@ -61888,7 +61893,7 @@ aNewEntry
 *
 aNewEntry
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -62241,7 +62246,7 @@ rv
 CreateAboutBlankContentViewer
 (
 prin
-nullptr
+nsnull
 aEntry
 !
 =
@@ -62485,7 +62490,7 @@ security
 critical
 !
 )
-nullptr
+nsnull
 /
 /
 No
@@ -62506,7 +62511,7 @@ postData
 Post
 data
 stream
-nullptr
+nsnull
 /
 /
 No
@@ -62522,12 +62527,12 @@ aEntry
 /
 SHEntry
 true
-nullptr
+nsnull
 /
 /
 No
 nsIDocShell
-nullptr
+nsnull
 )
 ;
 /
@@ -62810,8 +62815,8 @@ bug
 .
 aCallback
 (
-nullptr
-nullptr
+nsnull
+nsnull
 i
 aData
 )
@@ -62823,7 +62828,7 @@ nsDocShell
 *
 childShell
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -63094,7 +63099,7 @@ container
 >
 AddChild
 (
-nullptr
+nsnull
 aEntryIndex
 )
 ;
@@ -63317,7 +63322,7 @@ data
 aCloneID
 aReplaceEntry
 aCloneChildren
-nullptr
+nsnull
 )
 ;
 nsresult
@@ -63805,7 +63810,7 @@ nsISHEntry
 *
 result
 =
-nullptr
+nsnull
 ;
 while
 (
@@ -64597,7 +64602,7 @@ mEditorData
 *
 aEditor
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -64733,7 +64738,7 @@ get
 )
 !
 =
-nullptr
+nsnull
 )
 ;
 }
@@ -66010,7 +66015,7 @@ prompter
 >
 ConfirmEx
 (
-nullptr
+nsnull
 msgString
 .
 get
@@ -66044,9 +66049,9 @@ button0Title
 get
 (
 )
-nullptr
-nullptr
-nullptr
+nsnull
+nsnull
+nsnull
 &
 checkState
 &
@@ -66295,13 +66300,13 @@ getter_AddRefs
 shell
 )
 )
-nullptr
+nsnull
 )
 ;
 NS_ENSURE_TRUE
 (
 shell
-nullptr
+nsnull
 )
 ;
 return
@@ -67923,7 +67928,7 @@ InterfaceRequestorProxy
 {
 mWeakPtr
 =
-nullptr
+nsnull
 ;
 }
 NS_IMPL_THREADSAFE_ISUPPORTS1
@@ -67988,7 +67993,7 @@ aSink
 *
 aSink
 =
-nullptr
+nsnull
 ;
 return
 NS_NOINTERFACE
@@ -69205,7 +69210,7 @@ outController
 *
 outController
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -69936,8 +69941,8 @@ get
 )
 mPostDataStream
 mHeadersDataStream
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 }
@@ -70400,7 +70405,7 @@ aDocShell
 *
 aDocShell
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -70411,7 +70416,7 @@ aRequest
 *
 aRequest
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -71087,7 +71092,7 @@ LOAD_LINK
 /
 Load
 type
-nullptr
+nsnull
 /
 /
 No
@@ -71788,7 +71793,7 @@ aPrintPreview
 *
 aPrintPreview
 =
-nullptr
+nsnull
 ;
 #
 if
@@ -71857,7 +71862,7 @@ rv
 CreateAboutBlankContentViewer
 (
 principal
-nullptr
+nsnull
 )
 ;
 NS_ENSURE_SUCCESS
