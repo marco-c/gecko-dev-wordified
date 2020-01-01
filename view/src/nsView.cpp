@@ -1845,6 +1845,11 @@ DropMouseGrabbing
 )
 ;
 }
+SetForcedRepaint
+(
+true
+)
+;
 if
 (
 nullptr
