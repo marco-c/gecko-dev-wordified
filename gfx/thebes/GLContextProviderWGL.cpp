@@ -3088,6 +3088,15 @@ aFormat
 depth
 )
 ;
+A2
+(
+attrs
+LOCAL_WGL_STENCIL_BITS_ARB
+aFormat
+.
+stencil
+)
+;
 if
 (
 aFormat
