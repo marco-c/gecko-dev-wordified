@@ -6122,11 +6122,7 @@ JS_ASSERT
 (
 cursor
 -
-(
-uint8
-*
-)
-script
+scriptEnd
 )
 <
 0xFF
