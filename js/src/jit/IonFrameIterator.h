@@ -762,7 +762,7 @@ isNative
 const
 ;
 bool
-isOOLNativeGetter
+isOOLNative
 (
 )
 const
