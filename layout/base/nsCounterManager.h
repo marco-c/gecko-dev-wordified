@@ -1663,7 +1663,7 @@ is
 also
 defined
 as
-module
+modulo
 /
 /
 2
@@ -1692,7 +1692,7 @@ conversion
 from
 unsigned
 to
-sign
+signed
 is
 however
 undefined
