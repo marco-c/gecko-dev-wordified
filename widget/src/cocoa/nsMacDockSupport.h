@@ -442,6 +442,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 class
 nsMacDockSupport
 :
@@ -471,6 +478,9 @@ nsCOMPtr
 nsIStandaloneNativeMenu
 >
 mDockMenu
+;
+nsString
+mBadgeText
 ;
 }
 ;
