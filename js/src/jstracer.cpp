@@ -29928,6 +29928,7 @@ vpstop
 =
 vp
 +
+ptrdiff_t
 (
 fp
 -
@@ -29936,7 +29937,10 @@ fun
 -
 >
 nargs
+)
 -
+ptrdiff_t
+(
 fp
 -
 >
