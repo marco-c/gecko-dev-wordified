@@ -2445,17 +2445,6 @@ GetMaxAscent
 ascent
 )
 ;
-PRBool
-isRTL
-=
-vis
--
->
-mDirection
-=
-=
-NS_STYLE_DIRECTION_RTL
-;
 nscoord
 baseline
 =
@@ -2596,7 +2585,6 @@ ascentPixel
 ascentPixel
 NS_STYLE_TEXT_DECORATION_OVERLINE
 NS_STYLE_BORDER_STYLE_SOLID
-isRTL
 )
 ;
 }
@@ -2624,7 +2612,6 @@ ascentPixel
 offsetPixel
 NS_STYLE_TEXT_DECORATION_UNDERLINE
 NS_STYLE_BORDER_STYLE_SOLID
-isRTL
 )
 ;
 }
@@ -2684,7 +2671,6 @@ ascentPixel
 offsetPixel
 NS_STYLE_TEXT_DECORATION_LINE_THROUGH
 NS_STYLE_BORDER_STYLE_SOLID
-isRTL
 )
 ;
 }
