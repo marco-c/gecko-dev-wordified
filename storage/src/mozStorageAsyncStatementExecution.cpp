@@ -2681,6 +2681,7 @@ i
 .
 finalize
 (
+mCallingThread
 )
 ;
 /
