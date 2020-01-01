@@ -503,7 +503,7 @@ fp
 }
 JS_REQUIRES_STACK
 inline
-jsval
+Value
 *
 StackSpace
 :
@@ -658,7 +658,7 @@ ensureSpace
 JSContext
 *
 maybecx
-jsval
+Value
 *
 from
 ptrdiff_t
@@ -823,7 +823,7 @@ getInlineFrame
 JSContext
 *
 cx
-jsval
+Value
 *
 sp
 uintN

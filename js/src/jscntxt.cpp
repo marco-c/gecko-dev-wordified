@@ -892,8 +892,6 @@ isSuspended
 start
 =
 suspendedFrame
-(
-)
 ;
 stop
 =
@@ -1280,7 +1278,7 @@ commitEnd
 *
 sizeof
 (
-jsval
+Value
 )
 ;
 if
@@ -2472,7 +2470,7 @@ fg
 )
 const
 {
-jsval
+Value
 *
 start
 =
@@ -2692,7 +2690,7 @@ JSStackFrame
 fp
 )
 {
-jsval
+Value
 *
 start
 =
@@ -2962,7 +2960,7 @@ arguments
 /
 static
 inline
-jsval
+Value
 *
 InlineDownFrameSP
 (
@@ -2985,7 +2983,7 @@ up
 script
 )
 ;
-jsval
+Value
 *
 sp
 =
@@ -3040,7 +3038,7 @@ sp
 =
 =
 (
-jsval
+Value
 *
 )
 up
@@ -3352,9 +3350,12 @@ cursp
 curcs
 -
 >
-getSuspendedSP
+getSuspendedRegs
 (
 )
+-
+>
+sp
 ;
 JSStackFrame
 *
@@ -3402,9 +3403,12 @@ cursp
 curcs
 -
 >
-getSuspendedSP
+getSuspendedRegs
 (
 )
+-
+>
+sp
 ;
 f
 =

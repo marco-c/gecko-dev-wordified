@@ -2999,7 +2999,6 @@ T
 *
 t
 )
-const
 {
 JS_ASSERT
 (

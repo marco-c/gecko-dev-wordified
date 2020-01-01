@@ -19489,9 +19489,11 @@ regs
 >
 sp
 -
-StackBase
-(
 fp
+-
+>
+base
+(
 )
 )
 )
@@ -19513,9 +19515,11 @@ regs
 >
 sp
 -
-StackBase
-(
 fp
+-
+>
+base
+(
 )
 -
 depth
@@ -33251,7 +33255,7 @@ it
 .
 *
 /
-JSClass
+Class
 *
 clasp
 =

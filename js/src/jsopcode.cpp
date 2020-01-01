@@ -33475,9 +33475,11 @@ jsval
 *
 stackBase
 =
-StackBase
-(
 fp
+-
+>
+base
+(
 )
 ;
 jsval

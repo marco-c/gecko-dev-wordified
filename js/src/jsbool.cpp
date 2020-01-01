@@ -988,7 +988,10 @@ proto
 >
 setPrimitiveThis
 (
-JSVAL_FALSE
+Value
+(
+false
+)
 )
 ;
 return
