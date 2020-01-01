@@ -373,6 +373,8 @@ __APPLE__
 #
 include
 "
+devtools
+/
 sharkctl
 .
 h
