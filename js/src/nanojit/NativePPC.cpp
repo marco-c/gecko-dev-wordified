@@ -1772,6 +1772,12 @@ opcode
 )
 {
 case
+LIR_ldf
+:
+case
+LIR_ldfc
+:
+case
 LIR_ldq
 :
 case
@@ -2376,6 +2382,9 @@ switch
 op
 )
 {
+case
+LIR_stfi
+:
 case
 LIR_stqi
 :
