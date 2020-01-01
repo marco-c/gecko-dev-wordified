@@ -2398,12 +2398,6 @@ mIsUserFont
 =
 true
 ;
-mFamilyName
-=
-aProxyEntry
-.
-mFamilyName
-;
 }
 /
 /
