@@ -1324,10 +1324,6 @@ frontend
 CompileFunctionBody
 *
 /
-FunctionBox
-*
-functionList
-;
 Bindings
 bindings
 ;
@@ -1967,6 +1963,10 @@ generator
 expression
 *
 /
+FunctionBox
+*
+functionList
+;
 private
 :
 TreeContext
