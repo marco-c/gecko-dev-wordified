@@ -467,7 +467,9 @@ h
 #
 include
 "
-prmon
+mozilla
+/
+Monitor
 .
 h
 "
@@ -1824,8 +1826,10 @@ mMonitor
 PRInt32
 mRef
 ;
-PRMonitor
-*
+mozilla
+:
+:
+Monitor
 mMonitor
 ;
 nsCOMPtr

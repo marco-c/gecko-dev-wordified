@@ -462,6 +462,10 @@ nsString
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 define
 XPTI_STRUCT_ARENA_BLOCK_SIZE
@@ -551,7 +555,7 @@ InvalidateInterfaceInfos
 (
 )
 {
-nsAutoMonitor
+MonitorAutoEnter
 lock
 (
 xptiInterfaceInfoManager

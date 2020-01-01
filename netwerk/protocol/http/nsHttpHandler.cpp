@@ -695,13 +695,6 @@ h
 #
 include
 "
-nsAutoLock
-.
-h
-"
-#
-include
-"
 prprf
 .
 h

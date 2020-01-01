@@ -630,6 +630,11 @@ name
 eMutex
 )
 {
+MOZ_COUNT_CTOR
+(
+Mutex
+)
+;
 mLock
 =
 PR_NewLock
@@ -699,6 +704,11 @@ mLock
 mLock
 =
 0
+;
+MOZ_COUNT_DTOR
+(
+Mutex
+)
 ;
 }
 #

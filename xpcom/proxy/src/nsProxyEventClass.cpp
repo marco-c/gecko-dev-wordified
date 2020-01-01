@@ -495,13 +495,6 @@ h
 #
 include
 "
-nsAutoLock
-.
-h
-"
-#
-include
-"
 xptcall
 .
 h

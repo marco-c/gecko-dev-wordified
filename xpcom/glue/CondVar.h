@@ -594,6 +594,11 @@ mLock
 aLock
 )
 {
+MOZ_COUNT_CTOR
+(
+CondVar
+)
+;
 /
 /
 |
@@ -692,6 +697,11 @@ mCvar
 mLock
 =
 0
+;
+MOZ_COUNT_DTOR
+(
+CondVar
+)
 ;
 }
 #

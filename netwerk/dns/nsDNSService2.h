@@ -426,7 +426,9 @@ h
 #
 include
 "
-prlock
+mozilla
+/
+Mutex
 .
 h
 "
@@ -485,8 +487,10 @@ to
 mResolver
 and
 mIPv4OnlyDomains
-PRLock
-*
+mozilla
+:
+:
+Mutex
 mLock
 ;
 /
@@ -545,6 +549,9 @@ mDisableIPv6
 ;
 PRBool
 mDisablePrefetch
+;
+PRBool
+mFirstTime
 ;
 }
 ;

@@ -566,13 +566,6 @@ h
 #
 include
 "
-nsAutoLock
-.
-h
-"
-#
-include
-"
 nsXPCOMCID
 .
 h
@@ -612,6 +605,10 @@ nsMemory
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 *
 *
@@ -2039,7 +2036,7 @@ AddRef
 (
 )
 {
-nsAutoLock
+MutexAutoLock
 lock
 (
 nsProxyObjectManager
@@ -2072,7 +2069,7 @@ Release
 (
 )
 {
-nsAutoLock
+MutexAutoLock
 lock
 (
 nsProxyObjectManager
@@ -2182,7 +2179,7 @@ LockedRemove
 this
 )
 ;
-nsAutoUnlock
+MutexAutoUnlock
 unlock
 (
 pom
@@ -2302,7 +2299,7 @@ manager
 "
 )
 ;
-nsAutoLock
+MutexAutoLock
 lock
 (
 pom
@@ -2452,7 +2449,7 @@ GetInstance
 (
 )
 ;
-nsAutoUnlock
+MutexAutoUnlock
 unlock
 (
 pom
