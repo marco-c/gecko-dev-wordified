@@ -103,14 +103,14 @@ h
 #
 include
 "
-nsAccUtils
+ARIAMap
 .
 h
 "
 #
 include
 "
-nsARIAMap
+nsAccUtils
 .
 h
 "

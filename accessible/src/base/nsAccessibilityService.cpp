@@ -132,6 +132,13 @@ h
 #
 include
 "
+ARIAMap
+.
+h
+"
+#
+include
+"
 DocAccessible
 -
 inl
@@ -212,13 +219,6 @@ h
 include
 "
 nsAccUtils
-.
-h
-"
-#
-include
-"
-nsARIAMap
 .
 h
 "
@@ -881,10 +881,10 @@ defined
 uint8_t
 attrFlags
 =
-nsAccUtils
+aria
 :
 :
-GetAttributeCharacteristics
+AttrCharacteristicsFor
 (
 attrAtom
 )
@@ -6625,7 +6625,7 @@ eTable
 roleMapEntry
 =
 &
-nsARIAMap
+aria
 :
 :
 gEmptyRoleMap
@@ -6654,7 +6654,7 @@ ARIARoleMap
 =
 =
 &
-nsARIAMap
+aria
 :
 :
 gEmptyRoleMap
@@ -6663,7 +6663,7 @@ gEmptyRoleMap
 roleMapEntry
 =
 &
-nsARIAMap
+aria
 :
 :
 gEmptyRoleMap
@@ -6755,7 +6755,7 @@ eList
 roleMapEntry
 =
 &
-nsARIAMap
+aria
 :
 :
 gEmptyRoleMap

@@ -6607,10 +6607,10 @@ event
 uint8_t
 attrFlags
 =
-nsAccUtils
+aria
 :
 :
-GetAttributeCharacteristics
+AttrCharacteristicsFor
 (
 aAttribute
 )

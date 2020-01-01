@@ -128,14 +128,14 @@ h
 #
 include
 "
-nsIPersistentProperties2
+ARIAMap
 .
 h
 "
 #
 include
 "
-nsARIAMap
+nsIPersistentProperties2
 .
 h
 "

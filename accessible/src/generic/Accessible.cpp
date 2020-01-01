@@ -9206,7 +9206,7 @@ because
 of
 limitation
 of
-nsARIAMap
+ARIAMap
 .
 /
 /
@@ -9230,7 +9230,7 @@ support
 extended
 states
 in
-nsARIAMap
+ARIAMap
 e
 .
 g

@@ -119,6 +119,13 @@ h
 #
 include
 "
+ARIAMap
+.
+h
+"
+#
+include
+"
 DocAccessible
 -
 inl
@@ -136,13 +143,6 @@ h
 include
 "
 nsAccUtils
-.
-h
-"
-#
-include
-"
-nsARIAMap
 .
 h
 "

@@ -5773,7 +5773,7 @@ EActionRule
 *
 (
 see
-nsARIAMap
+ARIAMap
 .
 h
 )
