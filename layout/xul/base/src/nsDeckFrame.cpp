@@ -834,7 +834,6 @@ BlockBorderBackgrounds
 )
 )
 ;
-return
 BuildDisplayListForChild
 (
 aBuilder
@@ -842,6 +841,9 @@ box
 aDirtyRect
 set
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
