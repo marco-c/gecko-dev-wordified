@@ -976,7 +976,7 @@ mReadyState
 nsIDOMFileReader
 :
 :
-INITIAL
+EMPTY
 )
 mProgressEventWasDelayed
 (
@@ -1678,7 +1678,7 @@ mReadyState
 nsIDOMFileReader
 :
 :
-INITIAL
+EMPTY
 ;
 return
 NS_OK
