@@ -10002,6 +10002,7 @@ dw
 dh
 )
 )
+{
 rv
 =
 NS_ERROR_DOM_SYNTAX_ERR
