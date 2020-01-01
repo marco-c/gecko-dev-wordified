@@ -19187,6 +19187,7 @@ ok
 js_CloseIterator
 (
 cx
+&
 regs
 .
 sp
@@ -19194,6 +19195,10 @@ sp
 -
 1
 ]
+.
+toObject
+(
+)
 )
 ;
 regs
@@ -44415,6 +44420,7 @@ ok
 js_CloseIterator
 (
 cx
+&
 regs
 .
 sp
@@ -44422,6 +44428,10 @@ sp
 -
 1
 ]
+.
+toObject
+(
+)
 )
 ;
 regs
