@@ -5244,16 +5244,6 @@ return
 JS_TRUE
 ;
 }
-if
-(
-!
-(
-flags
-&
-JSRESOLVE_ASSIGNING
-)
-)
-{
 /
 *
 *
@@ -5343,7 +5333,6 @@ obj
 return
 JS_TRUE
 ;
-}
 }
 return
 JS_TRUE
@@ -8604,6 +8593,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Function
 )
+|
+JSCLASS_FIXED_BINDING
 JS_PropertyStub
 JS_PropertyStub
 fun_getProperty

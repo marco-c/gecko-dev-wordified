@@ -1972,7 +1972,7 @@ endif
 /
 *
 *
-Concatinates
+Concatenates
 base
 and
 name
