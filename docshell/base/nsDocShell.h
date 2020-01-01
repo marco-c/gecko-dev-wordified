@@ -5280,6 +5280,9 @@ mUseGlobalHistory
 bool
 mInPrivateBrowsing
 ;
+bool
+mIsBrowserFrame
+;
 /
 /
 This
