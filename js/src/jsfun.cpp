@@ -14695,7 +14695,9 @@ return
 true
 ;
 }
-static
+namespace
+js
+{
 JSBool
 CallOrConstructBoundFunction
 (
@@ -14709,6 +14711,7 @@ Value
 vp
 )
 ;
+}
 inline
 bool
 JSObject
@@ -15015,6 +15018,9 @@ getSlots
 FUN_CLASS_RESERVED_SLOTS
 ;
 }
+namespace
+js
+{
 /
 *
 ES5
@@ -15040,7 +15046,6 @@ and
 .
 *
 /
-static
 JSBool
 CallOrConstructBoundFunction
 (
@@ -15399,6 +15404,7 @@ rval
 return
 true
 ;
+}
 }
 /
 *
