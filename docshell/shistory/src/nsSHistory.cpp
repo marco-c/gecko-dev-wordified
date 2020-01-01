@@ -448,7 +448,7 @@ PRLogModuleInfo
 *
 gLogModule
 =
-PR_LOG_DEFINE
+PR_NewLogModule
 (
 "
 nsSHistory
