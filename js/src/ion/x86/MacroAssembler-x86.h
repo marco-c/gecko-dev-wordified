@@ -5137,7 +5137,7 @@ magic
 value
 branch32
 (
-NotEqual
+Equal
 val
 .
 payloadReg
