@@ -4905,7 +4905,7 @@ if
 (
 aRequest
 .
-timeout
+async
 )
 {
 this
@@ -4915,7 +4915,7 @@ executeWithCallback
 aRequest
 aRequest
 .
-timeout
+async
 )
 ;
 }
