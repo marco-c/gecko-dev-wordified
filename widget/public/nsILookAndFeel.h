@@ -977,13 +977,6 @@ eColor__moz_comboboxtext
 eColor__moz_combobox
 /
 /
-Entry
-text
-widgets
-eColor__moz_entrytext
-eColor__moz_entry
-/
-/
 keep
 this
 one
