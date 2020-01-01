@@ -787,14 +787,14 @@ call
 /
 MD_EXCEPTION_CODE_LIN_DUMP_REQUESTED
 =
--
-1
+0xFFFFFFFF
 /
 *
 No
 exception
 dump
 requested
+.
 *
 /
 }

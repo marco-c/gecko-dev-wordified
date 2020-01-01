@@ -544,8 +544,10 @@ FileID
 :
 MachoIdentifier
 (
-int
+cpu_type_t
 cpu_type
+cpu_subtype_t
+cpu_subtype
 unsigned
 char
 identifier
@@ -567,6 +569,7 @@ macho
 UUIDCommand
 (
 cpu_type
+cpu_subtype
 identifier
 )
 )
@@ -579,6 +582,7 @@ macho
 MD5
 (
 cpu_type
+cpu_subtype
 identifier
 )
 ;

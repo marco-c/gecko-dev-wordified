@@ -3920,10 +3920,6 @@ result
 =
 =
 KERN_SUCCESS
-?
-true
-:
-false
 ;
 }
 bool

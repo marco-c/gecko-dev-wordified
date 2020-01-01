@@ -326,7 +326,7 @@ crash_server
 :
 crash_server_
 (
-crash_server_
+crash_server
 )
 pid_
 (
