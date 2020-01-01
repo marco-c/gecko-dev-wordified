@@ -774,6 +774,7 @@ header
 )
 )
 ;
+else
 return
 MultiDeclRange
 (

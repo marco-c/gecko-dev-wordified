@@ -657,13 +657,6 @@ h
 #
 include
 "
-jsinferinlines
-.
-h
-"
-#
-include
-"
 jsobjinlines
 .
 h
@@ -682,13 +675,6 @@ h
 using
 namespace
 js
-;
-using
-namespace
-js
-:
-:
-types
 ;
 /
 *

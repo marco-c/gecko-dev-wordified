@@ -805,7 +805,6 @@ mScope
 GetPrototypeJSObject
 (
 )
-true
 parent
 )
 ;
