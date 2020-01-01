@@ -690,9 +690,6 @@ mLoadType
 PRUint32
 mID
 ;
-PRUint32
-mPageIdentifier
-;
 PRInt64
 mDocIdentifier
 ;
