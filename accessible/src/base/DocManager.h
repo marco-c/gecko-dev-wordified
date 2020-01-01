@@ -306,6 +306,11 @@ Remove
 aDocument
 )
 ;
+RemoveListeners
+(
+aDocument
+)
+;
 }
 #
 ifdef
@@ -447,6 +452,8 @@ aLoadEventType
 *
 *
 Add
+/
+remove
 '
 pagehide
 '
@@ -467,6 +474,14 @@ nsIDocument
 aDocument
 bool
 aAddPageShowListener
+)
+;
+void
+RemoveListeners
+(
+nsIDocument
+*
+aDocument
 )
 ;
 /
