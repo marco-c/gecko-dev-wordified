@@ -7780,6 +7780,7 @@ char
 |
 |
 (
+(
 unsigned
 char
 )
@@ -7807,6 +7808,7 @@ unsigned
 char
 )
 0xfe
+)
 )
 *
 charLen
