@@ -30147,10 +30147,6 @@ IsContextStable
 return
 false
 ;
-mContextLostDueToTest
-=
-true
-;
 ForceLoseContext
 (
 )
