@@ -110,7 +110,7 @@ attaching
 and
 detaching
 .
-ContentTabActor
+ContentAppActor
 respects
 the
 actor
@@ -150,7 +150,7 @@ tab
 *
 /
 function
-ContentTabActor
+ContentAppActor
 (
 connection
 browser
@@ -166,7 +166,7 @@ browser
 )
 ;
 }
-ContentTabActor
+ContentAppActor
 .
 prototype
 =
@@ -179,19 +179,19 @@ BrowserTabActor
 prototype
 )
 ;
-ContentTabActor
+ContentAppActor
 .
 prototype
 .
 constructor
 =
-ContentTabActor
+ContentAppActor
 ;
 Object
 .
 defineProperty
 (
-ContentTabActor
+ContentAppActor
 .
 prototype
 "
@@ -225,7 +225,7 @@ Object
 .
 defineProperty
 (
-ContentTabActor
+ContentAppActor
 .
 prototype
 "
@@ -261,7 +261,7 @@ Object
 .
 defineProperty
 (
-ContentTabActor
+ContentAppActor
 .
 prototype
 "
@@ -329,7 +329,7 @@ as
 we
 keep
 the
-ContentTabActor
+ContentAppActor
 /
 /
 alive
@@ -343,7 +343,7 @@ multiple
 debug
 sessions
 .
-ContentTabActor
+ContentAppActor
 .
 prototype
 .
