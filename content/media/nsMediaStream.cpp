@@ -4405,9 +4405,11 @@ return
 mDataReceivedEvent
 =
 new
-nsNonOwningRunnableMethod
+nsRunnableMethod
 <
 nsMediaChannelStream
+void
+false
 >
 (
 this

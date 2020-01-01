@@ -2723,9 +2723,11 @@ event
 mProcessLinkHeaderEvent
 =
 new
-nsNonOwningRunnableMethod
+nsRunnableMethod
 <
 nsContentSink
+void
+false
 >
 (
 this

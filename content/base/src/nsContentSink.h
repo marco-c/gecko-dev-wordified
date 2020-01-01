@@ -2480,9 +2480,11 @@ mPendingSheetCount
 ;
 nsRevocableEventPtr
 <
-nsNonOwningRunnableMethod
+nsRunnableMethod
 <
 nsContentSink
+void
+false
 >
 >
 mProcessLinkHeaderEvent

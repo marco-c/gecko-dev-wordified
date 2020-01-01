@@ -6473,9 +6473,11 @@ mFrameLoaderRunner
 ;
 nsRevocableEventPtr
 <
-nsNonOwningRunnableMethod
+nsRunnableMethod
 <
 nsDocument
+void
+false
 >
 >
 mPendingTitleChangeEvent

@@ -3275,9 +3275,11 @@ processed
 .
 nsRevocableEventPtr
 <
-nsNonOwningRunnableMethod
+nsRunnableMethod
 <
 nsMediaChannelStream
+void
+false
 >
 >
 mDataReceivedEvent
