@@ -36,7 +36,9 @@ retrylimit
 5
 packageName
 =
-None
+'
+fennec
+'
                
 adbPath
 =
@@ -177,15 +179,11 @@ deviceSerial
     
 if
 packageName
-:
-      
-self
-.
-packageName
 =
-packageName
-    
-else
+=
+'
+fennec
+'
 :
       
 if
@@ -234,6 +232,16 @@ mozilla
 .
 fennec_
 '
+    
+elif
+packageName
+:
+      
+self
+.
+packageName
+=
+packageName
     
 #
 verify
@@ -1287,9 +1295,11 @@ name
 try
 :
       
+result
+=
 self
 .
-checkCmdAs
+runCmdAs
 (
 [
 "
@@ -1301,6 +1311,31 @@ mkdir
 name
 ]
 )
+.
+stdout
+.
+read
+(
+)
+      
+if
+'
+read
+-
+only
+file
+system
+'
+in
+result
+.
+lower
+(
+)
+:
+        
+return
+None
       
 self
 .
@@ -4644,31 +4679,42 @@ sdcard
 "
     
 if
-(
-not
 self
 .
 dirExists
 (
 root
 )
-)
 :
       
+testRoot
+=
 root
++
+"
+/
+tests
+"
+      
+if
+self
+.
+mkDir
+(
+testRoot
+)
+:
+        
+return
+testRoot
+    
+testRoot
 =
 "
 /
 data
 /
 local
-"
-    
-testRoot
-=
-root
-+
-"
 /
 tests
 "
