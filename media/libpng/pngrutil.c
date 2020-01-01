@@ -20,10 +20,10 @@ libpng
 .
 5
 .
-14
+15
 [
-January
-24
+March
+28
 2013
 ]
 *
@@ -20128,8 +20128,7 @@ png_const_uint_32p
 )
 sp
 ;
-unsigned
-int
+size_t
 skip
 =
 (
@@ -20328,8 +20327,7 @@ png_const_uint_16p
 )
 sp
 ;
-unsigned
-int
+size_t
 skip
 =
 (
