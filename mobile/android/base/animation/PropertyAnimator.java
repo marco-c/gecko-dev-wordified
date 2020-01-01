@@ -442,6 +442,16 @@ listener
 }
 public
 long
+getDuration
+(
+)
+{
+return
+mDuration
+;
+}
+public
+long
 getRemainingTime
 (
 )
