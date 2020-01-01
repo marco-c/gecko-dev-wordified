@@ -556,7 +556,7 @@ PRUint32
 aLength
 )
 ;
-void
+nsresult
 EncodeBase64
 (
 const
@@ -568,7 +568,7 @@ nsACString
 retval
 )
 ;
-void
+nsresult
 EncodeBase64
 (
 const
