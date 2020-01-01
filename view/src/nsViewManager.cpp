@@ -690,11 +690,6 @@ mPresShell
 nullptr
 ;
 }
-NS_IMPL_ISUPPORTS1
-(
-nsViewManager
-nsViewManager
-)
 /
 /
 We
