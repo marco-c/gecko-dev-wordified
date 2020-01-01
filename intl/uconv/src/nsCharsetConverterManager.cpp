@@ -757,8 +757,8 @@ resource
 /
 /
 gre
-/
-res
+-
+resources
 /
 charsetData
 .
