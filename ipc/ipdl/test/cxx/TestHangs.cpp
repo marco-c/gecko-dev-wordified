@@ -514,7 +514,7 @@ detected
 a
 timeout
 after
-1
+2
 ms
 .
 .
@@ -650,7 +650,7 @@ else
 /
 minimum
 possible
-1
+2
 ms
 .
 We
@@ -674,7 +674,7 @@ as
 possible
 SetReplyTimeoutMs
 (
-1
+2
 )
 ;
 if
