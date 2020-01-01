@@ -1555,12 +1555,14 @@ if
 str
 -
 >
-compartment
+zone
 (
 )
 =
 =
-this
+zone
+(
+)
 )
 return
 true
@@ -1598,7 +1600,7 @@ JS_ASSERT
 str
 -
 >
-compartment
+zone
 (
 )
 =
@@ -1610,6 +1612,11 @@ runtime
 -
 >
 atomsCompartment
+-
+>
+zone
+(
+)
 )
 ;
 return
