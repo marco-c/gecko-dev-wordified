@@ -4508,9 +4508,9 @@ item
 in
 cache
 .
-nsCOMPtr
+nsRefPtr
 <
-nsIAccessibleEvent
+nsAccEvent
 >
 eventDestroy
 =
@@ -4553,9 +4553,9 @@ mTreeView
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIAccessibleEvent
+nsAccEvent
 >
 eventCreate
 =

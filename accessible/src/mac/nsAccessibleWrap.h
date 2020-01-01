@@ -669,7 +669,7 @@ virtual
 nsresult
 FireAccessibleEvent
 (
-nsIAccessibleEvent
+nsAccEvent
 *
 aEvent
 )
@@ -796,7 +796,7 @@ virtual
 nsresult
 FirePlatformEvent
 (
-nsIAccessibleEvent
+nsAccEvent
 *
 aEvent
 )
