@@ -5102,10 +5102,6 @@ matchProp
 matches
 :
 matches
-.
-sort
-(
-)
 }
 ;
 }
