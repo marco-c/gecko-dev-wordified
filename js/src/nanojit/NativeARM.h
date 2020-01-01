@@ -1674,7 +1674,7 @@ nativePageSetup
 ;
 \
 void
-asm_quad_nochk
+asm_immf_nochk
 (
 Register
 int32_t

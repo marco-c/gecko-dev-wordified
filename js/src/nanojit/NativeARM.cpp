@@ -11489,7 +11489,7 @@ underrunProtect
 4
 )
 ;
-asm_quad_nochk
+asm_immf_nochk
 (
 rv
 value
@@ -11773,7 +11773,7 @@ underrunProtect
 4
 )
 ;
-asm_quad_nochk
+asm_immf_nochk
 (
 rv
 value
@@ -11847,9 +11847,9 @@ store64
 }
 /
 /
-stick
+Stick
 a
-quad
+float
 into
 register
 rr
@@ -11879,7 +11879,7 @@ void
 Assembler
 :
 :
-asm_quad_nochk
+asm_immf_nochk
 (
 Register
 rr
@@ -12010,7 +12010,7 @@ void
 Assembler
 :
 :
-asm_quad
+asm_immf
 (
 LInsp
 ins
@@ -12024,7 +12024,7 @@ asm_output
 >
 >
 >
-asm_quad
+asm_immf
 "
 )
 ;
@@ -12080,7 +12080,7 @@ underrunProtect
 4
 )
 ;
-asm_quad_nochk
+asm_immf_nochk
 (
 rr
 ins
@@ -12185,7 +12185,7 @@ asm_output
 <
 <
 <
-asm_quad
+asm_immf
 "
 )
 ;
@@ -21364,7 +21364,7 @@ void
 Assembler
 :
 :
-asm_int
+asm_immi
 (
 LInsp
 ins

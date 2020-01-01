@@ -1633,7 +1633,7 @@ int
 ;
 \
 void
-asm_int
+asm_immi
 (
 Register
 r
@@ -1737,7 +1737,7 @@ r
 ;
 \
 void
-asm_quad
+asm_immf
 (
 Register
 r

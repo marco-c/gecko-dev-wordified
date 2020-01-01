@@ -1164,7 +1164,7 @@ value
 is
 GuardRecord
 *
-asm_int
+asm_immi
 (
 EAX
 int
@@ -2706,7 +2706,7 @@ isconst
 )
 )
 {
-asm_int
+asm_immi
 (
 r
 ins
@@ -2737,12 +2737,12 @@ if
 ins
 -
 >
-isconstq
+isconstf
 (
 )
 )
 {
-asm_quad
+asm_immf
 (
 r
 ins
@@ -8697,7 +8697,7 @@ void
 Assembler
 :
 :
-asm_int
+asm_immi
 (
 LInsp
 ins
@@ -8712,7 +8712,7 @@ ins
 GpRegs
 )
 ;
-asm_int
+asm_immi
 (
 rr
 ins
@@ -8739,7 +8739,7 @@ void
 Assembler
 :
 :
-asm_int
+asm_immi
 (
 Register
 r
@@ -8777,7 +8777,7 @@ void
 Assembler
 :
 :
-asm_quad
+asm_immf
 (
 Register
 r
@@ -8791,7 +8791,7 @@ canClobberCCs
 {
 /
 /
-Quads
+Floats
 require
 non
 -
@@ -8900,7 +8900,7 @@ that
 this
 implies
 that
-quads
+floats
 never
 require
 spill
@@ -9028,7 +9028,7 @@ ensure
 no
 dependency
 stalls
-asm_int
+asm_immi
 (
 tr
 (
@@ -9149,7 +9149,7 @@ void
 Assembler
 :
 :
-asm_quad
+asm_immf
 (
 LInsp
 ins
@@ -9195,7 +9195,7 @@ rr
 FpRegs
 )
 ;
-asm_quad
+asm_immf
 (
 rr
 ins
@@ -9706,7 +9706,7 @@ Rematerialize
 the
 constant
 .
-asm_int
+asm_immi
 (
 r
 ins
