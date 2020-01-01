@@ -1826,6 +1826,8 @@ UpdateSampleRateIfNeeded
 AudioNodeStream
 *
 aStream
+uint32_t
+aChannels
 )
 {
 if
@@ -1921,7 +1923,7 @@ resampler
 =
 Resampler
 (
-mChannels
+aChannels
 )
 ;
 speex_resampler_get_rate
@@ -2079,6 +2081,7 @@ id
 UpdateSampleRateIfNeeded
 (
 aStream
+channels
 )
 ;
 uint32_t
