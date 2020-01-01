@@ -1856,6 +1856,11 @@ if
 this
 .
 parent
+&
+&
+this
+.
+parent
 .
 getActiveTab
 (
