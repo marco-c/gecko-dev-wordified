@@ -35649,9 +35649,6 @@ atom
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsresult
-rv
-;
 JSObject
 *
 scope
@@ -35669,6 +35666,7 @@ if
 compile
 )
 {
+nsresult
 rv
 =
 manager
@@ -35683,6 +35681,12 @@ atom
 did_define
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 }
 else
 if
@@ -35690,8 +35694,6 @@ if
 remove
 )
 {
-rv
-=
 manager
 -
 >
@@ -35703,8 +35705,6 @@ atom
 }
 else
 {
-rv
-=
 manager
 -
 >
@@ -35718,13 +35718,6 @@ atom
 ;
 }
 return
-NS_FAILED
-(
-rv
-)
-?
-rv
-:
 NS_SUCCESS_I_DID_SOMETHING
 ;
 }
