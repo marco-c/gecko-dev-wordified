@@ -2456,7 +2456,7 @@ graphite
 .
 enabled
 "
-false
+true
 )
 ;
 /
