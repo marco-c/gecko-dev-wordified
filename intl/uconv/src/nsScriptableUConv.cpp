@@ -516,13 +516,6 @@ nsComponentManagerUtils
 .
 h
 "
-#
-include
-"
-nsIPlatformCharset
-.
-h
-"
 static
 PRInt32
 gInstanceCount
