@@ -4636,6 +4636,15 @@ aAttrName
 nsGkAtoms
 :
 :
+muted
+|
+|
+aAttrName
+=
+=
+nsGkAtoms
+:
+:
 controls
 )
 )

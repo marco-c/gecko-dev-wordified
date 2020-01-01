@@ -462,13 +462,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsStringAPI
 .
 h

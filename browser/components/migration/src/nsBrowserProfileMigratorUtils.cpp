@@ -554,13 +554,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsXPCOMCID
 .
 h

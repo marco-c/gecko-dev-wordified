@@ -1253,7 +1253,7 @@ env
 =
 obj
 .
-getParent
+internalScopeChain
 (
 )
 ;
@@ -3403,7 +3403,7 @@ size_t
 StackSpace
 :
 :
-committedSize
+sizeOfCommitted
 (
 )
 {
@@ -4551,7 +4551,7 @@ fun
 =
 callee
 .
-getFunctionPrivate
+toFunction
 (
 )
 ;
@@ -4611,7 +4611,7 @@ fp
 initCallFrame
 (
 cx
-callee
+*
 fun
 script
 args
@@ -5138,11 +5138,8 @@ pushBailoutFrame
 JSContext
 *
 cx
-JSObject
-*
-callee
 JSFunction
-*
+&
 fun
 JSScript
 *
@@ -5156,8 +5153,7 @@ uintN
 formalArgs
 =
 fun
--
->
+.
 nargs
 +
 2
@@ -5220,13 +5216,10 @@ fp
 initCallFrame
 (
 cx
-*
-callee
 fun
 script
 fun
--
->
+.
 nargs
 ToFrameFlags
 (

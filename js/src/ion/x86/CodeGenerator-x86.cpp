@@ -3066,10 +3066,11 @@ cmpl
 Operand
 (
 obj
-offsetof
-(
 JSObject
-lastProp
+:
+:
+offsetOfShape
+(
 )
 )
 ImmGCPtr

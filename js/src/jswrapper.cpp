@@ -4655,7 +4655,7 @@ callee
 (
 )
 .
-getFunctionPrivate
+toFunction
 (
 )
 -
@@ -4674,7 +4674,7 @@ callee
 (
 )
 .
-getFunctionPrivate
+toFunction
 (
 )
 -

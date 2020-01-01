@@ -1400,7 +1400,6 @@ it
 .
 *
 /
-const
 Shape
 *
 assignInitialShape

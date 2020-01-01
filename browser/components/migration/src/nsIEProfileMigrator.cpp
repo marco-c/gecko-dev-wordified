@@ -628,13 +628,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIProfileMigrator
 .
 h
@@ -3603,7 +3596,7 @@ nsIEProfileMigrator
 :
 GetSourceProfiles
 (
-nsISupportsArray
+nsIArray
 *
 *
 aResult

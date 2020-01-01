@@ -3931,6 +3931,10 @@ type
 isMatrix
 (
 )
+|
+|
+!
+matrixInMatrix
 )
 {
 if

@@ -2582,10 +2582,11 @@ cmpq
 Operand
 (
 obj
-offsetof
-(
 JSObject
-lastProp
+:
+:
+offsetOfShape
+(
 )
 )
 ScratchReg

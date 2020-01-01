@@ -1226,7 +1226,7 @@ aResult
 {
 nsCOMPtr
 <
-nsISupportsArray
+nsIArray
 >
 profiles
 ;
@@ -1249,7 +1249,7 @@ count
 profiles
 -
 >
-Count
+GetLength
 (
 &
 count
@@ -1286,7 +1286,7 @@ aResult
 {
 nsCOMPtr
 <
-nsISupportsArray
+nsIArray
 >
 profiles
 ;
@@ -1312,7 +1312,7 @@ count
 profiles
 -
 >
-Count
+GetLength
 (
 &
 count
@@ -1344,7 +1344,7 @@ nsOperaProfileMigrator
 :
 GetSourceProfiles
 (
-nsISupportsArray
+nsIArray
 *
 *
 aResult
@@ -1363,7 +1363,7 @@ mProfiles
 =
 do_CreateInstance
 (
-NS_SUPPORTSARRAY_CONTRACTID
+NS_ARRAY_CONTRACTID
 &
 rv
 )
@@ -1579,6 +1579,7 @@ mProfiles
 AppendElement
 (
 string
+false
 )
 ;
 }
@@ -1688,6 +1689,7 @@ mProfiles
 AppendElement
 (
 string
+false
 )
 ;
 }
@@ -1774,6 +1776,7 @@ mProfiles
 AppendElement
 (
 string
+false
 )
 ;
 }
