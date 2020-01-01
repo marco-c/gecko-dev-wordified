@@ -9299,6 +9299,7 @@ Settings
 System
 .
 TEXT_SHOW_PASSWORD
+1
 )
 ;
 return
@@ -9316,7 +9317,7 @@ e
 )
 {
 return
-false
+true
 ;
 }
 }
