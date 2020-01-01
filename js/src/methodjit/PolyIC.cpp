@@ -7239,7 +7239,6 @@ holder
 sprop
 )
 ;
-else
 return
 generateStub
 (
@@ -9376,7 +9375,6 @@ holder
 sprop
 )
 ;
-else
 return
 generateStub
 (
@@ -11495,8 +11493,7 @@ stub
 )
 {
 }
-JSObject
-*
+bool
 disable
 (
 const
@@ -11505,6 +11502,7 @@ char
 reason
 )
 {
+return
 PICStubCompiler
 :
 :
@@ -11513,9 +11511,6 @@ disable
 reason
 stub
 )
-;
-return
-NULL
 ;
 }
 static
