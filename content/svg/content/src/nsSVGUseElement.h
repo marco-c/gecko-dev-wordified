@@ -670,8 +670,6 @@ DidChangeString
 (
 PRUint8
 aAttrEnum
-PRBool
-aDoSetAttr
 )
 ;
 /

@@ -2054,11 +2054,9 @@ nsSVGGradientElement
 mContent
 )
 ;
-const
-nsString
-&
+nsAutoString
 href
-=
+;
 grad
 -
 >
@@ -2072,6 +2070,8 @@ HREF
 .
 GetAnimValue
 (
+href
+grad
 )
 ;
 if

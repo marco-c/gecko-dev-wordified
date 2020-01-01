@@ -681,8 +681,6 @@ DidChangeString
 (
 PRUint8
 aAttrEnum
-PRBool
-aDoSetAttr
 )
 ;
 /
@@ -1548,11 +1546,9 @@ uri
 =
 nsnull
 ;
-const
-nsString
-&
+nsAutoString
 src
-=
+;
 mStringAttributes
 [
 HREF
@@ -1560,6 +1556,8 @@ HREF
 .
 GetAnimValue
 (
+src
+this
 )
 ;
 if
@@ -1732,8 +1730,9 @@ HasScriptContent
 (
 )
 {
-return
-!
+nsAutoString
+str
+;
 mStringAttributes
 [
 HREF
@@ -1741,7 +1740,13 @@ HREF
 .
 GetAnimValue
 (
+str
+this
 )
+;
+return
+!
+str
 .
 IsEmpty
 (
@@ -1841,8 +1846,6 @@ DidChangeString
 (
 PRUint8
 aAttrEnum
-PRBool
-aDoSetAttr
 )
 {
 nsSVGScriptElementBase
@@ -1851,7 +1854,6 @@ nsSVGScriptElementBase
 DidChangeString
 (
 aAttrEnum
-aDoSetAttr
 )
 ;
 if
