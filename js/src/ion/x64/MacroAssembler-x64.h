@@ -6645,13 +6645,11 @@ Label
 fail
 )
 {
-JS_STATIC_ASSERT
-(
-INT64_MIN
-=
+const
+uint64_t
+IndefiniteIntegerValue
 =
 0x8000000000000000
-)
 ;
 JS_ASSERT
 (
@@ -6671,7 +6669,7 @@ movq
 (
 ImmWord
 (
-INT64_MIN
+IndefiniteIntegerValue
 )
 ScratchReg
 )
