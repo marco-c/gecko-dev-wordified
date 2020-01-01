@@ -72,7 +72,7 @@ h
 v
 1
 .
-102
+103
 2013
 /
 01
@@ -80,9 +80,9 @@ v
 31
 22
 :
-47
+59
 :
-08
+44
 kaie
 %
 kuix
@@ -261,12 +261,15 @@ NSS_VERSION
 .
 14
 .
-2
+3
 .
 0
 "
 _NSS_ECC_STRING
 _NSS_CUSTOMIZED
+"
+Beta
+"
 #
 define
 NSS_VMAJOR
@@ -278,7 +281,7 @@ NSS_VMINOR
 #
 define
 NSS_VPATCH
-2
+3
 #
 define
 NSS_VBUILD
@@ -286,7 +289,7 @@ NSS_VBUILD
 #
 define
 NSS_BETA
-PR_FALSE
+PR_TRUE
 #
 ifndef
 RC_INVOKED
