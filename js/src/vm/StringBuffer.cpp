@@ -245,7 +245,7 @@ length
 1
 )
 ;
-JSContext
+ExclusiveContext
 *
 cx
 =
@@ -303,7 +303,7 @@ finishString
 (
 )
 {
-JSContext
+ExclusiveContext
 *
 cx
 =
@@ -463,7 +463,7 @@ finishAtom
 (
 )
 {
-JSContext
+ExclusiveContext
 *
 cx
 =

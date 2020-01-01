@@ -260,7 +260,7 @@ CharBuffer
 CharBuffer
 cb
 ;
-JSContext
+ExclusiveContext
 *
 context
 (
@@ -275,6 +275,11 @@ allocPolicy
 )
 .
 context
+(
+)
+-
+>
+asExclusiveContext
 (
 )
 ;
@@ -304,7 +309,7 @@ public
 explicit
 StringBuffer
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -998,9 +1003,7 @@ ok
 =
 InflateStringToBuffer
 (
-context
-(
-)
+NULL
 cstr
 cstrlen
 begin

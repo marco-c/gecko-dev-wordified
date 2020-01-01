@@ -31239,6 +31239,13 @@ funpc
 .
 init
 (
+m
+.
+parser
+(
+)
+.
+tokenStream
 )
 )
 return

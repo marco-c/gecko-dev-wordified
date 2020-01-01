@@ -524,6 +524,9 @@ ParseHandler
 bool
 GenerateBlockId
 (
+TokenStream
+&
+ts
 ParseContext
 <
 ParseHandler
@@ -549,41 +552,10 @@ JS_BIT
 )
 )
 {
-if
+ts
+.
+reportError
 (
-!
-pc
--
->
-sc
--
->
-context
--
->
-isJSContext
-(
-)
-)
-return
-false
-;
-JS_ReportErrorNumber
-(
-pc
--
->
-sc
--
->
-context
--
->
-asJSContext
-(
-)
-js_GetErrorMessage
-NULL
 JSMSG_NEED_DIET
 "
 program
@@ -624,6 +596,9 @@ template
 bool
 GenerateBlockId
 (
+TokenStream
+&
+ts
 ParseContext
 <
 SyntaxParseHandler
@@ -639,6 +614,9 @@ template
 bool
 GenerateBlockId
 (
+TokenStream
+&
+ts
 ParseContext
 <
 FullParseHandler
@@ -4082,6 +4060,7 @@ globalpc
 .
 init
 (
+tokenStream
 )
 )
 return
@@ -5639,6 +5618,7 @@ funpc
 .
 init
 (
+tokenStream
 )
 )
 return
@@ -14258,6 +14238,7 @@ funpc
 .
 init
 (
+tokenStream
 )
 )
 return
@@ -14444,6 +14425,7 @@ funpc
 .
 init
 (
+tokenStream
 )
 )
 return
@@ -14684,6 +14666,7 @@ funpc
 .
 init
 (
+tokenStream
 )
 )
 return
@@ -14923,6 +14906,7 @@ funpc
 .
 init
 (
+tokenStream
 )
 )
 return
@@ -15746,6 +15730,7 @@ modulepc
 .
 init
 (
+tokenStream
 )
 )
 return
@@ -21762,6 +21747,7 @@ if
 !
 GenerateBlockId
 (
+tokenStream
 pc
 stmt
 -
@@ -22602,6 +22588,9 @@ static
 bool
 PushBlocklikeStatement
 (
+TokenStream
+&
+ts
 StmtInfoPC
 *
 stmt
@@ -22625,6 +22614,7 @@ type
 return
 GenerateBlockId
 (
+ts
 pc
 stmt
 -
@@ -22674,6 +22664,7 @@ if
 !
 PushBlocklikeStatement
 (
+tokenStream
 &
 stmtInfo
 STMT_BLOCK
@@ -28495,6 +28486,7 @@ if
 !
 GenerateBlockId
 (
+tokenStream
 pc
 pc
 -
@@ -31204,6 +31196,7 @@ if
 !
 PushBlocklikeStatement
 (
+tokenStream
 &
 stmtInfo
 STMT_TRY
@@ -31875,6 +31868,7 @@ if
 !
 PushBlocklikeStatement
 (
+tokenStream
 &
 stmtInfo
 STMT_FINALLY
@@ -39221,6 +39215,7 @@ genpc
 .
 init
 (
+tokenStream
 )
 )
 return

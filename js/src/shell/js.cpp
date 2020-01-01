@@ -18679,9 +18679,9 @@ static
 void
 OffThreadCompileScriptCallback
 (
-JSScript
+void
 *
-script
+token
 void
 *
 callbackData
