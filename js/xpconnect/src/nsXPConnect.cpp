@@ -8578,6 +8578,7 @@ SetGlobal
 (
 ccx
 globalJSObj
+nsnull
 )
 ;
 JSObject
