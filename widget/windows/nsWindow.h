@@ -3062,13 +3062,6 @@ Misc
 .
 *
 /
-UINT
-MapFromNativeToDOM
-(
-UINT
-aNativeKeyCode
-)
-;
 void
 StopFlashing
 (
