@@ -569,15 +569,13 @@ Script
 error
 .
 |
-uncaught
-exception
-:
 Permission
 denied
+for
 to
 get
 property
-UnnamedClass
+XPCComponents
 .
 classes
 )
