@@ -5223,9 +5223,6 @@ nsDOMNavigationTiming
 >
 mTiming
 ;
-PRUint32
-mAppId
-;
 private
 :
 nsCOMPtr
