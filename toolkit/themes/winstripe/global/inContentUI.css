@@ -619,8 +619,6 @@ box
 ifdef
 WINSTRIPE_AERO
 media
-all
-and
 (
 -
 moz
@@ -717,8 +715,6 @@ png
 }
 }
 media
-all
-and
 (
 -
 moz
@@ -1221,8 +1217,6 @@ radius
 ifdef
 WINSTRIPE_AERO
 media
-all
-and
 (
 -
 moz

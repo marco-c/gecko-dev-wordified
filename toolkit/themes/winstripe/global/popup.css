@@ -990,8 +990,6 @@ endif
 ifdef
 XP_WIN
 media
-all
-and
 (
 -
 moz

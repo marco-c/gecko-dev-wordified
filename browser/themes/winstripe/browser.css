@@ -1647,8 +1647,6 @@ margin
 ;
 }
 media
-all
-and
 (
 -
 moz
@@ -1675,8 +1673,6 @@ bottom
 ifndef
 WINSTRIPE_AERO
 media
-all
-and
 (
 -
 moz
@@ -3244,8 +3240,6 @@ ThreeDShadow
 ;
 }
 media
-all
-and
 (
 -
 moz
@@ -4310,8 +4304,6 @@ maximized
 ;
 }
 media
-all
-and
 (
 -
 moz
@@ -10289,8 +10281,6 @@ end
 ;
 }
 media
-all
-and
 (
 -
 moz
@@ -14327,8 +14317,6 @@ margin
 ;
 }
 media
-all
-and
 (
 -
 moz
@@ -14840,8 +14828,6 @@ transparent
 ifndef
 WINSTRIPE_AERO
 media
-all
-and
 (
 -
 moz
@@ -15064,8 +15050,6 @@ dialog
 ifndef
 WINSTRIPE_AERO
 media
-all
-and
 (
 -
 moz
@@ -16361,8 +16345,6 @@ buttons
 *
 /
 media
-all
-and
 (
 -
 moz
