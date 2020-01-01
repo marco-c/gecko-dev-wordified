@@ -183,7 +183,7 @@ NS_DECL_NSIPOWERMANAGERSERVICE
 static
 already_AddRefed
 <
-nsIPowerManagerService
+PowerManagerService
 >
 GetInstance
 (
@@ -252,6 +252,9 @@ nsIDOMMozWakeLockListener
 >
 >
 mWakeLockListeners
+;
+int32_t
+mWatchdogTimeoutSecs
 ;
 }
 ;
