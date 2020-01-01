@@ -455,10 +455,10 @@ BLOCK
 /
 #
 ifndef
-jsdbg_h__
+Debugger_h__
 #
 define
-jsdbg_h__
+Debugger_h__
 #
 include
 "
@@ -776,6 +776,7 @@ objects
 ;
 /
 *
+*
 An
 ephemeral
 map
@@ -788,10 +789,6 @@ to
 Debugger
 .
 Script
-*
-/
-/
-*
 *
 instances
 .
@@ -2285,14 +2282,11 @@ vp
 *
 *
 *
-*
-*
-*
 Functions
 for
 use
 by
-jsdbg
+Debugger
 .
 cpp
 .
@@ -3816,6 +3810,6 @@ rval
 endif
 /
 *
-jsdbg_h__
+Debugger_h__
 *
 /

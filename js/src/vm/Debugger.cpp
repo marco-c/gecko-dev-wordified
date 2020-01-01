@@ -456,7 +456,9 @@ BLOCK
 #
 include
 "
-jsdbg
+vm
+/
+Debugger
 .
 h
 "
