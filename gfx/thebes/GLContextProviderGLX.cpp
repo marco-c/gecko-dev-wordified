@@ -2643,11 +2643,6 @@ failed
 "
 )
 ;
-XFree
-(
-cfgs
-)
-;
 return
 nsnull
 ;
