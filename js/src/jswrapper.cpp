@@ -3411,6 +3411,14 @@ return
 obj
 -
 >
+isProxy
+(
+)
+&
+&
+obj
+-
+>
 getProxyHandler
 (
 )
