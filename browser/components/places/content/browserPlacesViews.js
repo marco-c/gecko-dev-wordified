@@ -4359,6 +4359,8 @@ defaultView
 getComputedStyle
 (
 this
+.
+viewElt
 "
 "
 )
@@ -4369,6 +4371,7 @@ direction
 "
 rtl
 "
+;
 }
 /
 *
@@ -6803,7 +6806,7 @@ if
 (
 this
 .
-_isRTL
+isRTL
 )
 this
 .
@@ -6957,7 +6960,7 @@ childOverflowed
 =
 this
 .
-_isRTL
+isRTL
 ?
 (
 childRect
@@ -8254,7 +8257,7 @@ if
 (
 this
 .
-_isRTL
+isRTL
 ?
 (
 aEvent
@@ -8323,7 +8326,7 @@ if
 (
 this
 .
-_isRTL
+isRTL
 ?
 (
 aEvent
@@ -8511,7 +8514,7 @@ if
 (
 this
 .
-_isRTL
+isRTL
 ?
 (
 aEvent
@@ -9767,7 +9770,7 @@ if
 (
 this
 .
-_isRTL
+isRTL
 )
 {
 halfInd
