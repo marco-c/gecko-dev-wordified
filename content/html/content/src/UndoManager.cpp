@@ -2172,7 +2172,7 @@ i
 ]
 -
 >
-GetParent
+GetParentNode
 (
 )
 )
@@ -2234,7 +2234,7 @@ i
 ]
 -
 >
-GetParent
+GetParentNode
 (
 )
 =
@@ -2532,7 +2532,7 @@ if
 mChild
 -
 >
-GetParent
+GetParentNode
 (
 )
 )
@@ -2561,7 +2561,7 @@ mNextNode
 mNextNode
 -
 >
-GetParent
+GetParentNode
 (
 )
 !
@@ -2624,7 +2624,7 @@ if
 mChild
 -
 >
-GetParent
+GetParentNode
 (
 )
 !
@@ -2658,7 +2658,7 @@ mNextNode
 mNextNode
 -
 >
-GetParent
+GetParentNode
 (
 )
 !
@@ -3002,7 +3002,7 @@ if
 mChild
 -
 >
-GetParent
+GetParentNode
 (
 )
 )
@@ -3031,7 +3031,7 @@ mNextNode
 mNextNode
 -
 >
-GetParent
+GetParentNode
 (
 )
 !
@@ -3094,7 +3094,7 @@ if
 mChild
 -
 >
-GetParent
+GetParentNode
 (
 )
 !
@@ -3127,7 +3127,7 @@ mNextNode
 mNextNode
 -
 >
-GetParent
+GetParentNode
 (
 )
 !
@@ -3419,9 +3419,9 @@ aContent
 {
 nsCOMPtr
 <
-nsIContent
+nsINode
 >
-content
+currentNode
 =
 aContent
 ;
@@ -3445,7 +3445,7 @@ UndoManager
 .
 while
 (
-content
+currentNode
 &
 &
 !
@@ -3460,7 +3460,7 @@ htmlElem
 =
 do_QueryInterface
 (
-content
+currentNode
 )
 ;
 if
@@ -3478,12 +3478,12 @@ GetUndoManager
 )
 ;
 }
-content
+currentNode
 =
-content
+currentNode
 -
 >
-GetParent
+GetParentNode
 (
 )
 ;
