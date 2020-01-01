@@ -1502,6 +1502,14 @@ spill
 (
 )
 ;
+void
+finishInterval
+(
+LiveInterval
+*
+interval
+)
+;
 Register
 findBestFreeRegister
 (
