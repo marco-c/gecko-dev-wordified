@@ -2039,6 +2039,7 @@ element
 .
 if
 (
+(
 display
 -
 >
@@ -2054,6 +2055,7 @@ prevRg
 >
 HasInternalBreakAfter
 (
+)
 )
 )
 &
@@ -2123,6 +2125,7 @@ aNextFrame
 ;
 if
 (
+(
 display
 -
 >
@@ -2138,6 +2141,7 @@ nextRg
 >
 HasInternalBreakBefore
 (
+)
 )
 )
 &
