@@ -17380,6 +17380,9 @@ deferred
 .
 reject
 (
+new
+Error
+(
 "
 Request
 failed
@@ -17387,6 +17390,7 @@ failed
 "
 +
 url
+)
 )
 ;
 return
@@ -17433,6 +17437,9 @@ deferred
 .
 reject
 (
+new
+Error
+(
 "
 Request
 failed
@@ -17440,6 +17447,7 @@ failed
 "
 +
 url
+)
 )
 ;
 }
@@ -17571,6 +17579,9 @@ deferred
 .
 reject
 (
+new
+Error
+(
 "
 Request
 failed
@@ -17578,6 +17589,7 @@ failed
 "
 +
 url
+)
 )
 ;
 }
@@ -17631,6 +17643,9 @@ deferred
 .
 reject
 (
+new
+Error
+(
 "
 Request
 failed
@@ -17638,6 +17653,7 @@ failed
 "
 +
 url
+)
 )
 ;
 return
@@ -17879,6 +17895,21 @@ aPrefix
 "
 )
 {
+dbg_assert
+(
+aError
+instanceof
+Error
+"
+Must
+pass
+Error
+objects
+to
+reportError
+"
+)
+;
 let
 msg
 =
