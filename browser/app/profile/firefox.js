@@ -9905,7 +9905,7 @@ warning
 infoURL
 "
 "
-http
+https
 :
 /
 /
@@ -9913,7 +9913,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 %
 LOCALE
@@ -11135,7 +11135,7 @@ crashreporter
 infoURL
 "
 "
-http
+https
 :
 /
 /
@@ -11143,7 +11143,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 legal
 /
