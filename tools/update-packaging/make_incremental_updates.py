@@ -3530,6 +3530,11 @@ update
 .
 manifest
 '
+'
+removed
+-
+files
+'
 ]
 [
 '
