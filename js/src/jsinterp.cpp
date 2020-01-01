@@ -19335,7 +19335,7 @@ GetProperty
 (
 cx
 obj
-atom
+name
 &
 rval
 )
