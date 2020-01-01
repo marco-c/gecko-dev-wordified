@@ -51,6 +51,8 @@ base
 /
 test
 /
+csp
+/
 file_CSP_frameancestors_spec_compliant
 .
 sjs
@@ -76,6 +78,8 @@ base
 /
 test
 /
+csp
+/
 file_CSP_frameancestors_spec_compliant
 .
 sjs
@@ -98,6 +102,8 @@ content
 base
 /
 test
+/
+csp
 /
 file_CSP_frameancestors_spec_compliant
 .
