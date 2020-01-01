@@ -795,6 +795,11 @@ STUB_CALL_TYPE
 VoidStubAtom
 )
 ;
+STUB_CALL_TYPE
+(
+VoidStubPC
+)
+;
 #
 undef
 STUB_CALL_TYPE
