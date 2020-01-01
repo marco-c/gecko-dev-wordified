@@ -7388,10 +7388,15 @@ return
 "
 "
 +
+Math
+.
+floor
+(
 Date
 .
 now
 (
+)
 )
 +
 Math

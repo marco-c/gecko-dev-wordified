@@ -493,10 +493,15 @@ u041b
 u3056
 "
 +
+Math
+.
+floor
+(
 Date
 .
 now
 (
+)
 )
 +
 "

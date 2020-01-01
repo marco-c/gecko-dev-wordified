@@ -14,6 +14,7 @@ BLOCK
 *
 *
 *
+*
 Version
 :
 MPL
@@ -1524,10 +1525,15 @@ return
 "
 "
 +
+Math
+.
+floor
+(
 Date
 .
 now
 (
+)
 )
 +
 Math
