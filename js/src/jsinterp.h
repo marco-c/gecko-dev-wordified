@@ -2956,7 +2956,10 @@ JSContext
 cx
 uintN
 level
-uintN
+js
+:
+:
+UpvarCookie
 cookie
 )
 ;

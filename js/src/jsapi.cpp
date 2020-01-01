@@ -23418,8 +23418,6 @@ parent
 int
 skip
 =
-UPVAR_FRAME_SKIP
-(
 uva
 -
 >
@@ -23427,6 +23425,9 @@ vector
 [
 i
 ]
+.
+level
+(
 )
 ;
 while

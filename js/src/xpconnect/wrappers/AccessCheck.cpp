@@ -1605,9 +1605,7 @@ if
 fp
 -
 >
-hasScript
-(
-)
+script
 )
 {
 fp
@@ -1702,9 +1700,7 @@ filename
 fp
 -
 >
-getScript
-(
-)
+script
 -
 >
 filename
@@ -1820,7 +1816,7 @@ if
 id
 =
 =
-JSID_VOID
+JSVID_VOID
 )
 {
 JS_ReportError
@@ -2006,7 +2002,7 @@ if
 id
 =
 =
-JSID_VOID
+JSVAL_VOID
 )
 {
 /

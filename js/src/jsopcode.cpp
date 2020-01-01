@@ -19367,8 +19367,6 @@ upvars
 ;
 index
 =
-UPVAR_FRAME_SLOT
-(
 uva
 -
 >
@@ -19376,6 +19374,9 @@ vector
 [
 index
 ]
+.
+slot
+(
 )
 ;
 }
