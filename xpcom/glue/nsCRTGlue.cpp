@@ -1886,6 +1886,13 @@ a
 "
 )
 ;
+if
+(
+!
+fp
+)
+return
+;
 va_list
 args
 ;
