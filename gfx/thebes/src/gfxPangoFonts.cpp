@@ -4659,6 +4659,8 @@ space
 aSpacing
 [
 i
+-
+aStart
 ]
 ;
 leftSpacePango
