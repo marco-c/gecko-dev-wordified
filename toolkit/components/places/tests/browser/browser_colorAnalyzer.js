@@ -773,11 +773,13 @@ ok
 (
 actual
 >
+=
 0xFF0000
 &
 &
 actual
 <
+=
 0xFF0808
 message
 )
