@@ -886,6 +886,13 @@ mozAutoDocUpdate
 h
 "
 #
+include
+"
+nsMimeTypes
+.
+h
+"
+#
 ifdef
 MOZ_SVG
 #
@@ -897,14 +904,6 @@ h
 "
 #
 endif
-#
-define
-kXSLType
-"
-text
-/
-xsl
-"
 /
 /
 XXX
@@ -4356,7 +4355,7 @@ type
 .
 EqualsIgnoreCase
 (
-kXSLType
+TEXT_XSL
 )
 |
 |
@@ -4364,7 +4363,7 @@ type
 .
 EqualsIgnoreCase
 (
-kXMLTextContentType
+TEXT_XML
 )
 |
 |
@@ -4372,7 +4371,7 @@ type
 .
 EqualsIgnoreCase
 (
-kXMLApplicationContentType
+APPLICATION_XML
 )
 )
 {
