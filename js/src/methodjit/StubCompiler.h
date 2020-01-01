@@ -603,12 +603,6 @@ generation
 uint32
 lastGeneration
 ;
-bool
-hasJump
-;
-Jump
-lastJump
-;
 /
 *
 :
@@ -633,6 +627,14 @@ CrossPatch
 SystemAllocPolicy
 >
 joins
+;
+Vector
+<
+Jump
+8
+SystemAllocPolicy
+>
+jumpList
 ;
 public
 :
