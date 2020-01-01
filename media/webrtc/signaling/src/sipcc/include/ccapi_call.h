@@ -329,7 +329,6 @@ CCAPI_CreateOffer
 (
 cc_call_handle_t
 handle
-const
 cc_media_constraints_t
 *
 constraints
@@ -340,7 +339,6 @@ CCAPI_CreateAnswer
 (
 cc_call_handle_t
 handle
-const
 cc_media_constraints_t
 *
 constraints

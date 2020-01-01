@@ -396,7 +396,6 @@ unsigned
 int
 media_stream_id
 ;
-const
 cc_media_constraints_t
 *
 cc_constraints

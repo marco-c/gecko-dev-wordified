@@ -253,12 +253,9 @@ media_type
 cc_level_t
 level
 ;
-unsigned
-int
-sessionid
-;
-cc_boolean
-has_constraints
+cc_media_constraints_t
+*
+constraints
 ;
 }
 ccSession_feature_t

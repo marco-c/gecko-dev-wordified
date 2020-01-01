@@ -1098,7 +1098,6 @@ CC_CallFeature_CreateOffer
 (
 cc_call_handle_t
 call_handle
-const
 cc_media_constraints_t
 *
 constraints
@@ -1109,7 +1108,6 @@ CC_CallFeature_CreateAnswer
 (
 cc_call_handle_t
 call_handle
-const
 cc_media_constraints_t
 *
 constraints
