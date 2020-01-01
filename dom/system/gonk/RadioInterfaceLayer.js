@@ -19364,7 +19364,7 @@ context
 sms
 .
 delivery
-message
+response
 .
 deliveryStatus
 null
@@ -19392,7 +19392,7 @@ let
 topic
 =
 (
-message
+response
 .
 deliveryStatus
 =
