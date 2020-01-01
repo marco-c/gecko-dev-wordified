@@ -4059,7 +4059,7 @@ mFlags
 }
 #
 ifdef
-DEBUG
+MOZ_DUMP_PAINTING
 /
 *
 *

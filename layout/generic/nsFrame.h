@@ -4767,6 +4767,13 @@ GetShowEventTargetFrameBorder
 (
 )
 ;
+#
+endif
+#
+ifdef
+MOZ_DUMP_PAINTING
+public
+:
 static
 void
 PrintDisplayList

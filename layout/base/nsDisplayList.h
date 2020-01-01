@@ -1037,7 +1037,7 @@ nsDisplayItemTypes
 h
 #
 ifdef
-NS_DEBUG
+MOZ_DUMP_PAINTING
 #
 define
 NS_DISPLAY_DECL_NAME
@@ -5802,7 +5802,7 @@ mVisibleRect
 }
 #
 ifdef
-NS_DEBUG
+MOZ_DUMP_PAINTING
 /
 *
 *
@@ -9263,7 +9263,7 @@ aPaint
 )
 #
 ifdef
-DEBUG
+MOZ_DUMP_PAINTING
 mName
 (
 aName
@@ -9364,7 +9364,7 @@ mPaint
 ;
 #
 ifdef
-DEBUG
+MOZ_DUMP_PAINTING
 const
 char
 *
