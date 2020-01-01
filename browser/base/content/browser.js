@@ -49251,6 +49251,14 @@ privateWindow
 (
 )
 {
+if
+(
+!
+gBrowser
+)
+return
+false
+;
 return
 gBrowser
 .
