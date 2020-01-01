@@ -1886,7 +1886,6 @@ cx
 js_ArgumentsClass
 NULL
 NULL
-0
 )
 ;
 if
@@ -2730,7 +2729,6 @@ cx
 js_FunctionClass
 funobj
 scopeChain
-0
 )
 ;
 if
@@ -5882,7 +5880,6 @@ fp
 -
 >
 scopeChain
-0
 )
 ;
 if
@@ -5978,7 +5975,6 @@ fp
 -
 >
 scopeChain
-0
 )
 ;
 if
@@ -9468,7 +9464,6 @@ OBJ_GET_PARENT
 cx
 obj
 )
-0
 )
 ;
 if
@@ -13396,7 +13391,6 @@ cx
 js_FunctionClass
 NULL
 NULL
-0
 )
 ;
 if
@@ -15034,7 +15028,6 @@ cx
 js_FunctionClass
 NULL
 parent
-0
 )
 ;
 if

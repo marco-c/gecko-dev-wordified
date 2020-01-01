@@ -4567,7 +4567,6 @@ JSVAL_TO_OBJECT
 rval
 )
 NULL
-0
 )
 ;
 if
@@ -6588,7 +6587,6 @@ error_proto
 :
 obj_proto
 obj
-0
 )
 ;
 if
@@ -7563,7 +7561,6 @@ cx
 js_ErrorClass
 errProto
 NULL
-0
 )
 ;
 if

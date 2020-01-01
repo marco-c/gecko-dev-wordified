@@ -2306,7 +2306,6 @@ cx
 js_IteratorClass
 NULL
 NULL
-0
 )
 ;
 if
@@ -3995,7 +3994,6 @@ cx
 js_GeneratorClass
 NULL
 NULL
-0
 )
 ;
 if
