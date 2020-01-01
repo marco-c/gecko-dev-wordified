@@ -1775,13 +1775,6 @@ Shutdown
 ;
 #
 endif
-nsXMLHttpRequest
-:
-:
-ShutdownACCache
-(
-)
-;
 NS_ShutdownFocusSuppressor
 (
 )
