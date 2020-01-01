@@ -708,6 +708,11 @@ Value
 )
 )
 ;
+RegisterID
+activeAddressReg
+=
+obj
+;
 if
 (
 slot
@@ -734,7 +739,7 @@ address
 =
 Address
 (
-obj
+clobber
 (
 slot
 -
@@ -747,10 +752,14 @@ Value
 )
 )
 ;
+activeAddressReg
+=
+clobber
+;
 }
 if
 (
-obj
+activeAddressReg
 =
 =
 type
