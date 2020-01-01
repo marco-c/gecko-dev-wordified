@@ -8676,7 +8676,7 @@ to
 .
 *
 /
-nsresult
+void
 ConstructFrameFromItemInternal
 (
 FrameConstructionItem
@@ -8902,7 +8902,7 @@ nsFrameItems
 aFrameItems
 )
 ;
-nsresult
+void
 ConstructFramesFromItem
 (
 nsFrameConstructorState
