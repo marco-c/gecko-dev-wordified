@@ -10539,7 +10539,7 @@ INTEGER
 "
         
 "
-FLOAT
+FLOATLITERAL
 "
         
 "
@@ -10692,7 +10692,7 @@ return
 t
     
 def
-t_FLOAT
+t_FLOATLITERAL
 (
 self
 t
@@ -11286,7 +11286,7 @@ float
 "
 :
 "
-FLOAT_
+FLOAT
 "
         
 "
@@ -13165,7 +13165,7 @@ p
             
 ConstValue
 :
-FLOAT
+FLOATLITERAL
         
 "
 "
@@ -15964,7 +15964,7 @@ Other
 INTEGER
                   
 |
-FLOAT
+FLOATLITERAL
                   
 |
 IDENTIFIER
@@ -16039,7 +16039,7 @@ EXCEPTION
 FALSE
                   
 |
-FLOAT_
+FLOAT
                   
 |
 GETTER
