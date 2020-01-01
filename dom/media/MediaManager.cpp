@@ -1288,9 +1288,9 @@ a
 media
 stream
 .
-nsRefPtr
+nsCOMPtr
 <
-nsDOMLocalMediaStream
+nsDOMMediaStream
 >
 stream
 ;
@@ -1324,7 +1324,7 @@ HINT_CONTENTS_VIDEO
 ;
 stream
 =
-nsDOMLocalMediaStream
+nsDOMMediaStream
 :
 :
 CreateInputStream
@@ -1729,14 +1729,7 @@ success
 >
 OnSuccess
 (
-static_cast
-<
-nsIDOMLocalMediaStream
-*
->
-(
 stream
-)
 )
 ;
 }
