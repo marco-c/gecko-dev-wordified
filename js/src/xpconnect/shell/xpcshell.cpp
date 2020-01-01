@@ -8439,6 +8439,7 @@ workingDirectory
 {
 #
 if
+(
 !
 defined
 (
@@ -8450,6 +8451,13 @@ XP_WIN
 defined
 (
 XP_UNIX
+)
+)
+|
+|
+defined
+(
+WINCE
 )
 /
 /
@@ -8465,9 +8473,7 @@ return
 false
 ;
 #
-endif
-#
-ifdef
+elif
 XP_WIN
 DWORD
 requiredLength
