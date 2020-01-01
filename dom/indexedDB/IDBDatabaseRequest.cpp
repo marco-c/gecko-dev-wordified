@@ -3055,6 +3055,7 @@ aAutoIncrement
 {
 if
 (
+!
 mRemoveAutoIncrementStmt
 )
 {
@@ -3109,6 +3110,7 @@ else
 {
 if
 (
+!
 mRemoveStmt
 )
 {
