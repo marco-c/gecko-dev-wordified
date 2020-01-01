@@ -485,6 +485,13 @@ h
 #
 include
 "
+jsdhash
+.
+h
+"
+#
+include
+"
 jsutil
 .
 h
@@ -747,7 +754,7 @@ false
 ;
 hashShift
 =
-HASH_BITS
+JS_DHASH_BITS
 -
 sizeLog2
 ;
@@ -1431,7 +1438,7 @@ hash
 /
 sizeLog2
 =
-HASH_BITS
+JS_DHASH_BITS
 -
 hashShift
 ;
@@ -1711,7 +1718,7 @@ entries
 int
 oldlog2
 =
-HASH_BITS
+JS_DHASH_BITS
 -
 hashShift
 ;
@@ -1782,7 +1789,7 @@ members
 /
 hashShift
 =
-HASH_BITS
+JS_DHASH_BITS
 -
 newlog2
 ;
@@ -7610,7 +7617,7 @@ StackBaseShape
 base
 )
 {
-HashNumber
+JSDHashNumber
 hash
 =
 base
@@ -8454,7 +8461,7 @@ Lookup
 lookup
 )
 {
-HashNumber
+JSDHashNumber
 hash
 =
 uintptr_t
