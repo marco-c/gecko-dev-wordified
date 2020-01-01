@@ -12499,6 +12499,11 @@ SetPersistFlags
 nsIWebBrowserPersist
 :
 :
+PERSIST_FLAGS_APPEND_TO_FILE
+|
+nsIWebBrowserPersist
+:
+:
 PERSIST_FLAGS_AUTODETECT_APPLY_CONVERSION
 )
 ;
