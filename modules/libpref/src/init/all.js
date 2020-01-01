@@ -6777,7 +6777,7 @@ tracejit
 .
 content
 "
-false
+true
 )
 ;
 pref
