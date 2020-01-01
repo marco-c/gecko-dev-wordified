@@ -3757,7 +3757,7 @@ aKeyword
 ;
 /
 /
-hide
+Hide
 the
 Tags
 field
@@ -3767,6 +3767,7 @@ are
 adding
 a
 keyword
+.
 info
 .
 hiddenRows
@@ -3778,6 +3779,12 @@ tags
 "
 )
 ;
+/
+/
+Keyword
+related
+params
+.
 if
 (
 typeof
