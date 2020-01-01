@@ -569,7 +569,7 @@ const
 MIN_SERVER_STORAGE_VERSION
 =
 "
-weave_version
+storage_version
 "
 ;
 const
