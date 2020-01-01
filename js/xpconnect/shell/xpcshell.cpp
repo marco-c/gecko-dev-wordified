@@ -10591,7 +10591,13 @@ rtsvc
 \
 n
 "
+static_cast
+<
+uint32_t
+>
+(
 rv
+)
 )
 ;
 return
