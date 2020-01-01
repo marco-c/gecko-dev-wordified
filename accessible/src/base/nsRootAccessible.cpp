@@ -4583,7 +4583,7 @@ STATE_SELECTED
 ;
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 accEvent
 =
@@ -4661,7 +4661,7 @@ STATE_CHECKED
 ;
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 accEvent
 =
@@ -4851,7 +4851,7 @@ STATE_EXPANDED
 ;
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 accEvent
 =
@@ -7103,7 +7103,7 @@ ROLE_AUTOCOMPLETE
 {
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 event
 =
@@ -7396,7 +7396,7 @@ ROLE_AUTOCOMPLETE
 {
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 event
 =

@@ -6027,7 +6027,7 @@ for
 focus
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 stateChangeEvent
 =
@@ -7612,7 +7612,7 @@ isInserted
 PRBool
 isFromUserInput
 ;
-event
+aEvent
 -
 >
 GetIsFromUserInput
