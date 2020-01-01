@@ -359,6 +359,8 @@ getBranch
 '
 accessibility
 .
+accessfu
+.
 '
 )
 ;
@@ -369,7 +371,7 @@ prefsBranch
 addObserver
 (
 '
-accessfu
+activate
 '
 this
 false
@@ -391,7 +393,7 @@ prefsBranch
 getIntPref
 (
 '
-accessfu
+activate
 '
 )
 ;
@@ -1245,7 +1247,7 @@ aData
 =
 =
 '
-accessfu
+activate
 '
 )
 this
@@ -1259,7 +1261,7 @@ prefsBranch
 getIntPref
 (
 '
-accessfu
+activate
 '
 )
 )
