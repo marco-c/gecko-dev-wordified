@@ -1108,9 +1108,11 @@ delete
 text
 ;
 }
-AppendTextWorker
+QueueUserWorkItem
 (
+AppendTextWorker
 text
+WT_EXECUTEDEFAULT
 )
 ;
 return
@@ -2345,6 +2347,10 @@ custom_info
 kCustomInfoEntries
 kCustomInfoCount
 }
+;
+CrashServerStart
+(
+)
 ;
 /
 /

@@ -333,10 +333,10 @@ functions
 .
 #
 ifndef
-COMMON_MAC_DWARF_FUNCTIONINFO_H__
+COMMON_DWARF_FUNCTIONINFO_H__
 #
 define
-COMMON_MAC_DWARF_FUNCTIONINFO_H__
+COMMON_DWARF_FUNCTIONINFO_H__
 #
 include
 <
@@ -361,8 +361,6 @@ vector
 include
 "
 common
-/
-mac
 /
 dwarf
 /
@@ -847,6 +845,7 @@ of
 the
 /
 /
+.
 debug_info
 section
 .
@@ -897,6 +896,7 @@ of
 the
 /
 /
+.
 debug_info
 section
 .
@@ -958,8 +958,10 @@ the
 /
 beginning
 of
-compilation
-unit
+the
+.
+debug_info
+section
 has
 a
 name
@@ -1031,8 +1033,10 @@ the
 /
 beginning
 of
-compilation
-unit
+the
+.
+debug_info
+section
 has
 a
 name
@@ -1185,4 +1189,4 @@ dwarf2reader
 endif
 /
 /
-COMMON_MAC_DWARF_FUNCTIONINFO_H__
+COMMON_DWARF_FUNCTIONINFO_H__

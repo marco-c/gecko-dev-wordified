@@ -622,7 +622,7 @@ CustomInfoEntry
 *
 entries
 ;
-int
+size_t
 count
 ;
 }

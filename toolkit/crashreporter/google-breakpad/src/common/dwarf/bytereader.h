@@ -295,10 +295,10 @@ DAMAGE
 .
 #
 ifndef
-COMMON_MAC_DWARF_BYTEREADER_H__
+COMMON_DWARF_BYTEREADER_H__
 #
 define
-COMMON_MAC_DWARF_BYTEREADER_H__
+COMMON_DWARF_BYTEREADER_H__
 #
 include
 <
@@ -308,8 +308,6 @@ string
 include
 "
 common
-/
-mac
 /
 dwarf
 /
@@ -1065,4 +1063,4 @@ dwarf2reader
 endif
 /
 /
-COMMON_MAC_DWARF_BYTEREADER_H__
+COMMON_DWARF_BYTEREADER_H__

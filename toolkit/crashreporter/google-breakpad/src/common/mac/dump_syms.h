@@ -364,8 +364,6 @@ include
 "
 common
 /
-mac
-/
 dwarf
 /
 dwarf2reader
@@ -399,7 +397,7 @@ in
 the
 dictionary
 typedef
-hash_map
+map
 <
 string
 dwarf2reader
