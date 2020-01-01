@@ -201,6 +201,11 @@ NewSlots
 \
 _
 (
+NewDeclEnvObject
+)
+\
+_
+(
 NewCallObject
 )
 \

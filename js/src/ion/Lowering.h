@@ -576,6 +576,14 @@ ins
 )
 ;
 bool
+visitNewDeclEnvObject
+(
+MNewDeclEnvObject
+*
+ins
+)
+;
+bool
 visitNewCallObject
 (
 MNewCallObject
