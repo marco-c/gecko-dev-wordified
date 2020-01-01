@@ -467,10 +467,10 @@ BLOCK
 /
 #
 ifndef
-nsMathMLmfencedFrame_h___
+nsMathMLmfencedFrame_h
 #
 define
-nsMathMLmfencedFrame_h___
+nsMathMLmfencedFrame_h
 #
 include
 "
@@ -794,7 +794,7 @@ child
 frames
 are
 known
-nsresult
+void
 CreateFencesAndSeparators
 (
 nsPresContext
@@ -808,6 +808,6 @@ aPresContext
 endif
 /
 *
-nsMathMLmfencedFrame_h___
+nsMathMLmfencedFrame_h
 *
 /
