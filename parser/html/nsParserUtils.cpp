@@ -770,6 +770,9 @@ document
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+nsAutoScriptBlockerSuppressNodeRemoved
+autoBlocker
+;
 /
 /
 stop
