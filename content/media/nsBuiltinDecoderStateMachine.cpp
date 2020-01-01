@@ -974,7 +974,7 @@ const
 int
 AUDIO_DURATION_MS
 =
-150
+40
 ;
 /
 /
