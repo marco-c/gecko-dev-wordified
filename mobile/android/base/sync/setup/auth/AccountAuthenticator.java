@@ -32,8 +32,8 @@ not
 distributed
 with
 this
-file
 *
+file
 You
 can
 obtain
@@ -130,13 +130,6 @@ setup
 activities
 .
 AccountActivity
-;
-import
-android
-.
-util
-.
-Log
 ;
 public
 class
@@ -358,9 +351,9 @@ username
 username
 )
 ;
-Log
+Logger
 .
-d
+debug
 (
 LOG_TAG
 "

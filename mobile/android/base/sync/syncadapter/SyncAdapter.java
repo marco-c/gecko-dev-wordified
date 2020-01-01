@@ -1750,7 +1750,7 @@ syncing
 .
 Logger
 .
-refreshLogLevels
+resetLogging
 (
 )
 ;

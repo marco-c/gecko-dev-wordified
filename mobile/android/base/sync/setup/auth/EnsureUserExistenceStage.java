@@ -32,8 +32,8 @@ not
 distributed
 with
 this
-file
 *
+file
 You
 can
 obtain
@@ -169,13 +169,6 @@ setup
 Constants
 ;
 import
-android
-.
-util
-.
-Log
-;
-import
 ch
 .
 boye
@@ -276,9 +269,9 @@ determine
 auth
 node
 .
-Log
+Logger
 .
-d
+debug
 (
 LOG_TAG
 "

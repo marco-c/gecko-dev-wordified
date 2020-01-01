@@ -158,13 +158,6 @@ android
 .
 RepoUtils
 ;
-import
-android
-.
-util
-.
-Log
-;
 /
 *
 *
@@ -1066,9 +1059,9 @@ NonArrayJSONException
 e
 )
 {
-Log
+Logger
 .
-e
+error
 (
 LOG_TAG
 "

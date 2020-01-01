@@ -93,13 +93,6 @@ domain
 .
 Record
 ;
-import
-android
-.
-util
-.
-Log
-;
 /
 *
 *
@@ -603,9 +596,9 @@ failed
 to
 apply
 .
-Log
+Logger
 .
-e
+error
 (
 LOG_TAG
 "
