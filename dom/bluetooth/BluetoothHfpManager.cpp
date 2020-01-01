@@ -4384,6 +4384,12 @@ nsIRadioInterfaceLayer
 :
 CALL_STATE_INCOMING
 :
+case
+nsIRadioInterfaceLayer
+:
+:
+CALL_STATE_BUSY
+:
 /
 /
 Incoming
@@ -5240,6 +5246,10 @@ NotifySettings
 )
 ;
 }
+sStopSendingRingFlag
+=
+true
+;
 sCINDItems
 [
 CINDType
