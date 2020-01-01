@@ -7886,7 +7886,7 @@ show
 .
 localepicker
 "
-true
+false
 )
 ;
 /
