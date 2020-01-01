@@ -550,9 +550,6 @@ nsIInProcessContentFrameMessageManager
 class
 AutoResetInShow
 ;
-#
-ifdef
-MOZ_IPC
 namespace
 mozilla
 {
@@ -590,8 +587,6 @@ MOZ_WIDGET_QT
 class
 QX11EmbedContainer
 ;
-#
-endif
 #
 endif
 /
@@ -1023,9 +1018,6 @@ friend
 class
 AutoResetInShow
 ;
-#
-ifdef
-MOZ_IPC
 typedef
 mozilla
 :
@@ -1056,8 +1048,6 @@ layout
 RenderFrameParent
 RenderFrameParent
 ;
-#
-endif
 protected
 :
 nsFrameLoader
@@ -1452,9 +1442,6 @@ GetOwnerDoc
 nsnull
 ;
 }
-#
-ifdef
-MOZ_IPC
 PBrowserParent
 *
 GetRemoteBrowser
@@ -1676,8 +1663,6 @@ mCurrentRemoteFrame
 aFrame
 ;
 }
-#
-endif
 nsFrameMessageManager
 *
 GetFrameMessageManager
@@ -1708,16 +1693,11 @@ aContent
 ;
 private
 :
-#
-ifdef
-MOZ_IPC
 bool
 ShouldUseRemoteProcess
 (
 )
 ;
-#
-endif
 /
 *
 *
@@ -1837,9 +1817,6 @@ ReallyStartLoadingInternal
 (
 )
 ;
-#
-ifdef
-MOZ_IPC
 /
 /
 Return
@@ -1882,8 +1859,6 @@ nsIntSize
 size
 )
 ;
-#
-endif
 nsCOMPtr
 <
 nsIDocShell
@@ -2003,9 +1978,6 @@ mNetworkCreated
 :
 1
 ;
-#
-ifdef
-MOZ_IPC
 PRPackedBool
 mDelayRemoteDialogs
 :
@@ -2037,8 +2009,6 @@ TabParent
 *
 mRemoteBrowser
 ;
-#
-endif
 /
 /
 See

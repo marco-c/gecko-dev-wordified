@@ -635,14 +635,9 @@ mozilla
 namespace
 net
 {
-#
-ifdef
-MOZ_IPC
 class
 CookieServiceParent
 ;
-#
-endif
 }
 }
 /
@@ -2212,9 +2207,6 @@ GetSingleton
 (
 )
 ;
-#
-ifdef
-MOZ_IPC
 friend
 class
 mozilla
@@ -2225,8 +2217,6 @@ net
 :
 CookieServiceParent
 ;
-#
-endif
 }
 ;
 #

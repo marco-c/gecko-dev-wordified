@@ -585,9 +585,6 @@ class
 LayerManager
 ;
 }
-#
-ifdef
-MOZ_IPC
 namespace
 dom
 {
@@ -595,8 +592,6 @@ class
 PBrowserChild
 ;
 }
-#
-endif
 }
 /
 *
@@ -1348,9 +1343,6 @@ nsIWidget
 public
 nsISupports
 {
-#
-ifdef
-MOZ_IPC
 protected
 :
 typedef
@@ -1363,8 +1355,6 @@ dom
 PBrowserChild
 PBrowserChild
 ;
-#
-endif
 public
 :
 typedef
@@ -8527,9 +8517,6 @@ UsePuppetWidgets
 (
 )
 {
-#
-ifdef
-MOZ_IPC
 return
 XRE_GetProcessType
 (
@@ -8538,17 +8525,7 @@ XRE_GetProcessType
 =
 GeckoProcessType_Content
 ;
-#
-else
-return
-PR_FALSE
-;
-#
-endif
 }
-#
-ifdef
-MOZ_IPC
 /
 *
 *
@@ -8659,8 +8636,6 @@ PBrowserChild
 aTabChild
 )
 ;
-#
-endif
 /
 *
 *

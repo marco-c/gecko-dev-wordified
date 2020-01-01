@@ -1628,17 +1628,12 @@ nsIContentSecurityPolicy
 h
 "
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 nsXULAppAPI
 .
 h
 "
-#
-endif
 using
 namespace
 mozilla
@@ -35316,9 +35311,6 @@ if
 appCacheChannel
 )
 {
-#
-ifdef
-MOZ_IPC
 /
 /
 Permission
@@ -35348,8 +35340,6 @@ PR_TRUE
 )
 ;
 else
-#
-endif
 appCacheChannel
 -
 >
@@ -52521,9 +52511,6 @@ matching
 application
 cache
 .
-#
-ifdef
-MOZ_IPC
 /
 /
 Permission
@@ -52552,8 +52539,6 @@ PR_TRUE
 )
 ;
 else
-#
-endif
 appCacheChannel
 -
 >

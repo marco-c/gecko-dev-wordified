@@ -680,9 +680,6 @@ aOffset
 )
 ;
 }
-#
-ifdef
-MOZ_IPC
 void
 ShadowColorLayerOGL
 :
@@ -705,11 +702,6 @@ aOffset
 )
 ;
 }
-#
-endif
-/
-/
-MOZ_IPC
 }
 /
 *

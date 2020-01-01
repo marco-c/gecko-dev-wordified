@@ -746,9 +746,6 @@ aRefNum
 ;
 #
 endif
-#
-ifdef
-MOZ_IPC
 /
 /
 The
@@ -816,8 +813,6 @@ nsPluginTag
 aPluginTag
 )
 ;
-#
-endif
 protected
 :
 #

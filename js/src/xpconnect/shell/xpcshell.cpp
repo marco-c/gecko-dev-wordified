@@ -4245,9 +4245,6 @@ return
 JS_TRUE
 ;
 }
-#
-ifdef
-MOZ_IPC
 static
 JSBool
 SendCommand
@@ -4469,11 +4466,6 @@ return
 JS_FALSE
 ;
 }
-#
-endif
-/
-/
-MOZ_IPC
 /
 *
 *
@@ -5253,9 +5245,6 @@ DumpHeap
 }
 #
 endif
-#
-ifdef
-MOZ_IPC
 {
 "
 sendCommand
@@ -5272,8 +5261,6 @@ GetChildGlobalObject
 0
 0
 }
-#
-endif
 #
 ifdef
 MOZ_CALLGRIND
@@ -11494,9 +11481,6 @@ this
 scopes
 the
 nsCOMPtrs
-#
-ifdef
-MOZ_IPC
 if
 (
 !
@@ -11514,8 +11498,6 @@ testshell
 "
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_CRASHREPORTER

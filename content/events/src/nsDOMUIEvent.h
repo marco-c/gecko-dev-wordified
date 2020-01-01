@@ -517,9 +517,6 @@ DuplicatePrivateData
 (
 )
 ;
-#
-ifdef
-MOZ_IPC
 virtual
 void
 Serialize
@@ -551,8 +548,6 @@ void
 aIter
 )
 ;
-#
-endif
 /
 /
 Forward

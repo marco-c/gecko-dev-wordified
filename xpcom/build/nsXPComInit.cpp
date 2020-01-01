@@ -451,9 +451,6 @@ BLOCK
 *
 /
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 base
@@ -462,8 +459,6 @@ basictypes
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1046,9 +1041,6 @@ h
 #
 endif
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 base
@@ -1129,8 +1121,6 @@ anonymous
 namespace
 *
 /
-#
-endif
 /
 /
 Registry
@@ -2028,9 +2018,6 @@ NS_LogInit
 (
 )
 ;
-#
-ifdef
-MOZ_IPC
 NS_TIME_FUNCTION_MARK
 (
 "
@@ -2202,8 +2189,6 @@ release
 )
 ;
 }
-#
-endif
 NS_TIME_FUNCTION_MARK
 (
 "
@@ -2681,9 +2666,6 @@ omnijar
 }
 #
 endif
-#
-ifdef
-MOZ_IPC
 if
 (
 (
@@ -2828,8 +2810,6 @@ argv
 #
 endif
 }
-#
-endif
 NS_ASSERTION
 (
 nsComponentManagerImpl
@@ -4163,9 +4143,6 @@ NS_IF_RELEASE
 gDebug
 )
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 sIOThread
@@ -4222,8 +4199,6 @@ sExitManager
 nsnull
 ;
 }
-#
-endif
 #
 ifdef
 MOZ_OMNIJAR

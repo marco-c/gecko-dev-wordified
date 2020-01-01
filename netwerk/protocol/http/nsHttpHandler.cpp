@@ -756,9 +756,6 @@ nsIXULAppInfo
 h
 "
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 mozilla
@@ -769,8 +766,6 @@ NeckoChild
 .
 h
 "
-#
-endif
 #
 if
 defined
@@ -925,9 +920,6 @@ mozilla
 net
 ;
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 mozilla
@@ -938,8 +930,6 @@ HttpChannelChild
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1839,9 +1829,6 @@ return
 rv
 ;
 }
-#
-ifdef
-MOZ_IPC
 if
 (
 IsNeckoChild
@@ -1855,11 +1842,6 @@ InitNeckoChild
 (
 )
 ;
-#
-endif
-/
-/
-MOZ_IPC
 InitUserAgentComponents
 (
 )
@@ -10191,9 +10173,6 @@ rv
 return
 rv
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 IsNeckoChild
@@ -10210,8 +10189,6 @@ HttpChannelChild
 ;
 }
 else
-#
-endif
 {
 httpChannel
 =
@@ -10304,9 +10281,6 @@ caps
 =
 NS_HTTP_ALLOW_PIPELINING
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 !
@@ -10314,8 +10288,6 @@ IsNeckoChild
 (
 )
 )
-#
-endif
 {
 /
 /

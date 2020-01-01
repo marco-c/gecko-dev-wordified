@@ -524,9 +524,6 @@ cpp
 *
 /
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 IPC
@@ -535,8 +532,6 @@ IPCMessageUtils
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1965,9 +1960,6 @@ void
 aIter
 )
 {
-#
-ifdef
-MOZ_IPC
 using
 IPC
 :
@@ -2021,13 +2013,6 @@ PR_FALSE
 return
 PR_TRUE
 ;
-#
-else
-return
-PR_FALSE
-;
-#
-endif
 }
 void
 nsStringInputStream
@@ -2043,9 +2028,6 @@ Message
 aMsg
 )
 {
-#
-ifdef
-MOZ_IPC
 using
 IPC
 :
@@ -2066,8 +2048,6 @@ aMsg
 value
 )
 ;
-#
-endif
 }
 NS_COM
 nsresult

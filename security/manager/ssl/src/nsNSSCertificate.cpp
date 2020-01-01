@@ -697,17 +697,12 @@ nsIProgrammingLanguage
 h
 "
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 nsXULAppAPI
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -945,9 +940,6 @@ CERTCertificate
 cert
 )
 {
-#
-ifdef
-MOZ_IPC
 if
 (
 GeckoProcessType_Default
@@ -979,8 +971,6 @@ return
 nsnull
 ;
 }
-#
-endif
 if
 (
 cert
@@ -1014,9 +1004,6 @@ int
 derLen
 )
 {
-#
-ifdef
-MOZ_IPC
 /
 /
 On
@@ -1038,8 +1025,6 @@ XRE_GetProcessType
 return
 nsnull
 ;
-#
-endif
 nsNSSCertificate
 *
 newObject
@@ -1194,12 +1179,6 @@ ev_status_unknown
 if
 defined
 (
-MOZ_IPC
-)
-&
-&
-defined
-(
 DEBUG
 )
 if
@@ -1277,9 +1256,6 @@ mCachedEVStatus
 ev_status_unknown
 )
 {
-#
-ifdef
-MOZ_IPC
 if
 (
 GeckoProcessType_Default
@@ -1306,8 +1282,6 @@ process
 "
 )
 ;
-#
-endif
 }
 nsNSSCertificate
 :

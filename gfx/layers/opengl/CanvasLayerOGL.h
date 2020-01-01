@@ -431,9 +431,6 @@ GFX_CANVASLAYEROGL_H
 define
 GFX_CANVASLAYEROGL_H
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 mozilla
@@ -455,11 +452,6 @@ ShadowLayers
 .
 h
 "
-#
-endif
-/
-/
-MOZ_IPC
 #
 include
 "
@@ -637,9 +629,6 @@ mNeedsYFlip
 ;
 }
 ;
-#
-ifdef
-MOZ_IPC
 /
 /
 NB
@@ -816,11 +805,6 @@ mDeadweight
 ;
 }
 ;
-#
-endif
-/
-/
-MOZ_IPC
 }
 /
 *
