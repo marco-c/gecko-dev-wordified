@@ -254,7 +254,7 @@ STOP
 mDOMPreview
 -
 >
-Stop
+StopPreview
 (
 )
 ;
@@ -1231,7 +1231,7 @@ void
 DOMCameraPreview
 :
 :
-Stop
+StopPreview
 (
 )
 {
@@ -1241,7 +1241,7 @@ NS_IsMainThread
 (
 )
 "
-Stop
+StopPreview
 (
 )
 not

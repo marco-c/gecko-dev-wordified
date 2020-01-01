@@ -697,7 +697,7 @@ sources
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 GetUserMediaNotificationEvent
 >
@@ -799,7 +799,7 @@ Finish
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 GetUserMediaNotificationEvent
 >
@@ -890,7 +890,7 @@ MediaEngineSource
 >
 mVideoSource
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsDOMMediaStream
 >
@@ -1156,6 +1156,19 @@ aDesiredTime
 ;
 }
 }
+void
+NotifyFinished
+(
+MediaStreamGraph
+*
+aGraph
+)
+{
+Invalidate
+(
+)
+;
+}
 private
 :
 nsCOMPtr
@@ -1176,7 +1189,7 @@ MediaEngineSource
 >
 mVideoSource
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsDOMMediaStream
 >
