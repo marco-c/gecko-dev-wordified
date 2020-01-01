@@ -2459,7 +2459,7 @@ defaultEngine
 searchSvc
 -
 >
-GetOriginalDefaultEngine
+GetDefaultEngine
 (
 getter_AddRefs
 (
