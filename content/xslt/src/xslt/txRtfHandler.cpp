@@ -587,6 +587,7 @@ flushToHandler
 (
 txAXMLEventHandler
 *
+*
 aHandler
 )
 {
