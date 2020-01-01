@@ -2298,14 +2298,14 @@ brandShortName
 )
 ;
 var
-buttonTitle
+okTitle
 =
 ssStringBundle
 .
 GetStringFromName
 (
 "
-buttonTitle
+okTitle
 "
 )
 ;
@@ -2393,7 +2393,7 @@ null
 restoreTitle
 restoreText
 flags
-buttonTitle
+okTitle
 cancelTitle
 null
 null
