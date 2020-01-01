@@ -2774,9 +2774,6 @@ NS_QUERY_CONTENT_EVENT_START
 Video
 events
 #
-ifdef
-MOZ_MEDIA
-#
 define
 NS_MEDIA_EVENT_START
 3300
@@ -2946,11 +2943,6 @@ NS_MEDIA_EVENT_START
 +
 20
 )
-#
-endif
-/
-/
-MOZ_MEDIA
 /
 /
 paint
