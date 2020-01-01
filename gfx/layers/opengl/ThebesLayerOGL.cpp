@@ -6508,16 +6508,6 @@ nsIntRegion
 aFrontUpdatedRegion
 )
 {
-printf_stderr
-(
-"
-Thebes
-Swap
-\
-n
-"
-)
-;
 if
 (
 !
