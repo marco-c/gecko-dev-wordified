@@ -868,13 +868,10 @@ gfxRect
 aOverrideBounds
 )
 ;
-NS_IMETHOD
-GetPatternFirstChild
-(
 nsIFrame
 *
-*
-kid
+GetPatternFirstChild
+(
 )
 ;
 gfxRect
