@@ -30684,7 +30684,9 @@ type
 )
 -
 >
-newScript
+hasNewScript
+(
+)
 )
 types
 :
