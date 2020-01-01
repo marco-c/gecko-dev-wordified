@@ -1442,11 +1442,6 @@ backwards
 )
 CSS_KEY
 (
-balance
-balance
-)
-CSS_KEY
-(
 baseline
 baseline
 )
