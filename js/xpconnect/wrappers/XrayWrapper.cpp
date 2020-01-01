@@ -4186,6 +4186,16 @@ vp
 ]
 )
 ;
+if
+(
+!
+selector
+)
+{
+return
+false
+;
+}
 nsDependentJSString
 selectorStr
 ;
