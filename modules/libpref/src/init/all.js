@@ -2398,6 +2398,16 @@ harfbuzz
 for
 all
 scripts
+(
+except
+when
+using
+AAT
+fonts
+on
+OS
+X
+)
 pref
 (
 "
