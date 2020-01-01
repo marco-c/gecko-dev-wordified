@@ -2215,6 +2215,9 @@ PRInt64
 aVersion
 bool
 aDeleting
+JSContext
+*
+aCallingCx
 IDBOpenDBRequest
 *
 *
@@ -2297,6 +2300,7 @@ Create
 (
 window
 scriptOwner
+aCallingCx
 )
 ;
 NS_ENSURE_TRUE
@@ -2521,6 +2525,9 @@ nsAString
 aName
 PRInt64
 aVersion
+JSContext
+*
+aCx
 PRUint8
 aArgc
 nsIIDBOpenDBRequest
@@ -2557,6 +2564,7 @@ OpenCommon
 aName
 aVersion
 false
+aCx
 getter_AddRefs
 (
 request
@@ -2590,6 +2598,9 @@ const
 nsAString
 &
 aName
+JSContext
+*
+aCx
 nsIIDBOpenDBRequest
 *
 *
@@ -2610,6 +2621,7 @@ OpenCommon
 aName
 0
 true
+aCx
 getter_AddRefs
 (
 request

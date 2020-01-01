@@ -2107,6 +2107,9 @@ GenerateRequest
 IDBObjectStore
 *
 aObjectStore
+JSContext
+*
+aCx
 )
 {
 NS_ASSERTION
@@ -2151,6 +2154,7 @@ aObjectStore
 Transaction
 (
 )
+aCx
 )
 ;
 }
@@ -6629,6 +6633,7 @@ request
 GenerateRequest
 (
 this
+aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -6773,6 +6778,7 @@ request
 GenerateRequest
 (
 this
+nsnull
 )
 ;
 NS_ENSURE_TRUE
@@ -6881,6 +6887,9 @@ GetInternal
 IDBKeyRange
 *
 aKeyRange
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -6933,6 +6942,7 @@ request
 GenerateRequest
 (
 this
+aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -6994,6 +7004,9 @@ IDBKeyRange
 aKeyRange
 PRUint32
 aLimit
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -7036,6 +7049,7 @@ request
 GenerateRequest
 (
 this
+aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -7096,6 +7110,9 @@ DeleteInternal
 IDBKeyRange
 *
 aKeyRange
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -7161,6 +7178,7 @@ request
 GenerateRequest
 (
 this
+aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -7217,6 +7235,9 @@ IDBObjectStore
 :
 ClearInternal
 (
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -7271,6 +7292,7 @@ request
 GenerateRequest
 (
 this
+aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -7330,6 +7352,9 @@ CountInternal
 IDBKeyRange
 *
 aKeyRange
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -7372,6 +7397,7 @@ request
 GenerateRequest
 (
 this
+aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -7433,6 +7459,9 @@ IDBKeyRange
 aKeyRange
 size_t
 aDirection
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -7492,6 +7521,7 @@ request
 GenerateRequest
 (
 this
+aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -8804,6 +8834,7 @@ rv
 GetInternal
 (
 keyRange
+aCx
 getter_AddRefs
 (
 request
@@ -8949,6 +8980,7 @@ GetAllInternal
 (
 keyRange
 aLimit
+aCx
 getter_AddRefs
 (
 request
@@ -9268,6 +9300,7 @@ rv
 DeleteInternal
 (
 keyRange
+aCx
 getter_AddRefs
 (
 request
@@ -9303,6 +9336,9 @@ IDBObjectStore
 :
 Clear
 (
+JSContext
+*
+aCx
 nsIIDBRequest
 *
 *
@@ -9332,6 +9368,7 @@ rv
 =
 ClearInternal
 (
+aCx
 getter_AddRefs
 (
 request
@@ -9510,6 +9547,7 @@ OpenCursorInternal
 (
 keyRange
 argDirection
+aCx
 getter_AddRefs
 (
 request
@@ -10389,6 +10427,7 @@ rv
 CountInternal
 (
 keyRange
+aCx
 getter_AddRefs
 (
 request

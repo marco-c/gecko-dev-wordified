@@ -383,6 +383,9 @@ GetInternal
 IDBKeyRange
 *
 aKeyRange
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -395,6 +398,9 @@ GetKeyInternal
 IDBKeyRange
 *
 aKeyRange
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -409,6 +415,9 @@ IDBKeyRange
 aKeyRange
 PRUint32
 aLimit
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -423,6 +432,9 @@ IDBKeyRange
 aKeyRange
 PRUint32
 aLimit
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -435,6 +447,9 @@ CountInternal
 IDBKeyRange
 *
 aKeyRange
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -471,6 +486,9 @@ IDBKeyRange
 aKeyRange
 size_t
 aDirection
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -485,6 +503,9 @@ IDBKeyRange
 aKeyRange
 size_t
 aDirection
+JSContext
+*
+aCx
 IDBRequest
 *
 *

@@ -1318,6 +1318,9 @@ GenerateRequest
 IDBIndex
 *
 aIndex
+JSContext
+*
+aCx
 )
 {
 NS_ASSERTION
@@ -1368,6 +1371,7 @@ Create
 aIndex
 database
 transaction
+aCx
 )
 ;
 }
@@ -1773,6 +1777,9 @@ GetInternal
 IDBKeyRange
 *
 aKeyRange
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -1826,6 +1833,7 @@ request
 GenerateRequest
 (
 this
+aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -1885,6 +1893,9 @@ GetKeyInternal
 IDBKeyRange
 *
 aKeyRange
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -1938,6 +1949,7 @@ request
 GenerateRequest
 (
 this
+aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -1999,6 +2011,9 @@ IDBKeyRange
 aKeyRange
 PRUint32
 aLimit
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -2052,6 +2067,7 @@ request
 GenerateRequest
 (
 this
+aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -2114,6 +2130,9 @@ IDBKeyRange
 aKeyRange
 PRUint32
 aLimit
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -2167,6 +2186,7 @@ request
 GenerateRequest
 (
 this
+aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -2227,6 +2247,9 @@ CountInternal
 IDBKeyRange
 *
 aKeyRange
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -2280,6 +2303,7 @@ request
 GenerateRequest
 (
 this
+aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -2341,6 +2365,9 @@ IDBKeyRange
 aKeyRange
 size_t
 aDirection
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -2411,6 +2438,7 @@ request
 GenerateRequest
 (
 this
+aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -2473,6 +2501,9 @@ IDBKeyRange
 aKeyRange
 size_t
 aDirection
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -2543,6 +2574,7 @@ request
 GenerateRequest
 (
 this
+aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -3370,6 +3402,7 @@ rv
 GetInternal
 (
 keyRange
+aCx
 getter_AddRefs
 (
 request
@@ -3512,6 +3545,7 @@ rv
 GetKeyInternal
 (
 keyRange
+aCx
 getter_AddRefs
 (
 request
@@ -3662,6 +3696,7 @@ GetAllInternal
 (
 keyRange
 aLimit
+aCx
 getter_AddRefs
 (
 request
@@ -3812,6 +3847,7 @@ GetAllKeysInternal
 (
 keyRange
 aLimit
+aCx
 getter_AddRefs
 (
 request
@@ -3981,6 +4017,7 @@ request
 GenerateRequest
 (
 this
+aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -4180,6 +4217,7 @@ OpenKeyCursorInternal
 (
 keyRange
 direction
+aCx
 getter_AddRefs
 (
 request
@@ -4297,6 +4335,7 @@ rv
 CountInternal
 (
 keyRange
+aCx
 getter_AddRefs
 (
 request

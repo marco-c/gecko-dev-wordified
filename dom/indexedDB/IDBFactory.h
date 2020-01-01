@@ -341,6 +341,9 @@ PRInt64
 aVersion
 bool
 aDeleting
+JSContext
+*
+aCallingCx
 IDBOpenDBRequest
 *
 *
