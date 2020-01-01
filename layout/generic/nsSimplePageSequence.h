@@ -102,6 +102,15 @@ nsSimplePageSequence_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIPageSequenceFrame
 .
 h
@@ -462,6 +471,7 @@ aYOffset
 nscoord
 aHeight
 )
+MOZ_OVERRIDE
 {
 mYSelOffset
 =
@@ -481,6 +491,7 @@ SetTotalNumPages
 int32_t
 aTotal
 )
+MOZ_OVERRIDE
 {
 mTotalPages
 =
@@ -503,6 +514,7 @@ float
 &
 aSTFPercent
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -535,16 +547,19 @@ bool
 *
 aDone
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 PrintNextPage
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ResetPrintCanvasList
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCurrentPageNum
@@ -553,6 +568,7 @@ int32_t
 *
 aPageNum
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetNumPages
@@ -561,6 +577,7 @@ int32_t
 *
 aNumPages
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 IsDoingPrintRange
@@ -569,6 +586,7 @@ bool
 *
 aDoing
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPrintRange
@@ -580,11 +598,13 @@ int32_t
 *
 aToPage
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DoPageEnd
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /

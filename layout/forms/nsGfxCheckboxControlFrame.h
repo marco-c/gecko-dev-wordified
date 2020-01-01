@@ -102,6 +102,15 @@ nsGfxCheckboxControlFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsFormControlFrame
 .
 h
@@ -147,6 +156,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -178,6 +188,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -190,6 +201,7 @@ Accessible
 CreateAccessible
 (
 )
+MOZ_OVERRIDE
 ;
 #
 endif

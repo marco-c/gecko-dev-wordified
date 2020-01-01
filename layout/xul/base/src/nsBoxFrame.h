@@ -139,6 +139,15 @@ nsBoxFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -518,6 +527,7 @@ bool
 &
 aDebug
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -527,6 +537,7 @@ GetVAlign
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mValign
@@ -538,6 +549,7 @@ GetHAlign
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mHalign
@@ -556,6 +568,7 @@ bool
 ComputesOwnOverflowArea
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -604,6 +617,7 @@ nsIFrame
 *
 asPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -616,12 +630,14 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 MarkIntrinsicWidthsDirty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -631,6 +647,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -640,6 +657,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -658,6 +676,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -668,6 +687,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -681,6 +701,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -691,6 +712,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -708,6 +730,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -717,6 +740,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -725,6 +749,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -899,6 +924,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -915,6 +941,7 @@ aReflowState
 nsDidReflowStatus
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -992,6 +1019,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -1141,6 +1169,7 @@ nsAutoString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 void
 PaintXULDebugBackground
@@ -1226,6 +1255,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 nsSize
 mPrefSize

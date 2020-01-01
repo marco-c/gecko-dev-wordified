@@ -102,6 +102,15 @@ NS_SVGCONTAINERFRAME_H
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h
@@ -612,6 +621,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -622,6 +632,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init
@@ -652,6 +663,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -699,6 +711,7 @@ nsPoint
 &
 aPoint
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -707,12 +720,14 @@ nsRect
 GetCoveredRegion
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ReflowSVG
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -721,6 +736,7 @@ NotifySVGChanged
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 SVGBBox
@@ -733,6 +749,7 @@ aToBBoxUserspace
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -741,6 +758,7 @@ bool
 IsDisplayContainer
 (
 )
+MOZ_OVERRIDE
 {
 return
 true

@@ -115,6 +115,15 @@ nsHTMLCanvasFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -227,6 +236,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayList
@@ -243,6 +253,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <
@@ -287,6 +298,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -296,12 +308,14 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
 GetIntrinsicRatio
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -342,6 +356,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 nsRect
 GetInnerArea
@@ -360,6 +375,7 @@ Accessible
 CreateAccessible
 (
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -370,6 +386,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -409,6 +426,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif

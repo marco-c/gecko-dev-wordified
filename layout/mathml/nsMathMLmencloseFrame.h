@@ -102,6 +102,15 @@ nsMathMLmencloseFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -291,6 +300,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -303,6 +313,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -340,6 +351,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InheritAutomaticData
@@ -348,11 +360,13 @@ nsIFrame
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 TransmitAutomaticData
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -362,6 +376,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
+MOZ_OVERRIDE
 ;
 protected
 :

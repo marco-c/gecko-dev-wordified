@@ -102,6 +102,15 @@ nsPageContentFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsViewportFrame
 .
 h
@@ -170,6 +179,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -286,6 +296,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -301,6 +312,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif

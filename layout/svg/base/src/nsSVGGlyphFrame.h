@@ -102,6 +102,15 @@ __NS_SVGGLYPHFRAME_H__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxFont
 .
 h
@@ -831,6 +840,7 @@ nsPoint
 &
 aPoint
 )
+MOZ_OVERRIDE
 ;
 virtual
 SVGBBox
@@ -843,6 +853,7 @@ aToBBoxUserspace
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -851,12 +862,14 @@ nsRect
 GetCoveredRegion
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ReflowSVG
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -865,6 +878,7 @@ NotifySVGChanged
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -873,6 +887,7 @@ bool
 IsDisplayContainer
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -916,6 +931,7 @@ float
 GetComputedTextLength
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 float
@@ -926,6 +942,7 @@ charnum
 uint32_t
 fragmentChars
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -935,6 +952,7 @@ nsIDOMSVGPoint
 *
 point
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -944,6 +962,7 @@ nsSVGGlyphFrame
 GetFirstGlyphFrame
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -953,6 +972,7 @@ nsSVGGlyphFrame
 GetNextGlyphFrame
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -963,6 +983,7 @@ SetWhitespaceCompression
 bool
 aCompressWhitespace
 )
+MOZ_OVERRIDE
 {
 if
 (

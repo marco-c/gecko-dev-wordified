@@ -102,6 +102,15 @@ nsTableColGroupFrame_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -282,6 +291,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -533,6 +543,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -555,6 +566,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -568,6 +580,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -578,6 +591,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -740,6 +754,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -769,6 +784,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
@@ -939,6 +955,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 void
 Dump

@@ -102,6 +102,15 @@ nsMathMLmpaddedFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -186,6 +195,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -200,6 +210,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
+MOZ_OVERRIDE
 ;
 protected
 :

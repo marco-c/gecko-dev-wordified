@@ -114,6 +114,15 @@ nsHTMLFrameset_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -539,6 +548,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetInitialChildList
@@ -601,6 +611,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCursor
@@ -616,6 +627,7 @@ Cursor
 &
 aCursor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayList
@@ -632,6 +644,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -650,6 +663,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -658,6 +672,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -670,6 +685,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -679,6 +695,7 @@ IsLeaf
 (
 )
 const
+MOZ_OVERRIDE
 ;
 void
 StartMouseDrag

@@ -102,6 +102,15 @@ nsMathMLmfracFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -477,6 +486,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayList
@@ -493,11 +503,13 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 TransmitAutomaticData
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 UpdatePresentationDataFromChildAt
@@ -511,6 +523,7 @@ aFlagsValues
 uint32_t
 aFlagsToUpdate
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -535,6 +548,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
+MOZ_OVERRIDE
 ;
 /
 /

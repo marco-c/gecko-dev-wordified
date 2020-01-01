@@ -699,6 +699,7 @@ GetBaseURI
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -709,6 +710,7 @@ nsString
 aTitle
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -719,6 +721,7 @@ nsString
 aType
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -726,6 +729,7 @@ HasRules
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -733,6 +737,7 @@ IsApplicable
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -741,6 +746,7 @@ SetEnabled
 bool
 aEnabled
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -748,12 +754,14 @@ IsComplete
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
 SetComplete
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIStyleSheet
@@ -762,6 +770,7 @@ GetParentSheet
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -775,6 +784,7 @@ GetOwningDocument
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -789,6 +799,7 @@ nsIDocument
 *
 aDocument
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -825,6 +836,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -1611,6 +1623,7 @@ nsMallocSizeOfFun
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /

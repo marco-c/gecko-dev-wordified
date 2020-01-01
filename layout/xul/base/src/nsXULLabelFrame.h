@@ -116,6 +116,15 @@ nsXULLabelFrame_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsBlockFrame
 .
 h
@@ -182,6 +191,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -194,6 +204,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -223,6 +234,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -235,6 +247,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif

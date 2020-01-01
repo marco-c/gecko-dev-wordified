@@ -112,6 +112,15 @@ define
 mozilla_layout_RenderFrameParent_h
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 map
 >
@@ -1208,6 +1217,7 @@ uint32_t
 GetPerFrameKey
 (
 )
+MOZ_OVERRIDE
 {
 NS_ABORT
 (

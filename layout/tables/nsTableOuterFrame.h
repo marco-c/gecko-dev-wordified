@@ -102,6 +102,15 @@ nsTableOuterFrame_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -207,6 +216,7 @@ Accessible
 CreateAccessible
 (
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -221,6 +231,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -389,6 +400,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 virtual
 const
@@ -413,6 +425,7 @@ ChildList
 aLists
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -423,6 +436,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -436,6 +450,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -446,6 +461,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -476,6 +492,7 @@ Accessible
 CreateAccessible
 (
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -494,6 +511,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 nsresult
 BuildDisplayListForInnerTable
@@ -526,6 +544,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -535,6 +554,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -556,6 +576,7 @@ aPadding
 bool
 aShrinkWrap
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -604,6 +625,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -633,6 +655,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -645,6 +668,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -655,6 +679,7 @@ GetParentStyleContextFrame
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
@@ -770,6 +795,7 @@ int32_t
 &
 aColCount
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetIndexByRowAndColumn
@@ -782,6 +808,7 @@ int32_t
 *
 aIndex
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetRowAndColumnByIndex
@@ -795,6 +822,7 @@ int32_t
 *
 aColumn
 )
+MOZ_OVERRIDE
 ;
 protected
 :

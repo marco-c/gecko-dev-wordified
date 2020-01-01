@@ -102,6 +102,15 @@ nsMathMLFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -229,6 +238,7 @@ nsBoundingMetrics
 &
 aBoundingMetrics
 )
+MOZ_OVERRIDE
 {
 aBoundingMetrics
 =
@@ -246,6 +256,7 @@ nsBoundingMetrics
 &
 aBoundingMetrics
 )
+MOZ_OVERRIDE
 {
 mBoundingMetrics
 =
@@ -263,6 +274,7 @@ nsPoint
 &
 aReference
 )
+MOZ_OVERRIDE
 {
 mReference
 =
@@ -277,6 +289,7 @@ eMathMLFrameType
 GetMathMLFrameType
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Stretch
@@ -293,6 +306,7 @@ nsHTMLReflowMetrics
 &
 aDesiredStretchSize
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -305,6 +319,7 @@ nsEmbellishData
 &
 aEmbellishData
 )
+MOZ_OVERRIDE
 {
 aEmbellishData
 =
@@ -321,6 +336,7 @@ nsPresentationData
 &
 aPresentationData
 )
+MOZ_OVERRIDE
 {
 aPresentationData
 =
@@ -337,11 +353,13 @@ nsIFrame
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 TransmitAutomaticData
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -355,6 +373,7 @@ aFlagsValues
 uint32_t
 aFlagsToUpdate
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 UpdatePresentationDataFromChildAt
@@ -368,6 +387,7 @@ aFlagsValues
 uint32_t
 aFlagsToUpdate
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK

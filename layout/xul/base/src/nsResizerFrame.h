@@ -102,6 +102,15 @@ nsResizerFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsTitleBarFrame
 .
 h
@@ -170,6 +179,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -182,6 +192,7 @@ nsGUIEvent
 *
 aEvent
 )
+MOZ_OVERRIDE
 ;
 protected
 :

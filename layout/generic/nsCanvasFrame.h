@@ -117,6 +117,15 @@ nsCanvasFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -249,6 +258,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -259,6 +269,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -272,6 +283,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -282,6 +294,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -291,6 +304,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -300,6 +314,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -318,6 +333,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -394,6 +410,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 void
 PaintFocus
@@ -457,6 +474,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -471,6 +489,7 @@ aChild
 bool
 aForceNormal
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -554,6 +573,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -568,6 +588,7 @@ nsIContent
 *
 aContent
 )
+MOZ_OVERRIDE
 ;
 nsRect
 CanvasArea
@@ -690,6 +711,7 @@ nsRect
 &
 aAllowVisibleRegionExpansion
 )
+MOZ_OVERRIDE
 {
 return
 NS_GET_A
@@ -722,6 +744,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -767,6 +790,7 @@ nscolor
 *
 aColor
 )
+MOZ_OVERRIDE
 {
 nscolor
 background
@@ -839,6 +863,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 {
 nsCanvasFrame
 *
@@ -893,6 +918,7 @@ nsIFrame
 *
 aOutFrames
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -930,6 +956,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 void
 SetExtraBackgroundColor

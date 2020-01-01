@@ -102,6 +102,15 @@ NSSVGEFFECTS_H_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 FramePropertyTable
 .
 h
@@ -720,6 +729,7 @@ Element
 GetTarget
 (
 )
+MOZ_OVERRIDE
 {
 return
 mElement
@@ -745,6 +755,7 @@ void
 DoUpdate
 (
 )
+MOZ_OVERRIDE
 ;
 class
 SourceReference
@@ -1043,6 +1054,7 @@ void
 DoUpdate
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -1081,6 +1093,7 @@ void
 DoUpdate
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -1119,6 +1132,7 @@ void
 DoUpdate
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -1157,6 +1171,7 @@ void
 DoUpdate
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;

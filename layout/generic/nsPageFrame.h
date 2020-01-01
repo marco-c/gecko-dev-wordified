@@ -102,6 +102,15 @@ nsPageFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -183,6 +192,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -212,6 +222,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -224,6 +235,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -513,6 +525,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -521,6 +534,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -533,6 +547,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -543,12 +558,14 @@ nscoord
 GetIntrinsicWidth
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
 GetIntrinsicHeight
 (
 )
+MOZ_OVERRIDE
 ;
 bool
 mHaveReflowed

@@ -96,6 +96,15 @@ MPL
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsBoxFrame
 .
 h
@@ -154,6 +163,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -163,6 +173,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayListForChildren
@@ -179,6 +190,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -191,6 +203,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -208,6 +221,7 @@ aRemoveOverflowArea
 =
 false
 )
+MOZ_OVERRIDE
 ;
 friend
 nsIFrame

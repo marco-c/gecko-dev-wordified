@@ -134,6 +134,15 @@ nsVideoFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -266,6 +275,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -354,6 +364,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -361,6 +372,7 @@ IsLeaf
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -440,6 +452,7 @@ ContentInfo
 &
 aElements
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -451,6 +464,7 @@ aElements
 uint32_t
 aFilters
 )
+MOZ_OVERRIDE
 ;
 nsIContent
 *

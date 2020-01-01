@@ -102,6 +102,15 @@ nsListBoxBodyFrame_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -312,6 +321,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -321,6 +331,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -333,6 +344,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -361,6 +373,7 @@ aOldIndex
 int32_t
 aNewIndex
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 VisibilityChanged
@@ -368,6 +381,7 @@ VisibilityChanged
 bool
 aVisible
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -377,12 +391,14 @@ bool
 ReflowFinished
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ReflowCallbackCanceled
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DoLayout
@@ -397,6 +413,7 @@ void
 MarkIntrinsicWidthsDirty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -730,12 +747,14 @@ bool
 SupportsOrdinalsInChildren
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 ComputesOwnOverflowArea
 (
 )
+MOZ_OVERRIDE
 {
 return
 true

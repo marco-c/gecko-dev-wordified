@@ -3175,6 +3175,7 @@ mozilla
 TimeStamp
 aTime
 )
+MOZ_OVERRIDE
 {
 if
 (

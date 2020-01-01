@@ -100,6 +100,15 @@ nsPopupSetFrame_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIAtom
 .
 h
@@ -168,6 +177,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -178,6 +188,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -188,6 +199,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -201,6 +213,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetInitialChildList
@@ -211,6 +224,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DoLayout
@@ -219,6 +233,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -237,6 +252,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -245,6 +261,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -259,6 +276,7 @@ int32_t
 aIndent
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetFrameName
@@ -268,6 +286,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName

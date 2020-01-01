@@ -724,12 +724,14 @@ bool
 ReflowFinished
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ReflowCallbackCanceled
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -742,6 +744,7 @@ nsCSSSelector
 *
 aSelector
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -770,6 +773,7 @@ aOldIndex
 int32_t
 aNewIndex
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 VisibilityChanged
@@ -777,6 +781,7 @@ VisibilityChanged
 bool
 aVisible
 )
+MOZ_OVERRIDE
 {
 Invalidate
 (
@@ -810,6 +815,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -864,6 +870,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

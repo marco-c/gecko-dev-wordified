@@ -102,6 +102,15 @@ nsGfxButtonControlFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsFormControlFrame
 .
 h
@@ -208,6 +217,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleEvent
@@ -222,6 +232,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -242,6 +253,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -271,6 +283,7 @@ aElements
 uint32_t
 aFilter
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -281,6 +294,7 @@ nsIContent
 *
 aContent
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -297,6 +311,7 @@ nsAString
 aValue
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -323,6 +338,7 @@ nsIFrame
 GetContentInsertionFrame
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -363,6 +379,7 @@ bool
 IsInput
 (
 )
+MOZ_OVERRIDE
 {
 return
 true

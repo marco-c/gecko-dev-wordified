@@ -141,6 +141,15 @@ nsStackLayout_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsBoxLayout
 .
 h
@@ -231,6 +240,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -243,6 +253,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -255,6 +266,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -267,6 +279,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 /
 /

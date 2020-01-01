@@ -102,6 +102,15 @@ nsGridLayout2_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsStackLayout
 .
 h
@@ -192,6 +201,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -222,6 +232,7 @@ nsGridLayout2
 CastToGridLayout
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -244,6 +255,7 @@ aRequestor
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIGridPart
@@ -258,6 +270,7 @@ nsIFrame
 *
 aParentBox
 )
+MOZ_OVERRIDE
 {
 NS_NOTREACHED
 (
@@ -284,6 +297,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -296,6 +310,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -308,6 +323,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -323,6 +339,7 @@ int32_t
 &
 aComputedColumnCount
 )
+MOZ_OVERRIDE
 {
 aRowCount
 +
@@ -340,6 +357,7 @@ nsBoxLayoutState
 &
 aState
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -353,6 +371,7 @@ nsGridRow
 *
 aRows
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsMargin
@@ -364,12 +383,14 @@ aBox
 bool
 aIsHorizontal
 )
+MOZ_OVERRIDE
 ;
 virtual
 Type
 GetType
 (
 )
+MOZ_OVERRIDE
 {
 return
 eGrid

@@ -102,6 +102,15 @@ nsHTMLButtonControlFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -212,6 +221,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
@@ -230,6 +240,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -239,6 +250,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -248,6 +260,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -266,6 +279,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleEvent
@@ -280,6 +294,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init
@@ -294,6 +309,7 @@ nsIFrame
 *
 asPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsStyleContext
@@ -315,6 +331,7 @@ nsStyleContext
 *
 aStyleContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -325,6 +342,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -338,6 +356,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -348,6 +367,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -360,6 +380,7 @@ Accessible
 CreateAccessible
 (
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -370,6 +391,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -382,6 +404,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -432,6 +455,7 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -445,6 +469,7 @@ nsAString
 aValue
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /

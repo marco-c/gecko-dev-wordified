@@ -102,6 +102,15 @@ nsTextControlFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -261,6 +270,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIScrollableFrame
@@ -326,6 +336,7 @@ aPadding
 bool
 aShrinkWrap
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -481,6 +492,7 @@ ContentInfo
 &
 aElements
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -492,6 +504,7 @@ aElements
 uint32_t
 aFilter
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -511,6 +524,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -579,6 +593,7 @@ nsIEditor
 *
 aEditor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetTextLength
@@ -587,6 +602,7 @@ int32_t
 *
 aTextLength
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetSelectionStart
@@ -594,6 +610,7 @@ SetSelectionStart
 int32_t
 aSelectionStart
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetSelectionEnd
@@ -601,6 +618,7 @@ SetSelectionEnd
 int32_t
 aSelectionEnd
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetSelectionRange
@@ -614,6 +632,7 @@ aDirection
 =
 eNone
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSelectionRange
@@ -630,6 +649,7 @@ aDirection
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetOwnedSelectionController
@@ -639,6 +659,7 @@ nsISelectionController
 *
 aSelCon
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsFrameSelection
@@ -646,6 +667,7 @@ nsFrameSelection
 GetOwnedFrameSelection
 (
 )
+MOZ_OVERRIDE
 ;
 nsresult
 GetPhonetic
@@ -654,6 +676,7 @@ nsAString
 &
 aPhonetic
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -695,6 +718,7 @@ nsresult
 EnsureEditorInitialized
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -721,6 +745,7 @@ nsPresState
 *
 aState
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RestoreState
@@ -729,6 +754,7 @@ nsPresState
 *
 aState
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1731,6 +1757,7 @@ nsresult
 ScrollSelectionIntoView
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :

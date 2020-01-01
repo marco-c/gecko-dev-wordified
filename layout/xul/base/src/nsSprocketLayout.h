@@ -102,6 +102,15 @@ nsSprocketLayout_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsBoxLayout
 .
 h
@@ -561,6 +570,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize

@@ -102,6 +102,15 @@ nsMathMLmoFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -200,11 +209,13 @@ nsIFrame
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 TransmitAutomaticData
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -223,12 +234,14 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 MarkIntrinsicWidthsDirty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -238,6 +251,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -250,6 +264,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -287,6 +302,7 @@ nsHTMLReflowMetrics
 &
 aDesiredStretchSize
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -315,6 +331,7 @@ GetSkipSides
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 0
@@ -368,6 +385,7 @@ void
 ProcessTextData
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /

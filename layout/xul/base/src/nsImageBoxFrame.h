@@ -102,6 +102,15 @@ nsImageBoxFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsLeafBoxFrame
 .
 h
@@ -285,12 +294,14 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 MarkIntrinsicWidthsDirty
 (
 )
+MOZ_OVERRIDE
 ;
 friend
 nsIFrame
@@ -318,6 +329,7 @@ nsIFrame
 *
 asPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -330,6 +342,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -339,6 +352,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -356,6 +370,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -368,6 +383,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -451,6 +467,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnStartContainer

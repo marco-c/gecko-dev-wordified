@@ -117,6 +117,15 @@ nsContainerFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsSplittableFrame
 .
 h
@@ -385,6 +394,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -418,6 +428,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 const
@@ -429,6 +440,7 @@ ChildListID
 aList
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -442,6 +454,7 @@ ChildList
 aLists
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -451,6 +464,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -460,6 +474,7 @@ nsIFrame
 *
 aChild
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -478,6 +493,7 @@ int32_t
 *
 aOffset
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -493,6 +509,7 @@ aRespectClusters
 =
 true
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -507,6 +524,7 @@ int32_t
 aIndent
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -1210,6 +1228,7 @@ aPadding
 bool
 aShrinkWrap
 )
+MOZ_OVERRIDE
 ;
 /
 *

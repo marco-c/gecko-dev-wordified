@@ -115,6 +115,15 @@ nsComputedDOMStyle_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsDOMCSSDeclaration
 .
 h
@@ -264,6 +273,7 @@ nsINode
 GetParentObject
 (
 )
+MOZ_OVERRIDE
 {
 return
 mContent
@@ -401,6 +411,7 @@ GetCSSDeclaration
 (
 bool
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -415,6 +426,7 @@ css
 Declaration
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDocument
@@ -422,6 +434,7 @@ nsIDocument
 DocToUpdate
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -431,6 +444,7 @@ CSSParsingEnvironment
 &
 aCSSParseEnv
 )
+MOZ_OVERRIDE
 ;
 private
 :

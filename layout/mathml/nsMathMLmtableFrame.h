@@ -102,6 +102,15 @@ nsMathMLmtableFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -164,6 +173,7 @@ nsIFrame
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 UpdatePresentationData
@@ -186,6 +196,7 @@ aFlagsValues
 uint32_t
 aWhichFlags
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -209,6 +220,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -669,6 +681,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv
@@ -702,6 +715,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv
@@ -733,6 +747,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv
@@ -936,12 +951,14 @@ int32_t
 GetRowSpan
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
 GetColSpan
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1055,6 +1072,7 @@ aFlagsValues
 uint32_t
 aFlagsToUpdate
 )
+MOZ_OVERRIDE
 {
 nsMathMLContainerFrame
 :
@@ -1149,6 +1167,7 @@ GetSkipSides
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 0

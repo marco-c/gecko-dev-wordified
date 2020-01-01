@@ -141,6 +141,15 @@ nsDeckFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsBoxFrame
 .
 h
@@ -183,6 +192,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DoLayout
@@ -191,6 +201,7 @@ nsBoxLayoutState
 &
 aState
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayList
@@ -207,6 +218,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayListForChildren
@@ -223,6 +235,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init
@@ -237,6 +250,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -245,6 +259,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -257,6 +272,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName

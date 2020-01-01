@@ -119,6 +119,15 @@ nsDOMCSSDeclaration_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsICSSDeclaration
 .
 h
@@ -304,6 +313,7 @@ nsAString
 &
 aCssText
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPropertyValue
@@ -316,6 +326,7 @@ nsAString
 &
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPropertyCSSValue
@@ -329,6 +340,7 @@ nsIDOMCSSValue
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveProperty
@@ -353,6 +365,7 @@ nsAString
 &
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetProperty
@@ -370,6 +383,7 @@ nsAString
 &
 priority
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetLength
@@ -378,6 +392,7 @@ uint32_t
 *
 aLength
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetParentRule
@@ -387,6 +402,7 @@ nsIDOMCSSRule
 *
 aParentRule
 )
+MOZ_OVERRIDE
 =
 0
 ;

@@ -742,6 +742,7 @@ nsINode
 GetParentObject
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -756,6 +757,7 @@ nsAString
 &
 aPropName
 )
+MOZ_OVERRIDE
 ;
 nsresult
 GetPropertyValue
@@ -1038,6 +1040,7 @@ nsMallocSizeOfFun
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -1335,6 +1338,7 @@ nsIDOMCSSRule
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 void
 DropReference
@@ -1360,6 +1364,7 @@ GetCSSDeclaration
 bool
 aAllocate
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1375,6 +1380,7 @@ Declaration
 *
 aDecl
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1384,6 +1390,7 @@ CSSParsingEnvironment
 &
 aCSSParseEnv
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDocument
@@ -1391,6 +1398,7 @@ nsIDocument
 DocToUpdate
 (
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
@@ -1636,6 +1644,7 @@ nsMallocSizeOfFun
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 private
 :
@@ -1831,6 +1840,7 @@ nsMallocSizeOfFun
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 private
 :

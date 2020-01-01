@@ -96,6 +96,15 @@ MPL
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsGridRowLeafFrame
 .
 h
@@ -185,6 +194,7 @@ nsBoxLayoutState
 &
 aState
 )
+MOZ_OVERRIDE
 ;
 protected
 :

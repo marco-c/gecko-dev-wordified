@@ -102,6 +102,15 @@ nsTableRowGroupFrame_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -460,6 +469,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -473,6 +483,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -483,6 +494,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsMargin
@@ -520,6 +532,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1033,6 +1046,7 @@ void
 DisposeLineIterator
 (
 )
+MOZ_OVERRIDE
 {
 }
 /
@@ -1155,6 +1169,7 @@ int32_t
 GetNumLines
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1179,6 +1194,7 @@ bool
 GetDirection
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1297,6 +1313,7 @@ uint32_t
 *
 aLineFlags
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1382,6 +1399,7 @@ aStartLine
 =
 0
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1489,6 +1507,7 @@ bool
 *
 aXIsAfterLastFrame
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -1587,6 +1606,7 @@ nsIFrame
 *
 aLastVisual
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -1649,6 +1669,7 @@ aFrame
 int32_t
 aLineNumber
 )
+MOZ_OVERRIDE
 ;
 /
 /

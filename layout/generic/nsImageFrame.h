@@ -1894,6 +1894,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1947,6 +1948,7 @@ ContainerParameters
 &
 aParameters
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -1966,6 +1968,7 @@ ContainerParameters
 &
 aContainerParameters
 )
+MOZ_OVERRIDE
 ;
 /
 *

@@ -357,6 +357,15 @@ nsPlaceholderFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsFrame
 .
 h
@@ -668,6 +677,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -677,6 +687,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -689,6 +700,7 @@ InlineMinWidthData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -701,6 +713,7 @@ InlinePrefWidthData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -710,6 +723,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -719,6 +733,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -728,6 +743,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -746,6 +762,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -822,6 +839,7 @@ int32_t
 aIndent
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -856,6 +874,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -868,6 +887,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -876,6 +896,7 @@ bool
 IsEmpty
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -886,6 +907,7 @@ bool
 IsSelfEmpty
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -897,6 +919,7 @@ CanContinueTextRun
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -909,6 +932,7 @@ Accessible
 CreateAccessible
 (
 )
+MOZ_OVERRIDE
 {
 nsIFrame
 *
@@ -946,6 +970,7 @@ GetParentStyleContextFrame
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
