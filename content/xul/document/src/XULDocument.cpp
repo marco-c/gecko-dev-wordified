@@ -1584,10 +1584,6 @@ mAllowXULXBL
 =
 eTriTrue
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 XULDocument
 :

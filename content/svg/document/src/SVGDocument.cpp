@@ -254,10 +254,6 @@ SVGDocument
 (
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SVGDocument
 :
