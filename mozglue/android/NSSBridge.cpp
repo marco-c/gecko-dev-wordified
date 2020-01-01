@@ -292,6 +292,9 @@ name
 #
 _t
 )
+(
+uintptr_t
+)
 __wrap_dlsym
 (
 nss_handle
@@ -371,6 +374,9 @@ name
 #
 _t
 )
+(
+uintptr_t
+)
 __wrap_dlsym
 (
 nspr_handle
@@ -424,6 +430,9 @@ name
 #
 #
 _t
+)
+(
+uintptr_t
 )
 __wrap_dlsym
 (
