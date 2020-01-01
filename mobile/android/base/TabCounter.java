@@ -210,7 +210,7 @@ final
 int
 DURATION
 =
-300
+500
 ;
 private
 static
