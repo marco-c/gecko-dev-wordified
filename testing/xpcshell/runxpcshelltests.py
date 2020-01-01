@@ -1466,24 +1466,6 @@ js
 )
 ]
   
-xpcsTailFile
-=
-[
-os
-.
-path
-.
-join
-(
-testharnessdir
-'
-tail
-.
-js
-'
-)
-]
-  
 #
 |
 testPath
@@ -2005,11 +1987,7 @@ replace
 for
 f
 in
-(
 testTailFiles
-+
-xpcsTailFile
-)
 ]
 )
     
