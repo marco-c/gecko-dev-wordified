@@ -141,6 +141,11 @@ nsContentUtils
 .
 h
 "
+/
+/
+For
+NS_CONTENT_DELETE_LIST_MEMBER
+.
 #
 include
 "
