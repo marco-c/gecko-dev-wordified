@@ -112,12 +112,6 @@ base
 import
 BuildConfig
 from
-mozbuild
-.
-config
-import
-ConfigSettings
-from
 .
 base
 import
@@ -129,6 +123,11 @@ CommandProvider
     
 Command
 )
+from
+.
+config
+import
+ConfigSettings
 from
 .
 logging
