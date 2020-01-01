@@ -98,7 +98,9 @@ include
 "
 mozilla
 /
-MemoryReporting
+dom
+/
+HTMLLinkElement
 .
 h
 "
@@ -107,9 +109,7 @@ include
 "
 mozilla
 /
-dom
-/
-HTMLLinkElement
+MemoryReporting
 .
 h
 "
