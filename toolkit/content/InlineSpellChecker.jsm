@@ -572,6 +572,12 @@ mDictionaryItems
 [
 ]
 ;
+this
+.
+mWordNode
+=
+null
+;
 }
 /
 /
