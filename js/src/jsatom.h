@@ -2613,10 +2613,6 @@ JSAtom
 *
 iterateAtom
 ;
-JSAtom
-*
-WeakMapAtom
-;
 /
 *
 Less

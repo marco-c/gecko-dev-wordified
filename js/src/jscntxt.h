@@ -7055,10 +7055,6 @@ volatile
 bool
 gcIsNeeded
 ;
-JSObject
-*
-gcWeakMapList
-;
 /
 *
 *

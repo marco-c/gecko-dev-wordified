@@ -9396,13 +9396,6 @@ const
 ;
 inline
 bool
-isWeakMap
-(
-)
-const
-;
-inline
-bool
 isProxy
 (
 )
