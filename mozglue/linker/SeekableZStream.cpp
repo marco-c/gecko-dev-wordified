@@ -181,6 +181,13 @@ header
 >
 lastChunkSize
 ;
+windowBits
+=
+header
+-
+>
+windowBits
+;
 offsetTable
 .
 Init
@@ -581,10 +588,11 @@ chunk
 /
 if
 (
-inflateInit
+inflateInit2
 (
 &
 zStream
+windowBits
 )
 !
 =
