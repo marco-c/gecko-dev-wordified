@@ -102,6 +102,7 @@ onLockPixelsAreWritable
 *
 /
 class
+SK_API
 SkROLockPixelsPixelRef
 :
 public
@@ -178,6 +179,7 @@ GrTexture
 *
 /
 class
+SK_API
 SkGrTexturePixelRef
 :
 public
@@ -209,6 +211,9 @@ getTexture
 (
 )
 ;
+SK_DECLARE_UNFLATTENABLE_OBJECT
+(
+)
 protected
 :
 /
@@ -271,6 +276,7 @@ GrRenderTarget
 *
 /
 class
+SK_API
 SkGrRenderTargetPixelRef
 :
 public
@@ -303,6 +309,9 @@ getTexture
 (
 )
 ;
+SK_DECLARE_UNFLATTENABLE_OBJECT
+(
+)
 protected
 :
 /

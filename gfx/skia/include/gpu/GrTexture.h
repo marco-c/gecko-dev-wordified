@@ -474,7 +474,7 @@ rowBytes
 number
 of
 bytes
-bewtween
+between
 consecutive
 rows
 .
@@ -558,6 +558,18 @@ GrRenderTarget
 asRenderTarget
 (
 )
+{
+return
+fRenderTarget
+;
+}
+const
+GrRenderTarget
+*
+asRenderTarget
+(
+)
+const
 {
 return
 fRenderTarget

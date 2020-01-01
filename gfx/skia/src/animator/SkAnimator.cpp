@@ -126,7 +126,7 @@ h
 "
 #
 ifdef
-ANDROID
+SK_BUILD_FOR_ANDROID
 #
 include
 "
@@ -2597,7 +2597,7 @@ gMathPrimer
 ;
 #
 ifdef
-ANDROID
+SK_BUILD_FOR_ANDROID
 InitializeSkExtraPathEffects
 (
 this

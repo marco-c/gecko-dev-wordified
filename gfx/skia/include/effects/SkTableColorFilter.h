@@ -12,6 +12,7 @@ SkColorFilter
 h
 "
 class
+SK_API
 SkTableColorFilter
 {
 public
@@ -214,6 +215,9 @@ tableB
 ]
 )
 ;
+SK_DECLARE_FLATTENABLE_REGISTRAR_GROUP
+(
+)
 }
 ;
 #

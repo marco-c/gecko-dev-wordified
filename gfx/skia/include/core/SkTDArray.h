@@ -846,7 +846,7 @@ src
 NULL
 )
 {
-unsigned
+size_t
 oldCount
 =
 fCount
@@ -996,7 +996,7 @@ index
 fCount
 )
 ;
-int
+size_t
 oldCount
 =
 fCount
@@ -1121,7 +1121,7 @@ index
 fCount
 )
 ;
-unsigned
+size_t
 newCount
 =
 fCount

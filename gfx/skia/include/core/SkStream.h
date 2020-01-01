@@ -1930,6 +1930,16 @@ size
 )
 SK_OVERRIDE
 ;
+size_t
+bytesWritten
+(
+)
+const
+{
+return
+fBytesWritten
+;
+}
 private
 :
 char

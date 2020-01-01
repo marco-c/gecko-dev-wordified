@@ -106,6 +106,12 @@ SkQuadClipper
 (
 )
 {
+fClip
+.
+setEmpty
+(
+)
+;
 }
 void
 SkQuadClipper

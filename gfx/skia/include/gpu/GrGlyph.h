@@ -42,14 +42,14 @@ GrGlyph_DEFINED
 #
 include
 "
-GrPath
+GrRect
 .
 h
 "
 #
 include
 "
-GrRect
+SkPath
 .
 h
 "
@@ -100,7 +100,7 @@ GrAtlas
 *
 fAtlas
 ;
-GrPath
+SkPath
 *
 fPath
 ;

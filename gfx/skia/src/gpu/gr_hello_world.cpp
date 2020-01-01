@@ -36,6 +36,8 @@ file
 #
 include
 "
+gl
+/
 SkGLCanvas
 .
 h
@@ -57,6 +59,8 @@ h
 #
 include
 "
+gl
+/
 SkGpuGLShaders
 .
 h

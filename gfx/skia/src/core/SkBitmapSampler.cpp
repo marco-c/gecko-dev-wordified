@@ -1627,6 +1627,10 @@ true
 tmx
 tmy
 )
+fColor
+(
+0
+)
 {
 fProcTable
 =
@@ -1919,6 +1923,10 @@ bm
 false
 tmx
 tmy
+)
+fProcTable
+(
+NULL
 )
 {
 }

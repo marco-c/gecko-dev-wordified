@@ -279,7 +279,8 @@ global_enumerate
 JSContext
 *
 cx
-JSHandleObject
+JSObject
+*
 obj
 )
 {
@@ -308,11 +309,12 @@ global_resolve
 JSContext
 *
 cx
-JSHandleObject
+JSObject
+*
 obj
-JSHandleId
+jsval
 id
-unsigned
+uintN
 flags
 JSObject
 *
@@ -691,6 +693,7 @@ JSResolveOp
 )
 global_resolve
 JS_ConvertStub
+JS_FinalizeStub
 }
 ;
 SkJS

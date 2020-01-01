@@ -81,8 +81,7 @@ b
 SkClipStack
 (
 )
-{
-}
+;
 SkClipStack
 &
 operator
@@ -166,11 +165,6 @@ SkRegion
 :
 Op
 op
-=
-SkRegion
-:
-:
-kIntersect_Op
 )
 {
 SkRect
@@ -276,6 +270,10 @@ SkRegion
 :
 :
 kIntersect_Op
+)
+fDoAA
+(
+false
 )
 {
 }

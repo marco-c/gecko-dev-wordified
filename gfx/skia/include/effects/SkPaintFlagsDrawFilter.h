@@ -78,17 +78,6 @@ Type
 ;
 private
 :
-uint32_t
-fPrevFlags
-;
-/
-/
-local
-cache
-for
-filter
-/
-restore
 uint16_t
 fClearFlags
 ;

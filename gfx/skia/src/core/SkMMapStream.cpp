@@ -92,6 +92,10 @@ initialize
 to
 failure
 case
+fSize
+=
+0
+;
 int
 fildes
 =

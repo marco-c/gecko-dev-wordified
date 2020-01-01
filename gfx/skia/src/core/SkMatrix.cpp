@@ -14584,6 +14584,7 @@ return
 gIdentity
 ;
 }
+;
 const
 SkMatrix
 &

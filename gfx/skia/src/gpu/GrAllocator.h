@@ -42,6 +42,13 @@ GrAllocator_DEFINED
 #
 include
 "
+GrNoncopyable
+.
+h
+"
+#
+include
+"
 GrConfig
 .
 h

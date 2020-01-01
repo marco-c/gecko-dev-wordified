@@ -100,8 +100,10 @@ needs
 to
 see
 it
-SkMutex
+SK_DECLARE_GLOBAL_MUTEX
+(
 gImageRefMutex
+)
 ;
 /
 /

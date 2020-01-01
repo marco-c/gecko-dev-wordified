@@ -56,6 +56,12 @@ SkCubicClipper
 (
 )
 {
+fClip
+.
+setEmpty
+(
+)
+;
 }
 void
 SkCubicClipper

@@ -575,6 +575,11 @@ SkMask
 :
 CreateMode
 mode
+SkPaint
+:
+:
+Style
+style
 )
 ;
 enum
@@ -827,10 +832,9 @@ length
 const
 SkPaint
 &
+paint
 bool
 applyStrokeAndPathEffects
-bool
-forceLinearTextOn
 )
 ;
 ~

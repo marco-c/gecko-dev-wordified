@@ -42,6 +42,8 @@ GrGpuVertex_DEFINED
 #
 include
 "
+gl
+/
 GrGLConfig
 .
 h
