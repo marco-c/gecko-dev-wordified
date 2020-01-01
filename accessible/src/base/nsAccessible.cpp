@@ -17753,7 +17753,7 @@ aCachedChild
 {
 #
 ifdef
-DEBUG_A11Y
+DEBUG
 /
 /
 All
@@ -17824,7 +17824,7 @@ are
 stored
 but
 not
-initailzied
+initialized
 !
 "
 )
@@ -17832,6 +17832,10 @@ initailzied
 return
 ;
 }
+nsAccessible
+*
+child
+;
 for
 (
 PRInt32
@@ -17848,8 +17852,6 @@ childIdx
 +
 )
 {
-nsAccessible
-*
 child
 =
 GetChildAt

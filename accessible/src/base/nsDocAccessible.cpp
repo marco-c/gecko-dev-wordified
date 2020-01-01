@@ -3464,7 +3464,7 @@ for
 us
 #
 ifdef
-DEBUG_A11Y
+DEBUG
 /
 /
 All
@@ -12440,7 +12440,7 @@ if
 aChangeType
 =
 =
-nsIAccessibleEvent
+nsIAccessibilityService
 :
 :
 NODE_APPEND
@@ -12507,7 +12507,7 @@ hasAccessible
 else
 if
 (
-aChangeEventType
+aChangeType
 =
 =
 nsIAccessibilityService
