@@ -1764,9 +1764,6 @@ TEXT_IS_RTL
 PRUint32
 length
 ;
-PRBool
-isInCache
-;
 if
 (
 test
@@ -1803,9 +1800,9 @@ string
 ;
 textRun
 =
-gTextRunCache
--
->
+gfxTextRunWordCache
+:
+:
 MakeTextRun
 (
 NS_REINTERPRET_CAST
@@ -1822,8 +1819,6 @@ fontGroup
 &
 params
 flags
-&
-isInCache
 )
 ;
 }
@@ -1864,9 +1859,9 @@ Length
 ;
 textRun
 =
-gTextRunCache
--
->
+gfxTextRunWordCache
+:
+:
 MakeTextRun
 (
 str
@@ -1879,8 +1874,6 @@ fontGroup
 &
 params
 flags
-&
-isInCache
 )
 ;
 }
