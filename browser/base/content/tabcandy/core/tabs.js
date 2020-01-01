@@ -3300,6 +3300,8 @@ null
 }
 ;
 }
+/
+*
 var
 browserWatcher
 =
@@ -3376,6 +3378,8 @@ unload
 }
 )
 ;
+*
+/
 this
 .
 __defineGetter__
@@ -3408,12 +3412,16 @@ unload
 (
 )
 ;
+/
+*
 browserWatcher
 .
 unload
 (
 )
 ;
+*
+/
 }
 )
 ;
