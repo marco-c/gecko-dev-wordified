@@ -4539,8 +4539,6 @@ global
         
 name
 =
-MakeNativeName
-(
 self
 .
 _ctor
@@ -4548,10 +4546,11 @@ _ctor
 identifier
 .
 name
-)
         
 nativeName
 =
+MakeNativeName
+(
 self
 .
 descriptor
@@ -4562,6 +4561,7 @@ get
 (
 name
 name
+)
 )
         
 callGenerator
@@ -22834,6 +22834,8 @@ name
         
 nativeName
 =
+MakeNativeName
+(
 self
 .
 descriptor
@@ -22843,8 +22845,6 @@ binaryNames
 get
 (
 name
-MakeNativeName
-(
 name
 )
 )
@@ -23078,7 +23078,17 @@ self
 )
 :
         
-nativeMethodName
+name
+=
+self
+.
+attr
+.
+identifier
+.
+name
+        
+nativeName
 =
 "
 Get
@@ -23088,11 +23098,15 @@ MakeNativeName
 (
 self
 .
-attr
+descriptor
 .
-identifier
+binaryNames
 .
+get
+(
 name
+name
+)
 )
         
 return
@@ -23105,7 +23119,7 @@ self
 attr
 .
 type
-nativeMethodName
+nativeName
 self
 .
 descriptor
@@ -23341,7 +23355,17 @@ self
 )
 :
         
-nativeMethodName
+name
+=
+self
+.
+attr
+.
+identifier
+.
+name
+        
+nativeName
 =
 "
 Set
@@ -23351,11 +23375,15 @@ MakeNativeName
 (
 self
 .
-attr
+descriptor
 .
-identifier
+binaryNames
 .
+get
+(
 name
+name
+)
 )
         
 return
@@ -23368,7 +23396,7 @@ self
 attr
 .
 type
-nativeMethodName
+nativeName
 self
 .
 descriptor
