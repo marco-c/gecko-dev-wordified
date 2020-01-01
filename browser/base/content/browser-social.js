@@ -2638,13 +2638,6 @@ return
 SocialUI
 .
 enabled
-&
-&
-Social
-.
-haveLoggedInUser
-(
-)
 ;
 }
 /
