@@ -550,10 +550,6 @@ time
 *
 /
 typedef
-JSWord
-intptr_t
-;
-typedef
 JSUint8
 uint8_t
 ;
