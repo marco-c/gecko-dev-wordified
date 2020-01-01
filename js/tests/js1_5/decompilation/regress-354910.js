@@ -761,11 +761,11 @@ function
 )
 {
 (
-delete
 r
 (
 s
 )
+true
 )
 .
 t
