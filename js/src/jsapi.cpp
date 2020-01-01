@@ -36287,7 +36287,7 @@ JSREPORT_ERROR
 errorCallback
 userRef
 errorNumber
-JS_TRUE
+ArgumentsAreASCII
 ap
 )
 ;
@@ -36335,7 +36335,7 @@ JSREPORT_ERROR
 errorCallback
 userRef
 errorNumber
-JS_FALSE
+ArgumentsAreUnicode
 ap
 )
 ;
@@ -36489,7 +36489,7 @@ flags
 errorCallback
 userRef
 errorNumber
-JS_TRUE
+ArgumentsAreASCII
 ap
 )
 ;
@@ -36552,7 +36552,7 @@ flags
 errorCallback
 userRef
 errorNumber
-JS_FALSE
+ArgumentsAreUnicode
 ap
 )
 ;
