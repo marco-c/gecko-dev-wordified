@@ -3571,7 +3571,10 @@ fieldname
 1
 ORDER
 BY
+UPPER
+(
 value
+)
 ASC
 "
 )
