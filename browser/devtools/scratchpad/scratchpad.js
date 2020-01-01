@@ -4904,7 +4904,7 @@ JAVASCRIPT
 showLineNumbers
 :
 true
-placeholderText
+initialText
 :
 initialText
 }
