@@ -780,6 +780,12 @@ aOther
 .
 keyPath
 )
+keyPathArray
+(
+aOther
+.
+keyPathArray
+)
 unique
 (
 aOther
