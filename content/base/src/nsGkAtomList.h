@@ -1235,6 +1235,13 @@ baseline
 )
 GK_ATOM
 (
+bdi
+"
+bdi
+"
+)
+GK_ATOM
+(
 bdo
 "
 bdo
