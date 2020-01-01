@@ -738,6 +738,11 @@ bool
 aIsConference
 )
 ;
+void
+Shutdown
+(
+)
+;
 }
 ;
 END_TELEPHONY_NAMESPACE
