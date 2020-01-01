@@ -693,9 +693,10 @@ aValue
 ;
 virtual
 PRUint64
-NativeState
+NativeLinkState
 (
 )
+const
 ;
 /
 /

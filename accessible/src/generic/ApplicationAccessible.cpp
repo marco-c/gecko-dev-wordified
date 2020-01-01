@@ -1902,6 +1902,7 @@ PRUint64
 *
 aState
 )
+const
 {
 }
 role
