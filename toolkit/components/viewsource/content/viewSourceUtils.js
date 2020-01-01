@@ -1974,6 +1974,7 @@ editorArgs
 =
 [
 ]
+;
 var
 prefs
 =
