@@ -7730,8 +7730,8 @@ ATOM_TO_JSID
 atom
 )
 JSVAL_VOID
-NULL
-NULL
+JS_PropertyStub
+JS_PropertyStub
 JSPROP_PERMANENT
 NULL
 )
@@ -9037,8 +9037,8 @@ ATOM_TO_JSID
 atom
 )
 JSVAL_VOID
-NULL
-NULL
+JS_PropertyStub
+JS_PropertyStub
 JSPROP_PERMANENT
 NULL
 )
@@ -9623,8 +9623,8 @@ ATOM_TO_JSID
 atom
 )
 JSVAL_VOID
-NULL
-NULL
+JS_PropertyStub
+JS_PropertyStub
 JSPROP_PERMANENT
 NULL
 )
