@@ -957,6 +957,10 @@ WrapRunnableNM
 (
 ReleaseTransportFlow
 mTransportFlow
+.
+forget
+(
+)
 )
 NS_DISPATCH_NORMAL
 )
