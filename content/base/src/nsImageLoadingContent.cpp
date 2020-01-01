@@ -615,7 +615,7 @@ h
 #
 include
 "
-nsGenericHTMLElement
+nsGenericElement
 .
 h
 "
@@ -728,6 +728,10 @@ Element
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 ifdef
 DEBUG_chb
@@ -4356,9 +4360,6 @@ if
 corsmode
 =
 =
-nsGenericHTMLElement
-:
-:
 CORS_ANONYMOUS
 )
 {
@@ -4377,9 +4378,6 @@ if
 corsmode
 =
 =
-nsGenericHTMLElement
-:
-:
 CORS_USE_CREDENTIALS
 )
 {
@@ -6520,9 +6518,6 @@ mSuppressed
 mSuppressed
 ;
 }
-nsGenericHTMLElement
-:
-:
 CORSMode
 nsImageLoadingContent
 :
@@ -6532,9 +6527,6 @@ GetCORSMode
 )
 {
 return
-nsGenericHTMLElement
-:
-:
 CORS_NONE
 ;
 }

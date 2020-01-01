@@ -1085,7 +1085,10 @@ if
 inString
 )
 {
-ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 Substring
 (
@@ -1137,7 +1140,10 @@ if
 inString
 )
 {
-ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 Substring
 (

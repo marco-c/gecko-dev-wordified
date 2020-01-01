@@ -3446,7 +3446,10 @@ allEnumBits
 NS_ATTRVALUE_ENUMTABLE_VALUE_NEEDS_TO_UPPER
 )
 {
-ToUpperCase
+nsContentUtils
+:
+:
+ASCIIToUpper
 (
 aResult
 )
@@ -6367,7 +6370,10 @@ tableEntry
 tag
 )
 ;
-ToUpperCase
+nsContentUtils
+:
+:
+ASCIIToUpper
 (
 tag
 )
