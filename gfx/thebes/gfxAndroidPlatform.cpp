@@ -1310,9 +1310,12 @@ false
 ;
 #
 endif
+/
+/
+MOZ_USING_ANDROID_JAVA_WIDGETS
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 /
 /
 On
@@ -1342,9 +1345,6 @@ false
 ;
 #
 endif
-/
-/
-MOZ_USING_ANDROID_JAVA_WIDGETS
 /
 /
 Currently
@@ -1483,7 +1483,7 @@ true
 endif
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 /
 /
 On
