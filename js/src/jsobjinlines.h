@@ -203,6 +203,17 @@ jsinferinlines
 .
 h
 "
+#
+include
+"
+vm
+/
+Shape
+-
+inl
+.
+h
+"
 /
 *
 static
