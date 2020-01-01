@@ -35129,7 +35129,7 @@ simpleImageRender
 ;
 if
 (
-mInstance
+simpleImageRender
 )
 NativeImageDraw
 (
