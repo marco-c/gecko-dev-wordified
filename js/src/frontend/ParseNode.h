@@ -773,6 +773,11 @@ YIELD
 \
 F
 (
+YIELD_STAR
+)
+\
+F
+(
 GENEXP
 )
 \

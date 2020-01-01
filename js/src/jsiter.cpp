@@ -11774,7 +11774,7 @@ name
 T
 impl
 len
-perms
+attrs
 )
 JS_FN
 (
@@ -11787,7 +11787,7 @@ impl
 >
 )
 len
-perms
+attrs
 )
 static
 const
@@ -11814,7 +11814,7 @@ next
 StarGeneratorObject
 star_generator_next
 1
-JSPROP_ROPERM
+0
 )
 JS_METHOD
 (
@@ -11824,7 +11824,7 @@ throw
 StarGeneratorObject
 star_generator_throw
 1
-JSPROP_ROPERM
+0
 )
 JS_FS_END
 }
