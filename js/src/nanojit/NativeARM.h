@@ -1375,6 +1375,14 @@ NIns
 ;
 \
 void
+JMP_far
+(
+NIns
+*
+)
+;
+\
+void
 B_cond_chk
 (
 ConditionCode
