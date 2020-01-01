@@ -97,6 +97,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -108,6 +117,7 @@ mobilemessage
 {
 class
 SmsService
+MOZ_FINAL
 :
 public
 nsISmsService
