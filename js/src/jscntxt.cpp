@@ -3320,6 +3320,12 @@ i
 ]
 .
 name
+(
+unsigned
+long
+long
+int
+)
 *
 (
 uint64
