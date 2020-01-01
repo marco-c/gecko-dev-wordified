@@ -358,7 +358,7 @@ lowerShiftOp
 (
 JSOp
 op
-MInstruction
+MShiftInstruction
 *
 ins
 )

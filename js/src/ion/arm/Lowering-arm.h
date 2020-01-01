@@ -266,6 +266,14 @@ rhs
 )
 ;
 bool
+lowerUrshD
+(
+MUrsh
+*
+mir
+)
+;
+bool
 lowerForALU
 (
 LInstructionHelper

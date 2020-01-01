@@ -286,7 +286,12 @@ BitOpV
 \
 _
 (
-ShiftOp
+ShiftI
+)
+\
+_
+(
+UrshD
 )
 \
 _
