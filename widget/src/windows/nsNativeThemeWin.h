@@ -607,6 +607,11 @@ PRUint8
 aWidgetType
 )
 ;
+PRBool
+ThemeNeedsComboboxDropmarker
+(
+)
+;
 nsNativeThemeWin
 (
 )
