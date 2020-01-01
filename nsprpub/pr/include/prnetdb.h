@@ -4723,7 +4723,8 @@ PR_GetAddrInfoByName
 )
 *
 *
-Lookup
+Look
+up
 a
 host
 by
@@ -5320,6 +5321,7 @@ NULL
 .
 *
 *
+const
 PRAddrInfo
 *
 addrInfo
@@ -5395,9 +5397,8 @@ of
 the
 call
 is
-greater
-than
-zero
+not
+NULL
 .
 *
 *
@@ -5438,7 +5439,6 @@ if
 this
 value
 is
-returned
 NULL
 .
 *
@@ -5642,6 +5642,7 @@ INPUTS
 :
 *
 *
+const
 PRAddrInfo
 *
 addrInfo

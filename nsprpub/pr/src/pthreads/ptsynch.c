@@ -6297,6 +6297,12 @@ BSDI
 |
 defined
 (
+DARWIN
+)
+|
+|
+defined
+(
 SYMBIAN
 )
 /

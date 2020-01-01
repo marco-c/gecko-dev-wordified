@@ -858,6 +858,13 @@ _WIN32
 )
 &
 &
+!
+defined
+(
+_WIN32_WCE
+)
+&
+&
 (
 _MSC_VER
 >
