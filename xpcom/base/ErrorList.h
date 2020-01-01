@@ -5638,8 +5638,6 @@ to
 *
 dom
 /
-src
-/
 base
 /
 domerr
@@ -6046,6 +6044,14 @@ NS_ERROR_DOM_QUOTA_REACHED
 FAILURE
 (
 1014
+)
+)
+ERROR
+(
+NS_ERROR_DOM_JS_EXCEPTION
+FAILURE
+(
+1015
 )
 )
 #
