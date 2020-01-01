@@ -485,7 +485,6 @@ NSSUTIL_VERSION
 6
 .
 0
-Beta
 "
 #
 define
@@ -506,7 +505,7 @@ NSSUTIL_VBUILD
 #
 define
 NSSUTIL_BETA
-PR_TRUE
+PR_FALSE
 SEC_BEGIN_PROTOS
 /
 *
