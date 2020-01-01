@@ -8957,6 +8957,10 @@ mResponseBlob
 =
 nsnull
 ;
+mResultArrayBuffer
+=
+nsnull
+;
 /
 /
 Set
