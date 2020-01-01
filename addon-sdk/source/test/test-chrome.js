@@ -564,7 +564,7 @@ equal
 event
 .
 lineno
-8
+6
 '
 event
 reports
@@ -652,6 +652,8 @@ done
 require
 (
 '
+sdk
+/
 test
 '
 )

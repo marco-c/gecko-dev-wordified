@@ -692,13 +692,6 @@ harness_options
 jetpackID
 "
 ]
-                                 
-harness_options
-[
-"
-preferencesBranch
-"
-]
 )
         
 open
@@ -776,7 +769,7 @@ preferences
 harness_options
 [
 "
-preferencesBranch
+jetpackID
 "
 ]
 )
