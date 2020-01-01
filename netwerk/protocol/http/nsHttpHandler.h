@@ -738,6 +738,15 @@ return
 mUseAlternateProtocol
 ;
 }
+bool
+UseSpdyPersistentSettings
+(
+)
+{
+return
+mSpdyPersistentSettings
+;
+}
 uint32_t
 SpdySendingChunkSize
 (
@@ -2105,6 +2114,9 @@ mCoalesceSpdy
 ;
 bool
 mUseAlternateProtocol
+;
+bool
+mSpdyPersistentSettings
 ;
 uint32_t
 mSpdySendingChunkSize

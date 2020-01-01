@@ -453,6 +453,17 @@ undocumented
 }
 ;
 enum
+settingsFlags
+{
+PERSIST_VALUE
+=
+1
+PERSISTED_VALUE
+=
+2
+}
+;
+enum
 {
 SETTINGS_TYPE_UPLOAD_BW
 =
@@ -500,6 +511,9 @@ SETTINGS_TYPE_INITIAL_WINDOW
 /
 /
 bytes
+for
+flow
+control
 SETTINGS_CLIENT_CERTIFICATE_VECTOR_SIZE
 =
 8
