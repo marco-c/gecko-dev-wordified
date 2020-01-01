@@ -1538,6 +1538,10 @@ InitTabChildGlobalInternal
 nsISupports
 *
 aScope
+const
+nsACString
+&
+aID
 )
 ;
 static
