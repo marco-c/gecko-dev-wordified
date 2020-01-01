@@ -704,10 +704,6 @@ SJISSMModel
 ;
 extern
 SMModel
-UCS2BESMModel
-;
-extern
-SMModel
 HZSMModel
 ;
 extern
