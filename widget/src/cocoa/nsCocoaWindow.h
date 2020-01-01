@@ -1342,6 +1342,13 @@ PRUint16
 aAnimation
 )
 ;
+virtual
+gfxASurface
+*
+GetThebesSurface
+(
+)
+;
 /
 /
 be
