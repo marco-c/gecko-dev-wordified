@@ -1219,7 +1219,9 @@ compile
 JS_ASSERT
 (
 !
-outerChunk
+outerChunkRef
+(
+)
 .
 chunk
 )
@@ -3893,7 +3895,9 @@ u
 \
 n
 "
-outerChunk
+outerChunkRef
+(
+)
 .
 chunk
 -
@@ -3907,7 +3911,9 @@ executableAddress
 )
 unsigned
 (
-outerChunk
+outerChunkRef
+(
+)
 .
 chunk
 -
@@ -13562,7 +13568,9 @@ size
 )
 )
 ;
-outerChunk
+outerChunkRef
+(
+)
 .
 chunk
 =
