@@ -475,6 +475,13 @@ JSScript
 namespace
 js
 {
+struct
+VMFunction
+;
+}
+namespace
+js
+{
 namespace
 ion
 {
@@ -1606,9 +1613,6 @@ hf
 ;
 }
 ;
-struct
-VMFunction
-;
 }
 /
 /
@@ -1624,9 +1628,6 @@ IsMarked
 JSContext
 *
 const
-ion
-:
-:
 VMFunction
 *
 )
