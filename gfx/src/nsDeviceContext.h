@@ -358,7 +358,7 @@ guaranteed
 .
 *
 /
-uint32_t
+int32_t
 AppUnitsPerDevPixel
 (
 )
@@ -1495,7 +1495,7 @@ mHeight
 uint32_t
 mDepth
 ;
-uint32_t
+int32_t
 mAppUnitsPerDevPixel
 ;
 int32_t

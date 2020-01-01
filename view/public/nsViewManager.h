@@ -2160,7 +2160,7 @@ UpdateWidgetGeometry
 (
 )
 ;
-uint32_t
+int32_t
 AppUnitsPerDevPixel
 (
 )

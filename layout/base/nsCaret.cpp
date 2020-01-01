@@ -1634,7 +1634,7 @@ the
 caret
 disappear
 .
-uint32_t
+int32_t
 tpp
 =
 aFrame

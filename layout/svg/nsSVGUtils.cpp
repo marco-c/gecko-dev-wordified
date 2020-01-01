@@ -5206,7 +5206,7 @@ GetPosition
 )
 ;
 }
-uint32_t
+int32_t
 appUnitsPerDevPx
 =
 aFrame

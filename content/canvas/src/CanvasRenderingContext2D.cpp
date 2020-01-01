@@ -12380,7 +12380,7 @@ numRuns
 )
 ;
 const
-uint32_t
+int32_t
 appUnitsPerDevUnit
 =
 mAppUnitsPerDevPixel
@@ -13217,7 +13217,7 @@ dev
 pixel
 conversion
 factor
-uint32_t
+int32_t
 mAppUnitsPerDevPixel
 ;
 /

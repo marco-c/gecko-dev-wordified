@@ -5062,10 +5062,10 @@ helpers
 void
 GetAppUnitsValues
 (
-uint32_t
+int32_t
 *
 perDevPixel
-uint32_t
+int32_t
 *
 perCSSPixel
 )
@@ -5087,12 +5087,12 @@ return
 something
 generic
 .
-uint32_t
+int32_t
 devPixel
 =
 60
 ;
-uint32_t
+int32_t
 cssPixel
 =
 60

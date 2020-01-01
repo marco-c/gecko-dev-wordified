@@ -4177,7 +4177,7 @@ return
 false
 ;
 }
-uint32_t
+int32_t
 oldAppUnitsPerDevPixel
 =
 mAppUnitsPerDevPixel
