@@ -728,6 +728,14 @@ aData
 NS_IMETHOD
 RulesMatching
 (
+PseudoElementRuleProcessorData
+*
+aData
+)
+;
+NS_IMETHOD
+RulesMatching
+(
 PseudoRuleProcessorData
 *
 aData
