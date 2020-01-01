@@ -2,6 +2,8 @@
 line
 3
 "
+generated
+/
 glslang
 .
 cpp
@@ -15566,6 +15568,9 @@ parseContextLocal
 ;
 if
 (
+ret
+|
+|
 cpp
 -
 >
@@ -15602,6 +15607,7 @@ return
 void
 yyerror
 (
+const
 char
 *
 s

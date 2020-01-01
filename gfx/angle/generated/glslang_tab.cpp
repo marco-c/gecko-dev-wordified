@@ -720,6 +720,7 @@ extern
 void
 yyerror
 (
+const
 char
 *
 )

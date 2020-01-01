@@ -95,7 +95,7 @@ EbpMedium
 EbpHigh
 }
 ;
-__inline
+inline
 const
 char
 *
@@ -217,7 +217,7 @@ deprecated
 ?
 }
 ;
-__inline
+inline
 bool
 IsSampler
 (
@@ -465,7 +465,7 @@ above
 .
 /
 /
-__inline
+inline
 const
 char
 *

@@ -105,6 +105,14 @@ TType
 t
 )
 :
+error
+(
+false
+)
+index
+(
+0
+)
 unionArray
 (
 cUnion
@@ -129,9 +137,9 @@ symbolTable
 (
 symTable
 )
-error
+size
 (
-false
+0
 )
 isMatrix
 (
@@ -142,10 +150,6 @@ matrixSize
 0
 )
 {
-index
-=
-0
-;
 }
 bool
 error
