@@ -480,6 +480,13 @@ h
 #
 include
 "
+nsPoint
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -2495,6 +2502,11 @@ activate
 the
 next
 popup
+specified
+by
+/
+/
+aPopup
 to
 be
 opened
@@ -2505,6 +2517,9 @@ SetMouseLocation
 nsIDOMEvent
 *
 aEvent
+nsIContent
+*
+aPopup
 )
 ;
 /
@@ -4270,6 +4285,9 @@ mRangeParent
 ;
 PRInt32
 mRangeOffset
+;
+nsPoint
+mCachedMousePoint
 ;
 /
 /
