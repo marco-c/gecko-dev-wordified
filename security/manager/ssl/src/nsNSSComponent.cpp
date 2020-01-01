@@ -8287,9 +8287,6 @@ nsITimer
 timer
 )
 {
-nsresult
-rv
-;
 /
 /
 Timer
@@ -8319,8 +8316,6 @@ First
 handle
 this
 download
-rv
-=
 DownloadCrlSilently
 (
 )
@@ -13254,11 +13249,6 @@ if
 mPSMContentListener
 )
 {
-nsresult
-rv
-=
-NS_ERROR_FAILURE
-;
 nsCOMPtr
 <
 nsIURILoader
@@ -13276,8 +13266,6 @@ if
 dispatcher
 )
 {
-rv
-=
 dispatcher
 -
 >

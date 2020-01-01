@@ -2862,9 +2862,6 @@ str
 =
 nsnull
 ;
-KeyType
-type
-;
 PRUint32
 keyGenMechanism
 ;
@@ -3061,10 +3058,6 @@ rsa
 )
 )
 {
-type
-=
-rsaKey
-;
 keyGenMechanism
 =
 CKM_RSA_PKCS_KEY_PAIR_GEN
@@ -3108,10 +3101,6 @@ goto
 loser
 ;
 }
-type
-=
-dsaKey
-;
 keyGenMechanism
 =
 CKM_DSA_KEY_PAIR_GEN
@@ -3249,10 +3238,6 @@ goto
 loser
 ;
 }
-type
-=
-ecKey
-;
 keyGenMechanism
 =
 CKM_EC_KEY_PAIR_GEN

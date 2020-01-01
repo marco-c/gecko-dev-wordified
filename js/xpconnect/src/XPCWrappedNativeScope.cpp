@@ -1529,11 +1529,6 @@ here
 nsnull
 /
 /
-reserved0
-;
-nsnull
-/
-/
 checkAccess
 ;
 nsnull
@@ -1545,11 +1540,6 @@ nsnull
 /
 /
 construct
-;
-nsnull
-/
-/
-xdrObject
 ;
 nsnull
 /

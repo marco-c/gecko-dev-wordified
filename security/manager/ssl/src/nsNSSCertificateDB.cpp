@@ -963,6 +963,8 @@ dummy
 CERTIssuerAndSN
 issuerSN
 ;
+/
+/
 unsigned
 long
 moduleID
@@ -1048,6 +1050,8 @@ the
 moduleID
 and
 slotID
+/
+/
 moduleID
 =
 NS_NSS_GET_LONG
@@ -1057,6 +1061,8 @@ keyItem
 data
 )
 ;
+/
+/
 slotID
 =
 NS_NSS_GET_LONG
@@ -6947,9 +6953,6 @@ PRUint32
 i
 count
 ;
-nsresult
-rv
-;
 /
 /
 Are
@@ -7069,8 +7072,6 @@ to
 nickname
 /
 /
-rv
-=
 array
 -
 >
@@ -7325,9 +7326,6 @@ _certNames
 nsNSSShutDownPreventionLock
 locker
 ;
-nsresult
-rv
-;
 CERTCertListNode
 *
 node
@@ -7535,8 +7533,6 @@ NULL
 nsAutoString
 certstr
 ;
-rv
-=
 pipCert
 .
 GetDbKey

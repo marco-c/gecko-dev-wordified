@@ -479,6 +479,10 @@ which
 is
 a
 typedef
+#
+define
+NS_DEFAULT_VERTICAL_SCROLL_DISTANCE
+3
 class
 nsBoxLayoutState
 ;

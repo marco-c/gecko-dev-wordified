@@ -1036,10 +1036,6 @@ CPOW_Finalize
 nsnull
 /
 /
-reserved1
-nsnull
-/
-/
 checkAccess
 ObjectWrapperParent
 :
@@ -1049,10 +1045,6 @@ ObjectWrapperParent
 :
 :
 CPOW_Construct
-nsnull
-/
-/
-xdrObject
 ObjectWrapperParent
 :
 :
@@ -1060,7 +1052,7 @@ CPOW_HasInstance
 nsnull
 /
 /
-mark
+trace
 {
 ObjectWrapperParent
 :

@@ -2158,12 +2158,6 @@ WeakMap_finalize
 NULL
 /
 *
-reserved0
-*
-/
-NULL
-/
-*
 checkAccess
 *
 /
@@ -2183,12 +2177,6 @@ NULL
 /
 *
 xdrObject
-*
-/
-NULL
-/
-*
-hasInstance
 *
 /
 WeakMap_mark
