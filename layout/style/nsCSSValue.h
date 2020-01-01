@@ -1805,6 +1805,17 @@ float
 pi
 per
 circle
+eCSSUnit_Turn
+=
+1003
+/
+/
+(
+float
+)
+1
+per
+circle
 /
 /
 Frequency
@@ -2356,7 +2367,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Radian
+eCSSUnit_Turn
 ;
 }
 bool
@@ -2561,7 +2572,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Radian
+eCSSUnit_Turn
 "
 not
 an

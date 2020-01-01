@@ -24882,6 +24882,16 @@ VARIANT_ANGLE
 STR_WITH_LEN
 (
 "
+turn
+"
+)
+eCSSUnit_Turn
+VARIANT_ANGLE
+}
+{
+STR_WITH_LEN
+(
+"
 hz
 "
 )
