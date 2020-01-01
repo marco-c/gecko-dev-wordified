@@ -19857,6 +19857,16 @@ NS_STYLE_BG_ATTACHMENT_FIXED
 aLayer
 .
 mAttachment
+&
+&
+!
+aLayer
+.
+mImage
+.
+IsEmpty
+(
+)
 )
 {
 /
