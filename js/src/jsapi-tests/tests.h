@@ -2516,6 +2516,11 @@ JSObject
 *
 createGlobal
 (
+JSPrincipals
+*
+principals
+=
+NULL
 )
 {
 /
@@ -2537,7 +2542,7 @@ cx
 getGlobalClass
 (
 )
-NULL
+principals
 )
 ;
 if
