@@ -1959,7 +1959,7 @@ value
 )
 mFlags
 (
-0
+flags
 )
 mIsRecvBinary
 (
