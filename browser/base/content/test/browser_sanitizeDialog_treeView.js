@@ -3089,12 +3089,6 @@ treeBoxObject
 .
 treeBody
 ;
-treechildren
-.
-focus
-(
-)
-;
 for
 (
 let
@@ -3116,6 +3110,7 @@ EventUtils
 sendKey
 (
 key
+treechildren
 )
 ;
 }

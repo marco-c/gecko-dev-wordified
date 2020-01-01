@@ -869,7 +869,7 @@ sendKey
 "
 return
 "
-ruleDialog
+input
 )
 ;
 }
@@ -1069,7 +1069,7 @@ EventUtils
 sendChar
 (
 ch
-ruleDialog
+input
 )
 ;
 }
@@ -1095,7 +1095,7 @@ EventUtils
 sendChar
 (
 ch
-ruleDialog
+input
 )
 ;
 }

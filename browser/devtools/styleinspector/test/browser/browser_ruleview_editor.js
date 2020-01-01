@@ -285,6 +285,11 @@ sendKey
 "
 return
 "
+span
+.
+inplaceEditor
+.
+input
 )
 ;
 }
@@ -465,6 +470,7 @@ EventUtils
 sendChar
 (
 ch
+input
 )
 ;
 }
@@ -543,6 +549,11 @@ sendKey
 "
 escape
 "
+span
+.
+inplaceEditor
+.
+input
 )
 ;
 }
