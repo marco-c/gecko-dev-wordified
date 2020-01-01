@@ -2065,7 +2065,10 @@ aName
 {
 switch
 (
-GetCompositorBackendType
+Compositor
+:
+:
+GetBackend
 (
 )
 )

@@ -350,7 +350,10 @@ NeedsWidgetInvalidation
 MOZ_OVERRIDE
 {
 return
-GetCompositorBackendType
+Compositor
+:
+:
+GetBackend
 (
 )
 =
