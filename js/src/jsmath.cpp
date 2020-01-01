@@ -1375,7 +1375,7 @@ y
 {
 z
 =
-fd_copysign
+js_copysign
 (
 M_PI
 /
@@ -1435,7 +1435,7 @@ y
 {
 z
 =
-fd_copysign
+js_copysign
 (
 M_PI
 x
@@ -2173,7 +2173,7 @@ x
 z
 &
 &
-fd_copysign
+js_copysign
 (
 1
 .
@@ -2426,7 +2426,7 @@ x
 z
 &
 &
-fd_copysign
+js_copysign
 (
 1
 .
@@ -3299,7 +3299,7 @@ JS_FALSE
 ;
 z
 =
-fd_copysign
+js_copysign
 (
 floor
 (
@@ -3780,7 +3780,7 @@ p
 d
 &
 &
-fd_copysign
+js_copysign
 (
 1
 .
