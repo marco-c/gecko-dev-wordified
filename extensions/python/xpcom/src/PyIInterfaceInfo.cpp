@@ -695,7 +695,7 @@ r
 pI
 -
 >
-GetIIDShared
+GetInterfaceIID
 (
 &
 iid_ret
@@ -726,6 +726,14 @@ Py_nsIID
 PyObjectFromIID
 (
 *
+iid_ret
+)
+;
+nsMemory
+:
+:
+Free
+(
 iid_ret
 )
 ;
