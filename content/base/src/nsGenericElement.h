@@ -788,15 +788,6 @@ NS_DECL_NSIDOMNODELIST
 nsINodeList
 interface
 virtual
-nsIContent
-*
-GetNodeAt
-(
-PRUint32
-aIndex
-)
-;
-virtual
 PRInt32
 IndexOf
 (

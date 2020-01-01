@@ -39020,7 +39020,7 @@ binding
 HTMLCollection
 :
 :
-objIsList
+objIsWrapper
 (
 obj
 )
@@ -39042,7 +39042,7 @@ binding
 HTMLCollection
 :
 :
-getListObject
+getNative
 (
 obj
 )
