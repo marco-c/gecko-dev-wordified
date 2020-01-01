@@ -93,13 +93,6 @@ MPL
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 RenderTrace
 .
 h
@@ -120,6 +113,13 @@ code
 #
 ifdef
 MOZ_RENDERTRACE
+#
+include
+"
+Layers
+.
+h
+"
 namespace
 mozilla
 {

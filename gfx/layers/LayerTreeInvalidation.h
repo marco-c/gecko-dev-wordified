@@ -103,8 +103,15 @@ nsRegion
 .
 h
 "
+/
+/
+for
+nsIntRegion
 class
 nsPresContext
+;
+struct
+nsIntPoint
 ;
 namespace
 mozilla
