@@ -3067,8 +3067,9 @@ close
 (
 )
         
-if
-(
+try
+:
+            
 self
 .
 _devicemanager
@@ -3080,18 +3081,18 @@ options
 .
 remoteProfile
 )
-=
-=
-None
-)
-:
-            
-raise
+        
+except
 devicemanager
 .
-FileError
-(
+DMError
+:
+            
+print
 "
+Automation
+Error
+:
 Failed
 to
 copy
@@ -3099,7 +3100,8 @@ profiledir
 to
 device
 "
-)
+            
+raise
     
 def
 copyExtraFilesToProfile
@@ -3119,8 +3121,9 @@ options
 profileDir
 )
         
-if
-(
+try
+:
+            
 self
 .
 _devicemanager
@@ -3132,18 +3135,18 @@ options
 .
 remoteProfile
 )
-=
-=
-None
-)
-:
-            
-raise
+        
+except
 devicemanager
 .
-FileError
-(
+DMError
+:
+            
+print
 "
+Automation
+Error
+:
 Failed
 to
 copy
@@ -3152,7 +3155,8 @@ files
 to
 device
 "
-)
+            
+raise
     
 def
 getManifestPath

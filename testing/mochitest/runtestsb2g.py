@@ -125,6 +125,8 @@ runtests
 import
 MochitestServer
 import
+devicemanager
+import
 devicemanagerADB
 import
 manifestparser
@@ -3368,7 +3370,9 @@ remoteProfile
 ]
 )
         
-if
+try
+:
+            
 self
 .
 _dm
@@ -3382,17 +3386,18 @@ self
 .
 remoteProfile
 )
-=
-=
-None
-:
-            
-raise
+        
+except
 devicemanager
 .
-FileError
-(
+DMError
+:
+            
+print
 "
+Automation
+Error
+:
 Unable
 to
 copy
@@ -3401,7 +3406,8 @@ to
 device
 .
 "
-)
+            
+raise
         
 #
 In

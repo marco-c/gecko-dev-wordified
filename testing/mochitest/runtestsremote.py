@@ -2518,7 +2518,9 @@ self
 remoteProfile
 )
         
-if
+try
+:
+            
 self
 .
 _dm
@@ -2532,17 +2534,18 @@ self
 .
 remoteProfile
 )
-=
-=
-None
-:
-            
-raise
+        
+except
 devicemanager
 .
-FileError
-(
+DMError
+:
+            
+print
 "
+Automation
+Error
+:
 Unable
 to
 copy
@@ -2551,7 +2554,8 @@ to
 device
 .
 "
-)
+            
+raise
         
 options
 .
@@ -2621,7 +2625,9 @@ browser
 chrome
 )
         
-if
+try
+:
+            
 self
 .
 _dm
@@ -2635,17 +2641,18 @@ self
 .
 remoteProfile
 )
-=
-=
-None
-:
-            
-raise
+        
+except
 devicemanager
 .
-FileError
-(
+DMError
+:
+            
+print
 "
+Automation
+Error
+:
 Unable
 to
 copy
@@ -2654,7 +2661,8 @@ to
 device
 .
 "
-)
+            
+raise
         
 options
 .
@@ -2751,7 +2759,9 @@ basename
 filename
 )
         
-if
+try
+:
+            
 self
 .
 _dm
@@ -2761,17 +2771,18 @@ pushFile
 filename
 manifest
 )
-=
-=
-False
-:
-            
-raise
+        
+except
 devicemanager
 .
-FileError
-(
+DMError
+:
+            
+print
 "
+Automation
+Error
+:
 Unable
 to
 install
@@ -2781,7 +2792,8 @@ on
 device
 .
 "
-)
+            
+raise
         
 return
 manifest
