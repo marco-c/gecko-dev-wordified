@@ -645,6 +645,9 @@ mUnicodeFont
 |
 |
 mSymbolFont
+|
+|
+mIsType1
 )
 ;
 }
