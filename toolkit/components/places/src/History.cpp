@@ -5212,13 +5212,13 @@ History
 (
 )
 :
-mShuttingDown
-(
-false
-)
 syncStatements
 (
 mDBConn
+)
+mShuttingDown
+(
+false
 )
 {
 NS_ASSERTION
@@ -5250,9 +5250,6 @@ nsIObserverService
 >
 os
 =
-mozilla
-:
-:
 services
 :
 :
