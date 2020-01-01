@@ -3165,6 +3165,12 @@ do_GetCurrentThread
 (
 )
 ;
+nsAutoSyncOperation
+sync
+(
+this
+)
+;
 mLoopingForSyncLoad
 =
 true

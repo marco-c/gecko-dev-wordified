@@ -1792,6 +1792,9 @@ return
 NS_OK
 ;
 }
+nsAutoMicroTask
+mt
+;
 JSContext
 *
 cx

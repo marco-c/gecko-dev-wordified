@@ -853,6 +853,9 @@ return
 NS_OK
 ;
 }
+nsAutoMicroTask
+mt
+;
 /
 /
 EvaluateStringWithValue

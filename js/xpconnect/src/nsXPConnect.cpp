@@ -633,6 +633,13 @@ nsWrapperCacheInlines
 .
 h
 "
+#
+include
+"
+nsDOMMutationObserver
+.
+h
+"
 NS_IMPL_THREADSAFE_ISUPPORTS7
 (
 nsXPConnect
@@ -14162,6 +14169,13 @@ nsJSContext
 :
 :
 MaybePokeCC
+(
+)
+;
+nsDOMMutationObserver
+:
+:
+HandleMutations
 (
 )
 ;

@@ -4813,6 +4813,9 @@ result
 )
 )
 {
+nsAutoMicroTask
+mt
+;
 /
 /
 nsIDOMEvent

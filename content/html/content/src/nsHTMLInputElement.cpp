@@ -2274,6 +2274,13 @@ dialog
 PRInt16
 mode
 ;
+{
+nsAutoSyncOperation
+sync
+(
+doc
+)
+;
 rv
 =
 filePicker
@@ -2285,6 +2292,7 @@ Show
 mode
 )
 ;
+}
 NS_ENSURE_SUCCESS
 (
 rv

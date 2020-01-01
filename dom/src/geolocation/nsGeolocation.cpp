@@ -1320,6 +1320,9 @@ nsnull
 )
 return
 ;
+nsAutoMicroTask
+mt
+;
 aCallback
 -
 >
@@ -2436,6 +2439,9 @@ return
 /
 silently
 fail
+nsAutoMicroTask
+mt
+;
 mCallback
 -
 >
