@@ -3066,6 +3066,11 @@ mozIStorageConnection
 _connection
 )
 {
+NS_ENSURE_ARG
+(
+aDatabaseFile
+)
+;
 #
 ifdef
 NS_FUNCTION_TIMER
