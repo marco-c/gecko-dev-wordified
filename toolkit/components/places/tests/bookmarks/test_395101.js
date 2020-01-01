@@ -840,9 +840,10 @@ b1
 ;
 /
 /
-only
-exact
+partial
 matches
+are
+okay
 query
 .
 searchTerms
@@ -880,7 +881,7 @@ do_check_eq
 rootNode
 .
 childCount
-0
+1
 )
 ;
 /
