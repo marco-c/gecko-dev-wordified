@@ -430,12 +430,6 @@ x87
 regs
 xmm
 regs
-const
-int
-NJ_STACK_OFFSET
-=
-0
-;
 /
 /
 WARNING
