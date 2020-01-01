@@ -4932,13 +4932,6 @@ handler
 "
 )
 ;
-context
--
->
-ReportPendingException
-(
-)
-;
 return
 NS_SUCCESS_LOSS_OF_INSIGNIFICANT_DATA
 ;
