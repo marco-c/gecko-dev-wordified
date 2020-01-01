@@ -15480,17 +15480,6 @@ update
 "
 )
 ;
-this
-.
-_updatePrefs
-.
-QueryInterface
-(
-Ci
-.
-nsIPrefBranch2
-)
-;
 }
 shutdown
 :

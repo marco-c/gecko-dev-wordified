@@ -1176,7 +1176,7 @@ getService
 (
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 gBlocklist

@@ -4174,13 +4174,6 @@ getBranch
 (
 PREF_BRANCH
 )
-.
-QueryInterface
-(
-Ci
-.
-nsIPrefBranch2
-)
 ;
 this
 .

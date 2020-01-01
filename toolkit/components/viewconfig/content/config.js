@@ -622,15 +622,6 @@ getBranch
 (
 null
 )
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIPrefBranch2
-)
 ;
 const
 gClipboardHelper

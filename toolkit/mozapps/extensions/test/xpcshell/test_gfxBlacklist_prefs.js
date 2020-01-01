@@ -628,7 +628,7 @@ getService
 (
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 do_check_eq
@@ -818,7 +818,7 @@ getService
 (
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 var

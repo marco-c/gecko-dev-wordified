@@ -490,7 +490,7 @@ prefs
 "
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 checkService

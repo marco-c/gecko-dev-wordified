@@ -665,13 +665,6 @@ lightweightThemes
 .
 "
 )
-.
-QueryInterface
-(
-Ci
-.
-nsIPrefBranch2
-)
 ;
 }
 )
