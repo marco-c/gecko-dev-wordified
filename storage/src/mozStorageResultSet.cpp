@@ -745,6 +745,11 @@ mozIStorageRow
 _row
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+_row
+)
+;
 if
 (
 mCurrentIndex
