@@ -629,9 +629,8 @@ autostart
 true
 )
 ;
-do_timeout
+do_execute_soon
 (
-0
 run_test_pt1
 )
 ;
@@ -870,11 +869,7 @@ autoStarted
 ;
 /
 /
-Use
-a
-timeout
-to
-give
+Give
 private
 browsing
 time
@@ -882,9 +877,8 @@ to
 reset
 necko
 .
-do_timeout
+do_execute_soon
 (
-0
 run_test_pt2
 )
 ;
