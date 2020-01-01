@@ -9609,6 +9609,13 @@ GetSafeJSContext
 (
 )
 ;
+static
+JSContext
+*
+GetDefaultJSContextForThread
+(
+)
+;
 /
 *
 *
