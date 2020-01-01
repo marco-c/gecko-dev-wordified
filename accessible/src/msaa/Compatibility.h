@@ -747,6 +747,15 @@ SEROTEK
 COBRA
 =
 6
+ZOOMTEXT
+=
+7
+KAZAGURU
+=
+8
+YOUDAO
+=
+9
 }
 ;
 private

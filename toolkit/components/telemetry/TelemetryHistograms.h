@@ -602,8 +602,8 @@ HISTOGRAM
 (
 A11Y_CONSUMERS
 1
-6
-7
+9
+10
 LINEAR
 "
 Accessibility
