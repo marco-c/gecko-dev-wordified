@@ -26875,6 +26875,7 @@ rval
 prim_do_fast_inc_dec
 (
 cx
+regs
 rval
 incr
 *
@@ -26884,6 +26885,7 @@ vp
 prim_do_fast_inc_dec
 (
 cx
+regs
 rval
 incr2
 rtmp

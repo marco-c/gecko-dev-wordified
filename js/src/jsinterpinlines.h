@@ -2641,6 +2641,9 @@ prim_do_fast_inc_dec
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 jsval
 &
 a
