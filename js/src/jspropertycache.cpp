@@ -2596,7 +2596,9 @@ cx
 fp
 -
 >
-imacpc
+hasIMacroPC
+(
+)
 ?
 cx
 -
@@ -2604,7 +2606,9 @@ cx
 fp
 -
 >
-imacpc
+getIMacroPC
+(
+)
 :
 pc
 )

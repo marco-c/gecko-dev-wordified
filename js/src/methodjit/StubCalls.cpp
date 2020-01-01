@@ -13682,7 +13682,9 @@ f
 fp
 -
 >
-imacpc
+hasIMacroPC
+(
+)
 ?
 JSGET_NO_METHOD_BARRIER
 :
@@ -13732,7 +13734,9 @@ f
 fp
 -
 >
-imacpc
+hasIMacroPC
+(
+)
 ?
 JSGET_CACHE_RESULT
 |

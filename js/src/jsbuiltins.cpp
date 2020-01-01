@@ -2133,7 +2133,9 @@ if
 fp
 -
 >
-imacpc
+hasIMacroPC
+(
+)
 )
 return
 JS_FALSE
