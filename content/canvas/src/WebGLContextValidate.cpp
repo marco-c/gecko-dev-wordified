@@ -2887,12 +2887,6 @@ Clear
 (
 )
 ;
-mMapRenderbuffers
-.
-Clear
-(
-)
-;
 MakeContextCurrent
 (
 )
