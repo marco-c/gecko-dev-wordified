@@ -35455,6 +35455,12 @@ je_free
 a
 )
 #
+if
+defined
+(
+WIN32_NEW_STYLE_JEMALLOC
+)
+#
 define
 memalign
 (
@@ -35466,6 +35472,8 @@ je_memalign
 a
 b
 )
+#
+endif
 #
 define
 posix_memalign
