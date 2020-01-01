@@ -1410,7 +1410,7 @@ currentTest
 =
 tests
 .
-push
+shift
 (
 )
 ;
