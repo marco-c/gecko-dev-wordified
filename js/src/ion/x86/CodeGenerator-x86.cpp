@@ -868,6 +868,10 @@ masm
 .
 cmpl
 (
+ToOperand
+(
+type
+)
 Imm32
 (
 MIRTypeToTag
@@ -879,10 +883,6 @@ type
 (
 )
 )
-)
-ToOperand
-(
-type
 )
 )
 ;
