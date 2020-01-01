@@ -4191,6 +4191,9 @@ Audio
 }
 #
 endif
+#
+ifdef
+MOZ_RAW
 {
 VIDEO_RAW
 "
@@ -4202,6 +4205,8 @@ YUV
 Video
 "
 }
+#
+endif
 {
 AUDIO_WAV
 "
