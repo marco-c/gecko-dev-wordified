@@ -36,8 +36,11 @@ we
 migrate
 data
 from
-SQLITE
-databases
+future
+versions
+of
+the
+database
 /
 /
 Note
@@ -1398,7 +1401,7 @@ extensions
 .
 databaseSchema
 "
-14
+100
 )
 ;
 db
