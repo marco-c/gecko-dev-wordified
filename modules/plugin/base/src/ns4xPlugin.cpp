@@ -10518,6 +10518,14 @@ refCnt
 0
 )
 {
+nsNPObjWrapper
+:
+:
+OnDestroy
+(
+npobj
+)
+;
 if
 (
 npobj
