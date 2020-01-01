@@ -1839,9 +1839,8 @@ mouse
 over
 a
 line
-*
-annotation
 .
+*
 The
 event
 object
@@ -1896,9 +1895,8 @@ pointer
 enters
 a
 line
-*
-annotation
 .
+*
 The
 event
 object
@@ -1953,9 +1951,8 @@ pointer
 exits
 a
 line
-*
-annotation
 .
+*
 The
 event
 object
