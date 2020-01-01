@@ -1460,12 +1460,6 @@ nsICaret
 >
 mCaret
 ;
-nsCOMPtr
-<
-nsICaret
->
-mOtherCaret
-;
 PRBool
 mCaretDrawn
 ;
