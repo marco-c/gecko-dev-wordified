@@ -180,6 +180,8 @@ _result
 securityInfo
 true
 flags
+&
+ANONYMOUS_CONNECT
 )
 ;
 return
@@ -251,6 +253,8 @@ aSocket
 securityInfo
 true
 flags
+&
+ANONYMOUS_CONNECT
 )
 ;
 return

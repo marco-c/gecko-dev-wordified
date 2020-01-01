@@ -95,7 +95,6 @@ irccloud
 .
 com
 "
-0
 )
 )
 ;
@@ -166,7 +165,6 @@ irccloud
 .
 com
 "
-0
 )
 )
 ;
@@ -208,7 +206,6 @@ irccloud
 .
 com
 "
-0
 )
 )
 ;
