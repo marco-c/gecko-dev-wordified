@@ -2106,17 +2106,6 @@ GetDocument
 )
 )
 ;
-nsIDocument
-*
-document
-=
-node
--
->
-GetCurrentDoc
-(
-)
-;
 PRInt32
 len
 =
