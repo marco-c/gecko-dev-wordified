@@ -731,15 +731,6 @@ xpcAccessibleTableCell
 )
 /
 /
-nsAccessNode
-virtual
-void
-Init
-(
-)
-;
-/
-/
 Accessible
 virtual
 TableCellAccessible

@@ -1151,12 +1151,6 @@ XULTreeItemAccessibleBase
 nsAccessNode
 virtual
 void
-Init
-(
-)
-;
-virtual
-void
 Shutdown
 (
 )

@@ -334,12 +334,6 @@ NS_DECL_NSIDOCUMENTOBSERVER
 nsAccessNode
 virtual
 void
-Init
-(
-)
-;
-virtual
-void
 Shutdown
 (
 )
@@ -1715,12 +1709,6 @@ CacheChildren
 /
 /
 DocAccessible
-virtual
-nsresult
-AddEventListeners
-(
-)
-;
 virtual
 nsresult
 RemoveEventListeners
