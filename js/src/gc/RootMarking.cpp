@@ -4967,7 +4967,7 @@ endif
 rt
 -
 >
-markSelfHostedGlobal
+markSelfHostingGlobal
 (
 trc
 )
