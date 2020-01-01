@@ -710,11 +710,6 @@ io_tell
 (
 )
 ;
-int
-duration
-(
-)
-;
 public
 :
 nsMediaStream
