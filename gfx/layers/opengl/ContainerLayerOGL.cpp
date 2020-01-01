@@ -2334,10 +2334,12 @@ aManager
 BindAndDrawQuad
 (
 rgb
-aPreviousFrameBuffer
-=
-=
-0
+aManager
+-
+>
+IsDrawingFlipped
+(
+)
 )
 ;
 DEBUG_GL_ERROR_CHECK
