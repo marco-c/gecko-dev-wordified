@@ -990,6 +990,7 @@ eDOMClassInfo_SVGForeignObjectElement_id
 endif
 eDOMClassInfo_XULCommandEvent_id
 eDOMClassInfo_CommandEvent_id
+eDOMClassInfo_OfflineResourceList_id
 /
 /
 This

@@ -826,6 +826,13 @@ h
 #
 include
 "
+nsIDOMOfflineResourceList
+.
+h
+"
+#
+include
+"
 nsPIDOMEventTarget
 .
 h
@@ -897,6 +904,9 @@ nsGlobalWindowObserver
 ;
 class
 nsGlobalWindow
+;
+class
+nsDOMOfflineResourceList
 ;
 /
 /
@@ -4627,6 +4637,12 @@ nsRefPtr
 nsPluginArray
 >
 mPlugins
+;
+nsRefPtr
+<
+nsDOMOfflineResourceList
+>
+mOfflineResources
 ;
 nsIDocShell
 *
