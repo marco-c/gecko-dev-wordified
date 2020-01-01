@@ -1073,13 +1073,6 @@ WrapperMask
 =
 VolatileMask
 ;
-JS_STATIC_ASSERT
-(
-WrapperMask
->
-ArgRegMask
-)
-;
 static
 const
 uint32
