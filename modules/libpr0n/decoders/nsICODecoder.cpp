@@ -481,6 +481,13 @@ h
 #
 include
 "
+Endian
+.
+h
+"
+#
+include
+"
 nsICODecoder
 .
 h
