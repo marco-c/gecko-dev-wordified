@@ -596,9 +596,9 @@ is
 nodes
 .
 length
-1
+2
 "
-Three
+Two
 children
 in
 output
