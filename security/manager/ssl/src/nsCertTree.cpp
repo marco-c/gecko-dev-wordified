@@ -4448,7 +4448,7 @@ cert
 >
 GetUsagesString
 (
-PR_TRUE
+PR_FALSE
 &
 verified
 theUsages
@@ -4456,7 +4456,7 @@ theUsages
 ;
 /
 /
-ignore
+allow
 OCSP
 if
 (
