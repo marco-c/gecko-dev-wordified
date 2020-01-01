@@ -3574,7 +3574,6 @@ mController
 >
 HandleText
 (
-PR_FALSE
 )
 ;
 break
@@ -3621,7 +3620,6 @@ mController
 >
 HandleText
 (
-PR_FALSE
 )
 ;
 break
@@ -4159,7 +4157,6 @@ mController
 >
 HandleText
 (
-PR_FALSE
 )
 ;
 }
@@ -4427,7 +4424,6 @@ mController
 >
 HandleText
 (
-PR_TRUE
 )
 ;
 }
