@@ -473,6 +473,13 @@ h
 #
 include
 "
+jsobj
+.
+h
+"
+#
+include
+"
 jstypedarray
 .
 h
