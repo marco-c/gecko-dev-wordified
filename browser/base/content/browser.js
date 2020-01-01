@@ -30169,6 +30169,10 @@ aOpener
 isExternal
 )
 ;
+if
+(
+browser
+)
 newWindow
 =
 browser
@@ -30337,6 +30341,10 @@ aOpener
 isExternal
 )
 ;
+if
+(
+browser
+)
 return
 browser
 .
@@ -30346,6 +30354,9 @@ Ci
 .
 nsIFrameLoaderOwner
 )
+;
+return
+null
 ;
 }
 isTabContentWindow
