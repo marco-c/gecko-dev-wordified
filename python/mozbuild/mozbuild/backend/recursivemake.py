@@ -586,6 +586,7 @@ __init__
 self
 srcdir
 objdir
+environment
 )
 :
         
@@ -600,6 +601,12 @@ self
 objdir
 =
 objdir
+        
+self
+.
+environment
+=
+environment
         
 self
 .
@@ -1104,6 +1111,12 @@ srcdir
 obj
 .
 objdir
+self
+.
+get_environment
+(
+obj
+)
 )
 )
         
@@ -1235,7 +1248,7 @@ obj
 relpath
 )
             
-self
+backend_file
 .
 environment
 .
@@ -1401,7 +1414,7 @@ path
 '
 )
             
-self
+bf
 .
 environment
 .
