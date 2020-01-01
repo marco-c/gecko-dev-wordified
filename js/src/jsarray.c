@@ -3194,12 +3194,9 @@ stackDummy
 )
 )
 {
-JS_ReportErrorNumber
+js_ReportOverRecursed
 (
 cx
-js_GetErrorMessage
-NULL
-JSMSG_OVER_RECURSED
 )
 ;
 return

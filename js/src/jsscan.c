@@ -1350,7 +1350,7 @@ if
 base
 )
 {
-JS_ReportOutOfMemory
+js_ReportOutOfScriptQuota
 (
 cx
 )
@@ -1484,7 +1484,7 @@ if
 ts
 )
 {
-JS_ReportOutOfMemory
+js_ReportOutOfScriptQuota
 (
 cx
 )

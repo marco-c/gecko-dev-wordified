@@ -7926,7 +7926,7 @@ if
 bitmap
 )
 {
-JS_ReportOutOfMemory
+js_ReportOutOfScriptQuota
 (
 xdr
 -
@@ -11165,7 +11165,7 @@ if
 cp
 )
 {
-JS_ReportOutOfMemory
+js_ReportOutOfScriptQuota
 (
 cx
 )
@@ -14036,7 +14036,7 @@ if
 names
 )
 {
-JS_ReportOutOfMemory
+js_ReportOutOfScriptQuota
 (
 cx
 )

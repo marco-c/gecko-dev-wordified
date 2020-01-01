@@ -3939,7 +3939,7 @@ if
 !
 chars
 )
-JS_ReportOutOfMemory
+js_ReportOutOfScriptQuota
 (
 cx
 )

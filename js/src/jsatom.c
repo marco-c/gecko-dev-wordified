@@ -5313,7 +5313,7 @@ if
 !
 space
 )
-JS_ReportOutOfMemory
+js_ReportOutOfScriptQuota
 (
 cx
 )
@@ -5384,7 +5384,7 @@ if
 ale
 )
 {
-JS_ReportOutOfMemory
+js_ReportOutOfScriptQuota
 (
 cx
 )

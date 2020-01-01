@@ -1062,14 +1062,9 @@ stackDummy
 )
 {
 \
-js_ReportCompileErrorNumber
+js_ReportOverRecursed
 (
 cx
-ts
-NULL
-JSREPORT_ERROR
-\
-JSMSG_OVER_RECURSED
 )
 ;
 \
@@ -1510,7 +1505,7 @@ if
 pob
 )
 {
-JS_ReportOutOfMemory
+js_ReportOutOfScriptQuota
 (
 cx
 )
@@ -1782,7 +1777,7 @@ if
 !
 pn
 )
-JS_ReportOutOfMemory
+js_ReportOutOfScriptQuota
 (
 cx
 )
@@ -37156,12 +37151,9 @@ stackDummy
 )
 )
 {
-JS_ReportErrorNumber
+js_ReportOverRecursed
 (
 cx
-js_GetErrorMessage
-NULL
-JSMSG_OVER_RECURSED
 )
 ;
 return
