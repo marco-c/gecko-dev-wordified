@@ -43383,7 +43383,7 @@ InitWithFuncCallback
 (
 sReflowContinueCallback
 this
-0
+30
 nsITimer
 :
 :
