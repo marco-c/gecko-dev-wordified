@@ -921,7 +921,7 @@ text
 .
 setTextSize
 (
-24
+22
 )
 ;
 }
