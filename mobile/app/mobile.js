@@ -401,7 +401,7 @@ browser
 .
 cachePixelX
 "
-800
+400
 )
 ;
 pref
@@ -413,7 +413,7 @@ browser
 .
 cachePixelY
 "
-2000
+1000
 )
 ;
 pref
@@ -425,7 +425,7 @@ browser
 .
 recacheRatio
 "
-50
+60
 )
 ;
 pref
