@@ -131,6 +131,11 @@ stdlib
 .
 h
 >
+#
+include
+<
+algorithm
+>
 /
 *
 we
