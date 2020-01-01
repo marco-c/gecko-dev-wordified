@@ -7234,10 +7234,6 @@ to
 get
 classinfo
 .
-May
-return
-null
-.
 virtual
 nsXPCClassInfo
 *

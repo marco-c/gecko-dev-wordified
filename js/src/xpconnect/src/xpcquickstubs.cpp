@@ -5878,11 +5878,8 @@ XPCLazyCallContext
 &
 lccx
 qsObjectHelper
-*
+&
 aHelper
-nsWrapperCache
-*
-cache
 const
 nsIID
 *
@@ -6009,14 +6006,8 @@ lccx
 rval
 nsnull
 aHelper
--
->
-Object
-(
-)
 iid
 iface
-cache
 lccx
 .
 GetCurrentJSObject
@@ -6026,7 +6017,6 @@ PR_TRUE
 OBJ_IS_NOT_GLOBAL
 &
 rv
-aHelper
 )
 )
 {
