@@ -1384,7 +1384,7 @@ return
 NULL
 ;
 }
-uintN
+unsigned
 jsd_GetObjectNewLineNumber
 (
 JSDContext
@@ -1435,7 +1435,7 @@ return
 NULL
 ;
 }
-uintN
+unsigned
 jsd_GetObjectConstructorLineNumber
 (
 JSDContext

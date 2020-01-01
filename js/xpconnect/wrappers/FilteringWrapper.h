@@ -463,7 +463,7 @@ public
 :
 FilteringWrapper
 (
-uintN
+unsigned
 flags
 )
 ;
@@ -537,7 +537,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 flags
 js
 :

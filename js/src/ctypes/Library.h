@@ -499,7 +499,7 @@ Name
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -543,7 +543,7 @@ Open
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

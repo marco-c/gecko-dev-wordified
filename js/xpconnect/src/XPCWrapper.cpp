@@ -535,7 +535,7 @@ UnwrapNW
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -675,7 +675,7 @@ XrayWrapperConstructor
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

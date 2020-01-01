@@ -314,7 +314,7 @@ JSObject
 obj
 jsval
 id
-uintN
+unsigned
 flags
 JSObject
 *

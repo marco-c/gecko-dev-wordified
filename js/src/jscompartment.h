@@ -1764,7 +1764,7 @@ DebugFromJS
 2
 }
 ;
-uintN
+unsigned
 debugModeBits
 ;
 /

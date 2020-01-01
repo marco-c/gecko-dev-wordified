@@ -2184,7 +2184,7 @@ num_parseInt
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4713,7 +4713,7 @@ js_num_valueOf
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :

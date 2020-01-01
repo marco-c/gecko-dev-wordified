@@ -9086,7 +9086,7 @@ ct
 +
 +
 ;
-intN
+int
 mapflags
 =
 map

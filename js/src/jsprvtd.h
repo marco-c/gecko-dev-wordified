@@ -650,14 +650,14 @@ arenas
 /
 static
 const
-uintN
+unsigned
 JS_GCTHING_ALIGN
 =
 8
 ;
 static
 const
-uintN
+unsigned
 JS_GCTHING_ZEROBITS
 =
 3
@@ -1835,7 +1835,7 @@ of
 script
 *
 /
-uintN
+unsigned
 lineno
 /
 *
@@ -1892,7 +1892,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 const
 jschar
@@ -2509,7 +2509,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )

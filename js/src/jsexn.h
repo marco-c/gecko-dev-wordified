@@ -754,7 +754,7 @@ char
 *
 locale
 const
-uintN
+unsigned
 errorNumber
 )
 ;
@@ -855,7 +855,7 @@ JS_INLINE
 JSProtoKey
 GetExceptionProtoKey
 (
-intN
+int
 exn
 )
 {

@@ -1727,7 +1727,7 @@ JSPropertyOp
 getter
 JSStrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 ;
@@ -1754,7 +1754,7 @@ JSPropertyOp
 getter
 JSStrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 ;
@@ -1908,7 +1908,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 defineHow
 js
 :
@@ -1936,7 +1936,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 defineHow
 Value
 *
@@ -1981,7 +1981,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 defineHow
 js
 :
@@ -2005,7 +2005,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -2022,7 +2022,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -2039,7 +2039,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -2056,7 +2056,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -3796,7 +3796,7 @@ capacity
 bool
 slotInRange
 (
-uintN
+unsigned
 slot
 SentinelAllowed
 sentinel
@@ -3816,7 +3816,7 @@ HeapSlot
 *
 getSlotAddressUnchecked
 (
-uintN
+unsigned
 slot
 )
 {
@@ -3859,7 +3859,7 @@ HeapSlot
 *
 getSlotAddress
 (
-uintN
+unsigned
 slot
 )
 {
@@ -3931,7 +3931,7 @@ HeapSlot
 &
 getSlotRef
 (
-uintN
+unsigned
 slot
 )
 {
@@ -3959,7 +3959,7 @@ HeapSlot
 &
 nativeGetSlotRef
 (
-uintN
+unsigned
 slot
 )
 ;
@@ -3971,7 +3971,7 @@ Value
 &
 getSlot
 (
-uintN
+unsigned
 slot
 )
 const
@@ -4023,7 +4023,7 @@ Value
 &
 nativeGetSlot
 (
-uintN
+unsigned
 slot
 )
 const
@@ -4047,7 +4047,7 @@ inline
 void
 setSlot
 (
-uintN
+unsigned
 slot
 const
 js
@@ -4062,7 +4062,7 @@ inline
 void
 initSlot
 (
-uintN
+unsigned
 slot
 const
 js
@@ -4077,7 +4077,7 @@ inline
 void
 initSlotUnchecked
 (
-uintN
+unsigned
 slot
 const
 js
@@ -4092,7 +4092,7 @@ inline
 void
 nativeSetSlot
 (
-uintN
+unsigned
 slot
 const
 js
@@ -4135,7 +4135,7 @@ Value
 &
 getReservedSlot
 (
-uintN
+unsigned
 index
 )
 const
@@ -4148,7 +4148,7 @@ HeapSlot
 &
 getReservedSlotRef
 (
-uintN
+unsigned
 index
 )
 ;
@@ -4156,7 +4156,7 @@ inline
 void
 initReservedSlot
 (
-uintN
+unsigned
 index
 const
 js
@@ -4171,7 +4171,7 @@ inline
 void
 setReservedSlot
 (
-uintN
+unsigned
 index
 const
 js
@@ -4210,7 +4210,7 @@ HeapSlot
 &
 getFixedSlotRef
 (
-uintN
+unsigned
 slot
 )
 {
@@ -4240,7 +4240,7 @@ Value
 &
 getFixedSlot
 (
-uintN
+unsigned
 slot
 )
 const
@@ -4267,7 +4267,7 @@ inline
 void
 setFixedSlot
 (
-uintN
+unsigned
 slot
 const
 js
@@ -4282,7 +4282,7 @@ inline
 void
 initFixedSlot
 (
-uintN
+unsigned
 slot
 const
 js
@@ -5185,10 +5185,10 @@ resultp
 ;
 static
 inline
-uintN
+unsigned
 getSealedOrFrozenAttributes
 (
-uintN
+unsigned
 attrs
 ImmutabilityType
 it
@@ -5357,7 +5357,7 @@ ensureElements
 JSContext
 *
 cx
-uintN
+unsigned
 cap
 )
 ;
@@ -5367,7 +5367,7 @@ growElements
 JSContext
 *
 cx
-uintN
+unsigned
 cap
 )
 ;
@@ -5377,7 +5377,7 @@ shrinkElements
 JSContext
 *
 cx
-uintN
+unsigned
 cap
 )
 ;
@@ -5472,9 +5472,9 @@ ensureDenseArrayInitializedLength
 JSContext
 *
 cx
-uintN
+unsigned
 index
-uintN
+unsigned
 extra
 )
 ;
@@ -5496,7 +5496,7 @@ Value
 &
 getDenseArrayElement
 (
-uintN
+unsigned
 idx
 )
 ;
@@ -5504,7 +5504,7 @@ inline
 void
 setDenseArrayElement
 (
-uintN
+unsigned
 idx
 const
 js
@@ -5519,7 +5519,7 @@ inline
 void
 initDenseArrayElement
 (
-uintN
+unsigned
 idx
 const
 js
@@ -5537,7 +5537,7 @@ setDenseArrayElementWithType
 JSContext
 *
 cx
-uintN
+unsigned
 idx
 const
 js
@@ -5555,7 +5555,7 @@ initDenseArrayElementWithType
 JSContext
 *
 cx
-uintN
+unsigned
 idx
 const
 js
@@ -5570,7 +5570,7 @@ inline
 void
 copyDenseArrayElements
 (
-uintN
+unsigned
 dstStart
 const
 js
@@ -5579,7 +5579,7 @@ js
 Value
 *
 src
-uintN
+unsigned
 count
 )
 ;
@@ -5587,7 +5587,7 @@ inline
 void
 initDenseArrayElements
 (
-uintN
+unsigned
 dstStart
 const
 js
@@ -5596,7 +5596,7 @@ js
 Value
 *
 src
-uintN
+unsigned
 count
 )
 ;
@@ -5604,11 +5604,11 @@ inline
 void
 moveDenseArrayElements
 (
-uintN
+unsigned
 dstStart
-uintN
+unsigned
 srcStart
-uintN
+unsigned
 count
 )
 ;
@@ -5616,11 +5616,11 @@ inline
 void
 moveDenseArrayElementsUnbarriered
 (
-uintN
+unsigned
 dstStart
-uintN
+unsigned
 srcStart
-uintN
+unsigned
 count
 )
 ;
@@ -5733,9 +5733,9 @@ ensureDenseArrayElements
 JSContext
 *
 cx
-uintN
+unsigned
 index
-uintN
+unsigned
 extra
 )
 ;
@@ -5771,9 +5771,9 @@ added
 bool
 willBeSparseDenseArray
 (
-uintN
+unsigned
 requiredCapacity
-uintN
+unsigned
 newElementsHint
 )
 ;
@@ -6403,7 +6403,7 @@ id
 bool
 *
 foundp
-uintN
+unsigned
 flags
 =
 0
@@ -6491,7 +6491,7 @@ JSContext
 cx
 jsid
 id
-uintN
+unsigned
 report
 =
 JSREPORT_ERROR
@@ -6503,7 +6503,7 @@ reportNotExtensible
 JSContext
 *
 cx
-uintN
+unsigned
 report
 =
 JSREPORT_ERROR
@@ -6577,7 +6577,7 @@ JSContext
 cx
 jsid
 id
-uintN
+unsigned
 argc
 js
 :
@@ -6694,11 +6694,11 @@ JSStrictPropertyOp
 setter
 uint32_t
 slot
-uintN
+unsigned
 attrs
-uintN
+unsigned
 flags
-intN
+int
 shortid
 js
 :
@@ -6796,11 +6796,11 @@ JSStrictPropertyOp
 setter
 uint32_t
 slot
-uintN
+unsigned
 attrs
-uintN
+unsigned
 flags
-intN
+int
 shortid
 bool
 allowDictionary
@@ -6839,7 +6839,7 @@ jsid
 id
 uint32_t
 slot
-uintN
+unsigned
 attrs
 )
 {
@@ -6904,11 +6904,11 @@ JSStrictPropertyOp
 setter
 uint32_t
 slot
-uintN
+unsigned
 attrs
-uintN
+unsigned
 flags
-intN
+int
 shortid
 )
 ;
@@ -6935,11 +6935,11 @@ JSStrictPropertyOp
 setter
 uint32_t
 slot
-uintN
+unsigned
 attrs
-uintN
+unsigned
 flags
-intN
+int
 shortid
 )
 {
@@ -6998,9 +6998,9 @@ js
 Shape
 *
 shape
-uintN
+unsigned
 attrs
-uintN
+unsigned
 mask
 JSPropertyOp
 getter
@@ -7158,7 +7158,7 @@ JSStrictPropertyOp
 setter
 =
 JS_StrictPropertyStub
-uintN
+unsigned
 attrs
 =
 JSPROP_ENUMERATE
@@ -7192,7 +7192,7 @@ JSStrictPropertyOp
 setter
 =
 JS_StrictPropertyStub
-uintN
+unsigned
 attrs
 =
 JSPROP_ENUMERATE
@@ -7222,7 +7222,7 @@ JSStrictPropertyOp
 setter
 =
 JS_StrictPropertyStub
-uintN
+unsigned
 attrs
 =
 JSPROP_ENUMERATE
@@ -7255,7 +7255,7 @@ JSStrictPropertyOp
 setter
 =
 JS_StrictPropertyStub
-uintN
+unsigned
 attrs
 =
 JSPROP_ENUMERATE
@@ -7607,7 +7607,7 @@ JSContext
 cx
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -7625,7 +7625,7 @@ js
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -7639,7 +7639,7 @@ JSContext
 cx
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -7656,7 +7656,7 @@ js
 :
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -7670,7 +7670,7 @@ JSContext
 cx
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -7688,7 +7688,7 @@ js
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -7702,7 +7702,7 @@ JSContext
 cx
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -7719,7 +7719,7 @@ js
 :
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -9127,7 +9127,7 @@ js
 :
 LookupGenericOp
 lookup
-uintN
+unsigned
 argc
 js
 :
@@ -10187,11 +10187,11 @@ JSStrictPropertyOp
 setter
 uint32_t
 slot
-uintN
+unsigned
 attrs
-uintN
+unsigned
 flags
-intN
+int
 shortid
 )
 ;
@@ -10255,9 +10255,9 @@ js
 Shape
 *
 shape
-uintN
+unsigned
 attrs
-uintN
+unsigned
 mask
 JSPropertyOp
 getter
@@ -10306,7 +10306,7 @@ js_DefineNativeProperty
 *
 /
 const
-uintN
+unsigned
 DNP_CACHE_RESULT
 =
 1
@@ -10321,7 +10321,7 @@ JSOP_INITPROP
 *
 /
 const
-uintN
+unsigned
 DNP_DONT_PURGE
 =
 2
@@ -10333,7 +10333,7 @@ js_PurgeScopeChain
 *
 /
 const
-uintN
+unsigned
 DNP_SET_METHOD
 =
 4
@@ -10366,7 +10366,7 @@ Property
 *
 /
 const
-uintN
+unsigned
 DNP_UNQUALIFIED
 =
 8
@@ -10389,7 +10389,7 @@ js_SetPropertyHelper
 *
 /
 const
-uintN
+unsigned
 DNP_SKIP_TYPE
 =
 0x10
@@ -10442,13 +10442,13 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
-uintN
+unsigned
 flags
-intN
+int
 shortid
-uintN
+unsigned
 defineHow
 =
 0
@@ -10477,13 +10477,13 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
-uintN
+unsigned
 flags
-intN
+int
 shortid
-uintN
+unsigned
 defineHow
 =
 0
@@ -10536,7 +10536,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -10561,7 +10561,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 flags
 JSObject
 *
@@ -10762,7 +10762,7 @@ bytecode
 /
 static
 const
-uintN
+unsigned
 RESOLVE_INFER
 =
 0xffff
@@ -11017,7 +11017,7 @@ name
 *
 /
 const
-uintN
+unsigned
 JSGET_METHOD_BARRIER
 =
 0
@@ -11031,7 +11031,7 @@ joined
 function
 object
 const
-uintN
+unsigned
 JSGET_NO_METHOD_BARRIER
 =
 1
@@ -11047,7 +11047,7 @@ can
 t
 leak
 const
-uintN
+unsigned
 JSGET_CACHE_RESULT
 =
 2
@@ -11137,7 +11137,7 @@ js
 Shape
 *
 shape
-uintN
+unsigned
 getHow
 js
 :
@@ -11297,7 +11297,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 getHow
 js
 :
@@ -11323,7 +11323,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 getHow
 Value
 *
@@ -11398,7 +11398,7 @@ js
 Shape
 *
 shape
-uintN
+unsigned
 attrs
 )
 ;
@@ -11473,7 +11473,7 @@ js
 Value
 *
 vp
-uintN
+unsigned
 *
 attrsp
 )
@@ -11781,13 +11781,13 @@ cx
 )
 ;
 extern
-uintN
+unsigned
 js_InferFlags
 (
 JSContext
 *
 cx
-uintN
+unsigned
 defaultFlags
 )
 ;
@@ -11815,7 +11815,7 @@ js_Object
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -11941,7 +11941,7 @@ eval
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *

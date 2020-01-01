@@ -24,7 +24,7 @@ IterNext
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -181,7 +181,7 @@ IterClassConstructor
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

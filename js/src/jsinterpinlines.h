@@ -1358,7 +1358,7 @@ const
 Shape
 *
 shape
-uintN
+unsigned
 getHow
 Value
 *
@@ -1881,7 +1881,7 @@ obj
 return
 false
 ;
-uintN
+unsigned
 flags
 =
 (
@@ -2591,7 +2591,7 @@ setProperty
 )
 )
 {
-uintN
+unsigned
 defineHow
 ;
 if
@@ -3129,7 +3129,7 @@ varobj
 PropertyName
 *
 dn
-uintN
+unsigned
 attrs
 )
 {
@@ -3278,7 +3278,7 @@ conflict
 .
 *
 /
-uintN
+unsigned
 oldAttrs
 ;
 if

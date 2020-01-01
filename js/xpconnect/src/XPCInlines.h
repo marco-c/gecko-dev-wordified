@@ -1417,7 +1417,7 @@ mStaticMemberIsLocal
 ;
 }
 inline
-uintN
+unsigned
 XPCCallContext
 :
 :
@@ -3622,7 +3622,7 @@ GetRTIdByIndex
 JSContext
 *
 cx
-uintN
+unsigned
 index
 )
 {
@@ -3658,7 +3658,7 @@ ThrowBadParam
 (
 nsresult
 rv
-uintN
+unsigned
 paramNum
 XPCCallContext
 &

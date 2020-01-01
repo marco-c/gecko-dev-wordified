@@ -5727,7 +5727,7 @@ it
 .
 *
 /
-uintN
+unsigned
 initialFrameDepth
 =
 f
@@ -7753,7 +7753,7 @@ BumpStack
 VMFrame
 &
 f
-uintN
+unsigned
 inc
 )
 {
@@ -8074,7 +8074,7 @@ fp
 (
 )
 ;
-uintN
+unsigned
 n
 ;
 if
@@ -8207,7 +8207,7 @@ Steps
 5
 *
 /
-uintN
+unsigned
 length
 ;
 if
@@ -8585,7 +8585,7 @@ false
 )
 ;
 }
-intN
+int
 delta
 =
 length

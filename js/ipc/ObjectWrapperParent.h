@@ -762,7 +762,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -806,7 +806,7 @@ CPOW_Call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -820,7 +820,7 @@ CPOW_Construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

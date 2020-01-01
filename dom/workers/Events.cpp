@@ -1247,7 +1247,7 @@ Construct
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -1445,7 +1445,7 @@ StopPropagation
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -1516,7 +1516,7 @@ StopImmediatePropagation
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -1587,7 +1587,7 @@ PreventDefault
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -1674,7 +1674,7 @@ InitEvent
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2538,7 +2538,7 @@ Construct
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2871,7 +2871,7 @@ InitMessageEvent
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -3533,7 +3533,7 @@ Construct
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -3690,7 +3690,7 @@ InitErrorEvent
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -4306,7 +4306,7 @@ Construct
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -4464,7 +4464,7 @@ InitProgressEvent
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *

@@ -857,7 +857,7 @@ undef
 OPDEF
 }
 ;
-uintN
+unsigned
 js_NumCodeSpecs
 =
 JS_ARRAY_LENGTH
@@ -1109,7 +1109,7 @@ jsbytecode
 pc
 )
 {
-uintN
+unsigned
 ncases
 ;
 jsint
@@ -1195,7 +1195,7 @@ pc
 ncases
 =
 (
-uintN
+unsigned
 )
 (
 high
@@ -1351,7 +1351,7 @@ slotCount
 )
 ;
 }
-uintN
+unsigned
 js
 :
 :
@@ -1524,7 +1524,7 @@ pc
 ;
 }
 }
-uintN
+unsigned
 js
 :
 :
@@ -2291,7 +2291,7 @@ next
 *
 end
 ;
-uintN
+unsigned
 len
 ;
 sp
@@ -3177,7 +3177,7 @@ true
 }
 JS_FRIEND_API
 (
-uintN
+unsigned
 )
 js_Disassemble1
 (
@@ -3190,7 +3190,7 @@ script
 jsbytecode
 *
 pc
-uintN
+unsigned
 loc
 JSBool
 lines
@@ -3527,11 +3527,11 @@ d
 loc
 +
 (
-intN
+int
 )
 off
 (
-intN
+int
 )
 off
 )
@@ -3865,7 +3865,7 @@ high
 %
 d
 "
-intN
+int
 (
 off
 )
@@ -3911,7 +3911,7 @@ d
 d
 "
 i
-intN
+int
 (
 off
 )
@@ -3980,11 +3980,11 @@ npairs
 %
 u
 "
-intN
+int
 (
 off
 )
-uintN
+unsigned
 (
 npairs
 )
@@ -4062,7 +4062,7 @@ bytes
 ptr
 (
 )
-intN
+int
 (
 off
 )
@@ -6564,7 +6564,7 @@ allocation
 pool
 *
 /
-uintN
+unsigned
 indent
 ;
 /
@@ -6730,7 +6730,7 @@ name
 JSFunction
 *
 fun
-uintN
+unsigned
 indent
 JSBool
 pretty
@@ -7235,7 +7235,7 @@ sn
 if
 (
 (
-uintN
+unsigned
 )
 type
 <
@@ -7761,7 +7761,7 @@ the
 value
 *
 /
-uintN
+unsigned
 top
 ;
 /
@@ -7772,7 +7772,7 @@ stack
 index
 *
 /
-uintN
+unsigned
 inArrayInit
 ;
 /
@@ -8551,7 +8551,7 @@ build
 *
 /
 static
-intN
+int
 ReconstructPCStack
 (
 JSContext
@@ -8793,7 +8793,7 @@ GetOff
 SprintStack
 *
 ss
-uintN
+unsigned
 i
 )
 {
@@ -9027,7 +9027,7 @@ GetStr
 SprintStack
 *
 ss
-uintN
+unsigned
 i
 )
 {
@@ -9156,7 +9156,7 @@ pc
 NULL
 )
 {
-uintN
+unsigned
 top
 ;
 /
@@ -9380,7 +9380,7 @@ ppc
 NULL
 )
 {
-uintN
+unsigned
 top
 ;
 const
@@ -10260,7 +10260,7 @@ ss
 jsbytecode
 *
 pc
-intN
+int
 nb
 )
 ;
@@ -10274,7 +10274,7 @@ ss
 TableEntry
 *
 table
-uintN
+unsigned
 tableLength
 jsbytecode
 *
@@ -10307,7 +10307,7 @@ char
 *
 rval
 ;
-uintN
+unsigned
 i
 ;
 jsval
@@ -11207,7 +11207,7 @@ GetArgOrVarAtom
 JSPrinter
 *
 jp
-uintN
+unsigned
 slot
 )
 {
@@ -11985,7 +11985,7 @@ jsint
 indexp
 )
 {
-uintN
+unsigned
 slot
 ;
 slot
@@ -12353,7 +12353,7 @@ JSCodeSpec
 *
 cs
 ;
-uintN
+unsigned
 oplen
 ;
 jsint
@@ -13151,7 +13151,7 @@ pc
 -
 (
 (
-intN
+int
 )
 ss
 -
@@ -13666,7 +13666,7 @@ JSCodeSpec
 *
 cs
 ;
-uintN
+unsigned
 oplen
 ;
 JSOp
@@ -14713,7 +14713,7 @@ JSCodeSpec
 *
 cs
 ;
-uintN
+unsigned
 oplen
 start
 end
@@ -15198,7 +15198,7 @@ numAtoms
 return
 false
 ;
-uintN
+unsigned
 i
 =
 numAtoms
@@ -15263,7 +15263,7 @@ i
 LOCAL_ASSERT
 (
 (
-uintN
+unsigned
 )
 shape
 .
@@ -15494,7 +15494,7 @@ length
 <
 =
 (
-uintN
+unsigned
 )
 ss
 -
@@ -16420,7 +16420,7 @@ rval
 .
 *
 /
-uintN
+unsigned
 saveTop
 =
 ss
@@ -16638,7 +16638,7 @@ ss
 JSPrinter
 *
 jp
-uintN
+unsigned
 depth
 )
 {
@@ -16924,7 +16924,7 @@ ss
 jsbytecode
 *
 pc
-intN
+int
 nb
 )
 {
@@ -16991,7 +16991,7 @@ fmt
 *
 token
 ;
-uintN
+unsigned
 nuses
 ;
 jsint
@@ -18127,7 +18127,7 @@ top
 nuses
 )
 ;
-uintN
+unsigned
 ndefs
 =
 StackDefs
@@ -18142,7 +18142,7 @@ pc
 if
 (
 (
-uintN
+unsigned
 )
 -
 (
@@ -20109,7 +20109,7 @@ case
 JSOP_POPN
 :
 {
-uintN
+unsigned
 newtop
 oldtop
 ;
@@ -20271,7 +20271,7 @@ NULL
 ;
 for
 (
-uintN
+unsigned
 i
 =
 newtop
@@ -22342,7 +22342,7 @@ case
 JSOP_LEAVEBLOCKEXPR
 :
 {
-uintN
+unsigned
 top
 depth
 ;
@@ -22486,7 +22486,7 @@ SRC_CATCH
 if
 (
 (
-uintN
+unsigned
 )
 js_GetSrcNoteOffset
 (
@@ -22504,7 +22504,7 @@ top
 LOCAL_ASSERT
 (
 (
-uintN
+unsigned
 )
 js_GetSrcNoteOffset
 (
@@ -22701,7 +22701,7 @@ LetDataToGroupAssign
 letData
 )
 ;
-uintN
+unsigned
 letDepth
 =
 blockObj
@@ -22716,7 +22716,7 @@ letDepth
 =
 =
 (
-uintN
+unsigned
 )
 ss
 -
@@ -23954,7 +23954,7 @@ NULL
 ;
 }
 }
-uintN
+unsigned
 index
 =
 GET_UINT16
@@ -24286,7 +24286,7 @@ do_name
 LOCAL_ASSERT
 (
 (
-uintN
+unsigned
 )
 i
 <
@@ -25073,7 +25073,7 @@ blocks
 .
 *
 /
-uintN
+unsigned
 pos
 =
 ss
@@ -25163,7 +25163,7 @@ condition
 .
 *
 /
-uintN
+unsigned
 forpos
 =
 pos
@@ -33322,7 +33322,7 @@ DecompileSwitch
 ss
 table
 (
-uintN
+unsigned
 )
 j
 pc
@@ -33584,7 +33584,7 @@ DecompileSwitch
 ss
 table
 (
-uintN
+unsigned
 )
 npairs
 pc
@@ -34075,7 +34075,7 @@ DecompileSwitch
 ss
 table
 (
-uintN
+unsigned
 )
 ncases
 pc
@@ -36293,9 +36293,9 @@ script
 jsbytecode
 *
 pc
-uintN
+unsigned
 len
-uintN
+unsigned
 pcdepth
 )
 {
@@ -36310,7 +36310,7 @@ sprinter
 .
 context
 ;
-uintN
+unsigned
 depth
 =
 StackDepth
@@ -36494,7 +36494,7 @@ pcdepth
 {
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -36903,7 +36903,7 @@ name
 JSFunction
 *
 fun
-uintN
+unsigned
 indent
 JSBool
 pretty
@@ -37368,7 +37368,7 @@ script
 endif
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -37751,7 +37751,7 @@ js_DecompileValueGenerator
 JSContext
 *
 cx
-intN
+int
 spindex
 jsval
 v
@@ -37957,7 +37957,7 @@ lastDecomposedPC
 =
 NULL
 ;
-intN
+int
 pcdepth
 =
 ReconstructPCStack
@@ -38912,7 +38912,7 @@ pcstack
 return
 NULL
 ;
-intN
+int
 pcdepth
 =
 ReconstructPCStack
@@ -38993,11 +38993,11 @@ printer
 script
 begin
 (
-uintN
+unsigned
 )
 len
 (
-uintN
+unsigned
 )
 pcdepth
 )
@@ -39022,7 +39022,7 @@ string
 )
 ;
 }
-uintN
+unsigned
 js_ReconstructStackDepth
 (
 JSContext
@@ -39061,7 +39061,7 @@ expr
 )
 ;
 static
-intN
+int
 SimulateOp
 (
 JSContext
@@ -39083,12 +39083,12 @@ jsbytecode
 *
 *
 pcstack
-uintN
+unsigned
 &
 pcdepth
 )
 {
-uintN
+unsigned
 nuses
 =
 StackUses
@@ -39097,7 +39097,7 @@ script
 pc
 )
 ;
-uintN
+unsigned
 ndefs
 =
 StackDefs
@@ -39186,7 +39186,7 @@ pcstack
 {
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -39368,7 +39368,7 @@ pcdepth
 ;
 }
 static
-intN
+int
 ReconstructPCStack
 (
 JSContext
@@ -39479,7 +39479,7 @@ script
 >
 code
 ;
-uintN
+unsigned
 pcdepth
 =
 0
@@ -39745,7 +39745,7 @@ target
 oplen
 =
 (
-uintN
+unsigned
 )
 jmplen
 ;

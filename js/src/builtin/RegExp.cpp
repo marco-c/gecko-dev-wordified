@@ -2227,7 +2227,7 @@ regexp_compile
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -2298,7 +2298,7 @@ regexp_construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -2445,7 +2445,7 @@ regexp_toString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -3842,7 +3842,7 @@ JSContext
 cx
 Native
 native
-uintN
+unsigned
 argc
 Value
 *
@@ -4333,7 +4333,7 @@ regexp_exec
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4372,7 +4372,7 @@ regexp_test
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *

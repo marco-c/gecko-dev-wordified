@@ -4418,7 +4418,7 @@ VersionFlags
 {
 static
 const
-uintN
+unsigned
 MASK
 =
 0x0FFF
@@ -4435,7 +4435,7 @@ h
 /
 static
 const
-uintN
+unsigned
 HAS_XML
 =
 0x1000
@@ -4451,7 +4451,7 @@ option
 /
 static
 const
-uintN
+unsigned
 FULL_MASK
 =
 0x3FFF
@@ -4620,14 +4620,14 @@ version
 }
 static
 inline
-uintN
+unsigned
 VersionFlagsToOptions
 (
 JSVersion
 version
 )
 {
-uintN
+unsigned
 copts
 =
 VersionHasXML
@@ -4660,7 +4660,7 @@ inline
 JSVersion
 OptionFlagsToVersion
 (
-uintN
+unsigned
 options
 JSVersion
 version
@@ -4852,7 +4852,7 @@ options
 .
 *
 /
-uintN
+unsigned
 runOptions
 ;
 /
@@ -5574,7 +5574,7 @@ const
 void
 setRunOptions
 (
-uintN
+unsigned
 ropts
 )
 {
@@ -5610,11 +5610,11 @@ inline
 void
 setCompileOptions
 (
-uintN
+unsigned
 newcopts
 )
 ;
-uintN
+unsigned
 getRunOptions
 (
 )
@@ -5625,14 +5625,14 @@ runOptions
 ;
 }
 inline
-uintN
+unsigned
 getCompileOptions
 (
 )
 const
 ;
 inline
-uintN
+unsigned
 allOptions
 (
 )
@@ -5641,7 +5641,7 @@ const
 bool
 hasRunOption
 (
-uintN
+unsigned
 ropt
 )
 const
@@ -5963,7 +5963,7 @@ parameter
 .
 *
 /
-uintN
+unsigned
 resolveFlags
 ;
 /
@@ -6506,7 +6506,7 @@ inline
 void
 assertValidStackDepth
 (
-uintN
+unsigned
 depth
 )
 ;
@@ -6597,7 +6597,7 @@ ParseMapPool
 .
 *
 /
-uintN
+unsigned
 activeCompilations
 ;
 #
@@ -7359,7 +7359,7 @@ JSAutoResolveFlags
 JSContext
 *
 cx
-uintN
+unsigned
 flags
 JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
@@ -7405,7 +7405,7 @@ JSContext
 *
 mContext
 ;
-uintN
+unsigned
 mSaved
 ;
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER
@@ -7648,7 +7648,7 @@ js_ReportErrorVA
 JSContext
 *
 cx
-uintN
+unsigned
 flags
 const
 char
@@ -7665,7 +7665,7 @@ js_ReportErrorNumberVA
 JSContext
 *
 cx
-uintN
+unsigned
 flags
 JSErrorCallback
 callback
@@ -7673,7 +7673,7 @@ void
 *
 userRef
 const
-uintN
+unsigned
 errorNumber
 JSBool
 charArgs
@@ -7694,7 +7694,7 @@ void
 *
 userRef
 const
-uintN
+unsigned
 errorNumber
 char
 *
@@ -7815,7 +7815,7 @@ js_ReportIsNullOrUndefined
 JSContext
 *
 cx
-intN
+int
 spindex
 const
 js
@@ -7843,7 +7843,7 @@ js
 Value
 &
 v
-uintN
+unsigned
 arg
 )
 ;
@@ -7896,12 +7896,12 @@ js_ReportValueErrorFlags
 JSContext
 *
 cx
-uintN
+unsigned
 flags
 const
-uintN
+unsigned
 errorNumber
-intN
+int
 spindex
 const
 js

@@ -904,7 +904,7 @@ constructors
 /
 static
 const
-uintN
+unsigned
 STANDARD_CLASS_SLOTS
 =
 JSProto_LIMIT
@@ -929,14 +929,14 @@ ins
 /
 static
 const
-uintN
+unsigned
 THROWTYPEERROR
 =
 STANDARD_CLASS_SLOTS
 ;
 static
 const
-uintN
+unsigned
 GENERATOR_PROTO
 =
 THROWTYPEERROR
@@ -945,7 +945,7 @@ THROWTYPEERROR
 ;
 static
 const
-uintN
+unsigned
 REGEXP_STATICS
 =
 GENERATOR_PROTO
@@ -954,7 +954,7 @@ GENERATOR_PROTO
 ;
 static
 const
-uintN
+unsigned
 FUNCTION_NS
 =
 REGEXP_STATICS
@@ -963,7 +963,7 @@ REGEXP_STATICS
 ;
 static
 const
-uintN
+unsigned
 RUNTIME_CODEGEN_ENABLED
 =
 FUNCTION_NS
@@ -972,7 +972,7 @@ FUNCTION_NS
 ;
 static
 const
-uintN
+unsigned
 EVAL
 =
 RUNTIME_CODEGEN_ENABLED
@@ -981,7 +981,7 @@ RUNTIME_CODEGEN_ENABLED
 ;
 static
 const
-uintN
+unsigned
 FLAGS
 =
 EVAL
@@ -990,7 +990,7 @@ EVAL
 ;
 static
 const
-uintN
+unsigned
 DEBUGGERS
 =
 FLAGS
@@ -1012,7 +1012,7 @@ objects
 /
 static
 const
-uintN
+unsigned
 RESERVED_SLOTS
 =
 DEBUGGERS
@@ -1472,7 +1472,7 @@ clasp
 JSAtom
 *
 name
-uintN
+unsigned
 length
 gc
 :
@@ -2132,7 +2132,7 @@ getOrCreateCustomErrorPrototype
 JSContext
 *
 cx
-intN
+int
 exnType
 )
 {

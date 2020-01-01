@@ -445,7 +445,7 @@ randomness
 /
 static
 const
-uintN
+unsigned
 chunkBits
 =
 16

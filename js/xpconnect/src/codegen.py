@@ -4305,7 +4305,7 @@ s
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 %
 s

@@ -599,7 +599,7 @@ static
 JSBool
 Throw
 (
-uintN
+unsigned
 errNum
 JSContext
 *
@@ -986,7 +986,7 @@ XPC_WN_Shared_ToString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1229,7 +1229,7 @@ XPC_WN_Shared_ToSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1651,7 +1651,7 @@ XPC_WN_DoubleWrappedGetter
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2142,7 +2142,7 @@ wrapperToReflectDoubleWrap
 XPCNativeScriptableInfo
 *
 scriptableInfo
-uintN
+unsigned
 propFlags
 JSBool
 *
@@ -6231,7 +6231,7 @@ XPC_WN_Helper_Call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -6343,7 +6343,7 @@ XPC_WN_Helper_Construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -6631,7 +6631,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -7095,7 +7095,7 @@ GetFlags
 (
 )
 ;
-uintN
+unsigned
 enumFlag
 =
 siFlags
@@ -9251,7 +9251,7 @@ XPC_WN_CallMethod
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -9488,7 +9488,7 @@ XPC_WN_GetterSetter
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -10406,7 +10406,7 @@ GetScriptableInfo
 (
 )
 ;
-uintN
+unsigned
 enumFlag
 =
 (
@@ -11019,7 +11019,7 @@ GetScriptableInfo
 (
 )
 ;
-uintN
+unsigned
 enumFlag
 =
 (

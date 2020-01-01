@@ -1538,7 +1538,7 @@ cx
 JSLinearString
 &
 pattern
-uintN
+unsigned
 *
 parenCount
 RegExpFlag

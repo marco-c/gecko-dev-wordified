@@ -632,7 +632,7 @@ Create
 JSContext
 *
 aCx
-intN
+int
 aCode
 )
 ;
@@ -690,7 +690,7 @@ Construct
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -753,7 +753,7 @@ ToString
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -1306,7 +1306,7 @@ Create
 JSContext
 *
 aCx
-intN
+int
 aCode
 )
 {
@@ -1537,7 +1537,7 @@ Create
 JSContext
 *
 aCx
-intN
+int
 aCode
 )
 ;
@@ -1595,7 +1595,7 @@ Construct
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -1927,7 +1927,7 @@ Create
 JSContext
 *
 aCx
-intN
+int
 aCode
 )
 {
@@ -2128,7 +2128,7 @@ ThrowDOMExceptionForCode
 JSContext
 *
 aCx
-intN
+int
 aCode
 )
 {
@@ -2166,7 +2166,7 @@ ThrowFileExceptionForCode
 JSContext
 *
 aCx
-intN
+int
 aCode
 )
 {

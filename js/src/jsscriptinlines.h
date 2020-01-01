@@ -848,7 +848,7 @@ char
 *
 *
 file
-uintN
+unsigned
 *
 linenop
 JSPrincipals
@@ -869,7 +869,7 @@ char
 *
 *
 file
-uintN
+unsigned
 *
 linenop
 JSPrincipals

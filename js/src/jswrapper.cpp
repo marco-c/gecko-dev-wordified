@@ -612,12 +612,12 @@ JSObject
 wrapped
 bool
 stopAtOuter
-uintN
+unsigned
 *
 flagsp
 )
 {
-uintN
+unsigned
 flags
 =
 0
@@ -745,7 +745,7 @@ Wrapper
 :
 Wrapper
 (
-uintN
+unsigned
 flags
 )
 :
@@ -915,7 +915,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSPropertyDescriptor
 *
@@ -1672,7 +1672,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 flags
 Value
 *
@@ -1730,7 +1730,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 argc
 Value
 *
@@ -1789,7 +1789,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 argc
 Value
 *
@@ -2112,7 +2112,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 indent
 )
 {
@@ -2533,7 +2533,7 @@ Wrapper
 singleton
 (
 (
-uintN
+unsigned
 )
 0
 )
@@ -2641,7 +2641,7 @@ wrappedProto
 JSObject
 *
 parent
-uintN
+unsigned
 flags
 )
 {
@@ -3174,7 +3174,7 @@ CrossCompartmentWrapper
 :
 CrossCompartmentWrapper
 (
-uintN
+unsigned
 flags
 )
 :
@@ -4380,7 +4380,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 flags
 Value
 *
@@ -4442,7 +4442,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 argc
 Value
 *
@@ -4601,7 +4601,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 argc
 Value
 *
@@ -4715,7 +4715,7 @@ js_generic_native_method_dispatcher
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -5194,7 +5194,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 indent
 )
 {
@@ -5452,7 +5452,7 @@ Base
 :
 SecurityWrapper
 (
-uintN
+unsigned
 flags
 )
 :

@@ -836,7 +836,7 @@ ConstructInternal
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -1343,7 +1343,7 @@ Construct
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -1470,7 +1470,7 @@ Terminate
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -1552,7 +1552,7 @@ PostMessage
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2046,7 +2046,7 @@ Construct
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *

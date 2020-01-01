@@ -929,7 +929,7 @@ jsdc
 JSContext
 *
 cx
-uintN
+unsigned
 type
 JSD_ExecutionHookProc
 hook
@@ -941,7 +941,7 @@ jsval
 rval
 )
 {
-uintN
+unsigned
 hookanswer
 =
 JSD_HOOK_THROW
@@ -1158,7 +1158,7 @@ jsdc
 JSContext
 *
 cx
-uintN
+unsigned
 type
 JSD_CallHookProc
 hook

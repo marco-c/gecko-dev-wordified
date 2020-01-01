@@ -763,7 +763,7 @@ JSDScript
 *
 jsdscript
 ;
-uintN
+unsigned
 lineno
 ;
 const
@@ -800,7 +800,7 @@ now
 lineno
 =
 (
-uintN
+unsigned
 )
 JS_GetScriptBaseLineNumber
 (
@@ -908,7 +908,7 @@ jsdscript
 lineExtent
 =
 (
-uintN
+unsigned
 )
 NOT_SET_YET
 ;
@@ -1337,10 +1337,10 @@ JSString
 *
 fun
 ;
-uintN
+unsigned
 base
 ;
-uintN
+unsigned
 extent
 ;
 char
@@ -1810,7 +1810,7 @@ priv
 JSHashEntry
 *
 he
-uintN
+unsigned
 flag
 )
 {
@@ -2157,7 +2157,7 @@ flags
 flags
 ;
 }
-uintN
+unsigned
 jsd_GetScriptCallCount
 (
 JSDContext
@@ -2188,7 +2188,7 @@ return
 0
 ;
 }
-uintN
+unsigned
 jsd_GetScriptMaxRecurseDepth
 (
 JSDContext
@@ -2800,7 +2800,7 @@ jsrt
 )
 ;
 }
-uintN
+unsigned
 jsd_GetScriptBaseLineNumber
 (
 JSDContext
@@ -2818,7 +2818,7 @@ jsdscript
 lineBase
 ;
 }
-uintN
+unsigned
 jsd_GetScriptLineExtent
 (
 JSDContext
@@ -2875,7 +2875,7 @@ jsdc
 JSDScript
 *
 jsdscript
-uintN
+unsigned
 line
 )
 {
@@ -2905,7 +2905,7 @@ jsdscript
 lwscript
 )
 {
-uintN
+unsigned
 newline
 ;
 jsdlw_RawToProcessedLineNumber
@@ -2980,7 +2980,7 @@ return
 pc
 ;
 }
-uintN
+unsigned
 jsd_GetClosestLine
 (
 JSDContext
@@ -2997,7 +2997,7 @@ JSCrossCompartmentCall
 *
 call
 ;
-uintN
+unsigned
 first
 =
 jsdscript
@@ -3005,7 +3005,7 @@ jsdscript
 >
 lineBase
 ;
-uintN
+unsigned
 last
 =
 first
@@ -3018,7 +3018,7 @@ jsdscript
 -
 1
 ;
-uintN
+unsigned
 line
 =
 0
@@ -3105,7 +3105,7 @@ jsdscript
 lwscript
 )
 {
-uintN
+unsigned
 newline
 ;
 jsdlw_ProcessedToRawLineNumber
@@ -3137,14 +3137,14 @@ jsdc
 JSDScript
 *
 jsdscript
-uintN
+unsigned
 startLine
-uintN
+unsigned
 maxLines
-uintN
+unsigned
 *
 count
-uintN
+unsigned
 *
 *
 retLines
@@ -3158,7 +3158,7 @@ JSCrossCompartmentCall
 *
 call
 ;
-uintN
+unsigned
 first
 =
 jsdscript
@@ -3166,7 +3166,7 @@ jsdscript
 >
 lineBase
 ;
-uintN
+unsigned
 last
 =
 first
@@ -3182,7 +3182,7 @@ jsdscript
 JSBool
 ok
 ;
-uintN
+unsigned
 *
 lines
 ;
@@ -3191,7 +3191,7 @@ jsbytecode
 *
 pcs
 ;
-uintN
+unsigned
 i
 ;
 if
@@ -3568,7 +3568,7 @@ loads
 from
 *
 /
-uintN
+unsigned
 lineno
 /
 *
@@ -5028,7 +5028,7 @@ loads
 from
 *
 /
-uintN
+unsigned
 lineno
 /
 *

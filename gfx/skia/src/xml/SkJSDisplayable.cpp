@@ -467,7 +467,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -509,7 +509,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -638,7 +638,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *

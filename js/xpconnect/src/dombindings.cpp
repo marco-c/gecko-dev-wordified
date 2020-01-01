@@ -3259,7 +3259,7 @@ n
 .
 id
 ;
-uintN
+unsigned
 attrs
 =
 JSPROP_ENUMERATE
@@ -4272,7 +4272,7 @@ proxy
 )
 )
 {
-uintN
+unsigned
 flags
 =
 (
@@ -7582,7 +7582,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 flags
 Value
 *

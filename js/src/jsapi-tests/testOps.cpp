@@ -148,7 +148,7 @@ createMyObject
 JSContext
 *
 context
-uintN
+unsigned
 argc
 jsval
 *

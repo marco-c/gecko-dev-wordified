@@ -660,7 +660,7 @@ length
 define
 MEMBUF_GROW
 1000
-uintN
+unsigned
 neededSize
 =
 jsdsrc
@@ -684,7 +684,7 @@ char
 *
 newBuf
 ;
-uintN
+unsigned
 iNewSize
 ;
 /
@@ -1857,7 +1857,7 @@ char
 *
 *
 ppBuf
-intN
+int
 *
 pLen
 )
@@ -1978,7 +1978,7 @@ dirty
 dirty
 ;
 }
-uintN
+unsigned
 jsd_GetSourceAlterCount
 (
 JSDContext
@@ -1996,7 +1996,7 @@ jsdsrc
 alterCount
 ;
 }
-uintN
+unsigned
 jsd_IncrementSourceAlterCount
 (
 JSDContext

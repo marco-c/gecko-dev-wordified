@@ -3060,7 +3060,7 @@ NoSuchMethod
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -3928,7 +3928,7 @@ const
 Value
 &
 fval
-uintN
+unsigned
 argc
 Value
 *
@@ -4336,7 +4336,7 @@ const
 Value
 &
 fval
-uintN
+unsigned
 argc
 Value
 *
@@ -4439,7 +4439,7 @@ const
 Value
 &
 fval
-uintN
+unsigned
 argc
 Value
 *
@@ -6867,7 +6867,7 @@ GetUpvar
 JSContext
 *
 cx
-uintN
+unsigned
 closureLevel
 UpvarCookie
 cookie
@@ -6895,7 +6895,7 @@ level
 )
 ;
 const
-uintN
+unsigned
 targetLevel
 =
 closureLevel
@@ -6916,7 +6916,7 @@ cx
 targetLevel
 )
 ;
-uintN
+unsigned
 slot
 =
 cookie
@@ -7068,7 +7068,7 @@ FindUpvarFrame
 JSContext
 *
 cx
-uintN
+unsigned
 targetLevel
 )
 {
@@ -9035,18 +9035,18 @@ JS_THREADED_INTERP
 *
 /
 register
-intN
+int
 switchMask
 =
 0
 ;
-intN
+int
 switchOp
 ;
 typedef
 GenericInterruptEnabler
 <
-intN
+int
 >
 InterruptEnabler
 ;
@@ -10596,7 +10596,7 @@ cx
 ;
 switchOp
 =
-intN
+int
 (
 op
 )
@@ -11040,7 +11040,7 @@ moreInterrupts
 ;
 switchOp
 =
-intN
+int
 (
 op
 )
@@ -12656,11 +12656,11 @@ length
 )
 ;
 \
-uintN
+unsigned
 diff_
 =
 (
-uintN
+unsigned
 )
 GET_UINT8
 (
@@ -12670,7 +12670,7 @@ pc
 )
 -
 (
-uintN
+unsigned
 )
 JSOP_IFEQ
 ;
@@ -19207,7 +19207,7 @@ isNonEvalFunctionFrame
 )
 )
 ;
-uintN
+unsigned
 index
 =
 GET_UINT16
@@ -19316,7 +19316,7 @@ errata
 .
 *
 /
-uintN
+unsigned
 attrs
 =
 JSPROP_ENUMERATE
@@ -19758,7 +19758,7 @@ impermanent
 .
 *
 /
-uintN
+unsigned
 attrs
 =
 regs
@@ -21647,7 +21647,7 @@ view
 Value
 rtmp
 ;
-uintN
+unsigned
 attrs
 ;
 if
@@ -22311,7 +22311,7 @@ ATOM_TO_JSID
 atom
 )
 ;
-uintN
+unsigned
 defineHow
 =
 (

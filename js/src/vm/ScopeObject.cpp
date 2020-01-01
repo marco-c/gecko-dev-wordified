@@ -796,7 +796,7 @@ script
 )
 )
 ;
-uintN
+unsigned
 n
 =
 bindings
@@ -2296,7 +2296,7 @@ id
 )
 )
 ;
-uintN
+unsigned
 i
 =
 (
@@ -2394,7 +2394,7 @@ id
 )
 )
 ;
-uintN
+unsigned
 i
 =
 (
@@ -2536,7 +2536,7 @@ id
 )
 )
 ;
-uintN
+unsigned
 i
 =
 (
@@ -2620,7 +2620,7 @@ id
 )
 )
 ;
-uintN
+unsigned
 i
 =
 (
@@ -2701,7 +2701,7 @@ id
 )
 )
 ;
-uintN
+unsigned
 i
 =
 (
@@ -2799,7 +2799,7 @@ id
 )
 )
 ;
-uintN
+unsigned
 i
 =
 (
@@ -2906,7 +2906,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -3760,7 +3760,7 @@ bug
 463997
 *
 /
-uintN
+unsigned
 flags
 =
 cx
@@ -4269,7 +4269,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -4307,7 +4307,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -4344,7 +4344,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -4381,7 +4381,7 @@ JSObject
 obj
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -4418,7 +4418,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -4456,7 +4456,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -4493,7 +4493,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -4530,7 +4530,7 @@ JSObject
 obj
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -5442,11 +5442,11 @@ asClonedBlock
 (
 )
 ;
-uintN
+unsigned
 index
 =
 (
-uintN
+unsigned
 )
 JSID_TO_INT
 (
@@ -5593,11 +5593,11 @@ asClonedBlock
 (
 )
 ;
-uintN
+unsigned
 index
 =
 (
-uintN
+unsigned
 )
 JSID_TO_INT
 (
@@ -5829,7 +5829,7 @@ JSContext
 cx
 jsid
 id
-intN
+int
 index
 bool
 *
@@ -6470,7 +6470,7 @@ pairs
 /
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -6672,7 +6672,7 @@ pairs
 /
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -6711,7 +6711,7 @@ block_getProperty
 ;
 JS_ASSERT
 (
-uintN
+unsigned
 (
 shape
 -

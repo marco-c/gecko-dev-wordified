@@ -563,7 +563,7 @@ public
 :
 XrayWrapper
 (
-uintN
+unsigned
 flags
 )
 ;
@@ -834,7 +834,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 flags
 js
 :
@@ -854,7 +854,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 argc
 js
 :
@@ -874,7 +874,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 argc
 js
 :
@@ -951,7 +951,7 @@ public
 :
 XrayProxy
 (
-uintN
+unsigned
 flags
 )
 ;

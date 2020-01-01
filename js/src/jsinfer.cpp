@@ -22596,7 +22596,7 @@ identifier
 .
 *
 /
-uintN
+unsigned
 index
 ;
 BindingKind

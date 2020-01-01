@@ -496,7 +496,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 scopeIndex
 JSObject
 *
@@ -701,7 +701,7 @@ obj
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -728,7 +728,7 @@ enclosingScope
 (
 )
 ;
-uintN
+unsigned
 protoIndex
 =
 0
@@ -1740,7 +1740,7 @@ empty
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0

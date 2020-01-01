@@ -71,7 +71,7 @@ native
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -277,7 +277,7 @@ found
 =
 JS_FALSE
 ;
-uintN
+unsigned
 attrs
 =
 0

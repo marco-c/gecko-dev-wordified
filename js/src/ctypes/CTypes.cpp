@@ -721,7 +721,7 @@ ConstructAbstract
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -738,7 +738,7 @@ ConstructData
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -755,7 +755,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -873,7 +873,7 @@ CreateArray
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -887,7 +887,7 @@ ToString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -901,7 +901,7 @@ ToSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -938,7 +938,7 @@ Create
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -955,7 +955,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -1022,7 +1022,7 @@ IsNull
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1036,7 +1036,7 @@ Increment
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1050,7 +1050,7 @@ Decrement
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1090,7 +1090,7 @@ OffsetBy
 JSContext
 *
 cx
-intN
+int
 offset
 jsval
 *
@@ -1108,7 +1108,7 @@ Create
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1125,7 +1125,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -1209,7 +1209,7 @@ AddressOfElement
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1227,7 +1227,7 @@ Create
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1244,7 +1244,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -1311,7 +1311,7 @@ AddressOfField
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1325,7 +1325,7 @@ Define
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1343,7 +1343,7 @@ Create
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1380,7 +1380,7 @@ Call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1565,7 +1565,7 @@ Address
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1579,7 +1579,7 @@ ReadString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1593,7 +1593,7 @@ ToSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1648,7 +1648,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -1666,7 +1666,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -1698,7 +1698,7 @@ Construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1712,7 +1712,7 @@ ToString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1726,7 +1726,7 @@ ToSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1740,7 +1740,7 @@ Compare
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1754,7 +1754,7 @@ Lo
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1768,7 +1768,7 @@ Hi
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1782,7 +1782,7 @@ Join
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1800,7 +1800,7 @@ Construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1814,7 +1814,7 @@ ToString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1828,7 +1828,7 @@ ToSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1842,7 +1842,7 @@ Compare
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1856,7 +1856,7 @@ Lo
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1870,7 +1870,7 @@ Hi
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1884,7 +1884,7 @@ Join
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3562,7 +3562,7 @@ char
 *
 locale
 const
-uintN
+unsigned
 errorNumber
 )
 {
@@ -18344,7 +18344,7 @@ ConstructAbstract
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -18551,7 +18551,7 @@ ConstructData
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -18778,7 +18778,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -21948,7 +21948,7 @@ CreateArray
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -22142,7 +22142,7 @@ ToString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -22311,7 +22311,7 @@ ToSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -22759,7 +22759,7 @@ Create
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -23114,7 +23114,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -23797,7 +23797,7 @@ IsNull
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -23945,7 +23945,7 @@ OffsetBy
 JSContext
 *
 cx
-intN
+int
 offset
 jsval
 *
@@ -24182,7 +24182,7 @@ Increment
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -24207,7 +24207,7 @@ Decrement
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -24800,7 +24800,7 @@ Create
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -25343,7 +25343,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -27458,7 +27458,7 @@ AddressOfElement
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -28505,7 +28505,7 @@ Create
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -30246,7 +30246,7 @@ Define
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -30426,7 +30426,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -31886,7 +31886,7 @@ AddressOfField
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -33651,7 +33651,7 @@ returnType
 jsval
 *
 argTypes
-uintN
+unsigned
 argLength
 )
 {
@@ -34088,7 +34088,7 @@ Create
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -35072,7 +35072,7 @@ Call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -40219,7 +40219,7 @@ Address
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -40428,7 +40428,7 @@ Cast
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -40724,7 +40724,7 @@ GetRuntime
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -40929,7 +40929,7 @@ ReadString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -41452,7 +41452,7 @@ ToSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -42156,7 +42156,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -42351,7 +42351,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -42510,7 +42510,7 @@ Construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -42724,7 +42724,7 @@ ToString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -42794,7 +42794,7 @@ ToSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -42864,7 +42864,7 @@ Compare
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -43103,7 +43103,7 @@ Lo
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -43240,7 +43240,7 @@ Hi
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -43377,7 +43377,7 @@ Join
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -43601,7 +43601,7 @@ Construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -43815,7 +43815,7 @@ ToString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -43885,7 +43885,7 @@ ToSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -43955,7 +43955,7 @@ Compare
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -44151,7 +44151,7 @@ Lo
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -44288,7 +44288,7 @@ Hi
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -44425,7 +44425,7 @@ Join
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

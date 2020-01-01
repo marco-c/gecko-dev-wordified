@@ -1894,7 +1894,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 flags
 Value
 *
@@ -2019,7 +2019,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 indent
 )
 {
@@ -2205,7 +2205,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 argc
 Value
 *
@@ -2285,7 +2285,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 argc
 Value
 *
@@ -2740,7 +2740,7 @@ JSObject
 handler
 Value
 fval
-uintN
+unsigned
 argc
 Value
 *
@@ -3504,7 +3504,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 flags
 Value
 *
@@ -4936,7 +4936,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 flags
 Value
 *
@@ -5979,7 +5979,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 flags
 Value
 *
@@ -6028,7 +6028,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 argc
 Value
 *
@@ -6077,7 +6077,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 argc
 Value
 *
@@ -6378,7 +6378,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 indent
 )
 {
@@ -6806,7 +6806,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -6902,7 +6902,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -6942,7 +6942,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -6996,7 +6996,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -7379,7 +7379,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -7440,7 +7440,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -7470,7 +7470,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -7514,7 +7514,7 @@ JSObject
 obj
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -7544,7 +7544,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -7640,7 +7640,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -7670,7 +7670,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -7714,7 +7714,7 @@ JSObject
 obj
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -8656,7 +8656,7 @@ proxy_Call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -8708,7 +8708,7 @@ proxy_Construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -9179,7 +9179,7 @@ proxy_create
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -9369,7 +9369,7 @@ proxy_createFunction
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -9588,7 +9588,7 @@ proxy_isTrapping
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -9668,7 +9668,7 @@ proxy_fix
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -9849,7 +9849,7 @@ callable_Call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -9935,7 +9935,7 @@ callable_Construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *

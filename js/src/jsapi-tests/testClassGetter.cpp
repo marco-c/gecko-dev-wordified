@@ -104,7 +104,7 @@ PTest
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -182,7 +182,7 @@ test_fn
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

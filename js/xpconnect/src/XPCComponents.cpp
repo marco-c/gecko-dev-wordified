@@ -691,7 +691,7 @@ static
 nsresult
 ThrowAndFail
 (
-uintN
+unsigned
 errNum
 JSContext
 *
@@ -16611,7 +16611,7 @@ SandboxDump
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -16802,7 +16802,7 @@ SandboxDebug
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -16835,7 +16835,7 @@ SandboxImport
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -21702,7 +21702,7 @@ FunctionWrapper
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -23910,7 +23910,7 @@ rt
 return
 NS_ERROR_FAILURE
 ;
-uintN
+unsigned
 attrs
 =
 0

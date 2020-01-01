@@ -1119,7 +1119,7 @@ Value
 &
 arg
 (
-uintN
+unsigned
 i
 )
 const
@@ -1128,7 +1128,7 @@ inline
 void
 setArg
 (
-uintN
+unsigned
 i
 const
 Value
@@ -1140,7 +1140,7 @@ inline
 void
 initArgUnchecked
 (
-uintN
+unsigned
 i
 const
 Value
@@ -1166,7 +1166,7 @@ Value
 &
 var
 (
-uintN
+unsigned
 i
 )
 const
@@ -1175,7 +1175,7 @@ inline
 void
 setVar
 (
-uintN
+unsigned
 i
 const
 Value
@@ -1187,7 +1187,7 @@ inline
 void
 initVarUnchecked
 (
-uintN
+unsigned
 i
 const
 Value
@@ -1250,12 +1250,12 @@ inline
 void
 copyValues
 (
-uintN
+unsigned
 nargs
 Value
 *
 argv
-uintN
+unsigned
 nvars
 Value
 *
@@ -1833,7 +1833,7 @@ JSContext
 cx
 jsid
 id
-intN
+int
 index
 bool
 *

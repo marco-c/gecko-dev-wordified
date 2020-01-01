@@ -1073,7 +1073,7 @@ compartment
 this
 )
 ;
-uintN
+unsigned
 flags
 =
 0
@@ -4128,7 +4128,7 @@ enabledAfter
 debugModeBits
 &
 ~
-uintN
+unsigned
 (
 DebugFromC
 )
@@ -4297,7 +4297,7 @@ debugModeBits
 debugModeBits
 &
 ~
-uintN
+unsigned
 (
 DebugFromC
 )

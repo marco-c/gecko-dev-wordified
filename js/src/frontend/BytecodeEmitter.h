@@ -2679,7 +2679,7 @@ global
 context
 *
 /
-uintN
+unsigned
 staticLevel
 ;
 /
@@ -2897,7 +2897,7 @@ cx
 )
 ;
 }
-uintN
+unsigned
 blockid
 (
 )
@@ -3609,7 +3609,7 @@ SetStaticLevel
 TreeContext
 *
 tc
-uintN
+unsigned
 staticLevel
 )
 ;
@@ -3684,7 +3684,7 @@ NULL
 )
 {
 }
-uintN
+unsigned
 index
 (
 ObjectBox
@@ -4058,7 +4058,7 @@ see
 below
 *
 /
-uintN
+unsigned
 noteCount
 ;
 /
@@ -4071,7 +4071,7 @@ so
 far
 *
 /
-uintN
+unsigned
 noteLimit
 ;
 /
@@ -4098,7 +4098,7 @@ source
 note
 *
 /
-uintN
+unsigned
 currentLine
 ;
 /
@@ -4133,7 +4133,7 @@ mapping
 AtomDefnMapPtr
 roLexdeps
 ;
-uintN
+unsigned
 firstLine
 ;
 /
@@ -4147,7 +4147,7 @@ JSScript
 NewScriptFromEmitter
 *
 /
-intN
+int
 stackDepth
 ;
 /
@@ -4160,7 +4160,7 @@ script
 frame
 *
 /
-uintN
+unsigned
 maxStackDepth
 ;
 /
@@ -4172,7 +4172,7 @@ so
 far
 *
 /
-uintN
+unsigned
 ntrynotes
 ;
 /
@@ -4199,7 +4199,7 @@ try
 node
 *
 /
-uintN
+unsigned
 arrayCompDepth
 ;
 /
@@ -4212,7 +4212,7 @@ in
 comprehension
 *
 /
-uintN
+unsigned
 emitLevel
 ;
 /
@@ -4410,7 +4410,7 @@ BytecodeEmitter
 Parser
 *
 parser
-uintN
+unsigned
 lineno
 )
 ;
@@ -5005,7 +5005,7 @@ current
 notes
 ;
 }
-uintN
+unsigned
 noteCount
 (
 )
@@ -5018,7 +5018,7 @@ current
 noteCount
 ;
 }
-uintN
+unsigned
 noteLimit
 (
 )
@@ -5044,7 +5044,7 @@ current
 lastNoteOffset
 ;
 }
-uintN
+unsigned
 currentLine
 (
 )
@@ -7294,7 +7294,7 @@ memory
 .
 *
 /
-intN
+int
 NewSrcNote
 (
 JSContext
@@ -7307,7 +7307,7 @@ SrcNoteType
 type
 )
 ;
-intN
+int
 NewSrcNote2
 (
 JSContext
@@ -7322,7 +7322,7 @@ ptrdiff_t
 offset
 )
 ;
-intN
+int
 NewSrcNote3
 (
 JSContext
@@ -7850,7 +7850,7 @@ js_SrcNoteSpec
 extern
 JS_FRIEND_API
 (
-uintN
+unsigned
 )
 js_SrcNoteLength
 (
@@ -7892,7 +7892,7 @@ js_GetSrcNoteOffset
 jssrcnote
 *
 sn
-uintN
+unsigned
 which
 )
 ;

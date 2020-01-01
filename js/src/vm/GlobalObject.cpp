@@ -656,7 +656,7 @@ ThrowTypeError
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -2794,7 +2794,7 @@ clasp
 JSAtom
 *
 name
-uintN
+unsigned
 length
 gc
 :

@@ -2251,7 +2251,7 @@ CallReceiver
 {
 protected
 :
-uintN
+unsigned
 argc_
 ;
 public
@@ -2260,7 +2260,7 @@ friend
 CallArgs
 CallArgsFromVp
 (
-uintN
+unsigned
 Value
 *
 )
@@ -2269,7 +2269,7 @@ friend
 CallArgs
 CallArgsFromArgv
 (
-uintN
+unsigned
 Value
 *
 )
@@ -2278,7 +2278,7 @@ friend
 CallArgs
 CallArgsFromSp
 (
-uintN
+unsigned
 Value
 *
 )
@@ -2319,7 +2319,7 @@ return
 argv_
 ;
 }
-uintN
+unsigned
 length
 (
 )
@@ -2348,7 +2348,7 @@ JS_ALWAYS_INLINE
 CallArgs
 CallArgsFromArgv
 (
-uintN
+unsigned
 argc
 Value
 *
@@ -2384,7 +2384,7 @@ JS_ALWAYS_INLINE
 CallArgs
 CallArgsFromVp
 (
-uintN
+unsigned
 argc
 Value
 *
@@ -2405,7 +2405,7 @@ JS_ALWAYS_INLINE
 CallArgs
 CallArgsFromSp
 (
-uintN
+unsigned
 argc
 Value
 *
@@ -2597,7 +2597,7 @@ friend
 CallArgsList
 CallArgsListFromVp
 (
-uintN
+unsigned
 Value
 *
 CallArgsList
@@ -2608,7 +2608,7 @@ friend
 CallArgsList
 CallArgsListFromArgv
 (
-uintN
+unsigned
 Value
 *
 CallArgsList
@@ -2662,7 +2662,7 @@ JS_ALWAYS_INLINE
 CallArgsList
 CallArgsListFromArgv
 (
-uintN
+unsigned
 argc
 Value
 *
@@ -2718,7 +2718,7 @@ JS_ALWAYS_INLINE
 CallArgsList
 CallArgsListFromVp
 (
-uintN
+unsigned
 argc
 Value
 *
@@ -3405,7 +3405,7 @@ a
 function
 *
 /
-uintN
+unsigned
 nactual
 ;
 /
@@ -3759,7 +3759,7 @@ flags
 void
 *
 ncode
-uintN
+unsigned
 nactual
 )
 ;
@@ -4516,7 +4516,7 @@ Value
 &
 varSlot
 (
-uintN
+unsigned
 i
 )
 {
@@ -4564,7 +4564,7 @@ Value
 &
 localSlot
 (
-uintN
+unsigned
 i
 )
 {
@@ -5549,7 +5549,7 @@ isNonEvalFunctionFrame
 )
 ;
 }
-uintN
+unsigned
 numFormalArgs
 (
 )
@@ -5575,7 +5575,7 @@ Value
 &
 formalArg
 (
-uintN
+unsigned
 i
 )
 const
@@ -5675,7 +5675,7 @@ NULL
 ;
 }
 inline
-uintN
+unsigned
 numActualArgs
 (
 )
@@ -5702,7 +5702,7 @@ Value
 &
 canonicalActualArg
 (
-uintN
+unsigned
 i
 )
 const
@@ -5718,14 +5718,14 @@ forEachCanonicalActualArg
 (
 Op
 op
-uintN
+unsigned
 start
 =
 0
-uintN
+unsigned
 count
 =
-uintN
+unsigned
 (
 -
 1
@@ -8288,7 +8288,7 @@ offsetOfFormalArg
 JSFunction
 *
 fun
-uintN
+unsigned
 i
 )
 {
@@ -8326,7 +8326,7 @@ static
 size_t
 offsetOfFixed
 (
-uintN
+unsigned
 i
 )
 {
@@ -8406,7 +8406,7 @@ Value
 ;
 static
 inline
-uintN
+unsigned
 ToReportFlags
 (
 InitialFrameFlags
@@ -8414,7 +8414,7 @@ initial
 )
 {
 return
-uintN
+unsigned
 (
 initial
 &
@@ -10237,7 +10237,7 @@ OOMing
 /
 static
 const
-uintN
+unsigned
 ARGS_LENGTH_MAX
 =
 CAPACITY_VALS
@@ -10570,7 +10570,7 @@ cx
 Value
 *
 from
-uintN
+unsigned
 nvals
 Value
 *
@@ -10899,7 +10899,7 @@ JSContext
 cx
 MaybeReportError
 report
-uintN
+unsigned
 nvars
 MaybeExtend
 extend
@@ -11412,7 +11412,7 @@ pushInvokeArgs
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 InvokeArgsGuard
 *

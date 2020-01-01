@@ -3932,7 +3932,7 @@ case
 value
 *
 /
-uintN
+unsigned
 iflags
 ;
 /
@@ -5240,7 +5240,7 @@ non
 constants
 *
 /
-uintN
+unsigned
 frameLevel
 (
 )
@@ -5268,7 +5268,7 @@ level
 )
 ;
 }
-uintN
+unsigned
 frameSlot
 (
 )
@@ -5300,7 +5300,7 @@ inline
 bool
 test
 (
-uintN
+unsigned
 flag
 )
 const
@@ -9905,7 +9905,7 @@ ParseNode
 :
 test
 (
-uintN
+unsigned
 flag
 )
 const

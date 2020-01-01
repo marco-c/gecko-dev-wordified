@@ -1640,7 +1640,7 @@ ContextCallback
 JSContext
 *
 cx
-uintN
+unsigned
 operation
 )
 {
@@ -1737,7 +1737,7 @@ cx
 JSCompartment
 *
 compartment
-uintN
+unsigned
 op
 )
 {
@@ -13868,7 +13868,7 @@ cx
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0

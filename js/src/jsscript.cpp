@@ -718,7 +718,7 @@ cx
 JSAtom
 *
 name
-uintN
+unsigned
 *
 indexp
 )
@@ -901,7 +901,7 @@ too
 .
 *
 /
-uintN
+unsigned
 attrs
 =
 JSPROP_ENUMERATE
@@ -1587,7 +1587,7 @@ empty
 )
 )
 ;
-uintN
+unsigned
 n
 =
 countLocalNames
@@ -1626,7 +1626,7 @@ JSAtom
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -1688,7 +1688,7 @@ front
 (
 )
 ;
-uintN
+unsigned
 index
 =
 uint16_t
@@ -1839,7 +1839,7 @@ ifdef
 DEBUG
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -3166,7 +3166,7 @@ var
 *
 *
 /
-uintN
+unsigned
 bitmapLength
 =
 JS_HOWMANY
@@ -3256,7 +3256,7 @@ bitmapLength
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -3306,7 +3306,7 @@ JS_BITS_PER_UINT32
 }
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -3339,7 +3339,7 @@ false
 }
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -3487,7 +3487,7 @@ ARGUMENT
 (
 i
 <
-uintN
+unsigned
 (
 nargs
 +
@@ -4262,7 +4262,7 @@ FULL_MASK
 )
 =
 =
-uintN
+unsigned
 (
 version_
 )
@@ -4816,7 +4816,7 @@ script
 lineno
 =
 (
-uintN
+unsigned
 )
 lineno
 ;
@@ -10835,7 +10835,7 @@ length
 GSN_CACHE_THRESHOLD
 )
 {
-uintN
+unsigned
 nsrcnotes
 =
 0
@@ -11009,7 +11009,7 @@ return
 result
 ;
 }
-uintN
+unsigned
 js_PCToLineNumber
 (
 JSContext
@@ -11142,7 +11142,7 @@ code
 .
 *
 /
-uintN
+unsigned
 lineno
 =
 script
@@ -11229,7 +11229,7 @@ target
 lineno
 =
 (
-uintN
+unsigned
 )
 js_GetSrcNoteOffset
 (
@@ -11305,7 +11305,7 @@ js_LineNumberToPC
 JSScript
 *
 script
-uintN
+unsigned
 target
 )
 {
@@ -11320,7 +11320,7 @@ best
 -
 1
 ;
-uintN
+unsigned
 lineno
 =
 script
@@ -11328,7 +11328,7 @@ script
 >
 lineno
 ;
-uintN
+unsigned
 bestdiff
 =
 SN_LINE_LIMIT
@@ -11420,7 +11420,7 @@ lineno
 target
 )
 {
-uintN
+unsigned
 diff
 =
 lineno
@@ -11474,7 +11474,7 @@ SRC_SETLINE
 lineno
 =
 (
-uintN
+unsigned
 )
 js_GetSrcNoteOffset
 (
@@ -11522,7 +11522,7 @@ offset
 }
 JS_FRIEND_API
 (
-uintN
+unsigned
 )
 js_GetScriptLineExtent
 (
@@ -11531,7 +11531,7 @@ JSScript
 script
 )
 {
-uintN
+unsigned
 lineno
 =
 script
@@ -11539,7 +11539,7 @@ script
 >
 lineno
 ;
-uintN
+unsigned
 maxLineNo
 =
 0
@@ -11608,7 +11608,7 @@ lineno
 lineno
 =
 (
-uintN
+unsigned
 )
 js_GetSrcNoteOffset
 (
@@ -11679,7 +11679,7 @@ lineno
 namespace
 js
 {
-uintN
+unsigned
 CurrentLine
 (
 JSContext
@@ -11724,7 +11724,7 @@ char
 *
 *
 file
-uintN
+unsigned
 *
 linenop
 JSPrincipals

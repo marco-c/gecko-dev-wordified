@@ -1085,7 +1085,7 @@ mode
 .
 *
 /
-uintN
+unsigned
 attrs
 ;
 id
@@ -1227,7 +1227,7 @@ toObjectOrNull
 (
 )
 ;
-uintN
+unsigned
 attrs
 ;
 id
@@ -2756,7 +2756,7 @@ obj_toSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4419,7 +4419,7 @@ obj_toString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4595,7 +4595,7 @@ obj_toLocaleString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4679,7 +4679,7 @@ obj_valueOf
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4939,7 +4939,7 @@ str
 StackFrame
 *
 caller
-uintN
+unsigned
 staticLevel
 JSPrincipals
 *
@@ -5123,7 +5123,7 @@ desired
 .
 *
 /
-uintN
+unsigned
 count
 =
 0
@@ -5745,7 +5745,7 @@ lookupInEvalCache
 StackFrame
 *
 caller
-uintN
+unsigned
 staticLevel
 JSPrincipals
 *
@@ -6209,7 +6209,7 @@ eval
 )
 *
 /
-uintN
+unsigned
 staticLevel
 ;
 Value
@@ -6925,7 +6925,7 @@ foundScript
 )
 )
 {
-uintN
+unsigned
 lineno
 ;
 const
@@ -7266,7 +7266,7 @@ eval
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -7942,7 +7942,7 @@ obj_watch
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -8037,7 +8037,7 @@ false
 Value
 tmp
 ;
-uintN
+unsigned
 attrs
 ;
 if
@@ -8114,7 +8114,7 @@ obj_unwatch
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -8248,7 +8248,7 @@ obj_hasOwnProperty
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -8303,7 +8303,7 @@ JSContext
 cx
 LookupGenericOp
 lookup
-uintN
+unsigned
 argc
 Value
 *
@@ -8599,7 +8599,7 @@ obj_isPrototypeOf
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -8719,7 +8719,7 @@ obj_propertyIsEnumerable
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -8920,7 +8920,7 @@ return
 true
 ;
 }
-uintN
+unsigned
 attrs
 ;
 if
@@ -9021,7 +9021,7 @@ DefineAccessor
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -9300,7 +9300,7 @@ obj_defineGetter
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -9331,7 +9331,7 @@ obj_defineSetter
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -9357,7 +9357,7 @@ obj_lookupGetter
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -9506,7 +9506,7 @@ obj_lookupSetter
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -9661,7 +9661,7 @@ obj_getPrototypeOf
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -9761,7 +9761,7 @@ toObject
 (
 )
 ;
-uintN
+unsigned
 attrs
 ;
 return
@@ -10564,7 +10564,7 @@ GetFirstArgumentAsObject
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10691,7 +10691,7 @@ obj_getOwnPropertyDescriptor
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10778,7 +10778,7 @@ obj_keys
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11800,7 +11800,7 @@ Reject
 JSContext
 *
 cx
-uintN
+unsigned
 errorNumber
 bool
 throwError
@@ -11890,7 +11890,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 errorNumber
 bool
 throwError
@@ -12188,7 +12188,7 @@ view
 Value
 dummy
 ;
-uintN
+unsigned
 dummyAttrs
 ;
 if
@@ -13554,7 +13554,7 @@ step
 .
 *
 /
-uintN
+unsigned
 attrs
 ;
 PropertyOp
@@ -13572,7 +13572,7 @@ isGenericDescriptor
 )
 )
 {
-uintN
+unsigned
 changed
 =
 0
@@ -13686,7 +13686,7 @@ isDataDescriptor
 )
 )
 {
-uintN
+unsigned
 unchanged
 =
 0
@@ -13877,7 +13877,7 @@ step
 .
 *
 /
-uintN
+unsigned
 changed
 =
 0
@@ -14788,7 +14788,7 @@ obj_defineProperty
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -15177,7 +15177,7 @@ obj_defineProperties
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -15332,7 +15332,7 @@ obj_create
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -15685,7 +15685,7 @@ obj_getOwnPropertyNames
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -15921,7 +15921,7 @@ obj_isExtensible
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -15976,7 +15976,7 @@ obj_preventExtensions
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -16053,13 +16053,13 @@ static
 *
 /
 inline
-uintN
+unsigned
 JSObject
 :
 :
 getSealedOrFrozenAttributes
 (
-uintN
+unsigned
 attrs
 ImmutabilityType
 it
@@ -16599,7 +16599,7 @@ props
 i
 ]
 ;
-uintN
+unsigned
 attrs
 ;
 if
@@ -16619,7 +16619,7 @@ attrs
 return
 false
 ;
-uintN
+unsigned
 new_attrs
 =
 getSealedOrFrozenAttributes
@@ -16772,7 +16772,7 @@ props
 i
 ]
 ;
-uintN
+unsigned
 attrs
 ;
 if
@@ -16897,7 +16897,7 @@ obj_freeze
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -16954,7 +16954,7 @@ obj_isFrozen
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -17023,7 +17023,7 @@ obj_seal
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -17080,7 +17080,7 @@ obj_isSealed
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -17450,7 +17450,7 @@ js_Object
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -19941,13 +19941,13 @@ determined
 .
 *
 /
-uintN
+unsigned
 js_InferFlags
 (
 JSContext
 *
 cx
-uintN
+unsigned
 defaultFlags
 )
 {
@@ -19959,7 +19959,7 @@ cs
 uint32_t
 format
 ;
-uintN
+unsigned
 flags
 =
 0
@@ -20564,7 +20564,7 @@ shapes
 n
 ]
 ;
-uintN
+unsigned
 attrs
 =
 shape
@@ -23678,7 +23678,7 @@ Class
 clasp
 Native
 constructor
-uintN
+unsigned
 nargs
 JSPropertySpec
 *
@@ -24939,7 +24939,7 @@ Class
 clasp
 Native
 constructor
-uintN
+unsigned
 nargs
 JSPropertySpec
 *
@@ -26699,7 +26699,7 @@ growElements
 JSContext
 *
 cx
-uintN
+unsigned
 newcap
 )
 {
@@ -27133,7 +27133,7 @@ shrinkElements
 JSContext
 *
 cx
-uintN
+unsigned
 newcap
 )
 {
@@ -27312,7 +27312,7 @@ JSObject
 :
 slotInRange
 (
-uintN
+unsigned
 slot
 SentinelAllowed
 sentinel
@@ -29239,11 +29239,11 @@ StrictPropertyOp
 setter
 uint32_t
 slot
-uintN
+unsigned
 attrs
-uintN
+unsigned
 flags
-intN
+int
 shortid
 )
 {
@@ -29365,9 +29365,9 @@ obj
 Shape
 *
 shape
-uintN
+unsigned
 attrs
-uintN
+unsigned
 mask
 PropertyOp
 getter
@@ -29490,7 +29490,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -29531,7 +29531,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -29749,13 +29749,13 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
-uintN
+unsigned
 flags
-intN
+int
 shortid
-uintN
+unsigned
 defineHow
 /
 *
@@ -30821,7 +30821,7 @@ HandleObject
 obj
 HandleId
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -31231,7 +31231,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -31767,7 +31767,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -32842,7 +32842,7 @@ const
 Shape
 *
 shape
-uintN
+unsigned
 getHow
 Value
 *
@@ -33168,7 +33168,7 @@ const
 Shape
 *
 shape
-uintN
+unsigned
 getHow
 Value
 *
@@ -33968,7 +33968,7 @@ return
 JS_TRUE
 ;
 }
-uintN
+unsigned
 flags
 =
 JSREPORT_WARNING
@@ -34387,7 +34387,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 getHow
 Value
 *
@@ -34615,7 +34615,7 @@ JSContext
 cx
 jsid
 id
-uintN
+unsigned
 report
 )
 {
@@ -34647,7 +34647,7 @@ JSContext
 cx
 jsid
 id
-uintN
+unsigned
 report
 )
 {
@@ -34677,7 +34677,7 @@ reportNotExtensible
 JSContext
 *
 cx
-uintN
+unsigned
 report
 )
 {
@@ -34710,7 +34710,7 @@ JSContext
 cx
 jsid
 id
-uintN
+unsigned
 argc
 Value
 *
@@ -34842,7 +34842,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 defineHow
 Value
 *
@@ -34864,11 +34864,11 @@ Shape
 *
 shape
 ;
-uintN
+unsigned
 attrs
 flags
 ;
-intN
+int
 shortid
 ;
 Class
@@ -36373,7 +36373,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 defineHow
 Value
 *
@@ -36422,7 +36422,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -36520,7 +36520,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -36619,7 +36619,7 @@ obj
 Shape
 *
 shape
-uintN
+unsigned
 attrs
 )
 {
@@ -36669,7 +36669,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -36746,7 +36746,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -38374,7 +38374,7 @@ mode
 Value
 *
 vp
-uintN
+unsigned
 *
 attrsp
 )

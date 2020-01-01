@@ -649,7 +649,7 @@ ThrowDOMExceptionForCode
 JSContext
 *
 aCx
-intN
+int
 aCode
 )
 ;
@@ -659,7 +659,7 @@ ThrowFileExceptionForCode
 JSContext
 *
 aCx
-intN
+int
 aCode
 )
 ;

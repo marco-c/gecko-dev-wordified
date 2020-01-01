@@ -490,14 +490,14 @@ JSObject
 {
 static
 const
-uintN
+unsigned
 PRIMITIVE_VALUE_SLOT
 =
 0
 ;
 static
 const
-uintN
+unsigned
 LENGTH_SLOT
 =
 1
@@ -506,7 +506,7 @@ public
 :
 static
 const
-uintN
+unsigned
 RESERVED_SLOTS
 =
 2

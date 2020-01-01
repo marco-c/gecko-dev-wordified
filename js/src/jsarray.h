@@ -488,7 +488,7 @@ what
 *
 /
 const
-uintN
+unsigned
 MIN_SPARSE_INDEX
 =
 256
@@ -1139,7 +1139,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 ;
@@ -1237,7 +1237,7 @@ array_sort
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -1254,7 +1254,7 @@ array_push
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -1271,7 +1271,7 @@ array_pop
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -1288,7 +1288,7 @@ array_concat
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -1305,7 +1305,7 @@ array_shift
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -1332,7 +1332,7 @@ js_ArrayInfo
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1510,7 +1510,7 @@ js_Array
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :

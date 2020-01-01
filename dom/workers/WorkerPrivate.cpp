@@ -16491,7 +16491,7 @@ SetTimeout
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -16849,7 +16849,7 @@ aArgc
 ;
 for
 (
-uintN
+unsigned
 index
 =
 2

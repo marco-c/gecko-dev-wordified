@@ -1463,7 +1463,7 @@ ContextCallback
 JSContext
 *
 cx
-uintN
+unsigned
 contextOp
 )
 {
@@ -1514,14 +1514,14 @@ Print
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
 vp
 )
 {
-uintN
+unsigned
 i
 n
 ;
@@ -1711,7 +1711,7 @@ Dump
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1801,14 +1801,14 @@ Load
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
 vp
 )
 {
-uintN
+unsigned
 i
 ;
 JSString
@@ -2042,7 +2042,7 @@ Version
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2122,7 +2122,7 @@ BuildDate
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2158,7 +2158,7 @@ Quit
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2222,7 +2222,7 @@ DumpXPC
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2312,7 +2312,7 @@ GC
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2365,7 +2365,7 @@ GCZeal
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2429,7 +2429,7 @@ DumpHeap
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2914,7 +2914,7 @@ Clear
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

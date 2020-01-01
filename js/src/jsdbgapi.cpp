@@ -1685,7 +1685,7 @@ origobj
 Value
 v
 ;
-uintN
+unsigned
 attrs
 ;
 jsid
@@ -2199,7 +2199,7 @@ true
 /
 JS_PUBLIC_API
 (
-uintN
+unsigned
 )
 JS_PCToLineNumber
 (
@@ -2236,7 +2236,7 @@ cx
 JSScript
 *
 script
-uintN
+unsigned
 lineno
 )
 {
@@ -2287,14 +2287,14 @@ cx
 JSScript
 *
 script
-uintN
+unsigned
 startLine
-uintN
+unsigned
 maxLines
-uintN
+unsigned
 *
 count
-uintN
+unsigned
 *
 *
 retLines
@@ -2305,7 +2305,7 @@ jsbytecode
 retPCs
 )
 {
-uintN
+unsigned
 *
 lines
 ;
@@ -2336,7 +2336,7 @@ length
 lines
 =
 (
-uintN
+unsigned
 *
 )
 cx
@@ -2348,7 +2348,7 @@ len
 *
 sizeof
 (
-uintN
+unsigned
 )
 )
 ;
@@ -2399,7 +2399,7 @@ return
 JS_FALSE
 ;
 }
-uintN
+unsigned
 lineno
 =
 script
@@ -2407,12 +2407,12 @@ script
 >
 lineno
 ;
-uintN
+unsigned
 offset
 =
 0
 ;
-uintN
+unsigned
 i
 =
 0
@@ -2487,7 +2487,7 @@ SRC_SETLINE
 lineno
 =
 (
-uintN
+unsigned
 )
 js_GetSrcNoteOffset
 (
@@ -2588,7 +2588,7 @@ JS_TRUE
 }
 JS_PUBLIC_API
 (
-uintN
+unsigned
 )
 JS_GetFunctionArgumentCount
 (
@@ -4189,7 +4189,7 @@ sourceMap
 }
 JS_PUBLIC_API
 (
-uintN
+unsigned
 )
 JS_GetScriptBaseLineNumber
 (
@@ -4210,7 +4210,7 @@ lineno
 }
 JS_PUBLIC_API
 (
-uintN
+unsigned
 )
 JS_GetScriptLineExtent
 (
@@ -4495,13 +4495,13 @@ const
 jschar
 *
 chars
-uintN
+unsigned
 length
 const
 char
 *
 filename
-uintN
+unsigned
 lineno
 jsval
 *
@@ -4598,13 +4598,13 @@ const
 char
 *
 bytes
-uintN
+unsigned
 length
 const
 char
 *
 filename
-uintN
+unsigned
 lineno
 jsval
 *
@@ -4655,7 +4655,7 @@ JS_FALSE
 length
 =
 (
-uintN
+unsigned
 )
 len
 ;
@@ -7530,7 +7530,7 @@ RequiredStringArg
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -7673,7 +7673,7 @@ StartProfiling
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -7751,7 +7751,7 @@ StopProfiling
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -7829,7 +7829,7 @@ PauseProfilers
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -7907,7 +7907,7 @@ ResumeProfilers
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8000,7 +8000,7 @@ DumpProfile
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8128,7 +8128,7 @@ IgnoreAndReturnTrue
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8158,7 +8158,7 @@ StartCallgrind
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8188,7 +8188,7 @@ StopCallgrind
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8218,7 +8218,7 @@ DumpCallgrind
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8301,7 +8301,7 @@ StartVtune
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8354,7 +8354,7 @@ StopVtune
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8384,7 +8384,7 @@ PauseVtune
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8414,7 +8414,7 @@ ResumeVtune
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

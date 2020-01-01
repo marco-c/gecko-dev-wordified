@@ -817,9 +817,9 @@ const
 Shape
 *
 prop
-uintN
+unsigned
 scopeIndex
-uintN
+unsigned
 protoIndex
 )
 {
@@ -1682,7 +1682,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 scopeIndex
 JSObject
 *

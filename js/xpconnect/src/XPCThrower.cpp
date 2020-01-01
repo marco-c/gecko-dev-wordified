@@ -1012,7 +1012,7 @@ ThrowBadParam
 (
 nsresult
 rv
-uintN
+unsigned
 paramNum
 XPCCallContext
 &

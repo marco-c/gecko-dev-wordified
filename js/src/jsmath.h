@@ -490,7 +490,7 @@ MathCache
 (
 )
 ;
-uintN
+unsigned
 hash
 (
 double
@@ -622,7 +622,7 @@ double
 x
 )
 {
-uintN
+unsigned
 index
 =
 hash
@@ -741,7 +741,7 @@ js_math_abs
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -758,7 +758,7 @@ js_math_ceil
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -775,7 +775,7 @@ js_math_floor
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -792,7 +792,7 @@ js_math_max
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -809,7 +809,7 @@ js_math_min
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -826,7 +826,7 @@ js_math_round
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -843,7 +843,7 @@ js_math_sqrt
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -860,7 +860,7 @@ js_math_pow
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :

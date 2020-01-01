@@ -1400,7 +1400,7 @@ getEnabled
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1414,7 +1414,7 @@ setEnabled
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1428,7 +1428,7 @@ getHookImpl
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1444,7 +1444,7 @@ setHookImpl
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1460,7 +1460,7 @@ getOnDebuggerStatement
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1474,7 +1474,7 @@ setOnDebuggerStatement
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1488,7 +1488,7 @@ getOnExceptionUnwind
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1502,7 +1502,7 @@ setOnExceptionUnwind
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1516,7 +1516,7 @@ getOnNewScript
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1530,7 +1530,7 @@ setOnNewScript
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1544,7 +1544,7 @@ getOnEnterFrame
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1558,7 +1558,7 @@ setOnEnterFrame
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1572,7 +1572,7 @@ getUncaughtExceptionHook
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1586,7 +1586,7 @@ setUncaughtExceptionHook
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1600,7 +1600,7 @@ addDebuggee
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1614,7 +1614,7 @@ removeDebuggee
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1628,7 +1628,7 @@ hasDebuggee
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1642,7 +1642,7 @@ getDebuggees
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1656,7 +1656,7 @@ getNewestFrame
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1670,7 +1670,7 @@ clearAllBreakpoints
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1684,7 +1684,7 @@ construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4080,13 +4080,13 @@ const
 jschar
 *
 chars
-uintN
+unsigned
 length
 const
 char
 *
 filename
-uintN
+unsigned
 lineno
 Value
 *

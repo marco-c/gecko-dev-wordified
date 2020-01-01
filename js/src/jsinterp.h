@@ -1270,7 +1270,7 @@ const
 Value
 &
 fval
-uintN
+unsigned
 argc
 Value
 *
@@ -1317,7 +1317,7 @@ const
 Value
 &
 fval
-uintN
+unsigned
 argc
 Value
 *
@@ -1453,7 +1453,7 @@ const
 Value
 &
 fval
-uintN
+unsigned
 argc
 Value
 *
@@ -1902,7 +1902,7 @@ GetUpvar
 JSContext
 *
 cx
-uintN
+unsigned
 level
 UpvarCookie
 cookie
@@ -1933,7 +1933,7 @@ FindUpvarFrame
 JSContext
 *
 cx
-uintN
+unsigned
 targetLevel
 )
 ;
