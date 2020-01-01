@@ -131,6 +131,15 @@ h
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 ion
 /
 IonAllocPolicy
@@ -706,6 +715,9 @@ Address
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this
@@ -788,6 +800,9 @@ BaseIndex
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this
@@ -1936,6 +1951,9 @@ CodeOffsetJump
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this

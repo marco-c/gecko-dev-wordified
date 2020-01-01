@@ -149,6 +149,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
 <
 string
 .
@@ -470,6 +479,9 @@ CallsiteCloneKey
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this
@@ -1004,6 +1016,9 @@ ConservativeGCData
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this
@@ -1313,6 +1328,9 @@ last
 NULL
 )
 {
+mozilla
+:
+:
 PodArrayZero
 (
 data
@@ -1328,6 +1346,9 @@ last
 =
 NULL
 ;
+mozilla
+:
+:
 PodArrayZero
 (
 data
@@ -1684,6 +1705,9 @@ NewObjectCache
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this
@@ -1695,6 +1719,9 @@ purge
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this
@@ -11977,6 +12004,9 @@ size_t
 len
 )
 {
+mozilla
+:
+:
 PodZero
 (
 vec
@@ -11997,6 +12027,9 @@ Value
 end
 )
 {
+mozilla
+:
+:
 PodZero
 (
 beg
@@ -12081,6 +12114,9 @@ Shape
 end
 )
 {
+mozilla
+:
+:
 PodZero
 (
 beg
@@ -12103,6 +12139,9 @@ size_t
 len
 )
 {
+mozilla
+:
+:
 PodZero
 (
 vec

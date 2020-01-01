@@ -479,6 +479,9 @@ nfixed
 return
 false
 ;
+mozilla
+:
+:
 PodCopy
 (
 vec
@@ -679,6 +682,9 @@ uint32_t
 numStackValues
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this

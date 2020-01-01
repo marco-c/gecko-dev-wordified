@@ -732,7 +732,7 @@ IAccessible
 *
 msaaAccessible
 =
-NULL
+nullptr
 ;
 document
 -
