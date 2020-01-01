@@ -1948,6 +1948,10 @@ first
 second
 )
 {
+var
+firstLower
+secondLower
+;
 /
 /
 Are
