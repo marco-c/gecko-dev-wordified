@@ -648,11 +648,8 @@ normal
 italic
 oblique
 )
-unsigned
-int
+PRUint8
 style
-:
-7
 ;
 /
 /
@@ -684,11 +681,8 @@ generic
 font
 family
 .
-unsigned
-int
+PRUint8
 systemFont
-:
-1
 ;
 /
 /
@@ -705,8 +699,6 @@ caps
 )
 PRUint8
 variant
-:
-7
 ;
 /
 /
@@ -737,8 +729,6 @@ applied
 .
 PRUint8
 familyNameQuirks
-:
-1
 ;
 /
 /
