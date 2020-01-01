@@ -740,6 +740,10 @@ MakeCurrent
 (
 )
 ;
+mRoot
+=
+NULL
+;
 for
 (
 unsigned
