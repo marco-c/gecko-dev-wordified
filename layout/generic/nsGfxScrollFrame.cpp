@@ -1475,16 +1475,6 @@ mInner
 mScrolledFrame
 )
 {
-if
-(
-!
-(
-aFlags
-&
-INVALIDATE_NOTIFY_ONLY
-)
-)
-{
 /
 /
 restrict
@@ -1656,7 +1646,6 @@ INVALIDATE_CROSS_DOC
 }
 return
 ;
-}
 }
 else
 if
