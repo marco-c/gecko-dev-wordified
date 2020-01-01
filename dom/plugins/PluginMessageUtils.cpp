@@ -854,7 +854,7 @@ netscape
 #
 else
 return
-path
+munged
 ;
 #
 endif
