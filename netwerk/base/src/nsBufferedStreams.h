@@ -479,13 +479,6 @@ h
 #
 include
 "
-nsInt64
-.
-h
-"
-#
-include
-"
 nsIIPCSerializable
 .
 h
@@ -641,7 +634,7 @@ start
 of
 mStream
 .
-nsInt64
+PRInt64
 mBufferStartOffset
 ;
 /

@@ -464,13 +464,6 @@ h
 #
 include
 "
-nsInt64
-.
-h
-"
-#
-include
-"
 nsIThread
 .
 h
@@ -577,6 +570,13 @@ h
 include
 "
 nsIOutputStream
+.
+h
+"
+#
+include
+"
+nsAutoLock
 .
 h
 "

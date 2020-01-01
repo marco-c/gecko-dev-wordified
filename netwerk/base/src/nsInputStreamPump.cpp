@@ -2176,13 +2176,13 @@ streamPos
 ;
 if
 (
-nsInt64
+PRInt64
 (
 streamLen
 )
 >
 =
-nsInt64
+PRInt64
 (
 0
 )

@@ -561,13 +561,6 @@ nsFastLoadFile
 h
 "
 #
-include
-"
-nsInt64
-.
-h
-"
-#
 ifdef
 XP_UNIX
 #

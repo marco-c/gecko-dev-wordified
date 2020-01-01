@@ -414,7 +414,7 @@ h
 #
 include
 "
-nsInt64
+nsAutoLock
 .
 h
 "

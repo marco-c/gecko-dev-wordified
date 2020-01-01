@@ -572,13 +572,6 @@ h
 #
 include
 "
-nsInt64
-.
-h
-"
-#
-include
-"
 nsHashtable
 .
 h
