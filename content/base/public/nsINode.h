@@ -11167,13 +11167,6 @@ dom
 EventHandlerNonNull
 *
 listener
-\
-mozilla
-:
-:
-ErrorResult
-&
-error
 )
 ;
 \

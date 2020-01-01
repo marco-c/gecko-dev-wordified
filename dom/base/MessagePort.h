@@ -285,9 +285,6 @@ SetOnmessage
 EventHandlerNonNull
 *
 aCallback
-ErrorResult
-&
-aRv
 )
 ;
 /

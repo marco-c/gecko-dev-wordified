@@ -5405,10 +5405,6 @@ name_
 EventHandlerNonNull
 *
 handler
-\
-ErrorResult
-&
-error
 )
 \
 {
@@ -5500,7 +5496,6 @@ SetOn
 name_
 (
 handler
-error
 )
 ;
 \
@@ -5517,7 +5512,6 @@ SetOn
 name_
 (
 handler
-error
 )
 ;
 \
@@ -5728,10 +5722,6 @@ name_
 EventHandlerNonNull
 *
 handler
-\
-ErrorResult
-&
-error
 )
 \
 {
@@ -5847,7 +5837,6 @@ SetOn
 name_
 (
 errorHandler
-error
 )
 ;
 \
@@ -5864,7 +5853,6 @@ SetOn
 name_
 (
 handler
-error
 )
 ;
 \

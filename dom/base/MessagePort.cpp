@@ -2083,9 +2083,6 @@ SetOnmessage
 EventHandlerNonNull
 *
 aCallback
-ErrorResult
-&
-aRv
 )
 {
 if
@@ -2105,7 +2102,6 @@ EmptyString
 (
 )
 aCallback
-aRv
 )
 ;
 }
@@ -2121,7 +2117,6 @@ message
 "
 )
 aCallback
-aRv
 )
 ;
 }

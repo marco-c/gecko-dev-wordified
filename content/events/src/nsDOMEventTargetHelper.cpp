@@ -1378,9 +1378,6 @@ callable
 )
 ;
 }
-ErrorResult
-rv
-;
 SetEventHandler
 (
 aType
@@ -1388,15 +1385,10 @@ EmptyString
 (
 )
 handler
-rv
 )
 ;
 return
-rv
-.
-ErrorCode
-(
-)
+NS_OK
 ;
 }
 void

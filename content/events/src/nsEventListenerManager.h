@@ -2257,7 +2257,8 @@ aListenerStruct
 .
 *
 /
-nsresult
+nsListenerStruct
+*
 SetEventHandlerInternal
 (
 nsIScriptContext
@@ -2285,10 +2286,6 @@ nsEventHandler
 aHandler
 bool
 aPermitUntrustedEvents
-nsListenerStruct
-*
-*
-aListenerStruct
 )
 ;
 bool
@@ -2344,7 +2341,7 @@ event
 listener
 *
 /
-nsresult
+void
 SetEventHandler
 (
 nsIAtom
@@ -2365,7 +2362,7 @@ EventHandlerNonNull
 aHandler
 )
 ;
-nsresult
+void
 SetEventHandler
 (
 mozilla
@@ -2379,7 +2376,7 @@ OnErrorEventHandlerNonNull
 aHandler
 )
 ;
-nsresult
+void
 SetEventHandler
 (
 mozilla
