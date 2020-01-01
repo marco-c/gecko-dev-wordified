@@ -42167,6 +42167,16 @@ hudId
 this
 .
 hudId
+chromeDocument
+:
+this
+.
+document
+contentDocument
+:
+aContentWindow
+.
+document
 }
 chromeDocument
 :
