@@ -12385,6 +12385,15 @@ true
 ;
 nsRefPtr
 <
+nsPluginInstanceOwner
+>
+kungFuDeathGrip
+(
+aInstanceOwner
+)
+;
+nsRefPtr
+<
 nsNPAPIPluginInstance
 >
 inst
