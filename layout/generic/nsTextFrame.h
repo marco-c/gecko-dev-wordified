@@ -2674,6 +2674,9 @@ UnionTextDecorationOverflow
 nsPresContext
 *
 aPresContext
+PropertyProvider
+&
+aProvider
 nsRect
 *
 aOverflowRect
@@ -2818,6 +2821,11 @@ float
 aRatio
 =
 nsnull
+)
+;
+PRBool
+IsFloatingFirstLetterChild
+(
 )
 ;
 }
