@@ -5967,8 +5967,12 @@ false
 if
 (
 !
+GeckoThread
+.
 checkLaunchState
 (
+GeckoThread
+.
 LaunchState
 .
 GeckoRunning

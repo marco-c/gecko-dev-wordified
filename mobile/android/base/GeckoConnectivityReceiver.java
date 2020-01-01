@@ -460,11 +460,11 @@ LINK_DATA_UP
 }
 if
 (
-GeckoApp
+GeckoThread
 .
 checkLaunchState
 (
-GeckoApp
+GeckoThread
 .
 LaunchState
 .
