@@ -812,6 +812,10 @@ aRenderingContext
 const
 nsRect
 &
+aDirtyRect
+const
+nsRect
+&
 aTextRect
 const
 nscolor

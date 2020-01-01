@@ -1798,6 +1798,16 @@ param
 aGfxContext
 *
 param
+aDirtyRect
+no
+need
+to
+paint
+outside
+this
+rect
+*
+param
 aColor
 the
 color
@@ -2011,6 +2021,10 @@ PaintDecorationLine
 gfxContext
 *
 aGfxContext
+const
+gfxRect
+&
+aDirtyRect
 const
 nscolor
 aColor
