@@ -34451,7 +34451,7 @@ jmpoff
 0
 )
 ;
-uintN
+intN
 tmp_pcdepth
 =
 SimulateImacroCFG
@@ -34476,7 +34476,10 @@ tmp_pcdepth
 {
 pcdepth
 =
+uintN
+(
 tmp_pcdepth
+)
 ;
 goto
 success
@@ -34519,14 +34522,6 @@ target
 ;
 success
 :
-LOCAL_ASSERT
-(
-pcdepth
->
-=
-0
-)
-;
 memcpy
 (
 pcstack
@@ -34649,7 +34644,7 @@ fp
 imacpc
 )
 ;
-uintN
+intN
 pcdepth
 =
 ReconstructPCStack
@@ -34670,7 +34665,10 @@ pcdepth
 0
 )
 return
+uintN
+(
 pcdepth
+)
 ;
 return
 SimulateImacroCFG
