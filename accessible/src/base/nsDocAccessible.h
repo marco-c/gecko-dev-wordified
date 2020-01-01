@@ -2586,7 +2586,7 @@ aContainer
 nsIContent
 *
 aChildNode
-PRBool
+bool
 aIsInsert
 )
 ;
@@ -2637,13 +2637,10 @@ eAlertAccessible
 PRUint32
 UpdateTreeInternal
 (
-nsIContent
+nsAccessible
 *
-aStartNode
-nsIContent
-*
-aEndNode
-PRBool
+aChild
+bool
 aIsInsert
 )
 ;
