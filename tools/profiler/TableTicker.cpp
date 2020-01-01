@@ -3772,15 +3772,6 @@ Put
 shared
 library
 info
-JSObject
-*
-libs
-=
-GetMetaJSObject
-(
-b
-)
-;
 b
 .
 DefineProperty
