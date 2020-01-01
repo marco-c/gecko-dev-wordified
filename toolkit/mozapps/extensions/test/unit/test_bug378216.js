@@ -621,6 +621,9 @@ js
 "
 )
 ;
+var
+server
+;
 /
 /
 This
@@ -910,6 +913,12 @@ function
 (
 )
 {
+server
+.
+stop
+(
+)
+;
 do_test_finished
 (
 )
