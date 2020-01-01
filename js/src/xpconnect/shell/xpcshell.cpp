@@ -1081,6 +1081,12 @@ defined
 (
 XP_UNIX
 )
+|
+|
+defined
+(
+WINCE
+)
 /
 /
 XXX
@@ -1093,8 +1099,9 @@ implement
 this
 return
 JS_FALSE
+;
 #
-endif
+else
 JSStackFrame
 *
 fp
@@ -1462,6 +1469,8 @@ locationObj
 return
 JS_TRUE
 ;
+#
+endif
 }
 static
 JSBool
