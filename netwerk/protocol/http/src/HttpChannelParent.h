@@ -498,6 +498,13 @@ nsIInterfaceRequestor
 .
 h
 "
+#
+include
+"
+nsIProgressEventSink
+.
+h
+"
 namespace
 mozilla
 {
@@ -518,6 +525,8 @@ public
 nsIStreamListener
 public
 nsIInterfaceRequestor
+public
+nsIProgressEventSink
 {
 public
 :
@@ -525,6 +534,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIINTERFACEREQUESTOR
+NS_DECL_NSIPROGRESSEVENTSINK
 HttpChannelParent
 (
 )
