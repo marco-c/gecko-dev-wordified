@@ -682,7 +682,7 @@ s
 link
 map
 .
-doc
+element
 -
 >
 GetCurrentDoc
