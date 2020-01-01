@@ -579,6 +579,16 @@ in
 window
 )
 {
+gBrowser
+.
+selectedTab
+=
+gBrowser
+.
+addTab
+(
+)
+;
 switchToTabHavingURI
 (
 MANAGER_URI
