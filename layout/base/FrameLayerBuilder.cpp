@@ -5957,8 +5957,8 @@ before
 review
 !
 #
-if
-0
+ifndef
+MOZ_JAVA_COMPOSITOR
 /
 /
 Calculate
