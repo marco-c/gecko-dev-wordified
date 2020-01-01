@@ -1300,7 +1300,7 @@ mAudioThread
 )
 ;
 }
-nsHTMLMediaElement
+nsMediaDecoder
 :
 :
 NextFrameStatus

@@ -5118,7 +5118,7 @@ mElement
 >
 UpdateReadyStateForData
 (
-nsHTMLMediaElement
+nsMediaDecoder
 :
 :
 NEXT_FRAME_UNAVAILABLE_BUFFERING
@@ -5167,7 +5167,7 @@ mElement
 >
 UpdateReadyStateForData
 (
-nsHTMLMediaElement
+nsMediaDecoder
 :
 :
 NEXT_FRAME_AVAILABLE
@@ -5216,7 +5216,7 @@ mElement
 >
 UpdateReadyStateForData
 (
-nsHTMLMediaElement
+nsMediaDecoder
 :
 :
 NEXT_FRAME_UNAVAILABLE
@@ -5260,9 +5260,6 @@ mDecoderStateMachine
 )
 return
 ;
-nsHTMLMediaElement
-:
-:
 NextFrameStatus
 frameStatus
 =
