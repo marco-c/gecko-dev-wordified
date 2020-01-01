@@ -510,7 +510,7 @@ MOZ_MEDIA_PLUGINS
 #
 include
 "
-nsMediaPluginHost
+MediaPluginHost
 .
 h
 "
@@ -522,7 +522,7 @@ MOZ_SYDNEYAUDIO
 #
 include
 "
-nsAudioStream
+AudioStream
 .
 h
 "
@@ -1297,7 +1297,7 @@ rv
 #
 ifdef
 MOZ_SYDNEYAUDIO
-nsAudioStream
+AudioStream
 :
 :
 InitLibrary
@@ -1772,7 +1772,7 @@ Shutdown
 #
 ifdef
 MOZ_MEDIA_PLUGINS
-nsMediaPluginHost
+MediaPluginHost
 :
 :
 Shutdown
@@ -1784,7 +1784,7 @@ endif
 #
 ifdef
 MOZ_SYDNEYAUDIO
-nsAudioStream
+AudioStream
 :
 :
 ShutdownLibrary

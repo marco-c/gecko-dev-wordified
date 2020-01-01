@@ -8144,7 +8144,7 @@ continue
 XXX
 allocating
 a
-nsAudioStream
+AudioStream
 could
 be
 slow
@@ -8226,7 +8226,7 @@ audioOutputStream
 >
 mStream
 =
-nsAudioStream
+AudioStream
 :
 :
 AllocateStream

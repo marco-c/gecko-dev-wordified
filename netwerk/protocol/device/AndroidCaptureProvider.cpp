@@ -147,7 +147,7 @@ h
 #
 include
 "
-nsRawStructs
+RawStructs
 .
 h
 "
@@ -233,7 +233,7 @@ mAvailable
 =
 sizeof
 (
-nsRawVideoHeader
+RawVideoHeader
 )
 ;
 mFrameQueue
@@ -460,7 +460,7 @@ mFrameSize
 =
 sizeof
 (
-nsRawPacketHeader
+RawPacketHeader
 )
 +
 length
@@ -488,12 +488,12 @@ fullFrame
 )
 return
 ;
-nsRawPacketHeader
+RawPacketHeader
 *
 header
 =
 (
-nsRawPacketHeader
+RawPacketHeader
 *
 )
 fullFrame
@@ -550,7 +550,7 @@ fullFrame
 +
 sizeof
 (
-nsRawPacketHeader
+RawPacketHeader
 )
 frame
 yFrameSize
@@ -797,7 +797,7 @@ GetInstance
 0
 )
 ;
-nsRawVideoHeader
+RawVideoHeader
 header
 ;
 header
@@ -929,7 +929,7 @@ header
 0
 sizeof
 (
-nsRawVideoHeader
+RawVideoHeader
 )
 aRead
 )
@@ -953,7 +953,7 @@ aCount
 =
 sizeof
 (
-nsRawVideoHeader
+RawVideoHeader
 )
 ;
 mAvailable
@@ -961,7 +961,7 @@ mAvailable
 =
 sizeof
 (
-nsRawVideoHeader
+RawVideoHeader
 )
 ;
 }
@@ -1057,7 +1057,7 @@ NS_OK
 }
 /
 /
-nsRawReader
+RawReader
 does
 a
 copy
@@ -1211,7 +1211,7 @@ mAvailable
 >
 sizeof
 (
-nsRawVideoHeader
+RawVideoHeader
 )
 )
 )

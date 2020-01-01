@@ -1237,7 +1237,7 @@ h
 #
 include
 "
-nsBuiltinDecoder
+MediaDecoder
 .
 h
 "
@@ -36865,7 +36865,7 @@ if
 mozilla
 :
 :
-nsBuiltinDecoder
+MediaDecoder
 :
 :
 IsMediaPluginsEnabled

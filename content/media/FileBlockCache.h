@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsMediaCache
+MediaCache
 .
 h
 "
@@ -522,7 +522,7 @@ enum
 {
 BLOCK_SIZE
 =
-nsMediaCacheStream
+MediaCacheStream
 :
 :
 BLOCK_SIZE
@@ -1140,9 +1140,6 @@ fields
 or
 methods
 .
-mozilla
-:
-:
 Monitor
 mFileMonitor
 ;
@@ -1297,9 +1294,6 @@ fields
 or
 methods
 .
-mozilla
-:
-:
 Monitor
 mDataMonitor
 ;

@@ -379,7 +379,7 @@ HTTP
 *
 (
 see
-nsDASHDecoder
+DASHDecoder
 .
 cpp
 for

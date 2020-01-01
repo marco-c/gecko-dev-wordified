@@ -762,7 +762,7 @@ Shutdown
 }
 mAudioStream
 =
-nsAudioStream
+AudioStream
 :
 :
 AllocateStream
@@ -1068,7 +1068,7 @@ in
 /
 /
 the
-nsAudioStream
+AudioStream
 .
 /
 /

@@ -2830,7 +2830,7 @@ enqueued
 in
 /
 /
-nsBuiltinDecoderReader
+MediaDecoderReader
 '
 s
 mVideoQueue

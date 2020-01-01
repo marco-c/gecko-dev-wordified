@@ -371,7 +371,7 @@ MediaStreamSource
 MediaResource
 *
 aResource
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 )
@@ -585,7 +585,7 @@ OmxDecoder
 MediaResource
 *
 aResource
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 )
@@ -878,7 +878,7 @@ mResource
 >
 SetReadMode
 (
-nsMediaCacheStream
+MediaCacheStream
 :
 :
 MODE_METADATA
@@ -1114,7 +1114,7 @@ mResource
 >
 SetReadMode
 (
-nsMediaCacheStream
+MediaCacheStream
 :
 :
 MODE_PLAYBACK

@@ -111,7 +111,7 @@ h
 #
 include
 "
-nsAudioStream
+AudioStream
 .
 h
 "
@@ -3333,7 +3333,7 @@ mBlockedAudioTime
 ;
 nsRefPtr
 <
-nsAudioStream
+AudioStream
 >
 mStream
 ;

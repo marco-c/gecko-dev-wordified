@@ -164,7 +164,7 @@ h
 #
 include
 "
-nsMediaCache
+MediaCache
 .
 h
 "
@@ -232,7 +232,7 @@ namespace
 mozilla
 {
 class
-nsBuiltinDecoder
+MediaDecoder
 ;
 /
 *
@@ -788,7 +788,7 @@ a
 URI
 .
 Uses
-nsMediaCache
+MediaCache
 to
 cache
 data
@@ -1304,7 +1304,7 @@ MediaResource
 *
 CloneData
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 )
@@ -1334,7 +1334,7 @@ virtual
 void
 SetReadMode
 (
-nsMediaCacheStream
+MediaCacheStream
 :
 :
 ReadMode
@@ -2249,7 +2249,7 @@ progress
 .
 /
 /
-nsBuiltinDecoder
+MediaDecoder
 :
 :
 NotifySuspendedStatusChanged
@@ -2482,7 +2482,7 @@ MediaResource
 *
 Create
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 nsIChannel
@@ -2654,7 +2654,7 @@ protected
 :
 MediaResource
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 nsIChannel
@@ -2778,7 +2778,7 @@ of
 the
 decoder
 .
-nsBuiltinDecoder
+MediaDecoder
 *
 mDecoder
 ;
@@ -2897,12 +2897,12 @@ is
 actually
 delegated
 to
-nsMediaCache
+MediaCache
 via
 *
 an
 underlying
-nsMediaCacheStream
+MediaCacheStream
 .
 *
 *
@@ -2911,7 +2911,7 @@ synchronization
 is
 performed
 by
-nsMediaCacheStream
+MediaCacheStream
 ;
 all
 off
@@ -2940,7 +2940,7 @@ public
 :
 ChannelMediaResource
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 nsIChannel
@@ -2966,7 +2966,7 @@ the
 main
 thread
 by
-nsMediaCache
+MediaCache
 .
 These
 must
@@ -3106,7 +3106,7 @@ the
 main
 thread
 by
-nsMediaCache
+MediaCache
 .
 These
 shouldn
@@ -3170,7 +3170,7 @@ notified
 via
 /
 /
-nsMediaCacheStream
+MediaCacheStream
 :
 :
 NotifyDataReceived
@@ -3318,7 +3318,7 @@ MediaResource
 *
 CloneData
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 )
@@ -3350,7 +3350,7 @@ virtual
 void
 SetReadMode
 (
-nsMediaCacheStream
+MediaCacheStream
 :
 :
 ReadMode
@@ -3922,7 +3922,7 @@ mIgnoreClose
 Any
 thread
 access
-nsMediaCacheStream
+MediaCacheStream
 mCacheStream
 ;
 /

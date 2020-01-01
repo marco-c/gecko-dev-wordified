@@ -150,7 +150,7 @@ these
 is
 supported
 by
-nsAudioStream
+AudioStream
 and
 that
 is
@@ -218,7 +218,7 @@ used
 for
 output
 by
-nsAudioStream
+AudioStream
 .
 #
 ifdef

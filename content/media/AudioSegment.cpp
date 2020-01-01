@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsAudioStream
+AudioStream
 .
 h
 "
@@ -548,7 +548,7 @@ AudioSegment
 :
 WriteTo
 (
-nsAudioStream
+AudioStream
 *
 aOutput
 )

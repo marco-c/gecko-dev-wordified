@@ -271,7 +271,7 @@ h
 #
 include
 "
-nsBuiltinDecoder
+MediaDecoder
 .
 h
 "

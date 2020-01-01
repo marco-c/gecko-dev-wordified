@@ -131,7 +131,7 @@ h
 #
 include
 "
-nsAudioStream
+AudioStream
 .
 h
 "
@@ -257,7 +257,7 @@ ActorDestroyReason
 ;
 nsRefPtr
 <
-nsAudioStream
+AudioStream
 >
 mStream
 ;
