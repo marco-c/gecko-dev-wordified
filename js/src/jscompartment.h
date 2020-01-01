@@ -3346,13 +3346,6 @@ arenaListsAreEmpty
 (
 )
 ;
-bool
-isAboutToBeCollected
-(
-JSGCInvocationKind
-gckind
-)
-;
 void
 setGCLastBytes
 (
