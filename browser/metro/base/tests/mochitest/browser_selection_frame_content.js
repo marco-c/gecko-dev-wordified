@@ -265,11 +265,6 @@ kCommonWaitMs
 kCommonPollMs
 )
 ;
-yield
-hideContextUI
-(
-)
-;
 }
 gTests
 .
@@ -334,6 +329,11 @@ isStartPageVisible
 }
 10000
 100
+)
+;
+yield
+hideContextUI
+(
 )
 ;
 gWindow
