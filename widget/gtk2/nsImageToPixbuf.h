@@ -85,6 +85,15 @@ nsIImageToPixbuf
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 gfxASurface
 ;
@@ -96,6 +105,7 @@ gfxImageSurface
 ;
 class
 nsImageToPixbuf
+MOZ_FINAL
 :
 public
 nsIImageToPixbuf
