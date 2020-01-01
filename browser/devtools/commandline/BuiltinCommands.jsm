@@ -271,13 +271,12 @@ resource
 :
 /
 /
-gre
 /
 modules
 /
 devtools
 /
-Loader
+gDevTools
 .
 jsm
 "
