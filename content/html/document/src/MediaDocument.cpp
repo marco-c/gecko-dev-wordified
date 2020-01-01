@@ -875,6 +875,10 @@ mStringBundle
 )
 ;
 }
+mIsSyntheticDocument
+=
+PR_TRUE
+;
 return
 NS_OK
 ;
