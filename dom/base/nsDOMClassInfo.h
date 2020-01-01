@@ -3892,6 +3892,9 @@ aWrapper
 JSObject
 *
 obj
+JSContext
+*
+cx
 nsNPAPIPluginInstance
 *
 *
