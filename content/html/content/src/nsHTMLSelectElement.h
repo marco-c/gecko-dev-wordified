@@ -1740,7 +1740,7 @@ aNotify
 )
 ;
 virtual
-nsresult
+void
 RemoveChildAt
 (
 PRUint32

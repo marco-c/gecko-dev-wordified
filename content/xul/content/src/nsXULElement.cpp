@@ -5967,7 +5967,7 @@ aNullParent
 )
 ;
 }
-nsresult
+void
 nsXULElement
 :
 :
@@ -5979,9 +5979,6 @@ bool
 aNotify
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsIContent
@@ -6002,7 +5999,6 @@ oldKid
 )
 {
 return
-NS_OK
 ;
 }
 /
@@ -6191,8 +6187,6 @@ if
 !
 controlElement
 )
-rv
-=
 GetParentTree
 (
 getter_AddRefs
@@ -6472,8 +6466,6 @@ newCurrentIndex
 }
 }
 }
-rv
-=
 nsStyledElement
 :
 :
@@ -6645,9 +6637,6 @@ true
 )
 ;
 }
-return
-rv
-;
 }
 void
 nsXULElement

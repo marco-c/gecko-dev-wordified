@@ -1782,7 +1782,7 @@ return
 rv
 ;
 }
-nsresult
+void
 nsXTFElementWrapper
 :
 :
@@ -1794,9 +1794,6 @@ bool
 aNotify
 )
 {
-nsresult
-rv
-;
 if
 (
 mNotificationMask
@@ -1816,8 +1813,6 @@ WillRemoveChild
 aIndex
 )
 ;
-rv
-=
 nsXTFElementWrapperBase
 :
 :
@@ -1845,9 +1840,6 @@ ChildRemoved
 (
 aIndex
 )
-;
-return
-rv
 ;
 }
 nsIAtom
