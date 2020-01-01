@@ -3714,6 +3714,7 @@ CloseDir
 (
 nsDir
 *
+&
 d
 )
 {
@@ -3733,6 +3734,17 @@ d
 handle
 )
 ;
+/
+/
+PR_DELETE
+also
+nulls
+out
+the
+passed
+in
+pointer
+.
 PR_DELETE
 (
 d
@@ -4083,10 +4095,6 @@ mDir
 return
 NS_ERROR_FAILURE
 ;
-mDir
-=
-nsnull
-;
 *
 result
 =
@@ -4332,10 +4340,6 @@ rv
 )
 return
 NS_ERROR_FAILURE
-;
-mDir
-=
-nsnull
 ;
 }
 return
