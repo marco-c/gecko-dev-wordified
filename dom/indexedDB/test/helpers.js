@@ -289,6 +289,8 @@ close
 (
 )
 ;
+/
+/
 clearAllDatabases
 (
 function
@@ -302,6 +304,12 @@ finish
 )
 ;
 }
+)
+;
+SimpleTest
+.
+finish
+(
 )
 ;
 }
