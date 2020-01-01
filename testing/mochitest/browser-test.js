@@ -219,6 +219,8 @@ browserTest
 chrome
 centerscreen
 dialog
+=
+no
 resizable
 titlebar
 toolbar
