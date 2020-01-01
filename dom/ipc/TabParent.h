@@ -821,6 +821,15 @@ aValue
 )
 ;
 virtual
+bool
+RecvGetDPI
+(
+float
+*
+aValue
+)
+;
+virtual
 PContentDialogParent
 *
 AllocPContentDialog
