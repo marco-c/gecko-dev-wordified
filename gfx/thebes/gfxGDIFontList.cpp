@@ -1358,6 +1358,13 @@ gfxCharacterMap
 (
 )
 ;
+mCharacterMap
+-
+>
+mBuildOnTheFly
+=
+true
+;
 return
 NS_ERROR_FAILURE
 ;
