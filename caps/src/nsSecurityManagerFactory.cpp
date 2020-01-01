@@ -545,6 +545,13 @@ nsIClassInfoImpl
 .
 h
 "
+#
+include
+"
+jsobj
+.
+h
+"
 /
 /
 /
@@ -1842,6 +1849,12 @@ global
 JS_GetGlobalObject
 (
 cx
+)
+;
+OBJ_TO_INNER_OBJECT
+(
+cx
+global
 )
 ;
 /
