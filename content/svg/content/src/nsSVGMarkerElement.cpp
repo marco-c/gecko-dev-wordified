@@ -2612,7 +2612,6 @@ MARKERUNITS
 .
 GetAnimValue
 (
-this
 )
 =
 =
@@ -2733,7 +2732,6 @@ mViewBox
 .
 GetAnimValue
 (
-this
 )
 ;
 if

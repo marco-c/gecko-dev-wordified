@@ -2276,7 +2276,6 @@ mViewBox
 .
 GetAnimValue
 (
-content
 )
 ;
 float

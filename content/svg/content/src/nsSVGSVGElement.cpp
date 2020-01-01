@@ -4837,7 +4837,6 @@ ZOOMANDPAN
 .
 GetAnimValue
 (
-this
 )
 ;
 return
@@ -6030,7 +6029,6 @@ mViewBox
 .
 GetAnimValue
 (
-this
 )
 ;
 }
@@ -6793,7 +6791,6 @@ mViewBox
 .
 GetAnimValue
 (
-this
 )
 ;
 w

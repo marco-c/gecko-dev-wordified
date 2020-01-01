@@ -8273,7 +8273,6 @@ i
 .
 GetAnimValue
 (
-this
 )
 ;
 f
@@ -8571,7 +8570,6 @@ i
 .
 GetAnimValue
 (
-this
 )
 ;
 n

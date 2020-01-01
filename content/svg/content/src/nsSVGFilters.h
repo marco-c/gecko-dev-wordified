@@ -788,9 +788,6 @@ aUnitX
 nsSVGNumber2
 *
 aUnitY
-nsSVGElement
-*
-aElement
 )
 ;
 void

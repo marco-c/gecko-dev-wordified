@@ -1286,9 +1286,6 @@ aUnitX
 nsSVGNumber2
 *
 aUnitY
-nsSVGElement
-*
-aElement
 )
 {
 ScaleInfo
@@ -1364,7 +1361,6 @@ aUnitX
 >
 GetAnimValue
 (
-aElement
 )
 nsIDOMSVGLength
 :
@@ -1397,7 +1393,6 @@ aUnitY
 >
 GetAnimValue
 (
-aElement
 )
 nsIDOMSVGLength
 :
@@ -7038,7 +7033,6 @@ MODE
 .
 GetAnimValue
 (
-this
 )
 ;
 for
@@ -8605,7 +8599,6 @@ TYPE
 .
 GetAnimValue
 (
-this
 )
 ;
 nsCOMPtr
@@ -10886,7 +10879,6 @@ OPERATOR
 .
 GetAnimValue
 (
-this
 )
 ;
 /
@@ -11426,7 +11418,6 @@ OPERATOR
 .
 GetAnimValue
 (
-this
 )
 ;
 if
@@ -13854,7 +13845,6 @@ TYPE
 .
 GetAnimValue
 (
-this
 )
 ;
 float
@@ -21643,7 +21633,6 @@ OCTAVES
 .
 GetAnimValue
 (
-this
 )
 ;
 PRUint16
@@ -21656,7 +21645,6 @@ TYPE
 .
 GetAnimValue
 (
-this
 )
 ;
 PRUint16
@@ -21669,7 +21657,6 @@ STITCHTILES
 .
 GetAnimValue
 (
-this
 )
 ;
 GetAnimatedNumberValues
@@ -25195,7 +25182,6 @@ OPERATOR
 .
 GetAnimValue
 (
-this
 )
 ;
 /
@@ -26267,7 +26253,6 @@ PRESERVEALPHA
 .
 GetAnimValue
 (
-this
 )
 ;
 }
@@ -28362,7 +28347,6 @@ DIVISOR
 .
 GetAnimValue
 (
-this
 )
 ;
 if
@@ -28442,7 +28426,6 @@ mNumberAttributes
 [
 KERNEL_UNIT_LENGTH_Y
 ]
-this
 )
 ;
 if
@@ -28465,7 +28448,6 @@ EDGEMODE
 .
 GetAnimValue
 (
-this
 )
 ;
 PRBool
@@ -28478,7 +28460,6 @@ PRESERVEALPHA
 .
 GetAnimValue
 (
-this
 )
 ;
 float
@@ -28507,7 +28488,6 @@ BIAS
 .
 GetAnimValue
 (
-this
 )
 ;
 }
@@ -32699,7 +32679,6 @@ mNumberAttributes
 [
 KERNEL_UNIT_LENGTH_Y
 ]
-this
 )
 ;
 if
@@ -33134,7 +33113,6 @@ SURFACE_SCALE
 .
 GetAnimValue
 (
-this
 )
 ;
 const
@@ -34292,7 +34270,6 @@ DIFFUSE_CONSTANT
 .
 GetAnimValue
 (
-this
 )
 *
 DOT
@@ -35115,7 +35092,6 @@ SPECULAR_EXPONENT
 .
 GetAnimValue
 (
-this
 )
 ;
 /
@@ -35229,7 +35205,6 @@ SPECULAR_CONSTANT
 .
 GetAnimValue
 (
-this
 )
 ;
 float
@@ -35268,7 +35243,6 @@ SPECULAR_EXPONENT
 .
 GetAnimValue
 (
-this
 )
 )
 ;
@@ -38695,7 +38669,6 @@ SCALE
 .
 GetAnimValue
 (
-this
 )
 ;
 if
@@ -38861,7 +38834,6 @@ CHANNEL_X
 .
 GetAnimValue
 (
-this
 )
 ]
 ;
@@ -38877,7 +38849,6 @@ CHANNEL_Y
 .
 GetAnimValue
 (
-this
 )
 ]
 ;

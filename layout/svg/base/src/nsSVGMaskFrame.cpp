@@ -714,7 +714,6 @@ MASKUNITS
 .
 GetAnimValue
 (
-mask
 )
 ;
 gfxRect

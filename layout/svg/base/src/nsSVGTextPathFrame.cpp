@@ -1309,7 +1309,6 @@ mPathLength
 .
 GetAnimValue
 (
-path
 )
 ;
 if
