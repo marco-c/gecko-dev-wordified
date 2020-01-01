@@ -520,6 +520,11 @@ OsrScopeChain
 \
 _
 (
+ReturnFromCtor
+)
+\
+_
+(
 CheckOverRecursed
 )
 \
