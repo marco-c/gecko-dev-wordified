@@ -470,6 +470,13 @@ nsIStringBundleOverride
 .
 h
 "
+#
+include
+"
+nsAutoLock
+.
+h
+"
 class
 nsStringBundle
 :
@@ -570,6 +577,10 @@ nsCOMPtr
 nsIStringBundleOverride
 >
 mOverrideStrings
+;
+PRMonitor
+*
+mMonitor
 ;
 PRPackedBool
 mAttemptedLoad
