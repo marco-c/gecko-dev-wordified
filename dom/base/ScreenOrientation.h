@@ -92,16 +92,6 @@ base
 GeckoScreenOrientationListener
 .
 java
-/
-/
-*
-embedding
-/
-android
-/
-GeckoScreenOrientationListener
-.
-java
 typedef
 uint32_t
 ScreenOrientation

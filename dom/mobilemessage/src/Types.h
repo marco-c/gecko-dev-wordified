@@ -140,9 +140,11 @@ below
 :
 /
 /
-embedding
+mobile
 /
 android
+/
+base
 /
 GeckoSmsManager
 .
