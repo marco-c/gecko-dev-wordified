@@ -731,14 +731,6 @@ formatcontrolchars
 [
 '
 \
-u200C
-'
-'
-\
-u200D
-'
-'
-\
 u200E
 '
 '
