@@ -1945,14 +1945,6 @@ Void
 Void
 >
 (
-GeckoApp
-.
-mAppContext
-GeckoAppShell
-.
-getHandler
-(
-)
 )
 {
 Override
