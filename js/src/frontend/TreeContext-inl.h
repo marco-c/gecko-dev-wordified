@@ -162,8 +162,6 @@ fun
 FunctionBox
 *
 funbox
-unsigned
-staticLevel
 )
 :
 context
@@ -206,7 +204,7 @@ scopeChain
 )
 staticLevel
 (
-staticLevel
+0
 )
 bindings
 (

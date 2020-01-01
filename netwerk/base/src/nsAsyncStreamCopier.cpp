@@ -1336,13 +1336,6 @@ NS_ADDREF_THIS
 (
 )
 ;
-{
-MutexAutoLock
-lock
-(
-mLock
-)
-;
 rv
 =
 NS_AsyncCopy
@@ -1362,7 +1355,6 @@ mCopierCtx
 )
 )
 ;
-}
 if
 (
 NS_FAILED

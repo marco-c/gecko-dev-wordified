@@ -641,6 +641,13 @@ h
 #
 include
 "
+nsIPrivateDOMEvent
+.
+h
+"
+#
+include
+"
 nsDisplayList
 .
 h

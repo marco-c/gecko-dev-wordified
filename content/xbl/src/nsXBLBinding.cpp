@@ -8689,7 +8689,7 @@ aParent
 false
 ;
 }
-void
+nsresult
 nsXBLBinding
 :
 :
@@ -8775,6 +8775,9 @@ NODE_IS_INSERTION_PARENT
 ;
 }
 }
+return
+NS_OK
+;
 }
 nsInsertionPointList
 *

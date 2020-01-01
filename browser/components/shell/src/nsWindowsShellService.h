@@ -164,16 +164,6 @@ NS_DECL_NSISHELLSERVICE
 NS_DECL_NSIWINDOWSSHELLSERVICE
 protected
 :
-static
-nsresult
-IsDefaultBrowser
-(
-bool
-*
-aIsDefaultBrowser
-)
-;
-static
 bool
 IsDefaultBrowserVista
 (

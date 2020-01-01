@@ -1340,11 +1340,6 @@ bool
 aDeferred
 )
 {
-NS_ENSURE_STATE
-(
-aFile
-)
-;
 mOpenParams
 .
 ioFlags

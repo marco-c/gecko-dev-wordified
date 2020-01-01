@@ -1743,9 +1743,6 @@ Combined
 FAVICON
 Combined
 .
-DISPLAY
-Combined
-.
 DATE_LAST_VISITED
 Combined
 .

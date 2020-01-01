@@ -1370,13 +1370,6 @@ getter
 JS_PropertyStub
 ;
 }
-desc
-.
-value
-=
-*
-vp
-;
 return
 defineProperty
 (

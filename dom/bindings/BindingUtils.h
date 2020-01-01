@@ -423,17 +423,6 @@ JSObject
 obj
 )
 {
-MOZ_ASSERT
-(
-IsDOMClass
-(
-JS_GetClass
-(
-obj
-)
-)
-)
-;
 JS
 :
 :

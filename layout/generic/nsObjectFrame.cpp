@@ -403,6 +403,13 @@ h
 #
 include
 "
+nsIPrivateDOMEvent
+.
+h
+"
+#
+include
+"
 nsIDocumentEncoder
 .
 h

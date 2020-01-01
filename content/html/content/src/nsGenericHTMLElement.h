@@ -3398,13 +3398,6 @@ hidden
 )
 ;
 }
-virtual
-bool
-IsLabelable
-(
-)
-const
-;
 protected
 :
 /
@@ -5419,13 +5412,6 @@ PRInt32
 *
 aTabIndex
 )
-;
-virtual
-bool
-IsLabelable
-(
-)
-const
 ;
 protected
 :

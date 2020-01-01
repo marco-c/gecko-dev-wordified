@@ -2479,7 +2479,6 @@ rawValue
 lastIndexOf
 (
 "
-#
 "
 )
 ;

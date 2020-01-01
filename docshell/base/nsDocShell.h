@@ -4177,11 +4177,6 @@ GetCurrentDocChannel
 (
 )
 ;
-bool
-ShouldBlockLoadingForBackButton
-(
-)
-;
 protected
 :
 /

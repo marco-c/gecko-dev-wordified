@@ -131,6 +131,13 @@ h
 #
 include
 "
+nsIPrivateDOMEvent
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

@@ -142,6 +142,9 @@ nsIDOMEventListener
 h
 "
 class
+nsXULTreeAccessible
+;
+class
 Relation
 ;
 namespace
@@ -383,7 +386,7 @@ HandleTreeRowCountChangedEvent
 nsIDOMEvent
 *
 aEvent
-XULTreeAccessible
+nsXULTreeAccessible
 *
 aAccessible
 )
@@ -394,7 +397,7 @@ HandleTreeInvalidatedEvent
 nsIDOMEvent
 *
 aEvent
-XULTreeAccessible
+nsXULTreeAccessible
 *
 aAccessible
 )

@@ -250,6 +250,13 @@ h
 #
 include
 "
+nsIPrivateDOMEvent
+.
+h
+"
+#
+include
+"
 nsFrameLoader
 .
 h

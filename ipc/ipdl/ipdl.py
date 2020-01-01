@@ -746,12 +746,6 @@ headersdir
 cppdir
 )
     
-if
-ast
-.
-protocol
-:
-        
 allprotocols
 .
 append

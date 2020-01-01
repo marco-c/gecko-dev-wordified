@@ -1606,7 +1606,6 @@ size
 |
 size
 >
-=
 mFaviconSize
 )
 {

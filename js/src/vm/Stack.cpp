@@ -694,6 +694,9 @@ copyFrameAndValues
 JSContext
 *
 cx
+StackFrame
+*
+fp
 T
 *
 vp
@@ -793,7 +796,7 @@ JS_ASSERT
 T
 *
 )
-this
+fp
 -
 vp
 =
@@ -864,7 +867,7 @@ dst
 src
 ;
 *
-this
+fp
 =
 *
 otherfp
@@ -873,6 +876,9 @@ if
 (
 doPostBarrier
 )
+fp
+-
+>
 writeBarrierPost
 (
 )
@@ -891,6 +897,9 @@ dst
 T
 *
 )
+fp
+-
+>
 slots
 (
 )
@@ -990,6 +999,8 @@ NoPostBarrier
 (
 JSContext
 *
+StackFrame
+*
 Value
 *
 StackFrame
@@ -1016,6 +1027,8 @@ DoPostBarrier
 >
 (
 JSContext
+*
+StackFrame
 *
 HeapValue
 *
@@ -1046,10 +1059,7 @@ same
 rules
 as
 in
-StackFrame
-:
-:
-mark
+js_TraceStackFrame
 .
 *
 /
@@ -1101,6 +1111,13 @@ argsObj_
 ;
 if
 (
+isScriptFrame
+(
+)
+)
+{
+if
+(
 isFunctionFrame
 (
 )
@@ -1111,6 +1128,10 @@ JSFunction
 :
 writeBarrierPost
 (
+(
+JSObject
+*
+)
 exec
 .
 fun
@@ -1169,6 +1190,7 @@ exec
 script
 )
 ;
+}
 }
 if
 (
@@ -7279,6 +7301,7 @@ NoPostBarrier
 >
 (
 cx
+stackfp
 stackvp
 gen
 -
@@ -7497,6 +7520,10 @@ DoPostBarrier
 >
 (
 cx_
+gen
+-
+>
+fp
 genvp
 stackfp
 stackvp

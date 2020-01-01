@@ -35451,14 +35451,6 @@ NS_ENSURE_ARG
 _result
 )
 ;
-if
-(
-!
-mProfileDirectory
-)
-return
-NS_ERROR_NOT_AVAILABLE
-;
 NS_ADDREF
 (
 *

@@ -708,12 +708,6 @@ self
 loglines
 =
 None
-        
-self
-.
-perfdata
-=
-None
     
 def
 tearDown
@@ -1452,29 +1446,6 @@ get_logs
 (
 )
             
-self
-.
-perfdata
-=
-self
-.
-marionette
-.
-get_perf_data
-(
-)
-            
-print
-"
-in
-marionette_test
-"
-            
-print
-self
-.
-perfdata
-            
 if
 launch_app
 :
@@ -1682,13 +1653,6 @@ fails
 )
 )
             
-if
-not
-self
-.
-perfdata
-:
-                
 self
 .
 assertTrue
@@ -1708,7 +1672,7 @@ failed
 ]
 >
 0
-                                
+                            
 '
 no
 tests

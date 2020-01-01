@@ -776,7 +776,6 @@ write
 \
 .
 js
-#
 debugger
 ;
 "

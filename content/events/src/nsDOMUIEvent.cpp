@@ -1835,7 +1835,7 @@ NS_OK
 ;
 }
 }
-NS_IMETHODIMP
+NS_METHOD
 nsDOMUIEvent
 :
 :
@@ -1945,10 +1945,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 nsDOMUIEvent
 :
 :
@@ -2014,10 +2011,7 @@ detail
 )
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 nsDOMUIEvent
 :
 :

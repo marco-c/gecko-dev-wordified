@@ -173,6 +173,13 @@ h
 #
 include
 "
+nsIPrivateDOMEvent
+.
+h
+"
+#
+include
+"
 nsIDOMDataContainerEvent
 .
 h

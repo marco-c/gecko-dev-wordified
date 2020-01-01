@@ -190,6 +190,15 @@ nsString
 aName
 )
 ;
+virtual
+nsresult
+GetAttributesInternal
+(
+nsIPersistentProperties
+*
+aAttributes
+)
+;
 /
 /
 TextLeafAccessible

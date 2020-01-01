@@ -1144,7 +1144,6 @@ registerCommands
 (
 )
 {
-final
 CommandProcessor
 processor
 =
@@ -1164,7 +1163,6 @@ resetEngine
 new
 CommandRunner
 (
-1
 )
 {
 Override
@@ -1224,7 +1222,6 @@ resetAll
 new
 CommandRunner
 (
-0
 )
 {
 Override
@@ -1257,7 +1254,6 @@ wipeEngine
 new
 CommandRunner
 (
-1
 )
 {
 Override
@@ -1317,7 +1313,6 @@ wipeAll
 new
 CommandRunner
 (
-0
 )
 {
 Override
@@ -1350,7 +1345,6 @@ displayURI
 new
 CommandRunner
 (
-3
 )
 {
 Override
@@ -1367,10 +1361,16 @@ args
 {
 CommandProcessor
 .
+getProcessor
+(
+)
+.
 displayURI
 (
 args
-context
+getContext
+(
+)
 )
 ;
 }

@@ -5315,6 +5315,11 @@ manager
 GetUserMedia
 (
 win
+-
+>
+WindowID
+(
+)
 aParams
 onSuccess
 onError

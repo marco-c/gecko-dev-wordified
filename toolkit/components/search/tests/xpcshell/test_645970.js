@@ -120,9 +120,6 @@ nested
 jar
 :
 uris
-without
-async
-initialization
 *
 /
 function
