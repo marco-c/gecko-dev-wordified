@@ -4455,6 +4455,13 @@ canHide
 =
 true
 ;
+if
+(
+this
+.
+_panel
+)
+{
 this
 .
 _panel
@@ -4463,6 +4470,7 @@ hidePopup
 (
 )
 ;
+}
 if
 (
 this
