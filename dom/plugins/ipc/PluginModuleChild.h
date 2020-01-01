@@ -1615,6 +1615,8 @@ return
 mQuirks
 ;
 }
+private
+:
 void
 AddQuirk
 (
@@ -1639,8 +1641,6 @@ mQuirks
 quirk
 ;
 }
-private
-:
 void
 InitQuirksModes
 (
