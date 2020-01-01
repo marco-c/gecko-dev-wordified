@@ -1829,6 +1829,9 @@ NPDrawingModelOpenGL
 NPDrawingModelCoreAnimation
 =
 3
+NPDrawingModelInvalidatingCoreAnimation
+=
+4
 }
 NPDrawingModel
 ;
@@ -2471,6 +2474,9 @@ NPNVsupportsOpenGLBool
 NPNVsupportsCoreAnimationBool
 =
 2003
+NPNVsupportsInvalidatingCoreAnimationBool
+=
+2004
 #
 ifndef
 NP_NO_CARBON
