@@ -7380,7 +7380,7 @@ S0
 ;
 m_assembler
 .
-doubleTransfer
+fdtr_u
 (
 true
 dest
