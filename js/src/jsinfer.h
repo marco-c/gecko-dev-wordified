@@ -601,7 +601,7 @@ object
 *
 /
 typedef
-jsword
+jsuword
 jstype
 ;
 /
