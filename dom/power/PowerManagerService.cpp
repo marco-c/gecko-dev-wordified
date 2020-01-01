@@ -1024,15 +1024,8 @@ nsCOMPtr
 nsIDOMMozWakeLock
 >
 wl
-=
-do_QueryInterface
 (
-NS_ISUPPORTS_CAST
-(
-nsIDOMMozWakeLock
-*
 wakelock
-)
 )
 ;
 wl

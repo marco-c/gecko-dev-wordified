@@ -5718,15 +5718,8 @@ nsCOMPtr
 nsIDOMMozPowerManager
 >
 power
-=
-do_QueryInterface
 (
-NS_ISUPPORTS_CAST
-(
-nsIDOMMozPowerManager
-*
 mPowerManager
-)
 )
 ;
 power
