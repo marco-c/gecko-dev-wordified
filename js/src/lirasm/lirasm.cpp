@@ -4327,7 +4327,6 @@ op
 number
 args
 repkind
-isStmt
 )
 \
 op_map
@@ -4353,7 +4352,6 @@ op
 number
 args
 repkind
-isStmt
 )
 \
 op_map

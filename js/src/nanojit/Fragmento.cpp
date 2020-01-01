@@ -763,7 +763,6 @@ op
 number
 operands
 repkind
-isStmt
 )
 \
 NanoAssertMsg
@@ -791,7 +790,6 @@ op
 number
 operands
 repkind
-isStmt
 )
 \
 OPDEF
@@ -800,7 +798,6 @@ op
 number
 operands
 repkind
-isStmt
 )
 #
 include
