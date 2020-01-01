@@ -1043,4 +1043,17 @@ return
 hist
 ;
 }
+Override
+protected
+Record
+prepareRecord
+(
+Record
+record
+)
+{
+return
+record
+;
+}
 }
