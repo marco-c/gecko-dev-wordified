@@ -647,7 +647,7 @@ nsIAccessibleRole
 :
 :
 ROLE_ALERT
-eNameOkFromChildren
+eNameLabelOrTitle
 eNoValue
 kNoReqStates
 kEndEntry
