@@ -2905,16 +2905,6 @@ mGIFStruct
 delay_time
 )
 ;
-mImage
--
->
-EndFrameDecode
-(
-mGIFStruct
-.
-images_decoded
-)
-;
 }
 /
 /
