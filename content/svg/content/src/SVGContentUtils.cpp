@@ -209,6 +209,13 @@ SVGAnimatedPreserveAspectRatio
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 using
 namespace
 mozilla

@@ -119,6 +119,9 @@ nsIDOMHTMLTableElement
 class
 nsIDOMHTMLTableSectionElement
 ;
+class
+nsContentList
+;
 namespace
 mozilla
 {

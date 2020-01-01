@@ -115,6 +115,13 @@ SVGTSpanElementBinding
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 DOMCI_NODE_DATA
 (
 SVGTSpanElement

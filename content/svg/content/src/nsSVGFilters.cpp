@@ -325,6 +325,13 @@ include
 algorithm
 >
 #
+include
+"
+nsContentUtils
+.
+h
+"
+#
 if
 defined
 (

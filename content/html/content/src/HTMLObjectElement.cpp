@@ -235,6 +235,13 @@ nsIWidget
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 namespace
 mozilla
 {

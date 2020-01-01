@@ -115,6 +115,13 @@ SVGAnimatedLengthBinding
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 DOMCI_DATA
 (
 SVGAnimatedLength

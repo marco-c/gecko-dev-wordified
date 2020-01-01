@@ -146,6 +146,13 @@ SVGAnimatedLengthListBinding
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 /
 /
 See

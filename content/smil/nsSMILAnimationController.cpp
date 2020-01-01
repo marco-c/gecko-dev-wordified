@@ -172,6 +172,15 @@ include
 <
 algorithm
 >
+#
+include
+"
+mozilla
+/
+AutoRestore
+.
+h
+"
 using
 namespace
 mozilla
