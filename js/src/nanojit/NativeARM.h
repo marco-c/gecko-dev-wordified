@@ -1516,6 +1516,14 @@ stkd
 )
 ;
 \
+uint32_t
+CountLeadingZeroes
+(
+uint32_t
+data
+)
+;
+\
 int
 *
 _nSlot
