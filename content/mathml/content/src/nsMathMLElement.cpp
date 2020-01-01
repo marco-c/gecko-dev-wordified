@@ -308,13 +308,12 @@ dom
 nsISupports
 methods
 :
-NS_IMPL_ISUPPORTS_INHERITED4
+NS_IMPL_ISUPPORTS_INHERITED3
 (
 nsMathMLElement
 nsMathMLElementBase
 nsIDOMElement
 nsIDOMNode
-nsILink
 Link
 )
 static
