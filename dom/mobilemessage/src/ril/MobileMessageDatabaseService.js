@@ -3786,6 +3786,9 @@ aMessageRecord
 id
 aMessageRecord
 .
+threadId
+aMessageRecord
+.
 delivery
 aMessageRecord
 .
@@ -4076,6 +4079,9 @@ createMmsMessage
 aMessageRecord
 .
 id
+aMessageRecord
+.
+threadId
 aMessageRecord
 .
 delivery
@@ -12644,6 +12650,11 @@ results
 push
 (
 {
+id
+:
+item
+.
+id
 senderOrReceiver
 :
 item

@@ -207,6 +207,7 @@ sms
 newMessage
 (
 null
+null
 "
 sent
 "
@@ -240,6 +241,14 @@ do_check_eq
 sms
 .
 id
+0
+)
+;
+do_check_eq
+(
+sms
+.
+threadId
 0
 )
 ;
@@ -347,6 +356,7 @@ sms
 newMessage
 (
 null
+null
 "
 received
 "
@@ -377,6 +387,20 @@ do_check_eq
 sms
 .
 id
+0
+)
+;
+sms
+.
+threadId
+=
+1
+;
+do_check_eq
+(
+sms
+.
+threadId
 0
 )
 ;
@@ -577,6 +601,7 @@ sms
 newMessage
 (
 42
+1
 "
 sent
 "
@@ -608,6 +633,14 @@ sms
 .
 id
 42
+)
+;
+do_check_eq
+(
+sms
+.
+threadId
+1
 )
 ;
 do_check_eq
@@ -744,6 +777,7 @@ sms
 newMessage
 (
 42
+1
 "
 sent
 "
@@ -775,6 +809,14 @@ sms
 .
 id
 42
+)
+;
+do_check_eq
+(
+sms
+.
+threadId
+1
 )
 ;
 do_check_eq
@@ -914,6 +956,7 @@ function
 newMessage
 (
 42
+1
 "
 sent
 "
@@ -988,6 +1031,7 @@ function
 newMessage
 (
 42
+1
 "
 sent
 "
@@ -1058,6 +1102,7 @@ function
 newMessage
 (
 42
+1
 "
 sent
 "
@@ -1130,6 +1175,7 @@ function
 newMessage
 (
 42
+1
 "
 sent
 "
@@ -1201,6 +1247,7 @@ function
 newMessage
 (
 42
+1
 "
 this
 is
@@ -1281,6 +1328,7 @@ newMessage
 (
 42
 1
+1
 "
 pending
 "
@@ -1352,6 +1400,7 @@ function
 newMessage
 (
 42
+1
 "
 sent
 "
@@ -1431,6 +1480,7 @@ function
 newMessage
 (
 42
+1
 "
 sent
 "
@@ -1503,6 +1553,7 @@ function
 newMessage
 (
 42
+1
 "
 sent
 "
@@ -1582,6 +1633,7 @@ function
 newMessage
 (
 42
+1
 "
 sent
 "

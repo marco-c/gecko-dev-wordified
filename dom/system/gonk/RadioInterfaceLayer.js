@@ -9660,6 +9660,11 @@ id
 aDomMessage
 .
 id
+threadId
+:
+aDomMessage
+.
+threadId
 delivery
 :
 aDomMessage
@@ -10225,6 +10230,12 @@ id
 ;
 message
 .
+threadId
+=
+0
+;
+message
+.
 delivery
 =
 DOM_MOBILE_MESSAGE_DELIVERY_RECEIVED
@@ -10253,6 +10264,9 @@ createSmsMessage
 message
 .
 id
+message
+.
+threadId
 message
 .
 delivery
