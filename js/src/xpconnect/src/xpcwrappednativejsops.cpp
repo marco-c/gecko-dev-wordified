@@ -7720,6 +7720,7 @@ retval
 *
 *
 /
+extern
 JS_IMPORT_DATA
 (
 JSObjectOps

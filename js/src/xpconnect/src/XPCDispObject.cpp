@@ -1581,7 +1581,7 @@ the
 error
 if
 one
-occurred
+occured
 ccx
 .
 GetXPCContext
@@ -1930,7 +1930,7 @@ return
 JS_FALSE
 ;
 }
-jsid
+jsval
 name
 =
 member
@@ -2520,7 +2520,8 @@ JS_FALSE
 ;
 if
 (
-JSVAL_IS_VOID
+!
+JSVAL_MAY_BE_PRIVATE
 (
 val
 )
@@ -2559,7 +2560,8 @@ JS_FALSE
 ;
 if
 (
-JSVAL_IS_VOID
+!
+JSVAL_MAY_BE_PRIVATE
 (
 val
 )
@@ -2800,10 +2802,7 @@ JS_CALLER
 cx
 obj
 funobj
-INT_TO_JSID
-(
 0
-)
 argc
 argv
 vp
