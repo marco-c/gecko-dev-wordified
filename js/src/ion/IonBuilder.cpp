@@ -7753,7 +7753,7 @@ JSOP_BITXOR
 :
 ins
 =
-MBitXOr
+MBitXor
 :
 :
 New

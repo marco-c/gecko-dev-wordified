@@ -2320,9 +2320,9 @@ right
 )
 ;
 }
-MBitXOr
+MBitXor
 *
-MBitXOr
+MBitXor
 :
 :
 New
@@ -2337,7 +2337,7 @@ right
 {
 return
 new
-MBitXOr
+MBitXor
 (
 left
 right
