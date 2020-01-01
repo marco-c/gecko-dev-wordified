@@ -1208,7 +1208,7 @@ CreateColorLayer
 ;
 nsRefPtr
 <
-ColorLayer
+ShadowColorLayer
 >
 layer
 =
@@ -1217,7 +1217,7 @@ layer_manager
 )
 -
 >
-CreateColorLayer
+CreateShadowColorLayer
 (
 )
 ;
