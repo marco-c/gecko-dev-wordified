@@ -16333,7 +16333,7 @@ if
 isOffline
 (
 "
-offlineUpdateMsg
+offlineUpdateMsg2
 "
 )
 )
@@ -16504,7 +16504,7 @@ if
 isOffline
 (
 "
-offlineUpdateMsg
+offlineUpdateMsg2
 "
 )
 )
@@ -18780,7 +18780,7 @@ if
 isOffline
 (
 "
-offlineUpdateMsg
+offlineUpdateMsg2
 "
 )
 )
@@ -18852,7 +18852,7 @@ if
 isOffline
 (
 "
-offlineUpdateMsg
+offlineUpdateMsg2
 "
 )
 )
