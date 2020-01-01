@@ -402,6 +402,17 @@ unlockScreenOrientation
 )
 ;
 }
+Override
+public
+boolean
+isObserver
+(
+)
+{
+return
+true
+;
+}
 }
 )
 ;
