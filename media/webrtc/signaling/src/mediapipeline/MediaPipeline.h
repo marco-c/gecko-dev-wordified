@@ -93,7 +93,7 @@ else
 #
 include
 "
-nsDOMMediaStream
+DOMMediaStream
 .
 h
 "

@@ -1006,7 +1006,7 @@ std
 :
 vector
 <
-nsDOMMediaStream
+DOMMediaStream
 *
 >
 GetStreams
@@ -1052,7 +1052,7 @@ std
 :
 vector
 <
-nsDOMMediaStream
+DOMMediaStream
 *
 >
 streams
@@ -1626,13 +1626,13 @@ PR_ASSERT
 stream
 )
 ;
-nsDOMMediaStream
+DOMMediaStream
 *
 ms
 =
 static_cast
 <
-nsDOMMediaStream
+DOMMediaStream
 *
 >
 (
@@ -3493,12 +3493,12 @@ by
 RemoveStream
 nsRefPtr
 <
-nsDOMMediaStream
+DOMMediaStream
 >
 domMediaStream
 =
 new
-nsDOMMediaStream
+DOMMediaStream
 (
 audio_stream
 )
@@ -3522,7 +3522,7 @@ OFFER_AUDIO
 aHintContents
 |
 =
-nsDOMMediaStream
+DOMMediaStream
 :
 :
 HINT_CONTENTS_AUDIO
@@ -3538,7 +3538,7 @@ OFFER_VIDEO
 aHintContents
 |
 =
-nsDOMMediaStream
+DOMMediaStream
 :
 :
 HINT_CONTENTS_VIDEO
@@ -3734,12 +3734,12 @@ from
 GUM
 nsRefPtr
 <
-nsDOMMediaStream
+DOMMediaStream
 >
 domMediaStream
 =
 new
-nsDOMMediaStream
+DOMMediaStream
 (
 )
 ;
@@ -3758,7 +3758,7 @@ ANSWER_AUDIO
 aHintContents
 |
 =
-nsDOMMediaStream
+DOMMediaStream
 :
 :
 HINT_CONTENTS_AUDIO
@@ -3774,7 +3774,7 @@ ANSWER_VIDEO
 aHintContents
 |
 =
-nsDOMMediaStream
+DOMMediaStream
 :
 :
 HINT_CONTENTS_VIDEO
@@ -4683,7 +4683,7 @@ std
 :
 vector
 <
-nsDOMMediaStream
+DOMMediaStream
 *
 >
 streams
@@ -4843,7 +4843,7 @@ std
 :
 vector
 <
-nsDOMMediaStream
+DOMMediaStream
 *
 >
 streams
@@ -4927,7 +4927,7 @@ answer_
 ;
 nsRefPtr
 <
-nsDOMMediaStream
+DOMMediaStream
 >
 domMediaStream_
 ;
@@ -7659,7 +7659,7 @@ false
 CreateOfferRemoveStream
 (
 constraints
-nsDOMMediaStream
+DOMMediaStream
 :
 :
 HINT_CONTENTS_AUDIO
@@ -7715,7 +7715,7 @@ false
 CreateOfferRemoveStream
 (
 constraints
-nsDOMMediaStream
+DOMMediaStream
 :
 :
 HINT_CONTENTS_AUDIO
@@ -7769,7 +7769,7 @@ false
 CreateOfferRemoveStream
 (
 constraints
-nsDOMMediaStream
+DOMMediaStream
 :
 :
 HINT_CONTENTS_VIDEO

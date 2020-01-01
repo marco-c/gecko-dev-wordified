@@ -79,7 +79,7 @@ h
 #
 include
 "
-nsDOMMediaStream
+DOMMediaStream
 .
 h
 "

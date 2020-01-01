@@ -690,7 +690,7 @@ audio_conduit_
 ;
 nsRefPtr
 <
-nsDOMMediaStream
+DOMMediaStream
 >
 audio_
 ;
@@ -739,7 +739,7 @@ video_conduit_
 ;
 nsRefPtr
 <
-nsDOMMediaStream
+DOMMediaStream
 >
 video_
 ;
@@ -772,7 +772,7 @@ TestAgentSend
 audio_
 =
 new
-Fake_nsDOMMediaStream
+Fake_DOMMediaStream
 (
 new
 Fake_AudioStreamSource
@@ -869,7 +869,7 @@ Init
 video_
 =
 new
-Fake_nsDOMMediaStream
+Fake_DOMMediaStream
 (
 new
 Fake_VideoStreamSource
@@ -972,7 +972,7 @@ STREAM_TIME_MAX
 audio_
 =
 new
-Fake_nsDOMMediaStream
+Fake_DOMMediaStream
 (
 audio
 )

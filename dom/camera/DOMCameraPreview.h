@@ -93,7 +93,7 @@ h
 #
 include
 "
-nsDOMMediaStream
+DOMMediaStream
 .
 h
 "
@@ -162,7 +162,7 @@ class
 DOMCameraPreview
 :
 public
-nsDOMMediaStream
+DOMMediaStream
 {
 protected
 :
@@ -221,7 +221,7 @@ aCurrentTime
 )
 {
 return
-nsDOMMediaStream
+DOMMediaStream
 :
 :
 GetCurrentTime

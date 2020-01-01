@@ -12239,7 +12239,7 @@ MediaStreamGraph
 :
 CreateSourceStream
 (
-nsDOMMediaStream
+DOMMediaStream
 *
 aWrapper
 )
@@ -12303,7 +12303,7 @@ MediaStreamGraph
 :
 CreateTrackUnionStream
 (
-nsDOMMediaStream
+DOMMediaStream
 *
 aWrapper
 )
