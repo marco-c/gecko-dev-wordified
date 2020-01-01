@@ -1,13 +1,3 @@
-/
-/
-|
-trace
--
-test
-|
-error
-:
-TypeError
 for
 each
 (
