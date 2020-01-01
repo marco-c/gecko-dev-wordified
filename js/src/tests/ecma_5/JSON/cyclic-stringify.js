@@ -691,10 +691,8 @@ true
 print
 (
 "
-All
-tests
-passed
-!
+Tests
+complete
 "
 )
 ;
