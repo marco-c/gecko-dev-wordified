@@ -1595,8 +1595,6 @@ aFastTable
 [
 *
 src
-+
-+
 ]
 ;
 if
@@ -1618,6 +1616,10 @@ NS_ERROR_ILLEGAL_INPUT
 break
 ;
 }
+src
++
++
+;
 dest
 +
 +
