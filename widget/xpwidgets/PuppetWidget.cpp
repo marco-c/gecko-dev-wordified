@@ -2561,6 +2561,11 @@ NotifyPainted
 ;
 }
 }
+if
+(
+mAttachedWidgetListener
+)
+{
 mAttachedWidgetListener
 -
 >
@@ -2568,6 +2573,7 @@ DidPaintWindow
 (
 )
 ;
+}
 return
 NS_OK
 ;
