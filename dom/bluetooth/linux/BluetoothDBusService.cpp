@@ -8077,12 +8077,6 @@ gThreadConnection
 =
 nullptr
 ;
-mBluetoothSignalObserverTable
-.
-Clear
-(
-)
-;
 /
 /
 unref
