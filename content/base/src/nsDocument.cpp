@@ -10589,7 +10589,7 @@ refresher
 SetupRefreshURIFromHeader
 (
 mDocumentURI
-NS_LossyConvertUTF16toASCII
+NS_ConvertUTF16toUTF8
 (
 aData
 )
