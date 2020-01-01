@@ -3722,8 +3722,6 @@ The
 first
 base
 wins
-rv
-=
 ProcessBASETag
 (
 aContent
