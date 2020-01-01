@@ -15568,7 +15568,7 @@ vp
 1
 ]
 .
-isObject
+isObjectOrNull
 (
 )
 |

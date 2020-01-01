@@ -1385,7 +1385,6 @@ parent
 {
 if
 (
-!
 sprop
 -
 >
