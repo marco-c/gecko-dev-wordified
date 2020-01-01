@@ -1287,10 +1287,6 @@ generator
 expression
 *
 /
-FunctionBox
-*
-functionList
-;
 /
 /
 A

@@ -1560,14 +1560,6 @@ public
 ObjectBox
 objbox
 ;
-FunctionBox
-*
-siblings
-;
-FunctionBox
-*
-kids
-;
 Bindings
 bindings
 ;

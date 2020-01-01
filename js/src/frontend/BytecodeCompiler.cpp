@@ -1328,12 +1328,6 @@ pn
 return
 NULL
 ;
-pc
-.
-functionList
-=
-NULL
-;
 if
 (
 !
