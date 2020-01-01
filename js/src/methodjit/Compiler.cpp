@@ -32459,6 +32459,9 @@ ARM
 "
 )
 ;
+return
+true
+;
 #
 else
 jsbytecode
