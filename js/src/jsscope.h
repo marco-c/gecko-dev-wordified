@@ -5649,6 +5649,13 @@ jsid
 id
 )
 {
+JS_ASSERT
+(
+isNative
+(
+)
+)
+;
 return
 SHAPE_FETCH
 (
