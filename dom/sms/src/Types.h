@@ -468,6 +468,7 @@ DeliveryState
 {
 eDeliveryState_Sent
 eDeliveryState_Received
+eDeliveryState_Unknown
 /
 /
 This
@@ -478,7 +479,7 @@ at
 the
 end
 .
-eDeliveryState_Unknown
+eDeliveryState_EndGuard
 }
 ;
 }
@@ -559,7 +560,7 @@ dom
 sms
 :
 :
-eDeliveryState_Unknown
+eDeliveryState_EndGuard
 >
 {
 }
