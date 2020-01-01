@@ -1197,7 +1197,10 @@ point
 }
 /
 /
-Privacy
+Toggle
+the
+Private
+Browsing
 mode
 {
 get
