@@ -342,10 +342,16 @@ handleCommand
 ;
 executeSoon
 (
-function
-afterSearch
 (
 )
+=
+>
+executeSoon
+(
+(
+)
+=
+>
 {
 gBrowser
 .
@@ -455,6 +461,7 @@ finish
 )
 ;
 }
+)
 )
 ;
 }
