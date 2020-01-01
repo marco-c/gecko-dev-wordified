@@ -197,16 +197,9 @@ class
 RawDBusConnection
 :
 public
-detail
-:
-:
-RefCounted
+AtomicRefCounted
 <
 RawDBusConnection
-detail
-:
-:
-AtomicRefCount
 >
 {
 struct
