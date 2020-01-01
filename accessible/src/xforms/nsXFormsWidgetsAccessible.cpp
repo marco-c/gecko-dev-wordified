@@ -1012,13 +1012,13 @@ states
 FOCUSABLE
 ;
 }
-nsresult
+ENameValueFlag
 nsXFormsComboboxPopupWidgetAccessible
 :
 :
-GetNameInternal
+NativeName
 (
-nsAString
+nsString
 &
 aName
 )
@@ -1043,7 +1043,7 @@ XForms
 rules
 .
 return
-NS_OK
+eNameOK
 ;
 }
 void

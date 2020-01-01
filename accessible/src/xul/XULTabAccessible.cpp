@@ -1183,13 +1183,13 @@ Truncate
 )
 ;
 }
-nsresult
+ENameValueFlag
 XULTabsAccessible
 :
 :
-GetNameInternal
+NativeName
 (
-nsAString
+nsString
 &
 aName
 )
@@ -1199,7 +1199,7 @@ aName
 no
 name
 return
-NS_OK
+eNameOK
 ;
 }
 /

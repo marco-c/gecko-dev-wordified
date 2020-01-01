@@ -1153,13 +1153,13 @@ return
 isRelevant
 ;
 }
-nsresult
+ENameValueFlag
 nsXFormsAccessible
 :
 :
-GetNameInternal
+NativeName
 (
-nsAString
+nsString
 &
 aName
 )
@@ -1172,7 +1172,6 @@ xforms
 :
 label
 element
-return
 GetBoundChildElementValue
 (
 NS_LITERAL_STRING
@@ -1183,6 +1182,9 @@ label
 )
 aName
 )
+;
+return
+eNameOK
 ;
 }
 void

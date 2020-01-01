@@ -1945,7 +1945,7 @@ attribute
 .
 Refer
 to
-NS_OK_EMPTY_NAME
+eNoNameOnPurpose
 return
 value
 .

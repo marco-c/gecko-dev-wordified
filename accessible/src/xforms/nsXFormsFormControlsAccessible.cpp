@@ -326,13 +326,13 @@ roles
 LABEL
 ;
 }
-nsresult
+ENameValueFlag
 nsXFormsLabelAccessible
 :
 :
-GetNameInternal
+NativeName
 (
-nsAString
+nsString
 &
 aName
 )
@@ -350,7 +350,7 @@ bug
 453594
 .
 return
-NS_OK
+eNameOK
 ;
 }
 void

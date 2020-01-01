@@ -3040,13 +3040,13 @@ states
 READONLY
 ;
 }
-nsresult
+ENameValueFlag
 HTMLTableAccessible
 :
 :
-GetNameInternal
+NativeName
 (
-nsAString
+nsString
 &
 aName
 )
@@ -3054,7 +3054,7 @@ aName
 Accessible
 :
 :
-GetNameInternal
+NativeName
 (
 aName
 )
@@ -3069,7 +3069,7 @@ IsEmpty
 )
 )
 return
-NS_OK
+eNameOK
 ;
 /
 /
@@ -3130,7 +3130,7 @@ IsEmpty
 )
 )
 return
-NS_OK
+eNameOK
 ;
 }
 }
@@ -3160,7 +3160,7 @@ aName
 )
 ;
 return
-NS_OK
+eNameOK
 ;
 }
 nsresult
