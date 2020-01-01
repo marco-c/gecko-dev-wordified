@@ -621,7 +621,7 @@ PRBool
 QualifiedNameEqualsInternal
 (
 const
-nsACString
+nsAString
 &
 aQualifiedName
 )

@@ -2632,12 +2632,6 @@ return
 NS_OK
 ;
 }
-NS_ConvertUTF16toUTF8
-utf8Name
-(
-aLocalName
-)
-;
 PRInt32
 nameSpaceID
 =
@@ -2752,9 +2746,9 @@ attrNS
 nameAtom
 -
 >
-EqualsUTF8
+Equals
 (
-utf8Name
+aLocalName
 )
 )
 {

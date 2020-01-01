@@ -11778,15 +11778,10 @@ if
 aNode
 )
 {
-nsAutoString
+nsDependentAtomString
 name
-;
-aName
--
->
-ToString
 (
-name
+aName
 )
 ;
 PRInt32

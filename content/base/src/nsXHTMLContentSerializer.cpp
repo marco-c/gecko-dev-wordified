@@ -1814,7 +1814,6 @@ index
 count
 ;
 nsAutoString
-nameStr
 prefixStr
 uriStr
 valueStr
@@ -2429,12 +2428,10 @@ attrName
 valueStr
 )
 ;
-attrName
--
->
-ToString
-(
+nsDependentAtomString
 nameStr
+(
+attrName
 )
 ;
 /

@@ -1099,7 +1099,7 @@ PRBool
 QualifiedNameEquals
 (
 const
-nsACString
+nsAString
 &
 aName
 )
@@ -1115,7 +1115,7 @@ Atom
 )
 -
 >
-EqualsUTF8
+Equals
 (
 aName
 )

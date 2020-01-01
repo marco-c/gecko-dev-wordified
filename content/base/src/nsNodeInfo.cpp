@@ -1308,7 +1308,7 @@ nsNodeInfo
 QualifiedNameEqualsInternal
 (
 const
-nsACString
+nsAString
 &
 aQualifiedName
 )
@@ -1326,7 +1326,7 @@ prefix
 "
 )
 ;
-nsACString
+nsAString
 :
 :
 const_iterator
@@ -1339,7 +1339,7 @@ BeginReading
 start
 )
 ;
-nsACString
+nsAString
 :
 :
 const_iterator
@@ -1348,7 +1348,7 @@ colon
 start
 )
 ;
-nsAtomCString
+nsDependentAtomString
 prefix
 (
 mInner
@@ -1468,7 +1468,7 @@ the
 '
 :
 '
-nsACString
+nsAString
 :
 :
 const_iterator
@@ -1506,7 +1506,7 @@ mInner
 mName
 -
 >
-EqualsUTF8
+Equals
 (
 Substring
 (

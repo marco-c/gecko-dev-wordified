@@ -3797,15 +3797,10 @@ return
 NS_OK
 ;
 }
-nsAutoString
+nsDependentAtomString
 sortkey
-;
-aVar
--
->
-ToString
 (
-sortkey
+aVar
 )
 ;
 nsCOMPtr
