@@ -18265,13 +18265,6 @@ i
 )
 ;
 }
-enum
-SizeMode
-{
-GET_SIZE
-GET_LENGTH
-}
-;
 JSBool
 GetArraySizeFromParam
 (
@@ -18290,8 +18283,6 @@ uint16
 methodIndex
 uint8
 paramIndex
-SizeMode
-mode
 nsXPTCMiniVariant
 *
 params
