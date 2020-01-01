@@ -1238,6 +1238,9 @@ uint8_t
 *
 mDynamicOutput
 ;
+bool
+mPrivateBrowsing
+;
 nsCOMPtr
 <
 nsIDashboardEventNotifier
