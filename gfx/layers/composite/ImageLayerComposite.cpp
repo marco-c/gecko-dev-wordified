@@ -483,6 +483,14 @@ mFilter
 clipRect
 )
 ;
+LayerManagerComposite
+:
+:
+RemoveMaskEffect
+(
+mMaskLayer
+)
+;
 }
 void
 ImageLayerComposite
