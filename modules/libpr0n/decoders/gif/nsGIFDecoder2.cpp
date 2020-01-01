@@ -8720,6 +8720,8 @@ state
 =
 gif_error
 ;
+break
+;
 #
 else
 /
@@ -8744,8 +8746,6 @@ gif_sub_block
 ;
 #
 endif
-break
-;
 }
 GETN
 (
