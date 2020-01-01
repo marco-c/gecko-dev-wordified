@@ -3859,7 +3859,6 @@ friend
 struct
 Shape
 ;
-const
 Shape
 *
 cursor
@@ -3868,7 +3867,6 @@ public
 :
 Range
 (
-const
 Shape
 *
 shape
@@ -3895,7 +3893,6 @@ isEmptyShape
 )
 ;
 }
-const
 Shape
 &
 front
@@ -4013,7 +4010,6 @@ Range
 all
 (
 )
-const
 {
 return
 Range
@@ -4887,7 +4883,6 @@ Value
 *
 vp
 )
-const
 ;
 bool
 set
@@ -4908,7 +4903,6 @@ Value
 *
 vp
 )
-const
 ;
 BaseShape
 *
@@ -6127,7 +6121,6 @@ uint32_t
 entryCount
 (
 )
-const
 {
 if
 (
@@ -6142,7 +6135,6 @@ table
 .
 entryCount
 ;
-const
 js
 :
 :
@@ -6200,7 +6192,6 @@ bool
 isBigEnoughForAShapeTable
 (
 )
-const
 {
 JS_ASSERT
 (
@@ -6210,7 +6201,6 @@ hasTable
 )
 )
 ;
-const
 js
 :
 :
@@ -6334,7 +6324,6 @@ inline
 void
 writeBarrierPre
 (
-const
 Shape
 *
 shape
@@ -6345,7 +6334,6 @@ inline
 void
 writeBarrierPost
 (
-const
 Shape
 *
 shape
@@ -6397,7 +6385,6 @@ inline
 void
 readBarrier
 (
-const
 Shape
 *
 shape

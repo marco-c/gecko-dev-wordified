@@ -4995,7 +4995,6 @@ shape
 /
 static
 inline
-const
 Shape
 *
 GetSingletonShape
@@ -5023,7 +5022,6 @@ isNative
 return
 NULL
 ;
-const
 Shape
 *
 shape
@@ -5165,7 +5163,6 @@ JSVAL_TYPE_UNDEFINED
 )
 )
 ;
-const
 Shape
 *
 shape
@@ -6691,7 +6688,6 @@ pc
 .
 *
 /
-const
 Shape
 *
 shape
@@ -17117,7 +17113,6 @@ return
 false
 ;
 }
-const
 Shape
 *
 shape
@@ -17386,7 +17381,6 @@ get
 )
 )
 ;
-const
 Shape
 *
 baseShape
@@ -17515,7 +17509,6 @@ DoubleType
 (
 )
 ;
-const
 Shape
 *
 shape
@@ -17804,7 +17797,6 @@ cx
 return
 ;
 }
-const
 Shape
 *
 shape
@@ -18348,7 +18340,6 @@ types
 JSObject
 *
 obj
-const
 Shape
 *
 shape
@@ -18698,7 +18689,6 @@ properties
 .
 *
 /
-const
 Shape
 *
 shape
@@ -18779,7 +18769,6 @@ isNative
 )
 )
 {
-const
 Shape
 *
 shape
@@ -18955,7 +18944,6 @@ enter
 cx
 )
 ;
-const
 Shape
 *
 shape
@@ -19157,7 +19145,6 @@ found
 =
 false
 ;
-const
 Shape
 *
 shape

@@ -453,7 +453,6 @@ popFront
 )
 )
 {
-const
 Shape
 &
 shape
@@ -3698,7 +3697,6 @@ cx
 JSObject
 *
 obj
-const
 Shape
 *
 shape
@@ -5874,7 +5872,6 @@ bug
 .
 *
 /
-const
 Shape
 *
 aprop
@@ -8862,7 +8859,6 @@ one
 #
 ifdef
 DEBUG
-const
 Shape
 *
 nshape

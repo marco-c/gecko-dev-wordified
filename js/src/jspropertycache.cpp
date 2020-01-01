@@ -168,7 +168,6 @@ scopeIndex
 JSObject
 *
 pobj
-const
 Shape
 *
 shape

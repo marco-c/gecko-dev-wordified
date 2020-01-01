@@ -4333,7 +4333,6 @@ asStaticBlock
 )
 ;
 }
-const
 Shape
 *
 StaticBlockObject
@@ -5218,7 +5217,6 @@ popFront
 )
 )
 {
-const
 Shape
 *
 shape
@@ -5291,7 +5289,6 @@ i
 +
 )
 {
-const
 Shape
 *
 shape
@@ -5674,7 +5671,6 @@ front
 ;
 for
 (
-const
 Shape
 *
 *

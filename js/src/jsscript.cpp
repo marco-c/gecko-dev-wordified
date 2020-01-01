@@ -938,7 +938,6 @@ dups
 /
 Vector
 <
-const
 Shape
 *
 >
@@ -999,7 +998,6 @@ popFront
 )
 )
 {
-const
 Shape
 &
 s
@@ -1285,7 +1283,6 @@ popFront
 )
 )
 {
-const
 Shape
 &
 shape
@@ -1478,7 +1475,6 @@ return
 true
 ;
 }
-const
 Shape
 *
 Bindings

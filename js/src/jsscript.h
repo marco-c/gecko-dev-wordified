@@ -1489,7 +1489,6 @@ getLocalNameArray
 .
 *
 /
-const
 js
 :
 :

@@ -13595,7 +13595,6 @@ AtomToId
 atom
 )
 ;
-const
 Shape
 *
 shape
@@ -13720,7 +13719,6 @@ popFront
 )
 )
 {
-const
 Shape
 &
 shape

@@ -8764,7 +8764,6 @@ getProto
 continue
 ;
 }
-const
 Shape
 *
 shape

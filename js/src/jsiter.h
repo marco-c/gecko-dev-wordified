@@ -226,7 +226,6 @@ JSFlatString
 *
 props_end
 ;
-const
 Shape
 *
 *

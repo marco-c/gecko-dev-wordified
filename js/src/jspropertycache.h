@@ -213,7 +213,6 @@ testing
 bytecode
 *
 /
-const
 Shape
 *
 kshape
@@ -229,7 +228,6 @@ key
 object
 *
 /
-const
 Shape
 *
 pshape
@@ -242,7 +240,6 @@ owning
 object
 *
 /
-const
 Shape
 *
 prop
@@ -472,15 +469,12 @@ assign
 jsbytecode
 *
 kpc
-const
 Shape
 *
 kshape
-const
 Shape
 *
 pshape
-const
 Shape
 *
 prop
@@ -1354,7 +1348,6 @@ scopeIndex
 JSObject
 *
 pobj
-const
 js
 :
 :

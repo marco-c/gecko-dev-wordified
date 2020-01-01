@@ -1303,7 +1303,6 @@ JSObject
 *
 >
 pobj
-const
 Shape
 *
 shape
@@ -2198,7 +2197,6 @@ setter
 .
 *
 /
-const
 Shape
 *
 shape

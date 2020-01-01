@@ -728,7 +728,6 @@ isNative
 {
 if
 (
-const
 Shape
 *
 shape

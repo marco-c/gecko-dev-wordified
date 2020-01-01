@@ -1235,7 +1235,6 @@ KidsPointer
 :
 checkConsistency
 (
-const
 Shape
 *
 aKid

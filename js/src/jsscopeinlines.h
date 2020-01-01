@@ -1674,7 +1674,6 @@ Value
 *
 vp
 )
-const
 {
 JS_ASSERT
 (
@@ -1712,7 +1711,6 @@ vp
 }
 Rooted
 <
-const
 Shape
 *
 >
@@ -1783,7 +1781,6 @@ Value
 *
 vp
 )
-const
 {
 JS_ASSERT_IF
 (
@@ -1835,7 +1832,6 @@ cx
 ;
 Rooted
 <
-const
 Shape
 *
 >
@@ -2374,10 +2370,6 @@ Shape
 :
 writeBarrierPre
 (
-const
-js
-:
-:
 Shape
 *
 shape
@@ -2462,10 +2454,6 @@ Shape
 :
 writeBarrierPost
 (
-const
-js
-:
-:
 Shape
 *
 shape
@@ -2482,7 +2470,6 @@ Shape
 :
 readBarrier
 (
-const
 Shape
 *
 shape

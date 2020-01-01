@@ -30379,7 +30379,6 @@ NULL
 }
 else
 {
-const
 Shape
 *
 shape
@@ -30549,7 +30548,6 @@ id
 return
 false
 ;
-const
 Shape
 *
 shape

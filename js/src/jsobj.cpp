@@ -1218,7 +1218,6 @@ isNative
 )
 )
 {
-const
 Shape
 *
 shape
@@ -3082,7 +3081,6 @@ isNative
 )
 )
 {
-const
 Shape
 *
 shape
@@ -9690,7 +9688,6 @@ obj2
 ;
 Rooted
 <
-const
 Shape
 *
 >
@@ -16054,7 +16051,6 @@ gc
 :
 AllocKind
 kind
-const
 Shape
 *
 shape
@@ -16152,7 +16148,6 @@ return
 NULL
 ;
 }
-const
 js
 :
 :
@@ -17882,7 +17877,6 @@ n
 0
 )
 {
-const
 Shape
 *
 shape
@@ -20841,7 +20835,6 @@ isNative
 )
 )
 ;
-const
 Shape
 *
 shape
@@ -22703,7 +22696,6 @@ setLastProperty
 JSContext
 *
 cx
-const
 js
 :
 :
@@ -22793,17 +22785,7 @@ newSpan
 {
 shape_
 =
-const_cast
-<
-js
-:
-:
-Shape
-*
->
-(
 shape
-)
 ;
 return
 true
@@ -22824,17 +22806,7 @@ false
 ;
 shape_
 =
-const_cast
-<
-js
-:
-:
-Shape
-*
->
-(
 shape
-)
 ;
 return
 true
@@ -25250,7 +25222,6 @@ JSProperty
 *
 prop
 ;
-const
 Shape
 *
 shape
@@ -25940,7 +25911,6 @@ jsid
 id_
 )
 {
-const
 Shape
 *
 shape
@@ -26631,7 +26601,6 @@ true
 namespace
 js
 {
-const
 Shape
 *
 DefineNativeProperty
@@ -27814,7 +27783,6 @@ nativeEmpty
 {
 if
 (
-const
 Shape
 *
 shape
@@ -27900,7 +27868,6 @@ while
 true
 )
 {
-const
 Shape
 *
 shape
@@ -29392,7 +29359,6 @@ obj
 JSObject
 *
 pobj
-const
 Shape
 *
 shape
@@ -29582,7 +29548,6 @@ true
 }
 Rooted
 <
-const
 Shape
 *
 >
@@ -29690,7 +29655,6 @@ JSObject
 *
 >
 pobj
-const
 Shape
 *
 shape
@@ -29732,7 +29696,6 @@ JSObject
 *
 >
 receiver
-const
 Shape
 *
 shape
@@ -29908,7 +29871,6 @@ cx
 }
 Rooted
 <
-const
 Shape
 *
 >
@@ -32630,7 +32592,6 @@ id
 attrsp
 )
 ;
-const
 Shape
 *
 shape
@@ -32739,7 +32700,6 @@ index
 attrsp
 )
 ;
-const
 Shape
 *
 shape
@@ -32968,7 +32928,6 @@ JSProperty
 *
 prop
 ;
-const
 Shape
 *
 shape
@@ -33401,7 +33360,6 @@ vp
 {
 if
 (
-const
 Shape
 *
 shape
@@ -34350,7 +34308,6 @@ JSProperty
 *
 prop
 ;
-const
 Shape
 *
 shape
@@ -35584,7 +35541,6 @@ trc
 debugPrintIndex
 )
 ;
-const
 Shape
 *
 shape
@@ -35840,7 +35796,6 @@ KEY
 }
 }
 static
-const
 Shape
 *
 LastConfigurableShape
@@ -35885,7 +35840,6 @@ popFront
 )
 )
 {
-const
 Shape
 *
 shape
@@ -35938,7 +35892,6 @@ obj
 /
 while
 (
-const
 Shape
 *
 shape
@@ -36019,7 +35972,6 @@ popFront
 )
 )
 {
-const
 Shape
 *
 shape
@@ -36749,7 +36701,6 @@ DumpProperty
 JSObject
 *
 obj
-const
 Shape
 &
 shape
@@ -37667,7 +37618,6 @@ n
 ;
 Vector
 <
-const
 Shape
 *
 8

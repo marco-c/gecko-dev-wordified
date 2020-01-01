@@ -1017,7 +1017,6 @@ guardShape
 (
 RegisterID
 objReg
-const
 Shape
 *
 shape
@@ -6232,7 +6231,6 @@ JSObject
 obj
 RegisterID
 objReg
-const
 js
 :
 :

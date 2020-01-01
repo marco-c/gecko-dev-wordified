@@ -6771,7 +6771,6 @@ numDynamicSlots
 )
 const
 ;
-const
 Shape
 *
 nativeLookup
@@ -6784,7 +6783,6 @@ id
 )
 ;
 inline
-const
 Shape
 *
 nativeLookup
@@ -6797,7 +6795,6 @@ pid
 )
 ;
 inline
-const
 Shape
 *
 nativeLookup
@@ -6813,7 +6810,6 @@ name
 #
 ifdef
 DEBUG
-const
 Shape
 *
 nativeLookupNoAllocation
@@ -6826,7 +6822,6 @@ id
 )
 ;
 inline
-const
 Shape
 *
 nativeLookupNoAllocation
@@ -6839,7 +6834,6 @@ pid
 )
 ;
 inline
-const
 Shape
 *
 nativeLookupNoAllocation
