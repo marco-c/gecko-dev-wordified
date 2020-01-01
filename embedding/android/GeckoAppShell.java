@@ -972,6 +972,14 @@ String
 stack
 )
 ;
+public
+static
+native
+void
+processNextNativeEvent
+(
+)
+;
 /
 /
 A
