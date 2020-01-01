@@ -14102,6 +14102,10 @@ ConstFrameSelection
 ;
 if
 (
+!
+frameselection
+|
+|
 frameselection
 -
 >
