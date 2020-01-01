@@ -688,10 +688,8 @@ etc
 .
 *
 /
-already_AddRefed
-<
-gfxWindowsFont
->
+FontEntry
+*
 FindFontForChar
 (
 PRUint32
