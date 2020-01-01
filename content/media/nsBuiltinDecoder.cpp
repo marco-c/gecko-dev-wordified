@@ -1986,6 +1986,12 @@ multiple
 loadedfirstframe
 events
 .
+MonitorAutoEnter
+mon
+(
+mMonitor
+)
+;
 PRBool
 resourceIsLoaded
 =
@@ -2056,12 +2062,6 @@ original
 loading
 state
 .
-MonitorAutoEnter
-mon
-(
-mMonitor
-)
-;
 if
 (
 mPlayState
