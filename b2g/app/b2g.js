@@ -6658,7 +6658,7 @@ BACKGROUND_PERCEIVABLE
 .
 OomScoreAdjust
 "
-200
+400
 )
 ;
 pref
@@ -6706,7 +6706,7 @@ BACKGROUND_HOMESCREEN
 .
 OomScoreAdjust
 "
-267
+534
 )
 ;
 pref
@@ -6754,7 +6754,7 @@ BACKGROUND
 .
 OomScoreAdjust
 "
-400
+667
 )
 ;
 pref
