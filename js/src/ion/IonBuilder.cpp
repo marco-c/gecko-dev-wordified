@@ -23276,10 +23276,7 @@ ins
 )
 ;
 return
-resumeAfter
-(
-ins
-)
+true
 ;
 }
 bool
