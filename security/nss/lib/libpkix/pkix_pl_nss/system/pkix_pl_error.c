@@ -423,7 +423,7 @@ plerr
 )
 plerr
 const
-SECErrorCodes
+PKIX_Int32
 PKIX_PLErrorIndex
 [
 ]

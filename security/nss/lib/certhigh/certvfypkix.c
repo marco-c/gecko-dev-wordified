@@ -3829,7 +3829,7 @@ errLevel
 =
 0
 ;
-PKIX_UInt32
+PKIX_Int32
 nssErr
 =
 0

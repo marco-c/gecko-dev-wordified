@@ -463,7 +463,7 @@ PKIX_ERROR_DESCRIPTION
 /
 extern
 const
-int
+PKIX_Int32
 PKIX_PLErrorIndex
 [
 ]

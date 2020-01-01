@@ -445,7 +445,7 @@ code
 "
 *
 /
-PKIX_UInt32
+PKIX_Int32
 plErr
 ;
 PKIX_Error
