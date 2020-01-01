@@ -3487,7 +3487,7 @@ directory
 .
 pid
 .
-AppendASCII
+AppendLiteral
 (
 "
 /

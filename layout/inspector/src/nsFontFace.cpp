@@ -894,10 +894,10 @@ IsEmpty
 {
 aResult
 .
-AppendASCII
+Append
 (
-"
-"
+'
+'
 )
 ;
 }

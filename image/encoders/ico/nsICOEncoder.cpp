@@ -704,7 +704,7 @@ params
 ;
 params
 .
-AppendASCII
+AppendLiteral
 (
 "
 bpp

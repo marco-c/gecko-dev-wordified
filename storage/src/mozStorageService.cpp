@@ -1649,7 +1649,7 @@ message
 ;
 title
 .
-AppendASCII
+AppendLiteral
 (
 "
 SQLite
@@ -1660,7 +1660,7 @@ Error
 ;
 message
 .
-AppendASCII
+AppendLiteral
 (
 "
 The

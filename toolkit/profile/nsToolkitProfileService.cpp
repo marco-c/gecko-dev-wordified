@@ -3042,7 +3042,7 @@ SetCapacity
 ;
 ini
 .
-AppendASCII
+AppendLiteral
 (
 "
 [
@@ -3055,7 +3055,7 @@ n
 ;
 ini
 .
-AppendASCII
+AppendLiteral
 (
 "
 StartWithLastProfile
@@ -3070,7 +3070,7 @@ n
 ;
 ini
 .
-AppendASCII
+AppendLiteral
 (
 "
 [
@@ -3083,7 +3083,7 @@ n
 ;
 ini
 .
-AppendASCII
+AppendLiteral
 (
 "
 Name
@@ -3096,7 +3096,7 @@ n
 ;
 ini
 .
-AppendASCII
+AppendLiteral
 (
 "
 IsRelative
@@ -3109,7 +3109,7 @@ n
 ;
 ini
 .
-AppendASCII
+AppendLiteral
 (
 "
 Path
@@ -3126,17 +3126,17 @@ profileDir
 ;
 ini
 .
-AppendASCII
+Append
 (
-"
+'
 \
 n
-"
+'
 )
 ;
 ini
 .
-AppendASCII
+AppendLiteral
 (
 "
 Default
