@@ -824,7 +824,7 @@ method
 .
 BackgroundPageThumbs
 .
-captureIfStale
+captureIfMissing
 (
 this
 .
