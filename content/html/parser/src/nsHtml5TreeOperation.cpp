@@ -633,7 +633,7 @@ parent
 RemoveChildAt
 (
 pos
-PR_FALSE
+PR_TRUE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -642,6 +642,8 @@ rv
 rv
 )
 ;
+/
+/
 nsNodeUtils
 :
 :
@@ -715,7 +717,7 @@ mNode
 RemoveChildAt
 (
 0
-PR_FALSE
+PR_TRUE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -724,6 +726,8 @@ rv
 rv
 )
 ;
+/
+/
 nsNodeUtils
 :
 :
@@ -761,10 +765,10 @@ if
 didAppend
 )
 {
-aBuilder
--
->
-NotifyAppend
+nsNodeUtils
+:
+:
+ContentAppended
 (
 mParent
 childCount
