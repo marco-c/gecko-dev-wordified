@@ -1870,6 +1870,15 @@ nsRefPtr
 nsScriptLoadRequest
 >
 >
+mNonAsyncExternalScriptInsertedRequests
+;
+nsTArray
+<
+nsRefPtr
+<
+nsScriptLoadRequest
+>
+>
 mAsyncRequests
 ;
 nsTArray
