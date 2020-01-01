@@ -122,10 +122,6 @@ jsbytecode
 pc
 JSOp
 op
-const
-JSCodeSpec
-&
-cs
 )
 {
 if

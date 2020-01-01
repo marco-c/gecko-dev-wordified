@@ -468,10 +468,6 @@ JSTracer
 trc
 )
 ;
-friend
-struct
-TreeContext
-;
 /
 *
 *

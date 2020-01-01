@@ -7183,9 +7183,6 @@ inline
 size_t
 ScriptDataSize
 (
-JSContext
-*
-cx
 uint32_t
 length
 uint32_t
@@ -7486,7 +7483,6 @@ size
 =
 ScriptDataSize
 (
-cx
 length
 nsrcnotes
 natoms
@@ -11685,7 +11681,6 @@ size
 =
 ScriptDataSize
 (
-cx
 src
 -
 >

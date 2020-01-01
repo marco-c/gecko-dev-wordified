@@ -6250,11 +6250,6 @@ JSOp
 *
 pc
 )
-js_CodeSpec
-[
-*
-pc
-]
 )
 )
 ;
