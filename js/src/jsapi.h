@@ -26509,8 +26509,10 @@ JS_ObjectIsDate
 JSContext
 *
 cx
-JSObject
-*
+JS
+:
+:
+HandleObject
 obj
 )
 ;
