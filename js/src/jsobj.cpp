@@ -6656,15 +6656,14 @@ eval
 if
 (
 callbacks
-)
-{
-return
+&
+&
 callbacks
 -
 >
 contentSecurityPolicyAllows
-&
-&
+)
+return
 callbacks
 -
 >
@@ -6673,7 +6672,6 @@ contentSecurityPolicyAllows
 cx
 )
 ;
-}
 return
 JS_TRUE
 ;
