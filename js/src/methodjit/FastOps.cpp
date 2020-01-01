@@ -6508,7 +6508,6 @@ pushLocal
 (
 slot
 type
-NULL
 )
 ;
 /
@@ -6599,7 +6598,6 @@ storeLocal
 (
 slot
 type
-NULL
 popped
 true
 )
@@ -6653,7 +6651,6 @@ pushLocal
 (
 slot
 type
-NULL
 )
 ;
 /
@@ -6770,7 +6767,6 @@ storeLocal
 (
 slot
 type
-NULL
 true
 true
 )
@@ -6879,7 +6875,6 @@ pushArg
 (
 slot
 type
-NULL
 )
 ;
 /
@@ -6970,7 +6965,6 @@ storeArg
 (
 slot
 type
-NULL
 popped
 )
 ;
@@ -7023,7 +7017,6 @@ pushArg
 (
 slot
 type
-NULL
 )
 ;
 /
@@ -7140,7 +7133,6 @@ storeArg
 (
 slot
 type
-NULL
 true
 )
 ;
@@ -8228,11 +8220,11 @@ TypeSet
 *
 types
 =
-obj
--
->
+frame
+.
 getTypeSet
 (
+obj
 )
 ;
 types
@@ -10081,18 +10073,6 @@ knownPushedType
 0
 )
 ;
-types
-:
-:
-TypeSet
-*
-typeSet
-=
-pushedTypeSet
-(
-0
-)
-;
 /
 /
 Allocate
@@ -10570,7 +10550,6 @@ reg
 )
 dataReg
 type
-typeSet
 )
 ;
 else
@@ -10580,7 +10559,6 @@ pushTypedPayload
 (
 type
 dataReg
-typeSet
 )
 ;
 stubcc
@@ -10778,11 +10756,11 @@ TypeSet
 *
 types
 =
-obj
--
->
+frame
+.
 getTypeSet
 (
+obj
 )
 ;
 types
@@ -11886,10 +11864,6 @@ ic
 .
 objReg
 knownPushedType
-(
-0
-)
-pushedTypeSet
 (
 0
 )
