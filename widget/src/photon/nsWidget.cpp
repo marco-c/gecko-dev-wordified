@@ -4043,6 +4043,8 @@ CreateWidget
 nsIWidget
 *
 aParent
+nsNativeWidget
+aNativeParent
 const
 nsRect
 &
@@ -4061,8 +4063,6 @@ aToolkit
 nsWidgetInitData
 *
 aInitData
-nsNativeWidget
-aNativeParent
 )
 {
 PtWidget_t

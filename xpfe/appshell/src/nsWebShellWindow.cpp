@@ -1260,6 +1260,12 @@ parentWidget
 /
 Parent
 nsIWidget
+nsnull
+/
+/
+Native
+parent
+widget
 r
 /
 /
