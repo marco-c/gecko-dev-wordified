@@ -7546,9 +7546,6 @@ case
 LIR_line
 :
 case
-LIR_xtbl
-:
-case
 LIR_jtbl
 :
 nyi
@@ -8633,8 +8630,6 @@ LIR_x
 LIR_xt
 /
 LIR_xf
-/
-LIR_xtbl
 /
 LIR_addxovi
 /
