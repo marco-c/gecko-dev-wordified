@@ -51,7 +51,7 @@ tw
 *
 *
 Tests
-JS_TransplantObject
+JS_TransplantWrappers
 *
 /
 #
@@ -452,7 +452,7 @@ PreWrap
 ;
 CHECK
 (
-JS_TransplantObject
+JS_TransplantWrapper
 (
 cx
 outerObj

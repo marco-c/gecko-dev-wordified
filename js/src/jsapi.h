@@ -5781,14 +5781,14 @@ JS_PUBLIC_API
 JSObject
 *
 )
-JS_TransplantObject
+JS_TransplantWrapper
 (
 JSContext
 *
 cx
 JSObject
 *
-origobj
+wrapper
 JSObject
 *
 target
