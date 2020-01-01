@@ -15292,8 +15292,8 @@ this
 Runnable
 that
 throws
-a
-RuntimeException
+an
+AssertionError
 .
 This
 causes
@@ -15409,7 +15409,7 @@ run
 {
 throw
 new
-RuntimeException
+AssertionError
 (
 )
 ;
@@ -15428,7 +15428,7 @@ loop
 }
 catch
 (
-Exception
+Throwable
 ex
 )
 {
