@@ -4441,8 +4441,9 @@ mozilla
 dom
 :
 :
-PrefEnabled
-aPrefEnabled
+ConstructorEnabled
+*
+aConstructorEnabled
 )
 {
 nsGlobalNameStruct
@@ -4497,9 +4498,9 @@ aDefineDOMInterface
 s
 -
 >
-mPrefEnabled
+mConstructorEnabled
 =
-aPrefEnabled
+aConstructorEnabled
 ;
 }
 }
@@ -4527,8 +4528,9 @@ mozilla
 dom
 :
 :
-PrefEnabled
-aPrefEnabled
+ConstructorEnabled
+*
+aConstructorEnabled
 )
 {
 nsGlobalNameStruct
@@ -4583,9 +4585,9 @@ aNavConstructor
 s
 -
 >
-mPrefEnabled
+mConstructorEnabled
 =
-aPrefEnabled
+aConstructorEnabled
 ;
 }
 }
