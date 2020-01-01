@@ -6987,6 +6987,14 @@ isBlackBoxed
 )
 ;
 }
+DebuggerView
+.
+Sources
+.
+maybeShowBlackBoxMessage
+(
+)
+;
 }
 /
 *
