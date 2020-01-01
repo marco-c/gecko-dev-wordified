@@ -450,6 +450,10 @@ const
 nsLiteralString
 kContentLength
 ;
+const
+nsLiteralString
+kContentDisposition
+;
 }
 ;
 extern
