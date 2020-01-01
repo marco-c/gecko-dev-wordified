@@ -2605,6 +2605,8 @@ nsAccessibilityAtoms
 textFrame
 )
 {
+contentOffset
+=
 iter
 .
 ConvertSkippedToOriginal
