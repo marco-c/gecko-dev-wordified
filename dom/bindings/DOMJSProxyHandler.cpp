@@ -1363,11 +1363,8 @@ JS_GetPrototype
 (
 cx
 proxy
+&
 proto
-.
-address
-(
-)
 )
 )
 {

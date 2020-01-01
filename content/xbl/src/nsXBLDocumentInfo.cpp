@@ -682,11 +682,8 @@ JS_GetPrototype
 (
 cx
 base
+&
 base
-.
-address
-(
-)
 )
 )
 {

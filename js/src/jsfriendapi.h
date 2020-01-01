@@ -2783,10 +2783,6 @@ JS_GetPrototype
 cx
 obj
 proto
-.
-address
-(
-)
 )
 ;
 }

@@ -3328,11 +3328,8 @@ JS_GetPrototype
 (
 cx
 obj
+&
 proto
-.
-address
-(
-)
 )
 )
 return
@@ -3643,11 +3640,8 @@ JS_GetPrototype
 (
 cx
 obj
+&
 proto
-.
-address
-(
-)
 )
 )
 return

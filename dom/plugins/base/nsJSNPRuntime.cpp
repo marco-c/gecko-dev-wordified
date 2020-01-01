@@ -5780,11 +5780,8 @@ JS_GetPrototype
 (
 cx
 obj
+&
 obj
-.
-address
-(
-)
 )
 )
 {
