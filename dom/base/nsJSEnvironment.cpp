@@ -7141,6 +7141,9 @@ return
 NS_OK
 ;
 }
+nsAutoMicroTask
+mt
+;
 /
 /
 Safety
@@ -8143,6 +8146,9 @@ return
 NS_OK
 ;
 }
+nsAutoMicroTask
+mt
+;
 if
 (
 !
@@ -9110,6 +9116,9 @@ return
 NS_OK
 ;
 }
+nsAutoMicroTask
+mt
+;
 if
 (
 !
@@ -10594,6 +10603,9 @@ JS
 CallEventHandler
 "
 )
+;
+nsAutoMicroTask
+mt
 ;
 JSAutoRequest
 ar

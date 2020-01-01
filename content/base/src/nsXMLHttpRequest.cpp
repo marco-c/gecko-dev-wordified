@@ -16995,6 +16995,13 @@ ChangeState
 XML_HTTP_REQUEST_SENT
 )
 ;
+{
+nsAutoSyncOperation
+sync
+(
+suspendedDoc
+)
+;
 /
 /
 Note
@@ -17038,6 +17045,7 @@ NS_ERROR_UNEXPECTED
 ;
 break
 ;
+}
 }
 }
 if
