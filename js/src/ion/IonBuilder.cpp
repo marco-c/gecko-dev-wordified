@@ -15562,6 +15562,14 @@ state
 lookupswitch
 .
 bodies
+|
+|
+!
+state
+.
+lookupswitch
+.
+bodies
 -
 >
 init
