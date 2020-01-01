@@ -166,7 +166,7 @@ isOnline
 (
 )
 ;
-signals
+Q_SIGNALS
 :
 void
 openConnectionSignal
@@ -174,7 +174,7 @@ openConnectionSignal
 )
 ;
 public
-slots
+Q_SLOTS
 :
 void
 closeSession
@@ -188,7 +188,7 @@ bool
 )
 ;
 private
-slots
+Q_SLOTS
 :
 void
 openSession

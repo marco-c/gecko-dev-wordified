@@ -1063,7 +1063,7 @@ false
 ;
 }
 private
-slots
+Q_SLOTS
 :
 void
 CheckTopLevelSize

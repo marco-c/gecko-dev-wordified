@@ -472,7 +472,7 @@ do
 the
 work
 there
-emit
+Q_EMIT
 openConnectionSignal
 (
 )

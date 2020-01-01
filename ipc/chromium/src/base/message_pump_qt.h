@@ -143,7 +143,7 @@ delayed_work_time
 )
 ;
 public
-slots
+Q_SLOTS
 :
 void
 dispatchDelayed

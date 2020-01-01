@@ -410,7 +410,7 @@ ImmediateTransition
 }
 #
 else
-emit
+Q_EMIT
 orientationChanged
 (
 )

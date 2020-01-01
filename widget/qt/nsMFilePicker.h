@@ -260,7 +260,7 @@ exec
 )
 ;
 private
-slots
+Q_SLOTS
 :
 void
 contentItemSelected
