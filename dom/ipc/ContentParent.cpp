@@ -11287,7 +11287,7 @@ BluetoothParent
 ;
 #
 else
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 No
@@ -11300,9 +11300,6 @@ platform
 !
 "
 )
-;
-return
-nullptr
 ;
 #
 endif
@@ -11329,7 +11326,7 @@ true
 ;
 #
 else
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 No
@@ -11342,9 +11339,6 @@ platform
 !
 "
 )
-;
-return
-false
 ;
 #
 endif
@@ -11400,7 +11394,7 @@ btService
 ;
 #
 else
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 No
@@ -11413,9 +11407,6 @@ platform
 !
 "
 )
-;
-return
-false
 ;
 #
 endif
