@@ -2427,14 +2427,6 @@ signal_sender_launched_
 true
 ;
 }
-pthread_setname_np
-(
-signal_sender_thread_
-"
-SamplerThread
-"
-)
-;
 LOG
 (
 "
