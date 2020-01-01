@@ -1582,10 +1582,6 @@ PRUint32
 aIndex
 PRBool
 aNotify
-PRBool
-aMutationEvent
-=
-PR_TRUE
 )
 ;
 virtual
@@ -3384,9 +3380,12 @@ aDoc
 nsINode
 *
 aParent
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsIContent
+>
 >
 &
 aNodes

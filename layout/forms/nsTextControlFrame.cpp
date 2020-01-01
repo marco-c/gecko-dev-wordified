@@ -8596,7 +8596,6 @@ RemoveChildAt
 (
 0
 PR_TRUE
-PR_FALSE
 )
 ;
 return

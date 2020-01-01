@@ -1174,14 +1174,6 @@ PRUint32
 aIndex
 PRBool
 aNotify
-PRBool
-aMutationEvent
-/
-*
-=
-PR_TRUE
-*
-/
 )
 {
 bool
@@ -1288,7 +1280,6 @@ RemoveChildAt
 (
 aIndex
 aNotify
-aMutationEvent
 )
 ;
 NS_ENSURE_SUCCESS

@@ -4417,9 +4417,13 @@ NS_EVENT_BITS_MUTATION_NODEINSERTED
 )
 )
 {
-nsCOMArray
+nsAutoTArray
+<
+nsCOMPtr
 <
 nsIContent
+>
+50
 >
 childNodes
 ;
@@ -4479,7 +4483,7 @@ Next
 {
 childNodes
 .
-AppendObject
+AppendElement
 (
 iter
 )

@@ -1099,10 +1099,6 @@ PRUint32
 aIndex
 PRBool
 aNotify
-PRBool
-aMutationEvent
-=
-PR_TRUE
 )
 ;
 virtual

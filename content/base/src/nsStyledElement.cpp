@@ -1015,7 +1015,7 @@ PRBool
 aNotify
 )
 {
-nsAutoRemovableScriptBlocker
+nsAutoScriptBlocker
 scriptBlocker
 ;
 if

@@ -599,10 +599,6 @@ PRUint32
 aIndex
 PRBool
 aNotify
-PRBool
-aMutationEvent
-=
-PR_TRUE
 )
 ;
 /
@@ -1037,8 +1033,6 @@ PRUint32
 aIndex
 PRBool
 aNotify
-PRBool
-aMutationEvent
 )
 {
 nsSafeOptionListMutation
@@ -1063,7 +1057,6 @@ RemoveChildAt
 (
 aIndex
 aNotify
-aMutationEvent
 )
 ;
 if
