@@ -1544,17 +1544,6 @@ index
 and
 imacro
 pc
-uint8
-*
-typemap
-;
-/
-/
-typemap
-for
-the
-stack
-frame
 union
 {
 struct
