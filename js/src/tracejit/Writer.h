@@ -4651,6 +4651,8 @@ TypedArray
 lengthOffset
 (
 )
++
+sPayloadOffset
 ACCSET_TARRAY
 nj
 :
