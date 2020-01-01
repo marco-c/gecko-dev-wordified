@@ -1014,8 +1014,6 @@ nsDocLoader
 public
 nsIDocShell
 public
-nsIDocShellTreeItem
-public
 nsIDocShellHistory
 public
 nsIWebNavigation
