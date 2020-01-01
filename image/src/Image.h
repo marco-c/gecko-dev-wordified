@@ -182,12 +182,9 @@ eDecoderType_ico
 eDecoderType_icon
 =
 5
-eDecoderType_wbmp
-=
-6
 eDecoderType_unknown
 =
-7
+6
 }
 ;
 static
