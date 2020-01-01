@@ -362,10 +362,6 @@ If
 we
 found
 something
-were
-doing
-a
-set
 or
 have
 no
@@ -399,13 +395,6 @@ desc
 -
 >
 obj
-|
-|
-(
-flags
-&
-JSRESOLVE_ASSIGNING
-)
 |
 |
 !
