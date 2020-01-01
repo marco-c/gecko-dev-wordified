@@ -6826,6 +6826,7 @@ treat
 non
 -
 expandable
+childless
 queries
 as
 non
@@ -6850,6 +6851,7 @@ parent
 ;
 if
 (
+(
 PlacesUtils
 .
 nodeIsQuery
@@ -6864,6 +6866,13 @@ nodeIsFolder
 (
 parent
 )
+)
+&
+&
+!
+node
+.
+hasChildren
 )
 return
 asQuery
