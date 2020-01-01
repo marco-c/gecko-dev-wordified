@@ -109,11 +109,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Text
+nsGenericDOMDataNode
 .
 h
 "
@@ -127,7 +123,7 @@ class
 CDATASection
 :
 public
-Text
+nsGenericDOMDataNode
 public
 nsIDOMCDATASection
 {
@@ -142,7 +138,7 @@ nsINodeInfo
 aNodeInfo
 )
 :
-Text
+nsGenericDOMDataNode
 (
 aNodeInfo
 )

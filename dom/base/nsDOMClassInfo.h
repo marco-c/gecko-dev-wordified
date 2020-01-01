@@ -2963,6 +2963,17 @@ nsDocumentSH
 public
 :
 NS_IMETHOD
+PostCreatePrototype
+(
+JSContext
+*
+cx
+JSObject
+*
+proto
+)
+;
+NS_IMETHOD
 NewResolve
 (
 nsIXPConnectWrappedNative

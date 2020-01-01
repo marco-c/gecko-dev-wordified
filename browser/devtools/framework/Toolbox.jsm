@@ -3253,17 +3253,6 @@ flex
 1
 )
 ;
-iframe
-.
-setAttribute
-(
-"
-forceOwnRefreshDriver
-"
-"
-"
-)
-;
 let
 vbox
 =

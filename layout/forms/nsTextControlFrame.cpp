@@ -4671,7 +4671,6 @@ range
 new
 nsRange
 (
-mContent
 )
 ;
 nsresult
