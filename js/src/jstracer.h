@@ -2407,10 +2407,7 @@ nextRecorderToAbort
 bool
 wasRootFragment
 ;
-nanojit
-:
-:
-Fragment
+jsbytecode
 *
 outer
 ;
@@ -3738,10 +3735,7 @@ typeMap
 VMSideExit
 *
 expectedInnerExit
-nanojit
-:
-:
-Fragment
+jsbytecode
 *
 outerTree
 )
