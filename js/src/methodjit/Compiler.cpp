@@ -31175,6 +31175,13 @@ if
 fe
 )
 {
+if
+(
+knownType
+!
+=
+JSVAL_TYPE_UNKNOWN
+)
 frame
 .
 learnType
