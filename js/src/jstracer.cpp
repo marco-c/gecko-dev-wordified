@@ -5220,12 +5220,12 @@ int
 =
 tag
 %
-d
+lu
 (
 value
 =
 %
-d
+lu
 )
 "
 JSVAL_TAG
@@ -5317,7 +5317,7 @@ double
 =
 tag
 %
-d
+lu
 "
 JSVAL_TAG
 (
@@ -5380,7 +5380,7 @@ d
 =
 tag
 %
-d
+lu
 "
 type
 JSVAL_TAG
@@ -6652,7 +6652,7 @@ import
 vp
 =
 %
-x
+p
 name
 =
 %
@@ -7344,7 +7344,7 @@ entry
 slot
 #
 %
-d
+ld
 triggering
 re
 -
@@ -7531,7 +7531,7 @@ a
 slot
 #
 %
-d
+ld
 failed
 locking
 it
@@ -8085,7 +8085,7 @@ s
 sp
 %
 +
-d
+ld
 "
 formatRef
 (
@@ -8258,6 +8258,9 @@ InterpState
 sp
 )
 state
+(
+int32_t
+)
 exit
 -
 >
@@ -8282,6 +8285,9 @@ InterpState
 ip
 )
 state
+(
+int32_t
+)
 exit
 -
 >
