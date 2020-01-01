@@ -1399,12 +1399,10 @@ window
 ps
 )
 ;
-+
-+
+notifyDidPaint
+(
 instanceData
--
->
-paintCount
+)
 ;
 }
 /
