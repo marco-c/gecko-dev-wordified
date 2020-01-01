@@ -461,13 +461,6 @@ h
 #
 include
 "
-ns4xPlugin
-.
-h
-"
-#
-include
-"
 nsJVMAuthTools
 .
 h

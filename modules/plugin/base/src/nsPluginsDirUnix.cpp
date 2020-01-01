@@ -450,14 +450,14 @@ h
 #
 include
 "
-ns4xPlugin
+nsNPAPIPlugin
 .
 h
 "
 #
 include
 "
-ns4xPluginInstance
+nsNPAPIPluginInstance
 .
 h
 "
@@ -3362,7 +3362,7 @@ NPAPI
 plugin
 rv
 =
-ns4xPlugin
+nsNPAPIPlugin
 :
 :
 CreatePlugin
@@ -3415,7 +3415,7 @@ parameter
 =
 =
 0
-ns4xPlugin
+nsNPAPIPlugin
 :
 :
 CreatePlugin
@@ -3429,7 +3429,7 @@ NP_Initialize
 )
 rv
 =
-ns4xPlugin
+nsNPAPIPlugin
 :
 :
 CreatePlugin

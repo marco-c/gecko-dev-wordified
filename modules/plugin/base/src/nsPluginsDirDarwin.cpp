@@ -496,7 +496,7 @@ h
 #
 include
 "
-ns4xPlugin
+nsNPAPIPlugin
 .
 h
 "
@@ -583,7 +583,7 @@ fat
 h
 >
 typedef
-NS_4XPLUGIN_CALLBACK
+NS_NPAPIPLUGIN_CALLBACK
 (
 const
 char
@@ -594,7 +594,7 @@ NP_GETMIMEDESCRIPTION
 )
 ;
 typedef
-NS_4XPLUGIN_CALLBACK
+NS_NPAPIPLUGIN_CALLBACK
 (
 OSErr
 BP_GETSUPPORTEDMIMETYPES

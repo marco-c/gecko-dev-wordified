@@ -453,10 +453,10 @@ BLOCK
 /
 #
 ifndef
-ns4xPluginInstance_h_
+nsNPAPIPluginInstance_h_
 #
 define
-ns4xPluginInstance_h_
+nsNPAPIPluginInstance_h_
 #
 include
 "
@@ -528,7 +528,7 @@ prlink
 h
 "
 class
-ns4xPluginStreamListener
+nsNPAPIPluginStreamListener
 ;
 class
 nsPIDOMWindow
@@ -540,7 +540,7 @@ nsInstanceStream
 *
 mNext
 ;
-ns4xPluginStreamListener
+nsNPAPIPluginStreamListener
 *
 mPluginStreamListener
 ;
@@ -556,7 +556,7 @@ nsInstanceStream
 }
 ;
 class
-ns4xPluginInstance
+nsNPAPIPluginInstance
 :
 public
 nsIPluginInstance
@@ -621,7 +621,7 @@ DefineJavaProperties
 ;
 /
 /
-ns4xPluginInstance
+nsNPAPIPluginInstance
 -
 specific
 methods
@@ -740,7 +740,7 @@ peer
 and
 callbacks
 .
-ns4xPluginInstance
+nsNPAPIPluginInstance
 (
 NPPluginFuncs
 *
@@ -761,7 +761,7 @@ destroy
 this
 virtual
 ~
-ns4xPluginInstance
+nsNPAPIPluginInstance
 (
 void
 )
@@ -1032,4 +1032,4 @@ mPopupStates
 endif
 /
 /
-ns4xPluginInstance_h_
+nsNPAPIPluginInstance_h_
