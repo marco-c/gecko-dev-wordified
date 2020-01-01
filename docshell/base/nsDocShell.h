@@ -1574,11 +1574,6 @@ EnsureContentViewer
 (
 )
 ;
-NS_IMETHOD
-EnsureDeviceContext
-(
-)
-;
 /
 /
 aPrincipal
@@ -4111,12 +4106,6 @@ nsCOMPtr
 nsIDocumentCharsetInfo
 >
 mDocumentCharsetInfo
-;
-nsCOMPtr
-<
-nsIDeviceContext
->
-mDeviceContext
 ;
 nsCOMPtr
 <
