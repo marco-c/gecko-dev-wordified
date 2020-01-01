@@ -3378,6 +3378,8 @@ virtual
 nsresult
 DispatchSyncPopState
 (
+PRBool
+aIsInitial
 )
 ;
 virtual
