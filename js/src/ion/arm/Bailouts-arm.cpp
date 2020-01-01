@@ -481,6 +481,17 @@ IonCompartment
 .
 h
 "
+#
+include
+"
+ion
+/
+IonFrames
+-
+inl
+.
+h
+"
 using
 namespace
 js
