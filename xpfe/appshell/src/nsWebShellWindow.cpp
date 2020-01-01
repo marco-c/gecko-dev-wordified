@@ -546,13 +546,6 @@ h
 #
 include
 "
-nsIDOMFocusListener
-.
-h
-"
-#
-include
-"
 nsIWebNavigation
 .
 h

@@ -815,13 +815,6 @@ h
 #
 include
 "
-nsIDOMFocusListener
-.
-h
-"
-#
-include
-"
 nsISelectionController
 .
 h

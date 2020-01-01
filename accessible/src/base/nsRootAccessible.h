@@ -485,14 +485,7 @@ h
 #
 include
 "
-nsIDOMFocusListener
-.
-h
-"
-#
-include
-"
-nsIDOMFormListener
+nsIDOMEventListener
 .
 h
 "
