@@ -478,10 +478,6 @@ folder
 =
 2
 &
-group
-=
-3
-&
 excludeItems
 =
 1
