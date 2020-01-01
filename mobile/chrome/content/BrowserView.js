@@ -3523,10 +3523,6 @@ aMessage
 break
 ;
 }
-return
-{
-}
-;
 }
 updateDirtyTiles
 :
