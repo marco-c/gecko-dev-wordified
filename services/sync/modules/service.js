@@ -5397,9 +5397,12 @@ set
 "
 lastsync
 "
+new
 Date
+(
+)
 .
-now
+toString
 (
 )
 )
