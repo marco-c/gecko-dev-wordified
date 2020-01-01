@@ -532,6 +532,16 @@ NSString
 aPasteboardType
 )
 ;
+static
+NSString
+*
+WrapHtmlForSystemPasteboard
+(
+NSString
+*
+aString
+)
+;
 protected
 :
 /
