@@ -1479,6 +1479,16 @@ Sweeping
 PHASE_SWEEP
 }
 {
+PHASE_SWEEP_MARK_TYPES
+"
+Mark
+Types
+During
+Sweeping
+"
+PHASE_SWEEP_MARK
+}
+{
 PHASE_SWEEP_MARK_DELAYED
 "
 Mark
