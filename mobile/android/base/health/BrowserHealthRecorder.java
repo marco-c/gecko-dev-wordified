@@ -3784,14 +3784,8 @@ d
 (
 LOG_TAG
 "
-Done
-initializing
-profile
-cache
-.
-Beginning
-storage
-init
+Requested
+prefs
 .
 "
 )
@@ -3851,7 +3845,7 @@ json
 ;
 Log
 .
-d
+i
 (
 LOG_TAG
 "
