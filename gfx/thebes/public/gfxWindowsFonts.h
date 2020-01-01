@@ -633,6 +633,10 @@ mIsBadUnderlineFont
 (
 PR_FALSE
 )
+mForceGDI
+(
+PR_FALSE
+)
 mCharset
 (
 0
@@ -1425,6 +1429,9 @@ mIsType1
 ;
 PRPackedBool
 mIsBadUnderlineFont
+;
+PRPackedBool
+mForceGDI
 ;
 PRPackedBool
 mItalic
