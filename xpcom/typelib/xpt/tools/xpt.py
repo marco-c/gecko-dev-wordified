@@ -8009,9 +8009,7 @@ open
 (
 input_file
 "
-r
-+
-b
+rb
 "
 )
 as
