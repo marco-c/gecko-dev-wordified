@@ -2451,15 +2451,28 @@ else
 )
 )
     
+try
+:
+      
 repoinfo
 =
 self
 .
 firefoxRunner
 .
-get_respository_info
+runner
+.
+get_repositoryInfo
 (
 )
+    
+except
+:
+      
+repoinfo
+=
+{
+}
     
 apprepo
 =
