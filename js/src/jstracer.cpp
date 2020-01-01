@@ -5156,11 +5156,10 @@ for
 slots
 +
 =
-2
+1
 /
 *
 rval
-thisp
 *
 /
 +
