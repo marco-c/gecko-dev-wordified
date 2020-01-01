@@ -1168,6 +1168,15 @@ bmsvc
 bookmarksMenuFolder
 )
 ;
+bmsvc
+.
+removeFolderChildren
+(
+bmsvc
+.
+toolbarFolder
+)
+;
 try
 {
 importer
