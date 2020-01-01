@@ -1611,14 +1611,6 @@ aUnit
 )
 NS_HIDDEN
 ;
-explicit
-nsCSSValue
-(
-nscolor
-aValue
-)
-NS_HIDDEN
-;
 nsCSSValue
 (
 Array
