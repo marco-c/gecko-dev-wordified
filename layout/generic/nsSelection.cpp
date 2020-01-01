@@ -2763,6 +2763,8 @@ mPresContext
 nsWeakFrame
 frame
 =
+mContent
+?
 mPresContext
 -
 >
@@ -2770,6 +2772,8 @@ GetPrimaryFrameFor
 (
 mContent
 )
+:
+nsnull
 ;
 mContent
 =
