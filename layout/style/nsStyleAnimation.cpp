@@ -2371,7 +2371,7 @@ utf8String
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -15092,7 +15092,7 @@ BuildStyleRule
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -15110,7 +15110,7 @@ css
 :
 StyleRule
 (
-nsnull
+nullptr
 declaration
 .
 forget
@@ -15170,7 +15170,7 @@ shell
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -15180,7 +15180,7 @@ nsComputedDOMStyle
 GetStyleContextForElement
 (
 aElement
-nsnull
+nullptr
 shell
 )
 ;
@@ -17976,7 +17976,7 @@ svg
 mStrokeDasharray
 !
 =
-nsnull
+nullptr
 )
 =
 =
@@ -20599,7 +20599,7 @@ aComputedValue
 .
 SetAndAdoptCSSValueListValue
 (
-nsnull
+nullptr
 eUnit_Shadow
 )
 ;
@@ -21438,7 +21438,7 @@ mValue
 .
 mCSSValueList
 =
-nsnull
+nullptr
 ;
 }
 break
@@ -21881,7 +21881,7 @@ NS_ABORT_IF_FALSE
 aValue
 !
 =
-nsnull
+nullptr
 "
 values
 may
@@ -21943,7 +21943,7 @@ NS_ABORT_IF_FALSE
 aValuePair
 !
 =
-nsnull
+nullptr
 "
 value
 pairs
@@ -22006,7 +22006,7 @@ NS_ABORT_IF_FALSE
 aValueTriplet
 !
 =
-nsnull
+nullptr
 "
 value
 pairs
@@ -22069,7 +22069,7 @@ NS_ABORT_IF_FALSE
 aRect
 !
 =
-nsnull
+nullptr
 "
 value
 pairs
@@ -22138,7 +22138,7 @@ eUnit_Dasharray
 aValueList
 !
 =
-nsnull
+nullptr
 "
 dasharrays
 may

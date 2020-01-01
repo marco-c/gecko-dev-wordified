@@ -348,7 +348,7 @@ on
 .
 mNavigator
 =
-nsnull
+nullptr
 ;
 Clear
 (
@@ -478,7 +478,7 @@ DetachPlugin
 {
 mPlugin
 =
-nsnull
+nullptr
 ;
 }
 protected

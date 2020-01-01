@@ -484,7 +484,7 @@ DropReference
 {
 mNode
 =
-nsnull
+nullptr
 ;
 }
 virtual
@@ -634,7 +634,7 @@ NoticeNodeDestruction
 {
 mNode
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -1058,7 +1058,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -1589,7 +1589,7 @@ aName
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -2087,7 +2087,7 @@ return
 InsertBefore
 (
 aNewChild
-nsnull
+nullptr
 aReturn
 )
 ;
@@ -2536,7 +2536,7 @@ event
 If
 aPresContext
 is
-nsnull
+nullptr
 this
 does
 nothing
@@ -2619,7 +2619,7 @@ event
 If
 aPresContext
 is
-nsnull
+nullptr
 this
 does
 nothing
@@ -2879,7 +2879,7 @@ existing
 attribute
 map
 or
-nsnull
+nullptr
 .
 *
 /
@@ -2909,7 +2909,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 virtual
@@ -5562,7 +5562,7 @@ nsIFrame
 *
 aStyledFrame
 =
-nsnull
+nullptr
 )
 ;
 nsContentList
@@ -5626,7 +5626,7 @@ const
 *
 aResult
 =
-nsnull
+nullptr
 ;
 \
 nsCOMPtr
@@ -5750,7 +5750,7 @@ const
 *
 aResult
 =
-nsnull
+nullptr
 ;
 \
 nsCOMPtr
@@ -6028,7 +6028,7 @@ nsGkAtoms
 :
 :
 _atom
-nsnull
+nullptr
 aValue
 true
 )

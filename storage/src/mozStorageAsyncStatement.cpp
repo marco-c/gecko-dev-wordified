@@ -425,7 +425,7 @@ NS_OK
 *
 _helper
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -443,7 +443,7 @@ _contractID
 *
 _contractID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -461,7 +461,7 @@ _desc
 *
 _desc
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -479,7 +479,7 @@ _id
 *
 _id
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1150,7 +1150,7 @@ array
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 mParamsArray
@@ -1219,7 +1219,7 @@ mParamsArray
 NS_ENSURE_TRUE
 (
 params
-nsnull
+nullptr
 )
 ;
 rv
@@ -1235,7 +1235,7 @@ params
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 /
@@ -1276,7 +1276,7 @@ params
 >
 unlock
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -1531,7 +1531,7 @@ Connection
 *
 forgottenConn
 =
-nsnull
+nullptr
 ;
 mDBConnection
 .
@@ -1646,11 +1646,11 @@ params
 >
 mStatement
 =
-nsnull
+nullptr
 ;
 mStatementParamsHolder
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2065,7 +2065,7 @@ endif
 *
 _stmt
 =
-nsnull
+nullptr
 ;
 return
 rc
@@ -2156,7 +2156,7 @@ _data
 =
 StatementData
 (
-nsnull
+nullptr
 bindingParamsArray
 (
 )
@@ -2186,7 +2186,7 @@ if
 mFinalized
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

@@ -562,7 +562,7 @@ the
 new
 base
 URI
-nsnull
+nullptr
 to
 use
 the

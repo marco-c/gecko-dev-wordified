@@ -2319,7 +2319,7 @@ GetFirstChildOGL
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /

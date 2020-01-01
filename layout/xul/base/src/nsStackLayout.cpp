@@ -182,7 +182,7 @@ nsStackLayout
 :
 gInstance
 =
-nsnull
+nullptr
 ;
 #
 define

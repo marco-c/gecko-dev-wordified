@@ -505,7 +505,7 @@ size
 )
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -558,7 +558,7 @@ CairoStatus
 0
 )
 ?
-nsnull
+nullptr
 :
 s
 .

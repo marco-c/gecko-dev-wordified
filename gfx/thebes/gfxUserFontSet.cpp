@@ -322,7 +322,7 @@ false
 )
 mLoader
 (
-nsnull
+nullptr
 )
 {
 mIsProxy
@@ -412,7 +412,7 @@ a
 proxy
 entry
 return
-nsnull
+nullptr
 ;
 }
 gfxUserFontSet
@@ -487,7 +487,7 @@ gfxProxyFontEntry
 *
 proxyEntry
 =
-nsnull
+nullptr
 ;
 nsAutoString
 key
@@ -823,7 +823,7 @@ aFoundFamily
 false
 ;
 return
-nsnull
+nullptr
 ;
 }
 aFoundFamily
@@ -917,7 +917,7 @@ LOADING_SLOWLY
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1070,7 +1070,7 @@ occurred
 return
 null
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1365,7 +1365,7 @@ aData
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1499,7 +1499,7 @@ mPtr
 ;
 mPtr
 =
-nsnull
+nullptr
 ;
 return
 p
@@ -2025,7 +2025,7 @@ aSaneLength
 0
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -2529,7 +2529,7 @@ aProxy
 >
 mLoader
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2562,7 +2562,7 @@ aLength
 ;
 aFontData
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3013,7 +3013,7 @@ aProxyEntry
 nsString
 (
 )
-nsnull
+nullptr
 0
 )
 ;
@@ -3166,7 +3166,7 @@ PRUint8
 *
 buffer
 =
-nsnull
+nullptr
 ;
 PRUint32
 bufferLength
@@ -3633,14 +3633,14 @@ aFontData
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 gfxFontEntry
 *
 fe
 =
-nsnull
+nullptr
 ;
 gfxUserFontType
 fontType
@@ -4170,7 +4170,7 @@ platform
 }
 aFontData
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -4237,7 +4237,7 @@ aFontData
 ;
 aFontData
 =
-nsnull
+nullptr
 ;
 }
 if

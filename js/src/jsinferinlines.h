@@ -439,7 +439,7 @@ isJM
 script
 -
 >
-hasJITInfo
+hasMJITInfo
 (
 )
 )
@@ -2136,7 +2136,7 @@ co
 script
 -
 >
-hasJITInfo
+hasMJITInfo
 (
 )
 )

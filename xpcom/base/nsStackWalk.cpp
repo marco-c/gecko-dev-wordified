@@ -3904,7 +3904,7 @@ NS_IMAGEHLP_MODULE64_SIZE
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 aLineInfo
@@ -4131,7 +4131,7 @@ FALSE
 retval
 &
 &
-nsnull
+nullptr
 !
 =
 aLineInfo

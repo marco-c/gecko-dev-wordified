@@ -196,7 +196,7 @@ aContent
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /

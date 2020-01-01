@@ -692,13 +692,13 @@ nsIInputStream
 *
 aPostStream
 =
-nsnull
+nullptr
 const
 char
 *
 aHeadersData
 =
-nsnull
+nullptr
 PRUint32
 aHeadersDataLen
 =
@@ -981,7 +981,7 @@ aLibrary
 |
 if
 found
-nsnull
+nullptr
 if
 not
 .
@@ -1780,7 +1780,7 @@ npp
 ndata
 )
 :
-nsnull
+nullptr
 )
 {
 Init

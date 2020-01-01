@@ -782,7 +782,7 @@ getter_AddRefs
 (
 mByteData
 )
-nsnull
+nullptr
 STRING_BUFFER_SIZE
 )
 ;
@@ -804,7 +804,7 @@ getter_AddRefs
 (
 mUnicharData
 )
-nsnull
+nullptr
 STRING_BUFFER_SIZE
 )
 ;
@@ -854,15 +854,15 @@ Close
 {
 mInput
 =
-nsnull
+nullptr
 ;
 mByteData
 =
-nsnull
+nullptr
 ;
 mUnicharData
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1324,7 +1324,7 @@ aErrorCode
 {
 if
 (
-nsnull
+nullptr
 =
 =
 mInput
@@ -2093,7 +2093,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 /
 /

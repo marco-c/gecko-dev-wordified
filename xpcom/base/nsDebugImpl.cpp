@@ -585,7 +585,7 @@ NS_DebugBreak
 (
 NS_DEBUG_WARNING
 aStr
-nsnull
+nullptr
 aFile
 aLine
 )
@@ -611,8 +611,8 @@ aLine
 NS_DebugBreak
 (
 NS_DEBUG_BREAK
-nsnull
-nsnull
+nullptr
+nullptr
 aFile
 aLine
 )
@@ -638,8 +638,8 @@ aLine
 NS_DebugBreak
 (
 NS_DEBUG_ABORT
-nsnull
-nsnull
+nullptr
+nullptr
 aFile
 aLine
 )

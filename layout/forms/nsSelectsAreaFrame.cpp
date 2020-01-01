@@ -664,7 +664,7 @@ aBuilder
 nsDisplayOptionEventGrabber
 (
 aBuilder
-nsnull
+nullptr
 aList
 )
 ;
@@ -764,7 +764,7 @@ GetParent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 class

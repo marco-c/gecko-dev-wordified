@@ -457,7 +457,7 @@ nsListControlFrame
 :
 mFocused
 =
-nsnull
+nullptr
 ;
 nsString
 *
@@ -466,7 +466,7 @@ nsListControlFrame
 :
 sIncrementalString
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -989,7 +989,7 @@ NS_UNCONSTRAINEDSIZE
 {
 mComboboxFrame
 =
-nsnull
+nullptr
 ;
 mChangesSinceDragStart
 =
@@ -1093,7 +1093,7 @@ nsListControlFrame
 {
 mComboboxFrame
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1165,7 +1165,7 @@ mEventListener
 >
 SetFrame
 (
-nsnull
+nullptr
 )
 ;
 mContent
@@ -1633,7 +1633,7 @@ nsIFrame
 *
 childframe
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2043,7 +2043,7 @@ PresShell
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -4781,7 +4781,7 @@ content
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -6368,7 +6368,7 @@ nsIPresShell
 :
 SetCapturingContent
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -7384,7 +7384,7 @@ nsIContent
 *
 content
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -7403,7 +7403,7 @@ NS_ASSERTION
 optionElement
 !
 =
-nsnull
+nullptr
 "
 could
 not
@@ -7467,7 +7467,7 @@ get
 )
 !
 =
-nsnull
+nullptr
 "
 Collection
 of
@@ -7492,7 +7492,7 @@ aIndex
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -7513,7 +7513,7 @@ nsIDOMHTMLOptionsCollection
 *
 options
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -7617,7 +7617,7 @@ nsIDOMHTMLOptionElement
 *
 option
 =
-nsnull
+nullptr
 ;
 CallQueryInterface
 (
@@ -7651,7 +7651,7 @@ collection
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -7963,7 +7963,7 @@ else
 {
 mFocused
 =
-nsnull
+nullptr
 ;
 }
 InvalidateFocus
@@ -7997,7 +7997,7 @@ aComboboxFrame
 {
 if
 (
-nsnull
+nullptr
 !
 =
 aComboboxFrame
@@ -8473,7 +8473,7 @@ isDisabled
 {
 node
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -8489,7 +8489,7 @@ node
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -8518,7 +8518,7 @@ forget
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -8535,7 +8535,7 @@ return
 mComboboxFrame
 !
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -8552,7 +8552,7 @@ if
 mContent
 !
 =
-nsnull
+nullptr
 )
 {
 nsCOMPtr
@@ -11672,7 +11672,7 @@ NS_ASSERTION
 aMouseEvent
 !
 =
-nsnull
+nullptr
 "
 aMouseEvent
 is
@@ -12540,7 +12540,7 @@ EventStateManager
 >
 GetEventTargetContent
 (
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -12868,7 +12868,7 @@ NS_ASSERTION
 aMouseEvent
 !
 =
-nsnull
+nullptr
 "
 aMouseEvent
 is
@@ -13791,7 +13791,7 @@ kNothingSelected
 return
 ScrollToFrame
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -13850,7 +13850,7 @@ to
 0
 if
 (
-nsnull
+nullptr
 =
 =
 aOptElement
@@ -14704,7 +14704,7 @@ if
 sIncrementalString
 =
 =
-nsnull
+nullptr
 )
 sIncrementalString
 =
@@ -14731,7 +14731,7 @@ sIncrementalString
 ;
 sIncrementalString
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -15347,7 +15347,7 @@ if
 mComboboxFrame
 !
 =
-nsnull
+nullptr
 )
 {
 if

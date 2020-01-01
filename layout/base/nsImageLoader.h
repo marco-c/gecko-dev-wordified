@@ -447,7 +447,7 @@ aImage
 if
 aDamageRect
 is
-nsnull
+nullptr
 the
 whole
 frame

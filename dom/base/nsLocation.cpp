@@ -496,7 +496,7 @@ NS_OK
 *
 aContext
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -807,7 +807,7 @@ cx
 fp
 )
 return
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -824,7 +824,7 @@ if
 scope
 )
 return
-nsnull
+nullptr
 ;
 JSAutoEnterCompartment
 ac
@@ -841,7 +841,7 @@ scope
 )
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -867,7 +867,7 @@ if
 window
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -935,7 +935,7 @@ aLoadInfo
 *
 aLoadInfo
 =
-nsnull
+nullptr
 ;
 JSContext
 *
@@ -1541,7 +1541,7 @@ aGetInnermostURI
 *
 aURI
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1743,7 +1743,7 @@ aURI
 *
 aURI
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2920,7 +2920,7 @@ getter_AddRefs
 newUri
 )
 aHref
-nsnull
+nullptr
 aBase
 )
 ;
@@ -4729,7 +4729,7 @@ else
 *
 aDocument
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -4794,7 +4794,7 @@ else
 *
 sourceURL
 =
-nsnull
+nullptr
 ;
 }
 return

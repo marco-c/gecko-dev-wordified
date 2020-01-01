@@ -403,7 +403,7 @@ PRLogModuleInfo
 *
 gStorageLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -2184,11 +2184,11 @@ object
 .
 mConnection
 =
-nsnull
+nullptr
 ;
 mCallbackEvent
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2344,7 +2344,7 @@ do_GetCurrentThread
 )
 mDBConn
 (
-nsnull
+nullptr
 )
 mAsyncExecutionThreadShuttingDown
 (
@@ -2356,7 +2356,7 @@ false
 )
 mProgressHandler
 (
-nsnull
+nullptr
 )
 mFlags
 (
@@ -2623,7 +2623,7 @@ if
 mAsyncExecutionThreadShuttingDown
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -2665,7 +2665,7 @@ thread
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -2830,7 +2830,7 @@ SQLITE_OK
 {
 mDBConn
 =
-nsnull
+nullptr
 ;
 return
 convertResultCode
@@ -3197,7 +3197,7 @@ mDBConn
 ;
 mDBConn
 =
-nsnull
+nullptr
 ;
 return
 convertResultCode
@@ -3240,7 +3240,7 @@ mDBConn
 ;
 mDBConn
 =
-nsnull
+nullptr
 ;
 return
 convertResultCode
@@ -3285,7 +3285,7 @@ mDBConn
 ;
 mDBConn
 =
-nsnull
+nullptr
 ;
 return
 convertResultCode
@@ -7394,7 +7394,7 @@ aGranularity
 {
 aHandler
 =
-nsnull
+nullptr
 ;
 aGranularity
 =
@@ -7460,7 +7460,7 @@ mProgressHandler
 ;
 mProgressHandler
 =
-nsnull
+nullptr
 ;
 :
 :

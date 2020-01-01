@@ -4421,7 +4421,7 @@ gfxContextAutoSaveRestore
 :
 mContext
 (
-nsnull
+nullptr
 )
 {
 }
@@ -4658,7 +4658,7 @@ gfxContextPathAutoSaveRestore
 :
 mContext
 (
-nsnull
+nullptr
 )
 {
 }
@@ -4837,7 +4837,7 @@ mPath
 ;
 mPath
 =
-nsnull
+nullptr
 ;
 }
 }

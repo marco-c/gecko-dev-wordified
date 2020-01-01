@@ -253,7 +253,7 @@ Clone
 (
 )
 :
-nsnull
+nullptr
 )
 mImportantData
 (
@@ -270,7 +270,7 @@ Clone
 (
 )
 :
-nsnull
+nullptr
 )
 mImmutable
 (
@@ -6098,7 +6098,7 @@ aProperty
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES

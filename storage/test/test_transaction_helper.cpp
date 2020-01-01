@@ -1009,7 +1009,7 @@ crashing
 mozStorageTransaction
 transaction
 (
-nsnull
+nullptr
 false
 )
 ;

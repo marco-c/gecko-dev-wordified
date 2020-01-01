@@ -2230,7 +2230,7 @@ mProgressSink
 OnStatus
 (
 this
-nsnull
+nullptr
 status
 NS_ConvertUTF8toUTF16
 (
@@ -2273,7 +2273,7 @@ mProgressSink
 OnProgress
 (
 this
-nsnull
+nullptr
 progress
 progressMax
 )
@@ -2664,7 +2664,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 mStatus
 )
 ;
@@ -3018,7 +3018,7 @@ mProgressSink
 OnProgress
 (
 this
-nsnull
+nullptr
 progress
 progressMax
 )
@@ -3265,7 +3265,7 @@ mProgressSink
 OnStatus
 (
 this
-nsnull
+nullptr
 status
 NS_ConvertUTF8toUTF16
 (
@@ -4231,7 +4231,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 NS_BINDING_ABORTED
 )
 ;
@@ -4264,7 +4264,7 @@ channel
 .
 mRedirectChannelChild
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -4451,7 +4451,7 @@ TabChild
 *
 tabChild
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4704,7 +4704,7 @@ mLoadGroup
 AddRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 /
@@ -5710,7 +5710,7 @@ NS_ENSURE_TRUE
 gNeckoChild
 !
 =
-nsnull
+nullptr
 NS_ERROR_FAILURE
 )
 ;
@@ -5883,7 +5883,7 @@ mLoadGroup
 AddRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 if
@@ -6166,7 +6166,7 @@ TabChild
 *
 tabChild
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -8138,7 +8138,7 @@ aApplicationCache
 *
 aApplicationCache
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

@@ -6904,7 +6904,7 @@ char
 *
 entityText
 =
-nsnull
+nullptr
 ;
 advanceLength
 =

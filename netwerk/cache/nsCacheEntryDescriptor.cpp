@@ -183,7 +183,7 @@ accessGranted
 )
 mOutput
 (
-nsnull
+nullptr
 )
 {
 PR_INIT_CLIST
@@ -432,7 +432,7 @@ deviceID
 *
 aDeviceID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1308,7 +1308,7 @@ nsInputStreamWrapper
 *
 cacheInput
 =
-nsnull
+nullptr
 ;
 const
 char
@@ -1451,7 +1451,7 @@ nsOutputStreamWrapper
 *
 cacheOutput
 =
-nsnull
+nullptr
 ;
 PRInt32
 compressionLevel
@@ -1534,7 +1534,7 @@ uncompressed
 -
 len
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -2217,7 +2217,7 @@ NS_ASSERTION
 mCacheEntry
 =
 =
-nsnull
+nullptr
 "
 mCacheEntry
 not
@@ -2253,7 +2253,7 @@ key
 *
 result
 =
-nsnull
+nullptr
 ;
 nsCacheServiceAutoLock
 lock
@@ -4088,7 +4088,7 @@ NS_ASSERTION
 mOutput
 =
 =
-nsnull
+nullptr
 "
 mOutput
 set

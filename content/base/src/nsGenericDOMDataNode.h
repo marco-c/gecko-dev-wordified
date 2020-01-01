@@ -409,7 +409,7 @@ aAttributes
 *
 aAttributes
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -548,7 +548,7 @@ return
 InsertBefore
 (
 aNewChild
-nsnull
+nullptr
 aReturn
 )
 ;
@@ -849,7 +849,7 @@ subtree
 OwnerDoc
 (
 )
-nsnull
+nullptr
 )
 ;
 return
@@ -949,7 +949,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -1425,7 +1425,7 @@ AsElement
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -1527,7 +1527,7 @@ nsSlots
 )
 mBindingParent
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1685,7 +1685,7 @@ Details
 *
 aDetails
 =
-nsnull
+nullptr
 )
 ;
 /

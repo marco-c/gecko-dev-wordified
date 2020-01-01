@@ -537,7 +537,7 @@ DOCUMENT_TYPE_NODE
 _extraName
 !
 =
-nsnull
+nullptr
 )
 \
 "

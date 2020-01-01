@@ -282,7 +282,7 @@ tmp
 mListIndex
 )
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
@@ -416,7 +416,7 @@ DOMSVGPathSeg
 :
 mList
 (
-nsnull
+nullptr
 )
 mListIndex
 (
@@ -597,7 +597,7 @@ float
 ;
 mList
 =
-nsnull
+nullptr
 ;
 mIsAnimValItem
 =
@@ -5008,7 +5008,7 @@ type
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }

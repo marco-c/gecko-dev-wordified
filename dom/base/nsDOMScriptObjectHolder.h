@@ -232,7 +232,7 @@ T
 *
 aObject
 =
-nsnull
+nullptr
 )
 :
 mObject
@@ -444,7 +444,7 @@ mObject
 ;
 mObject
 =
-nsnull
+nullptr
 ;
 }
 return

@@ -174,7 +174,7 @@ aContent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -417,7 +417,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -505,7 +505,7 @@ GetFormElement
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 virtual

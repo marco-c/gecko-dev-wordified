@@ -820,7 +820,7 @@ nsIContent
 *
 aContent
 =
-nsnull
+nullptr
 )
 ;
 nsresult

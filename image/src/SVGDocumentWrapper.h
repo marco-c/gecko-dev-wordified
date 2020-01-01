@@ -383,7 +383,7 @@ the
 wrapped
 document
 or
-nsnull
+nullptr
 on
 *
 failure
@@ -410,7 +410,7 @@ the
 wrapped
 document
 or
-nsnull
+nullptr
 on
 failure
 .
@@ -426,7 +426,7 @@ the
 wrapped
 document
 or
-nsnull
+nullptr
 on
 failure
 .

@@ -921,7 +921,7 @@ aStyle
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -982,7 +982,7 @@ cur
 >
 mNext
 =
-nsnull
+nullptr
 ;
 delete
 cur
@@ -1367,7 +1367,7 @@ Destroy
 ;
 mRootFrame
 =
-nsnull
+nullptr
 ;
 }
 delete
@@ -1375,11 +1375,11 @@ mUndisplayedMap
 ;
 mUndisplayedMap
 =
-nsnull
+nullptr
 ;
 mPresShell
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1532,7 +1532,7 @@ placeholderFrame
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -1594,7 +1594,7 @@ PL_DHashTableInit
 mPlaceholderMap
 &
 PlaceholderMapOps
-nsnull
+nullptr
 sizeof
 (
 PlaceholderMapEntry
@@ -1607,7 +1607,7 @@ mPlaceholderMap
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1782,7 +1782,7 @@ placeholderFrame
 >
 SetOutOfFlowFrame
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -1809,7 +1809,7 @@ PL_DHashTableEnumerate
 &
 mPlaceholderMap
 UnregisterPlaceholders
-nsnull
+nullptr
 )
 ;
 PL_DHashTableFinish
@@ -1822,7 +1822,7 @@ mPlaceholderMap
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1920,7 +1920,7 @@ aContent
 mUndisplayedMap
 )
 return
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -1975,7 +1975,7 @@ mStyle
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -2425,7 +2425,7 @@ NS_ASSERTION
 context
 =
 =
-nsnull
+nullptr
 "
 Found
 more
@@ -3823,7 +3823,7 @@ stdout
 ;
 DumpContext
 (
-nsnull
+nullptr
 actualParentContext
 )
 ;
@@ -3840,7 +3840,7 @@ stdout
 ;
 DumpContext
 (
-nsnull
+nullptr
 aParentContext
 )
 ;
@@ -3901,7 +3901,7 @@ stdout
 ;
 DumpContext
 (
-nsnull
+nullptr
 actualParentContext
 )
 ;
@@ -4097,7 +4097,7 @@ VerifyContextParent
 aPresContext
 aFrame
 context
-nsnull
+nullptr
 )
 ;
 nsIFrame
@@ -4260,7 +4260,7 @@ VerifyStyleTree
 (
 aPresContext
 outOfFlowFrame
-nsnull
+nullptr
 )
 ;
 }
@@ -4298,8 +4298,8 @@ VerifyContextParent
 (
 aPresContext
 child
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -4313,7 +4313,7 @@ VerifyStyleTree
 (
 aPresContext
 child
-nsnull
+nullptr
 )
 ;
 }
@@ -4757,7 +4757,7 @@ ePseudo_AnonBox
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -5309,13 +5309,13 @@ nsStyleContext
 *
 newParentContext
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
 providerChild
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5775,7 +5775,7 @@ GetContent
 (
 )
 :
-nsnull
+nullptr
 aFrame
 oldContext
 -
@@ -6384,7 +6384,7 @@ ReparentStyleContext
 (
 oldExtraContext
 newContext
-nsnull
+nullptr
 )
 ;
 if
@@ -7557,7 +7557,7 @@ nsIFrame
 *
 resolvedChild
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -7632,7 +7632,7 @@ GetStyleContext
 else
 parentContext
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -9008,7 +9008,7 @@ nsStyleContext
 *
 oldExtraContext
 =
-nsnull
+nullptr
 ;
 oldExtraContext
 =
@@ -9289,7 +9289,7 @@ GetDocElementContainingBlock
 ;
 undisplayedParent
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -9346,7 +9346,7 @@ AsElement
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 undisplayed
@@ -9571,7 +9571,7 @@ aChangeList
 >
 AppendChange
 (
-nsnull
+nullptr
 undisplayed
 -
 >
@@ -10561,7 +10561,7 @@ AsElement
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 !
@@ -11426,7 +11426,7 @@ GetParent
 (
 )
 :
-nsnull
+nullptr
 ;
 Element
 *
@@ -11449,7 +11449,7 @@ AsElement
 (
 )
 :
-nsnull
+nullptr
 ;
 treeMatchContext
 .
@@ -11501,7 +11501,7 @@ GetPresContext
 (
 )
 frame
-nsnull
+nullptr
 aChangeList
 topLevelChange
 aRestyleDescendants
@@ -11865,7 +11865,7 @@ GetCurrentDoc
 (
 )
 :
-nsnull
+nullptr
 ;
 rv
 =
@@ -11953,13 +11953,13 @@ aState
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aFrame
 &
 &
-nsnull
+nullptr
 !
 =
 aState
@@ -12447,13 +12447,13 @@ aState
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aFrame
 &
 &
-nsnull
+nullptr
 !
 =
 aState
@@ -12768,14 +12768,14 @@ CompareKeys
 (
 PLHashComparator
 )
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 mLastLookup
 =
-nsnull
+nullptr
 ;
 }
 nsFrameManagerBase
@@ -12930,7 +12930,7 @@ value
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -13090,7 +13090,7 @@ aNode
 ;
 mLastLookup
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -13241,7 +13241,7 @@ aNode
 >
 mNext
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -13256,7 +13256,7 @@ entry
 ;
 mLastLookup
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -13325,7 +13325,7 @@ aNode
 >
 mNext
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -13432,7 +13432,7 @@ entry
 ;
 mLastLookup
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -13509,7 +13509,7 @@ void
 {
 mLastLookup
 =
-nsnull
+nullptr
 ;
 PL_HashTableEnumerateEntries
 (

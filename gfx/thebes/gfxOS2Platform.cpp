@@ -277,7 +277,7 @@ gfxOS2Platform
 :
 sFontconfigUtils
 =
-nsnull
+nullptr
 ;
 gfxOS2Platform
 :
@@ -411,7 +411,7 @@ Shutdown
 ;
 sFontconfigUtils
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -502,7 +502,7 @@ gfxASurface
 *
 newSurface
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -597,7 +597,7 @@ contentType
 else
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_IF_ADDREF
@@ -988,7 +988,7 @@ aCh
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1285,6 +1285,6 @@ aCh
 )
 ;
 return
-nsnull
+nullptr
 ;
 }

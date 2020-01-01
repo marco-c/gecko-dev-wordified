@@ -1171,7 +1171,7 @@ ShouldDescendIntoFrame
 f
 )
 ?
-nsnull
+nullptr
 :
 f
 -
@@ -1418,7 +1418,7 @@ nsDisplayTableItem
 *
 item
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1539,7 +1539,7 @@ skip
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 GetPrevInFlow
@@ -1558,7 +1558,7 @@ NS_SIDE_TOP
 }
 if
 (
-nsnull
+nullptr
 !
 =
 GetNextInFlow
@@ -1664,7 +1664,7 @@ FinishReflowChild
 (
 aKidFrame
 aPresContext
-nsnull
+nullptr
 aDesiredSize
 0
 aReflowState
@@ -1770,7 +1770,7 @@ nsMargin
 *
 pCollapseBorder
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2039,7 +2039,7 @@ nsIFrame
 *
 prevKidFrame
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -2993,7 +2993,7 @@ rowFrame
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 struct
@@ -3494,7 +3494,7 @@ nscoord
 *
 rowHeights
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6081,7 +6081,7 @@ rv
 *
 aContRowFrame
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -6101,7 +6101,7 @@ mFrames
 .
 InsertFrame
 (
-nsnull
+nullptr
 &
 aRowFrame
 *
@@ -6230,7 +6230,7 @@ heights
 ;
 aFirstTruncatedRow
 =
-nsnull
+nullptr
 ;
 aDesiredHeight
 =
@@ -6769,7 +6769,7 @@ nsTableCellFrame
 *
 contCell
 =
-nsnull
+nullptr
 ;
 aPresContext
 .
@@ -7103,7 +7103,7 @@ mFrames
 .
 InsertFrames
 (
-nsnull
+nullptr
 rowBefore
 *
 overflows
@@ -7127,7 +7127,7 @@ nsTableRowFrame
 *
 rowBefore
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -7219,7 +7219,7 @@ nsTableRowFrame
 *
 prevRowFrame
 =
-nsnull
+nullptr
 ;
 aDesiredSize
 .
@@ -7436,7 +7436,7 @@ nsTableRowFrame
 *
 contRow
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -7691,7 +7691,7 @@ rowFrame
 DidReflow
 (
 aPresContext
-nsnull
+nullptr
 NS_FRAME_REFLOW_FINISHED
 )
 ;
@@ -8435,7 +8435,7 @@ contRow
 ;
 contRow
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -8499,7 +8499,7 @@ contRow
 ;
 contRow
 =
-nsnull
+nullptr
 ;
 nsTableRowFrame
 *
@@ -8590,7 +8590,7 @@ contRow
 ;
 contRow
 =
-nsnull
+nullptr
 ;
 lastRowThisPage
 =
@@ -8673,7 +8673,7 @@ contRow
 ;
 contRow
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -9682,7 +9682,7 @@ mFrames
 .
 AppendFrames
 (
-nsnull
+nullptr
 aFrameList
 )
 ;
@@ -10006,7 +10006,7 @@ mFrames
 .
 InsertFrames
 (
-nsnull
+nullptr
 aPrevFrame
 aFrameList
 )
@@ -10870,13 +10870,13 @@ nsTableRowFrame
 *
 firstRowFrame
 =
-nsnull
+nullptr
 ;
 nsTableRowFrame
 *
 lastRowFrame
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -11142,7 +11142,7 @@ aLineFlags
 *
 aFirstFrameOnLine
 =
-nsnull
+nullptr
 ;
 *
 aNumFramesOnLine
@@ -11421,12 +11421,12 @@ false
 *
 aFirstVisual
 =
-nsnull
+nullptr
 ;
 *
 aLastVisual
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -11485,7 +11485,7 @@ GetCellMap
 *
 aFrameFound
 =
-nsnull
+nullptr
 ;
 *
 aXIsBeforeFirstFrame
@@ -11531,7 +11531,7 @@ nsIFrame
 *
 frame
 =
-nsnull
+nullptr
 ;
 PRInt32
 colCount
@@ -11634,13 +11634,13 @@ nsIFrame
 *
 closestFromLeft
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
 closestFromRight
 =
-nsnull
+nullptr
 ;
 PRInt32
 n
@@ -12098,7 +12098,7 @@ rebuilding
 it
 .
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -12161,7 +12161,7 @@ don
 t
 bother
 return
-nsnull
+nullptr
 ;
 }
 FrameCursorData
@@ -12179,7 +12179,7 @@ if
 data
 )
 return
-nsnull
+nullptr
 ;
 Properties
 (
@@ -12228,7 +12228,7 @@ NS_ROWGROUP_HAS_ROW_CURSOR
 )
 )
 return
-nsnull
+nullptr
 ;
 FrameCursorData
 *
@@ -12280,7 +12280,7 @@ cursorIndex
 frameCount
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -12591,6 +12591,6 @@ aFrame
 )
 !
 =
-nsnull
+nullptr
 ;
 }

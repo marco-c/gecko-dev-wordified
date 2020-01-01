@@ -266,8 +266,8 @@ event
 new
 nsDOMEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 )
 ;
@@ -301,7 +301,7 @@ false
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 rv
@@ -317,7 +317,7 @@ true
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -378,7 +378,7 @@ false
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 rv
@@ -394,7 +394,7 @@ true
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 event
@@ -468,7 +468,7 @@ aNewVersion
 NS_ENSURE_TRUE
 (
 event
-nsnull
+nullptr
 )
 ;
 nsCOMPtr

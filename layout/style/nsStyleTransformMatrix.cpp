@@ -3991,7 +3991,7 @@ aList
 curr
 !
 =
-nsnull
+nullptr
 ;
 curr
 =

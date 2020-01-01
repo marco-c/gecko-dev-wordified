@@ -259,7 +259,7 @@ nsStandardURL
 :
 gIDN
 =
-nsnull
+nullptr
 ;
 nsICharsetConverterManager
 *
@@ -268,7 +268,7 @@ nsStandardURL
 :
 gCharsetMgr
 =
-nsnull
+nullptr
 ;
 bool
 nsStandardURL
@@ -1846,7 +1846,7 @@ name
 (
 useUTF8
 ?
-nsnull
+nullptr
 :
 mOriginCharset
 .
@@ -2070,7 +2070,7 @@ mPort
 )
 mHostA
 (
-nsnull
+nullptr
 )
 mHostEncoding
 (
@@ -2411,7 +2411,7 @@ false
 PrefsChanged
 (
 prefBranch
-nsnull
+nullptr
 )
 ;
 }
@@ -6438,7 +6438,7 @@ p
 pref
 =
 =
-nsnull
+nullptr
 )
 |
 |
@@ -11767,7 +11767,7 @@ strdup
 mHostA
 )
 :
-nsnull
+nullptr
 ;
 clone
 -
@@ -11924,7 +11924,7 @@ char
 *
 result
 =
-nsnull
+nullptr
 ;
 LOG
 (
@@ -12044,7 +12044,7 @@ char
 *
 resultPath
 =
-nsnull
+nullptr
 ;
 bool
 relative
@@ -12109,10 +12109,10 @@ mPos
 scheme
 .
 mLen
-nsnull
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
+nullptr
 )
 ;
 /
@@ -16803,8 +16803,8 @@ Init
 mURLType
 mDefaultPort
 url
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 /
@@ -17236,7 +17236,7 @@ if
 charset
 =
 =
-nsnull
+nullptr
 |
 |
 *
@@ -17420,7 +17420,7 @@ spec
 start
 &
 end
-nsnull
+nullptr
 )
 ;
 if
@@ -17516,7 +17516,7 @@ slash
 )
 baseURI
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -19940,7 +19940,7 @@ count
 *
 array
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -19963,7 +19963,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -19984,7 +19984,7 @@ aContractID
 *
 aContractID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -20005,7 +20005,7 @@ aClassDescription
 *
 aClassDescription
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

@@ -655,7 +655,7 @@ aPrintSession
 *
 aPrintSession
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1109,7 +1109,7 @@ else
 *
 aColorspace
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1201,7 +1201,7 @@ else
 *
 aResolutionName
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -2906,7 +2906,7 @@ else
 *
 aTitle
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -2998,7 +2998,7 @@ else
 *
 aDocURL
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -3380,7 +3380,7 @@ aTitle
 *
 aTitle
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4252,7 +4252,7 @@ else
 *
 aPaperName
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -4344,7 +4344,7 @@ else
 *
 aPlexName
 =
-nsnull
+nullptr
 ;
 }
 return

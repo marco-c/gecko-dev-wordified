@@ -225,7 +225,7 @@ nsIDOMSVGTextPathElement
 TEXTPATH_METHODTYPE_STRETCH
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -262,7 +262,7 @@ nsIDOMSVGTextPathElement
 TEXTPATH_SPACINGTYPE_EXACT
 }
 {
-nsnull
+nullptr
 0
 }
 }

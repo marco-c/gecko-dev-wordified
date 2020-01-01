@@ -375,7 +375,7 @@ then
 aFirstFrameOnLine
 will
 be
-nsnull
+nullptr
 and
 aNumFramesOnLine
 will
@@ -717,7 +717,7 @@ nsAutoLineIterator
 :
 mRawPtr
 (
-nsnull
+nullptr
 )
 {
 }

@@ -327,7 +327,7 @@ nsIMemory
 *
 segmentAlloc
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -2092,7 +2092,7 @@ if
 pump
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2141,7 +2141,7 @@ if
 receiver
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY

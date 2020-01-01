@@ -1927,7 +1927,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 \
 \
@@ -2044,7 +2044,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 \
 \

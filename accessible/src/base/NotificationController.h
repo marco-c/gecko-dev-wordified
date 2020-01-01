@@ -321,7 +321,7 @@ TNotification
 {
 mInstance
 =
-nsnull
+nullptr
 ;
 }
 virtual
@@ -343,15 +343,15 @@ mArg
 ;
 mInstance
 =
-nsnull
+nullptr
 ;
 mCallback
 =
-nsnull
+nullptr
 ;
 mArg
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -1363,7 +1363,7 @@ ContentInsertion
 {
 mDocument
 =
-nsnull
+nullptr
 ;
 }
 NS_INLINE_DECL_REFCOUNTING

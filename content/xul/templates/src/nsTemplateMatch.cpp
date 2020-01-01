@@ -200,7 +200,7 @@ aMatch
 ;
 aMatch
 =
-nsnull
+nullptr
 ;
 }
 nsresult

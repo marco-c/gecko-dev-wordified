@@ -204,7 +204,7 @@ nsIThread
 *
 gCreatedThreadList
 =
-nsnull
+nullptr
 ;
 static
 nsIThread
@@ -212,14 +212,14 @@ nsIThread
 *
 gShutDownThreadList
 =
-nsnull
+nullptr
 ;
 static
 ReentrantMonitor
 *
 gReentrantMonitor
 =
-nsnull
+nullptr
 ;
 static
 bool
@@ -661,7 +661,7 @@ mReentrantMonitorPtr
 *
 mReentrantMonitorPtr
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -711,7 +711,7 @@ NUMBER_OF_THREADS
 ]
 =
 {
-nsnull
+nullptr
 }
 ;
 gCreatedThreadList
@@ -726,7 +726,7 @@ NUMBER_OF_THREADS
 ]
 =
 {
-nsnull
+nullptr
 }
 ;
 gShutDownThreadList

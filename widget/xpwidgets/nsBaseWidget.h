@@ -640,7 +640,7 @@ PLayersChild
 *
 aShadowManager
 =
-nsnull
+nullptr
 LayersBackend
 aBackendHint
 =
@@ -659,7 +659,7 @@ bool
 *
 aAllowRetaining
 =
-nsnull
+nullptr
 )
 ;
 virtual
@@ -1091,7 +1091,7 @@ nsWidgetInitData
 *
 aInitData
 =
-nsnull
+nullptr
 bool
 aForceUseIWidgetParent
 =

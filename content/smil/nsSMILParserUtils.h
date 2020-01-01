@@ -496,7 +496,7 @@ can
 be
 set
 to
-nsnull
+nullptr
 if
 the
 *
@@ -675,7 +675,7 @@ bool
 *
 aIsMedia
 =
-nsnull
+nullptr
 )
 ;
 /

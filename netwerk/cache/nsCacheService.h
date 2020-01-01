@@ -799,7 +799,7 @@ nsIEventTarget
 *
 target
 =
-nsnull
+nullptr
 )
 ;
 static

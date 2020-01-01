@@ -391,7 +391,7 @@ nsSVGViewBoxRect
 ;
 mAnimVal
 =
-nsnull
+nullptr
 ;
 mHasBaseVal
 =
@@ -1535,7 +1535,7 @@ mVal
 >
 mAnimVal
 =
-nsnull
+nullptr
 ;
 mSVGElement
 -

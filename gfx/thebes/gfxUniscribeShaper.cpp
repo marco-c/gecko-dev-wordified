@@ -388,7 +388,7 @@ aLength
 )
 mAlternativeString
 (
-nsnull
+nullptr
 )
 mScriptItem
 (
@@ -538,7 +538,7 @@ rv
 HDC
 shapeDC
 =
-nsnull
+nullptr
 ;
 const
 PRUnichar
@@ -1172,7 +1172,7 @@ mAlternativeString
 ;
 mAlternativeString
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1212,7 +1212,7 @@ rv
 HDC
 placeDC
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1538,7 +1538,7 @@ SetGlyphs
 (
 runOffset
 g
-nsnull
+nullptr
 )
 ;
 }

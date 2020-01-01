@@ -709,7 +709,7 @@ get
 the
 value
 returning
-nsnull
+nullptr
 if
 the
 entry
@@ -735,7 +735,7 @@ The
 found
 value
 or
-nsnull
+nullptr
 if
 no
 entry
@@ -749,7 +749,7 @@ key
 *
 note
 If
-nsnull
+nullptr
 values
 are
 stored
@@ -765,7 +765,7 @@ to
 distinguish
 between
 a
-nsnull
+nullptr
 value
 and
 a
@@ -1443,7 +1443,7 @@ sizeOfEntryExcludingThis
 is
 non
 -
-nsnull
+nullptr
 measure
 the
 size
@@ -1532,7 +1532,7 @@ void
 *
 userArg
 =
-nsnull
+nullptr
 )
 {
 return
@@ -1575,7 +1575,7 @@ sizeOfEntryExcludingThis
 is
 non
 -
-nsnull
+nullptr
 measure
 the
 size
@@ -1657,7 +1657,7 @@ void
 *
 userArg
 =
-nsnull
+nullptr
 )
 const
 {
@@ -1939,7 +1939,7 @@ nsBaseHashtableMT
 :
 mLock
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1967,7 +1967,7 @@ return
 mLock
 !
 =
-nsnull
+nullptr
 ;
 }
 PRUint32

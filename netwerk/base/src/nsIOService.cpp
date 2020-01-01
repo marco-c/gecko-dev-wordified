@@ -510,7 +510,7 @@ nsIOService
 *
 gIOService
 =
-nsnull
+nullptr
 ;
 static
 bool
@@ -1434,7 +1434,7 @@ nsIOService
 {
 gIOService
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -1701,7 +1701,7 @@ if
 gIOService
 )
 return
-nsnull
+nullptr
 ;
 NS_ADDREF
 (
@@ -1732,7 +1732,7 @@ gIOService
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2616,8 +2616,8 @@ result
 NewURI
 (
 spec
-nsnull
-nsnull
+nullptr
+nullptr
 &
 uri
 )
@@ -2770,8 +2770,8 @@ result
 NewURI
 (
 spec
-nsnull
-nsnull
+nullptr
+nullptr
 &
 uri
 )
@@ -2914,8 +2914,8 @@ return
 net_ExtractURLScheme
 (
 inURI
-nsnull
-nsnull
+nullptr
+nullptr
 &
 scheme
 )
@@ -3291,7 +3291,7 @@ return
 NewChannelFromURIWithProxyFlags
 (
 aURI
-nsnull
+nullptr
 0
 result
 )
@@ -3393,7 +3393,7 @@ rv
 )
 pi
 =
-nsnull
+nullptr
 ;
 }
 pi
@@ -4183,7 +4183,7 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 NS_IPC_IOSERVICE_SET_OFFLINE_TOPIC
 offline
 ?
@@ -5503,7 +5503,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 CallGetService
 (
@@ -5781,7 +5781,7 @@ reference
 .
 mProxyService
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -6117,7 +6117,7 @@ uri
 *
 result
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -6928,7 +6928,7 @@ pi
 LookupProxyInfo
 (
 aURI
-nsnull
+nullptr
 0
 &
 scheme

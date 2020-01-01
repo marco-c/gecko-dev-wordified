@@ -492,7 +492,7 @@ use
 <
 CODE
 >
-nsnull
+nullptr
 <
 /
 CODE
@@ -539,7 +539,7 @@ use
 <
 CODE
 >
-nsnull
+nullptr
 <
 /
 CODE

@@ -1074,7 +1074,7 @@ nsIContentSink
 *
 aSink
 =
-nsnull
+nullptr
 )
 =
 0
@@ -1396,7 +1396,7 @@ nsILoadGroup
 *
 group
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2556,7 +2556,7 @@ GetBFCacheEntry
 (
 )
 ?
-nsnull
+nullptr
 :
 mPresShell
 ;
@@ -2862,7 +2862,7 @@ tag
 /
 /
 or
-nsnull
+nullptr
 if
 that
 doesn
@@ -4014,7 +4014,7 @@ GetOuterWindow
 (
 )
 :
-nsnull
+nullptr
 ;
 return
 outer
@@ -5366,7 +5366,7 @@ nsISupports
 *
 container
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5442,7 +5442,7 @@ loadContext
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -9116,7 +9116,7 @@ scContainer
 ;
 mStateObjectCached
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -10498,7 +10498,7 @@ aType
 {
 mCachedEncoder
 =
-nsnull
+nullptr
 ;
 mContentType
 =
@@ -11884,7 +11884,7 @@ event
 *
 Can
 be
-nsnull
+nullptr
 in
 which
 case
@@ -11924,8 +11924,8 @@ mozAutoSubtreeModified
 {
 UpdateTarget
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -12262,7 +12262,7 @@ this
 ?
 ownerDoc
 :
-nsnull
+nullptr
 ;
 }
 inline

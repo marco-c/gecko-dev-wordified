@@ -545,7 +545,7 @@ otherwise
 .
 May
 be
-nsnull
+nullptr
 .
 *
 Not

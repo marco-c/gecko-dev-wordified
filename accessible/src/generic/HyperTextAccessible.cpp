@@ -491,7 +491,7 @@ aInstancePtr
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1678,14 +1678,14 @@ endOffset
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
 *
 startFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1695,7 +1695,7 @@ aEndFrame
 *
 aEndFrame
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1718,7 +1718,7 @@ aStartAcc
 *
 aStartAcc
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1727,7 +1727,7 @@ aEndAcc
 *
 aEndAcc
 =
-nsnull
+nullptr
 ;
 nsIntRect
 unionRect
@@ -1736,7 +1736,7 @@ Accessible
 *
 lastAccessible
 =
-nsnull
+nullptr
 ;
 gfxSkipChars
 skipChars
@@ -1904,7 +1904,7 @@ frame
 >
 GetRenderedText
 (
-nsnull
+nullptr
 &
 skipChars
 &
@@ -3054,7 +3054,7 @@ if
 aHyperTextOffset
 )
 return
-nsnull
+nullptr
 ;
 *
 aHyperTextOffset
@@ -3067,7 +3067,7 @@ if
 aNode
 )
 return
-nsnull
+nullptr
 ;
 PRUint32
 addTextOffset
@@ -3078,7 +3078,7 @@ nsINode
 *
 findNode
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3178,7 +3178,7 @@ GetPrimaryFrame
 NS_ENSURE_TRUE
 (
 frame
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -3195,7 +3195,7 @@ addTextOffset
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 /
@@ -3378,7 +3378,7 @@ aHyperTextOffset
 0
 ;
 return
-nsnull
+nullptr
 ;
 }
 findNode
@@ -3437,7 +3437,7 @@ Accessible
 *
 descendantAcc
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3532,7 +3532,7 @@ aHyperTextOffset
 0
 ;
 return
-nsnull
+nullptr
 ;
 }
 descendantAcc
@@ -3562,7 +3562,7 @@ Accessible
 *
 childAccAtOffset
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -3889,7 +3889,7 @@ Accessible
 *
 childAcc
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -3964,7 +3964,7 @@ and
 childAcc
 !
 =
-nsnull
+nullptr
 "
 )
 ;
@@ -4012,7 +4012,7 @@ childAccAtOffset
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -4183,11 +4183,11 @@ nsIFrame
 *
 startFrame
 =
-nsnull
+nullptr
 *
 endFrame
 =
-nsnull
+nullptr
 ;
 startFrame
 =
@@ -4195,10 +4195,10 @@ GetPosAndText
 (
 startOffset
 endOffset
-nsnull
+nullptr
 &
 endFrame
-nsnull
+nullptr
 getter_AddRefs
 (
 startAcc
@@ -4682,7 +4682,7 @@ return
 If
 finalAccessible
 is
-nsnull
+nullptr
 then
 DOMPointToHypertextOffset
 (
@@ -4789,7 +4789,7 @@ mChildren
 SafeElementAt
 (
 0
-nsnull
+nullptr
 )
 ;
 /
@@ -5622,7 +5622,7 @@ false
 aOffset
 aStartOffset
 aEndOffset
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5706,9 +5706,9 @@ GetPosAndText
 (
 startOffset
 endOffset
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 getter_AddRefs
 (
 startAcc
@@ -5980,9 +5980,9 @@ GetPosAndText
 (
 startOffset
 endOffset
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 getter_AddRefs
 (
 endAcc
@@ -6066,9 +6066,9 @@ GetPosAndText
 (
 startOffset
 endOffset
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 getter_AddRefs
 (
 endAcc
@@ -6639,7 +6639,7 @@ aAttributes
 *
 aAttributes
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -6892,7 +6892,7 @@ aAttributes
 *
 aAttributes
 :
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6945,7 +6945,7 @@ aAttributes
 *
 aAttributes
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7643,7 +7643,7 @@ GetPosAndText
 (
 aStartOffset
 aEndOffset
-nsnull
+nullptr
 &
 endFrameUnused
 &
@@ -8399,7 +8399,7 @@ aLink
 *
 aLink
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -9054,7 +9054,7 @@ Parent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -9089,7 +9089,7 @@ if
 editingSession
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -9471,7 +9471,7 @@ DOMFocusManager
 MoveFocus
 (
 window
-nsnull
+nullptr
 nsIFocusManager
 :
 :
@@ -10039,7 +10039,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 while
 (
@@ -10299,7 +10299,7 @@ GetFrameSelection
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -12181,7 +12181,7 @@ GetPrevContinuation
 )
 =
 =
-nsnull
+nullptr
 "
 Call
 on
@@ -12223,7 +12223,7 @@ aFrame
 >
 GetRenderedText
 (
-nsnull
+nullptr
 &
 skipChars
 &
@@ -12335,7 +12335,7 @@ GetPrevContinuation
 )
 =
 =
-nsnull
+nullptr
 "
 Call
 on
@@ -12381,7 +12381,7 @@ aFrame
 >
 GetRenderedText
 (
-nsnull
+nullptr
 &
 skipChars
 &
@@ -13377,7 +13377,7 @@ nsINode
 *
 node
 =
-nsnull
+nullptr
 ;
 PRInt32
 nodeOffset

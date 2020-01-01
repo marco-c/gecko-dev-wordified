@@ -403,8 +403,8 @@ nsDependentCString
 (
 i_pURL
 )
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 pURL
@@ -1567,7 +1567,7 @@ makeAbsTest
 (
 i_URL
 i_relativePortion
-nsnull
+nullptr
 )
 ;
 }
@@ -4273,8 +4273,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 /
@@ -4613,7 +4613,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

@@ -123,6 +123,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 gtk
 /
@@ -220,6 +229,7 @@ editor
 "
 class
 nsNativeKeyBindings
+MOZ_FINAL
 :
 public
 nsINativeKeyBindings

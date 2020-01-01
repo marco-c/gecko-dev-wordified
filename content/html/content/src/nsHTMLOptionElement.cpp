@@ -387,7 +387,7 @@ GetDocumentFromCaller
 NS_ENSURE_TRUE
 (
 doc
-nsnull
+nullptr
 )
 ;
 nodeInfo
@@ -406,7 +406,7 @@ nsGkAtoms
 :
 :
 option
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -417,7 +417,7 @@ ELEMENT_NODE
 NS_ENSURE_TRUE
 (
 nodeInfo
-nsnull
+nullptr
 )
 ;
 }
@@ -550,7 +550,7 @@ aForm
 *
 aForm
 =
-nsnull
+nullptr
 ;
 nsHTMLSelectElement
 *
@@ -731,7 +731,7 @@ aValue
 false
 true
 true
-nsnull
+nullptr
 )
 ;
 }
@@ -1183,7 +1183,7 @@ newSelected
 aValue
 !
 =
-nsnull
+nullptr
 )
 ;
 bool
@@ -1253,7 +1253,7 @@ newSelected
 false
 true
 aNotify
-nsnull
+nullptr
 )
 ;
 /
@@ -1747,7 +1747,7 @@ break
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP

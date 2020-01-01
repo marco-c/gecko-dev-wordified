@@ -124,7 +124,7 @@ nsManifestLineReader
 :
 mBase
 (
-nsnull
+nullptr
 )
 {
 }

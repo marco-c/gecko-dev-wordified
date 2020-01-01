@@ -204,7 +204,7 @@ nsIContentSink
 *
 aSink
 =
-nsnull
+nullptr
 )
 ;
 virtual
@@ -218,6 +218,11 @@ aGlobalObject
 ;
 protected
 :
+void
+BecomeInteractive
+(
+)
+;
 virtual
 nsresult
 CreateSyntheticDocument

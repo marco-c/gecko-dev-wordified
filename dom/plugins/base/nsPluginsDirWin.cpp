@@ -313,7 +313,7 @@ buffer
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -342,7 +342,7 @@ blen
 buf
 =
 =
-nsnull
+nullptr
 |
 |
 blen
@@ -352,7 +352,7 @@ blen
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -461,7 +461,7 @@ dwFileVersionLS
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -1636,7 +1636,7 @@ outLibrary
 *
 outLibrary
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1651,7 +1651,7 @@ void
 *
 verbuf
 =
-nsnull
+nullptr
 ;
 if
 (

@@ -574,7 +574,7 @@ nsGkAtoms
 :
 :
 checkbox
-nsnull
+nullptr
 }
 ;
 if
@@ -2343,7 +2343,7 @@ case
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3489,7 +3489,7 @@ a
 real
 case
 return
-nsnull
+nullptr
 ;
 nsMenuFrame
 *
@@ -3514,7 +3514,7 @@ menu
 or
 popups
 return
-nsnull
+nullptr
 ;
 nsMenuParent
 *
@@ -3608,7 +3608,7 @@ IsMenu
 )
 )
 return
-nsnull
+nullptr
 ;
 menuPopupFrame
 =
@@ -3637,7 +3637,7 @@ case
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -4056,7 +4056,7 @@ menuItemNode
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void

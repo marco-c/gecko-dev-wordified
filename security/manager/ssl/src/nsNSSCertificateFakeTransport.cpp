@@ -194,7 +194,7 @@ nsNSSCertificateFakeTransport
 :
 mCertSerialization
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1168,8 +1168,8 @@ mCertSerialization
 =
 SECITEM_AllocItem
 (
-nsnull
-nsnull
+nullptr
+nullptr
 len
 )
 ;
@@ -1223,7 +1223,7 @@ count
 *
 array
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1246,7 +1246,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1267,7 +1267,7 @@ aContractID
 *
 aContractID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1288,7 +1288,7 @@ aClassDescription
 *
 aClassDescription
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

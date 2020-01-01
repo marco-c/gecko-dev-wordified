@@ -374,7 +374,7 @@ return
 mCacheEntry
 !
 =
-nsnull
+nullptr
 ;
 }
 /

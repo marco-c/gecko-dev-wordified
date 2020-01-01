@@ -633,7 +633,7 @@ esm
 >
 SetContentState
 (
-nsnull
+nullptr
 NS_EVENT_STATE_ACTIVE
 )
 ;
@@ -642,7 +642,7 @@ esm
 >
 SetContentState
 (
-nsnull
+nullptr
 NS_EVENT_STATE_HOVER
 )
 ;
@@ -888,7 +888,7 @@ aEvent
 )
 :
 aTrustEvent
-nsnull
+nullptr
 shell
 isControl
 isAlt

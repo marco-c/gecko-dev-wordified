@@ -856,7 +856,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 *
 aShouldDelayBuilding
@@ -1101,7 +1101,7 @@ Init
 docPrincipal
 context
 owner
-nsnull
+nullptr
 )
 ;
 rv
@@ -1198,7 +1198,7 @@ req
 >
 Send
 (
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1405,7 +1405,7 @@ NS_OK
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1850,7 +1850,7 @@ nsIDOMXPathResult
 :
 :
 ORDERED_NODE_SNAPSHOT_TYPE
-nsnull
+nullptr
 getter_AddRefs
 (
 exprsupportsresults
@@ -2059,7 +2059,7 @@ aRef
 *
 aRef
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2144,9 +2144,9 @@ result
 new
 nsXULTemplateResultXML
 (
-nsnull
+nullptr
 rootElement
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -2472,11 +2472,11 @@ after
 .
 mTemplateBuilder
 =
-nsnull
+nullptr
 ;
 mRequest
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -2494,11 +2494,11 @@ error
 {
 mTemplateBuilder
 =
-nsnull
+nullptr
 ;
 mRequest
 =
-nsnull
+nullptr
 ;
 }
 return

@@ -283,7 +283,7 @@ mObserver
 >
 OnStartDecode
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -623,7 +623,7 @@ GetURIString
 get
 (
 )
-nsnull
+nullptr
 0
 0
 nsIScriptError
@@ -718,7 +718,7 @@ mObserver
 >
 OnStopContainer
 (
-nsnull
+nullptr
 &
 mImage
 )
@@ -728,13 +728,13 @@ mObserver
 >
 OnStopDecode
 (
-nsnull
+nullptr
 salvage
 ?
 NS_OK
 :
 NS_ERROR_FAILURE
-nsnull
+nullptr
 )
 ;
 }
@@ -950,7 +950,7 @@ mObserver
 >
 OnDataAvailable
 (
-nsnull
+nullptr
 isCurrentFrame
 &
 mInvalidRect
@@ -1102,7 +1102,7 @@ mObserver
 >
 OnStartContainer
 (
-nsnull
+nullptr
 &
 mImage
 )
@@ -1274,7 +1274,7 @@ mObserver
 >
 OnStartFrame
 (
-nsnull
+nullptr
 mFrameCount
 -
 1
@@ -1359,7 +1359,7 @@ mObserver
 >
 OnStopFrame
 (
-nsnull
+nullptr
 mFrameCount
 -
 1
@@ -1393,7 +1393,7 @@ mObserver
 >
 OnImageIsAnimated
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1594,7 +1594,7 @@ mObserver
 >
 OnStopContainer
 (
-nsnull
+nullptr
 &
 mImage
 )
@@ -1604,9 +1604,9 @@ mObserver
 >
 OnStopDecode
 (
-nsnull
+nullptr
 NS_OK
-nsnull
+nullptr
 )
 ;
 }

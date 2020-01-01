@@ -718,7 +718,7 @@ NS_PRECONDITION
 mBodyContext
 !
 =
-nsnull
+nullptr
 "
 Create
 a
@@ -4666,7 +4666,7 @@ aNode
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aToken
@@ -6210,7 +6210,7 @@ NS_PRECONDITION
 mBodyContext
 !
 =
-nsnull
+nullptr
 "
 need
 a
@@ -6684,7 +6684,7 @@ CToken
 *
 theToken
 =
-nsnull
+nullptr
 ;
 theFormType
 .
@@ -7145,7 +7145,7 @@ aToken
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aToken
@@ -8691,7 +8691,7 @@ default
 :
 theToken
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -8842,7 +8842,7 @@ aToken
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aToken
@@ -8880,7 +8880,7 @@ bug
 )
 CollectAttributes
 (
-nsnull
+nullptr
 theChildTag
 aToken
 -
@@ -8914,7 +8914,7 @@ mTokenAllocator
 !
 mCountLines
 ?
-nsnull
+nullptr
 :
 &
 mLineNumber
@@ -9065,7 +9065,7 @@ mTokenAllocator
 !
 mCountLines
 ?
-nsnull
+nullptr
 :
 &
 mLineNumber
@@ -9935,7 +9935,7 @@ NS_PRECONDITION
 mBodyContext
 !
 =
-nsnull
+nullptr
 &
 &
 mBodyContext
@@ -10668,7 +10668,7 @@ aToken
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aToken
@@ -10980,7 +10980,7 @@ aToken
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aToken
@@ -11172,7 +11172,7 @@ aToken
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aToken
@@ -11252,7 +11252,7 @@ aToken
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aToken
@@ -17711,7 +17711,7 @@ nsCParserNode
 (
 aNode
 )
-nsnull
+nullptr
 false
 )
 ;

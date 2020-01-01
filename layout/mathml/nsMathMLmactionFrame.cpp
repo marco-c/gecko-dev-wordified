@@ -556,7 +556,7 @@ mSelection
 ;
 mSelectedFrame
 =
-nsnull
+nullptr
 ;
 mActionType
 =
@@ -745,7 +745,7 @@ mSelection
 ;
 mSelectedFrame
 =
-nsnull
+nullptr
 ;
 GetSelectedFrame
 (
@@ -820,7 +820,7 @@ mSelection
 ;
 mSelectedFrame
 =
-nsnull
+nullptr
 ;
 return
 mSelectedFrame
@@ -1939,7 +1939,7 @@ childFrame
 PresContext
 (
 )
-nsnull
+nullptr
 aDesiredSize
 0
 0

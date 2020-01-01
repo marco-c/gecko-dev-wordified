@@ -261,7 +261,7 @@ getContextNode
 mode
 &
 aEs
-nsnull
+nullptr
 &
 frame
 )
@@ -559,7 +559,7 @@ getContextNode
 mMode
 &
 aEs
-nsnull
+nullptr
 &
 frame
 )
@@ -946,7 +946,7 @@ aName
 )
 mBailTarget
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1324,7 +1324,7 @@ getPrefix
 aNode
 )
 localName
-nsnull
+nullptr
 txXPathNodeUtils
 :
 :
@@ -1465,7 +1465,7 @@ getPrefix
 aNode
 )
 localName
-nsnull
+nullptr
 txXPathNodeUtils
 :
 :
@@ -1550,7 +1550,7 @@ getPrefix
 attr
 )
 localName
-nsnull
+nullptr
 txXPathNodeUtils
 :
 :
@@ -1726,7 +1726,7 @@ txCopy
 :
 mBailTarget
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1884,7 +1884,7 @@ getPrefix
 node
 )
 localName
-nsnull
+nullptr
 txXPathNodeUtils
 :
 :
@@ -3077,7 +3077,7 @@ aSelect
 )
 mBailTarget
 (
-nsnull
+nullptr
 )
 {
 }
@@ -3465,11 +3465,11 @@ aEs
 .
 pushTemplateRule
 (
-nsnull
+nullptr
 txExpandedName
 (
 )
-nsnull
+nullptr
 )
 ;
 return
@@ -3492,7 +3492,7 @@ aEs
 .
 pushParamMap
 (
-nsnull
+nullptr
 )
 ;
 }

@@ -1707,7 +1707,7 @@ on
 shutdown
 mElement
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2749,7 +2749,7 @@ nsGkAtoms
 :
 :
 src
-nsnull
+nullptr
 str
 )
 ;
@@ -2874,7 +2874,7 @@ NS_OK
 }
 mSrcAttrStream
 =
-nsnull
+nullptr
 ;
 JSString
 *
@@ -3302,7 +3302,7 @@ Shutdown
 ;
 mDecoder
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -3468,7 +3468,7 @@ EndMediaStreamPlayback
 }
 mLoadingSrc
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3503,7 +3503,7 @@ abort
 }
 mError
 =
-nsnull
+nullptr
 ;
 mLoadedFirstFrame
 =
@@ -3539,7 +3539,7 @@ false
 ;
 mSourcePointer
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -6306,7 +6306,7 @@ Shutdown
 ;
 mAudioStream
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -6324,7 +6324,7 @@ NS_BINDING_ABORTED
 ;
 mChannel
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -6432,7 +6432,7 @@ EmptyCString
 /
 mime
 type
-nsnull
+nullptr
 /
 /
 extra
@@ -6590,9 +6590,9 @@ getter_AddRefs
 channel
 )
 mLoadingSrc
-nsnull
+nullptr
 loadGroup
-nsnull
+nullptr
 nsICachingChannel
 :
 :
@@ -6866,7 +6866,7 @@ channel
 AsyncOpen
 (
 listener
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6989,7 +6989,7 @@ aListener
 *
 aListener
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -9395,7 +9395,7 @@ gElementTable
 ;
 gElementTable
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -9443,7 +9443,7 @@ if
 gElementTable
 )
 return
-nsnull
+nullptr
 ;
 MediaElementSetForURI
 *
@@ -9463,7 +9463,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 for
 (
@@ -9621,7 +9621,7 @@ elem
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsHTMLMediaElement
@@ -9642,7 +9642,7 @@ aNodeInfo
 )
 mStreamListener
 (
-nsnull
+nullptr
 )
 mCurrentLoadID
 (
@@ -11112,7 +11112,7 @@ gRawCodecs
 ]
 =
 {
-nsnull
+nullptr
 }
 ;
 bool
@@ -11292,7 +11292,7 @@ vorbis
 "
 theora
 "
-nsnull
+nullptr
 }
 ;
 char
@@ -11317,7 +11317,7 @@ opus
 "
 theora
 "
-nsnull
+nullptr
 }
 ;
 bool
@@ -11561,7 +11561,7 @@ gWaveCodecs
 Microsoft
 PCM
 Format
-nsnull
+nullptr
 }
 ;
 bool
@@ -11708,7 +11708,7 @@ vp8
 "
 vorbis
 "
-nsnull
+nullptr
 }
 ;
 bool
@@ -11881,7 +11881,7 @@ mp4a
 .
 2
 "
-nsnull
+nullptr
 }
 ;
 bool
@@ -13052,7 +13052,7 @@ forget
 #
 endif
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -13083,7 +13083,7 @@ NS_ASSERTION
 mDecoder
 =
 =
-nsnull
+nullptr
 "
 Shouldn
 '
@@ -13291,7 +13291,7 @@ FinishDecoderSetup
 (
 decoder
 resource
-nsnull
+nullptr
 aOriginal
 )
 ;
@@ -13328,7 +13328,7 @@ NS_ASSERTION
 mDecoder
 =
 =
-nsnull
+nullptr
 "
 Shouldn
 '
@@ -13482,7 +13482,7 @@ channel
 .
 mChannel
 =
-nsnull
+nullptr
 ;
 return
 FinishDecoderSetup
@@ -13490,7 +13490,7 @@ FinishDecoderSetup
 decoder
 resource
 aListener
-nsnull
+nullptr
 )
 ;
 }
@@ -13701,7 +13701,7 @@ channel
 .
 mChannel
 =
-nsnull
+nullptr
 ;
 mDecoder
 =
@@ -13882,7 +13882,7 @@ Forget
 {
 mElement
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -14475,7 +14475,7 @@ GetImageContainer
 >
 SetCurrentImage
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -14497,7 +14497,7 @@ ChangeExplicitBlockerCount
 }
 mStream
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -14524,7 +14524,7 @@ aURI
 *
 aURI
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -15310,7 +15310,7 @@ ShutdownDecoder
 }
 mLoadingSrc
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -15319,7 +15319,7 @@ mIsLoadingFromSourceChildren
 {
 mError
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -16771,7 +16771,7 @@ if
 mPrintSurface
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -16800,7 +16800,7 @@ if
 video
 )
 return
-nsnull
+nullptr
 ;
 mVideoFrameContainer
 =
@@ -17430,7 +17430,7 @@ forget
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -18300,7 +18300,7 @@ this
 ;
 mSourceLoadCandidate
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -18353,7 +18353,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 rv
 =
@@ -18373,7 +18373,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 }
 while
@@ -18411,7 +18411,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -18450,7 +18450,7 @@ startOffset
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 if
@@ -18466,7 +18466,7 @@ GetChildCount
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -18500,7 +18500,7 @@ startOffset
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 nsIContent
@@ -18567,7 +18567,7 @@ here
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -18708,7 +18708,7 @@ false
 ;
 mLoadBlockedDoc
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -2255,7 +2255,7 @@ NS_ASSERTION
 value
 !
 =
-nsnull
+nullptr
 "
 member
 is
@@ -2341,7 +2341,7 @@ NS_ASSERTION
 valueRes
 !
 =
-nsnull
+nullptr
 "
 container
 is

@@ -768,7 +768,7 @@ attribute
 If
 content
 is
-nsnull
+nullptr
 or
 if
 /

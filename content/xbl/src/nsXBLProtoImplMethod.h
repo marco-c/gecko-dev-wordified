@@ -181,7 +181,7 @@ aName
 ;
 mNext
 =
-nsnull
+nullptr
 ;
 }
 ~
@@ -232,11 +232,11 @@ nsXBLUncompiledMethod
 :
 mParameters
 (
-nsnull
+nullptr
 )
 mLastParameter
 (
-nsnull
+nullptr
 )
 mBodyText
 (

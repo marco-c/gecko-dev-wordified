@@ -468,7 +468,7 @@ nsUrlClassifierUtils
 :
 mEscapeCharmap
 (
-nsnull
+nullptr
 )
 {
 }

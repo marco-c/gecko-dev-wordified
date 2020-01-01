@@ -745,7 +745,7 @@ this
 ;
 mOutOfFlowFrame
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1440,7 +1440,7 @@ GetNextInFlow
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 prevInFlow
@@ -1472,7 +1472,7 @@ prevInFlow
 }
 if
 (
-nsnull
+nullptr
 !
 =
 nextInFlow
@@ -1504,7 +1504,7 @@ nextInFlow
 }
 if
 (
-nsnull
+nullptr
 !
 =
 mContent
@@ -1534,7 +1534,7 @@ mContent
 }
 if
 (
-nsnull
+nullptr
 !
 =
 mStyleContext

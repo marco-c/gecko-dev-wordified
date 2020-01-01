@@ -830,7 +830,7 @@ nsIDOMNode
 *
 DOMNode
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1772,7 +1772,7 @@ the
 accessible
 or
 *
-nsnull
+nullptr
 if
 none
 .
@@ -2257,7 +2257,7 @@ childCount
 1
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -3172,7 +3172,7 @@ AsTable
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 inline
@@ -4551,7 +4551,7 @@ nsresult
 *
 aError
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -5408,7 +5408,7 @@ nsIContent
 *
 aContent
 =
-nsnull
+nullptr
 PRUint32
 aActionIndex
 =

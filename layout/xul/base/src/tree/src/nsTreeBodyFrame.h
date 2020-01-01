@@ -2462,7 +2462,7 @@ if
 aUnknownCol
 )
 return
-nsnull
+nullptr
 ;
 nsTreeColumn
 *
@@ -2703,7 +2703,7 @@ Revoke
 {
 mInner
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -2909,7 +2909,7 @@ the
 start
 invalidated
 column
-nsnull
+nullptr
 means
 that
 only
@@ -2925,7 +2925,7 @@ the
 end
 invalidated
 column
-nsnull
+nullptr
 means
 that
 rows

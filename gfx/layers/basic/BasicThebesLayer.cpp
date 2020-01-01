@@ -1744,7 +1744,7 @@ mLayer
 >
 mBufferTracker
 =
-nsnull
+nullptr
 ;
 mLayer
 -
@@ -1921,7 +1921,7 @@ BasicThebesLayer
 PaintThebes
 (
 aContext
-nsnull
+nullptr
 aCallback
 aCallbackData
 aReadback
@@ -1950,7 +1950,7 @@ ImplData
 Paint
 (
 aContext
-nsnull
+nullptr
 )
 ;
 }

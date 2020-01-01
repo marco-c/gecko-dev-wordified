@@ -1757,7 +1757,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_TRUE
 (

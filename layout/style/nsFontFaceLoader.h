@@ -642,7 +642,7 @@ DropChannel
 {
 mChannel
 =
-nsnull
+nullptr
 ;
 }
 void

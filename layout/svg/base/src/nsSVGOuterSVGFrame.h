@@ -928,7 +928,7 @@ nsIFrame
 *
 aEmbeddingFrame
 =
-nsnull
+nullptr
 )
 ;
 /

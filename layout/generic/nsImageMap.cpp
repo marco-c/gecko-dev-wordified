@@ -411,7 +411,7 @@ happen
 ;
 mCoords
 =
-nsnull
+nullptr
 ;
 mNumCoords
 =
@@ -556,7 +556,7 @@ nsContentUtils
 :
 eLAYOUT_PROPERTIES
 aMessageName
-nsnull
+nullptr
 /
 *
 params
@@ -569,7 +569,7 @@ params
 length
 *
 /
-nsnull
+nullptr
 PromiseFlatString
 (
 NS_LITERAL_STRING
@@ -659,7 +659,7 @@ mNumCoords
 ;
 mCoords
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4095,7 +4095,7 @@ nsImageMap
 :
 mImageFrame
 (
-nsnull
+nullptr
 )
 mContainsBlockContents
 (
@@ -4330,7 +4330,7 @@ mArea
 >
 SetPrimaryFrame
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -4898,7 +4898,7 @@ nsGkAtoms
 :
 :
 polygon
-nsnull
+nullptr
 }
 ;
 Area
@@ -5246,7 +5246,7 @@ mArea
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -5948,7 +5948,7 @@ FreeAreas
 ;
 mImageFrame
 =
-nsnull
+nullptr
 ;
 mMap
 -

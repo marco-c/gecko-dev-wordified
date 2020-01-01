@@ -1636,7 +1636,7 @@ GetBindingParent
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -2033,7 +2033,7 @@ info
 .
 May
 be
-nsnull
+nullptr
 .
 *
 /
@@ -2170,7 +2170,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -3708,7 +3708,7 @@ PRInt32
 *
 aTabIndex
 =
-nsnull
+nullptr
 bool
 aWithMouse
 =
@@ -4326,7 +4326,7 @@ GetHrefURI
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -5011,7 +5011,7 @@ DoGetID
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -5092,7 +5092,7 @@ DoGetClasses
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -5579,7 +5579,7 @@ IsInDoc
 ?
 mPrimaryFrame
 :
-nsnull
+nullptr
 ;
 }
 void

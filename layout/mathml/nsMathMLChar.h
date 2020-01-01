@@ -613,7 +613,7 @@ nsMathMLChar
 *
 aParent
 =
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -623,11 +623,11 @@ nsMathMLChar
 ;
 mStyleContext
 =
-nsnull
+nullptr
 ;
 mSibling
 =
-nsnull
+nullptr
 ;
 mParent
 =
@@ -764,7 +764,7 @@ nsRect
 *
 aSelectedRect
 =
-nsnull
+nullptr
 )
 ;
 void

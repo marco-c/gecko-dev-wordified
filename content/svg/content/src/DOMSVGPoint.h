@@ -472,12 +472,12 @@ DOMSVGPoint
 *
 aPt
 =
-nsnull
+nullptr
 )
 :
 mList
 (
-nsnull
+nullptr
 )
 mListIndex
 (
@@ -518,7 +518,7 @@ aY
 :
 mList
 (
-nsnull
+nullptr
 )
 mListIndex
 (
@@ -556,7 +556,7 @@ aPt
 :
 mList
 (
-nsnull
+nullptr
 )
 mListIndex
 (
@@ -679,7 +679,7 @@ mItems
 mListIndex
 ]
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -2271,7 +2271,7 @@ GetSize
 ;
 surface
 =
-nsnull
+nullptr
 ;
 DestroySharedSurface
 (
@@ -2486,7 +2486,7 @@ false
 *
 aBuffer
 =
-nsnull
+nullptr
 ;
 back
 .
@@ -2724,7 +2724,7 @@ type
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -3221,7 +3221,7 @@ SurfaceDescriptor
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3361,7 +3361,7 @@ GLenum
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3456,7 +3456,7 @@ mSurface
 {
 mSurface
 =
-nsnull
+nullptr
 ;
 ShadowLayerForwarder
 :

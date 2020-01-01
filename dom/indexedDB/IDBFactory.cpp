@@ -394,7 +394,7 @@ LL_MININT
 )
 info
 (
-nsnull
+nullptr
 )
 {
 }
@@ -421,15 +421,15 @@ IDBFactory
 :
 mOwningObject
 (
-nsnull
+nullptr
 )
 mActorChild
 (
-nsnull
+nullptr
 )
 mActorParent
 (
-nsnull
+nullptr
 )
 mRootedOwningObject
 (
@@ -716,7 +716,7 @@ allowed
 *
 aFactory
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -815,7 +815,7 @@ actor
 *
 aFactory
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -940,7 +940,7 @@ IndexedDatabaseManager
 :
 GetASCIIOriginFromWindow
 (
-nsnull
+nullptr
 origin
 )
 ;
@@ -1196,7 +1196,7 @@ IndexedDatabaseManager
 :
 GetASCIIOriginFromWindow
 (
-nsnull
+nullptr
 origin
 )
 ;
@@ -1536,7 +1536,7 @@ NS_LOCAL_FILE_CONTRACTID
 NS_ENSURE_TRUE
 (
 dbFile
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -1553,7 +1553,7 @@ aDatabaseFilePath
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 bool
@@ -1573,13 +1573,13 @@ exists
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
 (
 exists
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -1596,7 +1596,7 @@ MOZ_STORAGE_SERVICE_CONTRACTID
 NS_ENSURE_TRUE
 (
 ss
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -1628,7 +1628,7 @@ connection
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 /
@@ -1731,7 +1731,7 @@ ON
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -2210,7 +2210,7 @@ ObjectStoreInfo
 *
 objectStoreInfo
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -2731,7 +2731,7 @@ tmp
 >
 mOwningObject
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -2836,7 +2836,7 @@ JSObject
 *
 scriptOwner
 =
-nsnull
+nullptr
 ;
 if
 (

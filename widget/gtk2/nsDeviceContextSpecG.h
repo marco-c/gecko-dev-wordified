@@ -137,6 +137,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h
@@ -547,6 +556,7 @@ Enumerator
 -
 class
 nsPrinterEnumeratorGTK
+MOZ_FINAL
 :
 public
 nsIPrinterEnumerator

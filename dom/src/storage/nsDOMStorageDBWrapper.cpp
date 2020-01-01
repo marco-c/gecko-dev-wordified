@@ -1809,7 +1809,7 @@ rv
 {
 mTempTableFlushTimer
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -1854,7 +1854,7 @@ Cancel
 ;
 mTempTableFlushTimer
 =
-nsnull
+nullptr
 ;
 }
 }

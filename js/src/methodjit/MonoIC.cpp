@@ -4060,7 +4060,7 @@ that
 script
 -
 >
-jitInfo
+mJITInfo
 is
 not
 NULL
@@ -4070,7 +4070,7 @@ NULL
 script
 -
 >
-jitInfo
+mJITInfo
 -
 >
 jitHandle
@@ -4093,7 +4093,7 @@ and
 script
 -
 >
-jitInfo
+mJITInfo
 -
 >
 jitHandle
@@ -4121,7 +4121,7 @@ t0
 JSScript
 :
 :
-offsetOfJITInfo
+offsetOfMJITInfo
 (
 )
 )

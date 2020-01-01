@@ -350,7 +350,7 @@ getter_AddRefs
 theChannel
 )
 theURI
-nsnull
+nullptr
 theLoadGroup
 )
 ;
@@ -442,7 +442,7 @@ theChannel
 AsyncOpen
 (
 listener
-nsnull
+nullptr
 )
 ;
 nsCOMPtr

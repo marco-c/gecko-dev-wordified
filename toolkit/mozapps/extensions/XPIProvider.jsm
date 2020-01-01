@@ -11285,6 +11285,7 @@ this
 .
 bootstrappedAddons
 )
+{
 data
 +
 =
@@ -11298,12 +11299,17 @@ data
 "
 )
 +
+encodeURIComponent
+(
 id
+)
 +
 "
 :
 "
 +
+encodeURIComponent
+(
 this
 .
 bootstrappedAddons
@@ -11312,7 +11318,9 @@ id
 ]
 .
 version
+)
 ;
+}
 try
 {
 Services

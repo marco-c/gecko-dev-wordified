@@ -542,7 +542,7 @@ nsIURI
 *
 aSrc
 =
-nsnull
+nullptr
 )
 ;
 /

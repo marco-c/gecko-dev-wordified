@@ -1729,7 +1729,7 @@ PopFront
 ;
 video
 =
-nsnull
+nullptr
 ;
 }
 else

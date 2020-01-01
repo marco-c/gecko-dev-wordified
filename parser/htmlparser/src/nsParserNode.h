@@ -410,7 +410,7 @@ nsCParserNode
 NS_ENSURE_TRUE
 (
 place
-nsnull
+nullptr
 )
 ;
 return
@@ -1378,7 +1378,7 @@ nsCParserStartNode
 NS_ENSURE_TRUE
 (
 place
-nsnull
+nullptr
 )
 ;
 return

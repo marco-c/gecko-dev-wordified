@@ -494,7 +494,7 @@ here
 ?
 if
 (
-nsnull
+nullptr
 !
 =
 mTarget
@@ -562,8 +562,8 @@ get
 (
 )
 mTarget
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -674,8 +674,8 @@ get
 (
 )
 mTarget
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -712,7 +712,7 @@ aURL
 :
 mStreamBuffer
 (
-nsnull
+nullptr
 )
 mNotifyURL
 (
@@ -723,7 +723,7 @@ PL_strdup
 aURL
 )
 :
-nsnull
+nullptr
 )
 mInst
 (
@@ -799,7 +799,7 @@ false
 )
 mResponseHeaderBuf
 (
-nsnull
+nullptr
 )
 {
 mNPStreamWrapper
@@ -807,7 +807,7 @@ mNPStreamWrapper
 new
 nsNPAPIStreamWrapper
 (
-nsnull
+nullptr
 this
 )
 ;
@@ -936,7 +936,7 @@ mStreamBuffer
 ;
 mStreamBuffer
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1064,7 +1064,7 @@ NS_ERROR_FAILURE
 ;
 mHTTPRedirectCallback
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1117,7 +1117,7 @@ rv
 ;
 mStreamListenerPeer
 =
-nsnull
+nullptr
 ;
 PluginDestructionGuard
 guard
@@ -2083,7 +2083,7 @@ Cancel
 ;
 mDataPumpTimer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4530,7 +4530,7 @@ rv
 OnDataAvailable
 (
 mStreamListenerPeer
-nsnull
+nullptr
 mStreamBufferByteCount
 )
 ;
@@ -5142,7 +5142,7 @@ true
 ;
 mHTTPRedirectCallback
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -5170,6 +5170,6 @@ notifyData
 ;
 }
 return
-nsnull
+nullptr
 ;
 }

@@ -247,7 +247,7 @@ column
 belongs
 to
 or
-nsnull
+nullptr
 .
 *
 /

@@ -1097,7 +1097,7 @@ if
 treeItem
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1122,7 +1122,7 @@ if
 treeOwner
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1142,7 +1142,7 @@ if
 webBrowserChrome
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1162,7 +1162,7 @@ if
 baseWin
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1187,7 +1187,7 @@ if
 widget
 )
 return
-nsnull
+nullptr
 ;
 return
 (
@@ -1513,12 +1513,12 @@ mPrintProgress
 *
 webProgressListener
 =
-nsnull
+nullptr
 ;
 *
 printProgressParams
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -2374,11 +2374,11 @@ true
 }
 mPrintProgress
 =
-nsnull
+nullptr
 ;
 mWebProgressListener
 =
-nsnull
+nullptr
 ;
 }
 return

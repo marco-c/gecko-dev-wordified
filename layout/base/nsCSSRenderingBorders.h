@@ -460,7 +460,7 @@ a
 border
 *
 or
-nsnull
+nullptr
 if
 none
 .
@@ -1628,7 +1628,7 @@ char
 *
 s
 =
-nsnull
+nullptr
 )
 {
 if
@@ -1879,7 +1879,7 @@ char
 *
 s
 =
-nsnull
+nullptr
 )
 {
 }

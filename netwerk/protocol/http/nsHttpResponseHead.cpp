@@ -4100,7 +4100,7 @@ if
 p
 =
 =
-nsnull
+nullptr
 )
 {
 LOG

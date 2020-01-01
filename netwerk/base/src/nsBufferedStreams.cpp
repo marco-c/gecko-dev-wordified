@@ -329,7 +329,7 @@ nsBufferedStream
 :
 mBuffer
 (
-nsnull
+nullptr
 )
 mBufferStartOffset
 (
@@ -345,7 +345,7 @@ mFillPoint
 )
 mStream
 (
-nsnull
+nullptr
 )
 mBufferDisabled
 (
@@ -409,7 +409,7 @@ NS_ASSERTION
 mStream
 =
 =
-nsnull
+nullptr
 "
 already
 inited
@@ -450,7 +450,7 @@ if
 mBuffer
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -484,7 +484,7 @@ mBuffer
 ;
 mBuffer
 =
-nsnull
+nullptr
 ;
 mBufferSize
 =
@@ -730,7 +730,7 @@ if
 mStream
 =
 =
-nsnull
+nullptr
 )
 return
 NS_BASE_STREAM_CLOSED
@@ -1354,7 +1354,7 @@ if
 mStream
 =
 =
-nsnull
+nullptr
 )
 return
 NS_BASE_STREAM_CLOSED
@@ -1391,7 +1391,7 @@ if
 mStream
 =
 =
-nsnull
+nullptr
 )
 return
 NS_BASE_STREAM_CLOSED
@@ -1622,7 +1622,7 @@ if
 stream
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2287,14 +2287,14 @@ mGetBufferCount
 0
 )
 return
-nsnull
+nullptr
 ;
 if
 (
 mBufferDisabled
 )
 return
-nsnull
+nullptr
 ;
 char
 *
@@ -2329,7 +2329,7 @@ Fill
 )
 )
 return
-nsnull
+nullptr
 ;
 buf
 =
@@ -2377,7 +2377,7 @@ pad
 rem
 )
 return
-nsnull
+nullptr
 ;
 memset
 (
@@ -2409,7 +2409,7 @@ aLength
 rem
 )
 return
-nsnull
+nullptr
 ;
 mGetBufferCount
 +
@@ -2944,7 +2944,7 @@ if
 stream
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -3880,14 +3880,14 @@ mGetBufferCount
 0
 )
 return
-nsnull
+nullptr
 ;
 if
 (
 mBufferDisabled
 )
 return
-nsnull
+nullptr
 ;
 char
 *
@@ -3922,7 +3922,7 @@ Flush
 )
 )
 return
-nsnull
+nullptr
 ;
 buf
 =
@@ -3970,7 +3970,7 @@ pad
 rem
 )
 return
-nsnull
+nullptr
 ;
 memset
 (
@@ -4002,7 +4002,7 @@ aLength
 rem
 )
 return
-nsnull
+nullptr
 ;
 mGetBufferCount
 +

@@ -132,7 +132,7 @@ h
 /
 /
 for
-nsnull
+nullptr
 bool
 template
 <
@@ -3282,7 +3282,7 @@ Void
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }

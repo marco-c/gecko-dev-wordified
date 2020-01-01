@@ -962,7 +962,7 @@ aTypeString
 )
 mCurrentPosition
 (
-nsnull
+nullptr
 )
 {
 mWindowMediator
@@ -1192,7 +1192,7 @@ NS_ERROR_INVALID_ARG
 *
 retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1291,7 +1291,7 @@ NS_ERROR_INVALID_ARG
 *
 retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1402,7 +1402,7 @@ if
 mCurrentPosition
 )
 return
-nsnull
+nullptr
 ;
 info
 =
@@ -1451,7 +1451,7 @@ mYounger
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1630,7 +1630,7 @@ if
 mCurrentPosition
 )
 return
-nsnull
+nullptr
 ;
 info
 =
@@ -1679,7 +1679,7 @@ mYounger
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1766,7 +1766,7 @@ if
 mCurrentPosition
 )
 return
-nsnull
+nullptr
 ;
 info
 =
@@ -1815,7 +1815,7 @@ mLower
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1902,7 +1902,7 @@ if
 mCurrentPosition
 )
 return
-nsnull
+nullptr
 ;
 info
 =
@@ -1951,7 +1951,7 @@ mLower
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1994,7 +1994,7 @@ mTopmostWindow
 >
 mHigher
 :
-nsnull
+nullptr
 ;
 AdjustInitialPosition
 (
@@ -2047,7 +2047,7 @@ if
 mCurrentPosition
 )
 return
-nsnull
+nullptr
 ;
 info
 =
@@ -2107,7 +2107,7 @@ mHigher
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2150,7 +2150,7 @@ mTopmostWindow
 >
 mHigher
 :
-nsnull
+nullptr
 ;
 AdjustInitialPosition
 (
@@ -2203,7 +2203,7 @@ if
 mCurrentPosition
 )
 return
-nsnull
+nullptr
 ;
 info
 =
@@ -2263,6 +2263,6 @@ mHigher
 ;
 }
 return
-nsnull
+nullptr
 ;
 }

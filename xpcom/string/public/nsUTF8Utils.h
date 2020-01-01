@@ -979,7 +979,7 @@ bool
 *
 err
 =
-nsnull
+nullptr
 )
 {
 NS_ASSERTION

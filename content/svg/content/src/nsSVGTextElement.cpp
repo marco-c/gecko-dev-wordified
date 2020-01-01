@@ -1623,7 +1623,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsSVGTextContainerFrame
 *
@@ -1682,7 +1682,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsSVGTextContainerFrame
 *
@@ -1741,7 +1741,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsSVGTextContainerFrame
 *

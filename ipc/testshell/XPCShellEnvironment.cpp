@@ -408,7 +408,7 @@ ClearGREDir
 {
 mGREDir
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -532,8 +532,8 @@ if
 JS_DescribeScriptedCaller
 (
 cx
-nsnull
-nsnull
+nullptr
+nullptr
 )
 )
 {
@@ -585,7 +585,7 @@ nsAXPCNativeCallContext
 *
 cc
 =
-nsnull
+nullptr
 ;
 xpc
 -
@@ -2670,8 +2670,8 @@ DumpHeap
 #
 endif
 {
-nsnull
-nsnull
+nullptr
+nullptr
 0
 0
 }
@@ -4184,7 +4184,7 @@ fp
 *
 fp
 =
-nsnull
+nullptr
 ;
 return
 mSystemPrincipal
@@ -4483,7 +4483,7 @@ env
 ;
 env
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -4583,7 +4583,7 @@ rt
 ;
 mCxStack
 =
-nsnull
+nullptr
 ;
 if
 (

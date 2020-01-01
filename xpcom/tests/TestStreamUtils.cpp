@@ -271,7 +271,7 @@ false
 ;
 output
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -362,8 +362,8 @@ DECL_TEST
 test_consume_stream
 )
 {
-nsnull
-nsnull
+nullptr
+nullptr
 }
 }
 ;
@@ -405,9 +405,9 @@ NS_FAILED
 (
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 )
 )
@@ -437,7 +437,7 @@ t
 name
 !
 =
-nsnull
+nullptr
 ;
 +
 +
@@ -479,7 +479,7 @@ FAILURE
 }
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

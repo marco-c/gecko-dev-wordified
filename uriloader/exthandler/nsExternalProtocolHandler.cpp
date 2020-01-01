@@ -636,7 +636,7 @@ aSecurityInfo
 *
 aSecurityInfo
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

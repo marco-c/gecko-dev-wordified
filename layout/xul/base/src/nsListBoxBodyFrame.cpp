@@ -758,7 +758,7 @@ Cancel
 ;
 mRepeatTimer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -826,19 +826,19 @@ aLayoutManager
 )
 mTopFrame
 (
-nsnull
+nullptr
 )
 mBottomFrame
 (
-nsnull
+nullptr
 )
 mLinkupFrame
 (
-nsnull
+nullptr
 )
 mScrollSmoother
 (
-nsnull
+nullptr
 )
 mRowsToPrepend
 (
@@ -918,7 +918,7 @@ StopScrollTracking
 ;
 mAutoScrollTimer
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -2927,7 +2927,7 @@ aItem
 *
 aItem
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3389,7 +3389,7 @@ firstRowContent
 AsElement
 (
 )
-nsnull
+nullptr
 )
 ;
 nscoord
@@ -4416,7 +4416,7 @@ aDelta
 ;
 mLinkupFrame
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -4555,7 +4555,7 @@ mTopFrame
 =
 mBottomFrame
 =
-nsnull
+nullptr
 ;
 mYPosition
 =
@@ -5119,7 +5119,7 @@ mRowsToPrepend
 ;
 mLinkupFrame
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -5439,7 +5439,7 @@ aChildFrame
 *
 aChildFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5588,7 +5588,7 @@ nsIBox
 mTopFrame
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -5636,7 +5636,7 @@ nsIBox
 mTopFrame
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -5756,7 +5756,7 @@ contentIndex
 0
 )
 return
-nsnull
+nullptr
 ;
 startContent
 =
@@ -5860,7 +5860,7 @@ IsBoxFrame
 ?
 existingFrame
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -5939,7 +5939,7 @@ nsIFrame
 *
 topFrame
 =
-nsnull
+nullptr
 ;
 fc
 -
@@ -5948,13 +5948,13 @@ CreateListBoxContent
 (
 presContext
 this
-nsnull
+nullptr
 startContent
 &
 topFrame
 isAppend
 false
-nsnull
+nullptr
 )
 ;
 mTopFrame
@@ -5996,7 +5996,7 @@ nsIBox
 mTopFrame
 )
 :
-nsnull
+nullptr
 ;
 }
 else
@@ -6011,7 +6011,7 @@ aOffset
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -6266,7 +6266,7 @@ prevFrame
 =
 isAppend
 ?
-nsnull
+nullptr
 :
 aBox
 ;
@@ -6307,7 +6307,7 @@ nextContent
 result
 isAppend
 false
-nsnull
+nullptr
 )
 ;
 if
@@ -6346,7 +6346,7 @@ existingFrame
 }
 mLinkupFrame
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -6356,7 +6356,7 @@ if
 result
 )
 return
-nsnull
+nullptr
 ;
 mBottomFrame
 =
@@ -6403,7 +6403,7 @@ IsBoxFrame
 ?
 result
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -6485,7 +6485,7 @@ if
 startingPoint
 =
 =
-nsnull
+nullptr
 )
 {
 /
@@ -6684,7 +6684,7 @@ mFrames
 .
 AppendFrames
 (
-nsnull
+nullptr
 aFrameList
 )
 ;
@@ -6769,7 +6769,7 @@ mFrames
 .
 InsertFrames
 (
-nsnull
+nullptr
 aPrevFrame
 aFrameList
 )
@@ -7007,7 +7007,7 @@ mCurrentIndex
 {
 mTopFrame
 =
-nsnull
+nullptr
 ;
 mRowsToPrepend
 =
@@ -7457,7 +7457,7 @@ lastChildFrame
 {
 mTopFrame
 =
-nsnull
+nullptr
 ;
 mRowsToPrepend
 =
@@ -7584,7 +7584,7 @@ aContent
 *
 aContent
 =
-nsnull
+nullptr
 ;
 PRInt32
 itemsFound
@@ -7696,7 +7696,7 @@ aSiblingIndex
 *
 aContent
 =
-nsnull
+nullptr
 ;
 aSiblingIndex
 =
@@ -7707,7 +7707,7 @@ nsIContent
 *
 prevKid
 =
-nsnull
+nullptr
 ;
 ChildIterator
 iter
@@ -8073,7 +8073,7 @@ layout
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

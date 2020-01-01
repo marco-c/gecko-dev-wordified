@@ -271,7 +271,7 @@ mIndex
 )
 mGroupNames
 (
-nsnull
+nullptr
 )
 mInitted
 (
@@ -1068,7 +1068,7 @@ groupKey
 )
 =
 =
-nsnull
+nullptr
 )
 {
 /

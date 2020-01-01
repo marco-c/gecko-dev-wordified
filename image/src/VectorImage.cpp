@@ -4121,7 +4121,7 @@ if
 mError
 )
 return
-nsnull
+nullptr
 ;
 return
 mSVGDocumentWrapper
@@ -4964,7 +4964,7 @@ rv
 {
 mSVGDocumentWrapper
 =
-nsnull
+nullptr
 ;
 mError
 =
@@ -5279,7 +5279,7 @@ observer
 >
 OnStartContainer
 (
-nsnull
+nullptr
 this
 )
 ;
@@ -5288,7 +5288,7 @@ observer
 >
 FrameChanged
 (
-nsnull
+nullptr
 this
 &
 nsIntRect
@@ -5304,7 +5304,7 @@ observer
 >
 OnStopFrame
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -5313,9 +5313,9 @@ observer
 >
 OnStopDecode
 (
-nsnull
+nullptr
 NS_OK
-nsnull
+nullptr
 )
 ;
 }
@@ -5629,7 +5629,7 @@ containerObs
 >
 FrameChanged
 (
-nsnull
+nullptr
 this
 &
 nsIntRect
@@ -5663,7 +5663,7 @@ decoderObs
 >
 OnStopFrame
 (
-nsnull
+nullptr
 imgIContainer
 :
 :

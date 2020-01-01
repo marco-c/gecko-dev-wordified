@@ -315,7 +315,7 @@ nsXPConnect
 :
 gSelf
 =
-nsnull
+nullptr
 ;
 JSBool
 nsXPConnect
@@ -375,7 +375,7 @@ nsXPConnect
 :
 gScriptSecurityManager
 =
-nsnull
+nullptr
 ;
 const
 char
@@ -595,7 +595,7 @@ nsXPConnect
 :
 mRuntime
 (
-nsnull
+nullptr
 )
 mInterfaceInfoManager
 (
@@ -606,7 +606,7 @@ NS_INTERFACEINFOMANAGER_SERVICE_CONTRACTID
 )
 mDefaultSecurityManager
 (
-nsnull
+nullptr
 )
 mDefaultSecurityManagerFlags
 (
@@ -626,7 +626,7 @@ mEventDepth
 )
 mCycleCollectionContext
 (
-nsnull
+nullptr
 )
 {
 mRuntime
@@ -684,7 +684,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -821,7 +821,7 @@ mDefaultSecurityManager
 ;
 gScriptSecurityManager
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -838,7 +838,7 @@ mRuntime
 ;
 gSelf
 =
-nsnull
+nullptr
 ;
 gOnceAliveNowDead
 =
@@ -934,7 +934,7 @@ if
 gOnceAliveNowDead
 )
 return
-nsnull
+nullptr
 ;
 gSelf
 =
@@ -949,7 +949,7 @@ if
 gSelf
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1317,9 +1317,9 @@ GetJSRuntime
 (
 )
 dumpFile
-nsnull
+nullptr
 JSTRACE_OBJECT
-nsnull
+nullptr
 static_cast
 <
 size_t
@@ -1328,7 +1328,7 @@ size_t
 -
 1
 )
-nsnull
+nullptr
 )
 ;
 if
@@ -1476,7 +1476,7 @@ xpc
 /
 *
 =
-nsnull
+nullptr
 *
 /
 )
@@ -2965,7 +2965,7 @@ kkind
 )
 k
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3138,7 +3138,7 @@ IsValid
 {
 mCycleCollectionContext
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -3407,7 +3407,7 @@ mCycleCollectionContext
 )
 mCycleCollectionContext
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3552,7 +3552,7 @@ false
 )
 mPreviousShape
 (
-nsnull
+nullptr
 )
 {
 }
@@ -3571,7 +3571,7 @@ aTracingShape
 )
 mPreviousShape
 (
-nsnull
+nullptr
 )
 {
 JS_TracerInit
@@ -4104,7 +4104,7 @@ childTracer
 .
 mPreviousShape
 =
-nsnull
+nullptr
 ;
 }
 while
@@ -4663,7 +4663,7 @@ get
 ;
 variant
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4907,7 +4907,7 @@ XPCNativeScriptableInfo
 *
 si
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5656,7 +5656,7 @@ JSObject
 *
 obj
 =
-nsnull
+nullptr
 ;
 js
 :
@@ -5665,7 +5665,7 @@ Class
 *
 clasp
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -8229,7 +8229,7 @@ aVal
 aHolder
 helper
 aIID
-nsnull
+nullptr
 aAllowWrapping
 &
 rv
@@ -8399,7 +8399,7 @@ NativeInterface2JSObject
 lccx
 aScope
 aCOMObj
-nsnull
+nullptr
 &
 aIID
 false
@@ -8503,7 +8503,7 @@ aHolder
 *
 aHolder
 =
-nsnull
+nullptr
 ;
 XPCLazyCallContext
 lccx
@@ -8606,7 +8606,7 @@ param
 *
 result
 =
-nsnull
+nullptr
 ;
 XPCCallContext
 ccx
@@ -8661,7 +8661,7 @@ result
 aJSObj
 &
 aIID
-nsnull
+nullptr
 &
 rv
 )
@@ -8712,7 +8712,7 @@ param
 *
 aResult
 =
-nsnull
+nullptr
 ;
 XPCCallContext
 ccx
@@ -8852,7 +8852,7 @@ param
 *
 result
 =
-nsnull
+nullptr
 ;
 XPCCallContext
 ccx
@@ -9033,7 +9033,7 @@ else
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -9113,14 +9113,14 @@ NS_ERROR_FAILURE
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 JSObject
 *
 obj2
 =
-nsnull
+nullptr
 ;
 nsIXPConnectWrappedNative
 *
@@ -9133,7 +9133,7 @@ GetWrappedNativeOfJSObject
 (
 aJSContext
 aJSObj
-nsnull
+nullptr
 &
 obj2
 )
@@ -9246,7 +9246,7 @@ get
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -9335,7 +9335,7 @@ JSObject
 *
 obj2
 =
-nsnull
+nullptr
 ;
 nsIXPConnectWrappedNative
 *
@@ -9348,7 +9348,7 @@ GetWrappedNativeOfJSObject
 (
 aJSContext
 aJSObj
-nsnull
+nullptr
 &
 obj2
 )
@@ -9419,7 +9419,7 @@ else
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -9510,7 +9510,7 @@ param
 *
 _retval
 =
-nsnull
+nullptr
 ;
 XPCCallContext
 ccx
@@ -10137,7 +10137,7 @@ info
 )
 info
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -11417,7 +11417,7 @@ param
 *
 aCurrentJSStack
 =
-nsnull
+nullptr
 ;
 JSContext
 *
@@ -11917,7 +11917,7 @@ NS_ERROR_FAILURE
 *
 _retval
 =
-nsnull
+nullptr
 ;
 jsval
 rval
@@ -12325,7 +12325,7 @@ XPCCallContext
 *
 ccx
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -13170,7 +13170,7 @@ showThisProps
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -13577,7 +13577,7 @@ NS_IsMainThread
 return
 Push
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -13653,7 +13653,7 @@ HandleMutations
 return
 Pop
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -15035,7 +15035,7 @@ result
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -17029,7 +17029,7 @@ nsJSPrincipals
 *
 principal
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -17083,7 +17083,7 @@ nsJSPrincipals
 *
 originPrincipal
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -17291,7 +17291,7 @@ WriteScriptOrFunction
 stream
 cx
 script
-nsnull
+nullptr
 )
 ;
 }
@@ -17319,7 +17319,7 @@ ReadScriptOrFunction
 stream
 cx
 scriptp
-nsnull
+nullptr
 )
 ;
 }
@@ -17345,7 +17345,7 @@ WriteScriptOrFunction
 (
 stream
 cx
-nsnull
+nullptr
 functionObj
 )
 ;
@@ -17373,7 +17373,7 @@ ReadScriptOrFunction
 (
 stream
 cx
-nsnull
+nullptr
 functionObjp
 )
 ;
@@ -17510,7 +17510,7 @@ true
 false
 )
 :
-nsnull
+nullptr
 ;
 }
 JS_EXPORT_API

@@ -434,7 +434,7 @@ aElement
 )
 mPopupContent
 (
-nsnull
+nullptr
 )
 mIsContext
 (
@@ -1222,7 +1222,7 @@ Tag
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -1872,7 +1872,7 @@ true
 ;
 mPopupContent
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1948,7 +1948,7 @@ child
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /

@@ -1616,7 +1616,7 @@ nsGlobalWindow
 :
 sWindowsById
 =
-nsnull
+nullptr
 ;
 bool
 nsGlobalWindow
@@ -1639,7 +1639,7 @@ nsIEntropyCollector
 *
 gEntropyCollector
 =
-nsnull
+nullptr
 ;
 static
 PRInt32
@@ -1682,7 +1682,7 @@ FILE
 *
 gDumpFile
 =
-nsnull
+nullptr
 ;
 static
 PRUint64
@@ -2642,7 +2642,7 @@ ClearWindowReference
 {
 mWindow
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -3016,7 +3016,7 @@ Forget
 {
 mWindow
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -3196,11 +3196,11 @@ aOuterWindow
 :
 mFrameElement
 (
-nsnull
+nullptr
 )
 mDocShell
 (
-nsnull
+nullptr
 )
 mModalStateDepth
 (
@@ -3208,7 +3208,7 @@ mModalStateDepth
 )
 mRunningTimeout
 (
-nsnull
+nullptr
 )
 mMutationBits
 (
@@ -3227,7 +3227,7 @@ mIsInnerWindow
 aOuterWindow
 !
 =
-nsnull
+nullptr
 )
 mMayHavePaintEventListener
 (
@@ -3255,7 +3255,7 @@ false
 )
 mInnerWindow
 (
-nsnull
+nullptr
 )
 mOuterWindow
 (
@@ -3661,7 +3661,7 @@ parent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 JSObject
@@ -4023,7 +4023,7 @@ TriState_Unknown
 )
 mTimeoutInsertionPoint
 (
-nsnull
+nullptr
 )
 mTimeoutPublicIdCounter
 (
@@ -4035,7 +4035,7 @@ mTimeoutFiringDepth
 )
 mJSObject
 (
-nsnull
+nullptr
 )
 mTimeoutsSuspendDepth
 (
@@ -4297,7 +4297,7 @@ Freeze
 ;
 mObserver
 =
-nsnull
+nullptr
 ;
 SetIsDOMBinding
 (
@@ -4443,7 +4443,7 @@ if
 gDumpFile
 =
 =
-nsnull
+nullptr
 )
 {
 const
@@ -4811,7 +4811,7 @@ mEventTargetObjects
 EnumerateEntries
 (
 DisconnectEventTargetObjects
-nsnull
+nullptr
 )
 ;
 mEventTargetObjects
@@ -5154,7 +5154,7 @@ Disconnect
 ;
 mListenerManager
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -5242,7 +5242,7 @@ this
 }
 mDocument
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -5250,7 +5250,7 @@ Forces
 Release
 mDoc
 =
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -5402,7 +5402,7 @@ gDumpFile
 }
 gDumpFile
 =
-nsnull
+nullptr
 ;
 NS_IF_RELEASE
 (
@@ -5414,7 +5414,7 @@ sWindowsById
 ;
 sWindowsById
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -5671,7 +5671,7 @@ mEventTargetObjects
 EnumerateEntries
 (
 DisconnectEventTargetObjects
-nsnull
+nullptr
 )
 ;
 mEventTargetObjects
@@ -5783,63 +5783,63 @@ mObserver
 }
 mNavigator
 =
-nsnull
+nullptr
 ;
 mScreen
 =
-nsnull
+nullptr
 ;
 mMenubar
 =
-nsnull
+nullptr
 ;
 mToolbar
 =
-nsnull
+nullptr
 ;
 mLocationbar
 =
-nsnull
+nullptr
 ;
 mPersonalbar
 =
-nsnull
+nullptr
 ;
 mStatusbar
 =
-nsnull
+nullptr
 ;
 mScrollbars
 =
-nsnull
+nullptr
 ;
 mLocation
 =
-nsnull
+nullptr
 ;
 mHistory
 =
-nsnull
+nullptr
 ;
 mFrames
 =
-nsnull
+nullptr
 ;
 mWindowUtils
 =
-nsnull
+nullptr
 ;
 mApplicationCache
 =
-nsnull
+nullptr
 ;
 mIndexedDB
 =
-nsnull
+nullptr
 ;
 mPerformance
 =
-nsnull
+nullptr
 ;
 ClearControllers
 (
@@ -5847,7 +5847,7 @@ ClearControllers
 ;
 mOpener
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -5870,7 +5870,7 @@ mContext
 endif
 mContext
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -5879,7 +5879,7 @@ Release
 }
 mChromeEventHandler
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -5887,7 +5887,7 @@ Forces
 Release
 mParentTarget
 =
-nsnull
+nullptr
 ;
 nsGlobalWindow
 *
@@ -5976,19 +5976,19 @@ Disconnect
 }
 mInnerWindowHolder
 =
-nsnull
+nullptr
 ;
 mArguments
 =
-nsnull
+nullptr
 ;
 mArgumentsLast
 =
-nsnull
+nullptr
 ;
 mArgumentsOrigin
 =
-nsnull
+nullptr
 ;
 CleanupCachedXBLHandlers
 (
@@ -6009,7 +6009,7 @@ Cancel
 ;
 mIdleTimer
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -6100,13 +6100,13 @@ context
 >
 SetCommandContext
 (
-nsnull
+nullptr
 )
 ;
 }
 mControllers
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -6205,7 +6205,7 @@ GetNativeContext
 (
 )
 :
-nsnull
+nullptr
 ;
 mozilla
 :
@@ -6281,7 +6281,7 @@ Cancel
 ;
 mIdleTimer
 =
-nsnull
+nullptr
 ;
 }
 mIdleObservers
@@ -6292,7 +6292,7 @@ Clear
 ;
 mChromeEventHandler
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6308,16 +6308,16 @@ Disconnect
 ;
 mListenerManager
 =
-nsnull
+nullptr
 ;
 }
 mLocation
 =
-nsnull
+nullptr
 ;
 mHistory
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6340,7 +6340,7 @@ Invalidate
 ;
 mNavigator
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -6357,7 +6357,7 @@ Reset
 ;
 mScreen
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -6434,15 +6434,15 @@ principal
 .
 mDocument
 =
-nsnull
+nullptr
 ;
 mDoc
 =
-nsnull
+nullptr
 ;
 mFocusedNode
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6469,12 +6469,12 @@ Disconnect
 ;
 mApplicationCache
 =
-nsnull
+nullptr
 ;
 }
 mIndexedDB
 =
-nsnull
+nullptr
 ;
 NotifyWindowIDDestroyed
 (
@@ -6916,7 +6916,7 @@ mCachedXBLPrototypeHandlers
 EnumerateRead
 (
 MarkXBLHandlers
-nsnull
+nullptr
 )
 ;
 }
@@ -7993,7 +7993,7 @@ FORWARD_TO_OUTER
 GetScriptContext
 (
 )
-nsnull
+nullptr
 )
 ;
 return
@@ -8014,7 +8014,7 @@ FORWARD_TO_OUTER
 GetContext
 (
 )
-nsnull
+nullptr
 )
 ;
 /
@@ -8653,7 +8653,7 @@ FORWARD_TO_OUTER
 GetOpenerScriptPrincipal
 (
 )
-nsnull
+nullptr
 )
 ;
 return
@@ -8856,19 +8856,19 @@ DidRestoreWindow
 {
 mInnerWindow
 =
-nsnull
+nullptr
 ;
 mInnerWindowHolder
 =
-nsnull
+nullptr
 ;
 mOuterProto
 =
-nsnull
+nullptr
 ;
 mOuterRealProto
 =
-nsnull
+nullptr
 ;
 }
 protected
@@ -9621,7 +9621,7 @@ NS_PRECONDITION
 mDocumentPrincipal
 =
 =
-nsnull
+nullptr
 "
 mDocumentPrincipal
 prematurely
@@ -10684,7 +10684,7 @@ window
 .
 mInnerWindow
 =
-nsnull
+nullptr
 ;
 Freeze
 (
@@ -10870,7 +10870,7 @@ currentInner
 >
 mNavigator
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -11417,7 +11417,7 @@ else
 {
 proto
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -12136,11 +12136,11 @@ mArgumentsOrigin
 ;
 mArguments
 =
-nsnull
+nullptr
 ;
 mArgumentsOrigin
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -12636,15 +12636,15 @@ aDocument
 ;
 mFocusedNode
 =
-nsnull
+nullptr
 ;
 mLocalStorage
 =
-nsnull
+nullptr
 ;
 mSessionStorage
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -13268,15 +13268,15 @@ document
 reference
 mDocument
 =
-nsnull
+nullptr
 ;
 mDoc
 =
-nsnull
+nullptr
 ;
 mFocusedNode
 =
-nsnull
+nullptr
 ;
 }
 ClearControllers
@@ -13285,7 +13285,7 @@ ClearControllers
 ;
 mChromeEventHandler
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -13321,15 +13321,15 @@ arguments
 .
 mArguments
 =
-nsnull
+nullptr
 ;
 mArgumentsLast
 =
-nsnull
+nullptr
 ;
 mArgumentsOrigin
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -13353,7 +13353,7 @@ SET_DOC_SHELL
 ;
 mContext
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -13380,7 +13380,7 @@ this
 endif
 mDocShell
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -13412,7 +13412,7 @@ mFrames
 >
 SetDocShell
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -13917,7 +13917,7 @@ GetJSContextForEventHandlers
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -15262,10 +15262,10 @@ nsEventDispatcher
 Dispatch
 (
 content
-nsnull
+nullptr
 &
 event
-nsnull
+nullptr
 &
 status
 )
@@ -16043,7 +16043,7 @@ GetPrincipal
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -16494,7 +16494,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aNavigator
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -16547,7 +16547,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aScreen
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -16612,7 +16612,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aHistory
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -16675,7 +16675,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aPerformance
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -16764,7 +16764,7 @@ timingEnabled
 {
 timedChannel
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -16991,7 +16991,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aParent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17241,7 +17241,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aTop
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -17387,7 +17387,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aContent
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -17730,7 +17730,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aMenubar
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17793,7 +17793,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aToolbar
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17856,7 +17856,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aLocationbar
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17919,7 +17919,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aPersonalbar
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17982,7 +17982,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aStatusbar
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -18045,7 +18045,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aScrollbars
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -18165,7 +18165,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aFrames
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -18444,7 +18444,7 @@ aPkcs11
 *
 aPkcs11
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -18604,7 +18604,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aOpener
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -19793,7 +19793,7 @@ CheckSecurityWidthAndHeight
 (
 &
 aInnerWidth
-nsnull
+nullptr
 )
 NS_ERROR_FAILURE
 )
@@ -20098,7 +20098,7 @@ NS_ENSURE_SUCCESS
 (
 CheckSecurityWidthAndHeight
 (
-nsnull
+nullptr
 &
 aInnerHeight
 )
@@ -20523,10 +20523,10 @@ aIsWidth
 &
 aLengthCSSPixels
 :
-nsnull
+nullptr
 aIsWidth
 ?
-nsnull
+nullptr
 :
 &
 aLengthCSSPixels
@@ -21302,7 +21302,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aResult
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -21506,7 +21506,7 @@ CheckSecurityLeftAndTop
 (
 &
 aScreenX
-nsnull
+nullptr
 )
 NS_ERROR_FAILURE
 )
@@ -21713,7 +21713,7 @@ NS_ENSURE_SUCCESS
 (
 CheckSecurityLeftAndTop
 (
-nsnull
+nullptr
 &
 aScreenY
 )
@@ -22815,7 +22815,7 @@ return
 GetScrollMaxXY
 (
 aScrollMaxX
-nsnull
+nullptr
 )
 ;
 }
@@ -22843,7 +22843,7 @@ aScrollMaxY
 return
 GetScrollMaxXY
 (
-nsnull
+nullptr
 aScrollMaxY
 )
 ;
@@ -23055,7 +23055,7 @@ return
 GetScrollXY
 (
 aScrollX
-nsnull
+nullptr
 false
 )
 ;
@@ -23084,7 +23084,7 @@ aScrollY
 return
 GetScrollXY
 (
-nsnull
+nullptr
 aScrollY
 false
 )
@@ -23258,7 +23258,7 @@ nsIDocShellTreeItem
 *
 callerItem
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -23410,7 +23410,7 @@ aName
 get
 (
 )
-nsnull
+nullptr
 caller
 getter_AddRefs
 (
@@ -23422,7 +23422,7 @@ return
 namedItem
 !
 =
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -23454,7 +23454,7 @@ nsIWidget
 *
 widget
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -23495,7 +23495,7 @@ GetDocShell
 NS_ENSURE_TRUE
 (
 docShell
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -23518,7 +23518,7 @@ presShell
 NS_ENSURE_TRUE
 (
 presShell
-nsnull
+nullptr
 )
 ;
 nsIFrame
@@ -23535,7 +23535,7 @@ GetRootFrame
 NS_ENSURE_TRUE
 (
 rootFrame
-nsnull
+nullptr
 )
 ;
 return
@@ -23549,7 +23549,7 @@ GetView
 >
 GetNearestWidget
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -25820,7 +25820,7 @@ GetCurrentInnerWindowInternal
 >
 mDoc
 :
-nsnull
+nullptr
 )
 ;
 if
@@ -26232,7 +26232,7 @@ GetCurrentInnerWindowInternal
 >
 mDoc
 :
-nsnull
+nullptr
 )
 ;
 if
@@ -26709,7 +26709,7 @@ GetCurrentInnerWindowInternal
 >
 mDoc
 :
-nsnull
+nullptr
 )
 ;
 bool
@@ -27671,7 +27671,7 @@ cause
 mDocShell
 to
 become
-nsnull
+nullptr
 .
 rv
 =
@@ -27735,7 +27735,7 @@ GetFocusedElementForWindow
 (
 this
 false
-nsnull
+nullptr
 getter_AddRefs
 (
 element
@@ -28131,9 +28131,9 @@ nsIWebNavigation
 :
 :
 LOAD_FLAGS_NONE
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -28285,7 +28285,7 @@ GetCurrentInnerWindowInternal
 >
 mDoc
 :
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -28450,7 +28450,7 @@ webBrowserPrint
 Print
 (
 printSettings
-nsnull
+nullptr
 )
 ;
 LeaveModalState
@@ -28529,7 +28529,7 @@ webBrowserPrint
 Print
 (
 printSettings
-nsnull
+nullptr
 )
 ;
 }
@@ -29509,7 +29509,7 @@ if
 piWin
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -31335,8 +31335,8 @@ false
 /
 /
 aDoJSFixups
-nsnull
-nsnull
+nullptr
+nullptr
 /
 /
 No
@@ -31347,7 +31347,7 @@ GetPrincipal
 /
 /
 aCalleePrincipal
-nsnull
+nullptr
 /
 /
 aJSCallerContext
@@ -31401,8 +31401,8 @@ true
 /
 /
 aDoJSFixups
-nsnull
-nsnull
+nullptr
+nullptr
 /
 /
 No
@@ -31502,7 +31502,7 @@ false
 /
 /
 aDoJSFixups
-nsnull
+nullptr
 aExtraArgument
 /
 /
@@ -31513,7 +31513,7 @@ GetPrincipal
 /
 /
 aCalleePrincipal
-nsnull
+nullptr
 /
 /
 aJSCallerContext
@@ -31564,7 +31564,7 @@ nsAXPCNativeCallContext
 *
 ncc
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -31601,7 +31601,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -31627,7 +31627,7 @@ jsval
 *
 argv
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -31736,7 +31736,7 @@ false
 /
 aDoJSFixups
 argvArray
-nsnull
+nullptr
 /
 /
 Arguments
@@ -31840,7 +31840,7 @@ C
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -31895,7 +31895,7 @@ C
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 JSObject
@@ -31921,7 +31921,7 @@ scope
 )
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -31953,7 +31953,7 @@ if
 wrapper
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -32095,7 +32095,7 @@ aCallerOrigin
 )
 mMessage
 (
-nsnull
+nullptr
 )
 mMessageLen
 (
@@ -32419,7 +32419,7 @@ cx
 reader
 tag
 data
-nsnull
+nullptr
 )
 ;
 }
@@ -32628,7 +32628,7 @@ write
 cx
 writer
 obj
-nsnull
+nullptr
 )
 ;
 }
@@ -32642,7 +32642,7 @@ kPostMessageCallbacks
 {
 PostMessageReadStructuredClone
 PostMessageWriteStructuredClone
-nsnull
+nullptr
 }
 ;
 }
@@ -32715,7 +32715,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 nsIScriptContext
 *
@@ -32879,7 +32879,7 @@ mMessageLen
 ;
 mMessage
 =
-nsnull
+nullptr
 ;
 mMessageLen
 =
@@ -34219,7 +34219,7 @@ IsCallerChrome
 !
 callerInnerWin
 ?
-nsnull
+nullptr
 :
 callerInnerWin
 -
@@ -35187,7 +35187,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -35753,7 +35753,7 @@ window
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -35886,7 +35886,7 @@ activeShell
 >
 SetCapturingContent
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -35982,7 +35982,7 @@ else
 {
 mSuspendedDoc
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -36134,7 +36134,7 @@ inner
 >
 RunTimeout
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -36499,7 +36499,7 @@ mSuspendedDoc
 ;
 mSuspendedDoc
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -36696,7 +36696,7 @@ nsIScriptGlobalObject
 aWindow
 )
 DOM_WINDOW_DESTROYED_TOPIC
-nsnull
+nullptr
 )
 ;
 }
@@ -36805,7 +36805,7 @@ mTopic
 get
 (
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -37108,7 +37108,7 @@ nsIScriptGlobalObject
 aWindow
 )
 DOM_WINDOW_FROZEN_TOPIC
-nsnull
+nullptr
 )
 ;
 }
@@ -37173,7 +37173,7 @@ nsIScriptGlobalObject
 aWindow
 )
 DOM_WINDOW_THAWED_TOPIC
-nsnull
+nullptr
 )
 ;
 }
@@ -37195,7 +37195,7 @@ JSObject
 *
 handler
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -38520,7 +38520,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aRetVal
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -38681,7 +38681,7 @@ true
 /
 /
 aDoJSFixups
-nsnull
+nullptr
 aArgs
 /
 /
@@ -38692,7 +38692,7 @@ GetPrincipal
 /
 /
 aCalleePrincipal
-nsnull
+nullptr
 /
 /
 aJSCallerContext
@@ -39157,7 +39157,7 @@ aSelection
 *
 aSelection
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -40039,7 +40039,7 @@ DispatchDOMEvent
 GetOuterWindow
 (
 )
-nsnull
+nullptr
 aEvent
 presContext
 &
@@ -40351,7 +40351,7 @@ GetListenerManager
 (
 aCreateIfNotFound
 )
-nsnull
+nullptr
 )
 ;
 if
@@ -40429,7 +40429,7 @@ GetCurrentInnerWindow
 =
 =
 this
-nsnull
+nullptr
 )
 ;
 }
@@ -40458,7 +40458,7 @@ scx
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -40639,7 +40639,7 @@ FORWARD_TO_OUTER
 GetPrivateParent
 (
 )
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -40693,7 +40693,7 @@ if
 chromeElement
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -40723,7 +40723,7 @@ if
 doc
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -40753,7 +40753,7 @@ if
 globalObject
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -40802,7 +40802,7 @@ get
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsPIDOMWindow
@@ -40819,7 +40819,7 @@ FORWARD_TO_OUTER
 GetPrivateRoot
 (
 )
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -40863,7 +40863,7 @@ if
 ptop
 )
 return
-nsnull
+nullptr
 ;
 nsIDocShell
 *
@@ -41033,7 +41033,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 aLocation
 =
-nsnull
+nullptr
 ;
 nsIDocShell
 *
@@ -41382,7 +41382,7 @@ aDocument
 EnumerateSubDocuments
 (
 NotifyDocumentTree
-nsnull
+nullptr
 )
 ;
 aDocument
@@ -41418,7 +41418,7 @@ aActive
 NotifyDocumentTree
 (
 mDoc
-nsnull
+nullptr
 )
 ;
 }
@@ -41555,7 +41555,7 @@ nsIDOMWindow
 this
 )
 DOM_TOUCH_LISTENER_ADDED
-nsnull
+nullptr
 )
 ;
 }
@@ -41916,7 +41916,7 @@ window
 ;
 aNode
 =
-nsnull
+nullptr
 ;
 aNeedsFocus
 =
@@ -42578,7 +42578,7 @@ GetRootElement
 )
 !
 =
-nsnull
+nullptr
 )
 {
 mNeedsFocus
@@ -43139,7 +43139,7 @@ nsEventDispatcher
 CreateEvent
 (
 presContext
-nsnull
+nullptr
 NS_LITERAL_STRING
 (
 "
@@ -43464,7 +43464,7 @@ nsEventDispatcher
 CreateEvent
 (
 presContext
-nsnull
+nullptr
 NS_LITERAL_STRING
 (
 "
@@ -43695,7 +43695,7 @@ GetNextSibling
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -44070,7 +44070,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -44219,7 +44219,7 @@ docShell
 *
 aSessionStorage
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -44240,7 +44240,7 @@ kStorageEnabled
 *
 aSessionStorage
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -44340,7 +44340,7 @@ canAccess
 {
 mSessionStorage
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -44354,7 +44354,7 @@ mSessionStorage
 *
 aSessionStorage
 =
-nsnull
+nullptr
 ;
 nsString
 documentURI
@@ -44557,7 +44557,7 @@ kStorageEnabled
 *
 aLocalStorage
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -44572,7 +44572,7 @@ mLocalStorage
 *
 aLocalStorage
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -44963,7 +44963,7 @@ thirdPartyUtil
 IsThirdPartyWindow
 (
 this
-nsnull
+nullptr
 &
 isThirdParty
 )
@@ -44999,7 +44999,7 @@ window
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -45251,7 +45251,7 @@ aSink
 *
 aSink
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -47494,7 +47494,7 @@ rv
 ;
 mIdleService
 =
-nsnull
+nullptr
 ;
 mIdleTimer
 -
@@ -48756,7 +48756,7 @@ storage2
 -
 changed
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -49131,7 +49131,7 @@ FORWARD_TO_OUTER
 GetParentInternal
 (
 )
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -49387,7 +49387,7 @@ noscript
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -49507,7 +49507,7 @@ on
 it
 to
 return
-nsnull
+nullptr
 until
 we
 write
@@ -49875,7 +49875,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 options
 .
@@ -49894,7 +49894,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 name
 .
@@ -50097,7 +50097,7 @@ stack
 >
 Push
 (
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -52164,7 +52164,7 @@ char
 *
 filename
 =
-nsnull
+nullptr
 ;
 PRUint32
 lineNo
@@ -52226,7 +52226,7 @@ mPrincipal
 filename
 lineNo
 JSVERSION_DEFAULT
-nsnull
+nullptr
 &
 is_undefined
 )
@@ -52283,7 +52283,7 @@ to
 /
 /
 accept
-nsnull
+nullptr
 ?
 getter_AddRefs
 (
@@ -52536,7 +52536,7 @@ aTimeout
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 aTimeout
 -
@@ -53005,7 +53005,7 @@ timeout
 mTimer
 =
 =
-nsnull
+nullptr
 )
 .
 aTimeout
@@ -53023,7 +53023,7 @@ aTimeout
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -53387,7 +53387,7 @@ deadline
 .
 last_expired_timeout
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -54017,7 +54017,7 @@ aTimeout
 =
 /
 /
-nsnull
+nullptr
 )
 but
 now
@@ -54376,7 +54376,7 @@ Cancel
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 delete
@@ -54549,7 +54549,7 @@ timeout
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 timeout
 -
@@ -55361,7 +55361,7 @@ timeout
 )
 mTimeoutInsertionPoint
 =
-nsnull
+nullptr
 ;
 nextTimeout
 =
@@ -55395,7 +55395,7 @@ timeout
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -55976,7 +55976,7 @@ docShellAsItem
 *
 aTreeOwner
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -56082,7 +56082,7 @@ treeOwner
 *
 aTreeOwner
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -56160,7 +56160,7 @@ FORWARD_TO_OUTER
 GetScrollFrame
 (
 )
-nsnull
+nullptr
 )
 ;
 if
@@ -56170,7 +56170,7 @@ mDocShell
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -56205,7 +56205,7 @@ GetRootScrollFrameAsScrollable
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -56243,12 +56243,12 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 *
 aBuiltURI
 =
-nsnull
+nullptr
 ;
 *
 aFreeSecurityPass
@@ -56262,7 +56262,7 @@ aCXused
 *
 aCXused
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -56512,7 +56512,7 @@ nsIURI
 *
 baseURI
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -56883,7 +56883,7 @@ state
 *
 aState
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -57576,7 +57576,7 @@ GetNativeContext
 (
 )
 :
-nsnull
+nullptr
 ;
 mozilla
 :
@@ -57712,7 +57712,7 @@ t
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -58153,7 +58153,7 @@ GetNativeContext
 (
 )
 :
-nsnull
+nullptr
 ;
 mozilla
 :
@@ -58468,7 +58468,7 @@ t
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -59272,7 +59272,7 @@ app
 app
 !
 =
-nsnull
+nullptr
 :
 false
 ;
@@ -59423,7 +59423,7 @@ aApplication
 *
 aApplication
 =
-nsnull
+nullptr
 ;
 FORWARD_TO_OUTER
 (
@@ -60510,7 +60510,7 @@ rootView
 >
 GetNearestWidget
 (
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -60540,7 +60540,7 @@ EventStateManager
 SetCursor
 (
 cursor
-nsnull
+nullptr
 false
 0
 .
@@ -60932,10 +60932,10 @@ new
 nsFrameMessageManager
 (
 true
-nsnull
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
+nullptr
 static_cast
 <
 nsFrameMessageManager
@@ -61103,7 +61103,7 @@ else
 *
 aArguments
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -61224,7 +61224,7 @@ document
 .
 mReturnValue
 =
-nsnull
+nullptr
 ;
 return
 nsGlobalWindow

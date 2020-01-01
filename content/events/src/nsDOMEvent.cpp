@@ -1045,7 +1045,7 @@ IsInAnonymousSubtree
 {
 mExplicitOriginalTarget
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1139,7 +1139,7 @@ mEvent
 >
 target
 =
-nsnull
+nullptr
 ;
 tmp
 -
@@ -1149,7 +1149,7 @@ mEvent
 >
 currentTarget
 =
-nsnull
+nullptr
 ;
 tmp
 -
@@ -1159,7 +1159,7 @@ mEvent
 >
 originalTarget
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -1199,7 +1199,7 @@ mEvent
 >
 relatedTarget
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -1221,7 +1221,7 @@ mEvent
 >
 dataTransfer
 =
-nsnull
+nullptr
 ;
 static_cast
 <
@@ -1238,7 +1238,7 @@ mEvent
 >
 relatedTarget
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -1260,7 +1260,7 @@ mEvent
 >
 mRelatedNode
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -1738,7 +1738,7 @@ mPresContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1778,7 +1778,7 @@ targetFrame
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2118,7 +2118,7 @@ aArgv
 ]
 )
 :
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2511,7 +2511,7 @@ if
 window
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3041,14 +3041,14 @@ mEvent
 >
 target
 =
-nsnull
+nullptr
 ;
 mEvent
 -
 >
 originalTarget
 =
-nsnull
+nullptr
 ;
 mCachedType
 =
@@ -3109,7 +3109,7 @@ nsEvent
 *
 newEvent
 =
-nsnull
+nullptr
 ;
 PRUint32
 msg
@@ -3170,7 +3170,7 @@ nsGUIEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 break
@@ -3189,7 +3189,7 @@ nsSizeEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -3250,7 +3250,7 @@ nsSizeModeEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -3299,7 +3299,7 @@ nsZLevelEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -3369,7 +3369,7 @@ nsScrollbarEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -3416,7 +3416,7 @@ nsInputEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 isInputEvent
@@ -3439,7 +3439,7 @@ nsKeyEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -3538,7 +3538,7 @@ nsMouseEvent
 (
 false
 msg
-nsnull
+nullptr
 oldMouseEvent
 -
 >
@@ -3668,7 +3668,7 @@ nsDragEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -3829,7 +3829,7 @@ nsTextEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 isInputEvent
@@ -3852,7 +3852,7 @@ nsCompositionEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 nsCompositionEvent
@@ -3898,7 +3898,7 @@ nsMouseScrollEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -4016,7 +4016,7 @@ nsScrollPortEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -4065,7 +4065,7 @@ nsScrollAreaEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -4203,7 +4203,7 @@ nsAccessibleEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 isInputEvent
@@ -4303,7 +4303,7 @@ nsInputEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -4351,7 +4351,7 @@ mEvent
 -
 >
 command
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -4430,7 +4430,7 @@ nsGUIEvent
 (
 false
 msg
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -4505,7 +4505,7 @@ nsSimpleGestureEvent
 (
 false
 msg
-nsnull
+nullptr
 0
 0
 .
@@ -4671,7 +4671,7 @@ nsMozTouchEvent
 (
 false
 msg
-nsnull
+nullptr
 static_cast
 <
 nsMozTouchEvent
@@ -4895,7 +4895,7 @@ newEvent
 ;
 mPresContext
 =
-nsnull
+nullptr
 ;
 mEventIsInternal
 =
@@ -8079,7 +8079,7 @@ nsDOMEvent
 .
 )
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -8413,7 +8413,7 @@ aEvent
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 it

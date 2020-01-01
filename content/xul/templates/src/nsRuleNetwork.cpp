@@ -932,7 +932,7 @@ true
 *
 aValue
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -1995,7 +1995,7 @@ rv
 FilterInstantiations
 (
 aInstantiations
-nsnull
+nullptr
 )
 ;
 if
@@ -2507,7 +2507,7 @@ rv
 FilterInstantiations
 (
 aInstantiations
-nsnull
+nullptr
 )
 ;
 }
@@ -2645,7 +2645,7 @@ ReteNodeSet
 :
 mNodes
 (
-nsnull
+nullptr
 )
 mCount
 (
@@ -2686,7 +2686,7 @@ NS_PRECONDITION
 aNode
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2806,7 +2806,7 @@ mNodes
 ;
 mNodes
 =
-nsnull
+nullptr
 ;
 mCount
 =

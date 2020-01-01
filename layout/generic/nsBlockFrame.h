@@ -1580,7 +1580,7 @@ coord
 y
 '
 or
-nsnull
+nullptr
 if
 you
 must
@@ -1917,7 +1917,7 @@ the
 bullet
 frame
 or
-nsnull
+nullptr
 if
 we
 don
@@ -2517,7 +2517,7 @@ endif
 NS_DECLARE_FRAME_PROPERTY
 (
 LineCursorProperty
-nsnull
+nullptr
 )
 nsLineBox
 *
@@ -2552,7 +2552,7 @@ LineCursorProperty
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 nsLineBox
@@ -4333,7 +4333,7 @@ the
 pulled
 frame
 or
-nsnull
+nullptr
 *
 /
 nsIFrame
@@ -4458,7 +4458,7 @@ the
 pulled
 frame
 or
-nsnull
+nullptr
 *
 /
 nsIFrame
@@ -5046,7 +5046,7 @@ inside
 bullet
 frame
 or
-nsnull
+nullptr
 if
 we
 don
@@ -5074,7 +5074,7 @@ outside
 bullet
 frame
 or
-nsnull
+nullptr
 if
 we
 don

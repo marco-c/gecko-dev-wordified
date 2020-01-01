@@ -189,7 +189,7 @@ nsHtml5Module
 :
 sStreamParserThread
 =
-nsnull
+nullptr
 ;
 nsIThread
 *
@@ -198,7 +198,7 @@ nsHtml5Module
 :
 sMainThread
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -597,7 +597,7 @@ Shutdown
 ;
 mThread
 =
-nsnull
+nullptr
 ;
 }
 return

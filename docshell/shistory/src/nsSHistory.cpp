@@ -329,7 +329,7 @@ kObservedPrefs
 {
 PREF_SHISTORY_SIZE
 PREF_SHISTORY_MAX_TOTAL_VIEWERS
-nsnull
+nullptr
 }
 ;
 static
@@ -917,7 +917,7 @@ nsSHistoryObserver
 *
 gObserver
 =
-nsnull
+nullptr
 ;
 NS_IMPL_ISUPPORTS1
 (
@@ -1040,7 +1040,7 @@ entry
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -1217,7 +1217,7 @@ ownerEntry
 >
 SetContentViewer
 (
-nsnull
+nullptr
 )
 ;
 ownerEntry
@@ -1417,7 +1417,7 @@ nsSHistory
 :
 mListRoot
 (
-nsnull
+nullptr
 )
 mIndex
 (
@@ -4056,7 +4056,7 @@ mListRoot
 >
 SetNext
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -4074,7 +4074,7 @@ mListRoot
 >
 SetPrev
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -4285,7 +4285,7 @@ mListener
 {
 mListener
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -8011,7 +8011,7 @@ txToRemove
 >
 SetNext
 (
-nsnull
+nullptr
 )
 ;
 txToRemove
@@ -8019,7 +8019,7 @@ txToRemove
 >
 SetPrev
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -8048,7 +8048,7 @@ txToKeep
 >
 SetPrev
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -8879,7 +8879,7 @@ aURI
 *
 aURI
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -10203,7 +10203,7 @@ nsIDocShell
 *
 dsChild
 =
-nsnull
+nullptr
 ;
 PRInt32
 count
@@ -10895,7 +10895,7 @@ nsSHEnumerator
 {
 mSHistory
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_ISUPPORTS1

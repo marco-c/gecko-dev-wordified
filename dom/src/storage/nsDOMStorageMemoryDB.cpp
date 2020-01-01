@@ -305,7 +305,7 @@ NS_OK
 *
 aMemoryStorage
 =
-nsnull
+nullptr
 ;
 nsInMemoryStorage
 *

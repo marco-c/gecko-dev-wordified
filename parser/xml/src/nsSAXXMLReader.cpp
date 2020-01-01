@@ -2098,7 +2098,7 @@ rv
 =
 InitParser
 (
-nsnull
+nullptr
 parserChannel
 )
 ;
@@ -2116,7 +2116,7 @@ mListener
 OnStartRequest
 (
 parserChannel
-nsnull
+nullptr
 )
 ;
 if
@@ -2312,7 +2312,7 @@ mListener
 OnDataAvailable
 (
 parserChannel
-nsnull
+nullptr
 aStream
 offset
 available
@@ -2357,13 +2357,13 @@ mListener
 OnStopRequest
 (
 parserChannel
-nsnull
+nullptr
 status
 )
 ;
 mListener
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -2468,7 +2468,7 @@ this
 anymore
 mParserObserver
 =
-nsnull
+nullptr
 ;
 return
 mListener
@@ -2523,7 +2523,7 @@ status
 ;
 mListener
 =
-nsnull
+nullptr
 ;
 mIsAsyncParse
 =

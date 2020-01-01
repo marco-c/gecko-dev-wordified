@@ -5683,7 +5683,7 @@ aBuf
 aBufLength
 &
 offset
-nsnull
+nullptr
 &
 symbol
 )
@@ -10781,7 +10781,7 @@ ascii
 1
 *
 /
-nsnull
+nullptr
 /
 *
 spec
@@ -10863,7 +10863,7 @@ Shift_JIS
 ENCODING_ID_MICROSOFT_PRC
 *
 /
-nsnull
+nullptr
 /
 *
 [
@@ -10883,7 +10883,7 @@ Big5
 ENCODING_ID_MICROSOFT_WANSUNG
 *
 /
-nsnull
+nullptr
 /
 *
 [
@@ -10905,7 +10905,7 @@ johab
 reserved
 *
 /
-nsnull
+nullptr
 /
 *
 [
@@ -10914,7 +10914,7 @@ nsnull
 reserved
 *
 /
-nsnull
+nullptr
 /
 *
 [
@@ -10923,7 +10923,7 @@ nsnull
 reserved
 *
 /
-nsnull
+nullptr
 /
 *
 [
@@ -11000,7 +11000,7 @@ a
 converter
 /
 /
-nsnull
+nullptr
 unknown
 charset
 do
@@ -11056,7 +11056,7 @@ searchValue
 {
 aScript
 aLanguage
-nsnull
+nullptr
 }
 ;
 for
@@ -11236,7 +11236,7 @@ break
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -11321,7 +11321,7 @@ csName
 {
 /
 /
-nsnull
+nullptr
 -
 >
 unknown

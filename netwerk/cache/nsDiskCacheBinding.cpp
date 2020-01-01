@@ -443,7 +443,7 @@ header
 >
 mBinding
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -810,11 +810,11 @@ entry
 )
 mStreamIO
 (
-nsnull
+nullptr
 )
 mDeactivateEvent
 (
-nsnull
+nullptr
 )
 {
 NS_ASSERTION
@@ -1286,7 +1286,7 @@ PL_DHashTableInit
 table
 &
 ops
-nsnull
+nullptr
 sizeof
 (
 HashTableEntry
@@ -1388,7 +1388,7 @@ data
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsDiskCacheBinding
@@ -1408,7 +1408,7 @@ if
 binding
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -1457,11 +1457,11 @@ entry
 >
 SetData
 (
-nsnull
+nullptr
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1544,7 +1544,7 @@ hashEntry
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -1614,7 +1614,7 @@ hashEntry
 mBinding
 )
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1755,7 +1755,7 @@ hashEntry
 mBinding
 =
 =
-nsnull
+nullptr
 )
 {
 hashEntry
@@ -2304,7 +2304,7 @@ disk
 cache
 binding
 =
-nsnull
+nullptr
 !
 "
 )

@@ -168,7 +168,7 @@ nsRenderingContext
 *
 aRenderingContext
 =
-nsnull
+nullptr
 /
 /
 see
@@ -181,7 +181,7 @@ nsHTMLReflowState
 *
 aOuterReflowState
 =
-nsnull
+nullptr
 PRUint16
 aReflowDepth
 =

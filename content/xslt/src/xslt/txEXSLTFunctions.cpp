@@ -889,7 +889,7 @@ nsDependentAtomString
 (
 aName
 )
-nsnull
+nullptr
 kNameSpaceID_None
 getter_AddRefs
 (
@@ -1741,7 +1741,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (

@@ -187,7 +187,7 @@ nsUnixSystemProxySettings
 {
 mProxyFactory
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -344,7 +344,7 @@ char
 *
 proxyArray
 =
-nsnull
+nullptr
 ;
 proxyArray
 =
@@ -514,8 +514,8 @@ proxyArray
 c
 ]
 )
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 proxyURI

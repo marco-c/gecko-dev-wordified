@@ -2731,7 +2731,7 @@ mUniversalRules
 )
 mEnumList
 (
-nsnull
+nullptr
 )
 mEnumListSize
 (
@@ -2800,25 +2800,25 @@ mTagTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 mIdTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 mClassTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 mNameSpaceTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 RuleHash
@@ -3142,7 +3142,7 @@ destructors
 .
 if
 (
-nsnull
+nullptr
 !
 =
 mEnumList
@@ -3400,7 +3400,7 @@ mSelector
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 selector
@@ -3432,7 +3432,7 @@ ops
 RuleHash_IdTable_CSOps
 .
 ops
-nsnull
+nullptr
 sizeof
 (
 RuleHashTableEntry
@@ -3464,7 +3464,7 @@ mIdSelectors
 else
 if
 (
-nsnull
+nullptr
 !
 =
 selector
@@ -3496,7 +3496,7 @@ ops
 RuleHash_ClassTable_CSOps
 .
 ops
-nsnull
+nullptr
 sizeof
 (
 RuleHashTableEntry
@@ -3558,7 +3558,7 @@ PL_DHashTableInit
 mTagTable
 &
 RuleHash_TagTable_Ops
-nsnull
+nullptr
 sizeof
 (
 RuleHashTagTableEntry
@@ -3647,7 +3647,7 @@ PL_DHashTableInit
 mNameSpaceTable
 &
 RuleHash_NameSpaceTable_Ops
-nsnull
+nullptr
 sizeof
 (
 RuleHashTableEntry
@@ -4288,7 +4288,7 @@ mTreeMatchContext
 .
 mAncestorFilter
 :
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -5115,7 +5115,7 @@ aMedium
 )
 mNext
 (
-nsnull
+nullptr
 )
 mQuirksMode
 (
@@ -5161,7 +5161,7 @@ PL_DHashTableInit
 mAttributeSelectors
 &
 AtomSelector_CSOps
-nsnull
+nullptr
 sizeof
 (
 AtomSelectorEntry
@@ -5175,7 +5175,7 @@ PL_DHashTableInit
 mAnonBoxRules
 &
 RuleHash_TagTable_Ops
-nsnull
+nullptr
 sizeof
 (
 RuleHashTagTableEntry
@@ -5196,7 +5196,7 @@ ops
 :
 &
 AtomSelector_CSOps
-nsnull
+nullptr
 sizeof
 (
 AtomSelectorEntry
@@ -5217,7 +5217,7 @@ ops
 :
 &
 AtomSelector_CSOps
-nsnull
+nullptr
 sizeof
 (
 AtomSelectorEntry
@@ -5244,7 +5244,7 @@ PL_DHashTableInit
 mXULTreeRules
 &
 RuleHash_TagTable_Ops
-nsnull
+nullptr
 sizeof
 (
 RuleHashTagTableEntry
@@ -5720,7 +5720,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 return
 &
@@ -5791,11 +5791,11 @@ aSheets
 )
 mRuleCascades
 (
-nsnull
+nullptr
 )
 mLastPresContext
 (
-nsnull
+nullptr
 )
 mSheetType
 (
@@ -6824,7 +6824,7 @@ sSystemMetrics
 ;
 sSystemMetrics
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -8748,7 +8748,7 @@ nsIContent
 *
 child
 =
-nsnull
+nullptr
 ;
 PRInt32
 index
@@ -8829,7 +8829,7 @@ return
 child
 =
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -9034,7 +9034,7 @@ bool
 const
 aDependence
 =
-nsnull
+nullptr
 )
 {
 NS_PRECONDITION
@@ -9504,7 +9504,7 @@ isNegated
 aDependence
 !
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -9754,7 +9754,7 @@ nsIContent
 *
 child
 =
-nsnull
+nullptr
 ;
 PRInt32
 index
@@ -9932,7 +9932,7 @@ if
 child
 !
 =
-nsnull
+nullptr
 )
 {
 return
@@ -9951,7 +9951,7 @@ ePseudoClass_lang
 {
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 pseudoClass
@@ -10485,7 +10485,7 @@ nsIContent
 *
 firstNode
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -10616,7 +10616,7 @@ nsIContent
 *
 lastNode
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -10923,7 +10923,7 @@ nsIContent
 *
 child
 =
-nsnull
+nullptr
 ;
 PRInt32
 index
@@ -12572,7 +12572,7 @@ Element
 *
 element
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -13845,7 +13845,7 @@ mSelector
 mNext
 aData
 nodeContext
-nsnull
+nullptr
 )
 ;
 }
@@ -15987,7 +15987,7 @@ mRuleCascades
 ;
 mRuleCascades
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -17494,7 +17494,7 @@ aSelector
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 }
@@ -17561,7 +17561,7 @@ PerWeightData
 :
 mRuleSelectorPairs
 (
-nsnull
+nullptr
 )
 mTail
 (
@@ -17784,7 +17784,7 @@ PL_DHashTableInit
 mRulesByWeight
 &
 gRulesByWeightOps
-nsnull
+nullptr
 sizeof
 (
 RuleByWeightEntry
@@ -17796,7 +17796,7 @@ mRulesByWeight
 .
 ops
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -19147,7 +19147,7 @@ sizeof
 PerWeightData
 )
 CompareWeightData
-nsnull
+nullptr
 )
 ;
 /

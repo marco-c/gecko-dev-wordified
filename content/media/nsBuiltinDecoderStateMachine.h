@@ -1837,7 +1837,7 @@ ReleaseDecoder
 {
 mDecoder
 =
-nsnull
+nullptr
 ;
 }
 /

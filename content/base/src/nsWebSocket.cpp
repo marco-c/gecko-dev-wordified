@@ -944,7 +944,7 @@ mScriptFile
 get
 (
 )
-nsnull
+nullptr
 mScriptLine
 0
 nsIScriptError
@@ -1179,7 +1179,7 @@ onclose
 asynchronously
 ScheduleConnectionCloseEvents
 (
-nsnull
+nullptr
 (
 aReasonCode
 =
@@ -1484,7 +1484,7 @@ loadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 NS_OK
 )
 ;
@@ -1567,7 +1567,7 @@ DontKeepAliveAnyMore
 ;
 mChannel
 =
-nsnull
+nullptr
 ;
 mDisconnected
 =
@@ -4791,7 +4791,7 @@ loadGroup
 AddRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4863,7 +4863,7 @@ AsyncOpen
 mURI
 asciiOrigin
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5046,8 +5046,8 @@ getter_AddRefs
 (
 event
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5106,10 +5106,10 @@ rv
 return
 DispatchDOMEvent
 (
-nsnull
+nullptr
 event
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -5408,8 +5408,8 @@ getter_AddRefs
 (
 event
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5449,7 +5449,7 @@ mUTF16Origin
 EmptyString
 (
 )
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5477,10 +5477,10 @@ rv
 return
 DispatchDOMEvent
 (
-nsnull
+nullptr
 event
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -5602,7 +5602,7 @@ scope
 blob
 &
 jsData
-nsnull
+nullptr
 true
 )
 ;
@@ -5696,8 +5696,8 @@ getter_AddRefs
 (
 event
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5762,10 +5762,10 @@ rv
 return
 DispatchDOMEvent
 (
-nsnull
+nullptr
 event
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -8048,7 +8048,7 @@ PRUnichar
 *
 data
 =
-nsnull
+nullptr
 ;
 PRUint32
 len
@@ -8567,7 +8567,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8938,7 +8938,7 @@ originDoc
 EmptyCString
 (
 )
-nsnull
+nullptr
 &
 shouldLoad
 nsContentUtils
@@ -9663,7 +9663,7 @@ aLoadGroup
 *
 aLoadGroup
 =
-nsnull
+nullptr
 ;
 nsresult
 rv

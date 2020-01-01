@@ -738,7 +738,7 @@ GetPrimaryFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -797,7 +797,7 @@ false
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -831,7 +831,7 @@ out
 .
 mFrame
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -1253,7 +1253,7 @@ nsGkAtoms
 :
 :
 svgFilterFrame
-nsnull
+nullptr
 )
 )
 ;
@@ -1833,7 +1833,7 @@ if
 aURI
 )
 return
-nsnull
+nullptr
 ;
 FrameProperties
 props
@@ -1885,7 +1885,7 @@ if
 prop
 )
 return
-nsnull
+nullptr
 ;
 NS_ADDREF
 (
@@ -2055,7 +2055,7 @@ if
 aURI
 )
 return
-nsnull
+nullptr
 ;
 FrameProperties
 props
@@ -2348,7 +2348,7 @@ if
 mClipPath
 )
 return
-nsnull
+nullptr
 ;
 nsSVGClipPathFrame
 *
@@ -2421,7 +2421,7 @@ if
 mMask
 )
 return
-nsnull
+nullptr
 ;
 return
 static_cast
@@ -2737,7 +2737,7 @@ GetStyleSVGReset
 mFilter
 )
 return
-nsnull
+nullptr
 ;
 return
 static_cast

@@ -455,11 +455,11 @@ InlineBackgroundData
 :
 mFrame
 (
-nsnull
+nullptr
 )
 mBlockFrame
 (
-nsnull
+nullptr
 )
 {
 }
@@ -496,7 +496,7 @@ mFrame
 =
 mBlockFrame
 =
-nsnull
+nullptr
 ;
 }
 nsRect
@@ -1988,7 +1988,7 @@ InlineBackgroundData
 *
 gInlineBGData
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2051,7 +2051,7 @@ gInlineBGData
 ;
 gInlineBGData
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -4489,7 +4489,7 @@ outlineStyles
 outlineWidths
 outlineRadii
 outlineColors
-nsnull
+nullptr
 0
 bgColor
 )
@@ -4758,7 +4758,7 @@ focusStyles
 focusWidths
 focusRadii
 focusColors
-nsnull
+nullptr
 0
 NS_RGB
 (
@@ -5286,7 +5286,7 @@ nsIFrame
 *
 frame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7273,7 +7273,7 @@ useSkipGfxRect
 &
 skipGfxRect
 :
-nsnull
+nullptr
 nativeTheme
 ?
 nsContextBoxBlur
@@ -17307,7 +17307,7 @@ nsIFrame
 *
 pageContentFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -22783,7 +22783,7 @@ nsBlockFrame
 *
 block
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -25817,15 +25817,15 @@ GetType
 )
 mImageContainer
 (
-nsnull
+nullptr
 )
 mGradientData
 (
-nsnull
+nullptr
 )
 mPaintServerFrame
 (
-nsnull
+nullptr
 )
 mIsReady
 (
@@ -28820,7 +28820,7 @@ mType
 eStyleImageType_Image
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -28859,7 +28859,7 @@ rv
 img
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -28883,7 +28883,7 @@ container
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -29087,10 +29087,10 @@ IsEmpty
 {
 mContext
 =
-nsnull
+nullptr
 ;
 return
-nsnull
+nullptr
 ;
 }
 gfxFloat

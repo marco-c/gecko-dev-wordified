@@ -291,7 +291,7 @@ Shutdown
 {
 mOwner
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -620,7 +620,7 @@ Disconnect
 {
 mNotification
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP

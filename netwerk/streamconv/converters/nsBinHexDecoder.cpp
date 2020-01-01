@@ -283,11 +283,11 @@ mPosOutputBuff
 {
 mDataBuffer
 =
-nsnull
+nullptr
 ;
 mOutgoingBuffer
 =
-nsnull
+nullptr
 ;
 mOctetBuf
 .

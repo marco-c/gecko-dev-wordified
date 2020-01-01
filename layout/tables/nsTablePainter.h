@@ -1243,7 +1243,7 @@ ColData
 {
 mColGroup
 =
-nsnull
+nullptr
 ;
 }
 }

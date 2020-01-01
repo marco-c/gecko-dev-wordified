@@ -495,7 +495,7 @@ parent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -524,7 +524,7 @@ section
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -608,7 +608,7 @@ result
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -2238,7 +2238,7 @@ nsGkAtoms
 height
 }
 {
-nsnull
+nullptr
 }
 }
 ;

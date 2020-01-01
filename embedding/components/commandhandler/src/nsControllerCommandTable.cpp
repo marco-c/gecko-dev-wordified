@@ -660,7 +660,7 @@ get
 )
 !
 =
-nsnull
+nullptr
 )
 ;
 return
@@ -984,7 +984,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

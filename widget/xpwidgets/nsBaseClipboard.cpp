@@ -137,11 +137,11 @@ nsBaseClipboard
 {
 mClipboardOwner
 =
-nsnull
+nullptr
 ;
 mTransferable
 =
-nsnull
+nullptr
 ;
 mIgnoreEmptyNotification
 =

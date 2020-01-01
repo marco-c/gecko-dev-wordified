@@ -585,7 +585,7 @@ docHeight
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 if
@@ -616,7 +616,7 @@ docY
 docHeight
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -649,7 +649,7 @@ GetChildAt
 NS_ENSURE_TRUE
 (
 child
-nsnull
+nullptr
 )
 ;
 if
@@ -1103,7 +1103,7 @@ mChildren
 SafeElementAt
 (
 0
-nsnull
+nullptr
 )
 ;
 if
@@ -1571,7 +1571,7 @@ mChildren
 SafeElementAt
 (
 0
-nsnull
+nullptr
 )
 ;
 if

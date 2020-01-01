@@ -192,7 +192,7 @@ false
 )
 mImageBuffer
 (
-nsnull
+nullptr
 )
 mImageBufferSize
 (
@@ -208,11 +208,11 @@ mImageBufferReadPoint
 )
 mCallback
 (
-nsnull
+nullptr
 )
 mCallbackTarget
 (
-nsnull
+nullptr
 )
 mNotifyThreshold
 (
@@ -248,7 +248,7 @@ mImageBuffer
 ;
 mImageBuffer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -474,7 +474,7 @@ if
 mImageBuffer
 !
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_ALREADY_INITIALIZED
@@ -1331,7 +1331,7 @@ if
 mImageBuffer
 !
 =
-nsnull
+nullptr
 )
 {
 PR_Free
@@ -1341,7 +1341,7 @@ mImageBuffer
 ;
 mImageBuffer
 =
-nsnull
+nullptr
 ;
 mImageBufferSize
 =
@@ -2565,7 +2565,7 @@ that
 >
 mImageBuffer
 =
-nsnull
+nullptr
 ;
 that
 -
@@ -3077,11 +3077,11 @@ reenter
 AsyncWait
 mCallback
 =
-nsnull
+nullptr
 ;
 mCallbackTarget
 =
-nsnull
+nullptr
 ;
 mNotifyThreshold
 =

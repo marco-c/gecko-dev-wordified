@@ -824,7 +824,7 @@ nsICycleCollectorListener
 *
 aListener
 =
-nsnull
+nullptr
 PRInt32
 aExtraForgetSkippableCalls
 =
@@ -964,7 +964,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 protected
@@ -1208,7 +1208,7 @@ aContext
 >
 mTerminations
 =
-nsnull
+nullptr
 ;
 }
 ~

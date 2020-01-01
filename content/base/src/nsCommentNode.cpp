@@ -302,7 +302,7 @@ manager
 *
 aInstancePtrResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

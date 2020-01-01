@@ -689,7 +689,7 @@ globalOwner
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1780,7 +1780,7 @@ stack
 >
 Pop
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3350,7 +3350,7 @@ loadGroup
 AddRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 if
@@ -3764,7 +3764,7 @@ loadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 rv
 )
 ;
@@ -3996,7 +3996,7 @@ loadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 mStatus
 )
 ;
@@ -4394,7 +4394,7 @@ loadGroup
 AddRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 /
@@ -4506,15 +4506,15 @@ CleanupStrongRefs
 {
 mListener
 =
-nsnull
+nullptr
 ;
 mContext
 =
-nsnull
+nullptr
 ;
 mOriginalInnerWindow
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4531,7 +4531,7 @@ false
 ;
 mDocumentOnloadBlockedOn
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -5059,7 +5059,7 @@ aLoadGroup
 AddRequest
 (
 mStreamChannel
-nsnull
+nullptr
 )
 ;
 if
@@ -5073,7 +5073,7 @@ curLoadGroup
 RemoveRequest
 (
 mStreamChannel
-nsnull
+nullptr
 NS_BINDING_RETARGETED
 )
 ;
@@ -5569,7 +5569,7 @@ loadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 mStatus
 )
 ;
@@ -6614,7 +6614,7 @@ CID
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 return
 NS_NOINTERFACE
@@ -6762,7 +6762,7 @@ WriteBoolean
 mBaseURI
 !
 =
-nsnull
+nullptr
 )
 ;
 if
@@ -6886,7 +6886,7 @@ rv
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }

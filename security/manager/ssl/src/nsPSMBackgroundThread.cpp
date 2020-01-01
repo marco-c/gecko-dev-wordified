@@ -128,7 +128,7 @@ nsPSMBackgroundThread
 :
 mThreadHandle
 (
-nsnull
+nullptr
 )
 mMutex
 (
@@ -416,6 +416,6 @@ mThreadHandle
 ;
 mThreadHandle
 =
-nsnull
+nullptr
 ;
 }

@@ -2451,7 +2451,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 return
@@ -3273,7 +3273,7 @@ dispatched
 .
 mParentTarget
 =
-nsnull
+nullptr
 ;
 }
 virtual
@@ -3899,7 +3899,7 @@ size
 CPP_THROW_NEW
 {
 return
-nsnull
+nullptr
 ;
 }
 static

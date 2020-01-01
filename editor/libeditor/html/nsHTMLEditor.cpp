@@ -822,11 +822,11 @@ listener
 }
 mTypeInState
 =
-nsnull
+nullptr
 ;
 mSelectionListenerP
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1202,7 +1202,7 @@ Init
 (
 aDoc
 aRoot
-nsnull
+nullptr
 aFlags
 )
 ;
@@ -1348,7 +1348,7 @@ context
 >
 SetLinkHandler
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1677,7 +1677,7 @@ aRootElement
 *
 aRootElement
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1907,7 +1907,7 @@ doc
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -2111,7 +2111,7 @@ forget
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2440,11 +2440,11 @@ false
 }
 mMouseMotionListenerP
 =
-nsnull
+nullptr
 ;
 mResizeEventListenerP
 =
-nsnull
+nullptr
 ;
 nsPlaintextEditor
 :
@@ -4807,7 +4807,7 @@ GetBlockNodeParent
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -4842,7 +4842,7 @@ top
 of
 tree
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -5106,7 +5106,7 @@ outOffset
 *
 outNode
 =
-nsnull
+nullptr
 ;
 *
 outOffset
@@ -5391,7 +5391,7 @@ outOffset
 *
 outNode
 =
-nsnull
+nullptr
 ;
 *
 outOffset
@@ -6277,7 +6277,7 @@ NS_LITERAL_STRING
 td
 "
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 cellElement
@@ -6512,7 +6512,7 @@ res
 =
 CollapseSelectionToDeepestNonTableFirstChild
 (
-nsnull
+nullptr
 node
 )
 ;
@@ -6662,11 +6662,11 @@ getter_AddRefs
 (
 cell
 )
-nsnull
-nsnull
+nullptr
+nullptr
 &
 row
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -14125,7 +14125,7 @@ found
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -14513,7 +14513,7 @@ found
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -15932,7 +15932,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -16773,7 +16773,7 @@ res
 =
 GetFirstSelectedCell
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 cell
@@ -16829,7 +16829,7 @@ break
 ;
 GetNextSelectedCell
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 cell
@@ -17502,7 +17502,7 @@ CSSLoader
 LoadSheet
 (
 uaURI
-nsnull
+nullptr
 EmptyCString
 (
 )
@@ -21460,7 +21460,7 @@ selPriv
 >
 SetAncestorLimiter
 (
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -21932,7 +21932,7 @@ else
 {
 node
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -22647,7 +22647,7 @@ can
 '
 t
 be
-nsnull
+nullptr
 nsIDOMNode
 *
 leftTextNode
@@ -24225,7 +24225,7 @@ NS_ERROR_NULL_POINTER
 *
 outNode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -24629,7 +24629,7 @@ activeEditingHost
 *
 outNode
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -24797,7 +24797,7 @@ GetActiveEditingHost
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -24854,7 +24854,7 @@ activeEditingHost
 *
 outNode
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -25080,7 +25080,7 @@ outNode
 *
 outNode
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -25221,7 +25221,7 @@ content
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -25308,7 +25308,7 @@ outNode
 *
 outNode
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -25585,7 +25585,7 @@ parms
 *
 aOutFirstChild
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -25950,7 +25950,7 @@ else
 {
 child
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -26008,7 +26008,7 @@ parms
 *
 aOutLastLeaf
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -26114,7 +26114,7 @@ else
 {
 child
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -27743,7 +27743,7 @@ mHTMLCSSUtils
 SetCSSEquivalentToHTMLStyle
 (
 aElement
-nsnull
+nullptr
 &
 aAttribute
 &
@@ -28138,10 +28138,10 @@ mHTMLCSSUtils
 RemoveCSSEquivalentToHTMLStyle
 (
 aElement
-nsnull
+nullptr
 &
 aAttribute
-nsnull
+nullptr
 aSuppressTransaction
 )
 ;
@@ -28527,7 +28527,7 @@ nsIDOMNode
 >
 cachedBlockParent
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -28765,7 +28765,7 @@ mHTMLCSSUtils
 SetCSSEquivalentToHTMLStyle
 (
 element
-nsnull
+nullptr
 &
 bgcolor
 &
@@ -28846,7 +28846,7 @@ mHTMLCSSUtils
 SetCSSEquivalentToHTMLStyle
 (
 element
-nsnull
+nullptr
 &
 bgcolor
 &
@@ -29011,7 +29011,7 @@ mHTMLCSSUtils
 SetCSSEquivalentToHTMLStyle
 (
 element
-nsnull
+nullptr
 &
 bgcolor
 &
@@ -29425,7 +29425,7 @@ mHTMLCSSUtils
 SetCSSEquivalentToHTMLStyle
 (
 element
-nsnull
+nullptr
 &
 bgcolor
 &
@@ -29597,7 +29597,7 @@ mHTMLCSSUtils
 SetCSSEquivalentToHTMLStyle
 (
 element
-nsnull
+nullptr
 &
 bgcolor
 &
@@ -29731,7 +29731,7 @@ mHTMLCSSUtils
 SetCSSEquivalentToHTMLStyle
 (
 element
-nsnull
+nullptr
 &
 bgcolor
 &
@@ -30107,7 +30107,7 @@ aOutBrNode
 *
 aOutBrNode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -30279,10 +30279,10 @@ nsIDOMNode
 >
 newStyles
 =
-nsnull
+nullptr
 deepestStyle
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -31400,7 +31400,7 @@ GetFocusedContent
 NS_ENSURE_TRUE
 (
 mDocWeak
-nsnull
+nullptr
 )
 ;
 nsFocusManager
@@ -31417,7 +31417,7 @@ GetFocusManager
 NS_ENSURE_TRUE
 (
 fm
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -31504,7 +31504,7 @@ forget
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -31533,7 +31533,7 @@ forget
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -31590,7 +31590,7 @@ HasIndependentSelection
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -31616,7 +31616,7 @@ forget
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -31819,7 +31819,7 @@ GetActiveEditingHost
 NS_ENSURE_TRUE
 (
 mDocWeak
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -31836,7 +31836,7 @@ mDocWeak
 NS_ENSURE_TRUE
 (
 doc
-nsnull
+nullptr
 )
 ;
 if
@@ -31888,7 +31888,7 @@ selection
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -31913,7 +31913,7 @@ focusNode
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -31934,7 +31934,7 @@ content
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -31981,7 +31981,7 @@ HasIndependentSelection
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -32241,7 +32241,7 @@ RemoveEventListeners
 ;
 mRootElement
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -32468,7 +32468,7 @@ focusedContent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIFocusManager

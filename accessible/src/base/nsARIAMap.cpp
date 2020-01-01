@@ -2016,7 +2016,7 @@ spec
 1
 )
 return
-nsnull
+nullptr
 ;
 }
 nsWhitespaceTokenizer

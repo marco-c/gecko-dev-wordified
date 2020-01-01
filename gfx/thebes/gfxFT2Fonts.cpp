@@ -614,7 +614,7 @@ aStyle
 >
 language
 prefFamilies
-nsnull
+nullptr
 )
 ;
 if
@@ -750,7 +750,7 @@ FcChar8
 *
 family
 =
-nsnull
+nullptr
 ;
 FcPattern
 *
@@ -766,7 +766,7 @@ match
 =
 FcFontMatch
 (
-nsnull
+nullptr
 pat
 &
 result
@@ -999,7 +999,7 @@ gfxFT2FontGroup
 (
 mFamilies
 aStyle
-nsnull
+nullptr
 )
 ;
 }
@@ -2408,7 +2408,7 @@ forget
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -2431,7 +2431,7 @@ aCh
 0xFFFF
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -2663,7 +2663,7 @@ forget
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -2816,7 +2816,7 @@ forget
 #
 endif
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -3104,11 +3104,11 @@ CachedGlyphData
 *
 cgd
 =
-nsnull
+nullptr
 *
 cgdNext
 =
-nsnull
+nullptr
 ;
 FT_UInt
 spaceGlyph
@@ -3218,7 +3218,7 @@ cgdNext
 ;
 cgdNext
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -3920,7 +3920,7 @@ font
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -4024,7 +4024,7 @@ if
 font
 )
 return
-nsnull
+nullptr
 ;
 gfxFontCache
 :
@@ -4044,7 +4044,7 @@ gfxFont
 *
 f
 =
-nsnull
+nullptr
 ;
 font
 .
@@ -4347,7 +4347,7 @@ mCharGlyphCache
 .
 SizeOfExcludingThis
 (
-nsnull
+nullptr
 aMallocSizeOf
 )
 ;

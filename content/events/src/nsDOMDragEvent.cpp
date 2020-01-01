@@ -167,7 +167,7 @@ nsDragEvent
 (
 false
 0
-nsnull
+nullptr
 )
 )
 {
@@ -266,7 +266,7 @@ mEvent
 ;
 mEvent
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -477,7 +477,7 @@ it
 *
 aDataTransfer
 =
-nsnull
+nullptr
 ;
 if
 (

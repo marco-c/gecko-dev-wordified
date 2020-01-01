@@ -1536,8 +1536,8 @@ test_permanent
 #
 endif
 {
-nsnull
-nsnull
+nullptr
+nullptr
 }
 }
 ;
@@ -1564,8 +1564,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 for
@@ -1583,7 +1583,7 @@ t
 name
 !
 =
-nsnull
+nullptr
 ;
 +
 +
@@ -1628,7 +1628,7 @@ FAILURE
 }
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

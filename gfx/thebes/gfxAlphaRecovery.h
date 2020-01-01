@@ -321,7 +321,7 @@ Analysis
 *
 analysis
 =
-nsnull
+nullptr
 )
 ;
 #

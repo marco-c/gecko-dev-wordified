@@ -248,7 +248,7 @@ false
 ;
 mFormat
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -709,7 +709,7 @@ Type
 FIELD_FILETYPE
 }
 {
-nsnull
+nullptr
 FIELD_UNKNOWN
 }
 }
@@ -937,7 +937,7 @@ if
 mFormat
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1516,7 +1516,7 @@ PRUnichar
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (

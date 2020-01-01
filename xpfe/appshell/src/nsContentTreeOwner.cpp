@@ -730,7 +730,7 @@ fPrimary
 :
 mXULWindow
 (
-nsnull
+nullptr
 )
 mPrimary
 (
@@ -1712,7 +1712,7 @@ aFoundItem
 *
 aFoundItem
 =
-nsnull
+nullptr
 ;
 bool
 fIs_Content
@@ -2066,7 +2066,7 @@ windowMediator
 >
 GetXULWindowEnumerator
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 windowEnumerator
@@ -2098,7 +2098,7 @@ nsISupports
 >
 nextWindow
 =
-nsnull
+nullptr
 ;
 windowEnumerator
 -
@@ -3947,7 +3947,7 @@ aStatus
 EmptyString
 (
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -5629,7 +5629,7 @@ mService
 >
 Push
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION
@@ -5916,7 +5916,7 @@ aParent
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6526,7 +6526,7 @@ browserDOMWin
 >
 OpenURI
 (
-nsnull
+nullptr
 aParent
 containerPref
 nsIBrowserDOMWindow

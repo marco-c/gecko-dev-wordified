@@ -978,7 +978,7 @@ IMETextTxn
 *
 otherTxn
 =
-nsnull
+nullptr
 ;
 nsresult
 result

@@ -198,7 +198,7 @@ dc
 )
 mWnd
 (
-nsnull
+nullptr
 )
 {
 if
@@ -288,7 +288,7 @@ false
 )
 mWnd
 (
-nsnull
+nullptr
 )
 {
 gfxIntSize
@@ -372,7 +372,7 @@ CairoSurface
 else
 mDC
 =
-nsnull
+nullptr
 ;
 }
 gfxWindowsSurface
@@ -400,7 +400,7 @@ false
 )
 mWnd
 (
-nsnull
+nullptr
 )
 {
 gfxIntSize
@@ -523,7 +523,7 @@ CairoSurface
 else
 mDC
 =
-nsnull
+nullptr
 ;
 }
 gfxWindowsSurface
@@ -546,7 +546,7 @@ false
 )
 mWnd
 (
-nsnull
+nullptr
 )
 {
 if
@@ -569,7 +569,7 @@ csurf
 else
 mDC
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -658,7 +658,7 @@ mSurfaceValid
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 cairo_surface_t
@@ -856,7 +856,7 @@ surface
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -985,7 +985,7 @@ errors
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -995,7 +995,7 @@ CairoSurface
 )
 !
 =
-nsnull
+nullptr
 "
 CairoSurface
 (
@@ -1004,7 +1004,7 @@ shouldn
 '
 t
 be
-nsnull
+nullptr
 when
 mSurfaceValid
 is
@@ -1018,7 +1018,7 @@ if
 mForPrinting
 )
 return
-nsnull
+nullptr
 ;
 cairo_surface_t
 *
@@ -1037,7 +1037,7 @@ if
 isurf
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -1100,7 +1100,7 @@ if
 mForPrinting
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1110,7 +1110,7 @@ format
 ImageFormatRGB24
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -1139,7 +1139,7 @@ CairoStatus
 0
 )
 return
-nsnull
+nullptr
 ;
 gfxContext
 tmpCtx
@@ -1352,7 +1352,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 docinfo
 .
@@ -1655,7 +1655,7 @@ NS_ASSERTION
 mSurface
 !
 =
-nsnull
+nullptr
 "
 CairoSurface
 (
@@ -1664,7 +1664,7 @@ shouldn
 '
 t
 be
-nsnull
+nullptr
 when
 mSurfaceValid
 is

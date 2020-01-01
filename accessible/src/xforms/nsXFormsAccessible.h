@@ -507,7 +507,7 @@ nsIDOMNode
 *
 aContainerNode
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -910,7 +910,7 @@ Accessible
 *
 aAccessible
 =
-nsnull
+nullptr
 )
 ;
 bool

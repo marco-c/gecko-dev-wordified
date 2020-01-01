@@ -740,7 +740,7 @@ false
 PrefChanged
 (
 prefBranch
-nsnull
+nullptr
 )
 ;
 /
@@ -2696,7 +2696,7 @@ case
 *
 aURI
 =
-nsnull
+nullptr
 ;
 /
 /

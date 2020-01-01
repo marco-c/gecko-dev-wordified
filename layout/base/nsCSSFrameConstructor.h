@@ -630,7 +630,7 @@ child
 .
 aEndChild
 =
-nsnull
+nullptr
 indicates
 that
 we
@@ -2354,7 +2354,7 @@ bool
 *
 aMultiple
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -9730,7 +9730,7 @@ nsIFrame
 *
 aPossiblyLeafFrame
 =
-nsnull
+nullptr
 )
 ;
 nsIFrame
@@ -12160,12 +12160,12 @@ nsIContent
 *
 aStartSkipChild
 =
-nsnull
+nullptr
 nsIContent
 *
 aEndSkipChild
 =
-nsnull
+nullptr
 )
 ;
 /

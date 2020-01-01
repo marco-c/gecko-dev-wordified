@@ -297,7 +297,7 @@ PRLogModuleInfo
 *
 gLoadGroupLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -750,7 +750,7 @@ nsILoadGroup
 logging
 if
 (
-nsnull
+nullptr
 =
 =
 gLoadGroupLog
@@ -824,7 +824,7 @@ mRequests
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 nsLoadGroup
@@ -927,7 +927,7 @@ PL_DHashTableInit
 mRequests
 &
 hash_table_ops
-nsnull
+nullptr
 sizeof
 (
 RequestMapEntry
@@ -940,7 +940,7 @@ mRequests
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1373,7 +1373,7 @@ request
 )
 !
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1761,7 +1761,7 @@ void
 RemoveRequest
 (
 request
-nsnull
+nullptr
 status
 )
 ;
@@ -2714,7 +2714,7 @@ mDefaultLoadIsTimed
 timedChannel
 !
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3359,7 +3359,7 @@ mLoadGroup
 AddRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 }
@@ -4039,7 +4039,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 aStatus
 )
 ;

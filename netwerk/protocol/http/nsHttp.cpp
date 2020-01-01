@@ -172,7 +172,7 @@ PRLogModuleInfo
 *
 gHttpLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -320,14 +320,14 @@ HttpHeapAtom
 *
 sHeapAtoms
 =
-nsnull
+nullptr
 ;
 static
 Mutex
 *
 sLock
 =
-nsnull
+nullptr
 ;
 HttpHeapAtom
 *
@@ -375,7 +375,7 @@ if
 a
 )
 return
-nsnull
+nullptr
 ;
 memcpy
 (
@@ -562,7 +562,7 @@ StringCompare
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-nsnull
+nullptr
 }
 ;
 /
@@ -673,7 +673,7 @@ PL_DHashTableInit
 sAtomTable
 &
 ops
-nsnull
+nullptr
 sizeof
 (
 PLDHashEntryStub
@@ -688,7 +688,7 @@ sAtomTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -735,7 +735,7 @@ h
 #
 undef
 HTTP_ATOM
-nsnull
+nullptr
 }
 ;
 for
@@ -839,7 +839,7 @@ sAtomTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 while
@@ -876,7 +876,7 @@ sLock
 ;
 sLock
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -919,7 +919,7 @@ nsHttpAtom
 atom
 =
 {
-nsnull
+nullptr
 }
 ;
 if
@@ -1543,7 +1543,7 @@ if
 input
 )
 return
-nsnull
+nullptr
 ;
 int
 inputLen
@@ -1568,7 +1568,7 @@ inputLen
 tokenLen
 )
 return
-nsnull
+nullptr
 ;
 const
 char
@@ -1662,7 +1662,7 @@ input
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 bool

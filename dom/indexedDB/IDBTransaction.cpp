@@ -581,7 +581,7 @@ GetScriptOwner
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 transaction
@@ -633,7 +633,7 @@ IndexedDBTransactionChild
 *
 actor
 =
-nsnull
+nullptr
 ;
 transaction
 -
@@ -688,7 +688,7 @@ GetOrCreate
 NS_ENSURE_TRUE
 (
 pool
-nsnull
+nullptr
 )
 ;
 pool
@@ -700,7 +700,7 @@ transaction
 &
 gStartTransactionRunnable
 false
-nsnull
+nullptr
 )
 ;
 }
@@ -798,7 +798,7 @@ kAppShellCID
 NS_ENSURE_TRUE
 (
 appShell
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -815,7 +815,7 @@ transaction
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 transaction
@@ -895,11 +895,11 @@ mSavepointCount
 )
 mActorChild
 (
-nsnull
+nullptr
 )
 mActorParent
 (
-nsnull
+nullptr
 )
 mAbortCode
 (
@@ -2231,7 +2231,7 @@ endif
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 mCachedStatements
@@ -3854,7 +3854,7 @@ ObjectStoreInfo
 *
 info
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3950,7 +3950,7 @@ return
 AbortInternal
 (
 NS_ERROR_DOM_INDEXEDDB_ABORT_ERR
-nsnull
+nullptr
 )
 ;
 }
@@ -4343,7 +4343,7 @@ ClearFileInfoEntries
 ;
 mUpdateFileRefcountFunction
 =
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -4611,7 +4611,7 @@ mTransaction
 }
 mTransaction
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -4904,14 +4904,14 @@ Close
 ;
 mConnection
 =
-nsnull
+nullptr
 ;
 IndexedDatabaseManager
 :
 :
 SetCurrentWindow
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -5245,7 +5245,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 PRUint32
 numEntries

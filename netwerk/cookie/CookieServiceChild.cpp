@@ -384,7 +384,7 @@ CookieServiceChild
 {
 gCookieService
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -889,7 +889,7 @@ SetCookieStringInternal
 aHostURI
 aChannel
 aCookieString
-nsnull
+nullptr
 false
 )
 ;

@@ -625,7 +625,7 @@ isSelected
 &
 selectedRect
 :
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1597,7 +1597,7 @@ mEmbellishData
 .
 coreFrame
 =
-nsnull
+nullptr
 ;
 mEmbellishData
 .
@@ -6852,7 +6852,7 @@ mEmbellishData
 .
 coreFrame
 =
-nsnull
+nullptr
 ;
 ProcessOperatorData
 (
@@ -7588,7 +7588,7 @@ GetStyleContext
 default
 :
 return
-nsnull
+nullptr
 ;
 }
 }

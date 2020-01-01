@@ -434,7 +434,7 @@ aFont
 )
 mFontFile
 (
-nsnull
+nullptr
 )
 mForceGDIClassic
 (
@@ -634,7 +634,7 @@ aFont
 )
 mFontFile
 (
-nsnull
+nullptr
 )
 mForceGDIClassic
 (
@@ -747,7 +747,7 @@ aFaceName
 )
 mFont
 (
-nsnull
+nullptr
 )
 mFontFile
 (

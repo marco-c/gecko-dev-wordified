@@ -2977,7 +2977,7 @@ if
 mgr
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -4878,7 +4878,7 @@ if
 mgr
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -4929,7 +4929,7 @@ if
 mgr
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -4980,7 +4980,7 @@ if
 mgr
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -5031,7 +5031,7 @@ if
 mgr
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -5308,7 +5308,7 @@ r
 CollectReports
 (
 cb
-nsnull
+nullptr
 )
 ;
 }

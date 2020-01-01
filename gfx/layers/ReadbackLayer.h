@@ -652,7 +652,7 @@ mSize
 .
 height
 )
-nsnull
+nullptr
 )
 *
 SnapTransform
@@ -665,7 +665,7 @@ gfxRect
 0
 0
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -929,7 +929,7 @@ SetUnknown
 ;
 mSink
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -950,7 +950,7 @@ aLayer
 {
 mBackgroundLayer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1006,7 +1006,7 @@ AllocateSequenceNumber
 }
 mBackgroundLayer
 =
-nsnull
+nullptr
 ;
 mBackgroundColor
 =
@@ -1052,7 +1052,7 @@ mSize
 )
 mBackgroundLayer
 (
-nsnull
+nullptr
 )
 mBackgroundLayerOffset
 (

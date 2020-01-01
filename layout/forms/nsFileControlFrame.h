@@ -416,7 +416,7 @@ ForgetFrame
 {
 mFrame
 =
-nsnull
+nullptr
 ;
 }
 protected

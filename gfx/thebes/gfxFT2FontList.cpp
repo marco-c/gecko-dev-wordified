@@ -791,7 +791,7 @@ cairo
 .
 mFTFace
 =
-nsnull
+nullptr
 ;
 #
 ifndef
@@ -808,7 +808,7 @@ mFontFace
 ;
 mFontFace
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -961,7 +961,7 @@ aFontData
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -991,7 +991,7 @@ aFontData
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1034,7 +1034,7 @@ FT2FontEntry
 CreateFontEntry
 (
 face
-nsnull
+nullptr
 0
 aProxyEntry
 .
@@ -1659,7 +1659,7 @@ family_name
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsAutoString
@@ -1812,7 +1812,7 @@ face
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1886,7 +1886,7 @@ new
 FTUserFontData
 (
 face
-nsnull
+nullptr
 )
 ;
 cairo_font_face_set_user_data
@@ -2090,7 +2090,7 @@ FT_Load_Sfnt_Table
 mFTFace
 aTableTag
 0
-nsnull
+nullptr
 &
 len
 )
@@ -2500,7 +2500,7 @@ PL_DHashTableInit
 mMap
 &
 mOps
-nsnull
+nullptr
 sizeof
 (
 FNCMapEntry
@@ -2513,7 +2513,7 @@ mMap
 .
 ops
 =
-nsnull
+nullptr
 ;
 LOG
 (
@@ -4162,7 +4162,7 @@ NS_ASSERTION
 mFamily
 !
 =
-nsnull
+nullptr
 "
 font
 entry
@@ -5007,7 +5007,7 @@ sortFaces
 aUserArg
 !
 =
-nsnull
+nullptr
 )
 ;
 family
@@ -5553,7 +5553,7 @@ mFontFamilies
 Enumerate
 (
 FinalizeFamilyMemberList
-nsnull
+nullptr
 )
 ;
 LOG
@@ -6397,7 +6397,7 @@ aFullName
 )
 mFontEntry
 (
-nsnull
+nullptr
 )
 {
 }
@@ -6813,7 +6813,7 @@ this
 *
 /
 return
-nsnull
+nullptr
 ;
 }
 gfxFontEntry

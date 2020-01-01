@@ -615,7 +615,7 @@ and
 mConditions
 to
 be
-nsnull
+nullptr
 .
 *
 /
@@ -1620,7 +1620,7 @@ Length
 PR_INT16_MAX
 )
 return
-nsnull
+nullptr
 ;
 return
 mRules
@@ -1703,7 +1703,7 @@ aIndex
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void

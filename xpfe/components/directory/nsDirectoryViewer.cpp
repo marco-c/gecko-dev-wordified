@@ -3149,7 +3149,7 @@ true
 )
 mRequestor
 (
-nsnull
+nullptr
 )
 {
 }
@@ -3241,16 +3241,16 @@ Cancel
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 mConnectionList
 =
-nsnull
+nullptr
 ;
 mNodeList
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3808,7 +3808,7 @@ NS_PRECONDITION
 aBaseURL
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3938,7 +3938,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsHTTPIndex
 *
@@ -4596,7 +4596,7 @@ NS_PRECONDITION
 uri
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4633,7 +4633,7 @@ httpindex
 )
 =
 =
-nsnull
+nullptr
 )
 return
 (
@@ -4674,7 +4674,7 @@ NS_ERROR_UNEXPECTED
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4789,7 +4789,7 @@ NS_ERROR_UNEXPECTED
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5658,8 +5658,8 @@ getter_AddRefs
 channel
 )
 url
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -6125,7 +6125,7 @@ httpIndex
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -6733,7 +6733,7 @@ NS_ERROR_UNEXPECTED
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -7503,7 +7503,7 @@ getter_AddRefs
 channel
 )
 uri
-nsnull
+nullptr
 aLoadGroup
 )
 ;
@@ -7571,7 +7571,7 @@ channel
 AsyncOpen
 (
 listener
-nsnull
+nullptr
 )
 ;
 if
@@ -7993,7 +7993,7 @@ text
 html
 "
 listener
-nsnull
+nullptr
 aDocListenerResult
 )
 ;

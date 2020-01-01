@@ -387,7 +387,7 @@ aResult
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -455,7 +455,7 @@ aResult
 aContainer
 )
 :
-nsnull
+nullptr
 ;
 }
 static

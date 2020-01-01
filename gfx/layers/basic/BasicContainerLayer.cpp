@@ -603,7 +603,7 @@ Hold
 aAfter
 )
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -1211,7 +1211,7 @@ FIXME
 /
 IMPL
 return
-nsnull
+nullptr
 ;
 }
 }

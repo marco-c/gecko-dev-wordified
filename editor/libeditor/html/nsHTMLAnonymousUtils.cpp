@@ -859,7 +859,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1352,7 +1352,7 @@ GetPresShell
 (
 )
 returns
-nsnull
+nullptr
 .
 /
 /
@@ -1877,7 +1877,7 @@ NS_LITERAL_STRING
 td
 "
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 cellElement

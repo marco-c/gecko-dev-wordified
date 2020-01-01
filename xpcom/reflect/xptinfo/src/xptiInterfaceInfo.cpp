@@ -1570,7 +1570,7 @@ found
 *
 entry
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -2721,7 +2721,7 @@ mInfo
 *
 info
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2762,7 +2762,7 @@ Invalidate
 ;
 mInfo
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2943,7 +2943,7 @@ entry
 )
 mParent
 (
-nsnull
+nullptr
 )
 {
 LOG_INFO_CREATE
@@ -3235,7 +3235,7 @@ LockedInterfaceInfoDeathNotification
 ;
 mEntry
 =
-nsnull
+nullptr
 ;
 }
 delete

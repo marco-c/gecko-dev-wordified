@@ -673,7 +673,7 @@ if
 window
 )
 return
-nsnull
+nullptr
 ;
 nsIDocShell
 *
@@ -692,7 +692,7 @@ if
 docShell
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -741,7 +741,7 @@ if
 window
 )
 return
-nsnull
+nullptr
 ;
 nsIDocShell
 *
@@ -760,7 +760,7 @@ if
 docShell
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -1937,7 +1937,7 @@ GetContent
 (
 )
 :
-nsnull
+nullptr
 ;
 nsRect
 rootDisplayport
@@ -2090,7 +2090,7 @@ nsLayoutUtils
 :
 PaintFrame
 (
-nsnull
+nullptr
 rootFrame
 nsRegion
 (
@@ -4612,7 +4612,7 @@ aOffset
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIWidget
@@ -4672,7 +4672,7 @@ GetShell
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -4720,7 +4720,7 @@ GetNearestWidget
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -5468,7 +5468,7 @@ node
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ABORT_IF_FALSE
@@ -5576,19 +5576,19 @@ if
 aCanvas1
 =
 =
-nsnull
+nullptr
 |
 |
 aCanvas2
 =
 =
-nsnull
+nullptr
 |
 |
 retVal
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -5620,13 +5620,13 @@ if
 img1
 =
 =
-nsnull
+nullptr
 |
 |
 img2
 =
 =
-nsnull
+nullptr
 |
 |
 img1
@@ -7187,7 +7187,7 @@ shell
 HandleEventWithTarget
 (
 internalEvent
-nsnull
+nullptr
 content
 &
 status
@@ -7218,7 +7218,7 @@ nsIntPoint
 *
 aPt
 =
-nsnull
+nullptr
 )
 {
 if
@@ -7860,7 +7860,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8952,7 +8952,7 @@ window
 >
 LeaveModalState
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -9688,7 +9688,7 @@ StopFrameTimeRecording
 *
 frames
 =
-nsnull
+nullptr
 ;
 *
 frameCount
@@ -11428,9 +11428,9 @@ initializer
 >
 Initialize
 (
-nsnull
+nullptr
 aCx
-nsnull
+nullptr
 aOptionalArgCount
 args
 )
@@ -12393,7 +12393,7 @@ JSObject
 *
 jsPlugins
 =
-nsnull
+nullptr
 ;
 rv
 =

@@ -838,7 +838,7 @@ WSType
 :
 bool_conversion_helper
 :
-nsnull
+nullptr
 ;
 }
 }
@@ -2536,7 +2536,7 @@ same
 functionality
 mTextNode
 =
-nsnull
+nullptr
 ;
 }
 }

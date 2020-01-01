@@ -453,7 +453,7 @@ nsFontMetrics
 :
 mDeviceContext
 (
-nsnull
+nullptr
 )
 mP2A
 (
@@ -634,7 +634,7 @@ Destroy
 {
 mDeviceContext
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1562,8 +1562,8 @@ GLYPH_FILL
 aLength
 &
 provider
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -1674,8 +1674,8 @@ GLYPH_FILL
 aLength
 &
 provider
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }

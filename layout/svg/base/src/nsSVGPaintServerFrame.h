@@ -286,7 +286,7 @@ gfxRect
 *
 aOverrideBounds
 =
-nsnull
+nullptr
 )
 =
 0

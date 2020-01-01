@@ -878,7 +878,7 @@ const
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2081,7 +2081,7 @@ nsHTMLMenuItemElement
 *
 result
 =
-nsnull
+nullptr
 ;
 GetCheckedVisitor
 visitor

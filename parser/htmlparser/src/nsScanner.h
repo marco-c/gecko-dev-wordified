@@ -1603,7 +1603,7 @@ false
 AppendToBuffer
 (
 buf
-nsnull
+nullptr
 )
 ;
 return

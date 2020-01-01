@@ -1080,7 +1080,7 @@ nsParser
 :
 sCharsetConverterManager
 =
-nsnull
+nullptr
 ;
 /
 *
@@ -1249,7 +1249,7 @@ PARSER_DUMP_CONTENT
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -1275,7 +1275,7 @@ else
 nsCOMPtrs
 mObserver
 =
-nsnull
+nullptr
 ;
 mUnusedInput
 .
@@ -1286,7 +1286,7 @@ Truncate
 }
 mContinueEvent
 =
-nsnull
+nullptr
 ;
 mCharsetSource
 =
@@ -8522,7 +8522,7 @@ parsing
 event
 mContinueEvent
 =
-nsnull
+nullptr
 ;
 mFlags
 &
@@ -10853,7 +10853,7 @@ NS_PARSER_FLAG_PENDING_CONTINUE_EVENT
 ;
 mContinueEvent
 =
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -13369,7 +13369,7 @@ nsITokenizer
 *
 theTokenizer
 =
-nsnull
+nullptr
 ;
 nsresult
 result
@@ -13713,7 +13713,7 @@ context
 ;
 mDTD
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -16645,7 +16645,7 @@ pIStream
 ReadSegments
 (
 NoOpParserWriteFunc
-nsnull
+nullptr
 aLength
 &
 totalRead
@@ -17713,7 +17713,7 @@ killSink
 {
 mSink
 =
-nsnull
+nullptr
 ;
 }
 }

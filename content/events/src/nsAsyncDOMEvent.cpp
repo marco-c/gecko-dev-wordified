@@ -171,7 +171,7 @@ nsEventDispatcher
 :
 CreateEvent
 (
-nsnull
+nullptr
 &
 aEvent
 EmptyString

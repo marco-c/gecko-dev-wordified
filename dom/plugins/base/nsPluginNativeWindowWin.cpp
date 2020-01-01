@@ -2764,7 +2764,7 @@ struct
 fields
 window
 =
-nsnull
+nullptr
 ;
 x
 =
@@ -3066,7 +3066,7 @@ if
 mWeakRef
 )
 return
-nsnull
+nullptr
 ;
 }
 PluginWindowEvent
@@ -3140,7 +3140,7 @@ if
 event
 )
 return
-nsnull
+nullptr
 ;
 mCachedPluginWindowEvent
 =
@@ -3171,7 +3171,7 @@ if
 event
 )
 return
-nsnull
+nullptr
 ;
 }
 else
@@ -3302,7 +3302,7 @@ char
 *
 mimetype
 =
-nsnull
+nullptr
 ;
 aPluginInstance
 -
@@ -3951,7 +3951,7 @@ plugin
 instance
 SetPluginInstance
 (
-nsnull
+nullptr
 )
 ;
 /

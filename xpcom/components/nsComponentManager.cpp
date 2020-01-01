@@ -589,7 +589,7 @@ PRLogModuleInfo
 *
 nsComponentManagerLog
 =
-nsnull
+nullptr
 ;
 #
 if
@@ -1594,7 +1594,7 @@ nsDirectoryService
 :
 Create
 (
-nsnull
+nullptr
 NS_GET_IID
 (
 nsIProperties
@@ -2089,7 +2089,7 @@ if
 nsComponentManagerLog
 =
 =
-nsnull
+nullptr
 )
 {
 nsComponentManagerLog
@@ -5022,7 +5022,7 @@ PR_ASSERT
 aResult
 !
 =
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -5438,7 +5438,7 @@ if
 aResult
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -5448,7 +5448,7 @@ NS_ERROR_NULL_POINTER
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsFactoryEntry
 *
@@ -5913,7 +5913,7 @@ if
 aResult
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -5923,7 +5923,7 @@ NS_ERROR_NULL_POINTER
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsFactoryEntry
 *
@@ -6452,7 +6452,7 @@ thread
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -6957,7 +6957,7 @@ nsIThread
 *
 currentThread
 =
-nsnull
+nullptr
 ;
 PRThread
 *
@@ -7224,7 +7224,7 @@ rv
 CreateInstance
 (
 aClass
-nsnull
+nullptr
 aIID
 getter_AddRefs
 (
@@ -7626,7 +7626,7 @@ result
 service
 !
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -7885,7 +7885,7 @@ result
 service
 !
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -8211,7 +8211,7 @@ nsIThread
 *
 currentThread
 =
-nsnull
+nullptr
 ;
 PRThread
 *
@@ -8492,7 +8492,7 @@ rv
 CreateInstanceByContractID
 (
 aContractID
-nsnull
+nullptr
 aIID
 getter_AddRefs
 (
@@ -9158,7 +9158,7 @@ _retval
 _retval
 =
 (
-nsnull
+nullptr
 !
 =
 GetFactoryEntry

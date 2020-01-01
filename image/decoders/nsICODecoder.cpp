@@ -452,7 +452,7 @@ false
 ;
 mRow
 =
-nsnull
+nullptr
 ;
 mOldLine
 =

@@ -614,7 +614,7 @@ nsImageFrame
 :
 gIconLoad
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1184,7 +1184,7 @@ PresShell
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -1438,13 +1438,13 @@ get
 >
 SetFrame
 (
-nsnull
+nullptr
 )
 ;
 }
 mListener
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -7854,7 +7854,7 @@ container
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -8225,7 +8225,7 @@ container
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 nsRefPtr
@@ -8521,7 +8521,7 @@ GetImageMap
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 map
@@ -9812,12 +9812,12 @@ Truncate
 *
 aHref
 =
-nsnull
+nullptr
 ;
 *
 aNode
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -9906,7 +9906,7 @@ status
 aHref
 !
 =
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -10051,7 +10051,7 @@ GetCapturingContent
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -10094,7 +10094,7 @@ GetImageMap
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 map
@@ -10270,7 +10270,7 @@ IsServerImageMap
 if
 (
 (
-nsnull
+nullptr
 !
 =
 map
@@ -10358,7 +10358,7 @@ happens
 )
 if
 (
-nsnull
+nullptr
 !
 =
 map
@@ -10663,7 +10663,7 @@ GetImageMap
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 map
@@ -11272,7 +11272,7 @@ skip
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 GetPrevInFlow
@@ -11291,7 +11291,7 @@ NS_SIDE_TOP
 }
 if
 (
-nsnull
+nullptr
 !
 =
 GetNextInFlow
@@ -11541,7 +11541,7 @@ icon
 URI
 *
 /
-nsnull
+nullptr
 /
 *
 initial
@@ -11563,7 +11563,7 @@ icons
 .
 *
 /
-nsnull
+nullptr
 /
 *
 referrer
@@ -11575,7 +11575,7 @@ icons
 )
 *
 /
-nsnull
+nullptr
 /
 *
 principal
@@ -11589,7 +11589,7 @@ icons
 /
 loadGroup
 gIconLoad
-nsnull
+nullptr
 /
 *
 Not
@@ -11601,9 +11601,9 @@ document
 *
 /
 loadFlags
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 /
 *
 channel
@@ -11728,7 +11728,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 charset
 .
@@ -11764,7 +11764,7 @@ return
 ;
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aLoadGroup
@@ -11994,7 +11994,7 @@ display
 .
 show_image_placeholders
 "
-nsnull
+nullptr
 }
 ;
 nsImageFrame
@@ -12070,7 +12070,7 @@ NS_ERROR_FAILURE
 ;
 mLoadingImage
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -12088,7 +12088,7 @@ NS_ERROR_FAILURE
 ;
 mBrokenImage
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -13000,7 +13000,7 @@ aData
 >
 trailingTextFrame
 =
-nsnull
+nullptr
 ;
 aData
 -

@@ -1491,9 +1491,6 @@ sGrabWidget
 )
 return
 ;
-GdkModifierType
-state
-;
 if
 (
 event
@@ -2372,7 +2369,7 @@ event
 ;
 mSourceRegion
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3248,7 +3245,7 @@ count
 *
 convertedText
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -4473,7 +4470,7 @@ PRUnichar
 *
 convertedText
 =
-nsnull
+nullptr
 ;
 PRInt32
 convertedTextLen
@@ -4526,8 +4523,8 @@ NS_ConvertUTF16toUTF8
 (
 convertedText
 )
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 fileURI
@@ -4802,7 +4799,7 @@ PRUnichar
 *
 convertedText
 =
-nsnull
+nullptr
 ;
 NS_ConvertUTF8toUTF16
 ucs2string
@@ -4968,7 +4965,7 @@ PRUnichar
 *
 convertedText
 =
-nsnull
+nullptr
 ;
 PRInt32
 convertedTextLen
@@ -5221,7 +5218,7 @@ PRUnichar
 *
 convertedText
 =
-nsnull
+nullptr
 ;
 PRInt32
 convertedTextLen
@@ -5406,7 +5403,7 @@ PRUnichar
 *
 convertedText
 =
-nsnull
+nullptr
 ;
 PRInt32
 convertedTextLen
@@ -8579,7 +8576,7 @@ we
 provide
 mSourceDataItems
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8927,7 +8924,7 @@ events
 Schedule
 (
 eDragTaskSourceEnd
-nsnull
+nullptr
 NULL
 nsIntPoint
 (
@@ -9087,7 +9084,7 @@ char
 *
 plainTextData
 =
-nsnull
+nullptr
 ;
 PRUnichar
 *
@@ -9772,7 +9769,7 @@ char
 *
 plainTextData
 =
-nsnull
+nullptr
 ;
 PRUnichar
 *
@@ -10107,7 +10104,7 @@ GtkWidget
 *
 gtkWidget
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -11215,7 +11212,7 @@ if
 Schedule
 (
 eDragTaskLeave
-nsnull
+nullptr
 NULL
 nsIntPoint
 (
@@ -12424,7 +12421,7 @@ window
 .
 mTargetWindow
 =
-nsnull
+nullptr
 ;
 /
 /

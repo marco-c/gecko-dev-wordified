@@ -351,7 +351,7 @@ Otherwise
 /
 this
 returns
-nsnull
+nullptr
 .
 nsSVGPathElement
 *

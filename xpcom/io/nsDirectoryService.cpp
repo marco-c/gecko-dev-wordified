@@ -580,7 +580,7 @@ aFile
 *
 aFile
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -614,7 +614,7 @@ nsDirectoryService
 :
 Create
 (
-nsnull
+nullptr
 NS_GET_IID
 (
 nsIProperties
@@ -695,7 +695,7 @@ if
 localFile
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -837,7 +837,7 @@ if
 appBundle
 !
 =
-nsnull
+nullptr
 )
 {
 CFURLRef
@@ -853,7 +853,7 @@ if
 bundleURL
 !
 =
-nsnull
+nullptr
 )
 {
 CFURLRef
@@ -1483,7 +1483,7 @@ nsDirectoryService
 :
 gService
 =
-nsnull
+nullptr
 ;
 nsDirectoryService
 :
@@ -1561,7 +1561,7 @@ nsDirectoryService
 :
 name_
 =
-nsnull
+nullptr
 ;
 #
 include
@@ -1971,7 +1971,7 @@ aProperty
 )
 data
 (
-nsnull
+nullptr
 )
 persistent
 (
@@ -2581,7 +2581,7 @@ key
 value
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -3106,7 +3106,7 @@ NS_ERROR_FAILURE
 *
 _retval
 =
-nsnull
+nullptr
 ;
 *
 persistent
@@ -5407,7 +5407,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE

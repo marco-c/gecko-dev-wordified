@@ -388,7 +388,7 @@ Key
 ;
 Addition
 =
-nsnull
+nullptr
 ;
 Position
 =
@@ -1074,7 +1074,7 @@ memory
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 Native2WrappedNativeMap
@@ -1093,7 +1093,7 @@ JS_NewDHashTable
 JS_DHashGetStubOps
 (
 )
-nsnull
+nullptr
 sizeof
 (
 Entry
@@ -1345,7 +1345,7 @@ delete
 map
 ;
 return
-nsnull
+nullptr
 ;
 }
 IID2WrappedJSClassMap
@@ -1366,7 +1366,7 @@ Entry
 :
 :
 sOps
-nsnull
+nullptr
 sizeof
 (
 Entry
@@ -1538,7 +1538,7 @@ delete
 map
 ;
 return
-nsnull
+nullptr
 ;
 }
 IID2NativeInterfaceMap
@@ -1559,7 +1559,7 @@ Entry
 :
 :
 sOps
-nsnull
+nullptr
 sizeof
 (
 Entry
@@ -1800,7 +1800,7 @@ delete
 map
 ;
 return
-nsnull
+nullptr
 ;
 }
 ClassInfo2NativeSetMap
@@ -1819,7 +1819,7 @@ JS_NewDHashTable
 JS_DHashGetStubOps
 (
 )
-nsnull
+nullptr
 sizeof
 (
 Entry
@@ -2087,7 +2087,7 @@ memory
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 ClassInfo2WrappedNativeProtoMap
@@ -2106,7 +2106,7 @@ JS_NewDHashTable
 JS_DHashGetStubOps
 (
 )
-nsnull
+nullptr
 sizeof
 (
 Entry
@@ -2889,7 +2889,7 @@ delete
 map
 ;
 return
-nsnull
+nullptr
 ;
 }
 NativeSetMap
@@ -2910,7 +2910,7 @@ Entry
 :
 :
 sOps
-nsnull
+nullptr
 sizeof
 (
 Entry
@@ -3261,7 +3261,7 @@ delete
 map
 ;
 return
-nsnull
+nullptr
 ;
 }
 IID2ThisTranslatorMap
@@ -3282,7 +3282,7 @@ Entry
 :
 :
 sOps
-nsnull
+nullptr
 sizeof
 (
 Entry
@@ -3735,7 +3735,7 @@ delete
 map
 ;
 return
-nsnull
+nullptr
 ;
 }
 XPCNativeScriptableSharedMap
@@ -3756,7 +3756,7 @@ Entry
 :
 :
 sOps
-nsnull
+nullptr
 sizeof
 (
 Entry
@@ -4038,7 +4038,7 @@ delete
 map
 ;
 return
-nsnull
+nullptr
 ;
 }
 XPCWrappedNativeProtoMap
@@ -4057,7 +4057,7 @@ JS_NewDHashTable
 JS_DHashGetStubOps
 (
 )
-nsnull
+nullptr
 sizeof
 (
 JSDHashEntryStub

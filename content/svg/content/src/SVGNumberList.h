@@ -910,7 +910,7 @@ SVGNumberListAndInfo
 :
 mElement
 (
-nsnull
+nullptr
 )
 {
 }

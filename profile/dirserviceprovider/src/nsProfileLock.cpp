@@ -441,7 +441,7 @@ XP_UNIX
 )
 mPidLockFileName
 (
-nsnull
+nullptr
 )
 mLockFileDesc
 (
@@ -590,7 +590,7 @@ rhs
 .
 mPidLockFileName
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -800,7 +800,7 @@ sigaction
 *
 oldact
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -1588,7 +1588,7 @@ char
 *
 after
 =
-nsnull
+nullptr
 ;
 pid_t
 pid
@@ -2080,7 +2080,7 @@ signature
 ;
 signature
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2528,7 +2528,7 @@ aUnlocker
 *
 aUnlocker
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_STATE
 (
@@ -2798,7 +2798,7 @@ PRFileDesc
 *
 fd
 =
-nsnull
+nullptr
 ;
 PRInt32
 ioBytes
@@ -3381,10 +3381,10 @@ sharing
 -
 of
 course
-nsnull
+nullptr
 CREATE_ALWAYS
 0
-nsnull
+nullptr
 )
 ;
 if
@@ -3797,7 +3797,7 @@ mPidLockFileName
 ;
 mPidLockFileName
 =
-nsnull
+nullptr
 ;
 }
 else

@@ -542,7 +542,7 @@ mElement
 SetInlineStyleRule
 (
 newRule
-nsnull
+nullptr
 true
 )
 ;
@@ -687,7 +687,7 @@ if
 mElement
 )
 return
-nsnull
+nullptr
 ;
 css
 :
@@ -740,7 +740,7 @@ aAllocate
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -784,7 +784,7 @@ css
 :
 StyleRule
 (
-nsnull
+nullptr
 decl
 )
 ;
@@ -829,7 +829,7 @@ mElement
 SetInlineStyleRule
 (
 newRule
-nsnull
+nullptr
 false
 )
 ;
@@ -842,7 +842,7 @@ rv
 )
 {
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -968,7 +968,7 @@ aParent
 *
 aParent
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

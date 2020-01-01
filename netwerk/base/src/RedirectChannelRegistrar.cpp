@@ -145,7 +145,7 @@ retVal
 *
 retVal
 =
-nsnull
+nullptr
 ;
 return
 false

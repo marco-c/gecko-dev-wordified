@@ -118,7 +118,7 @@ false
 )
 mOGLLibrary
 (
-nsnull
+nullptr
 )
 mHasRobustness
 (
@@ -463,7 +463,7 @@ HDC
 *
 aWindowDC
 =
-nsnull
+nullptr
 )
 ;
 bool

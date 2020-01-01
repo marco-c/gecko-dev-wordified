@@ -558,7 +558,7 @@ nsresult
 *
 aError
 =
-nsnull
+nullptr
 )
 const
 ;

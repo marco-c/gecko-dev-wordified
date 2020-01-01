@@ -399,7 +399,7 @@ Cancel
 ;
 mUpdateTimer
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1716,7 +1716,7 @@ mDocShell
 NS_ENSURE_TRUE
 (
 docShell
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -1745,7 +1745,7 @@ nsPICommandUpdater
 *
 retVal
 =
-nsnull
+nullptr
 ;
 updater
 .

@@ -440,7 +440,7 @@ dmui
 >
 Show
 (
-nsnull
+nullptr
 id
 nsIDownloadManagerUI
 :

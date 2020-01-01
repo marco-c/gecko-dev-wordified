@@ -269,7 +269,7 @@ kNameSpaceID_None
 ;
 mLocalName
 =
-nsnull
+nullptr
 ;
 }
 bool

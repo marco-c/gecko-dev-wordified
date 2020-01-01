@@ -295,7 +295,7 @@ nsTObserverArray_base
 :
 mIterators
 (
-nsnull
+nullptr
 )
 {
 }
@@ -309,7 +309,7 @@ NS_ASSERTION
 mIterators
 =
 =
-nsnull
+nullptr
 "
 iterators
 outlasting
@@ -1148,7 +1148,7 @@ item
 )
 !
 =
-nsnull
+nullptr
 ;
 AdjustIterators
 (
@@ -1329,7 +1329,7 @@ item
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 /

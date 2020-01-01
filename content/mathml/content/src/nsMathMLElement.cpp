@@ -733,7 +733,7 @@ nsGkAtoms
 width
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -776,7 +776,7 @@ nsGkAtoms
 fontfamily_
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -819,7 +819,7 @@ nsGkAtoms
 background
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -848,7 +848,7 @@ nsGkAtoms
 mathbackground_
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -4706,7 +4706,7 @@ maligngroup_
 *
 aURI
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -4919,7 +4919,7 @@ nsGkAtoms
 :
 :
 simple
-nsnull
+nullptr
 }
 ;
 static
@@ -4947,7 +4947,7 @@ nsGkAtoms
 :
 :
 replace
-nsnull
+nullptr
 }
 ;
 static
@@ -4970,7 +4970,7 @@ nsGkAtoms
 :
 :
 onRequest
-nsnull
+nullptr
 }
 ;
 /
@@ -5130,7 +5130,7 @@ aURI
 *
 aURI
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -5206,7 +5206,7 @@ nsGkAtoms
 :
 :
 replace
-nsnull
+nullptr
 }
 ;
 switch
@@ -5306,7 +5306,7 @@ forget
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsresult

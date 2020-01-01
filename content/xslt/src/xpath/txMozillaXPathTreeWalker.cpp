@@ -1687,7 +1687,7 @@ isDocument
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1783,7 +1783,7 @@ target
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIAtom
@@ -1841,7 +1841,7 @@ isDocument
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -3373,7 +3373,7 @@ i
 ;
 parent
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -3599,7 +3599,7 @@ RootOf
 aContent
 )
 :
-nsnull
+nullptr
 ;
 return
 new
@@ -3708,7 +3708,7 @@ parent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsINode
@@ -3725,7 +3725,7 @@ RootOf
 parent
 )
 :
-nsnull
+nullptr
 ;
 PRUint32
 i
@@ -3816,7 +3816,7 @@ parent
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -3845,7 +3845,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (

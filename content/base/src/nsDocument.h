@@ -776,7 +776,7 @@ aKey
 )
 mNameContentList
 (
-nsnull
+nullptr
 )
 {
 }
@@ -794,7 +794,7 @@ aKey
 )
 mNameContentList
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1111,7 +1111,7 @@ return
 mChangeCallbacks
 !
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -1455,7 +1455,7 @@ aData
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2653,7 +2653,7 @@ nsIContentSink
 *
 aContentSink
 =
-nsnull
+nullptr
 )
 =
 0

@@ -683,7 +683,7 @@ mFlattenedJSObject
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 inline
@@ -705,7 +705,7 @@ mState
 INIT_FAILED
 )
 return
-nsnull
+nullptr
 ;
 CHECK_STATE
 (
@@ -752,7 +752,7 @@ GetSlimWrapperProto
 mFlattenedJSObject
 )
 :
-nsnull
+nullptr
 ;
 }
 inline
@@ -1364,7 +1364,7 @@ iid
 ?
 iid
 :
-nsnull
+nullptr
 ;
 }
 inline
@@ -1399,7 +1399,7 @@ name
 ?
 name
 :
-nsnull
+nullptr
 ;
 }
 inline
@@ -1466,7 +1466,7 @@ member
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 inline
@@ -1666,7 +1666,7 @@ pMember
 *
 pMember
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1917,7 +1917,7 @@ protoMember
 PRUint16
 *
 )
-nsnull
+nullptr
 )
 |
 |
@@ -1999,7 +1999,7 @@ iface
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 inline
@@ -2074,7 +2074,7 @@ iface
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 inline
@@ -2802,7 +2802,7 @@ iid
 )
 {
 return
-nsnull
+nullptr
 !
 =
 GetSet
@@ -2957,7 +2957,7 @@ to
 >
 SetNative
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2966,7 +2966,7 @@ to
 >
 SetInterface
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3358,11 +3358,11 @@ this
 ;
 mWrapper
 =
-nsnull
+nullptr
 ;
 mTearOff
 =
-nsnull
+nullptr
 ;
 mFlattenedJSObject
 =

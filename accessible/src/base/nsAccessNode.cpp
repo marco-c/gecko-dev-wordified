@@ -254,7 +254,7 @@ nsAccessNode
 :
 gApplicationAccessible
 =
-nsnull
+nullptr
 ;
 /
 *
@@ -661,11 +661,11 @@ Shutdown
 {
 mContent
 =
-nsnull
+nullptr
 ;
 mDoc
 =
-nsnull
+nullptr
 ;
 }
 ApplicationAccessible
@@ -764,7 +764,7 @@ gApplicationAccessible
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -900,7 +900,7 @@ docShellTreeItem
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -939,7 +939,7 @@ root
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 DocAccessible
@@ -964,7 +964,7 @@ AsRoot
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -987,7 +987,7 @@ GetPrimaryFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -1033,7 +1033,7 @@ nsCoreUtils
 GetLanguageFor
 (
 mContent
-nsnull
+nullptr
 aLanguage
 )
 ;

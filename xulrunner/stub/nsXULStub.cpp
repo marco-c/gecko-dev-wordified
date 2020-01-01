@@ -740,7 +740,7 @@ aINIFile
 :
 mAppData
 (
-nsnull
+nullptr
 )
 {
 nsresult
@@ -762,7 +762,7 @@ rv
 )
 mAppData
 =
-nsnull
+nullptr
 ;
 }
 ~
@@ -1907,7 +1907,7 @@ appBundle
 CFURLRef
 absfwurl
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2281,8 +2281,8 @@ NSFuncPtr
 XRE_main
 }
 {
-nsnull
-nsnull
+nullptr
+nullptr
 }
 }
 ;

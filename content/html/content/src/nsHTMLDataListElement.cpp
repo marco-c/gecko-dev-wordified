@@ -450,8 +450,8 @@ nsContentList
 (
 this
 MatchOptions
-nsnull
-nsnull
+nullptr
+nullptr
 true
 )
 ;

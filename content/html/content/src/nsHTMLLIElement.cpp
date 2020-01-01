@@ -718,7 +718,7 @@ nsGkAtoms
 type
 }
 {
-nsnull
+nullptr
 }
 }
 ;

@@ -268,7 +268,7 @@ if
 mSurfaceValid
 )
 return
-nsnull
+nullptr
 ;
 cairo_surface_t
 *
@@ -306,7 +306,7 @@ QuartzImageSurface
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr

@@ -556,7 +556,7 @@ rv
 {
 UpdateStyleSheetInternal
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -651,7 +651,7 @@ href
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIURI
@@ -1069,7 +1069,7 @@ manager
 *
 aInstancePtrResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1088,7 +1088,7 @@ nsGkAtoms
 :
 :
 processingInstructionTagName
-nsnull
+nullptr
 kNameSpaceID_None
 nsIDOMNode
 :

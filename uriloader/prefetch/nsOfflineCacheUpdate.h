@@ -1024,7 +1024,7 @@ nsCString
 *
 namespaceFilter
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -1378,7 +1378,7 @@ an
 addref
 or
 *
-nsnull
+nullptr
 if
 the
 service

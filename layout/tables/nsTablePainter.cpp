@@ -1010,7 +1010,7 @@ TableBackgroundData
 :
 mFrame
 (
-nsnull
+nullptr
 )
 mVisible
 (
@@ -1018,11 +1018,11 @@ false
 )
 mBorder
 (
-nsnull
+nullptr
 )
 mSynthBorder
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -1099,7 +1099,7 @@ aPresContext
 ;
 mSynthBorder
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1122,11 +1122,11 @@ SetEmpty
 ;
 mFrame
 =
-nsnull
+nullptr
 ;
 mBorder
 =
-nsnull
+nullptr
 ;
 mVisible
 =
@@ -1463,7 +1463,7 @@ aOrigin
 )
 mCols
 (
-nsnull
+nullptr
 )
 mZeroBorder
 (
@@ -1551,7 +1551,7 @@ TableBackgroundData
 *
 lastColGroup
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -1653,7 +1653,7 @@ i
 .
 mColGroup
 =
-nsnull
+nullptr
 ;
 mCols
 [
@@ -2027,7 +2027,7 @@ TableBackgroundData
 *
 lastColGroup
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -2221,8 +2221,8 @@ aPaintTableBackground
 PaintTableFrame
 (
 aTableFrame
-nsnull
-nsnull
+nullptr
+nullptr
 nsMargin
 (
 0
@@ -2341,7 +2341,7 @@ TableBackgroundData
 *
 cgData
 =
-nsnull
+nullptr
 ;
 nsMargin
 border

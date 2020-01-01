@@ -435,7 +435,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 txExecutionState
 *

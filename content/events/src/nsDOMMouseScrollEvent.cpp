@@ -132,7 +132,7 @@ nsMouseScrollEvent
 (
 false
 0
-nsnull
+nullptr
 )
 )
 {
@@ -277,7 +277,7 @@ break
 }
 mEvent
 =
-nsnull
+nullptr
 ;
 }
 }

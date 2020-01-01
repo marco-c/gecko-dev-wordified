@@ -568,7 +568,7 @@ IUniformResourceLocatorW
 *
 urlLink
 =
-nsnull
+nullptr
 ;
 result
 =
@@ -604,7 +604,7 @@ IPersistFile
 *
 urlFile
 =
-nsnull
+nullptr
 ;
 result
 =
@@ -660,7 +660,7 @@ result
 LPWSTR
 lpTemp
 =
-nsnull
+nullptr
 ;
 /
 /

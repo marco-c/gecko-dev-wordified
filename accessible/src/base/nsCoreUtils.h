@@ -578,7 +578,7 @@ node
 c
 )
 otherwise
-nsnull
+nullptr
 *
 *
 param
@@ -830,7 +830,7 @@ nsINode
 *
 aRootNode
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -1924,7 +1924,7 @@ aName
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 private

@@ -283,7 +283,7 @@ error
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <

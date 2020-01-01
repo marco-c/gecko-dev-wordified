@@ -172,7 +172,7 @@ aName
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 void

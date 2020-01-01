@@ -2092,7 +2092,7 @@ size
 ;
 sSharedSurfaceData
 =
-nsnull
+nullptr
 ;
 sSharedSurfaceData
 =
@@ -2116,7 +2116,7 @@ return
 sSharedSurfaceData
 !
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -2919,7 +2919,7 @@ if
 mTransparentSurface
 =
 =
-nsnull
+nullptr
 )
 SetupTranslucentWindowMemoryBitmap
 (
@@ -3022,7 +3022,7 @@ else
 {
 mD2DWindowSurface
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3334,7 +3334,7 @@ Next
 )
 !
 =
-nsnull
+nullptr
 ;
 )
 {
@@ -4458,7 +4458,7 @@ Destroy
 ;
 mLayerManager
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -4625,7 +4625,7 @@ ps
 }
 mPaintDC
 =
-nsnull
+nullptr
 ;
 mLastPaintEndTime
 =

@@ -580,7 +580,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -828,7 +828,7 @@ StartDocumentLoad
 kLoadAsData
 mChannel
 loadGroup
-nsnull
+nullptr
 getter_AddRefs
 (
 listener
@@ -963,7 +963,7 @@ NS_ERROR_FAILURE
 }
 mChannel
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1032,7 +1032,7 @@ mChannel
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 if
@@ -1110,7 +1110,7 @@ NS_ERROR_UNEXPECTED
 }
 mListener
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_SUCCESS
 (
@@ -1427,7 +1427,7 @@ getter_AddRefs
 channel
 )
 aURI
-nsnull
+nullptr
 aLoadGroup
 )
 ;
@@ -1654,7 +1654,7 @@ aListener
 OnStartRequest
 (
 aChannel
-nsnull
+nullptr
 )
 ;
 if
@@ -1736,7 +1736,7 @@ aListener
 OnDataAvailable
 (
 aChannel
-nsnull
+nullptr
 aIn
 sourceOffset
 readCount
@@ -1783,7 +1783,7 @@ aListener
 OnStopRequest
 (
 aChannel
-nsnull
+nullptr
 rv
 )
 ;

@@ -197,7 +197,7 @@ EditTxn
 )
 mEditor
 (
-nsnull
+nullptr
 )
 mCharData
 (
@@ -212,7 +212,7 @@ mNumCharsToDelete
 )
 mRangeUpdater
 (
-nsnull
+nullptr
 )
 {
 }

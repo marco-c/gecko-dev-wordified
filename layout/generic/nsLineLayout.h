@@ -1783,7 +1783,7 @@ false
 ;
 mLastOptionalBreakContent
 =
-nsnull
+nullptr
 ;
 mLastOptionalBreakContentOffset
 =
@@ -2023,7 +2023,7 @@ return
 mForceBreakContent
 !
 =
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -2145,7 +2145,7 @@ LL_GOTLINEBOX
 &
 mLineBox
 :
-nsnull
+nullptr
 ;
 }
 nsLineList
@@ -2166,7 +2166,7 @@ LL_GOTLINEBOX
 &
 mLineBox
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -2810,7 +2810,7 @@ pfd
 {
 if
 (
-nsnull
+nullptr
 =
 =
 mLastFrame

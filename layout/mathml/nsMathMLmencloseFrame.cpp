@@ -4030,7 +4030,7 @@ GetStyleContext
 ;
 else
 return
-nsnull
+nullptr
 ;
 }
 void

@@ -606,7 +606,7 @@ aContentLocation
 aRequestOrigin
 aRequestContext
 aMimeTypeGuess
-nsnull
+nullptr
 aDecision
 )
 ;
@@ -1250,11 +1250,11 @@ newUri
 /
 /
 nsIURI
-nsnull
+nullptr
 /
 /
 nsIURI
-nsnull
+nullptr
 /
 /
 nsISupports
@@ -1551,7 +1551,7 @@ warningFlag
 Redirect
 Error
 "
-nsnull
+nullptr
 nsContentUtils
 :
 :

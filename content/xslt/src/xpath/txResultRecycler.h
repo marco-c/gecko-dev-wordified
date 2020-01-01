@@ -260,7 +260,7 @@ caller
 .
 *
 Returns
-nsnull
+nullptr
 on
 out
 -
@@ -366,7 +366,7 @@ modified
 .
 Never
 returns
-nsnull
+nullptr
 .
 *
 /

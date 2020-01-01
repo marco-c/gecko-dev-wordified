@@ -453,7 +453,7 @@ PRLogModuleInfo
 *
 gTestLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -4539,7 +4539,7 @@ if
 sink
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -4595,7 +4595,7 @@ if
 prompt
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -4845,8 +4845,8 @@ nsDependentCString
 (
 aUrlString
 )
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 pURL
@@ -4957,7 +4957,7 @@ pChannel
 )
 pURL
 pService
-nsnull
+nullptr
 /
 /
 loadGroup
@@ -6101,9 +6101,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -6450,7 +6450,7 @@ call
 NS_ShutdownXPCOM
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

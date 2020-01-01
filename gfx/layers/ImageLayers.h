@@ -2717,7 +2717,7 @@ Image
 *
 aCurrentImage
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -3886,7 +3886,7 @@ mContainer
 {
 mImage
 =
-nsnull
+nullptr
 ;
 mContainer
 -
@@ -3897,7 +3897,7 @@ UnlockCurrentImage
 ;
 mContainer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4323,7 +4323,7 @@ GetLocalTransform
 (
 )
 snap
-nsnull
+nullptr
 )
 *
 SnapTransform
@@ -4336,7 +4336,7 @@ gfxRect
 0
 0
 )
-nsnull
+nullptr
 )
 ;
 ComputeEffectiveTransformForMaskLayer
@@ -5883,7 +5883,7 @@ some
 point
 .
 return
-nsnull
+nullptr
 ;
 }
 void

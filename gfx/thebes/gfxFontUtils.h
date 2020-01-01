@@ -1918,7 +1918,7 @@ mBlocks
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 /

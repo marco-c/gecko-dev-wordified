@@ -632,7 +632,7 @@ aDataLength
 *
 aData
 =
-nsnull
+nullptr
 ;
 return
 0
@@ -1456,7 +1456,7 @@ aDataLength
 *
 aData
 =
-nsnull
+nullptr
 ;
 return
 0

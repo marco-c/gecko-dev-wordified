@@ -753,7 +753,7 @@ aSchemes
 *
 aSchemes
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -1528,7 +1528,7 @@ aApp
 *
 aApp
 =
-nsnull
+nullptr
 ;
 GAppInfo
 *
@@ -1599,7 +1599,7 @@ aApp
 *
 aApp
 =
-nsnull
+nullptr
 ;
 char
 *
@@ -2031,7 +2031,7 @@ NULL
 *
 appInfo
 =
-nsnull
+nullptr
 ;
 GAppInfo
 *

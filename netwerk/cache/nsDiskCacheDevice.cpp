@@ -981,7 +981,7 @@ binding
 >
 mDeactivateEvent
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -3476,7 +3476,7 @@ Initialized
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -3486,7 +3486,7 @@ if
 mClearingDiskCache
 )
 return
-nsnull
+nullptr
 ;
 nsDiskCacheRecord
 record
@@ -3495,7 +3495,7 @@ nsDiskCacheBinding
 *
 binding
 =
-nsnull
+nullptr
 ;
 PLDHashNumber
 hashNumber
@@ -3557,7 +3557,7 @@ collision
 true
 ;
 return
-nsnull
+nullptr
 ;
 }
 else
@@ -3587,7 +3587,7 @@ binding
 >
 mDeactivateEvent
 =
-nsnull
+nullptr
 ;
 CACHE_LOG_DEBUG
 (
@@ -3666,7 +3666,7 @@ entries
 }
 binding
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -3696,7 +3696,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -3722,7 +3722,7 @@ if
 diskEntry
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -3754,7 +3754,7 @@ collision
 true
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCacheEntry
@@ -3796,7 +3796,7 @@ entry
 ;
 entry
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4463,7 +4463,7 @@ binding
 >
 mDeactivateEvent
 =
-nsnull
+nullptr
 ;
 }
 nsCacheService
@@ -4479,7 +4479,7 @@ mCacheEntry
 ;
 binding
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -4845,7 +4845,7 @@ oldBinding
 >
 mDeactivateEvent
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -5060,7 +5060,7 @@ DoomEntry
 binding
 =
 =
-nsnull
+nullptr
 "
 )
 ;
@@ -5480,7 +5480,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -6617,7 +6617,7 @@ if
 clientID
 =
 =
-nsnull
+nullptr
 )
 {
 /
@@ -6673,7 +6673,7 @@ if
 clientID
 =
 =
-nsnull
+nullptr
 )
 /
 /
@@ -7242,7 +7242,7 @@ mCacheMap
 &
 mBindery
 targetCapacity
-nsnull
+nullptr
 )
 ;
 return
@@ -7312,7 +7312,7 @@ parentDir
 {
 mCacheDirectory
 =
-nsnull
+nullptr
 ;
 return
 ;

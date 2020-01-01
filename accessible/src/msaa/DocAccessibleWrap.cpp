@@ -128,6 +128,13 @@ c
 #
 include
 "
+nsCoreUtils
+.
+h
+"
+#
+include
+"
 nsIAccessibilityService
 .
 h
@@ -1629,7 +1636,7 @@ mHWND
 }
 mHWND
 =
-nsnull
+nullptr
 ;
 }
 DocAccessible

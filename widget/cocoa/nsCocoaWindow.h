@@ -1211,7 +1211,7 @@ nsWidgetInitData
 *
 aInitData
 =
-nsnull
+nullptr
 )
 ;
 NS_IMETHOD
@@ -1475,7 +1475,7 @@ PLayersChild
 *
 aShadowManager
 =
-nsnull
+nullptr
 LayersBackend
 aBackendHint
 =
@@ -1494,7 +1494,7 @@ bool
 *
 aAllowRetaining
 =
-nsnull
+nullptr
 )
 ;
 NS_IMETHOD

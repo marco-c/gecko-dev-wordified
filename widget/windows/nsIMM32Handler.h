@@ -197,7 +197,7 @@ mIMC
 ;
 mIMC
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -254,11 +254,11 @@ aSrc
 :
 mWnd
 (
-nsnull
+nullptr
 )
 mIMC
 (
-nsnull
+nullptr
 )
 {
 NS_ERROR
@@ -1319,7 +1319,7 @@ screen
 *
 coordinates
 set
-nsnull
+nullptr
 .
 *
 param
@@ -1345,7 +1345,7 @@ If
 *
 this
 is
-nsnull
+nullptr
 aOutRect
 will
 be
@@ -1564,7 +1564,7 @@ PRUint32
 *
 aLength
 =
-nsnull
+nullptr
 )
 ;
 void

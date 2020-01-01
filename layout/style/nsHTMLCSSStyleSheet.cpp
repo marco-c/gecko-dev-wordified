@@ -251,7 +251,7 @@ nsHTMLCSSStyleSheet
 :
 mDocument
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1058,7 +1058,7 @@ GetParentSheet
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 /

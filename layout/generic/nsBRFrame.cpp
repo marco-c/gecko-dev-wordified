@@ -1506,7 +1506,7 @@ accService
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -1579,7 +1579,7 @@ in
 the
 control
 return
-nsnull
+nullptr
 ;
 }
 return

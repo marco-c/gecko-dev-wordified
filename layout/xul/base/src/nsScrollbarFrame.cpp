@@ -629,7 +629,7 @@ if
 mScrollbarMediator
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *

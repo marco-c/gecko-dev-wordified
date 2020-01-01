@@ -2626,7 +2626,7 @@ this
 ;
 mBuffer
 =
-nsnull
+nullptr
 ;
 buffer
 .

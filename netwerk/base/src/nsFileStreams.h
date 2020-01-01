@@ -852,7 +852,7 @@ nsFileInputStream
 {
 mLineBuffer
 =
-nsnull
+nullptr
 ;
 }
 virtual

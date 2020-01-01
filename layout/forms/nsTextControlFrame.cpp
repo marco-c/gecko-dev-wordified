@@ -733,7 +733,7 @@ PresShell
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -5717,7 +5717,7 @@ aPosition
 *
 aResult
 =
-nsnull
+nullptr
 ;
 *
 aPosition
@@ -8096,7 +8096,7 @@ aState
 *
 aState
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

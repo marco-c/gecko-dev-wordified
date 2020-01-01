@@ -1047,7 +1047,7 @@ aPresShell
 *
 aPresShell
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_TRUE
 (
@@ -1100,7 +1100,7 @@ aSelCon
 *
 aSelCon
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1613,7 +1613,7 @@ fm
 MoveFocus
 (
 piWindow
-nsnull
+nullptr
 nsIFocusManager
 :
 :
@@ -2244,7 +2244,7 @@ FireClipboardEvent
 (
 NS_COPY
 presShell
-nsnull
+nullptr
 )
 ;
 return
@@ -2649,7 +2649,7 @@ DoClipboardCommand
 (
 aCommandName
 contentEdit
-nsnull
+nullptr
 )
 ;
 }
@@ -2746,7 +2746,7 @@ aEditInterface
 *
 aEditInterface
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

@@ -327,7 +327,7 @@ UpdateStyleSheetInternal
 {
 UpdateStyleSheetInternal
 (
-nsnull
+nullptr
 )
 ;
 }

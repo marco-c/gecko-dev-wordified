@@ -728,7 +728,9 @@ cx
 )
 strictModeGetter
 (
-this
+thisForCtor
+(
+)
 )
 tokenStream
 (
@@ -5277,6 +5279,10 @@ pn_link
 }
 if
 (
+!
+pnu
+|
+|
 pnu
 !
 =

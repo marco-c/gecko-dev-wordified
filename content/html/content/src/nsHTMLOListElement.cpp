@@ -478,7 +478,7 @@ eDOMClassInfo_HTMLUListElement_id
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -988,7 +988,7 @@ nsGkAtoms
 type
 }
 {
-nsnull
+nullptr
 }
 }
 ;

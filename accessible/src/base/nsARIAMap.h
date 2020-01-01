@@ -1670,7 +1670,7 @@ the
 ARIA
 role
 or
-nsnull
+nullptr
 *
 if
 none

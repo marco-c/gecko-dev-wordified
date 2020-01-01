@@ -293,7 +293,7 @@ PRLogModuleInfo
 *
 gWin32ClipboardLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -523,7 +523,7 @@ false
 ;
 mWindow
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1004,7 +1004,7 @@ uri
 {
 if
 (
-nsnull
+nullptr
 =
 =
 aTransferable
@@ -1191,13 +1191,13 @@ aDataObj
 {
 if
 (
-nsnull
+nullptr
 =
 =
 aTransferable
 |
 |
-nsnull
+nullptr
 =
 =
 aDataObj
@@ -2201,7 +2201,7 @@ good
 transferable
 if
 (
-nsnull
+nullptr
 =
 =
 mTransferable
@@ -2562,7 +2562,7 @@ case
 *
 aData
 =
-nsnull
+nullptr
 ;
 *
 aLen
@@ -2749,7 +2749,7 @@ NS_ERROR_FAILURE
 HWND
 nativeWin
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -3431,7 +3431,7 @@ NS_ERROR_FAILURE
 *
 aData
 =
-nsnull
+nullptr
 ;
 *
 aLen
@@ -4120,7 +4120,7 @@ DragQueryFileW
 (
 dropFiles
 aIndex
-nsnull
+nullptr
 0
 )
 ;
@@ -4990,7 +4990,7 @@ void
 *
 data
 =
-nsnull
+nullptr
 ;
 PRUint32
 dataLen
@@ -5004,7 +5004,7 @@ false
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 aDataObject
@@ -5035,7 +5035,7 @@ true
 else
 if
 (
-nsnull
+nullptr
 !
 =
 aWindow
@@ -6139,7 +6139,7 @@ GetFormat
 (
 kTextMime
 )
-nsnull
+nullptr
 outData
 outDataLen
 )
@@ -6175,7 +6175,7 @@ PRUnichar
 *
 convertedText
 =
-nsnull
+nullptr
 ;
 PRInt32
 convertedTextLen
@@ -6372,7 +6372,7 @@ GetFormat
 (
 kFileMime
 )
-nsnull
+nullptr
 outData
 outDataLen
 )
@@ -6823,7 +6823,7 @@ void
 *
 tempOutData
 =
-nsnull
+nullptr
 ;
 PRUint32
 tempDataLen
@@ -6843,7 +6843,7 @@ RegisterClipboardFormat
 (
 CFSTR_INETURLW
 )
-nsnull
+nullptr
 &
 tempOutData
 &
@@ -6981,7 +6981,7 @@ RegisterClipboardFormat
 (
 CFSTR_INETURLA
 )
-nsnull
+nullptr
 &
 tempOutData
 &
@@ -7481,7 +7481,7 @@ GetDataFromDataObject
 (
 dataObj
 0
-nsnull
+nullptr
 aTransferable
 )
 ;
@@ -7507,7 +7507,7 @@ res
 =
 GetDataFromDataObject
 (
-nsnull
+nullptr
 0
 mWindow
 aTransferable

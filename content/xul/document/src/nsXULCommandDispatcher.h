@@ -262,7 +262,7 @@ aTargets
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 }

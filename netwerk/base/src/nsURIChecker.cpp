@@ -461,11 +461,11 @@ mStatus
 ;
 mObserver
 =
-nsnull
+nullptr
 ;
 mObserverContext
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1421,7 +1421,7 @@ mChannel
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 if
@@ -1433,7 +1433,7 @@ rv
 )
 mChannel
 =
-nsnull
+nullptr
 ;
 else
 {
@@ -2209,7 +2209,7 @@ AsyncCheckURI
 )
 mChannel
 =
-nsnull
+nullptr
 ;
 }
 return

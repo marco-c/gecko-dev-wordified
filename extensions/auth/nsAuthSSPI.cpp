@@ -708,7 +708,7 @@ package
 )
 mCertDERData
 (
-nsnull
+nullptr
 )
 mCertDERLength
 (
@@ -831,7 +831,7 @@ mCertDERData
 ;
 mCertDERData
 =
-nsnull
+nullptr
 ;
 mCertDERLength
 =
@@ -929,7 +929,7 @@ mCertDERLength
 ;
 mCertDERData
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1186,7 +1186,7 @@ SEC_WINNT_AUTH_IDENTITY_W
 *
 pai
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1588,7 +1588,7 @@ char
 *
 sspi_cbt
 =
-nsnull
+nullptr
 ;
 SEC_CHANNEL_BINDINGS
 pendpoint_binding
@@ -1818,7 +1818,7 @@ NS_ERROR_UNEXPECTED
 }
 ctxIn
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1840,7 +1840,7 @@ InitializeSecurityContextW
 .
 inToken
 =
-nsnull
+nullptr
 ;
 inTokenLen
 =
@@ -2223,7 +2223,7 @@ mCertDERData
 ;
 mCertDERData
 =
-nsnull
+nullptr
 ;
 mCertDERLength
 =
@@ -2309,7 +2309,7 @@ mCertDERData
 ;
 mCertDERData
 =
-nsnull
+nullptr
 ;
 mCertDERLength
 =

@@ -393,7 +393,7 @@ ReleaseFixedEndpoint
 }
 mBegin
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -413,7 +413,7 @@ ReleaseFixedEndpoint
 }
 mEnd
 =
-nsnull
+nullptr
 ;
 }
 nsSMILInstanceTime

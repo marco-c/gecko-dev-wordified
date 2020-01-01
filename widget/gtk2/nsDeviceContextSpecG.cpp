@@ -543,7 +543,7 @@ return
 mGlobalPrinterList
 !
 =
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -2286,7 +2286,7 @@ GlobalPrinters
 :
 mGlobalPrinterList
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2428,7 +2428,7 @@ aSurface
 *
 aSurface
 =
-nsnull
+nullptr
 ;
 const
 char
@@ -2540,7 +2540,7 @@ tmp
 "
 &
 buf
-nsnull
+nullptr
 )
 ;
 if
@@ -3562,7 +3562,7 @@ mSpoolName
 get
 (
 )
-nsnull
+nullptr
 )
 )
 return
@@ -4284,7 +4284,7 @@ aPrinterNameList
 *
 aPrinterNameList
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -4814,7 +4814,7 @@ NS_FAILED
 (
 CopyPrinterCharPref
 (
-nsnull
+nullptr
 printerName
 "
 filename
@@ -6338,7 +6338,7 @@ mGlobalPrinterList
 ;
 mGlobalPrinterList
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -6357,7 +6357,7 @@ aDefaultPrinterName
 *
 aDefaultPrinterName
 =
-nsnull
+nullptr
 ;
 bool
 allocate

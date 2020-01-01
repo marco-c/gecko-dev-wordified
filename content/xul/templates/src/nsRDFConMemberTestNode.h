@@ -389,7 +389,7 @@ aContainer
 aMember
 )
 :
-nsnull
+nullptr
 ;
 }
 void

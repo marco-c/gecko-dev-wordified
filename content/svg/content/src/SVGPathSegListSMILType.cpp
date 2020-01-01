@@ -363,7 +363,7 @@ mU
 .
 mPtr
 =
-nsnull
+nullptr
 ;
 aValue
 .
@@ -1057,7 +1057,7 @@ is
 allowed
 to
 be
-nsnull
+nullptr
 so
 we
 use
@@ -1902,7 +1902,7 @@ iter1
 =
 end1
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2007,7 +2007,7 @@ already
 set
 iter1
 to
-nsnull
+nullptr
 above
 to
 /

@@ -1500,7 +1500,7 @@ aFont
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 const
@@ -1725,7 +1725,7 @@ aFont
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 const

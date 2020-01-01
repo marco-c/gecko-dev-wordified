@@ -735,11 +735,11 @@ mLineNo
 )
 mExpr
 (
-nsnull
+nullptr
 )
 mFunObj
 (
-nsnull
+nullptr
 )
 {
 }
@@ -785,7 +785,7 @@ nsJSScriptTimeoutHandler
 ;
 mExpr
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -802,7 +802,7 @@ nsJSScriptTimeoutHandler
 ;
 mFunObj
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -894,7 +894,7 @@ nsAXPCNativeCallContext
 *
 ncc
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -931,7 +931,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -957,7 +957,7 @@ jsval
 *
 argv
 =
-nsnull
+nullptr
 ;
 ncc
 -
@@ -981,13 +981,13 @@ JSFlatString
 *
 expr
 =
-nsnull
+nullptr
 ;
 JSObject
 *
 funobj
 =
-nsnull
+nullptr
 ;
 JSAutoRequest
 ar
@@ -1613,7 +1613,7 @@ argc
 )
 -
 2
-nsnull
+nullptr
 getter_AddRefs
 (
 array
@@ -1639,7 +1639,7 @@ jsval
 *
 jsargv
 =
-nsnull
+nullptr
 ;
 array
 -
@@ -1823,7 +1823,7 @@ aRet
 *
 aRet
 =
-nsnull
+nullptr
 ;
 nsJSScriptTimeoutHandler
 *

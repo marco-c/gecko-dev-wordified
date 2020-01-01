@@ -126,6 +126,13 @@ h
 #
 include
 "
+nsEventShell
+.
+h
+"
+#
+include
+"
 nsTextEquivUtils
 .
 h
@@ -3366,7 +3373,7 @@ if
 editableElt
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -3436,7 +3443,7 @@ stack
 >
 Push
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -3623,7 +3630,7 @@ AUTOCOMPLETE
 ?
 mParent
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -4407,7 +4414,7 @@ legendContent
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -5247,7 +5254,7 @@ childContent
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /

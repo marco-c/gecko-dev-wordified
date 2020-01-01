@@ -413,7 +413,7 @@ event
 >
 OnInputStreamReady
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -522,7 +522,7 @@ mStream
 ;
 mCallback
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -824,7 +824,7 @@ event
 >
 OnOutputStreamReady
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -933,7 +933,7 @@ mStream
 ;
 mCallback
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1293,11 +1293,11 @@ mLock
 )
 mCallback
 (
-nsnull
+nullptr
 )
 mClosure
 (
-nsnull
+nullptr
 )
 mChunkSize
 (
@@ -1690,7 +1690,7 @@ AsyncWait
 this
 0
 0
-nsnull
+nullptr
 )
 ;
 if
@@ -1708,7 +1708,7 @@ nsIAsyncOutputStream
 :
 WAIT_CLOSURE_ONLY
 0
-nsnull
+nullptr
 )
 ;
 break
@@ -1768,7 +1768,7 @@ AsyncWait
 this
 0
 0
-nsnull
+nullptr
 )
 ;
 if
@@ -1786,7 +1786,7 @@ nsIAsyncInputStream
 :
 WAIT_CLOSURE_ONLY
 0
-nsnull
+nullptr
 )
 ;
 break
@@ -1837,11 +1837,11 @@ Close
 }
 mAsyncSource
 =
-nsnull
+nullptr
 ;
 mSource
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1942,11 +1942,11 @@ Close
 }
 mAsyncSink
 =
-nsnull
+nullptr
 ;
 mSink
 =
-nsnull
+nullptr
 ;
 /
 /

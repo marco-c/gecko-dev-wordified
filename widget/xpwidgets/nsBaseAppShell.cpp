@@ -204,7 +204,7 @@ mEventloopNestingLevel
 )
 mBlockedWait
 (
-nsnull
+nullptr
 )
 mFavorPerf
 (
@@ -703,7 +703,7 @@ DoProcessMoreGeckoEvents
 {
 OnDispatchedEvent
 (
-nsnull
+nullptr
 )
 ;
 }

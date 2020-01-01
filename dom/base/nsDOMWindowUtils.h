@@ -236,7 +236,7 @@ nsPoint
 *
 aOffset
 =
-nsnull
+nullptr
 )
 ;
 nsIWidget

@@ -538,7 +538,7 @@ y
 width
 &
 height
-nsnull
+nullptr
 )
 ;
 if
@@ -695,7 +695,7 @@ y
 width
 &
 height
-nsnull
+nullptr
 )
 ;
 mRect
@@ -1104,7 +1104,7 @@ lazily
 updated
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 }
 nsSVGInnerSVGFrameBase
@@ -1205,7 +1205,7 @@ lazily
 updated
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 content
 -
@@ -1246,7 +1246,7 @@ IsSingular
 {
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 flags
 |
@@ -1328,7 +1328,7 @@ lazily
 updated
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 nsSVGUtils
 :
@@ -1514,7 +1514,7 @@ clipY
 clipWidth
 &
 clipHeight
-nsnull
+nullptr
 )
 ;
 if
@@ -1562,7 +1562,7 @@ y
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }

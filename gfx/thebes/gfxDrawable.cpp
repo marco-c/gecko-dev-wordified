@@ -1042,7 +1042,7 @@ CairoStatus
 0
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <

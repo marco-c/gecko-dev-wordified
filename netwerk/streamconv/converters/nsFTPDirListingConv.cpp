@@ -303,7 +303,7 @@ PRLogModuleInfo
 *
 gFTPDirListConvLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -1275,7 +1275,7 @@ nsFTPDirListingConv
 {
 mFinalListener
 =
-nsnull
+nullptr
 ;
 mSentHeading
 =
@@ -1333,7 +1333,7 @@ necessary
 /
 if
 (
-nsnull
+nullptr
 =
 =
 gFTPDirListConvLog
@@ -2380,7 +2380,7 @@ NS_PRECONDITION
 aFTPDirListingConv
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

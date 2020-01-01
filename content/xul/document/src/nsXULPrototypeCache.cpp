@@ -511,7 +511,7 @@ nsXULPrototypeCache
 :
 gStartupCache
 =
-nsnull
+nullptr
 ;
 nsXULPrototypeCache
 *
@@ -520,7 +520,7 @@ nsXULPrototypeCache
 :
 sInstance
 =
-nsnull
+nullptr
 ;
 nsXULPrototypeCache
 :
@@ -979,7 +979,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -1021,7 +1021,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -1047,7 +1047,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 rv
 =
@@ -1079,7 +1079,7 @@ else
 {
 newProto
 =
-nsnull
+nullptr
 ;
 }
 mInputStreamTable
@@ -1211,7 +1211,7 @@ entry
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1366,7 +1366,7 @@ ReleaseScriptObjectCallback
 (
 aURI
 existingEntry
-nsnull
+nullptr
 )
 ;
 }
@@ -1519,7 +1519,7 @@ mScriptTable
 Enumerate
 (
 ReleaseScriptObjectCallback
-nsnull
+nullptr
 )
 ;
 }
@@ -1776,7 +1776,7 @@ mXBLDocTable
 Enumerate
 (
 FlushSkinXBL
-nsnull
+nullptr
 )
 ;
 /
@@ -1796,7 +1796,7 @@ mStyleSheetTable
 Enumerate
 (
 FlushSkinSheets
-nsnull
+nullptr
 )
 ;
 /
@@ -1832,7 +1832,7 @@ mXBLDocTable
 Enumerate
 (
 FlushScopedSkinStylesheets
-nsnull
+nullptr
 )
 ;
 }
@@ -2661,7 +2661,7 @@ mOutputStreamTable
 Get
 (
 uri
-nsnull
+nullptr
 )
 )
 {

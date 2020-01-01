@@ -1382,7 +1382,7 @@ nsIProxyInfo
 *
 pi
 =
-nsnull
+nullptr
 ;
 proxyInfo
 .
@@ -1777,7 +1777,7 @@ f
 :
 next
 (
-nsnull
+nullptr
 )
 position
 (

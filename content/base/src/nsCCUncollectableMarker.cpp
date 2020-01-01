@@ -1881,7 +1881,7 @@ med
 >
 GetEnumerator
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 windowList

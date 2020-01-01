@@ -331,7 +331,7 @@ parser
 ParseColorString
 (
 aBGColor
-nsnull
+nullptr
 0
 bgColorValue
 )
@@ -354,7 +354,7 @@ ComputeColor
 (
 bgColorValue
 presContext
-nsnull
+nullptr
 bgColor
 )
 )

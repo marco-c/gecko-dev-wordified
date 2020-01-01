@@ -1946,7 +1946,7 @@ editor
 >
 CanPasteTransferable
 (
-nsnull
+nullptr
 outCmdEnabled
 )
 ;

@@ -497,7 +497,7 @@ image
 .
 *
 Returns
-nsnull
+nullptr
 if
 unsuccessful
 .
@@ -790,7 +790,7 @@ mSurface
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -925,7 +925,7 @@ type
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 TextureD3D10BackendData
@@ -960,7 +960,7 @@ data
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1026,7 +1026,7 @@ release
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -1061,7 +1061,7 @@ device
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2026,7 +2026,7 @@ PLANAR_YCBCR
 ;
 image
 =
-nsnull
+nullptr
 ;
 autoLock
 .
@@ -2487,7 +2487,7 @@ GetContainer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 AutoLockImage
@@ -2515,7 +2515,7 @@ image
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -2535,7 +2535,7 @@ CAIRO_SURFACE
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 *
@@ -2625,7 +2625,7 @@ available
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 TextureD3D10BackendData
@@ -2644,7 +2644,7 @@ data
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -2688,7 +2688,7 @@ strange
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -2724,7 +2724,7 @@ release
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 D3D10_TEXTURE2D_DESC
@@ -2811,7 +2811,7 @@ texture
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 device
@@ -2898,7 +2898,7 @@ texture
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 D3D10_MAPPED_TEXTURE2D
@@ -3116,7 +3116,7 @@ handle
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsAutoPtr

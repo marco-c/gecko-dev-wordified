@@ -566,7 +566,7 @@ WCHAR
 *
 strVer
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1476,7 +1476,7 @@ charProp
 *
 _retval
 =
-nsnull
+nullptr
 ;
 *
 persistant
@@ -3080,7 +3080,7 @@ aEnumerator
 *
 aEnumerator
 =
-nsnull
+nullptr
 ;
 nsCOMArray
 <

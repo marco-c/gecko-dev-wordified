@@ -223,7 +223,7 @@ mNodeSet
 new
 txNodeSet
 (
-nsnull
+nullptr
 )
 )
 {

@@ -1766,7 +1766,7 @@ aState
 *
 aState
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

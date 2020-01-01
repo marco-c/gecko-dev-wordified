@@ -170,7 +170,7 @@ PRLogModuleInfo
 *
 webSocketLog
 =
-nsnull
+nullptr
 ;
 #
 endif

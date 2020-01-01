@@ -379,7 +379,7 @@ Matrix
 *
 aPatternTransform
 =
-nsnull
+nullptr
 )
 ;
 bool

@@ -829,7 +829,7 @@ Revoke
 {
 mFrame
 =
-nsnull
+nullptr
 ;
 }
 nsListBoxBodyFrame

@@ -204,7 +204,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -230,7 +230,7 @@ accTable
 NS_ENSURE_TRUE
 (
 accTable
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -267,7 +267,7 @@ rv
 cell
 )
 return
-nsnull
+nullptr
 ;
 AtkObject
 *
@@ -951,7 +951,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 TableAccessible
 *
@@ -967,7 +967,7 @@ AsTable
 NS_ENSURE_TRUE
 (
 table
-nsnull
+nullptr
 )
 ;
 Accessible
@@ -992,7 +992,7 @@ GetAtkObject
 caption
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -1026,7 +1026,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1052,7 +1052,7 @@ accTable
 NS_ENSURE_TRUE
 (
 accTable
-nsnull
+nullptr
 )
 ;
 nsAutoString
@@ -1073,7 +1073,7 @@ autoStr
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -1116,7 +1116,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1142,7 +1142,7 @@ accTable
 NS_ENSURE_TRUE
 (
 accTable
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -1170,7 +1170,7 @@ if
 accCell
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -1293,7 +1293,7 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -1308,7 +1308,7 @@ accHeaderCell
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -1342,7 +1342,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1368,7 +1368,7 @@ accTable
 NS_ENSURE_TRUE
 (
 accTable
-nsnull
+nullptr
 )
 ;
 nsAutoString
@@ -1389,7 +1389,7 @@ autoStr
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -1432,7 +1432,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1458,7 +1458,7 @@ accTable
 NS_ENSURE_TRUE
 (
 accTable
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -1486,7 +1486,7 @@ if
 accCell
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -1609,7 +1609,7 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -1624,7 +1624,7 @@ accHeaderCell
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -1696,7 +1696,7 @@ to
 ATK
 .
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -1807,7 +1807,7 @@ columns
 *
 aSelected
 =
-nsnull
+nullptr
 ;
 return
 0
@@ -2001,7 +2001,7 @@ rows
 *
 aSelected
 =
-nsnull
+nullptr
 ;
 return
 0

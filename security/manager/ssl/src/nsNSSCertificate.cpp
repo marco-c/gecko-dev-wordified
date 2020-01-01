@@ -583,7 +583,7 @@ process
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -638,7 +638,7 @@ XRE_GetProcessType
 )
 )
 return
-nsnull
+nullptr
 ;
 nsNSSCertificate
 *
@@ -672,7 +672,7 @@ newObject
 ;
 newObject
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -742,7 +742,7 @@ aCert
 dbhandle
 =
 =
-nsnull
+nullptr
 )
 {
 aCert
@@ -775,7 +775,7 @@ cert
 :
 mCert
 (
-nsnull
+nullptr
 )
 mPermDelete
 (
@@ -856,7 +856,7 @@ nsNSSCertificate
 :
 mCert
 (
-nsnull
+nullptr
 )
 mPermDelete
 (
@@ -1059,7 +1059,7 @@ mCert
 ;
 mCert
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2847,7 +2847,7 @@ aDbKey
 *
 aDbKey
 =
-nsnull
+nullptr
 ;
 key
 .
@@ -3030,8 +3030,8 @@ aDbKey
 =
 NSSBase64_EncodeItem
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 &
 key
@@ -3217,7 +3217,7 @@ NS_ERROR
 "
 Somehow
 got
-nsnull
+nullptr
 for
 mCertificate
 in
@@ -3229,7 +3229,7 @@ nsNSSCertificate
 *
 aWindowTitle
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -3622,7 +3622,7 @@ char
 *
 aAddr
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -4131,7 +4131,7 @@ aIssuer
 *
 aIssuer
 =
-nsnull
+nullptr
 ;
 CERTCertificate
 *
@@ -5717,7 +5717,7 @@ cmsg
 =
 NSS_CMSMessage_Create
 (
-nsnull
+nullptr
 )
 ;
 NSSCMSMessageCleaner
@@ -6167,7 +6167,7 @@ certP7
 =
 {
 siBuffer
-nsnull
+nullptr
 0
 }
 ;
@@ -6178,17 +6178,17 @@ ecx
 NSS_CMSEncoder_Start
 (
 cmsg
-nsnull
-nsnull
+nullptr
+nullptr
 &
 certP7
 arena
-nsnull
-nsnull
-nsnull
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -6329,7 +6329,7 @@ isAlreadyShutDown
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 (
@@ -6341,7 +6341,7 @@ CERT_DupCertificate
 mCert
 )
 :
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -6385,7 +6385,7 @@ mCert
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 validity
@@ -7552,7 +7552,7 @@ if
 mASN1Structure
 =
 =
-nsnull
+nullptr
 )
 {
 /
@@ -7739,8 +7739,8 @@ SECSuccess
 CERT_SaveSMimeProfile
 (
 mCert
-nsnull
-nsnull
+nullptr
+nullptr
 )
 )
 return
@@ -7770,7 +7770,7 @@ char
 *
 nickname
 =
-nsnull
+nullptr
 ;
 int
 count
@@ -7782,7 +7782,7 @@ char
 *
 servername
 =
-nsnull
+nullptr
 ;
 servername
 =
@@ -7942,7 +7942,7 @@ make
 sense
 .
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -8199,7 +8199,7 @@ if
 cert
 =
 =
-nsnull
+nullptr
 )
 {
 NS_ERROR
@@ -8207,7 +8207,7 @@ NS_ERROR
 "
 Somehow
 got
-nsnull
+nullptr
 for
 mCertificate
 in
@@ -8225,7 +8225,7 @@ if
 mCertList
 =
 =
-nsnull
+nullptr
 )
 {
 NS_ERROR
@@ -8233,7 +8233,7 @@ NS_ERROR
 "
 Somehow
 got
-nsnull
+nullptr
 for
 mCertList
 in
@@ -8332,7 +8332,7 @@ if
 cert
 =
 =
-nsnull
+nullptr
 )
 {
 NS_ERROR
@@ -8340,7 +8340,7 @@ NS_ERROR
 "
 Somehow
 got
-nsnull
+nullptr
 for
 mCertificate
 in
@@ -8358,7 +8358,7 @@ if
 mCertList
 =
 =
-nsnull
+nullptr
 )
 {
 NS_ERROR
@@ -8366,7 +8366,7 @@ NS_ERROR
 "
 Somehow
 got
-nsnull
+nullptr
 for
 mCertList
 in
@@ -8461,7 +8461,7 @@ if
 aCertList
 )
 return
-nsnull
+nullptr
 ;
 CERTCertList
 *
@@ -8476,11 +8476,11 @@ if
 newList
 =
 =
-nsnull
+nullptr
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 CERTCertListNode
@@ -8977,7 +8977,7 @@ count
 *
 array
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -9000,7 +9000,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -9021,7 +9021,7 @@ aContractID
 *
 aContractID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -9042,7 +9042,7 @@ aClassDescription
 *
 aClassDescription
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

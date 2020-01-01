@@ -359,7 +359,7 @@ were
 consumed
 mInputPos
 =
-nsnull
+nullptr
 ;
 nsMemory
 :

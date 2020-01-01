@@ -595,7 +595,7 @@ _bytes
 -
 1
 _type
-nsnull
+nullptr
 }
 #
 define
@@ -613,7 +613,7 @@ _bytes
 )
 -
 1
-nsnull
+nullptr
 _func
 }
 static

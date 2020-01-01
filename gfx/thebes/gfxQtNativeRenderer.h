@@ -598,7 +598,7 @@ resultSurface
 is
 set
 to
-nsnull
+nullptr
 .
 *
 /

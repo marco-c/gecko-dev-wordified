@@ -850,7 +850,7 @@ aNode
 NS_ENSURE_TRUE
 (
 aNode
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -908,7 +908,7 @@ tmp
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -926,7 +926,7 @@ aNode
 NS_ENSURE_TRUE
 (
 aNode
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -984,7 +984,7 @@ tmp
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -1385,8 +1385,8 @@ aInString
 empty
 empty
 empty
-nsnull
-nsnull
+nullptr
+nullptr
 0
 true
 )
@@ -2041,7 +2041,7 @@ rv
 =
 GetFirstSelectedCell
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 cell
@@ -2217,8 +2217,8 @@ tmpNode
 )
 &
 tmpOffset
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5285,7 +5285,7 @@ listener
 NotifyOfInsertion
 (
 aFlavor
-nsnull
+nullptr
 sourceDoc
 aWillDeleteSelection
 aFragmentAsNode
@@ -5333,7 +5333,7 @@ outLink
 *
 outLink
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -5671,7 +5671,7 @@ GetLoadContext
 (
 )
 :
-nsnull
+nullptr
 ;
 (
 *
@@ -7559,7 +7559,7 @@ imageData
 Length
 (
 )
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -9265,7 +9265,7 @@ contextTrans
 >
 Init
 (
-nsnull
+nullptr
 )
 ;
 contextTrans
@@ -9331,7 +9331,7 @@ infoTrans
 >
 Init
 (
-nsnull
+nullptr
 )
 ;
 infoTrans
@@ -9512,7 +9512,7 @@ nsEditorHookUtils
 DoInsertionHook
 (
 domdoc
-nsnull
+nullptr
 trans
 )
 )
@@ -9523,10 +9523,10 @@ return
 InsertFromTransferable
 (
 trans
-nsnull
+nullptr
 contextStr
 infoStr
-nsnull
+nullptr
 0
 true
 )
@@ -9578,7 +9578,7 @@ nsEditorHookUtils
 DoInsertionHook
 (
 domdoc
-nsnull
+nullptr
 aTransferable
 )
 )
@@ -9593,10 +9593,10 @@ return
 InsertFromTransferable
 (
 aTransferable
-nsnull
+nullptr
 contextStr
 infoStr
-nsnull
+nullptr
 0
 true
 )
@@ -9784,10 +9784,10 @@ rv
 InsertFromTransferable
 (
 trans
-nsnull
+nullptr
 empty
 empty
-nsnull
+nullptr
 0
 true
 )
@@ -10633,7 +10633,7 @@ GetLoadContext
 (
 )
 :
-nsnull
+nullptr
 ;
 trans
 -
@@ -13260,7 +13260,7 @@ rv
 ParseFragment
 (
 aContextStr
-nsnull
+nullptr
 doc
 address_of
 (
@@ -14905,7 +14905,7 @@ listCount
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if

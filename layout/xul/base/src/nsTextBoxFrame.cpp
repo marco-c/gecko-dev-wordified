@@ -527,7 +527,7 @@ aContext
 )
 mAccessKeyInfo
 (
-nsnull
+nullptr
 )
 mCropType
 (
@@ -590,7 +590,7 @@ aRedraw
 ;
 UpdateAttributes
 (
-nsnull
+nullptr
 aResize
 aRedraw
 )
@@ -1101,7 +1101,7 @@ if
 aAttribute
 =
 =
-nsnull
+nullptr
 |
 |
 aAttribute
@@ -1148,7 +1148,7 @@ nsGkAtoms
 :
 :
 end
-nsnull
+nullptr
 }
 ;
 CroppingStyle
@@ -1236,7 +1236,7 @@ if
 aAttribute
 =
 =
-nsnull
+nullptr
 |
 |
 aAttribute
@@ -1271,7 +1271,7 @@ if
 aAttribute
 =
 =
-nsnull
+nullptr
 |
 |
 aAttribute
@@ -1567,7 +1567,7 @@ nsPoint
 0
 0
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -4432,7 +4432,7 @@ mAccessKeyInfo
 ;
 mAccessKeyInfo
 =
-nsnull
+nullptr
 ;
 }
 }

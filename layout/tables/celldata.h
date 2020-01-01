@@ -292,7 +292,7 @@ and
 mOrigCell
 is
 *
-nsnull
+nullptr
 *
 /
 bool
@@ -838,7 +838,7 @@ cellframe
 this
 will
 be
-nsnull
+nullptr
 when
 the
 entry
@@ -2025,7 +2025,7 @@ mOrigCell
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 inline
@@ -2058,7 +2058,7 @@ const
 return
 (
 (
-nsnull
+nullptr
 !
 =
 mOrigCell

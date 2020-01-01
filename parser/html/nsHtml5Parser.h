@@ -774,7 +774,7 @@ nsIRequestObserver
 *
 aListener
 =
-nsnull
+nullptr
 void
 *
 aKey
@@ -1281,7 +1281,7 @@ DropTimer
 ;
 mStreamParser
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1519,7 +1519,7 @@ a
 sentinel
 object
 with
-nsnull
+nullptr
 as
 its
 parser

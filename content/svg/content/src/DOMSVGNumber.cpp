@@ -273,7 +273,7 @@ tmp
 mListIndex
 ]
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
@@ -443,7 +443,7 @@ DOMSVGNumber
 :
 mList
 (
-nsnull
+nullptr
 )
 mListIndex
 (
@@ -716,7 +716,7 @@ InternalItem
 ;
 mList
 =
-nsnull
+nullptr
 ;
 mIsAnimValItem
 =

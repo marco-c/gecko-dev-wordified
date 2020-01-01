@@ -417,7 +417,7 @@ binding
 binding
 =
 =
-nsnull
+nullptr
 "
 )
 ;
@@ -429,7 +429,7 @@ binding
 mDeactivateEvent
 =
 =
-nsnull
+nullptr
 "
 entry
 in

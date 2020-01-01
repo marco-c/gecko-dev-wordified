@@ -761,7 +761,7 @@ mTwo
 .
 state
 =
-nsnull
+nullptr
 ;
 }
 inline
@@ -872,7 +872,7 @@ mThree
 .
 attributes
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -1313,7 +1313,7 @@ Init
 aElement
 aMsgId
 aAtom
-nsnull
+nullptr
 )
 ;
 }
@@ -1335,8 +1335,8 @@ Init
 (
 aElement
 aMsgId
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }

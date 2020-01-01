@@ -566,7 +566,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 nsIScrollableFrame
 *
@@ -602,7 +602,7 @@ frame
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -622,7 +622,7 @@ if
 scrolledFrame
 )
 return
-nsnull
+nullptr
 ;
 return
 scrolledFrame

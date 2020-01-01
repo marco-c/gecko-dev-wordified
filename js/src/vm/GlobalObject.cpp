@@ -3417,7 +3417,7 @@ compileAndGo
 script
 -
 >
-hasJITInfo
+hasMJITInfo
 (
 )
 &

@@ -1036,7 +1036,7 @@ nsISupports
 *
 value
 =
-nsnull
+nullptr
 )
 ;
 nsISupports
@@ -1059,7 +1059,7 @@ nsISupports
 *
 value
 =
-nsnull
+nullptr
 )
 ;
 nsHashtable

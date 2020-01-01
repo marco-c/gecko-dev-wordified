@@ -193,14 +193,6 @@ aDWriteEnabled
 )
 ;
 NS_IMETHOD
-GetAzureEnabled
-(
-bool
-*
-aAzureEnabled
-)
-;
-NS_IMETHOD
 GetDWriteVersion
 (
 nsAString
@@ -391,7 +383,7 @@ OperatingSystem
 *
 aOS
 =
-nsnull
+nullptr
 )
 ;
 virtual

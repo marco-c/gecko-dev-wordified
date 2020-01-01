@@ -232,7 +232,7 @@ Disconnect
 {
 mListener
 =
-nsnull
+nullptr
 ;
 }
 protected
@@ -261,7 +261,7 @@ nsDOMEventTargetHelper
 :
 mOwner
 (
-nsnull
+nullptr
 )
 mHasOrHasHadOwner
 (
@@ -431,7 +431,7 @@ else
 *
 aParentObject
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -550,7 +550,7 @@ JSContext
 *
 aCx
 =
-nsnull
+nullptr
 )
 ;
 bool

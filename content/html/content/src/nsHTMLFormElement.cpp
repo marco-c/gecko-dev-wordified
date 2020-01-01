@@ -1144,7 +1144,7 @@ delete
 it
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1201,23 +1201,23 @@ false
 )
 mPendingSubmission
 (
-nsnull
+nullptr
 )
 mSubmittingRequest
 (
-nsnull
+nullptr
 )
 mDefaultSubmitElement
 (
-nsnull
+nullptr
 )
 mFirstSubmitInElements
 (
-nsnull
+nullptr
 )
 mFirstSubmitNotInElements
 (
-nsnull
+nullptr
 )
 mInvalidElementsCount
 (
@@ -1297,7 +1297,7 @@ rv
 {
 mControls
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -1971,14 +1971,14 @@ all
 )
 mPendingSubmission
 =
-nsnull
+nullptr
 ;
 }
 rv
 =
 DoSubmitOrReset
 (
-nsnull
+nullptr
 NS_FORM_SUBMIT
 )
 ;
@@ -2014,7 +2014,7 @@ nsIContent
 (
 this
 )
-nsnull
+nullptr
 &
 event
 )
@@ -2039,7 +2039,7 @@ retVal
 =
 CheckFormValidity
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -3174,7 +3174,7 @@ new
 one
 mPendingSubmission
 =
-nsnull
+nullptr
 ;
 }
 DoSubmitOrReset
@@ -3857,7 +3857,7 @@ nsGenericHTMLElement
 *
 originatingElement
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4104,7 +4104,7 @@ GetContainer
 (
 )
 :
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4576,7 +4576,7 @@ nsAutoHandlingUserInputStatePusher
 userInpStatePusher
 (
 mSubmitInitiatedFromUserInput
-nsnull
+nullptr
 doc
 )
 ;
@@ -4620,7 +4620,7 @@ get
 (
 )
 postDataStream
-nsnull
+nullptr
 getter_AddRefs
 (
 docShell
@@ -4859,7 +4859,7 @@ true
 NS_CreateServicesFromCategory
 (
 NS_FIRST_FORMSUBMIT_CATEGORY
-nsnull
+nullptr
 NS_FIRST_FORMSUBMIT_CATEGORY
 )
 ;
@@ -5248,7 +5248,7 @@ mElements
 SafeElementAt
 (
 aIndex
-nsnull
+nullptr
 )
 ;
 }
@@ -6199,7 +6199,7 @@ true
 NS_CreateServicesFromCategory
 (
 NS_PASSWORDMANAGER_CATEGORY
-nsnull
+nullptr
 NS_PASSWORDMANAGER_CATEGORY
 )
 ;
@@ -6949,7 +6949,7 @@ firstSubmitSlot
 *
 firstSubmitSlot
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -7058,7 +7058,7 @@ flux
 .
 mDefaultSubmitElement
 =
-nsnull
+nullptr
 ;
 nsContentUtils
 :
@@ -7666,7 +7666,7 @@ NS_OK
 *
 aActionURL
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -8170,7 +8170,7 @@ getter_AddRefs
 actionURL
 )
 action
-nsnull
+nullptr
 baseURL
 )
 ;
@@ -8703,7 +8703,7 @@ false
 ;
 mSubmittingRequest
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -8732,7 +8732,7 @@ this
 }
 mWebProgress
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -9199,7 +9199,7 @@ is
 called
 aEvent
 =
-nsnull
+nullptr
 so
 we
 can
@@ -10513,7 +10513,7 @@ one
 *
 aRadioOut
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -11748,7 +11748,7 @@ nsFormControlList
 {
 mForm
 =
-nsnull
+nullptr
 ;
 Clear
 (
@@ -11784,7 +11784,7 @@ DropFormReference
 {
 mForm
 =
-nsnull
+nullptr
 ;
 Clear
 (
@@ -12127,7 +12127,7 @@ item
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -12164,7 +12164,7 @@ FlushPendingNotifications
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -13772,7 +13772,7 @@ mElements
 SafeElementAt
 (
 aIndex
-nsnull
+nullptr
 )
 ;
 }
@@ -13806,7 +13806,7 @@ true
 *
 aCache
 =
-nsnull
+nullptr
 ;
 return
 item

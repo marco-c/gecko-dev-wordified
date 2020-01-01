@@ -361,7 +361,7 @@ exist
 .
 Passing
 in
-nsnull
+nullptr
 here
 creates
 an
@@ -803,7 +803,7 @@ return
 mDBConn
 !
 =
-nsnull
+nullptr
 ;
 }
 /

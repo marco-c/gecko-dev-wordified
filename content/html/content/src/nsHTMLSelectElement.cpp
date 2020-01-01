@@ -1056,7 +1056,7 @@ safeMutation
 (
 this
 this
-nsnull
+nullptr
 aIndex
 aNotify
 )
@@ -1206,7 +1206,7 @@ nsISelectControlFrame
 *
 selectFrame
 =
-nsnull
+nullptr
 ;
 nsWeakFrame
 weakSelectFrame
@@ -1382,7 +1382,7 @@ true
 true
 true
 true
-nsnull
+nullptr
 )
 ;
 }
@@ -3210,7 +3210,7 @@ nsISelectControlFrame
 *
 select_frame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4201,7 +4201,7 @@ true
 true
 true
 aNotify
-nsnull
+nullptr
 )
 ;
 if
@@ -5093,7 +5093,7 @@ nsISelectControlFrame
 *
 selectFrame
 =
-nsnull
+nullptr
 ;
 bool
 didGetFrame
@@ -7448,7 +7448,7 @@ mRestoreState
 ;
 mRestoreState
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -7817,7 +7817,7 @@ nsIFrame
 *
 formFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8436,7 +8436,7 @@ nsPresState
 *
 presState
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -8665,7 +8665,7 @@ true
 true
 true
 true
-nsnull
+nullptr
 )
 ;
 /
@@ -8751,7 +8751,7 @@ true
 false
 true
 true
-nsnull
+nullptr
 )
 ;
 }
@@ -8906,7 +8906,7 @@ selected
 false
 true
 true
-nsnull
+nullptr
 )
 ;
 if
@@ -10090,7 +10090,7 @@ counted
 reference
 mSelect
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -10860,7 +10860,7 @@ item
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -10998,7 +10998,7 @@ content
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsISupports

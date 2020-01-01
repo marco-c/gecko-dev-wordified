@@ -485,7 +485,7 @@ enum
 *
 value
 or
-nsnull
+nullptr
 if
 the
 enum
@@ -577,7 +577,7 @@ enum
 value
 or
 *
-nsnull
+nullptr
 if
 the
 enum

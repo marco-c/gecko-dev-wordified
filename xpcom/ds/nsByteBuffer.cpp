@@ -201,7 +201,7 @@ ByteBufferImpl
 {
 if
 (
-nsnull
+nullptr
 !
 =
 mBuffer
@@ -214,7 +214,7 @@ mBuffer
 ;
 mBuffer
 =
-nsnull
+nullptr
 ;
 }
 mLength
@@ -257,7 +257,7 @@ ByteBufferImpl
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 it
@@ -385,7 +385,7 @@ aNewSize
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 newbuf
@@ -445,7 +445,7 @@ aKeep
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aStream
@@ -471,7 +471,7 @@ count
 if
 (
 (
-nsnull
+nullptr
 =
 =
 aStream

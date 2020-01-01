@@ -534,7 +534,7 @@ Print
 (
 true
 fp
-nsnull
+nullptr
 )
 ;
 }

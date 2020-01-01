@@ -344,7 +344,7 @@ nsIPrintSettings
 *
 aPS
 =
-nsnull
+nullptr
 )
 ;
 static

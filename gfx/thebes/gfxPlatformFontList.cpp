@@ -280,7 +280,7 @@ gfxPlatformFontList
 :
 sPlatformFontList
 =
-nsnull
+nullptr
 ;
 static
 const
@@ -314,7 +314,7 @@ hmmmm
 .
 .
 .
-nsnull
+nullptr
 }
 ;
 class
@@ -335,7 +335,7 @@ gfxFontListPrefObserver
 *
 gFontListPrefObserver
 =
-nsnull
+nullptr
 ;
 NS_IMPL_ISUPPORTS1
 (
@@ -2003,7 +2003,7 @@ gfxFontEntry
 *
 fontEntry
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2028,7 +2028,7 @@ aCh
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2799,7 +2799,7 @@ fontEntry
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 gfxFontEntry
@@ -3069,7 +3069,7 @@ key
 )
 !
 =
-nsnull
+nullptr
 )
 {
 return
@@ -3172,7 +3172,7 @@ key
 )
 !
 =
-nsnull
+nullptr
 )
 {
 return
@@ -3181,7 +3181,7 @@ familyEntry
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 gfxFontEntry
@@ -3233,7 +3233,7 @@ aNeedsBold
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool

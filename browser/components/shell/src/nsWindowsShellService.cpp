@@ -2214,7 +2214,7 @@ prefs
 >
 GetBranch
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 prefBranch
@@ -6798,7 +6798,7 @@ prefs
 >
 GetBranch
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 prefBranch
@@ -6905,7 +6905,7 @@ nsWindowsShellService
 :
 :
 LaunchPrefetchClearCommand
-nsnull
+nullptr
 CLEAR_PREFETCH_TIMEOUT_MS
 nsITimer
 :
@@ -6945,7 +6945,7 @@ Cancel
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -6962,7 +6962,7 @@ Shutdown
 ;
 sThread
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -7238,7 +7238,7 @@ prefs
 >
 GetBranch
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 prefBranch
@@ -7447,7 +7447,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsresult
 rv

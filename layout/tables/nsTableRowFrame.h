@@ -599,12 +599,12 @@ nsTableFrame
 *
 aTableFrame
 =
-nsnull
+nullptr
 nsTableCellFrame
 *
 aCellFrame
 =
-nsnull
+nullptr
 )
 ;
 void

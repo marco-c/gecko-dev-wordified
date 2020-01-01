@@ -415,7 +415,7 @@ aKey
 {
 mNode
 =
-nsnull
+nullptr
 ;
 }
 EntityToUnicodeEntry
@@ -953,7 +953,7 @@ hash
 EnumerateEntries
 (
 nsTEnumGo
-nsnull
+nullptr
 )
 ;
 if
@@ -2185,7 +2185,7 @@ EntityToUnicode
 EnumerateEntries
 (
 nsTEnumStop
-nsnull
+nullptr
 )
 ;
 if
@@ -2239,7 +2239,7 @@ EntityToUnicode
 EnumerateEntries
 (
 nsTEnumGo
-nsnull
+nullptr
 )
 ;
 if
@@ -2335,7 +2335,7 @@ EntityToUnicode
 EnumerateEntries
 (
 nsTEnumGo
-nsnull
+nullptr
 )
 ;
 if
@@ -2671,7 +2671,7 @@ UniToEntity
 EnumerateRead
 (
 nsDEnumRead
-nsnull
+nullptr
 )
 ;
 if
@@ -2742,7 +2742,7 @@ UniToEntity
 Enumerate
 (
 nsDEnum
-nsnull
+nullptr
 )
 ;
 if
@@ -3075,7 +3075,7 @@ UniToEntityL
 EnumerateRead
 (
 nsDEnumRead
-nsnull
+nullptr
 )
 ;
 if
@@ -3146,7 +3146,7 @@ UniToEntityL
 Enumerate
 (
 nsDEnum
-nsnull
+nullptr
 )
 ;
 if
@@ -3504,7 +3504,7 @@ EntToUniClass
 EnumerateRead
 (
 nsCEnumRead
-nsnull
+nullptr
 )
 ;
 if
@@ -3578,7 +3578,7 @@ EntToUniClass
 Enumerate
 (
 nsCEnum
-nsnull
+nullptr
 )
 ;
 if
@@ -3935,7 +3935,7 @@ EntToUniClassL
 EnumerateRead
 (
 nsCEnumRead
-nsnull
+nullptr
 )
 ;
 if
@@ -4009,7 +4009,7 @@ EntToUniClassL
 Enumerate
 (
 nsCEnum
-nsnull
+nullptr
 )
 ;
 if
@@ -4388,7 +4388,7 @@ EntToUniClass2
 EnumerateRead
 (
 nsIEnum2Read
-nsnull
+nullptr
 )
 ;
 if
@@ -4462,7 +4462,7 @@ EntToUniClass2
 Enumerate
 (
 nsIEnum2
-nsnull
+nullptr
 )
 ;
 if
@@ -4850,7 +4850,7 @@ UniToEntClass2
 EnumerateRead
 (
 nsIEnumRead
-nsnull
+nullptr
 )
 ;
 if
@@ -4924,7 +4924,7 @@ UniToEntClass2
 Enumerate
 (
 nsIEnum
-nsnull
+nullptr
 )
 ;
 if
@@ -5304,7 +5304,7 @@ UniToEntClass2L
 EnumerateRead
 (
 nsIEnumRead
-nsnull
+nullptr
 )
 ;
 if
@@ -5378,7 +5378,7 @@ UniToEntClass2L
 Enumerate
 (
 nsIEnum
-nsnull
+nullptr
 )
 ;
 if

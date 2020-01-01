@@ -253,7 +253,7 @@ PRLogModuleInfo
 *
 gUrlClassifierPrefixSetLog
 =
-nsnull
+nullptr
 ;
 #
 define

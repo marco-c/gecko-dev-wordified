@@ -363,7 +363,7 @@ jar
 file
 *
 -
-nsnull
+nullptr
 for
 autodetection
 of
@@ -385,12 +385,12 @@ nsIFile
 *
 aGrePath
 =
-nsnull
+nullptr
 nsIFile
 *
 aAppPath
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -431,7 +431,7 @@ APP
 .
 *
 Returns
-nsnull
+nullptr
 when
 there
 is
@@ -444,7 +444,7 @@ jar
 *
 Also
 returns
-nsnull
+nullptr
 for
 APP
 in
@@ -581,7 +581,7 @@ or
 APP
 .
 Returns
-nsnull
+nullptr
 in
 the
 same

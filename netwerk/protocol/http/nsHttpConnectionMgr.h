@@ -4103,7 +4103,7 @@ void
 *
 vparam
 =
-nsnull
+nullptr
 )
 ;
 /

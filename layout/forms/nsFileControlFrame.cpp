@@ -780,7 +780,7 @@ nsGkAtoms
 :
 :
 input
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -1089,7 +1089,7 @@ nsGkAtoms
 :
 :
 input
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -1247,7 +1247,7 @@ nsGkAtoms
 :
 :
 input
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -3631,7 +3631,7 @@ if
 accService
 )
 return
-nsnull
+nullptr
 ;
 return
 accService

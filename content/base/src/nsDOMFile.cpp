@@ -1115,7 +1115,7 @@ aBlob
 *
 aBlob
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1801,7 +1801,7 @@ shutdown
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1977,7 +1977,7 @@ fileInfo
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP

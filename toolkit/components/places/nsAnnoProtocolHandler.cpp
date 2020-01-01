@@ -1279,7 +1279,7 @@ newChannel
 AsyncOpen
 (
 listener
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1766,7 +1766,7 @@ rv
 *
 _retval
 =
-nsnull
+nullptr
 ;
 uri
 .

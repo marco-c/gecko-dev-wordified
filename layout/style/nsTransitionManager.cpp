@@ -1734,7 +1734,7 @@ ePseudo_after
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -1900,7 +1900,7 @@ GetDuration
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1919,7 +1919,7 @@ IsProcessingAnimationStyleChange
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1975,7 +1975,7 @@ for
 this
 .
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2766,7 +2766,7 @@ Destroy
 ;
 et
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2777,7 +2777,7 @@ startedAny
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ABORT_IF_FALSE
@@ -3019,7 +3019,7 @@ memory
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsTArray
@@ -3638,7 +3638,7 @@ pointer
 !
 aElementTransitions
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -4421,7 +4421,7 @@ common
 case
 .
 return
-nsnull
+nullptr
 ;
 }
 nsIAtom
@@ -4515,7 +4515,7 @@ after
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 ElementTransitions
@@ -4581,7 +4581,7 @@ memory
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -4595,7 +4595,7 @@ SetProperty
 propName
 et
 ElementTransitionsPropertyDtor
-nsnull
+nullptr
 )
 ;
 if
@@ -4618,7 +4618,7 @@ delete
 et
 ;
 return
-nsnull
+nullptr
 ;
 }
 AddElementData
@@ -5823,7 +5823,7 @@ pointer
 !
 et
 =
-nsnull
+nullptr
 ;
 }
 }

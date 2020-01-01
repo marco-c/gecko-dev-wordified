@@ -926,7 +926,7 @@ len
 )
 !
 =
-nsnull
+nullptr
 )
 ;
 if
@@ -1018,7 +1018,7 @@ len
 )
 !
 =
-nsnull
+nullptr
 )
 ;
 aCouldBeMin
@@ -3805,7 +3805,7 @@ aIsMedia
 /
 /
 =
-nsnull
+nullptr
 {
 nsSMILTime
 offset

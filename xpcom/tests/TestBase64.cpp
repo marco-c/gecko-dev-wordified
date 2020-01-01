@@ -219,7 +219,7 @@ sir
 Chunk
 (
 0
-nsnull
+nullptr
 )
 }
 ;
@@ -254,7 +254,7 @@ sir
 Chunk
 (
 0
-nsnull
+nullptr
 )
 }
 ;
@@ -275,7 +275,7 @@ I
 Chunk
 (
 0
-nsnull
+nullptr
 )
 }
 ;
@@ -296,7 +296,7 @@ Hi
 Chunk
 (
 0
-nsnull
+nullptr
 )
 }
 ;
@@ -324,7 +324,7 @@ ob
 Chunk
 (
 0
-nsnull
+nullptr
 )
 }
 ;
@@ -352,7 +352,7 @@ b
 Chunk
 (
 0
-nsnull
+nullptr
 )
 }
 ;
@@ -438,7 +438,7 @@ e
 Chunk
 (
 0
-nsnull
+nullptr
 )
 }
 ;
@@ -510,7 +510,7 @@ THERE
 Chunk
 (
 0
-nsnull
+nullptr
 )
 }
 ;
@@ -693,8 +693,8 @@ QUxMIFRIRVNFIFdPUkxEUyBBUkUgWU9VUlMgRVhDRVBUIEVVUk9QQS4gQVRURU1QVCBOTyBMQU5ESU5H
 Terminator
 Test
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 }
 ;

@@ -1067,7 +1067,7 @@ this
 aPropertyName
 aValue
 aDtor
-nsnull
+nullptr
 aTransfer
 aOldValue
 )
@@ -1310,7 +1310,7 @@ aEditor
 *
 aEditor
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -1415,7 +1415,7 @@ rootContent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -1431,7 +1431,7 @@ aContent
 NS_ENSURE_TRUE
 (
 aContent
-nsnull
+nullptr
 )
 ;
 nsIContent
@@ -1496,7 +1496,7 @@ aPresShell
 NS_ENSURE_TRUE
 (
 aPresShell
-nsnull
+nullptr
 )
 ;
 if
@@ -1530,7 +1530,7 @@ eCONTENT
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1548,7 +1548,7 @@ GetDocument
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1682,7 +1682,7 @@ editor
 NS_ENSURE_TRUE
 (
 editorRoot
-nsnull
+nullptr
 )
 ;
 return
@@ -1815,7 +1815,7 @@ GetDocument
 NS_ENSURE_TRUE
 (
 doc
-nsnull
+nullptr
 )
 ;
 content
@@ -1833,7 +1833,7 @@ if
 content
 )
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -1870,7 +1870,7 @@ simply
 NS_ENSURE_TRUE
 (
 content
-nsnull
+nullptr
 )
 ;
 return
@@ -1922,7 +1922,7 @@ slots
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -2073,7 +2073,7 @@ aParentNode
 *
 aParentNode
 =
-nsnull
+nullptr
 ;
 nsINode
 *
@@ -2110,7 +2110,7 @@ aParentElement
 *
 aParentElement
 =
-nsnull
+nullptr
 ;
 nsINode
 *
@@ -2208,7 +2208,7 @@ aNode
 *
 aNode
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2250,7 +2250,7 @@ aNode
 *
 aNode
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2271,7 +2271,7 @@ aPrevSibling
 *
 aPrevSibling
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -2308,7 +2308,7 @@ aNextSibling
 *
 aNextSibling
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -2345,7 +2345,7 @@ aOwnerDocument
 *
 aOwnerDocument
 =
-nsnull
+nullptr
 ;
 nsIDocument
 *
@@ -2860,7 +2860,7 @@ mozAutoSubtreeModified
 subtree
 (
 doc
-nsnull
+nullptr
 )
 ;
 /
@@ -3620,7 +3620,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3864,7 +3864,7 @@ nsIAttribute
 *
 attr1
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6043,7 +6043,7 @@ nsEventDispatcher
 DispatchDOMEvent
 (
 this
-nsnull
+nullptr
 aEvent
 context
 &
@@ -7242,7 +7242,7 @@ IsNodeOfType
 eDOCUMENT
 )
 ?
-nsnull
+nullptr
 :
 static_cast
 <
@@ -7271,7 +7271,7 @@ GetBindingParent
 (
 )
 :
-nsnull
+nullptr
 true
 )
 ;
@@ -9910,7 +9910,7 @@ GetCurrentDoc
 )
 =
 =
-nsnull
+nullptr
 "
 How
 did

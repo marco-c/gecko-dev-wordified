@@ -1034,7 +1034,7 @@ aIsContextSensitive
 |
 is
 *
-nsnull
+nullptr
 .
 *
 return
@@ -1075,7 +1075,7 @@ bool
 *
 aIsContextSensitive
 =
-nsnull
+nullptr
 )
 ;
 /

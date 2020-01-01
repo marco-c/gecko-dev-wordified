@@ -1343,7 +1343,7 @@ SetTextInternal
 (
 aOffset
 aCount
-nsnull
+nullptr
 0
 true
 )
@@ -3165,7 +3165,7 @@ else
 {
 mParent
 =
-nsnull
+nullptr
 ;
 }
 SetParentIsContent
@@ -3220,7 +3220,7 @@ slots
 >
 mBindingParent
 =
-nsnull
+nullptr
 ;
 }
 nsNodeUtils
@@ -3246,7 +3246,7 @@ aFilter
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIAtom
@@ -3260,7 +3260,7 @@ GetIDAttributeName
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -3280,7 +3280,7 @@ aStr
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -3387,7 +3387,7 @@ aIndex
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -3429,7 +3429,7 @@ aIndex
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -3453,7 +3453,7 @@ aChildCount
 0
 ;
 return
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -3531,7 +3531,7 @@ slots
 >
 mBindingParent
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -3678,7 +3678,7 @@ const
 *
 aURI
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -3801,7 +3801,7 @@ aCloneAfterOriginal
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -3971,7 +3971,7 @@ SetTextInternal
 (
 cutStartOffset
 cutLength
-nsnull
+nullptr
 0
 true
 aCloneAfterOriginal
@@ -3979,7 +3979,7 @@ aCloneAfterOriginal
 &
 details
 :
-nsnull
+nullptr
 )
 ;
 if
@@ -4737,7 +4737,7 @@ DoGetID
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 const
@@ -4764,7 +4764,7 @@ called
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -4848,7 +4848,7 @@ GetClassAttributeName
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 size_t

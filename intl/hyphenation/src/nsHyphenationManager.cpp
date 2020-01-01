@@ -506,7 +506,7 @@ nsHyphenationManager
 :
 sInstance
 =
-nsnull
+nullptr
 ;
 nsHyphenationManager
 *
@@ -522,7 +522,7 @@ if
 sInstance
 =
 =
-nsnull
+nullptr
 )
 {
 sInstance
@@ -593,7 +593,7 @@ nsHyphenationManager
 {
 sInstance
 =
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -885,7 +885,7 @@ fuzzyLocale
 else
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -971,7 +971,7 @@ aLocale
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 void

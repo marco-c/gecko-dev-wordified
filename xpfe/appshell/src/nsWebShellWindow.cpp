@@ -540,7 +540,7 @@ Destroy
 ;
 mWindow
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -983,7 +983,7 @@ parentWidget
 /
 Parent
 nsIWidget
-nsnull
+nullptr
 /
 /
 Native
@@ -1003,7 +1003,7 @@ HandleEvent
 Event
 handler
 function
-nsnull
+nullptr
 /
 /
 Device
@@ -1189,7 +1189,7 @@ docShellAsWin
 >
 InitWindow
 (
-nsnull
+nullptr
 mWindow
 r
 .
@@ -1264,7 +1264,7 @@ NOTIFY_STATE_NETWORK
 }
 if
 (
-nsnull
+nullptr
 !
 =
 aUrl
@@ -1333,9 +1333,9 @@ nsIWebNavigation
 :
 :
 LOAD_FLAGS_NONE
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1568,13 +1568,13 @@ nsIDocShell
 *
 docShell
 =
-nsnull
+nullptr
 ;
 nsWebShellWindow
 *
 eventWindow
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1587,7 +1587,7 @@ instance
 .
 if
 (
-nsnull
+nullptr
 !
 =
 aEvent
@@ -1616,7 +1616,7 @@ if
 data
 !
 =
-nsnull
+nullptr
 )
 {
 eventWindow
@@ -2736,8 +2736,8 @@ presShell
 HandleEventWithTarget
 (
 aEvent
-nsnull
-nsnull
+nullptr
+nullptr
 &
 result
 )
@@ -4154,9 +4154,9 @@ nsIWebNavigation
 :
 :
 LOAD_FLAGS_NONE
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 nsMemory
@@ -4353,7 +4353,7 @@ event
 (
 true
 NS_XUL_CLOSE
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -4370,7 +4370,7 @@ DispatchDOMEvent
 (
 &
 event
-nsnull
+nullptr
 presContext
 &
 status
@@ -4658,7 +4658,7 @@ SavePersistentAttributes
 ;
 mSPTimer
 =
-nsnull
+nullptr
 ;
 }
 }

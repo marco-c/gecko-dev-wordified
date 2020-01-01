@@ -328,7 +328,7 @@ aCursor
 )
 mActor
 (
-nsnull
+nullptr
 )
 {
 NS_ASSERTION
@@ -1579,7 +1579,7 @@ IDBCursor
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 cursor
@@ -1656,7 +1656,7 @@ IDBCursor
 :
 mScriptOwner
 (
-nsnull
+nullptr
 )
 mType
 (
@@ -1683,11 +1683,11 @@ JSVAL_VOID
 )
 mActorChild
 (
-nsnull
+nullptr
 )
 mActorParent
 (
-nsnull
+nullptr
 )
 mHaveCachedKey
 (
@@ -2212,7 +2212,7 @@ tmp
 >
 mScriptOwner
 =
-nsnull
+nullptr
 ;
 tmp
 -
@@ -3491,7 +3491,7 @@ ReleaseMainThreadObjects
 {
 mCursor
 =
-nsnull
+nullptr
 ;
 AsyncConnectionHelper
 :

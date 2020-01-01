@@ -485,8 +485,8 @@ val
 v
 .
 type
-nsnull
-nsnull
+nullptr
+nullptr
 )
 )
 return
@@ -846,7 +846,7 @@ if
 map
 )
 return
-nsnull
+nullptr
 ;
 {
 /
@@ -911,7 +911,7 @@ if
 info
 )
 return
-nsnull
+nullptr
 ;
 iface
 =
@@ -927,7 +927,7 @@ if
 iface
 )
 return
-nsnull
+nullptr
 ;
 {
 /
@@ -982,7 +982,7 @@ iface
 ;
 iface
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -1057,7 +1057,7 @@ iid
 iid
 )
 return
-nsnull
+nullptr
 ;
 XPCJSRuntime
 *
@@ -1086,7 +1086,7 @@ if
 map
 )
 return
-nsnull
+nullptr
 ;
 {
 /
@@ -1137,7 +1137,7 @@ if
 iface
 )
 return
-nsnull
+nullptr
 ;
 {
 /
@@ -1192,7 +1192,7 @@ iface
 ;
 iface
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -1269,7 +1269,7 @@ ccx
 info
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -1347,13 +1347,13 @@ XPCNativeInterface
 *
 obj
 =
-nsnull
+nullptr
 ;
 XPCNativeMember
 *
 members
 =
-nsnull
+nullptr
 ;
 int
 i
@@ -1505,7 +1505,7 @@ canScript
 canScript
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1535,7 +1535,7 @@ constCount
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -1647,7 +1647,7 @@ if
 members
 )
 return
-nsnull
+nullptr
 ;
 }
 else
@@ -2166,7 +2166,7 @@ bytes
 bytes
 |
 |
-nsnull
+nullptr
 =
 =
 (
@@ -2594,12 +2594,12 @@ if
 iface
 )
 return
-nsnull
+nullptr
 ;
 XPCNativeSetKey
 key
 (
-nsnull
+nullptr
 iface
 0
 )
@@ -2631,7 +2631,7 @@ if
 map
 )
 return
-nsnull
+nullptr
 ;
 {
 /
@@ -2706,7 +2706,7 @@ if
 set
 )
 return
-nsnull
+nullptr
 ;
 {
 /
@@ -2763,7 +2763,7 @@ set
 ;
 set
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -2841,7 +2841,7 @@ if
 map
 )
 return
-nsnull
+nullptr
 ;
 {
 /
@@ -2882,7 +2882,7 @@ nsIID
 *
 iidArray
 =
-nsnull
+nullptr
 ;
 AutoMarkingNativeInterfacePtrArrayPtr
 interfaceArray
@@ -2963,7 +2963,7 @@ correctly
 .
 iidArray
 =
-nsnull
+nullptr
 ;
 iidCount
 =
@@ -3196,7 +3196,7 @@ XPCNativeSetKey
 key
 (
 set
-nsnull
+nullptr
 0
 )
 ;
@@ -3255,7 +3255,7 @@ set
 ;
 set
 =
-nsnull
+nullptr
 ;
 goto
 out
@@ -3525,7 +3525,7 @@ if
 map
 )
 return
-nsnull
+nullptr
 ;
 XPCNativeSetKey
 key
@@ -3600,7 +3600,7 @@ if
 set
 )
 return
-nsnull
+nullptr
 ;
 {
 /
@@ -3657,7 +3657,7 @@ set
 ;
 set
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -4032,7 +4032,7 @@ if
 currentSet
 )
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -4093,7 +4093,7 @@ XPCNativeSet
 *
 obj
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4105,7 +4105,7 @@ array
 count
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -4457,7 +4457,7 @@ XPCNativeSet
 *
 obj
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4465,7 +4465,7 @@ if
 newInterface
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -4480,7 +4480,7 @@ otherSet
 mInterfaceCount
 )
 return
-nsnull
+nullptr
 ;
 /
 /

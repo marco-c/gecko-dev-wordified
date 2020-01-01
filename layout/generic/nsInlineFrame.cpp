@@ -1883,7 +1883,7 @@ aStatus
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 aReflowState
@@ -1941,7 +1941,7 @@ GetPrevInFlow
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 prevInFlow
@@ -2246,7 +2246,7 @@ mFrames
 InsertFrames
 (
 this
-nsnull
+nullptr
 *
 prevOverflowFrames
 )
@@ -2583,7 +2583,7 @@ irs
 .
 mPrevFrame
 =
-nsnull
+nullptr
 ;
 irs
 .
@@ -2840,7 +2840,7 @@ mFrames
 InsertFrames
 (
 this
-nsnull
+nullptr
 *
 prevOverflowFrames
 )
@@ -3102,7 +3102,7 @@ false
 ;
 while
 (
-nsnull
+nullptr
 !
 =
 frame
@@ -3883,7 +3883,7 @@ done
 &
 &
 (
-nsnull
+nullptr
 !
 =
 GetNextInFlow
@@ -3981,7 +3981,7 @@ frame
 endif
 if
 (
-nsnull
+nullptr
 =
 =
 frame
@@ -4778,7 +4778,7 @@ ReflowFrame
 (
 aFrame
 aStatus
-nsnull
+nullptr
 pushedFrame
 )
 ;
@@ -5307,7 +5307,7 @@ nsIFrame
 *
 frame
 =
-nsnull
+nullptr
 ;
 nsInlineFrame
 *
@@ -5319,7 +5319,7 @@ mNextInFlow
 ;
 while
 (
-nsnull
+nullptr
 !
 =
 nextInFlow
@@ -5407,7 +5407,7 @@ FirstChild
 }
 if
 (
-nsnull
+nullptr
 !
 =
 frame
@@ -6512,7 +6512,7 @@ if
 accService
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -6629,7 +6629,7 @@ PresShell
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -6908,7 +6908,7 @@ aStatus
 {
 if
 (
-nsnull
+nullptr
 =
 =
 aReflowState
@@ -6961,7 +6961,7 @@ GetPrevInFlow
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 prevInFlow
@@ -7035,7 +7035,7 @@ mFrames
 InsertFrames
 (
 this
-nsnull
+nullptr
 *
 prevOverflowFrames
 )
@@ -7109,7 +7109,7 @@ mFrames
 .
 AppendFrames
 (
-nsnull
+nullptr
 *
 overflowFrames
 )
@@ -7146,7 +7146,7 @@ irs
 .
 mPrevFrame
 =
-nsnull
+nullptr
 ;
 irs
 .
@@ -7230,7 +7230,7 @@ complete
 }
 if
 (
-nsnull
+nullptr
 =
 =
 GetPrevInFlow
@@ -7363,7 +7363,7 @@ irs
 .
 mPrevFrame
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -7785,7 +7785,7 @@ mFrames
 InsertFrames
 (
 this
-nsnull
+nullptr
 *
 prevOverflowFrames
 )

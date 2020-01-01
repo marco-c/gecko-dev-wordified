@@ -3491,7 +3491,7 @@ spec
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 FindChildURI

@@ -298,7 +298,7 @@ mSchemeOrType
 get
 (
 )
-nsnull
+nullptr
 )
 ;
 if
@@ -327,7 +327,7 @@ get
 (
 )
 action
-nsnull
+nullptr
 )
 )
 rv
@@ -504,7 +504,7 @@ mSchemeOrType
 get
 (
 )
-nsnull
+nullptr
 )
 ;
 if
@@ -1205,7 +1205,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-nsnull
+nullptr
 =
 =
 connection
@@ -1280,7 +1280,7 @@ action
 hildon_uri_get_default_action
 (
 aProtocolScheme
-nsnull
+nullptr
 )
 ;
 if
@@ -1346,7 +1346,7 @@ mSchemeOrType
 get
 (
 )
-nsnull
+nullptr
 )
 ;
 GSList

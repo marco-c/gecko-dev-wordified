@@ -253,7 +253,7 @@ ptr_
 >
 member_
 =
-nsnull
+nullptr
 ;
 \
 while
@@ -277,7 +277,7 @@ cur
 >
 member_
 =
-nsnull
+nullptr
 ;
 \
 delete
@@ -358,7 +358,7 @@ to_
 >
 member_
 =
-nsnull
+nullptr
 ;
 \
 for
@@ -411,7 +411,7 @@ to_
 ;
 \
 return
-nsnull
+nullptr
 ;
 \
 }
@@ -4385,7 +4385,7 @@ nsCSSValueList
 :
 mNext
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -4514,7 +4514,7 @@ mValue
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -6031,7 +6031,7 @@ nsCSSValuePairList
 :
 mNext
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -6152,7 +6152,7 @@ mYValue
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR

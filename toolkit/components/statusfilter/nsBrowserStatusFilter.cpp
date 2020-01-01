@@ -758,7 +758,7 @@ mListener
 )
 mListener
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1146,8 +1146,8 @@ mTotalRequests
 )
 OnProgressChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 0
 mFinishedRequests
@@ -1182,8 +1182,8 @@ mTotalRequests
 return
 OnProgressChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 0
 mFinishedRequests
@@ -2171,8 +2171,8 @@ mListener
 >
 OnProgressChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 0
 (
@@ -2205,8 +2205,8 @@ mListener
 >
 OnStatusChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 mStatusMsg
 .
@@ -2298,7 +2298,7 @@ ProcessTimeout
 {
 mTimer
 =
-nsnull
+nullptr
 ;
 if
 (

@@ -492,7 +492,7 @@ If
 clientID
 =
 =
-nsnull
+nullptr
 all
 *
 entries

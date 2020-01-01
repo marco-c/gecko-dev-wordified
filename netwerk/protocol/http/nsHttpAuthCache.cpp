@@ -453,7 +453,7 @@ nsHttpAuthCache
 :
 mDB
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1254,7 +1254,7 @@ if
 mDB
 )
 return
-nsnull
+nullptr
 ;
 GetAuthKey
 (
@@ -1918,15 +1918,15 @@ mUser
 ;
 mUser
 =
-nsnull
+nullptr
 ;
 mPass
 =
-nsnull
+nullptr
 ;
 mDomain
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2331,7 +2331,7 @@ newAuthPath
 >
 mNext
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2649,9 +2649,9 @@ mIdent
 .
 Set
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -3165,7 +3165,7 @@ mNext
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsHttpAuthEntry
@@ -3262,7 +3262,7 @@ entry
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult

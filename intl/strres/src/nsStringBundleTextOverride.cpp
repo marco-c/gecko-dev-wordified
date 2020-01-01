@@ -1344,7 +1344,7 @@ it
 twice
 mCurrent
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1446,7 +1446,7 @@ hasMore
 )
 mCurrent
 =
-nsnull
+nullptr
 ;
 *
 aResult

@@ -1335,7 +1335,7 @@ does
 *
 not
 then
-nsnull
+nullptr
 is
 returned
 .
@@ -1581,11 +1581,11 @@ aAxis
 :
 mBaseVal
 (
-nsnull
+nullptr
 )
 mAnimVal
 (
-nsnull
+nullptr
 )
 mElement
 (

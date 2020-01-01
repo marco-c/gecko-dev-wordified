@@ -4666,7 +4666,7 @@ mScanner
 )
 mChildLoader
 (
-nsnull
+nullptr
 )
 mSection
 (
@@ -4674,7 +4674,7 @@ eCSSSection_Charset
 )
 mNameSpaceMap
 (
-nsnull
+nullptr
 )
 mHavePushBack
 (
@@ -4715,7 +4715,7 @@ false
 endif
 mNextFree
 (
-nsnull
+nullptr
 )
 {
 }
@@ -4798,7 +4798,7 @@ else
 {
 mNameSpaceMap
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4900,7 +4900,7 @@ active
 ;
 SetStyleSheet
 (
-nsnull
+nullptr
 )
 ;
 SetQuirkMode
@@ -4915,7 +4915,7 @@ false
 ;
 SetChildLoader
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -5044,15 +5044,15 @@ false
 endif
 mBaseURI
 =
-nsnull
+nullptr
 ;
 mSheetURI
 =
-nsnull
+nullptr
 ;
 mSheetPrincipal
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -5094,7 +5094,7 @@ here
 ;
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aBaseURI
@@ -5107,7 +5107,7 @@ URI
 ;
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aSheetURI
@@ -5253,7 +5253,7 @@ Rule
 *
 lastRule
 =
-nsnull
+nullptr
 ;
 mSheet
 -
@@ -5614,7 +5614,7 @@ AssertInitialState
 ;
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aBaseURI
@@ -5746,7 +5746,7 @@ css
 :
 StyleRule
 (
-nsnull
+nullptr
 declaration
 )
 )
@@ -5757,7 +5757,7 @@ else
 *
 aResult
 =
-nsnull
+nullptr
 ;
 }
 ReleaseScanner
@@ -5990,7 +5990,7 @@ AssertInitialState
 ;
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aBaseURI
@@ -6664,7 +6664,7 @@ aBuffer
 aURI
 aLineNumber
 aURI
-nsnull
+nullptr
 )
 ;
 AssertInitialState
@@ -6903,7 +6903,7 @@ aBuffer
 aURI
 aLineNumber
 aURI
-nsnull
+nullptr
 )
 ;
 /
@@ -6986,7 +6986,7 @@ aSelectorString
 aURI
 aLineNumber
 aURI
-nsnull
+nullptr
 )
 ;
 AssertInitialState
@@ -7203,7 +7203,7 @@ aBuffer
 aURI
 aLineNumber
 aURI
-nsnull
+nullptr
 )
 ;
 AssertInitialState
@@ -7237,7 +7237,7 @@ the
 end
 result
 =
-nsnull
+nullptr
 ;
 }
 OUTPUT_ERROR
@@ -7311,7 +7311,7 @@ aSelectorString
 aURI
 aLineNumber
 aURI
-nsnull
+nullptr
 )
 ;
 AssertInitialState
@@ -8249,7 +8249,7 @@ true
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -8267,7 +8267,7 @@ UngetToken
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -9114,7 +9114,7 @@ aHitStop
 *
 aQuery
 =
-nsnull
+nullptr
 ;
 *
 aHitStop
@@ -10473,7 +10473,7 @@ expr
 >
 mValue
 VARIANT_LENGTH
-nsnull
+nullptr
 )
 ;
 break
@@ -10499,7 +10499,7 @@ expr
 >
 mValue
 VARIANT_INTEGER
-nsnull
+nullptr
 )
 ;
 /
@@ -10558,7 +10558,7 @@ expr
 >
 mValue
 VARIANT_NUMBER
-nsnull
+nullptr
 )
 ;
 break
@@ -10683,7 +10683,7 @@ Item
 0
 )
 VARIANT_INTEGER
-nsnull
+nullptr
 )
 &
 &
@@ -10721,7 +10721,7 @@ Item
 1
 )
 VARIANT_INTEGER
-nsnull
+nullptr
 )
 &
 &
@@ -10970,7 +10970,7 @@ expr
 >
 mValue
 VARIANT_IDENTIFIER
-nsnull
+nullptr
 )
 ;
 break
@@ -11289,7 +11289,7 @@ getter_AddRefs
 url
 )
 aURLSpec
-nsnull
+nullptr
 mBaseURI
 )
 ;
@@ -11781,7 +11781,7 @@ URL
 *
 urls
 =
-nsnull
+nullptr
 ;
 css
 :
@@ -13285,7 +13285,7 @@ PEBadSelectorKeyframeRuleIgnored
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsAutoPtr
@@ -13315,7 +13315,7 @@ PEBadSelectorKeyframeRuleIgnored
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -14473,7 +14473,7 @@ nsCSSSelectorList
 *
 slist
 =
-nsnull
+nullptr
 ;
 PRUint32
 linenum
@@ -14519,7 +14519,7 @@ false
 }
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 slist
@@ -14555,7 +14555,7 @@ true
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 declaration
@@ -14677,7 +14677,7 @@ nsCSSSelectorList
 *
 list
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -14699,7 +14699,7 @@ selector
 group
 aListHead
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -14707,7 +14707,7 @@ false
 }
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 list
@@ -14820,7 +14820,7 @@ nsCSSSelectorList
 *
 newList
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -14914,7 +14914,7 @@ aListHead
 ;
 aListHead
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -14949,7 +14949,7 @@ aSelector
 mLowercaseTag
 =
 =
-nsnull
+nullptr
 )
 &
 &
@@ -14959,7 +14959,7 @@ aSelector
 mIDList
 =
 =
-nsnull
+nullptr
 )
 &
 &
@@ -14969,7 +14969,7 @@ aSelector
 mClassList
 =
 =
-nsnull
+nullptr
 )
 &
 &
@@ -14979,7 +14979,7 @@ aSelector
 mAttrList
 =
 =
-nsnull
+nullptr
 )
 &
 &
@@ -14989,7 +14989,7 @@ aSelector
 mNegations
 =
 =
-nsnull
+nullptr
 )
 &
 &
@@ -14999,7 +14999,7 @@ aSelector
 mPseudoClassList
 =
 =
-nsnull
+nullptr
 )
 )
 ;
@@ -17105,7 +17105,7 @@ direction
 /
 /
 marquee
-nsnull
+nullptr
 }
 ;
 short
@@ -19040,9 +19040,9 @@ aDataMask
 *
 newSel
 true
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -21195,7 +21195,7 @@ OUTPUT_ERROR
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -22671,7 +22671,7 @@ params
 ]
 =
 {
-nsnull
+nullptr
 stopString
 }
 ;
@@ -23024,7 +23024,7 @@ params
 ]
 =
 {
-nsnull
+nullptr
 stopString
 }
 ;
@@ -23380,7 +23380,7 @@ fakeSelector
 .
 mClassList
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -24150,7 +24150,7 @@ NextIdent
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 ident
@@ -28203,7 +28203,7 @@ ParseNonNegativeVariant
 (
 top
 VARIANT_SIDE
-nsnull
+nullptr
 )
 |
 |
@@ -28221,7 +28221,7 @@ ParseNonNegativeVariant
 (
 right
 VARIANT_SIDE
-nsnull
+nullptr
 )
 |
 |
@@ -28239,7 +28239,7 @@ ParseNonNegativeVariant
 (
 bottom
 VARIANT_SIDE
-nsnull
+nullptr
 )
 |
 |
@@ -28257,7 +28257,7 @@ ParseNonNegativeVariant
 (
 left
 VARIANT_SIDE
-nsnull
+nullptr
 )
 |
 |
@@ -28499,7 +28499,7 @@ ParseVariant
 (
 tmpVal
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 )
 {
@@ -28546,7 +28546,7 @@ ParseVariant
 (
 tmpVal
 VARIANT_NONE
-nsnull
+nullptr
 )
 )
 {
@@ -29126,7 +29126,7 @@ ParseNonNegativeVariant
 (
 tmpVal
 VARIANT_NUMBER
-nsnull
+nullptr
 )
 )
 {
@@ -29213,7 +29213,7 @@ ParseNonNegativeVariant
 (
 tmpVal
 VARIANT_NUMBER
-nsnull
+nullptr
 )
 )
 {
@@ -29510,7 +29510,7 @@ stop
 >
 mColor
 VARIANT_COLOR
-nsnull
+nullptr
 )
 )
 {
@@ -29556,7 +29556,7 @@ stop
 >
 mLocation
 VARIANT_LP
-nsnull
+nullptr
 )
 )
 {
@@ -30135,7 +30135,7 @@ cssGradient
 >
 mAngle
 VARIANT_ANGLE
-nsnull
+nullptr
 )
 &
 &
@@ -30225,7 +30225,7 @@ cssGradient
 >
 mAngle
 VARIANT_ANGLE
-nsnull
+nullptr
 )
 ;
 /
@@ -30332,7 +30332,7 @@ cssGradient
 >
 mAngle
 VARIANT_ANGLE
-nsnull
+nullptr
 )
 |
 |
@@ -30532,7 +30532,7 @@ GetRadiusX
 (
 )
 VARIANT_LP
-nsnull
+nullptr
 )
 ;
 if
@@ -30558,7 +30558,7 @@ GetRadiusY
 (
 )
 VARIANT_LP
-nsnull
+nullptr
 )
 ;
 if
@@ -30919,7 +30919,7 @@ cssGradient
 >
 mAngle
 VARIANT_ANGLE
-nsnull
+nullptr
 )
 ;
 /
@@ -31026,7 +31026,7 @@ cssGradient
 >
 mAngle
 VARIANT_ANGLE
-nsnull
+nullptr
 )
 |
 |
@@ -32399,7 +32399,7 @@ index
 ]
 )
 aVariantMask
-nsnull
+nullptr
 )
 )
 {
@@ -32636,7 +32636,7 @@ dimenX
 VARIANT_HLP
 |
 VARIANT_CALC
-nsnull
+nullptr
 )
 )
 return
@@ -32685,7 +32685,7 @@ dimenY
 VARIANT_LP
 |
 VARIANT_CALC
-nsnull
+nullptr
 )
 ;
 }
@@ -32834,7 +32834,7 @@ VARIANT_INHERIT
 VARIANT_LP
 |
 VARIANT_CALC
-nsnull
+nullptr
 )
 )
 break
@@ -32888,7 +32888,7 @@ side
 VARIANT_LP
 |
 VARIANT_CALC
-nsnull
+nullptr
 )
 )
 break
@@ -33778,7 +33778,7 @@ return
 ParseBorderImageSlice
 (
 true
-nsnull
+nullptr
 )
 ;
 case
@@ -34428,7 +34428,7 @@ aValue
 VARIANT_NONE
 |
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 ;
 }
@@ -34447,7 +34447,7 @@ aValue
 VARIANT_AUTO
 |
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 ;
 }
@@ -35187,7 +35187,7 @@ aValue
 VARIANT_NORMAL
 |
 VARIANT_STRING
-nsnull
+nullptr
 )
 ;
 case
@@ -35409,7 +35409,7 @@ ParseVariant
 (
 color
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 )
 {
@@ -36977,7 +36977,7 @@ ParseVariant
 (
 value
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 )
 {
@@ -37113,7 +37113,7 @@ ParseVariant
 (
 value
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 )
 {
@@ -37417,7 +37417,7 @@ ParseVariant
 (
 value
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 )
 {
@@ -37775,7 +37775,7 @@ ParseVariant
 (
 xValue
 variantMask
-nsnull
+nullptr
 )
 )
 {
@@ -37853,7 +37853,7 @@ yValue
 VARIANT_LP
 |
 VARIANT_CALC
-nsnull
+nullptr
 )
 )
 {
@@ -38177,7 +38177,7 @@ yValue
 VARIANT_LP
 |
 VARIANT_CALC
-nsnull
+nullptr
 )
 )
 {
@@ -38441,7 +38441,7 @@ ParseVariant
 (
 aOut
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 )
 {
@@ -39910,7 +39910,7 @@ ParseVariant
 (
 value
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 )
 {
@@ -40208,7 +40208,7 @@ ParseNonNegativeVariant
 (
 xValue
 BG_SIZE_VARIANT
-nsnull
+nullptr
 )
 )
 {
@@ -40245,7 +40245,7 @@ ParseNonNegativeVariant
 (
 yValue
 BG_SIZE_VARIANT
-nsnull
+nullptr
 )
 )
 {
@@ -40677,7 +40677,7 @@ ParseVariant
 (
 value
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 )
 {
@@ -40938,7 +40938,7 @@ ParseVariant
 (
 value
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 )
 {
@@ -41043,7 +41043,7 @@ ParseVariant
 (
 value
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 )
 {
@@ -41125,7 +41125,7 @@ ParseVariant
 (
 value
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 )
 {
@@ -41326,7 +41326,7 @@ ParseVariant
 (
 value
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 )
 {
@@ -41491,7 +41491,7 @@ ParseVariant
 (
 imageSourceValue
 VARIANT_UO
-nsnull
+nullptr
 )
 )
 {
@@ -41796,7 +41796,7 @@ xValue
 VARIANT_HL
 |
 VARIANT_CALC
-nsnull
+nullptr
 )
 )
 {
@@ -41850,7 +41850,7 @@ yValue
 VARIANT_LENGTH
 |
 VARIANT_CALC
-nsnull
+nullptr
 )
 ;
 }
@@ -42731,7 +42731,7 @@ value
 VARIANT_INHERIT
 |
 VARIANT_NONE
-nsnull
+nullptr
 )
 )
 {
@@ -44407,7 +44407,7 @@ aValue
 aVariantMask
 |
 VARIANT_NUMBER
-nsnull
+nullptr
 )
 )
 {
@@ -44790,7 +44790,7 @@ side
 ]
 )
 VARIANT_AL
-nsnull
+nullptr
 )
 )
 {
@@ -45516,7 +45516,7 @@ value
 VARIANT_INHERIT
 |
 VARIANT_NONE
-nsnull
+nullptr
 )
 )
 {
@@ -45693,7 +45693,7 @@ ParseVariant
 (
 value
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 )
 {
@@ -45873,7 +45873,7 @@ Item
 1
 )
 VARIANT_NUMBER
-nsnull
+nullptr
 )
 )
 {
@@ -45902,7 +45902,7 @@ Item
 2
 )
 VARIANT_NUMBER
-nsnull
+nullptr
 )
 )
 {
@@ -46436,7 +46436,7 @@ VARIANT_NUMBER
 VARIANT_LP
 |
 VARIANT_NORMAL
-nsnull
+nullptr
 )
 )
 {
@@ -47096,7 +47096,7 @@ aVariantMask
 [
 index
 ]
-nsnull
+nullptr
 )
 )
 return
@@ -48961,7 +48961,7 @@ value
 VARIANT_INHERIT
 |
 VARIANT_NONE
-nsnull
+nullptr
 )
 )
 {
@@ -49273,7 +49273,7 @@ depth
 VARIANT_LENGTH
 |
 VARIANT_CALC
-nsnull
+nullptr
 )
 |
 |
@@ -50655,7 +50655,7 @@ aValue
 VARIANT_INHERIT
 |
 VARIANT_NORMAL
-nsnull
+nullptr
 )
 )
 {
@@ -51981,7 +51981,7 @@ ParseVariant
 (
 value
 VARIANT_HOS
-nsnull
+nullptr
 )
 )
 {
@@ -52059,7 +52059,7 @@ quotes
 >
 mYValue
 VARIANT_STRING
-nsnull
+nullptr
 )
 )
 {
@@ -52090,7 +52090,7 @@ ParseVariant
 (
 open
 VARIANT_STRING
-nsnull
+nullptr
 )
 )
 {
@@ -52168,7 +52168,7 @@ ParseVariant
 (
 height
 VARIANT_LENGTH
-nsnull
+nullptr
 )
 ;
 }
@@ -52796,7 +52796,7 @@ ParseVariant
 (
 aValue
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 )
 {
@@ -53047,7 +53047,7 @@ VARIANT_INHERIT
 VARIANT_NONE
 |
 VARIANT_ALL
-nsnull
+nullptr
 )
 )
 {
@@ -53163,7 +53163,7 @@ cur
 >
 mValue
 VARIANT_IDENTIFIER
-nsnull
+nullptr
 )
 )
 {
@@ -53718,7 +53718,7 @@ Item
 0
 )
 VARIANT_INTEGER
-nsnull
+nullptr
 )
 )
 {
@@ -54059,7 +54059,7 @@ ParseVariant
 (
 tempValue
 VARIANT_INHERIT
-nsnull
+nullptr
 )
 )
 {
@@ -54151,7 +54151,7 @@ cur
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -55653,7 +55653,7 @@ VARIANT_COLOR
 VARIANT_LENGTH
 |
 VARIANT_CALC
-nsnull
+nullptr
 )
 )
 {
@@ -55778,7 +55778,7 @@ IndexX
 VARIANT_LENGTH
 |
 VARIANT_CALC
-nsnull
+nullptr
 )
 )
 {
@@ -55808,7 +55808,7 @@ IndexY
 VARIANT_LENGTH
 |
 VARIANT_CALC
-nsnull
+nullptr
 )
 )
 {
@@ -55875,7 +55875,7 @@ IndexRadius
 VARIANT_LENGTH
 |
 VARIANT_CALC
-nsnull
+nullptr
 )
 &
 &
@@ -55932,7 +55932,7 @@ IndexSpread
 VARIANT_LENGTH
 |
 VARIANT_CALC
-nsnull
+nullptr
 )
 ;
 }
@@ -55956,7 +55956,7 @@ Item
 IndexColor
 )
 VARIANT_COLOR
-nsnull
+nullptr
 )
 ;
 }
@@ -56050,7 +56050,7 @@ value
 VARIANT_INHERIT
 |
 VARIANT_NONE
-nsnull
+nullptr
 )
 )
 {
@@ -56335,7 +56335,7 @@ mNameSpaceMap
 >
 FindNameSpaceID
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -56379,7 +56379,7 @@ VARIANT_HC
 VARIANT_NONE
 |
 VARIANT_URL
-nsnull
+nullptr
 )
 )
 return
@@ -56406,7 +56406,7 @@ y
 VARIANT_COLOR
 |
 VARIANT_NONE
-nsnull
+nullptr
 )
 )
 y
@@ -56488,7 +56488,7 @@ value
 VARIANT_INHERIT
 |
 VARIANT_NONE
-nsnull
+nullptr
 )
 )
 {
@@ -56551,7 +56551,7 @@ cur
 >
 mValue
 VARIANT_LPN
-nsnull
+nullptr
 )
 )
 {
@@ -56684,7 +56684,7 @@ CSSParserImpl
 *
 gFreeList
 =
-nsnull
+nullptr
 ;
 nsCSSParser
 :
@@ -56728,7 +56728,7 @@ impl
 >
 mNextFree
 =
-nsnull
+nullptr
 ;
 }
 else

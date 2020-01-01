@@ -1170,7 +1170,7 @@ nsTXTToHTMLConv
 {
 mToken
 =
-nsnull
+nullptr
 ;
 mPreFormatHTML
 =
@@ -1889,7 +1889,7 @@ cursor
 }
 mToken
 =
-nsnull
+nullptr
 ;
 /
 /

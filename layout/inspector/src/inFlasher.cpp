@@ -792,7 +792,7 @@ GetNextContinuation
 )
 =
 =
-nsnull
+nullptr
 ;
 DrawOutline
 (

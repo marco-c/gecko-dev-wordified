@@ -443,7 +443,7 @@ this
 )
 gAnnotationService
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -1567,7 +1567,7 @@ rv
 =
 SetAnnotationStringInternal
 (
-nsnull
+nullptr
 aItemId
 aName
 aValue
@@ -1848,7 +1848,7 @@ rv
 =
 SetAnnotationInt32Internal
 (
-nsnull
+nullptr
 aItemId
 aName
 aValue
@@ -2129,7 +2129,7 @@ rv
 =
 SetAnnotationInt64Internal
 (
-nsnull
+nullptr
 aItemId
 aName
 aValue
@@ -2410,7 +2410,7 @@ rv
 =
 SetAnnotationDoubleInternal
 (
-nsnull
+nullptr
 aItemId
 aName
 aValue
@@ -2733,7 +2733,7 @@ rv
 =
 SetAnnotationBinaryInternal
 (
-nsnull
+nullptr
 aItemId
 aName
 aData
@@ -2879,7 +2879,7 @@ rv
 =
 StartGetAnnotation
 (
-nsnull
+nullptr
 aItemId
 aName
 statement
@@ -3180,7 +3180,7 @@ rv
 =
 StartGetAnnotation
 (
-nsnull
+nullptr
 aItemId
 aName
 statement
@@ -3479,7 +3479,7 @@ rv
 =
 StartGetAnnotation
 (
-nsnull
+nullptr
 aItemId
 aName
 statement
@@ -3643,7 +3643,7 @@ rv
 =
 StartGetAnnotation
 (
-nsnull
+nullptr
 aItemId
 aName
 statement
@@ -3801,7 +3801,7 @@ rv
 =
 StartGetAnnotation
 (
-nsnull
+nullptr
 aItemId
 aName
 statement
@@ -3954,7 +3954,7 @@ rv
 =
 StartGetAnnotation
 (
-nsnull
+nullptr
 aItemId
 aName
 statement
@@ -4166,7 +4166,7 @@ rv
 =
 StartGetAnnotation
 (
-nsnull
+nullptr
 aItemId
 aName
 statement
@@ -4476,7 +4476,7 @@ rv
 =
 StartGetAnnotation
 (
-nsnull
+nullptr
 aItemId
 aName
 statement
@@ -4654,7 +4654,7 @@ _resultCount
 *
 _results
 =
-nsnull
+nullptr
 ;
 nsCOMArray
 <
@@ -5066,7 +5066,7 @@ _resultCount
 *
 _results
 =
-nsnull
+nullptr
 ;
 nsTArray
 <
@@ -5377,7 +5377,7 @@ _count
 *
 _result
 =
-nsnull
+nullptr
 ;
 nsTArray
 <
@@ -5540,7 +5540,7 @@ _result
 *
 _result
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -5893,7 +5893,7 @@ _count
 *
 _result
 =
-nsnull
+nullptr
 ;
 nsTArray
 <
@@ -5906,7 +5906,7 @@ rv
 =
 GetAnnotationNamesTArray
 (
-nsnull
+nullptr
 aItemId
 &
 names
@@ -6056,7 +6056,7 @@ _result
 *
 _result
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -6182,7 +6182,7 @@ rv
 =
 HasAnnotationInternal
 (
-nsnull
+nullptr
 aItemId
 aName
 _retval
@@ -6544,7 +6544,7 @@ rv
 =
 RemoveAnnotationInternal
 (
-nsnull
+nullptr
 aItemId
 aName
 )
@@ -10282,7 +10282,7 @@ ArrayLength
 (
 stmts
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 ps

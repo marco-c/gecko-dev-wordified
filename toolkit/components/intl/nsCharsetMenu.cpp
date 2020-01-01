@@ -2131,7 +2131,7 @@ aOuter
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NO_AGGREGATION
@@ -2155,7 +2155,7 @@ inst
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2184,7 +2184,7 @@ res
 *
 aResult
 =
-nsnull
+nullptr
 ;
 delete
 inst
@@ -3338,7 +3338,7 @@ PrefService
 >
 GetBranch
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 mPrefs
@@ -7464,7 +7464,7 @@ item
 )
 !
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7492,7 +7492,7 @@ item
 )
 !
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -9966,7 +9966,7 @@ i
 .
 key
 =
-nsnull
+nullptr
 ;
 res
 =
@@ -10200,13 +10200,13 @@ nsILocale
 >
 locale
 =
-nsnull
+nullptr
 ;
 nsICollationFactory
 *
 collationFactory
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

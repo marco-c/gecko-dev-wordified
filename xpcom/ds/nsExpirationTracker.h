@@ -1893,7 +1893,7 @@ mIndex
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -2513,7 +2513,7 @@ tracker
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -213,7 +213,7 @@ TimerThread
 {
 mThread
 =
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -438,7 +438,7 @@ rv
 {
 mThread
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -1410,7 +1410,7 @@ nsTimerImpl
 *
 timer
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1818,7 +1818,7 @@ thread
 }
 timer
 =
-nsnull
+nullptr
 ;
 }
 if

@@ -650,7 +650,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-nsnull
+nullptr
 =
 =
 connection

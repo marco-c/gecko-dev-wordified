@@ -162,6 +162,13 @@ h
 #
 include
 "
+nsEventShell
+.
+h
+"
+#
+include
+"
 Relation
 .
 h
@@ -1619,7 +1626,7 @@ Shutdown
 ;
 mCaretAccessible
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -2453,7 +2460,7 @@ Accessible
 *
 treeItemAcc
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -3004,7 +3011,7 @@ FocusMgr
 >
 ActiveItemChanged
 (
-nsnull
+nullptr
 )
 ;
 A11YDEBUG_FOCUS_ACTIVEITEMCHANGE_CAUSE
@@ -3207,7 +3214,7 @@ FocusMgr
 >
 ActiveItemChanged
 (
-nsnull
+nullptr
 )
 ;
 A11YDEBUG_FOCUS_ACTIVEITEMCHANGE_CAUSE
@@ -4224,7 +4231,7 @@ Accessible
 *
 widget
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4529,7 +4536,7 @@ FocusMgr
 >
 ActiveItemChanged
 (
-nsnull
+nullptr
 )
 ;
 A11YDEBUG_FOCUS_ACTIVEITEMCHANGE_CAUSE

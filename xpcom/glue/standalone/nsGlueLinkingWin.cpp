@@ -1104,7 +1104,7 @@ sXULLibrary
 ;
 sXULLibrary
 =
-nsnull
+nullptr
 ;
 }
 }

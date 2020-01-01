@@ -153,7 +153,7 @@ false
 )
 mOGLLibrary
 (
-nsnull
+nullptr
 )
 {
 }

@@ -518,7 +518,7 @@ static
 atom
 .
 Otherwise
-nsnull
+nullptr
 is
 returned
 .

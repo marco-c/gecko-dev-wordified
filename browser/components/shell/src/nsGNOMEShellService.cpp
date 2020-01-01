@@ -691,7 +691,7 @@ G_BROKEN_FILENAMES
 )
 !
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3604,7 +3604,7 @@ newArgv
 newArgc
 ]
 =
-nsnull
+nullptr
 ;
 gboolean
 err

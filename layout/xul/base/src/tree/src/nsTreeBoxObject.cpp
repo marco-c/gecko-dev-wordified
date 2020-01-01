@@ -244,7 +244,7 @@ sel
 >
 SetTree
 (
-nsnull
+nullptr
 )
 ;
 mView
@@ -252,7 +252,7 @@ mView
 >
 SetTree
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -270,7 +270,7 @@ us
 }
 mView
 =
-nsnull
+nullptr
 ;
 nsBoxObject
 :
@@ -289,7 +289,7 @@ nsTreeBoxObject
 :
 mTreeBody
 (
-nsnull
+nullptr
 )
 {
 }
@@ -324,7 +324,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 ChildIterator
 iter
@@ -598,7 +598,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -636,7 +636,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -678,7 +678,7 @@ if
 content
 )
 return
-nsnull
+nullptr
 ;
 frame
 =
@@ -695,7 +695,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -735,7 +735,7 @@ GetTreeBoxObject
 =
 =
 this
-nsnull
+nullptr
 )
 ;
 mTreeBody
@@ -784,7 +784,7 @@ view
 *
 aView
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1159,7 +1159,7 @@ aElement
 *
 aElement
 =
-nsnull
+nullptr
 ;
 nsTreeBodyFrame
 *
@@ -1201,7 +1201,7 @@ aColumns
 *
 aColumns
 =
-nsnull
+nullptr
 ;
 nsTreeBodyFrame
 *
@@ -1489,7 +1489,7 @@ aRegion
 *
 aRegion
 =
-nsnull
+nullptr
 ;
 nsTreeBodyFrame
 *
@@ -2108,7 +2108,7 @@ aRow
 *
 aCol
 =
-nsnull
+nullptr
 ;
 nsTreeBodyFrame
 *
@@ -2405,7 +2405,7 @@ ClearCachedValues
 {
 mTreeBody
 =
-nsnull
+nullptr
 ;
 }
 /

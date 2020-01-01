@@ -346,7 +346,7 @@ cpc
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2713,7 +2713,7 @@ aChildArray
 *
 aChildArray
 =
-nsnull
+nullptr
 ;
 *
 aCount
@@ -3175,7 +3175,7 @@ callback
 aDomain
 =
 =
-nsnull
+nullptr
 is
 the
 only
@@ -3408,7 +3408,7 @@ pCallback
 aDomain
 =
 =
-nsnull
+nullptr
 is
 the
 only
@@ -3857,7 +3857,7 @@ Enumerate
 (
 &
 FreeObserverFunc
-nsnull
+nullptr
 )
 ;
 mFreeingObserverList

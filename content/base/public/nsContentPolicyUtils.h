@@ -1116,12 +1116,12 @@ nsIContentPolicy
 *
 policyService
 =
-nsnull
+nullptr
 nsIScriptSecurityManager
 *
 aSecMan
 =
-nsnull
+nullptr
 )
 {
 CHECK_PRINCIPAL
@@ -1271,12 +1271,12 @@ nsIContentPolicy
 *
 policyService
 =
-nsnull
+nullptr
 nsIScriptSecurityManager
 *
 aSecMan
 =
-nsnull
+nullptr
 )
 {
 CHECK_PRINCIPAL
@@ -1383,7 +1383,7 @@ to
 the
 docshell
 or
-nsnull
+nullptr
 if
 it
 could
@@ -1542,7 +1542,7 @@ aContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -1685,7 +1685,7 @@ window
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

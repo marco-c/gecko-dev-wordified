@@ -708,7 +708,7 @@ if
 area
 )
 return
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -731,7 +731,7 @@ GetHrefURI
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 /

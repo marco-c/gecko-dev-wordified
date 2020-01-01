@@ -3392,8 +3392,8 @@ NS_LITERAL_STRING
 span
 "
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4299,7 +4299,7 @@ outLeftNode
 *
 outLeftNode
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4308,7 +4308,7 @@ outRightNode
 *
 outRightNode
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -8400,7 +8400,7 @@ nsAString
 *
 att
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8421,7 +8421,7 @@ nsAString
 *
 val
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8446,7 +8446,7 @@ val
 aFirst
 aAny
 aAll
-nsnull
+nullptr
 )
 ;
 }
@@ -8501,7 +8501,7 @@ nsAString
 *
 att
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8522,7 +8522,7 @@ nsAString
 *
 val
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8582,8 +8582,8 @@ res
 =
 RemoveInlinePropertyImpl
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -11278,7 +11278,7 @@ res
 }
 sibling
 =
-nsnull
+nullptr
 ;
 GetNextHTMLSibling
 (
@@ -12241,7 +12241,7 @@ nsEditProperty
 font
 &
 attr
-nsnull
+nullptr
 &
 first
 &
@@ -12305,15 +12305,15 @@ nsEditProperty
 :
 :
 tt
-nsnull
-nsnull
+nullptr
+nullptr
 &
 first
 &
 any
 &
 all
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -12455,7 +12455,7 @@ nsEditProperty
 font
 &
 colorStr
-nsnull
+nullptr
 &
 first
 &

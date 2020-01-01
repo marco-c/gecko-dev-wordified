@@ -284,7 +284,7 @@ ChildIterator
 :
 mContent
 (
-nsnull
+nullptr
 )
 mChild
 (
@@ -292,7 +292,7 @@ mChild
 )
 mNodes
 (
-nsnull
+nullptr
 )
 {
 }
@@ -918,7 +918,7 @@ about
 .
 mChild
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -932,7 +932,7 @@ return
 mNodes
 !
 =
-nsnull
+nullptr
 ;
 }
 /

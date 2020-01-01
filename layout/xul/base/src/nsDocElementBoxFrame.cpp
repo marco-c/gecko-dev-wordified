@@ -608,7 +608,7 @@ nsGkAtoms
 :
 :
 popupgroup
-nsnull
+nullptr
 kNameSpaceID_XUL
 nsIDOMNode
 :
@@ -681,7 +681,7 @@ nsGkAtoms
 :
 :
 tooltip
-nsnull
+nullptr
 kNameSpaceID_XUL
 nsIDOMNode
 :

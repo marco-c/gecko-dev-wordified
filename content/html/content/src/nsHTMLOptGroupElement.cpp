@@ -682,7 +682,7 @@ break
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -763,7 +763,7 @@ GetSelect
 (
 )
 this
-nsnull
+nullptr
 aIndex
 aNotify
 )

@@ -1023,7 +1023,7 @@ mDefaultDeviceManager
 )
 mDefaultDeviceManager
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -1296,7 +1296,7 @@ GetFirstChildD3D9
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1656,7 +1656,7 @@ aSize
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 protected

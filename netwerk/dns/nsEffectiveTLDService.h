@@ -320,11 +320,11 @@ safely
 /
 /
 pass
-nsnull
+nullptr
 return
 PL_DHashStringKey
 (
-nsnull
+nullptr
 aKey
 )
 ;

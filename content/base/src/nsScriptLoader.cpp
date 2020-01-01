@@ -643,7 +643,7 @@ return
 mElement
 =
 =
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -1609,7 +1609,7 @@ NS_LossyConvertUTF16toASCII
 (
 aType
 )
-nsnull
+nullptr
 /
 /
 extra
@@ -2039,7 +2039,7 @@ aRequest
 -
 >
 mURI
-nsnull
+nullptr
 loadGroup
 prompter
 nsIRequest
@@ -2808,7 +2808,7 @@ x
 -
 javascript
 "
-nsnull
+nullptr
 }
 ;
 bool
@@ -3781,7 +3781,7 @@ the
 preload
 request
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -6027,7 +6027,7 @@ aRequest
 >
 mJSVersion
 )
-nsnull
+nullptr
 &
 isUndefined
 )
@@ -6056,7 +6056,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -7565,7 +7565,7 @@ request
 {
 mParserBlockingRequest
 =
-nsnull
+nullptr
 ;
 UnblockParser
 (
@@ -8403,7 +8403,7 @@ Clear
 ;
 mParserBlockingRequest
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -8494,7 +8494,7 @@ request
 new
 nsScriptLoadRequest
 (
-nsnull
+nullptr
 0
 nsGenericElement
 :

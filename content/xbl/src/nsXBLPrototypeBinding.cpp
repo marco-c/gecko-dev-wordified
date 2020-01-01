@@ -708,7 +708,7 @@ aDstNameSpace
 aContent
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -803,7 +803,7 @@ aDstNameSpace
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1175,7 +1175,7 @@ return
 kPool
 !
 =
-nsnull
+nullptr
 ;
 }
 static
@@ -1231,7 +1231,7 @@ place
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 +
@@ -1477,7 +1477,7 @@ tmp
 >
 mDefaultContent
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
@@ -1744,11 +1744,11 @@ nsXBLPrototypeBinding
 :
 mImplementation
 (
-nsnull
+nullptr
 )
 mBaseBinding
 (
-nsnull
+nullptr
 )
 mInheritStyle
 (
@@ -1764,19 +1764,19 @@ false
 )
 mResources
 (
-nsnull
+nullptr
 )
 mAttributeTable
 (
-nsnull
+nullptr
 )
 mInsertionPointTable
 (
-nsnull
+nullptr
 )
 mInterfaceTable
 (
-nsnull
+nullptr
 )
 mBaseNameSpaceID
 (
@@ -2791,7 +2791,7 @@ mImplementation
 mConstructor
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsXBLProtoImplAnonymousMethod
@@ -2814,7 +2814,7 @@ mImplementation
 mDestructor
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -3698,7 +3698,7 @@ proto
 >
 LocateInstance
 (
-nsnull
+nullptr
 templRoot
 instanceRoot
 content
@@ -3738,7 +3738,7 @@ nsInsertionPointList
 *
 points
 =
-nsnull
+nullptr
 ;
 binding
 -
@@ -3754,7 +3754,7 @@ nsXBLInsertionPoint
 *
 insertionPoint
 =
-nsnull
+nullptr
 ;
 PRInt32
 count
@@ -3973,7 +3973,7 @@ if
 mInsertionPointTable
 )
 return
-nsnull
+nullptr
 ;
 nsISupportsKey
 key
@@ -4044,7 +4044,7 @@ nsIContent
 *
 realContent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4088,7 +4088,7 @@ realContent
 =
 LocateInstance
 (
-nsnull
+nullptr
 templContent
 aCopyRoot
 content
@@ -4107,7 +4107,7 @@ nothin
 Bail
 .
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -4155,7 +4155,7 @@ if
 mInsertionPointTable
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -4176,7 +4176,7 @@ aMultipleInsertionPoints
 true
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsISupportsKey
@@ -4288,7 +4288,7 @@ aIndex
 0
 ;
 return
-nsnull
+nullptr
 ;
 }
 *
@@ -4335,7 +4335,7 @@ realContent
 =
 LocateInstance
 (
-nsnull
+nullptr
 templContent
 aCopyRoot
 content
@@ -4398,7 +4398,7 @@ mBaseTag
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -4459,7 +4459,7 @@ return
 supports
 !
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -4601,7 +4601,7 @@ child
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -4637,7 +4637,7 @@ aClassObject
 *
 aClassObject
 =
-nsnull
+nullptr
 ;
 return
 nsXBLBinding
@@ -4709,7 +4709,7 @@ aTemplRoot
 aTemplChild
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4749,7 +4749,7 @@ if
 templParent
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -4797,13 +4797,13 @@ if
 templParent
 )
 return
-nsnull
+nullptr
 ;
 nsIContent
 *
 result
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -4899,7 +4899,7 @@ nsIContent
 *
 anonContent
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -4949,13 +4949,13 @@ if
 binding
 )
 return
-nsnull
+nullptr
 ;
 nsInsertionPointList
 *
 points
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5844,7 +5844,7 @@ mRuleProcessor
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsXBLPrototypeResources
@@ -5873,7 +5873,7 @@ mStyleSheetList
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -5958,10 +5958,10 @@ mAttributeTable
 new
 nsObjectHashtable
 (
-nsnull
-nsnull
+nullptr
+nullptr
 DeleteAttributeTable
-nsnull
+nullptr
 4
 )
 ;
@@ -6025,10 +6025,10 @@ attributesNS
 new
 nsObjectHashtable
 (
-nsnull
-nsnull
+nullptr
+nullptr
 DeleteAttributeEntry
-nsnull
+nullptr
 4
 )
 ;
@@ -6759,10 +6759,10 @@ mInsertionPointTable
 new
 nsObjectHashtable
 (
-nsnull
-nsnull
+nullptr
+nullptr
 DeleteInsertionPointEntry
-nsnull
+nullptr
 4
 )
 ;
@@ -7643,7 +7643,7 @@ nsIID
 *
 iid
 =
-nsnull
+nullptr
 ;
 iinfo
 -
@@ -8087,7 +8087,7 @@ nsXBLKeyEventHandler
 *
 handler
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -8244,7 +8244,7 @@ Disconnect
 {
 mDocInfo
 =
-nsnull
+nullptr
 ;
 }
 nsXBLDocumentInfo
@@ -8457,7 +8457,7 @@ NS_LITERAL_STRING
 binding
 "
 )
-nsnull
+nullptr
 kNameSpaceID_XBL
 getter_AddRefs
 (
@@ -8688,7 +8688,7 @@ Init
 (
 id
 aDocInfo
-nsnull
+nullptr
 isFirstBinding
 )
 ;
@@ -8882,7 +8882,7 @@ nsXBLPrototypeHandler
 *
 previousHandler
 =
-nsnull
+nullptr
 ;
 do
 {
@@ -10087,7 +10087,7 @@ aContent
 *
 aContent
 =
-nsnull
+nullptr
 ;
 PRInt32
 namespaceID
@@ -10476,7 +10476,7 @@ nsXULPrototypeAttribute
 *
 attrs
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -11140,7 +11140,7 @@ defaultContent
 >
 BindToTree
 (
-nsnull
+nullptr
 content
 content
 -
@@ -11182,10 +11182,10 @@ mInsertionPointTable
 new
 nsObjectHashtable
 (
-nsnull
-nsnull
+nullptr
+nullptr
 DeleteInsertionPointEntry
-nsnull
+nullptr
 4
 )
 ;
@@ -13150,7 +13150,7 @@ nsGkAtoms
 :
 :
 tree
-nsnull
+nullptr
 }
 ;
 PRUint32
@@ -13544,7 +13544,7 @@ errorFlag
 "
 XBL
 "
-nsnull
+nullptr
 nsContentUtils
 :
 :

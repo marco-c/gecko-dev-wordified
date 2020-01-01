@@ -199,7 +199,7 @@ T
 *
 raw
 =
-nsnull
+nullptr
 ;
 doomed
 .
@@ -276,7 +276,7 @@ T
 *
 raw
 =
-nsnull
+nullptr
 ;
 doomed
 .

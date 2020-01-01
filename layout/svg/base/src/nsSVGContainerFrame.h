@@ -661,12 +661,12 @@ gfxMatrix
 *
 aOwnTransform
 =
-nsnull
+nullptr
 gfxMatrix
 *
 aFromParentTransform
 =
-nsnull
+nullptr
 )
 const
 ;

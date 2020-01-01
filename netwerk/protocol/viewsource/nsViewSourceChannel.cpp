@@ -402,8 +402,8 @@ pService
 NewChannel
 (
 path
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 mChannel
@@ -975,7 +975,7 @@ source
 +
 spec
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -1121,7 +1121,7 @@ nsIViewSourceChannel
 (
 this
 )
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -1159,7 +1159,7 @@ nsIViewSourceChannel
 (
 this
 )
-nsnull
+nullptr
 rv
 )
 ;
@@ -2507,7 +2507,7 @@ nsIViewSourceChannel
 (
 this
 )
-nsnull
+nullptr
 aStatus
 )
 ;

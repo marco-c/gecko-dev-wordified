@@ -343,7 +343,7 @@ scripts
 .
 mCreatorParser
 (
-nsnull
+nullptr
 )
 {
 }
@@ -724,11 +724,11 @@ false
 ;
 mUri
 =
-nsnull
+nullptr
 ;
 mCreatorParser
 =
-nsnull
+nullptr
 ;
 mParserCreated
 =

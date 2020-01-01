@@ -960,7 +960,7 @@ mDocument
 "
 ForgotFileEnctypeWarning
 "
-nsnull
+nullptr
 0
 )
 ;
@@ -1432,7 +1432,7 @@ NS_OK
 *
 aPostDataStream
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4192,7 +4192,7 @@ GetOwnerDocument
 (
 )
 :
-nsnull
+nullptr
 "
 CannotEncodeAllUnicode
 "
@@ -4251,7 +4251,7 @@ rv
 {
 mEncoder
 =
-nsnull
+nullptr
 ;
 }
 }

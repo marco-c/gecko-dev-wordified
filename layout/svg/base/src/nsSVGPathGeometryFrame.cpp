@@ -764,7 +764,7 @@ mFrame
 PaintSVG
 (
 aCtx
-nsnull
+nullptr
 )
 ;
 aCtx
@@ -1568,7 +1568,7 @@ IsSingular
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 PRUint16
@@ -1667,7 +1667,7 @@ point
 )
 )
 return
-nsnull
+nullptr
 ;
 fillRule
 =
@@ -1840,7 +1840,7 @@ return
 this
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP_
@@ -3592,7 +3592,7 @@ if
 mMarkerStart
 )
 return
-nsnull
+nullptr
 ;
 return
 static_cast
@@ -3610,7 +3610,7 @@ nsGkAtoms
 :
 :
 svgMarkerFrame
-nsnull
+nullptr
 )
 )
 ;
@@ -3633,7 +3633,7 @@ if
 mMarkerMid
 )
 return
-nsnull
+nullptr
 ;
 return
 static_cast
@@ -3651,7 +3651,7 @@ nsGkAtoms
 :
 :
 svgMarkerFrame
-nsnull
+nullptr
 )
 )
 ;
@@ -3674,7 +3674,7 @@ if
 mMarkerEnd
 )
 return
-nsnull
+nullptr
 ;
 return
 static_cast
@@ -3692,7 +3692,7 @@ nsGkAtoms
 :
 :
 svgMarkerFrame
-nsnull
+nullptr
 )
 )
 ;

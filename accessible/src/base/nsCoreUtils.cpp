@@ -597,7 +597,7 @@ nsIPresShell
 *
 presShell
 =
-nsnull
+nullptr
 ;
 presShell
 =
@@ -1306,7 +1306,7 @@ GetParent
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsINode
@@ -2388,7 +2388,7 @@ if
 aNode
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2412,7 +2412,7 @@ nsIDocShellTreeItem
 *
 docShellTreeItem
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2829,7 +2829,7 @@ if
 cv
 )
 return
-nsnull
+nullptr
 ;
 nsIDocument
 *
@@ -2848,13 +2848,13 @@ if
 doc
 )
 return
-nsnull
+nullptr
 ;
 nsIDOMNode
 *
 node
 =
-nsnull
+nullptr
 ;
 CallQueryInterface
 (
@@ -3155,13 +3155,13 @@ if
 tcXULElm
 )
 return
-nsnull
+nullptr
 ;
 nsIBoxObject
 *
 boxObj
 =
-nsnull
+nullptr
 ;
 tcXULElm
 -
@@ -3317,7 +3317,7 @@ GetParent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -3357,7 +3357,7 @@ if
 cols
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3568,7 +3568,7 @@ column
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed

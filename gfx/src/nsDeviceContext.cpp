@@ -1213,7 +1213,7 @@ will
 reset
 fm
 to
-nsnull
+nullptr
 /
 /
 if
@@ -1422,7 +1422,7 @@ mPrintingScale
 )
 mFontCache
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2590,7 +2590,7 @@ NS_ERROR_FAILURE
 ;
 Init
 (
-nsnull
+nullptr
 )
 ;
 CalcPrintingSize

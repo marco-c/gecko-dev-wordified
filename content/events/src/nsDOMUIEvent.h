@@ -493,7 +493,7 @@ widget
 {
 return
 (
-nsnull
+nullptr
 =
 =
 aDefaultClientPoint

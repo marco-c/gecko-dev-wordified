@@ -132,11 +132,11 @@ mMaxSize
 )
 mSegAllocator
 (
-nsnull
+nullptr
 )
 mSegmentArray
 (
-nsnull
+nullptr
 )
 mSegmentArrayCount
 (
@@ -178,7 +178,7 @@ nsIMemory
 *
 allocator
 =
-nsnull
+nullptr
 )
 ;
 char

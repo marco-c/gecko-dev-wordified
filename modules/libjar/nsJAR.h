@@ -763,7 +763,7 @@ PRUint32
 *
 aBufLen
 =
-nsnull
+nullptr
 )
 ;
 PRInt32
@@ -964,7 +964,7 @@ aFind
 )
 mName
 (
-nsnull
+nullptr
 )
 {
 NS_ASSERTION

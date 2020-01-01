@@ -157,7 +157,7 @@ aTokenName
 :
 mInner
 (
-nsnull
+nullptr
 )
 mTokenName
 (

@@ -3252,7 +3252,7 @@ newLen
 *
 data
 =
-nsnull
+nullptr
 ;
 return
 0
@@ -3512,7 +3512,7 @@ tuple
 :
 mData
 (
-nsnull
+nullptr
 )
 mLength
 (

@@ -257,7 +257,7 @@ XPCOMFunctions
 GetFrozenFunctionsFunc
 func
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -297,7 +297,7 @@ func
 (
 &
 xpcomFunctions
-nsnull
+nullptr
 )
 ;
 if
@@ -1079,7 +1079,7 @@ stringGetData
 *
 aBuf
 =
-nsnull
+nullptr
 ;
 return
 0
@@ -1124,7 +1124,7 @@ stringGetMutableData
 *
 aBuf
 =
-nsnull
+nullptr
 ;
 return
 0
@@ -1162,7 +1162,7 @@ xpcomFunctions
 stringCloneData
 )
 return
-nsnull
+nullptr
 ;
 return
 xpcomFunctions
@@ -1477,7 +1477,7 @@ cstringGetData
 *
 aBuf
 =
-nsnull
+nullptr
 ;
 return
 0
@@ -1522,7 +1522,7 @@ cstringGetMutableData
 *
 aBuf
 =
-nsnull
+nullptr
 ;
 return
 0
@@ -1560,7 +1560,7 @@ xpcomFunctions
 cstringCloneData
 )
 return
-nsnull
+nullptr
 ;
 return
 xpcomFunctions
@@ -1843,7 +1843,7 @@ xpcomFunctions
 allocFunc
 )
 return
-nsnull
+nullptr
 ;
 return
 xpcomFunctions
@@ -1876,7 +1876,7 @@ xpcomFunctions
 reallocFunc
 )
 return
-nsnull
+nullptr
 ;
 return
 xpcomFunctions
@@ -2373,7 +2373,7 @@ xpcomFunctions
 cycleSuspect2Func
 )
 return
-nsnull
+nullptr
 ;
 return
 xpcomFunctions

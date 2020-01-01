@@ -627,7 +627,7 @@ mVal
 >
 mAnimVal
 =
-nsnull
+nullptr
 ;
 mSVGElement
 -

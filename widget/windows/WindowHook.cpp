@@ -155,7 +155,7 @@ another
 hook
 NS_ENSURE_TRUE
 (
-nsnull
+nullptr
 =
 =
 data
@@ -451,7 +451,7 @@ data
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 WindowHook
@@ -497,7 +497,7 @@ if
 data
 )
 return
-nsnull
+nullptr
 ;
 data
 -

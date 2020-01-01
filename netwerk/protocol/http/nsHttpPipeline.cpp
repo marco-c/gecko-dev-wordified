@@ -637,7 +637,7 @@ nsHttpPipeline
 :
 mConnection
 (
-nsnull
+nullptr
 )
 mStatus
 (
@@ -661,7 +661,7 @@ false
 )
 mPushBackBuf
 (
-nsnull
+nullptr
 )
 mPushBackLen
 (
@@ -2408,7 +2408,7 @@ TakeHttpConnection
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsAHttpTransaction
@@ -2526,7 +2526,7 @@ RequestHead
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -3099,7 +3099,7 @@ else
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3108,7 +3108,7 @@ target
 *
 target
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4080,7 +4080,7 @@ countRead
 ;
 mReader
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -5026,7 +5026,7 @@ nsHttpConnectionMgr
 :
 :
 RedCanceledPipeline
-nsnull
+nullptr
 0
 )
 ;
@@ -5298,7 +5298,7 @@ Request
 )
 !
 =
-nsnull
+nullptr
 )
 {
 avail

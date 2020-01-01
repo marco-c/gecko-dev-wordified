@@ -1490,7 +1490,7 @@ out
 !
 sLoadedModules
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -1793,7 +1793,7 @@ mEventloopNestingLevel
 {
 OnDispatchedEvent
 (
-nsnull
+nullptr
 )
 ;
 mNativeCallbackPending

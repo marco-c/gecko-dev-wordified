@@ -2309,11 +2309,11 @@ aReflowState
 )
 mNew
 (
-nsnull
+nullptr
 )
 mOld
 (
-nsnull
+nullptr
 )
 {
 }

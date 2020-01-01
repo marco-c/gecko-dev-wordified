@@ -609,7 +609,7 @@ sPlatformFontList
 ;
 sPlatformFontList
 =
-nsnull
+nullptr
 ;
 }
 virtual

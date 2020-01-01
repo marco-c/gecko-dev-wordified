@@ -4500,7 +4500,7 @@ ReleaseStateMachine
 {
 mDecoderStateMachine
 =
-nsnull
+nullptr
 ;
 }
 /

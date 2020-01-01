@@ -1285,7 +1285,7 @@ right
 -
 >
 result
-nsnull
+nullptr
 sortState
 -
 >
@@ -3176,7 +3176,7 @@ sortState
 .
 processor
 =
-nsnull
+nullptr
 ;
 /
 /

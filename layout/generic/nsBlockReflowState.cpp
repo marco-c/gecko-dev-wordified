@@ -276,11 +276,11 @@ aReflowState
 )
 mPushedFloats
 (
-nsnull
+nullptr
 )
 mOverflowTracker
 (
-nsnull
+nullptr
 )
 mPrevBottomMargin
 (
@@ -309,7 +309,7 @@ GetPrevInFlow
 )
 =
 =
-nsnull
+nullptr
 )
 ;
 SetFlag
@@ -734,7 +734,7 @@ top
 ;
 mPrevChild
 =
-nsnull
+nullptr
 ;
 mCurrentLine
 =
@@ -5024,7 +5024,7 @@ nsIFrame
 *
 prevFrame
 =
-nsnull
+nullptr
 ;
 while
 (

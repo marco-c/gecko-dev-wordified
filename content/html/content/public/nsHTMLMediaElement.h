@@ -504,7 +504,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -1225,7 +1225,7 @@ GetImageContainer
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -2628,7 +2628,7 @@ PRUnichar
 *
 aParams
 =
-nsnull
+nullptr
 PRUint32
 aParamCount
 =

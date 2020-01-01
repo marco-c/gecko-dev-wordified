@@ -408,7 +408,7 @@ aContainerTest
 aEmptyTest
 )
 :
-nsnull
+nullptr
 ;
 }
 void

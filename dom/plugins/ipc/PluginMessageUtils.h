@@ -2378,7 +2378,7 @@ char
 *
 messageBuffer
 =
-nsnull
+nullptr
 ;
 nsAutoArrayPtr
 <
@@ -2783,7 +2783,7 @@ UniChar
 *
 buffer
 =
-nsnull
+nullptr
 ;
 if
 (

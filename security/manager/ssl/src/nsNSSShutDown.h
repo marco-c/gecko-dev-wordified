@@ -479,7 +479,7 @@ mIsUIForbidden
 ;
 /
 /
-nsnull
+nullptr
 means
 "
 no
@@ -490,7 +490,7 @@ restriction
 if
 !
 =
-nsnull
+nullptr
 activity
 is
 only
@@ -866,7 +866,7 @@ singleton
 >
 mActivityState
 :
-nsnull
+nullptr
 ;
 }
 private

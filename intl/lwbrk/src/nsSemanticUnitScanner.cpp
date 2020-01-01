@@ -258,7 +258,7 @@ and
 _retval
 is
 not
-nsnull
+nullptr
 here
 /
 /

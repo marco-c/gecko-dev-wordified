@@ -300,7 +300,7 @@ mAbsoluteFrames
 .
 AppendFrames
 (
-nsnull
+nullptr
 aFrameList
 )
 ;
@@ -426,7 +426,7 @@ mAbsoluteFrames
 .
 InsertFrames
 (
-nsnull
+nullptr
 aPrevFrame
 aFrameList
 )

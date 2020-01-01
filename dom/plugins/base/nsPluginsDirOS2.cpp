@@ -504,7 +504,7 @@ if
 mimeTypes
 =
 =
-nsnull
+nullptr
 )
 return
 0
@@ -571,11 +571,11 @@ variants
 data
 =
 =
-nsnull
+nullptr
 )
 )
 return
-nsnull
+nullptr
 ;
 char
 *
@@ -602,10 +602,10 @@ if
 array
 =
 =
-nsnull
+nullptr
 )
 return
-nsnull
+nullptr
 ;
 char
 *
@@ -646,7 +646,7 @@ if
 p
 !
 =
-nsnull
+nullptr
 )
 *
 p
@@ -700,7 +700,7 @@ variants
 array
 =
 =
-nsnull
+nullptr
 )
 )
 return
@@ -729,7 +729,7 @@ i
 ]
 !
 =
-nsnull
+nullptr
 )
 {
 PL_strfree
@@ -745,7 +745,7 @@ array
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -802,7 +802,7 @@ get
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 leafname
@@ -969,7 +969,7 @@ return
 outLibrary
 =
 =
-nsnull
+nullptr
 ?
 NS_ERROR_FAILURE
 :
@@ -1007,7 +1007,7 @@ outLibrary
 *
 outLibrary
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1101,7 +1101,7 @@ info
 .
 fVersion
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -1171,7 +1171,7 @@ NP_INFO_MIMEType
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 mimeType
@@ -1190,7 +1190,7 @@ NP_INFO_FileOpenName
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 mimeDescription
@@ -1209,7 +1209,7 @@ NP_INFO_FileExtents
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 extensions
@@ -1244,7 +1244,7 @@ info
 fMimeTypeArray
 =
 =
-nsnull
+nullptr
 )
 break
 ;
@@ -1262,7 +1262,7 @@ mimeDescription
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 info
@@ -1285,7 +1285,7 @@ extensions
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 info
@@ -1361,7 +1361,7 @@ info
 fName
 !
 =
-nsnull
+nullptr
 )
 PL_strfree
 (
@@ -1377,7 +1377,7 @@ info
 fFullPath
 !
 =
-nsnull
+nullptr
 )
 PL_strfree
 (
@@ -1393,7 +1393,7 @@ info
 fFileName
 !
 =
-nsnull
+nullptr
 )
 PL_strfree
 (
@@ -1409,7 +1409,7 @@ info
 fVersion
 !
 =
-nsnull
+nullptr
 )
 PL_strfree
 (
@@ -1425,7 +1425,7 @@ info
 fDescription
 !
 =
-nsnull
+nullptr
 )
 PL_strfree
 (
@@ -1441,7 +1441,7 @@ info
 fMimeTypeArray
 !
 =
-nsnull
+nullptr
 )
 FreeStringArray
 (
@@ -1460,7 +1460,7 @@ info
 fMimeDescriptionArray
 !
 =
-nsnull
+nullptr
 )
 FreeStringArray
 (
@@ -1479,7 +1479,7 @@ info
 fExtensionArray
 !
 =
-nsnull
+nullptr
 )
 FreeStringArray
 (

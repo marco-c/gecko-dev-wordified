@@ -515,7 +515,7 @@ else
 *
 aParentRule
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -660,7 +660,7 @@ DropReference
 {
 mGroupRule
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -855,7 +855,7 @@ GetDOMRule
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -895,7 +895,7 @@ rule
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -1651,10 +1651,10 @@ mChildSheet
 >
 Clone
 (
-nsnull
+nullptr
 this
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 SetSheet
@@ -1688,7 +1688,7 @@ mChildSheet
 >
 SetOwnerRule
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2563,7 +2563,7 @@ mRules
 EnumerateForwards
 (
 SetParentRuleReference
-nsnull
+nullptr
 )
 ;
 if
@@ -2919,7 +2919,7 @@ rule
 >
 SetStyleSheet
 (
-nsnull
+nullptr
 )
 ;
 rule
@@ -2927,7 +2927,7 @@ rule
 >
 SetParentRule
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3059,7 +3059,7 @@ aOld
 >
 SetStyleSheet
 (
-nsnull
+nullptr
 )
 ;
 aOld
@@ -3067,7 +3067,7 @@ aOld
 >
 SetParentRule
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -3581,7 +3581,7 @@ mMedia
 >
 SetStyleSheet
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3672,7 +3672,7 @@ mMedia
 >
 SetStyleSheet
 (
-nsnull
+nullptr
 )
 ;
 mMedia
@@ -8818,7 +8818,7 @@ Declaration
 else
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -8917,7 +8917,7 @@ DocToUpdate
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -9576,7 +9576,7 @@ parser
 ParseKeyframeSelectorString
 (
 aKeyText
-nsnull
+nullptr
 0
 newSelectors
 )
@@ -10401,7 +10401,7 @@ parser
 ParseKeyframeRule
 (
 aRule
-nsnull
+nullptr
 0
 )
 ;
@@ -10468,7 +10468,7 @@ parser
 ParseKeyframeSelectorString
 (
 aKey
-nsnull
+nullptr
 0
 keys
 )
@@ -10711,7 +10711,7 @@ RULE_NOT_FOUND
 *
 aResult
 =
-nsnull
+nullptr
 ;
 }
 else

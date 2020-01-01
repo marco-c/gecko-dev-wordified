@@ -286,7 +286,7 @@ nsIContent
 *
 handler
 =
-nsnull
+nullptr
 ;
 nsAutoString
 observerID
@@ -359,7 +359,7 @@ getter_AddRefs
 handlerURI
 )
 handlerURIStr
-nsnull
+nullptr
 baseURI
 )
 ;
@@ -533,7 +533,7 @@ nsIContent
 *
 observer
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -830,11 +830,11 @@ mPhase
 }
 mObserver
 =
-nsnull
+nullptr
 ;
 mHandler
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -859,7 +859,7 @@ mElement
 ;
 mElement
 =
-nsnull
+nullptr
 ;
 }
 bool

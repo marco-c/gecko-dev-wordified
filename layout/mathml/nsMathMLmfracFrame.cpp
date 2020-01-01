@@ -1091,7 +1091,7 @@ nsIFrame
 *
 frameDen
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -2287,7 +2287,7 @@ FinishReflowChild
 (
 frameNum
 presContext
-nsnull
+nullptr
 sizeNum
 dxNum
 dy
@@ -2312,7 +2312,7 @@ FinishReflowChild
 (
 frameDen
 presContext
-nsnull
+nullptr
 sizeDen
 dxDen
 dy
@@ -3085,7 +3085,7 @@ FinishReflowChild
 (
 frameNum
 presContext
-nsnull
+nullptr
 sizeNum
 dx
 dy
@@ -3184,7 +3184,7 @@ FinishReflowChild
 (
 frameDen
 presContext
-nsnull
+nullptr
 sizeDen
 dx
 dy

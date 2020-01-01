@@ -1081,7 +1081,7 @@ timer
 events
 NS_ProcessPendingEvents
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1195,8 +1195,8 @@ DECL_TEST
 test_random8
 )
 {
-nsnull
-nsnull
+nullptr
+nullptr
 }
 }
 ;
@@ -1243,9 +1243,9 @@ NS_FAILED
 (
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 )
 )
@@ -1275,7 +1275,7 @@ t
 name
 !
 =
-nsnull
+nullptr
 ;
 +
 +
@@ -1317,7 +1317,7 @@ FAILURE
 }
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

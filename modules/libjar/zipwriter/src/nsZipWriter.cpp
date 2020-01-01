@@ -1595,7 +1595,7 @@ else
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1636,7 +1636,7 @@ mEntryHash
 Get
 (
 aZipEntry
-nsnull
+nullptr
 )
 ;
 return
@@ -1991,7 +1991,7 @@ mEntryHash
 Get
 (
 aZipEntry
-nsnull
+nullptr
 )
 )
 return
@@ -2182,7 +2182,7 @@ mEntryHash
 Get
 (
 aZipEntry
-nsnull
+nullptr
 )
 )
 return
@@ -2441,7 +2441,7 @@ mEntryHash
 Get
 (
 aZipEntry
-nsnull
+nullptr
 )
 )
 return
@@ -3200,7 +3200,7 @@ mProcessObserver
 >
 OnStartRequest
 (
-nsnull
+nullptr
 mProcessContext
 )
 ;
@@ -3626,7 +3626,7 @@ Close
 ;
 mStream
 =
-nsnull
+nullptr
 ;
 mHeaders
 .
@@ -3916,7 +3916,7 @@ header
 -
 >
 mName
-nsnull
+nullptr
 )
 )
 return
@@ -4166,11 +4166,11 @@ Close
 ;
 mStream
 =
-nsnull
+nullptr
 ;
 mFile
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -4658,7 +4658,7 @@ pump
 AsyncRead
 (
 stream
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4681,7 +4681,7 @@ mChannel
 AsyncOpen
 (
 stream
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5008,7 +5008,7 @@ pump
 AsyncRead
 (
 listener
-nsnull
+nullptr
 )
 ;
 if
@@ -5237,7 +5237,7 @@ Get
 next
 .
 mZipEntry
-nsnull
+nullptr
 )
 )
 {
@@ -5357,11 +5357,11 @@ more
 things
 mProcessObserver
 =
-nsnull
+nullptr
 ;
 mProcessContext
 =
-nsnull
+nullptr
 ;
 mInQueue
 =
@@ -5376,7 +5376,7 @@ observer
 >
 OnStopRequest
 (
-nsnull
+nullptr
 context
 aStatus
 )

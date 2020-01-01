@@ -373,7 +373,7 @@ expected
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -717,8 +717,8 @@ netscape_security_enablePrivilege
 0
 }
 {
-nsnull
-nsnull
+nullptr
+nullptr
 0
 0
 }
@@ -845,7 +845,7 @@ obj
 )
 !
 =
-nsnull
+nullptr
 )
 obj
 =
@@ -983,7 +983,7 @@ global
 netscape
 "
 objectClass
-nsnull
+nullptr
 0
 )
 ;
@@ -992,7 +992,7 @@ if
 obj
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -1007,7 +1007,7 @@ obj
 security
 "
 objectClass
-nsnull
+nullptr
 0
 )
 ;
@@ -1016,7 +1016,7 @@ if
 securityObj
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -1047,7 +1047,7 @@ securityObj
 PrivilegeManager
 "
 objectClass
-nsnull
+nullptr
 0
 )
 ;
@@ -1056,7 +1056,7 @@ if
 obj
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE

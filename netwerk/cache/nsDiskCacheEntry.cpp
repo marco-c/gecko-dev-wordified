@@ -338,7 +338,7 @@ nsCacheEntry
 *
 entry
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -376,7 +376,7 @@ rv
 entry
 )
 return
-nsnull
+nullptr
 ;
 entry
 -
@@ -467,7 +467,7 @@ delete
 entry
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -531,7 +531,7 @@ delete
 entry
 ;
 return
-nsnull
+nullptr
 ;
 }
 entry

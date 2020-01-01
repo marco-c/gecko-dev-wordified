@@ -500,6 +500,15 @@ Init
 (
 )
 ;
+void
+HandleMozsettingChanged
+(
+const
+PRUnichar
+*
+aData
+)
+;
 /
 /
 Management
@@ -775,7 +784,7 @@ nsIDOMWindow
 *
 contentDom
 =
-nsnull
+nullptr
 )
 ;
 /

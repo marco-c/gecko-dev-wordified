@@ -691,7 +691,7 @@ n
 )
 !
 =
-nsnull
+nullptr
 )
 {
 buf
@@ -720,7 +720,7 @@ authorization
 )
 !
 =
-nsnull
+nullptr
 )
 {
 char
@@ -964,19 +964,19 @@ mRequestSize
 )
 mConnection
 (
-nsnull
+nullptr
 )
 mConnInfo
 (
-nsnull
+nullptr
 )
 mRequestHead
 (
-nsnull
+nullptr
 )
 mResponseHead
 (
-nsnull
+nullptr
 )
 mContentLength
 (
@@ -993,7 +993,7 @@ mInvalidResponseBytesRead
 )
 mChunkedDecoder
 (
-nsnull
+nullptr
 )
 mStatus
 (
@@ -1089,7 +1089,7 @@ false
 )
 mForTakeResponseHead
 (
-nsnull
+nullptr
 )
 mResponseHeadTaken
 (
@@ -1591,7 +1591,7 @@ false
 ;
 mActivityDistributor
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -2512,7 +2512,7 @@ mForTakeResponseHead
 ;
 mForTakeResponseHead
 =
-nsnull
+nullptr
 ;
 return
 head
@@ -2557,7 +2557,7 @@ incomplete
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 head
@@ -2566,7 +2566,7 @@ mResponseHead
 ;
 mResponseHead
 =
-nsnull
+nullptr
 ;
 return
 head
@@ -3579,7 +3579,7 @@ countRead
 ;
 mReader
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -4035,7 +4035,7 @@ countWritten
 ;
 mWriter
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -4646,7 +4646,7 @@ nsHttpConnectionMgr
 :
 :
 RedCanceledPipeline
-nsnull
+nullptr
 0
 )
 ;
@@ -4715,7 +4715,7 @@ nsHttpConnectionMgr
 :
 :
 RedCorruptedContent
-nsnull
+nullptr
 0
 )
 ;
@@ -4803,7 +4803,7 @@ nsHttpConnectionMgr
 :
 :
 BadInsufficientFraming
-nsnull
+nullptr
 mClassification
 )
 ;
@@ -4836,7 +4836,7 @@ nsHttpConnectionMgr
 :
 :
 GoodCompletedOK
-nsnull
+nullptr
 mPipelinePosition
 )
 ;
@@ -5126,7 +5126,7 @@ longer
 need
 mRequestStream
 =
-nsnull
+nullptr
 ;
 mReqHeaderBuf
 .
@@ -5150,7 +5150,7 @@ mChunkedDecoder
 ;
 mChunkedDecoder
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -5703,7 +5703,7 @@ mResponseHead
 ;
 mResponseHead
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -5733,7 +5733,7 @@ mChunkedDecoder
 ;
 mChunkedDecoder
 =
-nsnull
+nullptr
 ;
 mHaveStatusLine
 =
@@ -6086,7 +6086,7 @@ len
 ?
 buf
 :
-nsnull
+nullptr
 ;
 /
 /
@@ -6739,7 +6739,7 @@ nsHttpConnectionMgr
 :
 :
 RedCorruptedContent
-nsnull
+nullptr
 0
 )
 ;
@@ -7423,7 +7423,7 @@ countRead
 )
 !
 =
-nsnull
+nullptr
 )
 {
 /
@@ -8035,7 +8035,7 @@ nsHttpConnectionMgr
 :
 :
 BadInsufficientFraming
-nsnull
+nullptr
 mClassification
 )
 ;
@@ -8903,8 +8903,8 @@ mProgressSink
 >
 OnProgress
 (
-nsnull
-nsnull
+nullptr
+nullptr
 mContentRead
 NS_MAX
 (
@@ -9740,7 +9740,7 @@ PipelineFeedbackInfoType
 (
 reason
 )
-nsnull
+nullptr
 mClassification
 )
 ;

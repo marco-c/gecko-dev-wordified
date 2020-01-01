@@ -249,7 +249,7 @@ class
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2081,7 +2081,7 @@ aCount
 *
 aIdentifiers
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -2508,11 +2508,11 @@ aType
 :
 mInstance
 (
-nsnull
+nullptr
 )
 mObject
 (
-nsnull
+nullptr
 )
 mProtectCount
 (
@@ -2575,7 +2575,7 @@ mObject
 >
 parent
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -3234,7 +3234,7 @@ object
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -3465,7 +3465,7 @@ mObject
 ;
 mObject
 =
-nsnull
+nullptr
 ;
 unused
 <

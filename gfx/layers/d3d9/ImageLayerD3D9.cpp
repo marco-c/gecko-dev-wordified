@@ -1844,7 +1844,7 @@ image
 .
 *
 Returns
-nsnull
+nullptr
 if
 unsuccessful
 .
@@ -2062,7 +2062,7 @@ mSurface
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -2176,7 +2176,7 @@ type
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 TextureD3D9BackendData
@@ -2211,7 +2211,7 @@ data
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -2245,7 +2245,7 @@ device
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2542,7 +2542,7 @@ texture
 ;
 image
 =
-nsnull
+nullptr
 ;
 autoLock
 .
@@ -3142,11 +3142,11 @@ mCrTexture
 ;
 image
 =
-nsnull
+nullptr
 ;
 data
 =
-nsnull
+nullptr
 ;
 autoLock
 .
@@ -3223,7 +3223,7 @@ GetContainer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 AutoLockImage
@@ -3251,7 +3251,7 @@ image
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -3285,7 +3285,7 @@ REMOTE_IMAGE_BITMAP
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -3334,7 +3334,7 @@ aManager
 ShadowImageLayer
 (
 aManager
-nsnull
+nullptr
 )
 LayerD3D9
 (
@@ -3676,11 +3676,11 @@ Destroy
 {
 mBuffer
 =
-nsnull
+nullptr
 ;
 mYCbCrImage
 =
-nsnull
+nullptr
 ;
 }
 Layer
@@ -4019,7 +4019,7 @@ mBuffer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 *

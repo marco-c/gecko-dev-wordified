@@ -155,7 +155,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (

@@ -682,7 +682,7 @@ nsIAssociatedContentSecurity
 *
 res
 =
-nsnull
+nullptr
 )
 ;
 virtual

@@ -1296,8 +1296,8 @@ mChannel
 )
 uri
 ios
-nsnull
-nsnull
+nullptr
+nullptr
 loadFlags
 )
 ;
@@ -1775,7 +1775,7 @@ offlineUpdateService
 OfflineAppAllowedForURI
 (
 uri
-nsnull
+nullptr
 &
 setChooseApplicationCache
 )
@@ -1809,7 +1809,7 @@ httpChan
 AsyncOpen
 (
 channelListener
-nsnull
+nullptr
 )
 ;
 if
@@ -2451,7 +2451,7 @@ result
 ;
 mRedirectCallback
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -4381,7 +4381,7 @@ SendRedirect3Complete
 }
 mRedirectChannel
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

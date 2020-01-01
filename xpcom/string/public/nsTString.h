@@ -3133,7 +3133,7 @@ str
 /
 /
 return
-nsnull
+nullptr
 if
 we
 are
@@ -3153,7 +3153,7 @@ mFlags
 F_VOIDED
 )
 ?
-nsnull
+nullptr
 :
 mData
 ;
@@ -3420,7 +3420,7 @@ str
 )
 mData
 (
-nsnull
+nullptr
 )
 {
 }

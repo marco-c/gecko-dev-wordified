@@ -863,7 +863,7 @@ mAttributeName
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 PRUint32

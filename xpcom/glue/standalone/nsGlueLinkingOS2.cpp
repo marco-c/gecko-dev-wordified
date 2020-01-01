@@ -514,7 +514,7 @@ ulrc
 NO_ERROR
 )
 return
-nsnull
+nullptr
 ;
 AppendDependentLib
 (
@@ -613,7 +613,7 @@ sXULLibrary
 ;
 sXULLibrary
 =
-nsnull
+nullptr
 ;
 }
 }

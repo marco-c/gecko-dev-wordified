@@ -1709,7 +1709,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 )
 ;
 JSContext
@@ -1751,7 +1751,7 @@ JSContextAutoPopper
 :
 mContext
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2831,7 +2831,7 @@ argc
 )
 argv
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -3341,7 +3341,7 @@ internal
 modal
 "
 0
-nsnull
+nullptr
 )
 )
 {
@@ -4956,7 +4956,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 /
@@ -5357,7 +5357,7 @@ window
 -
 ready
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -5491,7 +5491,7 @@ subjectPrincipal
 {
 subjectPrincipal
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -5701,7 +5701,7 @@ typeChrome
 {
 newWindowPrincipal
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -5918,7 +5918,7 @@ JSContext
 *
 ccx
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -6145,7 +6145,7 @@ nsIDocShell
 *
 parentDocShell
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7173,7 +7173,7 @@ aActiveWindow
 *
 aActiveWindow
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -8060,7 +8060,7 @@ info
 mChromeWeak
 !
 =
-nsnull
+nullptr
 )
 {
 return
@@ -8139,7 +8139,7 @@ NS_ERROR_INVALID_ARG
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -8185,8 +8185,8 @@ startItem
 FindItemWithName
 (
 aTargetName
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 treeItem
@@ -8211,8 +8211,8 @@ comments
 FindItemWithName
 (
 aTargetName
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 treeItem
@@ -8281,7 +8281,7 @@ inEnumerator
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -8469,7 +8469,7 @@ nsIURI
 *
 baseURI
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -9322,7 +9322,7 @@ aFeatures
 alwaysLowered
 "
 0
-nsnull
+nullptr
 )
 |
 |
@@ -9335,7 +9335,7 @@ z
 lock
 "
 0
-nsnull
+nullptr
 )
 )
 chromeFlags
@@ -9356,7 +9356,7 @@ aFeatures
 alwaysRaised
 "
 0
-nsnull
+nullptr
 )
 )
 chromeFlags
@@ -9377,7 +9377,7 @@ aFeatures
 macsuppressanimation
 "
 0
-nsnull
+nullptr
 )
 ?
 nsIWebBrowserChrome
@@ -9397,7 +9397,7 @@ aFeatures
 chrome
 "
 0
-nsnull
+nullptr
 )
 ?
 nsIWebBrowserChrome
@@ -9417,7 +9417,7 @@ aFeatures
 extrachrome
 "
 0
-nsnull
+nullptr
 )
 ?
 nsIWebBrowserChrome
@@ -9437,7 +9437,7 @@ aFeatures
 centerscreen
 "
 0
-nsnull
+nullptr
 )
 ?
 nsIWebBrowserChrome
@@ -9457,7 +9457,7 @@ aFeatures
 dependent
 "
 0
-nsnull
+nullptr
 )
 ?
 nsIWebBrowserChrome
@@ -9477,7 +9477,7 @@ aFeatures
 modal
 "
 0
-nsnull
+nullptr
 )
 ?
 (
@@ -9578,7 +9578,7 @@ aFeatures
 dialog
 "
 0
-nsnull
+nullptr
 )
 ?
 nsIWebBrowserChrome
@@ -10638,7 +10638,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -10659,7 +10659,7 @@ nsIDocShellTreeItem
 *
 callerItem
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -10737,7 +10737,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -10796,7 +10796,7 @@ flatName
 get
 (
 )
-nsnull
+nullptr
 callerItem
 getter_AddRefs
 (
@@ -10814,7 +10814,7 @@ flatName
 get
 (
 )
-nsnull
+nullptr
 callerItem
 getter_AddRefs
 (
@@ -11307,7 +11307,7 @@ aFeatures
 outerWidth
 "
 PR_INT32_MIN
-nsnull
+nullptr
 )
 )
 )
@@ -11356,7 +11356,7 @@ aFeatures
 width
 "
 PR_INT32_MIN
-nsnull
+nullptr
 )
 )
 |
@@ -11371,7 +11371,7 @@ aFeatures
 innerWidth
 "
 PR_INT32_MIN
-nsnull
+nullptr
 )
 )
 )
@@ -11419,7 +11419,7 @@ aFeatures
 outerHeight
 "
 PR_INT32_MIN
-nsnull
+nullptr
 )
 )
 )
@@ -11468,7 +11468,7 @@ aFeatures
 height
 "
 PR_INT32_MIN
-nsnull
+nullptr
 )
 )
 |
@@ -11483,7 +11483,7 @@ aFeatures
 innerHeight
 "
 PR_INT32_MIN
-nsnull
+nullptr
 )
 )
 )
@@ -12308,7 +12308,7 @@ isChrome
 chromeWin
 =
 =
-nsnull
+nullptr
 )
 ;
 }

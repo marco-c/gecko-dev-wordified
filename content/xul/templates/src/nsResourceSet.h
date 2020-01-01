@@ -117,7 +117,7 @@ nsResourceSet
 :
 mResources
 (
-nsnull
+nullptr
 )
 mCount
 (
@@ -221,7 +221,7 @@ ConstIterator
 :
 mCurrent
 (
-nsnull
+nullptr
 )
 {
 }

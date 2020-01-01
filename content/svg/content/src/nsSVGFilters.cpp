@@ -1343,13 +1343,13 @@ result
 .
 mSource
 =
-nsnull
+nullptr
 ;
 result
 .
 mTarget
 =
-nsnull
+nullptr
 ;
 return
 result
@@ -6311,7 +6311,7 @@ nsSVGFEBlendElement
 SVG_MODE_LIGHTEN
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -7803,7 +7803,7 @@ nsSVGFEColorMatrixElement
 SVG_FECOLORMATRIX_TYPE_LUMINANCE_TO_ALPHA
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -10003,7 +10003,7 @@ nsSVGFECompositeElement
 SVG_OPERATOR_ARITHMETIC
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -10735,7 +10735,7 @@ k2
 k3
 &
 k4
-nsnull
+nullptr
 )
 ;
 /
@@ -13127,7 +13127,7 @@ nsIDOMSVGComponentTransferFunctionElement
 SVG_FECOMPONENTTRANSFER_TYPE_GAMMA
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -13837,7 +13837,7 @@ amplitude
 exponent
 &
 offset
-nsnull
+nullptr
 )
 ;
 const
@@ -21234,7 +21234,7 @@ nsIDOMSVGFETurbulenceElement
 SVG_TURBULENCE_TYPE_TURBULENCE
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -21271,7 +21271,7 @@ nsIDOMSVGFETurbulenceElement
 SVG_STITCHTYPE_NOSTITCH
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -24589,7 +24589,7 @@ nsSVGFEMorphologyElement
 SVG_OPERATOR_DILATE
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -26837,7 +26837,7 @@ nsSVGFEConvolveMatrixElement
 SVG_EDGEMODE_NONE
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -28313,7 +28313,7 @@ GetAnimatedIntegerValues
 targetX
 &
 targetY
-nsnull
+nullptr
 )
 ;
 if
@@ -33825,7 +33825,7 @@ GetAnimatedNumberValues
 azimuth
 &
 elevation
-nsnull
+nullptr
 )
 ;
 L
@@ -33923,7 +33923,7 @@ lightPos
 lightPos
 +
 2
-nsnull
+nullptr
 )
 ;
 instance
@@ -33983,7 +33983,7 @@ pointsAt
 specularExponent
 &
 limitingConeAngle
-nsnull
+nullptr
 )
 ;
 instance
@@ -39259,7 +39259,7 @@ nsSVGFEDisplacementMapElement
 SVG_CHANNEL_A
 }
 {
-nsnull
+nullptr
 0
 }
 }

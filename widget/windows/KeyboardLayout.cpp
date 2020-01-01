@@ -1583,7 +1583,7 @@ mIsDeadKey
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 for
@@ -1649,7 +1649,7 @@ dkt
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1842,7 +1842,7 @@ DeadKey
 .
 Table
 =
-nsnull
+nullptr
 ;
 }
 UniCharsAndModifiers
@@ -4041,7 +4041,7 @@ mPendingKeyboardLayout
 {
 mDeadKeyTableListHead
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -7082,7 +7082,7 @@ sizeof
 DeadKeyEntry
 )
 CompareDeadKeyEntries
-nsnull
+nullptr
 )
 ;
 return

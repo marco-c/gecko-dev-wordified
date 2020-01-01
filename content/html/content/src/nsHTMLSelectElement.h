@@ -458,7 +458,7 @@ mElements
 SafeElementAt
 (
 aIndex
-nsnull
+nullptr
 )
 ;
 }
@@ -1188,7 +1188,7 @@ aContent
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3408,7 +3408,7 @@ nsIDOMHTMLElement
 *
 aBefore
 =
-nsnull
+nullptr
 )
 ;
 /

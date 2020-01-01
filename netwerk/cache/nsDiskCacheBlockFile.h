@@ -344,11 +344,11 @@ nsDiskCacheBlockFile
 :
 mFD
 (
-nsnull
+nullptr
 )
 mBitMap
 (
-nsnull
+nullptr
 )
 mBlockSize
 (

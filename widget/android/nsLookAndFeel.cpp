@@ -1934,7 +1934,7 @@ Bridge
 )
 !
 =
-nsnull
+nullptr
 "
 AndroidBridge
 is

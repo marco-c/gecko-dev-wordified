@@ -1027,7 +1027,7 @@ NS_OK
 *
 aToData
 =
-nsnull
+nullptr
 ;
 *
 aDataToLen

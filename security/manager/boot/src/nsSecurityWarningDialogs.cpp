@@ -1117,7 +1117,7 @@ rv
 ConfirmDialog
 (
 ctx
-nsnull
+nullptr
 /
 /
 No
@@ -1141,7 +1141,7 @@ PostToInsecureFromSecureMessage
 get
 (
 )
-nsnull
+nullptr
 _result
 )
 ;
@@ -1212,7 +1212,7 @@ if
 prefName
 !
 =
-nsnull
+nullptr
 )
 {
 rv
@@ -1394,7 +1394,7 @@ if
 showAgainName
 !
 =
-nsnull
+nullptr
 )
 {
 mStringBundle
@@ -1566,8 +1566,8 @@ nsIPrompt
 BUTTON_POS_1
 )
 cont
-nsnull
-nsnull
+nullptr
+nullptr
 alertMe
 &
 prefValue
@@ -1604,7 +1604,7 @@ prefValue
 prefName
 !
 =
-nsnull
+nullptr
 )
 {
 mPrefBranch

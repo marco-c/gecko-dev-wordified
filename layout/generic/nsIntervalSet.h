@@ -409,11 +409,11 @@ aEnd
 )
 mPrev
 (
-nsnull
+nullptr
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 }

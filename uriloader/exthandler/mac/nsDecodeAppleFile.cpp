@@ -165,7 +165,7 @@ MAX_BUFFERSIZE
 ;
 m_entries
 =
-nsnull
+nullptr
 ;
 m_rfRefNum
 =

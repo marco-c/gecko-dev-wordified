@@ -153,7 +153,7 @@ boolean
 :
 txAExprResult
 (
-nsnull
+nullptr
 )
 {
 this
@@ -289,7 +289,7 @@ us
 anything
 .
 return
-nsnull
+nullptr
 ;
 }
 bool

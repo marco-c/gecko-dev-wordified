@@ -1440,7 +1440,7 @@ void
 *
 libHandle
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1636,7 +1636,7 @@ sXULLibHandle
 ;
 sXULLibHandle
 =
-nsnull
+nullptr
 ;
 }
 }

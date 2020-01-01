@@ -3305,7 +3305,7 @@ NS_SVG_PATH_SEG_TYPE_COUNT
 ]
 =
 {
-nsnull
+nullptr
 /
 /
 0

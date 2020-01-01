@@ -379,7 +379,7 @@ cont
 presContext
 &
 event
-nsnull
+nullptr
 &
 status
 )

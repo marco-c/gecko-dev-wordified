@@ -334,7 +334,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 return
 ImgSurfaceToPixbuf
@@ -390,7 +390,7 @@ if
 pixbuf
 )
 return
-nsnull
+nullptr
 ;
 PRUint32
 rowstride
@@ -753,7 +753,7 @@ surface
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -821,7 +821,7 @@ if
 imgSurface
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -841,7 +841,7 @@ if
 context
 )
 return
-nsnull
+nullptr
 ;
 context
 -

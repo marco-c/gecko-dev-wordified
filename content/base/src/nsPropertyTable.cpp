@@ -1025,7 +1025,7 @@ void
 *
 propValue
 =
-nsnull
+nullptr
 ;
 PropertyList
 *
@@ -1459,7 +1459,7 @@ aOldValue
 *
 aOldValue
 =
-nsnull
+nullptr
 ;
 }
 entry
@@ -1703,7 +1703,7 @@ aTransfer
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 PL_DHashTableInit
@@ -1860,7 +1860,7 @@ PL_DHashTableEnumerate
 &
 mObjectValueMap
 DestroyPropertyEnumerator
-nsnull
+nullptr
 )
 ;
 }

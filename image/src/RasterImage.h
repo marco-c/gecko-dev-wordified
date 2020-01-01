@@ -269,6 +269,15 @@ LinkedList
 h
 "
 #
+include
+"
+mozilla
+/
+StaticPtr
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -1224,7 +1233,7 @@ imgStatusTracker
 *
 aStatusTracker
 =
-nsnull
+nullptr
 )
 ;
 virtual
@@ -2875,7 +2884,7 @@ statics
 *
 /
 static
-nsRefPtr
+StaticRefPtr
 <
 DecodeWorker
 >

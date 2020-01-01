@@ -3356,7 +3356,7 @@ aText
 ;
 mText
 =
-nsnull
+nullptr
 ;
 mLength
 =
@@ -3379,7 +3379,7 @@ aLength
 {
 mUniText
 =
-nsnull
+nullptr
 ;
 mText
 =

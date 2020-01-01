@@ -370,7 +370,7 @@ gFileDataTable
 ;
 gFileDataTable
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -394,7 +394,7 @@ gFileDataTable
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 FileDataInfo
@@ -418,7 +418,7 @@ res
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -465,7 +465,7 @@ gFileDataTable
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 FileDataInfo
@@ -811,7 +811,7 @@ CID
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 return
 NS_NOINTERFACE
@@ -882,7 +882,7 @@ else
 *
 aUri
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1327,7 +1327,7 @@ count
 *
 array
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1350,7 +1350,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1388,7 +1388,7 @@ changes
 *
 aContractID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1409,7 +1409,7 @@ aClassDescription
 *
 aClassDescription
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1728,7 +1728,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1762,7 +1762,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 rv
@@ -1815,7 +1815,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 nsCString
 spec

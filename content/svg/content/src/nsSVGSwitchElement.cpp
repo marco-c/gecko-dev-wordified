@@ -1033,7 +1033,7 @@ nsIContent
 *
 bestChild
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -1262,6 +1262,6 @@ child
 }
 }
 return
-nsnull
+nullptr
 ;
 }

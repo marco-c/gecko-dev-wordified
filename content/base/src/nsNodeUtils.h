@@ -873,8 +873,8 @@ aNode
 true
 aDeep
 aNewNodeInfoManager
-nsnull
-nsnull
+nullptr
+nullptr
 aNodesWithProperties
 aResult
 )
@@ -1084,7 +1084,7 @@ aNewNodeInfoManager
 aCx
 aNewScope
 aNodesWithProperties
-nsnull
+nullptr
 )
 ;
 nsMutationGuard
@@ -1759,7 +1759,7 @@ aNewNodeInfoManager
 aCx
 aNewScope
 aNodesWithProperties
-nsnull
+nullptr
 getter_AddRefs
 (
 clone

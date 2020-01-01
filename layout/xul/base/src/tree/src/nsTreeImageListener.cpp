@@ -147,7 +147,7 @@ true
 )
 mInvalidationArea
 (
-nsnull
+nullptr
 )
 {
 }
@@ -595,7 +595,7 @@ mMax
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 }
@@ -659,7 +659,7 @@ ClearFrame
 {
 mTreeFrame
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

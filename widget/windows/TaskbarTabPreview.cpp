@@ -1084,7 +1084,7 @@ TaskbarTabPreview
 *
 preview
 (
-nsnull
+nullptr
 )
 ;
 if

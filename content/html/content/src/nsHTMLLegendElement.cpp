@@ -378,7 +378,7 @@ parent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -708,7 +708,7 @@ fm
 >
 MoveFocus
 (
-nsnull
+nullptr
 this
 nsIFocusManager
 :

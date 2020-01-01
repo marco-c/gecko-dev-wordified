@@ -465,7 +465,7 @@ nsIFile
 *
 aLocalProfileDir
 =
-nsnull
+nullptr
 )
 ;
 /

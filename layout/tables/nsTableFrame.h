@@ -358,7 +358,7 @@ nsAutoPushCurrentTableItem
 :
 mBuilder
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2237,7 +2237,7 @@ nsCellMap
 *
 aCellMap
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -2304,7 +2304,7 @@ nsCellMap
 *
 aCellMap
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -2353,7 +2353,7 @@ with
 aColIndex
 *
 returns
-nsnull
+nullptr
 if
 the
 col
@@ -3568,13 +3568,13 @@ nsTableRowGroupFrame
 *
 aHead
 =
-nsnull
+nullptr
 nsTableRowGroupFrame
 *
 *
 aFoot
 =
-nsnull
+nullptr
 )
 const
 ;

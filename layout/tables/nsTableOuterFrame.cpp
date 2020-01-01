@@ -816,7 +816,7 @@ PresShell
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -990,7 +990,7 @@ PresShell
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -1469,7 +1469,7 @@ mCaptionFrames
 .
 InsertFrames
 (
-nsnull
+nullptr
 aPrevFrame
 aFrameList
 )
@@ -2168,13 +2168,13 @@ nsMargin
 *
 pCollapseBorder
 =
-nsnull
+nullptr
 ;
 nsMargin
 *
 pCollapsePadding
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2829,7 +2829,7 @@ nscoord
 *
 aMarginResult
 =
-nsnull
+nullptr
 )
 {
 AutoMaybeDisableFontInflation

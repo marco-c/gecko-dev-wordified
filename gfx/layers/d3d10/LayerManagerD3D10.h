@@ -673,7 +673,7 @@ CreateShadowImageLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -695,7 +695,7 @@ CreateShadowColorLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -717,7 +717,7 @@ CreateShadowCanvasLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1311,7 +1311,7 @@ GetFirstChildD3D10
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1586,7 +1586,7 @@ aSize
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 void

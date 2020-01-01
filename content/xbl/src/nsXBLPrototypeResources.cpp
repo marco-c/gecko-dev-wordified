@@ -241,7 +241,7 @@ mLoader
 >
 mResources
 =
-nsnull
+nullptr
 ;
 NS_RELEASE
 (
@@ -484,7 +484,7 @@ cache
 .
 mRuleProcessor
 =
-nsnull
+nullptr
 ;
 sheet_array_type
 oldSheets

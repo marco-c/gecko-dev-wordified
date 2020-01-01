@@ -423,7 +423,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_ARG_POINTER
 (

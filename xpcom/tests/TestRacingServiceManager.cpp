@@ -350,7 +350,7 @@ ReentrantMonitor
 *
 gReentrantMonitor
 =
-nsnull
+nullptr
 ;
 bool
 gCreateInstanceCalled
@@ -425,7 +425,7 @@ mReentrantMonitorPtr
 *
 mReentrantMonitorPtr
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1218,7 +1218,7 @@ true
 ;
 component
 =
-nsnull
+nullptr
 ;
 rv
 =

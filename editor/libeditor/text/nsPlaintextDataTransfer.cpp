@@ -465,7 +465,7 @@ GetLoadContext
 (
 )
 :
-nsnull
+nullptr
 ;
 (
 *
@@ -676,7 +676,7 @@ char
 *
 bestFlavor
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2063,7 +2063,7 @@ nsEditorHookUtils
 DoInsertionHook
 (
 domdoc
-nsnull
+nullptr
 trans
 )
 )
@@ -2075,7 +2075,7 @@ rv
 InsertTextFromTransferable
 (
 trans
-nsnull
+nullptr
 0
 true
 )
@@ -2142,7 +2142,7 @@ nsEditorHookUtils
 DoInsertionHook
 (
 domdoc
-nsnull
+nullptr
 aTransferable
 )
 )
@@ -2153,7 +2153,7 @@ return
 InsertTextFromTransferable
 (
 aTransferable
-nsnull
+nullptr
 0
 true
 )

@@ -1719,7 +1719,7 @@ GetWrapper
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -2415,7 +2415,7 @@ get
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 inline
@@ -2460,7 +2460,7 @@ get
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3002,7 +3002,7 @@ sWindowsById
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsGlobalWindow
@@ -3031,7 +3031,7 @@ IsInnerWindow
 ?
 outerWindow
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -3050,7 +3050,7 @@ sWindowsById
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsGlobalWindow
@@ -3078,7 +3078,7 @@ IsInnerWindow
 ?
 innerWindow
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -3362,7 +3362,7 @@ aExpectedInner
 {
 mInnerWindow
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3806,7 +3806,7 @@ context
 This
 must
 be
-nsnull
+nullptr
 *
 when
 aCalledNoScript
@@ -4018,7 +4018,7 @@ RunTimeout
 {
 RunTimeout
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -4524,7 +4524,7 @@ GetParentInternal
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -6418,7 +6418,7 @@ global
 new
 nsGlobalChromeWindow
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -6433,7 +6433,7 @@ global
 new
 nsGlobalModalWindow
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -6444,7 +6444,7 @@ global
 new
 nsGlobalWindow
 (
-nsnull
+nullptr
 )
 ;
 }

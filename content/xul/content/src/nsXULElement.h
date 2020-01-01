@@ -788,7 +788,7 @@ false
 )
 mAttributes
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1192,7 +1192,7 @@ ScriptObjectHolder
 :
 mObject
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1616,7 +1616,7 @@ aContent
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 public
@@ -1795,7 +1795,7 @@ PRInt32
 *
 aTabIndex
 =
-nsnull
+nullptr
 bool
 aWithMouse
 =
@@ -2440,7 +2440,7 @@ slots
 >
 mControllers
 :
-nsnull
+nullptr
 ;
 }
 void

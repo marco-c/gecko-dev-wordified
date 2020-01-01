@@ -723,7 +723,7 @@ nsCOMPtr
 '
 s
 to
-nsnull
+nullptr
 freeing
 the
 reference
@@ -1107,11 +1107,11 @@ now
 .
 testURI
 =
-nsnull
+nullptr
 ;
 testLink
 =
-nsnull
+nullptr
 ;
 /
 /

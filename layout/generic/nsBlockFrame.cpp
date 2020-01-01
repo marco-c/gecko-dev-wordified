@@ -1263,7 +1263,7 @@ GetStyleContext
 ;
 while
 (
-nsnull
+nullptr
 !
 =
 sc
@@ -1568,7 +1568,7 @@ DestroyFrameList
 NS_DECLARE_FRAME_PROPERTY
 (
 InsideBulletProperty
-nsnull
+nullptr
 )
 /
 /
@@ -1891,7 +1891,7 @@ if
 it
 )
 return
-nsnull
+nullptr
 ;
 const
 nsStyleVisibility
@@ -1932,7 +1932,7 @@ delete
 it
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2079,7 +2079,7 @@ flow
 linkage
 if
 (
-nsnull
+nullptr
 !
 =
 GetPrevInFlow
@@ -2115,7 +2115,7 @@ GetPrevInFlow
 }
 if
 (
-nsnull
+nullptr
 !
 =
 GetNextInFlow
@@ -2217,7 +2217,7 @@ IBprevsibling
 }
 if
 (
-nsnull
+nullptr
 !
 =
 mContent
@@ -8385,7 +8385,7 @@ state
 .
 mFloatManager
 =
-nsnull
+nullptr
 ;
 aStatus
 =
@@ -9438,7 +9438,7 @@ ClearFloats
 (
 bottomEdgeOfChildren
 NS_STYLE_CLEAR_LEFT_AND_RIGHT
-nsnull
+nullptr
 nsFloatManager
 :
 :
@@ -11740,7 +11740,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 )
 )
 line
@@ -12417,7 +12417,7 @@ aLine
 mBounds
 .
 height
-nsnull
+nullptr
 )
 ;
 #
@@ -12710,7 +12710,7 @@ mFloats
 .
 AppendFrames
 (
-nsnull
+nullptr
 list
 )
 ;
@@ -13447,7 +13447,7 @@ nsIFrame
 *
 replacedBlock
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -16988,7 +16988,7 @@ mFrames
 .
 AppendFrames
 (
-nsnull
+nullptr
 pulledFrames
 )
 ;
@@ -19382,7 +19382,7 @@ nextInFlow
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -19546,7 +19546,7 @@ stop
 pulling
 .
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -19753,7 +19753,7 @@ mFrames
 .
 InsertFrame
 (
-nsnull
+nullptr
 aState
 .
 mPrevChild
@@ -19943,7 +19943,7 @@ RemoveOverflowLines
 (
 )
 :
-nsnull
+nullptr
 ;
 nsLineList
 *
@@ -20644,7 +20644,7 @@ within
 itself
 if
 (
-nsnull
+nullptr
 !
 =
 blockParent
@@ -21763,7 +21763,7 @@ nsIFrame
 *
 replacedBlock
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -22006,7 +22006,7 @@ nsIFrame
 *
 clearanceFrame
 =
-nsnull
+nullptr
 ;
 nscoord
 startingY
@@ -22995,7 +22995,7 @@ floatAvailableSpace
 replacedBlock
 !
 =
-nsnull
+nullptr
 availSpace
 )
 ;
@@ -24035,7 +24035,7 @@ rv
 CreateContinuationFor
 (
 aState
-nsnull
+nullptr
 frame
 madeContinuation
 )
@@ -24184,7 +24184,7 @@ mFrames
 .
 InsertFrame
 (
-nsnull
+nullptr
 frame
 nextFrame
 )
@@ -25329,7 +25329,7 @@ nsIContent
 *
 forceBreakInContent
 =
-nsnull
+nullptr
 ;
 PRInt32
 forceBreakOffset
@@ -25636,7 +25636,7 @@ else
 {
 forceBreakInContent
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -26529,7 +26529,7 @@ aLine
 ;
 NS_ASSERTION
 (
-nsnull
+nullptr
 =
 =
 toremove
@@ -27950,7 +27950,7 @@ ReflowFrame
 (
 aFrame
 frameReflowStatus
-nsnull
+nullptr
 pushedFrame
 )
 ;
@@ -28970,7 +28970,7 @@ mFrames
 .
 InsertFrame
 (
-nsnull
+nullptr
 aFrame
 newFrame
 )
@@ -29666,7 +29666,7 @@ push
 ;
 NS_ABORT_IF_FALSE
 (
-nsnull
+nullptr
 !
 =
 aFrame
@@ -30092,7 +30092,7 @@ GetNextInFlow
 ;
 while
 (
-nsnull
+nullptr
 !
 =
 nextInFlow
@@ -32086,8 +32086,8 @@ mList
 .
 InsertFrames
 (
-nsnull
-nsnull
+nullptr
+nullptr
 floats
 )
 ;
@@ -32194,7 +32194,7 @@ firstLine
 {
 lineBeforeLastFrame
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -32270,8 +32270,8 @@ mFrames
 .
 InsertFrames
 (
-nsnull
-nsnull
+nullptr
+nullptr
 pushedFrames
 )
 ;
@@ -32553,13 +32553,13 @@ FrameLines
 *
 overflowLines
 =
-nsnull
+nullptr
 ;
 FrameLines
 *
 ourOverflowLines
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -32701,8 +32701,8 @@ mFloats
 .
 InsertFrames
 (
-nsnull
-nsnull
+nullptr
+nullptr
 oofs
 .
 mList
@@ -32811,7 +32811,7 @@ mFloats
 .
 AppendFrames
 (
-nsnull
+nullptr
 oofs
 .
 mList
@@ -32939,8 +32939,8 @@ mFrames
 .
 InsertFrames
 (
-nsnull
-nsnull
+nullptr
+nullptr
 overflowLines
 -
 >
@@ -33019,7 +33019,7 @@ mFrames
 .
 AppendFrames
 (
-nsnull
+nullptr
 ourOverflowLines
 -
 >
@@ -33253,7 +33253,7 @@ mFloats
 InsertFrames
 (
 this
-nsnull
+nullptr
 *
 list
 )
@@ -33286,7 +33286,7 @@ HasOverflowLines
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 FrameLines
@@ -33389,7 +33389,7 @@ HasOverflowLines
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 FrameLines
@@ -33735,7 +33735,7 @@ NS_BLOCK_HAS_OVERFLOW_OUT_OF_FLOWS
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsFrameList
@@ -33961,7 +33961,7 @@ HasInsideBullet
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -34063,7 +34063,7 @@ FirstChild
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 nsFrameList
@@ -34085,7 +34085,7 @@ HasOutsideBullet
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -34187,7 +34187,7 @@ HasPushedFloats
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsFrameList
@@ -34301,7 +34301,7 @@ HasPushedFloats
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsFrameList
@@ -34494,7 +34494,7 @@ mFloats
 .
 AppendFrames
 (
-nsnull
+nullptr
 aFrameList
 )
 ;
@@ -34551,7 +34551,7 @@ empty
 (
 )
 ?
-nsnull
+nullptr
 :
 mLines
 .
@@ -35255,7 +35255,7 @@ overflowLines
 >
 mLines
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -35309,7 +35309,7 @@ prevSiblingIndex
 {
 lineList
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -35362,7 +35362,7 @@ mLines
 ;
 aPrevSibling
 =
-nsnull
+nullptr
 ;
 prevSibLine
 =
@@ -35650,7 +35650,7 @@ frames
 .
 InsertFrames
 (
-nsnull
+nullptr
 aPrevSibling
 aFrameList
 )
@@ -37379,7 +37379,7 @@ if
 child
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -38611,7 +38611,7 @@ FrameLines
 *
 overflowLines
 =
-nsnull
+nullptr
 ;
 bool
 searchingOverflowList
@@ -39178,7 +39178,7 @@ prevSibling
 will
 only
 be
-nsnull
+nullptr
 when
 we
 are
@@ -39410,7 +39410,7 @@ false
 ;
 deletedNextContinuation
 =
-nsnull
+nullptr
 ;
 }
 aDeletedFrame
@@ -40407,13 +40407,13 @@ FrameLines
 *
 overflowLines
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
 prevSibling
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -40842,7 +40842,7 @@ out
 prevSibling
 prevSibling
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -41696,7 +41696,7 @@ nsIFrame
 *
 clearanceFrame
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -41715,7 +41715,7 @@ floatRS
 .
 mDiscoveredClearance
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -41811,7 +41811,7 @@ true
 margin
 0
 isAdjacentWithTop
-nsnull
+nullptr
 floatRS
 aReflowStatus
 aState
@@ -43093,7 +43093,7 @@ nsIFrame
 *
 stop
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -44894,7 +44894,7 @@ ShouldDescendIntoFrame
 this
 )
 ?
-nsnull
+nullptr
 :
 GetFirstLineContaining
 (
@@ -45479,7 +45479,7 @@ accService
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsPresContext
@@ -45583,7 +45583,7 @@ the
 document
 node
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -45659,7 +45659,7 @@ the
 document
 node
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -45827,7 +45827,7 @@ NS_BLOCK_HAS_LINE_CURSOR
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 FrameProperties
@@ -46646,7 +46646,7 @@ GetPseudo
 )
 =
 =
-nsnull
+nullptr
 )
 |
 |
@@ -46697,7 +46697,7 @@ presContext
 )
 !
 =
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -46730,7 +46730,7 @@ rv
 AddFrames
 (
 aChildList
-nsnull
+nullptr
 )
 ;
 if
@@ -47127,7 +47127,7 @@ Init
 (
 mContent
 this
-nsnull
+nullptr
 )
 ;
 /
@@ -47172,7 +47172,7 @@ bullet
 AddFrames
 (
 bulletList
-nsnull
+nullptr
 )
 ;
 Properties
@@ -49035,7 +49035,7 @@ GetFloatFromPlaceholder
 aFrame
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -49127,7 +49127,7 @@ aList
 .
 AppendFrame
 (
-nsnull
+nullptr
 outOfFlowFrame
 )
 ;
@@ -49282,7 +49282,7 @@ aList
 .
 AppendFrame
 (
-nsnull
+nullptr
 outOfFlowFrame
 )
 ;
@@ -50053,7 +50053,7 @@ GetPrevInFlow
 )
 =
 =
-nsnull
+nullptr
 ;
 *
 aBottomMarginRoot
@@ -50063,7 +50063,7 @@ GetNextInFlow
 )
 =
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -50520,7 +50520,7 @@ nsBlockFrame
 *
 block
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -50591,7 +50591,7 @@ block
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nscoord
@@ -50928,7 +50928,7 @@ cursor
 {
 cursor
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -51228,7 +51228,7 @@ cursor
 {
 cursor
 =
-nsnull
+nullptr
 ;
 break
 ;

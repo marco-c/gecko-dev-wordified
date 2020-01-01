@@ -258,7 +258,7 @@ state
 *
 aState
 =
-nsnull
+nullptr
 ;
 state
 =

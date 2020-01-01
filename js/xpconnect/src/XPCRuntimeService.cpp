@@ -343,7 +343,7 @@ _retval
 *
 objp_
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -671,7 +671,7 @@ array
 *
 aArray
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -706,7 +706,7 @@ retval
 *
 retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -736,7 +736,7 @@ aContractID
 *
 aContractID
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -826,7 +826,7 @@ aClassID
 *
 aClassID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

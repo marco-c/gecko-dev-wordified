@@ -1371,7 +1371,7 @@ nsIAtom
 *
 aMatchAtom
 =
-nsnull
+nullptr
 PRInt32
 aMatchNameSpaceId
 =
@@ -2573,7 +2573,7 @@ nsContentList
 aRootNode
 aFunc
 aDestroyFunc
-nsnull
+nullptr
 )
 mString
 (

@@ -628,7 +628,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -669,7 +669,7 @@ Type
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 /

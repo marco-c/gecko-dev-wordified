@@ -578,7 +578,7 @@ tmp
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -993,7 +993,7 @@ nsContentList
 *
 list
 =
-nsnull
+nullptr
 ;
 static
 PLDHashTableOps
@@ -1034,7 +1034,7 @@ PL_DHashTableInit
 gContentListHashTable
 &
 hash_table_ops
-nsnull
+nullptr
 sizeof
 (
 ContentListHashEntry
@@ -1052,7 +1052,7 @@ gContentListHashTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1060,7 +1060,7 @@ ContentListHashEntry
 *
 entry
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1418,7 +1418,7 @@ nsCacheableFuncStringContentList
 *
 list
 =
-nsnull
+nullptr
 ;
 static
 PLDHashTableOps
@@ -1459,7 +1459,7 @@ PL_DHashTableInit
 gFuncStringContentListHashTable
 &
 hash_table_ops
-nsnull
+nullptr
 sizeof
 (
 FuncStringContentListHashEntry
@@ -1477,7 +1477,7 @@ gFuncStringContentListHashTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1485,7 +1485,7 @@ FuncStringContentListHashEntry
 *
 entry
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1637,7 +1637,7 @@ list
 ;
 list
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1668,7 +1668,7 @@ entry
 NS_ENSURE_TRUE
 (
 list
-nsnull
+nullptr
 )
 ;
 }
@@ -1735,15 +1735,15 @@ aXMLMatchAtom
 )
 mFunc
 (
-nsnull
+nullptr
 )
 mDestroyFunc
 (
-nsnull
+nullptr
 )
 mData
 (
-nsnull
+nullptr
 )
 mState
 (
@@ -2466,7 +2466,7 @@ aName
 NS_ENSURE_TRUE
 (
 name
-nsnull
+nullptr
 )
 ;
 for
@@ -2544,7 +2544,7 @@ content
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -2623,7 +2623,7 @@ RemoveFromCaches
 ;
 mRootNode
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2713,7 +2713,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2761,7 +2761,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -4622,7 +4622,7 @@ gContentListHashTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4801,7 +4801,7 @@ gFuncStringContentListHashTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 }

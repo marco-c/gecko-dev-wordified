@@ -387,7 +387,7 @@ needed
 /
 /
 Returns
-nsnull
+nullptr
 on
 out
 of
@@ -635,7 +635,7 @@ char
 *
 pref
 =
-nsnull
+nullptr
 )
 ;
 NS_HIDDEN_
