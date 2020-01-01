@@ -904,6 +904,13 @@ EventNameType_SVGSVG
 the
 svg
 element
+EventNameType_SMIL
+=
+0x0016
+/
+/
+smil
+elements
 EventNameType_HTMLXUL
 =
 0x0003
