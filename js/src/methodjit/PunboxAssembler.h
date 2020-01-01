@@ -897,7 +897,7 @@ asRawBits
 (
 )
 &
-0xFFFF800000000000
+JSVAL_TAG_MASK
 )
 type
 )
@@ -912,7 +912,7 @@ asRawBits
 (
 )
 &
-0x00007FFFFFFFFFFF
+JSVAL_PAYLOAD_MASK
 )
 payload
 )

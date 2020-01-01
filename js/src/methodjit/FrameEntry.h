@@ -1126,6 +1126,13 @@ isCopy
 )
 )
 ;
+JS_ASSERT
+(
+copy
+<
+this
+)
+;
 return
 copy
 ;

@@ -11642,13 +11642,6 @@ allocReg
 (
 )
 ;
-frame
-.
-pinReg
-(
-maskReg
-)
-;
 masm
 .
 move
@@ -11683,13 +11676,6 @@ cond
 r
 maskReg
 result
-)
-;
-frame
-.
-unpinReg
-(
-maskReg
 )
 ;
 frame
