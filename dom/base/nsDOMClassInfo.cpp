@@ -1556,7 +1556,7 @@ h
 #
 include
 "
-nsIDOMAttr
+nsDOMAttribute
 .
 h
 "
@@ -39426,7 +39426,10 @@ FromSupports
 aNative
 )
 ;
-return
+nsINode
+*
+attr
+=
 map
 -
 >
@@ -39435,6 +39438,9 @@ GetItemAt
 aIndex
 aResult
 )
+;
+return
+attr
 ;
 }
 nsISupports
@@ -39468,7 +39474,10 @@ FromSupports
 aNative
 )
 ;
-return
+nsINode
+*
+attr
+=
 map
 -
 >
@@ -39477,6 +39486,9 @@ GetNamedItem
 aName
 aResult
 )
+;
+return
+attr
 ;
 }
 /
