@@ -550,11 +550,6 @@ generateArgumentsChecks
 )
 ;
 bool
-generateInvalidateEpilogue
-(
-)
-;
-bool
 generateBody
 (
 )

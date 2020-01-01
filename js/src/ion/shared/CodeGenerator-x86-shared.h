@@ -1072,6 +1072,11 @@ MulNegativeZeroCheck
 ool
 )
 ;
+bool
+generateInvalidateEpilogue
+(
+)
+;
 }
 ;
 /

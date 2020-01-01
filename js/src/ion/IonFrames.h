@@ -1062,6 +1062,9 @@ const
 ;
 }
 ;
+class
+MacroAssembler
+;
 /
 /
 The
@@ -1160,6 +1163,14 @@ return
 snapshotOffset_
 ;
 }
+void
+fixUpOffset
+(
+MacroAssembler
+&
+masm
+)
+;
 }
 ;
 /

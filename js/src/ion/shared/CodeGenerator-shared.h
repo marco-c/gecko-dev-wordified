@@ -549,6 +549,9 @@ class
 CodeGenerator
 ;
 class
+MacroAssembler
+;
+class
 CodeGeneratorShared
 :
 public

@@ -2202,6 +2202,9 @@ const
 OsiIndex
 *
 firstOsiIndex
+MacroAssembler
+&
+masm
 )
 ;
 void
