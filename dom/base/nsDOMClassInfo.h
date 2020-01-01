@@ -148,6 +148,15 @@ nsIDOMScriptObjectFactory
 h
 "
 #
+include
+"
+js
+/
+Id
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
