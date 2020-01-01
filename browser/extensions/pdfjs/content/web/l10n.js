@@ -783,6 +783,17 @@ ltr
 '
 ;
 }
+/
+/
+translate
+an
+element
+or
+document
+fragment
+translate
+:
+translateFragment
 }
 ;
 }
