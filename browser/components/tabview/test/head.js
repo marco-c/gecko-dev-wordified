@@ -626,7 +626,7 @@ callback
 ;
 tabItems
 .
-addToUpdateQueue
+update
 (
 tab
 )

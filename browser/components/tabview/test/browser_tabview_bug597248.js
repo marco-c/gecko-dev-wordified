@@ -472,10 +472,11 @@ getContentWindow
 /
 /
 prevent
-thumbnails
-from
+TabItems
+.
+_update
 being
-updated
+called
 before
 checking
 cached
@@ -484,9 +485,9 @@ restoredContentWindow
 .
 TabItems
 .
-pausePainting
-(
-)
+_pauseUpdateForTest
+=
+true
 ;
 let
 nextStep
@@ -841,9 +842,9 @@ contentWindow
 .
 TabItems
 .
-resumePainting
-(
-)
+_pauseUpdateForTest
+=
+false
 ;
 let
 tabItems
@@ -870,7 +871,7 @@ tabItem
 addSubscriber
 (
 "
-thumbnailUpdated
+updated
 "
 function
 onUpdated
@@ -882,7 +883,7 @@ tabItem
 removeSubscriber
 (
 "
-thumbnailUpdated
+updated
 "
 onUpdated
 )
@@ -925,7 +926,7 @@ contentWindow
 .
 TabItems
 .
-addToUpdateQueue
+update
 (
 tabItem
 .
