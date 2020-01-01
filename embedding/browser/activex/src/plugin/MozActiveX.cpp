@@ -495,10 +495,9 @@ ObjectMap
 END_OBJECT_MAP
 (
 )
-extern
-"
-C
-"
+#
+if
+0
 BOOL
 WINAPI
 DllMain
@@ -508,11 +507,7 @@ hInstance
 DWORD
 dwReason
 LPVOID
-/
-*
 lpReserved
-*
-/
 )
 {
 if
@@ -562,3 +557,5 @@ TRUE
 /
 ok
 }
+#
+endif
