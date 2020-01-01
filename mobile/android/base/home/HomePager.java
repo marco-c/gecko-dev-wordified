@@ -272,7 +272,7 @@ public
 enum
 Page
 {
-HISTORY
+VISITED
 BOOKMARKS
 READING_LIST
 }
@@ -446,8 +446,8 @@ addTab
 (
 Page
 .
-HISTORY
-HistoryPage
+VISITED
+VisitedPage
 .
 class
 null
@@ -461,7 +461,7 @@ R
 .
 string
 .
-home_history_title
+visited_title
 )
 )
 ;
