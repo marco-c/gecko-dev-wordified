@@ -554,7 +554,7 @@ h
 #
 include
 "
-nsXULTextAccessible
+XULElementAccessibles
 .
 h
 "
@@ -8799,7 +8799,7 @@ XULLink
 accessible
 =
 new
-nsXULLinkAccessible
+XULLinkAccessible
 (
 aContent
 aDoc
@@ -9235,7 +9235,7 @@ XULText
 accessible
 =
 new
-nsXULTextAccessible
+XULLabelAccessible
 (
 aContent
 aDoc
@@ -9367,7 +9367,7 @@ XULTooltip
 accessible
 =
 new
-nsXULTooltipAccessible
+XULTooltipAccessible
 (
 aContent
 aDoc

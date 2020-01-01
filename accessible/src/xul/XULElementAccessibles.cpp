@@ -93,18 +93,10 @@ MPL
 .
 *
 /
-/
-/
-NOTE
-:
-groups
-are
-alphabetically
-ordered
 #
 include
 "
-nsXULTextAccessible
+XULElementAccessibles
 .
 h
 "
@@ -290,7 +282,7 @@ a11y
 /
 /
 /
-nsXULTextAccessible
+XULLabelAccessible
 /
 /
 /
@@ -371,10 +363,10 @@ nsXULTextAccessible
 /
 /
 /
-nsXULTextAccessible
+XULLabelAccessible
 :
 :
-nsXULTextAccessible
+XULLabelAccessible
 (
 nsIContent
 *
@@ -392,7 +384,7 @@ aDoc
 {
 }
 nsresult
-nsXULTextAccessible
+XULLabelAccessible
 :
 :
 GetNameInternal
@@ -449,7 +441,7 @@ NS_OK
 ;
 }
 role
-nsXULTextAccessible
+XULLabelAccessible
 :
 :
 NativeRole
@@ -464,7 +456,7 @@ LABEL
 ;
 }
 PRUint64
-nsXULTextAccessible
+XULLabelAccessible
 :
 :
 NativeState
@@ -503,7 +495,7 @@ READONLY
 ;
 }
 Relation
-nsXULTextAccessible
+XULLabelAccessible
 :
 :
 RelationByType
@@ -693,7 +685,7 @@ rel
 /
 /
 /
-nsXULTooltipAccessible
+XULTooltipAccessible
 /
 /
 /
@@ -774,10 +766,10 @@ nsXULTooltipAccessible
 /
 /
 /
-nsXULTooltipAccessible
+XULTooltipAccessible
 :
 :
-nsXULTooltipAccessible
+XULTooltipAccessible
 (
 nsIContent
 *
@@ -795,7 +787,7 @@ aDoc
 {
 }
 PRUint64
-nsXULTooltipAccessible
+XULTooltipAccessible
 :
 :
 NativeState
@@ -817,7 +809,7 @@ READONLY
 ;
 }
 role
-nsXULTooltipAccessible
+XULTooltipAccessible
 :
 :
 NativeRole
@@ -913,7 +905,7 @@ TOOLTIP
 /
 /
 /
-nsXULLinkAccessible
+XULLinkAccessible
 /
 /
 /
@@ -994,10 +986,10 @@ nsXULLinkAccessible
 /
 /
 /
-nsXULLinkAccessible
+XULLinkAccessible
 :
 :
-nsXULLinkAccessible
+XULLinkAccessible
 (
 nsIContent
 *
@@ -1021,7 +1013,7 @@ nsIAccessibleHyperLink
 unconditionally
 NS_IMPL_ISUPPORTS_INHERITED1
 (
-nsXULLinkAccessible
+XULLinkAccessible
 HyperTextAccessibleWrap
 nsIAccessibleHyperLink
 )
@@ -1107,11 +1099,11 @@ nsIAccessibleHyperLink
 /
 /
 /
-nsXULLinkAccessible
+XULLinkAccessible
 .
 nsIAccessible
 void
-nsXULLinkAccessible
+XULLinkAccessible
 :
 :
 Value
@@ -1142,7 +1134,7 @@ aValue
 ;
 }
 nsresult
-nsXULLinkAccessible
+XULLinkAccessible
 :
 :
 GetNameInternal
@@ -1189,7 +1181,7 @@ aName
 ;
 }
 role
-nsXULLinkAccessible
+XULLinkAccessible
 :
 :
 NativeRole
@@ -1204,7 +1196,7 @@ LINK
 ;
 }
 PRUint64
-nsXULLinkAccessible
+XULLinkAccessible
 :
 :
 NativeLinkState
@@ -1220,7 +1212,7 @@ LINKED
 ;
 }
 PRUint8
-nsXULLinkAccessible
+XULLinkAccessible
 :
 :
 ActionCount
@@ -1232,7 +1224,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsXULLinkAccessible
+XULLinkAccessible
 :
 :
 GetActionName
@@ -1274,7 +1266,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULLinkAccessible
+XULLinkAccessible
 :
 :
 DoAction
@@ -1392,11 +1384,11 @@ NS_OK
 /
 /
 /
-nsXULLinkAccessible
+XULLinkAccessible
 :
 HyperLinkAccessible
 bool
-nsXULLinkAccessible
+XULLinkAccessible
 :
 :
 IsLink
@@ -1414,7 +1406,7 @@ true
 ;
 }
 PRUint32
-nsXULLinkAccessible
+XULLinkAccessible
 :
 :
 StartOffset
@@ -1496,7 +1488,7 @@ IndexInParent
 ;
 }
 PRUint32
-nsXULLinkAccessible
+XULLinkAccessible
 :
 :
 EndOffset
@@ -1532,7 +1524,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsXULLinkAccessible
+XULLinkAccessible
 :
 :
 AnchorURIAt
