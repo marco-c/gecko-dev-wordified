@@ -30859,7 +30859,7 @@ true
 )
 ;
 }
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -31051,9 +31051,6 @@ aFrameItems
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsCSSFrameConstructor

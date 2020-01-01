@@ -2812,7 +2812,7 @@ and
 the
 like
 .
-nsresult
+void
 ConstructFrame
 (
 nsFrameConstructorState
