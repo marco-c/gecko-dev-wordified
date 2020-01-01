@@ -2607,6 +2607,16 @@ domain
 ;
 this
 .
+_creditsElement
+.
+innerHTML
+=
+article
+.
+byline
+;
+this
+.
 _titleElement
 .
 innerHTML
