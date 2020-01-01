@@ -11166,6 +11166,8 @@ popupState
 .
 target
 ;
+ContentAreaUtils
+.
 saveURL
 (
 ContextHelper
@@ -11201,6 +11203,8 @@ popupState
 .
 target
 ;
+ContentAreaUtils
+.
 saveImageURL
 (
 ContextHelper
