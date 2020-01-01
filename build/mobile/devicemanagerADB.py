@@ -5118,11 +5118,6 @@ version
 )
     
 except
-Exception
-as
-(
-ex
-)
 :
       
 print
