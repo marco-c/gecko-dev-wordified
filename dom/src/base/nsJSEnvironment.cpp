@@ -9282,10 +9282,7 @@ calls
 through
 XPConnect
 .
-nsContentUtils
-:
-:
-NotifyXPCIfExceptionPending
+JS_ReportPendingException
 (
 mContext
 )
