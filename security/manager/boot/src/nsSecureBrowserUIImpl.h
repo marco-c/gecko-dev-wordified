@@ -707,6 +707,9 @@ PRUint32
 mNewToplevelSecurityState
 ;
 PRPackedBool
+mNewToplevelIsEV
+;
+PRPackedBool
 mNewToplevelSecurityStateKnown
 ;
 PRPackedBool
