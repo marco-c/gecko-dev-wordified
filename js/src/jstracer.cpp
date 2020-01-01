@@ -5312,6 +5312,7 @@ isBlacklisted
 &
 hits
 >
+=
 HOTLOOP1
 )
 {
