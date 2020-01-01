@@ -563,13 +563,6 @@ CALL
 SET
 }
 ;
-static
-const
-uint32
-LENGTH_ATOM
-=
-0xFFFFFFFF
-;
 union
 {
 struct
@@ -921,8 +914,9 @@ s
 atom
 table
 .
-uint32
-atomIndex
+JSAtom
+*
+atom
 ;
 /
 /
