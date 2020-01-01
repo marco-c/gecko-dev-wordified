@@ -3761,11 +3761,6 @@ if
 saveDepth
 )
 {
-js_LeaveTrace
-(
-cx
-)
-;
 cx
 -
 >
