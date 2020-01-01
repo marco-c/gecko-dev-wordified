@@ -553,7 +553,7 @@ resource
 /
 services
 -
-sync
+common
 /
 async
 .
@@ -591,7 +591,7 @@ resource
 /
 services
 -
-sync
+common
 /
 log4moz
 .

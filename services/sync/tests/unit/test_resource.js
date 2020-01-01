@@ -39,11 +39,9 @@ resource
 /
 services
 -
-sync
+common
 /
-ext
-/
-Observers
+observers
 .
 js
 "
@@ -79,7 +77,7 @@ resource
 /
 services
 -
-sync
+common
 /
 log4moz
 .

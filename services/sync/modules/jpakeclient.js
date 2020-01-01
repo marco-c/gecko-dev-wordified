@@ -430,7 +430,7 @@ resource
 /
 services
 -
-sync
+common
 /
 log4moz
 .
@@ -449,7 +449,7 @@ resource
 /
 services
 -
-sync
+common
 /
 rest
 .

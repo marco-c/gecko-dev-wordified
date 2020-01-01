@@ -543,7 +543,7 @@ resource
 /
 services
 -
-sync
+common
 /
 async
 .
