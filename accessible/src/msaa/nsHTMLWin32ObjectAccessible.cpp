@@ -445,6 +445,13 @@ h
 #
 include
 "
+Role
+.
+h
+"
+#
+include
+"
 States
 .
 h
@@ -856,7 +863,7 @@ nsHTMLWin32ObjectOwnerAccessible
 :
 nsAccessible
 implementation
-PRUint32
+role
 nsHTMLWin32ObjectOwnerAccessible
 :
 :
@@ -865,10 +872,10 @@ NativeRole
 )
 {
 return
-nsIAccessibleRole
+roles
 :
 :
-ROLE_EMBEDDED_OBJECT
+EMBEDDED_OBJECT
 ;
 }
 PRUint64
