@@ -165,10 +165,9 @@ const
 nsAString
 &
 aText
-nsIDOMMozSmsSegmentInfo
+nsIMobileMessageCallback
 *
-*
-aResult
+aRequest
 )
 {
 NS_ERROR

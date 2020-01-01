@@ -1948,15 +1948,9 @@ const
 nsAString
 &
 aText
-dom
-:
-:
-mobilemessage
-:
-:
-SmsSegmentInfoData
+nsIMobileMessageCallback
 *
-aData
+aRequest
 )
 ;
 void

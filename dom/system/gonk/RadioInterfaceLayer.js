@@ -18587,6 +18587,7 @@ function
 getSegmentInfoForText
 (
 text
+request
 )
 {
 let
@@ -18720,8 +18721,12 @@ segmentChars
 charsInLastSegment
 )
 ;
-return
+request
+.
+notifySegmentInfoForTextGot
+(
 result
+)
 ;
 }
 sendSMS
