@@ -4856,7 +4856,7 @@ names
 ;
 JSPrinter
 *
-JS_NEW_PRINTER
+js_NewPrinter
 (
 JSContext
 *
@@ -4921,7 +4921,7 @@ pool
 0
 )
 ;
-JS_INIT_ARENA_POOL
+JS_InitArenaPool
 (
 &
 jp
@@ -15105,7 +15105,7 @@ n
 ;
 jp2
 =
-JS_NEW_PRINTER
+js_NewPrinter
 (
 cx
 "
@@ -31945,7 +31945,7 @@ str
 ;
 jp
 =
-JS_NEW_PRINTER
+js_NewPrinter
 (
 cx
 name
@@ -34231,7 +34231,7 @@ NULL
 ;
 jp
 =
-JS_NEW_PRINTER
+js_NewPrinter
 (
 cx
 "

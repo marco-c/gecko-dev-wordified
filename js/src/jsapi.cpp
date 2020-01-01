@@ -26668,7 +26668,7 @@ cx
 ;
 jp
 =
-JS_NEW_PRINTER
+js_NewPrinter
 (
 cx
 name

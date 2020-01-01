@@ -35434,7 +35434,7 @@ RECapture
 )
 *
 /
-JS_INIT_ARENA_POOL
+JS_InitArenaPool
 (
 &
 cx
