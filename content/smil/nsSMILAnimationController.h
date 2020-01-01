@@ -507,6 +507,9 @@ nsSMILMilestone
 .
 h
 "
+struct
+nsSMILTargetIdentifier
+;
 class
 nsISMILAnimationElement
 ;
@@ -1138,12 +1141,12 @@ aCompositorTable
 ;
 static
 PRBool
-GetCompositorKeyForAnimation
+GetTargetIdentifierForAnimation
 (
 nsISMILAnimationElement
 *
 aAnimElem
-nsSMILCompositorKey
+nsSMILTargetIdentifier
 &
 aResult
 )

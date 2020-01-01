@@ -589,9 +589,6 @@ nsSMILCompositor
 >
 nsSMILCompositorTable
 ;
-struct
-nsSMILCompositorKey
-;
 #
 endif
 /
