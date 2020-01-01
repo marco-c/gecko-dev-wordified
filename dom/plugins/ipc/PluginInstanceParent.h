@@ -1745,9 +1745,6 @@ mPluginWndProc
 bool
 mNestedEventState
 ;
-bool
-mInAnswerFocusChange
-;
 #
 endif
 /
