@@ -677,10 +677,6 @@ aContent
 nsIPresShell
 *
 aPresShell
-const
-nsAString
-&
-aBulletText
 )
 ;
 virtual

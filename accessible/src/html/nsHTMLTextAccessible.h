@@ -804,10 +804,6 @@ aContent
 nsIWeakReference
 *
 aShell
-const
-nsAString
-&
-aBulletText
 )
 ;
 /
@@ -1067,10 +1063,6 @@ aContent
 nsIWeakReference
 *
 aShell
-const
-nsAString
-&
-aBulletText
 )
 ;
 /
