@@ -293,6 +293,10 @@ PoisonWriteEnabled
 )
 return
 ;
+PoisonWriteBase
+(
+)
+;
 sNtDllInterceptor
 .
 Init
