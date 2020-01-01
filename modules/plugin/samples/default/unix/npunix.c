@@ -3214,7 +3214,7 @@ size
 <
 (
 (
-void
+char
 *
 )
 &
@@ -3224,7 +3224,7 @@ nsTable
 posturlnotify
 -
 (
-void
+char
 *
 )
 nsTable
@@ -3514,7 +3514,7 @@ size
 =
 (
 (
-void
+char
 *
 )
 &
@@ -3524,7 +3524,7 @@ nsTable
 setexception
 -
 (
-void
+char
 *
 )
 nsTable
@@ -3869,7 +3869,7 @@ size
 =
 (
 (
-void
+char
 *
 )
 &
@@ -3879,7 +3879,7 @@ nsTable
 poppopupsenabledstate
 -
 (
-void
+char
 *
 )
 nsTable
