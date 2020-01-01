@@ -2285,6 +2285,11 @@ mTextLength
 PRInt32
 mTextSize
 ;
+private
+:
+PRBool
+mLastTextCharWasCR
+;
 }
 ;
 /
@@ -3816,6 +3821,10 @@ mTextLength
 mTextSize
 (
 0
+)
+mLastTextCharWasCR
+(
+PR_FALSE
 )
 {
 MOZ_COUNT_CTOR
@@ -7104,11 +7113,6 @@ offset
 =
 0
 ;
-PRBool
-isLastCharCR
-=
-PR_FALSE
-;
 while
 (
 addLen
@@ -7196,7 +7200,7 @@ mText
 mTextLength
 ]
 amount
-isLastCharCR
+mLastTextCharWasCR
 )
 ;
 offset
@@ -8292,6 +8296,10 @@ mLastTextNodeSize
 mLastTextNode
 =
 nsnull
+;
+mLastTextCharWasCR
+=
+PR_FALSE
 ;
 }
 #
