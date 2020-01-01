@@ -3546,10 +3546,6 @@ virtual
 bool
 MakeCurrentImpl
 (
-bool
-aForce
-=
-false
 )
 =
 0
@@ -3586,7 +3582,6 @@ success
 =
 MakeCurrentImpl
 (
-aForce
 )
 ;
 if
