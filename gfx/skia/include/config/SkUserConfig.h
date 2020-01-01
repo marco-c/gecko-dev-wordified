@@ -1057,6 +1057,9 @@ define
 SK_SUPPORT_UNITTEST
 #
 endif
+#
+define
+SK_DISABLE_DITHER_32BIT_GRADIENT
 /
 *
 If
