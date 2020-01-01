@@ -2499,6 +2499,7 @@ mCloneBuffer
 .
 clear
 (
+aCx
 )
 ;
 mHaveCachedValue
@@ -3743,6 +3744,7 @@ mCloneBuffer
 .
 clear
 (
+aCx
 )
 ;
 nsresult

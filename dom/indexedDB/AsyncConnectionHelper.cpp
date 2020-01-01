@@ -2689,6 +2689,7 @@ index
 .
 clear
 (
+aCx
 )
 ;
 }
