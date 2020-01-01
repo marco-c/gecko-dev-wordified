@@ -147,6 +147,13 @@ Element
 .
 h
 "
+#
+include
+"
+prtime
+.
+h
+"
 namespace
 mozilla
 {

@@ -139,6 +139,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+prtime
+.
+h
+"
 namespace
 mozilla
 {

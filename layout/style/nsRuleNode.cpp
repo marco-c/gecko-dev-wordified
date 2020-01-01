@@ -176,6 +176,15 @@ include
 "
 mozilla
 /
+LookAndFeel
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -351,9 +360,7 @@ h
 #
 include
 "
-mozilla
-/
-LookAndFeel
+prtime
 .
 h
 "
