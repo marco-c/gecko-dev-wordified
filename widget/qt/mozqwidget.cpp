@@ -2836,6 +2836,11 @@ QShowEvent
 aEvent
 )
 {
+if
+(
+mReceiver
+)
+{
 mReceiver
 -
 >
@@ -2844,6 +2849,7 @@ showEvent
 aEvent
 )
 ;
+}
 QGraphicsWidget
 :
 :
