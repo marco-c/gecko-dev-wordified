@@ -3609,11 +3609,13 @@ callee
 is
 called
 .
+const
 JSTraceType
 *
 get_typemap
 (
 )
+const
 {
 return
 (
