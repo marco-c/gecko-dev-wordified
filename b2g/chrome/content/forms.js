@@ -460,6 +460,9 @@ true
 submit
 :
 true
+image
+:
+true
 }
 ;
 if
@@ -1082,6 +1085,15 @@ function
 element
 )
 {
+if
+(
+!
+element
+)
+{
+return
+;
+}
 /
 /
 FIXME
