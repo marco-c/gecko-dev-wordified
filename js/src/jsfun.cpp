@@ -5931,10 +5931,9 @@ return
 callobj
 ;
 }
-static
 JSFunction
 *
-GetCallObjectFunction
+js_GetCallObjectFunction
 (
 JSObject
 *
@@ -6098,7 +6097,7 @@ JS_ASSERT
 fun
 =
 =
-GetCallObjectFunction
+js_GetCallObjectFunction
 (
 callobj
 )
@@ -6387,7 +6386,7 @@ prop
 ;
 fun
 =
-GetCallObjectFunction
+js_GetCallObjectFunction
 (
 obj
 )
@@ -6671,7 +6670,7 @@ JS_TRUE
 ;
 fun
 =
-GetCallObjectFunction
+js_GetCallObjectFunction
 (
 obj
 )
@@ -7966,7 +7965,7 @@ fun
 ;
 fun
 =
-GetCallObjectFunction
+js_GetCallObjectFunction
 (
 obj
 )
