@@ -1282,12 +1282,15 @@ rv
 rv
 )
 ;
-NS_ASSERTION
+if
 (
 written
-=
+!
 =
 length
+)
+NS_WARNING
+(
 "
 decoder
 didn
