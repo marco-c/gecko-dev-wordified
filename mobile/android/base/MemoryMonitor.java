@@ -636,8 +636,13 @@ us
 .
 GeckoAppShell
 .
-geckoEventSync
+sendEventToGeckoSync
 (
+GeckoEvent
+.
+createNoOpEvent
+(
+)
 )
 ;
 }

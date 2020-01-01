@@ -2487,6 +2487,15 @@ return
 mType
 ;
 }
+bool
+AckNeeded
+(
+)
+{
+return
+mAckNeeded
+;
+}
 int64_t
 Time
 (
@@ -2913,6 +2922,9 @@ mAction
 int
 mType
 ;
+bool
+mAckNeeded
+;
 int64_t
 mTime
 ;
@@ -3105,6 +3117,10 @@ jActionField
 static
 jfieldID
 jTypeField
+;
+static
+jfieldID
+jAckNeededField
 ;
 static
 jfieldID
@@ -3310,7 +3326,7 @@ by
 XUL
 fennec
 only
-GECKO_EVENT_SYNC
+NOOP
 =
 15
 FORCED_RESIZE

@@ -829,7 +829,7 @@ V
 "
 )
 ;
-jAcknowledgeEventSync
+jAcknowledgeEvent
 =
 (
 jmethodID
@@ -841,7 +841,7 @@ GetStaticMethodID
 (
 jGeckoAppShellClass
 "
-acknowledgeEventSync
+acknowledgeEvent
 "
 "
 (
@@ -3803,7 +3803,7 @@ void
 AndroidBridge
 :
 :
-AcknowledgeEventSync
+AcknowledgeEvent
 (
 )
 {
@@ -3813,7 +3813,7 @@ ALOG_BRIDGE
 AndroidBridge
 :
 :
-AcknowledgeEventSync
+AcknowledgeEvent
 "
 )
 ;
@@ -3845,7 +3845,7 @@ env
 CallStaticVoidMethod
 (
 mGeckoAppShellClass
-jAcknowledgeEventSync
+jAcknowledgeEvent
 )
 ;
 }

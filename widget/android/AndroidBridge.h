@@ -923,7 +923,7 @@ aScaleY
 )
 ;
 void
-AcknowledgeEventSync
+AcknowledgeEvent
 (
 )
 ;
@@ -2225,7 +2225,7 @@ jmethodID
 jNotifyIMEChange
 ;
 jmethodID
-jAcknowledgeEventSync
+jAcknowledgeEvent
 ;
 jmethodID
 jEnableLocation
