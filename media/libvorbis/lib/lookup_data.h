@@ -243,22 +243,6 @@ last
 mod
 :
 Id
-:
-lookup_data
-.
-h
-13293
-2007
--
-07
--
-24
-00
-:
-09
-:
-47Z
-xiphmont
 *
 *
 *
@@ -339,6 +323,7 @@ define
 COS_LOOKUP_SZ
 128
 static
+const
 float
 COS_LOOKUP
 [
@@ -871,6 +856,7 @@ define
 INVSQ_LOOKUP_SZ
 32
 static
+const
 float
 INVSQ_LOOKUP
 [
@@ -993,6 +979,7 @@ define
 INVSQ2EXP_LOOKUP_MAX
 32
 static
+const
 float
 INVSQ2EXP_LOOKUP
 [
@@ -1236,7 +1223,11 @@ FROMdB2_SHIFT
 define
 FROMdB2_MASK
 31
+#
+ifdef
+FLOAT_LOOKUP
 static
+const
 float
 FROMdB_LOOKUP
 [
@@ -1376,6 +1367,7 @@ f
 }
 ;
 static
+const
 float
 FROMdB2_LOOKUP
 [
@@ -1482,6 +1474,8 @@ FROMdB2_LOOKUP_SZ
 }
 ;
 #
+endif
+#
 ifdef
 INT_LOOKUP
 #
@@ -1493,6 +1487,7 @@ define
 INVSQ_LOOKUP_I_MASK
 1023
 static
+const
 long
 INVSQ_LOOKUP_I
 [
@@ -1582,6 +1577,7 @@ define
 COS_LOOKUP_I_SZ
 128
 static
+const
 long
 COS_LOOKUP_I
 [

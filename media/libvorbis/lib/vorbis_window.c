@@ -234,22 +234,6 @@ last
 mod
 :
 Id
-:
-window
-.
-c
-13293
-2007
--
-07
--
-24
-00
-:
-09
-:
-47Z
-xiphmont
 *
 *
 *
@@ -348,6 +332,7 @@ misc
 h
 "
 static
+const
 float
 vwin64
 [
@@ -454,6 +439,7 @@ vwin64
 }
 ;
 static
+const
 float
 vwin128
 [
@@ -656,6 +642,7 @@ vwin128
 }
 ;
 static
+const
 float
 vwin256
 [
@@ -1050,6 +1037,7 @@ vwin256
 }
 ;
 static
+const
 float
 vwin512
 [
@@ -1828,6 +1816,7 @@ vwin512
 }
 ;
 static
+const
 float
 vwin1024
 [
@@ -3374,6 +3363,7 @@ vwin1024
 }
 ;
 static
+const
 float
 vwin2048
 [
@@ -6456,6 +6446,7 @@ vwin2048
 }
 ;
 static
+const
 float
 vwin4096
 [
@@ -12610,6 +12601,7 @@ vwin4096
 }
 ;
 static
+const
 float
 vwin8192
 [
@@ -24908,8 +24900,10 @@ vwin8192
 }
 ;
 static
+const
 float
 *
+const
 vwin
 [
 8
@@ -24926,6 +24920,7 @@ vwin4096
 vwin8192
 }
 ;
+const
 float
 *
 _vorbis_window_get
@@ -24982,6 +24977,7 @@ nW
 )
 ;
 {
+const
 float
 *
 windowLW
@@ -24994,6 +24990,7 @@ lW
 ]
 ]
 ;
+const
 float
 *
 windowNW
