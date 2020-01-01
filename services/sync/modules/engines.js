@@ -4227,6 +4227,11 @@ changedIDs
 .
 length
 ;
+if
+(
+outnum
+)
+{
 this
 .
 _log
@@ -4245,11 +4250,6 @@ records
 "
 )
 ;
-if
-(
-outnum
-)
-{
 /
 /
 collection
