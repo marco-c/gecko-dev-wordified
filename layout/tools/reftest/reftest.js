@@ -1923,7 +1923,7 @@ widgetToolkit
 :
 xr
 .
-widgettoolkit
+widgetToolkit
 OS
 :
 xr
@@ -1943,6 +1943,8 @@ configurations
 without
 full
 ABI
+/
+/
 support
 (
 mobile
@@ -1953,6 +1955,8 @@ ARM
 try
 {
 sandbox
+.
+xulRuntime
 .
 XPCOMABI
 =
@@ -1966,6 +1970,15 @@ catch
 e
 )
 {
+sandbox
+.
+xulRuntime
+.
+XPCOMABI
+=
+"
+"
+;
 }
 var
 hh
