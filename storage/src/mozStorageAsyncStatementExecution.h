@@ -506,9 +506,6 @@ sqlite3_stmt
 class
 mozStorageTransaction
 ;
-class
-mozStorageResultSet
-;
 namespace
 mozilla
 {
@@ -517,6 +514,9 @@ storage
 {
 class
 Connection
+;
+class
+ResultSet
 ;
 class
 AsyncExecuteStatements
@@ -1078,7 +1078,7 @@ mCallingThread
 ;
 nsRefPtr
 <
-mozStorageResultSet
+ResultSet
 >
 mResultSet
 ;

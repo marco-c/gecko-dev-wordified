@@ -2188,7 +2188,7 @@ mResultSet
 mResultSet
 =
 new
-mozStorageResultSet
+ResultSet
 (
 )
 ;
