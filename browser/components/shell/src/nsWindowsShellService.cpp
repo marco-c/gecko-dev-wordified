@@ -4283,7 +4283,7 @@ isDefaultBrowser
 &
 isDefaultBrowser
 ?
-S_OK
+NS_OK
 :
 NS_ERROR_FAILURE
 ;

@@ -7061,7 +7061,7 @@ aSizes
 ;
 }
 static
-nsresult
+HRESULT
 GetFamilyName
 (
 IDWriteFont
@@ -7266,7 +7266,7 @@ length
 )
 {
 return
-NS_ERROR_FAILURE
+E_FAIL
 ;
 }
 hr
@@ -7311,7 +7311,7 @@ Elements
 )
 ;
 return
-NS_OK
+S_OK
 ;
 }
 /

@@ -1362,7 +1362,7 @@ AndroidCameraInputStream
 :
 CloseWithStatus
 (
-uint32_t
+nsresult
 status
 )
 {

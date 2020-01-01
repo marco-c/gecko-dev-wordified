@@ -1187,7 +1187,7 @@ methodAddress
 )
 ;
 typedef
-uint32_t
+nsresult
 (
 *
 Method
@@ -1209,7 +1209,7 @@ double
 double
 )
 ;
-uint32_t
+nsresult
 result
 =
 (

@@ -611,7 +611,7 @@ id
 ;
 if
 (
-NS_FAILED
+FAILED
 (
 hr
 )

@@ -11923,7 +11923,8 @@ while
 1
 )
 {
-rv
+HRESULT
+hres
 =
 pStream
 -
@@ -11941,9 +11942,9 @@ readCount
 ;
 if
 (
-NS_FAILED
+FAILED
 (
-rv
+hres
 )
 )
 return

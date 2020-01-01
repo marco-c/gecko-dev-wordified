@@ -457,7 +457,7 @@ n
 )
 ;
 return
-S_OK
+NS_OK
 ;
 }
 }
@@ -625,9 +625,6 @@ nsITestCom
 *
 iTestCom
 ;
-nsresult
-res
-;
 iFactory
 -
 >
@@ -636,8 +633,6 @@ LockServer
 TRUE
 )
 ;
-res
-=
 iFactory
 -
 >

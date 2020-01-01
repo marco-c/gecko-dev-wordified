@@ -422,7 +422,7 @@ fontFamily
 ;
 protected
 :
-nsresult
+HRESULT
 GetCharacterExtents
 (
 int32_t
