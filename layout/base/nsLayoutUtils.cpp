@@ -29135,6 +29135,14 @@ CONTENT_COLOR_ALPHA
 )
 ;
 }
+if
+(
+!
+surf
+)
+return
+result
+;
 nsRefPtr
 <
 gfxContext

@@ -7650,6 +7650,13 @@ CairoStatus
 )
 )
 {
+error
+.
+Throw
+(
+NS_ERROR_NOT_AVAILABLE
+)
+;
 return
 nullptr
 ;
