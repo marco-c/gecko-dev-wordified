@@ -9719,10 +9719,10 @@ AppUnitsPerDevPixel
 )
 ;
 }
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
-nsDisplayBackground
+nsDisplayBackgroundImage
 (
 nsDisplayListBuilder
 *
@@ -9764,7 +9764,7 @@ true
 {
 MOZ_COUNT_CTOR
 (
-nsDisplayBackground
+nsDisplayBackgroundImage
 )
 ;
 if
@@ -9948,11 +9948,11 @@ SetHasFixedItems
 }
 }
 }
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 ~
-nsDisplayBackground
+nsDisplayBackgroundImage
 (
 )
 {
@@ -9961,7 +9961,7 @@ ifdef
 NS_BUILD_REFCNT_LOGGING
 MOZ_COUNT_DTOR
 (
-nsDisplayBackground
+nsDisplayBackgroundImage
 )
 ;
 #
@@ -9973,7 +9973,7 @@ static
 *
 /
 nsresult
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 AppendBackgroundItemsToTop
@@ -9987,7 +9987,7 @@ aFrame
 nsDisplayList
 *
 aList
-nsDisplayBackground
+nsDisplayBackgroundImage
 *
 *
 aBackground
@@ -10191,7 +10191,7 @@ i
 bg
 )
 {
-nsDisplayBackground
+nsDisplayBackgroundImage
 *
 bgItem
 =
@@ -10199,7 +10199,7 @@ new
 (
 aBuilder
 )
-nsDisplayBackground
+nsDisplayBackgroundImage
 (
 aBuilder
 aFrame
@@ -10932,7 +10932,7 @@ aContainedRect
 ;
 }
 bool
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 IsSingleFixedPositionImage
@@ -11218,7 +11218,7 @@ true
 ;
 }
 bool
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 TryOptimizeToImageLayer
@@ -11568,7 +11568,7 @@ true
 ;
 }
 LayerState
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 GetLayerState
@@ -11794,7 +11794,7 @@ already_AddRefed
 <
 Layer
 >
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 BuildLayer
@@ -11846,7 +11846,7 @@ forget
 ;
 }
 void
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 ConfigureLayer
@@ -11972,7 +11972,7 @@ height
 ;
 }
 void
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 HitTest
@@ -12084,7 +12084,7 @@ mFrame
 ;
 }
 bool
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 ComputeVisibility
@@ -12165,7 +12165,7 @@ static
 *
 /
 nsRegion
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 GetInsideClipRegion
@@ -12393,7 +12393,7 @@ result
 ;
 }
 nsRegion
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 GetOpaqueRegion
@@ -12669,7 +12669,7 @@ result
 ;
 }
 bool
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 IsUniform
@@ -12804,7 +12804,7 @@ false
 ;
 }
 bool
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 IsVaryingRelativeToMovingFrame
@@ -12927,7 +12927,7 @@ mFrame
 ;
 }
 nsRect
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 GetPositioningArea
@@ -12994,7 +12994,7 @@ ToReferenceFrame
 ;
 }
 bool
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 RenderingMightDependOnPositioningAreaSizeChange
@@ -13208,7 +13208,7 @@ PAINTBG_WILL_PAINT_BORDER
 }
 }
 void
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 Paint
@@ -13276,7 +13276,7 @@ mLayer
 ;
 }
 void
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 ComputeInvalidationRegion
@@ -13470,7 +13470,7 @@ mBounds
 }
 }
 nsRect
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 GetBounds
@@ -13644,7 +13644,7 @@ layer
 ;
 }
 uint32_t
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 GetPerFrameKey
@@ -13842,7 +13842,7 @@ PresContext
 )
 ;
 return
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 GetInsideClipRegion
