@@ -10156,12 +10156,7 @@ HasValidDir
 )
 |
 |
-NodeInfo
-(
-)
--
->
-Equals
+IsHTML
 (
 nsGkAtoms
 :
@@ -11439,12 +11434,7 @@ HasValidDir
 )
 |
 |
-NodeInfo
-(
-)
--
->
-Equals
+IsHTML
 (
 nsGkAtoms
 :
