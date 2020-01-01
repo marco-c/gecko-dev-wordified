@@ -290,8 +290,14 @@ phase3
 Sync
 ]
 [
-SetPrivateBrowsing
+Windows
+.
+add
+{
+private
+:
 true
+}
 ]
 [
 Formdata
