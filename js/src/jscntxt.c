@@ -2672,7 +2672,7 @@ completed
 so
 *
 that
-js_FinalizeStringRT
+js_FinalizeString
 can
 detect
 unit
