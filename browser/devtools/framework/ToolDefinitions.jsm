@@ -1154,7 +1154,10 @@ target
 )
 {
 return
-true
+!
+target
+.
+isRemote
 ;
 }
 build
