@@ -2491,8 +2491,6 @@ response
 ;
 switch
 (
-this
-.
 protocol
 )
 {
