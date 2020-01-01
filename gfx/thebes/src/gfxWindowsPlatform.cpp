@@ -592,12 +592,8 @@ gfxGDIFontList
 h
 "
 #
-include
-"
-gfxDWriteFontList
-.
-h
-"
+ifdef
+CAIRO_HAS_DWRITE_FONT
 #
 include
 "
@@ -626,6 +622,8 @@ dwrite
 .
 h
 >
+#
+endif
 #
 endif
 #
