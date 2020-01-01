@@ -423,7 +423,7 @@ IonSpew_Safepoints
 {
 for
 (
-GeneralRegisterIterator
+GeneralRegisterForwardIterator
 iter
 (
 spilled
