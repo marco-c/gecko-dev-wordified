@@ -1140,7 +1140,8 @@ flags
 trcinfo
 )
 \
-{
+JS_FN
+(
 name
 JS_DATA_TO_FUNC_PTR
 (
@@ -1158,8 +1159,7 @@ JSFUN_FAST_NATIVE
 JSFUN_STUB_GSOPS
 |
 JSFUN_TRACEABLE
-0
-}
+)
 #
 else
 #
