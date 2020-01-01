@@ -22793,7 +22793,7 @@ GetStyleTextReset
 )
 -
 >
-mTextDecoration
+mTextDecorationLine
 ;
 nscoord
 offset

@@ -1862,6 +1862,12 @@ DoGetTextAlign
 ;
 nsIDOMCSSValue
 *
+DoGetMozTextBlink
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetTextDecoration
 (
 )
@@ -1869,6 +1875,12 @@ DoGetTextDecoration
 nsIDOMCSSValue
 *
 DoGetMozTextDecorationColor
+(
+)
+;
+nsIDOMCSSValue
+*
+DoGetMozTextDecorationLine
 (
 )
 ;

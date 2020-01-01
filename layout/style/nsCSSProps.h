@@ -2950,7 +2950,14 @@ kTextAlignKTable
 static
 const
 PRInt32
-kTextDecorationKTable
+kTextBlinkKTable
+[
+]
+;
+static
+const
+PRInt32
+kTextDecorationLineKTable
 [
 ]
 ;

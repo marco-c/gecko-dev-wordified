@@ -1035,10 +1035,11 @@ have
 text
 /
 /
-decorations
+decoration
+lines
 ?
 PRBool
-HasTextDecorations
+HasTextDecorationLines
 (
 )
 const
@@ -1049,7 +1050,7 @@ return
 (
 mBits
 &
-NS_STYLE_HAS_TEXT_DECORATIONS
+NS_STYLE_HAS_TEXT_DECORATION_LINES
 )
 ;
 }
