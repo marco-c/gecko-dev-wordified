@@ -4250,6 +4250,10 @@ gcDebugCompartmentGC
 (
 false
 )
+gcDeterministicOnly
+(
+false
+)
 #
 endif
 gcCallback
