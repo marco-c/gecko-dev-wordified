@@ -836,6 +836,13 @@ PCOMContentPermissionRequestChild
 .
 h
 "
+#
+include
+"
+xpcpublic
+.
+h
+"
 using
 namespace
 mozilla
@@ -4237,6 +4244,11 @@ JS_SetVersion
 (
 cx
 JSVERSION_LATEST
+)
+;
+xpc_LocalizeContext
+(
+cx
 )
 ;
 JSAutoRequest

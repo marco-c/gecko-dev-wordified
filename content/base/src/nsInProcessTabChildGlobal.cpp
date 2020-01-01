@@ -537,6 +537,13 @@ nsIPrivateDOMEvent
 .
 h
 "
+#
+include
+"
+xpcpublic
+.
+h
+"
 bool
 SendSyncMessageToParent
 (
@@ -1657,6 +1664,11 @@ JS_SetVersion
 (
 cx
 JSVERSION_LATEST
+)
+;
+xpc_LocalizeContext
+(
+cx
 )
 ;
 JSAutoRequest
