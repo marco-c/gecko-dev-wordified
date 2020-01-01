@@ -1483,9 +1483,9 @@ setAttribute
 "
 checked
 "
-"
-false
-"
+Prefs
+.
+pauseOnExceptions
 )
 ;
 this
@@ -1676,6 +1676,10 @@ activeThread
 .
 pauseOnExceptions
 (
+Prefs
+.
+pauseOnExceptions
+=
 this
 .
 _pauseOnExceptionsItem
