@@ -6528,7 +6528,17 @@ rv
 ;
 if
 (
+(
 mPluginsClickToPlay
+&
+&
+plugin
+-
+>
+IsClicktoplay
+(
+)
+)
 |
 |
 blocklistState
