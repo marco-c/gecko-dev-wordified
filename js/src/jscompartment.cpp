@@ -4016,6 +4016,9 @@ change
 .
 *
 /
+#
+ifdef
+JS_METHODJIT
 if
 (
 types
@@ -4070,6 +4073,8 @@ script
 ;
 }
 }
+#
+endif
 }
 else
 {
