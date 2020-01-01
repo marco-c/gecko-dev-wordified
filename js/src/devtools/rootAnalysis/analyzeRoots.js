@@ -173,12 +173,17 @@ arguments
 var
 batch
 =
+(
 arguments
 [
 3
 ]
 |
 0
+)
+|
+|
+1
 ;
 var
 numBatches
