@@ -654,10 +654,6 @@ aCx
 ;
 protected
 :
-/
-/
-njn
-?
 static
 bool
 areOverlappingRegions
