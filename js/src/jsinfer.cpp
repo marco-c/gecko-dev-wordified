@@ -10144,6 +10144,12 @@ JSID_VOID
 endif
 typeEmpty
 .
+hasSpecialEquality
+=
+true
+;
+typeEmpty
+.
 unknownProperties
 =
 true
