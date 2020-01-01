@@ -533,9 +533,10 @@ aDocument
 nsIFile
 *
 aCustomProfileDir
-nsILoadContext
-*
-aLoadContext
+uint32_t
+aAppID
+bool
+aInBrowser
 )
 ;
 NS_DECL_NSIOFFLINECACHEUPDATEOBSERVER

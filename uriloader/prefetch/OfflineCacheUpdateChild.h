@@ -335,11 +335,11 @@ nsIObserverService
 >
 mObserverService
 ;
-nsCOMPtr
-<
-nsILoadContext
->
-mLoadContext
+uint32_t
+mAppID
+;
+bool
+mInBrowser
 ;
 /
 *
