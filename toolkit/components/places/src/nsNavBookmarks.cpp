@@ -15825,6 +15825,9 @@ PRInt64
 aReferringID
 PRUint32
 aTransitionType
+PRUint32
+*
+aAdded
 )
 {
 /
