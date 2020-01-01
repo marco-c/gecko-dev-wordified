@@ -7679,6 +7679,7 @@ UploadSurfaceToTexture
 aSurf
 region
 mTexture
+mSize
 mTextureState
 =
 =
