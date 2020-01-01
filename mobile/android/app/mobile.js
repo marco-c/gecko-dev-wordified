@@ -5774,9 +5774,9 @@ https
 /
 marketplace
 .
-mozilla
+firefox
 .
-org
+com
 /
 "
 )
