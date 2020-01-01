@@ -23900,10 +23900,7 @@ return
 NULL
 ;
 return
-mystrdup
-(
 ignorechars
-)
 ;
 }
 /
@@ -29647,7 +29644,7 @@ char
 cond
 char
 *
-line
+WARNVAR
 )
 {
 int
@@ -29782,7 +29779,7 @@ s
 \
 n
 "
-line
+warnvar
 )
 ;
 }
@@ -29906,7 +29903,7 @@ s
 \
 n
 "
-line
+warnvar
 )
 ;
 return
@@ -29952,7 +29949,7 @@ s
 \
 n
 "
-line
+warnvar
 )
 ;
 return
@@ -30094,7 +30091,7 @@ s
 \
 n
 "
-line
+warnvar
 )
 ;
 }
@@ -30192,7 +30189,7 @@ s
 \
 n
 "
-line
+warnvar
 )
 ;
 return
@@ -30258,7 +30255,7 @@ s
 \
 n
 "
-line
+warnvar
 )
 ;
 return

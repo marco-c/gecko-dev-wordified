@@ -698,6 +698,7 @@ std
 endif
 #
 endif
+static
 struct
 unicode_info2
 *
@@ -705,6 +706,7 @@ utf_tbl
 =
 NULL
 ;
+static
 int
 utf_tbl_count
 =
@@ -1174,15 +1176,15 @@ size
 ;
 while
 (
-*
-u8
-&
-&
 (
 u2
 <
 u2_max
 )
+&
+&
+*
+u8
 )
 {
 switch
@@ -2191,6 +2193,11 @@ nc
 1
 )
 ;
+if
+(
+rv
+)
+{
 memcpy
 (
 rv
@@ -2214,6 +2221,7 @@ return
 rv
 ;
 }
+}
 else
 {
 rv
@@ -2229,6 +2237,11 @@ n
 1
 )
 ;
+if
+(
+rv
+)
+{
 memcpy
 (
 rv
@@ -2258,6 +2271,7 @@ n
 return
 rv
 ;
+}
 }
 }
 return
@@ -27733,7 +27747,7 @@ utf_tbl_count
 >
 0
 )
-utf_tbl
+utf_tbl_count
 -
 -
 ;
@@ -28851,7 +28865,7 @@ out
 const
 char
 *
-name
+WARNVAR
 )
 {
 char
@@ -28893,7 +28907,7 @@ line
 \
 n
 "
-name
+warnvar
 )
 ;
 return
@@ -29007,7 +29021,7 @@ information
 \
 n
 "
-name
+warnvar
 )
 ;
 return
