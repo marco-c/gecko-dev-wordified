@@ -1916,6 +1916,7 @@ private
 RangedPtr
 (
 )
+MOZ_DELETE
 ;
 T
 *
@@ -1923,6 +1924,7 @@ operator
 &
 (
 )
+MOZ_DELETE
 ;
 operator
 T
@@ -1930,6 +1932,7 @@ T
 (
 )
 const
+MOZ_DELETE
 ;
 }
 ;

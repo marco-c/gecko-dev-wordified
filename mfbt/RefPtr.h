@@ -1997,6 +1997,7 @@ tmp
 OutParamRef
 (
 )
+MOZ_DELETE
 ;
 OutParamRef
 &
@@ -2007,6 +2008,7 @@ const
 OutParamRef
 &
 )
+MOZ_DELETE
 ;
 }
 ;
