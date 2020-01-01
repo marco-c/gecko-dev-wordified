@@ -1485,7 +1485,7 @@ s
 {
 fprintf
 (
-stderr
+stdout
 "
 %
 s

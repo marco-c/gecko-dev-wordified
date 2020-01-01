@@ -633,7 +633,7 @@ do
 {
 fprintf
 (
-stderr
+stdout
 "
 abort
 :
