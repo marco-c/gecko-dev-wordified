@@ -470,6 +470,13 @@ h
 "
 #
 endif
+#
+include
+<
+stdlib
+.
+h
+>
 /
 /
 3456789_123456789_123456789_123456789_123456789_123456789_123456789_123456789
@@ -650,10 +657,7 @@ void
 *
 block
 =
-:
-:
-operator
-new
+malloc
 (
 inSize
 )
@@ -1041,10 +1045,7 @@ endif
 MORK_DEBUG_HEAP_STATS
 *
 /
-:
-:
-operator
-delete
+free
 (
 inBlock
 )
