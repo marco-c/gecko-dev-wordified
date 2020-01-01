@@ -133,6 +133,13 @@ nsIDOMNSRGBAColor
 .
 h
 "
+#
+include
+"
+nsWrapperCache
+.
+h
+"
 class
 nsROCSSPrimitiveValue
 ;
@@ -141,6 +148,8 @@ nsDOMCSSRGBColor
 :
 public
 nsIDOMNSRGBAColor
+public
+nsWrapperCache
 {
 public
 :
@@ -169,9 +178,13 @@ nsDOMCSSRGBColor
 void
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIDOMRGBCOLOR
 NS_DECL_NSIDOMNSRGBACOLOR
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+(
+nsDOMCSSRGBColor
+)
 bool
 HasAlpha
 (
