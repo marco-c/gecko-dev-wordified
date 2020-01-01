@@ -19275,7 +19275,7 @@ frame
 trying
 to
 call
-js_Construct
+Construct
 on
 an
 *
