@@ -6754,11 +6754,10 @@ nsIAccessibleEvent
 event
 =
 new
-nsAccessibleEventData
+nsAccEvent
 (
 aEvent
 aDOMNode
-this
 aData
 )
 ;
@@ -8907,11 +8906,10 @@ nsIAccessibleEvent
 accEvent
 =
 new
-nsAccessibleEventData
+nsAccEvent
 (
 aEvent
 aAccessible
-this
 aData
 )
 ;
