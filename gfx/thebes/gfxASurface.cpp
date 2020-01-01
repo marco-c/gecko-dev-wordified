@@ -2524,13 +2524,6 @@ handle
 self
 copies
 .
-gfxIntSize
-size
-=
-GetSize
-(
-)
-;
 nsIntRect
 dest
 (
