@@ -5427,7 +5427,8 @@ The
 values
 are
 in
-twips
+app
+units
 and
 the
 origin
@@ -5978,7 +5979,8 @@ of
 the
 frame
 in
-twips
+app
+units
 relative
 to
 the
