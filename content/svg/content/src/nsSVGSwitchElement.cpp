@@ -879,9 +879,13 @@ nsISVGChildFrame
 *
 svgFrame
 =
-do_QueryFrame
+nsnull
+;
+CallQueryInterface
 (
 frame
+&
+svgFrame
 )
 ;
 if

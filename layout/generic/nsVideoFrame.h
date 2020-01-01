@@ -554,7 +554,7 @@ nsStyleContext
 aContext
 )
 ;
-NS_DECL_QUERYFRAME
+NS_DECL_ISUPPORTS
 NS_IMETHOD
 BuildDisplayList
 (

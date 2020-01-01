@@ -8885,10 +8885,12 @@ in
 nsIScrollableFrame
 *
 scrollable
-=
-do_QueryFrame
+;
+CallQueryInterface
 (
 scrollFrame
+&
+scrollable
 )
 ;
 nsIScrollableView

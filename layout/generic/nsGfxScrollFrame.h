@@ -579,11 +579,7 @@ AddRef
 (
 void
 )
-{
-return
-2
 ;
-}
 NS_IMETHOD_
 (
 nsrefcnt
@@ -592,11 +588,7 @@ Release
 (
 void
 )
-{
-return
-1
 ;
-}
 nsGfxScrollFrameInner
 (
 nsContainerFrame
@@ -1644,7 +1636,7 @@ PRBool
 aIsRoot
 )
 ;
-NS_DECL_QUERYFRAME
+NS_DECL_ISUPPORTS
 /
 /
 Called
@@ -2589,7 +2581,6 @@ nsIStatefulFrame
 {
 public
 :
-NS_DECL_QUERYFRAME
 friend
 nsIFrame
 *
@@ -2915,6 +2906,11 @@ nsIContent
 aElements
 )
 ;
+/
+/
+nsIBox
+methods
+NS_DECL_ISUPPORTS
 virtual
 nsSize
 GetMinSize

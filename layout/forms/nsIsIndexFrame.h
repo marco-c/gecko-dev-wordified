@@ -647,10 +647,9 @@ a
 key
 is
 pressed
-NS_DECL_QUERYFRAME
 /
 /
-nsISupports
+nsIFormControlFrame
 NS_IMETHOD
 QueryInterface
 (
@@ -664,9 +663,6 @@ void
 aInstancePtr
 )
 ;
-/
-/
-nsIFormControlFrame
 virtual
 nscoord
 GetMinWidth

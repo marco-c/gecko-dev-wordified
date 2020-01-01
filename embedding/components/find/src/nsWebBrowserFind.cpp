@@ -2962,11 +2962,11 @@ f
 )
 return
 ;
-tcFrame
-=
-do_QueryFrame
+CallQueryInterface
 (
 f
+&
+tcFrame
 )
 ;
 break

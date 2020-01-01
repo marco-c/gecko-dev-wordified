@@ -651,7 +651,10 @@ nsITableLayout
 {
 public
 :
-NS_DECL_QUERYFRAME
+/
+/
+nsISupports
+NS_DECL_ISUPPORTS_INHERITED
 /
 *
 *

@@ -1806,11 +1806,13 @@ GetScrollBox
 parentBox
 )
 ;
+nsCOMPtr
+<
 nsIScrollableFrame
-*
+>
 scrollable
 =
-do_QueryFrame
+do_QueryInterface
 (
 scrollbox
 )

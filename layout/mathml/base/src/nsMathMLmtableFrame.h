@@ -494,7 +494,7 @@ nsStyleContext
 aContext
 )
 ;
-NS_DECL_QUERYFRAME
+NS_DECL_ISUPPORTS_INHERITED
 /
 /
 Overloaded
@@ -734,6 +734,7 @@ nsStyleContext
 aContext
 )
 ;
+NS_DECL_ISUPPORTS_INHERITED
 /
 /
 Overloaded
@@ -998,6 +999,7 @@ nsStyleContext
 aContext
 )
 ;
+NS_DECL_ISUPPORTS_INHERITED
 /
 /
 overloaded
@@ -1276,6 +1278,7 @@ nsStyleContext
 aContext
 )
 ;
+NS_DECL_ISUPPORTS_INHERITED
 /
 /
 overloaded
@@ -1403,7 +1406,7 @@ nsStyleContext
 aContext
 )
 ;
-NS_DECL_QUERYFRAME
+NS_DECL_ISUPPORTS_INHERITED
 /
 /
 Overloaded

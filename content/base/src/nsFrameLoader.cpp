@@ -4263,9 +4263,13 @@ nsIFrameFrame
 *
 ourFrameFrame
 =
-do_QueryFrame
+nsnull
+;
+CallQueryInterface
 (
 ourFrame
+&
+ourFrameFrame
 )
 ;
 if

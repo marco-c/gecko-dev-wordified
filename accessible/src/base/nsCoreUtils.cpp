@@ -2019,9 +2019,13 @@ nsIScrollableFrame
 *
 scrollableFrame
 =
-do_QueryFrame
+nsnull
+;
+CallQueryInterface
 (
 aScrollableFrame
+&
+scrollableFrame
 )
 ;
 if
