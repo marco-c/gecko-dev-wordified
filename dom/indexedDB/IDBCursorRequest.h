@@ -486,7 +486,7 @@ nsIRunnable
 ;
 BEGIN_INDEXEDDB_NAMESPACE
 class
-IDBIndexRequest
+IDBIndex
 ;
 class
 IDBRequest
@@ -581,7 +581,7 @@ aRequest
 IDBTransaction
 *
 aTransaction
-IDBIndexRequest
+IDBIndex
 *
 aIndex
 PRUint16
@@ -607,7 +607,7 @@ aRequest
 IDBTransaction
 *
 aTransaction
-IDBIndexRequest
+IDBIndex
 *
 aIndex
 PRUint16
@@ -678,7 +678,7 @@ mObjectStore
 ;
 nsRefPtr
 <
-IDBIndexRequest
+IDBIndex
 >
 mIndex
 ;

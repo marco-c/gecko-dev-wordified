@@ -570,7 +570,7 @@ h
 #
 include
 "
-IDBIndexRequest
+IDBIndex
 .
 h
 "
@@ -1021,7 +1021,7 @@ aRequest
 IDBTransaction
 *
 aTransaction
-IDBIndexRequest
+IDBIndex
 *
 aIndex
 PRUint16
@@ -1179,7 +1179,7 @@ aRequest
 IDBTransaction
 *
 aTransaction
-IDBIndexRequest
+IDBIndex
 *
 aIndex
 PRUint16

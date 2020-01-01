@@ -505,7 +505,7 @@ h
 #
 include
 "
-IDBIndexRequest
+IDBIndex
 .
 h
 "
@@ -5968,7 +5968,7 @@ const
 nsAString
 &
 aName
-nsIIDBIndexRequest
+nsIIDBIndex
 *
 *
 _retval
@@ -6107,11 +6107,11 @@ NS_ERROR_NOT_AVAILABLE
 }
 nsRefPtr
 <
-IDBIndexRequest
+IDBIndex
 >
 request
 =
-IDBIndexRequest
+IDBIndex
 :
 :
 Create
@@ -10471,7 +10471,7 @@ mAutoIncrement
 ;
 nsCOMPtr
 <
-nsIIDBIndexRequest
+nsIIDBIndex
 >
 result
 ;

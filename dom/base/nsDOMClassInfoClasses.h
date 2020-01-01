@@ -2054,5 +2054,5 @@ IDBKeyRange
 )
 DOMCI_CLASS
 (
-IDBIndexRequest
+IDBIndex
 )
