@@ -933,7 +933,7 @@ LModI
 public
 LBinaryMath
 <
-2
+3
 >
 {
 public
@@ -961,6 +961,10 @@ const
 LDefinition
 &
 temp2
+const
+LDefinition
+&
+callTemp
 )
 {
 setOperand
@@ -985,6 +989,12 @@ setTemp
 (
 1
 temp2
+)
+;
+setTemp
+(
+2
+callTemp
 )
 ;
 }
