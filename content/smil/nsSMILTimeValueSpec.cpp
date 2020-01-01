@@ -3216,6 +3216,8 @@ gave
 us
 an
 unresolved
+or
+indefinite
 time
 "
 )

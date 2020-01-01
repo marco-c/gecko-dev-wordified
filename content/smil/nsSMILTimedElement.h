@@ -3580,7 +3580,7 @@ IsEmpty
 ;
 }
 PRBool
-HaveResolvedEndTimes
+HaveDefiniteEndTimes
 (
 )
 const
