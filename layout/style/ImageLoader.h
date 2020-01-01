@@ -292,7 +292,7 @@ aMode
 )
 ;
 void
-ClearAll
+ClearFrames
 (
 )
 ;

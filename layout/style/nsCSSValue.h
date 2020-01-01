@@ -883,7 +883,10 @@ from
 URLValue
 nsRefPtrHashtable
 <
-nsISupportsHashKey
+nsPtrHashKey
+<
+nsISupports
+>
 imgRequestProxy
 >
 mRequests
