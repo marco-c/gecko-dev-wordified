@@ -474,13 +474,6 @@ h
 #
 include
 "
-nsIVariant
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h
