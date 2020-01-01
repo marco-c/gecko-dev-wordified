@@ -2591,6 +2591,12 @@ nsScriptObjectHolder
 aHandler
 )
 ;
+static
+PRBool
+DOMWindowDumpEnabled
+(
+)
+;
 protected
 :
 /
