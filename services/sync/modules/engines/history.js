@@ -766,6 +766,15 @@ lastSync
 -
 604800
 ;
+/
+/
+60
+*
+60
+*
+24
+*
+7
 SyncEngine
 .
 prototype
