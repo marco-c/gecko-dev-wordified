@@ -1855,6 +1855,11 @@ true
 nsCAutoString
 spec
 ;
+if
+(
+aURI
+)
+{
 aURI
 -
 >
@@ -1863,6 +1868,7 @@ GetSpec
 spec
 )
 ;
+}
 NS_ConvertUTF8toUTF16
 url
 (

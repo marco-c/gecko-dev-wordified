@@ -1239,6 +1239,11 @@ false
 nsCAutoString
 spec
 ;
+if
+(
+aURI
+)
+{
 aURI
 -
 >
@@ -1247,6 +1252,7 @@ GetSpec
 spec
 )
 ;
+}
 bool
 dispatchSucceeded
 =
