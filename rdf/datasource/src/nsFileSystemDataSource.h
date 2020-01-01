@@ -156,6 +156,15 @@ nsCycleCollectionParticipant
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 if
 defined
 (
@@ -180,6 +189,7 @@ USE_NC_EXTENSION
 endif
 class
 FileSystemDataSource
+MOZ_FINAL
 :
 public
 nsIRDFDataSource
