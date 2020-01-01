@@ -1670,6 +1670,13 @@ Shutdown
 (
 )
 ;
+nsNodeInfo
+:
+:
+ClearCache
+(
+)
+;
 nsLayoutStylesheetCache
 :
 :
