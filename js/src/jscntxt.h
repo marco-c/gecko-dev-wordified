@@ -2029,7 +2029,7 @@ watchPointList
 *
 Client
 opaque
-pointer
+pointers
 *
 /
 void
@@ -5273,12 +5273,17 @@ interpLevel
 *
 Client
 opaque
-pointer
+pointers
+.
 *
 /
 void
 *
 data
+;
+void
+*
+data2
 ;
 /
 *
