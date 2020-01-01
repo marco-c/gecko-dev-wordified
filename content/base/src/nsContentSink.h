@@ -1959,11 +1959,6 @@ ContinueInterruptedParsingIfEnabled
 (
 )
 ;
-void
-ContinueInterruptedParsing
-(
-)
-;
 nsCOMPtr
 <
 nsIDocument
