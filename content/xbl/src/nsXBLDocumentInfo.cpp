@@ -1818,6 +1818,10 @@ and
 event
 handlers
 .
+EnsureScriptEnvironment
+(
+)
+;
 if
 (
 !
