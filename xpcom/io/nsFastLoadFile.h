@@ -2775,6 +2775,7 @@ nsIObjectInputStream
 *
 *
 aResult
+NS_OUTPARAM
 nsIInputStream
 *
 aSrcStream
@@ -3283,6 +3284,7 @@ nsIObjectOutputStream
 *
 *
 aResult
+NS_OUTPARAM
 nsIOutputStream
 *
 aDestStream
@@ -3479,6 +3481,7 @@ nsIObjectOutputStream
 *
 *
 aResult
+NS_OUTPARAM
 nsIOutputStream
 *
 aOutputStream

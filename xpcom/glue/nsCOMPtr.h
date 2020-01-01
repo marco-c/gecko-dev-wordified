@@ -4098,6 +4098,7 @@ T
 *
 *
 rhs
+NS_OUTPARAM
 )
 /
 /
@@ -5656,6 +5657,7 @@ nsISupports
 *
 *
 rhs
+NS_OUTPARAM
 )
 /
 /

@@ -573,6 +573,7 @@ aSource
 nsACString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 NS_COM
@@ -586,6 +587,7 @@ aSource
 nsAString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 NS_COM
@@ -599,6 +601,7 @@ aSource
 nsACString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 NS_COM
@@ -612,6 +615,7 @@ aSource
 nsAString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 NS_COM
@@ -625,6 +629,7 @@ aSource
 nsACString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 NS_COM
@@ -638,6 +643,7 @@ aSource
 nsAString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 NS_COM
@@ -651,6 +657,7 @@ aSource
 nsACString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 NS_COM
@@ -664,6 +671,7 @@ aSource
 nsAString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 NS_COM

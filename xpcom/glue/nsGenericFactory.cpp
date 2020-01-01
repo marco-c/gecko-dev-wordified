@@ -2666,7 +2666,7 @@ okToUnload
 PR_FALSE
 ;
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 }
 NS_COM_GLUE

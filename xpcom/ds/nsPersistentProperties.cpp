@@ -3387,6 +3387,15 @@ get
 )
 ;
 }
+else
+{
+aOldValue
+.
+Truncate
+(
+)
+;
+}
 entry
 -
 >
