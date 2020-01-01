@@ -153,9 +153,7 @@ h
 #
 include
 "
-vm
-/
-Interpreter
+jsinterp
 .
 h
 "

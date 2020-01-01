@@ -205,6 +205,13 @@ h
 #
 include
 "
+jsinterp
+.
+h
+"
+#
+include
+"
 jsnum
 .
 h

@@ -207,6 +207,13 @@ h
 #
 include
 "
+jsinterp
+.
+h
+"
+#
+include
+"
 jslock
 .
 h

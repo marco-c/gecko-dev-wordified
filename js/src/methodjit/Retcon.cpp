@@ -183,11 +183,7 @@ h
 #
 include
 "
-vm
-/
-Interpreter
--
-inl
+jsinterpinlines
 .
 h
 "
