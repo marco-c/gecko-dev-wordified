@@ -903,11 +903,7 @@ timeout
 or
 120
         
-didTimeout
-=
-False
-        
-done
+responseDueBy
 =
 time
 .
@@ -931,7 +927,7 @@ if
 currentlog
 :
                 
-done
+responseDueBy
 =
 time
 .
@@ -973,7 +969,7 @@ time
 (
 )
 >
-done
+responseDueBy
 :
                     
 self
