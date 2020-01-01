@@ -518,7 +518,7 @@ extern
 C
 "
 {
-extern
+NS_EXPORT
 int
 android_sdk_version
 ;
