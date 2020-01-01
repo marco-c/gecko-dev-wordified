@@ -492,11 +492,6 @@ entry
 =
 nullptr
 ;
-int32_t
-index
-;
-index
-=
 LookupEntry
 (
 header

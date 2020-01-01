@@ -15013,11 +15013,6 @@ RemoveDescriptor
 descriptor
 )
 ;
-nsresult
-rv
-=
-NS_OK
-;
 if
 (
 !
@@ -15029,8 +15024,6 @@ IsValid
 )
 )
 {
-rv
-=
 gService
 -
 >

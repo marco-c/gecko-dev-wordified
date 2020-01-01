@@ -434,10 +434,6 @@ nsAHttpSegmentReader
 *
 mReader
 ;
-nsAHttpSegmentWriter
-*
-mWriter
-;
 /
 /
 send

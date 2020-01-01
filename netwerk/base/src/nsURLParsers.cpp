@@ -3520,7 +3520,10 @@ auth
 -
 p
 )
+{
+continue
 ;
+}
 if
 (
 *
