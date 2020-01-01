@@ -194,7 +194,7 @@ QueryInterface
 implementation
 for
 HTMLHeadingElement
-NS_INTERFACE_TABLE_HEAD
+NS_INTERFACE_MAP_BEGIN
 (
 HTMLHeadingElement
 )
@@ -202,12 +202,6 @@ NS_HTML_CONTENT_INTERFACES
 (
 nsGenericHTMLElement
 )
-NS_INTERFACE_TABLE_INHERITED1
-(
-HTMLHeadingElement
-nsIDOMHTMLHeadingElement
-)
-NS_INTERFACE_TABLE_TO_MAP_SEGUE
 NS_ELEMENT_INTERFACE_MAP_END
 NS_IMPL_ELEMENT_CLONE
 (
@@ -246,12 +240,6 @@ this
 )
 ;
 }
-NS_IMPL_STRING_ATTR
-(
-HTMLHeadingElement
-Align
-align
-)
 bool
 HTMLHeadingElement
 :
