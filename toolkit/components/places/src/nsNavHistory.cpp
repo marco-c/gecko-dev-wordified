@@ -723,6 +723,15 @@ History
 h
 "
 #
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -2806,6 +2815,8 @@ Init
 (
 )
 {
+NS_TIME_FUNCTION
+;
 nsCOMPtr
 <
 nsIPrefService

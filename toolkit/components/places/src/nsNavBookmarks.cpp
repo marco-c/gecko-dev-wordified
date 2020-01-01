@@ -590,6 +590,15 @@ Helpers
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 const
 PRInt32
 nsNavBookmarks
@@ -963,6 +972,8 @@ Init
 (
 )
 {
+NS_TIME_FUNCTION
+;
 nsNavHistory
 *
 history

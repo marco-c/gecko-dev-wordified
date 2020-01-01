@@ -474,6 +474,15 @@ gfxPlatform
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 /
 /
 gfxPlatformFontList
@@ -596,6 +605,8 @@ Init
 (
 )
 {
+NS_TIME_FUNCTION
+;
 NS_ASSERTION
 (
 !

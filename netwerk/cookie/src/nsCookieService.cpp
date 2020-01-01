@@ -681,6 +681,15 @@ storage
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 /
 *
 *
@@ -4575,6 +4584,8 @@ Init
 (
 )
 {
+NS_TIME_FUNCTION
+;
 if
 (
 !

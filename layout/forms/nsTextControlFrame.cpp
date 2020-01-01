@@ -1066,6 +1066,15 @@ nsTextEditRules
 h
 "
 #
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
 define
 DEFAULT_COLUMN_WIDTH
 20
@@ -7235,6 +7244,8 @@ mUseEditor
 )
 return
 NS_OK
+;
+NS_TIME_FUNCTION
 ;
 nsIDocument
 *

@@ -657,6 +657,15 @@ Services
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 /
 *
 *
@@ -4242,6 +4251,8 @@ Init
 (
 )
 {
+NS_TIME_FUNCTION
+;
 NS_ASSERTION
 (
 !

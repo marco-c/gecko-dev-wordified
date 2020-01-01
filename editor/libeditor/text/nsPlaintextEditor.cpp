@@ -733,6 +733,15 @@ nsCopySupport
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 /
 /
 prototype
@@ -1000,6 +1009,8 @@ PRUint32
 aFlags
 )
 {
+NS_TIME_FUNCTION
+;
 NS_PRECONDITION
 (
 aDoc

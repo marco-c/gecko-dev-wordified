@@ -577,6 +577,15 @@ nsISeekableStream
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 static
 const
 char
@@ -5293,6 +5302,8 @@ Init
 (
 )
 {
+NS_TIME_FUNCTION
+;
 NS_ENSURE_TRUE
 (
 !

@@ -584,6 +584,15 @@ nsURLHelper
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 /
 /
 -
@@ -2791,6 +2800,8 @@ Init
 (
 )
 {
+NS_TIME_FUNCTION
+;
 mLock
 =
 PR_NewLock

@@ -530,6 +530,15 @@ prnetdb
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 nsEffectiveTLDService
@@ -702,6 +711,8 @@ Init
 (
 )
 {
+NS_TIME_FUNCTION
+;
 /
 /
 We

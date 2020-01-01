@@ -653,6 +653,15 @@ nsIHttpChannelInternal
 h
 "
 #
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
 if
 defined
 (
@@ -3674,6 +3683,8 @@ InitCache
 (
 )
 {
+NS_TIME_FUNCTION
+;
 nsresult
 rv
 ;

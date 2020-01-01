@@ -459,6 +459,15 @@ dom_quickstubs
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 /
 *
 *
@@ -6417,6 +6426,8 @@ JSDHashEntryStub
 ;
 #
 endif
+NS_TIME_FUNCTION
+;
 DOM_InitInterfaces
 (
 )
@@ -6820,6 +6831,8 @@ JSContext
 cx
 )
 {
+NS_TIME_FUNCTION
+;
 /
 /
 if

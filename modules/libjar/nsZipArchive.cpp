@@ -592,6 +592,15 @@ nsZipArchive
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 /
 *
 *
@@ -4258,6 +4267,8 @@ BuildFileList
 (
 )
 {
+NS_TIME_FUNCTION
+;
 /
 /
 Get

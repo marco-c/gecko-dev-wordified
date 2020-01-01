@@ -606,6 +606,15 @@ nsIHttpActivityObserver
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 /
 /
 -
@@ -1596,6 +1605,8 @@ nsIAsyncInputStream
 responseBody
 )
 {
+NS_TIME_FUNCTION
+;
 nsresult
 rv
 ;

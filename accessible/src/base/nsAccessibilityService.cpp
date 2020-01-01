@@ -894,6 +894,15 @@ h
 "
 #
 endif
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 /
 /
 /
@@ -1081,6 +1090,8 @@ nsAccessibilityService
 (
 )
 {
+NS_TIME_FUNCTION
+;
 /
 /
 Add

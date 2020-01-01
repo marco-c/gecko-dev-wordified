@@ -511,6 +511,15 @@ punycode
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 /
 /
 -
@@ -952,6 +961,8 @@ Init
 (
 )
 {
+NS_TIME_FUNCTION
+;
 nsCOMPtr
 <
 nsIPrefService
