@@ -421,7 +421,7 @@ h
 #
 include
 "
-nsIGeolocationPrompt
+nsIContentPermissionPrompt
 .
 h
 "
@@ -529,7 +529,7 @@ class
 nsGeolocationRequestProxy
 :
 public
-nsIGeolocationRequest
+nsIContentPermissionRequest
 {
 public
 :
@@ -559,7 +559,7 @@ parent
 ;
 NS_DECL_ISUPPORTS
 ;
-NS_DECL_NSIGEOLOCATIONREQUEST
+NS_DECL_NSICONTENTPERMISSIONREQUEST
 ;
 private
 :
