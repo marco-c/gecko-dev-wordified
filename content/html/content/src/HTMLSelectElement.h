@@ -968,15 +968,7 @@ ErrorResult
 &
 aRv
 )
-{
-aRv
-=
-SetLength
-(
-aLength
-)
 ;
-}
 Element
 *
 IndexedGetter
