@@ -1122,9 +1122,16 @@ example
 .
 *
 /
+union
+{
 JSObject
 *
 scopeChain
+;
+jsval
+scopeChainVal
+;
+}
 ;
 JSObject
 *

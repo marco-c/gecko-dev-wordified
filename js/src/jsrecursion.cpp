@@ -4479,15 +4479,11 @@ scopeChain
 scopeChain
 "
 )
-(
-jsval
-*
-)
 &
 fp
 -
 >
-scopeChain
+scopeChainVal
 &
 info
 )

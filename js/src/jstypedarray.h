@@ -49,7 +49,7 @@ sw
 et
 tw
 =
-78
+99
 :
 *
 /
@@ -212,7 +212,7 @@ Code
 is
 *
 Mozilla
-Foundation
+Corp
 *
 Portions
 created
