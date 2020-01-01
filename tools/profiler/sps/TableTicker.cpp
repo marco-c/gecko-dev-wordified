@@ -1874,12 +1874,10 @@ IsNull
 TimeDuration
 delta
 =
-TimeStamp
-:
-:
-Now
-(
-)
+sample
+-
+>
+timestamp
 -
 sLastTracerEvent
 ;
