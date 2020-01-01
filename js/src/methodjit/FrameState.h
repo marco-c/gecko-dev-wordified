@@ -4064,6 +4064,16 @@ fe
 )
 const
 ;
+Address
+addressForDataRemat
+(
+const
+FrameEntry
+*
+fe
+)
+const
+;
 inline
 StateRemat
 dataRematInfo
