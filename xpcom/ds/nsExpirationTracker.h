@@ -2132,6 +2132,10 @@ mIndex
 +
 mGeneration
 ;
+mIndex
+=
+0
+;
 }
 return
 nsnull
