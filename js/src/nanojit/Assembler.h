@@ -3547,10 +3547,13 @@ LIns
 guard
 )
 ;
+static
 RegisterMask
 nHints
 [
 LIR_sentinel
++
+1
 ]
 ;
 RegisterMask

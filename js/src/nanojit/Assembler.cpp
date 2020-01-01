@@ -752,7 +752,10 @@ nInit
 )
 .
 RegisterMask
-hints
+Assembler
+:
+:
+nHints
 [
 LIR_sentinel
 +
