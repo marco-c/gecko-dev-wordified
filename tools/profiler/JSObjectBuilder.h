@@ -484,10 +484,6 @@ JSContext
 *
 mCx
 ;
-JSObject
-*
-mObj
-;
 int
 mOk
 ;
