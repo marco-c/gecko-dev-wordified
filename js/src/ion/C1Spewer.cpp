@@ -1175,9 +1175,12 @@ reg
 (
 )
 :
+int32
+(
 nextId
 +
 +
+)
 )
 ;
 LAllocation
