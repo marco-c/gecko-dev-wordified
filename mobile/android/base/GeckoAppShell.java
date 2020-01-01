@@ -13472,7 +13472,7 @@ reflection
 public
 static
 void
-registerGeckoEventListener
+registerEventListener
 (
 String
 event
@@ -13698,7 +13698,7 @@ reflection
 public
 static
 void
-unregisterGeckoEventListener
+unregisterEventListener
 (
 String
 event

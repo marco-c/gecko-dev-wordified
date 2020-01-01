@@ -513,7 +513,11 @@ prompt_service_icon_size
 ;
 GeckoAppShell
 .
-registerGeckoEventListener
+getEventDispatcher
+(
+)
+.
+registerEventListener
 (
 "
 Prompt
@@ -531,7 +535,11 @@ destroy
 {
 GeckoAppShell
 .
-unregisterGeckoEventListener
+getEventDispatcher
+(
+)
+.
+unregisterEventListener
 (
 "
 Prompt
