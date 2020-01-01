@@ -1084,6 +1084,12 @@ NULL
 ;
 #
 endif
+DebugOnly
+<
+PRStatus
+>
+status
+=
 PR_WaitCondVar
 (
 (
@@ -1104,6 +1110,14 @@ millis
 )
 :
 PR_INTERVAL_NO_TIMEOUT
+)
+;
+JS_ASSERT
+(
+status
+=
+=
+PR_SUCCESS
 )
 ;
 #
