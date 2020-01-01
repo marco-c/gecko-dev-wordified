@@ -3262,6 +3262,15 @@ options
 remoteProfile
 )
     
+automation
+.
+setRemoteLog
+(
+options
+.
+remoteLogFile
+)
+    
 reftest
 =
 RemoteReftest

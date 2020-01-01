@@ -440,6 +440,9 @@ appName
 =
 '
 '
+remoteLog
+=
+None
 )
 :
         
@@ -460,6 +463,12 @@ self
 _remoteProfile
 =
 None
+        
+self
+.
+_remoteLog
+=
+remoteLog
         
 #
 Default
@@ -538,6 +547,20 @@ self
 _product
 =
 product
+    
+def
+setRemoteLog
+(
+self
+logfile
+)
+:
+        
+self
+.
+_remoteLog
+=
+logfile
     
 def
 waitForFinish
@@ -958,6 +981,25 @@ cwd
 )
 :
         
+if
+stdout
+=
+=
+None
+or
+stdout
+=
+=
+-
+1
+:
+          
+stdout
+=
+self
+.
+_remoteLog
+        
 return
 self
 .
@@ -1036,24 +1078,6 @@ dm
 =
 dm
             
-print
-"
-going
-to
-launch
-process
-:
-"
-+
-str
-(
-self
-.
-dm
-.
-host
-)
-            
 self
 .
 proc
@@ -1063,6 +1087,7 @@ dm
 launchProcess
 (
 cmd
+stdout
 )
             
 exepath
