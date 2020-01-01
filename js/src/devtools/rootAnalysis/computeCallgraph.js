@@ -145,6 +145,17 @@ other
 )
 ;
 }
+/
+/
+CSU
+is
+"
+Class
+/
+Struct
+/
+Union
+"
 function
 processCSU
 (
