@@ -3378,6 +3378,13 @@ input
 )
 GK_ATOM
 (
+inputmode
+"
+inputmode
+"
+)
+GK_ATOM
+(
 ins
 "
 ins
