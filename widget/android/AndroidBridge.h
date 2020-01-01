@@ -1585,14 +1585,6 @@ nsAString
 aRet
 )
 ;
-nsCOMPtr
-<
-nsIAndroidDrawMetadataProvider
->
-GetDrawMetadataProvider
-(
-)
-;
 void
 CheckURIVisited
 (
