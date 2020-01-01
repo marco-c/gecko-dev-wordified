@@ -141,6 +141,7 @@ EVENT_DEBUG_OUTPUT
 typedef
 struct
 {
+const
 char
 *
 mStr

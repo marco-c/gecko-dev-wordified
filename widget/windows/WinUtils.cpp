@@ -485,7 +485,7 @@ RegOpenKeyExW
 (
 aRoot
 aKeyName
-NULL
+0
 KEY_READ
 |
 KEY_WOW64_32KEY
@@ -509,7 +509,7 @@ RegOpenKeyExW
 (
 aRoot
 aKeyName
-NULL
+0
 KEY_READ
 |
 KEY_WOW64_64KEY
@@ -2601,6 +2601,10 @@ bool
 aURLShortcut
 )
 :
+mURLShortcut
+(
+aURLShortcut
+)
 mIconPath
 (
 aIconPath
@@ -2616,10 +2620,6 @@ aBuffer
 mBufferLength
 (
 aBufferLength
-)
-mURLShortcut
-(
-aURLShortcut
 )
 {
 }
@@ -3865,15 +3865,6 @@ path
 )
 )
 continue
-;
-int32_t
-len
-=
-path
-.
-Length
-(
-)
 ;
 if
 (
