@@ -5082,6 +5082,13 @@ mCachedMousePoint
 ;
 /
 /
+cached
+modifiers
+PRInt8
+mCachedModifiers
+;
+/
+/
 set
 to
 the
