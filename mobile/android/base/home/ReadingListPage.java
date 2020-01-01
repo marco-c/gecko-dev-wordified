@@ -309,7 +309,7 @@ private
 static
 final
 int
-READING_LIST_LOADER_ID
+LOADER_ID_READING_LIST
 =
 0
 ;
@@ -707,7 +707,7 @@ getLoaderManager
 .
 initLoader
 (
-READING_LIST_LOADER_ID
+LOADER_ID_READING_LIST
 null
 mCursorLoaderCallbacks
 )
@@ -924,7 +924,7 @@ id
 )
 {
 case
-READING_LIST_LOADER_ID
+LOADER_ID_READING_LIST
 :
 return
 new
@@ -970,7 +970,7 @@ loaderId
 )
 {
 case
-READING_LIST_LOADER_ID
+LOADER_ID_READING_LIST
 :
 mAdapter
 .
@@ -1011,7 +1011,7 @@ loaderId
 )
 {
 case
-READING_LIST_LOADER_ID
+LOADER_ID_READING_LIST
 :
 mAdapter
 .
