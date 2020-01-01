@@ -137,8 +137,6 @@ ipc_message_utils
 .
 h
 "
-/
-/
 #
 include
 "

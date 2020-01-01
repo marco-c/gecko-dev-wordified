@@ -138,6 +138,13 @@ h
 #
 include
 "
+cairo
+.
+h
+"
+#
+include
+"
 gfxASurface
 .
 h
@@ -146,13 +153,6 @@ h
 include
 "
 gfxImageSurface
-.
-h
-"
-#
-include
-"
-cairo
 .
 h
 "

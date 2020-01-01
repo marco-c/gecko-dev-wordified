@@ -260,17 +260,6 @@ Layers
 .
 h
 "
-#
-include
-"
-mozilla
-/
-layers
-/
-Compositor
-.
-h
-"
 /
 *
 *

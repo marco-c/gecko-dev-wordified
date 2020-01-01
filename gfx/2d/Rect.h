@@ -124,6 +124,13 @@ Tools
 .
 h
 "
+#
+include
+"
+nsMathUtils
+.
+h
+"
 namespace
 mozilla
 {

@@ -96,6 +96,13 @@ MOZILLA_BASEPOINT3D_H_
 #
 define
 MOZILLA_BASEPOINT3D_H_
+#
+include
+"
+nsDebug
+.
+h
+"
 namespace
 mozilla
 {
