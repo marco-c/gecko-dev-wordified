@@ -871,8 +871,7 @@ f
 cx
 ;
 Value
-&
-rref
+rval
 =
 f
 .
@@ -1442,7 +1441,7 @@ obj
 sprop
 entry
 &
-rref
+rval
 )
 ;
 break
@@ -1979,7 +1978,7 @@ obj
 lockedSetSlot
 (
 slot
-rref
+rval
 )
 ;
 /
@@ -2140,7 +2139,7 @@ obj
 sprop
 entry
 &
-rref
+rval
 )
 ;
 }
@@ -2249,7 +2248,7 @@ obj
 id
 defineHow
 &
-rref
+rval
 )
 )
 THROW
@@ -2270,7 +2269,7 @@ setProperty
 cx
 id
 &
-rref
+rval
 )
 )
 THROW
@@ -4475,13 +4474,7 @@ setProperty
 cx
 id
 &
-regs
-.
-sp
-[
--
-1
-]
+retval
 )
 )
 THROW
