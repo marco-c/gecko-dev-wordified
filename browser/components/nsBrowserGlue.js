@@ -6327,7 +6327,7 @@ notification
 .
 persistence
 =
-3
+6
 ;
 /
 /
