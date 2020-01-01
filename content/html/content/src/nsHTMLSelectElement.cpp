@@ -3917,6 +3917,7 @@ rv
 aBefore
 is
 omitted
+undefined
 or
 null
 if
@@ -3928,6 +3929,15 @@ nsIDataType
 :
 :
 VTYPE_EMPTY
+|
+|
+dataType
+=
+=
+nsIDataType
+:
+:
+VTYPE_VOID
 )
 {
 return
