@@ -1314,6 +1314,7 @@ CharsetRule
 /
 /
 class
+NS_FINAL_CLASS
 CSSCharsetRuleImpl
 :
 public
@@ -1965,6 +1966,7 @@ nsICSSImportRule
 /
 /
 class
+NS_FINAL_CLASS
 CSSImportRuleImpl
 :
 public
@@ -5977,6 +5979,7 @@ nsICSSNameSpaceRule
 /
 /
 class
+NS_FINAL_CLASS
 CSSNameSpaceRuleImpl
 :
 public

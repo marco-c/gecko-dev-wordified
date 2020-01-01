@@ -7371,6 +7371,7 @@ nsCSSStyleRule
 -
 -
 class
+NS_FINAL_CLASS
 CSSStyleRuleImpl
 :
 public

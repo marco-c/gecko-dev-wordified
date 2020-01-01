@@ -665,6 +665,7 @@ nsCSSGroupRule
 aCopy
 )
 ;
+virtual
 ~
 nsCSSGroupRule
 (
@@ -913,6 +914,7 @@ mRuleCollection
 }
 ;
 class
+NS_FINAL_CLASS
 nsCSSMediaRule
 :
 public
@@ -1072,6 +1074,7 @@ mMedia
 }
 ;
 class
+NS_FINAL_CLASS
 nsCSSDocumentRule
 :
 public
@@ -1439,6 +1442,7 @@ CPP_THROW_NEW
 }
 ;
 class
+NS_FINAL_CLASS
 nsCSSFontFaceRule
 :
 public
