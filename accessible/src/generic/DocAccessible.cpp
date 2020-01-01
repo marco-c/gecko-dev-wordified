@@ -787,7 +787,7 @@ return
 ;
 /
 /
-nsAccDocManager
+DocManager
 creates
 document
 accessible

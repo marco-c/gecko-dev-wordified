@@ -1113,7 +1113,7 @@ nsAccessibilityService
 (
 )
 :
-nsAccDocManager
+DocManager
 (
 )
 FocusManager
@@ -1233,7 +1233,7 @@ nsISupports
 NS_IMPL_ISUPPORTS_INHERITED3
 (
 nsAccessibilityService
-nsAccDocManager
+DocManager
 nsIAccessibilityService
 nsIAccessibleRetrieval
 nsIObserver
@@ -4431,7 +4431,7 @@ e
 .
 not
 from
-nsAccDocManager
+DocManager
 )
 can
 still
@@ -7048,7 +7048,7 @@ manager
 if
 (
 !
-nsAccDocManager
+DocManager
 :
 :
 Init
@@ -7311,7 +7311,7 @@ accessible
 document
 loader
 .
-nsAccDocManager
+DocManager
 :
 :
 Shutdown

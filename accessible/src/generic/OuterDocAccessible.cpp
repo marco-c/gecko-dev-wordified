@@ -1194,7 +1194,7 @@ not
 invalidate
 children
 because
-nsAccDocManager
+DocManager
 is
 responsible
 for
@@ -1245,7 +1245,7 @@ accessible
 /
 /
 notifies
-nsAccDocManager
+DocManager
 about
 this
 .
@@ -1275,7 +1275,7 @@ shown
 /
 then
 allow
-nsAccDocManager
+DocManager
 to
 handle
 this

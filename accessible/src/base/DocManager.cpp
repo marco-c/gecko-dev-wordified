@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsAccDocManager
+DocManager
 .
 h
 "
@@ -338,7 +338,7 @@ a11y
 /
 /
 /
-nsAccDocManager
+DocManager
 /
 /
 /
@@ -501,11 +501,11 @@ nsAccDocManager
 /
 /
 /
-nsAccDocManager
+DocManager
 public
 DocAccessible
 *
-nsAccDocManager
+DocManager
 :
 :
 GetDocAccessible
@@ -570,7 +570,7 @@ aDocument
 }
 Accessible
 *
-nsAccDocManager
+DocManager
 :
 :
 FindAccessibleInCache
@@ -616,7 +616,7 @@ mAccessible
 ifdef
 DEBUG
 bool
-nsAccDocManager
+DocManager
 :
 :
 IsProcessingRefreshDriverNotification
@@ -733,10 +733,10 @@ endif
 /
 /
 /
-nsAccDocManager
+DocManager
 protected
 bool
-nsAccDocManager
+DocManager
 :
 :
 Init
@@ -793,7 +793,7 @@ true
 ;
 }
 void
-nsAccDocManager
+DocManager
 :
 :
 Shutdown
@@ -920,7 +920,7 @@ ClearDocCache
 nsISupports
 NS_IMPL_THREADSAFE_ISUPPORTS3
 (
-nsAccDocManager
+DocManager
 nsIWebProgressListener
 nsIDOMEventListener
 nsISupportsWeakReference
@@ -1009,7 +1009,7 @@ nsISupportsWeakReference
 /
 nsIWebProgressListener
 NS_IMETHODIMP
-nsAccDocManager
+DocManager
 :
 :
 OnStateChange
@@ -1482,7 +1482,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccDocManager
+DocManager
 :
 :
 OnProgressChange
@@ -1523,7 +1523,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccDocManager
+DocManager
 :
 :
 OnLocationChange
@@ -1561,7 +1561,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccDocManager
+DocManager
 :
 :
 OnStatusChange
@@ -1600,7 +1600,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsAccDocManager
+DocManager
 :
 :
 OnSecurityChange
@@ -1718,7 +1718,7 @@ NS_OK
 /
 nsIDOMEventListener
 NS_IMETHODIMP
-nsAccDocManager
+DocManager
 :
 :
 HandleEvent
@@ -2164,10 +2164,10 @@ NS_OK
 /
 /
 /
-nsAccDocManager
+DocManager
 private
 void
-nsAccDocManager
+DocManager
 :
 :
 HandleDOMDocumentLoad
@@ -2253,7 +2253,7 @@ aLoadEventType
 ;
 }
 void
-nsAccDocManager
+DocManager
 :
 :
 AddListeners
@@ -2402,7 +2402,7 @@ endif
 }
 DocAccessible
 *
-nsAccDocManager
+DocManager
 :
 :
 CreateDocOrRootAccessible
@@ -2970,10 +2970,10 @@ docAcc
 /
 /
 /
-nsAccDocManager
+DocManager
 static
 PLDHashOperator
-nsAccDocManager
+DocManager
 :
 :
 GetFirstEntryInDocCache
@@ -3026,7 +3026,7 @@ PL_DHASH_STOP
 ;
 }
 void
-nsAccDocManager
+DocManager
 :
 :
 ClearDocCache
@@ -3072,7 +3072,7 @@ Shutdown
 }
 }
 PLDHashOperator
-nsAccDocManager
+DocManager
 :
 :
 SearchAccessibleInDocCache
@@ -3160,7 +3160,7 @@ PL_DHASH_NEXT
 ifdef
 DEBUG
 PLDHashOperator
-nsAccDocManager
+DocManager
 :
 :
 SearchIfDocIsRefreshing
