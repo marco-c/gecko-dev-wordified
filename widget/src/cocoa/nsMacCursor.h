@@ -745,16 +745,6 @@ operating
 system
 version
 .
-eg
-Jaguar
-has
-a
-smaller
-maximum
-size
-than
-Panther
-.
 <
 /
 p
