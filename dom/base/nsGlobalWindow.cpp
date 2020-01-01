@@ -1386,13 +1386,6 @@ h
 #
 include
 "
-nsDOMClassInfo
-.
-h
-"
-#
-include
-"
 nsIJSNativeInitializer
 .
 h

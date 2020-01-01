@@ -474,7 +474,7 @@ h
 #
 include
 "
-nsIDOMClassInfo
+nsDOMClassInfoID
 .
 h
 "
@@ -521,6 +521,13 @@ mozilla
 dom
 /
 Element
+.
+h
+"
+#
+include
+"
+nsServiceManagerUtils
 .
 h
 "

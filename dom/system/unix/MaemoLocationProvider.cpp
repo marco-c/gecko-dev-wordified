@@ -473,13 +473,6 @@ h
 #
 include
 "
-nsIDOMClassInfo
-.
-h
-"
-#
-include
-"
 nsIPrefService
 .
 h

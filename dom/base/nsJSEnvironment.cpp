@@ -792,6 +792,13 @@ nsGlobalWindow
 h
 "
 #
+include
+"
+nsScriptNameSpaceManager
+.
+h
+"
+#
 ifdef
 XP_MACOSX
 /

@@ -538,14 +538,7 @@ h
 #
 include
 "
-nsIDOMClassInfo
-.
-h
-"
-#
-include
-"
-nsDOMClassInfo
+nsDOMClassInfoID
 .
 h
 "

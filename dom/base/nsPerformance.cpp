@@ -516,7 +516,7 @@ h
 #
 include
 "
-nsDOMClassInfo
+nsDOMClassInfoID
 .
 h
 "
