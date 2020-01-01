@@ -474,6 +474,13 @@ h
 "
 #
 include
+"
+nsStyleConsts
+.
+h
+"
+#
+include
 <
 qglobal
 .
@@ -2177,7 +2184,7 @@ eMetric_SpellCheckerUnderlineStyle
 :
 aMetric
 =
-NS_UNDERLINE_STYLE_WAVY
+NS_STYLE_TEXT_DECORATION_STYLE_WAVY
 ;
 break
 ;

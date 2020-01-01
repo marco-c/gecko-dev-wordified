@@ -499,6 +499,13 @@ nsWindow
 h
 "
 #
+include
+"
+nsStyleConsts
+.
+h
+"
+#
 ifndef
 WINCE
 #
@@ -2367,7 +2374,7 @@ eMetric_IMEConvertedTextUnderlineStyle
 :
 aMetric
 =
-NS_UNDERLINE_STYLE_DASHED
+NS_STYLE_TEXT_DECORATION_STYLE_DASHED
 ;
 break
 ;
@@ -2379,7 +2386,7 @@ eMetric_IMESelectedConvertedTextUnderline
 :
 aMetric
 =
-NS_UNDERLINE_STYLE_NONE
+NS_STYLE_TEXT_DECORATION_STYLE_NONE
 ;
 break
 ;
@@ -2388,7 +2395,7 @@ eMetric_SpellCheckerUnderlineStyle
 :
 aMetric
 =
-NS_UNDERLINE_STYLE_WAVY
+NS_STYLE_TEXT_DECORATION_STYLE_WAVY
 ;
 break
 ;
