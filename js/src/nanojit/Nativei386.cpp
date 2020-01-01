@@ -7907,14 +7907,10 @@ UnknownReg
 )
 rleft
 =
-getBaseReg
+findSpecificRegFor
 (
 lhs
-d
-rmask
-(
 rr
-)
 )
 ;
 else
