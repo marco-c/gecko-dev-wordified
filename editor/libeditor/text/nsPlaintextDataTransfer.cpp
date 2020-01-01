@@ -2675,6 +2675,13 @@ StopPropagation
 (
 )
 ;
+aDragEvent
+-
+>
+PreventDefault
+(
+)
+;
 return
 rv
 ;
