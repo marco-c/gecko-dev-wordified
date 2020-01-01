@@ -994,6 +994,17 @@ JSBool
 debug
 )
 {
+if
+(
+!
+cx
+-
+>
+compartment
+)
+return
+JS_TRUE
+;
 cx
 -
 >
