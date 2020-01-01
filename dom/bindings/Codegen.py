@@ -15705,6 +15705,29 @@ None
 )
     
 #
+And
+we
+can
+'
+t
+both
+be
+an
+object
+and
+be
+null
+or
+undefined
+    
+assert
+not
+isDefinitelyObject
+or
+not
+isNullOrUndefined
+    
+#
 Helper
 functions
 for
@@ -16066,15 +16089,68 @@ def
 wrapObjectTemplate
 (
 templateBody
-isDefinitelyObject
 type
-                           
 codeToSetNull
 failureCode
 =
 None
 )
 :
+        
+if
+isNullOrUndefined
+:
+            
+assert
+type
+.
+nullable
+(
+)
+            
+#
+Just
+ignore
+templateBody
+and
+set
+ourselves
+to
+null
+.
+            
+#
+Note
+that
+wedon
+'
+t
+have
+to
+worry
+about
+default
+values
+            
+#
+here
+either
+since
+we
+already
+examined
+this
+value
+.
+            
+return
+"
+%
+s
+;
+"
+%
+codeToSetNull
         
 if
 not
@@ -16961,8 +17037,6 @@ templateBody
 wrapObjectTemplate
 (
 templateBody
-isDefinitelyObject
-                                          
 type
                                           
 "
@@ -19935,9 +20009,8 @@ templateBody
 wrapObjectTemplate
 (
 templateBody
-isDefinitelyObject
-                                          
 type
+                                          
 "
 {
 declName
@@ -20472,7 +20545,6 @@ template
 wrapObjectTemplate
 (
 template
-isDefinitelyObject
 type
                                       
 "
@@ -21674,7 +21746,6 @@ define
 (
 )
                 
-isDefinitelyObject
 type
                 
 "
@@ -21853,7 +21924,6 @@ toObject
 ;
 "
                                       
-isDefinitelyObject
 type
                                       
 "
