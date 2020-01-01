@@ -6234,7 +6234,7 @@ has
 the
 *
 same
-caller
+callee
 as
 its
 containing
@@ -6253,7 +6253,8 @@ value
 that
 is
 either
-caller
+the
+callee
 object
 (
 for
