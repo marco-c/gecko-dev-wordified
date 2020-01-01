@@ -547,6 +547,15 @@ aFile
 #
 ifdef
 MOZ_PLATFORM_HILDON
+nsresult
+LaunchDefaultWithDBus
+(
+const
+char
+*
+aFilePath
+)
+;
 NS_IMETHOD
 GetPossibleApplicationHandlers
 (
