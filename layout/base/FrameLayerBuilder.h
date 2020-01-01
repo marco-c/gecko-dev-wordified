@@ -3321,10 +3321,6 @@ nsIFrame
 (
 key
 )
-mIsSharingContainerLayer
-(
-false
-)
 {
 }
 DisplayItemDataEntry
@@ -3342,12 +3338,6 @@ nsIFrame
 toCopy
 .
 mKey
-)
-mIsSharingContainerLayer
-(
-toCopy
-.
-mIsSharingContainerLayer
 )
 {
 /
@@ -3424,9 +3414,6 @@ mInvalidRegion
 ;
 uint32_t
 mContainerLayerGeneration
-;
-bool
-mIsSharingContainerLayer
 ;
 enum
 {
