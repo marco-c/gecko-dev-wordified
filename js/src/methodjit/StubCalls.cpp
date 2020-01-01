@@ -3543,9 +3543,6 @@ isInt32
 )
 )
 {
-Value
-retval
-;
 JSString
 *
 str
