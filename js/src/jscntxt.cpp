@@ -13685,9 +13685,6 @@ HasSSE2
 #
 endif
 ;
-#
-ifdef
-JS_TRACER
 profilingEnabled
 =
 (
@@ -13702,8 +13699,6 @@ traceJitEnabled
 &
 methodJitEnabled
 ;
-#
-endif
 #
 endif
 }
