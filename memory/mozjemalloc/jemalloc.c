@@ -10391,7 +10391,7 @@ while
 0
 )
 #
-elif
+else
 #
 define
 RELEASE_ASSERT
