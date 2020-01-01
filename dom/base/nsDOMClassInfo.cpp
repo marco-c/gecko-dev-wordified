@@ -9913,13 +9913,14 @@ obj
 )
 &
 &
+!
 xpc
 :
 :
-AccessCheck
+WrapperFactory
 :
 :
-isChrome
+IsPartiallyTransparent
 (
 obj
 )

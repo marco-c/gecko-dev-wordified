@@ -863,6 +863,11 @@ WrapperFactory
 :
 :
 SCRIPT_ACCESS_ONLY_FLAG
+|
+WrapperFactory
+:
+:
+PARTIALLY_TRANSPARENT
 )
 ;
 template
@@ -878,6 +883,11 @@ WrapperFactory
 :
 :
 SCRIPT_ACCESS_ONLY_FLAG
+|
+WrapperFactory
+:
+:
+PARTIALLY_TRANSPARENT
 )
 ;
 template
@@ -893,6 +903,11 @@ WrapperFactory
 :
 :
 SCRIPT_ACCESS_ONLY_FLAG
+|
+WrapperFactory
+:
+:
+PARTIALLY_TRANSPARENT
 )
 ;
 template
@@ -908,6 +923,11 @@ WrapperFactory
 :
 :
 SCRIPT_ACCESS_ONLY_FLAG
+|
+WrapperFactory
+:
+:
+PARTIALLY_TRANSPARENT
 )
 ;
 template
