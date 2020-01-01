@@ -470,6 +470,13 @@ h
 #
 include
 "
+nsHTMLSelectElement
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLOptGroupElement
 .
 h
@@ -2102,7 +2109,7 @@ that
 contains
 this
 option
-nsIContent
+nsHTMLSelectElement
 *
 nsHTMLOptionElement
 :
@@ -2156,7 +2163,13 @@ select
 )
 {
 return
+nsHTMLSelectElement
+:
+:
+FromContent
+(
 parent
+)
 ;
 }
 if
