@@ -1549,14 +1549,6 @@ jschar
 *
 pos
 ;
-JSRuntime
-*
-rt
-=
-runtime
-(
-)
-;
 /
 *
 Find
@@ -1938,7 +1930,7 @@ exit
 /
 StringWriteBarrierPostRemove
 (
-rt
+maybetcx
 &
 left
 .
@@ -1951,7 +1943,7 @@ left
 ;
 StringWriteBarrierPost
 (
-rt
+maybetcx
 (
 JSString
 *
@@ -2065,7 +2057,7 @@ pos
 ;
 StringWriteBarrierPostRemove
 (
-rt
+maybetcx
 &
 str
 -
@@ -2337,7 +2329,7 @@ wholeCapacity
 ;
 StringWriteBarrierPostRemove
 (
-rt
+maybetcx
 &
 str
 -
@@ -2351,7 +2343,7 @@ left
 ;
 StringWriteBarrierPostRemove
 (
-rt
+maybetcx
 &
 str
 -
@@ -2435,7 +2427,7 @@ exit
 /
 StringWriteBarrierPost
 (
-rt
+maybetcx
 (
 JSString
 *
