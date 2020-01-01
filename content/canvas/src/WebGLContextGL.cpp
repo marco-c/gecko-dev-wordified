@@ -12679,6 +12679,7 @@ Uint32Array
 Create
 (
 cx
+this
 length
 mCompressedTextureFormats
 .
@@ -13121,6 +13122,7 @@ Float32Array
 Create
 (
 cx
+this
 2
 fv
 )
@@ -13190,6 +13192,7 @@ Float32Array
 Create
 (
 cx
+this
 4
 fv
 )
@@ -13252,6 +13255,7 @@ Int32Array
 Create
 (
 cx
+this
 2
 iv
 )
@@ -13321,6 +13325,7 @@ Int32Array
 Create
 (
 cx
+this
 4
 iv
 )
@@ -17204,6 +17209,7 @@ Float32Array
 Create
 (
 cx
+this
 unitSize
 fv
 )
@@ -17300,6 +17306,7 @@ Int32Array
 Create
 (
 cx
+this
 unitSize
 iv
 )
@@ -18041,6 +18048,7 @@ Float32Array
 Create
 (
 cx
+this
 4
 vec
 )
