@@ -1198,7 +1198,7 @@ nsQueryFrame
 :
 :
 FrameIID
-aCode
+aID
 size_t
 aSize
 )
@@ -1214,7 +1214,7 @@ nsQueryFrame
 :
 :
 FrameIID
-aCode
+aID
 void
 *
 aChunk
