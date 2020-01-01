@@ -14831,11 +14831,9 @@ imageData
 nsresult
 rv
 =
-UnwrapObject
-<
-ImageData
->
+UNWRAP_OBJECT
 (
+ImageData
 cx
 obj
 imageData

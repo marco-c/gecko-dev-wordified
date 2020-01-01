@@ -10242,11 +10242,9 @@ htmlobject
 nsresult
 rv
 =
-UnwrapObject
-<
-HTMLObjectElement
->
+UNWRAP_OBJECT
 (
+HTMLObjectElement
 aCx
 aObj
 htmlobject

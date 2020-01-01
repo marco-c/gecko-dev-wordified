@@ -2123,11 +2123,9 @@ database
 ;
 rv
 =
-UnwrapObject
-<
-IDBDatabase
->
+UNWRAP_OBJECT
 (
+IDBDatabase
 cx
 &
 result
