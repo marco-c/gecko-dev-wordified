@@ -22400,8 +22400,6 @@ cg
 JSParseNode
 *
 pn
-JSBool
-wantpop
 )
 {
 jsuint
@@ -22517,9 +22515,6 @@ JS_FALSE
 ;
 if
 (
-wantpop
-&
-&
 js_Emit1
 (
 cx
@@ -22651,11 +22646,6 @@ break
 case
 JSOP_SETLOCAL
 :
-if
-(
-wantpop
-)
-{
 slot
 =
 (
@@ -22674,13 +22664,6 @@ slot
 ;
 break
 ;
-}
-/
-*
-FALL
-THROUGH
-*
-/
 case
 JSOP_SETARG
 :
@@ -22711,9 +22694,6 @@ slot
 ;
 if
 (
-wantpop
-&
-&
 js_Emit1
 (
 cx
@@ -23442,7 +23422,6 @@ EmitDestructuringLHS
 cx
 cg
 pn3
-JS_TRUE
 )
 )
 return
@@ -23881,13 +23860,6 @@ EmitDestructuringLHS
 cx
 cg
 pn
-pn
--
->
-pn_next
-!
-=
-NULL
 )
 )
 return
