@@ -2219,8 +2219,11 @@ defined
 XP_MACOSX
 )
 #
-ifdef
+if
+defined
+(
 JS_THREADSAFE
+)
 #
 include
 "
@@ -3008,11 +3011,9 @@ id
 34784
 #
 if
-(
 defined
 (
 ANDROID
-)
 )
 &
 &
