@@ -473,7 +473,9 @@ in
 our
 history
 .
-ensureSocialUrlNotRemembered
+gURLsNotRemembered
+.
+push
 (
 e
 .
