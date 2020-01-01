@@ -3631,6 +3631,13 @@ NS_ERROR_FAILURE
 gl
 -
 >
+MakeCurrent
+(
+)
+;
+gl
+-
+>
 ReadScreenIntoImageSurface
 (
 surf
