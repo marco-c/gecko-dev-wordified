@@ -2432,7 +2432,7 @@ slice
 42000
 )
 .
-mozSlice
+slice
 (
 400
 700
