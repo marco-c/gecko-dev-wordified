@@ -2248,6 +2248,13 @@ index
 )
 ;
 bool
+jsop_deffun
+(
+uint32_t
+index
+)
+;
+bool
 jsop_notearg
 (
 )

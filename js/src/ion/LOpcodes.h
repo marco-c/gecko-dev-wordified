@@ -236,6 +236,11 @@ DefVar
 \
 _
 (
+DefFun
+)
+\
+_
+(
 CallKnown
 )
 \

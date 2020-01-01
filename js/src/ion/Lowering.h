@@ -624,6 +624,14 @@ ins
 )
 ;
 bool
+visitDefFun
+(
+MDefFun
+*
+ins
+)
+;
+bool
 visitPrepareCall
 (
 MPrepareCall
