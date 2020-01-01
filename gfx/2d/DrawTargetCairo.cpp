@@ -871,10 +871,12 @@ GetBackendType
 BACKEND_CAIRO
 ;
 }
-}
+default
+:
 return
 true
 ;
+}
 }
 /
 /
