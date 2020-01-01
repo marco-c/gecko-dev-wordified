@@ -2539,7 +2539,7 @@ calibration
 .
 last
 =
-max
+JS_MAX
 (
 calibration
 .
