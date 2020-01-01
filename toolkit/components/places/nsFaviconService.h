@@ -688,6 +688,17 @@ mozIStorageConnection
 aDBConn
 )
 ;
+static
+nsFaviconService
+*
+GetFaviconServiceIfAvailable
+(
+)
+{
+return
+gFaviconService
+;
+}
 /
 *
 *

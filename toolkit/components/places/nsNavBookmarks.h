@@ -803,6 +803,17 @@ aDBConn
 static
 nsNavBookmarks
 *
+GetBookmarksServiceIfAvailable
+(
+)
+{
+return
+gBookmarksService
+;
+}
+static
+nsNavBookmarks
+*
 GetBookmarksService
 (
 )

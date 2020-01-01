@@ -818,6 +818,17 @@ xpcom
 TEST_NAME
 )
 ;
+nsCOMPtr
+<
+ShutdownObserver
+>
+shutdownObserver
+=
+new
+ShutdownObserver
+(
+)
+;
 /
 /
 Tinderboxes

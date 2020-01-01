@@ -569,6 +569,17 @@ mozIStorageConnection
 aDBConn
 )
 ;
+static
+nsAnnotationService
+*
+GetAnnotationServiceIfAvailable
+(
+)
+{
+return
+gAnnotationService
+;
+}
 /
 *
 *
