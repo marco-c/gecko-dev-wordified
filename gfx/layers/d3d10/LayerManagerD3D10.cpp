@@ -1107,7 +1107,7 @@ mInputLayout
 }
 if
 (
-ShadowLayerForwarder
+LayerManager
 :
 :
 HasShadowManager
