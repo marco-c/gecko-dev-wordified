@@ -21266,7 +21266,7 @@ lir
 >
 insCall
 (
-F_FastConcatStrings
+F_ConcatStrings
 args
 )
 ;

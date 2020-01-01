@@ -955,6 +955,7 @@ str
 }
 JSString
 *
+JS_FASTCALL
 js_ConcatStrings
 (
 JSContext
@@ -966,8 +967,6 @@ left
 JSString
 *
 right
-uintN
-gcflag
 )
 {
 size_t
@@ -1249,7 +1248,6 @@ js_NewString
 cx
 s
 n
-gcflag
 )
 ;
 if
@@ -15528,8 +15526,6 @@ jschar
 chars
 size_t
 length
-uintN
-gcflag
 )
 {
 JSString
@@ -15561,8 +15557,6 @@ JSString
 js_NewGCThing
 (
 cx
-gcflag
-|
 GCX_STRING
 sizeof
 (
