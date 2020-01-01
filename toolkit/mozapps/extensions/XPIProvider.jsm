@@ -29824,7 +29824,7 @@ i
 )
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 i
 aTypes
@@ -30257,7 +30257,7 @@ i
 )
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 i
 aTypes
