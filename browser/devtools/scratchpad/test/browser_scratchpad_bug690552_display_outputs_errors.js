@@ -157,6 +157,7 @@ runTests
 (
 )
 {
+var
 scratchpad
 =
 gScratchpadWindow
