@@ -5416,10 +5416,10 @@ name
 JSTempValueRooter
 tvr
 ;
-{
 JSBool
 ok
 ;
+{
 MUST_FLOW_THROUGH
 (
 "
@@ -6172,7 +6172,7 @@ tvr
 )
 ;
 return
-JS_FALSE
+JS_TRUE
 ;
 }
 #
