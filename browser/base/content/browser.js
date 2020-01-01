@@ -54312,11 +54312,11 @@ htmlString
 ;
 dt
 .
-addElement
+setDragImage
 (
-event
-.
-currentTarget
+gProxyFavIcon
+16
+16
 )
 ;
 }
