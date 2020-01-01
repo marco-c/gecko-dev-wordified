@@ -278,7 +278,7 @@ this
 will
 be
 the
-jQuery
+iQ
 object
 for
 the
@@ -755,11 +755,11 @@ this
 .
 debug
 =
+iQ
 (
 '
 <
 div
-/
 >
 '
 )
@@ -788,11 +788,9 @@ absolute
 .
 appendTo
 (
-(
 '
 body
 '
-)
 )
 ;
 }
@@ -820,6 +818,7 @@ this
 bounds
 )
 ;
+iQ
 (
 this
 .
@@ -1263,6 +1262,7 @@ function
 return
 parseInt
 (
+iQ
 (
 this
 .
@@ -1333,6 +1333,7 @@ replace
 degrees
 )
 ;
+iQ
 (
 this
 .
@@ -1443,6 +1444,7 @@ getTopLevelItems
 (
 )
 ;
+iQ
 .
 each
 (
@@ -1556,6 +1558,7 @@ center
 (
 )
 ;
+iQ
 .
 each
 (
@@ -1885,6 +1888,7 @@ squish
 '
 )
 {
+iQ
 .
 each
 (
@@ -2397,6 +2401,7 @@ newPageBounds
 =
 null
 ;
+iQ
 .
 each
 (
@@ -2486,6 +2491,7 @@ hScale
 wScale
 )
 ;
+iQ
 .
 each
 (
@@ -2580,6 +2586,7 @@ pairs
 [
 ]
 ;
+iQ
 .
 each
 (
@@ -2628,6 +2635,7 @@ pairs
 ___
 Apply
 changes
+iQ
 .
 each
 (
@@ -2918,6 +2926,7 @@ el
 )
 {
 return
+iQ
 (
 el
 )
@@ -2972,6 +2981,7 @@ items
 [
 ]
 ;
+iQ
 (
 '
 .
@@ -2987,8 +2997,10 @@ function
 (
 )
 {
+var
 this
 =
+iQ
 (
 this
 )
@@ -4049,6 +4061,7 @@ pairs
 [
 ]
 ;
+iQ
 .
 each
 (
@@ -4090,6 +4103,7 @@ getPageBounds
 (
 )
 ;
+iQ
 .
 each
 (
@@ -4401,6 +4415,7 @@ blocked
 =
 false
 ;
+iQ
 .
 each
 (
@@ -4482,6 +4497,7 @@ if
 pairsProvided
 )
 {
+iQ
 .
 each
 (
