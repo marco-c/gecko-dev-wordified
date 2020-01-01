@@ -1481,6 +1481,11 @@ releaseTypes
 )
 ;
 void
+sweepCrossCompartmentWrappers
+(
+)
+;
+void
 purge
 (
 )
