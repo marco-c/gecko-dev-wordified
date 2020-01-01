@@ -1994,6 +1994,12 @@ sourceOffset
 count
 )
 {
+if
+(
+this
+.
+_processor
+)
 this
 .
 _processor
@@ -2263,6 +2269,12 @@ context
 status
 )
 {
+if
+(
+this
+.
+_processor
+)
 this
 .
 _processor
