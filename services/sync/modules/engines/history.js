@@ -622,6 +622,9 @@ logName
 "
 History
 "
+_recordObj
+:
+HistoryRec
 _storeObj
 :
 HistoryStore

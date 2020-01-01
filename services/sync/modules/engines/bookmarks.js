@@ -793,6 +793,9 @@ logName
 "
 Bookmarks
 "
+_recordObj
+:
+PlacesItem
 _storeObj
 :
 BookmarksStore
