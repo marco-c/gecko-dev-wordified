@@ -2473,12 +2473,6 @@ f
 const
 {
 return
-std
-:
-:
-tr1
-:
-:
 hash
 <
 FilePath
