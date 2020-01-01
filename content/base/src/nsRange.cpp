@@ -2362,7 +2362,7 @@ node
 contains
 our
 start
-boundry
+boundary
 and
 the
 change
@@ -2371,7 +2371,7 @@ starts
 /
 before
 the
-boundry
+boundary
 we
 '
 ll
@@ -2403,7 +2403,7 @@ mStartOffset
 /
 /
 If
-boundry
+boundary
 is
 inside
 changed
@@ -2430,6 +2430,7 @@ PRUint32
 )
 mStartOffset
 <
+=
 aInfo
 -
 >
@@ -2461,11 +2462,13 @@ mReplaceLength
 /
 /
 Do
+the
 same
 thing
 for
+the
 end
-boundry
+boundary
 .
 if
 (
@@ -2493,6 +2496,7 @@ PRUint32
 )
 mEndOffset
 <
+=
 aInfo
 -
 >
