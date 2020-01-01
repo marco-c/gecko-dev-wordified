@@ -1381,6 +1381,8 @@ FPREG
 MEM_SCALE
 }
 ;
+private
+:
 Kind
 kind_
 :
