@@ -7151,6 +7151,9 @@ usingInlineStorage
 )
 )
 {
+mozilla
+:
+:
 Swap
 (
 mBegin
@@ -7184,6 +7187,9 @@ inline
 storage
 .
 }
+mozilla
+:
+:
 Swap
 (
 mLength
@@ -7192,6 +7198,9 @@ other
 mLength
 )
 ;
+mozilla
+:
+:
 Swap
 (
 mCapacity
@@ -7203,6 +7212,9 @@ mCapacity
 #
 ifdef
 DEBUG
+mozilla
+:
+:
 Swap
 (
 mReserved
