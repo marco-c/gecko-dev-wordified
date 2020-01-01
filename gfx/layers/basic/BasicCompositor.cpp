@@ -463,6 +463,7 @@ mSize
 ;
 }
 ;
+void
 DeserializerToPlanarYCbCrImageData
 (
 YCbCrImageDataDeserializer
@@ -820,7 +821,7 @@ format
 gfxASurface
 :
 :
-CONTENT_COLOR_ALPHA
+ImageFormatARGB32
 )
 ?
 FORMAT_B8G8R8A8
