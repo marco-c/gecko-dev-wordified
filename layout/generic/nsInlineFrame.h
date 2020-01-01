@@ -825,13 +825,6 @@ GetBaseline
 )
 const
 ;
-virtual
-nscoord
-GetCaretBaseline
-(
-)
-const
-;
 /
 *
 *
