@@ -5471,7 +5471,7 @@ layerManager
 nsContentUtils
 :
 :
-LayerManagerForDocument
+PersistentLayerManagerForDocument
 (
 ownerDoc
 )
