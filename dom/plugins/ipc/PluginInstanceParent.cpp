@@ -304,7 +304,7 @@ kFlashFullscreenClass
 elif
 defined
 (
-MOZ_WIDGET_GTK
+MOZ_WIDGET_GTK2
 )
 #
 include
@@ -6360,7 +6360,7 @@ DefaultXDisplay
 ;
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WIDGET_GTK2
 /
 /
 GDK

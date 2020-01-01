@@ -18961,7 +18961,7 @@ true
 if
 defined
 (
-MOZ_WIDGET_GTK
+MOZ_WIDGET_GTK2
 )
 bool
 getClipboardText
