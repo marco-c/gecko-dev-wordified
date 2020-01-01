@@ -973,11 +973,6 @@ nsIURI
 aURL
 )
 ;
-bool
-IsSrcdocDocument
-(
-)
-;
 private
 :
 #

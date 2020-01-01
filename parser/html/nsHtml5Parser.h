@@ -1330,11 +1330,6 @@ ParseUntilBlocked
 (
 )
 ;
-bool
-IsSrcdocDocument
-(
-)
-;
 private
 :
 /
