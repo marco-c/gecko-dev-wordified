@@ -918,6 +918,15 @@ password
 (
 )
 {
+/
+/
+Look
+up
+the
+password
+then
+cache
+it
 if
 (
 !
@@ -926,6 +935,10 @@ this
 _password
 )
 return
+this
+.
+_password
+=
 Utils
 .
 findPassword
