@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+unicode_literals
 import
 string
 makefileTemplate

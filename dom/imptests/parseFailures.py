@@ -53,14 +53,19 @@ MPL
 0
 /
 .
+from
+__future__
+import
+print_function
+unicode_literals
+import
+collections
 import
 json
 import
 os
 import
 sys
-import
-collections
 import
 writeMakefile
 def
@@ -384,7 +389,7 @@ v
 in
 pathmap
 .
-iteritems
+items
 (
 )
 :
@@ -418,7 +423,7 @@ Makefile
 in
 '
 '
-wb
+w
 '
 )
         
@@ -447,7 +452,7 @@ open
 (
 logPath
 '
-rb
+r
 '
 )
     
@@ -496,6 +501,7 @@ argv
 :
         
 print
+(
 "
 Please
 pass
@@ -512,6 +518,7 @@ be
 extracted
 .
 "
+)
     
 main
 (

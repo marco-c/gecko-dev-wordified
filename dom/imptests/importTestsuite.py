@@ -111,6 +111,11 @@ directory
 "
 "
 "
+from
+__future__
+import
+print_function
+unicode_literals
 import
 os
 import
@@ -234,7 +239,7 @@ open
 (
 confFile
 "
-rb
+r
 "
 )
     
@@ -398,6 +403,7 @@ central
 "
   
 print
+(
 "
 Copying
 %
@@ -407,7 +413,6 @@ s
 .
 "
 %
-(
 directories
 )
   
@@ -624,6 +629,7 @@ tests
 "
   
 print
+(
 "
 Creating
 .
@@ -632,6 +638,7 @@ mk
 .
 .
 "
+)
   
 path
 =
@@ -648,7 +655,7 @@ open
 (
 path
 "
-wb
+w
 "
 )
   
@@ -751,6 +758,7 @@ import
 "
   
 print
+(
 "
 Creating
 Makefile
@@ -760,6 +768,7 @@ ins
 .
 .
 "
+)
   
 for
 d
@@ -767,44 +776,16 @@ in
 directories
 :
     
-if
-d
-:
-      
 path
 =
-"
-%
-s
-/
-%
-s
-"
-%
+makePath
 (
 dest
 d
 )
     
-else
-:
-      
-#
-Empty
-directory
-i
-.
-e
-.
-the
-repository
-root
-      
-path
-=
-dest
-    
 print
+(
 "
 Creating
 Makefile
@@ -818,7 +799,6 @@ s
 .
 "
 %
-(
 path
 )
     
@@ -885,7 +865,7 @@ Makefile
 in
 "
 "
-wb
+w
 "
 )
     
@@ -927,6 +907,7 @@ directories
 "
   
 print
+(
 "
 hg
 addremoving
@@ -934,6 +915,7 @@ addremoving
 .
 .
 "
+)
   
 for
 d
@@ -1022,6 +1004,7 @@ dest
 )
     
 print
+(
 "
 Going
 to
@@ -1040,8 +1023,10 @@ s
 repo
 hgdest
 )
+)
     
 print
+(
 "
 Removing
 %
@@ -1052,6 +1037,7 @@ s
 "
 %
 dest
+)
     
 subprocess
 .
@@ -1076,6 +1062,7 @@ dest
 )
     
 print
+(
 "
 Removing
 %
@@ -1086,6 +1073,7 @@ s
 "
 %
 hgdest
+)
     
 subprocess
 .
@@ -1110,6 +1098,7 @@ hgdest
 )
     
 print
+(
 "
 Cloning
 %
@@ -1125,6 +1114,7 @@ s
 (
 repo
 hgdest
+)
 )
     
 subprocess
@@ -1144,6 +1134,7 @@ hgdest
 )
     
 print
+(
 "
 Going
 to
@@ -1155,7 +1146,6 @@ s
 .
 "
 %
-(
 directories
 )
     
@@ -1179,6 +1169,7 @@ directories
 )
     
 print
+(
 "
 Removing
 %
@@ -1190,6 +1181,7 @@ again
 "
 %
 hgdest
+)
     
 subprocess
 .
@@ -1217,21 +1209,26 @@ except
 subprocess
 .
 CalledProcessError
+as
 e
 :
     
 print
+(
 e
 .
 returncode
+)
   
 finally
 :
     
 print
+(
 "
 Done
 "
+)
 if
 __name__
 =
@@ -1254,12 +1251,14 @@ argv
 :
     
 print
+(
 "
 Need
 one
 argument
 .
 "
+)
   
 else
 :
