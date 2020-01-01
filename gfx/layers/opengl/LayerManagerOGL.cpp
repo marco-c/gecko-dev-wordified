@@ -2675,6 +2675,14 @@ LOCAL_GL_ONE
 LOCAL_GL_ONE
 )
 ;
+mGLContext
+-
+>
+fEnable
+(
+LOCAL_GL_BLEND
+)
+;
 DEBUG_GL_ERROR_CHECK
 (
 mGLContext
