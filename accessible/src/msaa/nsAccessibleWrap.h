@@ -2539,7 +2539,7 @@ static
 PRInt32
 GetChildIDFor
 (
-nsIAccessible
+nsAccessible
 *
 aAccessible
 )
