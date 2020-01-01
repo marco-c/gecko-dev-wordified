@@ -167,14 +167,12 @@ theme
 )
 {
 #
-downloadsSummary
-#
 downloadsPanel
 [
 hasdownloads
 ]
 #
-downloadsHistory
+downloadsFooter
 {
 background
 -
