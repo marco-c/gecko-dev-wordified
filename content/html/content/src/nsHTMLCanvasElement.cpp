@@ -1756,7 +1756,7 @@ Available
 bufSize
 )
 ;
-CheckedInt32
+CheckedUint32
 safeBufSize
 (
 bufSize
