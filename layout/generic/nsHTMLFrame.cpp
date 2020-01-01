@@ -797,9 +797,8 @@ aIndex
 const
 ;
 virtual
-nsIFrame
-*
-GetFirstChild
+nsFrameList
+GetChildList
 (
 nsIAtom
 *
@@ -2208,12 +2207,11 @@ aIndex
 )
 ;
 }
-nsIFrame
-*
+nsFrameList
 CanvasFrame
 :
 :
-GetFirstChild
+GetChildList
 (
 nsIAtom
 *
@@ -2234,7 +2232,7 @@ aListName
 return
 mAbsoluteContainer
 .
-GetFirstChild
+GetChildList
 (
 )
 ;
@@ -2242,7 +2240,7 @@ return
 nsHTMLContainerFrame
 :
 :
-GetFirstChild
+GetChildList
 (
 aListName
 )
@@ -2711,7 +2709,7 @@ MarkFramesForDisplayList
 this
 mAbsoluteContainer
 .
-GetFirstChild
+GetChildList
 (
 )
 aDirtyRect

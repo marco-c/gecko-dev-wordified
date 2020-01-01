@@ -896,9 +896,8 @@ at
 all
 .
 virtual
-nsIFrame
-*
-GetFirstChild
+nsFrameList
+GetChildList
 (
 nsIAtom
 *

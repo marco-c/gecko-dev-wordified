@@ -904,9 +904,8 @@ Destroy
 )
 ;
 virtual
-nsIFrame
-*
-GetFirstChild
+nsFrameList
+GetChildList
 (
 nsIAtom
 *
