@@ -2905,16 +2905,6 @@ other_values
 :
 [
 "
-border
--
-box
-"
-"
-padding
--
-box
-"
-"
 margin
 -
 box
