@@ -5863,7 +5863,7 @@ LayerRenderer
 java
 #
 ifndef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 mGLContext
 -
 >

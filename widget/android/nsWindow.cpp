@@ -405,7 +405,7 @@ gAndroidScreenBounds
 ;
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 #
 include
 "
@@ -1079,7 +1079,7 @@ this
 ;
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 SetCompositor
 (
 NULL
@@ -3603,7 +3603,7 @@ GetShouldAccelerate
 ;
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 bool
 useCompositor
 =
@@ -4930,7 +4930,7 @@ break
 ;
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 case
 AndroidGeckoEvent
 :
@@ -6016,7 +6016,7 @@ jniFrame
 ;
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 /
 /
 We
@@ -13047,7 +13047,7 @@ true
 }
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 void
 nsWindow
 :

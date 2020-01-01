@@ -770,7 +770,7 @@ while
 )
 #
 ifndef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 static
 EGLSurface
 CreateSurfaceForWindow
@@ -2449,7 +2449,7 @@ mSurface
 {
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 mSurface
 =
 mozilla
@@ -9909,7 +9909,7 @@ true
 /
 /
 When
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 is
 defined
 /
@@ -9933,7 +9933,7 @@ instead
 .
 #
 ifndef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 static
 EGLSurface
 CreateSurfaceForWindow
@@ -10439,7 +10439,7 @@ nullptr
 }
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 mozilla
 :
 :
@@ -12492,7 +12492,7 @@ bug
 )
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 return
 nullptr
 ;
