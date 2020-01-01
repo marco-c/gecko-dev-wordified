@@ -13307,7 +13307,7 @@ const
 uint32_t
 alphaMask
 =
-GFX_PACKED_PIXEL_NO_PREMULTIPLY
+gfxPackedPixelNoPreMultiply
 (
 0xff
 0

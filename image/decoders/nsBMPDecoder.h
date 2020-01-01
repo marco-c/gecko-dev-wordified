@@ -830,7 +830,7 @@ aDecoded
 +
 +
 =
-GFX_PACKED_PIXEL
+gfxPackedPixel
 (
 aAlpha
 aRed
