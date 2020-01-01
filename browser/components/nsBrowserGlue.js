@@ -8162,7 +8162,7 @@ GetStringFromName
 "
 geolocation
 .
-tellThem
+shareLocation
 "
 )
 accessKey
@@ -8174,7 +8174,9 @@ GetStringFromName
 "
 geolocation
 .
-tellThemKey
+shareLocation
+.
+accesskey
 "
 )
 callback
@@ -8226,7 +8228,7 @@ GetStringFromName
 "
 geolocation
 .
-dontTellThem
+dontShareLocation
 "
 )
 accessKey
@@ -8238,7 +8240,9 @@ GetStringFromName
 "
 geolocation
 .
-dontTellThemKey
+dontShareLocation
+.
+accesskey
 "
 )
 callback
