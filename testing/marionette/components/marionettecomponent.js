@@ -377,9 +377,11 @@ addAppender
 new
 Log4Moz
 .
-RotatingFileAppender
+BoundedFileAppender
 (
 logf
+.
+path
 formatter
 )
 )
