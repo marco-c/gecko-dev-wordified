@@ -849,7 +849,7 @@ nsEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 mLastSelectionContainer
 )
@@ -1047,7 +1047,7 @@ nsEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 selNode
 )

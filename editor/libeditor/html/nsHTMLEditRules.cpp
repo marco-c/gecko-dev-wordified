@@ -2672,7 +2672,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 selStartNode
 )
@@ -2717,7 +2717,7 @@ mHTMLEditor
 GetEndNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 selEndNode
 )
@@ -6054,7 +6054,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 parent
 )
@@ -7457,7 +7457,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 parent
 )
@@ -7537,7 +7537,7 @@ mHTMLEditor
 GetEndNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 parent
 )
@@ -7966,7 +7966,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -8927,7 +8927,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -9492,7 +9492,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -10911,7 +10911,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 node
 )
@@ -12233,7 +12233,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -13360,7 +13360,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 startNode
 )
@@ -13556,7 +13556,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 startNode
 )
@@ -15922,7 +15922,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 startNode
 )
@@ -15965,7 +15965,7 @@ mHTMLEditor
 GetEndNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 endNode
 )
@@ -17587,7 +17587,7 @@ mEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 node
 )
@@ -20908,7 +20908,7 @@ mEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 startNode
 )
@@ -21577,7 +21577,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 parent
 )
@@ -23966,7 +23966,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 parent
 )
@@ -24785,7 +24785,7 @@ nsEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 parent
 )
@@ -25077,7 +25077,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 node
 )
@@ -25277,7 +25277,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 parent
 )
@@ -26628,7 +26628,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 parent
 )
@@ -29559,7 +29559,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 sNode
 )
@@ -29647,7 +29647,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 sNode
 )
@@ -30784,7 +30784,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 node
 )
@@ -32930,7 +32930,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 parent
 )
@@ -32997,7 +32997,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 parent
 )
@@ -53683,7 +53683,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -54269,7 +54269,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -54389,7 +54389,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -54930,7 +54930,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -55264,7 +55264,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -59469,7 +59469,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -59599,7 +59599,7 @@ mHTMLEditor
 GetEndNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -61091,7 +61091,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -61138,7 +61138,7 @@ mHTMLEditor
 GetEndNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -63620,7 +63620,7 @@ mHTMLEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 parent
 )

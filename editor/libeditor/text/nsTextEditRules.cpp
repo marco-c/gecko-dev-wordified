@@ -3073,7 +3073,7 @@ mEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -3436,7 +3436,7 @@ editor
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -4761,7 +4761,7 @@ mEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -6377,7 +6377,7 @@ mEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 startNode
 )
@@ -6560,7 +6560,7 @@ mEditor
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 startNode
 )

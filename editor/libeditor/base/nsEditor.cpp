@@ -14710,7 +14710,7 @@ result
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 selStartNode
 )
@@ -14742,7 +14742,7 @@ result
 GetEndNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 selEndNode
 )
@@ -15495,7 +15495,7 @@ result
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 selStartNode
 )
@@ -15519,7 +15519,7 @@ result
 GetEndNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 selEndNode
 )
@@ -21208,10 +21208,8 @@ GetStartNodeAndOffset
 nsISelection
 *
 aSelection
-nsCOMPtr
-<
 nsIDOMNode
->
+*
 *
 outStartNode
 PRInt32
@@ -21234,6 +21232,11 @@ aSelection
 )
 return
 NS_ERROR_NULL_POINTER
+;
+*
+outStartNode
+=
+nsnull
 ;
 /
 /
@@ -21352,11 +21355,7 @@ range
 >
 GetStartContainer
 (
-getter_AddRefs
-(
-*
 outStartNode
-)
 )
 )
 )
@@ -21489,10 +21488,8 @@ GetEndNodeAndOffset
 nsISelection
 *
 aSelection
-nsCOMPtr
-<
 nsIDOMNode
->
+*
 *
 outEndNode
 PRInt32
@@ -21511,6 +21508,11 @@ outEndOffset
 )
 return
 NS_ERROR_NULL_POINTER
+;
+*
+outEndNode
+=
+nsnull
 ;
 nsCOMPtr
 <
@@ -21619,11 +21621,7 @@ range
 >
 GetEndContainer
 (
-getter_AddRefs
-(
-*
 outEndNode
-)
 )
 )
 )

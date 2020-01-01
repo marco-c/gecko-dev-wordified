@@ -3299,10 +3299,8 @@ GetStartNodeAndOffset
 nsISelection
 *
 aSelection
-nsCOMPtr
-<
 nsIDOMNode
->
+*
 *
 outStartNode
 PRInt32
@@ -3317,10 +3315,8 @@ GetEndNodeAndOffset
 nsISelection
 *
 aSelection
-nsCOMPtr
-<
 nsIDOMNode
->
+*
 *
 outEndNode
 PRInt32
