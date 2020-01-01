@@ -8752,13 +8752,6 @@ position
 of
 the
 content
-let
-browser
-=
-getBrowser
-(
-)
-;
 browser
 .
 _updateCSSViewport
