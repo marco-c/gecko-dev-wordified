@@ -1326,7 +1326,7 @@ NS_SUCCEEDED
 Preferences
 :
 :
-GetCString
+GetChar
 (
 SUGGESTED_VERSION_PREF
 &
@@ -1340,7 +1340,7 @@ void
 SetPrefValueForDriverVersion
 (
 const
-nsAString
+nsString
 &
 aVersion
 )
@@ -1348,7 +1348,7 @@ aVersion
 Preferences
 :
 :
-SetString
+SetChar
 (
 SUGGESTED_VERSION_PREF
 aVersion
