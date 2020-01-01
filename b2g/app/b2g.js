@@ -806,7 +806,7 @@ force
 -
 tiles
 "
-false
+true
 )
 ;
 /
