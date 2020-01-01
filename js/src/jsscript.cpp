@@ -9931,7 +9931,6 @@ script
 >
 types
 )
-{
 script
 -
 >
@@ -9942,18 +9941,6 @@ destroy
 (
 )
 ;
-Foreground
-:
-:
-free_
-(
-script
--
->
-types
-)
-;
-}
 #
 ifdef
 JS_METHODJIT
