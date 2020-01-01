@@ -900,7 +900,13 @@ path
 .
 *
 /
-void
+JSC
+:
+:
+MacroAssembler
+:
+:
+Label
 linkExit
 (
 Jump
