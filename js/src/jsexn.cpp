@@ -661,7 +661,7 @@ types
 Forward
 declarations
 for
-js_ErrorClass
+ErrorClass
 '
 s
 initializer
@@ -727,7 +727,10 @@ objp
 )
 ;
 Class
-js_ErrorClass
+js
+:
+:
+ErrorClass
 =
 {
 js_Error_str
@@ -1910,7 +1913,7 @@ getClass
 =
 =
 &
-js_ErrorClass
+ErrorClass
 )
 ;
 /
@@ -3377,16 +3380,13 @@ exn
 ;
 if
 (
+!
 obj
 -
 >
-getClass
+isError
 (
 )
-!
-=
-&
-js_ErrorClass
 )
 return
 NULL
@@ -4640,7 +4640,7 @@ NewNativeClassInstance
 (
 cx
 &
-js_ErrorClass
+ErrorClass
 errProto
 errProto
 -
@@ -4703,7 +4703,7 @@ getClass
 =
 =
 &
-js_ErrorClass
+ErrorClass
 )
 obj
 -
@@ -5032,7 +5032,7 @@ getClass
 =
 =
 &
-js_ErrorClass
+ErrorClass
 &
 &
 !
@@ -6623,7 +6623,7 @@ createBlankPrototypeInheriting
 (
 cx
 &
-js_ErrorClass
+ErrorClass
 proto
 )
 ;
@@ -6806,7 +6806,7 @@ createConstructor
 cx
 Exception
 &
-js_ErrorClass
+ErrorClass
 name
 1
 )
@@ -7662,7 +7662,7 @@ NewNativeClassInstance
 (
 cx
 &
-js_ErrorClass
+ErrorClass
 errProto
 errProto
 -
@@ -8112,13 +8112,9 @@ exnObject
 exnObject
 -
 >
-getClass
+isError
 (
 )
-=
-=
-&
-js_ErrorClass
 )
 {
 if
@@ -8815,7 +8811,7 @@ NewNativeClassInstance
 (
 cx
 &
-js_ErrorClass
+ErrorClass
 proto
 proto
 -

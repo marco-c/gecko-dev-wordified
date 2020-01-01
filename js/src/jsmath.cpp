@@ -826,7 +826,10 @@ hash
 ;
 }
 Class
-js_MathClass
+js
+:
+:
+MathClass
 =
 {
 js_Math_str
@@ -5016,7 +5019,7 @@ Class
 (
 cx
 &
-js_MathClass
+MathClass
 NULL
 obj
 )
@@ -5091,7 +5094,7 @@ MarkStandardClassInitializedNoProto
 (
 obj
 &
-js_MathClass
+MathClass
 )
 ;
 return

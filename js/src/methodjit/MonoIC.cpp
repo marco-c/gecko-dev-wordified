@@ -5892,7 +5892,7 @@ ic
 .
 funObjReg
 &
-js_FunctionClass
+FunctionClass
 )
 ;
 /

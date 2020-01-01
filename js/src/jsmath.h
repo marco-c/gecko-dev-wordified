@@ -707,13 +707,6 @@ functions
 *
 /
 extern
-js
-:
-:
-Class
-js_MathClass
-;
-extern
 JSObject
 *
 js_InitMathClass
