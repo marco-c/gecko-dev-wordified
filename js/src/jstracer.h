@@ -1463,6 +1463,13 @@ exit
 bool
 trashTree
 ;
+nanojit
+:
+:
+Fragment
+*
+whichTreeToTrash
+;
 jsbytecode
 *
 lastLoopEdge
