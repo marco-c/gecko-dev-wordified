@@ -8447,6 +8447,7 @@ parent
 ;
 JS_ASSERT
 (
+&
 obj
 -
 >
@@ -8460,7 +8461,7 @@ compartment
 )
 -
 >
-global
+maybeGlobal
 (
 )
 )

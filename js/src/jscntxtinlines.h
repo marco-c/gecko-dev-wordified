@@ -1418,12 +1418,11 @@ cx
 compartment
 -
 >
-global
+maybeGlobal
 (
 )
 =
 =
-*
 global
 )
 ;

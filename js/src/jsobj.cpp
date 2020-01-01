@@ -15024,6 +15024,7 @@ ExtendedFinalizeKind
 JS_ASSERT_IF
 (
 parent
+&
 parent
 -
 >
@@ -15038,7 +15039,7 @@ cx
 compartment
 -
 >
-global
+maybeGlobal
 (
 )
 )
