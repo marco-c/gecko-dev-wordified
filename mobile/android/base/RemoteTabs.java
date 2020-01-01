@@ -331,6 +331,13 @@ show
 (
 )
 {
+setVisibility
+(
+View
+.
+VISIBLE
+)
+;
 TabsAccessor
 .
 getTabs
@@ -347,6 +354,13 @@ hide
 (
 )
 {
+setVisibility
+(
+View
+.
+GONE
+)
+;
 }
 private
 void
