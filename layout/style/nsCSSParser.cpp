@@ -4958,6 +4958,8 @@ nsnull
 0
 aSheetURI
 aLineNumber
+mSheet
+mChildLoader
 )
 ;
 #
@@ -5065,6 +5067,8 @@ Length
 )
 aSheetURI
 aLineNumber
+mSheet
+mChildLoader
 )
 ;
 #
