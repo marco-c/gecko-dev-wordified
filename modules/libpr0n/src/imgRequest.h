@@ -465,13 +465,6 @@ h
 #
 include
 "
-nsICacheEntryDescriptor
-.
-h
-"
-#
-include
-"
 nsIContentSniffer
 .
 h
@@ -552,6 +545,9 @@ imgCacheValidator
 class
 imgRequestProxy
 ;
+class
+imgCacheEntry
+;
 enum
 {
 onStartRequest
@@ -626,7 +622,7 @@ aURI
 nsIRequest
 *
 aRequest
-nsICacheEntryDescriptor
+imgCacheEntry
 *
 aCacheEntry
 void
@@ -778,6 +774,10 @@ private
 :
 friend
 class
+imgCacheEntry
+;
+friend
+class
 imgRequestProxy
 ;
 friend
@@ -787,10 +787,6 @@ imgLoader
 friend
 class
 imgCacheValidator
-;
-friend
-class
-imgCache
 ;
 inline
 void
@@ -1073,9 +1069,9 @@ mState
 nsCString
 mContentType
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICacheEntryDescriptor
+imgCacheEntry
 >
 mCacheEntry
 ;
