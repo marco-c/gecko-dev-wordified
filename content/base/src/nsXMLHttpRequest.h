@@ -3465,6 +3465,12 @@ RequestHeader
 >
 mModifiedRequestHeaders
 ;
+nsTHashtable
+<
+nsCStringHashKey
+>
+mAlreadySetHeaders
+;
 /
 /
 Helper
