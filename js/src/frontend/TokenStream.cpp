@@ -14704,14 +14704,6 @@ TOK_DBLCOLON
 "
 ;
 case
-TOK_ANYNAME
-:
-return
-"
-TOK_ANYNAME
-"
-;
-case
 TOK_DBLDOT
 :
 return
