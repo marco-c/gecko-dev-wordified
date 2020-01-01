@@ -1796,6 +1796,7 @@ OnClearHistory
 (
 )
 )
+;
 return
 NS_OK
 ;
