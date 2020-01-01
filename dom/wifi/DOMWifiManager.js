@@ -461,7 +461,6 @@ nsIScriptSecurityManager
 let
 perm
 =
-(
 principal
 =
 =
@@ -469,7 +468,6 @@ secMan
 .
 getSystemPrincipal
 (
-)
 )
 ?
 Ci
@@ -482,11 +480,9 @@ Services
 .
 perms
 .
-testExactPermission
+testExactPermissionFromPrincipal
 (
 principal
-.
-URI
 "
 wifi
 -
