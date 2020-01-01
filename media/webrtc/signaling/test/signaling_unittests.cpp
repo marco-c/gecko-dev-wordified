@@ -3122,7 +3122,7 @@ cfg
 ;
 cfg
 .
-addServer
+addStunServer
 (
 "
 23
