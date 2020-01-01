@@ -1654,7 +1654,7 @@ else
 {
 for
 (
-unsigned
+uint32_t
 i
 =
 0
@@ -1665,6 +1665,8 @@ script
 -
 >
 nClosedArgs
+(
+)
 ;
 i
 +
@@ -1767,6 +1769,8 @@ script
 -
 >
 nClosedVars
+(
+)
 ;
 i
 +
@@ -1882,12 +1886,16 @@ script
 -
 >
 nClosedArgs
+(
+)
 |
 |
 script
 -
 >
 nClosedVars
+(
+)
 |
 |
 heavyweight
@@ -1933,6 +1941,8 @@ script
 -
 >
 nClosedArgs
+(
+)
 |
 |
 heavyweight
