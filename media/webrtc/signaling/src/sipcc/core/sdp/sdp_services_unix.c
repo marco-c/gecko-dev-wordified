@@ -254,6 +254,9 @@ platform
 *
 *
 /
+#
+if
+0
 void
 sdp_log_errmsg
 (
@@ -343,6 +346,8 @@ break
 ;
 }
 }
+#
+endif
 /
 *
 *

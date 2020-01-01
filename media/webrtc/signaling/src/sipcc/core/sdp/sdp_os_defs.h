@@ -99,14 +99,6 @@ h
 "
 #
 define
-SDP_ERROR
-buginf
-#
-define
-SDP_WARN
-buginf
-#
-define
 SDP_PRINT
 buginf
 #
