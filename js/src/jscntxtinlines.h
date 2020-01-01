@@ -1249,7 +1249,7 @@ array
 ifdef
 DEBUG
 class
-CompartmentChecker
+MixingChecker
 {
 private
 :
@@ -1264,7 +1264,7 @@ compartment
 public
 :
 explicit
-CompartmentChecker
+MixingChecker
 (
 JSContext
 *
@@ -1627,7 +1627,7 @@ gcRunning
 return
 ;
 \
-CompartmentChecker
+MixingChecker
 c
 (
 cx
@@ -1639,7 +1639,7 @@ T1
 >
 inline
 void
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 JSContext
 *
@@ -1674,7 +1674,7 @@ T2
 >
 inline
 void
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 JSContext
 *
@@ -1720,7 +1720,7 @@ T3
 >
 inline
 void
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 JSContext
 *
@@ -1777,7 +1777,7 @@ T4
 >
 inline
 void
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 JSContext
 *
@@ -1845,7 +1845,7 @@ T5
 >
 inline
 void
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 JSContext
 *
@@ -1932,7 +1932,7 @@ jsval
 rval
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 thisobj
@@ -1959,7 +1959,7 @@ if
 (
 ok
 )
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 *
@@ -1986,7 +1986,7 @@ jsval
 vp
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 ValueArray
@@ -2012,7 +2012,7 @@ if
 (
 ok
 )
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 vp
@@ -2044,7 +2044,7 @@ jsval
 vp
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -2068,7 +2068,7 @@ if
 (
 ok
 )
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -2099,7 +2099,7 @@ jsval
 vp
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
