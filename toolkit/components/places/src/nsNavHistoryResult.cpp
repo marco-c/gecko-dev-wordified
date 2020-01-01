@@ -6201,8 +6201,8 @@ compare
 the
 keywords
 nsAutoString
-aKeyword
-bKeyword
+keywordA
+keywordB
 ;
 nsNavBookmarks
 *
@@ -6247,7 +6247,7 @@ a
 -
 >
 mItemId
-aKeyword
+keywordA
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6280,7 +6280,7 @@ b
 -
 >
 mItemId
-aKeyword
+keywordB
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6294,8 +6294,8 @@ value
 =
 SortComparison_StringLess
 (
-aKeyword
-bKeyword
+keywordA
+keywordB
 )
 ;
 }
