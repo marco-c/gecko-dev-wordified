@@ -95,6 +95,8 @@ org
 mozilla
 .
 gecko
+.
+util
 ;
 import
 android
@@ -108,6 +110,12 @@ final
 class
 FloatUtils
 {
+private
+FloatUtils
+(
+)
+{
+}
 public
 static
 boolean

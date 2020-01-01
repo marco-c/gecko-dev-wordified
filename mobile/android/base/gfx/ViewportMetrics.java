@@ -105,7 +105,7 @@ mozilla
 .
 gecko
 .
-FloatUtils
+GeckoApp
 ;
 import
 org
@@ -114,7 +114,9 @@ mozilla
 .
 gecko
 .
-GeckoApp
+util
+.
+FloatUtils
 ;
 import
 org
