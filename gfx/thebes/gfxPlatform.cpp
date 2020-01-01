@@ -2099,6 +2099,10 @@ gfxPlatform
 (
 )
 {
+mScreenReferenceSurface
+=
+nsnull
+;
 /
 /
 The
