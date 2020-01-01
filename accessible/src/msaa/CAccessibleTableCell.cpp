@@ -713,7 +713,7 @@ nsIAccessibleTableCell
 >
 tableCell
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -879,7 +879,7 @@ nsIAccessibleTableCell
 >
 tableCell
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -987,7 +987,7 @@ nsIAccessibleTableCell
 >
 tableCell
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -1100,7 +1100,7 @@ nsIAccessibleTableCell
 >
 tableCell
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -1209,7 +1209,7 @@ nsIAccessibleTableCell
 >
 tableCell
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -1317,7 +1317,7 @@ nsIAccessibleTableCell
 >
 tableCell
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -1430,7 +1430,7 @@ nsIAccessibleTableCell
 >
 tableCell
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -1571,7 +1571,7 @@ nsIAccessibleTableCell
 >
 tableCell
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -1815,7 +1815,7 @@ nsIAccessibleTableCell
 >
 tableCell
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )

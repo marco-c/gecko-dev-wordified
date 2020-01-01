@@ -522,7 +522,7 @@ nsIAccessibleValue
 >
 valueAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -600,7 +600,7 @@ nsIAccessibleValue
 >
 valueAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -703,7 +703,7 @@ nsIAccessibleValue
 >
 valueAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -796,7 +796,7 @@ nsIAccessibleValue
 >
 valueAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -905,7 +905,7 @@ nsIAccessibleValue
 >
 valueAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )

@@ -594,7 +594,7 @@ nsIAccessible
 >
 acc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -688,7 +688,7 @@ nsIAccessible
 >
 acc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -780,7 +780,7 @@ nsIAccessible
 >
 acc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -932,7 +932,7 @@ nsIAccessible
 >
 acc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -1259,7 +1259,7 @@ nsIAccessible
 >
 acc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
