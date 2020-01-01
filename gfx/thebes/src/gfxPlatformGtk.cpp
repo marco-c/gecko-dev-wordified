@@ -2056,10 +2056,8 @@ ff
 )
 ;
 }
-nsRefPtr
-<
 FontEntry
->
+*
 fe
 =
 new
@@ -2074,9 +2072,7 @@ mName
 ff
 -
 >
-mFaces
-.
-AppendElement
+AddFontEntry
 (
 fe
 )
