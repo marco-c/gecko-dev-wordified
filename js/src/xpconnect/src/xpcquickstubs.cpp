@@ -4474,6 +4474,8 @@ obj
 XPCWrappedNativeTearOff
 *
 tearoff
+=
+nsnull
 ;
 XPCWrappedNative
 *
