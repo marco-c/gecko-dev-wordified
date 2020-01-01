@@ -1138,8 +1138,14 @@ WrapNode
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aScope
 )
 {

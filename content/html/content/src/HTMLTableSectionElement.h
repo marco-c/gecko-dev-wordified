@@ -443,6 +443,7 @@ this
 }
 protected
 :
+virtual
 JSObject
 *
 WrapNode
@@ -450,8 +451,14 @@ WrapNode
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aScope
 )
 MOZ_OVERRIDE
