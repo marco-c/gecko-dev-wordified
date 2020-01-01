@@ -6145,6 +6145,9 @@ rgb
 255
 )
 "
+ctx
+.
+DRAWWINDOW_DRAW_CARET
 )
 ;
 ctx
@@ -6396,6 +6399,9 @@ rgb
 255
 )
 "
+ctx
+.
+DRAWWINDOW_DRAW_CARET
 )
 ;
 ctx
