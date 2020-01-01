@@ -623,7 +623,7 @@ void
 _setWindowNumber
 :
 (
-int
+NSInteger
 )
 aNumber
 ;
