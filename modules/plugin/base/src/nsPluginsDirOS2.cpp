@@ -1415,15 +1415,6 @@ NO_ERROR
 {
 info
 .
-fPluginInfoSize
-=
-sizeof
-(
-nsPluginInfo
-)
-;
-info
-.
 fName
 =
 LoadRCDATAString
