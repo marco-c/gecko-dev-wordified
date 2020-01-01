@@ -472,6 +472,13 @@ avmplus
 h
 "
 #
+include
+"
+njcpudetect
+.
+h
+"
+#
 ifdef
 FEATURE_NANOJIT
 #
