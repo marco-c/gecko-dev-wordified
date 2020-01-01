@@ -13255,6 +13255,9 @@ cx
 global
 )
 ;
+if
+(
+!
 dbg
 -
 >
@@ -13264,6 +13267,9 @@ cx
 rg
 dmgc
 )
+)
+return
+false
 ;
 }
 }
