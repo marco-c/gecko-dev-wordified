@@ -18109,12 +18109,15 @@ layout
 updates
 if
 (
+!
+(
 flags
 &
 nsIDOMCanvasRenderingContext2D
 :
 :
 DRAWWINDOW_DO_NOT_FLUSH
+)
 )
 FlushLayoutForTree
 (
