@@ -493,8 +493,8 @@ padding
 3px
 ;
 }
-.
-viewSelector
+#
+topBar
 {
 border
 -
@@ -503,10 +503,6 @@ bottom
 2px
 groove
 ThreeDFace
-;
-margin
-:
-0
 ;
 -
 moz
