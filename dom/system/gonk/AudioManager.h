@@ -263,6 +263,9 @@ class
 RecoverTask
 ;
 class
+AudioChannelVolInitCallback
+;
+class
 AudioManager
 :
 public
@@ -311,6 +314,10 @@ backend
 friend
 class
 RecoverTask
+;
+friend
+class
+AudioChannelVolInitCallback
 ;
 protected
 :
