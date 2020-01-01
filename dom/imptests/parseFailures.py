@@ -221,16 +221,13 @@ diffs
 .
         
 if
-url
-.
-contains
-(
-"
+'
 /
 editing
 /
-"
-)
+'
+in
+url
 :
             
 sep
