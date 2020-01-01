@@ -5159,7 +5159,7 @@ closedVarsOffset
 ;
 }
 uint32_t
-nClosedArgs
+numClosedArgs
 (
 )
 {
@@ -5180,7 +5180,7 @@ length
 ;
 }
 uint32_t
-nClosedVars
+numClosedVars
 (
 )
 {
