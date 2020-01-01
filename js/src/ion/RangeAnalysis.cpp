@@ -195,7 +195,7 @@ using
 mozilla
 :
 :
-DeprecatedAbs
+Abs
 ;
 /
 /
@@ -4766,7 +4766,7 @@ Range
 0
 Max
 (
-DeprecatedAbs
+Abs
 <
 int64_t
 >
@@ -4777,7 +4777,7 @@ lower
 (
 )
 )
-DeprecatedAbs
+Abs
 <
 int64_t
 >
@@ -5066,7 +5066,7 @@ getOperand
 int64_t
 a
 =
-DeprecatedAbs
+Abs
 <
 int64_t
 >
@@ -5081,7 +5081,7 @@ lower
 int64_t
 b
 =
-DeprecatedAbs
+Abs
 <
 int64_t
 >
