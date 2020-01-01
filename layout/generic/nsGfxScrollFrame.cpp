@@ -11850,7 +11850,7 @@ listeners
 .
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
@@ -11957,7 +11957,7 @@ listeners
 .
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
