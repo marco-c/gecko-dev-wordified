@@ -653,6 +653,11 @@ managed
 /
 /
 bitfield
+of
+0
+.
+.
+NJ_MAX_REGISTERS
 denoting
 which
 are

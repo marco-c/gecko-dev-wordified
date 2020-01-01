@@ -1020,6 +1020,12 @@ x87
 regs
 xmm
 regs
+const
+int
+NJ_STACK_OFFSET
+=
+0
+;
 #
 define
 NJ_MAX_STACK_ENTRY
@@ -1608,13 +1614,6 @@ int
 \
 void
 asm_farg
-(
-LInsp
-)
-;
-\
-void
-asm_pusharg
 (
 LInsp
 )

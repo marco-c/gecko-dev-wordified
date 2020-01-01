@@ -1892,6 +1892,18 @@ k_str
 [
 ]
 ;
+#
+if
+defined
+(
+AVMPLUS_IA32
+)
+|
+|
+defined
+(
+AVMPLUS_AMD64
+)
 static
 inline
 bool
@@ -1918,6 +1930,8 @@ config
 use_cmov
 ;
 }
+#
+endif
 static
 inline
 bool
