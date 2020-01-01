@@ -884,7 +884,7 @@ h
 endif
 #
 ifdef
-JS_METHODJIT
+JS_ION
 #
 include
 "
@@ -13302,6 +13302,9 @@ script
 ;
 break
 ;
+#
+ifdef
+JS_ION
 case
 JSTRACE_IONCODE
 :
@@ -13313,6 +13316,8 @@ ioncode
 ;
 break
 ;
+#
+endif
 case
 JSTRACE_SHAPE
 :
@@ -13691,9 +13696,14 @@ lineno
 break
 ;
 }
+#
+ifdef
+JS_ION
 case
 JSTRACE_IONCODE
 :
+#
+endif
 case
 JSTRACE_SHAPE
 :
