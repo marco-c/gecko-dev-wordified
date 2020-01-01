@@ -12095,6 +12095,8 @@ rv
 ;
 PRUint32
 transitionType
+=
+0
 ;
 rv
 =
