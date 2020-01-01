@@ -139,11 +139,6 @@ endif
 #
 include
 <
-new
->
-#
-include
-<
 string
 .
 h
