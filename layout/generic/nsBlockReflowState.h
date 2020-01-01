@@ -1682,6 +1682,7 @@ overflow
 continuations
 .
 nsOverflowContinuationTracker
+*
 mOverflowTracker
 ;
 /
