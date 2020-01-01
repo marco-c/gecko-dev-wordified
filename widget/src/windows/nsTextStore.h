@@ -1389,6 +1389,14 @@ aResult
 )
 ;
 HRESULT
+UpdateCompositionExtent
+(
+ITfRange
+*
+pRangeNew
+)
+;
+HRESULT
 SendTextEventForCompositionString
 (
 )
