@@ -569,7 +569,7 @@ now
 <
 GlobalConstants
 .
-BUILD_TIMESTAMP
+BUILD_TIMESTAMP_MSEC
 )
 {
 Logger
@@ -594,7 +594,7 @@ date
 +
 GlobalConstants
 .
-BUILD_TIMESTAMP
+BUILD_TIMESTAMP_MSEC
 +
 "
 .
@@ -616,7 +616,7 @@ now
 >
 AnnouncementsConstants
 .
-LATEST_ACCEPTED_LAUNCH_TIMESTAMP
+LATEST_ACCEPTED_LAUNCH_TIMESTAMP_MSEC
 )
 {
 Logger
@@ -643,7 +643,7 @@ timestamp
 +
 AnnouncementsConstants
 .
-LATEST_ACCEPTED_LAUNCH_TIMESTAMP
+LATEST_ACCEPTED_LAUNCH_TIMESTAMP_MSEC
 +
 "
 .
