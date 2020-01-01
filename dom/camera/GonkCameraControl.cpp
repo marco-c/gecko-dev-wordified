@@ -5644,10 +5644,7 @@ NS_LITERAL_STRING
 videos
 "
 )
-aStartRecording
--
->
-mFilename
+filename
 )
 ;
 nsAutoCString
