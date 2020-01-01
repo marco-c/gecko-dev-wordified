@@ -987,12 +987,11 @@ nsCOMPtr
 nsIDOMStyleSheet
 >
 ss
-(
+=
 do_QueryInterface
 (
 GetStyleSheet
 (
-)
 )
 )
 ;
@@ -1044,12 +1043,11 @@ nsCOMPtr
 nsIDOMStyleSheet
 >
 ss
-(
+=
 do_QueryInterface
 (
 GetStyleSheet
 (
-)
 )
 )
 ;
@@ -1587,11 +1585,6 @@ true
 true
 )
 ;
-if
-(
-event
-)
-{
 /
 /
 Always
@@ -1622,7 +1615,6 @@ PostDOMEvent
 (
 )
 ;
-}
 }
 nsresult
 nsHTMLLinkElement

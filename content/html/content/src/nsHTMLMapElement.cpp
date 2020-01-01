@@ -695,12 +695,7 @@ new
 nsContentList
 (
 this
-mNodeInfo
--
->
-NamespaceID
-(
-)
+kNameSpaceID_XHTML
 nsGkAtoms
 :
 :
