@@ -130,11 +130,6 @@ Assertions
 .
 h
 "
-#
-include
-<
-vector
->
 namespace
 mozilla
 {
