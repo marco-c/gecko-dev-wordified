@@ -1592,6 +1592,11 @@ isInterpreted
 )
 )
 ;
+JS_ASSERT
+(
+cx
+)
+;
 if
 (
 isInterpretedLazy
