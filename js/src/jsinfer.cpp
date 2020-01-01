@@ -26838,9 +26838,8 @@ GET_UINT8
 (
 pc
 )
-=
-=
-JSITER_ENUMERATE
+&
+JSITER_FOREACH
 )
 state
 .
@@ -26853,7 +26852,7 @@ cx
 Type
 :
 :
-StringType
+UnknownType
 (
 )
 )
@@ -26870,7 +26869,7 @@ cx
 Type
 :
 :
-UnknownType
+StringType
 (
 )
 )

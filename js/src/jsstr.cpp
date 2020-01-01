@@ -19398,15 +19398,6 @@ str_sub
 )
 #
 endif
-JS_FN
-(
-"
-iterator
-"
-JS_ArrayIterator
-0
-0
-)
 JS_FS_END
 }
 ;

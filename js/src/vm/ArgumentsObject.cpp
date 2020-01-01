@@ -3014,6 +3014,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Object
 )
+|
+JSCLASS_FOR_OF_ITERATION
 JS_PropertyStub
 /
 *
@@ -3093,12 +3095,7 @@ NULL
 innerObject
 *
 /
-NULL
-/
-*
-iteratorObject
-*
-/
+JS_ElementIteratorStub
 NULL
 /
 *
@@ -3173,6 +3170,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Object
 )
+|
+JSCLASS_FOR_OF_ITERATION
 JS_PropertyStub
 /
 *
@@ -3252,12 +3251,7 @@ NULL
 innerObject
 *
 /
-NULL
-/
-*
-iteratorObject
-*
-/
+JS_ElementIteratorStub
 NULL
 /
 *
