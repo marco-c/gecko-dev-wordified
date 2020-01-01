@@ -379,7 +379,7 @@ eRemoveDupes
 Initialize
 with
 an
-nsIDOMNode
+nsINode
 AccEvent
 (
 uint32_t
