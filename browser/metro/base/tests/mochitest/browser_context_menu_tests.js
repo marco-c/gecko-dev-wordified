@@ -3432,6 +3432,15 @@ Context
 menu
 options
 /
+*
+XXX
+disabled
+temporarily
+due
+to
+bug
+880739
+/
 /
 image01
 -
@@ -3802,6 +3811,8 @@ saved
 "
 )
 ;
+*
+/
 /
 /
 /
@@ -3900,6 +3911,7 @@ visible
 "
 )
 ;
+let
 menuItem
 =
 document
@@ -3938,6 +3950,7 @@ visible
 "
 )
 ;
+let
 popupPromise
 =
 waitForEvent
