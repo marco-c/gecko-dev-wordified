@@ -2246,11 +2246,6 @@ the
 number
 of
 properties
-including
-the
-*
-CSS_PROP_INCLUDE_NOT_CSS
-properties
 that
 must
 be
