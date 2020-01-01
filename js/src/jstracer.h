@@ -460,6 +460,10 @@ jstracer_h___
 define
 jstracer_h___
 #
+if
+defined
+JS_TRACER
+#
 include
 "
 jsstddef
@@ -2518,6 +2522,14 @@ JSContext
 cx
 )
 ;
+#
+endif
+/
+*
+defined
+JS_TRACER
+*
+/
 #
 endif
 /
