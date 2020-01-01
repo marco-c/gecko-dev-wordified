@@ -464,10 +464,6 @@ extern
 pthread_key_t
 pkey_stack
 ;
-extern
-pthread_key_t
-pkey_ticker
-;
 #
 define
 SAMPLER_INIT
