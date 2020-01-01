@@ -105,6 +105,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -162,6 +163,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -293,6 +295,7 @@ unexpectedSuccessHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -350,6 +353,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -396,5 +400,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

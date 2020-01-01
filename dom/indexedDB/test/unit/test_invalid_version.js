@@ -178,5 +178,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

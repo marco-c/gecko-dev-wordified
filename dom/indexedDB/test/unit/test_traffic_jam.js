@@ -78,7 +78,7 @@ successCallback
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -132,6 +132,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -222,6 +223,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -265,6 +267,7 @@ transaction
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -322,6 +325,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -369,6 +373,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -426,6 +431,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -473,6 +479,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -525,6 +532,18 @@ requests
 .
 onerror
 =
+null
+;
+requests
+[
+3
+]
+.
+addEventListener
+(
+"
+error
+"
 new
 ExpectError
 (
@@ -533,10 +552,12 @@ VersionError
 "
 true
 )
+)
 ;
 event
 =
 yield
+undefined
 ;
 requests
 [
@@ -550,6 +571,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -600,5 +622,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

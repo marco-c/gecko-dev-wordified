@@ -328,6 +328,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -415,6 +416,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -501,6 +503,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -588,6 +591,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -633,6 +637,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -708,6 +713,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -808,6 +814,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -853,6 +860,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -960,6 +968,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1010,6 +1019,7 @@ unexpectedSuccessHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1088,6 +1098,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1144,6 +1155,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1227,6 +1239,7 @@ unexpectedSuccessHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1290,6 +1303,7 @@ unexpectedSuccessHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1368,6 +1382,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1439,6 +1454,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1517,6 +1533,7 @@ unexpectedSuccessHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1581,6 +1598,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1683,6 +1701,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1735,6 +1754,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1849,6 +1869,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1934,6 +1955,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -2039,6 +2061,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -2494,6 +2517,7 @@ all
 requests
 .
 yield
+undefined
 ;
 transaction
 .
@@ -2504,6 +2528,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -2590,6 +2615,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -3048,6 +3074,7 @@ all
 requests
 .
 yield
+undefined
 ;
 transaction
 .
@@ -3058,6 +3085,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -3144,6 +3172,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -3695,6 +3724,7 @@ all
 requests
 .
 yield
+undefined
 ;
 transaction
 .
@@ -3705,6 +3735,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -3791,6 +3822,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -3997,6 +4029,7 @@ incr
 )
 ;
 yield
+undefined
 ;
 objectStore
 .
@@ -4011,6 +4044,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -4050,6 +4084,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -4074,6 +4109,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -4101,6 +4137,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }
 function

@@ -233,6 +233,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -319,6 +320,7 @@ i
 ;
 }
 yield
+undefined
 ;
 let
 count
@@ -448,6 +450,7 @@ count
 }
 ;
 yield
+undefined
 ;
 is
 (
@@ -732,6 +735,7 @@ continue
 }
 ;
 yield
+undefined
 ;
 is
 (
@@ -782,5 +786,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

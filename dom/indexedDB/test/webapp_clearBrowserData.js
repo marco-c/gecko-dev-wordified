@@ -251,6 +251,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -312,6 +313,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 /
 /
@@ -609,6 +611,7 @@ iframe
 )
 ;
 yield
+undefined
 ;
 request
 =
@@ -645,6 +648,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 db
 =
@@ -688,6 +692,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -711,6 +716,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }
 function

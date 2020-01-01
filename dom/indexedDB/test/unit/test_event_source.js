@@ -94,6 +94,7 @@ var
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -162,6 +163,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -187,5 +189,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

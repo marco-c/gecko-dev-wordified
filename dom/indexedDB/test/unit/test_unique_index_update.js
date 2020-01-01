@@ -88,6 +88,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -181,6 +182,7 @@ i
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -269,6 +271,7 @@ true
 event
 =
 yield
+undefined
 ;
 event
 .
@@ -390,6 +393,7 @@ true
 }
 ;
 yield
+undefined
 ;
 }
 finishTest
@@ -397,5 +401,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

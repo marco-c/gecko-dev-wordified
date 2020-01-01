@@ -103,6 +103,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -223,6 +224,7 @@ next
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -289,6 +291,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -553,6 +556,7 @@ event
 event
 =
 yield
+undefined
 ;
 db
 .
@@ -583,6 +587,7 @@ continueToNextStep
 )
 ;
 yield
+undefined
 ;
 db
 .
@@ -617,6 +622,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -680,11 +686,13 @@ objectStoreName
 event
 =
 yield
+undefined
 ;
 finishTest
 (
 )
 ;
 yield
+undefined
 ;
 }

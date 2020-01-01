@@ -209,6 +209,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 versionChangeEventCount
@@ -434,6 +435,7 @@ processes
 event
 =
 yield
+undefined
 ;
 /
 /
@@ -552,6 +554,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 db2
 .
@@ -742,6 +745,7 @@ processes
 event
 =
 yield
+undefined
 ;
 db3
 =
@@ -796,6 +800,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -934,10 +939,12 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 event
 =
 yield
+undefined
 ;
 db3
 =
@@ -1028,6 +1035,7 @@ processes
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -1112,6 +1120,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -1428,5 +1437,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

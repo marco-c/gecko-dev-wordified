@@ -110,6 +110,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db1
@@ -153,6 +154,7 @@ continueToNextStep
 )
 ;
 yield
+undefined
 ;
 request
 =
@@ -179,6 +181,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 let
 db2
@@ -390,5 +393,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

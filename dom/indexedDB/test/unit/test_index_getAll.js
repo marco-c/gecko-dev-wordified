@@ -776,6 +776,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -879,6 +880,7 @@ event
 }
 }
 yield
+undefined
 ;
 ok
 (
@@ -946,6 +948,7 @@ count
 )
 ;
 yield
+undefined
 ;
 ok
 (
@@ -1000,6 +1003,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -1115,6 +1119,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -1230,6 +1235,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -1345,6 +1351,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -1458,6 +1465,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -1570,6 +1578,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -1680,6 +1689,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -1768,5 +1778,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

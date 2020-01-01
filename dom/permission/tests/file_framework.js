@@ -1460,6 +1460,7 @@ start
 )
 ;
 yield
+undefined
 ;
 }
 }

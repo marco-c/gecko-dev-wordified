@@ -156,6 +156,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -228,6 +229,7 @@ next
 ;
 }
 yield
+undefined
 ;
 objectStore
 =
@@ -295,6 +297,7 @@ next
 ;
 }
 yield
+undefined
 ;
 objectStore
 =
@@ -359,6 +362,7 @@ next
 ;
 }
 yield
+undefined
 ;
 objectStore
 =
@@ -416,6 +420,7 @@ next
 ;
 }
 yield
+undefined
 ;
 let
 keyIndex
@@ -483,6 +488,7 @@ next
 ;
 }
 yield
+undefined
 ;
 keyIndex
 =
@@ -704,6 +710,7 @@ next
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -886,6 +893,7 @@ next
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -1076,6 +1084,7 @@ next
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -1266,6 +1275,7 @@ next
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -1476,6 +1486,7 @@ next
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -1699,6 +1710,7 @@ next
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -1742,6 +1754,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1789,6 +1802,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 keyIndex
 =
@@ -2031,6 +2045,7 @@ next
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -2086,6 +2101,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -2132,6 +2148,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 keyIndex
 =
@@ -2342,6 +2359,7 @@ next
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -2361,5 +2379,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

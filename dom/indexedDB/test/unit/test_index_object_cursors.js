@@ -225,6 +225,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -317,6 +318,7 @@ options
 }
 }
 yield
+undefined
 ;
 ok
 (
@@ -684,6 +686,7 @@ keyIndex
 }
 ;
 yield
+undefined
 ;
 is
 (
@@ -831,6 +834,7 @@ keyIndex
 }
 ;
 yield
+undefined
 ;
 is
 (
@@ -868,6 +872,7 @@ onsuccess
 continueToNextStep
 ;
 yield
+undefined
 ;
 }
 }
@@ -876,5 +881,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

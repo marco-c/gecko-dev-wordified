@@ -101,6 +101,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -182,6 +183,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -249,6 +251,7 @@ readyState
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -282,5 +285,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

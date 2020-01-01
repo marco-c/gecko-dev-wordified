@@ -82,6 +82,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -189,6 +190,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -213,6 +215,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 let
 objectStore
@@ -285,6 +288,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -319,6 +323,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -353,6 +358,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -376,5 +382,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

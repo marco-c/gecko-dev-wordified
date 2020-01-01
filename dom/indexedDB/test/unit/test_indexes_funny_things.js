@@ -71,6 +71,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }
 const
@@ -387,6 +388,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -497,6 +499,7 @@ event
 event
 =
 yield
+undefined
 ;
 /
 /
@@ -556,6 +559,7 @@ count
 )
 ;
 yield
+undefined
 ;
 objectStore
 =
@@ -948,6 +952,7 @@ next
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -1120,6 +1125,7 @@ next
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -1141,5 +1147,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

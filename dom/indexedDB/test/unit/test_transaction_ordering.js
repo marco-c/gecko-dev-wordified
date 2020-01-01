@@ -82,6 +82,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -114,6 +115,7 @@ foo
 )
 ;
 yield
+undefined
 ;
 let
 trans1
@@ -210,8 +212,10 @@ oncomplete
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 let
 trans3
@@ -261,6 +265,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -286,5 +291,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

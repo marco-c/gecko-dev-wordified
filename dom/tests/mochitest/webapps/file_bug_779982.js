@@ -699,6 +699,7 @@ iframe
 )
 ;
 yield
+undefined
 ;
 }
 }

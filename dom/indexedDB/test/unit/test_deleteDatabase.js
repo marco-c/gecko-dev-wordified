@@ -119,6 +119,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -176,6 +177,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -267,6 +269,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -536,6 +539,7 @@ IDBOpenDBRequest
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -623,6 +627,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -691,6 +696,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -734,6 +740,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -757,5 +764,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

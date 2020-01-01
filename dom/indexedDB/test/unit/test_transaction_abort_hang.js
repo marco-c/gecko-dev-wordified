@@ -145,6 +145,7 @@ let
 event
 =
 yield
+undefined
 ;
 request
 .
@@ -175,6 +176,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -557,6 +559,7 @@ transactions
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -592,5 +595,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

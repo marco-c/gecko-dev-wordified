@@ -137,6 +137,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -177,6 +178,7 @@ true
 )
 ;
 yield
+undefined
 ;
 let
 key1
@@ -256,6 +258,7 @@ next
 ;
 }
 yield
+undefined
 ;
 request
 =
@@ -329,6 +332,7 @@ next
 ;
 }
 yield
+undefined
 ;
 request
 =
@@ -397,6 +401,7 @@ next
 ;
 }
 yield
+undefined
 ;
 request
 =
@@ -463,6 +468,7 @@ next
 ;
 }
 yield
+undefined
 ;
 request
 =
@@ -531,6 +537,7 @@ next
 ;
 }
 yield
+undefined
 ;
 request
 =
@@ -597,6 +604,7 @@ next
 ;
 }
 yield
+undefined
 ;
 request
 =
@@ -663,6 +671,7 @@ next
 ;
 }
 yield
+undefined
 ;
 request
 =
@@ -727,6 +736,7 @@ next
 ;
 }
 yield
+undefined
 ;
 try
 {
@@ -1197,5 +1207,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

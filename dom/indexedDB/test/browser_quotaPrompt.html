@@ -246,7 +246,7 @@ true
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -342,15 +342,6 @@ location
 .
 pathname
 ;
-const
-description
-=
-"
-My
-Test
-Database
-"
-;
 window
 .
 addEventListener
@@ -380,7 +371,7 @@ true
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -388,7 +379,6 @@ name
 version
 +
 +
-description
 )
 ;
 request
@@ -407,6 +397,7 @@ let
 event
 =
 yield
+undefined
 ;
 db
 =
@@ -453,6 +444,7 @@ onsuccess
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 setTimeout
 (
@@ -464,6 +456,7 @@ ready
 )
 ;
 yield
+undefined
 ;
 }
 <

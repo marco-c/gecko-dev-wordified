@@ -93,6 +93,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -393,6 +394,7 @@ let
 e
 =
 yield
+undefined
 ;
 is
 (
@@ -775,6 +777,7 @@ let
 e
 =
 yield
+undefined
 ;
 /
 /
@@ -923,6 +926,7 @@ grabEventAndContinueHandler
 e
 =
 yield
+undefined
 ;
 is
 (
@@ -1093,11 +1097,13 @@ onsuccess
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 finishTest
 (
 )
 ;
 yield
+undefined
 ;
 }

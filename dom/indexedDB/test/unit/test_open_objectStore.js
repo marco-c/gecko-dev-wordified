@@ -109,6 +109,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -184,6 +185,7 @@ name
 )
 ;
 yield
+undefined
 ;
 objectStore
 =
@@ -244,5 +246,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

@@ -93,6 +93,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -235,6 +236,7 @@ i
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -293,6 +295,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -379,6 +382,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -511,6 +515,7 @@ continueToNextStep
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -572,6 +577,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -700,6 +706,7 @@ continueToNextStep
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -755,6 +762,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -807,6 +815,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -846,6 +855,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 objectStoreCount
 -
@@ -868,6 +878,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -900,6 +911,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -926,5 +938,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

@@ -106,7 +106,7 @@ Test
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -136,6 +136,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -456,6 +457,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1012,6 +1014,7 @@ threw
 ;
 }
 yield
+undefined
 ;
 request
 =
@@ -1055,6 +1058,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 event
 .
@@ -1099,6 +1103,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1161,6 +1166,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 key
 =
@@ -1224,6 +1230,7 @@ abort
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1279,6 +1286,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1311,6 +1319,7 @@ next
 )
 ;
 yield
+undefined
 ;
 let
 keys
@@ -1469,6 +1478,7 @@ abort
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1563,6 +1573,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1705,6 +1716,7 @@ oncomplete
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 /
 /
@@ -1906,6 +1918,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 transaction
 .
@@ -2058,6 +2071,7 @@ continueToNextStep
 ;
 }
 yield
+undefined
 ;
 /
 /
@@ -2161,6 +2175,7 @@ continueToNextStep
 }
 ;
 yield
+undefined
 ;
 /
 /
@@ -2215,6 +2230,7 @@ continueToNextStep
 }
 ;
 yield
+undefined
 ;
 try
 {
@@ -2266,6 +2282,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 /
 /
@@ -2440,6 +2457,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -2512,6 +2530,7 @@ preventDefault
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -2584,6 +2603,7 @@ preventDefault
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -2630,5 +2650,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

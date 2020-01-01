@@ -87,6 +87,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -172,6 +173,7 @@ i
 ;
 }
 yield
+undefined
 ;
 function
 getObjectStore
@@ -276,6 +278,7 @@ continueToNextStep
 }
 ;
 yield
+undefined
 ;
 is
 (
@@ -375,6 +378,7 @@ continueToNextStep
 }
 ;
 yield
+undefined
 ;
 is
 (
@@ -474,6 +478,7 @@ continueToNextStep
 }
 ;
 yield
+undefined
 ;
 is
 (
@@ -573,6 +578,7 @@ continueToNextStep
 }
 ;
 yield
+undefined
 ;
 is
 (
@@ -681,6 +687,7 @@ continueToNextStep
 }
 ;
 yield
+undefined
 ;
 is
 (
@@ -792,6 +799,7 @@ continueToNextStep
 }
 ;
 yield
+undefined
 ;
 is
 (
@@ -909,6 +917,7 @@ continueToNextStep
 }
 ;
 yield
+undefined
 ;
 is
 (
@@ -928,5 +937,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

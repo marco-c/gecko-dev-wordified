@@ -93,6 +93,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -321,6 +322,7 @@ InvalidStateError
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -421,6 +423,7 @@ unexpectedSuccessHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -501,6 +504,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -609,6 +613,7 @@ unexpectedSuccessHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -731,5 +736,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

@@ -88,6 +88,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -161,6 +162,7 @@ bar
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -190,6 +192,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -345,6 +348,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 requestComplete
 =
@@ -383,6 +387,7 @@ oncomplete
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 try
 {
@@ -462,6 +467,7 @@ continueToNextStep
 )
 ;
 yield
+undefined
 ;
 try
 {
@@ -541,5 +547,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }
