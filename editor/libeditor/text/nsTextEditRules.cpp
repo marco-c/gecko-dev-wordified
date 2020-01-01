@@ -6712,7 +6712,7 @@ GetElementsByTagName
 NS_LITERAL_STRING
 (
 "
-div
+br
 "
 )
 getter_AddRefs
@@ -6766,7 +6766,7 @@ the
 case
 of
 one
-div
+br
 could
 there
 be
