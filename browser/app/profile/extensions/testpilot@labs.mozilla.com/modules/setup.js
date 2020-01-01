@@ -581,6 +581,17 @@ alwaysSubmitData
 "
 ;
 const
+UPDATE_CHANNEL_PREF
+=
+"
+app
+.
+update
+.
+channel
+"
+;
+const
 LOG_FILE_NAME
 =
 "
