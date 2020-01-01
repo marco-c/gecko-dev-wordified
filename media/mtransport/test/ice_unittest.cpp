@@ -1367,6 +1367,14 @@ c_str
 addr
 )
 ;
+addr
+.
+inet
+.
+port
+=
+kDefaultStunServerPort
+;
 ASSERT_EQ
 (
 PR_SUCCESS
