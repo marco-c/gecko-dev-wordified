@@ -14863,7 +14863,7 @@ newtab
 .
 preload
 "
-false
+true
 )
 ;
 /
