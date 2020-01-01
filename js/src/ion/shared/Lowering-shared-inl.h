@@ -1576,7 +1576,7 @@ policy
 LDefinition
 :
 :
-REDEFINED
+PASSTHROUGH
 ;
 if
 (
@@ -2101,7 +2101,7 @@ temp
 LDefinition
 :
 :
-INTEGER
+GENERAL
 )
 ;
 t
@@ -2192,7 +2192,7 @@ policy
 LDefinition
 :
 :
-REDEFINED
+PASSTHROUGH
 )
 {
 ins
