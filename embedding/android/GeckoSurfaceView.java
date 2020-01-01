@@ -2989,12 +2989,6 @@ event
 {
 if
 (
-mIMEState
-!
-=
-IME_STATE_DISABLED
-|
-|
 event
 .
 isSystem
