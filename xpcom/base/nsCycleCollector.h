@@ -320,7 +320,7 @@ nsCycleCollectorResults
 aResults
 nsICycleCollectorListener
 *
-aListener
+aManualListener
 )
 ;
 uint32_t

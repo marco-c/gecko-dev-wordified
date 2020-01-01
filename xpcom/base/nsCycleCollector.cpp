@@ -5701,7 +5701,7 @@ nsCycleCollectorResults
 aResults
 nsICycleCollectorListener
 *
-aListener
+aManualListener
 )
 ;
 void
@@ -5783,7 +5783,7 @@ ccType
 aCCType
 nsICycleCollectorListener
 *
-aListener
+aManualListener
 )
 ;
 void
@@ -15563,7 +15563,7 @@ nsCycleCollectorResults
 aResults
 nsICycleCollectorListener
 *
-aListener
+aManualListener
 )
 {
 CheckThreadSafety
@@ -15603,7 +15603,7 @@ aWhiteNodes
 BeginCollection
 (
 aCCType
-aListener
+aManualListener
 )
 ;
 bool
@@ -15784,7 +15784,7 @@ ccType
 aCCType
 nsICycleCollectorListener
 *
-aListener
+aManualListener
 )
 {
 TimeLog
@@ -15814,7 +15814,7 @@ MOZ_ASSERT_IF
 (
 isShutdown
 !
-aListener
+aManualListener
 )
 ;
 nsCOMPtr
@@ -15823,10 +15823,10 @@ nsICycleCollectorListener
 >
 listener
 (
-aListener
+aManualListener
 )
 ;
-aListener
+aManualListener
 =
 nullptr
 ;
@@ -17888,7 +17888,7 @@ nsCycleCollectorResults
 aResults
 nsICycleCollectorListener
 *
-aListener
+aManualListener
 )
 {
 CollectorData
@@ -17936,6 +17936,12 @@ nsCycleCollector_collect
 "
 )
 ;
+MOZ_ASSERT_IF
+(
+aManualListener
+aManuallyTriggered
+)
+;
 nsAutoTArray
 <
 PtrInfo
@@ -17960,7 +17966,7 @@ ScheduledCC
 &
 whiteNodes
 aResults
-aListener
+aManualListener
 )
 ;
 }
