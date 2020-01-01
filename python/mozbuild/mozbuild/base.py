@@ -1462,11 +1462,9 @@ _ensure_objdir_exists
         
 args
 =
-[
 self
 .
 _make_path
-]
         
 if
 directory
@@ -1835,6 +1833,11 @@ self
 .
 _make
 =
+[
+sys
+.
+executable
+                    
 os
 .
 path
@@ -1850,13 +1853,13 @@ build
 '
 pymake
 '
-                    
 '
 make
 .
 py
 '
 )
+]
             
 else
 :
@@ -1881,12 +1884,14 @@ self
 .
 _make
 =
+[
 which
 .
 which
 (
 test
 )
+]
                         
 break
                     
