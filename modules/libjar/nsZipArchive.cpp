@@ -7515,9 +7515,14 @@ Compression
 DEFLATED
 )
 {
+#
+ifdef
+DEBUG
 nsresult
 status
 =
+#
+endif
 gZlibInit
 (
 &
