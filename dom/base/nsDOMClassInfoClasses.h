@@ -2119,7 +2119,7 @@ EventException
 )
 DOMCI_CLASS
 (
-TouchPoint
+Touch
 )
 DOMCI_CLASS
 (
