@@ -698,6 +698,10 @@ const
 gfxMatrix
 &
 aMatrix
+TransformTypes
+aWhich
+=
+eAllTransforms
 )
 const
 ;
