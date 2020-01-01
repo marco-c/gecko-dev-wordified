@@ -11660,10 +11660,6 @@ Init
 (
 )
 {
-SetIdTableLive
-(
-)
-;
 mRefMap
 .
 Init
