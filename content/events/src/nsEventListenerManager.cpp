@@ -3236,6 +3236,14 @@ all
 /
 mutations
 .
+nsContentUtils
+:
+:
+HasMutationListeners
+relies
+on
+this
+.
 window
 -
 >
