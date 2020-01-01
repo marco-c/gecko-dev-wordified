@@ -665,6 +665,13 @@ nsAttrName
 .
 h
 "
+#
+include
+"
+nsParserConstants
+.
+h
+"
 static
 const
 char

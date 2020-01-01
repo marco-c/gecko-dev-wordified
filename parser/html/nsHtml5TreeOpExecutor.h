@@ -1846,14 +1846,7 @@ void
 DropHeldElements
 (
 )
-{
-mOwnedElements
-.
-Clear
-(
-)
 ;
-}
 /
 *
 *

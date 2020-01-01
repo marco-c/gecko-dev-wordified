@@ -3742,6 +3742,10 @@ ssle
 >
 UpdateStyleSheet
 (
+mFragmentMode
+?
+nsnull
+:
 this
 &
 willNotify
@@ -3762,6 +3766,10 @@ willNotify
 &
 !
 isAlternate
+&
+&
+!
+mFragmentMode
 )
 {
 +
@@ -7304,6 +7312,10 @@ ssle
 >
 UpdateStyleSheet
 (
+mFragmentMode
+?
+nsnull
+:
 this
 &
 willNotify
@@ -7333,6 +7345,10 @@ if
 (
 !
 isAlternate
+&
+&
+!
+mFragmentMode
 )
 {
 +

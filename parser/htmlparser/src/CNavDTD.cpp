@@ -602,6 +602,13 @@ nsIServiceManager
 h
 "
 #
+include
+"
+nsParserConstants
+.
+h
+"
+#
 ifdef
 NS_DEBUG
 #

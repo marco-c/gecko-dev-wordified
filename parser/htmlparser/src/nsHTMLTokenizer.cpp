@@ -562,6 +562,13 @@ nsUnicharUtils
 .
 h
 "
+#
+include
+"
+nsParserConstants
+.
+h
+"
 /
 *
 *
