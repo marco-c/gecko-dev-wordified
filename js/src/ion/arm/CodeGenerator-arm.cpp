@@ -10832,7 +10832,6 @@ tempInt
 )
 )
 ;
-const
 size_t
 *
 addr
@@ -10899,7 +10898,7 @@ masm
 .
 load32
 (
-ImmWord
+AbsoluteAddress
 (
 addr
 )
@@ -10922,7 +10921,7 @@ masm
 store32
 (
 tmp
-ImmWord
+AbsoluteAddress
 (
 addr
 )

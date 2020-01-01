@@ -2868,6 +2868,12 @@ spill
 calls
 yet
 .
+Bug
+732852
+.
+#
+if
+0
 JS_ASSERT
 (
 actual
@@ -2884,6 +2890,8 @@ empty
 )
 )
 ;
+#
+endif
 /
 /
 Scan
