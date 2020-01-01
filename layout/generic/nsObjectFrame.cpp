@@ -13243,14 +13243,6 @@ this
 )
 )
 ;
-if
-(
-!
-mInstanceOwner
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 /
 /
 Note

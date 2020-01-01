@@ -2535,11 +2535,6 @@ mBounds
 )
 ;
 }
-if
-(
-mBlockData
-)
-{
 changed
 =
 aValue
@@ -2557,7 +2552,6 @@ mCarriedOutBottomMargin
 =
 aValue
 ;
-}
 }
 else
 if
@@ -2854,11 +2848,6 @@ mBounds
 )
 ;
 }
-if
-(
-mInlineData
-)
-{
 mInlineData
 -
 >
@@ -2869,7 +2858,6 @@ Append
 aFreeList
 )
 ;
-}
 }
 }
 }

@@ -12129,10 +12129,6 @@ PR_FALSE
 ;
 if
 (
-!
-event
-|
-|
 NS_FAILED
 (
 event
