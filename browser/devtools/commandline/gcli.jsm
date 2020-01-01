@@ -48920,7 +48920,7 @@ p
 {
 l10n
 .
-introTextOpening
+introTextOpening2
 }
 <
 /
