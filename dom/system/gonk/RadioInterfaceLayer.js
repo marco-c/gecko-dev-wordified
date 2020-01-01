@@ -1225,16 +1225,6 @@ nsITelephonyProvider
 .
 CALL_STATE_INCOMING
 ;
-case
-RIL
-.
-CALL_STATE_BUSY
-:
-return
-nsITelephonyProvider
-.
-CALL_STATE_BUSY
-;
 default
 :
 throw
