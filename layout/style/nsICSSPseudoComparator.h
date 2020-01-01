@@ -455,9 +455,6 @@ virtual
 PRBool
 PseudoMatches
 (
-nsIAtom
-*
-aTag
 nsCSSSelector
 *
 aSelector
