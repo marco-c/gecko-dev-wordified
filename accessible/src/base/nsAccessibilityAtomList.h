@@ -1377,6 +1377,10 @@ href
 href
 "
 )
+/
+/
+XUL
+XLink
 ACCESSIBILITY_ATOM
 (
 increment
@@ -1455,6 +1459,16 @@ readonly
 readonly
 "
 )
+ACCESSIBILITY_ATOM
+(
+simple
+"
+simple
+"
+)
+/
+/
+XLink
 ACCESSIBILITY_ATOM
 (
 src

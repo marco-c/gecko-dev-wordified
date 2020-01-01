@@ -1628,6 +1628,19 @@ href
 ;
 nsCOMPtr
 <
+nsIURI
+>
+baseURI
+=
+content
+-
+>
+GetBaseURI
+(
+)
+;
+nsCOMPtr
+<
 nsIDocument
 >
 document
@@ -1658,6 +1671,7 @@ get
 )
 :
 nsnull
+baseURI
 )
 ;
 }
