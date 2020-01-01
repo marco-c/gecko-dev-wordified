@@ -1621,7 +1621,6 @@ getIncompatibleItemList
 (
 null
 null
-null
 nsIUpdateItem
 .
 TYPE_ANY

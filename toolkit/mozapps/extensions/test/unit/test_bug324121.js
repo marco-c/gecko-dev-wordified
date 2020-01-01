@@ -1176,8 +1176,6 @@ gEM
 getIncompatibleItemList
 (
 "
-"
-"
 3
 "
 "
