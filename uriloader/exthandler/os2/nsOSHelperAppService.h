@@ -565,14 +565,6 @@ aFound
 override
 nsIExternalProtocolService
 methods
-nsresult
-LoadUriInternal
-(
-nsIURI
-*
-aURL
-)
-;
 NS_IMETHODIMP
 GetApplicationDescription
 (
