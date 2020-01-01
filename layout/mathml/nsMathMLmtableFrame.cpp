@@ -3823,6 +3823,11 @@ FrameConstructor
 PostRestyleEvent
 (
 mContent
+-
+>
+AsElement
+(
+)
 eRestyle_Self
 nsChangeHint_ReflowFrame
 )
@@ -4959,6 +4964,11 @@ FrameConstructor
 PostRestyleEvent
 (
 mContent
+-
+>
+AsElement
+(
+)
 eRestyle_Self
 nsChangeHint_ReflowFrame
 )
@@ -5341,6 +5351,11 @@ FrameConstructor
 PostRestyleEvent
 (
 mContent
+-
+>
+AsElement
+(
+)
 eRestyle_Self
 nsChangeHint_ReflowFrame
 )

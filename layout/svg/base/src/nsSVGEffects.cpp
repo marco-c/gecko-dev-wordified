@@ -1659,6 +1659,11 @@ mFrame
 GetContent
 (
 )
+-
+>
+AsElement
+(
+)
 nsRestyleHint
 (
 0
@@ -1736,6 +1741,11 @@ mFrame
 -
 >
 GetContent
+(
+)
+-
+>
+AsElement
 (
 )
 nsRestyleHint
