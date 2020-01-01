@@ -299,7 +299,6 @@ INFO
 )
 <
 <
-L
 "
 PowerStateChange
 :
@@ -311,19 +310,16 @@ BatteryPower
 (
 )
 ?
-L
 "
 On
 "
 :
-L
 "
 Off
 "
 )
 <
 <
-L
 "
 battery
 "
@@ -356,7 +352,6 @@ INFO
 )
 <
 <
-L
 "
 Power
 Suspending
@@ -390,7 +385,6 @@ INFO
 )
 <
 <
-L
 "
 Power
 Resuming

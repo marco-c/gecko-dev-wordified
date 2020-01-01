@@ -916,6 +916,13 @@ ostream
 os
 )
 {
+#
+ifdef
+CHROMIUM_MOZILLA_BUILD
+return
+;
+#
+else
 scoped_ptr_malloc
 <
 char
@@ -1116,4 +1123,6 @@ n
 ;
 }
 }
+#
+endif
 }
