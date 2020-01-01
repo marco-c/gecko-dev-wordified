@@ -6815,7 +6815,7 @@ slot
 callobj
 -
 >
-freeslot
+slotSpan
 (
 )
 )
@@ -16034,7 +16034,7 @@ false
 empty
 -
 >
-freeslot
+slotSpan
 +
 =
 argslen
@@ -21151,7 +21151,7 @@ slot
 parent
 -
 >
-freeslot
+slotSpan
 )
 ;
 +
@@ -21159,7 +21159,7 @@ freeslot
 parent
 -
 >
-freeslot
+slotSpan
 ;
 listp
 =

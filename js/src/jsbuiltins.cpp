@@ -1241,7 +1241,7 @@ slot
 obj
 -
 >
-freeslot
+slotSpan
 (
 )
 )

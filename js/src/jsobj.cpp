@@ -24411,7 +24411,7 @@ slotp
 uint32
 slot
 =
-freeslot
+slotSpan
 (
 )
 ;
@@ -24485,7 +24485,7 @@ lastProp
 table
 -
 >
-freeslot
+freelist
 ;
 if
 (
@@ -24643,7 +24643,7 @@ slot
 uint32
 limit
 =
-freeslot
+slotSpan
 (
 )
 ;
@@ -24686,7 +24686,7 @@ lastProp
 table
 -
 >
-freeslot
+freelist
 ;
 /
 *
@@ -24796,7 +24796,7 @@ last
 SHAPE_INVALID_SLOT
 last
 <
-freeslot
+slotSpan
 (
 )
 )
@@ -37130,7 +37130,7 @@ slots
 obj
 -
 >
-freeslot
+slotSpan
 (
 )
 ;
@@ -37380,7 +37380,7 @@ against
 obj
 -
 >
-freeslot
+slotSpan
 because
 native
 objects
@@ -37394,7 +37394,7 @@ have
 failed
 to
 advance
-freeslot
+slotSpan
 to
 cover
 all
@@ -37455,7 +37455,7 @@ nativeEmpty
 obj
 -
 >
-freeslot
+slotSpan
 (
 )
 <
@@ -37466,7 +37466,7 @@ nslots
 obj
 -
 >
-freeslot
+slotSpan
 (
 )
 ;
@@ -37621,14 +37621,16 @@ cx
 Clear
 slot
 values
-and
+since
+obj
+-
+>
+clear
 reset
-freeslot
-so
-we
-'
-re
-consistent
+our
+shape
+to
+empty
 .
 *
 /
@@ -40121,7 +40123,7 @@ slots
 obj
 -
 >
-freeslot
+slotSpan
 (
 )
 ;

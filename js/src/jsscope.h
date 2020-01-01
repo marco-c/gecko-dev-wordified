@@ -2672,7 +2672,7 @@ table
 *
 /
 uint32
-freeslot
+freelist
 ;
 /
 *
@@ -2729,7 +2729,7 @@ removedCount
 (
 0
 )
-freeslot
+freelist
 (
 SHAPE_INVALID_SLOT
 )
@@ -3488,16 +3488,16 @@ t
 t
 -
 >
-freeslot
+freelist
 !
 =
 SHAPE_INVALID_SLOT
 t
 -
 >
-freeslot
+freelist
 <
-freeslot
+slotSpan
 )
 ;
 table
@@ -3520,7 +3520,7 @@ maintain
 JSObjectMap
 :
 :
-freeslot
+slotSpan
 in
 *
 the
@@ -3539,7 +3539,7 @@ empty
 shape
 has
 a
-freeslot
+slotSpan
 member
 correctly
 computed
@@ -3591,7 +3591,7 @@ must
 *
 have
 a
-freeslot
+slotSpan
 either
 one
 greater
@@ -3635,7 +3635,7 @@ parent
 p
 '
 s
-freeslot
+slotSpan
 whichever
 is
 greater
@@ -3682,7 +3682,7 @@ another
 way
 of
 computing
-freeslot
+slotSpan
 based
 on
 the
@@ -3700,7 +3700,7 @@ not
 need
 to
 store
-freeslot
+slotSpan
 in
 *
 Shape
@@ -3840,7 +3840,7 @@ that
 allocating
 a
 uint32
-freeslot
+slotSpan
 member
 in
 JSObjectMap
@@ -3870,7 +3870,7 @@ bit
 *
 targets
 adding
-freeslot
+slotSpan
 to
 JSObjectMap
 takes
@@ -3928,7 +3928,7 @@ afford
 to
 maintain
 both
-freeslot
+slotSpan
 and
 slot
 *
@@ -3940,7 +3940,7 @@ better
 if
 we
 eliminated
-freeslot
+slotSpan
 using
 slot
 combined
@@ -3970,14 +3970,14 @@ if
 (
 p
 )
-freeslot
+slotSpan
 =
 JS_MAX
 (
 p
 -
 >
-freeslot
+slotSpan
 slot
 +
 1
@@ -3985,7 +3985,7 @@ slot
 ;
 JS_ASSERT
 (
-freeslot
+slotSpan
 <
 JSObject
 :
@@ -4361,7 +4361,7 @@ shape
 =
 INVALID_SHAPE
 uint32
-freeslot
+slotSpan
 =
 0
 )

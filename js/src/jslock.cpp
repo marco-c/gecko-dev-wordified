@@ -3033,7 +3033,7 @@ nslots
 obj
 -
 >
-freeslot
+slotSpan
 (
 )
 ;

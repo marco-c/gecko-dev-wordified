@@ -4877,7 +4877,7 @@ globalFreeSlot
 globalObj
 -
 >
-freeslot
+slotSpan
 (
 )
 ;
@@ -5931,7 +5931,7 @@ JS_ASSERT
 globalObj
 -
 >
-freeslot
+slotSpan
 (
 )
 =
