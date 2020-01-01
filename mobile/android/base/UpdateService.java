@@ -1102,7 +1102,9 @@ UpdateService
 .
 class
 )
-0
+PendingIntent
+.
+FLAG_UPDATE_CURRENT
 )
 ;
 manager
