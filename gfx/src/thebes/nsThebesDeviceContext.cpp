@@ -2288,9 +2288,7 @@ gfxFontStyle
 fontStyle
 (
 NS_FONT_STYLE_NORMAL
-NS_FONT_VARIANT_NORMAL
 FONT_WEIGHT_NORMAL
-FONT_DECORATION_NONE
 16
 .
 0f
@@ -2357,9 +2355,7 @@ aFont
 >
 variant
 =
-fontStyle
-.
-variant
+NS_FONT_VARIANT_NORMAL
 ;
 aFont
 -
@@ -2384,9 +2380,7 @@ aFont
 >
 decorations
 =
-fontStyle
-.
-decorations
+NS_FONT_DECORATION_NONE
 ;
 aFont
 -
