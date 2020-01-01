@@ -138,6 +138,8 @@ content
 true
 )
 ;
+testWindow
+.
 gBrowser
 .
 loadURI
