@@ -8231,9 +8231,6 @@ Utils
 defaultFaviconURL
 )
 ;
-return
-true
-;
 }
 }
 )
