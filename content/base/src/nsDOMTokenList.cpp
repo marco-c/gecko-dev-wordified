@@ -873,6 +873,15 @@ nsAString
 aToken
 )
 {
+if
+(
+!
+mElement
+)
+{
+return
+;
+}
 nsAutoString
 resultStr
 ;
