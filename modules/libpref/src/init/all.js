@@ -40315,7 +40315,7 @@ mem
 .
 decode_bytes_at_a_time
 "
-200000
+4096
 )
 ;
 /
@@ -40342,7 +40342,7 @@ mem
 .
 max_ms_before_yield
 "
-400
+5
 )
 ;
 /
