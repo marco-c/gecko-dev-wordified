@@ -2423,10 +2423,6 @@ XPCPerThreadData
 )
 ptr
 ;
-if
-(
-data
-)
 delete
 data
 ;
@@ -2711,10 +2707,6 @@ failed
 "
 )
 ;
-if
-(
-data
-)
 delete
 data
 ;

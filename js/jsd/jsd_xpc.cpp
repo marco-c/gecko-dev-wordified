@@ -6153,17 +6153,9 @@ jsdScript
 gScriptCount
 )
 ;
-if
-(
-mFileName
-)
 delete
 mFileName
 ;
-if
-(
-mFunctionName
-)
 delete
 mFunctionName
 ;
