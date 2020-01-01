@@ -1295,7 +1295,16 @@ onBrowserCreated
 aBrowser
 )
 {
+let
+notificationBox
+=
 aBrowser
+.
+parentNode
+.
+parentNode
+;
+notificationBox
 .
 classList
 .
@@ -1308,7 +1317,7 @@ width
 "
 )
 ;
-aBrowser
+notificationBox
 .
 classList
 .
