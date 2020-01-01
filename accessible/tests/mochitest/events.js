@@ -693,7 +693,7 @@ is
 asked
 to
 check
-wether
+whether
 *
 event
 was
