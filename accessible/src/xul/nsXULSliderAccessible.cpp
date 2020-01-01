@@ -478,13 +478,6 @@ nsIFrame
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-a11y
-;
 /
 /
 /

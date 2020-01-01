@@ -740,13 +740,6 @@ using
 namespace
 mozilla
 ;
-using
-namespace
-mozilla
-:
-:
-a11y
-;
 /
 /
 /
