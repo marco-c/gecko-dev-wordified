@@ -527,6 +527,13 @@ h
 #
 include
 "
+prnetdb
+.
+h
+"
+#
+include
+"
 prtime
 .
 h
@@ -2038,11 +2045,8 @@ static
 PRUint32
 mSessionStartTime
 ;
-char
+PRNetAddr
 mServerAddress
-[
-64
-]
 ;
 /
 /
