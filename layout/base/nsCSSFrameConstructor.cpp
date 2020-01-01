@@ -66239,6 +66239,17 @@ forget
 }
 else
 {
+TreeMatchContext
+:
+:
+AutoFlexItemStyleFixupSkipper
+flexItemStyleFixupSkipper
+(
+aState
+.
+mTreeMatchContext
+)
+;
 styleContext
 =
 ResolveStyleContext
