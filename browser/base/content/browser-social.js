@@ -5646,15 +5646,12 @@ chromehidden
 '
 )
 .
-indexOf
+contains
 (
 "
-extrachrome
+toolbar
 "
 )
->
-=
-0
 ;
 }
 /
