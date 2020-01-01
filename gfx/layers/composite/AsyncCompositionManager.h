@@ -302,10 +302,10 @@ aTranslation
 LayerPoint
 (
 )
-LayoutDeviceToScreenScale
+ParentLayerToScreenScale
 aScale
 =
-LayoutDeviceToScreenScale
+ParentLayerToScreenScale
 (
 )
 )
@@ -411,7 +411,7 @@ rhs
 LayerPoint
 mTranslation
 ;
-LayoutDeviceToScreenScale
+ParentLayerToScreenScale
 mScale
 ;
 }

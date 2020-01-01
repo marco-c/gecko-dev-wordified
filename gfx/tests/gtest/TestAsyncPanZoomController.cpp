@@ -1367,9 +1367,18 @@ CSSRect
 ;
 metrics
 .
-mResolution
+mCumulativeResolution
 =
 LayoutDeviceToLayerScale
+(
+2
+)
+;
+metrics
+.
+mResolution
+=
+ParentLayerToLayerScale
 (
 2
 )
@@ -1522,7 +1531,7 @@ ViewTransform
 LayerPoint
 (
 )
-LayoutDeviceToScreenScale
+ParentLayerToScreenScale
 (
 2
 )
@@ -1575,7 +1584,7 @@ ViewTransform
 LayerPoint
 (
 )
-LayoutDeviceToScreenScale
+ParentLayerToScreenScale
 (
 2
 )
@@ -1646,7 +1655,7 @@ LayerPoint
 30
 0
 )
-LayoutDeviceToScreenScale
+ParentLayerToScreenScale
 (
 2
 )
@@ -1704,7 +1713,7 @@ LayerPoint
 30
 0
 )
-LayoutDeviceToScreenScale
+ParentLayerToScreenScale
 (
 2
 )
@@ -1776,7 +1785,7 @@ LayerPoint
 30
 0
 )
-LayoutDeviceToScreenScale
+ParentLayerToScreenScale
 (
 3
 )
@@ -1834,7 +1843,7 @@ LayerPoint
 30
 0
 )
-LayoutDeviceToScreenScale
+ParentLayerToScreenScale
 (
 3
 )
