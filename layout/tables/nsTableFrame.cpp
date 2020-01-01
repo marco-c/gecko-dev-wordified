@@ -46050,7 +46050,7 @@ an
 eloquent
 /
 /
-descriptiong
+description
 of
 its
 hackishness
