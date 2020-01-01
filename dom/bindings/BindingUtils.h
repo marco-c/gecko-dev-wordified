@@ -12004,8 +12004,13 @@ Handle
 jsid
 >
 id
+JS
+:
+:
+MutableHandle
+<
 JSPropertyDescriptor
-*
+>
 desc
 )
 ;

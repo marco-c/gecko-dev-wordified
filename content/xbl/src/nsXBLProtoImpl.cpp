@@ -1650,8 +1650,13 @@ JS
 :
 HandleId
 aNameAsId
+JS
+:
+:
+MutableHandle
+<
 JSPropertyDescriptor
-*
+>
 aDesc
 JSObject
 *

@@ -871,8 +871,13 @@ JS
 :
 HandleId
 aId
+JS
+:
+:
+MutableHandle
+<
 JSPropertyDescriptor
-*
+>
 aDesc
 )
 ;

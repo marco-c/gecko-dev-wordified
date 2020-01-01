@@ -60973,10 +60973,6 @@ holder
 id
 flags
 desc
-.
-address
-(
-)
 )
 )
 {
@@ -61059,10 +61055,6 @@ JS_WrapPropertyDescriptor
 (
 cx
 desc
-.
-address
-(
-)
 )
 ;
 }
@@ -61767,10 +61759,6 @@ expando
 id
 flags
 desc
-.
-address
-(
-)
 )
 )
 {
