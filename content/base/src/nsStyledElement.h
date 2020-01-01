@@ -316,7 +316,7 @@ bool
 aNotify
 )
 ;
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 *
 GetStyle
 (
