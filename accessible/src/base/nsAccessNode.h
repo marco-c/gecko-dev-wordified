@@ -1035,21 +1035,8 @@ nsAString
 aLocale
 )
 ;
-void
-ScrollTo
-(
-PRUint32
-aType
-)
-;
 protected
 :
-nsPresContext
-*
-GetPresContext
-(
-)
-;
 void
 LastRelease
 (
@@ -1083,6 +1070,7 @@ init
 d
 or
 shutdown
+.
 *
 /
 static
@@ -1106,6 +1094,7 @@ for
 our
 static
 data
+.
 static
 nsIStringBundle
 *

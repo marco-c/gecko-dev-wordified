@@ -1038,7 +1038,7 @@ JSVAL_TYPE_STRING
 static
 inline
 Type
-LazyArgsType
+MagicArgType
 (
 )
 {
@@ -3086,7 +3086,7 @@ cx
 )
 ;
 bool
-isLazyArguments
+isMagicArguments
 (
 JSContext
 *

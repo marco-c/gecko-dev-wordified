@@ -577,6 +577,10 @@ nsCrashOnException
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 define
 NP_POPUP_API_VERSION

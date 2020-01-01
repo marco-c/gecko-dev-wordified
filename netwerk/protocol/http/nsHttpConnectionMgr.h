@@ -517,13 +517,9 @@ nsIX509Cert3
 .
 h
 "
-#
-include
-"
+class
 nsHttpPipeline
-.
-h
-"
+;
 /
 /
 -

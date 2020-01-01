@@ -27147,6 +27147,9 @@ itemToInsert
 =
 i
 ;
+bool
+snap
+;
 surfaceRect
 .
 UnionRect
@@ -27158,6 +27161,8 @@ i
 GetBounds
 (
 aBuilder
+&
+snap
 )
 )
 ;

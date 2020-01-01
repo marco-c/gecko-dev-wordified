@@ -2199,9 +2199,6 @@ a
 special
 pref
 .
-bool
-javaIsEnabled
-;
 if
 (
 aPluginTag

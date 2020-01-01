@@ -25969,6 +25969,8 @@ GetChildAt
 (
 inParent
 inOffset
++
+1
 )
 ;
 if
@@ -26013,7 +26015,7 @@ res
 /
 else
 return
-GetPriorHTMLSibling
+GetNextHTMLSibling
 (
 node
 outNode

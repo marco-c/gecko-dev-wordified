@@ -3153,7 +3153,7 @@ script
 >
 bindings
 .
-countArgs
+numArgs
 (
 )
 )
@@ -5619,13 +5619,7 @@ result
 script
 -
 >
-code
-[
-0
-]
-=
-=
-JSOP_GENERATOR
+isGenerator
 ;
 }
 JS_SET_RVAL
@@ -7826,7 +7820,7 @@ native
 fun
 -
 >
-script
+mutableScript
 (
 )
 .
@@ -8313,7 +8307,7 @@ compartment
 clone
 -
 >
-script
+mutableScript
 (
 )
 .

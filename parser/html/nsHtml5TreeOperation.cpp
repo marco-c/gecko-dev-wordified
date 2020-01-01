@@ -1687,7 +1687,7 @@ GetDocument
 )
 )
 ;
-PRUint32
+PRInt32
 pos
 =
 parent

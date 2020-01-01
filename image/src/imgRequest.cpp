@@ -4238,9 +4238,11 @@ failed
 -
 to
 -
-decode
+process
 -
 uri
+-
+conent
 observers
 .
 nsCOMPtr
@@ -4279,6 +4281,8 @@ to
 process
 -
 uri
+-
+content
 "
 nsnull
 )

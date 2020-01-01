@@ -9,7 +9,7 @@ resource
 /
 services
 -
-sync
+common
 /
 log4moz
 .
@@ -1373,7 +1373,7 @@ repository
 getLogger
 (
 "
-Sync
+Common
 .
 RESTRequest
 "

@@ -1566,8 +1566,16 @@ GetBounds
 nsDisplayListBuilder
 *
 aBuilder
+bool
+*
+aSnap
 )
 {
+*
+aSnap
+=
+false
+;
 /
 /
 This

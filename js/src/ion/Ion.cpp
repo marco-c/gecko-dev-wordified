@@ -4729,7 +4729,7 @@ script
 )
 -
 >
-mayNeedArgsObj
+argumentsHasLocalBinding
 (
 )
 )

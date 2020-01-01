@@ -3299,11 +3299,10 @@ nsHTMLTableAccessible
 :
 nsISupports
 implementation
-NS_IMPL_ISUPPORTS_INHERITED2
+NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsHTMLTableAccessible
 nsAccessible
-nsHTMLTableAccessible
 nsIAccessibleTable
 )
 /

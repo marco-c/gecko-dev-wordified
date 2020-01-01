@@ -1940,7 +1940,7 @@ isInterpreted
 )
 )
 ;
-script
+mutableScript
 (
 )
 =
@@ -1966,7 +1966,7 @@ isInterpreted
 )
 )
 ;
-script
+mutableScript
 (
 )
 .

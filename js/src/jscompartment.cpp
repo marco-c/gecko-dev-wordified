@@ -741,6 +741,10 @@ watchpointMap
 (
 NULL
 )
+scriptCountsMap
+(
+NULL
+)
 #
 ifdef
 JS_ION
@@ -848,6 +852,14 @@ Foreground
 delete_
 (
 watchpointMap
+)
+;
+Foreground
+:
+:
+delete_
+(
+scriptCountsMap
 )
 ;
 #

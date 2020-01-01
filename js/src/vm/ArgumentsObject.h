@@ -1247,7 +1247,8 @@ them
 *
 /
 static
-bool
+ArgumentsObject
+*
 create
 (
 JSContext
