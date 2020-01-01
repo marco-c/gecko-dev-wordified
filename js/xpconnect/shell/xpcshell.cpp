@@ -554,6 +554,10 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+JS
+;
 class
 XPCShellDirProvider
 :
@@ -1004,7 +1008,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -5103,7 +5107,7 @@ JSHandleId
 id
 JSBool
 strict
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {

@@ -7986,7 +7986,10 @@ JSHandleObject
 obj
 JSIterateOp
 enum_op
-JSMutableHandleValue
+JS
+:
+:
+MutableHandleValue
 statep
 JS
 :

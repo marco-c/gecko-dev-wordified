@@ -190,6 +190,10 @@ xpcpublic
 .
 h
 "
+using
+namespace
+JS
+;
 /
 *
 *
@@ -466,7 +470,7 @@ JSContext
 cx
 JSHandleString
 src
-JSMutableHandleValue
+MutableHandleValue
 rval
 )
 {
@@ -489,7 +493,7 @@ JSContext
 cx
 JSHandleString
 src
-JSMutableHandleValue
+MutableHandleValue
 rval
 )
 {
@@ -514,7 +518,7 @@ const
 char
 *
 src
-JSMutableHandleValue
+MutableHandleValue
 rval
 )
 {
@@ -547,7 +551,7 @@ JSHandleString
 src1
 JSHandleString
 src2
-JSMutableHandleValue
+MutableHandleValue
 rval
 )
 {
@@ -581,7 +585,7 @@ JSContext
 cx
 JSHandleString
 src
-JSMutableHandleValue
+MutableHandleValue
 rval
 void
 (
@@ -682,7 +686,7 @@ JSHandleString
 src1
 JSHandleString
 src2
-JSMutableHandleValue
+MutableHandleValue
 rval
 )
 {
@@ -898,7 +902,7 @@ const
 char
 *
 src
-JSMutableHandleValue
+MutableHandleValue
 rval
 )
 {
