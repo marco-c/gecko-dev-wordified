@@ -857,12 +857,9 @@ sibling
 "
 )
 ;
-NS_IF_ADDREF
-(
 mNext
 =
 aNext
-)
 ;
 }
 void
@@ -944,8 +941,10 @@ mCropStyle
 PRInt8
 mTextAlignment
 ;
+nsRefPtr
+<
 nsTreeColumn
-*
+>
 mNext
 ;
 nsTreeColumn
