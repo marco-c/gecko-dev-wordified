@@ -2496,6 +2496,16 @@ LOAD_ANONYMOUS
 0
 )
 ;
+mConnectionInfo
+-
+>
+SetPrivate
+(
+UsingPrivateBrowsing
+(
+)
+)
+;
 gHttpHandler
 -
 >
