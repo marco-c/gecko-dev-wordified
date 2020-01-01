@@ -390,12 +390,6 @@ _initializeEditor
 (
 aCallback
 )
-this
-.
-_isInitialized
-=
-true
-;
 }
 /
 *
@@ -2815,6 +2809,9 @@ _variables
 :
 null
 _isInitialized
+:
+false
+_isDestroyed
 :
 false
 }
