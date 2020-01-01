@@ -526,6 +526,12 @@ nsThread
 (
 )
 ;
+nsThread
+(
+PRUint32
+aStackSize
+)
+;
 /
 /
 Initialize
@@ -944,6 +950,9 @@ mRunningEvent
 /
 /
 counter
+PRUint32
+mStackSize
+;
 struct
 nsThreadShutdownContext
 *

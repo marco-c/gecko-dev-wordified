@@ -1795,6 +1795,8 @@ NewThread
 (
 PRUint32
 creationFlags
+PRUint32
+stackSize
 nsIThread
 *
 *
@@ -1821,6 +1823,7 @@ thr
 new
 nsThread
 (
+stackSize
 )
 ;
 if
