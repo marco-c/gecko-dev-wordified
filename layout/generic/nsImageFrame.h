@@ -1373,6 +1373,11 @@ aCharset
 )
 const
 ;
+bool
+ShouldDisplaySelection
+(
+)
+;
 /
 *
 *
