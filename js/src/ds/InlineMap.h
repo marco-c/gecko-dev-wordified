@@ -117,6 +117,13 @@ ds_InlineMap_h
 #
 include
 "
+jsalloc
+.
+h
+"
+#
+include
+"
 js
 /
 HashTable
