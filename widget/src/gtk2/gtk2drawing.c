@@ -8935,7 +8935,7 @@ y
 y_displacement
 ;
 }
-calculate_arrow_dimensions
+calculate_arrow_rect
 (
 gComboBoxEntryArrowWidget
 &
