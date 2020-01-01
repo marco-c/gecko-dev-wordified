@@ -569,9 +569,6 @@ COMMA
 eHTMLTag_applet
 }
 )
-#
-ifdef
-MOZ_MEDIA
 DECL_TAG_LIST
 (
 gSourceParents
@@ -581,8 +578,6 @@ COMMA
 eHTMLTag_audio
 }
 )
-#
-endif
 /
 /
 *
@@ -1299,9 +1294,6 @@ COMMA
 eHTMLTag_p
 }
 )
-#
-ifdef
-MOZ_MEDIA
 DECL_TAG_LIST
 (
 gVideoKids
@@ -1316,8 +1308,6 @@ gAudioKids
 eHTMLTag_source
 }
 )
-#
-endif
 /
 /
 *
@@ -3174,12 +3164,6 @@ kids
 0
 0
 }
-#
-if
-defined
-(
-MOZ_MEDIA
-)
 {
 /
 *
@@ -3257,8 +3241,6 @@ kids
 &
 gAudioKids
 }
-#
-endif
 {
 /
 *
@@ -10319,12 +10301,6 @@ kids
 0
 0
 }
-#
-if
-defined
-(
-MOZ_MEDIA
-)
 {
 /
 *
@@ -10399,8 +10375,6 @@ kids
 gSourceParents
 0
 }
-#
-endif
 {
 /
 /
@@ -12083,12 +12057,6 @@ kids
 0
 0
 }
-#
-if
-defined
-(
-MOZ_MEDIA
-)
 {
 /
 *
@@ -12166,8 +12134,6 @@ kids
 &
 gVideoKids
 }
-#
-endif
 {
 /
 *

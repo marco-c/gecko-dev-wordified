@@ -442,12 +442,6 @@ e
 '
 }
 ;
-#
-if
-defined
-(
-MOZ_MEDIA
-)
 static
 const
 PRUnichar
@@ -477,8 +471,6 @@ o
 '
 }
 ;
-#
-endif
 static
 const
 PRUnichar
@@ -3092,12 +3084,6 @@ l
 '
 }
 ;
-#
-if
-defined
-(
-MOZ_MEDIA
-)
 static
 const
 PRUnichar
@@ -3130,8 +3116,6 @@ e
 '
 }
 ;
-#
-endif
 static
 const
 PRUnichar
@@ -3716,12 +3700,6 @@ r
 '
 }
 ;
-#
-if
-defined
-(
-MOZ_MEDIA
-)
 static
 const
 PRUnichar
@@ -3751,8 +3729,6 @@ o
 '
 }
 ;
-#
-endif
 static
 const
 PRUnichar
