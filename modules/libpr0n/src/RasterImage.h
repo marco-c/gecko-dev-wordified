@@ -3260,7 +3260,7 @@ mDiscardTrackerNode
 Source
 data
 members
-nsTArray
+FallibleTArray
 <
 char
 >
