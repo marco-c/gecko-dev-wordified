@@ -3096,7 +3096,8 @@ that
 /
 /
 require
-UniversalXPConnect
+chrome
+privilege
 .
 NS_ABORT_IF_FALSE
 (
@@ -3107,7 +3108,7 @@ mExposeVisitedStyle
 nsContentUtils
 :
 :
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 "

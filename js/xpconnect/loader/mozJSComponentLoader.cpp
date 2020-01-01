@@ -5274,7 +5274,7 @@ MOZ_ASSERT
 nsContentUtils
 :
 :
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 )

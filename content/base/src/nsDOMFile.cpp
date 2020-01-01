@@ -892,7 +892,7 @@ is
 unsafe
 to
 call
-CallerHasUniversalXPConnect
+IsCallerChrome
 on
 a
 non
@@ -942,7 +942,7 @@ if
 nsContentUtils
 :
 :
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 )

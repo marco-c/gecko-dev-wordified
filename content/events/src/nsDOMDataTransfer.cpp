@@ -2215,7 +2215,7 @@ Callers
 with
 /
 /
-UniversalXPConnect
+chrome
 privileges
 can
 always
@@ -2314,7 +2314,7 @@ NS_DRAGDROP_DRAGDROP
 nsContentUtils
 :
 :
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 )
@@ -2785,7 +2785,7 @@ file
 nsContentUtils
 :
 :
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 )

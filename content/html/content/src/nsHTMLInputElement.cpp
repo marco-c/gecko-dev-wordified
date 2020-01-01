@@ -5396,7 +5396,7 @@ if
 nsContentUtils
 :
 :
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 )
@@ -5704,7 +5704,7 @@ if
 nsContentUtils
 :
 :
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 )
@@ -5722,10 +5722,9 @@ FILE
 input
 widget
 requires
-the
 /
 /
-UniversalXPConnect
+chrome
 privilege
 return
 NS_ERROR_DOM_SECURITY_ERR
@@ -6892,7 +6891,7 @@ if
 nsContentUtils
 :
 :
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 )
@@ -7050,7 +7049,7 @@ if
 nsContentUtils
 :
 :
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 )
@@ -7068,10 +7067,7 @@ FILE
 input
 widget
 requires
-the
-/
-/
-UniversalXPConnect
+chrome
 privilege
 return
 NS_ERROR_DOM_SECURITY_ERR
