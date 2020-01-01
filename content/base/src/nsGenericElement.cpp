@@ -12319,9 +12319,6 @@ PR_TRUE
 ;
 }
 }
-#
-ifdef
-MOZ_SVG
 else
 if
 (
@@ -12354,6 +12351,7 @@ nsSVGFeatures
 :
 HaveFeature
 (
+aObject
 aFeature
 )
 )
@@ -12402,13 +12400,6 @@ PR_TRUE
 ;
 }
 }
-#
-endif
-/
-*
-MOZ_SVG
-*
-/
 #
 ifdef
 MOZ_SMIL
