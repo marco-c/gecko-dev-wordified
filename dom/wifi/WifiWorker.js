@@ -15223,10 +15223,10 @@ this
 .
 tetheringSettings
 [
-SETTINGS_WIFI_ENABLED
+SETTINGS_WIFI_TETHERING_ENABLED
 ]
 =
-false
+null
 ;
 this
 .
