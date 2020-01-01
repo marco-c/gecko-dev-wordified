@@ -717,15 +717,12 @@ nentries
 pcOffset
 =
 =
-unsigned
-(
 pc
 -
 script
 -
 >
 code
-)
 )
 return
 true
