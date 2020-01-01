@@ -163,12 +163,16 @@ aContent
 DocAccessible
 *
 aDoc
+nsTreeBodyFrame
+*
+aTree
 )
 :
 XULTreeGridAccessible
 (
 aContent
 aDoc
+aTree
 )
 ia2AccessibleTable
 (

@@ -127,6 +127,9 @@ XULListboxAccessible
 .
 h
 "
+class
+nsTreeBodyFrame
+;
 namespace
 mozilla
 {
@@ -194,6 +197,9 @@ aContent
 DocAccessible
 *
 aDoc
+nsTreeBodyFrame
+*
+aTreeframe
 )
 ;
 /
