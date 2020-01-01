@@ -494,7 +494,7 @@ h
 #
 include
 "
-qcms
+lcms
 .
 h
 "
@@ -3916,8 +3916,7 @@ aColor
 )
 )
 {
-qcms_transform
-*
+cmsHTRANSFORM
 transform
 =
 gfxPlatform
@@ -3968,7 +3967,7 @@ NS_GET_B
 aColor
 )
 ;
-qcms_transform_data
+cmsDoTransform
 (
 transform
 color

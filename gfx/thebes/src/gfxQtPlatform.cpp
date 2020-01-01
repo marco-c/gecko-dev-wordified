@@ -530,7 +530,7 @@ h
 #
 include
 "
-qcms
+lcms
 .
 h
 "
@@ -2165,8 +2165,7 @@ sDPI
 ;
 }
 }
-qcms_profile
-*
+cmsHPROFILE
 gfxQtPlatform
 :
 :

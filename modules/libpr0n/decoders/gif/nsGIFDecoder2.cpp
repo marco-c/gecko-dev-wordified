@@ -775,7 +775,7 @@ h
 #
 include
 "
-qcms
+lcms
 .
 h
 "
@@ -5865,8 +5865,7 @@ GetCMSMode
 eCMSMode_All
 )
 {
-qcms_transform
-*
+cmsHTRANSFORM
 transform
 =
 gfxPlatform
@@ -5880,7 +5879,7 @@ if
 (
 transform
 )
-qcms_transform_data
+cmsDoTransform
 (
 transform
 aColormap

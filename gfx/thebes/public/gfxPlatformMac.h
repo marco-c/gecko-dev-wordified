@@ -813,8 +813,7 @@ aPageLang
 )
 ;
 virtual
-qcms_profile
-*
+cmsHPROFILE
 GetPlatformCMSOutputProfile
 (
 )
