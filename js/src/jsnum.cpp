@@ -5181,7 +5181,10 @@ INT_STRING_LIMIT
 )
 return
 &
-js_IntStrings
+JSString
+:
+:
+intStringTable
 [
 i
 ]

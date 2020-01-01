@@ -16198,7 +16198,10 @@ c
 }
 }
 JSString
-js_UnitStrings
+JSString
+:
+:
+unitStringTable
 [
 ]
 =
@@ -18369,7 +18372,10 @@ length
 *
 /
 JSString
-js_IntStrings
+JSString
+:
+:
+intStringTable
 [
 ]
 =
