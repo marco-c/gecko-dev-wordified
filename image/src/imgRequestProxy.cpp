@@ -171,7 +171,7 @@ h
 #
 include
 "
-ImageFactory
+ImageOps
 .
 h
 "
@@ -5284,7 +5284,7 @@ Image
 >
 frozenImage
 =
-ImageFactory
+ImageOps
 :
 :
 Freeze
