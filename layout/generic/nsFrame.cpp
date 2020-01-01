@@ -24908,9 +24908,6 @@ isHorizontalFlexItem
 =
 false
 ;
-#
-ifdef
-MOZ_FLEXBOX
 if
 (
 isFlexItem
@@ -25201,11 +25198,6 @@ flexBasis
 }
 }
 }
-#
-endif
-/
-/
-MOZ_FLEXBOX
 /
 /
 Compute

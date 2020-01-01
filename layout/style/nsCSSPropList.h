@@ -5543,9 +5543,6 @@ kEmptyCellsKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
-#
-ifdef
-MOZ_FLEXBOX
 CSS_PROP_POSITION
 (
 align
@@ -5923,11 +5920,6 @@ mJustifyContent
 )
 eStyleAnimType_EnumU8
 )
-#
-endif
-/
-/
-MOZ_FLEXBOX
 CSS_PROP_DISPLAY
 (
 float

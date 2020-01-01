@@ -3298,9 +3298,6 @@ RequireWhitespace
 (
 )
 ;
-#
-ifdef
-MOZ_FLEXBOX
 /
 /
 For
@@ -3318,8 +3315,6 @@ ParseFlex
 (
 )
 ;
-#
-endif
 /
 /
 for
@@ -31902,9 +31897,6 @@ return
 false
 ;
 }
-#
-ifdef
-MOZ_FLEXBOX
 /
 /
 flex
@@ -33054,8 +33046,6 @@ return
 true
 ;
 }
-#
-endif
 /
 /
 <
@@ -37662,9 +37652,6 @@ ParseCursor
 (
 )
 ;
-#
-ifdef
-MOZ_FLEXBOX
 case
 eCSSProperty_flex
 :
@@ -37673,11 +37660,6 @@ ParseFlex
 (
 )
 ;
-#
-endif
-/
-/
-MOZ_FLEXBOX
 case
 eCSSProperty_font
 :

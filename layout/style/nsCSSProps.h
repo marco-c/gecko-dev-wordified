@@ -2712,9 +2712,6 @@ kEmptyCellsKTable
 [
 ]
 ;
-#
-ifdef
-MOZ_FLEXBOX
 static
 const
 int32_t
@@ -2743,11 +2740,6 @@ kJustifyContentKTable
 [
 ]
 ;
-#
-endif
-/
-/
-MOZ_FLEXBOX
 static
 const
 int32_t

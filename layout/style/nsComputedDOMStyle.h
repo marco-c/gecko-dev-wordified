@@ -3255,9 +3255,6 @@ DoGetAnimationPlayState
 (
 )
 ;
-#
-ifdef
-MOZ_FLEXBOX
 /
 *
 CSS
@@ -3361,11 +3358,6 @@ DoGetJustifyContent
 (
 )
 ;
-#
-endif
-/
-/
-MOZ_FLEXBOX
 /
 *
 SVG

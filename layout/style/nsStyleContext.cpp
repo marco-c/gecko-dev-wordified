@@ -2580,9 +2580,6 @@ block
 level
 equivalents
 .
-#
-ifdef
-MOZ_FLEXBOX
 if
 (
 !
@@ -2926,11 +2923,6 @@ displayVal
 }
 }
 }
-#
-endif
-/
-/
-MOZ_FLEXBOX
 /
 /
 Computer

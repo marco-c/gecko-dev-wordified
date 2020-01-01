@@ -6351,9 +6351,6 @@ ParentType
 aParentType
 )
 ;
-#
-ifdef
-MOZ_FLEXBOX
 /
 /
 Skip
@@ -6455,11 +6452,6 @@ nsFrameConstructorState
 aState
 )
 ;
-#
-endif
-/
-/
-MOZ_FLEXBOX
 /
 /
 Skip
@@ -7292,9 +7284,6 @@ an
 anonymous
 block
 .
-#
-ifdef
-MOZ_FLEXBOX
 bool
 NeedsAnonFlexItem
 (
@@ -7304,11 +7293,6 @@ nsFrameConstructorState
 aState
 )
 ;
-#
-endif
-/
-/
-MOZ_FLEXBOX
 /
 /
 Don
@@ -7962,9 +7946,6 @@ container
 frame
 *
 /
-#
-ifdef
-MOZ_FLEXBOX
 void
 CreateNeededAnonFlexItems
 (
@@ -7979,11 +7960,6 @@ nsIFrame
 aParentFrame
 )
 ;
-#
-endif
-/
-/
-MOZ_FLEXBOX
 /
 *
 *
