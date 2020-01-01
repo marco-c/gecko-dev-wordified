@@ -802,8 +802,6 @@ nsIRadioVisitor
 *
 NS_GetRadioUpdateValueMissingVisitor
 (
-PRBool
-aNotify
 )
 ;
 #

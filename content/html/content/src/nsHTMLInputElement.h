@@ -1421,8 +1421,6 @@ PR_TRUE
 void
 WillRemoveFromRadioGroup
 (
-PRBool
-aNotify
 )
 ;
 /
