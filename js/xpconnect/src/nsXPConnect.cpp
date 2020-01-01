@@ -2443,7 +2443,7 @@ JSObject
 aGlobalJSObj
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aJSContext
 "
@@ -2452,7 +2452,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aGlobalJSObj
 "
@@ -3009,7 +3009,7 @@ clasp
 principal
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -3198,7 +3198,7 @@ global
 JSTRACE_OBJECT
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 trc
 .
@@ -3276,7 +3276,7 @@ nsIXPConnectJSObjectHolder
 _retval
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aJSContext
 "
@@ -3285,7 +3285,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aCOMObj
 "
@@ -3294,7 +3294,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 _retval
 "
@@ -3772,10 +3772,7 @@ rv
 return
 rv
 ;
-#
-ifdef
-DEBUG
-NS_ASSERTION
+MOZ_ASSERT
 (
 aAllowWrapping
 |
@@ -3808,8 +3805,6 @@ here
 "
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -3860,7 +3855,7 @@ nsIXPConnectJSObjectHolder
 aHolder
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aHolder
 "
@@ -3869,7 +3864,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aJSContext
 "
@@ -3878,7 +3873,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aScopeArg
 "
@@ -3887,7 +3882,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aCOMObj
 "
@@ -3987,7 +3982,7 @@ nsIXPConnectJSObjectHolder
 aHolder
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aJSContext
 "
@@ -3996,7 +3991,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aScopeArg
 "
@@ -4005,7 +4000,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aCOMObj
 "
@@ -4093,7 +4088,7 @@ void
 result
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aJSContext
 "
@@ -4102,7 +4097,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aJSObjArg
 "
@@ -4111,7 +4106,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 result
 "
@@ -4284,7 +4279,7 @@ void
 result
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aOuter
 "
@@ -4293,7 +4288,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aJSContext
 "
@@ -4302,7 +4297,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aJSObjArg
 "
@@ -4311,7 +4306,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 result
 "
@@ -4392,7 +4387,7 @@ nsIXPConnectWrappedNative
 _retval
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aJSContext
 "
@@ -4401,7 +4396,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aJSObjArg
 "
@@ -4410,7 +4405,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 _retval
 "
@@ -4520,7 +4515,7 @@ JSObject
 aJSObj
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aJSContext
 "
@@ -4529,7 +4524,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aJSObj
 "
@@ -4684,7 +4679,7 @@ nsIXPConnectWrappedNative
 _retval
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aJSContext
 "
@@ -4693,7 +4688,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aScopeArg
 "
@@ -4702,7 +4697,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aCOMObj
 "
@@ -4711,7 +4706,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 _retval
 "
@@ -5372,7 +5367,7 @@ nsIStackFrame
 _retval
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 _retval
 "
@@ -5417,7 +5412,7 @@ nsIStackFrame
 aCurrentJSStack
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aCurrentJSStack
 "
@@ -5577,7 +5572,7 @@ nsAXPCNativeCallContext
 aCurrentNativeCallContext
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aCurrentNativeCallContext
 "
@@ -5761,7 +5756,7 @@ principal
 options
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_FAILED
 (
@@ -7989,7 +7984,7 @@ allowShortCircuit
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 IS_WN_REFLECTOR
 (
