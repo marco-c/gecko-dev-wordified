@@ -334,6 +334,7 @@ JS_BeginRequest
 cx
 )
 ;
+{
 jsvalRoot
 v
 (
@@ -372,6 +373,7 @@ addr
 )
 return
 ;
+}
 JS_DestroyContext
 (
 cx
