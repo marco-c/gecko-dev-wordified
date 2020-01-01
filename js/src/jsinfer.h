@@ -196,9 +196,6 @@ TypeInferenceSizes
 namespace
 js
 {
-class
-CallObject
-;
 namespace
 types
 {
@@ -6848,7 +6845,7 @@ activation
 .
 *
 /
-CallObject
+JSObject
 *
 activeCall
 ;

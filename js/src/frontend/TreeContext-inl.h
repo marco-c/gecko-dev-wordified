@@ -297,7 +297,7 @@ unsigned
 SharedContext
 :
 :
-argumentsLocal
+argumentsLocalSlot
 (
 )
 const

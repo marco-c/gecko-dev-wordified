@@ -499,7 +499,7 @@ uint16_t
 immediates
 followed
 by
-block
+atom
 index
 *
 /
