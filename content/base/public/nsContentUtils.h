@@ -2817,11 +2817,6 @@ aLength
 nsACString
 &
 aCharset
-bool
-*
-bigEndian
-=
-nullptr
 )
 ;
 static
