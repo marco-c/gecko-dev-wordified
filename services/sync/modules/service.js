@@ -5661,7 +5661,7 @@ _sync
 function
 WeaveSvc__sync
 (
-useThresh
+fullSync
 )
 {
 let
