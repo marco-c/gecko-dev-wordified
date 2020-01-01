@@ -111,6 +111,17 @@ cassert
 #
 include
 <
+cstdlib
+>
+/
+/
+for
+abs
+(
+)
+#
+include
+<
 cstring
 >
 #

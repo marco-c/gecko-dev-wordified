@@ -260,6 +260,8 @@ jbyteArray
 javaCameraFrame
 jint
 length
+jint
+rotation
 jlong
 context
 )
@@ -311,15 +313,6 @@ static
 jobject
 g_javaCmDevInfoObject
 ;
-static
-jobject
-g_javaContext
-;
-/
-/
-Java
-Application
-context
 }
 ;
 }
