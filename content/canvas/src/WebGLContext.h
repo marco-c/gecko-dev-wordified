@@ -1964,6 +1964,15 @@ fmt
 .
 )
 ;
+const
+char
+*
+ErrorName
+(
+GLenum
+error
+)
+;
 WebGLTexture
 *
 activeBoundTextureForTarget
