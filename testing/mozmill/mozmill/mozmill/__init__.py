@@ -1315,6 +1315,24 @@ mozmill
 userShutdown
 '
 )
+        
+#
+disable
+the
+crashreporter
+        
+os
+.
+environ
+[
+'
+MOZ_CRASHREPORTER_NO_REPORT
+'
+]
+=
+'
+1
+'
     
 def
 add_listener
