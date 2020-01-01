@@ -26109,10 +26109,6 @@ mHoverContent
 ;
 if
 (
-!
-mPresContext
-|
-|
 mPresContext
 -
 >
