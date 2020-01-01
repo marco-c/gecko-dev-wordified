@@ -1506,6 +1506,9 @@ mCharCode
 UINT
 mScanCode
 ;
+bool
+mIsDeadKey
+;
 MSG
 GetCharMessage
 (
@@ -1526,6 +1529,10 @@ msg
 .
 message
 =
+mIsDeadKey
+?
+WM_DEADCHAR
+:
 WM_CHAR
 ;
 msg
