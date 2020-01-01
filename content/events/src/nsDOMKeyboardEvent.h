@@ -476,6 +476,12 @@ nsKeyEvent
 aEvent
 )
 ;
+virtual
+~
+nsDOMKeyboardEvent
+(
+)
+;
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
