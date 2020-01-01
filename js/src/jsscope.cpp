@@ -11394,7 +11394,9 @@ void
 sprop
 -
 >
-getter
+getterValue
+(
+)
 (
 void
 *
@@ -11402,7 +11404,9 @@ void
 sprop
 -
 >
-setter
+setterValue
+(
+)
 sprop
 -
 >
