@@ -4864,7 +4864,7 @@ rv
 rv
 )
 ;
-int32_t
+uint32_t
 idx
 =
 prefixes
@@ -4920,7 +4920,7 @@ aCount
 ;
 for
 (
-int32_t
+uint32_t
 i
 =
 0
@@ -4989,4 +4989,12 @@ NS_OK
 ;
 }
 }
+/
+/
+namespace
+safebrowsing
 }
+/
+/
+namespace
+mozilla
