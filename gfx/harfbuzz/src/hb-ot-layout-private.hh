@@ -390,12 +390,6 @@ space
 /
 *
 XXX
-div
--
-by
--
-zero
-/
 speed
 up
 *
@@ -428,10 +422,7 @@ this
 face
 -
 >
-head_table
--
->
-unitsPerEm
+units_per_em
 ;
 }
 inline
@@ -462,10 +453,7 @@ this
 face
 -
 >
-head_table
--
->
-unitsPerEm
+units_per_em
 ;
 }
 }
