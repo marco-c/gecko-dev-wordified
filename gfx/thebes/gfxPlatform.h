@@ -905,6 +905,16 @@ CreateDrawTargetForSurface
 gfxASurface
 *
 aSurface
+const
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
+&
+aSize
 )
 ;
 /

@@ -1413,9 +1413,7 @@ GetSize
 )
 {
 return
-IntSize
-(
-)
+mSize
 ;
 }
 TemporaryRef
@@ -3781,6 +3779,7 @@ target
 Init
 (
 similar
+aSize
 )
 ;
 return
@@ -3800,6 +3799,10 @@ Init
 cairo_surface_t
 *
 aSurface
+const
+IntSize
+&
+aSize
 )
 {
 mContext
@@ -3808,6 +3811,10 @@ cairo_create
 (
 aSurface
 )
+;
+mSize
+=
+aSize
 ;
 return
 true

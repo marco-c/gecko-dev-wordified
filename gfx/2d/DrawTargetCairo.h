@@ -686,6 +686,10 @@ Init
 cairo_surface_t
 *
 aSurface
+const
+IntSize
+&
+aSize
 )
 ;
 void
@@ -918,6 +922,9 @@ data
 cairo_t
 *
 mContext
+;
+IntSize
+mSize
 ;
 std
 :
