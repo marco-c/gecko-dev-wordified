@@ -1111,10 +1111,6 @@ height
 :
 99px
 ;
-padding
-:
-10px
-;
 border
 :
 10px
@@ -1143,10 +1139,6 @@ width
 height
 :
 100px
-;
-margin
-:
-10px
 ;
 "
 >
