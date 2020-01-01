@@ -7545,7 +7545,7 @@ GetType
 )
 =
 =
-eBackgroundImage_Image
+eStyleImageType_Image
 )
 {
 imgIRequest
