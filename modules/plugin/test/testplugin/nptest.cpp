@@ -15326,6 +15326,7 @@ id
 )
 ;
 }
+#
 else
 bool
 getClipboardText
