@@ -218,10 +218,6 @@ nsIDOMMouseEvent
 MOZ_SOURCE_UNKNOWN
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMSimpleGestureEvent
 :

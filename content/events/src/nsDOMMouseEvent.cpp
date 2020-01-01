@@ -871,13 +871,6 @@ nullptr
 nullptr
 )
 ;
-e
--
->
-SetIsDOMBinding
-(
-)
-;
 bool
 trusted
 =
@@ -1988,13 +1981,6 @@ nsDOMMouseEvent
 aOwner
 aPresContext
 aEvent
-)
-;
-it
--
->
-SetIsDOMBinding
-(
 )
 ;
 return

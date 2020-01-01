@@ -175,10 +175,6 @@ PR_Now
 )
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMFocusEvent
 :

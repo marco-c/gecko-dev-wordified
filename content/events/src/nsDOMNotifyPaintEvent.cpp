@@ -209,10 +209,6 @@ mRequests
 )
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 NS_INTERFACE_MAP_BEGIN
 (

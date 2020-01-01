@@ -181,10 +181,6 @@ nsRect
 )
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMScrollAreaEvent
 :

@@ -185,10 +185,6 @@ PR_Now
 )
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMClipboardEvent
 :

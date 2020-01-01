@@ -268,10 +268,6 @@ have
 locale
 information
 .
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMCompositionEvent
 :

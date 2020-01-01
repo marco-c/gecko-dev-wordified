@@ -269,10 +269,6 @@ mNewScale
 0
 )
 {
-SetIsDOMBinding
-(
-)
-;
 if
 (
 aEvent

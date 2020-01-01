@@ -181,10 +181,6 @@ PR_Now
 )
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMKeyboardEvent
 :

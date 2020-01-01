@@ -224,10 +224,6 @@ mEvent
 delta
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMMouseScrollEvent
 :

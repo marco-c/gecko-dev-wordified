@@ -224,10 +224,6 @@ message
 aEventType
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 NS_IMPL_ADDREF_INHERITED
 (

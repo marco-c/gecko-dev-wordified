@@ -157,10 +157,6 @@ aEvent
 nullptr
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMMutationEvent
 :

@@ -246,10 +246,6 @@ nsIDOMMouseEvent
 MOZ_SOURCE_UNKNOWN
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 DOMWheelEvent
 :
