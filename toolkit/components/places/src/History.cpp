@@ -563,6 +563,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+nsNetUtil
+.
+h
+"
 /
 /
 Initial
