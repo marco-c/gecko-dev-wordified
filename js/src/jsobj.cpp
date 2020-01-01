@@ -22755,6 +22755,19 @@ imacpc
 else
 #
 endif
+{
+JS_ASSERT_NOT_ON_TRACE
+(
+cx
+)
+;
+/
+*
+for
+static
+analysis
+*
+/
 if
 (
 cx
@@ -22801,6 +22814,7 @@ else
 return
 NULL
 ;
+}
 }
 /
 *
