@@ -8817,7 +8817,7 @@ else
 showView
 (
 "
-extensions
+search
 "
 )
 ;
