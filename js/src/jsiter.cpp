@@ -8490,14 +8490,12 @@ sp
 stackfp
 -
 >
-repointGeneratorFrameDown
+setPrev
 (
 cx
 -
 >
-maybefp
-(
-)
+regs
 )
 ;
 stackfp
