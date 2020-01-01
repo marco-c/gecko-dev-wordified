@@ -1203,6 +1203,10 @@ _normalize_command
 self
 .
 _loader_script
+self
+.
+topsrcdir
+            
 path
 ]
 True
