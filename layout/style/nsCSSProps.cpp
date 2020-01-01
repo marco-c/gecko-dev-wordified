@@ -572,6 +572,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -596,6 +597,7 @@ CSS_PROP_SHORTHAND
 name_
 id_
 method_
+flags_
 )
 #
 name_
@@ -4611,6 +4613,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -4828,6 +4831,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -4864,6 +4868,7 @@ CSS_PROP_FONT
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -4877,6 +4882,7 @@ CSS_PROP_COLOR
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -4890,6 +4896,7 @@ CSS_PROP_BACKGROUND
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -4903,6 +4910,7 @@ CSS_PROP_LIST
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -4916,6 +4924,7 @@ CSS_PROP_POSITION
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -4929,6 +4938,7 @@ CSS_PROP_TEXT
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -4942,6 +4952,7 @@ CSS_PROP_TEXTRESET
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -4955,6 +4966,7 @@ CSS_PROP_DISPLAY
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -4968,6 +4980,7 @@ CSS_PROP_VISIBILITY
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -4981,6 +4994,7 @@ CSS_PROP_CONTENT
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -4994,6 +5008,7 @@ CSS_PROP_QUOTES
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -5007,6 +5022,7 @@ CSS_PROP_USERINTERFACE
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -5020,6 +5036,7 @@ CSS_PROP_UIRESET
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -5033,6 +5050,7 @@ CSS_PROP_TABLE
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -5046,6 +5064,7 @@ CSS_PROP_TABLEBORDER
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -5059,6 +5078,7 @@ CSS_PROP_MARGIN
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -5072,6 +5092,7 @@ CSS_PROP_PADDING
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -5085,6 +5106,7 @@ CSS_PROP_BORDER
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -5098,6 +5120,7 @@ CSS_PROP_OUTLINE
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -5111,6 +5134,7 @@ CSS_PROP_XUL
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -5124,6 +5148,7 @@ CSS_PROP_SVG
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -5137,6 +5162,7 @@ CSS_PROP_SVGRESET
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -5150,6 +5176,7 @@ CSS_PROP_COLUMN
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -5178,6 +5205,7 @@ CSS_PROP_BACKENDONLY
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -5267,6 +5295,63 @@ CSS_PROP_COLUMN
 #
 undef
 CSS_PROP_BACKENDONLY
+}
+;
+const
+PRUint32
+nsCSSProps
+:
+:
+kFlagsTable
+[
+eCSSProperty_COUNT
+]
+=
+{
+#
+define
+CSS_PROP
+(
+name_
+id_
+method_
+flags_
+datastruct_
+member_
+type_
+kwtable_
+)
+flags_
+#
+include
+"
+nsCSSPropList
+.
+h
+"
+#
+undef
+CSS_PROP
+#
+define
+CSS_PROP_SHORTHAND
+(
+name_
+id_
+method_
+flags_
+)
+flags_
+#
+include
+"
+nsCSSPropList
+.
+h
+"
+#
+undef
+CSS_PROP_SHORTHAND
 }
 ;
 static
@@ -6451,6 +6536,7 @@ CSS_PROP_SHORTHAND
 name_
 id_
 method_
+flags_
 )
 g
 #

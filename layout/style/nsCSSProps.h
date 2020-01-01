@@ -871,6 +871,14 @@ kKeywordTableTable
 eCSSProperty_COUNT_no_shorthands
 ]
 ;
+static
+const
+PRUint32
+kFlagsTable
+[
+eCSSProperty_COUNT
+]
+;
 /
 /
 A

@@ -479,6 +479,7 @@ CSS_PROP_NOTIMPLEMENTED
 name_
 id_
 method_
+flags_
 )
 \
 {
@@ -494,6 +495,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -577,6 +579,7 @@ CSS_PROP_NOTIMPLEMENTED
 name_
 id_
 method_
+flags_
 )
 \
 #
@@ -588,6 +591,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -628,6 +632,7 @@ CSS_PROP_SHORTHAND
 name_
 id_
 method_
+flags_
 )
 \
 {
@@ -672,6 +677,7 @@ CSS_PROP_SHORTHAND
 name_
 id_
 method_
+flags_
 )
 \
 #
