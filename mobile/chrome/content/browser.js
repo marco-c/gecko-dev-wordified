@@ -1426,6 +1426,9 @@ gestureModule
 new
 GestureModule
 (
+Elements
+.
+browsers
 )
 ;
 let

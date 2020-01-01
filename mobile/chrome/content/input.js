@@ -7325,9 +7325,10 @@ event
 function
 GestureModule
 (
+aElement
 )
 {
-window
+aElement
 .
 addEventListener
 (
@@ -7338,7 +7339,7 @@ this
 true
 )
 ;
-window
+aElement
 .
 addEventListener
 (
@@ -7349,7 +7350,7 @@ this
 true
 )
 ;
-window
+aElement
 .
 addEventListener
 (
@@ -7360,7 +7361,7 @@ this
 true
 )
 ;
-window
+aElement
 .
 addEventListener
 (
@@ -7371,7 +7372,7 @@ this
 true
 )
 ;
-window
+aElement
 .
 addEventListener
 (
@@ -7793,15 +7794,6 @@ if
 (
 !
 success
-|
-|
-(
-aEvent
-.
-target
-instanceof
-XULElement
-)
 |
 |
 !
