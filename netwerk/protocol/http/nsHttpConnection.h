@@ -488,6 +488,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIStreamListener
 .
 h
