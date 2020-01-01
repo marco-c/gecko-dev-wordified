@@ -813,7 +813,7 @@ mContent
 )
 -
 >
-IsDependentAttribute
+AttributeDefinesGeometry
 (
 aAttribute
 )

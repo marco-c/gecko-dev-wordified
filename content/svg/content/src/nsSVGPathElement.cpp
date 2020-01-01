@@ -3564,8 +3564,9 @@ PRBool
 nsSVGPathElement
 :
 :
-IsDependentAttribute
+AttributeDefinesGeometry
 (
+const
 nsIAtom
 *
 aName
