@@ -1589,6 +1589,13 @@ JSOp
 op
 )
 ;
+bool
+jsop_compare
+(
+JSOp
+op
+)
+;
 private
 :
 JSAtom
