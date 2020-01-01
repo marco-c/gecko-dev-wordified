@@ -12591,13 +12591,6 @@ window
 top
 ;
 var
-topDoc
-=
-requestingWindow
-.
-document
-;
-var
 chromeWin
 =
 this
@@ -12944,7 +12937,7 @@ removed
 "
 )
 {
-topDoc
+browser
 .
 removeEventListener
 (
@@ -12952,6 +12945,7 @@ removeEventListener
 mozfullscreenchange
 "
 onFullScreen
+true
 )
 ;
 if
@@ -13048,7 +13042,7 @@ now
 impotent
 notification
 .
-topDoc
+browser
 .
 addEventListener
 (
@@ -13056,6 +13050,7 @@ addEventListener
 mozfullscreenchange
 "
 onFullScreen
+true
 )
 ;
 }
