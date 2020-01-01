@@ -547,9 +547,9 @@ VMFrame
 *
 previous
 ;
-JSFrameRegs
+void
 *
-oldRegs
+unused
 ;
 JSFrameRegs
 regs
