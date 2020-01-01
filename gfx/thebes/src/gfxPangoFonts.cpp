@@ -2022,6 +2022,12 @@ size
 ;
 if
 (
+mAdjustedSize
+=
+=
+0
+|
+|
 GetStyle
 (
 )
