@@ -7919,6 +7919,7 @@ quicknav_modes
 Link
 Heading
 FormElement
+Landmark
 ListItem
 "
 )
