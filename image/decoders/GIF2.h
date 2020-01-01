@@ -367,7 +367,7 @@ datum
 "
 *
 /
-int32
+PRInt32
 datum
 ;
 /
