@@ -824,12 +824,6 @@ void
 aCallbackData
 )
 ;
-nsRefPtr
-<
-Layer
->
-mRoot
-;
 /
 /
 The
