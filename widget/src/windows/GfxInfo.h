@@ -506,6 +506,9 @@ mDriverDate
 nsString
 mDeviceKey
 ;
+nsString
+mDeviceKeyDebug
+;
 nsresult
 GetFeatureStatusImpl
 (
