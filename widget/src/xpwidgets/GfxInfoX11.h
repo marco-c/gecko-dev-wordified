@@ -552,8 +552,8 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterVendorID
 (
-PRUint32
-*
+nsAString
+&
 aAdapterVendorID
 )
 ;
@@ -561,8 +561,8 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterDeviceID
 (
-PRUint32
-*
+nsAString
+&
 aAdapterDeviceID
 )
 ;
@@ -615,8 +615,8 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterVendorID2
 (
-PRUint32
-*
+nsAString
+&
 aAdapterVendorID
 )
 ;
@@ -624,8 +624,8 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterDeviceID2
 (
-PRUint32
-*
+nsAString
+&
 aAdapterDeviceID
 )
 ;
