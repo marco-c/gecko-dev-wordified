@@ -1843,9 +1843,6 @@ bar
 '
 bin
 /
-*
-*
-/
 chrome
 .
 manifest

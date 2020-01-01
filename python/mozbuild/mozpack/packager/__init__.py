@@ -1924,10 +1924,6 @@ join
 path
                                           
 '
-*
-*
-'
-'
 chrome
 .
 manifest
