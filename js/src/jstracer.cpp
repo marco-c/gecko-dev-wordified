@@ -4387,7 +4387,7 @@ if
 v
 =
 =
-LIR_fsub
+LIR_sub
 )
 i1
 =
