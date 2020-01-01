@@ -819,7 +819,7 @@ nsnull
 )
 ;
 virtual
-void
+PRBool
 SetupCairoFont
 (
 cairo_t

@@ -4067,7 +4067,7 @@ FontEntry
 mFontEntry
 ;
 virtual
-void
+PRBool
 SetupCairoFont
 (
 cairo_t
