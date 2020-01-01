@@ -6883,6 +6883,18 @@ a
 touch
 screen
 .
+/
+/
+Mozilla
+Bug
+741038
+-
+support
+GB
+touchscreen
+drivers
+/
+/
 if
 (
 test_bit
@@ -6909,6 +6921,8 @@ INPUT_DEVICE_CLASS_TOUCH
 |
 INPUT_DEVICE_CLASS_TOUCH_MT
 ;
+/
+/
 }
 /
 /
