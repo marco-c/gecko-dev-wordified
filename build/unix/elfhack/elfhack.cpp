@@ -3378,6 +3378,9 @@ relhack32_section
 SHT_PROGBITS
 SHF_ALLOC
 0
+(
+Elf32_Off
+)
 -
 1
 0
@@ -3430,6 +3433,9 @@ SHF_ALLOC
 |
 SHF_EXECINSTR
 0
+(
+Elf32_Off
+)
 -
 1
 0

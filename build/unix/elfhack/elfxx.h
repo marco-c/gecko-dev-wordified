@@ -1796,6 +1796,7 @@ encoding
 }
 static
 inline
+unsigned
 int
 size
 (
