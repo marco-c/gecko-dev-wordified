@@ -513,6 +513,10 @@ group
 excludeItems
 =
 1
+&
+queryType
+=
+1
 "
 ;
 const
