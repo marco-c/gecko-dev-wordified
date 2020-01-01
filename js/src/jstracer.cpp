@@ -2421,7 +2421,6 @@ isconstq
 &
 &
 (
-(
 d
 =
 i
@@ -2439,6 +2438,12 @@ jsdouble
 (
 jsuint
 )
+d
+&
+&
+!
+JSDOUBLE_IS_NEGZERO
+(
 d
 )
 )
