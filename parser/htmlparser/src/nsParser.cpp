@@ -3206,7 +3206,7 @@ DOCTYPE
 "
 PR_TRUE
 tmpIndex
-1
+0
 )
 )
 )
@@ -3324,7 +3324,7 @@ HTML
 "
 PR_TRUE
 theIndex
-1
+0
 )
 ;
 if
@@ -3359,7 +3359,7 @@ PUBLIC
 "
 PR_TRUE
 theIndex
-1
+0
 )
 ;
 if
@@ -3790,7 +3790,7 @@ SYSTEM
 "
 PR_TRUE
 theIndex
-1
+0
 )
 ;
 if
