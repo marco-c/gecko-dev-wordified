@@ -724,6 +724,13 @@ nsXULPrototypeCache
 h
 "
 #
+include
+"
+nsXULTooltipListener
+.
+h
+"
+#
 endif
 #
 ifdef
@@ -1444,6 +1451,13 @@ nsXULPrototypeElement
 :
 :
 ReleaseGlobals
+(
+)
+;
+nsXULTooltipListener
+:
+:
+ReleaseInstance
 (
 )
 ;

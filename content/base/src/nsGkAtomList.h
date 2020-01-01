@@ -6280,13 +6280,6 @@ tooltip
 )
 GK_ATOM
 (
-tooltiplistener
-"
-tooltiplistener
-"
-)
-GK_ATOM
-(
 tooltiptext
 "
 tooltiptext
