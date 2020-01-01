@@ -2116,10 +2116,10 @@ nsXBLInsertionPointEntry
 aData
 )
 ;
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NATIVE_PTR
+CycleCollectionNoteChild
 (
+cb
 entry
-nsXBLInsertionPointEntry
 "
 [
 insertion
@@ -2129,6 +2129,7 @@ table
 value
 "
 )
+;
 return
 kHashEnumerateNext
 ;

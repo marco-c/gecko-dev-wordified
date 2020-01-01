@@ -9279,10 +9279,10 @@ NoteXPCOMChild
 aContent
 )
 ;
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NATIVE_PTR
+CycleCollectionNoteChild
 (
+cb
 binding
-nsXBLBinding
 "
 [
 via
@@ -9293,6 +9293,7 @@ mBindingTable
 value
 "
 )
+;
 }
 if
 (
