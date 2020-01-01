@@ -4152,6 +4152,12 @@ op
 =
 =
 LIR_cmovi
+|
+|
+op
+=
+=
+LIR_cmovd
 ;
 }
 inline
