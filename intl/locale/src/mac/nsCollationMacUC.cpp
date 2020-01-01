@@ -143,7 +143,7 @@ false
 )
 mLocale
 (
-NULL
+nullptr
 )
 mLastStrength
 (
@@ -152,7 +152,7 @@ mLastStrength
 )
 mCollator
 (
-NULL
+nullptr
 )
 mBuffer
 (
@@ -989,7 +989,7 @@ string2
 Length
 (
 )
-NULL
+nullptr
 (
 SInt32
 *
@@ -1090,7 +1090,7 @@ key2
 ItemCount
 )
 len2
-NULL
+nullptr
 (
 SInt32
 *

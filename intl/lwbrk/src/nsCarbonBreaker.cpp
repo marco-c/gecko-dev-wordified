@@ -156,7 +156,7 @@ status
 =
 UCCreateTextBreakLocator
 (
-NULL
+nullptr
 0
 kUCTextBreakLineMask
 &

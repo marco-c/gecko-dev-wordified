@@ -297,7 +297,7 @@ os2Codepage
 LocaleObject
 locObj
 =
-NULL
+nullptr
 ;
 int
 codePage

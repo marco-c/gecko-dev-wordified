@@ -204,7 +204,7 @@ nullptr
 LocaleObject
 locObj
 =
-NULL
+nullptr
 ;
 int
 ret

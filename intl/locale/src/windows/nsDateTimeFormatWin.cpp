@@ -890,7 +890,7 @@ nsGetDateFormatW
 dwFlags_Date
 &
 system_time
-NULL
+nullptr
 dateBuffer
 NSDATETIMEFORMAT_BUFFER_LEN
 )
@@ -946,7 +946,7 @@ nsGetTimeFormatW
 dwFlags_Time
 &
 system_time
-NULL
+nullptr
 timeBuffer
 NSDATETIMEFORMAT_BUFFER_LEN
 )
@@ -1387,7 +1387,7 @@ get
 )
 )
 :
-NULL
+nullptr
 (
 LPWSTR
 )
@@ -1451,7 +1451,7 @@ get
 )
 )
 :
-NULL
+nullptr
 (
 LPWSTR
 )

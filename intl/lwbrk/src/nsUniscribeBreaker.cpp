@@ -209,8 +209,8 @@ items
 Length
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 items
 .
 Elements

@@ -758,7 +758,7 @@ localeStr
 =
 CFStringCreateWithCharacters
 (
-NULL
+nullptr
 mLocale
 .
 get
@@ -775,7 +775,7 @@ formatterLocale
 =
 CFLocaleCreate
 (
-NULL
+nullptr
 localeStr
 )
 ;
@@ -968,7 +968,7 @@ formatter
 =
 CFDateFormatterCreate
 (
-NULL
+nullptr
 formatterLocale
 dateStyle
 timeStyle
@@ -1030,7 +1030,7 @@ newFormat
 =
 CFStringCreateMutableCopy
 (
-NULL
+nullptr
 0
 oldFormat
 )
@@ -1106,7 +1106,7 @@ newFormat
 =
 CFStringCreateMutableCopy
 (
-NULL
+nullptr
 0
 oldFormat
 )
@@ -1352,7 +1352,7 @@ formattedDate
 =
 CFDateFormatterCreateStringWithAbsoluteTime
 (
-NULL
+nullptr
 formatter
 absTime
 )

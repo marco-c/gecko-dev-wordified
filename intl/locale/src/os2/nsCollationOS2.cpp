@@ -385,7 +385,7 @@ string2
 LocaleObject
 locObj
 =
-NULL
+nullptr
 ;
 int
 ret
@@ -530,7 +530,7 @@ stringIn
 LocaleObject
 locObj
 =
-NULL
+nullptr
 ;
 int
 ret
@@ -592,7 +592,7 @@ length
 UniStrxfrm
 (
 locObj
-NULL
+nullptr
 reinterpret_cast
 <
 const
