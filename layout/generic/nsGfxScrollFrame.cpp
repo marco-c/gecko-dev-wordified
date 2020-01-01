@@ -1468,6 +1468,11 @@ aFlags
 if
 (
 aForChild
+)
+{
+if
+(
+aForChild
 =
 =
 mInner
@@ -1773,6 +1778,7 @@ here
 .
 return
 ;
+}
 }
 }
 nsHTMLContainerFrame
