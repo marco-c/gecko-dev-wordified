@@ -18138,7 +18138,8 @@ redraws
 to
 once
 every
-second
+2
+seconds
 while
 loading
 the
