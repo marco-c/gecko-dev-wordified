@@ -292,14 +292,6 @@ DOMCI_CLASS
 (
 HTMLCollection
 )
-DOMCI_CLASS
-(
-HTMLPropertiesCollection
-)
-DOMCI_CLASS
-(
-PropertyNodeList
-)
 /
 /
 HTML

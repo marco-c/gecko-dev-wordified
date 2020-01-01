@@ -253,9 +253,6 @@ class
 nsDOMSettableTokenList
 ;
 class
-nsIDOMHTMLPropertiesCollection
-;
-class
 nsIDOMDOMStringMap
 ;
 namespace
@@ -1834,7 +1831,7 @@ protected
 void
 GetProperties
 (
-nsIDOMHTMLPropertiesCollection
+nsISupports
 *
 *
 aProperties
@@ -9974,7 +9971,7 @@ ErrorCode
 NS_IMETHOD
 GetProperties
 (
-nsIDOMHTMLPropertiesCollection
+nsISupports
 *
 *
 aReturn
