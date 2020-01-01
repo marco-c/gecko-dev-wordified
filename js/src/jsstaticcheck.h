@@ -509,7 +509,7 @@ cx
 JS_ASSERT
 (
 !
-JS_ON_TRACE
+JS_EXECUTING_TRACE
 (
 cx
 )
@@ -556,7 +556,7 @@ cx
 JS_ASSERT
 (
 !
-JS_ON_TRACE
+JS_EXECUTING_TRACE
 (
 cx
 )
