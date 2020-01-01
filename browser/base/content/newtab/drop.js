@@ -269,19 +269,6 @@ dragexit
 event
 .
 *
-param
-aCallback
-The
-callback
-to
-call
-when
-the
-drop
-is
-finished
-.
-*
 /
 drop
 :
@@ -290,7 +277,6 @@ Drop_drop
 (
 aCell
 aEvent
-aCallback
 )
 {
 /
@@ -385,7 +371,6 @@ gUpdater
 .
 updateGrid
 (
-aCallback
 )
 ;
 }

@@ -146,10 +146,7 @@ addNewTabPageTab
 ;
 pinCell
 (
-cells
-[
 0
-]
 )
 ;
 checkGrid
@@ -226,10 +223,7 @@ mode
 yield
 blockCell
 (
-cells
-[
 1
-]
 )
 ;
 checkGrid
@@ -249,10 +243,7 @@ checkGrid
 yield
 unpinCell
 (
-cells
-[
 0
-]
 )
 ;
 checkGrid
