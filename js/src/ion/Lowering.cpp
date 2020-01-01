@@ -1010,7 +1010,7 @@ LNewObject
 )
 ;
 return
-defineVMReturn
+define
 (
 lir
 ins
