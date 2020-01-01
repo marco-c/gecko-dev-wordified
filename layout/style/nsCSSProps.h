@@ -3416,13 +3416,6 @@ kFontSizeKTable
 static
 const
 int32_t
-kFontSmoothingKTable
-[
-]
-;
-static
-const
-int32_t
 kFontStretchKTable
 [
 ]
