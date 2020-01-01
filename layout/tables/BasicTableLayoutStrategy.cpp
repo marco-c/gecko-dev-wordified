@@ -892,7 +892,7 @@ minCoord
 aCellFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -1375,7 +1375,7 @@ spanningCells
 tableFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -

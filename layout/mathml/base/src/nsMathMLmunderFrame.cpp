@@ -1882,7 +1882,7 @@ nsMathMLmsubFrame
 :
 PlaceSubScript
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -1890,7 +1890,7 @@ aPlaceOrigin
 aDesiredSize
 this
 0
-GetPresContext
+PresContext
 (
 )
 -
@@ -2559,7 +2559,7 @@ base
 FinishReflowChild
 (
 baseFrame
-GetPresContext
+PresContext
 (
 )
 nsnull
@@ -2594,7 +2594,7 @@ ascent
 FinishReflowChild
 (
 underFrame
-GetPresContext
+PresContext
 (
 )
 nsnull

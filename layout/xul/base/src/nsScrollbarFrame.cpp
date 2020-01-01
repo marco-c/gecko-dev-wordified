@@ -1019,7 +1019,7 @@ nsIFrame
 *
 f
 =
-GetPresContext
+PresContext
 (
 )
 -

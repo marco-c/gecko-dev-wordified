@@ -1091,7 +1091,7 @@ GetStyleContext
 ;
 newStyleContext
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -2008,7 +2008,7 @@ aPlaceOrigin
 FinishReflowChild
 (
 childFrame
-GetPresContext
+PresContext
 (
 )
 nsnull
@@ -2404,7 +2404,7 @@ Cut
 ;
 ShowStatus
 (
-GetPresContext
+PresContext
 (
 )
 value
@@ -2457,7 +2457,7 @@ SetLength
 ;
 ShowStatus
 (
-GetPresContext
+PresContext
 (
 )
 value
@@ -2588,7 +2588,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -2707,7 +2707,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -

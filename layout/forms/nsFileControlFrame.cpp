@@ -1523,7 +1523,7 @@ content
 >
 SetFocus
 (
-GetPresContext
+PresContext
 (
 )
 )

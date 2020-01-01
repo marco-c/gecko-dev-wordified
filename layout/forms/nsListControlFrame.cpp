@@ -2015,7 +2015,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -3013,7 +3013,7 @@ weakShell
 (
 do_GetWeakReference
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -12783,7 +12783,7 @@ nsIPresShell
 >
 presShell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -14805,7 +14805,7 @@ nsIFrame
 *
 optFrame
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -14886,7 +14886,7 @@ fontMet
 nsresult
 result
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -15054,7 +15054,7 @@ labelHeight
 :
 GetOptGroupLabelsHeight
 (
-GetPresContext
+PresContext
 (
 )
 mContent
@@ -16708,7 +16708,7 @@ nsIContent
 >
 content
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -16758,7 +16758,7 @@ nsIPresShell
 *
 presShell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -18121,7 +18121,7 @@ nsIPresShell
 *
 presShell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -20911,7 +20911,7 @@ lest
 it
 destroy
 us
-GetPresContext
+PresContext
 (
 )
 -

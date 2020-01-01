@@ -1550,7 +1550,7 @@ nsIFontMetrics
 >
 fm
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -1614,7 +1614,7 @@ if
 (
 mReflowCallbackPosted
 )
-GetPresContext
+PresContext
 (
 )
 -
@@ -1914,7 +1914,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -2885,7 +2885,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -3378,7 +3378,7 @@ Composite
 (
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -4595,7 +4595,7 @@ mReflowCallbackPosted
 =
 PR_TRUE
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -4889,7 +4889,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -5113,7 +5113,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -5668,7 +5668,7 @@ GetFirstFrame
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -5716,7 +5716,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -5788,7 +5788,7 @@ GetLastFrame
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -5838,7 +5838,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -6215,7 +6215,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -6539,7 +6539,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -6646,7 +6646,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -6788,7 +6788,7 @@ GetNextSibling
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -6825,7 +6825,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -6873,7 +6873,7 @@ after
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -6905,7 +6905,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -6954,7 +6954,7 @@ list
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -6988,7 +6988,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -7269,7 +7269,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -7783,7 +7783,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -8098,7 +8098,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;

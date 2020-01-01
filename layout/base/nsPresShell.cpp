@@ -33349,7 +33349,7 @@ framePresContext
 frame
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -33594,7 +33594,7 @@ PresShell
 targetFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -

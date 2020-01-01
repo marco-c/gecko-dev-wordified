@@ -1949,7 +1949,7 @@ NS_STYLE_LIST_STYLE_MOZ_ETHIOPIC_HALEHAME_TI_ET
 :
 fm
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -2090,7 +2090,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -8869,7 +8869,7 @@ width
 ;
 GetDesiredSize
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -8911,7 +8911,7 @@ width
 ;
 GetDesiredSize
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -9006,7 +9006,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;

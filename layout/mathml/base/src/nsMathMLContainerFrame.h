@@ -2798,7 +2798,7 @@ nsMathMLContainerFrame
 :
 MapCommonAttributesIntoCSS
 (
-GetPresContext
+PresContext
 (
 )
 this
@@ -3193,7 +3193,7 @@ nsMathMLContainerFrame
 :
 MapCommonAttributesIntoCSS
 (
-GetPresContext
+PresContext
 (
 )
 this

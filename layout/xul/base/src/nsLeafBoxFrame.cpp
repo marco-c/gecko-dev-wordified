@@ -1142,7 +1142,7 @@ result
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -1257,7 +1257,7 @@ result
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext

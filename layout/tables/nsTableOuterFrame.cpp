@@ -1523,7 +1523,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -1850,7 +1850,7 @@ also
 means
 child
 removed
-GetPresContext
+PresContext
 (
 )
 -

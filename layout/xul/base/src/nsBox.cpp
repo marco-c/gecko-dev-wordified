@@ -1604,7 +1604,7 @@ previously
 stored
 overflow
 area
-GetPresContext
+PresContext
 (
 )
 -
@@ -1897,7 +1897,7 @@ nsPresContext
 *
 context
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -2067,7 +2067,7 @@ nsPresContext
 *
 context
 =
-GetPresContext
+PresContext
 (
 )
 ;

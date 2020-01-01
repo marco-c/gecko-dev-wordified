@@ -637,7 +637,7 @@ asPrevInFlow
 ;
 CreateViewForFrame
 (
-GetPresContext
+PresContext
 (
 )
 this

@@ -7179,7 +7179,7 @@ mPresContext
 (
 aRowGroup
 .
-GetPresContext
+PresContext
 (
 )
 )

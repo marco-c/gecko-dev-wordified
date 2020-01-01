@@ -2745,7 +2745,7 @@ nsMathMLFrame
 :
 MapCommonAttributesIntoCSS
 (
-GetPresContext
+PresContext
 (
 )
 aContent
@@ -3043,7 +3043,7 @@ nsMathMLFrame
 :
 CommonAttributeChangedFor
 (
-GetPresContext
+PresContext
 (
 )
 mContent
@@ -3255,7 +3255,7 @@ nsGkAtoms
 align
 )
 {
-GetPresContext
+PresContext
 (
 )
 -
@@ -3349,7 +3349,7 @@ mPresentationData
 scriptLevel
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -3690,7 +3690,7 @@ pick
 up
 any
 changes
-GetPresContext
+PresContext
 (
 )
 -
@@ -4847,7 +4847,7 @@ pick
 up
 any
 changes
-GetPresContext
+PresContext
 (
 )
 -
@@ -4967,7 +4967,7 @@ nsMathMLFrame
 :
 MapCommonAttributesIntoCSS
 (
-GetPresContext
+PresContext
 (
 )
 aContent
@@ -5006,7 +5006,7 @@ nsMathMLFrame
 :
 CommonAttributeChangedFor
 (
-GetPresContext
+PresContext
 (
 )
 mContent
@@ -5293,7 +5293,7 @@ pick
 up
 any
 changes
-GetPresContext
+PresContext
 (
 )
 -
@@ -5416,7 +5416,7 @@ nsMathMLFrame
 :
 MapCommonAttributesIntoCSS
 (
-GetPresContext
+PresContext
 (
 )
 aContent
@@ -5669,7 +5669,7 @@ nsMathMLFrame
 :
 CommonAttributeChangedFor
 (
-GetPresContext
+PresContext
 (
 )
 mContent

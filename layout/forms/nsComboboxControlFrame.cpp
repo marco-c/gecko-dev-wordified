@@ -2782,7 +2782,7 @@ weakShell
 (
 do_GetWeakReference
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -2996,7 +2996,7 @@ nsIViewManager
 *
 vm
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -3160,7 +3160,7 @@ nsIPresShell
 >
 shell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -4024,7 +4024,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -4999,7 +4999,7 @@ frame
 nsBoxLayoutState
 bls
 (
-GetPresContext
+PresContext
 (
 )
 aReflowState
@@ -5604,7 +5604,7 @@ SyncViewWithFrame
 }
 ToggleList
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -5622,7 +5622,7 @@ aDoDropDown
 {
 ToggleList
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -6058,7 +6058,7 @@ bug
 /
 289730
 .
-GetPresContext
+PresContext
 (
 )
 -
@@ -6160,7 +6160,7 @@ eResize
 .
 Check
 .
-GetPresContext
+PresContext
 (
 )
 -
@@ -7978,7 +7978,7 @@ nsIPresShell
 *
 shell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -8899,7 +8899,7 @@ nsPresContext
 *
 aPresContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -9225,7 +9225,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -10114,7 +10114,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;

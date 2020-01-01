@@ -2951,7 +2951,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -3037,7 +3037,7 @@ list
 float
 x
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -3052,7 +3052,7 @@ x
 float
 y
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -3641,7 +3641,7 @@ ScaleRoundOut
 .
 0f
 /
-GetPresContext
+PresContext
 (
 )
 -
@@ -3937,7 +3937,7 @@ aRect
 .
 ScaleRoundOut
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -4795,7 +4795,7 @@ nsIPresShell
 *
 presShell
 =
-GetPresContext
+PresContext
 (
 )
 -

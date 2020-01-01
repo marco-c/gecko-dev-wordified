@@ -16649,7 +16649,7 @@ NS_RGB
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -16846,7 +16846,7 @@ PaintBackgroundWithSC
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 *
@@ -16987,7 +16987,7 @@ PaintForeground
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 *
@@ -17121,7 +17121,7 @@ presContext
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

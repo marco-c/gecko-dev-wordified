@@ -4354,7 +4354,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -4393,7 +4393,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -5065,7 +5065,7 @@ origin
 .
 x
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -5081,7 +5081,7 @@ origin
 .
 y
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -5571,7 +5571,7 @@ nsPresContext
 nsPresContextType
 type
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -5841,7 +5841,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -7941,7 +7941,7 @@ mInstanceOwner
 >
 Init
 (
-GetPresContext
+PresContext
 (
 )
 this
@@ -8070,7 +8070,7 @@ DidReflow
 to
 FixupWindow
 .
-GetPresContext
+PresContext
 (
 )
 -
@@ -10050,7 +10050,7 @@ container
 mOwner
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -10416,7 +10416,7 @@ cont
 mOwner
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -10663,7 +10663,7 @@ presContext
 mOwner
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -10865,7 +10865,7 @@ vm
 mOwner
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -15680,7 +15680,7 @@ mOwner
 mOwner
 -
 >
-GetPresContext
+PresContext
 (
 )
 :
@@ -17529,7 +17529,7 @@ SetFocus
 mOwner
 -
 >
-GetPresContext
+PresContext
 (
 )
 )
@@ -19101,7 +19101,7 @@ ConvertAppUnitsToPixels
 mOwner
 -
 >
-GetPresContext
+PresContext
 (
 )
 relDirtyRect
@@ -20266,7 +20266,7 @@ context
 mOwner
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

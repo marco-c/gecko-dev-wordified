@@ -779,7 +779,7 @@ subScriptShift
 =
 CalcLength
 (
-GetPresContext
+PresContext
 (
 )
 mStyleContext
@@ -848,7 +848,7 @@ supScriptShift
 =
 CalcLength
 (
-GetPresContext
+PresContext
 (
 )
 mStyleContext
@@ -863,7 +863,7 @@ nsMathMLmsubsupFrame
 :
 PlaceSubSupScript
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext

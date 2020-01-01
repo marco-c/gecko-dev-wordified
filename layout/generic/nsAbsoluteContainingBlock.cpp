@@ -700,7 +700,7 @@ return
 aDelegatingFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -833,7 +833,7 @@ return
 aDelegatingFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -

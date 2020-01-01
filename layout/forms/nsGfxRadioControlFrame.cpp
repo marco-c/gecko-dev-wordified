@@ -1284,7 +1284,7 @@ nsPresContext
 *
 pc
 =
-GetPresContext
+PresContext
 (
 )
 ;

@@ -912,7 +912,7 @@ prescontext
 frame
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

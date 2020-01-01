@@ -655,7 +655,7 @@ state
 nsPresContext
 *
 )
-GetPresContext
+PresContext
 (
 )
 )

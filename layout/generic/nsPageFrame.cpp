@@ -3406,7 +3406,7 @@ rv
 ;
 if
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -3485,7 +3485,7 @@ rv
 ;
 if
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -3986,7 +3986,7 @@ nsPresContext
 *
 pc
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -4414,7 +4414,7 @@ aDirtyRect
 float
 scale
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -4592,7 +4592,7 @@ nsCSSRendering
 :
 PaintBackground
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext

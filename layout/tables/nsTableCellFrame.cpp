@@ -1258,7 +1258,7 @@ this
 &
 &
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -1669,7 +1669,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -2030,7 +2030,7 @@ nsCSSRendering
 :
 PaintBackground
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -2664,7 +2664,7 @@ HasPctOverHeight
 eCompatibility_NavQuirks
 =
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -3755,7 +3755,7 @@ nsContainerFrame
 :
 SyncFrameViewAfterReflow
 (
-GetPresContext
+PresContext
 (
 )
 this
@@ -6483,7 +6483,7 @@ nsCSSRendering
 :
 PaintBackground
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext

@@ -1052,7 +1052,7 @@ nsIPresShell
 *
 presShell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -1901,7 +1901,7 @@ code
 {
 OnSubmit
 (
-GetPresContext
+PresContext
 (
 )
 )

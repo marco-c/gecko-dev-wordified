@@ -885,7 +885,7 @@ pc
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -960,7 +960,7 @@ presContext
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

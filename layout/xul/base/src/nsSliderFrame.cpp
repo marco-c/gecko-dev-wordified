@@ -882,7 +882,7 @@ snapMultiplier
 }
 CreateViewForFrame
 (
-GetPresContext
+PresContext
 (
 )
 this
@@ -1293,7 +1293,7 @@ rv
 =
 CurrentPositionChanged
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -1558,7 +1558,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -4397,7 +4397,7 @@ aIsSmooth
 ;
 CurrentPositionChanged
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -4726,7 +4726,7 @@ CSSPixelsToAppUnits
 clientPosPx
 )
 -
-GetPresContext
+PresContext
 (
 )
 -
@@ -4760,7 +4760,7 @@ CSSPixelsToAppUnits
 clientPosPx
 )
 -
-GetPresContext
+PresContext
 (
 )
 -

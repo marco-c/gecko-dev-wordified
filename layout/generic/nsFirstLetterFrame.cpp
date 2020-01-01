@@ -971,7 +971,7 @@ nsFrameManager
 *
 frameManager
 =
-GetPresContext
+PresContext
 (
 )
 -

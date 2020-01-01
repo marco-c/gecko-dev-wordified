@@ -9325,7 +9325,7 @@ mPresContext
 mCurrentTarget
 -
 >
-GetPresContext
+PresContext
 (
 )
 "

@@ -6332,7 +6332,7 @@ y
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -6349,7 +6349,7 @@ aCtx
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 mFrame

@@ -4080,7 +4080,7 @@ line
 mFirstChild
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

@@ -1320,7 +1320,7 @@ work
 over
 again
 .
-GetPresContext
+PresContext
 (
 )
 -
@@ -3102,7 +3102,7 @@ kid
 )
 return
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -3315,7 +3315,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;

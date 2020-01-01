@@ -719,7 +719,7 @@ shell
 aBodyFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -

@@ -692,7 +692,7 @@ subscript
 nscoord
 scriptSpace
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -776,7 +776,7 @@ subScriptShift
 =
 CalcLength
 (
-GetPresContext
+PresContext
 (
 )
 mStyleContext
@@ -791,7 +791,7 @@ nsMathMLmsubFrame
 :
 PlaceSubScript
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
