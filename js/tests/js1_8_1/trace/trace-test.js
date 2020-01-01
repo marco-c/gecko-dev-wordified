@@ -1445,13 +1445,7 @@ pass
 reportCompare
 (
 expected
-+
-'
-'
 actual
-+
-'
-'
 desc
 )
 ;
