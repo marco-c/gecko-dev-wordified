@@ -2458,6 +2458,14 @@ ErrorResult
 &
 )
 ;
+void
+PassEnumWithDefault
+(
+TestEnum
+ErrorResult
+&
+)
+;
 TestEnum
 ReceiveEnum
 (
