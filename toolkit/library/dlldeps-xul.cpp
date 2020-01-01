@@ -498,12 +498,6 @@ XRE_RunAppShell
 ;
 XRE_ShutdownChildProcess
 (
-)
-;
-XRE_SendTestShellCommand
-(
-nsnull
-nsnull
 nsnull
 )
 ;
