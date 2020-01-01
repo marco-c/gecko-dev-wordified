@@ -1069,9 +1069,9 @@ nsIURI
 >
 mStyleSheetReferences
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIScriptGlobalObject
+nsXULPDGlobalObject
 >
 mGlobalObject
 ;
@@ -1118,13 +1118,10 @@ nsXULPrototypeDocument
 aResult
 )
 ;
-nsresult
+nsXULPDGlobalObject
+*
 NewXULPDGlobalObject
 (
-nsIScriptGlobalObject
-*
-*
-aResult
 )
 ;
 static
@@ -1133,7 +1130,7 @@ nsIPrincipal
 gSystemPrincipal
 ;
 static
-nsIScriptGlobalObject
+nsXULPDGlobalObject
 *
 gSystemGlobal
 ;

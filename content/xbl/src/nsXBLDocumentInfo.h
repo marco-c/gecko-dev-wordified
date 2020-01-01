@@ -394,6 +394,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIXBLDocumentInfo
 .
 h
@@ -431,6 +438,9 @@ nsXBLPrototypeBinding
 ;
 class
 nsObjectHashtable
+;
+class
+nsXBLDocGlobalObject
 ;
 class
 nsXBLDocumentInfo
@@ -623,9 +633,9 @@ nsXBLPrototypeBinding
 *
 mFirstBinding
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIScriptGlobalObject
+nsXBLDocGlobalObject
 >
 mGlobalObject
 ;
