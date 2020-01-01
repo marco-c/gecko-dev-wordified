@@ -97,7 +97,7 @@ assertEq
 (
 y
 "
-bye
+hello
 "
 )
 ;
@@ -141,7 +141,7 @@ arguments
 1
 ]
 "
-bye
+hello
 "
 )
 ;
