@@ -49196,7 +49196,7 @@ templateObject
 NewDenseUnallocatedArray
 (
 cx
-0
+length
 NULL
 TenuredObject
 )
