@@ -5515,9 +5515,14 @@ JSFunction
 {
 if
 (
-IsFunctionProxy
-(
 obj
+-
+>
+is
+<
+FunctionProxyObject
+>
+(
 )
 )
 return

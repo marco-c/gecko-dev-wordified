@@ -15736,9 +15736,14 @@ getFlags
 else
 if
 (
-IsProxy
-(
 referent
+-
+>
+is
+<
+ProxyObject
+>
+(
 )
 )
 {

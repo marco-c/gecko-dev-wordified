@@ -784,7 +784,10 @@ JSITER_OWNONLY
 pobj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 |
@@ -891,7 +894,10 @@ if
 pobj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 |
@@ -1456,7 +1462,10 @@ if
 pobj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 )
@@ -4744,7 +4753,10 @@ if
 obj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 )

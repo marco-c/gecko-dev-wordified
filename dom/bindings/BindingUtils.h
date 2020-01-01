@@ -904,16 +904,7 @@ if
 js
 :
 :
-IsObjectProxyClass
-(
-clasp
-)
-|
-|
-js
-:
-:
-IsFunctionProxyClass
+IsProxyClass
 (
 clasp
 )

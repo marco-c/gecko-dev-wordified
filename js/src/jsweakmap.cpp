@@ -1575,7 +1575,10 @@ JSCLASS_IS_DOMJSCLASS
 obj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 &

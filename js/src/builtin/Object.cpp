@@ -2719,7 +2719,10 @@ if
 obj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 )
@@ -2994,7 +2997,10 @@ if
 obj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 )
@@ -3998,7 +4004,10 @@ if
 obj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 &
@@ -4133,7 +4142,10 @@ if
 obj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 )

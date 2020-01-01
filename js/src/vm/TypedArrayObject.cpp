@@ -13370,7 +13370,10 @@ ArrayBufferObject
 bufobj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 )
@@ -13380,7 +13383,10 @@ if
 bufobj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 )
