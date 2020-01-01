@@ -429,6 +429,10 @@ line
 "
 "
 import
+os
+import
+sys
+import
 xpidl
 xpt
 #
