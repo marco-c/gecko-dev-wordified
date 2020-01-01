@@ -1798,6 +1798,10 @@ s
 0x
 %
 p
+:
+0x
+%
+p
 ]
 .
 mJSObj
@@ -1814,6 +1818,10 @@ GetInterfaceName
 (
 )
 self
+self
+-
+>
+mXPTCStub
 )
 ;
 }
