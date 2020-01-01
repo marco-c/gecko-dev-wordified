@@ -692,6 +692,13 @@ nsXPConnect
 (
 )
 {
+mRuntime
+-
+>
+DeleteJunkScope
+(
+)
+;
 nsCycleCollector_forgetJSRuntime
 (
 )
