@@ -13007,6 +13007,12 @@ JSContext
 cx
 )
 {
+AutoEnterAnalysis
+enter
+(
+cx
+)
+;
 printf
 (
 "
