@@ -744,8 +744,6 @@ function
 {
 return
 (
-window
-.
 document
 .
 getElementById
