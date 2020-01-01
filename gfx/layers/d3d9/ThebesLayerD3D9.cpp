@@ -673,6 +673,11 @@ this
 aManager
 -
 >
+deviceManager
+(
+)
+-
+>
 mThebesLayers
 .
 AppendElement
@@ -690,6 +695,11 @@ ThebesLayerD3D9
 )
 {
 mD3DManager
+-
+>
+deviceManager
+(
+)
 -
 >
 mThebesLayers
@@ -2453,7 +2463,7 @@ mD3DManager
 >
 SetShaderMode
 (
-LayerManagerD3D9
+DeviceManagerD3D9
 :
 :
 RGBLAYER

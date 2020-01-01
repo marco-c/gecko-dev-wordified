@@ -1818,7 +1818,7 @@ mD3DManager
 >
 SetShaderMode
 (
-LayerManagerD3D9
+DeviceManagerD3D9
 :
 :
 RGBLAYER
