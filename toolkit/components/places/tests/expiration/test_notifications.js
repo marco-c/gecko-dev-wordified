@@ -563,6 +563,8 @@ os
 addObserver
 (
 gObserver
+PlacesUtils
+.
 TOPIC_EXPIRATION_FINISHED
 false
 )
@@ -631,6 +633,8 @@ os
 removeObserver
 (
 gObserver
+PlacesUtils
+.
 TOPIC_EXPIRATION_FINISHED
 )
 ;

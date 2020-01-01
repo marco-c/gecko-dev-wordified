@@ -587,10 +587,10 @@ Components
 utils
 ;
 const
-kXPComShutdown
+kTopicShutdown
 =
 "
-xpcom
+places
 -
 shutdown
 "
@@ -908,7 +908,7 @@ _os
 addObserver
 (
 this
-kXPComShutdown
+kTopicShutdown
 false
 )
 ;
@@ -1262,7 +1262,7 @@ if
 aTopic
 =
 =
-kXPComShutdown
+kTopicShutdown
 )
 {
 this
@@ -1272,7 +1272,7 @@ _os
 removeObserver
 (
 this
-kXPComShutdown
+kTopicShutdown
 )
 ;
 this
@@ -1383,8 +1383,7 @@ sync
 after
 /
 /
-xpcom
--
+Places
 shutdown
 ensuring
 all

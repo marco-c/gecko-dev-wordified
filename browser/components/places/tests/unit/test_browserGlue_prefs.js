@@ -849,7 +849,9 @@ nsIObserver
 observe
 (
 null
-TOPIC_PLACES_INIT_COMPLETE
+PlacesUtils
+.
+TOPIC_INIT_COMPLETE
 null
 )
 ;
@@ -1118,7 +1120,9 @@ nsIObserver
 observe
 (
 null
-TOPIC_PLACES_INIT_COMPLETE
+PlacesUtils
+.
+TOPIC_INIT_COMPLETE
 null
 )
 ;
@@ -1399,7 +1403,9 @@ nsIObserver
 observe
 (
 null
-TOPIC_PLACES_INIT_COMPLETE
+PlacesUtils
+.
+TOPIC_INIT_COMPLETE
 null
 )
 ;
@@ -1687,7 +1693,9 @@ nsIObserver
 observe
 (
 null
-TOPIC_PLACES_INIT_COMPLETE
+PlacesUtils
+.
+TOPIC_INIT_COMPLETE
 null
 )
 ;
@@ -1949,7 +1957,9 @@ nsIObserver
 observe
 (
 null
-TOPIC_PLACES_INIT_COMPLETE
+PlacesUtils
+.
+TOPIC_INIT_COMPLETE
 null
 )
 ;
@@ -2196,7 +2206,9 @@ nsIObserver
 observe
 (
 null
-TOPIC_PLACES_INIT_COMPLETE
+PlacesUtils
+.
+TOPIC_INIT_COMPLETE
 null
 )
 ;
@@ -2436,7 +2448,9 @@ Ci
 .
 nsIObserver
 )
-TOPIC_PLACES_INIT_COMPLETE
+PlacesUtils
+.
+TOPIC_INIT_COMPLETE
 false
 )
 ;
@@ -2452,7 +2466,9 @@ Ci
 .
 nsIObserver
 )
-TOPIC_PLACES_DATABASE_LOCKED
+PlacesUtils
+.
+TOPIC_DATABASE_LOCKED
 false
 )
 ;

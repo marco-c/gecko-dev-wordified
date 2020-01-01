@@ -573,15 +573,6 @@ shutdownExpiration
 (
 )
 {
-const
-TOPIC_XPCOM_SHUTDOWN
-=
-"
-xpcom
--
-shutdown
-"
-;
 let
 expire
 =
@@ -612,7 +603,9 @@ expire
 observe
 (
 null
-TOPIC_XPCOM_SHUTDOWN
+PlacesUtils
+.
+TOPIC_SHUTDOWN
 null
 )
 ;

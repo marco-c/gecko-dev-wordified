@@ -966,7 +966,9 @@ os
 removeObserver
 (
 this
-TOPIC_PLACES_INIT_COMPLETE
+PlacesUtils
+.
+TOPIC_INIT_COMPLETE
 )
 ;
 /
@@ -1045,7 +1047,9 @@ os
 addObserver
 (
 observer
-TOPIC_PLACES_INIT_COMPLETE
+PlacesUtils
+.
+TOPIC_INIT_COMPLETE
 false
 )
 ;
