@@ -3008,6 +3008,9 @@ container
 draggable
 (
 {
+scroll
+:
+false
 start
 :
 function
@@ -3713,6 +3716,9 @@ groups
 dragOptions
 :
 {
+scroll
+:
+false
 start
 :
 function
