@@ -6527,10 +6527,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 nsObjectFrame
@@ -6553,7 +6549,7 @@ PaintPlugin
 (
 *
 aCtx
-aDirtyRect
+mVisibleRect
 GetBounds
 (
 aBuilder
@@ -6569,7 +6565,7 @@ PRBool
 nsDisplayPlugin
 :
 :
-OptimizeVisibility
+ComputeVisibility
 (
 nsDisplayListBuilder
 *
@@ -6595,7 +6591,7 @@ return
 nsDisplayItem
 :
 :
-OptimizeVisibility
+ComputeVisibility
 (
 aBuilder
 aVisibleRegion

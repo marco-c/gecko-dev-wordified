@@ -21444,6 +21444,12 @@ aDirtyRect
 aAppUnitsPerDevPixel
 )
 ;
+dirtyRect
+.
+RoundOut
+(
+)
+;
 /
 /
 Create

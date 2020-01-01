@@ -751,10 +751,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 virtual
@@ -798,10 +794,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 nsCOMPtr
@@ -1291,10 +1283,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 virtual
@@ -1344,10 +1332,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 mBlurRadius
@@ -2036,7 +2020,7 @@ AppUnitsPerDevPixel
 (
 )
 thebesCtx
-aDirtyRect
+mVisibleRect
 )
 ;
 if

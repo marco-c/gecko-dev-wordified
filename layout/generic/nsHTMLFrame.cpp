@@ -1853,10 +1853,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 CanvasFrame
@@ -1909,7 +1905,7 @@ PresContext
 *
 aCtx
 mFrame
-aDirtyRect
+mVisibleRect
 nsRect
 (
 offset
@@ -2056,10 +2052,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 CanvasFrame

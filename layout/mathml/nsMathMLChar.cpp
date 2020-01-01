@@ -14826,10 +14826,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 NS_DISPLAY_DECL_NAME
@@ -14857,10 +14853,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 /
@@ -15002,10 +14994,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 NS_DISPLAY_DECL_NAME
@@ -15037,10 +15025,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 const
@@ -15095,7 +15079,7 @@ PresContext
 *
 aCtx
 mFrame
-aDirtyRect
+mVisibleRect
 rect
 *
 backg
@@ -15254,10 +15238,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 mChar
@@ -15365,10 +15345,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 NS_DISPLAY_DECL_NAME
@@ -15396,10 +15372,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 /
@@ -15468,7 +15440,7 @@ presContext
 *
 aCtx
 mFrame
-aDirtyRect
+mVisibleRect
 rect
 *
 border
@@ -15485,7 +15457,7 @@ presContext
 *
 aCtx
 mFrame
-aDirtyRect
+mVisibleRect
 rect
 *
 border

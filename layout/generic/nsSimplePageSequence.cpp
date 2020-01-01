@@ -4275,7 +4275,7 @@ PR_PL
 SeqFr
 :
 :
-Paint
+PrintNextPage
 -
 >
 %

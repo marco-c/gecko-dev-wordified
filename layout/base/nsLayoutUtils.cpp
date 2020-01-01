@@ -7344,7 +7344,7 @@ aDirtyRegion
 ;
 list
 .
-OptimizeVisibility
+ComputeVisibility
 (
 &
 builder
@@ -7396,11 +7396,6 @@ Paint
 &
 builder
 aRenderingContext
-aDirtyRegion
-.
-GetBounds
-(
-)
 )
 ;
 /
@@ -8329,7 +8324,7 @@ see
 nsDisplayItem
 :
 :
-OptimizeVisibility
+ComputeVisibility
 )
 .
 A
@@ -8602,7 +8597,7 @@ aUpdateRect
 ;
 list
 .
-OptimizeVisibility
+ComputeVisibility
 (
 &
 builder
