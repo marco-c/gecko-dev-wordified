@@ -2704,7 +2704,7 @@ nsIAtom
 aCommand
 )
 ;
-nsresult
+void
 SetWindowClipRegion
 (
 const
@@ -2714,6 +2714,8 @@ nsIntRect
 >
 &
 aRects
+PRBool
+aIntersectWithExisting
 )
 ;
 GtkWidget
