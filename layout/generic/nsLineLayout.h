@@ -3400,10 +3400,8 @@ CanPlaceFrame
 PerFrameData
 *
 pfd
-const
-nsHTMLReflowState
-&
-aReflowState
+PRUint8
+aFrameDirection
 PRBool
 aNotSafeToBreak
 PRBool
