@@ -2493,7 +2493,7 @@ NS_SUCCEEDED
 Preferences
 :
 :
-GetChar
+GetString
 (
 \
 GetPrefName
@@ -4408,7 +4408,7 @@ name
 Preferences
 :
 :
-SetChar
+SetString
 (
 GetPrefName
 (
@@ -4573,7 +4573,7 @@ uStr
 Preferences
 :
 :
-SetChar
+SetString
 (
 GetPrefName
 (
@@ -4620,7 +4620,7 @@ uStr
 Preferences
 :
 :
-SetChar
+SetString
 (
 GetPrefName
 (
@@ -4667,7 +4667,7 @@ uStr
 Preferences
 :
 :
-SetChar
+SetString
 (
 GetPrefName
 (
@@ -4714,7 +4714,7 @@ uStr
 Preferences
 :
 :
-SetChar
+SetString
 (
 GetPrefName
 (
@@ -4761,7 +4761,7 @@ uStr
 Preferences
 :
 :
-SetChar
+SetString
 (
 GetPrefName
 (
@@ -4808,7 +4808,7 @@ uStr
 Preferences
 :
 :
-SetChar
+SetString
 (
 GetPrefName
 (
@@ -5043,7 +5043,7 @@ uStr
 Preferences
 :
 :
-SetChar
+SetString
 (
 GetPrefName
 (
@@ -5140,7 +5140,7 @@ uStr
 Preferences
 :
 :
-SetChar
+SetString
 (
 GetPrefName
 (
@@ -5187,7 +5187,7 @@ uStr
 Preferences
 :
 :
-SetChar
+SetString
 (
 GetPrefName
 (
@@ -5328,7 +5328,7 @@ uStr
 Preferences
 :
 :
-SetChar
+SetString
 (
 GetPrefName
 (
@@ -5395,7 +5395,7 @@ uStr
 Preferences
 :
 :
-SetChar
+SetString
 (
 kPrinterName
 uStr
@@ -5485,7 +5485,7 @@ uStr
 Preferences
 :
 :
-SetChar
+SetString
 (
 GetPrefName
 (
@@ -5984,7 +5984,7 @@ lastPrinterName
 Preferences
 :
 :
-GetChar
+GetString
 (
 kPrinterName
 &
@@ -7124,7 +7124,7 @@ rv
 Preferences
 :
 :
-GetChar
+GetCString
 (
 aPrefId
 &
@@ -7209,7 +7209,7 @@ return
 Preferences
 :
 :
-SetChar
+SetCString
 (
 aPrefId
 str
@@ -7244,7 +7244,7 @@ rv
 Preferences
 :
 :
-GetChar
+GetCString
 (
 aPrefId
 &
@@ -7271,7 +7271,7 @@ rv
 Preferences
 :
 :
-GetChar
+GetCString
 (
 aMarginPref
 &
@@ -7379,7 +7379,7 @@ inches
 Preferences
 :
 :
-SetChar
+SetCString
 (
 aPrefId
 inchesStr
@@ -7542,7 +7542,7 @@ NS_SUCCEEDED
 Preferences
 :
 :
-GetChar
+GetString
 (
 aPrefId
 &
@@ -7681,7 +7681,7 @@ kJustLeft
 Preferences
 :
 :
-SetChar
+SetCString
 (
 aPrefId
 kJustLeft
@@ -7698,7 +7698,7 @@ kJustCenter
 Preferences
 :
 :
-SetChar
+SetCString
 (
 aPrefId
 kJustCenter
@@ -7715,7 +7715,7 @@ kJustRight
 Preferences
 :
 :
-SetChar
+SetCString
 (
 aPrefId
 kJustRight

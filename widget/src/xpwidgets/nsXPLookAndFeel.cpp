@@ -1711,7 +1711,7 @@ rv
 Preferences
 :
 :
-GetChar
+GetString
 (
 prefName
 &
@@ -2027,7 +2027,7 @@ rv
 Preferences
 :
 :
-GetChar
+GetString
 (
 sColorPrefs
 [
