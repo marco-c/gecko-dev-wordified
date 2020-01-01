@@ -5441,11 +5441,6 @@ mIsRenderingOnlySelection
 1
 ;
 unsigned
-mNoTheme
-:
-1
-;
-unsigned
 mPaginated
 :
 1
