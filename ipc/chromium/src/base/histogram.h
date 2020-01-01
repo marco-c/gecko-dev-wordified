@@ -527,9 +527,6 @@ include
 vector
 >
 #
-define
-BASE_API
-#
 include
 "
 testing
@@ -2560,7 +2557,6 @@ class
 LinearHistogram
 ;
 class
-BASE_API
 Histogram
 {
 public
@@ -2914,7 +2910,6 @@ the
 histogram
 .
 class
-BASE_API
 SampleSet
 {
 public
@@ -5782,7 +5777,6 @@ spaced
 buckets
 .
 class
-BASE_API
 LinearHistogram
 :
 public
@@ -6209,7 +6203,6 @@ for
 booleans
 .
 class
-BASE_API
 BooleanHistogram
 :
 public
@@ -6363,7 +6356,6 @@ custom
 integers
 .
 class
-BASE_API
 CustomHistogram
 :
 public
@@ -6599,7 +6591,6 @@ the
 histograms
 .
 class
-BASE_API
 StatisticsRecorder
 {
 public
