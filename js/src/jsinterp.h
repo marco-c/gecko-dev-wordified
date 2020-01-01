@@ -1473,12 +1473,14 @@ regexpsOffset
 n
 -
 =
-JS_SCRIPT_REGEXPS
-(
 fp
 -
 >
 script
+-
+>
+regexps
+(
 )
 -
 >

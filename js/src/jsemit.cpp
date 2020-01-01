@@ -47594,9 +47594,11 @@ There
 are
 nregexps
 =
-JS_SCRIPT_REGEXPS
-(
 script
+-
+>
+regexps
+(
 )
 -
 >
