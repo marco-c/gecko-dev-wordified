@@ -1641,7 +1641,8 @@ surface
 *
 /
 virtual
-uint8_t
+unsigned
+char
 *
 GetData
 (
@@ -4958,9 +4959,10 @@ TemporaryRef
 <
 DataSourceSurface
 >
-CreateWrappingDataSourceSurface
+CreateDataSourceSurfaceFromData
 (
-uint8_t
+unsigned
+char
 *
 aData
 int32_t
