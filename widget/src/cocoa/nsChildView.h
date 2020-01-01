@@ -2106,12 +2106,6 @@ Mac
 specific
 methods
 virtual
-void
-CalcWindowRegions
-(
-)
-;
-virtual
 PRBool
 PointInWidget
 (
