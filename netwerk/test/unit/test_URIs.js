@@ -1985,10 +1985,6 @@ spec
 "
 place
 :
-redirectsMode
-=
-2
-&
 sort
 =
 8
@@ -2011,10 +2007,6 @@ place
 path
 :
 "
-redirectsMode
-=
-2
-&
 sort
 =
 8

@@ -866,7 +866,7 @@ constants
 const
 SMART_BOOKMARKS_VERSION
 =
-3
+4
 ;
 const
 SMART_BOOKMARKS_ON_TOOLBAR
