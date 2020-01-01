@@ -735,10 +735,10 @@ nsIOfflineCacheUpdate
 >
 mCacheUpdate
 ;
-nsCAutoString
+nsCString
 mAsciiHost
 ;
-nsCAutoString
+nsCString
 mDynamicOwnerSpec
 ;
 nsCOMArray

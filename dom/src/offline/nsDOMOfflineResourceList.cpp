@@ -654,7 +654,7 @@ define
 MAX_URI_LENGTH
 2048
 static
-nsCAutoString
+nsCString
 gCachedAsciiHost
 ;
 static
@@ -1118,7 +1118,7 @@ rv
 ;
 mDynamicOwnerSpec
 .
-Append
+AppendLiteral
 (
 "
 #
@@ -4687,7 +4687,8 @@ gCachedKeysCount
 }
 gCachedAsciiHost
 =
-"
-"
+EmptyCString
+(
+)
 ;
 }
