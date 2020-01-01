@@ -4610,7 +4610,7 @@ Let
 s
 create
 some
-1000
+234
 server
 side
 records
@@ -4636,7 +4636,7 @@ i
 ;
 i
 <
-1234
+234
 ;
 i
 +
@@ -4889,7 +4889,7 @@ engine
 toFetch
 .
 length
-1234
+234
 -
 50
 )
@@ -4984,7 +4984,7 @@ engine
 toFetch
 .
 length
-1234
+234
 -
 100
 )
@@ -5273,7 +5273,7 @@ engine
 toFetch
 .
 length
-1234
+234
 -
 100
 -
@@ -5509,7 +5509,7 @@ engine
 toFetch
 .
 length
-1234
+234
 -
 100
 -
@@ -5574,7 +5574,7 @@ items
 ]
 .
 length
-1234
+234
 +
 5
 )
@@ -5586,7 +5586,7 @@ record
 -
 no
 -
-1233
+233
 '
 in
 engine
@@ -6303,7 +6303,7 @@ i
 ;
 i
 <
-2345
+234
 ;
 i
 +
@@ -6474,7 +6474,7 @@ i
 ;
 i
 <
-2345
+234
 ;
 i
 +
@@ -6522,7 +6522,7 @@ Math
 .
 ceil
 (
-2345
+234
 /
 MAX_UPLOAD_RECORDS
 )
@@ -7119,6 +7119,15 @@ records
 on
 the
 server
+let
+now
+=
+Date
+.
+now
+(
+)
+;
 for
 (
 var
@@ -7128,7 +7137,7 @@ i
 ;
 i
 <
-2345
+234
 ;
 i
 +
@@ -7182,11 +7191,7 @@ wbo
 .
 modified
 =
-Date
-.
 now
-(
-)
 /
 1000
 -
@@ -7195,7 +7200,7 @@ now
 (
 i
 +
-10
+110
 )
 ;
 collection
@@ -7269,7 +7274,7 @@ all
 records
 no
 .
-200
+100
 and
 /
 /
@@ -7292,7 +7297,7 @@ are
 records
 0
 thru
-190
+90
 )
 .
 engine
@@ -7306,11 +7311,7 @@ ids
 ]
 newer
 :
-Date
-.
 now
-(
-)
 /
 1000
 -
@@ -7325,11 +7326,11 @@ for
 (
 i
 =
-200
+100
 ;
 i
 <
-2345
+234
 ;
 i
 +
@@ -7377,7 +7378,7 @@ while
 /
 preserving
 records
-190
+90
 thru
 200
 .
@@ -7389,7 +7390,7 @@ i
 ;
 i
 <
-2345
+234
 ;
 i
 +
@@ -7413,13 +7414,13 @@ if
 i
 <
 =
-190
+90
 |
 |
 i
 >
 =
-200
+100
 )
 {
 do_check_eq
@@ -7465,7 +7466,7 @@ batches
 do_check_eq
 (
 noOfUploads
-22
+2
 +
 1
 )
