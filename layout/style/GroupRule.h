@@ -504,9 +504,9 @@ shared
 between
 /
 /
-nsCSSMediaRule
+MediaRule
 and
-nsCSSDocumentRule
+DocumentRule
 class
 GroupRule
 :
