@@ -167,6 +167,9 @@ singleton
 h
 "
 #
+ifndef
+CHROMIUM_MOZILLA_BUILD
+#
 include
 "
 base
@@ -179,6 +182,8 @@ dmg_fp
 .
 h
 "
+#
+endif
 namespace
 {
 /
@@ -1672,6 +1677,9 @@ str
 }
 }
 ;
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 class
 StringToDoubleTraits
 {
@@ -1973,6 +1981,8 @@ str
 }
 }
 ;
+#
+endif
 }
 /
 /
@@ -7548,6 +7558,9 @@ value
 )
 ;
 }
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 std
 :
 :
@@ -7621,6 +7634,8 @@ value
 )
 ;
 }
+#
+endif
 void
 StringAppendV
 (
@@ -10982,6 +10997,9 @@ return
 result
 ;
 }
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 bool
 StringToDouble
 (
@@ -11080,6 +11098,8 @@ return
 result
 ;
 }
+#
+endif
 /
 /
 The
