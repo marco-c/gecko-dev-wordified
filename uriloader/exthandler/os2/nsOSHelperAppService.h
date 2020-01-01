@@ -752,9 +752,8 @@ const
 char
 *
 aEnvVarName
-PRUnichar
-*
-*
+nsAString
+&
 aFileLocation
 )
 ;
