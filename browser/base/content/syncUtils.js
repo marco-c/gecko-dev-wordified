@@ -773,8 +773,6 @@ changeOpt
 "
 centerscreen
 chrome
-dialog
-modal
 resizable
 =
 no
