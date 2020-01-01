@@ -446,13 +446,6 @@ h
 #
 include
 "
-nsDOMStorageBaseDB
-.
-h
-"
-#
-include
-"
 mozIStorageConnection
 .
 h
@@ -507,9 +500,6 @@ TimeDuration
 ;
 class
 nsDOMStoragePersistentDB
-:
-public
-nsDOMStorageBaseDB
 {
 public
 :
