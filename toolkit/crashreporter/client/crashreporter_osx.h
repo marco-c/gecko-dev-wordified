@@ -677,6 +677,12 @@ maybeSubmitReport
 ;
 -
 (
+void
+)
+closeMeDown
+;
+-
+(
 IBAction
 )
 submitReportClicked
