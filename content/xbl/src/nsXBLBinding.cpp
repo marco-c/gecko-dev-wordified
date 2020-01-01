@@ -7530,7 +7530,7 @@ className
 get
 (
 )
-JSRESOLVE_CLASSNAME
+0
 &
 val
 )

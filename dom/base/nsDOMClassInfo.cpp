@@ -20829,8 +20829,6 @@ JSRESOLVE_ASSIGNING
 |
 JSRESOLVE_DECLARING
 |
-JSRESOLVE_CLASSNAME
-|
 JSRESOLVE_QUALIFIED
 )
 |
@@ -20858,17 +20856,11 @@ or
 declaring
 /
 /
-resolving
-a
-class
-name
 doing
 a
 qualified
 resolve
 or
-/
-/
 resolving
 a
 number
