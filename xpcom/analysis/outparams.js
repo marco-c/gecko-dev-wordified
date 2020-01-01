@@ -2925,10 +2925,9 @@ callable
 =
 callable_arg_function_decl
 (
-TREE_OPERAND
+CALL_EXPR_FN
 (
 expr
-1
 )
 )
 ;
