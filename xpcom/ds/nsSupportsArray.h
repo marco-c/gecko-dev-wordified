@@ -770,7 +770,7 @@ void
 ;
 NS_IMETHOD_
 (
-bool
+void
 )
 GrowArrayBy
 (
