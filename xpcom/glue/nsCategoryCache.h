@@ -340,7 +340,6 @@ T
 >
 class
 nsCategoryCache
-MOZ_FINAL
 :
 protected
 nsCategoryListener
