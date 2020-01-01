@@ -249,6 +249,15 @@ HTMLOptionsCollection
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+/
+/
+nsWrapperCache
+using
+nsWrapperCache
+:
+:
+GetWrapperPreserveColor
+;
 virtual
 JSObject
 *
