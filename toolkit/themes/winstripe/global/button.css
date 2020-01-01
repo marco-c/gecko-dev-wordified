@@ -842,7 +842,10 @@ transparent
 }
 button
 :
-focus
+-
+moz
+-
+focusring
 >
 .
 button

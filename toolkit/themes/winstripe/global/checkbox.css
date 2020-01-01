@@ -707,7 +707,10 @@ state
 /
 checkbox
 :
-focus
+-
+moz
+-
+focusring
 >
 .
 checkbox

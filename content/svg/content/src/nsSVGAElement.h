@@ -660,6 +660,10 @@ PRInt32
 aTabIndex
 =
 nsnull
+PRBool
+aWithMouse
+=
+PR_FALSE
 )
 ;
 virtual

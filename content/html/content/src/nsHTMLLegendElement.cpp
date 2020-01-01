@@ -1319,6 +1319,7 @@ IsFocusable
 (
 &
 tabIndex
+PR_FALSE
 )
 )
 return

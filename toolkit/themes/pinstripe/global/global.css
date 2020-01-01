@@ -1704,7 +1704,10 @@ text
 -
 link
 :
-focus
+-
+moz
+-
+focusring
 {
 border
 :
@@ -1826,7 +1829,10 @@ notification
 >
 button
 :
-focus
+-
+moz
+-
+focusring
 {
 -
 moz
@@ -1847,7 +1853,10 @@ active
 :
 hover
 :
-focus
+-
+moz
+-
+focusring
 {
 -
 moz
