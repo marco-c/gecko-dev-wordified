@@ -1922,7 +1922,7 @@ System
 loadLibrary
 (
 "
-mozutils
+mozglue
 "
 )
 ;
