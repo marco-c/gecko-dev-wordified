@@ -735,7 +735,7 @@ nsWindow
 :
 sAccessibilityEnabled
 =
-true
+false
 ;
 #
 endif
@@ -794,7 +794,7 @@ static
 bool
 sHasDirectTexture
 =
-false
+true
 ;
 #
 endif
