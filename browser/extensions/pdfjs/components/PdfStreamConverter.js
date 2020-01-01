@@ -3734,14 +3734,14 @@ var
 resourcePrincipal
 =
 '
-getSimpleCodebasePrincipal
+getNoAppCodebasePrincipal
 '
 in
 securityManager
 ?
 securityManager
 .
-getSimpleCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 uri
 )
