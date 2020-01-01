@@ -2143,7 +2143,7 @@ mp3
 .
 enabled
 "
-false
+true
 )
 ;
 #
