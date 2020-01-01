@@ -313,7 +313,7 @@ J
 return
 ctypes
 .
-long
+int64_t
 ;
 case
 "
@@ -323,7 +323,7 @@ S
 return
 ctypes
 .
-short
+int16_t
 ;
 case
 "
