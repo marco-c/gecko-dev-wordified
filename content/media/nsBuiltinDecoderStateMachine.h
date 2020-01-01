@@ -3522,7 +3522,7 @@ the
 audio
 stream
 !
-nsAutoPtr
+nsRefPtr
 <
 nsAudioStream
 >

@@ -2253,7 +2253,7 @@ to
 be
 null
 .
-nsAutoPtr
+nsRefPtr
 <
 nsAudioStream
 >
@@ -5434,8 +5434,10 @@ OpenAudioStream
 {
 mAudioStream
 =
-new
 nsAudioStream
+:
+:
+AllocateStream
 (
 )
 ;

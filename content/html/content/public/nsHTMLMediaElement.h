@@ -4100,7 +4100,7 @@ directly
 from
 JS
 .
-nsAutoPtr
+nsRefPtr
 <
 nsAudioStream
 >
