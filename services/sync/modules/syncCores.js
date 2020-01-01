@@ -764,7 +764,7 @@ tree
 GUID
 ]
 .
-parentGUID
+parentid
 )
 return
 parents
@@ -778,7 +778,7 @@ tree
 GUID
 ]
 .
-parentGUID
+parentid
 )
 ;
 return
@@ -791,7 +791,7 @@ tree
 GUID
 ]
 .
-parentGUID
+parentid
 tree
 parents
 )
@@ -1416,7 +1416,7 @@ i
 .
 data
 .
-parentGUID
+parentid
 &
 &
 list
@@ -1426,7 +1426,7 @@ i
 .
 data
 .
-parentGUID
+parentid
 =
 =
 oldGUID
@@ -1438,7 +1438,7 @@ i
 .
 data
 .
-parentGUID
+parentid
 =
 newGUID
 ;
