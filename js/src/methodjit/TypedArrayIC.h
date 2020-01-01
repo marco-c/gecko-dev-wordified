@@ -2151,6 +2151,7 @@ void
 *
 stub
 )
+false
 )
 ;
 if
@@ -2871,6 +2872,7 @@ stubs
 :
 ConvertToTypedFloat
 )
+false
 )
 ;
 saveForCall
