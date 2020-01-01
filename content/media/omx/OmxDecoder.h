@@ -452,6 +452,11 @@ kNotifyPostReleaseVideoBuffer
 '
 noti
 '
+kNotifyStatusChanged
+=
+'
+stat
+'
 }
 ;
 AbstractMediaDecoder
