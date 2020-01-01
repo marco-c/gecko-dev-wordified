@@ -6089,11 +6089,17 @@ EqualsLiteral
 SVG_MIMETYPE
 )
 ?
+(
+PRUint16
+)
 imgIContainer
 :
 :
 TYPE_VECTOR
 :
+(
+PRUint16
+)
 imgIContainer
 :
 :

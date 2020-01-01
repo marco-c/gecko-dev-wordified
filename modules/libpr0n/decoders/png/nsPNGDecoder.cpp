@@ -4959,6 +4959,9 @@ if
 row_num
 >
 =
+(
+png_uint_32
+)
 decoder
 -
 >
