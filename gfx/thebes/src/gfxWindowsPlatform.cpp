@@ -1285,6 +1285,9 @@ FindFontEntry
 style
 )
 ;
+#
+ifndef
+MOZ_FT2_FONTS
 /
 *
 skip
@@ -1302,9 +1305,6 @@ mSymbolFont
 return
 PL_DHASH_NEXT
 ;
-#
-ifndef
-MOZ_FT2_FONTS
 if
 (
 aFontEntry
