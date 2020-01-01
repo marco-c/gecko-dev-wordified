@@ -1049,6 +1049,10 @@ implementation
 /
 /
 FIXME
+(
+bug
+515919
+)
 :
 Animation
 of
@@ -1056,10 +1060,10 @@ colors
 should
 really
 use
+/
+/
 floating
 point
-/
-/
 colors
 (
 and
@@ -1069,11 +1073,11 @@ does
 ClampColor
 and
 the
+/
+/
 clamping
 of
 aCount
-/
-/
 should
 go
 away
