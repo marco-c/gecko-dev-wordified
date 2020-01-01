@@ -1,3 +1,13 @@
+/
+/
+|
+jit
+-
+test
+|
+error
+:
+SyntaxError
 (
 {
 eval

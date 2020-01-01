@@ -1,5 +1,15 @@
 /
 /
+|
+jit
+-
+test
+|
+error
+:
+SyntaxError
+/
+/
 Binary
 :
 cache
