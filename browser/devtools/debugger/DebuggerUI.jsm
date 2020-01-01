@@ -3777,6 +3777,14 @@ setText
 aSourceText
 )
 ;
+dbg
+.
+editor
+.
+resetUndo
+(
+)
+;
 let
 doc
 =
