@@ -334,6 +334,14 @@ runTests
 inspector
 )
 {
+inspector
+.
+highlighter
+.
+unlock
+(
+)
+;
 executeSoon
 (
 function

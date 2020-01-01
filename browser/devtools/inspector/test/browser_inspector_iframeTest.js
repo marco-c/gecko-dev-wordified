@@ -376,6 +376,16 @@ getActiveInspector
 (
 )
 .
+highlighter
+.
+unlock
+(
+)
+;
+getActiveInspector
+(
+)
+.
 selection
 .
 once
