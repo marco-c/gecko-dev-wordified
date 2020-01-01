@@ -5349,6 +5349,12 @@ aFlags
 )
 const
 ;
+virtual
+void
+DestroyContent
+(
+)
+;
 /
 /
 nsIFormControl
@@ -5959,6 +5965,12 @@ nsAString
 aValue
 PRBool
 aNotify
+)
+;
+virtual
+void
+DestroyContent
+(
 )
 ;
 /
