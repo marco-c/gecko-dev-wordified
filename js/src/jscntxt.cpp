@@ -1188,6 +1188,12 @@ cx
 this
 )
 ;
+dtoaCache
+.
+s
+=
+NULL
+;
 }
 void
 JSThreadData
