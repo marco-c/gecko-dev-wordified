@@ -976,14 +976,6 @@ MOZ_GTK_TREEVIEW_EXPANDER
 /
 *
 Paints
-a
-GtkExpander
-*
-/
-MOZ_GTK_EXPANDER
-/
-*
-Paints
 the
 background
 of
