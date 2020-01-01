@@ -770,6 +770,7 @@ aNullParent
 ResetDirectionSetByTextNode
 (
 this
+aNullParent
 )
 ;
 nsGenericDOMDataNode
