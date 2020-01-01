@@ -7495,9 +7495,7 @@ if
 (
 aEvent
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 return
 ;
