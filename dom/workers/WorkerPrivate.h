@@ -1257,6 +1257,8 @@ FinalizeInstance
 JSContext
 *
 aCx
+bool
+aFromJSFinalizer
 )
 ;
 bool
