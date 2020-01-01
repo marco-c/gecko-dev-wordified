@@ -825,7 +825,6 @@ plugins
 namespace
 parent
 {
-PR_BEGIN_EXTERN_C
 NPObject
 *
 NP_CALLBACK
@@ -1619,7 +1618,6 @@ NPP
 npp
 )
 ;
-PR_END_EXTERN_C
 }
 /
 *
