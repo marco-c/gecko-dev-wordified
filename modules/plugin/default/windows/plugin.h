@@ -651,7 +651,7 @@ NPStream
 stream
 NPBool
 seekable
-uint16
+uint16_t
 *
 stype
 )
