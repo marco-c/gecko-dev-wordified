@@ -3752,8 +3752,6 @@ nonce
 IonRuntime
 *
 rt
-=
-NULL
 )
 ;
 void
@@ -3881,9 +3879,9 @@ AutoFlushInhibitor
 {
 private
 :
-IonCompartment
+IonRuntime
 *
-ic_
+runtime_
 ;
 AutoFlushCache
 *
@@ -3893,9 +3891,9 @@ public
 :
 AutoFlushInhibitor
 (
-IonCompartment
+IonRuntime
 *
-ic
+rt
 )
 ;
 ~
