@@ -2242,14 +2242,10 @@ XPCWrappedNative
 *
 wn
 =
-(
 XPCWrappedNative
-*
-)
-js
 :
 :
-GetObjectPrivate
+Get
 (
 unwrapped
 )
