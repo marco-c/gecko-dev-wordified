@@ -795,6 +795,16 @@ __ARM_ARCH_5TE__
 define
 NJ_COMPILER_ARM_ARCH
 5
+#
+elif
+defined
+(
+__ARM_ARCH_4T__
+)
+#
+define
+NJ_COMPILER_ARM_ARCH
+4
 /
 /
 Visual
@@ -853,7 +863,7 @@ NJ_COMPILER_ARM_ARCH
 nanojit
 only
 supports
-ARMv5
+ARMv4T
 or
 later
 )

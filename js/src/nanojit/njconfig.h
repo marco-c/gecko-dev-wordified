@@ -715,7 +715,7 @@ instructions
 for
 (
 currently
-5
+4
 <
 =
 arm_arch
