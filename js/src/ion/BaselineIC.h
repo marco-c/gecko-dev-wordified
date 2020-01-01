@@ -139,6 +139,13 @@ h
 #
 include
 "
+jsgcinlines
+.
+h
+"
+#
+include
+"
 jsopcode
 .
 h

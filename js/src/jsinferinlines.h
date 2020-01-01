@@ -1885,6 +1885,7 @@ pc
 CALL
 FUNCALL
 FUNAPPLY
+EVAL
 (
 Standard
 callsites
@@ -1935,6 +1936,12 @@ op
 =
 =
 JSOP_FUNAPPLY
+|
+|
+op
+=
+=
+JSOP_EVAL
 |
 |
 #
