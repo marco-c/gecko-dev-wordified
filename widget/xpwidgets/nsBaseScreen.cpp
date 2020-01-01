@@ -360,7 +360,7 @@ BRIGHTNESS_LEVELS
 ;
 for
 (
-uint32_t
+int32_t
 i
 =
 nsIScreen
