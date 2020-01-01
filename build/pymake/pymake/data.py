@@ -8473,6 +8473,10 @@ cline
             
 if
 isHidden
+or
+makefile
+.
+silent
 :
                 
 echo
@@ -9562,6 +9566,10 @@ targets
 keepgoing
 =
 False
+                 
+silent
+=
+False
 )
 :
         
@@ -9631,6 +9639,12 @@ self
 keepgoing
 =
 keepgoing
+        
+self
+.
+silent
+=
+silent
         
 self
 .
