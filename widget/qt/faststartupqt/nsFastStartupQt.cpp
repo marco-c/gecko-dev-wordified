@@ -446,8 +446,6 @@ BLOCK
 #
 include
 <
-QtGui
-/
 QApplication
 >
 #
