@@ -15126,6 +15126,10 @@ nsMediaQueryResultCacheKey
 &
 mCacheKey
 ;
+PLArenaPool
+&
+mArena
+;
 /
 /
 Hooray
@@ -15166,10 +15170,6 @@ lists
 (
 ?
 )
-PLArenaPool
-&
-mArena
-;
 PRUint8
 mSheetType
 ;
