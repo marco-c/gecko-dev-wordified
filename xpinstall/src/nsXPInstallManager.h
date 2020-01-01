@@ -707,6 +707,13 @@ DownloadNext
 void
 Shutdown
 (
+PRInt32
+status
+=
+nsInstall
+:
+:
+USER_CANCELLED
 )
 ;
 NS_IMETHOD
