@@ -5092,6 +5092,13 @@ selfClosing
 =
 PR_FALSE
 ;
+delete
+attributes
+;
+attributes
+=
+nsnull
+;
 goto
 starttagloop_end
 ;
