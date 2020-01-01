@@ -121,6 +121,15 @@ jsjaeger_baseassembler_h__
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h

@@ -115,6 +115,15 @@ MPL
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 VacuumManager
 .
 h

@@ -114,6 +114,15 @@ MPL
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 nsHtml5StreamParser
 .
 h

@@ -115,6 +115,15 @@ js_ion_liverangeallocator_h__
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 RegisterAllocator
 .
 h

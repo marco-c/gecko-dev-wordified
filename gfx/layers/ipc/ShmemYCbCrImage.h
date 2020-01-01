@@ -99,6 +99,15 @@ MOZILLA_LAYERS_SHMEMYCBCRIMAGE_H
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 base
 /
 basictypes

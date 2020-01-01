@@ -109,6 +109,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 PGrallocBufferChild

@@ -96,6 +96,15 @@ MPL
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 windows
 .
 h

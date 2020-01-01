@@ -107,6 +107,15 @@ MPL
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 WindowsMessageLoop
 .
 h

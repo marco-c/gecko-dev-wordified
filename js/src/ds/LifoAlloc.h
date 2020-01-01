@@ -124,6 +124,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+DebugOnly
+.
+h
+"
 /
 *
 *

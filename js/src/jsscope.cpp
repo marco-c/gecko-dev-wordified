@@ -108,7 +108,6 @@ MPL
 /
 /
 *
-*
 JS
 symbol
 tables
@@ -129,6 +128,15 @@ string
 .
 h
 >
+#
+include
+"
+mozilla
+/
+DebugOnly
+.
+h
+"
 #
 include
 "

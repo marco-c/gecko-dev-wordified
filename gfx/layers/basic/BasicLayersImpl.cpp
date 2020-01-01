@@ -93,6 +93,15 @@ MPL
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 BasicLayersImpl
 .
 h

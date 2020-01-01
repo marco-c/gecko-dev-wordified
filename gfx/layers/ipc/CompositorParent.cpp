@@ -119,6 +119,15 @@ map
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 base
 /
 basictypes

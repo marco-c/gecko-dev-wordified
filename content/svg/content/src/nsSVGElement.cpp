@@ -96,7 +96,9 @@ MPL
 #
 include
 "
-nsSVGElement
+mozilla
+/
+DebugOnly
 .
 h
 "
@@ -106,6 +108,13 @@ include
 mozilla
 /
 Util
+.
+h
+"
+#
+include
+"
+nsSVGElement
 .
 h
 "

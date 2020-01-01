@@ -117,6 +117,15 @@ nodes
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 nsGenericDOMDataNode
 .
 h

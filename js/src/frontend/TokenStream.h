@@ -107,6 +107,15 @@ interface
 /
 #
 include
+"
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
 <
 stddef
 .

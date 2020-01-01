@@ -109,6 +109,15 @@ MPL
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 CodeGenerator
 -
 x86
