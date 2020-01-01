@@ -753,6 +753,16 @@ function
 (
 )
 {
+/
+/
+Unreliable
+.
+See
+bug
+484994
+.
+/
+/
 equals
 (
 foo
