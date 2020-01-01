@@ -5396,8 +5396,8 @@ SetWindowTranslucency
 *
 /
 static
-PRBool
-FrameHasTransparency
+nsTransparencyMode
+GetFrameTransparency
 (
 nsIFrame
 *
