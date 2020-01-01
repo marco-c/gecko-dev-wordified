@@ -594,12 +594,6 @@ EndLoad
 (
 )
 ;
-virtual
-PRBool
-IsLoadedAsData
-(
-)
-;
 /
 /
 nsIDOMNode
@@ -781,9 +775,6 @@ mChannelIsPending
 ;
 PRPackedBool
 mCrossSiteAccessEnabled
-;
-PRPackedBool
-mLoadedAsData
 ;
 PRPackedBool
 mLoadedAsInteractiveData

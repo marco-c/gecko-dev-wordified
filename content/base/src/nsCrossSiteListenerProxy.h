@@ -628,6 +628,8 @@ private
 nsresult
 ForwardRequest
 (
+PRBool
+aCallStop
 )
 ;
 PRBool
