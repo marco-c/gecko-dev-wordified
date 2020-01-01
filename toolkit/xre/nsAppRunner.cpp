@@ -1427,7 +1427,7 @@ h
 "
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -8568,7 +8568,7 @@ MOZ_LAUNCHED_CHILD
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 mozilla
 :
@@ -8900,7 +8900,7 @@ WP_MACOSX
 endif
 /
 /
-ANDROID
+MOZ_WIDGET_ANDROID
 return
 NS_ERROR_LAUNCHED_CHILD_PROCESS
 ;

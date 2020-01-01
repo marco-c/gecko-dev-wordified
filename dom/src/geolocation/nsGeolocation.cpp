@@ -680,7 +680,7 @@ h
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -3141,7 +3141,7 @@ provider
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 provider
 =
 new

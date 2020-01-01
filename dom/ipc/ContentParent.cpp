@@ -894,6 +894,11 @@ gfxAndroidPlatform
 h
 "
 #
+endif
+#
+ifdef
+MOZ_WIDGET_ANDROID
+#
 include
 "
 AndroidBridge
@@ -3782,7 +3787,7 @@ colors
 {
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 NS_ASSERTION
 (
 AndroidBridge
@@ -3921,7 +3926,7 @@ bits
 {
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 NS_ASSERTION
 (
 AndroidBridge
@@ -4037,7 +4042,7 @@ true
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 NS_ASSERTION
 (
 AndroidBridge

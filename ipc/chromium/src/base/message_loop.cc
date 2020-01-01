@@ -179,7 +179,7 @@ endif
 endif
 #
 ifdef
-MOZ_WIDGET_ANDROID
+ANDROID
 #
 include
 "

@@ -924,7 +924,7 @@ h
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -2817,7 +2817,7 @@ XP_MACOSX
 |
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 if
 (
@@ -3076,6 +3076,12 @@ return
 NS_ERROR_FAILURE
 ;
 }
+#
+elif
+defined
+(
+MOZ_WIDGET_GONK
+)
 #
 else
 rv
@@ -12224,7 +12230,7 @@ NPERR_NO_ERROR
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 case
 kLogInterfaceV0_ANPGetValue
 :
@@ -13382,7 +13388,7 @@ NPERR_GENERIC_ERROR
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 case
 kRequestDrawingModel_ANPSetValue
 :

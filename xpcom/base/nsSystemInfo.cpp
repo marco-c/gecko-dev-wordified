@@ -505,7 +505,7 @@ h
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -1353,7 +1353,7 @@ endif
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 if
 (
 mozilla

@@ -1150,7 +1150,7 @@ h
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 |
 |
@@ -1837,6 +1837,9 @@ nsGeolocation
 h
 "
 #
+ifndef
+MOZ_WIDGET_GONK
+#
 if
 defined
 (
@@ -1870,6 +1873,8 @@ nsDeviceMotionSystem
 .
 h
 "
+#
+endif
 #
 endif
 #
@@ -2002,6 +2007,9 @@ IndexedDatabaseManager
 FactoryCreate
 )
 #
+ifndef
+MOZ_WIDGET_GONK
+#
 if
 defined
 (
@@ -2034,11 +2042,6 @@ nsDeviceMotionSystem
 )
 #
 endif
-NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
-(
-ThirdPartyUtil
-Init
-)
 #
 if
 defined
@@ -2057,6 +2060,13 @@ nsHapticFeedback
 )
 #
 endif
+#
+endif
+NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
+(
+ThirdPartyUtil
+Init
+)
 /
 /
 -
@@ -4743,6 +4753,9 @@ NS_STRUCTUREDCLONECONTAINER_CID
 )
 ;
 #
+ifndef
+MOZ_WIDGET_GONK
+#
 if
 defined
 (
@@ -4793,6 +4806,8 @@ NS_DEFINE_NAMED_CID
 NS_HAPTICFEEDBACK_CID
 )
 ;
+#
+endif
 #
 endif
 static
@@ -5559,6 +5574,9 @@ NULL
 nsSecurityNameSetConstructor
 }
 #
+ifndef
+MOZ_WIDGET_GONK
+#
 if
 defined
 (
@@ -5613,6 +5631,8 @@ false
 NULL
 nsHapticFeedbackConstructor
 }
+#
+endif
 #
 endif
 {
@@ -6790,6 +6810,9 @@ NS_SECURITYNAMESET_CONTRACTID
 kNS_SECURITYNAMESET_CID
 }
 #
+ifndef
+MOZ_WIDGET_GONK
+#
 if
 defined
 (
@@ -6850,6 +6873,8 @@ hapticfeedback
 &
 kNS_HAPTICFEEDBACK_CID
 }
+#
+endif
 #
 endif
 {

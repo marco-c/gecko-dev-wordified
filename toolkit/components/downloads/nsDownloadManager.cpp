@@ -727,7 +727,7 @@ h
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -7470,7 +7470,7 @@ downloadDir
 elif
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 /
 /
@@ -13965,7 +13965,7 @@ XP_MACOSX
 |
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 nsCOMPtr
 <
@@ -14174,7 +14174,7 @@ observedObject
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 nsCOMPtr
 <
 nsIMIMEInfo

@@ -625,7 +625,7 @@ taskbar
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -652,7 +652,7 @@ GeckoChildProcessHost
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 /
 /
 Like
@@ -2870,7 +2870,7 @@ ifdef
 OS_LINUX
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 path
 +
 =
@@ -2883,7 +2883,7 @@ lib
 endif
 /
 /
-ANDROID
+MOZ_WIDGET_ANDROID
 const
 char
 *
@@ -3204,7 +3204,7 @@ exePath
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 /
 /
 The
@@ -3482,7 +3482,7 @@ buf
 endif
 /
 /
-ANDROID
+MOZ_WIDGET_ANDROID
 /
 /
 remap
@@ -4002,7 +4002,7 @@ childProcessType
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 childArgv
 .
 push_back

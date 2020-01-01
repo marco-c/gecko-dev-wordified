@@ -716,7 +716,7 @@ platformPrint
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 nsresult
 PostEvent
 (
@@ -1087,7 +1087,7 @@ aModel
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 void
 SetDrawingModel
 (
@@ -1515,7 +1515,7 @@ mDrawingModel
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 PRUint32
 mDrawingModel
 ;
@@ -1679,7 +1679,7 @@ mUsePluginLayersPref
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 void
 InvalidateTargetRect
 (

@@ -2809,7 +2809,7 @@ Init
 elif
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 #
 include
@@ -5010,7 +5010,7 @@ NS_NETWORK_LINK_SERVICE_CID
 elif
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 NS_DEFINE_NAMED_CID
 (
@@ -5831,7 +5831,7 @@ nsQtNetworkLinkServiceConstructor
 elif
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 {
 &
@@ -6552,7 +6552,7 @@ kNS_NETWORK_LINK_SERVICE_CID
 elif
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 {
 NS_NETWORK_LINK_SERVICE_CONTRACTID

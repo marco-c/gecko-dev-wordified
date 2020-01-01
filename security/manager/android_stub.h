@@ -428,6 +428,9 @@ dlfcn
 h
 "
 #
+ifdef
+ANDROID_VERSION
+#
 if
 ANDROID_VERSION
 <
@@ -482,6 +485,8 @@ foo
 bar
 )
 0
+#
+endif
 #
 endif
 /
