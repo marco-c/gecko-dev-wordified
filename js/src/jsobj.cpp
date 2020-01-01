@@ -31857,15 +31857,6 @@ oldproto
 isNative
 (
 )
-&
-&
-!
-oldproto
--
->
-hasUncacheableProto
-(
-)
 )
 {
 if
@@ -31874,7 +31865,7 @@ if
 oldproto
 -
 >
-protoShapeChange
+setUncacheableProto
 (
 cx
 )

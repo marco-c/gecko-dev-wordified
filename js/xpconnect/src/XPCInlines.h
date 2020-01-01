@@ -3576,7 +3576,7 @@ else
 {
 obj
 =
-JS_NewObjectWithUncacheableProto
+JS_NewObject
 (
 cx
 clasp

@@ -3985,14 +3985,6 @@ shape
 )
 ;
 bool
-protoShapeChange
-(
-JSContext
-*
-cx
-)
-;
-bool
 shadowingShapeChange
 (
 JSContext
