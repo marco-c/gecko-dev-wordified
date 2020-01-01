@@ -26827,6 +26827,9 @@ TRACE_0
 EnterFrame
 )
 ;
+#
+ifdef
+JS_ION
 if
 (
 ion
@@ -26846,6 +26849,8 @@ fp
 return
 true
 ;
+#
+endif
 #
 ifdef
 JS_METHODJIT
