@@ -14142,7 +14142,7 @@ BranchTrace
 RegAllocMap
 regMap
 (
-gc
+alloc
 )
 ;
 NInsList
@@ -14530,11 +14530,11 @@ RegAlloc
 *
 regs
 =
-NJ_NEW
+new
 (
-gc
-RegAlloc
+alloc
 )
+RegAlloc
 (
 )
 ;
