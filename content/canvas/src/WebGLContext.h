@@ -1394,9 +1394,9 @@ gfxImageSurface
 *
 *
 imageOut
-bool
+PRBool
 flipY
-bool
+PRBool
 premultiplyAlpha
 )
 ;
