@@ -5295,7 +5295,7 @@ lir
 >
 ins2
 (
-LIR_pilsh
+LIR_pirsh
 val_ins
 INS_CONSTWORD
 (
