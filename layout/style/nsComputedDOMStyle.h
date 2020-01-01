@@ -1333,7 +1333,7 @@ dom
 :
 CSSValue
 *
-DoGetOSXFontSmoothing
+DoGetFontSmoothing
 (
 )
 ;

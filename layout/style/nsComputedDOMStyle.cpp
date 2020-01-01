@@ -7106,7 +7106,7 @@ CSSValue
 nsComputedDOMStyle
 :
 :
-DoGetOSXFontSmoothing
+DoGetFontSmoothing
 (
 )
 {
@@ -26135,6 +26135,11 @@ FontLanguageOverride
 )
 COMPUTED_STYLE_MAP_ENTRY
 (
+font_smoothing
+FontSmoothing
+)
+COMPUTED_STYLE_MAP_ENTRY
+(
 force_broken_image_icon
 ForceBrokenImageIcon
 )
@@ -26152,11 +26157,6 @@ COMPUTED_STYLE_MAP_ENTRY
 (
 orient
 Orient
-)
-COMPUTED_STYLE_MAP_ENTRY
-(
-osx_font_smoothing
-OSXFontSmoothing
 )
 COMPUTED_STYLE_MAP_ENTRY_LAYOUT
 (
