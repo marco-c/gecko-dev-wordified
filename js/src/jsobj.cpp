@@ -30167,11 +30167,10 @@ if
 JS_HAS_XML_SUPPORT
 if
 (
-obj
--
->
-isXML
+OBJECT_IS_XML
 (
+cx
+obj
 )
 )
 return

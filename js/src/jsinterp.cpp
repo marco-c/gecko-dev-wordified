@@ -9010,11 +9010,10 @@ idval
 {
 if
 (
-obj
--
->
-isXML
+OBJECT_IS_XML
 (
+cx
+obj
 )
 )
 {
