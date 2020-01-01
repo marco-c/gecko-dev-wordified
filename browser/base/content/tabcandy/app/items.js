@@ -1605,6 +1605,14 @@ y
 ;
 if
 (
+!
+item
+.
+isAGroup
+)
+{
+if
+(
 sizeStep
 .
 y
@@ -1693,6 +1701,7 @@ height
 =
 newHeight
 ;
+}
 }
 var
 pusher
@@ -2218,8 +2227,6 @@ bounds
 var
 newSize
 ;
-/
-*
 if
 (
 item
@@ -2237,8 +2244,6 @@ userSize
 )
 ;
 else
-*
-/
 newSize
 =
 new
