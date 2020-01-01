@@ -1075,8 +1075,6 @@ picXLimit
 |
 picXLimit
 >
-PRUint32
-(
 aBuffer
 .
 mPlanes
@@ -1085,7 +1083,6 @@ mPlanes
 ]
 .
 mStride
-)
 |
 |
 !
@@ -1107,8 +1104,6 @@ picYLimit
 |
 picYLimit
 >
-PRUint32
-(
 aBuffer
 .
 mPlanes
@@ -1117,7 +1112,6 @@ mPlanes
 ]
 .
 mHeight
-)
 )
 {
 /
