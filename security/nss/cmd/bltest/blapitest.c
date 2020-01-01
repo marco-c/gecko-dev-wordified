@@ -22421,6 +22421,8 @@ time2
 PRFileDesc
 *
 outfile
+=
+NULL
 ;
 bltestCipherInfo
 *

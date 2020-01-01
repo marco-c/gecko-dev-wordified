@@ -577,13 +577,6 @@ defined
 (
 XP_UNIX
 )
-&
-&
-!
-defined
-(
-VMS
-)
 if
 (
 isatty
@@ -636,13 +629,6 @@ if
 defined
 (
 XP_UNIX
-)
-&
-&
-!
-defined
-(
-VMS
 )
 if
 (

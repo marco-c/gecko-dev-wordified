@@ -556,6 +556,7 @@ h
 PRBool
 SEC_CertNicknameConflict
 (
+const
 char
 *
 nickname

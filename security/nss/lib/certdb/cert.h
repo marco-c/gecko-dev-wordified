@@ -412,17 +412,17 @@ h
 v
 1
 .
-77
+78
 2009
 /
-04
+05
 /
-17
-22
+14
+01
 :
-46
+33
 :
-27
+36
 julien
 .
 pierre
@@ -10444,6 +10444,7 @@ CERTRevocationFlags
 *
 CERT_GetPKIXVerifyNistRevocationPolicy
 (
+void
 )
 ;
 /
@@ -10465,6 +10466,7 @@ CERTRevocationFlags
 *
 CERT_GetClassicOCSPEnabledSoftFailurePolicy
 (
+void
 )
 ;
 /
@@ -10486,6 +10488,7 @@ CERTRevocationFlags
 *
 CERT_GetClassicOCSPEnabledHardFailurePolicy
 (
+void
 )
 ;
 /
@@ -10507,6 +10510,7 @@ CERTRevocationFlags
 *
 CERT_GetClassicOCSPDisabledPolicy
 (
+void
 )
 ;
 /
@@ -10734,6 +10738,7 @@ engine
 PRBool
 CERT_GetUsePKIXForValidation
 (
+void
 )
 ;
 SEC_END_PROTOS

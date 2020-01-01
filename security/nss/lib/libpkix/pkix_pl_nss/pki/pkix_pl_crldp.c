@@ -973,6 +973,7 @@ DER_DEFAULT_CHUNKSIZE
 ;
 if
 (
+!
 rdnArena
 )
 {
@@ -1049,6 +1050,7 @@ relName
 if
 (
 rv
+=
 =
 SECFailure
 )

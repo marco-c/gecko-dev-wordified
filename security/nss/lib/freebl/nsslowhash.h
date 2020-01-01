@@ -457,6 +457,14 @@ NSSLOWInitContext
 context
 )
 ;
+void
+NSSLOW_Reset
+(
+NSSLOWInitContext
+*
+context
+)
+;
 NSSLOWHASHContext
 *
 NSSLOWHASH_NewContext

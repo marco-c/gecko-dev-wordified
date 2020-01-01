@@ -4740,7 +4740,7 @@ if
 moduleSpec
 )
 {
-free
+PR_smprintf_free
 (
 moduleSpec
 )

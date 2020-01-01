@@ -416,6 +416,12 @@ or
 SDR
 default
 *
+result
+should
+be
+freed
+with
+SECItem_ZfreeItem
 *
 /
 SECStatus
@@ -446,6 +452,13 @@ previously
 encrypted
 with
 PK11SDR_Encrypt
+*
+result
+should
+be
+freed
+with
+SECItem_ZfreeItem
 *
 /
 SECStatus

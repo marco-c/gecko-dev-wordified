@@ -1068,6 +1068,8 @@ NULL
 ;
 CK_RV
 crv
+=
+CKR_HOST_MEMORY
 ;
 myattribute
 =

@@ -17014,10 +17014,6 @@ return
 crv
 ;
 }
-RNG_SystemInfoForRNG
-(
-)
-;
 /
 *
 NOTE

@@ -1582,6 +1582,16 @@ httpClient
 ;
 if
 (
+!
+httpClient
+)
+PKIX_ERROR
+(
+PKIX_OUTOFMEMORY
+)
+;
+if
+(
 httpClient
 -
 >
