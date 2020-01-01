@@ -3615,9 +3615,6 @@ mAutoCompleteTimer
 nsString
 mCurrentSearchString
 ;
-nsString
-mCurrentSearchStringEscaped
-;
 #
 ifdef
 MOZ_XUL
