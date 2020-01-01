@@ -5208,7 +5208,7 @@ mtd_
 &
 &
 !
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -5346,7 +5346,7 @@ mtd_
 &
 &
 !
-GetStyleContext
+StyleContext
 (
 )
 -

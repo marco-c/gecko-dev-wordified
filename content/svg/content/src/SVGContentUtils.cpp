@@ -480,7 +480,7 @@ GetFontSize
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 )
@@ -665,7 +665,7 @@ GetFontXHeight
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 )

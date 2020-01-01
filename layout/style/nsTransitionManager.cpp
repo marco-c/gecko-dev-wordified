@@ -1490,7 +1490,7 @@ ReparentStyleContext
 before
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 aNewStyle
@@ -1535,7 +1535,7 @@ ReparentStyleContext
 after
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 aNewStyle
@@ -1768,7 +1768,7 @@ oldStyle
 primaryFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -2351,7 +2351,7 @@ ReparentStyleContext
 primaryFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 aParentStyle
@@ -2780,7 +2780,7 @@ element
 primaryFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -

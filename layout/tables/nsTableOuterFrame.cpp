@@ -720,7 +720,7 @@ nsFrame
 CorrectStyleParentFrame
 (
 innerFrame
-GetStyleContext
+StyleContext
 (
 )
 -

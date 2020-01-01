@@ -10164,7 +10164,7 @@ aContext
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 &
@@ -10362,7 +10362,7 @@ aContext
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 &

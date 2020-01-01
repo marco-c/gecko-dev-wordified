@@ -2057,7 +2057,7 @@ pseudoType
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -3508,7 +3508,7 @@ parentFrame
 parentFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -11749,7 +11749,7 @@ pseudoType
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -11835,7 +11835,7 @@ GetParent
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -11871,7 +11871,7 @@ GetFirstPrincipalChild
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -11895,7 +11895,7 @@ GetFirstPrincipalChild
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -13176,7 +13176,7 @@ NS_ASSERTION
 colFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 =
@@ -17295,7 +17295,7 @@ viewportPseudoStyle
 viewportFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -18260,7 +18260,7 @@ parentStyleContext
 aParentFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -20483,7 +20483,7 @@ pseudo
 f
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -21358,7 +21358,7 @@ aParentFrame
 aParentFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -21436,7 +21436,7 @@ fieldSetFrame
 aParentFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -28431,7 +28431,7 @@ parentStyleContext
 aParentFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -28709,7 +28709,7 @@ anonPseudo
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -36157,7 +36157,7 @@ parentStyle
 aParentFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -42750,7 +42750,7 @@ GetContent
 containingBlock
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 )
@@ -45889,7 +45889,7 @@ GetContent
 containingBlock
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 )
@@ -54779,7 +54779,7 @@ oldContext
 aPrimaryFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -57005,7 +57005,7 @@ aPresShell
 rowGroupFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 )
@@ -57039,7 +57039,7 @@ headerFooter
 rowGroupFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 headerFooterFrame
@@ -57187,7 +57187,7 @@ styleContext
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -58892,7 +58892,7 @@ GetPrimaryFrame
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -63414,7 +63414,7 @@ parentStyle
 aParentFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -65002,7 +65002,7 @@ parentStyle
 aParentFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -66332,7 +66332,7 @@ nullptr
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -66797,7 +66797,7 @@ frameStyleContext
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -67386,7 +67386,7 @@ firstLine
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -67481,7 +67481,7 @@ NS_ASSERTION
 aLineFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 =
@@ -68250,7 +68250,7 @@ firstLine
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -68339,7 +68339,7 @@ NS_ASSERTION
 lineFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 =
@@ -69900,7 +69900,7 @@ firstLetter
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -71141,7 +71141,7 @@ parentSC
 parentFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -71529,7 +71529,7 @@ parentSC
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -74044,7 +74044,7 @@ styleContext
 aInitialInline
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -77839,7 +77839,7 @@ IsInlineOutside
 aContainingBlock
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -81422,7 +81422,7 @@ GetContent
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 aFrame

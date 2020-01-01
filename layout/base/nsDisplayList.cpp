@@ -2090,7 +2090,7 @@ styleContext
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -2729,7 +2729,7 @@ parentStyleContext
 frame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -14515,7 +14515,7 @@ GetSize
 mFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 )
@@ -15168,7 +15168,7 @@ GetSize
 mFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 mFrame
@@ -23311,7 +23311,7 @@ parentStyleContext
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -23739,7 +23739,7 @@ frame
 frame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 :

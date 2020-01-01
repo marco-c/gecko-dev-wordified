@@ -1634,7 +1634,7 @@ return
 aForFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

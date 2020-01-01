@@ -1474,7 +1474,7 @@ nsStyleContext
 *
 parentStyleContext
 =
-GetStyleContext
+StyleContext
 (
 )
 -

@@ -1522,7 +1522,7 @@ GetCSSValueListValue
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 aFrame
@@ -13155,7 +13155,7 @@ pseudoType
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -14074,7 +14074,7 @@ GetFontMetricsForStyleContext
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 aFontMetrics
@@ -26980,7 +26980,7 @@ if
 aCSSRootFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -27006,7 +27006,7 @@ HasNonZeroCorner
 aCSSRootFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -

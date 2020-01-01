@@ -1082,7 +1082,7 @@ tableFrame
 BCRecalcNeeded
 (
 aOldStyleContext
-GetStyleContext
+StyleContext
 (
 )
 )
@@ -1974,7 +1974,7 @@ if
 colFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -1987,7 +1987,7 @@ GetParent
 providerFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 )
@@ -1997,7 +1997,7 @@ NS_ASSERTION
 col
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 =
@@ -2005,7 +2005,7 @@ GetStyleContext
 colFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 &

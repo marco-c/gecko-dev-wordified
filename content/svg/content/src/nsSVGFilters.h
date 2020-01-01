@@ -1371,7 +1371,7 @@ style
 frame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

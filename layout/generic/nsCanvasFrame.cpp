@@ -2394,7 +2394,7 @@ root
 root
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -

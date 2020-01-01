@@ -4826,7 +4826,7 @@ PresContext
 const
 {
 return
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -6069,7 +6069,7 @@ frame
 /
 nsStyleContext
 *
-GetStyleContext
+StyleContext
 (
 )
 const

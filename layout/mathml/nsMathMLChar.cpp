@@ -12720,7 +12720,7 @@ styleContext
 mFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

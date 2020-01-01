@@ -6808,7 +6808,7 @@ nsSVGUtils
 GetFallbackOrPaintColor
 (
 aContext
-GetStyleContext
+StyleContext
 (
 )
 aFillOrStroke
@@ -12090,7 +12090,7 @@ nsLayoutUtils
 :
 GetTextRunFlagsForStyle
 (
-GetStyleContext
+StyleContext
 (
 )
 GetStyleFont

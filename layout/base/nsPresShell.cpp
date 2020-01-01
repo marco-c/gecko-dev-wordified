@@ -52430,7 +52430,7 @@ sc
 aRootFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

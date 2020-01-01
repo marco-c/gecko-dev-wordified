@@ -4241,7 +4241,7 @@ bgContext
 bgFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -5084,7 +5084,7 @@ bgContext
 bgFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -5199,7 +5199,7 @@ pseudoType
 frameForArea
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -7361,7 +7361,7 @@ aForFrame
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -7416,7 +7416,7 @@ aBackgroundSC
 aForFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -7518,7 +7518,7 @@ if
 aForFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -10509,7 +10509,7 @@ sc
 aForFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -10733,7 +10733,7 @@ sc
 aForFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -18508,7 +18508,7 @@ aBackgroundSC
 aForFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 )

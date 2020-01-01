@@ -3645,7 +3645,7 @@ aContext
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -3728,7 +3728,7 @@ aParentContext
 providerFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -4094,7 +4094,7 @@ context
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -4400,7 +4400,7 @@ context
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -5259,7 +5259,7 @@ oldContext
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -5338,7 +5338,7 @@ newParentContext
 providerFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -5358,7 +5358,7 @@ newParentContext
 providerFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -5587,7 +5587,7 @@ nextContinuationContext
 nextContinuation
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -5669,7 +5669,7 @@ prevContinuationContext
 prevContinuation
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 )
@@ -7220,7 +7220,7 @@ oldContext
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -7587,7 +7587,7 @@ parentContext
 providerFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -7765,7 +7765,7 @@ parentContext
 providerFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -7964,7 +7964,7 @@ nextContinuationContext
 nextContinuation
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -8150,7 +8150,7 @@ nextIBSiblingContext
 nextIBSibling
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -8252,7 +8252,7 @@ prevContinuationContext
 prevContinuation
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 )

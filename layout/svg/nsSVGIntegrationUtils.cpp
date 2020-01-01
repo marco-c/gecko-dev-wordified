@@ -1015,7 +1015,7 @@ GetParent
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -

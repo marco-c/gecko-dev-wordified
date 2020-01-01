@@ -14372,7 +14372,7 @@ legendFrame
 frame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -16928,7 +16928,7 @@ CalcLineHeight
 frame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 blockHeight

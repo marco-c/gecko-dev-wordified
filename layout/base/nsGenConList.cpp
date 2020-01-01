@@ -472,7 +472,7 @@ pseudo
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -

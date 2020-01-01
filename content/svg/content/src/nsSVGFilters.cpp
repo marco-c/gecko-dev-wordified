@@ -18428,7 +18428,7 @@ style
 frame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -33584,7 +33584,7 @@ style
 frame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

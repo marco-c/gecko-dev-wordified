@@ -5085,7 +5085,7 @@ aStyleContext
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 =
@@ -5134,7 +5134,7 @@ aStyleContext
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

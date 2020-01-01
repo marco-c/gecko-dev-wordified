@@ -9500,7 +9500,7 @@ tableFrame
 BCRecalcNeeded
 (
 aOldStyleContext
-GetStyleContext
+StyleContext
 (
 )
 )

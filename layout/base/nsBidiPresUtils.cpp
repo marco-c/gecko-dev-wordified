@@ -6315,7 +6315,7 @@ if
 frame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -

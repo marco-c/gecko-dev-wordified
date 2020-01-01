@@ -10335,7 +10335,7 @@ sc1
 aFrame1
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -10586,7 +10586,7 @@ sc2
 aFrame2
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -10881,7 +10881,7 @@ if
 mLastFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 =
@@ -10889,7 +10889,7 @@ GetStyleContext
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 &
@@ -12421,7 +12421,7 @@ lastStyleContext
 f
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -13636,7 +13636,7 @@ sc
 f
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -24483,7 +24483,7 @@ ePseudo_mozSelection
 mFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 )
@@ -26709,12 +26709,12 @@ if
 prev
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 !
 =
-GetStyleContext
+StyleContext
 (
 )
 )
@@ -27314,12 +27314,12 @@ mPrevContinuation
 mPrevContinuation
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 !
 =
-GetStyleContext
+StyleContext
 (
 )
 )
@@ -30531,7 +30531,7 @@ if
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -31130,7 +31130,7 @@ context
 f
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -32037,7 +32037,7 @@ decorationStyle
 firstLetterFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -33113,7 +33113,7 @@ CalcLineHeight
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 NS_AUTOHEIGHT
@@ -47896,7 +47896,7 @@ const
 {
 if
 (
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -49697,7 +49697,7 @@ if
 f
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 =
@@ -49710,7 +49710,7 @@ GetPrevContinuation
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 )

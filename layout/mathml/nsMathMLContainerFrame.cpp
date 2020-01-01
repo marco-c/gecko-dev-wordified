@@ -9363,7 +9363,7 @@ parentContext
 aParentFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

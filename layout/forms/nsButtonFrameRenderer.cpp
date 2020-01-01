@@ -1378,7 +1378,7 @@ context
 mFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -1821,7 +1821,7 @@ context
 mFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

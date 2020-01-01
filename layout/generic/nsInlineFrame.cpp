@@ -1424,7 +1424,7 @@ be
 conservative
 if
 (
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -7416,7 +7416,7 @@ GetParent
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

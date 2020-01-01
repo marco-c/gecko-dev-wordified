@@ -1094,7 +1094,7 @@ nsHTMLReflowState
 :
 CalcLineHeight
 (
-GetStyleContext
+StyleContext
 (
 )
 NS_AUTOHEIGHT
@@ -2485,7 +2485,7 @@ AsElement
 (
 )
 pseudoType
-GetStyleContext
+StyleContext
 (
 )
 )
@@ -3270,7 +3270,7 @@ nsHTMLReflowState
 :
 CalcLineHeight
 (
-GetStyleContext
+StyleContext
 (
 )
 NS_AUTOHEIGHT

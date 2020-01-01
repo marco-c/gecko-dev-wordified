@@ -1463,7 +1463,7 @@ this
 aDirtyRect
 lineRect
 border
-GetStyleContext
+StyleContext
 (
 )
 /

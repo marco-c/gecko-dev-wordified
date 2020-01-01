@@ -10979,7 +10979,7 @@ area
 AsElement
 (
 )
-GetStyleContext
+StyleContext
 (
 )
 )
@@ -12631,7 +12631,7 @@ if
 ancestor
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
