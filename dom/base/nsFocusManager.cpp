@@ -4385,7 +4385,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFocusManager
 :
 :
@@ -4457,10 +4457,8 @@ within
 that
 window
 .
-nsCOMPtr
-<
 nsIContent
->
+*
 content
 =
 window

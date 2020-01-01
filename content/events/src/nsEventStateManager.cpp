@@ -26040,7 +26040,7 @@ without
 firing
 events
 .
-nsIFocusManager
+nsFocusManager
 *
 fm
 =
