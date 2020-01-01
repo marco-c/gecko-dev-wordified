@@ -2149,11 +2149,10 @@ asCall
 (
 )
 .
-getCalleeFunction
+callee
 (
 )
--
->
+.
 script
 (
 )
@@ -2203,11 +2202,10 @@ asCall
 (
 )
 .
-getCalleeFunction
+callee
 (
 )
--
->
+.
 script
 (
 )
