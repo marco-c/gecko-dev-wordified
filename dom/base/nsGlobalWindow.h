@@ -4799,6 +4799,15 @@ bool
 aValue
 )
 ;
+nsresult
+SetApp
+(
+const
+nsAString
+&
+aManifestURL
+)
+;
 /
 /
 When
