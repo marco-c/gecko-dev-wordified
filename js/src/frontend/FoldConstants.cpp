@@ -3601,7 +3601,7 @@ THROUGH
 *
 /
 case
-PNK_HOOK
+PNK_CONDITIONAL
 :
 /
 *
@@ -3868,14 +3868,14 @@ be
 a
 PNK_IF
 as
-PNK_HOOK
+PNK_CONDITIONAL
 can
 never
 have
 a
 null
-kid
 *
+kid
 or
 an
 empty
