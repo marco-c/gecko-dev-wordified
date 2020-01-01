@@ -976,6 +976,10 @@ mGLMaxDrawBuffers
 =
 1
 ;
+mGLMaxTransformFeedbackSeparateAttribs
+=
+0
+;
 /
 /
 See
@@ -1254,6 +1258,10 @@ Clear
 )
 ;
 mBoundArrayBuffer
+=
+nullptr
+;
+mBoundTransformFeedbackBuffer
 =
 nullptr
 ;
