@@ -1057,6 +1057,9 @@ mIgnoreXULSize
 PRPackedBool
 mIgnoreXULPosition
 ;
+PRPackedBool
+mChromeFlagsFrozen
+;
 PRUint32
 mContextFlags
 ;

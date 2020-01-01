@@ -885,6 +885,10 @@ PBrowserChild
 *
 AllocPBrowser
 (
+const
+PRUint32
+&
+aChromeFlags
 )
 ;
 virtual

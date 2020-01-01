@@ -653,6 +653,10 @@ ContentChild
 :
 AllocPBrowser
 (
+const
+PRUint32
+&
+aChromeFlags
 )
 {
 nsRefPtr
@@ -664,6 +668,7 @@ iframe
 new
 TabChild
 (
+aChromeFlags
 )
 ;
 return

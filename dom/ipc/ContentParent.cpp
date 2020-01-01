@@ -905,6 +905,8 @@ ContentParent
 :
 CreateTab
 (
+PRUint32
+aChromeFlags
 )
 {
 return
@@ -916,6 +918,7 @@ TabParent
 (
 SendPBrowserConstructor
 (
+aChromeFlags
 )
 )
 ;
@@ -2015,6 +2018,10 @@ ContentParent
 :
 AllocPBrowser
 (
+const
+PRUint32
+&
+aChromeFlags
 )
 {
 TabParent
