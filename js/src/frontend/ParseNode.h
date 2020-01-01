@@ -4304,17 +4304,6 @@ ParseNode
 *
 right
 ;
-Value
-*
-pval
-;
-/
-*
-switch
-case
-value
-*
-/
 unsigned
 iflags
 ;

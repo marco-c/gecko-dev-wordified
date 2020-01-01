@@ -304,14 +304,11 @@ table
 switch
 *
 /
-#
-define
-JOF_LOOKUPSWITCH
-5
 /
 *
-lookup
-switch
+5
+is
+unused
 *
 /
 #
