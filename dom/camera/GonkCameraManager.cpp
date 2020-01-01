@@ -351,7 +351,10 @@ JSString
 *
 v
 ;
-jsval
+JS
+:
+:
+Value
 jv
 ;
 switch

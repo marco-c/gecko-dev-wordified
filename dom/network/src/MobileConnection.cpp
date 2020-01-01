@@ -968,7 +968,10 @@ MobileConnection
 UnlockCardLock
 (
 const
-jsval
+JS
+:
+:
+Value
 &
 aInfo
 nsIDOMDOMRequest
@@ -1013,7 +1016,10 @@ MobileConnection
 SetCardLock
 (
 const
-jsval
+JS
+:
+:
+Value
 &
 aInfo
 nsIDOMDOMRequest

@@ -132,7 +132,10 @@ uint8_t
 >
 &
 aBuffer
-jsval
+JS
+:
+:
+Value
 *
 aVal
 )
@@ -486,7 +489,10 @@ SendableData
 TArrayOfuint8_t
 :
 {
-jsval
+JS
+:
+:
+Value
 val
 ;
 IPC
@@ -866,7 +872,10 @@ columnNumber
 =
 0
 ;
-jsval
+JS
+:
+:
+Value
 val
 ;
 if

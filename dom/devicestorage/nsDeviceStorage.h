@@ -616,7 +616,10 @@ mPrincipal
 /
 /
 helpers
-jsval
+JS
+:
+:
+Value
 StringToJsval
 (
 nsPIDOMWindow
@@ -627,7 +630,10 @@ nsAString
 aString
 )
 ;
-jsval
+JS
+:
+:
+Value
 nsIFileToJsval
 (
 nsPIDOMWindow
@@ -638,7 +644,10 @@ DeviceStorageFile
 aFile
 )
 ;
-jsval
+JS
+:
+:
+Value
 InterfaceToJsval
 (
 nsPIDOMWindow
