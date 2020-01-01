@@ -722,7 +722,7 @@ places
 /
 src
 /
-nsPlacesImportExportService
+nsPlacesExportService
 .
 cpp
 const
