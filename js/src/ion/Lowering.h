@@ -859,6 +859,14 @@ ins
 )
 ;
 bool
+visitNewArray
+(
+MNewArray
+*
+ins
+)
+;
+bool
 visitPrepareCall
 (
 MPrepareCall
