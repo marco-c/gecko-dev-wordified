@@ -2841,6 +2841,8 @@ tier_
 %
 s_staticdirs
 )
+\
+n
 '
 %
 tier
