@@ -96,12 +96,7 @@ path
 .
 dirname
 (
-sys
-.
-argv
-[
-0
-]
+__file__
 )
 )
 )
@@ -1961,12 +1956,7 @@ options
 .
 app
 =
-sys
-.
-argv
-[
-0
-]
+__file__
         
 tempPort
 =

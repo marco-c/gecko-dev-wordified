@@ -94,12 +94,7 @@ path
 .
 dirname
 (
-sys
-.
-argv
-[
-0
-]
+__file__
 )
 )
 sys
