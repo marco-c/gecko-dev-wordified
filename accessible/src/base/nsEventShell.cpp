@@ -1096,6 +1096,7 @@ nsAccEventQueue
 {
 NS_ASSERTION
 (
+!
 mDocument
 "
 Queue
