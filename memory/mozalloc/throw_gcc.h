@@ -458,6 +458,16 @@ h
 /
 /
 snprintf
+#
+include
+<
+string
+.
+h
+>
+/
+/
+strerror
 /
 /
 For
