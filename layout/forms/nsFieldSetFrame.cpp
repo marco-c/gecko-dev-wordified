@@ -3585,7 +3585,7 @@ curOrigin
 x
 !
 =
-mLegendRect
+actualLegendRect
 .
 x
 )
@@ -3597,7 +3597,7 @@ curOrigin
 y
 !
 =
-mLegendRect
+actualLegendRect
 .
 y
 )
