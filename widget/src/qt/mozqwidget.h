@@ -165,8 +165,10 @@ VirtualKeyboardIntegration
 *
 /
 void
-showVKB
+requestVKB
 (
+int
+aTimeout
 )
 ;
 void
@@ -176,6 +178,14 @@ hideVKB
 ;
 bool
 isVKBOpen
+(
+)
+;
+public
+slots
+:
+void
+showVKB
 (
 )
 ;
