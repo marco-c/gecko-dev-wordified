@@ -2634,6 +2634,9 @@ unknownObject
 )
 &
 &
+other
+-
+>
 unknownObject
 (
 )
@@ -2723,6 +2726,14 @@ are
 in
 both
 TypeSets
+if
+(
+!
+unknownObject
+(
+)
+)
+{
 for
 (
 unsigned
@@ -2776,6 +2787,7 @@ obj
 return
 false
 ;
+}
 }
 return
 true
