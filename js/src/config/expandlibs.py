@@ -301,6 +301,10 @@ rules
 '
 '
 '
+from
+__future__
+import
+with_statement
 import
 sys
 os
@@ -369,7 +373,6 @@ dir
         
 except
 OSError
-as
 error
 :
             
@@ -891,16 +894,13 @@ n
 join
 (
 '
-{
-0
-}
+%
+s
 =
-{
-1
-}
+%
+s
 '
-.
-format
+%
 (
 k
 '
@@ -914,7 +914,6 @@ k
 ]
 )
 )
-                         
 for
 k
 in
@@ -1351,7 +1350,6 @@ __main__
 :
     
 print
-(
 "
 "
 .
@@ -1366,6 +1364,5 @@ argv
 1
 :
 ]
-)
 )
 )
