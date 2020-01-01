@@ -446,6 +446,10 @@ dom_plugins_NPPInstanceChild_h
 #
 include
 "
+mozilla
+/
+plugins
+/
 NPPProtocolChild
 .
 h
