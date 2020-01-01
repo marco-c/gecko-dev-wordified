@@ -726,7 +726,7 @@ struct
 _GtkXtBinClass
 {
 GtkSocketClass
-widget_class
+parent_class
 ;
 }
 ;
