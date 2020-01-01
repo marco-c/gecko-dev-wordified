@@ -2997,15 +2997,7 @@ PlaceholderApplies
 (
 )
 const
-{
-return
-IsSingleLineTextControl
-(
-false
-mType
-)
 ;
-}
 /
 *
 *
