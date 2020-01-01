@@ -954,9 +954,6 @@ base
 SharedMemory
 shared_memory_
 ;
-uint32_t
-sequence_num_
-;
 #
 elif
 defined
@@ -1002,6 +999,14 @@ to
 the
 X
 server
+#
+endif
+#
+ifdef
+OS_WIN
+uint32_t
+sequence_num_
+;
 #
 endif
 size_t
