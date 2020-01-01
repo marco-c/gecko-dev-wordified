@@ -345,6 +345,12 @@ enum
 kPreferSoftwareCodecs
 =
 1
+kSoftwareCodecsOnly
+=
+8
+kHardwareCodecsOnly
+=
+16
 }
 ;
 AbstractMediaDecoder
