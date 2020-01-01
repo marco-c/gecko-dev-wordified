@@ -9386,9 +9386,6 @@ sRopeMatchThresholdRatioLog2
 ;
 JSRopeLeafIterator
 iter
-(
-textstr
-)
 ;
 for
 (
@@ -9400,6 +9397,7 @@ iter
 .
 init
 (
+textstr
 )
 ;
 str
@@ -15193,9 +15191,6 @@ rope
 /
 JSRopeLeafIterator
 iter
-(
-textstr
-)
 ;
 size_t
 pos
@@ -15212,6 +15207,7 @@ iter
 .
 init
 (
+textstr
 )
 ;
 str
