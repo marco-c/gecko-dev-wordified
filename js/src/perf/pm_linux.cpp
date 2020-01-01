@@ -501,6 +501,11 @@ h
 #
 include
 <
+new
+>
+#
+include
+<
 sys
 /
 syscall
@@ -1820,8 +1825,12 @@ toMeasure
 :
 impl
 (
-new
+js_new
+<
 Impl
+>
+(
+)
 )
 eventsMeasured
 (
@@ -1937,7 +1946,8 @@ PerfMeasurement
 (
 )
 {
-delete
+js_delete
+(
 static_cast
 <
 Impl
@@ -1945,6 +1955,7 @@ Impl
 >
 (
 impl
+)
 )
 ;
 }

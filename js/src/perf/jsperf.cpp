@@ -617,8 +617,10 @@ PerfMeasurement
 *
 p
 =
-new
+js_new
+<
 PerfMeasurement
+>
 (
 PerfMeasurement
 :
@@ -675,7 +677,8 @@ JSObject
 obj
 )
 {
-delete
+js_delete
+(
 (
 PerfMeasurement
 *
@@ -684,6 +687,7 @@ JS_GetPrivate
 (
 cx
 obj
+)
 )
 ;
 }

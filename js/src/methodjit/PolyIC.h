@@ -1174,9 +1174,11 @@ areMultiplePools
 (
 )
 )
-delete
+js_delete
+(
 multiplePools
 (
+)
 )
 ;
 }
@@ -1386,8 +1388,10 @@ ExecPoolVector
 *
 execPools
 =
-new
+js_new
+<
 ExecPoolVector
+>
 (
 SystemAllocPolicy
 (
@@ -1424,8 +1428,10 @@ pool
 )
 )
 {
-delete
+js_delete
+(
 execPools
+)
 ;
 return
 false

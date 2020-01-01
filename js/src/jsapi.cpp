@@ -3830,8 +3830,10 @@ if
 (
 atomsCompartment
 =
-new
+js_new
+<
 JSCompartment
+>
 (
 this
 )
@@ -6351,8 +6353,10 @@ AutoCompartment
 *
 call
 =
-new
+js_new
+<
 AutoCompartment
+>
 (
 cx
 target
@@ -6377,8 +6381,10 @@ enter
 )
 )
 {
-delete
+js_delete
+(
 call
+)
 ;
 return
 NULL
@@ -6512,8 +6518,10 @@ leave
 (
 )
 ;
-delete
+js_delete
+(
 realcall
+)
 ;
 }
 bool
