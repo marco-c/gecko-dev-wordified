@@ -2403,7 +2403,7 @@ gets
 the
 response
 in
-RecvRedirect2Result
+RecvRedirect2Verify
 and
 forwards
 it

@@ -1910,7 +1910,7 @@ bool
 HttpChannelParent
 :
 :
-RecvRedirect2Result
+RecvRedirect2Verify
 (
 const
 nsresult
