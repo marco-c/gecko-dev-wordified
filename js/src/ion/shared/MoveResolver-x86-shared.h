@@ -487,6 +487,10 @@ CodeGenerator
 *
 codegen
 ;
+MacroAssembler
+*
+masm
+;
 RegisterSet
 freeRegs_
 ;
