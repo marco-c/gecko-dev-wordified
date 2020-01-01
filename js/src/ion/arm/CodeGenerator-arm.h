@@ -741,15 +741,6 @@ lir
 ;
 virtual
 bool
-visitBitAndAndBranch
-(
-LBitAndAndBranch
-*
-baab
-)
-;
-virtual
-bool
 visitUInt32ToDouble
 (
 LUInt32ToDouble
