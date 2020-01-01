@@ -681,7 +681,6 @@ function
 aLoadState
 )
 {
-return
 SessionFileInternal
 .
 writeLoadStateOnceAfterStartup
@@ -789,7 +788,6 @@ function
 (
 )
 {
-return
 SessionFileInternal
 .
 wipe
@@ -1685,7 +1683,6 @@ function
 aLoadState
 )
 {
-return
 SessionWorker
 .
 post
@@ -1768,7 +1765,6 @@ function
 (
 )
 {
-return
 SessionWorker
 .
 post
