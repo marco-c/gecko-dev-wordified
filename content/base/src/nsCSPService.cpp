@@ -562,9 +562,11 @@ is
 enabled
 *
 /
-static
 PRBool
-gCSPEnabled
+CSPService
+:
+:
+sCSPEnabled
 =
 PR_TRUE
 ;
@@ -598,7 +600,7 @@ csp
 enable
 "
 &
-gCSPEnabled
+sCSPEnabled
 )
 ;
 #
@@ -758,7 +760,7 @@ disabled
 if
 (
 !
-gCSPEnabled
+sCSPEnabled
 )
 return
 NS_OK
@@ -1017,7 +1019,7 @@ disabled
 if
 (
 !
-gCSPEnabled
+sCSPEnabled
 )
 return
 NS_OK
