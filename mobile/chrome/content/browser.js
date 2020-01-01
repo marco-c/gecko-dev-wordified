@@ -18435,9 +18435,6 @@ CrashSubmit
 submit
 (
 dumpID
-Elements
-.
-stack
 null
 null
 )
