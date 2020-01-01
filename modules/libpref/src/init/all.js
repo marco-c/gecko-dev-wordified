@@ -1042,7 +1042,7 @@ display
 .
 auto_quality_min_font_size
 "
-60
+20
 )
 ;
 pref
