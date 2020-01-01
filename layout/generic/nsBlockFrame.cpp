@@ -40144,7 +40144,7 @@ aState
 const
 nsRect
 &
-aFloatAvailableSpace
+aAdjustedAvailableSpace
 nsIFrame
 *
 aFloat
@@ -40236,16 +40236,6 @@ height
 ;
 #
 endif
-nsRect
-availSpace
-=
-AdjustFloatAvailableSpace
-(
-aState
-aFloatAvailableSpace
-aFloat
-)
-;
 nsHTMLReflowState
 floatRS
 (
@@ -40258,10 +40248,10 @@ mReflowState
 aFloat
 nsSize
 (
-availSpace
+aAdjustedAvailableSpace
 .
 width
-availSpace
+aAdjustedAvailableSpace
 .
 height
 )
@@ -40418,7 +40408,7 @@ brc
 .
 ReflowBlock
 (
-availSpace
+aAdjustedAvailableSpace
 PR_TRUE
 margin
 0
@@ -40477,7 +40467,7 @@ aReflowStatus
 NS_UNCONSTRAINEDSIZE
 =
 =
-availSpace
+aAdjustedAvailableSpace
 .
 height
 )
