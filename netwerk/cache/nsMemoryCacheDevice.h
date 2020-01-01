@@ -793,6 +793,13 @@ PRInt32
 capacity
 )
 ;
+bool
+EntryIsTooBig
+(
+PRInt64
+entrySize
+)
+;
 private
 :
 friend
