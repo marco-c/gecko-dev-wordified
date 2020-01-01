@@ -990,6 +990,14 @@ field
 of
 all
 JSObjects
+and
+the
+'
+proto
+'
+field
+of
+TypeObjects
 .
 *
 -
@@ -4181,7 +4189,7 @@ types
 TypeObject
 proto
 )
-0
+ACCSET_OBJ_TYPE
 )
 "
 proto

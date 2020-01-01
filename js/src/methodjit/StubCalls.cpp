@@ -5699,6 +5699,7 @@ CloneFunctionObject
 cx
 fun
 obj2
+true
 )
 ;
 if
@@ -10526,6 +10527,7 @@ fp
 scopeChain
 (
 )
+true
 )
 ;
 if
@@ -10591,6 +10593,7 @@ f
 cx
 fun
 parent
+true
 )
 ;
 if
@@ -11500,6 +11503,7 @@ f
 cx
 fun
 parent
+true
 )
 ;
 if
