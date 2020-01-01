@@ -3634,6 +3634,13 @@ of
 resetting
 it
 .
+if
+(
+stat
+=
+=
+Method_CantCompile
+)
 script
 -
 >
