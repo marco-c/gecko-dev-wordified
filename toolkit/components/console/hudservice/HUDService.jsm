@@ -8186,6 +8186,12 @@ unregisterDisplay
 hudId
 )
 ;
+window
+.
+focus
+(
+)
+;
 }
 /
 *
