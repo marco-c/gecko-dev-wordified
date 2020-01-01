@@ -3307,15 +3307,10 @@ mXULAppDir
 mAppBundleDirectories
 )
 ;
-#
-ifdef
-LOAD_DISTRO_BUNDLES
 LoadAppBundleDirs
 (
 )
 ;
-#
-endif
 }
 if
 (
@@ -3425,9 +3420,6 @@ mThemeDirectories
 ;
 }
 }
-#
-ifdef
-LOAD_DISTRO_BUNDLES
 void
 nsXREDirProvider
 :
@@ -3608,11 +3600,6 @@ mAppBundleDirectories
 ;
 }
 }
-#
-endif
-/
-/
-LOAD_DISTRO_BUNDLES
 static
 const
 char

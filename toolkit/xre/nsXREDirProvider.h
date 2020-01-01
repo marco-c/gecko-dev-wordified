@@ -933,16 +933,11 @@ LoadBundleDirectories
 (
 )
 ;
-#
-ifdef
-LOAD_DISTRO_BUNDLES
 void
 LoadAppBundleDirs
 (
 )
 ;
-#
-endif
 void
 Append
 (
