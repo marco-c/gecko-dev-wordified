@@ -474,6 +474,15 @@ VMFrame
 f
 )
 ;
+void
+JS_FASTCALL
+ComputeThis
+(
+VMFrame
+&
+f
+)
+;
 JSObject
 *
 JS_FASTCALL

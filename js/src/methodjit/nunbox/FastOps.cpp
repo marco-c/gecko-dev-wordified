@@ -629,7 +629,7 @@ frame
 .
 pushTypedPayload
 (
-JSVAL_TAG_NONFUNOBJ
+JSVAL_TAG_OBJECT
 reg
 )
 ;
@@ -4415,10 +4415,7 @@ break
 ;
 }
 case
-JSVAL_TAG_NONFUNOBJ
-:
-case
-JSVAL_TAG_FUNOBJ
+JSVAL_TAG_OBJECT
 :
 {
 frame
@@ -4956,10 +4953,7 @@ JSTYPE_OBJECT
 break
 ;
 case
-JSVAL_TAG_FUNOBJ
-:
-case
-JSVAL_TAG_NONFUNOBJ
+JSVAL_TAG_OBJECT
 :
 atom
 =
@@ -5927,7 +5921,7 @@ getTypeTag
 )
 !
 =
-JSVAL_TAG_NONFUNOBJ
+JSVAL_TAG_OBJECT
 )
 |
 |
@@ -6029,7 +6023,7 @@ j
 *
 obj
 .
-isNonFunObj
+isObject
 (
 )
 *
@@ -6050,7 +6044,7 @@ j
 =
 frame
 .
-testNonFunObj
+testObject
 (
 Assembler
 :
@@ -6728,7 +6722,7 @@ getTypeTag
 )
 !
 =
-JSVAL_TAG_NONFUNOBJ
+JSVAL_TAG_OBJECT
 )
 |
 |
@@ -6851,7 +6845,7 @@ j
 =
 frame
 .
-testNonFunObj
+testObject
 (
 Assembler
 :
