@@ -1233,7 +1233,7 @@ LinkAdded
 {
 CreateAndDispatchEvent
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 NS_LITERAL_STRING
@@ -1258,7 +1258,7 @@ LinkRemoved
 {
 CreateAndDispatchEvent
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 NS_LITERAL_STRING

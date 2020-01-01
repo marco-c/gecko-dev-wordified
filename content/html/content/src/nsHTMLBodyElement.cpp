@@ -3268,7 +3268,7 @@ XXXbz
 should
 this
 use
-GetOwnerDoc
+OwnerDoc
 (
 )
 or
@@ -3747,7 +3747,7 @@ nsPIDOMWindow
 *
 win
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -3835,7 +3835,7 @@ nsPIDOMWindow
 *
 win
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -3925,7 +3925,7 @@ nsPIDOMWindow
 *
 win
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -4001,7 +4001,7 @@ nsPIDOMWindow
 *
 win
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 -

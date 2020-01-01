@@ -2007,6 +2007,10 @@ WebGLExtensionStandardDerivatives
 )
 DOMCI_CLASS
 (
+WebGLExtensionLoseContext
+)
+DOMCI_CLASS
+(
 PaintRequest
 )
 DOMCI_CLASS
@@ -2106,7 +2110,7 @@ IDBVersionChangeEvent
 )
 DOMCI_CLASS
 (
-IDBVersionChangeRequest
+IDBOpenDBRequest
 )
 DOMCI_CLASS
 (

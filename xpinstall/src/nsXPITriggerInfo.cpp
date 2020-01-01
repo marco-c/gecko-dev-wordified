@@ -450,6 +450,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
@@ -538,6 +547,10 @@ nsIX509Cert
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 /
@@ -1583,7 +1596,7 @@ AutoArrayRooter
 tvr
 (
 cx
-JS_ARRAY_LENGTH
+ArrayLength
 (
 args
 )

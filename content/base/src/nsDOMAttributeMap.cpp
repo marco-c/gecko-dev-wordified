@@ -1723,7 +1723,7 @@ do_QueryInterface
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 &

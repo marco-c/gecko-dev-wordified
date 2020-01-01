@@ -668,6 +668,11 @@ b
 nsGkAtoms
 :
 :
+bdi
+&
+nsGkAtoms
+:
+:
 bdo
 &
 nsGkAtoms
@@ -8352,7 +8357,7 @@ document
 aElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -9642,7 +9647,7 @@ sanitizedStyle
 aFragment
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 baseURI

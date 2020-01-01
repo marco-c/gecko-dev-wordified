@@ -1344,10 +1344,6 @@ nsnull
 /
 Device
 context
-nsnull
-/
-/
-nsIToolkit
 &
 widgetInitData
 )

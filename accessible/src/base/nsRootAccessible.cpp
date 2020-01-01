@@ -2356,7 +2356,7 @@ GetDocAccessible
 origTargetNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

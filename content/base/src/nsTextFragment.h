@@ -1602,6 +1602,7 @@ GetLength
 (
 )
 *
+(
 Is2b
 (
 )
@@ -1616,6 +1617,7 @@ sizeof
 (
 *
 m1b
+)
 )
 ;
 return

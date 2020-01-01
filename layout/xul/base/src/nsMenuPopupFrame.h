@@ -3195,7 +3195,7 @@ initially
 hidden
 .
 nsresult
-CreatePopupViewForFrame
+CreatePopupView
 (
 )
 ;

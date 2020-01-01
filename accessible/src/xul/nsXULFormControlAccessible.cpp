@@ -6650,11 +6650,15 @@ GetPrimaryFrame
 ;
 return
 frame
+?
+frame
 -
 >
 GetFrameSelection
 (
 )
+:
+nsnull
 ;
 }
 /

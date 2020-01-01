@@ -722,7 +722,7 @@ mBlockedDoc
 aEventNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -761,7 +761,7 @@ mBlockedDoc
 aEventNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

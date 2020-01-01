@@ -455,6 +455,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 Events
 .
 h
@@ -524,6 +533,10 @@ JSPROP_SHARED
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
+using
+namespace
+mozilla
+;
 USING_WORKERS_NAMESPACE
 namespace
 {
@@ -5375,7 +5388,7 @@ JS_CallFunctionName
 aCx
 aTarget
 kFunctionName
-JS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )

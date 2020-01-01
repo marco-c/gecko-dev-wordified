@@ -2537,7 +2537,7 @@ return
 node
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2861,7 +2861,7 @@ IsChromeDoc
 node
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

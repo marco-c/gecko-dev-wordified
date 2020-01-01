@@ -480,6 +480,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 class
 nsCSSStyleSheet
 ;
@@ -1385,7 +1392,7 @@ nsIURI
 aURL
 PRUint32
 aLineNumber
-nsTArray
+InfallibleTArray
 <
 float
 >

@@ -4881,7 +4881,7 @@ return
 thisContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

@@ -1771,6 +1771,11 @@ lock
 mPrefixSetLock
 )
 ;
+*
+aFound
+=
+false
+;
 /
 /
 We

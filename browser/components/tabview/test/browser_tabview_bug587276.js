@@ -290,7 +290,7 @@ loadURI
 "
 about
 :
-mozilla
+robots
 "
 )
 ;

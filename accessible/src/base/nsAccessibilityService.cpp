@@ -5782,7 +5782,7 @@ GetDocAccessible
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -5848,7 +5848,7 @@ GetDocAccessible
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -6213,7 +6213,7 @@ if
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 !
@@ -6638,7 +6638,7 @@ GetDocAccessible
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

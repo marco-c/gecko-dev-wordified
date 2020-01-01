@@ -10278,7 +10278,7 @@ rv
 rv
 )
 ;
-bool
+PRUint8
 batchAction
 =
 aReplace

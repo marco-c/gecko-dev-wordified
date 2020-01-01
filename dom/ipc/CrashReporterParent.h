@@ -698,7 +698,7 @@ class
 Toplevel
 >
 static
-void
+bool
 CreateCrashReporter
 (
 Toplevel
@@ -1108,7 +1108,7 @@ Toplevel
 static
 *
 /
-void
+bool
 CrashReporterParent
 :
 :
@@ -1179,8 +1179,16 @@ actor
 )
 ;
 }
+return
+!
+!
+p
+;
 #
 endif
+return
+false
+;
 }
 #
 endif

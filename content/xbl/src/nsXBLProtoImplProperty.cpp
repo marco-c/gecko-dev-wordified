@@ -970,7 +970,7 @@ ownerDoc
 aBoundElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -980,10 +980,6 @@ sgo
 ;
 if
 (
-!
-ownerDoc
-|
-|
 !
 (
 sgo

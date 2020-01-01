@@ -1416,15 +1416,6 @@ aInvalidateChangedSize
 )
 ;
 void
-SetPositionIgnoringChildWidgets
-(
-nscoord
-aX
-nscoord
-aY
-)
-;
-void
 AssertNoWindow
 (
 )

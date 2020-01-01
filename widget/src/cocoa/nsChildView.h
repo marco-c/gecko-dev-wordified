@@ -2890,11 +2890,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIToolkit
-*
-aToolkit
-=
-nsnull
 nsWidgetInitData
 *
 aInitData

@@ -2404,7 +2404,7 @@ I
 /
 think
 that
-GetOwnerDoc
+OwnerDoc
 (
 )
 is
@@ -2431,12 +2431,7 @@ to
 .
 if
 (
-GetOwnerDoc
-(
-)
-&
-&
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -3555,7 +3550,7 @@ if
 aDest
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -

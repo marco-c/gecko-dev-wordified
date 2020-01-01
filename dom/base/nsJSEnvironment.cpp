@@ -9668,7 +9668,7 @@ sSecurityManager
 GetObjectPrincipal
 (
 mContext
-JS_GetObjectFromScript
+JS_GetGlobalFromScript
 (
 script
 )

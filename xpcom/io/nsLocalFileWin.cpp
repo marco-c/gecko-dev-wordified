@@ -10656,6 +10656,16 @@ targetIterator
 )
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+return
+rv
+;
 bool
 more
 ;
@@ -16529,7 +16539,7 @@ dir
 UINT
 count
 =
-PR_ARRAY_SIZE
+ArrayLength
 (
 selection
 )
@@ -16712,7 +16722,7 @@ item
 UINT
 count
 =
-PR_ARRAY_SIZE
+ArrayLength
 (
 selection
 )

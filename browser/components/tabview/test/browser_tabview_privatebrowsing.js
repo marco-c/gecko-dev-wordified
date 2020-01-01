@@ -384,7 +384,7 @@ addTab
 "
 about
 :
-mozilla
+robots
 "
 )
 ;

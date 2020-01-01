@@ -1216,7 +1216,7 @@ nsHTMLDNSPrefetch
 :
 IsAllowed
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

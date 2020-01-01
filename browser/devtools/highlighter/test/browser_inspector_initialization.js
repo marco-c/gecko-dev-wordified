@@ -954,7 +954,7 @@ InspectorUI
 .
 stylePanel
 .
-showTool
+open
 (
 doc
 .

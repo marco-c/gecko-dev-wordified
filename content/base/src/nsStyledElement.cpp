@@ -1991,15 +1991,11 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
 if
-(
-doc
-&
-&
 (
 aForceInDataDoc
 |
@@ -2018,7 +2014,6 @@ doc
 >
 IsStaticDocument
 (
-)
 )
 )
 {

@@ -2109,6 +2109,14 @@ nsIView
 aView
 )
 ;
+NS_IMETHOD_
+(
+bool
+)
+IsVisible
+(
+)
+;
 /
 /
 caret
@@ -3356,7 +3364,7 @@ gCaptureInfo
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 =

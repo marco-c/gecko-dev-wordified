@@ -5888,7 +5888,7 @@ eRelevantLinkUnvisited
 aElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -6604,7 +6604,7 @@ eRelevantLinkUnvisited
 aParentElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -6801,7 +6801,7 @@ eRelevantLinkUnvisited
 aParentElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -7416,7 +7416,7 @@ eRelevantLinkUnvisited
 aParentElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -8943,7 +8943,7 @@ eLinksVisitedOrUnvisited
 aContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -9071,7 +9071,7 @@ eLinksVisitedOrUnvisited
 aElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -9245,7 +9245,7 @@ eLinksVisitedOrUnvisited
 aElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

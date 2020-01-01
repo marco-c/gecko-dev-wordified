@@ -888,9 +888,7 @@ seamonkey
 /
 source
 /
-modules
-/
-libpr0n
+image
 /
 public
 /
@@ -1173,9 +1171,7 @@ seamonkey
 /
 source
 /
-modules
-/
-libpr0n
+image
 /
 public
 /
