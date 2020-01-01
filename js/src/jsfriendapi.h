@@ -6810,7 +6810,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 /
@@ -6877,7 +6877,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 /
@@ -6967,7 +6967,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 /
@@ -7088,7 +7088,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 /
@@ -7583,7 +7583,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 extern
@@ -7599,7 +7599,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 extern
@@ -7615,7 +7615,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 extern
@@ -7631,7 +7631,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 extern
@@ -7647,7 +7647,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 extern
@@ -7663,7 +7663,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 extern
@@ -7679,7 +7679,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 extern
@@ -7695,7 +7695,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 extern
@@ -7711,7 +7711,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 /
@@ -7752,7 +7752,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 /
@@ -7907,7 +7907,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 /
@@ -7997,7 +7997,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 /
@@ -8093,7 +8093,7 @@ JSObject
 obj
 JSContext
 *
-maybecx
+cx
 )
 ;
 #
