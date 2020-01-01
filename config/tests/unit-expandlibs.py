@@ -2937,13 +2937,15 @@ args
 content
 =
 [
-"
+'
 INPUT
 (
+"
 %
 s
-)
 "
+)
+'
 %
 relativize
 (
