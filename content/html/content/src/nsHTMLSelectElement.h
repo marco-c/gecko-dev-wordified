@@ -217,7 +217,7 @@ h
 #
 include
 "
-nsHTMLOptGroupElement
+HTMLOptGroupElement
 .
 h
 "

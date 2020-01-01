@@ -115,7 +115,7 @@ h
 #
 include
 "
-nsHTMLOptGroupElement
+HTMLOptGroupElement
 .
 h
 "
@@ -1063,7 +1063,13 @@ HTMLImageElement
 DEFINE_UNWRAP_CAST_HTML
 (
 optgroup
-nsHTMLOptGroupElement
+mozilla
+:
+:
+dom
+:
+:
+HTMLOptGroupElement
 )
 DEFINE_UNWRAP_CAST_HTML
 (
