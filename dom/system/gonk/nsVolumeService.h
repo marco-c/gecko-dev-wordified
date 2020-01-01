@@ -355,6 +355,10 @@ const
 nsAString
 &
 aName
+bool
+aIsFake
+=
+false
 )
 ;
 Monitor
