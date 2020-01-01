@@ -1574,7 +1574,7 @@ exit_
 /
 Object
 for
-JSHandleObject
+HandleObject
 JSObject
 *
 obj_
@@ -1583,7 +1583,7 @@ obj_
 /
 id
 for
-JSHandleId
+HandleId
 jsid
 id_
 ;
@@ -1772,7 +1772,7 @@ proxy_
 /
 Object
 for
-JSHandleObject
+HandleObject
 JSObject
 *
 receiver_
@@ -1781,7 +1781,7 @@ receiver_
 /
 id
 for
-JSHandleId
+HandleId
 jsid
 id_
 ;

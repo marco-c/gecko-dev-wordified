@@ -16775,9 +16775,9 @@ JS_PropertyStub
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 MutableHandleValue
 vp
@@ -16796,9 +16796,9 @@ JS_StrictPropertyStub
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 JSBool
 strict
@@ -16819,9 +16819,9 @@ JS_DeletePropertyStub
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 JSBool
 *
@@ -16846,7 +16846,7 @@ JS_EnumerateStub
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 )
 {
@@ -16863,9 +16863,9 @@ JS_ResolveStub
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 )
 {
@@ -16882,7 +16882,7 @@ JS_ConvertStub
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 JSType
 type
@@ -20917,7 +20917,7 @@ DefineProperty
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 const
 char
@@ -21190,7 +21190,7 @@ DefineUCProperty
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 const
 jschar

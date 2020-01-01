@@ -3017,7 +3017,10 @@ js_InitProxyClass
 JSContext
 *
 cx
-JSHandleObject
+JS
+:
+:
+HandleObject
 obj
 )
 ;

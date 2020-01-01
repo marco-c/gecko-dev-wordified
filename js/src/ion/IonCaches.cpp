@@ -6136,9 +6136,9 @@ fn
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 MutableHandleValue
 vp
@@ -12060,11 +12060,11 @@ fn
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 /
 /
-JSHandleId
+HandleId
 id
 JSBool
 strict

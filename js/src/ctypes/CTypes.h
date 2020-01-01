@@ -2337,7 +2337,7 @@ InitTypeClasses
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 parent
 )
 ;
@@ -2347,9 +2347,9 @@ ConvertToJS
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 typeObj
-JSHandleObject
+HandleObject
 dataObj
 void
 *
@@ -2369,7 +2369,7 @@ ImplicitConvert
 JSContext
 *
 cx
-JSHandleValue
+HandleValue
 val
 JSObject
 *
@@ -2390,9 +2390,9 @@ ExplicitConvert
 JSContext
 *
 cx
-JSHandleValue
+HandleValue
 val
-JSHandleObject
+HandleObject
 targetType
 void
 *
@@ -3367,9 +3367,9 @@ Create
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 typeProto
-JSHandleObject
+HandleObject
 dataProto
 TypeCode
 type
@@ -3509,7 +3509,7 @@ GetName
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 )
 ;
@@ -3558,7 +3558,7 @@ CreateInternal
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 baseType
 )
 ;
@@ -3582,7 +3582,7 @@ CreateInternal
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 baseType
 size_t
 length
@@ -3774,11 +3774,11 @@ Create
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 typeObj
-JSHandleObject
+HandleObject
 fnObj
-JSHandleObject
+HandleObject
 thisObj
 jsval
 errVal
@@ -3798,9 +3798,9 @@ Create
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 typeObj
-JSHandleObject
+HandleObject
 refObj
 void
 *

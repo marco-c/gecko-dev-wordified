@@ -26553,7 +26553,7 @@ dom_get_x
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 void
 *
@@ -26617,7 +26617,7 @@ dom_set_x
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 void
 *
@@ -26662,7 +26662,7 @@ dom_doFoo
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 void
 *
@@ -27688,7 +27688,7 @@ static
 JSBool
 InstanceClassHasProtoAtDepth
 (
-JSHandleObject
+HandleObject
 protoObject
 uint32_t
 protoID
