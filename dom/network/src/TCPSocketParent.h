@@ -237,9 +237,6 @@ const
 nsString
 &
 aBinaryType
-PBrowserParent
-*
-aBrowser
 )
 ;
 virtual
