@@ -1025,7 +1025,7 @@ strcpy
 (
 env
 "
-MOZ_AIRBAG
+MOZ_CRASHREPORTER
 =
 1
 "
