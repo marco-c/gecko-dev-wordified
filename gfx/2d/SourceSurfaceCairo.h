@@ -261,11 +261,6 @@ DrawTargetWillChange
 (
 )
 ;
-void
-MarkIndependent
-(
-)
-;
 private
 :
 /
