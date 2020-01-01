@@ -745,7 +745,7 @@ pixels
 .
 *
 param
-aSourceBBox
+aOverrideBBox
 overrides
 the
 normal
@@ -768,7 +768,15 @@ aTarget
 const
 nsIntRect
 *
-aSourceBBox
+aOverrideBBox
+=
+nsnull
+const
+nsIntRect
+*
+aPreFilterBounds
+=
+nsnull
 )
 ;
 #

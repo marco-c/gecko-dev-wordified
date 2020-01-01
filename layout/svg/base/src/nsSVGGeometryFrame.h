@@ -573,6 +573,11 @@ nsSVGGeometryFrameBase
 aContext
 )
 {
+AddStateBits
+(
+NS_FRAME_SVG_LAYOUT
+)
+;
 }
 public
 :
