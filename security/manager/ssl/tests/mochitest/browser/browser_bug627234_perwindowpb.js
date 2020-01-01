@@ -221,7 +221,7 @@ Ci
 .
 nsISiteSecurityService
 .
-HEADER_HSTA
+HEADER_HSTS
 uri
 "
 max
