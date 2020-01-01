@@ -532,6 +532,9 @@ nsCSSParser
 class
 nsMediaList
 ;
+class
+nsIStyleSheetLinkingElement
+;
 namespace
 mozilla
 {
@@ -3091,6 +3094,17 @@ inline
 sheets
 )
 .
+aElement
+is
+the
+/
+/
+owning
+element
+for
+this
+sheet
+.
 nsresult
 PostLoadEvent
 (
@@ -3105,6 +3119,9 @@ nsICSSLoaderObserver
 aObserver
 PRBool
 aWasAlternate
+nsIStyleSheetLinkingElement
+*
+aElement
 )
 ;
 /
