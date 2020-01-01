@@ -1767,6 +1767,7 @@ element
 >
 GetCanvasLayer
 (
+aBuilder
 oldLayer
 aManager
 )
@@ -1778,13 +1779,6 @@ layer
 )
 return
 nsnull
-;
-element
--
->
-MarkContextClean
-(
-)
 ;
 nsPresContext
 *
