@@ -14136,7 +14136,7 @@ ifdef
 JS_THREADSAFE
 static
 JSBool
-Sleep_fn
+Sleep
 (
 JSContext
 *
@@ -16170,7 +16170,7 @@ JS_FN
 "
 sleep
 "
-Sleep_fn
+Sleep
 1
 0
 )
@@ -21552,6 +21552,10 @@ from
 ;
 dir
 =
+(
+char
+*
+)
 JS_malloc
 (
 cx
@@ -21874,6 +21878,10 @@ else
 {
 buf
 =
+(
+char
+*
+)
 JS_malloc
 (
 cx
