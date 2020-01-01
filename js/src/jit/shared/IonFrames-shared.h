@@ -166,7 +166,7 @@ IonCode
 )
 #
 define
-ION_FRAME_OOL_PROXY_GET
+ION_FRAME_OOL_PROXY
 (
 (
 IonCode
