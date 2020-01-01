@@ -681,6 +681,17 @@ return
 mDOMTiming
 ;
 }
+nsITimedChannel
+*
+GetChannel
+(
+)
+const
+{
+return
+mChannel
+;
+}
 nsIDOMWindow
 *
 GetParentObject
