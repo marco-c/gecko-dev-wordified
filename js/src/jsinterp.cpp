@@ -37438,6 +37438,7 @@ regs
 sp
 -
 len
+JS_TRUE
 )
 ;
 if

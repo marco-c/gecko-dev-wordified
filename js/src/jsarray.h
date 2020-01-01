@@ -564,6 +564,10 @@ length
 jsval
 *
 vector
+JSBool
+holey
+=
+JS_FALSE
 )
 ;
 /
