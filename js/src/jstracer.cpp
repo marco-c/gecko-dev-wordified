@@ -34352,6 +34352,10 @@ js_math_floor
 )
 KNOWN_NATIVE_DECL
 (
+js_math_log
+)
+KNOWN_NATIVE_DECL
+(
 js_math_pow
 )
 KNOWN_NATIVE_DECL
@@ -34752,6 +34756,16 @@ F_Math_random
 R
 "
 "
+"
+INFALLIBLE
+}
+{
+js_math_log
+F_Math_log
+"
+"
+"
+d
 "
 INFALLIBLE
 }

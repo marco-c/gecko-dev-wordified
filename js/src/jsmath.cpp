@@ -498,7 +498,7 @@ h
 #
 include
 "
-jsversion
+jsconfig
 .
 h
 "
@@ -1901,9 +1901,8 @@ vp
 )
 ;
 }
-static
 JSBool
-math_log
+js_math_log
 (
 JSContext
 *
@@ -3646,7 +3645,7 @@ JS_FN
 "
 log
 "
-math_log
+js_math_log
 1
 0
 )
