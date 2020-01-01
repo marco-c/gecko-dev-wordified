@@ -7040,7 +7040,7 @@ SetBorderWidth
 side
 borderWidth
 .
-side
+Side
 (
 side
 )

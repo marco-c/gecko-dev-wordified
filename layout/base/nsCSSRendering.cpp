@@ -10054,7 +10054,7 @@ GetActualBorder
 (
 )
 .
-side
+Side
 (
 aSide
 )
@@ -19411,7 +19411,7 @@ imgDimension
 ;
 split
 .
-side
+Side
 (
 s
 )

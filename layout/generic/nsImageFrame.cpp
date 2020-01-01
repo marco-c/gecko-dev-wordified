@@ -6899,7 +6899,7 @@ NS_RGB
 ;
 mBorder
 .
-side
+Side
 (
 side
 )
