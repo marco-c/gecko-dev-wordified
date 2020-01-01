@@ -951,9 +951,6 @@ class
 CallArgs
 ;
 struct
-BytecodeCompiler
-;
-struct
 BytecodeEmitter
 ;
 struct

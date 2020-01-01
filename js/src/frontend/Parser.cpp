@@ -13177,10 +13177,13 @@ global
 and
 eval
 code
-BytecodeCompiler
+js
 :
 :
-compileScript
+frontend
+:
+:
+CompileScript
 will
 adjust
 the

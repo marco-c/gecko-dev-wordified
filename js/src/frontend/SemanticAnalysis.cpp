@@ -3680,10 +3680,13 @@ passed
 *
 in
 from
-BytecodeCompiler
+js
 :
 :
-compileFunctionBody
+frontend
+:
+:
+CompileFunctionBody
 .
 *
 /
