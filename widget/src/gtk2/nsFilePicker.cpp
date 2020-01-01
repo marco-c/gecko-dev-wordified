@@ -2760,7 +2760,7 @@ aFileURL
 nsnull
 ;
 return
-NS_NewFileURI
+NS_NewURI
 (
 aFileURL
 mFileURL
