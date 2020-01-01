@@ -1934,12 +1934,16 @@ nsCOMPtr
 nsIWidget
 >
 widget
-=
+;
 menuPopupFrame
 -
 >
 GetWidget
 (
+getter_AddRefs
+(
+widget
+)
 )
 ;
 if

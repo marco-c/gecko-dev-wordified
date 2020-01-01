@@ -2490,7 +2490,7 @@ curBounds
 mWindow
 -
 >
-GetClientBounds
+GetBounds
 (
 curBounds
 )
@@ -2695,7 +2695,7 @@ aMoveOnly
 mWindow
 -
 >
-ResizeClient
+Resize
 (
 newBounds
 .
@@ -2718,7 +2718,7 @@ else
 mWindow
 -
 >
-MoveClient
+Move
 (
 newBounds
 .
@@ -2744,7 +2744,7 @@ aMoveOnly
 mWindow
 -
 >
-ResizeClient
+Resize
 (
 newBounds
 .

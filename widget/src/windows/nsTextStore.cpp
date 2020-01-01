@@ -7138,14 +7138,6 @@ rv
 E_FAIL
 )
 ;
-boundRect
-.
-MoveTo
-(
-0
-0
-)
-;
 /
 /
 Clip
