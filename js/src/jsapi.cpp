@@ -4411,6 +4411,10 @@ inOOMReport
 (
 0
 )
+jitHardening
+(
+false
+)
 {
 /
 *
