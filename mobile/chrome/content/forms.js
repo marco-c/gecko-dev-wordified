@@ -1428,7 +1428,7 @@ sendAsyncMessage
 "
 FormAssist
 :
-Show
+Resize
 "
 this
 .
