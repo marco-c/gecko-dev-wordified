@@ -1604,9 +1604,6 @@ mScrollOffset
 nsIntRect
 mContentRect
 ;
-nsIntSize
-mWidgetSize
-;
 /
 /
 When
