@@ -480,6 +480,13 @@ nsCOMPtr
 h
 "
 #
+include
+"
+nsCExternalHandlerService
+.
+h
+"
+#
 if
 (
 MOZ_PLATFORM_MAEMO
@@ -559,6 +566,7 @@ NS_IMPL_CLASSINFO
 nsDBusHandlerApp
 NULL
 0
+NS_DBUSHANDLERAPP_CID
 )
 NS_IMPL_ISUPPORTS2_CI
 (
