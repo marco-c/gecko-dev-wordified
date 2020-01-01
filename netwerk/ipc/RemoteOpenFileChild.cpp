@@ -1244,7 +1244,6 @@ SendPRemoteOpenFileConstructor
 (
 this
 uri
-mTabChild
 )
 ;
 /
