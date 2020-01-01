@@ -532,6 +532,17 @@ PRBool
 isServer
 )
 ;
+PRErrorCode
+PSM_SSL_BlacklistDigiNotar
+(
+CERTCertificate
+*
+serverCert
+CERTCertList
+*
+serverCertChain
+)
+;
 SECStatus
 RegisterMyOCSPAIAInfoCallback
 (
