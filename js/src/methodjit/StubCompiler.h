@@ -838,6 +838,11 @@ STUB_CALL_TYPE
 VoidStubGetElemIC
 )
 ;
+STUB_CALL_TYPE
+(
+VoidStubSetElemIC
+)
+;
 #
 endif
 #
