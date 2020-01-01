@@ -21675,7 +21675,7 @@ to
 %
 s
 )
-callDept
+callDepth
 =
 %
 d
@@ -21763,11 +21763,16 @@ atomMap
 .
 vector
 ;
-stack
+set
+(
+&
+stackval
 (
 -
 1
+)
 rval_ins
+true
 )
 ;
 return
@@ -26656,7 +26661,7 @@ TC
 "
 s
 "
-FAIL_NEG
+FAIL_VOID
 NULL
 }
 }
