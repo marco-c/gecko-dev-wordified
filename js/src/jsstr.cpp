@@ -10277,8 +10277,10 @@ v
 )
 ;
 }
-static
 JSBool
+js
+:
+:
 str_match
 (
 JSContext
@@ -10482,8 +10484,10 @@ return
 true
 ;
 }
-static
 JSBool
+js
+:
+:
 str_search
 (
 JSContext
@@ -16519,8 +16523,10 @@ ES5
 14
 *
 /
-static
 JSBool
+js
+:
+:
 str_split
 (
 JSContext

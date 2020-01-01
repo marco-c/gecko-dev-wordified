@@ -4323,6 +4323,11 @@ jsop_newinit
 )
 ;
 void
+jsop_regexp
+(
+)
+;
+void
 jsop_initmethod
 (
 )
