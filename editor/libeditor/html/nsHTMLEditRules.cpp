@@ -14570,6 +14570,10 @@ t
 cross
 table
 boundaries
+-
+-
+cancel
+it
 if
 (
 InDifferentTableElements
@@ -14579,6 +14583,11 @@ rightNode
 )
 )
 {
+*
+aCancel
+=
+true
+;
 return
 NS_OK
 ;
