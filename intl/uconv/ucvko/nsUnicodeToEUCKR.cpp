@@ -205,7 +205,7 @@ g_EUCKRMappingTable
 ]
 =
 {
-g_ucvko_AsciiMapping
+g_ASCIIMappingTable
 g_ufKSC5601Mapping
 g_HangulNullMapping
 }

@@ -205,7 +205,7 @@ g_Big5MappingTable
 ]
 =
 {
-g_ASCIIMapping
+g_ASCIIMappingTable
 g_ufBig5Mapping
 }
 ;

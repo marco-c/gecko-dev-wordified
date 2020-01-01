@@ -318,7 +318,7 @@ g_CP949Ranges
 {
 {
 0x00
-0x7E
+0x7F
 }
 {
 0xA4
@@ -378,7 +378,7 @@ g_CP949MappingTableSet
 ]
 =
 {
-g_ucvko_AsciiMapping
+g_ASCIIMappingTable
 g_HangulNullMapping
 g_utKSC5601Mapping
 g_utCP949NoKSCHangulMapping
