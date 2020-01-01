@@ -514,7 +514,7 @@ browser
 .
 cacheRatioHeight
 "
-2000
+3000
 )
 ;
 /
