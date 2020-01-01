@@ -2678,6 +2678,12 @@ ShouldRetainTransparentSurface
 mContentFlags
 targetSurface
 )
+&
+&
+!
+AsShadowableLayer
+(
+)
 )
 )
 {
