@@ -317,6 +317,16 @@ nsIDocument
 aDocumentNode
 )
 ;
+void
+DocCompleteLoad
+(
+DocAccessible
+*
+aDocument
+bool
+aIsLoadEventTarget
+)
+;
 /
 *
 *
