@@ -12177,7 +12177,7 @@ parent
 )
 )
             
-elif
+if
 b
 .
 child
@@ -13344,6 +13344,13 @@ not
 None
 :
                     
+if
+parentSideProto
+!
+=
+childSideProto
+:
+                        
 self
 .
 error
@@ -13351,7 +13358,7 @@ error
 bridges
 .
 loc
-                               
+                                   
 "
 ambiguous
 bridge
@@ -13367,19 +13374,19 @@ and
 s
 '
 "
-                               
+                                   
 bridgeProto
 .
 name
 (
 )
-                               
+                                   
 parentSideProto
 .
 name
 (
 )
-                               
+                                   
 childSideProto
 .
 name
