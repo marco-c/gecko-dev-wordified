@@ -5980,6 +5980,8 @@ slot
 JSObject
 *
 pobj
+JSBool
+checkForCycles
 )
 ;
 extern
