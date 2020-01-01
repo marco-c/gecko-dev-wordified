@@ -104,6 +104,13 @@ h
 #
 include
 "
+nsIMemoryReporter
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h
@@ -142,9 +149,6 @@ h
 "
 class
 nsIIDNService
-;
-class
-nsIMemoryReporter
 ;
 #
 define
@@ -597,8 +601,10 @@ nsEffectiveTLDService
 (
 )
 ;
+nsCOMPtr
+<
 nsIMemoryReporter
-*
+>
 mReporter
 ;
 nsTHashtable
