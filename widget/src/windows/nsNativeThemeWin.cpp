@@ -9738,7 +9738,7 @@ nsNativeThemeWin
 :
 GetWidgetBorder
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame
@@ -10356,7 +10356,7 @@ nsNativeThemeWin
 :
 GetWidgetPadding
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame
@@ -11118,7 +11118,7 @@ nsNativeThemeWin
 :
 GetWidgetOverflow
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame
@@ -13934,7 +13934,7 @@ nsNativeThemeWin
 :
 ClassicGetWidgetBorder
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame

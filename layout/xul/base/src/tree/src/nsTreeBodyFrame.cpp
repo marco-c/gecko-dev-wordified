@@ -23790,7 +23790,7 @@ size
 (
 width
 *
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel
@@ -23798,7 +23798,7 @@ AppUnitsPerCSSPixel
 )
 height
 *
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel
@@ -23940,7 +23940,7 @@ size
 (
 width
 *
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel
@@ -23948,7 +23948,7 @@ AppUnitsPerCSSPixel
 )
 height
 *
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel

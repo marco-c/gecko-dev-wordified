@@ -3606,7 +3606,7 @@ px
 NSAppUnitsToFloatPixels
 (
 aValue
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel

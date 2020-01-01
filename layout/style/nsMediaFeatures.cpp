@@ -819,7 +819,7 @@ NS_OK
 }
 inline
 static
-nsIDeviceContext
+nsDeviceContext
 *
 GetDeviceContextFor
 (
@@ -1391,7 +1391,7 @@ implementation
 is
 bogus
 .
-nsThebesDeviceContext
+nsDeviceContext
 /
 /
 doesn
@@ -1422,7 +1422,7 @@ device
 return
 0
 !
-nsIDeviceContext
+nsDeviceContext
 *
 dx
 =
@@ -1694,7 +1694,7 @@ not
 CSS
 pixels
 .
-nsIDeviceContext
+nsDeviceContext
 *
 dx
 =

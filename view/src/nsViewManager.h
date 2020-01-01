@@ -508,7 +508,7 @@ h
 #
 include
 "
-nsIDeviceContext
+nsDeviceContext
 .
 h
 "
@@ -814,7 +814,7 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 Init
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 )
@@ -1056,7 +1056,7 @@ aObserver
 NS_IMETHOD
 GetDeviceContext
 (
-nsIDeviceContext
+nsDeviceContext
 *
 &
 aContext
@@ -1787,9 +1787,9 @@ AppUnitsPerDevPixel
 }
 private
 :
-nsCOMPtr
+nsRefPtr
 <
-nsIDeviceContext
+nsDeviceContext
 >
 mContext
 ;

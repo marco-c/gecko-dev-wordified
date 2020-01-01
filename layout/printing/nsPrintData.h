@@ -441,7 +441,7 @@ h
 #
 include
 "
-nsIDeviceContext
+nsDeviceContext
 .
 h
 "
@@ -869,9 +869,9 @@ or
 Print
 Preview
 )
-nsCOMPtr
+nsRefPtr
 <
-nsIDeviceContext
+nsDeviceContext
 >
 mPrintDC
 ;

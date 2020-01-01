@@ -2595,9 +2595,9 @@ me
 nsWeakPtr
 mTopContainerWhilePrinting
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDeviceContext
+nsDeviceContext
 >
 mDeviceContext
 ;
@@ -13308,7 +13308,7 @@ rv
 return
 rv
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 dx
 =

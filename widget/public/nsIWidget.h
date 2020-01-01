@@ -549,7 +549,7 @@ class
 nsRenderingContext
 ;
 class
-nsIDeviceContext
+nsDeviceContext
 ;
 struct
 nsFont
@@ -1709,7 +1709,7 @@ nsIntRect
 aRect
 EVENT_CALLBACK
 aHandleEventFunction
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIAppShell
@@ -1910,7 +1910,7 @@ nsIntRect
 aRect
 EVENT_CALLBACK
 aHandleEventFunction
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIAppShell
@@ -2025,7 +2025,7 @@ AttachViewToTopLevel
 (
 EVENT_CALLBACK
 aViewEventFunction
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 )
@@ -5419,7 +5419,7 @@ s
 device
 context
 virtual
-nsIDeviceContext
+nsDeviceContext
 *
 GetDeviceContext
 (

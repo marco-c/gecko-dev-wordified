@@ -510,7 +510,7 @@ aDirtyRect
 NS_IMETHOD
 GetWidgetBorder
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame
@@ -527,7 +527,7 @@ virtual
 PRBool
 GetWidgetPadding
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame
@@ -544,7 +544,7 @@ virtual
 PRBool
 GetWidgetOverflow
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame
@@ -724,7 +724,7 @@ aClipRect
 nsresult
 ClassicGetWidgetBorder
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame

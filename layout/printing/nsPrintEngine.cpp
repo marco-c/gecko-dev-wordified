@@ -1587,7 +1587,7 @@ DumpPrintObjectsTreeLayout
 nsPrintObject
 *
 aPO
-nsIDeviceContext
+nsDeviceContext
 *
 aDC
 int
@@ -3649,7 +3649,7 @@ aURLStr
 nsPresContext
 *
 aPresContext
-nsIDeviceContext
+nsDeviceContext
 *
 aDC
 nsIFrame
@@ -29729,7 +29729,7 @@ aURLStr
 nsPresContext
 *
 aPresContext
-nsIDeviceContext
+nsDeviceContext
 *
 aDC
 nsIFrame
@@ -31354,7 +31354,7 @@ DumpPrintObjectsTreeLayout
 nsPrintObject
 *
 aPO
-nsIDeviceContext
+nsDeviceContext
 *
 aDC
 int

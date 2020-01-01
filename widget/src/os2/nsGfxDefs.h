@@ -467,7 +467,7 @@ class
 nsString
 ;
 class
-nsIDeviceContext
+nsDeviceContext
 ;
 #
 ifndef

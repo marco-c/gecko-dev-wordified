@@ -460,7 +460,7 @@ class
 nsIDocShell
 ;
 class
-nsIDeviceContext
+nsDeviceContext
 ;
 struct
 nsRect
@@ -505,7 +505,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMSCREEN
 protected
 :
-nsIDeviceContext
+nsDeviceContext
 *
 GetDeviceContext
 (

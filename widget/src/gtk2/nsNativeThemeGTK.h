@@ -529,7 +529,7 @@ aDirtyRect
 NS_IMETHOD
 GetWidgetBorder
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame
@@ -549,7 +549,7 @@ PRBool
 )
 GetWidgetPadding
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame
@@ -569,7 +569,7 @@ PRBool
 )
 GetWidgetOverflow
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame

@@ -9504,7 +9504,7 @@ if
 mRenderingContext
 )
 {
-nsIDeviceContext
+nsDeviceContext
 *
 devCtx
 =

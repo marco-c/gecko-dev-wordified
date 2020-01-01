@@ -17105,7 +17105,7 @@ in
 the
 /
 /
-nsIDeviceContext
+nsDeviceContext
 implementations
 not
 here

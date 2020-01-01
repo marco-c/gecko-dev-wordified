@@ -7614,7 +7614,7 @@ GetScreenRectInAppUnits
 (
 )
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 devContext
 =

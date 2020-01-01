@@ -504,7 +504,7 @@ h
 #
 include
 "
-nsIDeviceContext
+nsDeviceContext
 .
 h
 "
@@ -1101,7 +1101,7 @@ nsresult
 )
 Init
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aDeviceContext
 )
@@ -3223,7 +3223,7 @@ mPPScale
 aScale
 ;
 }
-nsIDeviceContext
+nsDeviceContext
 *
 DeviceContext
 (
@@ -3433,7 +3433,7 @@ AppUnitsPerCSSPixel
 )
 {
 return
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel
@@ -3463,7 +3463,7 @@ AppUnitsPerCSSInch
 )
 {
 return
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSInch
@@ -3483,7 +3483,7 @@ return
 NSIntPixelsToAppUnits
 (
 aPixels
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel
@@ -3506,7 +3506,7 @@ NSFloatPixelsToAppUnits
 aPixels
 float
 (
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel
@@ -3530,7 +3530,7 @@ NSAppUnitsToIntPixels
 aAppUnits
 float
 (
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel
@@ -3554,7 +3554,7 @@ NSAppUnitsToFloatPixels
 aAppUnits
 float
 (
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel
@@ -3788,7 +3788,7 @@ aTwips
 return
 NSToCoordRoundWithClamp
 (
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSInch
@@ -3878,7 +3878,7 @@ NSToCoordRound
 (
 aPoints
 *
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSInch
@@ -6136,7 +6136,7 @@ nsIDocument
 >
 mDocument
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 mDeviceContext
 ;

@@ -21197,7 +21197,7 @@ NS_ERROR_FAILURE
 nscoord
 appUnitsPerCSSPixel
 =
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel
@@ -21485,7 +21485,7 @@ else
 nscoord
 appUnitsPerCSSPixel
 =
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel
@@ -22136,7 +22136,7 @@ scaleY
 nscoord
 appUnitsPerCSSPixel
 =
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel
@@ -23461,7 +23461,7 @@ height
 HStripStart
 ;
 }
-nsIDeviceContext
+nsDeviceContext
 *
 nsLayoutUtils
 :
@@ -23605,7 +23605,7 @@ if
 presContext
 )
 {
-nsIDeviceContext
+nsDeviceContext
 *
 context
 =

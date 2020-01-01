@@ -1234,7 +1234,7 @@ to
 match
 /
 /
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerDevPixel

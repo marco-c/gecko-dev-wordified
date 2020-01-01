@@ -723,7 +723,7 @@ PRInt32
 aPixelDepth
 )
 {
-nsIDeviceContext
+nsDeviceContext
 *
 context
 =
@@ -917,7 +917,7 @@ return
 rv
 ;
 }
-nsIDeviceContext
+nsDeviceContext
 *
 nsScreen
 :
@@ -947,7 +947,7 @@ nsRect
 aRect
 )
 {
-nsIDeviceContext
+nsDeviceContext
 *
 context
 =
@@ -1044,7 +1044,7 @@ nsRect
 aRect
 )
 {
-nsIDeviceContext
+nsDeviceContext
 *
 context
 =

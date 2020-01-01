@@ -8540,7 +8540,7 @@ situations
 *
 /
 static
-nsIDeviceContext
+nsDeviceContext
 *
 GetDeviceContextForScreenInfo
 (

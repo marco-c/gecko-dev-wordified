@@ -1162,7 +1162,7 @@ aPresContext
 nsRect
 screen
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 context
 =

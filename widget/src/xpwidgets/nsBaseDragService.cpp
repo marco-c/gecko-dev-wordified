@@ -4109,7 +4109,7 @@ nsPresShell
 :
 :
 PaintRangePaintInfo
-nsIDeviceContext
+nsDeviceContext
 *
 deviceContext
 =

@@ -459,7 +459,7 @@ class
 nsRegion
 ;
 class
-nsIDeviceContext
+nsDeviceContext
 ;
 class
 nsIViewObserver
@@ -542,7 +542,7 @@ errors
 NS_IMETHOD
 Init
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 )
@@ -2222,7 +2222,7 @@ context
 NS_IMETHOD
 GetDeviceContext
 (
-nsIDeviceContext
+nsDeviceContext
 *
 &
 aContext

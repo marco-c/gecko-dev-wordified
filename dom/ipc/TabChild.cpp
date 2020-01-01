@@ -4518,7 +4518,7 @@ HandleWidgetEvent
 nsnull
 /
 /
-nsIDeviceContext
+nsDeviceContext
 )
 ;
 RenderFrameChild

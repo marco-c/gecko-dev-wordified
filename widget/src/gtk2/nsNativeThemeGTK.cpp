@@ -5009,7 +5009,7 @@ nsNativeThemeGTK
 :
 GetWidgetBorder
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame
@@ -5370,7 +5370,7 @@ nsNativeThemeGTK
 :
 GetWidgetPadding
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame
@@ -5483,7 +5483,7 @@ nsNativeThemeGTK
 :
 GetWidgetOverflow
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame

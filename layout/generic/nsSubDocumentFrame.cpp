@@ -5502,7 +5502,7 @@ Now
 also
 update
 all
-nsThebesDeviceContext
+nsDeviceContext
 :
 :
 mWidget
@@ -5603,7 +5603,7 @@ pc
 )
 )
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 dc
 =

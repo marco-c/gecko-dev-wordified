@@ -440,7 +440,7 @@ h
 #
 include
 "
-nsIDeviceContext
+nsDeviceContext
 .
 h
 "
@@ -1399,7 +1399,7 @@ nsIntRect
 aRect
 EVENT_CALLBACK
 aHandleEventFunction
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIAppShell
@@ -1922,7 +1922,7 @@ nsIntRect
 aRect
 EVENT_CALLBACK
 aHandleEventFunction
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIAppShell
@@ -2128,7 +2128,7 @@ AttachViewToTopLevel
 (
 EVENT_CALLBACK
 aViewEventFunction
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 )
@@ -8538,7 +8538,7 @@ context
 -
 -
 -
-nsIDeviceContext
+nsDeviceContext
 *
 nsBaseWidget
 :

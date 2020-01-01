@@ -5549,7 +5549,7 @@ nsPresContext
 :
 Init
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aDeviceContext
 )

@@ -3443,7 +3443,7 @@ renderingContext
 =
 nsnull
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 devCtx
 =

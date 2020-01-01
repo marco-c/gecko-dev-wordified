@@ -522,7 +522,7 @@ the
 /
 dependency
 on
-nsIDeviceContext
+nsDeviceContext
 .
 h
 .

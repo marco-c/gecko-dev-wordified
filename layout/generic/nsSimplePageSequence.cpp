@@ -3720,7 +3720,7 @@ printing
 of
 the
 document
-nsIDeviceContext
+nsDeviceContext
 *
 dc
 =
