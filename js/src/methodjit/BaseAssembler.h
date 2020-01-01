@@ -1728,6 +1728,7 @@ typing
 .
 *
 /
+static
 const
 JSC
 :
@@ -1747,14 +1748,14 @@ JSFrameReg
 /
 *
 namespace
-js
+mjit
 *
 /
 }
 /
 *
 namespace
-mjit
+js
 *
 /
 #
