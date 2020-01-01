@@ -14399,6 +14399,14 @@ nsIPlaintextEditor
 eEditorReadonlyMask
 )
 ;
+flags
+|
+=
+nsIPlaintextEditor
+:
+:
+eEditorUseAsyncUpdatesMask
+;
 editor
 -
 >
