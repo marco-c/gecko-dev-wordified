@@ -325,6 +325,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsEmbedCID
 .
 h
@@ -8078,10 +8085,13 @@ nsACString
 aJSONData
 )
 {
+AutoSafeJSContext
+cx
+;
 JSAutoRequest
 ar
 (
-mCx
+cx
 )
 ;
 JS
@@ -8096,7 +8106,7 @@ Value
 >
 json
 (
-mCx
+cx
 JSVAL_NULL
 )
 ;
@@ -8110,7 +8120,7 @@ if
 (
 JS_ParseJSON
 (
-mCx
+cx
 static_cast
 <
 const
@@ -8142,7 +8152,7 @@ address
 {
 WriteStructuredClone
 (
-mCx
+cx
 json
 buffer
 cloneData
@@ -8172,7 +8182,7 @@ nbytes
 ;
 }
 nsFrameScriptCx
-cx
+frameScriptCx
 (
 static_cast
 <
