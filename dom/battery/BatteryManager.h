@@ -450,7 +450,7 @@ h
 #
 include
 "
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 .
 h
 "
@@ -474,6 +474,13 @@ h
 include
 "
 Types
+.
+h
+"
+#
+include
+"
+nsDOMEventTargetHelper
 .
 h
 "
@@ -507,7 +514,7 @@ class
 BatteryManager
 :
 public
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 public
 nsIDOMMozBatteryManager
 public
@@ -519,7 +526,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMMOZBATTERYMANAGER
 NS_FORWARD_NSIDOMEVENTTARGET
 (
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 :
 :
 )
@@ -563,7 +570,7 @@ aBatteryInfo
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 BatteryManager
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 /
 *

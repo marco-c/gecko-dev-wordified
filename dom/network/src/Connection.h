@@ -450,7 +450,7 @@ h
 #
 include
 "
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 .
 h
 "
@@ -501,7 +501,7 @@ class
 Connection
 :
 public
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 public
 nsIDOMMozConnection
 public
@@ -513,7 +513,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMMOZCONNECTION
 NS_FORWARD_NSIDOMEVENTTARGET
 (
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 :
 :
 )
@@ -556,7 +556,7 @@ aNetworkInfo
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 Connection
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 private
 :

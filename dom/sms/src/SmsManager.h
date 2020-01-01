@@ -457,7 +457,7 @@ h
 #
 include
 "
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 .
 h
 "
@@ -481,7 +481,7 @@ nsIDOMMozSmsManager
 public
 nsIObserver
 public
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 {
 public
 :
@@ -490,14 +490,14 @@ NS_DECL_NSIOBSERVER
 NS_DECL_NSIDOMMOZSMSMANAGER
 NS_FORWARD_NSIDOMEVENTTARGET
 (
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 :
 :
 )
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 SmsManager
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 void
 Init

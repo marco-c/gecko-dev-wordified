@@ -133,7 +133,7 @@ h
 #
 include
 "
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 .
 h
 "
@@ -142,7 +142,7 @@ class
 IDBWrapperCache
 :
 public
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 {
 public
 :
@@ -150,7 +150,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
 IDBWrapperCache
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 JSObject
 *
@@ -216,7 +216,7 @@ nsIScriptGlobalObject
 >
 parent
 ;
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 :
 :
 GetParentObject
@@ -257,7 +257,7 @@ IDBWrapperCache
 *
 >
 (
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 :
 :
 FromSupports

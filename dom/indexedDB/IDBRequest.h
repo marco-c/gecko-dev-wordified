@@ -493,6 +493,13 @@ h
 #
 include
 "
+nsDOMEventTargetHelper
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

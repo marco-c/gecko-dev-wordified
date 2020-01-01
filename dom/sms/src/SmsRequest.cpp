@@ -506,7 +506,7 @@ SmsRequest
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 SmsRequest
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_SCRIPT_OBJECTS
 NS_CYCLE_COLLECTION_TRAVERSE_EVENT_HANDLER
@@ -525,7 +525,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 SmsRequest
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 if
 (
@@ -566,7 +566,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
 SmsRequest
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 if
 (
@@ -619,17 +619,17 @@ MozSmsRequest
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 NS_IMPL_ADDREF_INHERITED
 (
 SmsRequest
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 NS_IMPL_RELEASE_INHERITED
 (
 SmsRequest
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 NS_IMPL_EVENT_HANDLER
 (
