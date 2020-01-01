@@ -895,6 +895,16 @@ String
 status
 )
 ;
+public
+static
+native
+void
+reportJavaCrash
+(
+String
+stack
+)
+;
 /
 /
 A

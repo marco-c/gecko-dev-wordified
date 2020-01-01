@@ -1534,6 +1534,11 @@ SHELL_WRAPPER1
 onChangeNetworkLinkStatus
 jstring
 )
+SHELL_WRAPPER1
+(
+reportJavaCrash
+jstring
+)
 static
 void
 *
@@ -4494,6 +4499,11 @@ removeObserver
 GETFUNC
 (
 onChangeNetworkLinkStatus
+)
+;
+GETFUNC
+(
+reportJavaCrash
 )
 ;
 #
