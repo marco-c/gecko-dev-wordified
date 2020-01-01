@@ -2739,6 +2739,8 @@ CreateContents
 nsIContent
 *
 aElement
+PRBool
+aForceCreation
 )
 {
 return
