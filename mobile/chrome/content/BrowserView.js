@@ -4503,6 +4503,8 @@ getContentImage
 (
 )
 ;
+/
+/
 canvas
 .
 style
@@ -4513,6 +4515,8 @@ position
 absolute
 "
 ;
+/
+/
 canvas
 .
 style
@@ -4527,6 +4531,8 @@ x
 px
 "
 ;
+/
+/
 canvas
 .
 style
@@ -4634,8 +4640,6 @@ fail
 .
 .
 .
-/
-/
 /
 /
 canvas
