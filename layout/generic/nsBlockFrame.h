@@ -3761,7 +3761,7 @@ pushed
 floats
 *
 /
-nsresult
+void
 ReflowPushedFloats
 (
 nsBlockReflowState
@@ -3947,7 +3947,7 @@ dirty
 .
 *
 /
-nsresult
+void
 PrepareResizeReflow
 (
 nsBlockReflowState
@@ -4807,7 +4807,7 @@ bool
 aKeepReflowGoing
 )
 ;
-nsresult
+void
 SplitLine
 (
 nsBlockReflowState
