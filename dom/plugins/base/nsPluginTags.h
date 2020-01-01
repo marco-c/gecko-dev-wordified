@@ -693,6 +693,7 @@ aArgsAreUTF8
 false
 )
 ;
+virtual
 ~
 nsPluginTag
 (
