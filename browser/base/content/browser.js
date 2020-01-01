@@ -8894,6 +8894,17 @@ SanitizeListener
 (
 )
 ;
+/
+/
+"
+Bookmarks
+Toolbar
+"
+menu
+initBookmarksToolbar
+(
+)
+;
 }
 function
 nonBrowserWindowShutdown
