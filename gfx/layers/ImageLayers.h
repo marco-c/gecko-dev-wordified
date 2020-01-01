@@ -163,6 +163,14 @@ SCALE_STRETCH
 /
 /
 Unimplemented
+on
+GL
+layers
+and
+e10s
+/
+/
+Unimplemented
 -
 SCALE_PRESERVE_ASPECT_RATIO_CONTAIN
 }
