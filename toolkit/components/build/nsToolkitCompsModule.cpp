@@ -624,6 +624,9 @@ false
 NULL
 nsDownloadManagerConstructor
 }
+#
+ifndef
+MOZ_JSDOWNLOADS
 {
 &
 kNS_DOWNLOAD_CID
@@ -631,6 +634,8 @@ false
 NULL
 nsDownloadProxyConstructor
 }
+#
+endif
 {
 &
 kNS_FIND_SERVICE_CID
@@ -766,11 +771,16 @@ NS_DOWNLOADMANAGER_CONTRACTID
 &
 kNS_DOWNLOADMANAGER_CID
 }
+#
+ifndef
+MOZ_JSDOWNLOADS
 {
 NS_TRANSFER_CONTRACTID
 &
 kNS_DOWNLOAD_CID
 }
+#
+endif
 {
 NS_FIND_SERVICE_CONTRACTID
 &
