@@ -2445,6 +2445,10 @@ stubcc
 .
 syncExitAndJump
 (
+Uses
+(
+2
+)
 )
 ;
 MaybeRegisterID
@@ -2525,6 +2529,10 @@ stubcc
 .
 syncExitAndJump
 (
+Uses
+(
+2
+)
 )
 ;
 /
@@ -3858,7 +3866,10 @@ stubcc
 .
 rejoin
 (
+Changes
+(
 1
+)
 )
 ;
 }
@@ -4142,6 +4153,10 @@ stubcc
 .
 syncExitAndJump
 (
+Uses
+(
+1
+)
 )
 ;
 /
@@ -4555,7 +4570,10 @@ stubcc
 .
 rejoin
 (
+Changes
+(
 1
+)
 )
 ;
 }

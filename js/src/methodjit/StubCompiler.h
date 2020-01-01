@@ -844,6 +844,8 @@ MacroAssembler
 Label
 syncExit
 (
+Uses
+uses
 )
 ;
 /
@@ -881,6 +883,8 @@ MacroAssembler
 Label
 syncExitAndJump
 (
+Uses
+uses
 )
 ;
 /
@@ -902,6 +906,8 @@ linkExit
 (
 Jump
 j
+Uses
+uses
 )
 ;
 void
@@ -964,8 +970,8 @@ registers
 void
 rejoin
 (
-uint32
-invalidationDepth
+Changes
+changes
 )
 ;
 void

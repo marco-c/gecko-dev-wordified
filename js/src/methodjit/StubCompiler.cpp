@@ -620,6 +620,8 @@ StubCompiler
 :
 syncExit
 (
+Uses
+uses
 )
 {
 JaegerSpew
@@ -682,6 +684,7 @@ frame
 sync
 (
 masm
+uses
 )
 ;
 lastGeneration
@@ -725,6 +728,8 @@ StubCompiler
 :
 syncExitAndJump
 (
+Uses
+uses
 )
 {
 Label
@@ -732,6 +737,7 @@ l
 =
 syncExit
 (
+uses
 )
 ;
 Jump
@@ -850,6 +856,8 @@ linkExit
 (
 Jump
 j
+Uses
+uses
 )
 {
 Label
@@ -857,6 +865,7 @@ l
 =
 syncExit
 (
+uses
 )
 ;
 linkExitDirect
@@ -926,8 +935,8 @@ StubCompiler
 :
 rejoin
 (
-uint32
-invalidationDepth
+Changes
+changes
 )
 {
 JaegerSpew
@@ -956,7 +965,7 @@ frame
 merge
 (
 masm
-invalidationDepth
+changes
 )
 ;
 Jump
