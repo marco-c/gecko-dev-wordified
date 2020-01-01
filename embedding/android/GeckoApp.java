@@ -4126,12 +4126,6 @@ onStop
 (
 )
 ;
-GeckoAppShell
-.
-putChildInBackground
-(
-)
-;
 }
 Override
 public
@@ -4148,12 +4142,6 @@ LOG_FILE_NAME
 "
 restart
 "
-)
-;
-GeckoAppShell
-.
-putChildInForeground
-(
 )
 ;
 super
