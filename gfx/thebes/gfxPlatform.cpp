@@ -4091,6 +4091,14 @@ if
 (
 !
 surf
+|
+|
+surf
+-
+>
+CairoStatus
+(
+)
 )
 {
 return
