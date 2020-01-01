@@ -1988,7 +1988,7 @@ gray
 and
 of
 same
-hieght
+height
 /
 /
 Check
