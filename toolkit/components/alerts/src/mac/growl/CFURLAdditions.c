@@ -716,6 +716,8 @@ _CFURLStringTypeKey
 ;
 CFURLPathStyle
 pathStyle
+=
+kCFURLPOSIXPathStyle
 ;
 if
 (
@@ -728,11 +730,6 @@ kCFNumberIntType
 &
 pathStyle
 )
-;
-else
-pathStyleNum
-=
-kCFURLPOSIXPathStyle
 ;
 char
 *

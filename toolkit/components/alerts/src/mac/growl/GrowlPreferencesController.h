@@ -316,7 +316,7 @@ CFTypeRef
 key
 )
 ;
-int
+CFIndex
 GrowlPreferencesController_integerForKey
 (
 CFTypeRef
@@ -325,6 +325,14 @@ key
 ;
 Boolean
 GrowlPreferencesController_boolForKey
+(
+CFTypeRef
+key
+)
+;
+unsigned
+short
+GrowlPreferencesController_unsignedShortForKey
 (
 CFTypeRef
 key
@@ -345,6 +353,10 @@ GrowlPreferencesController
 :
 GrowlAbstractSingletonObject
 {
+void
+*
+loginItems
+;
 }
 +
 (
@@ -427,7 +439,7 @@ key
 ;
 -
 (
-int
+CFIndex
 )
 integerForKey
 :
@@ -444,7 +456,7 @@ void
 setInteger
 :
 (
-int
+CFIndex
 )
 value
 forKey
@@ -769,7 +781,8 @@ value
 ;
 -
 (
-int
+unsigned
+short
 )
 UDPPort
 ;
@@ -780,7 +793,8 @@ void
 setUDPPort
 :
 (
-int
+unsigned
+short
 )
 value
 ;
