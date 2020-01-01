@@ -5459,7 +5459,7 @@ JSString
 ;
 static
 JS_ALWAYS_INLINE
-RawId
+jsid
 NameToId
 (
 PropertyName

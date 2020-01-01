@@ -6082,7 +6082,7 @@ const
 CrossSSAValue
 &
 obj
-RawId
+jsid
 id
 )
 {
@@ -11315,7 +11315,7 @@ pc
 )
 )
 ;
-RawId
+jsid
 id
 =
 IdToTypeId

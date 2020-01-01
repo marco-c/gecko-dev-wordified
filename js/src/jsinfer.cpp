@@ -511,7 +511,7 @@ types
 :
 TypeIdStringImpl
 (
-RawId
+jsid
 id
 )
 {
@@ -4568,7 +4568,7 @@ unrooted
 .
 *
 /
-RawId
+jsid
 id
 ;
 TypeConstraintProp
@@ -4582,7 +4582,7 @@ pc
 StackTypeSet
 *
 target
-RawId
+jsid
 id
 )
 :
@@ -4682,7 +4682,7 @@ pc
 StackTypeSet
 *
 target
-RawId
+jsid
 id
 )
 {
@@ -4765,7 +4765,7 @@ pc
 StackTypeSet
 *
 target
-RawId
+jsid
 id
 )
 {
@@ -4810,7 +4810,7 @@ pc
 StackTypeSet
 *
 target
-RawId
+jsid
 id
 )
 {
@@ -6069,7 +6069,7 @@ JSContext
 cx
 RawObject
 obj
-RawId
+jsid
 idArg
 )
 {
@@ -7826,7 +7826,7 @@ object
 StackTypeSet
 *
 target
-RawId
+jsid
 idArg
 )
 {
@@ -14707,7 +14707,7 @@ propertyNeedsBarrier
 JSContext
 *
 cx
-RawId
+jsid
 id
 )
 {
@@ -16738,7 +16738,7 @@ res
 }
 static
 inline
-RawId
+jsid
 GetAtomId
 (
 JSContext
@@ -23940,7 +23940,7 @@ addProperty
 JSContext
 *
 cx
-RawId
+jsid
 id
 Property
 *
@@ -24464,7 +24464,7 @@ isEmptyShape
 )
 )
 {
-RawId
+jsid
 id
 =
 IdToTypeId
@@ -24894,7 +24894,7 @@ Type
 type
 )
 {
-RawId
+jsid
 id
 =
 JSID_VOID
@@ -28174,7 +28174,7 @@ case
 JSOP_CALLGNAME
 :
 {
-RawId
+jsid
 id
 =
 GetAtomId

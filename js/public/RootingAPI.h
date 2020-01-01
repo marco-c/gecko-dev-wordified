@@ -2407,10 +2407,6 @@ JSObject
 *
 RawObject
 ;
-typedef
-jsid
-RawId
-;
 /
 *
 *

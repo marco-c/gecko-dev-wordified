@@ -1665,10 +1665,10 @@ representation
 *
 /
 inline
-RawId
+jsid
 IdToTypeId
 (
-RawId
+jsid
 id
 )
 {
@@ -1859,7 +1859,7 @@ char
 *
 TypeIdString
 (
-RawId
+jsid
 id
 )
 {
@@ -3563,7 +3563,7 @@ JSContext
 cx
 RawObject
 obj
-RawId
+jsid
 id
 )
 {
@@ -3642,7 +3642,7 @@ JSContext
 cx
 RawObject
 obj
-RawId
+jsid
 id
 )
 {
@@ -4217,7 +4217,7 @@ JSContext
 cx
 HandleObject
 obj
-RawId
+jsid
 id
 )
 {
@@ -10583,7 +10583,7 @@ getProperty
 JSContext
 *
 cx
-RawId
+jsid
 id
 bool
 own
@@ -10863,7 +10863,7 @@ TypeObject
 :
 maybeGetProperty
 (
-RawId
+jsid
 id
 JSContext
 *
@@ -10920,7 +10920,7 @@ prop
 =
 HashSetLookup
 <
-RawId
+jsid
 Property
 Property
 >
