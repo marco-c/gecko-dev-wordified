@@ -385,9 +385,7 @@ prefService
 GetBranch
 (
 "
-layout
-.
-canvas3d
+webgl
 .
 "
 getter_AddRefs
