@@ -374,6 +374,8 @@ RAS_MaxEntryName
 1
 ]
 ;
+MOZ_SEH_TRY
+{
 InternetGetConnectedStateExW
 (
 &
@@ -389,6 +391,16 @@ connName
 0
 )
 ;
+}
+MOZ_SEH_EXCEPT
+(
+EXCEPTION_EXECUTE_HANDLER
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 INTERNET_PER_CONN_OPTIONW
 options
 [
