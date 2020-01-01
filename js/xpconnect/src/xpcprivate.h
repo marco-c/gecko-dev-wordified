@@ -5175,12 +5175,12 @@ gNewDOMBindingsEnabled
 ;
 }
 bool
-ParisBindingsEnabled
+ExperimentalBindingsEnabled
 (
 )
 {
 return
-gParisBindingsEnabled
+gExperimentalBindingsEnabled
 ;
 }
 size_t
@@ -5240,7 +5240,7 @@ gNewDOMBindingsEnabled
 ;
 static
 bool
-gParisBindingsEnabled
+gExperimentalBindingsEnabled
 ;
 static
 const
@@ -9773,12 +9773,12 @@ mNewDOMBindingsEnabled
 ;
 }
 JSBool
-ParisBindingsEnabled
+ExperimentalBindingsEnabled
 (
 )
 {
 return
-mParisBindingsEnabled
+mExperimentalBindingsEnabled
 ;
 }
 protected
@@ -10025,7 +10025,7 @@ JSBool
 mNewDOMBindingsEnabled
 ;
 JSBool
-mParisBindingsEnabled
+mExperimentalBindingsEnabled
 ;
 }
 ;
