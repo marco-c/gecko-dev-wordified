@@ -585,6 +585,14 @@ void
 handle
 )
 {
+if
+(
+!
+handle
+)
+return
+0
+;
 nsITimer
 *
 timer
