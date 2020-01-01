@@ -693,6 +693,13 @@ Updated
 (
 )
 ;
+mCanvasClient
+-
+>
+OnTransaction
+(
+)
+;
 }
 already_AddRefed
 <
