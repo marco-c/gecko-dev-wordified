@@ -143,9 +143,6 @@ dtd
 %
 textcontextDTD
 ;
-#
-ifdef
-TOOLBAR_CUSTOMIZATION_SHEET
 <
 !
 ENTITY
@@ -169,8 +166,6 @@ dtd
 %
 customizeToolbarDTD
 ;
-#
-endif
 <
 !
 ENTITY
