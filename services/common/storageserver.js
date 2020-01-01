@@ -5350,6 +5350,12 @@ users
 ;
 this
 .
+requestCount
+=
+0
+;
+this
+.
 _log
 =
 Log4Moz
@@ -7917,6 +7923,12 @@ req
 resp
 )
 {
+this
+.
+requestCount
++
++
+;
 let
 timestamp
 =
