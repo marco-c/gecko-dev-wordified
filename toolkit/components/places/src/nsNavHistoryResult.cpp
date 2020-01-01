@@ -20143,8 +20143,10 @@ PR_INT32_MAX
 1
 )
 ;
+nsRefPtr
+<
 nsNavHistoryResultNode
-*
+>
 node
 ;
 if
@@ -20184,8 +20186,10 @@ BookmarkIdToResultNode
 (
 aItemId
 mOptions
-&
+getter_AddRefs
+(
 node
+)
 )
 ;
 node
@@ -20223,8 +20227,10 @@ ResultNodeForContainer
 (
 aItemId
 mOptions
-&
+getter_AddRefs
+(
 node
+)
 )
 ;
 NS_ENSURE_SUCCESS
