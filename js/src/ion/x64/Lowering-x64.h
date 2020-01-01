@@ -506,6 +506,14 @@ box
 )
 ;
 bool
+visitUnbox
+(
+MUnbox
+*
+unbox
+)
+;
+bool
 visitConstant
 (
 MConstant
