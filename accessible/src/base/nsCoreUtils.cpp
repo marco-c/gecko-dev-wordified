@@ -2180,6 +2180,9 @@ GetNodeParent
 (
 )
 )
+&
+&
+parentNode
 !
 =
 aRootNode
