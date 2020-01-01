@@ -234,13 +234,6 @@ h
 #
 include
 "
-nsPluginSafety
-.
-h
-"
-#
-include
-"
 nsPluginLogging
 .
 h

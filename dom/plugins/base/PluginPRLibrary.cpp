@@ -110,13 +110,6 @@ PluginPRLibrary
 .
 h
 "
-#
-include
-"
-nsPluginSafety
-.
-h
-"
 /
 /
 Some

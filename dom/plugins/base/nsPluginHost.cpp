@@ -634,13 +634,6 @@ h
 #
 include
 "
-nsPluginSafety
-.
-h
-"
-#
-include
-"
 nsICharsetConverterManager
 .
 h
