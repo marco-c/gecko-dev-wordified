@@ -2413,7 +2413,7 @@ self
 .
 dm
 .
-adbPath
+_adbPath
 ]
             
 if
@@ -2421,7 +2421,7 @@ self
 .
 dm
 .
-deviceSerial
+_deviceSerial
 :
                 
 cmd
@@ -2437,7 +2437,7 @@ self
 .
 dm
 .
-deviceSerial
+_deviceSerial
 ]
 )
             
