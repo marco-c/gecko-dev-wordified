@@ -1343,6 +1343,10 @@ mBaseVal
 =
 val
 ;
+mIsBaseSet
+=
+PR_TRUE
+;
 if
 (
 !
@@ -1530,6 +1534,10 @@ rv
 rv
 )
 ;
+mIsBaseSet
+=
+PR_TRUE
+;
 mAnimVal
 .
 mAlign
@@ -1596,6 +1604,10 @@ NS_ENSURE_SUCCESS
 rv
 rv
 )
+;
+mIsBaseSet
+=
+PR_TRUE
 ;
 mAnimVal
 .

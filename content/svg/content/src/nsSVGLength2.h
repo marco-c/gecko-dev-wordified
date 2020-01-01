@@ -797,7 +797,7 @@ the
 attribute
 .
 PRBool
-IsAnimValSet
+IsExplicitlySet
 (
 )
 const

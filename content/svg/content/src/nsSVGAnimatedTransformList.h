@@ -653,6 +653,12 @@ implementation
 inherited
 from
 nsSupportsWeakReference
+PRBool
+IsExplicitlySet
+(
+)
+const
+;
 protected
 :
 friend

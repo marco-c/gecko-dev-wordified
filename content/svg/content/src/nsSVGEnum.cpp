@@ -640,6 +640,10 @@ mKey
 )
 )
 {
+mIsBaseSet
+=
+PR_TRUE
+;
 if
 (
 mBaseVal
@@ -879,6 +883,10 @@ mVal
 aValue
 )
 {
+mIsBaseSet
+=
+PR_TRUE
+;
 if
 (
 mBaseVal

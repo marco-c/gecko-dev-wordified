@@ -1658,7 +1658,7 @@ mLengthAttributes
 RX
 ]
 .
-IsAnimValSet
+IsExplicitlySet
 (
 )
 ;
@@ -1670,7 +1670,7 @@ mLengthAttributes
 RY
 ]
 .
-IsAnimValSet
+IsExplicitlySet
 (
 )
 ;
