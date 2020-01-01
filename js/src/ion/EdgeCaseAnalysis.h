@@ -124,10 +124,6 @@ MIRGraph
 class
 EdgeCaseAnalysis
 {
-MIRGenerator
-*
-mir
-;
 MIRGraph
 &
 graph
@@ -136,9 +132,6 @@ public
 :
 EdgeCaseAnalysis
 (
-MIRGenerator
-*
-mir
 MIRGraph
 &
 graph

@@ -295,10 +295,6 @@ begin
 class
 AliasAnalysis
 {
-MIRGenerator
-*
-mir
-;
 MIRGraph
 &
 graph_
@@ -311,9 +307,6 @@ public
 :
 AliasAnalysis
 (
-MIRGenerator
-*
-mir
 MIRGraph
 &
 graph
