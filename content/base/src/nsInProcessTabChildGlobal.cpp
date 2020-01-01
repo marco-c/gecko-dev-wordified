@@ -828,12 +828,6 @@ return
 true
 ;
 }
-static
-int
-tabChildC
-=
-0
-;
 nsInProcessTabChildGlobal
 :
 :
