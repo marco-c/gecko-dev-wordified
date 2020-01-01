@@ -996,6 +996,11 @@ jsop_neg
 )
 ;
 void
+jsop_bitnot
+(
+)
+;
+void
 jsop_objtostr
 (
 )
