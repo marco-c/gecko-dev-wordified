@@ -8919,7 +8919,7 @@ PRInt32
 aParentAPD
 )
 :
-nsDisplayWrapList
+nsDisplayOwnLayer
 (
 aFrame
 aList
