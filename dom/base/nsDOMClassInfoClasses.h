@@ -2046,7 +2046,7 @@ IDBTransaction
 )
 DOMCI_CLASS
 (
-IDBCursorRequest
+IDBCursor
 )
 DOMCI_CLASS
 (

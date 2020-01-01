@@ -3372,7 +3372,7 @@ dom
 /
 indexedDB
 /
-IDBCursorRequest
+IDBCursor
 .
 h
 "
@@ -6469,7 +6469,7 @@ DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
 NS_DEFINE_CLASSINFO_DATA
 (
-IDBCursorRequest
+IDBCursor
 nsDOMGenericSH
 DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
@@ -15349,12 +15349,8 @@ nsIDOMEventTarget
 DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN
 (
-IDBCursorRequest
-nsIIDBCursorRequest
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIIDBCursorRequest
+IDBCursor
+nsIIDBCursor
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
