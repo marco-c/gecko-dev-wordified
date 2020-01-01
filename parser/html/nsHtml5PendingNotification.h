@@ -435,6 +435,8 @@ aParent
 GetChildCount
 (
 )
+-
+1
 )
 {
 MOZ_COUNT_CTOR
