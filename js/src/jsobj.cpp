@@ -762,17 +762,12 @@ h
 #
 endif
 #
-ifdef
-INCLUDE_MOZILLA_DTRACE
-#
 include
 "
 jsdtracef
 .
 h
 "
-#
-endif
 #
 include
 "
