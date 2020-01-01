@@ -1318,10 +1318,15 @@ nsWinGesture
 public
 :
 PRBool
-InitWinGestureSupport
+SetWinGestureSupport
 (
 HWND
 hWnd
+nsGestureNotifyEvent
+:
+:
+ePanDirection
+aDirection
 )
 ;
 PRBool
