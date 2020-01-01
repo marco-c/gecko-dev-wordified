@@ -1250,6 +1250,13 @@ about
 :
 blank
 "
+{
+sandboxName
+:
+'
+nsSessionStartup
+'
+}
 )
 ;
 this

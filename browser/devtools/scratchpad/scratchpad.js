@@ -1392,6 +1392,13 @@ contentWindow
 wantXrays
 :
 false
+sandboxName
+:
+'
+scratchpad
+-
+content
+'
 }
 )
 ;
@@ -1594,6 +1601,13 @@ browserWindow
 wantXrays
 :
 false
+sandboxName
+:
+'
+scratchpad
+-
+chrome
+'
 }
 )
 ;
