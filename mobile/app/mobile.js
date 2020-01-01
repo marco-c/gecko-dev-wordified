@@ -1420,3 +1420,13 @@ focus_text_color
 "
 )
 ;
+pref
+(
+"
+snav
+.
+enabled
+"
+true
+)
+;
