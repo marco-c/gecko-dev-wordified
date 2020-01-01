@@ -1172,6 +1172,18 @@ nsIChannel
 >
 mSuspendedChannel
 ;
+void
+MarkEntryClassified
+(
+nsresult
+status
+)
+;
+PRBool
+HasBeenClassified
+(
+)
+;
 }
 ;
 /
@@ -1853,6 +1865,8 @@ nsIRequest
 aRequest
 PRBool
 aIsNewWindowTarget
+PRBool
+aBypassClassifier
 )
 ;
 NS_IMETHOD
@@ -1876,6 +1890,8 @@ aChannel
 nsIURILoader
 *
 aURILoader
+PRBool
+aBypassClassifier
 )
 ;
 /
