@@ -16886,6 +16886,17 @@ cx
 ;
 JS_ASSERT
 (
+!
+obj
+-
+>
+isScope
+(
+)
+)
+;
+JS_ASSERT
+(
 parent
 |
 |
@@ -24490,7 +24501,7 @@ obj
 obj
 -
 >
-getParent
+getParentOrScopeChain
 (
 )
 ;

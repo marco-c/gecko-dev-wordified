@@ -726,7 +726,7 @@ tmp
 tmp
 -
 >
-getParent
+scopeChain
 (
 )
 ;
@@ -1650,7 +1650,7 @@ tmp
 pobj
 -
 >
-getParent
+scopeChain
 (
 )
 ;

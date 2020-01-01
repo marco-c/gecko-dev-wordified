@@ -2492,11 +2492,10 @@ obj
 {
 if
 (
-!
 obj
 -
 >
-getParent
+isGlobal
 (
 )
 )

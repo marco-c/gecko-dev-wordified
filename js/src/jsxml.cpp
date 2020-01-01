@@ -45511,7 +45511,7 @@ tmp
 tmp
 -
 >
-getParent
+getParentOrScopeChain
 (
 )
 )
@@ -46661,7 +46661,7 @@ obj
 obj
 -
 >
-getParent
+getParentOrScopeChain
 (
 )
 )

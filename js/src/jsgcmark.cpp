@@ -4406,7 +4406,7 @@ parent
 obj
 -
 >
-getParent
+getParentMaybeScope
 (
 )
 )
@@ -4862,7 +4862,7 @@ parent
 obj
 -
 >
-getParent
+getParentMaybeScope
 (
 )
 )

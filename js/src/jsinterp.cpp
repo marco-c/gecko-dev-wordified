@@ -2451,7 +2451,7 @@ limitClone
 limitClone
 -
 >
-getParent
+scopeChain
 (
 )
 ;
@@ -2913,7 +2913,7 @@ NULL
 newChild
 -
 >
-setParent
+setScopeChain
 (
 clone
 )
@@ -2926,7 +2926,7 @@ clone
 newChild
 -
 >
-setParent
+setScopeChain
 (
 &
 fp
@@ -8320,7 +8320,7 @@ setScopeChainNoCallObj
 withobj
 -
 >
-getParent
+scopeChain
 (
 )
 )
@@ -14523,7 +14523,7 @@ obj
 obj
 -
 >
-getParent
+getParentOrScopeChain
 (
 )
 )
@@ -17721,11 +17721,10 @@ scopeChain
 ;
 if
 (
-!
 obj
 -
 >
-getParent
+isGlobal
 (
 )
 )
@@ -28244,7 +28243,12 @@ if
 obj
 -
 >
-getParent
+toFunction
+(
+)
+-
+>
+callScope
 (
 )
 !
@@ -29060,7 +29064,12 @@ if
 obj
 -
 >
-getParent
+toFunction
+(
+)
+-
+>
+callScope
 (
 )
 !
@@ -35052,7 +35061,7 @@ obj2
 obj2
 -
 >
-getParent
+scopeChain
 (
 )
 ;
@@ -35120,7 +35129,7 @@ parent
 parent
 -
 >
-getParent
+getParentOrScopeChain
 (
 )
 )

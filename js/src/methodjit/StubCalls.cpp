@@ -759,7 +759,7 @@ scopeChain
 (
 )
 .
-getParent
+isScope
 (
 )
 )
@@ -13214,7 +13214,7 @@ obj2
 obj2
 -
 >
-getParent
+scopeChain
 (
 )
 ;
@@ -13278,7 +13278,7 @@ parent
 parent
 -
 >
-getParent
+getParentOrScopeChain
 (
 )
 )
