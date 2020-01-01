@@ -1612,7 +1612,7 @@ aNonBlocking
 *
 aNonBlocking
 =
-true
+false
 ;
 return
 NS_OK
