@@ -3031,6 +3031,14 @@ NS_EVENT
 nsGkAtoms
 :
 :
+onreadystatechange
+NS_READYSTATECHANGE
+EventNameType_HTMLXUL
+}
+{
+nsGkAtoms
+:
+:
 onbeforeunload
 NS_BEFORE_PAGE_UNLOAD
 EventNameType_HTMLXUL

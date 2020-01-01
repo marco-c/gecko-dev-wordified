@@ -563,6 +563,7 @@ eDOMEvents_popstate
 eDOMEvents_beforeunload
 eDOMEvents_unload
 eDOMEvents_hashchange
+eDOMEvents_readystatechange
 eDOMEvents_abort
 eDOMEvents_error
 eDOMEvents_submit
