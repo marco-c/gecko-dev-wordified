@@ -825,7 +825,7 @@ FileBlockCache
 :
 ReadFromFile
 (
-int32_t
+int64_t
 aOffset
 uint8_t
 *
@@ -914,9 +914,10 @@ rv
 =
 Seek
 (
+BlockIndexToOffset
+(
 aBlockIndex
-*
-BLOCK_SIZE
+)
 )
 ;
 if
@@ -1007,9 +1008,10 @@ NS_FAILED
 (
 ReadFromFile
 (
+BlockIndexToOffset
+(
 aSourceBlockIndex
-*
-BLOCK_SIZE
+)
 buf
 BLOCK_SIZE
 bytesRead
@@ -1799,9 +1801,10 @@ res
 =
 ReadFromFile
 (
+BlockIndexToOffset
+(
 blockIndex
-*
-BLOCK_SIZE
+)
 +
 start
 dst
