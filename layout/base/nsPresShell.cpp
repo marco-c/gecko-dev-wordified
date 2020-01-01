@@ -4462,11 +4462,13 @@ mFrameCount
 0
 "
 Some
-frame
-destructors
+objects
+allocated
+with
+AllocateFrame
 were
 not
-called
+freed
 "
 )
 ;

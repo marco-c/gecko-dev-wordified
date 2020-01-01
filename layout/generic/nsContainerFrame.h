@@ -1083,7 +1083,7 @@ frame
 and
 view
 *
-NS_FRAME_NO_MOVE_VIEW
+NS_FRAME_NO_MOVE_FRAME
 -
 don
 '
