@@ -30710,6 +30710,11 @@ Ci
 nsIWebProgressListener
 .
 STATE_IS_DOCUMENT
+&
+&
+gCrashReporter
+.
+enabled
 )
 {
 gCrashReporter
