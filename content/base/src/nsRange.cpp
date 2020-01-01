@@ -14625,6 +14625,14 @@ rectList
 new
 nsClientRectList
 (
+static_cast
+<
+nsIDOMRange
+*
+>
+(
+this
+)
 )
 ;
 if
