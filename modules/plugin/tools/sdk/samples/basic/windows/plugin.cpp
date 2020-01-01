@@ -1011,7 +1011,7 @@ getVersion
 (
 )
 ;
-DrawText
+DrawTextA
 (
 hdc
 string
@@ -1041,7 +1041,7 @@ Error
 occured
 "
 ;
-DrawText
+DrawTextA
 (
 hdc
 string

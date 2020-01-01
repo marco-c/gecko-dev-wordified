@@ -1057,7 +1057,7 @@ char
 const
 *
 argv
-char
+PRUnichar
 *
 *
 cmdLine
@@ -1069,9 +1069,11 @@ const
 *
 arg
 ;
-char
+PRUnichar
 *
 p
+;
+char
 *
 q
 ;
@@ -1239,12 +1241,17 @@ p
 cmdLine
 =
 (
-char
+PRUnichar
 *
 )
 PR_MALLOC
 (
 cmdLineSize
+*
+sizeof
+(
+PRUnichar
+)
 )
 ;
 if
@@ -1896,7 +1903,7 @@ uses
 nspr
 *
 /
-STARTUPINFO
+STARTUPINFOW
 startupInfo
 ;
 PROCESS_INFORMATION
@@ -1905,7 +1912,7 @@ procInfo
 BOOL
 retVal
 ;
-char
+PRUnichar
 *
 cmdLine
 ;
@@ -1956,7 +1963,7 @@ startupInfo
 ;
 retVal
 =
-CreateProcess
+CreateProcessW
 (
 NULL
 /
