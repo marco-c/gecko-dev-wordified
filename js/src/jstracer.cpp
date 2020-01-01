@@ -71191,12 +71191,9 @@ if
 a_ins
 -
 >
-opcode
+isImmP
 (
 )
-=
-=
-LIR_immi
 )
 {
 /
