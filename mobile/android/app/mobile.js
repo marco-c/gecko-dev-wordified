@@ -4306,7 +4306,7 @@ screenshot
 .
 enabled
 "
-true
+false
 )
 ;
 /
