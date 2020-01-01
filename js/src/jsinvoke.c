@@ -446,5 +446,5 @@ include
 "
 jsinterp
 .
-cpp
+c
 "

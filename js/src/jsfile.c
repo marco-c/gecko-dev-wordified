@@ -1972,7 +1972,7 @@ endif
 /
 *
 *
-Concatinates
+Concatenates
 base
 and
 name
@@ -12361,7 +12361,6 @@ js_NewString
 cx
 urlChars
 len
-0
 )
 ;
 if
