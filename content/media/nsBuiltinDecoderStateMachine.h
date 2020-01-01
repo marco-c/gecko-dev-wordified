@@ -3263,6 +3263,7 @@ mAudioEndTime
 /
 The
 presentation
+end
 time
 of
 the
@@ -3284,7 +3285,7 @@ machine
 thread
 .
 PRInt64
-mVideoFrameTime
+mVideoFrameEndTime
 ;
 /
 /
