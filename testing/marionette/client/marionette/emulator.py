@@ -3831,6 +3831,13 @@ port
 '
 logcat
 '
+'
+-
+v
+'
+'
+threadtime
+'
 ]
         
 self
