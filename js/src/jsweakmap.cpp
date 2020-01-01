@@ -2162,6 +2162,9 @@ weakmap
 while
 iterating
 .
+gc
+:
+:
 AutoSuppressGC
 suppress
 (
