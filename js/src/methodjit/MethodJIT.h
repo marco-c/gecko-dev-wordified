@@ -1378,7 +1378,7 @@ compiler
 ;
 void
 *
-malloc
+malloc_
 (
 size_t
 bytes
@@ -1390,7 +1390,7 @@ checkAlloc
 ContextAllocPolicy
 :
 :
-malloc
+malloc_
 (
 bytes
 )
@@ -1399,7 +1399,7 @@ bytes
 }
 void
 *
-realloc
+realloc_
 (
 void
 *
@@ -1414,7 +1414,7 @@ checkAlloc
 ContextAllocPolicy
 :
 :
-realloc
+realloc_
 (
 p
 bytes

@@ -2444,7 +2444,7 @@ sp
 cx
 -
 >
-free
+free_
 (
 *
 sp
@@ -3263,7 +3263,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 (
@@ -3353,7 +3353,7 @@ jschar
 cx
 -
 >
-realloc
+realloc_
 (
 (
 ochars
@@ -3383,7 +3383,7 @@ chars
 Foreground
 :
 :
-free
+free_
 (
 ochars
 )
@@ -4670,7 +4670,7 @@ jschar
 cx
 -
 >
-realloc
+realloc_
 (
 (
 ochars
@@ -4898,7 +4898,7 @@ vsharp
 cx
 -
 >
-free
+free_
 (
 vsharp
 )
@@ -4960,7 +4960,7 @@ chars
 Foreground
 :
 :
-free
+free_
 (
 chars
 )
@@ -5008,7 +5008,7 @@ str
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -5043,7 +5043,7 @@ overflow
 cx
 -
 >
-free
+free_
 (
 vsharp
 )
@@ -5051,7 +5051,7 @@ vsharp
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -5152,7 +5152,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 nchars
@@ -5275,7 +5275,7 @@ str
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -25783,7 +25783,7 @@ Value
 cx
 -
 >
-malloc
+malloc_
 (
 newcap
 *
@@ -26107,7 +26107,7 @@ Value
 cx
 -
 >
-realloc
+realloc_
 (
 slots
 oldcap
@@ -26305,7 +26305,7 @@ Value
 cx
 -
 >
-realloc
+realloc_
 (
 slots
 newcap

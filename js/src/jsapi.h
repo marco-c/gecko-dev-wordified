@@ -484,6 +484,13 @@ jspubtd
 .
 h
 "
+#
+include
+"
+jsutil
+.
+h
+"
 JS_BEGIN_EXTERN_C
 /
 *
@@ -21173,7 +21180,7 @@ js
 UnwantedForeground
 :
 :
-free
+free_
 (
 mBytes
 )
@@ -21256,7 +21263,7 @@ js
 UnwantedForeground
 :
 :
-free
+free_
 (
 mBytes
 )

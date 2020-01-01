@@ -2778,7 +2778,7 @@ js
 UnwantedForeground
 :
 :
-free
+free_
 (
 entries
 )
@@ -2954,7 +2954,7 @@ use
 JSRuntime
 '
 s
-calloc
+calloc_
 method
 in
 order

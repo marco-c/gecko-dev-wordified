@@ -635,7 +635,7 @@ EmptyShape
 cx
 -
 >
-calloc
+calloc_
 (
 sizeof
 (
@@ -717,7 +717,7 @@ emptyShapes
 cx
 -
 >
-free
+free_
 (
 emptyShapes
 )

@@ -1452,7 +1452,7 @@ ArgumentsData
 cx
 -
 >
-malloc
+malloc_
 (
 offsetof
 (
@@ -5687,7 +5687,7 @@ obj
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -13475,7 +13475,7 @@ hasUpvars
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -18760,7 +18760,7 @@ Value
 cx
 -
 >
-malloc
+malloc_
 (
 nslots
 *

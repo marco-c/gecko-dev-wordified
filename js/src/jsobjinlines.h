@@ -4718,7 +4718,7 @@ emptyShapes
 cx
 -
 >
-free
+free_
 (
 emptyShapes
 )
@@ -4838,7 +4838,7 @@ hasSlotsArray
 cx
 -
 >
-free
+free_
 (
 slots
 )

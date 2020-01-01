@@ -585,7 +585,7 @@ FrameState
 cx
 -
 >
-free
+free_
 (
 entries
 )
@@ -739,7 +739,7 @@ uint8
 cx
 -
 >
-calloc
+calloc_
 (
 totalBytes
 )

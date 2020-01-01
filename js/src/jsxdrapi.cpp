@@ -791,7 +791,7 @@ xdr
 cx
 -
 >
-realloc
+realloc_
 (
 MEM_BASE
 (
@@ -1435,7 +1435,7 @@ xdr
 cx
 -
 >
-free
+free_
 (
 MEM_BASE
 (
@@ -1562,7 +1562,7 @@ JSXDRState
 cx
 -
 >
-malloc
+malloc_
 (
 sizeof
 (
@@ -1609,7 +1609,7 @@ char
 cx
 -
 >
-malloc
+malloc_
 (
 MEM_BLOCK
 )
@@ -1619,7 +1619,7 @@ MEM_BLOCK
 cx
 -
 >
-free
+free_
 (
 xdr
 )
@@ -1892,7 +1892,7 @@ registry
 cx
 -
 >
-free
+free_
 (
 xdr
 -
@@ -1923,7 +1923,7 @@ reghash
 cx
 -
 >
-free
+free_
 (
 xdr
 )
@@ -2392,7 +2392,7 @@ xdr
 cx
 -
 >
-malloc
+malloc_
 (
 len
 +
@@ -2432,7 +2432,7 @@ xdr
 cx
 -
 >
-free
+free_
 (
 *
 sp
@@ -2859,7 +2859,7 @@ xdr
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -4135,7 +4135,7 @@ xdr
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -4518,7 +4518,7 @@ xdr
 cx
 -
 >
-realloc
+realloc_
 (
 xdr
 -

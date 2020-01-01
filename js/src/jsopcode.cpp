@@ -1841,7 +1841,7 @@ delta
 cx
 -
 >
-free
+free_
 (
 script
 -
@@ -5545,7 +5545,7 @@ JSPrinter
 cx
 -
 >
-malloc
+malloc_
 (
 sizeof
 (
@@ -5764,7 +5764,7 @@ sprinter
 context
 -
 >
-free
+free_
 (
 jp
 )
@@ -6231,7 +6231,7 @@ sprinter
 context
 -
 >
-free
+free_
 (
 fp
 )
@@ -6305,7 +6305,7 @@ sprinter
 context
 -
 >
-free
+free_
 (
 bp
 )
@@ -7028,7 +7028,7 @@ sprinter
 context
 -
 >
-free
+free_
 (
 bytes
 )
@@ -17441,7 +17441,7 @@ JSOP_POP
 cx
 -
 >
-free
+free_
 (
 (
 char
@@ -17494,7 +17494,7 @@ rval
 cx
 -
 >
-free
+free_
 (
 (
 char
@@ -17712,7 +17712,7 @@ saveop
 cx
 -
 >
-free
+free_
 (
 (
 char
@@ -17780,7 +17780,7 @@ rval
 cx
 -
 >
-free
+free_
 (
 (
 char
@@ -18210,7 +18210,7 @@ JSAtom
 cx
 -
 >
-malloc
+malloc_
 (
 argc
 *
@@ -19055,7 +19055,7 @@ smallv
 cx
 -
 >
-free
+free_
 (
 atomv
 )
@@ -22554,7 +22554,7 @@ lval
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -22649,7 +22649,7 @@ rval
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -22661,7 +22661,7 @@ xval
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -22781,7 +22781,7 @@ op
 cx
 -
 >
-free
+free_
 (
 (
 char
@@ -22903,7 +22903,7 @@ rval
 cx
 -
 >
-free
+free_
 (
 (
 char
@@ -22953,7 +22953,7 @@ rval
 cx
 -
 >
-free
+free_
 (
 (
 char
@@ -24094,7 +24094,7 @@ char
 cx
 -
 >
-malloc
+malloc_
 (
 (
 size_t
@@ -24523,7 +24523,7 @@ i
 cx
 -
 >
-free
+free_
 (
 argv
 [
@@ -24534,7 +24534,7 @@ i
 cx
 -
 >
-free
+free_
 (
 argv
 )
@@ -27617,7 +27617,7 @@ rval
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -28019,7 +28019,7 @@ TableEntry
 cx
 -
 >
-malloc
+malloc_
 (
 (
 size_t
@@ -28169,7 +28169,7 @@ TableEntry
 cx
 -
 >
-malloc
+malloc_
 (
 (
 size_t
@@ -28212,7 +28212,7 @@ JS_SORTING_GENERIC
 cx
 -
 >
-free
+free_
 (
 tmp
 )
@@ -28251,7 +28251,7 @@ JS_FALSE
 cx
 -
 >
-free
+free_
 (
 table
 )
@@ -28376,7 +28376,7 @@ TableEntry
 cx
 -
 >
-malloc
+malloc_
 (
 (
 size_t
@@ -28538,7 +28538,7 @@ JS_FALSE
 cx
 -
 >
-free
+free_
 (
 table
 )
@@ -28827,7 +28827,7 @@ TableEntry
 cx
 -
 >
-malloc
+malloc_
 (
 (
 size_t
@@ -29073,7 +29073,7 @@ JS_TRUE
 cx
 -
 >
-free
+free_
 (
 table
 )
@@ -31162,7 +31162,7 @@ rval
 cx
 -
 >
-free
+free_
 (
 (
 char
@@ -33157,7 +33157,7 @@ jsbytecode
 cx
 -
 >
-malloc
+malloc_
 (
 StackDepth
 (
@@ -33443,7 +33443,7 @@ release_pcstack
 cx
 -
 >
-free
+free_
 (
 pcstack
 )
@@ -34167,7 +34167,7 @@ jsbytecode
 cx
 -
 >
-malloc
+malloc_
 (
 StackDepth
 (
@@ -34326,7 +34326,7 @@ out
 cx
 -
 >
-free
+free_
 (
 pcstack
 )
@@ -34767,7 +34767,7 @@ jsbytecode
 cx
 -
 >
-malloc
+malloc_
 (
 nbytes
 )
@@ -35002,7 +35002,7 @@ nbytes
 cx
 -
 >
-free
+free_
 (
 tmp_pcstack
 )
@@ -35020,7 +35020,7 @@ tmp_pcstack
 cx
 -
 >
-free
+free_
 (
 tmp_pcstack
 )

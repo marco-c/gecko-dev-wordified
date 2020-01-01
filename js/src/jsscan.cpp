@@ -1624,7 +1624,7 @@ TSF_OWNFILENAME
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -3166,7 +3166,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 linelength
@@ -3582,7 +3582,7 @@ linebytes
 cx
 -
 >
-free
+free_
 (
 linebytes
 )
@@ -3594,7 +3594,7 @@ linechars
 cx
 -
 >
-free
+free_
 (
 linechars
 )
@@ -3606,7 +3606,7 @@ message
 cx
 -
 >
-free
+free_
 (
 message
 )
@@ -3620,7 +3620,7 @@ ucmessage
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -3664,7 +3664,7 @@ i
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -3684,7 +3684,7 @@ i
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -4874,7 +4874,7 @@ bytes
 cx
 -
 >
-free
+free_
 (
 bytes
 )
@@ -10693,7 +10693,7 @@ TSF_OWNFILENAME
 cx
 -
 >
-free
+free_
 (
 (
 void

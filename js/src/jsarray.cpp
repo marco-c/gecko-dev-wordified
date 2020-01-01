@@ -7430,7 +7430,7 @@ out
 cx
 -
 >
-free
+free_
 (
 sharpchars
 )
@@ -11556,7 +11556,7 @@ Value
 cx
 -
 >
-malloc
+malloc_
 (
 2
 *
@@ -11625,14 +11625,14 @@ AutoFreeVector
 cx
 -
 >
-free
+free_
 (
 vec
 )
 ;
 }
 }
-free
+free_
 (
 cx
 vec
@@ -12407,7 +12407,7 @@ Value
 cx
 -
 >
-realloc
+realloc_
 (
 vec
 4
@@ -19359,7 +19359,7 @@ bytes
 cx
 -
 >
-free
+free_
 (
 bytes
 )
@@ -19444,7 +19444,7 @@ stderr
 cx
 -
 >
-free
+free_
 (
 bytes
 )

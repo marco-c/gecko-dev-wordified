@@ -3663,7 +3663,7 @@ JSThread
 OffTheBooks
 :
 :
-calloc
+calloc_
 (
 sizeof
 (
@@ -3711,7 +3711,7 @@ init
 Foreground
 :
 :
-free
+free_
 (
 thread
 )
@@ -3804,7 +3804,7 @@ finish
 Foreground
 :
 :
-free
+free_
 (
 thread
 )
@@ -4654,7 +4654,7 @@ mem
 OffTheBooks
 :
 :
-calloc
+calloc_
 (
 sizeof
 *
@@ -7009,7 +7009,7 @@ lastMessage
 cx
 -
 >
-free
+free_
 (
 cx
 -
@@ -7056,7 +7056,7 @@ next
 cx
 -
 >
-free
+free_
 (
 temp
 )
@@ -8501,7 +8501,7 @@ NULL
 Foreground
 :
 :
-free
+free_
 (
 message
 )
@@ -8509,7 +8509,7 @@ message
 Foreground
 :
 :
-free
+free_
 (
 ucmessage
 )
@@ -8816,7 +8816,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 sizeof
 (
@@ -9136,7 +9136,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 expandedLength
@@ -9159,7 +9159,7 @@ out
 cx
 -
 >
-free
+free_
 (
 buffer
 )
@@ -9278,7 +9278,7 @@ out
 cx
 -
 >
-free
+free_
 (
 buffer
 )
@@ -9470,7 +9470,7 @@ char
 cx
 -
 >
-malloc
+malloc_
 (
 nbytes
 )
@@ -9541,7 +9541,7 @@ i
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -9562,7 +9562,7 @@ i
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -9593,7 +9593,7 @@ ucmessage
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -9622,7 +9622,7 @@ messagep
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -9759,7 +9759,7 @@ message
 cx
 -
 >
-free
+free_
 (
 message
 )
@@ -9821,7 +9821,7 @@ i
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -9841,7 +9841,7 @@ i
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -9862,7 +9862,7 @@ ucmessage
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -9915,7 +9915,7 @@ lastMessage
 Foreground
 :
 :
-free
+free_
 (
 cx
 -
@@ -10194,7 +10194,7 @@ NULL
 cx
 -
 >
-free
+free_
 (
 bytes
 )
@@ -10307,7 +10307,7 @@ bytes
 cx
 -
 >
-free
+free_
 (
 bytes
 )
@@ -10411,7 +10411,7 @@ arg2
 cx
 -
 >
-free
+free_
 (
 bytes
 )
@@ -12705,7 +12705,7 @@ p
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 nbytes
 )
@@ -12730,7 +12730,7 @@ p
 OffTheBooks
 :
 :
-calloc
+calloc_
 (
 nbytes
 )
@@ -12741,7 +12741,7 @@ p
 OffTheBooks
 :
 :
-realloc
+realloc_
 (
 p
 nbytes

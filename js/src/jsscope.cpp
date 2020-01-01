@@ -1161,7 +1161,7 @@ Use
 rt
 -
 >
-calloc
+calloc_
 for
 memory
 accounting
@@ -1191,7 +1191,7 @@ Shape
 rt
 -
 >
-calloc
+calloc_
 (
 JS_BIT
 (
@@ -2200,7 +2200,7 @@ Shape
 cx
 -
 >
-calloc
+calloc_
 (
 nbytes
 )
@@ -2349,7 +2349,7 @@ storage
 cx
 -
 >
-free
+free_
 (
 oldTable
 )

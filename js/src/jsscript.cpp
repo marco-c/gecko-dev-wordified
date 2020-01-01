@@ -3821,7 +3821,7 @@ code
 cx
 -
 >
-free
+free_
 (
 code
 )
@@ -3929,7 +3929,7 @@ xdr
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -5253,7 +5253,7 @@ return
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 size
 )
@@ -5276,7 +5276,7 @@ size
 UnwantedForeground
 :
 :
-free
+free_
 (
 item
 )
@@ -5325,7 +5325,7 @@ JSHashEntry
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 JS_MAX
 (
@@ -5364,7 +5364,7 @@ return
 UnwantedForeground
 :
 :
-free
+free_
 (
 he
 )
@@ -5669,7 +5669,7 @@ links
 UnwantedForeground
 :
 :
-free
+free_
 (
 sfp
 )
@@ -6029,7 +6029,7 @@ ScriptFilenamePrefix
 rt
 -
 >
-malloc
+malloc_
 (
 sizeof
 (
@@ -7846,7 +7846,7 @@ JSScript
 cx
 -
 >
-malloc
+malloc_
 (
 size
 )
@@ -9753,7 +9753,7 @@ clear
 cx
 -
 >
-free
+free_
 (
 cg
 -
@@ -10854,7 +10854,7 @@ links
 cx
 -
 >
-free
+free_
 (
 script
 )

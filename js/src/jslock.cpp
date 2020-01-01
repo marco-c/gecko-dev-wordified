@@ -1865,7 +1865,7 @@ JSFatLockTable
 {
 JSFatLock
 *
-free
+free_
 ;
 JSFatLock
 *
@@ -2118,7 +2118,7 @@ JSFatLock
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 sizeof
 (
@@ -2215,7 +2215,7 @@ svar
 UnwantedForeground
 :
 :
-free
+free_
 (
 fl
 )
@@ -2377,7 +2377,7 @@ fl_list_table
 i
 ]
 .
-free
+free_
 =
 =
 NULL
@@ -2416,7 +2416,7 @@ fl_list_table
 i
 ]
 .
-free
+free_
 =
 ListOfFatlocks
 (
@@ -2431,14 +2431,14 @@ fl_list_table
 i
 ]
 .
-free
+free_
 ;
 fl_list_table
 [
 i
 ]
 .
-free
+free_
 =
 m
 -
@@ -2615,14 +2615,14 @@ fl_list_table
 i
 ]
 .
-free
+free_
 ;
 fl_list_table
 [
 i
 ]
 .
-free
+free_
 =
 m
 ;
@@ -2774,7 +2774,7 @@ PRLock
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 global_lock_count
 *
@@ -2848,7 +2848,7 @@ JSFatLockTable
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 i
 *
@@ -2895,7 +2895,7 @@ fl_list_table
 i
 ]
 .
-free
+free_
 =
 fl_list_table
 [
@@ -2963,7 +2963,7 @@ i
 UnwantedForeground
 :
 :
-free
+free_
 (
 global_locks
 )
@@ -3012,7 +3012,7 @@ fl_list_table
 i
 ]
 .
-free
+free_
 )
 ;
 fl_list_table
@@ -3020,7 +3020,7 @@ fl_list_table
 i
 ]
 .
-free
+free_
 =
 NULL
 ;
@@ -3047,7 +3047,7 @@ NULL
 UnwantedForeground
 :
 :
-free
+free_
 (
 fl_list_table
 )

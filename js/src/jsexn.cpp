@@ -1280,7 +1280,7 @@ uint8
 cx
 -
 >
-malloc
+malloc_
 (
 mallocSize
 )
@@ -2212,7 +2212,7 @@ JSExnPrivate
 cx
 -
 >
-malloc
+malloc_
 (
 size
 )
@@ -2937,7 +2937,7 @@ errorReport
 cx
 -
 >
-free
+free_
 (
 priv
 -
@@ -2948,7 +2948,7 @@ errorReport
 cx
 -
 >
-free
+free_
 (
 priv
 )
@@ -3963,7 +3963,7 @@ ptr_
 cx
 -
 >
-realloc
+realloc_
 (
 stackbuf
 (
@@ -4122,7 +4122,7 @@ ptr_
 cx
 -
 >
-realloc
+realloc_
 (
 stackbuf
 (
@@ -4474,7 +4474,7 @@ shrunk
 cx
 -
 >
-realloc
+realloc_
 (
 stackbuf
 (
@@ -4534,7 +4534,7 @@ stackbuf
 cx
 -
 >
-free
+free_
 (
 stackbuf
 )
@@ -5396,7 +5396,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 length
@@ -5530,7 +5530,7 @@ result
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -6075,7 +6075,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 length
@@ -6468,7 +6468,7 @@ result
 cx
 -
 >
-free
+free_
 (
 chars
 )

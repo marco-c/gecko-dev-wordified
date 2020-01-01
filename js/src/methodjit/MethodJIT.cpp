@@ -6374,7 +6374,7 @@ JITScript
 cx
 -
 >
-free
+free_
 (
 jscr
 )
@@ -6440,7 +6440,7 @@ JITScript
 cx
 -
 >
-free
+free_
 (
 jscr
 )

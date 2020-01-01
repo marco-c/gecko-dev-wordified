@@ -608,7 +608,7 @@ return
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 size
 )
@@ -627,7 +627,7 @@ return
 UnwantedForeground
 :
 :
-free
+free_
 (
 p
 )
@@ -2360,7 +2360,7 @@ char
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 DTOBASESTR_BUFFER_SIZE
 )
@@ -2722,7 +2722,7 @@ b
 UnwantedForeground
 :
 :
-free
+free_
 (
 buffer
 )
@@ -2954,7 +2954,7 @@ mhi
 UnwantedForeground
 :
 :
-free
+free_
 (
 buffer
 )

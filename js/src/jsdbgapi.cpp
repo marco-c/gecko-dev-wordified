@@ -2150,7 +2150,7 @@ jsbytecode
 cx
 -
 >
-malloc
+malloc_
 (
 nbytes
 )
@@ -2349,7 +2349,7 @@ JSTrap
 cx
 -
 >
-malloc
+malloc_
 (
 sizeof
 *
@@ -2492,7 +2492,7 @@ junk
 cx
 -
 >
-free
+free_
 (
 junk
 )
@@ -2671,7 +2671,7 @@ runtime
 cx
 -
 >
-free
+free_
 (
 trap
 )
@@ -4252,7 +4252,7 @@ false
 cx
 -
 >
-free
+free_
 (
 wp
 )
@@ -7602,7 +7602,7 @@ JSWatchPoint
 cx
 -
 >
-malloc
+malloc_
 (
 sizeof
 *
@@ -10688,7 +10688,7 @@ rval
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -11477,7 +11477,7 @@ JSPropertyDesc
 cx
 -
 >
-malloc
+malloc_
 (
 size_t
 (
@@ -11821,7 +11821,7 @@ alias
 cx
 -
 >
-free
+free_
 (
 pd
 )
@@ -14221,7 +14221,7 @@ default_filename
 cx
 -
 >
-free
+free_
 (
 params
 .

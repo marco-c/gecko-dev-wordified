@@ -925,7 +925,7 @@ ni
 cx
 -
 >
-free
+free_
 (
 ni
 )
@@ -2352,7 +2352,7 @@ JSIdArray
 cx
 -
 >
-malloc
+malloc_
 (
 sz
 )
@@ -3112,7 +3112,7 @@ NativeIterator
 cx
 -
 >
-malloc
+malloc_
 (
 sizeof
 (
@@ -7209,7 +7209,7 @@ JSGEN_OPEN
 cx
 -
 >
-free
+free_
 (
 gen
 )
@@ -7844,7 +7844,7 @@ JSGenerator
 cx
 -
 >
-malloc
+malloc_
 (
 nbytes
 )
