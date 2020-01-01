@@ -689,12 +689,6 @@ NS_DECL_NSIDOMNAVIGATORCAMERA
 private
 :
 bool
-IsSmsAllowed
-(
-)
-const
-;
-bool
 IsSmsSupported
 (
 )
