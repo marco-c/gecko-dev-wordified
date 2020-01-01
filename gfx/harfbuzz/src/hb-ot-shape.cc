@@ -1459,12 +1459,7 @@ HB_DIRECTION_IS_FORWARD
 c
 -
 >
-buffer
--
->
-props
-.
-direction
+original_direction
 )
 )
 return
@@ -2243,6 +2238,11 @@ in
 var1
 *
 /
+hb_ensure_native_direction
+(
+c
+)
+;
 hb_form_clusters
 (
 c
@@ -2279,11 +2279,6 @@ direction
 *
 /
 hb_mirror_chars
-(
-c
-)
-;
-hb_ensure_native_direction
 (
 c
 )
