@@ -3190,7 +3190,7 @@ bailouts
 Label
 osrRemoved
 ;
-movePtr
+loadPtr
 (
 Address
 (

@@ -5852,7 +5852,7 @@ JSScript
 .
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -5886,7 +5886,7 @@ executionMode
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -6067,7 +6067,7 @@ IonCode
 .
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -6084,7 +6084,7 @@ objreg
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -6154,7 +6154,7 @@ marking
 .
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -6632,7 +6632,7 @@ JSScript
 .
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -6652,7 +6652,7 @@ objreg
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -6704,7 +6704,7 @@ IonCode
 .
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -6721,7 +6721,7 @@ objreg
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -8176,7 +8176,7 @@ JSScript
 .
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -8196,7 +8196,7 @@ objreg
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -8423,7 +8423,7 @@ IonCode
 {
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -8440,7 +8440,7 @@ objreg
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -8563,7 +8563,7 @@ marking
 .
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -8648,7 +8648,7 @@ descriptor
 .
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -21173,7 +21173,7 @@ offsetOfNumActualArgs
 ;
 masm
 .
-movePtr
+loadPtr
 (
 ptr
 argc
