@@ -40323,7 +40323,7 @@ GetFrameForPoint
 (
 frame
 eventPoint
-PR_FALSE
+PR_TRUE
 ignoreRootScrollFrame
 )
 ;
