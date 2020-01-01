@@ -4110,6 +4110,7 @@ check_cache
 aExpectedToFind
 true
 function
+restart_initialized_cache
 (
 )
 {
@@ -4259,6 +4260,9 @@ for
 test
 do_test_pending
 (
+"
+test_AddonRepository_cache
+"
 )
 ;
 createAppInfo
@@ -4299,6 +4303,7 @@ installAllFiles
 (
 ADDON_FILES
 function
+first_installs
 (
 )
 {
@@ -4355,7 +4360,18 @@ gServer
 .
 stop
 (
+function
+(
+)
+{
 do_test_finished
+(
+"
+test_AddonRepository_cache
+"
+)
+;
+}
 )
 ;
 }
@@ -4496,6 +4512,7 @@ repopulateCache
 (
 ADDON_IDS
 function
+test_3_repopulated
 (
 )
 {
@@ -5164,6 +5181,7 @@ getAddonsByIDs
 (
 ADDON_IDS
 function
+test_12_check
 (
 aAddons
 )
