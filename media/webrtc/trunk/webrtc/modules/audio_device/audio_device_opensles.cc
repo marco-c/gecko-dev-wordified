@@ -92,9 +92,7 @@ modules
 /
 audio_device
 /
-android
-/
-audio_device_opensles_android
+audio_device_opensles
 .
 h
 "
