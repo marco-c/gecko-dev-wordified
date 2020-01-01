@@ -2775,7 +2775,7 @@ event
 .
 InitIMERange
 (
-IME_SET_TEXT
+IME_ADD_RANGE
 offset
 count
 rangeType
