@@ -13779,7 +13779,7 @@ posinset
 if
 (
 !
-nsCoreUtils
+nsAccUtils
 :
 :
 HasAccGroupAttrs
@@ -14294,7 +14294,7 @@ nextParent
 ;
 }
 }
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccGroupAttrs
@@ -14412,7 +14412,7 @@ ARIA
 if
 (
 !
-nsCoreUtils
+nsAccUtils
 :
 :
 IsARIAPropForObjectAttr
@@ -14654,7 +14654,7 @@ _class
 _class
 )
 )
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccAttr
@@ -14817,10 +14817,10 @@ NS_ENSURE_STATE
 topContent
 )
 ;
-nsCoreUtils
+nsAccUtils
 :
 :
-GetLiveContainerAttributes
+SetLiveContainerAttributes
 (
 aAttributes
 startContent
@@ -14968,7 +14968,7 @@ NS_SUCCEEDED
 rv
 )
 )
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccAttr
@@ -15166,7 +15166,7 @@ level
 posInSet
 setSize
 ;
-nsCoreUtils
+nsAccUtils
 :
 :
 GetAccGroupAttrs
@@ -18529,7 +18529,7 @@ parent
 the
 hard
 way
-nsCoreUtils
+nsAccUtils
 :
 :
 GetARIATreeItemParent

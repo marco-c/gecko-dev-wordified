@@ -2874,7 +2874,7 @@ positionInGroup
 =
 0
 ;
-nsCoreUtils
+nsAccUtils
 :
 :
 GetAccGroupAttrs

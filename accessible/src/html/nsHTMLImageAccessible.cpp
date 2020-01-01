@@ -2198,7 +2198,7 @@ return
 rv
 ;
 return
-nsCoreUtils
+nsAccUtils
 :
 :
 ConvertScreenCoordsTo
@@ -2518,7 +2518,7 @@ IsEmpty
 (
 )
 )
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccAttr

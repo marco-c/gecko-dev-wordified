@@ -3335,7 +3335,7 @@ nsIAccessible
 >
 menuBarAccessible
 =
-nsCoreUtils
+nsAccUtils
 :
 :
 GetAncestorWithRole
@@ -3379,7 +3379,7 @@ if
 mCurrentARIAMenubar
 )
 {
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -5147,7 +5147,7 @@ UpdateTreeSelection
 )
 ;
 return
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -5161,7 +5161,7 @@ accessible
 ;
 }
 return
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -5483,7 +5483,7 @@ AlertActive
 )
 )
 {
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -5639,7 +5639,7 @@ if
 event
 )
 {
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -5677,7 +5677,7 @@ nsIAccessibleRole
 ROLE_MENUPOPUP
 )
 {
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -6140,7 +6140,7 @@ aTargetNode
 PR_TRUE
 )
 ;
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -6184,7 +6184,7 @@ aTargetNode
 PR_TRUE
 )
 ;
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -6245,7 +6245,7 @@ mouseover
 )
 )
 {
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent

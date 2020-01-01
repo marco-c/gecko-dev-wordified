@@ -1921,7 +1921,7 @@ nsRoleMapEntry
 *
 roleMapEntry
 =
-nsCoreUtils
+nsAccUtils
 :
 :
 GetRoleMapEntry
@@ -5696,7 +5696,7 @@ accEvent
 )
 ;
 }
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -5816,7 +5816,7 @@ the
 accessibilty
 scroll
 event
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -10412,7 +10412,7 @@ accForFocus
 )
 )
 ;
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -10494,7 +10494,7 @@ selection
 change
 as
 well
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -11059,7 +11059,7 @@ nsRootAccessible
 :
 :
 HandleEvent
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -12969,7 +12969,7 @@ nsRoleMapEntry
 *
 roleMapEntry
 =
-nsCoreUtils
+nsAccUtils
 :
 :
 GetRoleMapEntry
@@ -13115,7 +13115,7 @@ break
 }
 roleMapEntry
 =
-nsCoreUtils
+nsAccUtils
 :
 :
 GetRoleMapEntry

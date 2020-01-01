@@ -497,6 +497,13 @@ h
 #
 include
 "
+nsAccUtils
+.
+h
+"
+#
+include
+"
 nsIAccessibleTypes
 .
 h
