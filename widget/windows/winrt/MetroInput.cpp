@@ -6693,7 +6693,7 @@ LogToPhys
 position
 )
 ;
-CSSIntPoint
+LayoutDeviceIntPoint
 point
 (
 pt
@@ -6848,7 +6848,7 @@ LogToPhys
 position
 )
 ;
-CSSIntPoint
+LayoutDeviceIntPoint
 point
 (
 pt
@@ -6882,10 +6882,7 @@ MetroInput
 HandleDoubleTap
 (
 const
-mozilla
-:
-:
-CSSIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 )
@@ -6993,10 +6990,7 @@ MetroInput
 HandleSingleTap
 (
 const
-mozilla
-:
-:
-CSSIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 )
@@ -7323,10 +7317,7 @@ MetroInput
 HandleLongTap
 (
 const
-mozilla
-:
-:
-CSSIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 )
