@@ -1612,9 +1612,9 @@ mPrintObject
 mWindow
 ;
 }
-nsIViewManager
+nsIPresShell
 *
-GetPrintPreviewViewManager
+GetPrintPreviewPresShell
 (
 )
 {
@@ -1625,7 +1625,7 @@ mPrtPreview
 mPrintObject
 -
 >
-mViewManager
+mPresShell
 ;
 }
 float
