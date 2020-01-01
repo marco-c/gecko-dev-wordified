@@ -157,6 +157,13 @@ Id
 h
 "
 #
+include
+"
+nsIXPConnect
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
