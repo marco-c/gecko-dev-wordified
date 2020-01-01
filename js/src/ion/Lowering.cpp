@@ -2228,6 +2228,9 @@ lir
 =
 new
 LMulI
+(
+ins
+)
 ;
 if
 (
