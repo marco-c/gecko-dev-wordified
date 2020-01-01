@@ -883,9 +883,6 @@ bars
 .
 NSMenuItem
 *
-nsMenuBarX
-:
-:
 CreateNativeAppMenuItem
 (
 nsIMenu
