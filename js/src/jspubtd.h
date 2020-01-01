@@ -3752,6 +3752,9 @@ obj
 JSObject
 *
 proto
+JSObject
+*
+parent
 uintN
 flags
 )
