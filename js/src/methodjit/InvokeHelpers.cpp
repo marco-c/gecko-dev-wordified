@@ -803,16 +803,6 @@ vector
 i
 ]
 ;
-JS_ASSERT
-(
-offset
-<
-script
--
->
-length
-)
-;
 /
 /
 The
