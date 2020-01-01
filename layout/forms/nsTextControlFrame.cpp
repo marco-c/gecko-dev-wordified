@@ -140,6 +140,13 @@ h
 #
 include
 "
+nsIEditor
+.
+h
+"
+#
+include
+"
 nsIEditorIMESupport
 .
 h
