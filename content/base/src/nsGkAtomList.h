@@ -5469,6 +5469,13 @@ pixelratio
 endif
 GK_ATOM
 (
+placeholder
+"
+placeholder
+"
+)
+GK_ATOM
+(
 plaintext
 "
 plaintext

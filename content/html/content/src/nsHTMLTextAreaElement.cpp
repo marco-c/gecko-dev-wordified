@@ -2061,6 +2061,12 @@ nsHTMLTextAreaElement
 Wrap
 wrap
 )
+NS_IMPL_STRING_ATTR
+(
+nsHTMLTextAreaElement
+Placeholder
+placeholder
+)
 NS_IMETHODIMP
 nsHTMLTextAreaElement
 :
