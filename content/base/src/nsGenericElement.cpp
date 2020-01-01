@@ -4587,7 +4587,7 @@ aNamespaceURI
 -
 -
 nsEventStates
-nsIContent
+Element
 :
 :
 IntrinsicState

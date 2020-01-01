@@ -7972,6 +7972,11 @@ eventStates
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 IntrinsicState
 (
 )
@@ -12811,6 +12816,11 @@ eventStates
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 IntrinsicState
 (
 )
@@ -14048,6 +14058,11 @@ nsEventStates
 eventStates
 =
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 IntrinsicState
@@ -16165,6 +16180,11 @@ nsEventStates
 eventStates
 =
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 IntrinsicState

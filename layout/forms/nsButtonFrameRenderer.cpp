@@ -677,6 +677,11 @@ GetContent
 )
 -
 >
+AsElement
+(
+)
+-
+>
 IntrinsicState
 (
 )
