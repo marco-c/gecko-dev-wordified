@@ -1397,6 +1397,14 @@ h
 >
 #
 endif
+#
+ifdef
+DEBUG
+#
+define
+COLLECT_TIME_DEBUG
+#
+endif
 /
 /
 Various
