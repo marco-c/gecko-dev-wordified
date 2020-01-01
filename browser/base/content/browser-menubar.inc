@@ -4986,7 +4986,7 @@ accesskey
 =
 "
 &
-clearRecentHistoryCmd
+clearRecentHistory
 .
 accesskey
 ;
@@ -4995,7 +4995,7 @@ label
 =
 "
 &
-clearRecentHistoryCmd
+clearRecentHistory
 .
 label
 ;
