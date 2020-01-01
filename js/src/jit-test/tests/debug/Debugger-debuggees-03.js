@@ -117,8 +117,7 @@ name
 No
 debuggees
 :
-the
-debuggerHandler
+onDebuggerStatement
 is
 not
 called
@@ -188,7 +187,7 @@ f
 Two
 debuggees
 two
-debuggerHandler
+onDebuggerStatement
 calls
 .
 dbg

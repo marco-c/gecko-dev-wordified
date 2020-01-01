@@ -125,6 +125,15 @@ type
 "
 call
 "
+&
+&
+f
+.
+script
+!
+=
+=
+null
 )
 snapshot
 .

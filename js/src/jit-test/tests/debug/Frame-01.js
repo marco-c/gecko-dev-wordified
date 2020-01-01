@@ -13,7 +13,7 @@ stack
 frame
 passed
 to
-debuggerHandler
+onDebuggerStatement
 .
 var
 g

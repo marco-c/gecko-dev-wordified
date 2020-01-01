@@ -4,8 +4,9 @@ A
 debugger
 statement
 in
-a
-debuggerHandler
+an
+onDebuggerStatement
+hook
 should
 not
 reenter

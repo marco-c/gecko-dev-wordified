@@ -1,6 +1,6 @@
 /
 /
-Frame
+frame
 .
 live
 is
@@ -83,6 +83,15 @@ type
 "
 call
 "
+&
+&
+f
+.
+script
+!
+=
+=
+null
 )
 stack
 .

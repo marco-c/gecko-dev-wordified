@@ -9,7 +9,7 @@ debug
 /
 /
 The
-throw
+onExceptionUnwind
 hook
 is
 called

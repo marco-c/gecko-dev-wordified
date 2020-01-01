@@ -6,7 +6,7 @@ debugger
 several
 times
 via
-debuggerHandler
+onDebuggerStatement
 and
 apply
 /

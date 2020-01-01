@@ -62,7 +62,7 @@ frame
 This
 trips
 the
-throw
+onExceptionUnwind
 hook
 .
 var
