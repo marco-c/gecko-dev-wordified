@@ -2101,7 +2101,8 @@ spbase
 [
 0
 ]
-void
+FrameInfo
+*
 *
 rp
 ;
