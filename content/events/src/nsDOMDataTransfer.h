@@ -612,6 +612,10 @@ friend
 class
 nsEventStateManager
 ;
+friend
+class
+nsContentUtils
+;
 protected
 :
 /

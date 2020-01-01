@@ -10525,6 +10525,9 @@ PRInt32
 index
 PRInt32
 orientation
+nsIDOMDataTransfer
+*
+dataTransfer
 PRBool
 *
 _retval
@@ -10592,6 +10595,7 @@ CanDrop
 (
 index
 orientation
+dataTransfer
 _retval
 )
 ;
@@ -10619,6 +10623,9 @@ PRInt32
 row
 PRInt32
 orient
+nsIDOMDataTransfer
+*
+dataTransfer
 )
 {
 if
@@ -10683,6 +10690,7 @@ CanDrop
 (
 row
 orient
+dataTransfer
 &
 canDrop
 )
@@ -10698,6 +10706,7 @@ OnDrop
 (
 row
 orient
+dataTransfer
 )
 ;
 }

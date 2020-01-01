@@ -591,6 +591,9 @@ nsWildCard
 .
 h
 "
+class
+nsIDOMDataTransfer
+;
 #
 define
 NS_FILECOMPLETE_CID
@@ -3116,6 +3119,9 @@ PRInt32
 aIndex
 PRInt32
 aOrientation
+nsIDOMDataTransfer
+*
+dataTransfer
 PRBool
 *
 aCanDrop
@@ -3140,6 +3146,9 @@ PRInt32
 aRow
 PRInt32
 aOrientation
+nsIDOMDataTransfer
+*
+dataTransfer
 )
 {
 return

@@ -2047,6 +2047,9 @@ PRInt32
 aIndex
 PRInt32
 aOrientation
+nsIDOMDataTransfer
+*
+aDataTransfer
 PRBool
 *
 _retval
@@ -2117,6 +2120,9 @@ PRInt32
 aRow
 PRInt32
 aOrientation
+nsIDOMDataTransfer
+*
+aDataTransfer
 )
 {
 NS_PRECONDITION

@@ -5187,6 +5187,9 @@ PRInt32
 index
 PRInt32
 orientation
+nsIDOMDataTransfer
+*
+dataTransfer
 PRBool
 *
 _retval
@@ -5206,6 +5209,9 @@ PRInt32
 row
 PRInt32
 orientation
+nsIDOMDataTransfer
+*
+dataTransfer
 )
 {
 return

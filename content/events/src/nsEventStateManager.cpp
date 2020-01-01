@@ -17886,7 +17886,7 @@ allowed
 .
 dropEffect
 =
-nsDOMDragEvent
+nsContentUtils
 :
 :
 FilterDropEffect
