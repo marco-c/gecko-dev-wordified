@@ -1293,7 +1293,7 @@ Init
 /
 /
 Preferences
-;
+:
 :
 GetInstanceForService
 (
