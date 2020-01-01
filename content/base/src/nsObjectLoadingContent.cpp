@@ -19187,16 +19187,8 @@ NPP
 any
 more
 .
-JSContext
-*
+AutoSafeJSContext
 cx
-=
-nsContentUtils
-:
-:
-GetSafeJSContext
-(
-)
 ;
 JS
 :
