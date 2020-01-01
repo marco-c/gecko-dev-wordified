@@ -253,7 +253,7 @@ static
 bool
 fRtcpMux
 =
-false
+true
 ;
 static
 std
