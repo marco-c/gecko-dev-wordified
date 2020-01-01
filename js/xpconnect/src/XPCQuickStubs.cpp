@@ -3259,7 +3259,7 @@ methodId
 ;
 }
 static
-JSBool
+bool
 ThrowCallFailed
 (
 JSContext
@@ -3662,7 +3662,7 @@ return
 false
 ;
 }
-void
+bool
 xpc_qsThrowMethodFailedWithDetails
 (
 JSContext
@@ -3680,6 +3680,7 @@ char
 memberName
 )
 {
+return
 ThrowCallFailed
 (
 cx
