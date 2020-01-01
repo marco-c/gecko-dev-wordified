@@ -406,6 +406,16 @@ mStatement
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+JS
+:
+:
+RootedObject
+scope
+(
+aCtx
+aScopeObj
+)
+;
 if
 (
 JSID_IS_STRING
@@ -742,7 +752,7 @@ if
 JS_SetElement
 (
 aCtx
-aScopeObj
+scope
 i
 &
 val
