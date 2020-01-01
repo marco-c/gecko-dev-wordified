@@ -488,6 +488,15 @@ MediaSourceReadyState
 :
 :
 Closed
+|
+|
+mReadyState
+=
+=
+MediaSourceReadyState
+:
+:
+Ended
 ;
 }
 /
