@@ -726,6 +726,13 @@ nsPresContext
 aPresContext
 )
 ;
+virtual
+PRInt64
+SizeOf
+(
+)
+const
+;
 nsresult
 Init
 (
@@ -792,7 +799,7 @@ aMapped
 )
 ;
 PRInt64
-SizeOf
+DOMSizeOf
 (
 )
 const
