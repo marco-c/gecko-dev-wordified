@@ -36,6 +36,15 @@ dbg
 new
 Debugger
 (
+)
+;
+var
+gw
+=
+dbg
+.
+addDebuggee
+(
 g
 )
 ;
@@ -46,9 +55,9 @@ f
 )
 {
 return
-dbg
+gw
 .
-addDebuggee
+makeDebuggeeValue
 (
 f
 )

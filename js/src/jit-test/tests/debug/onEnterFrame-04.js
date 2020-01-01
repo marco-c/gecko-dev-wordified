@@ -156,6 +156,15 @@ dbg
 =
 Debugger
 (
+)
+;
+var
+gw
+=
+dbg
+.
+addDebuggee
+(
 g
 )
 ;
@@ -372,9 +381,9 @@ f
 var
 debuggeeF
 =
-dbg
+gw
 .
-addDebuggee
+makeDebuggeeValue
 (
 g
 .
