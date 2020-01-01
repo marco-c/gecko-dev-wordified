@@ -2005,6 +2005,14 @@ self
 copy
 if
 (
+mBuffer
+-
+>
+SupportsSelfCopy
+(
+)
+&
+&
 mBufferRotation
 =
 =

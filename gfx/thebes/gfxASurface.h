@@ -1434,6 +1434,16 @@ gfxIntSize
 )
 ;
 }
+virtual
+PRBool
+SupportsSelfCopy
+(
+)
+{
+return
+PR_TRUE
+;
+}
 protected
 :
 gfxASurface
