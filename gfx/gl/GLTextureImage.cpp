@@ -1191,7 +1191,7 @@ aFlags
 TextureImage
 :
 :
-ForceSingleTile
+DisallowBigImage
 )
 &
 &

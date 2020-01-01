@@ -7780,7 +7780,7 @@ MaskLayerUserData
 result
 -
 >
-SetForceSingleTile
+SetDisallowBigImage
 (
 true
 )

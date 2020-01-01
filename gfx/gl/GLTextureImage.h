@@ -366,7 +366,7 @@ UseNearestFilter
 NeedsYFlip
 =
 0x2
-ForceSingleTile
+DisallowBigImage
 =
 0x4
 }

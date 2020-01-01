@@ -269,7 +269,7 @@ layers
 .
 const
 TextureFlags
-ForceSingleTile
+TEXTURE_DISALLOW_BIGIMAGE
 =
 1
 <
