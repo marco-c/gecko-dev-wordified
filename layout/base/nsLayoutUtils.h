@@ -2554,6 +2554,11 @@ StyleSet
 ProbePseudoElementStyle
 (
 aContent
+-
+>
+AsElement
+(
+)
 aPseudoElement
 aStyleContext
 )

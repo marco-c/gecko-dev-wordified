@@ -573,12 +573,8 @@ aContent
 aContent
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 "
 Inline

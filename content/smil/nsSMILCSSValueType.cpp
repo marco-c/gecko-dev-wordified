@@ -2632,6 +2632,14 @@ nsSMILValue
 aValue
 )
 {
+/
+/
+XXXbz
+aTargetElement
+should
+be
+an
+Element
 NS_ABORT_IF_FALSE
 (
 aValue
