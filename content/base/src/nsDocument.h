@@ -2150,6 +2150,16 @@ nodes
 with
 this
 ID
+.
+/
+/
+The
+content
+nodes
+are
+stored
+addrefed
+.
 nsSmallVoidArray
 mIdContentList
 ;
