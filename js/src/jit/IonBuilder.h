@@ -2389,6 +2389,17 @@ StackTypeSet
 types
 )
 ;
+bool
+needsToMonitorMissingProperties
+(
+types
+:
+:
+StackTypeSet
+*
+types
+)
+;
 /
 /
 jsop_setprop
