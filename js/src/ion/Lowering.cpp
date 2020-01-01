@@ -3314,9 +3314,8 @@ default
 /
 Objects
 might
-not
 be
-idempotent
+effectful
 .
 /
 /
@@ -3500,9 +3499,8 @@ int32
 /
 Objects
 might
-not
 be
-idempotent
+effectful
 .
 /
 /
@@ -3680,9 +3678,8 @@ default
 /
 Objects
 might
-not
 be
-idempotent
+effectful
 .
 /
 /
