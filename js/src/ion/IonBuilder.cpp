@@ -2478,7 +2478,6 @@ JSOP_BITNOT
 return
 jsop_bitnot
 (
-op
 )
 ;
 case
@@ -9380,8 +9379,6 @@ IonBuilder
 :
 jsop_bitnot
 (
-JSOp
-op
 )
 {
 MDefinition
