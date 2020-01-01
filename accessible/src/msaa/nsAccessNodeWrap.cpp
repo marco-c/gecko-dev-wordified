@@ -4176,7 +4176,6 @@ GetLanguage
 (
 language
 )
-;
 if
 (
 language
