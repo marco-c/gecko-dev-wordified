@@ -420,7 +420,11 @@ addTab
 (
 )
 ;
-hide
+GeckoApp
+.
+mAppContext
+.
+autoHideTabs
 (
 )
 ;
