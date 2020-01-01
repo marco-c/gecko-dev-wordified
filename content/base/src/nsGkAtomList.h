@@ -12643,17 +12643,6 @@ Deleting
 )
 /
 /
-IPC
-stuff
-GK_ATOM
-(
-Remote
-"
-remote
-"
-)
-/
-/
 Names
 for
 system
