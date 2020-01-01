@@ -625,6 +625,18 @@ data
 bool
 marked
 ;
+bool
+active
+;
+/
+/
+GC
+flag
+whether
+there
+are
+active
+frames
 js
 :
 :
@@ -855,6 +867,8 @@ sweep
 JSContext
 *
 cx
+uint32
+releaseInterval
 )
 ;
 void

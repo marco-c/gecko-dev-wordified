@@ -3929,7 +3929,7 @@ string
 offsetof
 (
 JSString
-mChars
+chars
 )
 ]
 /
@@ -3962,7 +3962,7 @@ string
 offsetof
 (
 JSString
-mChars
+chars
 )
 ]
 /
@@ -4007,10 +4007,11 @@ match
 base
 LIR_ldp
 ACCSET_STRING
-offsetof
-(
 JSString
-mChars
+:
+:
+offsetOfChars
+(
 )
 )
 |
@@ -4035,10 +4036,11 @@ oprnd1
 )
 LIR_ldp
 ACCSET_STRING
-offsetof
-(
 JSString
-mChars
+:
+:
+offsetOfChars
+(
 )
 )
 )

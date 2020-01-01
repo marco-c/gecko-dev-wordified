@@ -1972,6 +1972,11 @@ JSString
 ;
 typedef
 struct
+JSFlatString
+JSFlatString
+;
+typedef
+struct
 JSObject
 JSObject
 ;
@@ -2324,6 +2329,7 @@ s
 .
 tag
 <
+=
 (
 uint32
 )
@@ -4111,7 +4117,9 @@ JSVAL_BITS
 v
 )
 (
+(
 v
+)
 .
 asBits
 )
@@ -4140,7 +4148,9 @@ JSID_BITS
 id
 )
 (
+(
 id
+)
 .
 asBits
 )
