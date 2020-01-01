@@ -2957,14 +2957,6 @@ mComputedBorderPadding
 .
 left
 ;
-availableWidth
-=
-PR_MAX
-(
-0
-availableWidth
-)
-;
 }
 lineLayout
 -
