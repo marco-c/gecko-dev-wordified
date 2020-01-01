@@ -1946,6 +1946,15 @@ function
 (
 )
 {
+this
+.
+_canvasBrowser
+.
+setCurrentBrowser
+(
+null
+)
+;
 BrowserUI
 .
 uninit

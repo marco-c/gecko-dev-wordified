@@ -1196,6 +1196,13 @@ _contentDOMWindowUtils
 =
 null
 ;
+if
+(
+!
+browser
+)
+return
+;
 browser
 .
 setAttribute
