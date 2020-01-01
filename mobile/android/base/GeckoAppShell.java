@@ -1878,6 +1878,7 @@ return
 sFreeSpace
 ;
 }
+private
 static
 boolean
 moveFile
@@ -2131,6 +2132,7 @@ return
 true
 ;
 }
+private
 static
 boolean
 moveDir
@@ -3780,6 +3782,7 @@ notifyLayerClientOfGeometryChange
 )
 ;
 }
+public
 static
 void
 sendPendingEventsToGecko
@@ -4137,12 +4140,14 @@ countDown
 )
 ;
 }
+private
 static
 Sensor
 gAccelerometerSensor
 =
 null
 ;
+private
 static
 Sensor
 gOrientationSensor
@@ -4517,6 +4522,7 @@ selectionLength
 )
 ;
 }
+public
 static
 void
 onXreExit
@@ -4621,6 +4627,7 @@ exit
 )
 ;
 }
+public
 static
 void
 scheduleRestart
@@ -4654,6 +4661,7 @@ by
 creating
 a
 shortcut
+public
 static
 void
 createShortcut
@@ -5437,6 +5445,7 @@ return
 bitmap
 ;
 }
+public
 static
 String
 [
@@ -5487,6 +5496,7 @@ intent
 )
 ;
 }
+public
 static
 String
 [
@@ -5571,6 +5581,7 @@ intent
 )
 ;
 }
+private
 static
 String
 [
@@ -5745,6 +5756,7 @@ return
 ret
 ;
 }
+private
 static
 Intent
 getIntentForActionString
@@ -5802,6 +5814,7 @@ ACTION_VIEW
 )
 ;
 }
+public
 static
 String
 getExtensionFromMimeType
@@ -5823,6 +5836,7 @@ aMimeType
 )
 ;
 }
+public
 static
 String
 getMimeTypeFromExtensions
@@ -6017,6 +6031,7 @@ type
 subType
 ;
 }
+public
 static
 boolean
 openUriExternal
@@ -6476,7 +6491,9 @@ false
 ;
 }
 }
+private
 static
+final
 SynchronousQueue
 <
 String
@@ -6493,6 +6510,7 @@ String
 ;
 private
 static
+final
 String
 EMPTY_STRING
 =
@@ -6557,6 +6575,7 @@ most
 likely
 this
 thread
+public
 static
 String
 getClipboardText
@@ -6802,6 +6821,7 @@ return
 null
 ;
 }
+public
 static
 void
 setClipboardText
@@ -8812,6 +8832,7 @@ visitor
 otherPidExist
 ;
 }
+private
 interface
 GeckoProcessesVisitor
 {
@@ -8823,6 +8844,7 @@ pid
 )
 ;
 }
+private
 static
 int
 sPidColumn
@@ -8830,6 +8852,7 @@ sPidColumn
 -
 1
 ;
+private
 static
 int
 sUserColumn
@@ -10023,6 +10046,7 @@ return
 null
 ;
 }
+private
 static
 native
 void
@@ -10030,6 +10054,7 @@ executeNextRunnable
 (
 )
 ;
+private
 static
 class
 GeckoRunnableCallback
@@ -10110,7 +10135,7 @@ GeckoRunnableCallback
 )
 ;
 }
-public
+private
 static
 android
 .
@@ -10121,6 +10146,7 @@ sCamera
 =
 null
 ;
+private
 static
 native
 void
@@ -10132,12 +10158,15 @@ byte
 data
 )
 ;
+private
 static
+final
 int
 kPreferedFps
 =
 25
 ;
+private
 static
 byte
 [
@@ -10146,6 +10175,7 @@ sCameraBuffer
 =
 null
 ;
+public
 static
 int
 [
@@ -10938,6 +10968,7 @@ return
 result
 ;
 }
+public
 static
 synchronized
 void
@@ -11038,6 +11069,7 @@ null
 ;
 }
 }
+public
 static
 SynchronousQueue
 <
@@ -11662,6 +11694,7 @@ getCurrentInformation
 )
 ;
 }
+public
 static
 void
 checkUriVisited
@@ -11689,6 +11722,7 @@ uri
 )
 ;
 }
+public
 static
 void
 markUriVisited
@@ -11738,6 +11772,7 @@ uri
 )
 ;
 }
+public
 static
 void
 hideProgressDialog
