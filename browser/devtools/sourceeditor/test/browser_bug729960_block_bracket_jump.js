@@ -464,6 +464,9 @@ synthesizeKey
 accelKey
 :
 true
+altKey
+:
+true
 }
 testWin
 )
@@ -504,6 +507,9 @@ synthesizeKey
 "
 {
 accelKey
+:
+true
+altKey
 :
 true
 }
@@ -564,6 +570,9 @@ synthesizeKey
 accelKey
 :
 true
+altKey
+:
+true
 }
 testWin
 )
@@ -609,6 +618,9 @@ synthesizeKey
 "
 {
 accelKey
+:
+true
+altKey
 :
 true
 }
@@ -667,6 +679,9 @@ synthesizeKey
 accelKey
 :
 true
+altKey
+:
+true
 }
 testWin
 )
@@ -712,6 +727,9 @@ synthesizeKey
 "
 {
 accelKey
+:
+true
+altKey
 :
 true
 }
@@ -823,6 +841,9 @@ synthesizeKey
 accelKey
 :
 true
+altKey
+:
+true
 }
 testWin
 )
@@ -863,6 +884,9 @@ synthesizeKey
 "
 {
 accelKey
+:
+true
+altKey
 :
 true
 }
@@ -923,6 +947,9 @@ synthesizeKey
 accelKey
 :
 true
+altKey
+:
+true
 }
 testWin
 )
@@ -968,6 +995,9 @@ synthesizeKey
 "
 {
 accelKey
+:
+true
+altKey
 :
 true
 }
@@ -1106,6 +1136,9 @@ synthesizeKey
 accelKey
 :
 true
+altKey
+:
+true
 }
 testWin
 )
@@ -1159,6 +1192,9 @@ synthesizeKey
 "
 {
 accelKey
+:
+true
+altKey
 :
 true
 }
@@ -1265,6 +1301,9 @@ synthesizeKey
 accelKey
 :
 true
+altKey
+:
+true
 }
 testWin
 )
@@ -1318,6 +1357,9 @@ synthesizeKey
 "
 {
 accelKey
+:
+true
+altKey
 :
 true
 }
