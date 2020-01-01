@@ -847,7 +847,7 @@ anno_attribute_id
 +
 "
 JOIN
-moz_places_view
+moz_places
 h
 on
 h

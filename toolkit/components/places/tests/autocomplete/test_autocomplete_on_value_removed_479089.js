@@ -757,7 +757,7 @@ queries
 dump_table
 (
 "
-moz_places_view
+moz_places
 "
 )
 ;

@@ -612,7 +612,7 @@ sql
 SELECT
 place_id
 FROM
-moz_historyvisits_view
+moz_historyvisits
 WHERE
 id
 =

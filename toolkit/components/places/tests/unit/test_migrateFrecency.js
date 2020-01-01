@@ -712,7 +712,7 @@ COUNT
 *
 )
 FROM
-moz_places_view
+moz_places
 WHERE
 frecency
 <
