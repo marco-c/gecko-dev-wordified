@@ -173,16 +173,6 @@ Callee
 \
 _
 (
-ForceUseV
-)
-\
-_
-(
-ForceUseT
-)
-\
-_
-(
 TableSwitch
 )
 \

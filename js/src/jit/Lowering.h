@@ -586,14 +586,6 @@ callee
 )
 ;
 bool
-visitForceUse
-(
-MForceUse
-*
-forceUse
-)
-;
-bool
 visitGoto
 (
 MGoto

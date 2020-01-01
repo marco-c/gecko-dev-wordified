@@ -745,10 +745,6 @@ Callee
 )
 SAFE_OP
 (
-ForceUse
-)
-SAFE_OP
-(
 TableSwitch
 )
 SAFE_OP
