@@ -533,7 +533,7 @@ lock
 settingsService
 -
 >
-GetLock
+CreateLock
 (
 getter_AddRefs
 (

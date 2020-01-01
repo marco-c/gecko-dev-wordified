@@ -446,7 +446,7 @@ NS_OK
 settingsService
 -
 >
-GetLock
+CreateLock
 (
 getter_AddRefs
 (
@@ -720,7 +720,7 @@ return
 settingsService
 -
 >
-GetLock
+CreateLock
 (
 getter_AddRefs
 (

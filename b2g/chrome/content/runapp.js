@@ -551,7 +551,7 @@ navigator
 .
 mozSettings
 .
-getLock
+createLock
 (
 )
 .

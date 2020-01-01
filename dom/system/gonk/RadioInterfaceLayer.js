@@ -1122,7 +1122,7 @@ time
 .
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -1151,7 +1151,7 @@ DB
 .
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -1169,7 +1169,7 @@ this
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -1187,7 +1187,7 @@ this
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -1205,7 +1205,7 @@ this
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -1223,7 +1223,7 @@ this
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -1241,7 +1241,7 @@ this
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -1259,7 +1259,7 @@ this
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .

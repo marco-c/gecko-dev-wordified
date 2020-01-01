@@ -11553,7 +11553,7 @@ true
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -15352,7 +15352,7 @@ it
 .
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
