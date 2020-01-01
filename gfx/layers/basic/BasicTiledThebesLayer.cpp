@@ -3695,6 +3695,11 @@ ReadLock
 (
 )
 ;
+if
+(
+aMaskLayer
+)
+{
 static_cast
 <
 BasicImplData
@@ -3716,6 +3721,7 @@ aContext
 nullptr
 )
 ;
+}
 /
 /
 Create
