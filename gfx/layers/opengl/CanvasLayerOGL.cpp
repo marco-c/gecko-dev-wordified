@@ -1845,7 +1845,6 @@ nsIntSize
 0
 0
 )
-false
 )
 ;
 }
