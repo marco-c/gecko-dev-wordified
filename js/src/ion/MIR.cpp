@@ -1148,8 +1148,6 @@ congruentIfOperandsEqual
 (
 MDefinition
 *
-const
-&
 ins
 )
 const
@@ -2447,8 +2445,6 @@ congruentTo
 (
 MDefinition
 *
-const
-&
 ins
 )
 const
@@ -3075,8 +3071,6 @@ congruentTo
 (
 MDefinition
 *
-const
-&
 ins
 )
 const
@@ -4037,8 +4031,6 @@ congruentTo
 (
 MDefinition
 *
-const
-&
 ins
 )
 const
