@@ -169,7 +169,7 @@ double
 '
 to
 '
-PRUint32
+uint32_t
 '
 possible
 loss
@@ -208,7 +208,7 @@ double
 '
 to
 '
-PRUint32
+uint32_t
 '
 possible
 loss
