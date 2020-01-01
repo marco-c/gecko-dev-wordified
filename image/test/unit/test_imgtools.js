@@ -929,7 +929,7 @@ PNG
 /
 64x64
 png
-10698
+8415
 bytes
 .
 var
@@ -973,7 +973,7 @@ istream
 available
 (
 )
-10698
+8415
 )
 ;
 var
