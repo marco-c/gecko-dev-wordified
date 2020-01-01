@@ -523,7 +523,6 @@ ZZ_ListEmpty
 (
 lst
 )
-\
 (
 (
 lst
@@ -549,7 +548,6 @@ ZZ_ListHead
 (
 lst
 )
-\
 (
 (
 lst
@@ -566,7 +564,6 @@ ZZ_ListTail
 (
 lst
 )
-\
 (
 (
 lst
@@ -584,7 +581,6 @@ ZZ_ListIterDone
 lst
 lnk
 )
-\
 (
 (
 lnk

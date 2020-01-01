@@ -447,6 +447,12 @@ timeoutSeconds
 PKIX_UInt32
 maxResponseLength
 ;
+PRTime
+crlReloadDelay
+;
+PRTime
+badDerCrlReloadDelay
+;
 }
 ;
 PKIX_Error

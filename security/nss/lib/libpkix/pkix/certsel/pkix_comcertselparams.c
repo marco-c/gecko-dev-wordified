@@ -1507,7 +1507,7 @@ params
 >
 leafCertFlag
 =
-PKIX_TRUE
+PKIX_FALSE
 ;
 *
 pParams
