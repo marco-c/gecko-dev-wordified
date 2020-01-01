@@ -1109,8 +1109,6 @@ sound
 "
 nsSoundConstructor
 }
-/
-*
 {
 "
 Native
@@ -1135,8 +1133,6 @@ theme
 "
 nsNativeThemeQtConstructor
 }
-*
-/
 /
 *
 {
