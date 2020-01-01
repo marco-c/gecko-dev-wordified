@@ -11494,16 +11494,6 @@ last
 go
 -
 around
-if
-(
-codeList
-)
-{
-codeList
-=
-codeList
-;
-}
 /
 /
 if
@@ -11562,6 +11552,9 @@ check
 nopInsertTrigger
 -
 =
+(
+int32_t
+)
 delta
 ;
 if
