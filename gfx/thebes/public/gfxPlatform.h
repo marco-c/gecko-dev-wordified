@@ -475,7 +475,7 @@ gfxImageSurface
 class
 gfxFontGroup
 ;
-class
+struct
 gfxFontStyle
 ;
 class
