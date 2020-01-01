@@ -1257,6 +1257,14 @@ setMouseTracking
 true
 )
 ;
+setFrameShape
+(
+QFrame
+:
+:
+NoFrame
+)
+;
 }
 protected
 :
