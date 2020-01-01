@@ -14963,6 +14963,15 @@ globals
 if
 (
 !
+cg
+-
+>
+mightAliasLocals
+(
+)
+&
+&
+!
 TryConvertToGname
 (
 cg
