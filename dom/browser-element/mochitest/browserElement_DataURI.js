@@ -80,7 +80,12 @@ iframe
 '
 )
 ;
+SpecialPowers
+.
+wrap
+(
 iframe1
+)
 .
 mozbrowser
 =

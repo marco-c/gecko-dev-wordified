@@ -91,7 +91,12 @@ iframe
 '
 )
 ;
+SpecialPowers
+.
+wrap
+(
 iframeJS
+)
 .
 mozbrowser
 =
@@ -188,7 +193,12 @@ iframe
 '
 )
 ;
+SpecialPowers
+.
+wrap
+(
 iframe
+)
 .
 mozbrowser
 =
