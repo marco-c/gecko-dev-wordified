@@ -1099,9 +1099,6 @@ OpenFile
 nsresult
 ParseManifest
 (
-nsISignatureVerifier
-*
-verifier
 )
 ;
 void
