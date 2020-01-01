@@ -628,6 +628,14 @@ a
 *
 transaction
 .
+By
+default
+layer
+contents
+are
+not
+retained
+.
 *
 /
 void
