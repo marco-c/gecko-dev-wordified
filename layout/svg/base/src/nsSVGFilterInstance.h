@@ -594,6 +594,7 @@ aTargetFrame
 nsSVGFilterPaintCallback
 *
 aPaintCallback
+const
 nsSVGFilterElement
 *
 aFilterElement
@@ -1464,6 +1465,7 @@ nsSVGFilterPaintCallback
 *
 mPaintCallback
 ;
+const
 nsSVGFilterElement
 *
 mFilterElement
