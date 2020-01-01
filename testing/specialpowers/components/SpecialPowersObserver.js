@@ -350,10 +350,6 @@ XPCOM
 gunk
 *
 /
-this
-.
-SpecialPowersObserver
-=
 function
 SpecialPowersObserver
 (
