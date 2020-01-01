@@ -1489,7 +1489,7 @@ V
 "
 )
 ;
-jPreventPanning
+jSetPreventPanning
 =
 (
 jmethodID
@@ -1501,10 +1501,11 @@ GetStaticMethodID
 (
 jGeckoAppShellClass
 "
-preventPanning
+setPreventPanning
 "
 "
 (
+Z
 )
 V
 "
@@ -11270,8 +11271,10 @@ void
 AndroidBridge
 :
 :
-PreventPanning
+SetPreventPanning
 (
+bool
+aPreventPanning
 )
 {
 ALOG_BRIDGE
@@ -11305,7 +11308,11 @@ env
 CallStaticVoidMethod
 (
 mGeckoAppShellClass
-jPreventPanning
+jSetPreventPanning
+(
+jboolean
+)
+aPreventPanning
 )
 ;
 }
