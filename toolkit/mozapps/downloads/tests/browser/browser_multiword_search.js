@@ -954,7 +954,8 @@ doTest
 (
 )
 ;
-default
+case
+1
 :
 /
 /
@@ -994,7 +995,7 @@ doTest
 )
 ;
 case
-4
+2
 :
 /
 /
@@ -1065,7 +1066,7 @@ doTest
 )
 ;
 case
-5
+3
 :
 /
 /
