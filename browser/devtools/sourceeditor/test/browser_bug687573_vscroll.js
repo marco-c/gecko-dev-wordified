@@ -385,7 +385,7 @@ config
 showLineNumbers
 :
 true
-initialText
+placeholderText
 :
 text
 }
