@@ -1087,9 +1087,10 @@ target
 )
 {
 return
+!
 target
 .
-isLocalTab
+isRemote
 ;
 }
 build
