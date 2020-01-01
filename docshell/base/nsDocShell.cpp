@@ -23797,9 +23797,6 @@ mUseErrorPages
 &
 &
 aURI
-&
-&
-aFailedChannel
 )
 {
 /
