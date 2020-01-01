@@ -32789,6 +32789,12 @@ initialization
 return
 ;
 }
+this
+.
+_initialized
+=
+true
+;
 Services
 .
 obs
