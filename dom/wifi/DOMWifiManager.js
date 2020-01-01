@@ -268,6 +268,11 @@ ssid
 "
 r
 "
+capabilities
+:
+"
+r
+"
 known
 :
 "
