@@ -1076,12 +1076,6 @@ tab
 mWebNav
 )
 ;
-nsCOMPtr
-<
-nsIPresShell
->
-presShell
-;
 if
 (
 nsIPresShell
