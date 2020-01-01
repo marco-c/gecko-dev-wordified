@@ -3601,6 +3601,14 @@ HeapSlot
 )
 )
 ;
+SlotRangeWriteBarrierPost
+(
+comp
+this
+dstStart
+count
+)
+;
 }
 }
 inline
