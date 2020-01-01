@@ -7471,6 +7471,10 @@ PRUint32
 aRunLength
 PRInt32
 aRunScript
+PRBool
+aPreferPlatformShaping
+=
+PR_FALSE
 )
 ;
 protected
