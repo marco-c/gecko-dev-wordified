@@ -139,6 +139,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 builtin
 /
 Intl
@@ -3454,7 +3461,10 @@ RootedObject
 savedGlobal
 (
 cx
-JS_GetGlobalObject
+js
+:
+:
+GetDefaultGlobalForContext
 (
 cx
 )
