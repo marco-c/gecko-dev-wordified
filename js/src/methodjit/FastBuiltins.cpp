@@ -3577,6 +3577,9 @@ frame
 peek
 (
 -
+(
+int
+)
 argc
 +
 i
