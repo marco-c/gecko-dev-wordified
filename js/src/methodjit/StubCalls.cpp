@@ -5780,11 +5780,10 @@ f
 cx
 -
 >
-jaegerCompartment
+jaegerRuntime
 (
 )
--
->
+.
 forceReturnFromFastCall
 (
 )
@@ -6176,11 +6175,10 @@ f
 cx
 -
 >
-jaegerCompartment
+jaegerRuntime
 (
 )
--
->
+.
 forceReturnFromFastCall
 (
 )

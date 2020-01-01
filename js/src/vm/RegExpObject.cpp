@@ -1471,7 +1471,7 @@ cx
 runtime
 -
 >
-getExecutableAllocator
+getExecAlloc
 (
 cx
 )
@@ -1481,16 +1481,9 @@ if
 !
 execAlloc
 )
-{
-js_ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;
-}
 JSGlobalData
 globalData
 (
