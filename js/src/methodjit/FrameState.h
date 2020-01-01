@@ -2119,7 +2119,7 @@ RegisterID
 reg
 )
 ;
-void
+RegisterID
 evictSomething
 (
 )
