@@ -178,8 +178,6 @@ is
 200ms
 we
 have
-X
--
 Content
 -
 Duration
