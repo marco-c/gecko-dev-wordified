@@ -4440,7 +4440,7 @@ if
 tokenHandler
 -
 >
-isInForeign
+cdataSectionAllowed
 (
 )
 )
@@ -4463,9 +4463,6 @@ NS_HTML5_CONTINUE
 stateloop
 )
 ;
-}
-else
-{
 }
 }
 default

@@ -12214,7 +12214,7 @@ if
 (
 tokenHandler
 .
-isInForeign
+cdataSectionAllowed
 (
 )
 )
@@ -12238,13 +12238,11 @@ continue
 stateloop
 ;
 }
+/
+/
 else
-{
-/
-/
 fall
 through
-}
 default
 :
 errBogusComment
