@@ -1912,7 +1912,7 @@ exists
 Otherwise
 construct
 the
-default
+defualt
 iterator
 .
 *
