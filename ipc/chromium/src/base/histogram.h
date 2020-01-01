@@ -3503,6 +3503,11 @@ SampleSet
 sample
 )
 ;
+void
+Clear
+(
+)
+;
 /
 /
 This
