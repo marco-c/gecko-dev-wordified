@@ -25471,13 +25471,16 @@ already
 -
 emitted
 function
+definition
+prolog
+opcode
 .
 See
+*
 comments
 in
 the
 TOK_LC
-*
 case
 .
 *
