@@ -1804,7 +1804,7 @@ allPages
 .
 unregister
 (
-this
+page
 )
 ;
 }
