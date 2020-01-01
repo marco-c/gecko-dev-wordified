@@ -1061,6 +1061,7 @@ union
 U
 {
 struct
+Native
 {
 js
 :
