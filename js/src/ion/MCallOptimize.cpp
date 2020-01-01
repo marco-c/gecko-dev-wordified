@@ -1220,6 +1220,10 @@ MNewArray
 (
 initLength
 templateObject
+MNewArray
+:
+:
+NewArray_Unallocating
 )
 ;
 current
