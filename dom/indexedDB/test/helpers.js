@@ -230,10 +230,9 @@ if
 usage
 )
 {
-throw
-new
-Error
+ok
 (
+false
 "
 getUsageForURI
 returned
@@ -242,11 +241,11 @@ non
 zero
 usage
 after
+clearing
+all
 "
 +
 "
-clearing
-all
 databases
 !
 "
