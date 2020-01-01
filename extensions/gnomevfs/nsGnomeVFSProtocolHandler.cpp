@@ -3083,7 +3083,12 @@ get
 )
 &
 info
+GnomeVFSFileInfoOptions
+(
 GNOME_VFS_FILE_INFO_DEFAULT
+|
+GNOME_VFS_FILE_INFO_FOLLOW_LINKS
+)
 )
 ;
 if
