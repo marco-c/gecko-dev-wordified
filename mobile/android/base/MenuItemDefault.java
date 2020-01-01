@@ -433,6 +433,17 @@ drawableState
 }
 Override
 public
+View
+getView
+(
+)
+{
+return
+this
+;
+}
+Override
+public
 void
 setIcon
 (
