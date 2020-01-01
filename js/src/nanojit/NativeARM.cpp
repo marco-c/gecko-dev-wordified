@@ -13919,6 +13919,7 @@ verbose_only
 (
 codeBytes
 )
+NJ_MAX_CPOOL_OFFSET
 )
 ;
 /
@@ -14069,6 +14070,7 @@ verbose_only
 (
 codeBytes
 )
+NJ_MAX_CPOOL_OFFSET
 )
 ;
 _nSlot
@@ -23509,6 +23511,7 @@ verbose_only
 (
 exitBytes
 )
+NJ_MAX_CPOOL_OFFSET
 )
 ;
 if

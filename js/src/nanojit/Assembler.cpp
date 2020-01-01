@@ -1900,6 +1900,8 @@ size_t
 &
 nBytes
 )
+size_t
+byteLimit
 )
 {
 /
@@ -1938,6 +1940,7 @@ alloc
 (
 start
 end
+byteLimit
 )
 ;
 verbose_only
