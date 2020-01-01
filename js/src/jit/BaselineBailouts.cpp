@@ -2589,7 +2589,7 @@ pc
 {
 if
 (
-IsGetterPC
+IsGetPropPC
 (
 pc
 )
@@ -2614,7 +2614,7 @@ baselineGetPropReturnAddr
 ;
 if
 (
-IsSetterPC
+IsSetPropPC
 (
 pc
 )
@@ -5607,13 +5607,13 @@ op
 JSOP_FUNAPPLY
 |
 |
-IsGetterPC
+IsGetPropPC
 (
 pc
 )
 |
 |
-IsSetterPC
+IsSetPropPC
 (
 pc
 )
@@ -5685,7 +5685,7 @@ inlined_args
 =
 2
 +
-IsSetterPC
+IsSetPropPC
 (
 pc
 )
@@ -6159,7 +6159,7 @@ read
 ;
 if
 (
-IsSetterPC
+IsSetPropPC
 (
 pc
 )
@@ -6712,13 +6712,13 @@ moreFrames
 &
 &
 (
-IsGetterPC
+IsGetPropPC
 (
 pc
 )
 |
 |
-IsSetterPC
+IsSetPropPC
 (
 pc
 )
@@ -8912,7 +8912,7 @@ numActualArgs
 else
 actualArgc
 =
-IsSetterPC
+IsSetPropPC
 (
 pc
 )

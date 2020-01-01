@@ -1869,13 +1869,13 @@ pc
 )
 |
 |
-IsGetterPC
+IsGetPropPC
 (
 pc
 )
 |
 |
-IsSetterPC
+IsSetPropPC
 (
 pc
 )
