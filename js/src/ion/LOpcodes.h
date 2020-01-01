@@ -680,6 +680,16 @@ CompareDAndBranch
 \
 _
 (
+CompareB
+)
+\
+_
+(
+CompareBAndBranch
+)
+\
+_
+(
 IsNullOrUndefined
 )
 \

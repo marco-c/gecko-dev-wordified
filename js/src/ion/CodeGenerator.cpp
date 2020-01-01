@@ -9432,6 +9432,11 @@ op
 lir
 -
 >
+mir
+(
+)
+-
+>
 jsop
 (
 )
@@ -10006,6 +10011,11 @@ LhsInput
 switch
 (
 lir
+-
+>
+mir
+(
+)
 -
 >
 jsop
