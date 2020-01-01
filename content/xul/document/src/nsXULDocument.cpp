@@ -23710,6 +23710,9 @@ mCurrentPrototype
 DocumentPrincipal
 (
 )
+EmptyCString
+(
+)
 this
 getter_AddRefs
 (

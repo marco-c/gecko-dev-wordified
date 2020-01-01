@@ -2526,6 +2526,12 @@ doc
 NodePrincipal
 (
 )
+NS_LossyConvertUTF16toASCII
+(
+pe
+.
+charset
+)
 obs
 )
 ;
