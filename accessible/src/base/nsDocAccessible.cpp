@@ -1049,7 +1049,7 @@ widget
 vm
 -
 >
-GetWidget
+GetRootWidget
 (
 getter_AddRefs
 (
