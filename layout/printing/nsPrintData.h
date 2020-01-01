@@ -984,12 +984,6 @@ nsIPrintSettings
 >
 mPrintSettings
 ;
-nsCOMPtr
-<
-nsIPrintOptions
->
-mPrintOptions
-;
 nsPrintPreviewListener
 *
 mPPEventListeners

@@ -1299,9 +1299,6 @@ aDoFront
 nsresult
 CheckForPrinters
 (
-nsIPrintOptions
-*
-aPrintOptions
 nsIPrintSettings
 *
 aPrintSettings
