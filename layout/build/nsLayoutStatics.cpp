@@ -1645,6 +1645,13 @@ InitializeStatics
 (
 )
 ;
+nsIPresShell
+:
+:
+InitializeStatics
+(
+)
+;
 nsCrossSiteListenerProxy
 :
 :
@@ -2086,6 +2093,13 @@ nsXMLHttpRequest
 :
 :
 ShutdownACCache
+(
+)
+;
+nsIPresShell
+:
+:
+ReleaseStatics
 (
 )
 ;

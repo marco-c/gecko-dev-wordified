@@ -7541,6 +7541,10 @@ aDestSize
 ;
 protected
 :
+friend
+class
+nsBidiPresUtils
+;
 /
 *
 *
