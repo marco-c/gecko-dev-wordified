@@ -2268,7 +2268,9 @@ scrollTo
 void
 UpdateScrollOffset
 (
+const
 CSSPoint
+&
 aScrollOffset
 )
 ;
