@@ -8681,8 +8681,7 @@ getThisValue
 JSContext
 *
 cx
-jsval
-*
+MutableHandleValue
 thisv
 )
 {
@@ -8728,13 +8727,15 @@ frame
 return
 false
 ;
-*
 thisv
-=
+.
+set
+(
 frame
 .
 thisValue
 (
+)
 )
 ;
 return
@@ -8787,8 +8788,7 @@ char
 filename
 unsigned
 lineno
-jsval
-*
+MutableHandleValue
 rval
 )
 {
@@ -8878,8 +8878,7 @@ char
 filename
 unsigned
 lineno
-jsval
-*
+MutableHandleValue
 rval
 )
 {

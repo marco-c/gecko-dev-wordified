@@ -514,8 +514,14 @@ before
 isConstructing
 )
 {
-jsval
+js
+:
+:
+RootedValue
 newObj
+(
+cx
+)
 ;
 if
 (
