@@ -118,7 +118,7 @@ const
 HEAP_IMPORTS
 =
 "
-var
+const
 i8
 =
 new
@@ -143,7 +143,7 @@ b
 "
 +
 "
-var
+const
 i16
 =
 new
@@ -168,7 +168,7 @@ b
 "
 +
 "
-var
+const
 i32
 =
 new
@@ -193,7 +193,7 @@ b
 "
 +
 "
-var
+const
 f32
 =
 new
