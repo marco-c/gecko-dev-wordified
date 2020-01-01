@@ -4966,7 +4966,12 @@ aMsg
 false
 &
 cloneData
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 nullptr
 )
 ;

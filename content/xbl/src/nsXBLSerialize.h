@@ -535,8 +535,14 @@ aContext
 nsIObjectOutputStream
 *
 aStream
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aFunctionObject
 )
 ;

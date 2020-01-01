@@ -8245,7 +8245,12 @@ aMessageName
 false
 &
 cloneData
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 nullptr
 )
 ;
@@ -11214,7 +11219,12 @@ aMessage
 false
 &
 cloneData
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 nullptr
 )
 ;

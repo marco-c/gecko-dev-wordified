@@ -15228,7 +15228,9 @@ cache
 PutScript
 (
 mSrcURI
-mScriptObject
+GetScriptObject
+(
+)
 )
 ;
 }
@@ -15792,6 +15794,10 @@ nullptr
 return
 ;
 }
+mScriptObject
+=
+aObject
+;
 nsContentUtils
 :
 :
@@ -15803,10 +15809,6 @@ NS_CYCLE_COLLECTION_PARTICIPANT
 nsXULPrototypeNode
 )
 )
-;
-mScriptObject
-=
-aObject
 ;
 }
 /

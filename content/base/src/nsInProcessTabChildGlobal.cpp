@@ -351,7 +351,12 @@ aMessage
 true
 &
 aData
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 aJSONRetVal
 )
 ;
@@ -521,7 +526,12 @@ mMessage
 false
 &
 data
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 nullptr
 nullptr
 )

@@ -945,8 +945,14 @@ const
 StructuredCloneData
 *
 aCloneData
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aObjectsArray
 InfallibleTArray
 <

@@ -2037,8 +2037,14 @@ ExecuteScript
 nsIScriptContext
 *
 aContext
+JS
+:
+:
+Handle
+<
 JSScript
 *
+>
 aScriptObject
 )
 ;
