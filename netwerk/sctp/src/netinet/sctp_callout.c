@@ -872,6 +872,10 @@ void
 *
 c_arg
 ;
+SCTP_TIMERQ_LOCK
+(
+)
+;
 #
 if
 defined
@@ -896,10 +900,6 @@ sctp_main_timer_ticks
 ;
 #
 endif
-SCTP_TIMERQ_LOCK
-(
-)
-;
 c
 =
 TAILQ_FIRST

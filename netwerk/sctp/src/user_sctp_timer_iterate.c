@@ -537,6 +537,10 @@ timer_thread_should_exit
 break
 ;
 }
+SCTP_TIMERQ_LOCK
+(
+)
+;
 /
 *
 update
@@ -551,10 +555,6 @@ ticks
 MSEC_TO_TICKS
 (
 TIMEOUT_INTERVAL
-)
-;
-SCTP_TIMERQ_LOCK
-(
 )
 ;
 c
