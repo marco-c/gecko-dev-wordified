@@ -1581,8 +1581,11 @@ masm
 StubAttacher
 &
 attacher
+Handle
+<
 IonCode
 *
+>
 code
 )
 ;

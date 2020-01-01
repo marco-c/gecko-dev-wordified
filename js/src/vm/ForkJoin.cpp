@@ -1214,7 +1214,7 @@ JSContext
 *
 cx_
 ;
-HeapPtrObject
+HandleObject
 fun_
 ;
 Vector
