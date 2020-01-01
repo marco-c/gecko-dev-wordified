@@ -531,10 +531,6 @@ nsILocale
 {
 friend
 class
-nsLocaleDefinition
-;
-friend
-class
 nsLocaleService
 ;
 NS_DECL_ISUPPORTS
