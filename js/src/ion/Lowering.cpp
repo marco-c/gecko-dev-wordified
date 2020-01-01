@@ -4995,16 +4995,10 @@ INT32_MIN
 )
 if
 (
-!
 ins
 -
 >
-range
-(
-)
--
->
-isFinite
+fallible
 (
 )
 &
