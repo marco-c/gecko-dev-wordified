@@ -180,3 +180,7 @@ DEPRECATED_OPERATION
 (
 LenientThis
 )
+DEPRECATED_OPERATION
+(
+GetPreventDefault
+)
