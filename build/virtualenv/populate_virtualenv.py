@@ -1025,7 +1025,7 @@ self
 .
 manifest_path
 '
-rUt
+rU
 '
 )
         
