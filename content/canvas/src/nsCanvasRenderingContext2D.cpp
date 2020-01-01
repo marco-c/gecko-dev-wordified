@@ -9554,6 +9554,11 @@ blur
 Init
 (
 drawExtents
+gfxIntSize
+(
+0
+0
+)
 blurRadius
 nsnull
 nsnull
