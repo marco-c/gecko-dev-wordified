@@ -4314,10 +4314,6 @@ willSendDidPaint
 (
 false
 )
-didSendWillPaint
-(
-false
-)
 {
 }
 /
@@ -4331,9 +4327,6 @@ region
 ;
 bool
 willSendDidPaint
-;
-bool
-didSendWillPaint
 ;
 }
 ;

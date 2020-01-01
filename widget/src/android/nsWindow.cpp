@@ -3230,6 +3230,8 @@ const
 nsIntRect
 &
 aRect
+bool
+aIsSynchronous
 )
 {
 AndroidGeckoEvent
@@ -3257,6 +3259,18 @@ PostEvent
 event
 )
 ;
+return
+NS_OK
+;
+}
+NS_IMETHODIMP
+nsWindow
+:
+:
+Update
+(
+)
+{
 return
 NS_OK
 ;
