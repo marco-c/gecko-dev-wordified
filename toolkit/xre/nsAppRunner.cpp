@@ -19193,6 +19193,13 @@ defined
 (
 MOZ_UPDATER
 )
+&
+&
+!
+defined
+(
+ANDROID
+)
 /
 /
 Check
