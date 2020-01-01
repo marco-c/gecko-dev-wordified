@@ -3498,13 +3498,7 @@ cpc
 >
 SendTestPermission
 (
-IPC
-:
-:
-URI
-(
 aURI
-)
 nsDependentCString
 (
 aType
@@ -3570,13 +3564,7 @@ cpc
 >
 SendTestPermission
 (
-IPC
-:
-:
-URI
-(
 aURI
-)
 nsDependentCString
 (
 aType
