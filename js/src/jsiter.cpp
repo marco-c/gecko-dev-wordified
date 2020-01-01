@@ -1337,7 +1337,7 @@ EnumPolicy
 :
 :
 ResultVector
-&
+*
 props
 )
 {
@@ -1639,6 +1639,7 @@ EnumPolicy
 append
 (
 cx
+*
 props
 obj
 id
@@ -1677,7 +1678,7 @@ EnumPolicy
 :
 :
 ResultVector
-&
+*
 props
 )
 {
@@ -1691,7 +1692,8 @@ size_t
 initialLength
 =
 props
-.
+-
+>
 length
 (
 )
@@ -1811,14 +1813,16 @@ false
 Reverse
 (
 props
-.
+-
+>
 begin
 (
 )
 +
 initialLength
 props
-.
+-
+>
 end
 (
 )
@@ -1862,7 +1866,7 @@ EnumPolicy
 :
 :
 ResultVector
-&
+*
 props
 )
 {
@@ -2037,7 +2041,7 @@ EnumPolicy
 :
 :
 ResultVector
-&
+*
 props
 )
 {
@@ -2653,7 +2657,7 @@ obj
 uintN
 flags
 AutoIdVector
-&
+*
 props
 )
 {
@@ -4847,6 +4851,7 @@ ValueEnumeration
 cx
 obj
 flags
+&
 vals
 )
 )
@@ -4906,6 +4911,7 @@ KeyEnumeration
 cx
 obj
 flags
+&
 keys
 )
 )

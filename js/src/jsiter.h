@@ -1027,7 +1027,7 @@ js
 :
 :
 AutoIdVector
-&
+*
 props
 )
 ;

@@ -11233,6 +11233,7 @@ GetPropertyNames
 cx
 obj
 JSITER_OWNONLY
+&
 props
 )
 )
@@ -15927,6 +15928,7 @@ obj
 JSITER_OWNONLY
 |
 JSITER_HIDDEN
+&
 keys
 )
 )

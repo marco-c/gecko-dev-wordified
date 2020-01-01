@@ -2309,6 +2309,7 @@ toObject
 (
 )
 JSITER_OWNONLY
+&
 props
 )
 )
@@ -4054,6 +4055,7 @@ GetPropertyNames
 cx
 obj
 JSITER_OWNONLY
+&
 props
 )
 )
