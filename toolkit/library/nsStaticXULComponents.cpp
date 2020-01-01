@@ -683,11 +683,6 @@ nsRDFModule
 \
 MODULE
 (
-nsXPIntlModule
-)
-\
-MODULE
-(
 nsWindowDataSourceModule
 )
 #
@@ -1219,11 +1214,6 @@ nsChromeModule
 MODULE
 (
 application
-)
-\
-MODULE
-(
-nsFindComponent
 )
 \
 MODULE
