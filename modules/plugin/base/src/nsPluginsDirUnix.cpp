@@ -443,13 +443,6 @@ Musil
 #
 include
 "
-nsplugin
-.
-h
-"
-#
-include
-"
 nsNPAPIPlugin
 .
 h

@@ -555,6 +555,13 @@ h
 #
 include
 "
+nsIPluginInstance
+.
+h
+"
+#
+include
+"
 nsIPresShell
 .
 h
