@@ -519,7 +519,7 @@ Components
 .
 interfaces
 .
-nsIIOService
+nsIIOService2
 )
 ;
 }
