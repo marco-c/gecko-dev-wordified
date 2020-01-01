@@ -2447,11 +2447,10 @@ mCaretAccessible
 ;
 }
 return
-NS_STATIC_CAST
-(
-nsCaretAccessible
-*
 mCaretAccessible
+.
+get
+(
 )
 ;
 }
