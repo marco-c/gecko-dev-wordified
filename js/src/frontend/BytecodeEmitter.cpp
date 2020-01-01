@@ -32162,7 +32162,7 @@ bindings
 /
 /
 Inherit
-various
+most
 things
 (
 principals
@@ -32231,10 +32231,13 @@ JSScript
 Create
 (
 cx
-parent
--
->
+/
+*
 savedCallerFun
+=
+*
+/
+false
 parent
 -
 >
