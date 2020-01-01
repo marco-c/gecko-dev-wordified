@@ -2810,16 +2810,8 @@ value
 :
 true
 }
-JSContext
-*
+AutoSafeJSContext
 cx
-=
-nsContentUtils
-:
-:
-GetSafeJSContext
-(
-)
 ;
 if
 (

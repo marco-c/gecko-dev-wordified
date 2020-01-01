@@ -894,16 +894,8 @@ GetCID
 )
 )
 ;
-JSContext
-*
+AutoSafeJSContext
 cx
-=
-xpc
--
->
-GetSafeJSContext
-(
-)
 ;
 if
 (
