@@ -1303,7 +1303,7 @@ document
 node
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2885,7 +2885,7 @@ doc
 node
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -4115,7 +4115,7 @@ doc
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

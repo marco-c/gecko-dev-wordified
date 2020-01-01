@@ -976,7 +976,7 @@ GetContent
 )
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

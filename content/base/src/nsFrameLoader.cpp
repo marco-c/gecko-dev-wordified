@@ -2100,7 +2100,7 @@ doc
 aOwner
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2221,7 +2221,7 @@ doc
 mOwnerContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2467,7 +2467,7 @@ doc
 mOwnerContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -7599,7 +7599,7 @@ doc
 mOwnerContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -8133,7 +8133,7 @@ doc
 mOwnerContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -11879,7 +11879,7 @@ do_QueryInterface
 mOwnerContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -

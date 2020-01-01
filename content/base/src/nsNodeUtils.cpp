@@ -724,7 +724,7 @@ NS_ASSERTION
 node
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 =
@@ -877,7 +877,7 @@ doc
 aContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -914,7 +914,7 @@ doc
 aContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -955,7 +955,7 @@ doc
 aElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -998,7 +998,7 @@ doc
 aElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1039,7 +1039,7 @@ doc
 aContainer
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1119,7 +1119,7 @@ doc
 aContainer
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1254,7 +1254,7 @@ doc
 aContainer
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1780,7 +1780,7 @@ document
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2008,7 +2008,7 @@ ownerDoc
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2677,7 +2677,7 @@ ownerDoc
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2794,7 +2794,7 @@ ownerDoc
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -3145,7 +3145,7 @@ currentDoc
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -3419,7 +3419,7 @@ oldDoc
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -3502,7 +3502,7 @@ newDoc
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -4732,7 +4732,7 @@ document
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

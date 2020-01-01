@@ -980,7 +980,7 @@ ownerDoc
 cont
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

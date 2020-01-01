@@ -15320,7 +15320,7 @@ doc
 aTargetElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

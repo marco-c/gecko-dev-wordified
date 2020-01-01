@@ -594,7 +594,7 @@ mDocument
 mTextParent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

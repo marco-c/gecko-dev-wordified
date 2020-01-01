@@ -731,7 +731,7 @@ sourceDoc
 node
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

@@ -1580,7 +1580,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1638,7 +1638,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1708,7 +1708,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1753,7 +1753,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -3129,7 +3129,7 @@ MaybeFireNodeRemoved
 (
 aOldChild
 this
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -3549,7 +3549,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -6376,7 +6376,7 @@ nsContentUtils
 :
 IsChromeDoc
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -6553,7 +6553,7 @@ nsIDocument
 >
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -7601,7 +7601,7 @@ doc
 parent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -8268,7 +8268,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -8475,7 +8475,7 @@ bindingDoc
 bindingParent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -10700,7 +10700,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -14235,7 +14235,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -14357,7 +14357,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -14479,7 +14479,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -14914,7 +14914,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -15037,7 +15037,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -16370,7 +16370,7 @@ nsIDocument
 *
 ownerDoc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -16816,7 +16816,7 @@ HasFlag
 NODE_FORCE_XBL_BINDINGS
 )
 ?
-GetOwnerDoc
+OwnerDoc
 (
 )
 :
@@ -17378,7 +17378,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -17847,12 +17847,12 @@ relatedTarget
 relatedTarget
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 =
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -18506,7 +18506,7 @@ nsIDocument
 *
 ownerDoc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -19641,7 +19641,7 @@ doc
 aParent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -19717,7 +19717,7 @@ NS_ASSERTION
 aParent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 =
@@ -20142,7 +20142,7 @@ this
 mozAutoSubtreeModified
 subtree
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 this
@@ -20880,7 +20880,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -22545,7 +22545,7 @@ MaybeFireNodeRemoved
 (
 aRefChild
 this
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -22595,7 +22595,7 @@ oldParent
 aNewChild
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -22651,7 +22651,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -23714,7 +23714,7 @@ nsIDocument
 *
 owner
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -24084,7 +24084,7 @@ doc
 tmp
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -24384,7 +24384,7 @@ ownerDoc
 tmp
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -24841,7 +24841,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -25010,7 +25010,7 @@ nsIDocument
 *
 ownerDoc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -26207,7 +26207,7 @@ nsIDocument
 *
 ownerDoc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -26456,7 +26456,7 @@ aModType
 mozAutoSubtreeModified
 subtree
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 this
@@ -27386,7 +27386,7 @@ nsIDocument
 *
 ownerDoc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -27549,7 +27549,7 @@ REMOVAL
 mozAutoSubtreeModified
 subtree
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 this
@@ -28261,7 +28261,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -30029,7 +30029,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -30197,7 +30197,7 @@ doc
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -30412,7 +30412,7 @@ eRelevantLinkUnvisited
 aRoot
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -30573,7 +30573,7 @@ eRelevantLinkUnvisited
 aRoot
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -30700,7 +30700,7 @@ nsRuleWalker
 :
 :
 eRelevantLinkUnvisited
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -31097,7 +31097,7 @@ if
 aOther
 |
 |
-GetOwnerDoc
+OwnerDoc
 (
 )
 !
@@ -31105,7 +31105,7 @@ GetOwnerDoc
 aOther
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 |
@@ -31176,7 +31176,7 @@ if
 this
 =
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

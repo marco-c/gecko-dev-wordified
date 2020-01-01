@@ -7240,7 +7240,7 @@ doc
 node
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

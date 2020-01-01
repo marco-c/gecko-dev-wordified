@@ -2531,7 +2531,7 @@ NS_ASSERTION
 aElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 |
@@ -2540,7 +2540,7 @@ GetOwnerDoc
 aElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -5964,7 +5964,7 @@ doc
 aRequestingNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -10670,7 +10670,7 @@ aNodeInfo
 ;
 NS_ASSERTION
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 =
@@ -14560,7 +14560,7 @@ focusedContent
 focusedContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 =
@@ -24986,7 +24986,7 @@ ownerDoc
 imported
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -27149,7 +27149,7 @@ doc
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -30418,7 +30418,7 @@ parent
 adoptedNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -30833,7 +30833,7 @@ oldDocument
 adoptedNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -31204,7 +31204,7 @@ NS_ASSERTION
 adoptedNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 =

@@ -457,7 +457,7 @@ mDocument
 mElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -570,7 +570,7 @@ shell
 mElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -

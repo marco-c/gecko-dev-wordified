@@ -3111,7 +3111,7 @@ doc
 aTargetNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

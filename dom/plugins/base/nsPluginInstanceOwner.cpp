@@ -1112,7 +1112,7 @@ DispatchTrustedEvent
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 mContent
@@ -3157,7 +3157,7 @@ aDocument
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -5246,7 +5246,7 @@ doc
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

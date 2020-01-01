@@ -11959,7 +11959,7 @@ MayHavePaintEventListener
 node
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -

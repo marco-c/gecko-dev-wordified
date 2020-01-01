@@ -3356,7 +3356,7 @@ gCaptureInfo
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 =

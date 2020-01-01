@@ -863,7 +863,7 @@ MODIFICATION
 /
 We
 need
-GetOwnerDoc
+OwnerDoc
 (
 )
 rather
@@ -891,7 +891,7 @@ return
 mElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1143,7 +1143,7 @@ doc
 mElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

@@ -3097,7 +3097,7 @@ DispatchTrustedEvent
 node
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 node

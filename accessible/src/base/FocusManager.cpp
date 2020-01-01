@@ -626,7 +626,7 @@ if
 focusedNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 =
@@ -639,7 +639,7 @@ GetNode
 )
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -909,7 +909,7 @@ GetDocAccessible
 targetNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -1072,7 +1072,7 @@ targetNode
 targetNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 =
@@ -1089,7 +1089,7 @@ DOMDoc
 targetNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1341,7 +1341,7 @@ GetDocAccessible
 focusedNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -1481,7 +1481,7 @@ GetDocAccessible
 aTarget
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

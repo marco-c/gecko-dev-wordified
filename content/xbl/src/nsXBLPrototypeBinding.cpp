@@ -5020,7 +5020,7 @@ doc
 aBoundElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

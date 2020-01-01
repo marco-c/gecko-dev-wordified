@@ -27248,7 +27248,7 @@ document
 aParent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

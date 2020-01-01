@@ -1573,13 +1573,13 @@ GetParent
 =
 =
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 &
 &
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 -

@@ -1367,7 +1367,7 @@ doc
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1947,7 +1947,7 @@ UninstallAnonymousContent
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 mContent
@@ -2087,7 +2087,7 @@ tmp
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 tmp
@@ -3600,7 +3600,7 @@ document
 insParent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -4129,7 +4129,7 @@ doc
 mBoundElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -5415,7 +5415,7 @@ IsChromeDoc
 mBoundElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -8750,7 +8750,7 @@ mBoundElement
 mBoundElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 :

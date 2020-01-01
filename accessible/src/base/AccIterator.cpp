@@ -2735,7 +2735,7 @@ do_QueryInterface
 aContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -2760,7 +2760,7 @@ mDocument
 aContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

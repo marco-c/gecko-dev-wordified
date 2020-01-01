@@ -3667,7 +3667,7 @@ doc
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

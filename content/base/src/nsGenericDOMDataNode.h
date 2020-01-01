@@ -1208,7 +1208,7 @@ events
 mozAutoSubtreeModified
 subtree
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 nsnull

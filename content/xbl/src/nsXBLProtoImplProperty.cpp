@@ -970,7 +970,7 @@ ownerDoc
 aBoundElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

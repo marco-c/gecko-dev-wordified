@@ -32813,7 +32813,7 @@ doc
 node
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -34236,7 +34236,7 @@ NODE_FORCE_XBL_BINDINGS
 element
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 :
@@ -34498,7 +34498,7 @@ doc
 element
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -34917,7 +34917,7 @@ doc
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -37692,7 +37692,7 @@ GetElement
 )
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

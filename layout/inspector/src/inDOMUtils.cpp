@@ -1723,7 +1723,7 @@ ownerDoc
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

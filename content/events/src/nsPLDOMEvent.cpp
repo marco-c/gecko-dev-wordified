@@ -667,7 +667,7 @@ doc
 mEventNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

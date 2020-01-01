@@ -8066,7 +8066,7 @@ DispatchTrustedEvent
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 mContent

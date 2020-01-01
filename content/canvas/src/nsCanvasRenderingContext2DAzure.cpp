@@ -3228,7 +3228,7 @@ ownerDoc
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -5504,7 +5504,7 @@ HTMLCanvasElement
 )
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 :
@@ -5699,7 +5699,7 @@ HTMLCanvasElement
 )
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 :
@@ -6356,7 +6356,7 @@ ownerDoc
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -9937,7 +9937,7 @@ HTMLCanvasElement
 )
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 :
@@ -13694,7 +13694,7 @@ document
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -20773,7 +20773,7 @@ HTMLCanvasElement
 )
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 :
