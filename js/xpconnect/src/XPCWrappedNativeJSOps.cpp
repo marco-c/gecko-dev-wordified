@@ -8225,8 +8225,6 @@ Construct
 XPCCallContext
 &
 ccx
-JSBool
-isGlobal
 const
 XPCNativeScriptableCreateInfo
 *
@@ -8370,7 +8368,6 @@ GetFlags
 (
 )
 name
-isGlobal
 sci
 -
 >
@@ -8404,8 +8401,6 @@ XPCNativeScriptableShared
 :
 PopulateJSClass
 (
-JSBool
-isGlobal
 )
 {
 NS_ASSERTION
@@ -8436,7 +8431,11 @@ JSCLASS_NEW_RESOLVE
 ;
 if
 (
-isGlobal
+mFlags
+.
+IsGlobalObject
+(
+)
 )
 mJSClass
 .

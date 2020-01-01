@@ -24421,7 +24421,6 @@ ccx
 helper
 aScope
 iface
-OBJ_IS_NOT_GLOBAL
 getter_AddRefs
 (
 wrapper

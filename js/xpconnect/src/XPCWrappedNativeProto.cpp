@@ -651,8 +651,6 @@ Init
 XPCCallContext
 &
 ccx
-JSBool
-isGlobal
 const
 XPCNativeScriptableCreateInfo
 *
@@ -687,7 +685,6 @@ XPCNativeScriptableInfo
 Construct
 (
 ccx
-isGlobal
 scriptableCreateInfo
 )
 ;
@@ -1136,8 +1133,6 @@ const
 XPCNativeScriptableCreateInfo
 *
 scriptableCreateInfo
-JSBool
-isGlobal
 QITableEntry
 *
 offsets
@@ -1321,7 +1316,6 @@ proto
 Init
 (
 ccx
-isGlobal
 scriptableCreateInfo
 )
 )
