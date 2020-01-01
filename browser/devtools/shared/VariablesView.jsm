@@ -146,7 +146,8 @@ jsm
 '
 )
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -241,6 +242,10 @@ view
 .
 *
 /
+this
+.
+VariablesView
+=
 function
 VariablesView
 (
