@@ -28322,6 +28322,16 @@ GetContainer
 (
 )
 {
+if
+(
+mType
+!
+=
+eStyleImageType_Image
+)
+return
+nsnull
+;
 nsCOMPtr
 <
 imgIContainer
