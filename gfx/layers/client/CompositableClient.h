@@ -154,6 +154,9 @@ CompositableForwarder
 class
 CompositableChild
 ;
+class
+SurfaceDescriptor
+;
 /
 *
 *

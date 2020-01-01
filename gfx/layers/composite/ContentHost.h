@@ -489,6 +489,15 @@ LAYER_RENDER_STATE_BUFFER_ROTATION
 :
 0
 ;
+result
+.
+SetOffset
+(
+GetOriginOffset
+(
+)
+)
+;
 return
 result
 ;

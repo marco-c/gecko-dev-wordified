@@ -1623,6 +1623,7 @@ GetIdentifier
 )
 ;
 }
+virtual
 LayerRenderState
 GetRenderState
 (
@@ -1631,14 +1632,6 @@ GetRenderState
 return
 LayerRenderState
 (
-mBuffer
-mFlags
-&
-NeedsYFlip
-?
-LAYER_RENDER_STATE_Y_FLIPPED
-:
-0
 )
 ;
 }
