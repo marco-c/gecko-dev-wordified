@@ -2712,14 +2712,6 @@ NS_AFTERPAINT
 (
 NS_NOTIFYPAINT_START
 )
-#
-define
-NS_BEFOREPAINT
-(
-NS_NOTIFYPAINT_START
-+
-1
-)
 /
 /
 Simple
@@ -3362,7 +3354,7 @@ the
 message
 was
 created
-PRUint64
+PRUint32
 time
 ;
 /
