@@ -1881,7 +1881,6 @@ fun
 )
 ;
 extern
-JS_REQUIRES_STACK
 JSObject
 *
 js_CloneFunctionObject
