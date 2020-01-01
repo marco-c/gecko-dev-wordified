@@ -14430,13 +14430,6 @@ aX
 aY
 )
 {
-if
-(
-!
-this
-.
-clickPrevented
-)
 this
 .
 _dispatchMouseEvent
