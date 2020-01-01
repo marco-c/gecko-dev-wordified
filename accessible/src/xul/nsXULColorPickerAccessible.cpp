@@ -714,6 +714,14 @@ nsAString
 _retval
 )
 {
+if
+(
+!
+mDOMNode
+)
+return
+NS_ERROR_FAILURE
+;
 nsCOMPtr
 <
 nsIDOMElement
