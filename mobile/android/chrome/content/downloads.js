@@ -1175,6 +1175,7 @@ this
 _progressAlert
 )
 ;
+}
 NativeWindow
 .
 toast
@@ -1196,7 +1197,6 @@ long
 "
 )
 ;
-}
 }
 else
 if
