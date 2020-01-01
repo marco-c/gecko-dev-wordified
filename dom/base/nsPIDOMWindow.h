@@ -510,6 +510,13 @@ nsEvent
 h
 "
 #
+include
+"
+nsIURI
+.
+h
+"
+#
 define
 DOM_WINDOW_DESTROYED_TOPIC
 "
@@ -2883,6 +2890,12 @@ virtual
 nsresult
 DispatchAsyncHashchange
 (
+nsIURI
+*
+aOldURI
+nsIURI
+*
+aNewURI
 )
 =
 0

@@ -2019,6 +2019,10 @@ PopStateEvent
 )
 DOMCI_CLASS
 (
+HashChangeEvent
+)
+DOMCI_CLASS
+(
 EventListenerInfo
 )
 DOMCI_CLASS
