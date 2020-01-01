@@ -1937,6 +1937,14 @@ finishAtom
 (
 )
 ;
+if
+(
+!
+atom
+)
+return
+NULL
+;
 fun
 -
 >
