@@ -817,7 +817,7 @@ arguments
 ;
 window
 .
-_content
+content
 .
 focus
 (

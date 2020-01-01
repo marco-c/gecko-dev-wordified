@@ -1851,7 +1851,7 @@ true
 ;
 window
 .
-_content
+content
 .
 focus
 (
@@ -1940,7 +1940,7 @@ bar
 .
 window
 .
-_content
+content
 .
 getSelection
 (
@@ -2477,7 +2477,7 @@ viewsource
 =
 window
 .
-_content
+content
 .
 document
 .
@@ -2671,7 +2671,7 @@ selection
 =
 window
 .
-_content
+content
 .
 getSelection
 (
@@ -3071,7 +3071,7 @@ selection
 =
 window
 .
-_content
+content
 .
 getSelection
 (
@@ -3446,7 +3446,7 @@ treewalker
 =
 window
 .
-_content
+content
 .
 document
 .
@@ -4048,7 +4048,7 @@ myWrap
 =
 window
 .
-_content
+content
 .
 document
 .
