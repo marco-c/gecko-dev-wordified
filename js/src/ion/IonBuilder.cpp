@@ -9791,6 +9791,7 @@ addPredecessor
 current
 )
 ;
+}
 /
 /
 Insert
@@ -9812,7 +9813,6 @@ moveBlockToEnd
 successor
 )
 ;
-}
 /
 /
 If
