@@ -1430,7 +1430,7 @@ callback
 =
 function
 (
-aType
+aContactType
 aContacts
 )
 {
@@ -1447,7 +1447,7 @@ contacts
 :
 "
 +
-aType
+aContactType
 +
 "
 "
@@ -1495,7 +1495,7 @@ msg
 .
 options
 .
-type
+contactType
 callback
 )
 ;

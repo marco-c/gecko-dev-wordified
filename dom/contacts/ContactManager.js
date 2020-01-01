@@ -3831,7 +3831,7 @@ getSimContacts
 :
 function
 (
-aType
+aContactType
 )
 {
 let
@@ -3849,9 +3849,9 @@ let
 options
 =
 {
-type
+contactType
 :
-aType
+aContactType
 }
 ;
 let
@@ -3871,7 +3871,7 @@ debug
 getSimContacts
 "
 +
-aType
+aContactType
 )
 ;
 cpmm
