@@ -405,6 +405,15 @@ bool
 DoRequest
 (
 const
+RetrieveMessageRequest
+&
+aRequest
+)
+;
+bool
+DoRequest
+(
+const
 GetMessageRequest
 &
 aRequest
