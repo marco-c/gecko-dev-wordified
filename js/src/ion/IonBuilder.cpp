@@ -22297,6 +22297,17 @@ ThisTypes
 calleeScript
 )
 ;
+if
+(
+!
+types
+-
+>
+unknown
+(
+)
+)
+{
 MTypeBarrier
 *
 barrier
@@ -22358,6 +22369,7 @@ setThis
 unbox
 )
 ;
+}
 }
 /
 /
