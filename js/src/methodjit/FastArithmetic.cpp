@@ -7538,7 +7538,7 @@ path
 /
 frame
 .
-ensureValueSynced
+syncEntry
 (
 stubcc
 .
@@ -7549,7 +7549,7 @@ lvr
 ;
 frame
 .
-ensureValueSynced
+syncEntry
 (
 stubcc
 .
