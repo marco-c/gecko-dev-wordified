@@ -347,6 +347,8 @@ cairo
 -
 paginated
 -
+surface
+-
 private
 .
 h

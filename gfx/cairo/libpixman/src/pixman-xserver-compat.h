@@ -373,7 +373,7 @@ libpixman
 #
 include
 "
-pixmanint
+icint
 .
 h
 "
@@ -716,7 +716,7 @@ horrible
 mess
 that
 is
-pixmanint
+icint
 .
 h
 .

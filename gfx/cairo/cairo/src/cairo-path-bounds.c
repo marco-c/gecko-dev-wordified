@@ -388,7 +388,7 @@ bounder
 )
 ;
 static
-void
+cairo_status_t
 _cairo_path_bounder_add_point
 (
 cairo_path_bounder_t
@@ -485,7 +485,7 @@ has_point
 ;
 }
 static
-void
+cairo_status_t
 _cairo_path_bounder_add_point
 (
 cairo_path_bounder_t
@@ -643,6 +643,9 @@ has_point
 1
 ;
 }
+return
+CAIRO_STATUS_SUCCESS
+;
 }
 static
 cairo_status_t
