@@ -4175,6 +4175,8 @@ slots
 if
 (
 length
+>
+0
 )
 {
 if
