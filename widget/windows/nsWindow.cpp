@@ -3842,6 +3842,11 @@ WinUtils
 :
 :
 WIN7_VERSION
+&
+&
+HasBogusPopupsDropShadowOnMultiMonitor
+(
+)
 )
 {
 extendedStyle
