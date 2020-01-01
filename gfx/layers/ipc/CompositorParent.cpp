@@ -4255,11 +4255,9 @@ mTargetConfig
 =
 aTargetConfig
 ;
-if
-(
 ContainerLayer
 *
-root
+rootContainer
 =
 aRoot
 -
@@ -4267,6 +4265,10 @@ aRoot
 AsContainerLayer
 (
 )
+;
+if
+(
+rootContainer
 )
 {
 if
@@ -4288,7 +4290,7 @@ apzc
 >
 NotifyLayersUpdated
 (
-root
+rootContainer
 -
 >
 GetFrameMetrics
