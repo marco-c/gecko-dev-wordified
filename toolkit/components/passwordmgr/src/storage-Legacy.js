@@ -3398,15 +3398,6 @@ realmFormat
 ?
 /
 ;
-/
-/
-XXX
-.
-*
-or
-.
-+
-?
 var
 matches
 =
