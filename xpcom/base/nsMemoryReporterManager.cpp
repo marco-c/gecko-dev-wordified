@@ -3059,7 +3059,7 @@ GetAtomTableSize
 )
 {
 return
-NS_SizeOfAtomTableIncludingThis
+NS_SizeOfAtomTablesIncludingThis
 (
 AtomTableMallocSizeOf
 )
@@ -3144,7 +3144,7 @@ explicit
 /
 atom
 -
-table
+tables
 "
 KIND_HEAP
 UNITS_BYTES
@@ -3154,8 +3154,11 @@ Memory
 used
 by
 the
+dynamic
+and
+static
 atoms
-table
+tables
 .
 "
 )
