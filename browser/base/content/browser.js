@@ -3441,6 +3441,11 @@ popupBlock
 uri
 .
 host
+|
+|
+uri
+.
+spec
 ]
 )
 ;
@@ -3494,6 +3499,11 @@ popupAllow
 uri
 .
 host
+|
+|
+uri
+.
+spec
 ]
 )
 ;
