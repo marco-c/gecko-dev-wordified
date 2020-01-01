@@ -30745,7 +30745,10 @@ runtime
 >
 atomState
 .
-undefinedAtom
+typeAtoms
+[
+JSTYPE_VOID
+]
 )
 return
 pushConstant

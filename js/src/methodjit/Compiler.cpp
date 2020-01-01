@@ -45770,7 +45770,10 @@ runtime
 >
 atomState
 .
-undefinedAtom
+typeAtoms
+[
+JSTYPE_VOID
+]
 )
 {
 frame

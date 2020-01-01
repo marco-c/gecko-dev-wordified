@@ -637,7 +637,10 @@ runtime
 >
 atomState
 .
-undefinedAtom
+typeAtoms
+[
+JSTYPE_VOID
+]
 )
 ;
 }
