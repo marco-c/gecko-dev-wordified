@@ -1140,6 +1140,18 @@ Panel
 "
 )
 ;
+/
+*
+*
+-
+disabled
+see
+bug
+632347
+c
+#
+9
+*
 ok
 (
 find
@@ -1151,6 +1163,7 @@ Window
 "
 true
 )
+*
 "
 window
 .
@@ -1165,6 +1178,8 @@ Panel
 "
 )
 ;
+*
+/
 panel
 .
 destroy
