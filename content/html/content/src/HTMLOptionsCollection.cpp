@@ -611,8 +611,14 @@ WrapObject
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aScope
 )
 {

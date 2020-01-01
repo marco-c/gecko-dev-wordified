@@ -2592,8 +2592,14 @@ WrapObject
 (
 JSContext
 *
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 )
 ;
 template
