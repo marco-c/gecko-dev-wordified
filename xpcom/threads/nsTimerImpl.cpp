@@ -461,8 +461,7 @@ thread
 and
 freed
 on
-the
-main
+another
 thread
 .
 Since
