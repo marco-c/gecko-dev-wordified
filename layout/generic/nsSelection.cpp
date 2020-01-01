@@ -7984,6 +7984,7 @@ newRange
 new
 nsRange
 (
+aNewFocus
 )
 ;
 newRange
@@ -15656,6 +15657,7 @@ range
 new
 nsRange
 (
+aParentNode
 )
 ;
 /
@@ -17751,6 +17753,12 @@ postOverlap
 new
 nsRange
 (
+aSubtract
+-
+>
+GetEndParent
+(
+)
 )
 ;
 rv
@@ -17895,6 +17903,12 @@ preOverlap
 new
 nsRange
 (
+range
+-
+>
+GetStartParent
+(
+)
 )
 ;
 nsresult
@@ -24660,6 +24674,7 @@ range
 new
 nsRange
 (
+aParentNode
 )
 ;
 result
@@ -25974,6 +25989,7 @@ difRange
 new
 nsRange
 (
+aParentNode
 )
 ;
 if
