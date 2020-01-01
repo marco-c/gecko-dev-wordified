@@ -230,7 +230,7 @@ return
 a11y
 :
 :
-eHTMLRadioButton
+eHTMLRadioButtonType
 ;
 }
 #

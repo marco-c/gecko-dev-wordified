@@ -2312,7 +2312,7 @@ return
 a11y
 :
 :
-eHTMLCombobox
+eHTMLComboboxType
 ;
 }
 #

@@ -3699,7 +3699,7 @@ return
 a11y
 :
 :
-eHTMLGroupbox
+eHTMLGroupboxType
 ;
 }
 #

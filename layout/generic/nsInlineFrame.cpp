@@ -6373,7 +6373,7 @@ return
 a11y
 :
 :
-eHTMLButton
+eHTMLButtonType
 ;
 if
 (
@@ -6398,7 +6398,7 @@ return
 a11y
 :
 :
-eImage
+eImageType
 ;
 if
 (
@@ -6422,7 +6422,7 @@ return
 a11y
 :
 :
-eHTMLLabel
+eHTMLLabelType
 ;
 return
 a11y

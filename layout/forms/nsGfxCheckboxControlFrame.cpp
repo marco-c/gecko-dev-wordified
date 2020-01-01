@@ -712,7 +712,7 @@ return
 a11y
 :
 :
-eHTMLCheckbox
+eHTMLCheckboxType
 ;
 }
 #
