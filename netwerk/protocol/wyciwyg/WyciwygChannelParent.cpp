@@ -853,14 +853,6 @@ NeckoParent
 CreateChannelLoadContext
 (
 aParent
-Manager
-(
-)
--
->
-Manager
-(
-)
 loadContext
 mLoadContext
 )

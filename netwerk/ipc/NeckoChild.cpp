@@ -1053,6 +1053,8 @@ AllocPRemoteOpenFileChild
 const
 URIParams
 &
+PBrowserChild
+*
 )
 {
 /
