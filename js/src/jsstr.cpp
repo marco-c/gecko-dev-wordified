@@ -550,6 +550,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -8137,7 +8146,7 @@ false
 if
 (
 !
-JSDOUBLE_IS_NaN
+MOZ_DOUBLE_IS_NaN
 (
 d
 )
@@ -21430,7 +21439,7 @@ isDouble
 )
 &
 &
-JSDOUBLE_IS_NEGZERO
+MOZ_DOUBLE_IS_NEGATIVE_ZERO
 (
 v
 .

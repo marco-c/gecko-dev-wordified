@@ -457,6 +457,15 @@ include
 "
 mozilla
 /
+FloatingPoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -783,7 +792,7 @@ toDouble
 ;
 if
 (
-JSDOUBLE_IS_NaN
+MOZ_DOUBLE_IS_NaN
 (
 d
 )
@@ -10128,7 +10137,7 @@ ArrayTypeIsFloatingPoint
 &
 JS_UNLIKELY
 (
-JSDOUBLE_IS_NaN
+MOZ_DOUBLE_IS_NaN
 (
 d
 )
@@ -12457,7 +12466,7 @@ if
 (
 JS_UNLIKELY
 (
-JSDOUBLE_IS_NaN
+MOZ_DOUBLE_IS_NaN
 (
 dval
 )
@@ -12578,7 +12587,7 @@ if
 (
 JS_UNLIKELY
 (
-JSDOUBLE_IS_NaN
+MOZ_DOUBLE_IS_NaN
 (
 val
 )

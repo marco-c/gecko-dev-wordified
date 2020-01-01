@@ -437,6 +437,15 @@ implementation
 #
 include
 "
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h
@@ -1493,7 +1502,7 @@ toDouble
 ;
 return
 !
-JSDOUBLE_IS_NaN
+MOZ_DOUBLE_IS_NaN
 (
 d
 )

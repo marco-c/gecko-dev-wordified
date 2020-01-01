@@ -459,6 +459,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
+"
 Key
 .
 h
@@ -1339,7 +1348,7 @@ aVal
 ;
 if
 (
-DOUBLE_IS_NaN
+MOZ_DOUBLE_IS_NaN
 (
 d
 )

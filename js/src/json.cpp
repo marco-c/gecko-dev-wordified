@@ -454,6 +454,15 @@ BLOCK
 /
 #
 include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
 <
 string
 .
@@ -4129,7 +4138,7 @@ isDouble
 if
 (
 !
-JSDOUBLE_IS_FINITE
+MOZ_DOUBLE_IS_FINITE
 (
 v
 .
