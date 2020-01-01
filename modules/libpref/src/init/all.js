@@ -3877,7 +3877,7 @@ module
 pref
 (
 "
-toolkit
+dom
 .
 identity
 .
