@@ -510,6 +510,8 @@ aCx
 JSObject
 *
 aObj
+bool
+aIsUpload
 const
 StateData
 &
