@@ -636,6 +636,8 @@ SAFE_COMPARE_EVEN_WITH_WRAPPING
 nowTime
 gLastInputEventTime
 )
+/
+1000
 ;
 #
 endif
