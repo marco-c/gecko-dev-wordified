@@ -216,6 +216,17 @@ run_test
 (
 )
 {
+/
+/
+XXX
+test
+disabled
+due
+to
+bug
+421790
+return
+;
 test_full
 (
 )
