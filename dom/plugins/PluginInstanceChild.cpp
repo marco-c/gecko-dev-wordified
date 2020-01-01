@@ -2221,6 +2221,8 @@ AssertPluginThread
 NPObject
 *
 object
+=
+nsnull
 ;
 NPError
 result
@@ -2335,6 +2337,13 @@ actor
 "
 )
 ;
+result
+=
+NPERR_GENERIC_ERROR
+;
+}
+else
+{
 result
 =
 NPERR_GENERIC_ERROR
