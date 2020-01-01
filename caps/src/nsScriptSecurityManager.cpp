@@ -13833,10 +13833,6 @@ XPConnect
 SetDefaultSecurityManager
 (
 ssManager
-nsIXPCSecurityManager
-:
-:
-HOOK_ALL
 )
 ;
 if

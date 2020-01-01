@@ -4034,16 +4034,6 @@ return
 mDefaultSecurityManager
 ;
 }
-uint16_t
-GetDefaultSecurityManagerFlags
-(
-)
-const
-{
-return
-mDefaultSecurityManagerFlags
-;
-}
 /
 /
 This
@@ -4343,9 +4333,6 @@ mRuntime
 nsIXPCSecurityManager
 *
 mDefaultSecurityManager
-;
-uint16_t
-mDefaultSecurityManagerFlags
 ;
 JSBool
 mShuttingDown
