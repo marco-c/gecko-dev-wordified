@@ -753,6 +753,10 @@ nsRect
 &
 documentRect
 const
+gfxMatrix
+&
+transform
+const
 nsString
 &
 bgcolor
@@ -971,6 +975,14 @@ new
 gfxContext
 (
 surf
+)
+;
+ctx
+-
+>
+SetMatrix
+(
+transform
 )
 ;
 presShell

@@ -3029,6 +3029,10 @@ nsRect
 &
 documentRect
 const
+gfxMatrix
+&
+transform
+const
 nsString
 &
 bgcolor
@@ -3080,6 +3084,10 @@ const
 nsRect
 &
 documentRect
+const
+gfxMatrix
+&
+transform
 const
 nsString
 &
@@ -3181,6 +3189,7 @@ RenderDocument
 (
 window
 documentRect
+transform
 bgcolor
 renderFlags
 flushLayout
