@@ -522,6 +522,13 @@ Attributes
 h
 "
 #
+include
+"
+nsIDOMXPathEvaluator
+.
+h
+"
+#
 define
 XML_DECLARATION_BITS_DECLARATION_EXISTS
 (
@@ -2656,6 +2663,8 @@ public
 nsStubMutationObserver
 public
 nsIObserver
+public
+nsIDOMXPathEvaluator
 {
 public
 :
@@ -4304,6 +4313,7 @@ NS_DECL_NSIAPPLICATIONCACHECONTAINER
 /
 nsIObserver
 NS_DECL_NSIOBSERVER
+NS_DECL_NSIDOMXPATHEVALUATOR
 virtual
 nsresult
 Init
@@ -7839,12 +7849,6 @@ nsDocument
 &
 aOther
 )
-;
-nsCOMPtr
-<
-nsISupports
->
-mXPathEvaluatorTearoff
 ;
 /
 /
