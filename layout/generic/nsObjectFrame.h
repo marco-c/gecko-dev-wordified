@@ -837,6 +837,14 @@ StopPlugin
 (
 )
 ;
+virtual
+void
+SetIsDocumentActive
+(
+PRBool
+aIsActive
+)
+;
 /
 *
 *

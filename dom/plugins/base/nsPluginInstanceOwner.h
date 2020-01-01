@@ -1356,6 +1356,13 @@ PRBool
 aVisible
 )
 ;
+void
+UpdateDocumentActiveState
+(
+PRBool
+aIsActive
+)
+;
 #
 endif
 /
@@ -2079,6 +2086,9 @@ mFlash10Quirks
 endif
 PRPackedBool
 mPluginWindowVisible
+;
+PRPackedBool
+mPluginDocumentActiveState
 ;
 /
 /
