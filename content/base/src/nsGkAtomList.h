@@ -3387,6 +3387,13 @@ kbd
 )
 GK_ATOM
 (
+noautofocus
+"
+noautofocus
+"
+)
+GK_ATOM
+(
 key
 "
 key

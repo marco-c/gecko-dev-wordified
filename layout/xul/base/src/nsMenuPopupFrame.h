@@ -537,14 +537,6 @@ nsITimer
 .
 h
 "
-enum
-nsPopupType
-{
-ePopupTypePanel
-ePopupTypeMenu
-ePopupTypeTooltip
-}
-;
 /
 /
 XUL
@@ -1760,7 +1752,7 @@ Enter
 (
 )
 ;
-PRInt32
+nsPopupType
 PopupType
 (
 )
