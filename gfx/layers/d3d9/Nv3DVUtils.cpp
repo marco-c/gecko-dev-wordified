@@ -881,7 +881,7 @@ m3DVStreaming
 >
 Nv3DVControl
 (
-STEREO_MODE_RIGHT_LEFT
+NV_STEREO_MODE_RIGHT_LEFT
 true
 FIREFOX_3DV_APP_HANDLE
 )
@@ -929,7 +929,7 @@ Nv3DVUtils
 :
 SendNv3DVControl
 (
-Stereo_Mode
+Nv_Stereo_Mode
 eStereoMode
 bool
 bEnableStereo

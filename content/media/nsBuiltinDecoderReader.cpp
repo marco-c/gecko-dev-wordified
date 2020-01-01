@@ -1349,6 +1349,14 @@ mPicture
 height
 )
 ;
+data
+.
+mStereoMode
+=
+aInfo
+.
+mStereoMode
+;
 videoImage
 -
 >
