@@ -1630,6 +1630,12 @@ flags
 NS_MATHML_DISPLAYSTYLE
 ;
 }
+aPresentationData
+.
+mstyle
+=
+frame
+;
 break
 ;
 }
