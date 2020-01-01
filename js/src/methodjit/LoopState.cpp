@@ -1435,16 +1435,9 @@ if
 !
 alloc
 )
-{
-js_ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;
-}
 this
 -
 >
