@@ -15894,11 +15894,6 @@ buffer
 housing
 the
 instructions
-const
-Config
-&
-_config
-;
 public
 :
 LirBufWriter
@@ -15906,10 +15901,6 @@ LirBufWriter
 LirBuffer
 *
 buf
-const
-Config
-&
-config
 )
 :
 LirWriter
@@ -15919,10 +15910,6 @@ LirWriter
 _buf
 (
 buf
-)
-_config
-(
-config
 )
 {
 }

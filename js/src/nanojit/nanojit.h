@@ -790,13 +790,6 @@ definitions
 -
 *
 /
-typedef
-avmplus
-:
-:
-AvmCore
-AvmCore
-;
 const
 uint32_t
 MAXARGS

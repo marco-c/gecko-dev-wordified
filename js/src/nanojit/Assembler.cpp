@@ -624,9 +624,6 @@ dataAlloc
 Allocator
 &
 alloc
-AvmCore
-*
-core
 LogControl
 *
 logc
@@ -714,7 +711,6 @@ config
 {
 nInit
 (
-core
 )
 ;
 (

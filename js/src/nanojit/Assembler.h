@@ -2063,9 +2063,6 @@ dataAlloc
 Allocator
 &
 alloc
-AvmCore
-*
-core
 LogControl
 *
 logc
@@ -3701,8 +3698,6 @@ file
 void
 nInit
 (
-AvmCore
-*
 )
 ;
 void

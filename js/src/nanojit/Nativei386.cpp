@@ -11356,8 +11356,6 @@ Assembler
 :
 nInit
 (
-AvmCore
-*
 )
 {
 nHints

@@ -9903,11 +9903,6 @@ Assembler
 :
 nInit
 (
-avmplus
-:
-:
-AvmCore
-*
 )
 {
 int
