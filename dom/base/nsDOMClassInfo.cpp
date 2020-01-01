@@ -3138,7 +3138,7 @@ h
 #
 include
 "
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 .
 h
 "
@@ -12309,6 +12309,10 @@ DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMHTMLSelectElement
 )
+DOM_CLASSINFO_MAP_ENTRY
+(
+nsIDOMHTMLSelectElement_Mozilla_2_0_Branch
+)
 DOM_CLASSINFO_GENERIC_HTML_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN_NO_CLASS_IF
@@ -15628,11 +15632,11 @@ DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN
 (
 CanvasRenderingContextWebGL
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 )
 DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN
