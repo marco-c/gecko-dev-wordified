@@ -11635,6 +11635,8 @@ descriptor
 JSObject
 *
 desc
+;
+desc
 =
 js_NewObject
 (
