@@ -353,6 +353,9 @@ Element
 >
 mGlyphIdMap
 ;
+nsAutoCString
+mSVGGlyphsDocumentURI
+;
 }
 ;
 /
