@@ -1998,7 +1998,7 @@ aOutWidget
 frame
 -
 >
-GetWindowOffset
+GetNearestWidget
 (
 offset
 )

@@ -10263,7 +10263,7 @@ aResult
 frame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;

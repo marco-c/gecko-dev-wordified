@@ -8243,7 +8243,7 @@ widget
 aFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;

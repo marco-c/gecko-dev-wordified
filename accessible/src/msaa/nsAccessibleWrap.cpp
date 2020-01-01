@@ -2144,7 +2144,7 @@ GetScrolledFrame
 )
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 -
@@ -10616,7 +10616,7 @@ window
 frame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;
@@ -10821,7 +10821,7 @@ HWND
 frame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 -

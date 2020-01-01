@@ -1200,7 +1200,7 @@ mFocusedWidget
 frame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;
@@ -5200,7 +5200,7 @@ rootWidget
 rootFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;
@@ -5311,7 +5311,7 @@ rootWidget
 rootFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;

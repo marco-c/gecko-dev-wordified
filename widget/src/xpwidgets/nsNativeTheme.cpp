@@ -2745,7 +2745,7 @@ parentBounds
 aFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 -
@@ -2758,7 +2758,7 @@ selfBounds
 parent
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 -

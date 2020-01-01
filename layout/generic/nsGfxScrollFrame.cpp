@@ -10719,7 +10719,7 @@ GetRootFrame
 )
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 =
@@ -11311,7 +11311,7 @@ nearestWidget
 presContextRootFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 )

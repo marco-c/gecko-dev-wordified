@@ -1491,7 +1491,7 @@ nsIWidget
 *
 window
 =
-GetWindow
+GetNearestWidget
 (
 )
 ;
@@ -1539,7 +1539,7 @@ nsIWidget
 *
 window
 =
-GetWindow
+GetNearestWidget
 (
 )
 ;

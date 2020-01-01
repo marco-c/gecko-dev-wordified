@@ -33667,7 +33667,7 @@ rootFrame
 )
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;

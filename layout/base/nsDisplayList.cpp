@@ -2884,7 +2884,7 @@ window
 referenceFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;

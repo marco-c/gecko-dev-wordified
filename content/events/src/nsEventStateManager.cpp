@@ -4268,7 +4268,7 @@ widget
 sTargetFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 )
@@ -10890,7 +10890,7 @@ targetWidget
 mCurrentTarget
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 )
@@ -11476,7 +11476,7 @@ widget
 mCurrentTarget
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 "
@@ -12051,7 +12051,7 @@ widget
 mCurrentTarget
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;
@@ -19438,7 +19438,7 @@ widget
 mCurrentTarget
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;
@@ -20296,7 +20296,7 @@ hotspotY
 aTargetFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 PR_FALSE
@@ -22230,7 +22230,7 @@ GetTopLevelWidget
 mLastMouseOverFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 )

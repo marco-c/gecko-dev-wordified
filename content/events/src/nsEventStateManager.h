@@ -2287,7 +2287,7 @@ be
 mCurrentTarget
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 .
