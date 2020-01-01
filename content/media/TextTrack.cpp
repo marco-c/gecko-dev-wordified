@@ -286,7 +286,7 @@ TextTrack
 Update
 (
 double
-time
+aTime
 )
 {
 mCueList
@@ -294,7 +294,7 @@ mCueList
 >
 Update
 (
-time
+aTime
 )
 ;
 }
