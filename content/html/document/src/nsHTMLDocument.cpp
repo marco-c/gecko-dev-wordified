@@ -17598,6 +17598,11 @@ IsEditingOn
 )
 )
 {
+EditingState
+oldState
+=
+mEditingState
+;
 mEditingState
 =
 eTearingDown
@@ -17643,7 +17648,7 @@ css
 ;
 if
 (
-mEditingState
+oldState
 =
 =
 eDesignMode
@@ -18088,6 +18093,11 @@ nsIEditor
 editor
 ;
 {
+EditingState
+oldState
+=
+mEditingState
+;
 nsAutoEditingState
 push
 (
@@ -18363,7 +18373,7 @@ PR_TRUE
 ;
 spellRecheckAll
 =
-mEditingState
+oldState
 =
 =
 eContentEditable
@@ -18372,7 +18382,7 @@ eContentEditable
 else
 if
 (
-mEditingState
+oldState
 =
 =
 eDesignMode
