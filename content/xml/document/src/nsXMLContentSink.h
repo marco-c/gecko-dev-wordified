@@ -1124,9 +1124,6 @@ mText
 XMLContentSinkState
 mState
 ;
-nsString
-mTitleText
-;
 PRInt32
 mTextLength
 ;
