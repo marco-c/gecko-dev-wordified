@@ -505,6 +505,7 @@ getElementById
 [
 false
 "
+(
 function
 (
 )
@@ -513,6 +514,7 @@ return
 42
 ;
 }
+)
 "
 "
 function
