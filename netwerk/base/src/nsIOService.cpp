@@ -1061,10 +1061,6 @@ mChannelEventSinks
 (
 NS_CHANNEL_EVENT_SINK_CATEGORY
 )
-mContentSniffers
-(
-NS_CONTENT_SNIFFER_CATEGORY
-)
 mAutoDialEnabled
 (
 false
