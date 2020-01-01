@@ -337,7 +337,7 @@ forget
 static
 already_AddRefed
 <
-nsDOMEvent
+IDBVersionChangeEvent
 >
 IDBVersionChangeEvent
 :
