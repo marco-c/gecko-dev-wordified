@@ -483,6 +483,13 @@ nsAString
 .
 h
 "
+#
+include
+"
+nsTraceRefcnt
+.
+h
+"
 class
 nsString
 ;
@@ -773,6 +780,11 @@ mAllBits
 0
 )
 {
+MOZ_COUNT_CTOR
+(
+nsTextFragment
+)
+;
 NS_ASSERTION
 (
 sizeof

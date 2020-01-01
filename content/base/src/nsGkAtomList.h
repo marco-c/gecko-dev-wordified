@@ -1672,6 +1672,13 @@ clip
 )
 GK_ATOM
 (
+clonedTextForPrint
+"
+clonedTextForPrint
+"
+)
+GK_ATOM
+(
 close
 "
 close
