@@ -528,14 +528,6 @@ catch
 ex
 )
 {
-print
-(
-ex
-+
-'
-'
-)
-;
 actual
 =
 ex

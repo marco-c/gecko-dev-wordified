@@ -510,11 +510,6 @@ ex
 '
 '
 ;
-print
-(
-ex
-)
-;
 }
 reportCompare
 (

@@ -250,14 +250,6 @@ catch
 ex
 )
 {
-print
-(
-ex
-+
-'
-'
-)
-;
 }
 expect
 =

@@ -297,11 +297,6 @@ PASS
 "
 )
 ;
-print
-(
-e
-)
-;
 }
 actual
 =

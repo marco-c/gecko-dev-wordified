@@ -389,14 +389,6 @@ catch
 ex
 )
 {
-print
-(
-ex
-+
-"
-"
-)
-;
 assertEq
 (
 ex

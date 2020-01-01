@@ -245,14 +245,6 @@ catch
 ex
 )
 {
-print
-(
-ex
-+
-'
-'
-)
-;
 }
 if
 (

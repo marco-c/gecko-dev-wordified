@@ -465,14 +465,6 @@ catch
 ex
 )
 {
-print
-(
-ex
-+
-'
-'
-)
-;
 }
 reportCompare
 (

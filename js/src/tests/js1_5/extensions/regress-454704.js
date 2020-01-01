@@ -516,14 +516,6 @@ catch
 ex
 )
 {
-print
-(
-ex
-+
-'
-'
-)
-;
 }
 gDelayTestDriverEnd
 =

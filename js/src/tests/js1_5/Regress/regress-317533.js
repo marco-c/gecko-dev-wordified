@@ -323,11 +323,6 @@ ex
 '
 '
 ;
-print
-(
-ex
-)
-;
 }
 reportCompare
 (
@@ -386,11 +381,6 @@ ex
 +
 '
 '
-;
-print
-(
-ex
-)
 ;
 }
 reportCompare
