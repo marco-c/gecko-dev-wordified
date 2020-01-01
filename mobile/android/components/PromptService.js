@@ -2629,6 +2629,10 @@ value
 aPassword
 .
 value
+|
+|
+"
+"
 }
 ]
 ;
