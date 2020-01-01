@@ -8020,7 +8020,7 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 WebGLContext
 )
-NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_12
+NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_13
 (
 WebGLContext
 mCanvasElement
@@ -8033,6 +8033,7 @@ mCurrentProgram
 mBoundFramebuffer
 mBoundRenderbuffer
 mBoundVertexArray
+mDefaultVertexArray
 mActiveOcclusionQuery
 mActiveTransformFeedbackQuery
 )
