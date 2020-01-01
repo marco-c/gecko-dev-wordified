@@ -110,14 +110,14 @@ h
 #
 include
 "
-prdtoa
+SVGPathData
 .
 h
 "
 #
 include
 "
-DOMSVGPathSeg
+SVGPathSegUtils
 .
 h
 "

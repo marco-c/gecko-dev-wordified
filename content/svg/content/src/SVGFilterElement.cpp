@@ -141,7 +141,7 @@ h
 #
 include
 "
-nsSVGEffects
+nsSVGUtils
 .
 h
 "

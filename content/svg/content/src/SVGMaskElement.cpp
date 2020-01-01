@@ -138,17 +138,6 @@ SVGMaskElementBinding
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-SVGAnimatedLength
-.
-h
-"
 NS_IMPL_NS_NEW_NAMESPACED_SVG_ELEMENT
 (
 Mask

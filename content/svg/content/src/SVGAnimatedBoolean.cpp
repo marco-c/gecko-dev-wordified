@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsSVGBoolean
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

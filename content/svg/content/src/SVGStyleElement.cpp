@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsStubMutationObserver
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsSVGRect
-.
-h
-"
-#
-include
-"
 DOMSVGPoint
 .
 h

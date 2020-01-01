@@ -135,13 +135,6 @@ gfxMatrix
 .
 h
 "
-#
-include
-"
-nsCOMPtr
-.
-h
-"
 class
 nsIContent
 ;
@@ -156,9 +149,6 @@ nsStyleContext
 ;
 class
 nsSVGElement
-;
-class
-nsSVGLength2
 ;
 namespace
 mozilla

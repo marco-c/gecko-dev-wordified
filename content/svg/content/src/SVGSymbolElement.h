@@ -131,13 +131,6 @@ SVGAnimatedPreserveAspectRatio
 .
 h
 "
-#
-include
-"
-nsGkAtoms
-.
-h
-"
 nsresult
 NS_NewSVGSymbolElement
 (

@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsIDOMSVGDocument
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -133,13 +126,6 @@ h
 include
 "
 SVGAnimatedTransformList
-.
-h
-"
-#
-include
-"
-nsContentUtils
 .
 h
 "

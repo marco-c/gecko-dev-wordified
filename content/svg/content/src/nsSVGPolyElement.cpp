@@ -96,15 +96,6 @@ MPL
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsSVGPolyElement
 .
 h

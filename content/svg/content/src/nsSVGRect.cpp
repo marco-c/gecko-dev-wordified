@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsTextFormatter
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsSVGElement
-.
-h
-"
-#
-include
-"
 SVGContentUtils
 .
 h

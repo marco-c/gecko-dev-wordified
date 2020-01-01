@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h

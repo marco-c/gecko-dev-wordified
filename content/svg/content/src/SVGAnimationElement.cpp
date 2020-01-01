@@ -139,13 +139,6 @@ h
 #
 include
 "
-nsISMILAttr
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

@@ -125,17 +125,6 @@ mozilla
 /
 dom
 /
-SVGAnimatedLength
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 SVGCircleElementBinding
 .
 h
