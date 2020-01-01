@@ -701,11 +701,6 @@ file
 )
 ;
 }
-PRBool
-IsRelativeURL
-(
-)
-;
 const
 PRUnichar
 *
