@@ -433,7 +433,7 @@ BLOCK
 /
 #
 define
-js_invoke_c__
+jsinvoke_cpp___
 #
 include
 "
