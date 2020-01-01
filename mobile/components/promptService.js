@@ -791,6 +791,7 @@ openDialog
 :
 function
 (
+parent
 src
 params
 )
@@ -841,6 +842,7 @@ browser
 .
 importDialog
 (
+parent
 src
 params
 )
@@ -862,6 +864,7 @@ this
 .
 openDialog
 (
+aParent
 "
 chrome
 :
@@ -982,6 +985,7 @@ this
 .
 openDialog
 (
+aParent
 "
 chrome
 :
@@ -1201,6 +1205,7 @@ this
 .
 openDialog
 (
+aParent
 "
 chrome
 :
@@ -1346,6 +1351,7 @@ this
 .
 openDialog
 (
+aParent
 "
 chrome
 :
@@ -1994,6 +2000,7 @@ this
 .
 openDialog
 (
+aParent
 "
 chrome
 :
@@ -2530,6 +2537,7 @@ this
 .
 openDialog
 (
+aParent
 "
 chrome
 :
@@ -2871,6 +2879,7 @@ this
 .
 openDialog
 (
+aParent
 "
 chrome
 :
@@ -3871,6 +3880,7 @@ this
 .
 openDialog
 (
+aParent
 "
 chrome
 :
