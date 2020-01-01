@@ -6687,6 +6687,11 @@ JSObject
 obj
 )
 {
+CHECK_REQUEST
+(
+cx
+)
+;
 cx
 -
 >
