@@ -1653,6 +1653,13 @@ EXIT_FAILURE
 ;
 }
 }
+#
+endif
+/
+*
+CROSS_COMPILE
+*
+/
 printf
 (
 "
@@ -1673,13 +1680,6 @@ dummy1
 )
 )
 ;
-#
-endif
-/
-*
-CROSS_COMPILE
-*
-/
 printf
 (
 "
