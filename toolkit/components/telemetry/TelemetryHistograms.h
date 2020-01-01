@@ -1110,7 +1110,7 @@ pages
 )
 HISTOGRAM
 (
-MEMORY_JS_GC_HEAP
+MEMORY_JS_GC_HEAP_COMMITTED
 1024
 512
 *
@@ -1118,7 +1118,8 @@ MEMORY_JS_GC_HEAP
 50
 EXPONENTIAL
 "
-Memory
+Committed
+memory
 used
 by
 the
