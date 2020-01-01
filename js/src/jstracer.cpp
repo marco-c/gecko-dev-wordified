@@ -10828,6 +10828,9 @@ cx
 GuardRecord
 *
 lr
+Fragment
+*
+f
 )
 {
 debug_only
@@ -10900,10 +10903,7 @@ c
 >
 parent
 =
-lr
--
->
-from
+f
 ;
 lr
 -
@@ -10927,10 +10927,7 @@ c
 >
 root
 =
-c
--
->
-parent
+f
 ;
 c
 -
@@ -10974,10 +10971,7 @@ c
 >
 lirbuf
 =
-c
--
->
-parent
+f
 -
 >
 lirbuf
@@ -11951,6 +11945,7 @@ js_AttemptToExtendTree
 (
 cx
 lr
+f
 )
 ;
 }
