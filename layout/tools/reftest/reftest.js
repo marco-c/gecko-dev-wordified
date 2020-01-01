@@ -6176,6 +6176,13 @@ gClearingForAssertionCheck
 =
 false
 ;
+if
+(
+gDebug
+.
+isDebugBuild
+)
+{
 /
 /
 TEMPORARILY
@@ -6443,6 +6450,7 @@ n
 "
 )
 ;
+}
 }
 /
 /
