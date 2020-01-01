@@ -347,8 +347,6 @@ cairo
 -
 paginated
 -
-surface
--
 private
 .
 h
@@ -382,7 +380,7 @@ _cairo_analysis_surface_get_extents
 void
 *
 abstract_surface
-cairo_rectangle_int16_t
+cairo_rectangle_int_t
 *
 rectangle
 )
@@ -1169,7 +1167,7 @@ NULL
 ;
 }
 cairo_private
-pixman_region16_t
+cairo_region_t
 *
 _cairo_analysis_surface_get_supported
 (
@@ -1188,7 +1186,7 @@ NULL
 ;
 }
 cairo_private
-pixman_region16_t
+cairo_region_t
 *
 _cairo_analysis_surface_get_unsupported
 (

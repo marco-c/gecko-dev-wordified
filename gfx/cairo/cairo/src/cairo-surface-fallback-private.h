@@ -524,7 +524,7 @@ const
 cairo_color_t
 *
 color
-cairo_rectangle_int16_t
+cairo_rectangle_int_t
 *
 rects
 int
