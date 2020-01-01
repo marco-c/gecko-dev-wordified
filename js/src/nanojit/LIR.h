@@ -5875,6 +5875,9 @@ savedParams
 NumSavedRegs
 ]
 ;
+bool
+explicitSavedParams
+;
 protected
 :
 friend
