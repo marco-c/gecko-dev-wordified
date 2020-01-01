@@ -561,6 +561,14 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
 private
 :
+NS_HIDDEN_
+(
+void
+)
+RemoveObservers
+(
+)
+;
 nsDataHashtable
 <
 nsCStringHashKey
