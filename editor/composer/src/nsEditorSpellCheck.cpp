@@ -588,6 +588,13 @@ Services
 .
 h
 "
+#
+include
+"
+nsIPrefLocalizedString
+.
+h
+"
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
 nsEditorSpellCheck
@@ -1248,7 +1255,7 @@ dictionary
 to
 use
 :
-nsXPIDLString
+nsString
 dictName
 ;
 nsCOMPtr
@@ -1277,7 +1284,7 @@ prefBranch
 {
 nsCOMPtr
 <
-nsISupportsString
+nsIPrefLocalizedString
 >
 prefString
 ;
@@ -1295,7 +1302,7 @@ dictionary
 "
 NS_GET_IID
 (
-nsISupportsString
+nsIPrefLocalizedString
 )
 getter_AddRefs
 (
@@ -1316,9 +1323,12 @@ prefString
 prefString
 -
 >
-GetData
+ToString
+(
+getter_Copies
 (
 dictName
+)
 )
 ;
 }
