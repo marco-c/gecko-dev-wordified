@@ -636,6 +636,10 @@ aContainer
 nsIFrame
 *
 aContainedFrame
+const
+FrameMetrics
+&
+aMetrics
 nsDisplayListBuilder
 *
 aBuilder
@@ -1652,6 +1656,12 @@ SetTransformFor
 (
 mContainer
 aFrame
+shadowRoot
+-
+>
+GetFrameMetrics
+(
+)
 aBuilder
 )
 ;
