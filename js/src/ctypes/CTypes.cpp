@@ -36393,6 +36393,8 @@ if
 owns
 )
 delete
+[
+]
 *
 buffer
 ;
