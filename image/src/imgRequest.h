@@ -334,7 +334,7 @@ imgRequestProxy
 Notify
 later
 .
-nsresult
+void
 AddProxy
 (
 imgRequestProxy

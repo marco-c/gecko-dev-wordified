@@ -925,7 +925,7 @@ mCacheEntry
 nullptr
 ;
 }
-nsresult
+void
 imgRequest
 :
 :
@@ -1084,17 +1084,12 @@ SetPrincipal
 mPrincipal
 )
 ;
-return
 mObservers
 .
 AppendElementUnlessExists
 (
 proxy
 )
-?
-NS_OK
-:
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 nsresult
