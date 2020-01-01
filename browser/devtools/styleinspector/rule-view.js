@@ -6468,6 +6468,13 @@ element
 )
 ;
 }
+if
+(
+this
+.
+elementStyle
+)
+{
 this
 .
 elementStyle
@@ -6476,6 +6483,7 @@ destroy
 (
 )
 ;
+}
 this
 .
 popup
