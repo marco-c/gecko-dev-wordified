@@ -698,8 +698,8 @@ aOldStyleContext
 table
 cells
 contain
-an
-area
+a
+block
 frame
 which
 does

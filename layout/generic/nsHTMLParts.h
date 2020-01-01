@@ -807,17 +807,6 @@ PRUint32
 aFlags
 )
 ;
-/
-/
-These
-AreaFrame
-'
-s
-shrink
-wrap
-around
-their
-contents
 inline
 nsIFrame
 *

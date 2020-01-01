@@ -45709,8 +45709,6 @@ Copy
 over
 the
 block
-/
-area
 frame
 type
 flags

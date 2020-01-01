@@ -9891,7 +9891,7 @@ When
 we
 encounter
 scrolledContent
-area
+block
 frames
 we
 skip
@@ -10066,8 +10066,6 @@ is
 the
 first
 block
-/
-area
 frame
 and
 possibly

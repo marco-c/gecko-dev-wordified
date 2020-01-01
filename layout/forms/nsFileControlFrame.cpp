@@ -2534,8 +2534,7 @@ nsnull
 }
 /
 /
-The
-Areaframe
+nsBlockFrame
 takes
 care
 of

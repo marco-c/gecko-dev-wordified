@@ -65818,7 +65818,7 @@ area
 frame
 nsIFrame
 *
-continuingAreaFrame
+continuingBlockFrame
 ;
 nsIFrame
 *
@@ -65840,7 +65840,7 @@ aPresContext
 blockFrame
 newFrame
 &
-continuingAreaFrame
+continuingBlockFrame
 )
 ;
 if
@@ -65884,7 +65884,7 @@ newFrame
 SetInitialChildList
 (
 nsnull
-continuingAreaFrame
+continuingBlockFrame
 )
 ;
 }
@@ -66279,7 +66279,7 @@ hand
 !
 nsIFrame
 *
-continuingAreaFrame
+continuingBlockFrame
 ;
 nsIFrame
 *
@@ -66298,7 +66298,7 @@ aPresContext
 blockFrame
 newFrame
 &
-continuingAreaFrame
+continuingBlockFrame
 )
 ;
 if
@@ -66341,7 +66341,7 @@ newFrame
 SetInitialChildList
 (
 nsnull
-continuingAreaFrame
+continuingBlockFrame
 )
 ;
 }
