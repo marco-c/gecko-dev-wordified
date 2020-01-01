@@ -3800,6 +3800,7 @@ datastruct_
 member_
 type_
 kwtable_
+stylestruct_
 )
 \
 {
