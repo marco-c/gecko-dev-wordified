@@ -458,6 +458,15 @@ TimeStamp
 .
 h
 "
+#
+include
+"
+mozilla
+/
+AutoRestore
+.
+h
+"
 namespace
 mozilla
 {
@@ -544,6 +553,7 @@ public
 :
 AutoTimer
 (
+MOZILLA_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 :
 start
@@ -556,6 +566,8 @@ Now
 )
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 ~
 AutoTimer
@@ -588,6 +600,7 @@ const
 TimeStamp
 start
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 }
