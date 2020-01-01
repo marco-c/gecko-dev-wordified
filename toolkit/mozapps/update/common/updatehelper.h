@@ -76,11 +76,8 @@ userToken
 BOOL
 StartServiceUpdate
 (
-int
-argc
-LPWSTR
-*
-argv
+LPCWSTR
+installDir
 )
 ;
 BOOL

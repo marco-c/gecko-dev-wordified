@@ -3279,8 +3279,7 @@ running
 .
 StartServiceUpdate
 (
-argc
-argv
+installDir
 )
 ;
 }
