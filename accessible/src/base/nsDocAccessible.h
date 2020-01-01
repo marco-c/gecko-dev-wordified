@@ -811,17 +811,6 @@ aEditor
 /
 /
 nsDocAccessible
-nsIDocument
-*
-GetDOMDocument
-(
-)
-const
-{
-return
-mDocument
-;
-}
 /
 *
 *
