@@ -6644,9 +6644,6 @@ mPipe
 >
 mStatus
 mWritable
-=
-=
-PR_TRUE
 )
 )
 ;

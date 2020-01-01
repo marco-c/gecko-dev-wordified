@@ -816,11 +816,9 @@ are
 fetched
 if
 (
+!
 *
 aResult
-=
-=
-PR_FALSE
 )
 {
 mStatement

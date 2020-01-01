@@ -1390,9 +1390,6 @@ fun
 if
 (
 before
-=
-=
-PR_TRUE
 )
 {
 fun

@@ -5335,10 +5335,8 @@ again
 .
 if
 (
+!
 bState
-=
-=
-PR_FALSE
 )
 {
 if
@@ -9238,9 +9236,6 @@ Window
 &
 &
 aRaise
-=
-=
-PR_TRUE
 &
 &
 eWindowType_popup

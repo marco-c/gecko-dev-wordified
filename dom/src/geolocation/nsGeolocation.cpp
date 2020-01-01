@@ -2154,10 +2154,8 @@ nsnull
 ;
 if
 (
+!
 sGeoEnabled
-=
-=
-PR_FALSE
 )
 return
 NS_ERROR_FAILURE
@@ -3270,10 +3268,8 @@ StartDevice
 {
 if
 (
+!
 sGeoEnabled
-=
-=
-PR_FALSE
 )
 return
 NS_ERROR_NOT_AVAILABLE
@@ -4573,10 +4569,8 @@ callback
 ;
 if
 (
+!
 sGeoEnabled
-=
-=
-PR_FALSE
 )
 return
 NS_ERROR_NOT_AVAILABLE
@@ -4753,10 +4747,8 @@ callback
 ;
 if
 (
+!
 sGeoEnabled
-=
-=
-PR_FALSE
 )
 return
 NS_ERROR_NOT_AVAILABLE

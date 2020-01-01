@@ -5307,12 +5307,7 @@ aDeviceContext
 NS_ASSERTION
 (
 !
-(
 mInitialized
-=
-=
-PR_TRUE
-)
 "
 attempt
 to
@@ -7478,10 +7473,8 @@ FlushFontCache
 }
 NS_ASSERTION
 (
+!
 mSupressResizeReflow
-=
-=
-PR_FALSE
 "
 two
 zooms

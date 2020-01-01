@@ -1527,10 +1527,8 @@ to
 start
 while
 (
+!
 gThreadState
-=
-=
-PR_FALSE
 )
 {
 PR_Wait

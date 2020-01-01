@@ -740,9 +740,6 @@ ObserverService
 if
 (
 bXMLEncodingObserverStarted
-=
-=
-PR_TRUE
 )
 {
 End
@@ -1816,9 +1813,6 @@ NS_OK
 if
 (
 bXMLEncodingObserverStarted
-=
-=
-PR_TRUE
 )
 return
 res
@@ -1967,10 +1961,8 @@ NS_OK
 ;
 if
 (
+!
 bXMLEncodingObserverStarted
-=
-=
-PR_FALSE
 )
 return
 res

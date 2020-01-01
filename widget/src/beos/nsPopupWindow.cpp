@@ -1346,9 +1346,6 @@ workspace
 if
 (
 bState
-=
-=
-PR_TRUE
 &
 &
 mView

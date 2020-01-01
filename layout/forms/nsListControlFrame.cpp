@@ -10007,10 +10007,8 @@ initialize
 ;
 if
 (
+!
 mIsAllFramesHere
-=
-=
-PR_FALSE
 )
 {
 /

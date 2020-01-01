@@ -805,9 +805,6 @@ else
 if
 (
 gUnreg
-=
-=
-PR_TRUE
 )
 {
 res

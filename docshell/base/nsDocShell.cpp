@@ -37415,10 +37415,8 @@ canSaveState
 ;
 if
 (
+!
 canSaveState
-=
-=
-PR_FALSE
 )
 return
 PR_FALSE
@@ -57964,9 +57962,6 @@ PR_TRUE
 if
 (
 expired
-=
-=
-PR_TRUE
 )
 entry
 -

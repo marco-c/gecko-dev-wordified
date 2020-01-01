@@ -853,10 +853,8 @@ yet
 ;
 NS_ASSERTION
 (
+!
 mStop
-=
-=
-PR_FALSE
 "
 don
 '

@@ -3234,9 +3234,6 @@ s
 )
 "
 aCanDrop
-=
-=
-PR_TRUE
 ?
 "
 TRUE
@@ -5959,9 +5956,6 @@ drag
 NS_ASSERTION
 (
 addedType
-=
-=
-PR_TRUE
 "
 No
 flavor

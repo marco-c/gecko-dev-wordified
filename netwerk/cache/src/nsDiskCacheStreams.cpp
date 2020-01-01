@@ -4243,10 +4243,8 @@ mBuffer
 {
 NS_ASSERTION
 (
+!
 mBufDirty
-=
-=
-PR_FALSE
 "
 deleting
 dirty

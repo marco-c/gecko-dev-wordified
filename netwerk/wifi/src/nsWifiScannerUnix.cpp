@@ -1131,9 +1131,6 @@ nsnull
 while
 (
 mKeepGoing
-=
-=
-PR_TRUE
 )
 {
 accessPoints

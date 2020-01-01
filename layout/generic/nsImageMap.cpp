@@ -1353,10 +1353,8 @@ tptr
 {
 if
 (
+!
 has_comma
-=
-=
-PR_FALSE
 )
 {
 has_comma
@@ -1405,12 +1403,8 @@ tptr
 )
 &
 &
-(
+!
 has_comma
-=
-=
-PR_FALSE
-)
 )
 {
 break
@@ -1448,10 +1442,8 @@ separator
 else
 if
 (
+!
 has_comma
-=
-=
-PR_FALSE
 )
 {
 *

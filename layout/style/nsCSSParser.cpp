@@ -8030,10 +8030,8 @@ UngetToken
 {
 NS_PRECONDITION
 (
+!
 mHavePushBack
-=
-=
-PR_FALSE
 "
 double
 pushback

@@ -2116,10 +2116,8 @@ to
 start
 while
 (
+!
 gThreadState
-=
-=
-PR_FALSE
 )
 {
 :

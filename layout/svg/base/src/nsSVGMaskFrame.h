@@ -684,13 +684,11 @@ aFrame
 {
 NS_ASSERTION
 (
+!
 mFrame
 -
 >
 mInUse
-=
-=
-PR_FALSE
 "
 reference
 loop

@@ -3032,12 +3032,8 @@ PR_FALSE
 ;
 while
 (
-(
+!
 err
-=
-=
-PR_FALSE
-)
 &
 &
 (
@@ -3438,12 +3434,8 @@ aIncrement
 }
 if
 (
-(
+!
 err
-=
-=
-PR_FALSE
-)
 &
 &
 (
@@ -3558,9 +3550,6 @@ PR_TRUE
 if
 (
 err
-=
-=
-PR_TRUE
 )
 return
 (
