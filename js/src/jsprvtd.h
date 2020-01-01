@@ -975,6 +975,9 @@ struct
 TokenPtr
 ;
 class
+UpvarCookie
+;
+class
 TempAllocPolicy
 ;
 template
@@ -1077,9 +1080,6 @@ class
 DefnOrHeader
 ;
 typedef
-js
-:
-:
 InlineMap
 <
 JSAtom
@@ -1091,9 +1091,6 @@ JSDefinition
 AtomDefnMap
 ;
 typedef
-js
-:
-:
 InlineMap
 <
 JSAtom
@@ -1104,9 +1101,6 @@ jsatomid
 AtomIndexMap
 ;
 typedef
-js
-:
-:
 InlineMap
 <
 JSAtom
@@ -1115,6 +1109,13 @@ DefnOrHeader
 24
 >
 AtomDOHMap
+;
+typedef
+Vector
+<
+UpvarCookie
+>
+UpvarCookies
 ;
 }
 /
