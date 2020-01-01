@@ -1464,7 +1464,7 @@ if
 aContext
 -
 >
-GetColor
+GetDeviceColor
 (
 currentColor
 )
@@ -1683,7 +1683,7 @@ BOX_BORDER_OPACITY
 aContext
 -
 >
-SetColor
+SetDeviceColor
 (
 color
 )
@@ -1808,7 +1808,7 @@ BMP
 aContext
 -
 >
-SetColor
+SetDeviceColor
 (
 currentColor
 )
@@ -1946,7 +1946,7 @@ BMP
 aContext
 -
 >
-SetColor
+SetDeviceColor
 (
 currentColor
 )

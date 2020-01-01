@@ -9500,7 +9500,7 @@ if
 aContext
 -
 >
-GetColor
+GetDeviceColor
 (
 aCurrentColor
 )
