@@ -893,6 +893,11 @@ BasicImplData
 this
 )
 )
+mLastScrollOffset
+(
+0
+0
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -1074,6 +1079,12 @@ reached
 Members
 BasicTiledLayerBuffer
 mTiledBuffer
+;
+gfx
+:
+:
+Point
+mLastScrollOffset
 ;
 }
 ;
