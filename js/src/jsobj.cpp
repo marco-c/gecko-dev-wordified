@@ -38197,6 +38197,9 @@ JSCLASS_IS_GLOBAL
 )
 )
 {
+#
+if
+JS_HAS_XML_SUPPORT
 /
 /
 The
@@ -38264,8 +38267,6 @@ runtime
 >
 atomState
 .
-lazy
-.
 functionNamespaceURIAtom
 )
 )
@@ -38280,6 +38281,8 @@ runtime
 defaultCompartment
 ;
 }
+#
+endif
 /
 *
 *
