@@ -2077,13 +2077,6 @@ aNodeInfo
 ;
 if
 (
-NS_SMILEnabled
-(
-)
-)
-{
-if
-(
 name
 =
 =
@@ -2167,7 +2160,6 @@ aResult
 aNodeInfo
 )
 ;
-}
 /
 /
 if
