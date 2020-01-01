@@ -582,11 +582,12 @@ finishRunnable
 )
 ;
 }
-void
+bool
 MaybeFireCallback
 (
-PRUint32
-aCallbackIndex
+DatabasesCompleteCallback
+&
+aCallback
 )
 ;
 nsCOMPtr

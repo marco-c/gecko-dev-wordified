@@ -3176,7 +3176,7 @@ file
 .
 nsRefPtr
 <
-nsDOMFileBase
+nsDOMFile
 >
 mDOMFile
 ;

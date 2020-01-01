@@ -692,6 +692,16 @@ ErrorAndException
 NotReadableError
 =
 0
+/
+*
+FileHandle
+API
+errors
+*
+/
+LockedFileInactiveError
+=
+0
 }
 ;
 #
