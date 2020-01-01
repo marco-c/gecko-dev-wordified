@@ -3368,6 +3368,15 @@ functions
 JS_FN
 (
 "
+intl_Collator
+"
+intl_Collator
+2
+0
+)
+JS_FN
+(
+"
 intl_Collator_availableLocales
 "
 intl_Collator_availableLocales

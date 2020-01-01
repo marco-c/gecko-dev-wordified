@@ -28225,6 +28225,13 @@ localeToLowerCase
 JSLocaleCompare
 localeCompare
 ;
+/
+/
+not
+used
+#
+if
+ENABLE_INTL_API
 JSLocaleToUnicode
 localeToUnicode
 ;
