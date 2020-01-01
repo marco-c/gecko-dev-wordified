@@ -123,10 +123,6 @@ MimeTypeArray
 )
 DOMCI_CLASS
 (
-BarProp
-)
-DOMCI_CLASS
-(
 History
 )
 DOMCI_CLASS
