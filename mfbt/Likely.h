@@ -154,8 +154,6 @@ x
 (
 __builtin_expect
 (
-!
-!
 (
 x
 )
@@ -171,8 +169,6 @@ x
 (
 __builtin_expect
 (
-!
-!
 (
 x
 )
@@ -188,11 +184,7 @@ MOZ_LIKELY
 x
 )
 (
-!
-!
-(
 x
-)
 )
 #
 define
@@ -201,11 +193,7 @@ MOZ_UNLIKELY
 x
 )
 (
-!
-!
-(
 x
-)
 )
 #
 endif
