@@ -203,7 +203,7 @@ sp
 -
 menu
 -
-chrome
+browser
 "
 )
 ;
@@ -238,7 +238,7 @@ sp
 -
 menu
 -
-chrome
+browser
 "
 )
 ;
@@ -413,7 +413,7 @@ set
 ;
 sp
 .
-setChromeContext
+setBrowserContext
 (
 )
 ;
@@ -424,7 +424,7 @@ sp
 executionContext
 gScratchpadWindow
 .
-SCRATCHPAD_CONTEXT_CHROME
+SCRATCHPAD_CONTEXT_BROWSER
 "
 executionContext
 is
