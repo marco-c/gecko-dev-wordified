@@ -768,6 +768,10 @@ RelatedAccIterator
 &
 )
 ;
+nsDocAccessible
+*
+mDocument
+;
 nsIAtom
 *
 mRelAttr
