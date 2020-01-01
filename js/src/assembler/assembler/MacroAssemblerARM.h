@@ -5922,7 +5922,8 @@ ARMAssembler
 :
 getOp2
 (
-1
+-
+0x7fffffff
 )
 )
 ;
