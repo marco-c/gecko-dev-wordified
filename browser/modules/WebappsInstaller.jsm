@@ -768,7 +768,7 @@ app
 ;
 this
 .
-processFolder
+runtimeFolder
 =
 Services
 .
@@ -777,7 +777,7 @@ dirsvc
 get
 (
 "
-CurProcD
+GreD
 "
 Ci
 .
@@ -1893,7 +1893,7 @@ webapprt
 =
 this
 .
-processFolder
+runtimeFolder
 .
 clone
 (
@@ -1934,7 +1934,7 @@ uninstaller
 =
 this
 .
-processFolder
+runtimeFolder
 .
 clone
 (
@@ -2181,7 +2181,7 @@ InstallDir
 "
 this
 .
-processFolder
+runtimeFolder
 .
 path
 )
@@ -3769,7 +3769,7 @@ webapprt
 =
 this
 .
-processFolder
+runtimeFolder
 .
 clone
 (
@@ -5237,7 +5237,7 @@ webapprtPre
 =
 this
 .
-processFolder
+runtimeFolder
 .
 clone
 (
@@ -5443,7 +5443,7 @@ InstallDir
 "
 this
 .
-processFolder
+runtimeFolder
 .
 path
 )
