@@ -2108,9 +2108,6 @@ currentSlotChunkNumber_
 =
 0
 ;
-#
-ifdef
-JS_NUNBOX32
 currentSlotChunk_
 =
 stream_
@@ -2119,8 +2116,6 @@ readUnsigned
 (
 )
 ;
-#
-endif
 }
 bool
 SafepointReader
@@ -2133,9 +2128,6 @@ uint32
 slot
 )
 {
-#
-ifdef
-JS_NUNBOX32
 if
 (
 getSlotFromBitmap
@@ -2153,13 +2145,6 @@ advanceFromValueSlots
 return
 false
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 void
 SafepointReader
