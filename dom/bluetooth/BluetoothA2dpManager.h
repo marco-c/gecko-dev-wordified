@@ -376,14 +376,6 @@ NotifyStatusChanged
 (
 )
 ;
-void
-NotifyAudioManager
-(
-)
-;
-nsString
-mDeviceAddress
-;
 /
 /
 A2DP
@@ -394,6 +386,9 @@ mA2dpConnected
 ;
 bool
 mPlaying
+;
+nsString
+mDeviceAddress
 ;
 SinkState
 mSinkState
