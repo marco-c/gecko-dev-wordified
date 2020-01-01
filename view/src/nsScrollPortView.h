@@ -531,14 +531,6 @@ void
 aInstancePtr
 )
 ;
-NS_IMETHOD
-SetWidget
-(
-nsIWidget
-*
-aWidget
-)
-;
 /
 /
 nsIScrollableView
