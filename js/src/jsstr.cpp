@@ -17799,6 +17799,12 @@ str
 if
 (
 valid
+&
+&
+JSSTRING_IS_DEFLATED
+(
+str
+)
 )
 js_PurgeDeflatedStringCache
 (
@@ -20544,6 +20550,11 @@ length
 ;
 #
 endif
+JSSTRING_SET_DEFLATED
+(
+str
+)
+;
 JS_RELEASE_LOCK
 (
 rt
@@ -20844,6 +20855,11 @@ str
 ;
 #
 endif
+JSSTRING_SET_DEFLATED
+(
+str
+)
+;
 }
 else
 {
