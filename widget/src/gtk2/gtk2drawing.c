@@ -12229,9 +12229,6 @@ case
 MOZ_GTK_PROGRESS_CHUNK
 :
 case
-MOZ_GTK_TAB
-:
-case
 MOZ_GTK_EXPANDER
 :
 case
