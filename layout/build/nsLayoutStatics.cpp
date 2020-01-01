@@ -1648,6 +1648,10 @@ return
 rv
 ;
 }
+NS_SealStaticAtomTable
+(
+)
+;
 return
 NS_OK
 ;
