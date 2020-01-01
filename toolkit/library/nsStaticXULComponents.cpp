@@ -1074,6 +1074,11 @@ MODULE
 nsGfxModule
 )
 \
+MODULE
+(
+nsProfilerModule
+)
+\
 WIDGET_MODULES
 \
 MODULE
