@@ -867,6 +867,14 @@ tempFloat
 (
 )
 ;
+inline
+LDefinition
+tempFixed
+(
+Register
+reg
+)
+;
 template
 <
 size_t

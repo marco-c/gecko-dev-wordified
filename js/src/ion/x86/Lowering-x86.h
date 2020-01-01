@@ -806,6 +806,14 @@ MInstruction
 ins
 )
 ;
+bool
+lowerDivI
+(
+MDiv
+*
+div
+)
+;
 public
 :
 bool

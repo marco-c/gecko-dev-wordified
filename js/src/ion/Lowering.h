@@ -963,6 +963,14 @@ ins
 )
 ;
 bool
+visitDiv
+(
+MDiv
+*
+ins
+)
+;
+bool
 visitStart
 (
 MStart
