@@ -468,7 +468,9 @@ startUpdateChecker
 (
 )
 ;
-gPrefs
+getPrefBranch
+(
+)
 .
 setCharPref
 (
@@ -504,6 +506,10 @@ end_test
 )
 {
 do_test_finished
+(
+)
+;
+cleanUp
 (
 )
 ;

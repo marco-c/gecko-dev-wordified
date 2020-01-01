@@ -433,7 +433,14 @@ removeUpdateDirsAndFiles
 (
 )
 ;
-gPrefs
+var
+pb
+=
+getPrefBranch
+(
+)
+;
+pb
 .
 setCharPref
 (
@@ -450,7 +457,7 @@ xml
 var
 defaults
 =
-gPrefs
+pb
 .
 QueryInterface
 (
@@ -518,6 +525,10 @@ end_test
 )
 {
 do_test_finished
+(
+)
+;
+cleanUp
 (
 )
 ;

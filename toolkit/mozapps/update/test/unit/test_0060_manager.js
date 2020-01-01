@@ -450,7 +450,9 @@ removeUpdateDirsAndFiles
 var
 defaults
 =
-gPrefs
+getPrefBranch
+(
+)
 .
 QueryInterface
 (
@@ -1104,6 +1106,10 @@ patch
 .
 state
 STATE_FAILED
+)
+;
+cleanUp
+(
 )
 ;
 }
