@@ -1067,7 +1067,8 @@ false
 ;
 mComposingText
 =
-null
+"
+"
 ;
 /
 /
@@ -3164,7 +3165,8 @@ false
 ;
 mComposingText
 =
-null
+"
+"
 ;
 mUpdateRequest
 =
@@ -3386,6 +3388,9 @@ is
 active
 String
 mComposingText
+=
+"
+"
 ;
 /
 /
