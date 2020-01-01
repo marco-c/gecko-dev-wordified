@@ -1350,6 +1350,16 @@ const
 PRInt32
 kGetInfoIndex_ItemId
 ;
+static
+const
+PRInt32
+kGetInfoIndex_ItemDateAdded
+;
+static
+const
+PRInt32
+kGetInfoIndex_ItemLastModified
+;
 /
 /
 select
