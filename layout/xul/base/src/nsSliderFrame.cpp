@@ -761,10 +761,6 @@ mChange
 (
 0
 )
-mMediator
-(
-nsnull
-)
 {
 }
 /
@@ -5533,11 +5529,6 @@ nsSliderMediator
 this
 )
 ;
-NS_ADDREF
-(
-mMediator
-)
-;
 }
 nsIFrame
 *
@@ -5863,11 +5854,6 @@ mMediator
 SetSlider
 (
 nsnull
-)
-;
-NS_RELEASE
-(
-mMediator
 )
 ;
 mMediator

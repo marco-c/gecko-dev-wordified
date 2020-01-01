@@ -1342,8 +1342,10 @@ mChange
 nsPoint
 mDestinationPoint
 ;
+nsRefPtr
+<
 nsSliderMediator
-*
+>
 mMediator
 ;
 static
