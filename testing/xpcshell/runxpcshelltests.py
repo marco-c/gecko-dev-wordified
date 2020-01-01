@@ -1074,6 +1074,26 @@ self
 event
 =
 event
+        
+self
+.
+done
+=
+False
+#
+explicitly
+set
+flag
+so
+we
+don
+'
+t
+rely
+on
+thread
+.
+isAlive
     
 def
 run
@@ -1168,6 +1188,12 @@ name
 '
 ]
 )
+        
+self
+.
+done
+=
+True
         
 self
 .
@@ -1776,6 +1802,12 @@ out
 %
 test_file
 )
+        
+self
+.
+done
+=
+True
         
 Automation
 (
@@ -11098,12 +11130,9 @@ running_tests
 :
                 
 if
-not
 test
 .
-is_alive
-(
-)
+done
 :
                     
 done_tests
