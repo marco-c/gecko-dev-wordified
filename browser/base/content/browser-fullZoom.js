@@ -2795,6 +2795,7 @@ aBrowser
 {
 if
 (
+(
 !
 this
 .
@@ -2805,6 +2806,10 @@ siteSpecific
 this
 .
 _inPrivateBrowsing
+)
+|
+|
+gInPrintPreviewMode
 )
 return
 ;
@@ -2822,9 +2827,6 @@ try
 {
 if
 (
-gInPrintPreviewMode
-|
-|
 browser
 .
 contentDocument
