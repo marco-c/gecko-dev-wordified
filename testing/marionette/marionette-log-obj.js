@@ -56,6 +56,10 @@ MPL
 .
 *
 /
+this
+.
+MarionetteLogObj
+=
 function
 MarionetteLogObj
 (
