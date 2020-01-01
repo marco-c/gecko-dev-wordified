@@ -563,6 +563,11 @@ public
 nsUniversalChardetTest
 (
 )
+:
+nsUniversalDetector
+(
+NS_FILTER_ALL
+)
 {
 }
 ;
