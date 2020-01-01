@@ -175,15 +175,12 @@ if
 mXHR
 )
 {
-JS_CallObjectTracer
-(
-aTrc
 mXHR
 -
 >
-GetJSObject
+TraceJSObject
 (
-)
+aTrc
 "
 mXHR
 "

@@ -1713,6 +1713,14 @@ return
 mJSObject
 ;
 }
+void
+TraceGlobalJSObject
+(
+JSTracer
+*
+aTrc
+)
+;
 virtual
 nsresult
 EnsureScriptEnvironment

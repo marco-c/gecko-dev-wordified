@@ -1531,9 +1531,8 @@ this
 JS_CallObjectTracer
 (
 trc
-GetJSObjectPreserveColor
-(
-)
+&
+mJSObj
 "
 nsXPCWrappedJS
 :

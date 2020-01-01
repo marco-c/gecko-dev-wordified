@@ -873,7 +873,15 @@ getNext
 JS_CallObjectTracer
 (
 aTrc
+&
+const_cast
+<
+ListenerData
+*
+>
+(
 listenerElem
+)
 -
 >
 mListener
