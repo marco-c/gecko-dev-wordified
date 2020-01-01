@@ -2995,6 +2995,8 @@ Tabs
 .
 TabEvents
 msg
+Object
+data
 )
 {
 if
