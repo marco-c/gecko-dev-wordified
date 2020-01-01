@@ -2856,12 +2856,8 @@ if
 aOwningContent
 -
 >
-IsNodeOfType
+IsXUL
 (
-nsINode
-:
-:
-eXUL
 )
 )
 {
