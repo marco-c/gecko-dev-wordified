@@ -625,7 +625,7 @@ i
 nsITaskbarWindowPreview
 :
 :
-MAX_TOOLBAR_BUTTONS
+NUM_TOOLBAR_BUTTONS
 ;
 i
 +
@@ -749,7 +749,7 @@ index
 nsITaskbarWindowPreview
 :
 :
-MAX_TOOLBAR_BUTTONS
+NUM_TOOLBAR_BUTTONS
 )
 return
 NS_ERROR_INVALID_ARG
@@ -855,7 +855,7 @@ mWnd
 nsITaskbarWindowPreview
 :
 :
-MAX_TOOLBAR_BUTTONS
+NUM_TOOLBAR_BUTTONS
 mThumbButtons
 )
 )
@@ -1025,7 +1025,7 @@ mWnd
 nsITaskbarWindowPreview
 :
 :
-MAX_TOOLBAR_BUTTONS
+NUM_TOOLBAR_BUTTONS
 mThumbButtons
 )
 )
@@ -1312,7 +1312,7 @@ mWnd
 nsITaskbarWindowPreview
 :
 :
-MAX_TOOLBAR_BUTTONS
+NUM_TOOLBAR_BUTTONS
 mThumbButtons
 )
 )
@@ -1342,7 +1342,7 @@ index
 nsITaskbarWindowPreview
 :
 :
-MAX_TOOLBAR_BUTTONS
+NUM_TOOLBAR_BUTTONS
 )
 return
 NS_ERROR_INVALID_ARG
