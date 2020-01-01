@@ -1719,6 +1719,14 @@ successor
 )
 ;
 void
+fixPendingContinues
+(
+MBasicBlock
+*
+header
+)
+;
+void
 assertValidLoopHeadOp
 (
 jsbytecode
