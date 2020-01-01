@@ -3519,7 +3519,7 @@ detail
 uiEvent
 -
 >
-AssignEventData
+AssignUIEventData
 (
 *
 oldUIEvent
@@ -3625,7 +3625,7 @@ NS_SMIL_TIME_EVENT
 uiEvent
 -
 >
-AssignGUIEventData
+AssignUIEventData
 (
 *
 oldUIEvent
