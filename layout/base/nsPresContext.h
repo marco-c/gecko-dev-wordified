@@ -2472,7 +2472,7 @@ the
 size
 of
 the
-visible
+visiable
 area
 that
 is
