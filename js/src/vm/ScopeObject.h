@@ -1555,6 +1555,10 @@ callee
 ;
 public
 :
+static
+Class
+class_
+;
 /
 *
 These
@@ -4488,7 +4492,13 @@ isScope
 const
 {
 return
-isCall
+is
+<
+js
+:
+:
+CallObject
+>
 (
 )
 |

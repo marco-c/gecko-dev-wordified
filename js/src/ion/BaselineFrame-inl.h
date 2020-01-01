@@ -190,7 +190,10 @@ scopeChain
 =
 scope
 .
-asCall
+as
+<
+CallObject
+>
 (
 )
 .
@@ -454,7 +457,10 @@ while
 obj
 -
 >
-isCall
+is
+<
+CallObject
+>
 (
 )
 )
@@ -471,7 +477,10 @@ return
 obj
 -
 >
-asCall
+as
+<
+CallObject
+>
 (
 )
 ;

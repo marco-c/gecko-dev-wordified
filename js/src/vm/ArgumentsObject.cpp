@@ -517,7 +517,10 @@ callObj
 callObj
 -
 >
-isCall
+is
+<
+CallObject
+>
 (
 )
 )
@@ -1893,7 +1896,10 @@ cx
 scopeChain
 -
 >
-isCall
+is
+<
+CallObject
+>
 (
 )
 ?

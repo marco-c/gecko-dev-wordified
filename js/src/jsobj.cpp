@@ -17331,7 +17331,10 @@ if
 obj
 -
 >
-isCall
+is
+<
+CallObject
+>
 (
 )
 )
@@ -21436,7 +21439,10 @@ if
 obj
 -
 >
-isCall
+is
+<
+CallObject
+>
 (
 )
 )

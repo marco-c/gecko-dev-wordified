@@ -261,7 +261,10 @@ cacheable
 obj
 -
 >
-isCall
+is
+<
+CallObject
+>
 (
 )
 |
@@ -1294,7 +1297,10 @@ scopeChain
 =
 scope
 .
-asCall
+as
+<
+CallObject
+>
 (
 )
 .
@@ -1392,7 +1398,10 @@ JS_UNLIKELY
 pobj
 -
 >
-isCall
+is
+<
+CallObject
+>
 (
 )
 )
@@ -1410,7 +1419,10 @@ return
 pobj
 -
 >
-asCall
+as
+<
+CallObject
+>
 (
 )
 ;
