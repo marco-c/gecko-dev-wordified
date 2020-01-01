@@ -685,6 +685,12 @@ GetWindowsTable
 (
 )
 ;
+NS_ENSURE_TRUE
+(
+windows
+NS_OK
+)
+;
 windows
 -
 >
