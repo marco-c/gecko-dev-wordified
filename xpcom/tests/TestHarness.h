@@ -153,7 +153,9 @@ MOZ_STATIC_JS
 *
 *
 Including
-jsdbgapi
+js
+/
+OldDebugAPI
 .
 h
 may

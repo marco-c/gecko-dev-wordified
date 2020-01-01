@@ -120,7 +120,9 @@ MPL
 #
 include
 "
-jsdbgapi
+js
+/
+OldDebugAPI
 .
 h
 "

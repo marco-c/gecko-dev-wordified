@@ -568,7 +568,7 @@ EvalKernel
 1
 .
 notify
-jsdbgapi
+OldDebugAPI
 about
 script
 creation
@@ -611,8 +611,8 @@ engine
 from
 /
 /
-a
-jsdbgapi
+an
+OldDebugAPI
 user
 '
 s
@@ -626,10 +626,10 @@ eval
 to
 create
 and
+/
+/
 destroy
 a
-/
-/
 script
 .
 This
@@ -643,10 +643,10 @@ don
 '
 t
 have
+/
+/
 to
 deal
-/
-/
 with
 calls
 to

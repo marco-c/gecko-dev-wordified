@@ -151,14 +151,6 @@ js
 {
 /
 *
-Implemented
-in
-jsdbgapi
-:
-*
-/
-/
-*
 *
 Announce
 to

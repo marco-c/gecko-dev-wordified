@@ -120,7 +120,9 @@ API
 #
 include
 "
-jsdbgapi
+js
+/
+OldDebugAPI
 .
 h
 "

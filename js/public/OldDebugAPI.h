@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsdbgapi_h
+js_OldDebugAPI_h
 #
 define
-jsdbgapi_h
+js_OldDebugAPI_h
 /
 *
 *
@@ -3584,6 +3584,6 @@ cx
 endif
 /
 *
-jsdbgapi_h
+js_OldDebugAPI_h
 *
 /
