@@ -8658,6 +8658,9 @@ js_CodeSpec
 [
 op
 =
+(
+JSOp
+)
 *
 pc
 ]
@@ -12439,6 +12442,10 @@ JOF_PROP
 op
 =
 (
+JSOp
+)
+(
+(
 format
 &
 JOF_SET
@@ -12447,6 +12454,7 @@ JOF_SET
 JSOP_GETPROP2
 :
 JSOP_GETPROP
+)
 ;
 }
 else
@@ -12461,6 +12469,10 @@ JOF_ELEM
 op
 =
 (
+JSOp
+)
+(
+(
 format
 &
 JOF_SET
@@ -12469,6 +12481,7 @@ JOF_SET
 JSOP_GETELEM2
 :
 JSOP_GETELEM
+)
 ;
 }
 else
@@ -12726,6 +12739,9 @@ problem
 /
 op
 =
+(
+JSOp
+)
 pc
 [
 oplen
@@ -17369,6 +17385,10 @@ len
 ;
 break
 ;
+default
+:
+break
+;
 }
 todo
 =
@@ -18343,6 +18363,9 @@ while
 (
 op
 =
+(
+JSOp
+)
 ss
 -
 >
@@ -21487,6 +21510,9 @@ PushOff
 (
 ss
 todo
+(
+JSOp
+)
 ss
 -
 >
@@ -21501,9 +21527,11 @@ top
 ]
 )
 )
+{
 return
 NULL
 ;
+}
 /
 *
 FALL
@@ -21744,6 +21772,9 @@ top
 ;
 saveop
 =
+(
+JSOp
+)
 ss
 -
 >
@@ -22270,6 +22301,9 @@ z
 /
 op
 =
+(
+JSOp
+)
 ss
 -
 >
@@ -33115,6 +33149,9 @@ jmpoff
 ;
 op
 =
+(
+JSOp
+)
 *
 pc
 ;
@@ -33758,6 +33795,10 @@ sprinter
 .
 base
 :
+(
+char
+*
+)
 "
 "
 ;

@@ -493,6 +493,7 @@ h
 "
 #
 endif
+JS_BEGIN_EXTERN_C
 /
 *
 *
@@ -4170,6 +4171,7 @@ JSRuntime
 rt
 )
 ;
+JS_END_EXTERN_C
 #
 endif
 /

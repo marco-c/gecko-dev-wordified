@@ -3478,6 +3478,10 @@ fp
 ;
 fp
 =
+(
+JSStackFrame
+*
+)
 JS_GetPrivate
 (
 trc
@@ -5030,6 +5034,10 @@ ATOM_HIDDEN
 ;
 atom
 =
+(
+JSAtom
+*
+)
 atom
 -
 >

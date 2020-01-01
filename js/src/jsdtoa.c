@@ -13891,6 +13891,11 @@ char
 *
 s
 ;
+const
+char
+*
+cs
+;
 if
 (
 word0
@@ -13973,7 +13978,7 @@ decpt
 =
 9999
 ;
-s
+cs
 =
 !
 word1
@@ -14003,7 +14008,7 @@ NaN
 if
 (
 (
-s
+cs
 [
 0
 ]
@@ -14021,7 +14026,7 @@ bufsize
 |
 |
 (
-s
+cs
 [
 0
 ]
@@ -14060,7 +14065,7 @@ JS_FALSE
 strcpy
 (
 buf
-s
+cs
 )
 ;
 if

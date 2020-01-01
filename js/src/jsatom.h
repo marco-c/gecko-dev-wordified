@@ -900,6 +900,8 @@ ale
 (
 JSOp
 )
+JS_PTR_TO_UINT32
+(
 (
 ale
 )
@@ -908,6 +910,7 @@ ale
 entry
 .
 value
+)
 )
 #
 define

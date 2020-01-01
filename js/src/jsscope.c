@@ -3443,6 +3443,10 @@ chunk
 ;
 chunk
 =
+(
+PropTreeKidsChunk
+*
+)
 calloc
 (
 1

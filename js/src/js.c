@@ -903,6 +903,7 @@ cx
 #
 ifdef
 EDITLINE
+JS_BEGIN_EXTERN_C
 extern
 char
 *
@@ -923,6 +924,7 @@ char
 line
 )
 ;
+JS_END_EXTERN_C
 #
 endif
 static
@@ -3698,6 +3700,10 @@ BUFSIZE
 ;
 buf
 =
+(
+char
+*
+)
 JS_malloc
 (
 cx
@@ -3802,6 +3808,10 @@ buflength
 {
 tmp
 =
+(
+char
+*
+)
 JS_realloc
 (
 cx
@@ -3900,6 +3910,10 @@ size
 /
 tmp
 =
+(
+char
+*
+)
 JS_realloc
 (
 cx
@@ -5120,6 +5134,9 @@ offset
 ;
 op
 =
+(
+JSOp
+)
 *
 pc
 ;
@@ -11081,6 +11098,10 @@ JSENUMERATE_INIT
 :
 cpx
 =
+(
+ComplexObject
+*
+)
 JS_GetPrivate
 (
 cx
@@ -11446,6 +11467,10 @@ cpx
 ;
 cpx
 =
+(
+ComplexObject
+*
+)
 JS_GetPrivate
 (
 cx
@@ -11517,6 +11542,10 @@ cpx
 ;
 cpx
 =
+(
+ComplexObject
+*
+)
 JS_GetPrivate
 (
 cx
@@ -11558,6 +11587,10 @@ cpx
 ;
 cpx
 =
+(
+ComplexObject
+*
+)
 JS_GetPrivate
 (
 cx
@@ -11645,6 +11678,10 @@ obj
 ;
 cpx
 =
+(
+ComplexObject
+*
+)
 JS_malloc
 (
 cx
@@ -11786,6 +11823,10 @@ base
 ;
 cpx
 =
+(
+ComplexObject
+*
+)
 JS_malloc
 (
 cx
@@ -11872,6 +11913,10 @@ NULL
 }
 outercpx
 =
+(
+ComplexObject
+*
+)
 JS_GetPrivate
 (
 cx
@@ -11919,6 +11964,10 @@ split_global_class
 base
 )
 return
+(
+ComplexObject
+*
+)
 JS_GetPrivate
 (
 cx

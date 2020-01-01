@@ -472,6 +472,7 @@ h
 "
 #
 endif
+JS_BEGIN_EXTERN_C
 struct
 JSRegExpStatics
 {
@@ -1377,6 +1378,7 @@ jsdouble
 lastIndex
 )
 ;
+JS_END_EXTERN_C
 #
 endif
 /

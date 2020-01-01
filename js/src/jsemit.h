@@ -5547,10 +5547,15 @@ SN_TYPE
 sn
 )
 (
+(
+JSSrcNoteType
+)
+(
 SN_IS_XDELTA
 (
 sn
 )
+\
 ?
 SRC_XDELTA
 \
@@ -5562,6 +5567,7 @@ sn
 >
 >
 SN_DELTA_BITS
+)
 )
 #
 define

@@ -1376,6 +1376,10 @@ else
 {
 s
 =
+(
+jschar
+*
+)
 JS_realloc
 (
 cx
@@ -36441,6 +36445,10 @@ URI_CHUNK
 ;
 newchars
 =
+(
+jschar
+*
+)
 JS_realloc
 (
 cx
