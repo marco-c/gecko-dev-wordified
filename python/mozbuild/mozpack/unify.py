@@ -78,10 +78,6 @@ import
 (
     
 MACHO_SIGNATURES
-    
-may_strip
-    
-strip
 )
 from
 mozpack
@@ -103,8 +99,6 @@ import
 mozpack
 .
 path
-import
-shutil
 import
 struct
 import
@@ -255,8 +249,8 @@ def
 __init__
 (
 self
-path1
-path2
+executable1
+executable2
 )
 :
         
@@ -268,38 +262,55 @@ Initialize
 a
 UnifiedExecutableFile
 with
-the
-path
+a
+pair
+of
+ExecutableFiles
 to
-both
+        
+be
+unified
+.
+They
+are
+expected
+to
+be
 non
 -
 fat
 Mach
 -
 O
-        
 executables
-to
-be
-unified
 .
         
 '
 '
 '
+        
+assert
+isinstance
+(
+executable1
+ExecutableFile
+)
+        
+assert
+isinstance
+(
+executable2
+ExecutableFile
+)
         
 self
 .
-path1
+_executables
 =
-path1
-        
-self
-.
-path2
-=
-path2
+(
+executable1
+executable2
+)
     
 def
 copy
@@ -360,16 +371,11 @@ try
 :
             
 for
-p
+e
 in
-[
 self
 .
-path1
-self
-.
-path2
-]
+_executables
 :
                 
 fd
@@ -393,24 +399,14 @@ append
 f
 )
                 
-shutil
+e
 .
-copy2
-(
-p
-f
-)
-                
-if
-may_strip
+copy
 (
 f
-)
-:
-                    
-strip
-(
-f
+skip_if_older
+=
+False
 )
             
 subprocess
@@ -772,11 +768,7 @@ files1
 [
 p
 ]
-.
-path
 f
-.
-path
 )
                 
 else
