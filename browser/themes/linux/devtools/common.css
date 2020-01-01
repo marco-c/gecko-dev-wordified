@@ -1934,6 +1934,12 @@ position
 :
 relative
 ;
+cursor
+:
+e
+-
+resize
+;
 }
 /
 *
