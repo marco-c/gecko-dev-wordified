@@ -276,9 +276,13 @@ sources
 .
 source
 (
+{
+url
+:
 s
 .
 url
+}
 )
 .
 form
@@ -445,9 +449,13 @@ sources
 .
 source
 (
+{
+url
+:
 aScript
 .
 url
+}
 )
 .
 form
