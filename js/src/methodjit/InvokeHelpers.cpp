@@ -2562,7 +2562,6 @@ js_GetCallObject
 (
 cx
 fp
-ORIGIN_COMPILE_FUNCTION
 )
 )
 THROWV
@@ -2887,7 +2886,6 @@ js_GetCallObject
 (
 cx
 newfp
-ORIGIN_UIC
 )
 )
 return
@@ -4367,7 +4365,6 @@ f
 fp
 (
 )
-ORIGIN_MJIT_GCO
 )
 )
 THROW
