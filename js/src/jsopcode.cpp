@@ -25180,9 +25180,6 @@ do_getprop
 case
 JSOP_SETPROP
 :
-case
-JSOP_SETMETHOD
-:
 LOAD_ATOM
 (
 0
@@ -29246,9 +29243,6 @@ break
 ;
 case
 JSOP_INITPROP
-:
-case
-JSOP_INITMETHOD
 :
 LOAD_ATOM
 (

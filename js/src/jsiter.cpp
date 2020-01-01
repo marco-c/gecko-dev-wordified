@@ -2218,7 +2218,7 @@ ATOM_TO_JSID
 (
 atom
 )
-0
+false
 vp
 )
 )
