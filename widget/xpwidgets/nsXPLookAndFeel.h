@@ -504,6 +504,16 @@ return
 false
 ;
 }
+virtual
+PRUint32
+GetPasswordMaskDelayImpl
+(
+)
+{
+return
+600
+;
+}
 protected
 :
 nsXPLookAndFeel
