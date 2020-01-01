@@ -59,6 +59,13 @@ MPL
 #
 include
 "
+WebGLContext
+.
+h
+"
+#
+include
+"
 WebGLTexelConversions
 .
 h

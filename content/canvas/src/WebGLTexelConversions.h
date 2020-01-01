@@ -281,7 +281,7 @@ endif
 #
 include
 "
-WebGLContext
+WebGLTexture
 .
 h
 "
