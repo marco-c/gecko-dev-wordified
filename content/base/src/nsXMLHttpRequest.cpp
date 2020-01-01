@@ -6271,7 +6271,6 @@ nsIContentPolicy
 :
 TYPE_XMLHTTPREQUEST
 uri
-nsnull
 (
 doc
 ?

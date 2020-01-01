@@ -1156,7 +1156,6 @@ nsIContentPolicy
 :
 TYPE_IMAGE
 channelURI
-nsnull
 channelPrincipal
 domWindow
 -

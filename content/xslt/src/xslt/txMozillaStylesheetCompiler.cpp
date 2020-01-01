@@ -2333,7 +2333,6 @@ nsIContentPolicy
 :
 TYPE_STYLESHEET
 aUri
-nsnull
 aReferrerPrincipal
 aContext
 NS_LITERAL_CSTRING

@@ -24898,7 +24898,6 @@ nsIContentPolicy
 :
 TYPE_OBJECT
 aURL
-nsnull
 doc
 -
 >
@@ -40956,7 +40955,6 @@ nsIContentPolicy
 :
 TYPE_OBJECT_SUBREQUEST
 url
-nsnull
 (
 doc
 ?
