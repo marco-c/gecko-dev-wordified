@@ -9370,6 +9370,7 @@ the
 buffer
 if
 (
+(
 !
 aFinish
 &
@@ -9377,6 +9378,7 @@ aFinish
 mNumGlyphs
 <
 GLYPH_BUFFER_SIZE
+)
 |
 |
 !
@@ -31023,6 +31025,7 @@ gfxFont
 GLYPH_FILL
 |
 |
+(
 aDrawMode
 =
 =
@@ -31033,6 +31036,7 @@ GLYPH_PATH
 &
 &
 aCallbacks
+)
 ;
 if
 (
