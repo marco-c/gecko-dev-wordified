@@ -12169,6 +12169,10 @@ REPORT_UNEXPECTED_TOKEN
 PEAtNSUnexpected
 )
 ;
+UngetToken
+(
+)
+;
 return
 PR_FALSE
 ;
