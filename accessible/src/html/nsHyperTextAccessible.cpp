@@ -2203,6 +2203,12 @@ frame
 continue
 ;
 }
+nsIFrame
+*
+primaryFrame
+=
+frame
+;
 if
 (
 IsText
@@ -2229,6 +2235,8 @@ what
 we
 '
 re
+/
+/
 converting
 to
 content
@@ -2308,6 +2316,8 @@ text
 like
 list
 bullets
+/
+/
 should
 go
 away
@@ -2506,7 +2516,7 @@ UnionRect
 aBoundsRect
 GetBoundsForString
 (
-frame
+primaryFrame
 startOffset
 substringEndOffset
 )
