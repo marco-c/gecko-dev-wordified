@@ -8430,6 +8430,12 @@ isWrapper
 )
 const
 ;
+bool
+isCrossCompartmentWrapper
+(
+)
+const
+;
 JS_FRIEND_API
 (
 JSObject

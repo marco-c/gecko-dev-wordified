@@ -3902,6 +3902,12 @@ JS_INIT_CLIST
 watchPointList
 )
 ;
+JS_INIT_CLIST
+(
+&
+debuggerList
+)
+;
 }
 bool
 JSRuntime
