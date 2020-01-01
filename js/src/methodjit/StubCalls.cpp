@@ -9466,7 +9466,6 @@ equality
 (
 cx
 lobj
-&
 lval
 &
 jscond
