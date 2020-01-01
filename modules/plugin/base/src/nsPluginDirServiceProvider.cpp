@@ -502,12 +502,6 @@ nsArrayEnumerator
 .
 h
 "
-#
-if
-defined
-(
-XP_WIN
-)
 typedef
 struct
 structVer
@@ -1241,8 +1235,6 @@ return
 0
 ;
 }
-#
-endif
 /
 /
 *
@@ -1804,12 +1796,6 @@ persistant
 =
 PR_TRUE
 ;
-#
-if
-defined
-(
-XP_WIN
-)
 nsCOMPtr
 <
 nsIPrefBranch
@@ -3883,8 +3869,6 @@ localFile
 ;
 }
 }
-#
-endif
 if
 (
 localFile
@@ -3906,9 +3890,6 @@ return
 rv
 ;
 }
-#
-ifdef
-XP_WIN
 nsresult
 nsPluginDirServiceProvider
 :
@@ -4373,5 +4354,3 @@ return
 NS_OK
 ;
 }
-#
-endif
