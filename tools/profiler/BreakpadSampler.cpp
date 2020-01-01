@@ -1254,10 +1254,10 @@ IN
 SIGHANDLER
 CONTEXT
 void
-BreakpadSampler
+TableTicker
 :
 :
-Tick
+UnwinderTick
 (
 TickSample
 *
