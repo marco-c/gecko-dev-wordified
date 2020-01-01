@@ -1800,8 +1800,7 @@ fp
 extern
 JS_PUBLIC_API
 (
-JSObject
-*
+JSBool
 )
 JS_GetFrameThis
 (
@@ -1811,6 +1810,9 @@ cx
 JSStackFrame
 *
 fp
+jsval
+*
+thisv
 )
 ;
 extern

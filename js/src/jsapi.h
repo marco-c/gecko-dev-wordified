@@ -1895,6 +1895,11 @@ id
 ;
 JS_ASSERT
 (
+str
+)
+;
+JS_ASSERT
+(
 JS_StringHasBeenInterned
 (
 str
