@@ -19722,6 +19722,17 @@ monitored
 (
 PC
 )
+|
+|
+cx
+-
+>
+compartment
+-
+>
+compileBarriers
+(
+)
 )
 {
 prepareStubCall
