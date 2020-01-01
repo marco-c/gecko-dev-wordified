@@ -348,19 +348,13 @@ defined
 JS_CPU_ARM
 )
 uint32_t
-bits
+heapLength
 =
-mozilla
-:
-:
-CeilingLog2
-(
 heap
 -
 >
 byteLength
 (
-)
 )
 ;
 for
@@ -382,6 +376,7 @@ i
 +
 +
 )
+{
 jit
 :
 :
@@ -390,7 +385,7 @@ Assembler
 :
 updateBoundsCheck
 (
-bits
+heapLength
 (
 jit
 :
@@ -412,6 +407,7 @@ code_
 )
 )
 ;
+}
 /
 /
 We
