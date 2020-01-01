@@ -1488,6 +1488,17 @@ delimiter
 ;
 }
 }
+/
+/
+Temporarily
+disabled
+-
+see
+Bug
+735784
+#
+if
+0
 if
 (
 rv
@@ -1613,6 +1624,8 @@ VERSION_DOWNGRADE_ERROR
 ;
 }
 }
+#
+endif
 free
 (
 (
