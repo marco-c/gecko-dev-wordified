@@ -799,7 +799,8 @@ aChild
 PRInt32
 aIndexInContainer
 PRBool
-aInReinsertContent
+*
+aDidReconstruct
 )
 ;
 nsresult
