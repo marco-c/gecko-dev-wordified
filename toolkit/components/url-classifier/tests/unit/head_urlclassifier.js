@@ -896,10 +896,11 @@ url
 )
 {
 }
-streamCompleted
+streamFinished
 :
 function
 (
+status
 )
 {
 }
