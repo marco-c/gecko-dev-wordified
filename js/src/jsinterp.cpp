@@ -29936,7 +29936,9 @@ len
 )
 ;
 }
-script
+JSScript
+*
+newScript
 =
 fun
 -
@@ -29961,7 +29963,7 @@ args
 *
 callee
 fun
-script
+newScript
 construct
 OOMCheck
 (
@@ -29983,6 +29985,10 @@ state
 .
 *
 /
+script
+=
+newScript
+;
 pcCounts
 =
 script
