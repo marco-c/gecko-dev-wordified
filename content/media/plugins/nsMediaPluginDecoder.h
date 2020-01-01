@@ -189,7 +189,7 @@ mType
 ;
 }
 virtual
-nsDecoderStateMachine
+nsBuiltinDecoderStateMachine
 *
 CreateStateMachine
 (

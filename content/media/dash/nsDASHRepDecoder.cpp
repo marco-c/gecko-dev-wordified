@@ -294,7 +294,7 @@ msg
 )
 #
 endif
-nsDecoderStateMachine
+nsBuiltinDecoderStateMachine
 *
 nsDASHRepDecoder
 :
@@ -340,7 +340,7 @@ nsDASHRepDecoder
 :
 SetStateMachine
 (
-nsDecoderStateMachine
+nsBuiltinDecoderStateMachine
 *
 aSM
 )

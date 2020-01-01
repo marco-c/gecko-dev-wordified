@@ -150,6 +150,13 @@ h
 #
 include
 "
+nsBuiltinDecoderStateMachine
+.
+h
+"
+#
+include
+"
 VideoUtils
 .
 h

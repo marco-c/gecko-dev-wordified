@@ -376,7 +376,7 @@ only
 nsresult
 SetStateMachine
 (
-nsDecoderStateMachine
+nsBuiltinDecoderStateMachine
 *
 aSM
 )
@@ -403,7 +403,7 @@ main
 thread
 only
 .
-nsDecoderStateMachine
+nsBuiltinDecoderStateMachine
 *
 CreateStateMachine
 (
