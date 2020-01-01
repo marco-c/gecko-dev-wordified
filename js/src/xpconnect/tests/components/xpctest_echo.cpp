@@ -2724,14 +2724,6 @@ argv
 ]
 )
 ;
-cc
--
->
-SetExceptionWasThrown
-(
-JS_TRUE
-)
-;
 return
 NS_OK
 ;
