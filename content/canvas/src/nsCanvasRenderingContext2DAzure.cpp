@@ -20720,7 +20720,12 @@ if
 gfxPlatform
 :
 :
-UseAzureContentDrawing
+GetPlatform
+(
+)
+-
+>
+SupportsAzureContent
 (
 )
 )
