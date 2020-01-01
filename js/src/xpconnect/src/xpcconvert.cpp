@@ -4434,11 +4434,9 @@ buf
 else
 {
 *
-*
 (
 (
 jsval
-*
 *
 )
 d
