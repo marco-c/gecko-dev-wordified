@@ -521,7 +521,7 @@ aTargetContent
 ;
 NSString
 *
-CreateTruncatedCocoaLabel
+GetTruncatedCocoaLabel
 (
 const
 nsString
@@ -529,13 +529,6 @@ nsString
 itemLabel
 )
 ;
-/
-/
-returned
-object
-is
-not
-retained
 PRUint8
 GeckoModifiersForNodeAttribute
 (
