@@ -1812,6 +1812,17 @@ TopBookmarksContextMenuInfo
 )
 menuInfo
 ;
+menu
+.
+setHeaderTitle
+(
+info
+.
+getDisplayTitle
+(
+)
+)
+;
 if
 (
 !
