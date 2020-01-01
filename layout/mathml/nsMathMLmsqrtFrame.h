@@ -679,6 +679,14 @@ aPrevInFlow
 )
 ;
 NS_IMETHOD
+InheritAutomaticData
+(
+nsIFrame
+*
+aParent
+)
+;
+NS_IMETHOD
 AttributeChanged
 (
 PRInt32
