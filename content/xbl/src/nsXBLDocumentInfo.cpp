@@ -2486,11 +2486,6 @@ GetPrincipal
 (
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 if
 (
 !
