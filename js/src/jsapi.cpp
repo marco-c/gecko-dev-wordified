@@ -6348,6 +6348,12 @@ JSVERSION_1_8
 "
 }
 {
+JSVERSION_ECMA_5
+"
+ECMAv5
+"
+}
+{
 JSVERSION_DEFAULT
 js_default_str
 }
