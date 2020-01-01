@@ -4365,6 +4365,7 @@ gcStoreBuffer
 thisFromCtor
 (
 )
+gcNursery
 )
 #
 endif
