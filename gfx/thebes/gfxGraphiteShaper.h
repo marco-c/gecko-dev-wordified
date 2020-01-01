@@ -233,6 +233,9 @@ protected
 nsresult
 SetGlyphsFromSegment
 (
+gfxContext
+*
+aContext
 gfxShapedText
 *
 aShapedText
