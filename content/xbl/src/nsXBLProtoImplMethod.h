@@ -805,13 +805,11 @@ aClassObject
 ;
 virtual
 void
-Trace
+Traverse
 (
-TraceCallback
-aCallback
-void
-*
-aClosure
+nsCycleCollectionTraversalCallback
+&
+cb
 )
 const
 ;
