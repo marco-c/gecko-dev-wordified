@@ -148,6 +148,7 @@ testResolveRecursion
 )
 {
 static
+const
 JSClass
 my_resolve_class
 =

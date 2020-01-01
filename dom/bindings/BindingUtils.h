@@ -864,6 +864,7 @@ JSObject
 obj
 )
 {
+const
 js
 :
 :
@@ -1018,6 +1019,7 @@ JSObject
 obj
 )
 {
+const
 js
 :
 :
@@ -2486,6 +2488,7 @@ JSObject
 *
 >
 protoProto
+const
 JSClass
 *
 protoClass
@@ -2508,6 +2511,7 @@ JSObject
 *
 >
 interfaceProto
+const
 JSClass
 *
 constructorClass
@@ -3216,6 +3220,7 @@ JSObject
 obj
 )
 {
+const
 js
 :
 :

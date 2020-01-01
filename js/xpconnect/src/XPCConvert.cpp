@@ -671,6 +671,7 @@ nsISupports
 iface
 )
 {
+const
 JSClass
 *
 jsclass

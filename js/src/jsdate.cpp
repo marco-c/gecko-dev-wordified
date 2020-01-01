@@ -2992,6 +2992,7 @@ and
 definitions
 *
 /
+const
 Class
 DateObject
 :

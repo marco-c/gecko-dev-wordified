@@ -788,6 +788,7 @@ runtime
 }
 #
 endif
+const
 js
 :
 :
@@ -4810,6 +4811,7 @@ cx
 JSObject
 *
 obj
+const
 Class
 *
 clasp
@@ -5483,6 +5485,7 @@ NewObjectWithGivenProto
 ExclusiveContext
 *
 cx
+const
 js
 :
 :
@@ -5511,6 +5514,7 @@ NewObjectWithGivenProto
 ExclusiveContext
 *
 cx
+const
 js
 :
 :
@@ -5562,6 +5566,7 @@ NewObjectWithGivenProto
 ExclusiveContext
 *
 cx
+const
 js
 :
 :
@@ -5598,6 +5603,7 @@ inline
 JSProtoKey
 GetClassProtoKey
 (
+const
 js
 :
 :
@@ -5647,6 +5653,7 @@ FindProto
 ExclusiveContext
 *
 cx
+const
 js
 :
 :
@@ -5824,6 +5831,7 @@ NewObjectWithClassProtoCommon
 ExclusiveContext
 *
 cx
+const
 js
 :
 :
@@ -5853,6 +5861,7 @@ NewObjectWithClassProto
 ExclusiveContext
 *
 cx
+const
 js
 :
 :
@@ -5896,6 +5905,7 @@ NewObjectWithClassProto
 ExclusiveContext
 *
 cx
+const
 js
 :
 :
@@ -5976,6 +5986,7 @@ NewBuiltinClassInstance
 ExclusiveContext
 *
 cx
+const
 Class
 *
 clasp
@@ -6010,6 +6021,7 @@ NewBuiltinClassInstance
 ExclusiveContext
 *
 cx
+const
 Class
 *
 clasp
@@ -6875,6 +6887,7 @@ atom
 JSObject
 *
 protoProto
+const
 Class
 *
 clasp
@@ -7291,6 +7304,7 @@ obj
 JSObject
 *
 parent_proto
+const
 js
 :
 :

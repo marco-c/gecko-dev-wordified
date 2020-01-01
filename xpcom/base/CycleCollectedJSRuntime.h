@@ -468,6 +468,7 @@ DescribeCustomObjects
 JSObject
 *
 aObject
+const
 js
 :
 :
@@ -512,6 +513,7 @@ const
 void
 NoteGCThingXPCOMChildren
 (
+const
 js
 :
 :
@@ -531,6 +533,7 @@ virtual
 bool
 NoteCustomGCThingXPCOMChildren
 (
+const
 js
 :
 :

@@ -573,6 +573,7 @@ obj
 proto
 ;
 }
+const
 JSClass
 *
 objectClass

@@ -68,6 +68,7 @@ tests
 h
 "
 static
+const
 JSClass
 ObjectEmulatingUndefinedClass
 =

@@ -423,6 +423,7 @@ argument
 /
 /
 static
+const
 JSClass
 AnswerClass
 =

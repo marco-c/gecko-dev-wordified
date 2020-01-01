@@ -2628,6 +2628,7 @@ CheckTypeInference
 JSContext
 *
 cx
+const
 JSClass
 *
 clasp
@@ -2888,6 +2889,7 @@ CreateGlobalObject
 JSContext
 *
 cx
+const
 JSClass
 *
 clasp
@@ -3079,6 +3081,7 @@ if
 !
 (
 (
+const
 js
 :
 :

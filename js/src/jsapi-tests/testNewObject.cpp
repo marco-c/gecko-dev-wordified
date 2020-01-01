@@ -794,6 +794,7 @@ JSClass
 construct
 .
 static
+const
 JSClass
 cls
 =

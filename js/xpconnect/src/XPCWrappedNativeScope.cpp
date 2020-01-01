@@ -1189,6 +1189,7 @@ if
 mUseXBLScope
 )
 {
+const
 js
 :
 :

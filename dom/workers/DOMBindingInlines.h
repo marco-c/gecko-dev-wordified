@@ -259,6 +259,7 @@ _class
 \
 static
 inline
+const
 JSClass
 *
 \

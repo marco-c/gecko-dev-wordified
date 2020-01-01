@@ -72,6 +72,7 @@ namespace
 JS
 ;
 static
+const
 JSClass
 CustomClass
 =

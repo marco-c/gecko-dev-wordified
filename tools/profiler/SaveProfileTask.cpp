@@ -444,6 +444,7 @@ cx
 )
 ;
 static
+const
 JSClass
 c
 =

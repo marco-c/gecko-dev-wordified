@@ -1263,6 +1263,7 @@ NULL
 )
 ;
 }
+const
 Class
 RegExpObject
 :

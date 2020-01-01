@@ -908,6 +908,7 @@ obj
 )
 ;
 static
+const
 JSClass
 pm_class
 =

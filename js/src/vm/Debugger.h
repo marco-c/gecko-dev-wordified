@@ -2097,6 +2097,7 @@ tracer
 )
 ;
 static
+const
 Class
 jsclass
 ;

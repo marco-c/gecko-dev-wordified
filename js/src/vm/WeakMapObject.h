@@ -148,6 +148,7 @@ JSObject
 public
 :
 static
+const
 Class
 class_
 ;

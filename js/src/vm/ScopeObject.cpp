@@ -2273,6 +2273,7 @@ callee
 )
 ;
 }
+const
 Class
 CallObject
 :
@@ -2337,6 +2338,7 @@ escape
 /
 }
 ;
+const
 Class
 DeclEnvObject
 :
@@ -2580,6 +2582,7 @@ atom
 )
 )
 ;
+const
 Class
 *
 clasp
@@ -3816,6 +3819,7 @@ withThis
 )
 ;
 }
+const
 Class
 WithObject
 :
@@ -4823,6 +4827,7 @@ false
 )
 ;
 }
+const
 Class
 BlockObject
 :

@@ -1277,6 +1277,7 @@ Struct
 )
 ;
 }
+const
 Class
 js
 :
@@ -1300,6 +1301,7 @@ JS_ResolveStub
 JS_ConvertStub
 }
 ;
+const
 Class
 js
 :
@@ -1590,6 +1592,7 @@ NULL
 NULL
 \
 }
+const
 Class
 js
 :
@@ -1871,6 +1874,7 @@ template
 <
 >
 \
+const
 Class
 *
 \
@@ -2930,6 +2934,7 @@ return
 prototypeObj
 ;
 }
+const
 Class
 ArrayType
 :
@@ -5596,6 +5601,7 @@ Structs
 *
 *
 /
+const
 Class
 StructType
 :
@@ -8617,6 +8623,7 @@ cx
 global
 name
 (
+const
 JSClass
 *
 )
@@ -8929,6 +8936,7 @@ global
 /
 Binary
 blocks
+const
 Class
 BinaryBlock
 :

@@ -370,6 +370,7 @@ is
 JSContext
 *
 cx
+const
 Class
 *
 clasp
@@ -522,6 +523,7 @@ is
 JSContext
 *
 cx
+const
 Class
 *
 clasp
@@ -680,6 +682,7 @@ true
 ;
 }
 static
+const
 JSClass
 self_hosting_global_class
 =

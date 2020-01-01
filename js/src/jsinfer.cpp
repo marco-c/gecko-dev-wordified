@@ -6611,6 +6611,7 @@ return
 true
 ;
 }
+const
 Class
 *
 StackTypeSet
@@ -6629,6 +6630,7 @@ unknownObject
 return
 NULL
 ;
+const
 Class
 *
 clasp
@@ -6658,6 +6660,7 @@ i
 +
 )
 {
+const
 Class
 *
 nclasp
@@ -6734,6 +6737,7 @@ getTypedArrayType
 (
 )
 {
+const
 Class
 *
 clasp
@@ -6811,6 +6815,7 @@ i
 +
 )
 {
+const
 Class
 *
 clasp
@@ -6927,6 +6932,7 @@ i
 +
 )
 {
+const
 Class
 *
 clasp
@@ -7798,6 +7804,7 @@ newTypeObject
 ExclusiveContext
 *
 cx
+const
 Class
 *
 clasp
@@ -9302,6 +9309,7 @@ script
 jsbytecode
 *
 pc
+const
 Class
 *
 clasp
@@ -9325,6 +9333,7 @@ inline
 bool
 ClassCanHaveExtraProperties
 (
+const
 Class
 *
 clasp
@@ -9564,6 +9573,7 @@ StackTypeSet
 types
 )
 {
+const
 Class
 *
 clasp
@@ -23097,6 +23107,7 @@ splicePrototype
 JSContext
 *
 cx
+const
 Class
 *
 clasp
@@ -24076,6 +24087,7 @@ raw
 ^
 PointerHasher
 <
+const
 Class
 *
 3
@@ -24147,6 +24159,7 @@ JSObject
 :
 hasNewType
 (
+const
 Class
 *
 clasp
@@ -24230,6 +24243,7 @@ setNewTypeUnknown
 JSContext
 *
 cx
+const
 Class
 *
 clasp
@@ -24373,6 +24387,7 @@ ExclusiveContext
 :
 getNewType
 (
+const
 Class
 *
 clasp
@@ -25206,6 +25221,7 @@ ExclusiveContext
 :
 getLazyType
 (
+const
 Class
 *
 clasp

@@ -3122,6 +3122,7 @@ function
 pointers
 .
 static
+const
 JSClass
 sCTypesGlobalClass
 =
@@ -3143,6 +3144,7 @@ JS_ConvertStub
 }
 ;
 static
+const
 JSClass
 sCABIClass
 =
@@ -3209,6 +3211,7 @@ prototype
 objects
 .
 static
+const
 JSClass
 sCTypeProtoClass
 =
@@ -3271,6 +3274,7 @@ CData
 "
 .
 static
+const
 JSClass
 sCDataProtoClass
 =
@@ -3289,6 +3293,7 @@ JS_ConvertStub
 }
 ;
 static
+const
 JSClass
 sCTypeClass
 =
@@ -3333,6 +3338,7 @@ Trace
 }
 ;
 static
+const
 JSClass
 sCDataClass
 =
@@ -3374,6 +3380,7 @@ Call
 }
 ;
 static
+const
 JSClass
 sCClosureClass
 =
@@ -3421,6 +3428,7 @@ CDataFinalizer
 *
 /
 static
+const
 JSClass
 sCDataFinalizerProtoClass
 =
@@ -3479,6 +3487,7 @@ CDataFinalizerSlots
 *
 /
 static
+const
 JSClass
 sCDataFinalizerClass
 =
@@ -4417,6 +4426,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSClass
 sInt64ProtoClass
 =
@@ -4435,6 +4445,7 @@ JS_ConvertStub
 }
 ;
 static
+const
 JSClass
 sUInt64ProtoClass
 =
@@ -4453,6 +4464,7 @@ JS_ConvertStub
 }
 ;
 static
+const
 JSClass
 sInt64Class
 =
@@ -4478,6 +4490,7 @@ Finalize
 }
 ;
 static
+const
 JSClass
 sUInt64Class
 =
@@ -6285,6 +6298,7 @@ JSContext
 cx
 HandleObject
 parent
+const
 JSClass
 *
 clasp
@@ -50014,6 +50028,7 @@ bool
 isUnsigned
 )
 {
+const
 JSClass
 *
 clasp

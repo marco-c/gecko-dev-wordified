@@ -4352,6 +4352,7 @@ finalizeCount
 ;
 }
 static
+const
 JSClass
 FinalizeCounterClass
 =

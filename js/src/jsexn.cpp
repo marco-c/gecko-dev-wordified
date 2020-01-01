@@ -362,6 +362,7 @@ MutableHandleObject
 objp
 )
 ;
+const
 Class
 ErrorObject
 :

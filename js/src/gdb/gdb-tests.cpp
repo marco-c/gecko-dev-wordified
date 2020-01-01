@@ -115,6 +115,7 @@ object
 .
 *
 /
+const
 JSClass
 global_class
 =

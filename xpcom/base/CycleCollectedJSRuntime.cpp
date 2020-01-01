@@ -3276,6 +3276,7 @@ JSObject
 aThing
 )
 ;
+const
 js
 :
 :
@@ -3584,6 +3585,7 @@ CycleCollectedJSRuntime
 :
 NoteGCThingXPCOMChildren
 (
+const
 js
 :
 :

@@ -4288,6 +4288,7 @@ asmJSModuleData
 ;
 }
 static
+const
 Class
 class_
 ;

@@ -8556,6 +8556,7 @@ ThisType
 ;
 static
 inline
+const
 Class
 *
 protoClass
@@ -8577,6 +8578,7 @@ ArrayTypeID
 }
 static
 inline
+const
 Class
 *
 fastClass
@@ -21386,6 +21388,7 @@ base
 )
 *
 /
+const
 Class
 ArrayBufferObject
 :
@@ -21436,6 +21439,7 @@ JS_ResolveStub
 JS_ConvertStub
 }
 ;
+const
 Class
 ArrayBufferObject
 :
@@ -22020,6 +22024,7 @@ return
 false
 ;
 \
+const
 Class
 *
 clasp
@@ -22158,6 +22163,7 @@ NULL
 ;
 \
 \
+const
 Class
 *
 clasp
@@ -23060,6 +23066,7 @@ IMPL_TYPED_ARRAY_STATICS
 Uint8ClampedArray
 )
 ;
+const
 Class
 TypedArrayObject
 :
@@ -23111,6 +23118,7 @@ Uint8ClampedArray
 )
 }
 ;
+const
 Class
 TypedArrayObject
 :
@@ -23491,6 +23499,7 @@ return
 arrayBufferProto
 ;
 }
+const
 Class
 DataViewObject
 :
@@ -23544,6 +23553,7 @@ JS_ResolveStub
 JS_ConvertStub
 }
 ;
+const
 Class
 DataViewObject
 :

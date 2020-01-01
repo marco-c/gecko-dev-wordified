@@ -232,6 +232,7 @@ Blob
 )
 ;
 static
+const
 JSClass
 sClass
 ;
@@ -1166,6 +1167,7 @@ true
 }
 }
 ;
+const
 JSClass
 Blob
 :
@@ -1264,6 +1266,7 @@ File
 )
 ;
 static
+const
 JSClass
 sClass
 ;
@@ -1387,6 +1390,7 @@ if
 aObj
 )
 {
+const
 JSClass
 *
 classPtr
@@ -1448,6 +1452,7 @@ NULL
 ;
 }
 static
+const
 JSClass
 *
 Class
@@ -2311,6 +2316,7 @@ args
 }
 }
 ;
+const
 JSClass
 File
 :
@@ -2398,6 +2404,7 @@ if
 aObj
 )
 {
+const
 JSClass
 *
 classPtr

@@ -177,6 +177,7 @@ mNpp
 }
 ;
 extern
+const
 JSClass
 sNPObjectJSWrapperClass
 ;

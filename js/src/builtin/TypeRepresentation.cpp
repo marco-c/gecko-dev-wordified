@@ -281,6 +281,7 @@ for
 the
 owner
 object
+const
 Class
 TypeRepresentation
 :

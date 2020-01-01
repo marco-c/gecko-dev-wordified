@@ -1095,6 +1095,7 @@ popBack
 }
 }
 static
+const
 JSClass
 workerGlobalClass
 =

@@ -159,6 +159,7 @@ chromeworker
 bool
 ClassIsWorker
 (
+const
 JSClass
 *
 aClass

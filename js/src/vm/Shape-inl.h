@@ -279,6 +279,7 @@ BaseShape
 JSCompartment
 *
 comp
+const
 Class
 *
 clasp
@@ -356,6 +357,7 @@ BaseShape
 JSCompartment
 *
 comp
+const
 Class
 *
 clasp
@@ -803,6 +805,7 @@ StackBaseShape
 ExclusiveContext
 *
 cx
+const
 Class
 *
 clasp

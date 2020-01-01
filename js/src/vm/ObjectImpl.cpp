@@ -2314,6 +2314,7 @@ shape
 "
 )
 ;
+const
 Class
 *
 clasp
@@ -3817,6 +3818,7 @@ it
 .
 *
 /
+const
 Class
 *
 clasp

@@ -288,6 +288,7 @@ trc
 )
 ;
 }
+const
 Class
 RegExpStaticsObject
 :

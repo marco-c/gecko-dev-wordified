@@ -5320,6 +5320,7 @@ return
 false
 ;
 }
+const
 Class
 ArrayObject
 :

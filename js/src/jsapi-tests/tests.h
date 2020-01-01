@@ -1549,6 +1549,7 @@ msgs
 ;
 }
 static
+const
 JSClass
 *
 basicGlobalClass
@@ -1556,6 +1557,7 @@ basicGlobalClass
 )
 {
 static
+const
 JSClass
 c
 =
@@ -1978,6 +1980,7 @@ cx
 ;
 }
 virtual
+const
 JSClass
 *
 getGlobalClass

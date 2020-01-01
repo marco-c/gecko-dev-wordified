@@ -140,6 +140,7 @@ public
 JSObject
 {
 static
+const
 Class
 protoClass
 ;
@@ -188,6 +189,7 @@ obj
 public
 :
 static
+const
 Class
 class_
 ;

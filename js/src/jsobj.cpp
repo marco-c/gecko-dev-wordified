@@ -564,6 +564,7 @@ Value
 )
 )
 ;
+const
 Class
 JSObject
 :
@@ -605,6 +606,7 @@ JS_ResolveStub
 JS_ConvertStub
 }
 ;
+const
 Class
 *
 const
@@ -8235,6 +8237,7 @@ gc
 AllocKind
 NewObjectGCKind
 (
+const
 js
 :
 :
@@ -8293,6 +8296,7 @@ NewObject
 ExclusiveContext
 *
 cx
+const
 Class
 *
 clasp
@@ -8603,6 +8607,7 @@ fillProto
 (
 EntryIndex
 entry
+const
 Class
 *
 clasp
@@ -8682,6 +8687,7 @@ NewObjectWithGivenProto
 ExclusiveContext
 *
 cxArg
+const
 js
 :
 :
@@ -9040,6 +9046,7 @@ NewObjectWithClassProtoCommon
 ExclusiveContext
 *
 cxArg
+const
 js
 :
 :
@@ -10145,6 +10152,7 @@ CreateThis
 JSContext
 *
 cx
+const
 Class
 *
 newclasp
@@ -12748,6 +12756,7 @@ objects
 .
 *
 /
+const
 Class
 *
 aClass
@@ -12759,6 +12768,7 @@ getClass
 (
 )
 ;
+const
 Class
 *
 bClass
@@ -15150,6 +15160,7 @@ atom
 JSObject
 *
 protoProto
+const
 Class
 *
 clasp
@@ -16243,6 +16254,7 @@ IsStandardClassResolved
 JSObject
 *
 obj
+const
 js
 :
 :
@@ -16302,6 +16314,7 @@ MarkStandardClassInitializedNoProto
 JSObject
 *
 obj
+const
 js
 :
 :
@@ -16395,6 +16408,7 @@ obj
 JSObject
 *
 protoProto_
+const
 Class
 *
 clasp
@@ -19926,6 +19940,7 @@ DECLARE_PROTOTYPE_CLASS_INIT
 undef
 DECLARE_PROTOTYPE_CLASS_INIT
 static
+const
 ClassInitializerOp
 lazy_prototype_init
 [
@@ -19962,6 +19977,7 @@ JSContext
 cx
 HandleObject
 obj
+const
 Class
 *
 clasp
@@ -21010,6 +21026,7 @@ JSProtoKey
 protoKey
 MutableHandleValue
 vp
+const
 Class
 *
 clasp
@@ -22869,6 +22886,7 @@ CallAddPropertyHook
 ExclusiveContext
 *
 cx
+const
 Class
 *
 clasp
@@ -23030,6 +23048,7 @@ CallAddPropertyHookDense
 ExclusiveContext
 *
 cx
+const
 Class
 *
 clasp
@@ -24257,6 +24276,7 @@ default
 .
 *
 /
+const
 Class
 *
 clasp
@@ -24600,6 +24620,7 @@ bool
 recursedp
 )
 {
+const
 Class
 *
 clasp
@@ -30604,6 +30625,7 @@ shortid
 =
 0
 ;
+const
 Class
 *
 clasp
@@ -32476,6 +32498,7 @@ id
 cx
 )
 ;
+const
 Class
 *
 clasp
@@ -33022,6 +33045,7 @@ it
 .
 *
 /
+const
 Class
 *
 clasp
@@ -33829,6 +33853,7 @@ JSProtoKey
 protoKey
 MutableHandleObject
 protop
+const
 Class
 *
 clasp
@@ -35069,6 +35094,7 @@ toObject
 (
 )
 ;
+const
 Class
 *
 clasp
@@ -35783,6 +35809,7 @@ void
 obj
 )
 ;
+const
 Class
 *
 clasp
@@ -35807,6 +35834,7 @@ s
 n
 "
 (
+const
 void
 *
 )

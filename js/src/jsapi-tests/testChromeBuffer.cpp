@@ -126,6 +126,7 @@ system_principals
 1
 }
 ;
+const
 JSClass
 global_class
 =

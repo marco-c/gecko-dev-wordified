@@ -3131,6 +3131,7 @@ num_parseInt
 JS_FS_END
 }
 ;
+const
 Class
 NumberObject
 :

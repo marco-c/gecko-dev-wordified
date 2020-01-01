@@ -193,6 +193,7 @@ toPrivate
 ;
 }
 static
+const
 Class
 class_
 ;

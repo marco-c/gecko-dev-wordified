@@ -2277,6 +2277,7 @@ aData
 /
 HTMLAllCollection
 extern
+const
 JSClass
 sHTMLDocumentAllClass
 ;

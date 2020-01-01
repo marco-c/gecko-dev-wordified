@@ -432,6 +432,7 @@ ClearGlobalObjectOwner
 )
 ;
 static
+const
 JSClass
 gSharedGlobalClass
 ;
@@ -984,6 +985,7 @@ did_resolve
 )
 ;
 }
+const
 JSClass
 nsXBLDocGlobalObject
 :

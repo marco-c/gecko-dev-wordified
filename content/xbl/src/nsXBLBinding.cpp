@@ -4923,6 +4923,7 @@ proto
 break
 ;
 }
+const
 JSClass
 *
 clazz

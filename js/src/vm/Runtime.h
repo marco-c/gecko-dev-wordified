@@ -1455,6 +1455,7 @@ object
 .
 *
 /
+const
 Class
 *
 clasp
@@ -1735,6 +1736,7 @@ inline
 bool
 lookupProto
 (
+const
 Class
 *
 clasp
@@ -1755,6 +1757,7 @@ inline
 bool
 lookupGlobal
 (
+const
 Class
 *
 clasp
@@ -1777,6 +1780,7 @@ pentry
 bool
 lookupType
 (
+const
 Class
 *
 clasp
@@ -1883,6 +1887,7 @@ fillProto
 (
 EntryIndex
 entry
+const
 Class
 *
 clasp
@@ -1907,6 +1912,7 @@ fillGlobal
 (
 EntryIndex
 entry
+const
 Class
 *
 clasp
@@ -1931,6 +1937,7 @@ fillType
 (
 EntryIndex
 entry
+const
 Class
 *
 clasp
@@ -2011,6 +2018,7 @@ private
 bool
 lookup
 (
+const
 Class
 *
 clasp
@@ -2120,6 +2128,7 @@ fill
 (
 EntryIndex
 entry_
+const
 Class
 *
 clasp

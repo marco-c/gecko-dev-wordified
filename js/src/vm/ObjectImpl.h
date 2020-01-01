@@ -6086,6 +6086,7 @@ type_
 proto
 ;
 }
+const
 Class
 *
 getClass
@@ -7697,6 +7698,7 @@ propid
 shape
 ;
 }
+const
 JSClass
 *
 getJSClass

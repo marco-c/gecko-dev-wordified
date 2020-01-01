@@ -1403,6 +1403,7 @@ gc
 :
 AllocKind
 kind
+const
 Class
 *
 clasp
@@ -1962,6 +1963,7 @@ GetGCKindSlots
 (
 AllocKind
 thingKind
+const
 Class
 *
 clasp

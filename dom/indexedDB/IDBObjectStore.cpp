@@ -2065,6 +2065,7 @@ JSObject
 mGlobal
 ;
 static
+const
 JSClass
 sGlobalClass
 ;
@@ -2306,6 +2307,7 @@ mRuntime
 }
 }
 ;
+const
 JSClass
 ThreadLocalJSRuntime
 :
@@ -3755,6 +3757,7 @@ obj
 /
 anonymous
 namespace
+const
 JSClass
 IDBObjectStore
 :

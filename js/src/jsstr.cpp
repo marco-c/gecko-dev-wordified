@@ -2616,6 +2616,7 @@ return
 true
 ;
 }
+const
 Class
 StringObject
 :
@@ -18266,6 +18267,7 @@ toObject
 (
 )
 ;
+const
 Class
 *
 clasp

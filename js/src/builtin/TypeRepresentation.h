@@ -616,6 +616,7 @@ p
 private
 :
 static
+const
 Class
 class_
 ;

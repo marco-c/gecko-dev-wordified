@@ -1479,6 +1479,7 @@ char
 *
 name
 ;
+const
 js
 :
 :

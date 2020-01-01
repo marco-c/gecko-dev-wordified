@@ -367,6 +367,7 @@ return
 false
 ;
 }
+const
 js
 :
 :

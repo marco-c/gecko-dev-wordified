@@ -1371,6 +1371,7 @@ pobj_
 ;
 do
 {
+const
 Class
 *
 clasp
@@ -2744,6 +2745,7 @@ metadata
 return
 NULL
 ;
+const
 Class
 *
 clasp
@@ -5681,6 +5683,7 @@ ni
 )
 ;
 }
+const
 Class
 PropertyIteratorObject
 :
@@ -6275,6 +6278,7 @@ return
 false
 ;
 }
+const
 Class
 ElementIteratorObject
 :
@@ -8639,6 +8643,7 @@ return
 true
 ;
 }
+const
 Class
 StopIterationObject
 :
@@ -9653,6 +9658,7 @@ gen_
 fp
 ;
 }
+const
 Class
 LegacyGeneratorObject
 :
@@ -9742,6 +9748,7 @@ iterator_iteratorObject
 }
 }
 ;
+const
 Class
 StarGeneratorObject
 :
@@ -12240,6 +12247,7 @@ isUndefined
 )
 )
 {
+const
 Class
 *
 cls

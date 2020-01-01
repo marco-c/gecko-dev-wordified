@@ -14715,6 +14715,7 @@ obj
 JSObject
 *
 parent_proto
+const
 JSClass
 *
 clasp
@@ -14786,6 +14787,7 @@ proto
 extern
 JS_PUBLIC_API
 (
+const
 JSClass
 *
 )
@@ -14809,6 +14811,7 @@ cx
 JSObject
 *
 obj
+const
 JSClass
 *
 clasp
@@ -14879,6 +14882,7 @@ cx
 JSObject
 *
 obj
+const
 JSClass
 *
 clasp
@@ -15552,6 +15556,7 @@ JS_NewGlobalObject
 JSContext
 *
 cx
+const
 JSClass
 *
 clasp
@@ -15607,6 +15612,7 @@ JS_NewObject
 JSContext
 *
 cx
+const
 JSClass
 *
 clasp
@@ -15719,6 +15725,7 @@ JS_NewObjectWithGivenProto
 JSContext
 *
 cx
+const
 JSClass
 *
 clasp
@@ -15878,6 +15885,7 @@ const
 char
 *
 name
+const
 JSClass
 *
 clasp
@@ -27855,6 +27863,7 @@ JS_NewObjectForConstructor
 JSContext
 *
 cx
+const
 JSClass
 *
 clasp

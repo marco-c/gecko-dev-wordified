@@ -640,6 +640,7 @@ this
 )
 ;
 }
+const
 Class
 js
 :

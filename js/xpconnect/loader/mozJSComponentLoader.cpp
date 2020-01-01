@@ -437,6 +437,7 @@ continue
 working
 .
 static
+const
 JSClass
 kFakeBackstagePassJSClass
 =

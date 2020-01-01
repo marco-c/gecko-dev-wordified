@@ -3817,6 +3817,7 @@ NULL
 .
 *
 /
+const
 Class
 *
 getKnownClass
@@ -6351,6 +6352,7 @@ type
 .
 *
 /
+const
 Class
 *
 clasp
@@ -7059,6 +7061,7 @@ endif
 inline
 TypeObject
 (
+const
 Class
 *
 clasp
@@ -7939,6 +7942,7 @@ TypeObject
 struct
 Lookup
 {
+const
 Class
 *
 clasp
@@ -7948,6 +7952,7 @@ proto
 ;
 Lookup
 (
+const
 Class
 *
 clasp
@@ -9781,6 +9786,7 @@ newTypeObject
 ExclusiveContext
 *
 cx
+const
 Class
 *
 clasp

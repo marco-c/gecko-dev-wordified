@@ -5321,6 +5321,7 @@ SimulateActivityCallback
 JS_FS_END
 }
 ;
+const
 JSClass
 global_class
 =
@@ -6013,6 +6014,7 @@ true
 ;
 }
 static
+const
 JSClass
 env_class
 =
@@ -7070,6 +7072,7 @@ return
 ;
 }
 extern
+const
 JSClass
 global_class
 ;

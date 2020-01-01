@@ -4227,6 +4227,7 @@ nsIClassInfo
 )
 NS_INTERFACE_MAP_END
 static
+const
 JSClass
 sDOMConstructorProtoClass
 =
@@ -12801,6 +12802,7 @@ dom_obj
 =
 wrapped_obj
 ;
+const
 JSClass
 *
 dom_class
@@ -22214,6 +22216,7 @@ rv
 /
 /
 HTMLAllCollection
+const
 JSClass
 sHTMLDocumentAllClass
 =

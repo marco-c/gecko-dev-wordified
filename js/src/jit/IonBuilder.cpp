@@ -51834,6 +51834,7 @@ inline
 bool
 TestClassHasAccessorHook
 (
+const
 Class
 *
 clasp

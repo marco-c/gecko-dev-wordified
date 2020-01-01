@@ -240,6 +240,7 @@ namespace
 XrayUtils
 {
 extern
+const
 JSClass
 HolderClass
 ;

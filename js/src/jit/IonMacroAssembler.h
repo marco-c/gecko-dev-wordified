@@ -1080,6 +1080,7 @@ Register
 obj
 Register
 scratch
+const
 js
 :
 :

@@ -208,6 +208,7 @@ js
 :
 types
 ;
+const
 Class
 BooleanObject
 :

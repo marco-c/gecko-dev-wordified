@@ -2000,6 +2000,7 @@ to
 the
 JSClass
 .
+const
 JSClass
 *
 clasp
@@ -6696,6 +6697,7 @@ mScriptableInfo
 create
 our
 flatJSObject
+const
 JSClass
 *
 jsclazz

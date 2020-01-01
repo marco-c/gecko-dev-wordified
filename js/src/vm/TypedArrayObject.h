@@ -339,10 +339,12 @@ args
 public
 :
 static
+const
 Class
 class_
 ;
 static
+const
 Class
 protoClass
 ;
@@ -1630,6 +1632,7 @@ kind
 public
 :
 static
+const
 Class
 classes
 [
@@ -1640,6 +1643,7 @@ TYPE_MAX
 ]
 ;
 static
+const
 Class
 protoClasses
 [
@@ -2382,6 +2386,7 @@ kind
 private
 :
 static
+const
 Class
 protoClass
 ;
@@ -2486,6 +2491,7 @@ proto
 public
 :
 static
+const
 Class
 class_
 ;

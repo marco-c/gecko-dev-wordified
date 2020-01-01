@@ -21645,6 +21645,7 @@ DescribeCustomObjects
 JSObject
 *
 obj
+const
 js
 :
 :
@@ -21759,6 +21760,7 @@ XPCJSRuntime
 :
 NoteCustomGCThingXPCOMChildren
 (
+const
 js
 :
 :

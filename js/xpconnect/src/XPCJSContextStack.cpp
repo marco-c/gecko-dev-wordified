@@ -834,6 +834,7 @@ obj
 )
 ;
 }
+const
 JSClass
 xpc
 :

@@ -730,6 +730,7 @@ JS_NewObjectWithUniqueType
 JSContext
 *
 cx
+const
 JSClass
 *
 clasp
@@ -820,6 +821,7 @@ NewObjectWithGivenProto
 (
 cx
 (
+const
 js
 :
 :
@@ -2822,6 +2824,7 @@ objArg
 JSObject
 *
 parent_protoArg
+const
 JSClass
 *
 clasp
@@ -3035,6 +3038,7 @@ JSObject
 proto
 )
 {
+const
 js
 :
 :

@@ -450,6 +450,7 @@ return
 }
 else
 {
+const
 js
 :
 :

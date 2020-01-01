@@ -249,6 +249,7 @@ JSSLOT_RESOLVING
 namespace
 XrayUtils
 {
+const
 JSClass
 HolderClass
 =
@@ -315,6 +316,7 @@ obj
 return
 XrayForDOMObject
 ;
+const
 js
 :
 :
@@ -1824,6 +1826,7 @@ principal
 )
 ;
 }
+const
 JSClass
 ExpandoObjectClass
 =
@@ -6824,6 +6827,7 @@ wrapper
 )
 )
 ;
+const
 js
 :
 :
@@ -7109,6 +7113,7 @@ obj
 )
 )
 ;
+const
 js
 :
 :

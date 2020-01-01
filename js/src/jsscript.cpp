@@ -6259,6 +6259,7 @@ NULL
 )
 ;
 }
+const
 Class
 ScriptSourceObject
 :

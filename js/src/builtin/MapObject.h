@@ -530,6 +530,7 @@ obj
 )
 ;
 static
+const
 Class
 class_
 ;
@@ -892,6 +893,7 @@ obj
 )
 ;
 static
+const
 Class
 class_
 ;

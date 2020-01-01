@@ -398,6 +398,7 @@ ParallelArrayToString
 JS_FS_END
 }
 ;
+const
 Class
 ParallelArrayObject
 :
@@ -433,6 +434,7 @@ JS_ResolveStub
 JS_ConvertStub
 }
 ;
+const
 Class
 ParallelArrayObject
 :

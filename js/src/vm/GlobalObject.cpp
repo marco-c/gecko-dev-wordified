@@ -2834,6 +2834,7 @@ create
 JSContext
 *
 cx
+const
 Class
 *
 clasp
@@ -3425,6 +3426,7 @@ CreateBlankProto
 JSContext
 *
 cx
+const
 Class
 *
 clasp
@@ -3498,6 +3500,7 @@ createBlankPrototype
 JSContext
 *
 cx
+const
 Class
 *
 clasp
@@ -3557,6 +3560,7 @@ createBlankPrototypeInheriting
 JSContext
 *
 cx
+const
 Class
 *
 clasp
@@ -3773,6 +3777,7 @@ getPrivate
 ;
 }
 static
+const
 Class
 GlobalDebuggees_class
 =

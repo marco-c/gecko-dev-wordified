@@ -1474,6 +1474,7 @@ return
 "
 "
 static
+const
 DOMJSClass
 Class
 =
@@ -8218,6 +8219,7 @@ descriptor
 GetJSClass
 '
 '
+const
 JSClass
 *
 '

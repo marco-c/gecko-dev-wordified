@@ -1205,6 +1205,7 @@ strict
 (
 )
 ;
+const
 Class
 *
 clasp
@@ -4067,6 +4068,7 @@ object
 .
 *
 /
+const
 Class
 NormalArgumentsObject
 :
@@ -4216,6 +4218,7 @@ functionality
 .
 *
 /
+const
 Class
 StrictArgumentsObject
 :

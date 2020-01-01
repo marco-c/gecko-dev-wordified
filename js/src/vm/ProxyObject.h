@@ -536,6 +536,7 @@ CONSTRUCT_SLOT
 public
 :
 static
+const
 Class
 class_
 ;
@@ -609,6 +610,7 @@ ProxyObject
 public
 :
 static
+const
 Class
 class_
 ;
@@ -623,6 +625,7 @@ ObjectProxyObject
 public
 :
 static
+const
 Class
 class_
 ;

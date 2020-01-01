@@ -2256,6 +2256,7 @@ h
 extern
 JS_FRIEND_DATA
 (
+const
 js
 :
 :
@@ -2268,6 +2269,7 @@ FunctionProxyClassPtr
 extern
 JS_FRIEND_DATA
 (
+const
 js
 :
 :
@@ -2280,6 +2282,7 @@ ObjectProxyClassPtr
 extern
 JS_FRIEND_DATA
 (
+const
 js
 :
 :

@@ -441,6 +441,7 @@ be
 safe
 .
 static
+const
 JSClass
 gSharedGlobalClass
 ;
@@ -559,6 +560,7 @@ did_resolve
 )
 ;
 }
+const
 JSClass
 nsXULPDGlobalObject
 :

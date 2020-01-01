@@ -6561,6 +6561,7 @@ JSObject
 public
 :
 static
+const
 Class
 class_
 ;
@@ -6676,6 +6677,7 @@ anonymous
 namespace
 *
 /
+const
 Class
 MapIteratorObject
 :
@@ -7582,6 +7584,7 @@ Map
 *
 *
 /
+const
 Class
 MapObject
 :
@@ -7764,6 +7767,7 @@ GlobalObject
 *
 >
 global
+const
 Class
 *
 clasp
@@ -10192,6 +10196,7 @@ JSObject
 public
 :
 static
+const
 Class
 class_
 ;
@@ -10307,6 +10312,7 @@ anonymous
 namespace
 *
 /
+const
 Class
 SetIteratorObject
 :
@@ -11173,6 +11179,7 @@ Set
 *
 *
 /
+const
 Class
 SetObject
 :

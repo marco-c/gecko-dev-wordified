@@ -955,6 +955,7 @@ Value
 vp
 )
 ;
+const
 JSClass
 sNPObjectJSWrapperClass
 =
@@ -1111,6 +1112,7 @@ obj
 )
 ;
 static
+const
 JSClass
 sNPObjectMemberClass
 =
@@ -5053,6 +5055,7 @@ about
 /
 compartments
 .
+const
 JSClass
 *
 clazz
