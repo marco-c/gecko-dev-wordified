@@ -7392,6 +7392,16 @@ LIns
 scopeChain
 (
 )
+;
+JS_REQUIRES_STACK
+nanojit
+:
+:
+LIns
+*
+entryScopeChain
+(
+)
 const
 ;
 JS_REQUIRES_STACK
@@ -8891,7 +8901,7 @@ nslots
 ;
 JS_REQUIRES_STACK
 void
-putArguments
+putActivationObjects
 (
 )
 ;
