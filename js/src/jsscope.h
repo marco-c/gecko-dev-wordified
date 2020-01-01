@@ -3400,7 +3400,7 @@ Cell
 public
 :
 friend
-class
+struct
 Shape
 ;
 friend
