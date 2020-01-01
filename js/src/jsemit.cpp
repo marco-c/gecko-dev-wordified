@@ -40173,8 +40173,6 @@ JSOP_POPV
 .
 *
 /
-useful
-=
 wantval
 =
 !
@@ -40189,6 +40187,18 @@ TCF_IN_FUNCTION
 |
 TCF_NO_SCRIPT_RVAL
 )
+)
+;
+useful
+=
+wantval
+|
+|
+pn
+-
+>
+isDirectivePrologueMember
+(
 )
 ;
 if
