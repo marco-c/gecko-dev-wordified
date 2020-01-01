@@ -689,10 +689,6 @@ autoIncrement
 (
 false
 )
-multiEntry
-(
-false
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -740,12 +736,6 @@ autoIncrement
 aOther
 .
 autoIncrement
-)
-multiEntry
-(
-aOther
-.
-multiEntry
 )
 {
 MOZ_COUNT_CTOR
