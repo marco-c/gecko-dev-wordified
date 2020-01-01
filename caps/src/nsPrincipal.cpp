@@ -1819,6 +1819,7 @@ CheckSameOriginPrincipal
 (
 this
 aOther
+PR_FALSE
 )
 )
 ;
