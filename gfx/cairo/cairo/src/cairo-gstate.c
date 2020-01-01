@@ -8841,6 +8841,12 @@ source_pattern
 base
 )
 ;
+_cairo_clip_init
+(
+&
+clip
+)
+;
 /
 *
 For
