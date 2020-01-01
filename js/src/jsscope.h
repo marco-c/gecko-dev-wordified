@@ -4487,8 +4487,10 @@ lookup
 typedef
 HashSet
 <
+ReadBarriered
+<
 UnownedBaseShape
-*
+>
 BaseShapeEntry
 SystemAllocPolicy
 >
@@ -8180,11 +8182,10 @@ properties
 .
 *
 /
-js
-:
-:
+ReadBarriered
+<
 Shape
-*
+>
 shape
 ;
 /

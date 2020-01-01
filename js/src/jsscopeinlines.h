@@ -2440,7 +2440,7 @@ compartment
 (
 )
 ;
-JS_ASSERT
+if
 (
 comp
 -
@@ -2449,7 +2449,6 @@ needsBarrier
 (
 )
 )
-;
 MarkShapeUnbarriered
 (
 comp
@@ -2570,7 +2569,7 @@ compartment
 (
 )
 ;
-JS_ASSERT
+if
 (
 comp
 -
@@ -2579,7 +2578,6 @@ needsBarrier
 (
 )
 )
-;
 MarkBaseShapeUnbarriered
 (
 comp
