@@ -2440,6 +2440,11 @@ nationalFormat
 ;
 if
 (
+parsedNumber
+.
+internationalNumber
+&
+&
 number
 .
 toString
