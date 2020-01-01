@@ -5171,6 +5171,11 @@ WordCanWrap
 const
 {
 return
+WhiteSpaceCanWrap
+(
+)
+&
+&
 mWordWrap
 =
 =
