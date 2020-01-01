@@ -1364,6 +1364,12 @@ getter
 =
 NULL
 ;
+desc
+.
+setter
+=
+NULL
+;
 /
 /
 Pick
@@ -1374,12 +1380,6 @@ getter
 /
 setter
 .
-desc
-.
-setter
-=
-NULL
-;
 return
 defineProperty
 (
