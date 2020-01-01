@@ -3055,6 +3055,8 @@ char
 name
 PRBool
 isGlobal
+PRUint32
+interfacesBitmap
 XPCNativeScriptableInfo
 *
 si

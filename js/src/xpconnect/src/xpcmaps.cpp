@@ -3451,6 +3451,8 @@ char
 name
 JSBool
 isGlobal
+PRUint32
+interfacesBitmap
 XPCNativeScriptableInfo
 *
 si
@@ -3479,6 +3481,7 @@ key
 (
 flags
 name
+interfacesBitmap
 )
 ;
 Entry
@@ -3536,6 +3539,7 @@ key
 TransferNameOwnership
 (
 )
+interfacesBitmap
 )
 ;
 if
