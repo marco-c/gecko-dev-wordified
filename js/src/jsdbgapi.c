@@ -888,6 +888,10 @@ code
 {
 code
 =
+(
+jsbytecode
+*
+)
 JS_malloc
 (
 cx
