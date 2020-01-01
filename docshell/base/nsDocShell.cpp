@@ -24217,7 +24217,7 @@ bucketId
 nsISecurityUITelemetry
 :
 :
-WARNING_BAD_CERT_STS
+WARNING_BAD_CERT_TOP_STS
 ;
 }
 else
@@ -24227,7 +24227,7 @@ bucketId
 nsISecurityUITelemetry
 :
 :
-WARNING_BAD_CERT
+WARNING_BAD_CERT_TOP
 ;
 }
 if
@@ -24299,6 +24299,12 @@ alternateErrorPage
 ;
 if
 (
+!
+IsFrame
+(
+)
+&
+&
 errorPage
 .
 EqualsIgnoreCase
