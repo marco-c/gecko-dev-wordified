@@ -31262,7 +31262,7 @@ null
 ;
 gBrowser
 .
-loadURIWithFlag
+loadURIWithFlags
 (
 aURI
 .
