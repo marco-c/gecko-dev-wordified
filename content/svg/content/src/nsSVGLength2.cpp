@@ -1052,7 +1052,7 @@ str
 )
 )
 return
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 char
 *
@@ -1109,7 +1109,7 @@ NS_OK
 }
 }
 return
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 float
@@ -1934,7 +1934,7 @@ AnimationNeedsResample
 #
 endif
 }
-void
+nsresult
 nsSVGLength2
 :
 :
@@ -1956,6 +1956,7 @@ unitType
 )
 )
 return
+NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 float
 valueInUserUnits
@@ -1981,8 +1982,11 @@ valueInUserUnits
 aSVGElement
 )
 ;
+return
+NS_OK
+;
 }
-void
+nsresult
 nsSVGLength2
 :
 :
@@ -1997,6 +2001,12 @@ nsSVGElement
 aSVGElement
 )
 {
+NS_ENSURE_FINITE
+(
+valueInSpecifiedUnits
+NS_ERROR_ILLEGAL_VALUE
+)
+;
 if
 (
 !
@@ -2006,6 +2016,7 @@ unitType
 )
 )
 return
+NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 mBaseVal
 =
@@ -2047,6 +2058,9 @@ AnimationNeedsResample
 }
 #
 endif
+return
+NS_OK
+;
 }
 nsresult
 nsSVGLength2

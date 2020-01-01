@@ -645,7 +645,7 @@ key
 )
 ;
 return
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 void
@@ -799,7 +799,7 @@ tmp
 ;
 }
 return
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 nsresult
