@@ -2419,12 +2419,6 @@ isDirtyLine
 =
 false
 ;
-flags
-.
-sawEOL
-=
-true
-;
 }
 /
 /
