@@ -1922,6 +1922,12 @@ aRenderingContext
 )
 ;
 virtual
+IntrinsicSize
+GetIntrinsicSize
+(
+)
+;
+virtual
 nsSize
 GetIntrinsicRatio
 (
