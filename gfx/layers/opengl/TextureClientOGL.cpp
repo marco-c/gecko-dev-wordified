@@ -408,7 +408,7 @@ us
 though
 .
 }
-void
+bool
 DeprecatedTextureClientSharedOGL
 :
 :
@@ -429,6 +429,9 @@ aContentType
 mSize
 =
 aSize
+;
+return
+true
 ;
 }
 }

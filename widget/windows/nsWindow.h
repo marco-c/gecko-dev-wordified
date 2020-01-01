@@ -1624,17 +1624,7 @@ LayersBackend
 GetPreferredCompositorBackend
 (
 )
-{
-return
-mozilla
-:
-:
-layers
-:
-:
-LAYERS_D3D11
 ;
-}
 protected
 :
 /

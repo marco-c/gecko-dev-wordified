@@ -1249,6 +1249,8 @@ gfx
 :
 IntSize
 aCbCrSize
+StereoMode
+aStereoMode
 )
 {
 size_t
@@ -1290,6 +1292,7 @@ InitializeBufferInfo
 (
 aYSize
 aCbCrSize
+aStereoMode
 )
 ;
 mSize
@@ -1467,7 +1470,7 @@ SurfaceDescriptor
 ;
 }
 }
-void
+bool
 DeprecatedTextureClientShmem
 :
 :
@@ -1553,6 +1556,9 @@ failed
 ;
 }
 }
+return
+true
+;
 }
 void
 DeprecatedTextureClientShmem
@@ -2027,7 +2033,7 @@ aDescriptor
 ;
 }
 }
-void
+bool
 DeprecatedTextureClientShmemYCbCr
 :
 :
@@ -2065,6 +2071,9 @@ sizes
 "
 )
 ;
+return
+false
+;
 }
 DeprecatedTextureClientTile
 :
@@ -2097,7 +2106,7 @@ mDeprecatedTextureHostFlags
 TEXTURE_HOST_TILED
 ;
 }
-void
+bool
 DeprecatedTextureClientTile
 :
 :
@@ -2193,6 +2202,9 @@ mContentType
 aType
 ;
 }
+return
+true
+;
 }
 gfxImageSurface
 *
@@ -2931,6 +2943,10 @@ data
 -
 >
 mCbCrSize
+data
+-
+>
+mStereoMode
 )
 ;
 *
