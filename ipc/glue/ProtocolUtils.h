@@ -746,6 +746,7 @@ public
 enum
 ActorDestroyReason
 {
+FailedConstructor
 Deletion
 AncestorDeletion
 NormalShutdown
