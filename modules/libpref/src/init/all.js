@@ -7512,12 +7512,12 @@ pipelining
 .
 ssl
 "
-true
+false
 )
 ;
 /
 /
-enable
+disable
 pipelining
 over
 SSL
