@@ -204,7 +204,11 @@ nsImageToClipboard
 (
 imgIContainer
 *
-inImage
+aInImage
+bool
+aWantDIBV5
+=
+true
 )
 ;
 ~
@@ -337,6 +341,9 @@ we
 re
 working
 with
+bool
+mWantDIBV5
+;
 }
 ;
 /
