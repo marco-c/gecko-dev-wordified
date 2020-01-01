@@ -364,6 +364,7 @@ IsFileBrowseButton
 int32_t
 type
 )
+const
 {
 bool
 rv
@@ -802,16 +803,6 @@ temp
 ;
 rv
 =
-const_cast
-<
-nsGfxButtonControlFrame
-*
->
-(
-this
-)
--
->
 GetDefaultLabel
 (
 temp
@@ -938,6 +929,7 @@ nsXPIDLString
 &
 aString
 )
+const
 {
 nsCOMPtr
 <
