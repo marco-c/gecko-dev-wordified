@@ -10864,11 +10864,6 @@ mChar
 =
 0
 ;
-nsresult
-res
-=
-NS_OK
-;
 nsCOMPtr
 <
 nsIDOMNode

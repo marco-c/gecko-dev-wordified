@@ -33736,9 +33736,6 @@ nsIFrame
 *
 thisBlock
 ;
-PRInt32
-thisLine
-;
 nsAutoLineIterator
 it
 ;

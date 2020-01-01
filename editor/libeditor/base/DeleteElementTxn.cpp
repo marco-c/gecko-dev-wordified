@@ -845,9 +845,6 @@ child
 was
 next
 )
-nsresult
-result
-=
 mElement
 -
 >

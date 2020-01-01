@@ -1658,9 +1658,6 @@ nsIDOMDocument
 >
 domDocument
 ;
-nsresult
-res
-=
 GetDocument
 (
 getter_AddRefs

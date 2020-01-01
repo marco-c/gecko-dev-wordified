@@ -2798,11 +2798,6 @@ nsIInputStream
 >
 in
 ;
-PRUint32
-sourceOffset
-=
-0
-;
 rv
 =
 channel
