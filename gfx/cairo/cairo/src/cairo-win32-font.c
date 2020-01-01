@@ -1540,7 +1540,7 @@ newer
 /
 }
 BYTE
-cairo_win32_get_system_text_quality
+_cairo_win32_get_system_text_quality
 (
 void
 )
@@ -1878,7 +1878,7 @@ f
 >
 quality
 =
-cairo_win32_get_system_text_quality
+_cairo_win32_get_system_text_quality
 (
 )
 ;

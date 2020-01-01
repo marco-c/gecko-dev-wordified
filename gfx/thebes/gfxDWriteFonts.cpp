@@ -4088,13 +4088,6 @@ GetForceGDIClassic
 )
 &
 &
-cairo_dwrite_get_cleartype_rendering_mode
-(
-)
-<
-0
-&
-&
 GetAdjustedSize
 (
 )
