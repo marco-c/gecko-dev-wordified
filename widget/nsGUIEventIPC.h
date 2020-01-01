@@ -2276,7 +2276,7 @@ WriteParam
 aMsg
 static_cast
 <
-nsInputEvent
+nsGUIEvent
 >
 (
 aParam
@@ -2370,7 +2370,7 @@ aMsg
 aIter
 static_cast
 <
-nsInputEvent
+nsGUIEvent
 *
 >
 (
