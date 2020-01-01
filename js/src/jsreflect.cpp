@@ -10075,10 +10075,12 @@ pn
 >
 isKind
 (
-PNK_LC
+PNK_STATEMENTLIST
 )
-&
-&
+)
+;
+JS_ASSERT
+(
 pn
 -
 >
@@ -10332,7 +10334,7 @@ pn
 >
 isKind
 (
-PNK_LC
+PNK_STATEMENTLIST
 )
 )
 ;
@@ -11797,7 +11799,7 @@ pn
 >
 isKind
 (
-PNK_LC
+PNK_STATEMENTLIST
 )
 )
 return
@@ -11814,7 +11816,7 @@ THROUGH
 *
 /
 case
-PNK_LC
+PNK_STATEMENTLIST
 :
 return
 blockStatement
@@ -13079,7 +13081,7 @@ next
 >
 isKind
 (
-PNK_LC
+PNK_STATEMENTLIST
 )
 &
 &
@@ -15158,7 +15160,7 @@ getKind
 ifdef
 JS_HAS_XML_SUPPORT
 case
-PNK_LC
+PNK_XMLCURLYEXPR
 :
 {
 Value
@@ -16911,7 +16913,7 @@ body
 ;
 }
 case
-PNK_LC
+PNK_STATEMENTLIST
 :
 /
 *
