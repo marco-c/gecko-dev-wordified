@@ -2942,7 +2942,12 @@ verbose_only
 (
 if
 (
-_verbose
+_logc
+-
+>
+lcbits
+&
+LC_RegAlloc
 )
 {
 outputForEOL
@@ -3050,7 +3055,12 @@ verbose_only
 (
 if
 (
-_verbose
+_logc
+-
+>
+lcbits
+&
+LC_RegAlloc
 )
 {
 outputForEOL
