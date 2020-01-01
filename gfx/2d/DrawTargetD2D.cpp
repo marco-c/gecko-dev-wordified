@@ -6484,6 +6484,7 @@ mClipsArePushed
 {
 PushD2DLayer
 (
+mRT
 pathD2D
 -
 >
@@ -11124,6 +11125,7 @@ mLayer
 {
 PushD2DLayer
 (
+aRT
 iter
 -
 >
@@ -16924,6 +16926,9 @@ DrawTargetD2D
 :
 PushD2DLayer
 (
+ID2D1RenderTarget
+*
+aRT
 ID2D1Geometry
 *
 aGeometry
@@ -16974,7 +16979,7 @@ dc
 HRESULT
 hr
 =
-mRT
+aRT
 -
 >
 QueryInterface
@@ -17006,7 +17011,7 @@ hr
 )
 )
 {
-mRT
+aRT
 -
 >
 PushLayer

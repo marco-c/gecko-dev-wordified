@@ -1306,6 +1306,9 @@ aRect
 void
 PushD2DLayer
 (
+ID2D1RenderTarget
+*
+aRT
 ID2D1Geometry
 *
 aGeometry
