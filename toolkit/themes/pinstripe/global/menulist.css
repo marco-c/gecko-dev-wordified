@@ -638,9 +638,9 @@ menulist
 ;
 margin
 :
+5px
 2px
-4px
-1px
+3px
 ;
 min
 -
@@ -874,8 +874,8 @@ textfield
 ;
 margin
 :
-2px
 4px
+2px
 ;
 }
 html

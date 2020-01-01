@@ -610,9 +610,8 @@ center
 ;
 margin
 :
-2px
-2px
 4px
+2px
 ;
 -
 moz
@@ -667,15 +666,10 @@ label
 {
 margin
 :
+1px
 0
 !
 important
-;
-padding
--
-bottom
-:
-1px
 ;
 }
 /
@@ -746,8 +740,7 @@ radio
 ;
 margin
 :
--
-1px
+0
 1px
 1px
 ;
