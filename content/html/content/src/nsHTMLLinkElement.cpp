@@ -922,6 +922,10 @@ nsGenericHTMLElement
 (
 aNodeInfo
 )
+Link
+(
+this
+)
 {
 }
 nsHTMLLinkElement

@@ -731,6 +731,10 @@ nsSVGAElementBase
 (
 aNodeInfo
 )
+Link
+(
+this
+)
 {
 }
 /

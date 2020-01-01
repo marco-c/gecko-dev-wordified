@@ -526,6 +526,7 @@ dom
 :
 Link
 (
+nsnull
 )
 mHandler
 (
@@ -718,6 +719,9 @@ Link
 :
 Link
 (
+Element
+*
+aElement
 )
 :
 mLinkState
@@ -737,9 +741,9 @@ mRegistered
 (
 false
 )
-mContent
+mElement
 (
-NULL
+aElement
 )
 {
 }
