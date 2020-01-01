@@ -1037,7 +1037,7 @@ if
 format
 !
 =
-SA_PCM_FORMAT_S16_LE
+SA_PCM_FORMAT_S16_NE
 )
 {
 return

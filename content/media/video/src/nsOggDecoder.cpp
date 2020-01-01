@@ -4866,7 +4866,7 @@ mAudioRate
 nsAudioStream
 :
 :
-FORMAT_FLOAT32_LE
+FORMAT_FLOAT32
 )
 ;
 mAudioStream
