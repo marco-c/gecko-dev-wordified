@@ -1635,7 +1635,6 @@ filterCollection
 collection
 "
 )
-{
 PlacesSearchBox
 .
 updateCollectionTitle
@@ -1645,13 +1644,6 @@ node
 title
 )
 ;
-PlacesSearchBox
-.
-syncGrayText
-(
-)
-;
-}
 }
 /
 *
@@ -2927,6 +2919,12 @@ getString
 "
 searchByDefault
 "
+)
+;
+this
+.
+syncGrayText
+(
 )
 ;
 }
