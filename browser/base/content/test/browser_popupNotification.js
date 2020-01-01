@@ -920,6 +920,12 @@ remaining
 "
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 onHidden
 .
 call
@@ -937,6 +943,9 @@ length
 )
 goNext
 (
+)
+;
+}
 )
 ;
 }
