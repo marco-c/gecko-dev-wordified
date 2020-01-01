@@ -16679,6 +16679,12 @@ if
 isArray
 )
 {
+XPCLazyCallContext
+lccx
+(
+ccx
+)
+;
 if
 (
 !
@@ -16687,7 +16693,7 @@ XPCConvert
 :
 NativeArray2JS
 (
-ccx
+lccx
 &
 v
 (
@@ -22748,9 +22754,6 @@ p
 nsWrapperCache
 *
 cache
-XPCNativeInterface
-*
-iface
 XPCWrappedNativeScope
 *
 xpcScope

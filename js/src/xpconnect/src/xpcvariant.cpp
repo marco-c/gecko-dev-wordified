@@ -2563,9 +2563,9 @@ XPCVariant
 :
 VariantDataToJS
 (
-XPCCallContext
+XPCLazyCallContext
 &
-ccx
+lccx
 nsIVariant
 *
 variant
@@ -2887,6 +2887,16 @@ flags
 JSBool
 success
 ;
+JSContext
+*
+cx
+=
+lccx
+.
+GetJSContext
+(
+)
+;
 switch
 (
 type
@@ -2984,7 +2994,7 @@ JS_FALSE
 return
 JS_NewNumberValue
 (
-ccx
+cx
 xpctvar
 .
 val
@@ -4051,7 +4061,7 @@ XPCConvert
 :
 NativeArray2JS
 (
-ccx
+lccx
 pJSVal
 (
 const
@@ -4108,7 +4118,7 @@ array
 =
 JS_NewArrayObject
 (
-ccx
+cx
 0
 nsnull
 )
@@ -4228,7 +4238,7 @@ XPCConvert
 :
 NativeStringWithSize2JS
 (
-ccx
+cx
 pJSVal
 (
 const
@@ -4256,7 +4266,7 @@ XPCConvert
 :
 NativeData2JS
 (
-ccx
+lccx
 pJSVal
 (
 const
