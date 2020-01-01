@@ -2669,6 +2669,17 @@ entries
 nsXPIDLCString
 overrideTypes
 ;
+nsCAutoString
+overrideTypesFormatted
+;
+if
+(
+aType
+!
+=
+ePluginUnregister
+)
+{
 psvc
 -
 >
@@ -2684,9 +2695,6 @@ getter_Copies
 overrideTypes
 )
 )
-;
-nsCAutoString
-overrideTypesFormatted
 ;
 overrideTypesFormatted
 .
@@ -2709,6 +2717,7 @@ Append
 '
 )
 ;
+}
 nsACString
 :
 :
