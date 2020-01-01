@@ -287,7 +287,7 @@ nsIXPCScriptNotify
 namespace
 JS
 {
-class
+struct
 RuntimeStats
 ;
 }
