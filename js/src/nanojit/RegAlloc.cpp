@@ -473,7 +473,11 @@ memset
 (
 active
 0
-NJ_MAX_REGISTERS
+(
+LastReg
++
+1
+)
 *
 sizeof
 (
@@ -972,7 +976,11 @@ i
 ;
 i
 <
-NJ_MAX_REGISTERS
+(
+LastReg
++
+1
+)
 ;
 i
 +
