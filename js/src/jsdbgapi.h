@@ -808,11 +808,11 @@ included
 /
 extern
 void
-js_MarkWatchPoints
+js_TraceWatchPoints
 (
-JSContext
+JSTracer
 *
-cx
+trc
 )
 ;
 extern

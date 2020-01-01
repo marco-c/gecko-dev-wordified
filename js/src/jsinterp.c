@@ -9752,6 +9752,13 @@ JSVAL_IS_GCTHING
 *
 rval
 )
+&
+&
+*
+rval
+!
+=
+JSVAL_NULL
 )
 {
 if
