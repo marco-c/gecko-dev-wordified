@@ -24938,7 +24938,7 @@ encodeLatin1
 js
 :
 :
-ContextFriendFields
+ExclusiveContext
 *
 cx
 JSString

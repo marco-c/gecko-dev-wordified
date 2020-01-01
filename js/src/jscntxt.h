@@ -1773,7 +1773,7 @@ JSContext
 .
 WorkerThread
 *
-workerThread
+workerThread_
 ;
 public
 :
@@ -1795,7 +1795,7 @@ rt
 pt
 kind
 )
-workerThread
+workerThread_
 (
 NULL
 )
@@ -2033,6 +2033,17 @@ WorkerThread
 workerThread
 )
 ;
+WorkerThread
+*
+workerThread
+(
+)
+const
+{
+return
+workerThread_
+;
+}
 /
 /
 If

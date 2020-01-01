@@ -2103,7 +2103,10 @@ JSString
 *
 js_QuoteString
 (
-JSContext
+js
+:
+:
+ExclusiveContext
 *
 cx
 JSString
@@ -3147,7 +3150,7 @@ checkInvariants
 }
 }
 ;
-JSContext
+ExclusiveContext
 *
 context
 ;
@@ -3254,7 +3257,7 @@ public
 explicit
 Sprinter
 (
-JSContext
+ExclusiveContext
 *
 cx
 )

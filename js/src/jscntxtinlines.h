@@ -2171,8 +2171,12 @@ JS_WORKER_THREADS
 if
 (
 workerThread
+(
+)
 )
 workerThread
+(
+)
 -
 >
 maybePause
