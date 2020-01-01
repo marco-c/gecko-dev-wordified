@@ -174,6 +174,17 @@ this
 )
 )
 ;
+static_cast
+<
+IUnknown
+*
+>
+(
+*
+aInstancePtr
+)
+-
+>
 AddRef
 (
 )
