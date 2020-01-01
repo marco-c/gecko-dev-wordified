@@ -28161,6 +28161,15 @@ Interpreter
 if
 (
 isConstructing
+&
+&
+outerScript
+-
+>
+code
+=
+=
+PC
 )
 return
 ;
