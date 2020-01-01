@@ -1091,6 +1091,9 @@ aWindow
 (
 int
 )
+(
+intptr_t
+)
 qApp
 -
 >
