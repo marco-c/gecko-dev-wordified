@@ -295,6 +295,10 @@ None
 None
 ]
     
+timed_out
+=
+False
+    
 th
 =
 Thread
@@ -398,6 +402,10 @@ sleep
 .
 1
 )
+                
+timed_out
+=
+True
             
 except
 OSError
@@ -426,6 +434,10 @@ l
 [
 1
 ]
++
+(
+timed_out
+)
 class
 Test
 (
@@ -681,6 +693,7 @@ out
 err
 rc
 dt
+timed_out
 =
 run_cmd
 (
@@ -697,8 +710,8 @@ out
 err
 rc
 dt
+timed_out
 )
-;
 class
 TestCase
 (
@@ -943,6 +956,7 @@ out
 err
 rc
 dt
+timed_out
 )
 :
         
@@ -1008,6 +1022,20 @@ float
 :
 run
 time
+        
+self
+.
+timed_out
+=
+timed_out
+#
+bool
+:
+did
+the
+test
+time
+out
 class
 NullTestOutput
 :
@@ -1078,6 +1106,12 @@ dt
 0
 .
 0
+        
+self
+.
+timed_out
+=
+False
 class
 TestResult
 :

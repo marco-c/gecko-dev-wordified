@@ -751,6 +751,18 @@ tup
 1
 ]
             
+if
+output
+.
+timed_out
+:
+                
+dev_label
+=
+'
+TIMEOUTS
+'
+            
 self
 .
 groups
@@ -1404,6 +1416,15 @@ groups
 REGRESSIONS
 '
 ]
++
+self
+.
+groups
+[
+'
+TIMEOUTS
+'
+]
 :
                       
 print
@@ -1474,6 +1495,15 @@ self
 return
 '
 REGRESSIONS
+'
+not
+in
+self
+.
+groups
+and
+'
+TIMEOUTS
 '
 not
 in
