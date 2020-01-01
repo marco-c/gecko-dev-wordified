@@ -1134,6 +1134,12 @@ HOST_LIBRARY_NAME
 host_fans
 '
             
+LIBRARY_NAME
+=
+'
+lib_name
+'
+            
 SIMPLE_PROGRAMS
 =
 [
