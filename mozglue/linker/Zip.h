@@ -759,6 +759,8 @@ pack
 (
 1
 )
+public
+:
 /
 *
 *
@@ -882,6 +884,18 @@ return
 NULL
 ;
 }
+SignedEntity
+(
+uint32_t
+magic
+)
+:
+signature
+(
+magic
+)
+{
+}
 private
 :
 le_uint32
@@ -889,6 +903,8 @@ signature
 ;
 }
 ;
+private
+:
 /
 *
 *
