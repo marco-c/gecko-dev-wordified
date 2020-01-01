@@ -1453,6 +1453,7 @@ dest
 +
 aPt
 aDirtyRect
+nullptr
 imgIContainer
 :
 :

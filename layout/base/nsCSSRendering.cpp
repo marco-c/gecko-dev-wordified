@@ -23535,6 +23535,7 @@ subImage
 graphicsFilter
 aFill
 aDirtyRect
+nullptr
 imgIContainer
 :
 :

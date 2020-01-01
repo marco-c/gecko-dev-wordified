@@ -24989,6 +24989,10 @@ const
 nsIntSize
 &
 aImageSize
+const
+SVGImageContext
+*
+aSVGContext
 uint32_t
 aImageFlags
 )
@@ -25095,6 +25099,7 @@ drawingParams
 .
 mSubimage
 aImageSize
+aSVGContext
 aImageFlags
 )
 ;
@@ -25550,6 +25555,7 @@ aDirty
 :
 dest
 imageSize
+nullptr
 aImageFlags
 )
 ;
@@ -25581,6 +25587,10 @@ const
 nsRect
 &
 aDirty
+const
+SVGImageContext
+*
+aSVGContext
 uint32_t
 aImageFlags
 const
@@ -25807,6 +25817,7 @@ TopLeft
 )
 aDirty
 imageSize
+aSVGContext
 aImageFlags
 )
 ;
@@ -26056,6 +26067,7 @@ aFill
 aAnchor
 aDirty
 aImageSize
+nullptr
 aImageFlags
 )
 ;
@@ -26298,6 +26310,7 @@ aFill
 aAnchor
 aDirty
 imageSize
+nullptr
 aImageFlags
 )
 ;
