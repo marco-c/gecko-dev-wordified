@@ -5245,7 +5245,7 @@ false
 MakeRangeGCSafe
 (
 firstUnused
-argc
+nvars
 )
 ;
 ImplicitCast
