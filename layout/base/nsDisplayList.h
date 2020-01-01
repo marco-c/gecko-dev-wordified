@@ -14265,6 +14265,15 @@ float
 aFactor
 )
 ;
+float
+GetHitDepthAtPoint
+(
+const
+nsPoint
+&
+aPoint
+)
+;
 /
 *
 *
