@@ -1351,6 +1351,17 @@ fun
 ;
 mFrame
 .
+pc
+=
+mFrame
+.
+script
+-
+>
+code
+;
+mFrame
+.
 callee
 =
 JS_GetFunctionObject

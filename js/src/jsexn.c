@@ -2358,7 +2358,7 @@ if
 fp
 -
 >
-regs
+pc
 )
 elem
 -
@@ -2373,9 +2373,6 @@ fp
 >
 script
 fp
--
->
-regs
 -
 >
 pc
@@ -5095,7 +5092,7 @@ fp
 fp
 -
 >
-regs
+pc
 )
 ?
 js_PCToLineNumber
@@ -5106,9 +5103,6 @@ fp
 >
 script
 fp
--
->
-regs
 -
 >
 pc
