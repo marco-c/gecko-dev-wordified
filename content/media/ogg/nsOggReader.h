@@ -1567,7 +1567,7 @@ lock
 count
 .
 The
-nsMediaStream
+MediaResource
 /
 /
 must
