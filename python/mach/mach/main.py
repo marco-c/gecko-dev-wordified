@@ -993,6 +993,29 @@ _run
 argv
 )
         
+except
+KeyboardInterrupt
+:
+            
+print
+(
+'
+mach
+interrupted
+by
+signal
+or
+user
+action
+.
+Stopping
+.
+'
+)
+            
+return
+1
+        
 finally
 :
             
