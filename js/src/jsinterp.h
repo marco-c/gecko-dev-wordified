@@ -1540,7 +1540,7 @@ argv
 2
 ]
 .
-asObject
+toObject
 (
 )
 :
@@ -2550,7 +2550,7 @@ return
 InternalInvoke
 (
 cx
-ObjectOrNullTag
+ObjectOrNullValue
 (
 obj
 )
@@ -2591,7 +2591,7 @@ return
 InternalInvoke
 (
 cx
-ObjectOrNullTag
+ObjectOrNullValue
 (
 obj
 )
@@ -3392,7 +3392,7 @@ return
 &
 thisv
 .
-asObject
+toObject
 (
 )
 ;
@@ -3428,7 +3428,7 @@ return
 &
 thisv
 .
-asObject
+toObject
 (
 )
 ;

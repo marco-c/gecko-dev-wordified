@@ -1036,7 +1036,7 @@ pobj
 vp
 -
 >
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;
@@ -1577,7 +1577,7 @@ value
 (
 )
 .
-asObject
+toObject
 (
 )
 NULL
@@ -1658,7 +1658,7 @@ value
 (
 )
 .
-asObject
+toObject
 (
 )
 NULL
@@ -4084,7 +4084,7 @@ val
 j
 ]
 .
-asObject
+toObject
 (
 )
 NULL
@@ -7258,7 +7258,7 @@ vp
 0
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -7299,7 +7299,7 @@ argv
 0
 ]
 .
-asString
+toString
 (
 )
 ;
@@ -8342,7 +8342,7 @@ InternalCall
 (
 cx
 obj
-ObjectOrNullTag
+ObjectOrNullValue
 (
 callable
 )
@@ -8758,11 +8758,8 @@ vp
 2
 ]
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 &
 id
@@ -9336,11 +9333,8 @@ vp
 2
 ]
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 ;
 vp
@@ -9407,11 +9401,8 @@ vp
 2
 ]
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 &
 id
@@ -9837,7 +9828,7 @@ vp
 3
 ]
 .
-asObject
+toObject
 (
 )
 )
@@ -9937,10 +9928,10 @@ attrs
 return
 JS_FALSE
 ;
-*
 vp
-=
-UndefinedTag
+-
+>
+setUndefined
 (
 )
 ;
@@ -9952,7 +9943,7 @@ defineProperty
 (
 cx
 id
-UndefinedTag
+UndefinedValue
 (
 )
 getter
@@ -10023,7 +10014,7 @@ vp
 3
 ]
 .
-asObject
+toObject
 (
 )
 )
@@ -10123,10 +10114,10 @@ attrs
 return
 JS_FALSE
 ;
-*
 vp
-=
-UndefinedTag
+-
+>
+setUndefined
 (
 )
 ;
@@ -10138,7 +10129,7 @@ defineProperty
 (
 cx
 id
-UndefinedTag
+UndefinedValue
 (
 )
 PropertyStub
@@ -10184,11 +10175,8 @@ vp
 2
 ]
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 &
 id
@@ -10334,11 +10322,8 @@ vp
 2
 ]
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 &
 id
@@ -10562,7 +10547,7 @@ vp
 2
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -10780,7 +10765,7 @@ atomState
 .
 writableAtom
 )
-BooleanTag
+BooleanValue
 (
 (
 attrs
@@ -10815,7 +10800,7 @@ atomState
 .
 enumerableAtom
 )
-BooleanTag
+BooleanValue
 (
 (
 attrs
@@ -10844,7 +10829,7 @@ atomState
 .
 configurableAtom
 )
-BooleanTag
+BooleanValue
 (
 (
 attrs
@@ -10963,13 +10948,13 @@ roots
 ]
 =
 {
-UndefinedTag
+UndefinedValue
 (
 )
-UndefinedTag
+UndefinedValue
 (
 )
-UndefinedTag
+UndefinedValue
 (
 )
 }
@@ -11279,7 +11264,7 @@ objp
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -11347,11 +11332,8 @@ vp
 3
 ]
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 nameidr
 .
@@ -11568,7 +11550,7 @@ id
 Value
 idval
 (
-Int32Tag
+Int32Value
 (
 JSID_TO_INT
 (
@@ -11600,7 +11582,7 @@ aobj
 setDenseArrayElement
 (
 i
-StringTag
+StringValue
 (
 JSID_TO_STRING
 (
@@ -11791,7 +11773,7 @@ PropDesc
 :
 pd
 (
-UndefinedTag
+UndefinedValue
 (
 )
 )
@@ -11804,19 +11786,19 @@ INT_TO_JSID
 )
 value
 (
-UndefinedTag
+UndefinedValue
 (
 )
 )
 get
 (
-UndefinedTag
+UndefinedValue
 (
 )
 )
 set
 (
-UndefinedTag
+UndefinedValue
 (
 )
 )
@@ -11918,7 +11900,7 @@ desc
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -12865,7 +12847,7 @@ JS_FALSE
 Value
 tmp
 =
-UndefinedTag
+UndefinedValue
 (
 )
 ;
@@ -12923,7 +12905,7 @@ of
 Value
 v
 =
-UndefinedTag
+UndefinedValue
 (
 )
 ;
@@ -15314,11 +15296,8 @@ vp
 3
 ]
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 nameidr
 .
@@ -15359,11 +15338,8 @@ vp
 4
 ]
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 ;
 /
@@ -15929,13 +15905,13 @@ cx
 js_ObjectClass
 v
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 vp
 -
 >
-asObject
+toObject
 (
 )
 .
@@ -16038,7 +16014,7 @@ vp
 3
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -16335,7 +16311,7 @@ str
 js_ValueToString
 (
 cx
-Int32Tag
+Int32Value
 (
 JSID_TO_INT
 (
@@ -16959,7 +16935,7 @@ cx
 &
 js_ObjectClass
 proto
-UndefinedTag
+UndefinedValue
 (
 )
 )
@@ -17019,7 +16995,7 @@ cx
 &
 js_ObjectClass
 proto
-UndefinedTag
+UndefinedValue
 (
 )
 )
@@ -17255,7 +17231,7 @@ sprop
 slot
 )
 :
-Value
+MagicValue
 (
 JS_GENERIC_MAGIC
 )
@@ -17312,7 +17288,7 @@ proto
 &
 pval
 .
-asObject
+toObject
 (
 )
 ;
@@ -18752,7 +18728,7 @@ init
 js_WithClass
 proto
 parent
-PrivateTag
+PrivateValue
 (
 js_FloatingFrameIfGenerator
 (
@@ -18898,7 +18874,7 @@ init
 js_BlockClass
 NULL
 NULL
-NullTag
+NullValue
 (
 )
 )
@@ -18983,7 +18959,7 @@ NULL
 Value
 privateValue
 =
-PrivateTag
+PrivateValue
 (
 js_FloatingFrameIfGenerator
 (
@@ -20009,11 +19985,8 @@ js_DefineNativeProperty
 cx
 obj
 id
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 block_getProperty
 block_setProperty
@@ -20779,7 +20752,7 @@ setSlot
 JSSLOT_BLOCK_DEPTH
 Value
 (
-Int32Tag
+Int32Value
 (
 depth
 )
@@ -22059,7 +22032,7 @@ cx
 obj
 key
 atom
-ObjectTag
+ObjectValue
 (
 *
 proto
@@ -22104,7 +22077,7 @@ AutoValueRooter
 tvr2
 (
 cx
-ObjectTag
+ObjectValue
 (
 *
 fun
@@ -22246,7 +22219,7 @@ InternalConstruct
 (
 cx
 proto
-ObjectOrNullTag
+ObjectOrNullValue
 (
 ctor
 )
@@ -22271,7 +22244,7 @@ isObject
 &
 rval
 .
-asObject
+toObject
 (
 )
 !
@@ -22283,7 +22256,7 @@ proto
 &
 rval
 .
-asObject
+toObject
 (
 )
 ;
@@ -22911,7 +22884,7 @@ dslots
 1
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 ;
@@ -23065,7 +23038,7 @@ dslots
 1
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 >
@@ -23083,7 +23056,7 @@ dslots
 1
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 )
@@ -23746,7 +23719,7 @@ objp
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -23896,7 +23869,7 @@ cobj
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -23977,7 +23950,7 @@ js_SetReservedSlot
 cx
 obj
 key
-ObjectOrNullTag
+ObjectOrNullValue
 (
 cobj
 )
@@ -23991,7 +23964,7 @@ obj
 JSProto_LIMIT
 +
 key
-ObjectOrNullTag
+ObjectOrNullValue
 (
 proto
 )
@@ -24338,7 +24311,7 @@ JS_FALSE
 Value
 v
 =
-UndefinedTag
+UndefinedValue
 (
 )
 ;
@@ -24579,7 +24552,7 @@ ctor
 &
 cval
 .
-asObject
+toObject
 (
 )
 ;
@@ -24648,7 +24621,7 @@ proto
 =
 rval
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;
@@ -24772,7 +24745,7 @@ obj
 &
 rval
 .
-asObject
+toObject
 (
 )
 ;
@@ -25028,11 +25001,8 @@ obj
 lockedSetSlot
 (
 slot
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 )
 ;
@@ -26955,7 +26925,7 @@ funobj
 &
 value
 .
-asObject
+toObject
 (
 )
 ;
@@ -29873,7 +29843,7 @@ methodObject
 vp
 -
 >
-asObject
+toObject
 (
 )
 )
@@ -32494,7 +32464,7 @@ funobj
 vp
 -
 >
-asObject
+toObject
 (
 )
 ;
@@ -32614,11 +32584,8 @@ sprop
 -
 >
 slot
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 )
 ;
@@ -33207,7 +33174,7 @@ isBoolean
 rval
 -
 >
-asBoolean
+toBoolean
 (
 )
 =
@@ -33445,7 +33412,7 @@ JSTYPE_FUNCTION
 Value
 v
 =
-ObjectTag
+ObjectValue
 (
 *
 obj
@@ -34962,7 +34929,7 @@ if
 !
 xcval
 .
-asObject
+toObject
 (
 )
 .
@@ -35039,13 +35006,10 @@ false
 ;
 JS_ASSERT
 (
-Value
-(
-ObjectTag
+ObjectValue
 (
 *
 obj
-)
 )
 =
 =
@@ -35066,7 +35030,7 @@ cx
 vp
 )
 .
-asObject
+toObject
 (
 )
 ;
@@ -35224,7 +35188,7 @@ isObjectOrNull
 &
 fval
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 !
@@ -35357,7 +35321,7 @@ argv
 2
 ]
 .
-asObject
+toObject
 (
 )
 .
@@ -35402,7 +35366,7 @@ argv
 2
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -35514,7 +35478,7 @@ isObjectOrNull
 &
 cval
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 !
@@ -35730,7 +35694,7 @@ js_ReportValueError
 cx
 JSMSG_BAD_INSTANCEOF_RHS
 JSDVG_SEARCH_STACK
-ObjectTag
+ObjectValue
 (
 *
 obj
@@ -35774,7 +35738,7 @@ obj2
 =
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -35872,7 +35836,7 @@ ctor
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -35917,7 +35881,7 @@ isObject
 &
 v
 .
-asObject
+toObject
 (
 )
 :
@@ -36107,7 +36071,7 @@ protop
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -36519,7 +36483,7 @@ atomState
 .
 classPrototypeAtom
 )
-ObjectOrNullTag
+ObjectOrNullValue
 (
 proto
 )
@@ -36582,7 +36546,7 @@ atomState
 .
 constructorAtom
 )
-ObjectOrNullTag
+ObjectOrNullValue
 (
 ctor
 )
@@ -36727,7 +36691,7 @@ obj
 =
 v
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;
@@ -36772,7 +36736,7 @@ obj
 &
 tmp
 .
-asObject
+toObject
 (
 )
 ;
@@ -38689,11 +38653,8 @@ obj
 setSlot
 (
 i
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 )
 ;
@@ -39483,7 +39444,7 @@ JSCompartment
 )
 v
 .
-asPrivate
+toPrivate
 (
 )
 ;
@@ -39990,7 +39951,7 @@ d
 "
 v
 .
-asInt32
+toInt32
 (
 )
 )
@@ -40013,7 +39974,7 @@ g
 "
 v
 .
-asDouble
+toDouble
 (
 )
 )
@@ -40031,7 +39992,7 @@ dumpString
 (
 v
 .
-asString
+toString
 (
 )
 )
@@ -40048,7 +40009,7 @@ isObject
 &
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -40064,7 +40025,7 @@ funobj
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -40159,7 +40120,7 @@ obj
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -40226,7 +40187,7 @@ if
 (
 v
 .
-asBoolean
+toBoolean
 (
 )
 )
@@ -40960,7 +40921,7 @@ proto
 ;
 dumpValue
 (
-ObjectOrNullTag
+ObjectOrNullValue
 (
 obj
 -
@@ -40990,7 +40951,7 @@ parent
 ;
 dumpValue
 (
-ObjectOrNullTag
+ObjectOrNullValue
 (
 obj
 -
@@ -41219,7 +41180,7 @@ name
 ;
 dumpValue
 (
-ObjectTag
+ObjectValue
 (
 *
 obj

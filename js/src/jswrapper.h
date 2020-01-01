@@ -1043,7 +1043,7 @@ getProxyPrivate
 (
 )
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;

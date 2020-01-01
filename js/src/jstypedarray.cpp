@@ -1464,7 +1464,7 @@ tarray
 )
 {
 return
-ObjectTag
+ObjectValue
 (
 *
 tarray
@@ -1519,7 +1519,7 @@ tarray
 )
 {
 return
-Int32Tag
+Int32Value
 (
 tarray
 -
@@ -1573,7 +1573,7 @@ tarray
 )
 {
 return
-Int32Tag
+Int32Value
 (
 tarray
 -
@@ -1627,7 +1627,7 @@ tarray
 )
 {
 return
-Int32Tag
+Int32Value
 (
 tarray
 -
@@ -3494,7 +3494,7 @@ NativeType
 vp
 -
 >
-asInt32
+toInt32
 (
 )
 )
@@ -3522,7 +3522,7 @@ d
 vp
 -
 >
-asDouble
+toDouble
 (
 )
 ;
@@ -3640,7 +3640,7 @@ double
 vp
 -
 >
-asBoolean
+toBoolean
 (
 )
 ;
@@ -4208,7 +4208,7 @@ index
 statep
 -
 >
-asInt32
+toInt32
 (
 )
 ;
@@ -4552,7 +4552,7 @@ argv
 0
 ]
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -4774,7 +4774,7 @@ argv
 0
 ]
 .
-asObject
+toObject
 (
 )
 byteOffset
@@ -6119,7 +6119,7 @@ NativeType
 (
 v
 .
-asInt32
+toInt32
 (
 )
 )
@@ -6137,7 +6137,7 @@ NativeType
 (
 v
 .
-asDouble
+toDouble
 (
 )
 )
@@ -6972,7 +6972,7 @@ bytes
 Value
 argv
 =
-Int32Tag
+Int32Value
 (
 bytes
 )
@@ -7017,7 +7017,7 @@ value
 (
 )
 .
-asObject
+toObject
 (
 )
 ;
@@ -8312,7 +8312,7 @@ vals
 1
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -8648,7 +8648,7 @@ vals
 1
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -8753,7 +8753,7 @@ vals
 1
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -8937,7 +8937,7 @@ vals
 3
 ]
 .
-asObject
+toObject
 (
 )
 ;

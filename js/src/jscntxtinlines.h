@@ -1530,7 +1530,7 @@ check
 &
 v
 .
-asObject
+toObject
 (
 )
 )

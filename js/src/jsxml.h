@@ -1542,7 +1542,7 @@ isObject
 &
 v
 .
-asObject
+toObject
 (
 )
 .

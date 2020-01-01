@@ -1575,7 +1575,7 @@ obj2
 v
 -
 >
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;
@@ -2162,7 +2162,7 @@ obj2
 v
 -
 >
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;
@@ -3037,7 +3037,7 @@ isObject
 &
 nsval
 .
-asObject
+toObject
 (
 )
 .
@@ -3885,7 +3885,7 @@ empty
 Value
 v
 =
-StringTag
+StringValue
 (
 prefix
 )
@@ -7244,7 +7244,7 @@ uri
 Value
 v
 =
-StringTag
+StringValue
 (
 prefix
 )
@@ -8506,7 +8506,7 @@ pn_atom
 Value
 v
 =
-StringTag
+StringValue
 (
 ATOM_TO_STRING
 (
@@ -9160,7 +9160,7 @@ qn
 Value
 v
 =
-StringTag
+StringValue
 (
 ATOM_TO_STRING
 (
@@ -9380,7 +9380,7 @@ str
 Value
 v
 =
-StringTag
+StringValue
 (
 str
 )
@@ -12721,7 +12721,7 @@ uri
 Value
 v
 =
-StringTag
+StringValue
 (
 prefix
 )
@@ -17833,7 +17833,7 @@ JSMSG_BAD_XML_NAME
 js_ValueToPrintableString
 (
 cx
-StringTag
+StringValue
 (
 name
 )
@@ -20593,12 +20593,12 @@ vobj
 js_TestXMLEquality
 (
 cx
-ObjectTag
+ObjectValue
 (
 *
 xobj
 )
-ObjectTag
+ObjectValue
 (
 *
 vobj
@@ -20908,7 +20908,7 @@ return
 js_TestXMLEquality
 (
 cx
-ObjectTag
+ObjectValue
 (
 *
 vobj
@@ -23478,7 +23478,7 @@ return
 js_ValueToString
 (
 cx
-ObjectTag
+ObjectValue
 (
 *
 kidobj
@@ -30410,7 +30410,7 @@ JSXMLArrayCursor
 statep
 -
 >
-asPrivate
+toPrivate
 (
 )
 ;
@@ -30487,7 +30487,7 @@ JSXMLArrayCursor
 statep
 -
 >
-asPrivate
+toPrivate
 (
 )
 ;
@@ -31000,7 +31000,7 @@ isObject
 &
 v1
 .
-asObject
+toObject
 (
 )
 .
@@ -31014,7 +31014,7 @@ obj
 &
 v1
 .
-asObject
+toObject
 (
 )
 ;
@@ -31040,7 +31040,7 @@ obj
 &
 v2
 .
-asObject
+toObject
 (
 )
 ;
@@ -31249,7 +31249,7 @@ str
 js_ValueToString
 (
 cx
-ObjectTag
+ObjectValue
 (
 *
 obj
@@ -31336,7 +31336,7 @@ str
 js_ValueToString
 (
 cx
-ObjectTag
+ObjectValue
 (
 *
 obj
@@ -31392,7 +31392,7 @@ str
 js_ValueToString
 (
 cx
-ObjectTag
+ObjectValue
 (
 *
 obj
@@ -34000,7 +34000,7 @@ kidobj
 js_TestXMLEquality
 (
 cx
-ObjectTag
+ObjectValue
 (
 *
 kidobj
@@ -34032,7 +34032,7 @@ if
 js_TestXMLEquality
 (
 cx
-ObjectTag
+ObjectValue
 (
 *
 obj
@@ -35392,7 +35392,7 @@ tvr
 .
 set
 (
-ObjectTag
+ObjectValue
 (
 *
 ns
@@ -44268,7 +44268,7 @@ cx
 JSID_DEFAULT_XML_NAMESPACE
 (
 )
-ObjectTag
+ObjectValue
 (
 *
 ns
@@ -45151,7 +45151,7 @@ nameobj
 &
 nameval
 .
-asObject
+toObject
 (
 )
 ;
@@ -45487,7 +45487,7 @@ printable
 js_ValueToPrintableString
 (
 cx
-ObjectTag
+ObjectValue
 (
 *
 nameobj

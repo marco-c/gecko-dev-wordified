@@ -10099,7 +10099,7 @@ constMap
 put
 (
 atom
-NumberTag
+NumberValue
 (
 pn
 -
@@ -10304,7 +10304,7 @@ fslots
 JSSLOT_BLOCK_DEPTH
 ]
 .
-asInt32
+toInt32
 (
 )
 +
@@ -11973,7 +11973,7 @@ JSDefinition
 )
 v
 .
-asPrivate
+toPrivate
 (
 )
 ;
@@ -19731,7 +19731,7 @@ constList
 .
 append
 (
-DoubleTag
+DoubleValue
 (
 dval
 )
@@ -20953,7 +20953,7 @@ pn3
 pn_pval
 -
 >
-asInt32
+toInt32
 (
 )
 ;
@@ -22247,7 +22247,7 @@ pn3
 pn_pval
 -
 >
-asInt32
+toInt32
 (
 )
 ;

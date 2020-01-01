@@ -14244,7 +14244,7 @@ XPCWrappedNativeProto
 (
 v
 .
-asPrivate
+toPrivate
 (
 )
 )

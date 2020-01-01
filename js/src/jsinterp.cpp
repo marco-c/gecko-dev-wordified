@@ -2060,7 +2060,7 @@ argv
 2
 ]
 .
-asObject
+toObject
 (
 )
 .
@@ -2101,7 +2101,7 @@ argv
 2
 ]
 .
-asObject
+toObject
 (
 )
 .
@@ -2207,7 +2207,7 @@ thisv
 return
 thisv
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;
@@ -2230,7 +2230,7 @@ js_SetReservedSlot
 cx
 inner
 JSRESERVED_GLOBAL_THIS
-ObjectOrNullTag
+ObjectOrNullValue
 (
 stuntThis
 )
@@ -2355,7 +2355,7 @@ argv
 1
 ]
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;
@@ -2372,7 +2372,7 @@ argv
 1
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -2626,7 +2626,7 @@ vp
 1
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -2736,7 +2736,7 @@ vp
 0
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -2971,7 +2971,7 @@ vp
 0
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -3669,11 +3669,8 @@ fp
 >
 thisv
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 ;
 fp
@@ -3835,7 +3832,7 @@ vp
 0
 ]
 .
-asObject
+toObject
 (
 )
 .
@@ -4085,7 +4082,7 @@ fp
 >
 thisv
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;
@@ -4370,7 +4367,7 @@ funobj
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -7083,12 +7080,12 @@ js_EqualStrings
 (
 lval
 .
-asString
+toString
 (
 )
 rval
 .
-asString
+toString
 (
 )
 )
@@ -7106,14 +7103,14 @@ JSDOUBLE_COMPARE
 (
 lval
 .
-asDouble
+toDouble
 (
 )
 =
 =
 rval
 .
-asDouble
+toDouble
 (
 )
 JS_FALSE
@@ -7134,13 +7131,13 @@ cx
 &
 lval
 .
-asObject
+toObject
 (
 )
 &
 rval
 .
-asObject
+toObject
 (
 )
 )
@@ -7148,14 +7145,14 @@ asObject
 return
 lval
 .
-asRawUint32
+payloadAsRawUint32
 (
 )
 =
 =
 rval
 .
-asRawUint32
+payloadAsRawUint32
 (
 )
 ;
@@ -7181,7 +7178,7 @@ ld
 =
 lval
 .
-asDouble
+toDouble
 (
 )
 ;
@@ -7190,7 +7187,7 @@ rd
 =
 rval
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -7226,7 +7223,7 @@ ld
 =
 lval
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -7235,7 +7232,7 @@ rd
 =
 rval
 .
-asDouble
+toDouble
 (
 )
 ;
@@ -7277,7 +7274,7 @@ JSDOUBLE_IS_NEGZERO
 (
 v
 .
-asDouble
+toDouble
 (
 )
 )
@@ -7306,7 +7303,7 @@ JSDOUBLE_IS_NaN
 (
 v
 .
-asDouble
+toDouble
 (
 )
 )
@@ -7448,7 +7445,7 @@ isObject
 return
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -7464,7 +7461,7 @@ cx
 &
 v
 .
-asObject
+toObject
 (
 )
 )
@@ -7643,7 +7640,7 @@ obj2
 vp
 -
 >
-asObject
+toObject
 (
 )
 )
@@ -7777,7 +7774,7 @@ obj2
 vp
 -
 >
-asObject
+toObject
 (
 )
 ;
@@ -7836,7 +7833,7 @@ proto
 =
 v
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;
@@ -8163,7 +8160,7 @@ obj
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -8347,7 +8344,7 @@ sp
 1
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -12078,7 +12075,7 @@ b
 vp
 -
 >
-asBoolean
+toBoolean
 (
 )
 ;
@@ -12140,7 +12137,7 @@ vp
 )
 -
 >
-asObject
+toObject
 (
 )
 ;
@@ -12260,7 +12257,7 @@ if
 !
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -13207,7 +13204,7 @@ sprop
 slot
 )
 .
-asObject
+toObject
 (
 )
 )
@@ -13311,7 +13308,7 @@ toFunObj
 &
 v
 .
-asObject
+toObject
 (
 )
 )
@@ -13355,7 +13352,7 @@ methodObject
 &
 v
 .
-asObject
+toObject
 (
 )
 )
@@ -15153,7 +15150,7 @@ PCOFF
 )
 )
 .
-asDouble
+toDouble
 (
 )
 )

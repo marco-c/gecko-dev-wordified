@@ -1838,7 +1838,7 @@ isObject
 vp
 -
 >
-asObject
+toObject
 (
 )
 .
@@ -1871,7 +1871,7 @@ str
 vp
 -
 >
-asString
+toString
 (
 )
 ;
@@ -1907,7 +1907,7 @@ int
 vp
 -
 >
-asBoolean
+toBoolean
 (
 )
 ]
@@ -1981,7 +1981,7 @@ cx
 vp
 -
 >
-asNumber
+toNumber
 (
 )
 )
@@ -3806,11 +3806,8 @@ vp
 2
 ]
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 )
 ;
@@ -4069,7 +4066,7 @@ getPrimitiveThis
 (
 )
 .
-asString
+toString
 (
 )
 ;
@@ -4095,7 +4092,7 @@ str
 js_ValueToString
 (
 cx
-ObjectTag
+ObjectValue
 (
 *
 obj
@@ -4170,7 +4167,7 @@ getPrimitiveThis
 (
 )
 .
-asString
+toString
 (
 )
 ;
@@ -4229,7 +4226,7 @@ INT_TO_JSID
 (
 i
 )
-StringTag
+StringValue
 (
 str1
 )
@@ -4263,7 +4260,7 @@ atomState
 .
 lengthAtom
 )
-UndefinedTag
+UndefinedValue
 (
 )
 NULL
@@ -4325,7 +4322,7 @@ getPrimitiveThis
 (
 )
 .
-asString
+toString
 (
 )
 ;
@@ -4387,7 +4384,7 @@ defineProperty
 (
 cx
 id
-StringTag
+StringValue
 (
 str1
 )
@@ -4472,7 +4469,7 @@ vp
 1
 ]
 .
-asString
+toString
 (
 )
 ;
@@ -4633,7 +4630,7 @@ vp
 1
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -4669,7 +4666,7 @@ vp
 1
 ]
 .
-asString
+toString
 (
 )
 ;
@@ -4863,7 +4860,7 @@ cx
 primp
 -
 >
-asString
+toString
 (
 )
 '
@@ -5439,7 +5436,7 @@ getPrimitiveThis
 return
 v
 .
-asString
+toString
 (
 )
 ;
@@ -6201,7 +6198,7 @@ vp
 1
 ]
 .
-asString
+toString
 (
 )
 ;
@@ -6212,7 +6209,7 @@ vp
 2
 ]
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -6430,7 +6427,7 @@ vp
 1
 ]
 .
-asString
+toString
 (
 )
 ;
@@ -6441,7 +6438,7 @@ vp
 2
 ]
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -8339,7 +8336,7 @@ vp
 3
 ]
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -8607,7 +8604,7 @@ vp
 2
 ]
 .
-asString
+toString
 (
 )
 ;
@@ -8711,7 +8708,7 @@ vp
 3
 ]
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -9411,7 +9408,7 @@ vp
 2
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -10426,7 +10423,7 @@ false
 Value
 v
 =
-StringTag
+StringValue
 (
 matchstr
 )
@@ -10553,7 +10550,7 @@ INT_TO_JSID
 (
 0
 )
-StringTag
+StringValue
 (
 g
 .
@@ -10580,7 +10577,7 @@ atomState
 .
 indexAtom
 )
-Int32Tag
+Int32Value
 (
 g
 .
@@ -10607,7 +10604,7 @@ atomState
 .
 inputAtom
 )
-StringTag
+StringValue
 (
 textstr
 )
@@ -11989,12 +11986,12 @@ i
 +
 +
 )
+*
 sp
 +
 +
--
->
-setUndefined
+=
+UndefinedValue
 (
 )
 ;
@@ -12854,7 +12851,7 @@ vp
 3
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -14050,7 +14047,7 @@ argc
 Value
 v
 =
-StringTag
+StringValue
 (
 str
 )
@@ -14120,7 +14117,7 @@ vp
 2
 ]
 .
-asObject
+toObject
 (
 )
 .
@@ -14440,7 +14437,7 @@ splits
 .
 append
 (
-StringTag
+StringValue
 (
 sub
 )
@@ -14582,7 +14579,7 @@ splits
 .
 append
 (
-StringTag
+StringValue
 (
 sub
 )
@@ -15099,7 +15096,7 @@ vp
 1
 ]
 .
-asString
+toString
 (
 )
 ;
@@ -15110,7 +15107,7 @@ vp
 2
 ]
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -23462,7 +23459,7 @@ obj
 >
 setPrimitiveThis
 (
-StringTag
+StringValue
 (
 str
 )
@@ -23506,7 +23503,7 @@ cx
 &
 js_StringClass
 proto
-StringTag
+StringValue
 (
 str
 )
@@ -23959,7 +23956,7 @@ proto
 >
 setPrimitiveThis
 (
-StringTag
+StringValue
 (
 cx
 -
@@ -23990,7 +23987,7 @@ atomState
 .
 lengthAtom
 )
-UndefinedTag
+UndefinedValue
 (
 )
 NULL
@@ -25018,7 +25015,7 @@ isObject
 !
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -25050,7 +25047,7 @@ str
 =
 v
 .
-asString
+toString
 (
 )
 ;
@@ -25072,7 +25069,7 @@ js_NumberToString
 cx
 v
 .
-asInt32
+toInt32
 (
 )
 )
@@ -25095,7 +25092,7 @@ js_NumberToString
 cx
 v
 .
-asDouble
+toDouble
 (
 )
 )
@@ -25118,7 +25115,7 @@ js_BooleanToString
 cx
 v
 .
-asBoolean
+toBoolean
 (
 )
 )
@@ -25274,7 +25271,7 @@ isObject
 !
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -25308,7 +25305,7 @@ length
 ;
 v
 .
-asString
+toString
 (
 )
 -
@@ -25359,7 +25356,7 @@ js_BooleanToCharBuffer
 cx
 v
 .
-asBoolean
+toBoolean
 (
 )
 cb
@@ -25468,7 +25465,7 @@ js_QuoteString
 cx
 v
 .
-asString
+toString
 (
 )
 '
@@ -25511,7 +25508,7 @@ JSDOUBLE_IS_NEGZERO
 (
 v
 .
-asDouble
+toDouble
 (
 )
 )
@@ -25595,7 +25592,7 @@ cx
 &
 v
 .
-asObject
+toObject
 (
 )
 atom

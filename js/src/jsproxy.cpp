@@ -575,7 +575,7 @@ numSlots
 JSSLOT_PROXY_CONSTRUCT
 )
 return
-UndefinedTag
+UndefinedValue
 (
 )
 ;
@@ -1616,7 +1616,7 @@ isPrimitive
 !
 fval
 .
-asObject
+toObject
 (
 )
 .
@@ -1650,7 +1650,7 @@ cx
 &
 fval
 .
-asObject
+toObject
 (
 )
 indent
@@ -1803,7 +1803,7 @@ cx
 &
 fval
 .
-asObject
+toObject
 (
 )
 argc
@@ -1880,7 +1880,7 @@ thisobj
 =
 fval
 .
-asObject
+toObject
 (
 )
 .
@@ -2479,11 +2479,8 @@ desc
 getter
 )
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 ;
 Value
@@ -2503,11 +2500,8 @@ desc
 setter
 )
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 ;
 return
@@ -2601,7 +2595,7 @@ obj
 &
 array
 .
-asObject
+toObject
 (
 )
 ;
@@ -3084,7 +3078,7 @@ js_ReportValueError2
 cx
 JSMSG_BAD_TRAP_RETURN_VALUE
 JSDVG_SEARCH_STACK
-ObjectOrNullTag
+ObjectOrNullValue
 (
 proxy
 )
@@ -3134,7 +3128,7 @@ getProxyPrivate
 (
 )
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;
@@ -4008,7 +4002,7 @@ AutoValueRooter
 tvr
 (
 cx
-StringTag
+StringValue
 (
 str
 )
@@ -4020,7 +4014,7 @@ argv
 ]
 =
 {
-ObjectOrNullTag
+ObjectOrNullValue
 (
 receiver
 )
@@ -4156,7 +4150,7 @@ AutoValueRooter
 tvr
 (
 cx
-StringTag
+StringValue
 (
 str
 )
@@ -4168,7 +4162,7 @@ argv
 ]
 =
 {
-ObjectOrNullTag
+ObjectOrNullValue
 (
 receiver
 )
@@ -6263,7 +6257,7 @@ cx
 vp
 )
 .
-asObject
+toObject
 (
 )
 ;
@@ -6324,7 +6318,7 @@ argv
 2
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -6561,7 +6555,7 @@ obj
 setSlot
 (
 JSSLOT_PROXY_HANDLER
-PrivateTag
+PrivateValue
 (
 handler
 )
@@ -6589,20 +6583,14 @@ setSlot
 JSSLOT_PROXY_CALL
 call
 ?
-Value
-(
-ObjectTag
+ObjectValue
 (
 *
 call
 )
-)
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 )
 ;
@@ -6618,20 +6606,14 @@ setSlot
 JSSLOT_PROXY_CONSTRUCT
 construct
 ?
-Value
-(
-ObjectTag
+ObjectValue
 (
 *
 construct
 )
-)
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 )
 ;
@@ -6679,7 +6661,7 @@ return
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -6780,7 +6762,7 @@ vp
 3
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -6818,7 +6800,7 @@ vp
 0
 ]
 .
-asObject
+toObject
 (
 )
 .
@@ -6839,7 +6821,7 @@ JSScriptedProxyHandler
 :
 :
 singleton
-ObjectTag
+ObjectValue
 (
 *
 handler
@@ -6946,7 +6928,7 @@ vp
 0
 ]
 .
-asObject
+toObject
 (
 )
 .
@@ -7048,7 +7030,7 @@ JSScriptedProxyHandler
 :
 :
 singleton
-ObjectTag
+ObjectValue
 (
 *
 handler
@@ -7385,7 +7367,7 @@ argv
 2
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -7459,7 +7441,7 @@ argv
 2
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -7601,7 +7583,7 @@ proto
 rval
 -
 >
-asObject
+toObject
 (
 )
 ;

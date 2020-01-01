@@ -1970,7 +1970,7 @@ d
 primp
 -
 >
-asNumber
+toNumber
 (
 )
 ;
@@ -2417,7 +2417,7 @@ d
 primp
 -
 >
-asNumber
+toNumber
 (
 )
 ;
@@ -2664,7 +2664,7 @@ cx
 vp
 -
 >
-asString
+toString
 (
 )
 )
@@ -3375,7 +3375,7 @@ d
 primp
 -
 >
-asNumber
+toNumber
 (
 )
 ;
@@ -4628,7 +4628,7 @@ proto
 >
 setPrimitiveThis
 (
-Int32Tag
+Int32Value
 (
 0
 )
@@ -5406,7 +5406,7 @@ IntToCString
 (
 v
 .
-asInt32
+toInt32
 (
 )
 10
@@ -5434,7 +5434,7 @@ DTOSTR_STANDARD
 0
 v
 .
-asDouble
+toDouble
 (
 )
 )
@@ -5620,7 +5620,7 @@ out
 =
 v
 .
-asNumber
+toNumber
 (
 )
 ;
@@ -5650,7 +5650,7 @@ jsdouble
 cx
 v
 .
-asString
+toString
 (
 )
 )
@@ -5686,7 +5686,7 @@ if
 (
 v
 .
-asBoolean
+toBoolean
 (
 )
 )
@@ -5759,7 +5759,7 @@ obj
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -5882,7 +5882,7 @@ d
 =
 v
 .
-asDouble
+toDouble
 (
 )
 ;
@@ -5957,7 +5957,7 @@ d
 =
 v
 .
-asDouble
+toDouble
 (
 )
 ;
@@ -6205,7 +6205,7 @@ d
 =
 v
 .
-asDouble
+toDouble
 (
 )
 ;
@@ -6332,7 +6332,7 @@ d
 =
 v
 .
-asDouble
+toDouble
 (
 )
 ;

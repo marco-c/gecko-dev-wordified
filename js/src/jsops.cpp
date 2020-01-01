@@ -1285,7 +1285,7 @@ sp
 1
 ]
 .
-asObject
+toObject
 (
 )
 =
@@ -2921,7 +2921,7 @@ obj
 &
 rref
 .
-asObject
+toObject
 (
 )
 ;
@@ -3147,7 +3147,7 @@ sp
 2
 ]
 .
-asObject
+toObject
 (
 )
 &
@@ -3339,7 +3339,7 @@ sp
 1
 ]
 .
-asObject
+toObject
 (
 )
 &
@@ -3435,7 +3435,7 @@ sp
 1
 ]
 .
-asObject
+toObject
 (
 )
 &
@@ -3576,7 +3576,7 @@ sp
 1
 ]
 .
-asObject
+toObject
 (
 )
 tvr
@@ -3704,7 +3704,7 @@ sp
 2
 ]
 .
-asObject
+toObject
 (
 )
 tvr
@@ -3849,7 +3849,7 @@ sp
 2
 ]
 .
-asObject
+toObject
 (
 )
 &
@@ -5293,7 +5293,7 @@ isObject
 &
 lval
 .
-asObject
+toObject
 (
 )
 .
@@ -5314,7 +5314,7 @@ isObject
 &
 rval
 .
-asObject
+toObject
 (
 )
 .
@@ -5529,7 +5529,7 @@ l
 =
 lval
 .
-asString
+toString
 (
 )
 *
@@ -5537,7 +5537,7 @@ r
 =
 rval
 .
-asString
+toString
 (
 )
 ;
@@ -5570,14 +5570,14 @@ l
 =
 lval
 .
-asDouble
+toDouble
 (
 )
 r
 =
 rval
 .
-asDouble
+toDouble
 (
 )
 ;
@@ -5612,7 +5612,7 @@ l
 &
 lval
 .
-asObject
+toObject
 (
 )
 *
@@ -5621,7 +5621,7 @@ r
 &
 rval
 .
-asObject
+toObject
 (
 )
 ;
@@ -5646,13 +5646,13 @@ cond
 =
 lval
 .
-asRawUint32
+payloadAsRawUint32
 (
 )
 OP
 rval
 .
-asRawUint32
+payloadAsRawUint32
 (
 )
 ;
@@ -5768,7 +5768,7 @@ l
 =
 lval
 .
-asString
+toString
 (
 )
 *
@@ -5776,7 +5776,7 @@ r
 =
 rval
 .
-asString
+toString
 (
 )
 ;
@@ -6211,13 +6211,13 @@ cond
 =
 lval
 .
-asInt32
+toInt32
 (
 )
 OP
 rval
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -6287,7 +6287,7 @@ l
 =
 lval
 .
-asString
+toString
 (
 )
 *
@@ -6295,7 +6295,7 @@ r
 =
 rval
 .
-asString
+toString
 (
 )
 ;
@@ -6709,14 +6709,14 @@ l
 =
 lval
 .
-asInt32
+toInt32
 (
 )
 r
 =
 rval
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -6818,13 +6818,13 @@ cx
 &
 lval
 .
-asObject
+toObject
 (
 )
 &
 rval
 .
-asObject
+toObject
 (
 )
 &
@@ -6931,7 +6931,7 @@ lstr
 =
 lval
 .
-asString
+toString
 (
 )
 ;
@@ -6977,7 +6977,7 @@ rstr
 =
 rval
 .
-asString
+toString
 (
 )
 ;
@@ -7653,7 +7653,7 @@ l
 =
 lref
 .
-asInt32
+toInt32
 (
 )
 )
@@ -7667,7 +7667,7 @@ r
 =
 rref
 .
-asInt32
+toInt32
 (
 )
 )
@@ -7964,7 +7964,7 @@ i
 =
 ref
 .
-asInt32
+toInt32
 (
 )
 )
@@ -8725,7 +8725,7 @@ tmp
 =
 rref
 .
-asInt32
+toInt32
 (
 )
 )
@@ -8775,7 +8775,7 @@ inc
 ;
 rref
 .
-asInt32Ref
+getInt32Ref
 (
 )
 =
@@ -8986,7 +8986,7 @@ tmp
 =
 ref
 .
-asInt32
+toInt32
 (
 )
 )
@@ -9021,7 +9021,7 @@ JOF_POST
 )
 ref
 .
-asInt32Ref
+getInt32Ref
 (
 )
 =
@@ -9032,7 +9032,7 @@ incr
 else
 ref
 .
-asInt32Ref
+getInt32Ref
 (
 )
 =
@@ -9622,7 +9622,7 @@ tmp
 vp
 -
 >
-asInt32
+toInt32
 (
 )
 )
@@ -9632,7 +9632,7 @@ asInt32
 vp
 -
 >
-asInt32Ref
+getInt32Ref
 (
 )
 =
@@ -9912,7 +9912,7 @@ uint32
 )
 lref
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -10027,7 +10027,7 @@ tmp
 =
 rref
 .
-asInt32
+toInt32
 (
 )
 )
@@ -10043,7 +10043,7 @@ incr2
 ;
 rref
 .
-asInt32Ref
+getInt32Ref
 (
 )
 =
@@ -10736,7 +10736,7 @@ setInt32
 vp
 -
 >
-asString
+toString
 (
 )
 -
@@ -10766,7 +10766,7 @@ obj
 vp
 -
 >
-asObject
+toObject
 (
 )
 ;
@@ -11036,7 +11036,7 @@ js_GetProtoIfDenseArray
 &
 objv
 .
-asObject
+toObject
 (
 )
 )
@@ -11198,7 +11198,7 @@ cx
 &
 objv
 .
-asObject
+toObject
 (
 )
 obj2
@@ -11284,7 +11284,7 @@ cx
 &
 objv
 .
-asObject
+toObject
 (
 )
 id
@@ -11346,7 +11346,7 @@ JS_ASSERT
 (
 objv
 .
-asObject
+toObject
 (
 )
 .
@@ -11371,7 +11371,7 @@ cx
 &
 objv
 .
-asObject
+toObject
 (
 )
 id
@@ -11596,7 +11596,7 @@ sp
 1
 ]
 .
-asObject
+toObject
 (
 )
 .
@@ -13133,7 +13133,7 @@ str
 =
 lref
 .
-asString
+toString
 (
 )
 ;
@@ -13142,7 +13142,7 @@ i
 =
 rref
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -13251,7 +13251,7 @@ i
 =
 rref
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -14208,7 +14208,7 @@ vp
 1
 ]
 .
-asObject
+toObject
 (
 )
 :
@@ -14681,8 +14681,8 @@ newfp
 -
 >
 rval
-.
-setUndefined
+=
+UndefinedValue
 (
 )
 ;
@@ -16522,7 +16522,7 @@ i
 =
 rref
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -16539,7 +16539,7 @@ isDouble
 &
 rref
 .
-asDouble
+toDouble
 (
 )
 =
@@ -16750,7 +16750,7 @@ i
 =
 rref
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -16767,7 +16767,7 @@ isDouble
 &
 rref
 .
-asDouble
+toDouble
 (
 )
 =
@@ -17120,7 +17120,7 @@ str
 =
 lval
 .
-asString
+toString
 (
 )
 ;
@@ -17146,7 +17146,7 @@ str2
 =
 rval
 .
-asString
+toString
 (
 )
 )
@@ -17180,7 +17180,7 @@ ldbl
 =
 lval
 .
-asNumber
+toNumber
 (
 )
 ;
@@ -17200,7 +17200,7 @@ ldbl
 =
 rval
 .
-asNumber
+toNumber
 (
 )
 ;
@@ -17354,7 +17354,7 @@ JSOp
 )
 rval
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -18129,7 +18129,7 @@ argv
 2
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -18171,7 +18171,7 @@ dslots
 1
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 )
@@ -18395,7 +18395,7 @@ uint32
 )
 lval
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -18659,7 +18659,7 @@ uint32
 )
 lref
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -18995,11 +18995,8 @@ js_DefineNativeProperty
 cx
 obj
 id
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 PropertyStub
 PropertyStub
@@ -19659,7 +19656,7 @@ obj
 Value
 rval
 =
-ObjectTag
+ObjectValue
 (
 *
 obj
@@ -20347,7 +20344,7 @@ error
 Value
 rval
 =
-ObjectTag
+ObjectValue
 (
 *
 obj
@@ -21128,7 +21125,7 @@ isObject
 &
 lref
 .
-asObject
+toObject
 (
 )
 .
@@ -21186,7 +21183,7 @@ obj2
 &
 lref
 .
-asObject
+toObject
 (
 )
 ;
@@ -21691,7 +21688,7 @@ obj
 &
 lref
 .
-asObject
+toObject
 (
 )
 ;
@@ -21824,7 +21821,7 @@ CastAsPropertyOp
 &
 rval
 .
-asObject
+toObject
 (
 )
 )
@@ -21851,7 +21848,7 @@ CastAsPropertyOp
 &
 rval
 .
-asObject
+toObject
 (
 )
 )
@@ -21910,11 +21907,8 @@ defineProperty
 (
 cx
 id
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 getter
 setter
@@ -22350,7 +22344,7 @@ FINALIZE_OBJECT
 &
 lref
 .
-asObject
+toObject
 (
 )
 ;
@@ -22437,7 +22431,7 @@ sp
 2
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -23140,7 +23134,7 @@ obj
 &
 lref
 .
-asObject
+toObject
 (
 )
 ;
@@ -23439,7 +23433,7 @@ obj
 &
 lref
 .
-asObject
+toObject
 (
 )
 ;
@@ -23688,7 +23682,7 @@ slots
 slot
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -23902,7 +23896,7 @@ isUndefined
 :
 rval
 .
-asInt32
+toInt32
 (
 )
 +
@@ -23923,7 +23917,7 @@ isInt32
 ;
 rval
 .
-asInt32Ref
+getInt32Ref
 (
 )
 -
@@ -23934,7 +23928,7 @@ if
 (
 rval
 .
-asInt32
+toInt32
 (
 )
 =
@@ -24101,7 +24095,7 @@ if
 (
 lval
 .
-asBoolean
+toBoolean
 (
 )
 )
@@ -24192,7 +24186,7 @@ len
 =
 rval
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -24674,7 +24668,7 @@ obj
 &
 rref
 .
-asObject
+toObject
 (
 )
 )
@@ -25003,7 +24997,7 @@ atom
 Value
 rval
 =
-StringTag
+StringValue
 (
 ATOM_TO_STRING
 (
@@ -25213,7 +25207,7 @@ js_EscapeAttributeValue
 cx
 rval
 .
-asString
+toString
 (
 )
 JS_FALSE
@@ -25282,7 +25276,7 @@ str
 =
 lval
 .
-asString
+toString
 (
 )
 ;
@@ -25292,7 +25286,7 @@ str2
 =
 rval
 .
-asString
+toString
 (
 )
 ;
@@ -25426,7 +25420,7 @@ sp
 3
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -26344,7 +26338,7 @@ str2
 =
 rval
 .
-asString
+toString
 (
 )
 ;
@@ -27264,7 +27258,7 @@ slots
 slot
 ]
 .
-asObject
+toObject
 (
 )
 ;

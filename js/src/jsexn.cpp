@@ -1995,7 +1995,7 @@ argv
 Value
 v
 =
-NullTag
+NullValue
 (
 )
 ;
@@ -4539,7 +4539,7 @@ argv
 2
 ]
 .
-asObject
+toObject
 (
 )
 .
@@ -4574,7 +4574,7 @@ errProto
 rval
 -
 >
-asObject
+toObject
 (
 )
 ;

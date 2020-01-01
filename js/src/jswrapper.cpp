@@ -602,7 +602,7 @@ getProxyPrivate
 (
 )
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;
@@ -1667,7 +1667,7 @@ NewProxyObject
 (
 cx
 handler
-ObjectTag
+ObjectValue
 (
 *
 obj
@@ -1889,7 +1889,7 @@ isStatic
 vp
 -
 >
-asString
+toString
 (
 )
 )
@@ -1922,7 +1922,7 @@ obj
 vp
 -
 >
-asObject
+toObject
 (
 )
 .
@@ -2043,7 +2043,7 @@ str
 vp
 -
 >
-asString
+toString
 (
 )
 ;
@@ -2103,7 +2103,7 @@ obj
 vp
 -
 >
-asObject
+toObject
 (
 )
 ;
@@ -2450,7 +2450,7 @@ AutoValueRooter
 tvr
 (
 cx
-StringTag
+StringValue
 (
 *
 strp
@@ -2482,7 +2482,7 @@ value
 (
 )
 .
-asString
+toString
 (
 )
 ;
@@ -2518,7 +2518,7 @@ AutoValueRooter
 tvr
 (
 cx
-ObjectTag
+ObjectValue
 (
 *
 *
@@ -2552,7 +2552,7 @@ value
 (
 )
 .
-asObject
+toObject
 (
 )
 ;
@@ -2895,8 +2895,8 @@ cx
 -
 >
 exception
-=
-NullTag
+.
+setNull
 (
 )
 ;
@@ -3081,8 +3081,8 @@ vp
 [
 0
 ]
-=
-UndefinedTag
+.
+setUndefined
 (
 )
 ;
@@ -3090,8 +3090,8 @@ vp
 [
 1
 ]
-=
-NullTag
+.
+setNull
 (
 )
 ;
@@ -4232,7 +4232,7 @@ obj
 vp
 -
 >
-asObject
+toObject
 (
 )
 )
@@ -4287,7 +4287,7 @@ iterObj
 vp
 -
 >
-asObject
+toObject
 (
 )
 ;
@@ -4692,7 +4692,7 @@ vp
 0
 ]
 =
-ObjectTag
+ObjectValue
 (
 *
 call
@@ -4932,7 +4932,7 @@ vp
 0
 ]
 =
-ObjectTag
+ObjectValue
 (
 *
 call

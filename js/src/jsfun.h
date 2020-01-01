@@ -2318,7 +2318,7 @@ isObject
 &
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -2401,7 +2401,7 @@ isObject
 &
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -2443,7 +2443,7 @@ funobj
 &
 v
 .
-asObject
+toObject
 (
 )
 )

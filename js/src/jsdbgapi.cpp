@@ -4531,8 +4531,8 @@ vp
 [
 1
 ]
-=
-NullTag
+.
+setNull
 (
 )
 ;
@@ -4753,7 +4753,7 @@ InternalCall
 (
 cx
 obj
-ObjectTag
+ObjectValue
 (
 *
 CastAsObject
@@ -4883,7 +4883,7 @@ argv
 2
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -5480,11 +5480,8 @@ js_DefineNativeProperty
 cx
 obj
 propid
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 NULL
 NULL
@@ -5588,11 +5585,8 @@ sprop
 slot
 )
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 )
 ;
@@ -10191,8 +10185,8 @@ vp
 [
 1
 ]
-=
-NullTag
+.
+setNull
 (
 )
 ;
@@ -11042,7 +11036,7 @@ dslots
 1
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 -

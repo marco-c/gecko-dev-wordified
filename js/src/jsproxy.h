@@ -1532,7 +1532,7 @@ js
 JSSLOT_PROXY_HANDLER
 )
 .
-asPrivate
+toPrivate
 (
 )
 ;

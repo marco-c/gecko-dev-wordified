@@ -938,7 +938,7 @@ void
 )
 argval
 .
-asBoolean
+toBoolean
 (
 )
 ;
@@ -960,7 +960,7 @@ js_GetStringBytes
 cx
 argval
 .
-asString
+toString
 (
 )
 )
@@ -989,7 +989,7 @@ void
 )
 argval
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -1008,7 +1008,7 @@ void
 )
 argval
 .
-asDouble
+toDouble
 (
 )
 ;

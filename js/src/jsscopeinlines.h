@@ -880,7 +880,7 @@ JS_ASSERT
 vp
 -
 >
-asObject
+toObject
 (
 )
 =
@@ -916,7 +916,7 @@ funobj
 vp
 -
 >
-asObject
+toObject
 (
 )
 ;
@@ -1033,7 +1033,7 @@ prevObj
 &
 prev
 .
-asObject
+toObject
 (
 )
 )
@@ -1056,7 +1056,7 @@ isObject
 &
 v
 .
-asObject
+toObject
 (
 )
 !

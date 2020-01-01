@@ -648,7 +648,7 @@ JS_BOOLEAN_STR
 primp
 -
 >
-asBoolean
+toBoolean
 (
 )
 )
@@ -738,7 +738,7 @@ booleanAtoms
 primp
 -
 >
-asBoolean
+toBoolean
 (
 )
 ?
@@ -989,7 +989,7 @@ proto
 >
 setPrimitiveThis
 (
-BooleanTag
+BooleanValue
 (
 false
 )
@@ -1125,7 +1125,7 @@ isString
 return
 v
 .
-asString
+toString
 (
 )
 -
@@ -1148,7 +1148,7 @@ isInt32
 return
 v
 .
-asInt32
+toInt32
 (
 )
 !
@@ -1171,7 +1171,7 @@ d
 =
 v
 .
-asDouble
+toDouble
 (
 )
 ;
@@ -1201,7 +1201,7 @@ isBoolean
 return
 v
 .
-asBoolean
+toBoolean
 (
 )
 ;

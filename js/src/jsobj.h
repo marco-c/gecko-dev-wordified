@@ -635,7 +635,7 @@ op
 )
 {
 return
-ObjectTag
+ObjectValue
 (
 *
 CastAsObject
@@ -875,7 +875,7 @@ NULL
 &
 get
 .
-asObject
+toObject
 (
 )
 ;
@@ -899,7 +899,7 @@ NULL
 &
 set
 .
-asObject
+toObject
 (
 )
 ;
@@ -2166,7 +2166,7 @@ dslots
 1
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 :
@@ -2290,7 +2290,7 @@ dslots
 1
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 )
@@ -2339,7 +2339,7 @@ dslots
 1
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 )
@@ -2393,7 +2393,7 @@ dslots
 1
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 )
@@ -2621,7 +2621,7 @@ fslots
 JSSLOT_PARENT
 ]
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;
@@ -2779,7 +2779,7 @@ fslots
 JSSLOT_PRIVATE
 ]
 .
-asPrivate
+toPrivate
 (
 )
 ;
@@ -2861,7 +2861,7 @@ return
 js
 :
 :
-PrivateTag
+PrivateValue
 (
 NULL
 )
@@ -2870,7 +2870,7 @@ return
 js
 :
 :
-UndefinedTag
+UndefinedValue
 (
 )
 ;
@@ -5675,7 +5675,7 @@ getSlot
 JSSLOT_BLOCK_DEPTH
 )
 .
-asInt32
+toInt32
 (
 )
 #
@@ -5695,7 +5695,7 @@ setSlot
 JSSLOT_BLOCK_DEPTH
 Value
 (
-Int32Tag
+Int32Value
 (
 depth
 )
