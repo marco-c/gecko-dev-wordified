@@ -4946,7 +4946,6 @@ XPCJSObjectHolder
 :
 newHolder
 (
-ccx
 obj
 )
 ;
@@ -5625,28 +5624,6 @@ if
 tryConstructSlimWrapper
 )
 {
-XPCCallContext
-&
-ccx
-=
-lccx
-.
-GetXPCCallContext
-(
-)
-;
-if
-(
-!
-ccx
-.
-IsValid
-(
-)
-)
-return
-false
-;
 RootedValue
 slim
 (
@@ -5657,7 +5634,6 @@ if
 (
 ConstructSlimWrapper
 (
-ccx
 aHelper
 xpcscope
 &
@@ -5882,7 +5858,6 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
-ccx
 iid
 )
 ;
@@ -5958,7 +5933,6 @@ XPCWrappedNative
 :
 GetNewOrUsed
 (
-ccx
 aHelper
 xpcscope
 iface
@@ -6083,7 +6057,6 @@ wrapper
 >
 FindTearOff
 (
-ccx
 iface
 false
 &
@@ -6160,7 +6133,6 @@ XPCWrappedNative
 :
 Morph
 (
-ccx
 flat
 iface
 cache
@@ -6399,7 +6371,6 @@ XPCJSObjectHolder
 :
 newHolder
 (
-ccx
 flat
 )
 ;

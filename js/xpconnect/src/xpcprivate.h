@@ -9780,9 +9780,6 @@ JSObject
 *
 GetPrototypeNoHelper
 (
-XPCCallContext
-&
-ccx
 )
 ;
 nsIPrincipal
@@ -11188,9 +11185,6 @@ XPCNativeInterface
 *
 GetNewOrUsed
 (
-XPCCallContext
-&
-ccx
 const
 nsIID
 *
@@ -11202,9 +11196,6 @@ XPCNativeInterface
 *
 GetNewOrUsed
 (
-XPCCallContext
-&
-ccx
 nsIInterfaceInfo
 *
 info
@@ -11215,9 +11206,6 @@ XPCNativeInterface
 *
 GetNewOrUsed
 (
-XPCCallContext
-&
-ccx
 const
 char
 *
@@ -11229,9 +11217,6 @@ XPCNativeInterface
 *
 GetISupports
 (
-XPCCallContext
-&
-ccx
 )
 ;
 inline
@@ -11456,9 +11441,6 @@ XPCNativeInterface
 *
 NewInstance
 (
-XPCCallContext
-&
-ccx
 nsIInterfaceInfo
 *
 aInfo
@@ -12197,9 +12179,6 @@ XPCNativeSet
 *
 GetNewOrUsed
 (
-XPCCallContext
-&
-ccx
 const
 nsIID
 *
@@ -12211,9 +12190,6 @@ XPCNativeSet
 *
 GetNewOrUsed
 (
-XPCCallContext
-&
-ccx
 nsIClassInfo
 *
 classInfo
@@ -12224,9 +12200,6 @@ XPCNativeSet
 *
 GetNewOrUsed
 (
-XPCCallContext
-&
-ccx
 XPCNativeSet
 *
 otherSet
@@ -12327,9 +12300,6 @@ XPCNativeSet
 *
 GetNewOrUsed
 (
-XPCCallContext
-&
-ccx
 XPCNativeSet
 *
 firstSet
@@ -12668,9 +12638,6 @@ XPCNativeSet
 *
 NewInstance
 (
-XPCCallContext
-&
-ccx
 XPCNativeInterface
 *
 *
@@ -13913,9 +13880,6 @@ XPCNativeScriptableInfo
 *
 Construct
 (
-XPCCallContext
-&
-ccx
 const
 XPCNativeScriptableCreateInfo
 *
@@ -14547,9 +14511,6 @@ XPCWrappedNativeProto
 *
 GetNewOrUsed
 (
-XPCCallContext
-&
-ccx
 XPCWrappedNativeScope
 *
 scope
@@ -14937,9 +14898,6 @@ si
 bool
 CallPostCreatePrototype
 (
-XPCCallContext
-&
-ccx
 )
 ;
 void
@@ -15239,9 +15197,6 @@ offsets
 JSBool
 Init
 (
-XPCCallContext
-&
-ccx
 const
 XPCNativeScriptableCreateInfo
 *
@@ -15328,9 +15283,6 @@ extern
 JSBool
 ConstructSlimWrapper
 (
-XPCCallContext
-&
-ccx
 xpcObjectHelper
 &
 aHelper
@@ -16909,9 +16861,6 @@ static
 nsresult
 WrapNewGlobal
 (
-XPCCallContext
-&
-ccx
 xpcObjectHelper
 &
 nativeHelper
@@ -16935,9 +16884,6 @@ static
 nsresult
 GetNewOrUsed
 (
-XPCCallContext
-&
-ccx
 xpcObjectHelper
 &
 helper
@@ -16957,9 +16903,6 @@ static
 nsresult
 Morph
 (
-XPCCallContext
-&
-ccx
 JS
 :
 :
@@ -16983,9 +16926,6 @@ static
 nsresult
 GetUsedOnly
 (
-XPCCallContext
-&
-ccx
 nsISupports
 *
 Object
@@ -17106,9 +17046,6 @@ static
 nsresult
 ReparentWrapperIfFound
 (
-XPCCallContext
-&
-ccx
 XPCWrappedNativeScope
 *
 aOldScope
@@ -17128,9 +17065,6 @@ aCOMObj
 nsresult
 RescueOrphans
 (
-XPCCallContext
-&
-ccx
 )
 ;
 void
@@ -17212,9 +17146,6 @@ XPCWrappedNativeTearOff
 *
 LocateTearOff
 (
-XPCCallContext
-&
-ccx
 XPCNativeInterface
 *
 aInterface
@@ -17224,9 +17155,6 @@ XPCWrappedNativeTearOff
 *
 FindTearOff
 (
-XPCCallContext
-&
-ccx
 XPCNativeInterface
 *
 aInterface
@@ -17630,9 +17558,6 @@ char
 *
 ToString
 (
-XPCCallContext
-&
-ccx
 XPCWrappedNativeTearOff
 *
 to
@@ -18119,9 +18044,6 @@ private
 JSBool
 Init
 (
-XPCCallContext
-&
-ccx
 JS
 :
 :
@@ -18136,9 +18058,6 @@ sci
 JSBool
 Init
 (
-XPCCallContext
-&
-ccx
 JSObject
 *
 existingJSObject
@@ -18147,17 +18066,11 @@ existingJSObject
 JSBool
 FinishInit
 (
-XPCCallContext
-&
-ccx
 )
 ;
 JSBool
 ExtendSet
 (
-XPCCallContext
-&
-ccx
 XPCNativeInterface
 *
 aInterface
@@ -18166,9 +18079,6 @@ aInterface
 nsresult
 InitTearOff
 (
-XPCCallContext
-&
-ccx
 XPCWrappedNativeTearOff
 *
 aTearOff
@@ -18182,9 +18092,6 @@ needJSObject
 JSBool
 InitTearOffJSObject
 (
-XPCCallContext
-&
-ccx
 XPCWrappedNativeTearOff
 *
 to
@@ -19854,9 +19761,6 @@ XPCJSObjectHolder
 *
 newHolder
 (
-XPCCallContext
-&
-ccx
 JSObject
 *
 obj
@@ -19894,9 +19798,6 @@ private
 :
 XPCJSObjectHolder
 (
-XPCCallContext
-&
-ccx
 JSObject
 *
 obj

@@ -1276,7 +1276,6 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
-ccx
 &
 NS_GET_IID
 (
@@ -1318,7 +1317,6 @@ XPCWrappedNative
 :
 GetNewOrUsed
 (
-ccx
 helper
 this
 iface
@@ -2382,11 +2380,11 @@ XPCWrappedNativeScope
 :
 GetPrototypeNoHelper
 (
-XPCCallContext
-&
-ccx
 )
 {
+AutoJSContext
+cx
+;
 /
 /
 We
@@ -2437,7 +2435,7 @@ mPrototypeNoHelper
 =
 JS_NewObject
 (
-ccx
+cx
 js
 :
 :
@@ -2448,7 +2446,7 @@ XPC_WN_NoHelper_Proto_JSClass
 )
 JS_GetObjectPrototype
 (
-ccx
+cx
 mGlobalJSObject
 )
 mGlobalJSObject
