@@ -3564,11 +3564,6 @@ defined
 _WIN32
 &
 &
-!
-defined
-WINCE
-&
-&
 _MSC_VER
 <
 1400

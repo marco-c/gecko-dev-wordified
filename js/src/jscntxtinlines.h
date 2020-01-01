@@ -4747,7 +4747,7 @@ PropertyOp
 op
 JSObject
 *
-obj
+receiver
 jsid
 id
 js
@@ -4761,7 +4761,7 @@ vp
 assertSameCompartment
 (
 cx
-obj
+receiver
 id
 *
 vp
@@ -4773,7 +4773,7 @@ ok
 op
 (
 cx
-obj
+receiver
 id
 vp
 )
@@ -4785,7 +4785,7 @@ ok
 assertSameCompartment
 (
 cx
-obj
+receiver
 *
 vp
 )

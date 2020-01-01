@@ -1904,7 +1904,7 @@ comp
 >
 arenas
 [
-FINALIZE_FUNCTION
+FINALIZE_SHAPE
 ]
 .
 arenasContainThing
