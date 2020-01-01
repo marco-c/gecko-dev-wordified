@@ -962,14 +962,6 @@ JSObject
 aOther
 )
 {
-#
-ifdef
-DEBUG
-if
-(
-aOther
-)
-{
 NS_ASSERTION
 (
 mHeld
@@ -980,9 +972,6 @@ rooted
 "
 )
 ;
-}
-#
-endif
 return
 mObj
 =
