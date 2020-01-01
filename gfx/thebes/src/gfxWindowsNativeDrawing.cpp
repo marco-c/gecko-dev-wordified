@@ -1949,6 +1949,12 @@ white
 mTempSurfaceSize
 )
 ;
+mNativeRect
+.
+Round
+(
+)
+;
 mContext
 -
 >
