@@ -817,10 +817,6 @@ defined
 here
 .
 *
-*
-status
-FROZEN
-*
 /
 #
 define

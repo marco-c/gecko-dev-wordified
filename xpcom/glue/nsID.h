@@ -470,9 +470,6 @@ DCE
 UUIDs
 .
 *
-status
-FROZEN
-*
 /
 struct
 nsID
