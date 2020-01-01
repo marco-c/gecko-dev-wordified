@@ -3536,6 +3536,14 @@ Read
 aErrorCode
 )
 ;
+if
+(
+nextChar
+>
+=
+0
+)
+{
 PRInt32
 followingChar
 =
@@ -3565,6 +3573,7 @@ ch
 aToken
 )
 ;
+}
 }
 /
 /
@@ -4285,6 +4294,13 @@ PR_TRUE
 ;
 }
 else
+if
+(
+nextChar
+>
+=
+0
+)
 {
 Pushback
 (
