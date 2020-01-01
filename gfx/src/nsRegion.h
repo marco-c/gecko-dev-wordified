@@ -1040,6 +1040,12 @@ return
 mBoundRect
 ;
 }
+uint64_t
+Area
+(
+)
+const
+;
 /
 /
 Converts
