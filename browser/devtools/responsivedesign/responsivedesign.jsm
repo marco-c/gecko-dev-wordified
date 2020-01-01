@@ -1789,6 +1789,13 @@ closing
 )
 return
 ;
+if
+(
+this
+.
+touchEventHandler
+)
+{
 this
 .
 touchEnableBefore
@@ -1810,6 +1817,7 @@ this
 .
 touchEventHandler
 ;
+}
 }
 /
 *
