@@ -38,6 +38,7 @@ path
 dirs
 =
 [
+path
 ]
     
 while
@@ -292,7 +293,7 @@ in
 dirs
 :
           
-path
+_path
 =
 os
 .
@@ -317,9 +318,13 @@ path
 .
 isfile
 (
-path
+_path
 )
 :
+              
+path
+=
+_path
               
 break
         

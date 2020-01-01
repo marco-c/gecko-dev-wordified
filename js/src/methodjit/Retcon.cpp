@@ -602,7 +602,15 @@ pc
 =
 JS_GetTrapOpcode
 (
-cx
+traps
+.
+allocPolicy
+(
+)
+.
+context
+(
+)
 script
 pc
 )

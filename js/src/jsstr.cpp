@@ -12128,7 +12128,7 @@ if
 patstr
 )
 return
-false
+NULL
 ;
 }
 else
@@ -16737,7 +16737,7 @@ singleShot
 ;
 args
 .
-callee
+calleev
 (
 )
 .

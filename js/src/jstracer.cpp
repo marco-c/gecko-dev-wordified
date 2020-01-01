@@ -12654,7 +12654,7 @@ visitStackSlots
 fp
 -
 >
-calleeValue
+calleev
 (
 )
 2
@@ -29895,7 +29895,7 @@ fp
 )
 -
 >
-calleeValue
+calleev
 (
 )
 )
@@ -36164,7 +36164,7 @@ fp
 )
 -
 >
-calleeValue
+calleev
 (
 )
 )
@@ -57185,7 +57185,7 @@ fp
 )
 -
 >
-calleeValue
+calleev
 (
 )
 )
@@ -57843,7 +57843,7 @@ fp
 )
 -
 >
-calleeValue
+calleev
 (
 )
 )
@@ -71422,12 +71422,10 @@ trace
 if
 (
 !
-fp
--
->
-computeThis
+ComputeThis
 (
 cx
+fp
 )
 )
 RETURN_ERROR
@@ -74028,7 +74026,7 @@ fp
 )
 -
 >
-calleeValue
+calleev
 (
 )
 )
@@ -75343,7 +75341,7 @@ get
 fp
 -
 >
-calleeValue
+calleev
 (
 )
 )
@@ -87622,7 +87620,6 @@ isMethod
 )
 &
 &
-&
 shape
 -
 >
@@ -87631,7 +87628,6 @@ methodObject
 )
 =
 =
-&
 v
 .
 toObject
@@ -96709,7 +96705,7 @@ fp
 )
 -
 >
-calleeValue
+calleev
 (
 )
 )
@@ -107513,7 +107509,7 @@ fp
 )
 -
 >
-calleeValue
+calleev
 (
 )
 ;
@@ -110174,7 +110170,7 @@ fp
 )
 -
 >
-calleeValue
+calleev
 (
 )
 )

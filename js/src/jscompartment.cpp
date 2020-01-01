@@ -1070,6 +1070,14 @@ i
 isEmpty
 (
 )
+|
+|
+arenas
+[
+i
+]
+.
+hasToBeFinalized
 )
 return
 false

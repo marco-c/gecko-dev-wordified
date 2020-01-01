@@ -2042,10 +2042,6 @@ if
 fp
 -
 >
-scopeChain
-(
-)
-.
 compartment
 (
 )
@@ -2352,10 +2348,6 @@ if
 fp
 -
 >
-scopeChain
-(
-)
-.
 compartment
 (
 )

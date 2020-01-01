@@ -477,6 +477,13 @@ jshashtable_h_
 #
 include
 "
+jsalloc
+.
+h
+"
+#
+include
+"
 jstl
 .
 h
