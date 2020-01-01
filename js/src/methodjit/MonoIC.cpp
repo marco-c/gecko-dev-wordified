@@ -639,7 +639,9 @@ f
 fp
 -
 >
-scopeChain
+getScopeChain
+(
+)
 -
 >
 getGlobal
@@ -1124,7 +1126,9 @@ f
 fp
 -
 >
-scopeChain
+getScopeChain
+(
+)
 -
 >
 getGlobal

@@ -1095,7 +1095,7 @@ return
 pc
 *
 /
-public
+private
 :
 JSObject
 *
