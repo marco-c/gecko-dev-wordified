@@ -3202,13 +3202,6 @@ nsINavHistoryResultNode
 .
 RESULT_TYPE_VISIT
 :
-case
-Ci
-.
-nsINavHistoryResultNode
-.
-RESULT_TYPE_FULL_VISIT
-:
 nodeData
 [
 "
