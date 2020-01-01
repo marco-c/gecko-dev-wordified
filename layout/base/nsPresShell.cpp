@@ -11237,6 +11237,9 @@ RefreshDriver
 (
 )
 ;
+#
+ifdef
+MOZ_SMIL
 if
 (
 mDocument
@@ -11261,6 +11264,11 @@ rd
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_SMIL
 /
 /
 Revoke
