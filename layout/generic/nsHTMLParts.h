@@ -585,7 +585,7 @@ blocks
 #
 define
 NS_BLOCK_FLAGS_MASK
-0xF0F00000
+0xF0E00000
 /
 /
 Factory
