@@ -818,7 +818,7 @@ suff
 {
 width
 :
-20
+25
 %
 ;
 }
@@ -829,16 +829,6 @@ desc
 width
 :
 50
-%
-;
-}
-th
-.
-enabled
-{
-width
-:
-10
 %
 ;
 }
