@@ -824,7 +824,7 @@ easy
 int
 quality
 =
-92
+50
 ;
 if
 (
