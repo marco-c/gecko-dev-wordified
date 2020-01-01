@@ -554,6 +554,17 @@ is
 better
 .
 *
+'
+t
+'
+-
+Elapse
+time
+since
+recording
+started
+.
+*
 *
 NOTE
 :
