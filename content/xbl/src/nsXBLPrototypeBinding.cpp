@@ -1357,7 +1357,7 @@ aInitialSize
 }
 }
 static
-PRBool
+bool
 PoolInited
 (
 )
@@ -2051,7 +2051,7 @@ aInfo
 nsIContent
 *
 aElement
-PRBool
+bool
 aFirstBinding
 )
 {
@@ -2188,7 +2188,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsXBLPrototypeBinding
 :
 :
@@ -2200,10 +2200,10 @@ aURI
 )
 const
 {
-PRBool
+bool
 equal
 =
-PR_FALSE
+false
 ;
 mBindingURI
 -
@@ -2240,7 +2240,7 @@ equal
 ;
 }
 static
-PRBool
+bool
 TraverseInsertionPoint
 (
 nsHashKey
@@ -2299,7 +2299,7 @@ kHashEnumerateNext
 ;
 }
 static
-PRBool
+bool
 TraverseBinding
 (
 nsHashKey
@@ -2691,7 +2691,7 @@ mInheritStyle
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsXBLPrototypeBinding
 :
 :
@@ -2708,7 +2708,7 @@ GetScriptAccess
 )
 ;
 }
-PRBool
+bool
 nsXBLPrototypeBinding
 :
 :
@@ -2721,7 +2721,7 @@ if
 mResources
 )
 {
-PRBool
+bool
 result
 ;
 mResources
@@ -3060,7 +3060,7 @@ nsIAtom
 aAttribute
 PRInt32
 aNameSpaceID
-PRBool
+bool
 aRemoveFlag
 nsIContent
 *
@@ -3068,7 +3068,7 @@ aChangedElement
 nsIContent
 *
 aAnonymousContent
-PRBool
+bool
 aNotify
 )
 {
@@ -3264,10 +3264,10 @@ aNotify
 ;
 else
 {
-PRBool
+bool
 attrPresent
 =
-PR_TRUE
+true
 ;
 nsAutoString
 value
@@ -3692,7 +3692,7 @@ aPrototype
 }
 }
 ;
-PRBool
+bool
 InstantiateInsertionPoint
 (
 nsHashKey
@@ -4267,7 +4267,7 @@ aCopyRoot
 PRUint32
 *
 aIndex
-PRBool
+bool
 *
 aMultipleInsertionPoints
 )
@@ -4534,7 +4534,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 nsXBLPrototypeBinding
 :
 :
@@ -5410,7 +5410,7 @@ duplicates
 lots
 of
 AttributeChanged
-PRBool
+bool
 SetAttrs
 (
 nsHashKey
@@ -5472,10 +5472,10 @@ mSrcNamespace
 nsAutoString
 value
 ;
-PRBool
+bool
 attrPresent
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -5807,7 +5807,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 SetAttrsNS
 (
 nsHashKey
@@ -5996,7 +5996,7 @@ nsnull
 ;
 }
 static
-PRBool
+bool
 DeleteAttributeEntry
 (
 nsHashKey
@@ -6030,7 +6030,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 DeleteAttributeTable
 (
 nsHashKey
@@ -6802,7 +6802,7 @@ child
 }
 }
 static
-PRBool
+bool
 DeleteInsertionPointEntry
 (
 nsHashKey

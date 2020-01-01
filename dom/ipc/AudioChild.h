@@ -569,7 +569,7 @@ GetLastKnownPositionTimestamp
 (
 )
 ;
-PRBool
+bool
 IsIPCOpen
 (
 )
@@ -600,10 +600,10 @@ mozilla
 ReentrantMonitor
 mAudioReentrantMonitor
 ;
-PRPackedBool
+bool
 mIPCOpen
 ;
-PRPackedBool
+bool
 mDrained
 ;
 }

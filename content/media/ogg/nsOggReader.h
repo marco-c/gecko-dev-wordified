@@ -581,7 +581,7 @@ ResetDecode
 )
 ;
 virtual
-PRBool
+bool
 DecodeAudioData
 (
 )
@@ -625,10 +625,10 @@ time
 info
 .
 virtual
-PRBool
+bool
 DecodeVideoFrame
 (
-PRBool
+bool
 &
 aKeyframeSkip
 PRInt64
@@ -636,7 +636,7 @@ aTimeThreshold
 )
 ;
 virtual
-PRBool
+bool
 HasAudio
 (
 )
@@ -655,7 +655,7 @@ mActive
 ;
 }
 virtual
-PRBool
+bool
 HasVideo
 (
 )
@@ -709,7 +709,7 @@ aStartTime
 ;
 private
 :
-PRBool
+bool
 HasSkeleton
 (
 )
@@ -921,7 +921,7 @@ aTimeEnd
 )
 {
 }
-PRBool
+bool
 IsNull
 (
 )
@@ -1245,10 +1245,10 @@ at
 aEndOffset
 .
 If
-PRBool
+bool
 aCachedDataOnly
 is
-PR_TRUE
+true
 then
 we
 '
@@ -1282,7 +1282,7 @@ media
 stream
 .
 If
-PRBool
+bool
 aCachedDataOnly
 /
 /
@@ -1317,7 +1317,7 @@ PRInt64
 aStartOffset
 PRInt64
 aEndOffset
-PRBool
+bool
 aCachedDataOnly
 )
 ;
@@ -1518,7 +1518,7 @@ main
 thread
 only
 .
-PRBool
+bool
 IsKnownStream
 (
 PRUint32
@@ -1737,7 +1737,7 @@ PRInt64
 aStartTime
 PRInt64
 aEndTime
-PRBool
+bool
 aExact
 )
 ;
@@ -1926,7 +1926,7 @@ stream
 /
 succeeds
 .
-PRBool
+bool
 ReadHeaders
 (
 nsOggCodecState

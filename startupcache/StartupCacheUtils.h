@@ -581,7 +581,7 @@ nsIStorageStream
 *
 *
 stream
-PRBool
+bool
 wantDebugStream
 )
 ;

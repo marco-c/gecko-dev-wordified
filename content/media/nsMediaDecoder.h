@@ -790,7 +790,7 @@ on
 failure
 .
 virtual
-PRBool
+bool
 Init
 (
 nsHTMLMediaElement
@@ -1062,7 +1062,7 @@ virtual
 void
 SetInfinite
 (
-PRBool
+bool
 aInfinite
 )
 =
@@ -1083,7 +1083,7 @@ SetInfinite
 )
 .
 virtual
-PRBool
+bool
 IsInfinite
 (
 )
@@ -1305,7 +1305,7 @@ media
 resource
 .
 virtual
-PRBool
+bool
 IsSeeking
 (
 )
@@ -1337,7 +1337,7 @@ thread
 only
 .
 virtual
-PRBool
+bool
 IsEnded
 (
 )
@@ -1506,7 +1506,7 @@ short
 time
 )
 .
-PRPackedBool
+bool
 mDownloadRateReliable
 ;
 /
@@ -1538,7 +1538,7 @@ short
 time
 )
 .
-PRPackedBool
+bool
 mPlaybackRateReliable
 ;
 }
@@ -2236,7 +2236,7 @@ virtual
 void
 SetSeekable
 (
-PRBool
+bool
 aSeekable
 )
 =
@@ -2252,7 +2252,7 @@ is
 supported
 .
 virtual
-PRBool
+bool
 IsSeekable
 (
 )
@@ -2383,7 +2383,7 @@ virtual
 void
 Progress
 (
-PRBool
+bool
 aTimer
 )
 ;
@@ -2776,7 +2776,7 @@ virtual
 void
 Resume
 (
-PRBool
+bool
 aForceBuffering
 )
 =
@@ -3109,7 +3109,7 @@ and
 playback
 rates
 .
-PRBool
+bool
 CanPlayThrough
 (
 )
@@ -3616,7 +3616,7 @@ stream
 while
 seeking
 .
-PRPackedBool
+bool
 mPinnedForSeek
 ;
 /
@@ -3673,7 +3673,7 @@ reset
 this
 flag
 .
-PRPackedBool
+bool
 mSizeChanged
 ;
 /
@@ -3759,7 +3759,7 @@ reset
 this
 flag
 .
-PRPackedBool
+bool
 mImageContainerSizeChanged
 ;
 /
@@ -3815,7 +3815,7 @@ main
 thread
 only
 .
-PRPackedBool
+bool
 mShuttingDown
 ;
 }

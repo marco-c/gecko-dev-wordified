@@ -860,7 +860,7 @@ aMatrix
 .
 *
 /
-PRBool
+bool
 Is2D
 (
 gfxMatrix
@@ -869,7 +869,7 @@ aMatrix
 )
 const
 ;
-PRBool
+bool
 Is2D
 (
 )
@@ -960,7 +960,7 @@ column
 .
 *
 /
-PRBool
+bool
 CanDraw2D
 (
 gfxMatrix
@@ -1006,7 +1006,7 @@ true
 .
 *
 /
-PRBool
+bool
 IsIdentity
 (
 )
@@ -2014,7 +2014,7 @@ exists
 .
 *
 /
-PRBool
+bool
 IsSingular
 (
 )

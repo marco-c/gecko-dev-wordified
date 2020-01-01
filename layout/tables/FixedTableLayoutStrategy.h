@@ -536,7 +536,7 @@ GetPrefWidth
 nsRenderingContext
 *
 aRenderingContext
-PRBool
+bool
 aComputingSize
 )
 ;

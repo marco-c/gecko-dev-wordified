@@ -2088,7 +2088,7 @@ HttpChannelParentListener
 :
 OnRedirectResult
 (
-PRBool
+bool
 succeeded
 )
 {

@@ -494,7 +494,7 @@ ASCII
 *
 /
 inline
-PRBool
+bool
 TX_StringEqualsAtom
 (
 const

@@ -730,7 +730,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 PredicateList
 :
 :

@@ -675,7 +675,7 @@ OutputRow
 (
 )
 ;
-PRBool
+bool
 DoLzw
 (
 const
@@ -802,10 +802,10 @@ to
 keep
 within
 colormap
-PRPackedBool
+bool
 mGIFOpen
 ;
-PRPackedBool
+bool
 mSawTransparency
 ;
 gif_struct

@@ -945,7 +945,7 @@ failure
 *
 /
 inline
-PRBool
+bool
 Init
 (
 )

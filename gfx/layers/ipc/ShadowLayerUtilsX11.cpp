@@ -519,7 +519,7 @@ shadow
 layers
 .
 static
-PRBool
+bool
 UsingXCompositing
 (
 )
@@ -616,7 +616,7 @@ tmplate
 ;
 }
 static
-PRBool
+bool
 TakeAndDestroyXlibSurface
 (
 SurfaceDescriptor
@@ -817,7 +817,7 @@ forget
 )
 ;
 }
-PRBool
+bool
 ShadowLayerForwarder
 :
 :
@@ -859,7 +859,7 @@ aBackBuffer
 )
 ;
 }
-PRBool
+bool
 ShadowLayerForwarder
 :
 :
@@ -1089,7 +1089,7 @@ OpenForeign
 )
 ;
 }
-PRBool
+bool
 ShadowLayerForwarder
 :
 :
@@ -1307,7 +1307,7 @@ False
 ;
 }
 }
-PRBool
+bool
 ShadowLayerManager
 :
 :

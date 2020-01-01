@@ -1226,7 +1226,7 @@ DrawPreview
 nsIDOMCanvasRenderingContext2D
 *
 ctx
-PRBool
+bool
 *
 rDrawFrame
 )
@@ -1253,7 +1253,7 @@ PRUint32
 width
 PRUint32
 height
-PRBool
+bool
 *
 rDrawFrame
 )
@@ -1299,7 +1299,7 @@ DefaultController
 :
 OnActivate
 (
-PRBool
+bool
 *
 rAcceptActivation
 )
@@ -1441,7 +1441,7 @@ NS_IMPL_THREADSAFE_ISUPPORTS1
 WinTaskbar
 nsIWinTaskbar
 )
-PRBool
+bool
 WinTaskbar
 :
 :
@@ -1583,7 +1583,7 @@ CoUninitialize
 /
 /
 static
-PRBool
+bool
 WinTaskbar
 :
 :
@@ -1817,7 +1817,7 @@ static
 Called
 from
 AppShell
-PRBool
+bool
 WinTaskbar
 :
 :
@@ -1844,10 +1844,10 @@ funcAppUserModelID
 =
 nsnull
 ;
-PRBool
+bool
 retVal
 =
-PR_FALSE
+false
 ;
 nsAutoString
 uid
@@ -1942,7 +1942,7 @@ WinTaskbar
 :
 GetAvailable
 (
-PRBool
+bool
 *
 aAvailable
 )
@@ -2432,7 +2432,7 @@ PrepareFullScreen
 nsIDOMWindow
 *
 aWindow
-PRBool
+bool
 aFullScreen
 )
 {
@@ -2495,7 +2495,7 @@ PrepareFullScreenHWND
 void
 *
 aHWND
-PRBool
+bool
 aFullScreen
 )
 {

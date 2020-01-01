@@ -2191,7 +2191,7 @@ return
 this
 ;
 }
-PRBool
+bool
 ThebesLayerD3D9
 :
 :
@@ -4212,7 +4212,7 @@ return
 this
 ;
 }
-PRBool
+bool
 ShadowThebesLayerD3D9
 :
 :

@@ -519,7 +519,7 @@ html
 *
 /
 static
-PRBool
+bool
 HaveFeature
 (
 nsISupports
@@ -799,7 +799,7 @@ treatment
 *
 /
 static
-PRBool
+bool
 PassesConditionalProcessingTests
 (
 nsIContent
@@ -885,7 +885,7 @@ html
 *
 /
 static
-PRBool
+bool
 HaveFeatures
 (
 nsISupports
@@ -960,7 +960,7 @@ MathML
 *
 /
 static
-PRBool
+bool
 HaveExtension
 (
 const
@@ -1002,7 +1002,7 @@ strings
 *
 /
 static
-PRBool
+bool
 HaveExtensions
 (
 const
@@ -1111,7 +1111,7 @@ N
 *
 /
 static
-PRBool
+bool
 MatchesLanguagePreferences
 (
 const
@@ -1181,7 +1181,7 @@ ATTRS_EXTERNAL
 *
 /
 static
-PRBool
+bool
 ElementSupportsAttributes
 (
 const

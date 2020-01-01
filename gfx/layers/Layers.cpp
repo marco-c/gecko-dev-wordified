@@ -1769,7 +1769,7 @@ DEBUG
 /
 /
 Layer
-PRBool
+bool
 Layer
 :
 :
@@ -2897,7 +2897,7 @@ GetFrameMetrics
 )
 ;
 }
-PRBool
+bool
 ContainerLayer
 :
 :
@@ -3031,7 +3031,7 @@ gfxRect
 residual
 )
 ;
-PRBool
+bool
 useIntermediateSurface
 ;
 float

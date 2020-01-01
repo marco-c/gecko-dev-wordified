@@ -672,7 +672,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 SVGNumberPairSMILType
 :
 :

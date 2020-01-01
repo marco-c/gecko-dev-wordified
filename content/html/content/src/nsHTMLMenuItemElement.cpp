@@ -627,7 +627,7 @@ stopped
 *
 /
 virtual
-PRBool
+bool
 Visit
 (
 nsHTMLMenuItemElement
@@ -673,7 +673,7 @@ aResult
 {
 }
 virtual
-PRBool
+bool
 Visit
 (
 nsHTMLMenuItemElement
@@ -748,7 +748,7 @@ aExcludeMenuItem
 {
 }
 virtual
-PRBool
+bool
 Visit
 (
 nsHTMLMenuItemElement
@@ -836,7 +836,7 @@ public
 :
 GetCheckedDirtyVisitor
 (
-PRBool
+bool
 *
 aCheckedDirty
 nsHTMLMenuItemElement
@@ -855,7 +855,7 @@ aExcludeMenuItem
 {
 }
 virtual
-PRBool
+bool
 Visit
 (
 nsHTMLMenuItemElement
@@ -891,7 +891,7 @@ PR_FALSE
 }
 protected
 :
-PRBool
+bool
 *
 mCheckedDirty
 ;
@@ -929,7 +929,7 @@ SetCheckedDirtyVisitor
 {
 }
 virtual
-PRBool
+bool
 Visit
 (
 nsHTMLMenuItemElement
@@ -1011,7 +1011,7 @@ PR_TRUE
 {
 }
 virtual
-PRBool
+bool
 Visit
 (
 nsHTMLMenuItemElement
@@ -1068,10 +1068,10 @@ Visitor
 *
 mVisitor2
 ;
-PRPackedBool
+bool
 mContinue1
 ;
-PRPackedBool
+bool
 mContinue2
 ;
 }
@@ -1377,7 +1377,7 @@ nsHTMLMenuItemElement
 :
 GetChecked
 (
-PRBool
+bool
 *
 aChecked
 )
@@ -1397,11 +1397,11 @@ nsHTMLMenuItemElement
 :
 SetChecked
 (
-PRBool
+bool
 aChecked
 )
 {
-PRBool
+bool
 checkedChanged
 =
 mChecked
@@ -1525,10 +1525,10 @@ message
 NS_MOUSE_CLICK
 )
 {
-PRBool
+bool
 originalCheckedValue
 =
-PR_FALSE
+false
 ;
 switch
 (
@@ -1697,7 +1697,7 @@ mEventStatus
 nsEventStatus_eConsumeNoDefault
 )
 {
-PRBool
+bool
 originalCheckedValue
 =
 !
@@ -1796,7 +1796,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -1840,7 +1840,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsHTMLMenuItemElement
 :
 :
@@ -1879,7 +1879,7 @@ nsGkAtoms
 type
 )
 {
-PRBool
+bool
 success
 =
 aResult
@@ -2034,7 +2034,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -2217,7 +2217,7 @@ radiogroup
 )
 )
 ;
-PRBool
+bool
 info1Empty
 =
 !
@@ -2308,7 +2308,7 @@ radiogroup
 )
 )
 ;
-PRBool
+bool
 info2Empty
 =
 !
@@ -2419,7 +2419,7 @@ AddedToRadioGroup
 (
 )
 {
-PRBool
+bool
 checkedDirty
 =
 mCheckedDirty
@@ -2489,7 +2489,7 @@ InitChecked
 (
 )
 {
-PRBool
+bool
 defaultChecked
 ;
 GetDefaultChecked

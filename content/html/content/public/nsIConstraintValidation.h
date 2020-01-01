@@ -578,7 +578,7 @@ nsIConstraintValidation
 (
 )
 ;
-PRBool
+bool
 IsValid
 (
 )
@@ -591,7 +591,7 @@ mValidityBitField
 0
 ;
 }
-PRBool
+bool
 IsCandidateForConstraintValidation
 (
 )
@@ -668,7 +668,7 @@ SetValidityState
 (
 ValidityStateType
 mState
-PRBool
+bool
 mValue
 )
 ;
@@ -703,7 +703,7 @@ aValidity
 nsresult
 CheckValidity
 (
-PRBool
+bool
 *
 aValidity
 )
@@ -734,7 +734,7 @@ mState
 void
 SetBarredFromConstraintValidation
 (
-PRBool
+bool
 aBarred
 )
 ;
@@ -828,7 +828,7 @@ validation
 .
 *
 /
-PRBool
+bool
 mBarredFromConstraintValidation
 ;
 /
@@ -899,7 +899,7 @@ aValidity
 NS_IMETHOD
 GetWillValidate
 (
-PRBool
+bool
 *
 aWillValidate
 )
@@ -943,7 +943,7 @@ aValidationMessage
 NS_IMETHOD
 CheckValidity
 (
-PRBool
+bool
 *
 aValidity
 )
@@ -1041,7 +1041,7 @@ _from
 :
 GetWillValidate
 (
-PRBool
+bool
 *
 aWillValidate
 )
@@ -1091,7 +1091,7 @@ _from
 :
 CheckValidity
 (
-PRBool
+bool
 *
 aValidity
 )

@@ -623,7 +623,7 @@ virtual
 nsresult
 StoreMoveTo
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -645,7 +645,7 @@ virtual
 nsresult
 StoreLineTo
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -659,7 +659,7 @@ virtual
 nsresult
 StoreHLineTo
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -671,7 +671,7 @@ virtual
 nsresult
 StoreVLineTo
 (
-PRBool
+bool
 absCoords
 float
 y
@@ -683,7 +683,7 @@ virtual
 nsresult
 StoreCurveTo
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -705,7 +705,7 @@ virtual
 nsresult
 StoreSmoothCurveTo
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -723,7 +723,7 @@ virtual
 nsresult
 StoreQuadCurveTo
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -741,7 +741,7 @@ virtual
 nsresult
 StoreSmoothQuadCurveTo
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -755,7 +755,7 @@ virtual
 nsresult
 StoreEllipticalArc
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -767,9 +767,9 @@ float
 r2
 float
 angle
-PRBool
+bool
 largeArcFlag
-PRBool
+bool
 sweepFlag
 )
 =
@@ -792,7 +792,7 @@ float
 aY
 )
 ;
-PRBool
+bool
 IsTokenCoordPairStarter
 (
 )
@@ -805,7 +805,7 @@ float
 aX
 )
 ;
-PRBool
+bool
 IsTokenCoordStarter
 (
 )
@@ -813,7 +813,7 @@ IsTokenCoordStarter
 nsresult
 MatchFlag
 (
-PRBool
+bool
 *
 f
 )
@@ -828,7 +828,7 @@ MatchSubPaths
 (
 )
 ;
-PRBool
+bool
 IsTokenSubPathsStarter
 (
 )
@@ -838,7 +838,7 @@ MatchSubPath
 (
 )
 ;
-PRBool
+bool
 IsTokenSubPathStarter
 (
 )
@@ -848,7 +848,7 @@ MatchSubPathElements
 (
 )
 ;
-PRBool
+bool
 IsTokenSubPathElementsStarter
 (
 )
@@ -858,7 +858,7 @@ MatchSubPathElement
 (
 )
 ;
-PRBool
+bool
 IsTokenSubPathElementStarter
 (
 )
@@ -871,7 +871,7 @@ MatchMoveto
 nsresult
 MatchMovetoArgSeq
 (
-PRBool
+bool
 absCoords
 )
 ;
@@ -888,11 +888,11 @@ MatchLineto
 nsresult
 MatchLinetoArgSeq
 (
-PRBool
+bool
 absCoords
 )
 ;
-PRBool
+bool
 IsTokenLinetoArgSeqStarter
 (
 )
@@ -905,7 +905,7 @@ MatchHorizontalLineto
 nsresult
 MatchHorizontalLinetoArgSeq
 (
-PRBool
+bool
 absCoords
 )
 ;
@@ -917,7 +917,7 @@ MatchVerticalLineto
 nsresult
 MatchVerticalLinetoArgSeq
 (
-PRBool
+bool
 absCoords
 )
 ;
@@ -929,7 +929,7 @@ MatchCurveto
 nsresult
 MatchCurvetoArgSeq
 (
-PRBool
+bool
 absCoords
 )
 ;
@@ -956,7 +956,7 @@ float
 y2
 )
 ;
-PRBool
+bool
 IsTokenCurvetoArgStarter
 (
 )
@@ -969,7 +969,7 @@ MatchSmoothCurveto
 nsresult
 MatchSmoothCurvetoArgSeq
 (
-PRBool
+bool
 absCoords
 )
 ;
@@ -990,7 +990,7 @@ float
 y2
 )
 ;
-PRBool
+bool
 IsTokenSmoothCurvetoArgStarter
 (
 )
@@ -1003,7 +1003,7 @@ MatchQuadBezierCurveto
 nsresult
 MatchQuadBezierCurvetoArgSeq
 (
-PRBool
+bool
 absCoords
 )
 ;
@@ -1024,7 +1024,7 @@ float
 y1
 )
 ;
-PRBool
+bool
 IsTokenQuadBezierCurvetoArgStarter
 (
 )
@@ -1037,7 +1037,7 @@ MatchSmoothQuadBezierCurveto
 nsresult
 MatchSmoothQuadBezierCurvetoArgSeq
 (
-PRBool
+bool
 absCoords
 )
 ;
@@ -1049,7 +1049,7 @@ MatchEllipticalArc
 nsresult
 MatchEllipticalArcArgSeq
 (
-PRBool
+bool
 absCoords
 )
 ;
@@ -1071,15 +1071,15 @@ r2
 float
 *
 angle
-PRBool
+bool
 *
 largeArcFlag
-PRBool
+bool
 *
 sweepFlag
 )
 ;
-PRBool
+bool
 IsTokenEllipticalArcArgStarter
 (
 )
@@ -1107,13 +1107,13 @@ gfxPoint
 radii
 double
 angle
-PRBool
+bool
 largeArcFlag
-PRBool
+bool
 sweepFlag
 )
 ;
-PRBool
+bool
 GetNextSegment
 (
 gfxPoint
@@ -1191,7 +1191,7 @@ virtual
 nsresult
 StoreMoveTo
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -1209,7 +1209,7 @@ virtual
 nsresult
 StoreLineTo
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -1221,7 +1221,7 @@ virtual
 nsresult
 StoreHLineTo
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -1231,7 +1231,7 @@ virtual
 nsresult
 StoreVLineTo
 (
-PRBool
+bool
 absCoords
 float
 y
@@ -1241,7 +1241,7 @@ virtual
 nsresult
 StoreCurveTo
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -1261,7 +1261,7 @@ virtual
 nsresult
 StoreSmoothCurveTo
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -1277,7 +1277,7 @@ virtual
 nsresult
 StoreQuadCurveTo
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -1293,7 +1293,7 @@ virtual
 nsresult
 StoreSmoothQuadCurveTo
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -1305,7 +1305,7 @@ virtual
 nsresult
 StoreEllipticalArc
 (
-PRBool
+bool
 absCoords
 float
 x
@@ -1317,9 +1317,9 @@ float
 r2
 float
 angle
-PRBool
+bool
 largeArcFlag
-PRBool
+bool
 sweepFlag
 )
 ;

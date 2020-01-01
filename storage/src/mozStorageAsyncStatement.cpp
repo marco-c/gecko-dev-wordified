@@ -1827,10 +1827,10 @@ we
 do
 this
 .
-PRBool
+bool
 onCallingThread
 =
-PR_FALSE
+false
 ;
 (
 void
@@ -2288,10 +2288,10 @@ s
 owning
 thread
 .
-PRBool
+bool
 onOpenedThread
 =
-PR_FALSE
+false
 ;
 (
 void

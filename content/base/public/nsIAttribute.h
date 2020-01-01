@@ -584,7 +584,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRBool
+bool
 aNsAware
 )
 :
@@ -614,7 +614,7 @@ mAttrMap
 /
 /
 WEAK
-PRBool
+bool
 mNsAware
 ;
 }

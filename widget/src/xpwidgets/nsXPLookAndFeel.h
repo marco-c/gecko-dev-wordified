@@ -456,7 +456,7 @@ LookAndFeel
 IntID
 id
 ;
-PRPackedBool
+bool
 isSet
 ;
 PRInt32
@@ -481,7 +481,7 @@ LookAndFeel
 FloatID
 id
 ;
-PRPackedBool
+bool
 isSet
 ;
 float
@@ -777,7 +777,7 @@ PRUnichar
 ;
 }
 virtual
-PRBool
+bool
 GetEchoPasswordImpl
 (
 )
@@ -859,7 +859,7 @@ aResult
 =
 0
 ;
-PRBool
+bool
 IsSpecialColor
 (
 ColorID
@@ -883,7 +883,7 @@ aClosure
 )
 ;
 static
-PRBool
+bool
 sInitialized
 ;
 static
@@ -951,7 +951,7 @@ COLOR_CACHE_SIZE
 ]
 ;
 static
-PRBool
+bool
 sUseNativeColors
 ;
 static
@@ -960,7 +960,7 @@ nsLookAndFeel
 sInstance
 ;
 static
-PRBool
+bool
 sShutdown
 ;
 }

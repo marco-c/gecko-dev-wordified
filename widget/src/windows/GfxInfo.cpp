@@ -699,7 +699,7 @@ GfxInfo
 :
 GetD2DEnabled
 (
-PRBool
+bool
 *
 aEnabled
 )
@@ -735,7 +735,7 @@ GfxInfo
 :
 GetDWriteEnabled
 (
-PRBool
+bool
 *
 aEnabled
 )
@@ -765,7 +765,7 @@ GfxInfo
 :
 GetAzureEnabled
 (
-PRBool
+bool
 *
 aEnabled
 )
@@ -775,7 +775,7 @@ aEnabled
 =
 PR_FALSE
 ;
-PRBool
+bool
 d2dEnabled
 =
 gfxWindowsPlatform
@@ -801,10 +801,10 @@ if
 d2dEnabled
 )
 {
-PRBool
+bool
 azure
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -3094,7 +3094,7 @@ of
 the
 DLL
 .
-PRBool
+bool
 is64bitApp
 =
 sizeof
@@ -3805,7 +3805,7 @@ GfxInfo
 :
 GetIsGPU2Active
 (
-PRBool
+bool
 *
 aIsGPU2Active
 )

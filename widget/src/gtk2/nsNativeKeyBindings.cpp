@@ -501,7 +501,7 @@ void
 gCurrentCallbackData
 ;
 static
-PRBool
+bool
 gHandled
 ;
 /
@@ -801,7 +801,7 @@ gHandled
 =
 PR_TRUE
 ;
-PRBool
+bool
 forward
 =
 count
@@ -1330,7 +1330,7 @@ gHandled
 =
 PR_TRUE
 ;
-PRBool
+bool
 forward
 =
 count
@@ -1707,7 +1707,7 @@ NS_IMPL_ISUPPORTS1
 nsNativeKeyBindings
 nsINativeKeyBindings
 )
-PRBool
+bool
 nsNativeKeyBindings
 :
 :
@@ -1728,7 +1728,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsNativeKeyBindings
 :
 :
@@ -2069,7 +2069,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsNativeKeyBindings
 :
 :
@@ -2171,7 +2171,7 @@ return
 gHandled
 ;
 }
-PRBool
+bool
 nsNativeKeyBindings
 :
 :

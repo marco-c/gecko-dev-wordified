@@ -1181,7 +1181,7 @@ BuildShorthandsContainingTable
 #
 undef
 DEBUG_SHORTHANDS_CONTAINING
-PRBool
+bool
 nsCSSProps
 :
 :
@@ -5849,7 +5849,7 @@ eCSSKeyword_UNKNOWN
 1
 }
 ;
-PRBool
+bool
 nsCSSProps
 :
 :
@@ -6190,7 +6190,7 @@ return
 sNullStr
 ;
 }
-PRBool
+bool
 nsCSSProps
 :
 :
@@ -6203,10 +6203,10 @@ nsCString
 aStr
 )
 {
-PRBool
+bool
 rv
 =
-PR_FALSE
+false
 ;
 /
 /

@@ -616,7 +616,7 @@ return
 mSearchTerms
 ;
 }
-PRBool
+bool
 OnlyBookmarked
 (
 )
@@ -625,7 +625,7 @@ return
 mOnlyBookmarked
 ;
 }
-PRBool
+bool
 DomainIsHost
 (
 )
@@ -645,7 +645,7 @@ return
 mDomain
 ;
 }
-PRBool
+bool
 UriIsPrefix
 (
 )
@@ -671,7 +671,7 @@ AddRef
 -
 ed
 !
-PRBool
+bool
 AnnotationIsNot
 (
 )
@@ -756,7 +756,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 TagsAreNot
 (
 )
@@ -846,10 +846,10 @@ mEndTimeReference
 nsString
 mSearchTerms
 ;
-PRBool
+bool
 mOnlyBookmarked
 ;
-PRBool
+bool
 mDomainIsHost
 ;
 nsCString
@@ -865,7 +865,7 @@ string
 is
 valid
 query
-PRBool
+bool
 mUriIsPrefix
 ;
 nsCOMPtr
@@ -874,7 +874,7 @@ nsIURI
 >
 mUri
 ;
-PRBool
+bool
 mAnnotationIsNot
 ;
 nsCString
@@ -892,7 +892,7 @@ nsString
 >
 mTags
 ;
-PRBool
+bool
 mTagsAreNot
 ;
 nsTArray
@@ -1020,7 +1020,7 @@ return
 mResultType
 ;
 }
-PRBool
+bool
 ExcludeItems
 (
 )
@@ -1030,7 +1030,7 @@ return
 mExcludeItems
 ;
 }
-PRBool
+bool
 ExcludeQueries
 (
 )
@@ -1040,7 +1040,7 @@ return
 mExcludeQueries
 ;
 }
-PRBool
+bool
 ExcludeReadOnlyFolders
 (
 )
@@ -1050,7 +1050,7 @@ return
 mExcludeReadOnlyFolders
 ;
 }
-PRBool
+bool
 ExpandQueries
 (
 )
@@ -1060,7 +1060,7 @@ return
 mExpandQueries
 ;
 }
-PRBool
+bool
 IncludeHidden
 (
 )
@@ -1100,7 +1100,7 @@ return
 mQueryType
 ;
 }
-PRBool
+bool
 AsyncEnabled
 (
 )
@@ -1230,19 +1230,19 @@ mParentAnnotationToExclude
 PRUint16
 mResultType
 ;
-PRPackedBool
+bool
 mExcludeItems
 ;
-PRPackedBool
+bool
 mExcludeQueries
 ;
-PRPackedBool
+bool
 mExcludeReadOnlyFolders
 ;
-PRPackedBool
+bool
 mExpandQueries
 ;
-PRPackedBool
+bool
 mIncludeHidden
 ;
 PRUint16
@@ -1254,7 +1254,7 @@ mMaxResults
 PRUint16
 mQueryType
 ;
-PRBool
+bool
 mAsyncEnabled
 ;
 }

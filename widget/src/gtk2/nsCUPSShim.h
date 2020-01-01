@@ -815,7 +815,7 @@ initialization
 .
 *
 /
-PRBool
+bool
 Init
 (
 )
@@ -839,7 +839,7 @@ otherwise
 .
 *
 /
-PRBool
+bool
 IsInitialized
 (
 )

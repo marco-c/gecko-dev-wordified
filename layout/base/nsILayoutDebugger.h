@@ -517,7 +517,7 @@ NS_ILAYOUT_DEBUGGER_IID
 NS_IMETHOD
 SetShowFrameBorders
 (
-PRBool
+bool
 aEnable
 )
 =
@@ -526,7 +526,7 @@ aEnable
 NS_IMETHOD
 GetShowFrameBorders
 (
-PRBool
+bool
 *
 aResult
 )
@@ -536,7 +536,7 @@ aResult
 NS_IMETHOD
 SetShowEventTargetFrameBorder
 (
-PRBool
+bool
 aEnable
 )
 =
@@ -545,7 +545,7 @@ aEnable
 NS_IMETHOD
 GetShowEventTargetFrameBorder
 (
-PRBool
+bool
 *
 aResult
 )

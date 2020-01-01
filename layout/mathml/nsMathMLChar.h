@@ -722,7 +722,7 @@ PRUnichar
 )
 ;
 }
-PRBool
+bool
 Exists
 (
 )
@@ -740,7 +740,7 @@ code
 )
 ;
 }
-PRBool
+bool
 operator
 =
 =
@@ -791,7 +791,7 @@ font
 )
 ;
 }
-PRBool
+bool
 operator
 !
 =
@@ -1150,7 +1150,7 @@ nsRenderingContext
 aRenderingContext
 nsPoint
 aPt
-PRBool
+bool
 aIsSelected
 )
 ;
@@ -1552,10 +1552,10 @@ bit
 from
 flags
 .
-PRBool
+bool
 aMaxSizeIsAbsolute
 =
-PR_FALSE
+false
 )
 ;
 /
@@ -1850,7 +1850,7 @@ glyphs
 or
 not
 .
-PRPackedBool
+bool
 mDrawNormal
 ;
 class
@@ -1889,10 +1889,10 @@ float
 aMaxSize
 =
 NS_MATHML_OPERATOR_SIZE_INFINITY
-PRBool
+bool
 aMaxSizeIsAbsolute
 =
-PR_FALSE
+false
 )
 ;
 nsresult

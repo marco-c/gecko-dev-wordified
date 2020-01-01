@@ -1974,7 +1974,7 @@ to
 scan
 *
 /
-PRBool
+bool
 IsASCII
 (
 const
@@ -2024,7 +2024,7 @@ to
 scan
 *
 /
-PRBool
+bool
 IsASCII
 (
 const
@@ -2319,20 +2319,20 @@ non
 characters
 *
 /
-PRBool
+bool
 IsUTF8
 (
 const
 nsACString
 &
 aString
-PRBool
+bool
 aRejectNonChar
 =
-PR_TRUE
+true
 )
 ;
-PRBool
+bool
 ParseString
 (
 const
@@ -2541,7 +2541,7 @@ later
 .
 *
 /
-PRBool
+bool
 FindInReadable
 (
 const
@@ -2567,7 +2567,7 @@ nsDefaultStringComparator
 )
 )
 ;
-PRBool
+bool
 FindInReadable
 (
 const
@@ -2617,7 +2617,7 @@ not
 *
 /
 inline
-PRBool
+bool
 FindInReadable
 (
 const
@@ -2670,7 +2670,7 @@ compare
 ;
 }
 inline
-PRBool
+bool
 FindInReadable
 (
 const
@@ -2722,7 +2722,7 @@ compare
 )
 ;
 }
-PRBool
+bool
 CaseInsensitiveFindInReadable
 (
 const
@@ -2800,7 +2800,7 @@ aSearchEnd
 *
 *
 /
-PRBool
+bool
 RFindInReadable
 (
 const
@@ -2826,7 +2826,7 @@ nsDefaultStringComparator
 )
 )
 ;
-PRBool
+bool
 RFindInReadable
 (
 const
@@ -2923,7 +2923,7 @@ aSearchEnd
 .
 *
 /
-PRBool
+bool
 FindCharInReadable
 (
 PRUnichar
@@ -2943,7 +2943,7 @@ const_iterator
 aSearchEnd
 )
 ;
-PRBool
+bool
 FindCharInReadable
 (
 char
@@ -3006,7 +3006,7 @@ char
 aChar
 )
 ;
-PRBool
+bool
 StringBeginsWith
 (
 const
@@ -3027,7 +3027,7 @@ nsDefaultStringComparator
 )
 )
 ;
-PRBool
+bool
 StringBeginsWith
 (
 const
@@ -3048,7 +3048,7 @@ nsDefaultCStringComparator
 )
 )
 ;
-PRBool
+bool
 StringEndsWith
 (
 const
@@ -3069,7 +3069,7 @@ nsDefaultStringComparator
 )
 )
 ;
-PRBool
+bool
 StringEndsWith
 (
 const
@@ -3203,7 +3203,7 @@ class
 T
 >
 inline
-PRBool
+bool
 EnsureStringLength
 (
 T

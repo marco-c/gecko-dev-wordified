@@ -5026,7 +5026,7 @@ IsRemoteDrawingCoreAnimation
 (
 NPP
 instance
-PRBool
+bool
 *
 aDrawing
 )
@@ -5860,10 +5860,10 @@ defined
 (
 XP_MACOSX
 )
-PRBool
+bool
 nativeCursorsSupported
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -6153,7 +6153,7 @@ PluginInstanceParent
 aInstance
 )
 {
-PRBool
+bool
 visibleRemoved
 =
 mCATimerTargets

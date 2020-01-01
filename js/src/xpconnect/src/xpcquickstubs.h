@@ -4117,7 +4117,7 @@ cx
 )
 ;
 inline
-PRBool
+bool
 xpc_qsSameResult
 (
 nsISupports
@@ -4137,7 +4137,7 @@ result2
 ;
 }
 inline
-PRBool
+bool
 xpc_qsSameResult
 (
 const
@@ -4160,7 +4160,7 @@ result2
 ;
 }
 inline
-PRBool
+bool
 xpc_qsSameResult
 (
 PRInt32

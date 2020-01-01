@@ -974,7 +974,7 @@ value
 .
 *
 /
-PRBool
+bool
 SetContentState
 (
 nsIContent
@@ -995,7 +995,7 @@ nsIContent
 aContent
 )
 ;
-PRBool
+bool
 EventStatusOK
 (
 nsGUIEvent
@@ -1130,7 +1130,7 @@ nsIContent
 aContent
 )
 ;
-PRBool
+bool
 GetAccessKeyLabelPrefix
 (
 nsAString
@@ -1146,7 +1146,7 @@ aCursor
 imgIContainer
 *
 aContainer
-PRBool
+bool
 aHaveHotspot
 float
 aHotspotX
@@ -1155,7 +1155,7 @@ aHotspotY
 nsIWidget
 *
 aWidget
-PRBool
+bool
 aLockCursor
 )
 ;
@@ -1215,7 +1215,7 @@ TimeStamp
 }
 }
 static
-PRBool
+bool
 IsHandlingUserInput
 (
 )
@@ -1385,7 +1385,7 @@ false
 /
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsHandlingUserInputExternal
 (
@@ -1493,7 +1493,7 @@ dom
 Element
 *
 aElement
-PRBool
+bool
 aIsFullScreen
 )
 ;
@@ -2161,7 +2161,7 @@ PRInt32
 aModifierMask
 )
 ;
-PRBool
+bool
 ExecuteAccessKey
 (
 nsTArray
@@ -2170,7 +2170,7 @@ PRUint32
 >
 &
 aAccessCharCodes
-PRBool
+bool
 aIsTrustedEvent
 )
 ;
@@ -2280,7 +2280,7 @@ GetFocusedContent
 (
 )
 ;
-PRBool
+bool
 IsShellVisible
 (
 nsIDocShell
@@ -2416,7 +2416,7 @@ nsIScrollableFrame
 :
 ScrollUnit
 aScrollQuantity
-PRBool
+bool
 aAllowScrollSpeedOverride
 nsQueryContentEvent
 *
@@ -2577,7 +2577,7 @@ ComputeWheelActionFor
 nsMouseScrollEvent
 *
 aMouseEvent
-PRBool
+bool
 aUseSystemSettings
 )
 ;
@@ -2707,7 +2707,7 @@ FALSE
 .
 *
 /
-PRBool
+bool
 UseSystemScrollSettingFor
 (
 nsMouseScrollEvent
@@ -2975,10 +2975,10 @@ aSelectionTarget
 nsDOMDataTransfer
 *
 aDataTransfer
-PRBool
+bool
 *
 aIsSelection
-PRBool
+bool
 *
 aIsInEditor
 nsIContent
@@ -3065,7 +3065,7 @@ being
 dragged
 *
 /
-PRBool
+bool
 DoDefaultDragStart
 (
 nsPresContext
@@ -3080,11 +3080,11 @@ aDataTransfer
 nsIContent
 *
 aDragTarget
-PRBool
+bool
 aIsSelection
 )
 ;
-PRBool
+bool
 IsTrackingDragGesture
 (
 )
@@ -3192,7 +3192,7 @@ nsQueryContentEvent
 aEvent
 )
 ;
-PRBool
+bool
 RemoteQueryContentEvent
 (
 nsEvent
@@ -3212,7 +3212,7 @@ GetCrossProcessTarget
 (
 )
 ;
-PRBool
+bool
 IsTargetCrossProcess
 (
 nsGUIEvent
@@ -3231,7 +3231,7 @@ nsIFrameLoader
 remote
 )
 ;
-PRBool
+bool
 IsRemoteTarget
 (
 nsIContent
@@ -3239,7 +3239,7 @@ nsIContent
 target
 )
 ;
-PRBool
+bool
 HandleCrossProcessEvent
 (
 nsEvent
@@ -3271,7 +3271,7 @@ Element
 aElement
 nsEventStates
 aState
-PRBool
+bool
 aAddState
 )
 ;
@@ -3285,7 +3285,7 @@ nsIContent
 aContent
 nsEventStates
 aState
-PRBool
+bool
 aAddState
 )
 ;
@@ -3301,7 +3301,7 @@ nsIContent
 aStopBefore
 nsEventStates
 aState
-PRBool
+bool
 aAddState
 )
 ;
@@ -3449,16 +3449,16 @@ gesture
 -
 down
 happened
-PRPackedBool
+bool
 mGestureDownShift
 ;
-PRPackedBool
+bool
 mGestureDownControl
 ;
-PRPackedBool
+bool
 mGestureDownAlt
 ;
-PRPackedBool
+bool
 mGestureDownMeta
 ;
 nsCOMPtr
@@ -3621,7 +3621,7 @@ mMClickCount
 PRUint32
 mRClickCount
 ;
-PRPackedBool
+bool
 m_haveShutdown
 ;
 /
@@ -3665,10 +3665,10 @@ mAccessKeys
 Unlocks
 pixel
 scrolling
-PRPackedBool
+bool
 mLastLineScrollConsumedX
 ;
-PRPackedBool
+bool
 mLastLineScrollConsumedY
 ;
 static
@@ -3676,7 +3676,7 @@ PRInt32
 sUserInputEventDepth
 ;
 static
-PRBool
+bool
 sNormalLMouseEventInProcess
 ;
 static
@@ -3702,7 +3702,7 @@ click
 hold
 context
 menus
-PRBool
+bool
 mClickHoldContextMenu
 ;
 nsCOMPtr
@@ -3789,7 +3789,7 @@ public
 :
 nsAutoHandlingUserInputStatePusher
 (
-PRBool
+bool
 aIsHandlingUserInput
 nsEvent
 *
@@ -3965,13 +3965,13 @@ nsnull
 }
 protected
 :
-PRBool
+bool
 mIsHandlingUserInput
 ;
-PRBool
+bool
 mIsMouseDown
 ;
-PRBool
+bool
 mResetFMMouseDownState
 ;
 private

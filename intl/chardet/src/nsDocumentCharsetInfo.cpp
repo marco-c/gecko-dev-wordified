@@ -542,7 +542,7 @@ nsDocumentCharsetInfo
 :
 SetForcedDetector
 (
-PRBool
+bool
 aForced
 )
 {
@@ -561,7 +561,7 @@ nsDocumentCharsetInfo
 :
 GetForcedDetector
 (
-PRBool
+bool
 *
 aResult
 )

@@ -543,7 +543,7 @@ interface
 /
 nsINode
 virtual
-PRBool
+bool
 IsNodeOfType
 (
 PRUint32
@@ -559,7 +559,7 @@ CloneDataNode
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+bool
 aCloneText
 )
 const
@@ -595,7 +595,7 @@ FILE
 out
 PRInt32
 aIndent
-PRBool
+bool
 aDumpAll
 )
 const
@@ -788,7 +788,7 @@ NS_IMPL_RELEASE_INHERITED
 nsXMLCDATASection
 nsGenericDOMDataNode
 )
-PRBool
+bool
 nsXMLCDATASection
 :
 :
@@ -825,7 +825,7 @@ CloneDataNode
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+bool
 aCloneText
 )
 const
@@ -980,7 +980,7 @@ FILE
 out
 PRInt32
 aIndent
-PRBool
+bool
 aDumpAll
 )
 const

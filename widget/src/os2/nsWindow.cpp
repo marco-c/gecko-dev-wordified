@@ -2027,10 +2027,10 @@ gRollupWidget
 =
 0
 ;
-PRBool
+bool
 gRollupConsumeRollupEvent
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3105,7 +3105,7 @@ os2
 .
 trackpoint
 "
-PR_FALSE
+false
 )
 )
 {
@@ -4867,7 +4867,7 @@ QWL_NSWINDOWPTR
 /
 static
 inline
-PRBool
+bool
 nsWindow
 :
 :
@@ -5125,7 +5125,7 @@ nsWindow
 :
 Enable
 (
-PRBool
+bool
 aState
 )
 {
@@ -5237,7 +5237,7 @@ nsWindow
 :
 IsEnabled
 (
-PRBool
+bool
 *
 aState
 )
@@ -5355,7 +5355,7 @@ nsWindow
 :
 Show
 (
-PRBool
+bool
 aState
 )
 {
@@ -5425,7 +5425,7 @@ ACTION_SHOW
 )
 )
 {
-PRBool
+bool
 isVisible
 ;
 IsVisible
@@ -5554,7 +5554,7 @@ nsWindow
 :
 IsVisible
 (
-PRBool
+bool
 &
 aState
 )
@@ -5661,7 +5661,7 @@ nsWindow
 :
 SetFocus
 (
-PRBool
+bool
 aRaise
 )
 {
@@ -5808,7 +5808,7 @@ const
 nsIntRect
 &
 aRect
-PRBool
+bool
 aIsSynchronous
 )
 {
@@ -6870,7 +6870,7 @@ nsWindow
 :
 CaptureMouse
 (
-PRBool
+bool
 aCapture
 )
 {
@@ -6978,7 +6978,7 @@ NS_OK
 -
 -
 -
-PRBool
+bool
 nsWindow
 :
 :
@@ -7972,7 +7972,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-PRBool
+bool
 aRepaint
 )
 {
@@ -8103,7 +8103,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-PRBool
+bool
 aRepaint
 )
 {
@@ -8450,7 +8450,7 @@ aPlacement
 nsIWidget
 *
 aWidget
-PRBool
+bool
 aActivate
 )
 {
@@ -8889,7 +8889,7 @@ recursive
 WM_FOCUSCHANGED
 msgs
 static
-PRBool
+bool
 inPluginActivate
 =
 FALSE
@@ -10840,7 +10840,7 @@ nsWindow
 :
 HideWindowChrome
 (
-PRBool
+bool
 aShouldHide
 )
 {
@@ -10922,7 +10922,7 @@ nsWindow
 :
 ConstrainPosition
 (
-PRBool
+bool
 aAllowSlop
 PRInt32
 *
@@ -13434,9 +13434,9 @@ aListener
 nsIMenuRollup
 *
 aMenuRollup
-PRBool
+bool
 aDoCapture
-PRBool
+bool
 aConsumeRollupEvent
 )
 {
@@ -13632,7 +13632,7 @@ NS_OK
 /
 /
 static
-PRBool
+bool
 nsWindow
 :
 :
@@ -13841,7 +13841,7 @@ rollup
 /
 /
 static
-PRBool
+bool
 nsWindow
 :
 :
@@ -14832,10 +14832,10 @@ MPARAM
 mp2
 )
 {
-PRBool
+bool
 isDone
 =
-PR_FALSE
+false
 ;
 MRESULT
 mresult
@@ -16246,7 +16246,7 @@ nsWindowState_eInCreate
 -
 -
 -
-PRBool
+bool
 nsWindow
 :
 :
@@ -16256,10 +16256,10 @@ PSWP
 pSwp
 )
 {
-PRBool
+bool
 result
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -16565,7 +16565,7 @@ result
 -
 -
 -
-PRBool
+bool
 nsWindow
 :
 :
@@ -17723,7 +17723,7 @@ copy
 or
 paste
 .
-PRBool
+bool
 nsWindow
 :
 :
@@ -17785,10 +17785,10 @@ selected
 content
 )
 .
-PRBool
+bool
 isCopy
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -18476,7 +18476,7 @@ control
 over
 handling
 .
-PRBool
+bool
 nsWindow
 :
 :
@@ -18961,7 +18961,7 @@ calls
 for
 one
 .
-PRBool
+bool
 nsWindow
 :
 :
@@ -18974,15 +18974,15 @@ HPS
 aHps
 )
 {
-PRBool
+bool
 rtn
 =
-PR_TRUE
+true
 ;
-PRBool
+bool
 getHps
 =
-PR_FALSE
+false
 ;
 switch
 (
@@ -19362,7 +19362,7 @@ in
 release
 it
 .
-PRBool
+bool
 nsWindow
 :
 :
@@ -19580,7 +19580,7 @@ GetToggledKeyState
 (
 PRUint32
 aKeyCode
-PRBool
+bool
 *
 aLEDState
 )
@@ -19750,7 +19750,7 @@ combos
 into
 accelerators
 .
-PRBool
+bool
 nsWindow
 :
 :
@@ -20126,7 +20126,7 @@ nsEditorEventListeners
 .
 cpp
 .
-PRBool
+bool
 nsWindow
 :
 :
@@ -20634,7 +20634,7 @@ pressEvent
 =
 event
 ;
-PRBool
+bool
 rc
 =
 DispatchWindowEvent
@@ -23180,7 +23180,7 @@ NS_ERROR_NOT_IMPLEMENTED
 -
 -
 -
-PRBool
+bool
 nsWindow
 :
 :
@@ -23209,7 +23209,7 @@ nsEventStatus_eConsumeNoDefault
 )
 ;
 }
-PRBool
+bool
 nsWindow
 :
 :
@@ -23317,7 +23317,7 @@ nsEventStatus_eConsumeNoDefault
 -
 -
 -
-PRBool
+bool
 nsWindow
 :
 :
@@ -23496,7 +23496,7 @@ event
 -
 -
 -
-PRBool
+bool
 nsWindow
 :
 :
@@ -23645,7 +23645,7 @@ event
 -
 -
 -
-PRBool
+bool
 nsWindow
 :
 :
@@ -23778,7 +23778,7 @@ event
 -
 -
 -
-PRBool
+bool
 nsWindow
 :
 :
@@ -23941,7 +23941,7 @@ of
 mouse
 events
 .
-PRBool
+bool
 nsWindow
 :
 :
@@ -23953,7 +23953,7 @@ MPARAM
 mp1
 MPARAM
 mp2
-PRBool
+bool
 aIsContextMenuKey
 PRInt16
 aButton
@@ -24810,7 +24810,7 @@ level
 window
 activation
 .
-PRBool
+bool
 nsWindow
 :
 :
@@ -25000,7 +25000,7 @@ event
 -
 -
 -
-PRBool
+bool
 nsWindow
 :
 :

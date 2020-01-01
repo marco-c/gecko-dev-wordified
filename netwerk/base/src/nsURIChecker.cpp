@@ -572,7 +572,7 @@ h
 -
 -
 static
-PRBool
+bool
 ServerIsNES3x
 (
 nsIHttpChannel
@@ -1590,10 +1590,10 @@ for
 example
 bug
 148813
-PRBool
+bool
 isReallyHTTP
 =
-PR_FALSE
+false
 ;
 aURI
 -
@@ -2039,7 +2039,7 @@ nsURIChecker
 :
 IsPending
 (
-PRBool
+bool
 *
 aPendingRet
 )

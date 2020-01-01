@@ -1082,7 +1082,7 @@ ComponentLocationComparator
 {
 public
 :
-PRBool
+bool
 Equals
 (
 const
@@ -1118,7 +1118,7 @@ b
 jar
 )
 {
-PRBool
+bool
 res
 ;
 nsresult

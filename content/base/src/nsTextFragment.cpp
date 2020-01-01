@@ -1500,7 +1500,7 @@ PRUnichar
 aBuffer
 PRInt32
 aLength
-PRBool
+bool
 aUpdateBidi
 )
 {
@@ -2186,7 +2186,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-PRBool
+bool
 aUpdateBidi
 )
 {

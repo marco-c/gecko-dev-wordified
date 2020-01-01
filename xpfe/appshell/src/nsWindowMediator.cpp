@@ -612,7 +612,7 @@ outDOMWindow
 )
 ;
 static
-PRBool
+bool
 notifyOpenWindow
 (
 nsISupports
@@ -624,7 +624,7 @@ aData
 )
 ;
 static
-PRBool
+bool
 notifyCloseWindow
 (
 nsISupports
@@ -636,7 +636,7 @@ aData
 )
 ;
 static
-PRBool
+bool
 notifyWindowTitleChange
 (
 nsISupports
@@ -1506,7 +1506,7 @@ const
 PRUnichar
 *
 aWindowType
-PRBool
+bool
 aFrontToBack
 nsISimpleEnumerator
 *
@@ -1584,7 +1584,7 @@ const
 PRUnichar
 *
 aWindowType
-PRBool
+bool
 aFrontToBack
 nsISimpleEnumerator
 *
@@ -1867,7 +1867,7 @@ typeString
 inType
 )
 ;
-PRBool
+bool
 allWindows
 =
 !
@@ -2188,7 +2188,7 @@ nsIWidget
 *
 *
 outBelow
-PRBool
+bool
 *
 outAltered
 )
@@ -2267,10 +2267,10 @@ belowWindow
 =
 nsnull
 ;
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 nsresult
 result
@@ -3407,7 +3407,7 @@ mZLevel
 aZLevel
 )
 {
-PRBool
+bool
 lowered
 =
 info
@@ -3632,7 +3632,7 @@ most
 window
 in
 list
-PRBool
+bool
 finished
 ;
 if
@@ -3997,7 +3997,7 @@ most
 window
 in
 list
-PRBool
+bool
 finished
 ;
 if
@@ -4494,7 +4494,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 notifyOpenWindow
 (
 nsISupports
@@ -4546,7 +4546,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 notifyCloseWindow
 (
 nsISupports
@@ -4598,7 +4598,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 notifyWindowTitleChange
 (
 nsISupports

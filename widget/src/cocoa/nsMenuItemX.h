@@ -644,7 +644,7 @@ aNode
 nsresult
 SetChecked
 (
-PRBool
+bool
 aIsChecked
 )
 ;
@@ -665,7 +665,7 @@ const
 nsString
 &
 eventName
-PRBool
+bool
 *
 preventDefaultCalled
 )
@@ -758,7 +758,7 @@ nsMenuItemIconX
 >
 mIcon
 ;
-PRBool
+bool
 mIsChecked
 ;
 }

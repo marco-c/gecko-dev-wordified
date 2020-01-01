@@ -806,7 +806,7 @@ nsSupportsPRBoolImpl
 )
 {
 }
-PRBool
+bool
 mData
 ;
 }

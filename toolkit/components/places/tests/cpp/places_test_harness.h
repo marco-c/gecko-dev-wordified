@@ -1520,7 +1520,7 @@ do_check_success
 rv
 )
 ;
-PRBool
+bool
 hasResults
 ;
 rv
@@ -1765,7 +1765,7 @@ do_check_success
 rv
 )
 ;
-PRBool
+bool
 hasResults
 ;
 rv

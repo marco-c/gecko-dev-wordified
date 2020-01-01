@@ -1568,9 +1568,9 @@ pat
 nsIPrincipal
 *
 principalForSecurityCheck
-PRBool
+bool
 forceWriteOnly
-PRBool
+bool
 CORSUsed
 )
 :
@@ -1614,7 +1614,7 @@ return
 mPrincipal
 ;
 }
-PRBool
+bool
 GetForceWriteOnly
 (
 )
@@ -1624,7 +1624,7 @@ return
 mForceWriteOnly
 ;
 }
-PRBool
+bool
 GetCORSUsed
 (
 )
@@ -1650,11 +1650,11 @@ nsIPrincipal
 mPrincipal
 ;
 const
-PRPackedBool
+bool
 mForceWriteOnly
 ;
 const
-PRPackedBool
+bool
 mCORSUsed
 ;
 }
@@ -1905,7 +1905,7 @@ PRInt32
 height
 )
 ;
-PRBool
+bool
 EnsureSurface
 (
 )
@@ -1973,7 +1973,7 @@ nsnull
 NS_IMETHOD
 SetIsOpaque
 (
-PRBool
+bool
 isOpaque
 )
 ;
@@ -2001,7 +2001,7 @@ aManager
 )
 ;
 virtual
-PRBool
+bool
 ShouldForceInactiveLayer
 (
 LayerManager
@@ -2018,7 +2018,7 @@ MarkContextClean
 NS_IMETHOD
 SetIsIPC
 (
-PRBool
+bool
 isIPC
 )
 ;
@@ -2367,10 +2367,10 @@ ApplyStyle
 (
 Style
 aWhichStyle
-PRBool
+bool
 aUseGlobalAlpha
 =
-PR_TRUE
+true
 )
 ;
 /
@@ -2462,19 +2462,19 @@ PRInt32
 mWidth
 mHeight
 ;
-PRPackedBool
+bool
 mValid
 ;
-PRPackedBool
+bool
 mZero
 ;
-PRPackedBool
+bool
 mOpaque
 ;
-PRPackedBool
+bool
 mResetLayer
 ;
-PRPackedBool
+bool
 mIPC
 ;
 /
@@ -2564,7 +2564,7 @@ gfxASurface
 >
 mSurface
 ;
-PRPackedBool
+bool
 mSurfaceCreated
 ;
 PRUint32
@@ -2600,7 +2600,7 @@ called
 .
 *
 /
-PRPackedBool
+bool
 mIsEntireFrameInvalid
 ;
 /
@@ -2639,7 +2639,7 @@ calls
 .
 *
 /
-PRPackedBool
+bool
 mPredictManyRedrawCalls
 ;
 /
@@ -2664,7 +2664,7 @@ user
 .
 *
 /
-PRPackedBool
+bool
 mHasPath
 ;
 /
@@ -2736,7 +2736,7 @@ canvas
 .
 *
 /
-PRBool
+bool
 OperatorAffectsUncoveredAreas
 (
 gfxContext
@@ -2805,7 +2805,7 @@ operation
 .
 *
 /
-PRBool
+bool
 NeedToDrawShadow
 (
 )
@@ -2936,7 +2936,7 @@ operations
 .
 *
 /
-PRBool
+bool
 NeedToUseIntermediateSurface
 (
 )
@@ -3209,7 +3209,7 @@ surface
 .
 *
 /
-PRBool
+bool
 NeedIntermediateSurfaceToHandleGlobalAlpha
 (
 Style
@@ -3706,7 +3706,7 @@ style
 Style
 mLastStyle
 ;
-PRPackedBool
+bool
 mDirtyStyle
 [
 STYLE_MAX
@@ -3974,7 +3974,7 @@ color
 *
 /
 inline
-PRBool
+bool
 StyleIsColor
 (
 Style
@@ -4046,7 +4046,7 @@ patternStyles
 STYLE_MAX
 ]
 ;
-PRPackedBool
+bool
 imageSmoothingEnabled
 ;
 }
@@ -5131,7 +5131,7 @@ ApplyStyle
 (
 Style
 aWhichStyle
-PRBool
+bool
 aUseGlobalAlpha
 )
 {
@@ -5949,7 +5949,7 @@ NS_OK
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRBool
+bool
 nsCanvasRenderingContext2D
 :
 :
@@ -6390,7 +6390,7 @@ nsCanvasRenderingContext2D
 :
 SetIsOpaque
 (
-PRBool
+bool
 isOpaque
 )
 {
@@ -6451,7 +6451,7 @@ nsCanvasRenderingContext2D
 :
 SetIsIPC
 (
-PRBool
+bool
 isIPC
 )
 {
@@ -9886,10 +9886,10 @@ EnsureSurface
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 doUseIntermediateSurface
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -10029,7 +10029,7 @@ style
 )
 ;
 }
-PRBool
+bool
 doDrawShadow
 =
 NeedToDrawShadow
@@ -11975,7 +11975,7 @@ float
 startAngle
 float
 endAngle
-PRBool
+bool
 ccw
 )
 {
@@ -12212,7 +12212,7 @@ StyleRule
 >
 rule
 ;
-PRBool
+bool
 changed
 ;
 nsIPrincipal
@@ -13080,7 +13080,7 @@ mFont
 size
 )
 ;
-PRBool
+bool
 printerFont
 =
 (
@@ -14649,7 +14649,7 @@ box
 should
 be
 measured
-PRBool
+bool
 mDoMeasureBoundingBox
 ;
 }
@@ -14866,10 +14866,10 @@ if
 not
 in
 doc
-PRBool
+bool
 isRTL
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -14974,7 +14974,7 @@ Stroke
 )
 does
 that
-PRBool
+bool
 doDrawShadow
 =
 aOp
@@ -14987,7 +14987,7 @@ NeedToDrawShadow
 (
 )
 ;
-PRBool
+bool
 doUseIntermediateSurface
 =
 aOp
@@ -17378,7 +17378,7 @@ float
 x
 float
 y
-PRBool
+bool
 *
 retVal
 )
@@ -18506,7 +18506,7 @@ DirtyAllStyles
 (
 )
 ;
-PRBool
+bool
 doUseIntermediateSurface
 =
 NeedToUseIntermediateSurface
@@ -20000,7 +20000,7 @@ aH
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 flush
 =
 (
@@ -21244,7 +21244,7 @@ char
 aData
 PRUint32
 aDataLen
-PRBool
+bool
 hasDirtyRect
 PRInt32
 dirtyX
@@ -21953,7 +21953,7 @@ nsCanvasRenderingContext2D
 :
 GetMozImageSmoothingEnabled
 (
-PRBool
+bool
 *
 retVal
 )
@@ -21977,7 +21977,7 @@ nsCanvasRenderingContext2D
 :
 SetMozImageSmoothingEnabled
 (
-PRBool
+bool
 val
 )
 {
@@ -22429,7 +22429,7 @@ forget
 )
 ;
 }
-PRBool
+bool
 nsCanvasRenderingContext2D
 :
 :

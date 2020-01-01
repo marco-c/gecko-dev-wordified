@@ -872,7 +872,7 @@ NS_VMREFRESH_NO_SYNC
 ;
 }
 static
-PRBool
+bool
 IsFrameContentNodeInNamespace
 (
 nsIFrame
@@ -916,7 +916,7 @@ aNamespace
 ;
 }
 static
-PRBool
+bool
 IsWidgetTypeDisabled
 (
 PRUint8
@@ -1043,7 +1043,7 @@ aWidgetType
 ;
 }
 static
-PRBool
+bool
 IsWidgetStateSafe
 (
 PRUint8
@@ -1258,7 +1258,7 @@ margin
 )
 ;
 }
-PRBool
+bool
 nsNativeThemeGTK
 :
 :
@@ -1550,7 +1550,7 @@ if
 inputElt
 )
 {
-PRBool
+bool
 isHTMLChecked
 ;
 inputElt
@@ -2283,10 +2283,10 @@ aWidgetType
 NS_THEME_MENUARROW
 )
 {
-PRBool
+bool
 isTopLevel
 =
-PR_FALSE
+false
 ;
 nsMenuFrame
 *
@@ -2486,7 +2486,7 @@ aWidgetType
 NS_THEME_DROPDOWN_BUTTON
 )
 {
-PRBool
+bool
 menuOpen
 =
 IsOpenButton
@@ -3839,7 +3839,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsNativeThemeGTK
 :
 :
@@ -4343,7 +4343,7 @@ in
 any
 case
 .
-PRBool
+bool
 snapXY
 =
 ctx
@@ -4822,7 +4822,7 @@ widget
 "
 )
 ;
-PRBool
+bool
 safeState
 =
 IsWidgetStateSafe
@@ -5511,7 +5511,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsNativeThemeGTK
 :
 :
@@ -5761,7 +5761,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsNativeThemeGTK
 :
 :
@@ -5875,7 +5875,7 @@ aWidgetType
 nsIntSize
 *
 aResult
-PRBool
+bool
 *
 aIsOverridable
 )
@@ -6902,7 +6902,7 @@ aWidgetType
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 *
 aShouldRepaint
 )
@@ -7296,7 +7296,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsNativeThemeGTK
 :
@@ -7683,7 +7683,7 @@ PR_FALSE
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsNativeThemeGTK
 :
@@ -7768,7 +7768,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsNativeThemeGTK
 :
 :
@@ -7810,7 +7810,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsNativeThemeGTK
 :
 :

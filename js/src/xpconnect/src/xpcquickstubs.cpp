@@ -2491,10 +2491,10 @@ back
 .
 *
 /
-PRBool
+bool
 definedProperty
 =
-PR_FALSE
+false
 ;
 for
 (

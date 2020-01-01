@@ -1078,7 +1078,7 @@ simultaneously
 .
 *
 /
-PRBool
+bool
 IsReadonly
 (
 )
@@ -1349,10 +1349,10 @@ len
 nsAString
 &
 str
-PRBool
+bool
 aMoveOwnership
 =
-PR_FALSE
+false
 )
 ;
 void
@@ -1363,10 +1363,10 @@ len
 nsACString
 &
 str
-PRBool
+bool
 aMoveOwnership
 =
-PR_FALSE
+false
 )
 ;
 }

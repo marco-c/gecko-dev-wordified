@@ -982,7 +982,7 @@ nsPartChannel
 :
 IsPending
 (
-PRBool
+bool
 *
 aResult
 )
@@ -1552,7 +1552,7 @@ nsACString
 aContentType
 )
 {
-PRBool
+bool
 dummy
 ;
 net_ParseContentType
@@ -1770,7 +1770,7 @@ nsPartChannel
 :
 GetIsLastPart
 (
-PRBool
+bool
 *
 aIsLastPart
 )
@@ -1801,7 +1801,7 @@ nsPartChannel
 :
 GetIsByteRangeRequest
 (
-PRBool
+bool
 *
 aIsByteRangeRequest
 )
@@ -2620,10 +2620,10 @@ previous
 OnDataAvailable
 callback
 .
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -2866,10 +2866,10 @@ cursor
 =
 token
 ;
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -4904,7 +4904,7 @@ aPtr
 PRUint32
 &
 aLen
-PRBool
+bool
 *
 _retval
 )
@@ -4949,10 +4949,10 @@ cursorLen
 =
 aLen
 ;
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
 PRUint32
 lineFeedIncrement

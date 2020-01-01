@@ -902,7 +902,7 @@ nsIContent
 methods
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGPolyElement
 :
@@ -1026,7 +1026,7 @@ name
 /
 nsSVGPathGeometryElement
 methods
-PRBool
+bool
 nsSVGPolyElement
 :
 :

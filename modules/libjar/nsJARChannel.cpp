@@ -1401,7 +1401,7 @@ nsJARInputThunk
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 nonBlocking
 )
@@ -1810,7 +1810,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 isJS
 ;
 rv
@@ -2132,7 +2132,7 @@ nsJARChannel
 :
 EnsureJarInput
 (
-PRBool
+bool
 blocking
 )
 {
@@ -2731,7 +2731,7 @@ nsJARChannel
 :
 IsPending
 (
-PRBool
+bool
 *
 result
 )
@@ -4674,7 +4674,7 @@ nsJARChannel
 :
 GetIsUnsafe
 (
-PRBool
+bool
 *
 isUnsafe
 )
@@ -5193,7 +5193,7 @@ if
 innerJARChannel
 )
 {
-PRBool
+bool
 unsafe
 ;
 innerJARChannel
@@ -5256,7 +5256,7 @@ unsafe
 -
 types
 "
-PR_FALSE
+false
 )
 )
 {

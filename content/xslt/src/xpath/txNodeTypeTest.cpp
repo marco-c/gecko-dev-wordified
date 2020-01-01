@@ -462,7 +462,7 @@ txXPathTreeWalker
 .
 h
 "
-PRBool
+bool
 txNodeTypeTest
 :
 :
@@ -626,7 +626,7 @@ mNodeName
 5
 ;
 }
-PRBool
+bool
 txNodeTypeTest
 :
 :

@@ -585,9 +585,9 @@ PrintEvent
 (
 UINT
 msg
-PRBool
+bool
 aShowAllEvents
-PRBool
+bool
 aShowMouseMoves
 )
 ;
@@ -688,7 +688,7 @@ defined
 (
 DEBUG_VK
 )
-PRBool
+bool
 is_vk_down
 (
 int

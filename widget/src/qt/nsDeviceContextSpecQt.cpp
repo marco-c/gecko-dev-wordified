@@ -1206,7 +1206,7 @@ aWidget
 nsIPrintSettings
 *
 aPS
-PRBool
+bool
 aIsPrintPreview
 )
 {
@@ -1247,7 +1247,7 @@ only
 set
 by
 embedders
-PRBool
+bool
 toFile
 ;
 aPS

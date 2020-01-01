@@ -568,7 +568,7 @@ CreateIcon
 imgIContainer
 *
 aContainer
-PRBool
+bool
 aIsCursor
 PRUint32
 aHotspotX
@@ -606,7 +606,7 @@ aHeight
 )
 ;
 static
-PRBool
+bool
 IsCursorTranslucencySupported
 (
 )

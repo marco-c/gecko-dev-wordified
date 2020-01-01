@@ -439,7 +439,7 @@ in
 an
 overflow
 .
-PRBool
+bool
 AddOverflow32
 (
 PRUint32
@@ -495,7 +495,7 @@ return
 true
 ;
 }
-PRBool
+bool
 MulOverflow32
 (
 PRUint32
@@ -602,7 +602,7 @@ in
 an
 overflow
 .
-PRBool
+bool
 AddOverflow
 (
 PRInt64
@@ -699,7 +699,7 @@ an
 integer
 overflow
 .
-PRBool
+bool
 MulOverflow
 (
 PRInt64
@@ -1473,7 +1473,7 @@ specified
 audio
 rate
 .
-PRBool
+bool
 FramesToUsecs
 (
 PRInt64
@@ -1529,7 +1529,7 @@ specified
 audio
 rate
 .
-PRBool
+bool
 UsecsToFrames
 (
 PRInt64

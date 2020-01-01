@@ -672,7 +672,7 @@ MoveToOrigin
 (
 )
 ;
-PRBool
+bool
 MoveToAbsolute
 (
 const
@@ -681,7 +681,7 @@ nsAString
 aCoordPairStr
 )
 ;
-PRBool
+bool
 LineToAbsolute
 (
 const
@@ -693,7 +693,7 @@ double
 aSegmentDistance
 )
 ;
-PRBool
+bool
 LineToRelative
 (
 const
@@ -722,7 +722,7 @@ commands
 yet
 .
 inline
-PRBool
+bool
 HaveReceivedCommands
 (
 )
@@ -753,7 +753,7 @@ protected
 /
 Helper
 methods
-PRBool
+bool
 ParseCoordinatePair
 (
 const
@@ -788,7 +788,7 @@ units
 gfxContext
 mGfxContext
 ;
-PRPackedBool
+bool
 mHaveReceivedCommands
 ;
 }

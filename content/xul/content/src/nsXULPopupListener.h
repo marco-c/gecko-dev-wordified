@@ -609,7 +609,7 @@ nsXULPopupListener
 nsIDOMElement
 *
 aElement
-PRBool
+bool
 aIsContext
 )
 ;
@@ -767,7 +767,7 @@ if
 a
 context
 popup
-PRBool
+bool
 mIsContext
 ;
 }

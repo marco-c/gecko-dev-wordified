@@ -1218,7 +1218,7 @@ gfxIntSize
 )
 ;
 }
-PRBool
+bool
 ImageContainerD3D10
 :
 :

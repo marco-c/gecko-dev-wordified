@@ -1350,7 +1350,7 @@ endif
 virtual
 *
 /
-PRBool
+bool
 nsPageFrame
 :
 :

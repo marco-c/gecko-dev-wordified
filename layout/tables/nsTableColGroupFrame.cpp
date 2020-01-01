@@ -812,7 +812,7 @@ AddColsToTable
 (
 PRInt32
 aFirstColIndex
-PRBool
+bool
 aResetSubsequentColIndices
 const
 nsFrameList
@@ -2037,7 +2037,7 @@ RemoveChild
 nsTableColFrame
 &
 aChild
-PRBool
+bool
 aResetSubsequentColIndices
 )
 {
@@ -2198,10 +2198,10 @@ aOldFrame
 return
 NS_OK
 ;
-PRBool
+bool
 contentRemoval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2675,7 +2675,7 @@ GetStyleVisibility
 (
 )
 ;
-PRBool
+bool
 collapseGroup
 =
 (
@@ -2871,7 +2871,7 @@ rv
 virtual
 *
 /
-PRBool
+bool
 nsTableColGroupFrame
 :
 :

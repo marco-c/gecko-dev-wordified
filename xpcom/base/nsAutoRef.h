@@ -464,7 +464,7 @@ h
 /
 for
 nsnull
-PRBool
+bool
 template
 <
 class
@@ -3965,7 +3965,7 @@ with
 void
 handles
 .
-PRBool
+bool
 HaveResource
 (
 )

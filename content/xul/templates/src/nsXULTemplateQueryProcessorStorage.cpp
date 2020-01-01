@@ -752,7 +752,7 @@ nsXULTemplateResultSetStorage
 :
 HasMoreElements
 (
-PRBool
+bool
 *
 aResult
 )
@@ -1246,12 +1246,12 @@ aDataSources
 nsIDOMNode
 *
 aRootNode
-PRBool
+bool
 aIsTrusted
 nsIXULTemplateBuilder
 *
 aBuilder
-PRBool
+bool
 *
 aShouldDelayBuilding
 nsISupports
@@ -1729,7 +1729,7 @@ mStorageConnection
 return
 NS_ERROR_INVALID_ARG
 ;
-PRBool
+bool
 ready
 ;
 mStorageConnection

@@ -1890,7 +1890,7 @@ IsRemoteDrawingCoreAnimation
 (
 NPP
 instance
-PRBool
+bool
 *
 aDrawing
 )

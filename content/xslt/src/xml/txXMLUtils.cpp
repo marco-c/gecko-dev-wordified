@@ -531,7 +531,7 @@ PRUnichar
 *
 colon
 ;
-PRBool
+bool
 valid
 =
 XMLUtils
@@ -1022,7 +1022,7 @@ PRUnichar
 *
 colon
 ;
-PRBool
+bool
 valid
 =
 XMLUtils
@@ -1224,7 +1224,7 @@ whitespace
 characters
 *
 /
-PRBool
+bool
 XMLUtils
 :
 :

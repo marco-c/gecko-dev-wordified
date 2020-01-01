@@ -538,7 +538,7 @@ nsGenericHTMLElement
 nsIDOMHTMLParagraphElement
 NS_DECL_NSIDOMHTMLPARAGRAPHELEMENT
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -557,7 +557,7 @@ aResult
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -678,7 +678,7 @@ nsHTMLParagraphElement
 Align
 align
 )
-PRBool
+bool
 nsHTMLParagraphElement
 :
 :
@@ -770,7 +770,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLParagraphElement
 :

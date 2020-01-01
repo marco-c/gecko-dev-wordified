@@ -1166,7 +1166,7 @@ nsStreamCipher
 :
 Finish
 (
-PRBool
+bool
 aASCII
 nsACString
 &

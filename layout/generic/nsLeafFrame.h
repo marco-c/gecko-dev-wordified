@@ -623,7 +623,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 ;
@@ -739,7 +739,7 @@ aStatus
 )
 ;
 virtual
-PRBool
+bool
 IsFrameOfType
 (
 PRUint32

@@ -723,10 +723,10 @@ weakFrame
 this
 )
 ;
-PRBool
+bool
 doDefault
 =
-PR_TRUE
+true
 ;
 switch
 (
@@ -2451,10 +2451,10 @@ windows
 in
 content
 shells
-PRBool
+bool
 isChromeShell
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <

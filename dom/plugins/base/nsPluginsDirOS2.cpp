@@ -1094,7 +1094,7 @@ array
 /
 nsPluginsDir
 class
-PRBool
+bool
 nsPluginsDir
 :
 :

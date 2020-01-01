@@ -2218,7 +2218,7 @@ null
 "
 )
 ;
-PRBool
+bool
 enabled
 ;
 if
@@ -4495,7 +4495,7 @@ NS_ENSURE_STATE
 mIdleThreadTimer
 )
 ;
-PRBool
+bool
 ok
 =
 mDomainMap

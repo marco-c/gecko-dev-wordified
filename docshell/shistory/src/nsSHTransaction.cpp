@@ -1212,7 +1212,7 @@ nsSHTransaction
 :
 SetPersist
 (
-PRBool
+bool
 aPersist
 )
 {
@@ -1230,7 +1230,7 @@ nsSHTransaction
 :
 GetPersist
 (
-PRBool
+bool
 *
 aPersist
 )

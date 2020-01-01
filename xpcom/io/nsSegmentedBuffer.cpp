@@ -817,7 +817,7 @@ return
 seg
 ;
 }
-PRBool
+bool
 nsSegmentedBuffer
 :
 :
@@ -904,7 +904,7 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 nsSegmentedBuffer
 :
 :
@@ -965,7 +965,7 @@ last
 ;
 return
 (
-PRBool
+bool
 )
 (
 mLastSegmentIndex
@@ -975,7 +975,7 @@ mFirstSegmentIndex
 )
 ;
 }
-PRBool
+bool
 nsSegmentedBuffer
 :
 :
@@ -1168,7 +1168,7 @@ char
 *
 seg
 ;
-PRBool
+bool
 empty
 ;
 seg

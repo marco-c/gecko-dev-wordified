@@ -1262,7 +1262,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetAnimated
 (
-PRBool
+bool
 *
 aAnimated
 )
@@ -1271,7 +1271,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetCurrentFrameIsOpaque
 (
-PRBool
+bool
 *
 aCurrentFrameIsOpaque
 )
@@ -2925,7 +2925,7 @@ mask
 into
 another
 static
-PRBool
+bool
 CopyFrameImage
 (
 imgFrame
@@ -3408,7 +3408,7 @@ conserve
 space
 )
 :
-PRPackedBool
+bool
 mHasSize
 :
 1
@@ -3422,7 +3422,7 @@ SetSize
 been
 called
 ?
-PRPackedBool
+bool
 mDecodeOnDraw
 :
 1
@@ -3433,7 +3433,7 @@ Decoding
 on
 draw
 ?
-PRPackedBool
+bool
 mMultipart
 :
 1
@@ -3442,7 +3442,7 @@ mMultipart
 /
 Multipart
 ?
-PRPackedBool
+bool
 mDiscardable
 :
 1
@@ -3453,7 +3453,7 @@ Is
 container
 discardable
 ?
-PRPackedBool
+bool
 mHasSourceData
 :
 1
@@ -3477,12 +3477,12 @@ in
 decoded
 form
 ?
-PRPackedBool
+bool
 mDecoded
 :
 1
 ;
-PRPackedBool
+bool
 mHasBeenDecoded
 :
 1
@@ -3492,12 +3492,12 @@ mHasBeenDecoded
 Helpers
 for
 decoder
-PRPackedBool
+bool
 mWorkerPending
 :
 1
 ;
-PRPackedBool
+bool
 mInDecoder
 :
 1
@@ -3522,7 +3522,7 @@ no
 more
 owning
 request
-PRPackedBool
+bool
 mAnimationFinished
 :
 1
@@ -3565,7 +3565,7 @@ PRUint32
 aMaxBytes
 )
 ;
-PRBool
+bool
 IsDecodeFinished
 (
 )

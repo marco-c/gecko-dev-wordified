@@ -522,7 +522,7 @@ rendering
 *
 /
 virtual
-PRBool
+bool
 SetupPaintServer
 (
 gfxContext
@@ -536,7 +536,7 @@ aOpacity
 )
 ;
 virtual
-PRBool
+bool
 IsFrameOfType
 (
 PRUint32

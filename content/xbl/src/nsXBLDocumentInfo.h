@@ -489,7 +489,7 @@ forget
 )
 ;
 }
-PRBool
+bool
 GetScriptAccess
 (
 )
@@ -548,7 +548,7 @@ FlushSkinStylesheets
 (
 )
 ;
-PRBool
+bool
 IsChrome
 (
 )
@@ -581,10 +581,10 @@ nsIDocument
 >
 mDocument
 ;
-PRPackedBool
+bool
 mScriptAccess
 ;
-PRPackedBool
+bool
 mIsChrome
 ;
 /

@@ -970,13 +970,13 @@ buf
 )
 ;
 }
-PRBool
+bool
 nsAppShell
 :
 :
 ProcessNextNativeEvent
 (
-PRBool
+bool
 mayWait
 )
 {

@@ -1631,7 +1631,7 @@ imageElement
 ;
 }
 }
-PRBool
+bool
 nsIdentifierMapEntry
 :
 :
@@ -1778,7 +1778,7 @@ aCallback
 void
 *
 aData
-PRBool
+bool
 aForImage
 )
 {
@@ -1843,7 +1843,7 @@ aCallback
 void
 *
 aData
-PRBool
+bool
 aForImage
 )
 {
@@ -1901,10 +1901,10 @@ Element
 *
 mTo
 ;
-PRBool
+bool
 mImageOnly
 ;
-PRBool
+bool
 mHaveImageOverride
 ;
 }
@@ -2041,7 +2041,7 @@ aOldElement
 Element
 *
 aNewElement
-PRBool
+bool
 aImageOnly
 )
 {
@@ -2075,7 +2075,7 @@ args
 )
 ;
 }
-PRBool
+bool
 nsIdentifierMapEntry
 :
 :
@@ -3335,7 +3335,7 @@ aDocument
 nsIStyleSheet
 *
 aStyleSheet
-PRBool
+bool
 aDocumentSheet
 )
 {
@@ -3387,7 +3387,7 @@ aDocument
 nsIStyleSheet
 *
 aStyleSheet
-PRBool
+bool
 aDocumentSheet
 )
 {
@@ -3472,7 +3472,7 @@ nsOnloadBlocker
 :
 IsPending
 (
-PRBool
+bool
 *
 _retval
 )
@@ -4048,7 +4048,7 @@ nsExternalResourceEnumArgs
 aClosure
 )
 ;
-PRBool
+bool
 next
 =
 aData
@@ -5198,7 +5198,7 @@ if
 httpChannel
 )
 {
-PRBool
+bool
 requestSucceeded
 ;
 if
@@ -6716,7 +6716,7 @@ const
 nsAString
 &
 aString
-PRBool
+bool
 *
 aResult
 )
@@ -7212,7 +7212,7 @@ const
 nsAString
 &
 aVersion
-PRBool
+bool
 *
 aReturn
 )
@@ -11158,7 +11158,7 @@ DestroyElementMaps
 (
 )
 ;
-PRBool
+bool
 oldVal
 =
 mInUnlinkOrDeletion
@@ -12407,7 +12407,7 @@ nsIStreamListener
 *
 *
 aDocListener
-PRBool
+bool
 aReset
 nsIContentSink
 *
@@ -12797,10 +12797,10 @@ headerCSPReportOnly
 cspROHeaderValue
 )
 ;
-PRBool
+bool
 system
 =
-PR_FALSE
+false
 ;
 nsIScriptSecurityManager
 *
@@ -13249,7 +13249,7 @@ if
 docShell
 )
 {
-PRBool
+bool
 safeAncestry
 =
 false
@@ -13502,10 +13502,10 @@ GetDocBaseURI
 (
 )
 ;
-PRBool
+bool
 equalBases
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -14007,7 +14007,7 @@ NodePrincipal
 ;
 }
 extern
-PRBool
+bool
 sDisablePrefetchHTTPSPref
 ;
 void
@@ -14049,7 +14049,7 @@ uri
 )
 )
 ;
-PRBool
+bool
 isHTTPS
 ;
 if
@@ -14249,7 +14249,7 @@ nsDocument
 :
 HasFocus
 (
-PRBool
+bool
 *
 aResult
 )
@@ -14716,9 +14716,9 @@ float
 aX
 float
 aY
-PRBool
+bool
 aIgnoreRootScrollFrame
-PRBool
+bool
 aFlushLayout
 nsIDOMElement
 *
@@ -15131,9 +15131,9 @@ float
 aBottomSize
 float
 aLeftSize
-PRBool
+bool
 aIgnoreRootScrollFrame
-PRBool
+bool
 aFlushLayout
 nsIDOMNodeList
 *
@@ -15864,10 +15864,10 @@ aURI
 mDocumentBaseURI
 )
 {
-PRBool
+bool
 equalBases
 =
-PR_FALSE
+false
 ;
 mDocumentBaseURI
 -
@@ -16274,10 +16274,10 @@ lastPtr
 &
 mHeaderData
 ;
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 do
 {
@@ -16837,7 +16837,7 @@ on
 ;
 }
 }
-PRBool
+bool
 nsDocument
 :
 :
@@ -17440,7 +17440,7 @@ mSubDocument
 }
 }
 static
-PRBool
+bool
 SubDocInitEntry
 (
 PLDHashTable
@@ -17925,7 +17925,7 @@ data
 mResult
 ;
 }
-PRBool
+bool
 nsDocument
 :
 :
@@ -18202,7 +18202,7 @@ nsIContent
 aKid
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 {
@@ -18258,7 +18258,7 @@ AppendChildTo
 nsIContent
 *
 aKid
-PRBool
+bool
 aNotify
 )
 {
@@ -18340,7 +18340,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 {
@@ -19051,7 +19051,7 @@ SetStyleSheetApplicableState
 nsIStyleSheet
 *
 aSheet
-PRBool
+bool
 aApplicable
 )
 {
@@ -20210,7 +20210,7 @@ global
 ;
 #
 endif
-PRBool
+bool
 allowDNSPrefetch
 ;
 docShell
@@ -20600,7 +20600,7 @@ return
 mScriptLoader
 ;
 }
-PRBool
+bool
 nsDocument
 :
 :
@@ -20717,7 +20717,7 @@ aObserver
 )
 ;
 }
-PRBool
+bool
 nsDocument
 :
 :
@@ -21246,7 +21246,7 @@ aObserver
 void
 *
 aData
-PRBool
+bool
 aForImage
 )
 {
@@ -21326,7 +21326,7 @@ aObserver
 void
 *
 aData
-PRBool
+bool
 aForImage
 )
 {
@@ -22516,10 +22516,10 @@ uri
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRBool
+bool
 hasHadScriptObject
 =
-PR_TRUE
+true
 ;
 nsIScriptGlobalObject
 *
@@ -22673,7 +22673,7 @@ aReturn
 )
 ;
 }
-PRBool
+bool
 IsLowercaseASCII
 (
 const
@@ -22786,7 +22786,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 needsLowercase
 =
 IsHTML
@@ -23910,7 +23910,7 @@ nsDocument
 :
 GetAsync
 (
-PRBool
+bool
 *
 aAsync
 )
@@ -23943,7 +23943,7 @@ nsDocument
 :
 SetAsync
 (
-PRBool
+bool
 aAsync
 )
 {
@@ -23979,7 +23979,7 @@ const
 nsAString
 &
 aUrl
-PRBool
+bool
 *
 aReturn
 )
@@ -24157,7 +24157,7 @@ nsIDOMStyleSheet
 "
 )
 ;
-PRBool
+bool
 disabled
 ;
 domSheet
@@ -24517,7 +24517,7 @@ const
 nsAString
 &
 aSheetSet
-PRBool
+bool
 aUpdateCSSLoader
 )
 {
@@ -24661,7 +24661,7 @@ ImportNode
 nsIDOMNode
 *
 aImportedNode
-PRBool
+bool
 aDeep
 nsIDOMNode
 *
@@ -25454,7 +25454,7 @@ const
 nsAString
 &
 aAttrValue
-PRBool
+bool
 aUniversalMatch
 nsIDOMElement
 *
@@ -25616,7 +25616,7 @@ GetLength
 length
 )
 ;
-PRBool
+bool
 universalMatch
 =
 aAttrValue
@@ -25812,7 +25812,7 @@ aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-PRBool
+bool
 aEntityReferenceExpansion
 nsIDOMNodeIterator
 *
@@ -25918,7 +25918,7 @@ aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-PRBool
+bool
 aEntityReferenceExpansion
 nsIDOMTreeWalker
 *
@@ -26362,7 +26362,7 @@ list
 Item
 (
 0
-PR_FALSE
+false
 )
 ;
 }
@@ -26753,7 +26753,7 @@ nsDocument
 :
 NotifyPossibleTitleChange
 (
-PRBool
+bool
 aBoundTitleElement
 )
 {
@@ -28070,7 +28070,7 @@ return
 }
 }
 }
-PRBool
+bool
 nsDocument
 :
 :
@@ -28966,7 +28966,7 @@ nsDocument
 :
 HasChildNodes
 (
-PRBool
+bool
 *
 aHasChildNodes
 )
@@ -29000,7 +29000,7 @@ nsDocument
 :
 HasAttributes
 (
-PRBool
+bool
 *
 aHasAttributes
 )
@@ -29301,7 +29301,7 @@ nsDocument
 :
 CloneNode
 (
-PRBool
+bool
 aDeep
 nsIDOMNode
 *
@@ -29354,7 +29354,7 @@ const
 nsAString
 &
 aVersion
-PRBool
+bool
 *
 aReturn
 )
@@ -29429,7 +29429,7 @@ IsEqualNode
 nsIDOMNode
 *
 aOther
-PRBool
+bool
 *
 aResult
 )
@@ -29501,7 +29501,7 @@ IsSameNode
 nsIDOMNode
 *
 other
-PRBool
+bool
 *
 aResult
 )
@@ -29557,7 +29557,7 @@ const
 nsAString
 &
 namespaceURI
-PRBool
+bool
 *
 aResult
 )
@@ -29670,7 +29670,7 @@ Contains
 nsIDOMNode
 *
 aOther
-PRBool
+bool
 *
 aReturn
 )
@@ -29810,7 +29810,7 @@ nsDocument
 :
 GetXmlStandalone
 (
-PRBool
+bool
 *
 aXmlStandalone
 )
@@ -29853,7 +29853,7 @@ nsDocument
 :
 SetXmlStandalone
 (
-PRBool
+bool
 aXmlStandalone
 )
 {
@@ -29873,7 +29873,7 @@ nsDocument
 :
 GetMozSyntheticDocument
 (
-PRBool
+bool
 *
 aSyntheticDocument
 )
@@ -30973,7 +30973,7 @@ GetOwnerDoc
 (
 )
 ;
-PRBool
+bool
 sameDocument
 =
 oldDocument
@@ -31398,7 +31398,7 @@ nsDocument
 :
 GetListenerManager
 (
-PRBool
+bool
 aCreateIfNotFound
 )
 {
@@ -31976,7 +31976,7 @@ aType
 }
 }
 static
-PRBool
+bool
 Flush
 (
 nsIDocument
@@ -32304,7 +32304,7 @@ no
 }
 }
 }
-PRBool
+bool
 nsDocument
 :
 :
@@ -32378,7 +32378,7 @@ cx
 PR_FALSE
 )
 ;
-PRBool
+bool
 enabled
 ;
 nsresult
@@ -32759,7 +32759,7 @@ nsAString
 &
 aName
 const
-PRBool
+bool
 aPrevious
 nsIDOMHTMLInputElement
 *
@@ -32948,7 +32948,7 @@ Count
 (
 )
 ;
-PRBool
+bool
 disabled
 ;
 nsCOMPtr
@@ -33282,7 +33282,7 @@ aName
 nsIRadioVisitor
 *
 aVisitor
-PRBool
+bool
 aFlushContent
 )
 {
@@ -34346,7 +34346,7 @@ nsIAtom
 aPrefix
 PRInt32
 aNamespaceID
-PRBool
+bool
 aDocumentDefaultType
 nsIContent
 *
@@ -34441,7 +34441,7 @@ used
 PR_TRUE
 here
 .
-PRBool
+bool
 nsAware
 =
 aPrefix
@@ -34550,7 +34550,7 @@ NOT_FROM_PARSER
 )
 ;
 }
-PRBool
+bool
 nsDocument
 :
 :
@@ -34804,10 +34804,10 @@ input
 )
 continue
 ;
-PRBool
+bool
 resetValue
 =
-PR_FALSE
+false
 ;
 input
 -
@@ -35105,7 +35105,7 @@ entry
 >
 mSubDocument
 ;
-PRBool
+bool
 next
 =
 subdoc
@@ -35122,7 +35122,7 @@ args
 data
 )
 :
-PR_TRUE
+true
 ;
 return
 next
@@ -35198,13 +35198,13 @@ SubDocMapEntry
 hdr
 )
 ;
-PRBool
+bool
 *
 canCacheArg
 =
 static_cast
 <
-PRBool
+bool
 *
 >
 (
@@ -35239,7 +35239,7 @@ pass
 it
 on
 .
-PRBool
+bool
 canCache
 =
 subdoc
@@ -35252,7 +35252,7 @@ CanSavePresentation
 nsnull
 )
 :
-PR_FALSE
+false
 ;
 if
 (
@@ -35281,7 +35281,7 @@ define
 DEBUG_PAGE_CACHE
 #
 endif
-PRBool
+bool
 nsDocument
 :
 :
@@ -35428,10 +35428,10 @@ requests
 )
 )
 ;
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -35680,10 +35680,10 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 canCache
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -35754,7 +35754,7 @@ RemovedFromDocShell
 (
 )
 ;
-PRBool
+bool
 oldVal
 =
 mInUnlinkOrDeletion
@@ -36136,10 +36136,10 @@ requests
 )
 )
 ;
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -36409,7 +36409,7 @@ nsDocument
 :
 UnblockOnload
 (
-PRBool
+bool
 aFireSync
 )
 {
@@ -37069,7 +37069,7 @@ const
 nsAString
 &
 aType
-PRBool
+bool
 aPersisted
 )
 {
@@ -37172,7 +37172,7 @@ nsnull
 }
 }
 static
-PRBool
+bool
 NotifyPageShow
 (
 nsIDocument
@@ -37184,14 +37184,14 @@ aData
 )
 {
 const
-PRBool
+bool
 *
 aPersistedPtr
 =
 static_cast
 <
 const
-PRBool
+bool
 *
 >
 (
@@ -37218,7 +37218,7 @@ nsDocument
 :
 OnPageShow
 (
-PRBool
+bool
 aPersisted
 nsIDOMEventTarget
 *
@@ -37331,7 +37331,7 @@ links
 Item
 (
 i
-PR_FALSE
+false
 )
 )
 ;
@@ -37450,7 +37450,7 @@ aPersisted
 ;
 }
 static
-PRBool
+bool
 NotifyPageHide
 (
 nsIDocument
@@ -37462,14 +37462,14 @@ aData
 )
 {
 const
-PRBool
+bool
 *
 aPersistedPtr
 =
 static_cast
 <
 const
-PRBool
+bool
 *
 >
 (
@@ -37496,7 +37496,7 @@ nsDocument
 :
 OnPageHide
 (
-PRBool
+bool
 aPersisted
 nsIDOMEventTarget
 *
@@ -37603,7 +37603,7 @@ links
 Item
 (
 i
-PR_FALSE
+false
 )
 )
 ;
@@ -38668,10 +38668,10 @@ container
 Set
 scripting
 object
-PRBool
+bool
 hasHadScriptObject
 =
-PR_TRUE
+true
 ;
 nsIScriptGlobalObject
 *
@@ -39074,7 +39074,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 SuppressEventHandlingInDocument
 (
 nsIDocument
@@ -39166,7 +39166,7 @@ nsIDocument
 >
 &
 aDocuments
-PRBool
+bool
 aFireEvents
 )
 {
@@ -39691,7 +39691,7 @@ StyleSheetLoaded
 (
 nsCSSStyleSheet
 *
-PRBool
+bool
 nsresult
 )
 {
@@ -39782,7 +39782,7 @@ LoadChromeSheetSync
 nsIURI
 *
 uri
-PRBool
+bool
 isAgentSheet
 nsCSSStyleSheet
 *
@@ -39870,7 +39870,7 @@ mDocuments
 }
 ;
 static
-PRBool
+bool
 GetAndUnsuppressSubDocuments
 (
 nsIDocument
@@ -39965,7 +39965,7 @@ nsDocument
 :
 UnsuppressEventHandlingAndFireEvents
 (
-PRBool
+bool
 aFireEvents
 )
 {
@@ -40535,7 +40535,7 @@ nsDocument
 :
 SetChangeScrollPosWhenScrollingToRef
 (
-PRBool
+bool
 aValue
 )
 {
@@ -40598,7 +40598,7 @@ aContent
 )
 ;
 }
-PRBool
+bool
 nsIDocument
 :
 :
@@ -41107,7 +41107,7 @@ if
 aListener
 )
 {
-PRBool
+bool
 alreadyRegistered
 =
 !
@@ -41837,7 +41837,7 @@ the
 proper
 count
 .
-PRBool
+bool
 success
 =
 mImageTracker
@@ -42019,7 +42019,7 @@ count
 #
 ifdef
 DEBUG
-PRBool
+bool
 found
 =
 #
@@ -42301,7 +42301,7 @@ nsDocument
 :
 SetImageLockingState
 (
-PRBool
+bool
 aLocked
 )
 {
@@ -42328,7 +42328,7 @@ image
 .
 allow_locking
 "
-PR_TRUE
+true
 )
 )
 {
@@ -42453,7 +42453,7 @@ nsDocument
 :
 SetImagesNeedAnimating
 (
-PRBool
+bool
 aAnimating
 )
 {
@@ -43084,7 +43084,7 @@ do_QueryInterface
 nonanon
 )
 ;
-PRBool
+bool
 isText
 ;
 if
@@ -43408,7 +43408,7 @@ nsDocument
 :
 UpdateFullScreenStatus
 (
-PRBool
+bool
 aIsFullScreen
 )
 {
@@ -43492,7 +43492,7 @@ ResetFullScreenElement
 }
 }
 static
-PRBool
+bool
 UpdateFullScreenStatus
 (
 nsIDocument
@@ -43511,7 +43511,7 @@ UpdateFullScreenStatus
 *
 static_cast
 <
-PRBool
+bool
 *
 >
 (
@@ -43539,7 +43539,7 @@ UpdateFullScreenStatusInDocTree
 nsIDocument
 *
 aDoc
-PRBool
+bool
 aIsFullScreen
 )
 {
@@ -43602,7 +43602,7 @@ nsnull
 ;
 }
 static
-PRBool
+bool
 ResetFullScreenElement
 (
 nsIDocument
@@ -43774,7 +43774,7 @@ PR_FALSE
 return
 ;
 }
-PRBool
+bool
 nsDocument
 :
 :
@@ -44255,7 +44255,7 @@ nsDocument
 :
 GetMozFullScreen
 (
-PRBool
+bool
 *
 aFullScreen
 )

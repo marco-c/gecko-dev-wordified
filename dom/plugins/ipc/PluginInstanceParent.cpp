@@ -3817,7 +3817,7 @@ PluginInstanceParent
 :
 IsRemoteDrawingCoreAnimation
 (
-PRBool
+bool
 *
 aDrawing
 )

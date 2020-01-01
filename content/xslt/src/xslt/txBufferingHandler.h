@@ -557,7 +557,7 @@ txResultBuffer
 >
 mBuffer
 ;
-PRPackedBool
+bool
 mCanAddAttribute
 ;
 }

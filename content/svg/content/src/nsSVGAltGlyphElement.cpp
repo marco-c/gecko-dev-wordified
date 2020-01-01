@@ -565,7 +565,7 @@ nsIContent
 interface
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -610,7 +610,7 @@ GetStringInfo
 )
 ;
 virtual
-PRBool
+bool
 IsEventName
 (
 nsIAtom
@@ -1333,7 +1333,7 @@ nsIContent
 methods
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGAltGlyphElement
 :
@@ -1461,7 +1461,7 @@ name
 /
 nsSVGElement
 overrides
-PRBool
+bool
 nsSVGAltGlyphElement
 :
 :

@@ -2758,7 +2758,7 @@ nsnull
 #
 ifdef
 MOZ_XUL
-PRBool
+bool
 isTree
 =
 targetContent
@@ -2955,7 +2955,7 @@ states
 SELECTED
 also
 .
-PRBool
+bool
 isEnabled
 =
 (
@@ -3050,7 +3050,7 @@ State
 (
 )
 ;
-PRBool
+bool
 isEnabled
 =
 !
@@ -3168,7 +3168,7 @@ State
 (
 )
 ;
-PRBool
+bool
 isEnabled
 =
 (

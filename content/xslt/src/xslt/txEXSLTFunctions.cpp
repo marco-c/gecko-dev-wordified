@@ -2517,7 +2517,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 insertOnFound
 =
 mType
@@ -2885,10 +2885,10 @@ rv
 rv
 )
 ;
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 PRInt32
 i
@@ -3824,7 +3824,7 @@ aResult
 )
 ;
 }
-PRBool
+bool
 findMax
 =
 mType
@@ -4048,7 +4048,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 findMax
 =
 mType
@@ -4353,7 +4353,7 @@ tp_dst_offset
 /
 60
 ;
-PRBool
+bool
 isneg
 =
 offset
@@ -4497,7 +4497,7 @@ mType
 mReturnType
 ;
 }
-PRBool
+bool
 txEXSLTFunctionCall
 :
 :
@@ -4683,7 +4683,7 @@ NS_ERROR_XPATH_UNKNOWN_FUNCTION
 ;
 }
 extern
-PRBool
+bool
 TX_InitEXSLTFunction
 (
 )

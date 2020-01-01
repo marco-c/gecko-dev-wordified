@@ -667,7 +667,7 @@ dom
 -
 -
 -
-PRBool
+bool
 nsDOMAttribute
 :
 :
@@ -690,7 +690,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNsAware
 )
 :
@@ -1619,7 +1619,7 @@ nsDOMAttribute
 :
 GetSpecified
 (
-PRBool
+bool
 *
 aSpecified
 )
@@ -2046,7 +2046,7 @@ nsDOMAttribute
 :
 HasChildNodes
 (
-PRBool
+bool
 *
 aHasChildNodes
 )
@@ -2094,7 +2094,7 @@ nsDOMAttribute
 :
 HasAttributes
 (
-PRBool
+bool
 *
 aHasAttributes
 )
@@ -2684,7 +2684,7 @@ nsDOMAttribute
 :
 CloneNode
 (
-PRBool
+bool
 aDeep
 nsIDOMNode
 *
@@ -2901,7 +2901,7 @@ const
 nsAString
 &
 aVersion
-PRBool
+bool
 *
 aReturn
 )
@@ -3039,7 +3039,7 @@ IsEqualNode
 nsIDOMNode
 *
 aOther
-PRBool
+bool
 *
 aResult
 )
@@ -3176,7 +3176,7 @@ IsSameNode
 nsIDOMNode
 *
 other
-PRBool
+bool
 *
 aResult
 )
@@ -3227,7 +3227,7 @@ Contains
 nsIDOMNode
 *
 aOther
-PRBool
+bool
 *
 aReturn
 )
@@ -3277,7 +3277,7 @@ const
 nsAString
 &
 namespaceURI
-PRBool
+bool
 *
 aResult
 )
@@ -3387,7 +3387,7 @@ nsDOMAttribute
 :
 GetIsId
 (
-PRBool
+bool
 *
 aReturn
 )
@@ -3457,7 +3457,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsDOMAttribute
 :
 :
@@ -3589,7 +3589,7 @@ nsIContent
 aKid
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 {
@@ -3606,7 +3606,7 @@ AppendChildTo
 nsIContent
 *
 aKid
-PRBool
+bool
 aNotify
 )
 {
@@ -3622,7 +3622,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 {

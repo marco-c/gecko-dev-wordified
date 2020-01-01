@@ -883,7 +883,7 @@ aPrefName
 MozPrefValue
 *
 aPrefVal
-PRBool
+bool
 *
 aLocked
 )
@@ -912,7 +912,7 @@ aPrefName
 MozPrefValue
 *
 aPrefVal
-PRBool
+bool
 aLocked
 )
 ;
@@ -922,7 +922,7 @@ nsIPrefBranch2
 >
 mSysPrefService
 ;
-PRBool
+bool
 mEnabled
 ;
 /

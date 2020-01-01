@@ -774,7 +774,7 @@ return
 mEventRule
 ;
 }
-PRBool
+bool
 IsFromUserInput
 (
 )
@@ -949,7 +949,7 @@ EIsFromUserInput
 aIsFromUserInput
 )
 ;
-PRBool
+bool
 mIsFromUserInput
 ;
 PRUint32
@@ -1002,7 +1002,7 @@ nsAccessible
 aAccessible
 PRUint64
 aState
-PRBool
+bool
 aIsEnabled
 EIsFromUserInput
 aIsFromUserInput
@@ -1017,7 +1017,7 @@ nsINode
 aNode
 PRUint64
 aState
-PRBool
+bool
 aIsEnabled
 )
 ;
@@ -1086,7 +1086,7 @@ return
 mState
 ;
 }
-PRBool
+bool
 IsStateEnabled
 (
 )
@@ -1101,7 +1101,7 @@ private
 PRUint64
 mState
 ;
-PRBool
+bool
 mIsEnabled
 ;
 }
@@ -1136,7 +1136,7 @@ const
 nsAString
 &
 aModifiedText
-PRBool
+bool
 aIsInserted
 EIsFromUserInput
 aIsFromUserInput
@@ -1214,7 +1214,7 @@ Length
 )
 ;
 }
-PRBool
+bool
 IsTextInserted
 (
 )
@@ -1242,7 +1242,7 @@ private
 PRInt32
 mStart
 ;
-PRBool
+bool
 mIsInserted
 ;
 nsString

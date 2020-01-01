@@ -694,7 +694,7 @@ aContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 nsRect

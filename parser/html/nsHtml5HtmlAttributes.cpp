@@ -1092,7 +1092,7 @@ length
 0
 ;
 }
-PRBool
+bool
 nsHtml5HtmlAttributes
 :
 :
@@ -1238,7 +1238,7 @@ return
 clone
 ;
 }
-PRBool
+bool
 nsHtml5HtmlAttributes
 :
 :
@@ -1287,10 +1287,10 @@ i
 +
 )
 {
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 nsIAtom
 *

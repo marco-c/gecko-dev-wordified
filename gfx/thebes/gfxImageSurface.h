@@ -829,7 +829,7 @@ FALSE
 otherwise
 *
 /
-PRBool
+bool
 CopyFrom
 (
 gfxImageSurface
@@ -972,7 +972,7 @@ gfxImageFormat
 gfxIntSize
 mSize
 ;
-PRBool
+bool
 mOwnsData
 ;
 unsigned

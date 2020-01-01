@@ -552,10 +552,10 @@ PRUint32
 segcount
 =
 0
-PRBool
+bool
 closeWhenDone
 =
-PR_FALSE
+false
 )
 ;
 typedef
@@ -770,10 +770,10 @@ mSuspendCount
 PRUint32
 mLoadFlags
 ;
-PRPackedBool
+bool
 mIsPending
 ;
-PRPackedBool
+bool
 mWaiting
 ;
 /
@@ -784,7 +784,7 @@ waiting
 on
 async
 source
-PRPackedBool
+bool
 mCloseWhenDone
 ;
 }

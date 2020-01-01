@@ -709,7 +709,7 @@ done
 *
 /
 virtual
-PRBool
+bool
 IsDone
 (
 )

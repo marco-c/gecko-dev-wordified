@@ -581,7 +581,7 @@ reporter
 "
 )
 ;
-PRBool
+bool
 enabled
 ;
 if

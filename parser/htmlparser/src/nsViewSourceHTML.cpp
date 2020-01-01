@@ -1259,7 +1259,7 @@ view_source
 .
 syntax_highlight
 "
-PR_TRUE
+true
 )
 ;
 mWrapLongLines
@@ -1274,7 +1274,7 @@ view_source
 .
 wrap_long_lines
 "
-PR_FALSE
+false
 )
 ;
 mTabSize
@@ -1896,9 +1896,9 @@ BuildModel
 nsITokenizer
 *
 aTokenizer
-PRBool
+bool
 aCanInterrupt
-PRBool
+bool
 aCountLines
 const
 nsCString
@@ -3508,7 +3508,7 @@ CViewSourceHTML
 :
 SetVerification
 (
-PRBool
+bool
 aEnabled
 )
 {
@@ -3581,7 +3581,7 @@ child
 /
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 CViewSourceHTML
 :
@@ -3595,10 +3595,10 @@ aChild
 )
 const
 {
-PRBool
+bool
 result
 =
-PR_TRUE
+true
 ;
 return
 result
@@ -3656,7 +3656,7 @@ tags
 /
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 CViewSourceHTML
 :
@@ -3668,10 +3668,10 @@ aTag
 )
 const
 {
-PRBool
+bool
 result
 =
-PR_TRUE
+true
 ;
 return
 result
@@ -3727,7 +3727,7 @@ nsTokenAllocator
 allocator
 PRInt32
 attrCount
-PRBool
+bool
 aOwnerInError
 )
 {
@@ -3878,7 +3878,7 @@ in
 error
 .
 const
-PRBool
+bool
 attributeInError
 =
 !
@@ -4018,7 +4018,7 @@ nsSubstring
 aText
 PRInt32
 attrCount
-PRBool
+bool
 aTagInError
 )
 {
@@ -5569,7 +5569,7 @@ return
 result
 ;
 }
-PRBool
+bool
 CViewSourceHTML
 :
 :
@@ -5599,7 +5599,7 @@ TrimTokenValue
 attrName
 )
 ;
-PRBool
+bool
 isHref
 =
 trimmedAttrName
@@ -5611,7 +5611,7 @@ href
 "
 )
 ;
-PRBool
+bool
 isSrc
 =
 !
@@ -5627,7 +5627,7 @@ src
 "
 )
 ;
-PRBool
+bool
 isXLink
 =
 !
@@ -6468,10 +6468,10 @@ in
 this
 case
 .
-PRBool
+bool
 openingExecutesScript
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -6558,10 +6558,10 @@ returned
 /
 undecorated
 .
-PRBool
+bool
 doesNotReturnData
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -7140,7 +7140,7 @@ break
 }
 }
 }
-PRBool
+bool
 CViewSourceHTML
 :
 :
@@ -7640,7 +7640,7 @@ textOut
 }
 }
 static
-PRBool
+bool
 InRange
 (
 PRUnichar
@@ -7671,7 +7671,7 @@ chHigh
 ;
 }
 static
-PRBool
+bool
 IsDigit
 (
 PRUnichar
@@ -7692,7 +7692,7 @@ ch
 ;
 }
 static
-PRBool
+bool
 IsHexDigit
 (
 PRUnichar
@@ -7731,7 +7731,7 @@ f
 ;
 }
 static
-PRBool
+bool
 IsAlphaNum
 (
 PRUnichar
@@ -7770,7 +7770,7 @@ ch
 ;
 }
 static
-PRBool
+bool
 IsAmpersand
 (
 PRUnichar
@@ -7785,7 +7785,7 @@ kAmpersand
 ;
 }
 static
-PRBool
+bool
 IsHashsign
 (
 PRUnichar
@@ -7800,7 +7800,7 @@ kHashsign
 ;
 }
 static
-PRBool
+bool
 IsXx
 (
 PRUnichar
@@ -7829,7 +7829,7 @@ x
 ;
 }
 static
-PRBool
+bool
 IsSemicolon
 (
 PRUnichar
@@ -7844,7 +7844,7 @@ kSemicolon
 ;
 }
 static
-PRBool
+bool
 ConsumeChar
 (
 nsAString
@@ -7860,7 +7860,7 @@ nsAString
 const_iterator
 &
 end
-PRBool
+bool
 (
 *
 testFun
@@ -8217,7 +8217,7 @@ consume
 that
 too
 .
-PRBool
+bool
 properlyTerminated
 =
 ConsumeChar

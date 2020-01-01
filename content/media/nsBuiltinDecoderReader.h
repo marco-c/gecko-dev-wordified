@@ -646,7 +646,7 @@ video
 frames
 .
 static
-PRBool
+bool
 ValidateVideoRegion
 (
 const
@@ -742,7 +742,7 @@ active
 audio
 bitstream
 .
-PRPackedBool
+bool
 mHasAudio
 ;
 /
@@ -756,7 +756,7 @@ active
 video
 bitstream
 .
-PRPackedBool
+bool
 mHasVideo
 ;
 }
@@ -1277,7 +1277,7 @@ const
 YCbCrBuffer
 &
 aBuffer
-PRBool
+bool
 aKeyframe
 PRInt64
 aTimecode
@@ -1517,10 +1517,10 @@ will
 be
 empty
 .
-PRPackedBool
+bool
 mDuplicate
 ;
-PRPackedBool
+bool
 mKeyframe
 ;
 public
@@ -1593,7 +1593,7 @@ PRInt64
 aTime
 PRInt64
 aEndTime
-PRBool
+bool
 aKeyframe
 PRInt64
 aTimecode
@@ -2029,7 +2029,7 @@ mEndOfStream
 PR_FALSE
 ;
 }
-PRBool
+bool
 AtEndOfStream
 (
 )
@@ -2097,7 +2097,7 @@ has
 finished
 playback
 .
-PRBool
+bool
 IsFinished
 (
 )
@@ -2265,7 +2265,7 @@ queueing
 frame
 data
 .
-PRBool
+bool
 mEndOfStream
 ;
 }
@@ -2462,7 +2462,7 @@ has
 occured
 .
 virtual
-PRBool
+bool
 DecodeAudioData
 (
 )
@@ -2514,10 +2514,10 @@ the
 queue
 .
 virtual
-PRBool
+bool
 DecodeVideoFrame
 (
-PRBool
+bool
 &
 aKeyframeSkip
 PRInt64
@@ -2527,7 +2527,7 @@ aTimeThreshold
 0
 ;
 virtual
-PRBool
+bool
 HasAudio
 (
 )
@@ -2535,7 +2535,7 @@ HasAudio
 0
 ;
 virtual
-PRBool
+bool
 HasVideo
 (
 )
@@ -3164,7 +3164,7 @@ DecodeAudioData
 )
 .
 typedef
-PRBool
+bool
 (
 nsBuiltinDecoderReader
 :
@@ -3222,7 +3222,7 @@ so
 that
 DecodeVideoFrame
 (
-PRBool
+bool
 &
 PRInt64
 )
@@ -3236,15 +3236,15 @@ DecodeToFirstData
 (
 )
 .
-PRBool
+bool
 DecodeVideoFrame
 (
 )
 {
-PRBool
+bool
 f
 =
-PR_FALSE
+false
 ;
 return
 DecodeVideoFrame

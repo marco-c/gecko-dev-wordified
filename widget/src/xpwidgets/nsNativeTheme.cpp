@@ -688,7 +688,7 @@ nsEventStates
 (
 )
 ;
-PRBool
+bool
 isXULCheckboxRadio
 =
 (
@@ -1022,7 +1022,7 @@ return
 flags
 ;
 }
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -1214,7 +1214,7 @@ return
 value
 ;
 }
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -1223,7 +1223,7 @@ GetCheckedOrSelected
 nsIFrame
 *
 aFrame
-PRBool
+bool
 aCheckSelected
 )
 {
@@ -1312,7 +1312,7 @@ if
 inputElt
 )
 {
-PRBool
+bool
 checked
 ;
 inputElt
@@ -1347,7 +1347,7 @@ checked
 )
 ;
 }
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -1398,7 +1398,7 @@ eCaseMatters
 )
 ;
 }
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -1446,7 +1446,7 @@ NS_EVENT_STATE_HOVER
 )
 ;
 }
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -1545,7 +1545,7 @@ if
 inputElt
 )
 {
-PRBool
+bool
 indeterminate
 ;
 inputElt
@@ -1565,7 +1565,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -2038,7 +2038,7 @@ eCaseMatters
 )
 ;
 }
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -2274,7 +2274,7 @@ return
 eTreeSortDirection_Natural
 ;
 }
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -2465,7 +2465,7 @@ PR_TRUE
 /
 tab
 :
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -2529,7 +2529,7 @@ bottom
 kNotFound
 ;
 }
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -2623,7 +2623,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -2667,7 +2667,7 @@ eCaseMatters
 )
 ;
 }
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -2822,7 +2822,7 @@ aOffset
 /
 progressbar
 :
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -2906,7 +2906,7 @@ eCaseMatters
 )
 ;
 }
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -2939,7 +2939,7 @@ NS_STYLE_ORIENT_VERTICAL
 /
 menupopup
 :
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -2948,7 +2948,7 @@ IsSubmenu
 nsIFrame
 *
 aFrame
-PRBool
+bool
 *
 aLeftOfParent
 )
@@ -3088,7 +3088,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -3136,7 +3136,7 @@ eNotMenuList
 )
 ;
 }
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -3147,10 +3147,10 @@ nsIFrame
 aFrame
 )
 {
-PRBool
+bool
 isEditable
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -3185,7 +3185,7 @@ return
 isEditable
 ;
 }
-PRBool
+bool
 nsNativeTheme
 :
 :
@@ -3492,7 +3492,7 @@ GetAdjacentSiblingFrameWithSameAppearance
 nsIFrame
 *
 aFrame
-PRBool
+bool
 aNextSibling
 )
 {

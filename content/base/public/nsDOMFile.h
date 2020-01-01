@@ -1469,7 +1469,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMFILELIST
-PRBool
+bool
 Append
 (
 nsIDOMFile
@@ -1486,7 +1486,7 @@ aFile
 )
 ;
 }
-PRBool
+bool
 Remove
 (
 PRUint32

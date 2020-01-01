@@ -546,7 +546,7 @@ aWidth
 )
 ;
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -565,7 +565,7 @@ aResult
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -686,7 +686,7 @@ nsHTMLPreElement
 Width
 width
 )
-PRBool
+bool
 nsHTMLPreElement
 :
 :
@@ -1130,7 +1130,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLPreElement
 :

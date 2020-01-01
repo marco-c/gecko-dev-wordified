@@ -651,7 +651,7 @@ cx
 PRInt32
 cy
 ;
-PRBool
+bool
 visible
 ;
 nsCOMPtr
@@ -670,7 +670,7 @@ nsWebBrowserListenerState
 {
 public
 :
-PRBool
+bool
 Equals
 (
 nsIWeakReference
@@ -881,7 +881,7 @@ aIID
 NS_IMETHOD
 EnableGlobalHistory
 (
-PRBool
+bool
 aEnable
 )
 ;
@@ -961,13 +961,13 @@ mInitInfo
 PRUint32
 mContentType
 ;
-PRPackedBool
+bool
 mActivating
 ;
-PRPackedBool
+bool
 mShouldEnableHistory
 ;
-PRPackedBool
+bool
 mIsActive
 ;
 nativeWindow

@@ -612,7 +612,7 @@ aDocumentURI
 0
 ;
 virtual
-PRBool
+bool
 IsForkOf
 (
 nsIDOMStorage
@@ -644,7 +644,7 @@ Principal
 0
 ;
 virtual
-PRBool
+bool
 CanAccess
 (
 nsIPrincipal

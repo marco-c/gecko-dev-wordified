@@ -544,7 +544,7 @@ static
 uint32
 zero_methods_descriptor
 ;
-PRBool
+bool
 AutoScriptEvaluate
 :
 :
@@ -1161,7 +1161,7 @@ if
 info
 )
 {
-PRBool
+bool
 canScript
 isBuiltin
 ;
@@ -1964,7 +1964,7 @@ info
 return
 nsnull
 ;
-PRBool
+bool
 canScript
 isBuiltin
 ;
@@ -4892,7 +4892,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 isSystem
 ;
 rv
@@ -6563,7 +6563,7 @@ const
 char
 *
 anInterfaceName
-PRBool
+bool
 aForceReport
 )
 {
@@ -6800,7 +6800,7 @@ report
 this
 exception
 .
-PRBool
+bool
 reportable
 =
 xpc_IsReportableErrorCode
@@ -6924,10 +6924,10 @@ if
 reportable
 )
 {
-PRBool
+bool
 onlyNativeStackFrames
 =
-PR_TRUE
+true
 ;
 JSStackFrame
 *
@@ -8470,7 +8470,7 @@ a
 named
 method
 .
-PRBool
+bool
 isFunction
 ;
 if
@@ -8780,10 +8780,10 @@ if
 translator
 )
 {
-PRBool
+bool
 hideFirstParamFromJS
 =
-PR_FALSE
+false
 ;
 nsIID
 *
@@ -9190,7 +9190,7 @@ datum_type
 JSUint32
 array_count
 ;
-PRBool
+bool
 isArray
 =
 type
@@ -9211,7 +9211,7 @@ ccx
 val
 )
 ;
-PRBool
+bool
 isSizedString
 =
 isArray
@@ -10185,7 +10185,7 @@ if
 success
 )
 {
-PRBool
+bool
 forceReport
 ;
 if
@@ -10706,7 +10706,7 @@ datum_type
 JSUint32
 array_count
 ;
-PRBool
+bool
 isArray
 =
 type
@@ -10715,7 +10715,7 @@ IsArray
 (
 )
 ;
-PRBool
+bool
 isSizedString
 =
 isArray

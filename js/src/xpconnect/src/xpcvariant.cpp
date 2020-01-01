@@ -5079,7 +5079,7 @@ _retval
 }
 /
 *
-PRBool
+bool
 getAsBool
 (
 )
@@ -5092,7 +5092,7 @@ XPCVariant
 :
 GetAsBool
 (
-PRBool
+bool
 *
 _retval
 )

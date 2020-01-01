@@ -1442,7 +1442,7 @@ nsUnicodeTo4BytesGB18030
 )
 ;
 }
-PRBool
+bool
 nsUnicodeToGB18030
 :
 :
@@ -1762,7 +1762,7 @@ m4BytesEncoder
 nsnull
 ;
 }
-PRBool
+bool
 nsUnicodeToGBK
 :
 :
@@ -1865,7 +1865,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsUnicodeToGBK
 :
 :
@@ -2000,7 +2000,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsUnicodeToGBK
 :
 :

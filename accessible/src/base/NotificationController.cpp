@@ -4376,10 +4376,10 @@ if
 editor
 )
 {
-PRBool
+bool
 isEmpty
 =
-PR_FALSE
+false
 ;
 editor
 -

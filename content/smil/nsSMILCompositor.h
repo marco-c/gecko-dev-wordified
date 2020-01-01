@@ -676,7 +676,7 @@ return
 mKey
 ;
 }
-PRBool
+bool
 KeyEquals
 (
 KeyTypePointer
@@ -1137,7 +1137,7 @@ something
 has
 changed
 .
-PRPackedBool
+bool
 mForceCompositing
 ;
 /

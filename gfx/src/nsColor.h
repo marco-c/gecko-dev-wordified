@@ -875,7 +875,7 @@ or
 digits
 NS_GFX_
 (
-PRBool
+bool
 )
 NS_HexToRGB
 (
@@ -968,7 +968,7 @@ are
 )
 NS_GFX_
 (
-PRBool
+bool
 )
 NS_LooseHexToRGB
 (
@@ -1032,7 +1032,7 @@ false
 .
 NS_GFX_
 (
-PRBool
+bool
 )
 NS_ColorNameToRGB
 (

@@ -657,7 +657,7 @@ nsISMILType
 :
 IsEqual
 .
-PRBool
+bool
 operator
 =
 =
@@ -669,7 +669,7 @@ aVal
 )
 const
 ;
-PRBool
+bool
 operator
 !
 =
@@ -692,7 +692,7 @@ aVal
 )
 ;
 }
-PRBool
+bool
 IsNull
 (
 )
@@ -790,7 +790,7 @@ const
 ;
 union
 {
-PRBool
+bool
 mBool
 ;
 PRUint64

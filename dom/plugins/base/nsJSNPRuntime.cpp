@@ -3342,7 +3342,7 @@ NPVariant
 args
 uint32_t
 argCount
-PRBool
+bool
 ctorCall
 NPVariant
 *
@@ -5230,7 +5230,7 @@ mNpp
 ;
 }
 static
-PRBool
+bool
 JSObjWrapperHashMatchEntry
 (
 PLDHashTable
@@ -6760,7 +6760,7 @@ pdg
 npp
 )
 ;
-PRBool
+bool
 hasProperty
 hasMethod
 ;
@@ -7094,7 +7094,7 @@ argv
 jsval
 *
 rval
-PRBool
+bool
 ctorCall
 )
 {
@@ -8447,7 +8447,7 @@ JSIdToNPIdentifier
 id
 )
 ;
-PRBool
+bool
 hasProperty
 =
 npobj
@@ -8534,7 +8534,7 @@ return
 JS_TRUE
 ;
 }
-PRBool
+bool
 hasMethod
 =
 npobj

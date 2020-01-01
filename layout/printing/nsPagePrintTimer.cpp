@@ -568,7 +568,7 @@ nsPagePrintTimer
 :
 StartTimer
 (
-PRBool
+bool
 aUseDelay
 )
 {
@@ -701,10 +701,10 @@ if
 mDocViewerPrint
 )
 {
-PRPackedBool
+bool
 initNewTimer
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -727,7 +727,7 @@ page
 is
 actually
 printed
-PRBool
+bool
 inRange
 ;
 /
@@ -748,7 +748,7 @@ the
 printing
 was
 cancelled
-PRBool
+bool
 donePrinting
 =
 mPrintEngine

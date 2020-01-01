@@ -948,7 +948,7 @@ idx
 )
 ;
 }
-PRBool
+bool
 WindowHook
 :
 :
@@ -1046,7 +1046,7 @@ aResult
 )
 ;
 }
-PRBool
+bool
 WindowHook
 :
 :

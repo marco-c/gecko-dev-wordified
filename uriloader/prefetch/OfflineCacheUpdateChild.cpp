@@ -1425,7 +1425,7 @@ appCacheChannel
 )
 return
 ;
-PRBool
+bool
 loadedFromAppCache
 ;
 appCacheChannel
@@ -1867,7 +1867,7 @@ applications
 are
 supported
 .
-PRBool
+bool
 match
 ;
 rv
@@ -2118,7 +2118,7 @@ OfflineCacheUpdateChild
 :
 GetPartial
 (
-PRBool
+bool
 *
 aPartial
 )
@@ -2171,7 +2171,7 @@ OfflineCacheUpdateChild
 :
 GetSucceeded
 (
-PRBool
+bool
 *
 aSucceeded
 )
@@ -2200,7 +2200,7 @@ OfflineCacheUpdateChild
 :
 GetIsUpgrade
 (
-PRBool
+bool
 *
 aIsUpgrade
 )
@@ -2247,7 +2247,7 @@ AddObserver
 nsIOfflineCacheUpdateObserver
 *
 aObserver
-PRBool
+bool
 aHoldWeak
 )
 {

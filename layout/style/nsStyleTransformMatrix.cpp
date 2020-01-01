@@ -663,7 +663,7 @@ aContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 )
@@ -807,7 +807,7 @@ aContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 nscoord
@@ -981,7 +981,7 @@ aContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 nsRect
@@ -1204,7 +1204,7 @@ aContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 nsRect
@@ -1559,7 +1559,7 @@ aContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 nsRect
@@ -1738,7 +1738,7 @@ aContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 nsRect
@@ -1833,7 +1833,7 @@ aContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 nsRect
@@ -1916,7 +1916,7 @@ aContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 float
@@ -2004,7 +2004,7 @@ aContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 nsRect
@@ -2150,7 +2150,7 @@ aContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 nsRect
@@ -3844,7 +3844,7 @@ aContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 float
@@ -3939,7 +3939,7 @@ aContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 nsRect
@@ -4391,7 +4391,7 @@ aContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 nsRect

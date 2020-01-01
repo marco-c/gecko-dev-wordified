@@ -992,7 +992,7 @@ in
 an
 overflow
 .
-PRBool
+bool
 AddOverflow32
 (
 PRUint32
@@ -1036,7 +1036,7 @@ an
 integer
 overflow
 .
-PRBool
+bool
 MulOverflow32
 (
 PRUint32
@@ -1071,7 +1071,7 @@ in
 an
 overflow
 .
-PRBool
+bool
 AddOverflow
 (
 PRInt64
@@ -1115,7 +1115,7 @@ an
 integer
 overflow
 .
-PRBool
+bool
 MulOverflow
 (
 PRInt64
@@ -1179,7 +1179,7 @@ calulating
 the
 conversion
 .
-PRBool
+bool
 FramesToUsecs
 (
 PRInt64
@@ -1244,7 +1244,7 @@ calulating
 the
 conversion
 .
-PRBool
+bool
 UsecsToFrames
 (
 PRInt64

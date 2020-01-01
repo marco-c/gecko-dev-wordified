@@ -877,7 +877,7 @@ NS_GetCurrentThread
 (
 )
 ;
-PRBool
+bool
 prevBlockNativeEvent
 =
 mBlockNativeEvent
@@ -1065,13 +1065,13 @@ thread
 via
 OnProcessNextEvent
 below
-PRBool
+bool
 nsBaseAppShell
 :
 :
 DoProcessNextNativeEvent
 (
-PRBool
+bool
 mayWait
 )
 {
@@ -1195,7 +1195,7 @@ eEventloopXPCOM
 +
 mEventloopNestingLevel
 ;
-PRBool
+bool
 result
 =
 ProcessNextNativeEvent
@@ -1399,7 +1399,7 @@ nsBaseAppShell
 :
 FavorPerformanceHint
 (
-PRBool
+bool
 favorPerfOverStarvation
 PRUint32
 starvationDelay
@@ -1672,7 +1672,7 @@ OnProcessNextEvent
 nsIThreadInternal
 *
 thr
-PRBool
+bool
 mayWait
 PRUint32
 recursionDepth
@@ -1809,7 +1809,7 @@ mBlockedWait
 =
 PR_FALSE
 ;
-PRBool
+bool
 *
 oldBlockedWait
 =
@@ -1865,7 +1865,7 @@ for
 an
 event
 .
-PRBool
+bool
 needEvent
 =
 mayWait
@@ -1918,7 +1918,7 @@ now
 =
 start
 ;
-PRBool
+bool
 keepGoing
 ;
 do

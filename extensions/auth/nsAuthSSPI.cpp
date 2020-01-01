@@ -3296,7 +3296,7 @@ void
 inToken
 PRUint32
 inTokenLen
-PRBool
+bool
 confidential
 void
 *

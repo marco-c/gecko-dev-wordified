@@ -647,7 +647,7 @@ grid
 return
 rv
 ;
-PRBool
+bool
 isHorizontal
 =
 IsHorizontal

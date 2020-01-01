@@ -473,7 +473,7 @@ nsAtomListUtils
 public
 :
 static
-PRBool
+bool
 IsMember
 (
 nsIAtom

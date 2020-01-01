@@ -755,10 +755,10 @@ arg
 struct
 retrieval_context
 {
-PRPackedBool
+bool
 completed
 ;
-PRPackedBool
+bool
 timed_out
 ;
 void
@@ -786,7 +786,7 @@ nsnull
 }
 ;
 static
-PRBool
+bool
 wait_for_retrieval
 (
 GtkClipboard
@@ -1264,10 +1264,10 @@ s
 supported
 type
 .
-PRBool
+bool
 imagesAdded
 =
-PR_FALSE
+false
 ;
 PRUint32
 count
@@ -1734,10 +1734,10 @@ length
 =
 0
 ;
-PRBool
+bool
 foundData
 =
-PR_FALSE
+false
 ;
 nsCAutoString
 foundFlavor
@@ -2499,7 +2499,7 @@ PRUint32
 aLength
 PRInt32
 aWhichClipboard
-PRBool
+bool
 *
 _retval
 )
@@ -2775,7 +2775,7 @@ nsClipboard
 :
 SupportsSelectionClipboard
 (
-PRBool
+bool
 *
 _retval
 )
@@ -5330,7 +5330,7 @@ kClipboardTimeout
 500000
 ;
 static
-PRBool
+bool
 wait_for_retrieval
 (
 GtkClipboard

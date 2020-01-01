@@ -942,7 +942,7 @@ destroyed
 .
 *
 /
-PRBool
+bool
 AddRefreshObserver
 (
 nsARefreshObserver
@@ -952,7 +952,7 @@ mozFlushType
 aFlushType
 )
 ;
-PRBool
+bool
 RemoveRefreshObserver
 (
 nsARefreshObserver
@@ -980,7 +980,7 @@ layout
 on
 *
 /
-PRBool
+bool
 AddStyleFlushObserver
 (
 nsIPresShell
@@ -1007,7 +1007,7 @@ observer
 "
 )
 ;
-PRBool
+bool
 appended
 =
 mStyleFlushObservers
@@ -1045,7 +1045,7 @@ aShell
 )
 ;
 }
-PRBool
+bool
 AddLayoutFlushObserver
 (
 nsIPresShell
@@ -1070,7 +1070,7 @@ observer
 "
 )
 ;
-PRBool
+bool
 appended
 =
 mLayoutFlushObservers
@@ -1108,7 +1108,7 @@ aShell
 )
 ;
 }
-PRBool
+bool
 IsLayoutFlushObserver
 (
 nsIPresShell
@@ -1143,7 +1143,7 @@ event
 .
 *
 /
-PRBool
+bool
 ScheduleBeforePaintEvent
 (
 nsIDocument
@@ -1405,7 +1405,7 @@ flush
 type
 *
 /
-PRBool
+bool
 IsRefreshObserver
 (
 nsARefreshObserver

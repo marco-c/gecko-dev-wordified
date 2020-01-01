@@ -913,7 +913,7 @@ aImageFlags
 {
 }
 virtual
-PRBool
+bool
 operator
 (
 )
@@ -968,7 +968,7 @@ PaintFrameCallback
 operator
 (
 )
-PRBool
+bool
 SVGDrawingCallback
 :
 :
@@ -2546,7 +2546,7 @@ VectorImage
 :
 GetAnimated
 (
-PRBool
+bool
 *
 aAnimated
 )
@@ -2671,7 +2671,7 @@ VectorImage
 :
 GetCurrentFrameIsOpaque
 (
-PRBool
+bool
 *
 aIsOpaque
 )

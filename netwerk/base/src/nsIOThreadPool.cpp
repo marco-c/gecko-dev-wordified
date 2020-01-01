@@ -913,7 +913,7 @@ queue
 of
 PLEvent
 structs
-PRBool
+bool
 mShutdown
 ;
 /
@@ -1457,7 +1457,7 @@ nsIOThreadPool
 :
 IsOnCurrentThread
 (
-PRBool
+bool
 *
 result
 )

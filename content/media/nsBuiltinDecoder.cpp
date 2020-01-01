@@ -773,7 +773,7 @@ nsBuiltinDecoder
 :
 SetInfinite
 (
-PRBool
+bool
 aInfinite
 )
 {
@@ -797,7 +797,7 @@ mInfiniteStream
 aInfinite
 ;
 }
-PRBool
+bool
 nsBuiltinDecoder
 :
 :
@@ -938,7 +938,7 @@ nsBuiltinDecoder
 #
 endif
 }
-PRBool
+bool
 nsBuiltinDecoder
 :
 :
@@ -1692,7 +1692,7 @@ Start
 *
 /
 static
-PRBool
+bool
 IsInRanges
 (
 nsTimeRanges
@@ -2209,10 +2209,10 @@ mPlayState
 PLAY_STATE_SEEKING
 )
 {
-PRBool
+bool
 paused
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2549,10 +2549,10 @@ multiple
 metadataloaded
 events
 .
-PRBool
+bool
 notifyElement
 =
-PR_TRUE
+true
 ;
 {
 ReentrantMonitorAutoEnter
@@ -2749,7 +2749,7 @@ mon
 mReentrantMonitor
 )
 ;
-PRBool
+bool
 resourceIsLoaded
 =
 !
@@ -3122,7 +3122,7 @@ Shutdown
 )
 ;
 }
-PRBool
+bool
 nsBuiltinDecoder
 :
 :
@@ -3144,7 +3144,7 @@ mNextState
 PLAY_STATE_SEEKING
 ;
 }
-PRBool
+bool
 nsBuiltinDecoder
 :
 :
@@ -3483,7 +3483,7 @@ nsBuiltinDecoder
 :
 ComputePlaybackRate
 (
-PRPackedBool
+bool
 *
 aReliable
 )
@@ -3622,7 +3622,7 @@ mStream
 )
 return
 ;
-PRPackedBool
+bool
 reliable
 ;
 PRUint32
@@ -4217,10 +4217,10 @@ mShuttingDown
 )
 return
 ;
-PRBool
+bool
 seekWasAborted
 =
-PR_FALSE
+false
 ;
 {
 ReentrantMonitorAutoEnter
@@ -4356,15 +4356,15 @@ mShuttingDown
 )
 return
 ;
-PRBool
+bool
 fireEnded
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 seekWasAborted
 =
-PR_FALSE
+false
 ;
 {
 ReentrantMonitorAutoEnter
@@ -5038,7 +5038,7 @@ nsBuiltinDecoder
 :
 SetSeekable
 (
-PRBool
+bool
 aSeekable
 )
 {
@@ -5082,7 +5082,7 @@ aSeekable
 ;
 }
 }
-PRBool
+bool
 nsBuiltinDecoder
 :
 :
@@ -5292,7 +5292,7 @@ nsBuiltinDecoder
 :
 Resume
 (
-PRBool
+bool
 aForceBuffering
 )
 {
@@ -5539,7 +5539,7 @@ mPlaybackPosition
 )
 ;
 }
-PRBool
+bool
 nsBuiltinDecoder
 :
 :

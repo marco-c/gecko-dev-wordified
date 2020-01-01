@@ -514,7 +514,7 @@ later
 on
 *
 /
-PRBool
+bool
 WebGLProgram
 :
 :
@@ -718,7 +718,7 @@ VBOs
 .
 *
 /
-PRBool
+bool
 WebGLContext
 :
 :
@@ -1154,7 +1154,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 WebGLContext
 :
 :
@@ -1216,7 +1216,7 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 WebGLContext
 :
 :
@@ -1260,7 +1260,7 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 WebGLContext
 :
 :
@@ -1337,7 +1337,7 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 WebGLContext
 :
 :
@@ -1370,7 +1370,7 @@ info
 )
 ;
 }
-PRBool
+bool
 WebGLContext
 :
 :
@@ -1386,7 +1386,7 @@ char
 info
 )
 {
-PRBool
+bool
 sfactorIsConstantColor
 =
 sfactor
@@ -1400,7 +1400,7 @@ sfactor
 =
 LOCAL_GL_ONE_MINUS_CONSTANT_COLOR
 ;
-PRBool
+bool
 sfactorIsConstantAlpha
 =
 sfactor
@@ -1414,7 +1414,7 @@ sfactor
 =
 LOCAL_GL_ONE_MINUS_CONSTANT_ALPHA
 ;
-PRBool
+bool
 dfactorIsConstantColor
 =
 dfactor
@@ -1428,7 +1428,7 @@ dfactor
 =
 LOCAL_GL_ONE_MINUS_CONSTANT_COLOR
 ;
-PRBool
+bool
 dfactorIsConstantAlpha
 =
 dfactor
@@ -1495,7 +1495,7 @@ PR_TRUE
 ;
 }
 }
-PRBool
+bool
 WebGLContext
 :
 :
@@ -1536,7 +1536,7 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 WebGLContext
 :
 :
@@ -1595,7 +1595,7 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 WebGLContext
 :
 :
@@ -1654,7 +1654,7 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 WebGLContext
 :
 :
@@ -1698,7 +1698,7 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 WebGLContext
 :
 :
@@ -1742,7 +1742,7 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 WebGLContext
 :
 :
@@ -2085,7 +2085,7 @@ return
 0
 ;
 }
-PRBool
+bool
 WebGLContext
 :
 :
@@ -2491,7 +2491,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 WebGLContext
 :
 :
@@ -2615,7 +2615,7 @@ PR_TRUE
 ;
 }
 }
-PRBool
+bool
 WebGLContext
 :
 :
@@ -2726,7 +2726,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 WebGLContext
 :
 :

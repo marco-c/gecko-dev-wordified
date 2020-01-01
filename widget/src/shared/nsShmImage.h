@@ -590,7 +590,7 @@ gfxImageFormat
 Format
 ;
 static
-PRBool
+bool
 UseShm
 (
 )
@@ -799,7 +799,7 @@ mSize
 Format
 mFormat
 ;
-PRPackedBool
+bool
 mXAttached
 ;
 }

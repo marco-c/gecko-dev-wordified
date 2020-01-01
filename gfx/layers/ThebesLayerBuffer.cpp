@@ -1234,7 +1234,7 @@ the
 rotation
 boundary
 .
-PRBool
+bool
 canHaveRotation
 =
 !
@@ -1260,7 +1260,7 @@ contentType
 nsIntRegion
 neededRegion
 ;
-PRBool
+bool
 canReuseBuffer
 ;
 nsIntRect
@@ -2231,7 +2231,7 @@ clear
 it
 below
 .
-PRBool
+bool
 isClear
 =
 mBuffer

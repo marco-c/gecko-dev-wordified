@@ -899,7 +899,7 @@ return
 mReleaseTime
 ;
 }
-PRBool
+bool
 IsReleased
 (
 )
@@ -1007,7 +1007,7 @@ metadata
 for
 each
 entry
-PRBool
+bool
 mParsedManifest
 ;
 /
@@ -1082,7 +1082,7 @@ mMtime
 PRInt32
 mTotalItemsInManifest
 ;
-PRBool
+bool
 mOpened
 ;
 nsresult
@@ -1268,10 +1268,10 @@ mLastModTime
 PRUint16
 mCompression
 ;
-PRPackedBool
+bool
 mIsDirectory
 ;
-PRPackedBool
+bool
 mIsSynthetic
 ;
 }

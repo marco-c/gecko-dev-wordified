@@ -1652,7 +1652,7 @@ eChildrenUninitialized
 )
 ;
 }
-PRBool
+bool
 nsOuterDocAccessible
 :
 :
@@ -1797,7 +1797,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsOuterDocAccessible
 :
 :
@@ -1866,7 +1866,7 @@ outerdoc
 "
 this
 )
-PRBool
+bool
 wasRemoved
 =
 nsAccessible

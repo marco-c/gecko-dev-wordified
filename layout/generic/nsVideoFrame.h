@@ -661,7 +661,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 ;
@@ -693,7 +693,7 @@ aDestructRoot
 )
 ;
 virtual
-PRBool
+bool
 IsLeaf
 (
 )
@@ -740,7 +740,7 @@ GetType
 const
 ;
 virtual
-PRBool
+bool
 IsFrameOfType
 (
 PRUint32
@@ -828,7 +828,7 @@ be
 displayed
 again
 .
-PRBool
+bool
 ShouldDisplayPoster
 (
 )
@@ -894,7 +894,7 @@ an
 audio
 element
 .
-PRBool
+bool
 HasVideoElement
 (
 )
@@ -945,7 +945,7 @@ audio
 -
 only
 .
-PRBool
+bool
 HasVideoData
 (
 )
@@ -999,7 +999,7 @@ elements
 nsresult
 UpdatePosterSource
 (
-PRBool
+bool
 aNotify
 )
 ;

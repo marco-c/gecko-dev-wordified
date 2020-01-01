@@ -782,7 +782,7 @@ val
 :
 BEHAVIOR_ACCEPT
 ;
-PRBool
+bool
 boolval
 ;
 if
@@ -902,7 +902,7 @@ Failure
 is
 acceptable
 .
-PRBool
+bool
 isForeign
 =
 true
@@ -1019,7 +1019,7 @@ Failure
 is
 acceptable
 .
-PRBool
+bool
 isForeign
 =
 true

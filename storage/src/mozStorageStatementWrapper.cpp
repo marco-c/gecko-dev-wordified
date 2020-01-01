@@ -893,7 +893,7 @@ StatementWrapper
 :
 Step
 (
-PRBool
+bool
 *
 _hasMoreResults
 )
@@ -906,10 +906,10 @@ mStatement
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -1262,7 +1262,7 @@ aArgv
 jsval
 *
 _vp
-PRBool
+bool
 *
 _retval
 )

@@ -996,7 +996,7 @@ is
 paused
 .
 virtual
-PRBool
+bool
 IsPaused
 (
 )

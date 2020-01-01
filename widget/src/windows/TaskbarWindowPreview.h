@@ -575,7 +575,7 @@ virtual
 nsresult
 ShowActive
 (
-PRBool
+bool
 active
 )
 ;
@@ -629,7 +629,7 @@ custom
 drawing
 enabled
 ?
-PRBool
+bool
 mCustomDrawing
 ;
 /
@@ -640,7 +640,7 @@ made
 any
 buttons
 ?
-PRBool
+bool
 mHaveButtons
 ;
 /
@@ -734,7 +734,7 @@ and
 icon
 stuff
 static
-PRBool
+bool
 TaskbarWindowHook
 (
 void

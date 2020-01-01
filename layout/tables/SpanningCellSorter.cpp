@@ -637,7 +637,7 @@ key
 static
 *
 /
-PRBool
+bool
 SpanningCellSorter
 :
 :
@@ -684,7 +684,7 @@ entry
 mColSpan
 ;
 }
-PRBool
+bool
 SpanningCellSorter
 :
 :

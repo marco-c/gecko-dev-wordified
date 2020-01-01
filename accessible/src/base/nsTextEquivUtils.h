@@ -1092,7 +1092,7 @@ appended
 *
 /
 static
-PRBool
+bool
 AppendString
 (
 nsAString
@@ -1144,7 +1144,7 @@ space
 *
 /
 static
-PRBool
+bool
 IsWhitespaceString
 (
 const
@@ -1170,7 +1170,7 @@ symbol
 *
 /
 static
-PRBool
+bool
 IsWhitespace
 (
 PRUnichar

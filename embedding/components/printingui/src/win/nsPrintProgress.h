@@ -534,10 +534,10 @@ ReleaseListeners
 (
 )
 ;
-PRBool
+bool
 m_closeProgress
 ;
-PRBool
+bool
 m_processCanceled
 ;
 nsString

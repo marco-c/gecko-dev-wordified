@@ -938,10 +938,10 @@ markup
 *
 /
 const
-PRBool
+bool
 kUseMapRole
 =
-PR_TRUE
+true
 ;
 /
 *
@@ -962,10 +962,10 @@ markup
 *
 /
 const
-PRBool
+bool
 kUseNativeRole
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1407,10 +1407,10 @@ PRUint64
 aFalseState
 =
 0
-PRBool
+bool
 aDefinedIfAbsent
 =
-PR_FALSE
+false
 )
 ;
 /
@@ -1581,7 +1581,7 @@ valid
 *
 /
 static
-PRBool
+bool
 MapToStates
 (
 nsIContent
@@ -1618,7 +1618,7 @@ can
 be
 undefined
 )
-PRBool
+bool
 mIsToken
 ;
 /
@@ -1696,7 +1696,7 @@ if
 attribute
 is
 absent
-PRBool
+bool
 mDefinedIfAbsent
 ;
 }
@@ -1848,7 +1848,7 @@ role
 or
 native
 semantics
-PRBool
+bool
 roleRule
 ;
 /

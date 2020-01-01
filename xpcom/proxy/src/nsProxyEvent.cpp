@@ -1252,7 +1252,7 @@ nsProxyObjectCallInfo
 :
 RefCountInInterfacePointers
 (
-PRBool
+bool
 addRef
 )
 {
@@ -1363,7 +1363,7 @@ nsProxyObjectCallInfo
 :
 CopyStrings
 (
-PRBool
+bool
 copy
 )
 {
@@ -1729,7 +1729,7 @@ break
 }
 }
 }
-PRBool
+bool
 nsProxyObjectCallInfo
 :
 :

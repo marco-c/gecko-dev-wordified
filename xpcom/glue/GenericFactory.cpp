@@ -479,7 +479,7 @@ GenericFactory
 :
 LockFactory
 (
-PRBool
+bool
 aLock
 )
 {

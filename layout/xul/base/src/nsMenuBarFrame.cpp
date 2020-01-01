@@ -978,7 +978,7 @@ nsMenuBarFrame
 :
 SetActive
 (
-PRBool
+bool
 aActiveFlag
 )
 {
@@ -2029,7 +2029,7 @@ aOldMenu
 nsIContent
 *
 aNewMenu
-PRBool
+bool
 aSelectFirstItem
 )
 :
@@ -2242,7 +2242,7 @@ nsIContent
 >
 mNewMenu
 ;
-PRBool
+bool
 mSelectFirstItem
 ;
 }
@@ -2256,7 +2256,7 @@ ChangeMenuItem
 nsMenuFrame
 *
 aMenuItem
-PRBool
+bool
 aSelectFirstItem
 )
 {
@@ -2328,10 +2328,10 @@ the
 current
 child
 .
-PRBool
+bool
 wasOpen
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2544,7 +2544,7 @@ return
 mCurrentMenu
 ;
 }
-PRBool
+bool
 nsMenuBarFrame
 :
 :

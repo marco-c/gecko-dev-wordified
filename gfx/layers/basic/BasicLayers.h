@@ -1126,7 +1126,7 @@ Basic
 #
 ifdef
 DEBUG
-PRBool
+bool
 InConstruction
 (
 )
@@ -1138,7 +1138,7 @@ mPhase
 PHASE_CONSTRUCTION
 ;
 }
-PRBool
+bool
 InDrawing
 (
 )
@@ -1150,7 +1150,7 @@ mPhase
 PHASE_DRAWING
 ;
 }
-PRBool
+bool
 InForward
 (
 )
@@ -1162,7 +1162,7 @@ mPhase
 PHASE_FORWARD
 ;
 }
-PRBool
+bool
 InTransaction
 (
 )
@@ -1186,7 +1186,7 @@ return
 mTarget
 ;
 }
-PRBool
+bool
 IsRetained
 (
 )
@@ -1262,7 +1262,7 @@ const
 nsIntRegion
 &
 aRegion
-PRBool
+bool
 *
 aNeedsClipToVisibleRegion
 )
@@ -1309,13 +1309,13 @@ aPushed
 )
 ;
 virtual
-PRBool
+bool
 IsCompositingCheap
 (
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -1478,10 +1478,10 @@ mCachedSurface
 BufferMode
 mDoubleBuffering
 ;
-PRPackedBool
+bool
 mUsingDefaultTarget
 ;
-PRPackedBool
+bool
 mCachedSurfaceInUse
 ;
 bool
@@ -1707,7 +1707,7 @@ HasShadowManager
 ;
 }
 virtual
-PRBool
+bool
 IsCompositingCheap
 (
 )

@@ -501,7 +501,7 @@ nsDOMProgressEvent
 :
 GetLengthComputable
 (
-PRBool
+bool
 *
 aLengthComputable
 )
@@ -565,11 +565,11 @@ const
 nsAString
 &
 aType
-PRBool
+bool
 aCanBubble
-PRBool
+bool
 aCancelable
-PRBool
+bool
 aLengthComputable
 PRUint64
 aLoaded

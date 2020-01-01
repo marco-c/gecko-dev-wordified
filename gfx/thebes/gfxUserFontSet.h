@@ -533,7 +533,7 @@ loaded
 struct
 gfxFontFaceSrc
 {
-PRPackedBool
+bool
 mIsLocal
 ;
 /
@@ -553,7 +553,7 @@ origin
 principal
 or
 not
-PRPackedBool
+bool
 mUseOriginPrincipal
 ;
 /
@@ -1114,7 +1114,7 @@ all
 proxies
 are
 loaded
-PRBool
+bool
 AllLoaded
 (
 )
@@ -1413,7 +1413,7 @@ with
 this
 family
 name
-PRBool
+bool
 HasFamily
 (
 const
@@ -1460,13 +1460,13 @@ const
 gfxFontStyle
 &
 aFontStyle
-PRBool
+bool
 &
 aFoundFamily
-PRBool
+bool
 &
 aNeedsBold
-PRBool
+bool
 &
 aWaitForUserFont
 )
@@ -1578,7 +1578,7 @@ NS_Free
 (
 )
 .
-PRBool
+bool
 OnLoadComplete
 (
 gfxProxyFontEntry
@@ -1864,7 +1864,7 @@ const
 gfxFontStyle
 *
 aFontStyle
-PRBool
+bool
 aNeedsBold
 )
 ;

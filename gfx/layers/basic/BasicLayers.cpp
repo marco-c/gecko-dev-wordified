@@ -1118,7 +1118,7 @@ transaction
 void
 SetHidden
 (
-PRBool
+bool
 aCovered
 )
 {
@@ -1127,14 +1127,14 @@ mHidden
 aCovered
 ;
 }
-PRBool
+bool
 IsHidden
 (
 )
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1231,7 +1231,7 @@ return
 mOperator
 ;
 }
-PRBool
+bool
 GetClipToVisibleRegion
 (
 )
@@ -1243,7 +1243,7 @@ mClipToVisibleRegion
 void
 SetClipToVisibleRegion
 (
-PRBool
+bool
 aClip
 )
 {
@@ -1254,10 +1254,10 @@ aClip
 }
 protected
 :
-PRPackedBool
+bool
 mHidden
 ;
-PRPackedBool
+bool
 mClipToVisibleRegion
 ;
 gfxContext
@@ -1938,7 +1938,7 @@ circumstances
 .
 *
 /
-PRBool
+bool
 ChildrenPartitionVisibleRegion
 (
 const
@@ -2004,7 +2004,7 @@ BasicContainerLayer
 )
 ;
 }
-PRBool
+bool
 BasicContainerLayer
 :
 :
@@ -3455,7 +3455,7 @@ const
 nsIntRegion
 &
 aRegionToInvalidate
-PRBool
+bool
 aDidSelfCopy
 LayerManager
 :
@@ -3619,7 +3619,7 @@ aRect
 *
 /
 static
-PRBool
+bool
 ClipToContain
 (
 gfxContext
@@ -3947,7 +3947,7 @@ const
 nsIntRegion
 &
 aRegion
-PRBool
+bool
 *
 aNeedsClipToVisibleRegion
 )
@@ -3980,7 +3980,7 @@ the
 temporary
 surface
 .
-PRBool
+bool
 didCompleteClip
 =
 ClipToContain
@@ -4241,7 +4241,7 @@ readbackUpdates
 )
 ;
 }
-PRBool
+bool
 canUseOpaqueSurface
 =
 CanUseOpaqueSurface
@@ -4390,14 +4390,14 @@ Save
 (
 )
 ;
-PRBool
+bool
 needsClipToVisibleRegion
 =
 GetClipToVisibleRegion
 (
 )
 ;
-PRBool
+bool
 needsGroup
 =
 opacity
@@ -4948,7 +4948,7 @@ offset
 }
 }
 static
-PRBool
+bool
 IsClippingCheap
 (
 gfxContext
@@ -6521,10 +6521,10 @@ mDrawTarget
 PRUint32
 mCanvasFramebuffer
 ;
-PRPackedBool
+bool
 mGLBufferIsPremultiplied
 ;
-PRPackedBool
+bool
 mNeedsYFlip
 ;
 }
@@ -9087,10 +9087,10 @@ GetLastChild
 (
 )
 ;
-PRBool
+bool
 allHidden
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -10682,7 +10682,7 @@ aTransform
 gfxPoint
 &
 aDrawOffset
-PRBool
+bool
 aDontBlit
 )
 {
@@ -10895,7 +10895,7 @@ nsnull
 gfxPoint
 offset
 ;
-PRBool
+bool
 blitComplete
 ;
 if
@@ -11131,7 +11131,7 @@ BasicContainerLayer
 aLayer
 )
 ;
-PRBool
+bool
 needsGroup
 =
 aLayer
@@ -11158,7 +11158,7 @@ ToData
 aLayer
 )
 ;
-PRBool
+bool
 needsClipToVisibleRegion
 =
 data
@@ -11231,7 +11231,7 @@ restore
 /
 the
 CTM
-PRBool
+bool
 needsSaveRestore
 =
 needsGroup
@@ -11336,7 +11336,7 @@ handled
 separately
 below
 .
-PRBool
+bool
 is2D
 =
 effectiveTransform
@@ -11487,10 +11487,10 @@ needsClipToVisibleRegion
 PR_FALSE
 ;
 }
-PRBool
+bool
 pushedTargetOpaqueRect
 =
-PR_FALSE
+false
 ;
 nsRefPtr
 <
@@ -11847,10 +11847,10 @@ if
 needsGroup
 )
 {
-PRBool
+bool
 blitComplete
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -11911,7 +11911,7 @@ GetBounds
 gfxPoint
 offset
 ;
-PRBool
+bool
 dontBlit
 =
 needsClipToVisibleRegion
@@ -13395,7 +13395,7 @@ const
 nsIntRegion
 &
 aRegionToInvalidate
-PRBool
+bool
 aDidSelfCopy
 LayerManager
 :
@@ -13464,7 +13464,7 @@ descriptor
 SurfaceDescriptor
 mBackBuffer
 ;
-PRPackedBool
+bool
 mIsNewBuffer
 ;
 }
@@ -13807,7 +13807,7 @@ const
 nsIntRegion
 &
 aRegionToInvalidate
-PRBool
+bool
 aDidSelfCopy
 LayerManager
 :
@@ -17590,7 +17590,7 @@ mManager
 SurfaceDescriptor
 mFrontSurface
 ;
-PRPackedBool
+bool
 mNeedsYFlip
 ;
 }
@@ -19605,7 +19605,7 @@ return
 shadowable
 ;
 }
-PRBool
+bool
 BasicShadowLayerManager
 :
 :

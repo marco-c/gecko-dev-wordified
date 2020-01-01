@@ -1494,7 +1494,7 @@ FTPChannelChild
 :
 IsPending
 (
-PRBool
+bool
 *
 result
 )
@@ -1514,7 +1514,7 @@ FTPChannelChild
 :
 OpenContentStream
 (
-PRBool
+bool
 async
 nsIInputStream
 *

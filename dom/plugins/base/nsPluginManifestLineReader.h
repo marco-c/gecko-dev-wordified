@@ -551,7 +551,7 @@ return
 mBase
 ;
 }
-PRBool
+bool
 NextLine
 (
 )
@@ -820,7 +820,7 @@ return
 mLength
 ;
 }
-PRBool
+bool
 IsEOL
 (
 char

@@ -489,7 +489,7 @@ txXPathNode
 {
 public
 :
-PRBool
+bool
 operator
 =
 =
@@ -501,7 +501,7 @@ aNode
 )
 const
 ;
-PRBool
+bool
 operator
 !
 =
@@ -699,7 +699,7 @@ Root
 nsnull
 ;
 }
-PRBool
+bool
 isDocument
 (
 )
@@ -712,7 +712,7 @@ mIndex
 eDocument
 ;
 }
-PRBool
+bool
 isContent
 (
 )
@@ -725,7 +725,7 @@ mIndex
 eContent
 ;
 }
-PRBool
+bool
 isAttribute
 (
 )
@@ -948,7 +948,7 @@ aResult
 ;
 }
 inline
-PRBool
+bool
 txXPathNode
 :
 :

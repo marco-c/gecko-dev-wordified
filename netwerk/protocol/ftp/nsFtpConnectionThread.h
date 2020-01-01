@@ -1417,7 +1417,7 @@ occurs
 .
 *
 /
-PRBool
+bool
 CheckCache
 (
 )
@@ -1456,7 +1456,7 @@ null
 .
 *
 /
-PRBool
+bool
 CanReadCacheEntry
 (
 )
@@ -1521,7 +1521,7 @@ access
 .
 *
 /
-PRBool
+bool
 ReadCacheEntry
 (
 )
@@ -1712,7 +1712,7 @@ mNextState
 the
 next
 state
-PRPackedBool
+bool
 mKeepRunning
 ;
 /
@@ -1770,10 +1770,10 @@ connection
 owns
 mCPipe
 )
-PRPackedBool
+bool
 mReceivedControlData
 ;
-PRPackedBool
+bool
 mTryingCachedControl
 ;
 /
@@ -1781,7 +1781,7 @@ mTryingCachedControl
 retrying
 the
 password
-PRPackedBool
+bool
 mRETRFailed
 ;
 /
@@ -1898,7 +1898,7 @@ GET
 /
 PUT
 )
-PRPackedBool
+bool
 mAnonymous
 ;
 /
@@ -1909,7 +1909,7 @@ anonymous
 (
 default
 )
-PRPackedBool
+bool
 mRetryPass
 ;
 /
@@ -1917,7 +1917,7 @@ mRetryPass
 retrying
 the
 password
-PRPackedBool
+bool
 mStorReplyReceived
 ;
 /
@@ -1942,7 +1942,7 @@ represents
 internal
 state
 errors
-PRPackedBool
+bool
 mReconnectAndLoginAgain
 ;
 /
@@ -2021,10 +2021,10 @@ nsIRequest
 >
 mUploadRequest
 ;
-PRPackedBool
+bool
 mAddressChecked
 ;
-PRPackedBool
+bool
 mServerIsIPv6
 ;
 static
@@ -2056,7 +2056,7 @@ nsICacheEntryDescriptor
 >
 mCacheEntry
 ;
-PRPackedBool
+bool
 mDoomCache
 ;
 nsCString

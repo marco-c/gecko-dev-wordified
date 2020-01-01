@@ -2444,10 +2444,10 @@ the
 optional
 dirty
 rect
-PRBool
+bool
 hasDirtyRect
 =
-PR_FALSE
+false
 ;
 int32
 dirtyX

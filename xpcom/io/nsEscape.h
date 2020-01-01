@@ -1161,7 +1161,7 @@ otherwise
 .
 *
 /
-PRBool
+bool
 NS_EscapeURL
 (
 const
@@ -1246,7 +1246,7 @@ otherwise
 .
 *
 /
-PRBool
+bool
 NS_UnescapeURL
 (
 const
@@ -1414,7 +1414,7 @@ NS_UnescapeURL
 *
 /
 inline
-PRBool
+bool
 NS_Escape
 (
 const

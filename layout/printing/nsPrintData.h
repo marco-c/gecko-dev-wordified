@@ -846,7 +846,7 @@ PRInt32
 aProgess
 PRInt32
 aMaxProgress
-PRBool
+bool
 aDoStartStop
 PRInt32
 aFlag
@@ -933,16 +933,16 @@ nsPrintObject
 >
 mPrintDocList
 ;
-PRPackedBool
+bool
 mIsIFrameSelected
 ;
-PRPackedBool
+bool
 mIsParentAFrameSet
 ;
-PRPackedBool
+bool
 mOnStartSent
 ;
-PRPackedBool
+bool
 mIsAborted
 ;
 /
@@ -954,7 +954,7 @@ document
 is
 being
 aborted
-PRPackedBool
+bool
 mPreparingForPrint
 ;
 /
@@ -962,7 +962,7 @@ mPreparingForPrint
 see
 comments
 above
-PRPackedBool
+bool
 mDocWasToBeDestroyed
 ;
 /
@@ -970,7 +970,7 @@ mDocWasToBeDestroyed
 see
 comments
 above
-PRBool
+bool
 mShrinkToFit
 ;
 PRInt16

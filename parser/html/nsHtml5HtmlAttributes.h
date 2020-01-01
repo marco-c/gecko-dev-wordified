@@ -535,7 +535,7 @@ clearWithoutReleasingContents
 (
 )
 ;
-PRBool
+bool
 contains
 (
 nsHtml5AttributeName
@@ -562,7 +562,7 @@ nsHtml5AtomTable
 interner
 )
 ;
-PRBool
+bool
 equalsAnother
 (
 nsHtml5HtmlAttributes

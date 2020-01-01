@@ -713,7 +713,7 @@ virtual
 void
 Uninit
 (
-PRBool
+bool
 aIsFinal
 )
 ;
@@ -933,7 +933,7 @@ ComputeContainmentProperties
 )
 ;
 static
-PRBool
+bool
 IsTemplateElement
 (
 nsIContent
@@ -1002,7 +1002,7 @@ if
 doc
 )
 {
-PRBool
+bool
 shouldDelay
 ;
 LoadDataSources
@@ -1251,12 +1251,12 @@ aTemplate
 nsTemplateQuerySet
 *
 aQuerySet
-PRBool
+bool
 aIsQuerySet
 PRInt32
 *
 aPriority
-PRBool
+bool
 *
 aCanUseTemplate
 )
@@ -1491,7 +1491,7 @@ aRuleElement
 nsTemplateQuerySet
 *
 aQuerySet
-PRBool
+bool
 *
 aCanUseTemplate
 )
@@ -1815,7 +1815,7 @@ LoadDataSources
 nsIDocument
 *
 aDoc
-PRBool
+bool
 *
 shouldDelayBuilding
 )
@@ -1891,9 +1891,9 @@ const
 nsAString
 &
 aDataSources
-PRBool
+bool
 aIsRDFQuery
-PRBool
+bool
 *
 aShouldDelayBuilding
 )
@@ -2172,7 +2172,7 @@ IsSystemPrincipal
 nsIPrincipal
 *
 principal
-PRBool
+bool
 *
 result
 )
@@ -2348,7 +2348,7 @@ been
 compiled
 *
 /
-PRBool
+bool
 mQueriesCompiled
 ;
 /
@@ -2703,7 +2703,7 @@ stack
 .
 *
 /
-PRBool
+bool
 IsActivated
 (
 nsIRDFResource
@@ -2802,7 +2802,7 @@ null
 *
 /
 virtual
-PRBool
+bool
 GetInsertionLocations
 (
 nsIXULTemplateResult
@@ -3010,7 +3010,7 @@ aId
 nsTemplateMatch
 *
 aMatch
-PRBool
+bool
 aIsNew
 )
 ;

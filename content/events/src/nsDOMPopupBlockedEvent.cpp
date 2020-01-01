@@ -507,9 +507,9 @@ const
 nsAString
 &
 aTypeArg
-PRBool
+bool
 aCanBubbleArg
-PRBool
+bool
 aCancelableArg
 nsIDOMWindow
 *

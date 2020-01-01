@@ -579,7 +579,7 @@ PR_FALSE
 {
 }
 inline
-PRBool
+bool
 Equals
 (
 const
@@ -645,7 +645,7 @@ mAttributeName
 PRInt32
 mAttributeNamespaceID
 ;
-PRPackedBool
+bool
 mIsCSS
 ;
 }
@@ -812,7 +812,7 @@ non
 weak
 identifier
 inline
-PRBool
+bool
 Equals
 (
 const
@@ -861,7 +861,7 @@ nsIAtom
 *
 mAttributeName
 ;
-PRPackedBool
+bool
 mIsCSS
 ;
 }

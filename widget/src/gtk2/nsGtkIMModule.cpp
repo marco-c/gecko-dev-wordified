@@ -718,10 +718,10 @@ nsnull
 ifdef
 MOZ_PLATFORM_MAEMO
 static
-PRBool
+bool
 gIsVirtualKeyboardOpened
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -2154,7 +2154,7 @@ Blur
 )
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -2166,12 +2166,12 @@ aCaller
 GdkEventKey
 *
 aEvent
-PRBool
+bool
 aKeyDownEventWasSent
 /
 *
 =
-PR_FALSE
+false
 *
 /
 )
@@ -2469,7 +2469,7 @@ of
 composed
 characters
 .
-PRBool
+bool
 filterThisEvent
 =
 isFiltered
@@ -2719,7 +2719,7 @@ nsGtkIMModule
 :
 OnFocusChangeInGecko
 (
-PRBool
+bool
 aFocus
 )
 {
@@ -3557,7 +3557,7 @@ nsIWidget
 IME_STATUS_PLUGIN
 )
 {
-PRBool
+bool
 useStrictPolicy
 =
 Preferences
@@ -3572,7 +3572,7 @@ ime
 .
 strict_policy
 "
-PR_FALSE
+false
 )
 ;
 if
@@ -3991,7 +3991,7 @@ NS_OK
 static
 *
 /
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -4062,7 +4062,7 @@ return
 mDummyContext
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -4112,7 +4112,7 @@ nsIWidget
 IME_STATUS_PLUGIN
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -4661,7 +4661,7 @@ GetContext
 return
 ;
 }
-PRBool
+bool
 shouldIgnoreThisEvent
 =
 ShouldIgnoreNativeCompositionEvent
@@ -5735,7 +5735,7 @@ can
 be
 gone
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -5948,7 +5948,7 @@ preedit_string
 )
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -6161,7 +6161,7 @@ kungFuDeathGrip
 =
 mLastFocusedWindow
 ;
-PRBool
+bool
 isCancelled
 ;
 mLastFocusedWindow
@@ -6376,7 +6376,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -6592,7 +6592,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -6602,7 +6602,7 @@ const
 nsAString
 &
 aCompositionString
-PRBool
+bool
 aCheckAttr
 )
 {
@@ -8651,7 +8651,7 @@ PR_Now
 1000
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :

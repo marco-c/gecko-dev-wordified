@@ -846,7 +846,7 @@ CheckContainer
 nsIRDFResource
 *
 aTargetResource
-PRBool
+bool
 *
 aIsContainer
 )
@@ -871,7 +871,7 @@ CheckEmpty
 nsIRDFResource
 *
 aTargetResource
-PRBool
+bool
 *
 aIsEmpty
 )
@@ -895,7 +895,7 @@ CheckIsSeparator
 nsIRDFResource
 *
 aResource
-PRBool
+bool
 *
 aIsSeparator
 )
@@ -1855,7 +1855,7 @@ processor
 has
 been
 initialized
-PRBool
+bool
 mQueryProcessorRDFInited
 ;
 /
@@ -1899,7 +1899,7 @@ be
 the
 wrong
 size
-PRBool
+bool
 mGenerationStarted
 ;
 /

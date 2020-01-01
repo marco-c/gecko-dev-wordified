@@ -702,7 +702,7 @@ PRInt32
 numRequests
 )
 ;
-PRBool
+bool
 UseExistingPluginCacheFile
 (
 nsPluginStreamListenerPeer
@@ -877,7 +877,7 @@ response
 of
 404
 )
-PRPackedBool
+bool
 mRequestFailed
 ;
 /
@@ -927,10 +927,10 @@ called
 .
 *
 /
-PRPackedBool
+bool
 mStartBinding
 ;
-PRPackedBool
+bool
 mHaveFiredOnStartRequest
 ;
 /
@@ -1004,7 +1004,7 @@ mDataForwardToRequest
 nsCString
 mContentType
 ;
-PRBool
+bool
 mSeekable
 ;
 PRUint32
@@ -1019,12 +1019,12 @@ mPluginInstance
 PRInt32
 mStreamOffset
 ;
-PRBool
+bool
 mStreamComplete
 ;
 public
 :
-PRBool
+bool
 mAbort
 ;
 PRInt32

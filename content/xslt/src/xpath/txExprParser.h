@@ -756,7 +756,7 @@ aResult
 )
 ;
 static
-PRBool
+bool
 isLocationStepToken
 (
 Token
@@ -820,7 +820,7 @@ aLocalName
 PRInt32
 &
 aNamespace
-PRBool
+bool
 aIsNameTest
 =
 MB_FALSE

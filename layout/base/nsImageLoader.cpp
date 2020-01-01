@@ -1043,7 +1043,7 @@ OnStopRequest
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aLastPart
 )
 {

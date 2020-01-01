@@ -531,7 +531,7 @@ more
 segments
 remain
 :
-PRBool
+bool
 DeleteFirstSegment
 (
 )
@@ -551,7 +551,7 @@ more
 segments
 remain
 :
-PRBool
+bool
 DeleteLastSegment
 (
 )
@@ -591,7 +591,7 @@ of
 segment
 size
 .
-PRBool
+bool
 ReallocLastSegment
 (
 size_t
@@ -759,7 +759,7 @@ result
 ;
 }
 inline
-PRBool
+bool
 IsFull
 (
 )

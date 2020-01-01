@@ -867,10 +867,10 @@ pathdup
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 char
 *

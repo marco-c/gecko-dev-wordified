@@ -647,7 +647,7 @@ aSpec
 )
 ;
 virtual
-PRBool
+bool
 IsInside
 (
 nscoord
@@ -690,7 +690,7 @@ aRect
 void
 HasFocus
 (
-PRBool
+bool
 aHasFocus
 )
 ;
@@ -707,7 +707,7 @@ mCoords
 PRInt32
 mNumCoords
 ;
-PRPackedBool
+bool
 mHasFocus
 ;
 }
@@ -784,7 +784,7 @@ stdlib
 h
 >
 inline
-PRBool
+bool
 is_space
 (
 char
@@ -1132,7 +1132,7 @@ n_str
 '
 )
 {
-PRBool
+bool
 has_comma
 ;
 /
@@ -1619,7 +1619,7 @@ Area
 :
 HasFocus
 (
-PRBool
+bool
 aHasFocus
 )
 {
@@ -1716,7 +1716,7 @@ aArea
 )
 ;
 virtual
-PRBool
+bool
 IsInside
 (
 nscoord
@@ -1768,7 +1768,7 @@ aArea
 )
 {
 }
-PRBool
+bool
 DefaultArea
 :
 :
@@ -2062,7 +2062,7 @@ aSpec
 )
 ;
 virtual
-PRBool
+bool
 IsInside
 (
 nscoord
@@ -2134,10 +2134,10 @@ ParseCoords
 aSpec
 )
 ;
-PRBool
+bool
 saneRect
 =
-PR_TRUE
+true
 ;
 PRInt32
 flag
@@ -2312,7 +2312,7 @@ ImageMapRectBoundsError
 ;
 }
 }
-PRBool
+bool
 RectArea
 :
 :
@@ -2800,7 +2800,7 @@ aSpec
 )
 ;
 virtual
-PRBool
+bool
 IsInside
 (
 nscoord
@@ -2919,7 +2919,7 @@ ImageMapPolyWrongNumberOfCoords
 ;
 }
 }
-PRBool
+bool
 PolyArea
 :
 :
@@ -3880,7 +3880,7 @@ aSpec
 )
 ;
 virtual
-PRBool
+bool
 IsInside
 (
 nscoord
@@ -3952,10 +3952,10 @@ ParseCoords
 aSpec
 )
 ;
-PRBool
+bool
 wrongNumberOfCoords
 =
-PR_FALSE
+false
 ;
 PRInt32
 flag
@@ -4041,7 +4041,7 @@ ImageMapCircleWrongNumberOfCoords
 ;
 }
 }
-PRBool
+bool
 CircleArea
 :
 :
@@ -4808,10 +4808,10 @@ SearchForAreas
 nsIContent
 *
 aParent
-PRBool
+bool
 &
 aFoundArea
-PRBool
+bool
 &
 aFoundAnchor
 )
@@ -5127,15 +5127,15 @@ FreeAreas
 (
 )
 ;
-PRBool
+bool
 foundArea
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 foundAnchor
 =
-PR_FALSE
+false
 ;
 mContainsBlockContents
 =
@@ -5474,7 +5474,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsImageMap
 :
 :
@@ -5940,7 +5940,7 @@ GetType
 eventType
 )
 ;
-PRBool
+bool
 focus
 =
 eventType

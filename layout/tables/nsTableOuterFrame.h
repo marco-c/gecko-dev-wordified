@@ -513,7 +513,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 ;
@@ -709,7 +709,7 @@ aDestructRoot
 )
 ;
 virtual
-PRBool
+bool
 IsContainingBlock
 (
 )
@@ -886,7 +886,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 ;
@@ -999,7 +999,7 @@ tableframe
 void
 SetSelected
 (
-PRBool
+bool
 aSelected
 SelectionType
 aType
@@ -1101,7 +1101,7 @@ aActualRowSpan
 PRInt32
 &
 aActualColSpan
-PRBool
+bool
 &
 aIsSelected
 )
@@ -1235,7 +1235,7 @@ NS_STYLE_CAPTION_SIDE_
 *
 or
 NO_SIDE
-PRBool
+bool
 HasSideCaption
 (
 )

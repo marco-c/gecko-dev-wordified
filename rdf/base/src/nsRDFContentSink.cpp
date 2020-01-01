@@ -1225,7 +1225,7 @@ nsIRDFDataSource
 *
 nsIRDFResource
 *
-PRBool
+bool
 *
 )
 )
@@ -1292,7 +1292,7 @@ aDTDMode
 NS_IMETHOD
 DidBuildModel
 (
-PRBool
+bool
 aTerminated
 )
 ;
@@ -1586,7 +1586,7 @@ nsIRDFResource
 *
 *
 aResource
-PRBool
+bool
 *
 aIsAnonymous
 =
@@ -3412,7 +3412,7 @@ aSourceText
 nsIScriptError
 *
 aError
-PRBool
+bool
 *
 _retval
 )
@@ -3591,7 +3591,7 @@ RDFContentSinkImpl
 :
 DidBuildModel
 (
-PRBool
+bool
 aTerminated
 )
 {
@@ -4001,7 +4001,7 @@ NS_OK
 Text
 buffering
 static
-PRBool
+bool
 rdf_IsDataInBuffer
 (
 PRUnichar
@@ -4742,7 +4742,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 rdf_RequiresAbsoluteURI
 (
 const
@@ -4810,7 +4810,7 @@ nsIRDFResource
 *
 *
 aResource
-PRBool
+bool
 *
 aIsAnonymous
 )
@@ -6709,10 +6709,10 @@ or
 a
 container
 .
-PRBool
+bool
 isaTypedNode
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7125,10 +7125,10 @@ target
 )
 )
 ;
-PRBool
+bool
 isAnonymous
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -8669,7 +8669,7 @@ aContainerType
 )
 continue
 ;
-PRBool
+bool
 isContainer
 ;
 rv

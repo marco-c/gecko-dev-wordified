@@ -574,7 +574,7 @@ nsIPrefBranch
 >
 mPrefBranch
 ;
-PRBool
+bool
 mLoaded
 ;
 nsCOMPtr

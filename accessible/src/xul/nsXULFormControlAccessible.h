@@ -657,7 +657,7 @@ CacheChildren
 /
 /
 nsXULButtonAccessible
-PRBool
+bool
 ContainsMenu
 (
 )
@@ -830,10 +830,10 @@ ActionCount
 ;
 private
 :
-PRBool
+bool
 DropmarkerOpen
 (
-PRBool
+bool
 aToggleOpen
 )
 ;
@@ -1126,7 +1126,7 @@ aSetSize
 /
 nsXULToolbarButtonAccessible
 static
-PRBool
+bool
 IsSeparator
 (
 nsAccessible
@@ -1336,7 +1336,7 @@ NativeState
 )
 ;
 virtual
-PRBool
+bool
 GetAllowsAnonChildAccessibles
 (
 )

@@ -2203,7 +2203,7 @@ if
 imgCon
 )
 {
-PRBool
+bool
 hasSubRect
 =
 !
@@ -2481,7 +2481,7 @@ newURI
 )
 )
 ;
-PRBool
+bool
 equal
 ;
 if
@@ -2714,7 +2714,7 @@ TopBottom
 (
 )
 ;
-PRBool
+bool
 widthSet
 heightSet
 ;
@@ -3173,7 +3173,7 @@ AddBorderAndPadding
 size
 )
 ;
-PRBool
+bool
 widthSet
 heightSet
 ;

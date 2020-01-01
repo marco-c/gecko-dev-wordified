@@ -1101,7 +1101,7 @@ nsWyciwygChannel
 :
 IsPending
 (
-PRBool
+bool
 *
 aIsPending
 )
@@ -4571,7 +4571,7 @@ mStatus
 ;
 }
 }
-PRBool
+bool
 nsWyciwygChannel
 :
 :
@@ -4579,7 +4579,7 @@ IsOnCacheIOThread
 (
 )
 {
-PRBool
+bool
 correctThread
 ;
 mCacheIOTarget

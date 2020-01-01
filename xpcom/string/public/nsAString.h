@@ -719,7 +719,7 @@ A
 class
 B
 >
-PRBool
+bool
 Equals
 (
 const

@@ -2113,7 +2113,7 @@ PRInt32
 aMaxSearchBlockIndex
 )
 ;
-PRBool
+bool
 BlockIsReusable
 (
 PRInt32
@@ -2475,7 +2475,7 @@ the
 block
 is
 free
-PRBool
+bool
 IsBlockFree
 (
 PRInt32
@@ -2896,13 +2896,13 @@ queued
 but
 not
 processed
-PRPackedBool
+bool
 mUpdateQueued
 ;
 #
 ifdef
 DEBUG
-PRPackedBool
+bool
 mInUpdate
 ;
 #
@@ -5269,7 +5269,7 @@ return
 blockIndex
 ;
 }
-PRBool
+bool
 nsMediaCache
 :
 :
@@ -8762,7 +8762,7 @@ is
 simple
 enough
 .
-PRBool
+bool
 enableReading
 ;
 if
@@ -12411,7 +12411,7 @@ do
 return
 ;
 }
-PRBool
+bool
 equal
 ;
 nsresult
@@ -13186,7 +13186,7 @@ nsMediaCacheStream
 :
 SetSeekable
 (
-PRBool
+bool
 aIsSeekable
 )
 {
@@ -13258,7 +13258,7 @@ QueueUpdate
 )
 ;
 }
-PRBool
+bool
 nsMediaCacheStream
 :
 :
@@ -13641,7 +13641,7 @@ aOffset
 )
 ;
 }
-PRBool
+bool
 nsMediaCacheStream
 :
 :
@@ -13974,7 +13974,7 @@ number
 of
 uncached
 blocks
-PRBool
+bool
 hasPartialBlock
 =
 (

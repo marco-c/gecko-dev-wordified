@@ -715,7 +715,7 @@ mHaveRelevantLink
 PR_TRUE
 ;
 }
-PRBool
+bool
 HaveRelevantLink
 (
 )
@@ -779,7 +779,7 @@ happen
 .
 )
 const
-PRBool
+bool
 mForStyling
 ;
 private
@@ -849,7 +849,7 @@ might
 not
 )
 .
-PRBool
+bool
 mHaveRelevantLink
 ;
 /
@@ -960,7 +960,7 @@ for
 XBL2
 ?
 const
-PRPackedBool
+bool
 mIsHTMLDocument
 ;
 /
@@ -1024,7 +1024,7 @@ for
 styling
 TreeMatchContext
 (
-PRBool
+bool
 aForStyling
 nsRuleWalker
 :
@@ -1721,7 +1721,7 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-PRBool
+bool
 aAttrHasChanged
 TreeMatchContext
 &
@@ -1799,7 +1799,7 @@ see
 nsIDOMMutationEvent
 )
 .
-PRBool
+bool
 mAttrHasChanged
 ;
 /

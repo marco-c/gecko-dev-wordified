@@ -2606,7 +2606,7 @@ proxies
 void
 SetSeekable
 (
-PRBool
+bool
 aIsSeekable
 )
 ;
@@ -2649,7 +2649,7 @@ stream
 has
 been
 closed
-PRBool
+bool
 IsClosed
 (
 )
@@ -3496,7 +3496,7 @@ this
 returns
 false
 .
-PRBool
+bool
 IsDataCachedToEndOfStream
 (
 PRInt64
@@ -3587,7 +3587,7 @@ value
 of
 SetSeekable
 .
-PRBool
+bool
 IsSeekable
 (
 )
@@ -4006,7 +4006,7 @@ aBlock
 )
 const
 ;
-PRBool
+bool
 IsEmpty
 (
 )
@@ -4444,7 +4444,7 @@ InitAsClone
 has
 been
 called
-PRPackedBool
+bool
 mInitialized
 ;
 /
@@ -4482,7 +4482,7 @@ for
 the
 underlying
 channel
-PRPackedBool
+bool
 mIsSeekable
 ;
 /
@@ -4526,7 +4526,7 @@ already
 in
 the
 cache
-PRPackedBool
+bool
 mCacheSuspended
 ;
 /
@@ -4547,7 +4547,7 @@ from
 /
 multiple
 origins
-PRPackedBool
+bool
 mUsingNullPrincipal
 ;
 /
@@ -4802,7 +4802,7 @@ been
 read
 as
 metadata
-PRPackedBool
+bool
 mMetadataInPartialBlockBuffer
 ;
 /
@@ -4827,7 +4827,7 @@ an
 internal
 cache
 error
-PRPackedBool
+bool
 mClosed
 ;
 /

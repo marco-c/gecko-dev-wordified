@@ -779,7 +779,7 @@ vp
 /
 /
 static
-PRBool
+bool
 AttachNewConstructorObject
 (
 XPCCallContext

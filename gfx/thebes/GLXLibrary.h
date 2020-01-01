@@ -760,7 +760,7 @@ xWaitX
 (
 )
 ;
-PRBool
+bool
 EnsureInitialized
 (
 )
@@ -794,7 +794,7 @@ GLXPixmap
 aPixmap
 )
 ;
-PRBool
+bool
 HasTextureFromPixmap
 (
 )
@@ -803,7 +803,7 @@ return
 mHasTextureFromPixmap
 ;
 }
-PRBool
+bool
 SupportsTextureFromPixmap
 (
 gfxASurface
@@ -1212,16 +1212,16 @@ AfterGLXCall
 ;
 #
 endif
-PRBool
+bool
 mInitialized
 ;
-PRBool
+bool
 mTriedInitializing
 ;
-PRBool
+bool
 mHasTextureFromPixmap
 ;
-PRBool
+bool
 mDebug
 ;
 PRLibrary

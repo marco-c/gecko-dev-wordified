@@ -766,7 +766,7 @@ calls
 /
 SetMainThread
 .
-PRBool
+bool
 SetMainThread
 (
 void
@@ -778,10 +778,10 @@ JNIEnv
 *
 AttachThread
 (
-PRBool
+bool
 asDaemon
 =
-PR_TRUE
+true
 )
 ;
 /
@@ -904,7 +904,7 @@ return
 mSurfaceView
 ;
 }
-PRBool
+bool
 GetHandlersForURL
 (
 const
@@ -932,7 +932,7 @@ EmptyString
 )
 )
 ;
-PRBool
+bool
 GetHandlersForMimeType
 (
 const
@@ -960,7 +960,7 @@ EmptyString
 )
 )
 ;
-PRBool
+bool
 OpenUriExternal
 (
 const
@@ -1134,14 +1134,14 @@ aFilters
 void
 PerformHapticFeedback
 (
-PRBool
+bool
 aIsLongPress
 )
 ;
 void
 SetFullScreen
 (
-PRBool
+bool
 aFullScreen
 )
 ;
@@ -1607,10 +1607,10 @@ PostToJavaThread
 nsIRunnable
 *
 aRunnable
-PRBool
+bool
 aMainThread
 =
-PR_FALSE
+false
 )
 ;
 void
@@ -1792,7 +1792,7 @@ AndroidBridge
 )
 {
 }
-PRBool
+bool
 Init
 (
 JNIEnv
@@ -2120,7 +2120,7 @@ GetJNIForThread
 )
 ;
 extern
-PRBool
+bool
 mozilla_AndroidBridge_SetMainThread
 (
 void

@@ -438,7 +438,7 @@ PLDHashTable
 gHashTable
 ;
 extern
-PRBool
+bool
 gDirty
 ;
 struct
@@ -513,10 +513,10 @@ const
 PrefTuple
 &
 aPref
-PRBool
+bool
 set_default
 =
-PR_FALSE
+false
 )
 ;
 int

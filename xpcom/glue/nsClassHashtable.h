@@ -585,7 +585,7 @@ nsnull
 .
 *
 /
-PRBool
+bool
 Get
 (
 KeyType
@@ -862,7 +862,7 @@ nsnull
 .
 *
 /
-PRBool
+bool
 Get
 (
 KeyType
@@ -890,7 +890,7 @@ KeyClass
 class
 T
 >
-PRBool
+bool
 nsClassHashtable
 <
 KeyClass
@@ -1116,7 +1116,7 @@ KeyClass
 class
 T
 >
-PRBool
+bool
 nsClassHashtableMT
 <
 KeyClass

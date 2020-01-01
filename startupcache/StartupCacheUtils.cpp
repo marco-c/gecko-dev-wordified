@@ -611,7 +611,7 @@ nsIStorageStream
 *
 *
 stream
-PRBool
+bool
 wantDebugStream
 )
 {
@@ -944,7 +944,7 @@ app
 ;
 static
 inline
-PRBool
+bool
 canonicalizeBase
 (
 nsCAutoString
@@ -1378,7 +1378,7 @@ nsACString
 out
 )
 {
-PRBool
+bool
 equals
 ;
 nsresult

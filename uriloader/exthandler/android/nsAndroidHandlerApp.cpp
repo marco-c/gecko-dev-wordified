@@ -610,7 +610,7 @@ Equals
 nsIHandlerApp
 *
 aHandlerApp
-PRBool
+bool
 *
 aRetval
 )

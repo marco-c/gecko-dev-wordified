@@ -867,7 +867,7 @@ nsProperties
 cpp
 "
 >
-PRBool
+bool
 mozSanitizingHTMLSerializer
 :
 :
@@ -931,9 +931,9 @@ const
 char
 *
 aCharSet
-PRBool
+bool
 aIsCopying
-PRBool
+bool
 aIsWholeDocument
 )
 {
@@ -1154,7 +1154,7 @@ IsEnabled
 (
 PRInt32
 aTag
-PRBool
+bool
 *
 aReturn
 )
@@ -1182,7 +1182,7 @@ a
 container
 *
 /
-PRBool
+bool
 mozSanitizingHTMLSerializer
 :
 :
@@ -1192,10 +1192,10 @@ PRInt32
 aId
 )
 {
-PRBool
+bool
 isContainer
 =
-PR_FALSE
+false
 ;
 nsIParserService
 *
@@ -1435,7 +1435,7 @@ GetIdForContent
 mElement
 )
 ;
-PRBool
+bool
 isContainer
 =
 IsContainer
@@ -1520,7 +1520,7 @@ GetIdForContent
 mElement
 )
 ;
-PRBool
+bool
 isContainer
 =
 IsContainer
@@ -2930,7 +2930,7 @@ NS_OK
 *
 *
 /
-PRBool
+bool
 mozSanitizingHTMLSerializer
 :
 :
@@ -2996,7 +2996,7 @@ tag_key
 *
 *
 /
-PRBool
+bool
 mozSanitizingHTMLSerializer
 :
 :
@@ -3070,7 +3070,7 @@ attr_bag
 PR_FALSE
 )
 ;
-PRBool
+bool
 allowed
 ;
 nsAutoString

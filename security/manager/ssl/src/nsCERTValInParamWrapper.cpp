@@ -867,7 +867,7 @@ sufficient
 |
 CERT_REV_M_STOP_TESTING_ON_FRESH_INFO
 ;
-PRBool
+bool
 wantsCrlFirst
 =
 (

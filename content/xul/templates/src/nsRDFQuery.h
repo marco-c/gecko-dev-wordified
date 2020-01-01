@@ -891,7 +891,7 @@ return
 mMemberVariable
 ;
 }
-PRBool
+bool
 IsSimple
 (
 )
@@ -955,7 +955,7 @@ a
 default
 query
 )
-PRBool
+bool
 mSimple
 ;
 /

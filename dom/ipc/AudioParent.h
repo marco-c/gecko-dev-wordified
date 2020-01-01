@@ -605,7 +605,7 @@ Shutdown
 (
 )
 ;
-PRPackedBool
+bool
 mIPCOpen
 ;
 }

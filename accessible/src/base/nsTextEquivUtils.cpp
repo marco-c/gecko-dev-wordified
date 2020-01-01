@@ -940,7 +940,7 @@ GetPrimaryFrame
 (
 )
 ;
-PRBool
+bool
 isVisible
 =
 frame
@@ -963,10 +963,10 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 goThroughDOMSubtree
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1055,10 +1055,10 @@ eTEXT
 )
 )
 {
-PRBool
+bool
 isHTMLBlock
 =
-PR_FALSE
+false
 ;
 nsIContent
 *
@@ -1612,10 +1612,10 @@ rv
 rv
 )
 ;
-PRBool
+bool
 isEmptyTextEquiv
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2384,7 +2384,7 @@ aString
 )
 ;
 }
-PRBool
+bool
 nsTextEquivUtils
 :
 :
@@ -2460,7 +2460,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsTextEquivUtils
 :
 :
@@ -2518,7 +2518,7 @@ iterBegin
 iterEnd
 ;
 }
-PRBool
+bool
 nsTextEquivUtils
 :
 :

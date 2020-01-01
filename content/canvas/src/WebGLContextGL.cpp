@@ -577,7 +577,7 @@ namespace
 mozilla
 ;
 static
-PRBool
+bool
 BaseTypeAndSizeFromUniformType
 (
 WebGLenum
@@ -1500,7 +1500,7 @@ WebGLBuffer
 *
 buf
 ;
-PRBool
+bool
 isNull
 ;
 /
@@ -1508,7 +1508,7 @@ isNull
 allow
 null
 objects
-PRBool
+bool
 isDeleted
 ;
 /
@@ -1730,7 +1730,7 @@ fbobj
 WebGLuint
 framebuffername
 ;
-PRBool
+bool
 isNull
 ;
 /
@@ -1738,7 +1738,7 @@ isNull
 allow
 null
 objects
-PRBool
+bool
 isDeleted
 ;
 /
@@ -1875,7 +1875,7 @@ rbobj
 WebGLuint
 renderbuffername
 ;
-PRBool
+bool
 isNull
 ;
 /
@@ -1883,7 +1883,7 @@ isNull
 allow
 null
 objects
-PRBool
+bool
 isDeleted
 ;
 /
@@ -2003,7 +2003,7 @@ WebGLTexture
 *
 tex
 ;
-PRBool
+bool
 isNull
 ;
 /
@@ -2011,7 +2011,7 @@ isNull
 allow
 null
 objects
-PRBool
+bool
 isDeleted
 ;
 /
@@ -3883,10 +3883,10 @@ bits
 "
 )
 ;
-PRBool
+bool
 needClearCallHere
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3926,7 +3926,7 @@ EnsureBackbufferClearedAsNeeded
 (
 )
 ;
-PRBool
+bool
 valuesAreDefault
 =
 mColorClearValue
@@ -5024,7 +5024,7 @@ two
 )
 ;
 }
-PRBool
+bool
 texFormatRequiresAlpha
 =
 internalformat
@@ -5044,7 +5044,7 @@ internalformat
 =
 LOCAL_GL_LUMINANCE_ALPHA
 ;
-PRBool
+bool
 fboFormatHasAlpha
 =
 mBoundFramebuffer
@@ -5060,7 +5060,7 @@ HasAlpha
 (
 )
 :
-PRBool
+bool
 (
 gl
 -
@@ -5701,7 +5701,7 @@ face
 .
 mFormat
 ;
-PRBool
+bool
 texFormatRequiresAlpha
 =
 format
@@ -5721,7 +5721,7 @@ format
 =
 LOCAL_GL_LUMINANCE_ALPHA
 ;
-PRBool
+bool
 fboFormatHasAlpha
 =
 mBoundFramebuffer
@@ -5737,7 +5737,7 @@ HasAlpha
 (
 )
 :
-PRBool
+bool
 (
 gl
 -
@@ -6028,7 +6028,7 @@ WebGLBuffer
 *
 buf
 ;
-PRBool
+bool
 isNull
 isDeleted
 ;
@@ -6114,7 +6114,7 @@ WebGLFramebuffer
 *
 fbuf
 ;
-PRBool
+bool
 isNull
 isDeleted
 ;
@@ -6219,7 +6219,7 @@ WebGLRenderbuffer
 *
 rbuf
 ;
-PRBool
+bool
 isNull
 isDeleted
 ;
@@ -6426,7 +6426,7 @@ WebGLTexture
 *
 tex
 ;
-PRBool
+bool
 isNull
 isDeleted
 ;
@@ -6512,7 +6512,7 @@ WebGLProgram
 *
 prog
 ;
-PRBool
+bool
 isNull
 isDeleted
 ;
@@ -6622,7 +6622,7 @@ WebGLShader
 *
 shader
 ;
-PRBool
+bool
 isNull
 isDeleted
 ;
@@ -6714,7 +6714,7 @@ WebGLShader
 *
 shader
 ;
-PRBool
+bool
 shaderDeleted
 ;
 if
@@ -7270,7 +7270,7 @@ then
 consider
 it
 OK
-PRBool
+bool
 vertexAttrib0BufferStatusOK
 =
 mFakeVertexAttrib0BufferStatus
@@ -7783,7 +7783,7 @@ GLName
 )
 ;
 }
-PRBool
+bool
 WebGLContext
 :
 :
@@ -10580,7 +10580,7 @@ WebGLProgram
 *
 prog
 ;
-PRBool
+bool
 isNull
 ;
 if
@@ -11475,7 +11475,7 @@ wrval
 >
 SetAsBool
 (
-PRBool
+bool
 (
 b
 )
@@ -11802,25 +11802,37 @@ pname
 gl_bv
 )
 ;
-PRBool
+bool
 pr_bv
 [
 4
 ]
 =
 {
+(
+bool
+)
 gl_bv
 [
 0
 ]
+(
+bool
+)
 gl_bv
 [
 1
 ]
+(
+bool
+)
 gl_bv
 [
 2
 ]
+(
+bool
+)
 gl_bv
 [
 3
@@ -12855,7 +12867,7 @@ nsnull
 WebGLuint
 progname
 ;
-PRBool
+bool
 isDeleted
 ;
 if
@@ -13015,7 +13027,7 @@ wrval
 >
 SetAsBool
 (
-PRBool
+bool
 (
 i
 )
@@ -13351,10 +13363,10 @@ target
 "
 )
 ;
-PRBool
+bool
 pnameAndParamAreIncompatible
 =
-PR_FALSE
+false
 ;
 switch
 (
@@ -14893,7 +14905,7 @@ PR_FALSE
 }
 else
 {
-PRBool
+bool
 uv
 [
 16
@@ -15350,7 +15362,7 @@ wrval
 >
 SetAsBool
 (
-PRBool
+bool
 (
 i
 )
@@ -15525,7 +15537,7 @@ WebGLboolean
 retval
 )
 {
-PRBool
+bool
 isDeleted
 ;
 WebGLuint
@@ -15535,7 +15547,7 @@ WebGLBuffer
 *
 buffer
 ;
-PRBool
+bool
 ok
 =
 GetConcreteObjectAndGLName
@@ -15608,7 +15620,7 @@ WebGLboolean
 retval
 )
 {
-PRBool
+bool
 isDeleted
 ;
 WebGLuint
@@ -15618,7 +15630,7 @@ WebGLFramebuffer
 *
 fb
 ;
-PRBool
+bool
 ok
 =
 GetConcreteObjectAndGLName
@@ -15691,7 +15703,7 @@ WebGLboolean
 retval
 )
 {
-PRBool
+bool
 isDeleted
 ;
 WebGLProgram
@@ -15700,7 +15712,7 @@ prog
 =
 nsnull
 ;
-PRBool
+bool
 ok
 =
 GetConcreteObject
@@ -15714,7 +15726,7 @@ prog
 nsnull
 &
 isDeleted
-PR_FALSE
+false
 )
 &
 &
@@ -15744,7 +15756,7 @@ WebGLboolean
 retval
 )
 {
-PRBool
+bool
 isDeleted
 ;
 WebGLuint
@@ -15754,7 +15766,7 @@ WebGLRenderbuffer
 *
 rb
 ;
-PRBool
+bool
 ok
 =
 GetConcreteObjectAndGLName
@@ -15827,7 +15839,7 @@ WebGLboolean
 retval
 )
 {
-PRBool
+bool
 isDeleted
 ;
 WebGLShader
@@ -15836,7 +15848,7 @@ shader
 =
 nsnull
 ;
-PRBool
+bool
 ok
 =
 GetConcreteObject
@@ -15850,7 +15862,7 @@ shader
 nsnull
 &
 isDeleted
-PR_FALSE
+false
 )
 &
 &
@@ -15880,7 +15892,7 @@ WebGLboolean
 retval
 )
 {
-PRBool
+bool
 isDeleted
 ;
 WebGLuint
@@ -15890,7 +15902,7 @@ WebGLTexture
 *
 tex
 ;
-PRBool
+bool
 ok
 =
 GetConcreteObjectAndGLName
@@ -17392,7 +17404,7 @@ format
 LOCAL_GL_RGBA
 )
 {
-PRBool
+bool
 needAlphaFixup
 ;
 if
@@ -18845,7 +18857,7 @@ NS_OK
 struct
 WebGLImageConverter
 {
-PRBool
+bool
 flip
 ;
 size_t
@@ -19093,11 +19105,11 @@ PRUint8
 dst
 int
 srcFormat
-PRBool
+bool
 srcPremultiplied
 int
 dstFormat
-PRBool
+bool
 dstPremultiplied
 size_t
 dstTexelSize
@@ -20318,7 +20330,7 @@ res
 mCORSUsed
 )
 {
-PRBool
+bool
 subsumes
 ;
 nsresult
@@ -20801,7 +20813,7 @@ WebGLUniformLocation
 location_object
 ;
 \
-PRBool
+bool
 isNull
 ;
 \
@@ -22395,7 +22407,7 @@ prog
 WebGLuint
 progname
 ;
-PRBool
+bool
 isNull
 ;
 if
@@ -23563,7 +23575,7 @@ wrval
 >
 SetAsBool
 (
-PRBool
+bool
 (
 i
 )
@@ -24622,7 +24634,7 @@ not
 relevant
 int
 srcFormat
-PRBool
+bool
 srcPremultiplied
 )
 {
@@ -25812,7 +25824,7 @@ int
 jsArrayType
 int
 srcFormat
-PRBool
+bool
 srcPremultiplied
 )
 {
@@ -26885,7 +26897,7 @@ PR_TRUE
 )
 ;
 }
-PRBool
+bool
 BaseTypeAndSizeFromUniformType
 (
 WebGLenum

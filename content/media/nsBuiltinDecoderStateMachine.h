@@ -1306,10 +1306,10 @@ aDecoder
 nsBuiltinDecoderReader
 *
 aReader
-PRPackedBool
+bool
 aRealTime
 =
-PR_FALSE
+false
 )
 ;
 ~
@@ -1386,7 +1386,7 @@ aEndTime
 )
 ;
 virtual
-PRBool
+bool
 OnDecodeThread
 (
 )
@@ -1439,7 +1439,7 @@ virtual
 void
 SetSeekable
 (
-PRBool
+bool
 aSeekable
 )
 ;
@@ -1502,7 +1502,7 @@ before
 calling
 this
 .
-PRBool
+bool
 HasAudio
 (
 )
@@ -1551,7 +1551,7 @@ before
 calling
 this
 .
-PRBool
+bool
 HasVideo
 (
 )
@@ -1583,7 +1583,7 @@ by
 main
 thread
 .
-PRBool
+bool
 HaveNextFrameData
 (
 )
@@ -1600,7 +1600,7 @@ decode
 monitor
 held
 .
-PRBool
+bool
 IsBuffering
 (
 )
@@ -1638,7 +1638,7 @@ decode
 monitor
 held
 .
-PRBool
+bool
 IsSeeking
 (
 )
@@ -1685,7 +1685,7 @@ the
 appropriate
 threads
 .
-PRBool
+bool
 OnAudioThread
 (
 )
@@ -1698,7 +1698,7 @@ mAudioThread
 )
 ;
 }
-PRBool
+bool
 OnStateMachineThread
 (
 )
@@ -1826,7 +1826,7 @@ return
 mEndTime
 ;
 }
-PRBool
+bool
 IsSeekable
 (
 )
@@ -2082,7 +2082,7 @@ must
 be
 held
 .
-PRBool
+bool
 HasLowDecodedData
 (
 PRInt64
@@ -2117,7 +2117,7 @@ must
 be
 held
 .
-PRBool
+bool
 HasLowUndecodedData
 (
 )
@@ -2236,7 +2236,7 @@ must
 be
 held
 .
-PRBool
+bool
 HasFutureAudio
 (
 )
@@ -2256,7 +2256,7 @@ buffering
 "
 mode
 .
-PRBool
+bool
 JustExitedQuickBuffering
 (
 )
@@ -3168,7 +3168,7 @@ must
 be
 held
 .
-PRBool
+bool
 IsPlaying
 (
 )
@@ -3576,7 +3576,7 @@ RunStateMachine
 (
 )
 ;
-PRBool
+bool
 IsStateMachineScheduled
 (
 )
@@ -3650,7 +3650,7 @@ be
 needed
 again
 .
-PRBool
+bool
 IsPausedAndDecoderWaiting
 (
 )
@@ -4709,7 +4709,7 @@ via
 decoder
 monitor
 .
-PRPackedBool
+bool
 mSeekable
 ;
 /
@@ -4783,7 +4783,7 @@ state
 machine
 threads
 .
-PRPackedBool
+bool
 mPositionChangeQueued
 ;
 /
@@ -4858,7 +4858,7 @@ via
 decoder
 monitor
 .
-PRPackedBool
+bool
 mAudioCompleted
 ;
 /
@@ -4891,7 +4891,7 @@ state
 machine
 thread
 .
-PRPackedBool
+bool
 mGotDurationFromMetaData
 ;
 /
@@ -4918,7 +4918,7 @@ by
 decoder
 monitor
 .
-PRPackedBool
+bool
 mStopDecodeThread
 ;
 /
@@ -4987,7 +4987,7 @@ the
 decoder
 monitor
 .
-PRPackedBool
+bool
 mDecodeThreadIdle
 ;
 /
@@ -5014,7 +5014,7 @@ by
 decoder
 monitor
 .
-PRPackedBool
+bool
 mStopAudioThread
 ;
 /
@@ -5090,7 +5090,7 @@ via
 decoder
 monitor
 .
-PRPackedBool
+bool
 mQuickBuffering
 ;
 /
@@ -5111,7 +5111,7 @@ this
 state
 machine
 .
-PRPackedBool
+bool
 mIsRunning
 ;
 /
@@ -5136,7 +5136,7 @@ run
 has
 finished
 .
-PRPackedBool
+bool
 mRunAgain
 ;
 /
@@ -5215,7 +5215,7 @@ causing
 inconsistent
 state
 .
-PRPackedBool
+bool
 mDispatchedRunEvent
 ;
 /
@@ -5252,7 +5252,7 @@ the
 decoder
 monitor
 .
-PRPackedBool
+bool
 mDecodeThreadWaiting
 ;
 /
@@ -5269,7 +5269,7 @@ like
 a
 camera
 stream
-PRPackedBool
+bool
 mRealTime
 ;
 PRUint32

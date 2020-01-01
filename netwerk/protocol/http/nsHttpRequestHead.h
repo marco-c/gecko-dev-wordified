@@ -770,10 +770,10 @@ const
 nsACString
 &
 v
-PRBool
+bool
 m
 =
-PR_FALSE
+false
 )
 {
 return
@@ -857,7 +857,7 @@ v
 )
 ;
 }
-PRBool
+bool
 HasHeaderValue
 (
 nsHttpAtom
@@ -883,10 +883,10 @@ Flatten
 (
 nsACString
 &
-PRBool
+bool
 pruneProxyHeaders
 =
-PR_FALSE
+false
 )
 ;
 private

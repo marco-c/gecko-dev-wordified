@@ -532,7 +532,7 @@ aBoxLayoutState
 )
 ;
 virtual
-PRBool
+bool
 IsCollapsed
 (
 nsBoxLayoutState
@@ -551,10 +551,10 @@ const
 nsRect
 &
 aRect
-PRBool
+bool
 aRemoveOverflowAreas
 =
-PR_FALSE
+false
 )
 ;
 NS_IMETHOD
@@ -633,7 +633,7 @@ aBox
 NS_IMETHOD
 GetDebug
 (
-PRBool
+bool
 &
 aDebug
 )
@@ -644,7 +644,7 @@ SetDebug
 nsBoxLayoutState
 &
 aState
-PRBool
+bool
 aDebug
 )
 ;
@@ -706,13 +706,13 @@ rollbox
 *
 /
 virtual
-PRBool
+bool
 DoesClipChildren
 (
 )
 ;
 virtual
-PRBool
+bool
 ComputesOwnOverflowArea
 (
 )
@@ -730,7 +730,7 @@ nsBoxLayoutState
 aBoxLayoutState
 )
 ;
-PRBool
+bool
 DoesNeedRecalc
 (
 const
@@ -739,7 +739,7 @@ nsSize
 aSize
 )
 ;
-PRBool
+bool
 DoesNeedRecalc
 (
 nscoord
@@ -949,7 +949,7 @@ aState
 #
 endif
 static
-PRBool
+bool
 gGotTheme
 ;
 static

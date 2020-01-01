@@ -694,7 +694,7 @@ AddItemFor
 nsIDOMHTMLMenuItemElement
 *
 aElement
-PRBool
+bool
 aCanLoadIcon
 )
 {
@@ -810,7 +810,7 @@ checkbox
 PR_FALSE
 )
 ;
-PRBool
+bool
 checked
 ;
 aElement
@@ -936,7 +936,7 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 disabled
 ;
 aElement

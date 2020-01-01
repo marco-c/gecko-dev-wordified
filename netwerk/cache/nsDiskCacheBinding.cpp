@@ -663,7 +663,7 @@ key
 ;
 }
 static
-PRBool
+bool
 MatchEntry
 (
 PLDHashTable
@@ -2094,7 +2094,7 @@ hashEntry
 >
 mBinding
 ;
-PRBool
+bool
 calcGeneration
 =
 (
@@ -2613,13 +2613,13 @@ IsActive
 *
 (
 (
-PRBool
+bool
 *
 )
 arg
 )
 =
-PR_TRUE
+true
 ;
 return
 PL_DHASH_STOP
@@ -2665,7 +2665,7 @@ open
 descriptors
 *
 /
-PRBool
+bool
 nsDiskCacheBindery
 :
 :
@@ -2691,10 +2691,10 @@ initialized
 return
 PR_FALSE
 ;
-PRBool
+bool
 activeBinding
 =
-PR_FALSE
+false
 ;
 PL_DHashTableEnumerate
 (

@@ -680,7 +680,7 @@ aPresContext
 nsIFrame
 *
 aChild
-PRBool
+bool
 aForceNormal
 )
 {
@@ -1070,7 +1070,7 @@ mColMaxHeight
 .
 *
 /
-PRBool
+bool
 ReflowChildren
 (
 nsHTMLReflowMetrics
@@ -1087,7 +1087,7 @@ const
 ReflowConfig
 &
 aConfig
-PRBool
+bool
 aLastColumnUnbounded
 nsCollapsingMargin
 *
@@ -1352,7 +1352,7 @@ gap
 to
 draw
 on
-PRBool
+bool
 isRTL
 =
 GetStyleVisibility
@@ -3418,7 +3418,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsColumnSetFrame
 :
 :
@@ -3438,7 +3438,7 @@ const
 ReflowConfig
 &
 aConfig
-PRBool
+bool
 aUnboundedLastColumn
 nsCollapsingMargin
 *
@@ -3454,12 +3454,12 @@ Reset
 (
 )
 ;
-PRBool
+bool
 allFit
 =
-PR_TRUE
+true
 ;
-PRBool
+bool
 RTL
 =
 GetStyleVisibility
@@ -3472,7 +3472,7 @@ mDirection
 =
 NS_STYLE_DIRECTION_RTL
 ;
-PRBool
+bool
 shrinkingHeightOnly
 =
 !
@@ -3868,10 +3868,10 @@ contentBottom
 =
 0
 ;
-PRBool
+bool
 reflowNext
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -4043,7 +4043,7 @@ has
 changed
 .
 )
-PRBool
+bool
 skipIncremental
 =
 !
@@ -4217,7 +4217,7 @@ that
 affects
 layout
 .
-PRBool
+bool
 skipResizeHeightShrink
 =
 shrinkingHeightOnly
@@ -6472,7 +6472,7 @@ ChooseColumnStrategy
 aReflowState
 )
 ;
-PRBool
+bool
 isBalancing
 =
 config
@@ -6583,7 +6583,7 @@ GetNextInFlow
 (
 )
 ;
-PRBool
+bool
 unboundedLastColumn
 =
 isBalancing
@@ -6598,7 +6598,7 @@ carriedOutBottomMargin
 ColumnBalanceData
 colData
 ;
-PRBool
+bool
 feasible
 =
 ReflowChildren
@@ -6702,10 +6702,10 @@ one
 /
 search
 )
-PRBool
+bool
 maybeContinuousBreakingDetected
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -7413,10 +7413,10 @@ a
 valid
 layout
 .
-PRBool
+bool
 skip
 =
-PR_FALSE
+false
 ;
 if
 (

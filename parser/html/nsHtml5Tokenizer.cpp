@@ -1953,7 +1953,7 @@ nsHtml5Tokenizer
 :
 emitCurrentTagToken
 (
-PRBool
+bool
 selfClosing
 PRInt32
 pos
@@ -2184,7 +2184,7 @@ this
 )
 ;
 }
-PRBool
+bool
 nsHtml5Tokenizer
 :
 :
@@ -2390,7 +2390,7 @@ pos
 PRUnichar
 *
 buf
-PRBool
+bool
 reconsume
 PRInt32
 returnState
@@ -16379,7 +16379,7 @@ systemIdentifier
 nsnull
 ;
 }
-PRBool
+bool
 nsHtml5Tokenizer
 :
 :
@@ -16641,7 +16641,7 @@ shouldSuspend
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsHtml5Tokenizer
 :
 :

@@ -512,7 +512,7 @@ PR_FALSE
 to
 stop
 typedef
-PRBool
+bool
 (
 *
 nsVoidArrayEnumFunc
@@ -619,7 +619,7 @@ will
 all
 be
 null
-PRBool
+bool
 SetCount
 (
 PRInt32
@@ -890,7 +890,7 @@ aPossibleElement
 )
 const
 ;
-PRBool
+bool
 InsertElementAt
 (
 void
@@ -900,7 +900,7 @@ PRInt32
 aIndex
 )
 ;
-PRBool
+bool
 InsertElementsAt
 (
 const
@@ -911,7 +911,7 @@ PRInt32
 aIndex
 )
 ;
-PRBool
+bool
 ReplaceElementAt
 (
 void
@@ -930,7 +930,7 @@ LRU
 arrays
 sorting
 etc
-PRBool
+bool
 MoveElement
 (
 PRInt32
@@ -939,7 +939,7 @@ PRInt32
 aTo
 )
 ;
-PRBool
+bool
 AppendElement
 (
 void
@@ -957,7 +957,7 @@ Count
 )
 ;
 }
-PRBool
+bool
 AppendElements
 (
 nsVoidArray
@@ -975,7 +975,7 @@ Count
 )
 ;
 }
-PRBool
+bool
 RemoveElement
 (
 void
@@ -983,7 +983,7 @@ void
 aElement
 )
 ;
-PRBool
+bool
 RemoveElementsAt
 (
 PRInt32
@@ -992,7 +992,7 @@ PRInt32
 aCount
 )
 ;
-PRBool
+bool
 RemoveElementAt
 (
 PRInt32
@@ -1012,7 +1012,7 @@ Clear
 (
 )
 ;
-PRBool
+bool
 SizeTo
 (
 PRInt32
@@ -1062,7 +1062,7 @@ void
 aData
 )
 ;
-PRBool
+bool
 EnumerateForwards
 (
 nsVoidArrayEnumFunc
@@ -1072,7 +1072,7 @@ void
 aData
 )
 ;
-PRBool
+bool
 EnumerateBackwards
 (
 nsVoidArrayEnumFunc
@@ -1084,7 +1084,7 @@ aData
 ;
 protected
 :
-PRBool
+bool
 GrowArrayBy
 (
 PRInt32
@@ -1206,7 +1206,7 @@ mMaxCount
 PRInt32
 mMaxSize
 ;
-PRBool
+bool
 mIsAuto
 ;
 #
@@ -1256,14 +1256,14 @@ PRInt32
 aSize
 PRInt32
 aCount
-PRBool
+bool
 aOwner
-PRBool
+bool
 aHasAuto
 )
 ;
 inline
-PRBool
+bool
 IsArrayOwner
 (
 )
@@ -1284,7 +1284,7 @@ kArrayOwnerMask
 ;
 }
 inline
-PRBool
+bool
 HasAutoBuffer
 (
 )
@@ -1452,7 +1452,7 @@ aData
 )
 ;
 typedef
-PRBool
+bool
 (
 *
 nsCStringArrayEnumFunc
@@ -1593,7 +1593,7 @@ const
 ;
 #
 endif
-PRBool
+bool
 InsertCStringAt
 (
 const
@@ -1604,7 +1604,7 @@ PRInt32
 aIndex
 )
 ;
-PRBool
+bool
 ReplaceCStringAt
 (
 const
@@ -1615,7 +1615,7 @@ PRInt32
 aIndex
 )
 ;
-PRBool
+bool
 AppendCString
 (
 const
@@ -1634,7 +1634,7 @@ Count
 )
 ;
 }
-PRBool
+bool
 RemoveCString
 (
 const
@@ -1646,7 +1646,7 @@ aCString
 #
 ifdef
 MOZILLA_INTERNAL_API
-PRBool
+bool
 RemoveCStringIgnoreCase
 (
 const
@@ -1657,7 +1657,7 @@ aCString
 ;
 #
 endif
-PRBool
+bool
 RemoveCStringAt
 (
 PRInt32
@@ -1711,7 +1711,7 @@ void
 aData
 )
 ;
-PRBool
+bool
 EnumerateForwards
 (
 nsCStringArrayEnumFunc
@@ -1721,7 +1721,7 @@ void
 aData
 )
 ;
-PRBool
+bool
 EnumerateBackwards
 (
 nsCStringArrayEnumFunc
@@ -2312,7 +2312,7 @@ aPossibleElement
 )
 const
 ;
-PRBool
+bool
 InsertElementAt
 (
 void
@@ -2322,7 +2322,7 @@ PRInt32
 aIndex
 )
 ;
-PRBool
+bool
 InsertElementsAt
 (
 const
@@ -2333,7 +2333,7 @@ PRInt32
 aIndex
 )
 ;
-PRBool
+bool
 ReplaceElementAt
 (
 void
@@ -2343,7 +2343,7 @@ PRInt32
 aIndex
 )
 ;
-PRBool
+bool
 MoveElement
 (
 PRInt32
@@ -2352,7 +2352,7 @@ PRInt32
 aTo
 )
 ;
-PRBool
+bool
 AppendElement
 (
 void
@@ -2360,7 +2360,7 @@ void
 aElement
 )
 ;
-PRBool
+bool
 AppendElements
 (
 nsVoidArray
@@ -2378,7 +2378,7 @@ Count
 )
 ;
 }
-PRBool
+bool
 RemoveElement
 (
 void
@@ -2386,7 +2386,7 @@ void
 aElement
 )
 ;
-PRBool
+bool
 RemoveElementsAt
 (
 PRInt32
@@ -2395,7 +2395,7 @@ PRInt32
 aCount
 )
 ;
-PRBool
+bool
 RemoveElementAt
 (
 PRInt32
@@ -2407,7 +2407,7 @@ Clear
 (
 )
 ;
-PRBool
+bool
 SizeTo
 (
 PRInt32
@@ -2429,7 +2429,7 @@ void
 aData
 )
 ;
-PRBool
+bool
 EnumerateForwards
 (
 nsVoidArrayEnumFunc
@@ -2439,7 +2439,7 @@ void
 aData
 )
 ;
-PRBool
+bool
 EnumerateBackwards
 (
 nsVoidArrayEnumFunc
@@ -2451,7 +2451,7 @@ aData
 ;
 private
 :
-PRBool
+bool
 HasSingle
 (
 )
@@ -2554,7 +2554,7 @@ aChild
 )
 ;
 }
-PRBool
+bool
 IsEmpty
 (
 )
@@ -2632,7 +2632,7 @@ return
 this
 ;
 }
-PRBool
+bool
 EnsureArray
 (
 )

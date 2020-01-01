@@ -719,7 +719,7 @@ nsHTMLMediaElement
 nsGenericHTMLElement
 )
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -768,7 +768,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -799,7 +799,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -812,7 +812,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttr
-PRBool
+bool
 aNotify
 )
 ;
@@ -829,7 +829,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -837,14 +837,14 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
 =
-PR_TRUE
-PRBool
+true
+bool
 aNullParent
 =
-PR_TRUE
+true
 )
 ;
 /
@@ -965,7 +965,7 @@ next
 void
 FirstFrameLoaded
 (
-PRBool
+bool
 aResourceFullyLoaded
 )
 ;
@@ -1559,7 +1559,7 @@ data
 has
 arrived
 .
-PRBool
+bool
 CanActivateAutoplay
 (
 )
@@ -1636,7 +1636,7 @@ cross
 domain
 loads
 .
-PRBool
+bool
 ShouldCheckAllowOrigin
 (
 )
@@ -1683,7 +1683,7 @@ work
 potentially
 -
 playing
-PRBool
+bool
 IsPotentiallyPlaying
 (
 )
@@ -1726,7 +1726,7 @@ work
 /
 #
 ended
-PRBool
+bool
 IsPlaybackEnded
 (
 )
@@ -1957,7 +1957,7 @@ return
 true
 .
 static
-PRBool
+bool
 ShouldHandleMediaType
 (
 const
@@ -2230,13 +2230,13 @@ listener
 .
 *
 /
-PRBool
+bool
 MayHaveAudioAvailableEventListener
 (
 )
 ;
 virtual
-PRBool
+bool
 IsNodeOfType
 (
 PRUint32
@@ -2362,7 +2362,7 @@ poster
 .
 *
 /
-PRBool
+bool
 GetPlayedOrSeeked
 (
 )
@@ -2506,7 +2506,7 @@ playback
 void
 FireTimeUpdate
 (
-PRBool
+bool
 aPeriodic
 )
 ;
@@ -2556,7 +2556,7 @@ immediately
 void
 SetPlayedOrSeeked
 (
-PRBool
+bool
 aValue
 )
 ;
@@ -3032,7 +3032,7 @@ firing
 void
 ChangeDelayLoadStatus
 (
-PRBool
+bool
 aDelay
 )
 ;
@@ -4384,7 +4384,7 @@ same
 origin
 check
 .
-PRBool
+bool
 mAllowAudioData
 ;
 /
@@ -4412,7 +4412,7 @@ not
 yet
 started
 .
-PRPackedBool
+bool
 mBegun
 ;
 /
@@ -4436,7 +4436,7 @@ of
 the
 content
 .
-PRPackedBool
+bool
 mLoadedFirstFrame
 ;
 /
@@ -4552,7 +4552,7 @@ the
 autoplay
 attribute
 .
-PRPackedBool
+bool
 mAutoplaying
 ;
 /
@@ -4576,7 +4576,7 @@ media
 autoplay
 .
 enabled
-PRPackedBool
+bool
 mAutoplayEnabled
 ;
 /
@@ -4605,7 +4605,7 @@ yet
 having
 started
 .
-PRPackedBool
+bool
 mPaused
 ;
 /
@@ -4616,7 +4616,7 @@ the
 sound
 is
 muted
-PRPackedBool
+bool
 mMuted
 ;
 /
@@ -4688,7 +4688,7 @@ HTML
 5
 specification
 .
-PRPackedBool
+bool
 mPlayingBeforeSeek
 ;
 /
@@ -4704,7 +4704,7 @@ the
 document
 is
 inactive
-PRPackedBool
+bool
 mPausedForInactiveDocument
 ;
 /
@@ -4730,7 +4730,7 @@ change
 to
 HAVE_CURRENT_DATA
 .
-PRPackedBool
+bool
 mWaitingFired
 ;
 /
@@ -4749,7 +4749,7 @@ load
 "
 method
 .
-PRPackedBool
+bool
 mIsRunningLoadMethod
 ;
 /
@@ -4768,7 +4768,7 @@ child
 source
 elements
 .
-PRPackedBool
+bool
 mIsLoadingFromSourceChildren
 ;
 /
@@ -4802,7 +4802,7 @@ frame
 is
 loaded
 .
-PRPackedBool
+bool
 mDelayingLoadEvent
 ;
 /
@@ -4833,7 +4833,7 @@ SelectResource
 (
 )
 .
-PRPackedBool
+bool
 mIsRunningSelectResource
 ;
 /
@@ -4867,7 +4867,7 @@ the
 first
 frame
 .
-PRPackedBool
+bool
 mSuspendedAfterFirstFrame
 ;
 /
@@ -4904,7 +4904,7 @@ the
 first
 frame
 .
-PRPackedBool
+bool
 mAllowSuspendAfterFirstFrame
 ;
 /
@@ -4935,7 +4935,7 @@ should
 be
 shown
 .
-PRPackedBool
+bool
 mHasPlayedOrSeeked
 ;
 /
@@ -4978,7 +4978,7 @@ its
 own
 accord
 .
-PRPackedBool
+bool
 mHasSelfReference
 ;
 /
@@ -5000,7 +5000,7 @@ shutting
 /
 down
 .
-PRPackedBool
+bool
 mShuttingDown
 ;
 /
@@ -5056,7 +5056,7 @@ stored
 in
 mPreloadURI
 .
-PRPackedBool
+bool
 mLoadIsSuspended
 ;
 /
@@ -5078,7 +5078,7 @@ element
 and
 resource
 .
-PRPackedBool
+bool
 mMediaSecurityVerified
 ;
 }

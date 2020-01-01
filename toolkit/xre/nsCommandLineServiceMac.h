@@ -448,7 +448,7 @@ char
 *
 &
 argv
-PRBool
+bool
 forRestart
 )
 ;
@@ -491,7 +491,7 @@ any
 other
 reason
 .
-PRBool
+bool
 AddURLToCurrentCommandLine
 (
 const

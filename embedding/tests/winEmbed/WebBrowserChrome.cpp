@@ -1540,7 +1540,7 @@ WebBrowserChrome
 :
 IsWindowModal
 (
-PRBool
+bool
 *
 _retval
 )
@@ -2074,10 +2074,10 @@ nsIURI
 location
 )
 {
-PRBool
+bool
 isSubFrameLoad
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2412,7 +2412,7 @@ OnHistoryGoBack
 nsIURI
 *
 aBackURI
-PRBool
+bool
 *
 aContinue
 )
@@ -2449,7 +2449,7 @@ OnHistoryGoForward
 nsIURI
 *
 aForwardURI
-PRBool
+bool
 *
 aContinue
 )
@@ -2488,7 +2488,7 @@ aIndex
 nsIURI
 *
 aGotoURI
-PRBool
+bool
 *
 aContinue
 )
@@ -2528,7 +2528,7 @@ nsIURI
 aURI
 PRUint32
 aReloadFlags
-PRBool
+bool
 *
 aContinue
 )
@@ -2575,7 +2575,7 @@ OnHistoryPurge
 (
 PRInt32
 aNumEntries
-PRBool
+bool
 *
 aContinue
 )
@@ -3511,7 +3511,7 @@ WebBrowserChrome
 :
 GetVisibility
 (
-PRBool
+bool
 *
 aVisibility
 )
@@ -3536,7 +3536,7 @@ WebBrowserChrome
 :
 SetVisibility
 (
-PRBool
+bool
 aVisibility
 )
 {

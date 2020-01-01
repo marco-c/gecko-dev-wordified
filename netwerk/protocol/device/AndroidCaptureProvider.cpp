@@ -1024,7 +1024,7 @@ AndroidCameraInputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 aNonBlock
 )

@@ -606,7 +606,7 @@ PREMULTIPLIED
 )
 {
 }
-PRBool
+bool
 operator
 =
 =
@@ -698,7 +698,7 @@ all
 pixels
 in
 mImage
-PRPackedBool
+bool
 mConstantColorChannels
 ;
 Image
@@ -764,7 +764,7 @@ mTarget
 to
 operate
 on
-PRPackedBool
+bool
 mRescaling
 ;
 }
@@ -928,13 +928,13 @@ html
 #
 FilterPrimitiveSubRegion
 virtual
-PRBool
+bool
 SubregionIsUnionOfRegions
 (
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 NS_DECLARE_STATIC_IID_ACCESSOR
@@ -953,7 +953,7 @@ nsIContent
 interface
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -1516,14 +1516,14 @@ this
 protected
 :
 virtual
-PRBool
+bool
 OperatesOnPremultipledAlpha
 (
 PRInt32
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1569,7 +1569,7 @@ will
 be
 SRGB
 virtual
-PRBool
+bool
 OperatesOnSRGB
 (
 nsSVGFilterInstance

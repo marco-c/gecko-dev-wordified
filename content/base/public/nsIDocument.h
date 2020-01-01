@@ -1446,7 +1446,7 @@ nsIStreamListener
 *
 *
 aDocListener
-PRBool
+bool
 aReset
 nsIContentSink
 *
@@ -1514,7 +1514,7 @@ virtual
 void
 NotifyPossibleTitleChange
 (
-PRBool
+bool
 aBoundTitleElement
 )
 =
@@ -2180,7 +2180,7 @@ it
 *
 /
 typedef
-PRBool
+bool
 (
 *
 IDTargetObserver
@@ -2307,7 +2307,7 @@ aObserver
 void
 *
 aData
-PRBool
+bool
 aForImage
 )
 =
@@ -2347,7 +2347,7 @@ aObserver
 void
 *
 aData
-PRBool
+bool
 aForImage
 )
 =
@@ -2506,7 +2506,7 @@ Algorithm
 .
 *
 /
-PRBool
+bool
 GetBidiEnabled
 (
 )
@@ -2590,7 +2590,7 @@ elements
 .
 *
 /
-PRBool
+bool
 GetMathMLEnabled
 (
 )
@@ -2630,7 +2630,7 @@ window
 .
 *
 /
-PRBool
+bool
 IsInitialDocument
 (
 )
@@ -2675,7 +2675,7 @@ called
 void
 SetIsInitialDocument
 (
-PRBool
+bool
 aIsInitialDocument
 )
 {
@@ -3817,7 +3817,7 @@ SetStyleSheetApplicableState
 nsIStyleSheet
 *
 aSheet
-PRBool
+bool
 aApplicable
 )
 =
@@ -4233,7 +4233,7 @@ nsIScriptGlobalObject
 *
 GetScriptHandlingObject
 (
-PRBool
+bool
 &
 aHasHadScriptHandlingObject
 )
@@ -4820,7 +4820,7 @@ virtual
 void
 UpdateFullScreenStatus
 (
-PRBool
+bool
 aIsFullScreen
 )
 =
@@ -4845,7 +4845,7 @@ mode
 *
 /
 virtual
-PRBool
+bool
 IsFullScreenDoc
 (
 )
@@ -5017,7 +5017,7 @@ found
 *
 /
 virtual
-PRBool
+bool
 RemoveObserver
 (
 nsIDocumentObserver
@@ -5735,7 +5735,7 @@ Standalone
 =
 0
 ;
-PRBool
+bool
 IsHTML
 (
 )
@@ -5745,7 +5745,7 @@ return
 mIsRegularHTML
 ;
 }
-PRBool
+bool
 IsXUL
 (
 )
@@ -5756,7 +5756,7 @@ mIsXUL
 ;
 }
 virtual
-PRBool
+bool
 IsScriptEnabled
 (
 )
@@ -5846,7 +5846,7 @@ nsIAtom
 aPrefix
 PRInt32
 aNamespaceID
-PRBool
+bool
 aDocumentDefaultType
 nsIContent
 *
@@ -6120,7 +6120,7 @@ aDocument
 *
 /
 typedef
-PRBool
+bool
 (
 *
 nsSubDocEnumFunc
@@ -6328,7 +6328,7 @@ null
 *
 /
 virtual
-PRBool
+bool
 CanSavePresentation
 (
 nsIRequest
@@ -6637,7 +6637,7 @@ virtual
 void
 UnblockOnload
 (
-PRBool
+bool
 aFireSync
 )
 =
@@ -6770,7 +6770,7 @@ virtual
 void
 OnPageShow
 (
-PRBool
+bool
 aPersisted
 nsIDOMEventTarget
 *
@@ -6908,7 +6908,7 @@ virtual
 void
 OnPageHide
 (
-PRBool
+bool
 aPersisted
 nsIDOMEventTarget
 *
@@ -7175,7 +7175,7 @@ document
 .
 *
 /
-PRBool
+bool
 HaveFiredDOMTitleChange
 (
 )
@@ -7277,9 +7277,9 @@ float
 aX
 float
 aY
-PRBool
+bool
 aIgnoreRootScrollFrame
-PRBool
+bool
 aFlushLayout
 nsIDOMElement
 *
@@ -7305,9 +7305,9 @@ float
 aBottomSize
 float
 aLeftSize
-PRBool
+bool
 aIgnoreRootScrollFrame
-PRBool
+bool
 aFlushLayout
 nsIDOMNodeList
 *
@@ -7475,7 +7475,7 @@ return
 mMarkedCCGeneration
 ;
 }
-PRBool
+bool
 IsLoadedAsData
 (
 )
@@ -7484,7 +7484,7 @@ return
 mLoadedAsData
 ;
 }
-PRBool
+bool
 MayStartLayout
 (
 )
@@ -7496,7 +7496,7 @@ mMayStartLayout
 void
 SetMayStartLayout
 (
-PRBool
+bool
 aMayStartLayout
 )
 {
@@ -7638,7 +7638,7 @@ finalization
 list
 .
 virtual
-PRBool
+bool
 FrameLoaderScheduledToBeFinalized
 (
 nsIDocShell
@@ -7670,7 +7670,7 @@ resource
 .
 *
 /
-PRBool
+bool
 IsRootDisplayDocument
 (
 )
@@ -7685,7 +7685,7 @@ mParentDocument
 mDisplayDocument
 ;
 }
-PRBool
+bool
 IsBeingUsedAsImage
 (
 )
@@ -7705,7 +7705,7 @@ mIsBeingUsedAsImage
 PR_TRUE
 ;
 }
-PRBool
+bool
 IsResourceDoc
 (
 )
@@ -8358,7 +8358,7 @@ yet
 .
 *
 /
-PRBool
+bool
 IsShowing
 (
 )
@@ -8398,7 +8398,7 @@ called
 )
 *
 /
-PRBool
+bool
 IsVisible
 (
 )
@@ -8433,7 +8433,7 @@ viewer
 .
 *
 /
-PRBool
+bool
 IsActive
 (
 )
@@ -8454,7 +8454,7 @@ nsIContent
 aContent
 )
 ;
-PRBool
+bool
 UnregisterFreezableElement
 (
 nsIContent
@@ -8525,7 +8525,7 @@ null
 return
 value
 .
-PRBool
+bool
 HasAnimationController
 (
 )
@@ -8632,7 +8632,7 @@ virtual
 void
 SetImagesNeedAnimating
 (
-PRBool
+bool
 aAnimating
 )
 =
@@ -8702,7 +8702,7 @@ virtual
 void
 UnsuppressEventHandlingAndFireEvents
 (
-PRBool
+bool
 aFireEvents
 )
 =
@@ -8783,7 +8783,7 @@ EndEvaluatingExternalScript
 mExternalScriptsBeingEvaluated
 ;
 }
-PRBool
+bool
 IsDNSPrefetchAllowed
 (
 )
@@ -8819,7 +8819,7 @@ bindings
 .
 *
 /
-PRBool
+bool
 AllowXULXBL
 (
 )
@@ -8884,7 +8884,7 @@ documents
 .
 *
 /
-PRBool
+bool
 IsStaticDocument
 (
 )
@@ -9140,7 +9140,7 @@ LoadChromeSheetSync
 nsIURI
 *
 aURI
-PRBool
+bool
 aIsAgentSheet
 nsCSSStyleSheet
 *
@@ -9230,13 +9230,13 @@ left
 *
 /
 virtual
-PRBool
+bool
 IsDocumentRightToLeft
 (
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 enum
@@ -9519,7 +9519,7 @@ virtual
 void
 SetChangeScrollPosWhenScrollingToRef
 (
-PRBool
+bool
 aValue
 )
 =
@@ -9748,7 +9748,7 @@ being
 teared
 down
 .
-PRBool
+bool
 InUnlinkOrDeletion
 (
 )
@@ -9916,7 +9916,7 @@ virtual
 nsresult
 SetImageLockingState
 (
-PRBool
+bool
 aLocked
 )
 =
@@ -10154,7 +10154,7 @@ call
 AllowXULXBL
 !
 virtual
-PRBool
+bool
 InternalAllowXULXBL
 (
 )
@@ -10551,7 +10551,7 @@ BIDI
 is
 enabled
 .
-PRPackedBool
+bool
 mBidiEnabled
 ;
 /
@@ -10569,7 +10569,7 @@ by
 this
 document
 .
-PRPackedBool
+bool
 mMathMLEnabled
 ;
 /
@@ -10628,13 +10628,13 @@ document
 in
 it
 .
-PRPackedBool
+bool
 mIsInitialDocumentInWindow
 ;
-PRPackedBool
+bool
 mIsRegularHTML
 ;
-PRPackedBool
+bool
 mIsXUL
 ;
 enum
@@ -10672,7 +10672,7 @@ and
 plugins
 disabled
 .
-PRPackedBool
+bool
 mLoadedAsData
 ;
 /
@@ -10703,7 +10703,7 @@ layout
 on
 it
 .
-PRPackedBool
+bool
 mMayStartLayout
 ;
 /
@@ -10721,7 +10721,7 @@ event
 for
 this
 document
-PRPackedBool
+bool
 mHaveFiredTitleChange
 ;
 /
@@ -10735,7 +10735,7 @@ should
 be
 returning
 true
-PRPackedBool
+bool
 mIsShowing
 ;
 /
@@ -10762,7 +10762,7 @@ the
 /
 bfcache
 )
-PRPackedBool
+bool
 mVisible
 ;
 /
@@ -10801,7 +10801,7 @@ has
 been
 saved
 .
-PRPackedBool
+bool
 mRemovedFromDocShell
 ;
 /
@@ -10837,7 +10837,7 @@ no
 matter
 what
 .
-PRPackedBool
+bool
 mAllowDNSPrefetch
 ;
 /
@@ -10854,7 +10854,7 @@ of
 a
 normal
 document
-PRPackedBool
+bool
 mIsStaticDocument
 ;
 /
@@ -10871,7 +10871,7 @@ a
 static
 document
 .
-PRPackedBool
+bool
 mCreatingStaticClone
 ;
 /
@@ -10886,7 +10886,7 @@ unlinked
 or
 deleted
 .
-PRPackedBool
+bool
 mInUnlinkOrDeletion
 ;
 /
@@ -10901,7 +10901,7 @@ script
 handling
 object
 .
-PRPackedBool
+bool
 mHasHadScriptHandlingObject
 ;
 /
@@ -10919,7 +10919,7 @@ before
 paint
 event
 .
-PRPackedBool
+bool
 mHavePendingPaint
 ;
 /
@@ -10938,7 +10938,7 @@ as
 an
 image
 .
-PRPackedBool
+bool
 mIsBeingUsedAsImage
 ;
 /
@@ -10960,7 +10960,7 @@ audio
 file
 etc
 .
-PRPackedBool
+bool
 mIsSyntheticDocument
 ;
 /
@@ -11643,7 +11643,7 @@ aBaseURI
 nsIPrincipal
 *
 aPrincipal
-PRBool
+bool
 aLoadedAsData
 nsIScriptGlobalObject
 *

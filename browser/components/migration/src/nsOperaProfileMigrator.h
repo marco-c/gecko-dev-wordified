@@ -593,7 +593,7 @@ targetPrefName
 prefConverter
 prefSetterFunc
 ;
-PRBool
+bool
 prefHasValue
 ;
 union
@@ -601,7 +601,7 @@ union
 PRInt32
 intValue
 ;
-PRBool
+bool
 boolValue
 ;
 char
@@ -713,7 +713,7 @@ protected
 nsresult
 CopyPreferences
 (
-PRBool
+bool
 aReplace
 )
 ;
@@ -774,7 +774,7 @@ aResult
 nsresult
 CopyCookies
 (
-PRBool
+bool
 aReplace
 )
 ;
@@ -831,14 +831,14 @@ it
 nsresult
 CopyHistory
 (
-PRBool
+bool
 aReplace
 )
 ;
 nsresult
 CopyHistoryBatched
 (
-PRBool
+bool
 aReplace
 )
 ;
@@ -906,14 +906,14 @@ menu
 nsresult
 CopyBookmarks
 (
-PRBool
+bool
 aReplace
 )
 ;
 nsresult
 CopyBookmarksBatched
 (
-PRBool
+bool
 aReplace
 )
 ;
@@ -1262,7 +1262,7 @@ data
 PRInt32
 expiryTime
 ;
-PRBool
+bool
 isSecure
 ;
 }
@@ -1279,7 +1279,7 @@ mTagTypeLength
 PRUint16
 mPayloadTypeLength
 ;
-PRBool
+bool
 mCookieOpen
 ;
 Cookie

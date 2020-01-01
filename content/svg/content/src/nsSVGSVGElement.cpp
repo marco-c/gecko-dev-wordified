@@ -2167,7 +2167,7 @@ nsSVGSVGElement
 :
 GetUseCurrentView
 (
-PRBool
+bool
 *
 aUseCurrentView
 )
@@ -2192,7 +2192,7 @@ nsSVGSVGElement
 :
 SetUseCurrentView
 (
-PRBool
+bool
 aUseCurrentView
 )
 {
@@ -2805,7 +2805,7 @@ nsSVGSVGElement
 :
 AnimationsPaused
 (
-PRBool
+bool
 *
 _retval
 )
@@ -3382,7 +3382,7 @@ element
 nsIDOMSVGRect
 *
 rect
-PRBool
+bool
 *
 _retval
 )
@@ -3459,7 +3459,7 @@ element
 nsIDOMSVGRect
 *
 rect
-PRBool
+bool
 *
 _retval
 )
@@ -5064,7 +5064,7 @@ IsRoot
 )
 )
 {
-PRBool
+bool
 scaling
 =
 (
@@ -5298,7 +5298,7 @@ nsIContent
 methods
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGSVGElement
 :
@@ -5611,7 +5611,7 @@ MOZ_SMIL
 /
 nsSVGElement
 overrides
-PRBool
+bool
 nsSVGSVGElement
 :
 :
@@ -6392,7 +6392,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -6613,9 +6613,9 @@ nsSVGSVGElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -6727,7 +6727,7 @@ helpers
 #
 ifdef
 MOZ_SMIL
-PRBool
+bool
 nsSVGSVGElement
 :
 :
@@ -6903,7 +6903,7 @@ NotifyViewportChange
 }
 }
 }
-PRBool
+bool
 nsSVGSVGElement
 :
 :
@@ -7425,7 +7425,7 @@ DidChangeLength
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -7495,7 +7495,7 @@ nsSVGSVGElement
 :
 DidChangeViewBox
 (
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -7552,7 +7552,7 @@ nsSVGSVGElement
 :
 DidChangePreserveAspectRatio
 (
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -7603,7 +7603,7 @@ return
 mPreserveAspectRatio
 ;
 }
-PRBool
+bool
 nsSVGSVGElement
 :
 :

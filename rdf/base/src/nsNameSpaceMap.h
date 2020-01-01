@@ -713,7 +713,7 @@ return
 mCurrent
 ;
 }
-PRBool
+bool
 operator
 =
 =
@@ -734,7 +734,7 @@ iter
 mCurrent
 ;
 }
-PRBool
+bool
 operator
 !
 =

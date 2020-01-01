@@ -836,7 +836,7 @@ PRUint32
 length
 )
 ;
-PRBool
+bool
 Next
 (
 PRUint32

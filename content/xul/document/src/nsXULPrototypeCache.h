@@ -658,7 +658,7 @@ public
 nsISupports
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
-PRBool
+bool
 IsCached
 (
 nsIURI
@@ -694,7 +694,7 @@ enabled
 .
 *
 /
-PRBool
+bool
 IsEnabled
 (
 )
@@ -1020,7 +1020,7 @@ HasData
 nsIURI
 *
 aURI
-PRBool
+bool
 *
 exists
 )

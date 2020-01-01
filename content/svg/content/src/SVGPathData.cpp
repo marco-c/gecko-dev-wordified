@@ -527,7 +527,7 @@ namespace
 mozilla
 ;
 static
-PRBool
+bool
 IsMoveto
 (
 PRUint16
@@ -1126,7 +1126,7 @@ count
 }
 #
 endif
-PRBool
+bool
 SVGPathData
 :
 :
@@ -1254,7 +1254,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 SVGPathData
 :
 :
@@ -2156,7 +2156,7 @@ moveto
 are
 invalid
 }
-PRBool
+bool
 capsAreSquare
 =
 aCtx
@@ -2172,19 +2172,19 @@ gfxContext
 :
 LINE_CAP_SQUARE
 ;
-PRBool
+bool
 subpathHasLength
 =
-PR_FALSE
+false
 ;
 /
 /
 visual
 length
-PRBool
+bool
 subpathContainsNonArc
 =
-PR_FALSE
+false
 ;
 PRUint32
 segType
@@ -4996,7 +4996,7 @@ i
 2
 ]
 ;
-PRBool
+bool
 largeArcFlag
 =
 mData
@@ -5011,7 +5011,7 @@ i
 .
 0f
 ;
-PRBool
+bool
 sweepFlag
 =
 mData

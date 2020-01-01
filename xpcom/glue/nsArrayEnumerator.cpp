@@ -535,7 +535,7 @@ nsSimpleArrayEnumerator
 :
 HasMoreElements
 (
-PRBool
+bool
 *
 aResult
 )
@@ -1045,7 +1045,7 @@ nsCOMArrayEnumerator
 :
 HasMoreElements
 (
-PRBool
+bool
 *
 aResult
 )

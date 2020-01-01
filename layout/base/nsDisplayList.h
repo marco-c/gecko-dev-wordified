@@ -1298,7 +1298,7 @@ nsIFrame
 aReferenceFrame
 Mode
 aMode
-PRBool
+bool
 aBuildCaret
 )
 ;
@@ -1334,7 +1334,7 @@ position
 .
 *
 /
-PRBool
+bool
 IsForEventDelivery
 (
 )
@@ -1368,7 +1368,7 @@ plugins
 .
 *
 /
-PRBool
+bool
 IsForPluginGeometry
 (
 )
@@ -1398,7 +1398,7 @@ painting
 .
 *
 /
-PRBool
+bool
 IsForPainting
 (
 )
@@ -1439,7 +1439,7 @@ document
 .
 *
 /
-PRBool
+bool
 IsBackgroundOnly
 (
 )
@@ -1545,7 +1545,7 @@ stacking
 context
 *
 /
-PRBool
+bool
 IsAtRootOfPseudoStackingContext
 (
 )
@@ -1877,7 +1877,7 @@ mIncludeAllOutOfFlows
 PR_TRUE
 ;
 }
-PRBool
+bool
 GetIncludeAllOutOfFlows
 (
 )
@@ -1921,7 +1921,7 @@ mSelectedFramesOnly
 PR_TRUE
 ;
 }
-PRBool
+bool
 GetSelectedFramesOnly
 (
 )
@@ -1967,7 +1967,7 @@ mAccurateVisibleRegions
 PR_TRUE
 ;
 }
-PRBool
+bool
 GetAccurateVisibleRegions
 (
 )
@@ -2030,7 +2030,7 @@ suppression
 .
 *
 /
-PRBool
+bool
 IsIgnoringPaintSuppression
 (
 )
@@ -2065,7 +2065,7 @@ list
 .
 *
 /
-PRBool
+bool
 GetHadToIgnorePaintSuppression
 (
 )
@@ -2096,7 +2096,7 @@ window
 void
 SetPaintingToWindow
 (
-PRBool
+bool
 aToWindow
 )
 {
@@ -2105,7 +2105,7 @@ mIsPaintingToWindow
 aToWindow
 ;
 }
-PRBool
+bool
 IsPaintingToWindow
 (
 )
@@ -2360,7 +2360,7 @@ foreignObject
 .
 *
 /
-PRBool
+bool
 IsInTransform
 (
 )
@@ -2396,7 +2396,7 @@ foreignObject
 void
 SetInTransform
 (
-PRBool
+bool
 aInTransform
 )
 {
@@ -2492,7 +2492,7 @@ mHasFixedItems
 PR_TRUE
 ;
 }
-PRBool
+bool
 GetHasFixedItems
 (
 )
@@ -2525,7 +2525,7 @@ true
 .
 *
 /
-PRBool
+bool
 IsSnappingEnabled
 (
 )
@@ -2554,7 +2554,7 @@ context
 void
 SetSnappingEnabled
 (
-PRBool
+bool
 aSnappingEnabled
 )
 {
@@ -2580,7 +2580,7 @@ synchronously
 .
 *
 /
-PRBool
+bool
 ShouldSyncDecodeImages
 (
 )
@@ -2632,7 +2632,7 @@ decoded
 void
 SetSyncDecodeImages
 (
-PRBool
+bool
 aSyncDecodeImages
 )
 {
@@ -3244,7 +3244,7 @@ AutoIsRootSetter
 nsDisplayListBuilder
 *
 aBuilder
-PRBool
+bool
 aIsRoot
 )
 :
@@ -3287,7 +3287,7 @@ nsDisplayListBuilder
 *
 mBuilder
 ;
-PRPackedBool
+bool
 mOldValue
 ;
 }
@@ -3326,7 +3326,7 @@ AutoInTransformSetter
 nsDisplayListBuilder
 *
 aBuilder
-PRBool
+bool
 aInTransform
 )
 :
@@ -3369,7 +3369,7 @@ nsDisplayListBuilder
 *
 mBuilder
 ;
-PRPackedBool
+bool
 mOldValue
 ;
 }
@@ -3526,7 +3526,7 @@ mCaretFrame
 PRUint32
 mFirstFrameMarkedForDisplay
 ;
-PRPackedBool
+bool
 mIsBackgroundOnly
 ;
 }
@@ -3630,25 +3630,25 @@ mExcludedGlassRegion
 Mode
 mMode
 ;
-PRPackedBool
+bool
 mBuildCaret
 ;
-PRPackedBool
+bool
 mIgnoreSuppression
 ;
-PRPackedBool
+bool
 mHadToIgnoreSuppression
 ;
-PRPackedBool
+bool
 mIsAtRootOfPseudoStackingContext
 ;
-PRPackedBool
+bool
 mIncludeAllOutOfFlows
 ;
-PRPackedBool
+bool
 mSelectedFramesOnly
 ;
-PRPackedBool
+bool
 mAccurateVisibleRegions
 ;
 /
@@ -3673,22 +3673,22 @@ indirectly
 under
 an
 nsDisplayTransform
-PRPackedBool
+bool
 mInTransform
 ;
-PRPackedBool
+bool
 mSyncDecodeImages
 ;
-PRPackedBool
+bool
 mIsPaintingToWindow
 ;
-PRPackedBool
+bool
 mSnappingEnabled
 ;
-PRPackedBool
+bool
 mHasDisplayPort
 ;
-PRPackedBool
+bool
 mHasFixedItems
 ;
 }
@@ -4700,7 +4700,7 @@ GetOpaqueRegion
 nsDisplayListBuilder
 *
 aBuilder
-PRBool
+bool
 *
 aForceTransparentSurface
 =
@@ -4767,7 +4767,7 @@ color
 *
 /
 virtual
-PRBool
+bool
 IsUniform
 (
 nsDisplayListBuilder
@@ -4779,7 +4779,7 @@ aColor
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -4847,7 +4847,7 @@ lists
 *
 /
 virtual
-PRBool
+bool
 IsVaryingRelativeToMovingFrame
 (
 nsDisplayListBuilder
@@ -4912,7 +4912,7 @@ viewport
 *
 /
 virtual
-PRBool
+bool
 ShouldFixToViewport
 (
 nsDisplayListBuilder
@@ -5543,7 +5543,7 @@ visible
 *
 /
 virtual
-PRBool
+bool
 ComputeVisibility
 (
 nsDisplayListBuilder
@@ -5662,7 +5662,7 @@ deleted
 *
 /
 virtual
-PRBool
+bool
 TryMerge
 (
 nsDisplayListBuilder
@@ -5722,7 +5722,7 @@ together
 *
 /
 virtual
-PRBool
+bool
 ShouldFlattenAway
 (
 nsDisplayListBuilder
@@ -5881,7 +5881,7 @@ is
 opaque
 *
 /
-PRBool
+bool
 RecomputeVisibility
 (
 nsDisplayListBuilder
@@ -7015,7 +7015,7 @@ mSentinel
 mAbove
 ;
 }
-PRBool
+bool
 IsEmpty
 (
 )
@@ -7318,7 +7318,7 @@ order
 *
 /
 typedef
-PRBool
+bool
 (
 *
 SortLEQ
@@ -7551,7 +7551,7 @@ visible
 .
 *
 /
-PRBool
+bool
 ComputeVisibilityForSublist
 (
 nsDisplayListBuilder
@@ -7607,7 +7607,7 @@ is
 visible
 *
 /
-PRBool
+bool
 ComputeVisibilityForRoot
 (
 nsDisplayListBuilder
@@ -7648,7 +7648,7 @@ opaque
 .
 *
 /
-PRBool
+bool
 IsOpaque
 (
 )
@@ -7692,7 +7692,7 @@ transparent
 .
 *
 /
-PRBool
+bool
 NeedsTransparentSurface
 (
 )
@@ -8091,7 +8091,7 @@ const
 #
 ifdef
 DEBUG
-PRBool
+bool
 DidComputeVisibility
 (
 )
@@ -8258,7 +8258,7 @@ this
 list
 )
 .
-PRPackedBool
+bool
 mIsOpaque
 ;
 /
@@ -8312,13 +8312,13 @@ its
 area
 )
 .
-PRPackedBool
+bool
 mForceTransparentSurface
 ;
 #
 ifdef
 DEBUG
-PRPackedBool
+bool
 mDidComputeVisibility
 ;
 #
@@ -10157,7 +10157,7 @@ aCtx
 )
 ;
 virtual
-PRBool
+bool
 ComputeVisibility
 (
 nsDisplayListBuilder
@@ -10181,7 +10181,7 @@ TYPE_BORDER
 )
 protected
 :
-PRPackedBool
+bool
 mSnappingEnabled
 ;
 }
@@ -10445,7 +10445,7 @@ GetOpaqueRegion
 nsDisplayListBuilder
 *
 aBuilder
-PRBool
+bool
 *
 aOutTransparentBackground
 =
@@ -10490,7 +10490,7 @@ result
 ;
 }
 virtual
-PRBool
+bool
 IsUniform
 (
 nsDisplayListBuilder
@@ -10537,7 +10537,7 @@ mBounds
 nscolor
 mColor
 ;
-PRPackedBool
+bool
 mSnappingEnabled
 ;
 }
@@ -10620,7 +10620,7 @@ aOutFrames
 )
 ;
 virtual
-PRBool
+bool
 ComputeVisibility
 (
 nsDisplayListBuilder
@@ -10642,7 +10642,7 @@ GetOpaqueRegion
 nsDisplayListBuilder
 *
 aBuilder
-PRBool
+bool
 *
 aForceTransparentSurface
 =
@@ -10650,7 +10650,7 @@ nsnull
 )
 ;
 virtual
-PRBool
+bool
 IsVaryingRelativeToMovingFrame
 (
 nsDisplayListBuilder
@@ -10662,7 +10662,7 @@ aFrame
 )
 ;
 virtual
-PRBool
+bool
 IsUniform
 (
 nsDisplayListBuilder
@@ -10674,7 +10674,7 @@ aColor
 )
 ;
 virtual
-PRBool
+bool
 ShouldFixToViewport
 (
 nsDisplayListBuilder
@@ -10747,10 +10747,10 @@ cheap
 call
 *
 /
-PRPackedBool
+bool
 mIsThemed
 ;
-PRPackedBool
+bool
 mSnappingEnabled
 ;
 nsITheme
@@ -10852,7 +10852,7 @@ aBuilder
 )
 ;
 virtual
-PRBool
+bool
 ComputeVisibility
 (
 nsDisplayListBuilder
@@ -10963,7 +10963,7 @@ aCtx
 )
 ;
 virtual
-PRBool
+bool
 ComputeVisibility
 (
 nsDisplayListBuilder
@@ -11080,7 +11080,7 @@ aCtx
 )
 ;
 virtual
-PRBool
+bool
 ComputeVisibility
 (
 nsDisplayListBuilder
@@ -11483,7 +11483,7 @@ GetOpaqueRegion
 nsDisplayListBuilder
 *
 aBuilder
-PRBool
+bool
 *
 aForceTransparentSurface
 =
@@ -11491,7 +11491,7 @@ nsnull
 )
 ;
 virtual
-PRBool
+bool
 IsUniform
 (
 nsDisplayListBuilder
@@ -11503,7 +11503,7 @@ aColor
 )
 ;
 virtual
-PRBool
+bool
 IsVaryingRelativeToMovingFrame
 (
 nsDisplayListBuilder
@@ -11527,7 +11527,7 @@ aCtx
 )
 ;
 virtual
-PRBool
+bool
 ComputeVisibility
 (
 nsDisplayListBuilder
@@ -11543,7 +11543,7 @@ aAllowVisibleRegionExpansion
 )
 ;
 virtual
-PRBool
+bool
 TryMerge
 (
 nsDisplayListBuilder
@@ -11722,7 +11722,7 @@ aActiveScrolledRoot
 *
 /
 static
-PRBool
+bool
 ChildrenCanBeInactive
 (
 nsDisplayListBuilder
@@ -11855,13 +11855,13 @@ and
 destructors
 .
 virtual
-PRBool
+bool
 WrapBorderBackground
 (
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 virtual
@@ -12011,7 +12011,7 @@ GetOpaqueRegion
 nsDisplayListBuilder
 *
 aBuilder
-PRBool
+bool
 *
 aForceTransparentSurface
 =
@@ -12050,7 +12050,7 @@ aManager
 )
 ;
 virtual
-PRBool
+bool
 ComputeVisibility
 (
 nsDisplayListBuilder
@@ -12066,7 +12066,7 @@ aAllowVisibleRegionExpansion
 )
 ;
 virtual
-PRBool
+bool
 TryMerge
 (
 nsDisplayListBuilder
@@ -12181,7 +12181,7 @@ LAYER_ACTIVE
 ;
 }
 virtual
-PRBool
+bool
 TryMerge
 (
 nsDisplayListBuilder
@@ -12583,7 +12583,7 @@ aContainerParameters
 )
 ;
 virtual
-PRBool
+bool
 ComputeVisibility
 (
 nsDisplayListBuilder
@@ -12611,7 +12611,7 @@ aManager
 )
 ;
 virtual
-PRBool
+bool
 TryMerge
 (
 nsDisplayListBuilder
@@ -12623,7 +12623,7 @@ aItem
 )
 ;
 virtual
-PRBool
+bool
 ShouldFlattenAway
 (
 nsDisplayListBuilder
@@ -12834,7 +12834,7 @@ aManager
 )
 ;
 virtual
-PRBool
+bool
 TryMerge
 (
 nsDisplayListBuilder
@@ -12846,7 +12846,7 @@ aItem
 )
 ;
 virtual
-PRBool
+bool
 ShouldFlattenAway
 (
 nsDisplayListBuilder
@@ -13015,7 +13015,7 @@ aCtx
 )
 ;
 virtual
-PRBool
+bool
 ComputeVisibility
 (
 nsDisplayListBuilder
@@ -13031,7 +13031,7 @@ aAllowVisibleRegionExpansion
 )
 ;
 virtual
-PRBool
+bool
 TryMerge
 (
 nsDisplayListBuilder
@@ -13247,7 +13247,7 @@ GetOpaqueRegion
 nsDisplayListBuilder
 *
 aBuilder
-PRBool
+bool
 *
 aForceTransparentSurface
 =
@@ -13278,7 +13278,7 @@ aOutFrames
 )
 ;
 virtual
-PRBool
+bool
 ComputeVisibility
 (
 nsDisplayListBuilder
@@ -13294,7 +13294,7 @@ aAllowVisibleRegionExpansion
 )
 ;
 virtual
-PRBool
+bool
 TryMerge
 (
 nsDisplayListBuilder
@@ -13526,7 +13526,7 @@ aOutFrames
 )
 ;
 virtual
-PRBool
+bool
 ComputeVisibility
 (
 nsDisplayListBuilder
@@ -13671,7 +13671,7 @@ GetOpaqueRegion
 nsDisplayListBuilder
 *
 aBuilder
-PRBool
+bool
 *
 aForceTransparentSurface
 =
@@ -13735,7 +13735,7 @@ aCtx
 )
 ;
 virtual
-PRBool
+bool
 ComputeVisibility
 (
 nsDisplayListBuilder
@@ -13751,7 +13751,7 @@ aAllowVisibleRegionExpansion
 )
 ;
 virtual
-PRBool
+bool
 TryMerge
 (
 nsDisplayListBuilder
@@ -14135,7 +14135,7 @@ GetOpaqueRegion
 nsDisplayListBuilder
 *
 aBuilder
-PRBool
+bool
 *
 aForceTransparentSurface
 =
@@ -14143,7 +14143,7 @@ nsnull
 )
 ;
 virtual
-PRBool
+bool
 IsUniform
 (
 nsDisplayListBuilder
@@ -14186,7 +14186,7 @@ aContainerParameters
 )
 ;
 virtual
-PRBool
+bool
 ComputeVisibility
 (
 nsDisplayListBuilder
@@ -14202,7 +14202,7 @@ aAllowVisibleRegionExpansion
 )
 ;
 virtual
-PRBool
+bool
 TryMerge
 (
 nsDisplayListBuilder
@@ -14470,7 +14470,7 @@ transform
 *
 /
 static
-PRBool
+bool
 UntransformRect
 (
 const
@@ -15259,7 +15259,7 @@ ForcePaintOnScroll
 TYPE_FORCEPAINTONSCROLL
 )
 virtual
-PRBool
+bool
 IsVaryingRelativeToMovingFrame
 (
 nsDisplayListBuilder

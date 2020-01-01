@@ -1516,7 +1516,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRBool
+bool
 aIsBorderCollapse
 )
 ;

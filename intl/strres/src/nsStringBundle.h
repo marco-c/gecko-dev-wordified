@@ -586,10 +586,10 @@ mozilla
 ReentrantMonitor
 mReentrantMonitor
 ;
-PRPackedBool
+bool
 mAttemptedLoad
 ;
-PRPackedBool
+bool
 mLoaded
 ;
 public
@@ -673,7 +673,7 @@ nsIStringBundle
 >
 mBundles
 ;
-PRBool
+bool
 mLoaded
 ;
 public

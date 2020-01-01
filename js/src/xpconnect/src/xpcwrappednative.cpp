@@ -1531,7 +1531,7 @@ DEBUG_CHUNKS_TO_COUNT
 ]
 ;
 static
-PRBool
+bool
 DEBUG_DumpedWrapperStats
 ;
 #
@@ -12533,10 +12533,10 @@ proto
 "
 )
 ;
-PRBool
+bool
 found_our_proto
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -15311,7 +15311,7 @@ array_count
 nsXPTType
 datum_type
 ;
-PRBool
+bool
 isArray
 =
 type
@@ -15320,7 +15320,7 @@ IsArray
 (
 )
 ;
-PRBool
+bool
 isSizedString
 =
 isArray
@@ -17168,7 +17168,7 @@ array_count
 JSUint32
 array_capacity
 ;
-PRBool
+bool
 isArray
 =
 type
@@ -17177,7 +17177,7 @@ IsArray
 (
 )
 ;
-PRBool
+bool
 isSizedString
 =
 isArray
@@ -21113,7 +21113,7 @@ iface
 "
 )
 ;
-PRBool
+bool
 match
 ;
 return
@@ -21786,7 +21786,7 @@ nsnull
 }
 ;
 static
-PRBool
+bool
 warned
 =
 JS_FALSE
@@ -21872,7 +21872,7 @@ warned
 JS_TRUE
 ;
 }
-PRBool
+bool
 quit
 =
 JS_FALSE

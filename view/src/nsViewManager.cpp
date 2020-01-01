@@ -1031,7 +1031,7 @@ mVMCount
 #
 ifdef
 DEBUG
-PRBool
+bool
 removed
 =
 #
@@ -1845,7 +1845,7 @@ nsViewManager
 :
 FlushDelayedResize
 (
-PRBool
+bool
 aDoReflow
 )
 {
@@ -2616,9 +2616,9 @@ const
 nsIntRegion
 &
 aIntRegion
-PRBool
+bool
 aPaintDefaultBackground
-PRBool
+bool
 aWillSendDidPaint
 )
 {
@@ -2684,7 +2684,7 @@ ProcessPendingUpdates
 nsView
 *
 aView
-PRBool
+bool
 aDoInvalidate
 )
 {
@@ -3410,7 +3410,7 @@ if
 aWidget
 )
 {
-PRBool
+bool
 visible
 ;
 aWidget
@@ -3610,7 +3610,7 @@ infinitely
 "
 )
 ;
-PRBool
+bool
 visible
 ;
 childWidget
@@ -3912,7 +3912,7 @@ PR_FALSE
 }
 }
 static
-PRBool
+bool
 ShouldIgnoreInvalidation
 (
 nsViewManager
@@ -4433,7 +4433,7 @@ GetNextSibling
 }
 }
 static
-PRBool
+bool
 IsViewForPopup
 (
 nsIView
@@ -5109,10 +5109,10 @@ resize
 to
 handle
 .
-PRBool
+bool
 didResize
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -5320,10 +5320,10 @@ widget
 )
 )
 ;
-PRBool
+bool
 transparentWindow
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -7062,7 +7062,7 @@ aChild
 nsIView
 *
 aSibling
-PRBool
+bool
 aAfter
 )
 {
@@ -8119,7 +8119,7 @@ nscoord
 aY1
 nscoord
 aY2
-PRBool
+bool
 aInCutOut
 )
 {
@@ -8403,7 +8403,7 @@ const
 nsRect
 &
 aRect
-PRBool
+bool
 aRepaintExposedAreaOnly
 )
 {
@@ -8707,7 +8707,7 @@ SetViewFloating
 nsIView
 *
 aView
-PRBool
+bool
 aFloating
 )
 {
@@ -9079,7 +9079,7 @@ nsnull
 }
 }
 }
-PRBool
+bool
 nsViewManager
 :
 :
@@ -9182,11 +9182,11 @@ SetViewZIndex
 nsIView
 *
 aView
-PRBool
+bool
 aAutoZIndex
 PRInt32
 aZIndex
-PRBool
+bool
 aTopMost
 )
 {
@@ -9277,7 +9277,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 oldTopMost
 =
 view
@@ -9287,7 +9287,7 @@ IsTopMost
 (
 )
 ;
-PRBool
+bool
 oldIsAuto
 =
 view
@@ -9947,7 +9947,7 @@ nsViewManager
 :
 IsPainting
 (
-PRBool
+bool
 &
 aIsPainting
 )
@@ -10030,7 +10030,7 @@ nsViewManager
 :
 CallWillPaintOnObservers
 (
-PRBool
+bool
 aWillSendDidPaint
 )
 {
@@ -10378,7 +10378,7 @@ the
 batch
 ends
 .
-PRBool
+bool
 processEvent
 =
 (

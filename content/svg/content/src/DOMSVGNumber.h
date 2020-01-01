@@ -835,7 +835,7 @@ return
 clone
 ;
 }
-PRBool
+bool
 IsInList
 (
 )
@@ -875,7 +875,7 @@ IsInList
 .
 *
 /
-PRBool
+bool
 HasOwner
 (
 )
@@ -1233,7 +1233,7 @@ InternalItem
 #
 ifdef
 DEBUG
-PRBool
+bool
 IndexIsValid
 (
 )

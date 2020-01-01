@@ -494,7 +494,7 @@ nsRadioVisitor
 }
 NS_DECL_ISUPPORTS
 virtual
-PRBool
+bool
 Visit
 (
 nsIFormControl
@@ -566,7 +566,7 @@ aCheckedChanged
 {
 }
 virtual
-PRBool
+bool
 Visit
 (
 nsIFormControl
@@ -648,7 +648,7 @@ aExcludeElement
 {
 }
 virtual
-PRBool
+bool
 Visit
 (
 nsIFormControl
@@ -734,7 +734,7 @@ aNotify
 {
 }
 virtual
-PRBool
+bool
 Visit
 (
 nsIFormControl

@@ -551,7 +551,7 @@ NS_DECL_NSIDOMHTMLFRAMEELEMENT
 /
 nsIContent
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -570,7 +570,7 @@ aResult
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -757,7 +757,7 @@ aContentDocument
 )
 ;
 }
-PRBool
+bool
 nsHTMLFrameElement
 :
 :
@@ -931,7 +931,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLFrameElement
 :

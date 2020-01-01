@@ -5261,10 +5261,10 @@ dataLen
 =
 0
 ;
-PRBool
+bool
 dataFound
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5908,7 +5908,7 @@ is
 .
 /
 /
-PRBool
+bool
 nsClipboard
 :
 :
@@ -6318,7 +6318,7 @@ unicode
 .
 /
 /
-PRBool
+bool
 nsClipboard
 :
 :
@@ -6338,10 +6338,10 @@ PRUint32
 outDataLen
 )
 {
-PRBool
+bool
 dataFound
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -6588,7 +6588,7 @@ case
 .
 /
 /
-PRBool
+bool
 nsClipboard
 :
 :
@@ -6608,10 +6608,10 @@ PRUint32
 outDataLen
 )
 {
-PRBool
+bool
 dataFound
 =
-PR_FALSE
+false
 ;
 nsresult
 loadResult
@@ -7052,7 +7052,7 @@ currently
 )
 /
 /
-PRBool
+bool
 nsClipboard
 :
 :
@@ -7072,10 +7072,10 @@ PRUint32
 outDataLen
 )
 {
-PRBool
+bool
 dataFound
 =
-PR_FALSE
+false
 ;
 void
 *
@@ -7287,7 +7287,7 @@ encoded
 nsCString
 urlUnescapedA
 ;
-PRBool
+bool
 unescaped
 =
 NS_UnescapeURL
@@ -7553,7 +7553,7 @@ with
 URL
 /
 /
-PRBool
+bool
 nsClipboard
 :
 :
@@ -7872,7 +7872,7 @@ PRUint32
 aLength
 PRInt32
 aWhichClipboard
-PRBool
+bool
 *
 _retval
 )

@@ -1082,7 +1082,7 @@ const
 nsAString
 &
 aVersion
-PRBool
+bool
 *
 aReturn
 )
@@ -1698,7 +1698,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-PRBool
+bool
 aNotify
 CharacterDataChangeInfo
 :
@@ -1847,7 +1847,7 @@ UPDATE_CONTENT_MODEL
 aNotify
 )
 ;
-PRBool
+bool
 haveMutationListeners
 =
 aNotify
@@ -2761,7 +2761,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -3314,9 +3314,9 @@ nsGenericDOMDataNode
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -3538,7 +3538,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -3557,7 +3557,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttr
-PRBool
+bool
 aNotify
 )
 {
@@ -3565,7 +3565,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsGenericDOMDataNode
 :
 :
@@ -3592,7 +3592,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsGenericDOMDataNode
 :
 :
@@ -3721,7 +3721,7 @@ nsIContent
 aKid
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 {
@@ -3737,7 +3737,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 {
@@ -3774,7 +3774,7 @@ mBindingParent
 nsnull
 ;
 }
-PRBool
+bool
 nsGenericDOMDataNode
 :
 :
@@ -3894,7 +3894,7 @@ FILE
 out
 PRInt32
 aIndent
-PRBool
+bool
 aDumpAll
 )
 const
@@ -3902,7 +3902,7 @@ const
 }
 #
 endif
-PRBool
+bool
 nsGenericDOMDataNode
 :
 :
@@ -4034,7 +4034,7 @@ nsIContent
 *
 *
 aReturn
-PRBool
+bool
 aCloneAfterOriginal
 )
 {
@@ -5220,7 +5220,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-PRBool
+bool
 aNotify
 )
 {
@@ -5251,7 +5251,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-PRBool
+bool
 aNotify
 )
 {
@@ -5270,7 +5270,7 @@ aNotify
 )
 ;
 }
-PRBool
+bool
 nsGenericDOMDataNode
 :
 :
@@ -5514,7 +5514,7 @@ css
 StyleRule
 *
 aStyleRule
-PRBool
+bool
 aNotify
 )
 {
@@ -5574,7 +5574,7 @@ css
 StyleRule
 *
 aStyleRule
-PRBool
+bool
 aNotify
 )
 {
@@ -5604,7 +5604,7 @@ NS_ERROR_UNEXPECTED
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsGenericDOMDataNode
 :

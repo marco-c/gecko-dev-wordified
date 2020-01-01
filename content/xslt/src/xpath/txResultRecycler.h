@@ -725,7 +725,7 @@ aResult
 void
 getBoolResult
 (
-PRBool
+bool
 aValue
 txAExprResult
 *

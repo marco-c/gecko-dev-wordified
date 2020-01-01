@@ -2222,7 +2222,7 @@ implementation
 NS_IMETHOD
 Start
 (
-PRBool
+bool
 *
 aResult
 )
@@ -2230,7 +2230,7 @@ aResult
 NS_IMETHOD
 Stop
 (
-PRBool
+bool
 *
 aResult
 )
@@ -2391,7 +2391,7 @@ len
 )
 ;
 static
-PRBool
+bool
 InitTopicStrings
 (
 )
@@ -2477,7 +2477,7 @@ DWORD
 mInstance
 ;
 static
-PRBool
+bool
 mCanHandleRequests
 ;
 static
@@ -2487,7 +2487,7 @@ mMutexName
 ]
 ;
 static
-PRBool
+bool
 mUseDDE
 ;
 friend
@@ -2714,13 +2714,13 @@ mInstance
 =
 0
 ;
-PRBool
+bool
 nsNativeAppSupportOS2
 :
 :
 mCanHandleRequests
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -4826,13 +4826,13 @@ mMsgWindowAtom
 /
 struct
 MessageWindow
-PRBool
+bool
 nsNativeAppSupportOS2
 :
 :
 mUseDDE
 =
-PR_FALSE
+false
 ;
 /
 *
@@ -4946,7 +4946,7 @@ nsNativeAppSupportOS2
 :
 Start
 (
-PRBool
+bool
 *
 aResult
 )
@@ -5526,7 +5526,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsNativeAppSupportOS2
 :
 :
@@ -5921,7 +5921,7 @@ nsNativeAppSupportOS2
 :
 Stop
 (
-PRBool
+bool
 *
 aResult
 )
@@ -10183,7 +10183,7 @@ them
 will
 be
 ignored
-PRBool
+bool
 found
 ;
 cmdLine
@@ -11355,7 +11355,7 @@ function
 s
 return
 .
-PRBool
+bool
 StartOS2App
 (
 int
@@ -11366,10 +11366,10 @@ char
 aArgv
 )
 {
-PRBool
+bool
 rv
 =
-PR_TRUE
+true
 ;
 PPIB
 ppib

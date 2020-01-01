@@ -941,7 +941,7 @@ nsXPathNamespace
 :
 HasChildNodes
 (
-PRBool
+bool
 *
 aResult
 )
@@ -968,7 +968,7 @@ nsXPathNamespace
 :
 CloneNode
 (
-PRBool
+bool
 deep
 nsIDOMNode
 *
@@ -1030,7 +1030,7 @@ const
 nsAString
 &
 version
-PRBool
+bool
 *
 aResult
 )
@@ -1141,7 +1141,7 @@ nsXPathNamespace
 :
 HasAttributes
 (
-PRBool
+bool
 *
 aResult
 )

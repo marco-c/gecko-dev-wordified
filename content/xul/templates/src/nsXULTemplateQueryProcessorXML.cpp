@@ -709,7 +709,7 @@ nsXULTemplateResultSetXML
 :
 HasMoreElements
 (
-PRBool
+bool
 *
 aResult
 )
@@ -1214,12 +1214,12 @@ aDataSources
 nsIDOMNode
 *
 aRootNode
-PRBool
+bool
 aIsTrusted
 nsIXULTemplateBuilder
 *
 aBuilder
-PRBool
+bool
 *
 aShouldDelayBuilding
 nsISupports
@@ -1399,10 +1399,10 @@ NodePrincipal
 (
 )
 ;
-PRBool
+bool
 hasHadScriptObject
 =
-PR_TRUE
+true
 ;
 nsIScriptGlobalObject
 *

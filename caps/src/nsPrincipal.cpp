@@ -608,19 +608,19 @@ namespace
 mozilla
 ;
 static
-PRBool
+bool
 gCodeBasePrincipalSupport
 =
-PR_FALSE
+false
 ;
 static
-PRBool
+bool
 gIsObservingCodeBasePrincipalSupport
 =
-PR_FALSE
+false
 ;
 static
-PRBool
+bool
 URIIsImmutable
 (
 nsIURI
@@ -640,7 +640,7 @@ aURI
 )
 )
 ;
-PRBool
+bool
 isMutable
 ;
 return
@@ -1268,7 +1268,7 @@ in
 bug
 160042
 .
-PRBool
+bool
 isChrome
 ;
 nsresult
@@ -1520,7 +1520,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsPrincipal
 :
 :
@@ -1531,7 +1531,7 @@ nsIPrincipal
 aOther
 )
 {
-PRBool
+bool
 otherHasCert
 ;
 aOther
@@ -1718,7 +1718,7 @@ Equals
 nsIPrincipal
 *
 aOther
-PRBool
+bool
 *
 aResult
 )
@@ -1939,7 +1939,7 @@ EqualsIgnoringDomain
 nsIPrincipal
 *
 aOther
-PRBool
+bool
 *
 aResult
 )
@@ -2058,7 +2058,7 @@ Subsumes
 nsIPrincipal
 *
 aOther
-PRBool
+bool
 *
 aResult
 )
@@ -2072,7 +2072,7 @@ aResult
 ;
 }
 static
-PRBool
+bool
 URIIsLocalFile
 (
 nsIURI
@@ -2080,7 +2080,7 @@ nsIURI
 aURI
 )
 {
-PRBool
+bool
 isFile
 ;
 nsCOMPtr
@@ -2127,7 +2127,7 @@ CheckMayLoad
 nsIURI
 *
 aURI
-PRBool
+bool
 aReport
 )
 {
@@ -2305,7 +2305,7 @@ nsIFile
 >
 codebaseFile
 ;
-PRBool
+bool
 targetIsDir
 ;
 /
@@ -2496,13 +2496,13 @@ codebase
 .
 /
 /
-PRBool
+bool
 codebaseIsDir
 ;
-PRBool
+bool
 contained
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -2796,10 +2796,10 @@ if
 gCodeBasePrincipalSupport
 )
 {
-PRBool
+bool
 mightEnable
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -3230,7 +3230,7 @@ capability
 void
 *
 annotation
-PRBool
+bool
 *
 result
 )
@@ -3744,7 +3744,7 @@ nsPrincipal
 :
 GetHasCertificate
 (
-PRBool
+bool
 *
 aResult
 )
@@ -4318,9 +4318,9 @@ aDeniedList
 nsISupports
 *
 aCert
-PRBool
+bool
 aIsCert
-PRBool
+bool
 aTrusted
 )
 {
@@ -4689,7 +4689,7 @@ denied
 }
 ;
 static
-PRBool
+bool
 AppendCapability
 (
 nsHashKey
@@ -4857,7 +4857,7 @@ char
 *
 *
 aDeniedList
-PRBool
+bool
 *
 aIsTrusted
 )
@@ -5490,7 +5490,7 @@ nsIObjectInputStream
 aStream
 )
 {
-PRBool
+bool
 hasCapabilities
 ;
 nsresult
@@ -5613,7 +5613,7 @@ n
 ;
 }
 }
-PRBool
+bool
 haveCert
 ;
 rv
@@ -5833,7 +5833,7 @@ rv
 aStream
 -
 >
-Read8
+ReadBoolean
 (
 &
 mTrusted
@@ -5928,7 +5928,7 @@ to
 serialize
 that
 .
-PRBool
+bool
 hasCapabilities
 =
 (

@@ -705,7 +705,7 @@ DidChangeLength
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -753,7 +753,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -859,7 +859,7 @@ GetStringInfo
 (
 )
 ;
-PRBool
+bool
 HasValidDimensions
 (
 )

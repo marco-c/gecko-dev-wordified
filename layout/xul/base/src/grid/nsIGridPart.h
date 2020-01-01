@@ -950,7 +950,7 @@ GetTotalMargin
 nsIBox
 *
 aBox
-PRBool
+bool
 aIsHorizontal
 )
 =
@@ -1019,7 +1019,7 @@ argument
 .
 *
 /
-PRBool
+bool
 CanContain
 (
 nsIGridPart

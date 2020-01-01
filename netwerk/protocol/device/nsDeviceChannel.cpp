@@ -773,7 +773,7 @@ nsDeviceChannel
 :
 OpenContentStream
 (
-PRBool
+bool
 aAsync
 nsIInputStream
 *
@@ -1231,11 +1231,11 @@ camera
 .
 enabled
 "
-PR_FALSE
+false
 )
 =
 =
-PR_TRUE
+true
 )
 capture
 =

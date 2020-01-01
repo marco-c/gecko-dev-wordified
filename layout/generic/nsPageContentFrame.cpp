@@ -564,7 +564,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 {
@@ -1333,7 +1333,7 @@ endif
 virtual
 *
 /
-PRBool
+bool
 nsPageContentFrame
 :
 :

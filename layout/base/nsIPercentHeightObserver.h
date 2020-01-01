@@ -527,7 +527,7 @@ aReflowState
 .
 frame
 virtual
-PRBool
+bool
 NeedsToObserve
 (
 const

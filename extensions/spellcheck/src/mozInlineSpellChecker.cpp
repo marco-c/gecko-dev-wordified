@@ -1144,7 +1144,7 @@ define
 MISSPELLED_WORD_COUNT_PENALTY
 4
 static
-PRBool
+bool
 ContentIsDescendantOf
 (
 nsINode
@@ -1847,7 +1847,7 @@ mozInlineSpellStatus
 :
 InitForNavigation
 (
-PRBool
+bool
 aForceCheck
 PRInt32
 aNewPositionOffset
@@ -1861,7 +1861,7 @@ nsIDOMNode
 aNewAnchorNode
 PRInt32
 aNewAnchorOffset
-PRBool
+bool
 *
 aContinue
 )
@@ -2893,10 +2893,10 @@ the
 old
 cursor
 position
-PRBool
+bool
 isInRange
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3720,7 +3720,7 @@ mozInlineSpellChecker
 :
 Cleanup
 (
-PRBool
+bool
 aDestroyingFrames
 )
 {
@@ -3940,7 +3940,7 @@ wrong
 cached
 result
 .
-PRBool
+bool
 /
 /
 static
@@ -3995,10 +3995,10 @@ rv
 PR_FALSE
 )
 ;
-PRBool
+bool
 canSpellCheck
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -4349,7 +4349,7 @@ mozInlineSpellChecker
 :
 GetEnableRealTimeSpell
 (
-PRBool
+bool
 *
 aEnabled
 )
@@ -4383,7 +4383,7 @@ mozInlineSpellChecker
 :
 SetEnableRealTimeSpell
 (
-PRBool
+bool
 aEnabled
 )
 {
@@ -6391,7 +6391,7 @@ aEditor
 nsIDOMNode
 *
 aNode
-PRBool
+bool
 *
 checkSpelling
 )
@@ -7136,7 +7136,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 doneChecking
 ;
 for
@@ -7629,7 +7629,7 @@ aSpellCheckSelection
 mozInlineSpellStatus
 *
 aStatus
-PRBool
+bool
 *
 aDoneChecking
 )
@@ -7692,7 +7692,7 @@ editor
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 iscollapsed
 ;
 nsresult
@@ -7988,7 +7988,7 @@ nsIDOMRange
 >
 wordRange
 ;
-PRBool
+bool
 dontCheckWord
 ;
 while
@@ -8184,10 +8184,10 @@ won
 t
 bother
 testing
-PRBool
+bool
 inCreatedRange
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -8295,7 +8295,7 @@ don
 '
 t
 spellcheck
-PRBool
+bool
 checkSpelling
 ;
 rv
@@ -8407,10 +8407,10 @@ if
 noCheckRange
 )
 {
-PRBool
+bool
 inExclusion
 =
-PR_FALSE
+false
 ;
 noCheckRange
 -
@@ -8440,7 +8440,7 @@ to
 selection
 if
 misspelled
-PRBool
+bool
 isMisspelled
 ;
 aWordUtil
@@ -8951,10 +8951,10 @@ range
 nothing
 to
 do
-PRBool
+bool
 doneChecking
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -9310,7 +9310,7 @@ if
 checkRange
 )
 {
-PRBool
+bool
 collapsed
 ;
 checkRange
@@ -9753,7 +9753,7 @@ XPCOM
 s
 rap
 sheet
-PRBool
+bool
 /
 /
 static
@@ -9944,7 +9944,7 @@ mozInlineSpellChecker
 :
 HandleNavigationEvent
 (
-PRBool
+bool
 aForceWordSpellCheck
 PRInt32
 aNewPositionOffset
@@ -10049,7 +10049,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 shouldPost
 ;
 mozInlineSpellStatus

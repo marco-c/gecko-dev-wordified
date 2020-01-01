@@ -757,9 +757,9 @@ const
 nsSMILTimeContainer
 *
 aSrcContainer
-PRBool
+bool
 aBeginObjectChanged
-PRBool
+bool
 aEndObjectChanged
 )
 {
@@ -869,7 +869,7 @@ Unlink
 return
 ;
 }
-PRBool
+bool
 objectChanged
 =
 mCreator
@@ -888,7 +888,7 @@ mozilla
 :
 AutoRestore
 <
-PRPackedBool
+bool
 >
 setVisited
 (
@@ -1055,7 +1055,7 @@ mCreator
 nsnull
 ;
 }
-PRBool
+bool
 nsSMILInstanceTime
 :
 :
@@ -1176,7 +1176,7 @@ kWasDynamicEndpoint
 ;
 }
 }
-PRBool
+bool
 nsSMILInstanceTime
 :
 :
@@ -1234,7 +1234,7 @@ mozilla
 :
 AutoRestore
 <
-PRPackedBool
+bool
 >
 setVisited
 (

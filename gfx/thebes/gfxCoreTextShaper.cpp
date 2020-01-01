@@ -801,7 +801,7 @@ mCTFont
 ;
 }
 }
-PRBool
+bool
 gfxCoreTextShaper
 :
 :
@@ -850,7 +850,7 @@ with
 this
 particular
 font
-PRBool
+bool
 disableLigatures
 =
 (
@@ -890,7 +890,7 @@ lay
 it
 out
 .
-PRBool
+bool
 isRTL
 =
 aTextRun
@@ -932,7 +932,7 @@ overridden
 )
 RTL
 chars
-PRBool
+bool
 bidiWrap
 =
 isRTL
@@ -1464,10 +1464,10 @@ extra
 glyphs
 from
 there
-PRBool
+bool
 success
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -1690,7 +1690,7 @@ CoreText
 layout
 process
 .
-PRBool
+bool
 isLTR
 =
 !
@@ -2875,10 +2875,10 @@ glyphs
 are
 accounted
 for
-PRBool
+bool
 inOrder
 =
-PR_TRUE
+true
 ;
 PRInt32
 charEnd
@@ -3232,10 +3232,10 @@ end
 of
 the
 text
-PRBool
+bool
 allGlyphsAreWithinCluster
 =
-PR_TRUE
+true
 ;
 PRInt32
 prevGlyphCharIndex

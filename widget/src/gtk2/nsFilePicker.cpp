@@ -1959,7 +1959,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRBool
+bool
 confirm_overwrite_file
 (
 GtkWidget
@@ -2178,7 +2178,7 @@ dialog
 )
 ;
 }
-PRBool
+bool
 result
 =
 (
@@ -2980,10 +2980,10 @@ if
 file
 )
 {
-PRBool
+bool
 exists
 =
-PR_FALSE
+false
 ;
 file
 -

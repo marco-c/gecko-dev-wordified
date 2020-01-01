@@ -665,7 +665,7 @@ return
 true
 .
 static
-PRBool
+bool
 HttpRequestSucceeded
 (
 nsIStreamLoader
@@ -690,10 +690,10 @@ request
 )
 )
 ;
-PRBool
+bool
 result
 =
-PR_TRUE
+true
 ;
 /
 /

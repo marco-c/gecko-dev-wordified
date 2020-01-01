@@ -641,7 +641,7 @@ scoper
 insert
 )
 ;
-PRBool
+bool
 hasResult
 ;
 do_check_true
@@ -690,7 +690,7 @@ scoper
 select
 )
 ;
-PRBool
+bool
 hasResult
 ;
 do_check_true
@@ -955,7 +955,7 @@ scoper
 insert
 )
 ;
-PRBool
+bool
 hasResult
 ;
 do_check_true
@@ -1004,7 +1004,7 @@ scoper
 select
 )
 ;
-PRBool
+bool
 hasResult
 ;
 do_check_true
@@ -1294,7 +1294,7 @@ scoper
 insert
 )
 ;
-PRBool
+bool
 hasResult
 ;
 do_check_true
@@ -1343,7 +1343,7 @@ scoper
 select
 )
 ;
-PRBool
+bool
 hasResult
 ;
 do_check_true
@@ -1409,7 +1409,7 @@ scoper
 select
 )
 ;
-PRBool
+bool
 hasResult
 ;
 do_check_true
@@ -1494,7 +1494,7 @@ scoper
 insert
 )
 ;
-PRBool
+bool
 hasResult
 ;
 do_check_true
@@ -1543,7 +1543,7 @@ scoper
 select
 )
 ;
-PRBool
+bool
 hasResult
 ;
 do_check_true
@@ -1609,7 +1609,7 @@ scoper
 select
 )
 ;
-PRBool
+bool
 hasResult
 ;
 do_check_true

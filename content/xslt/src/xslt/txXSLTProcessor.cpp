@@ -515,7 +515,7 @@ return
 MB_FALSE
 ;
 extern
-PRBool
+bool
 TX_InitEXSLTFunction
 (
 )

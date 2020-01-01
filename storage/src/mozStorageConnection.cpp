@@ -1873,10 +1873,10 @@ close
 and
 notify
 .
-PRBool
+bool
 onCallingThread
 =
-PR_FALSE
+false
 ;
 (
 void
@@ -3788,7 +3788,7 @@ const
 nsACString
 &
 aElementName
-PRBool
+bool
 *
 _exists
 )
@@ -4076,7 +4076,7 @@ if
 mProgressHandler
 )
 {
-PRBool
+bool
 result
 ;
 nsresult
@@ -4144,7 +4144,7 @@ close
 the
 database
 .
-PRBool
+bool
 onOpenedThread
 ;
 nsresult
@@ -4334,10 +4334,10 @@ were
 opened
 with
 .
-PRBool
+bool
 onOpenedThread
 =
-PR_FALSE
+false
 ;
 (
 void
@@ -5084,7 +5084,7 @@ Connection
 :
 Clone
 (
-PRBool
+bool
 aReadOnly
 mozIStorageConnection
 *
@@ -5232,7 +5232,7 @@ Connection
 :
 GetConnectionReady
 (
-PRBool
+bool
 *
 _ready
 )
@@ -5450,7 +5450,7 @@ _version
 =
 0
 ;
-PRBool
+bool
 hasResult
 ;
 if
@@ -5909,7 +5909,7 @@ const
 nsACString
 &
 aTableName
-PRBool
+bool
 *
 _exists
 )
@@ -5933,7 +5933,7 @@ const
 nsACString
 &
 aIndexName
-PRBool
+bool
 *
 _exists
 )
@@ -5953,7 +5953,7 @@ Connection
 :
 GetTransactionInProgress
 (
-PRBool
+bool
 *
 _inProgress
 )

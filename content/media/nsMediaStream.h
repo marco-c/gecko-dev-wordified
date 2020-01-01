@@ -826,7 +826,7 @@ aBytes
 double
 GetRateAtLastStop
 (
-PRPackedBool
+bool
 *
 aReliable
 )
@@ -881,7 +881,7 @@ GetRate
 (
 TimeStamp
 aNow
-PRPackedBool
+bool
 *
 aReliable
 )
@@ -960,7 +960,7 @@ mAccumulatedTime
 TimeStamp
 mLastStartTime
 ;
-PRPackedBool
+bool
 mIsStarted
 ;
 }
@@ -1044,7 +1044,7 @@ start
 )
 ;
 }
-PRBool
+bool
 IsNull
 (
 )
@@ -1334,7 +1334,7 @@ virtual
 void
 Suspend
 (
-PRBool
+bool
 aCloseImmediately
 )
 =
@@ -2043,7 +2043,7 @@ virtual
 double
 GetDownloadRate
 (
-PRPackedBool
+bool
 *
 aIsReliable
 )
@@ -2261,7 +2261,7 @@ return
 false
 .
 virtual
-PRBool
+bool
 IsDataCachedToEndOfStream
 (
 PRInt64
@@ -2328,7 +2328,7 @@ this
 changes
 .
 virtual
-PRBool
+bool
 IsSuspendedByCache
 (
 )
@@ -2347,7 +2347,7 @@ been
 suspended
 .
 virtual
-PRBool
+bool
 IsSuspended
 (
 )
@@ -2815,7 +2815,7 @@ in
 the
 background
 .
-PRPackedBool
+bool
 mLoadInBackground
 ;
 }
@@ -3124,7 +3124,7 @@ CacheClientSeek
 (
 PRInt64
 aOffset
-PRBool
+bool
 aResume
 )
 ;
@@ -3185,7 +3185,7 @@ virtual
 void
 Suspend
 (
-PRBool
+bool
 aCloseImmediately
 )
 ;
@@ -3215,7 +3215,7 @@ has
 been
 closed
 .
-PRBool
+bool
 IsClosed
 (
 )
@@ -3325,7 +3325,7 @@ virtual
 double
 GetDownloadRate
 (
-PRPackedBool
+bool
 *
 aIsReliable
 )
@@ -3353,7 +3353,7 @@ aOffset
 )
 ;
 virtual
-PRBool
+bool
 IsDataCachedToEndOfStream
 (
 PRInt64
@@ -3361,13 +3361,13 @@ aOffset
 )
 ;
 virtual
-PRBool
+bool
 IsSuspendedByCache
 (
 )
 ;
 virtual
-PRBool
+bool
 IsSuspended
 (
 )
@@ -3728,7 +3728,7 @@ reopen
 the
 stream
 .
-PRPackedBool
+bool
 mReopenOnError
 ;
 /
@@ -3751,7 +3751,7 @@ the
 /
 channel
 .
-PRPackedBool
+bool
 mIgnoreClose
 ;
 /
@@ -3826,7 +3826,7 @@ the
 suspend
 request
 .
-PRPackedBool
+bool
 mIgnoreResume
 ;
 }

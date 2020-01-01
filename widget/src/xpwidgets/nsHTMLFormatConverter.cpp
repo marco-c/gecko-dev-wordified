@@ -1101,7 +1101,7 @@ const
 char
 *
 aToDataFlavor
-PRBool
+bool
 *
 _retval
 )

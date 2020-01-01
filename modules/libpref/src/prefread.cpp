@@ -700,7 +700,7 @@ memory
 *
 /
 static
-PRBool
+bool
 pref_GrowBuf
 (
 PrefParseState
@@ -922,7 +922,7 @@ error
 *
 /
 static
-PRBool
+bool
 pref_DoCallback
 (
 PrefParseState
@@ -1422,7 +1422,7 @@ line
 >
 *
 /
-PRBool
+bool
 PREF_ParseBuf
 (
 PrefParseState
@@ -4228,7 +4228,7 @@ PrefValue
 val
 PrefType
 type
-PRBool
+bool
 defPref
 )
 {

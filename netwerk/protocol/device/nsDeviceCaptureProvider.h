@@ -454,10 +454,10 @@ h
 struct
 nsCaptureParams
 {
-PRPackedBool
+bool
 captureAudio
 ;
-PRPackedBool
+bool
 captureVideo
 ;
 PRUint32

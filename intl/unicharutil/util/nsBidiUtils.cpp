@@ -823,7 +823,7 @@ HandleNumberInChar
 (
 PRUnichar
 aChar
-PRBool
+bool
 aPrevCharArabic
 PRUint32
 aNumFlag
@@ -1048,7 +1048,7 @@ NS_OK
 define
 LRM_CHAR
 0x200e
-PRBool
+bool
 IsBidiControl
 (
 PRUint32
@@ -1113,7 +1113,7 @@ LRM_CHAR
 )
 ;
 }
-PRBool
+bool
 HasRTLChars
 (
 const

@@ -676,7 +676,7 @@ next
 continuations
 ?
 static
-PRBool
+bool
 IsInPrevContinuationChain
 (
 nsIFrame
@@ -688,7 +688,7 @@ aFrame2
 )
 ;
 static
-PRBool
+bool
 IsInNextContinuationChain
 (
 nsIFrame

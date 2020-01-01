@@ -853,7 +853,7 @@ set
 *
 /
 virtual
-PRBool
+bool
 GetAnimAttr
 (
 nsIAtom
@@ -885,7 +885,7 @@ namespace
 *
 /
 virtual
-PRBool
+bool
 HasAnimAttr
 (
 nsIAtom
@@ -943,7 +943,7 @@ property
 *
 /
 virtual
-PRBool
+bool
 GetTargetAttributeName
 (
 PRInt32

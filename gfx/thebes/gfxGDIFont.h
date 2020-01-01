@@ -513,7 +513,7 @@ const
 gfxFontStyle
 *
 aFontStyle
-PRBool
+bool
 aNeedsBold
 AntialiasOption
 anAAOption
@@ -613,7 +613,7 @@ GetSpaceGlyph
 )
 ;
 virtual
-PRBool
+bool
 SetupCairoFont
 (
 gfxContext
@@ -678,13 +678,13 @@ anAAOption
 )
 ;
 virtual
-PRBool
+bool
 ProvidesGlyphWidths
 (
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -738,7 +738,7 @@ GDI
 *
 /
 virtual
-PRBool
+bool
 InitTextRun
 (
 gfxContext
@@ -757,10 +757,10 @@ PRUint32
 aRunLength
 PRInt32
 aRunScript
-PRBool
+bool
 aPreferPlatformShaping
 =
-PR_FALSE
+false
 )
 ;
 void
@@ -827,7 +827,7 @@ mMetrics
 PRUint32
 mSpaceGlyph
 ;
-PRBool
+bool
 mNeedsBold
 ;
 /

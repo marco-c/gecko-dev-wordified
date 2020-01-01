@@ -546,7 +546,7 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 GetVisibleByFlag
 (
-PRBool
+bool
 *
 aVisible
 PRUint32
@@ -556,7 +556,7 @@ aChromeFlag
 NS_IMETHOD
 SetVisibleByFlag
 (
-PRBool
+bool
 aVisible
 PRUint32
 aChromeFlag

@@ -517,7 +517,7 @@ nsIRDFResource
 aProperty
 )
 ;
-PRBool
+bool
 Contains
 (
 nsIRDFResource
@@ -678,7 +678,7 @@ return
 mCurrent
 ;
 }
-PRBool
+bool
 operator
 =
 =
@@ -699,7 +699,7 @@ aConstIterator
 mCurrent
 ;
 }
-PRBool
+bool
 operator
 !
 =

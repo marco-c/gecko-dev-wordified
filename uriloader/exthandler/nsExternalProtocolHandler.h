@@ -529,7 +529,7 @@ protected
 /
 helper
 function
-PRBool
+bool
 HaveExternalProtocolHandler
 (
 nsIURI

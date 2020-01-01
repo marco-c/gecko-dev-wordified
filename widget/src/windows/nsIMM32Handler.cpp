@@ -939,29 +939,29 @@ IMEMOUSE_WDOWN
 /
 wheel
 down
-PRPackedBool
+bool
 nsIMM32Handler
 :
 :
 sIsStatusChanged
 =
-PR_FALSE
+false
 ;
-PRPackedBool
+bool
 nsIMM32Handler
 :
 :
 sIsIME
 =
-PR_TRUE
+true
 ;
-PRPackedBool
+bool
 nsIMM32Handler
 :
 :
 sIsIMEOpening
 =
-PR_FALSE
+false
 ;
 UINT
 nsIMM32Handler
@@ -1099,7 +1099,7 @@ nsnull
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -1122,7 +1122,7 @@ mIsComposing
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -1145,7 +1145,7 @@ mIsComposingOnPlugin
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -1174,7 +1174,7 @@ aWindow
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -1239,7 +1239,7 @@ GetWindowHandle
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -1724,7 +1724,7 @@ time
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -1914,7 +1914,7 @@ sCodePage
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -2327,7 +2327,7 @@ CommitComposition
 nsWindow
 *
 aWindow
-PRBool
+bool
 aForce
 )
 {
@@ -2436,7 +2436,7 @@ aWindow
 return
 ;
 }
-PRBool
+bool
 associated
 =
 aWindow
@@ -2444,7 +2444,7 @@ aWindow
 >
 AssociateDefaultIMC
 (
-PR_TRUE
+true
 )
 ;
 PR_LOG
@@ -2553,7 +2553,7 @@ CancelComposition
 nsWindow
 *
 aWindow
-PRBool
+bool
 aForce
 )
 {
@@ -2662,7 +2662,7 @@ aWindow
 return
 ;
 }
-PRBool
+bool
 associated
 =
 aWindow
@@ -2670,7 +2670,7 @@ aWindow
 >
 AssociateDefaultIMC
 (
-PR_TRUE
+true
 )
 ;
 PR_LOG
@@ -2756,7 +2756,7 @@ PR_FALSE
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -2772,7 +2772,7 @@ lParam
 LRESULT
 *
 aRetValue
-PRBool
+bool
 &
 aEatMessage
 )
@@ -2901,7 +2901,7 @@ PR_FALSE
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -2921,7 +2921,7 @@ lParam
 LRESULT
 *
 aRetValue
-PRBool
+bool
 &
 aEatMessage
 )
@@ -3426,7 +3426,7 @@ PR_FALSE
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -3446,7 +3446,7 @@ lParam
 LRESULT
 *
 aRetValue
-PRBool
+bool
 &
 aEatMessage
 )
@@ -3919,7 +3919,7 @@ handlers
 *
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -4001,7 +4001,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -4095,7 +4095,7 @@ ShouldDrawCompositionStringOurselves
 )
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -4288,7 +4288,7 @@ lParam
 )
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -4425,7 +4425,7 @@ ShouldDrawCompositionStringOurselves
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -4557,7 +4557,7 @@ PR_TRUE
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -4607,7 +4607,7 @@ PR_FALSE
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -5284,7 +5284,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -5460,7 +5460,7 @@ PR_FALSE
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -5524,7 +5524,7 @@ PR_FALSE
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -5742,10 +5742,10 @@ the
 old
 window
 .
-PRBool
+bool
 cancelComposition
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5904,7 +5904,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -6247,7 +6247,7 @@ in
 *
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -6308,7 +6308,7 @@ mComposingWindow
 =
 aWindow
 ;
-PRBool
+bool
 handled
 =
 aWindow
@@ -6326,7 +6326,7 @@ return
 handled
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -6534,7 +6534,7 @@ mComposingWindow
 aWindow
 ;
 }
-PRBool
+bool
 handled
 =
 aWindow
@@ -6552,7 +6552,7 @@ return
 handled
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -6613,7 +6613,7 @@ mComposingWindow
 =
 nsnull
 ;
-PRBool
+bool
 handled
 =
 aWindow
@@ -6631,7 +6631,7 @@ return
 handled
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -6681,7 +6681,7 @@ lParam
 )
 )
 ;
-PRBool
+bool
 handled
 =
 aWindow
@@ -6734,7 +6734,7 @@ handled
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -7010,7 +7010,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -7519,7 +7519,7 @@ mCompositionStart
 )
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -7880,7 +7880,7 @@ ShouldDrawCompositionStringOurselves
 )
 ;
 }
-PRBool
+bool
 startCompositionMessageHasBeenSent
 =
 mIsComposing
@@ -8520,7 +8520,7 @@ on
 all
 IMEs
 .
-PRBool
+bool
 useA_API
 =
 !
@@ -9803,7 +9803,7 @@ get
 )
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -10179,7 +10179,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -10421,7 +10421,7 @@ PR_FALSE
 nsIntRect
 r
 ;
-PRBool
+bool
 ret
 =
 GetCharacterRectOfSelectedTextAt
@@ -10569,7 +10569,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -10610,7 +10610,7 @@ point
 0
 )
 ;
-PRBool
+bool
 hasCompositionString
 =
 mIsComposing
@@ -11414,7 +11414,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -11724,7 +11724,7 @@ const
 nsIMEContext
 &
 aIMEContext
-PRBool
+bool
 aCheckAttr
 )
 {
@@ -12733,7 +12733,7 @@ get
 )
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -12767,10 +12767,10 @@ ShouldDrawCompositionStringOurselves
 PR_FALSE
 )
 ;
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 *
 aOffset
@@ -12961,7 +12961,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -13083,7 +13083,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -13180,7 +13180,7 @@ mOffset
 +
 aOffset
 ;
-PRBool
+bool
 useCaretRect
 =
 selection
@@ -13427,7 +13427,7 @@ aCharRect
 )
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -13640,7 +13640,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -13677,7 +13677,7 @@ composing
 /
 string
 .
-PRBool
+bool
 ret
 =
 GetCharacterRectOfSelectedTextAt
@@ -14359,7 +14359,7 @@ WidgetToScreenOffset
 )
 ;
 }
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -14704,7 +14704,7 @@ get
 static
 *
 /
-PRBool
+bool
 nsIMM32Handler
 :
 :
@@ -14717,7 +14717,7 @@ WPARAM
 wParam
 LPARAM
 lParam
-PRBool
+bool
 &
 aEatMessage
 )

@@ -446,10 +446,10 @@ NS_IsCycleCollectorThread
 (
 )
 {
-PRBool
+bool
 result
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <

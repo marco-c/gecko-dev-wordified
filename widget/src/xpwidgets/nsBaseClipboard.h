@@ -526,7 +526,7 @@ aWhichClipboard
 =
 0
 ;
-PRBool
+bool
 mIgnoreEmptyNotification
 ;
 nsIClipboardOwner

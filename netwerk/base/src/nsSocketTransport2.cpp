@@ -1281,7 +1281,7 @@ endif
 -
 -
 static
-PRBool
+bool
 IsNSSErrorCode
 (
 PRErrorCode
@@ -2624,7 +2624,7 @@ nsSocketInputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 nonblocking
 )
@@ -3900,7 +3900,7 @@ nsSocketOutputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 nonblocking
 )
@@ -5869,10 +5869,10 @@ PRFileDesc
 *
 &
 fd
-PRBool
+bool
 &
 proxyTransparent
-PRBool
+bool
 &
 usingSSL
 )
@@ -6312,7 +6312,7 @@ onto
 the
 socket
 info
-PRBool
+bool
 isSSL
 =
 (
@@ -6906,10 +6906,10 @@ PRFileDesc
 *
 fd
 ;
-PRBool
+bool
 proxyTransparent
 ;
-PRBool
+bool
 usingSSL
 ;
 rv
@@ -7793,7 +7793,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsSocketTransport
 :
 :
@@ -7936,10 +7936,10 @@ NS_ERROR_UNKNOWN_PROXY_HOST
 return
 PR_FALSE
 ;
-PRBool
+bool
 tryAgain
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -8064,7 +8064,7 @@ if
 tryAgain
 )
 {
-PRBool
+bool
 autodialEnabled
 ;
 gSocketTransportService
@@ -10653,7 +10653,7 @@ buffered
 !
 /
 /
-PRBool
+bool
 openBuffered
 =
 !
@@ -10663,7 +10663,7 @@ flags
 OPEN_UNBUFFERED
 )
 ;
-PRBool
+bool
 openBlocking
 =
 (
@@ -10907,7 +10907,7 @@ buffered
 !
 /
 /
-PRBool
+bool
 openBuffered
 =
 !
@@ -10917,7 +10917,7 @@ flags
 OPEN_UNBUFFERED
 )
 ;
-PRBool
+bool
 openBlocking
 =
 (
@@ -11344,7 +11344,7 @@ nsSocketTransport
 :
 IsAlive
 (
-PRBool
+bool
 *
 result
 )

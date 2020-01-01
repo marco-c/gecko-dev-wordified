@@ -1495,7 +1495,7 @@ mStatus
 nsCString
 mPACString
 ;
-PRBool
+bool
 mDispatched
 ;
 PRUint32
@@ -2054,12 +2054,12 @@ const
 char
 *
 aPref
-PRBool
+bool
 &
 aResult
 )
 {
-PRBool
+bool
 temp
 ;
 nsresult
@@ -2624,10 +2624,10 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 reloadPAC
 =
-PR_FALSE
+false
 ;
 nsXPIDLCString
 tempString
@@ -3547,7 +3547,7 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 nsProtocolProxyService
 :
 :
@@ -3644,7 +3644,7 @@ defaultPort
 PRNetAddr
 addr
 ;
-PRBool
+bool
 is_ipaddr
 =
 (
@@ -5085,7 +5085,7 @@ dsec
 )
 ;
 }
-PRBool
+bool
 nsProtocolProxyService
 :
 :
@@ -5175,7 +5175,7 @@ const
 nsCString
 &
 spec
-PRBool
+bool
 forceReload
 )
 {
@@ -5553,7 +5553,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 usePAC
 ;
 rv
@@ -5840,7 +5840,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 usePAC
 ;
 nsCOMPtr
@@ -7988,7 +7988,7 @@ nsProtocolInfo
 info
 PRUint32
 flags
-PRBool
+bool
 *
 usePAC
 nsIProxyInfo
@@ -9135,10 +9135,10 @@ the
 disabled
 ones
 .
-PRBool
+bool
 allDisabled
 =
-PR_TRUE
+true
 ;
 nsProxyInfo
 *

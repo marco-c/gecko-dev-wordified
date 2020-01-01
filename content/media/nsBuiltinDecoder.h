@@ -2062,7 +2062,7 @@ nsAudioStream
 ;
 static
 inline
-PRBool
+bool
 IsCurrentThread
 (
 nsIThread
@@ -2430,7 +2430,7 @@ appropriate
 threads
 .
 virtual
-PRBool
+bool
 OnDecodeThread
 (
 )
@@ -2453,7 +2453,7 @@ machine
 thread
 .
 virtual
-PRBool
+bool
 OnStateMachineThread
 (
 )
@@ -2657,7 +2657,7 @@ virtual
 void
 SetSeekable
 (
-PRBool
+bool
 aSeekable
 )
 =
@@ -2698,7 +2698,7 @@ calling
 this
 .
 virtual
-PRBool
+bool
 IsSeekable
 (
 )
@@ -2965,7 +2965,7 @@ nsBuiltinDecoder
 )
 ;
 virtual
-PRBool
+bool
 Init
 (
 nsHTMLMediaElement
@@ -3113,12 +3113,12 @@ virtual
 void
 SetInfinite
 (
-PRBool
+bool
 aInfinite
 )
 ;
 virtual
-PRBool
+bool
 IsInfinite
 (
 )
@@ -3263,7 +3263,7 @@ media
 resource
 .
 virtual
-PRBool
+bool
 IsSeeking
 (
 )
@@ -3293,7 +3293,7 @@ thread
 only
 .
 virtual
-PRBool
+bool
 IsEnded
 (
 )
@@ -3367,7 +3367,7 @@ virtual
 void
 SetSeekable
 (
-PRBool
+bool
 aSeekable
 )
 ;
@@ -3381,7 +3381,7 @@ is
 supported
 .
 virtual
-PRBool
+bool
 IsSeekable
 (
 )
@@ -3516,7 +3516,7 @@ virtual
 void
 Resume
 (
-PRBool
+bool
 aForceBuffering
 )
 ;
@@ -3575,13 +3575,13 @@ DurationChanged
 (
 )
 ;
-PRBool
+bool
 OnStateMachineThread
 (
 )
 const
 ;
-PRBool
+bool
 OnDecodeThread
 (
 )
@@ -3932,7 +3932,7 @@ held
 double
 ComputePlaybackRate
 (
-PRPackedBool
+bool
 *
 aReliable
 )
@@ -4914,7 +4914,7 @@ range
 requests
 )
 .
-PRPackedBool
+bool
 mSeekable
 ;
 /
@@ -5231,7 +5231,7 @@ main
 thread
 only
 .
-PRPackedBool
+bool
 mResourceLoaded
 ;
 /
@@ -5297,7 +5297,7 @@ locked
 before
 accessing
 .
-PRPackedBool
+bool
 mIgnoreProgressData
 ;
 /
@@ -5317,7 +5317,7 @@ a
 webradio
 )
 .
-PRPackedBool
+bool
 mInfiniteStream
 ;
 }

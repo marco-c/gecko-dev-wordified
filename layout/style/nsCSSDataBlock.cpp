@@ -733,7 +733,7 @@ otherwise
 *
 /
 static
-PRBool
+bool
 MoveValue
 (
 nsCSSValue
@@ -744,7 +744,7 @@ nsCSSValue
 aDest
 )
 {
-PRBool
+bool
 changed
 =
 (
@@ -787,7 +787,7 @@ changed
 ;
 }
 static
-PRBool
+bool
 ShouldIgnoreColors
 (
 nsRuleData
@@ -1104,7 +1104,7 @@ aDocument
 }
 static
 inline
-PRBool
+bool
 ShouldStartImageLoads
 (
 nsRuleData
@@ -1777,7 +1777,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 nsCSSCompressedDataBlock
 :
 :
@@ -1788,7 +1788,7 @@ aProperty
 nsCSSExpandedDataBlock
 &
 aFromBlock
-PRBool
+bool
 *
 aChanged
 )
@@ -2337,7 +2337,7 @@ DoExpand
 nsCSSCompressedDataBlock
 *
 aBlock
-PRBool
+bool
 aImportant
 )
 {
@@ -3023,7 +3023,7 @@ range
 "
 )
 ;
-PRBool
+bool
 important
 =
 mPropertiesImportant
@@ -3491,7 +3491,7 @@ Reset
 )
 ;
 }
-PRBool
+bool
 nsCSSExpandedDataBlock
 :
 :
@@ -3502,11 +3502,11 @@ nsCSSExpandedDataBlock
 aFromBlock
 nsCSSProperty
 aPropID
-PRBool
+bool
 aIsImportant
-PRBool
+bool
 aOverrideImportant
-PRBool
+bool
 aMustCallValueAppended
 css
 :
@@ -3540,10 +3540,10 @@ aDeclaration
 )
 ;
 }
-PRBool
+bool
 changed
 =
-PR_FALSE
+false
 ;
 CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
@@ -3570,7 +3570,7 @@ return
 changed
 ;
 }
-PRBool
+bool
 nsCSSExpandedDataBlock
 :
 :
@@ -3581,11 +3581,11 @@ nsCSSExpandedDataBlock
 aFromBlock
 nsCSSProperty
 aPropID
-PRBool
+bool
 aIsImportant
-PRBool
+bool
 aOverrideImportant
-PRBool
+bool
 aMustCallValueAppended
 css
 :
@@ -3595,10 +3595,10 @@ Declaration
 aDeclaration
 )
 {
-PRBool
+bool
 changed
 =
-PR_FALSE
+false
 ;
 NS_ABORT_IF_FALSE
 (

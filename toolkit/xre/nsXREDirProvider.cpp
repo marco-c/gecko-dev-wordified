@@ -913,10 +913,10 @@ if
 app
 )
 {
-PRBool
+bool
 per
 =
-PR_FALSE
+false
 ;
 app
 -
@@ -1102,7 +1102,7 @@ const
 char
 *
 aProperty
-PRBool
+bool
 *
 aPersistent
 nsIFile
@@ -1114,10 +1114,10 @@ aFile
 nsresult
 rv
 ;
-PRBool
+bool
 gettingProfile
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2228,10 +2228,10 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 ensureFilePermissions
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2557,10 +2557,10 @@ if
 ensureFilePermissions
 )
 {
-PRBool
+bool
 fileToEnsureExists
 ;
-PRBool
+bool
 isWritable
 ;
 if
@@ -2732,7 +2732,7 @@ aAppendList
 )
 )
 ;
-PRBool
+bool
 exists
 ;
 if
@@ -2790,7 +2790,7 @@ nsIFile
 >
 appended
 ;
-PRBool
+bool
 exists
 ;
 for
@@ -3855,7 +3855,7 @@ PREF_OVERRIDE_DIRNAME
 )
 )
 ;
-PRBool
+bool
 exists
 ;
 if
@@ -4944,7 +4944,7 @@ static
 nsresult
 GetRegWindowsAppDataFolder
 (
-PRBool
+bool
 aLocal
 nsAString
 &
@@ -5609,7 +5609,7 @@ nsIFile
 >
 needsclone
 ;
-PRBool
+bool
 dummy
 ;
 nsresult
@@ -5696,7 +5696,7 @@ nsIFile
 >
 needsclone
 ;
-PRBool
+bool
 dummy
 ;
 nsresult
@@ -5751,7 +5751,7 @@ nsILocalFile
 *
 *
 aFile
-PRBool
+bool
 aLocal
 )
 {
@@ -6602,7 +6602,7 @@ nsILocalFile
 *
 *
 aFile
-PRBool
+bool
 aLocal
 )
 {
@@ -6715,7 +6715,7 @@ nsIFile
 aDirectory
 )
 {
-PRBool
+bool
 exists
 ;
 nsresult
@@ -6843,7 +6843,7 @@ aFile
 nsresult
 rv
 ;
-PRBool
+bool
 exists
 ;
 rv

@@ -824,7 +824,7 @@ SVG_COMMA_WSP_DELIM
 "
 SVG_WSP_DELIM
 inline
-PRBool
+bool
 IsSVGWhitespace
 (
 char
@@ -869,7 +869,7 @@ xA
 ;
 }
 inline
-PRBool
+bool
 IsSVGWhitespace
 (
 PRUnichar
@@ -950,7 +950,7 @@ NS_SVGEnabled
 .
 *
 /
-PRBool
+bool
 NS_SMILEnabled
 (
 )
@@ -1085,7 +1085,7 @@ mRenderMode
 void
 SetPaintingToWindow
 (
-PRBool
+bool
 aPaintingToWindow
 )
 {
@@ -1094,7 +1094,7 @@ mPaintingToWindow
 aPaintingToWindow
 ;
 }
-PRBool
+bool
 IsPaintingToWindow
 (
 )
@@ -1120,7 +1120,7 @@ gfxContext
 >
 mGfxContext
 ;
-PRPackedBool
+bool
 mPaintingToWindow
 ;
 }
@@ -1690,7 +1690,7 @@ GetCTM
 nsSVGElement
 *
 aElement
-PRBool
+bool
 aScreenCTM
 )
 ;
@@ -1728,7 +1728,7 @@ foreignObject
 *
 /
 static
-PRBool
+bool
 EstablishesViewport
 (
 nsIContent
@@ -2389,7 +2389,7 @@ set
 *
 /
 static
-PRBool
+bool
 HitTestClip
 (
 nsIFrame
@@ -2654,7 +2654,7 @@ const
 gfxSize
 &
 aSize
-PRBool
+bool
 *
 aResultOverflows
 )
@@ -2673,7 +2673,7 @@ matrix
 *
 /
 static
-PRBool
+bool
 HitTestRect
 (
 const
@@ -2924,7 +2924,7 @@ group
 *
 /
 static
-PRBool
+bool
 CanOptimizeOpacity
 (
 nsIFrame
@@ -3537,7 +3537,7 @@ fallback
 *
 /
 static
-PRBool
+bool
 RootSVGElementHasViewbox
 (
 const

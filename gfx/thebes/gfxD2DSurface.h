@@ -557,7 +557,7 @@ GetTexture
 HDC
 GetDC
 (
-PRBool
+bool
 aRetainContents
 )
 ;

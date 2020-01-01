@@ -2227,7 +2227,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -2796,7 +2796,7 @@ rv
 nsnull
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -3338,7 +3338,7 @@ ObjectStoreInfoMap
 >
 infoMap
 ;
-PRBool
+bool
 hasResult
 ;
 while
@@ -4553,7 +4553,7 @@ aConnection
 ifdef
 DEBUG
 {
-PRBool
+bool
 correctThread
 ;
 NS_ASSERTION
@@ -4686,7 +4686,7 @@ rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -4711,7 +4711,7 @@ if
 exists
 )
 {
-PRBool
+bool
 isDirectory
 ;
 rv
@@ -4868,7 +4868,7 @@ rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
-PRBool
+bool
 hasResult
 ;
 rv

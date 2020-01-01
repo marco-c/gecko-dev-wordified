@@ -889,7 +889,7 @@ dpy
 10699000
 )
 {
-PRBool
+bool
 isDownscale
 =
 aDeviceToImage
@@ -1030,7 +1030,7 @@ break
 ;
 }
 }
-PRBool
+bool
 gfxSurfaceDrawable
 :
 :
@@ -1043,7 +1043,7 @@ const
 gfxRect
 &
 aFillRect
-PRBool
+bool
 aRepeat
 const
 gfxPattern
@@ -1379,7 +1379,7 @@ forget
 )
 ;
 }
-PRBool
+bool
 gfxCallbackDrawable
 :
 :
@@ -1392,7 +1392,7 @@ const
 gfxRect
 &
 aFillRect
-PRBool
+bool
 aRepeat
 const
 gfxPattern
@@ -1524,7 +1524,7 @@ DrawingCallbackFromDrawable
 {
 }
 virtual
-PRBool
+bool
 operator
 (
 )
@@ -1621,7 +1621,7 @@ forget
 )
 ;
 }
-PRBool
+bool
 gfxPatternDrawable
 :
 :
@@ -1634,7 +1634,7 @@ const
 gfxRect
 &
 aFillRect
-PRBool
+bool
 aRepeat
 const
 gfxPattern

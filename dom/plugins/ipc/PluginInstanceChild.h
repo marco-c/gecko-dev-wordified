@@ -1405,7 +1405,7 @@ HookSetWindowLongPtr
 ;
 static
 inline
-PRBool
+bool
 SetWindowLongHookCheck
 (
 HWND
@@ -3045,7 +3045,7 @@ negotiation
 and
 remember
 it
-PRPackedBool
+bool
 mMaemoImageRendering
 ;
 #

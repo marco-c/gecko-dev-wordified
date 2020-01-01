@@ -562,7 +562,7 @@ nsIFrame
 *
 GetFrame
 (
-PRBool
+bool
 aFlushLayout
 )
 ;
@@ -570,7 +570,7 @@ nsIPresShell
 *
 GetPresShell
 (
-PRBool
+bool
 aFlushLayout
 )
 ;

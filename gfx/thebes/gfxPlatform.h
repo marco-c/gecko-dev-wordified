@@ -1335,7 +1335,7 @@ PR_FALSE
 *
 /
 typedef
-PRBool
+bool
 (
 *
 FontResolverCallback
@@ -1363,7 +1363,7 @@ aCallback
 void
 *
 aClosure
-PRBool
+bool
 &
 aAborted
 )
@@ -1650,7 +1650,7 @@ face
 rules
 *
 /
-PRBool
+bool
 DownloadableFontsEnabled
 (
 )
@@ -1670,7 +1670,7 @@ OTS
 library
 *
 /
-PRBool
+bool
 SanitizeDownloadedFonts
 (
 )
@@ -1707,7 +1707,7 @@ preferences
 .
 *
 /
-PRBool
+bool
 UseHarfBuzzForScript
 (
 PRInt32
@@ -1733,7 +1733,7 @@ returns
 true
 )
 virtual
-PRBool
+bool
 IsFontFormatSupported
 (
 nsIURI
@@ -1744,7 +1744,7 @@ aFormatFlags
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -1756,10 +1756,10 @@ aLanguage
 nsString
 &
 array
-PRBool
+bool
 aAppendUnicode
 =
-PR_TRUE
+true
 )
 ;
 /
@@ -1844,7 +1844,7 @@ process
 *
 /
 typedef
-PRBool
+bool
 (
 *
 PrefFontCallback
@@ -1862,7 +1862,7 @@ aClosure
 )
 ;
 static
-PRBool
+bool
 ForEachPrefFont
 (
 eFontPrefLang
@@ -2003,7 +2003,7 @@ lang
 is
 CJK
 static
-PRBool
+bool
 IsLangCJK
 (
 eFontPrefLang
@@ -2417,10 +2417,10 @@ eFontPrefLang
 aPageLang
 )
 ;
-PRBool
+bool
 mAllowDownloadableFonts
 ;
-PRBool
+bool
 mDownloadableFontsSanitize
 ;
 /

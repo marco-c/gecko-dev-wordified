@@ -505,10 +505,10 @@ ScheduleNativeEventCallback
 )
 ;
 virtual
-PRBool
+bool
 ProcessNextNativeEvent
 (
-PRBool
+bool
 mayWait
 )
 ;

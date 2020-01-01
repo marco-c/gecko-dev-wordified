@@ -1903,9 +1903,9 @@ aLower
 nsIVariant
 *
 aUpper
-PRBool
+bool
 aLowerOpen
-PRBool
+bool
 aUpperOpen
 )
 {
@@ -2082,7 +2082,7 @@ IDBKeyRange
 :
 GetLowerOpen
 (
-PRBool
+bool
 *
 aLowerOpen
 )
@@ -2118,7 +2118,7 @@ IDBKeyRange
 :
 GetUpperOpen
 (
-PRBool
+bool
 *
 aUpperOpen
 )

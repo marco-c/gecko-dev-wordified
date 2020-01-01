@@ -938,7 +938,7 @@ const
 char
 *
 aTopic
-PRBool
+bool
 ownsWeak
 )
 {

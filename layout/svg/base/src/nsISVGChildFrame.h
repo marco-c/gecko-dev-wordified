@@ -1087,7 +1087,7 @@ frame
 ?
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsDisplayContainer
 (
@@ -1116,7 +1116,7 @@ GetRect
 ?
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 HasValidCoveredRect
 (

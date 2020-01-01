@@ -1399,7 +1399,7 @@ const
 char
 *
 aDependentLib
-PRBool
+bool
 do_preload
 )
 {

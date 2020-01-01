@@ -491,7 +491,7 @@ Init
 nsIBox
 *
 aBox
-PRBool
+bool
 aIsBogus
 )
 ;
@@ -508,7 +508,7 @@ return
 mBox
 ;
 }
-PRBool
+bool
 IsPrefSet
 (
 )
@@ -523,7 +523,7 @@ mPref
 )
 ;
 }
-PRBool
+bool
 IsMinSet
 (
 )
@@ -538,7 +538,7 @@ mMin
 )
 ;
 }
-PRBool
+bool
 IsMaxSet
 (
 )
@@ -553,7 +553,7 @@ mMax
 )
 ;
 }
-PRBool
+bool
 IsFlexSet
 (
 )
@@ -568,7 +568,7 @@ mFlex
 )
 ;
 }
-PRBool
+bool
 IsOffsetSet
 (
 )
@@ -590,7 +590,7 @@ mBottom
 )
 ;
 }
-PRBool
+bool
 IsCollapsed
 (
 nsBoxLayoutState
@@ -600,7 +600,7 @@ aState
 ;
 public
 :
-PRBool
+bool
 mIsBogus
 ;
 nsIBox

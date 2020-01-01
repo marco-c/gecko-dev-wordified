@@ -689,9 +689,9 @@ const
 nsAString
 &
 aEventType
-PRBool
+bool
 aCanBubble
-PRBool
+bool
 aCancelable
 nsIDOMWindow
 *
@@ -755,7 +755,7 @@ IPC
 Message
 *
 aMsg
-PRBool
+bool
 aSerializeInterfaceType
 )
 {
@@ -860,7 +860,7 @@ val
 )
 ;
 }
-PRBool
+bool
 nsDOMScrollAreaEvent
 :
 :

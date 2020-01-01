@@ -1020,7 +1020,7 @@ pservers
 html
 #
 LinearGradientElementHrefAttribute
-PRPackedBool
+bool
 mLoopFlag
 ;
 /
@@ -1048,7 +1048,7 @@ isn
 t
 happening
 .
-PRPackedBool
+bool
 mNoHRefURI
 ;
 }

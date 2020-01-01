@@ -1819,10 +1819,10 @@ qcms_profile_get_color_space
 mInProfile
 )
 ;
-PRBool
+bool
 mismatch
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -2761,7 +2761,7 @@ case
 "
 )
 ;
-PRBool
+bool
 suspend
 ;
 OutputScanlines
@@ -3060,7 +3060,7 @@ output_scanline
 =
 0
 ;
-PRBool
+bool
 suspend
 ;
 OutputScanlines
@@ -3435,7 +3435,7 @@ nsJPEGDecoder
 :
 OutputScanlines
 (
-PRBool
+bool
 *
 suspend
 )

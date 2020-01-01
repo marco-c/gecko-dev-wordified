@@ -997,7 +997,7 @@ animation
 elements
 at
 all
-PRBool
+bool
 HasRegisteredAnimations
 (
 )
@@ -1053,7 +1053,7 @@ TimeContainerHashtable
 *
 mActiveContainers
 ;
-PRBool
+bool
 mSkipUnchangedContainers
 ;
 }
@@ -1195,7 +1195,7 @@ DoSample
 void
 DoSample
 (
-PRBool
+bool
 aSkipUnchangedContainers
 )
 ;
@@ -1332,7 +1332,7 @@ aCompositorTable
 )
 ;
 static
-PRBool
+bool
 GetTargetIdentifierForAnimation
 (
 nsISMILAnimationElement
@@ -1593,7 +1593,7 @@ events
 nsSMILTime
 mAvgTimeBetweenSamples
 ;
-PRPackedBool
+bool
 mResampleNeeded
 ;
 /
@@ -1647,10 +1647,10 @@ actually
 start
 sampling
 .
-PRPackedBool
+bool
 mDeferredStartSampling
 ;
-PRPackedBool
+bool
 mRunningSample
 ;
 /

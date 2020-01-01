@@ -592,9 +592,9 @@ PRInt32
 aClickCount
 PRInt32
 aModifiers
-PRBool
+bool
 aIgnoreRootScrollFrame
-PRBool
+bool
 aToWindow
 )
 ;

@@ -1215,7 +1215,7 @@ PR_FALSE
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHtml5Parser
 :
@@ -1231,7 +1231,7 @@ mBlocked
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHtml5Parser
 :
@@ -1403,7 +1403,7 @@ aContentType
 /
 /
 ignored
-PRBool
+bool
 aLastCall
 nsDTDMode
 aMode
@@ -2230,7 +2230,7 @@ hasMore
 PRInt32
 lineNumberSave
 ;
-PRBool
+bool
 inRootContext
 =
 (
@@ -2966,9 +2966,9 @@ nsIAtom
 aContextLocalName
 PRInt32
 aContextNamespace
-PRBool
+bool
 aQuirks
-PRBool
+bool
 aPreventScriptExecution
 )
 {
@@ -3204,10 +3204,10 @@ IsEmpty
 )
 )
 {
-PRBool
+bool
 lastWasCR
 =
-PR_FALSE
+false
 ;
 nsHtml5UTF16Buffer
 buffer
@@ -3584,7 +3584,7 @@ mLastBuffer
 mFirstBuffer
 ;
 }
-PRBool
+bool
 nsHtml5Parser
 :
 :
@@ -3611,7 +3611,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsHtml5Parser
 :
 :
@@ -3696,7 +3696,7 @@ this
 )
 ;
 }
-PRBool
+bool
 nsHtml5Parser
 :
 :
@@ -4108,7 +4108,7 @@ hasMore
 )
 )
 {
-PRBool
+bool
 inRootContext
 =
 (
@@ -4243,7 +4243,7 @@ nsHtml5Parser
 :
 StartTokenizer
 (
-PRBool
+bool
 aScriptingEnabled
 )
 {

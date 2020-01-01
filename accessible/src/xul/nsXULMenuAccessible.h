@@ -727,7 +727,7 @@ aSetSize
 )
 ;
 virtual
-PRBool
+bool
 GetAllowsAnonChildAccessibles
 (
 )

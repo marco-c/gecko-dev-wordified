@@ -548,7 +548,7 @@ Services
 h
 "
 static
-PRBool
+bool
 sInited
 =
 0

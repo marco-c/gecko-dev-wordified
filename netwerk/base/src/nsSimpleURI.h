@@ -595,7 +595,7 @@ nsIURI
 other
 RefHandlingEnum
 refHandlingMode
-PRBool
+bool
 *
 result
 )
@@ -744,10 +744,10 @@ share
 string
 data
 .
-PRPackedBool
+bool
 mMutable
 ;
-PRPackedBool
+bool
 mIsRefValid
 ;
 /

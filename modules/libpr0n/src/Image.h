@@ -873,7 +873,7 @@ return
 mInnerWindowId
 ;
 }
-PRBool
+bool
 HasError
 (
 )
@@ -972,7 +972,7 @@ Enum
 values
 in
 imgIContainer
-PRPackedBool
+bool
 mInitialized
 :
 1
@@ -984,7 +984,7 @@ we
 been
 initalized
 ?
-PRPackedBool
+bool
 mAnimating
 :
 1
@@ -996,7 +996,7 @@ we
 currently
 animating
 ?
-PRPackedBool
+bool
 mError
 :
 1

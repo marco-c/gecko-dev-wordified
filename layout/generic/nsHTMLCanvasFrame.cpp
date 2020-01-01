@@ -635,7 +635,7 @@ GetOpaqueRegion
 nsDisplayListBuilder
 *
 aBuilder
-PRBool
+bool
 *
 aForceTransparentSurface
 =
@@ -1229,7 +1229,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 {

@@ -561,7 +561,7 @@ children
 NS_IMETHOD
 DoneAddingChildren
 (
-PRBool
+bool
 aIsDone
 )
 =
@@ -586,7 +586,7 @@ OnOptionSelected
 (
 PRInt32
 aIndex
-PRBool
+bool
 aSelected
 )
 =

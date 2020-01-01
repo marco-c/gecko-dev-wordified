@@ -3488,7 +3488,7 @@ RasterImage
 :
 GetCurrentFrameIsOpaque
 (
-PRBool
+bool
 *
 aIsOpaque
 )
@@ -3905,7 +3905,7 @@ RasterImage
 :
 GetAnimated
 (
-PRBool
+bool
 *
 aAnimated
 )
@@ -12727,7 +12727,7 @@ t
 return
 a
 nsresult
-PRBool
+bool
 RasterImage
 :
 :
@@ -13890,7 +13890,7 @@ const
 char
 *
 prop
-PRBool
+bool
 *
 _retval
 )
@@ -18050,7 +18050,7 @@ is
 no
 decoder
 .
-PRBool
+bool
 RasterImage
 :
 :
@@ -18086,10 +18086,10 @@ it
 s
 not
 finished
-PRBool
+bool
 decodeFinished
 =
-PR_FALSE
+false
 ;
 /
 /

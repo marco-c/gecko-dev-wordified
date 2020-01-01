@@ -707,7 +707,7 @@ in
 nsACString
 &
 out
-PRBool
+bool
 allowUnassigned
 )
 ;
@@ -733,7 +733,7 @@ in
 nsAString
 &
 out
-PRBool
+bool
 allowUnassigned
 )
 ;
@@ -747,7 +747,7 @@ in
 nsACString
 &
 out
-PRBool
+bool
 allowUnassigned
 )
 ;
@@ -761,7 +761,7 @@ in
 nsACString
 &
 out
-PRBool
+bool
 allowUnassigned
 )
 ;
@@ -775,11 +775,11 @@ in
 nsACString
 &
 out
-PRBool
+bool
 allowUnassigned
 )
 ;
-PRBool
+bool
 isInWhitelist
 (
 const
@@ -800,7 +800,7 @@ PRUnichar
 pref
 )
 ;
-PRBool
+bool
 mMultilingualTestBed
 ;
 /
@@ -833,7 +833,7 @@ kACEPrefixLen
 nsXPIDLString
 mIDNBlacklist
 ;
-PRBool
+bool
 mShowPunycode
 ;
 nsCOMPtr

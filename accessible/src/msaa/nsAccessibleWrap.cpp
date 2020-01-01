@@ -9871,10 +9871,10 @@ GetNearestWidget
 (
 )
 ;
-PRBool
+bool
 isVisible
 =
-PR_FALSE
+false
 ;
 widget
 -
@@ -10128,10 +10128,10 @@ kCharsToEscape
 \
 "
 ;
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 while
 (

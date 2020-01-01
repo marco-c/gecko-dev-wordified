@@ -571,7 +571,7 @@ nsIFrame
 result
 )
 ;
-PRBool
+bool
 HandleButtonPress
 (
 nsPresContext
@@ -597,7 +597,7 @@ aEvent
 nsEventStatus
 *
 aEventStatus
-PRBool
+bool
 aControlHeld
 )
 {
@@ -654,7 +654,7 @@ aEvent
 void
 DoButtonAction
 (
-PRBool
+bool
 aSmoothScroll
 )
 ;

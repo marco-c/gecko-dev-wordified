@@ -730,10 +730,10 @@ const
 ;
 private
 :
-PRPackedBool
+bool
 mOwnsDC
 ;
-PRPackedBool
+bool
 mForPrinting
 ;
 HDC

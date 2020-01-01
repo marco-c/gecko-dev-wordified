@@ -1401,7 +1401,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsXMLContentSink
 :
 :
@@ -1519,7 +1519,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 isPrettyPrinting
 ;
 rv
@@ -1810,7 +1810,7 @@ nsXMLContentSink
 :
 DidBuildModel
 (
-PRBool
+bool
 aTerminated
 )
 {
@@ -2030,10 +2030,10 @@ MaybePrettyPrint
 (
 )
 ;
-PRBool
+bool
 startLayout
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2631,7 +2631,7 @@ StyleSheetLoaded
 nsCSSStyleSheet
 *
 aSheet
-PRBool
+bool
 aWasAlternate
 nsresult
 aStatus
@@ -2782,7 +2782,7 @@ nsIContent
 *
 *
 aResult
-PRBool
+bool
 *
 aAppendContent
 FromParser
@@ -3763,10 +3763,10 @@ SetEnableUpdates
 PR_TRUE
 )
 ;
-PRBool
+bool
 willNotify
 ;
-PRBool
+bool
 isAlternate
 ;
 rv
@@ -3927,7 +3927,7 @@ relVal
 linkTypes
 )
 ;
-PRBool
+bool
 hasPrefetch
 =
 linkTypes
@@ -4338,7 +4338,7 @@ const
 nsSubstring
 &
 aHref
-PRBool
+bool
 aAlternate
 const
 nsSubstring
@@ -4702,7 +4702,7 @@ return
 mDocument
 ;
 }
-PRBool
+bool
 nsXMLContentSink
 :
 :
@@ -4722,7 +4722,7 @@ nsXMLContentSink
 :
 FlushText
 (
-PRBool
+bool
 aReleaseTextNode
 )
 {
@@ -4775,7 +4775,7 @@ aReleaseTextNode
 }
 else
 {
-PRBool
+bool
 notify
 =
 HaveNotifiedForCurrentContent
@@ -5133,7 +5133,7 @@ count
 )
 ;
 }
-PRBool
+bool
 nsXMLContentSink
 :
 :
@@ -5200,7 +5200,7 @@ nsXMLContentSink
 :
 MaybeStartLayout
 (
-PRBool
+bool
 aIgnorePendingSheets
 )
 {
@@ -5318,7 +5318,7 @@ aIgnorePendingSheets
 /
 /
 /
-PRBool
+bool
 nsXMLContentSink
 :
 :
@@ -5610,7 +5610,7 @@ PRInt32
 aIndex
 PRUint32
 aLineNumber
-PRBool
+bool
 aInterruptable
 )
 {
@@ -5664,10 +5664,10 @@ result
 =
 NS_OK
 ;
-PRBool
+bool
 appendContent
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -6308,7 +6308,7 @@ const
 PRUnichar
 *
 aName
-PRBool
+bool
 aInterruptable
 )
 {
@@ -7265,7 +7265,7 @@ PRUnichar
 aData
 PRUint32
 aLength
-PRBool
+bool
 aInterruptable
 )
 {
@@ -7476,10 +7476,10 @@ SetEnableUpdates
 PR_TRUE
 )
 ;
-PRBool
+bool
 willNotify
 ;
-PRBool
+bool
 isAlternate
 ;
 rv
@@ -7626,10 +7626,10 @@ href
 title
 media
 ;
-PRBool
+bool
 isAlternate
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -7696,7 +7696,7 @@ rv
 static
 *
 /
-PRBool
+bool
 nsXMLContentSink
 :
 :
@@ -7715,7 +7715,7 @@ aTitle
 nsString
 &
 aMedia
-PRBool
+bool
 &
 aIsAlternate
 )
@@ -7865,7 +7865,7 @@ aSourceText
 nsIScriptError
 *
 aError
-PRBool
+bool
 *
 _retval
 )
@@ -8992,7 +8992,7 @@ mDeferredFlushTags
 =
 PR_FALSE
 ;
-PRBool
+bool
 oldBeganUpdate
 =
 mBeganUpdate
@@ -9109,10 +9109,10 @@ Length
 (
 )
 ;
-PRBool
+bool
 flushed
 =
-PR_FALSE
+false
 ;
 PRUint32
 childCount
@@ -9390,7 +9390,7 @@ stackLen
 1
 ;
 }
-PRBool
+bool
 nsXMLContentSink
 :
 :

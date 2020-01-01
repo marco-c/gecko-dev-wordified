@@ -557,7 +557,7 @@ PRUnichar
 aWord
 PRUint32
 aLength
-PRPackedBool
+bool
 *
 aCapitalization
 )
@@ -595,10 +595,10 @@ contain
 is
 NBSP
 .
-PRBool
+bool
 capitalizeNextChar
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -708,7 +708,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 nsTArray
 <
-PRPackedBool
+bool
 >
 capitalizationState
 ;
@@ -779,7 +779,7 @@ Elements
 )
 ;
 }
-PRBool
+bool
 autoHyphenate
 =
 mCurrentWordLangGroup
@@ -1173,12 +1173,12 @@ capitalizationState
 Elements
 (
 )
-PR_FALSE
+false
 length
 *
 sizeof
 (
-PRPackedBool
+bool
 )
 )
 ;
@@ -1485,7 +1485,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 nsTArray
 <
-PRPackedBool
+bool
 >
 capitalizationState
 ;
@@ -1531,7 +1531,7 @@ start
 =
 offset
 ;
-PRBool
+bool
 noBreaksNeeded
 =
 !
@@ -1655,10 +1655,10 @@ wordStart
 =
 offset
 ;
-PRBool
+bool
 wordHasComplexChar
 =
-PR_FALSE
+false
 ;
 nsRefPtr
 <
@@ -1713,7 +1713,7 @@ aText
 offset
 ]
 ;
-PRBool
+bool
 isSpace
 =
 IsSpace
@@ -1721,7 +1721,7 @@ IsSpace
 ch
 )
 ;
-PRBool
+bool
 isBreakableSpace
 =
 isSpace
@@ -2159,7 +2159,7 @@ aTextLimit
 ;
 nsAutoTArray
 <
-PRPackedBool
+bool
 200
 >
 hyphens
@@ -2536,7 +2536,7 @@ start
 =
 offset
 ;
-PRBool
+bool
 noBreaksNeeded
 =
 !
@@ -2660,10 +2660,10 @@ wordStart
 =
 offset
 ;
-PRBool
+bool
 wordHasComplexChar
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -2679,7 +2679,7 @@ aText
 offset
 ]
 ;
-PRBool
+bool
 isSpace
 =
 IsSpace
@@ -2687,7 +2687,7 @@ IsSpace
 ch
 )
 ;
-PRBool
+bool
 isBreakableSpace
 =
 isSpace
@@ -3083,7 +3083,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 isBreakableSpace
 =
 !
@@ -3121,7 +3121,7 @@ nsLineBreaker
 :
 Reset
 (
-PRBool
+bool
 *
 aTrailingBreak
 )

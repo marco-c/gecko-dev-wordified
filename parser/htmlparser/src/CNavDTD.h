@@ -1525,7 +1525,7 @@ contain
 child
 *
 /
-PRBool
+bool
 CanPropagate
 (
 eHTMLTags
@@ -1603,7 +1603,7 @@ should
 be
 PRInt32
 not
-PRBool
+bool
 *
 return
 PR_TRUE
@@ -1615,7 +1615,7 @@ be
 omitted
 *
 /
-PRBool
+bool
 CanOmit
 (
 eHTMLTags
@@ -1695,7 +1695,7 @@ otherwise
 false
 *
 /
-PRBool
+bool
 ForwardPropagate
 (
 nsString
@@ -1793,7 +1793,7 @@ other
 false
 *
 /
-PRBool
+bool
 BackwardPropagate
 (
 nsString
@@ -1916,7 +1916,7 @@ otherwise
 FALSE
 *
 /
-PRBool
+bool
 HasOpenContainer
 (
 eHTMLTags
@@ -1977,7 +1977,7 @@ open
 .
 *
 /
-PRBool
+bool
 HasOpenContainer
 (
 const
@@ -2443,7 +2443,7 @@ CloseContainer
 const
 eHTMLTags
 aTag
-PRBool
+bool
 aMalformed
 )
 ;
@@ -2452,7 +2452,7 @@ CloseContainersTo
 (
 eHTMLTags
 aTag
-PRBool
+bool
 aClosedByStartTag
 )
 ;
@@ -2463,7 +2463,7 @@ PRInt32
 anIndex
 eHTMLTags
 aTag
-PRBool
+bool
 aClosedByStartTag
 )
 ;
@@ -2473,7 +2473,7 @@ CloseResidualStyleTags
 const
 eHTMLTags
 aTag
-PRBool
+bool
 aClosedByStartTag
 )
 ;
@@ -2600,10 +2600,10 @@ OpenTransientStyles
 (
 eHTMLTags
 aChildTag
-PRBool
+bool
 aCloseInvalid
 =
-PR_TRUE
+true
 )
 ;
 void
@@ -2879,14 +2879,14 @@ nsIParserNode
 aNode
 )
 ;
-PRBool
+bool
 IsAlternateTag
 (
 eHTMLTags
 aTag
 )
 ;
-PRBool
+bool
 IsBlockElement
 (
 PRInt32
@@ -2896,7 +2896,7 @@ aParentID
 )
 const
 ;
-PRBool
+bool
 IsInlineElement
 (
 PRInt32
@@ -2927,7 +2927,7 @@ nsDTDContext
 *
 mTempContext
 ;
-PRBool
+bool
 mCountLines
 ;
 nsITokenizer

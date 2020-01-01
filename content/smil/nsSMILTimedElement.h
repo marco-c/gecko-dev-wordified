@@ -1101,7 +1101,7 @@ AddInstanceTime
 nsSMILInstanceTime
 *
 aInstanceTime
-PRBool
+bool
 aIsBegin
 )
 ;
@@ -1202,7 +1202,7 @@ aInstanceTime
 nsSMILTimeValue
 &
 aUpdatedTime
-PRBool
+bool
 aIsBegin
 )
 ;
@@ -1279,7 +1279,7 @@ RemoveInstanceTime
 nsSMILInstanceTime
 *
 aInstanceTime
-PRBool
+bool
 aIsBegin
 )
 ;
@@ -1366,7 +1366,7 @@ const
 nsSMILTimeValueSpec
 *
 aSpec
-PRBool
+bool
 aIsBegin
 )
 ;
@@ -1917,7 +1917,7 @@ otherwise
 .
 *
 /
-PRBool
+bool
 SetAttr
 (
 nsIAtom
@@ -2002,7 +2002,7 @@ otherwise
 .
 *
 /
-PRBool
+bool
 UnsetAttr
 (
 nsIAtom
@@ -2253,7 +2253,7 @@ otherwise
 .
 *
 /
-PRBool
+bool
 IsTimeDependent
 (
 const
@@ -2435,7 +2435,7 @@ Unlink
 )
 ;
 typedef
-PRBool
+bool
 (
 *
 RemovalTestFunction
@@ -2504,7 +2504,7 @@ InstanceTimeComparator
 {
 public
 :
-PRBool
+bool
 Equals
 (
 const
@@ -2518,7 +2518,7 @@ aElem2
 )
 const
 ;
-PRBool
+bool
 LessThan
 (
 const
@@ -2726,7 +2726,7 @@ aSpec
 Element
 *
 aContextNode
-PRBool
+bool
 aIsBegin
 RemovalTestFunction
 aRemove
@@ -2755,7 +2755,7 @@ DoSampleAt
 (
 nsSMILTime
 aContainerTime
-PRBool
+bool
 aEndOnly
 )
 ;
@@ -2882,7 +2882,7 @@ otherwise
 .
 *
 /
-PRBool
+bool
 ApplyEarlyEnd
 (
 const
@@ -3298,7 +3298,7 @@ otherwise
 .
 *
 /
-PRBool
+bool
 GetNextInterval
 (
 const
@@ -3409,10 +3409,10 @@ const
 void
 UpdateCurrentInterval
 (
-PRBool
+bool
 aForceChangeNotice
 =
-PR_FALSE
+false
 )
 ;
 void
@@ -3434,7 +3434,7 @@ nsSMILTime
 aCurrentTime
 double
 aOffsetSeconds
-PRBool
+bool
 aIsBegin
 )
 ;
@@ -3443,7 +3443,7 @@ RegisterMilestone
 (
 )
 ;
-PRBool
+bool
 GetNextMilestone
 (
 nsSMILMilestone
@@ -3533,9 +3533,9 @@ NotifyChangedInterval
 nsSMILInterval
 *
 aInterval
-PRBool
+bool
 aBeginObjectChanged
-PRBool
+bool
 aEndObjectChanged
 )
 ;
@@ -3564,7 +3564,7 @@ GetPreviousInterval
 )
 const
 ;
-PRBool
+bool
 HasPlayed
 (
 )
@@ -3579,13 +3579,13 @@ IsEmpty
 )
 ;
 }
-PRBool
+bool
 HaveDefiniteEndTimes
 (
 )
 const
 ;
-PRBool
+bool
 EndHasEventConditions
 (
 )
@@ -3971,10 +3971,10 @@ model
 class
 AutoIntervalUpdateBatcher
 ;
-PRPackedBool
+bool
 mDeferIntervalUpdates
 ;
-PRPackedBool
+bool
 mDoDeferredUpdate
 ;
 /

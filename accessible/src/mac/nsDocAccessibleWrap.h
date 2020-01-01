@@ -493,7 +493,7 @@ one
 *
 /
 virtual
-PRBool
+bool
 Init
 (
 )

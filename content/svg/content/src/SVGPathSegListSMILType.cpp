@@ -792,7 +792,7 @@ src
 )
 ;
 }
-PRBool
+bool
 SVGPathSegListSMILType
 :
 :
@@ -877,7 +877,7 @@ mPtr
 ;
 }
 static
-PRBool
+bool
 ArcFlagsDiffer
 (
 SVGPathDataAndOwner
@@ -1612,7 +1612,7 @@ aSeg2
 encoded
 segment
 type
-PRBool
+bool
 isArcType
 =
 SVGPathSegUtils
@@ -2355,7 +2355,7 @@ IsIdentity
 {
 DebugOnly
 <
-PRBool
+bool
 >
 success
 =
@@ -3786,7 +3786,7 @@ start
 .
 DebugOnly
 <
-PRBool
+bool
 >
 success
 =

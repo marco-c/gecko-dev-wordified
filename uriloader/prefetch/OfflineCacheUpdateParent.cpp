@@ -1286,7 +1286,7 @@ the
 child
 process
 .
-PRBool
+bool
 isUpgrade
 ;
 aUpdate
@@ -1298,7 +1298,7 @@ GetIsUpgrade
 isUpgrade
 )
 ;
-PRBool
+bool
 succeeded
 ;
 aUpdate

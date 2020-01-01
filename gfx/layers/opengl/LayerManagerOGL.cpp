@@ -1033,7 +1033,7 @@ forget
 )
 ;
 }
-PRBool
+bool
 LayerManagerOGL
 :
 :
@@ -2884,13 +2884,13 @@ ImplData
 )
 ;
 }
-PRBool
+bool
 LayerManagerOGL
 :
 :
 sDrawFPS
 =
-PR_FALSE
+false
 ;
 /
 *

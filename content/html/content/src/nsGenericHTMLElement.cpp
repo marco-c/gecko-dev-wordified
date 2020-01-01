@@ -1176,7 +1176,7 @@ count
 )
 ;
 }
-PRBool
+bool
 GEUS_enum_func
 (
 nsHashKey
@@ -2676,7 +2676,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 IsBody
 (
 nsIContent
@@ -2711,7 +2711,7 @@ IsHTML
 ;
 }
 static
-PRBool
+bool
 IS_TABLE_CELL
 (
 nsIAtom
@@ -2739,7 +2739,7 @@ frameType
 ;
 }
 static
-PRBool
+bool
 IsOffsetParent
 (
 nsIFrame
@@ -2926,7 +2926,7 @@ frame
 else
 {
 const
-PRBool
+bool
 isPositioned
 =
 frame
@@ -2942,7 +2942,7 @@ IsPositioned
 )
 ;
 const
-PRBool
+bool
 isAbsolutelyPositioned
 =
 frame
@@ -3053,7 +3053,7 @@ coordinate
 system
 .
 const
-PRBool
+bool
 isOffsetParent
 =
 !
@@ -5083,7 +5083,7 @@ nsGenericHTMLElement
 :
 ScrollIntoView
 (
-PRBool
+bool
 aTop
 PRUint8
 optional_argc
@@ -5180,7 +5180,7 @@ nsGenericHTMLElement
 :
 GetSpellcheck
 (
-PRBool
+bool
 *
 aSpellcheck
 )
@@ -5616,7 +5616,7 @@ nsGenericHTMLElement
 :
 SetSpellcheck
 (
-PRBool
+bool
 aSpellcheck
 )
 {
@@ -5663,7 +5663,7 @@ nsGenericHTMLElement
 :
 GetDraggable
 (
-PRBool
+bool
 *
 aDraggable
 )
@@ -5695,7 +5695,7 @@ nsGenericHTMLElement
 :
 SetDraggable
 (
-PRBool
+bool
 aDraggable
 )
 {
@@ -5724,7 +5724,7 @@ false
 )
 ;
 }
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -5756,7 +5756,7 @@ nsGenericHTMLElement
 :
 UpdateEditableState
 (
-PRBool
+bool
 aNotify
 )
 {
@@ -5823,7 +5823,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -5939,9 +5939,9 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -6415,7 +6415,7 @@ nsnull
 ;
 }
 static
-PRBool
+bool
 IsArea
 (
 nsIContent
@@ -6448,7 +6448,7 @@ IsHTML
 )
 ;
 }
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -6718,7 +6718,7 @@ aVisitor
 )
 ;
 }
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -6878,7 +6878,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -6967,7 +6967,7 @@ GetEventListenerManagerForAttr
 nsIAtom
 *
 aAttrName
-PRBool
+bool
 *
 aDefer
 )
@@ -7320,11 +7320,11 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
-PRBool
+bool
 contentEditable
 =
 aNameSpaceID
@@ -7341,7 +7341,7 @@ nsGkAtoms
 :
 contenteditable
 ;
-PRBool
+bool
 accessKey
 =
 aName
@@ -7492,14 +7492,14 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 {
-PRBool
+bool
 contentEditable
 =
-PR_FALSE
+false
 ;
 PRInt32
 contentEditableChange
@@ -7844,7 +7844,7 @@ Truncate
 -
 -
 static
-PRBool
+bool
 CanHaveName
 (
 nsIAtom
@@ -7898,7 +7898,7 @@ nsGkAtoms
 object
 ;
 }
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -8105,7 +8105,7 @@ aResult
 )
 ;
 }
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -8164,7 +8164,7 @@ nsGenericHTMLElement
 :
 GetFormControlFrame
 (
-PRBool
+bool
 aFlushFrames
 )
 {
@@ -8453,7 +8453,7 @@ GetLayoutHistoryAndKey
 nsGenericHTMLElement
 *
 aContent
-PRBool
+bool
 aRead
 nsILayoutHistoryState
 *
@@ -8692,7 +8692,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -8769,7 +8769,7 @@ if
 state
 )
 {
-PRBool
+bool
 result
 =
 aControl
@@ -9136,7 +9136,7 @@ NS_STYLE_VERTICAL_ALIGN_BASELINE
 }
 }
 ;
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -9250,7 +9250,7 @@ NS_STYLE_TEXT_ALIGN_JUSTIFY
 }
 }
 ;
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -9392,7 +9392,7 @@ NS_STYLE_TEXT_ALIGN_CENTER
 }
 }
 ;
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -9460,7 +9460,7 @@ PR_FALSE
 -
 -
 -
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -9486,7 +9486,7 @@ PR_FALSE
 )
 ;
 }
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -9512,7 +9512,7 @@ PR_FALSE
 )
 ;
 }
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -9613,7 +9613,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -9639,7 +9639,7 @@ PR_FALSE
 )
 ;
 }
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -9986,7 +9986,7 @@ nsGenericHTMLFormElement
 :
 UpdateEditableFormControlState
 (
-PRBool
+bool
 aNotify
 )
 {
@@ -10104,7 +10104,7 @@ the
 readonly
 attribute
 .
-PRBool
+bool
 roState
 ;
 GetBoolAttr
@@ -12785,7 +12785,7 @@ SetBoolAttr
 nsIAtom
 *
 aAttr
-PRBool
+bool
 aValue
 )
 {
@@ -12824,7 +12824,7 @@ GetBoolAttr
 nsIAtom
 *
 aAttr
-PRBool
+bool
 *
 aValue
 )
@@ -13175,7 +13175,7 @@ nsIURI
 >
 uri
 ;
-PRBool
+bool
 hadAttr
 =
 GetURIAttr
@@ -13249,7 +13249,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -13941,7 +13941,7 @@ nsGenericHTMLElement
 :
 GetIsContentEditable
 (
-PRBool
+bool
 *
 aContentEditable
 )
@@ -14317,7 +14317,7 @@ nsGenericHTMLFormElement
 nsGenericHTMLElement
 nsIFormControl
 )
-PRBool
+bool
 nsGenericHTMLFormElement
 :
 :
@@ -14439,7 +14439,7 @@ nsGenericHTMLFormElement
 :
 ClearForm
 (
-PRBool
+bool
 aRemoveFromForm
 )
 {
@@ -14712,15 +14712,15 @@ return
 state
 ;
 }
-PRBool
+bool
 nsGenericHTMLFrameElement
 :
 :
 IsHTMLFocusable
 (
-PRBool
+bool
 aWithMouse
-PRBool
+bool
 *
 aIsFocusable
 PRInt32
@@ -14792,7 +14792,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -14895,7 +14895,7 @@ browser
 .
 autofocus
 "
-PR_TRUE
+true
 )
 )
 {
@@ -15066,9 +15066,9 @@ nsGenericHTMLFormElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -15278,7 +15278,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -15612,7 +15612,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -16165,7 +16165,7 @@ nsnull
 ;
 }
 }
-PRBool
+bool
 nsGenericHTMLFormElement
 :
 :
@@ -16220,15 +16220,15 @@ type
 NS_FORM_PROGRESS
 ;
 }
-PRBool
+bool
 nsGenericHTMLFormElement
 :
 :
 IsHTMLFocusable
 (
-PRBool
+bool
 aWithMouse
-PRBool
+bool
 *
 aIsFocusable
 PRInt32
@@ -16950,7 +16950,7 @@ PR_FALSE
 static
 *
 /
-PRBool
+bool
 nsGenericHTMLFormElement
 :
 :
@@ -17011,7 +17011,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsGenericHTMLFormElement
 :
 :
@@ -17024,7 +17024,7 @@ nsIFrame
 aFrame
 )
 {
-PRBool
+bool
 disabled
 =
 IsDisabled
@@ -17118,10 +17118,10 @@ true
 "
 )
 ;
-PRBool
+bool
 needStateUpdate
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -17575,7 +17575,7 @@ nsGenericHTMLFormElement
 :
 UpdateFieldSet
 (
-PRBool
+bool
 aNotify
 )
 {
@@ -17755,7 +17755,7 @@ nsGenericHTMLFormElement
 :
 FieldSetDisabledChanged
 (
-PRBool
+bool
 aNotify
 )
 {
@@ -18003,10 +18003,10 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 depthTooGreat
 =
-PR_FALSE
+false
 ;
 mFrameLoader
 -
@@ -18319,7 +18319,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -18422,9 +18422,9 @@ nsGenericHTMLFrameElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -18544,7 +18544,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -19320,7 +19320,7 @@ NS_ENSURE_STATE
 window
 )
 ;
-PRBool
+bool
 fullscreen
 ;
 window
@@ -19572,15 +19572,15 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
 IsHTMLFocusable
 (
-PRBool
+bool
 aWithMouse
-PRBool
+bool
 *
 aIsFocusable
 PRInt32
@@ -19670,11 +19670,11 @@ GetTabIndex
 tabIndex
 )
 ;
-PRBool
+bool
 override
 disabled
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -19847,7 +19847,7 @@ nsGenericHTMLElement
 :
 RegUnRegAccessKey
 (
-PRBool
+bool
 aDoReg
 )
 {
@@ -19985,9 +19985,9 @@ nsGenericHTMLElement
 :
 PerformAccesskey
 (
-PRBool
+bool
 aKeyCausesActivation
-PRBool
+bool
 aIsTrustedEvent
 )
 {
@@ -20313,7 +20313,7 @@ return
 editor
 ;
 }
-PRBool
+bool
 nsGenericHTMLElement
 :
 :
@@ -20606,7 +20606,7 @@ PR_TRUE
 ;
 }
 }
-PRBool
+bool
 nsGenericHTMLElement
 :
 :

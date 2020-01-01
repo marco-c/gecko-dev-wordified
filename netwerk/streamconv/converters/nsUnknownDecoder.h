@@ -636,7 +636,7 @@ this
 /
 pref
 ?
-PRBool
+bool
 AllowSniffing
 (
 nsIRequest
@@ -666,7 +666,7 @@ means
 no
 luck
 .
-PRBool
+bool
 TryContentSniffers
 (
 nsIRequest
@@ -674,7 +674,7 @@ nsIRequest
 aRequest
 )
 ;
-PRBool
+bool
 SniffForHTML
 (
 nsIRequest
@@ -682,7 +682,7 @@ nsIRequest
 aRequest
 )
 ;
-PRBool
+bool
 SniffForXML
 (
 nsIRequest
@@ -710,7 +710,7 @@ using
 the
 extentsion
 )
-PRBool
+bool
 SniffURI
 (
 nsIRequest
@@ -776,7 +776,7 @@ a
 content
 type
 !
-PRBool
+bool
 LastDitchSniff
 (
 nsIRequest
@@ -843,10 +843,10 @@ nsIRequest
 *
 and
 returns
-PRBool
+bool
 -
 -
-PR_TRUE
+true
 if
 it
 sets
@@ -860,7 +860,7 @@ struct
 nsSnifferEntry
 {
 typedef
-PRBool
+bool
 (
 nsUnknownDecoder
 :
@@ -961,7 +961,7 @@ mBuffer
 PRUint32
 mBufferLen
 ;
-PRBool
+bool
 mRequireHTMLsuffix
 ;
 nsCString

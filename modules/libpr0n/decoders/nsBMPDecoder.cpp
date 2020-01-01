@@ -754,7 +754,7 @@ nsBMPDecoder
 :
 SetUseAlphaData
 (
-PRBool
+bool
 useAlphaData
 )
 {
@@ -1070,7 +1070,7 @@ has
 been
 processed
 .
-PRBool
+bool
 nsBMPDecoder
 :
 :
@@ -1311,10 +1311,10 @@ rightmost
 PRUint8
 pos
 ;
-PRBool
+bool
 started
 =
-PR_FALSE
+false
 ;
 aBegin
 =

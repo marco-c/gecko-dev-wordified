@@ -637,7 +637,7 @@ NotifyListener
 (
 )
 ;
-PRPackedBool
+bool
 mFinished
 ;
 /

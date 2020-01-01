@@ -729,7 +729,7 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMDocumentType
 nsGenericDOMDataNode
 )
-PRBool
+bool
 nsDOMDocumentType
 :
 :
@@ -898,7 +898,7 @@ CloneDataNode
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+bool
 aCloneText
 )
 const

@@ -515,7 +515,7 @@ valid
 .
 *
 /
-PRBool
+bool
 IsValidRow
 (
 PRInt32
@@ -538,7 +538,7 @@ valid
 .
 *
 /
-PRBool
+bool
 IsValidColumn
 (
 PRInt32
@@ -562,7 +562,7 @@ valid
 .
 *
 /
-PRBool
+bool
 IsValidRowNColumn
 (
 PRInt32
@@ -692,12 +692,12 @@ SetARIASelected
 nsAccessible
 *
 aAccessible
-PRBool
+bool
 aIsSelected
-PRBool
+bool
 aNotify
 =
-PR_TRUE
+true
 )
 ;
 /

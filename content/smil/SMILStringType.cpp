@@ -660,7 +660,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 SMILStringType
 :
 :

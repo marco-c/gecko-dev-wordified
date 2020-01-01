@@ -727,7 +727,7 @@ imgIRequest
 aRequest
 )
 ;
-PRBool
+bool
 HasBackgroundImage
 (
 nsIDOMNode

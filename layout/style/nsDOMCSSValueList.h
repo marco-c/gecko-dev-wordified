@@ -469,9 +469,9 @@ NS_DECL_NSIDOMCSSVALUE
 nsDOMCSSValueList
 nsDOMCSSValueList
 (
-PRBool
+bool
 aCommaDelimited
-PRBool
+bool
 aReadonly
 )
 ;
@@ -624,7 +624,7 @@ aSupports
 }
 private
 :
-PRPackedBool
+bool
 mCommaDelimited
 ;
 /
@@ -647,7 +647,7 @@ use
 /
 spaces
 .
-PRPackedBool
+bool
 mReadonly
 ;
 /

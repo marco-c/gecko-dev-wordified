@@ -596,12 +596,12 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -674,7 +674,7 @@ checked
 dirty
 *
 /
-PRBool
+bool
 IsChecked
 (
 )
@@ -684,7 +684,7 @@ return
 mChecked
 ;
 }
-PRBool
+bool
 IsCheckedDirty
 (
 )
@@ -717,7 +717,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 ;

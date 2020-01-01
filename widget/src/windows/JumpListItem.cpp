@@ -745,7 +745,7 @@ Equals
 nsIJumpListItem
 *
 aItem
-PRBool
+bool
 *
 aResult
 )
@@ -986,7 +986,7 @@ CompareHash
 nsIURI
 *
 aUri
-PRBool
+bool
 *
 aResult
 )
@@ -1089,7 +1089,7 @@ Equals
 nsIJumpListItem
 *
 aItem
-PRBool
+bool
 *
 aResult
 )
@@ -1225,10 +1225,10 @@ nsIURI
 >
 theUri
 ;
-PRBool
+bool
 equals
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1498,7 +1498,7 @@ Equals
 nsIJumpListItem
 *
 aItem
-PRBool
+bool
 *
 aResult
 )
@@ -1652,10 +1652,10 @@ nsILocalHandlerApp
 >
 theApp
 ;
-PRBool
+bool
 equals
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1973,10 +1973,10 @@ kSecondsPerDay
 86400
 ;
 static
-PRBool
+bool
 alreadyObtained
 =
-PR_FALSE
+false
 ;
 static
 PRInt32
@@ -2159,7 +2159,7 @@ ICO
 file
 already
 exists
-PRBool
+bool
 exists
 ;
 rv
@@ -3200,10 +3200,10 @@ GetDetailedDescription
 appDescription
 )
 ;
-PRBool
+bool
 useUriIcon
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3215,10 +3215,10 @@ use
 the
 URI
 icon
-PRBool
+bool
 usedUriIcon
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3561,7 +3561,7 @@ aShortcut
 PRUnichar
 *
 aPath
-PRBool
+bool
 *
 aSame
 )
@@ -4124,7 +4124,7 @@ our
 icon
 cache
 .
-PRBool
+bool
 isInOurCache
 ;
 if
@@ -4731,7 +4731,7 @@ is
 on
 the
 system
-PRBool
+bool
 JumpListShortcut
 :
 :
@@ -4786,7 +4786,7 @@ rv
 executable
 )
 {
-PRBool
+bool
 exists
 ;
 executable

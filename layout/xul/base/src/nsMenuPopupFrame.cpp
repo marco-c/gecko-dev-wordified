@@ -1051,7 +1051,7 @@ panel
 .
 default_level_parent
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -1537,7 +1537,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsMenuPopupFrame
 :
 :
@@ -1627,7 +1627,7 @@ nsMenuPopupFrame
 :
 PopupLevel
 (
-PRBool
+bool
 aIsNoAutoHide
 )
 const
@@ -2103,7 +2103,7 @@ this
 this
 )
 ;
-PRBool
+bool
 viewHasTransparentContent
 =
 !
@@ -2613,7 +2613,7 @@ aChildList
 )
 ;
 }
-PRBool
+bool
 nsMenuPopupFrame
 :
 :
@@ -2787,7 +2787,7 @@ aState
 nsIFrame
 *
 aParentMenu
-PRBool
+bool
 aSizedToPopup
 )
 {
@@ -2798,12 +2798,12 @@ mGeneratedChildren
 )
 return
 ;
-PRBool
+bool
 shouldPosition
 =
-PR_TRUE
+true
 ;
-PRBool
+bool
 isOpen
 =
 IsOpen
@@ -3018,7 +3018,7 @@ be
 the
 preferred
 size
-PRBool
+bool
 sizeChanged
 =
 (
@@ -3843,7 +3843,7 @@ PRInt32
 aXPos
 PRInt32
 aYPos
-PRBool
+bool
 aAttributesOverride
 )
 {
@@ -4559,7 +4559,7 @@ PRInt32
 aXPos
 PRInt32
 aYPos
-PRBool
+bool
 aIsContextMenu
 )
 {
@@ -4763,9 +4763,9 @@ nsMenuPopupFrame
 :
 ShowPopup
 (
-PRBool
+bool
 aIsContextMenu
-PRBool
+bool
 aSelectFirstItem
 )
 {
@@ -4922,7 +4922,7 @@ nsMenuPopupFrame
 :
 HidePopup
 (
-PRBool
+bool
 aDeselectMenu
 nsPopupState
 aNewState
@@ -6617,7 +6617,7 @@ nscoord
 aOffsetForContextMenu
 FlipStyle
 aFlip
-PRPackedBool
+bool
 *
 aFlipSide
 )
@@ -7278,7 +7278,7 @@ SetPopupPosition
 nsIFrame
 *
 aAnchorFrame
-PRBool
+bool
 aIsMove
 )
 {
@@ -7523,10 +7523,10 @@ NS_OK
 ;
 }
 }
-PRBool
+bool
 sizedToPopup
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -9931,7 +9931,7 @@ y
 }
 }
 }
-PRBool
+bool
 nsMenuPopupFrame
 :
 :
@@ -10523,7 +10523,7 @@ ChangeMenuItem
 nsMenuFrame
 *
 aMenuItem
-PRBool
+bool
 aSelectFirstItem
 )
 {
@@ -10740,7 +10740,7 @@ FindMenuWithShortcut
 nsIDOMKeyEvent
 *
 aKeyEvent
-PRBool
+bool
 &
 doAction
 )
@@ -10826,12 +10826,12 @@ matchShortcutCount
 =
 0
 ;
-PRBool
+bool
 foundActive
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 isShortcut
 ;
 nsMenuFrame
@@ -10863,7 +10863,7 @@ GetParent
 (
 )
 ;
-PRBool
+bool
 isMenu
 =
 parentContent
@@ -11884,7 +11884,7 @@ nsMenuPopupFrame
 :
 LockMenuUntilClosed
 (
-PRBool
+bool
 aLock
 )
 {
@@ -12595,7 +12595,7 @@ PRInt32
 aLeft
 PRInt32
 aTop
-PRBool
+bool
 aUpdateAttrs
 )
 {
@@ -12826,7 +12826,7 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 nsMenuPopupFrame
 :
 :
@@ -12844,7 +12844,7 @@ nsMenuPopupFrame
 :
 SetAutoPosition
 (
-PRBool
+bool
 aShouldAutoPosition
 )
 {
@@ -12928,10 +12928,10 @@ zIndex
 =
 0
 ;
-PRBool
+bool
 autoZIndex
 =
-PR_FALSE
+false
 ;
 nsIView
 *

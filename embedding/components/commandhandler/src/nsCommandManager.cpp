@@ -1255,7 +1255,7 @@ aCommandName
 nsIDOMWindow
 *
 aTargetWindow
-PRBool
+bool
 *
 outCommandSupported
 )
@@ -1327,7 +1327,7 @@ aCommandName
 nsIDOMWindow
 *
 aTargetWindow
-PRBool
+bool
 *
 outCommandEnabled
 )
@@ -1337,10 +1337,10 @@ NS_ENSURE_ARG_POINTER
 outCommandEnabled
 )
 ;
-PRBool
+bool
 commandEnabled
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1597,7 +1597,7 @@ nsCommandManager
 :
 IsCallerChrome
 (
-PRBool
+bool
 *
 is_caller_chrome
 )
@@ -1714,10 +1714,10 @@ window
 or
 we
 bail
-PRBool
+bool
 isChrome
 =
-PR_FALSE
+false
 ;
 rv
 =

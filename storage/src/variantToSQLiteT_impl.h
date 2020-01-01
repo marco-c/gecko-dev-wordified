@@ -814,7 +814,7 @@ nsIDataType
 VTYPE_BOOL
 :
 {
-PRBool
+bool
 value
 ;
 nsresult

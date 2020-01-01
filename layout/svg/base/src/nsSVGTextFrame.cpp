@@ -1885,10 +1885,10 @@ SetWhitespaceCompression
 (
 )
 ;
-PRBool
+bool
 trimLeadingWhitespace
 =
-PR_TRUE
+true
 ;
 nsSVGGlyphFrame
 *
@@ -1959,7 +1959,7 @@ nsSVGTextFrame
 :
 UpdateGlyphPositioning
 (
-PRBool
+bool
 aForceGlobalTransform
 )
 {

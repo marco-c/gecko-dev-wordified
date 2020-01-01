@@ -469,7 +469,7 @@ static
 void
 Assert
 (
-PRBool
+bool
 aCond
 const
 char

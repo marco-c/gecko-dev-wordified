@@ -1649,7 +1649,7 @@ UnblockParser
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsParserEnabled
 (
@@ -1659,7 +1659,7 @@ IsParserEnabled
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsComplete
 (
@@ -1705,7 +1705,7 @@ const
 nsACString
 &
 aMimeType
-PRBool
+bool
 aLastCall
 nsDTDMode
 aMode
@@ -2027,7 +2027,7 @@ innerHTML
 *
 /
 virtual
-PRBool
+bool
 CanInterrupt
 (
 )
@@ -2053,7 +2053,7 @@ defined
 *
 /
 virtual
-PRBool
+bool
 IsInsertionPointDefined
 (
 )
@@ -2155,7 +2155,7 @@ parser
 *
 /
 virtual
-PRBool
+bool
 IsScriptCreated
 (
 )

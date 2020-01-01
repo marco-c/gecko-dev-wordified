@@ -619,7 +619,7 @@ nsEventListenerInfo
 :
 GetCapturing
 (
-PRBool
+bool
 *
 aCapturing
 )
@@ -639,7 +639,7 @@ nsEventListenerInfo
 :
 GetAllowsUntrusted
 (
-PRBool
+bool
 *
 aAllowsUntrusted
 )
@@ -659,7 +659,7 @@ nsEventListenerInfo
 :
 GetInSystemEventGroup
 (
-PRBool
+bool
 *
 aInSystemEventGroup
 )
@@ -686,7 +686,7 @@ root
 *
 aJSVal
 !
-PRBool
+bool
 nsEventListenerInfo
 :
 :
@@ -1015,10 +1015,10 @@ rv
 NS_OK
 )
 ;
-PRBool
+bool
 isOn
 =
-PR_FALSE
+false
 ;
 jsd
 -
@@ -1505,7 +1505,7 @@ const
 nsAString
 &
 aType
-PRBool
+bool
 *
 aRetVal
 )
@@ -1556,7 +1556,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
 )
 {
@@ -1638,7 +1638,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
 )
 {

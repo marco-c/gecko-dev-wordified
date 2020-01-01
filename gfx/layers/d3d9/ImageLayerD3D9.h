@@ -538,7 +538,7 @@ GetCurrentSize
 )
 ;
 virtual
-PRBool
+bool
 SetLayerManager
 (
 LayerManager
@@ -815,7 +815,7 @@ FreeTextures
 (
 )
 ;
-PRBool
+bool
 HasData
 (
 )
@@ -883,7 +883,7 @@ IDirect3DTexture9
 >
 mCbTexture
 ;
-PRPackedBool
+bool
 mHasData
 ;
 }

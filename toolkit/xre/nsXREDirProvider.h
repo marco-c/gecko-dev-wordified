@@ -893,7 +893,7 @@ nsILocalFile
 *
 *
 aFile
-PRBool
+bool
 aLocal
 )
 ;
@@ -905,7 +905,7 @@ nsILocalFile
 *
 *
 aFile
-PRBool
+bool
 aLocal
 )
 ;
@@ -1107,7 +1107,7 @@ nsIFile
 >
 mProfileLocalDir
 ;
-PRPackedBool
+bool
 mProfileNotified
 ;
 nsCOMArray

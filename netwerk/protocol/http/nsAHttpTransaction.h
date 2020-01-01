@@ -751,7 +751,7 @@ transaction
 status
 .
 virtual
-PRBool
+bool
 IsDone
 (
 )
@@ -941,7 +941,7 @@ progress
 )
 ;
 \
-PRBool
+bool
 IsDone
 (
 )

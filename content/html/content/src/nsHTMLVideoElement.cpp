@@ -836,7 +836,7 @@ aDefaultSize
 mMediaSize
 ;
 }
-PRBool
+bool
 nsHTMLVideoElement
 :
 :
@@ -932,7 +932,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLVideoElement
 :

@@ -552,7 +552,7 @@ aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-PRBool
+bool
 aExpandEntityReferences
 )
 :
@@ -773,7 +773,7 @@ nsTreeWalker
 :
 GetExpandEntityReferences
 (
-PRBool
+bool
 *
 aExpandEntityReferences
 )
@@ -1657,7 +1657,7 @@ nsTreeWalker
 :
 FirstChildInternal
 (
-PRBool
+bool
 aReversed
 nsIDOMNode
 *
@@ -1931,7 +1931,7 @@ nsTreeWalker
 :
 NextSiblingInternal
 (
-PRBool
+bool
 aReversed
 nsIDOMNode
 *

@@ -608,7 +608,7 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aCurrentFrame
 const
 nsIntRect
@@ -683,7 +683,7 @@ from
 recursive
 painting
 .
-PRBool
+bool
 mInvalidationSuppressed
 ;
 class

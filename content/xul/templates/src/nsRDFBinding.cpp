@@ -668,7 +668,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 RDFBindingSet
 :
 :
@@ -723,10 +723,10 @@ result
 "
 )
 ;
-PRBool
+bool
 needSync
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <

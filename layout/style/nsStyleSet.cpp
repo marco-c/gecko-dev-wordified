@@ -2338,7 +2338,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsStyleSet
 :
 :
@@ -2356,7 +2356,7 @@ nsStyleSet
 :
 SetAuthorStyleDisabled
 (
-PRBool
+bool
 aStyleDisabled
 )
 {
@@ -2709,14 +2709,14 @@ nsStyleSet
 :
 EnableQuirkStyleSheet
 (
-PRBool
+bool
 aEnable
 )
 {
 #
 ifdef
 DEBUG
-PRBool
+bool
 oldEnabled
 ;
 {
@@ -2849,7 +2849,7 @@ class
 T
 >
 static
-PRBool
+bool
 EnumRulesMatching
 (
 nsIStyleRuleProcessor
@@ -3373,9 +3373,9 @@ used
 nsRuleNode
 *
 aVisitedRuleNode
-PRBool
+bool
 aIsLink
-PRBool
+bool
 aIsVisitedLink
 nsIAtom
 *
@@ -3385,7 +3385,7 @@ nsCSSPseudoElements
 :
 Type
 aPseudoType
-PRBool
+bool
 aDoAnimations
 Element
 *
@@ -3760,7 +3760,7 @@ forget
 )
 )
 ;
-PRBool
+bool
 relevantLinkVisited
 =
 aIsLink
@@ -4813,7 +4813,7 @@ CurrentNode
 (
 )
 ;
-PRBool
+bool
 haveImportantUARules
 =
 !
@@ -4834,7 +4834,7 @@ PR_FALSE
 PR_TRUE
 )
 ;
-PRBool
+bool
 skipUserStyles
 =
 aContent
@@ -4886,7 +4886,7 @@ CurrentNode
 (
 )
 ;
-PRBool
+bool
 haveImportantUserRules
 =
 !
@@ -4947,10 +4947,10 @@ PR_FALSE
 PR_TRUE
 )
 ;
-PRBool
+bool
 cutOffInheritance
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5071,7 +5071,7 @@ CurrentNode
 (
 )
 ;
-PRBool
+bool
 haveImportantDocRules
 =
 !
@@ -5122,7 +5122,7 @@ CurrentNode
 (
 )
 ;
-PRBool
+bool
 haveImportantOverrideRules
 =
 !
@@ -5449,7 +5449,7 @@ aFunc
 RuleProcessorData
 *
 aData
-PRBool
+bool
 aWalkAllXBLStylesheets
 )
 {
@@ -5472,7 +5472,7 @@ eAgentSheet
 aData
 )
 ;
-PRBool
+bool
 skipUserStyles
 =
 aData
@@ -5532,10 +5532,10 @@ ePresHintSheet
 aData
 )
 ;
-PRBool
+bool
 cutOffInheritance
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5682,7 +5682,7 @@ aData
 )
 ;
 }
-PRBool
+bool
 nsStyleSet
 :
 :
@@ -7247,7 +7247,7 @@ nsnull
 #
 ifdef
 DEBUG
-PRBool
+bool
 isAnonBox
 =
 nsCSSAnonBoxes
@@ -7546,7 +7546,7 @@ nsnull
 }
 #
 endif
-PRBool
+bool
 nsStyleSet
 :
 :
@@ -7634,7 +7634,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsStyleSet
 :
 :
@@ -8071,7 +8071,7 @@ tree
 #
 ifdef
 DEBUG
-PRBool
+bool
 deleted
 =
 #
@@ -8187,7 +8187,7 @@ aRuleNode
 Element
 *
 aElement
-PRBool
+bool
 isPseudo
 )
 {
@@ -8477,7 +8477,7 @@ nsTransitionManager
 WalkTransitionRule
 would
 .
-PRBool
+bool
 skipAnimationRules
 =
 PresContext
@@ -8715,7 +8715,7 @@ to
 match
 aNewParentContext
 .
-PRBool
+bool
 relevantLinkVisited
 =
 aStyleContext
@@ -8826,7 +8826,7 @@ mHint
 }
 ;
 static
-PRBool
+bool
 SheetHasDocumentStateStyle
 (
 nsIStyleRuleProcessor
@@ -8894,7 +8894,7 @@ a
 document
 state
 .
-PRBool
+bool
 nsStyleSet
 :
 :
@@ -8975,7 +8975,7 @@ mHint
 ;
 }
 static
-PRBool
+bool
 SheetHasStatefulStyle
 (
 nsIStyleRuleProcessor
@@ -9113,7 +9113,7 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-PRBool
+bool
 aAttrHasChanged
 TreeMatchContext
 &
@@ -9144,7 +9144,7 @@ mHint
 }
 ;
 static
-PRBool
+bool
 SheetHasAttributeStyle
 (
 nsIStyleRuleProcessor
@@ -9225,7 +9225,7 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-PRBool
+bool
 aAttrHasChanged
 )
 {
@@ -9270,7 +9270,7 @@ data
 mHint
 ;
 }
-PRBool
+bool
 nsStyleSet
 :
 :
@@ -9294,10 +9294,10 @@ a
 content
 node
 .
-PRBool
+bool
 stylesChanged
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -9336,7 +9336,7 @@ processor
 continue
 ;
 }
-PRBool
+bool
 thisChanged
 =
 processor
@@ -9360,10 +9360,10 @@ if
 mBindingManager
 )
 {
-PRBool
+bool
 thisChanged
 =
-PR_FALSE
+false
 ;
 mBindingManager
 -

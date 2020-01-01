@@ -561,7 +561,7 @@ GetRootDocumentAccessible
 nsIPresShell
 *
 aPresShell
-PRBool
+bool
 aCanCreate
 )
 ;
@@ -1053,7 +1053,7 @@ shutdown
 *
 /
 static
-PRBool
+bool
 IsShutdown
 (
 )
@@ -1393,7 +1393,7 @@ service
 .
 *
 /
-PRBool
+bool
 Init
 (
 )
@@ -1649,7 +1649,7 @@ shutdown
 *
 /
 static
-PRBool
+bool
 gIsShutdown
 ;
 /
@@ -1715,7 +1715,7 @@ the
 node
 *
 /
-PRBool
+bool
 HasUniversalAriaProperty
 (
 nsIContent

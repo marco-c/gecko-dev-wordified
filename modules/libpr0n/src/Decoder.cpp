@@ -1209,7 +1209,7 @@ if
 mObserver
 )
 {
-PRBool
+bool
 isCurrentFrame
 =
 mImage

@@ -903,7 +903,7 @@ to
 this
 surface
 .
-PRBool
+bool
 GetColormapAndVisual
 (
 Colormap
@@ -982,7 +982,7 @@ been
 called
 on
 this
-PRBool
+bool
 mPixmapTaken
 ;
 Display

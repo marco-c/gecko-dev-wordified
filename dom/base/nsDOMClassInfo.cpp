@@ -6955,29 +6955,29 @@ sSecMan
 =
 nsnull
 ;
-PRBool
+bool
 nsDOMClassInfo
 :
 :
 sIsInitialized
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 nsDOMClassInfo
 :
 :
 sDisableDocumentAllSupport
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 nsDOMClassInfo
 :
 :
 sDisableGlobalScopePollutionSupport
 =
-PR_FALSE
+false
 ;
 jsid
 nsDOMClassInfo
@@ -7879,7 +7879,7 @@ nsIXPConnectJSObjectHolder
 *
 *
 aHolder
-PRBool
+bool
 aAllowWrapping
 )
 {
@@ -7977,7 +7977,7 @@ const
 nsIID
 *
 aIID
-PRBool
+bool
 aAllowWrapping
 jsval
 *
@@ -8057,7 +8057,7 @@ scope
 nsISupports
 *
 native
-PRBool
+bool
 aAllowWrapping
 jsval
 *
@@ -8123,7 +8123,7 @@ native
 nsWrapperCache
 *
 cache
-PRBool
+bool
 aAllowWrapping
 jsval
 *
@@ -9252,7 +9252,7 @@ NS_OK
 /
 /
 static
-PRBool
+bool
 nsDOMClassInfo
 :
 :
@@ -9639,7 +9639,7 @@ nameSpaceManager
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-PRBool
+bool
 found_old
 ;
 const
@@ -9698,10 +9698,10 @@ nsIInterfaceInfo
 >
 if_info
 ;
-PRBool
+bool
 first
 =
-PR_TRUE
+true
 ;
 iim
 -
@@ -16068,7 +16068,7 @@ JSContext
 cx
 jsid
 id
-PRBool
+bool
 *
 aIsNumber
 )
@@ -16755,7 +16755,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -16800,7 +16800,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -16845,7 +16845,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -16890,7 +16890,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -16930,7 +16930,7 @@ cx
 JSObject
 *
 obj
-PRBool
+bool
 *
 _retval
 )
@@ -17044,7 +17044,7 @@ statep
 jsid
 *
 idp
-PRBool
+bool
 *
 _retval
 )
@@ -17240,7 +17240,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -17294,7 +17294,7 @@ type
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -17378,7 +17378,7 @@ mode
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -17526,7 +17526,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -17574,7 +17574,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -17618,10 +17618,10 @@ const
 jsval
 &
 val
-PRBool
+bool
 *
 bp
-PRBool
+bool
 *
 _retval
 )
@@ -17702,7 +17702,7 @@ const
 jsval
 &
 val
-PRBool
+bool
 *
 bp
 )
@@ -17984,9 +17984,9 @@ nameSpaceManager
 JSObject
 *
 dot_prototype
-PRBool
+bool
 install
-PRBool
+bool
 *
 did_resolve
 )
@@ -18687,7 +18687,7 @@ nameSpaceManager
 NS_OK
 )
 ;
-PRBool
+bool
 unused
 ;
 return
@@ -20745,7 +20745,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -21657,7 +21657,7 @@ cx
 JSObject
 *
 obj
-PRBool
+bool
 *
 _retval
 )
@@ -22671,7 +22671,7 @@ const
 PRUnichar
 *
 aName
-PRBool
+bool
 aIsConstructable
 nsPIDOMWindow
 *
@@ -22759,7 +22759,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -22780,10 +22780,10 @@ const
 jsval
 &
 val
-PRBool
+bool
 *
 bp
-PRBool
+bool
 *
 _retval
 )
@@ -23026,7 +23026,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 IsConstructable
 (
 const
@@ -23085,7 +23085,7 @@ aData
 ;
 }
 static
-PRBool
+bool
 IsConstructable
 (
 const
@@ -23175,7 +23175,7 @@ PRUnichar
 mClassName
 ;
 const
-PRPackedBool
+bool
 mConstructable
 ;
 nsWeakPtr
@@ -23369,7 +23369,7 @@ return
 NS_ERROR_DOM_SECURITY_ERR
 ;
 }
-PRBool
+bool
 constructable
 =
 aNameStruct
@@ -23616,7 +23616,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -23730,10 +23730,10 @@ const
 jsval
 &
 v
-PRBool
+bool
 *
 bp
-PRBool
+bool
 *
 _retval
 )
@@ -25132,9 +25132,9 @@ nameSpaceManager
 JSObject
 *
 dot_prototype
-PRBool
+bool
 install
-PRBool
+bool
 *
 did_resolve
 )
@@ -26091,7 +26091,7 @@ JSObject
 obj
 jsid
 id
-PRBool
+bool
 *
 did_resolve
 )
@@ -28014,7 +28014,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -29225,7 +29225,7 @@ ar
 cx
 )
 ;
-PRBool
+bool
 ok
 =
 JS_WrapValue
@@ -29406,10 +29406,10 @@ script
 namespace
 manager
 .
-PRBool
+bool
 did_resolve
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -30038,7 +30038,7 @@ sPackages_id
 )
 {
 static
-PRBool
+bool
 isResolvingJavaProperties
 ;
 if
@@ -30099,7 +30099,7 @@ InitJavaProperties
 JSBool
 hasProp
 ;
-PRBool
+bool
 ok
 =
 :
@@ -30934,7 +30934,7 @@ mode
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -31283,7 +31283,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -32258,7 +32258,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsNodeSH
 :
 :
@@ -32270,7 +32270,7 @@ char
 aCapability
 )
 {
-PRBool
+bool
 enabled
 ;
 return
@@ -32663,10 +32663,10 @@ t
 touch
 it
 !
-PRBool
+bool
 hasHadScriptHandlingObject
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_STATE
 (
@@ -32691,7 +32691,7 @@ nsINode
 *
 native_parent
 ;
-PRBool
+bool
 nodeIsElement
 =
 node
@@ -33233,7 +33233,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -33277,7 +33277,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -33554,7 +33554,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -33625,7 +33625,7 @@ target
 Element
 helper
 static
-PRBool
+bool
 GetBindingURL
 (
 Element
@@ -34013,7 +34013,7 @@ URL
 *
 bindingURL
 ;
-PRBool
+bool
 ok
 =
 GetBindingURL
@@ -34393,7 +34393,7 @@ URL
 *
 bindingURL
 ;
-PRBool
+bool
 ok
 =
 GetBindingURL
@@ -34465,7 +34465,7 @@ must
 be
 installed
 .
-PRBool
+bool
 dummy
 ;
 nsCOMPtr
@@ -34579,7 +34579,7 @@ cx
 JSObject
 *
 obj
-PRBool
+bool
 *
 _retval
 )
@@ -34724,7 +34724,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -34756,10 +34756,10 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 is_number
 =
-PR_FALSE
+false
 ;
 PRInt32
 n
@@ -35023,7 +35023,7 @@ cx
 JSObject
 *
 obj
-PRBool
+bool
 *
 _retval
 )
@@ -35059,7 +35059,7 @@ or
 somesuch
 .
 static
-PRBool
+bool
 sCurrentlyEnumerating
 ;
 if
@@ -35203,15 +35203,15 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
 {
-PRBool
+bool
 is_number
 =
-PR_FALSE
+false
 ;
 PRInt32
 n
@@ -35981,7 +35981,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -36260,7 +36260,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -37125,7 +37125,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -37214,7 +37214,7 @@ cx
 JSObject
 *
 obj
-PRBool
+bool
 *
 _retval
 )
@@ -37477,7 +37477,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -37546,7 +37546,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -37676,7 +37676,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -38047,7 +38047,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -41103,7 +41103,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -41822,7 +41822,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -42075,7 +42075,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -42231,7 +42231,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -42460,7 +42460,7 @@ statep
 jsid
 *
 idp
-PRBool
+bool
 *
 _retval
 )
@@ -42787,7 +42787,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -42924,7 +42924,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -43185,7 +43185,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -43440,7 +43440,7 @@ prototype
 chain
 .
 static
-PRBool
+bool
 IsObjInProtoChain
 (
 JSContext
@@ -44655,7 +44655,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -44783,7 +44783,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -44914,7 +44914,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -45259,7 +45259,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -45345,7 +45345,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -45725,15 +45725,15 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
 {
-PRBool
+bool
 is_number
 =
-PR_FALSE
+false
 ;
 PRInt32
 n
@@ -45966,15 +45966,15 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
 {
-PRBool
+bool
 is_number
 =
-PR_FALSE
+false
 ;
 GetArrayIndexFromId
 (
@@ -46984,7 +46984,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -47342,7 +47342,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -47479,7 +47479,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -47584,7 +47584,7 @@ statep
 jsid
 *
 idp
-PRBool
+bool
 *
 _retval
 )
@@ -47919,7 +47919,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -48243,7 +48243,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -48458,7 +48458,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -48595,7 +48595,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -48700,7 +48700,7 @@ statep
 jsid
 *
 idp
-PRBool
+bool
 *
 _retval
 )
@@ -49061,7 +49061,7 @@ nsIInterfaceInfo
 aInterfaceInfo
 PRUint16
 aMethodIndex
-PRBool
+bool
 *
 aHideFirstParamFromJS
 nsIID
@@ -49238,7 +49238,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -49333,7 +49333,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -49424,10 +49424,10 @@ const
 jsval
 &
 val
-PRBool
+bool
 *
 bp
-PRBool
+bool
 *
 _retval
 )

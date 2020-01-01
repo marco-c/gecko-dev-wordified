@@ -729,7 +729,7 @@ inlineFrame
 }
 static
 inline
-PRBool
+bool
 IsMarginZero
 (
 const
@@ -763,7 +763,7 @@ aCoord
 virtual
 *
 /
-PRBool
+bool
 nsInlineFrame
 :
 :
@@ -892,7 +892,7 @@ this
 really
 be
 ?
-PRBool
+bool
 haveRight
 =
 border
@@ -937,7 +937,7 @@ GetRight
 )
 )
 ;
-PRBool
+bool
 haveLeft
 =
 border
@@ -999,7 +999,7 @@ GetStateBits
 NS_FRAME_IS_SPECIAL
 )
 {
-PRBool
+bool
 haveStart
 haveEnd
 ;
@@ -1143,7 +1143,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsInlineFrame
 :
 :
@@ -1205,18 +1205,18 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsInlineFrame
 :
 :
 PeekOffsetCharacter
 (
-PRBool
+bool
 aForward
 PRInt32
 *
 aOffset
-PRBool
+bool
 aRespectClusters
 )
 {
@@ -1606,7 +1606,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 {
@@ -1684,7 +1684,7 @@ aOurLineContainer
 nsIFrame
 *
 aFrame
-PRBool
+bool
 aReparentSiblings
 )
 {
@@ -1883,7 +1883,7 @@ PrincipalChildList
 )
 )
 ;
-PRBool
+bool
 isOverflow
 =
 !
@@ -2172,10 +2172,10 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-PRBool
+bool
 lazilySetParentPointer
 =
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -2931,7 +2931,7 @@ block
 or
 not
 .
-PRBool
+bool
 complete
 ;
 (
@@ -2994,7 +2994,7 @@ rv
 virtual
 *
 /
-PRBool
+bool
 nsInlineFrame
 :
 :
@@ -3158,7 +3158,7 @@ aReflowState
 .
 mLineLayout
 ;
-PRBool
+bool
 inFirstLine
 =
 aReflowState
@@ -3181,7 +3181,7 @@ FrameManager
 (
 )
 ;
-PRBool
+bool
 ltr
 =
 (
@@ -3364,10 +3364,10 @@ FirstChild
 (
 )
 ;
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -3377,7 +3377,7 @@ nsnull
 frame
 )
 {
-PRBool
+bool
 reflowingFirstLetter
 =
 lineLayout
@@ -3409,7 +3409,7 @@ irs
 mSetParentPointer
 )
 {
-PRBool
+bool
 havePrevBlock
 =
 irs
@@ -4167,7 +4167,7 @@ while
 done
 )
 {
-PRBool
+bool
 reflowingFirstLetter
 =
 lineLayout
@@ -4177,7 +4177,7 @@ GetFirstLetterStyleOK
 (
 )
 ;
-PRBool
+bool
 isComplete
 ;
 if
@@ -5012,7 +5012,7 @@ aReflowState
 .
 mLineLayout
 ;
-PRBool
+bool
 reflowingFirstLetter
 =
 lineLayout
@@ -5022,7 +5022,7 @@ GetFirstLetterStyleOK
 (
 )
 ;
-PRBool
+bool
 pushedFrame
 ;
 nsresult
@@ -5550,15 +5550,15 @@ aPresContext
 InlineReflowState
 &
 irs
-PRBool
+bool
 *
 aIsComplete
 )
 {
-PRBool
+bool
 isComplete
 =
-PR_TRUE
+true
 ;
 nsIFrame
 *
@@ -6466,7 +6466,7 @@ relevant
 bits
 set
 .
-PRBool
+bool
 ltr
 =
 (
@@ -7027,7 +7027,7 @@ aPresContext
 InlineReflowState
 &
 irs
-PRBool
+bool
 *
 aIsComplete
 )
@@ -7409,7 +7409,7 @@ GetNextInFlow
 nsresult
 rv
 ;
-PRBool
+bool
 wasEmpty
 =
 mFrames
@@ -7448,7 +7448,7 @@ block
 or
 not
 .
-PRBool
+bool
 complete
 ;
 PullOneFrame
@@ -7560,7 +7560,7 @@ for
 ;
 )
 {
-PRBool
+bool
 complete
 ;
 nsIFrame

@@ -597,7 +597,7 @@ bookmark
 nsCString
 property
 ;
-PRBool
+bool
 isAnnotation
 ;
 nsCString
@@ -1220,7 +1220,7 @@ const
 nsAString
 &
 aContractId
-PRBool
+bool
 aIsBookmarkFolder
 PRInt32
 *
@@ -1278,7 +1278,7 @@ otherwise
 .
 *
 /
-PRBool
+bool
 IsRealBookmark
 (
 PRInt64
@@ -1895,7 +1895,7 @@ IsBookmarkedInDatabase
 (
 PRInt64
 aBookmarkID
-PRBool
+bool
 *
 aIsBookmarked
 )
@@ -2875,7 +2875,7 @@ DoTransaction
 NS_IMETHOD
 GetIsTransient
 (
-PRBool
+bool
 *
 aResult
 )
@@ -2895,7 +2895,7 @@ Merge
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 *
 aResult
 )

@@ -727,7 +727,7 @@ nsIDOMNode
 aDestinationNode
 PRInt32
 aDestOffset
-PRBool
+bool
 aDoDeleteSelection
 )
 {
@@ -862,7 +862,7 @@ nsIDOMNode
 aDestinationNode
 PRInt32
 aDestOffset
-PRBool
+bool
 aDoDeleteSelection
 )
 {
@@ -1309,10 +1309,10 @@ beginBatching
 this
 )
 ;
-PRBool
+bool
 deleteSelection
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1435,7 +1435,7 @@ selection
 NS_ERROR_FAILURE
 )
 ;
-PRBool
+bool
 isCollapsed
 ;
 rv
@@ -1512,10 +1512,10 @@ selection
 is
 already
 collapsed
-PRBool
+bool
 cursorIsInSelection
 =
-PR_FALSE
+false
 ;
 PRInt32
 rangeCount
@@ -1997,7 +1997,7 @@ CanDrag
 nsIDOMEvent
 *
 aDragEvent
-PRBool
+bool
 *
 aCanDrag
 )
@@ -2110,7 +2110,7 @@ res
 res
 )
 ;
-PRBool
+bool
 isCollapsed
 ;
 res
@@ -2215,10 +2215,10 @@ if
 eventTargetDomNode
 )
 {
-PRBool
+bool
 isTargetedCorrectly
 =
-PR_FALSE
+false
 ;
 res
 =
@@ -2869,7 +2869,7 @@ CanPaste
 (
 PRInt32
 aSelectionType
-PRBool
+bool
 *
 aCanPaste
 )
@@ -2955,7 +2955,7 @@ textEditorFlavors
 kUnicodeMime
 }
 ;
-PRBool
+bool
 haveFlavors
 ;
 rv
@@ -2999,7 +2999,7 @@ CanPasteTransferable
 nsITransferable
 *
 aTransferable
-PRBool
+bool
 *
 aCanPaste
 )

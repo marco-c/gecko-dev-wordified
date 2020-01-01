@@ -1322,7 +1322,7 @@ Contains
 (
 PRUint32
 aPrefix
-PRBool
+bool
 *
 aFound
 )
@@ -1627,7 +1627,7 @@ aSize
 =
 sizeof
 (
-PRBool
+bool
 )
 ;
 if
@@ -1691,7 +1691,7 @@ nsUrlClassifierPrefixSet
 :
 IsEmpty
 (
-PRBool
+bool
 *
 aEmpty
 )
@@ -1748,10 +1748,10 @@ PRUint32
 aPrefix
 PRUint32
 aKey
-PRBool
+bool
 *
 aReady
-PRBool
+bool
 *
 aFound
 )

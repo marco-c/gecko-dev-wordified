@@ -835,7 +835,7 @@ Clear
 (
 )
 ;
-PRBool
+bool
 ReportRedirects
 (
 )

@@ -596,7 +596,7 @@ TX_IMPL_EXPR_STUBS_0
 txNamedAttributeStep
 NODESET_RESULT
 )
-PRBool
+bool
 txNamedAttributeStep
 :
 :

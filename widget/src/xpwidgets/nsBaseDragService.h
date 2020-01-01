@@ -909,13 +909,13 @@ OpenDragPopup
 (
 )
 ;
-PRPackedBool
+bool
 mCanDrop
 ;
-PRPackedBool
+bool
 mOnlyChromeDrop
 ;
-PRPackedBool
+bool
 mDoingDrag
 ;
 /
@@ -931,7 +931,7 @@ set
 a
 drag
 image
-PRPackedBool
+bool
 mHasImage
 ;
 /
@@ -944,7 +944,7 @@ cancelled
 the
 drag
 operation
-PRPackedBool
+bool
 mUserCancelled
 ;
 PRUint32

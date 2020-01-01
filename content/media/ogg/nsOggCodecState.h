@@ -813,7 +813,7 @@ Erase
 )
 ;
 }
-PRBool
+bool
 IsEmpty
 (
 )
@@ -1048,7 +1048,7 @@ been
 read
 .
 virtual
-PRBool
+bool
 DecodeHeader
 (
 ogg_packet
@@ -1120,7 +1120,7 @@ codec
 state
 .
 virtual
-PRBool
+bool
 Init
 (
 )
@@ -1142,7 +1142,7 @@ its
 header
 packets
 .
-PRBool
+bool
 DoneReadingHeaders
 (
 )
@@ -1282,7 +1282,7 @@ while
 decoding
 .
 virtual
-PRBool
+bool
 IsHeader
 (
 ogg_packet
@@ -1291,7 +1291,7 @@ aPacket
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1574,7 +1574,7 @@ playing
 this
 bitstream
 .
-PRPackedBool
+bool
 mActive
 ;
 /
@@ -1588,7 +1588,7 @@ have
 been
 read
 .
-PRPackedBool
+bool
 mDoneReadingHeaders
 ;
 protected
@@ -1629,7 +1629,7 @@ nsOggCodecState
 ogg_page
 *
 aBosPage
-PRBool
+bool
 aActive
 )
 ;
@@ -1746,7 +1746,7 @@ subclasses
 nsresult
 PacketOutUntilGranulepos
 (
-PRBool
+bool
 &
 aFoundGranulepos
 )
@@ -1813,7 +1813,7 @@ return
 TYPE_VORBIS
 ;
 }
-PRBool
+bool
 DecodeHeader
 (
 ogg_packet
@@ -1828,7 +1828,7 @@ PRInt64
 granulepos
 )
 ;
-PRBool
+bool
 Init
 (
 )
@@ -1838,7 +1838,7 @@ Reset
 (
 )
 ;
-PRBool
+bool
 IsHeader
 (
 ogg_packet
@@ -2264,7 +2264,7 @@ return
 TYPE_THEORA
 ;
 }
-PRBool
+bool
 DecodeHeader
 (
 ogg_packet
@@ -2286,12 +2286,12 @@ PRInt64
 granulepos
 )
 ;
-PRBool
+bool
 Init
 (
 )
 ;
-PRBool
+bool
 IsHeader
 (
 ogg_packet
@@ -2519,7 +2519,7 @@ return
 TYPE_SKELETON
 ;
 }
-PRBool
+bool
 DecodeHeader
 (
 ogg_packet
@@ -2539,16 +2539,16 @@ return
 1
 ;
 }
-PRBool
+bool
 Init
 (
 )
 {
 return
-PR_TRUE
+true
 ;
 }
-PRBool
+bool
 IsHeader
 (
 ogg_packet
@@ -2557,7 +2557,7 @@ aPacket
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2585,7 +2585,7 @@ the
 skeleton
 track
 .
-PRBool
+bool
 IsPresentable
 (
 PRInt64
@@ -2687,7 +2687,7 @@ usecs
 PRInt64
 mTime
 ;
-PRBool
+bool
 IsNull
 (
 )
@@ -2752,7 +2752,7 @@ mKeyPoint
 PRUint32
 mSerial
 ;
-PRBool
+bool
 IsNull
 (
 )
@@ -2827,7 +2827,7 @@ nsSeekTarget
 aResult
 )
 ;
-PRBool
+bool
 HasIndex
 (
 )
@@ -2939,7 +2939,7 @@ PR_FALSE
 on
 failure
 .
-PRBool
+bool
 DecodeIndex
 (
 ogg_packet

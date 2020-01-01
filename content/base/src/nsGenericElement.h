@@ -1234,7 +1234,7 @@ nsIContent
 aKid
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 ;
@@ -1244,7 +1244,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 ;
@@ -1274,7 +1274,7 @@ virtual
 void
 UpdateEditableState
 (
-PRBool
+bool
 aNotify
 )
 ;
@@ -1291,7 +1291,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -1299,14 +1299,14 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
 =
-PR_TRUE
-PRBool
+true
+bool
 aNullParent
 =
-PR_TRUE
+true
 )
 ;
 virtual
@@ -1354,7 +1354,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -1537,7 +1537,7 @@ for
 NS_EVENT_BITS_MUTATION_ATTRMODIFIED
 *
 /
-PRBool
+bool
 MaybeCheckSameAttrVal
 (
 PRInt32
@@ -1552,7 +1552,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 nsAutoString
 *
@@ -1560,7 +1560,7 @@ aOldValue
 PRUint8
 *
 aModType
-PRBool
+bool
 *
 aHasListeners
 )
@@ -1581,7 +1581,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -1600,12 +1600,12 @@ aPrefix
 nsAttrValue
 &
 aParsedValue
-PRBool
+bool
 aNotify
 )
 ;
 virtual
-PRBool
+bool
 GetAttr
 (
 PRInt32
@@ -1620,7 +1620,7 @@ aResult
 const
 ;
 virtual
-PRBool
+bool
 HasAttr
 (
 PRInt32
@@ -1632,7 +1632,7 @@ aName
 const
 ;
 virtual
-PRBool
+bool
 AttrValueIs
 (
 PRInt32
@@ -1650,7 +1650,7 @@ aCaseSensitive
 const
 ;
 virtual
-PRBool
+bool
 AttrValueIs
 (
 PRInt32
@@ -1692,7 +1692,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 ;
@@ -1738,7 +1738,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-PRBool
+bool
 aNotify
 )
 ;
@@ -1761,7 +1761,7 @@ const
 nsAString
 &
 aStr
-PRBool
+bool
 aNotify
 )
 {
@@ -1792,12 +1792,12 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-PRBool
+bool
 aNotify
 )
 ;
 virtual
-PRBool
+bool
 TextIsOnlyWhitespace
 (
 )
@@ -1820,7 +1820,7 @@ GetBindingParent
 const
 ;
 virtual
-PRBool
+bool
 IsNodeOfType
 (
 PRUint32
@@ -1829,7 +1829,7 @@ aFlags
 const
 ;
 virtual
-PRBool
+bool
 IsLink
 (
 nsIURI
@@ -1925,7 +1925,7 @@ css
 StyleRule
 *
 aStyleRule
-PRBool
+bool
 aNotify
 )
 ;
@@ -1968,7 +1968,7 @@ FILE
 out
 PRInt32
 aIndent
-PRBool
+bool
 aDumpAll
 )
 const
@@ -2041,13 +2041,13 @@ css
 StyleRule
 *
 aStyleRule
-PRBool
+bool
 aNotify
 )
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -2131,7 +2131,7 @@ handler
 *
 /
 static
-PRBool
+bool
 FindAttributeDependence
 (
 const
@@ -2231,7 +2231,7 @@ const
 nsAString
 &
 aVersion
-PRBool
+bool
 *
 aReturn
 )
@@ -2239,7 +2239,7 @@ aReturn
 NS_IMETHOD
 HasAttributes
 (
-PRBool
+bool
 *
 aHasAttributes
 )
@@ -2247,7 +2247,7 @@ aHasAttributes
 NS_IMETHOD
 HasChildNodes
 (
-PRBool
+bool
 *
 aHasChildNodes
 )
@@ -2542,7 +2542,7 @@ const
 nsAString
 &
 aName
-PRBool
+bool
 *
 aReturn
 )
@@ -2558,7 +2558,7 @@ const
 nsAString
 &
 aLocalName
-PRBool
+bool
 *
 aReturn
 )
@@ -2566,7 +2566,7 @@ aReturn
 nsresult
 CloneNode
 (
-PRBool
+bool
 aDeep
 nsIDOMNode
 *
@@ -2690,10 +2690,10 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aDefer
 =
-PR_TRUE
+true
 )
 ;
 /
@@ -2824,13 +2824,13 @@ const
 nsAString
 &
 aVersion
-PRBool
+bool
 *
 aReturn
 )
 ;
 static
-PRBool
+bool
 ShouldBlur
 (
 nsIContent
@@ -3009,7 +3009,7 @@ aSourceEvent
 nsIContent
 *
 aTarget
-PRBool
+bool
 aFullDispatch
 PRUint32
 aFlags
@@ -3098,7 +3098,7 @@ aEvent
 nsIContent
 *
 aTarget
-PRBool
+bool
 aFullDispatch
 nsEventStatus
 *
@@ -3643,7 +3643,7 @@ aResult
 void
 SetCapture
 (
-PRBool
+bool
 aRetargetToElement
 )
 ;
@@ -3652,7 +3652,7 @@ ReleaseCapture
 (
 )
 ;
-PRBool
+bool
 MozMatchesSelector
 (
 const
@@ -3986,9 +3986,9 @@ nsAttrValue
 aParsedValue
 PRUint8
 aModType
-PRBool
+bool
 aFireMutation
-PRBool
+bool
 aNotify
 const
 nsAString
@@ -4089,7 +4089,7 @@ otherwise
 *
 /
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -4240,7 +4240,7 @@ otherwise
 *
 /
 virtual
-PRBool
+bool
 SetMappedAttribute
 (
 nsIDocument
@@ -4417,7 +4417,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -4580,7 +4580,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -4621,7 +4621,7 @@ GetEventListenerManagerForAttr
 nsIAtom
 *
 aAttrName
-PRBool
+bool
 *
 aDefer
 )
@@ -5532,7 +5532,7 @@ PR_FALSE
 otherwise
 *
 /
-PRBool
+bool
 CheckHandleEventForLinksPrecondition
 (
 nsEventChainVisitor

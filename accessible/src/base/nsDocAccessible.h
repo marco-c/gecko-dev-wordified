@@ -704,7 +704,7 @@ NS_DECL_NSIDOCUMENTOBSERVER
 /
 nsAccessNode
 virtual
-PRBool
+bool
 Init
 (
 )
@@ -852,7 +852,7 @@ unloading
 .
 *
 /
-PRBool
+bool
 IsContentLoaded
 (
 )
@@ -1837,7 +1837,7 @@ widely
 .
 *
 /
-PRBool
+bool
 IsDependentID
 (
 const

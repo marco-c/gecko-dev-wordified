@@ -597,7 +597,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -605,14 +605,14 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
 =
-PR_TRUE
-PRBool
+true
+bool
 aNullParent
 =
-PR_TRUE
+true
 )
 ;
 nsresult
@@ -623,7 +623,7 @@ nsIContent
 aKid
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 ;
@@ -632,7 +632,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 ;
@@ -658,11 +658,11 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 ;
-PRBool
+bool
 GetAttr
 (
 PRInt32
@@ -676,7 +676,7 @@ aResult
 )
 const
 ;
-PRBool
+bool
 HasAttr
 (
 PRInt32
@@ -688,7 +688,7 @@ aName
 const
 ;
 virtual
-PRBool
+bool
 AttrValueIs
 (
 PRInt32
@@ -706,7 +706,7 @@ aCaseSensitive
 const
 ;
 virtual
-PRBool
+bool
 AttrValueIs
 (
 PRInt32
@@ -747,7 +747,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttr
-PRBool
+bool
 aNotify
 )
 ;
@@ -798,7 +798,7 @@ virtual
 nsresult
 DoneAddingChildren
 (
-PRBool
+bool
 aHaveNotified
 )
 ;
@@ -823,9 +823,9 @@ virtual
 void
 PerformAccesskey
 (
-PRBool
+bool
 aKeyCausesActivation
-PRBool
+bool
 aIsTrustedEvent
 )
 ;
@@ -862,7 +862,7 @@ const
 nsAString
 &
 aName
-PRBool
+bool
 *
 aReturn
 )
@@ -1047,7 +1047,7 @@ eDOMClassInfo_Element_id
 implementation
 helpers
 :
-PRBool
+bool
 QueryInterfaceInner
 (
 REFNSIID
@@ -1058,7 +1058,7 @@ void
 result
 )
 ;
-PRBool
+bool
 HandledByInner
 (
 nsIAtom
@@ -1070,7 +1070,7 @@ const
 void
 RegUnregAccessKey
 (
-PRBool
+bool
 aDoReg
 )
 ;

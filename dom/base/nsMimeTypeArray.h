@@ -769,7 +769,7 @@ nsIDOMMimeType
 >
 mMimeTypeArray
 ;
-PRBool
+bool
 mInited
 ;
 }

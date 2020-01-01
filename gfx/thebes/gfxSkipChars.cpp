@@ -454,7 +454,7 @@ keep
 "
 entries
 static
-PRBool
+bool
 IsKeepEntry
 (
 PRUint32
@@ -712,7 +712,7 @@ SetOffsets
 (
 PRUint32
 aOffset
-PRBool
+bool
 aInOriginalString
 )
 {
@@ -1221,7 +1221,7 @@ mListPrefixLength
 }
 }
 }
-PRBool
+bool
 gfxSkipCharsIterator
 :
 :
@@ -1487,7 +1487,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 isSkipped
 =
 !

@@ -2168,7 +2168,7 @@ GetPtr
 )
 ;
 }
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -2243,7 +2243,7 @@ GetEnumString
 nsAString
 &
 aResult
-PRBool
+bool
 aRealTag
 )
 const
@@ -2912,7 +2912,7 @@ return
 }
 }
 }
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -3029,10 +3029,10 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 needsStringComparison
 =
-PR_FALSE
+false
 ;
 switch
 (
@@ -3394,7 +3394,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -3593,7 +3593,7 @@ nsCaseInsensitiveStringComparator
 )
 ;
 }
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -3769,7 +3769,7 @@ val
 )
 ;
 }
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -4081,10 +4081,10 @@ EndReading
 end
 )
 ;
-PRBool
+bool
 hasSpace
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -4780,7 +4780,7 @@ return
 value
 ;
 }
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -4794,7 +4794,7 @@ const
 EnumTable
 *
 aTable
-PRBool
+bool
 aCaseSensitive
 const
 EnumTable
@@ -4855,7 +4855,7 @@ aTable
 tableEntry
 )
 ;
-PRBool
+bool
 equals
 =
 aCaseSensitive
@@ -5002,7 +5002,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -5021,13 +5021,13 @@ ResetIfSet
 PRInt32
 ec
 ;
-PRBool
+bool
 strict
 ;
-PRBool
+bool
 isPercent
 =
-PR_FALSE
+false
 ;
 nsAutoString
 tmp
@@ -5132,7 +5132,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -5166,7 +5166,7 @@ ResetIfSet
 PRInt32
 ec
 ;
-PRBool
+bool
 strict
 ;
 PRInt32
@@ -5238,7 +5238,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -5257,7 +5257,7 @@ ResetIfSet
 PRInt32
 ec
 ;
-PRBool
+bool
 strict
 ;
 PRInt32
@@ -5305,7 +5305,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -5324,7 +5324,7 @@ ResetIfSet
 PRInt32
 ec
 ;
-PRBool
+bool
 strict
 ;
 PRInt32
@@ -5475,7 +5475,7 @@ buf
 eStringBase
 ;
 }
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -5788,7 +5788,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -5895,7 +5895,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -6311,7 +6311,7 @@ mStringBits
 ;
 }
 }
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -6464,7 +6464,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -6724,15 +6724,15 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 *
 aStrict
 PRInt32
 *
 aErrorCode
-PRBool
+bool
 aCanBePercent
-PRBool
+bool
 *
 aIsPercent
 )
@@ -6780,10 +6780,10 @@ EndReading
 end
 )
 ;
-PRBool
+bool
 negate
 =
-PR_FALSE
+false
 ;
 PRInt32
 value

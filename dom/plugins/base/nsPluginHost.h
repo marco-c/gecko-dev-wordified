@@ -835,7 +835,7 @@ const
 char
 *
 referrer
-PRBool
+bool
 forceJSEnabled
 )
 ;
@@ -855,7 +855,7 @@ const
 char
 *
 postData
-PRBool
+bool
 isFile
 const
 char
@@ -872,7 +872,7 @@ const
 char
 *
 referrer
-PRBool
+bool
 forceJSEnabled
 PRUint32
 postHeadersLength
@@ -967,7 +967,7 @@ AddIdleTimeTarget
 nsIPluginInstanceOwner
 *
 objectFrame
-PRBool
+bool
 isVisible
 )
 ;
@@ -1086,10 +1086,10 @@ char
 referrer
 =
 NULL
-PRBool
+bool
 forceJSEnabled
 =
-PR_FALSE
+false
 PRUint32
 getHeadersLength
 =
@@ -1190,7 +1190,7 @@ does
 Java
 )
 static
-PRBool
+bool
 IsJavaMIMEType
 (
 const
@@ -1488,7 +1488,7 @@ const
 char
 *
 aMimeType
-PRBool
+bool
 aCheckEnabled
 )
 ;
@@ -1510,9 +1510,9 @@ aMimeType
 nsresult
 FindPlugins
 (
-PRBool
+bool
 aCreatePluginList
-PRBool
+bool
 *
 aPluginsChanged
 )
@@ -1523,9 +1523,9 @@ ScanPluginsDirectory
 nsIFile
 *
 pluginsDir
-PRBool
+bool
 aCreatePluginList
-PRBool
+bool
 *
 aPluginsChanged
 )
@@ -1536,9 +1536,9 @@ ScanPluginsDirectoryList
 nsISimpleEnumerator
 *
 dirEnum
-PRBool
+bool
 aCreatePluginList
-PRBool
+bool
 *
 aPluginsChanged
 )
@@ -1551,7 +1551,7 @@ nsPluginTag
 plugin
 )
 ;
-PRBool
+bool
 IsRunningPlugin
 (
 nsPluginTag
@@ -1639,7 +1639,7 @@ of
 live
 tags
 .
-PRBool
+bool
 IsLiveTag
 (
 nsIPluginTag
@@ -1695,7 +1695,7 @@ in
 some
 different
 place
-PRBool
+bool
 IsDuplicatePlugin
 (
 nsPluginTag
@@ -1734,13 +1734,13 @@ nsInvalidPluginTag
 >
 mInvalidPlugins
 ;
-PRPackedBool
+bool
 mPluginsLoaded
 ;
-PRPackedBool
+bool
 mDontShowBadPluginMessage
 ;
-PRPackedBool
+bool
 mIsDestroyed
 ;
 /
@@ -1751,7 +1751,7 @@ pref
 plugin
 .
 override_internal_types
-PRPackedBool
+bool
 mOverrideInternalTypes
 ;
 /
@@ -1762,7 +1762,7 @@ pref
 plugin
 .
 disable
-PRPackedBool
+bool
 mPluginsDisabled
 ;
 /
@@ -2032,7 +2032,7 @@ PluginDestructionGuard
 )
 ;
 static
-PRBool
+bool
 DelayDestroy
 (
 nsNPAPIPluginInstance
@@ -2085,7 +2085,7 @@ nsNPAPIPluginInstance
 >
 mInstance
 ;
-PRBool
+bool
 mDelayedDestroy
 ;
 static

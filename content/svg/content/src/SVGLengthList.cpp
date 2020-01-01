@@ -872,7 +872,7 @@ temp
 )
 ;
 }
-PRBool
+bool
 SVGLengthList
 :
 :

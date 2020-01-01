@@ -786,7 +786,7 @@ aContext
 recursion
 prevention
 flag
-PRPackedBool
+bool
 mInUse
 ;
 /
@@ -799,7 +799,7 @@ for
 GetCanvasTM
 (
 )
-PRPackedBool
+bool
 mInUse2
 ;
 }

@@ -1395,9 +1395,9 @@ PRInt32
 aVariants
 PRInt64
 aLastModifiedTime
-PRBool
+bool
 aCanUnload
-PRBool
+bool
 aArgsAreUTF8
 )
 :
@@ -2134,7 +2134,7 @@ nsPluginTag
 :
 GetDisabled
 (
-PRBool
+bool
 *
 aDisabled
 )
@@ -2158,7 +2158,7 @@ nsPluginTag
 :
 SetDisabled
 (
-PRBool
+bool
 aDisabled
 )
 {
@@ -2209,7 +2209,7 @@ nsPluginTag
 :
 GetBlocklisted
 (
-PRBool
+bool
 *
 aBlocklisted
 )
@@ -2232,7 +2232,7 @@ nsPluginTag
 :
 SetBlocklisted
 (
-PRBool
+bool
 aBlocklisted
 )
 {
@@ -2282,7 +2282,7 @@ nsPluginTag
 :
 RegisterWithCategoryManager
 (
-PRBool
+bool
 aOverrideInternalTypes
 nsPluginTag
 :
@@ -2799,7 +2799,7 @@ PRUint32
 mask
 )
 {
-PRBool
+bool
 wasEnabled
 =
 IsEnabled
@@ -2870,7 +2870,7 @@ PRUint32
 mask
 )
 {
-PRBool
+bool
 wasEnabled
 =
 IsEnabled
@@ -2932,7 +2932,7 @@ ePluginRegister
 ;
 }
 }
-PRBool
+bool
 nsPluginTag
 :
 :
@@ -2965,7 +2965,7 @@ return
 mFlags
 ;
 }
-PRBool
+bool
 nsPluginTag
 :
 :
@@ -2987,7 +2987,7 @@ NS_PLUGIN_FLAG_BLOCKLISTED
 )
 ;
 }
-PRBool
+bool
 nsPluginTag
 :
 :

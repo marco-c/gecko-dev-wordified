@@ -774,7 +774,7 @@ nsnull
 )
 ;
 }
-PRBool
+bool
 nsTextStore
 :
 :
@@ -929,7 +929,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsTextStore
 :
 :
@@ -3333,7 +3333,7 @@ S_OK
 ;
 }
 static
-PRBool
+bool
 IsSameTextEvent
 (
 const
@@ -3728,7 +3728,7 @@ S_OK
 ;
 }
 static
-PRBool
+bool
 GetColor
 (
 const
@@ -3826,7 +3826,7 @@ PR_FALSE
 }
 }
 static
-PRBool
+bool
 GetLineStyle
 (
 TF_DA_LINESTYLE
@@ -5056,7 +5056,7 @@ const
 TS_SELECTION_ACP
 *
 pSelection
-PRBool
+bool
 aDispatchTextEvent
 )
 {
@@ -7950,7 +7950,7 @@ pComposition
 ITfRange
 *
 aRange
-PRBool
+bool
 aPreserveSelection
 )
 {
@@ -8852,7 +8852,7 @@ nsTextStore
 :
 OnFocusChange
 (
-PRBool
+bool
 aFocus
 nsWindow
 *
@@ -8887,7 +8887,7 @@ if
 aFocus
 )
 {
-PRBool
+bool
 bRet
 =
 sTsfTextStore
@@ -9261,7 +9261,7 @@ nsTextStore
 :
 CommitCompositionInternal
 (
-PRBool
+bool
 aDiscard
 )
 {
@@ -9433,7 +9433,7 @@ mContext
 ;
 }
 static
-PRBool
+bool
 GetCompartment
 (
 IUnknown
@@ -9512,7 +9512,7 @@ nsTextStore
 :
 SetIMEOpenState
 (
-PRBool
+bool
 aState
 )
 {
@@ -9583,7 +9583,7 @@ variant
 )
 ;
 }
-PRBool
+bool
 nsTextStore
 :
 :
@@ -9864,7 +9864,7 @@ if
 sTsfThreadMgr
 )
 {
-PRBool
+bool
 enableTsf
 =
 Preferences
@@ -9877,7 +9877,7 @@ intl
 .
 enable_tsf_support
 "
-PR_FALSE
+false
 )
 ;
 if

@@ -1540,7 +1540,7 @@ to
 make
 that
 awkward
-PRBool
+bool
 XRE_TakeMinidumpForChild
 (
 PRUint32
@@ -1562,7 +1562,7 @@ aDump
 )
 ;
 }
-PRBool
+bool
 XRE_SetRemoteExceptionHandler
 (
 const

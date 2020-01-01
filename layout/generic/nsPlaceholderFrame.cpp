@@ -1223,7 +1223,7 @@ placeholderFrame
 virtual
 *
 /
-PRBool
+bool
 nsPlaceholderFrame
 :
 :

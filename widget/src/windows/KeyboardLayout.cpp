@@ -606,7 +606,7 @@ return
 mEntries
 ;
 }
-PRBool
+bool
 IsEqual
 (
 const
@@ -1437,7 +1437,7 @@ ReleaseDeadKeyTables
 )
 ;
 }
-PRBool
+bool
 KeyboardLayout
 :
 :
@@ -1457,7 +1457,7 @@ aVirtualKey
 0
 ;
 }
-PRBool
+bool
 KeyboardLayout
 :
 :
@@ -2654,7 +2654,7 @@ PBYTE
 aKbdState
 )
 {
-PRBool
+bool
 isShift
 =
 (
@@ -2669,7 +2669,7 @@ VK_SHIFT
 =
 0
 ;
-PRBool
+bool
 isCtrl
 =
 (
@@ -2684,7 +2684,7 @@ VK_CONTROL
 =
 0
 ;
-PRBool
+bool
 isAlt
 =
 (
@@ -2699,7 +2699,7 @@ VK_MENU
 =
 0
 ;
-PRBool
+bool
 isCaps
 =
 (
@@ -3942,13 +3942,13 @@ p
 ;
 }
 }
-PRBool
+bool
 KeyboardLayout
 :
 :
 EnsureDeadKeyActive
 (
-PRBool
+bool
 aIsActive
 PRUint8
 aDeadKey
@@ -4144,7 +4144,7 @@ mActiveDeadKey
 1
 ;
 }
-PRBool
+bool
 KeyboardLayout
 :
 :
@@ -4237,10 +4237,10 @@ PRUint32
 aMaxEntries
 )
 {
-PRBool
+bool
 deadKeyActive
 =
-PR_FALSE
+false
 ;
 PRUint32
 entries

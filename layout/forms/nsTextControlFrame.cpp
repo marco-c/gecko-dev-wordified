@@ -1175,7 +1175,7 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 EnteredMoreThanOnce
 (
 )
@@ -1192,7 +1192,7 @@ nsTextControlFrame
 &
 mFrame
 ;
-PRBool
+bool
 mFirstEntry
 ;
 }
@@ -2847,7 +2847,7 @@ textareas
 are
 eagerly
 initialized
-PRBool
+bool
 initEagerly
 =
 !
@@ -3222,7 +3222,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 {
@@ -3495,7 +3495,7 @@ AddBorderAndPadding
 pref
 )
 ;
-PRBool
+bool
 widthSet
 heightSet
 ;
@@ -3832,7 +3832,7 @@ return
 ascent
 ;
 }
-PRBool
+bool
 nsTextControlFrame
 :
 :
@@ -3859,7 +3859,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsTextControlFrame
 :
 :
@@ -3977,9 +3977,9 @@ nsTextControlFrame
 :
 SetFocus
 (
-PRBool
+bool
 aOn
-PRBool
+bool
 aRepaint
 )
 {
@@ -4221,7 +4221,7 @@ GetCaretDOMSelection
 )
 ;
 const
-PRBool
+bool
 isFocusedRightNow
 =
 ourSel
@@ -4456,10 +4456,10 @@ docSel
 )
 return
 ;
-PRBool
+bool
 isCollapsed
 =
-PR_FALSE
+false
 ;
 docSel
 -
@@ -5280,7 +5280,7 @@ nsTextControlFrame
 :
 SelectAllOrCollapseToEndOfText
 (
-PRBool
+bool
 aSelect
 )
 {
@@ -7093,7 +7093,7 @@ GetSelectionController
 )
 ;
 const
-PRBool
+bool
 needEditor
 =
 nsGkAtoms
@@ -7196,7 +7196,7 @@ aAttribute
 PRInt32
 maxLength
 ;
-PRBool
+bool
 maxDefined
 =
 GetMaxLength
@@ -7812,7 +7812,7 @@ OVERLOADS
 BEGIN
 PROTECTED
 METHODS
-PRBool
+bool
 nsTextControlFrame
 :
 :
@@ -7917,7 +7917,7 @@ nsTextControlFrame
 :
 FireOnInput
 (
-PRBool
+bool
 aTrusted
 )
 {
@@ -8322,7 +8322,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsTextControlFrame
 :
 :
@@ -8344,7 +8344,7 @@ nsTextControlFrame
 :
 SetValueChanged
 (
-PRBool
+bool
 aValueChanged
 )
 {
@@ -8473,9 +8473,9 @@ nsTextControlFrame
 :
 UpdateValueDisplay
 (
-PRBool
+bool
 aNotify
-PRBool
+bool
 aBeforeEditorInit
 const
 nsAString

@@ -744,7 +744,7 @@ nsIDOMWindow
 >
 mWindowContext
 ;
-PRBool
+bool
 mPreventDefault
 ;
 }
@@ -861,7 +861,7 @@ const
 nsAString
 &
 aFlag
-PRBool
+bool
 aCaseSensitive
 PRInt32
 *
@@ -1073,9 +1073,9 @@ const
 nsAString
 &
 aFlag
-PRBool
+bool
 aCaseSensitive
-PRBool
+bool
 *
 aResult
 )
@@ -1145,7 +1145,7 @@ const
 nsAString
 &
 aFlag
-PRBool
+bool
 aCaseSensitive
 nsAString
 &
@@ -1285,7 +1285,7 @@ nsCommandLine
 :
 GetPreventDefault
 (
-PRBool
+bool
 *
 aResult
 )
@@ -1305,7 +1305,7 @@ nsCommandLine
 :
 SetPreventDefault
 (
-PRBool
+bool
 aValue
 )
 {
@@ -2945,7 +2945,7 @@ NS_ERROR_UNEXPECTED
 nsCAutoString
 entry
 ;
-PRBool
+bool
 hasMore
 ;
 while
@@ -3200,7 +3200,7 @@ NS_ERROR_UNEXPECTED
 nsCAutoString
 entry
 ;
-PRBool
+bool
 hasMore
 ;
 while

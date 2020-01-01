@@ -532,7 +532,7 @@ nsGenericHTMLElement
 nsIDOMHTMLBRElement
 NS_DECL_NSIDOMHTMLBRELEMENT
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -551,7 +551,7 @@ aResult
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -712,7 +712,7 @@ NS_STYLE_CLEAR_LEFT_AND_RIGHT
 }
 }
 ;
-PRBool
+bool
 nsHTMLBRElement
 :
 :
@@ -885,7 +885,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLBRElement
 :

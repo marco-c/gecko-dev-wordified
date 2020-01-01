@@ -642,7 +642,7 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aCurrentFrame
 const
 nsIntRect
@@ -839,7 +839,7 @@ nsGkAtoms
 bulletFrame
 ;
 }
-PRBool
+bool
 nsBulletFrame
 :
 :
@@ -853,7 +853,7 @@ IsSelfEmpty
 )
 ;
 }
-PRBool
+bool
 nsBulletFrame
 :
 :
@@ -976,10 +976,10 @@ listener
 )
 ;
 }
-PRBool
+bool
 needNewRequest
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1037,7 +1037,7 @@ oldURI
 newURI
 )
 {
-PRBool
+bool
 same
 ;
 newURI
@@ -2223,7 +2223,7 @@ SetListItemOrdinal
 (
 PRInt32
 aNextOrdinal
-PRBool
+bool
 *
 aChanged
 )
@@ -2452,7 +2452,7 @@ decimal
 *
 /
 static
-PRBool
+bool
 DecimalToText
 (
 PRInt32
@@ -2494,7 +2494,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 DecimalLeadingZeroToText
 (
 PRInt32
@@ -2536,7 +2536,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 OtherDecimalToText
 (
 PRInt32
@@ -2620,7 +2620,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 TamilToText
 (
 PRInt32
@@ -2766,7 +2766,7 @@ VLD
 "
 ;
 static
-PRBool
+bool
 RomanToText
 (
 PRInt32
@@ -4325,7 +4325,7 @@ define
 NUM_BUF_SIZE
 34
 static
-PRBool
+bool
 CharListToText
 (
 PRInt32
@@ -4599,7 +4599,7 @@ gCJKIdeographic10KUnit3
 ;
 static
 const
-PRBool
+bool
 CJKIdeographicToText
 (
 PRInt32
@@ -4753,7 +4753,7 @@ idx
 =
 NUM_BUF_SIZE
 ;
-PRBool
+bool
 bOutputZero
 =
 (
@@ -5041,7 +5041,7 @@ gHebrewDigit
 }
 ;
 static
-PRBool
+bool
 HebrewToText
 (
 PRInt32
@@ -5073,10 +5073,10 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 outputSep
 =
-PR_FALSE
+false
 ;
 nsAutoString
 allText
@@ -5395,7 +5395,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 ArmenianToText
 (
 PRInt32
@@ -5631,7 +5631,7 @@ gGeorgianValue
 }
 ;
 static
-PRBool
+bool
 GeorgianToText
 (
 PRInt32
@@ -5855,7 +5855,7 @@ define
 ETHIOPIC_TEN_THOUSAND
 0x137C
 static
-PRBool
+bool
 EthiopicToText
 (
 PRInt32
@@ -6104,7 +6104,7 @@ tensValue
 +
 unitsValue
 ;
-PRBool
+bool
 oddGroup
 =
 (
@@ -6316,7 +6316,7 @@ PR_TRUE
 static
 *
 /
-PRBool
+bool
 nsBulletFrame
 :
 :
@@ -6331,10 +6331,10 @@ nsString
 result
 )
 {
-PRBool
+bool
 success
 =
-PR_TRUE
+true
 ;
 switch
 (
@@ -7143,7 +7143,7 @@ return
 success
 ;
 }
-PRBool
+bool
 nsBulletFrame
 :
 :
@@ -7212,7 +7212,7 @@ types
 "
 )
 ;
-PRBool
+bool
 success
 =
 AppendCounterText
@@ -8546,7 +8546,7 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aCurrentFrame
 const
 nsIntRect
@@ -9107,7 +9107,7 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aCurrentFrame
 const
 nsIntRect

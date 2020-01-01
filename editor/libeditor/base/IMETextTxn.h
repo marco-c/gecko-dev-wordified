@@ -649,7 +649,7 @@ Merge
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 *
 aDidMerge
 )
@@ -806,7 +806,7 @@ nsIEditor
 *
 mEditor
 ;
-PRBool
+bool
 mFixed
 ;
 }

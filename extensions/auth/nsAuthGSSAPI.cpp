@@ -886,10 +886,10 @@ gssFuncItems
 ]
 ;
 static
-PRBool
+bool
 gssNativeImp
 =
-PR_TRUE
+true
 ;
 static
 PRLibrary
@@ -2927,7 +2927,7 @@ lib
 KLBoolean
 found
 ;
-PRBool
+bool
 doingMailTask
 =
 mServiceName
@@ -3404,7 +3404,7 @@ void
 inToken
 PRUint32
 inTokenLen
-PRBool
+bool
 confidential
 void
 *

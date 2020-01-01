@@ -841,7 +841,7 @@ SetDebug
 nsBoxLayoutState
 &
 aState
-PRBool
+bool
 aDebug
 )
 ;
@@ -1030,7 +1030,7 @@ menuFrame
 NS_IMETHOD
 SelectMenu
 (
-PRBool
+bool
 aActivateFlag
 )
 ;
@@ -1059,7 +1059,7 @@ asynchronously
 void
 OpenMenu
 (
-PRBool
+bool
 aSelectFirstItem
 )
 ;
@@ -1073,11 +1073,11 @@ asynchronously
 void
 CloseMenu
 (
-PRBool
+bool
 aDeselectMenu
 )
 ;
-PRBool
+bool
 IsChecked
 (
 )
@@ -1221,7 +1221,7 @@ mPopupFrame
 /
 nsMenuFrame
 methods
-PRBool
+bool
 IsOnMenuBar
 (
 )
@@ -1238,7 +1238,7 @@ IsMenuBar
 )
 ;
 }
-PRBool
+bool
 IsOnActiveMenuBar
 (
 )
@@ -1258,13 +1258,13 @@ IsActive
 ;
 }
 virtual
-PRBool
+bool
 IsOpen
 (
 )
 ;
 virtual
-PRBool
+bool
 IsMenu
 (
 )
@@ -1274,7 +1274,7 @@ GetParentMenuListType
 (
 )
 ;
-PRBool
+bool
 IsDisabled
 (
 )
@@ -1396,7 +1396,7 @@ call
 void
 PopupClosed
 (
-PRBool
+bool
 aDeselectMenu
 )
 ;
@@ -1430,7 +1430,7 @@ popup
 or
 menupopup
 .
-PRBool
+bool
 IsOnMenu
 (
 )
@@ -1450,7 +1450,7 @@ IsMenu
 void
 SetIsMenu
 (
-PRBool
+bool
 aIsMenu
 )
 {
@@ -1487,13 +1487,13 @@ aResult
 #
 endif
 static
-PRBool
+bool
 IsSizedToPopup
 (
 nsIContent
 *
 aContent
-PRBool
+bool
 aRequireAlways
 )
 ;
@@ -1672,7 +1672,7 @@ accelerator
 void
 BuildAcceleratorText
 (
-PRBool
+bool
 aNotify
 )
 ;
@@ -1728,7 +1728,7 @@ nsMenuFrame
 {
 }
 ;
-PRBool
+bool
 SizeToPopup
 (
 nsBoxLayoutState
@@ -1739,7 +1739,7 @@ nsSize
 aSize
 )
 ;
-PRBool
+bool
 ShouldBlink
 (
 )
@@ -1750,7 +1750,7 @@ StartBlinking
 nsGUIEvent
 *
 aEvent
-PRBool
+bool
 aFlipChecked
 )
 ;
@@ -1765,7 +1765,7 @@ CreateMenuCommandEvent
 nsGUIEvent
 *
 aEvent
-PRBool
+bool
 aFlipChecked
 )
 ;
@@ -1788,7 +1788,7 @@ aState
 nsIFrame
 *
 aList
-PRBool
+bool
 aDebug
 )
 ;
@@ -1805,7 +1805,7 @@ nsITimer
 aTimer
 )
 ;
-PRPackedBool
+bool
 mIsMenu
 ;
 /
@@ -1821,7 +1821,7 @@ children
 or
 not
 .
-PRPackedBool
+bool
 mChecked
 ;
 /
@@ -1830,7 +1830,7 @@ are
 we
 checked
 ?
-PRPackedBool
+bool
 mIgnoreAccelTextChange
 ;
 /

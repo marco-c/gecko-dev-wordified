@@ -565,7 +565,7 @@ aManager
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 *
 aInterrupt
 )
@@ -592,7 +592,7 @@ aManager
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 *
 aInterrupt
 )
@@ -619,7 +619,7 @@ aManager
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 *
 aInterrupt
 )
@@ -643,7 +643,7 @@ WillBeginBatch
 nsITransactionManager
 *
 aManager
-PRBool
+bool
 *
 aInterrupt
 )
@@ -664,7 +664,7 @@ WillEndBatch
 nsITransactionManager
 *
 aManager
-PRBool
+bool
 *
 aInterrupt
 )
@@ -691,7 +691,7 @@ aTopTransaction
 nsITransaction
 *
 aTransactionToMerge
-PRBool
+bool
 *
 aInterrupt
 )
@@ -708,7 +708,7 @@ aTopTransaction
 nsITransaction
 *
 aTransactionToMerge
-PRBool
+bool
 aDidMerge
 nsresult
 aMergeResult
@@ -738,7 +738,7 @@ eStateOn
 PR_TRUE
 }
 ;
-PRBool
+bool
 SelectionIsCollapsed
 (
 )
@@ -746,7 +746,7 @@ SelectionIsCollapsed
 nsresult
 UpdateDirtyState
 (
-PRBool
+bool
 aNowDirty
 )
 ;
@@ -804,7 +804,7 @@ mDirtyState
 PRInt8
 mSelectionCollapsed
 ;
-PRPackedBool
+bool
 mFirstDoOfFirstUndo
 ;
 }

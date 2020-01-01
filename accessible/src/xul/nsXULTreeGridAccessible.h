@@ -873,7 +873,7 @@ IsDefunct
 const
 ;
 virtual
-PRBool
+bool
 Init
 (
 )
@@ -1035,7 +1035,7 @@ modified
 .
 *
 /
-PRBool
+bool
 IsEditable
 (
 )

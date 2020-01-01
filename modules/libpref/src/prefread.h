@@ -522,7 +522,7 @@ PrefValue
 val
 PrefType
 type
-PRBool
+bool
 defPref
 )
 ;
@@ -719,12 +719,12 @@ INT
 BOOL
 *
 /
-PRBool
+bool
 fdefault
 ;
 /
 *
-PR_TRUE
+true
 if
 (
 default
@@ -938,7 +938,7 @@ content
 .
 *
 /
-PRBool
+bool
 PREF_ParseBuf
 (
 PrefParseState

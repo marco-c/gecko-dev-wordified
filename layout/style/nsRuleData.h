@@ -515,10 +515,10 @@ const
 PRUint32
 mSIDs
 ;
-PRPackedBool
+bool
 mCanStoreInRuleTree
 ;
-PRPackedBool
+bool
 mIsImportantRule
 ;
 PRUint8

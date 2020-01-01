@@ -592,7 +592,7 @@ define
 DEFAULT_THROTTLED_FRAME_RATE
 1
 static
-PRBool
+bool
 sPrecisePref
 ;
 /
@@ -1050,7 +1050,7 @@ return
 mMostRecentRefreshEpochTime
 ;
 }
-PRBool
+bool
 nsRefreshDriver
 :
 :
@@ -1072,7 +1072,7 @@ ArrayFor
 aFlushType
 )
 ;
-PRBool
+bool
 success
 =
 array
@@ -1094,7 +1094,7 @@ return
 success
 ;
 }
-PRBool
+bool
 nsRefreshDriver
 :
 :
@@ -2965,7 +2965,7 @@ nsnull
 #
 ifdef
 DEBUG
-PRBool
+bool
 nsRefreshDriver
 :
 :
@@ -2998,7 +2998,7 @@ aObserver
 }
 #
 endif
-PRBool
+bool
 nsRefreshDriver
 :
 :
@@ -3037,7 +3037,7 @@ document
 "
 )
 ;
-PRBool
+bool
 appended
 =
 mBeforePaintTargets

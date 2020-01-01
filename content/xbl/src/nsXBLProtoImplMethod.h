@@ -811,7 +811,7 @@ aClosure
 )
 const
 ;
-PRBool
+bool
 IsCompiled
 (
 )
@@ -920,7 +920,7 @@ compilation
 #
 ifdef
 DEBUG
-PRBool
+bool
 mIsCompiled
 ;
 #

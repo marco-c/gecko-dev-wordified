@@ -770,7 +770,7 @@ GetPositionInFrames
 (
 )
 ;
-PRBool
+bool
 IsPaused
 (
 )
@@ -808,7 +808,7 @@ stream
 is
 paused
 .
-PRPackedBool
+bool
 mPaused
 ;
 /
@@ -822,7 +822,7 @@ encountered
 an
 error
 .
-PRPackedBool
+bool
 mInError
 ;
 }
@@ -909,7 +909,7 @@ GetPositionInFrames
 (
 )
 ;
-PRBool
+bool
 IsPaused
 (
 )
@@ -949,7 +949,7 @@ stream
 is
 paused
 .
-PRPackedBool
+bool
 mPaused
 ;
 friend
@@ -1341,7 +1341,7 @@ AudioPauseEvent
 AudioChild
 *
 aChild
-PRBool
+bool
 pause
 )
 {
@@ -1401,7 +1401,7 @@ AudioChild
 >
 mAudioChild
 ;
-PRBool
+bool
 mPause
 ;
 }
@@ -2920,7 +2920,7 @@ return
 1
 ;
 }
-PRBool
+bool
 nsNativeAudioStream
 :
 :
@@ -3553,7 +3553,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsRemotedAudioStream
 :
 :

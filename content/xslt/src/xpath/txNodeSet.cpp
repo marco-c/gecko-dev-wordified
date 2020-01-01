@@ -849,7 +849,7 @@ aNode
 )
 ;
 }
-PRBool
+bool
 dupe
 ;
 txXPathNode
@@ -1635,7 +1635,7 @@ insertPos
 =
 mEndBuffer
 ;
-PRBool
+bool
 dupe
 ;
 txXPathNode
@@ -2307,7 +2307,7 @@ size
 mMarks
 =
 new
-PRPackedBool
+bool
 [
 length
 ]
@@ -2326,7 +2326,7 @@ length
 *
 sizeof
 (
-PRPackedBool
+bool
 )
 )
 ;
@@ -2752,7 +2752,7 @@ txAExprResult
 NODESET
 ;
 }
-PRBool
+bool
 txNodeSet
 :
 :
@@ -2861,7 +2861,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 txNodeSet
 :
 :
@@ -3234,7 +3234,7 @@ aFirst
 txXPathNode
 *
 aLast
-PRBool
+bool
 &
 aDupe
 )

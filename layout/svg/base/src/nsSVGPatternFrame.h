@@ -1010,10 +1010,10 @@ xlink
 :
 href
 processing
-PRPackedBool
+bool
 mLoopFlag
 ;
-PRPackedBool
+bool
 mNoHRefURI
 ;
 }

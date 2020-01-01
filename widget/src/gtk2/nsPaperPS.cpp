@@ -644,7 +644,7 @@ NS_ARRAY_LENGTH
 mList
 )
 ;
-PRBool
+bool
 nsPaperSizePS
 :
 :

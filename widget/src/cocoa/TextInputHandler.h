@@ -1141,10 +1141,10 @@ InitByLayoutID
 (
 SInt32
 aLayoutID
-PRBool
+bool
 aOverrideKeyboard
 =
-PR_FALSE
+false
 )
 ;
 void
@@ -1188,17 +1188,17 @@ GetUCKeyboardLayout
 (
 )
 ;
-PRBool
+bool
 IsOpenedIMEMode
 (
 )
 ;
-PRBool
+bool
 IsIMEMode
 (
 )
 ;
-PRBool
+bool
 IsASCIICapable
 (
 )
@@ -1216,7 +1216,7 @@ kTISPropertyInputSourceIsASCIICapable
 )
 ;
 }
-PRBool
+bool
 IsEnabled
 (
 )
@@ -1234,7 +1234,7 @@ kTISPropertyInputSourceIsEnabled
 )
 ;
 }
-PRBool
+bool
 GetLanguageList
 (
 CFArrayRef
@@ -1242,7 +1242,7 @@ CFArrayRef
 aLanguageList
 )
 ;
-PRBool
+bool
 GetPrimaryLanguage
 (
 CFStringRef
@@ -1250,7 +1250,7 @@ CFStringRef
 aPrimaryLanguage
 )
 ;
-PRBool
+bool
 GetPrimaryLanguage
 (
 nsAString
@@ -1258,7 +1258,7 @@ nsAString
 aPrimaryLanguage
 )
 ;
-PRBool
+bool
 GetLocalizedName
 (
 CFStringRef
@@ -1280,7 +1280,7 @@ aName
 )
 ;
 }
-PRBool
+bool
 GetLocalizedName
 (
 nsAString
@@ -1302,7 +1302,7 @@ aName
 )
 ;
 }
-PRBool
+bool
 GetInputSourceID
 (
 CFStringRef
@@ -1324,7 +1324,7 @@ aID
 )
 ;
 }
-PRBool
+bool
 GetInputSourceID
 (
 nsAString
@@ -1346,7 +1346,7 @@ aID
 )
 ;
 }
-PRBool
+bool
 GetBundleID
 (
 CFStringRef
@@ -1368,7 +1368,7 @@ aBundleID
 )
 ;
 }
-PRBool
+bool
 GetBundleID
 (
 nsAString
@@ -1390,7 +1390,7 @@ aBundleID
 )
 ;
 }
-PRBool
+bool
 GetInputSourceType
 (
 CFStringRef
@@ -1412,7 +1412,7 @@ aType
 )
 ;
 }
-PRBool
+bool
 GetInputSourceType
 (
 nsAString
@@ -1434,12 +1434,12 @@ aType
 )
 ;
 }
-PRBool
+bool
 IsForRTLLanguage
 (
 )
 ;
-PRBool
+bool
 IsInitializedByCurrentKeyboardLayout
 (
 )
@@ -1668,7 +1668,7 @@ string
 .
 *
 /
-PRBool
+bool
 TranslateToString
 (
 UInt32
@@ -1876,7 +1876,7 @@ nsKeyEvent
 aKeyEvent
 )
 ;
-PRBool
+bool
 GetBoolProperty
 (
 const
@@ -1884,7 +1884,7 @@ CFStringRef
 aKey
 )
 ;
-PRBool
+bool
 GetStringProperty
 (
 const
@@ -1895,7 +1895,7 @@ CFStringRef
 aStr
 )
 ;
-PRBool
+bool
 GetStringProperty
 (
 const
@@ -1920,7 +1920,7 @@ mUCKeyboardLayout
 PRInt8
 mIsRTL
 ;
-PRPackedBool
+bool
 mOverrideKeyboard
 ;
 }
@@ -2105,7 +2105,7 @@ FALSE
 .
 *
 /
-PRBool
+bool
 DispatchEvent
 (
 nsGUIEvent
@@ -2419,7 +2419,7 @@ FALSE
 *
 /
 static
-PRBool
+bool
 IsSpecialGeckoKey
 (
 UInt32
@@ -2506,7 +2506,7 @@ up
 *
 /
 virtual
-PRBool
+bool
 OnDestroyWidget
 (
 nsChildView
@@ -2600,7 +2600,7 @@ TextInputHandlerBase
 (
 )
 ;
-PRBool
+bool
 Destroyed
 (
 )
@@ -2686,7 +2686,7 @@ or
 chrome
 contents
 .
-PRPackedBool
+bool
 mKeyDownHandled
 ;
 /
@@ -2699,7 +2699,7 @@ dispatched
 for
 mKeyEvent
 .
-PRPackedBool
+bool
 mKeyPressDispatched
 ;
 /
@@ -2716,7 +2716,7 @@ or
 chrome
 contents
 .
-PRPackedBool
+bool
 mKeyPressHandled
 ;
 KeyEventState
@@ -2808,7 +2808,7 @@ mKeyPressHandled
 PR_FALSE
 ;
 }
-PRBool
+bool
 KeyDownOrPressHandled
 (
 )
@@ -2993,7 +2993,7 @@ FALSE
 *
 /
 static
-PRBool
+bool
 IsPrintableChar
 (
 PRUnichar
@@ -3103,7 +3103,7 @@ FALSE
 *
 /
 static
-PRBool
+bool
 IsNormalCharInputtingEvent
 (
 const
@@ -3156,7 +3156,7 @@ FALSE
 *
 /
 static
-PRBool
+bool
 IsModifierKey
 (
 UInt32
@@ -3171,7 +3171,7 @@ KeyboardLayoutOverride
 PRInt32
 mKeyboardLayout
 ;
-PRBool
+bool
 mOverrideEnabled
 ;
 KeyboardLayoutOverride
@@ -3469,7 +3469,7 @@ called
 void
 SetPluginTSMInComposition
 (
-PRBool
+bool
 aInComposition
 )
 {
@@ -3487,7 +3487,7 @@ ifndef
 NP_NO_CARBON
 protected
 :
-PRPackedBool
+bool
 mIgnoreNextKeyUpEvent
 ;
 PluginTextInputHandler
@@ -3600,10 +3600,10 @@ aCocoaKeyEvent
 EventRecord
 &
 aCarbonKeyEvent
-PRBool
+bool
 aMakeKeyDownEventIfNSFlagsChanged
 =
-PR_FALSE
+false
 )
 ;
 #
@@ -3621,7 +3621,7 @@ NP_NO_CARBON
 TSMDocumentID
 mPluginTSMDoc
 ;
-PRPackedBool
+bool
 mPluginTSMInComposition
 ;
 #
@@ -3631,7 +3631,7 @@ endif
 #
 ifndef
 NP_NO_CARBON
-PRPackedBool
+bool
 mPluginComplexTextInputRequested
 ;
 /
@@ -3677,7 +3677,7 @@ FALSE
 .
 *
 /
-PRBool
+bool
 DispatchCocoaNPAPITextEvent
 (
 NSString
@@ -3736,7 +3736,7 @@ FALSE
 .
 *
 /
-PRBool
+bool
 IsInPluginComposition
 (
 )
@@ -3995,7 +3995,7 @@ FALSE
 *
 /
 static
-PRBool
+bool
 ConvertUnicodeToCharCode
 (
 PRUnichar
@@ -4265,7 +4265,7 @@ PluginTextInputHandler
 public
 :
 virtual
-PRBool
+bool
 OnDestroyWidget
 (
 nsChildView
@@ -4277,7 +4277,7 @@ virtual
 void
 OnFocusChangeInGecko
 (
-PRBool
+bool
 aFocus
 )
 ;
@@ -4346,7 +4346,7 @@ FALSE
 .
 *
 /
-PRBool
+bool
 DispatchTextEvent
 (
 const
@@ -4359,7 +4359,7 @@ aAttrString
 NSRange
 &
 aSelectedRange
-PRBool
+bool
 aDoCommit
 )
 ;
@@ -4844,7 +4844,7 @@ GetValidAttributesForMarkedText
 (
 )
 ;
-PRBool
+bool
 HasMarkedText
 (
 )
@@ -4854,7 +4854,7 @@ MarkedRange
 (
 )
 ;
-PRBool
+bool
 IsIMEComposing
 (
 )
@@ -4863,12 +4863,12 @@ return
 mIsIMEComposing
 ;
 }
-PRBool
+bool
 IsIMEOpened
 (
 )
 ;
-PRBool
+bool
 IsIMEEnabled
 (
 )
@@ -4877,7 +4877,7 @@ return
 mIsIMEEnabled
 ;
 }
-PRBool
+bool
 IsASCIICapableOnly
 (
 )
@@ -4886,7 +4886,7 @@ return
 mIsASCIICapableOnly
 ;
 }
-PRBool
+bool
 IgnoreIMECommit
 (
 )
@@ -4895,7 +4895,7 @@ return
 mIgnoreIMECommit
 ;
 }
-PRBool
+bool
 IgnoreIMEComposition
 (
 )
@@ -4961,21 +4961,21 @@ CancelIMEComposition
 void
 EnableIME
 (
-PRBool
+bool
 aEnableIME
 )
 ;
 void
 SetIMEOpenState
 (
-PRBool
+bool
 aOpen
 )
 ;
 void
 SetASCIICapableOnly
 (
-PRBool
+bool
 aASCIICapableOnly
 )
 ;
@@ -5101,7 +5101,7 @@ IMEInputHandler
 (
 )
 ;
-PRBool
+bool
 IsFocused
 (
 )
@@ -5203,16 +5203,16 @@ mLastDispatchedCompositionString
 NSRange
 mMarkedRange
 ;
-PRPackedBool
+bool
 mIsIMEComposing
 ;
-PRPackedBool
+bool
 mIsIMEEnabled
 ;
-PRPackedBool
+bool
 mIsASCIICapableOnly
 ;
-PRPackedBool
+bool
 mIgnoreIMECommit
 ;
 /
@@ -5268,7 +5268,7 @@ nsQueryContentEvent
 or
 something
 .
-PRPackedBool
+bool
 mIsInFocusProcessing
 ;
 void
@@ -5309,7 +5309,7 @@ SyncASCIICapableOnly
 )
 ;
 static
-PRBool
+bool
 sStaticMembersInitialized
 ;
 static
@@ -5849,7 +5849,7 @@ FALSE
 .
 *
 /
-PRBool
+bool
 HandleKeyDownEvent
 (
 NSEvent
@@ -6016,7 +6016,7 @@ FALSE
 .
 *
 /
-PRBool
+bool
 DoCommandBySelector
 (
 const
@@ -6078,7 +6078,7 @@ FALSE
 .
 *
 /
-PRBool
+bool
 KeyPressWasHandled
 (
 )
@@ -6162,7 +6162,7 @@ DispatchKeyEventForFlagsChanged
 NSEvent
 *
 aNativeEvent
-PRBool
+bool
 aDispatchKeyDown
 )
 ;

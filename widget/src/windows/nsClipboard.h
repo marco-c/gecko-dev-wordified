@@ -506,7 +506,7 @@ PRUint32
 aLength
 PRInt32
 aWhichClipboard
-PRBool
+bool
 *
 _retval
 )
@@ -654,7 +654,7 @@ aWhichClipboard
 )
 ;
 static
-PRBool
+bool
 IsInternetShortcut
 (
 const
@@ -664,7 +664,7 @@ inFileName
 )
 ;
 static
-PRBool
+bool
 FindURLFromLocalFile
 (
 IDataObject
@@ -682,7 +682,7 @@ outDataLen
 )
 ;
 static
-PRBool
+bool
 FindURLFromNativeURL
 (
 IDataObject
@@ -700,7 +700,7 @@ outDataLen
 )
 ;
 static
-PRBool
+bool
 FindUnicodeFromPlainText
 (
 IDataObject
@@ -718,7 +718,7 @@ outDataLen
 )
 ;
 static
-PRBool
+bool
 FindPlatformHTML
 (
 IDataObject

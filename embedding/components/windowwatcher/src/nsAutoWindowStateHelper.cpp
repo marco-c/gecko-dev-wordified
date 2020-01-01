@@ -740,7 +740,7 @@ DOMModalDialogClosed
 ;
 }
 }
-PRBool
+bool
 nsAutoWindowStateHelper
 :
 :

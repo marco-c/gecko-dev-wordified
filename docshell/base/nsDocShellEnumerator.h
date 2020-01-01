@@ -715,7 +715,7 @@ shells
 of
 this
 type
-PRPackedBool
+bool
 mArrayValid
 ;
 /

@@ -452,7 +452,7 @@ nsICSSPseudoComparator
 public
 :
 virtual
-PRBool
+bool
 PseudoMatches
 (
 nsCSSSelector

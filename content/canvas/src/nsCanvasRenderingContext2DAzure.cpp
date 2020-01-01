@@ -1627,9 +1627,9 @@ aRepeat
 nsIPrincipal
 *
 principalForSecurityCheck
-PRBool
+bool
 forceWriteOnly
-PRBool
+bool
 CORSUsed
 )
 :
@@ -1673,11 +1673,11 @@ nsIPrincipal
 mPrincipal
 ;
 const
-PRPackedBool
+bool
 mForceWriteOnly
 ;
 const
-PRPackedBool
+bool
 mCORSUsed
 ;
 }
@@ -2011,7 +2011,7 @@ nsnull
 NS_IMETHOD
 SetIsOpaque
 (
-PRBool
+bool
 isOpaque
 )
 ;
@@ -2045,7 +2045,7 @@ MarkContextClean
 NS_IMETHOD
 SetIsIPC
 (
-PRBool
+bool
 isIPC
 )
 ;
@@ -2510,7 +2510,7 @@ behavior
 is
 expected
 .
-PRPackedBool
+bool
 mValid
 ;
 /
@@ -2537,10 +2537,10 @@ on
 some
 operations
 .
-PRPackedBool
+bool
 mZero
 ;
-PRPackedBool
+bool
 mOpaque
 ;
 /
@@ -2573,7 +2573,7 @@ backing
 surface
 changed
 )
-PRPackedBool
+bool
 mResetLayer
 ;
 /
@@ -2585,7 +2585,7 @@ for
 drawing
 in
 drawAsyncXULElement
-PRPackedBool
+bool
 mIPC
 ;
 /
@@ -2666,7 +2666,7 @@ called
 .
 *
 /
-PRPackedBool
+bool
 mIsEntireFrameInvalid
 ;
 /
@@ -2705,7 +2705,7 @@ calls
 .
 *
 /
-PRPackedBool
+bool
 mPredictManyRedrawCalls
 ;
 /
@@ -3052,7 +3052,7 @@ operation
 .
 *
 /
-PRBool
+bool
 NeedToDrawShadow
 (
 )
@@ -3700,7 +3700,7 @@ color
 .
 *
 /
-PRBool
+bool
 StyleIsColor
 (
 Style
@@ -3817,7 +3817,7 @@ lineCap
 JoinStyle
 lineJoin
 ;
-PRPackedBool
+bool
 imageSmoothingEnabled
 ;
 }
@@ -6743,7 +6743,7 @@ nsCanvasRenderingContext2DAzure
 :
 SetIsOpaque
 (
-PRBool
+bool
 isOpaque
 )
 {
@@ -6804,7 +6804,7 @@ nsCanvasRenderingContext2DAzure
 :
 SetIsIPC
 (
-PRBool
+bool
 isIPC
 )
 {
@@ -12326,7 +12326,7 @@ float
 startAngle
 float
 endAngle
-PRBool
+bool
 ccw
 )
 {
@@ -13673,7 +13673,7 @@ StyleRule
 >
 rule
 ;
-PRBool
+bool
 changed
 ;
 nsIPrincipal
@@ -14569,7 +14569,7 @@ mFont
 size
 )
 ;
-PRBool
+bool
 printerFont
 =
 (
@@ -16815,7 +16815,7 @@ box
 should
 be
 measured
-PRBool
+bool
 mDoMeasureBoundingBox
 ;
 }
@@ -17032,10 +17032,10 @@ if
 not
 in
 doc
-PRBool
+bool
 isRTL
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -17150,7 +17150,7 @@ bounding
 box
 easily
 .
-PRBool
+bool
 doDrawShadow
 =
 aOp
@@ -18867,7 +18867,7 @@ float
 x
 float
 y
-PRBool
+bool
 *
 retVal
 )
@@ -21244,7 +21244,7 @@ aH
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 flush
 =
 (
@@ -22507,7 +22507,7 @@ char
 aData
 PRUint32
 aDataLen
-PRBool
+bool
 hasDirtyRect
 PRInt32
 dirtyX
@@ -23325,7 +23325,7 @@ nsCanvasRenderingContext2DAzure
 :
 GetMozImageSmoothingEnabled
 (
-PRBool
+bool
 *
 retVal
 )
@@ -23349,7 +23349,7 @@ nsCanvasRenderingContext2DAzure
 :
 SetMozImageSmoothingEnabled
 (
-PRBool
+bool
 val
 )
 {

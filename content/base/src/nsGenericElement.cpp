@@ -1172,13 +1172,13 @@ sTabFocusModel
 =
 eTabFocus_any
 ;
-PRBool
+bool
 nsIContent
 :
 :
 sTabFocusModelAppliesToXUL
 =
-PR_FALSE
+false
 ;
 PRUint32
 nsMutationGuard
@@ -1542,7 +1542,7 @@ void
 aValue
 NSPropertyDtorFunc
 aDtor
-PRBool
+bool
 aTransfer
 void
 *
@@ -1718,7 +1718,7 @@ nsSlots
 )
 ;
 }
-PRBool
+bool
 nsINode
 :
 :
@@ -1994,7 +1994,7 @@ container
 )
 )
 ;
-PRBool
+bool
 isEditable
 ;
 if
@@ -3097,7 +3097,7 @@ nsINode
 :
 ReplaceOrInsertBefore
 (
-PRBool
+bool
 aReplace
 nsIDOMNode
 *
@@ -3269,10 +3269,10 @@ nsIContent
 >
 nodes
 ;
-PRBool
+bool
 canMerge
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -3501,7 +3501,7 @@ being
 /
 no
 listeners
-PRBool
+bool
 hasRemoveListeners
 =
 nsContentUtils
@@ -5237,7 +5237,7 @@ DOCUMENT_POSITION_CONTAINED_BY
 )
 ;
 }
-PRBool
+bool
 nsINode
 :
 :
@@ -5475,7 +5475,7 @@ i
 #
 ifdef
 DEBUG
-PRBool
+bool
 hasAttr
 =
 #
@@ -6222,9 +6222,9 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
-PRBool
+bool
 aWantsUntrusted
 PRUint8
 aOptionalArgc
@@ -6346,7 +6346,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
 )
 {
@@ -6421,7 +6421,7 @@ DispatchEvent
 nsIDOMEvent
 *
 aEvent
-PRBool
+bool
 *
 aRetVal
 )
@@ -6634,7 +6634,7 @@ nsINode
 :
 GetListenerManager
 (
-PRBool
+bool
 aCreateIfNotFound
 )
 {
@@ -7204,7 +7204,7 @@ nsIContent
 :
 UpdateEditableState
 (
-PRBool
+bool
 aNotify
 )
 {
@@ -7260,7 +7260,7 @@ nsGenericElement
 :
 UpdateEditableState
 (
-PRBool
+bool
 aNotify
 )
 {
@@ -7804,7 +7804,7 @@ return
 state
 ;
 }
-PRBool
+bool
 nsIContent
 :
 :
@@ -9906,7 +9906,7 @@ nsGenericElement
 :
 SetCapture
 (
-PRBool
+bool
 aRetargetToElement
 )
 {
@@ -9984,7 +9984,7 @@ nsNSElementTearoff
 :
 SetCapture
 (
-PRBool
+bool
 aRetargetToElement
 )
 {
@@ -10554,7 +10554,7 @@ GetOwnerDoc
 (
 )
 ;
-PRBool
+bool
 quirksMode
 =
 doc
@@ -13031,7 +13031,7 @@ const
 nsAString
 &
 aVersion
-PRBool
+bool
 *
 aReturn
 )
@@ -13564,7 +13564,7 @@ const
 nsAString
 &
 aVersion
-PRBool
+bool
 *
 aReturn
 )
@@ -13585,7 +13585,7 @@ nsGenericElement
 :
 HasAttributes
 (
-PRBool
+bool
 *
 aReturn
 )
@@ -13712,7 +13712,7 @@ nsGenericElement
 :
 HasChildNodes
 (
-PRBool
+bool
 *
 aReturn
 )
@@ -15091,7 +15091,7 @@ const
 nsAString
 &
 aName
-PRBool
+bool
 *
 aReturn
 )
@@ -15139,7 +15139,7 @@ const
 nsAString
 &
 aLocalName
-PRBool
+bool
 *
 aReturn
 )
@@ -15331,7 +15331,7 @@ if
 inserts
 )
 {
-PRBool
+bool
 allowScripts
 =
 aBinding
@@ -15497,7 +15497,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -15931,7 +15931,7 @@ NODE_IS_IN_ANONYMOUS_SUBTREE
 )
 ;
 }
-PRBool
+bool
 hadForceXBL
 =
 HasFlag
@@ -16280,7 +16280,7 @@ GetAnonymousContent
 (
 )
 ;
-PRBool
+bool
 allowScripts
 =
 contBinding
@@ -16603,9 +16603,9 @@ nsGenericElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -17479,10 +17479,10 @@ IsInNativeAnonymousSubtree
 )
 )
 {
-PRBool
+bool
 isNativeAnon
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -17577,7 +17577,7 @@ native
 anonymous
 content
 .
-PRBool
+bool
 isAnonForEvents
 =
 IsRootOfNativeAnonymousSubtree
@@ -18594,7 +18594,7 @@ css
 StyleRule
 *
 aStyleRule
-PRBool
+bool
 aNotify
 )
 {
@@ -18752,7 +18752,7 @@ css
 StyleRule
 *
 aStyleRule
-PRBool
+bool
 aNotify
 )
 {
@@ -18772,7 +18772,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsGenericElement
 :
@@ -18826,7 +18826,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 nsGenericElement
 :
 :
@@ -19007,7 +19007,7 @@ return
 nodeInfo
 ;
 }
-PRBool
+bool
 nsGenericElement
 :
 :
@@ -19032,7 +19032,7 @@ PR_FALSE
 /
 /
 static
-PRBool
+bool
 nsGenericElement
 :
 :
@@ -19216,7 +19216,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 nsGenericElement
 :
 :
@@ -19430,7 +19430,7 @@ nsIContent
 aKid
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 {
@@ -19631,7 +19631,7 @@ nsIContent
 aKid
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 nsAttrAndChildArray
 &
@@ -19764,7 +19764,7 @@ childCount
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-PRBool
+bool
 isAppend
 =
 (
@@ -20026,7 +20026,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 {
@@ -20087,7 +20087,7 @@ doRemoveChildAt
 (
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 nsIContent
 *
@@ -20296,7 +20296,7 @@ aEvent
 nsIContent
 *
 aTarget
-PRBool
+bool
 aFullDispatch
 nsEventStatus
 *
@@ -20418,7 +20418,7 @@ aSourceEvent
 nsIContent
 *
 aTarget
-PRBool
+bool
 aFullDispatch
 PRUint32
 aFlags
@@ -21025,7 +21025,7 @@ be
 null
 .
 static
-PRBool
+bool
 IsAllowedAsChild
 (
 nsIContent
@@ -21034,7 +21034,7 @@ aNewChild
 nsINode
 *
 aParent
-PRBool
+bool
 aIsReplace
 nsINode
 *
@@ -21856,10 +21856,10 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 sawElement
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -22120,7 +22120,7 @@ nsINode
 :
 ReplaceOrInsertBefore
 (
-PRBool
+bool
 aReplace
 nsINode
 *
@@ -23134,7 +23134,7 @@ PR_TRUE
 )
 ;
 }
-PRBool
+bool
 appending
 =
 !
@@ -23518,7 +23518,7 @@ IsEqualNode
 nsIDOMNode
 *
 aOther
-PRBool
+bool
 *
 aReturn
 )
@@ -23555,7 +23555,7 @@ IsSameNode
 nsIDOMNode
 *
 aOther
-PRBool
+bool
 *
 aReturn
 )
@@ -24852,7 +24852,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aDefer
 )
 {
@@ -24919,10 +24919,10 @@ name
 "
 )
 ;
-PRBool
+bool
 defer
 =
-PR_TRUE
+true
 ;
 nsEventListenerManager
 *
@@ -25201,7 +25201,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsGenericElement
 :
 :
@@ -25219,7 +25219,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 nsAutoString
 *
@@ -25227,15 +25227,15 @@ aOldValue
 PRUint8
 *
 aModType
-PRBool
+bool
 *
 aHasListeners
 )
 {
-PRBool
+bool
 modification
 =
-PR_FALSE
+false
 ;
 *
 aHasListeners
@@ -25389,7 +25389,7 @@ we
 have
 listeners
 .
-PRBool
+bool
 valueMatches
 ;
 if
@@ -25536,7 +25536,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -25589,7 +25589,7 @@ NS_ERROR_FAILURE
 PRUint8
 modType
 ;
-PRBool
+bool
 hasListeners
 ;
 nsAutoString
@@ -25731,7 +25731,7 @@ aPrefix
 nsAttrValue
 &
 aParsedValue
-PRBool
+bool
 aNotify
 )
 {
@@ -25794,7 +25794,7 @@ value
 PRUint8
 modType
 ;
-PRBool
+bool
 hasListeners
 ;
 nsAutoString
@@ -25896,9 +25896,9 @@ nsAttrValue
 aParsedValue
 PRUint8
 aModType
-PRBool
+bool
 aFireMutation
-PRBool
+bool
 aNotify
 const
 nsAString
@@ -26331,7 +26331,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsGenericElement
 :
 :
@@ -26355,7 +26355,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsGenericElement
 :
 :
@@ -26394,7 +26394,7 @@ GetEventListenerManagerForAttr
 nsIAtom
 *
 aAttrName
-PRBool
+bool
 *
 aDefer
 )
@@ -26504,7 +26504,7 @@ nsnull
 )
 ;
 }
-PRBool
+bool
 nsGenericElement
 :
 :
@@ -26629,7 +26629,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsGenericElement
 :
 :
@@ -26687,7 +26687,7 @@ aNameSpaceID
 0
 ;
 }
-PRBool
+bool
 nsGenericElement
 :
 :
@@ -26758,7 +26758,7 @@ aCaseSensitive
 )
 ;
 }
-PRBool
+bool
 nsGenericElement
 :
 :
@@ -26966,7 +26966,7 @@ aNameSpaceID
 nsIAtom
 *
 aName
-PRBool
+bool
 aNotify
 )
 {
@@ -27059,7 +27059,7 @@ REMOVAL
 )
 ;
 }
-PRBool
+bool
 hasMutationListeners
 =
 aNotify
@@ -27537,7 +27537,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-PRBool
+bool
 aNotify
 )
 {
@@ -27568,7 +27568,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-PRBool
+bool
 aNotify
 )
 {
@@ -27587,7 +27587,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRBool
+bool
 nsGenericElement
 :
 :
@@ -28509,7 +28509,7 @@ FILE
 out
 PRInt32
 aIndent
-PRBool
+bool
 aDumpAll
 )
 const
@@ -28814,7 +28814,7 @@ nsDOMSlots
 )
 ;
 }
-PRBool
+bool
 nsGenericElement
 :
 :
@@ -30494,7 +30494,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsGenericElement
 :
 :
@@ -30515,10 +30515,10 @@ nsCSSSelectorList
 >
 selectorList
 ;
-PRBool
+bool
 matches
 =
-PR_FALSE
+false
 ;
 *
 aResult
@@ -30582,7 +30582,7 @@ const
 nsAString
 &
 aSelector
-PRBool
+bool
 *
 aReturn
 )
@@ -30916,7 +30916,7 @@ TOUCH_EVENT
 #
 undef
 EVENT
-PRBool
+bool
 nsINode
 :
 :
@@ -31158,7 +31158,7 @@ Contains
 nsIDOMNode
 *
 aOther
-PRBool
+bool
 *
 aReturn
 )

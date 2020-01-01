@@ -1001,7 +1001,7 @@ baseVal
 .
 *
 /
-PRBool
+bool
 IsAnimating
 (
 )

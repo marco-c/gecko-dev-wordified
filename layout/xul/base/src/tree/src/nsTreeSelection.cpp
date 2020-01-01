@@ -1350,7 +1350,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 Contains
 (
 PRInt32
@@ -1963,7 +1963,7 @@ nsTreeSelection
 :
 GetSingle
 (
-PRBool
+bool
 *
 aSingle
 )
@@ -2075,7 +2075,7 @@ IsSelected
 (
 PRInt32
 aIndex
-PRBool
+bool
 *
 aResult
 )
@@ -2117,7 +2117,7 @@ PRInt32
 aMsec
 )
 {
-PRBool
+bool
 suppressSelect
 =
 mSuppressed
@@ -2255,7 +2255,7 @@ if
 mFirstRange
 )
 {
-PRBool
+bool
 alreadySelected
 =
 mFirstRange
@@ -2549,7 +2549,7 @@ aIndex
 )
 )
 {
-PRBool
+bool
 single
 ;
 rv
@@ -2633,11 +2633,11 @@ PRInt32
 aStartIndex
 PRInt32
 aEndIndex
-PRBool
+bool
 aAugment
 )
 {
-PRBool
+bool
 single
 ;
 nsresult
@@ -3100,7 +3100,7 @@ GetRowCount
 rowCount
 )
 ;
-PRBool
+bool
 single
 ;
 nsresult
@@ -3387,7 +3387,7 @@ nsTreeSelection
 :
 GetSelectEventsSuppressed
 (
-PRBool
+bool
 *
 aSelectEventsSuppressed
 )
@@ -3407,7 +3407,7 @@ nsTreeSelection
 :
 SetSelectEventsSuppressed
 (
-PRBool
+bool
 aSelectEventsSuppressed
 )
 {
@@ -4070,10 +4070,10 @@ mFirstRange
 return
 NS_OK
 ;
-PRBool
+bool
 selChanged
 =
-PR_FALSE
+false
 ;
 nsTreeRange
 *

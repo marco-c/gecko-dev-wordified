@@ -731,7 +731,7 @@ out
 param
 pointer
 .
-PRBool
+bool
 SetLengthForWriting
 (
 nsAString
@@ -766,7 +766,7 @@ aDesiredLength
 )
 ;
 }
-PRBool
+bool
 SetLengthForWritingC
 (
 nsACString
@@ -2416,7 +2416,7 @@ writer
 )
 ;
 }
-PRBool
+bool
 IsASCII
 (
 const
@@ -2528,7 +2528,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 IsASCII
 (
 const
@@ -2640,14 +2640,14 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 IsUTF8
 (
 const
 nsACString
 &
 aString
-PRBool
+bool
 aRejectNonChar
 )
 {
@@ -2669,20 +2669,20 @@ state
 =
 0
 ;
-PRBool
+bool
 overlong
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 surrogate
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 nonchar
 =
-PR_FALSE
+false
 ;
 PRUint16
 olupper
@@ -4048,7 +4048,7 @@ converter
 )
 ;
 }
-PRBool
+bool
 ParseString
 (
 const
@@ -4196,7 +4196,7 @@ IteratorT
 class
 Comparator
 >
-PRBool
+bool
 FindInReadable_Impl
 (
 const
@@ -4215,10 +4215,10 @@ Comparator
 compare
 )
 {
-PRBool
+bool
 found_it
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -4660,7 +4660,7 @@ IteratorT
 class
 Comparator
 >
-PRBool
+bool
 RFindInReadable_Impl
 (
 const
@@ -4985,7 +4985,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 FindInReadable
 (
 const
@@ -5020,7 +5020,7 @@ aComparator
 )
 ;
 }
-PRBool
+bool
 FindInReadable
 (
 const
@@ -5055,7 +5055,7 @@ aComparator
 )
 ;
 }
-PRBool
+bool
 CaseInsensitiveFindInReadable
 (
 const
@@ -5088,7 +5088,7 @@ nsCaseInsensitiveCStringComparator
 )
 ;
 }
-PRBool
+bool
 RFindInReadable
 (
 const
@@ -5123,7 +5123,7 @@ aComparator
 )
 ;
 }
-PRBool
+bool
 RFindInReadable
 (
 const
@@ -5158,7 +5158,7 @@ aComparator
 )
 ;
 }
-PRBool
+bool
 FindCharInReadable
 (
 PRUnichar
@@ -5248,7 +5248,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 FindCharInReadable
 (
 char
@@ -5474,7 +5474,7 @@ return
 count
 ;
 }
-PRBool
+bool
 StringBeginsWith
 (
 const
@@ -5534,7 +5534,7 @@ aComparator
 )
 ;
 }
-PRBool
+bool
 StringBeginsWith
 (
 const
@@ -5594,7 +5594,7 @@ aComparator
 )
 ;
 }
-PRBool
+bool
 StringEndsWith
 (
 const
@@ -5656,7 +5656,7 @@ aComparator
 )
 ;
 }
-PRBool
+bool
 StringEndsWith
 (
 const
@@ -5890,7 +5890,7 @@ c8_32
 NOT_ASCII
 )
 {
-PRBool
+bool
 err
 ;
 c8_32

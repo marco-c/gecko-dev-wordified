@@ -1667,7 +1667,7 @@ nsIFile
 >
 mTempFile
 ;
-PRBool
+bool
 mTargetFileExists
 ;
 nsresult

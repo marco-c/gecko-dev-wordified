@@ -1001,7 +1001,7 @@ StopProfiling
 *
 /
 inline
-PRBool
+bool
 StartProfiling
 (
 const
@@ -1126,7 +1126,7 @@ StartProfiling
 *
 /
 inline
-PRBool
+bool
 StopProfiling
 (
 )
@@ -1476,7 +1476,7 @@ mTestName
 )
 ;
 }
-PRBool
+bool
 failed
 (
 )
@@ -1699,7 +1699,7 @@ const
 char
 *
 aProperty
-PRBool
+bool
 *
 _persistent
 nsIFile

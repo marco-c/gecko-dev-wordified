@@ -1143,7 +1143,7 @@ float
 mLength
 mPercent
 ;
-PRBool
+bool
 mHasPercent
 ;
 }
@@ -1848,7 +1848,7 @@ METHODS
 -
 -
 -
-PRBool
+bool
 nsStyleAnimation
 :
 :
@@ -4363,7 +4363,7 @@ colorDistance
 #
 ifdef
 DEBUG
-PRBool
+bool
 ok
 =
 #
@@ -5450,7 +5450,7 @@ eCSSUnit_Radian
 ;
 }
 static
-PRBool
+bool
 AddShadowItems
 (
 double
@@ -5792,7 +5792,7 @@ resultColorValue
 #
 ifdef
 DEBUG
-PRBool
+bool
 ok
 =
 #
@@ -8224,7 +8224,7 @@ define
 YZSHEAR
 2
 static
-PRBool
+bool
 Decompose2DMatrix
 (
 const
@@ -8639,7 +8639,7 @@ gz
 *
 /
 static
-PRBool
+bool
 Decompose3DMatrix
 (
 const
@@ -10007,7 +10007,7 @@ forget
 ;
 }
 static
-PRBool
+bool
 TransformFunctionsMatch
 (
 nsCSSKeyword
@@ -11548,7 +11548,7 @@ forget
 )
 ;
 }
-PRBool
+bool
 nsStyleAnimation
 :
 :
@@ -12469,7 +12469,7 @@ v2
 .
 mPercent
 ;
-PRBool
+bool
 hasPct
 =
 (
@@ -14720,10 +14720,10 @@ aCoeff1
 }
 else
 {
-PRBool
+bool
 match
 =
-PR_TRUE
+true
 ;
 {
 const
@@ -15263,7 +15263,7 @@ const
 nsAString
 &
 aSpecifiedValue
-PRBool
+bool
 aUseSVGMode
 )
 {
@@ -15300,7 +15300,7 @@ InitializeEmpty
 (
 )
 ;
-PRBool
+bool
 changed
 ;
 /
@@ -15569,7 +15569,7 @@ shell
 )
 ;
 }
-PRBool
+bool
 nsStyleAnimation
 :
 :
@@ -15587,12 +15587,12 @@ const
 nsAString
 &
 aSpecifiedValue
-PRBool
+bool
 aUseSVGMode
 Value
 &
 aComputedValue
-PRBool
+bool
 *
 aIsContextSensitive
 )
@@ -16128,7 +16128,7 @@ aComputedValue
 )
 ;
 }
-PRBool
+bool
 nsStyleAnimation
 :
 :
@@ -16630,7 +16630,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsStyleAnimation
 :
 :
@@ -16817,7 +16817,7 @@ aComputedValue
 nscolor
 color
 ;
-PRBool
+bool
 foreground
 ;
 static_cast
@@ -16874,7 +16874,7 @@ color
 ;
 }
 static
-PRBool
+bool
 StyleCoordToValue
 (
 const
@@ -17073,7 +17073,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 StyleCoordToCSSValue
 (
 const
@@ -17224,10 +17224,10 @@ IsCalcUnit
 )
 )
 {
-PRBool
+bool
 canStoreInRuleTree
 =
-PR_TRUE
+true
 ;
 nsRuleNode
 :
@@ -17422,10 +17422,10 @@ GetUnit
 eCSSUnit_Pixel
 )
 {
-PRBool
+bool
 canStoreInRuleTree
 =
-PR_TRUE
+true
 ;
 nscoord
 len
@@ -17469,7 +17469,7 @@ aInput
 ;
 }
 }
-PRBool
+bool
 nsStyleAnimation
 :
 :
@@ -17982,7 +17982,7 @@ styleStruct
 nscolor
 color
 ;
-PRBool
+bool
 isForeground
 ;
 styleTextReset
@@ -22694,7 +22694,7 @@ Release
 ;
 }
 }
-PRBool
+bool
 nsStyleAnimation
 :
 :

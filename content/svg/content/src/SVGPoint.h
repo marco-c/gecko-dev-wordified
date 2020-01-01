@@ -587,7 +587,7 @@ return
 this
 ;
 }
-PRBool
+bool
 operator
 =
 =
@@ -664,7 +664,7 @@ mY
 #
 ifdef
 DEBUG
-PRBool
+bool
 IsValid
 (
 )

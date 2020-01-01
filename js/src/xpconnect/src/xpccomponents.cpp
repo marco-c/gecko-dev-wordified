@@ -665,7 +665,7 @@ errNum
 JSContext
 *
 cx
-PRBool
+bool
 *
 retval
 )
@@ -1772,7 +1772,7 @@ above
 /
 /
 *
-PRBool
+bool
 newEnumerate
 (
 in
@@ -1820,7 +1820,7 @@ statep
 jsid
 *
 idp
-PRBool
+bool
 *
 _retval
 )
@@ -2010,7 +2010,7 @@ char
 *
 name
 ;
-PRBool
+bool
 scriptable
 ;
 if
@@ -2132,7 +2132,7 @@ NS_OK
 }
 /
 *
-PRBool
+bool
 newResolve
 (
 in
@@ -2180,7 +2180,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -3563,7 +3563,7 @@ above
 /
 /
 *
-PRBool
+bool
 newEnumerate
 (
 in
@@ -3611,7 +3611,7 @@ statep
 jsid
 *
 idp
-PRBool
+bool
 *
 _retval
 )
@@ -3807,7 +3807,7 @@ JSString
 *
 jsstr
 ;
-PRBool
+bool
 scriptable
 ;
 if
@@ -3934,7 +3934,7 @@ NS_OK
 }
 /
 *
-PRBool
+bool
 newResolve
 (
 in
@@ -3982,7 +3982,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -5356,7 +5356,7 @@ above
 /
 /
 *
-PRBool
+bool
 newEnumerate
 (
 in
@@ -5404,7 +5404,7 @@ statep
 jsid
 *
 idp
-PRBool
+bool
 *
 _retval
 )
@@ -5520,7 +5520,7 @@ nsISupports
 >
 isup
 ;
-PRBool
+bool
 hasMore
 ;
 e
@@ -5690,7 +5690,7 @@ NS_OK
 }
 /
 *
-PRBool
+bool
 newResolve
 (
 in
@@ -5738,7 +5738,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -6846,7 +6846,7 @@ above
 /
 /
 *
-PRBool
+bool
 newEnumerate
 (
 in
@@ -6894,7 +6894,7 @@ statep
 jsid
 *
 idp
-PRBool
+bool
 *
 _retval
 )
@@ -7010,7 +7010,7 @@ nsISupports
 >
 isup
 ;
-PRBool
+bool
 hasMore
 ;
 e
@@ -7183,7 +7183,7 @@ NS_OK
 }
 }
 static
-PRBool
+bool
 IsRegisteredCLSID
 (
 const
@@ -7192,7 +7192,7 @@ char
 str
 )
 {
-PRBool
+bool
 registered
 ;
 nsID
@@ -7257,7 +7257,7 @@ registered
 }
 /
 *
-PRBool
+bool
 newResolve
 (
 in
@@ -7305,7 +7305,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -8296,7 +8296,7 @@ above
 /
 /
 *
-PRBool
+bool
 newEnumerate
 (
 in
@@ -8344,7 +8344,7 @@ statep
 jsid
 *
 idp
-PRBool
+bool
 *
 _retval
 )
@@ -8534,7 +8534,7 @@ NS_OK
 }
 /
 *
-PRBool
+bool
 newResolve
 (
 in
@@ -8582,7 +8582,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -8856,7 +8856,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -9498,7 +9498,7 @@ above
 /
 /
 *
-PRBool
+bool
 call
 (
 in
@@ -9546,7 +9546,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -9566,7 +9566,7 @@ _retval
 }
 /
 *
-PRBool
+bool
 construct
 (
 in
@@ -9614,7 +9614,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -9658,7 +9658,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -9904,7 +9904,7 @@ NS_OK
 }
 /
 *
-PRBool
+bool
 hasInstance
 (
 in
@@ -9920,7 +9920,7 @@ in
 jsval
 val
 out
-PRBool
+bool
 bp
 )
 ;
@@ -9945,10 +9945,10 @@ const
 jsval
 &
 val
-PRBool
+bool
 *
 bp
-PRBool
+bool
 *
 _retval
 )
@@ -10124,7 +10124,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -10766,7 +10766,7 @@ above
 /
 /
 *
-PRBool
+bool
 call
 (
 in
@@ -10814,7 +10814,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -10834,7 +10834,7 @@ _retval
 }
 /
 *
-PRBool
+bool
 construct
 (
 in
@@ -10882,7 +10882,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -10926,7 +10926,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -11569,7 +11569,7 @@ NS_OK
 }
 /
 *
-PRBool
+bool
 hasInstance
 (
 in
@@ -11585,7 +11585,7 @@ in
 jsval
 val
 out
-PRBool
+bool
 bp
 )
 ;
@@ -11610,10 +11610,10 @@ const
 jsval
 &
 val
-PRBool
+bool
 *
 bp
-PRBool
+bool
 *
 _retval
 )
@@ -11894,7 +11894,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -12705,7 +12705,7 @@ above
 /
 /
 *
-PRBool
+bool
 call
 (
 in
@@ -12753,7 +12753,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -12773,7 +12773,7 @@ _retval
 }
 /
 *
-PRBool
+bool
 construct
 (
 in
@@ -12821,7 +12821,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -12865,7 +12865,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -13355,7 +13355,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -13997,7 +13997,7 @@ above
 /
 /
 *
-PRBool
+bool
 call
 (
 in
@@ -14045,7 +14045,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -14065,7 +14065,7 @@ _retval
 }
 /
 *
-PRBool
+bool
 construct
 (
 in
@@ -14113,7 +14113,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -14157,7 +14157,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -15206,7 +15206,7 @@ NS_OK
 }
 /
 *
-PRBool
+bool
 hasInstance
 (
 in
@@ -15222,7 +15222,7 @@ in
 jsval
 val
 out
-PRBool
+bool
 bp
 )
 ;
@@ -15247,10 +15247,10 @@ const
 jsval
 &
 val
-PRBool
+bool
 *
 bp
-PRBool
+bool
 *
 _retval
 )
@@ -15417,7 +15417,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -18715,7 +18715,7 @@ NS_OK
 }
 /
 *
-PRBool
+bool
 call
 (
 in
@@ -18763,7 +18763,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -18783,7 +18783,7 @@ _retval
 }
 /
 *
-PRBool
+bool
 construct
 (
 in
@@ -18831,7 +18831,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -18875,7 +18875,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -20350,7 +20350,7 @@ PRInt32
 lineNo
 JSVersion
 jsVersion
-PRBool
+bool
 returnStringOnly
 jsval
 *
@@ -20415,7 +20415,7 @@ cx
 fp
 )
 ;
-PRBool
+bool
 system
 ;
 ssm
@@ -23914,7 +23914,7 @@ IsSuccessCode
 (
 nsresult
 result
-PRBool
+bool
 *
 out
 )
@@ -24115,7 +24115,7 @@ above
 /
 /
 *
-PRBool
+bool
 newResolve
 (
 in
@@ -24163,7 +24163,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -24261,7 +24261,7 @@ NS_OK
 }
 /
 *
-PRBool
+bool
 getProperty
 (
 in
@@ -24303,7 +24303,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -24328,7 +24328,7 @@ xpcc
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 doResult
 =
 JS_FALSE
@@ -24447,7 +24447,7 @@ rv
 }
 /
 *
-PRBool
+bool
 setProperty
 (
 in
@@ -24489,7 +24489,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )

@@ -1628,7 +1628,7 @@ utilities
 *
 /
 static
-PRBool
+bool
 IsRenderMode
 (
 gfxWindowsPlatform
@@ -2124,7 +2124,7 @@ nsWindow
 :
 GetRegionToPaint
 (
-PRBool
+bool
 aForceFullRepaint
 PAINTSTRUCT
 ps
@@ -2292,7 +2292,7 @@ x
 height
 )
 static
-PRBool
+bool
 EnsureSharedSurfaceSize
 (
 gfxIntSize
@@ -2417,7 +2417,7 @@ nsnull
 )
 ;
 }
-PRBool
+bool
 nsWindow
 :
 :
@@ -2692,10 +2692,10 @@ DispatchWindowEvent
 willPaintEvent
 )
 ;
-PRBool
+bool
 result
 =
-PR_TRUE
+true
 ;
 PAINTSTRUCT
 ps
@@ -2947,7 +2947,7 @@ event
 #
 ifdef
 MOZ_XUL
-PRBool
+bool
 forceRepaint
 =
 aDC
@@ -2962,7 +2962,7 @@ mTransparencyMode
 ;
 #
 else
-PRBool
+bool
 forceRepaint
 =
 NULL
@@ -5088,7 +5088,7 @@ CreateIcon
 imgIContainer
 *
 aContainer
-PRBool
+bool
 aIsCursor
 PRUint32
 aHotspotX
@@ -5742,7 +5742,7 @@ return
 outData
 ;
 }
-PRBool
+bool
 nsWindowGfx
 :
 :
@@ -5751,16 +5751,16 @@ IsCursorTranslucencySupported
 )
 {
 static
-PRBool
+bool
 didCheck
 =
-PR_FALSE
+false
 ;
 static
-PRBool
+bool
 isSupported
 =
-PR_FALSE
+false
 ;
 if
 (

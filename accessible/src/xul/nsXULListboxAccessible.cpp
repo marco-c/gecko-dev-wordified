@@ -1356,7 +1356,7 @@ return
 NS_ERROR_NO_INTERFACE
 ;
 }
-PRBool
+bool
 nsXULListboxAccessible
 :
 :
@@ -2673,7 +2673,7 @@ IsColumnSelected
 (
 PRInt32
 aColumn
-PRBool
+bool
 *
 aIsSelected
 )
@@ -2785,7 +2785,7 @@ IsRowSelected
 (
 PRInt32
 aRow
-PRBool
+bool
 *
 aIsSelected
 )
@@ -2877,7 +2877,7 @@ PRInt32
 aRowIndex
 PRInt32
 aColumnIndex
-PRBool
+bool
 *
 aIsSelected
 )
@@ -4425,7 +4425,7 @@ nsXULListboxAccessible
 :
 IsProbablyForLayout
 (
-PRBool
+bool
 *
 aIsProbablyForLayout
 )
@@ -4579,10 +4579,10 @@ if
 autoCompletePopupElm
 )
 {
-PRBool
+bool
 isOpen
 =
-PR_FALSE
+false
 ;
 autoCompletePopupElm
 -
@@ -4647,10 +4647,10 @@ if
 autoCompletePopupElm
 )
 {
-PRBool
+bool
 isOpen
 =
-PR_FALSE
+false
 ;
 autoCompletePopupElm
 -
@@ -5572,7 +5572,7 @@ if
 listItem
 )
 {
-PRBool
+bool
 isSelected
 ;
 listItem
@@ -5693,7 +5693,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-PRBool
+bool
 nsXULListitemAccessible
 :
 :
@@ -7021,7 +7021,7 @@ nsXULListCellAccessible
 :
 IsSelected
 (
-PRBool
+bool
 *
 aIsSelected
 )

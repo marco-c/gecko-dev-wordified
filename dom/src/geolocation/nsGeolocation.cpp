@@ -873,7 +873,7 @@ NS_OK
 }
 private
 :
-PRBool
+bool
 mAllow
 ;
 nsRefPtr
@@ -1459,7 +1459,7 @@ aErrorCallback
 nsIDOMGeoPositionOptions
 *
 aOptions
-PRBool
+bool
 aWatchPositionRequest
 )
 :
@@ -2667,16 +2667,16 @@ NS_IMPL_THREADSAFE_RELEASE
 nsGeolocationService
 )
 static
-PRBool
+bool
 sGeoEnabled
 =
-PR_TRUE
+true
 ;
 static
-PRBool
+bool
 sGeoIgnoreLocationFilter
 =
-PR_FALSE
+false
 ;
 static
 int
@@ -2703,7 +2703,7 @@ geo
 .
 enabled
 "
-PR_TRUE
+true
 )
 ;
 return
@@ -2737,7 +2737,7 @@ ignore
 .
 location_filter
 "
-PR_TRUE
+true
 )
 ;
 return
@@ -2965,7 +2965,7 @@ if
 geoproviders
 )
 {
-PRBool
+bool
 hasMore
 ;
 while
@@ -4528,7 +4528,7 @@ mURI
 nsnull
 ;
 }
-PRBool
+bool
 nsGeolocation
 :
 :
@@ -5194,7 +5194,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsGeolocation
 :
 :
@@ -5255,10 +5255,10 @@ if
 window
 )
 {
-PRBool
+bool
 closed
 =
-PR_FALSE
+false
 ;
 window
 -
@@ -5336,7 +5336,7 @@ prompt
 .
 testing
 "
-PR_FALSE
+false
 )
 )
 {
@@ -5363,7 +5363,7 @@ testing
 .
 allow
 "
-PR_FALSE
+false
 )
 request
 )

@@ -667,7 +667,7 @@ sequence
 PRUint8
 mBytes
 ;
-PRPackedBool
+bool
 mFirst
 ;
 /

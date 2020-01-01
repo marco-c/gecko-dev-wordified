@@ -1427,7 +1427,7 @@ nsIStringBundle
 >
 printBundle
 ;
-PRPackedBool
+bool
 useNativeSelection
 ;
 GtkWidget
@@ -2132,7 +2132,7 @@ on
 older
 versions
 .
-PRBool
+bool
 canSelectText
 ;
 aSettings
@@ -3543,7 +3543,7 @@ GetGtkPageSetup
 (
 )
 ;
-PRBool
+bool
 geckoBool
 ;
 aNSSettings
@@ -3894,7 +3894,7 @@ SetGtkPrinter
 printer
 )
 ;
-PRBool
+bool
 printSelectionOnly
 ;
 if
@@ -4053,10 +4053,10 @@ get
 )
 ;
 }
-PRPackedBool
+bool
 shouldBeCustom
 =
-PR_TRUE
+true
 ;
 NS_ConvertUTF16toUTF8
 currentStringUTF8

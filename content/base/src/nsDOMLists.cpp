@@ -620,7 +620,7 @@ const
 nsAString
 &
 aString
-PRBool
+bool
 *
 aResult
 )
@@ -803,7 +803,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsNameList
 :
 :
@@ -876,7 +876,7 @@ const
 nsAString
 &
 aName
-PRBool
+bool
 *
 aResult
 )
@@ -909,7 +909,7 @@ const
 nsAString
 &
 aName
-PRBool
+bool
 *
 aResult
 )

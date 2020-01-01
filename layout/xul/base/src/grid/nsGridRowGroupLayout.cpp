@@ -588,7 +588,7 @@ aBox
 index
 )
 ;
-PRBool
+bool
 isHorizontal
 =
 IsHorizontal
@@ -622,7 +622,7 @@ nsSize
 aSize
 nscoord
 aSize2
-PRBool
+bool
 aIsHorizontal
 )
 {
@@ -811,7 +811,7 @@ columns
 sizes
 as
 well
-PRBool
+bool
 isHorizontal
 =
 IsHorizontal
@@ -956,7 +956,7 @@ columns
 sizes
 as
 well
-PRBool
+bool
 isHorizontal
 =
 IsHorizontal
@@ -1101,7 +1101,7 @@ columns
 sizes
 as
 well
-PRBool
+bool
 isHorizontal
 =
 IsHorizontal
@@ -1691,7 +1691,7 @@ GetTotalMargin
 nsIBox
 *
 aBox
-PRBool
+bool
 aIsHorizontal
 )
 {

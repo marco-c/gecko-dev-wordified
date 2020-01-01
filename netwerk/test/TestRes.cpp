@@ -1253,10 +1253,10 @@ NS_OK
 /
 /
 /
-PRBool
+bool
 gDone
 =
-PR_FALSE
+false
 ;
 nsIEventQueue
 *

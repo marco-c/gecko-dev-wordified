@@ -1521,10 +1521,10 @@ bpp
 =
 24
 ;
-PRBool
+bool
 usePNG
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -1711,7 +1711,7 @@ aOptions
 PRUint32
 *
 bpp
-PRBool
+bool
 *
 usePNG
 )
@@ -2391,7 +2391,7 @@ nsICOEncoder
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 _retval
 )

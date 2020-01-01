@@ -530,7 +530,7 @@ nsIProtocolHandler
 h
 "
 static
-PRBool
+bool
 IsChromeProcess
 (
 )
@@ -1074,7 +1074,7 @@ const
 nsAString
 &
 aURL
-PRBool
+bool
 aAllowDelayedLoad
 )
 {
@@ -2200,7 +2200,7 @@ const
 nsAString
 &
 aMessage
-PRBool
+bool
 aSync
 const
 nsAString
@@ -3037,7 +3037,7 @@ AddChildManager
 nsFrameMessageManager
 *
 aManager
-PRBool
+bool
 aLoadScripts
 )
 {
@@ -3200,7 +3200,7 @@ SetCallbackData
 void
 *
 aData
-PRBool
+bool
 aLoadScripts
 )
 {
@@ -3291,7 +3291,7 @@ nsFrameMessageManager
 :
 Disconnect
 (
-PRBool
+bool
 aRemoveFromParent
 )
 {
@@ -4316,7 +4316,7 @@ rv
 return
 ;
 }
-PRBool
+bool
 hasFlags
 ;
 rv

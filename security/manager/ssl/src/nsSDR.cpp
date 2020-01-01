@@ -1831,7 +1831,7 @@ nsSDRContext
 (
 )
 ;
-PRBool
+bool
 canceled
 ;
 {

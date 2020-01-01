@@ -666,7 +666,7 @@ const
 0
 ;
 virtual
-PRBool
+bool
 HasRules
 (
 )
@@ -724,7 +724,7 @@ incomplete
 *
 /
 virtual
-PRBool
+bool
 IsApplicable
 (
 )
@@ -834,7 +834,7 @@ virtual
 void
 SetEnabled
 (
-PRBool
+bool
 aEnabled
 )
 =
@@ -853,7 +853,7 @@ complete
 *
 /
 virtual
-PRBool
+bool
 IsComplete
 (
 )

@@ -535,7 +535,7 @@ nsXULLabelFrame
 :
 RegUnregAccessKey
 (
-PRBool
+bool
 aDoReg
 )
 {

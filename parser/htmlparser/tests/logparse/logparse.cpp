@@ -981,7 +981,7 @@ rv
 -
 -
 -
-PRBool
+bool
 CompareFiles
 (
 const
@@ -994,10 +994,10 @@ char
 aFilename2
 )
 {
-PRBool
+bool
 result
 =
-PR_TRUE
+true
 ;
 fstream
 theFirstStream
@@ -1029,10 +1029,10 @@ ios
 nocreate
 )
 ;
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
 char
 ch1
@@ -1071,7 +1071,7 @@ break
 }
 done
 =
-PRBool
+bool
 (
 (
 theFirstStream
@@ -1452,10 +1452,10 @@ theTempFilename
 500
 ]
 ;
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
 ComputeTempFilename
 (
@@ -1505,7 +1505,7 @@ theTempFilename
 )
 )
 {
-PRBool
+bool
 matches
 =
 CompareFiles
@@ -1546,7 +1546,7 @@ theBaselineFilename
 ;
 done
 =
-PRBool
+bool
 (
 theIndexFile
 .

@@ -733,7 +733,7 @@ rest
 of
 GroupRule
 virtual
-PRBool
+bool
 UseForPresentation
 (
 nsPresContext
@@ -873,7 +873,7 @@ rest
 of
 GroupRule
 virtual
-PRBool
+bool
 UseForPresentation
 (
 nsPresContext
@@ -1587,7 +1587,7 @@ Declaration
 *
 GetCSSDeclaration
 (
-PRBool
+bool
 aAllocate
 )
 ;
@@ -2040,7 +2040,7 @@ rest
 of
 GroupRule
 virtual
-PRBool
+bool
 UseForPresentation
 (
 nsPresContext

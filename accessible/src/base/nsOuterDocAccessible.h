@@ -616,7 +616,7 @@ InvalidateChildren
 )
 ;
 virtual
-PRBool
+bool
 AppendChild
 (
 nsAccessible
@@ -625,7 +625,7 @@ aAccessible
 )
 ;
 virtual
-PRBool
+bool
 RemoveChild
 (
 nsAccessible

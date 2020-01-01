@@ -958,7 +958,7 @@ IsValidLoadType
 ;
 static
 inline
-PRBool
+bool
 IsValidLoadType
 (
 PRUint32

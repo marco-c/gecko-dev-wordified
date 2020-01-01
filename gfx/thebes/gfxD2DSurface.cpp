@@ -725,7 +725,7 @@ gfxD2DSurface
 :
 GetDC
 (
-PRBool
+bool
 aRetainContents
 )
 {

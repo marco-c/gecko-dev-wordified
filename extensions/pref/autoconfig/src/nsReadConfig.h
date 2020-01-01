@@ -502,13 +502,13 @@ char
 aFileName
 PRInt32
 obscureValue
-PRBool
+bool
 isEncoded
-PRBool
+bool
 isBinDir
 )
 ;
-PRBool
+bool
 mRead
 ;
 private

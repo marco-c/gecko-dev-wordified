@@ -527,13 +527,13 @@ more
 information
 .
 static
-PRBool
+bool
 RegisterAppUserModelID
 (
 )
 ;
 static
-PRBool
+bool
 GetAppUserModelID
 (
 nsAString
@@ -543,7 +543,7 @@ aDefaultGroupId
 ;
 private
 :
-PRBool
+bool
 Initialize
 (
 )

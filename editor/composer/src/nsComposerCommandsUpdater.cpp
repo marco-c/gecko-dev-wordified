@@ -720,7 +720,7 @@ nsComposerCommandsUpdater
 :
 NotifyDocumentStateChanged
 (
-PRBool
+bool
 aNowDirty
 )
 {
@@ -787,7 +787,7 @@ aManager
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 *
 aInterrupt
 )
@@ -888,7 +888,7 @@ aManager
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 *
 aInterrupt
 )
@@ -976,7 +976,7 @@ aManager
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 *
 aInterrupt
 )
@@ -1029,7 +1029,7 @@ WillBeginBatch
 nsITransactionManager
 *
 aManager
-PRBool
+bool
 *
 aInterrupt
 )
@@ -1069,7 +1069,7 @@ WillEndBatch
 nsITransactionManager
 *
 aManager
-PRBool
+bool
 *
 aInterrupt
 )
@@ -1115,7 +1115,7 @@ aTopTransaction
 nsITransaction
 *
 aTransactionToMerge
-PRBool
+bool
 *
 aInterrupt
 )
@@ -1144,7 +1144,7 @@ aTopTransaction
 nsITransaction
 *
 aTransactionToMerge
-PRBool
+bool
 aDidMerge
 nsresult
 aMergeResult
@@ -1309,7 +1309,7 @@ has
 changed
 update
 stuff
-PRBool
+bool
 isCollapsed
 =
 SelectionIsCollapsed
@@ -1385,7 +1385,7 @@ nsComposerCommandsUpdater
 :
 UpdateDirtyState
 (
-PRBool
+bool
 aNowDirty
 )
 {
@@ -1850,7 +1850,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsComposerCommandsUpdater
 :
 :
@@ -1901,10 +1901,10 @@ domSelection
 domSelection
 )
 {
-PRBool
+bool
 selectionCollapsed
 =
-PR_FALSE
+false
 ;
 domSelection
 -

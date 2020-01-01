@@ -566,7 +566,7 @@ see
 nsDoubleHashtable
 .
 h
-PRBool
+bool
 MatchEntry
 (
 const
@@ -674,7 +674,7 @@ see
 nsDoubleHashtable
 .
 h
-PRBool
+bool
 MatchEntry
 (
 const
@@ -697,7 +697,7 @@ aKey
 txIndexedKeyHashKey
 mKey
 ;
-PRBool
+bool
 mIndexed
 ;
 }
@@ -787,7 +787,7 @@ PR_TRUE
 otherwise
 *
 /
-PRBool
+bool
 addKey
 (
 nsAutoPtr
@@ -1140,7 +1140,7 @@ const
 nsAString
 &
 aKeyValue
-PRBool
+bool
 aIndexIfNotFound
 txExecutionState
 &

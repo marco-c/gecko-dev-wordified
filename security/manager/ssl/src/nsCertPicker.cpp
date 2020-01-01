@@ -566,11 +566,11 @@ PRUnichar
 selectedNickname
 PRInt32
 certUsage
-PRBool
+bool
 allowInvalid
-PRBool
+bool
 allowDuplicateNicknames
-PRBool
+bool
 *
 canceled
 nsIX509Cert
@@ -588,10 +588,10 @@ selectedIndex
 -
 1
 ;
-PRBool
+bool
 selectionFound
 =
-PR_FALSE
+false
 ;
 PRUnichar
 *

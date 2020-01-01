@@ -493,7 +493,7 @@ available
 .
 *
 /
-PRBool
+bool
 hasMoreTokens
 (
 )
@@ -639,7 +639,7 @@ available
 .
 *
 /
-PRBool
+bool
 hasMoreTokens
 (
 )

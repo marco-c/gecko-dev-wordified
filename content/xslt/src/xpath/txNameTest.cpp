@@ -568,7 +568,7 @@ matches
 )
 ;
 }
-PRBool
+bool
 txNameTest
 :
 :
@@ -815,7 +815,7 @@ return
 NAME_TEST
 ;
 }
-PRBool
+bool
 txNameTest
 :
 :

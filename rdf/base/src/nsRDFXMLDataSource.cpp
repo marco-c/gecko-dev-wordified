@@ -1318,7 +1318,7 @@ nsIRDFDataSource
 >
 mInner
 ;
-PRPackedBool
+bool
 mIsWritable
 ;
 /
@@ -1331,7 +1331,7 @@ can
 be
 written
 back
-PRPackedBool
+bool
 mIsDirty
 ;
 /
@@ -1426,7 +1426,7 @@ aResult
 )
 ;
 inline
-PRBool
+bool
 IsLoading
 (
 )
@@ -1480,7 +1480,7 @@ property
 nsIRDFNode
 *
 target
-PRBool
+bool
 tv
 nsIRDFResource
 *
@@ -1510,7 +1510,7 @@ property
 nsIRDFNode
 *
 target
-PRBool
+bool
 tv
 nsISimpleEnumerator
 *
@@ -1540,7 +1540,7 @@ source
 nsIRDFResource
 *
 property
-PRBool
+bool
 tv
 nsIRDFNode
 *
@@ -1570,7 +1570,7 @@ source
 nsIRDFResource
 *
 property
-PRBool
+bool
 tv
 nsISimpleEnumerator
 *
@@ -1603,7 +1603,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-PRBool
+bool
 tv
 )
 ;
@@ -1667,9 +1667,9 @@ property
 nsIRDFNode
 *
 target
-PRBool
+bool
 tv
-PRBool
+bool
 *
 hasAssertion
 )
@@ -1733,7 +1733,7 @@ aNode
 nsIRDFResource
 *
 aArc
-PRBool
+bool
 *
 _retval
 )
@@ -1759,7 +1759,7 @@ aSource
 nsIRDFResource
 *
 aArc
-PRBool
+bool
 *
 _retval
 )
@@ -1897,7 +1897,7 @@ nsIRDFResource
 /
 *
 aArguments
-PRBool
+bool
 *
 aResult
 )
@@ -2140,7 +2140,7 @@ aVisitor
 /
 Implementation
 methods
-PRBool
+bool
 MakeQName
 (
 nsIRDFResource
@@ -2188,7 +2188,7 @@ nsIRDFResource
 aProperty
 )
 ;
-PRBool
+bool
 IsContainerProperty
 (
 nsIRDFResource
@@ -2248,7 +2248,7 @@ nsIOutputStream
 aStream
 )
 ;
-PRBool
+bool
 IsA
 (
 nsIRDFDataSource
@@ -3352,7 +3352,7 @@ RDFXMLDataSourceImpl
 :
 GetLoaded
 (
-PRBool
+bool
 *
 _result
 )
@@ -3602,7 +3602,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-PRBool
+bool
 aTruthValue
 )
 {
@@ -3647,10 +3647,10 @@ IsLoading
 )
 )
 {
-PRBool
+bool
 hasAssertion
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -3767,7 +3767,7 @@ Assert
 gave
 us
 .
-PRBool
+bool
 didMark
 ;
 (
@@ -4830,7 +4830,7 @@ RDFXMLDataSourceImpl
 :
 GetReadOnly
 (
-PRBool
+bool
 *
 aIsReadOnly
 )
@@ -4851,7 +4851,7 @@ RDFXMLDataSourceImpl
 :
 SetReadOnly
 (
-PRBool
+bool
 aIsReadOnly
 )
 {
@@ -5080,7 +5080,7 @@ RDFXMLDataSourceImpl
 :
 Refresh
 (
-PRBool
+bool
 aBlocking
 )
 {

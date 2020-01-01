@@ -689,7 +689,7 @@ NS_ERROR_NOT_AVAILABLE
 PRUint32
 busyFlags
 ;
-PRBool
+bool
 stillLoading
 ;
 nsCOMPtr

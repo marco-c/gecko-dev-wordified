@@ -5282,7 +5282,7 @@ InitDataFunc
 aInitFunc
 )
 {
-PRBool
+bool
 exists
 ;
 nsCOMPtr
@@ -5625,7 +5625,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -6336,7 +6336,7 @@ end
 }
 }
 static
-PRBool
+bool
 DoFindInReadable
 (
 const
@@ -7335,7 +7335,7 @@ static
 nsresult
 PrefSubmitReports
 (
-PRBool
+bool
 *
 aSubmitReports
 bool
@@ -8052,7 +8052,7 @@ ini
 )
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -8409,7 +8409,7 @@ endif
 nsresult
 GetSubmitReports
 (
-PRBool
+bool
 *
 aSubmitReports
 )
@@ -8425,7 +8425,7 @@ false
 nsresult
 SetSubmitReports
 (
-PRBool
+bool
 aSubmitReports
 )
 {

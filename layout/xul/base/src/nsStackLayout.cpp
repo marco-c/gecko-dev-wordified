@@ -1305,7 +1305,7 @@ if
 content
 )
 {
-PRBool
+bool
 ltr
 =
 aChild
@@ -1805,7 +1805,7 @@ GetClientRect
 clientRect
 )
 ;
-PRBool
+bool
 grow
 ;
 do
@@ -1893,7 +1893,7 @@ GetRect
 )
 )
 ;
-PRBool
+bool
 sizeChanged
 =
 !

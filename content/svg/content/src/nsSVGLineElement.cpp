@@ -568,7 +568,7 @@ nsIContent
 interface
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -585,13 +585,13 @@ nsSVGPathGeometryElement
 methods
 :
 virtual
-PRBool
+bool
 IsMarkable
 (
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 virtual
@@ -1324,7 +1324,7 @@ nsIContent
 methods
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGLineElement
 :

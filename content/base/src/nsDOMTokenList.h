@@ -496,7 +496,7 @@ nsAString
 aStr
 )
 ;
-PRBool
+bool
 ContainsInternal
 (
 const

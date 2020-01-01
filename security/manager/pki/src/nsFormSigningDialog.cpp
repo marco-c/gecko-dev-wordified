@@ -509,7 +509,7 @@ aSelectedIndex
 nsAString
 &
 aPassword
-PRBool
+bool
 *
 aCanceled
 )

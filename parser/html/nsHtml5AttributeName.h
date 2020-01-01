@@ -618,7 +618,7 @@ PRInt32
 mode
 )
 ;
-PRBool
+bool
 equalsAnother
 (
 nsHtml5AttributeName

@@ -636,7 +636,7 @@ manager
 .
 *
 /
-PRBool
+bool
 Init
 (
 )
@@ -766,7 +766,7 @@ AddListeners
 nsIDocument
 *
 aDocument
-PRBool
+bool
 aAddPageShowListener
 )
 ;
@@ -1027,7 +1027,7 @@ IsActive
 )
 {
 \
-PRBool
+bool
 isContent
 =
 nsCoreUtils
@@ -3130,7 +3130,7 @@ aStateFlags
 )
 ;
 \
-PRBool
+bool
 isDocLoading
 ;
 \

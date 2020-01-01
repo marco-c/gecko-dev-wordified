@@ -1636,7 +1636,7 @@ reporter
 "
 )
 ;
-PRBool
+bool
 enabled
 ;
 if
@@ -1808,7 +1808,7 @@ destructor
 are
 ok
 .
-PRBool
+bool
 KeyEquals
 (
 KeyTypePointer

@@ -597,7 +597,7 @@ static
 void
 Output
 (
-PRBool
+bool
 isError
 const
 char
@@ -742,7 +742,7 @@ name
 *
 /
 static
-PRBool
+bool
 IsArg
 (
 const

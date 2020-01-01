@@ -824,7 +824,7 @@ NS_STATE_NONDISPLAY_CHILD
 void
 UpdateGlyphPositioning
 (
-PRBool
+bool
 aForceGlobalTransform
 )
 ;
@@ -852,7 +852,7 @@ suspended
 UpdateState
 mMetricsState
 ;
-PRPackedBool
+bool
 mPositioningDirty
 ;
 }

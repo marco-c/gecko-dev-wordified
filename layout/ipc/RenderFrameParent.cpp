@@ -2471,7 +2471,7 @@ retained
 mode
 .
 static
-PRBool
+bool
 IsTempLayerManager
 (
 LayerManager

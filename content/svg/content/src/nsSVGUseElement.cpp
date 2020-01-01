@@ -2925,7 +2925,7 @@ mClone
 /
 implementation
 helpers
-PRBool
+bool
 nsSVGUseElement
 :
 :
@@ -3525,7 +3525,7 @@ DidChangeLength
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -3800,7 +3800,7 @@ nsIContent
 methods
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGUseElement
 :

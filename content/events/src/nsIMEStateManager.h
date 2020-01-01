@@ -515,7 +515,7 @@ static
 void
 OnInstalledMenuKeyboardListener
 (
-PRBool
+bool
 aInstalling
 )
 ;
@@ -830,11 +830,11 @@ nsPresContext
 sPresContext
 ;
 static
-PRBool
+bool
 sInstalledMenuKeyboardListener
 ;
 static
-PRBool
+bool
 sInSecureInputMode
 ;
 static

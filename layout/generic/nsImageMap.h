@@ -574,7 +574,7 @@ returned
 .
 *
 /
-PRBool
+bool
 IsInside
 (
 nscoord
@@ -680,10 +680,10 @@ SearchForAreas
 nsIContent
 *
 aParent
-PRBool
+bool
 &
 aFoundArea
-PRBool
+bool
 &
 aFoundAnchor
 )
@@ -736,7 +736,7 @@ always
 has
 some
 entries
-PRBool
+bool
 mContainsBlockContents
 ;
 }

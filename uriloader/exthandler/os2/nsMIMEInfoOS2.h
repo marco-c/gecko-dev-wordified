@@ -607,7 +607,7 @@ aFile
 NS_IMETHOD
 GetHasDefaultHandler
 (
-PRBool
+bool
 *
 _retval
 )

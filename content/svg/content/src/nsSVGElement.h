@@ -738,7 +738,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -751,7 +751,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 ;
@@ -769,7 +769,7 @@ aModType
 const
 ;
 virtual
-PRBool
+bool
 IsNodeOfType
 (
 PRUint32
@@ -876,7 +876,7 @@ const
 nsAString
 &
 aVersion
-PRBool
+bool
 *
 aReturn
 )
@@ -1109,7 +1109,7 @@ op
 *
 /
 }
-PRBool
+bool
 IsStringAnimatable
 (
 PRUint8
@@ -1129,7 +1129,7 @@ aAttrEnum
 mIsAnimatable
 ;
 }
-PRBool
+bool
 NumberAttrAllowsPercentage
 (
 PRUint8
@@ -1167,7 +1167,7 @@ DidChangeLength
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1177,7 +1177,7 @@ DidChangeNumber
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1187,7 +1187,7 @@ DidChangeNumberPair
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1197,7 +1197,7 @@ DidChangeInteger
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1207,7 +1207,7 @@ DidChangeIntegerPair
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1217,7 +1217,7 @@ DidChangeAngle
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1227,7 +1227,7 @@ DidChangeBoolean
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1237,7 +1237,7 @@ DidChangeEnum
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1245,7 +1245,7 @@ virtual
 void
 DidChangeViewBox
 (
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1253,7 +1253,7 @@ virtual
 void
 DidChangePreserveAspectRatio
 (
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1263,7 +1263,7 @@ DidChangeNumberList
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1273,7 +1273,7 @@ DidChangeLengthList
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1281,7 +1281,7 @@ virtual
 void
 DidChangePointList
 (
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1289,7 +1289,7 @@ virtual
 void
 DidChangePathSegList
 (
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1297,7 +1297,7 @@ virtual
 void
 DidChangeTransformList
 (
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1742,12 +1742,12 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 ;
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -1786,7 +1786,7 @@ Hooks
 for
 subclasses
 virtual
-PRBool
+bool
 IsEventName
 (
 nsIAtom
@@ -1939,7 +1939,7 @@ mName
 float
 mDefaultValue
 ;
-PRPackedBool
+bool
 mPercentagesAllowed
 ;
 }
@@ -2258,7 +2258,7 @@ nsIAtom
 *
 mName
 ;
-PRPackedBool
+bool
 mDefaultValue
 ;
 }
@@ -2548,7 +2548,7 @@ dy
 .
 *
 /
-PRPackedBool
+bool
 mCouldZeroPadList
 ;
 }
@@ -2613,7 +2613,7 @@ mName
 PRInt32
 mNamespaceID
 ;
-PRPackedBool
+bool
 mIsAnimatable
 ;
 }
@@ -2884,7 +2884,7 @@ mContentStyleRule
 nsAttrAndChildArray
 mMappedAttributes
 ;
-PRPackedBool
+bool
 mSuppressNotification
 ;
 }

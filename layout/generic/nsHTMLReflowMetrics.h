@@ -1299,7 +1299,7 @@ mMostNeg
 )
 {
 }
-PRBool
+bool
 operator
 =
 =
@@ -1327,7 +1327,7 @@ aOther
 mMostNeg
 ;
 }
-PRBool
+bool
 operator
 !
 =
@@ -1458,7 +1458,7 @@ mMostNeg
 0
 ;
 }
-PRBool
+bool
 IsZero
 (
 )

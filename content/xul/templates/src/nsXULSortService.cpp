@@ -2912,10 +2912,10 @@ direction
 =
 nsSortState_natural
 ;
-PRBool
+bool
 noNaturalState
 =
-PR_FALSE
+false
 ;
 nsWhitespaceTokenizer
 tokenizer

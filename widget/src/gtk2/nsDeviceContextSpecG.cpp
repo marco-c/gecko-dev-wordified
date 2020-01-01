@@ -948,7 +948,7 @@ InitializeGlobalPrinters
 (
 )
 ;
-PRBool
+bool
 PrintersAreAllocated
 (
 )
@@ -1080,7 +1080,7 @@ size
 void
 SetCanChangePaperSize
 (
-PRBool
+bool
 aCanSetPaperSize
 )
 ;
@@ -1104,7 +1104,7 @@ size
 void
 SetSupportsPaperSizeChange
 (
-PRBool
+bool
 aSupportsPaperSizeChange
 )
 ;
@@ -1142,7 +1142,7 @@ PRInt32
 aWidthMM
 PRInt32
 aHeightMM
-PRBool
+bool
 aIsInch
 )
 ;
@@ -1165,7 +1165,7 @@ orientation
 void
 SetCanChangeOrientation
 (
-PRBool
+bool
 aCanSetOrientation
 )
 ;
@@ -1189,7 +1189,7 @@ orientation
 void
 SetSupportsOrientationChange
 (
-PRBool
+bool
 aSupportsOrientationChange
 )
 ;
@@ -1243,7 +1243,7 @@ mode
 void
 SetCanChangePlex
 (
-PRBool
+bool
 aCanSetPlex
 )
 ;
@@ -1267,7 +1267,7 @@ mode
 void
 SetSupportsPlexChange
 (
-PRBool
+bool
 aSupportsPlexChange
 )
 ;
@@ -1321,7 +1321,7 @@ name
 void
 SetCanChangeResolutionName
 (
-PRBool
+bool
 aCanSetResolutionName
 )
 ;
@@ -1345,7 +1345,7 @@ name
 void
 SetSupportsResolutionNameChange
 (
-PRBool
+bool
 aSupportsResolutionChange
 )
 ;
@@ -1398,7 +1398,7 @@ colorspace
 void
 SetCanChangeColorspace
 (
-PRBool
+bool
 aCanSetColorspace
 )
 ;
@@ -1421,7 +1421,7 @@ colorspace
 void
 SetSupportsColorspaceChange
 (
-PRBool
+bool
 aSupportsColorspace
 )
 ;
@@ -1479,7 +1479,7 @@ mode
 void
 SetCanChangePrintInColor
 (
-PRBool
+bool
 aCanSetPrintInColor
 )
 ;
@@ -1506,7 +1506,7 @@ mode
 void
 SetSupportsPrintInColorChange
 (
-PRBool
+bool
 aSupportPrintInColorChange
 )
 ;
@@ -1534,7 +1534,7 @@ printer
 void
 SetCanChangeDownloadFonts
 (
-PRBool
+bool
 aCanSetDownloadFonts
 )
 ;
@@ -1562,7 +1562,7 @@ printer
 void
 SetSupportsDownloadFontsChange
 (
-PRBool
+bool
 aSupportDownloadFontsChange
 )
 ;
@@ -1585,7 +1585,7 @@ title
 void
 SetCanChangeJobTitle
 (
-PRBool
+bool
 aCanSetJobTitle
 )
 ;
@@ -1608,7 +1608,7 @@ title
 void
 SetSupportsJobTitleChange
 (
-PRBool
+bool
 aSupportJobTitleChange
 )
 ;
@@ -1631,7 +1631,7 @@ command
 void
 SetCanChangeSpoolerCommand
 (
-PRBool
+bool
 aCanSetSpoolerCommand
 )
 ;
@@ -1654,7 +1654,7 @@ command
 void
 SetSupportsSpoolerCommandChange
 (
-PRBool
+bool
 aSupportSpoolerCommandChange
 )
 ;
@@ -1680,7 +1680,7 @@ document
 void
 SetCanChangeNumCopies
 (
-PRBool
+bool
 aCanSetNumCopies
 )
 ;
@@ -1733,7 +1733,7 @@ progress
 void
 SetMultipleConcurrentDeviceContextsSupported
 (
-PRBool
+bool
 aCanUseMultipleInstances
 )
 ;
@@ -1753,7 +1753,7 @@ const
 char
 *
 tagname
-PRBool
+bool
 value
 )
 ;
@@ -1796,7 +1796,7 @@ const
 char
 *
 tagname
-PRBool
+bool
 value
 )
 {
@@ -1989,7 +1989,7 @@ nsPrinterFeatures
 :
 SetCanChangePaperSize
 (
-PRBool
+bool
 aCanSetPaperSize
 )
 {
@@ -2008,7 +2008,7 @@ nsPrinterFeatures
 :
 SetSupportsPaperSizeChange
 (
-PRBool
+bool
 aSupportsPaperSizeChange
 )
 {
@@ -2072,7 +2072,7 @@ PRInt32
 aWidthMM
 PRInt32
 aHeightMM
-PRBool
+bool
 aIsInch
 )
 {
@@ -2171,7 +2171,7 @@ nsPrinterFeatures
 :
 SetCanChangeOrientation
 (
-PRBool
+bool
 aCanSetOrientation
 )
 {
@@ -2190,7 +2190,7 @@ nsPrinterFeatures
 :
 SetSupportsOrientationChange
 (
-PRBool
+bool
 aSupportsOrientationChange
 )
 {
@@ -2267,7 +2267,7 @@ nsPrinterFeatures
 :
 SetCanChangePlex
 (
-PRBool
+bool
 aCanSetPlex
 )
 {
@@ -2286,7 +2286,7 @@ nsPrinterFeatures
 :
 SetSupportsPlexChange
 (
-PRBool
+bool
 aSupportsPlexChange
 )
 {
@@ -2363,7 +2363,7 @@ nsPrinterFeatures
 :
 SetCanChangeResolutionName
 (
-PRBool
+bool
 aCanSetResolutionName
 )
 {
@@ -2382,7 +2382,7 @@ nsPrinterFeatures
 :
 SetSupportsResolutionNameChange
 (
-PRBool
+bool
 aSupportsResolutionNameChange
 )
 {
@@ -2459,7 +2459,7 @@ nsPrinterFeatures
 :
 SetCanChangeColorspace
 (
-PRBool
+bool
 aCanSetColorspace
 )
 {
@@ -2478,7 +2478,7 @@ nsPrinterFeatures
 :
 SetSupportsColorspaceChange
 (
-PRBool
+bool
 aSupportsColorspaceChange
 )
 {
@@ -2555,7 +2555,7 @@ nsPrinterFeatures
 :
 SetCanChangeDownloadFonts
 (
-PRBool
+bool
 aCanSetDownloadFonts
 )
 {
@@ -2574,7 +2574,7 @@ nsPrinterFeatures
 :
 SetSupportsDownloadFontsChange
 (
-PRBool
+bool
 aSupportDownloadFontsChange
 )
 {
@@ -2593,7 +2593,7 @@ nsPrinterFeatures
 :
 SetCanChangePrintInColor
 (
-PRBool
+bool
 aCanSetPrintInColor
 )
 {
@@ -2612,7 +2612,7 @@ nsPrinterFeatures
 :
 SetSupportsPrintInColorChange
 (
-PRBool
+bool
 aSupportPrintInColorChange
 )
 {
@@ -2631,7 +2631,7 @@ nsPrinterFeatures
 :
 SetCanChangeSpoolerCommand
 (
-PRBool
+bool
 aCanSetSpoolerCommand
 )
 {
@@ -2650,7 +2650,7 @@ nsPrinterFeatures
 :
 SetSupportsSpoolerCommandChange
 (
-PRBool
+bool
 aSupportSpoolerCommandChange
 )
 {
@@ -2669,7 +2669,7 @@ nsPrinterFeatures
 :
 SetCanChangeJobTitle
 (
-PRBool
+bool
 aCanSetJobTitle
 )
 {
@@ -2688,7 +2688,7 @@ nsPrinterFeatures
 :
 SetSupportsJobTitleChange
 (
-PRBool
+bool
 aSupportsJobTitle
 )
 {
@@ -2707,7 +2707,7 @@ nsPrinterFeatures
 :
 SetCanChangeNumCopies
 (
-PRBool
+bool
 aCanSetNumCopies
 )
 {
@@ -2726,7 +2726,7 @@ nsPrinterFeatures
 :
 SetMultipleConcurrentDeviceContextsSupported
 (
-PRBool
+bool
 aCanUseMultipleInstances
 )
 {
@@ -3583,7 +3583,7 @@ aWidget
 nsIPrintSettings
 *
 aPS
-PRBool
+bool
 aIsPrintPreview
 )
 {
@@ -3654,7 +3654,7 @@ only
 set
 by
 embedders
-PRBool
+bool
 toFile
 ;
 aPS
@@ -6266,7 +6266,7 @@ SET_PRINTER_FEATURES_VIA_PREFS
 *
 /
 }
-PRBool
+bool
 hasSpoolerCmd
 =
 (
@@ -6881,7 +6881,7 @@ aDefaultPrinterName
 =
 nsnull
 ;
-PRBool
+bool
 allocate
 =
 !

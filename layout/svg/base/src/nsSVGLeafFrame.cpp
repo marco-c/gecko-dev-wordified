@@ -471,7 +471,7 @@ public
 :
 NS_DECL_FRAMEARENA_HELPERS
 virtual
-PRBool
+bool
 IsFrameOfType
 (
 PRUint32

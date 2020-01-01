@@ -530,7 +530,7 @@ end
 ;
 }
 }
-PRBool
+bool
 nsMediaFragmentURIParser
 :
 :
@@ -777,7 +777,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsMediaFragmentURIParser
 :
 :
@@ -842,7 +842,7 @@ a
 numeric
 character
 static
-PRBool
+bool
 IsDigit
 (
 nsDependentSubstring
@@ -937,7 +937,7 @@ return
 aStart
 ;
 }
-PRBool
+bool
 nsMediaFragmentURIParser
 :
 :
@@ -1078,7 +1078,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsMediaFragmentURIParser
 :
 :
@@ -1237,7 +1237,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsMediaFragmentURIParser
 :
 :
@@ -1350,7 +1350,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsMediaFragmentURIParser
 :
 :
@@ -1472,7 +1472,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsMediaFragmentURIParser
 :
 :
@@ -1576,7 +1576,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsMediaFragmentURIParser
 :
 :
@@ -1598,7 +1598,7 @@ aMinute
 )
 ;
 }
-PRBool
+bool
 nsMediaFragmentURIParser
 :
 :

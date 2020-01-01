@@ -652,7 +652,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIURLCLASSIFIERDBSERVICE
 NS_DECL_NSIURICLASSIFIER
 NS_DECL_NSIOBSERVER
-PRBool
+bool
 GetCompleter
 (
 const
@@ -714,9 +714,9 @@ uri
 nsIUrlClassifierCallback
 *
 c
-PRBool
+bool
 forceCheck
-PRBool
+bool
 *
 didCheck
 )
@@ -761,7 +761,7 @@ const
 nsACString
 &
 lookupKey
-PRBool
+bool
 *
 clean
 )
@@ -803,7 +803,7 @@ on
 document
 loads
 .
-PRBool
+bool
 mCheckMalware
 ;
 /
@@ -824,7 +824,7 @@ on
 document
 loads
 .
-PRBool
+bool
 mCheckPhishing
 ;
 /
@@ -873,7 +873,7 @@ being
 /
 processed
 .
-PRBool
+bool
 mInUpdate
 ;
 /

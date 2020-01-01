@@ -1172,7 +1172,7 @@ block
 width
 *
 /
-PRBool
+bool
 ComputeMargin
 (
 nscoord
@@ -1215,7 +1215,7 @@ block
 width
 *
 /
-PRBool
+bool
 ComputePadding
 (
 nscoord
@@ -2703,10 +2703,10 @@ aContainingBlockHeight
 =
 -
 1
-PRBool
+bool
 aInit
 =
-PR_TRUE
+true
 )
 ;
 /
@@ -3025,7 +3025,7 @@ aContentHeight
 )
 const
 ;
-PRBool
+bool
 ShouldReflowAllKids
 (
 )
@@ -3289,7 +3289,7 @@ aStatus
 )
 const
 ;
-PRBool
+bool
 WillReflowAgainForClearance
 (
 )

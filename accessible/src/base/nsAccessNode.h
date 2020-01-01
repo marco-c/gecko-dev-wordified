@@ -808,7 +808,7 @@ cache
 *
 /
 virtual
-PRBool
+bool
 Init
 (
 )
@@ -999,7 +999,7 @@ accessible
 .
 *
 /
-PRBool
+bool
 IsContent
 (
 )
@@ -1276,7 +1276,7 @@ static
 void
 NotifyA11yInitOrShutdown
 (
-PRBool
+bool
 aIsInit
 )
 ;
@@ -1299,7 +1299,7 @@ nsIStringBundle
 gStringBundle
 ;
 static
-PRBool
+bool
 gIsFormFillEnabled
 ;
 private

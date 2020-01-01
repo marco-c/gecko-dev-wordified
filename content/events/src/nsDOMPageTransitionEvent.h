@@ -491,7 +491,7 @@ class
 NS_FORWARD_TO_NSDOMEVENT
 protected
 :
-PRBool
+bool
 mPersisted
 ;
 }

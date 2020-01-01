@@ -877,7 +877,7 @@ mType
 PRUnichar
 mSymbol
 ;
-PRPackedBool
+bool
 mIntegerValid
 ;
 /
@@ -886,7 +886,7 @@ for
 number
 dimension
 urange
-PRPackedBool
+bool
 mHasSign
 ;
 /
@@ -900,7 +900,7 @@ nsCSSToken
 (
 )
 ;
-PRBool
+bool
 IsSymbol
 (
 PRUnichar
@@ -908,7 +908,7 @@ aSymbol
 )
 {
 return
-PRBool
+bool
 (
 (
 eCSSToken_Symbol
@@ -1081,7 +1081,7 @@ Close
 )
 ;
 static
-PRBool
+bool
 InitGlobals
 (
 )
@@ -1105,7 +1105,7 @@ SVG
 void
 SetSVGMode
 (
-PRBool
+bool
 aSVGMode
 )
 {
@@ -1123,7 +1123,7 @@ aSVGMode
 PR_FALSE
 "
 bad
-PRBool
+bool
 value
 "
 )
@@ -1133,7 +1133,7 @@ mSVGMode
 aSVGMode
 ;
 }
-PRBool
+bool
 IsSVGMode
 (
 )
@@ -1335,7 +1335,7 @@ for
 the
 token
 .
-PRBool
+bool
 Next
 (
 nsCSSToken
@@ -1357,7 +1357,7 @@ string
 or
 unquoted
 URL
-PRBool
+bool
 NextURL
 (
 nsCSSToken
@@ -1502,7 +1502,7 @@ aErrorCode
 ;
 protected
 :
-PRBool
+bool
 EnsureData
 (
 )
@@ -1517,14 +1517,14 @@ Peek
 (
 )
 ;
-PRBool
+bool
 LookAhead
 (
 PRUnichar
 aChar
 )
 ;
-PRBool
+bool
 LookAheadOrEOF
 (
 PRUnichar
@@ -1543,17 +1543,17 @@ EatWhiteSpace
 (
 )
 ;
-PRBool
+bool
 ParseAndAppendEscape
 (
 nsString
 &
 aOutput
-PRBool
+bool
 aInString
 )
 ;
-PRBool
+bool
 ParseIdent
 (
 PRInt32
@@ -1563,7 +1563,7 @@ nsCSSToken
 aResult
 )
 ;
-PRBool
+bool
 ParseAtKeyword
 (
 PRInt32
@@ -1573,7 +1573,7 @@ nsCSSToken
 aResult
 )
 ;
-PRBool
+bool
 ParseNumber
 (
 PRInt32
@@ -1583,7 +1583,7 @@ nsCSSToken
 aResult
 )
 ;
-PRBool
+bool
 ParseRef
 (
 PRInt32
@@ -1593,7 +1593,7 @@ nsCSSToken
 aResult
 )
 ;
-PRBool
+bool
 ParseString
 (
 PRInt32
@@ -1603,7 +1603,7 @@ nsCSSToken
 aResult
 )
 ;
-PRBool
+bool
 ParseURange
 (
 PRInt32
@@ -1613,12 +1613,12 @@ nsCSSToken
 aResult
 )
 ;
-PRBool
+bool
 SkipCComment
 (
 )
 ;
-PRBool
+bool
 GatherIdent
 (
 PRInt32
@@ -1698,7 +1698,7 @@ in
 normal
 "
 CSS
-PRPackedBool
+bool
 mSVGMode
 ;
 #
@@ -1740,7 +1740,7 @@ mErrorBuf
 PRUint64
 mInnerWindowID
 ;
-PRBool
+bool
 mWindowIDCached
 ;
 nsCSSStyleSheet

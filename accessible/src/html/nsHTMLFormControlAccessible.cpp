@@ -957,10 +957,10 @@ states
 :
 CHECKABLE
 ;
-PRBool
+bool
 checkState
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1362,10 +1362,10 @@ states
 :
 CHECKABLE
 ;
-PRBool
+bool
 checked
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3916,7 +3916,7 @@ ContextStack
 "
 )
 ;
-PRBool
+bool
 pushed
 =
 stack

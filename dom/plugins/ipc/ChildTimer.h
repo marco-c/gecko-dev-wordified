@@ -547,7 +547,7 @@ IDComparator
 {
 public
 :
-PRBool
+bool
 Equals
 (
 ChildTimer

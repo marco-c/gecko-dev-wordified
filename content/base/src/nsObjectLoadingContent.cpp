@@ -1531,7 +1531,7 @@ mPluginName
 nsString
 mPluginFilename
 ;
-PRBool
+bool
 mSubmittedCrashReport
 ;
 nsPluginCrashedEvent
@@ -1555,7 +1555,7 @@ const
 nsAString
 &
 aPluginFilename
-PRBool
+bool
 submittedCrashReport
 )
 :
@@ -2188,7 +2188,7 @@ AutoNotifier
 nsObjectLoadingContent
 *
 aContent
-PRBool
+bool
 aNotify
 )
 :
@@ -2331,7 +2331,7 @@ nsObjectLoadingContent
 *
 mContent
 ;
-PRBool
+bool
 mNotify
 ;
 nsObjectLoadingContent
@@ -2611,7 +2611,7 @@ mContent
 helper
 functions
 static
-PRBool
+bool
 IsSupportedImage
 (
 const
@@ -2641,7 +2641,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 supported
 ;
 nsresult
@@ -2672,7 +2672,7 @@ supported
 ;
 }
 static
-PRBool
+bool
 IsSupportedPlugin
 (
 const
@@ -2866,7 +2866,7 @@ parameter
 *
 /
 static
-PRBool
+bool
 IsPluginEnabledByExtension
 (
 nsIURI
@@ -5754,7 +5754,7 @@ if
 pDoc
 )
 {
-PRBool
+bool
 willHandleInstantiation
 ;
 pDoc
@@ -6307,13 +6307,13 @@ const
 nsAString
 &
 aURI
-PRBool
+bool
 aNotify
 const
 nsCString
 &
 aTypeHint
-PRBool
+bool
 aForceLoad
 )
 {
@@ -6590,13 +6590,13 @@ LoadObject
 nsIURI
 *
 aURI
-PRBool
+bool
 aNotify
 const
 nsCString
 &
 aTypeHint
-PRBool
+bool
 aForceLoad
 )
 {
@@ -6660,7 +6660,7 @@ aURI
 aForceLoad
 )
 {
-PRBool
+bool
 equal
 ;
 nsresult
@@ -7724,10 +7724,10 @@ instantiate
 the
 plugin
 .
-PRBool
+bool
 isSupportedClassID
 =
-PR_FALSE
+false
 ;
 nsCAutoString
 typeForID
@@ -7742,10 +7742,10 @@ isSupportedClassID
 =
 =
 PR_TRUE
-PRBool
+bool
 hasID
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -8730,7 +8730,7 @@ nsObjectLoadingContent
 :
 Fallback
 (
-PRBool
+bool
 aNotify
 )
 {
@@ -8911,7 +8911,7 @@ private
 static
 *
 /
-PRBool
+bool
 nsObjectLoadingContent
 :
 :
@@ -8983,7 +8983,7 @@ if
 httpChan
 )
 {
-PRBool
+bool
 success
 ;
 rv
@@ -9030,7 +9030,7 @@ PR_TRUE
 static
 *
 /
-PRBool
+bool
 nsObjectLoadingContent
 :
 :
@@ -9147,7 +9147,7 @@ extHandler
 nsnull
 ;
 }
-PRBool
+bool
 nsObjectLoadingContent
 :
 :
@@ -9350,10 +9350,10 @@ streamConverters
 "
 )
 ;
-PRBool
+bool
 canConvert
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -9486,9 +9486,9 @@ ObjectType
 aOldType
 nsEventStates
 aOldState
-PRBool
+bool
 aSync
-PRBool
+bool
 aNotify
 )
 {
@@ -9946,7 +9946,7 @@ return
 eType_Image
 ;
 }
-PRBool
+bool
 isSVG
 =
 aMIMEType
@@ -9962,7 +9962,7 @@ xml
 "
 )
 ;
-PRBool
+bool
 supportedSVG
 =
 isSVG
@@ -10988,7 +10988,7 @@ entering
 instantiation
 code
 .
-PRBool
+bool
 oldInstantiatingValue
 =
 mInstantiating
@@ -11448,10 +11448,10 @@ aContentType
 )
 ;
 }
-PRBool
+bool
 hasAlternateContent
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -11866,7 +11866,7 @@ const
 nsAString
 &
 browserDumpID
-PRBool
+bool
 submittedCrashReport
 )
 {

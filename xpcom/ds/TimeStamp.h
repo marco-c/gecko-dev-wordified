@@ -968,7 +968,7 @@ aOther
 mValue
 ;
 }
-PRBool
+bool
 operator
 <
 (
@@ -987,7 +987,7 @@ aOther
 mValue
 ;
 }
-PRBool
+bool
 operator
 <
 =
@@ -1008,7 +1008,7 @@ aOther
 mValue
 ;
 }
-PRBool
+bool
 operator
 >
 =
@@ -1029,7 +1029,7 @@ aOther
 mValue
 ;
 }
-PRBool
+bool
 operator
 >
 (
@@ -1593,7 +1593,7 @@ null
 moment
 *
 /
-PRBool
+bool
 IsNull
 (
 )
@@ -1959,7 +1959,7 @@ return
 this
 ;
 }
-PRBool
+bool
 operator
 <
 (
@@ -2016,7 +2016,7 @@ aOther
 mValue
 ;
 }
-PRBool
+bool
 operator
 <
 =
@@ -2075,7 +2075,7 @@ aOther
 mValue
 ;
 }
-PRBool
+bool
 operator
 >
 =
@@ -2134,7 +2134,7 @@ aOther
 mValue
 ;
 }
-PRBool
+bool
 operator
 >
 (
@@ -2191,7 +2191,7 @@ aOther
 mValue
 ;
 }
-PRBool
+bool
 operator
 =
 =
@@ -2265,7 +2265,7 @@ aOther
 mValue
 ;
 }
-PRBool
+bool
 operator
 !
 =

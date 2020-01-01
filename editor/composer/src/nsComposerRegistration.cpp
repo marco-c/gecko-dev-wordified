@@ -752,7 +752,7 @@ void
 *
 *
 aResult
-PRBool
+bool
 aIsForMail
 )
 {

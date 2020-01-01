@@ -693,10 +693,10 @@ from
 the
 socket
 .
-PRPackedBool
+bool
 mRequestIsPartial
 ;
-PRPackedBool
+bool
 mResponseIsPartial
 ;
 /
@@ -712,7 +712,7 @@ been
 explicitly
 closed
 .
-PRPackedBool
+bool
 mClosed
 ;
 /

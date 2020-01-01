@@ -515,10 +515,10 @@ sPremultiplyTable
 ]
 ;
 static
-PRBool
+bool
 sTablesInitialized
 =
-PR_FALSE
+false
 ;
 static
 const
@@ -1623,7 +1623,7 @@ endif
 }
 }
 static
-PRBool
+bool
 IsSafeImageTransformComponent
 (
 gfxFloat
@@ -2545,7 +2545,7 @@ Restore
 ;
 }
 }
-PRBool
+bool
 PushedGroup
 (
 )
@@ -2554,7 +2554,7 @@ return
 mPushedGroup
 ;
 }
-PRBool
+bool
 Succeeded
 (
 )
@@ -2569,10 +2569,10 @@ gfxContext
 *
 mContext
 ;
-PRPackedBool
+bool
 mSucceeded
 ;
-PRPackedBool
+bool
 mPushedGroup
 ;
 }
@@ -2711,7 +2711,7 @@ GraphicsFilter
 aFilter
 )
 {
-PRBool
+bool
 doTile
 =
 !
@@ -3097,7 +3097,7 @@ const
 nsIntRegion
 &
 aRegion
-PRBool
+bool
 aSnap
 )
 {
@@ -3175,7 +3175,7 @@ const
 nsIntRegion
 &
 aRegion
-PRBool
+bool
 aSnap
 )
 {
@@ -3475,7 +3475,7 @@ PR_TRUE
 )
 ;
 }
-PRBool
+bool
 gfxUtils
 :
 :
@@ -3646,7 +3646,7 @@ data
 when
 rendered
 .
-PRBool
+bool
 prescale
 =
 aSuggestedSize

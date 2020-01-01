@@ -2023,7 +2023,7 @@ using
 the
 members
 .
-PRBool
+bool
 canScript
 ;
 if

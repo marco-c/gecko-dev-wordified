@@ -886,7 +886,7 @@ const
 gfxFontStyle
 *
 aFontStyle
-PRBool
+bool
 aNeedsBold
 AntialiasOption
 anAAOption
@@ -1164,7 +1164,7 @@ return
 mMetrics
 ;
 }
-PRBool
+bool
 gfxDWriteFont
 :
 :
@@ -1187,7 +1187,7 @@ weight
 =
 700
 ;
-PRBool
+bool
 needsBold
 ;
 gfxFontEntry
@@ -2657,7 +2657,7 @@ substitutePpemY
 ;
 }
 ;
-PRBool
+bool
 gfxDWriteFont
 :
 :
@@ -2732,10 +2732,10 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 hasStrike
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3333,7 +3333,7 @@ return
 glyph
 ;
 }
-PRBool
+bool
 gfxDWriteFont
 :
 :
@@ -3404,7 +3404,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 gfxDWriteFont
 :
 :
@@ -4123,7 +4123,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 gfxDWriteFont
 :
 :

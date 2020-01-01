@@ -688,7 +688,7 @@ mBuffer
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 ByteBufferImpl
 :

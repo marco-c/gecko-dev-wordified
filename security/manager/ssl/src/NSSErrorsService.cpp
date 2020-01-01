@@ -720,7 +720,7 @@ IsNSSErrorCode
 (
 PRInt32
 aNSPRCode
-PRBool
+bool
 *
 _retval
 )

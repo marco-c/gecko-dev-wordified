@@ -800,7 +800,7 @@ operator
 =
 are
 fine
-PRBool
+bool
 operator
 =
 =
@@ -851,7 +851,7 @@ mScrollId
 )
 ;
 }
-PRBool
+bool
 operator
 !
 =
@@ -873,7 +873,7 @@ aOther
 )
 ;
 }
-PRBool
+bool
 IsDefault
 (
 )
@@ -891,7 +891,7 @@ this
 )
 ;
 }
-PRBool
+bool
 IsRootScrollable
 (
 )
@@ -904,7 +904,7 @@ mScrollId
 ROOT_SCROLL_ID
 ;
 }
-PRBool
+bool
 IsScrollable
 (
 )
@@ -1444,7 +1444,7 @@ anytime
 .
 *
 /
-PRBool
+bool
 Has
 (
 void
@@ -1861,7 +1861,7 @@ Clear
 )
 ;
 }
-PRBool
+bool
 IsDestroyed
 (
 )
@@ -2459,7 +2459,7 @@ END_DEFAULT
 =
 0
 ;
-PRBool
+bool
 IsSnappingEffectiveTransforms
 (
 )
@@ -3122,7 +3122,7 @@ anytime
 .
 *
 /
-PRBool
+bool
 HasUserData
 (
 void
@@ -3416,7 +3416,7 @@ return
 sLog
 ;
 }
-PRBool
+bool
 IsCompositingCheap
 (
 LayerManager
@@ -3434,13 +3434,13 @@ aBackend
 ;
 }
 virtual
-PRBool
+bool
 IsCompositingCheap
 (
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 protected
@@ -3454,10 +3454,10 @@ mRoot
 LayerUserDataSet
 mUserData
 ;
-PRPackedBool
+bool
 mDestroyed
 ;
-PRPackedBool
+bool
 mSnapEffectiveTransforms
 ;
 /
@@ -4596,7 +4596,7 @@ Mutated
 void
 SetIsFixedPosition
 (
-PRBool
+bool
 aFixedPosition
 )
 {
@@ -4851,7 +4851,7 @@ higher
 /
 quality
 .
-PRBool
+bool
 CanUseOpaqueSurface
 (
 )
@@ -5002,7 +5002,7 @@ anytime
 .
 *
 /
-PRBool
+bool
 HasUserData
 (
 void
@@ -6277,13 +6277,13 @@ mTileSourceRect
 PRUint32
 mContentFlags
 ;
-PRPackedBool
+bool
 mUseClipRect
 ;
-PRPackedBool
+bool
 mUseTileSourceRect
 ;
-PRPackedBool
+bool
 mIsFixedPosition
 ;
 }
@@ -7407,7 +7407,7 @@ GetEffectiveOpacity
 .
 *
 /
-PRBool
+bool
 UseIntermediateSurface
 (
 )
@@ -7481,7 +7481,7 @@ empty
 child
 *
 /
-PRBool
+bool
 HasMultipleChildren
 (
 )
@@ -7516,7 +7516,7 @@ layer
 .
 *
 /
-PRBool
+bool
 SupportsComponentAlphaChildren
 (
 )
@@ -7670,13 +7670,13 @@ mLastChild
 FrameMetrics
 mFrameMetrics
 ;
-PRPackedBool
+bool
 mUseIntermediateSurface
 ;
-PRPackedBool
+bool
 mSupportsComponentAlphaChildren
 ;
-PRPackedBool
+bool
 mMayHaveReadbackChild
 ;
 }
@@ -8123,7 +8123,7 @@ FALSE
 .
 *
 /
-PRPackedBool
+bool
 mGLBufferIsPremultiplied
 ;
 }
@@ -8549,7 +8549,7 @@ transaction
 .
 *
 /
-PRPackedBool
+bool
 mDirty
 ;
 }

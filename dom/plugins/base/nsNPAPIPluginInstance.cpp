@@ -851,7 +851,7 @@ if
 prefs
 )
 {
-PRBool
+bool
 useLayersPref
 ;
 nsresult
@@ -2510,7 +2510,7 @@ break
 }
 }
 }
-PRBool
+bool
 oldVal
 =
 mInPluginInitCall
@@ -2970,7 +2970,7 @@ this
 )
 )
 ;
-PRBool
+bool
 oldVal
 =
 mInPluginInitCall
@@ -4124,7 +4124,7 @@ nsNPAPIPluginInstance
 :
 SetWindowless
 (
-PRBool
+bool
 aWindowless
 )
 {
@@ -4259,7 +4259,7 @@ nsNPAPIPluginInstance
 :
 SetWindowlessLocal
 (
-PRBool
+bool
 aWindowlessLocal
 )
 {
@@ -4277,7 +4277,7 @@ nsNPAPIPluginInstance
 :
 SetTransparent
 (
-PRBool
+bool
 aTransparent
 )
 {
@@ -4295,7 +4295,7 @@ nsNPAPIPluginInstance
 :
 SetUsesDOMForCursor
 (
-PRBool
+bool
 aUsesDOMForCursor
 )
 {
@@ -4307,7 +4307,7 @@ return
 NPERR_NO_ERROR
 ;
 }
-PRBool
+bool
 nsNPAPIPluginInstance
 :
 :
@@ -4612,7 +4612,7 @@ CondVar
 *
 mCondVar
 ;
-PRBool
+bool
 mHaveSurface
 ;
 NPPluginFuncs
@@ -4728,7 +4728,7 @@ nsNPAPIPluginInstance
 :
 IsRemoteDrawingCoreAnimation
 (
-PRBool
+bool
 *
 aDrawing
 )
@@ -5126,7 +5126,7 @@ nsNPAPIPluginInstance
 :
 IsWindowless
 (
-PRBool
+bool
 *
 isWindowless
 )
@@ -5517,7 +5517,7 @@ nsNPAPIPluginInstance
 :
 UseAsyncPainting
 (
-PRBool
+bool
 *
 aIsAsync
 )
@@ -5719,7 +5719,7 @@ nsNPAPIPluginInstance
 :
 IsTransparent
 (
-PRBool
+bool
 *
 isTransparent
 )
@@ -5818,7 +5818,7 @@ nsNPAPIPluginInstance
 :
 PushPopupsEnabledState
 (
-PRBool
+bool
 aEnabled
 )
 {
@@ -6139,10 +6139,10 @@ if
 pbs
 )
 {
-PRBool
+bool
 pme
 =
-PR_FALSE
+false
 ;
 nsresult
 rv

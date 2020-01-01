@@ -648,7 +648,7 @@ log2
 (
 mSegmentSize
 )
-PRBool
+bool
 mWriteInProgress
 ;
 /

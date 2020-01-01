@@ -983,7 +983,7 @@ Returns
 PR_TRUE
 if
 successful
-PRBool
+bool
 nsICODecoder
 :
 :

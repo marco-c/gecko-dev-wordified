@@ -723,7 +723,7 @@ aData
 ;
 private
 :
-PRBool
+bool
 mInitialized
 ;
 GConfProxy

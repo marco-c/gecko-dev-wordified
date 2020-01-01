@@ -575,7 +575,7 @@ index
 )
 ;
 }
-PRBool
+bool
 txLiteralExpr
 :
 :

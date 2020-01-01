@@ -1289,7 +1289,7 @@ GetMethodAndPath
 nsIHttpAuthenticableChannel
 *
 authChannel
-PRBool
+bool
 isProxyAuth
 nsCString
 &
@@ -1329,7 +1329,7 @@ rv
 )
 )
 {
-PRBool
+bool
 proxyMethodIsConnect
 ;
 rv
@@ -1794,7 +1794,7 @@ const
 char
 *
 challenge
-PRBool
+bool
 isProxyAuth
 nsISupports
 *
@@ -1804,7 +1804,7 @@ nsISupports
 *
 *
 continuationState
-PRBool
+bool
 *
 result
 )
@@ -1815,7 +1815,7 @@ domain
 nonce
 opaque
 ;
-PRBool
+bool
 stale
 ;
 PRUint16
@@ -1937,7 +1937,7 @@ const
 char
 *
 challenge
-PRBool
+bool
 isProxyAuth
 const
 PRUnichar
@@ -1999,7 +1999,7 @@ aFlags
 =
 0
 ;
-PRBool
+bool
 isDigestAuth
 =
 !
@@ -2025,10 +2025,10 @@ implementation
 requires
 extra
 quotes
-PRBool
+bool
 requireExtraQuotes
 =
-PR_FALSE
+false
 ;
 {
 nsCAutoString
@@ -2107,7 +2107,7 @@ domain
 nonce
 opaque
 ;
-PRBool
+bool
 stale
 ;
 PRUint16
@@ -4115,7 +4115,7 @@ nonce
 nsACString
 &
 opaque
-PRBool
+bool
 *
 stale
 PRUint16
@@ -4307,10 +4307,10 @@ p
 return
 NS_ERROR_INVALID_ARG
 ;
-PRBool
+bool
 quoted
 =
-PR_FALSE
+false
 ;
 if
 (

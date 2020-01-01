@@ -940,7 +940,7 @@ nsParentalControlsServiceWin
 :
 GetParentalControlsEnabled
 (
-PRBool
+bool
 *
 aResult
 )
@@ -969,7 +969,7 @@ nsParentalControlsServiceWin
 :
 GetBlockFileDownloadsEnabled
 (
-PRBool
+bool
 *
 aResult
 )
@@ -1048,7 +1048,7 @@ nsParentalControlsServiceWin
 :
 GetLoggingEnabled
 (
-PRBool
+bool
 *
 aResult
 )
@@ -1143,7 +1143,7 @@ Log
 (
 PRInt16
 aEntryType
-PRBool
+bool
 blocked
 nsIURI
 *
@@ -1173,7 +1173,7 @@ we
 should
 be
 logging
-PRBool
+bool
 enabled
 ;
 GetLoggingEnabled
@@ -1301,7 +1301,7 @@ aTarget
 nsIInterfaceRequestor
 *
 aWindowContext
-PRBool
+bool
 *
 _retval
 )
@@ -1480,7 +1480,7 @@ aTargets
 nsIInterfaceRequestor
 *
 aWindowContext
-PRBool
+bool
 *
 _retval
 )
@@ -1999,7 +1999,7 @@ nsParentalControlsServiceWin
 :
 LogFileDownload
 (
-PRBool
+bool
 blocked
 nsIURI
 *

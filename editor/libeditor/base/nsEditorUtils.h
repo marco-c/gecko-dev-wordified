@@ -1195,7 +1195,7 @@ nsEditor
 *
 mEd
 ;
-PRBool
+bool
 mDoNothing
 ;
 }
@@ -1366,7 +1366,7 @@ nsEditor
 *
 mEd
 ;
-PRBool
+bool
 mOldState
 ;
 }
@@ -1720,7 +1720,7 @@ nsBoolDomIterFunctor
 public
 :
 virtual
-PRBool
+bool
 operator
 (
 )
@@ -1845,7 +1845,7 @@ nsBoolDomIterFunctor
 public
 :
 virtual
-PRBool
+bool
 operator
 (
 )
@@ -2131,7 +2131,7 @@ nsEditorUtils
 public
 :
 static
-PRBool
+bool
 IsDescendantOf
 (
 nsIDOMNode
@@ -2148,7 +2148,7 @@ aOffset
 )
 ;
 static
-PRBool
+bool
 IsLeafNode
 (
 nsIDOMNode
@@ -2176,7 +2176,7 @@ nsEditorHookUtils
 public
 :
 static
-PRBool
+bool
 DoInsertionHook
 (
 nsIDOMDocument

@@ -577,7 +577,7 @@ NS_ARRAY_LENGTH
 gSymName
 )
 ;
-PRBool
+bool
 nsCUPSShim
 :
 :

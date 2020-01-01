@@ -630,7 +630,7 @@ const
 nsAString
 &
 aAlertText
-PRBool
+bool
 aAlertTextClickable
 const
 nsAString

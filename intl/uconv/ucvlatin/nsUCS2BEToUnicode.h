@@ -753,7 +753,7 @@ kLittleEndian
 Endian
 mEndian
 ;
-PRBool
+bool
 mFoundBOM
 ;
 }

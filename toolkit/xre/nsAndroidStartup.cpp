@@ -588,7 +588,7 @@ attached
 PR_FALSE
 ;
 }
-PRBool
+bool
 attached
 ;
 }

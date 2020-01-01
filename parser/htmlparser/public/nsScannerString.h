@@ -861,7 +861,7 @@ DecrementUsageCount
 mUsageCount
 ;
 }
-PRBool
+bool
 IsInUse
 (
 )
@@ -1611,7 +1611,7 @@ AsString
 )
 const
 ;
-PRBool
+bool
 GetNextFragment
 (
 nsScannerFragment
@@ -1619,7 +1619,7 @@ nsScannerFragment
 )
 const
 ;
-PRBool
+bool
 GetPrevFragment
 (
 nsScannerFragment
@@ -1822,7 +1822,7 @@ AsString
 nsDependentSubstring
 mFlattenedRep
 ;
-PRBool
+bool
 mIsDirty
 ;
 friend
@@ -2646,7 +2646,7 @@ this
 }
 ;
 inline
-PRBool
+bool
 SameFragment
 (
 const
@@ -2879,7 +2879,7 @@ mFragmentEnd
 ;
 }
 inline
-PRBool
+bool
 operator
 =
 =
@@ -2910,7 +2910,7 @@ get
 ;
 }
 inline
-PRBool
+bool
 operator
 !
 =
@@ -3236,7 +3236,7 @@ nsScannerSharedSubstring
 aDest
 )
 ;
-PRBool
+bool
 FindCharInReadable
 (
 PRUnichar
@@ -3250,7 +3250,7 @@ nsScannerIterator
 aEnd
 )
 ;
-PRBool
+bool
 FindInReadable
 (
 const
@@ -3272,7 +3272,7 @@ nsDefaultStringComparator
 )
 )
 ;
-PRBool
+bool
 RFindInReadable
 (
 const
@@ -3295,7 +3295,7 @@ nsDefaultStringComparator
 )
 ;
 inline
-PRBool
+bool
 CaseInsensitiveFindInReadable
 (
 const

@@ -928,7 +928,7 @@ failure
 *
 /
 static
-PRBool
+bool
 GfxRectToIntRect
 (
 const

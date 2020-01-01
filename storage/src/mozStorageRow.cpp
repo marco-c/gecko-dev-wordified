@@ -1562,7 +1562,7 @@ GetIsNull
 (
 PRUint32
 aIndex
-PRBool
+bool
 *
 _isNull
 )

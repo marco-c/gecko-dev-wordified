@@ -741,7 +741,7 @@ NS_OK
 virtual
 *
 /
-PRBool
+bool
 nsScrollbarFrame
 :
 :
@@ -915,7 +915,7 @@ aEvent
 nsEventStatus
 *
 aEventStatus
-PRBool
+bool
 aControlHeld
 )
 {

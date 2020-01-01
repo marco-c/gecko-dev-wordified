@@ -748,7 +748,7 @@ mMaskParentMatrix
 recursion
 prevention
 flag
-PRPackedBool
+bool
 mInUse
 ;
 /

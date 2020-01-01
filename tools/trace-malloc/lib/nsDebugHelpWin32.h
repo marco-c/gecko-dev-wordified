@@ -1363,7 +1363,7 @@ PIMAGEHLP_LINE
 *
 /
 extern
-PRBool
+bool
 dhwEnsureImageHlpInitialized
 (
 )
@@ -1473,10 +1473,10 @@ char
 aFunctionName
 PROC
 aHook
-PRBool
+bool
 aExcludeOurModule
 =
-PR_FALSE
+false
 )
 ;
 ~
@@ -1493,12 +1493,12 @@ return
 mOriginal
 ;
 }
-PRBool
+bool
 PatchAllModules
 (
 )
 ;
-PRBool
+bool
 PatchOneModule
 (
 HMODULE
@@ -1510,7 +1510,7 @@ name
 )
 ;
 static
-PRBool
+bool
 ModuleLoaded
 (
 HMODULE
@@ -1645,7 +1645,7 @@ mHook
 HMODULE
 mIgnoreModule
 ;
-PRBool
+bool
 mHooking
 ;
 private
@@ -1860,7 +1860,7 @@ DHWAllocationSizeDebugHook
 public
 :
 virtual
-PRBool
+bool
 AllocHook
 (
 size_t
@@ -1870,7 +1870,7 @@ size
 0
 ;
 virtual
-PRBool
+bool
 ReallocHook
 (
 size_t
@@ -1882,7 +1882,7 @@ sizeOld
 0
 ;
 virtual
-PRBool
+bool
 FreeHook
 (
 size_t
@@ -1894,7 +1894,7 @@ size
 }
 ;
 extern
-PRBool
+bool
 dhwSetAllocationSizeDebugHook
 (
 DHWAllocationSizeDebugHook
@@ -1903,7 +1903,7 @@ hook
 )
 ;
 extern
-PRBool
+bool
 dhwClearAllocationSizeDebugHook
 (
 )

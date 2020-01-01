@@ -963,10 +963,10 @@ obj
 return
 JS_FALSE
 ;
-PRBool
+bool
 result
 =
-PR_FALSE
+false
 ;
 if
 (

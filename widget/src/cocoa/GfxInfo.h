@@ -500,7 +500,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetD2DEnabled
 (
-PRBool
+bool
 *
 aD2DEnabled
 )
@@ -509,7 +509,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetDWriteEnabled
 (
-PRBool
+bool
 *
 aDWriteEnabled
 )
@@ -518,7 +518,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetAzureEnabled
 (
-PRBool
+bool
 *
 aAzureEnabled
 )
@@ -671,7 +671,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetIsGPU2Active
 (
-PRBool
+bool
 *
 aIsGPU2Active
 )

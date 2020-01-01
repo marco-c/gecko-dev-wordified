@@ -555,7 +555,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetAnimated
 (
-PRBool
+bool
 *
 aAnimated
 )
@@ -564,7 +564,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetCurrentFrameIsOpaque
 (
-PRBool
+bool
 *
 aCurrentFrameIsOpaque
 )
@@ -874,7 +874,7 @@ viewport
 -
 bounds
 .
-PRPackedBool
+bool
 mIsInitialized
 :
 1
@@ -886,7 +886,7 @@ we
 been
 initalized
 ?
-PRPackedBool
+bool
 mIsFullyLoaded
 :
 1
@@ -898,7 +898,7 @@ OnStopRequest
 been
 called
 ?
-PRPackedBool
+bool
 mIsDrawing
 :
 1
@@ -910,7 +910,7 @@ we
 currently
 drawing
 ?
-PRPackedBool
+bool
 mHaveAnimations
 :
 1
@@ -934,7 +934,7 @@ after
 mIsFullyLoaded
 .
 )
-PRPackedBool
+bool
 mHaveRestrictedRegion
 :
 1

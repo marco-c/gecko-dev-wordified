@@ -517,7 +517,7 @@ down
 *
 /
 virtual
-PRBool
+bool
 IsDroppedDown
 (
 )
@@ -540,7 +540,7 @@ virtual
 void
 ShowDropDown
 (
-PRBool
+bool
 aDoDropDown
 )
 =

@@ -671,9 +671,9 @@ nsACString
 aHostname
 PRInt32
 aCookiesFromHost
-PRBool
+bool
 aChangingCookie
-PRBool
+bool
 *
 aRememberDecision
 PRInt32
@@ -1076,7 +1076,7 @@ to
 sanitize
 it
 into
-PRBool
+bool
 block
 -
 >

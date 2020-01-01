@@ -569,7 +569,7 @@ FileSystemDataSource
 /
 helper
 methods
-PRBool
+bool
 isFileURI
 (
 nsIRDFResource
@@ -577,7 +577,7 @@ nsIRDFResource
 aResource
 )
 ;
-PRBool
+bool
 isDirURI
 (
 nsIRDFResource
@@ -600,9 +600,9 @@ GetFolderList
 nsIRDFResource
 *
 source
-PRBool
+bool
 allowHidden
-PRBool
+bool
 onlyFirst
 nsISimpleEnumerator
 *
@@ -628,7 +628,7 @@ GetURL
 nsIRDFResource
 *
 source
-PRBool
+bool
 *
 isFavorite
 nsIRDFLiteral
@@ -782,7 +782,7 @@ endif
 #
 ifdef
 XP_WIN
-PRBool
+bool
 isValidFolder
 (
 nsIRDFResource

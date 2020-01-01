@@ -866,7 +866,7 @@ PrefCallback
 )
 ;
 }
-PRBool
+bool
 KeyEquals
 (
 const
@@ -1226,7 +1226,7 @@ weak
 reference
 died
 ?
-PRBool
+bool
 IsExpired
 (
 )
@@ -1314,7 +1314,7 @@ nsISupports
 *
 mCanonical
 ;
-PRBool
+bool
 IsWeak
 (
 )
@@ -1350,7 +1350,7 @@ const
 char
 *
 aPrefRoot
-PRBool
+bool
 aDefaultBranch
 )
 ;
@@ -1474,10 +1474,10 @@ mPrefRootLength
 nsCString
 mPrefRoot
 ;
-PRBool
+bool
 mIsDefault
 ;
-PRBool
+bool
 mFreeingObserverList
 ;
 nsClassHashtable

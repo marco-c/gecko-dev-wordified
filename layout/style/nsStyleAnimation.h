@@ -703,7 +703,7 @@ failure
 *
 /
 static
-PRBool
+bool
 Add
 (
 nsCSSProperty
@@ -862,7 +862,7 @@ failure
 *
 /
 static
-PRBool
+bool
 ComputeDistance
 (
 nsCSSProperty
@@ -1010,7 +1010,7 @@ failure
 *
 /
 static
-PRBool
+bool
 Interpolate
 (
 nsCSSProperty
@@ -1152,7 +1152,7 @@ positive
 *
 /
 static
-PRBool
+bool
 AddWeighted
 (
 nsCSSProperty
@@ -1397,7 +1397,7 @@ failure
 *
 /
 static
-PRBool
+bool
 ComputeValue
 (
 nsCSSProperty
@@ -1415,12 +1415,12 @@ const
 nsAString
 &
 aSpecifiedValue
-PRBool
+bool
 aUseSVGMode
 Value
 &
 aComputedValue
-PRBool
+bool
 *
 aIsContextSensitive
 =
@@ -1555,7 +1555,7 @@ failure
 *
 /
 static
-PRBool
+bool
 UncomputeValue
 (
 nsCSSProperty
@@ -1573,7 +1573,7 @@ aSpecifiedValue
 )
 ;
 static
-PRBool
+bool
 UncomputeValue
 (
 nsCSSProperty
@@ -1659,7 +1659,7 @@ failure
 *
 /
 static
-PRBool
+bool
 ExtractComputedValue
 (
 nsCSSProperty
@@ -1996,7 +1996,7 @@ GetUnit
 (
 )
 .
-PRBool
+bool
 IsNull
 (
 )
@@ -2654,7 +2654,7 @@ Value
 aOther
 )
 ;
-PRBool
+bool
 operator
 =
 =
@@ -2666,7 +2666,7 @@ aOther
 )
 const
 ;
-PRBool
+bool
 operator
 !
 =
@@ -2724,7 +2724,7 @@ Data
 ;
 }
 static
-PRBool
+bool
 IsIntUnit
 (
 Unit
@@ -2751,7 +2751,7 @@ eUnit_Integer
 ;
 }
 static
-PRBool
+bool
 IsCSSValueUnit
 (
 Unit
@@ -2766,7 +2766,7 @@ eUnit_Calc
 ;
 }
 static
-PRBool
+bool
 IsCSSValuePairUnit
 (
 Unit
@@ -2781,7 +2781,7 @@ eUnit_CSSValuePair
 ;
 }
 static
-PRBool
+bool
 IsCSSValueTripletUnit
 (
 Unit
@@ -2796,7 +2796,7 @@ eUnit_CSSValueTriplet
 ;
 }
 static
-PRBool
+bool
 IsCSSRectUnit
 (
 Unit
@@ -2811,7 +2811,7 @@ eUnit_CSSRect
 ;
 }
 static
-PRBool
+bool
 IsCSSValueListUnit
 (
 Unit
@@ -2838,7 +2838,7 @@ eUnit_Transform
 ;
 }
 static
-PRBool
+bool
 IsCSSValuePairListUnit
 (
 Unit
@@ -2853,7 +2853,7 @@ eUnit_CSSValuePairList
 ;
 }
 static
-PRBool
+bool
 IsStringUnit
 (
 Unit

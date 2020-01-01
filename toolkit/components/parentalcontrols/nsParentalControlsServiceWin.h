@@ -525,7 +525,7 @@ nsParentalControlsServiceWin
 ;
 private
 :
-PRBool
+bool
 mEnabled
 ;
 REGHANDLE
@@ -538,7 +538,7 @@ mPC
 void
 LogFileDownload
 (
-PRBool
+bool
 blocked
 nsIURI
 *

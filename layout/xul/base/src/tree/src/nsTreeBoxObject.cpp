@@ -1298,7 +1298,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 CanTrustView
 (
 nsISupports
@@ -1434,7 +1434,7 @@ nsTreeBoxObject
 :
 GetFocused
 (
-PRBool
+bool
 *
 aFocused
 )
@@ -1475,7 +1475,7 @@ nsTreeBoxObject
 :
 SetFocused
 (
-PRBool
+bool
 aFocused
 )
 {
@@ -2584,7 +2584,7 @@ aRow
 nsITreeColumn
 *
 aCol
-PRBool
+bool
 *
 aIsCropped
 )

@@ -1667,7 +1667,7 @@ if
 httpChannel
 )
 {
-PRBool
+bool
 succeeded
 ;
 nsresult
@@ -1786,7 +1786,7 @@ the
 next
 source
 .
-PRBool
+bool
 fontUpdate
 =
 userFontSet
@@ -2714,10 +2714,10 @@ rv
 rv
 )
 ;
-PRBool
+bool
 inherits
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -2862,7 +2862,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsUserFontSet
 :
 :
@@ -2877,10 +2877,10 @@ nsFontFaceRuleContainer
 aRules
 )
 {
-PRBool
+bool
 modified
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3149,7 +3149,7 @@ FontFaceRuleRecord
 >
 &
 aOldRules
-PRBool
+bool
 &
 aFontSetModified
 )

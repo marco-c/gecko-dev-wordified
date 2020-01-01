@@ -508,7 +508,7 @@ stringVal
 PRInt32
 intVal
 ;
-PRBool
+bool
 boolVal
 ;
 }
@@ -537,7 +537,7 @@ the
 mozilla
 default
 value
-PRBool
+bool
 isLocked
 ;
 /
@@ -1620,7 +1620,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 enabled
 =
 mEnabled
@@ -2485,10 +2485,10 @@ intValue
 =
 0
 ;
-PRBool
+bool
 boolValue
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -3222,7 +3222,7 @@ aPrefName
 MozPrefValue
 *
 aPrefValue
-PRBool
+bool
 *
 aLocked
 )
@@ -3751,7 +3751,7 @@ aPrefName
 MozPrefValue
 *
 aPrefValue
-PRBool
+bool
 aLocked
 )
 {

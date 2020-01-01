@@ -531,7 +531,7 @@ mozilla
 :
 dom
 ;
-PRBool
+bool
 nsXMLEventsListener
 :
 :
@@ -627,10 +627,10 @@ PR_FALSE
 nsAutoString
 handlerURIStr
 ;
-PRBool
+bool
 hasHandlerURI
 =
-PR_FALSE
+false
 ;
 nsIContent
 *
@@ -673,10 +673,10 @@ nsIURI
 >
 handlerURI
 ;
-PRBool
+bool
 equals
 =
-PR_FALSE
+false
 ;
 nsIURI
 *
@@ -803,7 +803,7 @@ target
 targetIdref
 )
 ;
-PRBool
+bool
 hasObserver
 =
 aContent
@@ -819,7 +819,7 @@ observer
 observerID
 )
 ;
-PRBool
+bool
 capture
 =
 aContent
@@ -839,7 +839,7 @@ capture
 eCaseMatters
 )
 ;
-PRBool
+bool
 stopPropagation
 =
 aContent
@@ -859,7 +859,7 @@ stop
 eCaseMatters
 )
 ;
-PRBool
+bool
 cancelDefault
 =
 aContent
@@ -1072,11 +1072,11 @@ const
 nsAString
 &
 aEvent
-PRBool
+bool
 aPhase
-PRBool
+bool
 aStopPropagation
-PRBool
+bool
 aCancelDefault
 const
 nsAString
@@ -1212,7 +1212,7 @@ mElement
 nsnull
 ;
 }
-PRBool
+bool
 nsXMLEventsListener
 :
 :
@@ -1230,7 +1230,7 @@ aTarget
 mObserver
 ;
 }
-PRBool
+bool
 nsXMLEventsListener
 :
 :
@@ -1272,10 +1272,10 @@ aEvent
 return
 NS_ERROR_INVALID_ARG
 ;
-PRBool
+bool
 targetMatched
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -1637,7 +1637,7 @@ aListener
 )
 ;
 }
-PRBool
+bool
 nsXMLEventsManager
 :
 :

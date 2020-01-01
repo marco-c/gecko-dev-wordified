@@ -584,7 +584,7 @@ RedoTransaction
 NS_IMETHOD
 GetIsTransient
 (
-PRBool
+bool
 *
 aIsTransient
 )
@@ -653,7 +653,7 @@ Do
 )
 *
 /
-PRPackedBool
+bool
 mIsTransient
 ;
 }

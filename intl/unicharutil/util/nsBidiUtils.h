@@ -1027,7 +1027,7 @@ HandleNumberInChar
 (
 PRUnichar
 aChar
-PRBool
+bool
 aPrevCharArabic
 PRUint32
 aNumFlag
@@ -1198,7 +1198,7 @@ PR_FALSE
 otherwise
 *
 /
-PRBool
+bool
 IsBidiControl
 (
 PRUint32
@@ -1228,7 +1228,7 @@ left
 characters
 *
 /
-PRBool
+bool
 HasRTLChars
 (
 const

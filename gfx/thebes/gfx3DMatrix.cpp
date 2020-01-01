@@ -1733,7 +1733,7 @@ return
 matrix
 ;
 }
-PRBool
+bool
 gfx3DMatrix
 :
 :
@@ -3673,7 +3673,7 @@ return
 temp
 ;
 }
-PRBool
+bool
 gfx3DMatrix
 :
 :
@@ -5288,7 +5288,7 @@ min_y
 )
 ;
 }
-PRBool
+bool
 gfx3DMatrix
 :
 :
@@ -5387,7 +5387,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 gfx3DMatrix
 :
 :
@@ -5463,7 +5463,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 gfx3DMatrix
 :
 :

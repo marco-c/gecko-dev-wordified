@@ -957,7 +957,7 @@ mStatus
 PRInt32
 mPriority
 ;
-PRBool
+bool
 mIsCanceling
 ;
 /

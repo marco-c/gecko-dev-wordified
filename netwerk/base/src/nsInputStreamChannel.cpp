@@ -523,7 +523,7 @@ nsInputStreamChannel
 :
 OpenContentStream
 (
-PRBool
+bool
 async
 nsIInputStream
 *

@@ -457,7 +457,7 @@ not
 use
 English
 characters
-PRBool
+bool
 nsCharSetProber
 :
 :
@@ -488,10 +488,10 @@ prevPtr
 *
 curPtr
 ;
-PRBool
+bool
 meetMSB
 =
-PR_FALSE
+false
 ;
 newptr
 =
@@ -751,7 +751,7 @@ upper
 ASCII
 characters
 .
-PRBool
+bool
 nsCharSetProber
 :
 :
@@ -791,10 +791,10 @@ prevPtr
 *
 curPtr
 ;
-PRBool
+bool
 isInTag
 =
-PR_FALSE
+false
 ;
 newptr
 =

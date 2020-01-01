@@ -631,7 +631,7 @@ nsAccEvent
 :
 GetIsFromUserInput
 (
-PRBool
+bool
 *
 aIsFromUserInput
 )
@@ -1046,7 +1046,7 @@ nsAccStateChangeEvent
 :
 IsExtraState
 (
-PRBool
+bool
 *
 aIsExtraState
 )
@@ -1117,7 +1117,7 @@ nsAccStateChangeEvent
 :
 IsEnabled
 (
-PRBool
+bool
 *
 aIsEnabled
 )
@@ -1409,7 +1409,7 @@ nsAccTextChangeEvent
 :
 IsInserted
 (
-PRBool
+bool
 *
 aIsInserted
 )

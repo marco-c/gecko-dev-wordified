@@ -589,7 +589,7 @@ of
 font
 functions
 virtual
-PRBool
+bool
 IsFontFormatSupported
 (
 nsIURI
@@ -661,7 +661,7 @@ aCallback
 void
 *
 aClosure
-PRBool
+bool
 &
 aAborted
 )

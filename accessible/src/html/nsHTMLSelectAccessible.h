@@ -770,7 +770,7 @@ aName
 NS_IMETHOD
 SetSelected
 (
-PRBool
+bool
 aSelect
 )
 ;

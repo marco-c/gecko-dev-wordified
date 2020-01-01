@@ -1016,7 +1016,7 @@ aRules
 nsRuleNode
 *
 aRulesIfVisited
-PRBool
+bool
 aRelevantLinkVisited
 )
 ;
@@ -1038,7 +1038,7 @@ text
 decoration
 lines
 ?
-PRBool
+bool
 HasTextDecorationLines
 (
 )
@@ -1104,7 +1104,7 @@ null
 for
 GetPseudo
 .
-PRBool
+bool
 HasPseudoElementData
 (
 )
@@ -1162,7 +1162,7 @@ link
 )
 visited
 ?
-PRBool
+bool
 RelevantLinkVisited
 (
 )
@@ -1189,7 +1189,7 @@ for
 a
 link
 ?
-PRBool
+bool
 IsLinkContext
 (
 )
@@ -1234,7 +1234,7 @@ style
 /
 context
 ?
-PRBool
+bool
 IsStyleIfVisited
 (
 )
@@ -2407,7 +2407,7 @@ CombineVisitedColors
 nscolor
 *
 aColors
-PRBool
+bool
 aLinkIsVisited
 )
 ;
@@ -2754,7 +2754,7 @@ DoGetStyle
 #
 name_
 (
-PRBool
+bool
 aComputeData
 )
 {
@@ -2852,7 +2852,7 @@ DoGetStyle
 #
 name_
 (
-PRBool
+bool
 aComputeData
 )
 {

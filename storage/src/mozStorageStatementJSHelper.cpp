@@ -761,10 +761,10 @@ Native
 )
 )
 ;
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -1482,7 +1482,7 @@ aId
 jsval
 *
 _result
-PRBool
+bool
 *
 _retval
 )
@@ -1640,7 +1640,7 @@ JSObject
 *
 *
 _objp
-PRBool
+bool
 *
 _retval
 )

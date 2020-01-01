@@ -1134,7 +1134,7 @@ aValue
 )
 const
 ;
-PRBool
+bool
 IsEmpty
 (
 )
@@ -1272,7 +1272,7 @@ is
 out
 of
 date
-PRBool
+bool
 operator
 =
 =
@@ -1365,7 +1365,7 @@ float
 0
 ;
 }
-PRBool
+bool
 SetCapacity
 (
 PRUint32
@@ -1436,7 +1436,7 @@ PR_FALSE
 .
 *
 /
-PRBool
+bool
 GetSegmentLengths
 (
 nsTArray
@@ -1465,7 +1465,7 @@ PR_FALSE
 .
 *
 /
-PRBool
+bool
 GetDistancesFromOriginToEndsOfVisibleSegments
 (
 nsTArray
@@ -1714,7 +1714,7 @@ unmodified
 .
 *
 /
-PRBool
+bool
 SetLength
 (
 PRUint32
@@ -1818,7 +1818,7 @@ aDataIndex
 /
 /
 *
-PRBool
+bool
 AppendItem
 (
 PRUint32
@@ -2062,7 +2062,7 @@ rhs
 )
 ;
 }
-PRBool
+bool
 IsIdentity
 (
 )

@@ -794,7 +794,7 @@ nsACString
 key
 nsCacheAccessMode
 accessRequested
-PRBool
+bool
 blockingMode
 nsICacheListener
 *
@@ -820,7 +820,7 @@ IsStorageEnabledForPolicy
 (
 nsCacheStoragePolicy
 storagePolicy
-PRBool
+bool
 *
 result
 )
@@ -962,7 +962,7 @@ entry
 )
 ;
 static
-PRBool
+bool
 IsStorageEnabledForPolicy_Locked
 (
 nsCacheStoragePolicy
@@ -1126,7 +1126,7 @@ static
 void
 OnProfileShutdown
 (
-PRBool
+bool
 cleanse
 )
 ;
@@ -1140,7 +1140,7 @@ static
 void
 SetDiskCacheEnabled
 (
-PRBool
+bool
 enabled
 )
 ;
@@ -1244,7 +1244,7 @@ static
 void
 SetOfflineCacheEnabled
 (
-PRBool
+bool
 enabled
 )
 ;
@@ -1374,7 +1374,7 @@ nsACString
 clientKey
 nsCacheAccessMode
 accessRequested
-PRBool
+bool
 blockingMode
 nsICacheListener
 *
@@ -1391,7 +1391,7 @@ DoomEntry_Internal
 nsCacheEntry
 *
 entry
-PRBool
+bool
 doProcessPendingRequests
 )
 ;
@@ -1492,7 +1492,7 @@ nsCString
 key
 nsCacheStoragePolicy
 policy
-PRBool
+bool
 *
 collision
 )
@@ -1511,7 +1511,7 @@ ProcessRequest
 nsCacheRequest
 *
 request
-PRBool
+bool
 calledFromOpenCacheEntry
 nsICacheEntryDescriptor
 *
@@ -1652,16 +1652,16 @@ nsISupports
 >
 mDoomedObjects
 ;
-PRBool
+bool
 mInitialized
 ;
-PRBool
+bool
 mEnableMemoryDevice
 ;
-PRBool
+bool
 mEnableDiskDevice
 ;
-PRBool
+bool
 mEnableOfflineDevice
 ;
 nsMemoryCacheDevice

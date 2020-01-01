@@ -463,7 +463,7 @@ h
 define
 MAX_RANGE_LENGTH
 25000
-PRBool
+bool
 gfxDWriteShaper
 :
 :
@@ -630,10 +630,10 @@ why
 .
 *
 /
-PRBool
+bool
 result
 =
-PR_TRUE
+true
 ;
 UINT32
 rangeOffset

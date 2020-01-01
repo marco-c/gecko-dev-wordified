@@ -755,11 +755,11 @@ mDllInstance
 OS
 flag
 static
-PRBool
+bool
 mIsWinXP
 ;
 static
-PRBool
+bool
 InitVersionInfo
 (
 )
@@ -970,10 +970,10 @@ mMouseTrailerWindow
 HWND
 mCaptureWindow
 ;
-PRBool
+bool
 mIsInCaptureMode
 ;
-PRBool
+bool
 mEnabled
 ;
 nsCOMPtr

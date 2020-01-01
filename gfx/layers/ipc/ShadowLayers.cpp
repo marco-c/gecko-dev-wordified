@@ -764,7 +764,7 @@ mOpen
 PR_FALSE
 ;
 }
-PRBool
+bool
 Empty
 (
 )
@@ -792,7 +792,7 @@ empty
 )
 ;
 }
-PRBool
+bool
 Finished
 (
 )
@@ -822,7 +822,7 @@ mMutants
 ;
 private
 :
-PRBool
+bool
 mOpen
 ;
 /
@@ -1514,7 +1514,7 @@ aNeedYFlip
 )
 ;
 }
-PRBool
+bool
 ShadowLayerForwarder
 :
 :
@@ -2408,7 +2408,7 @@ TYPE_BASIC
 #
 endif
 }
-PRBool
+bool
 ShadowLayerForwarder
 :
 :
@@ -2475,7 +2475,7 @@ GetShmem
 )
 ;
 }
-PRBool
+bool
 ShadowLayerForwarder
 :
 :
@@ -2573,7 +2573,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 ShadowLayerForwarder
 :
 :
@@ -2596,10 +2596,10 @@ SurfaceDescriptor
 aBackBuffer
 )
 {
-PRBool
+bool
 tryPlatformSurface
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -2692,7 +2692,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 ShadowLayerForwarder
 :
 :
@@ -2712,10 +2712,10 @@ SurfaceDescriptor
 aBuffer
 )
 {
-PRBool
+bool
 tryPlatformSurface
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -3137,7 +3137,7 @@ defined
 (
 MOZ_HAVE_PLATFORM_SPECIFIC_LAYER_BUFFERS
 )
-PRBool
+bool
 ShadowLayerForwarder
 :
 :
@@ -3160,7 +3160,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 ShadowLayerForwarder
 :
 :
@@ -3204,7 +3204,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 ShadowLayerForwarder
 :
 :
@@ -3232,7 +3232,7 @@ PlatformSyncBeforeUpdate
 )
 {
 }
-PRBool
+bool
 ShadowLayerManager
 :
 :
@@ -3269,7 +3269,7 @@ defined
 (
 MOZ_HAVE_PLATFORM_SPECIFIC_LAYER_BUFFERS
 )
-PRBool
+bool
 IsSurfaceDescriptorValid
 (
 const

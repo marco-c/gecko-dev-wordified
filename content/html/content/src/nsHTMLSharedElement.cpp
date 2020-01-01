@@ -625,7 +625,7 @@ NS_DECL_NSIDOMHTMLHTMLELEMENT
 /
 nsIContent
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -654,7 +654,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -685,7 +685,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -698,7 +698,7 @@ aNameSpaceID
 nsIAtom
 *
 aName
-PRBool
+bool
 aNotify
 )
 ;
@@ -715,7 +715,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -723,14 +723,14 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
 =
-PR_TRUE
-PRBool
+true
+bool
 aNullParent
 =
-PR_TRUE
+true
 )
 ;
 virtual
@@ -742,7 +742,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -1282,7 +1282,7 @@ aValue
 )
 ;
 }
-PRBool
+bool
 nsHTMLSharedElement
 :
 :
@@ -1513,7 +1513,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLSharedElement
 :
@@ -1961,7 +1961,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -2133,7 +2133,7 @@ aNameSpaceID
 nsIAtom
 *
 aName
-PRBool
+bool
 aNotify
 )
 {
@@ -2294,7 +2294,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -2408,9 +2408,9 @@ nsHTMLSharedElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {

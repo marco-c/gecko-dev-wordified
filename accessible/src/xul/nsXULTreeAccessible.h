@@ -1165,7 +1165,7 @@ aHeight
 NS_IMETHOD
 SetSelected
 (
-PRBool
+bool
 aSelect
 )
 ;
@@ -1444,7 +1444,7 @@ subrows
 .
 *
 /
-PRBool
+bool
 IsExpandable
 (
 )
@@ -1571,7 +1571,7 @@ IsDefunct
 const
 ;
 virtual
-PRBool
+bool
 Init
 (
 )

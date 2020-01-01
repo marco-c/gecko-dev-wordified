@@ -516,7 +516,7 @@ nsSVGViewBoxRect
 methods
 *
 /
-PRBool
+bool
 nsSVGViewBoxRect
 :
 :
@@ -858,7 +858,7 @@ aHeight
 nsSVGElement
 *
 aSVGElement
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -1164,7 +1164,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -1692,7 +1692,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )

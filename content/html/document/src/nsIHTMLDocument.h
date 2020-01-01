@@ -746,7 +746,7 @@ GetNumFormsSynchronous
 0
 ;
 virtual
-PRBool
+bool
 IsWriting
 (
 )
@@ -754,7 +754,7 @@ IsWriting
 0
 ;
 virtual
-PRBool
+bool
 GetIsFrameset
 (
 )
@@ -765,7 +765,7 @@ virtual
 void
 SetIsFrameset
 (
-PRBool
+bool
 aFrameset
 )
 =
@@ -949,7 +949,7 @@ editable
 .
 *
 /
-PRBool
+bool
 IsEditingOn
 (
 )
@@ -1099,7 +1099,7 @@ virtual
 void
 SetIsXHTML
 (
-PRBool
+bool
 aXHTML
 )
 =
@@ -1109,7 +1109,7 @@ virtual
 void
 SetDocWriteDisabled
 (
-PRBool
+bool
 aDisabled
 )
 =

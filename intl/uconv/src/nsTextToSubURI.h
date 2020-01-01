@@ -640,7 +640,7 @@ const
 nsAFlatCString
 &
 aURI
-PRBool
+bool
 aIRI
 nsAString
 &

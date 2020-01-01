@@ -628,7 +628,7 @@ has
 not
 yet
 started
-PRBool
+bool
 IsWindowAvailable
 (
 )
@@ -646,7 +646,7 @@ virtual
 nsresult
 ShowActive
 (
-PRBool
+bool
 active
 )
 =
@@ -738,7 +738,7 @@ call
 its
 methods
 .
-PRBool
+bool
 CanMakeTaskbarCalls
 (
 )
@@ -774,7 +774,7 @@ EnableCustomDrawing
 (
 HWND
 aHWND
-PRBool
+bool
 aEnable
 )
 ;
@@ -824,7 +824,7 @@ this
 preview
 is
 visible
-PRBool
+bool
 mVisible
 ;
 private
@@ -880,7 +880,7 @@ PRUint32
 width
 PRUint32
 height
-PRBool
+bool
 isPreview
 )
 ;
@@ -892,7 +892,7 @@ for
 hooking
 mWnd
 static
-PRBool
+bool
 MainWindowHook
 (
 void

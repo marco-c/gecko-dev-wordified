@@ -824,7 +824,7 @@ bool
 RecvSetOffline
 (
 const
-PRBool
+bool
 &
 offline
 )

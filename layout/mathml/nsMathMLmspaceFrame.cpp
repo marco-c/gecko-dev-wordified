@@ -529,7 +529,7 @@ nsMathMLmspaceFrame
 )
 {
 }
-PRBool
+bool
 nsMathMLmspaceFrame
 :
 :

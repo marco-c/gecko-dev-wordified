@@ -566,10 +566,10 @@ NS_OK
 nsresult
 rv
 ;
-PRBool
+bool
 allowed
 =
-PR_TRUE
+true
 ;
 switch
 (

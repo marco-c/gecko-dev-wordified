@@ -681,7 +681,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 ;
@@ -784,7 +784,7 @@ GetType
 const
 ;
 virtual
-PRBool
+bool
 IsContainingBlock
 (
 )
@@ -937,7 +937,7 @@ nsGkAtoms
 fieldSetFrame
 ;
 }
-PRBool
+bool
 nsFieldSetFrame
 :
 :
@@ -2344,7 +2344,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 {
@@ -2501,10 +2501,10 @@ Reflow
 -
 -
 -
-PRBool
+bool
 reflowContent
 ;
-PRBool
+bool
 reflowLegend
 ;
 if

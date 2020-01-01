@@ -915,7 +915,7 @@ const
 nsACString
 &
 aCharset2
-PRBool
+bool
 *
 oResult
 )

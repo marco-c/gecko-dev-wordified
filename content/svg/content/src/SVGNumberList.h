@@ -594,7 +594,7 @@ aValue
 )
 const
 ;
-PRBool
+bool
 IsEmpty
 (
 )
@@ -641,7 +641,7 @@ aIndex
 ]
 ;
 }
-PRBool
+bool
 operator
 =
 =
@@ -662,7 +662,7 @@ rhs
 mNumbers
 ;
 }
-PRBool
+bool
 SetCapacity
 (
 PRUint32
@@ -866,7 +866,7 @@ unmodified
 .
 *
 /
-PRBool
+bool
 SetLength
 (
 PRUint32
@@ -945,7 +945,7 @@ Clear
 )
 ;
 }
-PRBool
+bool
 InsertItem
 (
 PRUint32
@@ -1063,7 +1063,7 @@ aIndex
 )
 ;
 }
-PRBool
+bool
 AppendItem
 (
 float
@@ -1456,7 +1456,7 @@ aIndex
 )
 ;
 }
-PRBool
+bool
 SetLength
 (
 PRUint32

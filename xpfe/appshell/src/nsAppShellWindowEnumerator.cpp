@@ -946,7 +946,7 @@ to
 the
 given
 type
-PRBool
+bool
 nsWindowInfo
 :
 :
@@ -1156,9 +1156,9 @@ nsWindowInfo
 :
 Unlink
 (
-PRBool
+bool
 inAge
-PRBool
+bool
 inZ
 )
 {
@@ -1229,9 +1229,9 @@ nsWindowInfo
 :
 ReferenceSelf
 (
-PRBool
+bool
 inAge
-PRBool
+bool
 inZ
 )
 {
@@ -1405,7 +1405,7 @@ nsAppShellWindowEnumerator
 :
 HasMoreElements
 (
-PRBool
+bool
 *
 retval
 )
@@ -1719,7 +1719,7 @@ info
 *
 listEnd
 ;
-PRBool
+bool
 allWindows
 =
 mType
@@ -1855,7 +1855,7 @@ info
 *
 listEnd
 ;
-PRBool
+bool
 allWindows
 =
 mType
@@ -2083,7 +2083,7 @@ info
 *
 listEnd
 ;
-PRBool
+bool
 allWindows
 =
 mType
@@ -2219,7 +2219,7 @@ info
 *
 listEnd
 ;
-PRBool
+bool
 allWindows
 =
 mType
@@ -2364,7 +2364,7 @@ info
 *
 listEnd
 ;
-PRBool
+bool
 allWindows
 =
 mType
@@ -2520,7 +2520,7 @@ info
 *
 listEnd
 ;
-PRBool
+bool
 allWindows
 =
 mType

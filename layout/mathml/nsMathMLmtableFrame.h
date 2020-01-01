@@ -567,7 +567,7 @@ aModType
 )
 ;
 virtual
-PRBool
+bool
 IsFrameOfType
 (
 PRUint32
@@ -841,7 +841,7 @@ rv
 ;
 }
 virtual
-PRBool
+bool
 IsFrameOfType
 (
 PRUint32
@@ -1099,7 +1099,7 @@ rv
 ;
 }
 virtual
-PRBool
+bool
 IsFrameOfType
 (
 PRUint32
@@ -1288,7 +1288,7 @@ GetColSpan
 )
 ;
 virtual
-PRBool
+bool
 IsFrameOfType
 (
 PRUint32
@@ -1435,7 +1435,7 @@ aStatus
 )
 ;
 virtual
-PRBool
+bool
 IsFrameOfType
 (
 PRUint32

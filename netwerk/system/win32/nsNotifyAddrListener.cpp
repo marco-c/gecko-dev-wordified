@@ -979,7 +979,7 @@ nsNotifyAddrListener
 :
 GetIsLinkUp
 (
-PRBool
+bool
 *
 aIsUp
 )
@@ -1018,7 +1018,7 @@ nsNotifyAddrListener
 :
 GetLinkStatusKnown
 (
-PRBool
+bool
 *
 aIsUp
 )
@@ -1116,10 +1116,10 @@ overlapped
 0
 }
 ;
-PRBool
+bool
 shuttingDown
 =
-PR_FALSE
+false
 ;
 InitIPHelperLibrary
 (
@@ -1974,10 +1974,10 @@ ret
 ERROR_SUCCESS
 )
 {
-PRBool
+bool
 linkUp
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -2267,10 +2267,10 @@ ret
 ERROR_SUCCESS
 )
 {
-PRBool
+bool
 linkUp
 =
-PR_FALSE
+false
 ;
 PIP_ADAPTER_INFO
 ptr
@@ -2492,7 +2492,7 @@ PSOCKADDR_IN
 )
 aAddress
 ;
-PRBool
+bool
 isGateway
 =
 (

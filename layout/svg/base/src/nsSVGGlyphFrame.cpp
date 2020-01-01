@@ -581,7 +581,7 @@ pos
 gfxFloat
 angle
 ;
-PRBool
+bool
 draw
 ;
 }
@@ -926,7 +926,7 @@ CharacterIterator
 nsSVGGlyphFrame
 *
 aSource
-PRBool
+bool
 aForceGlobalTransform
 )
 ;
@@ -1051,7 +1051,7 @@ glyphs
 .
 *
 /
-PRBool
+bool
 SetupForDirectTextRunDrawing
 (
 gfxContext
@@ -1145,7 +1145,7 @@ glyphs
 .
 *
 /
-PRBool
+bool
 SetupForDirectTextRunMetrics
 (
 gfxContext
@@ -1352,7 +1352,7 @@ drawable
 .
 *
 /
-PRBool
+bool
 AdvanceToCharacter
 (
 PRUint32
@@ -1633,7 +1633,7 @@ PRUint32
 }
 private
 :
-PRBool
+bool
 SetupForDirectTextRun
 (
 gfxContext
@@ -1690,7 +1690,7 @@ mDrawScale
 float
 mMetricsScale
 ;
-PRPackedBool
+bool
 mInError
 ;
 }
@@ -2064,7 +2064,7 @@ nsSVGGlyphFrame
 :
 SetSelected
 (
-PRBool
+bool
 aSelected
 SelectionType
 aType
@@ -2122,7 +2122,7 @@ whether
 style
 allows
 selection
-PRBool
+bool
 selectable
 ;
 IsSelectable
@@ -2173,7 +2173,7 @@ nsSVGGlyphFrame
 :
 GetSelected
 (
-PRBool
+bool
 *
 aSelected
 )
@@ -2238,7 +2238,7 @@ nsSVGGlyphFrame
 :
 IsSelectable
 (
-PRBool
+bool
 *
 aIsSelectable
 PRUint8
@@ -3194,10 +3194,10 @@ y
 )
 )
 ;
-PRBool
+bool
 isHit
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3385,7 +3385,7 @@ Multiply
 matrix
 )
 ;
-PRBool
+bool
 hasStroke
 =
 HasStroke
@@ -4566,7 +4566,7 @@ GetCanvasTM
 nsSVGGlyphFrame
 methods
 :
-PRBool
+bool
 nsSVGGlyphFrame
 :
 :
@@ -4666,7 +4666,7 @@ IsEmpty
 )
 ;
 }
-PRBool
+bool
 nsSVGGlyphFrame
 :
 :
@@ -6318,7 +6318,7 @@ nchars
 =
 0
 ;
-PRBool
+bool
 hasHighlight
 =
 (
@@ -6802,7 +6802,7 @@ SetGlyphPosition
 gfxPoint
 *
 aPosition
-PRBool
+bool
 aForceGlobalTransform
 )
 {
@@ -7703,7 +7703,7 @@ nsSVGGlyphFrame
 :
 GetAdvance
 (
-PRBool
+bool
 aForceGlobalTransform
 )
 {
@@ -7842,7 +7842,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 nsSVGGlyphFrame
 :
 :
@@ -8421,7 +8421,7 @@ GetStyleSVG
 mTextAnchor
 ;
 }
-PRBool
+bool
 nsSVGGlyphFrame
 :
 :
@@ -8429,10 +8429,10 @@ IsAbsolutelyPositioned
 (
 )
 {
-PRBool
+bool
 hasTextPathAncestor
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -9344,7 +9344,7 @@ GetNextGlyphFrame
 nsnull
 ;
 }
-PRBool
+bool
 nsSVGGlyphFrame
 :
 :
@@ -9401,7 +9401,7 @@ GetLength
 )
 ;
 }
-PRBool
+bool
 nsSVGGlyphFrame
 :
 :
@@ -9598,7 +9598,7 @@ NotifyGlyphMetricsChange
 )
 ;
 }
-PRBool
+bool
 nsSVGGlyphFrame
 :
 :
@@ -9714,7 +9714,7 @@ mTextRun
 nsnull
 ;
 }
-PRBool
+bool
 nsSVGGlyphFrame
 :
 :
@@ -9726,7 +9726,7 @@ aDrawScale
 float
 *
 aMetricsScale
-PRBool
+bool
 aForceGlobalTransform
 )
 {
@@ -10131,7 +10131,7 @@ t
 /
 /
 inherit
-PRBool
+bool
 bidiOverride
 =
 (
@@ -10363,7 +10363,7 @@ fontData
 >
 mFont
 ;
-PRBool
+bool
 printerFont
 =
 (
@@ -10798,7 +10798,7 @@ CharacterIterator
 nsSVGGlyphFrame
 *
 aSource
-PRBool
+bool
 aForceGlobalTransform
 )
 :
@@ -10857,7 +10857,7 @@ PR_TRUE
 ;
 }
 }
-PRBool
+bool
 CharacterIterator
 :
 :
@@ -10943,7 +10943,7 @@ InvalidCluster
 )
 )
 {
-PRBool
+bool
 pastEnd
 =
 (
@@ -11165,7 +11165,7 @@ i
 mCurrentChar
 ;
 }
-PRBool
+bool
 CharacterIterator
 :
 :

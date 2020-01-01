@@ -1197,11 +1197,11 @@ const
 char
 *
 filename
-PRBool
+bool
 bGlobalContext
-PRBool
+bool
 bCallbacks
-PRBool
+bool
 skipFirstLine
 )
 {

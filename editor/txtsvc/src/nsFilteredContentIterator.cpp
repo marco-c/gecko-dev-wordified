@@ -1242,7 +1242,7 @@ nsFilteredContentIterator
 :
 SwitchDirections
 (
-PRPackedBool
+bool
 aChangeToForward
 )
 {
@@ -1490,7 +1490,7 @@ currentNode
 )
 )
 ;
-PRPackedBool
+bool
 didCross
 ;
 CheckAdvNode
@@ -1672,7 +1672,7 @@ currentNode
 )
 )
 ;
-PRPackedBool
+bool
 didCross
 ;
 CheckAdvNode
@@ -1955,13 +1955,13 @@ mode
 /
 /
 static
-PRBool
+bool
 ContentIsInTraversalRange
 (
 nsIContent
 *
 aContent
-PRBool
+bool
 aIsPreMode
 nsIDOMNode
 *
@@ -2091,7 +2091,7 @@ endRes
 ;
 }
 static
-PRBool
+bool
 ContentIsInTraversalRange
 (
 nsIDOMNSRange
@@ -2100,7 +2100,7 @@ aRange
 nsIDOMNode
 *
 aNextNode
-PRBool
+bool
 aIsPreMode
 )
 {
@@ -2367,7 +2367,7 @@ is
 in
 our
 DOMRange
-PRBool
+bool
 intersects
 =
 ContentIsInTraversalRange
@@ -2462,7 +2462,7 @@ DOMRange
 before
 going
 further
-PRBool
+bool
 intersects
 =
 ContentIsInTraversalRange
@@ -2634,7 +2634,7 @@ CheckAdvNode
 nsIDOMNode
 *
 aNode
-PRPackedBool
+bool
 &
 aDidSkip
 eDirectionType
@@ -2665,7 +2665,7 @@ currentNode
 =
 aNode
 ;
-PRBool
+bool
 skipIt
 ;
 while
@@ -3144,7 +3144,7 @@ GetCurrentNode
 )
 ;
 }
-PRBool
+bool
 nsFilteredContentIterator
 :
 :

@@ -1186,7 +1186,7 @@ aMinChange
 RestyleTracker
 &
 aRestyleTracker
-PRBool
+bool
 aRestyleDescendants
 )
 ;

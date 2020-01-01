@@ -3579,7 +3579,7 @@ Welch
 decoding
 *
 /
-PRBool
+bool
 nsGIFDecoder2
 :
 :

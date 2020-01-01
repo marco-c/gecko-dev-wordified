@@ -842,7 +842,7 @@ not
 .
 *
 /
-PRBool
+bool
 Initialize
 (
 )
@@ -1231,7 +1231,7 @@ methods
 void
 SetClippingEnabled
 (
-PRBool
+bool
 aEnabled
 )
 ;

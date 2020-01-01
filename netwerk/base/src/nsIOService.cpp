@@ -813,7 +813,7 @@ gIOService
 nsnull
 ;
 static
-PRBool
+bool
 gHasWarnedUploadChannel2
 ;
 /
@@ -2692,10 +2692,10 @@ rv
 return
 rv
 ;
-PRBool
+bool
 externalProtocol
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -4185,7 +4185,7 @@ result
 )
 ;
 }
-PRBool
+bool
 nsIOService
 :
 :
@@ -4213,7 +4213,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 isLinkUp
 ;
 nsresult
@@ -4252,7 +4252,7 @@ nsIOService
 :
 GetOffline
 (
-PRBool
+bool
 *
 offline
 )
@@ -4272,7 +4272,7 @@ nsIOService
 :
 SetOffline
 (
-PRBool
+bool
 offline
 )
 {
@@ -4833,7 +4833,7 @@ const
 char
 *
 scheme
-PRBool
+bool
 *
 _retval
 )
@@ -5199,10 +5199,10 @@ AUTODIAL_PREF
 0
 )
 {
-PRBool
+bool
 enableAutodial
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -5269,7 +5269,7 @@ MANAGE_OFFLINE_STATUS_PREF
 0
 )
 {
-PRBool
+bool
 manage
 ;
 if
@@ -5495,7 +5495,7 @@ const
 char
 *
 pref
-PRBool
+bool
 remove
 )
 {
@@ -6008,7 +6008,7 @@ aTypeHeader
 nsACString
 &
 aCharset
-PRBool
+bool
 *
 aHadCharset
 nsACString
@@ -6039,7 +6039,7 @@ nsIURI
 uri
 PRUint32
 flags
-PRBool
+bool
 *
 result
 )
@@ -6126,7 +6126,7 @@ nsIURI
 uri
 PRUint32
 flags
-PRBool
+bool
 *
 result
 )
@@ -6396,11 +6396,11 @@ nsIOService
 :
 SetManageOfflineStatus
 (
-PRBool
+bool
 aManage
 )
 {
-PRBool
+bool
 wasManaged
 =
 mManageOfflineStatus
@@ -6432,7 +6432,7 @@ nsIOService
 :
 GetManageOfflineStatus
 (
-PRBool
+bool
 *
 aManage
 )
@@ -6507,10 +6507,10 @@ if
 mSocketTransportService
 )
 {
-PRBool
+bool
 autodialEnabled
 =
-PR_FALSE
+false
 ;
 mSocketTransportService
 -
@@ -6649,7 +6649,7 @@ PR_FALSE
 endif
 }
 }
-PRBool
+bool
 isUp
 ;
 nsresult
@@ -6847,7 +6847,7 @@ aCharsetStart
 PRInt32
 *
 aCharsetEnd
-PRBool
+bool
 *
 aHadCharset
 )

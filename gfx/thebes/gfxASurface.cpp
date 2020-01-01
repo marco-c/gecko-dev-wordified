@@ -1354,7 +1354,7 @@ Init
 cairo_surface_t
 *
 surface
-PRBool
+bool
 existingSurface
 )
 {
@@ -1889,7 +1889,7 @@ mSurface
 static
 *
 /
-PRBool
+bool
 gfxASurface
 :
 :
@@ -2367,7 +2367,7 @@ gfxASurface
 :
 SetSubpixelAntialiasingEnabled
 (
-PRBool
+bool
 aEnabled
 )
 {
@@ -2394,7 +2394,7 @@ CAIRO_SUBPIXEL_ANTIALIASING_DISABLED
 #
 endif
 }
-PRBool
+bool
 gfxASurface
 :
 :

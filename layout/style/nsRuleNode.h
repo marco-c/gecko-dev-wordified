@@ -1016,7 +1016,7 @@ nsResetStyleData
 mResetData
 ;
 static
-PRBool
+bool
 IsReset
 (
 const
@@ -2130,7 +2130,7 @@ mRule
 PRUint8
 mLevel
 ;
-PRPackedBool
+bool
 mIsImportantRule
 ;
 Key
@@ -2140,7 +2140,7 @@ nsIStyleRule
 aRule
 PRUint8
 aLevel
-PRPackedBool
+bool
 aIsImportantRule
 )
 :
@@ -2158,7 +2158,7 @@ aIsImportantRule
 )
 {
 }
-PRBool
+bool
 operator
 =
 =
@@ -2195,7 +2195,7 @@ aOther
 mIsImportantRule
 ;
 }
-PRBool
+bool
 operator
 !
 =
@@ -2234,7 +2234,7 @@ aKey
 )
 ;
 static
-PRBool
+bool
 ChildrenHashMatchEntry
 (
 PLDHashTable
@@ -2414,7 +2414,7 @@ kMaxChildrenInList
 32
 }
 ;
-PRBool
+bool
 HaveChildren
 (
 )
@@ -2429,7 +2429,7 @@ asVoid
 nsnull
 ;
 }
-PRBool
+bool
 ChildrenAreHashed
 (
 )
@@ -3135,7 +3135,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3160,7 +3160,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3185,7 +3185,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3210,7 +3210,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3235,7 +3235,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3260,7 +3260,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3285,7 +3285,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3310,7 +3310,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3335,7 +3335,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3360,7 +3360,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3385,7 +3385,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3410,7 +3410,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3435,7 +3435,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3460,7 +3460,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3485,7 +3485,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3510,7 +3510,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3535,7 +3535,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3560,7 +3560,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3585,7 +3585,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3610,7 +3610,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3635,7 +3635,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3660,7 +3660,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3685,7 +3685,7 @@ aHighestNode
 RuleDetail
 aRuleDetail
 const
-PRBool
+bool
 aCanStoreInRuleTree
 )
 ;
@@ -3738,11 +3738,11 @@ nscoord
 aParentSize
 nscoord
 aScriptLevelAdjustedParentSize
-PRBool
+bool
 aUsedStartStruct
-PRBool
+bool
 aAtRoot
-PRBool
+bool
 &
 aCanStoreInRuleTree
 )
@@ -3772,9 +3772,9 @@ aParentFont
 nsStyleFont
 *
 aFont
-PRBool
+bool
 aStartStruct
-PRBool
+bool
 &
 aCanStoreInRuleTree
 )
@@ -3831,7 +3831,7 @@ aSide
 nsCSSRect
 &
 aValueRect
-PRBool
+bool
 &
 aCanStoreInRuleTree
 )
@@ -3904,9 +3904,9 @@ aList
 nsStyleContext
 *
 aContext
-PRBool
+bool
 aIsBoxShadow
-PRBool
+bool
 &
 inherited
 )
@@ -3926,7 +3926,7 @@ nsIStyleRule
 aRule
 PRUint8
 aLevel
-PRBool
+bool
 aIsImportant
 )
 ;
@@ -3976,7 +3976,7 @@ nsIStyleRule
 aRule
 PRUint8
 aLevel
-PRPackedBool
+bool
 aIsImportantRule
 )
 ;
@@ -3991,7 +3991,7 @@ return
 mParent
 ;
 }
-PRBool
+bool
 IsRoot
 (
 )
@@ -4049,7 +4049,7 @@ NS_RULE_NODE_LEVEL_MASK
 NS_RULE_NODE_LEVEL_SHIFT
 ;
 }
-PRBool
+bool
 IsImportantRule
 (
 )
@@ -4134,7 +4134,7 @@ aSID
 nsStyleContext
 *
 aContext
-PRBool
+bool
 aComputeData
 )
 ;
@@ -4162,7 +4162,7 @@ nsStyleContext
 *
 aContext
 \
-PRBool
+bool
 aComputeData
 )
 ;
@@ -4234,13 +4234,13 @@ Mark
 (
 )
 ;
-PRBool
+bool
 Sweep
 (
 )
 ;
 static
-PRBool
+bool
 HasAuthorSpecifiedRules
 (
 nsStyleContext
@@ -4248,7 +4248,7 @@ nsStyleContext
 aStyleContext
 PRUint32
 ruleTypeMask
-PRBool
+bool
 aAuthorColorsAllowed
 )
 ;
@@ -4299,7 +4299,7 @@ aStyleContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 )
@@ -4347,7 +4347,7 @@ aStyleContext
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 &
 aCanStoreInRuleTree
 )
@@ -4483,7 +4483,7 @@ all
 style
 data
 .
-PRBool
+bool
 TreeHasCachedData
 (
 )
@@ -4523,7 +4523,7 @@ mStyleData
 mResetData
 ;
 }
-PRBool
+bool
 NodeHasCachedData
 (
 const

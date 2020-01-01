@@ -614,13 +614,13 @@ wchar_t
 *
 gMozillaJumpListIDGeneric
 ;
-PRPackedBool
+bool
 JumpListBuilder
 :
 :
 sBuildingList
 =
-PR_FALSE
+false
 ;
 const
 char
@@ -805,7 +805,7 @@ JumpListBuilder
 :
 GetIsListCommitted
 (
-PRBool
+bool
 *
 aCommit
 )
@@ -939,7 +939,7 @@ InitListBuild
 nsIMutableArray
 *
 removedItems
-PRBool
+bool
 *
 _retval
 )
@@ -1496,10 +1496,10 @@ files
 found
 do
 {
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1610,7 +1610,7 @@ cached
 ICO
 file
 exists
-PRBool
+bool
 exists
 ;
 if
@@ -1705,7 +1705,7 @@ const
 nsAString
 &
 catName
-PRBool
+bool
 *
 _retval
 )
@@ -2455,7 +2455,7 @@ JumpListBuilder
 :
 CommitListBuild
 (
-PRBool
+bool
 *
 _retval
 )
@@ -2536,7 +2536,7 @@ JumpListBuilder
 :
 DeleteActiveList
 (
-PRBool
+bool
 *
 _retval
 )
@@ -2610,7 +2610,7 @@ NS_OK
 internal
 *
 /
-PRBool
+bool
 JumpListBuilder
 :
 :
@@ -2964,7 +2964,7 @@ kPrefTaskbarEnabled
 )
 )
 {
-PRBool
+bool
 enabled
 =
 Preferences
@@ -3899,7 +3899,7 @@ cached
 ICO
 file
 exists
-PRBool
+bool
 exists
 ;
 rv
@@ -3962,7 +3962,7 @@ cached
 ICO
 file
 exists
-PRBool
+bool
 exists
 ;
 if
@@ -4136,10 +4136,10 @@ files
 found
 do
 {
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4250,7 +4250,7 @@ cached
 ICO
 file
 exists
-PRBool
+bool
 exists
 ;
 if

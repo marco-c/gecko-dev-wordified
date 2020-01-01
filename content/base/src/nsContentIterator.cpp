@@ -598,7 +598,7 @@ children
 /
 static
 inline
-PRBool
+bool
 NodeHasChildren
 (
 nsINode
@@ -858,13 +858,13 @@ mode
 /
 /
 static
-PRBool
+bool
 NodeIsInTraversalRange
 (
 nsINode
 *
 aNode
-PRBool
+bool
 aIsPreMode
 nsINode
 *
@@ -1063,7 +1063,7 @@ nsContentIterator
 explicit
 nsContentIterator
 (
-PRBool
+bool
 aPre
 )
 ;
@@ -1167,7 +1167,7 @@ GetCurrentNode
 )
 ;
 virtual
-PRBool
+bool
 IsDone
 (
 )
@@ -1740,10 +1740,10 @@ the
 subtree
 iterator
 .
-PRBool
+bool
 mIsDone
 ;
-PRBool
+bool
 mPre
 ;
 private
@@ -2238,7 +2238,7 @@ nsContentIterator
 :
 nsContentIterator
 (
-PRBool
+bool
 aPre
 )
 :
@@ -2614,7 +2614,7 @@ endNode
 NS_ERROR_FAILURE
 )
 ;
-PRBool
+bool
 startIsData
 =
 startNode
@@ -3148,7 +3148,7 @@ node
 in
 range
 .
-PRBool
+bool
 endIsData
 =
 endNode
@@ -6135,7 +6135,7 @@ mIndexes
 )
 ;
 }
-PRBool
+bool
 nsContentIterator
 :
 :
@@ -8516,7 +8516,7 @@ contain
 any
 node
 .
-PRBool
+bool
 nodeBefore
 nodeAfter
 ;
@@ -9727,7 +9727,7 @@ itself
 in
 the
 range
-PRBool
+bool
 nodeBefore
 nodeAfter
 ;

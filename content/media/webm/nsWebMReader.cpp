@@ -801,10 +801,10 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 eof
 =
-PR_FALSE
+false
 ;
 char
 *
@@ -2355,9 +2355,9 @@ char
 aData
 size_t
 aLength
-PRBool
+bool
 aBOS
-PRBool
+bool
 aEOS
 PRInt64
 aGranulepos
@@ -2408,7 +2408,7 @@ return
 packet
 ;
 }
-PRBool
+bool
 nsWebMReader
 :
 :
@@ -3204,7 +3204,7 @@ of
 /
 packets
 .
-PRPackedBool
+bool
 hasType
 =
 aTrackType
@@ -3235,7 +3235,7 @@ type
 of
 track
 .
-PRPackedBool
+bool
 hasOtherType
 =
 aTrackType
@@ -3503,7 +3503,7 @@ out
 )
 ;
 }
-PRBool
+bool
 nsWebMReader
 :
 :
@@ -3571,13 +3571,13 @@ mOffset
 )
 ;
 }
-PRBool
+bool
 nsWebMReader
 :
 :
 DecodeVideoFrame
 (
-PRBool
+bool
 &
 aKeyframeSkip
 PRInt64

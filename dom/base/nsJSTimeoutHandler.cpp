@@ -719,7 +719,7 @@ Init
 nsGlobalWindow
 *
 aWindow
-PRBool
+bool
 *
 aIsInterval
 PRInt32
@@ -1221,7 +1221,7 @@ Init
 nsGlobalWindow
 *
 aWindow
-PRBool
+bool
 *
 aIsInterval
 PRInt32
@@ -1729,7 +1729,7 @@ if
 csp
 )
 {
-PRBool
+bool
 allowsEval
 ;
 /
@@ -2282,7 +2282,7 @@ NS_CreateJSTimeoutHandler
 nsGlobalWindow
 *
 aWindow
-PRBool
+bool
 *
 aIsInterval
 PRInt32

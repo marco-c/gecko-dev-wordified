@@ -654,10 +654,10 @@ nsIMultiplexInputStream
 >
 mStream
 ;
-PRPackedBool
+bool
 mAddContentLength
 ;
-PRPackedBool
+bool
 mStartedReading
 ;
 }
@@ -872,7 +872,7 @@ nsMIMEInputStream
 :
 GetAddContentLength
 (
-PRBool
+bool
 *
 aAddContentLength
 )
@@ -892,7 +892,7 @@ nsMIMEInputStream
 :
 SetAddContentLength
 (
-PRBool
+bool
 aAddContentLength
 )
 {
@@ -1612,7 +1612,7 @@ nsMIMEInputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 aNonBlocking
 )
@@ -1803,7 +1803,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsMIMEInputStream
 :
 :

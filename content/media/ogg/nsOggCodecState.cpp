@@ -729,7 +729,7 @@ nsOggCodecState
 ogg_page
 *
 aBosPage
-PRBool
+bool
 aActive
 )
 :
@@ -900,7 +900,7 @@ Clear
 )
 ;
 }
-PRBool
+bool
 nsOggCodecState
 :
 :
@@ -1314,7 +1314,7 @@ nsOggCodecState
 :
 PacketOutUntilGranulepos
 (
-PRBool
+bool
 &
 aFoundGranulepos
 )
@@ -1590,7 +1590,7 @@ mInfo
 )
 ;
 }
-PRBool
+bool
 nsTheoraState
 :
 :
@@ -1752,7 +1752,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsTheoraState
 :
 :
@@ -1962,7 +1962,7 @@ Theora
 containment
 scheme
 .
-PRBool
+bool
 isSetupHeader
 =
 aPacket
@@ -2105,7 +2105,7 @@ granulepos
 )
 ;
 }
-PRBool
+bool
 nsTheoraState
 :
 :
@@ -2676,7 +2676,7 @@ aPage
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 foundGp
 ;
 nsresult
@@ -3296,7 +3296,7 @@ mUnstamped
 i
 ]
 ;
-PRBool
+bool
 isKeyframe
 =
 th_packet_iskeyframe
@@ -3880,7 +3880,7 @@ mComment
 )
 ;
 }
-PRBool
+bool
 nsVorbisState
 :
 :
@@ -4101,7 +4101,7 @@ html
 x1
 -
 580004
-PRBool
+bool
 isSetupHeader
 =
 aPacket
@@ -4216,7 +4216,7 @@ return
 mDoneReadingHeaders
 ;
 }
-PRBool
+bool
 nsVorbisState
 :
 :
@@ -4413,7 +4413,7 @@ aInfo
 rate
 ;
 }
-PRBool
+bool
 nsVorbisState
 :
 :
@@ -4600,7 +4600,7 @@ aPage
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 foundGp
 ;
 nsresult
@@ -5166,7 +5166,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 unknownGranulepos
 =
 last
@@ -5948,7 +5948,7 @@ INDEX_KEYPOINT_OFFSET
 42
 ;
 static
-PRBool
+bool
 IsSkeletonBOS
 (
 ogg_packet
@@ -5990,7 +5990,7 @@ fishead
 ;
 }
 static
-PRBool
+bool
 IsSkeletonIndex
 (
 ogg_packet
@@ -6325,7 +6325,7 @@ return
 p
 ;
 }
-PRBool
+bool
 nsSkeletonState
 :
 :
@@ -7652,7 +7652,7 @@ NS_OK
 NS_ERROR_FAILURE
 ;
 }
-PRBool
+bool
 nsSkeletonState
 :
 :
@@ -7885,7 +7885,7 @@ to
 index
 map
 .
-PRBool
+bool
 init
 =
 mIndex

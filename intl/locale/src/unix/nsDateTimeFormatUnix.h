@@ -670,7 +670,7 @@ mPlatformLocale
 /
 for
 setlocale
-PRBool
+bool
 mLocalePreferred24hour
 ;
 /
@@ -685,7 +685,7 @@ preferred
 by
 current
 locale
-PRBool
+bool
 mLocaleAMPMfirst
 ;
 /

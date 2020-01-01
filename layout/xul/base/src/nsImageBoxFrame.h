@@ -914,7 +914,7 @@ mListener
 PRInt32
 mLoadFlags
 ;
-PRPackedBool
+bool
 mUseSrcAttr
 ;
 /
@@ -932,7 +932,7 @@ from
 an
 attribute
 .
-PRPackedBool
+bool
 mSuppressStyleCheck
 ;
 }

@@ -514,10 +514,10 @@ nsIStreamListener
 *
 *
 aDocListener
-PRBool
+bool
 aReset
 =
-PR_TRUE
+true
 nsIContentSink
 *
 aSink
@@ -593,7 +593,7 @@ nsIStreamListener
 *
 *
 aDocListener
-PRBool
+bool
 aReset
 nsIContentSink
 *

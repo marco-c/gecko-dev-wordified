@@ -2119,7 +2119,7 @@ gfxIntSize
 )
 ;
 }
-PRBool
+bool
 ImageContainerOGL
 :
 :
@@ -5291,7 +5291,7 @@ ShadowImageLayerOGL
 )
 {
 }
-PRBool
+bool
 ShadowImageLayerOGL
 :
 :

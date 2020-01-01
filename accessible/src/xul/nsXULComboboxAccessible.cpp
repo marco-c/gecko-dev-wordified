@@ -823,7 +823,7 @@ if
 menuList
 )
 {
-PRBool
+bool
 isOpen
 ;
 menuList
@@ -1054,7 +1054,7 @@ aDescription
 ;
 }
 }
-PRBool
+bool
 nsXULComboboxAccessible
 :
 :
@@ -1257,7 +1257,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRBool
+bool
 isDroppedDown
 ;
 menuList
@@ -1391,7 +1391,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRBool
+bool
 isDroppedDown
 ;
 menuList
@@ -1661,10 +1661,10 @@ if
 autoCompleteInputElm
 )
 {
-PRBool
+bool
 isOpen
 =
-PR_FALSE
+false
 ;
 autoCompleteInputElm
 -
@@ -1699,10 +1699,10 @@ if
 menuListElm
 )
 {
-PRBool
+bool
 isOpen
 =
-PR_FALSE
+false
 ;
 menuListElm
 -

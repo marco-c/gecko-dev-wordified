@@ -2387,10 +2387,10 @@ Are
 we
 selected
 ?
-PRBool
+bool
 isSelected
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2780,10 +2780,10 @@ setSize
 =
 0
 ;
-PRBool
+bool
 isContentFound
 =
-PR_FALSE
+false
 ;
 PRUint32
 childCount
@@ -3074,7 +3074,7 @@ nsHTMLSelectOptionAccessible
 :
 SetSelected
 (
-PRBool
+bool
 aSelect
 )
 {

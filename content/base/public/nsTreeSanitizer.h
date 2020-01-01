@@ -477,9 +477,9 @@ nodes
 /
 nsTreeSanitizer
 (
-PRBool
+bool
 aAllowStyles
-PRBool
+bool
 aAllowComments
 )
 ;
@@ -587,7 +587,7 @@ allowed
 .
 *
 /
-PRBool
+bool
 mAllowStyles
 ;
 /
@@ -602,7 +602,7 @@ allowed
 .
 *
 /
-PRBool
+bool
 mAllowComments
 ;
 /
@@ -669,7 +669,7 @@ be
 kept
 *
 /
-PRBool
+bool
 MustFlatten
 (
 PRInt32
@@ -753,7 +753,7 @@ be
 kept
 *
 /
-PRBool
+bool
 MustPrune
 (
 PRInt32
@@ -832,7 +832,7 @@ false
 otherwise
 *
 /
-PRBool
+bool
 IsURL
 (
 nsIAtom
@@ -981,11 +981,11 @@ nsIAtom
 *
 *
 aURLs
-PRBool
+bool
 aAllowXLink
-PRBool
+bool
 aAllowStyle
-PRBool
+bool
 aAllowDangerousSrc
 )
 ;
@@ -1053,7 +1053,7 @@ false
 otherwise
 *
 /
-PRBool
+bool
 SanitizeURL
 (
 mozilla
@@ -1142,7 +1142,7 @@ false
 otherwise
 *
 /
-PRBool
+bool
 SanitizeStyleRule
 (
 mozilla
@@ -1245,7 +1245,7 @@ false
 otherwise
 *
 /
-PRBool
+bool
 SanitizeStyleSheet
 (
 const

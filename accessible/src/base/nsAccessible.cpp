@@ -2098,7 +2098,7 @@ IsEmpty
 )
 )
 {
-PRBool
+bool
 isXUL
 =
 mContent
@@ -3348,7 +3348,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsAccessible
 :
 :
@@ -3519,13 +3519,13 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsAccessible
 :
 :
 IsVisible
 (
-PRBool
+bool
 *
 aIsOffscreen
 )
@@ -3771,10 +3771,10 @@ IsEmpty
 )
 )
 {
-PRBool
+bool
 isEmpty
 =
-PR_TRUE
+true
 ;
 nsIAtom
 *
@@ -4093,10 +4093,10 @@ states
 :
 STALE
 ;
-PRBool
+bool
 disabled
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4306,7 +4306,7 @@ for
 this
 object
 .
-PRBool
+bool
 isOffscreen
 ;
 if
@@ -6450,7 +6450,7 @@ nsAccessible
 :
 SetSelected
 (
-PRBool
+bool
 aSelect
 )
 {
@@ -7723,10 +7723,10 @@ NS_ENSURE_STATE
 observers
 )
 ;
-PRBool
+bool
 hasObservers
 =
-PR_FALSE
+false
 ;
 observers
 -
@@ -9097,10 +9097,10 @@ if
 htmlElement
 )
 {
-PRBool
+bool
 draggable
 =
-PR_FALSE
+false
 ;
 htmlElement
 -
@@ -13569,7 +13569,7 @@ mouse
 up
 events
 .
-PRBool
+bool
 res
 =
 nsCoreUtils
@@ -13912,7 +13912,7 @@ IsChildSelected
 (
 PRInt32
 aIndex
-PRBool
+bool
 *
 aIsSelected
 )
@@ -14000,7 +14000,7 @@ nsAccessible
 :
 SelectAllSelection
 (
-PRBool
+bool
 *
 aIsMultiSelect
 )
@@ -14381,7 +14381,7 @@ nsAccessible
 :
 GetValid
 (
-PRBool
+bool
 *
 aValid
 )
@@ -14431,7 +14431,7 @@ nsAccessible
 :
 GetSelected
 (
-PRBool
+bool
 *
 aSelected
 )
@@ -15175,7 +15175,7 @@ eChildrenUninitialized
 )
 ;
 }
-PRBool
+bool
 nsAccessible
 :
 :
@@ -15242,7 +15242,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsAccessible
 :
 :
@@ -15367,7 +15367,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsAccessible
 :
 :
@@ -18282,7 +18282,7 @@ click
 event
 handler
 .
-PRBool
+bool
 isOnclick
 =
 nsCoreUtils

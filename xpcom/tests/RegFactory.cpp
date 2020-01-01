@@ -486,10 +486,10 @@ nsString
 h
 "
 static
-PRBool
+bool
 gUnreg
 =
-PR_FALSE
+false
 ;
 void
 print_err

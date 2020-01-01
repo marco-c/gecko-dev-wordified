@@ -694,7 +694,7 @@ SetDeadKey
 (
 PRUint8
 aShiftState
-PRBool
+bool
 aIsDeadKey
 )
 {
@@ -729,7 +729,7 @@ aShiftState
 }
 public
 :
-PRBool
+bool
 IsDeadKey
 (
 PRUint8
@@ -976,7 +976,7 @@ aData
 )
 ;
 static
-PRBool
+bool
 AddDeadKeyEntry
 (
 PRUnichar
@@ -990,10 +990,10 @@ PRUint32
 aEntries
 )
 ;
-PRBool
+bool
 EnsureDeadKeyActive
 (
-PRBool
+bool
 aIsActive
 PRUint8
 aDeadKey
@@ -1054,7 +1054,7 @@ KeyboardLayout
 )
 ;
 static
-PRBool
+bool
 IsPrintableCharKey
 (
 PRUint8
@@ -1062,14 +1062,14 @@ aVirtualKey
 )
 ;
 static
-PRBool
+bool
 IsNumpadKey
 (
 PRUint8
 aVirtualKey
 )
 ;
-PRBool
+bool
 IsDeadKey
 (
 )

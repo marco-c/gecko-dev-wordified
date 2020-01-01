@@ -1352,10 +1352,10 @@ hash
 ;
 }
 }
-PRBool
+bool
 deletedGetter
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1666,10 +1666,10 @@ return
 rv
 ;
 }
-PRBool
+bool
 deletedSetter
 =
-PR_FALSE
+false
 ;
 if
 (

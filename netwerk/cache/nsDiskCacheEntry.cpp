@@ -1265,7 +1265,7 @@ nsDiskCacheEntryInfo
 :
 IsStreamBased
 (
-PRBool
+bool
 *
 aStreamBased
 )

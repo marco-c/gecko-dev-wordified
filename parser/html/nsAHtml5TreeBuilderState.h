@@ -551,7 +551,7 @@ getOriginalMode
 0
 ;
 virtual
-PRBool
+bool
 isFramesetOk
 (
 )
@@ -559,7 +559,7 @@ isFramesetOk
 0
 ;
 virtual
-PRBool
+bool
 isNeedToDropLF
 (
 )
@@ -567,7 +567,7 @@ isNeedToDropLF
 0
 ;
 virtual
-PRBool
+bool
 isQuirks
 (
 )

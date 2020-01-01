@@ -1828,7 +1828,7 @@ nsDOMFileBase
 :
 GetMutable
 (
-PRBool
+bool
 *
 aMutable
 )
@@ -1849,7 +1849,7 @@ nsDOMFileBase
 :
 SetMutable
 (
-PRBool
+bool
 aMutable
 )
 {
@@ -2684,7 +2684,7 @@ happen
 )
 ;
 }
-PRBool
+bool
 exists
 ;
 rv
@@ -2710,7 +2710,7 @@ exists
 NS_ERROR_FILE_NOT_FOUND
 )
 ;
-PRBool
+bool
 isDir
 ;
 rv

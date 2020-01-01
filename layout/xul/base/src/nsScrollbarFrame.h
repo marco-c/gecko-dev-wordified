@@ -561,7 +561,7 @@ aEvent
 nsEventStatus
 *
 aEventStatus
-PRBool
+bool
 aControlHeld
 )
 ;
@@ -626,7 +626,7 @@ aStatus
 )
 ;
 virtual
-PRBool
+bool
 IsContainingBlock
 (
 )
@@ -718,13 +718,13 @@ too
 *
 /
 virtual
-PRBool
+bool
 DoesClipChildren
 (
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 private

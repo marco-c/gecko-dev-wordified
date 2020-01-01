@@ -504,7 +504,7 @@ mDispatchChromeOnly
 PR_FALSE
 )
 {
-PRBool
+bool
 trusted
 =
 NS_IS_TRUSTED_EVENT
@@ -633,7 +633,7 @@ do_QueryInterface
 mEventNode
 )
 ;
-PRBool
+bool
 defaultActionEnabled
 ;
 /

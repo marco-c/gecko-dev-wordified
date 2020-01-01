@@ -752,7 +752,7 @@ GetType
 const
 ;
 virtual
-PRBool
+bool
 IsContainingBlock
 (
 )

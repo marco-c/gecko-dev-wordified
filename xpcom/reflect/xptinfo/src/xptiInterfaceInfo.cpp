@@ -823,7 +823,7 @@ PARTIALLY_RESOLVED
 )
 ;
 }
-PRBool
+bool
 xptiInterfaceEntry
 :
 :
@@ -848,7 +848,7 @@ ResolveLocked
 )
 ;
 }
-PRBool
+bool
 xptiInterfaceEntry
 :
 :
@@ -1220,7 +1220,7 @@ xptiInterfaceEntry
 :
 IsScriptable
 (
-PRBool
+bool
 *
 result
 )
@@ -1258,7 +1258,7 @@ xptiInterfaceEntry
 :
 IsFunction
 (
-PRBool
+bool
 *
 result
 )
@@ -2874,7 +2874,7 @@ NS_OK
 }
 /
 *
-PRBool
+bool
 isIID
 (
 in
@@ -2894,7 +2894,7 @@ const
 nsIID
 *
 IID
-PRBool
+bool
 *
 _retval
 )
@@ -3041,7 +3041,7 @@ NS_OK
 }
 /
 *
-PRBool
+bool
 hasAncestor
 (
 in
@@ -3061,7 +3061,7 @@ const
 nsIID
 *
 iid
-PRBool
+bool
 *
 _retval
 )
@@ -3288,7 +3288,7 @@ nsnull
 ;
 }
 }
-PRBool
+bool
 xptiInterfaceInfo
 :
 :

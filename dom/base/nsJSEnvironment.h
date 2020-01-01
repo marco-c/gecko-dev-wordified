@@ -589,7 +589,7 @@ aVersion
 nsAString
 *
 aRetValue
-PRBool
+bool
 *
 aIsUndefined
 )
@@ -619,7 +619,7 @@ aVersion
 void
 *
 aRetValue
-PRBool
+bool
 *
 aIsUndefined
 )
@@ -666,7 +666,7 @@ aScopeObject
 nsAString
 *
 aRetValue
-PRBool
+bool
 *
 aIsUndefined
 )
@@ -772,7 +772,7 @@ PRUint32
 aLineNo
 PRUint32
 aVersion
-PRBool
+bool
 aShared
 void
 *
@@ -816,7 +816,7 @@ CreateNativeGlobalForInner
 nsIScriptGlobalObject
 *
 aGlobal
-PRBool
+bool
 aIsChrome
 nsIPrincipal
 *
@@ -877,7 +877,7 @@ InitOuterWindow
 )
 ;
 virtual
-PRBool
+bool
 IsContextInitialized
 (
 )
@@ -892,7 +892,7 @@ virtual
 void
 ScriptEvaluated
 (
-PRBool
+bool
 aTerminated
 )
 ;
@@ -908,7 +908,7 @@ aRef
 )
 ;
 virtual
-PRBool
+bool
 GetScriptsEnabled
 (
 )
@@ -917,9 +917,9 @@ virtual
 void
 SetScriptsEnabled
 (
-PRBool
+bool
 aEnabled
-PRBool
+bool
 aFireTimeouts
 )
 ;
@@ -940,7 +940,7 @@ aVal
 )
 ;
 virtual
-PRBool
+bool
 GetProcessingScriptTag
 (
 )
@@ -949,12 +949,12 @@ virtual
 void
 SetProcessingScriptTag
 (
-PRBool
+bool
 aResult
 )
 ;
 virtual
-PRBool
+bool
 GetExecutingScript
 (
 )
@@ -963,7 +963,7 @@ virtual
 void
 SetGCOnDestruction
 (
-PRBool
+bool
 aGCOnDestruction
 )
 ;
@@ -983,7 +983,7 @@ ClearScope
 void
 *
 aGlobalObj
-PRBool
+bool
 bClearPolluters
 )
 ;
@@ -1494,16 +1494,16 @@ mTerminations
 ;
 private
 :
-PRPackedBool
+bool
 mIsInitialized
 ;
-PRPackedBool
+bool
 mScriptsEnabled
 ;
-PRPackedBool
+bool
 mGCOnDestruction
 ;
-PRPackedBool
+bool
 mProcessingScriptTag
 ;
 PRUint32

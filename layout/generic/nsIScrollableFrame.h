@@ -1561,7 +1561,7 @@ nsIBox
 *
 GetScrollbarBox
 (
-PRBool
+bool
 aVertical
 )
 =
@@ -1669,7 +1669,7 @@ happen
 *
 /
 virtual
-PRBool
+bool
 IsScrollingActive
 (
 )

@@ -475,7 +475,7 @@ width_mm
 float
 height_mm
 ;
-PRBool
+bool
 isMetric
 ;
 /
@@ -630,7 +630,7 @@ item
 .
 *
 /
-PRBool
+bool
 AtEnd
 (
 )
@@ -894,7 +894,7 @@ entry
 .
 *
 /
-PRBool
+bool
 Find
 (
 const
@@ -1257,7 +1257,7 @@ units
 .
 *
 /
-PRBool
+bool
 IsMetric
 (
 )

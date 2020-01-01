@@ -721,7 +721,7 @@ tmp
 continue
 ;
 }
-PRBool
+bool
 isComplying
 =
 mFilterFunc

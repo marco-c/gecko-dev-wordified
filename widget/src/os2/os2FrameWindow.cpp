@@ -696,7 +696,7 @@ nsIWidget
 gRollupWidget
 ;
 extern
-PRBool
+bool
 gRollupConsumeRollupEvent
 ;
 extern
@@ -2289,7 +2289,7 @@ os2FrameWindow
 :
 Show
 (
-PRBool
+bool
 aState
 )
 {
@@ -2523,7 +2523,7 @@ os2FrameWindow
 :
 SetWindowListVisibility
 (
-PRBool
+bool
 aState
 )
 {
@@ -2970,7 +2970,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-PRBool
+bool
 aRepaint
 )
 {
@@ -3120,7 +3120,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-PRBool
+bool
 aRepaint
 )
 {
@@ -4000,7 +4000,7 @@ os2FrameWindow
 :
 HideWindowChrome
 (
-PRBool
+bool
 aShouldHide
 )
 {
@@ -4916,7 +4916,7 @@ os2FrameWindow
 :
 ConstrainPosition
 (
-PRBool
+bool
 aAllowSlop
 PRInt32
 *
@@ -4936,10 +4936,10 @@ info
 to
 do
 anything
-PRBool
+bool
 doConstrain
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -5734,10 +5734,10 @@ mresult
 =
 0
 ;
-PRBool
+bool
 isDone
 =
-PR_FALSE
+false
 ;
 switch
 (

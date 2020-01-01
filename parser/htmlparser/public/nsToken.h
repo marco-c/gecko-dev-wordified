@@ -1546,7 +1546,7 @@ care
 *
 /
 virtual
-PRBool
+bool
 IsWellFormed
 (
 void
@@ -1554,18 +1554,18 @@ void
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
-PRBool
+bool
 IsEmpty
 (
 void
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1591,7 +1591,7 @@ virtual
 void
 SetEmpty
 (
-PRBool
+bool
 aValue
 )
 {
@@ -1650,7 +1650,7 @@ mLineNumber
 void
 SetInError
 (
-PRBool
+bool
 aInError
 )
 {
@@ -1659,7 +1659,7 @@ mInError
 aInError
 ;
 }
-PRBool
+bool
 IsInError
 (
 )

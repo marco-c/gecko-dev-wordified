@@ -637,10 +637,10 @@ only
 in
 this
 range
-PRPackedBool
+bool
 mFindBackward
 ;
-PRPackedBool
+bool
 mCaseSensitive
 ;
 nsCOMPtr
@@ -701,7 +701,7 @@ aParent
 Utility
 routines
 :
-PRBool
+bool
 IsTextNode
 (
 nsIDOMNode
@@ -709,7 +709,7 @@ nsIDOMNode
 aNode
 )
 ;
-PRBool
+bool
 IsBlockNode
 (
 nsIContent
@@ -717,7 +717,7 @@ nsIContent
 aNode
 )
 ;
-PRBool
+bool
 SkipNode
 (
 nsIContent
@@ -725,7 +725,7 @@ nsIContent
 aNode
 )
 ;
-PRBool
+bool
 IsVisibleNode
 (
 nsIDOMNode
@@ -756,7 +756,7 @@ aStartPoint
 nsIDOMRange
 *
 aEndPoint
-PRBool
+bool
 aContinueOk
 )
 ;

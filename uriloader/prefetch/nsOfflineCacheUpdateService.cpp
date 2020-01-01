@@ -3130,7 +3130,7 @@ mUpdates
 i
 ]
 ;
-PRBool
+bool
 partial
 ;
 rv
@@ -3188,7 +3188,7 @@ if
 manifestURI
 )
 {
-PRBool
+bool
 equals
 ;
 rv
@@ -3763,7 +3763,7 @@ aPrincipal
 nsIPrefBranch
 *
 aPrefBranch
-PRBool
+bool
 *
 aAllowed
 )
@@ -3815,7 +3815,7 @@ aURI
 nsIPrefBranch
 *
 aPrefBranch
-PRBool
+bool
 *
 aAllowed
 )
@@ -3864,7 +3864,7 @@ use
 offline
 APIs
 .
-PRBool
+bool
 match
 ;
 nsresult
@@ -4016,7 +4016,7 @@ Preferences
 GetBool
 (
 kPrefName
-PR_FALSE
+false
 )
 ;
 }

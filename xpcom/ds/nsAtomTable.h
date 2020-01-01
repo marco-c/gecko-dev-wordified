@@ -655,7 +655,7 @@ PR_UINT32_MAX
 }
 ;
 virtual
-PRBool
+bool
 IsPermanent
 (
 )
@@ -676,7 +676,7 @@ base
 class
 destructor
 .
-PRBool
+bool
 IsPermanentInDestructor
 (
 )
@@ -790,7 +790,7 @@ Release
 )
 ;
 virtual
-PRBool
+bool
 IsPermanent
 (
 )

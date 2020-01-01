@@ -2127,7 +2127,7 @@ viewportFrame
 virtual
 *
 /
-PRBool
+bool
 ViewportFrame
 :
 :

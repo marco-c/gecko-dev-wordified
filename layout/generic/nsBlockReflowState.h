@@ -641,11 +641,11 @@ const
 nsHTMLReflowMetrics
 &
 aMetrics
-PRBool
+bool
 aTopMarginRoot
-PRBool
+bool
 aBottomMarginRoot
-PRBool
+bool
 aBlockNeedsFloatManager
 )
 ;
@@ -838,7 +838,7 @@ box
 .
 *
 /
-PRBool
+bool
 AddFloat
 (
 nsLineLayout
@@ -853,7 +853,7 @@ aAvailableWidth
 ;
 private
 :
-PRBool
+bool
 CanPlaceFloat
 (
 nscoord
@@ -866,7 +866,7 @@ aFloatAvailableSpace
 ;
 public
 :
-PRBool
+bool
 FlowAndPlaceFloat
 (
 nsIFrame
@@ -951,7 +951,7 @@ aFlags
 0
 )
 ;
-PRBool
+bool
 IsAdjacentWithTop
 (
 )
@@ -1190,7 +1190,7 @@ const
 nsFlowAreaRect
 &
 aFloatAvailableSpace
-PRBool
+bool
 aBlockAvoidsFloats
 nsRect
 &
@@ -1262,7 +1262,7 @@ nsIFrame
 aFrame
 PRInt32
 aCount
-PRBool
+bool
 aIsBlock
 )
 ;
@@ -2245,7 +2245,7 @@ SetFlag
 (
 PRUint32
 aFlag
-PRBool
+bool
 aValue
 )
 {
@@ -2308,7 +2308,7 @@ aFlag
 ;
 }
 }
-PRBool
+bool
 GetFlag
 (
 PRUint32

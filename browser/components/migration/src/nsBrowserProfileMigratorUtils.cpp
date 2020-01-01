@@ -1072,7 +1072,7 @@ MigrationData
 aDataArray
 PRInt32
 aDataArrayLength
-PRBool
+bool
 aReplace
 nsIFile
 *
@@ -1088,7 +1088,7 @@ nsIFile
 >
 sourceFile
 ;
-PRBool
+bool
 exists
 ;
 MigrationData
@@ -1396,10 +1396,10 @@ sourceBuffer
 nsCAutoString
 targetBuffer
 ;
-PRBool
+bool
 moreData
 =
-PR_FALSE
+false
 ;
 PRUint32
 bytesWritten
@@ -1582,9 +1582,9 @@ ImportBookmarksHTML
 nsIFile
 *
 aBookmarksFile
-PRBool
+bool
 aImportIntoRoot
-PRBool
+bool
 aOverwriteDefaults
 const
 PRUnichar

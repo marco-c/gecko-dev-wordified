@@ -2518,10 +2518,10 @@ qcms_profile_get_color_space
 profile
 )
 ;
-PRBool
+bool
 mismatch
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4641,10 +4641,10 @@ bpr
 )
 )
 ;
-PRBool
+bool
 rowHasNoAlpha
 =
-PR_TRUE
+true
 ;
 if
 (

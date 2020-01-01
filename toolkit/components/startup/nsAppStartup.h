@@ -593,7 +593,7 @@ Quit
 eConsiderQuit
 )
 fails
-PRPackedBool
+bool
 mRunning
 ;
 /
@@ -606,7 +606,7 @@ main
 event
 loop
 ?
-PRPackedBool
+bool
 mShuttingDown
 ;
 /
@@ -615,7 +615,7 @@ Quit
 method
 reentrancy
 check
-PRPackedBool
+bool
 mAttemptingQuit
 ;
 /
@@ -626,7 +626,7 @@ eAttemptQuit
 )
 still
 trying
-PRPackedBool
+bool
 mRestart
 ;
 /
@@ -635,7 +635,7 @@ Quit
 (
 eRestart
 )
-PRPackedBool
+bool
 mInterrupted
 ;
 /

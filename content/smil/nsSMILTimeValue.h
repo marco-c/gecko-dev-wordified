@@ -1100,7 +1100,7 @@ return
 value
 ;
 }
-PRBool
+bool
 IsIndefinite
 (
 )
@@ -1127,7 +1127,7 @@ mMilliseconds
 kUnresolvedMillis
 ;
 }
-PRBool
+bool
 IsResolved
 (
 )
@@ -1154,7 +1154,7 @@ mMilliseconds
 kUnresolvedMillis
 ;
 }
-PRBool
+bool
 IsDefinite
 (
 )
@@ -1229,7 +1229,7 @@ aOther
 )
 const
 ;
-PRBool
+bool
 operator
 =
 =
@@ -1251,7 +1251,7 @@ aOther
 0
 ;
 }
-PRBool
+bool
 operator
 !
 =
@@ -1273,7 +1273,7 @@ aOther
 0
 ;
 }
-PRBool
+bool
 operator
 <
 (
@@ -1293,7 +1293,7 @@ aOther
 0
 ;
 }
-PRBool
+bool
 operator
 >
 (
@@ -1313,7 +1313,7 @@ aOther
 0
 ;
 }
-PRBool
+bool
 operator
 <
 =
@@ -1335,7 +1335,7 @@ aOther
 0
 ;
 }
-PRBool
+bool
 operator
 >
 =

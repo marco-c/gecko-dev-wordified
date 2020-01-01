@@ -866,9 +866,9 @@ nsHTMLButtonControlFrame
 :
 SetFocus
 (
-PRBool
+bool
 aOn
-PRBool
+bool
 aRepaint
 )
 {
@@ -2257,7 +2257,7 @@ yoff
 virtual
 *
 /
-PRBool
+bool
 nsHTMLButtonControlFrame
 :
 :

@@ -509,7 +509,7 @@ not
 .
 *
 /
-PRBool
+bool
 Enabled
 (
 )

@@ -874,7 +874,7 @@ charset
 >
 *
 /
-PRBool
+bool
 internalEncodingDeclaration
 (
 nsString
@@ -1057,7 +1057,7 @@ aTokenizer
 nsHtml5TreeBuilder
 *
 aTreeBuilder
-PRBool
+bool
 aLastWasCR
 )
 ;
@@ -1111,12 +1111,12 @@ private
 #
 ifdef
 DEBUG
-PRBool
+bool
 IsParserThread
 (
 )
 {
-PRBool
+bool
 ret
 ;
 mThread
@@ -1302,7 +1302,7 @@ PRUint32
 aLength
 )
 ;
-PRBool
+bool
 IsTerminatedOrInterrupted
 (
 )
@@ -1323,7 +1323,7 @@ mTerminated
 mInterrupted
 ;
 }
-PRBool
+bool
 IsTerminated
 (
 )
@@ -1356,7 +1356,7 @@ already
 *
 /
 inline
-PRBool
+bool
 HasDecoder
 (
 )
@@ -2053,7 +2053,7 @@ is
 forbidden
 *
 /
-PRBool
+bool
 mReparseForbidden
 ;
 /
@@ -2253,7 +2253,7 @@ CRLF
 )
 *
 /
-PRBool
+bool
 mLastWasCR
 ;
 /
@@ -2281,7 +2281,7 @@ speculating
 .
 *
 /
-PRBool
+bool
 mSpeculating
 ;
 /
@@ -2304,7 +2304,7 @@ rewinded
 )
 *
 /
-PRBool
+bool
 mAtEOF
 ;
 /
@@ -2374,10 +2374,10 @@ by
 mTerminatedMutex
 *
 /
-PRBool
+bool
 mTerminated
 ;
-PRBool
+bool
 mInterrupted
 ;
 mozilla
@@ -2454,7 +2454,7 @@ chardet
 .
 *
 /
-PRBool
+bool
 mFeedChardet
 ;
 /
@@ -2510,7 +2510,7 @@ itself
 .
 *
 /
-PRBool
+bool
 mFlushTimerArmed
 ;
 /
@@ -2532,7 +2532,7 @@ once
 .
 *
 /
-PRBool
+bool
 mFlushTimerEverFired
 ;
 /

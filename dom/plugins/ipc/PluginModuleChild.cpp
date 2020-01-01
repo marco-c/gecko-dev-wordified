@@ -1204,7 +1204,7 @@ localFile
 )
 )
 ;
-PRBool
+bool
 exists
 ;
 localFile

@@ -776,7 +776,7 @@ virtual
 void
 Uninit
 (
-PRBool
+bool
 aIsFinal
 )
 ;
@@ -1103,7 +1103,7 @@ IsContainerOpen
 nsIXULTemplateResult
 *
 aResult
-PRBool
+bool
 *
 aOpen
 )
@@ -1114,7 +1114,7 @@ IsContainerOpen
 nsIRDFResource
 *
 aResource
-PRBool
+bool
 *
 aOpen
 )
@@ -1210,7 +1210,7 @@ aResource
 nsIAtom
 *
 aTag
-PRBool
+bool
 *
 aGenerated
 )
@@ -1250,7 +1250,7 @@ row
 .
 *
 /
-PRBool
+bool
 GetInsertionLocations
 (
 nsIXULTemplateResult
@@ -1684,7 +1684,7 @@ mObservers
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 static
-PRBool
+bool
 TraverseObservers
 (
 nsISupports
@@ -1820,7 +1820,7 @@ nsXULTreeBuilder
 :
 Uninit
 (
-PRBool
+bool
 aIsFinal
 )
 {
@@ -2253,10 +2253,10 @@ sorthints
 hints
 )
 ;
-PRBool
+bool
 hasNaturalState
 =
-PR_TRUE
+true
 ;
 nsWhitespaceTokenizer
 tokenizer
@@ -2972,7 +2972,7 @@ IsContainer
 (
 PRInt32
 aIndex
-PRBool
+bool
 *
 aResult
 )
@@ -3028,7 +3028,7 @@ mRows
 aIndex
 ]
 ;
-PRBool
+bool
 isContainer
 ;
 iter
@@ -3091,7 +3091,7 @@ IsContainerOpen
 (
 PRInt32
 aIndex
-PRBool
+bool
 *
 aOpen
 )
@@ -3161,7 +3161,7 @@ nsTreeRows
 eContainerState_Unknown
 )
 {
-PRBool
+bool
 isOpen
 ;
 IsContainerOpen
@@ -3223,7 +3223,7 @@ IsContainerEmpty
 (
 PRInt32
 aIndex
-PRBool
+bool
 *
 aResult
 )
@@ -3382,7 +3382,7 @@ nsTreeRows
 eContainerFill_Unknown
 )
 {
-PRBool
+bool
 isEmpty
 ;
 iter
@@ -3446,7 +3446,7 @@ IsSeparator
 (
 PRInt32
 aIndex
-PRBool
+bool
 *
 aResult
 )
@@ -3727,7 +3727,7 @@ PRInt32
 aRowIndex
 PRInt32
 aAfterIndex
-PRBool
+bool
 *
 aResult
 )
@@ -4629,10 +4629,10 @@ s
 principal
 trusted
 ?
-PRBool
+bool
 isTrusted
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -4993,7 +4993,7 @@ isn
 '
 t
 allowed
-PRBool
+bool
 mayProcessChildren
 ;
 nsresult
@@ -5087,7 +5087,7 @@ if
 mPersistStateStore
 )
 {
-PRBool
+bool
 isOpen
 ;
 IsContainerOpen
@@ -5120,7 +5120,7 @@ container
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 hasProperty
 ;
 IsContainerOpen
@@ -5494,7 +5494,7 @@ aRow
 nsITreeColumn
 *
 aCol
-PRBool
+bool
 *
 _retval
 )
@@ -5652,7 +5652,7 @@ aRow
 nsITreeColumn
 *
 aCol
-PRBool
+bool
 *
 _retval
 )
@@ -6154,7 +6154,7 @@ aResource
 nsIAtom
 *
 aTag
-PRBool
+bool
 *
 aGenerated
 )
@@ -6238,7 +6238,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsXULTreeBuilder
 :
 :
@@ -6891,10 +6891,10 @@ open
 or
 closed
 .
-PRBool
+bool
 open
 =
-PR_FALSE
+false
 ;
 IsContainerOpen
 (
@@ -7277,7 +7277,7 @@ isn
 '
 t
 allowed
-PRBool
+bool
 mayProcessChildren
 ;
 nsresult
@@ -7307,7 +7307,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 open
 ;
 IsContainerOpen
@@ -9006,7 +9006,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 hasMoreResults
 ;
 rv
@@ -9163,10 +9163,10 @@ set
 of
 matches
 .
-PRBool
+bool
 generateContent
 =
-PR_TRUE
+true
 ;
 nsTemplateMatch
 *
@@ -9285,10 +9285,10 @@ in
 a
 knot
 .
-PRBool
+bool
 cyclic
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -9544,10 +9544,10 @@ to
 the
 tree
 .
-PRBool
+bool
 isOpen
 =
-PR_FALSE
+false
 ;
 IsContainerOpen
 (
@@ -9968,7 +9968,7 @@ IsContainerOpen
 nsIXULTemplateResult
 *
 aResult
-PRBool
+bool
 *
 aOpen
 )
@@ -10052,7 +10052,7 @@ IsContainerOpen
 nsIRDFResource
 *
 aResource
-PRBool
+bool
 *
 aOpen
 )
@@ -10477,10 +10477,10 @@ if
 container
 )
 {
-PRBool
+bool
 isSequence
 =
-PR_FALSE
+false
 ;
 gRDFContainerUtils
 -
@@ -10771,7 +10771,7 @@ orientation
 nsIDOMDataTransfer
 *
 dataTransfer
-PRBool
+bool
 *
 _retval
 )
@@ -10921,10 +10921,10 @@ if
 observer
 )
 {
-PRBool
+bool
 canDrop
 =
-PR_FALSE
+false
 ;
 observer
 -
@@ -10965,7 +10965,7 @@ nsXULTreeBuilder
 :
 IsSorted
 (
-PRBool
+bool
 *
 _retval
 )

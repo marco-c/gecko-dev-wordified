@@ -537,7 +537,7 @@ nsHTMLDivElement
 nsGenericHTMLElement
 )
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -556,7 +556,7 @@ aResult
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -677,7 +677,7 @@ nsHTMLDivElement
 Align
 align
 )
-PRBool
+bool
 nsHTMLDivElement
 :
 :
@@ -936,7 +936,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLDivElement
 :

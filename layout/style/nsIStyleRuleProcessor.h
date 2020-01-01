@@ -667,7 +667,7 @@ nsIStyleRuleProcessor
 :
 nsCOMArrayEnumFunc
 typedef
-PRBool
+bool
 (
 *
 EnumFunc
@@ -900,7 +900,7 @@ h
 *
 /
 virtual
-PRBool
+bool
 HasDocumentStateDependentStyle
 (
 StateRuleProcessorData
@@ -1222,7 +1222,7 @@ queries
 *
 /
 virtual
-PRBool
+bool
 MediumFeaturesChanged
 (
 nsPresContext

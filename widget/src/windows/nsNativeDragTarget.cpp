@@ -870,7 +870,7 @@ not
 allow
 dropping
 .
-PRBool
+bool
 isEnabled
 ;
 if
@@ -1155,7 +1155,7 @@ DRAGDROP_ACTION_LINK
 }
 }
 inline
-PRBool
+bool
 IsKeyDown
 (
 char
@@ -1492,7 +1492,7 @@ nsIDOMEvent
 on
 drags
 .
-PRBool
+bool
 canDrop
 ;
 currSession

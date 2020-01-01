@@ -544,7 +544,7 @@ contentType
 nsCString
 &
 contentCharset
-PRBool
+bool
 &
 isBase64
 nsCString

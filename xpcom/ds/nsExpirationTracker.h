@@ -544,7 +544,7 @@ NOT_TRACKED
 )
 {
 }
-PRBool
+bool
 IsTracked
 (
 )
@@ -2147,7 +2147,7 @@ friend
 class
 Iterator
 ;
-PRBool
+bool
 IsEmpty
 (
 )
@@ -2537,7 +2537,7 @@ mTimerPeriod
 PRUint32
 mNewestGeneration
 ;
-PRPackedBool
+bool
 mInAgeOneGeneration
 ;
 static

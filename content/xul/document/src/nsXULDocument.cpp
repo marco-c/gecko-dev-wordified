@@ -1182,7 +1182,7 @@ NS_PARSER_CID
 )
 ;
 static
-PRBool
+bool
 IsChromeURI
 (
 nsIURI
@@ -1204,10 +1204,10 @@ nsXULDocument
 ?
 -
 gagan
-PRBool
+bool
 isChrome
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1237,7 +1237,7 @@ PR_FALSE
 ;
 }
 static
-PRBool
+bool
 IsOverlayAllowed
 (
 nsIURI
@@ -1245,10 +1245,10 @@ nsIURI
 aURI
 )
 {
-PRBool
+bool
 canOverlay
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1734,7 +1734,7 @@ i
 ;
 }
 }
-PRBool
+bool
 nsRefMapEntry
 :
 :
@@ -1769,7 +1769,7 @@ aElement
 )
 ;
 }
-PRBool
+bool
 nsRefMapEntry
 :
 :
@@ -3126,7 +3126,7 @@ nsIStreamListener
 *
 *
 aDocListener
-PRBool
+bool
 aReset
 nsIContentSink
 *
@@ -3506,7 +3506,7 @@ to
 each
 document
 .
-PRBool
+bool
 loaded
 ;
 rv
@@ -3632,7 +3632,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 else
 {
-PRBool
+bool
 useXULCache
 =
 nsXULPrototypeCache
@@ -3647,7 +3647,7 @@ IsEnabled
 (
 )
 ;
-PRBool
+bool
 fillXULCache
 =
 (
@@ -3980,7 +3980,7 @@ GetURI
 (
 )
 ;
-PRBool
+bool
 isChrome
 =
 IsChromeURI
@@ -3997,7 +3997,7 @@ XUL
 cache
 is
 on
-PRBool
+bool
 useXULCache
 =
 nsXULPrototypeCache
@@ -4161,7 +4161,7 @@ rv
 )
 return
 ;
-PRBool
+bool
 moreSheets
 ;
 nsCOMPtr
@@ -4335,7 +4335,7 @@ nsXULDocument
 :
 OnPrototypeLoadDone
 (
-PRBool
+bool
 aResumeWalk
 )
 {
@@ -4427,7 +4427,7 @@ occurs
 parsing
 a
 document
-PRBool
+bool
 nsXULDocument
 :
 :
@@ -4632,7 +4632,7 @@ nsSmallVoidArray
 ;
 }
 static
-PRBool
+bool
 CanBroadcast
 (
 PRInt32
@@ -4892,7 +4892,7 @@ do_QueryInterface
 aListener
 )
 ;
-PRBool
+bool
 notify
 =
 mDocumentLoaded
@@ -6580,7 +6580,7 @@ value
 nsAutoString
 value
 ;
-PRBool
+bool
 attrSet
 =
 aElement
@@ -6700,7 +6700,7 @@ l
 nsAutoString
 currentValue
 ;
-PRBool
+bool
 hasAttr
 =
 l
@@ -6756,7 +6756,7 @@ of
 an
 attribute
 .
-PRBool
+bool
 needsAttrChange
 =
 attrSet
@@ -6855,7 +6855,7 @@ for
 modifications
 in
 broadcasters
-PRBool
+bool
 listener
 resolved
 ;
@@ -8346,7 +8346,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsXULDocument
 :
 :
@@ -8371,10 +8371,10 @@ be
 non
 -
 null
-PRBool
+bool
 enabled
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -9046,7 +9046,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 hasAssertion
 ;
 rv
@@ -10204,7 +10204,7 @@ on
 a
 broadcaster
 .
-PRBool
+bool
 listener
 resolved
 ;
@@ -10420,7 +10420,7 @@ template
 to
 this
 node
-PRBool
+bool
 needsHookup
 ;
 nsresult
@@ -11554,7 +11554,7 @@ nsXULDocument
 :
 CloneNode
 (
-PRBool
+bool
 aDeep
 nsIDOMNode
 *
@@ -12182,7 +12182,7 @@ NS_OK
 static
 *
 /
-PRBool
+bool
 nsXULDocument
 :
 :
@@ -12326,7 +12326,7 @@ GetAttrNameAt
 i
 )
 ;
-PRBool
+bool
 nameMatch
 ;
 if
@@ -12944,10 +12944,10 @@ while
 1
 )
 {
-PRBool
+bool
 hasmore
 =
-PR_FALSE
+false
 ;
 persisted
 -
@@ -13157,7 +13157,7 @@ while
 1
 )
 {
-PRBool
+bool
 hasmore
 ;
 rv
@@ -13849,7 +13849,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsXULDocument
 :
 :
@@ -14900,10 +14900,10 @@ as
 /
 /
 nsICSSObserver
-PRBool
+bool
 willNotify
 ;
-PRBool
+bool
 isAlternate
 ;
 rv
@@ -15398,7 +15398,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 moreOverlays
 ;
 nsCOMPtr
@@ -15653,7 +15653,7 @@ aObserver
 )
 ;
 }
-PRBool
+bool
 shouldReturn
 failureFromContent
 ;
@@ -15713,12 +15713,12 @@ LoadOverlayInternal
 nsIURI
 *
 aURI
-PRBool
+bool
 aIsDynamic
-PRBool
+bool
 *
 aShouldReturn
-PRBool
+bool
 *
 aFailureFromContent
 )
@@ -15833,7 +15833,7 @@ the
 same
 origin
 .
-PRBool
+bool
 documentIsChrome
 =
 IsChromeURI
@@ -15941,7 +15941,7 @@ see
 bug
 565610
 .
-PRBool
+bool
 overlayIsChrome
 =
 IsChromeURI
@@ -16129,7 +16129,7 @@ parsed
 from
 disk
 .
-PRBool
+bool
 useXULCache
 =
 nsXULPrototypeCache
@@ -16152,7 +16152,7 @@ useXULCache
 mCurrentPrototype
 )
 {
-PRBool
+bool
 loaded
 ;
 rv
@@ -17445,10 +17445,10 @@ nsIStyleSheetLinkingElement
 "
 )
 ;
-PRBool
+bool
 willNotify
 ;
-PRBool
+bool
 isAlternate
 ;
 ssle
@@ -17641,7 +17641,7 @@ the
 parent
 node
 .
-PRBool
+bool
 processingOverlayHookupNodes
 =
 (
@@ -18143,7 +18143,7 @@ must
 be
 reloaded
 .
-PRBool
+bool
 blocked
 ;
 rv
@@ -18662,7 +18662,7 @@ count
 1
 )
 ;
-PRBool
+bool
 shouldReturn
 failureFromContent
 ;
@@ -19799,7 +19799,7 @@ StyleSheetLoaded
 nsCSSStyleSheet
 *
 aSheet
-PRBool
+bool
 aWasAlternate
 nsresult
 aStatus
@@ -20114,7 +20114,7 @@ if
 length
 )
 {
-PRBool
+bool
 oldValue
 =
 mHandlingDelayedBroadcasters
@@ -20321,7 +20321,7 @@ LoadScript
 nsXULPrototypeScript
 *
 aScriptProto
-PRBool
+bool
 *
 aBlock
 )
@@ -20335,7 +20335,7 @@ script
 nsresult
 rv
 ;
-PRBool
+bool
 isChromeDoc
 =
 IsChromeURI
@@ -20435,7 +20435,7 @@ s
 GC
 root
 !
-PRBool
+bool
 useXULCache
 =
 nsXULPrototypeCache
@@ -21645,7 +21645,7 @@ crime
 story
 .
 )
-PRBool
+bool
 useXULCache
 =
 nsXULPrototypeCache
@@ -22994,7 +22994,7 @@ CheckTemplateBuilderHookup
 nsIContent
 *
 aElement
-PRBool
+bool
 *
 aNeedsHookup
 )
@@ -23192,10 +23192,10 @@ or
 content
 builder
 .
-PRBool
+bool
 isTreeBuilder
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -23891,7 +23891,7 @@ GetShell
 (
 )
 ;
-PRBool
+bool
 notify
 =
 shell
@@ -24339,7 +24339,7 @@ aTargetNode
 nsIContent
 *
 aOverlayNode
-PRBool
+bool
 aNotify
 )
 {
@@ -25579,7 +25579,7 @@ Resolve
 nsresult
 rv
 ;
-PRBool
+bool
 listener
 ;
 rv
@@ -25892,7 +25892,7 @@ Resolve
 (
 )
 {
-PRBool
+bool
 needsHookup
 ;
 nsresult
@@ -26832,10 +26832,10 @@ CheckBroadcasterHookup
 Element
 *
 aElement
-PRBool
+bool
 *
 aNeedsHookup
-PRBool
+bool
 *
 aDidResolve
 )
@@ -27135,7 +27135,7 @@ aParent
 nsIContent
 *
 aChild
-PRBool
+bool
 aNotify
 )
 {
@@ -27162,10 +27162,10 @@ aChild
 nsAutoString
 posStr
 ;
-PRBool
+bool
 wasInserted
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -27190,10 +27190,10 @@ insertafter
 posStr
 )
 ;
-PRBool
+bool
 isInsertAfter
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -27758,7 +27758,7 @@ CachedChromeStreamListener
 nsXULDocument
 *
 aDocument
-PRBool
+bool
 aProtoLoaded
 )
 :
@@ -28354,7 +28354,7 @@ GetTopWindowRoot
 nsnull
 ;
 }
-PRBool
+bool
 nsXULDocument
 :
 :
@@ -28514,7 +28514,7 @@ PR_FALSE
 nsCAutoString
 package
 ;
-PRBool
+bool
 isChrome
 ;
 if
@@ -28575,7 +28575,7 @@ to
 -
 right
 .
-PRBool
+bool
 isAbout
 isResource
 ;
@@ -28649,10 +28649,10 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 isRTL
 =
-PR_FALSE
+false
 ;
 reg
 -

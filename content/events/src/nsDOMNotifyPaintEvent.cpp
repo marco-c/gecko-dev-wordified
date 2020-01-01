@@ -580,7 +580,7 @@ GetRegion
 nsRegion
 r
 ;
-PRBool
+bool
 isTrusted
 =
 nsContentUtils
@@ -876,7 +876,7 @@ requests
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRBool
+bool
 isTrusted
 =
 nsContentUtils
@@ -990,7 +990,7 @@ IPC
 Message
 *
 aMsg
-PRBool
+bool
 aSerializeInterfaceType
 )
 {
@@ -1137,7 +1137,7 @@ mFlags
 ;
 }
 }
-PRBool
+bool
 nsDOMNotifyPaintEvent
 :
 :

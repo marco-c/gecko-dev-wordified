@@ -886,7 +886,7 @@ aType
 .
 *
 /
-PRBool
+bool
 IsPausedByType
 (
 PRUint32
@@ -942,7 +942,7 @@ otherwise
 .
 *
 /
-PRBool
+bool
 IsPaused
 (
 )
@@ -1298,7 +1298,7 @@ sample
 .
 *
 /
-PRBool
+bool
 NeedsSample
 (
 )
@@ -1338,7 +1338,7 @@ seek
 .
 *
 /
-PRBool
+bool
 NeedsRewind
 (
 )
@@ -1396,7 +1396,7 @@ events
 .
 *
 /
-PRBool
+bool
 IsSeeking
 (
 )
@@ -1501,7 +1501,7 @@ otherwise
 .
 *
 /
-PRBool
+bool
 AddMilestone
 (
 const
@@ -1582,7 +1582,7 @@ unmodified
 .
 *
 /
-PRBool
+bool
 GetNextMilestoneInParentTime
 (
 nsSMILMilestone
@@ -1678,7 +1678,7 @@ otherwise
 .
 *
 /
-PRBool
+bool
 PopMilestoneElementsAtMilestone
 (
 const
@@ -1970,10 +1970,10 @@ pause
 sample
 is
 required
-PRPackedBool
+bool
 mNeedsPauseSample
 ;
-PRPackedBool
+bool
 mNeedsRewind
 ;
 /
@@ -1981,7 +1981,7 @@ mNeedsRewind
 Backwards
 seek
 performed
-PRPackedBool
+bool
 mIsSeeking
 ;
 /
@@ -2032,7 +2032,7 @@ aElement
 )
 {
 }
-PRBool
+bool
 operator
 <
 (

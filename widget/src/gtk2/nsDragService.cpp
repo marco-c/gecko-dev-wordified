@@ -2411,7 +2411,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsDragService
 :
 :
@@ -2721,7 +2721,7 @@ nsDragService
 :
 EndDragSession
 (
-PRBool
+bool
 aDoneDrag
 )
 {
@@ -2812,7 +2812,7 @@ nsDragService
 :
 SetCanDrop
 (
-PRBool
+bool
 aCanDrop
 )
 {
@@ -2847,7 +2847,7 @@ nsDragService
 :
 GetCanDrop
 (
-PRBool
+bool
 *
 aCanDrop
 )
@@ -3448,7 +3448,7 @@ GetNumDropItems
 )
 )
 ;
-PRBool
+bool
 isList
 =
 IsTargetContextList
@@ -3687,7 +3687,7 @@ is
 an
 internal
 list
-PRBool
+bool
 isList
 =
 IsTargetContextList
@@ -4170,10 +4170,10 @@ gdkFlavor
 )
 )
 ;
-PRBool
+bool
 dataFound
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5482,7 +5482,7 @@ const
 char
 *
 aDataFlavor
-PRBool
+bool
 *
 _retval
 )
@@ -5588,7 +5588,7 @@ is
 a
 list
 .
-PRBool
+bool
 isList
 =
 IsTargetContextList
@@ -6653,7 +6653,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsDragService
 :
 :
@@ -6662,10 +6662,10 @@ IsTargetContextList
 void
 )
 {
-PRBool
+bool
 retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -9457,10 +9457,10 @@ can
 convert
 it
 .
-PRBool
+bool
 needToDoConversionToPlainText
 =
-PR_FALSE
+false
 ;
 const
 char

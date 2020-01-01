@@ -684,13 +684,13 @@ sCaretRatio
 =
 0
 ;
-PRBool
+bool
 nsLookAndFeel
 :
 :
 sMenuSupportsDrag
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -871,10 +871,10 @@ InitWidget
 )
 ;
 static
-PRBool
+bool
 sInitialized
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4277,7 +4277,7 @@ InitLookAndFeel
 )
 ;
 }
-PRBool
+bool
 nsLookAndFeel
 :
 :

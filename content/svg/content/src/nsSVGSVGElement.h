@@ -799,7 +799,7 @@ aHeight
 )
 {
 }
-PRBool
+bool
 operator
 !
 =
@@ -1182,7 +1182,7 @@ nsIContent
 interface
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -1232,7 +1232,7 @@ DidChangeLength
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1240,7 +1240,7 @@ virtual
 void
 DidChangeViewBox
 (
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1248,7 +1248,7 @@ virtual
 void
 DidChangePreserveAspectRatio
 (
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -1287,7 +1287,7 @@ GetViewBoxTransform
 )
 const
 ;
-PRBool
+bool
 HasValidViewbox
 (
 )
@@ -1529,7 +1529,7 @@ valid
 viewBox
 attribute
 .
-PRBool
+bool
 ShouldSynthesizeViewBox
 (
 )
@@ -1541,7 +1541,7 @@ protected
 /
 nsSVGElement
 overrides
-PRBool
+bool
 IsEventName
 (
 nsIAtom
@@ -1565,7 +1565,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -1573,9 +1573,9 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 ;
@@ -1589,7 +1589,7 @@ MOZ_SMIL
 implementation
 helpers
 :
-PRBool
+bool
 IsRoot
 (
 )
@@ -1685,7 +1685,7 @@ element
 .
 *
 /
-PRBool
+bool
 IsInner
 (
 )
@@ -1834,7 +1834,7 @@ instead
 .
 *
 /
-PRBool
+bool
 WillBeOutermostSVG
 (
 nsIContent
@@ -1907,7 +1907,7 @@ for
 the
 preserveAspectRatio
 attribute
-PRBool
+bool
 HasPreserveAspectRatio
 (
 )
@@ -2260,7 +2260,7 @@ to
 the
 tree
 .
-PRPackedBool
+bool
 mStartAnimationOnBindToTree
 ;
 #
@@ -2268,10 +2268,10 @@ endif
 /
 /
 MOZ_SMIL
-PRPackedBool
+bool
 mImageNeedsTransformInvalidation
 ;
-PRPackedBool
+bool
 mIsPaintingSVGImageElement
 ;
 }

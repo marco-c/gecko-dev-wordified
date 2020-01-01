@@ -682,7 +682,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
 )
 {
@@ -721,9 +721,9 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
-PRBool
+bool
 aWantsUntrusted
 PRUint8
 optional_argc
@@ -797,7 +797,7 @@ const
 nsString
 &
 aMessage
-PRBool
+bool
 aSync
 const
 nsString
@@ -897,13 +897,13 @@ nsIDocShell
 >
 mDocShell
 ;
-PRPackedBool
+bool
 mInitialized
 ;
-PRPackedBool
+bool
 mLoadingScript
 ;
-PRPackedBool
+bool
 mDelayedDisconnect
 ;
 public
