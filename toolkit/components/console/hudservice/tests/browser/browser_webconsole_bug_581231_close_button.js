@@ -330,7 +330,7 @@ hudId
 in
 HUDService
 .
-windowRegistry
+hudReferences
 )
 "
 the
