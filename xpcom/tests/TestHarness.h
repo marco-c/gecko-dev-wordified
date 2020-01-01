@@ -530,8 +530,10 @@ stdarg
 h
 >
 static
-PRBool
+PRUint32
 gFailCount
+=
+0
 ;
 /
 *
