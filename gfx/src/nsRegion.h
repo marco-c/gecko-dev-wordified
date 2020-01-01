@@ -1463,6 +1463,7 @@ nsCString
 ToString
 (
 )
+const
 ;
 /
 *
@@ -2967,6 +2968,7 @@ nsCString
 ToString
 (
 )
+const
 {
 return
 mImpl
