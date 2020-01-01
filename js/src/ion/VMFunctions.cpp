@@ -420,9 +420,12 @@ if
 fun
 -
 >
-isCloneAtCallsite
+nonLazyScript
 (
 )
+-
+>
+shouldCloneAtCallsite
 )
 {
 RootedScript
