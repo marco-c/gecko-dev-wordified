@@ -881,6 +881,17 @@ nsIFrame
 aPrevInFlow
 )
 ;
+NS_IMETHOD
+SetInitialChildList
+(
+nsIAtom
+*
+aListName
+nsIFrame
+*
+aChildList
+)
+;
 static
 PRBool
 gDragInProgress

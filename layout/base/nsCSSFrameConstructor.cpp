@@ -34345,13 +34345,6 @@ s
 initial
 child
 list
-if
-(
-childItems
-.
-childList
-)
-{
 newFrame
 -
 >
@@ -34363,7 +34356,6 @@ childItems
 childList
 )
 ;
-}
 }
 if
 (
