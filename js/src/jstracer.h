@@ -1180,6 +1180,16 @@ dependentTrees
 unsigned
 branchCount
 ;
+Queue
+<
+nanojit
+:
+:
+SideExit
+*
+>
+sideExits
+;
 TreeInfo
 (
 nanojit
