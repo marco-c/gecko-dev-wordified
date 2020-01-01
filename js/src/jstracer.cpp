@@ -1449,7 +1449,7 @@ const
 size_t
 DataReserveSize
 =
-12500
+8192
 *
 sizeof
 (
@@ -1461,7 +1461,7 @@ const
 size_t
 TraceReserveSize
 =
-5000
+512
 *
 sizeof
 (
@@ -1473,7 +1473,7 @@ const
 size_t
 TempReserveSize
 =
-1000
+4096
 *
 sizeof
 (

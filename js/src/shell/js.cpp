@@ -23205,7 +23205,7 @@ ifdef
 JS_METHODJIT
 static
 void
-SumJitDataSizeCallabck
+SumJitDataSizeCallback
 (
 JSContext
 *
@@ -23265,6 +23265,7 @@ script
 >
 jitDataSize
 (
+NULL
 )
 ;
 }
@@ -23301,7 +23302,7 @@ gc
 FINALIZE_TYPE_OBJECT
 &
 n
-SumJitDataSizeCallabck
+SumJitDataSizeCallback
 )
 ;
 JS_SET_RVAL

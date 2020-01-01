@@ -1449,6 +1449,10 @@ IterateData
 (
 )
 :
+runtimeObjectSize
+(
+0
+)
 atomsTableSize
 (
 0
@@ -1490,6 +1494,9 @@ NULL
 )
 {
 }
+PRInt64
+runtimeObjectSize
+;
 PRInt64
 atomsTableSize
 ;
