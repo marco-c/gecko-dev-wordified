@@ -444,6 +444,12 @@ BLOCK
 /
 #
 ifndef
+nsSubstring_h___
+#
+define
+nsSubstring_h___
+#
+ifndef
 nsAString_h___
 #
 include
@@ -454,3 +460,12 @@ h
 "
 #
 endif
+#
+endif
+/
+/
+!
+defined
+(
+nsSubstring_h___
+)
