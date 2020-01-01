@@ -527,7 +527,7 @@ eCSSKeyword_UNKNOWN
 A
 helper
 for
-three
+four
 features
 below
 static
@@ -994,15 +994,9 @@ aResult
 nsSize
 size
 =
+GetSize
+(
 aPresContext
--
->
-GetVisibleArea
-(
-)
-.
-Size
-(
 )
 ;
 PRInt32
