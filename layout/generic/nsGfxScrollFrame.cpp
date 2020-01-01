@@ -3282,9 +3282,9 @@ mBoxState
 mInner
 .
 mVScrollbarBox
+nsnull
 &
 vScrollbarPrefSize
-nsnull
 true
 )
 ;
