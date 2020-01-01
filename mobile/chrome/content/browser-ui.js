@@ -2464,7 +2464,6 @@ listen
 to
 only
 the
-the
 current
 browser
 browsers
