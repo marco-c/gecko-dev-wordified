@@ -951,6 +951,8 @@ mLastSegmentNum
 =
 0
 )
+if
+(
 mSegmentedBuffer
 -
 >
@@ -958,7 +960,8 @@ ReallocLastSegment
 (
 mSegmentSize
 )
-;
+)
+{
 /
 /
 Need
@@ -968,8 +971,6 @@ re
 Seek
 since
 realloc
-might
-have
 changed
 segment
 base
@@ -991,6 +992,7 @@ rv
 return
 rv
 ;
+}
 NS_ADDREF
 (
 this
