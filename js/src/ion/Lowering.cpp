@@ -8559,7 +8559,7 @@ index
 (
 )
 )
-useAny
+useRegister
 (
 ins
 -
@@ -8590,7 +8590,7 @@ index
 (
 )
 )
-useAnyOrConstant
+useRegisterOrConstant
 (
 ins
 -

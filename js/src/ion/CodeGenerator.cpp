@@ -14858,7 +14858,7 @@ masm
 .
 cmp32
 (
-ToOperand
+ToRegister
 (
 lir
 -
@@ -14951,7 +14951,7 @@ masm
 .
 cmp32
 (
-ToOperand
+ToRegister
 (
 lir
 -
@@ -15112,7 +15112,7 @@ masm
 .
 cmp32
 (
-ToOperand
+ToRegister
 (
 lir
 -
@@ -15441,7 +15441,7 @@ masm
 .
 cmp32
 (
-ToOperand
+ToRegister
 (
 lir
 -
