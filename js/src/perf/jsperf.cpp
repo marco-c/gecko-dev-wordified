@@ -241,8 +241,10 @@ HandleId
 unused
 *
 /
-jsval
-*
+JS
+:
+:
+MutableHandleValue
 vp
 )
 \
@@ -283,6 +285,10 @@ p
 name
 )
 vp
+.
+address
+(
+)
 )
 ;
 \

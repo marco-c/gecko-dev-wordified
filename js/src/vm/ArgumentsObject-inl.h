@@ -653,8 +653,7 @@ maybeGetElement
 (
 uint32_t
 i
-Value
-*
+MutableHandleValue
 vp
 )
 {
@@ -676,12 +675,14 @@ i
 return
 false
 ;
-*
 vp
-=
+.
+set
+(
 element
 (
 i
+)
 )
 ;
 return

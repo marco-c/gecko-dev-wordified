@@ -1692,8 +1692,7 @@ obj
 JSObject
 *
 pobj
-Value
-*
+MutableHandleValue
 vp
 )
 {
@@ -1728,6 +1727,10 @@ fval
 0
 0
 vp
+.
+address
+(
+)
 )
 ;
 }
@@ -1799,8 +1802,7 @@ HandleObject
 receiver
 bool
 strict
-Value
-*
+MutableHandleValue
 vp
 )
 {
@@ -1836,7 +1838,15 @@ receiver
 fval
 1
 vp
+.
+address
+(
+)
 vp
+.
+address
+(
+)
 )
 ;
 }

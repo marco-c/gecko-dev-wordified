@@ -614,8 +614,7 @@ HandleObject
 obj
 HandleId
 id
-Value
-*
+MutableHandleValue
 vp
 )
 {
@@ -784,6 +783,10 @@ obj
 id
 old
 vp
+.
+address
+(
+)
 closure
 )
 ;

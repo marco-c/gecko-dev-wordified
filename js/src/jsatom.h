@@ -2559,8 +2559,7 @@ idval
 jsid
 *
 idp
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -2583,8 +2582,11 @@ jsid
 idp
 )
 {
-Value
+RootedValue
 dummy
+(
+cx
+)
 ;
 return
 InternNonIntElementId

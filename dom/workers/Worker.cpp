@@ -572,8 +572,8 @@ JS_NewObject
 (
 aCx
 aClass
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 if
@@ -752,8 +752,7 @@ JSHandleObject
 aObj
 JSHandleId
 aIdval
-jsval
-*
+JSMutableHandleValue
 aVp
 )
 {
@@ -868,9 +867,10 @@ listener
 )
 ;
 }
-*
 aVp
-=
+.
+set
+(
 listener
 ?
 OBJECT_TO_JSVAL
@@ -879,6 +879,7 @@ listener
 )
 :
 JSVAL_NULL
+)
 ;
 return
 true
@@ -897,8 +898,7 @@ JSHandleId
 aIdval
 JSBool
 aStrict
-jsval
-*
+JSMutableHandleValue
 aVp
 )
 {
@@ -977,7 +977,6 @@ if
 JS_ValueToObject
 (
 aCx
-*
 aVp
 &
 listener

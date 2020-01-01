@@ -4872,11 +4872,7 @@ obj
 JSObject
 *
 pobj
-js
-:
-:
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -4892,11 +4888,7 @@ HandleObject
 receiver
 bool
 strict
-js
-:
-:
-Value
-*
+MutableHandleValue
 vp
 )
 ;

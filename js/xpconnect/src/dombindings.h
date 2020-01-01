@@ -744,8 +744,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;

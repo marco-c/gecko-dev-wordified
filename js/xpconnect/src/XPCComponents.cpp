@@ -477,7 +477,7 @@ v
 )
 &
 &
-nullptr
+nsnull
 !
 =
 (
@@ -655,7 +655,7 @@ xpc_CloneAllAccess
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 /
@@ -1140,7 +1140,7 @@ array
 *
 aArray
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1175,7 +1175,7 @@ retval
 *
 retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -1205,7 +1205,7 @@ aContractID
 *
 aContractID
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -1295,7 +1295,7 @@ aClassID
 *
 aClassID
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -1798,7 +1798,7 @@ name
 name
 &
 &
-nullptr
+nsnull
 !
 =
 (
@@ -2137,8 +2137,8 @@ OBJECT_TO_JSVAL
 (
 idobj
 )
-nullptr
-nullptr
+nsnull
+nsnull
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -2254,7 +2254,7 @@ NO
 *
 _retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -2310,7 +2310,7 @@ NO
 *
 _retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -2366,7 +2366,7 @@ NO
 *
 _retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -2931,7 +2931,7 @@ array
 *
 aArray
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2966,7 +2966,7 @@ retval
 *
 retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -2996,7 +2996,7 @@ aContractID
 *
 aContractID
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -3086,7 +3086,7 @@ aClassID
 *
 aClassID
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -3737,7 +3737,7 @@ jschar
 *
 name
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -3762,7 +3762,7 @@ id
 )
 &
 &
-nullptr
+nsnull
 !
 =
 (
@@ -3958,8 +3958,8 @@ OBJECT_TO_JSVAL
 (
 idobj
 )
-nullptr
-nullptr
+nsnull
+nsnull
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -4074,7 +4074,7 @@ NO
 *
 _retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -4130,7 +4130,7 @@ NO
 *
 _retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -4186,7 +4186,7 @@ NO
 *
 _retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -4736,7 +4736,7 @@ array
 *
 aArray
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -4771,7 +4771,7 @@ retval
 *
 retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -4801,7 +4801,7 @@ aContractID
 *
 aContractID
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -4891,7 +4891,7 @@ aClassID
 *
 aClassID
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -5664,8 +5664,8 @@ OBJECT_TO_JSVAL
 (
 idobj
 )
-nullptr
-nullptr
+nsnull
+nsnull
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -6226,7 +6226,7 @@ array
 *
 aArray
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -6261,7 +6261,7 @@ retval
 *
 retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -6291,7 +6291,7 @@ aContractID
 *
 aContractID
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -6381,7 +6381,7 @@ aClassID
 *
 aClassID
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -7242,8 +7242,8 @@ OBJECT_TO_JSVAL
 (
 idobj
 )
-nullptr
-nullptr
+nsnull
+nsnull
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -7676,7 +7676,7 @@ array
 *
 aArray
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -7711,7 +7711,7 @@ retval
 *
 retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -7741,7 +7741,7 @@ aContractID
 *
 aContractID
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -7831,7 +7831,7 @@ aClassID
 *
 aClassID
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -8151,7 +8151,7 @@ void
 *
 space
 =
-nullptr
+nsnull
 ;
 *
 statep
@@ -8194,10 +8194,10 @@ nsXPCException
 :
 IterateNSResults
 (
-nullptr
+nsnull
 &
 name
-nullptr
+nsnull
 iter
 )
 )
@@ -8364,7 +8364,7 @@ void
 *
 iter
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -8380,7 +8380,7 @@ IterateNSResults
 rv
 &
 rv_name
-nullptr
+nsnull
 &
 iter
 )
@@ -8430,8 +8430,8 @@ cx
 obj
 id
 val
-nullptr
-nullptr
+nsnull
+nsnull
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -8881,7 +8881,7 @@ array
 *
 aArray
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -8916,7 +8916,7 @@ retval
 *
 retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -8946,7 +8946,7 @@ aContractID
 *
 aContractID
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -9036,7 +9036,7 @@ aClassID
 *
 aClassID
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -10149,7 +10149,7 @@ array
 *
 aArray
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -10184,7 +10184,7 @@ retval
 *
 retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -10214,7 +10214,7 @@ aContractID
 *
 aContractID
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -10304,7 +10304,7 @@ aClassID
 *
 aClassID
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -11773,7 +11773,7 @@ JSObject
 *
 newObj
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -12466,7 +12466,7 @@ array
 *
 aArray
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -12501,7 +12501,7 @@ retval
 *
 retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -12531,7 +12531,7 @@ aContractID
 *
 aContractID
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -12621,7 +12621,7 @@ aClassID
 *
 aClassID
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -12771,7 +12771,7 @@ aInitializer
 1
 )
 :
-nullptr
+nsnull
 ;
 }
 nsXPCConstructor
@@ -13913,7 +13913,7 @@ array
 *
 aArray
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -13948,7 +13948,7 @@ retval
 *
 retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -13978,7 +13978,7 @@ aContractID
 *
 aContractID
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -14068,7 +14068,7 @@ aClassID
 *
 aClassID
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -14665,7 +14665,7 @@ char
 *
 cInitializer
 =
-nullptr
+nsnull
 ;
 JSAutoByteString
 cInitializerBytes
@@ -14780,7 +14780,7 @@ JSObject
 *
 ifacesObj
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -15171,7 +15171,7 @@ JSObject
 *
 classesObj
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -15410,7 +15410,7 @@ JSObject
 *
 newObj
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -15868,7 +15868,7 @@ nsXPCComponents_utils_Sandbox
 *
 aSandbox
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -16767,7 +16767,7 @@ fileName
 get
 (
 )
-nullptr
+nsnull
 lineNo
 0
 0
@@ -17557,8 +17557,7 @@ JSHandleObject
 obj
 JSType
 type
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -17570,12 +17569,14 @@ type
 JSTYPE_OBJECT
 )
 {
-*
 vp
-=
+.
+set
+(
 OBJECT_TO_JSVAL
 (
 obj
+)
 )
 ;
 return
@@ -17648,8 +17649,8 @@ SandboxImport
 0
 }
 {
-nullptr
-nullptr
+nsnull
+nsnull
 0
 0
 }
@@ -18447,7 +18448,7 @@ ObjectValue
 *
 callable
 )
-nullptr
+nsnull
 sandboxProtoProxy
 callable
 callable
@@ -18630,8 +18631,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;
@@ -18648,8 +18648,7 @@ JSHandleId
 id
 JSBool
 strict
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;
@@ -19128,7 +19127,7 @@ desc
 >
 obj
 =
-nullptr
+nsnull
 ;
 return
 true
@@ -19593,7 +19592,7 @@ options
 .
 proto
 )
-nullptr
+nsnull
 sandbox
 )
 ;
@@ -21357,7 +21356,7 @@ nsAXPCNativeCallContext
 *
 cc
 =
-nullptr
+nsnull
 ;
 xpc
 -
@@ -23042,7 +23041,7 @@ JSString
 *
 str
 =
-nullptr
+nsnull
 ;
 JSBool
 ok
@@ -23329,7 +23328,7 @@ callers
 .
 str
 =
-nullptr
+nsnull
 ;
 }
 else
@@ -23830,7 +23829,7 @@ JSContext
 *
 iter
 =
-nullptr
+nsnull
 ;
 while
 (
@@ -24506,8 +24505,8 @@ obj
 JS_NewObject
 (
 cx
-nullptr
-nullptr
+nsnull
+nsnull
 scope
 )
 ;
@@ -25391,7 +25390,7 @@ lookupMethod
 "
 evalInSandbox
 "
-nullptr
+nsnull
 }
 ;
 *
@@ -25445,7 +25444,7 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -25501,7 +25500,7 @@ NO
 *
 _retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -26312,7 +26311,7 @@ array
 *
 aArray
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -26389,7 +26388,7 @@ aContractID
 *
 aContractID
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -26479,7 +26478,7 @@ aClassID
 *
 aClassID
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -26592,39 +26591,39 @@ aScope
 )
 mInterfaces
 (
-nullptr
+nsnull
 )
 mInterfacesByID
 (
-nullptr
+nsnull
 )
 mClasses
 (
-nullptr
+nsnull
 )
 mClassesByID
 (
-nullptr
+nsnull
 )
 mResults
 (
-nullptr
+nsnull
 )
 mID
 (
-nullptr
+nsnull
 )
 mException
 (
-nullptr
+nsnull
 )
 mConstructor
 (
-nullptr
+nsnull
 )
 mUtils
 (
-nullptr
+nsnull
 )
 {
 MOZ_ASSERT
@@ -26826,7 +26825,7 @@ a
 #
 _n
 =
-nullptr
+nsnull
 ;
 \
 return
@@ -27299,8 +27298,8 @@ cx
 obj
 id
 JSVAL_VOID
-nullptr
-nullptr
+nsnull
+nsnull
 JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT
@@ -27876,8 +27875,8 @@ ccx
 aGlobal
 id
 v
-nullptr
-nullptr
+nsnull
+nsnull
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
@@ -28160,7 +28159,7 @@ isSuccessCode
 "
 lookupMethod
 "
-nullptr
+nsnull
 }
 ;
 *
@@ -28229,7 +28228,7 @@ interfacesByID
 "
 results
 "
-nullptr
+nsnull
 }
 ;
 *
@@ -28295,7 +28294,7 @@ NO
 *
 _retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK

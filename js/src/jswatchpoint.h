@@ -385,8 +385,7 @@ HandleObject
 obj
 HandleId
 id
-Value
-*
+MutableHandleValue
 vp
 )
 ;

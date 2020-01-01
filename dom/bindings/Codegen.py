@@ -4674,8 +4674,7 @@ id
 Argument
 (
 '
-jsval
-*
+JSMutableHandleValue
 '
 '
 vp

@@ -253,12 +253,9 @@ jschar
 chars
 size_t
 length
-const
-Value
-&
+HandleValue
 filter
-Value
-*
+MutableHandleValue
 vp
 DecodingMode
 decodingMode

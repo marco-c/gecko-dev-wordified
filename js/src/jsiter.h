@@ -637,8 +637,7 @@ HandleObject
 obj
 unsigned
 flags
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -655,8 +654,7 @@ flags
 AutoIdVector
 &
 props
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -673,8 +671,7 @@ flags
 AutoIdVector
 &
 props
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -724,8 +721,7 @@ flags
 AutoIdVector
 &
 props
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -793,8 +789,7 @@ JSContext
 cx
 unsigned
 flags
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -946,8 +941,7 @@ iterobj
 js
 :
 :
-Value
-*
+MutableHandleValue
 rval
 )
 ;
@@ -964,8 +958,7 @@ iterobj
 js
 :
 :
-Value
-*
+MutableHandleValue
 rval
 )
 ;
@@ -1038,8 +1031,7 @@ JSContext
 cx
 HandleObject
 iter
-Value
-*
+MutableHandleValue
 vp
 )
 {
@@ -1059,8 +1051,7 @@ false
 if
 (
 vp
--
->
+.
 toBoolean
 (
 )
@@ -1074,8 +1065,7 @@ vp
 )
 ;
 vp
--
->
+.
 setMagic
 (
 JS_NO_ITER_VALUE
@@ -1320,11 +1310,8 @@ ValueToIterator
 (
 cx
 JSITER_FOR_OF
+&
 iterv
-.
-address
-(
-)
 )
 ;
 iterator
@@ -1380,11 +1367,8 @@ Next
 (
 cx
 iterator
+&
 currentValue
-.
-address
-(
-)
 )
 ;
 return

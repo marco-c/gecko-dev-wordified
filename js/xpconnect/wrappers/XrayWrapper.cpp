@@ -893,7 +893,7 @@ Not
 found
 .
 return
-nullptr
+nsnull
 ;
 }
 /
@@ -965,7 +965,7 @@ isSandbox
 ?
 consumerGlobal
 :
-nullptr
+nsnull
 )
 ;
 }
@@ -1085,7 +1085,7 @@ JS_NewObjectWithGivenProto
 cx
 &
 ExpandoObjectClass
-nullptr
+nsnull
 target
 )
 ;
@@ -1095,7 +1095,7 @@ if
 expandoObject
 )
 return
-nullptr
+nsnull
 ;
 /
 /
@@ -1313,7 +1313,7 @@ target
 )
 )
 return
-nullptr
+nsnull
 ;
 JSObject
 *
@@ -1447,7 +1447,7 @@ isSandbox
 ?
 consumerGlobal
 :
-nullptr
+nsnull
 )
 ;
 }
@@ -1489,7 +1489,7 @@ dst
 )
 =
 =
-nullptr
+nsnull
 )
 ;
 JSObject
@@ -1602,7 +1602,7 @@ JS_NewObjectWithGivenProto
 cx
 &
 HolderClass
-nullptr
+nsnull
 parent
 )
 ;
@@ -1612,7 +1612,7 @@ if
 holder
 )
 return
-nullptr
+nsnull
 ;
 JSObject
 *
@@ -2303,7 +2303,7 @@ if
 createHolder
 )
 return
-nullptr
+nsnull
 ;
 return
 createHolderObject
@@ -2573,7 +2573,7 @@ if
 createHolder
 )
 return
-nullptr
+nsnull
 ;
 return
 createHolderObject
@@ -3058,8 +3058,7 @@ JSHandleObject
 wrapper_
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -3139,6 +3138,10 @@ cx
 wrapper
 id
 vp
+.
+address
+(
+)
 &
 retval
 )
@@ -3189,8 +3192,7 @@ JSHandleId
 id
 JSBool
 strict
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -3287,6 +3289,10 @@ cx
 wrapper
 id
 vp
+.
+address
+(
+)
 &
 retval
 )
@@ -3408,7 +3414,7 @@ ccx
 JS_CALLER
 cx
 wnObject
-nullptr
+nsnull
 id
 )
 ;
@@ -3974,8 +3980,7 @@ JSHandleObject
 wrapper
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -4011,12 +4016,14 @@ return
 false
 ;
 }
-*
 vp
-=
+.
+set
+(
 OBJECT_TO_JSVAL
 (
 wrapper
+)
 )
 ;
 return
@@ -4027,6 +4034,10 @@ WaiveXrayAndWrap
 (
 cx
 vp
+.
+address
+(
+)
 )
 ;
 }
@@ -4119,7 +4130,7 @@ WrapNativeToJSVal
 cx
 scope
 uri
-nullptr
+nsnull
 &
 NS_GET_IID
 (
@@ -4127,7 +4138,7 @@ nsIURI
 )
 true
 vp
-nullptr
+nsnull
 )
 ;
 if
@@ -4166,8 +4177,7 @@ JSHandleObject
 wrapper
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -4285,6 +4295,10 @@ WrapURI
 cx
 uri
 vp
+.
+address
+(
+)
 )
 ;
 }
@@ -4299,8 +4313,7 @@ JSHandleObject
 wrapper
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -4418,6 +4431,10 @@ WrapURI
 cx
 uri
 vp
+.
+address
+(
+)
 )
 ;
 }
@@ -4432,8 +4449,7 @@ JSHandleObject
 wrapper
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -4547,7 +4563,7 @@ node
 NodePrincipal
 (
 )
-nullptr
+nsnull
 &
 NS_GET_IID
 (
@@ -4555,7 +4571,11 @@ nsIPrincipal
 )
 true
 vp
-nullptr
+.
+address
+(
+)
+nsnull
 )
 ;
 if
@@ -6412,8 +6432,8 @@ obj
 JS_NewObjectWithGivenProto
 (
 cx
-nullptr
-nullptr
+nsnull
+nsnull
 JS_GetGlobalForObject
 (
 cx
@@ -6427,7 +6447,7 @@ if
 obj
 )
 return
-nullptr
+nsnull
 ;
 js
 :
@@ -6838,8 +6858,8 @@ obj
 JS_NewObjectWithGivenProto
 (
 cx
-nullptr
-nullptr
+nsnull
+nsnull
 JS_GetGlobalForObject
 (
 cx
@@ -6853,7 +6873,7 @@ if
 obj
 )
 return
-nullptr
+nsnull
 ;
 js
 :
@@ -8342,7 +8362,7 @@ obj
 ?
 wrapper
 :
-nullptr
+nsnull
 ;
 return
 JS_WrapPropertyDescriptor
@@ -9576,7 +9596,7 @@ ccx
 JS_CALLER
 cx
 wrapper
-nullptr
+nsnull
 JSID_VOID
 argc
 vp
@@ -9745,7 +9765,7 @@ ccx
 JS_CALLER
 cx
 wrapper
-nullptr
+nsnull
 JSID_VOID
 argc
 argv

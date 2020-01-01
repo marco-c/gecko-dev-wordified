@@ -510,9 +510,7 @@ HandleObject
 obj
 uint32_t
 index
-const
-Value
-*
+HandleValue
 value
 PropertyOp
 getter
@@ -533,8 +531,7 @@ HandleObject
 obj
 uint32_t
 index
-Value
-*
+MutableHandleValue
 rval
 JSBool
 strict
@@ -571,6 +568,13 @@ calling
 js_GetLengthProperty
 on
 aobj
+.
+vp
+must
+point
+to
+rooted
+memory
 .
 *
 /
