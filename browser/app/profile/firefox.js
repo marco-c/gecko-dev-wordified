@@ -3247,7 +3247,7 @@ urlbar
 .
 autoFill
 "
-false
+true
 )
 ;
 /
