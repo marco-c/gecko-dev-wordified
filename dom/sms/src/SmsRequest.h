@@ -423,11 +423,14 @@ mResult
 bool
 mResultRooted
 ;
-PRInt32
-mError
-;
 bool
 mDone
+;
+nsCOMPtr
+<
+nsIDOMDOMError
+>
+mError
 ;
 nsCOMPtr
 <
