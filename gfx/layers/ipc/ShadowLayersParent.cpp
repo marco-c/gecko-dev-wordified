@@ -1052,7 +1052,7 @@ CreateShadowThebesLayer
 layer
 -
 >
-SetParent
+SetAllocator
 (
 this
 )
@@ -1164,7 +1164,7 @@ CreateShadowImageLayer
 layer
 -
 >
-SetParent
+SetAllocator
 (
 this
 )
@@ -1276,7 +1276,7 @@ CreateShadowCanvasLayer
 layer
 -
 >
-SetParent
+SetAllocator
 (
 this
 )
