@@ -6236,7 +6236,7 @@ signalName
 NS_LITERAL_STRING
 (
 "
-PairedStatusChagned
+PairedStatusChanged
 "
 )
 ;
