@@ -3408,6 +3408,12 @@ else
 {
 this
 .
+downloading
+=
+true
+;
+this
+.
 _fireEvent
 (
 "
