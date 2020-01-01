@@ -2637,6 +2637,9 @@ to
 a
 vector
 .
+uint32
+gcNumber
+;
 enum
 {
 NoApplyTricks
