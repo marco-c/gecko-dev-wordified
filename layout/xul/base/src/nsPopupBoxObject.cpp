@@ -777,13 +777,6 @@ when
 setting
 the
 width
-and
-skip
-setting
-/
-/
-the
-height
 .
 bool
 heightSame
