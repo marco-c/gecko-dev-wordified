@@ -132,7 +132,9 @@ offline
 =
 true
 ;
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -148,7 +150,9 @@ enable
 false
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -391,7 +395,9 @@ function
 (
 )
 {
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -407,7 +413,9 @@ enable
 true
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
