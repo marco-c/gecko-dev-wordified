@@ -2346,7 +2346,7 @@ char
 *
 p
 =
-reinterpret_cast
+static_cast
 <
 char
 *
@@ -2592,7 +2592,7 @@ char
 *
 p
 =
-reinterpret_cast
+static_cast
 <
 char
 *
