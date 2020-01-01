@@ -2486,7 +2486,7 @@ nsAccessibilityAtoms
 :
 :
 aria_activedescendant
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 }
 {
 &
@@ -2510,17 +2510,25 @@ nsAccessibilityAtoms
 :
 :
 aria_checked
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 |
 ATTR_VALTOKEN
 }
+/
+*
+exposes
+checkable
+obj
+attr
+*
+/
 {
 &
 nsAccessibilityAtoms
 :
 :
 aria_controls
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 }
 {
 &
@@ -2528,7 +2536,7 @@ nsAccessibilityAtoms
 :
 :
 aria_describedby
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 }
 {
 &
@@ -2536,7 +2544,7 @@ nsAccessibilityAtoms
 :
 :
 aria_disabled
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 |
 ATTR_VALTOKEN
 }
@@ -2554,7 +2562,7 @@ nsAccessibilityAtoms
 :
 :
 aria_expanded
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 |
 ATTR_VALTOKEN
 }
@@ -2564,7 +2572,7 @@ nsAccessibilityAtoms
 :
 :
 aria_flowto
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 }
 {
 &
@@ -2580,7 +2588,7 @@ nsAccessibilityAtoms
 :
 :
 aria_haspopup
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 |
 ATTR_VALTOKEN
 }
@@ -2590,7 +2598,7 @@ nsAccessibilityAtoms
 :
 :
 aria_invalid
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 |
 ATTR_VALTOKEN
 }
@@ -2600,7 +2608,7 @@ nsAccessibilityAtoms
 :
 :
 aria_labelledby
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 }
 {
 &
@@ -2616,7 +2624,7 @@ nsAccessibilityAtoms
 :
 :
 aria_multiline
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 |
 ATTR_VALTOKEN
 }
@@ -2626,7 +2634,7 @@ nsAccessibilityAtoms
 :
 :
 aria_multiselectable
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 |
 ATTR_VALTOKEN
 }
@@ -2636,7 +2644,7 @@ nsAccessibilityAtoms
 :
 :
 aria_owns
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 }
 {
 &
@@ -2644,7 +2652,7 @@ nsAccessibilityAtoms
 :
 :
 aria_pressed
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 |
 ATTR_VALTOKEN
 }
@@ -2654,7 +2662,7 @@ nsAccessibilityAtoms
 :
 :
 aria_readonly
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 |
 ATTR_VALTOKEN
 }
@@ -2664,7 +2672,7 @@ nsAccessibilityAtoms
 :
 :
 aria_relevant
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 }
 {
 &
@@ -2672,7 +2680,7 @@ nsAccessibilityAtoms
 :
 :
 aria_required
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 |
 ATTR_VALTOKEN
 }
@@ -2682,7 +2690,7 @@ nsAccessibilityAtoms
 :
 :
 aria_selected
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 |
 ATTR_VALTOKEN
 }
@@ -2700,7 +2708,7 @@ nsAccessibilityAtoms
 :
 :
 aria_valuenow
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 }
 {
 &
@@ -2708,7 +2716,7 @@ nsAccessibilityAtoms
 :
 :
 aria_valuemin
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 }
 {
 &
@@ -2716,7 +2724,7 @@ nsAccessibilityAtoms
 :
 :
 aria_valuemax
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 }
 {
 &
@@ -2724,7 +2732,7 @@ nsAccessibilityAtoms
 :
 :
 aria_valuetext
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 }
 }
 ;
