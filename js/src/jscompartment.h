@@ -791,6 +791,10 @@ private
 :
 friend
 struct
+JSRuntime
+;
+friend
+struct
 JSContext
 ;
 js

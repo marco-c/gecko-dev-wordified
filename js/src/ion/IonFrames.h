@@ -1331,7 +1331,6 @@ class_
 /
 /
 These
-two
 functions
 are
 implemented
@@ -1348,6 +1347,12 @@ FromDepth
 (
 uint32
 frameDepth
+)
+;
+static
+FrameSizeClass
+ClassLimit
+(
 )
 ;
 uint32

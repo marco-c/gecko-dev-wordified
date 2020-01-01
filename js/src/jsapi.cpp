@@ -4006,6 +4006,10 @@ NULL
 )
 #
 endif
+ionRuntime_
+(
+NULL
+)
 selfHostedGlobal_
 (
 NULL
@@ -5193,6 +5197,16 @@ JS_METHODJIT
 js_delete
 (
 jaegerRuntime_
+)
+;
+#
+endif
+#
+ifdef
+JS_ION
+js_delete
+(
+ionRuntime_
 )
 ;
 #
