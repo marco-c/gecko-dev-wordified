@@ -526,6 +526,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsIDOMXPathNSResolver
+.
+h
+"
 class
 nsDOMAttribute
 ;
@@ -561,6 +568,8 @@ public
 nsIDOMAttr
 public
 nsIDOM3Attr
+public
+nsIDOMXPathNSResolver
 {
 public
 :
