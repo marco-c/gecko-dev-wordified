@@ -1064,11 +1064,6 @@ doc
 doc
 -
 >
-PropertyTable
-(
-)
--
->
 DeleteAllPropertiesFor
 (
 this
