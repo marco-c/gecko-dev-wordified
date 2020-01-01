@@ -612,7 +612,7 @@ display
 *
 /
 nsSize
-GetIntrinsicSize
+GetVideoIntrinsicSize
 (
 nsIRenderingContext
 *
