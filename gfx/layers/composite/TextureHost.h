@@ -195,6 +195,9 @@ class
 TextureSourceOGL
 ;
 class
+TextureSourceBasic
+;
+class
 TextureParent
 ;
 /
@@ -494,6 +497,17 @@ virtual
 TextureSourceOGL
 *
 AsSourceOGL
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+TextureSourceBasic
+*
+AsSourceBasic
 (
 )
 {

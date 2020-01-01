@@ -2365,6 +2365,9 @@ CachedFileDescriptorInfo
 class
 CachedFileDescriptorCallbackRunnable
 ;
+TextureFactoryIdentifier
+mTextureFactoryIdentifier
+;
 nsCOMPtr
 <
 nsIWebNavigation
