@@ -1802,10 +1802,10 @@ PropertyProvider
 aProvider
 const
 nscolor
-&
+*
 aOverrideColor
 =
-0
+nsnull
 )
 ;
 /
