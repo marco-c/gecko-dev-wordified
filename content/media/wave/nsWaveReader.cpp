@@ -1140,9 +1140,6 @@ if
 mSampleFormat
 =
 =
-nsAudioStream
-:
-:
 FORMAT_U8
 )
 {
@@ -1222,9 +1219,6 @@ if
 mSampleFormat
 =
 =
-nsAudioStream
-:
-:
 FORMAT_S16
 )
 {
@@ -2969,9 +2963,6 @@ sampleFormat
 {
 mSampleFormat
 =
-nsAudioStream
-:
-:
 FORMAT_U8
 ;
 }
@@ -2979,9 +2970,6 @@ else
 {
 mSampleFormat
 =
-nsAudioStream
-:
-:
 FORMAT_S16
 ;
 }
