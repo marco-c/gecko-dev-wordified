@@ -1953,11 +1953,6 @@ handlerInfo
 new
 nsMIMEInfoBeOS
 (
-aScheme
-nsMIMEInfoBase
-:
-:
-eProtocolInfo
 )
 ;
 NS_ENSURE_TRUE
