@@ -18734,7 +18734,6 @@ margin
 ;
 DoReflow
 (
-false
 )
 ;
 aDesiredSize
@@ -18801,7 +18800,6 @@ return
 }
 UpdateGlyphPositioning
 (
-true
 )
 ;
 nsPresContext
@@ -19597,7 +19595,6 @@ now
 .
 UpdateGlyphPositioning
 (
-true
 )
 ;
 }
@@ -20402,7 +20399,6 @@ tested
 )
 UpdateGlyphPositioning
 (
-true
 )
 ;
 }
@@ -20752,7 +20748,6 @@ necessary
 .
 UpdateGlyphPositioning
 (
-false
 )
 ;
 nsPresContext
@@ -21237,7 +21232,6 @@ frame
 ;
 UpdateGlyphPositioning
 (
-true
 )
 ;
 gfxRect
@@ -21955,7 +21949,6 @@ aContent
 {
 UpdateGlyphPositioning
 (
-false
 )
 ;
 uint32_t
@@ -22049,7 +22042,6 @@ aContent
 {
 UpdateGlyphPositioning
 (
-false
 )
 ;
 float
@@ -22175,7 +22167,6 @@ nchars
 {
 UpdateGlyphPositioning
 (
-false
 )
 ;
 /
@@ -22355,7 +22346,6 @@ aResult
 {
 UpdateGlyphPositioning
 (
-false
 )
 ;
 /
@@ -22776,7 +22766,6 @@ aPoint
 {
 UpdateGlyphPositioning
 (
-false
 )
 ;
 nsPresContext
@@ -22953,7 +22942,6 @@ aResult
 {
 UpdateGlyphPositioning
 (
-false
 )
 ;
 CharIterator
@@ -23076,7 +23064,6 @@ aResult
 {
 UpdateGlyphPositioning
 (
-false
 )
 ;
 CharIterator
@@ -23302,7 +23289,6 @@ aResult
 {
 UpdateGlyphPositioning
 (
-false
 )
 ;
 CharIterator
@@ -23637,7 +23623,6 @@ aResult
 {
 UpdateGlyphPositioning
 (
-false
 )
 ;
 CharIterator
@@ -29571,8 +29556,6 @@ nsSVGTextFrame2
 :
 UpdateGlyphPositioning
 (
-bool
-aForceGlobalTransform
 )
 {
 nsIFrame
@@ -29712,7 +29695,6 @@ PresContext
 ;
 DoReflow
 (
-aForceGlobalTransform
 )
 ;
 }
@@ -29733,8 +29715,6 @@ nsSVGTextFrame2
 :
 DoReflow
 (
-bool
-aForceGlobalTransform
 )
 {
 /
@@ -29974,7 +29954,6 @@ return
 ;
 UpdateFontSizeScaleFactor
 (
-aForceGlobalTransform
 )
 ;
 nscoord
@@ -30151,8 +30130,6 @@ nsSVGTextFrame2
 :
 UpdateFontSizeScaleFactor
 (
-bool
-aForceGlobalTransform
 )
 {
 nsPresContext
@@ -30341,9 +30318,6 @@ m
 ;
 if
 (
-aForceGlobalTransform
-|
-|
 !
 (
 GetStateBits
@@ -30352,6 +30326,12 @@ GetStateBits
 &
 NS_STATE_SVG_NONDISPLAY_CHILD
 )
+|
+|
+mGetCanvasTMForFlag
+!
+=
+FOR_OUTERSVG_TM
 )
 {
 m
@@ -30858,7 +30838,6 @@ frame
 ;
 UpdateGlyphPositioning
 (
-true
 )
 ;
 nsPresContext
@@ -31391,7 +31370,6 @@ frame
 ;
 UpdateGlyphPositioning
 (
-true
 )
 ;
 nsPresContext
@@ -31898,7 +31876,6 @@ frame
 ;
 UpdateGlyphPositioning
 (
-true
 )
 ;
 nsPresContext
