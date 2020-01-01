@@ -1227,6 +1227,7 @@ chromeWindow
 provider
 url
 callback
+mode
 )
 {
 if
@@ -1258,11 +1259,12 @@ chromeWindow
 .
 SocialChatBar
 .
-newChat
+openChat
 (
 provider
 fullURL
 callback
+mode
 )
 ;
 }
