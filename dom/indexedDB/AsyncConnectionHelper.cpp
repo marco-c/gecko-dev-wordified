@@ -2138,6 +2138,7 @@ mTransaction
 >
 Abort
 (
+NS_ERROR_DOM_INDEXEDDB_ABORT_ERR
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2340,6 +2341,7 @@ mTransaction
 >
 Abort
 (
+NS_ERROR_DOM_INDEXEDDB_ABORT_ERR
 )
 )
 )
