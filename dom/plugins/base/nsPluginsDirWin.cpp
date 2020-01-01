@@ -1219,10 +1219,14 @@ filename
 uint32_t
 extLength
 =
+extension
+?
 strlen
 (
 extension
 )
+:
+0
 ;
 if
 (
