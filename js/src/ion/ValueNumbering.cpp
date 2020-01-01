@@ -1671,8 +1671,6 @@ false
 }
 MDefinitionIterator
 i
-=
-MDefinitionIterator
 (
 block
 )
