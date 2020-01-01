@@ -2230,9 +2230,6 @@ status
 NPPVpluginWantsAllNetworkStreams
 =
 18
-NPPVprivateModeBool
-=
-19
 #
 ifdef
 XP_MACOSX
