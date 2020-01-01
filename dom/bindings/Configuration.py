@@ -1396,6 +1396,20 @@ register
 True
 )
         
+self
+.
+hasXPConnectImpls
+=
+desc
+.
+get
+(
+'
+hasXPConnectImpls
+'
+False
+)
+        
 #
 If
 we
