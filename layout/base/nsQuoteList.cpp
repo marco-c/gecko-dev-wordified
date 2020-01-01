@@ -510,7 +510,7 @@ nsStyleQuotes
 *
 styleQuotes
 =
-mStyleContext
+mPseudoFrame
 -
 >
 GetStyleQuotes
