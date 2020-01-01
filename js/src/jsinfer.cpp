@@ -18682,8 +18682,9 @@ protoTypes
 proto
 -
 >
-type
+getType
 (
+cx
 )
 -
 >
@@ -18713,8 +18714,9 @@ types
 proto
 -
 >
-type
+getType
 (
+cx
 )
 -
 >
