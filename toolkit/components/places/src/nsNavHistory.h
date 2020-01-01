@@ -3967,7 +3967,7 @@ InitFunctions
 )
 ;
 nsresult
-InitStatements
+InitTriggers
 (
 )
 ;
