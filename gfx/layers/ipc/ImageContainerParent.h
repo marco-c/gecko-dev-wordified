@@ -215,9 +215,6 @@ public
 :
 ImageContainerParent
 (
-ImageBridgeParent
-*
-aBridge
 PRUint32
 aContainerID
 )
@@ -836,10 +833,6 @@ private
 :
 PRUint64
 mID
-;
-ImageBridgeParent
-*
-mBridge
 ;
 bool
 mStop

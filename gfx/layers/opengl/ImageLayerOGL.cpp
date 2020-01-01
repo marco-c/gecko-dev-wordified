@@ -6781,7 +6781,7 @@ mSharedHandle
 ;
 mSharedHandle
 =
-NULL
+0
 ;
 }
 mExternalBufferTexture
