@@ -373,6 +373,11 @@ NS_LITERAL_STRING
 "
 "
 )
+NS_LITERAL_STRING
+(
+"
+"
+)
 )
 ;
 fontGroup
