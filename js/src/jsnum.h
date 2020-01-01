@@ -431,13 +431,6 @@ define
 jsnum_h___
 #
 include
-"
-jsstdint
-.
-h
-"
-#
-include
 <
 math
 .
