@@ -7012,7 +7012,9 @@ function
 /
 Force
 the
-addon
+add
+-
+ons
 manager
 panel
 to
@@ -7025,7 +7027,7 @@ so
 the
 /
 /
-xptinstall
+xpinstall
 and
 download
 observers
@@ -7064,7 +7066,7 @@ container
 Kick
 off
 the
-xptinstall
+xpinstall
 var
 mgr
 =
