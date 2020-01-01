@@ -894,9 +894,11 @@ Utils
 queryAsync
 (
 getQuery
+[
 "
 guid
 "
+]
 )
 [
 0
@@ -1112,7 +1114,7 @@ createStatement
 (
 "
 SELECT
-1
+guid
 FROM
 moz_formhistory
 WHERE
@@ -1120,6 +1122,8 @@ guid
 =
 :
 guid
+LIMIT
+1
 "
 )
 ;
@@ -1137,6 +1141,11 @@ Utils
 queryAsync
 (
 query
+[
+"
+guid
+"
+]
 )
 .
 length
