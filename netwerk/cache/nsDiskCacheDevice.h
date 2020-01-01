@@ -150,6 +150,9 @@ class
 nsDiskCacheMap
 ;
 class
+nsIMemoryReporter
+;
+class
 nsDiskCacheDevice
 :
 public
@@ -560,6 +563,12 @@ mInitialized
 ;
 bool
 mClearingDiskCache
+;
+nsCOMPtr
+<
+nsIMemoryReporter
+>
+mReporter
 ;
 }
 ;
