@@ -1224,6 +1224,9 @@ IsInvalidName
 void
 AddNameElement
 (
+nsIDocument
+*
+aDocument
 Element
 *
 aElement
