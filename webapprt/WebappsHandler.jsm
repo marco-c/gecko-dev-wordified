@@ -557,7 +557,6 @@ confirmInstall
 (
 data
 localDir
-null
 function
 (
 aManifest
