@@ -907,6 +907,9 @@ Bindings
 class
 Nursery
 ;
+class
+StaticBlockObject
+;
 /
 *
 Limit

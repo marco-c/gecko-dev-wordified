@@ -921,7 +921,10 @@ pc
 )
 -
 >
-asStaticBlock
+as
+<
+StaticBlockObject
+>
 (
 )
 .
@@ -6852,7 +6855,10 @@ blockChain
 blockChain
 -
 >
-asStaticBlock
+as
+<
+StaticBlockObject
+>
 (
 )
 .

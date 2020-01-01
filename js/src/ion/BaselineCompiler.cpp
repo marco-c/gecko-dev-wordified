@@ -11937,7 +11937,10 @@ pc
 )
 -
 >
-asStaticBlock
+as
+<
+StaticBlockObject
+>
 (
 )
 ;
