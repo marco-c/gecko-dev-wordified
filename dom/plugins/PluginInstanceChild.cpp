@@ -7344,13 +7344,13 @@ for
 deleting
 ourself
 mBrowserStream
+-
+>
+mStreamNotify
 =
 NULL
 ;
 mBrowserStream
--
->
-mStreamNotify
 =
 NULL
 ;
