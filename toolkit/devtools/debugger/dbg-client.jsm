@@ -1122,6 +1122,13 @@ consoleAPICall
 consoleAPICall
 "
 "
+eventNotification
+"
+:
+"
+eventNotification
+"
+"
 fileActivity
 "
 :
@@ -1176,13 +1183,6 @@ pageError
 :
 "
 pageError
-"
-"
-profilerStateChanged
-"
-:
-"
-profilerStateChanged
 "
 }
 ;
