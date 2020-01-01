@@ -426,6 +426,17 @@ WindowGfx_h__
 #
 define
 WindowGfx_h__
+/
+*
+*
+nsWindowGfx
+-
+Painting
+and
+aceleration
+.
+*
+/
 #
 include
 "

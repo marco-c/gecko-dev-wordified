@@ -421,6 +421,17 @@ BLOCK
 *
 /
 /
+*
+*
+nsWindowGfx
+-
+Painting
+and
+aceleration
+.
+*
+/
+/
 /
 XXX
 Future
