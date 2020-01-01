@@ -10471,7 +10471,9 @@ return
 0
 ;
 }
+const
 nsRect
+&
 GetClipRect
 (
 )
