@@ -512,7 +512,7 @@ virtual
 bool
 finalizeInBackground
 (
-HandleValue
+Value
 priv
 )
 {
