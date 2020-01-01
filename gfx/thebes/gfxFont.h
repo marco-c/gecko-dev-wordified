@@ -6708,6 +6708,13 @@ return
 1
 ;
 }
+gfxFloat
+SynthesizeSpaceWidth
+(
+PRUint32
+aCh
+)
+;
 /
 /
 Font
