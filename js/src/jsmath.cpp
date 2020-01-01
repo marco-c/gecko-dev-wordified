@@ -5040,16 +5040,6 @@ jssite
 ;
 if
 (
-!
-site
--
->
-returnTypes
-)
-return
-;
-if
-(
 site
 -
 >

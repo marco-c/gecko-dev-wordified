@@ -21516,16 +21516,6 @@ if
 site
 -
 >
-returnTypes
-)
-return
-;
-if
-(
-!
-site
--
->
 hasGlobal
 (
 )

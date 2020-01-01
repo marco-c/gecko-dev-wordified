@@ -19527,7 +19527,7 @@ sp
 /
 *
 *
-Prune
+Break
 type
 barriers
 at
@@ -19633,7 +19633,7 @@ cx
 )
 -
 >
-pruneTypeBarriers
+breakTypeBarriers
 (
 f
 .
@@ -19652,6 +19652,7 @@ script
 -
 >
 code
+false
 )
 ;
 }
