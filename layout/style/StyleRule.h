@@ -2257,6 +2257,13 @@ GetDOMRule
 (
 )
 ;
+virtual
+nsIDOMCSSRule
+*
+GetExistingDOMRule
+(
+)
+;
 /
 /
 The
