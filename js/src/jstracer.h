@@ -2479,7 +2479,7 @@ tm
 ;
 extern
 void
-js_DestroyJIT
+js_FinishJIT
 (
 JSTraceMonitor
 *
