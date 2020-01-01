@@ -26922,7 +26922,6 @@ cyrillic
 "
 "
 Times
-CY
 "
 )
 ;
@@ -26943,7 +26942,6 @@ cyrillic
 "
 "
 Helvetica
-CY
 "
 )
 ;
@@ -26962,7 +26960,6 @@ cyrillic
 "
 "
 Monaco
-CY
 "
 )
 ;
@@ -26981,7 +26978,6 @@ cyrillic
 "
 "
 Geneva
-CY
 "
 )
 ;
@@ -27021,7 +27017,6 @@ cyrillic
 "
 "
 Times
-CY
 "
 )
 ;
@@ -27044,7 +27039,6 @@ cyrillic
 "
 "
 Helvetica
-CY
 "
 )
 ;
@@ -27065,7 +27059,6 @@ cyrillic
 "
 "
 Monaco
-CY
 "
 )
 ;
@@ -27086,7 +27079,6 @@ cyrillic
 "
 "
 Geneva
-CY
 "
 )
 ;
