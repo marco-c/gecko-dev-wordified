@@ -4830,7 +4830,7 @@ js_NewEmptyArray
 )
 JS_DECLARE_CALLINFO
 (
-js_NewArrayWithSlots
+js_NewPreallocatedArray
 )
 JS_DECLARE_CALLINFO
 (
