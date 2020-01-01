@@ -265,7 +265,10 @@ mStack
 Push
 (
 cx
-false
+nsCxPusher
+:
+:
+ALWAYS_PUSH
 )
 ;
 }
