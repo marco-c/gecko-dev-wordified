@@ -8020,15 +8020,6 @@ endif
 DEBUG
 *
 /
-void
-MarkNonNativePropertyFound
-(
-HandleObject
-obj
-MutableHandleShape
-propp
-)
-;
 }
 /
 /

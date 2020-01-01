@@ -6567,11 +6567,9 @@ obj2
 cx
 )
 ;
-RootedShape
+JSProperty
+*
 prop
-(
-cx
-)
 ;
 RootedId
 id
@@ -6638,7 +6636,13 @@ isNative
 )
 attrs
 =
+(
+(
+Shape
+*
+)
 prop
+)
 -
 >
 attributes
