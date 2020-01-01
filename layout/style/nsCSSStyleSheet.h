@@ -768,9 +768,6 @@ Sheet
 /
 /
 class
-CSSImportsCollectionImpl
-;
-class
 CSSRuleListImpl
 ;
 static
@@ -1439,10 +1436,6 @@ mOwnerRule
 /
 weak
 ref
-CSSImportsCollectionImpl
-*
-mImportsCollection
-;
 CSSRuleListImpl
 *
 mRuleCollection
