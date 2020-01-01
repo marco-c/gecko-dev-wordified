@@ -266,6 +266,15 @@ nsISSLStatusProvider
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 static
 const
 char
@@ -1509,6 +1518,7 @@ ChallengeReceived
 .
 class
 nsNTLMSessionState
+MOZ_FINAL
 :
 public
 nsISupports

@@ -132,6 +132,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 Use
@@ -201,6 +210,7 @@ attributes
 .
 class
 nsProxyInfo
+MOZ_FINAL
 :
 public
 nsIProxyInfo

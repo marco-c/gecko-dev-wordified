@@ -155,6 +155,15 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIChannel
 ;
@@ -197,6 +206,7 @@ callback
 /
 class
 nsAsyncRedirectVerifyHelper
+MOZ_FINAL
 :
 public
 nsIRunnable

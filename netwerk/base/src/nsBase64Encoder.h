@@ -76,6 +76,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -113,6 +122,7 @@ data
 /
 class
 nsBase64Encoder
+MOZ_FINAL
 :
 public
 nsIOutputStream

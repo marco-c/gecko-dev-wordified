@@ -319,6 +319,15 @@ NullHttpTransaction
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -34749,6 +34758,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 class
 nsHttpChannelCacheKey
+MOZ_FINAL
 :
 public
 nsISupportsPRUint32

@@ -34,6 +34,15 @@ prlog
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 if
 defined
 (
@@ -74,6 +83,7 @@ args
 )
 class
 MyStreamLoaderObserver
+MOZ_FINAL
 :
 public
 nsIStreamLoaderObserver

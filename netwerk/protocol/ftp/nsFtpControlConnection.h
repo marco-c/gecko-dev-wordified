@@ -181,6 +181,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIProxyInfo
 ;
@@ -295,6 +304,7 @@ status
 ;
 class
 nsFtpControlConnection
+MOZ_FINAL
 :
 public
 nsIInputStreamCallback

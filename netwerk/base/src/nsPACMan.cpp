@@ -486,6 +486,7 @@ nsPACMan
 mPendingQ
 class
 PendingPACQuery
+MOZ_FINAL
 :
 public
 PRCList

@@ -122,6 +122,15 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIIDNService
 ;
@@ -395,6 +404,7 @@ mData
 ;
 class
 nsEffectiveTLDService
+MOZ_FINAL
 :
 public
 nsIEffectiveTLDService

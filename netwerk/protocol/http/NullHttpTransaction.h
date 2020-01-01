@@ -141,6 +141,15 @@ nsHttpRequestHead
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 This
@@ -200,6 +209,7 @@ net
 {
 class
 NullHttpTransaction
+MOZ_FINAL
 :
 public
 nsAHttpTransaction

@@ -107,6 +107,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 CID
@@ -126,6 +135,7 @@ f455dee342af
 /
 class
 nsDirIndex
+MOZ_FINAL
 :
 public
 nsIDirIndex

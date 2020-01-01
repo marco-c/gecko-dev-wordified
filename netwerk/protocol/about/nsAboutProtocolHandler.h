@@ -113,6 +113,15 @@ nsSimpleNestedURI
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsCString
 ;
@@ -155,6 +164,7 @@ nsAboutProtocolHandler
 ;
 class
 nsSafeAboutProtocolHandler
+MOZ_FINAL
 :
 public
 nsIProtocolHandler

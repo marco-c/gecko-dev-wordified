@@ -206,6 +206,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsISimpleEnumerator
 .
 h
@@ -297,6 +306,7 @@ NS_IEQUALS_IID
 )
 class
 ConsumerContext
+MOZ_FINAL
 :
 public
 nsIEquals

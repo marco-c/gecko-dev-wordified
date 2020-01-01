@@ -182,6 +182,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nspr
 .
 h
@@ -643,6 +652,7 @@ data
 /
 class
 EndListener
+MOZ_FINAL
 :
 public
 nsIStreamListener

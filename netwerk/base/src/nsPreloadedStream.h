@@ -241,6 +241,15 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -249,6 +258,7 @@ net
 {
 class
 nsPreloadedStream
+MOZ_FINAL
 :
 public
 nsIAsyncInputStream

@@ -182,6 +182,15 @@ prenv
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 -
@@ -263,6 +272,7 @@ h
 -
 class
 FetchObserver
+MOZ_FINAL
 :
 public
 nsIRequestObserver

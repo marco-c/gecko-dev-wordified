@@ -118,6 +118,13 @@ aAuthType
 )
 {
 }
+virtual
+~
+nsAuthInformationHolder
+(
+)
+{
+}
 NS_DECL_ISUPPORTS
 NS_DECL_NSIAUTHINFORMATION
 const

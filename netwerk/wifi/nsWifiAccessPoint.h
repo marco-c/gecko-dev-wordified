@@ -85,6 +85,15 @@ nsCOMArray
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifndef
 __nsWifiAccessPoint__
 #
@@ -92,6 +101,7 @@ define
 __nsWifiAccessPoint__
 class
 nsWifiAccessPoint
+MOZ_FINAL
 :
 public
 nsIWifiAccessPoint

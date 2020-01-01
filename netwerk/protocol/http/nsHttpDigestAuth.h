@@ -126,6 +126,15 @@ nsCOMPtr
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 ALGO_SPECIFIED
 0x01
@@ -320,6 +329,7 @@ nsHttpDigestAuth
 -
 class
 nsHttpDigestAuth
+MOZ_FINAL
 :
 public
 nsIHttpAuthenticator

@@ -172,6 +172,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -2812,6 +2821,7 @@ a
 connection
 class
 nsHalfOpenSocket
+MOZ_FINAL
 :
 public
 nsIOutputStreamCallback

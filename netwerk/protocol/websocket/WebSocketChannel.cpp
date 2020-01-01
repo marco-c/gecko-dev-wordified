@@ -303,6 +303,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 plbase64
 .
 h
@@ -664,6 +673,7 @@ CallOnMessageAvailable
 -
 class
 CallOnMessageAvailable
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -933,6 +943,7 @@ CallOnStop
 -
 class
 CallOnStop
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -1182,6 +1193,7 @@ CallOnServerClose
 -
 class
 CallOnServerClose
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -1430,6 +1442,7 @@ CallAcknowledge
 -
 class
 CallAcknowledge
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -1686,6 +1699,7 @@ CallOnTransportAvailable
 -
 class
 CallOnTransportAvailable
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -2617,6 +2631,7 @@ OutboundEnqueuer
 -
 class
 OutboundEnqueuer
+MOZ_FINAL
 :
 public
 nsIRunnable

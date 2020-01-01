@@ -83,6 +83,15 @@ nsIRequestObserver
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 Wrapper
@@ -112,6 +121,7 @@ and
 .
 class
 nsStreamListenerWrapper
+MOZ_FINAL
 :
 public
 nsIStreamListener
