@@ -1294,8 +1294,12 @@ cx
 )
 ;
 return
-rv
+NS_OK
 ;
+/
+/
+silently
+fail
 }
 mAllowed
 =
