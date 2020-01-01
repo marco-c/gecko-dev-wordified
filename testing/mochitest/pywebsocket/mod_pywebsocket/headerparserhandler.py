@@ -1008,8 +1008,8 @@ it
 is
 the
 default
-name
     
+name
 for
 a
 PythonHeaderParserHandler
@@ -1018,6 +1018,10 @@ PythonHeaderParserHandler
 "
 "
 "
+    
+handshake_is_done
+=
+False
     
 try
 :
@@ -1039,25 +1043,21 @@ _PYOPT_ALLOW_DRAFT75
 None
 )
         
-handshaker
-=
 handshake
 .
-Handshaker
+do_handshake
 (
+            
 request
 _dispatcher
-                                          
 allowDraft75
 =
 allowDraft75
 )
         
-handshaker
-.
-do_handshake
-(
-)
+handshake_is_done
+=
+True
         
 request
 .
@@ -1082,49 +1082,26 @@ apache
 APLOG_DEBUG
 )
         
-try
-:
-            
+request
+.
+_dispatcher
+=
+_dispatcher
+        
 _dispatcher
 .
 transfer_data
 (
 request
 )
-        
+    
 except
-Exception
+dispatch
+.
+DispatchException
 e
 :
-            
-#
-Catch
-exception
-in
-transfer_data
-.
-            
-#
-In
-this
-case
-handshake
-has
-been
-successful
-so
-just
-log
-the
-            
-#
-exception
-and
-return
-apache
-.
-DONE
-            
+        
 request
 .
 log_error
@@ -1141,11 +1118,45 @@ apache
 .
 APLOG_WARNING
 )
+        
+if
+not
+handshake_is_done
+:
+            
+return
+e
+.
+status
     
 except
 handshake
 .
-HandshakeError
+AbortedByUserException
+e
+:
+        
+request
+.
+log_error
+(
+'
+mod_pywebsocket
+:
+%
+s
+'
+%
+e
+apache
+.
+APLOG_INFO
+)
+    
+except
+handshake
+.
+HandshakeException
 e
 :
         
@@ -1159,16 +1170,14 @@ failed
 .
         
 #
-But
-the
+The
 request
-can
-be
-valid
+handling
+fallback
+into
 http
 /
 https
-request
 .
         
 request
@@ -1189,14 +1198,12 @@ APLOG_INFO
 )
         
 return
-apache
+e
 .
-DECLINED
+status
     
 except
-dispatch
-.
-DispatchError
+Exception
 e
 :
         
@@ -1217,10 +1224,33 @@ apache
 APLOG_WARNING
 )
         
+#
+Unknown
+exceptions
+before
+handshake
+mean
+Apache
+must
+handle
+its
+        
+#
+request
+with
+another
+handler
+.
+        
+if
+not
+handshake_is_done
+:
+            
 return
 apache
 .
-DECLINED
+DECLINE
     
 #
 Set

@@ -427,6 +427,9 @@ message
 end
 =
 True
+binary
+=
+False
 )
 :
     
@@ -449,7 +452,10 @@ request
 message
 :
 unicode
-string
+text
+or
+str
+binary
 to
 send
 .
@@ -468,8 +474,8 @@ All
 messages
 until
 the
-first
              
+first
 call
 with
 end
@@ -483,8 +489,8 @@ be
 delivered
 to
 the
-client
              
+client
 in
 separate
 frames
@@ -493,6 +499,15 @@ as
 one
 WebSocket
 message
+.
+        
+binary
+:
+send
+message
+as
+binary
+frame
 .
     
 Raises
@@ -518,6 +533,7 @@ send_message
 (
 message
 end
+binary
 )
 def
 receive_message
@@ -538,8 +554,16 @@ return
 its
 payload
 as
+a
+text
+in
+    
 unicode
-string
+or
+a
+binary
+in
+str
 .
     
 Args
@@ -624,10 +648,10 @@ receive
 messages
 :
 blocking
+    
 non
 -
 blocking
-    
 and
 via
 callback
@@ -750,8 +774,8 @@ MessageReceiver
 receive_nowait
 are
 useless
-because
                        
+because
 they
 will
 never
