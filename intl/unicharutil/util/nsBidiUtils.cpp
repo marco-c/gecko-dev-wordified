@@ -1695,7 +1695,7 @@ gArabicMapEx
 06B7
 0x00
 0x00
-0x00
+0x9E
 0xA0
 0x00
 0x00
@@ -2273,7 +2273,7 @@ eDJ
 -
 0647
 eRJ
-eRJ
+eDJ
 eDJ
 eTr
 eTr
@@ -2291,14 +2291,14 @@ eTr
 eTr
 eTr
 eTr
-eNJ
-eNJ
+eTr
+eTr
 /
 /
 0650
 -
 0657
-eNJ
+eTr
 eNJ
 eNJ
 eNJ
@@ -2456,7 +2456,7 @@ eNJ
 06B7
 eNJ
 eNJ
-eNJ
+eDJ
 eDJ
 eNJ
 eNJ
@@ -2511,8 +2511,8 @@ eTr
 eTr
 eTr
 eTr
-eTr
-eTr
+eNJ
+eNJ
 eTr
 /
 /
