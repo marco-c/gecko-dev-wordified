@@ -1884,7 +1884,7 @@ not
 isinstance
 (
 stmt
-list
+tuple
 )
         
 self
@@ -3642,6 +3642,14 @@ expr
 op
 )
 :
+        
+assert
+not
+isinstance
+(
+expr
+tuple
+)
         
 self
 .
