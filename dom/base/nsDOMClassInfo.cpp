@@ -965,13 +965,6 @@ h
 #
 include
 "
-nsIDOMLinkStyle
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLDocument
 .
 h
