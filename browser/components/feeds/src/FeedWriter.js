@@ -1916,7 +1916,6 @@ Calls
 doCommand
 for
 a
-the
 given
 XUL
 element

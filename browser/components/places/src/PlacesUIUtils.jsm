@@ -9104,7 +9104,6 @@ annoObj
 Transaction
 for
 editing
-a
 the
 description
 of
