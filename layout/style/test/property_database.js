@@ -1061,6 +1061,9 @@ medium
 currentColor
 "
 "
+thin
+"
+"
 none
 medium
 currentcolor
@@ -1071,9 +1074,6 @@ other_values
 [
 "
 solid
-"
-"
-thin
 "
 "
 green
@@ -2383,6 +2383,9 @@ medium
 currentColor
 "
 "
+thin
+"
+"
 none
 medium
 currentcolor
@@ -2393,9 +2396,6 @@ other_values
 [
 "
 solid
-"
-"
-thin
 "
 "
 green
@@ -6814,6 +6814,9 @@ medium
 currentColor
 "
 "
+thin
+"
+"
 none
 medium
 currentcolor
@@ -6907,6 +6910,9 @@ medium
 currentColor
 "
 "
+thin
+"
+"
 none
 medium
 currentcolor
@@ -6917,9 +6923,6 @@ other_values
 [
 "
 solid
-"
-"
-thin
 "
 "
 green
@@ -7423,6 +7426,9 @@ medium
 currentColor
 "
 "
+thin
+"
+"
 none
 medium
 currentcolor
@@ -7433,9 +7439,6 @@ other_values
 [
 "
 solid
-"
-"
-thin
 "
 "
 green
@@ -7761,6 +7764,9 @@ medium
 currentColor
 "
 "
+thin
+"
+"
 none
 medium
 currentcolor
@@ -7771,9 +7777,6 @@ other_values
 [
 "
 solid
-"
-"
-thin
 "
 "
 green
@@ -8324,6 +8327,9 @@ medium
 currentColor
 "
 "
+thin
+"
+"
 none
 medium
 currentcolor
@@ -8334,9 +8340,6 @@ other_values
 [
 "
 solid
-"
-"
-thin
 "
 "
 green
@@ -12072,6 +12075,9 @@ none
 "
 "
 medium
+"
+"
+thin
 "
 /
 /
