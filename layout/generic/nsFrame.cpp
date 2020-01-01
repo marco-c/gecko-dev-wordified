@@ -2849,7 +2849,7 @@ Release
 /
 /
 nsISupports
-nsresult
+NS_IMETHODIMP
 nsFrame
 :
 :
@@ -2896,14 +2896,9 @@ aInstancePtr
 =
 NS_STATIC_CAST
 (
-void
-*
-NS_STATIC_CAST
-(
 nsIFrameDebug
 *
 this
-)
 )
 ;
 return
@@ -2941,14 +2936,9 @@ aInstancePtr
 =
 NS_STATIC_CAST
 (
-void
-*
-NS_STATIC_CAST
-(
 nsIFrame
 *
 this
-)
 )
 ;
 return
@@ -2961,7 +2951,7 @@ aInstancePtr
 nsnull
 ;
 return
-NS_NOINTERFACE
+NS_ERROR_NO_INTERFACE
 ;
 }
 nsrefcnt

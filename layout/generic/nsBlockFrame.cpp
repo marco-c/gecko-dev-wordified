@@ -2364,6 +2364,11 @@ rv
 )
 )
 {
+*
+aInstancePtr
+=
+nsnull
+;
 NS_RELEASE
 (
 it
@@ -2378,14 +2383,9 @@ aInstancePtr
 =
 NS_STATIC_CAST
 (
-void
-*
-NS_STATIC_CAST
-(
 nsILineIteratorNavigator
 *
 it
-)
 )
 ;
 return
