@@ -519,13 +519,13 @@ GonkRecorder
 *
 mRecorder
 ;
-PRUint32
+uint32_t
 mVideoRotation
 ;
-PRUint32
+uint32_t
 mVideoWidth
 ;
-PRUint32
+uint32_t
 mVideoHeight
 ;
 nsString

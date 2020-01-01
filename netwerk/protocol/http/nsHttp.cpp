@@ -1794,7 +1794,7 @@ nsHttp
 :
 IsPermanentRedirect
 (
-PRUint32
+uint32_t
 httpStatus
 )
 {
@@ -1817,7 +1817,7 @@ nsHttp
 :
 ShouldRewriteRedirectToGET
 (
-PRUint32
+uint32_t
 httpStatus
 nsHttpAtom
 method

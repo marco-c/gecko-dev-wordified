@@ -175,9 +175,9 @@ BluetoothRILTelephonyCallback
 :
 CallStateChanged
 (
-PRUint32
+uint32_t
 aCallIndex
-PRUint16
+uint16_t
 aCallState
 const
 nsAString
@@ -226,9 +226,9 @@ BluetoothRILTelephonyCallback
 :
 EnumerateCallState
 (
-PRUint32
+uint32_t
 aCallIndex
-PRUint16
+uint16_t
 aCallState
 const
 nsAString_internal
@@ -256,7 +256,7 @@ BluetoothRILTelephonyCallback
 :
 NotifyError
 (
-PRInt32
+int32_t
 aCallIndex
 const
 nsAString

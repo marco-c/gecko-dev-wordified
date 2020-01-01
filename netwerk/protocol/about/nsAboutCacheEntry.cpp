@@ -3545,7 +3545,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 n
 ;
 NS_NAMED_LITERAL_CSTRING
