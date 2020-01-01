@@ -74,7 +74,7 @@ this
 ;
 requestLongerTimeout
 (
-5
+2
 )
 ;
 runTests

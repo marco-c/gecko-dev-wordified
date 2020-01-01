@@ -1365,11 +1365,6 @@ setDevPixelEqualToPx
 (
 )
 ;
-requestLongerTimeout
-(
-3
-)
-;
 runTests
 (
 )

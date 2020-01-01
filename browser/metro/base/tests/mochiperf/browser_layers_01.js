@@ -72,11 +72,6 @@ js
 this
 )
 ;
-requestLongerTimeout
-(
-5
-)
-;
 runTests
 (
 )

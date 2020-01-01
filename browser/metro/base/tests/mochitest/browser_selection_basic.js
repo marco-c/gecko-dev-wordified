@@ -2028,11 +2028,6 @@ run
 return
 ;
 }
-requestLongerTimeout
-(
-3
-)
-;
 runTests
 (
 )
