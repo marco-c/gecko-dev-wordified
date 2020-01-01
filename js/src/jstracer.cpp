@@ -16995,6 +16995,7 @@ tempAlloc
 .
 reset
 (
+true
 )
 ;
 traceMonitor
@@ -52803,6 +52804,7 @@ tempAlloc
 new
 VMAllocator
 (
+65536
 )
 ;
 tm
@@ -52813,6 +52815,7 @@ reTempAlloc
 new
 VMAllocator
 (
+65536
 )
 ;
 tm
