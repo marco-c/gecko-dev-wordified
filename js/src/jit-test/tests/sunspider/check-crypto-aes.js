@@ -2420,6 +2420,13 @@ nonce
 new
 Date
 (
+"
+2000
+-
+01
+-
+01
+"
 )
 )
 .
@@ -2436,6 +2443,12 @@ since
 Jan
 -
 1970
+;
+/
+/
+fixed
+for
+repeatability
 /
 /
 encode
