@@ -1635,6 +1635,8 @@ aKeyboardLayout
 )
 )
 ;
+break
+;
 default
 :
 MOZ_NOT_REACHED
