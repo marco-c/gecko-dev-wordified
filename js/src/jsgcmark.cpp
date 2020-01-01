@@ -5977,4 +5977,14 @@ new_shape
 )
 ;
 }
+if
+(
+functionScript
+)
+js_TraceScript
+(
+trc
+functionScript
+)
+;
 }
