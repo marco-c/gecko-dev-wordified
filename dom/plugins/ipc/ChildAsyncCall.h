@@ -515,7 +515,7 @@ Cancel
 (
 )
 ;
-private
+protected
 :
 PluginInstanceChild
 *
@@ -527,6 +527,11 @@ mFunc
 void
 *
 mData
+;
+void
+RemoveFromAsyncList
+(
+)
 ;
 }
 ;
