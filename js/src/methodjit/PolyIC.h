@@ -3741,17 +3741,6 @@ true
 ifdef
 JS_POLYIC
 void
-PurgePICs
-(
-JSContext
-*
-cx
-JSScript
-*
-script
-)
-;
-void
 JS_FASTCALL
 GetProp
 (
