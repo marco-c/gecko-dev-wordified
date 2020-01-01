@@ -16108,7 +16108,7 @@ frame
 for
 /
 /
-UsedMarginPropeorty
+UsedMarginProperty
 (
 )
 .
@@ -16122,11 +16122,6 @@ though
 .
 .
 ?
-/
-/
-XXXdholbert
-Assuming
-horizontal
 nscoord
 mainPosn
 =
