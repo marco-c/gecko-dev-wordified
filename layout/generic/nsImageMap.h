@@ -615,9 +615,9 @@ const
 void
 Draw
 (
-nsPresContext
+nsIFrame
 *
-aCX
+aFrame
 nsIRenderingContext
 &
 aRC
