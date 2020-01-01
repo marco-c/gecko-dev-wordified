@@ -1596,7 +1596,17 @@ combinations
 flags
 =
 [
-                      
+            
+[
+]
+#
+no
+flags
+normal
+baseline
+and
+ion
+            
 [
 '
 -
@@ -1613,7 +1623,7 @@ implies
 baseline
 -
 eager
-                      
+            
 [
 '
 -
@@ -1623,7 +1633,7 @@ baseline
 eager
 '
 ]
-                      
+            
 [
 '
 -
@@ -1647,7 +1657,7 @@ no
 fpu
 '
 ]
-                      
+            
 [
 '
 -
@@ -1664,7 +1674,7 @@ no
 ion
 '
 ]
-                      
+            
 [
 '
 -
@@ -1688,7 +1698,7 @@ no
 ti
 '
 ]
-                    
+        
 ]
         
 for
