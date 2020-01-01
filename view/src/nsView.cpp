@@ -177,6 +177,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsXULPopupManager
 .
 h
@@ -188,6 +197,10 @@ nsIWidgetListener
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsView
 :
 :
@@ -2319,7 +2332,10 @@ kid
 =
 mFirstChild
 ;
+DebugOnly
+<
 bool
+>
 found
 =
 false
