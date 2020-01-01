@@ -1154,6 +1154,9 @@ delegate
 onRecordStoreFailed
 (
 e
+record
+.
+guid
 )
 ;
 return
@@ -1170,6 +1173,9 @@ delegate
 onRecordStoreFailed
 (
 e
+record
+.
+guid
 )
 ;
 return

@@ -111,6 +111,8 @@ RecordsChannel
 recordsChannel
 Exception
 ex
+String
+recordGuid
 )
 ;
 public

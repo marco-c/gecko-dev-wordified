@@ -2929,6 +2929,9 @@ delegate
 onRecordStoreFailed
 (
 e
+record
+.
+guid
 )
 ;
 return
@@ -3184,11 +3187,16 @@ Exception
 e
 )
 {
+/
+/
+XXX
+TODO
 delegate
 .
 onRecordStoreFailed
 (
 e
+null
 )
 ;
 }
@@ -3675,6 +3683,9 @@ InactiveSessionException
 (
 null
 )
+record
+.
+guid
 )
 ;
 return
@@ -3994,6 +4005,8 @@ delegate
 onRecordStoreSucceeded
 (
 record
+.
+guid
 )
 ;
 return
@@ -4061,6 +4074,8 @@ delegate
 onRecordStoreSucceeded
 (
 record
+.
+guid
 )
 ;
 return
@@ -4225,6 +4240,8 @@ delegate
 onRecordStoreSucceeded
 (
 record
+.
+guid
 )
 ;
 return
@@ -4341,6 +4358,8 @@ delegate
 onRecordStoreSucceeded
 (
 record
+.
+guid
 )
 ;
 return
@@ -4412,6 +4431,8 @@ delegate
 onRecordStoreSucceeded
 (
 record
+.
+guid
 )
 ;
 return
@@ -4480,6 +4501,8 @@ delegate
 onRecordStoreSucceeded
 (
 record
+.
+guid
 )
 ;
 return
@@ -4565,6 +4588,9 @@ delegate
 onRecordStoreFailed
 (
 e
+record
+.
+guid
 )
 ;
 return
