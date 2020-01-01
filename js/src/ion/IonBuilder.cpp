@@ -20413,7 +20413,7 @@ pop
 )
 ;
 }
-MCallGetPropertyOrName
+MCallGetNameInstruction
 *
 ins
 ;
