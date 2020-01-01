@@ -2167,6 +2167,9 @@ nsCSSValue
 mOverflowY
 ;
 nsCSSValue
+mPointerEvents
+;
+nsCSSValue
 mVisibility
 ;
 nsCSSValue
@@ -3437,9 +3440,6 @@ mMarkerStart
 ;
 nsCSSValue
 mMask
-;
-nsCSSValue
-mPointerEvents
 ;
 nsCSSValue
 mShapeRendering
