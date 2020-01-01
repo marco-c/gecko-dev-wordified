@@ -8631,7 +8631,7 @@ x
 )
 )
 return
-NS_ERROR_DOM_SYNTAX_ERR
+NS_OK
 ;
 CurrentState
 (
@@ -8698,7 +8698,7 @@ y
 )
 )
 return
-NS_ERROR_DOM_SYNTAX_ERR
+NS_OK
 ;
 CurrentState
 (
@@ -8763,12 +8763,8 @@ FloatValidate
 (
 blur
 )
-)
-return
-NS_ERROR_DOM_SYNTAX_ERR
-;
-if
-(
+|
+|
 blur
 <
 0
