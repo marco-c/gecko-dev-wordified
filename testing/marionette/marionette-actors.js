@@ -10454,6 +10454,7 @@ nsIFrameLoaderOwner
 frameLoader
 .
 messageManager
+;
 /
 /
 See
