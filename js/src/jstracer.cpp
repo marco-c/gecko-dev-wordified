@@ -38133,6 +38133,15 @@ requestDepth
 ;
 #
 endif
+LIns
+*
+exit
+=
+snapshot
+(
+BRANCH_EXIT
+)
+;
 /
 /
 Emit
@@ -38245,7 +38254,7 @@ kshape
 )
 "
 )
-MISMATCH_EXIT
+exit
 )
 ;
 }
@@ -38370,7 +38379,7 @@ kobj
 )
 "
 )
-MISMATCH_EXIT
+exit
 )
 ;
 }
@@ -38493,7 +38502,7 @@ ins_eq0
 (
 obj2_ins
 )
-MISMATCH_EXIT
+exit
 )
 ;
 }
@@ -38587,7 +38596,7 @@ vshape
 )
 "
 )
-MISMATCH_EXIT
+exit
 )
 ;
 }
