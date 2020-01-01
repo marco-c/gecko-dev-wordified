@@ -1437,6 +1437,10 @@ mCacheDirectory
 PRUint32
 mCacheCapacity
 ;
+/
+/
+in
+bytes
 PRInt32
 mDeltaCounter
 ;

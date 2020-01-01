@@ -1143,6 +1143,10 @@ mDiskCacheEnabled
 PRInt32
 mDiskCacheCapacity
 ;
+/
+/
+in
+kilobytes
 nsCOMPtr
 <
 nsILocalFile
@@ -1155,6 +1159,10 @@ mOfflineCacheEnabled
 PRInt32
 mOfflineCacheCapacity
 ;
+/
+/
+in
+kilobytes
 nsCOMPtr
 <
 nsILocalFile
@@ -1167,6 +1175,10 @@ mMemoryCacheEnabled
 PRInt32
 mMemoryCacheCapacity
 ;
+/
+/
+in
+kilobytes
 PRBool
 mInPrivateBrowsing
 ;
