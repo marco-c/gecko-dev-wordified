@@ -153,12 +153,15 @@ bool
 redundantPhis_
 ;
 bool
+rerunAliasAnalysis_
+;
+bool
 prunePointlessBranchesAndMarkReachableBlocks
 (
 )
 ;
 void
-removeUsesFromUnmarkedBlocks
+checkDependencyAndRemoveUsesFromUnmarkedBlocks
 (
 MDefinition
 *
@@ -200,6 +203,10 @@ marked_
 0
 )
 redundantPhis_
+(
+false
+)
+rerunAliasAnalysis_
 (
 false
 )
