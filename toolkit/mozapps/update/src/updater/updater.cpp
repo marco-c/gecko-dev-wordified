@@ -1721,12 +1721,17 @@ static
 ArchiveReader
 gArchiveReader
 ;
+#
+ifdef
+XP_WIN
 static
 bool
 gSucceeded
 =
 FALSE
 ;
+#
+endif
 static
 const
 char
@@ -7224,6 +7229,9 @@ a
 mNext
 ;
 }
+#
+ifdef
+XP_WIN
 if
 (
 status
@@ -7235,6 +7243,8 @@ gSucceeded
 =
 TRUE
 ;
+#
+endif
 UpdateProgressUI
 (
 100
