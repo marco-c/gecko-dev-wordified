@@ -12617,7 +12617,7 @@ xpc
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
 ;

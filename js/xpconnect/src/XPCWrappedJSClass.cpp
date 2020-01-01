@@ -791,7 +791,7 @@ info
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
 -
@@ -1569,7 +1569,7 @@ info
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
 -
@@ -1829,7 +1829,7 @@ wrapper
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
 -
@@ -4551,7 +4551,7 @@ xpc
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
 ;

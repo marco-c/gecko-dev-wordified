@@ -215,7 +215,7 @@ mXPC
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
 )
@@ -314,7 +314,7 @@ mXPC
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
 )

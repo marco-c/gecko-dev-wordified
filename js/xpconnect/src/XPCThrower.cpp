@@ -1380,7 +1380,7 @@ xpc
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
 )
