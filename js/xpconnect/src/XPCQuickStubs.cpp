@@ -1318,7 +1318,7 @@ JS_GetFunctionObject
 fun
 )
 ;
-js
+JS
 :
 :
 AutoObjectRooter
