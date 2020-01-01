@@ -2681,6 +2681,7 @@ ma_vdtr
 (
 LoadStore
 ls
+const
 Operand
 &
 addr
@@ -2688,6 +2689,8 @@ FloatRegister
 dest
 Condition
 cc
+=
+Always
 )
 ;
 void
@@ -3806,6 +3809,19 @@ const
 ValueOperand
 &
 operand
+const
+FloatRegister
+&
+dest
+)
+;
+void
+loadInt32OrDouble
+(
+const
+Operand
+&
+src
 const
 FloatRegister
 &

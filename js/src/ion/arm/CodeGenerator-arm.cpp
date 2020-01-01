@@ -9847,17 +9847,6 @@ LLoadSlotT
 load
 )
 {
-JS_NOT_REACHED
-(
-"
-loadslott
-NYI
-"
-)
-;
-#
-if
-0
 Register
 base
 =
@@ -9913,7 +9902,7 @@ MIRType_Double
 )
 masm
 .
-movsd
+loadInt32OrDouble
 (
 Operand
 (
@@ -9934,7 +9923,7 @@ output
 else
 masm
 .
-movl
+ma_ldr
 (
 Operand
 (
@@ -9956,11 +9945,6 @@ output
 ;
 return
 true
-;
-#
-endif
-return
-false
 ;
 }
 bool
