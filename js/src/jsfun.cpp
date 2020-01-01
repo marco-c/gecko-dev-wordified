@@ -10464,7 +10464,7 @@ firstword
 &
 &
 !
-js_XDRStringAtom
+js_XDRAtom
 (
 xdr
 &
@@ -11123,7 +11123,7 @@ ok
 =
 !
 !
-js_XDRStringAtom
+js_XDRAtom
 (
 xdr
 &

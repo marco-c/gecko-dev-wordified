@@ -20816,7 +20816,7 @@ shortid
 if
 (
 !
-js_XDRStringAtom
+js_XDRAtom
 (
 xdr
 &
@@ -37161,7 +37161,7 @@ classDef
 &
 &
 !
-js_XDRStringAtom
+js_XDRAtom
 (
 xdr
 &
