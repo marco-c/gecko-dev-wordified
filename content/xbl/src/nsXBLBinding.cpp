@@ -9496,6 +9496,7 @@ nsXBLBinding
 :
 GetInsertionPoint
 (
+const
 nsIContent
 *
 aChild

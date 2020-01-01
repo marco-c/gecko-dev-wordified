@@ -4124,6 +4124,7 @@ aBoundElement
 nsIContent
 *
 aCopyRoot
+const
 nsIContent
 *
 aChild
