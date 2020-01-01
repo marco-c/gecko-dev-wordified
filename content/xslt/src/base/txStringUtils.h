@@ -127,6 +127,13 @@ nsContentUtils
 .
 h
 "
+/
+/
+For
+ASCIIToLower
+(
+)
+.
 typedef
 nsCaseInsensitiveStringComparator
 txCaseInsensitiveStringComparator

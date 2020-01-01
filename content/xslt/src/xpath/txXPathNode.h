@@ -141,6 +141,13 @@ nsContentUtils
 .
 h
 "
+/
+/
+For
+NameSpaceManager
+(
+)
+.
 typedef
 nsIDOMNode
 txXPathNodeType
