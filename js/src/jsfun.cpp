@@ -5909,6 +5909,9 @@ return
 ok
 ;
 }
+#
+ifdef
+JS_ION
 static
 bool
 PushBaselineFunApplyArguments
@@ -6034,6 +6037,8 @@ return
 true
 ;
 }
+#
+endif
 /
 *
 ES5

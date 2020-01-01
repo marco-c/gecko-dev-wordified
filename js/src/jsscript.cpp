@@ -17573,6 +17573,9 @@ needsArgsObj_
 =
 true
 ;
+#
+ifdef
+JS_ION
 /
 *
 *
@@ -17635,6 +17638,8 @@ setNeedsArgsObj
 (
 )
 ;
+#
+endif
 InternalBindingsHandle
 bindings
 (
