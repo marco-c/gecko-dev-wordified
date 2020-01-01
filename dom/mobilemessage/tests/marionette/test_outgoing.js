@@ -819,7 +819,7 @@ event
 log
 (
 "
-SmsRequest
+request
 .
 onsuccess
 event
@@ -834,7 +834,7 @@ event
 .
 target
 instanceof
-MozSmsRequest
+DOMRequest
 "
 event
 .
@@ -1252,7 +1252,7 @@ ok
 (
 request
 instanceof
-MozSmsRequest
+DOMRequest
 "
 request
 is
