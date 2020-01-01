@@ -148,7 +148,7 @@ db
 .
 BrowserContract
 .
-Favicons
+FaviconColumns
 ;
 import
 org
@@ -161,7 +161,7 @@ db
 .
 BrowserContract
 .
-FaviconColumns
+Favicons
 ;
 import
 org

@@ -169,7 +169,7 @@ android
 .
 text
 .
-Spanned
+Selection
 ;
 import
 android
@@ -197,7 +197,7 @@ android
 .
 text
 .
-Selection
+Spanned
 ;
 import
 android

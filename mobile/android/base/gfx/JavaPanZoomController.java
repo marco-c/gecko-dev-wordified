@@ -252,14 +252,14 @@ android
 .
 view
 .
-KeyEvent
+InputDevice
 ;
 import
 android
 .
 view
 .
-InputDevice
+KeyEvent
 ;
 import
 android

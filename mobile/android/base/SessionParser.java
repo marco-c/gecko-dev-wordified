@@ -127,13 +127,6 @@ mozilla
 gecko
 ;
 import
-android
-.
-util
-.
-Log
-;
-import
 org
 .
 json
@@ -153,6 +146,13 @@ org
 json
 .
 JSONObject
+;
+import
+android
+.
+util
+.
+Log
 ;
 public
 abstract

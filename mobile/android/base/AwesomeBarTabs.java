@@ -130,7 +130,7 @@ v4
 .
 view
 .
-ViewPager
+PagerAdapter
 ;
 import
 android
@@ -141,7 +141,7 @@ v4
 .
 view
 .
-PagerAdapter
+ViewPager
 ;
 import
 android

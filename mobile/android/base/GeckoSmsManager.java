@@ -216,13 +216,6 @@ util
 Log
 ;
 import
-java
-.
-util
-.
-ArrayList
-;
-import
 static
 android
 .
@@ -231,6 +224,13 @@ telephony
 SmsMessage
 .
 MessageClass
+;
+import
+java
+.
+util
+.
+ArrayList
 ;
 /
 *
