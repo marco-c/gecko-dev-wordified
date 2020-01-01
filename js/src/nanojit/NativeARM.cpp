@@ -10499,6 +10499,15 @@ stat
 ;
 break
 ;
+default
+:
+NanoAssert
+(
+0
+)
+;
+break
+;
 }
 }
 else
