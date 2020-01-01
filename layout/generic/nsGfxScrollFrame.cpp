@@ -12405,17 +12405,6 @@ dirtyRect
 nsDisplayListCollection
 set
 ;
-nsPresContext
-*
-presContext
-=
-mOuter
--
->
-PresContext
-(
-)
-;
 /
 /
 Since
