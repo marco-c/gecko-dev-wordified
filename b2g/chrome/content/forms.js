@@ -1942,7 +1942,7 @@ element
 =
 =
 =
-this
+self
 .
 focusedElement
 )
