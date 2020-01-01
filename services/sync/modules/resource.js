@@ -684,7 +684,7 @@ headers
 headers
 [
 '
-Authorization
+authorization
 '
 ]
 =
@@ -746,7 +746,7 @@ headers
 headers
 [
 '
-Authorization
+authorization
 '
 ]
 =
@@ -1692,7 +1692,7 @@ key
 =
 =
 '
-Authorization
+authorization
 '
 )
 this
