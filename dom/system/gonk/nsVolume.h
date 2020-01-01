@@ -335,9 +335,7 @@ return
 mName
 ;
 }
-const
-char
-*
+nsCString
 NameStr
 (
 )
@@ -347,10 +345,6 @@ return
 NS_LossyConvertUTF16toASCII
 (
 mName
-)
-.
-get
-(
 )
 ;
 }
@@ -386,9 +380,7 @@ return
 mMountPoint
 ;
 }
-const
-char
-*
+nsCString
 MountPointStr
 (
 )
@@ -398,10 +390,6 @@ return
 NS_LossyConvertUTF16toASCII
 (
 mMountPoint
-)
-.
-get
-(
 )
 ;
 }
