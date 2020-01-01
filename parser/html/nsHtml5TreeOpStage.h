@@ -541,6 +541,16 @@ nsHtml5TreeOperation
 aOpQueue
 )
 ;
+#
+ifdef
+DEBUG
+void
+AssertEmpty
+(
+)
+;
+#
+endif
 private
 :
 nsTArray

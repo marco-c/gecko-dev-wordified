@@ -706,16 +706,6 @@ charPtr
 ;
 break
 ;
-case
-eTreeOpRunScript
-:
-delete
-mTwo
-.
-state
-;
-break
-;
 default
 :
 /
