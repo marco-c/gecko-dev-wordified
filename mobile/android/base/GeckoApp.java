@@ -11718,6 +11718,7 @@ GeckoAppShell
 getEventDispatcher
 (
 )
+this
 )
 ;
 PrefsHelper

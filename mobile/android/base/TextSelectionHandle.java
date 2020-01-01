@@ -251,6 +251,10 @@ IMAGE_LEVEL_RTL
 =
 1
 ;
+private
+GeckoApp
+mActivity
+;
 TextSelectionHandle
 (
 Context
@@ -269,6 +273,13 @@ setOnTouchListener
 (
 this
 )
+;
+mActivity
+=
+(
+GeckoApp
+)
+context
 ;
 TypedArray
 a
@@ -616,9 +627,7 @@ mTouchStartY
 LayerView
 layerView
 =
-GeckoApp
-.
-mAppContext
+mActivity
 .
 getLayerView
 (
@@ -830,9 +839,7 @@ rtl
 LayerView
 layerView
 =
-GeckoApp
-.
-mAppContext
+mActivity
 .
 getLayerView
 (
