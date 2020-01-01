@@ -1302,6 +1302,13 @@ NS_IMPL_ELEMENT_CLONE
 (
 nsHTMLSelectElement
 )
+/
+/
+nsConstraintValidation
+NS_IMPL_NSCONSTRAINTVALIDATION
+(
+nsHTMLSelectElement
+)
 NS_IMETHODIMP
 nsHTMLSelectElement
 :

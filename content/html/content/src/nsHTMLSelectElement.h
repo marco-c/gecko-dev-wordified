@@ -543,6 +543,13 @@ nsIHTMLCollection
 .
 h
 "
+#
+include
+"
+nsConstraintValidation
+.
+h
+"
 /
 /
 PresState
@@ -1401,6 +1408,8 @@ public
 nsIDOMHTMLSelectElement
 public
 nsISelectElement
+public
+nsConstraintValidation
 {
 public
 :

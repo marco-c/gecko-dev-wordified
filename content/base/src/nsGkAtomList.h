@@ -4957,6 +4957,13 @@ oninput
 )
 GK_ATOM
 (
+oninvalid
+"
+oninvalid
+"
+)
+GK_ATOM
+(
 onkeydown
 "
 onkeydown

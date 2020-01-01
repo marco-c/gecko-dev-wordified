@@ -687,6 +687,9 @@ select
 input
 "
 "
+invalid
+"
+"
 text
 "
 "
@@ -6270,6 +6273,15 @@ return
 sEventNames
 [
 eDOMEvents_input
+]
+;
+case
+NS_FORM_INVALID
+:
+return
+sEventNames
+[
+eDOMEvents_invalid
 ]
 ;
 case

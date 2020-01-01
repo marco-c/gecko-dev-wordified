@@ -572,6 +572,7 @@ eDOMEvents_reset
 eDOMEvents_change
 eDOMEvents_select
 eDOMEvents_input
+eDOMEvents_invalid
 eDOMEvents_text
 eDOMEvents_compositionstart
 eDOMEvents_compositionend
