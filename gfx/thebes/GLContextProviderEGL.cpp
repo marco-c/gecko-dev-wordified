@@ -9481,6 +9481,9 @@ surface
 ;
 #
 ifdef
+PCWALTON_BROKEN
+#
+ifdef
 DEBUG
 sEGLLibrary
 .
@@ -9634,6 +9637,8 @@ aWidget
 0
 )
 ;
+#
+endif
 #
 endif
 return
