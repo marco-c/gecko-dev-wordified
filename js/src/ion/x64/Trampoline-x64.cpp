@@ -244,7 +244,7 @@ Value
 argv
 JSObject
 *
-evalScopeChain
+scopeChain
 *
 Value
 *
@@ -328,7 +328,7 @@ ShadowStackSpace
 ;
 const
 Operand
-evalScopeChain
+scopeChain
 =
 Operand
 (
@@ -360,7 +360,7 @@ IntArgReg4
 ;
 const
 Register
-evalScopeChain
+scopeChain
 =
 IntArgReg5
 ;
@@ -1341,7 +1341,7 @@ masm
 .
 movq
 (
-evalScopeChain
+scopeChain
 R1
 .
 scratchReg

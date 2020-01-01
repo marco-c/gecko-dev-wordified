@@ -10635,7 +10635,7 @@ fp
 calleeToken
 /
 *
-evalScopeChain
+scopeChain
 =
 *
 /
@@ -11479,7 +11479,7 @@ fp
 calleeToken
 /
 *
-evalScopeChain
+scopeChain
 =
 *
 /

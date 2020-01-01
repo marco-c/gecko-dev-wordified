@@ -266,7 +266,7 @@ sizeof
 void
 *
 )
-ARG_EVAL_SCOPECHAIN
+ARG_SCOPECHAIN
 =
 7
 *
@@ -1254,7 +1254,7 @@ movl
 Operand
 (
 ebp
-ARG_EVAL_SCOPECHAIN
+ARG_SCOPECHAIN
 )
 R1
 .
