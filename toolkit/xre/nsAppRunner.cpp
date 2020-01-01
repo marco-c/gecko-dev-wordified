@@ -15560,6 +15560,11 @@ dwFlags
 ;
 #
 endif
+PRTime
+gXRE_mainTimestamp
+=
+0
+;
 int
 XRE_main
 (
@@ -15577,6 +15582,12 @@ aAppData
 )
 {
 NS_TIME_FUNCTION
+;
+gXRE_mainTimestamp
+=
+PR_Now
+(
+)
 ;
 #
 ifdef
