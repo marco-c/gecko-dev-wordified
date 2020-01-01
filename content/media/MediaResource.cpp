@@ -5917,6 +5917,10 @@ AssertCurrentThreadOwns
 if
 (
 mSizeInitialized
+|
+|
+!
+mInput
 )
 {
 return
