@@ -3643,7 +3643,7 @@ const
 PRUint32
 bufferSize
 =
-1024
+8192
 ;
 char
 buffer
