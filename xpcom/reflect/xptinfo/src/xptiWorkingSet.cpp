@@ -473,6 +473,17 @@ using
 namespace
 mozilla
 ;
+NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
+(
+XPTMallocSizeOf
+"
+xpti
+-
+working
+-
+set
+"
+)
 static
 PRInt64
 GetXPTArenaSize
@@ -483,6 +494,7 @@ return
 XPT_SizeOfArena
 (
 gXPTIStructArena
+XPTMallocSizeOf
 )
 ;
 }
