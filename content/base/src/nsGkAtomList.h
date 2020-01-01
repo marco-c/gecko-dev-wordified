@@ -12301,9 +12301,6 @@ one
 without
 an
 underscore
-#
-ifndef
-DISABLE_XFORMS_HOOKS
 GK_ATOM
 (
 avg
@@ -12390,8 +12387,6 @@ from
 dateTime
 "
 )
-#
-endif
 /
 /
 Simple

@@ -854,9 +854,6 @@ h
 #
 endif
 #
-ifndef
-DISABLE_XFORMS_HOOKS
-#
 include
 "
 nsXFormsFormControlsAccessible
@@ -870,8 +867,6 @@ nsXFormsWidgetsAccessible
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -9964,9 +9959,6 @@ endif
 /
 /
 MOZ_XUL
-#
-ifndef
-DISABLE_XFORMS_HOOKS
 /
 /
 XForms
@@ -10294,8 +10286,6 @@ aWeakShell
 ;
 break
 ;
-#
-endif
 default
 :
 return
