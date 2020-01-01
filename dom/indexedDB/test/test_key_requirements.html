@@ -1087,7 +1087,13 @@ request
 .
 onerror
 =
-grabEventAndContinueHandler
+new
+ExpectError
+(
+IDBDatabaseException
+.
+CONSTRAINT_ERR
+)
 ;
 request
 .
@@ -1095,6 +1101,8 @@ onsuccess
 =
 unexpectedSuccessHandler
 ;
+event
+=
 yield
 ;
 request
