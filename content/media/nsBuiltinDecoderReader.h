@@ -1192,7 +1192,7 @@ time
 of
 samples
 in
-ms
+usecs
 .
 const
 PRInt64
@@ -1201,7 +1201,7 @@ mDuration
 /
 /
 In
-ms
+usecs
 .
 const
 PRUint32
@@ -1535,7 +1535,7 @@ time
 of
 frame
 in
-milliseconds
+microseconds
 .
 PRInt64
 mTime
@@ -1547,7 +1547,7 @@ time
 of
 frame
 in
-milliseconds
+microseconds
 ;
 PRInt64
 mEndTime
@@ -2247,7 +2247,7 @@ the
 approximate
 number
 of
-milliseconds
+microseconds
 of
 samples
 in
@@ -2789,7 +2789,7 @@ decode
 head
 to
 aTime
-milliseconds
+microseconds
 .
 aStartTime
 and
@@ -2806,7 +2806,7 @@ of
 the
 media
 in
-ms
+usecs
 and
 aCurrentTime
 /
@@ -2817,7 +2817,7 @@ current
 playback
 position
 in
-ms
+microseconds
 .
 virtual
 nsresult
@@ -3003,7 +3003,7 @@ at
 time
 aTarget
 (
-ms
+usecs
 )
 .
 nsresult

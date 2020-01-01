@@ -1419,7 +1419,7 @@ target
 (
 aTarget
 in
-ms
+usecs
 )
 lies
 not
@@ -1436,7 +1436,7 @@ position
 (
 aCurrentTime
 in
-ms
+usecs
 )
 .
 PRBool
@@ -1560,7 +1560,7 @@ mAudioTrack
 /
 Time
 in
-ms
+microseconds
 of
 the
 start
@@ -1575,7 +1575,7 @@ ve
 decoded
 .
 PRInt64
-mAudioStartMs
+mAudioStartUsec
 ;
 /
 /
