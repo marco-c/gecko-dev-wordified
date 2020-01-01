@@ -13175,6 +13175,10 @@ postfix
 JSObject
 *
 proto
+bool
+isFunction
+=
+false
 )
 ;
 /

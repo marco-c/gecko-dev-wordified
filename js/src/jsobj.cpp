@@ -25357,6 +25357,11 @@ proto
 getProto
 (
 )
+clasp
+=
+=
+&
+js_FunctionClass
 )
 ;
 if
