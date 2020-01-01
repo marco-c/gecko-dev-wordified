@@ -1688,13 +1688,11 @@ cx
 nanojit
 :
 :
-Fragmento
-*
-nanojit
-:
-:
 Fragment
 *
+uint8
+*
+typemap
 )
 ;
 ~
