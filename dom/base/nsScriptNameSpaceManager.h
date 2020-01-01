@@ -329,9 +329,18 @@ structs
 .
 bool
 mChromeOnly
+:
+1
+;
+bool
+mAllowXBL
+:
+1
 ;
 bool
 mDisabled
+:
+1
 ;
 union
 {
@@ -634,6 +643,8 @@ int32_t
 aDOMClassInfoID
 bool
 aPrivileged
+bool
+aXBLAllowed
 bool
 aDisabled
 const
