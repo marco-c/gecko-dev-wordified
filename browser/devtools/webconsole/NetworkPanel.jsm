@@ -501,6 +501,8 @@ browser
 /
 content
 /
+devtools
+/
 NetworkPanel
 .
 xhtml

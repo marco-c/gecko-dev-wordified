@@ -189,6 +189,8 @@ browser
 /
 content
 /
+devtools
+/
 orion
 .
 js
