@@ -468,7 +468,7 @@ tabWidth
 160
 tabHeight
 :
-137
+130
 fontSize
 :
 9
