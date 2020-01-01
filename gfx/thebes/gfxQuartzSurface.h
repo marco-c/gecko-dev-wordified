@@ -544,6 +544,16 @@ return
 PR_FALSE
 ;
 }
+virtual
+TextQuality
+GetTextQualityInTransparentSurfaces
+(
+)
+{
+return
+TEXT_QUALITY_OK_OVER_OPAQUE_PIXELS
+;
+}
 const
 gfxSize
 &
