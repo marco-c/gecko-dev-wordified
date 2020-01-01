@@ -5851,6 +5851,13 @@ width
 pageSize
 .
 width
+&
+&
+pageSize
+.
+width
+>
+0
 )
 {
 float
@@ -5893,6 +5900,13 @@ height
 pageSize
 .
 height
+&
+&
+pageSize
+.
+height
+>
+0
 )
 {
 float
