@@ -3951,10 +3951,10 @@ ThebesContext
 (
 )
 ;
-gfxSize
+gfxPoint
 delta
 =
-gfxSize
+gfxPoint
 (
 presContext
 -

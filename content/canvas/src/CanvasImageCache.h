@@ -444,9 +444,13 @@ imgIRequest
 class
 gfxASurface
 ;
-struct
-gfxIntSize
-;
+#
+include
+"
+gfxPoint
+.
+h
+"
 namespace
 mozilla
 {

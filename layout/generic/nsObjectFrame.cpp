@@ -25471,6 +25471,8 @@ InitializeEventRecord
 EventRecord
 *
 event
+:
+:
 Point
 *
 aMousePosition
@@ -31657,6 +31659,8 @@ WidgetToScreenOffset
 (
 )
 ;
+:
+:
 Point
 carbonPt
 =
