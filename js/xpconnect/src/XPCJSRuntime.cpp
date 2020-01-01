@@ -18179,13 +18179,13 @@ mLastActiveTime
 -
 1
 )
-mExceptionManagerNotAvailable
-(
-false
-)
 mJunkScope
 (
 nullptr
+)
+mExceptionManagerNotAvailable
+(
+false
 )
 #
 ifdef
