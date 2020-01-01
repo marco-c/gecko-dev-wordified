@@ -700,9 +700,12 @@ mode
 .
 if
 (
-gPrivateBrowsingUI
+PrivateBrowsingUtils
 .
-privateWindow
+isWindowPrivate
+(
+window
+)
 )
 return
 false
