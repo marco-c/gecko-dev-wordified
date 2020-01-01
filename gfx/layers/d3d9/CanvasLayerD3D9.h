@@ -497,7 +497,7 @@ mTexture
 (
 0
 )
-mGLBufferIsPremultiplied
+mDataIsPremultiplied
 (
 PR_FALSE
 )
@@ -601,7 +601,7 @@ nsIntRect
 mBounds
 ;
 PRPackedBool
-mGLBufferIsPremultiplied
+mDataIsPremultiplied
 ;
 PRPackedBool
 mNeedsYFlip
