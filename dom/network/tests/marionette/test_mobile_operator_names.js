@@ -335,7 +335,9 @@ is
 network
 .
 mcc
+"
 310
+"
 "
 network
 .
@@ -348,7 +350,9 @@ is
 network
 .
 mnc
+"
 260
+"
 "
 network
 .
