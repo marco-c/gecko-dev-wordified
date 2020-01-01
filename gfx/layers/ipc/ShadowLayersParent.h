@@ -271,6 +271,10 @@ EditArray
 &
 cset
 const
+TargetConfig
+&
+targetConfig
+const
 bool
 &
 isFirstPaint
@@ -302,6 +306,10 @@ const
 EditArray
 &
 cset
+const
+TargetConfig
+&
+targetConfig
 const
 bool
 &

@@ -183,6 +183,9 @@ class
 GestureEventListener
 ;
 class
+TargetConfig
+;
+class
 ShadowLayersParent
 ;
 }
@@ -245,6 +248,16 @@ layers
 :
 LayerManager
 LayerManager
+;
+typedef
+mozilla
+:
+:
+layers
+:
+:
+TargetConfig
+TargetConfig
 ;
 typedef
 mozilla
@@ -403,6 +416,10 @@ ShadowLayersUpdated
 ShadowLayersParent
 *
 aLayerTree
+const
+TargetConfig
+&
+aTargetConfig
 bool
 isFirstPaint
 )

@@ -706,6 +706,10 @@ Edit
 &
 cset
 const
+TargetConfig
+&
+targetConfig
+const
 bool
 &
 isFirstPaint
@@ -723,6 +727,7 @@ success
 RecvUpdate
 (
 cset
+targetConfig
 isFirstPaint
 &
 noReplies
@@ -767,6 +772,10 @@ Edit
 >
 &
 cset
+const
+TargetConfig
+&
+targetConfig
 const
 bool
 &
@@ -2660,6 +2669,7 @@ mShadowLayersManager
 ShadowLayersUpdated
 (
 this
+targetConfig
 isFirstPaint
 )
 ;
