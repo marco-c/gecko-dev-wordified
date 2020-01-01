@@ -798,7 +798,7 @@ implementations
 .
 *
 /
-nsresult
+void
 Decoder
 :
 :
@@ -806,11 +806,8 @@ InitInternal
 (
 )
 {
-return
-NS_OK
-;
 }
-nsresult
+void
 Decoder
 :
 :
@@ -824,11 +821,8 @@ PRUint32
 aCount
 )
 {
-return
-NS_OK
-;
 }
-nsresult
+void
 Decoder
 :
 :
@@ -836,9 +830,6 @@ FinishInternal
 (
 )
 {
-return
-NS_OK
-;
 }
 /
 *

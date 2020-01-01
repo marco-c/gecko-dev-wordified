@@ -677,13 +677,13 @@ nsJPEGDecoder
 )
 ;
 virtual
-nsresult
+void
 InitInternal
 (
 )
 ;
 virtual
-nsresult
+void
 WriteInternal
 (
 const
@@ -695,7 +695,7 @@ aCount
 )
 ;
 virtual
-nsresult
+void
 FinishInternal
 (
 )
@@ -709,7 +709,7 @@ aSuccess
 ;
 protected
 :
-nsresult
+void
 OutputScanlines
 (
 PRBool

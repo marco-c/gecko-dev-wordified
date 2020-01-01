@@ -545,7 +545,7 @@ nsIconDecoder
 )
 {
 }
-nsresult
+void
 nsIconDecoder
 :
 :
@@ -582,11 +582,8 @@ OnStartDecode
 nsnull
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 nsIconDecoder
 :
 :
@@ -645,11 +642,8 @@ aSuccess
 PR_FALSE
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 nsIconDecoder
 :
 :
@@ -673,7 +667,6 @@ IsError
 )
 )
 return
-NS_IMAGELIB_ERROR_FAILURE
 ;
 /
 /
@@ -883,7 +876,6 @@ rv
 )
 ;
 return
-rv
 ;
 }
 /
@@ -1041,9 +1033,6 @@ break
 ;
 }
 }
-return
-NS_OK
-;
 }
 void
 nsIconDecoder
