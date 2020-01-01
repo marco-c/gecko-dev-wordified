@@ -438,13 +438,6 @@ h
 #
 include
 "
-nsIDOMTouchEvent
-.
-h
-"
-#
-include
-"
 nsIInlineEventHandlers
 .
 h
