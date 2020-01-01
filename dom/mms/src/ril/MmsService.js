@@ -7237,6 +7237,11 @@ id
 aDomMessage
 .
 id
+threadId
+:
+aDomMessage
+.
+threadId
 delivery
 :
 aDomMessage
@@ -7262,10 +7267,6 @@ timestamp
 aDomMessage
 .
 timestamp
-.
-getTime
-(
-)
 read
 :
 aDomMessage
@@ -7286,6 +7287,11 @@ attachments
 aDomMessage
 .
 attachments
+expiryDate
+:
+aDomMessage
+.
+expiryDate
 }
 )
 ;
