@@ -2213,6 +2213,8 @@ aFontName
 gfxFontStyle
 &
 aFontStyle
+float
+aDevPixPerCSSPixel
 )
 {
 const

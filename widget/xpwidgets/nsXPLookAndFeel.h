@@ -469,6 +469,8 @@ aName
 gfxFontStyle
 &
 aStyle
+float
+aDevPixPerCSSPixel
 )
 =
 0

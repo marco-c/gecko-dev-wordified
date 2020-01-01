@@ -176,6 +176,8 @@ aName
 gfxFontStyle
 &
 aStyle
+float
+aDevPixPerCSSPixel
 )
 ;
 virtual

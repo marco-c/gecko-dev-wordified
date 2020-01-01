@@ -2729,6 +2729,8 @@ aFontName
 gfxFontStyle
 &
 aFontStyle
+float
+aDevPixPerCSSPixel
 )
 {
 HDC

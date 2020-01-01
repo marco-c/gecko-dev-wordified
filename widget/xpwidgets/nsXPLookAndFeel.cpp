@@ -3748,6 +3748,8 @@ aName
 gfxFontStyle
 &
 aStyle
+float
+aDevPixPerCSSPixel
 )
 {
 return
@@ -3764,6 +3766,7 @@ GetFontImpl
 aID
 aName
 aStyle
+aDevPixPerCSSPixel
 )
 ;
 }

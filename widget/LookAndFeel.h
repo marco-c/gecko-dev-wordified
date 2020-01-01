@@ -2253,6 +2253,16 @@ the
 font
 .
 *
+param
+aDevPixPerCSSPixel
+Ratio
+of
+device
+pixels
+to
+CSS
+pixels
+*
 /
 static
 bool
@@ -2266,6 +2276,8 @@ aName
 gfxFontStyle
 &
 aStyle
+float
+aDevPixPerCSSPixel
 )
 ;
 /
