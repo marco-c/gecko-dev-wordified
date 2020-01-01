@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-jsion_ion_range_analysis_h__
+jsion_ion_edge_case_analysis_h__
 #
 define
-jsion_ion_range_analysis_h__
+jsion_ion_edge_case_analysis_h__
 namespace
 js
 {
@@ -127,7 +127,7 @@ class
 MIRGraph
 ;
 class
-RangeAnalysis
+EdgeCaseAnalysis
 {
 MIRGraph
 &
@@ -135,7 +135,7 @@ graph
 ;
 public
 :
-RangeAnalysis
+EdgeCaseAnalysis
 (
 MIRGraph
 &
@@ -177,4 +177,4 @@ js
 endif
 /
 /
-jsion_ion_range_analysis_h__
+jsion_ion_edge_case_analysis_h__
