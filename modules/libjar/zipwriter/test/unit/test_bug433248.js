@@ -422,7 +422,7 @@ do_throw
 Should
 have
 thrown
-unitialised
+uninitialized
 error
 .
 "
@@ -461,7 +461,7 @@ do_throw
 Should
 have
 thrown
-unitialised
+uninitialized
 error
 .
 "
@@ -502,7 +502,7 @@ do_throw
 Should
 have
 thrown
-unitialised
+uninitialized
 error
 .
 "
@@ -546,7 +546,7 @@ do_throw
 Should
 have
 thrown
-unitialised
+uninitialized
 error
 .
 "
@@ -595,7 +595,7 @@ do_throw
 Should
 have
 thrown
-unitialised
+uninitialized
 error
 .
 "
@@ -638,7 +638,7 @@ do_throw
 Should
 have
 thrown
-unitialised
+uninitialized
 error
 .
 "
@@ -679,7 +679,7 @@ do_throw
 Should
 have
 thrown
-unitialised
+uninitialized
 error
 .
 "
@@ -718,7 +718,7 @@ do_throw
 Should
 have
 thrown
-unitialised
+uninitialized
 error
 .
 "
