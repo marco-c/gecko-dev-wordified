@@ -1833,9 +1833,6 @@ let
 message
 =
 {
-gecko
-:
-{
 type
 :
 "
@@ -1860,7 +1857,6 @@ duration
 "
 short
 "
-}
 }
 ;
 Cc
@@ -2229,9 +2225,6 @@ let
 message
 =
 {
-gecko
-:
-{
 type
 :
 "
@@ -2256,7 +2249,6 @@ duration
 "
 short
 "
-}
 }
 ;
 Cc
