@@ -829,6 +829,15 @@ HANDLE
 mRebarTheme
 ;
 HANDLE
+mMediaRebarTheme
+;
+HANDLE
+mCommunicationsRebarTheme
+;
+HANDLE
+mBrowserTabBarRebarTheme
+;
+HANDLE
 mProgressTheme
 ;
 HANDLE
