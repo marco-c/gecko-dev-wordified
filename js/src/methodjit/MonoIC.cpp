@@ -9390,6 +9390,14 @@ fun
 !
 ic
 .
+hasJMStub
+(
+)
+&
+&
+!
+ic
+.
 hasIonStub
 (
 )
