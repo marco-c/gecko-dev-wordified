@@ -1215,6 +1215,8 @@ aContent
 DocAccessible
 *
 aDoc
+bool
+aIsLegalPartOfHTMLTable
 )
 ;
 /
