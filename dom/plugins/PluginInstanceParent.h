@@ -1323,14 +1323,6 @@ gfxASurface
 aSurface
 )
 ;
-nsresult
-UseAsyncPainting
-(
-PRBool
-*
-aIsAsync
-)
-;
 private
 :
 /
