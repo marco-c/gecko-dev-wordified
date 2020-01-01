@@ -26075,9 +26075,6 @@ case
 JSOP_DEFFUN
 :
 case
-JSOP_DEFFUN_FC
-:
-case
 JSOP_DEFLOCALFUN
 :
 case
