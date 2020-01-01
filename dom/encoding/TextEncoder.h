@@ -177,10 +177,7 @@ nsISupports
 *
 aGlobal
 const
-Optional
-<
 nsAString
->
 &
 aEncoding
 ErrorResult
@@ -553,10 +550,7 @@ void
 Init
 (
 const
-Optional
-<
 nsAString
->
 &
 aEncoding
 ErrorResult
