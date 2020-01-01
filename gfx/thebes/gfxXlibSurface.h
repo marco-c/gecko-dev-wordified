@@ -466,6 +466,13 @@ Xlib
 .
 h
 >
+#
+include
+"
+GLXLibrary
+.
+h
+"
 class
 THEBES_API
 gfxXlibSurface
@@ -927,6 +934,11 @@ GetMemoryLocation
 )
 const
 ;
+GLXPixmap
+GetGLXPixmap
+(
+)
+;
 protected
 :
 /
@@ -957,6 +969,9 @@ DoSizeQuery
 ;
 gfxIntSize
 mSize
+;
+GLXPixmap
+mGLXPixmap
 ;
 }
 ;
