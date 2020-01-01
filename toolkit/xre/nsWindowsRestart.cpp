@@ -904,6 +904,14 @@ PRUnichar
 cl
 )
 {
+#
+ifdef
+WINCE
+return
+PR_FALSE
+;
+#
+else
 if
 (
 !
@@ -1258,6 +1266,8 @@ hThread
 return
 TRUE
 ;
+#
+endif
 }
 /
 *
