@@ -1369,13 +1369,6 @@ js_new
 CharacterClass
 >
 (
-PassRefPtr
-<
-CharacterClassTable
->
-(
-0
-)
 )
 ;
 characterClass
