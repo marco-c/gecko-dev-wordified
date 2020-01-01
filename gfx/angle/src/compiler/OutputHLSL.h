@@ -182,8 +182,10 @@ const
 TString
 &
 string
-bool
-array
+const
+TType
+&
+type
 )
 ;
 protected

@@ -434,6 +434,9 @@ nsISMILType
 .
 h
 "
+class
+nsSMILValue
+;
 namespace
 mozilla
 {

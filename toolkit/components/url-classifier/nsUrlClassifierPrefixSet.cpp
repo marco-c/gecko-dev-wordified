@@ -2016,10 +2016,6 @@ n
 aMallocSizeOf
 (
 this
-sizeof
-(
-nsUrlClassifierPrefixSet
-)
 )
 ;
 n

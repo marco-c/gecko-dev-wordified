@@ -6430,10 +6430,6 @@ n
 mallocSizeOf
 (
 this
-sizeof
-(
-XPCJSRuntime
-)
 )
 ;
 n

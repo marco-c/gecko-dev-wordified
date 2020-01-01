@@ -10362,10 +10362,6 @@ return
 aMallocSizeOfThis
 (
 this
-sizeof
-(
-History
-)
 )
 +
 mObservers

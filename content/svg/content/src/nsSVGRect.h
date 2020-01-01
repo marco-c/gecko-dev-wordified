@@ -462,14 +462,14 @@ __NS_SVGRECT_H__
 #
 include
 "
-nsIDOMSVGRect
+gfxRect
 .
 h
 "
 #
 include
 "
-gfxRect
+nsIDOMSVGRect
 .
 h
 "

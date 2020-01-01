@@ -5946,10 +5946,6 @@ n
 mallocSizeOf
 (
 this
-sizeof
-(
-XPCWrappedNativeScope
-)
 )
 ;
 n

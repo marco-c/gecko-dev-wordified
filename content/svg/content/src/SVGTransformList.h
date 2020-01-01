@@ -457,7 +457,14 @@ MOZILLA_SVGTRANSFORMLIST_H__
 #
 include
 "
-SVGTransform
+gfxMatrix
+.
+h
+"
+#
+include
+"
+nsDebug
 .
 h
 "
@@ -471,7 +478,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGTransform
 .
 h
 "

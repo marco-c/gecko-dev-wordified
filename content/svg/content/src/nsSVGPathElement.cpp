@@ -494,6 +494,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsSVGPathDataParser
 .
 h

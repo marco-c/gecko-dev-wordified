@@ -10497,7 +10497,6 @@ getDeepestStructNesting
 (
 )
 >
-=
 kWebGLMaxStructNesting
 )
 {

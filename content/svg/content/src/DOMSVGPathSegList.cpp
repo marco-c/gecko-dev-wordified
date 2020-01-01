@@ -469,6 +469,13 @@ nsSVGAttrTearoffTable
 .
 h
 "
+#
+include
+"
+SVGPathSegUtils
+.
+h
+"
 /
 /
 See

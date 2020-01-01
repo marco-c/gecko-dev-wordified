@@ -1341,14 +1341,6 @@ overhead
 moz_malloc_size_of
 (
 mRecordArray
-mHeader
-.
-mRecordCount
-*
-sizeof
-(
-nsDiskCacheRecord
-)
 )
 ;
 mozilla

@@ -476,6 +476,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsSVGUtils
+.
+h
+"
 namespace
 mozilla
 {

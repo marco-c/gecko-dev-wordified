@@ -2371,11 +2371,6 @@ n
 aMallocSizeOf
 (
 this
-sizeof
-(
-*
-this
-)
 )
 ;
 /
@@ -2439,15 +2434,6 @@ n
 aMallocSizeOf
 (
 arena
-arena
--
->
-limit
--
-arena
--
->
-base
 )
 ;
 arena

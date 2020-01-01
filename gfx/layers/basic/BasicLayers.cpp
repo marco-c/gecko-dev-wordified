@@ -8007,6 +8007,14 @@ mUsingDefaultTarget
 (
 false
 )
+mCachedSurfaceInUse
+(
+false
+)
+mTransactionIncomplete
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (

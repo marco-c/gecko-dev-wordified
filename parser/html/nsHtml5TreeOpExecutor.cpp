@@ -932,10 +932,13 @@ NS_OK
 }
 if
 (
-!
 mRunsToCompletion
 )
 {
+return
+NS_OK
+;
+}
 GetParser
 (
 )
@@ -945,7 +948,6 @@ DropStreamParser
 (
 )
 ;
-}
 /
 /
 This

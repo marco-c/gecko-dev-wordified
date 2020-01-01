@@ -439,14 +439,14 @@ NS_SVGANIMATEMOTIONELEMENT_H_
 #
 include
 "
-nsSVGAnimationElement
+nsIDOMSVGAnimateMotionElement
 .
 h
 "
 #
 include
 "
-nsIDOMSVGAnimateMotionElement
+nsSVGAnimationElement
 .
 h
 "

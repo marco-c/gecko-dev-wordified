@@ -449,7 +449,7 @@ __NS_SVGFOREIGNOBJECTELEMENT_H__
 #
 include
 "
-nsSVGGraphicElement
+DOMSVGTests
 .
 h
 "
@@ -463,7 +463,7 @@ h
 #
 include
 "
-DOMSVGTests
+nsSVGGraphicElement
 .
 h
 "
