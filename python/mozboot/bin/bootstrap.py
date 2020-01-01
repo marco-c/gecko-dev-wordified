@@ -229,6 +229,14 @@ py
 '
 mozboot
 /
+openbsd
+.
+py
+'
+    
+'
+mozboot
+/
 osx
 .
 py
