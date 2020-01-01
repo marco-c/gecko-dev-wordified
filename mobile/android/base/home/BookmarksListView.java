@@ -303,7 +303,7 @@ R
 .
 attr
 .
-homeListViewStyle
+bookmarksListViewStyle
 )
 ;
 }
