@@ -324,6 +324,7 @@ function
 options
 )
 {
+return
 helpers
 .
 audit
@@ -431,6 +432,7 @@ function
 options
 )
 {
+return
 helpers
 .
 audit
@@ -538,6 +540,7 @@ function
 options
 )
 {
+return
 helpers
 .
 audit
@@ -869,6 +872,7 @@ function
 options
 )
 {
+return
 helpers
 .
 audit
@@ -1152,6 +1156,7 @@ function
 options
 )
 {
+return
 helpers
 .
 audit
