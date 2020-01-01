@@ -322,6 +322,15 @@ unused
 =
 0
 ;
+if
+(
+m_pools
+.
+initialized
+(
+)
+)
+{
 for
 (
 ExecPoolHashSet
@@ -399,6 +408,7 @@ pool
 >
 m_mjitCodeRegexp
 ;
+}
 }
 }
 }
