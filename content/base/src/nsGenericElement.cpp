@@ -7661,9 +7661,7 @@ nsIContent
 *
 child
 =
-mAttrsAndChildren
-.
-GetSafeChildAt
+GetChildAt
 (
 0
 )
@@ -7705,9 +7703,7 @@ aNode
 PRUint32
 count
 =
-mAttrsAndChildren
-.
-ChildCount
+GetChildCount
 (
 )
 ;
@@ -7721,9 +7717,7 @@ count
 return
 CallQueryInterface
 (
-mAttrsAndChildren
-.
-ChildAt
+GetChildAt
 (
 count
 -
