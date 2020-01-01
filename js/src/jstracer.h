@@ -1179,10 +1179,7 @@ int
 index
 JSStackFrame
 *
-localFrame
-jsuword
-*
-localNames
+fp
 )
 ;
 void
