@@ -1084,9 +1084,6 @@ NS_FORM_INPUT_IMAGE
 /
 /
 NS_FORM_LABEL
-/
-/
-NS_FORM_METER
 return
 false
 ;
