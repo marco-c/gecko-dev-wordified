@@ -1237,8 +1237,12 @@ mNPP
 }
 virtual
 bool
-AnswerPluginGotFocus
+AnswerPluginFocusChange
 (
+const
+bool
+&
+gotFocus
 )
 ;
 #
