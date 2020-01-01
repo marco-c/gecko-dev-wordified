@@ -707,7 +707,7 @@ rotate
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )

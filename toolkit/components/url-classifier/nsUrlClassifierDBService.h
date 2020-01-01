@@ -235,6 +235,9 @@ nsUrlClassifierDBServiceWorker
 class
 nsIThread
 ;
+class
+nsIURI
+;
 /
 /
 This
@@ -371,9 +374,9 @@ nsUrlClassifierDBService
 nsresult
 LookupURI
 (
-nsIURI
+nsIPrincipal
 *
-uri
+aPrincipal
 nsIUrlClassifierCallback
 *
 c

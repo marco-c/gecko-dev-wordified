@@ -421,6 +421,13 @@ Preferences
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 /
 /
 included

@@ -288,6 +288,13 @@ nsEventDispatcher
 h
 "
 #
+include
+"
+nsDOMClassInfoID
+.
+h
+"
+#
 ifdef
 PR_LOGGING
 static

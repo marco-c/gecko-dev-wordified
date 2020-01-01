@@ -184,13 +184,6 @@ h
 #
 include
 "
-PrivateBrowsingConsumer
-.
-h
-"
-#
-include
-"
 nsIStreamListener
 .
 h
@@ -269,8 +262,6 @@ public
 nsIProxiedChannel
 public
 nsIChildChannel
-public
-PrivateBrowsingConsumer
 {
 public
 :

@@ -217,6 +217,13 @@ nsIMozBrowserFrame
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 bool
 SendSyncMessageToParent
 (

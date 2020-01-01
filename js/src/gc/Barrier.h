@@ -3267,7 +3267,7 @@ JSObject
 *
 obj
 uint32_t
-slotno
+slot
 )
 ;
 private

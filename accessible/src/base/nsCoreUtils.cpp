@@ -1349,12 +1349,6 @@ GetChildCount
 NS_ASSERTION
 (
 aOffset
->
-=
-0
-&
-&
-aOffset
 <
 =
 childCount

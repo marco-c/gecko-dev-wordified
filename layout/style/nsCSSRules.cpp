@@ -296,6 +296,13 @@ nsPrintfCString
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 namespace
 css
 =

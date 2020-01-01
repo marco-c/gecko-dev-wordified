@@ -105,6 +105,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 nsDOMCSSValueList
 :
 :

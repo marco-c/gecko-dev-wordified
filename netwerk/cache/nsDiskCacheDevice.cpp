@@ -6789,6 +6789,12 @@ cache
 map
 file
 .
+nsDiskCache
+:
+:
+CorruptCacheInfo
+corruptInfo
+;
 rv
 =
 mCacheMap
@@ -6796,6 +6802,8 @@ mCacheMap
 Open
 (
 mCacheDirectory
+&
+corruptInfo
 )
 ;
 /
@@ -6823,8 +6831,8 @@ Accumulate
 Telemetry
 :
 :
-DISK_CACHE_CORRUPT
-0
+DISK_CACHE_CORRUPT_DETAILS
+corruptInfo
 )
 ;
 }
@@ -6845,8 +6853,8 @@ Accumulate
 Telemetry
 :
 :
-DISK_CACHE_CORRUPT
-1
+DISK_CACHE_CORRUPT_DETAILS
+corruptInfo
 )
 ;
 /
@@ -7019,6 +7027,12 @@ reopen
 the
 cache
 map
+nsDiskCache
+:
+:
+CorruptCacheInfo
+corruptInfo
+;
 rv
 =
 mCacheMap
@@ -7026,6 +7040,8 @@ mCacheMap
 Open
 (
 mCacheDirectory
+&
+corruptInfo
 )
 ;
 if

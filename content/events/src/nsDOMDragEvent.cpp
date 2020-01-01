@@ -135,6 +135,13 @@ nsIDragService
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 nsDOMDragEvent
 :
 :

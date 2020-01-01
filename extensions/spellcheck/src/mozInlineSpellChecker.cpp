@@ -612,6 +612,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsEditor
+.
+h
+"
 /
 /
 Set
@@ -1011,7 +1018,7 @@ if
 aAction
 =
 =
-mozInlineSpellChecker
+nsEditor
 :
 :
 kOpDeleteSelection
@@ -1249,7 +1256,7 @@ if
 aAction
 =
 =
-mozInlineSpellChecker
+nsEditor
 :
 :
 kOpInsertText

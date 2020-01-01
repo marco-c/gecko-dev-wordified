@@ -114,6 +114,13 @@ jsapi
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsDOMMessageEvent
