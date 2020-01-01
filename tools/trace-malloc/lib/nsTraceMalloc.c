@@ -5945,6 +5945,7 @@ locks
 .
 *
 /
+static
 callsite
 *
 backtrace
