@@ -680,8 +680,6 @@ aAsyncPanZoomController
 mPos
 (
 0
-.
-0f
 )
 mVelocity
 (
