@@ -944,8 +944,10 @@ cx
 ifdef
 EDITLINE
 JS_BEGIN_EXTERN_C
-extern
+JS_EXTERN_API
+(
 char
+)
 *
 readline
 (
@@ -955,8 +957,10 @@ char
 prompt
 )
 ;
-extern
+JS_EXTERN_API
+(
 void
+)
 add_history
 (
 char
