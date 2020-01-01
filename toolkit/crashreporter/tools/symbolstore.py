@@ -3021,16 +3021,6 @@ CVSFileInfo
 file
 srcdir
 )
-            
-if
-fileInfo
-:
-               
-root
-=
-fileInfo
-.
-root
         
 elif
 os
@@ -3137,6 +3127,12 @@ file
 fileInfo
 .
 filename
+        
+root
+=
+fileInfo
+.
+root
     
 #
 we
@@ -3246,7 +3242,7 @@ SourceIndex
 (
 fileStream
 outputPath
-cvs_root
+vcs_root
 )
 :
     
@@ -3382,7 +3378,19 @@ r
 \
 nVERSION
 =
-1
+2
+\
+r
+\
+nINDEXVERSION
+=
+2
+\
+r
+\
+nVERCTRL
+=
+http
 \
 r
 \
@@ -3434,97 +3442,60 @@ variables
 \
 r
 \
-nCVS_EXTRACT_CMD
+nHGSERVER
+=
+'
+'
+'
+)
+    
+pdbStreamFile
+.
+write
+(
+vcs_root
+)
+    
+pdbStreamFile
+.
+write
+(
+'
+'
+'
+\
+r
+\
+nSRCSRVVERCTRL
+=
+http
+\
+r
+\
+nHTTP_EXTRACT_TARGET
 =
 %
-fnchdir
+hgserver
 %
-(
-%
-targ
-%
-)
-cvs
-.
-exe
+/
+raw
 -
-d
-%
-fnvar
-%
-(
-%
-var2
-%
-)
-checkout
--
-r
-%
-var4
-%
--
-d
-%
-var4
-%
--
-N
+file
+/
 %
 var3
 %
-\
-r
-\
-nMYSERVER
-=
-'
-'
-'
-)
-    
-pdbStreamFile
-.
-write
-(
-cvs_root
-)
-    
-pdbStreamFile
-.
-write
-(
-'
-'
-'
+/
+%
+var2
+%
 \
 r
 \
 nSRCSRVTRG
 =
 %
-targ
-%
-\
-%
-var4
-%
-\
-%
-fnbksl
-%
-(
-%
-var3
-%
-)
-\
-r
-\
-nSRCSRVCMD
-=
-%
-CVS_EXTRACT_CMD
+http_extract_target
 %
 \
 r
@@ -4156,7 +4127,7 @@ self
 debug_file
 guid
 sourceFileStream
-cvs_root
+vcs_root
 )
 :
         
@@ -4438,7 +4409,9 @@ sourceFileStream
 tries
 to
 get
-cvsroot
+the
+vcs
+root
 from
 the
 .
@@ -4455,14 +4428,15 @@ set
 #
 the
 tinderbox
-cvs_path
+vcs
+path
 will
 be
 assigned
 further
 down
         
-cvs_root
+vcs_root
 =
 os
 .
@@ -4813,7 +4787,7 @@ srcdir
                                 
 #
 sets
-cvs_root
+vcs_root
 in
 case
 the
@@ -4829,7 +4803,7 @@ empty
 rootname
                                 
 if
-cvs_root
+vcs_root
 is
 None
 :
@@ -4838,7 +4812,7 @@ if
 rootname
 :
                                      
-cvs_root
+vcs_root
 =
 rootname
                             
@@ -4847,7 +4821,7 @@ gather
 up
 files
 with
-cvs
+hg
 for
 indexing
                             
@@ -4857,7 +4831,7 @@ filename
 startswith
 (
 "
-cvs
+hg
 "
 )
 :
@@ -4885,8 +4859,6 @@ sourceFileStream
 sourcepath
 +
 "
-*
-MYSERVER
 *
 "
 +
@@ -4995,6 +4967,8 @@ if
 self
 .
 srcsrv
+and
+vcs_root
 :
                         
 #
@@ -5011,7 +4985,7 @@ SourceServerIndexing
 debug_file
 guid
 sourceFileStream
-cvs_root
+vcs_root
 )
                     
 result
@@ -5434,7 +5408,7 @@ self
 debug_file
 guid
 sourceFileStream
-cvs_root
+vcs_root
 )
 :
         
@@ -5503,7 +5477,7 @@ SourceIndex
 (
 sourceFileStream
 stream_output_path
-cvs_root
+vcs_root
 )
         
 if
