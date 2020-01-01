@@ -925,6 +925,17 @@ aKey
 )
 ;
 NS_IMETHOD
+GetRegisteredAccessKey
+(
+nsIContent
+*
+aContent
+PRUint32
+*
+aKey
+)
+;
+NS_IMETHOD
 SetCursor
 (
 PRInt32
