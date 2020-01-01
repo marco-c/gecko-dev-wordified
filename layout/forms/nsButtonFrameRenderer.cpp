@@ -680,6 +680,9 @@ public
 :
 nsDisplayButtonBoxShadowOuter
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsButtonFrameRenderer
 *
 aRenderer
@@ -687,6 +690,7 @@ aRenderer
 :
 nsDisplayItem
 (
+aBuilder
 aRenderer
 -
 >
@@ -861,6 +865,9 @@ public
 :
 nsDisplayButtonBorderBackground
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsButtonFrameRenderer
 *
 aRenderer
@@ -868,6 +875,7 @@ aRenderer
 :
 nsDisplayItem
 (
+aBuilder
 aRenderer
 -
 >
@@ -972,6 +980,9 @@ public
 :
 nsDisplayButtonForeground
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsButtonFrameRenderer
 *
 aRenderer
@@ -979,6 +990,7 @@ aRenderer
 :
 nsDisplayItem
 (
+aBuilder
 aRenderer
 -
 >
@@ -1283,6 +1295,7 @@ aBuilder
 )
 nsDisplayButtonBoxShadowOuter
 (
+aBuilder
 this
 )
 )
@@ -1308,6 +1321,7 @@ aBuilder
 )
 nsDisplayButtonBorderBackground
 (
+aBuilder
 this
 )
 )
@@ -1330,6 +1344,7 @@ aBuilder
 )
 nsDisplayButtonForeground
 (
+aBuilder
 this
 )
 )

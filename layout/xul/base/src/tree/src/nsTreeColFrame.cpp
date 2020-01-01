@@ -676,6 +676,9 @@ public
 :
 nsDisplayXULTreeColSplitterTarget
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -683,6 +686,7 @@ aFrame
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -1103,6 +1107,7 @@ aBuilder
 )
 nsDisplayXULTreeColSplitterTarget
 (
+aBuilder
 this
 )
 )

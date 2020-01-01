@@ -3047,6 +3047,9 @@ public
 :
 nsDisplayMathMLBoundingMetrics
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -3058,6 +3061,7 @@ aRect
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 mRect
@@ -3257,6 +3261,7 @@ aBuilder
 )
 nsDisplayMathMLBoundingMetrics
 (
+aBuilder
 this
 nsRect
 (
@@ -3281,6 +3286,9 @@ public
 :
 nsDisplayMathMLBar
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -3292,6 +3300,7 @@ aRect
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 mRect
@@ -3468,6 +3477,7 @@ aBuilder
 )
 nsDisplayMathMLBar
 (
+aBuilder
 aFrame
 aRect
 )

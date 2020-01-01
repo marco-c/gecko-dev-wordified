@@ -682,6 +682,9 @@ public
 :
 nsDisplayTextDecoration
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsHTMLContainerFrame
 *
 aFrame
@@ -696,6 +699,7 @@ aLine
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 mLine
@@ -1218,6 +1222,9 @@ public
 :
 nsDisplayTextShadow
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsHTMLContainerFrame
 *
 aFrame
@@ -1231,6 +1238,7 @@ aLine
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 mLine
@@ -2487,6 +2495,7 @@ aBuilder
 )
 nsDisplayTextShadow
 (
+aBuilder
 this
 decorations
 aLine
@@ -2521,6 +2530,7 @@ aBuilder
 )
 nsDisplayTextDecoration
 (
+aBuilder
 this
 NS_STYLE_TEXT_DECORATION_UNDERLINE
 underColor
@@ -2556,6 +2566,7 @@ aBuilder
 )
 nsDisplayTextDecoration
 (
+aBuilder
 this
 NS_STYLE_TEXT_DECORATION_OVERLINE
 overColor
@@ -2591,6 +2602,7 @@ aBuilder
 )
 nsDisplayTextDecoration
 (
+aBuilder
 this
 NS_STYLE_TEXT_DECORATION_LINE_THROUGH
 strikeColor

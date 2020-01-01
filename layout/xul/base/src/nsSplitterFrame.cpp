@@ -2291,6 +2291,7 @@ aBuilder
 )
 nsDisplayEventReceiver
 (
+aBuilder
 this
 )
 )

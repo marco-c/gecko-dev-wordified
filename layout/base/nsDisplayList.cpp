@@ -4190,6 +4190,9 @@ nsDisplayBackground
 :
 nsDisplayBackground
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -4197,6 +4200,7 @@ aFrame
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -6738,6 +6742,9 @@ nsDisplayWrapList
 :
 nsDisplayWrapList
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -6748,6 +6755,7 @@ aList
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -6764,6 +6772,9 @@ nsDisplayWrapList
 :
 nsDisplayWrapList
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -6774,6 +6785,7 @@ aItem
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -7689,6 +7701,9 @@ nsDisplayOpacity
 :
 nsDisplayOpacity
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -7699,6 +7714,7 @@ aList
 :
 nsDisplayWrapList
 (
+aBuilder
 aFrame
 aList
 )
@@ -8131,6 +8147,9 @@ nsDisplayOwnLayer
 :
 nsDisplayOwnLayer
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -8141,6 +8160,7 @@ aList
 :
 nsDisplayWrapList
 (
+aBuilder
 aFrame
 aList
 )
@@ -8230,6 +8250,9 @@ nsDisplayClip
 :
 nsDisplayClip
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -8247,6 +8270,7 @@ aRect
 :
 nsDisplayWrapList
 (
+aBuilder
 aFrame
 aItem
 )
@@ -8270,6 +8294,9 @@ nsDisplayClip
 :
 nsDisplayClip
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -8287,6 +8314,7 @@ aRect
 :
 nsDisplayWrapList
 (
+aBuilder
 aFrame
 aList
 )
@@ -8557,6 +8585,7 @@ aBuilder
 )
 nsDisplayClip
 (
+aBuilder
 aItem
 -
 >
@@ -8574,6 +8603,9 @@ nsDisplayZoom
 :
 nsDisplayZoom
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -8588,6 +8620,7 @@ aParentAPD
 :
 nsDisplayOwnLayer
 (
+aBuilder
 aFrame
 aList
 )
@@ -11753,6 +11786,9 @@ nsDisplaySVGEffects
 :
 nsDisplaySVGEffects
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -11763,6 +11799,7 @@ aList
 :
 nsDisplayWrapList
 (
+aBuilder
 aFrame
 aList
 )

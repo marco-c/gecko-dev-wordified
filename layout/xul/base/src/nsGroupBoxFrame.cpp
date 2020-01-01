@@ -798,6 +798,9 @@ public
 :
 nsDisplayXULGroupBackground
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsGroupBoxFrame
 *
 aFrame
@@ -805,6 +808,7 @@ aFrame
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -975,6 +979,7 @@ aBuilder
 )
 nsDisplayXULGroupBackground
 (
+aBuilder
 this
 )
 )
