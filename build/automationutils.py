@@ -1185,10 +1185,6 @@ dumps
 return
 False
   
-foundCrash
-=
-False
-  
 removeSymbolsPath
 =
 False
@@ -1637,10 +1633,6 @@ remove
 (
 extra
 )
-      
-foundCrash
-=
-True
   
 finally
 :
@@ -1657,7 +1649,7 @@ symbolsPath
 )
   
 return
-foundCrash
+True
 def
 getFullPath
 (
