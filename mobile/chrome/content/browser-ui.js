@@ -3373,6 +3373,7 @@ aURI
 showAutoComplete
 :
 function
+showAutoComplete
 (
 )
 {
@@ -3389,6 +3390,14 @@ return
 BrowserSearch
 .
 updateSearchButtons
+(
+)
+;
+this
+.
+_edit
+.
+focus
 (
 )
 ;
