@@ -397,6 +397,8 @@ com
 mozilla
 .
 SUTAgentAndroid
+.
+service
 ;
 import
 java
@@ -425,13 +427,6 @@ java
 io
 .
 PrintWriter
-;
-import
-android
-.
-widget
-.
-Toast
 ;
 public
 class
@@ -872,6 +867,8 @@ IOException
 e
 )
 {
+/
+/
 Toast
 .
 makeText
