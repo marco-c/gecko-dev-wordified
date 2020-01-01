@@ -1091,13 +1091,13 @@ lParam
 NS_ENSURE_TRUE
 (
 aWin
-NS_ERROR_NULL_POINTER
+false
 )
 ;
 NS_ENSURE_TRUE
 (
 aInst
-NS_ERROR_NULL_POINTER
+false
 )
 ;
 if
@@ -1160,7 +1160,7 @@ lParam
 )
 ;
 return
-TRUE
+true
 ;
 }
 if
@@ -2142,13 +2142,6 @@ true
 LRESULT
 res
 =
-TRUE
-;
-NS_TRY_SAFE_CALL_RETURN
-(
-res
-:
-:
 CallWindowProc
 (
 (
@@ -2164,8 +2157,6 @@ hWnd
 msg
 wParam
 lParam
-)
-inst
 )
 ;
 sInMessageDispatch
