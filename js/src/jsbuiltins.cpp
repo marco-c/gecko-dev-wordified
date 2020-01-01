@@ -1520,8 +1520,6 @@ func
 (
 InterpState
 *
-Fragment
-*
 )
 ;
 }
@@ -1580,7 +1578,6 @@ u
 func
 (
 state
-NULL
 )
 ;
 #
