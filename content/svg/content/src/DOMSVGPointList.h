@@ -172,9 +172,6 @@ ErrorResult
 .
 h
 "
-class
-nsIDOMSVGPoint
-;
 namespace
 mozilla
 {
@@ -404,6 +401,13 @@ nsWrapperCache
 {
 friend
 class
+nsISVGPoint
+;
+friend
+class
+mozilla
+:
+:
 DOMSVGPoint
 ;
 public
@@ -1383,8 +1387,8 @@ const
 /
 /
 Creates
-a
-DOMSVGPoint
+an
+nsISVGPoint
 for
 aIndex
 if
@@ -1422,7 +1426,7 @@ Weak
 refs
 to
 our
-DOMSVGPoint
+nsISVGPoint
 items
 .
 The
@@ -1446,7 +1450,7 @@ die
 .
 nsTArray
 <
-DOMSVGPoint
+nsISVGPoint
 *
 >
 mItems
@@ -1476,7 +1480,7 @@ but
 also
 for
 our
-DOMSVGPoint
+nsISVGPoint
 items
 too
 .

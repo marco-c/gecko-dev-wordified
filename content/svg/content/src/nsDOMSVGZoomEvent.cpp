@@ -528,7 +528,7 @@ GetPreviousScale
 )
 ;
 const
-nsSVGTranslatePoint
+SVGPoint
 &
 translate
 =
@@ -565,7 +565,7 @@ true
 )
 ;
 const
-nsSVGTranslatePoint
+SVGPoint
 &
 prevTranslate
 =

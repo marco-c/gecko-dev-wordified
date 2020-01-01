@@ -165,6 +165,9 @@ h
 namespace
 mozilla
 {
+class
+nsISVGPoint
+;
 /
 *
 *
@@ -233,6 +236,13 @@ DOMSVGPointList
 class
 SVGPointList
 {
+friend
+class
+mozilla
+:
+:
+nsISVGPoint
+;
 friend
 class
 SVGAnimatedPointList
