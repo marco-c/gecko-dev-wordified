@@ -3469,6 +3469,7 @@ XPCWrapper
 AddProperty
 (
 cx
+obj
 wrappedObj
 id
 vp

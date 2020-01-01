@@ -1678,7 +1678,10 @@ JSContext
 cx
 JSObject
 *
-obj
+wrapperObj
+JSObject
+*
+innerObj
 jsval
 id
 jsval
