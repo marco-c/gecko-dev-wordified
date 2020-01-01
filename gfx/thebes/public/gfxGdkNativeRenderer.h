@@ -433,6 +433,13 @@ h
 "
 #
 include
+"
+nsAutoPtr
+.
+h
+"
+#
+include
 <
 gdk
 /

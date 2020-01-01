@@ -821,6 +821,13 @@ gfxMatrix
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 nsresult
 NS_NewSVGMatrix
 (

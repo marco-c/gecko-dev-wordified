@@ -486,6 +486,13 @@ nsIFile
 .
 h
 "
+#
+include
+"
+nsISupportsImpl
+.
+h
+"
 class
 nsIURI
 ;
@@ -952,7 +959,7 @@ gfxUserFontSet
 {
 public
 :
-THEBES_INLINE_DECL_REFCOUNTING
+NS_INLINE_DECL_REFCOUNTING
 (
 gfxUserFontSet
 )
