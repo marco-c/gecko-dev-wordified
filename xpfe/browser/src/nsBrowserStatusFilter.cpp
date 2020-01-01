@@ -1845,6 +1845,9 @@ OnStatusChange
 /
 if
 (
+mStatusIsDirty
+|
+|
 !
 mCurrentStatusMsg
 .
