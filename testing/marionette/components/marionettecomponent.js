@@ -793,6 +793,12 @@ DEBUGGER_FORCELOCAL_PREF
 marionette_forcelocal
 )
 ;
+if
+(
+!
+marionette_forcelocal
+)
+{
 /
 /
 See
@@ -859,6 +865,7 @@ asyncListen
 this
 )
 ;
+}
 this
 .
 init
