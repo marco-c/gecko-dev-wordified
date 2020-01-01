@@ -8840,7 +8840,7 @@ ParseReportKind
 {
 ParseError
 ParseWarning
-ParseExtraWarning
+ParseStrictWarning
 ParseStrictError
 }
 ;

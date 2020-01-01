@@ -11669,7 +11669,7 @@ etc
 /
 #
 define
-JSOPTION_EXTRA_WARNINGS
+JSOPTION_STRICT
 JS_BIT
 (
 0
@@ -11679,7 +11679,7 @@ JS_BIT
 warn
 on
 dubious
-practices
+practice
 *
 /
 #
