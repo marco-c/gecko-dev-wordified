@@ -13576,9 +13576,12 @@ hints
 ;
 if
 (
+!
+(
 flags
 &
 PR_AI_NOCANONNAME
+)
 )
 hints
 .
