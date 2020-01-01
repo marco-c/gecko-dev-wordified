@@ -563,7 +563,7 @@ NS_DECL_NSIDRAGSESSION
 void
 SetDragEndPoint
 (
-nsPoint
+nsIntPoint
 aEndDragPoint
 )
 {
@@ -1054,7 +1054,7 @@ where
 the
 drag
 ended
-nsPoint
+nsIntPoint
 mEndDragPoint
 ;
 PRUint32

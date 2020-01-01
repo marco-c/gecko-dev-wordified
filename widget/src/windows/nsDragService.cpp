@@ -2669,7 +2669,7 @@ pos
 ;
 SetDragEndPoint
 (
-nsPoint
+nsIntPoint
 (
 pos
 .
