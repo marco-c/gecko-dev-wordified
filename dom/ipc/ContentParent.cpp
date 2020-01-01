@@ -2547,6 +2547,7 @@ tp
 new
 TabParent
 (
+cp
 aContext
 )
 )
@@ -3037,6 +3038,7 @@ tp
 new
 TabParent
 (
+p
 aContext
 )
 ;
@@ -9606,6 +9608,7 @@ parent
 new
 TabParent
 (
+this
 TabContext
 (
 aContext
