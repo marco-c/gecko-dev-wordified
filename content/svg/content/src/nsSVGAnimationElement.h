@@ -573,10 +573,6 @@ PRBool
 aNullParent
 )
 ;
-/
-/
-nsIContent
-specializations
 virtual
 nsresult
 UnsetAttr
@@ -589,6 +585,15 @@ aAttribute
 PRBool
 aNotify
 )
+;
+virtual
+PRBool
+IsNodeOfType
+(
+PRUint32
+aFlags
+)
+const
 ;
 /
 /
