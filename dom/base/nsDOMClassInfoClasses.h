@@ -826,14 +826,6 @@ ChromeMessageSender
 )
 DOMCI_CLASS
 (
-DesktopNotification
-)
-DOMCI_CLASS
-(
-DesktopNotificationCenter
-)
-DOMCI_CLASS
-(
 IDBFileHandle
 )
 DOMCI_CLASS
