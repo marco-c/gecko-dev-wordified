@@ -943,9 +943,7 @@ don
 '
 t
 run
-it
-'
-s
+its
 destructor
 and
 /

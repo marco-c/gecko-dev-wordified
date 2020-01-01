@@ -1677,10 +1677,12 @@ codegen
 }
 /
 /
+namespace
 ion
 }
 /
 /
+namespace
 js
 #
 endif

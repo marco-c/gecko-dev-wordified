@@ -515,6 +515,11 @@ NewArray
 \
 _
 (
+CheckOverRecursed
+)
+\
+_
+(
 CallGeneric
 )
 \
