@@ -324,6 +324,12 @@ nsIStructuredCloneContainer
 >
 mStateData
 ;
+bool
+mIsSrcdocEntry
+;
+nsString
+mSrcdocData
+;
 }
 ;
 #
