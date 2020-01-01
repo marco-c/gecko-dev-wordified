@@ -19594,12 +19594,12 @@ return
 JS_FALSE
 ;
 jsuint
-length
+capacity
 =
 obj
 -
 >
-getArrayLength
+getDenseArrayCapacity
 (
 )
 ;
@@ -19612,7 +19612,7 @@ i
 ;
 i
 <
-length
+capacity
 ;
 i
 +
