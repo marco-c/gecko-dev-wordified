@@ -2985,7 +2985,7 @@ frame
 /
 masm
 .
-loadFunctionPrivate
+loadObjPrivate
 (
 pic
 .
@@ -9921,7 +9921,7 @@ frame
 /
 masm
 .
-loadFunctionPrivate
+loadObjPrivate
 (
 pic
 .
