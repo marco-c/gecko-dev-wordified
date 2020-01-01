@@ -2135,6 +2135,10 @@ GLenum
 aWrapMode
 =
 LOCAL_GL_REPEAT
+bool
+aFlipped
+=
+false
 )
 ;
 #

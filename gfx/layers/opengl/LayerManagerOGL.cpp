@@ -4284,6 +4284,20 @@ nsIntSize
 aTexSize
 GLenum
 aWrapMode
+/
+*
+=
+LOCAL_GL_REPEAT
+*
+/
+bool
+aFlipped
+/
+*
+=
+false
+*
+/
 )
 {
 GLuint
@@ -4575,6 +4589,7 @@ realTexSize
 .
 height
 )
+aFlipped
 )
 ;
 }
@@ -4588,6 +4603,7 @@ DecomposeIntoNoRepeatTriangles
 aTexCoordRect
 realTexSize
 rects
+aFlipped
 )
 ;
 }
