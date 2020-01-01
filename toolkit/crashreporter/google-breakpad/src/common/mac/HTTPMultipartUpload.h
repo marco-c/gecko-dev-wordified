@@ -350,9 +350,9 @@ synchronously
 #
 import
 <
-Foundation
+Cocoa
 /
-Foundation
+Cocoa
 .
 h
 >

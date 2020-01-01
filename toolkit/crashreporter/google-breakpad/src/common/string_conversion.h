@@ -335,15 +335,6 @@ vector
 #
 include
 "
-common
-/
-using_std_string
-.
-h
-"
-#
-include
-"
 google_breakpad
 /
 common
@@ -617,6 +608,9 @@ bytes
 before
 converting
 .
+std
+:
+:
 string
 UTF16ToUTF8
 (

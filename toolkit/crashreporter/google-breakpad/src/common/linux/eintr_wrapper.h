@@ -346,6 +346,7 @@ HANDLE_EINTR
 (
 x
 )
+__extension__
 (
 {
 \
@@ -390,4 +391,5 @@ __eintr_result__
 endif
 /
 /
+ifndef
 COMMON_LINUX_EINTR_WRAPPER_H_

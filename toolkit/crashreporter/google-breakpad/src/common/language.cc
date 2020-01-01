@@ -417,6 +417,7 @@ name
 }
 }
 ;
+const
 CPPLanguage
 CPPLanguageSingleton
 ;

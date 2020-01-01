@@ -417,15 +417,6 @@ include
 <
 string
 >
-#
-include
-"
-common
-/
-using_std_string
-.
-h
-"
 namespace
 google_breakpad
 {
@@ -1474,6 +1465,9 @@ ByteCursor
 &
 CString
 (
+std
+:
+:
 string
 *
 str
@@ -1711,6 +1705,9 @@ ByteCursor
 &
 CString
 (
+std
+:
+:
 string
 *
 str

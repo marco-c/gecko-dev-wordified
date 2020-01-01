@@ -1315,7 +1315,6 @@ char
 *
 key
 )
-const
 ;
 /
 /
