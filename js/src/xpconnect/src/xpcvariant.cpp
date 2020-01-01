@@ -1091,6 +1091,7 @@ row
 )
 .
 static
+const
 Type
 StateTable
 [
@@ -1160,6 +1161,7 @@ at
 the
 intersection
 .
+const
 XPCArrayHomogenizer
 :
 :
