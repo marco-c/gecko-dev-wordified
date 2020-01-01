@@ -2196,7 +2196,7 @@ VREG_BITS
 (
 sizeof
 (
-bits_
+uint32
 )
 *
 8
