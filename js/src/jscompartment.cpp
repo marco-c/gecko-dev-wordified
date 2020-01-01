@@ -1026,7 +1026,6 @@ jc
 >
 Initialize
 (
-cx
 )
 )
 {
