@@ -666,6 +666,9 @@ nsContentList
 class
 nsDOMTokenList
 ;
+class
+ContentUnbinder
+;
 struct
 nsRect
 ;
@@ -5588,6 +5591,10 @@ nsAString
 &
 aTarget
 )
+;
+friend
+class
+ContentUnbinder
 ;
 /
 *
