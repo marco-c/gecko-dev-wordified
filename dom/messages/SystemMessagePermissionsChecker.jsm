@@ -446,6 +446,12 @@ bluetooth
 ]
 }
 "
+connection
+"
+:
+{
+}
+"
 headset
 -
 button
