@@ -3315,10 +3315,10 @@ return
 NULL
 ;
 return
-JS_TYPE_STR
-(
+TypeStrings
+[
 type
-)
+]
 ;
 }
 JS_PUBLIC_API
@@ -4735,7 +4735,7 @@ GC_NORMAL
 if
 (
 !
-InitAtomState
+InitAtoms
 (
 this
 )
@@ -5117,7 +5117,7 @@ FinishRuntimeNumberState
 this
 )
 ;
-FinishAtomState
+FinishAtoms
 (
 this
 )
@@ -9615,7 +9615,7 @@ EAGER_CLASS_ATOM
 (
 name
 )
-CLASS_NAME_OFFSET
+NAME_OFFSET
 (
 name
 )
@@ -10753,10 +10753,7 @@ rt
 >
 atomState
 .
-typeAtoms
-[
-JSTYPE_VOID
-]
+undefinedAtom
 ;
 if
 (
@@ -11324,10 +11321,7 @@ runtime
 >
 atomState
 .
-typeAtoms
-[
-JSTYPE_VOID
-]
+undefinedAtom
 )
 ;
 RootedValue
@@ -11934,10 +11928,7 @@ rt
 >
 atomState
 .
-typeAtoms
-[
-JSTYPE_VOID
-]
+undefinedAtom
 )
 ;
 ida

@@ -24875,7 +24875,8 @@ to
 add
 the
 types
-direclty
+*
+directly
 .
 *
 /
@@ -24894,10 +24895,7 @@ runtime
 >
 atomState
 .
-typeAtoms
-[
-JSTYPE_VOID
-]
+undefinedAtom
 )
 )
 seen
