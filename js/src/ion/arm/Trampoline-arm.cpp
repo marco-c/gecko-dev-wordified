@@ -2438,6 +2438,13 @@ barrier
 -
 0x4
 :
+monitor
+types
+/
+/
+-
+0x5
+:
 recompile
 to
 inline
