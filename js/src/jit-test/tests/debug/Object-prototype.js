@@ -131,9 +131,7 @@ assertEq
 (
 Op
 .
-getPrototype
-(
-)
+prototype
 null
 )
 ;
@@ -149,9 +147,7 @@ dbgeval
 "
 )
 .
-getPrototype
-(
-)
+prototype
 Op
 )
 ;
@@ -166,9 +162,7 @@ dbgeval
 "
 )
 .
-getPrototype
-(
-)
+prototype
 ;
 assertEq
 (
@@ -187,9 +181,7 @@ assertEq
 (
 Ap
 .
-getPrototype
-(
-)
+prototype
 Op
 )
 ;
@@ -202,9 +194,7 @@ Object
 "
 )
 .
-getPrototype
-(
-)
+prototype
 dbgeval
 (
 "

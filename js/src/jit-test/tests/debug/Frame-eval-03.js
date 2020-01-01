@@ -125,9 +125,7 @@ assertEq
 (
 exc
 .
-getPrototype
-(
-)
+prototype
 frame
 .
 eval
