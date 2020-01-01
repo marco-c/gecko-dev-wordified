@@ -3961,6 +3961,7 @@ status
 case
 200
 :
+{
 this
 .
 _log
@@ -4816,11 +4817,13 @@ updates
 =
 yield
 ;
+}
 break
 ;
 case
 404
 :
+{
 this
 .
 _log
@@ -5003,6 +5006,7 @@ updates
 [
 ]
 ;
+}
 break
 ;
 default

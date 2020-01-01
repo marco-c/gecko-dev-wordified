@@ -2972,6 +2972,7 @@ case
 microsummary
 "
 :
+{
 this
 .
 _log
@@ -3155,6 +3156,7 @@ generator
 exceptions
 *
 /
+}
 }
 }
 break
@@ -3808,6 +3810,7 @@ case
 parentGUID
 "
 :
+{
 let
 index
 =
@@ -3862,6 +3865,7 @@ parentGUID
 index
 )
 ;
+}
 break
 ;
 case
@@ -3869,6 +3873,7 @@ case
 tags
 "
 :
+{
 let
 tagsURI
 =
@@ -3905,6 +3910,7 @@ data
 tags
 )
 ;
+}
 break
 ;
 case
@@ -3933,6 +3939,7 @@ case
 generatorURI
 "
 :
+{
 let
 micsumURI
 =
@@ -3983,6 +3990,7 @@ itemId
 micsum
 )
 ;
+}
 break
 ;
 case

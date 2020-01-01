@@ -849,6 +849,7 @@ weave
 encryption
 "
 :
+{
 let
 branch
 =
@@ -1037,6 +1038,7 @@ changed
 "
 )
 ;
+}
 break
 ;
 default
@@ -1145,11 +1147,6 @@ data
 ;
 case
 "
-XXTEA
-"
-:
-case
-"
 XXXTEA
 "
 :
@@ -1168,6 +1165,12 @@ below
 had
 this
 typo
+case
+"
+XXTEA
+"
+:
+{
 this
 .
 _log
@@ -1263,6 +1266,7 @@ data
 "
 )
 ;
+}
 break
 ;
 default
@@ -1436,11 +1440,6 @@ break
 ;
 case
 "
-XXTEA
-"
-:
-case
-"
 XXXTEA
 "
 :
@@ -1459,6 +1458,12 @@ below
 had
 this
 typo
+case
+"
+XXTEA
+"
+:
+{
 this
 .
 _log
@@ -1554,6 +1559,7 @@ data
 "
 )
 ;
+}
 break
 ;
 default
