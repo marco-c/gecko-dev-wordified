@@ -1164,6 +1164,8 @@ searching
 var
 options
 =
+asQuery
+(
 gHistoryTree
 .
 getResult
@@ -1171,6 +1173,7 @@ getResult
 )
 .
 root
+)
 .
 queryOptions
 ;
