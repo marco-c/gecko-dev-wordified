@@ -6650,18 +6650,6 @@ def
 return
 true
 ;
-if
-(
-use_def
--
->
-numOperands
-(
-)
->
-2
-)
-{
 for
 (
 size_t
@@ -6702,7 +6690,6 @@ def
 return
 true
 ;
-}
 }
 break
 ;
