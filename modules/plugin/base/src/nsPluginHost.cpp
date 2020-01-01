@@ -7728,6 +7728,11 @@ nsIPluginInstanceOwner
 aOwner
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aOwner
+)
+;
 nsresult
 rv
 =
@@ -7840,10 +7845,6 @@ nsIDocument
 >
 document
 ;
-if
-(
-aOwner
-)
 aOwner
 -
 >
