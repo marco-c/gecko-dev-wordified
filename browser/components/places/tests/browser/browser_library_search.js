@@ -1064,7 +1064,7 @@ folderId
 /
 /
 /
-const
+var
 bmsvc
 =
 Cc
@@ -1093,7 +1093,7 @@ Ci
 nsINavBookmarksService
 )
 ;
-const
+var
 histsvc
 =
 Cc

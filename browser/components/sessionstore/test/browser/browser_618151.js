@@ -392,7 +392,7 @@ BLOCK
 *
 *
 /
-const
+var
 ss
 =
 Cc
