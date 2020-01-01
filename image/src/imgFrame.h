@@ -310,6 +310,7 @@ bool
 GetIsDirty
 (
 )
+const
 ;
 nsIntRect
 GetRect
@@ -797,6 +798,7 @@ mOffset
 nsIntRect
 mDecoded
 ;
+mutable
 mozilla
 :
 :

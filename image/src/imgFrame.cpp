@@ -3317,6 +3317,7 @@ imgFrame
 GetIsDirty
 (
 )
+const
 {
 MutexAutoLock
 lock
@@ -4675,6 +4676,16 @@ int8_t
 aBlendMethod
 ;
 }
+/
+/
+This
+can
+be
+called
+from
+any
+thread
+.
 bool
 imgFrame
 :
@@ -4684,6 +4695,12 @@ ImageComplete
 )
 const
 {
+MutexAutoLock
+lock
+(
+mDirtyMutex
+)
+;
 return
 mDecoded
 .
