@@ -632,6 +632,15 @@ defaultSize
 )
 ;
 virtual
+nsresult
+SetAcceptHeader
+(
+nsIHttpChannel
+*
+aChannel
+)
+;
+virtual
 nsXPCClassInfo
 *
 GetClassInfo
