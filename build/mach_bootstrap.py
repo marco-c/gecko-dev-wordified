@@ -298,6 +298,14 @@ mach_commands
 .
 py
 '
+    
+'
+tools
+/
+mach_commands
+.
+py
+'
 ]
 def
 bootstrap
