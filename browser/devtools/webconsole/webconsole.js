@@ -25572,6 +25572,11 @@ Content
 Blocker
 "
 :
+case
+"
+CSP
+"
+:
 return
 CATEGORY_SECURITY
 ;
