@@ -2339,6 +2339,13 @@ EndTransaction
 (
 )
 ;
+aClient
+-
+>
+FlushTexturesToRemoveCallbacks
+(
+)
+;
 }
 void
 ImageBridgeChild

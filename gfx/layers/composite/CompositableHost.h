@@ -1700,6 +1700,7 @@ aTexture
 )
 {
 }
+virtual
 void
 RemoveTextureHost
 (
