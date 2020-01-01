@@ -4854,6 +4854,13 @@ onget
 )
 GK_ATOM
 (
+onhashchange
+"
+onhashchange
+"
+)
+GK_ATOM
+(
 oninput
 "
 oninput

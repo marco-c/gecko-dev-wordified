@@ -1738,6 +1738,10 @@ sOnunload_id
 ;
 static
 jsval
+sOnhashchange_id
+;
+static
+jsval
 sOnpageshow_id
 ;
 static

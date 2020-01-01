@@ -9083,6 +9083,14 @@ NS_PAGE_UNLOAD
 ;
 _ASSIGN_eventName
 (
+NS_HASHCHANGE
+"
+NS_HASHCHANGE
+"
+)
+;
+_ASSIGN_eventName
+(
 NS_PAINT
 "
 NS_PAINT

@@ -2634,6 +2634,12 @@ PageHidden
 (
 )
 ;
+virtual
+nsresult
+DispatchAsyncHashchange
+(
+)
+;
 static
 PRBool
 DOMWindowDumpEnabled
@@ -3464,6 +3470,11 @@ aPopupWindowFeatures
 ;
 void
 FireOfflineStatusEvent
+(
+)
+;
+nsresult
+FireHashchange
 (
 )
 ;
