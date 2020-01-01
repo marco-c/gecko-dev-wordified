@@ -436,7 +436,7 @@ mozprofile
 =
 0
 .
-1a
+1t
 '
         
 '
