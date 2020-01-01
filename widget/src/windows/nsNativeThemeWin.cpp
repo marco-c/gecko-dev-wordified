@@ -8445,9 +8445,8 @@ mIsVistaOrLater
 *
 textfields
 need
-an
 extra
-pixel
+pixels
 on
 all
 sides
@@ -8487,7 +8486,7 @@ small
 Instead
 we
 add
-1px
+2px
 padding
 for
 the
@@ -8497,6 +8496,16 @@ and
 fix
 this
 .
+(
+Used
+to
+be
+1px
+added
+see
+bug
+430212
+)
 *
 /
 if
@@ -8523,7 +8532,7 @@ aResult
 >
 bottom
 =
-1
+2
 ;
 aResult
 -
@@ -8535,7 +8544,7 @@ aResult
 >
 right
 =
-1
+2
 ;
 return
 PR_TRUE
