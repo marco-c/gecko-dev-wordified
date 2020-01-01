@@ -573,13 +573,6 @@ h
 #
 include
 "
-nsISupportsPriority
-.
-h
-"
-#
-include
-"
 nsIProxiedChannel
 .
 h
@@ -638,8 +631,6 @@ nsIEncodedChannel
 public
 nsIResumableChannel
 public
-nsISupportsPriority
-public
 nsIProxiedChannel
 public
 nsITraceableChannel
@@ -654,7 +645,6 @@ NS_DECL_NSIUPLOADCHANNEL
 NS_DECL_NSIUPLOADCHANNEL2
 NS_DECL_NSIENCODEDCHANNEL
 NS_DECL_NSIRESUMABLECHANNEL
-NS_DECL_NSISUPPORTSPRIORITY
 NS_DECL_NSIPROXIEDCHANNEL
 NS_DECL_NSITRACEABLECHANNEL
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
@@ -785,6 +775,16 @@ const
 char
 *
 aFallbackKey
+)
+;
+/
+/
+nsISupportsPriority
+NS_IMETHOD
+SetPriority
+(
+PRInt32
+value
 )
 ;
 protected

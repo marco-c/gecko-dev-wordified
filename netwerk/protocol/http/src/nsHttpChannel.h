@@ -595,13 +595,6 @@ h
 #
 include
 "
-nsISupportsPriority
-.
-h
-"
-#
-include
-"
 nsIProtocolProxyCallback
 .
 h
@@ -830,8 +823,6 @@ nsITransportEventSink
 public
 nsIResumableChannel
 public
-nsISupportsPriority
-public
 nsIProtocolProxyCallback
 public
 nsIProxiedChannel
@@ -854,7 +845,6 @@ NS_DECL_NSICACHELISTENER
 NS_DECL_NSIENCODEDCHANNEL
 NS_DECL_NSITRANSPORTEVENTSINK
 NS_DECL_NSIRESUMABLECHANNEL
-NS_DECL_NSISUPPORTSPRIORITY
 NS_DECL_NSIPROTOCOLPROXYCALLBACK
 NS_DECL_NSIPROXIEDCHANNEL
 NS_DECL_NSITRACEABLECHANNEL
@@ -958,6 +948,16 @@ const
 char
 *
 aFallbackKey
+)
+;
+/
+/
+nsISupportsPriority
+NS_IMETHOD
+SetPriority
+(
+PRInt32
+value
 )
 ;
 public
@@ -1908,9 +1908,6 @@ mTransaction
 ;
 PRUint64
 mLogicalOffset
-;
-PRInt16
-mPriority
 ;
 nsCString
 mUserSetCookieHeader
