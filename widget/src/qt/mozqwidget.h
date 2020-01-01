@@ -489,6 +489,11 @@ mstatusbar
 h
 >
 #
+include
+<
+MInputMethodState
+>
+#
 endif
 #
 include
