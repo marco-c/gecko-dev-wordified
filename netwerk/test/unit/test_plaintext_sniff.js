@@ -1100,10 +1100,15 @@ bodyList
 length
 )
 {
+do_test_pending
+(
+)
+;
 httpserv
 .
 stop
 (
+do_test_finished
 )
 ;
 }

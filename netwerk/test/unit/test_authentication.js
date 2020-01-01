@@ -1393,10 +1393,15 @@ current_test
 }
 else
 {
+do_test_pending
+(
+)
+;
 httpserv
 .
 stop
 (
+do_test_finished
 )
 ;
 }

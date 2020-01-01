@@ -581,16 +581,10 @@ start
 runHttpTests
 (
 tests
-function
+testComplete
 (
-)
-{
 srv
-.
-stop
-(
 )
-}
 )
 ;
 }

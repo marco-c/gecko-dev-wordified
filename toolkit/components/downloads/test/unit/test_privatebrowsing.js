@@ -1901,10 +1901,7 @@ httpserv
 .
 stop
 (
-)
-;
 do_test_finished
-(
 )
 ;
 }
