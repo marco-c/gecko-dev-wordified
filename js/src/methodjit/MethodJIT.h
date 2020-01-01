@@ -1256,6 +1256,15 @@ Compile_Abort
 Compile_Error
 }
 ;
+void
+JS_FASTCALL
+ProfileStubCall
+(
+VMFrame
+&
+f
+)
+;
 CompileStatus
 TryCompile
 (
