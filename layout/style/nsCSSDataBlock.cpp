@@ -482,6 +482,13 @@ nsRuleData
 .
 h
 "
+#
+include
+"
+nsRuleNode
+.
+h
+"
 /
 *
 *
