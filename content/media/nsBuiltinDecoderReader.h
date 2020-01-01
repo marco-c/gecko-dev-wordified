@@ -1333,7 +1333,7 @@ mediaqueue
 )
 mEndOfStream
 (
-0
+false
 )
 {
 }
@@ -1642,7 +1642,7 @@ media
 queue
 has
 had
-it
+its
 last
 item
 added
