@@ -569,6 +569,7 @@ mork
 .
 pl
 class
+NS_STACK_CLASS
 nsMorkReader
 {
 public
