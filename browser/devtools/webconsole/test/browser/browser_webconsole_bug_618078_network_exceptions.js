@@ -534,6 +534,10 @@ function
 (
 )
 {
+expectUncaughtException
+(
+)
+;
 content
 .
 location
