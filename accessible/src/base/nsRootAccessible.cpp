@@ -1677,7 +1677,7 @@ docEvents
 {
 #
 ifdef
-DEBUG
+DEBUG_DRAGDROPSTART
 /
 /
 Capture
@@ -4918,7 +4918,7 @@ eRemoveDupes
 }
 #
 ifdef
-DEBUG
+DEBUG_DRAGDROPSTART
 else
 if
 (
