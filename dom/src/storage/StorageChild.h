@@ -158,14 +158,18 @@ public
 PStorageChild
 public
 DOMStorageBase
+public
+nsSupportsWeakReference
 {
 public
 :
-NS_DECL_CYCLE_COLLECTION_CLASS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 StorageChild
+nsIPrivacyTransitionObserver
 )
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_NSIPRIVACYTRANSITIONOBSERVER
 StorageChild
 (
 nsDOMStorage
@@ -190,6 +194,8 @@ InitAsSessionStorage
 nsIURI
 *
 aDomainURI
+bool
+aPrivate
 )
 ;
 virtual
@@ -201,6 +207,8 @@ nsIURI
 aDomainURI
 bool
 aCanUseChromePersist
+bool
+aPrivate
 )
 ;
 virtual
