@@ -2993,10 +2993,8 @@ interfaces
 nsITimer
 )
 ;
-let
-checkLoad
-=
 function
+checkLoad
 (
 )
 {
@@ -3018,9 +3016,9 @@ sendOk
 (
 )
 ;
+return
+;
 }
-else
-{
 checkTimer
 .
 initWithCallback
@@ -3037,8 +3035,6 @@ TYPE_ONE_SHOT
 )
 ;
 }
-}
-;
 checkTimer
 .
 initWithCallback
