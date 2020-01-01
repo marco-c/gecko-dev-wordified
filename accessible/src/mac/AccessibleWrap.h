@@ -462,15 +462,6 @@ const
 ;
 protected
 :
-virtual
-nsresult
-FirePlatformEvent
-(
-AccEvent
-*
-aEvent
-)
-;
 /
 *
 *

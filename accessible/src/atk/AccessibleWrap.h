@@ -371,15 +371,6 @@ get
 }
 protected
 :
-virtual
-nsresult
-FirePlatformEvent
-(
-AccEvent
-*
-aEvent
-)
-;
 nsresult
 FireAtkStateChangeEvent
 (
