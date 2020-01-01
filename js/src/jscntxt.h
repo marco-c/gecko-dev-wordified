@@ -1057,6 +1057,9 @@ jsval
 *
 recoveryDoublePoolPtr
 ;
+uint32
+jitCacheGen
+;
 }
 JSTraceMonitor
 ;
