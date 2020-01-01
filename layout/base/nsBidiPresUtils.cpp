@@ -8571,6 +8571,9 @@ aFrame
 =
 =
 nsnull
+&
+&
+count
 )
 return
 bld
@@ -8669,6 +8672,9 @@ aFrame
 =
 =
 nsnull
+&
+&
+count
 )
 return
 bld
