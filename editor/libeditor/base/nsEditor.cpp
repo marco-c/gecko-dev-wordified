@@ -2642,6 +2642,10 @@ mInlineSpellChecker
 =
 nsnull
 ;
+mRootElement
+=
+nsnull
+;
 mDidPreDestroy
 =
 PR_TRUE
