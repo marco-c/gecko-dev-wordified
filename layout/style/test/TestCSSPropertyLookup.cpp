@@ -326,6 +326,10 @@ nsCString
 (
 tagName
 )
+nsCSSProps
+:
+:
+eAny
 )
 ;
 if
@@ -466,6 +470,10 @@ NS_ConvertASCIItoUTF16
 (
 tagName
 )
+nsCSSProps
+:
+:
+eAny
 )
 ;
 if
@@ -609,6 +617,10 @@ nsCAutoString
 (
 tag
 )
+nsCSSProps
+:
+:
+eAny
 )
 ;
 if

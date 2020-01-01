@@ -2262,6 +2262,10 @@ nsCSSProps
 LookupProperty
 (
 aPropertyName
+nsCSSProps
+:
+:
+eEnabled
 )
 ;
 const

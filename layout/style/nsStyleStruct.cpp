@@ -11404,6 +11404,10 @@ nsCSSProps
 LookupProperty
 (
 aUnknownProperty
+nsCSSProps
+:
+:
+eEnabled
 )
 =
 =

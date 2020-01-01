@@ -810,6 +810,10 @@ mKey
 .
 mAttributeName
 )
+nsCSSProps
+:
+:
+eEnabled
 )
 ;
 if

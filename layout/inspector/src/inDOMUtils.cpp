@@ -1334,6 +1334,10 @@ nsCSSProps
 LookupProperty
 (
 aPropertyName
+nsCSSProps
+:
+:
+eAny
 )
 ;
 if
