@@ -3683,7 +3683,7 @@ if
 script
 -
 >
-ensureRanAnalysis
+ensureHasTypes
 (
 cx
 )
@@ -20982,7 +20982,14 @@ ok
 goto
 error
 ;
+break
+;
 }
+case
+JSTRY_LOOP
+:
+break
+;
 }
 }
 /
