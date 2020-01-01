@@ -27902,6 +27902,15 @@ PayloadError
 )
 )
         
+idvar
+=
+ExprVar
+(
+'
+__id
+'
+)
+        
 case
 .
 addstmts
@@ -27968,6 +27977,30 @@ NL
 ]
             
 +
+[
+StmtDecl
+(
+Decl
+(
+_actorIdType
+(
+)
+idvar
+.
+name
+)
+                         
+self
+.
+protocol
+.
+routingId
+(
+)
+)
+]
+            
++
 self
 .
 dtorEpilogue
@@ -27985,12 +28018,22 @@ var
 )
             
 +
+[
+Whitespace
+.
+NL
+]
+            
++
 self
 .
 makeReply
 (
 md
 errfnRecv
+routingId
+=
+idvar
 )
             
 +
@@ -28340,6 +28383,17 @@ extend
 sstmts
 )
         
+routingId
+=
+self
+.
+protocol
+.
+routingId
+(
+fromActor
+)
+        
 stmts
 .
 extend
@@ -28381,9 +28435,9 @@ msgvar
 reply
 =
 0
-actor
+routingId
 =
-fromActor
+routingId
 )
 )
         
@@ -28397,6 +28451,9 @@ makeReply
 self
 md
 errfn
+routingId
+=
+None
 )
 :
         
@@ -28524,6 +28581,9 @@ replyvar
 reply
 =
 1
+routingId
+=
+routingId
 )
             
 +
@@ -28557,11 +28617,27 @@ self
 md
 var
 reply
-actor
+routingId
 =
 None
 )
 :
+        
+if
+routingId
+is
+None
+:
+            
+routingId
+=
+self
+.
+protocol
+.
+routingId
+(
+)
         
 stmts
 =
@@ -28586,14 +28662,7 @@ set_routing_id
 args
 =
 [
-self
-.
-protocol
-.
 routingId
-(
-actor
-)
 ]
 )
 )
