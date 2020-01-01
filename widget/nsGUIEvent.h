@@ -3303,16 +3303,6 @@ NS_POINTERLOCK_START
 1
 )
 /
-/
-System
-time
-is
-changed
-#
-define
-NS_MOZ_TIME_CHANGE_EVENT
-5400
-/
 *
 *
 *
