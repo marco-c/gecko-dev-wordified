@@ -380,7 +380,7 @@ cell
 by
 dragging
 yield
-simulateExternalDrop
+simulateDrop
 (
 1
 )
@@ -425,8 +425,8 @@ around
 yield
 simulateDrop
 (
-2
 1
+2
 )
 ;
 checkGrid
