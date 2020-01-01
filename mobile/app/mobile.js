@@ -1606,11 +1606,9 @@ pref
 "
 extensions
 .
-disabledAddons
-.
-showUI
+showMismatchUI
 "
-true
+false
 )
 ;
 /
