@@ -122,13 +122,6 @@ h
 #
 include
 "
-nsBuiltinDecoderStateMachine
-.
-h
-"
-#
-include
-"
 mozilla
 /
 TimeStamp

@@ -167,7 +167,7 @@ nsWebMDecoder
 ;
 }
 virtual
-nsBuiltinDecoderStateMachine
+nsDecoderStateMachine
 *
 CreateStateMachine
 (

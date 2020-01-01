@@ -161,7 +161,7 @@ nsMediaOmxDecoder
 )
 ;
 }
-nsBuiltinDecoderStateMachine
+nsDecoderStateMachine
 *
 nsMediaOmxDecoder
 :

@@ -163,7 +163,7 @@ Clone
 )
 ;
 virtual
-nsBuiltinDecoderStateMachine
+nsDecoderStateMachine
 *
 CreateStateMachine
 (

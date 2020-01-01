@@ -150,7 +150,7 @@ aType
 )
 {
 }
-nsBuiltinDecoderStateMachine
+nsDecoderStateMachine
 *
 nsMediaPluginDecoder
 :

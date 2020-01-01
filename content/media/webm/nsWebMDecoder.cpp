@@ -133,7 +133,7 @@ nsWebMDecoder
 .
 h
 "
-nsBuiltinDecoderStateMachine
+nsDecoderStateMachine
 *
 nsWebMDecoder
 :

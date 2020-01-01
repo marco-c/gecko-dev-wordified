@@ -1296,7 +1296,7 @@ nsDASHDecoder
 )
 ;
 }
-nsBuiltinDecoderStateMachine
+nsDecoderStateMachine
 *
 nsDASHDecoder
 :
