@@ -5480,6 +5480,11 @@ currentBox
 >
 bogus
 )
+{
+last
+=
+currentBox
+;
 currentBox
 =
 currentBox
@@ -5487,6 +5492,7 @@ currentBox
 >
 next
 ;
+}
 +
 +
 childCount
