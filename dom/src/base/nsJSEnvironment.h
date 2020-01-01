@@ -1353,6 +1353,11 @@ aRet
 ;
 private
 :
+void
+Unlink
+(
+)
+;
 JSContext
 *
 mContext
