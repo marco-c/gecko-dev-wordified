@@ -335,6 +335,10 @@ mTransform
 (
 aTransform
 )
+mExtend
+(
+EXTEND_NONE
+)
 {
 }
 gfxPattern
@@ -1751,10 +1755,7 @@ EXTEND_PAD_EDGE
 .
 mExtend
 =
-ToExtendMode
-(
 extend
-)
 ;
 }
 }
@@ -1870,10 +1871,7 @@ mPattern
 else
 {
 return
-ThebesExtend
-(
 mExtend
-)
 ;
 }
 }

@@ -909,13 +909,7 @@ GradientStops
 >
 mStops
 ;
-mozilla
-:
-:
-gfx
-:
-:
-ExtendMode
+GraphicsExtend
 mExtend
 ;
 mozilla
