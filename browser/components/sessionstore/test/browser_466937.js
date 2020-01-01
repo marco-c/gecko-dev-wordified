@@ -508,8 +508,6 @@ sessionstore
 /
 test
 /
-browser
-/
 browser_466937_sample
 .
 html

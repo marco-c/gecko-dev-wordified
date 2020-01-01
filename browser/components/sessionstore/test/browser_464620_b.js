@@ -442,8 +442,6 @@ sessionstore
 /
 test
 /
-browser
-/
 browser_464620_b
 .
 html

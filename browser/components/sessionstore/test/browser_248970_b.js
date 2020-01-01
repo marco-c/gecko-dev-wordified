@@ -1232,8 +1232,6 @@ sessionstore
 /
 test
 /
-browser
-/
 browser_248970_b_sample
 .
 html
