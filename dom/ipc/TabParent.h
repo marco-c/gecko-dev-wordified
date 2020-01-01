@@ -541,6 +541,9 @@ nsIAuthPromptProvider
 h
 "
 class
+nsFrameLoader
+;
+class
 nsIURI
 ;
 class
@@ -1307,6 +1310,17 @@ PRBool
 ShouldDelayDialogs
 (
 )
+;
+private
+:
+already_AddRefed
+<
+nsFrameLoader
+>
+GetFrameLoader
+(
+)
+const
 ;
 }
 ;
