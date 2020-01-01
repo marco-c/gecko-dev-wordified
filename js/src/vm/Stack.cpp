@@ -2957,6 +2957,15 @@ isConstructing
 )
 &
 &
+thisValue
+(
+)
+.
+isObject
+(
+)
+&
+&
 returnValue
 (
 )
