@@ -451,6 +451,13 @@ h
 #
 include
 "
+nsAccessibilityUtils
+.
+h
+"
+#
+include
+"
 nsIAccessibilityService
 .
 h

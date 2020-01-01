@@ -7144,6 +7144,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_XUL
 nsresult
 nsRootAccessible
 :
@@ -7480,3 +7483,5 @@ endCol
 )
 ;
 }
+#
+endif
