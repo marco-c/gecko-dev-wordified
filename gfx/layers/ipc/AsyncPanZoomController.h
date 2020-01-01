@@ -1961,7 +1961,7 @@ bounds
 *
 /
 static
-CSSToScreenScale
+gfxSize
 CalculateIntrinsicScale
 (
 const
@@ -3404,10 +3404,8 @@ this
 void
 SetZoomAndResolution
 (
-const
-ScreenToScreenScale
-&
-aZoom
+float
+aScale
 )
 ;
 /

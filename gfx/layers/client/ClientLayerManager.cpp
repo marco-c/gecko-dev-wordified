@@ -2256,11 +2256,7 @@ GetTransform
 CSSToLayerScale
 paintScale
 =
-metrics
-.
-mDevPixelsPerCSSPixel
-/
-LayerToLayoutDeviceScale
+LayerToCSSScale
 (
 rootTransform
 .
@@ -2272,6 +2268,10 @@ rootTransform
 GetYScale
 (
 )
+)
+.
+Inverse
+(
 )
 ;
 const
