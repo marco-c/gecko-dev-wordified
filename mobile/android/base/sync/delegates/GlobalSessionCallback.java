@@ -326,7 +326,7 @@ param
 globalSession
 *
 param
-newClusterURL
+failedClusterURL
 *
 The
 new
