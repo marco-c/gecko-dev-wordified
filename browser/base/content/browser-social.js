@@ -58,6 +58,27 @@ MPL
 .
 /
 /
+the
+"
+exported
+"
+symbols
+let
+SocialUI
+SocialChatBar
+SocialFlyout
+SocialShareButton
+SocialMenu
+SocialToolbar
+SocialSidebar
+;
+(
+function
+(
+)
+{
+/
+/
 The
 minimum
 sizes
@@ -101,7 +122,6 @@ jsm
 "
 )
 ;
-let
 SocialUI
 =
 {
@@ -2539,7 +2559,6 @@ provider
 ;
 }
 }
-let
 SocialChatBar
 =
 {
@@ -3326,7 +3345,6 @@ null
 }
 }
 }
-let
 SocialFlyout
 =
 {
@@ -4238,7 +4256,6 @@ yOffset
 ;
 }
 }
-let
 SocialShareButton
 =
 {
@@ -5228,7 +5245,6 @@ imageURL
 }
 }
 ;
-var
 SocialMenu
 =
 {
@@ -5470,7 +5486,6 @@ is
 being
 initialized
 correctly
-var
 SocialToolbar
 =
 {
@@ -8181,7 +8196,6 @@ false
 ;
 }
 }
-var
 SocialSidebar
 =
 {
@@ -9040,3 +9054,8 @@ null
 }
 }
 }
+}
+)
+(
+)
+;
