@@ -1087,7 +1087,13 @@ const
 nsAString
 &
 aTag
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 *
 aContent

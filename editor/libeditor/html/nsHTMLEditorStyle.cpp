@@ -2049,7 +2049,10 @@ matches
 .
 nsCOMPtr
 <
-nsIContent
+dom
+:
+:
+Element
 >
 newSpan
 ;
@@ -2094,11 +2097,6 @@ mHTMLCSSUtils
 SetCSSEquivalentToHTMLStyle
 (
 newSpan
--
->
-AsElement
-(
-)
 aProperty
 aAttribute
 aValue
@@ -2118,11 +2116,6 @@ mHTMLCSSUtils
 ElementsSameStyle
 (
 newSpan
--
->
-AsElement
-(
-)
 element
 )
 ;

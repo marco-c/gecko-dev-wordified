@@ -17472,7 +17472,10 @@ newElement
 ;
 nsCOMPtr
 <
-nsIContent
+dom
+:
+:
+Element
 >
 newContent
 ;

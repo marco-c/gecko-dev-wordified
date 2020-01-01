@@ -6594,7 +6594,10 @@ br
 .
 nsCOMPtr
 <
-nsIContent
+dom
+:
+:
+Element
 >
 newContent
 ;
