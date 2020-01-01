@@ -573,9 +573,6 @@ nsSVGViewBox
 class
 nsSVGString
 ;
-class
-nsSVGClass
-;
 struct
 gfxMatrix
 ;
@@ -1373,12 +1370,6 @@ DidAnimateString
 (
 PRUint8
 aAttrEnum
-)
-;
-virtual
-void
-DidAnimateClass
-(
 )
 ;
 void
@@ -2687,13 +2678,6 @@ GetLengthListInfo
 virtual
 StringAttributesInfo
 GetStringInfo
-(
-)
-;
-virtual
-nsSVGClass
-*
-GetClass
 (
 )
 ;
