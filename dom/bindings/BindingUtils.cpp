@@ -3660,6 +3660,14 @@ JSObject
 obj
 )
 {
+MOZ_ASSERT
+(
+IsDOMObject
+(
+obj
+)
+)
+;
 if
 (
 nsISupports
