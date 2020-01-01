@@ -41424,6 +41424,14 @@ css
 :
 :
 BasicFloatCalcOps
+public
+mozilla
+:
+:
+css
+:
+:
+CSSValueInputCalcOps
 {
 result_type
 ComputeLeafValue
