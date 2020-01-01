@@ -482,6 +482,8 @@ include
 "
 mozilla
 /
+gfx
+/
 BaseRect
 .
 h
@@ -497,6 +499,9 @@ public
 mozilla
 :
 :
+gfx
+:
+:
 BaseRect
 <
 nscoord
@@ -508,6 +513,9 @@ nsMargin
 {
 typedef
 mozilla
+:
+:
+gfx
 :
 :
 BaseRect
@@ -838,6 +846,9 @@ public
 mozilla
 :
 :
+gfx
+:
+:
 BaseRect
 <
 PRInt32
@@ -849,6 +860,9 @@ nsIntMargin
 {
 typedef
 mozilla
+:
+:
+gfx
 :
 :
 BaseRect

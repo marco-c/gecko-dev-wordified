@@ -440,6 +440,8 @@ include
 "
 mozilla
 /
+gfx
+/
 BaseSize
 .
 h
@@ -463,6 +465,9 @@ public
 mozilla
 :
 :
+gfx
+:
+:
 BaseSize
 <
 nscoord
@@ -471,6 +476,9 @@ nsSize
 {
 typedef
 mozilla
+:
+:
+gfx
 :
 :
 BaseSize
@@ -552,6 +560,9 @@ public
 mozilla
 :
 :
+gfx
+:
+:
 BaseSize
 <
 PRInt32
@@ -560,6 +571,9 @@ nsIntSize
 {
 typedef
 mozilla
+:
+:
+gfx
 :
 :
 BaseSize
