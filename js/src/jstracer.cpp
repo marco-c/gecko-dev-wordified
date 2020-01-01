@@ -67088,6 +67088,7 @@ globalObj
 thisObject
 (
 cx
+globalObj
 )
 ;
 if
