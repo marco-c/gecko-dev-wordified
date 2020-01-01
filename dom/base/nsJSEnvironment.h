@@ -262,6 +262,8 @@ nsJSContext
 JSRuntime
 *
 aRuntime
+bool
+aGCOnDestruction
 nsIScriptGlobalObject
 *
 aGlobalObject
@@ -622,14 +624,6 @@ virtual
 bool
 GetExecutingScript
 (
-)
-;
-virtual
-void
-SetGCOnDestruction
-(
-bool
-aGCOnDestruction
 )
 ;
 virtual
@@ -1450,6 +1444,8 @@ nsIScriptContext
 >
 CreateContext
 (
+bool
+aGCOnDestruction
 nsIScriptGlobalObject
 *
 aGlobalObject

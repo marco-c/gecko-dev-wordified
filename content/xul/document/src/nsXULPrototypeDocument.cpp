@@ -3798,6 +3798,7 @@ languageRuntime
 >
 CreateContext
 (
+false
 nullptr
 )
 ;
@@ -3977,14 +3978,6 @@ NS_ENSURE_SUCCESS
 (
 rv
 NS_OK
-)
-;
-ctxNew
--
->
-SetGCOnDestruction
-(
-false
 )
 ;
 ctxNew
