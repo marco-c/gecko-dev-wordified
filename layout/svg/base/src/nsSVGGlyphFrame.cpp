@@ -2639,7 +2639,6 @@ Length
 )
 PR_FALSE
 nsnull
-nsnull
 )
 ;
 gfx
@@ -2817,7 +2816,6 @@ MeasureText
 i
 1
 PR_FALSE
-nsnull
 nsnull
 )
 ;
@@ -5198,7 +5196,6 @@ charnum
 1
 PR_FALSE
 nsnull
-nsnull
 )
 ;
 if
@@ -5559,7 +5556,6 @@ Length
 (
 )
 PR_FALSE
-nsnull
 nsnull
 )
 ;
@@ -6767,7 +6763,6 @@ charnum
 1
 PR_FALSE
 nsnull
-nsnull
 )
 ;
 gfx
@@ -7404,7 +7399,6 @@ MeasureText
 i
 1
 PR_FALSE
-nsnull
 nsnull
 )
 ;
