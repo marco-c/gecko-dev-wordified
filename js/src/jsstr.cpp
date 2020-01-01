@@ -7996,9 +7996,8 @@ data
 -
 >
 pc
-)
-{
-JS_ASSERT
+&
+&
 (
 *
 data
@@ -8019,7 +8018,8 @@ pc
 =
 JSOP_NEW
 )
-;
+)
+{
 JS_ASSERT
 (
 js_CodeSpec
