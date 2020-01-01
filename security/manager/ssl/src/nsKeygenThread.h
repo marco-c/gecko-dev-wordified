@@ -463,7 +463,7 @@ nsCOMPtr
 h
 "
 class
-nsIObserver
+nsIRunnable
 ;
 class
 nsKeygenThread
@@ -481,9 +481,9 @@ mutex
 ;
 nsCOMPtr
 <
-nsIObserver
+nsIRunnable
 >
-observer
+mNotifyObserver
 ;
 bool
 iAmRunning
