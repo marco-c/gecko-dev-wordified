@@ -233,7 +233,6 @@ aInverted
 false
 )
 ;
-virtual
 gfx
 :
 :
