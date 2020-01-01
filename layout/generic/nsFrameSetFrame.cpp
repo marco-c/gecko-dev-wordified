@@ -1188,14 +1188,15 @@ List
 FILE
 *
 out
-=
-stdout
 int32_t
 aIndent
+uint32_t
+aFlags
 =
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -11410,6 +11411,8 @@ FILE
 out
 int32_t
 aIndent
+uint32_t
+aFlags
 )
 const
 {
@@ -11463,6 +11466,7 @@ List
 (
 out
 aIndent
+aFlags
 )
 ;
 }
