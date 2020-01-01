@@ -14215,6 +14215,10 @@ leftParent
 leftNode
 ;
 else
+if
+(
+leftNode
+)
 leftParent
 =
 mHTMLEditor
