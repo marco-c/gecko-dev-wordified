@@ -11080,7 +11080,7 @@ plugins
 .
 enabled
 "
-false
+true
 )
 ;
 #
