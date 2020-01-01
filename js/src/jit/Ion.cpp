@@ -16377,7 +16377,7 @@ IonContext
 *
 ictx
 =
-GetIonContext
+MaybeGetIonContext
 (
 )
 ;
