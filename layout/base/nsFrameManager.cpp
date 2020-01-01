@@ -7266,7 +7266,7 @@ NS_FRAME_IS_SPECIAL
 aFrame
 -
 >
-GetPrevInFlow
+GetPrevContinuation
 (
 )
 )
