@@ -1464,6 +1464,9 @@ killProcess
 (
 self
 appname
+forceKill
+=
+False
 )
 :
     
@@ -1479,13 +1482,11 @@ returns
     
 success
 :
-output
-from
-testagent
+True
     
 failure
 :
-None
+False
     
 "
 "

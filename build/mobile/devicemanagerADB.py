@@ -3294,20 +3294,21 @@ returns
 #
 success
 :
-output
-from
-testagent
+True
   
 #
 failure
 :
-None
+False
   
 def
 killProcess
 (
 self
 appname
+forceKill
+=
+False
 )
 :
     
@@ -3318,6 +3319,10 @@ self
 getProcessList
 (
 )
+    
+didKillProcess
+=
+False
     
 for
 (
@@ -3335,13 +3340,9 @@ name
 =
 appname
 :
-        
-p
+         
+args
 =
-self
-.
-runCmdAs
-(
 [
 "
 shell
@@ -3349,21 +3350,44 @@ shell
 "
 kill
 "
-pid
 ]
-)
-        
-return
-p
+         
+if
+forceKill
+:
+           
+args
 .
-stdout
-.
-read
+append
 (
+"
+-
+9
+"
 )
+         
+args
+.
+append
+(
+pid
+)
+         
+p
+=
+self
+.
+runCmdAs
+(
+args
+)
+         
+didKillProcess
+=
+True
     
 return
-None
+didKillProcess
   
 #
 external
