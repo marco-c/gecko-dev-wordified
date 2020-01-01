@@ -11748,6 +11748,7 @@ rval
 principal
 NULL
 false
+true
 EmptyCString
 (
 )

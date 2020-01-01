@@ -26775,6 +26775,8 @@ JSObject
 proto
 bool
 preferXray
+bool
+wantComponents
 const
 nsACString
 &
