@@ -1032,12 +1032,6 @@ nsAString
 aInternalSubset
 )
 {
-/
-/
-XXX
-:
-null
-string
 aInternalSubset
 =
 mInternalSubset
