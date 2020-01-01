@@ -24172,8 +24172,8 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
-aShrinkWrap
+PRUint32
+aFlags
 )
 {
 nsSize
@@ -24187,7 +24187,9 @@ aAvailableWidth
 aMargin
 aBorder
 aPadding
-aShrinkWrap
+aFlags
+&
+eShrinkWrap
 )
 ;
 nsSize

@@ -1658,8 +1658,8 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
-aShrinkWrap
+PRUint32
+aFlags
 )
 {
 /
