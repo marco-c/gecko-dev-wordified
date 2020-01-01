@@ -870,9 +870,9 @@ CreateOuterObject
 nsIScriptGlobalObject
 *
 aGlobalObject
-nsIPrincipal
+nsIScriptGlobalObject
 *
-aPrincipal
+aCurrentInner
 )
 ;
 virtual
