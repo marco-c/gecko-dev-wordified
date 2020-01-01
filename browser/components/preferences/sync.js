@@ -864,7 +864,7 @@ function
 wizardType
 )
 {
-var
+let
 win
 =
 Services
@@ -1084,3 +1084,4 @@ reset
 ;
 }
 }
+;
