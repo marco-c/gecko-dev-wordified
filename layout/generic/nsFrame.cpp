@@ -730,13 +730,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsIEditorDocShell
 .
 h

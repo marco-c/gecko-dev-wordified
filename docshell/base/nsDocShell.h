@@ -557,13 +557,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsDocLoader
 .
 h

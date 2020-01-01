@@ -460,13 +460,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsIComponentManager
 .
 h

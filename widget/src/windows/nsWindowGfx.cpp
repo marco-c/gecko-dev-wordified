@@ -821,13 +821,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 prmem
 .
 h

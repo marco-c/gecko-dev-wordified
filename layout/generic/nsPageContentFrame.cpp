@@ -495,13 +495,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

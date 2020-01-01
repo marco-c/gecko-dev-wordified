@@ -752,13 +752,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsIDeviceContextSpec
 .
 h

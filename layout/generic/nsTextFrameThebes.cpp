@@ -718,13 +718,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsCSSPseudoElements
 .
 h

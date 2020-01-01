@@ -733,13 +733,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsIXULTemplateBuilder
 .
 h

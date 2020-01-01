@@ -607,13 +607,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsCSSRendering
 .
 h

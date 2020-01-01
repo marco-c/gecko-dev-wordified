@@ -482,6 +482,9 @@ gfxContext
 .
 h
 "
+struct
+nsPoint
+;
 class
 nsIntRegion
 ;

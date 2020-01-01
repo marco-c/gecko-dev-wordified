@@ -823,13 +823,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsIPrivateDOMEvent
 .
 h

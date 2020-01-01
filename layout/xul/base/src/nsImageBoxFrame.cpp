@@ -454,13 +454,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -602,13 +595,6 @@ h
 include
 "
 nsIDOMHTMLImageElement
-.
-h
-"
-#
-include
-"
-nsIDeviceContext
 .
 h
 "

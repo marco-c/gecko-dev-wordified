@@ -484,13 +484,6 @@ nsNativeTheme
 .
 h
 "
-#
-include
-"
-nsIDeviceContext
-.
-h
-"
 class
 QComboBox
 ;
@@ -508,6 +501,9 @@ QRect
 ;
 class
 nsIFrame
+;
+class
+nsIDeviceContext
 ;
 class
 nsNativeThemeQt

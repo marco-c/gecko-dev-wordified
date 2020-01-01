@@ -682,13 +682,6 @@ window
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsIRegion
 .
 h

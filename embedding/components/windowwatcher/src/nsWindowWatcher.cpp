@@ -769,13 +769,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsIDOMStorageObsolete
 .
 h

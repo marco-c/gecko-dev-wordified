@@ -775,13 +775,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsTextFragment
 .
 h

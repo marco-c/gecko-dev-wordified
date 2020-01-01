@@ -545,13 +545,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsRenderingContext
 .
 h

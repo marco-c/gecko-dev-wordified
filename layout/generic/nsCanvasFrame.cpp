@@ -524,13 +524,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h

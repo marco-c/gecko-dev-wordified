@@ -670,13 +670,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsGfxCIID
 .
 h
