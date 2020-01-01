@@ -6547,7 +6547,6 @@ handleDocumentStop
 (
 tabId
 success
-uri
 )
 ;
 }
@@ -9515,9 +9514,6 @@ int
 tabId
 boolean
 success
-final
-String
-uri
 )
 {
 final
@@ -9594,6 +9590,16 @@ STOP
 }
 )
 ;
+final
+String
+oldURL
+=
+tab
+.
+getURL
+(
+)
+;
 GeckoAppShell
 .
 getHandler
@@ -9616,7 +9622,7 @@ run
 if
 (
 !
-uri
+oldURL
 .
 equals
 (
