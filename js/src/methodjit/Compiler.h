@@ -586,6 +586,9 @@ comments
 uint32_t
 callIndex
 ;
+Label
+funGuardLabel
+;
 DataLabelPtr
 funGuard
 ;
