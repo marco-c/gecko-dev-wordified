@@ -1233,17 +1233,6 @@ Symbols
 static
 const
 char
-kFontAppleMyungjo
-[
-]
-=
-"
-AppleMyungjo
-"
-;
-static
-const
-char
 kFontGeneva
 [
 ]
