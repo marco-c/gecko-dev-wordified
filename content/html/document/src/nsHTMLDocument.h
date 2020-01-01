@@ -1748,16 +1748,6 @@ uint32_t
 gWyciwygSessionCnt
 ;
 static
-bool
-IsAsciiCompatible
-(
-const
-nsACString
-&
-aPreferredName
-)
-;
-static
 void
 TryHintCharset
 (
