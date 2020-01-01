@@ -1085,8 +1085,10 @@ Shutdown
 then
 die
 .
-delete
+NS_DELETEXPCOM
+(
 this
+)
 ;
 }
 /

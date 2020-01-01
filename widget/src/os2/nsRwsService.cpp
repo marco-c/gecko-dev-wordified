@@ -9840,11 +9840,10 @@ an
 instance
 of
 nsRwsService
-sRwsInstance
-=
-new
-nsRwsService
+NS_NEWXPCOM
 (
+sRwsInstance
+nsRwsService
 )
 ;
 if

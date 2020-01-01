@@ -812,10 +812,11 @@ nsCOMPtr
 nsIURI
 >
 uri
-=
-new
-nsMozIconURI
+;
+NS_NEWXPCOM
 (
+uri
+nsMozIconURI
 )
 ;
 if
