@@ -533,7 +533,7 @@ h
 #
 include
 "
-jsproxy
+jswrapper
 .
 h
 "
@@ -21027,13 +21027,10 @@ JSObject
 *
 wrapped
 =
-JSNoopProxyHandler
+JSWrapper
 :
 :
 wrap
-<
-JSNoopProxyHandler
->
 (
 cx
 JSVAL_TO_OBJECT
