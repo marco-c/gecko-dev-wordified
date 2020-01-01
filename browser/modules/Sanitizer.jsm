@@ -1279,7 +1279,7 @@ Components
 .
 interfaces
 .
-nsIFormHistory
+nsIFormHistory2
 )
 ;
 formHistory
@@ -1322,7 +1322,7 @@ Components
 .
 interfaces
 .
-nsIFormHistory
+nsIFormHistory2
 )
 ;
 return
