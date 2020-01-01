@@ -1213,6 +1213,10 @@ NSAccessibilityGroupRole
 /
 /
 ROLE_EMBEDDED_OBJECT
+NSAccessibilityGroupRole
+/
+/
+ROLE_NOTE
 "
 ROLE_LAST_ENTRY
 "

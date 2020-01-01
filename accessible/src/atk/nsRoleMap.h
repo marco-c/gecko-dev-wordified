@@ -1487,6 +1487,14 @@ nsIAccessibleRole
 :
 ROLE_EMBEDDED_OBJECT
 122
+ATK_ROLE_SECTION
+/
+/
+nsIAccessibleRole
+:
+:
+ROLE_NOTE
+123
 kROLE_ATK_LAST_ENTRY
 /
 /

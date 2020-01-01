@@ -849,6 +849,17 @@ HTML
 landmark
 ACCESSIBILITY_ATOM
 (
+aside
+"
+aside
+"
+)
+/
+/
+HTML
+landmark
+ACCESSIBILITY_ATOM
+(
 autocomplete
 "
 autocomplete
