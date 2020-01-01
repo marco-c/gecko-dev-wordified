@@ -10777,7 +10777,7 @@ exit
 )
 ;
 JS_REQUIRES_STACK
-void
+bool
 joinEdgesToEntry
 (
 TreeFragment
