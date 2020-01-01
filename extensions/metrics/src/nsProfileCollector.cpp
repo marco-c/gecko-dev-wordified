@@ -607,6 +607,13 @@ nsToolkitCompsCID
 .
 h
 "
+#
+include
+"
+nsXPCOMCIDInternal
+.
+h
+"
 /
 /
 We

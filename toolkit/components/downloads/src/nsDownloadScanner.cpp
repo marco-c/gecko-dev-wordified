@@ -522,6 +522,13 @@ nsIPrefBranch2
 .
 h
 "
+#
+include
+"
+nsXPCOMCIDInternal
+.
+h
+"
 /
 *
 *
