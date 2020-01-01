@@ -153,7 +153,7 @@ gre
 /
 modules
 /
-Webapps
+AppsUtils
 .
 jsm
 "
@@ -814,7 +814,7 @@ let
 manifest
 =
 new
-DOMApplicationManifest
+ManifestHelper
 (
 aApp
 .
