@@ -18077,6 +18077,10 @@ trailingTextFrame
 =
 nsnull
 ;
+skipWhitespace
+=
+PR_TRUE
+;
 }
 void
 nsIFrame
@@ -18463,6 +18467,10 @@ currentLine
 trailingWhitespace
 =
 0
+;
+skipWhitespace
+=
+PR_TRUE
 ;
 }
 static
