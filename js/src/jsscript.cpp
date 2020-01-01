@@ -12018,6 +12018,9 @@ enclosingScriptsCompiledSuccessfully
 )
 const
 {
+AutoAssertNoGC
+nogc
+;
 /
 *
 *
@@ -12118,8 +12121,13 @@ if
 fun
 -
 >
-hasScript
+script
 (
+)
+.
+get
+(
+nogc
 )
 )
 return
