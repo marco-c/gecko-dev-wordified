@@ -255,6 +255,11 @@ const
 /
 Obtains
 the
+abs
+-
+value
+of
+the
 height
 from
 the
@@ -502,6 +507,11 @@ s
 currently
 being
 decoded
+:
+[
+height
+1
+]
 PRInt32
 mOldLine
 ;
