@@ -845,7 +845,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 %
 LOCALE
@@ -9745,7 +9745,7 @@ warning
 infoURL
 "
 "
-http
+https
 :
 /
 /
@@ -9753,7 +9753,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 %
 LOCALE

@@ -892,7 +892,7 @@ Mozilla
 url
 (
 "
-http
+https
 :
 /
 /
@@ -900,7 +900,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 "
 )
@@ -998,7 +998,7 @@ uri
 .
 spec
 "
-http
+https
 :
 /
 /
@@ -1006,7 +1006,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 "
 "
@@ -2280,7 +2280,7 @@ Mozilla
 url
 (
 "
-http
+https
 :
 /
 /
@@ -2288,7 +2288,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 "
 )

@@ -249,7 +249,7 @@ getting_started
 link
 title
 for
-http
+https
 :
 /
 /
@@ -257,7 +257,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 en
 -
@@ -300,7 +300,7 @@ firefox_help
 link
 title
 for
-http
+https
 :
 /
 /
@@ -308,7 +308,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 en
 -
@@ -334,7 +334,7 @@ firefox_customize
 link
 title
 for
-http
+https
 :
 /
 /
@@ -342,7 +342,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 en
 -
@@ -368,7 +368,7 @@ firefox_community
 link
 title
 for
-http
+https
 :
 /
 /
@@ -376,15 +376,13 @@ www
 .
 mozilla
 .
-com
+org
 /
 en
 -
 US
 /
-firefox
-/
-community
+contribute
 /
 #
 define
@@ -402,7 +400,7 @@ firefox_about
 link
 title
 for
-http
+https
 :
 /
 /
@@ -410,7 +408,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 en
 -
