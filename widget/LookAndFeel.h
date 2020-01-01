@@ -1715,6 +1715,7 @@ eWindowsTheme_LunaOlive
 eWindowsTheme_LunaSilver
 eWindowsTheme_Royale
 eWindowsTheme_Zune
+eWindowsTheme_AeroLite
 }
 ;
 enum
