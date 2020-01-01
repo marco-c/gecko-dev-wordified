@@ -1710,6 +1710,13 @@ clickcount
 )
 GK_ATOM
 (
+clickthrough
+"
+clickthrough
+"
+)
+GK_ATOM
+(
 movetoclick
 "
 movetoclick
