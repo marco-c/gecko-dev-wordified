@@ -26473,15 +26473,6 @@ VARIANT_POSITIVE_LENGTH
 0
 &
 &
-eCSSToken_Number
-=
-=
-tk
--
->
-mType
-&
-&
 tk
 -
 >
