@@ -173,7 +173,13 @@ Clear
 {
 mNavigationType
 =
-nsIDOMPerformanceNavigation
+mozilla
+:
+:
+dom
+:
+:
+PerformanceNavigation
 :
 :
 TYPE_RESERVED
