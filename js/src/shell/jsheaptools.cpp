@@ -2867,7 +2867,10 @@ if
 object
 -
 >
-isBlock
+is
+<
+BlockObject
+>
 (
 )
 |

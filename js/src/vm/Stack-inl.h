@@ -269,7 +269,10 @@ isCall
 obj
 -
 >
-isBlock
+is
+<
+BlockObject
+>
 (
 )
 |

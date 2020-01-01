@@ -28371,7 +28371,10 @@ JS_ASSERT
 obj
 -
 >
-isBlock
+is
+<
+BlockObject
+>
 (
 )
 )

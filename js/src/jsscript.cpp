@@ -4383,7 +4383,10 @@ isBlock
 obj
 -
 >
-isBlock
+is
+<
+BlockObject
+>
 (
 )
 ?
