@@ -1430,7 +1430,7 @@ GetOwnerDoc
 )
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 =

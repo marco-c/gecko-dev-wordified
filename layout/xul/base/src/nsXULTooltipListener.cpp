@@ -2829,7 +2829,7 @@ do_QueryInterface
 doc
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 )

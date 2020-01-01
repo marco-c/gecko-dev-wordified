@@ -6331,7 +6331,7 @@ aElement
 mDocument
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 )

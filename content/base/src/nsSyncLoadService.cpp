@@ -1526,7 +1526,7 @@ NS_ENSURE_TRUE
 document
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 NS_ERROR_FAILURE

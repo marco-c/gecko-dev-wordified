@@ -5050,7 +5050,7 @@ mRootNode
 )
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 ;

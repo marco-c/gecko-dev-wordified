@@ -10237,7 +10237,7 @@ GetOwnerDoc
 )
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 )
@@ -14714,7 +14714,7 @@ GetOwnerDoc
 )
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 )

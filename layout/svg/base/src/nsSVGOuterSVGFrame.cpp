@@ -1311,7 +1311,7 @@ if
 doc
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 =

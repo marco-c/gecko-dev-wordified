@@ -2882,7 +2882,7 @@ if
 bindingDocument
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 )

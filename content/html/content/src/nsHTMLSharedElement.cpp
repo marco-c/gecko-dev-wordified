@@ -2463,7 +2463,7 @@ GetOwnerDoc
 )
 -
 >
-GetHeadContent
+GetHeadElement
 (
 )
 =
@@ -2828,7 +2828,7 @@ GetOwnerDoc
 )
 -
 >
-GetHeadContent
+GetHeadElement
 (
 )
 )
@@ -2982,7 +2982,7 @@ GetOwnerDoc
 )
 -
 >
-GetHeadContent
+GetHeadElement
 (
 )
 )
@@ -3095,7 +3095,7 @@ aParent
 aDocument
 -
 >
-GetHeadContent
+GetHeadElement
 (
 )
 =
@@ -3265,14 +3265,14 @@ SetBaseURI
 (
 nsnull
 )
-nsIContent
+Element
 *
 head
 =
 doc
 -
 >
-GetHeadContent
+GetHeadElement
 (
 )
 ;

@@ -11695,7 +11695,7 @@ rootContent
 doc
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 ;

@@ -4247,7 +4247,7 @@ do_QueryInterface
 mDocument
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 )
@@ -14669,7 +14669,7 @@ do_QueryInterface
 mDocument
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 )

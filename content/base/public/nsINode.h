@@ -3086,7 +3086,7 @@ with
 nsIDocument
 :
 :
-GetRootContent
+GetRootElement
 (
 )
 first
@@ -3258,7 +3258,7 @@ with
 nsIDocument
 :
 :
-GetRootContent
+GetRootElement
 (
 )
 first

@@ -2460,7 +2460,7 @@ GetParent
 )
 ;
 }
-nsIContent
+Element
 *
 docElement
 =
@@ -2469,7 +2469,7 @@ GetCurrentDoc
 )
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 ;

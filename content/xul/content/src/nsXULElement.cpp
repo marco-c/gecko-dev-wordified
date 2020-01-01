@@ -3149,14 +3149,14 @@ nsPIDOMWindow
 *
 window
 ;
-nsIContent
+Element
 *
 root
 =
 doc
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 ;
@@ -7259,7 +7259,7 @@ document
 document
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 =
@@ -8723,7 +8723,7 @@ doc
 doc
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 =
@@ -12189,7 +12189,7 @@ GetOwnerDoc
 )
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 |
@@ -12199,7 +12199,7 @@ GetOwnerDoc
 )
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 -
@@ -14219,7 +14219,7 @@ doc
 doc
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 !
