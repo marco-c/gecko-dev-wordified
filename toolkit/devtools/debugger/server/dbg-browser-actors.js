@@ -1757,12 +1757,12 @@ pool
 *
 *
 param
-string
+BreakpointActor
 aActor
 *
 The
 actor
-ID
+object
 .
 *
 /
