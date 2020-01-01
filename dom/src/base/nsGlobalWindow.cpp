@@ -4180,7 +4180,7 @@ QueryInterface
 implementation
 for
 nsGlobalWindow
-NS_INTERFACE_MAP_BEGIN
+NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsGlobalWindow
 )
@@ -4271,10 +4271,6 @@ nsISupportsWeakReference
 NS_INTERFACE_MAP_ENTRY
 (
 nsIInterfaceRequestor
-)
-NS_INTERFACE_MAP_ENTRIES_CYCLE_COLLECTION
-(
-nsGlobalWindow
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
@@ -43401,7 +43397,7 @@ QueryInterface
 implementation
 for
 nsGlobalChromeWindow
-NS_INTERFACE_MAP_BEGIN
+NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
 nsGlobalChromeWindow
 )
@@ -43412,10 +43408,6 @@ nsIDOMChromeWindow
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
 ChromeWindow
-)
-NS_INTERFACE_MAP_ENTRY_CYCLE_COLLECTION
-(
-nsGlobalChromeWindow
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
