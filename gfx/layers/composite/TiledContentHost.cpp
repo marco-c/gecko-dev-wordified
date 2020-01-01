@@ -2002,6 +2002,9 @@ this
 }
 #
 endif
+#
+ifdef
+MOZ_DUMP_PAINTING
 void
 TiledContentHost
 :
@@ -2163,6 +2166,8 @@ ul
 ;
 }
 }
+#
+endif
 }
 /
 /

@@ -999,6 +999,9 @@ get
 }
 #
 endif
+#
+ifdef
+MOZ_DUMP_PAINTING
 void
 ImageHost
 :
@@ -1092,6 +1095,8 @@ ul
 ;
 }
 }
+#
+endif
 LayerRenderState
 ImageHost
 :
@@ -2030,6 +2035,9 @@ aAllocator
 ;
 }
 }
+#
+ifdef
+MOZ_DUMP_PAINTING
 void
 DeprecatedImageHostSingle
 :
@@ -2123,9 +2131,6 @@ ul
 ;
 }
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 already_AddRefed
 <
 gfxImageSurface

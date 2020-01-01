@@ -786,6 +786,12 @@ AsSourceOGL
 )
 MOZ_OVERRIDE
 {
+/
+/
+XXX
+-
+Bug
+900770
 MOZ_ASSERT
 (
 false
@@ -815,6 +821,12 @@ GetSize
 const
 MOZ_OVERRIDE
 {
+/
+/
+XXX
+-
+Bug
+900770
 MOZ_ASSERT
 (
 false

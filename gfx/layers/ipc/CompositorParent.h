@@ -1165,7 +1165,7 @@ true
 if
 the
 calling
-thrad
+thread
 is
 the
 compositor

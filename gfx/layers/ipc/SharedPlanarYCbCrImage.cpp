@@ -412,7 +412,7 @@ data
 )
 )
 {
-printf
+NS_WARNING
 (
 "
 SharedPlanarYCbCrImage
@@ -422,10 +422,6 @@ SetData
 failed
 to
 allocate
-:
-(
-\
-n
 "
 )
 ;

@@ -831,7 +831,7 @@ held
 off
 for
 next
-trasanction
+transaction
 .
 *
 /
@@ -864,7 +864,7 @@ layer
 /
 virtual
 void
-Detach
+OnDetach
 (
 )
 {
@@ -882,10 +882,7 @@ the
 next
 transaction
 ;
-std
-:
-:
-vector
+nsTArray
 <
 uint64_t
 >

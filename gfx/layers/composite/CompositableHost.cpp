@@ -927,6 +927,9 @@ CompositableType
 ;
 }
 }
+#
+ifdef
+MOZ_DUMP_PAINTING
 void
 CompositableHost
 :
@@ -1043,6 +1046,8 @@ stderr
 )
 ;
 }
+#
+endif
 void
 CompositableParent
 :

@@ -195,7 +195,7 @@ mContentClient
 mContentClient
 -
 >
-Detach
+OnDetach
 (
 )
 ;

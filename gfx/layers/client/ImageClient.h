@@ -437,7 +437,7 @@ aContentFlags
 ;
 virtual
 void
-Detach
+OnDetach
 (
 )
 MOZ_OVERRIDE
@@ -518,7 +518,6 @@ image
 client
 which
 uses
-a
 two
 texture
 clients
@@ -557,7 +556,7 @@ aContentFlags
 ;
 virtual
 void
-Detach
+OnDetach
 (
 )
 MOZ_OVERRIDE

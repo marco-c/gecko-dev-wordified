@@ -484,8 +484,6 @@ GetAsSurface
 (
 )
 ;
-#
-endif
 virtual
 void
 Dump
@@ -509,6 +507,8 @@ false
 )
 MOZ_OVERRIDE
 ;
+#
+endif
 virtual
 DeprecatedTextureHost
 *
@@ -838,6 +838,9 @@ DestroyTextures
 )
 MOZ_OVERRIDE
 ;
+#
+ifdef
+MOZ_DUMP_PAINTING
 virtual
 void
 Dump
@@ -861,6 +864,8 @@ false
 )
 MOZ_OVERRIDE
 ;
+#
+endif
 #
 ifdef
 MOZ_LAYERS_HAVE_LOG

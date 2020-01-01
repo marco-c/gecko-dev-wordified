@@ -236,7 +236,7 @@ mCanvasClient
 mCanvasClient
 -
 >
-Detach
+OnDetach
 (
 )
 ;
