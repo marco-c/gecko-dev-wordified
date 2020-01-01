@@ -3051,6 +3051,10 @@ information
 class
 DebugScopes
 {
+JSRuntime
+*
+rt
+;
 /
 *
 The
@@ -3106,8 +3110,10 @@ typedef
 HashMap
 <
 ScopeIter
+ReadBarriered
+<
 DebugScopeObject
-*
+>
 ScopeIter
 RuntimeAllocPolicy
 >
@@ -3236,9 +3242,6 @@ trc
 void
 sweep
 (
-JSRuntime
-*
-rt
 )
 ;
 DebugScopeObject
