@@ -825,9 +825,6 @@ kAppShellCID
 NS_APPSHELL_CID
 )
 ;
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 extern
 PRTime
 gXRE_mainTimestamp
@@ -836,8 +833,6 @@ extern
 PRTime
 gFirstPaintTimestamp
 ;
-#
-endif
 /
 /
 mfinklesessionstore
@@ -4180,9 +4175,6 @@ process
 gProcessCreationTimestamp
 )
 ;
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 MaybeDefineProperty
 (
 cx
@@ -4203,8 +4195,6 @@ firstPaint
 gFirstPaintTimestamp
 )
 ;
-#
-endif
 MaybeDefineProperty
 (
 cx

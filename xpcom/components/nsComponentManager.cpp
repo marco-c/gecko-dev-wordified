@@ -2328,9 +2328,6 @@ Module
 *
 >
 ;
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 for
 (
 const
@@ -2364,8 +2361,6 @@ AppendElement
 staticModules
 )
 ;
-#
-endif
 }
 nsTArray
 <

@@ -452,9 +452,6 @@ threads
 ID
 gTLSThreadID
 ;
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 inline
 bool
 NS_IsCycleCollectorThread
@@ -474,16 +471,6 @@ threads
 CycleCollector
 ;
 }
-#
-else
-NS_COM
-bool
-NS_IsCycleCollectorThread
-(
-)
-;
-#
-endif
 #
 else
 NS_COM_GLUE
