@@ -1016,6 +1016,8 @@ PopFront
 )
 ;
 delete
+[
+]
 p
 -
 >
