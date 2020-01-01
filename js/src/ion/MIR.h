@@ -1953,6 +1953,7 @@ FILE
 *
 fp
 )
+const
 ;
 static
 void
@@ -1973,6 +1974,16 @@ FILE
 *
 fp
 )
+const
+;
+void
+dump
+(
+FILE
+*
+fp
+)
+const
 ;
 /
 /
@@ -3913,6 +3924,7 @@ FILE
 *
 fp
 )
+const
 ;
 HashNumber
 valueHash
@@ -4043,6 +4055,7 @@ FILE
 *
 fp
 )
+const
 ;
 HashNumber
 valueHash
@@ -4204,6 +4217,7 @@ FILE
 *
 fp
 )
+const
 ;
 }
 ;
@@ -9210,6 +9224,7 @@ FILE
 *
 fp
 )
+const
 ;
 protected
 :
@@ -9987,6 +10002,7 @@ FILE
 *
 fp
 )
+const
 ;
 }
 ;
@@ -11419,6 +11435,7 @@ FILE
 *
 fp
 )
+const
 ;
 }
 ;
@@ -17381,6 +17398,7 @@ FILE
 *
 fp
 )
+const
 ;
 static
 MBeta
@@ -19112,6 +19130,7 @@ FILE
 *
 fp
 )
+const
 ;
 HashNumber
 valueHash
