@@ -207,8 +207,10 @@ own
 this
 object
 .
+nsRefPtr
+<
 nsWindowMemoryReporter
-*
+>
 windowReporter
 =
 new
@@ -304,8 +306,10 @@ true
 )
 ;
 }
+nsRefPtr
+<
 GhostURLsReporter
-*
+>
 ghostMultiReporter
 =
 new
@@ -319,8 +323,10 @@ NS_RegisterMemoryMultiReporter
 ghostMultiReporter
 )
 ;
+nsRefPtr
+<
 NumGhostsReporter
-*
+>
 ghostReporter
 =
 new
