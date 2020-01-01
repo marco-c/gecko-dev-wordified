@@ -3194,6 +3194,16 @@ olc
 >
 InstantiatePluginInstance
 (
+aContentType
+.
+get
+(
+)
+aURL
+.
+get
+(
+)
 )
 ;
 if
