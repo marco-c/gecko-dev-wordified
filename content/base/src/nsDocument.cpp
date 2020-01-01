@@ -455,7 +455,11 @@ h
 #
 include
 "
-nsNodeIterator
+mozilla
+/
+dom
+/
+NodeIterator
 .
 h
 "
@@ -28266,12 +28270,12 @@ nullptr
 }
 nsRefPtr
 <
-nsNodeIterator
+NodeIterator
 >
 iterator
 =
 new
-nsNodeIterator
+NodeIterator
 (
 root
 aWhatToShow
