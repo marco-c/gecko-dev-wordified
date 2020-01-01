@@ -282,6 +282,13 @@ defined
 (
 WEBRTC_ANDROID
 )
+&
+&
+!
+defined
+(
+WEBRTC_GONK
+)
 number_of_cores_
 =
 get_nprocs
