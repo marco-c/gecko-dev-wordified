@@ -1981,7 +1981,7 @@ outerDocAcc
 mDocument
 -
 >
-GetCachedAccessible
+GetAccessible
 (
 ownerContent
 )

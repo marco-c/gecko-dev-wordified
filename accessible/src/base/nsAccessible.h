@@ -2354,6 +2354,7 @@ nsAccessible
 *
 aCachedChild
 )
+const
 ;
 /
 /

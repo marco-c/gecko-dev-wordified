@@ -3616,12 +3616,13 @@ nsAccessible
 nsDocAccessible
 :
 :
-GetCachedAccessible
+GetAccessible
 (
 nsINode
 *
 aNode
 )
+const
 {
 nsAccessible
 *
@@ -3676,7 +3677,14 @@ nsnull
 ;
 accessible
 =
+const_cast
+<
+nsDocAccessible
+*
+>
+(
 this
+)
 ;
 }
 #
@@ -5834,7 +5842,7 @@ nsAccessible
 *
 accessible
 =
-GetCachedAccessible
+GetAccessible
 (
 aElement
 )
@@ -6012,7 +6020,7 @@ nsAccessible
 *
 accessible
 =
-GetCachedAccessible
+GetAccessible
 (
 aElement
 )
@@ -8141,7 +8149,7 @@ nsAccessible
 nsDocAccessible
 :
 :
-GetCachedAccessibleByUniqueIDInSubtree
+GetAccessibleByUniqueIDInSubtree
 (
 void
 *
@@ -8152,7 +8160,7 @@ nsAccessible
 *
 child
 =
-GetCachedAccessibleByUniqueID
+GetAccessibleByUniqueID
 (
 aUniqueID
 )
@@ -8205,7 +8213,7 @@ child
 childDocument
 -
 >
-GetCachedAccessibleByUniqueIDInSubtree
+GetAccessibleByUniqueIDInSubtree
 (
 aUniqueID
 )
@@ -9852,7 +9860,7 @@ dependentContent
 &
 &
 !
-GetCachedAccessible
+HasAccessible
 (
 dependentContent
 )
@@ -11326,7 +11334,7 @@ tree
 if
 (
 !
-GetCachedAccessible
+HasAccessible
 (
 aContainer
 -
@@ -12051,7 +12059,7 @@ nsAccessible
 *
 accessible
 =
-GetCachedAccessible
+GetAccessible
 (
 node
 )

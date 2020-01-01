@@ -3798,7 +3798,7 @@ mAccessible
 aDocAccessible
 -
 >
-GetCachedAccessible
+GetAccessible
 (
 arg
 -

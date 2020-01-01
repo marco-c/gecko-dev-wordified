@@ -18533,6 +18533,7 @@ nsAccessible
 *
 aCachedChild
 )
+const
 {
 #
 ifdef
