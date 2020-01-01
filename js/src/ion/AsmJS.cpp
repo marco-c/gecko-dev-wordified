@@ -41902,6 +41902,7 @@ JSFunction
 :
 :
 ExtendedFinalizeKind
+TenuredObject
 )
 )
 ;
