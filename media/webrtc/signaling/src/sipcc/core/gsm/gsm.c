@@ -231,6 +231,13 @@ platform_api
 .
 h
 "
+#
+include
+"
+thread_monitor
+.
+h
+"
 static
 void
 sub_process_feature_msg
@@ -1576,6 +1583,11 @@ break
 case
 THREAD_UNLOAD
 :
+thread_ended
+(
+THREADMON_GSM
+)
+;
 destroy_gsm_thread
 (
 )
