@@ -6441,8 +6441,6 @@ firstColon
 =
 i
 ;
-}
-}
 /
 /
 If
@@ -6474,12 +6472,6 @@ foo
 com
 if
 (
-firstColon
->
-=
-0
-&
-&
 firstColon
 <
 (
@@ -6516,6 +6508,8 @@ Length
 -
 mDOMWordOffset
 ;
+}
+}
 }
 /
 /
