@@ -3237,7 +3237,9 @@ setDefn
 false
 )
 ;
-LinkUseToDef
+handler
+.
+linkUseToDef
 (
 opn
 (
@@ -3864,7 +3866,9 @@ setDefn
 false
 )
 ;
-LinkUseToDef
+handler
+.
+linkUseToDef
 (
 pn
 (

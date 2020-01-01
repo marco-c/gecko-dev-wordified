@@ -579,6 +579,14 @@ ParseHandler
 Node
 Node
 ;
+typedef
+typename
+ParseHandler
+:
+:
+DefinitionNode
+DefinitionNode
+;
 uint32_t
 bodyid
 ;
@@ -726,6 +734,9 @@ scope
 private
 :
 AtomDecls
+<
+ParseHandler
+>
 decls_
 ;
 /
@@ -761,6 +772,9 @@ public
 :
 const
 AtomDecls
+<
+ParseHandler
+>
 &
 decls
 (
@@ -1217,8 +1231,9 @@ defineArg
 void
 prepareToAddDuplicateArg
 (
-Definition
-*
+HandlePropertyName
+name
+DefinitionNode
 prevDecl
 )
 ;
@@ -3470,7 +3485,7 @@ bool
 disallowDuplicateArgs
 =
 false
-DefinitionNode
+Node
 *
 duplicatedArg
 =
@@ -3516,6 +3531,8 @@ stmt
 bool
 noteNameUse
 (
+HandlePropertyName
+name
 Node
 pn
 )
@@ -3539,6 +3556,8 @@ newBindingNode
 PropertyName
 *
 name
+bool
+functionScope
 VarContext
 varContext
 =
@@ -3683,7 +3702,7 @@ parser
 )
 ;
 static
-DefinitionNode
+Node
 null
 (
 )
