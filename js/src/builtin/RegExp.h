@@ -279,10 +279,9 @@ length
 size_t
 *
 lastIndex
-JSBool
+bool
 test
-jsval
-*
+MutableHandleValue
 rval
 )
 ;
@@ -317,8 +316,7 @@ string
 MatchPairs
 &
 matches
-Value
-*
+MutableHandleValue
 rval
 )
 ;
@@ -328,8 +326,7 @@ CreateRegExpMatchResult
 JSContext
 *
 cx
-JSString
-*
+HandleString
 input_
 StableCharPtr
 chars
@@ -338,8 +335,7 @@ length
 MatchPairs
 &
 matches
-Value
-*
+MutableHandleValue
 rval
 )
 ;
