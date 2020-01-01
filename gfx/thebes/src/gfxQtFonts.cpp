@@ -5089,8 +5089,6 @@ cairo_scaled_font_t
 *
 scaledFont
 =
-/
-/
 cairo_scaled_font_create
 (
 CairoFontFace
@@ -5098,6 +5096,8 @@ CairoFontFace
 &
 aQFont
 )
+/
+/
 cairo_scaled_font_create
 (
 CairoFontFace
