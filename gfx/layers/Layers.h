@@ -334,9 +334,6 @@ class
 LayerComposite
 ;
 struct
-TextureIdentifier
-;
-struct
 TextureFactoryIdentifier
 ;
 struct
@@ -1031,6 +1028,10 @@ mUserData
 Destroy
 (
 )
+;
+mRoot
+=
+nullptr
 ;
 }
 bool

@@ -240,16 +240,6 @@ GetMaxTextureSize
 ;
 }
 virtual
-void
-FallbackTextureInfo
-(
-TextureInfo
-&
-aId
-)
-MOZ_OVERRIDE
-;
-virtual
 TemporaryRef
 <
 CompositingRenderTarget

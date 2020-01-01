@@ -281,9 +281,9 @@ PCompositableParent
 AllocPCompositable
 (
 const
-CompositableType
+TextureInfo
 &
-aType
+aInfo
 uint64_t
 *
 )

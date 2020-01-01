@@ -329,12 +329,12 @@ ThebesLayerComposite
 EnsureBuffer
 (
 CompositableType
-aHostType
+aType
 )
 {
 MOZ_ASSERT
 (
-aHostType
+aType
 =
 =
 BUFFER_TILED
@@ -364,7 +364,7 @@ GetType
 )
 !
 =
-aHostType
+aType
 )
 {
 RefPtr
@@ -378,7 +378,10 @@ CompositableHost
 :
 Create
 (
-aHostType
+TextureInfo
+(
+aType
+)
 mCompositeManager
 -
 >

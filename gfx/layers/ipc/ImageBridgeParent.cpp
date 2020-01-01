@@ -734,9 +734,9 @@ ImageBridgeParent
 AllocPCompositable
 (
 const
-CompositableType
+TextureInfo
 &
-aType
+aInfo
 uint64_t
 *
 aID
@@ -759,7 +759,7 @@ new
 CompositableParent
 (
 this
-aType
+aInfo
 id
 )
 ;

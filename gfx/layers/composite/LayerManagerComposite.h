@@ -1535,7 +1535,7 @@ void
 EnsureBuffer
 (
 CompositableType
-aHostType
+aType
 )
 {
 MOZ_ASSERT
