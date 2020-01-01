@@ -38876,6 +38876,7 @@ state
 object
 .
 nsAutoGCRoot
+root
 (
 &
 jsStateObj
