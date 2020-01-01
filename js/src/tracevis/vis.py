@@ -22,6 +22,7 @@ from
 progressbar
 import
 ProgressBar
+default_widgets
 from
 time
 import
@@ -381,6 +382,7 @@ seek
 pos
 )
     
+#
 pb
 =
 ProgressBar
@@ -390,6 +392,27 @@ read
 input
 '
 n
+)
+    
+pb
+=
+ProgressBar
+(
+maxval
+=
+n
+widgets
+=
+[
+'
+read
+-
+input
+:
+'
+]
++
+default_widgets
 )
     
 blip
@@ -739,6 +762,7 @@ for
 graph
 generation
     
+#
 pb
 =
 ProgressBar
@@ -750,6 +774,28 @@ main
 W
 *
 H
+)
+    
+pb
+=
+ProgressBar
+(
+maxval
+=
+W
+*
+H
+widgets
+=
+[
+'
+draw
+main
+:
+'
+]
++
+default_widgets
 )
     
 blip
