@@ -4645,6 +4645,9 @@ the
 focused
 editor
 .
+let
+dispatchTabViewSearchEnabledEvent
+=
 function
 dispatchTabViewSearchEnabledEvent
 (

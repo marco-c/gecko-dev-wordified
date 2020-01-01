@@ -500,6 +500,11 @@ BLOCK
 *
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 *
@@ -3134,6 +3139,9 @@ x
 2
 %
 29
+let
+tanh
+=
 function
 tanh
 (
@@ -3168,6 +3176,7 @@ e
 )
 ;
 }
+;
 return
 .
 5

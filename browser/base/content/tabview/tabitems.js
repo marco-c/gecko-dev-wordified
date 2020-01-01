@@ -3797,6 +3797,9 @@ length
 1
 )
 {
+let
+group
+;
 if
 (
 this
