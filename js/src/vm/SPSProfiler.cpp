@@ -363,7 +363,6 @@ strings
 .
 init
 (
-max
 )
 ;
 stack_
