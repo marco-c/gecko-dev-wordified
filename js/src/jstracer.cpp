@@ -1220,6 +1220,7 @@ undef
 BUILTIN3
 /
 *
+*
 Return
 the
 coerced
@@ -1229,7 +1230,9 @@ a
 value
 .
 If
-its
+it
+'
+s
 a
 number
 we
@@ -1238,8 +1241,11 @@ return
 JSVAL_DOUBLE
 no
 matter
+*
 whether
-its
+it
+'
+s
 represented
 as
 an
@@ -1624,12 +1630,6 @@ break
 ;
 default
 :
-JS_NOT_REACHED
-(
-"
-ins1
-"
-)
 ;
 }
 return
@@ -5385,6 +5385,8 @@ LIR_i2f
 )
 )
 {
+/
+/
 printf
 (
 "
