@@ -6463,6 +6463,16 @@ GetNextSibling
 }
 if
 (
+forwardIterator
+.
+GetContainer
+(
+)
+=
+=
+aLineContainer
+&
+&
 line
 =
 =
