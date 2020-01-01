@@ -1129,7 +1129,7 @@ or
 LFLF
 .
 linebreaks
-preceeding
+preceding
 /
 /
 boundary
