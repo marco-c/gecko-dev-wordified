@@ -6005,7 +6005,7 @@ conversion
 JSSharpObjectMap
 sharpObjectMap
 ;
-JSBusyArrayTable
+JSHashTable
 *
 busyArrayTable
 ;

@@ -1727,9 +1727,9 @@ BufferPtrs
 {
 T
 *
-begin
+mBegin
 *
-end
+mEnd
 ;
 }
 ;
@@ -1755,7 +1755,7 @@ reuse
 the
 storage
 .
-lengthOrCapacity
+mLengthOrCapacity
 serves
 as
 the
@@ -1774,10 +1774,10 @@ stored
 in
 u
 .
-buf
+mBuf
 )
 *
-lengthOrCapacity
+mLengthOrCapacity
 holds
 the
 vector
@@ -1800,15 +1800,15 @@ u
 .
 ptrs
 .
-begin
+mBegin
 u
 .
 ptrs
 .
-end
+mEnd
 )
 )
-lengthOrCapacity
+mLengthOrCapacity
 holds
 the
 *
@@ -1894,7 +1894,7 @@ data
 *
 /
 size_t
-lengthOrCapacity
+mLengthOrCapacity
 ;
 bool
 usingInlineStorage
@@ -1903,7 +1903,7 @@ usingInlineStorage
 const
 {
 return
-lengthOrCapacity
+mLengthOrCapacity
 <
 =
 sInlineCapacity
@@ -1915,7 +1915,7 @@ BufferPtrs
 ptrs
 ;
 char
-buf
+mBuf
 [
 sInlineBytes
 ]
@@ -1947,7 +1947,7 @@ usingInlineStorage
 )
 ;
 return
-lengthOrCapacity
+mLengthOrCapacity
 ;
 }
 size_t
@@ -1964,7 +1964,7 @@ usingInlineStorage
 )
 ;
 return
-lengthOrCapacity
+mLengthOrCapacity
 ;
 }
 T
@@ -1988,7 +1988,7 @@ T
 )
 u
 .
-buf
+mBuf
 ;
 }
 T
@@ -2013,10 +2013,10 @@ T
 )
 u
 .
-buf
+mBuf
 )
 +
-lengthOrCapacity
+mLengthOrCapacity
 ;
 }
 /
@@ -2060,13 +2060,13 @@ u
 .
 ptrs
 .
-end
+mEnd
 -
 u
 .
 ptrs
 .
-begin
+mBegin
 )
 =
 =
@@ -2078,7 +2078,7 @@ u
 .
 ptrs
 .
-end
+mEnd
 )
 -
 size_t
@@ -2087,7 +2087,7 @@ u
 .
 ptrs
 .
-begin
+mBegin
 )
 )
 /
@@ -2103,13 +2103,13 @@ u
 .
 ptrs
 .
-end
+mEnd
 -
 u
 .
 ptrs
 .
-begin
+mBegin
 ;
 }
 size_t
@@ -2127,7 +2127,7 @@ usingInlineStorage
 )
 ;
 return
-lengthOrCapacity
+mLengthOrCapacity
 ;
 }
 T
@@ -2150,7 +2150,7 @@ u
 .
 ptrs
 .
-begin
+mBegin
 ;
 }
 T
@@ -2173,7 +2173,7 @@ u
 .
 ptrs
 .
-end
+mEnd
 ;
 }
 size_t
@@ -2191,7 +2191,7 @@ usingInlineStorage
 )
 ;
 return
-lengthOrCapacity
+mLengthOrCapacity
 ;
 }
 T
@@ -2214,7 +2214,7 @@ u
 .
 ptrs
 .
-begin
+mBegin
 ;
 }
 T
@@ -2237,7 +2237,7 @@ u
 .
 ptrs
 .
-end
+mEnd
 ;
 }
 #
@@ -2248,7 +2248,7 @@ class
 ReentrancyGuard
 ;
 bool
-entered
+mEntered
 ;
 #
 endif
@@ -2365,7 +2365,7 @@ begin
 JS_ASSERT
 (
 !
-entered
+mEntered
 )
 ;
 return
@@ -2393,7 +2393,7 @@ const
 JS_ASSERT
 (
 !
-entered
+mEntered
 )
 ;
 return
@@ -2419,7 +2419,7 @@ end
 JS_ASSERT
 (
 !
-entered
+mEntered
 )
 ;
 return
@@ -2447,7 +2447,7 @@ const
 JS_ASSERT
 (
 !
-entered
+mEntered
 )
 ;
 return
@@ -2477,7 +2477,7 @@ i
 JS_ASSERT
 (
 !
-entered
+mEntered
 &
 &
 i
@@ -2511,7 +2511,7 @@ const
 JS_ASSERT
 (
 !
-entered
+mEntered
 &
 &
 i
@@ -2539,7 +2539,7 @@ back
 JS_ASSERT
 (
 !
-entered
+mEntered
 &
 &
 !
@@ -2570,7 +2570,7 @@ const
 JS_ASSERT
 (
 !
-entered
+mEntered
 &
 &
 !
@@ -3046,14 +3046,14 @@ AP
 (
 ap
 )
-lengthOrCapacity
+mLengthOrCapacity
 (
 0
 )
 #
 ifdef
 DEBUG
-entered
+mEntered
 (
 false
 )
@@ -3613,7 +3613,7 @@ buffer
 .
 *
 /
-lengthOrCapacity
+mLengthOrCapacity
 =
 newCap
 ;
@@ -5012,7 +5012,7 @@ heapBegin
 (
 )
 ;
-lengthOrCapacity
+mLengthOrCapacity
 =
 0
 ;
@@ -5150,7 +5150,7 @@ sInlineCapacity
 *
 *
 (
-lengthOrCapacity
+mLengthOrCapacity
 <
 =
 sInlineCapacity
@@ -5175,7 +5175,7 @@ acceptable
 .
 *
 /
-lengthOrCapacity
+mLengthOrCapacity
 =
 length
 ;
@@ -5225,7 +5225,7 @@ p
 }
 else
 {
-lengthOrCapacity
+mLengthOrCapacity
 =
 length
 ;

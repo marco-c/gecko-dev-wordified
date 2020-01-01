@@ -1640,7 +1640,7 @@ entered
 (
 obj
 .
-entered
+mEntered
 )
 #
 endif
@@ -2028,7 +2028,7 @@ ContextAllocPolicy
 {
 JSContext
 *
-cx
+mCx
 ;
 public
 :
@@ -2039,7 +2039,7 @@ JSContext
 cx
 )
 :
-cx
+mCx
 (
 cx
 )
@@ -2053,7 +2053,7 @@ context
 const
 {
 return
-cx
+mCx
 ;
 }
 void
@@ -2065,7 +2065,7 @@ bytes
 )
 {
 return
-cx
+mCx
 -
 >
 malloc
@@ -2082,7 +2082,7 @@ void
 p
 )
 {
-cx
+mCx
 -
 >
 free
@@ -2103,7 +2103,7 @@ bytes
 )
 {
 return
-cx
+mCx
 -
 >
 realloc
@@ -2121,7 +2121,7 @@ const
 {
 js_ReportAllocationOverflow
 (
-cx
+mCx
 )
 ;
 }
