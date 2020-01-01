@@ -503,9 +503,6 @@ Statement
 *
 mStatement
 ;
-PRUint32
-mColumnCount
-;
 friend
 class
 Statement
