@@ -2743,7 +2743,7 @@ false
 aEvent
 -
 >
-GetPreventDefault
+GetDefaultPrevented
 (
 &
 preventDefault

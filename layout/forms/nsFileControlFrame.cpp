@@ -1238,7 +1238,7 @@ false
 aEvent
 -
 >
-GetPreventDefault
+GetDefaultPrevented
 (
 &
 defaultPrevented

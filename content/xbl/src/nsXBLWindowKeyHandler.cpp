@@ -1526,7 +1526,7 @@ prevent
 aKeyEvent
 -
 >
-GetPreventDefault
+GetDefaultPrevented
 (
 &
 prevent
@@ -1627,7 +1627,7 @@ mUserHandler
 aKeyEvent
 -
 >
-GetPreventDefault
+GetDefaultPrevented
 (
 &
 prevent

@@ -5145,7 +5145,7 @@ defaultPrevented
 aEvent
 -
 >
-GetPreventDefault
+GetDefaultPrevented
 (
 &
 defaultPrevented
@@ -9184,7 +9184,7 @@ false
 aMouseEvent
 -
 >
-GetPreventDefault
+GetDefaultPrevented
 (
 &
 isDefaultPrevented

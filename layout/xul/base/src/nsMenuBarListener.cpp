@@ -1180,7 +1180,7 @@ false
 aKeyEvent
 -
 >
-GetPreventDefault
+GetDefaultPrevented
 (
 &
 eventHandled
@@ -1273,7 +1273,7 @@ preventDefault
 aKeyEvent
 -
 >
-GetPreventDefault
+GetDefaultPrevented
 (
 &
 preventDefault
