@@ -1572,7 +1572,7 @@ static
 PRBool
 initialized
 =
-FALSE
+PR_FALSE
 ;
 if
 (
@@ -2188,7 +2188,7 @@ sPluginThreadAsyncCallLock
 }
 initialized
 =
-TRUE
+PR_TRUE
 ;
 NPN_PLUGIN_LOG
 (
@@ -12074,7 +12074,7 @@ NPBool
 )
 result
 =
-FALSE
+PR_FALSE
 ;
 return
 NPERR_NO_ERROR
