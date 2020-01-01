@@ -3977,7 +3977,10 @@ toLocaleFormat
 %
 a
 %
-R
+H
+:
+%
+M
 "
 )
 ;
