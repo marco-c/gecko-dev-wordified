@@ -1311,6 +1311,15 @@ uint8
 )
 #
 define
+JSVAL_TYPE_UNKNOWN
+(
+(
+uint8
+)
+0x20
+)
+#
+define
 JSVAL_TYPE_NONFUNOBJ
 (
 (
