@@ -987,6 +987,9 @@ eColor__moz_oddtreerow
 case
 eColor__moz_field
 :
+case
+eColor__moz_combobox
+:
 idx
 =
 SYSCLR_ENTRYFIELD
@@ -995,6 +998,9 @@ break
 ;
 case
 eColor__moz_fieldtext
+:
+case
+eColor__moz_comboboxtext
 :
 idx
 =

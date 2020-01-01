@@ -974,6 +974,13 @@ colors
 eColor__moz_nativehyperlinktext
 /
 /
+Combo
+box
+widgets
+eColor__moz_comboboxtext
+eColor__moz_combobox
+/
+/
 keep
 this
 one

@@ -605,6 +605,14 @@ nscolor
 sNativeHyperLinkText
 ;
 static
+nscolor
+sComboBoxText
+;
+static
+nscolor
+sComboBoxBackground
+;
+static
 PRUnichar
 sInvisibleCharacter
 ;

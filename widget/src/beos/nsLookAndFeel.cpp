@@ -1466,6 +1466,9 @@ eColor__moz_oddtreerow
 case
 eColor__moz_field
 :
+case
+eColor__moz_combobox
+:
 /
 /
 normal
@@ -1484,6 +1487,9 @@ break
 ;
 case
 eColor__moz_fieldtext
+:
+case
+eColor__moz_comboboxtext
 :
 aColor
 =
