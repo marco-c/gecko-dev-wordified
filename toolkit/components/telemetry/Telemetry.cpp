@@ -1227,7 +1227,7 @@ obj
 "
 sum
 "
-INT_TO_JSVAL
+DOUBLE_TO_JSVAL
 (
 ss
 .

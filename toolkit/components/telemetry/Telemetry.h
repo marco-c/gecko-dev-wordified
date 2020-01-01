@@ -577,6 +577,11 @@ AutoTimer
 Accumulate
 (
 id
+static_cast
+<
+PRUint32
+>
+(
 (
 TimeStamp
 :
@@ -590,6 +595,7 @@ start
 .
 ToMilliseconds
 (
+)
 )
 )
 ;

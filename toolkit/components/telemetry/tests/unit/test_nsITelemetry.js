@@ -49,6 +49,11 @@ Components
 utils
 ;
 const
+INT_MAX
+=
+0x7FFFFFFF
+;
+const
 Telemetry
 =
 Cc
@@ -770,7 +775,9 @@ bucket_count
 =
 [
 1
-10000
+INT_MAX
+-
+1
 10
 ]
 test_histogram
