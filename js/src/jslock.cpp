@@ -1379,7 +1379,8 @@ failed
 ;
 }
 #
-else
+elif
+JS_HAS_NATIVE_COMPARE_AND_SWAP
 #
 error
 "
