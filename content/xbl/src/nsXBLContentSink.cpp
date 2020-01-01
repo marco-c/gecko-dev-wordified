@@ -4177,6 +4177,7 @@ group
 preventdefault
 allowuntrusted
 mBinding
+aLineNumber
 )
 ;
 if
@@ -4184,14 +4185,6 @@ if
 newHandler
 )
 {
-newHandler
--
->
-SetLineNumber
-(
-aLineNumber
-)
-;
 /
 /
 Add
