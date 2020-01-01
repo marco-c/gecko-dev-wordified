@@ -6695,12 +6695,12 @@ of
 charCodeAt
 with
 the
+*
 integer
 fast
 path
-*
 if
-appriopriate
+appropriate
 .
 *
 /
