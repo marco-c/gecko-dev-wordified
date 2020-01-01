@@ -922,10 +922,7 @@ js
 typedef
 WeakMap
 <
-HeapPtr
-<
-JSObject
->
+HeapPtrObject
 HeapValue
 >
 ObjectValueMap
