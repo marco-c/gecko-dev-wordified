@@ -432,6 +432,13 @@ jsnum_h___
 #
 include
 <
+float
+.
+h
+>
+#
+include
+<
 math
 .
 h
