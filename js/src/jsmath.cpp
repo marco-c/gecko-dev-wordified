@@ -3798,12 +3798,13 @@ Math
 |
 |
 !
-Math
--
->
+JSObject
+:
+:
 setSingletonType
 (
 cx
+Math
 )
 )
 return

@@ -7980,7 +7980,7 @@ length
 if
 (
 !
-js_GetLengthProperty
+GetLengthProperty
 (
 cx
 aobj

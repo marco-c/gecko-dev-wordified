@@ -7357,6 +7357,7 @@ ENUMERATOR
 )
 obj
 (
+cx
 obj
 )
 stateValue
@@ -7425,8 +7426,7 @@ JSTracer
 trc
 )
 ;
-JSObject
-*
+RootedObject
 obj
 ;
 private
