@@ -293,8 +293,6 @@ browser
 /
 content
 /
-safebrowsing
-/
 blockedSite
 .
 xhtml
