@@ -569,6 +569,9 @@ eTypeExternalConstructorAlias
 }
 mType
 ;
+PRBool
+mPrivilegedOnly
+;
 union
 {
 PRInt32
@@ -916,6 +919,8 @@ nsGlobalNameStruct
 :
 nametype
 aType
+PRBool
+aPrivilegedOnly
 )
 ;
 nsresult
