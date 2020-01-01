@@ -36198,7 +36198,7 @@ if
 aNamespaceID
 =
 =
-kNameSpaceID_None
+kNameSpaceID_XLink
 &
 &
 aName
