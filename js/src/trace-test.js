@@ -27448,10 +27448,10 @@ recorderStarted
 1
 recorderAborted
 :
-1
+0
 traceCompleted
 :
-0
+1
 }
 ;
 test
