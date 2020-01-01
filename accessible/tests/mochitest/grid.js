@@ -29,10 +29,10 @@ aTableIdentifier
 {
 this
 .
-getrowCount
+getRowCount
 =
 function
-getrowCount
+getRowCount
 (
 )
 {
@@ -125,7 +125,7 @@ getMaxIndex
 return
 this
 .
-getrowCount
+getRowCount
 (
 )
 *
@@ -153,7 +153,7 @@ rowCount
 =
 this
 .
-getrowCount
+getRowCount
 (
 )
 ;
