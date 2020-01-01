@@ -158,6 +158,12 @@ StopListening
 (
 )
 ;
+nsIRILTelephonyCallback
+*
+GetCallback
+(
+)
+;
 private
 :
 nsCOMPtr
