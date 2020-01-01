@@ -568,6 +568,15 @@ nsIScriptExternalNameSet
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 class
 nsIDocShell
 ;
@@ -914,7 +923,7 @@ Policy
 union
 SecurityLevel
 {
-PRWord
+intptr_t
 level
 ;
 char

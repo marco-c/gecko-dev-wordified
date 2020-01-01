@@ -505,6 +505,15 @@ nsPluginStreamListenerPeer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 nsPluginStreamToFile
@@ -3928,7 +3937,7 @@ writeCount
 %
 sizeof
 (
-PRWord
+intptr_t
 )
 )
 {

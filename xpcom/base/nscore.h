@@ -544,6 +544,15 @@ prtypes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 /
 *
 *
@@ -2735,7 +2744,7 @@ x
 PRInt32
 )
 (
-PRWord
+intptr_t
 )
 (
 x
@@ -2752,7 +2761,7 @@ x
 PRUint32
 )
 (
-PRWord
+intptr_t
 )
 (
 x
@@ -2770,7 +2779,7 @@ void
 *
 )
 (
-PRWord
+intptr_t
 )
 (
 x

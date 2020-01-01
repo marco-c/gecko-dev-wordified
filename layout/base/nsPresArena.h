@@ -502,6 +502,15 @@ nsQueryFrame
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 /
 /
 Uncomment
@@ -736,7 +745,7 @@ this
 *
 /
 static
-PRUword
+uintptr_t
 GetPoisonValue
 (
 )

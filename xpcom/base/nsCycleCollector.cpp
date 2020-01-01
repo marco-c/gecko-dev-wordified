@@ -1610,6 +1610,15 @@ include
 "
 mozilla
 /
+StandardInteger
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -4834,7 +4843,7 @@ nsPurpleBufferEntry
 *
 )
 (
-PRUword
+uintptr_t
 (
 entries
 +
@@ -4992,7 +5001,7 @@ if
 (
 !
 (
-PRUword
+uintptr_t
 (
 e
 -
@@ -5000,7 +5009,7 @@ e
 mObject
 )
 &
-PRUword
+uintptr_t
 (
 1
 )
@@ -5286,7 +5295,7 @@ nsPurpleBufferEntry
 *
 )
 (
-PRUword
+uintptr_t
 (
 mFreeList
 -
@@ -5295,7 +5304,7 @@ mNextInFreeList
 )
 &
 ~
-PRUword
+uintptr_t
 (
 1
 )
@@ -5418,12 +5427,12 @@ nsPurpleBufferEntry
 *
 )
 (
-PRUword
+uintptr_t
 (
 mFreeList
 )
 |
-PRUword
+uintptr_t
 (
 1
 )
@@ -5707,7 +5716,7 @@ if
 (
 !
 (
-PRUword
+uintptr_t
 (
 e
 -
@@ -5715,7 +5724,7 @@ e
 mObject
 )
 &
-PRUword
+uintptr_t
 (
 1
 )
@@ -5877,7 +5886,7 @@ if
 (
 !
 (
-PRUword
+uintptr_t
 (
 e
 -
@@ -5885,7 +5894,7 @@ e
 mObject
 )
 &
-PRUword
+uintptr_t
 (
 1
 )
@@ -11838,7 +11847,7 @@ if
 (
 !
 (
-PRUword
+uintptr_t
 (
 e
 -
@@ -11846,7 +11855,7 @@ e
 mObject
 )
 &
-PRUword
+uintptr_t
 (
 1
 )
@@ -12087,7 +12096,7 @@ if
 (
 !
 (
-PRUword
+uintptr_t
 (
 e
 -
@@ -12095,7 +12104,7 @@ e
 mObject
 )
 &
-PRUword
+uintptr_t
 (
 1
 )
