@@ -2404,10 +2404,6 @@ x
 y
 )
 {
-/
-/
-FIXME
-ROMAXA
 if
 (
 getBrowser
@@ -2483,10 +2479,6 @@ scrollX
 scrollY
 )
 {
-/
-/
-FIXME
-ROMAXA
 if
 (
 getBrowser
