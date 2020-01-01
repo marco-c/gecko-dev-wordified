@@ -967,7 +967,7 @@ element
 element
 -
 >
-Click
+DOMClick
 (
 )
 ;

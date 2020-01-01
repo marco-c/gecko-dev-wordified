@@ -10305,7 +10305,7 @@ EmptyString
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsHTMLInputElement
 :
 :
@@ -10320,11 +10320,12 @@ mType
 =
 NS_FORM_INPUT_FILE
 )
+{
 FireAsyncClickHandler
 (
 )
 ;
-return
+}
 nsGenericHTMLElement
 :
 :

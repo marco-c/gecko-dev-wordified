@@ -21706,7 +21706,7 @@ elem
 NS_OK
 ;
 }
-nsresult
+void
 nsGenericHTMLElement
 :
 :
@@ -21722,7 +21722,6 @@ NODE_HANDLING_CLICK
 )
 )
 return
-NS_OK
 ;
 /
 /
@@ -21869,9 +21868,6 @@ UnsetFlags
 (
 NODE_HANDLING_CLICK
 )
-;
-return
-NS_OK
 ;
 }
 bool
