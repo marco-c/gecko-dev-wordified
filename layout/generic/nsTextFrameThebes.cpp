@@ -23083,6 +23083,16 @@ nsBlinkTimer
 GetBlinkIsOff
 (
 )
+&
+&
+PresContext
+(
+)
+-
+>
+IsDynamic
+(
+)
 )
 return
 NS_OK
