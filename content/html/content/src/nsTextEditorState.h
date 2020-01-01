@@ -468,6 +468,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsITextControlElement
 .
 h
