@@ -22260,8 +22260,6 @@ system
 "
 )
 ;
-/
-/
 NS_ASSERTION
 (
 PresContext
@@ -22275,8 +22273,6 @@ aOther
 PresContext
 (
 )
-/
-/
 "
 GetOffsetTo
 called
@@ -24832,9 +24828,7 @@ ancestor
 ;
 /
 *
-Whether
-or
-not
+If
 we
 '
 re
@@ -24948,7 +24942,7 @@ frame
 nsPoint
 delta
 =
-GetOffsetTo
+GetOffsetToCrossDoc
 (
 *
 aOutAncestor
@@ -25268,7 +25262,7 @@ done
 nsPoint
 delta
 =
-GetOffsetTo
+GetOffsetToCrossDoc
 (
 *
 aOutAncestor
