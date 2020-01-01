@@ -5119,7 +5119,7 @@ if
 script
 -
 >
-hasMJITInfo
+hasJITInfo
 (
 )
 )
@@ -5207,7 +5207,7 @@ jith
 script
 -
 >
-destroyMJITInfo
+destroyJITInfo
 (
 fop
 )
