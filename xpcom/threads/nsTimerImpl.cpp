@@ -2697,10 +2697,14 @@ mCallbackType
 CALLBACK_TYPE_UNKNOWN
 &
 &
-callbackType
+mType
 !
 =
 TYPE_ONE_SHOT
+&
+&
+!
+mCanceled
 )
 {
 mCallback
