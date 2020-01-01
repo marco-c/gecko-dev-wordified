@@ -6124,6 +6124,11 @@ format
 .
 *
 /
+*
+immediate_abort
+=
+0
+;
 if
 (
 info
