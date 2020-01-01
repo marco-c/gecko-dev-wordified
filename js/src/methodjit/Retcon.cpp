@@ -664,14 +664,6 @@ RejoinState
 rejoin
 )
 {
-JS_ASSERT
-(
-rejoin
-!
-=
-REJOIN_NONE
-)
-;
 return
 rejoin
 <
