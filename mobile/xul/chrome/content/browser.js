@@ -417,6 +417,7 @@ false
 null
 aDirection
 0
+0
 )
 ;
 Browser
@@ -590,6 +591,7 @@ false
 null
 0
 aDelta
+0
 )
 ;
 Browser

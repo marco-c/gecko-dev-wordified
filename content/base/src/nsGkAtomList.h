@@ -12090,6 +12090,13 @@ onMozPressTapGesture
 onMozPressTapGesture
 "
 )
+GK_ATOM
+(
+onMozEdgeUIGesture
+"
+onMozEdgeUIGesture
+"
+)
 /
 /
 Touch
