@@ -228,6 +228,12 @@ GetEchoPasswordImpl
 (
 )
 ;
+virtual
+uint32_t
+GetPasswordMaskDelayImpl
+(
+)
+;
 protected
 :
 virtual
