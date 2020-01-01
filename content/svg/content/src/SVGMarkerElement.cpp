@@ -2185,7 +2185,6 @@ SVGContentUtils
 :
 GetViewBoxTransform
 (
-this
 viewportWidth
 viewportHeight
 viewbox

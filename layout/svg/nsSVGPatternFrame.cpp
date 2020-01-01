@@ -4407,14 +4407,6 @@ SVGContentUtils
 :
 GetViewBoxTransform
 (
-static_cast
-<
-SVGPatternElement
-*
->
-(
-mContent
-)
 viewportWidth
 viewportHeight
 viewBoxRect
