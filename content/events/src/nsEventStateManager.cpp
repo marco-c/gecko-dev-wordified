@@ -10702,6 +10702,12 @@ NS_FORM_INPUT_TEXT
 type
 =
 =
+NS_FORM_INPUT_SEARCH
+|
+|
+type
+=
+=
 NS_FORM_INPUT_TEL
 |
 |
