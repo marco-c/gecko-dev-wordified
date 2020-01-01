@@ -803,7 +803,7 @@ mIsBaseSet
 public
 :
 struct
-DOMAnimatedIntegerPair
+DOMAnimatedInteger
 :
 public
 nsIDOMSVGAnimatedInteger
@@ -811,9 +811,9 @@ nsIDOMSVGAnimatedInteger
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
-DOMAnimatedIntegerPair
+DOMAnimatedInteger
 )
-DOMAnimatedIntegerPair
+DOMAnimatedInteger
 (
 nsSVGIntegerPair
 *

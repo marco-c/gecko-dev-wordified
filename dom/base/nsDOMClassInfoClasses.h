@@ -1437,10 +1437,6 @@ SVGAnimatedInteger
 )
 DOMCI_CLASS
 (
-SVGAnimatedIntegerPair
-)
-DOMCI_CLASS
-(
 SVGAnimatedLength
 )
 DOMCI_CLASS
@@ -1450,10 +1446,6 @@ SVGAnimatedLengthList
 DOMCI_CLASS
 (
 SVGAnimatedNumber
-)
-DOMCI_CLASS
-(
-SVGAnimatedNumberPair
 )
 DOMCI_CLASS
 (

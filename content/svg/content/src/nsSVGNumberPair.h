@@ -810,7 +810,7 @@ mIsBaseSet
 public
 :
 struct
-DOMAnimatedNumberPair
+DOMAnimatedNumber
 :
 public
 nsIDOMSVGAnimatedNumber
@@ -818,9 +818,9 @@ nsIDOMSVGAnimatedNumber
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
-DOMAnimatedNumberPair
+DOMAnimatedNumber
 )
-DOMAnimatedNumberPair
+DOMAnimatedNumber
 (
 nsSVGNumberPair
 *
