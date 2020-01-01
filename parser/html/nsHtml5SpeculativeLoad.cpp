@@ -498,6 +498,7 @@ aExecutor
 PreloadImage
 (
 mUrl
+mCharsetOrCrossOrigin
 )
 ;
 break
@@ -511,7 +512,7 @@ aExecutor
 PreloadScript
 (
 mUrl
-mCharset
+mCharsetOrCrossOrigin
 mType
 )
 ;
@@ -526,7 +527,7 @@ aExecutor
 PreloadStyle
 (
 mUrl
-mCharset
+mCharsetOrCrossOrigin
 )
 ;
 break
