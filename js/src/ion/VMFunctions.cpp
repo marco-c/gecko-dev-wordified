@@ -719,6 +719,10 @@ js_ReportOverRecursed
 cx
 )
 ;
+MOZ_CRASH
+(
+)
+;
 /
 /
 Cause
