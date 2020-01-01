@@ -4299,7 +4299,7 @@ accesskey
 =
 "
 &
-preferencesCmd
+preferencesCmd2
 .
 accesskey
 ;

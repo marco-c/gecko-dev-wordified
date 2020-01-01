@@ -211,18 +211,6 @@ true
 '
     
 '
-privacy
-.
-popups
-.
-firstTime
-'
-:
-'
-false
-'
-    
-'
 layout
 .
 debug
