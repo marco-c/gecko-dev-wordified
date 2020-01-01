@@ -1473,7 +1473,7 @@ do
 const
 openLiteral
 =
-PlacesUIUtils
+PlacesUtils
 .
 RDF
 .
@@ -1501,7 +1501,7 @@ open
 const
 trueLiteral
 =
-PlacesUIUtils
+PlacesUtils
 .
 RDF
 .
@@ -1679,7 +1679,7 @@ resource
 null
 &
 &
-PlacesUIUtils
+PlacesUtils
 .
 localStore
 .
@@ -6150,7 +6150,7 @@ state
 return
 uri
 ?
-PlacesUIUtils
+PlacesUtils
 .
 RDF
 .
@@ -8208,7 +8208,7 @@ node
 title
 |
 |
-PlacesUIUtils
+PlacesUtils
 .
 getString
 (
@@ -8722,7 +8722,7 @@ resource
 const
 openLiteral
 =
-PlacesUIUtils
+PlacesUtils
 .
 RDF
 .
@@ -8750,7 +8750,7 @@ open
 const
 trueLiteral
 =
-PlacesUIUtils
+PlacesUtils
 .
 RDF
 .
@@ -8767,7 +8767,7 @@ node
 .
 containerOpen
 )
-PlacesUIUtils
+PlacesUtils
 .
 localStore
 .
@@ -8779,7 +8779,7 @@ trueLiteral
 )
 ;
 else
-PlacesUIUtils
+PlacesUtils
 .
 localStore
 .
