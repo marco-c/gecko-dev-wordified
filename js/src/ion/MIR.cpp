@@ -1296,6 +1296,8 @@ New
 MIRGenerator
 *
 gen
+uint32
+slot
 )
 {
 return
@@ -1314,6 +1316,7 @@ gen
 -
 >
 cx
+slot
 )
 ;
 }
