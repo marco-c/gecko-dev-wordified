@@ -4733,7 +4733,7 @@ jsval
 vp
 )
 {
-uintN
+uint32
 zeal
 ;
 if
@@ -11499,7 +11499,7 @@ jsval
 rval
 )
 {
-intN
+int32
 mode
 =
 1
