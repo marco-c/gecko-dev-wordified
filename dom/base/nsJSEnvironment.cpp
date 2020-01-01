@@ -6036,10 +6036,10 @@ useTypeInference
 chromeWindow
 &
 &
-nsContentUtils
+Preferences
 :
 :
-GetBoolPref
+GetBool
 (
 js_typeinfer_str
 )
