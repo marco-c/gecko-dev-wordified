@@ -87,9 +87,30 @@ re
 import
 histogram_tools
 import
-simplejson
-as
 json
+#
+For
+compatibility
+with
+python
+2
+.
+6
+try
+:
+    
+from
+collections
+import
+OrderedDict
+except
+ImportError
+:
+    
+from
+simplejson
+import
+OrderedDict
 #
 Keep
 this
@@ -132,8 +153,6 @@ argv
     
 all_histograms
 =
-json
-.
 OrderedDict
 (
 )
@@ -159,8 +178,6 @@ name
         
 parameters
 =
-json
-.
 OrderedDict
 (
 )
