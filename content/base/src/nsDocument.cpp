@@ -29369,8 +29369,6 @@ CloneNodeImpl
 (
 this
 aDeep
-!
-mCreatingStaticClone
 aReturn
 )
 ;
@@ -30817,6 +30815,12 @@ nsnull
 ;
 JSObject
 *
+oldScope
+=
+nsnull
+;
+JSObject
+*
 newScope
 =
 nsnull
@@ -30825,6 +30829,9 @@ if
 (
 !
 sameDocument
+&
+&
+oldDocument
 )
 {
 rv
@@ -30832,12 +30839,14 @@ rv
 nsContentUtils
 :
 :
-GetContextAndScope
+GetContextAndScopes
 (
 oldDocument
 this
 &
 cx
+&
+oldScope
 &
 newScope
 )
@@ -30869,6 +30878,7 @@ nsnull
 :
 mNodeInfoManager
 cx
+oldScope
 newScope
 nodesWithProperties
 )
