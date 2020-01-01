@@ -4033,16 +4033,6 @@ local
 ;
 if
 (
-item
-.
-deleted
-=
-=
-local
-.
-deleted
-&
-&
 Utils
 .
 deepEquals
