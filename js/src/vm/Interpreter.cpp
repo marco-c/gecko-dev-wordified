@@ -3833,7 +3833,10 @@ enclosingScope
 s
 -
 >
-isGlobal
+is
+<
+GlobalObject
+>
 (
 )
 )
@@ -20593,7 +20596,10 @@ if
 parent
 -
 >
-isGlobal
+is
+<
+GlobalObject
+>
 (
 )
 )

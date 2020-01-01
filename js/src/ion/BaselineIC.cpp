@@ -32101,7 +32101,10 @@ JS_ASSERT
 global
 -
 >
-isGlobal
+is
+<
+GlobalObject
+>
 (
 )
 )
@@ -32387,7 +32390,10 @@ if
 scopeChain
 -
 >
-isGlobal
+is
+<
+GlobalObject
+>
 (
 )
 )

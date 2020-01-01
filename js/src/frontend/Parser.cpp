@@ -7889,7 +7889,10 @@ pc
 sc
 -
 >
-asGlobal
+as
+<
+GlobalObject
+>
 (
 )
 -
@@ -7898,8 +7901,8 @@ scopeChain
 .
 If
 the
-global
 *
+global
 context
 is
 a
@@ -7916,9 +7919,9 @@ pre
 -
 set
 parent
+*
 intact
 ;
-*
 otherwise
 we
 clear

@@ -3772,7 +3772,10 @@ environment
 )
 -
 >
-isGlobal
+is
+<
+GlobalObject
+>
 (
 )
 options

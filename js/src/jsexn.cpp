@@ -5429,7 +5429,10 @@ JS_ASSERT
 obj
 -
 >
-isGlobal
+is
+<
+GlobalObject
+>
 (
 )
 )
@@ -5456,7 +5459,10 @@ cx
 obj
 -
 >
-asGlobal
+as
+<
+GlobalObject
+>
 (
 )
 )

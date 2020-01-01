@@ -522,7 +522,10 @@ if
 obj
 -
 >
-isGlobal
+is
+<
+GlobalObject
+>
 (
 )
 )
@@ -2532,7 +2535,10 @@ if
 scope
 -
 >
-isGlobal
+is
+<
+GlobalObject
+>
 (
 )
 )
@@ -2675,7 +2681,10 @@ varobj
 varobj
 -
 >
-isGlobal
+is
+<
+GlobalObject
+>
 (
 )
 )

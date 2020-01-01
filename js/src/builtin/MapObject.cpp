@@ -7883,7 +7883,10 @@ cx
 obj
 -
 >
-asGlobal
+as
+<
+GlobalObject
+>
 (
 )
 )
@@ -11303,7 +11306,10 @@ cx
 obj
 -
 >
-asGlobal
+as
+<
+GlobalObject
+>
 (
 )
 )
