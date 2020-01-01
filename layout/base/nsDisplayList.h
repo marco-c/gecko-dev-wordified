@@ -5052,7 +5052,11 @@ OptimizeVisibility
 void
 FlattenTo
 (
-nsVoidArray
+nsTArray
+<
+nsDisplayItem
+*
+>
 *
 aElements
 )
