@@ -2644,7 +2644,7 @@ creation
 .
 switch
 (
-_cairo_win32_get_system_text_quality
+cairo_win32_get_system_text_quality
 (
 )
 )
