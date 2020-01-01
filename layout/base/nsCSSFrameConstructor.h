@@ -3038,6 +3038,9 @@ nsIContent
 >
 CreateGenConTextNode
 (
+nsFrameConstructorState
+&
+aState
 const
 nsString
 &
@@ -3140,6 +3143,9 @@ nsIContent
 >
 CreateGeneratedContent
 (
+nsFrameConstructorState
+&
+aState
 nsIContent
 *
 aParentContent
