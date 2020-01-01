@@ -4031,6 +4031,13 @@ OP_RECURSIVE
 /
 Recursive
 calls
+OP_ARRAY_READ
+/
+/
+Reads
+from
+dense
+arrays
 OP_TYPED_ARRAY
 /
 /
