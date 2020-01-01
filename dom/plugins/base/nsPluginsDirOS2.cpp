@@ -1122,7 +1122,7 @@ leaf
 )
 )
 return
-PR_FALSE
+false
 ;
 const
 char
@@ -1204,12 +1204,12 @@ np
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 /

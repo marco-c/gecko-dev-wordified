@@ -1258,7 +1258,7 @@ mInst
 >
 PushPopupsEnabledState
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -1618,7 +1618,7 @@ msg
 WM_USER_FLASH
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1658,11 +1658,11 @@ pwe
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2085,7 +2085,7 @@ widget
 >
 CaptureMouse
 (
-PR_TRUE
+true
 )
 ;
 break
@@ -2110,7 +2110,7 @@ WM_BUTTON1UP
 )
 enablePopups
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -2138,7 +2138,7 @@ widget
 >
 CaptureMouse
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -2169,7 +2169,7 @@ break
 ;
 enablePopups
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2576,7 +2576,7 @@ inst
 >
 PushPopupsEnabledState
 (
-PR_TRUE
+true
 )
 ;
 }

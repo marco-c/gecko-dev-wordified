@@ -863,7 +863,7 @@ mPStreamListener
 /
 Set
 to
-PR_TRUE
+true
 if
 we
 request
@@ -885,7 +885,7 @@ mRequestFailed
 *
 Set
 to
-PR_TRUE
+true
 after
 nsIPluginStreamListener
 :

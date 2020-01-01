@@ -1390,7 +1390,7 @@ unhandled
 cases
 .
 return
-PR_TRUE
+true
 ;
 #
 endif
@@ -1445,7 +1445,7 @@ path
 )
 )
 return
-PR_FALSE
+false
 ;
 const
 char
@@ -1607,15 +1607,15 @@ npjava
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1777,7 +1777,7 @@ dll
 {
 protectCurrentDirectory
 =
-PR_FALSE
+false
 ;
 }
 pluginFolderPath

@@ -1644,12 +1644,12 @@ defined
 XP_MACOSX
 )
 return
-PR_TRUE
+true
 ;
 #
 else
 return
-PR_FALSE
+false
 ;
 #
 endif

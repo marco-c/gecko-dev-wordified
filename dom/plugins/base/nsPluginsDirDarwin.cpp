@@ -891,11 +891,11 @@ bug
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2742,7 +2742,7 @@ pluginURL
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 isPluginFile
@@ -2894,7 +2894,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 uint32

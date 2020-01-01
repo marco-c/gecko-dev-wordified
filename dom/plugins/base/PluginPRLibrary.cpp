@@ -1610,7 +1610,7 @@ NS_ERROR_NULL_POINTER
 *
 aDrawing
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

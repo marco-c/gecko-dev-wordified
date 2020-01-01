@@ -1171,7 +1171,7 @@ msg
 WM_USER_FLASH
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1211,11 +1211,11 @@ pwe
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 class
@@ -1263,7 +1263,7 @@ mInst
 >
 PushPopupsEnabledState
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -1440,7 +1440,7 @@ msg
 sLastMsg
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -1564,7 +1564,7 @@ widget
 >
 CaptureMouse
 (
-PR_TRUE
+true
 )
 ;
 break
@@ -1575,7 +1575,7 @@ WM_LBUTTONUP
 :
 enablePopups
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1614,7 +1614,7 @@ widget
 >
 CaptureMouse
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -1656,7 +1656,7 @@ WM_KEYUP
 :
 enablePopups
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1868,7 +1868,7 @@ widget
 nsGUIEvent
 event
 (
-PR_TRUE
+true
 NS_PLUGIN_ACTIVATE
 widget
 )
@@ -1993,7 +1993,7 @@ sInPreviousMessageDispatch
 {
 sInPreviousMessageDispatch
 =
-PR_TRUE
+true
 ;
 :
 :
@@ -2008,7 +2008,7 @@ lParam
 ;
 sInPreviousMessageDispatch
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -2130,14 +2130,14 @@ inst
 >
 PushPopupsEnabledState
 (
-PR_TRUE
+true
 )
 ;
 }
 }
 sInMessageDispatch
 =
-PR_TRUE
+true
 ;
 LRESULT
 res
@@ -2170,7 +2170,7 @@ inst
 ;
 sInMessageDispatch
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2629,10 +2629,10 @@ PluginWndProc
 )
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 #

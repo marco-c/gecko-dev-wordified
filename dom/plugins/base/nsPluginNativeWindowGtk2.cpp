@@ -882,7 +882,7 @@ rv
 {
 needXEmbed
 =
-PR_FALSE
+false
 ;
 }
 #
