@@ -3530,11 +3530,14 @@ GetScriptHandlingObject
 .
 global
 =
+do_QueryInterface
+(
 doc
 -
 >
 GetScopeObject
 (
+)
 )
 ;
 }
