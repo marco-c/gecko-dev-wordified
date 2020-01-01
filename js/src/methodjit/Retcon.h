@@ -820,6 +820,9 @@ fp
 jsbytecode
 *
 pc
+CallSite
+*
+inlined
 RejoinState
 rejoin
 )
