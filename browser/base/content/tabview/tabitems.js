@@ -880,13 +880,6 @@ tabHeight
 ;
 this
 .
-locked
-=
-{
-}
-;
-this
-.
 _hidden
 =
 false
