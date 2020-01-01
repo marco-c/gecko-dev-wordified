@@ -3748,6 +3748,13 @@ true
 ;
 prefBranch
 .
+QueryInterface
+(
+Ci
+.
+nsIPrefService
+)
+.
 savePrefFile
 (
 null
