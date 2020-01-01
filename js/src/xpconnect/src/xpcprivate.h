@@ -746,6 +746,13 @@ h
 #
 include
 "
+jstracer
+.
+h
+"
+#
+include
+"
 xptinfo
 .
 h

@@ -1278,6 +1278,7 @@ datatypes
 to
 jsvals
 .
+JS_FORCES_STACK
 nsresult
 ConvertSupportsTojsvals
 (
