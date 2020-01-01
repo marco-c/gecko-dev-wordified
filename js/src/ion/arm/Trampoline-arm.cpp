@@ -2549,7 +2549,7 @@ as_cmp
 r0
 Imm8
 (
-Interpret_Ok
+Interpret_Error
 )
 )
 ;

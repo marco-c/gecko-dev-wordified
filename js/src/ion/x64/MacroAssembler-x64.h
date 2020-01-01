@@ -2875,7 +2875,7 @@ label
 CodeOffsetJump
 jumpWithPatch
 (
-Label
+RepatchLabel
 *
 label
 )
@@ -2921,7 +2921,7 @@ S
 lhs
 T
 ptr
-Label
+RepatchLabel
 *
 label
 )
