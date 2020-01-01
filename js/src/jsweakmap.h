@@ -1371,6 +1371,13 @@ NULL
 )
 {
 }
+virtual
+~
+WeakMapBase
+(
+)
+{
+}
 void
 trace
 (
