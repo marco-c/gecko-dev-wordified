@@ -485,9 +485,9 @@ nsresult
 GetSystemFontInfo
 (
 const
-QFont
-&
-aFont
+char
+*
+aClassName
 nsString
 *
 aFontName
