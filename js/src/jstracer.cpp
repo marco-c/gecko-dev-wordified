@@ -19358,7 +19358,10 @@ boxes
 /
 if
 (
+JS_THREAD_DATA
+(
 cx
+)
 -
 >
 doubleFreeList
