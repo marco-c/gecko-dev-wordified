@@ -972,15 +972,6 @@ parseInt
 \
 macro
 (
-preventExtensions
-preventExtensions
-"
-preventExtensions
-"
-)
-\
-macro
-(
 propertyIsEnumerable
 propertyIsEnumerable
 "

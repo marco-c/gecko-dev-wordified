@@ -6201,6 +6201,13 @@ type_
 proto
 ;
 }
+inline
+bool
+isExtensible
+(
+)
+const
+;
 /
 *
 *
