@@ -7229,12 +7229,6 @@ addBookmarkMenuitems
 (
 )
 ;
-PlacesMenuDNDController
-.
-init
-(
-)
-;
 initBookmarksToolbar
 (
 )

@@ -1602,6 +1602,13 @@ closed
 )
 GK_ATOM
 (
+closemenu
+"
+closemenu
+"
+)
+GK_ATOM
+(
 coalesceduplicatearcs
 "
 coalesceduplicatearcs
