@@ -1062,16 +1062,6 @@ friend
 class
 nsAutoScriptBlockerSuppressNodeRemoved
 ;
-friend
-class
-mozilla
-:
-:
-AutoRestore
-<
-bool
->
-;
 typedef
 mozilla
 :
