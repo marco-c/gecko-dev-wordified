@@ -454,6 +454,13 @@ new
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jsarray
 .
 h
