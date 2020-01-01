@@ -522,7 +522,16 @@ frame
 nsSVGUtils
 :
 :
-InvalidateAndScheduleReflowSVG
+InvalidateBounds
+(
+frame
+false
+)
+;
+nsSVGUtils
+:
+:
+ScheduleReflowSVG
 (
 frame
 )

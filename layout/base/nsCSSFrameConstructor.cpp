@@ -49966,7 +49966,16 @@ area
 nsSVGUtils
 :
 :
-InvalidateAndScheduleReflowSVG
+InvalidateBounds
+(
+aFrame
+false
+)
+;
+nsSVGUtils
+:
+:
+ScheduleReflowSVG
 (
 aFrame
 )
