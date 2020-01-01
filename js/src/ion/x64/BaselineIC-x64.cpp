@@ -904,7 +904,7 @@ BinaryArith_Int32
 )
 ;
 return
-NULL
+false
 ;
 }
 /
