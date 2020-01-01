@@ -329,7 +329,7 @@ If
 this
 is
 *
-nsIScreen_MOZILLA_2_0_BRANCH
+nsIScreen
 :
 :
 BRIGHTNESS_LEVELS
