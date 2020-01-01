@@ -7058,9 +7058,6 @@ aResult
 AppendLiteral
 (
 "
--
-moz
--
 initial
 "
 )
