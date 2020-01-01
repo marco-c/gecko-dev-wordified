@@ -2740,7 +2740,6 @@ f
 f
 :
 this
-&
 shellBounds
 NS_RGBA
 (

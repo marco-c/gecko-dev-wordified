@@ -19812,6 +19812,8 @@ nsIPresShell
 RENDER_USE_WIDGET_LAYERS
 ;
 }
+rv
+=
 presShell
 -
 >
