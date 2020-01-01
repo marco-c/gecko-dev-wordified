@@ -140,6 +140,12 @@ done
 from
 mach
 .
+build
+import
+Build
+from
+mach
+.
 settings
 import
 Settings
@@ -149,6 +155,12 @@ mach
 testing
 import
 Testing
+from
+mach
+.
+warnings
+import
+Warnings
 #
 Classes
 inheriting
@@ -162,9 +174,13 @@ HANDLERS
 =
 [
     
+Build
+    
 Settings
     
 Testing
+    
+Warnings
 ]
 #
 Classes
