@@ -6278,6 +6278,9 @@ moz
 nativehyperlinktext
 ;
 }
+%
+ifndef
+WINSTRIPE_AERO
 .
 ac
 -
@@ -6305,6 +6308,8 @@ color
 006600
 ;
 }
+%
+endif
 richlistitem
 [
 type
