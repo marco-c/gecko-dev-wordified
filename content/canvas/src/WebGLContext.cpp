@@ -485,6 +485,7 @@ false
 alpha
 =
 false
+;
 }
 WebGLContext
 :
