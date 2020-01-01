@@ -1826,9 +1826,6 @@ aBuilder
 bool
 *
 aSnap
-bool
-*
-aForceTransparentSurface
 )
 ;
 virtual
