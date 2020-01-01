@@ -7320,6 +7320,7 @@ InliningStatus_NotInlined
 case
 ParallelExecution
 :
+{
 /
 /
 During
@@ -7391,6 +7392,10 @@ ins
 ;
 return
 InliningStatus_Inlined
+;
+}
+default
+:
 ;
 }
 MOZ_ASSUME_UNREACHABLE
@@ -8605,6 +8610,9 @@ inlineNewDenseArrayForParallelExecution
 (
 callInfo
 )
+;
+default
+:
 ;
 }
 MOZ_ASSUME_UNREACHABLE
