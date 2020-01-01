@@ -7511,7 +7511,7 @@ Histogram
 :
 Accumulate
 (
-1
+0
 1
 zero_index
 )
@@ -7626,7 +7626,7 @@ Histogram
 :
 Accumulate
 (
-1
+0
 -
 1
 zero_index

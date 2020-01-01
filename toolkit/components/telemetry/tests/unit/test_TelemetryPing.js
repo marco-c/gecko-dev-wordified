@@ -1571,7 +1571,7 @@ values
 }
 sum
 :
-1
+0
 }
 ;
 let
