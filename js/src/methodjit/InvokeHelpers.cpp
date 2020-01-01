@@ -4790,6 +4790,15 @@ cx
 typeInferenceEnabled
 (
 )
+|
+|
+!
+fp
+-
+>
+jit
+(
+)
 )
 {
 /
