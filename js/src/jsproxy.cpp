@@ -1944,6 +1944,13 @@ jsval
 rval
 )
 {
+JS_CHECK_RECURSION
+(
+cx
+return
+false
+)
+;
 jsval
 fval
 ;
