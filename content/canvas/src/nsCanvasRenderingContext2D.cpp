@@ -22673,13 +22673,11 @@ aOldLayer
 aOldLayer
 -
 >
-GetUserData
+HasUserData
 (
-)
-=
-=
 &
 g2DContextLayerUserData
+)
 )
 {
 NS_ADDREF
@@ -22756,6 +22754,7 @@ SetUserData
 (
 &
 g2DContextLayerUserData
+nsnull
 )
 ;
 CanvasLayer
