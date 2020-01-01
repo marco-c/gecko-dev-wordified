@@ -990,6 +990,12 @@ default
 ;
 }
 }
+else
+{
+return
+NS_ERROR_INVALID_ARG
+;
+}
 }
 jpeg_compress_struct
 cinfo
