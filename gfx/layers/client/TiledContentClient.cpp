@@ -129,6 +129,13 @@ ClientTiledThebesLayer
 h
 "
 #
+include
+"
+gfxReusableSharedImageSurfaceWrapper
+.
+h
+"
+#
 ifdef
 GFX_TILEDLAYER_DEBUG_OVERLAY
 #
@@ -552,7 +559,7 @@ opened
 by
 /
 /
-gfxReusableSurfaceWrapper
+gfxReusableSharedImageSurfaceWrapper
 :
 :
 Open
@@ -684,8 +691,15 @@ GetTileDescriptor
 return
 BasicTileDescriptor
 (
+static_cast
+<
+gfxReusableSharedImageSurfaceWrapper
+*
+>
+(
 GetSurface
 (
+)
 )
 -
 >
@@ -721,7 +735,7 @@ gfxReusableSurfaceWrapper
 >
 surface
 =
-gfxReusableSurfaceWrapper
+gfxReusableSharedImageSurfaceWrapper
 :
 :
 Open

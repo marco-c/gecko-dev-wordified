@@ -199,7 +199,7 @@ h
 #
 include
 "
-gfxReusableSurfaceWrapper
+gfxReusableSharedImageSurfaceWrapper
 .
 h
 "
@@ -2339,7 +2339,7 @@ aType
 mSurface
 =
 new
-gfxReusableSurfaceWrapper
+gfxReusableSharedImageSurfaceWrapper
 (
 mForwarder
 sharedImage

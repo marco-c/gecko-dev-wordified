@@ -269,7 +269,7 @@ Shmem
 ;
 friend
 class
-gfxReusableSurfaceWrapper
+gfxReusableSharedImageSurfaceWrapper
 ;
 public
 :
