@@ -973,9 +973,7 @@ if
 (
 PlacesUtils
 .
-livemarks
-.
-isLivemark
+itemIsLivemark
 (
 aItemId
 )

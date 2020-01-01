@@ -4952,9 +4952,7 @@ itemId
 &
 PlacesUtils
 .
-livemarks
-.
-isLivemark
+itemIsLivemark
 (
 itemId
 )

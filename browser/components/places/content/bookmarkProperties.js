@@ -2125,9 +2125,7 @@ if
 (
 PlacesUtils
 .
-livemarks
-.
-isLivemark
+itemIsLivemark
 (
 this
 .
