@@ -710,8 +710,13 @@ is
 (
 shareButton
 .
-src
+style
+.
+backgroundImage
 '
+url
+(
+"
 https
 :
 /
@@ -733,6 +738,8 @@ test
 social_share_image
 .
 png
+"
+)
 '
 "
 check
@@ -865,8 +872,13 @@ is
 (
 shareButton
 .
-src
+style
+.
+backgroundImage
 '
+url
+(
+"
 https
 :
 /
@@ -888,6 +900,8 @@ test
 social_share_image
 .
 png
+"
+)
 '
 "
 check
