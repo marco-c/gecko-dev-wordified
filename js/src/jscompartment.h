@@ -2239,6 +2239,17 @@ cx
 {
 JS_GUARD_OBJECT_NOTIFIER_INIT
 ;
+JS_ASSERT
+(
+!
+cx
+-
+>
+isExceptionPending
+(
+)
+)
+;
 oldCompartment
 =
 cx
