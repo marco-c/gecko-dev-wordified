@@ -704,9 +704,6 @@ mErr
 jstate
 mState
 ;
-JSAMPARRAY
-mSamples
-;
 PRUint32
 mBytesToSkip
 ;
