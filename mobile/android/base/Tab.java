@@ -370,7 +370,7 @@ boolean
 mReadingListItem
 ;
 private
-long
+int
 mFaviconLoadId
 ;
 private
@@ -1728,7 +1728,7 @@ public
 void
 setFaviconLoadId
 (
-long
+int
 faviconLoadId
 )
 {
@@ -1738,7 +1738,7 @@ faviconLoadId
 ;
 }
 public
-long
+int
 getFaviconLoadId
 (
 )
