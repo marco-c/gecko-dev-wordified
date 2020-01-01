@@ -1105,7 +1105,7 @@ TraceMonitor
 class
 CallStack
 ;
-struct
+class
 TokenStream
 ;
 struct
