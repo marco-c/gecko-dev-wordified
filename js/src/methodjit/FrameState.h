@@ -7087,6 +7087,17 @@ a
 this_
 ;
 }
+inline
+bool
+isConstructorThis
+(
+const
+FrameEntry
+*
+fe
+)
+const
+;
 bool
 isArg
 (

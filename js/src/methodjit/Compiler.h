@@ -2752,6 +2752,15 @@ return
 inlining_
 ;
 }
+bool
+constructing
+(
+)
+{
+return
+isConstructing
+;
+}
 jsbytecode
 *
 outerPC
