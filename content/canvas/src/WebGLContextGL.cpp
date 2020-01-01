@@ -2323,6 +2323,16 @@ cx
 {
 if
 (
+!
+IsContextStable
+(
+)
+)
+return
+NS_OK
+;
+if
+(
 data
 .
 isNull
