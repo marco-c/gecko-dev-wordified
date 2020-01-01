@@ -637,11 +637,15 @@ returnValue
                 
 elif
 returnType
-=
-=
+in
+(
 '
 jobject
 '
+'
+jstring
+'
+)
 :
                     
 returnValue
