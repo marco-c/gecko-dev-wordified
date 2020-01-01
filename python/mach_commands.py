@@ -344,6 +344,25 @@ args
 )
 :
         
+#
+Avoid
+logging
+the
+command
+        
+self
+.
+log_manager
+.
+terminal_handler
+.
+setLevel
+(
+logging
+.
+CRITICAL
+)
+        
 return
 self
 .
