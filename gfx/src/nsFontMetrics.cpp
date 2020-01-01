@@ -1866,6 +1866,7 @@ aLength
 &
 provider
 nsnull
+nsnull
 )
 ;
 }
@@ -1963,6 +1964,7 @@ GLYPH_FILL
 aLength
 &
 provider
+nsnull
 nsnull
 )
 ;
