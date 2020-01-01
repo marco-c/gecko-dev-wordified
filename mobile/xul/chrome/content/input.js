@@ -1385,10 +1385,10 @@ break
 }
 }
 }
-onBeforePaint
+sample
 :
 function
-onBeforePaint
+sample
 (
 aTimeStamp
 )
@@ -6538,7 +6538,7 @@ let
 callback
 =
 {
-onBeforePaint
+sample
 :
 function
 kineticHandleEvent

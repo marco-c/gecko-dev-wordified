@@ -2351,7 +2351,7 @@ i
 ]
 -
 >
-OnBeforePaint
+Sample
 (
 eventTime
 )
