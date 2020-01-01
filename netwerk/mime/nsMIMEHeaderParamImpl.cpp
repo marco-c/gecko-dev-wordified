@@ -582,6 +582,13 @@ nsNativeCharsetUtils
 .
 h
 "
+#
+include
+"
+nsNetError
+.
+h
+"
 /
 /
 static
@@ -1384,7 +1391,7 @@ str
 start
 )
 return
-NS_ERROR_UNEXPECTED
+NS_ERROR_FIRST_HEADER_FIELD_COMPONENT_EMPTY
 ;
 *
 aResult
