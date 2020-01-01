@@ -1109,6 +1109,9 @@ Fragmento
 core
 )
 ;
+#
+ifdef
+DEBUG
 fragmento
 -
 >
@@ -1125,6 +1128,8 @@ core
 NULL
 )
 ;
+#
+endif
 fragmento
 -
 >
@@ -1221,6 +1226,9 @@ fragmento
 builtins
 )
 ;
+#
+ifdef
+DEBUG
 lirbuf
 -
 >
@@ -1245,6 +1253,8 @@ fragmento
 labels
 )
 ;
+#
+endif
 fragment
 -
 >
