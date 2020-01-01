@@ -619,6 +619,10 @@ mTrackingMouseMove
 =
 PR_FALSE
 ;
+UpdateMouseThrough
+(
+)
+;
 }
 NS_IMETHODIMP
 nsTitleBarFrame

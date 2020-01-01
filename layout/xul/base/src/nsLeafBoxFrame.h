@@ -727,13 +727,6 @@ aModType
 ;
 virtual
 PRBool
-GetMouseThrough
-(
-)
-const
-;
-virtual
-PRBool
 ComputesOwnOverflowArea
 (
 )
@@ -781,11 +774,6 @@ nsStyleContext
 *
 aContext
 )
-;
-protected
-:
-eMouseThrough
-mMouseThrough
 ;
 private
 :

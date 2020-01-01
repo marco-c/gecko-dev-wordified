@@ -635,13 +635,6 @@ nsIBox
 aChild
 )
 ;
-virtual
-PRBool
-GetMouseThrough
-(
-)
-const
-;
 #
 ifdef
 DEBUG_LAYOUT
