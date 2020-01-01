@@ -2073,6 +2073,8 @@ const
 nsACString
 &
 genericName
+PRBool
+aUseFontSet
 void
 *
 closure
@@ -2938,6 +2940,8 @@ const
 nsACString
 &
 aGenericName
+PRBool
+aUseFontSet
 void
 *
 aClosure
