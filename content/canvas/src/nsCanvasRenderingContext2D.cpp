@@ -11040,6 +11040,17 @@ endAngle
 return
 NS_ERROR_DOM_SYNTAX_ERR
 ;
+if
+(
+r
+<
+0
+.
+0
+)
+return
+NS_ERROR_DOM_INDEX_SIZE_ERR
+;
 gfxPoint
 p
 (
