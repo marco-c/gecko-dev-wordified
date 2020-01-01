@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsISupports
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -148,8 +141,6 @@ nsROCSSPrimitiveValue
 class
 nsDOMCSSRGBColor
 :
-public
-nsISupports
 public
 nsWrapperCache
 {
@@ -180,8 +171,11 @@ nsDOMCSSRGBColor
 void
 )
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
+(
+nsDOMCSSRGBColor
+)
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 nsDOMCSSRGBColor
 )
