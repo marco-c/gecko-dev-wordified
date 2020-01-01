@@ -4249,7 +4249,7 @@ else
 {
 mode
 =
-EXTEND_WRAP
+EXTEND_REPEAT
 ;
 }
 mPattern
