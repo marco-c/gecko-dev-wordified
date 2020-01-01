@@ -502,6 +502,10 @@ nsProgressMeterFrame
 )
 FRAME_ID
 (
+nsRangeFrame
+)
+FRAME_ID
+(
 nsResizerFrame
 )
 FRAME_ID
