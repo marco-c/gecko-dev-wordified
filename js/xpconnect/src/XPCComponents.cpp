@@ -26676,7 +26676,7 @@ Dispatch
 const
 jsval
 &
-runnable_
+runnableArg
 const
 jsval
 &
@@ -26708,7 +26708,7 @@ RootedValue
 runnable
 (
 cx
-runnable_
+runnableArg
 )
 ;
 if

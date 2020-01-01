@@ -1823,7 +1823,7 @@ JSContext
 cx
 JSObject
 *
-contentScope_
+contentScopeArg
 )
 {
 JS
@@ -1833,7 +1833,7 @@ RootedObject
 contentScope
 (
 cx
-contentScope_
+contentScopeArg
 )
 ;
 JSAutoCompartment
