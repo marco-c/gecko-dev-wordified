@@ -3499,12 +3499,9 @@ construct
 fun_trace
 }
 ;
-JS_FRIEND_DATA
-(
 Class
 *
 const
-)
 js
 :
 :
