@@ -1670,11 +1670,11 @@ nsISupports
 Implementation
 *
 /
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 Preferences
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 Preferences
 )

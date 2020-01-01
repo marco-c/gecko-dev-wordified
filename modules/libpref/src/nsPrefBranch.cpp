@@ -572,11 +572,11 @@ nsISupports
 Implementation
 *
 /
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsPrefBranch
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 nsPrefBranch
 )
@@ -4986,11 +4986,11 @@ nsISupports
 Implementation
 *
 /
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsPrefLocalizedString
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 nsPrefLocalizedString
 )
@@ -5322,7 +5322,7 @@ nsRelativeFilePref
 -
 -
 -
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsRelativeFilePref
 nsIRelativeFilePref

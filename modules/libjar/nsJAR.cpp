@@ -784,12 +784,12 @@ Close
 )
 ;
 }
-NS_IMPL_THREADSAFE_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE1
 (
 nsJAR
 nsIZipReader
 )
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsJAR
 )
@@ -830,10 +830,9 @@ release
 ;
 count
 =
-NS_AtomicDecrementRefcnt
-(
+-
+-
 mRefCnt
-)
 ;
 NS_LOG_RELEASE
 (
@@ -5710,7 +5709,7 @@ digest
 )
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsJAREnumerator
 nsIUTF8StringEnumerator
@@ -6098,7 +6097,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsJARItem
 nsIZipEntry
@@ -7092,7 +7091,7 @@ NS_OK
 /
 /
 nsIZipReaderCache
-NS_IMPL_THREADSAFE_ISUPPORTS3
+NS_IMPL_ISUPPORTS3
 (
 nsZipReaderCache
 nsIZipReaderCache
