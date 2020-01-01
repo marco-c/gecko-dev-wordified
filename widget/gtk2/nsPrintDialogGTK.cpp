@@ -316,9 +316,12 @@ PT
 #
 define
 CUSTOM_VALUE_INDEX
+gint
+(
 ArrayLength
 (
 header_footer_tags
+)
 )
 static
 GtkWindow
