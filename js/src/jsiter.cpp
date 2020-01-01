@@ -1671,16 +1671,12 @@ return
 JS_TRUE
 ;
 }
-static
 JSBool
 js_ThrowStopIteration
 (
 JSContext
 *
 cx
-JSObject
-*
-obj
 )
 {
 jsval
@@ -1794,7 +1790,6 @@ JSVAL_NULL
 js_ThrowStopIteration
 (
 cx
-obj
 )
 ;
 return
@@ -5470,7 +5465,6 @@ return
 js_ThrowStopIteration
 (
 cx
-obj
 )
 ;
 }
@@ -5824,7 +5818,6 @@ return
 js_ThrowStopIteration
 (
 cx
-obj
 )
 ;
 case
