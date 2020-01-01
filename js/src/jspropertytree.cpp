@@ -841,9 +841,8 @@ KidsChunk
 js_calloc
 (
 sizeof
-(
-KidsChunk
-)
+*
+chunk
 )
 ;
 if
