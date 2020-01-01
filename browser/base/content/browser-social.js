@@ -816,9 +816,9 @@ prefs
 getCharPref
 (
 "
-browser
-.
 social
+.
+activation
 .
 whitelist
 "
