@@ -1636,6 +1636,17 @@ true
 }
 #
 ifdef
+TARGET_XPCOM_ABI
+{
+"
+abi
+"
+TARGET_XPCOM_ABI
+}
+#
+endif
+#
+ifdef
 MOZ_JAVAXPCOM
 {
 "
