@@ -498,6 +498,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -511,6 +512,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -521,6 +523,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -530,6 +533,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsSVGContainerFrameBase
@@ -569,6 +573,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -579,6 +584,7 @@ bool
 UpdateOverflow
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -749,6 +755,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayList
@@ -783,6 +790,7 @@ aFromParentTransform
 nullptr
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -800,6 +808,7 @@ nsIntRect
 *
 aDirtyRect
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
