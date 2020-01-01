@@ -480,6 +480,13 @@ h
 #
 include
 "
+jsvalue
+.
+h
+"
+#
+include
+"
 nsAutoJSValHolder
 .
 h
@@ -576,7 +583,10 @@ status
 ;
 static
 const
-JSExtendedClass
+js
+:
+:
+Class
 sCPOW_JSClass
 ;
 protected

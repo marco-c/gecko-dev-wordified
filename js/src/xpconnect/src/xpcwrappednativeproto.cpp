@@ -701,7 +701,10 @@ return
 JS_FALSE
 ;
 }
-JSClass
+js
+:
+:
+Class
 *
 jsclazz
 ;
@@ -789,7 +792,13 @@ mJSProtoObject
 xpc_NewSystemInheritingJSObject
 (
 ccx
+js
+:
+:
+Jsvalify
+(
 jsclazz
+)
 mScope
 -
 >
