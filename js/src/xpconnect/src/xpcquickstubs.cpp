@@ -4527,7 +4527,6 @@ lccx
 >
 SetWrapper
 (
-cur
 wrapper
 tearoff
 )
@@ -4603,8 +4602,6 @@ lccx
 SetWrapper
 (
 cur
-nsnull
-nsnull
 )
 ;
 return

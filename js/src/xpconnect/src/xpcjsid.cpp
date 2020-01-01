@@ -5359,6 +5359,10 @@ obj2
 if
 (
 !
+other_wrapper
+|
+|
+!
 obj2
 )
 return
