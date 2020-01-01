@@ -2873,7 +2873,10 @@ idx
 0
 &
 &
+uint32_t
+(
 idx
+)
 <
 script
 (
