@@ -4239,15 +4239,6 @@ sprop
 ;
 JS_REQUIRES_STACK
 bool
-record_SetPropMiss
-(
-JSPropCacheEntry
-*
-entry
-)
-;
-JS_REQUIRES_STACK
-bool
 record_DefLocalFunSetSlot
 (
 uint32
