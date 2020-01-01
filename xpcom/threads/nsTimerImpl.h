@@ -290,7 +290,7 @@ class
 TimerThread
 ;
 friend
-class
+struct
 TimerAdditionComparator
 ;
 void
