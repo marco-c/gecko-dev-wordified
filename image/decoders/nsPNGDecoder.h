@@ -441,7 +441,7 @@ format
 For
 size
 decodes
-PRUint8
+uint8_t
 mSizeBytes
 [
 8
@@ -457,7 +457,7 @@ height
 both
 4
 bytes
-PRUint32
+uint32_t
 mHeaderBytesRead
 ;
 /

@@ -1632,7 +1632,7 @@ width
 and
 height
 bytes
-PRUint32
+uint32_t
 pos
 =
 0
@@ -1789,7 +1789,7 @@ thanks
 libpng
 !
 )
-PRUint32
+uint32_t
 width
 =
 png_get_uint_32
@@ -1797,7 +1797,7 @@ png_get_uint_32
 mSizeBytes
 )
 ;
-PRUint32
+uint32_t
 height
 =
 png_get_uint_32
