@@ -60133,6 +60133,14 @@ type
 )
 )
 ;
+ins
+-
+>
+infer
+(
+cx
+)
+;
 current
 -
 >
