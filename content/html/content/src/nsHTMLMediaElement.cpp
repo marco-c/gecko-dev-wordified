@@ -3072,6 +3072,10 @@ mAllowSuspendAfterFirstFrame
 =
 PR_TRUE
 ;
+mSourcePointer
+=
+nsnull
+;
 /
 /
 TODO
