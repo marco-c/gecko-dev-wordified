@@ -8440,7 +8440,7 @@ ImmWord
 (
 nursery
 .
-end
+heapEnd
 (
 )
 )
@@ -8512,7 +8512,7 @@ ImmWord
 (
 nursery
 .
-end
+heapEnd
 (
 )
 )
@@ -8746,7 +8746,7 @@ ImmWord
 (
 nursery
 .
-end
+heapEnd
 (
 )
 )
@@ -8824,7 +8824,7 @@ ImmWord
 (
 nursery
 .
-end
+heapEnd
 (
 )
 )

@@ -4898,7 +4898,7 @@ ImmWord
 (
 nursery
 .
-end
+heapEnd
 (
 )
 )
