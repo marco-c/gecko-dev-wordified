@@ -1329,6 +1329,13 @@ null
 title
 )
 ;
+if
+(
+mUrl
+!
+=
+null
+)
 updateHistory
 (
 mUrl
