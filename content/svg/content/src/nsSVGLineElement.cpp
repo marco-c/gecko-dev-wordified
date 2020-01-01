@@ -456,15 +456,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsSVGPathGeometryElement
 .
 h
@@ -497,10 +488,6 @@ gfxContext
 .
 h
 "
-using
-namespace
-mozilla
-;
 typedef
 nsSVGPathGeometryElement
 nsSVGLineElementBase
@@ -1369,7 +1356,7 @@ FindAttributeDependence
 (
 name
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )
@@ -1477,7 +1464,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sLengthInfo
 )

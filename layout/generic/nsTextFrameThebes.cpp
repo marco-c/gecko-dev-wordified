@@ -592,15 +592,6 @@ elements
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -21789,7 +21780,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 mSelectionStyle
 )

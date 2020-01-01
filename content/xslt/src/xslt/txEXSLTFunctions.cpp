@@ -437,15 +437,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h
@@ -555,10 +546,6 @@ txMozillaXMLOutput
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 txStylesheetCompilerState
 ;
@@ -4625,7 +4612,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 descriptTable
 )
@@ -4712,7 +4699,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 descriptTable
 )

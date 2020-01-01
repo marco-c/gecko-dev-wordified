@@ -436,15 +436,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsWidgetAtoms
 .
 h
@@ -571,10 +562,7 @@ RegisterAtoms
 NS_RegisterStaticAtoms
 (
 widget_atoms
-mozilla
-:
-:
-ArrayLength
+NS_ARRAY_LENGTH
 (
 widget_atoms
 )

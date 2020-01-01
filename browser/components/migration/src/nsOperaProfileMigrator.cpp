@@ -431,15 +431,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsAppDirectoryServiceDefs
 .
 h
@@ -652,10 +643,6 @@ h
 >
 #
 endif
-using
-namespace
-mozilla
-;
 #
 define
 MIGRATION_BUNDLE
@@ -3283,7 +3270,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 protocols
 )

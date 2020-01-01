@@ -550,15 +550,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 base
 /
 basictypes
@@ -24909,7 +24900,7 @@ eCOMMON_DIALOG_PROPERTIES
 ScriptDlgHeading
 "
 formatStrings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )

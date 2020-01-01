@@ -443,15 +443,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsSVGGraphicElement
 .
 h
@@ -463,10 +454,6 @@ nsIDOMSVGGElement
 .
 h
 "
-using
-namespace
-mozilla
-;
 typedef
 nsSVGGraphicElement
 nsSVGGElementBase
@@ -1060,7 +1047,7 @@ FindAttributeDependence
 (
 name
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

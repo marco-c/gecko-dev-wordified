@@ -423,15 +423,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsSVGUseElement
 .
 h
@@ -503,10 +494,6 @@ nsContentUtils
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -3561,7 +3548,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sLengthInfo
 )
@@ -3584,7 +3571,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sStringInfo
 )
@@ -3708,7 +3695,7 @@ FindAttributeDependence
 (
 name
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

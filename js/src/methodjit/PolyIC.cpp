@@ -4103,7 +4103,7 @@ if
 obj
 -
 >
-lookupGeneric
+lookupProperty
 (
 cx
 id
@@ -5874,7 +5874,7 @@ if
 aobj
 -
 >
-lookupGeneric
+lookupProperty
 (
 cx
 ATOM_TO_JSID

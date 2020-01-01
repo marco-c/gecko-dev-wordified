@@ -432,15 +432,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsSVGStylableElement
 .
 h
@@ -473,10 +464,6 @@ nsGenericHTMLElement
 .
 h
 "
-using
-namespace
-mozilla
-;
 typedef
 nsSVGStylableElement
 nsSVGStopElementBase
@@ -1244,7 +1231,7 @@ FindAttributeDependence
 (
 name
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

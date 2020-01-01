@@ -3814,7 +3814,7 @@ nsMatchesTopic
 struct
 TagList
 {
-size_t
+PRUint32
 mCount
 ;
 const

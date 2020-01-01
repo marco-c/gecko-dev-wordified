@@ -524,15 +524,6 @@ h
 #
 endif
 #
-include
-"
-mozilla
-/
-Util
-.
-h
-"
-#
 define
 XPCOM_TRANSLATE_NSGM_ENTRY_POINT
 1
@@ -990,10 +981,6 @@ unused
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 mozilla
 :
@@ -13376,7 +13363,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gSavedVars
 )
@@ -13447,7 +13434,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gSavedVars
 )

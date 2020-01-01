@@ -438,15 +438,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsClipboardPrivacyHandler
 .
 h
@@ -538,10 +529,6 @@ h
 >
 #
 endif
-using
-namespace
-mozilla
-;
 #
 define
 NS_MOZ_DATA_FROM_PRIVATEBROWSING
@@ -819,7 +806,7 @@ clipboard
 HasDataMatchingFlavors
 (
 flavors
-ArrayLength
+NS_ARRAY_LENGTH
 (
 flavors
 )

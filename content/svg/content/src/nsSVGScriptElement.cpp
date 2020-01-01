@@ -456,15 +456,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h
@@ -539,10 +530,6 @@ nsContentUtils
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -1986,7 +1973,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sStringInfo
 )

@@ -627,15 +627,6 @@ blocking
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -3364,7 +3355,7 @@ attributes
 size_t
 attr_count
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 pref_cpu_types
 )

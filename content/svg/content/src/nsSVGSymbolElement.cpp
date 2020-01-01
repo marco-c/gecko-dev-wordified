@@ -423,15 +423,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIDOMSVGSymbolElement
 .
 h
@@ -1161,7 +1152,7 @@ FindAttributeDependence
 (
 name
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

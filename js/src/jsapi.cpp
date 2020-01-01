@@ -18131,7 +18131,7 @@ return
 obj
 -
 >
-lookupGeneric
+lookupProperty
 (
 cx
 id
@@ -18725,7 +18725,7 @@ prop
 obj
 -
 >
-lookupGeneric
+lookupProperty
 (
 cx
 id

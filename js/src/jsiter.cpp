@@ -464,15 +464,6 @@ memcpy
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h
@@ -702,10 +693,6 @@ inl
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 js
@@ -1086,7 +1073,7 @@ AutoArrayRooter
 tvr
 (
 cx
-ArrayLength
+JS_ARRAY_LENGTH
 (
 vec
 )
@@ -5992,7 +5979,7 @@ object
 )
 -
 >
-lookupGeneric
+lookupProperty
 (
 cx
 *

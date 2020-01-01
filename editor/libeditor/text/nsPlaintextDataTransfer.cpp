@@ -425,15 +425,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsPlaintextEditor
 .
 h
@@ -629,10 +620,6 @@ nsContentUtils
 .
 h
 "
-using
-namespace
-mozilla
-;
 NS_IMETHODIMP
 nsPlaintextEditor
 :
@@ -2979,7 +2966,7 @@ clipboard
 HasDataMatchingFlavors
 (
 textEditorFlavors
-ArrayLength
+NS_ARRAY_LENGTH
 (
 textEditorFlavors
 )

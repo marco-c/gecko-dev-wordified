@@ -447,15 +447,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 xpcprivate
 .
 h
@@ -5329,7 +5320,7 @@ get
 PRUint32
 length
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
@@ -5517,7 +5508,7 @@ if
 length
 !
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
@@ -8935,7 +8926,7 @@ get
 (
 )
 formatStrings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
@@ -9163,7 +9154,7 @@ get
 (
 )
 formatStrings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
@@ -9610,7 +9601,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 flags
 )
@@ -14751,7 +14742,7 @@ get
 (
 )
 formatArgs
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatArgs
 )
@@ -15224,7 +15215,7 @@ get
 (
 )
 formatStrings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
@@ -16026,7 +16017,7 @@ get
 (
 )
 formatStrings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
@@ -17123,7 +17114,7 @@ get
 PRUint32
 length
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
@@ -21613,7 +21604,7 @@ c
 )
 -
 (
-ArrayLength
+NS_ARRAY_LENGTH
 (
 idSuffix
 )

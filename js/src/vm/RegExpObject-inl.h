@@ -455,15 +455,6 @@ RegExpObject_inl_h___
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 RegExpObject
 .
 h
@@ -2711,12 +2702,6 @@ postfix
 '
 }
 ;
-using
-mozilla
-:
-:
-ArrayLength
-;
 StringBuffer
 sb
 (
@@ -2730,7 +2715,7 @@ sb
 .
 reserve
 (
-ArrayLength
+JS_ARRAY_LENGTH
 (
 prefix
 )
@@ -2742,7 +2727,7 @@ length
 (
 )
 +
-ArrayLength
+JS_ARRAY_LENGTH
 (
 postfix
 )
@@ -2756,7 +2741,7 @@ sb
 infallibleAppend
 (
 prefix
-ArrayLength
+JS_ARRAY_LENGTH
 (
 prefix
 )
@@ -2785,7 +2770,7 @@ sb
 infallibleAppend
 (
 postfix
-ArrayLength
+JS_ARRAY_LENGTH
 (
 postfix
 )

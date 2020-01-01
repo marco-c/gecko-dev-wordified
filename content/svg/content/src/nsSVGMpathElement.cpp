@@ -433,15 +433,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsSVGMpathElement
 .
 h
@@ -474,10 +465,6 @@ nsSVGAnimateMotionElement
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -1443,7 +1430,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sStringInfo
 )

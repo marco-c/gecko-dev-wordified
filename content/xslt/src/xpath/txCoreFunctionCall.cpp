@@ -437,15 +437,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 txExpr
 .
 h
@@ -513,10 +504,6 @@ txXMLUtils
 .
 h
 "
-using
-namespace
-mozilla
-;
 struct
 txCoreFunctionDescriptor
 {
@@ -4396,7 +4383,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 descriptTable
 )

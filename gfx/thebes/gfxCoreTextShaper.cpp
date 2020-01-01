@@ -458,15 +458,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 prtypes
 .
 h
@@ -590,10 +581,6 @@ nsUnicodeRange
 .
 h
 "
-using
-namespace
-mozilla
-;
 /
 /
 standard
@@ -4333,7 +4320,7 @@ void
 *
 )
 values
-ArrayLength
+NS_ARRAY_LENGTH
 (
 keys
 )
@@ -4398,7 +4385,7 @@ void
 *
 )
 values
-ArrayLength
+NS_ARRAY_LENGTH
 (
 keys
 )
@@ -4437,7 +4424,7 @@ void
 *
 )
 featureSettings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 featureSettings
 )
@@ -4507,7 +4494,7 @@ void
 *
 )
 attrValues
-ArrayLength
+NS_ARRAY_LENGTH
 (
 attrKeys
 )
@@ -4661,7 +4648,7 @@ void
 *
 )
 values
-ArrayLength
+NS_ARRAY_LENGTH
 (
 keys
 )

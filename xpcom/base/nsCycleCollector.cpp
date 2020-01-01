@@ -1293,15 +1293,6 @@ unlinking
 /
 /
 #
-include
-"
-mozilla
-/
-Util
-.
-h
-"
-#
 if
 !
 defined
@@ -4613,7 +4604,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 aBlock
 -
@@ -4653,7 +4644,7 @@ i
 }
 entries
 [
-ArrayLength
+NS_ARRAY_LENGTH
 (
 aBlock
 -
@@ -4776,7 +4767,9 @@ mEntries
 *
 eEnd
 =
-ArrayEnd
+e
++
+NS_ARRAY_LENGTH
 (
 b
 -
@@ -5468,7 +5461,9 @@ mEntries
 *
 eEnd
 =
-ArrayEnd
+e
++
+NS_ARRAY_LENGTH
 (
 b
 -
@@ -10143,7 +10138,9 @@ mEntries
 *
 eEnd
 =
-ArrayEnd
+e
++
+NS_ARRAY_LENGTH
 (
 b
 -

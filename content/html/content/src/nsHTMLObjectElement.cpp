@@ -439,15 +439,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -543,10 +534,6 @@ nsIConstraintValidation
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -2557,7 +2544,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

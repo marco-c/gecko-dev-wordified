@@ -423,15 +423,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsSVGClipPathElement
 .
 h
@@ -443,10 +434,6 @@ nsGkAtoms
 .
 h
 "
-using
-namespace
-mozilla
-;
 nsSVGElement
 :
 :
@@ -733,7 +720,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sEnumInfo
 )

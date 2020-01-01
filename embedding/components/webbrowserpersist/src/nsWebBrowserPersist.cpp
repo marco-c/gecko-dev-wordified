@@ -447,15 +447,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nspr
 .
 h
@@ -962,10 +953,6 @@ nsWebBrowserPersist
 .
 h
 "
-using
-namespace
-mozilla
-;
 /
 /
 Buffer
@@ -21644,7 +21631,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kSpecialXHTMLTags
 )

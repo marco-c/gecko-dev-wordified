@@ -443,15 +443,6 @@ Musil
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsPluginsDir
 .
 h
@@ -526,10 +517,6 @@ nsSetDllDirectory
 .
 h
 "
-using
-namespace
-mozilla
-;
 /
 *
 Local
@@ -619,7 +606,7 @@ if
 _snwprintf_s
 (
 keybuf
-ArrayLength
+NS_ARRAY_LENGTH
 (
 keybuf
 )

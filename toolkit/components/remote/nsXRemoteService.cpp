@@ -466,15 +466,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsXRemoteService
 .
 h
@@ -646,10 +637,6 @@ Xatom
 .
 h
 >
-using
-namespace
-mozilla
-;
 #
 define
 MOZILLA_VERSION_PROP
@@ -2496,7 +2483,7 @@ DefaultXDisplay
 (
 )
 XAtomNames
-ArrayLength
+NS_ARRAY_LENGTH
 (
 XAtomNames
 )

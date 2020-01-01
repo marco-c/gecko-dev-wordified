@@ -520,15 +520,6 @@ implementations
 *
 /
 #
-include
-"
-mozilla
-/
-Util
-.
-h
-"
-#
 ifdef
 MOZ_LOGGING
 /
@@ -9536,7 +9527,7 @@ if
 (
 nsid
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kNSURIs
 )

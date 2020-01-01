@@ -425,15 +425,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsHTMLEditUtils
 .
 h
@@ -515,10 +506,6 @@ nsHTMLTags
 .
 h
 "
-using
-namespace
-mozilla
-;
 /
 /
 /
@@ -6950,7 +6937,7 @@ j
 ;
 j
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kButtonExcludeKids
 )

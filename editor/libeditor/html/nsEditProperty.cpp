@@ -443,15 +443,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsMemory
 .
 h
@@ -470,10 +461,6 @@ nsEditProperty
 .
 h
 "
-using
-namespace
-mozilla
-;
 #
 define
 EDITOR_ATOM
@@ -797,7 +784,7 @@ EDITOR_ATOM
 NS_RegisterStaticAtoms
 (
 property_atoms
-ArrayLength
+NS_ARRAY_LENGTH
 (
 property_atoms
 )

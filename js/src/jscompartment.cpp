@@ -617,10 +617,6 @@ h
 endif
 using
 namespace
-mozilla
-;
-using
-namespace
 js
 ;
 using
@@ -849,8 +845,9 @@ i
 0
 ;
 i
-<
-ArrayLength
+!
+=
+JS_ARRAY_LENGTH
 (
 evalCache
 )
@@ -4458,8 +4455,9 @@ i
 0
 ;
 i
-<
-ArrayLength
+!
+=
+JS_ARRAY_LENGTH
 (
 evalCache
 )

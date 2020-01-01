@@ -455,15 +455,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 RuntimeService
 .
 h
@@ -645,10 +636,6 @@ WorkerPrivate
 .
 h
 "
-using
-namespace
-mozilla
-;
 USING_WORKERS_NAMESPACE
 using
 mozilla
@@ -4588,7 +4575,7 @@ index
 ;
 index
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gPrefsToWatch
 )
@@ -5251,7 +5238,7 @@ index
 ;
 index
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gPrefsToWatch
 )

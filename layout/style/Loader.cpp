@@ -522,15 +522,6 @@ include
 "
 mozilla
 /
-Util
-.
-h
-"
-#
-include
-"
-mozilla
-/
 css
 /
 Loader
@@ -6147,7 +6138,7 @@ nsContentUtils
 eCSS_PROPERTIES
 errorMessage
 strings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 strings
 )

@@ -466,15 +466,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 mozcontainer
 .
 h
@@ -594,10 +585,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 widget
@@ -640,7 +627,7 @@ PT
 #
 define
 CUSTOM_VALUE_INDEX
-ArrayLength
+NS_ARRAY_LENGTH
 (
 header_footer_tags
 )
@@ -2653,7 +2640,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 header_dropdown
 )
@@ -2772,7 +2759,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 labelKeys
 )
@@ -2875,7 +2862,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 footer_dropdown
 )
@@ -4036,7 +4023,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 hf_options
 )
@@ -4087,7 +4074,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 header_footer_tags
 )

@@ -425,15 +425,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLIFrameElement
 .
 h
@@ -508,10 +499,6 @@ nsStyleConsts
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -1648,7 +1635,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

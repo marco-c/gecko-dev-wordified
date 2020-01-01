@@ -431,15 +431,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIconURI
 .
 h
@@ -486,10 +477,6 @@ stdlib
 .
 h
 >
-using
-namespace
-mozilla
-;
 #
 define
 DEFAULT_IMAGE_SIZE
@@ -1511,7 +1498,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kSizeStrings
 )
@@ -1612,7 +1599,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kStateStrings
 )

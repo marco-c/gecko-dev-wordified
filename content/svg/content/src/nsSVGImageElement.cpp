@@ -443,15 +443,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsSVGImageElement
 .
 h
@@ -1850,7 +1841,7 @@ FindAttributeDependence
 (
 name
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )
@@ -2113,7 +2104,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sLengthInfo
 )
@@ -2150,7 +2141,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sStringInfo
 )

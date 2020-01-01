@@ -505,15 +505,6 @@ Effective_TLD_Service
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsEffectiveTLDService
 .
 h
@@ -548,10 +539,6 @@ FunctionTimer
 .
 h
 "
-using
-namespace
-mozilla
-;
 NS_IMPL_ISUPPORTS1
 (
 nsEffectiveTLDService
@@ -796,7 +783,7 @@ mHash
 .
 Init
 (
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gEntries
 )
@@ -846,7 +833,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gEntries
 )

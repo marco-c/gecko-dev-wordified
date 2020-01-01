@@ -487,15 +487,6 @@ objects
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -56862,7 +56853,7 @@ disp
 mDisplay
 >
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 displayTypes
 )
@@ -56979,7 +56970,7 @@ if
 bareType
 >
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 cssFrameTypes
 )

@@ -486,15 +486,6 @@ types
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 xpcprivate
 .
 h
@@ -569,10 +560,6 @@ nsWrapperCacheInlines
 .
 h
 "
-using
-namespace
-mozilla
-;
 /
 /
 #
@@ -4991,7 +4978,7 @@ VOID_STRING
 ;
 length
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 VOID_STRING
 )

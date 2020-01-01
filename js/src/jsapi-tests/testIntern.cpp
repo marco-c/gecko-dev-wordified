@@ -12,10 +12,6 @@ jsatom
 .
 h
 "
-using
-namespace
-mozilla
-;
 BEGIN_TEST
 (
 testAtomizedIsNotInterned
@@ -68,7 +64,7 @@ js_Atomize
 (
 cx
 someChars
-ArrayLength
+JS_ARRAY_LENGTH
 (
 someChars
 )

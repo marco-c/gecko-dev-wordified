@@ -685,10 +685,6 @@ maintenance
 -
 finished
 "
-using
-namespace
-mozilla
-;
 const
 PRInt32
 nsNavBookmarks
@@ -4189,7 +4185,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )

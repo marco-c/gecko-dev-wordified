@@ -422,15 +422,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsSVGTextPositioningElement
 .
 h
@@ -546,7 +537,7 @@ LengthListAttributesInfo
 (
 mLengthListAttributes
 sLengthListInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sLengthListInfo
 )
@@ -591,7 +582,7 @@ NumberListAttributesInfo
 (
 mNumberListAttributes
 sNumberListInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sNumberListInfo
 )

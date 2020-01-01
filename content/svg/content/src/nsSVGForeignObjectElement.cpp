@@ -443,15 +443,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -463,10 +454,6 @@ nsSVGForeignObjectElement
 .
 h
 "
-using
-namespace
-mozilla
-;
 nsSVGElement
 :
 :
@@ -1330,7 +1317,7 @@ FindAttributeDependence
 (
 name
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )
@@ -1438,7 +1425,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sLengthInfo
 )

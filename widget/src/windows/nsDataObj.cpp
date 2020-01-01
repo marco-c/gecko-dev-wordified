@@ -492,15 +492,6 @@ BLOCK
 /
 #
 include
-"
-mozilla
-/
-Util
-.
-h
-"
-#
-include
 <
 ole2
 .
@@ -680,10 +671,6 @@ stdlib
 .
 h
 >
-using
-namespace
-mozilla
-;
 #
 define
 TABLE_SIZE
@@ -7880,7 +7867,7 @@ n
 ;
 n
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 forbiddenNames
 )

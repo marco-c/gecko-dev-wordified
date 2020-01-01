@@ -462,15 +462,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsPaperPS
 .
 h
@@ -496,10 +487,6 @@ nsMemory
 .
 h
 "
-using
-namespace
-mozilla
-;
 const
 nsPaperSizePS_
 nsPaperSizePS
@@ -652,7 +639,7 @@ nsPaperSizePS
 :
 mCount
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 mList
 )

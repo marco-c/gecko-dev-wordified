@@ -425,15 +425,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -501,10 +492,6 @@ nsIDocument
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 nsHTMLFontElement
 :
@@ -1914,7 +1901,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

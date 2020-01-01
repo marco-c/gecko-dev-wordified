@@ -444,15 +444,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsClipboard
 .
 h
@@ -604,10 +595,6 @@ unistd
 .
 h
 >
-using
-namespace
-mozilla
-;
 /
 /
 Callback
@@ -3415,7 +3402,7 @@ ptrPrimitive
 &
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 imageMimeTypes
 )

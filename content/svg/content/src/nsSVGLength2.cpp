@@ -454,15 +454,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsSVGLength2
 .
 h
@@ -541,10 +532,6 @@ endif
 /
 /
 MOZ_SMIL
-using
-namespace
-mozilla
-;
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION
 (
 nsSVGLength2
@@ -919,7 +906,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 unitMap
 )

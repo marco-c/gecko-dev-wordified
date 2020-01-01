@@ -470,15 +470,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -1074,7 +1065,7 @@ eXBL_PROPERTIES
 TooDeepBindingRecursion
 "
 params
-ArrayLength
+NS_ARRAY_LENGTH
 (
 params
 )
@@ -6089,7 +6080,7 @@ eXBL_PROPERTIES
 InvalidExtendsBinding
 "
 params
-ArrayLength
+NS_ARRAY_LENGTH
 (
 params
 )
@@ -6324,7 +6315,7 @@ eXBL_PROPERTIES
 CircularExtendsBinding
 "
 params
-ArrayLength
+NS_ARRAY_LENGTH
 (
 params
 )

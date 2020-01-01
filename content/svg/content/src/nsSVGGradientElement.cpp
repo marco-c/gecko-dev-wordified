@@ -432,15 +432,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 DOMSVGAnimatedTransformList
 .
 h
@@ -958,7 +949,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sEnumInfo
 )
@@ -981,7 +972,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sStringInfo
 )
@@ -1397,7 +1388,7 @@ FindAttributeDependence
 (
 name
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )
@@ -2161,7 +2152,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sLengthInfo
 )
@@ -2948,7 +2939,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sLengthInfo
 )

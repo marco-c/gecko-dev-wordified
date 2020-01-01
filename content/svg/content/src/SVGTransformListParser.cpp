@@ -442,15 +442,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 SVGTransformListParser
 .
 h
@@ -1364,7 +1355,7 @@ ENSURE_MATCHED
 MatchNumberArguments
 (
 t
-ArrayLength
+NS_ARRAY_LENGTH
 (
 t
 )
@@ -1469,7 +1460,7 @@ ENSURE_MATCHED
 MatchNumberArguments
 (
 s
-ArrayLength
+NS_ARRAY_LENGTH
 (
 s
 )
@@ -1575,7 +1566,7 @@ ENSURE_MATCHED
 MatchNumberArguments
 (
 r
-ArrayLength
+NS_ARRAY_LENGTH
 (
 r
 )
@@ -1829,7 +1820,7 @@ ENSURE_MATCHED
 MatchNumberArguments
 (
 m
-ArrayLength
+NS_ARRAY_LENGTH
 (
 m
 )

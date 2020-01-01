@@ -426,15 +426,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsCache
 .
 h
@@ -609,10 +600,6 @@ FunctionTimer
 .
 h
 "
-using
-namespace
-mozilla
-;
 static
 const
 char
@@ -7105,7 +7092,7 @@ rv
 &
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 prepared
 )

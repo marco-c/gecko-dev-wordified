@@ -443,15 +443,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
@@ -629,10 +620,6 @@ h
 "
 #
 endif
-using
-namespace
-mozilla
-;
 /
 *
 *
@@ -3518,7 +3505,7 @@ FindTagInSet
 (
 theTag
 gLegalElements
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gLegalElements
 )
@@ -3717,7 +3704,7 @@ FindTagInSet
 (
 theParentTag
 gLegalElements
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gLegalElements
 )
@@ -5289,7 +5276,7 @@ FindTagInSet
 (
 theParentTag
 gTableElements
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gTableElements
 )
@@ -5507,7 +5494,7 @@ FindTagInSet
 (
 theParentTag
 sTableElements
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sTableElements
 )
@@ -10168,7 +10155,7 @@ FindTagInSet
 (
 theParentTag
 gBarriers
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gBarriers
 )
@@ -18451,7 +18438,7 @@ if
 HasOpenContainer
 (
 gNoXTags
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gNoXTags
 )

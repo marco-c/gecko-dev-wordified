@@ -500,15 +500,6 @@ recursive
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
@@ -621,10 +612,6 @@ nsRDFPropertyTestNode
 .
 h
 "
-using
-namespace
-mozilla
-;
 bool
 MemoryElement
 :
@@ -689,7 +676,7 @@ Init
 MemoryElement
 "
 bucketsizes
-ArrayLength
+NS_ARRAY_LENGTH
 (
 bucketsizes
 )

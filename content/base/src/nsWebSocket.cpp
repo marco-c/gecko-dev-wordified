@@ -468,15 +468,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsWebSocket
 .
 h
@@ -2931,7 +2922,7 @@ get
 (
 )
 formatStrings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
@@ -2966,7 +2957,7 @@ get
 (
 )
 formatStrings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )

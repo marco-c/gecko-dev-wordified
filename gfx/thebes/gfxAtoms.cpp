@@ -418,15 +418,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 gfxAtoms
 .
 h
@@ -445,10 +436,6 @@ nsMemory
 .
 h
 "
-using
-namespace
-mozilla
-;
 #
 define
 GFX_ATOM
@@ -550,7 +537,7 @@ RegisterAtoms
 NS_RegisterStaticAtoms
 (
 atoms
-ArrayLength
+NS_ARRAY_LENGTH
 (
 atoms
 )

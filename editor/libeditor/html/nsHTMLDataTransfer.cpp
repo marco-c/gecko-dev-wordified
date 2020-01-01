@@ -443,15 +443,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsHTMLEditor
 .
 h
@@ -7249,7 +7240,7 @@ PR_FALSE
 endHTML
 +
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 endFragmentMarker
 )
@@ -11084,7 +11075,7 @@ aClipboard
 HasDataMatchingFlavors
 (
 flavArray
-ArrayLength
+NS_ARRAY_LENGTH
 (
 flavArray
 )
@@ -12067,7 +12058,7 @@ clipboard
 HasDataMatchingFlavors
 (
 textEditorFlavors
-ArrayLength
+NS_ARRAY_LENGTH
 (
 textEditorFlavors
 )
@@ -12085,7 +12076,7 @@ clipboard
 HasDataMatchingFlavors
 (
 textHtmlEditorFlavors
-ArrayLength
+NS_ARRAY_LENGTH
 (
 textHtmlEditorFlavors
 )
@@ -12233,7 +12224,7 @@ textEditorFlavors
 ;
 length
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 textEditorFlavors
 )
@@ -12247,7 +12238,7 @@ textHtmlEditorFlavors
 ;
 length
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 textHtmlEditorFlavors
 )

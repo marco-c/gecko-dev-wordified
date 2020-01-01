@@ -447,15 +447,6 @@ elements
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsCSSPseudoElements
 .
 h
@@ -488,10 +479,6 @@ nsCSSAnonBoxes
 .
 h
 "
-using
-namespace
-mozilla
-;
 /
 /
 define
@@ -705,7 +692,7 @@ AddRefAtoms
 NS_RegisterStaticAtoms
 (
 CSSPseudoElements_info
-ArrayLength
+NS_ARRAY_LENGTH
 (
 CSSPseudoElements_info
 )
@@ -731,7 +718,7 @@ IsMember
 (
 aAtom
 CSSPseudoElements_info
-ArrayLength
+NS_ARRAY_LENGTH
 (
 CSSPseudoElements_info
 )
@@ -906,7 +893,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 CSSPseudoElements_info
 )
@@ -1044,7 +1031,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 CSSPseudoElements_info
 )
@@ -1076,7 +1063,7 @@ NS_ASSERTION
 (
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 CSSPseudoElements_info
 )

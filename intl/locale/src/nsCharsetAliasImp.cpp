@@ -425,15 +425,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsICharsetAlias
 .
 h
@@ -485,10 +476,6 @@ nsCharsetAlias
 .
 h
 "
-using
-namespace
-mozilla
-;
 /
 /
 -
@@ -838,7 +825,7 @@ nsUConvPropertySearch
 SearchPropertyValue
 (
 kAliases
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kAliases
 )

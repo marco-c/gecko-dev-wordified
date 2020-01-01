@@ -484,15 +484,6 @@ compositor
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsRefreshDriver
 .
 h
@@ -1401,7 +1392,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 mObservers
 )
@@ -1934,7 +1925,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 mObservers
 )

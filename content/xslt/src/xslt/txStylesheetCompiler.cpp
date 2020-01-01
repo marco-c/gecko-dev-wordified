@@ -432,15 +432,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 txStylesheetCompiler
 .
 h
@@ -550,10 +541,6 @@ nsTArray
 .
 h
 "
-using
-namespace
-mozilla
-;
 txStylesheetCompiler
 :
 :
@@ -5194,7 +5181,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kExtensionFunctions
 )
@@ -5246,7 +5233,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kExtensionFunctions
 )

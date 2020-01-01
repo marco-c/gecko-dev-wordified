@@ -451,15 +451,6 @@ BLOCK
 /
 #
 include
-"
-mozilla
-/
-Util
-.
-h
-"
-#
-include
 <
 stdlib
 .
@@ -535,10 +526,6 @@ nsILocalFile
 .
 h
 "
-using
-namespace
-mozilla
-;
 namespace
 TestTArray
 {
@@ -1579,7 +1566,7 @@ return
 test_basic_array
 (
 data
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -1617,7 +1604,7 @@ return
 test_basic_array
 (
 data
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -1655,7 +1642,7 @@ return
 test_basic_array
 (
 data
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -1693,7 +1680,7 @@ return
 test_basic_array
 (
 data
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -1931,7 +1918,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kdata
 )
@@ -1983,7 +1970,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kdata
 )
@@ -2060,7 +2047,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kdata
 )
@@ -2150,7 +2137,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kdata
 )
@@ -2255,7 +2242,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kdata
 )
@@ -2379,7 +2366,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kdata
 )
@@ -2424,7 +2411,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kdata
 )
@@ -2549,7 +2536,7 @@ for
 (
 i
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kdata
 )
@@ -2685,7 +2672,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 rawArray
 )
@@ -2715,7 +2702,7 @@ return
 test_basic_array
 (
 rawArray
-ArrayLength
+NS_ARRAY_LENGTH
 (
 rawArray
 )
@@ -2850,7 +2837,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kNames
 )
@@ -3520,7 +3507,7 @@ array
 AppendElements
 (
 data
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -3592,7 +3579,7 @@ array
 AppendElements
 (
 data
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -3674,7 +3661,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -3724,7 +3711,7 @@ array
 AppendElements
 (
 data
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -3756,7 +3743,7 @@ array3
 AppendElements
 (
 data3
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data3
 )
@@ -3777,7 +3764,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -3812,7 +3799,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data3
 )
@@ -4055,7 +4042,7 @@ ary
 AppendElements
 (
 data
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -4086,7 +4073,7 @@ if
 is_heap
 (
 ary
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -4129,7 +4116,7 @@ if
 is_heap
 (
 ary
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -4171,7 +4158,7 @@ if
 is_heap
 (
 ary
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -4220,7 +4207,7 @@ index
 ;
 index
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -4624,7 +4611,7 @@ arr
 Length
 (
 )
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -4640,7 +4627,7 @@ _i
 ;
 _i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -4745,7 +4732,7 @@ a
 AppendElements
 (
 data1
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data1
 )
@@ -4756,7 +4743,7 @@ b
 AppendElements
 (
 data2
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data2
 )
@@ -4860,7 +4847,7 @@ a
 AppendElements
 (
 data1
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data1
 )
@@ -4878,7 +4865,7 @@ b
 AppendElements
 (
 data2
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data2
 )
@@ -5122,7 +5109,7 @@ a
 AppendElements
 (
 data1
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data1
 )
@@ -5140,7 +5127,7 @@ b
 AppendElements
 (
 data2
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data2
 )
@@ -5247,7 +5234,7 @@ a
 AppendElements
 (
 data1
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data1
 )
@@ -5258,7 +5245,7 @@ b
 AppendElements
 (
 data2
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data2
 )
@@ -5316,7 +5303,7 @@ b
 AppendElements
 (
 data2
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data2
 )
@@ -5540,7 +5527,7 @@ b
 AppendElements
 (
 data2
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data2
 )
@@ -5677,7 +5664,7 @@ a
 AppendElements
 (
 data1
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data1
 )
@@ -5757,7 +5744,7 @@ a
 AppendElements
 (
 data1
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data1
 )
@@ -5914,7 +5901,7 @@ a
 AppendElements
 (
 data1
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data1
 )

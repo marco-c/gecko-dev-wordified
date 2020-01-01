@@ -3556,7 +3556,7 @@ i
 (
 PRInt32
 )
-ArrayLength
+NS_ARRAY_LENGTH
 (
 cndMs
 )
@@ -3592,7 +3592,7 @@ for
 PRInt32
 i
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 cndMs
 )
@@ -3651,7 +3651,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 cndMs
 )
@@ -3689,7 +3689,7 @@ i
 (
 PRInt32
 )
-ArrayLength
+NS_ARRAY_LENGTH
 (
 threads
 )
@@ -3721,7 +3721,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 threads
 )
@@ -3747,7 +3747,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 cndMs
 )

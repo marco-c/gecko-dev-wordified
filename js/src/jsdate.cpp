@@ -552,15 +552,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h
@@ -697,10 +688,6 @@ inl
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 js
@@ -7022,7 +7009,7 @@ for
 (
 k
 =
-ArrayLength
+JS_ARRAY_LENGTH
 (
 wtb
 )

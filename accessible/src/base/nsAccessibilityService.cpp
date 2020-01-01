@@ -431,15 +431,6 @@ BLOCK
 *
 *
 /
-#
-include
-"
-mozilla
-/
-Util
-.
-h
-"
 /
 /
 NOTE
@@ -885,10 +876,6 @@ Element
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -4113,7 +4100,7 @@ if
 aRole
 >
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kRoleNames
 )
@@ -5308,7 +5295,7 @@ nsIAccessibleEvent
 EVENT_LAST_ENTRY
 =
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kEventTypeNames
 )
@@ -5329,7 +5316,7 @@ if
 aEventType
 >
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kEventTypeNames
 )
@@ -5387,7 +5374,7 @@ if
 aRelationType
 >
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kRelationTypeNames
 )

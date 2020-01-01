@@ -468,15 +468,6 @@ unloaded
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -488,10 +479,6 @@ nsStaticAtom
 .
 h
 "
-using
-namespace
-mozilla
-;
 /
 /
 define
@@ -598,7 +585,7 @@ AddRefAtoms
 NS_RegisterStaticAtoms
 (
 GkAtoms_info
-ArrayLength
+NS_ARRAY_LENGTH
 (
 GkAtoms_info
 )

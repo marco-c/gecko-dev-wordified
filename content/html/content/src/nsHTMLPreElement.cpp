@@ -425,15 +425,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLPreElement
 .
 h
@@ -480,10 +471,6 @@ nsRuleData
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 nsHTMLPreElement
 :
@@ -1210,7 +1197,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

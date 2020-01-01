@@ -422,15 +422,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -449,10 +440,6 @@ nsSVGMaskElement
 .
 h
 "
-using
-namespace
-mozilla
-;
 /
 /
 -
@@ -1282,7 +1269,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sLengthInfo
 )
@@ -1305,7 +1292,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sEnumInfo
 )
@@ -1429,7 +1416,7 @@ FindAttributeDependence
 (
 name
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

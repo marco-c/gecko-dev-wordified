@@ -467,15 +467,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h
@@ -640,10 +631,6 @@ inl
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 js
@@ -5568,7 +5555,7 @@ AutoArrayRooter
 tvr
 (
 cx
-ArrayLength
+JS_ARRAY_LENGTH
 (
 localroots
 )
@@ -7487,7 +7474,7 @@ AutoArrayRooter
 tvr
 (
 cx
-ArrayLength
+JS_ARRAY_LENGTH
 (
 tv
 )
@@ -7817,7 +7804,7 @@ AutoArrayRooter
 tvr
 (
 cx
-ArrayLength
+JS_ARRAY_LENGTH
 (
 roots
 )

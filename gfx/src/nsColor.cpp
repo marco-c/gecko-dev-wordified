@@ -425,15 +425,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 plstr
 .
 h
@@ -508,10 +499,6 @@ nsStaticNameTable
 .
 h
 "
-using
-namespace
-mozilla
-;
 /
 /
 define
@@ -594,7 +581,7 @@ GFX_COLOR
 define
 eColorName_COUNT
 (
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kColorNames
 )

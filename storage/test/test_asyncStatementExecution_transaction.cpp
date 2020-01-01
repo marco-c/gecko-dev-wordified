@@ -58,10 +58,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 storage
@@ -683,7 +679,7 @@ check_transaction
 (
 db
 stmts
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )
@@ -803,7 +799,7 @@ check_transaction
 (
 db
 stmts
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )
@@ -926,7 +922,7 @@ check_transaction
 (
 db
 stmts
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )
@@ -1048,7 +1044,7 @@ check_transaction
 (
 db
 stmts
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )
@@ -1177,7 +1173,7 @@ check_transaction
 (
 db
 stmts
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )
@@ -1306,7 +1302,7 @@ check_transaction
 (
 db
 stmts
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )
@@ -1402,7 +1398,7 @@ check_transaction
 (
 db
 stmts
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )
@@ -1498,7 +1494,7 @@ check_transaction
 (
 db
 stmts
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )
@@ -1595,7 +1591,7 @@ check_transaction
 (
 db
 stmts
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )
@@ -1691,7 +1687,7 @@ check_transaction
 (
 db
 stmts
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )
@@ -1883,7 +1879,7 @@ check_transaction
 (
 db
 stmts
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )
@@ -2075,7 +2071,7 @@ check_transaction
 (
 db
 stmts
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )
@@ -2319,7 +2315,7 @@ check_transaction
 (
 db
 stmts
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )
@@ -2563,7 +2559,7 @@ check_transaction
 (
 db
 stmts
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )

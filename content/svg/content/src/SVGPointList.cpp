@@ -423,15 +423,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 SVGPointList
 .
 h
@@ -655,7 +646,7 @@ nsTextFormatter
 snprintf
 (
 buf
-ArrayLength
+NS_ARRAY_LENGTH
 (
 buf
 )

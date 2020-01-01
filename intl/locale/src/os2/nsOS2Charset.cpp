@@ -433,15 +433,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIPlatformCharset
 .
 h
@@ -512,10 +503,6 @@ nsPlatformCharset
 .
 h
 "
-using
-namespace
-mozilla
-;
 static
 const
 char
@@ -644,7 +631,7 @@ nsUConvPropertySearch
 SearchPropertyValue
 (
 kOS2Charsets
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kOS2Charsets
 )

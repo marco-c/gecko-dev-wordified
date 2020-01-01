@@ -425,15 +425,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLTableColElement
 .
 h
@@ -480,10 +471,6 @@ nsRuleData
 .
 h
 "
-using
-namespace
-mozilla
-;
 /
 /
 use
@@ -1488,7 +1475,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

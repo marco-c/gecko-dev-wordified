@@ -464,15 +464,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsMathMLElement
 .
 h
@@ -566,10 +557,6 @@ mozAutoDocUpdate
 .
 h
 "
-using
-namespace
-mozilla
-;
 /
 /
 -
@@ -1300,7 +1287,7 @@ FindAttributeDependence
 (
 aAttribute
 tokenMap
-ArrayLength
+NS_ARRAY_LENGTH
 (
 tokenMap
 )
@@ -1330,7 +1317,7 @@ FindAttributeDependence
 (
 aAttribute
 mstyleMap
-ArrayLength
+NS_ARRAY_LENGTH
 (
 mstyleMap
 )
@@ -1550,7 +1537,7 @@ FindAttributeDependence
 (
 aAttribute
 commonPresMap
-ArrayLength
+NS_ARRAY_LENGTH
 (
 commonPresMap
 )
@@ -3020,7 +3007,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sizes
 )

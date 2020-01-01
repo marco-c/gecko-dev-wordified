@@ -443,15 +443,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
@@ -608,10 +599,6 @@ UNLOCK_DOC
 (
 doc
 )
-using
-namespace
-mozilla
-;
 class
 OffsetEntry
 {
@@ -883,7 +870,7 @@ TS_ATOM
 NS_RegisterStaticAtoms
 (
 ts_atoms
-ArrayLength
+NS_ARRAY_LENGTH
 (
 ts_atoms
 )

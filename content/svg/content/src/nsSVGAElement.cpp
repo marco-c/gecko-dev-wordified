@@ -436,15 +436,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsSVGAElement
 .
 h
@@ -505,10 +496,6 @@ nsContentUtils
 .
 h
 "
-using
-namespace
-mozilla
-;
 nsSVGElement
 :
 :
@@ -1410,7 +1397,7 @@ FindAttributeDependence
 (
 name
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )
@@ -2363,7 +2350,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sStringInfo
 )

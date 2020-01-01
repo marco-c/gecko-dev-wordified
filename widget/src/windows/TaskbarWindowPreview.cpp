@@ -462,15 +462,6 @@ MOZ_WINSDK_TARGETVER
 MOZ_NTDDI_WIN7
 #
 include
-"
-mozilla
-/
-Util
-.
-h
-"
-#
-include
 <
 nsITaskbarPreviewController
 .
@@ -1158,7 +1149,7 @@ NS_ENSURE_ARG_RANGE
 (
 aState
 0
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sNativeStates
 )

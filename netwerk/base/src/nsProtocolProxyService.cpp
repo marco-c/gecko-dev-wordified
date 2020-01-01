@@ -455,15 +455,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsProtocolProxyService
 .
 h
@@ -693,10 +684,6 @@ h
 -
 -
 -
-using
-namespace
-mozilla
-;
 #
 include
 "
@@ -6056,7 +6043,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 types
 )

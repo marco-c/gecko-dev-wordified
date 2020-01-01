@@ -445,15 +445,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsWindow
 .
 h
@@ -472,10 +463,6 @@ nsGUIEvent
 .
 h
 "
-using
-namespace
-mozilla
-;
 struct
 nsKeyConverter
 {
@@ -1501,7 +1488,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 nsKeycodes
 )
@@ -1755,7 +1742,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 nsKeycodes
 )

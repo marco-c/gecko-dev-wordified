@@ -506,15 +506,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 mozIStorageService
 .
 h
@@ -730,10 +721,6 @@ h
 "
 #
 endif
-using
-namespace
-mozilla
-;
 #
 define
 DOWNLOAD_MANAGER_BUNDLE
@@ -10382,7 +10369,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 states
 )
@@ -10598,7 +10585,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 states
 )
