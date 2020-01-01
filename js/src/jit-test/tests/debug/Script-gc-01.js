@@ -8,10 +8,6 @@ test
 debug
 /
 /
-The
-heldScripts
-table
-keeps
 Debug
 .
 Script
@@ -19,6 +15,7 @@ instances
 with
 live
 referents
+stay
 alive
 .
 var
