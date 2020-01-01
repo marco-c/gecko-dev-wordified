@@ -8183,10 +8183,6 @@ JS_BEGIN_MACRO
 DEF_VPNAME
 ;
 \
-unsigned
-n
-;
-\
 JSStackFrame
 *
 currentFrame
@@ -8211,12 +8207,14 @@ currentFrame
 \
 for
 (
+unsigned
 n
 =
 0
 ;
 n
-<
+!
+=
 callDepth
 ;
 +
