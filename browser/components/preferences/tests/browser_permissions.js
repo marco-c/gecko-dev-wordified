@@ -185,6 +185,11 @@ plugins
 "
 :
 PERM_ALLOW
+"
+fullscreen
+"
+:
+PERM_UNKNOWN
 }
 ;
 const
@@ -196,6 +201,9 @@ geo
 "
 "
 indexedDB
+"
+"
+fullscreen
 "
 ]
 ;
@@ -211,7 +219,7 @@ interface
 const
 TEST_PERMS_COUNT
 =
-6
+7
 ;
 function
 test
