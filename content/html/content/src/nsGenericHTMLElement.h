@@ -521,9 +521,6 @@ class
 nsIStyleRule
 ;
 class
-nsISupportsArray
-;
-class
 nsChildContentList
 ;
 class

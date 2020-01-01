@@ -648,13 +648,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIParserService
 .
 h

@@ -484,13 +484,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsISecurityCheckedComponent
 .
 h

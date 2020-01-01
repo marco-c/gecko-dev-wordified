@@ -503,9 +503,6 @@ class
 nsIContent
 ;
 class
-nsISupportsArray
-;
-class
 nsIEventListenerManager
 ;
 class

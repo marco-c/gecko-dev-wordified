@@ -457,13 +457,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsINameSpaceManager
 .
 h
