@@ -2667,7 +2667,7 @@ ENABLE_TRACER
 JS_END_MACRO
 extern
 bool
-js_LoopEdge
+js_MonitorBranch
 (
 JSContext
 *
