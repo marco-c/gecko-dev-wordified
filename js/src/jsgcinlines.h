@@ -539,6 +539,7 @@ JSAtom
 :
 isUnitString
 (
+const
 void
 *
 ptr
@@ -620,6 +621,7 @@ JSAtom
 :
 isLength2String
 (
+const
 void
 *
 ptr
@@ -703,6 +705,7 @@ JSAtom
 :
 isHundredString
 (
+const
 void
 *
 ptr
@@ -784,6 +787,7 @@ JSAtom
 :
 isStatic
 (
+const
 void
 *
 ptr
@@ -818,6 +822,7 @@ inline
 uint32
 GetGCThingTraceKind
 (
+const
 void
 *
 thing
@@ -841,12 +846,14 @@ thing
 return
 JSTRACE_STRING
 ;
+const
 Cell
 *
 cell
 =
 reinterpret_cast
 <
+const
 Cell
 *
 >
@@ -1778,6 +1785,10 @@ trc
 callback
 (
 trc
+(
+void
+*
+)
 thing
 kind
 )

@@ -3669,6 +3669,7 @@ inline
 bool
 isUnitString
 (
+const
 void
 *
 ptr
@@ -3679,6 +3680,7 @@ inline
 bool
 isLength2String
 (
+const
 void
 *
 ptr
@@ -3689,6 +3691,7 @@ inline
 bool
 isHundredString
 (
+const
 void
 *
 ptr
@@ -3819,6 +3822,7 @@ inline
 bool
 isStatic
 (
+const
 void
 *
 ptr

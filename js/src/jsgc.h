@@ -1010,6 +1010,7 @@ T
 *
 getAlignedThing
 (
+const
 void
 *
 thing
@@ -2654,6 +2655,7 @@ T
 :
 getAlignedThing
 (
+const
 void
 *
 thing
@@ -3184,6 +3186,7 @@ inline
 uint32
 GetGCThingTraceKind
 (
+const
 void
 *
 thing
@@ -4491,6 +4494,7 @@ IsAboutToBeFinalized
 JSContext
 *
 cx
+const
 void
 *
 thing
@@ -5653,6 +5657,7 @@ newColor
 void
 delayMarkingChildren
 (
+const
 void
 *
 thing
