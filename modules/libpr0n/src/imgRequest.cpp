@@ -1306,9 +1306,9 @@ org
 /
 image
 /
-container
+rasterimage
 ;
-3
+1
 "
 )
 ;
@@ -6690,7 +6690,7 @@ inStr
 >
 ReadSegments
 (
-imgContainer
+RasterImage
 :
 :
 WriteToContainer

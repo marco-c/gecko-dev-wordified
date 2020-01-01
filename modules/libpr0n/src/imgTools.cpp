@@ -549,6 +549,13 @@ imgContainer
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+imagelib
+;
 /
 *
 =
@@ -663,7 +670,7 @@ aContainer
 aContainer
 =
 new
-imgContainer
+RasterImage
 (
 )
 ;
@@ -850,7 +857,7 @@ inStream
 >
 ReadSegments
 (
-imgContainer
+RasterImage
 :
 :
 WriteToContainer
