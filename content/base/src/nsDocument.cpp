@@ -40445,6 +40445,8 @@ IndexedDatabaseManager
 *
 idbManager
 =
+win
+?
 indexedDB
 :
 :
@@ -40454,6 +40456,8 @@ IndexedDatabaseManager
 Get
 (
 )
+:
+nullptr
 ;
 if
 (
