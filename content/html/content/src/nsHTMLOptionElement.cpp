@@ -777,6 +777,9 @@ nsIJSNativeInitializer
 NS_IMETHOD
 Initialize
 (
+nsISupports
+*
+aOwner
 JSContext
 *
 aContext
@@ -2476,6 +2479,9 @@ nsHTMLOptionElement
 :
 Initialize
 (
+nsISupports
+*
+aOwner
 JSContext
 *
 aContext

@@ -5598,6 +5598,9 @@ txMozillaXSLTProcessor
 :
 Initialize
 (
+nsISupports
+*
+aOwner
 JSContext
 *
 cx

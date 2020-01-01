@@ -564,6 +564,9 @@ nsIJSNativeInitializer
 NS_IMETHOD
 Initialize
 (
+nsISupports
+*
+aOwner
 JSContext
 *
 cx

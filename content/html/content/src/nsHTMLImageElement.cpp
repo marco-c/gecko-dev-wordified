@@ -762,6 +762,9 @@ nsIJSNativeInitializer
 NS_IMETHOD
 Initialize
 (
+nsISupports
+*
+aOwner
 JSContext
 *
 aContext
@@ -3009,6 +3012,9 @@ nsHTMLImageElement
 :
 Initialize
 (
+nsISupports
+*
+aOwner
 JSContext
 *
 aContext

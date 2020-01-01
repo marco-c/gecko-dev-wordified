@@ -849,6 +849,9 @@ nsIJSNativeInitializer
 NS_IMETHODIMP
 Initialize
 (
+nsISupports
+*
+aOwner
 JSContext
 *
 cx
