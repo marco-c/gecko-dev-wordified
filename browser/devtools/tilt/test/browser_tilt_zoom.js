@@ -111,7 +111,9 @@ test
 (
 )
 {
-setZoom
+TiltUtils
+.
+setDocumentZoom
 (
 Math
 .
