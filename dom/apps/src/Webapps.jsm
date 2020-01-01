@@ -3518,6 +3518,7 @@ install_origin
 manifestURL
 manifest
 receipts
+categories
 )
 /
 /
@@ -3589,6 +3590,11 @@ receipts
 aData
 .
 receipts
+categories
+:
+aData
+.
+categories
 }
 }
 let
