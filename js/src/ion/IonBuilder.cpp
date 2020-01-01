@@ -41266,16 +41266,6 @@ return
 false
 ;
 }
-/
-/
-Determine
-whether
-a
-write
-barrier
-is
-required
-.
 if
 (
 oracle
