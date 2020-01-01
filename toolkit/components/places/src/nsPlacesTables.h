@@ -537,6 +537,11 @@ INTEGER
 "
 \
 "
+guid
+TEXT
+"
+\
+"
 )
 "
 \
