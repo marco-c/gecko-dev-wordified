@@ -647,7 +647,7 @@ describes
 the
 type
 of
-elment
+element
 /
 /
 we

@@ -363,7 +363,7 @@ of
 free
 media
 structure
-elments
+elements
 for
 media
 structure
@@ -1783,7 +1783,7 @@ chunk
 into
 multiple
 free
-elments
+elements
 and
 link
 them
