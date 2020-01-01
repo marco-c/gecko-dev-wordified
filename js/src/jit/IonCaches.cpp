@@ -129,6 +129,13 @@ h
 #
 include
 "
+jsproxy
+.
+h
+"
+#
+include
+"
 jit
 /
 CodeGenerator
