@@ -42330,8 +42330,6 @@ script
 code
 )
 ;
-/
-/
 AbortRecording
 (
 cx
@@ -42348,7 +42346,7 @@ recursion
 )
 ;
 return
-ARECORD_CONTINUE
+ARECORD_ABORTED
 ;
 }
 f
