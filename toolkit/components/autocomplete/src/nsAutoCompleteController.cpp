@@ -7524,9 +7524,11 @@ nsIAutoCompleteResult
 result
 =
 mResults
-[
+.
+SafeObjectAt
+(
 aSearchIndex
-]
+)
 ;
 NS_ENSURE_TRUE
 (
@@ -8302,9 +8304,11 @@ nsIAutoCompleteResult
 result
 =
 mResults
-[
+.
+SafeObjectAt
+(
 i
-]
+)
 ;
 if
 (
