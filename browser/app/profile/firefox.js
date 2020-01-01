@@ -8188,7 +8188,7 @@ in
 bytes
 #
 ifdef
-MOZ_WIDGET_GTK2
+UNIX_BUT_NOT_MAC
 pref
 (
 "
