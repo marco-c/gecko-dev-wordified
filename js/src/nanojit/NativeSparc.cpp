@@ -4401,7 +4401,7 @@ op
 =
 LIR_ult
 )
-MOVEI
+MOVCSI
 (
 1
 1
