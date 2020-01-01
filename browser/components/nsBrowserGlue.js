@@ -2832,7 +2832,7 @@ modules
 /
 wintaskbar
 /
-winJumpLists
+jumpLists
 .
 jsm
 "
