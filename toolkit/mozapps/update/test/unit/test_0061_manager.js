@@ -498,6 +498,7 @@ getLocalUpdatesXMLString
 false
 )
 ;
+var
 patches
 =
 getLocalPatchString
@@ -511,6 +512,7 @@ null
 STATE_DOWNLOADING
 )
 ;
+var
 updates
 =
 getLocalUpdateString
