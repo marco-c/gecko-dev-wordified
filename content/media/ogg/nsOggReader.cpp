@@ -5873,6 +5873,15 @@ if
 (
 !
 aKeyframeSkip
+&
+&
+data
+-
+>
+mEndTime
+>
+=
+aTimeThreshold
 )
 {
 mVideoQueue
