@@ -1331,7 +1331,7 @@ op
 .
 *
 /
-JSTraceOp
+TraceOp
 op
 =
 obj
@@ -1439,7 +1439,7 @@ parent
 "
 )
 ;
-JSTraceOp
+TraceOp
 op
 =
 obj

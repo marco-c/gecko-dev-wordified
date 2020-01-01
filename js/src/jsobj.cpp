@@ -8625,7 +8625,7 @@ js_HasOwnPropertyHelper
 JSContext
 *
 cx
-JSLookupPropOp
+LookupPropOp
 lookup
 uintN
 argc
@@ -8794,7 +8794,7 @@ js_HasOwnProperty
 JSContext
 *
 cx
-JSLookupPropOp
+LookupPropOp
 lookup
 JSObject
 *
