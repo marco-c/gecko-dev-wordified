@@ -1610,8 +1610,15 @@ newlines
 }
 #
 endif
+/
+*
 static
+*
+/
 uint32_t
+nsContentEventHandler
+:
+:
 GetNativeTextLength
 (
 nsIContent
@@ -1619,8 +1626,6 @@ nsIContent
 aContent
 uint32_t
 aMaxLength
-=
-UINT32_MAX
 )
 {
 if
