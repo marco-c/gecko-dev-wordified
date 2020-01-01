@@ -3879,13 +3879,6 @@ nsnull
 &
 aPreFilterRect
 )
--
-aFrame
--
->
-GetPosition
-(
-)
 ;
 }
 bool
