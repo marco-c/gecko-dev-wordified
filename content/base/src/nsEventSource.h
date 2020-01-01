@@ -1124,9 +1124,6 @@ mErrorLoadOnRedirect
 bool
 mGoingToDispatchAllMessages
 ;
-bool
-mWithCredentials
-;
 /
 /
 used
