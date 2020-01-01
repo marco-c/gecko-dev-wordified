@@ -2168,13 +2168,6 @@ task
 summary
 )
 ;
-if
-(
-task
-.
-showMoreInfoLink
-)
-{
 this
 .
 addXulLink
@@ -2198,7 +2191,6 @@ defaultUrl
 openInTab
 )
 ;
-}
 /
 /
 Create
