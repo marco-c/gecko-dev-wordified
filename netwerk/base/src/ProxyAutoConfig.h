@@ -153,6 +153,17 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+net
+/
+DNS
+.
+h
+"
 namespace
 mozilla
 {
@@ -277,7 +288,7 @@ const
 nsCString
 &
 aHostName
-PRNetAddr
+NetAddr
 *
 aNetAddr
 unsigned
@@ -617,7 +628,7 @@ bool
 SrcAddress
 (
 const
-PRNetAddr
+NetAddr
 *
 remoteAddress
 nsCString
