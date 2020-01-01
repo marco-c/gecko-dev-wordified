@@ -5336,9 +5336,7 @@ gBrowser
 .
 getBrowserForDocument
 (
-this
-.
-_window
+notifyWin
 .
 top
 .
@@ -6389,9 +6387,7 @@ gBrowser
 .
 getBrowserForDocument
 (
-this
-.
-_window
+notifyWin
 .
 top
 .
@@ -7379,7 +7375,7 @@ if
 (
 chromeDoc
 .
-hasAttribute
+getAttribute
 (
 "
 chromehidden
