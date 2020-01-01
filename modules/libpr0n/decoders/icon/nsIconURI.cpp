@@ -1756,7 +1756,7 @@ atoms
 >
 GetAtomUTF8
 (
-sizeString
+stateString
 .
 get
 (
