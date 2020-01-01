@@ -2316,7 +2316,7 @@ to
 add
 should
 be
-eithr
+either
 NS_FRAME_IS_DIRTY
 or
 *
