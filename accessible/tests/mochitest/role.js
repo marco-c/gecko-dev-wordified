@@ -447,6 +447,13 @@ nsIAccessibleRole
 ROLE_RADIOBUTTON
 ;
 const
+ROLE_RICH_OPTION
+=
+nsIAccessibleRole
+.
+ROLE_RICH_OPTION
+;
+const
 ROLE_ROW
 =
 nsIAccessibleRole
