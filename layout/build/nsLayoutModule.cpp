@@ -6314,6 +6314,8 @@ org
 /
 content
 /
+2dthebes
+-
 canvas
 -
 rendering
@@ -6321,10 +6323,6 @@ rendering
 context
 ;
 1
-?
-id
-=
-2dthebes
 "
 &
 kNS_CANVASRENDERINGCONTEXT2DTHEBES_CID
