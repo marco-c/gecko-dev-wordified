@@ -1385,6 +1385,8 @@ float
 outputChannels
 [
 CUSTOM_CHANNEL_LAYOUTS
++
+1
 ]
 ;
 memset
@@ -1398,8 +1400,6 @@ float
 *
 (
 CUSTOM_CHANNEL_LAYOUTS
--
-1
 )
 )
 ;
