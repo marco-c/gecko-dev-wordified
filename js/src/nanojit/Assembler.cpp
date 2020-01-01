@@ -4324,7 +4324,7 @@ NIns
 *
 was
 =
-asm_adjustBranch
+nPatchBranch
 (
 (
 NIns
@@ -4374,6 +4374,11 @@ was
 )
 ;
 )
+(
+void
+)
+was
+;
 }
 void
 Assembler
@@ -8090,6 +8095,7 @@ label
 -
 >
 addr
+false
 )
 ;
 }
@@ -8173,6 +8179,7 @@ op
 LIR_jf
 cond
 0
+false
 )
 ;
 _patches
@@ -8439,6 +8446,7 @@ op
 LIR_xf
 cond
 exit
+false
 )
 ;
 break
