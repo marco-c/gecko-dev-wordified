@@ -153,6 +153,13 @@ ImageTypes
 h
 "
 #
+include
+"
+nsTArray
+.
+h
+"
+#
 ifdef
 XP_WIN
 struct
