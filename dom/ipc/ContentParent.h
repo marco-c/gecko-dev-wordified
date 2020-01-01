@@ -1422,12 +1422,6 @@ mRunToCompletionDepth
 bool
 mShouldCallUnblockChild
 ;
-nsCOMPtr
-<
-nsIThreadObserver
->
-mOldObserver
-;
 /
 /
 This
