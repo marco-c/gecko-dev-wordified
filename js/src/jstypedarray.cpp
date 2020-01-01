@@ -16267,13 +16267,6 @@ Value
 vp
 )
 {
-typedef
-TypedArrayTemplate
-<
-T
->
-ArrayType
-;
 CallArgs
 args
 =
