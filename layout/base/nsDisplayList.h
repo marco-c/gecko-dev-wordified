@@ -16611,8 +16611,6 @@ nsIFrame
 *
 *
 aOutAncestor
-bool
-aRecursing
 )
 ;
 nsDisplayWrapList
