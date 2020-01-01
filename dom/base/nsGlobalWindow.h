@@ -3191,6 +3191,11 @@ PRUnichar
 aData
 )
 ;
+void
+UnblockScriptedClosing
+(
+)
+;
 static
 void
 Init
@@ -3216,15 +3221,6 @@ static
 bool
 IsCallerChrome
 (
-)
-;
-static
-void
-CloseBlockScriptTerminationFunc
-(
-nsISupports
-*
-aRef
 )
 ;
 static
