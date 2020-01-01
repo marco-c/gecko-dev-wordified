@@ -20911,6 +20911,7 @@ GetArrayValue
 )
 aContext
 aPresContext
+aInherited
 )
 ;
 result
