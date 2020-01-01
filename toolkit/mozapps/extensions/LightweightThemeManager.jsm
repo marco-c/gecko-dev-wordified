@@ -500,7 +500,7 @@ _themeIDBeingEnabled
 null
 ;
 var
-_themeIDBeingDisbled
+_themeIDBeingDisabled
 =
 null
 ;
@@ -1814,7 +1814,7 @@ id
 )
 return
 ;
-_themeIDBeingDisbled
+_themeIDBeingDisabled
 =
 current
 .
@@ -1888,7 +1888,7 @@ wrapper
 )
 ;
 }
-_themeIDBeingDisbled
+_themeIDBeingDisabled
 =
 null
 ;
@@ -2777,7 +2777,7 @@ false
 ;
 if
 (
-_themeIDBeingDisbled
+_themeIDBeingDisabled
 =
 =
 aTheme
