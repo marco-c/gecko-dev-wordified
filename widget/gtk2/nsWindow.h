@@ -1526,7 +1526,8 @@ nscoord
 aY
 )
 ;
-virtual
+private
+:
 void
 NativeResize
 (
@@ -1538,7 +1539,6 @@ bool
 aRepaint
 )
 ;
-virtual
 void
 NativeResize
 (
@@ -1554,7 +1554,6 @@ bool
 aRepaint
 )
 ;
-virtual
 void
 NativeShow
 (
@@ -1594,6 +1593,8 @@ ReleaseGrabs
 void
 )
 ;
+public
+:
 enum
 PluginType
 {
