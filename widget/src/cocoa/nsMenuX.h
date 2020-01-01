@@ -692,9 +692,6 @@ aAccessKey
 nsIChangeManager
 *
 aManager
-nsIDocShell
-*
-aShell
 nsIContent
 *
 aNode
@@ -749,11 +746,6 @@ AddItem
 nsISupports
 *
 aText
-)
-;
-NS_IMETHOD
-AddSeparator
-(
 )
 ;
 NS_IMETHOD
@@ -1023,14 +1015,6 @@ LoadSubMenu
 nsIContent
 *
 inMenuContent
-)
-;
-void
-LoadSeparator
-(
-nsIContent
-*
-inSeparatorContent
 )
 ;
 NSMenu
