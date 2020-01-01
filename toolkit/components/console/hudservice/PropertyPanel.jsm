@@ -3215,6 +3215,15 @@ accesskey
 |
 "
 "
+class
+:
+button
+.
+class
+|
+|
+"
+"
 }
 )
 ;
