@@ -4748,6 +4748,14 @@ Ci
 nsIDOMWindowUtils
 )
 ;
+if
+(
+json
+.
+keepviewport
+)
+break
+;
 cwu
 .
 setDisplayPortForElement

@@ -600,6 +600,11 @@ kTouchTimeout
 300
 ;
 const
+kSetInactiveStateTimeout
+=
+100
+;
+const
 kDefaultMetadata
 =
 {
@@ -19753,7 +19758,11 @@ active
 activeTabState
 ;
 }
+activeTabState
+?
 0
+:
+kSetInactiveStateTimeout
 )
 ;
 }
