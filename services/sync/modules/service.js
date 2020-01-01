@@ -4879,8 +4879,6 @@ score
 =
 engine
 .
-_tracker
-.
 score
 ;
 if
@@ -5271,14 +5269,6 @@ sync
 self
 .
 cb
-)
-;
-engine
-.
-_tracker
-.
-resetScore
-(
 )
 ;
 }
