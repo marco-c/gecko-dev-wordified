@@ -1531,7 +1531,7 @@ if
 !
 parentTime
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -1603,7 +1603,7 @@ if
 !
 containerTime
 .
-IsResolved
+IsDefinite
 (
 )
 )

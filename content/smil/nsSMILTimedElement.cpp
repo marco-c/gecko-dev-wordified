@@ -6499,7 +6499,7 @@ if
 (
 duration
 .
-IsResolved
+IsDefinite
 (
 )
 &
@@ -6610,7 +6610,7 @@ NS_ASSERTION
 (
 duration
 .
-IsResolved
+IsDefinite
 (
 )
 |
@@ -6719,7 +6719,7 @@ rv
 !
 duration
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -6850,7 +6850,7 @@ rv
 !
 duration
 .
-IsResolved
+IsDefinite
 (
 )
 &
@@ -6878,7 +6878,7 @@ if
 (
 duration
 .
-IsResolved
+IsDefinite
 (
 )
 &
@@ -7127,7 +7127,7 @@ rv
 !
 duration
 .
-IsResolved
+IsDefinite
 (
 )
 &
@@ -10392,7 +10392,7 @@ Time
 (
 )
 .
-IsResolved
+IsDefinite
 (
 )
 "
@@ -10762,7 +10762,7 @@ Time
 (
 )
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -10806,7 +10806,7 @@ Time
 (
 )
 .
-IsResolved
+IsDefinite
 (
 )
 &
@@ -11324,7 +11324,7 @@ Time
 (
 )
 .
-IsResolved
+IsDefinite
 (
 )
 &
@@ -11689,7 +11689,7 @@ NS_ABORT_IF_FALSE
 (
 mSimpleDur
 .
-IsResolved
+IsDefinite
 (
 )
 |
@@ -11712,7 +11712,7 @@ NS_ABORT_IF_FALSE
 (
 aBegin
 .
-IsResolved
+IsDefinite
 (
 )
 "
@@ -11753,7 +11753,7 @@ if
 (
 aEnd
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -11777,7 +11777,7 @@ if
 (
 result
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -11820,7 +11820,7 @@ if
 (
 result
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -11875,7 +11875,7 @@ IsDefinite
 &
 mRepeatDur
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -11884,7 +11884,7 @@ if
 (
 mSimpleDur
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -11942,7 +11942,7 @@ IsDefinite
 &
 mSimpleDur
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -11977,7 +11977,7 @@ if
 (
 mRepeatDur
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -12033,7 +12033,7 @@ if
 !
 aDuration
 .
-IsResolved
+IsDefinite
 (
 )
 &
@@ -12133,7 +12133,7 @@ NS_ASSERTION
 (
 mSimpleDur
 .
-IsResolved
+IsDefinite
 (
 )
 |
@@ -13253,7 +13253,7 @@ Time
 (
 )
 .
-IsResolved
+IsDefinite
 (
 )
 &
@@ -13868,7 +13868,7 @@ SEEK_NOT_SEEKING
 &
 mSimpleDur
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -13986,7 +13986,7 @@ if
 (
 nextMilestone
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -14450,7 +14450,7 @@ Time
 (
 )
 .
-IsResolved
+IsDefinite
 (
 )
 ;

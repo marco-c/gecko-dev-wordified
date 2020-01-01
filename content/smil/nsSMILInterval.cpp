@@ -837,7 +837,7 @@ Time
 (
 )
 .
-IsResolved
+IsDefinite
 (
 )
 "

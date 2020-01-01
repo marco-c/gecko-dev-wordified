@@ -1542,7 +1542,7 @@ if
 !
 startTime
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -1696,7 +1696,7 @@ if
 !
 simpleDur
 .
-IsResolved
+IsDefinite
 (
 )
 )

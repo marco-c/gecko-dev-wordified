@@ -573,7 +573,7 @@ if
 mState
 =
 =
-STATE_RESOLVED
+STATE_DEFINITE
 )
 {
 result
@@ -584,7 +584,7 @@ aOther
 mState
 =
 =
-STATE_RESOLVED
+STATE_DEFINITE
 )
 ?
 Cmp
@@ -615,7 +615,7 @@ aOther
 mState
 =
 =
-STATE_RESOLVED
+STATE_DEFINITE
 )
 result
 =

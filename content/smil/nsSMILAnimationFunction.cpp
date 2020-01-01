@@ -1787,7 +1787,7 @@ NS_ABORT_IF_FALSE
 (
 mSimpleDuration
 .
-IsResolved
+IsDefinite
 (
 )
 |
@@ -2820,7 +2820,7 @@ if
 (
 mSimpleDuration
 .
-IsResolved
+IsDefinite
 (
 )
 )
