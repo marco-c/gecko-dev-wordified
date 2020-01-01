@@ -124,6 +124,12 @@ isDebugBuild
 %
 s
 ;
+var
+Android
+=
+%
+s
+;
 '
 %
 (
@@ -146,6 +152,15 @@ isdebug
 lower
 (
 )
+            
+self
+.
+os
+=
+=
+"
+Android
+"
 )
     
 classmethod
