@@ -13223,7 +13223,7 @@ toolbar
 .
 enabled
 "
-true
+false
 )
 ;
 pref
