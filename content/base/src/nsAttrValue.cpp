@@ -5293,7 +5293,12 @@ SetIntValueAndType
 (
 originalVal
 eInteger
+strict
+?
 nsnull
+:
+&
+aString
 )
 ;
 return
@@ -5356,7 +5361,12 @@ SetIntValueAndType
 (
 originalVal
 eInteger
+strict
+?
 nsnull
+:
+&
+aString
 )
 ;
 return
