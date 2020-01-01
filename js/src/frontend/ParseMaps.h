@@ -178,6 +178,10 @@ h
 class
 JSAtom
 ;
+typedef
+uintptr_t
+jsatomid
+;
 namespace
 js
 {
