@@ -44236,7 +44236,7 @@ nsIFrameDebug
 :
 RootFrameList
 (
-GetPresContext
+PresContext
 (
 )
 stdout
