@@ -144,6 +144,9 @@ class
 OutOfLineTruncate
 ;
 class
+OutOfLineTableSwitch
+;
+class
 CodeGeneratorX86Shared
 :
 public
@@ -868,6 +871,14 @@ bool
 visitOutOfLineTruncate
 (
 OutOfLineTruncate
+*
+ool
+)
+;
+bool
+visitOutOfLineTableSwitch
+(
+OutOfLineTableSwitch
 *
 ool
 )

@@ -144,6 +144,9 @@ class
 OutOfLineBailout
 ;
 class
+OutOfLineTableSwitch
+;
+class
 CodeGeneratorARM
 :
 public
@@ -820,6 +823,14 @@ bool
 visitOutOfLineBailout
 (
 OutOfLineBailout
+*
+ool
+)
+;
+bool
+visitOutOfLineTableSwitch
+(
+OutOfLineTableSwitch
 *
 ool
 )
