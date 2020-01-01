@@ -115,13 +115,6 @@ nsGenericHTMLElement
 .
 h
 "
-#
-include
-"
-nsIDOMHTMLFontElement
-.
-h
-"
 namespace
 mozilla
 {
@@ -135,7 +128,7 @@ MOZ_FINAL
 public
 nsGenericHTMLElement
 public
-nsIDOMHTMLFontElement
+nsIDOMHTMLElement
 {
 public
 :
@@ -176,10 +169,6 @@ NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 /
 nsIDOMHTMLElement
 NS_FORWARD_NSIDOMHTMLELEMENT_TO_GENERIC
-/
-/
-nsIDOMHTMLFontElement
-NS_DECL_NSIDOMHTMLFONTELEMENT
 void
 GetColor
 (
