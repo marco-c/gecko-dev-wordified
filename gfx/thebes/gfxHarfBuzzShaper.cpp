@@ -1068,7 +1068,11 @@ variation_selector
 )
 ;
 return
-true
+*
+glyph
+!
+=
+0
 ;
 }
 struct
