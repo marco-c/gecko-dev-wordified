@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-nsGrowlAlertsService
+nsMacAlertsService
 .
 h
 "
@@ -116,7 +116,7 @@ h
 "
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
-nsGrowlAlertsService
+nsMacAlertsService
 Init
 )
 NS_DEFINE_NAMED_CID
@@ -143,7 +143,7 @@ kAlertsCIDs
 kNS_SYSTEMALERTSSERVICE_CID
 false
 NULL
-nsGrowlAlertsServiceConstructor
+nsMacAlertsServiceConstructor
 }
 {
 NULL
