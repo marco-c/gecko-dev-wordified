@@ -5079,6 +5079,7 @@ src
 =
 _pixman_image_get_solid
 (
+imp
 src_image
 dst_image
 -
@@ -5364,6 +5365,7 @@ src
 =
 _pixman_image_get_solid
 (
+imp
 src_image
 dst_image
 -
@@ -5734,6 +5736,7 @@ src
 =
 _pixman_image_get_solid
 (
+imp
 src_image
 dst_image
 -
@@ -6185,6 +6188,7 @@ mask
 =
 _pixman_image_get_solid
 (
+imp
 mask_image
 dst_image
 -
@@ -6577,6 +6581,7 @@ mask
 =
 _pixman_image_get_solid
 (
+imp
 mask_image
 dst_image
 -
@@ -8174,6 +8179,7 @@ src
 =
 _pixman_image_get_solid
 (
+imp
 src_image
 dst_image
 -
@@ -8917,6 +8923,7 @@ n
 :
 "
 =
+&
 y
 "
 (
@@ -8924,6 +8931,7 @@ v1
 )
 "
 =
+&
 y
 "
 (
@@ -8931,6 +8939,7 @@ v2
 )
 "
 =
+&
 y
 "
 (
@@ -8938,6 +8947,7 @@ v3
 )
 "
 =
+&
 y
 "
 (
@@ -8945,6 +8955,7 @@ v4
 )
 "
 =
+&
 y
 "
 (
@@ -8952,6 +8963,7 @@ v5
 )
 "
 =
+&
 y
 "
 (
@@ -9577,6 +9589,7 @@ src
 =
 _pixman_image_get_solid
 (
+imp
 src_image
 dst_image
 -
@@ -10092,6 +10105,7 @@ src
 =
 _pixman_image_get_solid
 (
+imp
 src_image
 dst_image
 -
@@ -11763,6 +11777,7 @@ src
 =
 _pixman_image_get_solid
 (
+imp
 src_image
 dst_image
 -
@@ -12315,6 +12330,7 @@ src
 =
 _pixman_image_get_solid
 (
+imp
 src_image
 dst_image
 -
@@ -12896,6 +12912,7 @@ src
 =
 _pixman_image_get_solid
 (
+imp
 src_image
 dst_image
 -
@@ -15683,24 +15700,18 @@ pixman_implementation_t
 *
 _pixman_implementation_create_mmx
 (
-void
-)
-{
 pixman_implementation_t
 *
-general
-=
-_pixman_implementation_create_fast_path
-(
+fallback
 )
-;
+{
 pixman_implementation_t
 *
 imp
 =
 _pixman_implementation_create
 (
-general
+fallback
 mmx_fast_paths
 )
 ;
