@@ -14261,16 +14261,6 @@ NS_LITERAL_STRING
 ;
 /
 /
-TODO
-:
-no
-opentype
-feature
-support
-here
-yet
-/
-/
 Note
 that
 a
