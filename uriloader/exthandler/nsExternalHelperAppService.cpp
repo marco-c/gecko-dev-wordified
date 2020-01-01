@@ -19656,6 +19656,11 @@ nsACString
 aContentType
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aFile
+)
+;
 nsresult
 rv
 ;
