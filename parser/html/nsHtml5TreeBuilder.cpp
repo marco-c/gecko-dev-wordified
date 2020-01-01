@@ -7311,6 +7311,14 @@ starttagloop_end
 }
 }
 }
+case
+NS_HTML5TREE_BUILDER_TEXT
+:
+{
+goto
+starttagloop_end
+;
+}
 }
 }
 }

@@ -15878,6 +15878,10 @@ seenDigits
 =
 PR_FALSE
 ;
+endTag
+=
+PR_FALSE
+;
 shouldSuspend
 =
 PR_FALSE
@@ -16156,6 +16160,13 @@ other
 -
 >
 seenDigits
+;
+endTag
+=
+other
+-
+>
+endTag
 ;
 shouldSuspend
 =
