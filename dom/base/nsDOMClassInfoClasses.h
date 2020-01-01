@@ -2059,10 +2059,6 @@ WebGLExtensionLoseContext
 )
 DOMCI_CLASS
 (
-WebGLExtensionCompressedTextureS3TC
-)
-DOMCI_CLASS
-(
 PaintRequest
 )
 DOMCI_CLASS
