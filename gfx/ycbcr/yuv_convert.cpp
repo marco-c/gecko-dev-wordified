@@ -551,6 +551,9 @@ x_shift
 )
 ;
 }
+#
+ifdef
+ARCH_CPU_X86_FAMILY
 /
 /
 MMX
@@ -569,6 +572,8 @@ EMMS
 (
 )
 ;
+#
+endif
 }
 }
 /
