@@ -691,6 +691,13 @@ nsNodeUtils
 .
 h
 "
+#
+include
+"
+mozAutoDocUpdate
+.
+h
+"
 /
 /
 masks

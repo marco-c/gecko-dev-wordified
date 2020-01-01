@@ -987,6 +987,13 @@ nsContentCreatorFunctions
 h
 "
 #
+include
+"
+mozAutoDocUpdate
+.
+h
+"
+#
 ifdef
 NS_DEBUG
 static

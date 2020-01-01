@@ -861,6 +861,13 @@ nsEventDispatcher
 h
 "
 #
+include
+"
+mozAutoDocUpdate
+.
+h
+"
+#
 ifdef
 MOZ_SVG
 #
