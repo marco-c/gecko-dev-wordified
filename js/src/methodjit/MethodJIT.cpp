@@ -2251,6 +2251,12 @@ defined
 (
 JS_CPU_MIPS
 )
+|
+|
+defined
+(
+JS_CPU_SPARC
+)
 JS_STATIC_ASSERT
 (
 sizeof
