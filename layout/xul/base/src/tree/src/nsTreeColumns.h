@@ -551,7 +551,7 @@ nsIFrame
 *
 GetFrame
 (
-nsIFrame
+nsTreeBodyFrame
 *
 aBodyFrame
 )
@@ -599,7 +599,7 @@ column
 nsresult
 GetRect
 (
-nsIFrame
+nsTreeBodyFrame
 *
 aBodyFrame
 nscoord
@@ -614,7 +614,7 @@ aResult
 nsresult
 GetXInTwips
 (
-nsIFrame
+nsTreeBodyFrame
 *
 aBodyFrame
 nscoord
@@ -625,7 +625,7 @@ aResult
 nsresult
 GetWidthInTwips
 (
-nsIFrame
+nsTreeBodyFrame
 *
 aBodyFrame
 nscoord
