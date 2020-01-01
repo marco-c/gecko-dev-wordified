@@ -206,7 +206,7 @@ GetOrCreateWrapper
 (
 JSObject
 *
-obj
+obj_
 bool
 makeGlobal
 =
@@ -216,7 +216,7 @@ false
 if
 (
 !
-obj
+obj_
 )
 /
 /
@@ -229,6 +229,16 @@ nothin
 !
 return
 NULL
+;
+JS
+:
+:
+RootedObject
+obj
+(
+mContext
+obj_
+)
 ;
 PObjectWrapperChild
 *
