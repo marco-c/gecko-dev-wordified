@@ -22959,6 +22959,8 @@ force_gdi_classic_for_families
 Arial
 Courier
 New
+Segoe
+UI
 Tahoma
 Trebuchet
 MS
