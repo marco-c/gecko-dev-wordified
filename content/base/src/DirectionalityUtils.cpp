@@ -3597,7 +3597,7 @@ Element
 aElement
 )
 {
-if
+NS_ASSERTION
 (
 mElements
 .
@@ -3605,8 +3605,15 @@ Contains
 (
 aElement
 )
+"
+element
+already
+removed
+from
+map
+"
 )
-{
+;
 mElements
 .
 Remove
@@ -3632,7 +3639,6 @@ nsGkAtoms
 dirAutoSetBy
 )
 ;
-}
 }
 private
 :
