@@ -25953,6 +25953,7 @@ function
 updateViewportMetadata
 (
 aMetadata
+aInitialLoad
 )
 {
 if
@@ -26092,6 +26093,7 @@ this
 updateViewportSize
 (
 gScreenWidth
+aInitialLoad
 )
 ;
 this
@@ -26123,6 +26125,7 @@ function
 updateViewportSize
 (
 aOldScreenWidth
+aInitialLoad
 )
 {
 /
@@ -26942,6 +26945,19 @@ viewportW
 let
 zoom
 =
+(
+aInitialLoad
+&
+&
+metadata
+.
+defaultZoom
+)
+?
+metadata
+.
+defaultZoom
+:
 this
 .
 clampZoom
@@ -27358,6 +27374,7 @@ ViewportHandler
 updateMetadata
 (
 this
+true
 )
 ;
 /
@@ -27602,6 +27619,7 @@ ViewportHandler
 updateMetadata
 (
 this
+false
 )
 ;
 break
@@ -38236,6 +38254,7 @@ this
 updateMetadata
 (
 tab
+false
 )
 ;
 break
@@ -38362,6 +38381,7 @@ function
 updateMetadata
 (
 tab
+aInitialLoad
 )
 {
 let
@@ -38383,6 +38403,7 @@ tab
 updateViewportMetadata
 (
 metadata
+aInitialLoad
 )
 ;
 }
