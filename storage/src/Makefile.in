@@ -455,6 +455,8 @@ js
 \
 xpconnect
 \
+necko
+\
 (
 NULL
 )
@@ -490,6 +492,18 @@ mozStorageRow
 cpp
 \
 mozStorageResultSet
+.
+cpp
+\
+mozStorageError
+.
+cpp
+\
+mozStorageBackground
+.
+cpp
+\
+mozStorageEvents
 .
 cpp
 \
