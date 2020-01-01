@@ -941,10 +941,10 @@ getHeight
 ;
 mLayerRenderer
 =
-new
-LayerRenderer
-(
 mView
+.
+getRenderer
+(
 )
 ;
 registerEventListener
@@ -961,13 +961,6 @@ mView
 setListener
 (
 this
-)
-;
-mView
-.
-setLayerRenderer
-(
-mLayerRenderer
 )
 ;
 sendResizeEventIfNecessary
