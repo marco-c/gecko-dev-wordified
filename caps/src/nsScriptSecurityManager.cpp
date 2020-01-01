@@ -13083,9 +13083,6 @@ endif
 {
 NS_ASSERTION
 (
-aCx
-&
-&
 aObj
 "
 Bad
