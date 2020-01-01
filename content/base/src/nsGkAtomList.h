@@ -524,15 +524,6 @@ _moz_target
 )
 GK_ATOM
 (
-_moz_type
-"
-_moz
--
-type
-"
-)
-GK_ATOM
-(
 menuactive
 "
 _moz
