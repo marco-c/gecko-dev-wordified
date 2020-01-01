@@ -1995,10 +1995,6 @@ mDelayFrameLoaderInitialization
 =
 PR_TRUE
 ;
-mAllowXULXBL
-=
-eTriTrue
-;
 }
 nsXULDocument
 :
