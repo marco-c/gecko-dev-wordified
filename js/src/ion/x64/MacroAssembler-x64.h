@@ -1202,7 +1202,9 @@ val
 void
 loadValue
 (
+const
 BaseIndex
+&
 src
 ValueOperand
 val
