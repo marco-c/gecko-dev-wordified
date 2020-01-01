@@ -1228,7 +1228,7 @@ mStartTime
 {
 timePortion
 =
-0
+1
 .
 0
 ;
@@ -1237,7 +1237,7 @@ else
 {
 timePortion
 =
-1
+0
 .
 0
 ;
