@@ -503,6 +503,7 @@ name
 value
 =
 name
+;
 if
 (
 aAddon
