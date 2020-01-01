@@ -4690,7 +4690,11 @@ MaxDifference
 )
 {
 return
+NS_CombineHint
+(
 NS_STYLE_HINT_REFLOW
+nsChangeHint_BorderStyleNoneChange
+)
 ;
 }
 /
@@ -4921,6 +4925,7 @@ css
 Side
 aSide
 )
+const
 {
 return
 IsVisibleBorderStyle
