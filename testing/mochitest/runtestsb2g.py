@@ -67,6 +67,8 @@ import
 time
 import
 urllib
+import
+traceback
 sys
 .
 path
@@ -2501,6 +2503,16 @@ options
 )
 :
         
+if
+hasattr
+(
+self
+'
+server
+'
+)
+:
+            
 self
 .
 server
@@ -3724,6 +3736,12 @@ exc_info
 [
 1
 ]
+        
+traceback
+.
+print_exc
+(
+)
         
 mochitest
 .
