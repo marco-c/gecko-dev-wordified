@@ -568,6 +568,16 @@ WalkState
 *
 prevState
 ;
+/
+/
+XXXbz
+is
+|
+frame
+|
+still
+needed
+?
 nsWeakFrame
 frame
 ;

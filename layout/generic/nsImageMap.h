@@ -705,9 +705,6 @@ GetBoundsForAreaContent
 nsIContent
 *
 aContent
-nsPresContext
-*
-aPresContext
 nsRect
 &
 aBounds

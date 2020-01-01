@@ -3426,12 +3426,11 @@ PR_FALSE
 ;
 focusFrame
 =
-shell
+focusContent
 -
 >
-GetRealPrimaryFrameFor
+GetPrimaryFrame
 (
-focusContent
 )
 ;
 }
