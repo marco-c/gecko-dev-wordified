@@ -2858,6 +2858,9 @@ operand
 format
 *
 /
+#
+ifdef
+__cplusplus
 uint32
 type
 (
@@ -2871,6 +2874,8 @@ format
 )
 ;
 }
+#
+endif
 }
 ;
 extern
