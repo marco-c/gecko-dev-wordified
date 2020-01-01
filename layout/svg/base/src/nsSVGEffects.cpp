@@ -1290,7 +1290,7 @@ GetNextContinuation
 f
 -
 >
-InvalidateOverflowRect
+InvalidateFrame
 (
 )
 ;

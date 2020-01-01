@@ -2140,6 +2140,16 @@ return
 this
 ;
 }
+virtual
+void
+InvalidateFrame
+(
+PRUint32
+aFlags
+=
+0
+)
+;
 protected
 :
 nsTableRowGroupFrame

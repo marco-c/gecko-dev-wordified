@@ -363,14 +363,14 @@ effects
 *
 /
 static
-nsRect
+nsIntRect
 GetInvalidAreaForChangedSource
 (
 nsIFrame
 *
 aFrame
 const
-nsRect
+nsIntRect
 &
 aInvalidRect
 )
