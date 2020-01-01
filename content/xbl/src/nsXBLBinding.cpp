@@ -2371,7 +2371,7 @@ or
 <
 xul
 :
-observer
+observes
 >
 children
 .
@@ -2476,7 +2476,7 @@ Equals
 nsGkAtoms
 :
 :
-observer
+observes
 )
 )
 )
