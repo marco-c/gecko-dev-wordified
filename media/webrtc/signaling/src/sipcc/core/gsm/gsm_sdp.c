@@ -8698,7 +8698,7 @@ TRUE
 /
 *
 *
-gsmsdp_set_attributes
+gsmsdp_set_ice_attribute
 *
 *
 Description
@@ -8772,7 +8772,6 @@ to
 set
 *
 /
-static
 void
 gsmsdp_set_ice_attribute
 (
@@ -34386,10 +34385,12 @@ body_length
 ;
 if
 (
+!
 msg_body
-=
-=
-NULL
+|
+|
+!
+sdp_p
 )
 {
 return
@@ -34411,6 +34412,9 @@ sdp_body
 sipsdp_write_to_buf
 (
 sdp_p
+-
+>
+src_sdp
 &
 body_length
 )
