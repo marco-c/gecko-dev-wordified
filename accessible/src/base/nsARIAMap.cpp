@@ -633,6 +633,7 @@ nsIAccessibleRole
 ROLE_ALERT
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -646,6 +647,7 @@ nsIAccessibleRole
 ROLE_DIALOG
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -659,6 +661,7 @@ nsIAccessibleRole
 ROLE_APPLICATION
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -688,6 +691,7 @@ nsIAccessibleRole
 ROLE_PUSHBUTTON
 eNoValue
 eClickAction
+eNoLiveAttr
 kNoReqStates
 {
 &
@@ -727,6 +731,7 @@ nsIAccessibleRole
 ROLE_CHECKBUTTON
 eNoValue
 eCheckUncheckAction
+eNoLiveAttr
 nsIAccessibleStates
 :
 :
@@ -781,6 +786,7 @@ nsIAccessibleRole
 ROLE_COLUMNHEADER
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 {
 &
@@ -837,6 +843,7 @@ nsIAccessibleRole
 ROLE_COMBOBOX
 eHasValueMinMax
 eOpenCloseAction
+eNoLiveAttr
 nsIAccessibleStates
 :
 :
@@ -878,6 +885,7 @@ nsIAccessibleRole
 ROLE_DIALOG
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -907,6 +915,7 @@ nsIAccessibleRole
 ROLE_TABLE
 eNoValue
 eNoAction
+eNoLiveAttr
 nsIAccessibleStates
 :
 :
@@ -952,6 +961,7 @@ nsIAccessibleRole
 ROLE_GRID_CELL
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 {
 &
@@ -1008,6 +1018,7 @@ nsIAccessibleRole
 ROLE_GROUPING
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1021,6 +1032,7 @@ nsIAccessibleRole
 ROLE_HEADING
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1034,6 +1046,7 @@ nsIAccessibleRole
 ROLE_GRAPHIC
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1047,6 +1060,7 @@ nsIAccessibleRole
 ROLE_LABEL
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1060,6 +1074,7 @@ nsIAccessibleRole
 ROLE_LINK
 eNoValue
 eJumpAction
+eNoLiveAttr
 nsIAccessibleStates
 :
 :
@@ -1076,6 +1091,7 @@ nsIAccessibleRole
 ROLE_LIST
 eNoValue
 eNoAction
+eNoLiveAttr
 nsIAccessibleStates
 :
 :
@@ -1109,6 +1125,7 @@ nsIAccessibleRole
 ROLE_LISTBOX
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 {
 &
@@ -1161,6 +1178,7 @@ on
 state
 parent
 accessible
+eNoLiveAttr
 nsIAccessibleStates
 :
 :
@@ -1250,6 +1268,34 @@ kEndEntry
 }
 {
 "
+log
+"
+nsIAccessibleRole
+:
+:
+ROLE_NOTHING
+eNoValue
+eNoAction
+ePoliteLiveAttr
+kNoReqStates
+kEndEntry
+}
+{
+"
+marquee
+"
+nsIAccessibleRole
+:
+:
+ROLE_NOTHING
+eNoValue
+eNoAction
+eOffLiveAttr
+kNoReqStates
+kEndEntry
+}
+{
+"
 math
 "
 nsIAccessibleRole
@@ -1258,6 +1304,7 @@ nsIAccessibleRole
 ROLE_FLAT_EQUATION
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1295,6 +1342,7 @@ open
 or
 close
 .
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1308,6 +1356,7 @@ nsIAccessibleRole
 ROLE_MENUBAR
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1321,6 +1370,7 @@ nsIAccessibleRole
 ROLE_MENUITEM
 eNoValue
 eClickAction
+eNoLiveAttr
 kNoReqStates
 {
 &
@@ -1384,6 +1434,7 @@ nsIAccessibleRole
 ROLE_CHECK_MENU_ITEM
 eNoValue
 eClickAction
+eNoLiveAttr
 nsIAccessibleStates
 :
 :
@@ -1426,6 +1477,7 @@ nsIAccessibleRole
 ROLE_RADIO_MENU_ITEM
 eNoValue
 eClickAction
+eNoLiveAttr
 nsIAccessibleStates
 :
 :
@@ -1454,6 +1506,7 @@ nsIAccessibleRole
 ROLE_OPTION
 eNoValue
 eSelectAction
+eNoLiveAttr
 kNoReqStates
 {
 &
@@ -1548,6 +1601,7 @@ nsIAccessibleRole
 ROLE_NOTHING
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1561,6 +1615,7 @@ nsIAccessibleRole
 ROLE_PROGRESSBAR
 eHasValueMinMax
 eNoAction
+eNoLiveAttr
 nsIAccessibleStates
 :
 :
@@ -1577,6 +1632,7 @@ nsIAccessibleRole
 ROLE_RADIOBUTTON
 eNoValue
 eSelectAction
+eNoLiveAttr
 kNoReqStates
 {
 &
@@ -1602,6 +1658,7 @@ nsIAccessibleRole
 ROLE_GROUPING
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1615,6 +1672,7 @@ nsIAccessibleRole
 ROLE_PANE
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1628,6 +1686,7 @@ nsIAccessibleRole
 ROLE_ROW
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 {
 &
@@ -1672,6 +1731,7 @@ nsIAccessibleRole
 ROLE_ROWHEADER
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 {
 &
@@ -1728,6 +1788,7 @@ nsIAccessibleRole
 ROLE_SECTION
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1741,6 +1802,7 @@ nsIAccessibleRole
 ROLE_SEPARATOR
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1754,6 +1816,7 @@ nsIAccessibleRole
 ROLE_SLIDER
 eHasValueMinMax
 eNoAction
+eNoLiveAttr
 kNoReqStates
 {
 &
@@ -1779,6 +1842,7 @@ nsIAccessibleRole
 ROLE_SPINBUTTON
 eHasValueMinMax
 eNoAction
+eNoLiveAttr
 kNoReqStates
 {
 &
@@ -1804,6 +1868,7 @@ nsIAccessibleRole
 ROLE_STATUSBAR
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1817,6 +1882,7 @@ nsIAccessibleRole
 ROLE_PAGETAB
 eNoValue
 eSwitchAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1830,6 +1896,7 @@ nsIAccessibleRole
 ROLE_PAGETABLIST
 eNoValue
 eNoAction
+ePoliteLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1843,6 +1910,7 @@ nsIAccessibleRole
 ROLE_PROPERTYPAGE
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1856,6 +1924,7 @@ nsIAccessibleRole
 ROLE_ENTRY
 eNoValue
 eActivateAction
+eNoLiveAttr
 kNoReqStates
 /
 /
@@ -1920,6 +1989,20 @@ kEndEntry
 }
 {
 "
+timer
+"
+nsIAccessibleRole
+:
+:
+ROLE_NOTHING
+eNoValue
+eNoAction
+eOffLiveAttr
+kNoReqStates
+kEndEntry
+}
+{
+"
 toolbar
 "
 nsIAccessibleRole
@@ -1928,6 +2011,7 @@ nsIAccessibleRole
 ROLE_TOOLBAR
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1941,6 +2025,7 @@ nsIAccessibleRole
 ROLE_TOOLTIP
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -1954,6 +2039,7 @@ nsIAccessibleRole
 ROLE_OUTLINE
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 {
 &
@@ -1996,6 +2082,7 @@ nsIAccessibleRole
 ROLE_TREE_TABLE
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 {
 &
@@ -2056,6 +2143,7 @@ based
 /
 on
 states
+eNoLiveAttr
 kNoReqStates
 {
 &
@@ -2170,6 +2258,7 @@ nsIAccessibleRole
 ROLE_NOTHING
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
@@ -2189,6 +2278,7 @@ nsIAccessibleRole
 ROLE_NOTHING
 eNoValue
 eNoAction
+eNoLiveAttr
 kNoReqStates
 kEndEntry
 }
