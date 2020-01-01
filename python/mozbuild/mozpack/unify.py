@@ -77,6 +77,8 @@ import
     
 MACHO_SIGNATURES
     
+may_strip
+    
 strip
 )
 from
@@ -356,6 +358,13 @@ p
 f
 )
                 
+if
+may_strip
+(
+f
+)
+:
+                    
 strip
 (
 f

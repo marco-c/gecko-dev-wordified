@@ -65,6 +65,8 @@ packager
 unpack
 import
 unpack
+import
+buildconfig
 def
 main
 (
@@ -119,6 +121,28 @@ exit
 (
 1
 )
+    
+buildconfig
+.
+substs
+[
+'
+USE_ELF_HACK
+'
+]
+=
+False
+    
+buildconfig
+.
+substs
+[
+'
+PKG_SKIP_STRIP
+'
+]
+=
+True
     
 unpack
 (

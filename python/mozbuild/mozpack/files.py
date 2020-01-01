@@ -1070,8 +1070,6 @@ dest
 basestring
 )
         
-if
-not
 File
 .
 copy
@@ -1079,10 +1077,6 @@ copy
 self
 dest
 )
-:
-            
-return
-False
         
 try
 :

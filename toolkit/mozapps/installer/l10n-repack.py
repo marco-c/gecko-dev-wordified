@@ -160,6 +160,8 @@ from
 argparse
 import
 ArgumentParser
+import
+buildconfig
 #
 Set
 of
@@ -1583,6 +1585,28 @@ parser
 parse_args
 (
 )
+    
+buildconfig
+.
+substs
+[
+'
+USE_ELF_HACK
+'
+]
+=
+False
+    
+buildconfig
+.
+substs
+[
+'
+PKG_SKIP_STRIP
+'
+]
+=
+True
     
 repack
 (
