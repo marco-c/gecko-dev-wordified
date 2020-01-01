@@ -1375,10 +1375,6 @@ if
 aIsThrottled
 )
 {
-mStyleRuleRefreshTime
-=
-aRefreshTime
-;
 return
 ;
 }
