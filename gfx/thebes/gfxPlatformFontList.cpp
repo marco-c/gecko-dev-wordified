@@ -1827,7 +1827,7 @@ key
 ;
 mBadUnderlineFamilyNames
 .
-Put
+PutEntry
 (
 key
 )
