@@ -569,6 +569,9 @@ OpenBrowserWindow
 "
 /
 >
+#
+ifndef
+MOZ_PLACES_BOOKMARKS
 <
 command
 id
@@ -849,6 +852,8 @@ cmd_bm_sortbyname
 "
 /
 >
+#
+endif
 <
 command
 id
