@@ -2539,6 +2539,14 @@ UnbindFromTree
 return
 ;
 }
+child
+-
+>
+SetFlags
+(
+NODE_IS_ANONYMOUS
+)
+;
 #
 ifdef
 MOZ_XUL
