@@ -652,11 +652,6 @@ nsNativeModuleLoader
 "
 )
 ;
-bool
-gInXPCOMLoadOnMainThread
-=
-false
-;
 #
 define
 LOG
@@ -1041,10 +1036,6 @@ loaded
 this
 module
 before
-gInXPCOMLoadOnMainThread
-=
-true
-;
 rv
 =
 file
@@ -1057,10 +1048,6 @@ data
 .
 library
 )
-;
-gInXPCOMLoadOnMainThread
-=
-false
 ;
 if
 (
