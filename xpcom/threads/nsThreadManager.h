@@ -168,6 +168,10 @@ get
 (
 )
 {
+static
+nsThreadManager
+sInstance
+;
 return
 &
 sInstance
@@ -409,10 +413,6 @@ mHighestNumberOfThreads
 )
 {
 }
-static
-nsThreadManager
-sInstance
-;
 nsRefPtrHashtable
 <
 nsPtrHashKey

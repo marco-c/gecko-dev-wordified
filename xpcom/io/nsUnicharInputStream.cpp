@@ -2162,6 +2162,11 @@ GetInstance
 (
 )
 {
+static
+const
+nsSimpleUnicharStreamFactory
+kInstance
+;
 return
 const_cast
 <
@@ -2174,10 +2179,3 @@ kInstance
 )
 ;
 }
-const
-nsSimpleUnicharStreamFactory
-nsSimpleUnicharStreamFactory
-:
-:
-kInstance
-;
