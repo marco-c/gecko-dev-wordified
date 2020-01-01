@@ -1331,7 +1331,7 @@ atoms
 nanojit
 :
 :
-GuardRecord
+SideExit
 *
 anchor
 ;
@@ -1455,12 +1455,6 @@ nanojit
 LIns
 *
 inner_sp_ins
-;
-nanojit
-:
-:
-SideExit
-exit
 ;
 bool
 deepAborted
@@ -2513,7 +2507,7 @@ cx
 nanojit
 :
 :
-GuardRecord
+SideExit
 *
 nanojit
 :
@@ -2533,7 +2527,7 @@ stackTypeMap
 nanojit
 :
 :
-GuardRecord
+SideExit
 *
 expectedInnerExit
 )
@@ -2555,7 +2549,7 @@ const
 nanojit
 :
 :
-SideExit
+LIns
 *
 snapshot
 (
@@ -2681,9 +2675,9 @@ inner
 nanojit
 :
 :
-GuardRecord
+SideExit
 *
-lr
+exit
 )
 ;
 unsigned
