@@ -1413,7 +1413,7 @@ updateStrings
 )
 ;
 var
-status
+statusElt
 =
 document
 .
@@ -1443,7 +1443,7 @@ name
 ]
 )
 ;
-status
+statusElt
 .
 setAttribute
 (
@@ -1952,7 +1952,7 @@ updateStrings
 )
 ;
 var
-status
+statusElt
 =
 document
 .
@@ -1982,7 +1982,7 @@ name
 ]
 )
 ;
-status
+statusElt
 .
 setAttribute
 (
