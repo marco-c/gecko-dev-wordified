@@ -1220,6 +1220,9 @@ mIMEEnabled
 PRBool
 mIMEComposing
 ;
+nsString
+mIMEComposingText
+;
 nsAutoTArray
 <
 nsTextRange
