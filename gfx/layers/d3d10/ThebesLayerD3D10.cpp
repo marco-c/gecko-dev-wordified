@@ -571,9 +571,6 @@ mVisibleRegion
 return
 ;
 }
-HRESULT
-hr
-;
 nsIntRegion
 oldVisibleRegion
 =
@@ -1015,14 +1012,6 @@ oldTexture
 box
 )
 ;
-if
-(
-SUCCEEDED
-(
-hr
-)
-)
-{
 retainedRegion
 .
 Or
@@ -1032,7 +1021,6 @@ retainedRegion
 r
 )
 ;
-}
 }
 }
 /
