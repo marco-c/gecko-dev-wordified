@@ -520,11 +520,6 @@ aIsDefaultBrowser
 )
 ;
 PRBool
-SetDefaultBrowserVista
-(
-)
-;
-PRBool
 GetMailAccountKey
 (
 HKEY
