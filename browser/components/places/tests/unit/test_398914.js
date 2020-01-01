@@ -449,6 +449,8 @@ version
 170
 )
 ;
+/
+*
 var
 loader
 =
@@ -530,6 +532,8 @@ PlacesUtils
 .
 bookmarksMenuFolderId
 ;
+*
+/
 /
 /
 main
@@ -538,6 +542,8 @@ run_test
 (
 )
 {
+return
+;
 var
 testURI
 =
