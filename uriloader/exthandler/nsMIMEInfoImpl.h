@@ -794,6 +794,14 @@ aDefaultDescription
 )
 ;
 NS_IMETHOD
+LaunchWithFile
+(
+nsIFile
+*
+aFile
+)
+;
+NS_IMETHOD
 LaunchWithURI
 (
 nsIURI
