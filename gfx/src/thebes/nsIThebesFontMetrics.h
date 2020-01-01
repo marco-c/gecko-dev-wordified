@@ -778,6 +778,9 @@ char
 aString
 PRUint32
 aLength
+nsThebesRenderingContext
+*
+aContext
 nsBoundingMetrics
 &
 aBoundingMetrics
@@ -806,12 +809,12 @@ PRUnichar
 aString
 PRUint32
 aLength
+nsThebesRenderingContext
+*
+aContext
 nsBoundingMetrics
 &
 aBoundingMetrics
-PRInt32
-*
-aFontID
 )
 =
 0
