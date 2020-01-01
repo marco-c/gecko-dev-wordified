@@ -2047,6 +2047,12 @@ compartmentEnum
 )
 ;
 static
+unsigned
+gcGrayLinkSlot
+(
+)
+;
+static
 inline
 JSTrapStatus
 onEnterFrame

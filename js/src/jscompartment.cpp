@@ -460,6 +460,10 @@ gcTriggerMallocAndFreeBytes
 (
 0
 )
+gcIncomingGrayPointers
+(
+NULL
+)
 gcMallocBytes
 (
 0
