@@ -5809,13 +5809,6 @@ return
 ;
 }
 }
-if
-(
-aMessage
-.
-message
-)
-{
 this
 .
 listener
@@ -5825,7 +5818,6 @@ onConsoleServiceMessage
 aMessage
 )
 ;
-}
 }
 /
 *
