@@ -546,7 +546,7 @@ startEntry
 )
 ;
 void
-writeOsiReturnPointOffset
+writeOsiCallPointOffset
 (
 uint32
 osiPointOffset
@@ -696,6 +696,11 @@ si
 ;
 uint32
 getOsiReturnPointOffset
+(
+)
+;
+uint32
+getOsiCallPointOffset
 (
 )
 ;

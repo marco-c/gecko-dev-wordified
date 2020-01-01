@@ -1983,7 +1983,7 @@ frameSize
 )
 ;
 uint32
-osiReturnPointOffset
+osiCallPointOffset
 ;
 if
 (
@@ -1992,7 +1992,7 @@ markOsiPoint
 (
 lir
 &
-osiReturnPointOffset
+osiCallPointOffset
 )
 )
 return
@@ -2015,7 +2015,7 @@ JS_ASSERT
 safepoint
 -
 >
-osiReturnPointOffset
+osiCallPointOffset
 (
 )
 )
@@ -2023,9 +2023,9 @@ osiReturnPointOffset
 safepoint
 -
 >
-setOsiReturnPointOffset
+setOsiCallPointOffset
 (
-osiReturnPointOffset
+osiCallPointOffset
 )
 ;
 return
