@@ -4981,6 +4981,13 @@ onMozMousePixelScroll
 )
 GK_ATOM
 (
+onMozScrolledAreaChanged
+"
+onMozScrolledAreaChanged
+"
+)
+GK_ATOM
+(
 ononline
 "
 ononline

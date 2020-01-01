@@ -3484,6 +3484,17 @@ NS_AFTERPAINT
 EventNameType_None
 }
 }
+{
+&
+nsGkAtoms
+:
+:
+onMozScrolledAreaChanged
+{
+NS_SCROLLEDAREACHANGED
+EventNameType_None
+}
+}
 /
 /
 Simple
