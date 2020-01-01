@@ -11693,7 +11693,7 @@ encodedParam
 =
 escape
 (
-converFromUnicode
+convertFromUnicode
 (
 charset
 param
