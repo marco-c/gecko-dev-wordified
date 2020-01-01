@@ -2970,6 +2970,15 @@ type
 "
 )
 ;
+aItem
+.
+removeAttribute
+(
+"
+width
+"
+)
+;
 if
 (
 aItem
