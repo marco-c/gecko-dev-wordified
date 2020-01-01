@@ -1626,6 +1626,11 @@ mDestroyCalled
 ;
 }
 virtual
+void
+GetPreferredCompositorBackends
+(
+nsTArray
+<
 mozilla
 :
 :
@@ -1633,8 +1638,9 @@ layers
 :
 :
 LayersBackend
-GetPreferredCompositorBackend
-(
+>
+&
+aHints
 )
 ;
 protected

@@ -2121,6 +2121,11 @@ GetRemoteRenderer
 MOZ_OVERRIDE
 ;
 virtual
+void
+GetPreferredCompositorBackends
+(
+nsTArray
+<
 mozilla
 :
 :
@@ -2128,8 +2133,9 @@ layers
 :
 :
 LayersBackend
-GetPreferredCompositorBackend
-(
+>
+&
+aHints
 )
 ;
 /
