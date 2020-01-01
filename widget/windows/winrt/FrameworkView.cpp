@@ -2091,17 +2091,6 @@ LogFunction
 (
 )
 ;
-/
-/
-XXX
-need
-to
-be
-sure
-this
-happen
-late
-enough
 ApplicationExecutionState
 state
 ;
