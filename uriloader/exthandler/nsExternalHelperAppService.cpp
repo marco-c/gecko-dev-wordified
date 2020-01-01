@@ -4006,17 +4006,6 @@ Audio
 #
 endif
 {
-VIDEO_RAW
-"
-yuv
-"
-"
-Raw
-YUV
-Video
-"
-}
-{
 AUDIO_WAV
 "
 wav
