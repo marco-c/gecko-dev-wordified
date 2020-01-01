@@ -1,4 +1,5 @@
-#
+/
+/
 -
 *
 -
@@ -10,7 +11,7 @@ tab
 -
 width
 :
-4
+2
 ;
 indent
 -
@@ -26,11 +27,12 @@ basic
 -
 offset
 :
-4
+2
 -
 *
 -
-#
+/
+*
 This
 Source
 Code
@@ -44,7 +46,7 @@ of
 the
 Mozilla
 Public
-#
+*
 License
 v
 .
@@ -63,7 +65,7 @@ not
 distributed
 with
 this
-#
+*
 file
 You
 can
@@ -85,6 +87,8 @@ MPL
 0
 /
 .
+*
+/
 /
 /
 This
