@@ -344,12 +344,6 @@ Ci
 nsIObserver
 ]
 )
-/
-*
-*
-private
-*
-/
 observe
 :
 function
@@ -415,9 +409,6 @@ memory
 pressure
 "
 )
-;
-delete
-_consoleStorage
 ;
 }
 else
