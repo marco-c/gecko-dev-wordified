@@ -8177,7 +8177,7 @@ count
 )
 ;
 return
-false
+NULL
 ;
 }
 int32
@@ -9893,7 +9893,7 @@ here
 )
 ;
 return
-false
+NULL
 ;
 }
 }

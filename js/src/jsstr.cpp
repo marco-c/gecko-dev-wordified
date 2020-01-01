@@ -12102,7 +12102,7 @@ if
 patstr
 )
 return
-false
+NULL
 ;
 }
 else
