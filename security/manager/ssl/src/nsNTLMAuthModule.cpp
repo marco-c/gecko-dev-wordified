@@ -5470,6 +5470,9 @@ outTokenLen
 )
 ;
 }
+#
+ifdef
+PR_LOGGING
 if
 (
 NS_SUCCEEDED
@@ -5490,6 +5493,8 @@ outToken
 outTokenLen
 )
 ;
+#
+endif
 return
 rv
 ;
