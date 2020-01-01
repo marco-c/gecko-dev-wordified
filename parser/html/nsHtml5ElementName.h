@@ -2058,6 +2058,11 @@ ELT_TEXTAREA
 static
 nsHtml5ElementName
 *
+ELT_TEMPLATE
+;
+static
+nsHtml5ElementName
+*
 ELT_TEXTPATH
 ;
 static
