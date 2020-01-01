@@ -5891,6 +5891,15 @@ function
 {
 this
 .
+walker
+.
+highlight
+(
+null
+)
+;
+this
+.
 selection
 .
 off
