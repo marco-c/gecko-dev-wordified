@@ -699,9 +699,6 @@ mOwner
 -
 >
 mRate
-Format
-(
-)
 )
 )
 ;

@@ -1180,8 +1180,6 @@ int32_t
 aNumChannels
 int32_t
 aRate
-int32_t
-aFormat
 )
 :
 mIPCOpen
