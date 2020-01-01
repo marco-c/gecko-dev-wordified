@@ -1074,6 +1074,11 @@ STUB_CALL_TYPE
 JSObjStubUInt32
 )
 ;
+STUB_CALL_TYPE
+(
+JSObjStubFun
+)
+;
 #
 undef
 STUB_CALL_TYPE
