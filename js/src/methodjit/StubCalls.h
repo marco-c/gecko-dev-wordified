@@ -1216,6 +1216,15 @@ VMFrame
 f
 )
 ;
+void
+JS_FASTCALL
+ArgCnt
+(
+VMFrame
+&
+f
+)
+;
 }
 }
 }
