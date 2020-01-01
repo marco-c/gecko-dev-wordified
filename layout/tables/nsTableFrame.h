@@ -621,6 +621,9 @@ IsVaryingRelativeToMovingFrame
 nsDisplayListBuilder
 *
 aBuilder
+nsIFrame
+*
+aFrame
 )
 ;
 /
