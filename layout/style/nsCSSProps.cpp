@@ -2938,6 +2938,8 @@ kBorderStyleKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_BORDER_STYLE_NONE
 eCSSKeyword_hidden
 NS_STYLE_BORDER_STYLE_HIDDEN
 eCSSKeyword_dotted
@@ -3076,6 +3078,8 @@ kClearKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_CLEAR_NONE
 eCSSKeyword_left
 NS_STYLE_CLEAR_LEFT
 eCSSKeyword_right
@@ -3456,6 +3460,8 @@ CSS
 2
 .
 0
+eCSSKeyword_auto
+NS_STYLE_CURSOR_AUTO
 eCSSKeyword_crosshair
 NS_STYLE_CURSOR_CROSSHAIR
 eCSSKeyword_default
@@ -3746,6 +3752,8 @@ kFloatKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_FLOAT_NONE
 eCSSKeyword_left
 NS_STYLE_FLOAT_LEFT
 eCSSKeyword_right
@@ -3970,6 +3978,10 @@ kIMEModeKTable
 ]
 =
 {
+eCSSKeyword_normal
+NS_STYLE_IME_MODE_NORMAL
+eCSSKeyword_auto
+NS_STYLE_IME_MODE_AUTO
 eCSSKeyword_active
 NS_STYLE_IME_MODE_ACTIVE
 eCSSKeyword_disabled
@@ -4042,6 +4054,8 @@ kListStyleKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_LIST_STYLE_NONE
 eCSSKeyword_disc
 NS_STYLE_LIST_STYLE_DISC
 eCSSKeyword_circle
@@ -4169,6 +4183,10 @@ kOutlineStyleKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_BORDER_STYLE_NONE
+eCSSKeyword_auto
+NS_STYLE_BORDER_STYLE_AUTO
 eCSSKeyword_dotted
 NS_STYLE_BORDER_STYLE_DOTTED
 eCSSKeyword_dashed
@@ -4290,6 +4308,8 @@ kPageBreakKTable
 ]
 =
 {
+eCSSKeyword_auto
+NS_STYLE_PAGE_BREAK_AUTO
 eCSSKeyword_always
 NS_STYLE_PAGE_BREAK_ALWAYS
 eCSSKeyword_avoid
@@ -4313,6 +4333,8 @@ kPageBreakInsideKTable
 ]
 =
 {
+eCSSKeyword_auto
+NS_STYLE_PAGE_BREAK_AUTO
 eCSSKeyword_avoid
 NS_STYLE_PAGE_BREAK_AVOID
 eCSSKeyword_UNKNOWN
@@ -4330,6 +4352,8 @@ kPageMarksKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_PAGE_MARKS_NONE
 eCSSKeyword_crop
 NS_STYLE_PAGE_MARKS_CROP
 eCSSKeyword_cross
@@ -4451,6 +4475,10 @@ kSpeakKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_SPEAK_NONE
+eCSSKeyword_normal
+NS_STYLE_SPEAK_NORMAL
 eCSSKeyword_spell_out
 NS_STYLE_SPEAK_SPELL_OUT
 eCSSKeyword_UNKNOWN
@@ -4506,6 +4534,8 @@ kSpeakPunctuationKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_SPEAK_PUNCTUATION_NONE
 eCSSKeyword_code
 NS_STYLE_SPEAK_PUNCTUATION_CODE
 eCSSKeyword_UNKNOWN
@@ -4571,6 +4601,8 @@ kTableLayoutKTable
 ]
 =
 {
+eCSSKeyword_auto
+NS_STYLE_TABLE_LAYOUT_AUTO
 eCSSKeyword_fixed
 NS_STYLE_TABLE_LAYOUT_FIXED
 eCSSKeyword_UNKNOWN
@@ -4648,6 +4680,8 @@ kTextTransformKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_TEXT_TRANSFORM_NONE
 eCSSKeyword_capitalize
 NS_STYLE_TEXT_TRANSFORM_CAPITALIZE
 eCSSKeyword_lowercase
@@ -4694,6 +4728,8 @@ kUnicodeBidiKTable
 ]
 =
 {
+eCSSKeyword_normal
+NS_STYLE_UNICODE_BIDI_NORMAL
 eCSSKeyword_embed
 NS_STYLE_UNICODE_BIDI_EMBED
 eCSSKeyword_bidi_override
@@ -4713,6 +4749,10 @@ kUserFocusKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_USER_FOCUS_NONE
+eCSSKeyword_normal
+NS_STYLE_USER_FOCUS_NORMAL
 eCSSKeyword_ignore
 NS_STYLE_USER_FOCUS_IGNORE
 eCSSKeyword_select_all
@@ -4740,6 +4780,10 @@ kUserInputKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_USER_INPUT_NONE
+eCSSKeyword_auto
+NS_STYLE_USER_INPUT_AUTO
 eCSSKeyword_enabled
 NS_STYLE_USER_INPUT_ENABLED
 eCSSKeyword_disabled
@@ -4780,6 +4824,10 @@ kUserSelectKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_USER_SELECT_NONE
+eCSSKeyword_auto
+NS_STYLE_USER_SELECT_AUTO
 eCSSKeyword_text
 NS_STYLE_USER_SELECT_TEXT
 eCSSKeyword_element
@@ -4892,6 +4940,8 @@ kWhitespaceKTable
 ]
 =
 {
+eCSSKeyword_normal
+NS_STYLE_WHITESPACE_NORMAL
 eCSSKeyword_pre
 NS_STYLE_WHITESPACE_PRE
 eCSSKeyword_nowrap
@@ -4938,6 +4988,8 @@ kWindowShadowKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_WINDOW_SHADOW_NONE
 eCSSKeyword_default
 NS_STYLE_WINDOW_SHADOW_DEFAULT
 eCSSKeyword_UNKNOWN
