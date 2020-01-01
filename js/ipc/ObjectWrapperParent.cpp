@@ -1532,7 +1532,7 @@ jsval
 to
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -2893,7 +2893,7 @@ arf
 objp
 )
 ;
-JS
+js
 :
 :
 RootedObject

@@ -8438,7 +8438,7 @@ NonNullLazyRootedObject
 public
 Maybe
 <
-JS
+js
 :
 :
 RootedObject
@@ -8488,7 +8488,7 @@ LazyRootedObject
 public
 Maybe
 <
-JS
+js
 :
 :
 RootedObject

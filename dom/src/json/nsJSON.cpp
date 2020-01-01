@@ -2641,7 +2641,7 @@ ar
 cx
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -2938,7 +2938,7 @@ rv
 )
 ;
 }
-JS
+js
 :
 :
 RootedValue

@@ -3422,7 +3422,7 @@ callee
 (
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -3508,7 +3508,7 @@ args
 :
 JSVAL_VOID
 ;
-JS
+js
 :
 :
 RootedId

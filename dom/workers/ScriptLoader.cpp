@@ -3134,7 +3134,7 @@ true
 ;
 }
 }
-JS
+js
 :
 :
 RootedObject

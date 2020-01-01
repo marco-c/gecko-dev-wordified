@@ -5671,7 +5671,7 @@ mPrincipal
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject

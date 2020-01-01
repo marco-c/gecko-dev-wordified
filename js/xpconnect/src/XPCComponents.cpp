@@ -15978,7 +15978,7 @@ isObject
 return
 NS_ERROR_XPC_BAD_CONVERT_JS
 ;
-JS
+js
 :
 :
 RootedObject
@@ -18602,7 +18602,7 @@ unsigned
 flags
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -18615,7 +18615,7 @@ proxy
 )
 )
 ;
-JS
+js
 :
 :
 RootedId
@@ -23185,7 +23185,7 @@ filename
 lineNo
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -24420,7 +24420,7 @@ the
 /
 result
 .
-JS
+js
 :
 :
 Rooted
