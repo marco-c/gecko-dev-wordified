@@ -18,6 +18,8 @@ datetime
 os
 re
 sys
+import
+subprocess
 from
 subprocess
 import
@@ -911,10 +913,15 @@ print
 '
 '
 +
+subprocess
+.
+list2cmdline
+(
 get_test_cmd
 (
 test
 lib_dir
+)
 )
 )
             
