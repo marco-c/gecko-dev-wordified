@@ -3710,7 +3710,7 @@ flags
 ;
 for
 (
-int
+unsigned
 testOffset
 =
 0
