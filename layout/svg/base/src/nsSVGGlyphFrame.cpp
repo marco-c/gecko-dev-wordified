@@ -5940,13 +5940,13 @@ SetupCairoState
 (
 gfxContext
 *
-context
+aContext
 nsRefPtr
 <
 gfxPattern
 >
 *
-strokePattern
+aStrokePattern
 )
 {
 DrawMode
@@ -5976,10 +5976,10 @@ HasStroke
 gfxContextMatrixAutoSaveRestore
 matrixRestore
 (
-context
+aContext
 )
 ;
-context
+aContext
 -
 >
 IdentityMatrix
@@ -6000,7 +6000,7 @@ GLYPH_STROKE
 ;
 SetupCairoStrokeHitGeometry
 (
-context
+aContext
 )
 ;
 float
@@ -6048,7 +6048,7 @@ directly
 from
 frame
 *
-strokePattern
+aStrokePattern
 =
 ps
 -
@@ -6062,7 +6062,7 @@ opacity
 NS_ASSERTION
 (
 *
-strokePattern
+aStrokePattern
 "
 No
 pattern
@@ -6084,7 +6084,7 @@ nsSVGUtils
 :
 GetFallbackOrPaintColor
 (
-context
+aContext
 GetStyleContext
 (
 )
@@ -6100,7 +6100,7 @@ color
 )
 ;
 *
-strokePattern
+aStrokePattern
 =
 new
 gfxPattern
@@ -6150,7 +6150,7 @@ if
 (
 SetupCairoFill
 (
-context
+aContext
 )
 )
 {
