@@ -431,7 +431,7 @@ BLOCK
 /
 #
 ifndef
-__nanojit_h_
+__nanojit_h__
 #
 define
 __nanojit_h__
@@ -615,18 +615,14 @@ OSDep
 OSDep
 ;
 typedef
-const
-uint16_t
-*
-FragID
-;
-typedef
 avmplus
 :
 :
 SortedMap
 <
-FragID
+const
+void
+*
 Fragment
 *
 avmplus
@@ -1618,4 +1614,4 @@ h
 endif
 /
 /
-__nanojit_h_
+__nanojit_h__
