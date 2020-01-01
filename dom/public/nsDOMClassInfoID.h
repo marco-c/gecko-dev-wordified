@@ -1051,11 +1051,6 @@ HTML5
 eDOMClassInfo_MessageEvent_id
 /
 /
-Geolocation
-eDOMClassInfo_Geolocation_id
-eDOMClassInfo_Geolocator_id
-/
-/
 WhatWG
 Video
 Element
