@@ -1197,7 +1197,7 @@ vp
 static
 inline
 jsdouble
-FASTCALL
+JS_FASTCALL
 math_atan2_kernel
 (
 jsdouble
