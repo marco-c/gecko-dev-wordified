@@ -757,6 +757,11 @@ SetWhitespaceHandling
 (
 )
 ;
+PRBool
+IsAllWhitespace
+(
+)
+;
 void
 CopyPositionList
 (

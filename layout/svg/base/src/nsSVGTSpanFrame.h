@@ -677,6 +677,14 @@ PRUint8
 aWhitespaceHandling
 )
 ;
+NS_IMETHOD_
+(
+PRBool
+)
+IsAllWhitespace
+(
+)
+;
 }
 ;
 #

@@ -560,6 +560,16 @@ aWhitespaceHandling
 =
 0
 ;
+NS_IMETHOD_
+(
+PRBool
+)
+IsAllWhitespace
+(
+)
+=
+0
+;
 }
 ;
 #
