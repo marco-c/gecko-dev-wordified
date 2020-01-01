@@ -1393,7 +1393,7 @@ Ci
 nsIContentPrefService
 Ci
 .
-nsIFrameMessageListener
+nsIMessageListener
 ]
 )
 /

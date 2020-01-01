@@ -2494,7 +2494,7 @@ window
 .
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Browser

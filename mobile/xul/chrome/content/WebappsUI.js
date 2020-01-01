@@ -122,7 +122,7 @@ getService
 (
 Ci
 .
-nsIFrameMessageManager
+nsIMessageBroadcaster
 )
 ;
 this
@@ -673,7 +673,7 @@ QueryInterface
 (
 Ci
 .
-nsIFrameMessageManager
+nsIMessageSender
 )
 ;
 switch
@@ -731,7 +731,7 @@ this
 .
 _browser
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 OpenWebapps
@@ -781,7 +781,7 @@ this
 .
 _browser
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 OpenWebapps
@@ -838,7 +838,7 @@ WebappsUI
 .
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 OpenWebapps
@@ -881,7 +881,7 @@ WebappsUI
 .
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 OpenWebapps
@@ -938,7 +938,7 @@ this
 .
 _browser
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 OpenWebapps
@@ -989,7 +989,7 @@ WebappsUI
 .
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 OpenWebapps
@@ -1051,7 +1051,7 @@ WebappsUI
 .
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 OpenWebapps
@@ -1540,7 +1540,7 @@ this
 .
 _browser
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 OpenWebapps
@@ -1888,7 +1888,7 @@ this
 .
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 OpenWebapps

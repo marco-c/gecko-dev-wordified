@@ -7177,6 +7177,11 @@ new
 nsFrameMessageManager
 (
 false
+/
+*
+aChrome
+*
+/
 SendSyncMessageToParent
 SendAsyncMessageToParent
 nullptr
@@ -7221,7 +7226,11 @@ TabChildGlobal
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIFrameMessageManager
+nsIMessageListenerManager
+)
+NS_INTERFACE_MAP_ENTRY
+(
+nsIMessageSender
 )
 NS_INTERFACE_MAP_ENTRY
 (

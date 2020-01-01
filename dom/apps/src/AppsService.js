@@ -261,13 +261,6 @@ getService
 (
 Ci
 .
-nsIFrameMessageManager
-)
-.
-QueryInterface
-(
-Ci
-.
 nsISyncMessageSender
 )
 ;

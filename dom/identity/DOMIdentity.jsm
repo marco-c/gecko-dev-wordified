@@ -742,7 +742,7 @@ DOMIdentity
 {
 /
 /
-nsIFrameMessageListener
+nsIMessageListener
 receiveMessage
 :
 function
@@ -1252,7 +1252,12 @@ messages
 )
 {
 func
+.
+call
 (
+aWindow
+.
+messageManager
 message
 this
 )

@@ -2650,7 +2650,7 @@ prototype
 {
 /
 /
-nsIFrameMessageListener
+nsIMessageListener
 receiveMessage
 :
 function
@@ -3264,7 +3264,7 @@ Ci
 nsIDOMGlobalPropertyInitializer
 Ci
 .
-nsIFrameMessageListener
+nsIMessageListener
 ]
 )
 classInfo

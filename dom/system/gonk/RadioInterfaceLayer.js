@@ -535,7 +535,7 @@ parentprocessmessagemanager
 1
 "
 "
-nsIFrameMessageManager
+nsIMessageBroadcaster
 "
 )
 ;
@@ -2395,7 +2395,7 @@ cardState
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -2723,7 +2723,7 @@ iccmbdn
 :
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -2856,20 +2856,6 @@ response
 return
 ;
 }
-let
-mm
-=
-msg
-.
-target
-.
-QueryInterface
-(
-Ci
-.
-nsIFrameMessageManager
-)
-;
 this
 .
 _messageManagerByRequest
@@ -2877,7 +2863,9 @@ _messageManagerByRequest
 requestId
 ]
 =
-mm
+msg
+.
+target
 ;
 }
 _sendRequestResults
@@ -2922,7 +2910,7 @@ return
 }
 target
 .
-sendAsyncMessage
+syncAsyncMessage
 (
 requestType
 options
@@ -3102,7 +3090,7 @@ operatorMessage
 {
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -3123,7 +3111,7 @@ operatorMessage
 {
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -3404,7 +3392,7 @@ batch
 {
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -3600,7 +3588,7 @@ batch
 {
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -3765,7 +3753,7 @@ gsmRelative
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -3825,7 +3813,7 @@ gsmRelative
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -3938,7 +3926,7 @@ message
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -3970,7 +3958,7 @@ message
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -4792,7 +4780,7 @@ updateCallAudioState
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -4875,7 +4863,7 @@ CALL_STATE_DISCONNECTED
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -5060,7 +5048,7 @@ message
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -5191,7 +5179,7 @@ message
 {
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -5603,7 +5591,7 @@ null
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -6117,7 +6105,7 @@ GECKO_NETWORK_STATE_CONNECTED
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL
@@ -6225,7 +6213,7 @@ ussd
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 RIL

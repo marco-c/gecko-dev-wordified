@@ -217,7 +217,7 @@ dy
 {
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 scrollBy
@@ -242,7 +242,7 @@ y
 {
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 scrollTo
@@ -267,7 +267,7 @@ h
 {
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 setViewport
@@ -294,7 +294,7 @@ h
 {
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 setDisplayPort
@@ -325,7 +325,7 @@ yres
 {
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 setResolution
@@ -603,7 +603,7 @@ start
 {
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 scrollBy

@@ -160,7 +160,7 @@ getService
 (
 Ci
 .
-nsIFrameMessageManager
+nsIMessageSender
 )
 ;
 }

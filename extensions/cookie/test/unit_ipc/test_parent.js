@@ -306,7 +306,7 @@ getService
 (
 Ci
 .
-nsIFrameMessageManager
+nsIMessageBroadcaster
 )
 ;
 var
@@ -441,7 +441,7 @@ now
 ;
 mM
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 TESTING

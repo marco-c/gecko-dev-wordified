@@ -91,7 +91,7 @@ QueryInterface
 (
 Ci
 .
-nsIFrameMessageListener
+nsIMessageListener
 )
 ;
 /
@@ -441,7 +441,7 @@ getService
 (
 Ci
 .
-nsIFrameMessageManager
+nsIMessageListenerManager
 )
 ;
 mM

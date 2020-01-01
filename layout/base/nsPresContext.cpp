@@ -484,7 +484,7 @@ h
 #
 include
 "
-nsIFrameMessageManager
+nsIMessageManager
 .
 h
 "

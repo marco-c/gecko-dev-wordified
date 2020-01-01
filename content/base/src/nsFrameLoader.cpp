@@ -12762,7 +12762,7 @@ nsFrameLoader
 :
 GetMessageManager
 (
-nsIChromeFrameMessageManager
+nsIMessageSender
 *
 *
 aManager
@@ -13275,7 +13275,7 @@ GetWindow
 ;
 nsCOMPtr
 <
-nsIChromeFrameMessageManager
+nsIMessageBroadcaster
 >
 parentManager
 ;
@@ -13309,6 +13309,11 @@ new
 nsFrameMessageManager
 (
 true
+/
+*
+aChrome
+*
+/
 nullptr
 SendAsyncMessageToChild
 LoadScript
@@ -13341,6 +13346,11 @@ new
 nsFrameMessageManager
 (
 true
+/
+*
+aChrome
+*
+/
 nullptr
 SendAsyncMessageToChild
 LoadScript

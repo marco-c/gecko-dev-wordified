@@ -176,7 +176,7 @@ getService
 (
 Ci
 .
-nsIChromeFrameMessageManager
+nsIMessageBroadcaster
 )
 ;
 /
@@ -707,7 +707,7 @@ index
 {
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Forms
@@ -736,7 +736,7 @@ value
 {
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Forms
@@ -765,7 +765,7 @@ indexes
 {
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Forms

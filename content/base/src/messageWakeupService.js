@@ -181,7 +181,7 @@ getService
 (
 Ci
 .
-nsIFrameMessageManager
+nsIMessageListenerManager
 )
 ;
 return
@@ -277,7 +277,7 @@ QueryInterface
 (
 Ci
 .
-nsIFrameMessageListener
+nsIMessageListener
 )
 ;
 let

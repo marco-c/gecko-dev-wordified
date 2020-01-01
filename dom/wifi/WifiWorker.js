@@ -8673,7 +8673,7 @@ getService
 (
 Ci
 .
-nsIFrameMessageManager
+nsIMessageListenerManager
 )
 ;
 const
@@ -12500,13 +12500,6 @@ manager
 aMessage
 .
 target
-.
-QueryInterface
-(
-Ci
-.
-nsIFrameMessageManager
-)
 ;
 switch
 (
