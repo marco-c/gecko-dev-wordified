@@ -1317,6 +1317,9 @@ f
 aChild
 ;
 f
+&
+&
+f
 !
 =
 aCommonAncestor
