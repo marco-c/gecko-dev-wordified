@@ -588,7 +588,7 @@ AndroidGraphicBuffer
 (
 )
 ;
-bool
+int
 Lock
 (
 PRUint32
@@ -600,7 +600,7 @@ char
 bits
 )
 ;
-bool
+int
 Lock
 (
 PRUint32
@@ -616,7 +616,7 @@ char
 bits
 )
 ;
-bool
+int
 Unlock
 (
 )

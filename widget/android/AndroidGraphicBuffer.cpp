@@ -1899,7 +1899,7 @@ return
 true
 ;
 }
-bool
+int
 AndroidGraphicBuffer
 :
 :
@@ -1936,12 +1936,9 @@ aUsage
 )
 bits
 )
-=
-=
-0
 ;
 }
-bool
+int
 AndroidGraphicBuffer
 :
 :
@@ -2026,12 +2023,9 @@ aUsage
 rect
 bits
 )
-=
-=
-0
 ;
 }
-bool
+int
 AndroidGraphicBuffer
 :
 :
@@ -2056,9 +2050,6 @@ fGraphicBufferUnlock
 (
 mHandle
 )
-=
-=
-0
 ;
 }
 bool
