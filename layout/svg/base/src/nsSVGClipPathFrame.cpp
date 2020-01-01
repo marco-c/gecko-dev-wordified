@@ -819,6 +819,10 @@ mClipParentMatrix
 =
 NULL
 ;
+mInUse
+=
+PR_FALSE
+;
 return
 NS_OK
 ;
