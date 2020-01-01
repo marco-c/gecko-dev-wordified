@@ -2987,14 +2987,11 @@ terminator
 /
 rv
 =
-SECITEM_ReallocItem
+SECITEM_ReallocItemV2
 (
 NULL
 &
 filedata
-filedata
-.
-len
 filedata
 .
 len
