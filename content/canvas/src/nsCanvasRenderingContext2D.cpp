@@ -1979,9 +1979,6 @@ gfxRect
 r
 )
 ;
-#
-ifdef
-MOZ_IPC
 /
 /
 Swap
@@ -2040,8 +2037,6 @@ PRInt32
 h
 )
 ;
-#
-endif
 /
 /
 nsISupports
@@ -5672,9 +5667,6 @@ NS_ERROR_NOT_IMPLEMENTED
 #
 endif
 }
-#
-ifdef
-MOZ_IPC
 NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
@@ -5700,6 +5692,9 @@ PRInt32
 h
 )
 {
+#
+ifdef
+MOZ_IPC
 /
 /
 Our
@@ -5995,9 +5990,14 @@ PR_TRUE
 return
 NS_OK
 ;
-}
+#
+else
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
 #
 endif
+}
 NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
