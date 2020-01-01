@@ -5240,6 +5240,9 @@ bool
 mAllowWindowControl
 ;
 bool
+mAllowContentRetargeting
+;
+bool
 mCreatingDocument
 ;
 /
