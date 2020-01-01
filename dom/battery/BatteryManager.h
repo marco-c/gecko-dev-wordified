@@ -509,14 +509,14 @@ BatteryManager
 public
 nsDOMEventTargetWrapperCache
 public
-nsIDOMBatteryManager
+nsIDOMMozBatteryManager
 public
 BatteryObserver
 {
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSIDOMBATTERYMANAGER
+NS_DECL_NSIDOMMOZBATTERYMANAGER
 NS_FORWARD_NSIDOMEVENTTARGET
 (
 nsDOMEventTargetWrapperCache
