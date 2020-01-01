@@ -5731,6 +5731,13 @@ if
 global
 )
 {
+JSAutoCompartment
+ac
+(
+mContext
+global
+)
+;
 JS_SetAllNonReservedSlotsToUndefined
 (
 mContext
