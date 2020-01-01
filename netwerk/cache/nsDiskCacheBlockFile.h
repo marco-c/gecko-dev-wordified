@@ -660,13 +660,13 @@ mFD
 (
 nsnull
 )
-mBlockSize
-(
-0
-)
 mBitMap
 (
 nsnull
+)
+mBlockSize
+(
+0
 )
 mBitMapDirty
 (
