@@ -1118,7 +1118,7 @@ Message
 msg
 Message
 *
-*
+&
 reply
 )
 {

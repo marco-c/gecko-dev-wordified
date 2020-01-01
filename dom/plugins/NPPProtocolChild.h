@@ -868,7 +868,7 @@ Message
 msg
 Message
 *
-*
+&
 reply
 )
 {
@@ -975,7 +975,6 @@ aWidth
 aHeight
 )
 ;
-*
 reply
 =
 new
@@ -984,10 +983,7 @@ NPP_ChildToParentMsg_Reply_NPP_SetWindow
 val0
 )
 ;
-(
-*
 reply
-)
 -
 >
 set_reply

@@ -889,7 +889,7 @@ Message
 msg
 Message
 *
-*
+&
 reply
 )
 {
@@ -926,7 +926,6 @@ NP_Initialize
 (
 )
 ;
-*
 reply
 =
 new
@@ -935,10 +934,7 @@ NPAPI_ChildToParentMsg_Reply_NP_Initialize
 val0
 )
 ;
-(
-*
 reply
-)
 -
 >
 set_reply
@@ -1089,7 +1085,6 @@ aNames
 aValues
 )
 ;
-*
 reply
 =
 new
@@ -1098,10 +1093,7 @@ NPAPI_ChildToParentMsg_Reply_NPP_New
 val0
 )
 ;
-(
-*
 reply
-)
 -
 >
 set_reply

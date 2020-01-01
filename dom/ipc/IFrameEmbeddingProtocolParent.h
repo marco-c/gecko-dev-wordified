@@ -270,7 +270,7 @@ Message
 msg
 Message
 *
-*
+&
 reply
 )
 {

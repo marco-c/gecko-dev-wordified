@@ -903,7 +903,7 @@ Message
 msg
 Message
 *
-*
+&
 reply
 )
 {
@@ -942,7 +942,6 @@ NPN_GetValue
 (
 )
 ;
-*
 reply
 =
 new
