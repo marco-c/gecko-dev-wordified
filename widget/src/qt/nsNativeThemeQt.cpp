@@ -2396,6 +2396,8 @@ aResult
 .
 width
 ;
+/
+/
 *
 aIsOverridable
 =
@@ -2442,6 +2444,8 @@ QStyle
 PM_ScrollBarSliderMin
 )
 ;
+/
+/
 *
 aIsOverridable
 =
@@ -2488,6 +2492,8 @@ QStyle
 PM_ScrollBarExtent
 )
 ;
+/
+/
 *
 aIsOverridable
 =
