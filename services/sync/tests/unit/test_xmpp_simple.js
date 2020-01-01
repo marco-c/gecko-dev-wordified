@@ -88,8 +88,6 @@ server
 disabling
 for
 now
-/
-/
 return
 ;
 /
