@@ -901,7 +901,7 @@ thing
 )
 {
 return
-js
+JS
 :
 :
 GCThingIsMarkedGray
@@ -1020,10 +1020,10 @@ JSTRACE_OBJECT
 else
 if
 (
-js
+JS
 :
 :
-IsIncrementalBarrierNeededOnObject
+IsIncrementalBarrierNeededOnGCThing
 (
 obj
 )
@@ -1072,10 +1072,10 @@ JSTRACE_SCRIPT
 else
 if
 (
-js
+JS
 :
 :
-IsIncrementalBarrierNeededOnScript
+IsIncrementalBarrierNeededOnGCThing
 (
 script
 )

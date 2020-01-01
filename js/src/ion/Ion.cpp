@@ -404,9 +404,6 @@ IonCode
 gc
 :
 :
-Cell
-:
-:
 CellSize
 =
 =

@@ -368,10 +368,6 @@ gcNursery
 )
 #
 endif
-needsBarrier_
-(
-false
-)
 ionUsingBarriers_
 (
 false
