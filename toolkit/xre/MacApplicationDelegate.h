@@ -467,10 +467,10 @@ it
 .
 #
 ifndef
-__MacApplicationDelegate_h__
+MacApplicationDelegate_h_
 #
 define
-__MacApplicationDelegate_h__
+MacApplicationDelegate_h_
 void
 EnsureUseCocoaDockAPI
 (
