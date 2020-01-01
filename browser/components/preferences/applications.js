@@ -5263,6 +5263,7 @@ case
 reader
 "
 :
+{
 let
 preferredApp
 =
@@ -5413,6 +5414,7 @@ nsIHandlerInfo
 .
 handleInternally
 ;
+}
 /
 /
 If
@@ -12818,12 +12820,14 @@ nsIHandlerInfo
 useHelperApp
 :
 let
+(
 preferredApp
 =
 aHandlerInfo
 .
 preferredApplicationHandler
-;
+)
+{
 if
 (
 this
@@ -12841,6 +12845,7 @@ _getIconURLForHandlerApp
 preferredApp
 )
 ;
+}
 break
 ;
 case
