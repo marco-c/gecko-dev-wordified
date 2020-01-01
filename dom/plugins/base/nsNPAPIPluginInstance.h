@@ -580,9 +580,6 @@ class
 nsIPluginInstanceOwner
 ;
 class
-nsIPluginStreamListener
-;
-class
 nsIOutputStream
 ;
 #
@@ -1182,7 +1179,7 @@ aURL
 void
 *
 notifyData
-nsIPluginStreamListener
+nsNPAPIPluginStreamListener
 *
 *
 listener

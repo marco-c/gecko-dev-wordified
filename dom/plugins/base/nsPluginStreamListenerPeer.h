@@ -737,7 +737,7 @@ aURL
 nsNPAPIPluginInstance
 *
 aInstance
-nsIPluginStreamListener
+nsNPAPIPluginStreamListener
 *
 aListener
 )
@@ -892,7 +892,7 @@ Set
 to
 true
 after
-nsIPluginStreamListener
+nsNPAPIPluginStreamListener
 :
 :
 OnStartBinding

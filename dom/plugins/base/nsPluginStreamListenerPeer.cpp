@@ -1861,7 +1861,7 @@ aURL
 nsNPAPIPluginInstance
 *
 aInstance
-nsIPluginStreamListener
+nsNPAPIPluginStreamListener
 *
 aListener
 )
@@ -1936,14 +1936,7 @@ aInstance
 ;
 mPStreamListener
 =
-static_cast
-<
-nsNPAPIPluginStreamListener
-*
->
-(
 aListener
-)
 ;
 mPStreamListener
 -
@@ -6147,9 +6140,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginStreamListener
+nsNPAPIPluginStreamListener
 >
 streamListener
 ;

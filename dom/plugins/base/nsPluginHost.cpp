@@ -529,13 +529,6 @@ h
 #
 include
 "
-nsIPluginStreamListener
-.
-h
-"
-#
-include
-"
 nsIHTTPHeaderListener
 .
 h
@@ -3946,7 +3939,7 @@ const
 char
 *
 target
-nsIPluginStreamListener
+nsNPAPIPluginStreamListener
 *
 streamListener
 const
@@ -4000,7 +3993,7 @@ const
 char
 *
 target
-nsIPluginStreamListener
+nsNPAPIPluginStreamListener
 *
 streamListener
 const
@@ -4048,7 +4041,7 @@ we
 also
 have
 a
-nsIPluginStreamListener
+nsNPAPIPluginStreamListener
 to
 talk
 to
@@ -4231,7 +4224,7 @@ const
 char
 *
 target
-nsIPluginStreamListener
+nsNPAPIPluginStreamListener
 *
 streamListener
 const
@@ -4282,7 +4275,7 @@ we
 also
 have
 a
-nsIPluginStreamListener
+nsNPAPIPluginStreamListener
 /
 /
 to
@@ -17418,7 +17411,7 @@ aURL
 nsNPAPIPluginInstance
 *
 aInstance
-nsIPluginStreamListener
+nsNPAPIPluginStreamListener
 *
 aListener
 nsIInputStream

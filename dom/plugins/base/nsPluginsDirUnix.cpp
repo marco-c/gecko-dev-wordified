@@ -448,13 +448,6 @@ h
 #
 include
 "
-nsIPluginStreamListener
-.
-h
-"
-#
-include
-"
 nsPluginsDir
 .
 h
