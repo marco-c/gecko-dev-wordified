@@ -1382,7 +1382,11 @@ strtoul_end
 |
 strtoul_result
 >
-MAX_INSTANCES
+(
+MAX_CALLS
+-
+1
+)
 )
 {
 /
