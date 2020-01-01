@@ -3421,12 +3421,6 @@ aIndex
 {
 NS_ASSERTION
 (
-0
-<
-=
-aIndex
-&
-&
 aIndex
 <
 mLength
