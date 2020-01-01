@@ -486,6 +486,13 @@ MAX_STACK_SLOTS
 =
 256
 ;
+static
+const
+uint32
+DOUBLE_STACK_ALIGNMENT
+=
+1
+;
 /
 /
 In
