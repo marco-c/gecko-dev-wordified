@@ -2336,7 +2336,7 @@ surfaceView
 .
 mKeyListener
 .
-onKeyUp
+onKeyDown
 (
 GeckoApp
 .
@@ -2440,7 +2440,7 @@ surfaceView
 .
 mKeyListener
 .
-onKeyDown
+onKeyUp
 (
 GeckoApp
 .
