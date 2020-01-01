@@ -282,7 +282,7 @@ NS_VK_AT
 /
 /
 NUM
-0
+NS_VK_F1
 /
 /
 HEADSETHOOK
