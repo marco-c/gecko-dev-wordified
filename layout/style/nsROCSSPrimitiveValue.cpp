@@ -2241,6 +2241,8 @@ aColor
 ErrorResult
 error
 ;
+NS_IF_ADDREF
+(
 *
 aColor
 =
@@ -2248,9 +2250,6 @@ GetRGBColorValue
 (
 error
 )
-.
-get
-(
 )
 ;
 return
@@ -2261,10 +2260,8 @@ ErrorCode
 )
 ;
 }
-already_AddRefed
-<
-nsIDOMRGBColor
->
+nsDOMCSSRGBColor
+*
 nsROCSSPrimitiveValue
 :
 :
@@ -2308,13 +2305,6 @@ never
 be
 null
 "
-)
-;
-NS_ADDREF
-(
-mValue
-.
-mColor
 )
 ;
 return

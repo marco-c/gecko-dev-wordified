@@ -376,10 +376,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
-<
-nsIDOMRGBColor
->
+nsDOMCSSRGBColor
+*
 GetRGBColorValue
 (
 mozilla
