@@ -831,6 +831,13 @@ sVirtualBounds
 =
 gScreenBounds
 ;
+nsAppShell
+:
+:
+NotifyScreenInitialized
+(
+)
+;
 }
 }
 nsWindow
