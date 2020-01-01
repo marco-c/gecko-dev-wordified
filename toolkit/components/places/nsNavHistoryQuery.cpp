@@ -4928,10 +4928,8 @@ unescaped
 /
 modifies
 input
-nsString
-tag
-=
 NS_ConvertUTF8toUTF16
+tag
 (
 unescaped
 )

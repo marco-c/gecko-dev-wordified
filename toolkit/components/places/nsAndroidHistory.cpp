@@ -545,10 +545,8 @@ rv
 return
 rv
 ;
-nsString
-uriString
-=
 NS_ConvertUTF8toUTF16
+uriString
 (
 uri
 )
@@ -681,10 +679,8 @@ rv
 return
 rv
 ;
-nsString
-uriString
-=
 NS_ConvertUTF8toUTF16
+uriString
 (
 uri
 )
@@ -824,10 +820,8 @@ rv
 return
 rv
 ;
-nsString
-uriString
-=
 NS_ConvertUTF8toUTF16
+uriString
 (
 uri
 )
