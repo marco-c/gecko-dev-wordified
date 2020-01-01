@@ -9216,6 +9216,14 @@ const
 ContextFlags
 )
 {
+#
+ifdef
+ANDROID
+return
+nsnull
+;
+#
+endif
 static
 bool
 triedToCreateContext
