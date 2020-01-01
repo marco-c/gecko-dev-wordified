@@ -588,9 +588,6 @@ mSleepWakeNotificationRLS
 io_object_t
 mPowerNotifier
 ;
-EventHandlerRef
-mEventMonitorHandler
-;
 CFMachPortRef
 mEventTapPort
 ;
