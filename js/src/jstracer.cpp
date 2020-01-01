@@ -25249,6 +25249,7 @@ MOZ_TRACEVIS
 TraceVisStateObj
 tvso
 (
+cx
 S_COMPILE
 )
 ;
@@ -38161,6 +38162,7 @@ MOZ_TRACEVIS
 TraceVisStateObj
 tvso
 (
+cx
 S_EXECUTE
 )
 ;
@@ -38926,6 +38928,7 @@ MOZ_TRACEVIS
 TraceVisStateObj
 tvso_n
 (
+cx
 S_NATIVE
 )
 ;
@@ -41478,6 +41481,7 @@ MOZ_TRACEVIS
 TraceVisStateObj
 tvso
 (
+cx
 S_MONITOR
 )
 ;
@@ -85489,6 +85493,12 @@ MOZ_TRACEVIS
 FILE
 *
 traceVisLogFile
+=
+NULL
+;
+JSHashTable
+*
+traceVisScriptTable
 =
 NULL
 ;
