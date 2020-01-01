@@ -217,10 +217,7 @@ freeBuffer
 (
 )
 {
-Foreground
-:
-:
-free_
+js_free
 (
 base
 )
@@ -312,10 +309,7 @@ void
 *
 data
 =
-OffTheBooks
-:
-:
-realloc_
+js_realloc
 (
 base
 newCapacity

@@ -1331,10 +1331,7 @@ calloc_
 size
 )
 :
-OffTheBooks
-:
-:
-calloc_
+js_calloc
 (
 size
 )
@@ -13300,10 +13297,7 @@ type
 break
 ;
 }
-UnwantedForeground
-:
-:
-free_
+js_free
 (
 srcbuf
 )

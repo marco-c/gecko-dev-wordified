@@ -259,10 +259,7 @@ if
 tmp
 )
 {
-cx
--
->
-free_
+js_free
 (
 buf
 )
@@ -423,10 +420,7 @@ if
 !
 str
 )
-cx
--
->
-free_
+js_free
 (
 buf
 )

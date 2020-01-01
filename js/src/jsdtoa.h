@@ -976,10 +976,7 @@ be
 *
 released
 via
-cx
--
->
-free_
+js_free
 (
 )
 .

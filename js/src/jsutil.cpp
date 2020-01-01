@@ -219,10 +219,7 @@ size
 )
 {
 return
-OffTheBooks
-:
-:
-malloc_
+js_malloc
 (
 items
 *
@@ -242,10 +239,7 @@ void
 addr
 )
 {
-Foreground
-:
-:
-free_
+js_free
 (
 addr
 )

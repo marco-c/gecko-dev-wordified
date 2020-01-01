@@ -12718,10 +12718,7 @@ cx
 )
 )
 {
-cx
--
->
-delete_
+js_delete
 (
 dbg
 )

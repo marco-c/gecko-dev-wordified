@@ -3343,10 +3343,7 @@ rt
 gcStartNumber
 )
 {
-Foreground
-:
-:
-delete_
+js_delete
 (
 shared
 )

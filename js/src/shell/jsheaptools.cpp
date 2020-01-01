@@ -3624,7 +3624,6 @@ false
 AutoReleasePtr
 releasePathName
 (
-context
 pathName
 )
 ;

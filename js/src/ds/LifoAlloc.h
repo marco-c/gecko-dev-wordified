@@ -1834,6 +1834,7 @@ T
 }
 JS_DECLARE_NEW_METHODS
 (
+new_
 alloc
 JS_ALWAYS_INLINE
 )

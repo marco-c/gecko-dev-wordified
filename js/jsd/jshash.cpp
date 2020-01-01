@@ -296,10 +296,7 @@ size
 )
 {
 return
-OffTheBooks
-:
-:
-malloc_
+js_malloc
 (
 size
 )
@@ -319,10 +316,7 @@ size_t
 size
 )
 {
-UnwantedForeground
-:
-:
-free_
+js_free
 (
 item
 )
@@ -347,10 +341,7 @@ return
 JSHashEntry
 *
 )
-OffTheBooks
-:
-:
-malloc_
+js_malloc
 (
 sizeof
 (
@@ -380,10 +371,7 @@ flag
 =
 HT_FREE_ENTRY
 )
-UnwantedForeground
-:
-:
-free_
+js_free
 (
 he
 )

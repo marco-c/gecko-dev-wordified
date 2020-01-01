@@ -2574,10 +2574,7 @@ TakeCharOwnership
 &
 chars
 )
-cx
--
->
-free_
+js_free
 (
 (
 void
@@ -3282,10 +3279,7 @@ chars
 =
 stackChars
 )
-Foreground
-:
-:
-free_
+js_free
 (
 chars
 )

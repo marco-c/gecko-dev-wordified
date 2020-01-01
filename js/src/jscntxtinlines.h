@@ -1101,10 +1101,7 @@ AutoPtr
 (
 )
 {
-cx
--
->
-delete_
+js_delete
 <
 T
 >
@@ -3214,13 +3211,7 @@ true
 ;
 parseMapPool_
 =
-js
-:
-:
-OffTheBooks
-:
-:
-new_
+js_new
 <
 js
 :
