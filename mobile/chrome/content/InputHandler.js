@@ -3949,6 +3949,12 @@ toolbar
 main
 '
 )
+this
+.
+reset
+(
+)
+;
 }
 addData
 :
@@ -4209,12 +4215,6 @@ aEvent
 break
 ;
 }
-this
-.
-reset
-(
-)
-;
 }
 /
 *
