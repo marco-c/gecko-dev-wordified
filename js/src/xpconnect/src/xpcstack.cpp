@@ -936,7 +936,7 @@ pc
 JS
 :
 :
-AutoEnterScriptCompartment
+AutoEnterFrameCompartment
 ac
 ;
 if
@@ -946,7 +946,7 @@ ac
 enter
 (
 cx
-script
+fp
 )
 )
 {
