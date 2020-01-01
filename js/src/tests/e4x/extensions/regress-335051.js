@@ -172,15 +172,6 @@ var
 summary
 =
 '
-E4X
-literals
-should
-be
-acceptable
-values
-for
-sharp
-variables
 '
 ;
 var
@@ -571,7 +562,7 @@ a
 /
 >
 "
-false
+true
 )
 ;
 testSyntax
@@ -588,7 +579,7 @@ testSyntax
 -
 >
 "
-false
+true
 )
 ;
 testSyntax
@@ -606,7 +597,7 @@ b
 a
 >
 "
-false
+true
 )
 ;
 testSyntax
@@ -629,7 +620,7 @@ a
 #
 ]
 "
-false
+true
 )
 ;
 testSyntax
@@ -645,7 +636,7 @@ a
 >
 )
 "
-false
+true
 )
 ;
 testSyntax
@@ -666,7 +657,7 @@ foo
 >
 )
 "
-false
+true
 )
 ;
 testSyntax
