@@ -1196,6 +1196,13 @@ OnIMESelectionChange
 void
 )
 ;
+NS_IMETHOD
+SetCursor
+(
+nsCursor
+aCursor
+)
+;
 /
 /
 Gets

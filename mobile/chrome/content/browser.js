@@ -20313,6 +20313,16 @@ nsIFrameLoader
 .
 RENDER_MODE_ASYNC_SCROLL
 ;
+fl
+.
+eventMode
+=
+Ci
+.
+nsIFrameLoader
+.
+EVENT_MODE_DONT_FORWARD_TO_CHILD
+;
 return
 browser
 ;
