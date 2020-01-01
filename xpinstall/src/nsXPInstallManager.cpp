@@ -8088,6 +8088,9 @@ file
 if
 (
 mItem
+&
+&
+mItem
 -
 >
 mFile
@@ -8184,6 +8187,10 @@ INSTALL_DONE
 errorcode
 )
 ;
+if
+(
+mItem
+)
 mTriggers
 -
 >
