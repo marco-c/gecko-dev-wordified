@@ -8205,15 +8205,6 @@ fontData
 .
 mWeight
 ;
-const
-nsCSSValue
-&
-stretch
-=
-fontData
-.
-mStretch
-;
 if
 (
 size
