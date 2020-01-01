@@ -14539,10 +14539,9 @@ annotation
 return
 NS_ERROR_FAILURE
 ;
-JS_SetFrameAnnotation
+JS_SetTopFrameAnnotation
 (
 cx
-fp
 annotation
 )
 ;

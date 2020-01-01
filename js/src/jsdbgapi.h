@@ -1552,14 +1552,11 @@ JS_PUBLIC_API
 (
 void
 )
-JS_SetFrameAnnotation
+JS_SetTopFrameAnnotation
 (
 JSContext
 *
 cx
-JSStackFrame
-*
-fp
 void
 *
 annotation
