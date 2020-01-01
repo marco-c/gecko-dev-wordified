@@ -268,6 +268,15 @@ mozIApplication
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 static
 nsPermissionManager
 *
@@ -782,6 +791,7 @@ NS_OK
 }
 class
 AppUninstallObserver
+MOZ_FINAL
 :
 public
 nsIObserver
