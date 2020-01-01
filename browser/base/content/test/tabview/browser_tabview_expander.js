@@ -1262,7 +1262,9 @@ is
 (
 group
 .
-topChild
+getTopChild
+(
+)
 children
 [
 1
@@ -1371,7 +1373,7 @@ smaller
 zIndex
 than
 second
-dhild
+child
 "
 )
 ;
@@ -1666,7 +1668,9 @@ is
 (
 group
 .
-topChild
+getTopChild
+(
+)
 children
 [
 1
