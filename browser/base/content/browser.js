@@ -24117,8 +24117,6 @@ null
 null
 )
 ;
-/
-/
 faviconService
 .
 setAndLoadFaviconForPage
