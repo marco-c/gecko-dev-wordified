@@ -1745,7 +1745,7 @@ Clear
 0
 NULL
 D3DCLEAR_TARGET
-0xffffffff
+0x00000000
 0
 0
 )
