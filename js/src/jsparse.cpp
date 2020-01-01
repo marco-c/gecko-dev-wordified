@@ -56915,6 +56915,10 @@ accum
 =
 NULL
 ;
+str
+=
+NULL
+;
 if
 (
 (
