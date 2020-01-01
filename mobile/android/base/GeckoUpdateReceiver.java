@@ -175,9 +175,11 @@ result
 ;
 if
 (
-GeckoApp
+GeckoAppShell
 .
-mAppContext
+getGeckoInterface
+(
+)
 !
 =
 null
@@ -189,9 +191,11 @@ result
 null
 )
 {
-GeckoApp
+GeckoAppShell
 .
-mAppContext
+getGeckoInterface
+(
+)
 .
 notifyCheckUpdateResult
 (

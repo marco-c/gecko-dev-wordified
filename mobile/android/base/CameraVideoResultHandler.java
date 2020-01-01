@@ -194,9 +194,15 @@ return
 Cursor
 cursor
 =
-GeckoApp
+GeckoAppShell
 .
-mAppContext
+getGeckoInterface
+(
+)
+.
+getActivity
+(
+)
 .
 managedQuery
 (

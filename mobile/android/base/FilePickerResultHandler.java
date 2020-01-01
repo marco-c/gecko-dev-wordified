@@ -292,9 +292,11 @@ try
 ContentResolver
 cr
 =
-GeckoApp
+GeckoAppShell
 .
-mAppContext
+getContext
+(
+)
 .
 getContentResolver
 (
@@ -467,9 +469,11 @@ GeckoLoader
 .
 getGREDir
 (
-GeckoApp
+GeckoAppShell
 .
-mAppContext
+getContext
+(
+)
 )
 )
 ;

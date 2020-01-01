@@ -2218,9 +2218,7 @@ this
 LayerView
 v
 =
-GeckoApp
-.
-mAppContext
+GeckoAppShell
 .
 getLayerView
 (
@@ -5042,9 +5040,7 @@ onCreateInputConnection
 LayerView
 v
 =
-GeckoApp
-.
-mAppContext
+GeckoAppShell
 .
 getLayerView
 (

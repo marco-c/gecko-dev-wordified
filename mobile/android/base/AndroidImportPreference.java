@@ -501,11 +501,9 @@ run
 (
 )
 {
-GeckoApp
+ThreadUtils
 .
-mAppContext
-.
-runOnUiThread
+postToUiThread
 (
 new
 Runnable

@@ -114,7 +114,7 @@ mozilla
 .
 gecko
 .
-GeckoApp
+GeckoAppShell
 ;
 import
 org
@@ -2470,9 +2470,7 @@ try
 LayerView
 layerView
 =
-GeckoApp
-.
-mAppContext
+GeckoAppShell
 .
 getLayerView
 (
