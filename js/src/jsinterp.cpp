@@ -11441,6 +11441,13 @@ graph
 ]
 )
 ;
+if
+(
+!
+graph
+)
+return
+;
 for
 (
 i

@@ -2300,9 +2300,12 @@ DTOBASESTR_BUFFER_SIZE
 ;
 if
 (
+!
 buffer
 )
-{
+return
+NULL
+;
 p
 =
 buffer
@@ -3735,7 +3738,6 @@ p
 0
 '
 ;
-}
 return
 buffer
 ;
