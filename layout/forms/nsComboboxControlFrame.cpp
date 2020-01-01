@@ -7504,6 +7504,10 @@ nsGkAtoms
 button
 nsnull
 kNameSpaceID_XHTML
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 /

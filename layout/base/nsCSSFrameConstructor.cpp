@@ -10047,6 +10047,10 @@ nsGkAtoms
 mozgeneratedcontentimage
 nsnull
 kNameSpaceID_XHTML
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 nsCOMPtr
@@ -11044,6 +11048,10 @@ GetNodeInfo
 elemName
 nsnull
 kNameSpaceID_None
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 nsCOMPtr

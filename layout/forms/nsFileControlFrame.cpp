@@ -1532,6 +1532,10 @@ nsGkAtoms
 input
 nsnull
 kNameSpaceID_XHTML
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 /
@@ -1890,6 +1894,10 @@ nsGkAtoms
 input
 nsnull
 kNameSpaceID_XHTML
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 NS_NewHTMLElement
@@ -2055,6 +2063,10 @@ nsGkAtoms
 input
 nsnull
 kNameSpaceID_XHTML
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 NS_NewHTMLElement

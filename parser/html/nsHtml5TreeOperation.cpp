@@ -2377,6 +2377,10 @@ GetNodeInfo
 name
 nsnull
 ns
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 NS_ASSERTION
@@ -2613,6 +2617,10 @@ nsHtml5Atoms
 option
 nsnull
 kNameSpaceID_XHTML
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 for

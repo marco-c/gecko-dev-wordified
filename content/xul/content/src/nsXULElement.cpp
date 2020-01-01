@@ -2221,6 +2221,10 @@ ni
 NamespaceID
 (
 )
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 NS_ENSURE_TRUE
@@ -16112,6 +16116,10 @@ Atom
 )
 nsnull
 kNameSpaceID_None
+nsIDOMNode
+:
+:
+ATTRIBUTE_NODE
 )
 ;
 NS_ASSERTION

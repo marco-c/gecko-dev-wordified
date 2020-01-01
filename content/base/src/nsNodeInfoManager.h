@@ -617,6 +617,13 @@ nsIAtom
 aPrefix
 PRInt32
 aNamespaceID
+PRUint16
+aNodeType
+nsIAtom
+*
+aExtraName
+=
+nsnull
 )
 ;
 nsresult
@@ -631,6 +638,8 @@ nsIAtom
 aPrefix
 PRInt32
 aNamespaceID
+PRUint16
+aNodeType
 nsINodeInfo
 *
 *
@@ -651,6 +660,8 @@ const
 nsAString
 &
 aNamespaceURI
+PRUint16
+aNodeType
 nsINodeInfo
 *
 *

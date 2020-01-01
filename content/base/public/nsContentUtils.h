@@ -3203,6 +3203,8 @@ aQualifiedName
 nsNodeInfoManager
 *
 aNodeInfoManager
+PRUint16
+aNodeType
 nsINodeInfo
 *
 *
@@ -4094,6 +4096,18 @@ aNodeInfo
 -
 >
 NamespaceID
+(
+)
+aNodeInfo
+-
+>
+NodeType
+(
+)
+aNodeInfo
+-
+>
+GetExtraName
 (
 )
 )
