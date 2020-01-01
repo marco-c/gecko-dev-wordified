@@ -415,7 +415,7 @@ session
 .
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -451,7 +451,7 @@ null
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -486,7 +486,7 @@ return
 }
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -517,7 +517,7 @@ keys
 .
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -825,7 +825,7 @@ null
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -855,7 +855,7 @@ defaultKeyChanged
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -904,7 +904,7 @@ key
 .
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -1240,7 +1240,7 @@ timestamp
 .
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -1333,7 +1333,7 @@ keys
 .
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "

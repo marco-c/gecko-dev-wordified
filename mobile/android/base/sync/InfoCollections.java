@@ -696,7 +696,7 @@ NonObjectJSONException
 {
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "

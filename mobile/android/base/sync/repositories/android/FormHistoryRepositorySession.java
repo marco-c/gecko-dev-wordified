@@ -1851,7 +1851,7 @@ delegate
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -2085,7 +2085,7 @@ delegate
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -2119,7 +2119,7 @@ delegate
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "

@@ -2095,9 +2095,16 @@ JSON_KEY_SERVER
 serverURL
 )
 ;
+if
+(
 Logger
 .
-debug
+LOG_PERSONAL_INFORMATION
+)
+{
+Logger
+.
+pii
 (
 LOG_TAG
 "
@@ -2114,6 +2121,7 @@ toJSONString
 )
 )
 ;
+}
 return
 jAccount
 ;

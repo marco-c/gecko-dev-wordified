@@ -1319,7 +1319,7 @@ NullCursorException
 {
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -1354,7 +1354,7 @@ close
 ;
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -2161,7 +2161,7 @@ initialized
 }
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "

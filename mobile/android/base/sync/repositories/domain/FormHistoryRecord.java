@@ -670,6 +670,10 @@ FormHistoryRecord
 "
 +
 o
+.
+getClass
+(
+)
 )
 ;
 return

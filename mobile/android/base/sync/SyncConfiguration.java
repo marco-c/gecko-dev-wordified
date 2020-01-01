@@ -1462,7 +1462,7 @@ u
 ;
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -1531,7 +1531,7 @@ null
 ;
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -2451,7 +2451,7 @@ prefs
 ;
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
