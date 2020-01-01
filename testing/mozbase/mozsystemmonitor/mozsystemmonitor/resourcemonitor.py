@@ -59,13 +59,28 @@ import
 sys
 import
 time
+#
+psutil
+will
+raise
+NotImplementedError
+if
+the
+platform
+is
+not
+supported
+.
 try
 :
     
 import
 psutil
 except
+(
 ImportError
+NotImplementedError
+)
 :
     
 psutil
