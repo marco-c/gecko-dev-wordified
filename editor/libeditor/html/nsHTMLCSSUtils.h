@@ -1274,7 +1274,7 @@ in
 prefs
 *
 /
-nsresult
+void
 GetDefaultBackgroundColor
 (
 nsAString
@@ -1315,7 +1315,7 @@ in
 prefs
 *
 /
-nsresult
+void
 GetDefaultLengthUnit
 (
 nsAString
