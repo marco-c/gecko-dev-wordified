@@ -9828,16 +9828,6 @@ level
 (
 )
 ;
-JS_ASSERT
-(
-targetLevel
-<
-UpvarCookie
-:
-:
-UPVAR_LEVEL_LIMIT
-)
-;
 StackFrame
 *
 fp
