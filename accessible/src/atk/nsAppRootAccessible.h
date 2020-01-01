@@ -600,12 +600,6 @@ Create
 ;
 static
 void
-Load
-(
-)
-;
-static
-void
 Unload
 (
 )
