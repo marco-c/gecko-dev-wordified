@@ -6354,7 +6354,7 @@ state
 &
 GeckoAppShell
 .
-WPL_STATE_IS_DOCUMENT
+WPL_STATE_IS_NETWORK
 )
 !
 =

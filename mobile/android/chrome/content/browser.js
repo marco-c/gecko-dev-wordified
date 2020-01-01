@@ -10685,7 +10685,7 @@ Ci
 .
 nsIWebProgressListener
 .
-STATE_IS_DOCUMENT
+STATE_IS_NETWORK
 )
 {
 /
@@ -10696,7 +10696,7 @@ optimization
 Only
 really
 send
-DOCUMENT
+NETWORK
 state
 changes
 to
