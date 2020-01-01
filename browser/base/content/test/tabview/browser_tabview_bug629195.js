@@ -960,7 +960,7 @@ stringify
 (
 newState
 )
-false
+true
 )
 ;
 }
