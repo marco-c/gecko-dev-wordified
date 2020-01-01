@@ -497,6 +497,9 @@ class
 CellDrawView
 ;
 class
+NSProgressBarCell
+;
+class
 nsDeviceContext
 ;
 class
@@ -1071,6 +1074,10 @@ mDropdownCell
 NSComboBoxCell
 *
 mComboBoxCell
+;
+NSProgressBarCell
+*
+mProgressBarCell
 ;
 CellDrawView
 *
