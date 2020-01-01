@@ -4412,11 +4412,7 @@ switchop
 ifdef
 NANOJIT_IA32
 JS_REQUIRES_STACK
-nanojit
-:
-:
-LIns
-*
+JSRecordingStatus
 tableswitch
 (
 )
