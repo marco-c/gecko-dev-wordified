@@ -1147,6 +1147,12 @@ NOT
 NULL
 "
 "
+object_store_autoincrement
+INTERGER
+NOT
+NULL
+"
+"
 PRIMARY
 KEY
 (
