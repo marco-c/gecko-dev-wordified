@@ -8642,6 +8642,7 @@ None
 )
         
 if
+(
 not
 descriptor
 .
@@ -8652,6 +8653,7 @@ and
 not
 static
 and
+            
 descriptor
 .
 nativeOwnership
@@ -8660,6 +8662,16 @@ nativeOwnership
 '
 nsisupports
 '
+and
+            
+descriptor
+.
+interface
+.
+hasInterfacePrototypeObject
+(
+)
+)
 :
             
 self
