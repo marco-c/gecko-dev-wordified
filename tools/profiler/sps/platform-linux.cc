@@ -283,6 +283,15 @@ h
 #
 include
 "
+v8
+-
+support
+.
+h
+"
+#
+include
+"
 platform
 .
 h
@@ -1269,8 +1278,6 @@ signalno
 )
 ;
 }
-/
-/
 class
 Sampler
 :
@@ -1279,12 +1286,6 @@ PlatformData
 :
 public
 Malloced
-{
-class
-Sampler
-:
-:
-PlatformData
 {
 public
 :
