@@ -13549,9 +13549,13 @@ setString
 str
 )
 ;
+len
+=
+JSOP_GETELEM_LENGTH
+;
 DO_NEXT_OP
 (
-JSOP_GETELEM_LENGTH
+len
 )
 ;
 }
