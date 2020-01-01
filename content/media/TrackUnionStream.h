@@ -1735,6 +1735,8 @@ ticks
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 TrackUnionStream
@@ -1909,6 +1911,8 @@ inputEndTicks
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 TrackUnionStream

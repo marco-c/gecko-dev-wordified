@@ -776,6 +776,8 @@ mStateComputedTime
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 Calling
@@ -1307,6 +1309,8 @@ GetSegment
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 SourceMediaStream
@@ -2354,6 +2358,8 @@ now
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 Updating
@@ -2833,6 +2839,8 @@ this
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 MediaStream
@@ -3062,6 +3070,8 @@ aTime
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 MediaStream
@@ -3184,6 +3194,8 @@ aTime
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 MediaStream
@@ -3806,6 +3818,8 @@ false
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 Media
@@ -3984,6 +3998,8 @@ true
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 Media
@@ -4516,6 +4532,8 @@ aTime
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 MediaStream
@@ -4557,6 +4575,8 @@ else
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 MediaStream
@@ -4653,6 +4673,8 @@ explicitBlock
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 MediaStream
@@ -5726,6 +5748,8 @@ startTicks
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 MediaStream
@@ -5937,6 +5961,8 @@ volume
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 MediaStream
@@ -6230,6 +6256,8 @@ return
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 MediaStream
@@ -7730,6 +7758,8 @@ timeoutMS
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 Waiting
@@ -7791,6 +7821,8 @@ timeout
 LOG
 (
 PR_LOG_DEBUG
++
+1
 (
 "
 Resuming
