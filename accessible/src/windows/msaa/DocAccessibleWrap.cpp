@@ -454,7 +454,7 @@ aPresShell
 )
 mHWND
 (
-NULL
+nullptr
 )
 {
 }
@@ -651,7 +651,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -733,7 +733,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aURL
 =
-NULL
+nullptr
 ;
 nsAutoString
 URL
@@ -819,7 +819,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aTitle
 =
-NULL
+nullptr
 ;
 nsAutoString
 title
@@ -894,7 +894,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aMimeType
 =
-NULL
+nullptr
 ;
 nsAutoString
 mimeType
@@ -980,7 +980,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aDocType
 =
-NULL
+nullptr
 ;
 nsAutoString
 docType
@@ -1075,7 +1075,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aNameSpaceURI
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1177,7 +1177,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aCommaSeparatedMediaTypes
 =
-NULL
+nullptr
 ;
 return
 E_NOTIMPL
@@ -1238,7 +1238,7 @@ accValue
 *
 pszValue
 =
-NULL
+nullptr
 ;
 /
 /

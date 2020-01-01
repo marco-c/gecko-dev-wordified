@@ -4990,7 +4990,7 @@ some
 circumstances
 can
 be
-NULL
+nullptr
 .
 See
 bug

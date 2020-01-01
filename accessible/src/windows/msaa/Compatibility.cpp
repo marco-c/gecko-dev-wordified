@@ -239,7 +239,7 @@ VS_FIXEDFILEINFO
 *
 fixedFileInfo
 =
-NULL
+nullptr
 ;
 :
 :

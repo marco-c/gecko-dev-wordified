@@ -331,7 +331,7 @@ Calling
 ClearCacheEntry
 with
 a
-NULL
+nullptr
 pointer
 !
 "

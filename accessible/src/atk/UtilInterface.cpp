@@ -327,7 +327,7 @@ GHashTable
 *
 sListener_list
 =
-NULL
+nullptr
 ;
 static
 gint
@@ -695,7 +695,7 @@ if
 listener_info
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -946,7 +946,7 @@ g_assert_not_reached
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 event
@@ -1199,7 +1199,7 @@ GHashTable
 *
 sKey_listener_list
 =
-NULL
+nullptr
 ;
 static
 gint
@@ -1253,8 +1253,8 @@ new_hash
 =
 g_hash_table_new
 (
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 g_hash_table_foreach
@@ -1362,8 +1362,8 @@ sKey_listener_list
 =
 g_hash_table_new
 (
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 sKey_snooper_id
@@ -1793,7 +1793,7 @@ g_hash_table_new_full
 (
 g_int_hash
 g_int_equal
-NULL
+nullptr
 _listener_info_destroy
 )
 ;
@@ -1830,7 +1830,7 @@ add
 GCallback
 )
 window_added
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -1848,7 +1848,7 @@ remove
 GCallback
 )
 window_removed
-NULL
+nullptr
 )
 ;
 }
@@ -1883,7 +1883,7 @@ MaiUtilClass
 (
 GBaseInitFunc
 )
-NULL
+nullptr
 /
 *
 base
@@ -1893,7 +1893,7 @@ init
 (
 GBaseFinalizeFunc
 )
-NULL
+nullptr
 /
 *
 base
@@ -1913,14 +1913,14 @@ init
 (
 GClassFinalizeFunc
 )
-NULL
+nullptr
 /
 *
 class
 finalize
 *
 /
-NULL
+nullptr
 /
 *
 class
@@ -1947,14 +1947,14 @@ preallocs
 (
 GInstanceInitFunc
 )
-NULL
+nullptr
 /
 *
 instance
 init
 *
 /
-NULL
+nullptr
 /
 *
 value

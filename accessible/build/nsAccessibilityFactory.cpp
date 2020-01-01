@@ -267,11 +267,11 @@ kA11yCIDs
 &
 kNS_ACCESSIBILITY_SERVICE_CID
 false
-NULL
+nullptr
 NS_ConstructAccessibilityService
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -316,7 +316,7 @@ accessibleRetrieval
 kNS_ACCESSIBILITY_SERVICE_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

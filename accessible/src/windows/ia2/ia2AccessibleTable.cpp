@@ -199,7 +199,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -418,7 +418,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aAccessible
 =
-NULL
+nullptr
 ;
 if
 (
@@ -589,7 +589,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aDescription
 =
-NULL
+nullptr
 ;
 if
 (
@@ -790,7 +790,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aAccessibleTable
 =
-NULL
+nullptr
 ;
 *
 aStartingRowIndex
@@ -1074,7 +1074,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aDescription
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1275,7 +1275,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aAccessibleTable
 =
-NULL
+nullptr
 ;
 *
 aStartingColumnIndex
@@ -1385,7 +1385,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aChildren
 =
-NULL
+nullptr
 ;
 *
 aNChildren
@@ -1621,7 +1621,7 @@ IAccessible2
 *
 aAccessible
 =
-NULL
+nullptr
 ;
 return
 S_FALSE
@@ -2373,7 +2373,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aCell
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2495,7 +2495,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aCells
 =
-NULL
+nullptr
 ;
 *
 aNSelectedCells
@@ -2671,7 +2671,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aColumns
 =
-NULL
+nullptr
 ;
 *
 aNColumns
@@ -2798,7 +2798,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aRows
 =
-NULL
+nullptr
 ;
 *
 aNRows

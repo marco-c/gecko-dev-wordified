@@ -199,7 +199,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -345,7 +345,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aTable
 =
-NULL
+nullptr
 ;
 if
 (
@@ -479,7 +479,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aCellAccessibles
 =
-NULL
+nullptr
 ;
 *
 aNColumnHeaderCells
@@ -730,7 +730,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aCellAccessibles
 =
-NULL
+nullptr
 ;
 *
 aNRowHeaderCells

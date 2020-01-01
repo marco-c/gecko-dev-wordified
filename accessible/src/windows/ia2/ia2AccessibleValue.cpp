@@ -166,7 +166,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
