@@ -1196,10 +1196,12 @@ if
 !
 shouldLoad
 )
+{
 if
 (
 fromPrefs
 )
+{
 *
 aDecision
 =
@@ -1208,7 +1210,9 @@ nsIContentPolicy
 :
 REJECT_TYPE
 ;
+}
 else
+{
 *
 aDecision
 =
@@ -1217,6 +1221,8 @@ nsIContentPolicy
 :
 REJECT_SERVER
 ;
+}
+}
 if
 (
 aContentType
