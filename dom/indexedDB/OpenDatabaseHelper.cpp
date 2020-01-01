@@ -483,6 +483,10 @@ IndexedDatabaseManager
 .
 h
 "
+using
+namespace
+mozilla
+;
 USING_INDEXEDDB_NAMESPACE
 namespace
 {
