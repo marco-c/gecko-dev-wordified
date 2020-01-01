@@ -5234,6 +5234,11 @@ JSAtom
 *
 atom
 ;
+CHECK_REQUEST
+(
+cx
+)
+;
 /
 *
 *
@@ -5448,6 +5453,11 @@ flags
 {
 JSString
 str
+;
+CHECK_REQUEST
+(
+cx
+)
 ;
 str
 .
