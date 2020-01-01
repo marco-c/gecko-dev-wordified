@@ -4831,7 +4831,7 @@ StyleContext
 )
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 -

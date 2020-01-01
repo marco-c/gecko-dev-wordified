@@ -414,6 +414,11 @@ uint32_t
 "
 )
 ;
+MOZ_ASSERT
+(
+aRuleNode
+)
+;
 mNextSibling
 =
 this
@@ -452,7 +457,7 @@ r1
 mParent
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 *

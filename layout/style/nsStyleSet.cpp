@@ -1176,7 +1176,7 @@ i
 ]
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 ;
@@ -4856,7 +4856,7 @@ NS_ABORT_IF_FALSE
 result
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 =
@@ -4904,7 +4904,7 @@ GetStyleIfVisited
 )
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 =
@@ -7546,7 +7546,7 @@ SetCurrentNode
 aBaseContext
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 )
@@ -7651,7 +7651,7 @@ GetStyleIfVisited
 )
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 )
@@ -10123,7 +10123,7 @@ ruleNode
 aStyleContext
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 ;
@@ -10297,7 +10297,7 @@ visitedRuleNode
 visitedContext
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 ;

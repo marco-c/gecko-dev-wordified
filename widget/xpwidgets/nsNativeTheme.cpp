@@ -314,7 +314,7 @@ StyleContext
 )
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 -

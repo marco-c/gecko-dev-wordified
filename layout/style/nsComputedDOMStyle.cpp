@@ -1937,7 +1937,7 @@ ruleNode
 sc
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 ;

@@ -16791,7 +16791,7 @@ aIsContextSensitive
 tmpStyleContext
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 -

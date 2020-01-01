@@ -761,7 +761,7 @@ aPseudoTag
 /
 /
 *
-GetRuleNode
+RuleNode
 (
 )
 matches
@@ -792,7 +792,7 @@ GetStyleIfVisited
 )
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 =
@@ -1626,7 +1626,7 @@ undef
 STYLE_STRUCT_INHERITED
 nsRuleNode
 *
-GetRuleNode
+RuleNode
 (
 )
 {

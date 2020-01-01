@@ -2420,7 +2420,7 @@ aRuleNode
 sContext
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 ;
