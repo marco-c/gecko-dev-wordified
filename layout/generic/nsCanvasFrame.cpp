@@ -815,8 +815,8 @@ aListID
 !
 =
 kPrincipalList
-|
-|
+&
+&
 aListID
 !
 =
