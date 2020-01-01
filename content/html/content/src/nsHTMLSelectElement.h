@@ -2252,6 +2252,16 @@ aCompileEventHandlers
 )
 ;
 virtual
+void
+UnbindFromTree
+(
+PRBool
+aDeep
+PRBool
+aNullParent
+)
+;
+virtual
 nsresult
 BeforeSetAttr
 (
