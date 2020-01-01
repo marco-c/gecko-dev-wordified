@@ -18747,7 +18747,7 @@ aData
 ;
 for
 (
-int
+PRUint32
 j
 =
 0
@@ -18763,7 +18763,7 @@ j
 {
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -19110,9 +19110,6 @@ PRUint32
 aDataLen
 )
 {
-nsresult
-rv
-;
 if
 (
 !
@@ -19226,7 +19223,7 @@ Data
 ;
 for
 (
-int
+PRUint32
 j
 =
 0
@@ -19242,7 +19239,7 @@ j
 {
 for
 (
-int
+PRUint32
 i
 =
 0
