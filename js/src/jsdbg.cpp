@@ -515,12 +515,12 @@ Forward
 declarations
 extern
 Class
-Frame_class
+DebugFrame_class
 ;
 enum
 {
-JSSLOT_FRAME_OWNER
-JSSLOT_FRAME_COUNT
+JSSLOT_DEBUGFRAME_OWNER
+JSSLOT_DEBUGFRAME_COUNT
 }
 ;
 /
@@ -1041,7 +1041,7 @@ Given
 (
 cx
 &
-Frame_class
+DebugFrame_class
 proto
 NULL
 )
@@ -1077,7 +1077,7 @@ frameobj
 >
 setReservedSlot
 (
-JSSLOT_FRAME_OWNER
+JSSLOT_DEBUGFRAME_OWNER
 ObjectValue
 (
 *
@@ -4019,7 +4019,7 @@ Debug
 .
 Frame
 Class
-Frame_class
+DebugFrame_class
 =
 {
 "
@@ -4029,7 +4029,7 @@ JSCLASS_HAS_PRIVATE
 |
 JSCLASS_HAS_RESERVED_SLOTS
 (
-JSSLOT_FRAME_COUNT
+JSSLOT_DEBUGFRAME_COUNT
 )
 PropertyStub
 PropertyStub
@@ -4106,7 +4106,7 @@ getClass
 !
 =
 &
-Frame_class
+DebugFrame_class
 )
 {
 JS_ReportErrorNumber
@@ -4182,7 +4182,7 @@ thisobj
 >
 getReservedSlot
 (
-JSSLOT_FRAME_OWNER
+JSSLOT_DEBUGFRAME_OWNER
 )
 .
 isUndefined
@@ -4289,7 +4289,7 @@ getPrivate
 (
 )
 JSBool
-Frame_getType
+DebugFrame_getType
 (
 JSContext
 *
@@ -4393,7 +4393,7 @@ true
 ;
 }
 JSBool
-Frame_getGenerator
+DebugFrame_getGenerator
 (
 JSContext
 *
@@ -4435,7 +4435,7 @@ true
 ;
 }
 JSBool
-Frame_getLive
+DebugFrame_getLive
 (
 JSContext
 *
@@ -4500,7 +4500,7 @@ true
 ;
 }
 JSBool
-Frame_construct
+DebugFrame_construct
 (
 JSContext
 *
@@ -4530,7 +4530,7 @@ false
 ;
 }
 JSPropertySpec
-Frame_properties
+DebugFrame_properties
 [
 ]
 =
@@ -4540,7 +4540,7 @@ JS_PSG
 "
 type
 "
-Frame_getType
+DebugFrame_getType
 0
 )
 JS_PSG
@@ -4548,7 +4548,7 @@ JS_PSG
 "
 generator
 "
-Frame_getGenerator
+DebugFrame_getGenerator
 0
 )
 JS_PSG
@@ -4556,7 +4556,7 @@ JS_PSG
 "
 live
 "
-Frame_getLive
+DebugFrame_getLive
 0
 )
 JS_PS_END
@@ -4668,10 +4668,10 @@ cx
 debugCtor
 objProto
 &
-Frame_class
-Frame_construct
+DebugFrame_class
+DebugFrame_construct
 0
-Frame_properties
+DebugFrame_properties
 NULL
 NULL
 NULL
