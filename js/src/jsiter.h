@@ -661,8 +661,9 @@ vp
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
+JS_FASTCALL
 js_CloseIterator
 (
 JSContext
