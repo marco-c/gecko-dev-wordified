@@ -15360,6 +15360,11 @@ if
 aOldAddon
 .
 bootstrap
+&
+&
+aOldAddon
+.
+active
 )
 {
 let
