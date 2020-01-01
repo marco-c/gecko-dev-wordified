@@ -1992,8 +1992,9 @@ if
 aID
 )
 throw
-new
-Error
+Components
+.
+Exception
 (
 "
 An
@@ -2003,6 +2004,9 @@ have
 an
 ID
 "
+Cr
+.
+NS_ERROR_INVALID_ARG
 )
 ;
 if
@@ -2017,8 +2021,9 @@ aUIPriority
 undefined
 )
 throw
-new
-Error
+Components
+.
+Exception
 (
 "
 An
@@ -2034,6 +2039,9 @@ set
 UI
 priority
 "
+Cr
+.
+NS_ERROR_INVALID_ARG
 )
 ;
 if
@@ -2042,8 +2050,9 @@ if
 aLocaleKey
 )
 throw
-new
-Error
+Components
+.
+Exception
 (
 "
 An
@@ -2054,6 +2063,9 @@ a
 displayable
 name
 "
+Cr
+.
+NS_ERROR_INVALID_ARG
 )
 ;
 this
