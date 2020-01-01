@@ -618,7 +618,11 @@ h
 #
 include
 "
-jsstrinlines
+vm
+/
+Stack
+-
+inl
 .
 h
 "
@@ -627,7 +631,7 @@ include
 "
 vm
 /
-Stack
+StringBuffer
 -
 inl
 .

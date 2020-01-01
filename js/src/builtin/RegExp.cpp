@@ -495,6 +495,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+StringBuffer
+-
+inl
+.
+h
+"
 using
 namespace
 js
