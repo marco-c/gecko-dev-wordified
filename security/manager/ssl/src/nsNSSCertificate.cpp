@@ -898,12 +898,13 @@ CERT_TYPE_NOT_YET_INITIALIZED
 nsNSSCertificate
 *
 /
-NS_IMPL_THREADSAFE_ISUPPORTS4
+NS_IMPL_THREADSAFE_ISUPPORTS5
 (
 nsNSSCertificate
 nsIX509Cert
 nsIX509Cert2
 nsIX509Cert3
+nsIIdentityInfo
 nsISMimeCert
 )
 nsNSSCertificate
