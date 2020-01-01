@@ -2580,7 +2580,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertNode
@@ -3412,7 +3412,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertNode
@@ -4517,7 +4517,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 deleteNode
@@ -5558,7 +5558,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 deleteNode
@@ -5741,7 +5741,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 deleteNode
@@ -5984,7 +5984,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 deleteNode
@@ -6991,7 +6991,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 deleteNode
@@ -7476,7 +7476,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 deleteNode
@@ -10049,7 +10049,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertNode
@@ -11346,7 +11346,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertNode
@@ -12975,7 +12975,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 deleteNode
@@ -13780,7 +13780,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 deleteNode
@@ -14910,7 +14910,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertNode

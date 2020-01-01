@@ -769,7 +769,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertElement
@@ -799,7 +799,7 @@ handled
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 setTextProperty
@@ -8576,7 +8576,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 resetTextProperties
@@ -8795,7 +8795,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 removeTextProperty
@@ -8825,7 +8825,7 @@ handled
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 removeTextProperty
@@ -10088,7 +10088,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 setTextProperty

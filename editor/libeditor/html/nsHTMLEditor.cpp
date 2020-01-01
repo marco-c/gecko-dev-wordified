@@ -7048,7 +7048,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 ignore
@@ -9147,7 +9147,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertElement
@@ -9201,7 +9201,7 @@ handled
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 insertElement
@@ -12082,7 +12082,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 makeList
@@ -12116,7 +12116,7 @@ NS_ERROR_NULL_POINTER
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 makeList
@@ -12518,7 +12518,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 removeList
@@ -12552,7 +12552,7 @@ NS_ERROR_NULL_POINTER
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 removeList
@@ -12701,7 +12701,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 makeDefListItem
@@ -12735,7 +12735,7 @@ NS_ERROR_NULL_POINTER
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 makeDefListItem
@@ -12877,7 +12877,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 makeBasicBlock
@@ -12911,7 +12911,7 @@ NS_ERROR_NULL_POINTER
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 makeBasicBlock
@@ -13262,10 +13262,10 @@ bool
 cancel
 handled
 ;
-OperationID
+EditAction
 opID
 =
-OperationID
+EditAction
 :
 :
 indent
@@ -13284,7 +13284,7 @@ outdent
 {
 opID
 =
-OperationID
+EditAction
 :
 :
 outdent
@@ -13752,7 +13752,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 align
@@ -13801,7 +13801,7 @@ NS_ERROR_NULL_POINTER
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 align
@@ -20831,7 +20831,7 @@ nsHTMLEditor
 :
 StartOperation
 (
-OperationID
+EditAction
 opID
 nsIEditor
 :
@@ -28344,7 +28344,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertElement
@@ -28374,7 +28374,7 @@ handled
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 setTextProperty
