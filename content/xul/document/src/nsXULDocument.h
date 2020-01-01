@@ -3822,8 +3822,11 @@ nsDelayedBroadcastUpdate
 >
 mDelayedAttrChangeBroadcasts
 ;
-PRBool
+PRPackedBool
 mHandlingDelayedAttrChange
+;
+PRPackedBool
+mHandlingDelayedBroadcasters
 ;
 void
 MaybeBroadcast
