@@ -2021,7 +2021,13 @@ proxiedDocShell
 nsISecureBrowserUI
 *
 secureUI
+=
+nsnull
 ;
+if
+(
+proxiedDocShell
+)
 proxiedDocShell
 -
 >
