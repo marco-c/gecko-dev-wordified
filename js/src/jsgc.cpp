@@ -22601,6 +22601,9 @@ queueShapesForSweep
 fop
 )
 ;
+#
+ifdef
+JS_ION
 for
 (
 GCCompartmentsIter
@@ -22633,6 +22636,8 @@ queueIonCodeForSweep
 fop
 )
 ;
+#
+endif
 rt
 -
 >
