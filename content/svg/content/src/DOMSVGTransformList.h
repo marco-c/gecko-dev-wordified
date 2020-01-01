@@ -480,7 +480,7 @@ zero
 *
 /
 uint32_t
-Length
+LengthNoFlush
 (
 )
 const

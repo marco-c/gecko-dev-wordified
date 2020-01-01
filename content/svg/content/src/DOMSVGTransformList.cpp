@@ -552,7 +552,7 @@ if
 (
 aIndex
 <
-Length
+LengthNoFlush
 (
 )
 )
@@ -991,7 +991,7 @@ FlushAnimations
 *
 aNumberOfItems
 =
-Length
+LengthNoFlush
 (
 )
 ;
@@ -1057,7 +1057,7 @@ NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
 }
 if
 (
-Length
+LengthNoFlush
 (
 )
 >
@@ -1492,7 +1492,7 @@ index
 NS_MIN
 (
 index
-Length
+LengthNoFlush
 (
 )
 )
@@ -1860,7 +1860,7 @@ if
 index
 >
 =
-Length
+LengthNoFlush
 (
 )
 )
@@ -2116,7 +2116,7 @@ if
 index
 >
 =
-Length
+LengthNoFlush
 (
 )
 )
@@ -2340,7 +2340,7 @@ return
 InsertItemBefore
 (
 newItem
-Length
+LengthNoFlush
 (
 )
 _retval
@@ -2455,7 +2455,7 @@ NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
 }
 if
 (
-Length
+LengthNoFlush
 (
 )
 =
@@ -2499,7 +2499,7 @@ even
 if
 /
 /
-Length
+LengthNoFlush
 (
 )
 =
@@ -2518,9 +2518,9 @@ after
 making
 it
 a
+/
+/
 matrix
-/
-/
 type
 )
 .
@@ -2588,7 +2588,7 @@ return
 InsertItemBefore
 (
 transform
-Length
+LengthNoFlush
 (
 )
 _retval
