@@ -16507,7 +16507,6 @@ type
 if
 JS_THREADED_INTERP
 register
-const
 void
 *
 const
@@ -16590,7 +16589,6 @@ endif
 if
 JS_THREADED_INTERP
 static
-const
 void
 *
 const
@@ -16634,7 +16632,6 @@ OPDEF
 }
 ;
 static
-const
 void
 *
 const
