@@ -2492,7 +2492,7 @@ isGlobal
 )
 ;
 return
-reinterpret_cast
+static_cast
 <
 js
 :

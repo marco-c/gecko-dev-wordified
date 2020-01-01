@@ -5327,7 +5327,7 @@ script
 >
 u
 .
-object
+globalObject
 )
 MarkObject
 (
@@ -5338,7 +5338,7 @@ script
 >
 u
 .
-object
+globalObject
 "
 object
 "
