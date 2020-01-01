@@ -3517,14 +3517,6 @@ status
 )
 {
 }
-setJSDefaultStatus
-:
-function
-(
-status
-)
-{
-}
 setOverLink
 :
 function
