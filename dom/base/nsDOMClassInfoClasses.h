@@ -363,10 +363,6 @@ DOMCI_CLASS
 (
 CSSSupportsRule
 )
-DOMCI_CLASS
-(
-TimeEvent
-)
 /
 /
 other
