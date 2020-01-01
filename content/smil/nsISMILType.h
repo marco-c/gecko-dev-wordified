@@ -1933,7 +1933,7 @@ interpolated
 value
 .
 *
-result
+return
 NS_OK
 on
 success
