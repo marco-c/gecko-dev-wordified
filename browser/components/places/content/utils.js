@@ -6069,6 +6069,15 @@ aItemsToOpen
 aEvent
 )
 {
+if
+(
+!
+aItemsToOpen
+.
+length
+)
+return
+;
 var
 urls
 =
