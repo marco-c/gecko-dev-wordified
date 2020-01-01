@@ -15084,6 +15084,7 @@ JSObject
 *
 aobj
 =
+&
 vp
 [
 3
@@ -15091,11 +15092,6 @@ vp
 .
 toObject
 (
-)
-.
-wrappedObject
-(
-cx
 )
 ;
 jsuint
@@ -16399,12 +16395,6 @@ if
 (
 !
 target
--
->
-wrappedObject
-(
-cx
-)
 -
 >
 isCallable

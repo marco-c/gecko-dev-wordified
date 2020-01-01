@@ -7548,16 +7548,6 @@ this
 )
 ;
 }
-JSObject
-*
-wrappedObject
-(
-JSContext
-*
-cx
-)
-const
-;
 /
 *
 These
