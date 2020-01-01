@@ -1803,6 +1803,16 @@ Unregister
 "
 )
 ;
+if
+(
+this
+.
+_liveCursors
+[
+mm
+]
+)
+{
 this
 .
 _db
@@ -1825,6 +1835,7 @@ _liveCursors
 mm
 ]
 ;
+}
 let
 index
 =
