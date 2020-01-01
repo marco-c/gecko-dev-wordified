@@ -12725,9 +12725,6 @@ NS_ERROR_FAILURE
 ;
 nsIntPoint
 coords
-;
-nsresult
-rv
 =
 nsAccUtils
 :
@@ -12738,14 +12735,6 @@ aX
 aY
 aCoordinateType
 this
-&
-coords
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 nsIFrame
