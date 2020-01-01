@@ -486,6 +486,11 @@ Init
 (
 )
 ;
+void
+AddCrashReportAnnotations
+(
+)
+;
 nsString
 mDeviceString
 ;
