@@ -2637,7 +2637,9 @@ catch
 e
 )
 {
-dumpn
+Cu
+.
+reportError
 (
 e
 )
