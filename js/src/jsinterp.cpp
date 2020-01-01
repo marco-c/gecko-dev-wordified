@@ -17113,7 +17113,7 @@ and
 *
 GET_FULL_INDEX
 macros
-bellow
+below
 .
 As
 a
