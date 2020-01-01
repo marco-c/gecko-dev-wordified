@@ -8535,11 +8535,6 @@ interruptHook
 globalDebugHooks
 .
 callHook
-|
-|
-globalDebugHooks
-.
-objectHook
 )
 ;
 }
