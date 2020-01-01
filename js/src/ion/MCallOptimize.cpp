@@ -1360,7 +1360,7 @@ each
 as
 /
 /
-jsop_initelem_dense
+jsop_initelem_array
 is
 doing
 because

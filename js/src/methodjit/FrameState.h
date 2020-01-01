@@ -4636,9 +4636,6 @@ copy
 struct
 StackEntryExtra
 {
-bool
-initArray
-;
 JSObject
 *
 initObject

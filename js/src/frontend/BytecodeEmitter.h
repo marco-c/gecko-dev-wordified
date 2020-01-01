@@ -1966,13 +1966,6 @@ SRC_INITPROP
 1
 /
 *
-disjoint
-meaning
-applied
-to
-JSOP_INITELEM
-or
-to
 an
 index
 label

@@ -242,8 +242,6 @@ InitElem
 VMFrame
 &
 f
-uint32_t
-last
 )
 ;
 void
