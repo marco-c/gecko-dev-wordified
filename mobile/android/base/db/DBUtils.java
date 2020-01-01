@@ -568,5 +568,11 @@ database
 "
 )
 ;
+GeckoAppShell
+.
+listOfOpenFiles
+(
+)
+;
 }
 }
