@@ -643,12 +643,6 @@ __iterator__
 /
 /
 IDX_ITERATOR
-"
-__parent__
-"
-/
-/
-IDX_PARENT
 #
 ifdef
 XPC_IDISPATCH_SUPPORT

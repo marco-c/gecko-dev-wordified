@@ -868,10 +868,6 @@ JS_FALSE
 }
 extern
 JSExtendedClass
-sXPC_COW_JSClass
-;
-extern
-JSExtendedClass
 sXPC_SJOW_JSClass
 ;
 extern
@@ -2334,6 +2330,8 @@ JSBool
 isNativeWrapper
 )
 ;
+private
+:
 /
 *
 *
