@@ -1035,6 +1035,8 @@ aCallback
 void
 *
 aCallbackData
+EndTransactionFlags
+aFlags
 )
 {
 mDeviceResetCount
@@ -1049,6 +1051,14 @@ GetDeviceResetCount
 if
 (
 mRoot
+&
+&
+!
+(
+aFlags
+&
+END_NO_IMMEDIATE_REDRAW
+)
 )
 {
 mCurrentCallbackInfo
