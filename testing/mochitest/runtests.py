@@ -3008,6 +3008,14 @@ _automation
 .
 DEFAULT_WEBSOCKET_PORT
     
+options
+.
+httpdPath
+=
+'
+.
+'
+    
 if
 options
 .
@@ -4048,6 +4056,14 @@ else
 "
 undefined
 "
+    
+self
+.
+_httpdPath
+=
+options
+.
+httpdPath
   
 def
 start
@@ -4218,12 +4234,12 @@ v
 -
 f
 "
-"
+self
 .
-/
-"
+_httpdPath
 +
 "
+/
 httpd
 .
 js
