@@ -122,17 +122,6 @@ include
 "
 mozilla
 /
-dom
-/
-EventTarget
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MemoryReporting
 .
 h
@@ -253,6 +242,9 @@ mozilla
 namespace
 dom
 {
+class
+EventTarget
+;
 typedef
 CallbackObjectHolder
 <
