@@ -90,7 +90,18 @@ if
 this
 .
 trap
+&
+&
+this
+.
+setDebug
 )
+{
+setDebug
+(
+true
+)
+;
 trap
 (
 f
@@ -113,6 +124,7 @@ e
 "
 )
 ;
+}
 f
 (
 )
