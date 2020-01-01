@@ -6151,6 +6151,7 @@ NS_StackWalk
 stack_callback
 skip
 info
+0
 )
 ;
 *
@@ -6438,6 +6439,7 @@ NS_StackWalk
 stack_callback
 skip
 info
+0
 )
 ;
 *
@@ -6617,6 +6619,7 @@ NS_StackWalk
 stack_callback
 skip
 info
+0
 )
 ;
 /

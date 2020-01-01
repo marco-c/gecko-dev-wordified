@@ -834,6 +834,7 @@ NS_StackWalk
 PrintStackFrame
 2
 nsnull
+0
 )
 ;
 printf
