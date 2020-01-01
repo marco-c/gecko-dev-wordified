@@ -70,7 +70,11 @@ TestySupport
 .
 h
 "
-PR_BEGIN_EXTERN_C
+extern
+"
+C
+"
+{
 PR_EXPORT
 (
 int
@@ -95,7 +99,7 @@ Testy_Shutdown
 (
 )
 ;
-PR_END_EXTERN_C
+}
 int
 Testy_Init
 (

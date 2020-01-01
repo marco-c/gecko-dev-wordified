@@ -1450,7 +1450,11 @@ S245C6
 htm
 /
 /
-PR_BEGIN_EXTERN_C
+extern
+"
+C
+"
+{
 extern
 HANDLE
 hStackWalkMutex
@@ -1546,7 +1550,7 @@ gStackWalkThread
 CRITICAL_SECTION
 gDbgHelpCS
 ;
-PR_END_EXTERN_C
+}
 /
 /
 Routine

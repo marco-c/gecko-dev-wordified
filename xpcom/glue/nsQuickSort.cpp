@@ -366,7 +366,11 @@ nsQuickSort
 .
 h
 "
-PR_BEGIN_EXTERN_C
+extern
+"
+C
+"
+{
 #
 if
 !
@@ -1531,4 +1535,4 @@ data
 *
 /
 }
-PR_END_EXTERN_C
+}
