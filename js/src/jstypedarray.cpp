@@ -19419,12 +19419,6 @@ obj_enumerate
 NULL
 /
 *
-typeOf
-*
-/
-NULL
-/
-*
 thisObject
 *
 /
@@ -20467,13 +20461,6 @@ _typedArray
 :
 :
 obj_enumerate
-\
-NULL
-/
-*
-typeOf
-*
-/
 \
 NULL
 /

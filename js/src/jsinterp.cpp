@@ -4659,10 +4659,10 @@ toObject
 )
 ;
 return
-JSObject
+baseops
 :
 :
-typeOf
+TypeOf
 (
 cx
 obj

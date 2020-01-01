@@ -5646,10 +5646,6 @@ enumerate
 NULL
 /
 /
-typeof
-NULL
-/
-/
 thisObject
 }
 }
