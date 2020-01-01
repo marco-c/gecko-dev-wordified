@@ -690,7 +690,7 @@ kCharsetFromMetaPrescan
 this
 one
 and
-above
+smaller
 :
 HTML5
 Tentative
@@ -703,7 +703,7 @@ kCharsetFromMetaTag
 this
 one
 and
-below
+greater
 :
 HTML5
 Confident

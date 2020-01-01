@@ -479,7 +479,7 @@ PRBool
 nsHtml5Module
 :
 :
-Enabled
+sEnabled
 =
 PR_FALSE
 ;
@@ -505,7 +505,7 @@ html5
 enable
 "
 &
-Enabled
+sEnabled
 )
 ;
 nsHtml5Atoms

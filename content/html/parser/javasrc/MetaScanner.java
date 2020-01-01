@@ -3167,7 +3167,7 @@ false
 ;
 }
 boolean
-rv
+success
 =
 tryCharset
 (
@@ -3192,7 +3192,7 @@ charsetIndex
 1
 ;
 return
-rv
+success
 ;
 }
 protected

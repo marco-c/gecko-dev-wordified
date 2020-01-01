@@ -457,7 +457,7 @@ aChannel
 ;
 static
 PRBool
-Enabled
+sEnabled
 ;
 #
 ifdef
