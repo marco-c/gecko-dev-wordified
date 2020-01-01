@@ -5235,11 +5235,13 @@ len
 &
 &
 (
+reinterpret_cast
+<
+PRUptrdiff
+>
 (
-unsigned
-long
-)
 data
+)
 &
 3
 )
