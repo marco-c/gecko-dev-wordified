@@ -711,7 +711,7 @@ createBroadcastEvent
 "
 SearchEngines
 :
-Get
+GetVisible
 "
 null
 )
