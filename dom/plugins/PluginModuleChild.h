@@ -1000,6 +1000,16 @@ PluginModuleChild
 (
 )
 ;
+/
+/
+aPluginFilename
+is
+UTF8
+not
+native
+-
+charset
+!
 bool
 Init
 (
@@ -1715,6 +1725,9 @@ mLibrary
 nsCString
 mPluginFilename
 ;
+/
+/
+UTF8
 nsCString
 mUserAgent
 ;

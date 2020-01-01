@@ -846,6 +846,14 @@ aActor
 ;
 public
 :
+/
+/
+aFilePath
+is
+UTF8
+not
+native
+!
 PluginModuleParent
 (
 const
