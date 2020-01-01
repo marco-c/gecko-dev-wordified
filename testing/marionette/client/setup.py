@@ -12,7 +12,7 @@ version
 .
 5
 .
-2
+3
 '
 #
 get
@@ -106,6 +106,15 @@ mozrunner
 5
 .
 10
+'
+        
+'
+mozdevice
+>
+=
+0
+.
+12
 '
 ]
 setup
