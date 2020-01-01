@@ -6310,6 +6310,8 @@ trc
 rt
 -
 >
+mainThread
+.
 thingGCRooters
 [
 i
@@ -7173,11 +7175,13 @@ trc
 runtime
 -
 >
+mainThread
+.
 gcSavedRoots
 .
 append
 (
-JSRuntime
+PerThreadData
 :
 :
 SavedGCRoot
@@ -7513,7 +7517,7 @@ useSavedRoots
 {
 for
 (
-JSRuntime
+PerThreadData
 :
 :
 SavedGCRoot
@@ -7523,6 +7527,8 @@ root
 rt
 -
 >
+mainThread
+.
 gcSavedRoots
 .
 begin
@@ -7535,6 +7541,8 @@ root
 rt
 -
 >
+mainThread
+.
 gcSavedRoots
 .
 end
@@ -7585,6 +7593,8 @@ MARK_ROOTS
 rt
 -
 >
+mainThread
+.
 gcSavedRoots
 .
 clearAndFree
@@ -30337,6 +30347,8 @@ w
 rt
 -
 >
+mainThread
+.
 thingGCRooters
 [
 i

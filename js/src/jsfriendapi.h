@@ -982,6 +982,17 @@ hook
 namespace
 js
 {
+extern
+mozilla
+:
+:
+ThreadLocal
+<
+PerThreadData
+*
+>
+TlsPerThreadData
+;
 inline
 JSRuntime
 *

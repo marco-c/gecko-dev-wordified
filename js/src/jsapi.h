@@ -17798,17 +17798,6 @@ rt
 namespace
 JS
 {
-extern
-mozilla
-:
-:
-ThreadLocal
-<
-JSRuntime
-*
->
-TlsRuntime
-;
 inline
 bool
 IsPoisonedId
