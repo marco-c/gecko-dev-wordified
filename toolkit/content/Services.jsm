@@ -604,7 +604,7 @@ service
 1
 "
 "
-nsIContentPrefService
+nsIContentPrefService_MOZILLA_2_0
 "
 )
 ;
