@@ -914,10 +914,6 @@ NS_UNLIMITED_SCRIPT_RUNTIME
 <
 32
 )
-#
-define
-NS_MAJOR_FORGET_SKIPPABLE_CALLS
-2
 /
 /
 if
@@ -14017,17 +14013,9 @@ FinishAnyIncrementalGC
 (
 )
 ;
-bool
-earlyForgetSkippable
-=
-sCleanupsSinceLastGC
-<
-NS_MAJOR_FORGET_SKIPPABLE_CALLS
-;
 nsCycleCollector_forgetSkippable
 (
 aRemoveChildless
-earlyForgetSkippable
 )
 ;
 sPreviousSuspectedCount
@@ -14258,7 +14246,7 @@ if
 (
 sCleanupsSinceLastGC
 <
-NS_MAJOR_FORGET_SKIPPABLE_CALLS
+2
 &
 &
 aExtraForgetSkippableCalls
@@ -14271,7 +14259,7 @@ while
 (
 sCleanupsSinceLastGC
 <
-NS_MAJOR_FORGET_SKIPPABLE_CALLS
+2
 )
 {
 FireForgetSkippable
