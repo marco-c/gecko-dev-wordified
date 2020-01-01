@@ -291,6 +291,11 @@ ApplyArgsGeneric
 \
 _
 (
+GetDynamicName
+)
+\
+_
+(
 CallDirectEval
 )
 \

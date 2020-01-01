@@ -647,6 +647,14 @@ apply
 )
 ;
 bool
+visitGetDynamicName
+(
+LGetDynamicName
+*
+lir
+)
+;
+bool
 visitCallDirectEval
 (
 LCallDirectEval
