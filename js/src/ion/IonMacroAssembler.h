@@ -912,6 +912,7 @@ Condition
 cond
 Register
 obj
+const
 Shape
 *
 shape
