@@ -19555,7 +19555,10 @@ str
 ;
 JS_ASSERT
 (
+JS_THREAD_DATA
+(
 cx
+)
 -
 >
 localRootStack
@@ -19851,7 +19854,10 @@ objects
 /
 JS_ASSERT
 (
+JS_THREAD_DATA
+(
 cx
+)
 -
 >
 localRootStack
@@ -28817,7 +28823,10 @@ objects
 /
 JS_ASSERT
 (
+JS_THREAD_DATA
+(
 cx
+)
 -
 >
 localRootStack
