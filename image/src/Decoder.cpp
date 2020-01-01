@@ -703,13 +703,12 @@ have
 at
 least
 one
+complete
 frame
 .
 if
 (
-mImage
-.
-GetNumFrames
+GetCompleteFrameCount
 (
 )
 =
