@@ -731,6 +731,9 @@ mNeedsBold
 PRPackedBool
 mUseSubpixelPositions
 ;
+PRPackedBool
+mAllowManualShowGlyphs
+;
 }
 ;
 #
