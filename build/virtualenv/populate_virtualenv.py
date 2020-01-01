@@ -809,15 +809,6 @@ self
 .
 virtualenv_script_path
             
-'
--
--
-system
--
-site
--
-packages
-'
 self
 .
 virtualenv_root
