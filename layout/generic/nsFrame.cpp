@@ -6290,7 +6290,12 @@ NS_STYLE_TRANSFORM_STYLE_PRESERVE_3D
 |
 |
 !
-IsTransformed
+GetStyleDisplay
+(
+)
+-
+>
+HasTransform
 (
 )
 )
@@ -6406,7 +6411,12 @@ Preserves3DChildren
 |
 |
 !
-IsTransformed
+GetStyleDisplay
+(
+)
+-
+>
+HasTransform
 (
 )
 )
