@@ -21247,6 +21247,8 @@ inspect
 toolbutton
 [
 checked
+=
+true
 ]
 {
 -
@@ -21709,6 +21711,12 @@ min
 height
 :
 26px
+;
+background
+-
+color
+:
+transparent
 ;
 }
 #
