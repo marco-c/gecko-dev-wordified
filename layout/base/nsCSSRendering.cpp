@@ -7994,7 +7994,11 @@ Size
 aForFrame
 -
 >
-GetSize
+VisualBorderRectRelativeToSelf
+(
+)
+.
+Size
 (
 )
 "
