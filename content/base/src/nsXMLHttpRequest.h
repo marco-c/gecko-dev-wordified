@@ -1994,7 +1994,7 @@ nsCOMPtr
 <
 nsIDOMDocument
 >
-mDocument
+mResponseXML
 ;
 nsCOMPtr
 <
