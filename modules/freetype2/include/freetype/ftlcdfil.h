@@ -639,7 +639,7 @@ it
 *
 *
 *
-func
+enum
 :
 *
 FT_LcdFilter

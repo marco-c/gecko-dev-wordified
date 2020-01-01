@@ -1273,7 +1273,7 @@ ins
 exec
 *
 /
-FT_Long
+FT_ULong
 cvtSize
 ;
 FT_Long

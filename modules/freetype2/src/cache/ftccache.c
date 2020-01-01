@@ -2383,6 +2383,12 @@ cache
 if
 (
 cache
+&
+&
+cache
+-
+>
+buckets
 )
 {
 FTC_Manager

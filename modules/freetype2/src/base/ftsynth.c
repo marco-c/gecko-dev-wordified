@@ -1403,8 +1403,8 @@ xstr
 ;
 }
 else
-if
-(
+/
+*
 slot
 -
 >
@@ -1412,7 +1412,8 @@ format
 =
 =
 FT_GLYPH_FORMAT_BITMAP
-)
+*
+/
 {
 /
 *

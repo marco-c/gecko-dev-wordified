@@ -4296,9 +4296,9 @@ when
 *
 the
 maxFunctionDefs
-field
+value
 is
-null
+smaller
 .
 *
 /
@@ -4308,9 +4308,8 @@ maxProfile
 -
 >
 maxFunctionDefs
-=
-=
-0
+<
+64
 )
 maxProfile
 -
