@@ -259,11 +259,11 @@ h
 namespace
 JSC
 {
-void
+size_t
 ExecutableAllocator
 :
 :
-intializePageSize
+determinePageSize
 (
 )
 {
@@ -276,11 +276,7 @@ GetSystemInfo
 system_info
 )
 ;
-ExecutableAllocator
-:
-:
-pageSize
-=
+return
 system_info
 .
 dwPageSize
