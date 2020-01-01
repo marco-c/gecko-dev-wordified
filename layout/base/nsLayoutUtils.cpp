@@ -6827,6 +6827,9 @@ nscolor
 aBackground
 )
 {
+nsAutoDisableGetUsedXAssertions
+disableAssert
+;
 nsDisplayListBuilder
 builder
 (
@@ -6856,12 +6859,6 @@ dirtyRect
 )
 ;
 nsresult
-rv
-;
-{
-nsAutoDisableGetUsedXAssertions
-disableAssert
-;
 rv
 =
 aFrame
@@ -7075,7 +7072,6 @@ GetSize
 .
 height
 ;
-}
 }
 }
 builder
