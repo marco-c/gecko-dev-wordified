@@ -6450,7 +6450,7 @@ uriString
 =
 form
 .
-action
+mozActionUri
 ;
 /
 /
