@@ -6502,6 +6502,13 @@ rect
 (
 )
 ;
+*
+aReadOnlyFront
+=
+null_t
+(
+)
+;
 return
 ;
 }

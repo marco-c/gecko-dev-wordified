@@ -6500,7 +6500,7 @@ cx
 compartment
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 )

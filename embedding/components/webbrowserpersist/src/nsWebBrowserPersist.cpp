@@ -1915,7 +1915,7 @@ nsWebBrowserPersist
 :
 GetResult
 (
-PRUint32
+nsresult
 *
 aResult
 )
@@ -6089,16 +6089,10 @@ case
 NS_NET_STATUS_WAITING_FOR
 :
 case
-nsITransport
-:
-:
-STATUS_READING
+NS_NET_STATUS_READING
 :
 case
-nsITransport
-:
-:
-STATUS_WRITING
+NS_NET_STATUS_WRITING
 :
 break
 ;

@@ -951,6 +951,25 @@ transmission
 '
 '
     
+if
+timeout
+:
+      
+raise
+NotImplementedError
+(
+"
+'
+timeout
+'
+parameter
+is
+not
+yet
+supported
+"
+)
+    
 while
 self
 .
@@ -2171,6 +2190,9 @@ None
 cwd
 =
 None
+timeout
+=
+None
 )
 :
     
@@ -2238,6 +2260,7 @@ cmdline
 }
 ]
 outputfile
+timeout
 )
       
 else
@@ -2268,6 +2291,7 @@ cmdline
 }
 ]
 outputfile
+timeout
 )
     
 except

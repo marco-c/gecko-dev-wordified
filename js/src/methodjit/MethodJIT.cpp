@@ -9223,7 +9223,7 @@ cx
 compartment
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 )

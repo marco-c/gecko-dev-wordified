@@ -1157,7 +1157,10 @@ errorCode
 ;
 if
 (
+NS_FAILED
+(
 errorCode
+)
 )
 {
 aSign

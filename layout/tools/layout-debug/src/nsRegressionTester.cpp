@@ -595,7 +595,7 @@ nsIFile
 aVerFile
 PRUint32
 aFlags
-PRInt32
+bool
 *
 aResult
 )
@@ -618,7 +618,7 @@ aResult
 *
 aResult
 =
-NS_OK
+false
 ;
 nsresult
 rv

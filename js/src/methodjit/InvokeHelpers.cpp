@@ -2347,7 +2347,7 @@ cx
 compartment
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 )

@@ -301,8 +301,6 @@ const
 nsIntRect
 &
 aRect
-EVENT_CALLBACK
-aHandleEventFunction
 nsDeviceContext
 *
 aContext
@@ -324,8 +322,6 @@ const
 nsIntRect
 &
 aRect
-EVENT_CALLBACK
-aHandleEventFunction
 nsDeviceContext
 *
 aContext
@@ -942,12 +938,7 @@ GetDPI
 private
 :
 nsresult
-DispatchPaintEvent
-(
-)
-;
-nsresult
-DispatchResizeEvent
+Paint
 (
 )
 ;

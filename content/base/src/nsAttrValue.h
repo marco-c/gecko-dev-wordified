@@ -2843,7 +2843,7 @@ aValue
 bool
 *
 aStrict
-PRInt32
+nsresult
 *
 aErrorCode
 bool

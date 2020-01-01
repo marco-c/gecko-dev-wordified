@@ -2479,9 +2479,8 @@ cx
 if
 (
 !
-GetOrderedBindings
+FillBindingVector
 (
-cx
 fun
 -
 >
@@ -2601,7 +2600,9 @@ bindings
 i
 ]
 .
-maybeName
+name
+(
+)
 )
 ;
 return

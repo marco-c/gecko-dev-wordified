@@ -289,6 +289,13 @@ data
 )
 ;
 nsresult
+SetGarbageCollecting
+(
+bool
+collecting
+)
+;
+nsresult
 SetRestartArgs
 (
 int

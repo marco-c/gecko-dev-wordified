@@ -5950,7 +5950,7 @@ compartment
 )
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 )

@@ -6163,9 +6163,14 @@ failureFile
 s
 "
 %
+self
+.
+getFullPath
+(
 options
 .
 failureFile
+)
 )
   
 def

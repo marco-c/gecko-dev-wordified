@@ -340,7 +340,7 @@ rv
 }
 /
 /
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 bool
 nsSimpleNestedURI
 :

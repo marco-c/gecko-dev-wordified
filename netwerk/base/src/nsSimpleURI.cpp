@@ -353,7 +353,7 @@ NS_INTERFACE_TABLE5
 nsSimpleURI
 nsIURI
 nsISerializable
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 nsIClassInfo
 nsIMutable
 )
@@ -916,7 +916,7 @@ NS_OK
 /
 /
 /
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 methods
 :
 bool

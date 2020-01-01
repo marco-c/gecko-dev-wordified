@@ -13978,7 +13978,7 @@ NS_ERROR_ABORT
 }
 OnMsgProcessPendingQ
 (
-NS_OK
+0
 ci
 )
 ;
@@ -17991,7 +17991,7 @@ ConnMgr
 >
 OnMsgReclaimConnection
 (
-NS_OK
+0
 conn
 .
 forget

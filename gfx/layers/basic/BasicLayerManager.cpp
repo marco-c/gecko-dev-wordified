@@ -931,6 +931,10 @@ BeginTransaction
 (
 )
 {
+mInTransaction
+=
+true
+;
 mUsingDefaultTarget
 =
 true
@@ -1207,6 +1211,10 @@ gfxContext
 aTarget
 )
 {
+mInTransaction
+=
+true
+;
 #
 ifdef
 MOZ_LAYERS_HAVE_LOG
@@ -2491,6 +2499,10 @@ EndTransactionFlags
 aFlags
 )
 {
+mInTransaction
+=
+false
+;
 EndTransactionInternal
 (
 aCallback
@@ -2531,6 +2543,10 @@ PHASE_NONE
 #
 endif
 mUsingDefaultTarget
+=
+false
+;
+mInTransaction
 =
 false
 ;
@@ -3320,6 +3336,10 @@ EndTransactionFlags
 aFlags
 )
 {
+mInTransaction
+=
+false
+;
 if
 (
 !

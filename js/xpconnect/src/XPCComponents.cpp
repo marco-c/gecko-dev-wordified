@@ -1700,7 +1700,13 @@ while
 {
 if
 (
+static_cast
+<
+nsresult
+>
+(
 NS_ENUMERATOR_FALSE
+)
 =
 =
 e
@@ -3491,7 +3497,13 @@ while
 {
 if
 (
+static_cast
+<
+nsresult
+>
+(
 NS_ENUMERATOR_FALSE
+)
 =
 =
 e

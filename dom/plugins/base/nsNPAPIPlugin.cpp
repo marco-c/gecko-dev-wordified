@@ -13426,7 +13426,7 @@ return
 NPERR_GENERIC_ERROR
 ;
 return
-NS_OK
+NPERR_NO_ERROR
 ;
 }
 /
