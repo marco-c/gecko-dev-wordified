@@ -16891,14 +16891,6 @@ GetIntValue
 )
 )
 ;
-/
-/
-XXX
-This
-should
-really
-be
-integer
 break
 ;
 case

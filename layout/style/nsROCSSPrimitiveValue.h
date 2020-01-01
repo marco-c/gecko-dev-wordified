@@ -579,10 +579,7 @@ mValue
 .
 mFloat
 =
-double
-(
 aValue
-)
 ;
 mType
 =
@@ -604,7 +601,7 @@ mValue
 .
 mFloat
 =
-double
+float
 (
 aValue
 )
@@ -629,7 +626,7 @@ mValue
 .
 mFloat
 =
-double
+float
 (
 aValue
 )
@@ -654,10 +651,7 @@ mValue
 .
 mFloat
 =
-double
-(
 aValue
-)
 ;
 mType
 =
@@ -1301,15 +1295,12 @@ aReturn
 PRUint16
 mType
 ;
-PRInt32
-mAppUnitsPerInch
-;
 union
 {
 nscoord
 mAppUnits
 ;
-double
+float
 mFloat
 ;
 nsDOMCSSRGBColor
@@ -1340,6 +1331,9 @@ nsCSSKeyword
 instead
 }
 mValue
+;
+PRInt32
+mAppUnitsPerInch
 ;
 }
 ;

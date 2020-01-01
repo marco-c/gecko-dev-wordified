@@ -2123,14 +2123,11 @@ NS_ERROR_DOM_INVALID_ACCESS_ERR
 *
 aReturn
 =
-float
-(
 mValue
 .
 mFloat
 *
 100
-)
 ;
 break
 ;
@@ -2150,12 +2147,9 @@ NS_ERROR_DOM_INVALID_ACCESS_ERR
 *
 aReturn
 =
-float
-(
 mValue
 .
 mFloat
-)
 ;
 break
 ;
