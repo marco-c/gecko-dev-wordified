@@ -10026,9 +10026,14 @@ NS_FAILED
 rv
 )
 )
+{
+delete
+newTimer
+;
 return
 0
 ;
+}
 const
 short
 timerType
