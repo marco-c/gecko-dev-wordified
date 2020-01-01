@@ -223,7 +223,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -2167,7 +2167,7 @@ ReparentFrameViewTo
 nsIFrame
 *
 aFrame
-nsViewManager
+nsIViewManager
 *
 aViewManager
 nsView
@@ -2560,7 +2560,7 @@ view
 "
 )
 ;
-nsViewManager
+nsIViewManager
 *
 viewManager
 =
@@ -2926,7 +2926,7 @@ GetView
 (
 )
 ;
-nsViewManager
+nsIViewManager
 *
 vm
 =
@@ -3949,7 +3949,7 @@ oldParentView
 newParentView
 )
 {
-nsViewManager
+nsIViewManager
 *
 viewManager
 =
@@ -4210,7 +4210,7 @@ windowWidget
 )
 return
 ;
-nsViewManager
+nsIViewManager
 *
 vm
 =
@@ -4908,7 +4908,7 @@ NS_FRAME_NO_SIZE_VIEW
 )
 )
 {
-nsViewManager
+nsIViewManager
 *
 vm
 =
@@ -4987,7 +4987,7 @@ aView
 return
 ;
 }
-nsViewManager
+nsIViewManager
 *
 vm
 =

@@ -302,7 +302,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -1779,9 +1779,9 @@ presShell
 return
 NULL
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsViewManager
+nsIViewManager
 >
 vm
 =

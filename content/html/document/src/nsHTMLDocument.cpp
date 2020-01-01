@@ -1821,7 +1821,7 @@ CreateShell
 nsPresContext
 *
 aContext
-nsViewManager
+nsIViewManager
 *
 aViewManager
 nsStyleSet

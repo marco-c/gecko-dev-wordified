@@ -287,7 +287,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -8461,7 +8461,7 @@ PresShell
 (
 )
 ;
-nsViewManager
+nsIViewManager
 *
 vm
 =

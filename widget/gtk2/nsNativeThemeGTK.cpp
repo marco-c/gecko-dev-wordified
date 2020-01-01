@@ -152,7 +152,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -461,7 +461,7 @@ shell
 )
 return
 ;
-nsViewManager
+nsIViewManager
 *
 vm
 =

@@ -276,7 +276,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -4078,7 +4078,7 @@ if
 mInnerView
 )
 {
-nsViewManager
+nsIViewManager
 *
 vm
 =
@@ -5715,7 +5715,7 @@ list
 "
 )
 ;
-nsViewManager
+nsIViewManager
 *
 vm
 =
@@ -6609,7 +6609,7 @@ be
 fixed
 during
 reflow
-nsViewManager
+nsIViewManager
 *
 viewMan
 =

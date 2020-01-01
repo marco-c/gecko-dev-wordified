@@ -390,7 +390,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -4604,7 +4604,7 @@ if
 shell
 )
 {
-nsViewManager
+nsIViewManager
 *
 vm
 =

@@ -256,7 +256,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -7478,7 +7478,7 @@ sEventProbeRate
 0
 )
 {
-nsViewManager
+nsIViewManager
 *
 vm
 =
@@ -8281,7 +8281,7 @@ sEnablePerfMode
 0
 )
 {
-nsViewManager
+nsIViewManager
 *
 vm
 =

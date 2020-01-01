@@ -231,7 +231,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -33916,7 +33916,7 @@ is
 properly
 sized
 .
-nsViewManager
+nsIViewManager
 *
 vm
 =

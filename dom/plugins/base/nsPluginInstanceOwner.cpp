@@ -346,7 +346,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -3653,7 +3653,7 @@ void
 )
 value
 ;
-nsViewManager
+nsIViewManager
 *
 vm
 =
@@ -4222,6 +4222,9 @@ nsIWidget
 >
 widget
 ;
+nsresult
+rv
+=
 vm
 -
 >
@@ -4280,7 +4283,7 @@ handle
 ;
 }
 return
-NS_OK
+rv
 ;
 #
 elif

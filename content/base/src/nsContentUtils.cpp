@@ -880,7 +880,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -35719,7 +35719,7 @@ if
 shell
 )
 {
-nsViewManager
+nsIViewManager
 *
 VM
 =
@@ -35755,7 +35755,7 @@ nsView
 *
 displayRoot
 =
-nsViewManager
+nsIViewManager
 :
 :
 GetDisplayRootFor

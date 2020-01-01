@@ -329,7 +329,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -79086,9 +79086,9 @@ will
 outlive
 the
 presshell
-nsRefPtr
+nsCOMPtr
 <
-nsViewManager
+nsIViewManager
 >
 vm
 =

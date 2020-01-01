@@ -317,7 +317,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -7744,7 +7744,7 @@ mPresShell
 return
 nullptr
 ;
-nsViewManager
+nsIViewManager
 *
 vm
 =
