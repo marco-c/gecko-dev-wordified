@@ -4229,7 +4229,7 @@ offset
 ScratchRegister
 )
 ;
-test32
+ma_tst
 (
 ScratchRegister
 imm
