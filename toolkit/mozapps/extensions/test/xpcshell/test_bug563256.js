@@ -313,7 +313,7 @@ d
 isActive
 )
 ;
-do_check_true
+do_check_false
 (
 isThemeInAddonsList
 (
@@ -485,7 +485,7 @@ d
 isActive
 )
 ;
-do_check_true
+do_check_false
 (
 isThemeInAddonsList
 (
@@ -626,7 +626,7 @@ d
 isActive
 )
 ;
-do_check_true
+do_check_false
 (
 isThemeInAddonsList
 (
@@ -843,7 +843,7 @@ d
 isActive
 )
 ;
-do_check_true
+do_check_false
 (
 isThemeInAddonsList
 (
@@ -990,7 +990,7 @@ d
 isActive
 )
 ;
-do_check_true
+do_check_false
 (
 isThemeInAddonsList
 (
@@ -1131,7 +1131,7 @@ d
 isActive
 )
 ;
-do_check_true
+do_check_false
 (
 isThemeInAddonsList
 (
@@ -1272,7 +1272,7 @@ d
 isActive
 )
 ;
-do_check_true
+do_check_false
 (
 isThemeInAddonsList
 (
@@ -1789,7 +1789,7 @@ d
 isActive
 )
 ;
-do_check_true
+do_check_false
 (
 isThemeInAddonsList
 (
