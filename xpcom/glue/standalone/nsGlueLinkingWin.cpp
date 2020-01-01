@@ -567,7 +567,7 @@ MAX_PATH
 ;
 MultiByteToWideChar
 (
-CP_ACP
+CP_UTF8
 0
 aDependentLib
 -
@@ -906,7 +906,7 @@ MAXPATHLEN
 ;
 MultiByteToWideChar
 (
-CP_ACP
+CP_UTF8
 0
 aXpcomFile
 -
@@ -1024,7 +1024,7 @@ MAXPATHLEN
 ;
 WideCharToMultiByte
 (
-CP_ACP
+CP_UTF8
 0
 xpcomDir
 -
