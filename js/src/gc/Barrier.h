@@ -1289,6 +1289,9 @@ time
 namespace
 js
 {
+class
+PropertyName
+;
 template
 <
 class
