@@ -687,6 +687,14 @@ aData
 NS_IMETHOD
 RulesMatching
 (
+AnonBoxRuleProcessorData
+*
+aData
+)
+;
+NS_IMETHOD
+RulesMatching
+(
 PseudoRuleProcessorData
 *
 aData
