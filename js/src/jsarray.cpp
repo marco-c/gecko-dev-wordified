@@ -8722,10 +8722,6 @@ buf
 goto
 out
 ;
-if
-(
-sharpchars
-)
 cx
 -
 >
