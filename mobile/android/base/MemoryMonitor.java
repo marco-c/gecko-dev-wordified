@@ -1492,11 +1492,7 @@ BrowserDB
 .
 removeThumbnails
 (
-Tabs
-.
-getInstance
-(
-)
+mContext
 .
 getContentResolver
 (
