@@ -595,12 +595,6 @@ h
 USING_INDEXEDDB_NAMESPACE
 namespace
 {
-const
-PRUint32
-kDefaultDatabaseTimeoutSeconds
-=
-30
-;
 PRUint32
 gDatabaseInstanceCount
 =
@@ -3611,7 +3605,7 @@ Create
 this
 storesToOpen
 aMode
-kDefaultDatabaseTimeoutSeconds
+false
 )
 ;
 NS_ENSURE_TRUE
