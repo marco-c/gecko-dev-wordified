@@ -2734,7 +2734,10 @@ rt
 >
 gcBytes
 -
+int32
+(
 ArenaSize
+)
 )
 ;
 JS_ATOMIC_ADD
@@ -2745,7 +2748,10 @@ comp
 >
 gcBytes
 -
+int32
+(
 ArenaSize
+)
 )
 ;
 info
