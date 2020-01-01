@@ -77,7 +77,9 @@ nsMemory
 |
 #
 include
-NEW_H
+<
+new
+>
 /
 /
 to
