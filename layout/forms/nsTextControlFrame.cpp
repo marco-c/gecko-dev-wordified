@@ -5911,6 +5911,13 @@ nsnull
 )
 ;
 mFrameSel
+-
+>
+DisconnectFromPresShell
+(
+)
+;
+mFrameSel
 =
 nsnull
 ;
