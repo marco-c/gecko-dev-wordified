@@ -8749,6 +8749,15 @@ GetChromeEventHandler
 (
 )
 ;
+if
+(
+!
+eventTarget
+)
+{
+return
+;
+}
 }
 /
 /
