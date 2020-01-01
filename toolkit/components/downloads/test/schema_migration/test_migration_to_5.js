@@ -346,7 +346,7 @@ your
 *
 decision
 by
-declaring
+deleting
 the
 provisions
 above
@@ -372,7 +372,7 @@ If
 you
 do
 not
-declare
+delete
 *
 the
 provisions
