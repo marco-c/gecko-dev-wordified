@@ -540,7 +540,7 @@ h
 #
 include
 "
-GLContext
+GLContextProvider
 .
 h
 "
@@ -1939,6 +1939,11 @@ info
 ;
 void
 Invalidate
+(
+)
+;
+void
+DestroyResourcesAndContext
 (
 )
 ;
