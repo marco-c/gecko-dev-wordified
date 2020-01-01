@@ -1478,9 +1478,6 @@ endif
 /
 /
 XP_WIN
-#
-ifdef
-USE_CAIRO
 TemporaryRef
 <
 DrawTarget
@@ -1495,6 +1492,9 @@ cairo_surface_t
 aSurface
 )
 {
+#
+ifdef
+USE_CAIRO
 RefPtr
 <
 DrawTargetCairo
@@ -1521,11 +1521,11 @@ return
 newTarget
 ;
 }
+#
+endif
 return
 NULL
 ;
 }
-#
-endif
 }
 }

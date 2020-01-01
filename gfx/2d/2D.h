@@ -4937,6 +4937,7 @@ mFormat
 }
 ;
 class
+GFX2D_API
 Factory
 {
 public

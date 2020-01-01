@@ -661,6 +661,7 @@ return
 retSize
 ;
 }
+GFX2D_API
 Rect
 TransformBounds
 (
@@ -905,6 +906,7 @@ _12
 _21
 ;
 }
+GFX2D_API
 static
 Matrix
 Rotation
