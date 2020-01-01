@@ -1523,7 +1523,7 @@ endif
 *
 The
 following
-licence
+license
 applies
 to
 the
@@ -1537,7 +1537,8 @@ c
 2007
 Red
 Hat
-inc
+Inc
+.
 Permission
 is
 hereby
