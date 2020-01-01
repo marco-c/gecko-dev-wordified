@@ -108,7 +108,7 @@ drawable
 :
 /
 /
-alertdownloads
+alert_download
 "
 ;
 var
