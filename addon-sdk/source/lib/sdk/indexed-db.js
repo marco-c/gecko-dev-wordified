@@ -112,8 +112,6 @@ id
 require
 (
 "
-.
-/
 self
 "
 )

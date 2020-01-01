@@ -103,8 +103,6 @@ self
 require
 (
 '
-sdk
-/
 self
 '
 )

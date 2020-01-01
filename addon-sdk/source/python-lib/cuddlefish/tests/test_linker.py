@@ -409,8 +409,12 @@ m
 "
 one
 /
+lib
+/
 %
 s
+.
+js
 "
 %
 modname
@@ -429,6 +433,11 @@ reqs
 [
 reqname
 ]
+[
+"
+path
+"
+]
 path
 )
         
@@ -441,9 +450,17 @@ main
 panel
 "
 "
+addon
+-
+sdk
+/
+lib
+/
 sdk
 /
 panel
+.
+js
 "
 )
         
@@ -460,7 +477,11 @@ js
 "
 one
 /
+lib
+/
 two
+.
+js
 "
 )
         
@@ -477,7 +498,11 @@ two
 "
 one
 /
+lib
+/
 two
+.
+js
 "
 )
         
@@ -494,9 +519,17 @@ tabs
 js
 "
 "
+addon
+-
+sdk
+/
+lib
+/
 sdk
 /
 tabs
+.
+js
 "
 )
         
@@ -515,9 +548,13 @@ three
 "
 one
 /
+lib
+/
 subdir
 /
 three
+.
+js
 "
 )
         
@@ -532,7 +569,11 @@ main
 "
 one
 /
+lib
+/
 main
+.
+js
 "
 )
         
@@ -552,7 +593,11 @@ main
 "
 one
 /
+lib
+/
 main
+.
+js
 "
 )
         
@@ -731,8 +776,12 @@ m
 "
 three
 /
+lib
+/
 %
 s
+.
+js
 "
 %
 modname
@@ -750,6 +799,11 @@ failUnlessEqual
 reqs
 [
 reqname
+]
+[
+"
+path
+"
 ]
 path
 )
@@ -769,7 +823,11 @@ three
 -
 a
 /
+lib
+/
 main
+.
+js
 "
 )
         
@@ -788,7 +846,11 @@ three
 -
 b
 /
+lib
+/
 main
+.
+js
 "
 )
         
@@ -807,7 +869,11 @@ three
 -
 c
 /
+lib
+/
 main
+.
+js
 "
 )
     
@@ -931,7 +997,11 @@ m
 "
 five
 /
+lib
+/
 main
+.
+js
 "
 ]
 [

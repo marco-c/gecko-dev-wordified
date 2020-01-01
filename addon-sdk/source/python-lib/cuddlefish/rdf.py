@@ -1564,9 +1564,9 @@ dom
 createTextNode
 (
 "
-21
+20
 .
-0a1
+*
 "
 )
 )

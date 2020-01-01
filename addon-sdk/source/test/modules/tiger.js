@@ -79,7 +79,7 @@ type
 require
 (
 '
-.
+modules
 /
 types
 /

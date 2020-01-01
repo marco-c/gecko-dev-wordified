@@ -1619,8 +1619,6 @@ loader
 require
 (
 "
-sdk
-/
 simple
 -
 prefs
@@ -1704,8 +1702,6 @@ listener
 require
 (
 "
-sdk
-/
 simple
 -
 prefs

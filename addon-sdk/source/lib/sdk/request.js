@@ -599,12 +599,6 @@ mode
 url
 )
 ;
-xhr
-.
-forceAllowThirdPartyCookie
-(
-)
-;
 /
 /
 request
