@@ -786,8 +786,7 @@ Buffer
 struct
 NPRemoteWindow
 {
-unsigned
-long
+uint64_t
 window
 ;
 int32_t
@@ -1935,7 +1934,7 @@ aParam
 aMsg
 -
 >
-WriteULong
+WriteUInt64
 (
 aParam
 .
@@ -2065,8 +2064,7 @@ paramType
 aResult
 )
 {
-unsigned
-long
+uint64_t
 window
 ;
 int32_t
@@ -2090,7 +2088,7 @@ if
 aMsg
 -
 >
-ReadULong
+ReadUInt64
 (
 aIter
 &
