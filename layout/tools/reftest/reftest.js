@@ -4262,6 +4262,10 @@ if
 (
 !
 contentRootElement
+|
+|
+!
+contentRootElement
 .
 hasAttribute
 (
@@ -4411,6 +4415,9 @@ and
 SVG
 return
 contentRootElement
+&
+&
+contentRootElement
 .
 hasAttribute
 (
@@ -4470,6 +4477,9 @@ HTML
 and
 SVG
 return
+contentRootElement
+&
+&
 contentRootElement
 .
 hasAttribute
