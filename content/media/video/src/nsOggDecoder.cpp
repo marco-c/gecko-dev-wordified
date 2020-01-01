@@ -6927,9 +6927,9 @@ Wait
 while
 (
 mState
-!
 =
-DECODER_STATE_SHUTDOWN
+=
+DECODER_STATE_COMPLETED
 )
 ;
 }
@@ -9196,6 +9196,15 @@ PlaybackEnded
 if
 (
 mShuttingDown
+|
+|
+mPlayState
+=
+=
+nsOggDecoder
+:
+:
+PLAY_STATE_SEEKING
 )
 return
 ;
