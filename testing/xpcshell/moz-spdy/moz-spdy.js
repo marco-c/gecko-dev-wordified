@@ -801,6 +801,13 @@ header
 "
 )
 {
+m
+=
+new
+Multiplex
+(
+)
+;
 var
 val
 =
