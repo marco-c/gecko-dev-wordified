@@ -1391,7 +1391,8 @@ endif
 ifdef
 ANDROID
 /
-/
+*
+*
 Android
 doesn
 '
@@ -1405,8 +1406,7 @@ its
 new
 >
 header
-/
-/
+*
 has
 operators
 that
@@ -1420,6 +1420,8 @@ throw
 at
 all
 .
+*
+/
 #
 define
 MOZALLOC_THROW_IF_HAS_EXCEPTIONS
