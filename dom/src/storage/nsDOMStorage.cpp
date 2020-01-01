@@ -286,13 +286,6 @@ h
 #
 include
 "
-nsIPrivateBrowsingService
-.
-h
-"
-#
-include
-"
 nsDOMString
 .
 h
