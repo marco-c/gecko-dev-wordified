@@ -812,15 +812,6 @@ rval
 )
 ;
 extern
-JSBool
-js_IsIdentifier
-(
-JSString
-*
-str
-)
-;
-extern
 JSObject
 *
 js_InitFunctionClass
