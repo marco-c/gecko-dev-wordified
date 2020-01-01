@@ -2251,11 +2251,11 @@ popup
 that
 should
 appear
+anchored
 at
 the
 given
-anchor
-point
+rect
 determine
 /
 /
@@ -2315,8 +2315,11 @@ units
 nsRect
 GetConstraintRect
 (
-nsPoint
-aAnchorPoint
+const
+nsRect
+&
+aAnchorRect
+const
 nsRect
 &
 aRootScreenRect
