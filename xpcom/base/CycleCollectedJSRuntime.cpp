@@ -2087,7 +2087,7 @@ global
 js
 :
 :
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 cx
 )
@@ -3539,7 +3539,7 @@ global
 js
 :
 :
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 acx
 )
@@ -4926,7 +4926,7 @@ global
 js
 :
 :
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 acx
 )

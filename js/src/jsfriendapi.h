@@ -2427,7 +2427,7 @@ JS_FRIEND_API
 JSObject
 *
 )
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 JSContext
 *

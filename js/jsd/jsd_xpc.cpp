@@ -9184,7 +9184,7 @@ glob
 js
 :
 :
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 mJSCx
 )

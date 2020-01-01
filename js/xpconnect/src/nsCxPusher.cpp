@@ -874,7 +874,7 @@ if
 js
 :
 :
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 cx
 )
@@ -887,7 +887,7 @@ cx
 js
 :
 :
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 cx
 )

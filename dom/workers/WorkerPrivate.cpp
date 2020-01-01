@@ -8172,7 +8172,7 @@ empty
 js
 :
 :
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 cx
 )
@@ -8186,7 +8186,7 @@ cx
 js
 :
 :
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 cx
 )
@@ -14141,7 +14141,7 @@ empty
 js
 :
 :
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 aCx
 )
@@ -14155,7 +14155,7 @@ aCx
 js
 :
 :
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 aCx
 )

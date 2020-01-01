@@ -2073,7 +2073,7 @@ JSObject
 js
 :
 :
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 JSContext
 *
