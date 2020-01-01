@@ -1024,8 +1024,7 @@ return
 PLDHashNumber
 )
 (
-unsigned
-long
+PRPtrdiff
 )
 key
 >
