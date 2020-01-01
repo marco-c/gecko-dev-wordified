@@ -549,6 +549,13 @@ h
 "
 #
 endif
+#
+include
+"
+nsBindingManager
+.
+h
+"
 /
 /
 This
