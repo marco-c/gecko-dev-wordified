@@ -2732,11 +2732,6 @@ return
 #
 if
 DISABLE_SOME_FLOATING_POINT
-|
-|
-__STDC_VERSION__
-<
-199901L
 /
 *
 This
