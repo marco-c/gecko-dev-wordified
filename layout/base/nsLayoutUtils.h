@@ -2413,10 +2413,9 @@ if
 aFrame
 is
 the
-CSS
-initial
-containing
-block
+root
+element
+frame
 for
 *
 its
@@ -2427,7 +2426,7 @@ shell
 /
 static
 PRBool
-IsInitialContainingBlock
+IsRootElementFrame
 (
 nsIFrame
 *
