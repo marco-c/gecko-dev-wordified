@@ -2591,7 +2591,7 @@ accessible
 /
 already_AddRefed
 <
-nsIAccessible
+nsAccessible
 >
 GetFirstAvailableAccessible
 (

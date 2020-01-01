@@ -1076,12 +1076,12 @@ if
 focusedOptionNode
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIAccessible
+nsAccessible
 >
 focusedOption
-;
+=
 GetAccService
 (
 )
@@ -1091,10 +1091,6 @@ GetAccessibleInWeakShell
 (
 focusedOptionNode
 mWeakShell
-getter_AddRefs
-(
-focusedOption
-)
 )
 ;
 NS_ENSURE_TRUE

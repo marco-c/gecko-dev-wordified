@@ -762,7 +762,7 @@ node
 /
 already_AddRefed
 <
-nsIAccessible
+nsAccessible
 >
 GetActionAccessible
 (
