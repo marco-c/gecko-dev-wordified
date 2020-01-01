@@ -8102,6 +8102,8 @@ instruction
 ensureRoom
 (
 argc
+*
+LIR_FAR_SLOTS
 +
 insSz
 )
@@ -8148,6 +8150,8 @@ next
 )
 +
 argc
+*
+LIR_FAR_SLOTS
 +
 insSz
 -
