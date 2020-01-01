@@ -896,6 +896,15 @@ MDefinition
 mir
 )
 ;
+inline
+LAllocation
+useRegisterOrNonDoubleConstant
+(
+MDefinition
+*
+mir
+)
+;
 #
 ifdef
 JS_NUNBOX32

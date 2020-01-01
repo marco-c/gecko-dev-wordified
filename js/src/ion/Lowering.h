@@ -1255,6 +1255,14 @@ ins
 )
 ;
 bool
+visitStoreElementHole
+(
+MStoreElementHole
+*
+ins
+)
+;
+bool
 visitLoadFixedSlot
 (
 MLoadFixedSlot

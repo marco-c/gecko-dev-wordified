@@ -760,6 +760,11 @@ StoreElement
 \
 _
 (
+StoreElementHole
+)
+\
+_
+(
 LoadFixedSlot
 )
 \
