@@ -4086,12 +4086,6 @@ JSOPTION_ATLINE
 }
 {
 "
-relimit
-"
-JSOPTION_RELIMIT
-}
-{
-"
 strict
 "
 JSOPTION_STRICT
