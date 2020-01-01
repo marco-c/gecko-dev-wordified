@@ -3760,6 +3760,13 @@ range
 )
 CSS_KEY
 (
+range
+-
+thumb
+range_thumb
+)
+CSS_KEY
+(
 scale
 -
 horizontal
