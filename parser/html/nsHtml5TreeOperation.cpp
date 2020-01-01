@@ -1552,6 +1552,16 @@ scripts
 "
 )
 ;
+if
+(
+aNode
+-
+>
+IsElement
+(
+)
+)
+{
 nsContentUtils
 :
 :
@@ -1564,6 +1574,7 @@ doc
 )
 )
 ;
+}
 return
 rv
 ;
