@@ -1262,12 +1262,17 @@ here
 FilePath
 exePath
 ;
+#
+ifdef
+OS_LINUX
 base
 :
 :
 environment_map
 newEnvVars
 ;
+#
+endif
 nsCOMPtr
 <
 nsIProperties
