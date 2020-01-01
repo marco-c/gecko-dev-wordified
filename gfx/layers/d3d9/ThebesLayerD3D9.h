@@ -540,6 +540,12 @@ CleanResources
 (
 )
 ;
+virtual
+void
+LayerManagerDestroyed
+(
+)
+;
 private
 :
 /

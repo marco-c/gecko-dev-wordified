@@ -585,6 +585,12 @@ CleanResources
 (
 )
 ;
+virtual
+void
+LayerManagerDestroyed
+(
+)
+;
 void
 CreateTexture
 (
