@@ -963,6 +963,7 @@ e
 onProgressChange
 :
 function
+dlPL_onProgressChange
 (
 aWebProgress
 aRequest
