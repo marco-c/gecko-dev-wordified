@@ -1257,7 +1257,7 @@ into
 instantiation
 .
 PRBool
-mInstantiating
+mPreventInstantiation
 ;
 }
 ;
