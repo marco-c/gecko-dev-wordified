@@ -2100,6 +2100,12 @@ the
 cairo
 matrix
 .
+aPatternTransform
+.
+NudgeToIntegers
+(
+)
+;
 return
 ;
 }
@@ -2188,5 +2194,11 @@ aPatternTransform
 aOriginalTransform
 *
 mat
+;
+aPatternTransform
+.
+NudgeToIntegers
+(
+)
 ;
 }

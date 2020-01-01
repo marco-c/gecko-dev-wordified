@@ -12843,6 +12843,12 @@ TransformBounds
 mRect
 )
 ;
+mRect
+.
+NudgeToIntegers
+(
+)
+;
 }
 else
 if
