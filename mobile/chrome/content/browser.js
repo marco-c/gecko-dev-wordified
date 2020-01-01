@@ -427,11 +427,6 @@ BLOCK
 *
 *
 /
-"
-use
-strict
-"
-;
 let
 Cc
 =
@@ -7440,7 +7435,6 @@ addEventListener
 pagehide
 "
 function
-listener
 (
 )
 {
@@ -7462,7 +7456,9 @@ removeEventListener
 "
 pagehide
 "
-listener
+arguments
+.
+callee
 true
 )
 ;
