@@ -2398,7 +2398,7 @@ title
 make
 it
 a
-like
+link
 if
 (
 entry
