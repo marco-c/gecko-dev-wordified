@@ -20447,6 +20447,16 @@ pobj
 prop
 )
 ;
+if
+(
+protoIndex
+<
+0
+)
+return
+-
+1
+;
 }
 else
 {
