@@ -2715,7 +2715,10 @@ memcpy
 mLogFont
 .
 lfFaceName
+nsPromiseFlatString
+(
 aName
+)
 .
 get
 (
