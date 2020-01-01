@@ -539,6 +539,9 @@ objbase
 .
 h
 >
+class
+nsIMemoryMultiReporter
+;
 /
 /
 Utility
@@ -1737,6 +1740,10 @@ gfxFontEntry
 >
 >
 mPrefFonts
+;
+nsIMemoryMultiReporter
+*
+mGPUAdapterMultiReporter
 ;
 }
 ;
