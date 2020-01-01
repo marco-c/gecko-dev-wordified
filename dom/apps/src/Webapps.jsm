@@ -1266,6 +1266,8 @@ id
 .
 csp
 =
+aResult
+.
 manifest
 .
 csp
