@@ -659,17 +659,6 @@ aData
 )
 ;
 }
-static
-nsresult
-ThrowJSException
-(
-JSContext
-*
-cx
-nsresult
-aResult
-)
-;
 /
 *
 *
