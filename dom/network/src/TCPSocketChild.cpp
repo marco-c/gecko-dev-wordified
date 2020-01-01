@@ -752,7 +752,7 @@ val
 NS_ENSURE_TRUE
 (
 ok
-NS_ERROR_FAILURE
+true
 )
 ;
 rv
