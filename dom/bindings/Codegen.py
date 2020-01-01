@@ -25005,17 +25005,9 @@ n
 "
             
 "
-const_cast
-<
-%
-s
-&
->
-(
 {
 declName
 }
-)
 =
 &
 {
@@ -25025,7 +25017,6 @@ holderName
 "
 %
             
-(
 getConversionCode
 (
 "
@@ -25034,15 +25025,9 @@ holderName
 }
 "
 )
-declType
-)
             
 CGGeneric
 (
-"
-const
-"
-+
 declType
 )
 CGGeneric
@@ -33437,6 +33422,19 @@ a
 type
 .
 nullable
+(
+)
+:
+                    
+return
+True
+                
+if
+a
+.
+type
+.
+isString
 (
 )
 :
