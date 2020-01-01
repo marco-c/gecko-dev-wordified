@@ -5733,6 +5733,17 @@ JSOPTION_JIT
 JSOPTION_ANONFUNFIX
 )
 ;
+JS_SetGCParameterForThread
+(
+cx
+JSGC_MAX_CODE_CACHE_BYTES
+1
+*
+1024
+*
+1024
+)
+;
 return
 cx
 .

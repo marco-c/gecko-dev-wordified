@@ -6830,6 +6830,17 @@ mStrIDs
 ]
 )
 {
+JS_SetGCParameterForThread
+(
+cx
+JSGC_MAX_CODE_CACHE_BYTES
+16
+*
+1024
+*
+1024
+)
+;
 JSAutoRequest
 ar
 (
