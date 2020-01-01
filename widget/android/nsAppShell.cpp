@@ -2908,10 +2908,6 @@ coordinates
 "
 )
 ;
-if
-(
-domWindow
-)
 bridge
 -
 >
