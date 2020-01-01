@@ -465,6 +465,7 @@ if
 add
 (
 lir
+ins
 )
 )
 return
