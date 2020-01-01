@@ -9511,7 +9511,7 @@ SetMissingGlyph
 (
 PRUint32
 aIndex
-PRUnichar
+PRUint32
 aChar
 )
 {
@@ -9580,6 +9580,7 @@ gfxFontMissingGlyphs
 :
 GetDesiredMinWidth
 (
+aChar
 )
 )
 ;

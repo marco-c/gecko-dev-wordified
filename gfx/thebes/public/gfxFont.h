@@ -8251,7 +8251,7 @@ SetMissingGlyph
 (
 PRUint32
 aCharIndex
-PRUnichar
+PRUint32
 aChar
 )
 ;
