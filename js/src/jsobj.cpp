@@ -26565,6 +26565,13 @@ protoType
 return
 NULL
 ;
+protoType
+-
+>
+singleton
+=
+proto
+;
 if
 (
 clasp

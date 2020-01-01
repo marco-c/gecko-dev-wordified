@@ -2199,6 +2199,7 @@ Jsvalify
 XPC_WN_NoHelper_Proto_JSClass
 )
 mPrototypeJSObject
+false
 mGlobalJSObject
 )
 ;
