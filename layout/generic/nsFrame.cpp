@@ -30543,6 +30543,11 @@ lastFrame
 :
 firstFrame
 ;
+if
+(
+baseFrame
+)
+{
 nsBidiLevel
 embeddingLevel
 =
@@ -30606,6 +30611,7 @@ endOfLine
 !
 endOfLine
 ;
+}
 }
 else
 #
