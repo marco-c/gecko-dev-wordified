@@ -306,7 +306,11 @@ IsLeaf
 (
 )
 const
+{
+return
+true
 ;
+}
 /
 /
 nsIAnonymousContentCreator
@@ -692,3 +696,6 @@ aNotify
 ;
 #
 endif
+/
+/
+nsFileControlFrame_h___
