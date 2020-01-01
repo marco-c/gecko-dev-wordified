@@ -450,7 +450,7 @@ TestShellChild
 RecvSendCommand
 (
 const
-String
+nsString
 &
 aCommand
 )
@@ -503,10 +503,10 @@ TestShellChild
 RecvSendCommandWithResponse
 (
 const
-String
+nsString
 &
 aCommand
-String
+nsString
 *
 aResponse
 )

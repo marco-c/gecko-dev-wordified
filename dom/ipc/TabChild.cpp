@@ -357,7 +357,7 @@ TabChild
 RecvloadURL
 (
 const
-String
+nsCString
 &
 uri
 )
@@ -375,7 +375,7 @@ n
 "
 uri
 .
-c_str
+get
 (
 )
 NS_IsMainThread
@@ -392,10 +392,6 @@ LoadURI
 NS_ConvertUTF8toUTF16
 (
 uri
-.
-c_str
-(
-)
 )
 .
 get

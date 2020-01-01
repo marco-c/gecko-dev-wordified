@@ -490,23 +490,11 @@ serialize
 deserialize
     
 '
-mozilla
-:
-:
-ipc
-:
-:
-String
+nsString
 '
     
 '
-mozilla
-:
-:
-ipc
-:
-:
-StringArray
+nsCString
 '
 )
 Includes
@@ -536,11 +524,7 @@ h
 '
     
 '
-mozilla
-/
-ipc
-/
-MessageTypes
+nsStringGlue
 .
 h
 '

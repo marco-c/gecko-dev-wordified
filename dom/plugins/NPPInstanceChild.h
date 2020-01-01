@@ -614,10 +614,10 @@ nsresult
 AnswerNPP_GetValue
 (
 const
-String
+nsString
 &
 key
-String
+nsString
 *
 value
 )

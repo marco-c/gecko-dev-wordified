@@ -89,18 +89,6 @@ TabChild
 public
 IFrameEmbeddingProtocolChild
 {
-private
-:
-typedef
-mozilla
-:
-:
-ipc
-:
-:
-String
-String
-;
 public
 :
 TabChild
@@ -142,7 +130,7 @@ nsresult
 RecvloadURL
 (
 const
-String
+nsCString
 &
 uri
 )
