@@ -10428,8 +10428,7 @@ mMutex
 if
 (
 mParentStatus
-!
-=
+>
 Running
 )
 {
