@@ -65308,6 +65308,18 @@ descriptor
 =
 descriptor
         
+self
+.
+_deps
+=
+descriptor
+.
+interface
+.
+getDeps
+(
+)
+        
 iface
 =
 descriptor
@@ -66194,6 +66206,18 @@ self
         
 return
 None
+    
+def
+deps
+(
+self
+)
+:
+        
+return
+self
+.
+_deps
 class
 CGExampleClass
 (
