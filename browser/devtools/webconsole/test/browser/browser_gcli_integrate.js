@@ -283,6 +283,15 @@ Failure
 ex
 )
 ;
+ok
+(
+false
+'
+'
++
+ex
+)
+;
 }
 finally
 {
@@ -633,6 +642,8 @@ cycle
 gcliterm
 .
 opts
+.
+popup
 .
 inputter
 .
