@@ -1305,12 +1305,9 @@ CheckCache
 (
 )
 ;
-nsresult
+bool
 ShouldUpdateOfflineCacheEntry
 (
-bool
-*
-shouldCacheForOfflineUse
 )
 ;
 nsresult
