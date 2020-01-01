@@ -4504,9 +4504,10 @@ no
 ?
 if
 (
-GetTextExtentPoint32
+GetTextExtentPoint32W
 (
 dc
+L
 "
 0
 "
