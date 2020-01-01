@@ -317,6 +317,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+gl
+;
 static
 bool
 BaseTypeAndSizeFromUniformType
@@ -29757,9 +29764,6 @@ Texture
 tex
 )
 {
-gl
-:
-:
 ScopedBindFramebuffer
 autoFB
 (
@@ -29810,9 +29814,6 @@ Texture
 tex
 )
 {
-gl
-:
-:
 ScopedBindFramebuffer
 autoFB
 (
@@ -29860,9 +29861,6 @@ Texture
 tex
 )
 {
-gl
-:
-:
 ScopedBindFramebuffer
 autoFB
 (
@@ -29910,9 +29908,6 @@ Texture
 tex
 )
 {
-gl
-:
-:
 ScopedBindFramebuffer
 autoFB
 (
