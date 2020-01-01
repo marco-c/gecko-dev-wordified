@@ -127,11 +127,6 @@ desktop
 -
 notification
 "
-"
-audio
--
-capture
-"
 ]
 ;
 Cu
