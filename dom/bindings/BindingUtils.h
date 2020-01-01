@@ -4559,7 +4559,13 @@ Truncate
 {
 mData
 =
-nsnull
+nsDependentString
+:
+:
+char_traits
+:
+:
+sEmptyBuffer
 ;
 mLength
 =
