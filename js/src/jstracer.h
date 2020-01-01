@@ -424,10 +424,10 @@ BLOCK
 /
 #
 ifndef
-jstracer_h__
+jstracer_h___
 #
 define
-jstracer_h__
+jstracer_h___
 #
 include
 "
@@ -563,15 +563,6 @@ loop
 struct
 JSTraceMonitor
 {
-#
-ifdef
-JS_THREADSAFE
-JSLock
-*
-lock
-;
-#
-endif
 jsval
 *
 loopTable
@@ -613,3 +604,8 @@ index
 ;
 #
 endif
+/
+*
+jstracer_h___
+*
+/
