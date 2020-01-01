@@ -6543,12 +6543,7 @@ endif
 static
 unsigned
 char
-*
 bits2
-=
-new
-unsigned
-char
 [
 32
 *
