@@ -908,6 +908,14 @@ GetModuleHandleW
 (
 kWEModuleHandle
 )
+|
+|
+:
+:
+GetModuleHandleW
+(
+kDolphnModuleHandle
+)
 ;
 }
 bool
