@@ -782,8 +782,6 @@ Enter
 *
 /
 class
-NS_COM_GLUE
-NS_STACK_CLASS
 MonitorAutoExit
 {
 public
