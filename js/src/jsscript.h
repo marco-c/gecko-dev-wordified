@@ -1136,8 +1136,7 @@ scope
 .
 *
 /
-Shape
-*
+UnrootedShape
 callObjShape
 (
 )
@@ -1145,6 +1144,10 @@ const
 {
 return
 callObjShape_
+.
+get
+(
+)
 ;
 }
 /
@@ -1270,10 +1273,16 @@ bindings
 return
 IsPoisonedPtr
 (
+static_cast
+<
+RawShape
+>
+(
 bindings
 .
 callObjShape
 (
+)
 )
 )
 ;
