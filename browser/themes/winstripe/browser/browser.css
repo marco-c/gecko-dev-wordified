@@ -15854,6 +15854,8 @@ ThreeDFace
 %
 ifdef
 MOZ_WIDGET_GTK2
+/
+*
 -
 moz
 -
@@ -15865,6 +15867,8 @@ end
 solid
 ThreeDShadow
 ;
+*
+/
 %
 else
 -
