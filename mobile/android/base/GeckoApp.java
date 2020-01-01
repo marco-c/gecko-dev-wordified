@@ -9718,13 +9718,6 @@ intent
 passedUri
 )
 ;
-ThreadUtils
-.
-setGeckoThread
-(
-sGeckoThread
-)
-;
 }
 if
 (

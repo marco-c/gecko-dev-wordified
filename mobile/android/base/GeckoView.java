@@ -434,13 +434,6 @@ url
 ;
 ThreadUtils
 .
-setGeckoThread
-(
-sGeckoThread
-)
-;
-ThreadUtils
-.
 setUiThread
 (
 Thread
