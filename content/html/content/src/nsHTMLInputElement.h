@@ -3309,9 +3309,9 @@ MaxLengthApplies
 const
 {
 return
-IsSingleLineTextControlInternal
+IsSingleLineTextControl
 (
-PR_FALSE
+false
 mType
 )
 ;
@@ -3429,9 +3429,9 @@ PlaceholderApplies
 const
 {
 return
-IsSingleLineTextControlInternal
+IsSingleLineTextControl
 (
-PR_FALSE
+false
 mType
 )
 ;
