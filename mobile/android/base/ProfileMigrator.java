@@ -4712,7 +4712,7 @@ Firefox
 Places
 13
 -
-20
+21
 .
 The
 relevant
@@ -5080,7 +5080,7 @@ if
 schemaVersion
 <
 =
-20
+21
 )
 {
 Log
