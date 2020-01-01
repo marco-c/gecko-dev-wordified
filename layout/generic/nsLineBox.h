@@ -3734,7 +3734,7 @@ aOther
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mListLink
 =
@@ -3771,7 +3771,7 @@ aOther
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mListLink
 =
@@ -3807,7 +3807,7 @@ iterator_self_type
 aOther
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mListLink
 =
@@ -3843,7 +3843,7 @@ iterator_self_type
 aOther
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mListLink
 =

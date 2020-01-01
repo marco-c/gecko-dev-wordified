@@ -8773,6 +8773,10 @@ line
 (
 nsnull
 )
+lineContainer
+(
+nsnull
+)
 prevLines
 (
 0
@@ -8826,6 +8830,16 @@ const
 nsLineList_iterator
 *
 line
+;
+/
+/
+The
+line
+container
+.
+nsIFrame
+*
+lineContainer
 ;
 /
 /
