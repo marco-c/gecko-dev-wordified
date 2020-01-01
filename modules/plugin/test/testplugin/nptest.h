@@ -405,6 +405,9 @@ void
 *
 platformData
 ;
+uint32_t
+instanceCountWatchGeneration
+;
 bool
 lastReportedPrivateModeState
 ;
