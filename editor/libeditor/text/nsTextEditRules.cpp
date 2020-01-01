@@ -3207,7 +3207,10 @@ if
 selOffset
 !
 =
+PRInt32
+(
 length
+)
 )
 return
 NS_OK
