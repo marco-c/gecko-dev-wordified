@@ -765,6 +765,14 @@ void
 )
 *
 /
+MOZCE_SHUNT_API
+unsigned
+short
+*
+mozce_GetEnvironmentCL
+(
+)
+;
 #
 ifdef
 __cplusplus
