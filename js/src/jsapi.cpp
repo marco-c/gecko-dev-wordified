@@ -16511,6 +16511,8 @@ JSRESOLVE_DECLARING
 )
 ;
 return
+!
+!
 js_DefineNativeProperty
 (
 cx
@@ -16759,6 +16761,8 @@ JSRESOLVE_DECLARING
 )
 ;
 return
+!
+!
 js_DefineNativeProperty
 (
 cx
@@ -19396,8 +19400,8 @@ js_GetMethod
 cx
 obj
 id
+false
 vp
-NULL
 )
 )
 return
