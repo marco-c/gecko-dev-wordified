@@ -334,9 +334,6 @@ h
 "
 #
 if
-ENABLE_ASSEMBLER
-&
-&
 WTF_OS_UNIX
 &
 &
