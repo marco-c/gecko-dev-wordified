@@ -52545,7 +52545,7 @@ For
 r
 -
 >
-isDecimal
+canHaveFractionalPart
 (
 )
 and
@@ -52792,7 +52792,7 @@ check
 r
 -
 >
-isDecimal
+canHaveFractionalPart
 (
 )
 .

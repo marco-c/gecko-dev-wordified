@@ -1082,7 +1082,7 @@ bool
 upper_infinite_
 ;
 bool
-decimal_
+canHaveFractionalPart_
 ;
 uint16_t
 max_exponent_
@@ -1132,7 +1132,7 @@ upper_infinite_
 (
 true
 )
-decimal_
+canHaveFractionalPart_
 (
 true
 )
@@ -1175,7 +1175,7 @@ l
 int64_t
 h
 bool
-d
+f
 =
 false
 uint16_t
@@ -1192,9 +1192,9 @@ upper_infinite_
 (
 true
 )
-decimal_
+canHaveFractionalPart_
 (
-d
+f
 )
 max_exponent_
 (
@@ -1332,11 +1332,11 @@ other
 .
 upper_infinite_
 )
-decimal_
+canHaveFractionalPart_
 (
 other
 .
-decimal_
+canHaveFractionalPart_
 )
 max_exponent_
 (
@@ -1864,7 +1864,7 @@ hasRoundingErrors
 const
 {
 return
-isDecimal
+canHaveFractionalPart
 (
 )
 |
@@ -1895,13 +1895,13 @@ MaxDoubleExponent
 }
 inline
 bool
-isDecimal
+canHaveFractionalPart
 (
 )
 const
 {
 return
-decimal_
+canHaveFractionalPart_
 ;
 }
 inline
@@ -2140,7 +2140,7 @@ upper_infinite_
 =
 false
 ;
-decimal_
+canHaveFractionalPart_
 =
 false
 ;
@@ -2158,7 +2158,7 @@ l
 int64_t
 h
 bool
-d
+f
 =
 false
 uint16_t
@@ -2181,9 +2181,9 @@ setUpperInit
 h
 )
 ;
-decimal_
+canHaveFractionalPart_
 =
-d
+f
 ;
 rectifyExponent
 (
