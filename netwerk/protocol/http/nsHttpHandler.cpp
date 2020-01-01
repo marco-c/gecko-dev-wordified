@@ -10358,7 +10358,7 @@ nsISupports
 -
 -
 -
-NS_IMPL_THREADSAFE_ISUPPORTS6
+NS_IMPL_ISUPPORTS6
 (
 nsHttpHandler
 nsIHttpProtocolHandler
@@ -13242,7 +13242,7 @@ implementation
 -
 -
 -
-NS_IMPL_THREADSAFE_ISUPPORTS5
+NS_IMPL_ISUPPORTS5
 (
 nsHttpsHandler
 nsIHttpProtocolHandler

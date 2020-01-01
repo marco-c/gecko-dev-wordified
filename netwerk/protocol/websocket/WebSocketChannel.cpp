@@ -423,7 +423,7 @@ mozilla
 namespace
 net
 {
-NS_IMPL_THREADSAFE_ISUPPORTS11
+NS_IMPL_ISUPPORTS11
 (
 WebSocketChannel
 nsIWebSocketChannel
@@ -3456,7 +3456,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 CallOnMessageAvailable
 (
 WebSocketChannel
@@ -3551,7 +3551,7 @@ mLen
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 CallOnMessageAvailable
 nsIRunnable
@@ -3726,7 +3726,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 CallOnStop
 (
 WebSocketChannel
@@ -3833,7 +3833,7 @@ mReason
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 CallOnStop
 nsIRunnable
@@ -4008,7 +4008,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 CallOnServerClose
 (
 WebSocketChannel
@@ -4082,7 +4082,7 @@ mReason
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 CallOnServerClose
 nsIRunnable
@@ -4257,7 +4257,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 CallAcknowledge
 (
 WebSocketChannel
@@ -4339,7 +4339,7 @@ mSize
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 CallAcknowledge
 nsIRunnable
@@ -4514,7 +4514,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 CallOnTransportAvailable
 (
 WebSocketChannel
@@ -4617,7 +4617,7 @@ mSocketOut
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 CallOnTransportAvailable
 nsIRunnable
@@ -5446,7 +5446,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 OutboundEnqueuer
 (
 WebSocketChannel
@@ -5508,7 +5508,7 @@ mMessage
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 OutboundEnqueuer
 nsIRunnable

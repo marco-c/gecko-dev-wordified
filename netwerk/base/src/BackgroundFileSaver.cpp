@@ -4515,7 +4515,7 @@ NS_OK
 /
 /
 BackgroundFileSaverOutputStream
-NS_IMPL_THREADSAFE_ISUPPORTS4
+NS_IMPL_ISUPPORTS4
 (
 BackgroundFileSaverOutputStream
 nsIBackgroundFileSaver
@@ -4902,7 +4902,7 @@ this
 /
 /
 BackgroundFileSaverStreamListener
-NS_IMPL_THREADSAFE_ISUPPORTS3
+NS_IMPL_ISUPPORTS3
 (
 BackgroundFileSaverStreamListener
 nsIBackgroundFileSaver
@@ -5746,7 +5746,7 @@ NS_OK
 /
 /
 DigestOutputStream
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 DigestOutputStream
 nsIOutputStream

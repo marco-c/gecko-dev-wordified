@@ -313,7 +313,7 @@ nsIEquals
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 ConsumerContext
 (
 )
@@ -353,7 +353,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 ConsumerContext
 nsIEquals
@@ -366,7 +366,7 @@ nsIStreamListener
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 Consumer
@@ -466,7 +466,7 @@ mContext
 /
 nsISupports
 implementation
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 Consumer
 nsIStreamListener

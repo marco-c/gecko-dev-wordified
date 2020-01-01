@@ -946,7 +946,7 @@ nsIObserver
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOBSERVER
 nsCacheProfilePrefObserver
 (
@@ -1287,7 +1287,7 @@ mClearCacheOnShutdown
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsCacheProfilePrefObserver
 nsIObserver
@@ -1301,7 +1301,7 @@ nsITimerCallback
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_IMETHOD
 Notify
 (
@@ -1354,7 +1354,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsSetDiskSmartSizeCallback
 nsITimerCallback
@@ -6900,7 +6900,7 @@ gService
 =
 nullptr
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsCacheService
 nsICacheService

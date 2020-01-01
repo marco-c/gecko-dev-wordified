@@ -500,7 +500,7 @@ impl
 -
 -
 -
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsUDPOutputStream
 nsIOutputStream
@@ -972,7 +972,7 @@ impl
 -
 -
 -
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsUDPMessage
 nsIUDPMessage
@@ -2747,7 +2747,7 @@ nsISupports
 -
 -
 -
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsUDPServerSocket
 nsIUDPServerSocket
@@ -3467,7 +3467,7 @@ do_GetCurrentThread
 )
 {
 }
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIUDPSERVERSOCKETLISTENER
 class
 OnPacketReceivedRunnable
@@ -3605,7 +3605,7 @@ mTargetThread
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 ServerSocketListenerProxy
 nsIUDPServerSocketListener

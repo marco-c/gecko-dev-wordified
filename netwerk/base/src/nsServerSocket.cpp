@@ -1837,7 +1837,7 @@ nsISupports
 -
 -
 -
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsServerSocket
 nsIServerSocket
@@ -2497,7 +2497,7 @@ do_GetCurrentThread
 )
 {
 }
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSISERVERSOCKETLISTENER
 class
 OnSocketAcceptedRunnable
@@ -2635,7 +2635,7 @@ mTargetThread
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 ServerSocketListenerProxy
 nsIServerSocketListener

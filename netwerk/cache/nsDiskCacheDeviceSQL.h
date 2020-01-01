@@ -233,7 +233,7 @@ mozIStorageFunction
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_MOZISTORAGEFUNCTION
 nsOfflineCacheEvictionFunction
 (
@@ -293,7 +293,7 @@ nsOfflineCacheDevice
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 /
 *
 *

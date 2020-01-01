@@ -280,7 +280,7 @@ mObservers
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsHttpActivityDistributor
 nsIHttpActivityDistributor

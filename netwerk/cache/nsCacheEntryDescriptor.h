@@ -326,7 +326,7 @@ nsICacheEntryDescriptor
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSICACHEENTRYDESCRIPTOR
 NS_DECL_NSICACHEENTRYINFO
 friend
@@ -692,7 +692,7 @@ mLock
 ;
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIINPUTSTREAM
 nsInputStreamWrapper
 (
@@ -806,7 +806,7 @@ mStreamEnded
 ;
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 nsDecompressInputStreamWrapper
 (
 nsCacheEntryDescriptor
@@ -1096,7 +1096,7 @@ mLock
 ;
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOUTPUTSTREAM
 nsOutputStreamWrapper
 (
@@ -1244,7 +1244,7 @@ mUncompressedCount
 ;
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 nsCompressOutputStreamWrapper
 (
 nsCacheEntryDescriptor

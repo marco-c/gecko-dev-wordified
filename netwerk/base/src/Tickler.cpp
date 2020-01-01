@@ -151,7 +151,7 @@ mozilla
 namespace
 net
 {
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 Tickler
 nsISupportsWeakReference
@@ -971,7 +971,7 @@ MOZ_FINAL
 public
 nsITimerCallback
 {
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITIMERCALLBACK
 TicklerTimer
 (
@@ -1124,7 +1124,7 @@ port
 port
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 TicklerTimer
 nsITimerCallback
@@ -1288,7 +1288,7 @@ mozilla
 namespace
 net
 {
-NS_IMPL_THREADSAFE_ISUPPORTS0
+NS_IMPL_ISUPPORTS0
 (
 Tickler
 )

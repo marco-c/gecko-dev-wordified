@@ -183,7 +183,7 @@ mozilla
 :
 net
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 AndroidCameraInputStream
 nsIInputStream
@@ -1383,7 +1383,7 @@ AndroidCaptureProvider
 implementation
 *
 /
-NS_IMPL_THREADSAFE_ISUPPORTS0
+NS_IMPL_ISUPPORTS0
 (
 AndroidCaptureProvider
 )

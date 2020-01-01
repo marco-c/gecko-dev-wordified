@@ -399,10 +399,9 @@ AddRef
 nsrefcnt
 n
 =
-NS_AtomicIncrementRefcnt
-(
++
++
 mRef
-)
 ;
 NS_LOG_ADDREF
 (
@@ -430,10 +429,9 @@ Release
 nsrefcnt
 n
 =
-NS_AtomicDecrementRefcnt
-(
+-
+-
 mRef
-)
 ;
 NS_LOG_RELEASE
 (
@@ -898,7 +896,10 @@ UsingProxy
 ;
 private
 :
-nsrefcnt
+mozilla
+:
+:
+ThreadSafeAutoRefCnt
 mRef
 ;
 nsCString

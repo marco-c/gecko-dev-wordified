@@ -496,7 +496,7 @@ nsIOutputStreamCallback
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 MyCopier
 (
 )
@@ -1037,7 +1037,7 @@ mInputCondition
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 MyCopier
 nsIInputStreamCallback

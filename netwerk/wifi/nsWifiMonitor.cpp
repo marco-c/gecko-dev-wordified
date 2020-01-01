@@ -172,7 +172,7 @@ gWifiMonitorLog
 ;
 #
 endif
-NS_IMPL_THREADSAFE_ISUPPORTS3
+NS_IMPL_ISUPPORTS3
 (
 nsWifiMonitor
 nsIRunnable
@@ -569,7 +569,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 nsPassErrorToWifiListeners
 (
@@ -605,7 +605,7 @@ mResult
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsPassErrorToWifiListeners
 nsIRunnable
@@ -844,7 +844,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 nsCallWifiListeners
 (
@@ -894,7 +894,7 @@ mAccessPoints
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsCallWifiListeners
 nsIRunnable

@@ -985,7 +985,7 @@ key
 nsOfflineCacheEvictionFunction
 *
 /
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsOfflineCacheEvictionFunction
 mozIStorageFunction
@@ -2071,7 +2071,7 @@ nsISupports
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 static
 nsOfflineCacheBinding
 *
@@ -2143,7 +2143,7 @@ FLAG_NEW_ENTRY
 }
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS0
+NS_IMPL_ISUPPORTS0
 (
 nsOfflineCacheBinding
 )
@@ -4660,7 +4660,7 @@ mDB
 nsOfflineCacheDevice
 *
 /
-NS_IMPL_THREADSAFE_ISUPPORTS0
+NS_IMPL_ISUPPORTS0
 (
 nsOfflineCacheDevice
 )

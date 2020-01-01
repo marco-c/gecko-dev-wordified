@@ -262,7 +262,7 @@ nsICancelable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSICANCELABLE
 TokenBucketCancelable
 (
@@ -296,7 +296,7 @@ mEvent
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 TokenBucketCancelable
 nsICancelable
@@ -469,7 +469,7 @@ EventTokenBucket
 /
 /
 /
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 EventTokenBucket
 nsITimerCallback
