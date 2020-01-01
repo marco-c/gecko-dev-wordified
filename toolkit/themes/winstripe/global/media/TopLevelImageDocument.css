@@ -157,17 +157,4 @@ color
 222
 ;
 }
-.
-completeRotation
-{
-transition
-:
-transform
-0
-.
-3s
-ease
-0s
-;
-}
 }
