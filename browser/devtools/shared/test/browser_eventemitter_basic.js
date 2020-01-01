@@ -82,8 +82,9 @@ emitter
 =
 aObject
 ;
-new
 EventEmitter
+.
+decorate
 (
 emitter
 )

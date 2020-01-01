@@ -755,8 +755,9 @@ this
 inspector
 =
 aInspector
-new
 EventEmitter
+.
+decorate
 (
 this
 )

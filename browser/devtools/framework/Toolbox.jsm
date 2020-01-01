@@ -1151,8 +1151,9 @@ _createHost
 hostType
 )
 ;
-new
 EventEmitter
+.
+decorate
 (
 this
 )

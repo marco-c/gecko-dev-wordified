@@ -1286,8 +1286,9 @@ TabTarget
 tab
 )
 {
-new
 EventEmitter
+.
+decorate
 (
 this
 )
@@ -1952,8 +1953,9 @@ WindowTarget
 window
 )
 {
-new
 EventEmitter
+.
+decorate
 (
 this
 )
@@ -2156,8 +2158,9 @@ client
 chrome
 )
 {
-new
 EventEmitter
+.
+decorate
 (
 this
 )
