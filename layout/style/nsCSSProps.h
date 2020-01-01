@@ -2682,6 +2682,13 @@ kStrokeLinejoinKTable
 static
 const
 PRInt32
+kVectorEffectKTable
+[
+]
+;
+static
+const
+PRInt32
 kTextAnchorKTable
 [
 ]
