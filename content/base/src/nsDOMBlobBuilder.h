@@ -280,7 +280,10 @@ JSObject
 aObj
 uint32_t
 aArgc
-jsval
+JS
+:
+:
+Value
 *
 aArgv
 )
@@ -307,7 +310,10 @@ JSContext
 aCx
 uint32_t
 aArgc
-jsval
+JS
+:
+:
+Value
 *
 aArgv
 UnwrapFuncPtr
@@ -322,7 +328,10 @@ JSContext
 aCx
 uint32_t
 aArgc
-jsval
+JS
+:
+:
+Value
 *
 aArgv
 )

@@ -1691,7 +1691,10 @@ iid
 /
 ArrayBuffer
 ?
-jsval
+JS
+:
+:
+Value
 realVal
 ;
 JSObject
@@ -2125,7 +2128,10 @@ ar
 cx
 )
 ;
-jsval
+JS
+:
+:
+Value
 jsData
 ;
 if

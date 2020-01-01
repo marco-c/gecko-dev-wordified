@@ -32774,7 +32774,10 @@ const
 nsIID
 *
 aIID
-jsval
+JS
+:
+:
+Value
 *
 vp
 nsIXPConnectJSObjectHolder
@@ -33216,7 +33219,10 @@ const
 nsACString
 &
 aData
-jsval
+JS
+:
+:
+Value
 &
 aBlob
 )

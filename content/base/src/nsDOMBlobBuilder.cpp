@@ -1005,7 +1005,10 @@ JSObject
 aObj
 uint32_t
 aArgc
-jsval
+JS
+:
+:
+Value
 *
 aArgv
 )
@@ -1046,7 +1049,10 @@ JSContext
 aCx
 uint32_t
 aArgc
-jsval
+JS
+:
+:
+Value
 *
 aArgv
 UnwrapFuncPtr
@@ -1259,7 +1265,10 @@ length
 i
 )
 {
-jsval
+JS
+:
+:
+Value
 element
 ;
 if
@@ -1531,7 +1540,10 @@ JSContext
 aCx
 uint32_t
 aArgc
-jsval
+JS
+:
+:
+Value
 *
 aArgv
 )
