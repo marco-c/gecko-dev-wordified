@@ -2854,6 +2854,15 @@ mCancelable
 =
 aCancelableArg
 ;
+mEvent
+-
+>
+mFlags
+.
+mDefaultPrevented
+=
+false
+;
 /
 /
 Clearing
