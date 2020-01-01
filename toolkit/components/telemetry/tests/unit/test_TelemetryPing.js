@@ -403,14 +403,8 @@ enableLoadSaveNotifications
 ;
 TelemetryPing
 .
-observe
+testPing
 (
-null
-"
-test
--
-ping
-"
 SERVER
 )
 ;
