@@ -309,6 +309,8 @@ public
 :
 TestAsyncPanZoomController
 (
+uint64_t
+aLayersId
 MockContentController
 *
 mcc
@@ -316,6 +318,7 @@ mcc
 :
 AsyncPanZoomController
 (
+aLayersId
 mcc
 )
 {
@@ -743,6 +746,7 @@ apzc
 new
 TestAsyncPanZoomController
 (
+0
 mcc
 )
 ;
@@ -804,6 +808,7 @@ apzc
 new
 TestAsyncPanZoomController
 (
+0
 mcc
 )
 ;
@@ -1054,6 +1059,7 @@ apzc
 new
 TestAsyncPanZoomController
 (
+0
 mcc
 )
 ;
@@ -1066,6 +1072,7 @@ childApzc
 new
 TestAsyncPanZoomController
 (
+0
 mcc
 )
 ;
@@ -1874,6 +1881,7 @@ apzc
 new
 TestAsyncPanZoomController
 (
+0
 mcc
 )
 ;
@@ -2087,6 +2095,7 @@ apzc
 new
 TestAsyncPanZoomController
 (
+0
 mcc
 )
 ;
@@ -2285,6 +2294,7 @@ apzc
 new
 TestAsyncPanZoomController
 (
+0
 mcc
 )
 ;
