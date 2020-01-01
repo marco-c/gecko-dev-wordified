@@ -71,11 +71,6 @@ ctypes
 open
 (
 "
-/
-system
-/
-lib
-/
 libcutils
 .
 so
