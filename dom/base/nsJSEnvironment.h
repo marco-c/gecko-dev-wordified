@@ -1115,8 +1115,6 @@ static
 void
 CC
 (
-PRBool
-aDrawGraph
 )
 ;
 /
