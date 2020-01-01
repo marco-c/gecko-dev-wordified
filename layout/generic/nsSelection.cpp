@@ -528,6 +528,13 @@ h
 #
 include
 "
+nsISelection3
+.
+h
+"
+#
+include
+"
 nsISelectionPrivate
 .
 h
@@ -1195,6 +1202,8 @@ nsTypedSelection
 public
 nsISelection2
 public
+nsISelection3
+public
 nsISelectionPrivate
 public
 nsSupportsWeakReference
@@ -1226,6 +1235,7 @@ nsISelection
 )
 NS_DECL_NSISELECTION
 NS_DECL_NSISELECTION2
+NS_DECL_NSISELECTION3
 NS_DECL_NSISELECTIONPRIVATE
 /
 /
@@ -18300,6 +18310,10 @@ nsISelection
 NS_INTERFACE_MAP_ENTRY
 (
 nsISelection2
+)
+NS_INTERFACE_MAP_ENTRY
+(
+nsISelection3
 )
 NS_INTERFACE_MAP_ENTRY
 (
