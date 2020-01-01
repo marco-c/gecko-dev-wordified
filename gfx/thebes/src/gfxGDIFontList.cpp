@@ -4154,7 +4154,7 @@ fontList
 >
 mBadUnderlineFamilyNames
 .
-GetEntry
+Contains
 (
 name
 )

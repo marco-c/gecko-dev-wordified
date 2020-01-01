@@ -1066,7 +1066,7 @@ if
 (
 mBadUnderlineFamilyNames
 .
-GetEntry
+Contains
 (
 name
 )

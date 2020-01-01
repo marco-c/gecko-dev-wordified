@@ -449,6 +449,13 @@ h
 #
 include
 "
+nsHashSets
+.
+h
+"
+#
+include
+"
 gfxFontUtils
 .
 h
@@ -1469,10 +1476,7 @@ problems
 nsString
 mReplacementCharFallbackFamily
 ;
-nsTHashtable
-<
-nsStringHashKey
->
+nsStringHashSet
 mBadUnderlineFamilyNames
 ;
 /
