@@ -2767,7 +2767,7 @@ aReturn
 )
 {
 return
-NS_OK
+NS_ERROR_DOM_NOT_FOUND_ERR
 ;
 }
 nsCOMPtr
