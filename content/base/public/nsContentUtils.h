@@ -9762,6 +9762,13 @@ GetCurrentJSContext
 (
 )
 ;
+static
+JSContext
+*
+GetSafeJSContext
+(
+)
+;
 /
 *
 *
