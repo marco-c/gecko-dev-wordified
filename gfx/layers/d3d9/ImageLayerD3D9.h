@@ -867,12 +867,6 @@ mCbTexture
 PRPackedBool
 mHasData
 ;
-gfx
-:
-:
-YUVType
-mType
-;
 }
 ;
 class
