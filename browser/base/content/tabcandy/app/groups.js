@@ -6535,7 +6535,7 @@ rightMostRight
 for
 each
 (
-let
+var
 rect
 in
 rects

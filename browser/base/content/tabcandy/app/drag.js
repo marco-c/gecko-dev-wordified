@@ -1235,13 +1235,13 @@ hideGuides
 ;
 for
 (
-let
+var
 edge
 in
 snappedTrenches
 )
 {
-let
+var
 trench
 =
 snappedTrenches
