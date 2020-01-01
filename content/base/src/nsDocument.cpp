@@ -11757,7 +11757,7 @@ RemoveStyleSheet
 nsStyleSet
 :
 :
-eHTMLPresHintSheet
+ePresHintSheet
 mAttrStyleSheet
 )
 ;
@@ -12018,7 +12018,7 @@ SheetCount
 nsStyleSet
 :
 :
-eHTMLPresHintSheet
+ePresHintSheet
 )
 =
 =
@@ -12029,7 +12029,6 @@ set
 already
 has
 a
-HTML
 preshint
 sheet
 ?
@@ -12120,7 +12119,7 @@ AppendStyleSheet
 nsStyleSet
 :
 :
-eHTMLPresHintSheet
+ePresHintSheet
 mAttrStyleSheet
 )
 ;
