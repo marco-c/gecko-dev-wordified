@@ -2260,13 +2260,6 @@ next
 (
 )
 ;
-JS_ASSERT
-(
-it
-<
-end
-)
-;
 }
 bool
 done

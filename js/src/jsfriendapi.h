@@ -3407,14 +3407,8 @@ DEBUG_GC
 \
 D
 (
-UNUSED2
+DEBUG_MODE_GC
 )
-/
-*
-was
-SHAPE
-*
-/
 \
 D
 (
