@@ -2742,6 +2742,7 @@ aFrameList
 .
 *
 /
+virtual
 nsresult
 AddFrames
 (
