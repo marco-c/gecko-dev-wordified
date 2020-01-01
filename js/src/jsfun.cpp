@@ -8827,6 +8827,11 @@ setFileAndLine
 filename
 lineno
 )
+.
+setCompileAndGo
+(
+true
+)
 ;
 unsigned
 n
