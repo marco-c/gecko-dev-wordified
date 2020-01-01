@@ -550,7 +550,8 @@ create
 JSContext
 *
 cx
-HandleString
+JSString
+*
 str
 )
 ;
@@ -600,7 +601,8 @@ createWithProto
 JSContext
 *
 cx
-HandleString
+JSString
+*
 str
 JSObject
 &
@@ -668,7 +670,8 @@ init
 JSContext
 *
 cx
-HandleString
+JSString
+*
 str
 )
 ;

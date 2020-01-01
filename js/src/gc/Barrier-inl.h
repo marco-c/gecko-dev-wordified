@@ -798,15 +798,6 @@ Value
 v
 )
 {
-JS_ASSERT
-(
-!
-IsPoisonedValue
-(
-v
-)
-)
-;
 value
 =
 v

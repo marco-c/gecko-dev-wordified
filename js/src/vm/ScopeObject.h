@@ -999,7 +999,8 @@ setEnclosingScope
 JSContext
 *
 cx
-HandleObject
+JSObject
+&
 obj
 )
 ;
@@ -1093,9 +1094,11 @@ cx
 JSScript
 *
 script
-HandleObject
+JSObject
+&
 enclosing
-HandleObject
+JSObject
+*
 callee
 )
 ;
@@ -1635,9 +1638,11 @@ cx
 StackFrame
 *
 fp
-HandleObject
+JSObject
+&
 proto
-HandleObject
+JSObject
+&
 enclosing
 uint32_t
 depth

@@ -487,7 +487,8 @@ JSContext
 *
 cx
 ;
-RootedVarString
+JSString
+*
 res
 ;
 RopeBuilder
@@ -526,7 +527,6 @@ cx
 res
 (
 cx
-cx
 -
 >
 runtime
@@ -540,7 +540,8 @@ inline
 bool
 append
 (
-HandleString
+JSString
+*
 str
 )
 {
