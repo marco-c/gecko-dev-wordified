@@ -1113,6 +1113,7 @@ propertiesLength
 ;
 #
 else
+const
 GREProperty
 *
 allProperties
