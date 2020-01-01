@@ -800,6 +800,8 @@ nsnull
 nsIAccessible
 *
 accessible
+=
+nsnull
 ;
 accService
 -
