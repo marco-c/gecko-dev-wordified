@@ -539,7 +539,6 @@ MOZ_MTLOG_MODULE
 mtransport
 "
 )
-;
 /
 /
 NrIceMediaStream

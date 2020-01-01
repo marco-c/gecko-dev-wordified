@@ -227,7 +227,6 @@ MOZ_MTLOG_MODULE
 mtransport
 "
 )
-;
 nsresult
 TransportLayerLoopback
 :

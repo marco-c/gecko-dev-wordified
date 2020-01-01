@@ -183,7 +183,6 @@ MOZ_MTLOG_MODULE
 mtransport
 "
 )
-;
 DtlsIdentity
 :
 :

@@ -213,7 +213,6 @@ MOZ_MTLOG_MODULE
 mtransport
 "
 )
-;
 nsresult
 TransportLayerPrsock
 :

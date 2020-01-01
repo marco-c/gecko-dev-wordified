@@ -237,7 +237,6 @@ MOZ_MTLOG_MODULE
 mtransport
 "
 )
-;
 static
 PRDescIdentity
 transport_layer_identity
