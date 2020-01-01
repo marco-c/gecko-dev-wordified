@@ -2841,6 +2841,7 @@ can
 be
 *
 used
+as
 the
 scope
 of
