@@ -11611,6 +11611,17 @@ aAction
 }
 )
 ;
+Services
+.
+prefs
+.
+setCharPref
+(
+aPref
+"
+"
+)
+;
 }
 )
 ;
