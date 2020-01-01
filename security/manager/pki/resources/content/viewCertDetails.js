@@ -1895,13 +1895,9 @@ verified
 ;
 verified
 .
-setAttribute
-(
-"
-value
-"
+textContent
+=
 verifystr
-)
 ;
 if
 (
