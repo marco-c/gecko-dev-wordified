@@ -3474,7 +3474,7 @@ nsICookieManager2
 )
 ;
 /
-/
+*
 need
 the
 2nd
@@ -3483,8 +3483,6 @@ of
 the
 ICookieManager
 interface
-/
-/
 because
 it
 supports
@@ -3499,6 +3497,8 @@ doesn
 '
 t
 .
+*
+/
 return
 this
 .
@@ -3830,15 +3830,13 @@ b
 )
 {
 /
-/
+*
 Method
 required
 to
 be
 overridden
 .
-/
-/
 a
 and
 b
@@ -3851,8 +3849,6 @@ and
 a
 .
 GUID
-/
-/
 If
 this
 function
@@ -3862,8 +3858,6 @@ an
 editCommand
 will
 be
-/
-/
 generated
 to
 try
@@ -3872,8 +3866,6 @@ resolve
 the
 thing
 .
-/
-/
 but
 are
 a
@@ -3887,8 +3879,6 @@ in
 the
 Store
 or
-/
-/
 are
 they
 "
@@ -3896,6 +3886,8 @@ commands
 "
 ?
 ?
+*
+/
 return
 false
 ;
