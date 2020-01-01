@@ -9354,7 +9354,7 @@ open
 {
 draggedElt
 .
-firstChild
+lastChild
 .
 hidePopup
 (
