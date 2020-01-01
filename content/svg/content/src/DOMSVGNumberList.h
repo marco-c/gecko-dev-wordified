@@ -794,7 +794,7 @@ WrapObject
 JSContext
 *
 cx
-XPCWrappedNativeScope
+JSObject
 *
 scope
 bool
