@@ -137,6 +137,13 @@ android
 .
 graphics
 .
+Bitmap
+;
+import
+android
+.
+graphics
+.
 drawable
 .
 BitmapDrawable
@@ -470,7 +477,7 @@ uri
 )
 ;
 public
-BitmapDrawable
+Bitmap
 getFaviconForUrl
 (
 ContentResolver
@@ -500,7 +507,7 @@ ContentResolver
 cr
 String
 uri
-BitmapDrawable
+Bitmap
 favicon
 )
 ;
@@ -1080,7 +1087,7 @@ uri
 }
 public
 static
-BitmapDrawable
+Bitmap
 getFaviconForUrl
 (
 ContentResolver
@@ -1132,7 +1139,7 @@ ContentResolver
 cr
 String
 uri
-BitmapDrawable
+Bitmap
 favicon
 )
 {

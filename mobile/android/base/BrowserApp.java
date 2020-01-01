@@ -3673,7 +3673,7 @@ onFaviconLoaded
 (
 String
 pageUrl
-Drawable
+Bitmap
 favicon
 )
 {

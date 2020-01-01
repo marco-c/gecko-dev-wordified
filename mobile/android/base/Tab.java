@@ -325,7 +325,7 @@ String
 mTitle
 ;
 private
-Drawable
+Bitmap
 mFavicon
 ;
 private
@@ -832,7 +832,7 @@ mUrl
 ;
 }
 public
-Drawable
+Bitmap
 getFavicon
 (
 )
@@ -1635,7 +1635,7 @@ public
 void
 updateFavicon
 (
-Drawable
+Bitmap
 favicon
 )
 {
