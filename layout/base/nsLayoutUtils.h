@@ -1231,6 +1231,7 @@ aContent1
 nsIContent
 *
 aContent2
+const
 nsIContent
 *
 aCommonAncestor
@@ -1323,6 +1324,7 @@ PRInt32
 aIf1Ancestor
 PRInt32
 aIf2Ancestor
+const
 nsIContent
 *
 aCommonAncestor

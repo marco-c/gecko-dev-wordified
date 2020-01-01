@@ -2133,6 +2133,7 @@ PRInt32
 aIf1Ancestor
 PRInt32
 aIf2Ancestor
+const
 nsIContent
 *
 aCommonAncestor
