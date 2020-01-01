@@ -99,6 +99,13 @@ GFX_SKIP_CHARS_H
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h

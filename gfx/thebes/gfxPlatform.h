@@ -99,6 +99,13 @@ GFX_PLATFORM_H
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 prlog
 .
 h

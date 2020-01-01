@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 prmem
 .
 h
