@@ -15805,12 +15805,12 @@ PR_FALSE
 damageArea
 )
 ;
-}
 MatchCellMapToColCache
 (
 cellMap
 )
 ;
+}
 }
 /
 /
