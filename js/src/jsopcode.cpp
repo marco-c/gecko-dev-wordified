@@ -13660,11 +13660,7 @@ tail
 -
 next
 -
-(
-JSOP_POP_LENGTH
-+
-JSOP_HEADER_LENGTH
-)
+1
 )
 ;
 js_printf
