@@ -244,6 +244,7 @@ infos_
 ;
 public
 :
+explicit
 BytecodeAnalysis
 (
 JSScript
