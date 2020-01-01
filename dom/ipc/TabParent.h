@@ -1203,14 +1203,6 @@ aDocumentURI
 const
 bool
 &
-isInBrowserElement
-const
-uint32_t
-&
-appId
-const
-bool
-&
 stickDocument
 )
 ;
