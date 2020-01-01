@@ -934,6 +934,10 @@ nsSVGMark
 x1
 y1
 angle
+nsSVGMark
+:
+:
+eStart
 )
 )
 ;
@@ -947,6 +951,10 @@ nsSVGMark
 x2
 y2
 angle
+nsSVGMark
+:
+:
+eEnd
 )
 )
 ;
