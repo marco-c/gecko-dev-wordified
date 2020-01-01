@@ -19529,8 +19529,14 @@ keys
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 proxy
 AutoIdVector
 &

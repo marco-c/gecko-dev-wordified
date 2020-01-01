@@ -9823,8 +9823,7 @@ getOwnPropertyNames
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 proxy
 AutoIdVector
 &

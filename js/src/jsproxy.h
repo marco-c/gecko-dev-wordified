@@ -746,8 +746,7 @@ getOwnPropertyNames
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 proxy
 AutoIdVector
 &
@@ -885,8 +884,7 @@ keys
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 proxy
 AutoIdVector
 &
@@ -1275,8 +1273,7 @@ getOwnPropertyNames
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 proxy
 AutoIdVector
 &
@@ -1415,8 +1412,7 @@ keys
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 proxy
 AutoIdVector
 &
@@ -1715,8 +1711,7 @@ getOwnPropertyNames
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 proxy
 AutoIdVector
 &
@@ -1862,8 +1857,7 @@ keys
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 proxy
 AutoIdVector
 &

@@ -620,8 +620,7 @@ getOwnPropertyNames
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 wrapper
 AutoIdVector
 &
@@ -760,8 +759,7 @@ keys
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 wrapper
 AutoIdVector
 &
@@ -1267,8 +1265,7 @@ getOwnPropertyNames
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 wrapper
 AutoIdVector
 &
