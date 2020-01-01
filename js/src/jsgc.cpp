@@ -11771,6 +11771,9 @@ if
 thing
 )
 {
+#
+ifdef
+JS_TRACER
 if
 (
 JS_TRACE_MONITOR
@@ -11783,6 +11786,8 @@ useReservedObjects
 return
 false
 ;
+#
+endif
 thing
 =
 RefillDoubleFreeList
