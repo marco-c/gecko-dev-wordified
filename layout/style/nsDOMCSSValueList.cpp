@@ -518,7 +518,7 @@ NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 CSSValueList
 )
 NS_INTERFACE_MAP_END
-PRBool
+void
 nsDOMCSSValueList
 :
 :
@@ -529,10 +529,9 @@ nsIDOMCSSValue
 aValue
 )
 {
-return
 mCSSValues
 .
-AppendObject
+AppendElement
 (
 aValue
 )
@@ -557,7 +556,7 @@ aLength
 =
 mCSSValues
 .
-Count
+Length
 (
 )
 ;
@@ -624,7 +623,7 @@ count
 =
 mCSSValues
 .
-Count
+Length
 (
 )
 ;
