@@ -2432,6 +2432,7 @@ sInst
 }
 ;
 class
+NS_STACK_CLASS
 PluginDestructionGuard
 :
 protected

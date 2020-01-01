@@ -758,6 +758,7 @@ member
 *
 /
 class
+NS_STACK_CLASS
 nsSVGFilterResource
 {
 public

@@ -7434,6 +7434,7 @@ mShell
 }
 ;
 class
+NS_STACK_CLASS
 nsPresShellEventCB
 :
 public

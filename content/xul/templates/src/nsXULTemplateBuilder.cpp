@@ -9695,6 +9695,7 @@ aClosure
 }
 }
 struct
+NS_STACK_CLASS
 SubstituteTextClosure
 {
 SubstituteTextClosure

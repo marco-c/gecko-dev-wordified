@@ -17287,6 +17287,7 @@ NS_OK
 ;
 }
 class
+NS_STACK_CLASS
 nsESMEventCB
 :
 public

@@ -1072,6 +1072,7 @@ mIndices
 }
 ;
 class
+NS_STACK_CLASS
 nsSafeOptionListMutation
 {
 public

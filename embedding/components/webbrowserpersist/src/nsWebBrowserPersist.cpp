@@ -13481,6 +13481,7 @@ NS_OK
 }
 ;
 struct
+NS_STACK_CLASS
 FixRedirectData
 {
 nsCOMPtr

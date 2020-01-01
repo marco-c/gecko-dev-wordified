@@ -1996,6 +1996,7 @@ NS_OK
 ;
 }
 struct
+NS_STACK_CLASS
 nsHandlerData
 {
 PRUint16
@@ -2006,6 +2007,11 @@ nsCOMPtr
 nsIDOMNode
 >
 mSource
+;
+nsCOMPtr
+<
+nsIDOMNode
+>
 mDest
 ;
 }

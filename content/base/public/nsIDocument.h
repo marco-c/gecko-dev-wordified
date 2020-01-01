@@ -6848,6 +6848,7 @@ deleted
 *
 /
 class
+NS_STACK_CLASS
 mozAutoSubtreeModified
 {
 public

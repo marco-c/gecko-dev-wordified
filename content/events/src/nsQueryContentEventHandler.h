@@ -554,6 +554,7 @@ contents
 *
 /
 class
+NS_STACK_CLASS
 nsQueryContentEventHandler
 {
 public
