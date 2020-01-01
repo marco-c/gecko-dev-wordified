@@ -466,6 +466,7 @@ on
 pop
 ops
 eTreeOpRunScript
+eTreeOpRunScriptAsyncDefer
 eTreeOpDoneAddingChildren
 eTreeOpDoneCreatingElement
 eTreeOpFlushPendingAppendNotifications
