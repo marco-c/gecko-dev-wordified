@@ -576,6 +576,14 @@ ins
 )
 ;
 bool
+visitNewStringObject
+(
+MNewStringObject
+*
+ins
+)
+;
+bool
 visitInitProp
 (
 MInitProp

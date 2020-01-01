@@ -201,6 +201,11 @@ NewCallObject
 \
 _
 (
+NewStringObject
+)
+\
+_
+(
 InitProp
 )
 \

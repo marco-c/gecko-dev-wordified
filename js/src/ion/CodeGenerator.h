@@ -628,6 +628,14 @@ lir
 )
 ;
 bool
+visitNewStringObject
+(
+LNewStringObject
+*
+lir
+)
+;
+bool
 visitInitProp
 (
 LInitProp
