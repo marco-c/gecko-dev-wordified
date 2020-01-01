@@ -9986,14 +9986,12 @@ jsval
 count
 )
 ;
-JS_ASSERT
+JS_ASSERT_IF
 (
-newlen
-=
+count
+!
 =
 0
-|
-|
 obj
 -
 >
