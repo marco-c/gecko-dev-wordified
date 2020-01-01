@@ -791,9 +791,15 @@ rc
 PrfQueryProfileData
 (
 HINI_USER
+(
+PCSZ
+)
 "
 PM_SystemFonts
 "
+(
+PCSZ
+)
 fontType
 fontName
 &
