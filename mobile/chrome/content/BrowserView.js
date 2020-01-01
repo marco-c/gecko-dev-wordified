@@ -3812,6 +3812,7 @@ this
 isRendering
 (
 )
+true
 )
 ;
 }
