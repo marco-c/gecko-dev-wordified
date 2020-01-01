@@ -1030,8 +1030,9 @@ addDirectory
 "
 )
 ;
-check_test_1
+do_execute_soon
 (
+check_test_1
 )
 ;
 }
@@ -2228,6 +2229,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 b1
@@ -2279,6 +2282,7 @@ run_test_8
 )
 ;
 }
+)
 )
 ;
 }
@@ -3091,6 +3095,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 b1
@@ -3171,6 +3177,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 b1
@@ -3278,8 +3286,10 @@ run_test_17
 ;
 }
 )
+)
 ;
 }
+)
 )
 ;
 }
@@ -3496,6 +3506,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 b1
@@ -3595,6 +3607,7 @@ run_test_23
 )
 ;
 }
+)
 )
 ;
 }
@@ -4090,6 +4103,8 @@ AddonManager
 getAddonsWithOperationsByTypes
 (
 null
+callback_soon
+(
 function
 (
 list
@@ -4143,6 +4158,7 @@ run_test_25
 )
 ;
 }
+)
 )
 ;
 }
@@ -4284,6 +4300,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 b1
@@ -4413,6 +4431,7 @@ run_test_26
 ;
 }
 )
+)
 ;
 }
 )
@@ -4521,6 +4540,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 b1
@@ -4661,6 +4682,7 @@ run_test_27
 )
 ;
 }
+)
 )
 ;
 }
@@ -4820,7 +4842,10 @@ onInstallStarted
 onInstallEnded
 "
 ]
+callback_soon
+(
 check_test_27
+)
 )
 ;
 AddonManagerPrivate
@@ -5071,7 +5096,10 @@ onInstallStarted
 onInstallEnded
 "
 ]
+callback_soon
+(
 check_test_28
+)
 )
 ;
 AddonManagerPrivate
@@ -5430,7 +5458,10 @@ false
 }
 [
 ]
+callback_soon
+(
 finish_test_29
+)
 )
 ;
 b2

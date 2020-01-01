@@ -846,8 +846,9 @@ end_test
 (
 )
 {
-do_test_finished
+do_execute_soon
 (
+do_test_finished
 )
 ;
 }
@@ -3841,6 +3842,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 oldt2
@@ -4024,6 +4027,7 @@ run_test_11
 )
 ;
 }
+)
 )
 ;
 }
@@ -4522,6 +4526,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 t1
@@ -4696,7 +4702,10 @@ onInstallStarted
 onInstallEnded
 "
 ]
+callback_soon
+(
 check_test_13
+)
 )
 ;
 install
@@ -4709,6 +4718,7 @@ install
 )
 ;
 }
+)
 )
 ;
 }
@@ -4733,6 +4743,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 t1
@@ -4772,6 +4784,7 @@ run_test_14
 )
 ;
 }
+)
 )
 ;
 }
@@ -5078,6 +5091,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 t1
@@ -5134,6 +5149,8 @@ mozilla
 org
 "
 ]
+callback_soon
+(
 function
 (
 [
@@ -5292,8 +5309,10 @@ run_test_16
 ;
 }
 )
+)
 ;
 }
+)
 )
 ;
 }
@@ -5642,6 +5661,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 t1
@@ -5679,6 +5700,8 @@ mozilla
 org
 "
 ]
+callback_soon
+(
 function
 (
 [
@@ -5901,8 +5924,10 @@ run_test_19
 ;
 }
 )
+)
 ;
 }
+)
 )
 ;
 }
@@ -6239,6 +6264,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 t1
@@ -6437,6 +6464,7 @@ end_test
 )
 ;
 }
+)
 )
 ;
 }

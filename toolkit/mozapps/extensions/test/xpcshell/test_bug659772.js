@@ -2098,6 +2098,8 @@ mozilla
 org
 "
 ]
+callback_soon
+(
 function
 (
 [
@@ -2413,6 +2415,7 @@ do_test_finished
 )
 ;
 }
+)
 )
 ;
 }
