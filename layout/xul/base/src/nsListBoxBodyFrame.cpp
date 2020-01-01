@@ -6609,7 +6609,9 @@ PresContext
 (
 )
 ;
-result
+nsIFrame
+*
+existingFrame
 =
 presContext
 -
@@ -6627,7 +6629,7 @@ nextContent
 if
 (
 !
-result
+existingFrame
 )
 {
 /
@@ -6725,6 +6727,13 @@ aBox
 aOffset
 aCreated
 )
+;
+}
+else
+{
+result
+=
+existingFrame
 ;
 }
 mLinkupFrame
