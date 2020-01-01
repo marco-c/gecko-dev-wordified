@@ -18510,7 +18510,7 @@ renderSurface
 ctx
 -
 >
-SetColor
+SetDeviceColor
 (
 aColor
 )
