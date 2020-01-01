@@ -3460,6 +3460,8 @@ function
 (
 )
 {
+/
+*
 getBrowser
 (
 )
@@ -3540,6 +3542,8 @@ getZoomLevel
 px
 "
 ;
+*
+/
 }
 }
 ;
