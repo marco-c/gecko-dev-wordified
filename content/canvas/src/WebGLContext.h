@@ -2331,6 +2331,17 @@ char
 info
 )
 ;
+PRBool
+ValidateAttribIndex
+(
+WebGLuint
+index
+const
+char
+*
+info
+)
+;
 void
 Invalidate
 (
