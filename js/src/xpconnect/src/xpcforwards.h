@@ -558,6 +558,9 @@ class
 WrappedNative2WrapperMap
 ;
 class
+JSObject2JSObjectMap
+;
+class
 nsXPCComponents
 ;
 class
