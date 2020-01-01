@@ -550,6 +550,15 @@ DEBUG
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h
@@ -854,6 +863,10 @@ h
 >
 #
 endif
+using
+namespace
+mozilla
+;
 using
 namespace
 js
@@ -3741,7 +3754,7 @@ end
 &
 arenas
 [
-JS_ARRAY_LENGTH
+ArrayLength
 (
 arenas
 )
@@ -6214,7 +6227,7 @@ ctd
 registerSnapshot
 .
 words
-JS_ARRAY_END
+ArrayEnd
 (
 ctd
 -

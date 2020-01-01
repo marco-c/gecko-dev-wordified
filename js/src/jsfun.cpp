@@ -459,6 +459,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h
@@ -776,6 +785,10 @@ inl
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 js
@@ -9033,7 +9046,7 @@ ends
 -
 -
 use
-JS_ARRAY_LENGTH
+ArrayLength
 to
 bound
 loops
@@ -9219,7 +9232,7 @@ i
 ;
 i
 <
-JS_ARRAY_LENGTH
+ArrayLength
 (
 poisonPillProps
 )
@@ -9958,7 +9971,7 @@ i
 ;
 i
 <
-JS_ARRAY_LENGTH
+ArrayLength
 (
 poisonPillProps
 )

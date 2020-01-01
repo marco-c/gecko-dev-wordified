@@ -495,6 +495,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h
@@ -680,6 +689,10 @@ inl
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 js
@@ -18921,7 +18934,7 @@ size_t
 argc
 <
 =
-JS_ARRAY_LENGTH
+ArrayLength
 (
 smallv
 )

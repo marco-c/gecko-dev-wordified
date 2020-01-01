@@ -428,6 +428,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -481,6 +490,10 @@ XPCWrapper
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 inline
 QITableEntry
@@ -1477,7 +1490,7 @@ AutoArrayRooter
 tvr
 (
 cx
-JS_ARRAY_LENGTH
+ArrayLength
 (
 roots
 )
