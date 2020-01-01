@@ -10595,6 +10595,13 @@ Ci
 nsINetworkInterface
 .
 NETWORK_TYPE_MOBILE_MMS
+NETWORK_TYPE_MOBILE_SUPL
+:
+Ci
+.
+nsINetworkInterface
+.
+NETWORK_TYPE_MOBILE_SUPL
 /
 *
 *
