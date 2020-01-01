@@ -493,6 +493,15 @@ h
 #
 include
 "
+mozilla
+/
+Types
+.
+h
+"
+#
+include
+"
 ipc
 /
 ShadowLayerChild
@@ -13407,7 +13416,6 @@ mManager
 )
 ;
 }
-NS_OVERRIDE
 virtual
 void
 PaintBuffer
@@ -13438,8 +13446,8 @@ void
 *
 aCallbackData
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 already_AddRefed
 <
@@ -13457,6 +13465,7 @@ nsIntSize
 &
 aSize
 )
+MOZ_OVERRIDE
 ;
 void
 DestroyBackBuffer
