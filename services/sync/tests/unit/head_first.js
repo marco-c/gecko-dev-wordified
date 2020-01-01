@@ -224,6 +224,19 @@ weave
 "
 )
 ;
+do_bind_resource
+(
+do_get_file
+(
+"
+tests
+"
+)
+"
+tests
+"
+)
+;
 function
 loadInSandbox
 (
@@ -445,7 +458,7 @@ component
 return
 Log4Moz
 .
-Service
+repository
 .
 getLogger
 (
@@ -572,7 +585,7 @@ log
 =
 Log4Moz
 .
-Service
+repository
 .
 rootLogger
 ;

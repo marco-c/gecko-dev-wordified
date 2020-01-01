@@ -83,7 +83,7 @@ log
 =
 Log4Moz
 .
-Service
+repository
 .
 rootLogger
 ;
@@ -111,7 +111,7 @@ do_check_eq
 (
 Log4Moz
 .
-Service
+repository
 .
 rootLogger
 .
