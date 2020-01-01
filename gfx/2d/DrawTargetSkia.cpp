@@ -1812,9 +1812,9 @@ if
 aSurfOptions
 .
 mFilter
+!
 =
-=
-FILTER_POINT
+FILTER_LINEAR
 )
 {
 paint
