@@ -2082,6 +2082,13 @@ isError
 {
 parentRunner
 .
+addFailedTest
+(
+url
+)
+;
+parentRunner
+.
 error
 (
 msg
