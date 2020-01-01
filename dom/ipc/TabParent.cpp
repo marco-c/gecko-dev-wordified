@@ -3931,7 +3931,7 @@ aIMEEnabled
 int32_t
 *
 aIMEOpen
-int64_t
+intptr_t
 *
 aNativeIMEContext
 )
@@ -4022,7 +4022,7 @@ aNativeIMEContext
 =
 reinterpret_cast
 <
-int64_t
+intptr_t
 >
 (
 context

@@ -1862,7 +1862,7 @@ int32_t
 enabled
 open
 ;
-int64_t
+intptr_t
 nativeIMEContext
 ;
 mTabChild
