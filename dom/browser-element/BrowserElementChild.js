@@ -171,6 +171,16 @@ Ci
 .
 nsIDOMKeyEvent
 .
+DOM_VK_SLEEP
+/
+/
+Power
+button
+.
+Ci
+.
+nsIDOMKeyEvent
+.
 DOM_VK_CONTEXT_MENU
 Ci
 .
