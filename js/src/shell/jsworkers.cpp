@@ -1940,8 +1940,6 @@ data
 nbytes
 JS_STRUCTURED_CLONE_VERSION
 vp
-NULL
-NULL
 )
 ;
 }
@@ -2006,8 +2004,6 @@ v
 data
 &
 nbytes
-NULL
-NULL
 )
 )
 return
