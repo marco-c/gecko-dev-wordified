@@ -8868,13 +8868,6 @@ mScreen
 )
 {
 mScreen
--
->
-Reset
-(
-)
-;
-mScreen
 =
 nullptr
 ;
