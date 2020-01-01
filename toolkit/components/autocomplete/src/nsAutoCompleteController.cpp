@@ -1997,6 +1997,8 @@ StopSearch
 ;
 PRBool
 isOpen
+=
+PR_FALSE
 ;
 input
 -
@@ -2403,6 +2405,8 @@ PR_TRUE
 ;
 PRBool
 isOpen
+=
+PR_FALSE
 ;
 input
 -
@@ -2943,6 +2947,8 @@ key
 .
 PRBool
 isOpen
+=
+PR_FALSE
 ;
 input
 -
@@ -5203,6 +5209,8 @@ NS_OK
 }
 PRBool
 isOpen
+=
+PR_FALSE
 ;
 mInput
 -
