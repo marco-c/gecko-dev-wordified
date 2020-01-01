@@ -564,6 +564,15 @@ GetFocusedContent
 )
 ;
 virtual
+already_AddRefed
+<
+nsIContent
+>
+GetFocusedContentForIME
+(
+)
+;
+virtual
 bool
 IsActiveInDOMWindow
 (
