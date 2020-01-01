@@ -1041,7 +1041,7 @@ uint32_t
 nsNPAPIPluginInstance
 :
 :
-gInUnsafePluginCalls
+gInPluginCalls
 =
 0
 ;
@@ -1593,7 +1593,6 @@ mNPP
 sdata
 )
 this
-NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 NPP_PLUGIN_LOG
@@ -3260,7 +3259,6 @@ NPWindow
 window
 )
 this
-NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 mInPluginInitCall
@@ -3763,7 +3761,6 @@ mNPP
 thePrint
 )
 this
-NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 NPP_PLUGIN_LOG
@@ -4038,7 +4035,6 @@ mNPP
 event
 )
 this
-NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 #
@@ -4204,7 +4200,6 @@ variable
 value
 )
 this
-NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 NPP_PLUGIN_LOG
@@ -7236,7 +7231,6 @@ NPNVprivateModeBool
 value
 )
 this
-NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 return

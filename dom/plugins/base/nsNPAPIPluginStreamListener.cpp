@@ -1238,7 +1238,6 @@ mNPStream
 reason
 )
 mInst
-NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 NPP_PLUGIN_LOG
@@ -1449,7 +1448,6 @@ mNPStream
 notifyData
 )
 mInst
-NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 NPP_PLUGIN_LOG
@@ -1753,7 +1751,6 @@ seekable
 streamType
 )
 mInst
-NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 NPP_PLUGIN_LOG
@@ -3237,7 +3234,6 @@ mNPStreamWrapper
 mNPStream
 )
 mInst
-NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 NPP_PLUGIN_LOG
@@ -3589,7 +3585,6 @@ numtowrite
 ptrStreamBuffer
 )
 mInst
-NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 NPP_PLUGIN_LOG
@@ -4233,7 +4228,6 @@ mNPStream
 fileName
 )
 mInst
-NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 NPP_PLUGIN_LOG
@@ -5103,7 +5097,6 @@ mNPStream
 notifyData
 )
 mInst
-NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 #
