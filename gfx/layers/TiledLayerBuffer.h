@@ -1953,6 +1953,8 @@ tileX
 ;
 int
 tileY
+=
+0
 ;
 /
 /
