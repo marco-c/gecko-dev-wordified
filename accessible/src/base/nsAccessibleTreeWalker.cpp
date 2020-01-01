@@ -688,10 +688,6 @@ the
 DOM
 .
 }
-PushState
-(
-)
-;
 UpdateFrame
 (
 PR_TRUE
@@ -1587,6 +1583,10 @@ parent
 mState
 .
 domNode
+)
+;
+PushState
+(
 )
 ;
 GetKids
