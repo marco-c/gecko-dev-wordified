@@ -1754,17 +1754,7 @@ NotifyOfLoad
 uint32_t
 aLoadEventType
 )
-{
-mLoadState
-|
-=
-eDOMLoaded
 ;
-mLoadEventType
-=
-aLoadEventType
-;
-}
 void
 NotifyOfLoading
 (
