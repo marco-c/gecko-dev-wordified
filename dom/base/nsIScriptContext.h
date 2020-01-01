@@ -2371,9 +2371,9 @@ CreateOuterObject
 nsIScriptGlobalObject
 *
 aGlobalObject
-nsIScriptGlobalObject
+nsIPrincipal
 *
-aCurrentInner
+aPrincipal
 )
 =
 0
@@ -2406,7 +2406,7 @@ must
 be
 called
 after
-CreateOuterObject
+InitOuterWindow
 .
 *
 /
