@@ -489,7 +489,7 @@ ffprocess_mac
 import
 *
 def
-SyncAndSleep
+Sleep
 (
 )
 :
@@ -525,18 +525,6 @@ occur
 "
 "
 "
-  
-os
-.
-spawnl
-(
-os
-.
-P_WAIT
-config
-.
-SYNC
-)
   
 time
 .
