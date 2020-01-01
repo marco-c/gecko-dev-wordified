@@ -3307,7 +3307,7 @@ failed
 "
 )
 ;
-CallProtect
+SendProtect
 (
 )
 ;
@@ -3459,7 +3459,7 @@ mProtectCount
 PluginScriptableObjectChild
 :
 :
-Call__delete__
+Send__delete__
 (
 this
 )
@@ -3566,7 +3566,7 @@ mObject
 =
 nsnull
 ;
-CallUnprotect
+SendUnprotect
 (
 )
 ;
@@ -5762,7 +5762,7 @@ bool
 PluginScriptableObjectChild
 :
 :
-AnswerProtect
+RecvProtect
 (
 )
 {
@@ -5810,7 +5810,7 @@ bool
 PluginScriptableObjectChild
 :
 :
-AnswerUnprotect
+RecvUnprotect
 (
 )
 {

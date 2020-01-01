@@ -742,13 +742,13 @@ aSuccess
 ;
 virtual
 bool
-AnswerProtect
+RecvProtect
 (
 )
 ;
 virtual
 bool
-AnswerUnprotect
+RecvUnprotect
 (
 )
 ;

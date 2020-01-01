@@ -3656,7 +3656,7 @@ bool
 PluginInstanceParent
 :
 :
-AnswerPPluginScriptableObjectConstructor
+RecvPPluginScriptableObjectConstructor
 (
 PPluginScriptableObjectParent
 *
@@ -4092,7 +4092,7 @@ nsnull
 if
 (
 !
-CallPPluginScriptableObjectConstructor
+SendPPluginScriptableObjectConstructor
 (
 actor
 )

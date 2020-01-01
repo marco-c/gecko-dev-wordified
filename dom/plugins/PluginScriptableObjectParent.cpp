@@ -3762,7 +3762,7 @@ failed
 if
 (
 !
-CallProtect
+SendProtect
 (
 )
 )
@@ -3930,7 +3930,7 @@ mProtectCount
 PluginScriptableObjectParent
 :
 :
-Call__delete__
+Send__delete__
 (
 this
 )
@@ -4055,7 +4055,7 @@ nsnull
 (
 void
 )
-CallUnprotect
+SendUnprotect
 (
 )
 ;
@@ -6836,7 +6836,7 @@ bool
 PluginScriptableObjectParent
 :
 :
-AnswerProtect
+RecvProtect
 (
 )
 {
@@ -6884,7 +6884,7 @@ bool
 PluginScriptableObjectParent
 :
 :
-AnswerUnprotect
+RecvUnprotect
 (
 )
 {
