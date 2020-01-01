@@ -11220,7 +11220,7 @@ else
 {
 str
 =
-js_ValueToString
+ToString
 (
 cx
 args
@@ -13243,7 +13243,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 v

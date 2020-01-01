@@ -1419,11 +1419,11 @@ cx
 }
 }
 class
-ToString
+ToStringHelper
 {
 public
 :
-ToString
+ToStringHelper
 (
 JSContext
 *
@@ -1481,7 +1481,7 @@ helper
 ;
 }
 ~
-ToString
+ToStringHelper
 (
 )
 {
@@ -1583,7 +1583,7 @@ class
 IdStringifier
 :
 public
-ToString
+ToStringHelper
 {
 public
 :
@@ -1600,7 +1600,7 @@ aThrow
 JS_FALSE
 )
 :
-ToString
+ToStringHelper
 (
 cx
 IdToJsval
@@ -15308,14 +15308,14 @@ u
 j
 )
 ;
-ToString
+ToStringHelper
 obj2string
 (
 cx
 obj2
 )
 ;
-ToString
+ToStringHelper
 valueString
 (
 cx
@@ -25940,7 +25940,7 @@ getBytes
 )
 )
 ;
-ToString
+ToStringHelper
 valueString
 (
 cx
@@ -26019,7 +26019,7 @@ getBytes
 )
 )
 ;
-ToString
+ToStringHelper
 valueString
 (
 cx
@@ -26098,7 +26098,7 @@ getBytes
 )
 )
 ;
-ToString
+ToStringHelper
 valueString
 (
 cx
@@ -26176,7 +26176,7 @@ getBytes
 )
 )
 ;
-ToString
+ToStringHelper
 valueString
 (
 cx
@@ -28420,7 +28420,7 @@ threw
 return
 JS_FALSE
 ;
-ToString
+ToStringHelper
 valstr
 (
 cx

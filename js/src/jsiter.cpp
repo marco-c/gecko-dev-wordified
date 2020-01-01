@@ -7184,7 +7184,7 @@ else
 {
 str
 =
-js_ValueToString
+ToString
 (
 cx
 *

@@ -1840,7 +1840,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 sourceValue
@@ -1903,7 +1903,7 @@ JSString
 *
 flagStr
 =
-js_ValueToString
+ToString
 (
 cx
 argv
@@ -3615,7 +3615,7 @@ JSString
 *
 input
 =
-js_ValueToString
+ToString
 (
 cx
 (

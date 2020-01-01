@@ -8043,7 +8043,7 @@ true
 }
 str
 =
-js_ValueToString
+ToString
 (
 cx
 vp
@@ -15173,7 +15173,7 @@ JSString
 *
 fmt
 =
-js_ValueToString
+ToString
 (
 cx
 args
@@ -15683,7 +15683,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 args
@@ -16408,7 +16408,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 args

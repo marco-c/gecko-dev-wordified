@@ -2450,7 +2450,7 @@ JS_TRUE
 }
 str
 =
-js_ValueToString
+ToString
 (
 cx
 vp
@@ -3409,7 +3409,7 @@ JSString
 *
 inputString
 =
-js_ValueToString
+ToString
 (
 cx
 args

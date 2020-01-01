@@ -500,7 +500,10 @@ JSString
 *
 str
 =
-js_ValueToString
+js
+:
+:
+ToStringSlow
 (
 cx
 v
@@ -1247,7 +1250,10 @@ id
 )
 ;
 return
-js_ValueToString
+js
+:
+:
+ToStringSlow
 (
 cx
 IdToValue

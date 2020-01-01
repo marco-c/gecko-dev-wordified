@@ -17617,7 +17617,7 @@ else
 {
 lstr
 =
-js_ValueToString
+ToString
 (
 cx
 lval
@@ -17663,7 +17663,7 @@ else
 {
 rstr
 =
-js_ValueToString
+ToString
 (
 cx
 rval
@@ -32741,7 +32741,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 rval
@@ -32823,7 +32823,7 @@ else
 {
 str
 =
-js_ValueToString
+ToString
 (
 cx
 rval
