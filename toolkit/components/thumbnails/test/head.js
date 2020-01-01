@@ -156,9 +156,9 @@ getBoolPref
 "
 browser
 .
-pageThumbs
+pagethumbnails
 .
-enabled
+capturing_disabled
 "
 )
 ;
@@ -171,9 +171,9 @@ setBoolPref
 "
 browser
 .
-pageThumbs
+pagethumbnails
 .
-enabled
+capturing_disabled
 "
 true
 )
@@ -215,9 +215,9 @@ setBoolPref
 "
 browser
 .
-pageThumbs
+pagethumbnails
 .
-enabled
+capturing_disabled
 "
 oldEnabledPref
 )

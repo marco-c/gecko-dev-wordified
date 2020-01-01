@@ -3263,9 +3263,9 @@ getBoolPref
 "
 browser
 .
-pageThumbs
+pagethumbnails
 .
-enabled
+capturing_disabled
 "
 )
 ;

@@ -1377,9 +1377,9 @@ prefs
 *
 browser
 .
-pageThumbs
+pagethumbnails
 .
-enabled
+capturing_disabled
 :
 false
 /
@@ -1743,9 +1743,9 @@ set
 "
 browser
 .
-pageThumbs
+pagethumbnails
 .
-enabled
+capturing_disabled
 "
 false
 ]

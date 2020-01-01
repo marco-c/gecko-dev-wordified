@@ -926,7 +926,6 @@ false
 /
 Disable
 the
-background
 thumbnailing
 service
 branch
@@ -936,9 +935,9 @@ setBoolPref
 "
 browser
 .
-pageThumbs
+pagethumbnails
 .
-enabled
+capturing_disabled
 "
 false
 )
