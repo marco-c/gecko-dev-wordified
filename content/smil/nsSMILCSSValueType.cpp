@@ -766,7 +766,6 @@ for
 a
 zero
 value
-.
 "
 )
 ;

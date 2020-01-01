@@ -724,7 +724,6 @@ or
 zero
 repeat
 count
-.
 "
 )
 ;

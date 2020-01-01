@@ -506,7 +506,6 @@ mType
 Incompatible
 SMIL
 types
-.
 "
 )
 ;
@@ -568,7 +567,6 @@ NS_NOTREACHED
 Adding
 NULL
 type
-.
 "
 )
 ;
@@ -604,7 +602,6 @@ distance
 for
 NULL
 type
-.
 "
 )
 ;
@@ -640,7 +637,6 @@ NS_NOTREACHED
 Interpolating
 NULL
 type
-.
 "
 )
 ;

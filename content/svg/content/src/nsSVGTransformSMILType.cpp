@@ -604,7 +604,6 @@ type
 NULL
 data
 member
-.
 "
 )
 ;
@@ -734,7 +733,6 @@ Unexpected
 SMIL
 value
 type
-.
 "
 )
 ;
@@ -807,7 +805,6 @@ mType
 Incompatible
 SMIL
 types
-.
 "
 )
 ;
@@ -823,7 +820,6 @@ this
 Unexpected
 SMIL
 value
-.
 "
 )
 ;
@@ -935,7 +931,6 @@ this
 Unexpected
 SMIL
 type
-.
 "
 )
 ;
@@ -953,7 +948,6 @@ mType
 Incompatible
 SMIL
 types
-.
 "
 )
 ;
@@ -1075,7 +1069,6 @@ transform
 list
 to
 add
-.
 "
 )
 ;
@@ -1158,7 +1151,6 @@ list
 to
 add
 to
-.
 "
 )
 ;
@@ -1249,7 +1241,6 @@ of
 different
 transform
 types
-.
 "
 )
 ;
@@ -1288,7 +1279,6 @@ add
 with
 matrix
 transform
-.
 "
 )
 ;
@@ -1364,7 +1354,6 @@ this
 Unexpected
 SMIL
 type
-.
 "
 )
 ;
@@ -1382,7 +1371,6 @@ mType
 Incompatible
 SMIL
 types
-.
 "
 )
 ;
@@ -1495,7 +1483,6 @@ more
 than
 one
 value
-.
 "
 )
 ;
@@ -1581,7 +1568,6 @@ between
 different
 SMIL
 types
-.
 "
 )
 ;
@@ -1597,7 +1583,6 @@ this
 Unexpected
 SMIL
 type
-.
 "
 )
 ;
@@ -1706,7 +1691,6 @@ elements
 in
 from
 value
-.
 "
 )
 ;
@@ -1729,7 +1713,6 @@ elements
 in
 to
 value
-.
 "
 )
 ;
@@ -1777,7 +1760,6 @@ to
 calculate
 distance
 between
-.
 "
 )
 ;
@@ -1987,7 +1969,6 @@ types
 for
 calculating
 distances
-.
 "
 )
 ;
@@ -2046,7 +2027,6 @@ between
 different
 SMIL
 types
-.
 "
 )
 ;
@@ -2063,7 +2043,6 @@ Unexpected
 type
 for
 interpolation
-.
 "
 )
 ;
@@ -2079,7 +2058,6 @@ this
 Unexpected
 result
 type
-.
 "
 )
 ;
@@ -2180,7 +2158,6 @@ interpolating
 between
 transform
 values
-.
 "
 )
 ;
@@ -2227,7 +2204,6 @@ be
 a
 matrix
 transform
-.
 "
 )
 ;
@@ -2630,7 +2606,6 @@ this
 Unexpected
 SMIL
 value
-.
 "
 )
 ;
@@ -2691,7 +2666,6 @@ this
 Unexpected
 SMIL
 value
-.
 "
 )
 ;
@@ -2735,7 +2709,6 @@ to
 access
 invalid
 transform
-.
 "
 )
 ;
@@ -2779,7 +2752,6 @@ this
 Unexpected
 SMIL
 value
-.
 "
 )
 ;
