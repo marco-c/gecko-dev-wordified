@@ -402,12 +402,14 @@ xhr
 open
 (
 "
-aMethod
+method
 "
 in
 aOptions
 ?
-aMethod
+aOptions
+.
+method
 :
 (
 hasPostData
