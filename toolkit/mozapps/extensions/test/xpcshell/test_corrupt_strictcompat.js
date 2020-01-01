@@ -1539,7 +1539,7 @@ append
 "
 extensions
 .
-json
+sqlite
 "
 )
 ;
