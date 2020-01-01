@@ -12248,6 +12248,9 @@ break
 case
 JSOP_GETPROP
 :
+case
+JSOP_LENGTH
+:
 {
 LOAD_ATOM
 (
