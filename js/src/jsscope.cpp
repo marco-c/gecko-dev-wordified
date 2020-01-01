@@ -2568,7 +2568,7 @@ table
 JS_ASSERT
 (
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 id
 )
@@ -3294,7 +3294,7 @@ child
 JS_ASSERT
 (
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 child
 .
@@ -4604,7 +4604,7 @@ true
 JS_ASSERT
 (
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 id
 )
@@ -5448,7 +5448,7 @@ true
 JS_ASSERT
 (
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 id
 )
@@ -6118,7 +6118,7 @@ true
 JS_ASSERT
 (
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 sprop
 -
@@ -7262,7 +7262,7 @@ sprop
 JS_ASSERT
 (
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 sprop
 -
@@ -7294,7 +7294,7 @@ sprop
 JS_ASSERT
 (
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 sprop
 -
@@ -7554,7 +7554,7 @@ parent
 JS_ASSERT
 (
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 sprop
 -
@@ -7620,7 +7620,7 @@ sprop
 JS_ASSERT
 (
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 sprop
 -
@@ -7723,7 +7723,7 @@ id
 JS_ASSERT
 (
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 id
 )
@@ -7891,7 +7891,7 @@ id
 JS_ASSERT
 (
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 id
 )

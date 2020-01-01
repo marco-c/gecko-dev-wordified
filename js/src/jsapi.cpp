@@ -14992,6 +14992,9 @@ JS_ASSERT
 (
 JSID_IS_OBJECT
 (
+(
+jsid
+)
 obj
 )
 )
@@ -21823,7 +21826,7 @@ sprop
 *
 idp
 =
-JSID_VOID
+JSBOXEDWORD_VOID
 ;
 }
 else
@@ -21904,7 +21907,7 @@ i
 *
 idp
 =
-JSID_VOID
+JSBOXEDWORD_VOID
 ;
 }
 else
