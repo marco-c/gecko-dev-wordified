@@ -8219,6 +8219,14 @@ JSParseNode
 pn
 )
 ;
+enum
+FunctionType
+{
+GETTER
+SETTER
+GENERAL
+}
+;
 bool
 functionArguments
 (
@@ -8250,6 +8258,8 @@ functionDef
 JSAtom
 *
 name
+FunctionType
+type
 uintN
 lambda
 )

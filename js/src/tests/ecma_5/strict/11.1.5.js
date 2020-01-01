@@ -768,6 +768,7 @@ testLenientAndStrict
 set
 x
 (
+q
 )
 {
 }
@@ -799,6 +800,7 @@ x
 set
 x
 (
+q
 )
 {
 }
@@ -830,6 +832,7 @@ x
 set
 x
 (
+q
 )
 {
 }
@@ -852,6 +855,7 @@ testLenientAndStrict
 set
 x
 (
+q
 )
 {
 }
@@ -886,6 +890,7 @@ x
 set
 x
 (
+q
 )
 {
 }
@@ -914,6 +919,7 @@ testLenientAndStrict
 set
 x
 (
+q
 )
 {
 }
@@ -985,6 +991,7 @@ x
 set
 x
 (
+q
 )
 {
 }
