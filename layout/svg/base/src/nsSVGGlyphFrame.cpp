@@ -3551,6 +3551,7 @@ PathExtentsToMaxStrokeExtents
 (
 extent
 this
+matrix
 )
 ;
 }
@@ -4241,6 +4242,7 @@ PathExtentsToMaxStrokeExtents
 (
 pathExtents
 this
+aToBBoxUserspace
 )
 )
 ;

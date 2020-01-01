@@ -3448,6 +3448,10 @@ aPathExtents
 nsSVGGeometryFrame
 *
 aFrame
+const
+gfxMatrix
+&
+aMatrix
 )
 ;
 static
@@ -3461,6 +3465,10 @@ aPathExtents
 nsSVGPathGeometryFrame
 *
 aFrame
+const
+gfxMatrix
+&
+aMatrix
 )
 ;
 /
