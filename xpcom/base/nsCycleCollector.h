@@ -131,6 +131,10 @@ mForcedGC
 (
 false
 )
+mMergedZones
+(
+false
+)
 mVisitedRefCounted
 (
 0
@@ -151,6 +155,9 @@ mFreedGCed
 }
 bool
 mForcedGC
+;
+bool
+mMergedZones
 ;
 uint32_t
 mVisitedRefCounted
@@ -232,7 +239,7 @@ void
 nsCycleCollector_collect
 (
 bool
-aMergeCompartments
+aManuallyTriggered
 nsCycleCollectorResults
 *
 aResults
