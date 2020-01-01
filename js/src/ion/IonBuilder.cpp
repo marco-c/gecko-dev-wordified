@@ -18828,6 +18828,13 @@ init
 (
 cx
 calleeScript
+/
+*
+inlinedCall
+=
+*
+/
+true
 )
 )
 return
@@ -19801,6 +19808,13 @@ init
 (
 cx
 calleeScript
+/
+*
+inlinedCall
+=
+*
+/
+true
 )
 )
 return
