@@ -523,6 +523,16 @@ CoreGraphics
 Image
 *
 /
+SURFACE_COREGRAPHICS_CGCONTEXT
+/
+*
+Surface
+wrapping
+a
+CG
+context
+*
+/
 SURFACE_SKIA
 /
 *
