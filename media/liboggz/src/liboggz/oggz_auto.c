@@ -4768,6 +4768,9 @@ size_check
 =
 1
 ;
+#
+ifdef
+DEBUG
 if
 (
 size_check
@@ -4794,6 +4797,8 @@ n
 )
 ;
 }
+#
+endif
 /
 *
 *
