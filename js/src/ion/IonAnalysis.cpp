@@ -8138,12 +8138,15 @@ if
 compare
 -
 >
-specialization
+compareType
 (
 )
 !
 =
-MIRType_Int32
+MCompare
+:
+:
+Compare_Int32
 )
 return
 false

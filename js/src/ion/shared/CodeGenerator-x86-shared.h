@@ -403,7 +403,10 @@ index
 void
 emitCompare
 (
-MIRType
+MCompare
+:
+:
+CompareType
 type
 const
 LAllocation

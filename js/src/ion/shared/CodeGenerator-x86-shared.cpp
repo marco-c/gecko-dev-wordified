@@ -1157,7 +1157,10 @@ CodeGeneratorX86Shared
 :
 emitCompare
 (
-MIRType
+MCompare
+:
+:
+CompareType
 type
 const
 LAllocation
@@ -1177,7 +1180,10 @@ if
 type
 =
 =
-MIRType_Object
+MCompare
+:
+:
+Compare_Object
 )
 {
 masm
@@ -1262,7 +1268,7 @@ mir
 )
 -
 >
-specialization
+compareType
 (
 )
 comp
@@ -1326,7 +1332,7 @@ mir
 )
 -
 >
-specialization
+compareType
 (
 )
 comp

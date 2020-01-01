@@ -947,9 +947,9 @@ lir
 )
 ;
 bool
-visitCompareV
+visitCompareVM
 (
-LCompareV
+LCompareVM
 *
 lir
 )
