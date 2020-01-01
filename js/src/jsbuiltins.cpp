@@ -2548,6 +2548,17 @@ imacpc
 return
 JS_FALSE
 ;
+cx
+-
+>
+fp
+-
+>
+putActivationObjects
+(
+cx
+)
+;
 /
 *
 Update
