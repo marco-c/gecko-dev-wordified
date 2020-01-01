@@ -504,9 +504,6 @@ NS_NewSVGForeignObjectFrame
 nsIPresShell
 *
 aPresShell
-nsIContent
-*
-aContent
 nsStyleContext
 *
 aContext

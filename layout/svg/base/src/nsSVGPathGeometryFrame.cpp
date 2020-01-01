@@ -599,9 +599,6 @@ NS_NewSVGPathGeometryFrame
 nsIPresShell
 *
 aPresShell
-nsIContent
-*
-aContent
 nsStyleContext
 *
 aContext

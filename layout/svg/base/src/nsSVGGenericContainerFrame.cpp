@@ -537,9 +537,6 @@ NS_NewSVGGenericContainerFrame
 nsIPresShell
 *
 aPresShell
-nsIContent
-*
-aContent
 nsStyleContext
 *
 aContext

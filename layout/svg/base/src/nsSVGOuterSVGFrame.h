@@ -573,9 +573,6 @@ NS_NewSVGOuterSVGFrame
 nsIPresShell
 *
 aPresShell
-nsIContent
-*
-aContent
 nsStyleContext
 *
 aContext
