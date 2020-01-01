@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCycleCollectionHoldDrop_h_
+mozilla_HoldDropJSObjects_h
 #
 define
-nsCycleCollectionHoldDrop_h_
+mozilla_HoldDropJSObjects_h
 #
 include
 "
@@ -385,4 +385,4 @@ mozilla
 endif
 /
 /
-nsCycleCollectionHoldDrop_h_
+mozilla_HoldDropJSObjects_h
