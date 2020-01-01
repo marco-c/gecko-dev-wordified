@@ -8866,9 +8866,12 @@ gc
 FINALIZE_OBJECT_LAST
 )
 ;
-size_t
+int
 thingSize
 =
+(
+int
+)
 gc
 :
 :
@@ -9202,6 +9205,9 @@ Address
 (
 result
 -
+(
+int
+)
 sizeof
 (
 JSObject

@@ -5181,9 +5181,9 @@ monitor
 cx
 )
 ;
-JSScript
+JSFunction
 *
-script
+fun
 =
 obj
 -
@@ -5191,6 +5191,12 @@ obj
 getCallObjCalleeFunction
 (
 )
+;
+JSScript
+*
+script
+=
+fun
 -
 >
 script
@@ -5217,6 +5223,7 @@ script
 ensureHasTypes
 (
 cx
+fun
 )
 )
 return

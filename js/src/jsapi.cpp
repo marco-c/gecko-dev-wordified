@@ -3843,11 +3843,6 @@ JSRuntime
 (
 )
 :
-gcChunkAllocator
-(
-&
-defaultGCChunkAllocator
-)
 trustedPrincipals_
 (
 NULL
