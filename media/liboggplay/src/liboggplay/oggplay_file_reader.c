@@ -780,6 +780,15 @@ io_tell
 &
 oggplay_file_reader_io_tell
 ;
+me
+-
+>
+functions
+.
+duration
+=
+NULL
+;
 return
 (
 OggPlayReader
