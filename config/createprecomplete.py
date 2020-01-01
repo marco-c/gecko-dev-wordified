@@ -368,6 +368,7 @@ rel_dir_path_list
 def
 generate_precomplete
 (
+root_path
 )
 :
     
@@ -389,8 +390,7 @@ update
 instructions
 .
 The
-current
-working
+given
 directory
 is
 used
@@ -411,14 +411,6 @@ file
 "
 "
 "
-    
-root_path
-=
-os
-.
-getcwd
-(
-)
     
 #
 If
@@ -592,4 +584,9 @@ __main__
     
 generate_precomplete
 (
+os
+.
+getcwd
+(
+)
 )
