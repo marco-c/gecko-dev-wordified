@@ -9267,17 +9267,6 @@ it
 was
 )
 .
-JSObject
-*
-scopeobj
-;
-scopeobj
-=
-JS_GetGlobalForScopeChain
-(
-ccx
-)
-;
 for
 (
 i
@@ -9584,7 +9573,7 @@ datum_type
 &
 param_iid
 array_count
-scopeobj
+obj
 nsnull
 )
 )
@@ -9649,7 +9638,7 @@ val
 type
 &
 param_iid
-scopeobj
+obj
 nsnull
 )
 )
@@ -9689,7 +9678,7 @@ out_obj
 NewOutObject
 (
 cx
-scopeobj
+obj
 )
 ;
 if
