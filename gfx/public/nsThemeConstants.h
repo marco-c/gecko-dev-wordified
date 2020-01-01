@@ -663,6 +663,14 @@ NS_THEME_TEXTFIELD_MULTILINE
 /
 /
 A
+searchfield
+#
+define
+NS_THEME_SEARCHFIELD
+98
+/
+/
+A
 dropdown
 list
 .
