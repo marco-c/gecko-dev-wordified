@@ -22877,8 +22877,12 @@ force_gdi_classic_for_families
 "
 "
 Arial
+Consolas
 Courier
 New
+Microsoft
+Sans
+Serif
 Segoe
 UI
 Tahoma
