@@ -3242,13 +3242,6 @@ if
 !
 defined
 (
-XP_MAC
-)
-&
-&
-!
-defined
-(
 WINCE
 )
 rv
