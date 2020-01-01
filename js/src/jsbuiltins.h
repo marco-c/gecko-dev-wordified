@@ -4334,6 +4334,10 @@ JS_DECLARE_CALLINFO
 (
 js_NewNullClosure
 )
+JS_DECLARE_CALLINFO
+(
+js_ConcatN
+)
 #
 endif
 /

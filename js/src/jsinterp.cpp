@@ -681,6 +681,13 @@ jslibmath
 h
 "
 #
+include
+"
+jsvector
+.
+h
+"
+#
 ifdef
 INCLUDE_MOZILLA_DTRACE
 #
