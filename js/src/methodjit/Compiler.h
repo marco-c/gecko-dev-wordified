@@ -2119,8 +2119,10 @@ leaveBlock
 )
 ;
 void
-jsop_eval
+emitEval
 (
+uint32
+argc
 )
 ;
 /
