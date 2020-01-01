@@ -1895,12 +1895,6 @@ nsIRequestObserver
 >
 mObserver
 ;
-nsCOMPtr
-<
-nsISupports
->
-mCacheEntryClosePreventer
-;
 /
 *
 *
