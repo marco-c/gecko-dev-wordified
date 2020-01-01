@@ -3363,7 +3363,7 @@ DidReflow
 aPresContext
 &
 state
-aStatus
+NS_FRAME_REFLOW_FINISHED
 )
 ;
 /
@@ -3986,7 +3986,7 @@ DidReflow
 aPresContext
 &
 state
-aStatus
+NS_FRAME_REFLOW_FINISHED
 )
 ;
 /
