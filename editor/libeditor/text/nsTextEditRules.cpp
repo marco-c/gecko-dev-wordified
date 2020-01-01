@@ -2863,6 +2863,15 @@ looking
 for
 text
 nodes
+mozilla
+:
+:
+dom
+:
+:
+NodeFilterHolder
+filter
+;
 nsNodeIterator
 iter
 (
@@ -2871,7 +2880,7 @@ nsIDOMNodeFilter
 :
 :
 SHOW_TEXT
-nullptr
+filter
 )
 ;
 while

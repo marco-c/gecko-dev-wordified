@@ -1085,7 +1085,6 @@ T
 class
 U
 >
-inline
 void
 ImplCycleCollectionUnlink
 (
@@ -1893,7 +1892,6 @@ XPCOMCallbackFlag
 1u
 ;
 friend
-inline
 void
 ImplCycleCollectionUnlink
 <
@@ -1995,7 +1993,6 @@ T
 class
 U
 >
-inline
 void
 ImplCycleCollectionUnlink
 (
