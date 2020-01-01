@@ -38521,9 +38521,6 @@ cx
 bailExit
 )
 ;
-#
-ifdef
-DEBUG
 cx
 -
 >
@@ -38531,8 +38528,6 @@ bailExit
 =
 NULL
 ;
-#
-endif
 cx
 -
 >
@@ -59320,9 +59315,6 @@ pendingTraceableNative
 FAIL_STATUS
 )
 {
-#
-ifdef
-DEBUG
 /
 /
 Keep
@@ -59357,8 +59349,6 @@ bailExit
 )
 )
 ;
-#
-endif
 LIns
 *
 status
