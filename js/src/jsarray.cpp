@@ -18137,7 +18137,10 @@ JS_TRUE
 }
 #
 endif
+JS_FRIEND_API
+(
 JSBool
+)
 js_ArrayToJSUint8Buffer
 (
 JSContext
@@ -18273,7 +18276,10 @@ return
 JS_TRUE
 ;
 }
+JS_FRIEND_API
+(
 JSBool
+)
 js_ArrayToJSUint16Buffer
 (
 JSContext
@@ -18409,7 +18415,10 @@ return
 JS_TRUE
 ;
 }
+JS_FRIEND_API
+(
 JSBool
+)
 js_ArrayToJSUint32Buffer
 (
 JSContext
@@ -18545,7 +18554,10 @@ return
 JS_TRUE
 ;
 }
+JS_FRIEND_API
+(
 JSBool
+)
 js_ArrayToJSInt8Buffer
 (
 JSContext
@@ -18669,7 +18681,10 @@ return
 JS_TRUE
 ;
 }
+JS_FRIEND_API
+(
 JSBool
+)
 js_ArrayToJSInt16Buffer
 (
 JSContext
@@ -18793,7 +18808,10 @@ return
 JS_TRUE
 ;
 }
+JS_FRIEND_API
+(
 JSBool
+)
 js_ArrayToJSInt32Buffer
 (
 JSContext
@@ -18917,7 +18935,10 @@ return
 JS_TRUE
 ;
 }
+JS_FRIEND_API
+(
 JSBool
+)
 js_ArrayToJSDoubleBuffer
 (
 JSContext
