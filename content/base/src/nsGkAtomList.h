@@ -14775,6 +14775,15 @@ AreaFrame
 )
 GK_ATOM
 (
+auto_generated
+"
+auto
+-
+generated
+"
+)
+GK_ATOM
+(
 backgroundColor
 "
 background
