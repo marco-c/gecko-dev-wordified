@@ -1461,11 +1461,6 @@ nsIImageLoadingContent
 NS_INTERFACE_TABLE_ENTRY
 (
 nsHTMLSharedObjectElement
-imgIOnloadBlocker
-)
-NS_INTERFACE_TABLE_ENTRY
-(
-nsHTMLSharedObjectElement
 nsIInterfaceRequestor
 )
 NS_INTERFACE_TABLE_ENTRY

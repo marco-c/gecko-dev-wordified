@@ -398,7 +398,7 @@ loops
 !
 aRequest
 .
-cancelAndForgetObserver
+cancel
 (
 0
 )

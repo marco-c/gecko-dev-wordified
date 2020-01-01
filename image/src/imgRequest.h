@@ -1690,11 +1690,6 @@ mIsInCache
 :
 1
 ;
-bool
-mBlockingOnload
-:
-1
-;
 }
 ;
 #
