@@ -1961,6 +1961,14 @@ bounds
 "
 )
 ;
+const
+fallible_t
+fallible
+=
+fallible_t
+(
+)
+;
 nsAutoArrayPtr
 <
 uint8_t
@@ -1968,6 +1976,9 @@ uint8_t
 tmp
 (
 new
+(
+fallible
+)
 uint8_t
 [
 aTarget
