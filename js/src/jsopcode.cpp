@@ -35668,10 +35668,10 @@ target
 return
 pcdepth
 ;
+}
 #
 undef
 LOCAL_ASSERT
-}
 #
 undef
 LOCAL_ASSERT_RV
