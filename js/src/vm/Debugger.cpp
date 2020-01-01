@@ -19059,6 +19059,8 @@ principals
 cx
 )
 TCF_COMPILE_N_GO
+|
+TCF_NEED_SCRIPT_OBJECT
 chars
 length
 filename
@@ -19084,13 +19086,6 @@ script
 return
 false
 ;
-script
--
->
-isUncachedEval
-=
-true
-;
 bool
 ok
 =
@@ -19109,13 +19104,6 @@ thisValue
 EXECUTE_DEBUG
 fp
 rval
-)
-;
-js_DestroyScript
-(
-cx
-script
-6
 )
 ;
 return
