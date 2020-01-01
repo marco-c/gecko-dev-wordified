@@ -7555,7 +7555,7 @@ clampZoomLevel
 (
 (
 vrWidth
-+
+-
 (
 2
 *
