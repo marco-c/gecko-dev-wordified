@@ -2030,6 +2030,16 @@ return
 this
 ;
 }
+virtual
+bool
+IsEventAttributeName
+(
+nsIAtom
+*
+aName
+)
+MOZ_OVERRIDE
+;
 protected
 :
 /

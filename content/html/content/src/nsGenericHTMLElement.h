@@ -1349,6 +1349,16 @@ return
 style
 ;
 }
+virtual
+bool
+IsEventAttributeName
+(
+nsIAtom
+*
+aName
+)
+MOZ_OVERRIDE
+;
 #
 define
 EVENT
@@ -6997,6 +7007,7 @@ be
 handled
 from
 PreHandleEvent
+virtual
 bool
 IsElementDisabledForEvents
 (
