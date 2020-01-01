@@ -855,7 +855,7 @@ String
 LOG_TAG
 =
 "
-SyncStorageResourceDelegate
+SSResourceDelegate
 "
 ;
 protected
