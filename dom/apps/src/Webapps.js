@@ -2526,6 +2526,15 @@ KO
 "
 Webapps
 :
+Launch
+:
+Return
+:
+KO
+"
+"
+Webapps
+:
 PackageEvent
 "
 ]
