@@ -220,9 +220,6 @@ _MDSemaphore
 md
 )
 {
-int
-old_count
-;
 ReleaseSemaphore
 (
 md
@@ -230,8 +227,7 @@ md
 >
 sem
 1
-&
-old_count
+NULL
 )
 ;
 }

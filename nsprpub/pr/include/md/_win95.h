@@ -1326,10 +1326,6 @@ stuff
 -
 *
 /
-extern
-PRBool
-_pr_useUnicode
-;
 #
 ifdef
 MOZ_UNICODE

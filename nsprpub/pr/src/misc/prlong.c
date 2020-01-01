@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-primpl
+prlong
 .
 h
 "
