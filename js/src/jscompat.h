@@ -478,13 +478,6 @@ jstypes
 .
 h
 "
-#
-include
-"
-jslong
-.
-h
-"
 typedef
 JSIntn
 intN
