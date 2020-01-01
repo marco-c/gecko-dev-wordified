@@ -1552,9 +1552,7 @@ Allocator
 cx_
 -
 >
-zone
-(
-)
+compartment
 )
 ;
 if

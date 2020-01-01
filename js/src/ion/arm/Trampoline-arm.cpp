@@ -562,10 +562,10 @@ GenerateEnterJIT
 cx
 -
 >
-runtime
+compartment
 -
 >
-ionRuntime
+ionCompartment
 (
 )
 )

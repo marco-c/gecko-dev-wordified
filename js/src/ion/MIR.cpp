@@ -9384,7 +9384,10 @@ GetIonContext
 )
 -
 >
-runtime
+compartment
+-
+>
+rt
 ;
 return
 MConstant

@@ -3484,14 +3484,6 @@ global
 )
 const
 ;
-inline
-JSCompartment
-*
-compartment
-(
-)
-const
-;
 /
 *
 Remove

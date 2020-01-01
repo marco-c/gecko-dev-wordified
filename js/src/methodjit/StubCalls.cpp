@@ -5616,9 +5616,7 @@ f
 cx
 -
 >
-zone
-(
-)
+compartment
 )
 ;
 Recompiler
@@ -5871,9 +5869,7 @@ f
 cx
 -
 >
-zone
-(
-)
+compartment
 )
 ;
 Recompiler
@@ -6071,9 +6067,7 @@ f
 cx
 -
 >
-zone
-(
-)
+compartment
 )
 ;
 Recompiler
@@ -11543,9 +11537,7 @@ f
 cx
 -
 >
-zone
-(
-)
+compartment
 )
 ;
 mjit

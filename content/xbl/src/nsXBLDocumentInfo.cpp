@@ -1581,10 +1581,6 @@ GetPrincipal
 (
 )
 )
-JS
-:
-:
-SystemZone
 )
 ;
 if

@@ -1057,10 +1057,6 @@ mSafeJSContext
 &
 global_class
 principal
-JS
-:
-:
-SystemZone
 )
 ;
 if

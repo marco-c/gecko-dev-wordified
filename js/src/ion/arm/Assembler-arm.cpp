@@ -15985,7 +15985,7 @@ AutoFlushCache
 if
 (
 !
-runtime_
+myCompartment_
 )
 return
 ;
@@ -16004,7 +16004,7 @@ name_
 ;
 if
 (
-runtime_
+myCompartment_
 -
 >
 flusher
@@ -16020,7 +16020,7 @@ IonSpewFin
 IonSpew_CacheFlush
 )
 ;
-runtime_
+myCompartment_
 -
 >
 setFlusher
@@ -16041,7 +16041,7 @@ flushAnyway
 if
 (
 !
-runtime_
+myCompartment_
 )
 return
 ;
@@ -16079,7 +16079,9 @@ void
 *
 )
 start_
+(
 size_t
+)
 (
 stop_
 -
