@@ -6982,6 +6982,9 @@ SPDI
 ruim
 :
 {
+ENHANCED_PHONEBOOK
+:
+6
 SPN
 :
 17
