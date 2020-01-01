@@ -2024,10 +2024,15 @@ cx
 JSObject
 *
 obj
+#
+ifdef
+DEBUG
 PRBool
 aAllowShortCircuit
 =
-PR_FALSE
+PR_TRUE
+#
+endif
 )
 ;
 /

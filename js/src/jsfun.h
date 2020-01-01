@@ -968,7 +968,10 @@ JSClass
 js_ArgumentsClass
 ;
 extern
+JS_FRIEND_DATA
+(
 JSClass
+)
 js_CallClass
 ;
 /
