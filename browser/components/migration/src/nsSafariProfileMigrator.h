@@ -475,6 +475,13 @@ h
 "
 #
 include
+"
+nsINavHistoryService
+.
+h
+"
+#
+include
 <
 CoreFoundation
 /
@@ -490,10 +497,13 @@ nsSafariProfileMigrator
 :
 public
 nsIBrowserProfileMigrator
+public
+nsINavHistoryBatchCallback
 {
 public
 :
 NS_DECL_NSIBROWSERPROFILEMIGRATOR
+NS_DECL_NSINAVHISTORYBATCHCALLBACK
 NS_DECL_ISUPPORTS
 nsSafariProfileMigrator
 (
