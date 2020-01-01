@@ -498,8 +498,6 @@ AndroidBridge
 h
 "
 #
-endif
-#
 include
 <
 android
@@ -508,6 +506,8 @@ log
 .
 h
 >
+#
+endif
 namespace
 mozilla
 {
