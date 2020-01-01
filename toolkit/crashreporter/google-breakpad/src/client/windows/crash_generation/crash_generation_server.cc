@@ -1421,6 +1421,9 @@ the
 client
 connection
 .
+if
+(
+!
 RegisterWaitForSingleObject
 (
 &
@@ -1433,7 +1436,12 @@ this
 INFINITE
 kPipeIOThreadFlags
 )
+)
+{
+return
+false
 ;
+}
 pipe_
 =
 CreateNamedPipe
