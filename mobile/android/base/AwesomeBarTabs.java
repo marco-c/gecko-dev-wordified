@@ -642,7 +642,7 @@ faviconView
 ;
 public
 ImageView
-starView
+bookmarkIconView
 ;
 }
 private
@@ -848,7 +848,7 @@ favicon
 ;
 viewHolder
 .
-starView
+bookmarkIconView
 =
 (
 ImageView
@@ -861,7 +861,7 @@ R
 .
 id
 .
-bookmark_star
+bookmark_icon
 )
 ;
 convertView
@@ -1096,7 +1096,7 @@ VISIBLE
 ;
 viewHolder
 .
-starView
+bookmarkIconView
 .
 setVisibility
 (
@@ -4898,7 +4898,7 @@ favicon
 ;
 viewHolder
 .
-starView
+bookmarkIconView
 =
 (
 ImageView
@@ -4911,7 +4911,7 @@ R
 .
 id
 .
-bookmark_star
+bookmark_icon
 )
 ;
 convertView
@@ -5001,11 +5001,11 @@ faviconView
 cursor
 )
 ;
-updateBookmarkStar
+updateBookmarkIcon
 (
 viewHolder
 .
-starView
+bookmarkIconView
 cursor
 )
 ;
@@ -6913,10 +6913,10 @@ url
 }
 private
 void
-updateBookmarkStar
+updateBookmarkIcon
 (
 ImageView
-starView
+bookmarkIconView
 Cursor
 cursor
 )
@@ -6984,7 +6984,7 @@ View
 VISIBLE
 )
 ;
-starView
+bookmarkIconView
 .
 setVisibility
 (
