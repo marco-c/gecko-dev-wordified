@@ -3997,6 +3997,12 @@ execPools
 ;
 #
 endif
+types
+:
+:
+RecompileInfo
+recompileInfo
+;
 /
 /
 Additional
