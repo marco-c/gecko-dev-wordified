@@ -5960,7 +5960,10 @@ code
 exceptionEntry
 )
 {
+DebugOnly
+<
 bool
+>
 found
 =
 false
@@ -6096,10 +6099,15 @@ startOffset
 )
 ;
 }
+#
+ifdef
+DEBUG
 found
 =
 true
 ;
+#
+endif
 break
 ;
 }

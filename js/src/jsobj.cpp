@@ -21435,7 +21435,7 @@ if
 type
 )
 return
-false
+NULL
 ;
 JSObject
 *
