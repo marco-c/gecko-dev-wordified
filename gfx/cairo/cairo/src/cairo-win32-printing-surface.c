@@ -7594,6 +7594,13 @@ scaled_font
 CAIRO_FONT_TYPE_WIN32
 &
 &
+!
+_cairo_win32_scaled_font_is_type1
+(
+scaled_font
+)
+&
+&
 source
 -
 >
