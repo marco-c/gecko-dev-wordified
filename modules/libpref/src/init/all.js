@@ -1520,7 +1520,7 @@ color_management
 .
 mode
 "
-0
+2
 )
 ;
 pref
