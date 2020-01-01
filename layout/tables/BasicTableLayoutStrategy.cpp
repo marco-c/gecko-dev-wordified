@@ -5003,9 +5003,13 @@ spacing
 }
 }
 width
--
 =
+NSCoordSaturatingSubtract
+(
+width
 subtract
+nscoord_MAX
+)
 ;
 min
 -
