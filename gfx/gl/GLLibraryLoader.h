@@ -188,6 +188,10 @@ char
 prefix
 =
 nullptr
+bool
+warnOnFailure
+=
+true
 )
 ;
 /
@@ -240,6 +244,10 @@ char
 prefix
 =
 nullptr
+bool
+warnOnFailure
+=
+true
 )
 ;
 protected
