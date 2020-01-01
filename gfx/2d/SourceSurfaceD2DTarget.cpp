@@ -359,7 +359,7 @@ CreateTexture2D
 (
 &
 desc
-nullptr
+NULL
 byRef
 (
 dataSurf
@@ -399,7 +399,7 @@ Code
 hr
 ;
 return
-nullptr
+NULL
 ;
 }
 Factory
@@ -455,7 +455,7 @@ GetDirect3D10Device
 CreateShaderResourceView
 (
 mTexture
-nullptr
+NULL
 byRef
 (
 mSRView
@@ -551,7 +551,7 @@ CreateTexture2D
 (
 &
 desc
-nullptr
+NULL
 byRef
 (
 mTexture
@@ -574,7 +574,7 @@ oldTexture
 ;
 mBitmap
 =
-nullptr
+NULL
 ;
 DrawTargetD2D
 :
@@ -721,7 +721,7 @@ Code
 hr
 ;
 return
-nullptr
+NULL
 ;
 }
 D2D1_BITMAP_PROPERTIES
@@ -947,7 +947,7 @@ surface
 "
 ;
 return
-nullptr
+NULL
 ;
 }
 D2D1_RENDER_TARGET_PROPERTIES
@@ -1021,7 +1021,7 @@ texture
 "
 ;
 return
-nullptr
+NULL
 ;
 }
 }
@@ -1030,9 +1030,9 @@ mBitmap
 >
 CopyFromRenderTarget
 (
-nullptr
+NULL
 rt
-nullptr
+NULL
 )
 ;
 return
@@ -1072,11 +1072,11 @@ mDrawTarget
 >
 mSnapshot
 =
-nullptr
+NULL
 ;
 mDrawTarget
 =
-nullptr
+NULL
 ;
 }
 }

@@ -1134,7 +1134,7 @@ specified
 "
 ;
 return
-nullptr
+NULL
 ;
 }
 gfxDebug
@@ -1167,7 +1167,7 @@ aSize
 /
 Failed
 return
-nullptr
+NULL
 ;
 }
 TemporaryRef
@@ -1294,7 +1294,7 @@ specified
 "
 ;
 return
-nullptr
+NULL
 ;
 }
 gfxDebug
@@ -1327,7 +1327,7 @@ aSize
 /
 Failed
 return
-nullptr
+NULL
 ;
 }
 TemporaryRef
@@ -1518,7 +1518,7 @@ specified
 "
 ;
 return
-nullptr
+NULL
 ;
 }
 }
@@ -1628,7 +1628,7 @@ font
 #
 else
 return
-nullptr
+NULL
 ;
 #
 endif
@@ -1702,7 +1702,7 @@ texture
 /
 Failed
 return
-nullptr
+NULL
 ;
 }
 TemporaryRef
@@ -1774,7 +1774,7 @@ texture
 "
 ;
 return
-nullptr
+NULL
 ;
 }
 newTargetB
@@ -1815,7 +1815,7 @@ texture
 "
 ;
 return
-nullptr
+NULL
 ;
 }
 RefPtr
@@ -1980,7 +1980,7 @@ newTarget
 #
 endif
 return
-nullptr
+NULL
 ;
 }
 TemporaryRef
@@ -2036,7 +2036,7 @@ newSurf
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 }

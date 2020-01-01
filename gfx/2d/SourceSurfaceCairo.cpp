@@ -184,7 +184,7 @@ aDrawTarget
 /
 *
 =
-nullptr
+NULL
 *
 /
 )
@@ -401,7 +401,7 @@ mDrawTarget
 {
 mDrawTarget
 =
-nullptr
+NULL
 ;
 /
 /
@@ -523,7 +523,7 @@ this
 ;
 mDrawTarget
 =
-nullptr
+NULL
 ;
 }
 }

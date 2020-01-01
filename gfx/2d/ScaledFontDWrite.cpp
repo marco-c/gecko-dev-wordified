@@ -183,7 +183,7 @@ backend
 "
 ;
 return
-nullptr
+NULL
 ;
 }
 RefPtr

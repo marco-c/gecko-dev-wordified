@@ -828,7 +828,7 @@ surf
 /
 Never
 returns
-nullptr
+NULL
 .
 As
 such
@@ -1524,7 +1524,7 @@ DrawTargetCairo
 :
 mContext
 (
-nullptr
+NULL
 )
 {
 }
@@ -1674,7 +1674,7 @@ aPath
 /
 *
 =
-nullptr
+NULL
 *
 /
 )
@@ -2061,8 +2061,8 @@ aSigma
 aSigma
 )
 )
-nullptr
-nullptr
+NULL
+NULL
 )
 ;
 if
@@ -4209,7 +4209,7 @@ source
 }
 }
 return
-nullptr
+NULL
 ;
 }
 TemporaryRef
@@ -4286,7 +4286,7 @@ target
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 bool
@@ -4365,7 +4365,7 @@ mContext
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 void
@@ -4544,7 +4544,7 @@ aPath
 /
 *
 =
-nullptr
+NULL
 *
 /
 )
@@ -4652,7 +4652,7 @@ PathWillChange
 ;
 mPathObserver
 =
-nullptr
+NULL
 ;
 }
 }

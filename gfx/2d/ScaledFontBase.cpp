@@ -207,7 +207,7 @@ ifdef
 USE_SKIA
 mTypeface
 =
-nullptr
+NULL
 ;
 #
 endif
@@ -216,7 +216,7 @@ ifdef
 USE_CAIRO
 mScaledFont
 =
-nullptr
+NULL
 ;
 #
 endif
@@ -643,7 +643,7 @@ Finish
 #
 endif
 return
-nullptr
+NULL
 ;
 }
 void

@@ -842,7 +842,7 @@ aType
 )
 {
 return
-nullptr
+NULL
 ;
 }
 private
