@@ -1936,16 +1936,6 @@ i
 )
 ;
 void
-asm_loop
-(
-LInsp
-i
-NInsList
-&
-loopJumps
-)
-;
-void
 asm_fcond
 (
 LInsp

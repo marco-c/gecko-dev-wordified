@@ -873,10 +873,6 @@ i
 =
 NULL
 ;
-explicitSavedRegs
-=
-false
-;
 chunkAlloc
 (
 )
@@ -2019,13 +2015,6 @@ arg
 ]
 =
 ins
-;
-_buf
--
->
-explicitSavedRegs
-=
-true
 ;
 }
 return
@@ -11918,9 +11907,6 @@ imm64f
 break
 ;
 }
-case
-LIR_loop
-:
 case
 LIR_start
 :
