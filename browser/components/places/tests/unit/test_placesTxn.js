@@ -6380,4 +6380,12 @@ folder
 "
 )
 ;
+bmsvc
+.
+removeObserver
+(
+observer
+false
+)
+;
 }
