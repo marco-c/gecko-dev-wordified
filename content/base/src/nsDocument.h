@@ -2659,8 +2659,6 @@ nsIApplicationCacheContainer
 public
 nsStubMutationObserver
 public
-nsITouchEventReceiver
-public
 nsIInlineEventHandlers
 public
 nsIObserver
@@ -4270,10 +4268,6 @@ MOZ_OVERRIDE
 /
 nsIApplicationCacheContainer
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
-/
-/
-nsITouchEventReceiver
-NS_DECL_NSITOUCHEVENTRECEIVER
 /
 /
 nsIInlineEventHandlers
