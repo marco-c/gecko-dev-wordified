@@ -1952,8 +1952,7 @@ cx
 Debugger
 *
 dbg
-JSObject
-*
+HandleObject
 obj
 PropDesc
 *
@@ -1967,8 +1966,7 @@ wrapInto
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 const
 jsid
