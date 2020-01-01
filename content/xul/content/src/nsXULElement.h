@@ -3283,7 +3283,7 @@ virtual
 const
 nsAttrValue
 *
-GetClasses
+DoGetClasses
 (
 )
 const
