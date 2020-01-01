@@ -1376,8 +1376,6 @@ os
 re
 import
 sys
-import
-sets
 #
 =
 =
@@ -12288,9 +12286,7 @@ w
     
 filesIncluded
 =
-sets
-.
-Set
+set
 (
 )
     
@@ -12594,9 +12590,7 @@ writeResultXPCInterfacesArray
 (
 f
 conf
-sets
-.
-ImmutableSet
+frozenset
 (
 resulttypes
 )
