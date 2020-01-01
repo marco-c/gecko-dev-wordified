@@ -1997,13 +1997,6 @@ getPrivate
 )
 ;
 }
-fp
--
->
-clearArgsObj
-(
-)
-;
 }
 #
 ifdef
@@ -8008,13 +8001,6 @@ callobj
 setPrivate
 (
 NULL
-)
-;
-fp
--
->
-clearCallObj
-(
 )
 ;
 }

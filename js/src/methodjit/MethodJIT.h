@@ -3148,15 +3148,6 @@ JaegerThrowpoline
 ;
 #
 endif
-extern
-"
-C
-"
-void
-InjectJaegerReturn
-(
-)
-;
 #
 endif
 /
