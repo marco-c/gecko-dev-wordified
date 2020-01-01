@@ -9040,10 +9040,12 @@ formalArgsEnd
 )
 )
 ;
-js_TraceStackFrame
+fp
+-
+>
+mark
 (
 trc
-fp
 )
 ;
 MarkStackRangeConservatively
