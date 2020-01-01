@@ -16939,6 +16939,15 @@ aChild
 outOffset
 )
 ;
+NS_ENSURE_TRUE
+(
+aChild
+&
+&
+outOffset
+nsnull
+)
+;
 *
 outOffset
 =
