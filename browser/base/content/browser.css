@@ -29,17 +29,6 @@ searchbar
 }
 /
 *
-XXX
-Disabled
-for
-now
-due
-to
-perf
-/
-leak
-regressions
-/
 :
 :
 :
@@ -52,6 +41,7 @@ bar
 :
 :
 :
+*
 /
 #
 urlbar
@@ -79,8 +69,6 @@ urlbar
 )
 ;
 }
-*
-/
 #
 PopupAutoComplete
 {
