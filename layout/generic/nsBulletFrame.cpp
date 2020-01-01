@@ -1244,12 +1244,8 @@ PaintBullet
 (
 *
 aCtx
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 mVisibleRect
 )

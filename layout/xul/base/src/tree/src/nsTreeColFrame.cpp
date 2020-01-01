@@ -775,12 +775,8 @@ rect
 =
 aRect
 -
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 ;
 /
