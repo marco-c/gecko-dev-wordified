@@ -23,10 +23,10 @@ libpng
 .
 5
 .
-14
+16
 [
-January
-24
+May
+23
 2013
 ]
 *
@@ -1053,6 +1053,12 @@ flags
 =
 PNG_FLAG_ASSUME_sRGB
 ;
+#
+else
+PNG_UNUSED
+(
+png_ptr
+)
 #
 endif
 if

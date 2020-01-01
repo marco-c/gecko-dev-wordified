@@ -35,10 +35,10 @@ libpng
 .
 5
 .
-15
+16
 [
-March
-28
+May
+23
 2013
 ]
 *
@@ -1311,12 +1311,6 @@ png_read_filter_row_paeth4_neon
 endif
 /
 *
-FILTER_OPTIMIZATIONS
-&
-&
-__arm__
-&
-&
-__ARM_NEON__
+PNG_ARM_NEON_SUPPORTED
 *
 /
