@@ -4155,6 +4155,10 @@ const
 nsACString
 &
 aLabel
+const
+nsACString
+&
+aProtocol
 uint16_t
 aType
 bool
@@ -4163,6 +4167,10 @@ uint16_t
 aMaxTime
 uint16_t
 aMaxNum
+bool
+aExternalNegotiated
+uint16_t
+aStream
 nsIDOMDataChannel
 *
 *
@@ -4231,6 +4239,7 @@ mDataConnection
 Open
 (
 aLabel
+aProtocol
 theType
 !
 outOfOrderAllowed
@@ -4265,6 +4274,8 @@ aMaxTime
 )
 nullptr
 nullptr
+aExternalNegotiated
+aStream
 )
 ;
 NS_ENSURE_TRUE

@@ -208,6 +208,10 @@ DATA_CHANNEL_FLAGS_FINISH_RSP
 0x00000040
 #
 define
+DATA_CHANNEL_FLAGS_EXTERNAL_NEGOTIATED
+0x00000080
+#
+define
 INVALID_STREAM
 (
 0xFFFF
@@ -252,6 +256,12 @@ reliability_params
 int16_t
 priority
 ;
+uint16_t
+label_length
+;
+uint16_t
+protocol_length
+;
 char
 label
 [
@@ -260,6 +270,10 @@ label
 ;
 /
 /
+(
+and
+protocol
+)
 keep
 VC
 +
@@ -272,7 +286,7 @@ UTF8
 null
 -
 terminated
-string
+strings
 }
 SCTP_PACKED
 ;
