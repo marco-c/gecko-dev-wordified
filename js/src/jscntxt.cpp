@@ -535,13 +535,6 @@ ANDROID
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h

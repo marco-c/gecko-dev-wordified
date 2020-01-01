@@ -352,13 +352,6 @@ h
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 assembler
 /
 wtf

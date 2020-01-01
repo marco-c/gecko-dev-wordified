@@ -482,13 +482,6 @@ h
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 jsutil
 .
 h
@@ -651,13 +644,6 @@ h
 include
 "
 jsscript
-.
-h
-"
-#
-include
-"
-jsstdint
 .
 h
 "

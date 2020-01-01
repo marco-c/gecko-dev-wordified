@@ -449,13 +449,6 @@ h
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 jsdtoa
 .
 h

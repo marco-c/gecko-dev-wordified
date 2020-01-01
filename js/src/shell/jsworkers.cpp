@@ -506,13 +506,6 @@ h
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 jslock
 .
 h
