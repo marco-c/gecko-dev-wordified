@@ -559,16 +559,6 @@ PRUint32
 aChromeMask
 )
 ;
-nsresult
-SetXPConnectSafeContext
-(
-)
-;
-nsresult
-ClearXPConnectSafeContext
-(
-)
-;
 nsRefPtr
 <
 nsWebShellWindow
