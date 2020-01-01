@@ -514,9 +514,9 @@ this
 .
 _bundle
 =
-Elements
+Strings
 .
-browserBundle
+browser
 ;
 this
 .
@@ -1055,7 +1055,7 @@ this
 .
 _bundle
 .
-getString
+GetStringFromName
 (
 typetext
 )
