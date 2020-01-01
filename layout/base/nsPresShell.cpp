@@ -5730,6 +5730,8 @@ nsRect
 aBounds
 nscolor
 aBackstopColor
+PRBool
+aForceDraw
 )
 ;
 protected
@@ -34214,6 +34216,8 @@ nsRect
 aBounds
 nscolor
 aBackstopColor
+PRBool
+aForceDraw
 )
 {
 /
@@ -34322,6 +34326,10 @@ tree
 .
 if
 (
+!
+aForceDraw
+&
+&
 !
 nsCSSRendering
 :

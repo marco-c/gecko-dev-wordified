@@ -2537,6 +2537,14 @@ f
 this
 &
 shellBounds
+NS_RGBA
+(
+0
+0
+0
+0
+)
+PR_TRUE
 )
 ;
 }
