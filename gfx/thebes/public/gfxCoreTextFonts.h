@@ -207,7 +207,7 @@ C
 )
 2006
 -
-2008
+2009
 *
 the
 Initial
@@ -510,9 +510,6 @@ gfxCoreTextFontGroup
 ;
 class
 MacOSFontEntry
-;
-class
-MacOSFamilyEntry
 ;
 class
 gfxCoreTextFont
@@ -1308,7 +1305,7 @@ font
 lookup
 nsRefPtr
 <
-MacOSFamilyEntry
+gfxFontFamily
 >
 mLastPrefFamily
 ;

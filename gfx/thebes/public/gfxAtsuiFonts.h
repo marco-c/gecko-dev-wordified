@@ -206,6 +206,8 @@ Copyright
 C
 )
 2006
+-
+2009
 *
 the
 Initial
@@ -248,6 +250,15 @@ Daggett
 <
 jdaggett
 mozilla
+.
+com
+>
+*
+Jonathan
+Kew
+<
+jfkthame
+gmail
 .
 com
 >
@@ -513,9 +524,6 @@ gfxAtsuiFontGroup
 ;
 class
 MacOSFontEntry
-;
-class
-MacOSFamilyEntry
 ;
 class
 gfxAtsuiFont
@@ -1158,7 +1166,7 @@ protected
 :
 static
 PRBool
-FindATSUFont
+FindATSFont
 (
 const
 nsAString
@@ -1391,7 +1399,7 @@ font
 lookup
 nsRefPtr
 <
-MacOSFamilyEntry
+gfxFontFamily
 >
 mLastPrefFamily
 ;
