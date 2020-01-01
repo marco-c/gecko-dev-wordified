@@ -102,14 +102,10 @@ nsTextEditUtils_h__
 #
 include
 "
-nsError
+nscore
 .
 h
 "
-/
-/
-for
-nsresult
 namespace
 mozilla
 {

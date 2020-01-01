@@ -552,6 +552,7 @@ release
 (
 )
 ;
+virtual
 ~
 nsHtml5AttributeName
 (

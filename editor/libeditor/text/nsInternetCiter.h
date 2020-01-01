@@ -102,7 +102,14 @@ nsInternetCiter_h__
 #
 include
 "
-nsString
+nscore
+.
+h
+"
+#
+include
+"
+prtypes
 .
 h
 "

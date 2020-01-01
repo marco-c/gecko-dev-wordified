@@ -121,6 +121,13 @@ nsGkAtoms
 .
 h
 "
+#
+include
+"
+nsISelection
+.
+h
+"
 PlaceholderTxn
 :
 :

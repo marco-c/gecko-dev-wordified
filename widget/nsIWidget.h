@@ -252,7 +252,7 @@ namespace
 dom
 {
 class
-PBrowserChild
+TabChild
 ;
 }
 namespace
@@ -1841,8 +1841,8 @@ mozilla
 dom
 :
 :
-PBrowserChild
-PBrowserChild
+TabChild
+TabChild
 ;
 public
 :
@@ -6304,7 +6304,6 @@ aOpaqueRegion
 )
 {
 }
-;
 /
 *
 *
@@ -9409,7 +9408,7 @@ nsIWidget
 >
 CreatePuppetWidget
 (
-PBrowserChild
+TabChild
 *
 aTabChild
 )

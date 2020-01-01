@@ -133,7 +133,7 @@ h
 #
 include
 "
-CrossOriginWrapper
+WaiveXrayWrapper
 .
 h
 "

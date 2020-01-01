@@ -254,6 +254,15 @@ nsDocShell
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 For
@@ -879,6 +888,7 @@ nsSHistoryObserver
 *
 class
 nsSHistoryObserver
+MOZ_FINAL
 :
 public
 nsIObserver

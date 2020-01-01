@@ -347,14 +347,10 @@ h
 #
 include
 "
-nsIScriptObjectOwner
+nsIScriptEventHandlerOwner
 .
 h
 "
-/
-/
-for
-nsIScriptEventHandlerOwner
 #
 include
 "

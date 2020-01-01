@@ -35557,6 +35557,7 @@ up
 MarkLineDirty
 (
 prevSibLine
+lineList
 )
 ;
 /
@@ -36096,6 +36097,7 @@ up
 MarkLineDirty
 (
 prevSibLine
+lineList
 )
 ;
 }

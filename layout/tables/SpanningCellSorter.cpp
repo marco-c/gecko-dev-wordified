@@ -156,15 +156,8 @@ SpanningCellSorter
 :
 SpanningCellSorter
 (
-nsIPresShell
-*
-aPresShell
 )
 :
-mPresShell
-(
-aPresShell
-)
 mState
 (
 ADDING

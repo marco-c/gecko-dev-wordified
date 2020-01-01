@@ -118,6 +118,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsSHEntry
 ;
@@ -205,6 +214,7 @@ sharing
 .
 class
 nsSHEntryShared
+MOZ_FINAL
 :
 public
 nsIBFCacheEntry

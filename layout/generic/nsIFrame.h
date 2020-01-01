@@ -5155,7 +5155,7 @@ AppendFrames
 empties
 out
 *
-aChildList
+aFrameList
 in
 the
 process
@@ -5310,7 +5310,7 @@ InsertFrames
 empties
 out
 *
-aChildList
+aFrameList
 in
 the
 process
@@ -10401,7 +10401,6 @@ aStates
 )
 {
 }
-;
 /
 *
 *
@@ -20074,7 +20073,6 @@ return
 false
 ;
 }
-;
 #
 ifdef
 DEBUG_LAYOUT

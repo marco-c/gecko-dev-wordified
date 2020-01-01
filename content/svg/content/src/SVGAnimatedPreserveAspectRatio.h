@@ -211,7 +211,6 @@ aDefer
 )
 {
 }
-;
 SVGPreserveAspectRatio
 (
 )
@@ -230,7 +229,6 @@ false
 )
 {
 }
-;
 bool
 operator
 =
@@ -284,7 +282,6 @@ return
 NS_OK
 ;
 }
-;
 PRUint16
 GetAlign
 (
@@ -295,7 +292,6 @@ return
 mAlign
 ;
 }
-;
 nsresult
 SetMeetOrSlice
 (
@@ -337,7 +333,6 @@ return
 NS_OK
 ;
 }
-;
 PRUint16
 GetMeetOrSlice
 (
@@ -348,7 +343,6 @@ return
 mMeetOrSlice
 ;
 }
-;
 void
 SetDefer
 (
@@ -361,7 +355,6 @@ mDefer
 aDefer
 ;
 }
-;
 bool
 GetDefer
 (
@@ -372,7 +365,6 @@ return
 mDefer
 ;
 }
-;
 private
 :
 PRUint8

@@ -6391,6 +6391,7 @@ worker
 implemenatation
 class
 nsUrlClassifierDBServiceWorker
+MOZ_FINAL
 :
 public
 nsIUrlClassifierDBServiceWorker

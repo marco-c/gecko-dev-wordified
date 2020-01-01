@@ -112,7 +112,7 @@ MPL
 #
 include
 "
-CrossOriginWrapper
+WaiveXrayWrapper
 .
 h
 "
@@ -291,7 +291,7 @@ ray
 wrapper
 .
 DirectWrapper
-WaiveXrayWrapperWrapper
+XrayWaiver
 (
 WrapperFactory
 :
@@ -344,8 +344,8 @@ get
 off
 it
 .
-CrossOriginWrapper
-CrossOriginWrapper
+WaiveXrayWrapper
+WaiveXrayWrapper
 :
 :
 singleton
@@ -647,7 +647,7 @@ cx
 obj
 )
 &
-WaiveXrayWrapperWrapper
+XrayWaiver
 )
 ;
 if
@@ -2285,7 +2285,7 @@ obj
 =
 =
 &
-WaiveXrayWrapperWrapper
+XrayWaiver
 |
 |
 js
@@ -2506,7 +2506,7 @@ waiver
 wrapper
 =
 &
-CrossOriginWrapper
+WaiveXrayWrapper
 :
 :
 singleton

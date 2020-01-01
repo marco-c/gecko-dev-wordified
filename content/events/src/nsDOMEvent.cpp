@@ -2826,7 +2826,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsDOMEvent
 :
 :
@@ -2861,9 +2861,6 @@ mEvent
 message
 )
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -2961,13 +2958,9 @@ false
 ;
 }
 }
-NS_ENSURE_SUCCESS
-(
 SetEventType
 (
 aEventTypeArg
-)
-NS_ERROR_FAILURE
 )
 ;
 if

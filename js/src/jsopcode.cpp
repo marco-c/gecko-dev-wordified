@@ -6432,7 +6432,7 @@ interpreted
 function
 *
 /
-BindingNames
+BindingVector
 *
 localNames
 ;
@@ -6506,7 +6506,7 @@ JSPrinter
 jp
 )
 {
-BindingNames
+BindingVector
 *
 localNames
 =
@@ -6533,7 +6533,7 @@ cx
 >
 new_
 <
-BindingNames
+BindingVector
 >
 (
 cx
@@ -6546,14 +6546,13 @@ localNames
 |
 |
 !
+GetOrderedBindings
+(
+cx
 script
 -
 >
 bindings
-.
-getLocalNameArray
-(
-cx
 localNames
 )
 )
@@ -11123,7 +11122,7 @@ localNames
 slot
 ]
 .
-maybeAtom
+maybeName
 ;
 #
 if
@@ -31277,7 +31276,7 @@ sn
 SRC_GENEXP
 )
 {
-BindingNames
+BindingVector
 *
 outerLocalNames
 ;
@@ -36484,7 +36483,7 @@ jp
 >
 script
 ;
-BindingNames
+BindingVector
 *
 oldLocalNames
 =

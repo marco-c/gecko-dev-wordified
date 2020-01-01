@@ -611,7 +611,7 @@ js
 :
 :
 DirectWrapper
-WaiveXrayWrapperWrapper
+XrayWaiver
 ;
 }
 #

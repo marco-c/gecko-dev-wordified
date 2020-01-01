@@ -774,6 +774,15 @@ CreateShadowCanvasLayer
 )
 ;
 virtual
+already_AddRefed
+<
+ShadowRefLayer
+>
+CreateShadowRefLayer
+(
+)
+;
+virtual
 LayersBackend
 GetBackendType
 (

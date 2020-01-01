@@ -891,6 +891,9 @@ ScheduleRestart
 void
 SetLayerClient
 (
+JNIEnv
+*
+env
 jobject
 jobj
 )
@@ -1317,6 +1320,15 @@ thread
 void
 RegisterCompositor
 (
+JNIEnv
+*
+env
+=
+NULL
+bool
+resetting
+=
+false
 )
 ;
 EGLSurface

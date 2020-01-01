@@ -538,7 +538,7 @@ protected
 Internal
 helper
 functions
-nsresult
+void
 SetEventType
 (
 const

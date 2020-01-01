@@ -1088,6 +1088,10 @@ nsDependentString
 (
 aPropName
 )
+nsCSSProps
+:
+:
+eAny
 )
 ;
 mProperties
