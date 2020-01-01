@@ -2147,7 +2147,7 @@ normal
 {
 AUDIO_CHANNEL_CONTENT
 "
-normal
+content
 "
 }
 {
