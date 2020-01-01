@@ -478,6 +478,13 @@ MIR
 .
 #
 include
+<
+stdarg
+.
+h
+>
+#
+include
 "
 jscntxt
 .
