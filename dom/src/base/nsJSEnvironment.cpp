@@ -19330,10 +19330,16 @@ mContext
 )
 ;
 }
+if
+(
+aTerminated
+)
+{
 mOperationCallbackTime
 =
 LL_ZERO
 ;
+}
 }
 nsresult
 nsJSContext
