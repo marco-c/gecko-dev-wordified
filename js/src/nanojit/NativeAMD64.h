@@ -2675,7 +2675,7 @@ r
 )
 ;
 \
-asm_output1
+asm_output
 (
 "
 not
@@ -2781,7 +2781,7 @@ s
 \
 }
 \
-asm_output2
+asm_output
 (
 "
 movzx
@@ -2828,7 +2828,7 @@ q
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 add
@@ -2875,7 +2875,7 @@ i
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 add
@@ -2921,7 +2921,7 @@ i
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 cmp
@@ -3015,7 +3015,7 @@ s
 \
 }
 \
-asm_output2
+asm_output
 (
 "
 test
@@ -3095,7 +3095,7 @@ s
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 test
@@ -3192,7 +3192,7 @@ r
 \
 }
 \
-asm_output2
+asm_output
 (
 "
 cmp
@@ -3272,7 +3272,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 cmp
@@ -3316,7 +3316,7 @@ i
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 add
@@ -3357,7 +3357,7 @@ i
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 add
@@ -3517,7 +3517,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 shr
@@ -3560,7 +3560,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 and
@@ -3603,7 +3603,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 and
@@ -3646,7 +3646,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 xor
@@ -3689,7 +3689,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 or
@@ -3732,7 +3732,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 or
@@ -3878,7 +3878,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 shr
@@ -3919,7 +3919,7 @@ i
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 and
@@ -3960,7 +3960,7 @@ i
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 and
@@ -4001,7 +4001,7 @@ i
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 or
@@ -4042,7 +4042,7 @@ i
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 xor
@@ -4083,7 +4083,7 @@ i
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 or
@@ -4184,7 +4184,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 mul
@@ -4226,7 +4226,7 @@ r
 )
 ;
 \
-asm_output1
+asm_output
 (
 "
 neg
@@ -4263,7 +4263,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 add
@@ -4306,7 +4306,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 add
@@ -4349,7 +4349,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 sub
@@ -4392,7 +4392,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 sar
@@ -4538,7 +4538,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 sar
@@ -4681,7 +4681,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 shl
@@ -4816,7 +4816,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 shl
@@ -4856,7 +4856,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 shl
@@ -4901,7 +4901,7 @@ q
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 sub
@@ -5004,7 +5004,7 @@ s
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 mov
@@ -5096,7 +5096,7 @@ b
 \
 }
 \
-asm_output3
+asm_output
 (
 "
 lea
@@ -5176,7 +5176,7 @@ b
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 lea
@@ -5300,7 +5300,7 @@ r
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 sete
@@ -5334,7 +5334,7 @@ r
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 setnp
@@ -5368,7 +5368,7 @@ r
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 setl
@@ -5402,7 +5402,7 @@ r
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 setle
@@ -5436,7 +5436,7 @@ r
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 setg
@@ -5470,7 +5470,7 @@ r
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 setge
@@ -5504,7 +5504,7 @@ r
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 setb
@@ -5538,7 +5538,7 @@ r
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 setbe
@@ -5572,7 +5572,7 @@ r
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 seta
@@ -5606,7 +5606,7 @@ r
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 setae
@@ -5640,7 +5640,7 @@ r
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 setc
@@ -5674,7 +5674,7 @@ r
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 seto
@@ -5861,7 +5861,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmove
@@ -5901,7 +5901,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovne
@@ -5941,7 +5941,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovl
@@ -5981,7 +5981,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovle
@@ -6021,7 +6021,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovg
@@ -6061,7 +6061,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovge
@@ -6101,7 +6101,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovb
@@ -6141,7 +6141,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovbe
@@ -6181,7 +6181,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmova
@@ -6221,7 +6221,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovae
@@ -6261,7 +6261,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovnc
@@ -6301,7 +6301,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovno
@@ -6341,7 +6341,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmove
@@ -6381,7 +6381,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovne
@@ -6421,7 +6421,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovl
@@ -6461,7 +6461,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovle
@@ -6501,7 +6501,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovg
@@ -6541,7 +6541,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovge
@@ -6581,7 +6581,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovb
@@ -6621,7 +6621,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovbe
@@ -6661,7 +6661,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmova
@@ -6701,7 +6701,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovae
@@ -6741,7 +6741,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovnc
@@ -6781,7 +6781,7 @@ dr
 sr
 )
 ;
-asm_output2
+asm_output
 (
 "
 cmovno
@@ -6890,7 +6890,7 @@ base
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 mov
@@ -6941,7 +6941,7 @@ base
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 mov
@@ -7106,7 +7106,7 @@ b
 \
 }
 \
-asm_output3
+asm_output
 (
 "
 movzx
@@ -7218,7 +7218,7 @@ b
 \
 }
 \
-asm_output3
+asm_output
 (
 "
 movsx
@@ -7309,7 +7309,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 mov
@@ -7381,7 +7381,7 @@ r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 mov
@@ -7492,7 +7492,7 @@ reg
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 mov
@@ -7544,7 +7544,7 @@ reg
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 mov
@@ -7639,7 +7639,7 @@ base
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 mov
@@ -7790,7 +7790,7 @@ i
 )
 ;
 \
-asm_output1
+asm_output
 (
 "
 push
@@ -7847,7 +7847,7 @@ _nIns
 0x68
 ;
 \
-asm_output1
+asm_output
 (
 "
 push
@@ -7939,7 +7939,7 @@ r
 )
 ;
 \
-asm_output1
+asm_output
 (
 "
 push
@@ -8018,7 +8018,7 @@ b
 \
 }
 \
-asm_output2
+asm_output
 (
 "
 push
@@ -8098,7 +8098,7 @@ r
 )
 ;
 \
-asm_output1
+asm_output
 (
 "
 pop
@@ -8208,7 +8208,7 @@ tt
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 %
@@ -8294,7 +8294,7 @@ o
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 %
@@ -8588,7 +8588,7 @@ o
 \
 }
 \
-asm_output3
+asm_output
 (
 "
 %
@@ -8782,7 +8782,7 @@ tt
 )
 ;
 \
-asm_output1
+asm_output
 (
 "
 jmp
@@ -9013,7 +9013,7 @@ _nIns
 JMPc
 ;
 \
-asm_output1
+asm_output
 (
 "
 jmp
@@ -9564,7 +9564,7 @@ b
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 movd
@@ -9630,7 +9630,7 @@ r
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 movd
@@ -9701,7 +9701,7 @@ gr
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 cvtsi2sd
@@ -9841,7 +9841,7 @@ s
 \
 }
 \
-asm_output2
+asm_output
 (
 "
 movd
@@ -9905,7 +9905,7 @@ rs
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 movsd
@@ -9958,7 +9958,7 @@ b
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 movd
@@ -10027,7 +10027,7 @@ rs
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 addsd
@@ -10128,7 +10128,7 @@ r
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 addsd
@@ -10200,7 +10200,7 @@ rs
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 subsd
@@ -10264,7 +10264,7 @@ rs
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 mulsd
@@ -10328,7 +10328,7 @@ rs
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 divsd
@@ -10386,7 +10386,7 @@ rr
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 ucomisd
@@ -10725,7 +10725,7 @@ rr
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 xorpd
@@ -10792,7 +10792,7 @@ rs
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 xorpd
@@ -10855,7 +10855,7 @@ _nIns
 0xA8
 ;
 \
-asm_output1
+asm_output
 (
 "
 test
@@ -11014,7 +11014,7 @@ _address
 \
 verbose_only
 (
-asm_output1
+asm_output
 (
 "
 call

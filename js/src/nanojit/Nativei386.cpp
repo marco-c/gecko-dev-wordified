@@ -1239,7 +1239,7 @@ n
 n
 )
 ;
-asm_output1
+asm_output
 (
 "
 nop

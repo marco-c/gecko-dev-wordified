@@ -1864,7 +1864,7 @@ _l
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 or
@@ -1968,7 +1968,7 @@ _imm
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 or
@@ -2051,7 +2051,7 @@ _l
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 and
@@ -2152,7 +2152,7 @@ _imm
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 and
@@ -2234,7 +2234,7 @@ Scratch
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 and
@@ -2297,7 +2297,7 @@ _imm
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 mvn
@@ -2396,7 +2396,7 @@ _l
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 eor
@@ -2504,7 +2504,7 @@ _imm
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 eor
@@ -2597,7 +2597,7 @@ _m
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 add
@@ -2765,7 +2765,7 @@ _r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 sub
@@ -3353,7 +3353,7 @@ _imm
 \
 }
 \
-asm_output2
+asm_output
 (
 "
 sub
@@ -3435,7 +3435,7 @@ _r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 mul
@@ -3523,7 +3523,7 @@ _r
 )
 ;
 \
-asm_output1
+asm_output
 (
 "
 neg
@@ -3600,7 +3600,7 @@ _r
 )
 ;
 \
-asm_output1
+asm_output
 (
 "
 mvn
@@ -3702,7 +3702,7 @@ _r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 shr
@@ -3809,7 +3809,7 @@ _r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 shr
@@ -3914,7 +3914,7 @@ _r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 asr
@@ -4021,7 +4021,7 @@ _r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 asr
@@ -4126,7 +4126,7 @@ _r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 lsl
@@ -4233,7 +4233,7 @@ _r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 lsl
@@ -4310,7 +4310,7 @@ _s
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 test
@@ -4415,7 +4415,7 @@ _imm
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 tst
@@ -4494,7 +4494,7 @@ _r
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 cmp
@@ -4775,7 +4775,7 @@ _imm
 \
 }
 \
-asm_output2
+asm_output
 (
 "
 cmp
@@ -4854,7 +4854,7 @@ _s
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 mov
@@ -4938,7 +4938,7 @@ _s
 )
 ;
 \
-asm_output2
+asm_output
 (
 _nm
 "
@@ -5432,7 +5432,7 @@ _off
 \
 }
 \
-asm_output3
+asm_output
 (
 "
 ldr
@@ -5678,7 +5678,7 @@ _imm
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 ld
@@ -5719,7 +5719,7 @@ _imm
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 ld
@@ -5900,7 +5900,7 @@ _off
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 ldrb
@@ -6043,7 +6043,7 @@ _off
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 ldrsh
@@ -6216,7 +6216,7 @@ _off
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 str
@@ -6402,7 +6402,7 @@ _off
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 str
@@ -6588,7 +6588,7 @@ _off
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 str
@@ -6841,7 +6841,7 @@ _d
 \
 }
 \
-asm_output2
+asm_output
 (
 "
 lea
@@ -7142,7 +7142,7 @@ _r
 )
 ;
 \
-asm_output1
+asm_output
 (
 "
 push
@@ -7211,7 +7211,7 @@ _mask
 )
 ;
 \
-asm_output1
+asm_output
 (
 "
 push
@@ -7367,7 +7367,7 @@ _off
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 push
@@ -7445,7 +7445,7 @@ _r
 )
 ;
 \
-asm_output1
+asm_output
 (
 "
 pop
@@ -7511,7 +7511,7 @@ _mask
 )
 ;
 \
-asm_output1
+asm_output
 (
 "
 pop
@@ -7683,7 +7683,7 @@ HI
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 ja
@@ -7717,7 +7717,7 @@ LS
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jna
@@ -7751,7 +7751,7 @@ CC
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jb
@@ -7785,7 +7785,7 @@ CS
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jnb
@@ -7819,7 +7819,7 @@ EQ
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 je
@@ -7853,7 +7853,7 @@ NE
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jne
@@ -7887,7 +7887,7 @@ LS
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jbe
@@ -7921,7 +7921,7 @@ HI
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jnbe
@@ -7955,7 +7955,7 @@ CS
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jae
@@ -7989,7 +7989,7 @@ CC
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jnae
@@ -8023,7 +8023,7 @@ LT
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jl
@@ -8057,7 +8057,7 @@ GE
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jnl
@@ -8091,7 +8091,7 @@ LE
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jle
@@ -8125,7 +8125,7 @@ GT
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jnle
@@ -8159,7 +8159,7 @@ GE
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jge
@@ -8193,7 +8193,7 @@ LT
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jnge
@@ -8227,7 +8227,7 @@ GT
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jg
@@ -8261,7 +8261,7 @@ LE
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jng
@@ -8295,7 +8295,7 @@ CS
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 bcs
@@ -8329,7 +8329,7 @@ CC
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 bcc
@@ -8363,7 +8363,7 @@ VS
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 bvs
@@ -8397,7 +8397,7 @@ VC
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 bvc
@@ -8460,7 +8460,7 @@ NE
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jp
@@ -8501,7 +8501,7 @@ EQ
 t
 )
 ;
-asm_output1
+asm_output
 (
 "
 jnp
@@ -8652,7 +8652,7 @@ EQ
 NE
 )
 ;
-asm_output1
+asm_output
 (
 "
 sete
@@ -8685,7 +8685,7 @@ LT
 GE
 )
 ;
-asm_output1
+asm_output
 (
 "
 setl
@@ -8718,7 +8718,7 @@ LE
 GT
 )
 ;
-asm_output1
+asm_output
 (
 "
 setle
@@ -8751,7 +8751,7 @@ GT
 LE
 )
 ;
-asm_output1
+asm_output
 (
 "
 setg
@@ -8784,7 +8784,7 @@ GE
 LT
 )
 ;
-asm_output1
+asm_output
 (
 "
 setge
@@ -8817,7 +8817,7 @@ CC
 CS
 )
 ;
-asm_output1
+asm_output
 (
 "
 setb
@@ -8850,7 +8850,7 @@ LS
 HI
 )
 ;
-asm_output1
+asm_output
 (
 "
 setb
@@ -8883,7 +8883,7 @@ CS
 CC
 )
 ;
-asm_output1
+asm_output
 (
 "
 setae
@@ -8916,7 +8916,7 @@ HI
 LS
 )
 ;
-asm_output1
+asm_output
 (
 "
 seta
@@ -8949,7 +8949,7 @@ VS
 LS
 )
 ;
-asm_output1
+asm_output
 (
 "
 seto
@@ -8982,7 +8982,7 @@ CS
 LS
 )
 ;
-asm_output1
+asm_output
 (
 "
 setc
@@ -9387,7 +9387,7 @@ _d
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 ldrsh
@@ -9545,7 +9545,7 @@ _off
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 mov
@@ -9666,7 +9666,7 @@ _off
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 ldrsh
@@ -9944,7 +9944,7 @@ _mask
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 stmia
@@ -10047,7 +10047,7 @@ _mask
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 ldmia
@@ -10128,7 +10128,7 @@ _d
 )
 ;
 \
-asm_output1
+asm_output
 (
 "
 msr
@@ -10245,7 +10245,7 @@ _Dm
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 fmdrr
@@ -10368,7 +10368,7 @@ _Dm
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 fmrrd
@@ -10564,7 +10564,7 @@ offs
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 fstd
@@ -10764,7 +10764,7 @@ offs
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 fldd
@@ -10894,7 +10894,7 @@ _Dd
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 fsitod
@@ -11004,7 +11004,7 @@ _Dd
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 fuitod
@@ -11123,7 +11123,7 @@ _Rd
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 fmsr
@@ -11225,7 +11225,7 @@ _Dm
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 fnegd
@@ -11344,7 +11344,7 @@ _Dm
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 faddd
@@ -11469,7 +11469,7 @@ _Dm
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 fsubd
@@ -11594,7 +11594,7 @@ _Dm
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 fmuld
@@ -11719,7 +11719,7 @@ _Dm
 )
 ;
 \
-asm_output3
+asm_output
 (
 "
 fmuld
@@ -11871,7 +11871,7 @@ _Dm
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 fcmpd
@@ -11973,7 +11973,7 @@ _Dm
 )
 ;
 \
-asm_output2
+asm_output
 (
 "
 fcpyd
