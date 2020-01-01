@@ -734,7 +734,7 @@ DOMSVGLengthList
 DOMSVGLength
 *
 *
-Rational
+Rationale
 :
 *
 *
@@ -764,7 +764,7 @@ an
 explanation
 of
 the
-rational
+rationale
 *
 behind
 our
