@@ -527,10 +527,6 @@ SVGZoomEvent
 Canvas
 DOMCI_CLASS
 (
-HTMLCanvasElement
-)
-DOMCI_CLASS
-(
 CanvasGradient
 )
 DOMCI_CLASS

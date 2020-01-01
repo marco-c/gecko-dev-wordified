@@ -7238,6 +7238,7 @@ HTMLCanvasElement
 *
 canvas
 =
+&
 element
 .
 GetAsHTMLCanvasElement
@@ -15931,6 +15932,7 @@ HTMLCanvasElement
 *
 canvas
 =
+&
 image
 .
 GetAsHTMLCanvasElement
