@@ -2386,6 +2386,10 @@ nsnull
 if
 (
 aFileExtension
+&
+&
+*
+aFileExtension
 )
 {
 nsCAutoString
