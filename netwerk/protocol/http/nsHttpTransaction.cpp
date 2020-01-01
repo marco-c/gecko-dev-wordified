@@ -1464,6 +1464,7 @@ gHttpHandler
 >
 GetMaxPipelineObjectSize
 (
+&
 mMaxPipelineObjectSize
 )
 ;
@@ -9185,11 +9186,21 @@ mChunkedDecoder
 &
 &
 (
+(
 mContentRead
++
+mChunkedDecoder
+-
+>
+GetChunkRemaining
+(
+)
+)
 >
 mMaxPipelineObjectSize
 )
 )
+{
 CancelPipeline
 (
 nsHttpConnectionMgr
@@ -9198,6 +9209,7 @@ nsHttpConnectionMgr
 BadUnexpectedLarge
 )
 ;
+}
 /
 /
 check
@@ -9927,7 +9939,7 @@ mConnection
 >
 CancelPipeline
 (
-NS_ERROR_CORRUPTED_CONTENT
+NS_ERROR_ABORT
 )
 ;
 /
