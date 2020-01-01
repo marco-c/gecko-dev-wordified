@@ -7579,6 +7579,7 @@ reset
 ]
 coord
 percent
+calc
 enum
 (
 see
@@ -7784,6 +7785,7 @@ inherited
 ]
 coord
 percent
+calc
 nscoord
 mWordSpacing
 ;

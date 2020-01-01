@@ -33427,6 +33427,8 @@ ParseVariant
 (
 aValue
 VARIANT_HLP
+|
+VARIANT_CALC
 nsnull
 )
 ;
@@ -33522,6 +33524,8 @@ ParseVariant
 (
 aValue
 VARIANT_HKLP
+|
+VARIANT_CALC
 nsCSSProps
 :
 :
