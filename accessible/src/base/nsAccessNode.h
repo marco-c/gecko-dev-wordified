@@ -490,6 +490,13 @@ h
 #
 include
 "
+nsAccessibilityUtils
+.
+h
+"
+#
+include
+"
 nsIAccessibleTypes
 .
 h
