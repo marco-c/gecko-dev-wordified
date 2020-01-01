@@ -1165,7 +1165,7 @@ sniffing
 services
 "
 )
-mWindowId
+mInnerWindowId
 (
 0
 )
@@ -6523,9 +6523,9 @@ forget
 mImage
 -
 >
-SetWindowID
+SetInnerWindowID
 (
-mWindowId
+mInnerWindowId
 )
 ;
 imageType

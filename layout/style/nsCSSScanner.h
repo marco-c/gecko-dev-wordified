@@ -1738,7 +1738,7 @@ mErrorBuf
 ]
 ;
 PRUint64
-mWindowID
+mInnerWindowID
 ;
 PRBool
 mWindowIDCached

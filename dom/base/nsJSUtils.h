@@ -585,7 +585,7 @@ aContext
 *
 Retrieve
 the
-outer
+inner
 window
 ID
 based
@@ -609,7 +609,7 @@ want
 to
 find
 the
-outer
+inner
 window
 ID
 .
@@ -618,7 +618,7 @@ ID
 returns
 PRUint64
 the
-outer
+inner
 window
 ID
 .
@@ -626,7 +626,7 @@ ID
 /
 static
 PRUint64
-GetCurrentlyRunningCodeWindowID
+GetCurrentlyRunningCodeInnerWindowID
 (
 JSContext
 *

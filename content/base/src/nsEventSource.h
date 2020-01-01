@@ -1282,11 +1282,10 @@ constructed
 /
 -
 the
-window
 ID
 of
 the
-outer
+inner
 window
 where
 the
@@ -1296,10 +1295,10 @@ lives
 Note
 that
 this
-/
-/
 may
 not
+/
+/
 be
 the
 same
@@ -1327,7 +1326,7 @@ PRUint32
 mScriptLine
 ;
 PRUint64
-mWindowID
+mInnerWindowID
 ;
 private
 :

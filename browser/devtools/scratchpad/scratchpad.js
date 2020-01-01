@@ -1912,7 +1912,7 @@ javascript
 "
 this
 .
-getWindowId
+getInnerWindowId
 (
 contentWindow
 )
@@ -4052,7 +4052,7 @@ the
 ID
 of
 the
-outer
+inner
 window
 of
 the
@@ -4071,15 +4071,15 @@ return
 integer
 *
 the
-outer
+inner
 window
 ID
 *
 /
-getWindowId
+getInnerWindowId
 :
 function
-SP_getWindowId
+SP_getInnerWindowId
 (
 aWindow
 )
@@ -4101,7 +4101,7 @@ Ci
 nsIDOMWindowUtils
 )
 .
-outerWindowID
+currentInnerWindowID
 ;
 }
 /

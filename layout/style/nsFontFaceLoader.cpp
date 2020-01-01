@@ -5201,7 +5201,7 @@ rv
 )
 ;
 PRUint64
-windowID
+innerWindowID
 =
 GetPresContext
 (
@@ -5213,7 +5213,7 @@ Document
 )
 -
 >
-OuterWindowID
+InnerWindowID
 (
 )
 ;
@@ -5273,7 +5273,7 @@ make
 separate
 ?
 )
-windowID
+innerWindowID
 )
 ;
 if

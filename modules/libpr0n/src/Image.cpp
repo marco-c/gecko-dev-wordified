@@ -448,7 +448,7 @@ imgStatusTracker
 aStatusTracker
 )
 :
-mWindowId
+mInnerWindowId
 (
 0
 )

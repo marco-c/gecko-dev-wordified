@@ -1160,7 +1160,7 @@ error
 reporting
 .
 PRUint64
-mWindowID
+mInnerWindowID
 ;
 }
 ;

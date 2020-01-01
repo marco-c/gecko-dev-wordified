@@ -739,7 +739,7 @@ mScriptLine
 (
 0
 )
-mWindowID
+mInnerWindowID
 (
 0
 )
@@ -1703,12 +1703,12 @@ filename
 )
 ;
 }
-mWindowID
+mInnerWindowID
 =
 nsJSUtils
 :
 :
-GetCurrentlyRunningCodeWindowID
+GetCurrentlyRunningCodeInnerWindowID
 (
 cx
 )
@@ -6457,7 +6457,7 @@ errorFlag
 Event
 Source
 "
-mWindowID
+mInnerWindowID
 )
 ;
 /

@@ -1156,7 +1156,7 @@ PRUint64
 nsJSUtils
 :
 :
-GetCurrentlyRunningCodeWindowID
+GetCurrentlyRunningCodeInnerWindowID
 (
 JSContext
 *
@@ -1172,7 +1172,7 @@ return
 0
 ;
 PRUint64
-windowID
+innerWindowID
 =
 0
 ;
@@ -1220,14 +1220,9 @@ if
 (
 win
 )
-windowID
+innerWindowID
 =
 win
--
->
-GetOuterWindow
-(
-)
 -
 >
 WindowID
@@ -1237,6 +1232,6 @@ WindowID
 }
 }
 return
-windowID
+innerWindowID
 ;
 }

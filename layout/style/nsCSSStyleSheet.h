@@ -1110,12 +1110,11 @@ ID
 of
 the
 owner
-outer
+inner
 window
 .
-virtual
 PRUint64
-FindOwningWindowID
+FindOwningWindowInnerID
 (
 )
 const

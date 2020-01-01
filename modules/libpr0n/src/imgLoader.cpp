@@ -10185,7 +10185,9 @@ corsmode
 /
 Pass
 the
-windowID
+inner
+window
+ID
 of
 the
 loading
@@ -10212,12 +10214,12 @@ doc
 request
 -
 >
-SetWindowID
+SetInnerWindowID
 (
 doc
 -
 >
-OuterWindowID
+InnerWindowID
 (
 )
 )

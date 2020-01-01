@@ -7211,16 +7211,11 @@ aDocument
 }
 }
 }
-/
-*
-virtual
-*
-/
 PRUint64
 nsCSSStyleSheet
 :
 :
-FindOwningWindowID
+FindOwningWindowInnerID
 (
 )
 const
@@ -7240,7 +7235,7 @@ windowID
 mDocument
 -
 >
-OuterWindowID
+InnerWindowID
 (
 )
 ;
@@ -7293,7 +7288,7 @@ windowID
 doc
 -
 >
-OuterWindowID
+InnerWindowID
 (
 )
 ;
@@ -7360,7 +7355,7 @@ windowID
 cssSheet
 -
 >
-FindOwningWindowID
+FindOwningWindowInnerID
 (
 )
 ;
@@ -7383,7 +7378,7 @@ windowID
 mParent
 -
 >
-FindOwningWindowID
+FindOwningWindowInnerID
 (
 )
 ;

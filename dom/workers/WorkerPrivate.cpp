@@ -4397,7 +4397,7 @@ AssertInnerWindowIsCorrect
 ;
 }
 PRUint64
-windowId
+innerWindowId
 ;
 WorkerPrivate
 *
@@ -4415,7 +4415,7 @@ if
 parent
 )
 {
-windowId
+innerWindowId
 =
 0
 ;
@@ -4448,12 +4448,12 @@ return
 true
 ;
 }
-windowId
+innerWindowId
 =
 aWorkerPrivate
 -
 >
-GetOuterWindowId
+GetInnerWindowId
 (
 )
 ;
@@ -4475,7 +4475,7 @@ mLineNumber
 mColumnNumber
 mFlags
 mErrorNumber
-windowId
+innerWindowId
 )
 ;
 }
@@ -4515,7 +4515,7 @@ aFlags
 PRUint32
 aErrorNumber
 PRUint64
-aWindowId
+aInnerWindowId
 )
 {
 if
@@ -5075,7 +5075,7 @@ aFlags
 Web
 Worker
 "
-aWindowId
+aInnerWindowId
 )
 )
 )
@@ -8774,7 +8774,7 @@ Derived
 >
 :
 :
-GetOuterWindowId
+GetInnerWindowId
 (
 )
 {
@@ -8786,7 +8786,7 @@ return
 mDocument
 -
 >
-OuterWindowID
+InnerWindowID
 (
 )
 ;
