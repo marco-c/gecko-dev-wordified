@@ -1821,12 +1821,6 @@ ImageContainer
 (
 nsnull
 )
-mMonitor
-(
-"
-BasicImageContainer
-"
-)
 mScaleHint
 (
 -
@@ -1946,9 +1940,6 @@ LAYERS_BASIC
 }
 protected
 :
-Monitor
-mMonitor
-;
 nsRefPtr
 <
 Image
