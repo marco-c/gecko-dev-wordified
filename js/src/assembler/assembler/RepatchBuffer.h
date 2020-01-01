@@ -660,6 +660,7 @@ repatch
 (
 CodeLocationDataLabelPtr
 dataLabelPtr
+const
 void
 *
 value
@@ -671,6 +672,10 @@ MacroAssembler
 repatchPointer
 (
 dataLabelPtr
+(
+void
+*
+)
 value
 )
 ;
