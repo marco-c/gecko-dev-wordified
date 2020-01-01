@@ -4075,7 +4075,7 @@ ErrorReporter
 ;
 JS_SetOperationCallback
 (
-workerCx
+aRuntime
 OperationCallback
 )
 ;

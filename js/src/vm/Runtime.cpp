@@ -571,6 +571,10 @@ interrupt
 (
 0
 )
+operationCallback
+(
+NULL
+)
 #
 ifdef
 JS_THREADSAFE

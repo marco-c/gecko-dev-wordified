@@ -6494,6 +6494,11 @@ cb
 cx
 -
 >
+runtime
+(
+)
+-
+>
 operationCallback
 ;
 return
@@ -6676,10 +6681,6 @@ MOZ_THIS_IN_INITIALIZER_LIST
 )
 )
 errorReporter
-(
-NULL
-)
-operationCallback
 (
 NULL
 )

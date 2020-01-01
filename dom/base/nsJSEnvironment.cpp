@@ -5204,17 +5204,6 @@ js_options_dot_str
 this
 )
 ;
-:
-:
-JS_SetOperationCallback
-(
-mContext
-xpc
-:
-:
-OperationCallback
-)
-;
 }
 mIsInitialized
 =

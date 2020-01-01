@@ -28524,9 +28524,9 @@ JSOperationCallback
 )
 JS_SetOperationCallback
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 JSOperationCallback
 callback
 )
@@ -28538,9 +28538,9 @@ JSOperationCallback
 )
 JS_GetOperationCallback
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 )
 ;
 extern
