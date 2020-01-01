@@ -866,11 +866,6 @@ nsnull
 ;
 protected
 :
-PRBool
-IsHyperText
-(
-)
-;
 /
 *
 *
