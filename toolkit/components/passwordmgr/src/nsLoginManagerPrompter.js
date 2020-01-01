@@ -2376,6 +2376,13 @@ _getRealmInfo
 aPasswordRealm
 )
 ;
+username
+=
+decodeURIComponent
+(
+username
+)
+;
 /
 /
 If
