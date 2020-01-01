@@ -524,6 +524,12 @@ documentURIObject
 /
 /
 IDX_DOCUMENTURIOBJECT
+"
+mozMatchesSelector
+"
+/
+/
+IDX_MOZMATCHESSELECTOR
 }
 ;
 /
