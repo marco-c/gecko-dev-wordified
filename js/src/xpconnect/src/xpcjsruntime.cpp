@@ -8240,6 +8240,9 @@ break
 ;
 }
 case
+JSTRACE_IONCODE
+:
+case
 JSTRACE_XML
 :
 {
