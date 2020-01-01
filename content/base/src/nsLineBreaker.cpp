@@ -1209,7 +1209,7 @@ isSpace
 aFlags
 &
 (
-start
+offset
 =
 =
 0
@@ -1721,7 +1721,7 @@ isSpace
 aFlags
 &
 (
-start
+offset
 =
 =
 0
