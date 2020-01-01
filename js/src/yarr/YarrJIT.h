@@ -509,6 +509,7 @@ bool
 has8BitCode
 (
 )
+const
 {
 return
 m_ref8
@@ -534,6 +535,7 @@ bool
 has8BitCodeMatchOnly
 (
 )
+const
 {
 return
 m_matchOnly8
@@ -561,6 +563,7 @@ bool
 has16BitCode
 (
 )
+const
 {
 return
 m_ref16
@@ -586,6 +589,7 @@ bool
 has16BitCodeMatchOnly
 (
 )
+const
 {
 return
 m_matchOnly16

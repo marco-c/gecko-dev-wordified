@@ -39,7 +39,7 @@ vim
 set
 ts
 =
-8
+4
 sw
 =
 4
