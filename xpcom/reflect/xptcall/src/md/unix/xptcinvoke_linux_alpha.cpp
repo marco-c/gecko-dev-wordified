@@ -956,7 +956,7 @@ EXPORT_XPCOM_API
 nsresult
 )
 *
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 (
 nsISupports
 *
@@ -979,7 +979,7 @@ __asm__
 #
 #
 #
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 #
 #
 #
@@ -1007,7 +1007,7 @@ t
 "
 .
 globl
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 \
 n
 \
@@ -1016,12 +1016,12 @@ t
 "
 .
 ent
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 \
 n
 "
 "
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 :
 \
 n
@@ -1062,7 +1062,7 @@ ldgp
 n
 "
 "
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 .
 .
 ng
@@ -1906,7 +1906,7 @@ t
 "
 .
 end
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 "
 )
 ;
