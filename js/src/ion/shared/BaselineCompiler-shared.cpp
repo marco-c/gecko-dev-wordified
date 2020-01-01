@@ -182,6 +182,7 @@ cx
 &
 CanIonCompileScript
 (
+cx
 script
 )
 )

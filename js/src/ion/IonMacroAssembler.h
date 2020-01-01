@@ -2913,7 +2913,7 @@ template
 typename
 T
 >
-CodeOffsetLabel
+void
 patchableCallPreBarrier
 (
 const
@@ -2983,6 +2983,11 @@ toggledJump
 done
 )
 ;
+writePrebarrierOffset
+(
+nopJump
+)
+;
 callPreBarrier
 (
 address
@@ -3005,9 +3010,6 @@ bind
 &
 done
 )
-;
-return
-nopJump
 ;
 }
 template

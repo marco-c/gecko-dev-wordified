@@ -1178,8 +1178,10 @@ ctx
 bool
 CanIonCompileScript
 (
-JSScript
+JSContext
 *
+cx
+UnrootedScript
 script
 )
 ;
