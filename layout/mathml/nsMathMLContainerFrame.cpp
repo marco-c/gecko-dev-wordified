@@ -6373,10 +6373,6 @@ aPresContext
 aReflowState
 childFrame
 availSize
-(
-uint32_t
-)
-0
 )
 ;
 nsresult
