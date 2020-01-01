@@ -3485,6 +3485,10 @@ mEnded
 =
 PR_TRUE
 ;
+mPaused
+=
+PR_TRUE
+;
 SetCurrentTime
 (
 0
