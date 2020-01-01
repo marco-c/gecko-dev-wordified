@@ -667,11 +667,11 @@ addMessageListener
 "
 Marionette
 :
-getAttributeValue
+getElementAttribute
 "
 +
 listenerId
-getAttributeValue
+getElementAttribute
 )
 ;
 addMessageListener
@@ -1119,11 +1119,11 @@ removeMessageListener
 "
 Marionette
 :
-getAttributeValue
+getElementAttribute
 "
 +
 listenerId
-getAttributeValue
+getElementAttribute
 )
 ;
 removeMessageListener
@@ -3360,7 +3360,7 @@ element
 *
 /
 function
-getAttributeValue
+getElementAttribute
 (
 msg
 )
@@ -3389,7 +3389,7 @@ value
 :
 utils
 .
-getAttributeValue
+getElementAttribute
 (
 el
 msg

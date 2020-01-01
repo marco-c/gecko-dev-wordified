@@ -43716,9 +43716,9 @@ arguments
 }
 /
 /
-getAttributeValue
+getElementAttribute
 var
-getAttributeValue
+getElementAttribute
 =
 function
 (
