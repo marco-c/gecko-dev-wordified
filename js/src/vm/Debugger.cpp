@@ -14477,9 +14477,6 @@ debuggee
 (
 cx
 &
-GetProxyPrivate
-(
-&
 args
 [
 i
@@ -14488,6 +14485,16 @@ i
 toObject
 (
 )
+.
+as
+<
+ProxyObject
+>
+(
+)
+.
+private_
+(
 )
 .
 toObject
