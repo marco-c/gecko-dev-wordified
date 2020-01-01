@@ -380,7 +380,10 @@ memory
 TEXTURE_YCBCR
 /
 /
-ShmemYCbCrImage
+YCbCr
+in
+a
+shmem
 TEXTURE_SHARED_GL
 /
 /

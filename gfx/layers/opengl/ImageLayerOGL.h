@@ -157,7 +157,7 @@ class
 PlanarYCbCrImage
 ;
 class
-ShmemYCbCrImage
+BlobYCbCrSurface
 ;
 /
 *
