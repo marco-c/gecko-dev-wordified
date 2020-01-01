@@ -2024,8 +2024,6 @@ nsIDOMJSWindow
 public
 nsIScriptObjectPrincipal
 public
-nsIDOMEventTarget
-public
 nsIDOMStorageIndexedDB
 public
 nsSupportsWeakReference
