@@ -543,7 +543,7 @@ non
 guarded
 catch
 statements
-shoud
+should
 generate
 an
 error

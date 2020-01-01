@@ -653,7 +653,7 @@ WM_WINDOWPOSCHANGED
 /
 The
 lParam
-paramter
+parameter
 of
 WM_WINDOWPOSCHANGED
 holds
@@ -710,7 +710,7 @@ WM_PAINT
 /
 The
 lParam
-paramter
+parameter
 of
 WM_PAINT
 holds

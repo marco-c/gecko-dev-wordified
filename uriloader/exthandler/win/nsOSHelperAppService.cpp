@@ -2317,12 +2317,10 @@ handler
 command
 string
 of
-it
-'
-s
+its
 quotes
 and
-paramters
+parameters
 .
 static
 void
