@@ -4952,6 +4952,13 @@ ondialing
 )
 GK_ATOM
 (
+ondisabled
+"
+ondisabled
+"
+)
+GK_ATOM
+(
 ondischargingtimechange
 "
 ondischargingtimechange
