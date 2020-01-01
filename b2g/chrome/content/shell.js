@@ -942,11 +942,13 @@ error
 during
 startup
 :
-[
 No
 homescreen
 found
-]
+:
+try
+setting
+B2G_HOMESCREEN
 '
 ;
 return
