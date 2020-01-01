@@ -2313,6 +2313,16 @@ mIsSideBar
 ;
 }
 public
+Panel
+getCurrentPanel
+(
+)
+{
+return
+mCurrentPanel
+;
+}
+public
 void
 setTabsLayoutChangeListener
 (
