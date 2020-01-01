@@ -3707,6 +3707,13 @@ selectionEnd
 ;
 }
 else
+if
+(
+isContentEditable
+(
+element
+)
+)
 {
 /
 /
