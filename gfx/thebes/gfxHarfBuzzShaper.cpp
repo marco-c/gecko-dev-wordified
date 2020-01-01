@@ -4996,6 +4996,9 @@ get
 proper
 hinted
 metrics
+if
+(
+!
 mFont
 -
 >
@@ -5003,7 +5006,12 @@ SetupCairoFont
 (
 aContext
 )
+)
+{
+return
+false
 ;
+}
 if
 (
 !
