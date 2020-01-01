@@ -1087,6 +1087,14 @@ bool
 aDoInvalidate
 )
 ;
+void
+FlushDirtyRegionToWidget
+(
+nsView
+*
+aView
+)
+;
 /
 *
 *
