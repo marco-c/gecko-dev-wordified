@@ -431,6 +431,9 @@ JSContext
 cx
 JSObject
 *
+existing
+JSObject
+*
 obj
 JSObject
 *

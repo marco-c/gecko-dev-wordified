@@ -1906,6 +1906,11 @@ js
 Value
 *
 vp
+JSObject
+*
+existing
+=
+NULL
 )
 ;
 bool
@@ -1944,6 +1949,11 @@ JSObject
 *
 *
 objp
+JSObject
+*
+existing
+=
+NULL
 )
 ;
 bool
