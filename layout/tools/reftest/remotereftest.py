@@ -125,7 +125,6 @@ import
 devicemanager
 devicemanagerADB
 devicemanagerSUT
-devicemanager
 from
 remoteautomation
 import
