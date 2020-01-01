@@ -1023,6 +1023,7 @@ CompositorParent
 CompositorLoop
 (
 )
+nullptr
 )
 ;
 sImageBridgeChildSingleton
