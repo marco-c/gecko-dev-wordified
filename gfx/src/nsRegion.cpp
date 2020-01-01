@@ -9688,7 +9688,7 @@ const
 PRInt64
 kVeryLargeNegativeNumber
 =
-0xffff000000000000
+0xffff000000000000ll
 ;
 /
 /
@@ -10480,6 +10480,13 @@ bottom
 ;
 }
 bestRectIndices
+=
+{
+0
+0
+0
+0
+}
 ;
 for
 (
