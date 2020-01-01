@@ -31990,7 +31990,7 @@ widget
 ;
 if
 (
-widget
+previous_toplevel
 -
 >
 window
@@ -32000,7 +32000,7 @@ old_window_state
 =
 gdk_window_get_state
 (
-widget
+previous_toplevel
 -
 >
 window
@@ -32035,7 +32035,7 @@ widget
 ;
 if
 (
-widget
+toplevel
 -
 >
 window
@@ -32047,7 +32047,7 @@ new_window_state
 =
 gdk_window_get_state
 (
-widget
+toplevel
 -
 >
 window
