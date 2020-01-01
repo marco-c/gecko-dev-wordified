@@ -261,6 +261,17 @@ length
 count
 )
 ;
+if
+(
+typeof
+gczeal
+=
+=
+=
+"
+function
+"
+)
 gczeal
 (
 0

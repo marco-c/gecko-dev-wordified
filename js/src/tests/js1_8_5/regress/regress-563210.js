@@ -99,6 +99,17 @@ ex
 Reset
 gczeal
 .
+if
+(
+typeof
+gczeal
+!
+=
+=
+'
+undefined
+'
+)
 gczeal
 (
 0
