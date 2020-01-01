@@ -708,6 +708,8 @@ eDOMEvents_animationend
 eDOMEvents_animationiteration
 eDOMEvents_devicemotion
 eDOMEvents_deviceorientation
+eDOMEvents_deviceproximity
+eDOMEvents_devicelight
 }
 ;
 nsDOMEvent

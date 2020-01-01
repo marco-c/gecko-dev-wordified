@@ -1124,6 +1124,10 @@ aBuilder
 LayerManager
 *
 aManager
+const
+ContainerParameters
+&
+aParameters
 )
 {
 return

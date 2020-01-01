@@ -546,6 +546,13 @@ jstypedarray
 .
 h
 "
+#
+include
+"
+jscompartment
+.
+h
+"
 namespace
 js
 {

@@ -486,14 +486,14 @@ h
 #
 include
 "
-nsRootAccessible
+nsWinUtils
 .
 h
 "
 #
 include
 "
-nsWinUtils
+RootAccessible
 .
 h
 "

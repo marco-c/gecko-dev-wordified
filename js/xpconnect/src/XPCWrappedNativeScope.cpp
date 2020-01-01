@@ -485,18 +485,13 @@ mozilla
 /
 dom
 /
-bindings
-/
-Utils
+BindingUtils
 .
 h
 "
 using
 namespace
 mozilla
-:
-:
-dom
 ;
 /
 *
@@ -1220,7 +1215,7 @@ cur
 >
 mNext
 )
-NS_ASSERTION
+MOZ_ASSERT
 (
 aGlobal
 !
@@ -1228,7 +1223,7 @@ aGlobal
 cur
 -
 >
-GetGlobalJSObject
+GetGlobalJSObjectPreserveColor
 (
 )
 "
@@ -1785,7 +1780,7 @@ JSCLASS_IS_DOMJSCLASS
 )
 &
 &
-bindings
+dom
 :
 :
 DOMJSClass
@@ -1802,7 +1797,7 @@ mDOMObjectIsISupports
 {
 priv
 =
-bindings
+dom
 :
 :
 UnwrapDOMObject
@@ -4718,7 +4713,7 @@ obj
 cur
 -
 >
-GetGlobalJSObject
+GetGlobalJSObjectPreserveColor
 (
 )
 )

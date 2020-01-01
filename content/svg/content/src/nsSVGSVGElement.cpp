@@ -6210,9 +6210,7 @@ viewBox
 ;
 if
 (
-mViewBox
-.
-IsValid
+HasViewBox
 (
 )
 )
@@ -7033,8 +7031,12 @@ svgframe
 svgframe
 -
 >
-NotifyViewportChange
+NotifyViewportOrTransformChanged
 (
+nsISVGChildFrame
+:
+:
+TRANSFORM_CHANGED
 )
 ;
 }
@@ -7157,9 +7159,7 @@ w
 ;
 if
 (
-mViewBox
-.
-IsValid
+HasViewBox
 (
 )
 )
@@ -7900,7 +7900,7 @@ const
 NS_ABORT_IF_FALSE
 (
 !
-HasValidViewbox
+HasViewBox
 (
 )
 "
@@ -8048,7 +8048,7 @@ endif
 if
 (
 !
-HasValidViewbox
+HasViewBox
 (
 )
 &
@@ -8124,9 +8124,7 @@ true
 if
 (
 !
-mViewBox
-.
-IsValid
+HasViewBox
 (
 )
 )
@@ -8301,7 +8299,7 @@ false
 if
 (
 !
-HasValidViewbox
+HasViewBox
 (
 )
 &

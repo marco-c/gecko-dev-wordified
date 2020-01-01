@@ -1787,18 +1787,6 @@ isTypedArray
 )
 )
 {
-JSObject
-*
-tarray
-=
-TypedArray
-:
-:
-getTypedArray
-(
-obj
-)
-;
 *
 vp
 =
@@ -1809,7 +1797,7 @@ TypedArray
 :
 getLength
 (
-tarray
+obj
 )
 )
 ;

@@ -1099,9 +1099,6 @@ DidComputeVisibility
 )
 )
 {
-bool
-forceTransparentSurface
-;
 opaque
 =
 i
@@ -1112,8 +1109,6 @@ GetOpaqueRegion
 aBuilder
 &
 snap
-&
-forceTransparentSurface
 )
 ;
 }

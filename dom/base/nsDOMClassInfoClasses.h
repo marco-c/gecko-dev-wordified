@@ -601,6 +601,14 @@ PopupBlockedEvent
 )
 DOMCI_CLASS
 (
+DeviceLightEvent
+)
+DOMCI_CLASS
+(
+DeviceProximityEvent
+)
+DOMCI_CLASS
+(
 DeviceOrientationEvent
 )
 DOMCI_CLASS
@@ -2219,10 +2227,6 @@ MOZ_B2G_BT
 DOMCI_CLASS
 (
 BluetoothAdapter
-)
-DOMCI_CLASS
-(
-BluetoothDevice
 )
 #
 endif

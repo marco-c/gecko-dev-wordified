@@ -843,6 +843,9 @@ enabled
 )
 ;
 }
+#
+if
+ENABLE_YARR_JIT
 /
 *
 This
@@ -904,6 +907,8 @@ true
 #
 endif
 }
+#
+endif
 inline
 bool
 RegExpToShared

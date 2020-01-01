@@ -766,12 +766,10 @@ gfxImageSurface
 :
 gfxImageFormat
 aFormat
-const
 gfxPattern
 :
 :
 GraphicsFilter
-&
 aFilter
 PRUint32
 aImageFlags

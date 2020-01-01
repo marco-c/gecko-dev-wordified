@@ -6360,13 +6360,7 @@ notifier
 .
 showAlertNotification
 (
-"
-post
--
-update
--
-notification
-"
+null
 title
 text
 true

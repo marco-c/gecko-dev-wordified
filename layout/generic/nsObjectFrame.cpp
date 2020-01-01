@@ -5729,6 +5729,10 @@ aBuilder
 LayerManager
 *
 aManager
+const
+ContainerParameters
+&
+aParameters
 )
 {
 return
@@ -6063,16 +6067,8 @@ aBuilder
 bool
 *
 aSnap
-bool
-*
-aForceTransparentSurface
 )
 {
-*
-aForceTransparentSurface
-=
-false
-;
 *
 aSnap
 =

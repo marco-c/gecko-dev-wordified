@@ -650,9 +650,7 @@ mozilla
 /
 dom
 /
-bindings
-/
-Utils
+BindingUtils
 .
 h
 "
@@ -661,9 +659,6 @@ mozilla
 :
 :
 dom
-:
-:
-bindings
 :
 :
 DestroyProtoOrIfaceCache
@@ -4266,7 +4261,10 @@ GetGlobalJSObject
 )
 {
 return
+xpc_UnmarkGrayObject
+(
 mJSObject
+)
 ;
 }
 void
