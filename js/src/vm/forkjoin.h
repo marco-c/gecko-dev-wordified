@@ -1362,6 +1362,9 @@ friend
 class
 AutoSetForkJoinSlice
 ;
+#
+ifdef
+JS_THREADSAFE
 static
 PRUintn
 ThreadPrivateIndex
@@ -1373,6 +1376,8 @@ by
 Initialize
 (
 )
+#
+endif
 ForkJoinShared
 *
 const
@@ -1590,7 +1595,7 @@ InParallelSection
 {
 #
 ifdef
-JS_THREADSAFE_ION
+JS_THREADSAFE
 return
 ForkJoinSlice
 :
