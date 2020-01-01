@@ -447,12 +447,6 @@ this
 ;
 docShell
 .
-setIsBrowserElement
-(
-)
-;
-docShell
-.
 QueryInterface
 (
 Ci
