@@ -1716,14 +1716,8 @@ aValue
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
-aAttrEnum
->
-=
-0
-&
-&
 aAttrEnum
 <
 ArrayLength
