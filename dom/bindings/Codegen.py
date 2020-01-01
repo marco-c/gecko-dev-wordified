@@ -72626,7 +72626,7 @@ h
 '
 ]
 if
-requiresContentUtils
+mainDictionaries
 else
 [
 ]
