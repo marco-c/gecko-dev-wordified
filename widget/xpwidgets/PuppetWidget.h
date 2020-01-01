@@ -991,6 +991,12 @@ GetDPI
 )
 ;
 virtual
+double
+GetDefaultScaleInternal
+(
+)
+;
+virtual
 bool
 NeedsPaint
 (
@@ -1328,6 +1334,9 @@ this
 widget
 float
 mDPI
+;
+double
+mDefaultScale
 ;
 }
 ;
