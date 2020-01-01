@@ -567,16 +567,6 @@ TCF_FUN_IS_GENERATOR
 0x8
 /
 /
-block
-contains
-a
-function
-statement
-TCF_HAS_FUNCTION_STMT
-=
-0x10
-/
-/
 flag
 lambda
 from
@@ -584,7 +574,7 @@ generator
 expression
 TCF_GENEXP_LAMBDA
 =
-0x20
+0x10
 /
 /
 script
@@ -598,7 +588,7 @@ scope
 chain
 TCF_COMPILE_N_GO
 =
-0x40
+0x20
 /
 /
 API
@@ -613,7 +603,7 @@ global
 script
 TCF_NO_SCRIPT_RVAL
 =
-0x80
+0x40
 /
 /
 Set
@@ -714,7 +704,7 @@ differently
 /
 TCF_DECL_DESTRUCTURING
 =
-0x100
+0x80
 /
 /
 This
@@ -766,7 +756,7 @@ JSREPORT_STRICT_ERROR
 /
 TCF_STRICT_MODE_CODE
 =
-0x200
+0x100
 /
 /
 The
@@ -1014,7 +1004,7 @@ argIsAlised
 .
 TCF_BINDINGS_ACCESSED_DYNAMICALLY
 =
-0x400
+0x200
 /
 /
 Compiling
@@ -1026,7 +1016,7 @@ script
 .
 TCF_COMPILE_FOR_EVAL
 =
-0x800
+0x400
 /
 /
 The
@@ -1055,7 +1045,7 @@ eval
 .
 TCF_FUN_MIGHT_ALIAS_LOCALS
 =
-0x1000
+0x800
 /
 /
 The
@@ -1067,7 +1057,7 @@ JSOP_OBJECT
 .
 TCF_HAS_SINGLETONS
 =
-0x2000
+0x1000
 /
 /
 Some
@@ -1086,7 +1076,7 @@ expression
 .
 TCF_IN_WITH
 =
-0x4000
+0x2000
 /
 /
 This
@@ -1170,7 +1160,7 @@ appears
 /
 TCF_FUN_EXTENSIBLE_SCOPE
 =
-0x8000
+0x4000
 /
 /
 The
@@ -1183,7 +1173,7 @@ Script
 .
 TCF_NEED_SCRIPT_GLOBAL
 =
-0x10000
+0x8000
 /
 /
 Technically
@@ -1448,7 +1438,7 @@ nformal
 /
 TCF_ARGUMENTS_HAS_LOCAL_BINDING
 =
-0x20000
+0x10000
 /
 /
 In
@@ -1576,7 +1566,7 @@ true
 /
 TCF_DEFINITELY_NEEDS_ARGS_OBJ
 =
-0x40000
+0x20000
 }
 JS_ENUM_FOOTER
 (
