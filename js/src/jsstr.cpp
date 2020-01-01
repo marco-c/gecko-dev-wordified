@@ -10941,7 +10941,7 @@ ok
 Subroutine
 used
 by
-str_split
+js_str_split
 to
 find
 the
@@ -10966,8 +10966,8 @@ substring
 given
 by
 sep
-*
 or
+*
 for
 the
 next
@@ -10984,8 +10984,8 @@ matched
 separator
 in
 *
-*
 sep
+*
 and
 the
 possibly
@@ -11176,7 +11176,7 @@ limit
 argument
 (
 see
-str_split
+js_str_split
 )
 .
 *
@@ -11779,9 +11779,8 @@ return
 k
 ;
 }
-static
 JSBool
-str_split
+js_str_split
 (
 JSContext
 *
@@ -14295,7 +14294,7 @@ JS_FN
 "
 split
 "
-str_split
+js_str_split
 2
 GENERIC_PRIMITIVE
 )
