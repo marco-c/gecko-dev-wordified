@@ -51292,6 +51292,11 @@ bool
 aHidden
 )
 {
+WarnOnceAbout
+(
+ePrefixedVisibilityAPI
+)
+;
 return
 GetHidden
 (
@@ -51333,6 +51338,11 @@ nsAString
 aState
 )
 {
+WarnOnceAbout
+(
+ePrefixedVisibilityAPI
+)
+;
 return
 GetVisibilityState
 (
