@@ -448,6 +448,13 @@ h
 #
 include
 "
+xpcpublic
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h
@@ -1293,7 +1300,10 @@ vp
 )
 {
 return
-xpc_qsStringToJsval
+xpc
+:
+:
+StringToJsval
 (
 cx
 result
