@@ -295,9 +295,10 @@ _mcc
 '
 724
 '
-_getCountryName
+getCountryName
 :
 function
+getCountryName
 (
 )
 {
@@ -478,7 +479,7 @@ Parse
 aNumber
 this
 .
-_getCountryName
+getCountryName
 (
 )
 )
