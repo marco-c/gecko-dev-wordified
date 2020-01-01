@@ -42995,6 +42995,10 @@ dummy_timeout
 IsFrozen
 (
 )
+&
+&
+!
+mTimeoutsSuspendDepth
 ;
 timeout
 =
@@ -44503,6 +44507,9 @@ NS_ASSERTION
 IsFrozen
 (
 )
+|
+|
+mTimeoutsSuspendDepth
 "
 How
 '
@@ -44518,6 +44525,10 @@ we
 re
 not
 frozen
+or
+"
+"
+suspended
 ?
 "
 )
