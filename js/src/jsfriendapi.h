@@ -3185,6 +3185,11 @@ D
 (
 FULL_GC_TIMER
 )
+\
+D
+(
+SHUTDOWN_CC
+)
 namespace
 gcreason
 {
