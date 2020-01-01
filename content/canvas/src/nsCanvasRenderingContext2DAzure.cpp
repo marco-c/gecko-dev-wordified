@@ -14564,6 +14564,17 @@ mFont
 languageOverride
 )
 ;
+fontStyle
+-
+>
+mFont
+.
+AddFontFeaturesToStyle
+(
+&
+style
+)
+;
 CurrentState
 (
 )

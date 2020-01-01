@@ -918,6 +918,14 @@ aFont
 languageOverride
 )
 ;
+aFont
+.
+AddFontFeaturesToStyle
+(
+&
+style
+)
+;
 mFontGroup
 =
 gfxPlatform

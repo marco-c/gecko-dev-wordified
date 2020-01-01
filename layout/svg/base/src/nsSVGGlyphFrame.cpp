@@ -10640,6 +10640,14 @@ font
 languageOverride
 )
 ;
+font
+.
+AddFontFeaturesToStyle
+(
+&
+fontStyle
+)
+;
 nsRefPtr
 <
 gfxFontGroup
