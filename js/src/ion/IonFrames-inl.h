@@ -581,6 +581,11 @@ fun
 script
 (
 )
+.
+get
+(
+nogc
+)
 ;
 }
 case

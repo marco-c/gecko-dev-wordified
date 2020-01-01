@@ -398,6 +398,11 @@ fp
 script
 (
 )
+.
+get
+(
+nogc
+)
 ;
 if
 (

@@ -8037,6 +8037,11 @@ fp
 script
 (
 )
+.
+get
+(
+nogc
+)
 ;
 GlobalObject
 *
@@ -23752,6 +23757,11 @@ fp
 >
 script
 (
+)
+.
+get
+(
+nogc
 )
 ;
 jsbytecode

@@ -288,6 +288,11 @@ token
 script
 (
 )
+.
+get
+(
+nogc
+)
 ;
 }
 JS_NOT_REACHED
@@ -6173,6 +6178,11 @@ callee_
 >
 script
 (
+)
+.
+get
+(
+nogc
 )
 ;
 pc_

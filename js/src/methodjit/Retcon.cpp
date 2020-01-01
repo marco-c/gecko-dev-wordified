@@ -2582,6 +2582,11 @@ fp
 script
 (
 )
+.
+get
+(
+nogc
+)
 )
 ;
 /
