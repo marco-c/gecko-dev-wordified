@@ -6901,6 +6901,18 @@ screen
 resolution
   
 #
+rotation
+-
+rotation
+of
+the
+device
+(
+in
+degrees
+)
+  
+#
 memory
 -
 memory
@@ -7027,6 +7039,9 @@ systime
 '
 '
 screen
+'
+'
+rotation
 '
 '
 memory
