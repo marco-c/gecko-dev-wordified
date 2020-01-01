@@ -431,6 +431,7 @@ gfx3DMatrix
 GetTextureTransform
 (
 )
+const
 {
 return
 gfx3DMatrix
@@ -1724,8 +1725,13 @@ gfx3DMatrix
 GetTextureTransform
 (
 )
+const
 MOZ_OVERRIDE
+{
+return
+mTextureTransform
 ;
+}
 #
 ifdef
 MOZ_LAYERS_HAVE_LOG
@@ -1796,6 +1802,9 @@ GLContext
 :
 SharedTextureShareType
 mShareType
+;
+gfx3DMatrix
+mTextureTransform
 ;
 }
 ;
