@@ -26743,7 +26743,7 @@ JSString
 ConcatStringsFn
 )
 (
-ThreadSafeContext
+JSContext
 *
 HandleString
 HandleString
