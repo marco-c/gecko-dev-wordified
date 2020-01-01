@@ -11905,9 +11905,12 @@ aobj
 setDenseArrayElement
 (
 i
+StringTag
+(
 JSID_TO_STRING
 (
 id
+)
 )
 )
 ;
@@ -19148,7 +19151,9 @@ NonFunObjTag
 *
 proto
 )
-NULL
+NullTag
+(
+)
 privateValue
 )
 ;

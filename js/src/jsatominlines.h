@@ -756,7 +756,13 @@ return
 js_ValueToStringId
 (
 cx
+js
+:
+:
+StringTag
+(
 str
+)
 id
 )
 ;

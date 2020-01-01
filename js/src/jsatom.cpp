@@ -800,9 +800,12 @@ return
 js_ValueToPrintableString
 (
 cx
+StringTag
+(
 ATOM_TO_STRING
 (
 atom
+)
 )
 )
 ;
