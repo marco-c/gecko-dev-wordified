@@ -368,7 +368,7 @@ aRv
 {
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindow
 >
 window
 =
@@ -405,6 +405,14 @@ window
 )
 ;
 NS_ADDREF
+(
+object
+)
+;
+window
+-
+>
+AddAudioContext
 (
 object
 )
