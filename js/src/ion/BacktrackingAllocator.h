@@ -1214,6 +1214,11 @@ reifyAllocations
 (
 )
 ;
+bool
+populateSafepoints
+(
+)
+;
 void
 dumpRegisterGroups
 (
