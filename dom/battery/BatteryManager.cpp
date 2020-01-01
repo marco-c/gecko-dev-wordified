@@ -224,7 +224,7 @@ chargingtimechange
 )
 DOMCI_DATA
 (
-MozBatteryManager
+BatteryManager
 mozilla
 :
 :
@@ -299,11 +299,11 @@ BatteryManager
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMMozBatteryManager
+nsIDOMBatteryManager
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
-MozBatteryManager
+BatteryManager
 )
 NS_INTERFACE_MAP_END_INHERITING
 (

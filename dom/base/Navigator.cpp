@@ -634,7 +634,7 @@ nsIDOMNavigatorGeolocation
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMMozNavigatorBattery
+nsINavigatorBattery
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -5872,7 +5872,7 @@ NS_OK
 Navigator
 :
 :
-nsIDOMNavigatorBattery
+nsINavigatorBattery
 /
 /
 *
@@ -5956,9 +5956,9 @@ NS_IMETHODIMP
 Navigator
 :
 :
-GetMozBattery
+GetBattery
 (
-nsIDOMMozBatteryManager
+nsIDOMBatteryManager
 *
 *
 aBattery

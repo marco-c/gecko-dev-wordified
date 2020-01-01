@@ -39,7 +39,7 @@ window
 .
 navigator
 .
-mozBattery
+battery
 ;
 ok
 (
