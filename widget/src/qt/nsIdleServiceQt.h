@@ -456,6 +456,9 @@ nsIdleService
 h
 "
 #
+ifndef
+MOZ_PLATFORM_MAEMO
+#
 include
 <
 X11
@@ -538,6 +541,8 @@ stuff
 }
 XScreenSaverInfo
 ;
+#
+endif
 class
 nsIdleServiceQt
 :
@@ -566,10 +571,15 @@ nsIdleServiceQt
 (
 )
 ;
+#
+ifndef
+MOZ_PLATFORM_MAEMO
 XScreenSaverInfo
 *
 mXssInfo
 ;
+#
+endif
 protected
 :
 bool
