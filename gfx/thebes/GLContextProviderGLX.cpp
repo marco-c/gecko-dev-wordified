@@ -5935,6 +5935,18 @@ ContextFormat
 aFormat
 )
 {
+ContextFormat
+actualFormat
+(
+aFormat
+)
+;
+actualFormat
+.
+samples
+=
+0
+;
 nsRefPtr
 <
 GLContextGLX
@@ -5944,7 +5956,7 @@ glContext
 CreateOffscreenPixmapContext
 (
 aSize
-aFormat
+actualFormat
 true
 )
 ;
