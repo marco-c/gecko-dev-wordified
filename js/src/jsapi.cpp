@@ -10576,6 +10576,7 @@ Data
 define
 BINARYDATA_NUMERIC_NAMES
 (
+constant_
 type_
 )
 \
@@ -10585,13 +10586,11 @@ EAGER_CLASS_ATOM
 (
 type_
 )
-CLASP
-(
-type_
-#
-#
-Block
-)
+&
+NumericTypeClasses
+[
+constant_
+]
 }
 BINARYDATA_FOR_EACH_NUMERIC_TYPES
 (
