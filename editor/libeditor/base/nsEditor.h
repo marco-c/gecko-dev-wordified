@@ -4360,16 +4360,6 @@ we
 use
 .
 nsWeakPtr
-mPresShellWeak
-;
-/
-/
-weak
-reference
-to
-the
-nsIPresShell
-nsWeakPtr
 mSelConWeak
 ;
 /
