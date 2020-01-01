@@ -91,7 +91,7 @@ load
 arguments
 .
 callee
-false
+true
 )
 ;
 /
@@ -179,7 +179,7 @@ SSTabRestored
 arguments
 .
 callee
-false
+true
 )
 ;
 let
