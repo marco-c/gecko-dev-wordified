@@ -581,6 +581,9 @@ mXPCOMShuttingDown
 PRUint16
 mModalWindowCount
 ;
+PRPackedBool
+mApplicationProvidedHiddenWindow
+;
 }
 ;
 #
