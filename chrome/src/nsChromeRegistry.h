@@ -559,6 +559,9 @@ class
 nsILocalFile
 ;
 class
+nsIPrefBranch
+;
+class
 nsIRDFDataSource
 ;
 class
@@ -658,6 +661,10 @@ mInitialized
 (
 PR_FALSE
 )
+mProfileLoaded
+(
+PR_FALSE
+)
 {
 mPackagesHash
 .
@@ -728,6 +735,14 @@ FlushAllCaches
 ;
 private
 :
+nsresult
+SelectLocaleFromPref
+(
+nsIPrefBranch
+*
+prefs
+)
+;
 static
 nsresult
 RefreshWindow
@@ -1436,6 +1451,9 @@ private
 :
 PRBool
 mInitialized
+;
+PRBool
+mProfileLoaded
 ;
 /
 /
