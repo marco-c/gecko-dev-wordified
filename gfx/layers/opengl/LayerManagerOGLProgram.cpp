@@ -2477,7 +2477,13 @@ mTextureCount
 gfxMatrix
 maskTransform
 ;
+mozilla
+:
+:
+DebugOnly
+<
 bool
+>
 isMask2D
 =
 aMaskLayer

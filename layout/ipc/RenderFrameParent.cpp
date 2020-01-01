@@ -2212,6 +2212,7 @@ non
 retained
 mode
 .
+inline
 static
 bool
 IsTempLayerManager
