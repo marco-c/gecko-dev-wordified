@@ -661,7 +661,7 @@ pointer
 set
 new
 stack
-fram
+frame
 pointer
 .
 masm
