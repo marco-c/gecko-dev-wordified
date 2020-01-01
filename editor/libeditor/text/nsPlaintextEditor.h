@@ -159,10 +159,10 @@ class
 nsIContent
 ;
 class
-nsIDocument
+nsIDOMDataTransfer
 ;
 class
-nsIDOMDataTransfer
+nsIDOMDocument
 ;
 class
 nsIDOMElement
@@ -833,7 +833,7 @@ nsIDOMDataTransfer
 aDataTransfer
 int32_t
 aIndex
-nsIDocument
+nsIDOMDocument
 *
 aSourceDoc
 nsIDOMNode
@@ -947,7 +947,7 @@ first
 bool
 IsSafeToInsertData
 (
-nsIDocument
+nsIDOMDocument
 *
 aSourceDoc
 )
@@ -1167,7 +1167,7 @@ aType
 bool
 UpdateMetaCharset
 (
-nsIDocument
+nsIDOMDocument
 *
 aDocument
 const

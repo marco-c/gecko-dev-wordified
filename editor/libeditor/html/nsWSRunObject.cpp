@@ -1892,7 +1892,7 @@ aInOutParent
 int32_t
 *
 aInOutOffset
-nsIDocument
+nsIDOMDocument
 *
 aDoc
 )
