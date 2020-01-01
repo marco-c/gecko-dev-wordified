@@ -779,6 +779,17 @@ run
 (
 )
 {
+if
+(
+GeckoApp
+.
+mAppContext
+.
+mFormAssistPopup
+!
+=
+null
+)
 GeckoApp
 .
 mAppContext
