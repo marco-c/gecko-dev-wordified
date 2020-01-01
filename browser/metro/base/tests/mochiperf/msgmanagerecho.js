@@ -73,6 +73,11 @@ back
 .
 *
 /
+"
+use
+strict
+"
+;
 var
 TestEchoReceiver
 =
