@@ -3939,8 +3939,6 @@ event
 int16_t
 *
 result
-NSPluginCallReentry
-aSafeToReenterGecko
 )
 {
 if
@@ -4040,7 +4038,7 @@ mNPP
 event
 )
 this
-aSafeToReenterGecko
+NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 #
