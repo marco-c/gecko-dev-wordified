@@ -1738,7 +1738,7 @@ newChannel
 nsIChannelEventSink
 :
 :
-REDIRECT_INTERNAL
+REDIRECT_TEMPORARY
 PR_TRUE
 )
 ;
