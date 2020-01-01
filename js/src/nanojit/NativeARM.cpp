@@ -6961,6 +6961,14 @@ calls
 if
 (
 ARM_VFP
+&
+&
+ins
+-
+>
+isUsed
+(
+)
 )
 {
 /
