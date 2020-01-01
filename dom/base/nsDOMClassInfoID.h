@@ -413,6 +413,14 @@ _extra
 \
 DOMCI_CASTABLE_INTERFACE
 (
+nsIDocument
+nsIDocument
+4
+_extra
+)
+\
+DOMCI_CASTABLE_INTERFACE
+(
 nsDocument
 nsIDocument
 5
