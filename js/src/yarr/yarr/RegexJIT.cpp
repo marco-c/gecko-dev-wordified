@@ -244,6 +244,9 @@ RegexJIT
 h
 "
 #
+if
+ENABLE_ASSEMBLER
+#
 include
 "
 assembler
@@ -292,9 +295,6 @@ fallback
 is
 removed
 .
-#
-if
-ENABLE_YARR_JIT
 using
 namespace
 WTF

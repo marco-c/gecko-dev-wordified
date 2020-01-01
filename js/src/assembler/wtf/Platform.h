@@ -4735,6 +4735,7 @@ Windows
 /
 #
 if
+(
 WTF_CPU_X86
 \
 |
@@ -4748,6 +4749,11 @@ WTF_CPU_ARM_THUMB2
 |
 |
 WTF_CPU_X86
+)
+&
+&
+!
+WTF_PLATFORM_ANDROID
 #
 define
 ENABLE_YARR_JIT
@@ -4773,10 +4779,16 @@ ENABLE_YARR_JIT
 /
 #
 if
+(
 ENABLE_JIT
 |
 |
 ENABLE_YARR_JIT
+)
+&
+&
+!
+WTF_PLATFORM_ANDROID
 #
 define
 ENABLE_ASSEMBLER

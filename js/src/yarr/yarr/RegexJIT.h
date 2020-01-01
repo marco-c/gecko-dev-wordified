@@ -243,6 +243,9 @@ RegexJIT_h
 define
 RegexJIT_h
 #
+if
+ENABLE_ASSEMBLER
+#
 include
 "
 assembler
@@ -645,6 +648,13 @@ JSC
 :
 :
 Yarr
+#
+endif
+/
+*
+ENABLE_ASSEMBLER
+*
+/
 #
 endif
 /
