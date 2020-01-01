@@ -3427,7 +3427,7 @@ SampleFillValue
 (
 )
 ;
-void
+nsresult
 AddInstanceTimeFromCurrentTime
 (
 nsSMILTime
