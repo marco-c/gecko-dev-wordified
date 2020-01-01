@@ -4606,7 +4606,6 @@ modifiers
 =
 "
 accel
-shift
 "
 /
 >
