@@ -9876,6 +9876,33 @@ wrapperCache
 "
 "
     
+failureCode
+=
+(
+"
+%
+s
+=
+false
+;
+\
+n
+"
++
+                   
+"
+return
+%
+s
+;
+"
+)
+%
+(
+varName
+retval
+)
+    
 return
 "
 "
@@ -9905,11 +9932,8 @@ if
 scope
 )
 {
-      
-return
 %
 s
-;
     
 }
     
@@ -9928,14 +9952,6 @@ ExperimentalBindingsEnabled
 s
 %
 s
-=
-false
-;
-      
-return
-%
-s
-;
     
 }
   
@@ -9946,10 +9962,9 @@ s
 %
 (
 globalName
-retval
+failureCode
 wrapperCache
-varName
-retval
+failureCode
 )
 class
 CGDefineDOMInterfaceMethod
