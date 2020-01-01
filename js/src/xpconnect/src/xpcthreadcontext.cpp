@@ -889,6 +889,11 @@ if
 e
 .
 cx
+&
+&
+e
+.
+frame
 )
 {
 JS_RestoreFrameChain
@@ -979,6 +984,14 @@ if
 (
 e
 .
+cx
+&
+&
+e
+.
+cx
+!
+=
 cx
 )
 e
