@@ -177,8 +177,6 @@ if
 SelectionHelperUI
 .
 isActive
-(
-)
 )
 {
 /
