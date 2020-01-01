@@ -526,8 +526,6 @@ ignored
 .
 bool
 mIsInitialized
-:
-1
 ;
 /
 /
@@ -538,8 +536,6 @@ initalized
 ?
 bool
 mIsFullyLoaded
-:
-1
 ;
 /
 /
@@ -552,8 +548,6 @@ loading
 ?
 bool
 mIsDrawing
-:
-1
 ;
 /
 /
@@ -564,8 +558,6 @@ drawing
 ?
 bool
 mHaveAnimations
-:
-1
 ;
 /
 /
@@ -588,8 +580,6 @@ mIsFullyLoaded
 )
 bool
 mHaveRestrictedRegion
-:
-1
 ;
 /
 /
