@@ -10457,7 +10457,7 @@ js_Invoke
 cx
 2
 invokevp
-JSINVOKE_INTERNAL
+0
 )
 )
 return
@@ -16563,7 +16563,7 @@ js_Invoke
 cx
 argc
 invokevp
-JSINVOKE_INTERNAL
+0
 )
 ;
 if

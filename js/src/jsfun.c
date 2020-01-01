@@ -9488,7 +9488,7 @@ js_Invoke
 cx
 argc
 invokevp
-JSINVOKE_INTERNAL
+0
 )
 ;
 *
@@ -10020,7 +10020,7 @@ js_Invoke
 cx
 argc
 invokevp
-JSINVOKE_INTERNAL
+0
 )
 ;
 *
