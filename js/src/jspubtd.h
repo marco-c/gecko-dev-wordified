@@ -5189,6 +5189,11 @@ typedefs
 .
 *
 /
+/
+*
+*
+*
+/
 typedef
 JSBool
 (
@@ -5205,7 +5210,7 @@ obj
 const
 jsval
 *
-v
+vp
 JSBool
 *
 bp
