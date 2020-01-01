@@ -7219,8 +7219,13 @@ atom
 ;
 if
 (
+!
 name
 )
+return
+false
+;
+return
 ReportStrictModeError
 (
 cx
@@ -7236,9 +7241,6 @@ pn
 JSMSG_BAD_BINDING
 name
 )
-;
-return
-false
 ;
 }
 return
