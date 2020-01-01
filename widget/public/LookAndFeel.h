@@ -2304,6 +2304,13 @@ NS_RGB
 {
 nscolor
 result
+=
+NS_RGB
+(
+0
+0
+0
+)
 ;
 if
 (
