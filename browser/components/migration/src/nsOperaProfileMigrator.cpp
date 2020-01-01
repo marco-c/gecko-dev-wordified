@@ -4472,10 +4472,6 @@ mDomainStack
 .
 AppendElement
 (
-(
-void
-*
-)
 buf
 )
 ;
@@ -4506,7 +4502,7 @@ count
 =
 mDomainStack
 .
-Count
+Length
 (
 )
 ;
@@ -4521,10 +4517,6 @@ char
 *
 segment
 =
-(
-char
-*
-)
 mDomainStack
 .
 ElementAt
@@ -4627,10 +4619,6 @@ mPathStack
 .
 AppendElement
 (
-(
-void
-*
-)
 buf
 )
 ;
@@ -4707,7 +4695,7 @@ count
 =
 mPathStack
 .
-Count
+Length
 (
 )
 ;
@@ -4722,10 +4710,6 @@ char
 *
 segment
 =
-(
-char
-*
-)
 mPathStack
 .
 ElementAt
@@ -5266,7 +5250,7 @@ count
 =
 mPathStack
 .
-Count
+Length
 (
 )
 ;
@@ -5287,10 +5271,6 @@ i
 {
 segment
 =
-(
-char
-*
-)
 mPathStack
 .
 ElementAt
@@ -5321,7 +5301,7 @@ count
 =
 mDomainStack
 .
-Count
+Length
 (
 )
 ;
@@ -5342,10 +5322,6 @@ i
 {
 segment
 =
-(
-char
-*
-)
 mDomainStack
 .
 ElementAt
@@ -5624,7 +5600,7 @@ count
 =
 mPathStack
 .
-Count
+Length
 (
 )
 ;
@@ -5656,10 +5632,6 @@ synthesizedPath
 .
 Append
 (
-(
-char
-*
-)
 mPathStack
 .
 ElementAt
@@ -5730,7 +5702,7 @@ count
 =
 mDomainStack
 .
-Count
+Length
 (
 )
 ;
@@ -5772,10 +5744,6 @@ synthesizedDomain
 .
 Append
 (
-(
-char
-*
-)
 mDomainStack
 .
 ElementAt

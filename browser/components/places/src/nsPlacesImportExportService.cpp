@@ -1085,13 +1085,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsIBrowserGlue
 .
 h

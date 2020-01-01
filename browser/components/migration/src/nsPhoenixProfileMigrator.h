@@ -486,9 +486,6 @@ class
 nsIPrefService
 ;
 class
-nsVoidArray
-;
-class
 nsPhoenixProfileMigrator
 :
 public
