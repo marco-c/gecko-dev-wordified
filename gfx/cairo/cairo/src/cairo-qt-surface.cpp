@@ -456,6 +456,17 @@ h
 "
 #
 include
+"
+cairo
+-
+error
+-
+private
+.
+h
+"
+#
+include
 <
 memory
 >
@@ -1450,6 +1461,7 @@ _qpainter_path_transform
 QPainterPath
 path
 ;
+const
 cairo_matrix_t
 *
 ctm_inverse
@@ -1839,6 +1851,7 @@ path_to_qt
 cairo_path_fixed_t
 *
 path
+const
 cairo_matrix_t
 *
 ctm_inverse
@@ -5461,6 +5474,7 @@ const
 cairo_pattern_t
 *
 source
+const
 cairo_stroke_style_t
 *
 style
@@ -7154,12 +7168,15 @@ source
 cairo_path_fixed_t
 *
 path
+const
 cairo_stroke_style_t
 *
 style
+const
 cairo_matrix_t
 *
 ctm
+const
 cairo_matrix_t
 *
 ctm_inverse
@@ -8491,6 +8508,7 @@ qs
 base
 &
 cairo_qt_surface_backend
+NULL
 CAIRO_CONTENT_COLOR_ALPHA
 )
 ;
@@ -8730,6 +8748,7 @@ qs
 base
 &
 cairo_qt_surface_backend
+NULL
 _cairo_content_from_format
 (
 format
@@ -9161,6 +9180,7 @@ qs
 base
 &
 cairo_qt_surface_backend
+NULL
 content
 )
 ;

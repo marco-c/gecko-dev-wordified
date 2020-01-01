@@ -2935,6 +2935,15 @@ gfx
 /
 surface
 /
+subsurface
+"
+"
+explicit
+/
+gfx
+/
+surface
+/
 d2d
 "
 }
