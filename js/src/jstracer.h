@@ -1758,6 +1758,8 @@ f
 bool
 ifop
 (
+bool
+negate
 )
 ;
 bool
