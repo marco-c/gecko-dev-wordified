@@ -4087,6 +4087,10 @@ Data
 (
 )
 )
++
+chunk
+.
+mOffset
 ;
 ConvertAudioSamplesWithScale
 (
