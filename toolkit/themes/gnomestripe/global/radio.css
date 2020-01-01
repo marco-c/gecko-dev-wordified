@@ -1080,6 +1080,12 @@ moz
 -
 buttonhovertext
 ;
+text
+-
+shadow
+:
+none
+;
 }
 radio
 :
