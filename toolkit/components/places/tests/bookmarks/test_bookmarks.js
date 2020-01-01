@@ -972,7 +972,7 @@ begin
 var
 bmStartIndex
 =
-4
+1
 ;
 /
 /

@@ -3870,7 +3870,7 @@ nsAnnotationService
 :
 :
 GetPageAnnotationNamesTArray
-NS_IMETHODIMP
+nsresult
 nsAnnotationService
 :
 :
