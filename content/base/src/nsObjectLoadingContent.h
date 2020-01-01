@@ -2838,7 +2838,7 @@ Instantiate
 .
 *
 /
-PRBool
+PRPackedBool
 mInstantiating
 :
 1
@@ -2850,12 +2850,12 @@ status
 from
 content
 policy
-PRBool
+PRPackedBool
 mUserDisabled
 :
 1
 ;
-PRBool
+PRPackedBool
 mSuppressed
 :
 1
