@@ -770,7 +770,7 @@ PRUint32
 aVersion
 bool
 aShared
-void
+JSObject
 *
 *
 aFunctionObject
