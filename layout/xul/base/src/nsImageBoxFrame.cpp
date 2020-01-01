@@ -1590,6 +1590,12 @@ CanLoadImage
 uri
 mContent
 doc
+mContent
+-
+>
+NodePrincipal
+(
+)
 )
 )
 {
@@ -1600,6 +1606,12 @@ LoadImage
 (
 uri
 doc
+mContent
+-
+>
+NodePrincipal
+(
+)
 doc
 -
 >

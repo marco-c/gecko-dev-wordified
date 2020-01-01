@@ -871,6 +871,12 @@ CanLoadImage
 url
 doc
 doc
+doc
+-
+>
+NodePrincipal
+(
+)
 )
 )
 {
@@ -942,6 +948,12 @@ LoadImage
 (
 url
 doc
+doc
+-
+>
+NodePrincipal
+(
+)
 docURL
 nsnull
 nsIRequest
