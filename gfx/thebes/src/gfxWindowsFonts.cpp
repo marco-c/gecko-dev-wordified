@@ -1,3 +1,4 @@
+f
 /
 *
 -
@@ -2564,7 +2565,7 @@ GetStyle
 >
 decorations
 &
-FONT_DECORATION_UNDERLINE
+NS_FONT_DECORATION_UNDERLINE
 )
 ?
 TRUE
@@ -2583,7 +2584,7 @@ GetStyle
 >
 decorations
 &
-FONT_DECORATION_STRIKEOUT
+NS_FONT_DECORATION_LINE_THROUGH
 )
 ?
 TRUE
