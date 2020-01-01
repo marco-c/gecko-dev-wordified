@@ -1866,7 +1866,7 @@ registers
 While
 walking
 the
-tracer
+tracker
 we
 remember
 all
@@ -2614,6 +2614,12 @@ wat
 "
 )
 ;
+return
+RegisterID
+(
+worst
+)
+;
 }
 /
 *
@@ -2870,11 +2876,7 @@ for
 uint32
 i
 =
-tracker
-.
-nentries
--
-1
+resumeAt
 ;
 i
 <
