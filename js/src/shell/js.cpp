@@ -28346,6 +28346,8 @@ its_get_customNative
 JSStrictPropertyOp
 )
 its_set_customNative
+JSPROP_SHARED
+|
 JSPROP_NATIVE_ACCESSORS
 )
 )
