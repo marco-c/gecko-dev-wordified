@@ -3096,7 +3096,6 @@ GeneratePath
 (
 &
 tmpCtx
-&
 identity
 )
 ;
