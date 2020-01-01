@@ -887,7 +887,7 @@ sShuttingDown
 false
 ;
 static
-nsRefPtr
+StaticRefPtr
 <
 VibratorRunnable
 >
