@@ -1117,6 +1117,12 @@ onZoomDone
 (
 )
 {
+TabMirror
+.
+resumePainting
+(
+)
+;
 (
 this
 )
@@ -1203,6 +1209,12 @@ overflow
 )
 ;
 }
+TabMirror
+.
+pausePainting
+(
+)
+;
 (
 this
 )

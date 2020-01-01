@@ -512,6 +512,12 @@ lastTab
 .
 mirror
 ;
+TabMirror
+.
+pausePainting
+(
+)
+;
 tab
 .
 css
@@ -594,6 +600,12 @@ css
 overflow
 "
 overflow
+)
+;
+TabMirror
+.
+resumePainting
+(
 )
 ;
 }
