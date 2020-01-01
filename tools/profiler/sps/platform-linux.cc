@@ -1865,10 +1865,9 @@ much
 better
 accuracy
 .
-SetActive
-(
+active_
+=
 true
-)
 ;
 if
 (
@@ -1928,10 +1927,9 @@ Stop
 (
 )
 {
-SetActive
-(
+active_
+=
 false
-)
 ;
 /
 /
