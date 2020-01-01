@@ -7,7 +7,7 @@ test
 |
 error
 :
-TypeError
+undefined
 (
 function
 (

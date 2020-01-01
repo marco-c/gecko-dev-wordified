@@ -11842,14 +11842,8 @@ sp
 +
 -
 >
-setNonFunObjOrNull
+setNull
 (
-lambda
--
->
-getParent
-(
-)
 )
 ;
 /
