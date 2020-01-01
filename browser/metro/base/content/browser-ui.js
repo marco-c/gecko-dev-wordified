@@ -10108,12 +10108,16 @@ false
 ;
 while
 (
+!
+!
+(
 currentNode
 =
 nodeIterator
 .
 nextNode
 (
+)
 )
 )
 {

@@ -1336,6 +1336,15 @@ color
 return
 ;
 }
+if
+(
+!
+aIconUri
+)
+{
+return
+;
+}
 let
 url
 =
