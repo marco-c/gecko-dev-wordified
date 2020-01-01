@@ -999,7 +999,7 @@ p
 )
 const
 ;
-unsigned
+int
 findInternableGlobals
 (
 JSStackFrame
