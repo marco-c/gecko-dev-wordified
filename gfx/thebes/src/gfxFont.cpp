@@ -4044,6 +4044,11 @@ mHashCode
 0
 )
 {
+MOZ_COUNT_CTOR
+(
+gfxTextRun
+)
+;
 NS_ADDREF
 (
 mFontGroup
@@ -4311,6 +4316,11 @@ mDouble
 NS_RELEASE
 (
 mFontGroup
+)
+;
+MOZ_COUNT_DTOR
+(
+gfxTextRun
 )
 ;
 }
