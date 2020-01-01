@@ -10625,7 +10625,6 @@ mFrameConstructor
 >
 WillDestroyFrameTree
 (
-PR_TRUE
 )
 ;
 FrameManager
