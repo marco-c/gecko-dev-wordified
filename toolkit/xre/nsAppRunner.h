@@ -907,7 +907,7 @@ BOOL
 WinLaunchChild
 (
 const
-char
+PRUnichar
 *
 exePath
 int
