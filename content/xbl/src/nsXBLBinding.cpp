@@ -6049,11 +6049,8 @@ get
 (
 )
 0
+&
 val
-.
-address
-(
-)
 )
 )
 return

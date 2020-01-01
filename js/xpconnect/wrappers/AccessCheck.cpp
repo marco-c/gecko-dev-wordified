@@ -2115,11 +2115,8 @@ JS_LookupPropertyById
 cx
 wrappedObject
 exposedPropsId
+&
 exposedProps
-.
-address
-(
-)
 )
 )
 return

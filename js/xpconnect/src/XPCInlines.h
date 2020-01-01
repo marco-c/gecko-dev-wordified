@@ -2910,8 +2910,14 @@ jsid
 id
 )
 {
-jsval
+JS
+:
+:
+RootedValue
 prop
+(
+cx
+)
 ;
 if
 (

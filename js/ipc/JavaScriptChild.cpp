@@ -1425,11 +1425,8 @@ JS_DeletePropertyById2
 cx
 obj
 internedId
+&
 v
-.
-address
-(
-)
 )
 )
 return

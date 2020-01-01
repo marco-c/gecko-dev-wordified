@@ -4344,11 +4344,8 @@ NPIdentifierToJSId
 (
 id
 )
+&
 deleted
-.
-address
-(
-)
 )
 ;
 if
