@@ -15607,11 +15607,6 @@ datum_type
 &
 param_iid
 array_count
-mCallContext
-.
-GetCurrentJSObject
-(
-)
 &
 err
 )
@@ -15708,11 +15703,6 @@ val
 datum_type
 &
 param_iid
-mCallContext
-.
-GetCurrentJSObject
-(
-)
 &
 err
 )
@@ -16125,11 +16115,6 @@ T_INTERFACE_IS
 |
 XPT_TDP_POINTER
 iid
-mCallContext
-.
-GetCurrentJSObject
-(
-)
 &
 err
 )
