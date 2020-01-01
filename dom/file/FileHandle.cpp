@@ -323,13 +323,11 @@ NS_IMPL_EVENT_HANDLER
 FileHandle
 abort
 )
-;
 NS_IMPL_EVENT_HANDLER
 (
 FileHandle
 error
 )
-;
 NS_IMETHODIMP
 FileHandle
 :
