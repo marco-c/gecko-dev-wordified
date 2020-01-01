@@ -3527,6 +3527,10 @@ nsIDocument
 >
 mMouseDownEventHandlingDocument
 ;
+static
+bool
+sTestMode
+;
 /
 /
 the
