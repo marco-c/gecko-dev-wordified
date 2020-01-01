@@ -1577,8 +1577,7 @@ e
 while
 (
 cur
-!
-=
+<
 end
 &
 &
@@ -1670,8 +1669,7 @@ while
 +
 +
 cur
-!
-=
+<
 end
 &
 &
@@ -2673,8 +2671,7 @@ e
 capacity
 ;
 e
-!
-=
+<
 end
 ;
 +
@@ -2722,8 +2719,7 @@ e
 capacity
 ;
 e
-!
-=
+<
 end
 ;
 +
@@ -3969,8 +3965,7 @@ src
 oldCap
 ;
 src
-!
-=
+<
 end
 ;
 +
@@ -4187,8 +4182,7 @@ table
 tableCapacity
 ;
 e
-!
-=
+<
 end
 ;
 +
