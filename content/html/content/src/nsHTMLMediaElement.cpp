@@ -6405,6 +6405,8 @@ nsHTMLMediaElement
 :
 FirstFrameLoaded
 (
+PRBool
+aResourceFullyLoaded
 )
 {
 ChangeReadyState
@@ -6442,6 +6444,10 @@ mAllowSuspendAfterFirstFrame
 &
 &
 mPaused
+&
+&
+!
+aResourceFullyLoaded
 &
 &
 !
