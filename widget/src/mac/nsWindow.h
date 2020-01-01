@@ -1565,14 +1565,14 @@ aState
 NS_IMETHOD
 SetIMEEnabled
 (
-PRBool
+PRUint32
 aState
 )
 ;
 NS_IMETHOD
 GetIMEEnabled
 (
-PRBool
+PRUint32
 *
 aState
 )

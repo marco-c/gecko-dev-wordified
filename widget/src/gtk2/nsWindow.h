@@ -1912,7 +1912,7 @@ in
 this
 window
 .
-PRPackedBool
+PRUint32
 mEnabled
 ;
 nsIMEData
@@ -1944,7 +1944,10 @@ mRefCount
 ;
 mEnabled
 =
-PR_TRUE
+nsIKBStateControl
+:
+:
+IME_STATUS_ENABLED
 ;
 }
 }
@@ -1980,14 +1983,14 @@ aState
 NS_IMETHOD
 SetIMEEnabled
 (
-PRBool
+PRUint32
 aState
 )
 ;
 NS_IMETHOD
 GetIMEEnabled
 (
-PRBool
+PRUint32
 *
 aState
 )

@@ -1949,7 +1949,7 @@ nsWidget
 :
 SetIMEEnabled
 (
-PRBool
+PRUint32
 aState
 )
 {
@@ -1963,7 +1963,7 @@ nsWidget
 :
 GetIMEEnabled
 (
-PRBool
+PRUint32
 *
 aState
 )
