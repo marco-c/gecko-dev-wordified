@@ -6852,6 +6852,15 @@ disabled
 =
 =
 aAttribute
+|
+|
+nsGkAtoms
+:
+:
+spellcheck
+=
+=
+aAttribute
 ;
 nsCOMPtr
 <
