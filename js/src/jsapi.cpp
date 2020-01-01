@@ -10807,6 +10807,13 @@ jsval
 rval
 )
 {
+d
+=
+JS_CANONICALIZE_NAN
+(
+d
+)
+;
 Valueify
 (
 rval

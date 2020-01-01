@@ -1051,6 +1051,13 @@ jsdouble
 d
 )
 {
+d
+=
+JS_CANONICALIZE_NAN
+(
+d
+)
+;
 return
 IMPL_TO_JSVAL
 (
