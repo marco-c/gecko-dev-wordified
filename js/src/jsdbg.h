@@ -1970,8 +1970,14 @@ hasAnyLiveHooks
 const
 {
 return
-observesDebuggerStatement
+enabled
+&
+&
 (
+hasDebuggerHandler
+|
+|
+hasThrowHandler
 )
 ;
 }
