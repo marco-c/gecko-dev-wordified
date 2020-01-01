@@ -882,10 +882,6 @@ sgo
 if
 (
 !
-ownerDoc
-|
-|
-!
 (
 sgo
 =
@@ -1634,16 +1630,6 @@ OwnerDoc
 (
 )
 ;
-if
-(
-!
-document
-)
-{
-return
-NS_OK
-;
-}
 nsIScriptGlobalObject
 *
 global

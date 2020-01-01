@@ -3671,12 +3671,6 @@ OwnerDoc
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-doc
-NS_ERROR_FAILURE
-)
-;
 nsCOMPtr
 <
 nsIURI

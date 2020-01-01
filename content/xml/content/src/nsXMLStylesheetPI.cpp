@@ -1012,11 +1012,6 @@ OwnerDoc
 (
 )
 ;
-if
-(
-document
-)
-{
 baseURL
 =
 mOverriddenBaseURI
@@ -1043,14 +1038,6 @@ GetDocumentCharacterSet
 (
 )
 ;
-}
-else
-{
-baseURL
-=
-mOverriddenBaseURI
-;
-}
 nsCOMPtr
 <
 nsIURI

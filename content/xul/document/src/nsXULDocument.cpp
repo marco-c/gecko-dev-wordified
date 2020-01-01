@@ -27252,14 +27252,6 @@ OwnerDoc
 (
 )
 ;
-if
-(
-!
-document
-)
-return
-NS_ERROR_FAILURE
-;
 nsIContent
 *
 content

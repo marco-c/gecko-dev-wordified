@@ -872,11 +872,6 @@ OwnerDoc
 (
 )
 ;
-if
-(
-mDocument
-)
-{
 mNodeInfoManager
 =
 mDocument
@@ -886,14 +881,6 @@ NodeInfoManager
 (
 )
 ;
-}
-else
-{
-mCurrentNode
-=
-nsnull
-;
-}
 }
 txMozillaXMLOutput
 :

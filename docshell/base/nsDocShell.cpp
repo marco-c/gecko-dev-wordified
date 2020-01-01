@@ -2771,13 +2771,6 @@ OwnerDoc
 (
 )
 ;
-if
-(
-!
-doc
-)
-return
-;
 /
 /
 value
@@ -3601,13 +3594,6 @@ content
 OwnerDoc
 (
 )
-;
-if
-(
-!
-doc
-)
-return
 ;
 nsCOMPtr
 <

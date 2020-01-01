@@ -1059,16 +1059,6 @@ OwnerDoc
 (
 )
 ;
-if
-(
-!
-doc
-)
-{
-return
-false
-;
-}
 nsCOMPtr
 <
 nsIURI

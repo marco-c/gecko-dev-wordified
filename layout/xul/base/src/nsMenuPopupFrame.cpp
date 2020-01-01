@@ -1230,11 +1230,6 @@ OwnerDoc
 (
 )
 ;
-if
-(
-doc
-)
-{
 PRInt32
 namespaceID
 ;
@@ -1305,7 +1300,6 @@ mPopupType
 =
 ePopupTypeTooltip
 ;
-}
 }
 if
 (

@@ -1971,8 +1971,6 @@ NS_NewURI
 anchorURI
 href
 document
-?
-document
 -
 >
 GetDocumentCharacterSet
@@ -1982,8 +1980,6 @@ GetDocumentCharacterSet
 get
 (
 )
-:
-nsnull
 baseURI
 )
 ;

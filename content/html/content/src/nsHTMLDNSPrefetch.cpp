@@ -1874,14 +1874,6 @@ mElement
 if
 (
 content
-&
-&
-content
--
->
-OwnerDoc
-(
-)
 )
 {
 nsCOMPtr

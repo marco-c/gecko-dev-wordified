@@ -1727,11 +1727,6 @@ OwnerDoc
 (
 )
 ;
-if
-(
-ownerDoc
-)
-{
 nsXBLBinding
 *
 binding
@@ -1782,7 +1777,6 @@ GetBaseBinding
 (
 )
 ;
-}
 }
 NS_ADDREF
 (

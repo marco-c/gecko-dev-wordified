@@ -36264,11 +36264,6 @@ OwnerDoc
 (
 )
 ;
-if
-(
-doc
-)
-{
 nsCOMPtr
 <
 nsIURI
@@ -36328,7 +36323,6 @@ out
 return
 NS_OK
 ;
-}
 }
 }
 return
