@@ -1124,6 +1124,9 @@ Blob
 EventSource
 '
 '
+indexedDB
+'
+'
 location
 '
 ]
