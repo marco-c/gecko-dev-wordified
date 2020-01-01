@@ -1115,7 +1115,7 @@ size
 presContext
 -
 >
-AppUnitsToDevPixels
+AppUnitsToFloatCSSPixels
 (
 fontData
 -
