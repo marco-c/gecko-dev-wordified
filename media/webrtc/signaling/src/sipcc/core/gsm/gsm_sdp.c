@@ -27857,10 +27857,6 @@ tracks
 ui_on_remote_stream_added
 (
 evOnRemoteStreamAdd
-fcb_p
--
->
-state
 dcb_p
 -
 >
