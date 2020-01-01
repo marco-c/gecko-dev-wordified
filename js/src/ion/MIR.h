@@ -1436,6 +1436,14 @@ FILE
 fp
 )
 ;
+void
+printOpcode
+(
+FILE
+*
+fp
+)
+;
 uint32
 id
 (
