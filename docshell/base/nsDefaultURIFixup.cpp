@@ -503,17 +503,12 @@ nsILocalFile
 h
 "
 #
-ifdef
-MOZ_TOOLKIT_SEARCH
-#
 include
 "
 nsIBrowserSearchService
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2778,9 +2773,6 @@ spec
 )
 ;
 }
-#
-ifdef
-MOZ_TOOLKIT_SEARCH
 /
 /
 Try
@@ -3074,8 +3066,6 @@ aURI
 }
 }
 }
-#
-endif
 /
 /
 out
