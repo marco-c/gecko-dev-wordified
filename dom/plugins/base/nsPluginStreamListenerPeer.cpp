@@ -1775,14 +1775,11 @@ nsPluginHost
 >
 pluginHost
 =
-dont_AddRef
-(
 nsPluginHost
 :
 :
 GetInst
 (
-)
 )
 ;
 /

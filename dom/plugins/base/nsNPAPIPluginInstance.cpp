@@ -8967,17 +8967,11 @@ nsPluginHost
 >
 pluginHost
 =
-already_AddRefed
-<
-nsPluginHost
->
-(
 nsPluginHost
 :
 :
 GetInst
 (
-)
 )
 ;
 if
