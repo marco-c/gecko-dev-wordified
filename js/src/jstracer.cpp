@@ -15102,11 +15102,12 @@ slot
 )
 {
 return
-2
+3
 /
 *
 callee
 this
+arguments
 *
 /
 +
