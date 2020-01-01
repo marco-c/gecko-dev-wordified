@@ -274,6 +274,12 @@ places
 "
 browser
 .
+privatebrowsing
+.
+"
+"
+browser
+.
 search
 .
 context
