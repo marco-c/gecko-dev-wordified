@@ -920,7 +920,8 @@ marking
 .
 *
 /
-HeapPtrAtom
+JSAtom
+*
 source
 ;
 RegExpFlag
