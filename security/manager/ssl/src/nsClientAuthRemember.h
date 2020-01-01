@@ -525,6 +525,12 @@ ClearRememberedDecisions
 (
 )
 ;
+static
+void
+ClearAllRememberedDecisions
+(
+)
+;
 protected
 :
 mozilla
