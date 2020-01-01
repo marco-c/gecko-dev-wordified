@@ -4209,16 +4209,14 @@ data
 loss
 here
 !
-LL_D2L
-(
 *
 _retval
+=
 tempData
 .
 u
 .
 mDoubleValue
-)
 ;
 return
 rv
