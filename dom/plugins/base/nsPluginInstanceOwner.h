@@ -1579,10 +1579,6 @@ us
 nsCString
 mDocumentBase
 ;
-char
-*
-mTagText
-;
 bool
 mWidgetCreationComplete
 ;
