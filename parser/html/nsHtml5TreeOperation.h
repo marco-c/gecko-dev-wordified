@@ -476,6 +476,7 @@ eTreeOpRunScriptAsyncDefer
 eTreeOpDoneAddingChildren
 eTreeOpDoneCreatingElement
 eTreeOpFlushPendingAppendNotifications
+eTreeOpSetDocumentCharset
 eTreeOpNeedsCharsetSwitchTo
 eTreeOpUpdateStyleSheet
 eTreeOpProcessMeta
