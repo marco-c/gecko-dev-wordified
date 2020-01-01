@@ -475,13 +475,6 @@ nsSVGOuterSVGFrame
 .
 h
 "
-#
-include
-"
-nsSVGMatrix
-.
-h
-"
 /
 /
 -

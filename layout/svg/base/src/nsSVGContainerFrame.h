@@ -442,13 +442,6 @@ h
 #
 include
 "
-nsIDOMSVGMatrix
-.
-h
-"
-#
-include
-"
 nsSVGSVGElement
 .
 h
