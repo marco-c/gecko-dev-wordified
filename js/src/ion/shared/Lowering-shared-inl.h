@@ -1180,6 +1180,9 @@ MDefinition
 mir
 )
 {
+if
+(
+!
 defineBox
 (
 lir
@@ -1189,6 +1192,9 @@ LDefinition
 :
 PRESET
 )
+)
+return
+false
 ;
 #
 if
