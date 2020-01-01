@@ -7507,7 +7507,7 @@ end
 currentTime
 )
 *
-1000
+USECS_PER_S
 )
 ;
 }
