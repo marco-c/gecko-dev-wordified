@@ -2355,9 +2355,11 @@ resv
 arIndex
 )
 {
-reserveFree
-(
 i
+-
+>
+clearResv
+(
 )
 ;
 }
