@@ -253,6 +253,8 @@ o
 '
 parent
 ;
+type
+;
 type_proto
 '
 o
