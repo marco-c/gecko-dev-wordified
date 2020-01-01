@@ -699,9 +699,11 @@ if
 !
 mIsDeadKey
 )
+{
 return
 nsnull
 ;
+}
 for
 (
 PRUint32
@@ -754,9 +756,11 @@ aDeadKeyArray
 aEntries
 )
 )
+{
 return
 dkt
 ;
+}
 }
 }
 return
@@ -879,6 +883,7 @@ c2
 +
 +
 )
+{
 mShiftStates
 [
 aShiftState
@@ -893,6 +898,7 @@ c2
 =
 0
 ;
+}
 }
 void
 VirtualKey
@@ -1246,6 +1252,7 @@ if
 (
 aUniChars
 )
+{
 aUniChars
 [
 0
@@ -1260,12 +1267,11 @@ DeadKey
 .
 DeadChar
 ;
+}
 return
 1
 ;
 }
-else
-{
 PRUint32
 cnt
 =
@@ -1305,6 +1311,7 @@ if
 (
 aUniChars
 )
+{
 aUniChars
 [
 cnt
@@ -1322,6 +1329,7 @@ Chars
 cnt
 ]
 ;
+}
 cnt
 +
 +
@@ -1330,7 +1338,6 @@ cnt
 return
 cnt
 ;
-}
 }
 KeyboardLayout
 :
@@ -1989,9 +1996,11 @@ key
 <
 0
 )
+{
 return
 0
 ;
+}
 PRUint8
 finalShiftState
 ;
@@ -2059,8 +2068,10 @@ mKeyboardLayout
 =
 aLayout
 )
+{
 return
 ;
+}
 mKeyboardLayout
 =
 aLayout
@@ -2233,8 +2244,10 @@ vki
 <
 0
 )
+{
 continue
 ;
+}
 NS_ASSERTION
 (
 vki
@@ -2279,17 +2292,17 @@ uniChars
 mKeyboardLayout
 )
 ;
+/
+/
+dead
+-
+key
 if
 (
 rv
 <
 0
 )
-/
-/
-dead
--
-key
 {
 shiftStatesWithDeadKeys
 |
@@ -2473,8 +2486,10 @@ shiftState
 )
 )
 )
+{
 continue
 ;
+}
 SetShiftState
 (
 kbdState
@@ -2566,6 +2581,7 @@ if
 !
 dkt
 )
+{
 dkt
 =
 AddDeadKeyTable
@@ -2574,6 +2590,7 @@ deadKeyArray
 n
 )
 ;
+}
 mVirtualKeys
 [
 vki
@@ -2725,6 +2742,7 @@ aShiftState
 &
 eShift
 )
+{
 aKbdState
 [
 VK_SHIFT
@@ -2733,6 +2751,7 @@ VK_SHIFT
 =
 0x80
 ;
+}
 else
 {
 aKbdState
@@ -2769,6 +2788,7 @@ aShiftState
 &
 eCtrl
 )
+{
 aKbdState
 [
 VK_CONTROL
@@ -2777,6 +2797,7 @@ VK_CONTROL
 =
 0x80
 ;
+}
 else
 {
 aKbdState
@@ -2813,6 +2834,7 @@ aShiftState
 &
 eAlt
 )
+{
 aKbdState
 [
 VK_MENU
@@ -2821,6 +2843,7 @@ VK_MENU
 =
 0x80
 ;
+}
 else
 {
 aKbdState
@@ -2857,6 +2880,7 @@ aShiftState
 &
 eCapsLock
 )
+{
 aKbdState
 [
 VK_CAPITAL
@@ -2865,7 +2889,9 @@ VK_CAPITAL
 =
 0x01
 ;
+}
 else
+{
 aKbdState
 [
 VK_CAPITAL
@@ -2875,6 +2901,7 @@ VK_CAPITAL
 ~
 0x01
 ;
+}
 }
 inline
 PRInt32
@@ -4048,8 +4075,10 @@ mActiveDeadKey
 <
 0
 )
+{
 return
 ;
+}
 BYTE
 kbdState
 [
@@ -4117,6 +4146,7 @@ cnt
 +
 +
 )
+{
 if
 (
 aDeadKeyArray
@@ -4129,9 +4159,12 @@ BaseChar
 =
 aBaseChar
 )
+{
 return
 PR_FALSE
 ;
+}
+}
 aDeadKeyArray
 [
 aEntries
@@ -4230,8 +4263,10 @@ shiftState
 )
 )
 )
+{
 continue
 ;
+}
 SetShiftState
 (
 kbdState
@@ -4534,6 +4569,7 @@ entries
 <
 aMaxEntries
 )
+{
 if
 (
 AddDeadKeyEntry
@@ -4550,10 +4586,13 @@ aDeadKeyArray
 entries
 )
 )
+{
 entries
 +
 +
 ;
+}
+}
 deadKeyActive
 =
 PR_FALSE
@@ -4619,6 +4658,7 @@ if
 (
 deadKeyActive
 )
+{
 deadKeyActive
 =
 EnsureDeadKeyActive
@@ -4628,6 +4668,7 @@ aDeadKey
 aDeadKeyKbdState
 )
 ;
+}
 NS_QuickSort
 (
 aDeadKeyArray
@@ -4709,6 +4750,7 @@ BaseChar
 =
 aBaseChar
 )
+{
 return
 mTable
 [
@@ -4717,7 +4759,7 @@ cnt
 .
 CompositeChar
 ;
-else
+}
 if
 (
 mTable
@@ -4729,8 +4771,10 @@ BaseChar
 >
 aBaseChar
 )
+{
 break
 ;
+}
 }
 return
 0
