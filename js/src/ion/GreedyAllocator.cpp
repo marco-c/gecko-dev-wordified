@@ -3226,7 +3226,7 @@ ins
 >
 getTemp
 (
-0
+i
 )
 ;
 if
