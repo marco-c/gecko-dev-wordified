@@ -409,6 +409,9 @@ mimeType
 nsISupports
 *
 extra
+nsIPrincipal
+*
+requestPrincipal
 PRInt16
 *
 decision
@@ -701,6 +704,7 @@ requestingLocation
 requestingContext
 mimeType
 extra
+requestPrincipal
 decision
 )
 ;
@@ -1001,6 +1005,9 @@ mimeType
 nsISupports
 *
 extra
+nsIPrincipal
+*
+requestPrincipal
 PRInt16
 *
 decision
@@ -1045,6 +1052,7 @@ requestingLocation
 requestingContext
 mimeType
 extra
+requestPrincipal
 decision
 )
 ;
@@ -1083,6 +1091,9 @@ mimeType
 nsISupports
 *
 extra
+nsIPrincipal
+*
+requestPrincipal
 PRInt16
 *
 decision
@@ -1104,6 +1115,7 @@ requestingLocation
 requestingContext
 mimeType
 extra
+requestPrincipal
 decision
 )
 ;

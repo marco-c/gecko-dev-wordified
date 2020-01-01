@@ -358,6 +358,9 @@ aMimeTypeGuess
 nsISupports
 *
 aExtra
+nsIPrincipal
+*
+aRequestPrincipal
 PRInt16
 *
 aDecision
@@ -665,6 +668,9 @@ aMimeTypeGuess
 nsISupports
 *
 aExtra
+nsIPrincipal
+*
+aRequestPrincipal
 PRInt16
 *
 aDecision
