@@ -114,6 +114,15 @@ h
 #
 include
 "
+mozilla
+/
+GfxMessageUtils
+.
+h
+"
+#
+include
+"
 nsDOMNotifyPaintEvent
 .
 h

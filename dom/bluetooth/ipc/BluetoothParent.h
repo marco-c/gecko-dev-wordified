@@ -188,6 +188,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 template
 <
 class

@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+GfxMessageUtils
+.
+h
+"
+#
+include
+"
 gfxWindowsPlatform
 .
 h

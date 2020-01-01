@@ -234,6 +234,17 @@ TimeStamp
 .
 h
 "
+/
+/
+#
+include
+"
+mozilla
+/
+CanonicalRegion
+.
+h
+"
 class
 gfxContext
 ;

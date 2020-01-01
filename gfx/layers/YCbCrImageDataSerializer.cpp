@@ -104,6 +104,13 @@ h
 #
 include
 "
+ImageTypes
+.
+h
+"
+#
+include
+"
 yuv_convert
 .
 h

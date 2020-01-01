@@ -140,6 +140,15 @@ IPCMessageUtils
 h
 "
 #
+include
+"
+mozilla
+/
+GfxMessageUtils
+.
+h
+"
+#
 define
 MOZ_HAVE_SURFACEDESCRIPTORX11
 #

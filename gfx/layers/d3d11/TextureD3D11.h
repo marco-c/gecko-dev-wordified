@@ -138,6 +138,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+GfxMessageUtils
+.
+h
+"
+#
+include
 <
 d3d11
 .

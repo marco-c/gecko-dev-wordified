@@ -158,6 +158,13 @@ Transport
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 /
 /
 -

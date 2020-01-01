@@ -113,6 +113,15 @@ include
 "
 mozilla
 /
+GfxMessageUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Touch
