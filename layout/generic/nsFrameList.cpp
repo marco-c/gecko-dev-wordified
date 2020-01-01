@@ -1048,6 +1048,9 @@ DestroyFrame
 nsIFrame
 *
 aFrame
+nsIFrame
+*
+aPrevSiblingHint
 )
 {
 NS_PRECONDITION
@@ -1067,6 +1070,7 @@ if
 RemoveFrame
 (
 aFrame
+aPrevSiblingHint
 )
 )
 {
