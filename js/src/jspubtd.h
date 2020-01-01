@@ -1071,13 +1071,6 @@ class
 JSFlatString
 ;
 class
-JSStableString
-;
-/
-/
-long
-story
-class
 JSString
 ;
 #
