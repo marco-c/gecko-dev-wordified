@@ -1220,6 +1220,15 @@ nsnull
 ;
 }
 NS_IMETHOD
+GetRootWidget
+(
+nsIWidget
+*
+*
+aWidget
+)
+;
+NS_IMETHOD
 ForceUpdate
 (
 )
