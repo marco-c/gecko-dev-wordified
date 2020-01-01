@@ -305,17 +305,6 @@ _state
 ;
 }
 get
-dbg
-(
-)
-{
-return
-this
-.
-_dbg
-;
-}
-get
 _breakpointStore
 (
 )
@@ -380,7 +369,7 @@ if
 (
 this
 .
-_dbg
+dbg
 )
 {
 let
@@ -388,7 +377,7 @@ debuggees
 =
 this
 .
-_dbg
+dbg
 .
 getDebuggees
 (
@@ -404,7 +393,7 @@ debuggees
 {
 this
 .
-_dbg
+dbg
 .
 removeDebuggee
 (
@@ -571,12 +560,12 @@ if
 !
 this
 .
-_dbg
+dbg
 )
 {
 this
 .
-_dbg
+dbg
 =
 new
 Debugger
@@ -585,7 +574,7 @@ Debugger
 ;
 this
 .
-_dbg
+dbg
 .
 uncaughtExceptionHook
 =
@@ -600,7 +589,7 @@ this
 ;
 this
 .
-_dbg
+dbg
 .
 onDebuggerStatement
 =
@@ -615,7 +604,7 @@ this
 ;
 this
 .
-_dbg
+dbg
 .
 onNewScript
 =
@@ -796,7 +785,7 @@ if
 !
 this
 .
-_dbg
+dbg
 )
 {
 return
@@ -804,7 +793,7 @@ return
 }
 this
 .
-_dbg
+dbg
 .
 enabled
 =
@@ -812,7 +801,7 @@ false
 ;
 this
 .
-_dbg
+dbg
 =
 null
 ;
