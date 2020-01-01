@@ -31105,6 +31105,12 @@ return
 JS_FALSE
 ;
 }
+OBJ_TO_INNER_OBJECT
+(
+cx
+obj
+)
+;
 nsCOMPtr
 <
 nsIXPConnectWrappedNative
