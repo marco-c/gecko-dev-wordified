@@ -642,8 +642,6 @@ graph
 return
 false
 ;
-/
-/
 if
 (
 !
@@ -654,8 +652,6 @@ analyzer
 graph
 )
 )
-/
-/
 return
 false
 ;

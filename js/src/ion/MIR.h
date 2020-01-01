@@ -1604,7 +1604,7 @@ id_
 )
 assumedType_
 (
-MIRType_Value
+MIRType_None
 )
 resultType_
 (
@@ -1637,6 +1637,7 @@ FILE
 fp
 )
 ;
+virtual
 void
 printOpcode
 (
@@ -2698,6 +2699,14 @@ return
 value_
 ;
 }
+void
+printOpcode
+(
+FILE
+*
+fp
+)
+;
 }
 ;
 class
@@ -3284,14 +3293,13 @@ box
 .
 JS_ASSERT
 (
-!
 ins
 -
 >
 type
 (
 )
-=
+!
 =
 MIRType_Value
 )
