@@ -568,13 +568,6 @@ h
 #
 include
 "
-nsILookAndFeel
-.
-h
-"
-#
-include
-"
 nsStyleContext
 .
 h
