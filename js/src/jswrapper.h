@@ -2320,7 +2320,7 @@ that
 may
 touch
 dead
-compartments
+zones
 .
 Brain
 transplants
@@ -2376,7 +2376,7 @@ this
 way
 *
 a
-compartment
+zone
 becomes
 a
 zombie
@@ -2410,7 +2410,7 @@ objects
 in
 *
 dead
-compartments
+zones
 .
 If
 this
@@ -2453,7 +2453,7 @@ marked
 struct
 JS_FRIEND_API
 (
-AutoMaybeTouchDeadCompartments
+AutoMaybeTouchDeadZones
 )
 {
 /
@@ -2471,14 +2471,14 @@ for
 its
 runtime
 .
-AutoMaybeTouchDeadCompartments
+AutoMaybeTouchDeadZones
 (
 JSContext
 *
 cx
 )
 ;
-AutoMaybeTouchDeadCompartments
+AutoMaybeTouchDeadZones
 (
 JSObject
 *
@@ -2486,7 +2486,7 @@ obj
 )
 ;
 ~
-AutoMaybeTouchDeadCompartments
+AutoMaybeTouchDeadZones
 (
 )
 ;
@@ -2503,7 +2503,7 @@ bool
 inIncremental
 ;
 bool
-manipulatingDeadCompartments
+manipulatingDeadZones
 ;
 }
 ;

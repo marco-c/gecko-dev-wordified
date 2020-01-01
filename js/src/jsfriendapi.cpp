@@ -4710,7 +4710,7 @@ JS_ASSERT
 obj
 -
 >
-compartment
+zone
 (
 )
 -
@@ -4723,13 +4723,13 @@ isHeapBusy
 )
 )
 ;
-AutoMarkInDeadCompartment
+AutoMarkInDeadZone
 amn
 (
 obj
 -
 >
-compartment
+zone
 (
 )
 )
@@ -4810,7 +4810,7 @@ isHeapBusy
 )
 )
 ;
-AutoMarkInDeadCompartment
+AutoMarkInDeadZone
 amn
 (
 zone

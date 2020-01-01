@@ -3493,7 +3493,7 @@ compartments
 js
 :
 :
-AutoMaybeTouchDeadCompartments
+AutoMaybeTouchDeadZones
 agc
 (
 parent
@@ -11466,7 +11466,7 @@ compartments
 js
 :
 :
-AutoMaybeTouchDeadCompartments
+AutoMaybeTouchDeadZones
 agc
 (
 parentObj
@@ -24746,7 +24746,7 @@ compartments
 js
 :
 :
-AutoMaybeTouchDeadCompartments
+AutoMaybeTouchDeadZones
 agc
 (
 parent

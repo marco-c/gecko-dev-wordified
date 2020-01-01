@@ -5123,12 +5123,12 @@ can
 manipulate
 *
 dead
-compartments
+zones
 .
 *
 /
 bool
-gcManipulatingDeadCompartments
+gcManipulatingDeadZones
 ;
 /
 *
@@ -5146,7 +5146,7 @@ object
 inside
 a
 *
-compartment
+zone
 with
 no
 incoming
@@ -5200,7 +5200,7 @@ up
 the
 dead
 *
-compartments
+zones
 .
 This
 should
@@ -5211,7 +5211,7 @@ rarely
 *
 /
 unsigned
-gcObjectsMarkedInDeadCompartments
+gcObjectsMarkedInDeadZones
 ;
 bool
 gcPoke
