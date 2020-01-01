@@ -423,7 +423,7 @@ DERB_DEFAULT_TRUNC
 ;
 static
 UBool
-truncate
+opt_truncate
 =
 FALSE
 ;
@@ -1180,7 +1180,7 @@ options
 doesOccur
 )
 {
-truncate
+opt_truncate
 =
 TRUE
 ;
@@ -1239,7 +1239,7 @@ size
 }
 else
 {
-truncate
+opt_truncate
 =
 FALSE
 ;
@@ -3175,7 +3175,7 @@ thestr
 ;
 if
 (
-truncate
+opt_truncate
 &
 &
 len
@@ -3559,7 +3559,7 @@ truncation
 /
 if
 (
-truncate
+opt_truncate
 &
 &
 len
@@ -4130,7 +4130,7 @@ status
 ;
 if
 (
-truncate
+opt_truncate
 &
 &
 len
