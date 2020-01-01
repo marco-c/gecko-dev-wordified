@@ -303,6 +303,17 @@ stream
 <
 "
 array
+[
+"
+<
+<
+getArraySize
+(
+)
+<
+<
+"
+]
 of
 "
 ;
