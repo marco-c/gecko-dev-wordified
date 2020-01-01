@@ -181,6 +181,7 @@ confirm_install
 window
 )
 {
+var
 items
 =
 window
