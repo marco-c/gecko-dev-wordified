@@ -704,9 +704,6 @@ length
 =
 =
 0
-|
-|
-gSelectUserInUse
 )
 {
 element
@@ -777,10 +774,6 @@ if
 selections
 .
 length
-&
-&
-!
-gSelectUserInUse
 )
 {
 document
