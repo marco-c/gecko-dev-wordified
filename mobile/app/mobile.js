@@ -4538,7 +4538,7 @@ plugins
 .
 enabled
 "
-false
+true
 )
 ;
 /
