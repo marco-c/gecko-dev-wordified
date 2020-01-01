@@ -7035,7 +7035,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-MozSave
+Save
 (
 )
 {
@@ -7082,7 +7082,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-MozRestore
+Restore
 (
 )
 {
@@ -9435,7 +9435,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-SetMozShadowColor
+SetShadowColor
 (
 const
 nsAString
@@ -9486,7 +9486,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-GetMozShadowColor
+GetShadowColor
 (
 nsAString
 &
@@ -10890,7 +10890,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-MozBeginPath
+BeginPath
 (
 )
 {
@@ -10923,7 +10923,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-MozClosePath
+ClosePath
 (
 )
 {
@@ -10952,7 +10952,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-MozFill
+Fill
 (
 )
 {
@@ -10990,7 +10990,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-MozStroke
+Stroke
 (
 )
 {
@@ -11028,7 +11028,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-MozClip
+Clip
 (
 )
 {
@@ -12367,7 +12367,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-SetMozFont
+SetFont
 (
 const
 nsAString
@@ -13307,7 +13307,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-GetMozFont
+GetFont
 (
 nsAString
 &
@@ -13348,7 +13348,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-SetMozTextAlign
+SetTextAlign
 (
 const
 nsAString
@@ -13463,7 +13463,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-GetMozTextAlign
+GetTextAlign
 (
 nsAString
 &
@@ -13558,7 +13558,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-SetMozTextBaseline
+SetTextBaseline
 (
 const
 nsAString
@@ -13693,7 +13693,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-GetMozTextBaseline
+GetTextBaseline
 (
 nsAString
 &
@@ -15971,7 +15971,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-SetTextStyle
+SetMozTextStyle
 (
 const
 nsAString
@@ -15989,7 +15989,7 @@ the
 same
 value
 return
-SetMozFont
+SetFont
 (
 textStyle
 )
@@ -15999,7 +15999,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-GetTextStyle
+GetMozTextStyle
 (
 nsAString
 &
@@ -16016,7 +16016,7 @@ the
 same
 value
 return
-GetMozFont
+GetFont
 (
 textStyle
 )
@@ -16059,7 +16059,7 @@ fontGroup
 nsresult
 rv
 =
-SetTextStyle
+SetMozTextStyle
 (
 kDefaultFontStyle
 )
@@ -16332,7 +16332,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-SetMozLineCap
+SetLineCap
 (
 const
 nsAString
@@ -16450,7 +16450,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-GetMozLineCap
+GetLineCap
 (
 nsAString
 &
@@ -16551,7 +16551,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-SetMozLineJoin
+SetLineJoin
 (
 const
 nsAString
@@ -16669,7 +16669,7 @@ NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
 :
-GetMozLineJoin
+GetLineJoin
 (
 nsAString
 &
