@@ -61326,14 +61326,6 @@ GetIBContainingBlockFor
 aFrame
 )
 ;
-aFrame
--
->
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 mPresShell
 -
 >
@@ -61344,6 +61336,7 @@ nsIPresShell
 :
 :
 eStyleChange
+NS_FRAME_IS_DIRTY
 )
 ;
 return

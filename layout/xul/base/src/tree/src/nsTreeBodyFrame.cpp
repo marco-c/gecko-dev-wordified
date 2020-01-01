@@ -10224,11 +10224,6 @@ mStringWidth
 -
 1
 ;
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -10246,6 +10241,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }
@@ -16330,11 +16326,6 @@ our
 info
 properly
 .
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -16352,6 +16343,7 @@ nsIPresShell
 :
 :
 eResize
+NS_FRAME_IS_DIRTY
 )
 ;
 }

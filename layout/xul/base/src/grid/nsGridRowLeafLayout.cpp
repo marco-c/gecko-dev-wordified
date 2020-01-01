@@ -2000,14 +2000,6 @@ aBox
 mark
 us
 dirty
-aBox
--
->
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 /
 /
 XXXldb
@@ -2045,6 +2037,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }

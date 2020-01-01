@@ -645,14 +645,6 @@ if
 mBox
 )
 {
-mBox
--
->
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 aState
 .
 PresShell
@@ -667,6 +659,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }

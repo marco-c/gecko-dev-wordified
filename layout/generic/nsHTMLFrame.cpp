@@ -1784,6 +1784,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 }
@@ -2005,11 +2006,6 @@ DestroyFrame
 aOldFrame
 )
 ;
-AddStateBits
-(
-NS_FRAME_HAS_DIRTY_CHILDREN
-)
-;
 rv
 =
 PresContext
@@ -2029,6 +2025,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 }

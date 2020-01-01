@@ -1303,7 +1303,6 @@ them
 using
 ReLayoutChildren
 (
-aPresContext
 this
 )
 ;
@@ -1352,7 +1351,6 @@ children
 using
 ReLayoutChildren
 (
-aPresContext
 mParent
 )
 ;
@@ -2440,6 +2438,25 @@ TransmitAutomaticData
 .
 see
 RebuildAutomaticDataForChildren
+/
+/
+/
+/
+aBits
+are
+the
+bits
+to
+pass
+to
+FrameNeedsReflow
+(
+)
+when
+we
+call
+it
+.
 static
 nsresult
 ReLayoutChildren
@@ -2447,6 +2464,8 @@ ReLayoutChildren
 nsIFrame
 *
 aParentFrame
+nsFrameState
+aBits
 )
 ;
 protected
@@ -2905,6 +2924,7 @@ nsMathMLContainerFrame
 ReLayoutChildren
 (
 this
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 return
@@ -2954,6 +2974,7 @@ nsMathMLContainerFrame
 ReLayoutChildren
 (
 this
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 return
@@ -2999,6 +3020,7 @@ nsMathMLContainerFrame
 ReLayoutChildren
 (
 this
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 return
@@ -3300,6 +3322,7 @@ nsMathMLContainerFrame
 ReLayoutChildren
 (
 this
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 return
@@ -3349,6 +3372,7 @@ nsMathMLContainerFrame
 ReLayoutChildren
 (
 this
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 return
@@ -3394,6 +3418,7 @@ nsMathMLContainerFrame
 ReLayoutChildren
 (
 this
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 return

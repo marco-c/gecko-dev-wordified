@@ -1154,11 +1154,6 @@ UpdateImage
 (
 )
 ;
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -1176,6 +1171,7 @@ nsIPresShell
 :
 :
 eStyleChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }
@@ -2893,11 +2889,6 @@ NS_FRAME_FIRST_REFLOW
 )
 )
 {
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -2915,6 +2906,7 @@ nsIPresShell
 :
 :
 eStyleChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }
@@ -3012,11 +3004,6 @@ SizeTo
 0
 )
 ;
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -3034,6 +3021,7 @@ nsIPresShell
 :
 :
 eStyleChange
+NS_FRAME_IS_DIRTY
 )
 ;
 FireImageDOMEvent
