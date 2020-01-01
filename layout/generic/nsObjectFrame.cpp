@@ -1005,6 +1005,13 @@ nsFocusManager
 .
 h
 "
+#
+include
+"
+nsLayoutUtils
+.
+h
+"
 /
 /
 headers

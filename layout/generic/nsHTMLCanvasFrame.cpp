@@ -504,6 +504,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsTransform2D
 .
 h
