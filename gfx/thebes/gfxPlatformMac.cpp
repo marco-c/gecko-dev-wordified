@@ -684,6 +684,11 @@ kAutoActivationDisabled
 )
 ;
 }
+if
+(
+mainBundleID
+)
+{
 :
 :
 CFRelease
@@ -691,6 +696,12 @@ CFRelease
 mainBundleID
 )
 ;
+}
+if
+(
+mainBundle
+)
+{
 :
 :
 CFRelease
@@ -698,6 +709,7 @@ CFRelease
 mainBundle
 )
 ;
+}
 }
 gfxPlatformMac
 :
