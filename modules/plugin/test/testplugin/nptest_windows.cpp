@@ -345,6 +345,10 @@ windowsx
 .
 h
 >
+using
+namespace
+std
+;
 #
 pragma
 comment
