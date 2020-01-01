@@ -9209,6 +9209,11 @@ aGlobal
 )
 {
 return
+NS_IsMainThread
+(
+)
+&
+&
 IsChromeOrXBL
 (
 aCx
