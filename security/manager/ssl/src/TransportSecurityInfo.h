@@ -564,7 +564,7 @@ mIsUntrusted
 ;
 }
 ;
-nsDataHashtableMT
+nsDataHashtable
 <
 nsCStringHashKey
 CertStateBits
