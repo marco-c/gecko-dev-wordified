@@ -9067,6 +9067,9 @@ the
 for
 loop
 }
+#
+ifdef
+MOZ_MEDIA
 /
 /
 If
@@ -9137,6 +9140,8 @@ PR_FALSE
 )
 ;
 }
+#
+endif
 }
 PRBool
 nsTreeSanitizer

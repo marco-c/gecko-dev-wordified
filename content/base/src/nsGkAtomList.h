@@ -13240,9 +13240,6 @@ svgUseFrame
 SVGUseFrame
 "
 )
-#
-ifdef
-MOZ_MEDIA
 GK_ATOM
 (
 HTMLVideoFrame
@@ -13530,8 +13527,6 @@ volumechange
 volumechange
 "
 )
-#
-endif
 /
 /
 Content
