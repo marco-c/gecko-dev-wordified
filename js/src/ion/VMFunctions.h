@@ -4026,6 +4026,17 @@ HandleObject
 templateObject
 )
 ;
+JSObject
+*
+NewInitObjectWithClassPrototype
+(
+JSContext
+*
+cx
+HandleObject
+templateObject
+)
+;
 bool
 ArrayPopDense
 (

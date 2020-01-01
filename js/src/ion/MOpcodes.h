@@ -909,6 +909,11 @@ IsCallable
 \
 _
 (
+HaveSameClass
+)
+\
+_
+(
 AsmJSNeg
 )
 \

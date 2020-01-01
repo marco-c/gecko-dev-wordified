@@ -3457,8 +3457,10 @@ return
 true
 ;
 }
-static
 JSBool
+js
+:
+:
 intrinsic_NewObjectWithClassPrototype
 (
 JSContext

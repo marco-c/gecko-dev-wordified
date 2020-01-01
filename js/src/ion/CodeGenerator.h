@@ -1817,6 +1817,14 @@ lir
 )
 ;
 bool
+visitHaveSameClass
+(
+LHaveSameClass
+*
+lir
+)
+;
+bool
 visitAsmJSCall
 (
 LAsmJSCall

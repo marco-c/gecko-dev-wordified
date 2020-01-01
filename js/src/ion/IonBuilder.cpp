@@ -35225,6 +35225,13 @@ MNewObject
 New
 (
 templateObject
+/
+*
+templateObjectIsClassPrototype
+=
+*
+/
+false
 )
 ;
 current

@@ -1774,6 +1774,14 @@ ins
 )
 ;
 bool
+visitHaveSameClass
+(
+MHaveSameClass
+*
+ins
+)
+;
+bool
 visitAsmJSLoadHeap
 (
 MAsmJSLoadHeap
