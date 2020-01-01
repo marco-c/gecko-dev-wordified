@@ -497,6 +497,8 @@ MEMORY_EXPLICIT
 "
 "
 resident
+-
+fast
 "
 :
 "
