@@ -2033,6 +2033,10 @@ mPacketLeftLength
 =
 0
 ;
+mDsFile
+=
+nullptr
+;
 ClearQueue
 (
 )
@@ -2166,6 +2170,10 @@ Remove
 (
 false
 )
+;
+mDsFile
+=
+nullptr
 ;
 }
 }
