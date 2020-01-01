@@ -187,7 +187,7 @@ String
 LOGTAG
 =
 "
-GeckoDisplayPortCalculator
+GeckoDisplayPort
 "
 ;
 private
