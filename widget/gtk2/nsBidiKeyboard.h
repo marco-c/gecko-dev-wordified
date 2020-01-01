@@ -147,11 +147,6 @@ nsBidiKeyboard
 bool
 mHaveBidiKeyboards
 ;
-nsresult
-SetHaveBidiKeyboards
-(
-)
-;
 }
 ;
 #
