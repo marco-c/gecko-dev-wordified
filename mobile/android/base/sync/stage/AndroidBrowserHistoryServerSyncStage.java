@@ -526,7 +526,7 @@ final
 long
 HISTORY_REQUEST_LIMIT
 =
-500
+250
 ;
 Override
 public
