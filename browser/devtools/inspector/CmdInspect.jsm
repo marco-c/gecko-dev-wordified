@@ -147,7 +147,7 @@ defineLazyModuleGetter
 (
 this
 "
-devtools
+TargetFactory
 "
 "
 resource
@@ -159,7 +159,7 @@ modules
 /
 devtools
 /
-gDevTools
+Target
 .
 jsm
 "
@@ -266,8 +266,6 @@ gBrowser
 let
 target
 =
-devtools
-.
 TargetFactory
 .
 forTab
