@@ -680,6 +680,14 @@ LoadDictionaryList
 (
 )
 ;
+void
+LoadDictionariesFromDir
+(
+nsIFile
+*
+aDir
+)
+;
 /
 /
 helper
