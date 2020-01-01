@@ -2705,7 +2705,7 @@ gfxContext
 since
 that
 would
-elliminate
+eliminate
 the
 transform
 multiplications
