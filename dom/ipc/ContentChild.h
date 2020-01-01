@@ -405,16 +405,6 @@ aOtherProcess
 MOZ_OVERRIDE
 ;
 virtual
-bool
-RecvSetProcessPrivileges
-(
-const
-ChildPrivileges
-&
-aPrivs
-)
-;
-virtual
 PBrowserChild
 *
 AllocPBrowser

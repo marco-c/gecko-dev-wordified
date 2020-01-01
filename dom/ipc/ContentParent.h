@@ -1013,14 +1013,12 @@ manifest
 URL
 .
 void
-TransformPreallocatedIntoApp
+SetManifestFromPreallocated
 (
 const
 nsAString
 &
 aAppManifestURL
-ChildPrivileges
-aPrivs
 )
 ;
 /
