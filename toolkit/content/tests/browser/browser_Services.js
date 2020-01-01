@@ -681,4 +681,14 @@ Ci
 nsIStringBundleService
 )
 ;
+checkService
+(
+"
+urlFormatter
+"
+Ci
+.
+nsIURLFormatter
+)
+;
 }
