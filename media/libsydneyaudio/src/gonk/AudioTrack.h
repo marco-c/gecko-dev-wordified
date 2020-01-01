@@ -3148,6 +3148,12 @@ mSessionId
 int
 mAuxEffectId
 ;
+uint32_t
+mPadding
+[
+8
+]
+;
 }
 ;
 }
