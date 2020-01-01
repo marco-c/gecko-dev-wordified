@@ -2643,6 +2643,9 @@ default
 binary
 launcher
 ?
+nsCAutoString
+path
+;
 char
 *
 argv1
@@ -2733,9 +2736,6 @@ rv
 )
 )
 {
-nsCAutoString
-path
-;
 /
 /
 Strip
