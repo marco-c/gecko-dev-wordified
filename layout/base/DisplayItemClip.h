@@ -378,6 +378,15 @@ nsDisplayItem
 aClipItem
 )
 ;
+void
+IntersectWith
+(
+const
+DisplayItemClip
+&
+aOther
+)
+;
 /
 /
 Apply
@@ -994,6 +1003,7 @@ bool
 HasClip
 (
 )
+const
 {
 return
 mHaveClipRect
@@ -1005,6 +1015,7 @@ nsRect
 GetClipRect
 (
 )
+const
 {
 NS_ASSERTION
 (
