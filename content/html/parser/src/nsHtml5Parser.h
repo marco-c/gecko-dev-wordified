@@ -1829,6 +1829,11 @@ MaybePostContinueEvent
 (
 )
 ;
+nsresult
+PerformCharsetSwitch
+(
+)
+;
 /
 *
 *
@@ -1954,6 +1959,9 @@ mCharsetSource
 ;
 nsCString
 mCharset
+;
+nsCString
+mPendingCharset
 ;
 nsCOMPtr
 <
