@@ -2374,6 +2374,23 @@ aId
 |
 (
 aName
+.
+toLowerCase
+(
+)
+.
+trim
+(
+)
+.
+replace
+(
+"
+"
+"
+-
+"
+)
 +
 "
 -
@@ -3763,7 +3780,6 @@ g
 "
 someProp0
 "
-:
 42
 ]
 *
@@ -3771,7 +3787,6 @@ someProp0
 "
 someProp1
 "
-:
 true
 ]
 *
@@ -3779,7 +3794,6 @@ true
 "
 someProp2
 "
-:
 "
 nasu
 "
@@ -3789,7 +3803,6 @@ nasu
 "
 someProp3
 "
-:
 {
 type
 :
@@ -3803,7 +3816,6 @@ undefined
 "
 someProp4
 "
-:
 {
 type
 :
@@ -3817,7 +3829,6 @@ null
 "
 someProp5
 "
-:
 {
 type
 :
