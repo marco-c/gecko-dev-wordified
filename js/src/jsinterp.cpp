@@ -10637,6 +10637,7 @@ this
 only
 happens
 with
+indirect
 eval
 and
 JS_EvaluateInStackFrame

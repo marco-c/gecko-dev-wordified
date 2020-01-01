@@ -1448,7 +1448,7 @@ purposes
 *
 /
 extern
-JSNative
+JSFastNative
 sEvalNative
 ;
 enum
@@ -1616,7 +1616,7 @@ sEvalNative
 =
 :
 :
-JS_GetFunctionNative
+JS_GetFunctionFastNative
 (
 ccx
 :

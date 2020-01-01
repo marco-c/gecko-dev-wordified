@@ -514,7 +514,7 @@ sNumSlots
 =
 2
 ;
-JSNative
+JSFastNative
 sEvalNative
 =
 nsnull
