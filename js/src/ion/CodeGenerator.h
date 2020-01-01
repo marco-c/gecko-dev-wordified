@@ -544,6 +544,11 @@ generateArgumentsChecks
 )
 ;
 bool
+generateInvalidateEpilogue
+(
+)
+;
+bool
 generateBody
 (
 )
@@ -584,9 +589,9 @@ lir
 )
 ;
 bool
-visitCaptureAllocations
+visitOsiPoint
 (
-LCaptureAllocations
+LOsiPoint
 *
 lir
 )

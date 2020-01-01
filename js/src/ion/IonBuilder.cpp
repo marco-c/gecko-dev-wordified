@@ -21734,12 +21734,6 @@ fixed
 ;
 }
 }
-TypeOracle
-:
-:
-Binary
-binary
-=
 oracle
 -
 >
