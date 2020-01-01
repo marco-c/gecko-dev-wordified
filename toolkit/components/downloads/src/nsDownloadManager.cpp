@@ -706,13 +706,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 nsIResumableChannel
 .
 h
