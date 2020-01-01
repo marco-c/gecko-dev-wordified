@@ -2484,6 +2484,7 @@ nsAccessible
 aAccessible
 PRInt32
 aStart
+const
 nsAString
 &
 aModifiedText
