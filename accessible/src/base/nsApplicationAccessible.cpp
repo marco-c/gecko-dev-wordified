@@ -999,13 +999,13 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsApplicationAccessible
 :
 :
-GetDescription
+Description
 (
-nsAString
+nsString
 &
 aDescription
 )
@@ -1015,9 +1015,6 @@ aDescription
 Truncate
 (
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

@@ -1392,13 +1392,13 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsXFormsComboboxPopupWidgetAccessible
 :
 :
-GetDescription
+Description
 (
-nsAString
+nsString
 &
 aDescription
 )
@@ -1408,9 +1408,6 @@ aDescription
 Truncate
 (
 )
-;
-return
-NS_OK
 ;
 }
 void
