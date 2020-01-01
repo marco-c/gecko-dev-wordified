@@ -1250,6 +1250,10 @@ finalizer
 let
 _CloseHandle
 =
+WinFile
+.
+_CloseHandle
+=
 libc
 .
 declare
