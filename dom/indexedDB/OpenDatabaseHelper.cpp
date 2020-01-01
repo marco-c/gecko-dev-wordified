@@ -8836,6 +8836,7 @@ Init
 (
 fileManagerDirectory
 connection
+mPrivilege
 )
 ;
 NS_ENSURE_SUCCESS
