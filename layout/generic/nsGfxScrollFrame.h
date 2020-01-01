@@ -1134,7 +1134,7 @@ aListener
 {
 mListeners
 .
-AppendObject
+AppendElement
 (
 aListener
 )
@@ -1150,7 +1150,7 @@ aListener
 {
 mListeners
 .
-RemoveObject
+RemoveElement
 (
 aListener
 )
@@ -1519,9 +1519,10 @@ AsyncScroll
 *
 mAsyncScroll
 ;
-nsCOMArray
+nsTArray
 <
 nsIScrollPositionListener
+*
 >
 mListeners
 ;
