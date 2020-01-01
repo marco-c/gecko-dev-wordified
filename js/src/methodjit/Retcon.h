@@ -899,8 +899,6 @@ PatchableNative
 >
 &
 natives
-uint32
-recompilations
 )
 ;
 static
@@ -948,9 +946,6 @@ CallSite
 >
 *
 sites
-uint32
-*
-recompilations
 )
 ;
 }
