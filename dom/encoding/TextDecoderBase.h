@@ -103,7 +103,7 @@ dom
 class
 TextDecoderBase
 {
-protected
+public
 :
 TextDecoderBase
 (
@@ -224,8 +224,6 @@ ErrorResult
 aRv
 )
 ;
-public
-:
 /
 *
 *
