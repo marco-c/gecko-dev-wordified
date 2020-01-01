@@ -452,6 +452,9 @@ windows
 h
 >
 class
+gfxContext
+;
+class
 THEBES_API
 gfxWindowsSurface
 :
@@ -566,6 +569,13 @@ return
 mDC
 ;
 }
+HDC
+GetDCWithClip
+(
+gfxContext
+*
+)
+;
 already_AddRefed
 <
 gfxImageSurface
