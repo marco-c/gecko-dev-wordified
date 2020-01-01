@@ -867,8 +867,15 @@ positioned
 element
 CSS2
 rules
+/
+*
 static
+*
+/
 void
+nsRuleNode
+:
+:
 EnsureBlockDisplay
 (
 uint8_t
