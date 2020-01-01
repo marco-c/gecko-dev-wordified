@@ -918,6 +918,15 @@ selectedBrowser
 )
 .
 dismissed
+&
+&
+gNewWindow
+.
+PopupNotifications
+.
+panel
+.
+firstChild
 ;
 waitForCondition
 (
