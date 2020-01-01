@@ -57883,6 +57883,9 @@ aStyleSetsSize
 size_t
 *
 aTextRunsSize
+size_t
+*
+aPresContextSize
 )
 const
 {
@@ -57922,6 +57925,17 @@ aMallocSizeOf
 aTextRunsSize
 =
 SizeOfTextRuns
+(
+aMallocSizeOf
+)
+;
+*
+aPresContextSize
+=
+mPresContext
+-
+>
+SizeOfIncludingThis
 (
 aMallocSizeOf
 )

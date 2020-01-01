@@ -51216,6 +51216,11 @@ aWindowSizes
 -
 >
 mLayoutTextRuns
+&
+aWindowSizes
+-
+>
+mLayoutPresContext
 )
 ;
 }
