@@ -704,6 +704,7 @@ sendKey
 "
 RETURN
 "
+gDebugger
 )
 ;
 is
@@ -1208,6 +1209,7 @@ sendKey
 "
 RETURN
 "
+gDebugger
 )
 ;
 is
@@ -3011,6 +3013,7 @@ sendKey
 "
 BACK_SPACE
 "
+gDebugger
 )
 }
 }
@@ -3052,6 +3055,7 @@ text
 [
 i
 ]
+gDebugger
 )
 ;
 }

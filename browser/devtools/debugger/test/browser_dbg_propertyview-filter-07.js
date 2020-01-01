@@ -223,6 +223,7 @@ sendKey
 "
 RETURN
 "
+gDebugger
 )
 ;
 }
@@ -304,6 +305,7 @@ sendKey
 "
 RETURN
 "
+gDebugger
 )
 ;
 }
@@ -383,6 +385,7 @@ sendKey
 "
 RETURN
 "
+gDebugger
 )
 ;
 }
@@ -510,6 +513,7 @@ sendKey
 "
 RETURN
 "
+gDebugger
 )
 ;
 }
@@ -591,6 +595,7 @@ sendKey
 "
 RETURN
 "
+gDebugger
 )
 ;
 }
@@ -670,6 +675,7 @@ sendKey
 "
 RETURN
 "
+gDebugger
 )
 ;
 }
@@ -1805,7 +1811,9 @@ sendKey
 "
 BACK_SPACE
 "
+gDebugger
 )
+;
 }
 }
 function
@@ -1846,6 +1854,7 @@ text
 [
 i
 ]
+gDebugger
 )
 ;
 }

@@ -157,10 +157,7 @@ gPane
 .
 panelWin
 ;
-}
-)
-;
-window
+gDebugger
 .
 addEventListener
 (
@@ -175,7 +172,7 @@ _onEvent
 aEvent
 )
 {
-window
+gDebugger
 .
 removeEventListener
 (
@@ -199,6 +196,9 @@ run
 testScriptSearching
 }
 0
+)
+;
+}
 )
 ;
 }
@@ -260,7 +260,7 @@ firstSearch
 (
 )
 {
-window
+gDebugger
 .
 addEventListener
 (
@@ -273,7 +273,7 @@ _onEvent
 aEvent
 )
 {
-window
+gDebugger
 .
 removeEventListener
 (
@@ -833,7 +833,7 @@ proceeded
 =
 false
 ;
-window
+gDebugger
 .
 addEventListener
 (
@@ -848,7 +848,7 @@ _onEvent1
 aEvent
 )
 {
-window
+gDebugger
 .
 removeEventListener
 (
@@ -870,7 +870,7 @@ proceed
 }
 )
 ;
-window
+gDebugger
 .
 addEventListener
 (
@@ -883,7 +883,7 @@ _onEvent2
 aEvent
 )
 {
-window
+gDebugger
 .
 removeEventListener
 (
@@ -1492,7 +1492,7 @@ proceeded
 =
 false
 ;
-window
+gDebugger
 .
 addEventListener
 (
@@ -1507,7 +1507,7 @@ _onEvent1
 aEvent
 )
 {
-window
+gDebugger
 .
 removeEventListener
 (
@@ -1529,7 +1529,7 @@ proceed
 }
 )
 ;
-window
+gDebugger
 .
 addEventListener
 (
@@ -1542,7 +1542,7 @@ _onEvent2
 aEvent
 )
 {
-window
+gDebugger
 .
 removeEventListener
 (
@@ -2131,7 +2131,7 @@ goDown
 (
 )
 {
-window
+gDebugger
 .
 addEventListener
 (
@@ -2319,7 +2319,7 @@ mode
 1
 )
 {
-window
+gDebugger
 .
 removeEventListener
 (
@@ -2456,6 +2456,7 @@ sendKey
 "
 DOWN
 "
+gDebugger
 )
 ;
 }
@@ -2464,7 +2465,7 @@ goDownAgain
 (
 )
 {
-window
+gDebugger
 .
 addEventListener
 (
@@ -2656,7 +2657,7 @@ js
 1
 )
 {
-window
+gDebugger
 .
 removeEventListener
 (
@@ -2798,6 +2799,7 @@ metaKey
 :
 true
 }
+gDebugger
 )
 ;
 }
@@ -2806,7 +2808,7 @@ goDownAndWrap
 (
 )
 {
-window
+gDebugger
 .
 addEventListener
 (
@@ -2996,7 +2998,7 @@ html
 1
 )
 {
-window
+gDebugger
 .
 removeEventListener
 (
@@ -3138,6 +3140,7 @@ ctrlKey
 :
 true
 }
+gDebugger
 )
 ;
 }
@@ -3146,7 +3149,7 @@ goUpAndWrap
 (
 )
 {
-window
+gDebugger
 .
 addEventListener
 (
@@ -3338,7 +3341,7 @@ js
 1
 )
 {
-window
+gDebugger
 .
 removeEventListener
 (
@@ -3475,6 +3478,7 @@ sendKey
 "
 UP
 "
+gDebugger
 )
 ;
 }
@@ -3483,7 +3487,7 @@ clickAndSwitch
 (
 )
 {
-window
+gDebugger
 .
 addEventListener
 (
@@ -3673,7 +3677,7 @@ html
 1
 )
 {
-window
+gDebugger
 .
 removeEventListener
 (
@@ -3830,7 +3834,7 @@ clickAndSwitchAgain
 (
 )
 {
-window
+gDebugger
 .
 addEventListener
 (
@@ -4022,7 +4026,7 @@ js
 1
 )
 {
-window
+gDebugger
 .
 removeEventListener
 (
@@ -4179,7 +4183,7 @@ switchFocusWithEscape
 (
 )
 {
-window
+gDebugger
 .
 addEventListener
 (
@@ -4192,7 +4196,7 @@ _onEvent
 aEvent
 )
 {
-window
+gDebugger
 .
 removeEventListener
 (
@@ -4404,6 +4408,7 @@ sendKey
 "
 ESCAPE
 "
+gDebugger
 )
 ;
 }
@@ -4412,7 +4417,7 @@ focusAgainAfterEscape
 (
 )
 {
-window
+gDebugger
 .
 addEventListener
 (
@@ -4425,7 +4430,7 @@ _onEvent
 aEvent
 )
 {
-window
+gDebugger
 .
 removeEventListener
 (
@@ -4643,7 +4648,7 @@ switchFocusWithReturn
 (
 )
 {
-window
+gDebugger
 .
 addEventListener
 (
@@ -4656,7 +4661,7 @@ _onEvent
 aEvent
 )
 {
-window
+gDebugger
 .
 removeEventListener
 (
@@ -4868,6 +4873,7 @@ sendKey
 "
 RETURN
 "
+gDebugger
 )
 ;
 }
@@ -4935,7 +4941,9 @@ sendKey
 "
 BACK_SPACE
 "
+gDebugger
 )
+;
 }
 }
 function
@@ -4976,6 +4984,7 @@ text
 [
 i
 ]
+gDebugger
 )
 ;
 }

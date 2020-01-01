@@ -287,6 +287,7 @@ sendKey
 "
 RETURN
 "
+gDebugger
 )
 ;
 aCallback
@@ -2663,7 +2664,9 @@ sendKey
 "
 BACK_SPACE
 "
+gDebugger
 )
+;
 }
 }
 function
@@ -2704,6 +2707,7 @@ text
 [
 i
 ]
+gDebugger
 )
 ;
 }
