@@ -463,13 +463,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

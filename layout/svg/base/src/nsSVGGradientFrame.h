@@ -445,13 +445,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h

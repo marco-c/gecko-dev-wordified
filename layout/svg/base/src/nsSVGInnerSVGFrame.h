@@ -647,15 +647,6 @@ GetCanvasTM
 ;
 /
 /
-nsISupportsWeakReference
-/
-/
-implementation
-inherited
-from
-nsSupportsWeakReference
-/
-/
 nsISVGSVGFrame
 interface
 :

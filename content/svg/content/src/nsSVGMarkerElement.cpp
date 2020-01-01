@@ -437,13 +437,6 @@ h
 #
 include
 "
-nsISVGValueUtils
-.
-h
-"
-#
-include
-"
 SVGAnimatedPreserveAspectRatio
 .
 h
