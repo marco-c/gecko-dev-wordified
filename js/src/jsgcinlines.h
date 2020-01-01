@@ -2135,11 +2135,7 @@ kind
 )
 )
 ;
-#
-ifdef
-JS_THREADSAFE
 JS_ASSERT_IF
-(
 (
 cx
 -
@@ -2154,7 +2150,6 @@ runtime
 -
 >
 atomsCompartment
-)
 kind
 =
 =
@@ -2179,8 +2174,6 @@ gc
 FINALIZE_SHORT_STRING
 )
 ;
-#
-endif
 JS_ASSERT
 (
 !
@@ -2403,11 +2396,7 @@ kind
 )
 )
 ;
-#
-ifdef
-JS_THREADSAFE
 JS_ASSERT_IF
-(
 (
 cx
 -
@@ -2422,7 +2411,6 @@ runtime
 -
 >
 atomsCompartment
-)
 kind
 =
 =
@@ -2447,8 +2435,6 @@ gc
 FINALIZE_SHORT_STRING
 )
 ;
-#
-endif
 JS_ASSERT
 (
 !

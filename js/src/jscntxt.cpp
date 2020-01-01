@@ -6629,9 +6629,6 @@ ShrinkGCBuffers
 this
 )
 ;
-#
-ifdef
-JS_THREADSAFE
 {
 AutoLockGC
 lock
@@ -6646,8 +6643,6 @@ waitBackgroundSweepOrAllocEnd
 )
 ;
 }
-#
-endif
 if
 (
 !

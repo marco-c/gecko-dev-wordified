@@ -4133,9 +4133,6 @@ data
 (
 NULL
 )
-#
-ifdef
-JS_THREADSAFE
 gcLock
 (
 NULL
@@ -4146,8 +4143,6 @@ thisFromCtor
 (
 )
 )
-#
-endif
 defaultFreeOp_
 (
 thisFromCtor
