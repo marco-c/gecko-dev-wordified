@@ -1332,13 +1332,12 @@ the
 window
 .
 virtual
-nsresult
+already_AddRefed
+<
+nsISupports
+>
 SaveWindowState
 (
-nsISupports
-*
-*
-aState
 )
 =
 0
