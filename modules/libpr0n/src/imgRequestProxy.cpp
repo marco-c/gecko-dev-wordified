@@ -886,7 +886,7 @@ the
 On
 *
 notifications
-immediatly
+immediately
 request
 -
 >
