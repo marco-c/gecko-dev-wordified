@@ -8356,6 +8356,13 @@ CloneFunctionObject
 (
 cx
 fun
+fun
+-
+>
+getParent
+(
+)
+true
 )
 ;
 if

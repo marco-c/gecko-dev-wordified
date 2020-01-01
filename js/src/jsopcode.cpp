@@ -26549,6 +26549,9 @@ break
 case
 JSOP_SETELEM
 :
+case
+JSOP_SETHOLE
+:
 rval
 =
 POP_STR

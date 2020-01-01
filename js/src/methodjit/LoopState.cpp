@@ -1637,8 +1637,6 @@ bool
 entry
 unsigned
 patchIndex
-Uses
-uses
 )
 {
 RestoreInvariantCall
@@ -1682,7 +1680,6 @@ frame
 .
 getTemporaryCopies
 (
-uses
 )
 ;
 restoreInvariantCalls
@@ -2116,7 +2113,6 @@ stubs
 InvariantFailure
 )
 pc
-NULL
 NULL
 0
 )
@@ -12868,6 +12864,9 @@ true
 break
 ;
 case
+JSOP_SETHOLE
+:
+case
 JSOP_SETELEM
 :
 {
@@ -13040,15 +13039,10 @@ return
 ;
 if
 (
-analysis
--
->
-getCode
-(
-pc
-)
-.
-arrayWriteHole
+op
+=
+=
+JSOP_SETHOLE
 &
 &
 !
