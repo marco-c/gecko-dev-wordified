@@ -65,6 +65,12 @@ import
 os
 import
 types
+import
+mozbuild
+.
+makeutil
+as
+mozmakeutil
 from
 mozpack
 .
@@ -2210,6 +2216,14 @@ mk
 )
 )
         
+mk
+=
+mozmakeutil
+.
+Makefile
+(
+)
+        
 for
 p
 in
@@ -2221,9 +2235,9 @@ _ipdl_sources
 )
 :
             
-ipdls
+mk
 .
-write
+add_statement
 (
 '
 ALL_IPDLSRCS
@@ -2273,9 +2287,9 @@ become
 cpp
 files
             
-ipdls
+mk
 .
-write
+add_statement
 (
 '
 CPPSRCS
@@ -2314,9 +2328,9 @@ Parent
 cpp
 files
                 
-ipdls
+mk
 .
-write
+add_statement
 (
 '
 CPPSRCS
@@ -2333,9 +2347,9 @@ n
 root
 )
                 
-ipdls
+mk
 .
-write
+add_statement
 (
 '
 CPPSRCS
@@ -2352,9 +2366,9 @@ n
 root
 )
         
-ipdls
+mk
 .
-write
+add_statement
 (
 '
 IPDLDIRS
@@ -2393,6 +2407,13 @@ _ipdl_sources
 )
 )
 )
+)
+        
+mk
+.
+dump
+(
+ipdls
 )
         
 self
