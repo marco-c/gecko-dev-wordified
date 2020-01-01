@@ -122,6 +122,10 @@ MessagePumpForUI
 (
 )
 :
+state_
+(
+NULL
+)
 pump
 (
 *
