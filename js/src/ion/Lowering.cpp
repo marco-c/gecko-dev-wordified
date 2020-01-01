@@ -7052,7 +7052,7 @@ lir
 new
 LIntToString
 (
-useRegisterAtStart
+useRegister
 (
 opd
 )
@@ -7061,7 +7061,7 @@ opd
 if
 (
 !
-defineVMReturn
+define
 (
 lir
 ins

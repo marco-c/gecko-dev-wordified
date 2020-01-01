@@ -7209,7 +7209,7 @@ class
 LIntToString
 :
 public
-LCallInstructionHelper
+LInstructionHelper
 <
 1
 1
