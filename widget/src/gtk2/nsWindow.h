@@ -2173,15 +2173,6 @@ GtkWindowGroup
 mWindowGroup
 ;
 PRUint32
-mContainerGotFocus
-:
-1
-mContainerLostFocus
-:
-1
-mContainerBlockFocus
-:
-1
 mHasMappedToplevel
 :
 1
