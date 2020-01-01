@@ -886,6 +886,10 @@ freeBuffer
 (
 )
 ;
+mThumbnailBitmap
+=
+null
+;
 mThumbnailBuffer
 =
 DirectBufferAllocator
@@ -899,6 +903,7 @@ return
 mThumbnailBuffer
 ;
 }
+synchronized
 public
 Bitmap
 getThumbnailBitmap
