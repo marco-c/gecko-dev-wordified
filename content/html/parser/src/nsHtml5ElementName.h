@@ -325,6 +325,13 @@ nsHtml5Atoms
 .
 h
 "
+#
+include
+"
+nsHtml5ByteReadable
+.
+h
+"
 class
 nsHtml5Parser
 ;
@@ -333,6 +340,9 @@ nsHtml5Tokenizer
 ;
 class
 nsHtml5TreeBuilder
+;
+class
+nsHtml5MetaScanner
 ;
 class
 nsHtml5AttributeName

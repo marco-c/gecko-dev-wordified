@@ -325,6 +325,13 @@ h
 #
 include
 "
+nsHtml5ByteReadable
+.
+h
+"
+#
+include
+"
 nsHtml5Tokenizer
 .
 h
@@ -333,6 +340,13 @@ h
 include
 "
 nsHtml5TreeBuilder
+.
+h
+"
+#
+include
+"
+nsHtml5MetaScanner
 .
 h
 "
