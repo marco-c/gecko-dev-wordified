@@ -1920,7 +1920,7 @@ chromeWin
 .
 ContextUI
 .
-dismiss
+dismissContextAppbar
 (
 )
 ;

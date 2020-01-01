@@ -1489,7 +1489,7 @@ chromeWin
 .
 ContextUI
 .
-dismiss
+dismissContextAppbar
 (
 )
 ;
