@@ -1009,6 +1009,10 @@ mNoAutoHide
 (
 PR_FALSE
 )
+mIsDragPopup
+(
+PR_FALSE
+)
 {
 }
 nsWindowType
