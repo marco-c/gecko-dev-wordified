@@ -1753,9 +1753,14 @@ modifyLogin
 aSubject
 =
 aSubject
-[
+.
+queryElementAt
+(
 1
-]
+Ci
+.
+nsILoginMetaInfo
+)
 ;
 case
 '
