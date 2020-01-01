@@ -1136,6 +1136,14 @@ RegisterFreezableElement
 (
 )
 ;
+SetIsNetworkCreated
+(
+aFromParser
+=
+=
+NS_FROM_PARSER_NETWORK
+)
+;
 }
 nsHTMLSharedObjectElement
 :
@@ -2339,6 +2347,11 @@ type
 )
 ;
 }
+SetIsNetworkCreated
+(
+PR_FALSE
+)
+;
 }
 nsEventStates
 nsHTMLSharedObjectElement
