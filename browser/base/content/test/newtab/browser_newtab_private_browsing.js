@@ -109,6 +109,7 @@ runTests
 prepare
 the
 grid
+yield
 setLinks
 (
 "

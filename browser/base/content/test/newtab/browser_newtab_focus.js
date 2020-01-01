@@ -139,6 +139,7 @@ new
 tab
 page
 .
+yield
 setLinks
 (
 "

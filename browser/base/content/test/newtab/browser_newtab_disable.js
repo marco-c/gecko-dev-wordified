@@ -72,6 +72,7 @@ and
 hide
 it
 .
+yield
 setLinks
 (
 "

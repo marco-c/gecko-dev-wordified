@@ -107,6 +107,7 @@ and
 -
 drop
 scenario
+yield
 setLinks
 (
 "
@@ -188,6 +189,7 @@ s
 not
 pinned
 afterwards
+yield
 setLinks
 (
 "
@@ -267,6 +269,7 @@ that
 s
 not
 necessary
+yield
 setLinks
 (
 "
@@ -359,6 +362,7 @@ are
 affected
 as
 well
+yield
 setLinks
 (
 "
@@ -450,6 +454,7 @@ on
 the
 grid
 )
+yield
 setLinks
 (
 "
@@ -527,6 +532,7 @@ re
 -
 positioned
 correctly
+yield
 setLinks
 (
 "
@@ -605,6 +611,7 @@ the
 very
 first
 cell
+yield
 setLinks
 (
 "
@@ -692,6 +699,7 @@ get
 /
 pushed
 out
+yield
 setLinks
 (
 "
@@ -777,6 +785,7 @@ is
 /
 not
 moved
+yield
 setLinks
 (
 "
@@ -863,6 +872,7 @@ shifted
 /
 around
 accordingly
+yield
 setLinks
 (
 "

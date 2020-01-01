@@ -43,6 +43,7 @@ and
 hide
 it
 .
+yield
 setLinks
 (
 "
@@ -95,7 +96,6 @@ NewTabUtils
 allPages
 .
 enabled
-true
 "
 page
 is

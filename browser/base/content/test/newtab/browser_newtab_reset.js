@@ -80,6 +80,7 @@ after
 blocking
 a
 site
+yield
 setLinks
 (
 "

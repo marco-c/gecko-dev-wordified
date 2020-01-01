@@ -95,6 +95,7 @@ fixed
 .
 return
 ;
+yield
 setLinks
 (
 "

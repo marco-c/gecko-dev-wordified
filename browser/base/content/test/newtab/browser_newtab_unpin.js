@@ -101,6 +101,7 @@ we
 unpin
 it
 .
+yield
 setLinks
 (
 "
@@ -211,6 +212,7 @@ of
 the
 grid
 .
+yield
 setLinks
 (
 "
@@ -304,6 +306,7 @@ after
 being
 unpinned
 .
+yield
 setLinks
 (
 "
@@ -418,6 +421,7 @@ a
 much
 lower
 priority
+yield
 setLinks
 (
 "
