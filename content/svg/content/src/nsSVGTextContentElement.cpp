@@ -555,12 +555,8 @@ GetTextContainerFrame
 ;
 if
 (
-!
 metrics
 )
-return
-NS_ERROR_FAILURE
-;
 *
 _retval
 =
@@ -612,12 +608,8 @@ GetTextContainerFrame
 ;
 if
 (
-!
 metrics
 )
-return
-NS_ERROR_FAILURE
-;
 *
 _retval
 =
@@ -685,7 +677,7 @@ if
 metrics
 )
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 PRUint32
 charcount
@@ -1042,12 +1034,8 @@ GetTextContainerFrame
 ;
 if
 (
-!
 metrics
 )
-return
-NS_ERROR_FAILURE
-;
 *
 _retval
 =
