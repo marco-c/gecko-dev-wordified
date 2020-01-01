@@ -3307,7 +3307,6 @@ global
 >
 EnsureScriptEnvironment
 (
-aLanguage
 )
 )
 )
@@ -3350,7 +3349,6 @@ global
 >
 GetScriptContext
 (
-aLanguage
 )
 ;
 NS_ENSURE_TRUE
