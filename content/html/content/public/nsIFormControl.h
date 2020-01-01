@@ -483,7 +483,6 @@ NS_FORM_OUTPUT
 NS_FORM_SELECT
 NS_FORM_TEXTAREA
 NS_FORM_OBJECT
-NS_FORM_PROGRESS
 eFormControlsWithoutSubTypesMax
 /
 /
@@ -1723,6 +1722,8 @@ type
 NS_FORM_OUTPUT
 |
 |
+/
+/
 type
 =
 =

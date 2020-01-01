@@ -786,10 +786,6 @@ HTMLPreElement
 )
 DOMCI_CLASS
 (
-HTMLProgressElement
-)
-DOMCI_CLASS
-(
 HTMLQuoteElement
 )
 DOMCI_CLASS

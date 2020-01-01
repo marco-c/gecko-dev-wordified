@@ -1289,13 +1289,6 @@ pre
 )
 EDITOR_ATOM
 (
-progress
-"
-progress
-"
-)
-EDITOR_ATOM
-(
 q
 "
 q
