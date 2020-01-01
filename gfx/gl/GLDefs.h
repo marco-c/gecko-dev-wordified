@@ -12956,6 +12956,13 @@ LOCAL_EGL_CONTEXT_LOST
 0x300E
 /
 /
+EGL_KHR_gl_texture_2D_image
+#
+define
+LOCAL_EGL_GL_TEXTURE_2D
+0x30B1
+/
+/
 EGL_KHR_fence_sync
 #
 define
