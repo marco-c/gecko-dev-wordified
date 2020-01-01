@@ -238,7 +238,9 @@ metro_viewstate_changed
 false
 )
 ;
-window
+StartUI
+.
+chromeWin
 .
 addEventListener
 (
@@ -249,7 +251,9 @@ this
 false
 )
 ;
-window
+StartUI
+.
+chromeWin
 .
 addEventListener
 (
@@ -388,7 +392,7 @@ value
 "
 )
 ;
-BrowserUI
+StartUI
 .
 goToURI
 (
@@ -1933,6 +1937,13 @@ uninit
 (
 )
 {
+if
+(
+this
+.
+_view
+)
+{
 this
 .
 _view
@@ -1941,6 +1952,7 @@ destruct
 (
 )
 ;
+}
 }
 show
 :

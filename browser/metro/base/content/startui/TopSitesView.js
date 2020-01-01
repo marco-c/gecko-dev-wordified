@@ -162,7 +162,9 @@ when
 the
 appbar
 closes
-window
+StartUI
+.
+chromeWin
 .
 addEventListener
 (
@@ -1996,6 +1998,13 @@ uninit
 (
 )
 {
+if
+(
+this
+.
+_view
+)
+{
 this
 .
 _view
@@ -2004,6 +2013,7 @@ destruct
 (
 )
 ;
+}
 }
 show
 :
