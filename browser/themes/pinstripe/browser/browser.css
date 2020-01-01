@@ -640,9 +640,7 @@ TOOLBAR
 *
 /
 #
-personal
--
-toolbar
+PersonalToolbar
 {
 background
 :
@@ -2264,9 +2262,9 @@ margin
 ;
 }
 #
-navigation
+nav
 -
-toolbar
+bar
 .
 toolbarbutton
 -
@@ -7133,9 +7131,9 @@ none
 ;
 }
 #
-navigation
+nav
 -
-toolbar
+bar
 {
 background
 -
@@ -7200,9 +7198,9 @@ padding
 ;
 }
 #
-navigation
+nav
 -
-toolbar
+bar
 [
 mode
 =

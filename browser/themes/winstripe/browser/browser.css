@@ -571,9 +571,7 @@ height
 /
 }
 #
-personal
--
-toolbar
+PersonalToolbar
 {
 min
 -
@@ -713,7 +711,7 @@ hidden
 ;
 }
 #
-browser
+navigator
 -
 toolbox
 [
@@ -724,7 +722,7 @@ true
 "
 ]
 #
-browser
+navigator
 -
 toolbox
 [
@@ -736,9 +734,9 @@ true
 ]
 >
 #
-navigation
+nav
 -
-toolbar
+bar
 {
 border
 -

@@ -28769,9 +28769,7 @@ id
 =
 =
 "
-personal
--
-toolbar
+PersonalToolbar
 "
 |
 |
@@ -28785,9 +28783,7 @@ id
 =
 =
 "
-personal
--
-toolbar
+PersonalToolbar
 "
 ?
 homeButton
@@ -31200,7 +31196,7 @@ document
 getElementById
 (
 "
-browser
+navigator
 -
 toolbox
 "
