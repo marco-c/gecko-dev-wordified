@@ -6536,7 +6536,7 @@ true
 attachment
 :
 {
-expression
+currentExpression
 :
 "
 "
@@ -6852,7 +6852,7 @@ i
 .
 attachment
 .
-expression
+currentExpression
 =
 =
 aVar
@@ -6925,7 +6925,7 @@ expressionItem
 .
 attachment
 .
-expression
+currentExpression
 =
 aExpression
 ;
@@ -7018,7 +7018,7 @@ i
 .
 attachment
 .
-expression
+currentExpression
 =
 =
 aVar
@@ -7138,7 +7138,7 @@ aIndex
 .
 attachment
 .
-expression
+currentExpression
 ;
 }
 /
@@ -7184,7 +7184,7 @@ item
 .
 attachment
 .
-expression
+currentExpression
 for
 (
 item
@@ -7780,7 +7780,7 @@ expressionItem
 .
 attachment
 .
-expression
+currentExpression
 ;
 let
 newExpression
@@ -7898,7 +7898,7 @@ expressionItem
 .
 attachment
 .
-expression
+currentExpression
 =
 newExpression
 ;
