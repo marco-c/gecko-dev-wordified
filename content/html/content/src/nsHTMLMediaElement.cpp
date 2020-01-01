@@ -1714,8 +1714,7 @@ NS_OK
 *
 readonly
 attribute
-unsigned
-short
+boolean
 paused
 ;
 *
@@ -1726,7 +1725,7 @@ nsHTMLMediaElement
 :
 GetPaused
 (
-PRUint16
+PRBool
 *
 aPaused
 )
