@@ -1599,8 +1599,10 @@ aInString
 )
 ;
 bool
-GatherIdent
+GatherText
 (
+uint8_t
+aClass
 nsString
 &
 aIdent
