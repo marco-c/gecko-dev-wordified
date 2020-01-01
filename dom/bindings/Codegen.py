@@ -998,7 +998,11 @@ PrototypeClass
 %
 sPrototype
 "
-0
+  
+JSCLASS_HAS_RESERVED_SLOTS
+(
+1
+)
   
 JS_PropertyStub
 /
@@ -9045,6 +9049,13 @@ n
                           
 "
 %
+s
+\
+n
+"
+                          
+"
+%
 %
 (
 methods
@@ -9113,6 +9124,23 @@ NULL
 "
             
 constructArgs
+            
+"
+&
+Class
+.
+mBase
+"
+if
+self
+.
+descriptor
+.
+concrete
+else
+"
+NULL
+"
             
 '
 "
