@@ -236,17 +236,6 @@ display
 "
 sp
 -
-text
--
-resetContext
-"
-:
-"
-resetContext
-"
-"
-sp
--
 menu
 -
 content

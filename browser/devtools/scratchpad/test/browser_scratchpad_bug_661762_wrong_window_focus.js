@@ -724,7 +724,11 @@ correct
 is
 (
 result
+.
+type
+"
 undefined
+"
 "
 result
 is
