@@ -1803,6 +1803,8 @@ bool
 entry
 unsigned
 patchIndex
+Uses
+uses
 )
 ;
 uint32

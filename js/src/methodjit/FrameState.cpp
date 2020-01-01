@@ -21134,6 +21134,8 @@ FrameState
 :
 getTemporaryCopies
 (
+Uses
+uses
 )
 {
 /
@@ -21233,6 +21235,9 @@ if
 deadEntry
 (
 nfe
+uses
+.
+nuses
 )
 &
 &
