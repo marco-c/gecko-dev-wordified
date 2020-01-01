@@ -6685,8 +6685,9 @@ tobj
 wobj
 )
 )
-return
-false
+MOZ_CRASH
+(
+)
 ;
 /
 /
@@ -6813,8 +6814,9 @@ cx
 tobj
 )
 )
-return
-false
+MOZ_CRASH
+(
+)
 ;
 }
 /
@@ -7118,8 +7120,9 @@ toObject
 newTarget
 )
 )
-return
-false
+MOZ_CRASH
+(
+)
 ;
 }
 return
@@ -7402,8 +7405,9 @@ wrapper
 wrapped
 )
 )
-return
-false
+MOZ_CRASH
+(
+)
 ;
 }
 return

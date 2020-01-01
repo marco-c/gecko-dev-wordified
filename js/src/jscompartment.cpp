@@ -1088,7 +1088,7 @@ flags
 =
 0
 ;
-JS_CHECK_RECURSION
+JS_CHECK_CHROME_RECURSION
 (
 cx
 return
