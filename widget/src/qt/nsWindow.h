@@ -1823,13 +1823,6 @@ ThemeChanged
 void
 )
 ;
-virtual
-LayerManager
-*
-GetLayerManager
-(
-)
-;
 gfxASurface
 *
 GetThebesSurface

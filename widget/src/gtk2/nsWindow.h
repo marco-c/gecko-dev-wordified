@@ -1862,13 +1862,6 @@ PRInt32
 aStride
 )
 ;
-virtual
-LayerManager
-*
-GetLayerManager
-(
-)
-;
 gfxASurface
 *
 GetThebesSurface
