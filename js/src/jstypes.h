@@ -5250,6 +5250,9 @@ __extension__
 type
 )
 (
+size_t
+)
+(
 fun
 )
 )
@@ -5264,6 +5267,9 @@ ptr
 __extension__
 (
 type
+)
+(
+size_t
 )
 (
 ptr

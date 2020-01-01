@@ -3232,6 +3232,8 @@ id
 Value
 *
 vp
+JSBool
+strict
 )
 {
 ThisTypeArray
@@ -3853,6 +3855,7 @@ obj
 id
 &
 tmp
+false
 )
 ;
 }
@@ -3871,6 +3874,8 @@ id
 Value
 *
 rval
+JSBool
+strict
 )
 {
 if

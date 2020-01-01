@@ -5690,13 +5690,6 @@ JSID_IS_INT
 (
 id
 )
-|
-|
-(
-flags
-&
-JSRESOLVE_ASSIGNING
-)
 )
 return
 JS_TRUE
@@ -12420,6 +12413,7 @@ count
 )
 &
 v
+false
 )
 ;
 }

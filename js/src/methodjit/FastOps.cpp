@@ -8447,10 +8447,13 @@ stubcc
 .
 call
 (
+STRICT_VARIANT
+(
 stubs
 :
 :
 SetElem
+)
 )
 ;
 /
@@ -9227,10 +9230,13 @@ stubcc
 .
 call
 (
+STRICT_VARIANT
+(
 stubs
 :
 :
 SetElem
+)
 )
 ;
 /

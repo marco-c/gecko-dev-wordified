@@ -1410,6 +1410,8 @@ js
 Value
 *
 vp
+JSBool
+strict
 )
 ;
 extern
@@ -1464,6 +1466,8 @@ js
 Value
 *
 rval
+JSBool
+strict
 )
 ;
 extern
@@ -7240,12 +7244,14 @@ js
 Value
 *
 vp
+JSBool
+strict
 )
 {
 js
 :
 :
-PropertyIdOp
+StrictPropertyIdOp
 op
 =
 getOps
@@ -7268,6 +7274,7 @@ cx
 this
 id
 vp
+strict
 )
 ;
 }
@@ -7363,12 +7370,14 @@ js
 Value
 *
 rval
+JSBool
+strict
 )
 {
 js
 :
 :
-PropertyIdOp
+StrictPropertyIdOp
 op
 =
 getOps
@@ -7391,6 +7400,7 @@ cx
 this
 id
 rval
+strict
 )
 ;
 }
@@ -10855,6 +10865,8 @@ js
 Value
 *
 vp
+JSBool
+strict
 )
 ;
 /
