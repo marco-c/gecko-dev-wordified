@@ -68,10 +68,6 @@ errors
 import
 NoSuchElementException
 MarionetteException
-from
-unittest
-import
-skip
 class
 testSingleFinger
 (
@@ -1568,16 +1564,16 @@ innerHTML
 )
 )
     
-skip
-(
 "
+"
+"
+    
+#
 Skipping
 due
 to
 Bug
 865334
-"
-)
     
 def
 test_long_press_fail
@@ -1657,6 +1653,10 @@ action
 .
 perform
 )
+    
+"
+"
+"
     
 def
 test_wrong_value
@@ -1843,16 +1843,16 @@ innerHTML
 )
 )
     
-skip
-(
 "
+"
+"
+    
+#
 Skipping
 due
 to
 Bug
 865334
-"
-)
     
 def
 test_touchcancel_chain
@@ -1968,6 +1968,10 @@ innerHTML
 "
 )
 )
+    
+"
+"
+"
     
 def
 test_mouse_single_tap
