@@ -1766,7 +1766,7 @@ IsVisible
 FrameLayerBuilder
 :
 :
-IterateRetainedDataFor
+IterateVisibleRetainedDataFor
 (
 frame
 InvalidateImagesCallback
