@@ -1896,6 +1896,7 @@ T
 )
 NS_Alloc
 (
+(
 1
 +
 nsCharTraits
@@ -1907,6 +1908,12 @@ T
 length
 (
 expr
+)
+)
+*
+sizeof
+(
+T
 )
 )
 ;
@@ -3134,6 +3141,7 @@ T
 )
 NS_Alloc
 (
+(
 nsCharTraits
 <
 T
@@ -3146,6 +3154,12 @@ xp
 )
 +
 1
+)
+*
+sizeof
+(
+T
+)
 )
 ;
 if
