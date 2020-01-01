@@ -7681,9 +7681,12 @@ shadows
 aForFrame
 -
 >
-GetEffectiveBoxShadows
+GetStyleBorder
 (
 )
+-
+>
+mBoxShadow
 ;
 if
 (
@@ -8600,9 +8603,12 @@ shadows
 aForFrame
 -
 >
-GetEffectiveBoxShadows
+GetStyleBorder
 (
 )
+-
+>
+mBoxShadow
 ;
 if
 (
