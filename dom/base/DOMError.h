@@ -173,17 +173,6 @@ already_AddRefed
 <
 nsIDOMDOMError
 >
-CreateForDOMExceptionCode
-(
-PRUint16
-aDOMExceptionCode
-)
-;
-static
-already_AddRefed
-<
-nsIDOMDOMError
->
 CreateWithName
 (
 const
