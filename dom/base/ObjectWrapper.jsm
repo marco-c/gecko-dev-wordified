@@ -349,6 +349,13 @@ Blob
 [
 aObject
 ]
+{
+type
+:
+aObject
+.
+type
+}
 )
 ;
 }
