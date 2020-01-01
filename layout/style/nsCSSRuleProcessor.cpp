@@ -5826,13 +5826,13 @@ mLastPresContext
 (
 nullptr
 )
-mSheetType
-(
-aSheetType
-)
 mScopeElement
 (
 aScopeElement
+)
+mSheetType
+(
+aSheetType
 )
 {
 NS_ASSERTION
