@@ -9198,6 +9198,8 @@ cx
 nsIXPConnectJSObjectHolder
 *
 sandbox
+PRBool
+returnStringOnly
 jsval
 *
 rval
@@ -9261,6 +9263,7 @@ get
 (
 )
 1
+returnStringOnly
 rval
 )
 ;
