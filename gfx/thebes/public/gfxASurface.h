@@ -620,6 +620,7 @@ SurfaceTypeSVG
 SurfaceTypeOS2
 SurfaceTypeWin32Printing
 SurfaceTypeQuartzImage
+SurfaceTypeQPainter
 }
 gfxSurfaceType
 ;
