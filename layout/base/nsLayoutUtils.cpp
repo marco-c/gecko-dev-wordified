@@ -7773,8 +7773,15 @@ return
 result
 ;
 }
+/
+*
 static
+*
+/
 PRBool
+nsLayoutUtils
+:
+:
 GetAbsoluteCoord
 (
 const
