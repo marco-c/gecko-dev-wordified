@@ -831,6 +831,10 @@ DOMCI_CLASS
 (
 LockedFile
 )
+DOMCI_CLASS
+(
+CSSFontFeatureValuesRule
+)
 #
 ifdef
 MOZ_TIME_MANAGER
