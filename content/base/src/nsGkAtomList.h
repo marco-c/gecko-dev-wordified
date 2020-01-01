@@ -12408,9 +12408,9 @@ orientation
 support
 GK_ATOM
 (
-onMozOrientation
+ondeviceorientation
 "
-onMozOrientation
+ondeviceorientation
 "
 )
 /
