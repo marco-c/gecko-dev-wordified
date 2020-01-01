@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsIWeakReferenceUtils
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -178,7 +171,8 @@ public
 :
 nsMimeTypeArray
 (
-nsWeakPtr
+nsPIDOMWindow
+*
 aWindow
 )
 ;
@@ -300,7 +294,10 @@ Clear
 (
 )
 ;
-nsWeakPtr
+nsCOMPtr
+<
+nsPIDOMWindow
+>
 mWindow
 ;
 /
@@ -400,7 +397,8 @@ nsMimeType
 )
 nsMimeType
 (
-nsWeakPtr
+nsPIDOMWindow
+*
 aWindow
 nsPluginElement
 *
@@ -415,7 +413,8 @@ aMimeType
 ;
 nsMimeType
 (
-nsWeakPtr
+nsPIDOMWindow
+*
 aWindow
 const
 nsAString
@@ -509,7 +508,10 @@ const
 ;
 protected
 :
-nsWeakPtr
+nsCOMPtr
+<
+nsPIDOMWindow
+>
 mWindow
 ;
 /
