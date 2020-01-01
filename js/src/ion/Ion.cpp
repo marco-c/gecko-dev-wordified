@@ -9799,13 +9799,6 @@ thisv
 cx
 )
 ;
-fp
--
->
-cleanupTornValues
-(
-)
-;
 void
 *
 calleeToken
@@ -9820,6 +9813,13 @@ isFunctionFrame
 )
 )
 {
+fp
+-
+>
+cleanupTornValues
+(
+)
+;
 /
 /
 CountArgSlot
