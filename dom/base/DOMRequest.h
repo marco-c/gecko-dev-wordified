@@ -181,7 +181,10 @@ nsIDOMDOMRequest
 {
 protected
 :
-jsval
+JS
+:
+:
+Value
 mResult
 ;
 nsCOMPtr
@@ -340,7 +343,10 @@ error
 void
 FireSuccess
 (
-jsval
+JS
+:
+:
+Value
 aResult
 )
 ;

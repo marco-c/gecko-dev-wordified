@@ -273,7 +273,10 @@ function
 for
 turning
 a
-jsval
+JS
+:
+:
+Value
 argv
 into
 an
@@ -313,7 +316,10 @@ cast
 to
 /
 /
-jsval
+JS
+:
+:
+Value
 *
 and
 the
@@ -326,7 +332,10 @@ at
 /
 (
 (
-jsval
+JS
+:
+:
+Value
 *
 )
 aArgv
@@ -339,7 +348,10 @@ aArgv
 .
 (
 (
-jsval
+JS
+:
+:
+Value
 *
 )
 aArgv
