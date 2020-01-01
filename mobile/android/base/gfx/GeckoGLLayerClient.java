@@ -1547,6 +1547,10 @@ null
 null
 )
 ;
+mLayerRendererInitialized
+=
+true
+;
 }
 /
 /
