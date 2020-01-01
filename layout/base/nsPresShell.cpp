@@ -35599,10 +35599,8 @@ use
 .
 if
 (
-(
 GetCurrentEventFrame
 (
-)
 )
 &
 &
@@ -35768,6 +35766,10 @@ events
 .
 if
 (
+!
+mIsDestroying
+&
+&
 NS_SUCCEEDED
 (
 rv

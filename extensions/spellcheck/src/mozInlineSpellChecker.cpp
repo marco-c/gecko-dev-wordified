@@ -3755,6 +3755,8 @@ mozInlineSpellChecker
 :
 Cleanup
 (
+PRBool
+aDestroyingFrames
 )
 {
 mNumWordsInSpellSelection
@@ -3808,6 +3810,12 @@ UnregisterEventListeners
 }
 else
 {
+if
+(
+!
+aDestroyingFrames
+)
+{
 spellCheckSelection
 -
 >
@@ -3815,6 +3823,7 @@ RemoveAllRanges
 (
 )
 ;
+}
 rv
 =
 UnregisterEventListeners
@@ -4498,6 +4507,7 @@ nsnull
 return
 Cleanup
 (
+PR_FALSE
 )
 ;
 }

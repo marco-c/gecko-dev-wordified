@@ -2809,6 +2809,8 @@ nsEditor
 :
 PreDestroy
 (
+PRBool
+aDestroyingFrames
 )
 {
 if
@@ -2902,6 +2904,7 @@ mInlineSpellChecker
 >
 Cleanup
 (
+aDestroyingFrames
 )
 ;
 /
