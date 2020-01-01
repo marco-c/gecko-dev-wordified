@@ -44334,7 +44334,7 @@ h
 .
 id
 FROM
-moz_places_view
+moz_places
 h
 WHERE
 h
@@ -44363,7 +44363,7 @@ visit_count
 "
 "
 FROM
-moz_places_view
+moz_places
 "
 "
 GROUP
@@ -44420,7 +44420,7 @@ NS_LITERAL_CSTRING
 (
 "
 UPDATE
-moz_historyvisits_view
+moz_historyvisits
 "
 "
 SET
@@ -44439,7 +44439,7 @@ IN
 SELECT
 id
 FROM
-moz_places_view
+moz_places
 WHERE
 id
 <
@@ -44512,7 +44512,7 @@ IN
 SELECT
 id
 FROM
-moz_places_view
+moz_places
 WHERE
 id
 <
@@ -44585,7 +44585,7 @@ IN
 SELECT
 id
 FROM
-moz_places_view
+moz_places
 WHERE
 id
 <
@@ -44642,7 +44642,7 @@ NS_LITERAL_CSTRING
 "
 DELETE
 FROM
-moz_places_view
+moz_places
 WHERE
 url
 =
@@ -44697,7 +44697,7 @@ NS_LITERAL_CSTRING
 (
 "
 UPDATE
-moz_places_view
+moz_places
 SET
 visit_count
 =
