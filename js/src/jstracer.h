@@ -1459,6 +1459,9 @@ fp
 void
 import
 (
+TreeInfo
+*
+treeInfo
 nanojit
 :
 :
