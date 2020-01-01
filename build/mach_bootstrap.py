@@ -1,13 +1,4 @@
 #
-!
-/
-usr
-/
-bin
-/
-env
-python
-#
 This
 Source
 Code
@@ -311,8 +302,21 @@ def
 bootstrap
 (
 topsrcdir
+mozilla_dir
+=
+None
 )
 :
+    
+if
+mozilla_dir
+is
+None
+:
+        
+mozilla_dir
+=
+topsrcdir
     
 #
 Ensure
@@ -449,7 +453,7 @@ path
 .
 join
 (
-topsrcdir
+mozilla_dir
 path
 )
 for
@@ -490,7 +494,7 @@ path
 .
 join
 (
-topsrcdir
+mozilla_dir
 path
 )
 )
