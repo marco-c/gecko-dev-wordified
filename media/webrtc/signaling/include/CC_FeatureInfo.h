@@ -86,12 +86,6 @@ class
 ECC_API
 CC_FeatureInfo
 {
-public
-:
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-CC_FeatureInfo
-)
 protected
 :
 CC_FeatureInfo

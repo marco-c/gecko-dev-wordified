@@ -105,12 +105,6 @@ class
 ECC_API
 CC_Service
 {
-public
-:
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-CC_Service
-)
 protected
 :
 CC_Service
