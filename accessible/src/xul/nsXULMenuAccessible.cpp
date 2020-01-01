@@ -2196,7 +2196,7 @@ bool
 nsXULMenuitemAccessible
 :
 :
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 {

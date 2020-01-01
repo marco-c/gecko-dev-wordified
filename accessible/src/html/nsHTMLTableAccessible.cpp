@@ -3450,7 +3450,7 @@ walker
 (
 mWeakShell
 mContent
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 )

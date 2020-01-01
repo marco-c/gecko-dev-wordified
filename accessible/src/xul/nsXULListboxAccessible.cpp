@@ -5675,7 +5675,7 @@ bool
 nsXULListitemAccessible
 :
 :
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 {

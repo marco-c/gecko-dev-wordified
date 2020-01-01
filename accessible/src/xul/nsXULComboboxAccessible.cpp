@@ -1062,7 +1062,7 @@ bool
 nsXULComboboxAccessible
 :
 :
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 {

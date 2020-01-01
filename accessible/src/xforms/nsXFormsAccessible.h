@@ -717,7 +717,7 @@ value
 .
 virtual
 bool
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 ;
@@ -1056,7 +1056,7 @@ value
 .
 virtual
 bool
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 ;
