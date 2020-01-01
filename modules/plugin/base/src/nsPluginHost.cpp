@@ -30085,6 +30085,16 @@ pinstancetag
 >
 mNext
 ;
+instancetag
+-
+>
+mInstance
+-
+>
+Stop
+(
+)
+;
 delete
 instancetag
 ;
