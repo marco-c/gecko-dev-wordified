@@ -1525,7 +1525,7 @@ void
 nsWeakFrame
 :
 :
-InitInternal
+Init
 (
 nsIFrame
 *
@@ -21951,7 +21951,7 @@ PresContext
 )
 -
 >
-AppUnitsPerDevPixel
+AppUnitsPerCSSPixel
 (
 )
 )
