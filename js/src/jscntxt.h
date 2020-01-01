@@ -3025,6 +3025,16 @@ class
 js
 :
 :
+ion
+:
+:
+JitActivation
+;
+friend
+class
+js
+:
+:
 AsmJSActivation
 ;
 /
