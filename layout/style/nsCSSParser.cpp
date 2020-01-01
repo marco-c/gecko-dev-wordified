@@ -28707,7 +28707,9 @@ ParseVariant
 (
 aErrorCode
 aValue
-VARIANT_HOK
+VARIANT_AHK
+|
+VARIANT_NONE
 nsCSSProps
 :
 :
