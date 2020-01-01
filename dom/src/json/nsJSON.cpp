@@ -1410,8 +1410,6 @@ compatibility
 /
 /
 function
-/
-xml
 shall
 not
 pass
@@ -1437,12 +1435,6 @@ type
 =
 =
 JSTYPE_FUNCTION
-|
-|
-type
-=
-=
-JSTYPE_XML
 )
 return
 NS_ERROR_INVALID_ARG

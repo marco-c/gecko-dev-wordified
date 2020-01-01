@@ -1284,9 +1284,6 @@ time
 .
 *
 /
-struct
-JSXML
-;
 namespace
 js
 {
@@ -2644,13 +2641,6 @@ types
 TypeObject
 >
 HeapPtrTypeObject
-;
-typedef
-HeapPtr
-<
-JSXML
->
-HeapPtrXML
 ;
 /
 *
