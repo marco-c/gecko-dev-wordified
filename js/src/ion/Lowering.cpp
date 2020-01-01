@@ -431,9 +431,12 @@ setOutput
 LArgument
 (
 -
+int32_t
+(
 sizeof
 (
 IonJSFrameLayout
+)
 )
 +
 IonJSFrameLayout

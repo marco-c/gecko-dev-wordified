@@ -212,9 +212,11 @@ items
 .
 *
 /
-struct
+class
 WorkerThreadState
 {
+public
+:
 /
 *
 Available

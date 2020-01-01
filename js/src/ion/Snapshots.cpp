@@ -174,6 +174,13 @@ h
 "
 #
 endif
+#
+include
+"
+jsscriptinlines
+.
+h
+"
 using
 namespace
 js

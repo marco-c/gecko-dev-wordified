@@ -178,6 +178,13 @@ VMFunctions
 .
 h
 "
+#
+include
+"
+jsscriptinlines
+.
+h
+"
 using
 namespace
 js
@@ -2840,10 +2847,13 @@ esp
 ebx
 TimesOne
 -
+int32_t
+(
 sizeof
 (
 void
 *
+)
 )
 )
 ;

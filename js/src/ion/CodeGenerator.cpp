@@ -28329,13 +28329,13 @@ masm
 .
 adjustStack
 (
-(
-int
-)
 -
+int32_t
+(
 sizeof
 (
 Value
+)
 )
 )
 ;
