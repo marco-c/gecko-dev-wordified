@@ -891,6 +891,9 @@ class
 JSExtensibleString
 ;
 class
+JSExternalString
+;
+class
 JSLinearString
 ;
 class
