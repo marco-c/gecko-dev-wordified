@@ -290,18 +290,6 @@ MOZ_ASSERT
 cx
 )
 ;
-NS_ASSERTION
-(
-mJSContext
-"
-No
-JSContext
-supplied
-to
-XPCCallContext
-"
-)
-;
 if
 (
 !
@@ -581,7 +569,7 @@ GetScriptableInfo
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mFlattenedJSObject
@@ -1373,7 +1361,7 @@ SetCallContext
 mPrevCallContext
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 old
 =

@@ -1243,13 +1243,9 @@ do_QueryInterface
 native
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 initializer
-"
-what
-?
-"
 )
 ;
 rv
@@ -1444,13 +1440,9 @@ do_QueryInterface
 native
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 initializer
-"
-what
-?
-"
 )
 ;
 rv
@@ -1933,7 +1925,7 @@ mReuseLoaderGlobal
 false
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 sSelf
@@ -6863,7 +6855,7 @@ mod
 newEntry
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 mod
 -
@@ -7681,7 +7673,7 @@ ModuleEntry
 module
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 self
 .
@@ -7912,7 +7904,7 @@ char
 buf
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mBuf

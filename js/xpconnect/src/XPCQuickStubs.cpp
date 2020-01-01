@@ -431,7 +431,7 @@ uint32_t
 interfaceBit
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 IS_WN_REFLECTOR
 (
@@ -1224,7 +1224,7 @@ vp
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 JS_ObjectIsFunction
 (
@@ -4641,7 +4641,7 @@ GetObjectParent
 jsobj
 )
 )
-NS_ASSERTION
+MOZ_ASSERT
 (
 js
 :
@@ -4807,7 +4807,7 @@ to
 assert
 here
 .
-NS_ASSERTION
+MOZ_ASSERT
 (
 cx
 =

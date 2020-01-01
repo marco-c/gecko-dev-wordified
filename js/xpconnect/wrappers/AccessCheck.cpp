@@ -1527,7 +1527,7 @@ GetObjectClass
 obj
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 Jsvalify
 (

@@ -239,7 +239,7 @@ PR_INIT_CLIST
 mScopes
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 JS_GetSecondContextPrivate
@@ -273,7 +273,7 @@ MOZ_COUNT_DTOR
 XPCContext
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 JS_GetSecondContextPrivate
 (

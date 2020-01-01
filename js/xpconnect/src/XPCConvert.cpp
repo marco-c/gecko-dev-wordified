@@ -693,7 +693,7 @@ GetObjectJSClass
 obj
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 jsclass
 "
@@ -1235,7 +1235,7 @@ false
 #
 ifdef
 STRICT_CHECK_OF_UNICODE
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 ILLEGAL_CHAR_RANGE
@@ -1699,7 +1699,7 @@ isAscii
 false
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 isAscii
 "
@@ -2343,7 +2343,7 @@ GetObjectParent
 jsobj
 )
 )
-NS_ASSERTION
+MOZ_ASSERT
 (
 js
 :
@@ -4660,7 +4660,7 @@ nsXPTType
 T_INTERFACE_IS
 :
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 iid
 "
@@ -5147,7 +5147,7 @@ nsresult
 pErr
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 Interface
@@ -5793,7 +5793,7 @@ iface
 ;
 }
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 flat
@@ -6309,7 +6309,7 @@ nsresult
 pErr
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 dest
 "
@@ -6318,7 +6318,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 src
 "
@@ -6327,7 +6327,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 iid
 "
@@ -7064,7 +7064,7 @@ jsval
 jsExceptionPtr
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 cx
@@ -9737,7 +9737,7 @@ nsresult
 pErr
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 jsArray
 "
@@ -9746,7 +9746,7 @@ param
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 d
 "
@@ -9755,7 +9755,7 @@ param
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 JS_IsTypedArrayObject
 (
@@ -10213,7 +10213,7 @@ nsresult
 pErr
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 d
 "

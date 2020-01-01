@@ -347,7 +347,7 @@ jsval
 pval
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 IsConstant
@@ -1842,7 +1842,7 @@ IsSetter
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 realTotalCount
 "
@@ -1886,7 +1886,7 @@ realTotalCount
 1
 ]
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 cur
 -
@@ -1903,7 +1903,7 @@ setter
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 cur
 -
@@ -1917,7 +1917,7 @@ setter
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 cur
 -
@@ -1957,7 +1957,7 @@ find
 dups
 /
 /
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 LookupMemberByID
@@ -2121,7 +2121,7 @@ find
 dups
 /
 /
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 LookupMemberByID
@@ -2999,7 +2999,7 @@ iidCount
 0
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 (
 iidCount
@@ -3372,7 +3372,7 @@ classInfo
 set
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 set2
 "
@@ -3385,7 +3385,7 @@ set
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 set2
 =

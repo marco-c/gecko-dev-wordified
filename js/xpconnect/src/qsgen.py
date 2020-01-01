@@ -8432,7 +8432,7 @@ f
 write
 (
 "
-NS_ASSERTION
+MOZ_ASSERT
 (
 %
 s

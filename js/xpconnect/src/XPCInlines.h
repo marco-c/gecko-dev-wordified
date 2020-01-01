@@ -2305,7 +2305,7 @@ ASSERT_NotMarked
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 IsMarked
@@ -2345,7 +2345,7 @@ pp
 +
 +
 )
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 (
@@ -2534,7 +2534,7 @@ XPCWrappedNativeTearOff
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 (

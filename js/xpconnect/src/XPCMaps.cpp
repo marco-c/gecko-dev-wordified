@@ -415,7 +415,7 @@ if
 Set
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 Addition
 "
@@ -751,7 +751,7 @@ front
 .
 value
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 wrapper
 "
@@ -872,7 +872,7 @@ front
 .
 value
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 wrapper
 "
@@ -885,7 +885,7 @@ wrapper
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 wrapper
 -
