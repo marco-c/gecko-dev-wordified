@@ -119,6 +119,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 sys
 /
@@ -571,6 +580,7 @@ enumerator
 /
 class
 nsDirEnumeratorUnix
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator

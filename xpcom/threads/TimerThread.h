@@ -136,6 +136,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Monitor
 .
 h
@@ -151,6 +160,7 @@ h
 "
 class
 TimerThread
+MOZ_FINAL
 :
 public
 nsIRunnable

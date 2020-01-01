@@ -151,6 +151,15 @@ Telemetry
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -3731,6 +3740,7 @@ CollectReports
 .
 class
 PRInt64Wrapper
+MOZ_FINAL
 :
 public
 nsISupports
@@ -3759,6 +3769,7 @@ PRInt64Wrapper
 )
 class
 ExplicitNonHeapCountingCallback
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporterCallback

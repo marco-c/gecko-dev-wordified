@@ -119,6 +119,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIInputStreamTee
 .
 h
@@ -208,6 +217,7 @@ args
 endif
 class
 nsInputStreamTee
+MOZ_FINAL
 :
 public
 nsIInputStreamTee

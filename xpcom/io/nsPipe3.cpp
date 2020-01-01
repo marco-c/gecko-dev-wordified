@@ -61,6 +61,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ReentrantMonitor
 .
 h
@@ -1300,6 +1309,7 @@ mCallbackFlags
 -
 class
 nsPipe
+MOZ_FINAL
 :
 public
 nsIPipe

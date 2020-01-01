@@ -159,6 +159,15 @@ nsVariant
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 nsresult
 NS_NewHashPropertyBag
 (
@@ -517,6 +526,7 @@ GetEnumerator
 /
 class
 nsSimpleProperty
+MOZ_FINAL
 :
 public
 nsIProperty

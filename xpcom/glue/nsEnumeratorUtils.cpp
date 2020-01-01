@@ -795,6 +795,7 @@ NS_OK
 /
 class
 nsUnionEnumerator
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator

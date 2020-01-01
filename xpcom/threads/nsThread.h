@@ -169,6 +169,15 @@ nsTObserverArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 A
@@ -176,6 +185,7 @@ native
 thread
 class
 nsThread
+MOZ_FINAL
 :
 public
 nsIThreadInternal

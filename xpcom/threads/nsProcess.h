@@ -115,6 +115,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h
@@ -224,6 +233,7 @@ NS_PROCESS_CID
 }
 class
 nsProcess
+MOZ_FINAL
 :
 public
 nsIProcess

@@ -128,6 +128,15 @@ nsAgg
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_PROPERTIES_CID
 \
@@ -177,6 +186,7 @@ nsProperties_HashBase
 ;
 class
 nsProperties
+MOZ_FINAL
 :
 public
 nsIProperties

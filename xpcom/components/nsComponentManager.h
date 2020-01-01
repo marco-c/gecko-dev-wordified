@@ -291,6 +291,15 @@ Omnijar
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 struct
 nsFactoryEntry
 ;
@@ -511,6 +520,7 @@ type
 ;
 class
 nsComponentManagerImpl
+MOZ_FINAL
 :
 public
 nsIComponentManager

@@ -123,6 +123,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 HashFunctions
 .
 h
@@ -734,6 +743,7 @@ nsIAtom
 /
 class
 PermanentAtomImpl
+MOZ_FINAL
 :
 public
 AtomImpl

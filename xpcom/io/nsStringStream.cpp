@@ -205,6 +205,15 @@ nsIIPCSerializable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 -
@@ -369,6 +378,7 @@ implementation
 -
 class
 nsStringInputStream
+MOZ_FINAL
 :
 public
 nsIStringInputStream

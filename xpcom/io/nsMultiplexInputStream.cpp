@@ -137,6 +137,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsMultiplexInputStream
 .
 h
@@ -185,6 +194,7 @@ h
 "
 class
 nsMultiplexInputStream
+MOZ_FINAL
 :
 public
 nsIMultiplexInputStream

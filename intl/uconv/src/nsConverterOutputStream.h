@@ -102,6 +102,15 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIUnicodeEncoder
 ;
@@ -143,6 +152,7 @@ NS_CONVERTEROUTPUTSTREAM_CID
 }
 class
 nsConverterOutputStream
+MOZ_FINAL
 :
 public
 nsIConverterOutputStream

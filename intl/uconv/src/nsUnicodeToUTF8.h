@@ -99,6 +99,15 @@ nsUnicodeToUTF8_h___
 #
 define
 nsUnicodeToUTF8_h___
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 Class
@@ -285,6 +294,7 @@ CATA
 /
 class
 nsUnicodeToUTF8
+MOZ_FINAL
 :
 public
 nsIUnicodeEncoder

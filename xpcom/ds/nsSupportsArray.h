@@ -112,6 +112,15 @@ nsISupportsArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 static
 const
 PRUint32
@@ -121,6 +130,7 @@ kAutoArraySize
 ;
 class
 nsSupportsArray
+MOZ_FINAL
 :
 public
 nsISupportsArray
