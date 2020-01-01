@@ -1304,6 +1304,10 @@ n
 "
 )
 ;
+mThebesSurface
+=
+nsnull
+;
 return
 nsnull
 ;
