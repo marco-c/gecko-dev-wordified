@@ -2265,6 +2265,7 @@ while
 act
 &
 &
+(
 act
 -
 >
@@ -2274,6 +2275,16 @@ cx
 !
 =
 cx_
+|
+|
+!
+act
+-
+>
+isActive
+(
+)
+)
 )
 act
 =
