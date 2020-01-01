@@ -1576,6 +1576,12 @@ true
 #
 undef
 INFUNC
+unsigned
+argumentsLocal
+(
+)
+const
+;
 bool
 inFunction
 (
