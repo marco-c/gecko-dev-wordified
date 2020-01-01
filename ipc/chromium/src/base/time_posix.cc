@@ -1420,6 +1420,12 @@ years
 elif
 defined
 (
+__OpenBSD__
+)
+|
+|
+defined
+(
 OS_POSIX
 )
 &
