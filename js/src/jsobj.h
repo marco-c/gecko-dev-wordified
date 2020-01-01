@@ -4700,9 +4700,11 @@ jschar
 *
 s_
 =
-JSFLATSTR_CHARS
-(
 str_
+-
+>
+flatChars
+(
 )
 ;
 \
@@ -4742,9 +4744,11 @@ s_
 size_t
 n_
 =
-JSFLATSTR_LENGTH
-(
 str_
+-
+>
+flatLength
+(
 )
 -
 negative_

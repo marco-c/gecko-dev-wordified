@@ -6,6 +6,8 @@
 Mode
 :
 C
++
++
 ;
 tab
 -
@@ -28946,9 +28948,11 @@ sp
 =
 INT_TO_JSVAL
 (
-JSSTRING_LENGTH
-(
 str
+-
+>
+length
+(
 )
 )
 ;
@@ -31138,9 +31142,11 @@ size_t
 )
 i
 <
-JSSTRING_LENGTH
-(
 str
+-
+>
+length
+(
 )
 )
 {

@@ -6,6 +6,8 @@
 Mode
 :
 C
++
++
 ;
 tab
 -
@@ -2673,7 +2675,7 @@ js_ConcatStrings
 js_UndependString
 or
 *
-js_MinimizeDependentStrings
+MinimizeDependentStrings
 .
 *
 *

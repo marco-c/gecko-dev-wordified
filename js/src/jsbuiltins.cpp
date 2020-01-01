@@ -6,6 +6,8 @@
 Mode
 :
 C
++
++
 ;
 tab
 -
@@ -1175,9 +1177,11 @@ ep
 jsdouble
 d
 ;
-JSSTRING_CHARS_AND_END
-(
 str
+-
+>
+getCharsAndEnd
+(
 bp
 end
 )
@@ -1283,9 +1287,11 @@ ep
 jsdouble
 d
 ;
-JSSTRING_CHARS_AND_END
-(
 str
+-
+>
+getCharsAndEnd
+(
 bp
 end
 )
