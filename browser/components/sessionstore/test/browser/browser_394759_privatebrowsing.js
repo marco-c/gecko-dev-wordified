@@ -1147,6 +1147,8 @@ function
 (
 )
 {
+pbWin
+.
 gBrowser
 .
 removeEventListener
@@ -1172,6 +1174,8 @@ s
 not
 strictly
 needed
+pbWin
+.
 gBrowser
 .
 addTab
