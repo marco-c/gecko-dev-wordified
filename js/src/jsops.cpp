@@ -665,6 +665,9 @@ break
 case
 ARECORD_IMACRO
 :
+case
+ARECORD_IMACRO_ABORTED
+:
 atoms
 =
 COMMON_ATOMS_START
@@ -686,6 +689,13 @@ regs
 pc
 )
 ;
+if
+(
+status
+=
+=
+ARECORD_IMACRO
+)
 DO_OP
 (
 )
