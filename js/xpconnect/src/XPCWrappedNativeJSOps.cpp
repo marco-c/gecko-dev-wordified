@@ -6111,7 +6111,6 @@ retval
 ;
 POST_HELPER_STUB
 }
-static
 JSBool
 XPC_WN_Helper_GetProperty
 (
@@ -6142,7 +6141,6 @@ retval
 ;
 POST_HELPER_STUB
 }
-static
 JSBool
 XPC_WN_Helper_SetProperty
 (
