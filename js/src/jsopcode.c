@@ -13575,9 +13575,8 @@ fun
 =
 FUN_TO_SCRIPTED
 (
-GET_FUNCTION_PRIVATE
+OBJ_TO_FUNCTION
 (
-cx
 obj
 )
 )
@@ -24534,9 +24533,8 @@ fun
 =
 FUN_TO_SCRIPTED
 (
-GET_FUNCTION_PRIVATE
+OBJ_TO_FUNCTION
 (
-cx
 obj
 )
 )
@@ -25365,9 +25363,8 @@ fun
 =
 FUN_TO_SCRIPTED
 (
-GET_FUNCTION_PRIVATE
+OBJ_TO_FUNCTION
 (
-cx
 obj
 )
 )
@@ -25394,9 +25391,9 @@ str
 JS_DecompileFunction
 (
 cx
-SCRIPTED_TO_FUN
+OBJ_TO_FUNCTION
 (
-fun
+obj
 )
 indent
 )

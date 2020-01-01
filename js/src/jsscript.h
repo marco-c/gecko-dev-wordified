@@ -1782,7 +1782,7 @@ cx
 JSScript
 *
 script
-JSScriptedFunction
+JSFunction
 *
 fun
 )

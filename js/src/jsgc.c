@@ -14809,7 +14809,7 @@ break
 case
 JSTRACE_SCRIPTED_FUNCTION
 :
-js_TraceFunction
+js_TraceScriptedFunction
 (
 trc
 (
