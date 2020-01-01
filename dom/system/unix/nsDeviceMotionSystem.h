@@ -415,7 +415,7 @@ nsDeviceMotion
 h
 "
 enum
-nsDeviceMotionSystemDriver
+nsAccelerometerSystemDriver
 {
 eNoSensor
 eAppleSensor
@@ -459,7 +459,7 @@ FILE
 *
 mCalibrateFile
 ;
-nsDeviceMotionSystemDriver
+nsAccelerometerSystemDriver
 mType
 ;
 nsCOMPtr
