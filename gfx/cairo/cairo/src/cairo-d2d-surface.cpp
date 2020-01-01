@@ -1583,6 +1583,12 @@ FillMode
 =
 D3D10_FILL_SOLID
 ;
+rastDesc
+.
+DepthClipEnable
+=
+TRUE
+;
 hr
 =
 device
