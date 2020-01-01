@@ -4013,6 +4013,15 @@ mouseup
 )
 GK_ATOM
 (
+moz_opaque
+"
+moz
+-
+opaque
+"
+)
+GK_ATOM
+(
 msthemecompatible
 "
 msthemecompatible
