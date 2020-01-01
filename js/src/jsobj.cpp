@@ -11362,6 +11362,7 @@ bytes
 js_DecompileValueGenerator
 (
 cx
+0
 -
 argc
 vp
@@ -16756,7 +16757,7 @@ JSObject
 obj
 jsid
 id
-int16
+intN
 index
 )
 {

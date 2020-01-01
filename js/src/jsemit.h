@@ -3702,9 +3702,13 @@ hasSharps
 bool
 rv
 =
+!
+!
+(
 flags
 &
 TCF_HAS_SHARPS
+)
 ;
 JS_ASSERT
 (

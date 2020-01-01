@@ -16972,7 +16972,7 @@ JSProperty
 *
 prop
 ;
-bool
+JSBool
 ok
 ;
 if

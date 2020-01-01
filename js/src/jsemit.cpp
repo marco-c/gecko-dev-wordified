@@ -15313,13 +15313,6 @@ fun
 atom
 )
 ;
-switch
-(
-op
-)
-{
-default
-:
 /
 *
 *
@@ -15339,8 +15332,8 @@ fun
 is
 heavyweight
 as
-*
 we
+*
 cannot
 be
 sure
@@ -15397,8 +15390,8 @@ f
 The
 result
 returned
-*
 for
+*
 such
 an
 invocation
@@ -15467,9 +15460,6 @@ pn_dflags
 |
 =
 PND_CONST
-;
-}
-break
 ;
 }
 pn

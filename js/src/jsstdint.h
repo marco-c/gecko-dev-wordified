@@ -820,6 +820,14 @@ correctness
 *
 /
 #
+ifdef
+_MSC_VER
+#
+undef
+SIZE_MAX
+#
+endif
+#
 define
 INTPTR_MAX
 (
