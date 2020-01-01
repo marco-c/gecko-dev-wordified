@@ -29397,9 +29397,13 @@ fm
 {
 aVisitor
 .
-mEventStatus
+mEvent
+-
+>
+flags
+|
 =
-nsEventStatus_eConsumeNoDefault
+NS_EVENT_FLAG_PREVENT_ANCHOR_ACTIONS
 ;
 nsCOMPtr
 <
