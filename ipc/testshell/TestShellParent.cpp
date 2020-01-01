@@ -403,7 +403,7 @@ mozilla
 /
 dom
 /
-ContentProcessParent
+ContentParent
 .
 h
 "
@@ -459,7 +459,7 @@ mozilla
 dom
 :
 :
-ContentProcessParent
+ContentParent
 ;
 using
 mozilla
@@ -578,13 +578,13 @@ AllocPContextWrapper
 (
 )
 {
-ContentProcessParent
+ContentParent
 *
 cpp
 =
 static_cast
 <
-ContentProcessParent
+ContentParent
 *
 >
 (
