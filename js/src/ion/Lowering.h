@@ -1328,14 +1328,6 @@ ins
 )
 ;
 bool
-visitCallsiteCloneCache
-(
-MCallsiteCloneCache
-*
-ins
-)
-;
-bool
 visitCallGetElement
 (
 MCallGetElement
