@@ -102,13 +102,6 @@ mozilla_dom_SVGTextPositioningElement_h
 #
 include
 "
-nsIDOMSVGTextPositionElem
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -161,7 +154,6 @@ SVGTextPositioningElementBase
 {
 public
 :
-NS_DECL_NSIDOMSVGTEXTPOSITIONINGELEMENT
 /
 /
 WebIDL
@@ -234,11 +226,6 @@ GetNumberListInfo
 (
 )
 ;
-/
-/
-nsIDOMSVGTextPositioning
-properties
-:
 enum
 {
 ATTR_X
