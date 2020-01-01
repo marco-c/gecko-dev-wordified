@@ -573,6 +573,7 @@ from
 expandlibs
 import
 ExpandArgs
+relativize
 import
 expandlibs_config
 as
@@ -907,6 +908,8 @@ objs
 +
 =
 [
+relativize
+(
 os
 .
 path
@@ -915,6 +918,7 @@ join
 (
 root
 f
+)
 )
 for
 f
