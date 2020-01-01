@@ -1877,6 +1877,15 @@ get
 return
 ;
 }
+PR_Delete
+(
+name
+.
+get
+(
+)
+)
+;
 PR_Rename
 (
 tmpName
