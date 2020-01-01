@@ -315,6 +315,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -1423,6 +1432,7 @@ alive
 .
 class
 WindowlessBrowserStub
+MOZ_FINAL
 :
 public
 nsIWebNavigation
