@@ -484,10 +484,9 @@ GetStyleDisplay
 )
 -
 >
-mFloats
-!
-=
-NS_STYLE_FLOAT_NONE
+IsFloating
+(
+)
 )
 aData
 -
@@ -601,10 +600,9 @@ GetStyleDisplay
 )
 -
 >
-mFloats
-!
-=
-NS_STYLE_FLOAT_NONE
+IsFloating
+(
+)
 )
 aData
 -
