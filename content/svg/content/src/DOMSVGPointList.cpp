@@ -2629,7 +2629,7 @@ RemovingFromList
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 DOMSVGPoint
 >
