@@ -2563,7 +2563,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsContainerFrame
 :
 :
@@ -2587,7 +2587,6 @@ HasView
 )
 {
 return
-NS_OK
 ;
 }
 /
@@ -2631,7 +2630,6 @@ need
 a
 view
 return
-NS_OK
 ;
 }
 nsView
@@ -2704,14 +2702,6 @@ GetRect
 )
 parentView
 )
-;
-if
-(
-!
-view
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 SyncFrameViewProperties
 (
@@ -2935,9 +2925,6 @@ p
 aFrame
 )
 )
-;
-return
-NS_OK
 ;
 }
 /

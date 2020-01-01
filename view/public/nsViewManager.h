@@ -345,6 +345,10 @@ result
 The
 new
 view
+.
+Never
+null
+.
 *
 /
 nsView

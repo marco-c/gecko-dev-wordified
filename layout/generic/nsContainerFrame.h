@@ -812,7 +812,7 @@ well
 *
 /
 static
-nsresult
+void
 CreateViewForFrame
 (
 nsIFrame

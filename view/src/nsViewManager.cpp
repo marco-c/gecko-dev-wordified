@@ -743,11 +743,6 @@ this
 aVisibilityFlag
 )
 ;
-if
-(
-v
-)
-{
 v
 -
 >
@@ -798,7 +793,6 @@ dim
 false
 )
 ;
-}
 return
 v
 ;
