@@ -197,12 +197,12 @@ namespace
 frontend
 {
 struct
-StmtInfoTC
+StmtInfoPC
 :
 public
 StmtInfoBase
 {
-StmtInfoTC
+StmtInfoPC
 *
 down
 ;
@@ -214,7 +214,7 @@ enclosing
 statement
 *
 /
-StmtInfoTC
+StmtInfoPC
 *
 downScope
 ;
@@ -258,7 +258,7 @@ body
 bool
 isFunctionBodyBlock
 ;
-StmtInfoTC
+StmtInfoPC
 (
 JSContext
 *
@@ -305,7 +305,7 @@ DeclVector
 *
 The
 struct
-TreeContext
+ParseContext
 stores
 information
 about
@@ -328,7 +328,7 @@ field
 Parser
 :
 :
-tc
+pc
 )
 .
 The
@@ -361,7 +361,7 @@ creates
 a
 new
 *
-TreeContext
+ParseContext
 makes
 it
 the
@@ -386,7 +386,7 @@ definition
 *
 /
 struct
-TreeContext
+ParseContext
 /
 *
 tree
@@ -398,7 +398,7 @@ checks
 /
 {
 typedef
-StmtInfoTC
+StmtInfoPC
 StmtInfo
 ;
 SharedContext
@@ -441,7 +441,7 @@ number
 generator
 *
 /
-StmtInfoTC
+StmtInfoPC
 *
 topStmt
 ;
@@ -454,7 +454,7 @@ info
 stack
 *
 /
-StmtInfoTC
+StmtInfoPC
 *
 topScopeStmt
 ;
@@ -673,7 +673,7 @@ represented
 by
 this
 *
-TreeContext
+ParseContext
 .
 *
 *
@@ -815,7 +815,7 @@ conditions
 :
 *
 +
-tc
+pc
 -
 >
 decls
@@ -1129,7 +1129,7 @@ purposes
 After
 parsing
 the
-TreeContext
+ParseContext
 is
 destroyed
 and
@@ -1345,10 +1345,10 @@ queuedStrictModeError
 ;
 private
 :
-TreeContext
+ParseContext
 *
 *
-parserTC
+parserPC
 ;
 /
 *
@@ -1360,7 +1360,7 @@ Parser
 '
 s
 active
-tc
+pc
 and
 holds
 either
@@ -1391,7 +1391,7 @@ name
 dependencies
 *
 /
-TreeContext
+ParseContext
 *
 parent
 ;
@@ -1630,7 +1630,7 @@ inDeclDestructuring
 1
 ;
 inline
-TreeContext
+ParseContext
 (
 Parser
 *
@@ -1646,7 +1646,7 @@ bodyid
 ;
 inline
 ~
-TreeContext
+ParseContext
 (
 )
 ;
@@ -1773,9 +1773,9 @@ atBodyLevel
 bool
 GenerateBlockId
 (
-TreeContext
+ParseContext
 *
-tc
+pc
 uint32_t
 &
 blockid
@@ -1879,14 +1879,14 @@ GC
 tracing
 *
 /
-TreeContext
+ParseContext
 *
-tc
+pc
 ;
 /
 *
 innermost
-tree
+parse
 context
 (
 stack
@@ -2318,9 +2318,9 @@ obj
 ParseNode
 *
 fn
-TreeContext
+ParseContext
 *
-tc
+pc
 StrictMode
 :
 :
@@ -2337,10 +2337,10 @@ new
 function
 object
 given
-tree
+parse
 context
 (
-tc
+pc
 )
 and
 a
@@ -2364,9 +2364,9 @@ JSFunction
 *
 newFunction
 (
-TreeContext
+ParseContext
 *
-tc
+pc
 JSAtom
 *
 atom
@@ -2762,7 +2762,7 @@ dynamic
 scope
 of
 a
-TreeContext
+ParseContext
 *
 object
 pointed
@@ -2771,7 +2771,7 @@ by
 this
 -
 >
-tc
+pc
 .
 *
 *
@@ -3422,7 +3422,7 @@ allowsXML
 const
 {
 return
-tc
+pc
 -
 >
 sc

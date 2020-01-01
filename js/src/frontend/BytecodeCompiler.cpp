@@ -690,8 +690,8 @@ cx
 )
 )
 ;
-TreeContext
-tc
+ParseContext
+pc
 (
 &
 parser
@@ -710,7 +710,7 @@ bodyid
 if
 (
 !
-tc
+pc
 .
 init
 (
@@ -1354,7 +1354,7 @@ parser
 return
 NULL
 ;
-tc
+pc
 .
 functionList
 =
@@ -1583,7 +1583,7 @@ for
 AtomDefnRange
 r
 =
-tc
+pc
 .
 lexdeps
 -
@@ -1947,8 +1947,8 @@ staticLevel
 =
 0
 ;
-TreeContext
-funtc
+ParseContext
+funpc
 (
 &
 parser
@@ -1967,7 +1967,7 @@ bodyid
 if
 (
 !
-funtc
+funpc
 .
 init
 (
@@ -2245,7 +2245,7 @@ false
 if
 (
 !
-funtc
+funpc
 .
 generateFunctionBindings
 (

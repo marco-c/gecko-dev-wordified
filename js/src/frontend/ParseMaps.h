@@ -1832,7 +1832,7 @@ is
 used
 by
 *
-TreeContext
+ParseContext
 to
 store
 declarations

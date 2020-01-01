@@ -1078,7 +1078,7 @@ context
 (
 see
 *
-TreeContext
+ParseContext
 )
 .
 It
@@ -2180,7 +2180,7 @@ js
 :
 StmtInfo
 {
-TC
+PC
 BCE
 }
 of
@@ -2292,7 +2292,7 @@ too
 /
 /
 /
-StmtInfoTC
+StmtInfoPC
 is
 used
 by
@@ -2649,9 +2649,9 @@ obj
 ParseNode
 *
 fn
-TreeContext
+ParseContext
 *
-tc
+pc
 StrictMode
 :
 :
@@ -2762,7 +2762,7 @@ at
 stmt
 onto
 the
-StmtInfoTC
+StmtInfoPC
 stack
 .
 template
@@ -2813,7 +2813,7 @@ blockObj
 /
 /
 Pop
-tc
+pc
 -
 >
 topStmt
@@ -2821,7 +2821,7 @@ topStmt
 If
 the
 top
-StmtInfoTC
+StmtInfoPC
 struct
 is
 not

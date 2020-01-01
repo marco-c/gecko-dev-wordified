@@ -2898,7 +2898,7 @@ the
 queuedStrictModeError
 member
 of
-TreeContext
+ParseContext
 .
 StrictModeGetter
 '
