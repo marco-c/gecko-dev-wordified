@@ -264,7 +264,7 @@ h
 #
 include
 "
-nsMediaError
+MediaError
 .
 h
 "

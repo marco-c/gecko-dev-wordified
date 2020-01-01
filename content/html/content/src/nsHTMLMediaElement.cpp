@@ -329,7 +329,7 @@ h
 #
 include
 "
-nsMediaError
+MediaError
 .
 h
 "
@@ -3875,7 +3875,7 @@ selection
 mError
 =
 new
-nsMediaError
+MediaError
 (
 nsIDOMMediaError
 :
@@ -15746,7 +15746,7 @@ codes
 mError
 =
 new
-nsMediaError
+MediaError
 (
 aErrorCode
 )
