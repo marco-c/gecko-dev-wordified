@@ -1236,7 +1236,7 @@ JSContext
 *
 *
 aCx
-nsAString
+Key
 &
 aValue
 )

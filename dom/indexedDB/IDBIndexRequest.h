@@ -511,6 +511,16 @@ IndexInfo
 aIndexInfo
 )
 ;
+IDBObjectStoreRequest
+*
+ObjectStore
+(
+)
+{
+return
+mObjectStore
+;
+}
 protected
 :
 IDBIndexRequest

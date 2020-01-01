@@ -1276,7 +1276,6 @@ NONE
 affinity
 "
 value
-TEXT
 NOT
 NULL
 "
@@ -1412,7 +1411,6 @@ NONE
 affinity
 "
 value
-TEXT
 NOT
 NULL
 "
@@ -1514,7 +1512,6 @@ NULL
 "
 "
 value
-TEXT
 NOT
 NULL
 "
@@ -1641,7 +1638,6 @@ NULL
 "
 "
 value
-TEXT
 NOT
 NULL
 "
