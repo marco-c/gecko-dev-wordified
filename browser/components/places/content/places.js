@@ -2675,6 +2675,7 @@ openContainerNodeInTabs
 (
 selectedNode
 aEvent
+currentView
 )
 ;
 }
@@ -2831,10 +2832,6 @@ aEvent
 this
 .
 _content
-.
-treeBoxObject
-.
-view
 )
 ;
 }

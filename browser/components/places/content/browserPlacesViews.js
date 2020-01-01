@@ -4657,6 +4657,11 @@ rtl
 "
 ;
 }
+get
+ownerWindow
+(
+)
+window
 /
 *
 *
