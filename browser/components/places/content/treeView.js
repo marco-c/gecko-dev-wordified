@@ -6414,6 +6414,13 @@ Array
 )
 ;
 var
+itemId
+=
+node
+.
+itemId
+;
+var
 nodeType
 =
 node
@@ -6436,13 +6443,6 @@ nodeType
 1
 )
 {
-var
-itemId
-=
-node
-.
-itemId
-;
 if
 (
 nodeType
