@@ -2981,6 +2981,13 @@ WindowDestroyed
 )
 {
 }
+virtual
+void
+ReleaseSurface
+(
+)
+{
+}
 void
 *
 GetUserData
