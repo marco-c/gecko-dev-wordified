@@ -15582,7 +15582,7 @@ length
 obj
 -
 >
-getDenseArrayCapacity
+getDenseArrayInitializedLength
 (
 )
 )
