@@ -1232,6 +1232,11 @@ has16DP
 (
 )
 ;
+bool
+hasIDIV
+(
+)
+;
 }
 /
 /

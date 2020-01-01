@@ -148,6 +148,11 @@ DivI
 \
 _
 (
+SoftDivI
+)
+\
+_
+(
 DivPowTwoI
 )
 \
