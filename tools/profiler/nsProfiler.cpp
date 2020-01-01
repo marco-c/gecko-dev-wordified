@@ -918,6 +918,12 @@ std
 hex
 <
 <
+std
+:
+:
+uppercase
+<
+<
 pdbAge
 ;
 MOZ_ASSERT
