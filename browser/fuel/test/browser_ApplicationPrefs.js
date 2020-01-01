@@ -426,7 +426,7 @@ non
 existant
 property
 for
-existance
+existence
 "
 )
 ;
@@ -471,7 +471,7 @@ existing
 string
 property
 for
-existance
+existence
 "
 )
 ;
@@ -768,7 +768,7 @@ existing
 integer
 property
 for
-existance
+existence
 "
 )
 ;
@@ -1041,7 +1041,7 @@ existing
 boolean
 property
 for
-existance
+existence
 "
 )
 ;

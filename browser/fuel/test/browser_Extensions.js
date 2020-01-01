@@ -137,7 +137,7 @@ non
 existant
 extension
 for
-existance
+existence
 "
 )
 ;
@@ -185,7 +185,7 @@ inspectorid
 Check
 extension
 for
-existance
+existence
 "
 )
 ;
@@ -1177,7 +1177,7 @@ non
 existant
 property
 for
-existance
+existence
 "
 )
 ;
