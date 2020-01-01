@@ -11135,7 +11135,7 @@ obj_hasOwnProperty
 3
 (
 static
-BOOL_RETRY
+BOOL_FAIL
 Object_p_hasOwnProperty
 CONTEXT
 THIS
@@ -11152,7 +11152,7 @@ obj_propertyIsEnumerable
 3
 (
 static
-BOOL_RETRY
+BOOL_FAIL
 Object_p_propertyIsEnumerable
 CONTEXT
 THIS
@@ -22438,13 +22438,6 @@ if
 (
 !
 pc
-|
-|
-!
-JS_ON_TRACE
-(
-cx
-)
 )
 {
 JSStackFrame
@@ -22529,13 +22522,6 @@ fp
 -
 >
 imacpc
-;
-}
-else
-{
-pc
-=
-NULL
 ;
 }
 }
