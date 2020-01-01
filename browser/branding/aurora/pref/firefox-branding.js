@@ -115,16 +115,6 @@ version
 in
 seconds
 )
-/
-/
-nightly
-=
-8
-hours
-official
-=
-24
-hours
 pref
 (
 "
@@ -137,6 +127,10 @@ interval
 28800
 )
 ;
+/
+/
+8
+hours
 /
 /
 The
