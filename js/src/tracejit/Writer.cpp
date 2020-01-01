@@ -3380,6 +3380,12 @@ ACCSET_OBJ_PARENT
 :
 ok
 =
+false
+;
+/
+/
+ok
+=
 OK_OBJ_FIELD
 (
 LIR_ldp

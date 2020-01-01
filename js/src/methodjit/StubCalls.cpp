@@ -748,6 +748,7 @@ interpreter
 /
 JS_ASSERT
 (
+!
 f
 .
 fp
@@ -759,7 +760,7 @@ scopeChain
 (
 )
 .
-isScope
+isGlobal
 (
 )
 )

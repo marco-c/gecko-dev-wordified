@@ -8408,6 +8408,12 @@ cx
 this
 &
 SlowArrayClass
+oldShape
+-
+>
+getObjectParent
+(
+)
 getProto
 (
 )

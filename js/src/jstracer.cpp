@@ -78534,7 +78534,7 @@ emptyShapes
 ]
 -
 >
-getClass
+getObjectClass
 (
 )
 =
@@ -78702,7 +78702,7 @@ JSCLASS_CACHED_PROTO_KEY
 empty
 -
 >
-getClass
+getObjectClass
 (
 )
 )

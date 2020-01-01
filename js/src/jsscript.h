@@ -1532,6 +1532,17 @@ JSContext
 cx
 )
 ;
+bool
+setParent
+(
+JSContext
+*
+cx
+JSObject
+*
+obj
+)
+;
 enum
 {
 /

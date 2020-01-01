@@ -1521,7 +1521,7 @@ blockChain
 blockChain
 -
 >
-getParent
+getStaticBlockScopeChain
 (
 )
 ;
@@ -2841,7 +2841,7 @@ sharedBlock
 sharedBlock
 -
 >
-getParent
+getStaticBlockScopeChain
 (
 )
 ;

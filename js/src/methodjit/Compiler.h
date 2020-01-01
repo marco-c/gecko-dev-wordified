@@ -2416,10 +2416,6 @@ CompilerAllocPolicy
 >
 rootedObjects
 ;
-Shape
-*
-denseArrayShape
-;
 StubCompiler
 stubcc
 ;

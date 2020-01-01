@@ -9443,12 +9443,6 @@ cx
 &
 ObjectClass
 proto
-proto
--
->
-getParent
-(
-)
 )
 ;
 if

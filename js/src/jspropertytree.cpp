@@ -1896,7 +1896,7 @@ emptyShape
 \
 n
 "
-getClass
+getObjectClass
 (
 )
 -
