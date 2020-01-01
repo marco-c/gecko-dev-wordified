@@ -917,7 +917,7 @@ a
 "
 LEFT
 JOIN
-moz_places_view
+moz_places
 h
 on
 h
