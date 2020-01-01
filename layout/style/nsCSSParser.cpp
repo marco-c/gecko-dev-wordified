@@ -25096,7 +25096,7 @@ aVariantMask
 {
 units
 =
-eCSSUnit_Point
+eCSSUnit_Pixel
 ;
 type
 =
