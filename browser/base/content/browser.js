@@ -50480,7 +50480,7 @@ plugins
 "
 messageString
 "
-addons
+plugins
 -
 notification
 -
