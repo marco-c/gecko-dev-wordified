@@ -5907,9 +5907,7 @@ return
 JS_FALSE
 ;
 }
-namespace
-js
-{
+static
 JSBool
 array_defineProperty
 (
@@ -6133,11 +6131,6 @@ attrs
 )
 ;
 }
-}
-/
-/
-namespace
-js
 static
 JSBool
 array_getAttributes
@@ -6209,9 +6202,7 @@ return
 JS_FALSE
 ;
 }
-namespace
-js
-{
+static
 JSBool
 array_deleteProperty
 (
@@ -6338,11 +6329,6 @@ return
 JS_TRUE
 ;
 }
-}
-/
-/
-namespace
-js
 static
 void
 array_trace
