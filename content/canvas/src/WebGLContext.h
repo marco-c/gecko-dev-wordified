@@ -5523,6 +5523,9 @@ mHasRobustness
 bool
 mIsMesa
 ;
+bool
+mLoseContextOnHeapMinimize
+;
 template
 <
 typename
