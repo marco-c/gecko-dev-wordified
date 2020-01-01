@@ -1552,6 +1552,10 @@ mParent
 =
 parent
 ;
+mVisible
+=
+false
+;
 if
 (
 !
