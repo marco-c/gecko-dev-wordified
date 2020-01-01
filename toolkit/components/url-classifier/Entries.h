@@ -1724,9 +1724,6 @@ const
 void
 *
 e2
-void
-*
-data
 )
 {
 const
@@ -1832,7 +1829,7 @@ T
 aArray
 )
 {
-NS_QuickSort
+qsort
 (
 aArray
 .
@@ -1855,7 +1852,6 @@ T
 :
 :
 Compare
-0
 )
 ;
 }
