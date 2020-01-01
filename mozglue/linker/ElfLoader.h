@@ -67,6 +67,13 @@ include
 <
 vector
 >
+#
+include
+<
+dlfcn
+.
+h
+>
 /
 *
 Until
