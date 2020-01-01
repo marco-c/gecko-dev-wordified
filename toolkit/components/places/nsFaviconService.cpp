@@ -2113,7 +2113,7 @@ rv
 history
 -
 >
-GetOrCreateIdForPage
+GetIdForPage
 (
 aPageURI
 &
@@ -2127,6 +2127,16 @@ rv
 rv
 )
 ;
+if
+(
+!
+pageId
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
 nsCOMPtr
 <
 mozIStorageStatement
