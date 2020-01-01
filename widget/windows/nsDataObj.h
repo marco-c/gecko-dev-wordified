@@ -176,6 +176,9 @@ nsITimer
 .
 h
 "
+class
+nsIThread
+;
 /
 /
 The
@@ -644,6 +647,14 @@ IDataObject
 public
 IAsyncOperation
 {
+protected
+:
+nsCOMPtr
+<
+nsIThread
+>
+mIOThread
+;
 public
 :
 /
