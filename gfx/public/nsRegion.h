@@ -412,6 +412,9 @@ nsPoint
 .
 h
 "
+class
+nsIntRegion
+;
 /
 *
 *
@@ -1356,6 +1359,14 @@ return
 mBoundRect
 ;
 }
+nsIntRegion
+ToOutsidePixels
+(
+nscoord
+aAppUnitsPerPixel
+)
+const
+;
 /
 *
 *

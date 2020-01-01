@@ -449,6 +449,12 @@ BLOCK
 *
 /
 #
+ifndef
+__UXThemeData_h__
+#
+define
+__UXThemeData_h__
+#
 include
 <
 windows
@@ -1231,3 +1237,8 @@ MOZ_WINSDK_TARGETVER
 MOZ_NTDDI_LONGHORN
 }
 ;
+#
+endif
+/
+/
+__UXThemeData_h__
