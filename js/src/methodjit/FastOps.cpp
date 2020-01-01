@@ -8328,6 +8328,15 @@ obj
 id
 value
 )
+|
+|
+analysis
+-
+>
+monitored
+(
+PC
+)
 )
 {
 jsop_setelem_slow

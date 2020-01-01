@@ -2343,6 +2343,8 @@ jsop_getgname
 (
 uint32
 index
+JSValueType
+type
 )
 ;
 void
@@ -2493,6 +2495,8 @@ jsop_name
 JSAtom
 *
 atom
+JSValueType
+type
 )
 ;
 bool
@@ -3102,14 +3106,6 @@ stub
 )
 ;
 \
-if
-(
-debugMode
-(
-)
-)
-{
-\
 InternalCallSite
 site
 (
@@ -3132,8 +3128,6 @@ addCallSite
 site
 )
 ;
-\
-}
 \
 }
 while
