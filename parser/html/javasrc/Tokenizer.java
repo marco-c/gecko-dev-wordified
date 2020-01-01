@@ -30434,13 +30434,8 @@ pos
 ;
 tokenHandler
 .
-characters
+zeroOriginatingReplacementCharacter
 (
-Tokenizer
-.
-REPLACEMENT_CHARACTER
-0
-1
 )
 ;
 cstart
