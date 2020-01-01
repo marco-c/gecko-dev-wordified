@@ -1635,6 +1635,7 @@ SetProperty
 attrName
 stringListPtr
 ReleaseStringListPropertyValue
+true
 )
 ;
 NS_ABORT_IF_FALSE
