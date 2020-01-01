@@ -2921,8 +2921,6 @@ NS_LITERAL_STRING
 "
 /
 sdcard
-/
-DCIM
 "
 )
 false
@@ -3009,8 +3007,6 @@ NS_LITERAL_STRING
 "
 /
 sdcard
-/
-Movies
 "
 )
 false
@@ -3097,8 +3093,6 @@ NS_LITERAL_STRING
 "
 /
 sdcard
-/
-Music
 "
 )
 false
