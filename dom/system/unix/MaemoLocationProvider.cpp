@@ -1170,8 +1170,6 @@ Watch
 nsIGeolocationUpdate
 *
 callback
-bool
-aRequestPrivate
 )
 {
 if

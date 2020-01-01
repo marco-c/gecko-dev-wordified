@@ -1816,19 +1816,6 @@ do_QueryInterface
 webNav
 )
 ;
-bool
-isPrivate
-=
-loadContext
-&
-&
-loadContext
--
->
-UsePrivateBrowsing
-(
-)
-;
 /
 /
 Kick
@@ -1867,7 +1854,6 @@ StartDevice
 GetPrincipal
 (
 )
-isPrivate
 )
 ;
 if
@@ -3986,8 +3972,6 @@ StartDevice
 nsIPrincipal
 *
 aPrincipal
-bool
-aRequestPrivate
 )
 {
 if
@@ -4146,7 +4130,6 @@ mProvider
 Watch
 (
 this
-aRequestPrivate
 )
 )
 )
