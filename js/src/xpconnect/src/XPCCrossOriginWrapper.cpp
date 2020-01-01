@@ -2300,11 +2300,6 @@ return
 JS_TRUE
 ;
 }
-CheckWindow
-(
-wn
-)
-;
 XPCJSRuntime
 *
 rt
