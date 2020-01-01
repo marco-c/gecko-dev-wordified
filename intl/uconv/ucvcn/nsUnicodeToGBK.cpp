@@ -1393,12 +1393,6 @@ m4BytesEncoder
 =
 nullptr
 ;
-mUtil
-.
-InitToGBKTable
-(
-)
-;
 mSurrogateHigh
 =
 0

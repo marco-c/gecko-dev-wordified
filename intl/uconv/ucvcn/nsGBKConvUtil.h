@@ -129,11 +129,6 @@ nsGBKConvUtil
 )
 {
 }
-void
-InitToGBKTable
-(
-)
-;
 PRUnichar
 GBKCharToUnicode
 (
