@@ -521,13 +521,6 @@ mMainMemoryTiledBuffer
 gfxSize
 mFrameResolution
 ;
-GLenum
-GetTileType
-(
-TiledTexture
-aTile
-)
-;
 void
 GetFormatAndTileForImageFormat
 (
