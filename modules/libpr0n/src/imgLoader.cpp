@@ -7035,7 +7035,7 @@ load
 .
 if
 (
-aLoadFlags
+requestFlags
 &
 nsIRequest
 :
