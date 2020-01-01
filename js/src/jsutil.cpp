@@ -138,6 +138,15 @@ include
 "
 mozilla
 /
+MathAlgorithms
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
@@ -180,6 +189,12 @@ h
 using
 namespace
 js
+;
+using
+mozilla
+:
+:
+CeilingLog2Size
 ;
 using
 mozilla
@@ -1162,7 +1177,7 @@ logscale
 (
 unsigned
 )
-JS_CEILING_LOG2W
+CeilingLog2Size
 (
 val
 )
@@ -1870,7 +1885,7 @@ mean
 )
 cnt
 =
-JS_CEILING_LOG2W
+CeilingLog2Size
 (
 cnt
 )

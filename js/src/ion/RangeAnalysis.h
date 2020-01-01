@@ -2333,7 +2333,10 @@ max_exponent_
 =
 max
 ?
-js_FloorLog2wImpl
+mozilla
+:
+:
+FloorLog2Size
 (
 max
 )

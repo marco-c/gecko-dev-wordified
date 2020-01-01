@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+MathAlgorithms
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -325,6 +334,9 @@ T
 )
 ;
 return
+mozilla
+:
+:
 RoundUpPow2
 (
 size
@@ -4882,6 +4894,9 @@ T
 size_t
 newSize
 =
+mozilla
+:
+:
 RoundUpPow2
 (
 newMinSize

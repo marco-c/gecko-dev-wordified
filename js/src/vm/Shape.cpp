@@ -130,6 +130,15 @@ include
 "
 mozilla
 /
+MathAlgorithms
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
@@ -239,6 +248,12 @@ mozilla
 :
 PodZero
 ;
+using
+mozilla
+:
+:
+CeilingLog2Size
+;
 bool
 ShapeTable
 :
@@ -318,7 +333,7 @@ population
 uint32_t
 sizeLog2
 =
-JS_CEILING_LOG2W
+CeilingLog2Size
 (
 2
 *

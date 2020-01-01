@@ -10111,6 +10111,9 @@ SLOT_CAPACITY_MIN
 uint32_t
 slots
 =
+mozilla
+:
+:
 RoundUpPow2
 (
 span
