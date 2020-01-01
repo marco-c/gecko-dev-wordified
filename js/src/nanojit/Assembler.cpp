@@ -9750,7 +9750,7 @@ savedRegs
 p
 -
 >
-paramArg
+imm8
 (
 )
 ]
@@ -9853,7 +9853,7 @@ argRegs
 state
 -
 >
-paramArg
+imm8
 (
 )
 ]
@@ -9882,7 +9882,7 @@ argRegs
 param1
 -
 >
-paramArg
+imm8
 (
 )
 ]

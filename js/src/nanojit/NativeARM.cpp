@@ -4716,7 +4716,7 @@ imm2register
 i
 -
 >
-paramArg
+imm8
 (
 )
 )
@@ -14579,7 +14579,7 @@ a
 ins
 -
 >
-paramArg
+imm8
 (
 )
 ;
@@ -14589,7 +14589,7 @@ kind
 ins
 -
 >
-paramKind
+imm8b
 (
 )
 ;

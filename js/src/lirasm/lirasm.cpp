@@ -4326,7 +4326,6 @@ OPDEF
 op
 number
 args
-repkind
 )
 \
 op_map
@@ -4351,7 +4350,6 @@ OPDEF64
 op
 number
 args
-repkind
 )
 \
 op_map
