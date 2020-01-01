@@ -1349,7 +1349,7 @@ Components
 .
 interfaces
 .
-nsIProcess2
+nsIProcess
 )
 ;
 process
