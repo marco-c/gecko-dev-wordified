@@ -12619,14 +12619,14 @@ containers
 /
 if
 (
-HasTransform
+HasTransformStyle
 (
 )
 !
 =
 aOther
 .
-HasTransform
+HasTransformStyle
 (
 )
 )
@@ -12680,7 +12680,7 @@ nsChangeHint_RepaintFrame
 else
 if
 (
-HasTransform
+HasTransformStyle
 (
 )
 )

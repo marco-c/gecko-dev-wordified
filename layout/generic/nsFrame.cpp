@@ -3015,6 +3015,7 @@ disp
 >
 HasTransform
 (
+this
 )
 )
 {
@@ -6299,7 +6300,6 @@ NS_FRAME_MAY_BE_TRANSFORMED
 &
 &
 (
-(
 GetStyleDisplay
 (
 )
@@ -6307,13 +6307,7 @@ GetStyleDisplay
 >
 HasTransform
 (
-)
-&
-&
-IsFrameOfType
-(
-eSupportsCSSTransforms
-)
+this
 )
 |
 |
@@ -6453,6 +6447,7 @@ GetStyleDisplay
 >
 HasTransform
 (
+this
 )
 )
 return
@@ -6574,6 +6569,7 @@ GetStyleDisplay
 >
 HasTransform
 (
+this
 )
 )
 {
