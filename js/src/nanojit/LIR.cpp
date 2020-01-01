@@ -18502,6 +18502,9 @@ b
 #
 define
 SIG_D_I
+CallInfo
+:
+:
 typeSig1
 (
 ARGTYPE_D
@@ -18510,6 +18513,9 @@ ARGTYPE_I
 #
 define
 SIG_D_UI
+CallInfo
+:
+:
 typeSig1
 (
 ARGTYPE_D
@@ -18518,6 +18524,9 @@ ARGTYPE_UI
 #
 define
 SIG_D_D
+CallInfo
+:
+:
 typeSig1
 (
 ARGTYPE_D
@@ -18526,6 +18535,9 @@ ARGTYPE_D
 #
 define
 SIG_D_DD
+CallInfo
+:
+:
 typeSig2
 (
 ARGTYPE_D
@@ -18535,6 +18547,9 @@ ARGTYPE_D
 #
 define
 SIG_B_DD
+CallInfo
+:
+:
 typeSig2
 (
 ARGTYPE_B
