@@ -580,9 +580,6 @@ nsIRadioInterfaceLayer
 >
 mRIL
 ;
-nsAutoString
-mCid
-;
 }
 ;
 #
