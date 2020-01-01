@@ -7976,16 +7976,10 @@ not
 -
 bfcacheable
 .
-indexedDB
-:
-:
 IndexedDatabaseManager
 *
 manager
 =
-indexedDB
-:
-:
 IndexedDatabaseManager
 :
 :
