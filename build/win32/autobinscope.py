@@ -642,6 +642,19 @@ returncode
   
 print
 "
+Error
+count
+:
+%
+d
+"
+%
+proc
+.
+returncode
+  
+print
+"
 TEST
 -
 UNEXPECTED
@@ -669,6 +682,27 @@ ASLR
 "
 %
 binary_path
+  
+logfile
+=
+open
+(
+log_file_path
+"
+r
+"
+)
+  
+for
+line
+in
+logfile
+:
+    
+print
+(
+line
+)
 else
 :
   
