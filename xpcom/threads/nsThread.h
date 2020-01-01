@@ -549,9 +549,6 @@ mShutdownContext
 bool
 mShutdownRequired
 ;
-bool
-mShutdownPending
-;
 /
 /
 Set
