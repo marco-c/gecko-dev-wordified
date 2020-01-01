@@ -675,13 +675,6 @@ window
 #
 include
 "
-nsIRegion
-.
-h
-"
-#
-include
-"
 nsILookAndFeel
 .
 h
