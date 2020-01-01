@@ -876,9 +876,11 @@ nsSVGTextPathElement
 mContent
 )
 ;
-nsAutoString
+const
+nsString
+&
 href
-;
+=
 tp
 -
 >
@@ -892,8 +894,6 @@ HREF
 .
 GetAnimValue
 (
-href
-tp
 )
 ;
 if

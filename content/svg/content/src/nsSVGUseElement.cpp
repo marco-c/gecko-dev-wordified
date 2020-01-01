@@ -1826,9 +1826,11 @@ CreateAnonymousContent
 #
 ifdef
 DEBUG_tor
-nsAutoString
+const
+nsString
+&
 href
-;
+=
 mStringAttributes
 [
 HREF
@@ -1836,8 +1838,6 @@ HREF
 .
 GetAnimValue
 (
-href
-this
 )
 ;
 fprintf
@@ -3010,9 +3010,11 @@ LookupHref
 (
 )
 {
-nsAutoString
+const
+nsString
+&
 href
-;
+=
 mStringAttributes
 [
 HREF
@@ -3020,8 +3022,6 @@ HREF
 .
 GetAnimValue
 (
-href
-this
 )
 ;
 if
@@ -3305,6 +3305,8 @@ DidChangeString
 (
 PRUint8
 aAttrEnum
+PRBool
+aDoSetAttr
 )
 {
 nsSVGUseElementBase
@@ -3313,6 +3315,7 @@ nsSVGUseElementBase
 DidChangeString
 (
 aAttrEnum
+aDoSetAttr
 )
 ;
 if
