@@ -6658,8 +6658,8 @@ public
 ARM
 conditional
 constants
-typedef
 enum
+ARMCondition
 {
 EQ
 =
@@ -6715,7 +6715,6 @@ AL
 =
 0xe0000000
 }
-ARMCondition
 ;
 enum
 Condition

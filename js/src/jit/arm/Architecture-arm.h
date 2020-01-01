@@ -398,8 +398,8 @@ Registers
 {
 public
 :
-typedef
 enum
+RegisterID
 {
 r0
 =
@@ -439,7 +439,6 @@ pc
 r15
 invalid_reg
 }
-RegisterID
 ;
 typedef
 RegisterID
@@ -978,8 +977,8 @@ FloatRegisters
 {
 public
 :
-typedef
 enum
+FPRegisterID
 {
 d0
 d1
@@ -1017,7 +1016,6 @@ d29
 d30
 invalid_freg
 }
-FPRegisterID
 ;
 typedef
 FPRegisterID
