@@ -5085,12 +5085,7 @@ intersection
 .
 finger2
 =
-finger2
--
->
-immediateDominator
-(
-)
+idom
 ;
 }
 }
@@ -5335,10 +5330,12 @@ pred
 immediateDominator
 (
 )
-!
+=
 =
 NULL
 )
+continue
+;
 newIdom
 =
 IntersectDominators
