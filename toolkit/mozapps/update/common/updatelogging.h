@@ -441,6 +441,7 @@ Init
 NS_tchar
 *
 sourcePath
+const
 NS_tchar
 *
 fileName

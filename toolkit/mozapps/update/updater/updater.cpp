@@ -8769,6 +8769,9 @@ return
 true
 ;
 }
+#
+ifdef
+MOZ_MAINTENANCE_SERVICE
 /
 *
 *
@@ -8993,6 +8996,11 @@ return
 isPending
 ;
 }
+#
+endif
+#
+ifdef
+XP_WIN
 /
 *
 *
@@ -9174,9 +9182,6 @@ return
 true
 ;
 }
-#
-ifdef
-XP_WIN
 static
 void
 WaitForServiceFinishThread
@@ -16001,11 +16006,6 @@ isFirstAction
 =
 true
 ;
-bool
-isComplete
-=
-false
-;
 while
 (
 (
@@ -16145,10 +16145,6 @@ complete
 0
 )
 {
-isComplete
-=
-true
-;
 rv
 =
 AddPreCompleteActions
