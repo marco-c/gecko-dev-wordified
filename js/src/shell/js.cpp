@@ -8849,14 +8849,13 @@ jsval
 closure
 )
 {
-RootedString
+JSString
+*
 str
-(
-cx
+=
 JSVAL_TO_STRING
 (
 closure
-)
 )
 ;
 RootedValue
