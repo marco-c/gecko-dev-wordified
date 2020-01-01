@@ -519,7 +519,7 @@ nsSVGElement
 aSVGElement
 )
 ;
-void
+nsresult
 SetBaseValue
 (
 PRUint16
@@ -665,6 +665,7 @@ PRUint16
 aValue
 )
 {
+return
 mVal
 -
 >
@@ -674,9 +675,6 @@ aValue
 mSVGElement
 PR_TRUE
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHOD
