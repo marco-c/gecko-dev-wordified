@@ -2954,6 +2954,10 @@ StrictEvalScope
 ;
 private
 :
+JSContext
+*
+cx
+;
 AbstractFramePtr
 frame_
 ;

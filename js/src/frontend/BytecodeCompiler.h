@@ -135,8 +135,8 @@ JSContext
 cx
 HandleObject
 scopeChain
-AbstractFramePtr
-callerFrame
+HandleScript
+evalCaller
 const
 CompileOptions
 &

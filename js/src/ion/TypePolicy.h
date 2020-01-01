@@ -556,10 +556,12 @@ ins
 ;
 /
 /
-Single
--
+Expect
+a
 string
-input
+for
+operand
+Op
 .
 If
 the
@@ -571,6 +573,11 @@ it
 is
 unboxed
 .
+template
+<
+unsigned
+Op
+>
 class
 StringPolicy
 :
