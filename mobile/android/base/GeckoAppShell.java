@@ -15888,7 +15888,13 @@ int
 (
 sLastCheckerboardWidthRatio
 *
+(
 left
+-
+viewport
+.
+cssPageRectLeft
+)
 )
 (
 int
@@ -15896,7 +15902,13 @@ int
 (
 sLastCheckerboardHeightRatio
 *
+(
 top
+-
+viewport
+.
+cssPageRectTop
+)
 )
 (
 int

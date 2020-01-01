@@ -1279,11 +1279,12 @@ f
 ;
 f
 =
-f
--
->
-GetNextContinuation
+nsLayoutUtils
+:
+:
+GetNextContinuationOrSpecialSibling
 (
+f
 )
 )
 {

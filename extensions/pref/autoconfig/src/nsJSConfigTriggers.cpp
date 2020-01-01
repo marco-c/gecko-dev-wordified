@@ -735,7 +735,7 @@ secman
 ;
 autoconfig_glob
 =
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 autoconfig_cx
 &

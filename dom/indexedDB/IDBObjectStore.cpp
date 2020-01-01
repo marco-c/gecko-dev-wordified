@@ -1959,7 +1959,7 @@ mContext
 ;
 mGlobal
 =
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 mContext
 &

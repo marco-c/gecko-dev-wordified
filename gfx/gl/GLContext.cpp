@@ -14751,9 +14751,6 @@ GLenum
 format
 ;
 GLenum
-internalformat
-;
-GLenum
 type
 ;
 PRInt32
@@ -14934,14 +14931,6 @@ imageSurface
 Stride
 (
 )
-;
-internalformat
-=
-mIsGLES2
-?
-format
-:
-LOCAL_GL_RGBA
 ;
 nsIntRegionRectIterator
 iter
@@ -15142,7 +15131,7 @@ TexImage2D
 (
 LOCAL_GL_TEXTURE_2D
 0
-internalformat
+format
 iterRect
 -
 >

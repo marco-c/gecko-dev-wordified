@@ -1150,7 +1150,7 @@ used
 .
 *
 param
-servicePathWasWrong
+wasFixNeeded
 Out
 parameter
 set

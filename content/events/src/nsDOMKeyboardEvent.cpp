@@ -477,6 +477,11 @@ break
 ;
 default
 :
+*
+aCharCode
+=
+0
+;
 break
 ;
 }

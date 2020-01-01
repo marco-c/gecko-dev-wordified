@@ -8757,8 +8757,10 @@ invariants
 .
 *
 /
-static
 bool
+js
+:
+:
 GeneratorHasMarkableFrame
 (
 JSGenerator
@@ -9449,8 +9451,6 @@ genfp
 >
 copyFrameAndValues
 <
-HeapValue
-Value
 StackFrame
 :
 :
@@ -9458,6 +9458,10 @@ DoPostBarrier
 >
 (
 cx
+(
+Value
+*
+)
 genvp
 stackfp
 stackvp
