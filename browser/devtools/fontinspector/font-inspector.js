@@ -1832,6 +1832,13 @@ function
 (
 )
 {
+if
+(
+window
+.
+fontInspector
+)
+{
 window
 .
 fontInspector
@@ -1840,4 +1847,5 @@ destroy
 (
 )
 ;
+}
 }
