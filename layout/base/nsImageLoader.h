@@ -600,8 +600,6 @@ aFrame
 nsPresContext
 *
 aPresContext
-PRBool
-aReflowOnLoad
 )
 ;
 nsresult
@@ -663,9 +661,6 @@ nsCOMPtr
 imgIRequest
 >
 mRequest
-;
-PRBool
-mReflowOnLoad
 ;
 }
 ;

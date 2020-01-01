@@ -2016,7 +2016,7 @@ GetStyleBorder
 )
 -
 >
-GetActualBorder
+GetBorder
 (
 )
 ;

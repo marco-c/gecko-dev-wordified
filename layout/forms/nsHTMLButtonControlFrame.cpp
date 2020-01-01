@@ -1398,7 +1398,7 @@ GetStyleBorder
 )
 -
 >
-GetActualBorder
+GetBorder
 (
 )
 ;

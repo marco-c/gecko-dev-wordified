@@ -1886,9 +1886,6 @@ mFloatEdge
 /
 /
 NEW
-nsCSSValue
-mBorderImage
-;
 nsCSSValueList
 *
 mBoxShadow

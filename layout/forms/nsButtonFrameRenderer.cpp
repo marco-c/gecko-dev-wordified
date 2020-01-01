@@ -1631,7 +1631,7 @@ GetStyleBorder
 )
 -
 >
-GetActualBorder
+GetBorder
 (
 )
 ;
@@ -1800,7 +1800,7 @@ GetStyleBorder
 )
 -
 >
-GetActualBorder
+GetBorder
 (
 )
 ;

@@ -1026,7 +1026,7 @@ if
 border
 -
 >
-GetActualBorderWidth
+GetBorderWidth
 (
 NS_SIDE_RIGHT
 )
@@ -1038,7 +1038,7 @@ NS_SIDE_RIGHT
 border
 -
 >
-GetActualBorderWidth
+GetBorderWidth
 (
 NS_SIDE_LEFT
 )

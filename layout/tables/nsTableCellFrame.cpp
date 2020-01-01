@@ -6720,7 +6720,7 @@ GetStyleBorder
 )
 -
 >
-GetActualBorder
+GetBorder
 (
 )
 ;
