@@ -2094,6 +2094,7 @@ ElementToValue
 (
 const
 T
+&
 t
 )
 {
@@ -2117,6 +2118,7 @@ ElementToValue
 (
 const
 uint8_clamped
+&
 u
 )
 {
