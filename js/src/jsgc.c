@@ -1553,12 +1553,11 @@ allocator
 When
 it
 is
-is
 true
 a
 platform
 -
-dependant
+dependent
 function
 like
 mmap
