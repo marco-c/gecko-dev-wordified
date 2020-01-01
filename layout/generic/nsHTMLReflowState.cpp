@@ -11347,6 +11347,7 @@ nsHTMLReflowState
 aCBReflowState
 )
 {
+const
 nsHTMLReflowState
 *
 firstAncestorRS
@@ -11360,6 +11361,7 @@ candidate
 for
 html
 frame
+const
 nsHTMLReflowState
 *
 secondAncestorRS
@@ -11436,16 +11438,10 @@ rs
 ;
 rs
 =
-(
-nsHTMLReflowState
-*
-)
-(
 rs
 -
 >
 parentReflowState
-)
 )
 {
 nsIAtom
@@ -11531,10 +11527,6 @@ firstAncestorRS
 ;
 firstAncestorRS
 =
-(
-nsHTMLReflowState
-*
-)
 rs
 ;
 /
