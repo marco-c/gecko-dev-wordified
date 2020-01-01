@@ -244,6 +244,9 @@ namespace
 dom
 {
 class
+Date
+;
+class
 UploadLastDir
 MOZ_FINAL
 :
