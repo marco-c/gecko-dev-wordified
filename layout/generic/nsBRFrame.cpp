@@ -604,6 +604,10 @@ aForward
 PRInt32
 *
 aOffset
+PRBool
+aRespectClusters
+=
+PR_TRUE
 )
 ;
 virtual
@@ -1787,6 +1791,8 @@ aForward
 PRInt32
 *
 aOffset
+PRBool
+aRespectClusters
 )
 {
 NS_ASSERTION

@@ -6035,7 +6035,7 @@ BOUNDARY_CHAR
 :
 amount
 =
-eSelectCharacter
+eSelectCluster
 ;
 if
 (
