@@ -246,7 +246,7 @@ field
         
 field
 .
-type
+typespec
 .
 accept
 (
@@ -1632,7 +1632,7 @@ loc
         
 self
 .
-type
+typespec
 =
 type
         
