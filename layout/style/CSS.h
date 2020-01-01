@@ -143,6 +143,9 @@ namespace
 dom
 {
 class
+GlobalObject
+;
+class
 CSS
 {
 private
@@ -158,8 +161,9 @@ static
 bool
 Supports
 (
-nsISupports
-*
+const
+GlobalObject
+&
 aGlobal
 const
 nsAString
@@ -178,8 +182,9 @@ static
 bool
 Supports
 (
-nsISupports
-*
+const
+GlobalObject
+&
 aGlobal
 const
 nsAString

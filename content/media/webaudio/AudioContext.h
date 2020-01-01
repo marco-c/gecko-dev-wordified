@@ -202,6 +202,9 @@ class
 GainNode
 ;
 class
+GlobalObject
+;
+class
 PannerNode
 ;
 class
@@ -277,8 +280,9 @@ AudioContext
 >
 Constructor
 (
-nsISupports
-*
+const
+GlobalObject
+&
 aGlobal
 ErrorResult
 &
