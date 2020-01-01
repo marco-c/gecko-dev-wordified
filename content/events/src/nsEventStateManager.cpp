@@ -13231,6 +13231,13 @@ do_GetInterface
 container
 )
 ;
+if
+(
+!
+window
+)
+return
+;
 /
 /
 GetDragData
