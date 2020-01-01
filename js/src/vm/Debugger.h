@@ -3714,8 +3714,7 @@ rv
 JSTrapStatus
 *
 status
-Value
-*
+MutableHandleValue
 value
 )
 ;
