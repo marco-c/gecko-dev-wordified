@@ -598,6 +598,8 @@ true
 /
 /
 use
+newWin
+.
 setTimeout
 (
 .
@@ -608,6 +610,8 @@ setTimeout
 to
 mirror
 sss_restoreWindowFeatures
+newWin
+.
 setTimeout
 (
 function
@@ -714,6 +718,8 @@ newState
 true
 )
 ;
+newWin
+.
 setTimeout
 (
 function
@@ -788,6 +794,8 @@ newState
 true
 )
 ;
+newWin
+.
 setTimeout
 (
 function
