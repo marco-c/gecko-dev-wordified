@@ -6734,11 +6734,6 @@ nsStyleDisplay
 *
 disp
 =
-StyleContext
-(
-)
--
->
 GetStyleDisplay
 (
 )
@@ -39166,11 +39161,6 @@ HasTerminalNewline
 aFrame
 -
 >
-StyleContext
-(
-)
--
->
 GetStyleText
 (
 )
@@ -49416,11 +49406,6 @@ nsStyleCoord
 &
 verticalAlign
 =
-StyleContext
-(
-)
--
->
 GetStyleTextReset
 (
 )
