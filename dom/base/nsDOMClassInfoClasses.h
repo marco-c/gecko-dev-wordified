@@ -1406,6 +1406,10 @@ DOMCI_CLASS
 (
 SVGUseElement
 )
+DOMCI_CLASS
+(
+SVGViewElement
+)
 /
 /
 other
