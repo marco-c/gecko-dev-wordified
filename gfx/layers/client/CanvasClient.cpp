@@ -368,6 +368,12 @@ GetCompositorBackendType
 LAYERS_OPENGL
 )
 {
+aFlags
+&
+=
+~
+TEXTURE_DEALLOCATE_HOST
+;
 return
 new
 DeprecatedCanvasClientSurfaceStream
@@ -392,6 +398,12 @@ UseDeprecatedTextures
 )
 )
 {
+aFlags
+&
+=
+~
+TEXTURE_DEALLOCATE_HOST
+;
 return
 new
 DeprecatedCanvasClient2D
