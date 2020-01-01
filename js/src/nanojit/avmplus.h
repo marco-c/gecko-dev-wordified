@@ -471,10 +471,6 @@ typedef
 JSUint64
 uint64_t
 ;
-#
-define
-NJ_PAGE_SIZE
-4096
 class
 GC
 {
