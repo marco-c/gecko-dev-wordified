@@ -823,7 +823,7 @@ WorkerRunnable
 aWorkerPrivate
 WorkerThread
 UnchangedBusyCount
-SkipWhenClearing
+aClearingBehavior
 )
 mSyncQueueKey
 (
