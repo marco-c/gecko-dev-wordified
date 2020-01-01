@@ -1693,8 +1693,7 @@ RunScript
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 StackFrame
 *

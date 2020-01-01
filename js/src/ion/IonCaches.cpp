@@ -1978,9 +1978,11 @@ name
 )
 )
 ;
-JSScript
-*
+RootedScript
 script
+(
+cx
+)
 ;
 jsbytecode
 *
@@ -1990,8 +1992,11 @@ cache
 .
 getScriptedLocation
 (
-&
 script
+.
+address
+(
+)
 &
 pc
 )

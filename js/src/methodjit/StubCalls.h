@@ -472,8 +472,7 @@ NULL
 struct
 UncachedCallResult
 {
-JSFunction
-*
+RootedFunction
 fun
 ;
 /
@@ -505,6 +504,19 @@ JIT
 and
 fail
 ?
+UncachedCallResult
+(
+JSContext
+*
+cx
+)
+:
+fun
+(
+cx
+)
+{
+}
 void
 init
 (
@@ -576,7 +588,7 @@ argc
 bool
 lowered
 UncachedCallResult
-*
+&
 ucr
 )
 ;
@@ -589,7 +601,7 @@ f
 uint32_t
 argc
 UncachedCallResult
-*
+&
 ucr
 )
 ;

@@ -1042,8 +1042,7 @@ CanEnterAtBranch
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 StackFrame
 *
@@ -1059,8 +1058,7 @@ CanEnter
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 StackFrame
 *
