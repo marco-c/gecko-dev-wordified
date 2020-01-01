@@ -401,7 +401,7 @@ browser
 .
 cachePixelX
 "
-800
+580
 )
 ;
 pref
@@ -413,7 +413,7 @@ browser
 .
 cachePixelY
 "
-2000
+1000
 )
 ;
 pref
