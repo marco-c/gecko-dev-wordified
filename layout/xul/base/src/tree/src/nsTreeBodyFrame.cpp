@@ -1836,8 +1836,11 @@ void
 nsTreeBodyFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 mScrollEvent
@@ -2048,8 +2051,9 @@ nsnull
 nsLeafBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

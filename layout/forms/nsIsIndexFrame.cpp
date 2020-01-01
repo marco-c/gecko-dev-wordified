@@ -770,8 +770,11 @@ void
 nsIsIndexFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 /
@@ -852,8 +855,9 @@ mPostHr
 nsBlockFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

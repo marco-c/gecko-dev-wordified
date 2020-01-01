@@ -1980,8 +1980,11 @@ aFrameList
 ;
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 NS_IMETHOD
@@ -2847,8 +2850,11 @@ aFrameList
 ;
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 NS_IMETHOD

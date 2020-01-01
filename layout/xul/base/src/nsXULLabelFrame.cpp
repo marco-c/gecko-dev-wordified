@@ -891,8 +891,11 @@ void
 nsXULLabelFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 /
@@ -908,8 +911,9 @@ PR_FALSE
 nsBlockFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

@@ -679,8 +679,11 @@ void
 nsHTMLButtonControlFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 nsFormControlFrame
@@ -702,8 +705,9 @@ PR_FALSE
 nsHTMLContainerFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

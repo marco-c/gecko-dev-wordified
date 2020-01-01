@@ -1059,8 +1059,11 @@ void
 nsTextBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 /
@@ -1076,8 +1079,9 @@ PR_FALSE
 nsTextBoxFrameSuper
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

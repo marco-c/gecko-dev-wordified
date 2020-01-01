@@ -1463,8 +1463,11 @@ void
 nsListBoxBodyFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 /
@@ -1569,8 +1572,9 @@ ClearCachedValues
 nsBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

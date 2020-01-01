@@ -5393,8 +5393,11 @@ void
 nsBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 /
@@ -5429,8 +5432,9 @@ nsnull
 nsContainerFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

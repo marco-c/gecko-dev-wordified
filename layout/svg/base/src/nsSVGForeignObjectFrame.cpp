@@ -876,8 +876,11 @@ void
 nsSVGForeignObjectFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 nsSVGUtils
@@ -897,8 +900,9 @@ this
 nsSVGForeignObjectFrameBase
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

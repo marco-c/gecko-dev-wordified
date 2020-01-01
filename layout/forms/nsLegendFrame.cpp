@@ -596,8 +596,11 @@ void
 nsLegendFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 nsFormControlFrame
@@ -619,8 +622,9 @@ PR_FALSE
 nsBlockFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

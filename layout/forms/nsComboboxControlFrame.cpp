@@ -8410,8 +8410,11 @@ void
 nsComboboxControlFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 /
@@ -8531,8 +8534,9 @@ child
 list
 mPopupFrames
 .
-DestroyFrames
+DestroyFramesFrom
 (
+aDestructRoot
 )
 ;
 nsContentUtils
@@ -8556,8 +8560,9 @@ mButtonContent
 nsBlockFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

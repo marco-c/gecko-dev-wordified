@@ -750,8 +750,11 @@ void
 nsCanvasFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 mAbsoluteContainer
@@ -759,6 +762,7 @@ mAbsoluteContainer
 DestroyFrames
 (
 this
+aDestructRoot
 )
 ;
 nsIScrollableView
@@ -793,8 +797,9 @@ this
 nsHTMLContainerFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

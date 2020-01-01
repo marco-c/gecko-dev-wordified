@@ -1171,8 +1171,11 @@ void
 nsHTMLScrollFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 mInner
@@ -1184,8 +1187,9 @@ Destroy
 nsHTMLContainerFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }
@@ -7220,8 +7224,11 @@ void
 nsXULScrollFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 mInner
@@ -7233,8 +7240,9 @@ Destroy
 nsBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

@@ -593,8 +593,11 @@ public
 :
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 friend
@@ -823,8 +826,11 @@ void
 nsDocElementBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 nsContentUtils
@@ -848,8 +854,9 @@ mTooltipContent
 nsBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

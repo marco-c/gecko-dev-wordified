@@ -1007,8 +1007,11 @@ void
 nsVideoFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 nsContentUtils
@@ -1032,8 +1035,9 @@ mPosterImage
 nsContainerFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

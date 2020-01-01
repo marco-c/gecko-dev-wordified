@@ -3412,8 +3412,11 @@ void
 nsObjectFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 NS_ASSERTION
@@ -3551,8 +3554,9 @@ Destroy
 nsObjectFrameSuper
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

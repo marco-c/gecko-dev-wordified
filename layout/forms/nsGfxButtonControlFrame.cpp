@@ -606,8 +606,11 @@ void
 nsGfxButtonControlFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 nsContentUtils
@@ -622,8 +625,9 @@ mTextContent
 nsHTMLButtonControlFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

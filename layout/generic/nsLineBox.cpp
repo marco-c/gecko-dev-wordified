@@ -2013,6 +2013,9 @@ aPresContext
 nsLineList
 &
 aLines
+nsIFrame
+*
+aDestructRoot
 )
 {
 if
@@ -2111,8 +2114,15 @@ nsnull
 child
 -
 >
-Destroy
+DestroyFrom
 (
+(
+aDestructRoot
+)
+?
+aDestructRoot
+:
+child
 )
 ;
 child

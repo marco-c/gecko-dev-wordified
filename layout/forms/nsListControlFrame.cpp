@@ -1607,8 +1607,11 @@ void
 nsListControlFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 /
@@ -1737,8 +1740,9 @@ PR_FALSE
 nsHTMLScrollFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

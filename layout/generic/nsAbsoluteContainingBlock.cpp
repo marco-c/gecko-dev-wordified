@@ -2669,12 +2669,16 @@ DestroyFrames
 nsIFrame
 *
 aDelegatingFrame
+nsIFrame
+*
+aDestructRoot
 )
 {
 mAbsoluteFrames
 .
-DestroyFrames
+DestroyFramesFrom
 (
+aDestructRoot
 )
 ;
 }

@@ -1506,8 +1506,11 @@ void
 nsImageFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 /
@@ -1658,8 +1661,9 @@ this
 nsSplittableFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

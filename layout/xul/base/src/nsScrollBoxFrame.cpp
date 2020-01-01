@@ -525,8 +525,11 @@ aContext
 ;
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 NS_IMETHOD
@@ -1066,8 +1069,11 @@ void
 nsAutoRepeatBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 /
@@ -1115,8 +1121,9 @@ StopRepeat
 nsButtonBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

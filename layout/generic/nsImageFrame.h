@@ -698,8 +698,11 @@ aContext
 NS_DECL_QUERYFRAME
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 NS_IMETHOD

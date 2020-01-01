@@ -2651,6 +2651,9 @@ aPresContext
 nsLineList
 &
 aLines
+nsIFrame
+*
+aDestructRoot
 )
 ;
 /

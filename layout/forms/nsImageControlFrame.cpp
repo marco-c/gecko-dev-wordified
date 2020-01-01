@@ -643,8 +643,11 @@ nsImageControlFrame
 ;
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 NS_IMETHOD
@@ -829,8 +832,11 @@ void
 nsImageControlFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 if
@@ -854,8 +860,9 @@ PR_FALSE
 nsImageControlFrameSuper
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

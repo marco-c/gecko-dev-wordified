@@ -645,8 +645,11 @@ void
 nsTreeColFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 InvalidateColumns
@@ -657,8 +660,9 @@ PR_FALSE
 nsBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

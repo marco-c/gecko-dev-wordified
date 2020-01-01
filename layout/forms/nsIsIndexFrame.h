@@ -508,8 +508,11 @@ nsIsIndexFrame
 ;
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 private
