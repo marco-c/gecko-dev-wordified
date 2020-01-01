@@ -1687,13 +1687,6 @@ CodeAlloc
 &
 _codeAlloc
 ;
-avmplus
-:
-:
-GC
-*
-_gc
-;
 DWB
 (
 Fragment
