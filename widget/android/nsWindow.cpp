@@ -9941,7 +9941,6 @@ AndroidBridge
 :
 :
 NOTIFY_IME_REPLY_EVENT
-0
 )
 ;
 return
@@ -10051,7 +10050,6 @@ AndroidBridge
 :
 :
 NOTIFY_IME_REPLY_EVENT
-0
 )
 ;
 }
@@ -10102,7 +10100,6 @@ AndroidBridge
 :
 :
 NOTIFY_IME_REPLY_EVENT
-0
 )
 ;
 }
@@ -10353,7 +10350,6 @@ AndroidBridge
 :
 :
 NOTIFY_IME_REPLY_EVENT
-0
 )
 ;
 }
@@ -11401,11 +11397,7 @@ AndroidBridge
 :
 NotifyIME
 (
-AndroidBridge
-:
-:
-NOTIFY_IME_RESETINPUTSTATE
-0
+REQUEST_TO_COMMIT_COMPOSITION
 )
 ;
 return
@@ -11490,11 +11482,7 @@ AndroidBridge
 :
 NotifyIME
 (
-AndroidBridge
-:
-:
-NOTIFY_IME_CANCELCOMPOSITION
-0
+REQUEST_TO_CANCEL_COMPOSITION
 )
 ;
 return
@@ -11517,11 +11505,7 @@ AndroidBridge
 :
 NotifyIME
 (
-AndroidBridge
-:
-:
-NOTIFY_IME_FOCUSCHANGE
-1
+NOTIFY_IME_OF_FOCUS
 )
 ;
 return
@@ -11599,11 +11583,7 @@ AndroidBridge
 :
 NotifyIME
 (
-AndroidBridge
-:
-:
-NOTIFY_IME_FOCUSCHANGE
-0
+NOTIFY_IME_OF_BLUR
 )
 ;
 return

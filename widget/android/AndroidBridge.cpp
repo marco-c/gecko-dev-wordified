@@ -731,7 +731,7 @@ notifyIME
 "
 "
 (
-II
+I
 )
 V
 "
@@ -3209,8 +3209,6 @@ NotifyIME
 (
 int
 aType
-int
-aState
 )
 {
 ALOG_BRIDGE
@@ -3259,7 +3257,6 @@ sBridge
 >
 jNotifyIME
 aType
-aState
 )
 ;
 }
