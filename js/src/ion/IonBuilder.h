@@ -1293,6 +1293,17 @@ InliningData
 data
 )
 ;
+JSFunction
+*
+getSingleCallTarget
+(
+uint32
+argc
+jsbytecode
+*
+pc
+)
+;
 bool
 getInliningTarget
 (
@@ -1900,7 +1911,7 @@ jsop_call
 uint32
 argc
 bool
-construct
+constructing
 )
 ;
 bool

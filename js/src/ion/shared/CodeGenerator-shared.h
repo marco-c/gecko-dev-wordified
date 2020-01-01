@@ -1393,6 +1393,16 @@ LInstruction
 ins
 )
 ;
+bool
+markSafepointAt
+(
+uint32
+offset
+LInstruction
+*
+ins
+)
+;
 /
 /
 Mark
