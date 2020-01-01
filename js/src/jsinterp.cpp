@@ -7014,15 +7014,11 @@ main
 {
 if
 (
-JSScript
-:
-:
-isValidOffset
-(
 script
 -
 >
-trynotesOffset
+hasTrynotes
+(
 )
 )
 {

@@ -5431,15 +5431,11 @@ length
 &
 &
 !
-JSScript
-:
-:
-isValidOffset
-(
 script
 -
 >
-regexpsOffset
+hasRegexps
+(
 )
 )
 {
