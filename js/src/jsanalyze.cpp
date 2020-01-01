@@ -9752,6 +9752,15 @@ break
 case
 JSOP_THROW
 :
+case
+JSOP_RETURN
+:
+case
+JSOP_STOP
+:
+case
+JSOP_RETRVAL
+:
 mergeAllExceptionTargets
 (
 cx
