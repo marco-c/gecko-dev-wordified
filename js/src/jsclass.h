@@ -1465,7 +1465,7 @@ much
 we
 have
 to
-padd
+pad
 js
 :
 :
@@ -1476,7 +1476,7 @@ the
 size
 of
 JSClass
-;
+.
 *
 /
 struct
