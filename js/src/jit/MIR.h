@@ -22456,6 +22456,9 @@ MUnaryInstruction
 int32_t
 minimum_
 ;
+bool
+fallible_
+;
 MBoundsCheckLower
 (
 MDefinition
@@ -22470,6 +22473,10 @@ index
 minimum_
 (
 0
+)
+fallible_
+(
+true
 )
 {
 setGuard
@@ -22571,6 +22578,16 @@ None
 }
 bool
 fallible
+(
+)
+const
+{
+return
+fallible_
+;
+}
+void
+collectRangeInfo
 (
 )
 ;
