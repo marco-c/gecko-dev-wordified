@@ -14441,6 +14441,19 @@ aGlobal
 )
 ;
   
+if
+(
+!
+interfaceObject
+)
+{
+    
+return
+nullptr
+;
+  
+}
+  
 for
 (
 unsigned
