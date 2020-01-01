@@ -16730,6 +16730,16 @@ nextpc
 &
 &
 !
+analysis
+-
+>
+jumpTarget
+(
+nextpc
+)
+&
+&
+!
 debugMode
 (
 )
