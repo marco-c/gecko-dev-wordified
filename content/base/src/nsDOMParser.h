@@ -634,6 +634,9 @@ nsIURI
 >
 mBaseURI
 ;
+nsWeakPtr
+mScriptHandlingObject
+;
 PRPackedBool
 mLoopingForSyncLoad
 ;

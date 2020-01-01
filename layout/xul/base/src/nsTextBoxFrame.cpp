@@ -1381,10 +1381,17 @@ exception
 .
 nsCxPusher
 cx
+;
+if
+(
+cx
+.
+Push
 (
 mContent
 )
-;
+)
+{
 labelElement
 -
 >
@@ -1403,6 +1410,7 @@ IsAlive
 PR_FALSE
 )
 ;
+}
 }
 else
 {
