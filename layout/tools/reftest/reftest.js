@@ -2358,7 +2358,7 @@ gWindowUtils
 gWindowUtils
 .
 layerManagerType
-=
+!
 =
 "
 Basic
