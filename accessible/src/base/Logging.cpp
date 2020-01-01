@@ -202,6 +202,13 @@ prenv
 .
 h
 "
+#
+include
+"
+nsIDocShellTreeItem
+.
+h
+"
 using
 namespace
 mozilla

@@ -159,6 +159,13 @@ h
 #
 include
 "
+nsIMutableArray
+.
+h
+"
+#
+include
+"
 nsITreeSelection
 .
 h
