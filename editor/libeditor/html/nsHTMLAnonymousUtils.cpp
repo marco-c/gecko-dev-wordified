@@ -351,6 +351,17 @@ nscore
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
+/
+/
+for
+nsAutoScriptBlocker
 class
 nsIDOMEventListener
 ;

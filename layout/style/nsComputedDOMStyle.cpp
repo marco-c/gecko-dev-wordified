@@ -346,6 +346,13 @@ h
 #
 include
 "
+prtime
+.
+h
+"
+#
+include
+"
 nsWrapperCacheInlines
 .
 h
