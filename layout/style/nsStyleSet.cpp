@@ -4582,6 +4582,15 @@ if
 aPseudoType
 )
 {
+mRuleWalker
+-
+>
+SetLevel
+(
+eAgentSheet
+PR_FALSE
+)
+;
 if
 (
 aPseudoType
