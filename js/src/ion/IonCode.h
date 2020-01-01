@@ -1800,6 +1800,9 @@ const
 IonCache
 *
 caches
+MacroAssembler
+&
+masm
 )
 ;
 void

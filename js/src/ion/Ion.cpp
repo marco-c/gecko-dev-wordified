@@ -2830,6 +2830,9 @@ const
 IonCache
 *
 caches
+MacroAssembler
+&
+masm
 )
 {
 memcpy
@@ -2911,6 +2914,7 @@ i
 updateBaseAddress
 (
 method_
+masm
 )
 ;
 }

@@ -5679,6 +5679,7 @@ cacheList_
 [
 0
 ]
+masm
 )
 ;
 if
