@@ -524,10 +524,6 @@ SVGFEDistantLightElement
 )
 DOMCI_CLASS
 (
-SVGFEFloodElement
-)
-DOMCI_CLASS
-(
 SVGFEGaussianBlurElement
 )
 DOMCI_CLASS
