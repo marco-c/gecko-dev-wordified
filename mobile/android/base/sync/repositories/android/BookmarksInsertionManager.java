@@ -2107,10 +2107,10 @@ here
 *
 *
 param
-record
+records
 *
 the
-record
+records
 to
 insert
 .

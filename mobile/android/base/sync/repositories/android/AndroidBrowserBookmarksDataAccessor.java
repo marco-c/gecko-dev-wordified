@@ -1287,7 +1287,11 @@ desired
 *
 *
 param
-from
+fromIDs
+the
+Android
+IDs
+of
 the
 source
 folders
@@ -1295,6 +1299,10 @@ folders
 *
 param
 to
+the
+Android
+ID
+of
 the
 destination
 folder
