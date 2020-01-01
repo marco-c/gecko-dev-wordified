@@ -1332,10 +1332,9 @@ acqPort
 collection
 container
 {
-morkEnv
-*
-ev
-=
+(
+void
+)
 morkEnv
 :
 :
