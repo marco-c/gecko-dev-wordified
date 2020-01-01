@@ -1049,12 +1049,6 @@ mLoadId
 =
 aLoadId
 ;
-mLoadTime
-=
-PR_Now
-(
-)
-;
 }
 void
 Cancel
@@ -1642,9 +1636,6 @@ mCacheId
 void
 *
 mLoadId
-;
-PRTime
-mLoadTime
 ;
 imgCacheValidator
 *
