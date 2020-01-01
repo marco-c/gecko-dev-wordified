@@ -1490,7 +1490,7 @@ MoveResolver
 Move
 :
 :
-GENERAL
+DOUBLE
 :
 MoveResolver
 :
@@ -1498,7 +1498,7 @@ MoveResolver
 Move
 :
 :
-DOUBLE
+GENERAL
 ;
 if
 (

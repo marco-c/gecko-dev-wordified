@@ -2260,17 +2260,12 @@ LiveInterval
 >
 inactive
 ;
-#
-ifdef
-DEBUG
 InlineList
 <
 LiveInterval
 >
 handled
 ;
-#
-endif
 RegisterSet
 freeRegs
 ;
