@@ -3432,13 +3432,6 @@ FpRegs
 =
 0xffff0000
 ;
-static
-const
-bool
-CalleeRegsNeedExplicitSaving
-=
-true
-;
 #
 ifdef
 _MSC_VER

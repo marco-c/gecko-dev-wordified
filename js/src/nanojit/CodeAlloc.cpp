@@ -2034,8 +2034,6 @@ flushICache
 (
 CodeList
 *
-&
-blocks
 )
 {
 FlushInstructionCache
