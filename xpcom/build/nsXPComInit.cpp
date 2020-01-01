@@ -126,6 +126,15 @@ include
 "
 mozilla
 /
+Poison
+.
+h
+"
+#
+include
+"
+mozilla
+/
 XPCOM
 .
 h
@@ -1709,6 +1718,10 @@ nsIDirectoryServiceProvider
 appFileLocationProvider
 )
 {
+mozPoisonValueInit
+(
+)
+;
 profiler_init
 (
 )
