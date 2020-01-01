@@ -2954,7 +2954,13 @@ XrayWrapper
 ;
 if
 (
+mozilla
+:
+:
 dom
+:
+:
+binding
 :
 :
 instanceIsProxy

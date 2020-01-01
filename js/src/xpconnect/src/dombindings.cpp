@@ -497,10 +497,13 @@ namespace
 js
 ;
 namespace
-xpc
+mozilla
 {
 namespace
 dom
+{
+namespace
+binding
 {
 static
 jsid
@@ -4193,6 +4196,9 @@ true
 ;
 if
 (
+xpc
+:
+:
 WrapperFactory
 :
 :
@@ -5429,6 +5435,9 @@ desc
 {
 JS_ASSERT
 (
+xpc
+:
+:
 WrapperFactory
 :
 :
@@ -6470,5 +6479,6 @@ JSObject
 obj
 )
 ;
+}
 }
 }

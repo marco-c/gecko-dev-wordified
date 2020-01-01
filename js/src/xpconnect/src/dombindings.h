@@ -466,10 +466,13 @@ class
 nsIHTMLCollection
 ;
 namespace
-xpc
+mozilla
 {
 namespace
 dom
+{
+namespace
+binding
 {
 inline
 nsWrapperCache
@@ -1339,6 +1342,7 @@ obj
 ;
 }
 ;
+}
 }
 }
 #

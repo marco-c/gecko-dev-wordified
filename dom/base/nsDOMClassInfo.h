@@ -725,10 +725,13 @@ style
 DOM
 bindings
 .
-xpc
+mozilla
 :
 :
 dom
+:
+:
+binding
 :
 :
 DefineInterface
