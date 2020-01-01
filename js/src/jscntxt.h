@@ -938,6 +938,9 @@ REHashKey
 struct
 REHashFn
 ;
+class
+FrameInfoCache
+;
 typedef
 nanojit
 :
@@ -1333,6 +1336,12 @@ nanojit
 LirBuffer
 )
 reLirBuf
+;
+CLS
+(
+FrameInfoCache
+)
+frameCache
 ;
 #
 ifdef
