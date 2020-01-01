@@ -9730,6 +9730,8 @@ ascending
 "
 anno
 :
+PlacesUIUtils
+.
 DESCRIPTION_ANNO
 }
 }
