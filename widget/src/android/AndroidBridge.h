@@ -680,6 +680,7 @@ in
 Java
 *
 /
+static
 void
 NotifyIME
 (
@@ -689,6 +690,7 @@ int
 aState
 )
 ;
+static
 void
 NotifyIMEChange
 (
