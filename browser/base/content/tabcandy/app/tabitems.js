@@ -5657,11 +5657,13 @@ if
 item
 .
 tab
-=
-=
-Utils
 .
-activeTab
+raw
+=
+=
+gBrowser
+.
+selectedTab
 )
 Groups
 .

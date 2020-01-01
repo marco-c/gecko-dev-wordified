@@ -4300,9 +4300,11 @@ this
 .
 currentTab
 =
-Utils
+gBrowser
 .
-activeTab
+selectedTab
+.
+tabcandyBrowserTab
 ;
 }
 catch
