@@ -39044,8 +39044,8 @@ OBJECT_TO_JSVAL
 (
 obj
 )
-nsnull
-nsnull
+JS_PropertyStub
+JS_PropertyStub
 JSPROP_READONLY
 |
 JSPROP_ENUMERATE
