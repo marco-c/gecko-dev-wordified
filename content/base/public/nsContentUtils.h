@@ -13702,7 +13702,7 @@ to
 be
 returned
 .
-bool
+void
 Push
 (
 JSContext
@@ -13721,7 +13721,7 @@ on
 the
 the
 stack
-bool
+void
 PushNull
 (
 )
@@ -13777,7 +13777,7 @@ Push
 JSContext
 *
 )
-bool
+void
 DoPush
 (
 JSContext
