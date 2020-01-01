@@ -93,6 +93,18 @@ port
 2828
                       
 "
+startup
+.
+homepage_welcome_url
+"
+:
+"
+about
+:
+blank
+"
+                      
+"
 browser
 .
 warnOnQuit
