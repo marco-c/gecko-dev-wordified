@@ -9158,6 +9158,16 @@ agent
 plural
 :
 true
+datatype
+:
+"
+microformat
+"
+microformat
+:
+"
+hCard
+"
 }
 "
 bday
