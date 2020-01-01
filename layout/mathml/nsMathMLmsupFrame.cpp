@@ -1177,12 +1177,13 @@ GetStyleFont
 mFont
 )
 ;
+xHeight
+=
 fm
 -
 >
-GetXHeight
+XHeight
 (
-xHeight
 )
 ;
 nscoord

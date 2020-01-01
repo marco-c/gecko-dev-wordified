@@ -1235,13 +1235,12 @@ FontMetrics
 ;
 nscoord
 xHeight
-;
+=
 fm
 -
 >
-GetXHeight
+XHeight
 (
-xHeight
 )
 ;
 nscoord

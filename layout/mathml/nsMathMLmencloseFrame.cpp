@@ -2533,12 +2533,13 @@ mPresentationData
 flags
 )
 )
+phi
+=
 fm
 -
 >
-GetXHeight
+XHeight
 (
-phi
 )
 ;
 else

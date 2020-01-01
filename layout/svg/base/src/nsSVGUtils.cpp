@@ -2073,13 +2073,12 @@ return
 }
 nscoord
 xHeight
-;
+=
 fontMetrics
 -
 >
-GetXHeight
+XHeight
 (
-xHeight
 )
 ;
 return

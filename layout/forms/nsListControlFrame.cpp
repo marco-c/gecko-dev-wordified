@@ -12563,12 +12563,13 @@ if
 fontMet
 )
 {
+rowHeight
+=
 fontMet
 -
 >
-GetMaxHeight
+MaxHeight
 (
-rowHeight
 )
 ;
 }
