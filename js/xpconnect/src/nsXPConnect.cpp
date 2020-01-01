@@ -914,15 +914,8 @@ NS_IsCycleCollectorThread
 )
 )
 )
-MOZ_Assert
+MOZ_CRASH
 (
-"
-NS_IsMainThread
-(
-)
-"
-__FILE__
-__LINE__
 )
 ;
 if

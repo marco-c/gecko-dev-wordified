@@ -132,6 +132,15 @@ jsinfer_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 jsalloc
 .
 h
@@ -8983,6 +8992,7 @@ program
 .
 *
 /
+MOZ_NORETURN
 void
 TypeFailure
 (
