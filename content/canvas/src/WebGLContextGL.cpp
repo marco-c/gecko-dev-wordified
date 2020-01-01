@@ -2776,9 +2776,16 @@ Length
 )
 )
 {
+int
+targetOffset
+=
+target
+-
+LOCAL_GL_COLOR_ATTACHMENT0
+;
 mBoundColorFramebuffers
 [
-target
+targetOffset
 ]
 =
 wfb
