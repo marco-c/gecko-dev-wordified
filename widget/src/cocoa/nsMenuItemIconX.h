@@ -729,6 +729,9 @@ mMenuObject
 [
 weak
 ]
+nsIntRect
+mImageRegionRect
+;
 PRPackedBool
 mLoadedIcon
 ;
