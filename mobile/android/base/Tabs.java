@@ -169,13 +169,6 @@ ContentResolver
 import
 android
 .
-content
-.
-Intent
-;
-import
-android
-.
 database
 .
 ContentObserver
@@ -200,13 +193,6 @@ android
 util
 .
 Log
-;
-import
-android
-.
-widget
-.
-Toast
 ;
 import
 java
