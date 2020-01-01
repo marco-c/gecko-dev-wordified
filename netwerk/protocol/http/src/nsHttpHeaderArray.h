@@ -659,6 +659,7 @@ free
 void
 ParseHeaderLine
 (
+const
 char
 *
 line
