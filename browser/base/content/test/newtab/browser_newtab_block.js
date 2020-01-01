@@ -215,7 +215,8 @@ removed
 a
 pinned
 site
-reset
+yield
+restore
 (
 )
 ;
@@ -317,7 +318,8 @@ site
 to
 be
 unpinned
-reset
+yield
+restore
 (
 )
 ;
@@ -423,7 +425,8 @@ new
 site
 fades
 in
-reset
+yield
+restore
 (
 )
 ;
