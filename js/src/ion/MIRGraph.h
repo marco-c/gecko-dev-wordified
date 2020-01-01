@@ -805,6 +805,7 @@ enum
 Kind
 {
 NORMAL
+PENDING_LOOP_HEADER
 LOOP_HEADER
 SPLIT_EDGE
 }
@@ -1126,7 +1127,7 @@ kind
 static
 MBasicBlock
 *
-NewLoopHeader
+NewPendingLoopHeader
 (
 MIRGenerator
 *
