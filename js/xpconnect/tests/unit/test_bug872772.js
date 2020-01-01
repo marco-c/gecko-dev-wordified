@@ -71,9 +71,13 @@ com
 '
 ]
 {
-wantXHRConstructor
+wantDOMConstructors
 :
-true
+[
+"
+XMLHttpRequest
+"
+]
 wantComponents
 :
 true

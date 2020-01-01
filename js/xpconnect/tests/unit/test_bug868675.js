@@ -126,9 +126,13 @@ example
 com
 '
 {
-wantXHRConstructor
+wantDOMConstructors
 :
-true
+[
+"
+XMLHttpRequest
+"
+]
 }
 )
 ;
