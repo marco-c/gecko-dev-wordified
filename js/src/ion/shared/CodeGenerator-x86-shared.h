@@ -455,7 +455,7 @@ ifNaN
 Assembler
 :
 :
-NaN_HandledByCond
+NaN_Unexpected
 )
 ;
 void
