@@ -429,6 +429,15 @@ X86Assembler
 :
 :
 ConditionS
+NotSigned
+=
+JSC
+:
+:
+X86Assembler
+:
+:
+ConditionNS
 Zero
 =
 JSC
