@@ -7336,14 +7336,6 @@ return
 JS_FALSE
 ;
 }
-enum
-ArrayToStringOp
-{
-TO_STRING
-TO_LOCALE_STRING
-TO_SOURCE
-}
-;
 /
 *
 *
@@ -7380,9 +7372,8 @@ NULL
 .
 *
 /
-static
 JSBool
-array_join_sub
+js_array_join_sub
 (
 JSContext
 *
@@ -8695,7 +8686,7 @@ JS_FALSE
 ;
 }
 return
-array_join_sub
+js_array_join_sub
 (
 cx
 obj
@@ -8764,7 +8755,7 @@ JS_FALSE
 ;
 }
 return
-array_join_sub
+js_array_join_sub
 (
 cx
 obj
@@ -8855,7 +8846,7 @@ version
 *
 /
 return
-array_join_sub
+js_array_join_sub
 (
 cx
 obj
@@ -9171,9 +9162,8 @@ sort
 .
 *
 /
-static
 JSBool
-array_join
+js_array_join
 (
 JSContext
 *
@@ -9259,7 +9249,7 @@ return
 obj
 &
 &
-array_join_sub
+js_array_join_sub
 (
 cx
 obj
@@ -17301,7 +17291,7 @@ JS_FN
 "
 join
 "
-array_join
+js_array_join
 1
 JSFUN_GENERIC_NATIVE
 )
