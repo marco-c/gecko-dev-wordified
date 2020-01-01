@@ -8390,7 +8390,7 @@ frame
 .
 push
 (
-NullValue
+UndefinedValue
 (
 )
 )
@@ -10046,7 +10046,7 @@ frame
 .
 push
 (
-NullValue
+UndefinedValue
 (
 )
 )
@@ -10275,7 +10275,7 @@ frame
 .
 push
 (
-NullValue
+UndefinedValue
 (
 )
 )
@@ -10499,7 +10499,7 @@ frame
 .
 push
 (
-NullValue
+UndefinedValue
 (
 )
 )
@@ -10677,7 +10677,7 @@ frame
 .
 push
 (
-NullValue
+UndefinedValue
 (
 )
 )
@@ -11093,7 +11093,7 @@ frame
 .
 push
 (
-NullValue
+UndefinedValue
 (
 )
 )
@@ -22548,7 +22548,7 @@ null
 =
 masm
 .
-testNull
+testUndefined
 (
 Assembler
 :
@@ -22634,7 +22634,7 @@ null
 =
 frame
 .
-testNull
+testUndefined
 (
 Assembler
 :
