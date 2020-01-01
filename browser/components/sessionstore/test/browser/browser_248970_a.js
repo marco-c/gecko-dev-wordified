@@ -891,6 +891,17 @@ modified
 at
 this
 point
+/
+*
+XXX
+this
+strangely
+fails
+!
+TODO
+filed
+bug
+462986
 isnot
 (
 prePBModeTimeStamp
@@ -913,6 +924,8 @@ mode
 "
 )
 ;
+*
+/
 /
 /
 record
