@@ -838,6 +838,8 @@ false
 ;
 \
 JS_END_MACRO
+namespace
+{
 /
 *
 *
@@ -3836,6 +3838,13 @@ dst
 ;
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 bool
 NodeBuilder
 :

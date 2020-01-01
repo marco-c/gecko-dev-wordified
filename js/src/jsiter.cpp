@@ -7769,6 +7769,8 @@ return
 true
 ;
 }
+namespace
+{
 class
 SingleStringPredicate
 {
@@ -7829,6 +7831,13 @@ true
 }
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 bool
 js_SuppressDeletedProperty
 (
@@ -7917,6 +7926,8 @@ id
 )
 ;
 }
+namespace
+{
 class
 IndexRangePredicate
 {
@@ -7990,6 +8001,13 @@ false
 }
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 bool
 js_SuppressDeletedElements
 (

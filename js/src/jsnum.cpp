@@ -611,6 +611,8 @@ return
 true
 ;
 }
+namespace
+{
 class
 BinaryDigitReader
 {
@@ -931,6 +933,13 @@ bit
 }
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 /
 *
 *

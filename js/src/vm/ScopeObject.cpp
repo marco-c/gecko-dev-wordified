@@ -7899,6 +7899,8 @@ type_
 *
 *
 /
+namespace
+{
 /
 *
 *
@@ -10774,6 +10776,13 @@ NULL
 }
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 int
 DebugScopeProxy
 :

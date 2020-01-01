@@ -475,6 +475,8 @@ freelist
 pn
 ;
 }
+namespace
+{
 /
 *
 *
@@ -734,6 +736,13 @@ top
 ;
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 /
 *
 *

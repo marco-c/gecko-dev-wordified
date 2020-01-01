@@ -299,6 +299,7 @@ queue
 is
 empty
 .
+static
 const
 size_t
 WORKER_THREAD_STACK_SIZE

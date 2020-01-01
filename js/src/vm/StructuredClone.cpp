@@ -5794,6 +5794,8 @@ return
 true
 ;
 }
+namespace
+{
 class
 Chars
 {
@@ -5919,6 +5921,13 @@ NULL
 }
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 JSString
 *
 JSStructuredCloneReader

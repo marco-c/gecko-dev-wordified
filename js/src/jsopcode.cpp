@@ -6750,6 +6750,8 @@ return
 blockChain
 ;
 }
+namespace
+{
 class
 PCStack
 {
@@ -6819,6 +6821,13 @@ const
 ;
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 PCStack
 :
 :

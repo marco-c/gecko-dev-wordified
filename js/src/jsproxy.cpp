@@ -4772,6 +4772,8 @@ CONSTRUCT_SLOT
 )
 ;
 }
+namespace
+{
 /
 *
 Derived
@@ -5152,6 +5154,13 @@ singleton
 ;
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 static
 int
 sScriptedIndirectProxyHandlerFamily

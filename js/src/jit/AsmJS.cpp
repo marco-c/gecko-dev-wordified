@@ -3514,6 +3514,8 @@ toMIRType
 )
 ;
 }
+namespace
+{
 template
 <
 class
@@ -3992,6 +3994,13 @@ retType_
 }
 }
 ;
+}
+/
+*
+namespace
+anonymous
+*
+/
 static
 bool
 operator
@@ -5514,6 +5523,8 @@ type
 *
 *
 /
+namespace
+{
 typedef
 Vector
 <
@@ -5532,8 +5543,6 @@ MBasicBlock
 >
 BlockVector
 ;
-namespace
-{
 /
 /
 ModuleCompiler

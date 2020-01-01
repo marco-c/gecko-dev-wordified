@@ -192,6 +192,8 @@ js
 :
 frontend
 ;
+namespace
+{
 class
 NameResolver
 {
@@ -2440,6 +2442,13 @@ nparents
 }
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 bool
 frontend
 :
