@@ -12193,7 +12193,7 @@ return
 false
 ;
 }
-Touch
+nsIDOMTouch
 *
 touch
 =
