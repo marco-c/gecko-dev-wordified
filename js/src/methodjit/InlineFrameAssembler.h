@@ -512,6 +512,12 @@ baseOffset
 uint32
 baseOffset
 ;
+JSC
+:
+:
+MacroAssembler
+:
+:
 Address
 addrOf
 (
@@ -520,6 +526,12 @@ offset
 )
 {
 return
+JSC
+:
+:
+MacroAssembler
+:
+:
 Address
 (
 JSFrameReg
