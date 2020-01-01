@@ -5676,16 +5676,6 @@ nsDOMStorageEventArray
 nsDOMStorageEventArray
 mPendingStorageEvents
 ;
-nsAutoPtr
-<
-nsDataHashtable
-<
-nsStringHashKey
-bool
->
->
-mPendingStorageEventsObsolete
-;
 PRUint32
 mTimeoutsSuspendDepth
 ;
