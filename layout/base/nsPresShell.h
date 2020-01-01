@@ -4404,6 +4404,17 @@ sDisableNonTestMouseEvents
 ;
 private
 :
+#
+ifdef
+ANDROID
+nsIDocument
+*
+GetTouchEventTargetDocument
+(
+)
+;
+#
+endif
 bool
 InZombieDocument
 (
