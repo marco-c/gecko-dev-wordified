@@ -3374,6 +3374,7 @@ item
 }
 }
 public
+static
 String
 getStartupBitmapFilePath
 (
@@ -3385,9 +3386,9 @@ file
 new
 File
 (
-Environment
+GeckoAppShell
 .
-getExternalStorageDirectory
+getCacheDir
 (
 )
 "
