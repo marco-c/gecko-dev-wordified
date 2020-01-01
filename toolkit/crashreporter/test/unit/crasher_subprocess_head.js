@@ -88,3 +88,14 @@ minidumpPath
 =
 cwd
 ;
+let
+crashType
+=
+Components
+.
+interfaces
+.
+nsITestCrasher
+.
+CRASH_INVALID_POINTER_DEREF
+;
