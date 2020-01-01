@@ -31262,6 +31262,16 @@ wordWrapping
 aCanWordWrap
 &
 &
+mCharacterGlyphs
+[
+i
+]
+.
+IsClusterStart
+(
+)
+&
+&
 *
 aBreakPriority
 <
