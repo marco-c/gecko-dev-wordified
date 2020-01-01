@@ -1210,10 +1210,6 @@ GeoPositionError
 )
 DOMCI_CLASS
 (
-BatteryManager
-)
-DOMCI_CLASS
-(
 MozPowerManager
 )
 DOMCI_CLASS
