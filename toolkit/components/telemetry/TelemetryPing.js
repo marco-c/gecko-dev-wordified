@@ -777,6 +777,11 @@ values
 :
 {
 }
+sum
+:
+hgram
+.
+sum
 }
 ;
 let

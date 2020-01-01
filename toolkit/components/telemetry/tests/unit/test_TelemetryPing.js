@@ -647,6 +647,9 @@ values
 :
 0
 }
+sum
+:
+1
 }
 let
 tc
