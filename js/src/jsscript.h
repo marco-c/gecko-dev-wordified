@@ -3731,7 +3731,7 @@ functions
 (
 JS_CompileScript
 *
-JS_CompileFile
+JS_CompileUTF8File
 etc
 .
 )
