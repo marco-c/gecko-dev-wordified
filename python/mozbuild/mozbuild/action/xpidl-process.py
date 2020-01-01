@@ -433,6 +433,17 @@ fh
 path
 )
     
+#
+TODO
+use
+FileAvoidWrite
+once
+it
+supports
+binary
+mode
+.
+    
 xpt_path
 =
 os
@@ -452,15 +463,6 @@ xpt
 module
 )
     
-with
-FileAvoidWrite
-(
-xpt_path
-)
-as
-fh
-:
-        
 xpt_link
 (
 xpts
@@ -470,9 +472,9 @@ values
 )
 )
 .
-writefd
+write
 (
-fh
+xpt_path
 )
     
 deps_path
