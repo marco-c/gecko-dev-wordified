@@ -179,14 +179,6 @@ aDWriteEnabled
 )
 ;
 NS_IMETHOD
-GetAzureEnabled
-(
-bool
-*
-aAzureEnabled
-)
-;
-NS_IMETHOD
 GetDWriteVersion
 (
 nsAString
@@ -339,6 +331,12 @@ GfxInfoBase
 :
 :
 GetWebGLParameter
+;
+using
+GfxInfoBase
+:
+:
+GetAzureEnabled
 ;
 virtual
 nsresult
