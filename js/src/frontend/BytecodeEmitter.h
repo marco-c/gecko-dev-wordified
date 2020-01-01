@@ -337,7 +337,7 @@ array
 }
 ;
 class
-GCConstList
+CGConstList
 {
 Vector
 <
@@ -347,7 +347,7 @@ list
 ;
 public
 :
-GCConstList
+CGConstList
 (
 JSContext
 *
@@ -771,7 +771,7 @@ recursion
 level
 *
 /
-GCConstList
+CGConstList
 constList
 ;
 /

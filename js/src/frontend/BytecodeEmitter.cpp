@@ -47802,7 +47802,7 @@ object
 ;
 }
 void
-GCConstList
+CGConstList
 :
 :
 finish
