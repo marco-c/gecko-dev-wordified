@@ -7062,13 +7062,7 @@ rects
 .
 width
 <
-TabItems
-.
-minTabWidth
-*
-1
-.
-35
+55
 )
 ;
 }
