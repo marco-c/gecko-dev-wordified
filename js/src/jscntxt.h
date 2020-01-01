@@ -1377,6 +1377,9 @@ invocation
 JSPropertyCache
 propertyCache
 ;
+#
+ifdef
+JS_TRACER
 /
 *
 Trace
@@ -1393,6 +1396,8 @@ state
 JSTraceMonitor
 traceMonitor
 ;
+#
+endif
 /
 *
 Lock

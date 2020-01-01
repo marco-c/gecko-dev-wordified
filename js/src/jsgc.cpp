@@ -12228,6 +12228,9 @@ for
 if
 (
 doGC
+#
+ifdef
+JS_TRACER
 &
 &
 !
@@ -12244,6 +12247,8 @@ cx
 )
 .
 useReservedObjects
+#
+endif
 )
 {
 /
@@ -20072,6 +20077,9 @@ gcExtraRootsData
 ;
 #
 ifdef
+JS_TRACER
+#
+ifdef
 JS_THREADSAFE
 /
 *
@@ -20146,6 +20154,8 @@ rt
 traceMonitor
 )
 ;
+#
+endif
 #
 endif
 }
