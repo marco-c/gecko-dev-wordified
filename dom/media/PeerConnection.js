@@ -1294,6 +1294,12 @@ null
 ;
 this
 .
+onopen
+=
+null
+;
+this
+.
 onremovestream
 =
 null
