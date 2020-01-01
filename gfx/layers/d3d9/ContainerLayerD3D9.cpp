@@ -575,6 +575,11 @@ SetNextSibling
 oldFirstChild
 )
 ;
+NS_ADDREF
+(
+aChild
+)
+;
 return
 ;
 }
@@ -645,6 +650,11 @@ SetNextSibling
 oldNextSibling
 )
 ;
+NS_ADDREF
+(
+aChild
+)
+;
 return
 ;
 }
@@ -709,6 +719,11 @@ GetLayer
 )
 :
 nsnull
+;
+NS_RELEASE
+(
+aChild
+)
 ;
 return
 ;
@@ -805,6 +820,11 @@ GetLayer
 SetParent
 (
 NULL
+)
+;
+NS_RELEASE
+(
+aChild
 )
 ;
 return
