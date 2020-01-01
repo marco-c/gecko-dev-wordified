@@ -2830,6 +2830,15 @@ eventStructType
 =
 =
 NS_MOUSE_SCROLL_EVENT
+|
+|
+event
+-
+>
+eventStructType
+=
+=
+NS_WHEEL_EVENT
 )
 &
 &

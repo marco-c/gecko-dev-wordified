@@ -3514,6 +3514,9 @@ case
 NS_MOUSE_SCROLL_EVENT
 :
 case
+NS_WHEEL_EVENT
+:
+case
 NS_DRAG_EVENT
 :
 case

@@ -346,6 +346,9 @@ mozilla
 namespace
 widget
 {
+class
+WheelEvent
+;
 /
 /
 All

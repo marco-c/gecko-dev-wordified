@@ -34169,6 +34169,15 @@ eventStructType
 =
 =
 NS_MOUSE_SCROLL_EVENT
+|
+|
+aEvent
+-
+>
+eventStructType
+=
+=
+NS_WHEEL_EVENT
 ?
 GetCapturingContent
 (
