@@ -1226,6 +1226,13 @@ pathToCheck
 "
 ;
 }
+else
+{
+return
+[
+]
+;
+}
 }
 var
 [
