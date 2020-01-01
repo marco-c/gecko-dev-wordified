@@ -2232,8 +2232,6 @@ js_AttributeNameClass
 =
 {
 js_AttributeName_str
-JSCLASS_CONSTRUCT_PROTOTYPE
-|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 JSObject
@@ -2281,8 +2279,6 @@ js_AnyNameClass
 =
 {
 js_AnyName_str
-JSCLASS_CONSTRUCT_PROTOTYPE
-|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 JSObject
