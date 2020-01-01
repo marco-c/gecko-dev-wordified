@@ -668,6 +668,12 @@ public
 :
 nsJPEGDecoder
 (
+RasterImage
+*
+aImage
+imgIDecoderObserver
+*
+aObserver
 )
 ;
 virtual

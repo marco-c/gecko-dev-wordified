@@ -504,6 +504,12 @@ public
 :
 nsPNGDecoder
 (
+RasterImage
+*
+aImage
+imgIDecoderObserver
+*
+aObserver
 )
 ;
 virtual
