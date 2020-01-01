@@ -14536,7 +14536,7 @@ nullptr
 ;
 mOfflineCacheEntry
 =
-0
+nullptr
 ;
 mOfflineCacheAccess
 =
@@ -14549,7 +14549,7 @@ nullptr
 ;
 mOfflineCacheEntry
 =
-0
+nullptr
 ;
 mOfflineCacheAccess
 =
@@ -22809,11 +22809,11 @@ nullptr
 ;
 mCachePump
 =
-0
+nullptr
 ;
 mCacheEntry
 =
-0
+nullptr
 ;
 mCacheAccess
 =
@@ -22906,7 +22906,7 @@ nullptr
 }
 mOfflineCacheEntry
 =
-0
+nullptr
 ;
 mOfflineCacheAccess
 =
@@ -33242,7 +33242,7 @@ nullptr
 ;
 mTransactionPump
 =
-0
+nullptr
 ;
 /
 /
