@@ -1792,10 +1792,6 @@ mQuirks
 COREANIMATION_REFRESH_TIMER
 )
 {
-abort
-(
-)
-;
 mParent
 -
 >
