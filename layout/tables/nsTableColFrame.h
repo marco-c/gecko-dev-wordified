@@ -1523,6 +1523,16 @@ return
 mFinalWidth
 ;
 }
+virtual
+void
+InvalidateFrame
+(
+PRUint32
+aFlags
+=
+0
+)
+;
 protected
 :
 nsTableColFrame

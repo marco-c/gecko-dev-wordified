@@ -5937,14 +5937,6 @@ PositionChildViews
 aFloat
 )
 ;
-FrameLayerBuilder
-:
-:
-InvalidateThebesLayersInSubtree
-(
-aFloat
-)
-;
 }
 /
 /

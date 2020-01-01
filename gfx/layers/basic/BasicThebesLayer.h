@@ -255,6 +255,15 @@ mValidRegion
 aRegion
 )
 ;
+AddInvalidRect
+(
+aRegion
+.
+GetBounds
+(
+)
+)
+;
 }
 virtual
 void

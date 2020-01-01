@@ -476,7 +476,7 @@ return
 /
 /
 redraw
-InvalidateOverflowRect
+InvalidateFrame
 (
 )
 ;

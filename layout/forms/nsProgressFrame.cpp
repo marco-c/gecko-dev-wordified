@@ -1440,11 +1440,8 @@ eResize
 NS_FRAME_IS_DIRTY
 )
 ;
-Invalidate
+InvalidateFrame
 (
-GetVisualOverflowRectRelativeToSelf
-(
-)
 )
 ;
 }

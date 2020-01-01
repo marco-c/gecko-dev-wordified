@@ -716,13 +716,6 @@ if
 oof
 )
 {
-oof
--
->
-InvalidateFrameSubtree
-(
-)
-;
 /
 /
 Unregister
@@ -847,7 +840,6 @@ RemoveFrame
 (
 listId
 oof
-false
 )
 ;
 }
