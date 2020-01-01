@@ -219,10 +219,6 @@ cursor
 :
 pointer
 ;
-margin
-:
-8px
-;
 }
 .
 tab
@@ -1215,6 +1211,10 @@ background
 color
 :
 transparent
+;
+margin
+:
+8px
 ;
 }
 .

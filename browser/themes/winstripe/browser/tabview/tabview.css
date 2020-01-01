@@ -257,10 +257,6 @@ cursor
 :
 pointer
 ;
-margin
-:
-4px
-;
 }
 html
 [
@@ -1305,6 +1301,10 @@ color
 :
 #
 E0EAF5
+;
+margin
+:
+4px
 ;
 }
 .
