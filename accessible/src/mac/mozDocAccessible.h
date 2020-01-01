@@ -490,7 +490,7 @@ window
 Created
 by
 the
-nsRootAccessibleWrap
+RootAccessibleWrap
 .
 *
 /

@@ -473,7 +473,7 @@ h
 #
 include
 "
-nsRootAccessibleWrap
+RootAccessibleWrap
 .
 h
 "
@@ -2851,7 +2851,7 @@ docAcc
 isRootDoc
 ?
 new
-nsRootAccessibleWrap
+RootAccessibleWrap
 (
 aDocument
 rootElm

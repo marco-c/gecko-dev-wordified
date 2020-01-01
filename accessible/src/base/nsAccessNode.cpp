@@ -472,7 +472,7 @@ h
 #
 include
 "
-nsRootAccessible
+RootAccessible
 .
 h
 "
@@ -576,6 +576,13 @@ Services
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 /
 *
 For
@@ -1454,7 +1461,7 @@ false
 )
 ;
 }
-nsRootAccessible
+RootAccessible
 *
 nsAccessNode
 :

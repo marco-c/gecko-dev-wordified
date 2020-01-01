@@ -449,9 +449,6 @@ nsISelectionListener
 .
 h
 "
-class
-nsRootAccessible
-;
 /
 *
 *
@@ -483,7 +480,7 @@ top
 level
 window
 (
-nsRootAccessible
+RootAccessible
 )
 *
 However
@@ -614,7 +611,7 @@ is
 owned
 by
 the
-nsRootAccessible
+RootAccessible
 for
 the
 top
@@ -628,7 +625,7 @@ in
 .
 *
 The
-nsRootAccessible
+RootAccessible
 needs
 to
 tell
@@ -697,7 +694,13 @@ public
 NS_DECL_ISUPPORTS
 nsCaretAccessible
 (
-nsRootAccessible
+mozilla
+:
+:
+a11y
+:
+:
+RootAccessible
 *
 aRootAccessible
 )
@@ -1255,7 +1258,13 @@ mLastTextAccessible
 PRInt32
 mLastCaretOffset
 ;
-nsRootAccessible
+mozilla
+:
+:
+a11y
+:
+:
+RootAccessible
 *
 mRootAccessible
 ;
