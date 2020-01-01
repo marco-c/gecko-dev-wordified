@@ -978,6 +978,14 @@ BailoutClosure
 *
 bailout_
 ;
+uint8
+*
+prevIonTop_
+;
+JSContext
+*
+prevIonJSContext_
+;
 public
 :
 IonActivation
