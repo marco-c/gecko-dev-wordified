@@ -609,7 +609,7 @@ name
 "
 tabs
 "
-displayName
+_displayName
 :
 "
 Tabs

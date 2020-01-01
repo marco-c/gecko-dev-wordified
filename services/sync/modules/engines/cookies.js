@@ -546,7 +546,7 @@ cookies
 ;
 }
 get
-displayName
+_displayName
 (
 )
 {

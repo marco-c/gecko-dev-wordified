@@ -588,7 +588,7 @@ name
 "
 prefs
 "
-displayName
+_displayName
 :
 "
 Preferences
