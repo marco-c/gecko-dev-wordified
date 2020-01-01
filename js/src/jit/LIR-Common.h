@@ -117,6 +117,8 @@ jit_LIR_Common_h
 #
 include
 "
+jit
+/
 RangeAnalysis
 .
 h
