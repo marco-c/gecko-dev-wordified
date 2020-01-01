@@ -974,7 +974,7 @@ ifdef
 MOZ_PLACES_BOOKMARKS
 PlacesUtils
 .
-showAddBookmarkUI
+showMinimalAddBookmarkUI
 (
 PlacesUtils
 .
