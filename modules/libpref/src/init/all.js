@@ -1971,7 +1971,7 @@ gstreamer
 .
 enabled
 "
-true
+false
 )
 ;
 #
