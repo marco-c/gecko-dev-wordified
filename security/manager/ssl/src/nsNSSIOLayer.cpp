@@ -7256,7 +7256,7 @@ code
 SECStatus
 nsConvertCANamesToStrings
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 char
@@ -8708,7 +8708,7 @@ srv
 SECItem
 extData
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -10530,7 +10530,7 @@ RunOnTargetThread
 (
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =

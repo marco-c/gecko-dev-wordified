@@ -1223,7 +1223,7 @@ CERT_DestroyCertificate
 )
 NSSCleanupAutoPtrClass_WithParam
 (
-PRArenaPool
+PLArenaPool
 PORT_FreeArena
 FalseParam
 false
@@ -2989,7 +2989,7 @@ return
 nullptr
 ;
 }
-PRArenaPool
+PLArenaPool
 *
 log_arena
 =
@@ -2998,7 +2998,7 @@ PORT_NewArena
 DER_DEFAULT_CHUNKSIZE
 )
 ;
-PRArenaPoolCleanerFalseParam
+PLArenaPoolCleanerFalseParam
 log_arena_cleaner
 (
 log_arena

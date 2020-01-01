@@ -215,7 +215,7 @@ CERTDERCerts
 *
 getCertsFromPackage
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 uint8_t
