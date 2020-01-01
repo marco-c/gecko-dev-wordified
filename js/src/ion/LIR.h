@@ -7212,7 +7212,13 @@ localSlotCount
 const
 {
 return
+AlignBytes
+(
 localSlotCount_
+StackAlignment
+/
+STACK_SLOT_SIZE
+)
 ;
 }
 void
