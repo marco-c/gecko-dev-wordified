@@ -129,12 +129,6 @@ kEVENT_WIN_UNKNOWN
 =
 0x00000000
 ;
-const
-uint32_t
-kEVENT_LAST_ENTRY
-=
-0xffffffff
-;
 static
 const
 uint32_t
@@ -755,12 +749,5 @@ nsIAccessibleEvent
 :
 :
 EVENT_VIRTUALCURSOR_CHANGED
-kEVENT_LAST_ENTRY
-/
-/
-nsIAccessibleEvent
-:
-:
-EVENT_LAST_ENTRY
 }
 ;
