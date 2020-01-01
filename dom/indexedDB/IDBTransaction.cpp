@@ -2489,7 +2489,6 @@ ai_unique_index_data
 (
 index_id
 ai_object_data_id
-id
 value
 )
 "
@@ -2500,8 +2499,6 @@ VALUES
 index_id
 :
 object_data_id
-:
-object_data_key
 :
 value
 )
@@ -2521,7 +2518,6 @@ ai_unique_index_data
 (
 index_id
 aI_object_data_id
-id
 value
 )
 "
@@ -2532,8 +2528,6 @@ VALUES
 index_id
 :
 object_data_id
-:
-object_data_key
 :
 value
 )
@@ -2560,7 +2554,6 @@ ai_index_data
 (
 index_id
 ai_object_data_id
-id
 value
 )
 "
@@ -2571,8 +2564,6 @@ VALUES
 index_id
 :
 object_data_id
-:
-object_data_key
 :
 value
 )
@@ -2592,7 +2583,6 @@ ai_index_data
 (
 index_id
 ai_object_data_id
-id
 value
 )
 "
@@ -2603,8 +2593,6 @@ VALUES
 index_id
 :
 object_data_id
-:
-object_data_key
 :
 value
 )
