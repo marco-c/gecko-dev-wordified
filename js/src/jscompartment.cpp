@@ -219,6 +219,15 @@ h
 #
 include
 "
+vm
+/
+WrapperObject
+.
+h
+"
+#
+include
+"
 jsfuninlines
 .
 h
@@ -1656,7 +1665,10 @@ JS_ASSERT
 obj
 -
 >
-isCrossCompartmentWrapper
+is
+<
+CrossCompartmentWrapperObject
+>
 (
 )
 )

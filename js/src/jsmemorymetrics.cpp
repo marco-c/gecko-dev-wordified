@@ -200,6 +200,15 @@ h
 #
 include
 "
+vm
+/
+WrapperObject
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h
@@ -1138,7 +1147,10 @@ if
 obj
 -
 >
-isCrossCompartmentWrapper
+is
+<
+CrossCompartmentWrapperObject
+>
 (
 )
 )

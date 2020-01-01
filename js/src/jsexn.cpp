@@ -209,6 +209,13 @@ h
 #
 include
 "
+jswrapper
+.
+h
+"
+#
+include
+"
 gc
 /
 Marking

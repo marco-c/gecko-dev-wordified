@@ -12225,7 +12225,10 @@ if
 from
 -
 >
-isWrapper
+is
+<
+WrapperObject
+>
 (
 )
 &

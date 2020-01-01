@@ -201,6 +201,15 @@ h
 #
 include
 "
+vm
+/
+WrapperObject
+.
+h
+"
+#
+include
+"
 jsfuninlines
 .
 h
@@ -456,7 +465,10 @@ if
 obj
 -
 >
-isWrapper
+is
+<
+WrapperObject
+>
 (
 )
 )
