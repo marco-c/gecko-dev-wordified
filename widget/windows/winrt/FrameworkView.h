@@ -1454,9 +1454,16 @@ gfxD2DSurface
 >
 mD2DWindowSurface
 ;
-Rect
+nsIntRect
 mWindowBounds
 ;
+/
+/
+in
+device
+-
+pixel
+coordinates
 float
 mDPI
 ;
