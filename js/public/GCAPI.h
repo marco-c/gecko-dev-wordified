@@ -1069,8 +1069,11 @@ rt
 class
 ObjectPtr
 {
+Heap
+<
 JSObject
 *
+>
 value
 ;
 public
@@ -1233,7 +1236,7 @@ char
 name
 )
 {
-JS_CallObjectTracer
+JS_CallHeapObjectTracer
 (
 trc
 &

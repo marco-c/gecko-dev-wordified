@@ -735,6 +735,7 @@ mWaiverWrapperMap
 >
 Add
 (
+cx
 obj
 waiver
 )
