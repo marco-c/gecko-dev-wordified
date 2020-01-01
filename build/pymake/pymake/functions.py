@@ -4563,12 +4563,8 @@ variables
 setting
 )
         
-log
-.
-info
-(
+print
 v
-)
 functionmap
 =
 {
