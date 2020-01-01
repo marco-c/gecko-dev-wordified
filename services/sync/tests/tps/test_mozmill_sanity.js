@@ -114,10 +114,6 @@ mozmill_sanity
 js
 '
 ]
-[
-Sync
-SYNC_WIPE_SERVER
-]
 ]
 )
 ;
