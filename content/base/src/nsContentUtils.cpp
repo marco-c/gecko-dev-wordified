@@ -2663,6 +2663,17 @@ EventNameType_HTMLXUL
 nsGkAtoms
 :
 :
+onMozMousePixelScroll
+{
+NS_MOUSE_PIXEL_SCROLL
+EventNameType_HTMLXUL
+}
+}
+{
+&
+nsGkAtoms
+:
+:
 oninput
 {
 NS_FORM_INPUT
