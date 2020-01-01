@@ -1679,7 +1679,7 @@ pointer
 .
 *
 /
-SPSInstrumentation
+MJITInstrumentation
 sps
 ;
 Assembler

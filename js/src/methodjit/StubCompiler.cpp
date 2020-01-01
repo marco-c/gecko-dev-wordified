@@ -192,6 +192,10 @@ masm
 cc
 .
 sps
+&
+cc
+.
+PC
 )
 generation
 (
