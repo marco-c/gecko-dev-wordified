@@ -3303,9 +3303,7 @@ testExactPermissionFromPrincipal
 (
 principal
 "
-webcontacts
--
-manage
+contacts
 "
 )
 ;
@@ -3336,8 +3334,8 @@ ALLOW_ACTION
 debug
 (
 "
-has
-privileges
+Contacts
+permission
 :
 "
 +
