@@ -2912,7 +2912,7 @@ pObserver
 sipcc
 :
 :
-RTCConfiguration
+IceConfiguration
 cfg
 ;
 cfg
@@ -3070,7 +3070,7 @@ false
 sipcc
 :
 :
-RTCConfiguration
+IceConfiguration
 cfg
 ;
 cfg
