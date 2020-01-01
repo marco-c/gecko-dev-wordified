@@ -1358,7 +1358,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Wrapping
