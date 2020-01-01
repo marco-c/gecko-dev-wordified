@@ -4757,7 +4757,7 @@ fopen
 (
 path
 "
-r
+rb
 "
 )
 ;
