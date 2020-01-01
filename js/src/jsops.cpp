@@ -12844,7 +12844,7 @@ vp
 ;
 obj2
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -20932,7 +20932,7 @@ else
 {
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &

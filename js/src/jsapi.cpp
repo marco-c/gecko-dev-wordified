@@ -792,6 +792,13 @@ jsscopeinlines
 h
 "
 #
+include
+"
+jsobjinlines
+.
+h
+"
+#
 if
 JS_HAS_XML_SUPPORT
 #
@@ -14975,7 +14982,7 @@ Object
 *
 /
 return
-js_NewObject
+NewObject
 (
 cx
 clasp
@@ -15029,7 +15036,7 @@ Object
 *
 /
 return
-js_NewObjectWithGivenProto
+NewObjectWithGivenProto
 (
 cx
 clasp
@@ -15983,7 +15990,7 @@ Object
 /
 nobj
 =
-js_NewObject
+NewObject
 (
 cx
 clasp
@@ -21388,7 +21395,7 @@ cx
 ;
 iterobj
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -25202,7 +25209,7 @@ if
 script
 )
 return
-js_NewObject
+NewObject
 (
 cx
 &
@@ -25232,7 +25239,7 @@ script
 ;
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &

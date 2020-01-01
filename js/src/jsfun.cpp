@@ -1803,7 +1803,7 @@ js_ArgumentsClass
 is
 not
 initialized
-js_NewObject
+NewObject
 won
 '
 t
@@ -2496,7 +2496,7 @@ JSObject
 *
 wfunobj
 =
-js_NewObjectWithGivenProto
+NewObjectWithGivenProto
 (
 cx
 &
@@ -5547,7 +5547,7 @@ JSObject
 *
 callobj
 =
-js_NewObjectWithGivenProto
+NewObjectWithGivenProto
 (
 cx
 &
@@ -5799,7 +5799,7 @@ JSObject
 *
 env
 =
-js_NewObjectWithGivenProto
+NewObjectWithGivenProto
 (
 cx
 &
@@ -9831,7 +9831,7 @@ JSObject
 *
 proto
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -13995,7 +13995,7 @@ cx
 {
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -15602,7 +15602,7 @@ else
 {
 funobj
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -16012,7 +16012,7 @@ JSObject
 *
 clone
 =
-js_NewObjectWithGivenProto
+NewObjectWithGivenProto
 (
 cx
 &

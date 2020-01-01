@@ -20506,7 +20506,7 @@ cx
 {
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -21027,7 +21027,7 @@ JSObject
 *
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -21146,7 +21146,7 @@ JSObject
 *
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &

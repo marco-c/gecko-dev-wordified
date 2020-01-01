@@ -1876,7 +1876,7 @@ obj
 ;
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -3060,7 +3060,7 @@ clasp
 ;
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 clasp
@@ -3670,7 +3670,7 @@ JS_TRUE
 }
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -4352,7 +4352,7 @@ constructed
 /
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 clasp
@@ -43358,7 +43358,7 @@ obj
 ;
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -45597,7 +45597,7 @@ do
 {
 obj
 =
-js_NewObjectWithGivenProto
+NewObjectWithGivenProto
 (
 cx
 &
@@ -47143,7 +47143,7 @@ JS_FALSE
 }
 filterobj
 =
-js_NewObjectWithGivenProto
+NewObjectWithGivenProto
 (
 cx
 &

@@ -597,6 +597,13 @@ jsstaticcheck
 .
 h
 "
+#
+include
+"
+jsobjinlines
+.
+h
+"
 using
 namespace
 js
@@ -4482,7 +4489,7 @@ is
 used
 by
 *
-js_NewObject
+NewObject
 to
 find
 the
@@ -4537,7 +4544,7 @@ JS_FALSE
 }
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -6335,7 +6342,7 @@ proto
 parameter
 to
 *
-js_NewObject
+NewObject
 below
 when
 called
@@ -6379,7 +6386,7 @@ when
 *
 JS_InitClass
 calls
-js_NewObject
+NewObject
 in
 jsapi
 .
@@ -6490,7 +6497,7 @@ name
 /
 proto
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -7490,7 +7497,7 @@ errProto
 ;
 errObject
 =
-js_NewObject
+NewObject
 (
 cx
 &

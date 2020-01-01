@@ -3452,7 +3452,7 @@ id
 endif
 obj
 =
-js_NewObjectWithGivenProto
+NewObjectWithGivenProto
 (
 cx
 &
@@ -8820,7 +8820,7 @@ clasp
 }
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 clasp

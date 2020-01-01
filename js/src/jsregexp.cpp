@@ -667,6 +667,13 @@ nanojit
 ;
 #
 endif
+#
+include
+"
+jsobjinlines
+.
+h
+"
 using
 namespace
 js
@@ -36733,7 +36740,7 @@ JSXDR_DECODE
 {
 obj
 =
-js_NewObject
+NewObject
 (
 xdr
 -
@@ -38922,7 +38929,7 @@ object
 /
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -39242,7 +39249,7 @@ NULL
 ;
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -39337,7 +39344,7 @@ JSObject
 *
 clone
 =
-js_NewObjectWithGivenProto
+NewObjectWithGivenProto
 (
 cx
 &
