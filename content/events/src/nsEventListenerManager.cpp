@@ -5557,9 +5557,9 @@ if
 aEvent
 -
 >
-flags
-&
-NS_EVENT_FLAG_STOP_DISPATCH_IMMEDIATELY
+mFlags
+.
+mImmediatePropagationStopped
 )
 {
 break
