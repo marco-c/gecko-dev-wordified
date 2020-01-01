@@ -873,7 +873,7 @@ false
 get
 bookmarks
 root
-index
+id
 var
 root
 =
@@ -4580,12 +4580,6 @@ getNewQuery
 ;
 query
 .
-onlyBookmarked
-=
-true
-;
-query
-.
 searchTerms
 =
 "
@@ -4730,12 +4724,6 @@ histsvc
 getNewQuery
 (
 )
-;
-query
-.
-onlyBookmarked
-=
-true
 ;
 query
 .
