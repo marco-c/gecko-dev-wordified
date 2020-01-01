@@ -16014,7 +16014,7 @@ pc
 )
 )
 return
-jsop_setelem_dense
+jsop_initelem_dense
 (
 )
 ;
