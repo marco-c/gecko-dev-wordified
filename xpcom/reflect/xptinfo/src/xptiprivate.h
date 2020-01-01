@@ -2301,7 +2301,7 @@ xptiWorkingSet
 /
 /
 not
-implmented
+implemented
 xptiWorkingSet
 (
 nsISupportsArray
@@ -6445,7 +6445,7 @@ xptiInterfaceInfoManager
 /
 /
 not
-implmented
+implemented
 xptiInterfaceInfoManager
 (
 nsISupportsArray

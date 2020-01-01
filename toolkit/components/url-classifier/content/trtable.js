@@ -524,7 +524,7 @@ NS_ERROR_NO_INTERFACE
 Subclasses
 need
 to
-implment
+implement
 this
 method
 .
