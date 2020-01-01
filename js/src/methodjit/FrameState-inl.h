@@ -4439,6 +4439,11 @@ uint32
 local
 )
 {
+if
+(
+!
+eval
+)
 escaping
 [
 local
