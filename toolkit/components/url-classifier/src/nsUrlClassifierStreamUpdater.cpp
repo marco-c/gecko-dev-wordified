@@ -1000,6 +1000,19 @@ aServerMAC
 nsresult
 rv
 ;
+PRUint32
+loadFlags
+=
+nsIChannel
+:
+:
+INHIBIT_CACHING
+|
+nsIChannel
+:
+:
+LOAD_BYPASS_CACHE
+;
 rv
 =
 NS_NewChannel
@@ -1012,6 +1025,7 @@ aUpdateUrl
 nsnull
 nsnull
 this
+loadFlags
 )
 ;
 NS_ENSURE_SUCCESS
