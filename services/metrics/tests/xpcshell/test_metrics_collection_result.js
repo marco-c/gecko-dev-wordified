@@ -208,10 +208,7 @@ result
 .
 missingMeasurements
 .
-size
-(
-)
-0
+size0
 )
 ;
 result
@@ -239,8 +236,6 @@ result
 missingMeasurements
 .
 size
-(
-)
 2
 )
 ;
@@ -309,8 +304,6 @@ do_check_eq
 missing
 .
 size
-(
-)
 0
 )
 ;
@@ -343,8 +336,6 @@ do_check_eq
 missing
 .
 size
-(
-)
 2
 )
 ;
@@ -393,8 +384,6 @@ do_check_eq
 missing
 .
 size
-(
-)
 1
 )
 ;
@@ -521,8 +510,6 @@ result
 measurements
 .
 size
-(
-)
 1
 )
 ;
@@ -1023,8 +1010,6 @@ result1
 expectedMeasurements
 .
 size
-(
-)
 4
 )
 ;
@@ -1049,8 +1034,6 @@ result1
 measurements
 .
 size
-(
-)
 2
 )
 ;
@@ -1089,8 +1072,6 @@ result1
 missingMeasurements
 .
 size
-(
-)
 2
 )
 ;

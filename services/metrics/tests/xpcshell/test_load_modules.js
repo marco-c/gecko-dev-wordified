@@ -38,6 +38,11 @@ modules
 =
 [
 "
+collector
+.
+jsm
+"
+"
 dataprovider
 .
 jsm
