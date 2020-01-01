@@ -1704,11 +1704,11 @@ list
 ROLE_COMBOBOX_LIST
 "
 combobox
-listitem
+option
 "
 /
 /
-ROLE_COMBOBOX_LISTITEM
+ROLE_COMBOBOX_OPTION
 "
 image
 map
