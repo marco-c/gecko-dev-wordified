@@ -547,7 +547,7 @@ AddRef
 )
 {
 return
-NS_OK
+1
 ;
 }
 NS_IMETHOD_
@@ -559,7 +559,7 @@ Release
 )
 {
 return
-NS_OK
+1
 ;
 }
 public
