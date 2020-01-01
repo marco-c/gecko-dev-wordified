@@ -6407,6 +6407,8 @@ mimetype
 ;
 NPError
 error
+=
+NPERR_GENERIC_ERROR
 ;
 GetMode
 (
