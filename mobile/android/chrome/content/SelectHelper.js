@@ -134,6 +134,11 @@ _isMenu
 (
 aTarget
 )
+|
+|
+aTarget
+.
+disabled
 )
 return
 ;
