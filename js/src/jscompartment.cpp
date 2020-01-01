@@ -584,14 +584,6 @@ rt
 >
 debugMode
 )
-anynameObject
-(
-NULL
-)
-functionNamespaceObject
-(
-NULL
-)
 mathCache
 (
 NULL
