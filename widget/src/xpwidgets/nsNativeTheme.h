@@ -1010,6 +1010,14 @@ nsEventStates
 aEventStates
 )
 ;
+PRBool
+IsVerticalProgress
+(
+nsIFrame
+*
+aFrame
+)
+;
 /
 /
 textfield
