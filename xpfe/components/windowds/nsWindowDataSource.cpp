@@ -165,6 +165,13 @@ ModuleUtils
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 /
 /
 just
