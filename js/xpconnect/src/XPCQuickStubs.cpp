@@ -677,11 +677,6 @@ back
 .
 *
 /
-bool
-definedProperty
-=
-false
-;
 for
 (
 uint32_t
@@ -776,10 +771,6 @@ ps_end
 ps
 )
 {
-definedProperty
-=
-true
-;
 if
 (
 !
