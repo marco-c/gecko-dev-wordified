@@ -1618,6 +1618,8 @@ mozilla
 org
 /
 preferences
+-
+service
 ;
 1
 "

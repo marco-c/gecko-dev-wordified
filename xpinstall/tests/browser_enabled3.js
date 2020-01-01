@@ -176,6 +176,8 @@ mozilla
 org
 /
 preferences
+-
+service
 ;
 1
 "
@@ -322,6 +324,8 @@ mozilla
 org
 /
 preferences
+-
+service
 ;
 1
 "
