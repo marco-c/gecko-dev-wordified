@@ -121,6 +121,7 @@ Copyright
 2006
 2007
 2009
+2010
 by
 *
 /
@@ -1823,7 +1824,7 @@ atom
 else
 error
 =
-FT_Err_Invalid_Argument
+SFNT_Err_Invalid_Argument
 ;
 }
 }
@@ -2008,7 +2009,7 @@ header
 )
 ;
 return
-FT_Err_Unimplemented_Feature
+SFNT_Err_Unimplemented_Feature
 ;
 }
 FT_CALLBACK_DEF
@@ -2041,7 +2042,7 @@ header
 )
 ;
 return
-FT_Err_Unimplemented_Feature
+SFNT_Err_Unimplemented_Feature
 ;
 }
 FT_CALLBACK_DEF
@@ -2067,7 +2068,7 @@ stream
 )
 ;
 return
-FT_Err_Unimplemented_Feature
+SFNT_Err_Unimplemented_Feature
 ;
 }
 FT_CALLBACK_DEF
@@ -2283,7 +2284,7 @@ sense
 *
 /
 return
-FT_Err_Unimplemented_Feature
+SFNT_Err_Unimplemented_Feature
 ;
 }
 FT_CALLBACK_DEF
@@ -2343,7 +2344,7 @@ input
 )
 ;
 return
-FT_Err_Unimplemented_Feature
+SFNT_Err_Unimplemented_Feature
 ;
 }
 FT_CALLBACK_DEF
@@ -2370,7 +2371,7 @@ cmap
 )
 ;
 return
-0
+SFNT_Err_Ok
 ;
 }
 #

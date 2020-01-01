@@ -117,6 +117,7 @@ Copyright
 2003
 2004
 2008
+2010
 by
 *
 /
@@ -319,7 +320,13 @@ face
 {
 FT_Service_PfrMetrics
 service
+=
+NULL
 ;
+if
+(
+face
+)
 FT_FACE_LOOKUP_SERVICE
 (
 face

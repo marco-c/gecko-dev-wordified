@@ -118,6 +118,7 @@ Copyright
 2006
 2007
 2008
+2010
 by
 *
 /
@@ -524,6 +525,8 @@ memory
 FT_String
 *
 string
+=
+NULL
 ;
 FT_UInt
 len
@@ -660,6 +663,8 @@ memory
 FT_String
 *
 string
+=
+NULL
 ;
 FT_UInt
 len
@@ -1170,7 +1175,7 @@ the
 /
 /
 *
-Iso
+ISO
 '
 one
 is

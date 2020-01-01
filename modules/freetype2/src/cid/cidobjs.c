@@ -117,6 +117,7 @@ Copyright
 2005
 2006
 2008
+2010
 by
 *
 /
@@ -1096,7 +1097,7 @@ cidsize
 FT_Error
 error
 =
-0
+CID_Err_Ok
 ;
 PSH_Globals_Funcs
 funcs

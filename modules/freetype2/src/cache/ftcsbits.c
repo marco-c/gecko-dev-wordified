@@ -117,6 +117,7 @@ Copyright
 2005
 2006
 2009
+2010
 by
 *
 /
@@ -1633,7 +1634,7 @@ NULL
 ;
 error
 =
-0
+FTC_Err_Ok
 ;
 if
 (
@@ -1737,7 +1738,7 @@ total
 {
 error
 =
-FT_Err_Invalid_Argument
+FTC_Err_Invalid_Argument
 ;
 goto
 Exit

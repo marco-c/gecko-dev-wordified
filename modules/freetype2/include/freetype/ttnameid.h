@@ -813,7 +813,10 @@ was
 used
 to
 specify
-Unicode
+ISO
+/
+IEC
+10646
 charmaps
 .
 It

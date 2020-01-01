@@ -114,6 +114,7 @@ Copyright
 2004
 2006
 2008
+2010
 by
 *
 /
@@ -438,6 +439,15 @@ table
 )
 {
 FT_Memory
+memory
+;
+if
+(
+!
+face
+)
+return
+;
 memory
 =
 FT_FACE_MEMORY

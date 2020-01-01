@@ -114,6 +114,7 @@ Copyright
 2005
 2007
 2009
+2010
 by
 *
 /
@@ -698,7 +699,7 @@ item_data
 FT_Error
 error
 =
-0
+PFR_Err_Ok
 ;
 FT_Byte
 *
@@ -2745,7 +2746,7 @@ size1
 FT_Error
 error
 =
-0
+PFR_Err_Ok
 ;
 PFR_CHECK
 (
@@ -3218,7 +3219,7 @@ phy_font
 FT_Error
 error
 =
-0
+PFR_Err_Ok
 ;
 FT_Memory
 memory
@@ -3339,7 +3340,7 @@ snaps
 FT_Error
 error
 =
-0
+PFR_Err_Ok
 ;
 FT_Memory
 memory
@@ -3514,11 +3515,13 @@ phy_font
 {
 PFR_KernItem
 item
+=
+NULL
 ;
 FT_Error
 error
 =
-0
+PFR_Err_Ok
 ;
 FT_Memory
 memory
@@ -4057,7 +4060,7 @@ astring
 FT_Error
 error
 =
-0
+PFR_Err_Ok
 ;
 FT_String
 *

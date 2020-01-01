@@ -114,6 +114,7 @@ Copyright
 2004
 2005
 2009
+2010
 *
 /
 /
@@ -7185,7 +7186,7 @@ name
 )
 !
 =
-FT_Err_Ok
+GXV_Err_Ok
 )
 continue
 ;

@@ -122,6 +122,11 @@ Copyright
 2007
 2008
 2009
+*
+/
+/
+*
+2010
 by
 *
 /
@@ -2989,7 +2994,7 @@ stream
 FT_Error
 error
 =
-0
+SFNT_Err_Ok
 ;
 FT_Memory
 memory

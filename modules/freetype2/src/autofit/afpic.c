@@ -112,6 +112,7 @@ module
 *
 Copyright
 2009
+2010
 by
 *
 /
@@ -448,7 +449,7 @@ ss
 FT_Error
 error
 =
-FT_Err_Ok
+AF_Err_Ok
 ;
 AFModulePIC
 *

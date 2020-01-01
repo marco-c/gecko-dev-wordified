@@ -114,6 +114,7 @@ Copyright
 2004
 2005
 2006
+2010
 by
 *
 /
@@ -1254,6 +1255,8 @@ aloader
 {
 FT_GlyphLoader
 loader
+=
+NULL
 ;
 FT_Error
 error

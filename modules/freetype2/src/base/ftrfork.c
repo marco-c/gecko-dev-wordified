@@ -115,6 +115,7 @@ Copyright
 2007
 2008
 2009
+2010
 by
 *
 /
@@ -4277,6 +4278,8 @@ insertion
 char
 *
 new_name
+=
+NULL
 ;
 const
 char

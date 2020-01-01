@@ -114,6 +114,7 @@ Copyright
 2004
 2006
 2008
+2010
 by
 *
 /
@@ -564,7 +565,7 @@ advance
 ;
 error
 =
-0
+PFR_Err_Ok
 ;
 }
 }

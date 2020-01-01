@@ -117,6 +117,7 @@ Copyright
 2001
 2002
 2005
+2010
 by
 *
 /
@@ -2178,6 +2179,18 @@ of
 ~
 0
 .
+A
+non
+-
+zero
+return
+value
+then
+indicates
+an
+*
+error
+.
 *
 *
 /
@@ -2586,7 +2599,7 @@ close
 *
 The
 stream
-;
+'
 s
 close
 function

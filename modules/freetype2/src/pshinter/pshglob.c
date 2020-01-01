@@ -128,6 +128,7 @@ Copyright
 2003
 2004
 2006
+2010
 by
 *
 /
@@ -4122,6 +4123,8 @@ aglobals
 {
 PSH_Globals
 globals
+=
+NULL
 ;
 FT_Error
 error

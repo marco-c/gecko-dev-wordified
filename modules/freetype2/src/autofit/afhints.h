@@ -116,6 +116,7 @@ Copyright
 2006
 2007
 2008
+2010
 by
 *
 /
@@ -1454,8 +1455,6 @@ hints
 FT_Outline
 *
 outline
-FT_Bool
-get_inflections
 )
 ;
 FT_LOCAL

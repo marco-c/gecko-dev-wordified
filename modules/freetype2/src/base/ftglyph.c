@@ -120,6 +120,7 @@ Copyright
 2005
 2007
 2008
+2010
 by
 *
 /
@@ -2528,6 +2529,8 @@ error
 ;
 FT_Glyph
 glyph
+=
+NULL
 ;
 *
 aglyph

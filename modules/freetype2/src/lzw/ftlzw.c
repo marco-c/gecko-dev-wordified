@@ -1584,7 +1584,7 @@ count
 FT_Error
 error
 =
-0
+LZW_Err_Ok
 ;
 zip
 -

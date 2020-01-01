@@ -20,6 +20,7 @@ Copyright
 2007
 2008
 2009
+2010
 by
 Francesco
 Zappa
@@ -2721,6 +2722,14 @@ face
 nmetrics
 =
 nmetrics
+;
+if
+(
+!
+nmetrics
+)
+return
+PCF_Err_Invalid_Table
 ;
 FT_TRACE4
 (

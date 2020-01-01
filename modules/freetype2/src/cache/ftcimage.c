@@ -114,6 +114,7 @@ Copyright
 2003
 2004
 2006
+2010
 by
 *
 /
@@ -457,6 +458,8 @@ error
 ;
 FTC_INode
 inode
+=
+NULL
 ;
 if
 (

@@ -112,6 +112,7 @@ module
 *
 Copyright
 2009
+2010
 by
 *
 /
@@ -539,7 +540,7 @@ pic_container
 FT_Error
 error
 =
-FT_Err_Ok
+SFNT_Err_Ok
 ;
 sfntModulePIC
 *

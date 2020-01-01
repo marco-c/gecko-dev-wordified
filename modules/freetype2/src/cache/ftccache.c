@@ -120,6 +120,7 @@ Copyright
 2006
 2007
 2009
+2010
 by
 *
 /
@@ -2916,7 +2917,7 @@ node
 FT_Error
 error
 =
-0
+FTC_Err_Ok
 ;
 FTC_Node_CompareFunc
 compare
@@ -2942,7 +2943,7 @@ anode
 NULL
 )
 return
-FT_Err_Invalid_Argument
+FTC_Err_Invalid_Argument
 ;
 idx
 =

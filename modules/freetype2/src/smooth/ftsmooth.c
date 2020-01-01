@@ -119,6 +119,7 @@ Copyright
 2005
 2006
 2009
+2010
 by
 *
 /
@@ -1162,12 +1163,12 @@ if
 (
 width
 >
-0xFFFFU
+0x7FFFU
 |
 |
 height
 >
-0xFFFFU
+0x7FFFU
 )
 {
 FT_ERROR

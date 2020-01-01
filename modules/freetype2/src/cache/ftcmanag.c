@@ -118,6 +118,7 @@ Copyright
 2006
 2008
 2009
+2010
 by
 *
 /
@@ -3380,10 +3381,7 @@ manager
 -
 >
 faces
-(
-FTC_MruNode_CompareFunc
-)
-NULL
+ftc_face_node_compare
 face_id
 )
 ;

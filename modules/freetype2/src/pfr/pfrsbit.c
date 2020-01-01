@@ -113,6 +113,7 @@ Copyright
 2003
 2006
 2009
+2010
 by
 *
 /
@@ -2316,7 +2317,7 @@ aformat
 FT_Error
 error
 =
-0
+PFR_Err_Ok
 ;
 FT_Byte
 flags
@@ -2784,7 +2785,7 @@ target
 FT_Error
 error
 =
-0
+PFR_Err_Ok
 ;
 PFR_BitWriterRec
 writer
