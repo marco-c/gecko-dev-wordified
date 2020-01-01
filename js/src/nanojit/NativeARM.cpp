@@ -9874,7 +9874,7 @@ rmask
 (
 argRegs
 [
-i
+ins
 -
 >
 paramArg
