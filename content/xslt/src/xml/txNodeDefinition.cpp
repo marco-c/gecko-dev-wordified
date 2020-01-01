@@ -1285,7 +1285,6 @@ URIUtils
 :
 resolveHref
 (
-*
 baseUrls
 [
 -

@@ -1000,13 +1000,13 @@ aStart
 NS_ENSURE_ARG_MAX
 (
 aEnd
++
+1
 mArgs
 .
 Length
 (
 )
--
-1
 )
 ;
 for

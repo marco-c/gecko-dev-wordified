@@ -919,11 +919,9 @@ if
 index
 !
 =
-PRUint32
-(
--
-1
-)
+mNames
+.
+NoIndex
 )
 {
 *
