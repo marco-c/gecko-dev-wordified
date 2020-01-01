@@ -104,8 +104,9 @@ DEST
 }
 BLOCKSET
 ;
+static
 void
-vp8_setup_block
+setup_block
 (
 BLOCKD
 *
@@ -180,8 +181,9 @@ base
 ;
 }
 }
+static
 void
-vp8_setup_macroblock
+setup_macroblock
 (
 MACROBLOCKD
 *
@@ -298,7 +300,7 @@ blocks
 *
 /
 {
-vp8_setup_block
+setup_block
 (
 &
 x
@@ -371,7 +373,7 @@ blocks
 *
 /
 {
-vp8_setup_block
+setup_block
 (
 &
 x
@@ -424,7 +426,7 @@ block
 bs
 )
 ;
-vp8_setup_block
+setup_block
 (
 &
 x
@@ -876,13 +878,13 @@ pitch
 features
 *
 /
-vp8_setup_macroblock
+setup_macroblock
 (
 x
 DEST
 )
 ;
-vp8_setup_macroblock
+setup_macroblock
 (
 x
 PRED

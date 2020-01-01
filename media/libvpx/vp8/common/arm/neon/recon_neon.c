@@ -97,6 +97,10 @@ h
 #
 include
 "
+vp8
+/
+common
+/
 recon
 .
 h
@@ -104,6 +108,10 @@ h
 #
 include
 "
+vp8
+/
+common
+/
 blockd
 .
 h

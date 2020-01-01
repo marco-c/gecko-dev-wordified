@@ -349,6 +349,12 @@ frame_size
 YUV_TYPE
 clrtype
 ;
+int
+corrupted
+;
+int
+flags
+;
 }
 YV12_BUFFER_CONFIG
 ;
@@ -368,14 +374,6 @@ border
 ;
 int
 vp8_yv12_de_alloc_frame_buffer
-(
-YV12_BUFFER_CONFIG
-*
-ybf
-)
-;
-int
-vp8_yv12_black_frame_buffer
 (
 YV12_BUFFER_CONFIG
 *

@@ -137,9 +137,6 @@ decoders
 !
 \
 file
-vpx_codec
-.
-h
 *
 \
 brief
@@ -906,7 +903,7 @@ VPX_CODEC_CAP_XMA
 *
 <
 Supports
-e_xternal
+eXternal
 Memory
 Allocation
 *
@@ -967,7 +964,7 @@ VPX_CODEC_USE_XMA
 *
 <
 Use
-e_xternal
+eXternal
 Memory
 Allocation
 mode
@@ -1532,7 +1529,7 @@ brief
 Return
 the
 version
-minr
+minor
 number
 *
 /
@@ -2117,7 +2114,7 @@ algorithm
 *
 Retrieves
 the
-capabliities
+capabilities
 bitfield
 from
 the
@@ -2137,7 +2134,7 @@ iface
 Pointer
 to
 the
-alogrithm
+algorithm
 interface
 *
 *
@@ -2214,7 +2211,7 @@ call
 this
 function
 *
-transparantly
+transparently
 but
 will
 return
@@ -3227,7 +3224,7 @@ to
 *
 allocate
 is
-dependant
+dependent
 upon
 the
 size
@@ -3467,7 +3464,10 @@ requires
 cleanup
 handling
 (
-eg
+e
+.
+g
+.
 calling
 free
 (

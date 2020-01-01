@@ -94,6 +94,10 @@ DEQUANTIZE_H
 #
 include
 "
+vp8
+/
+common
+/
 blockd
 .
 h

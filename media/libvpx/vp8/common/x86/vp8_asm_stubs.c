@@ -106,6 +106,10 @@ h
 #
 include
 "
+vp8
+/
+common
+/
 subpixel
 .
 h

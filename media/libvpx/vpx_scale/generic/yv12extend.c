@@ -1198,8 +1198,9 @@ plane_stride
 ;
 }
 }
+static
 void
-vp8_yv12_extend_frame_borders_yonly
+extend_frame_borders_yonly
 (
 YV12_BUFFER_CONFIG
 *
@@ -2007,7 +2008,7 @@ dst_ybc
 y_stride
 ;
 }
-vp8_yv12_extend_frame_borders_yonly
+extend_frame_borders_yonly
 (
 dst_ybc
 )

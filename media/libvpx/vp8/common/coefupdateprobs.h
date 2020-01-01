@@ -120,9 +120,7 @@ COEF_BANDS
 PREV_COEF_CONTEXTS
 ]
 [
-vp8_coef_tokens
--
-1
+ENTROPY_NODES
 ]
 =
 {

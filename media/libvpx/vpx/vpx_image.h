@@ -90,9 +90,6 @@ tree
 !
 \
 file
-vpx_image
-.
-h
 *
 \
 brief
@@ -240,7 +237,7 @@ has
 an
 alpha
 channel
-componnent
+component
 *
 /
 /
@@ -1084,7 +1081,7 @@ VPX_PLANE_ALPHA
 <
 A
 (
-Transparancy
+Transparency
 )
 plane
 *

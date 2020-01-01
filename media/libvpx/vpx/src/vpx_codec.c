@@ -90,9 +90,6 @@ tree
 !
 \
 file
-vpx_decoder
-.
-c
 *
 \
 brief

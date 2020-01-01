@@ -116,8 +116,6 @@ VP8E_H
 #
 include
 "
-vpx
-/
 vpx_codec_impl_top
 .
 h
@@ -322,8 +320,6 @@ vp8e_encoding_mode
 #
 include
 "
-vpx
-/
 vpx_codec_impl_bottom
 .
 h

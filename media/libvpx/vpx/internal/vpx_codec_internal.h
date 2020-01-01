@@ -90,9 +90,6 @@ tree
 !
 \
 file
-decoder_impl
-.
-h
 *
 \
 brief
@@ -1561,7 +1558,7 @@ iter
 *
 \
 brief
-e_xternal
+eXternal
 Memory
 Allocation
 memory
@@ -1669,7 +1666,7 @@ iter
 *
 \
 brief
-e_xternal
+eXternal
 Memory
 Allocation
 memory
@@ -2275,7 +2272,7 @@ vpx_codec_put_slice_cb_fn_t
 put_slice
 ;
 }
-fn
+u
 ;
 void
 *
@@ -2354,7 +2351,7 @@ structure
 and
 the
 pointer
-casted
+cast
 to
 the
 proper
@@ -2736,7 +2733,7 @@ The
 following
 functions
 are
-indended
+intended
 to
 be
 used

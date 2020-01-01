@@ -135,9 +135,6 @@ codecs
 !
 \
 file
-vpx_decoder_compat
-.
-h
 *
 \
 brief
@@ -590,7 +587,8 @@ The
 available
 flags
 are
-specifiedby
+specified
+by
 VPX_DEC_CAP_
 *
 defines
@@ -638,7 +636,7 @@ VPX_DEC_CAP_XMA
 *
 <
 Supports
-e_xternal
+eXternal
 Memory
 Allocation
 *
@@ -1388,7 +1386,7 @@ iface
 Pointer
 to
 the
-alogrithm
+algorithm
 interface
 to
 use
@@ -1546,7 +1544,7 @@ algorithm
 *
 Retrieves
 the
-capabliities
+capabilities
 bitfield
 from
 the
@@ -1566,7 +1564,7 @@ iface
 Pointer
 to
 the
-alogrithm
+algorithm
 interface
 *
 *
@@ -1644,7 +1642,7 @@ iface
 Pointer
 to
 the
-alogrithm
+algorithm
 interface
 *
 \
@@ -1931,7 +1929,7 @@ call
 this
 function
 *
-transparantly
+transparently
 but
 will
 return
@@ -3348,7 +3346,7 @@ iface
 Pointer
 to
 the
-alogrithm
+algorithm
 interface
 to
 use
@@ -3483,7 +3481,7 @@ to
 *
 allocate
 is
-dependant
+dependent
 upon
 the
 size
@@ -3770,7 +3768,10 @@ requires
 cleanup
 handling
 (
-eg
+e
+.
+g
+.
 calling
 free
 (

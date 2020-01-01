@@ -125,7 +125,7 @@ pbi
 )
 ;
 extern
-int
+void
 vp8mt_alloc_temp_buffers
 (
 VP8D_COMP
