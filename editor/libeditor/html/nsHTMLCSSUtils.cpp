@@ -5250,13 +5250,6 @@ aAtom
 =
 nsnull
 ;
-if
-(
-0
-<
-aProperty
-)
-{
 switch
 (
 aProperty
@@ -5518,7 +5511,6 @@ intentionally
 empty
 break
 ;
-}
 }
 }
 /
