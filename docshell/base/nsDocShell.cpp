@@ -10370,7 +10370,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsDocShell
 :
 :
@@ -10384,7 +10384,6 @@ mTiming
 )
 {
 return
-NS_OK
 ;
 }
 mTiming
@@ -10400,9 +10399,6 @@ mTiming
 NotifyNavigationStart
 (
 )
-;
-return
-NS_OK
 ;
 }
 /
@@ -36575,11 +36571,6 @@ MaybeInitTiming
 (
 )
 ;
-if
-(
-mTiming
-)
-{
 mTiming
 -
 >
@@ -36592,7 +36583,6 @@ mLoadType
 )
 )
 ;
-}
 }
 /
 /
@@ -40636,17 +40626,10 @@ the
 session
 history
 .
-rv
-=
 MaybeInitTiming
 (
 )
 ;
-if
-(
-mTiming
-)
-{
 mTiming
 -
 >
@@ -40654,7 +40637,6 @@ NotifyBeforeUnload
 (
 )
 ;
-}
 bool
 okToUnload
 ;
