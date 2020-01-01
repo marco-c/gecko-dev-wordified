@@ -5423,7 +5423,7 @@ found
 /
 static
 const
-jsuint
+unsigned
 sBMHCharSetSize
 =
 256
@@ -5439,7 +5439,7 @@ Latin
 /
 static
 const
-jsuint
+unsigned
 sBMHPatLenMax
 =
 255
@@ -5483,13 +5483,13 @@ const
 jschar
 *
 text
-jsuint
+unsigned
 textlen
 const
 jschar
 *
 pat
-jsuint
+unsigned
 patlen
 )
 {
@@ -5514,7 +5514,7 @@ sBMHPatLenMax
 ;
 for
 (
-jsuint
+unsigned
 i
 =
 0
@@ -5537,7 +5537,7 @@ uint8_t
 )
 patlen
 ;
-jsuint
+unsigned
 m
 =
 patlen
@@ -5546,7 +5546,7 @@ patlen
 ;
 for
 (
-jsuint
+unsigned
 i
 =
 0
@@ -5598,7 +5598,7 @@ c
 ;
 for
 (
-jsuint
+unsigned
 k
 =
 m
@@ -5634,7 +5634,7 @@ c
 {
 for
 (
-jsuint
+unsigned
 i
 =
 k
@@ -5702,7 +5702,7 @@ struct
 MemCmp
 {
 typedef
-jsuint
+unsigned
 Extent
 ;
 static
@@ -5713,7 +5713,7 @@ computeExtent
 const
 jschar
 *
-jsuint
+unsigned
 patlen
 )
 {
@@ -5779,7 +5779,7 @@ const
 jschar
 *
 pat
-jsuint
+unsigned
 patlen
 )
 {
@@ -5854,13 +5854,13 @@ const
 jschar
 *
 text
-jsuint
+unsigned
 textlen
 const
 jschar
 *
 pat
-jsuint
+unsigned
 patlen
 )
 {
@@ -6397,13 +6397,13 @@ const
 jschar
 *
 text
-jsuint
+unsigned
 textlen
 const
 jschar
 *
 pat
-jsuint
+unsigned
 patlen
 )
 {
@@ -6877,7 +6877,7 @@ const
 jschar
 *
 pat
-jsuint
+unsigned
 patlen
 int
 *
@@ -7646,7 +7646,7 @@ patstr
 return
 false
 ;
-jsuint
+unsigned
 textlen
 =
 str
@@ -7677,7 +7677,7 @@ text
 return
 false
 ;
-jsuint
+unsigned
 patlen
 =
 patstr
@@ -7699,7 +7699,7 @@ chars
 (
 )
 ;
-jsuint
+unsigned
 start
 ;
 if
@@ -7753,7 +7753,7 @@ start
 else
 if
 (
-jsuint
+unsigned
 (
 i
 )
@@ -25702,7 +25702,7 @@ k
 goto
 report_bad_uri
 ;
-jsuint
+unsigned
 B
 =
 JS7_UNHEX

@@ -2806,7 +2806,7 @@ state
 sNextIdIndexSlot
 )
 ;
-jsuint
+int32_t
 i
 =
 JSVAL_TO_INT
@@ -2854,7 +2854,7 @@ large
 ;
 if
 (
-jsuint
+size_t
 (
 i
 )

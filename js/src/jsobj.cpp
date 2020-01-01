@@ -14315,7 +14315,7 @@ cx
 return
 JS_FALSE
 ;
-jsuint
+unsigned
 oldLen
 =
 obj

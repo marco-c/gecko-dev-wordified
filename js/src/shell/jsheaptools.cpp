@@ -4024,7 +4024,7 @@ array
 .
 *
 /
-jsuint
+unsigned
 length
 ;
 return

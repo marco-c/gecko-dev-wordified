@@ -1275,7 +1275,7 @@ ccx
 JSObject
 *
 array
-jsuint
+unsigned
 length
 nsXPTType
 *
@@ -1504,7 +1504,7 @@ ccx
 JSObject
 *
 array
-jsuint
+unsigned
 length
 nsXPTType
 *

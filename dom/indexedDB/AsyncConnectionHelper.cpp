@@ -661,7 +661,7 @@ JS_SetArrayLength
 (
 aCx
 array
-jsuint
+unsigned
 (
 aReadInfos
 .

@@ -413,7 +413,7 @@ obj
 )
 )
 ;
-jsuint
+unsigned
 len
 ;
 CHECK

@@ -4413,7 +4413,7 @@ state
 /
 for
 (
-jsuint
+unsigned
 i
 =
 0
@@ -4771,7 +4771,7 @@ allocate
 .
 *
 /
-jsuint
+unsigned
 Chunk
 :
 :
@@ -4797,7 +4797,7 @@ list
 /
 for
 (
-jsuint
+unsigned
 i
 =
 info
@@ -4826,7 +4826,7 @@ i
 ;
 for
 (
-jsuint
+unsigned
 i
 =
 0
@@ -4897,7 +4897,7 @@ numArenasFree
 0
 )
 ;
-jsuint
+unsigned
 offset
 =
 findDecommittedArenaOffset

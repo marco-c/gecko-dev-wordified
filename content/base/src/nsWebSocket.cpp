@@ -3922,7 +3922,7 @@ jsobj
 )
 )
 {
-jsuint
+unsigned
 len
 ;
 JS_GetArrayLength

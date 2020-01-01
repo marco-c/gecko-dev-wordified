@@ -3134,7 +3134,7 @@ toObject
 (
 )
 ;
-jsuint
+unsigned
 length
 ;
 if
@@ -3153,7 +3153,7 @@ false
 ;
 for
 (
-jsuint
+unsigned
 n
 =
 0

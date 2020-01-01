@@ -1279,7 +1279,7 @@ toObject
 (
 )
 ;
-jsuint
+unsigned
 size
 ;
 JS_ALWAYS_TRUE
@@ -1306,7 +1306,7 @@ size
 ;
 for
 (
-jsuint
+unsigned
 i
 =
 0

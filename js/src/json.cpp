@@ -3505,7 +3505,7 @@ Step
 .
 *
 /
-jsuint
+unsigned
 length
 ;
 if
@@ -4692,7 +4692,7 @@ ii
 .
 *
 /
-jsuint
+unsigned
 len
 ;
 JS_ALWAYS_TRUE
@@ -4760,7 +4760,7 @@ iii
 .
 *
 /
-jsuint
+unsigned
 i
 =
 0

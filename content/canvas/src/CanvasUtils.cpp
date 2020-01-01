@@ -840,7 +840,7 @@ JSObject
 *
 obj
 ;
-jsuint
+unsigned
 length
 ;
 if

@@ -4049,7 +4049,7 @@ rtype
 jsval
 *
 argtypes
-jsuint
+unsigned
 arglen
 )
 ;

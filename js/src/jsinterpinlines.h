@@ -1735,7 +1735,7 @@ isArray
 )
 )
 {
-jsuint
+unsigned
 length
 =
 obj
@@ -5537,7 +5537,7 @@ id
 )
 )
 {
-jsuint
+unsigned
 length
 =
 obj
@@ -5558,7 +5558,7 @@ id
 if
 (
 (
-jsuint
+unsigned
 )
 i
 <
@@ -5594,7 +5594,7 @@ break
 if
 (
 (
-jsuint
+unsigned
 )
 i
 >

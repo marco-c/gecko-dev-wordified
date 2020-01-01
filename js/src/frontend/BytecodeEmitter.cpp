@@ -6643,7 +6643,7 @@ slot
 JS_ASSERT
 (
 (
-jsuint
+unsigned
 )
 slot
 <
@@ -16424,7 +16424,7 @@ toInt32
 if
 (
 (
-jsuint
+unsigned
 )
 (
 i
@@ -16440,7 +16440,7 @@ JS_BIT
 >
 =
 (
-jsuint
+unsigned
 )
 JS_BIT
 (
@@ -20418,7 +20418,7 @@ emitOption
 DefineVars
 )
 ;
-jsuint
+unsigned
 index
 ;
 ParseNode
@@ -21994,7 +21994,7 @@ ParseNode
 rhs
 )
 {
-jsuint
+unsigned
 depth
 limit
 i

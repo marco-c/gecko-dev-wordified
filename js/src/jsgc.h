@@ -5455,7 +5455,7 @@ allocate
 .
 *
 /
-jsuint
+unsigned
 findDecommittedArenaOffset
 (
 )

@@ -1166,7 +1166,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-jsuint
+unsigned
 size
 ;
 JS_ALWAYS_TRUE
@@ -1189,7 +1189,7 @@ numbers
 ;
 for
 (
-jsuint
+unsigned
 i
 =
 0

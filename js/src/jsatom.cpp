@@ -4942,7 +4942,7 @@ s
 +
 n
 ;
-jsuint
+unsigned
 index
 =
 JS7_UNDEC
@@ -4953,12 +4953,12 @@ cp
 +
 )
 ;
-jsuint
+unsigned
 oldIndex
 =
 0
 ;
-jsuint
+unsigned
 c
 =
 0

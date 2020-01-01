@@ -75,7 +75,7 @@ void
 checkPointers
 ;
 static
-jsuint
+unsigned
 checkPointersLength
 ;
 static
@@ -106,7 +106,7 @@ checkPointers
 {
 for
 (
-jsuint
+unsigned
 i
 =
 0
@@ -279,7 +279,7 @@ strings
 /
 for
 (
-jsuint
+unsigned
 i
 =
 0
@@ -537,7 +537,7 @@ checkPointersStaticStrings
 ;
 for
 (
-jsuint
+unsigned
 i
 =
 0
@@ -658,7 +658,7 @@ is
 /
 for
 (
-jsuint
+unsigned
 i
 =
 0
@@ -737,7 +737,7 @@ array
 )
 )
 ;
-jsuint
+unsigned
 tmp
 ;
 CHECK
