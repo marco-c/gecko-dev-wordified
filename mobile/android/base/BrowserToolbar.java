@@ -560,7 +560,7 @@ mSiteSecurityVisible
 ;
 private
 boolean
-mAnimateSiteSecurity
+mSwitchingTabs
 ;
 private
 ShapedButton
@@ -772,7 +772,7 @@ registerOnTabsChangedListener
 this
 )
 ;
-mAnimateSiteSecurity
+mSwitchingTabs
 =
 true
 ;
@@ -3043,9 +3043,9 @@ break
 case
 SELECTED
 :
-mAnimateSiteSecurity
+mSwitchingTabs
 =
-false
+true
 ;
 /
 /
@@ -3076,9 +3076,9 @@ refresh
 )
 ;
 }
-mAnimateSiteSecurity
+mSwitchingTabs
 =
-true
+false
 ;
 break
 ;
@@ -5718,8 +5718,7 @@ visible
 ;
 if
 (
-!
-mAnimateSiteSecurity
+mSwitchingTabs
 )
 {
 mSiteSecurity
