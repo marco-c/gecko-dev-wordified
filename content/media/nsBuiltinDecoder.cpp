@@ -1004,10 +1004,6 @@ mShuttingDown
 =
 PR_TRUE
 ;
-StopTimeUpdate
-(
-)
-;
 /
 /
 This
@@ -2320,10 +2316,6 @@ ResourceLoaded
 )
 ;
 }
-StartTimeUpdate
-(
-)
-;
 }
 void
 nsBuiltinDecoder

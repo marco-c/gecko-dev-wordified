@@ -7992,10 +7992,6 @@ StartProgress
 )
 ;
 }
-StartTimeUpdate
-(
-)
-;
 }
 void
 nsWaveDecoder
@@ -8396,10 +8392,6 @@ return
 mShuttingDown
 =
 PR_TRUE
-;
-StopTimeUpdate
-(
-)
 ;
 nsMediaDecoder
 :
