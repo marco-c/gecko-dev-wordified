@@ -189,6 +189,9 @@ namespace
 net
 {
 class
+SpdyPushedStream3
+;
+class
 SpdyStream3
 ;
 class
