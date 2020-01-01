@@ -119,13 +119,6 @@ nsDOMXULCommandEvent
 .
 h
 "
-#
-include
-"
-prtime
-.
-h
-"
 nsDOMXULCommandEvent
 :
 :

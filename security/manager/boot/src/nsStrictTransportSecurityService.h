@@ -140,13 +140,6 @@ nsTHashtable
 .
 h
 "
-#
-include
-"
-prtime
-.
-h
-"
 /
 /
 {

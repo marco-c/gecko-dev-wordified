@@ -100,13 +100,6 @@ nsDOMSimpleGestureEvent
 .
 h
 "
-#
-include
-"
-prtime
-.
-h
-"
 nsDOMSimpleGestureEvent
 :
 :
