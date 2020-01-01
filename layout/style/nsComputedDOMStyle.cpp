@@ -13410,9 +13410,6 @@ break
 ;
 default
 :
-/
-/
-eStyleUnit_Proportional
 NS_ERROR
 (
 "

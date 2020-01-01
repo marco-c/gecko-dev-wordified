@@ -1049,19 +1049,6 @@ pixel
 unit
 /
 /
-Proportional
-Unit
-(
-for
-columns
-in
-tables
-)
-eCSSUnit_Proportional
-=
-950
-/
-/
 Angular
 units
 eCSSUnit_Degree
@@ -1402,7 +1389,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Proportional
+eCSSUnit_Pixel
 )
 )
 ;
@@ -1454,7 +1441,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Proportional
+eCSSUnit_Pixel
 )
 )
 ;

@@ -22218,16 +22218,6 @@ eStyleUnit_Auto
 specified
 auto
 width
-case
-eStyleUnit_Proportional
-:
-/
-/
-illegal
-for
-table
-so
-ignored
 break
 ;
 case
