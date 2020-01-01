@@ -678,7 +678,7 @@ AsyncRender
 )
 ;
 void
-ScheduleCompositionOnCompositorThread
+ScheduleRenderOnCompositorThread
 (
 :
 :
