@@ -2644,7 +2644,7 @@ SCREENSHOT
 22
 SCREENORIENTATION_CHANGED
 =
-22
+23
 dummy_java_enum_list_end
 }
 ;

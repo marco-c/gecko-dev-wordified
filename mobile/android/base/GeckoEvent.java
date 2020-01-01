@@ -771,7 +771,7 @@ private
 static
 final
 int
-ACTIVITY_START
+FORCED_RESIZE
 =
 15
 ;
@@ -779,7 +779,7 @@ private
 static
 final
 int
-BROADCAST
+ACTIVITY_START
 =
 16
 ;
@@ -787,7 +787,7 @@ private
 static
 final
 int
-VIEWPORT
+BROADCAST
 =
 17
 ;
@@ -795,7 +795,7 @@ private
 static
 final
 int
-VISITED
+VIEWPORT
 =
 18
 ;
@@ -803,7 +803,7 @@ private
 static
 final
 int
-NETWORK_CHANGED
+VISITED
 =
 19
 ;
@@ -811,7 +811,7 @@ private
 static
 final
 int
-ACTIVITY_RESUMING
+NETWORK_CHANGED
 =
 20
 ;
@@ -819,7 +819,7 @@ private
 static
 final
 int
-SCREENSHOT
+ACTIVITY_RESUMING
 =
 21
 ;
@@ -827,9 +827,17 @@ private
 static
 final
 int
-SCREENORIENTATION_CHANGED
+SCREENSHOT
 =
 22
+;
+private
+static
+final
+int
+SCREENORIENTATION_CHANGED
+=
+23
 ;
 public
 static
