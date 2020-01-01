@@ -754,6 +754,8 @@ setDef
 LDefinition
 (
 vreg
++
+VREG_TYPE_OFFSET
 LDefinition
 :
 :
@@ -772,7 +774,7 @@ LDefinition
 (
 vreg
 +
-1
+VREG_DATA_OFFSET
 LDefinition
 :
 :
