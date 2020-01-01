@@ -283,8 +283,6 @@ nsIWidget
 const
 nsAString
 &
-short
-int
 )
 ;
 protected
@@ -300,9 +298,6 @@ nsCOMArray
 nsIFile
 >
 mFiles
-;
-int16_t
-mMode
 ;
 int16_t
 mSelectedType

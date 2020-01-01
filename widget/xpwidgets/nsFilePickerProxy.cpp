@@ -184,8 +184,6 @@ const
 nsAString
 &
 aTitle
-int16_t
-aMode
 )
 {
 }

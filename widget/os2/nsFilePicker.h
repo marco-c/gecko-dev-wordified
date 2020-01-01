@@ -323,8 +323,6 @@ const
 nsAString
 &
 aTitle
-int16_t
-aMode
 )
 ;
 void
@@ -369,9 +367,6 @@ mWnd
 ;
 nsString
 mTitle
-;
-int16_t
-mMode
 ;
 nsCString
 mFile

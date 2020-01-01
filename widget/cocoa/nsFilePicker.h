@@ -324,8 +324,6 @@ const
 nsAString
 &
 aTitle
-int16_t
-aMode
 )
 ;
 /
@@ -445,9 +443,6 @@ GetAccessoryView
 ;
 nsString
 mTitle
-;
-int16_t
-mMode
 ;
 nsCOMArray
 <

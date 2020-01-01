@@ -782,13 +782,6 @@ nsFilePicker
 (
 )
 :
-mMode
-(
-nsIFilePicker
-:
-:
-modeOpen
-)
 mSelectedType
 (
 0
@@ -1099,8 +1092,6 @@ const
 nsAString
 &
 aTitle
-int16_t
-aMode
 )
 {
 mParentWidget
@@ -1113,10 +1104,6 @@ Assign
 (
 aTitle
 )
-;
-mMode
-=
-aMode
 ;
 }
 NS_IMETHODIMP

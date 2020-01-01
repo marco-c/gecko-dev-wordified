@@ -269,8 +269,6 @@ const
 nsAString
 &
 aTitle
-int16_t
-aMode
 )
 =
 0
@@ -283,6 +281,9 @@ nsCOMPtr
 nsIFile
 >
 mDisplayDirectory
+;
+int16_t
+mMode
 ;
 }
 ;

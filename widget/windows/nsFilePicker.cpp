@@ -6899,8 +6899,6 @@ const
 nsAString
 &
 aTitle
-int16_t
-aMode
 )
 {
 mParentWidget
@@ -6913,10 +6911,6 @@ Assign
 (
 aTitle
 )
-;
-mMode
-=
-aMode
 ;
 }
 void

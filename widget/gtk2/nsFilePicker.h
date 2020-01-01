@@ -298,8 +298,6 @@ const
 nsAString
 &
 aTitle
-int16_t
-aMode
 )
 ;
 static
@@ -369,9 +367,6 @@ nsCOMArray
 nsIFile
 >
 mFiles
-;
-int16_t
-mMode
 ;
 int16_t
 mSelectedType
