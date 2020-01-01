@@ -175,9 +175,6 @@ false
 callFunction
 :
 false
-IS_UNDEFINED
-:
-false
 TO_UINT32
 :
 false
@@ -545,12 +542,13 @@ List
 {
 if
 (
-IS_UNDEFINED
-(
 List
 .
 prototype
-)
+=
+=
+=
+undefined
 )
 {
 var
