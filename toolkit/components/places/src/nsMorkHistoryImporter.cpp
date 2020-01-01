@@ -1115,7 +1115,7 @@ visitCount
 1
 ;
 }
-PRTime
+PRInt64
 lastVisitDate
 ;
 if
@@ -1148,7 +1148,7 @@ lastVisitDate
 1
 ;
 }
-PRTime
+PRInt64
 firstVisitDate
 ;
 if
