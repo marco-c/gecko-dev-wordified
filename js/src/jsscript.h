@@ -2228,6 +2228,10 @@ JSObject
 public
 :
 static
+Class
+class_
+;
+static
 void
 finalize
 (
