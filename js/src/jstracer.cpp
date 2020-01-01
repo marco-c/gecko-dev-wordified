@@ -56125,8 +56125,7 @@ addr_ins
 ;
 if
 (
-!
-JSVAL_IS_OBJECT
+JSVAL_IS_PRIMITIVE
 (
 l
 )
