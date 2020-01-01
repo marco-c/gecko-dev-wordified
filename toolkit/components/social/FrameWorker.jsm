@@ -1981,9 +1981,9 @@ window
 top
 docShell
 .
-isBrowserFrame
-=
-true
+setIsBrowser
+(
+)
 ;
 return
 iframe

@@ -438,9 +438,9 @@ this
 ;
 docShell
 .
-isBrowserFrame
-=
-true
+setIsBrowser
+(
+)
 ;
 docShell
 .
