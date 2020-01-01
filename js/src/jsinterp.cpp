@@ -5902,7 +5902,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-JS_FALSE
+false
 )
 ;
 stackLimit_
@@ -6469,7 +6469,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-JS_FALSE
+false
 )
 ;
 return
@@ -18325,8 +18325,8 @@ else
 JS_CHECK_RECURSION
 (
 cx
-return
-JS_FALSE
+goto
+error
 )
 ;
 #
