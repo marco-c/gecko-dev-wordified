@@ -671,7 +671,7 @@ class
 nsHTMLStyleSheet
 ;
 class
-nsIHTMLCSSStyleSheet
+nsHTMLCSSStyleSheet
 ;
 class
 nsILayoutHistoryState
@@ -3457,7 +3457,7 @@ one
 *
 /
 virtual
-nsIHTMLCSSStyleSheet
+nsHTMLCSSStyleSheet
 *
 GetInlineStyleSheet
 (
