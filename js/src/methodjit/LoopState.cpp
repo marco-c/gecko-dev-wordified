@@ -5682,6 +5682,16 @@ hasModifiedProperty
 object
 id
 )
+|
+|
+id
+!
+=
+MakeTypeId
+(
+cx
+id
+)
 )
 return
 NULL
