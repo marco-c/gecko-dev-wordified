@@ -705,6 +705,17 @@ return
 mInstance
 ;
 }
+bool
+Evaluate
+(
+NPString
+*
+aScript
+NPVariant
+*
+aResult
+)
+;
 private
 :
 static
