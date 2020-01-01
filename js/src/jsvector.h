@@ -2352,6 +2352,13 @@ Vector
 accessors
 *
 /
+enum
+{
+InlineLength
+=
+N
+}
+;
 size_t
 length
 (
