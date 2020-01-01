@@ -1935,9 +1935,6 @@ eMetric_MenusCanOverlapOSBar
 eMetric_SkipNavigatingDisabledMenuItem
 "
 "
-eMetric_DragFullWindow
-"
-"
 eMetric_DragThresholdX
 "
 "
@@ -2393,15 +2390,6 @@ the
 task
 bar
 .
-aMetric
-=
-1
-;
-break
-;
-case
-eMetric_DragFullWindow
-:
 aMetric
 =
 1

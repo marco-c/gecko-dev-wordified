@@ -1620,15 +1620,6 @@ aMetric
 break
 ;
 case
-eMetric_DragFullWindow
-:
-aMetric
-=
-1
-;
-break
-;
-case
 eMetric_TreeOpenDelay
 :
 aMetric

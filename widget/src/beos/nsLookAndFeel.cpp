@@ -1970,15 +1970,6 @@ aMetric
 break
 ;
 case
-eMetric_DragFullWindow
-:
-aMetric
-=
-0
-;
-break
-;
-case
 eMetric_ScrollArrowStyle
 :
 {
