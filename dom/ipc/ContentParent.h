@@ -2448,12 +2448,6 @@ mChildID
 int32_t
 mGeolocationWatchID
 ;
-int
-mRunToCompletionDepth
-;
-bool
-mShouldCallUnblockChild
-;
 /
 /
 This

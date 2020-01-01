@@ -5152,10 +5152,6 @@ if
 StackDepth
 (
 )
-&
-&
-!
-mBlockedOnParent
 )
 {
 /
