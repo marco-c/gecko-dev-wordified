@@ -3009,6 +3009,10 @@ mChannel
 =
 aChannel
 ;
+mHaveInputEncoding
+=
+PR_TRUE
+;
 /
 /
 Get
