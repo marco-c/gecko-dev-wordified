@@ -4321,6 +4321,12 @@ pusher
 cx
 )
 ;
+JSAutoRequest
+ar
+(
+cx
+)
+;
 JSIdArray
 *
 ida
@@ -8711,6 +8717,12 @@ available
 return
 ;
 }
+JSAutoRequest
+ar
+(
+cx
+)
+;
 if
 (
 sNPObjWrappers
