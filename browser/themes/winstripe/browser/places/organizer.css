@@ -1007,6 +1007,8 @@ skin
 /
 icons
 /
+Search
+-
 close
 .
 png
@@ -1023,8 +1025,8 @@ region
 rect
 (
 0px
-14px
-14px
+16px
+16px
 0px
 )
 ;
@@ -1085,9 +1087,9 @@ region
 rect
 (
 0px
-28px
-14px
-14px
+32px
+16px
+16px
 )
 ;
 }
@@ -1112,9 +1114,9 @@ region
 rect
 (
 0px
-42px
-14px
-28px
+48px
+16px
+32px
 )
 ;
 }
