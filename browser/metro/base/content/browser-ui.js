@@ -6559,6 +6559,14 @@ beginEditing
 true
 )
 ;
+this
+.
+_edit
+.
+select
+(
+)
+;
 break
 ;
 case
