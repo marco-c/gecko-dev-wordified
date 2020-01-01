@@ -1508,13 +1508,6 @@ nsIGlobalHistory2
 h
 "
 #
-include
-"
-nsIGlobalHistory3
-.
-h
-"
-#
 ifdef
 DEBUG_DOCSHELL_FOCUS
 #
