@@ -1737,6 +1737,11 @@ aLength
 ;
 if
 (
+fe
+)
+{
+if
+(
 pe
 -
 >
@@ -1780,6 +1785,7 @@ pe
 >
 mLanguageOverride
 ;
+}
 aFontData
 =
 nsnull

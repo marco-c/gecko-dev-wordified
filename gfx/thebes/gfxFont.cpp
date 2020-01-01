@@ -1010,6 +1010,7 @@ gfxFontEntry
 FamilyName
 (
 )
+const
 {
 NS_ASSERTION
 (
