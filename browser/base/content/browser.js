@@ -48583,7 +48583,7 @@ gNavigatorBundle
 getString
 (
 "
-activeDownloads
+activeDownloads1
 "
 )
 ;
@@ -48596,7 +48596,7 @@ gNavigatorBundle
 getString
 (
 "
-pausedDownloads
+pausedDownloads1
 "
 )
 ;
