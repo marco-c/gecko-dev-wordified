@@ -1808,6 +1808,9 @@ command
 "
 cmd_toggleTaskbar
 "
+#
+ifndef
+WINCE
 checked
 =
 "
@@ -1815,6 +1818,17 @@ true
 "
 /
 >
+#
+else
+checked
+=
+"
+false
+"
+/
+>
+#
+endif
 <
 menu
 id
