@@ -9727,7 +9727,7 @@ Array
 }
 {
 js_InitBooleanClass
-EAGER_ATOM_AND_CLASP
+EAGER_ATOM_AND_OCLASP
 (
 Boolean
 )
@@ -9748,14 +9748,14 @@ Math
 }
 {
 js_InitNumberClass
-EAGER_ATOM_AND_CLASP
+EAGER_ATOM_AND_OCLASP
 (
 Number
 )
 }
 {
 js_InitStringClass
-EAGER_ATOM_AND_CLASP
+EAGER_ATOM_AND_OCLASP
 (
 String
 )
@@ -9944,7 +9944,7 @@ EAGER_ATOM
 (
 NaN
 )
-CLASP
+OCLASP
 (
 Number
 )
@@ -9955,7 +9955,7 @@ EAGER_ATOM
 (
 Infinity
 )
-CLASP
+OCLASP
 (
 Number
 )
@@ -9966,7 +9966,7 @@ EAGER_ATOM
 (
 isNaN
 )
-CLASP
+OCLASP
 (
 Number
 )
@@ -9977,7 +9977,7 @@ EAGER_ATOM
 (
 isFinite
 )
-CLASP
+OCLASP
 (
 Number
 )
@@ -9988,7 +9988,7 @@ EAGER_ATOM
 (
 parseFloat
 )
-CLASP
+OCLASP
 (
 Number
 )
@@ -9999,7 +9999,7 @@ EAGER_ATOM
 (
 parseInt
 )
-CLASP
+OCLASP
 (
 Number
 )
@@ -10018,7 +10018,7 @@ EAGER_ATOM
 (
 escape
 )
-CLASP
+OCLASP
 (
 String
 )
@@ -10029,7 +10029,7 @@ EAGER_ATOM
 (
 unescape
 )
-CLASP
+OCLASP
 (
 String
 )
@@ -10040,7 +10040,7 @@ EAGER_ATOM
 (
 decodeURI
 )
-CLASP
+OCLASP
 (
 String
 )
@@ -10051,7 +10051,7 @@ EAGER_ATOM
 (
 encodeURI
 )
-CLASP
+OCLASP
 (
 String
 )
@@ -10062,7 +10062,7 @@ EAGER_ATOM
 (
 decodeURIComponent
 )
-CLASP
+OCLASP
 (
 String
 )
@@ -10073,7 +10073,7 @@ EAGER_ATOM
 (
 encodeURIComponent
 )
-CLASP
+OCLASP
 (
 String
 )
@@ -10087,7 +10087,7 @@ EAGER_ATOM
 (
 uneval
 )
-CLASP
+OCLASP
 (
 String
 )

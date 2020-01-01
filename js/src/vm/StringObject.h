@@ -160,6 +160,10 @@ RESERVED_SLOTS
 =
 2
 ;
+static
+Class
+class_
+;
 /
 *
 *
