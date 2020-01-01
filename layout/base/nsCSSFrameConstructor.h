@@ -5756,6 +5756,9 @@ const
 nsFrameConstructorState
 &
 aState
+nsIFrame
+*
+aRootElementFrame
 )
 ;
 /
