@@ -729,14 +729,6 @@ public
 static
 final
 int
-EXPOSE
-=
-21
-;
-public
-static
-final
-int
 IME_COMPOSITION_END
 =
 0
