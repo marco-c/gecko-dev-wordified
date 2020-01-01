@@ -2084,7 +2084,7 @@ loadUrl
 (
 ReaderModeUtils
 .
-getUrlForAboutReader
+getUrlFromAboutReader
 (
 mUrl
 )
