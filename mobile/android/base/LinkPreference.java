@@ -534,14 +534,9 @@ GeckoApp
 .
 mAppContext
 .
-loadUrl
+loadUrlInNewTab
 (
 mUrl
-AwesomeBar
-.
-Type
-.
-ADD
 )
 ;
 callChangeListener
