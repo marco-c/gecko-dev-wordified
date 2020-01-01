@@ -4032,6 +4032,16 @@ not
 (
 textarea
 )
+:
+not
+(
+iframe
+)
+:
+not
+(
+frame
+)
 {
 /
 *
