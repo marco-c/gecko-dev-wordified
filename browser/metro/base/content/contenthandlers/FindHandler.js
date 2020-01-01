@@ -291,6 +291,17 @@ findResult
 return
 ;
 }
+if
+(
+!
+this
+.
+_fastFind
+.
+currentWindow
+)
+return
+;
 let
 selection
 =
