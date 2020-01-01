@@ -12568,17 +12568,6 @@ FrameTransitions
 *
 GK_ATOM
 (
-usedBorderProperty
-"
-UsedBorderProperty
-"
-)
-/
-/
-nsMargin
-*
-GK_ATOM
-(
 usedMarginProperty
 "
 UsedMarginProperty
