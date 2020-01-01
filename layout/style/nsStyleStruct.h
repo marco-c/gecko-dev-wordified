@@ -2885,6 +2885,9 @@ aSide
 if
 (
 mBorderColors
+&
+&
+mBorderColors
 [
 aSide
 ]
