@@ -641,7 +641,7 @@ lockfile
 )
     
 except
-OSError
+EnvironmentError
 e
 :
       
