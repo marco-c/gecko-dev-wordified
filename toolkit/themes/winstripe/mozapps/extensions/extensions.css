@@ -1833,7 +1833,7 @@ searchbox
 {
 padding
 :
-0
+2px
 ;
 }
 .
@@ -1906,6 +1906,15 @@ searchIcons
 png
 "
 )
+;
+background
+-
+color
+:
+-
+moz
+-
+field
 ;
 }
 .
