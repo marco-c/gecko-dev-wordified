@@ -1762,6 +1762,13 @@ NS_DEVICE_PROXIMITY
 EventNameType_None
 NS_EVENT
 )
+WINDOW_ONLY_EVENT
+(
+devicelight
+NS_DEVICE_LIGHT
+EventNameType_None
+NS_EVENT
+)
 TOUCH_EVENT
 (
 touchstart

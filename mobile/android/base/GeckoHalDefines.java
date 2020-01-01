@@ -486,6 +486,14 @@ public
 static
 final
 int
+SENSOR_LIGHT
+=
+5
+;
+public
+static
+final
+int
 SENSOR_ACCURACY_UNKNOWN
 =
 -
