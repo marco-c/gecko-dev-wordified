@@ -946,6 +946,10 @@ if
 (
 !
 menuFrame
+|
+|
+!
+menuFrame
 -
 >
 IsOnMenuBar
