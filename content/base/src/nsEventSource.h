@@ -1127,6 +1127,9 @@ mGoingToDispatchAllMessages
 bool
 mWithCredentials
 ;
+bool
+mWaitingForOnStopRequest
+;
 /
 /
 used
