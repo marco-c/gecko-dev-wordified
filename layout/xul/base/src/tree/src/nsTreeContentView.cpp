@@ -6798,6 +6798,14 @@ FindContent
 aContainer
 )
 ;
+if
+(
+parentIndex
+>
+=
+0
+)
+{
 PRInt32
 index
 =
@@ -6838,6 +6846,7 @@ index
 count
 )
 ;
+}
 }
 }
 void
