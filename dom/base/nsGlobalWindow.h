@@ -756,13 +756,6 @@ h
 #
 include
 "
-nsIDOMPkcs11
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h
@@ -4423,12 +4416,6 @@ nsCOMPtr
 nsIDOMCrypto
 >
 mCrypto
-;
-nsCOMPtr
-<
-nsIDOMPkcs11
->
-mPkcs11
 ;
 nsCOMPtr
 <
