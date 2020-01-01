@@ -6011,6 +6011,14 @@ binary
 "
 )
 ;
+ias
+.
+serialNumber
+.
+type
+=
+siUnsignedInteger
+;
 entry
 .
 cert
