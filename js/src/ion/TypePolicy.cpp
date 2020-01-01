@@ -3398,7 +3398,7 @@ conversion
 is
 based
 on
-TypedArrayTemplate
+TypedArrayObjectTemplate
 :
 :
 setElementTail

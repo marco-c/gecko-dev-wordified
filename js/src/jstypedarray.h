@@ -206,7 +206,7 @@ TypedArrayObject
 /
 /
 -
-TypedArrayTemplate
+TypedArrayObjectTemplate
 /
 /
 -
@@ -228,7 +228,7 @@ Uint8Array
 Note
 that
 |
-TypedArrayTemplate
+TypedArrayObjectTemplate
 |
 is
 just
@@ -236,9 +236,9 @@ an
 implementation
 detail
 that
+/
+/
 makes
-/
-/
 implementing
 its
 various
