@@ -9622,7 +9622,7 @@ removal
 .
 *
 /
-nsresult
+void
 doRemoveChildAt
 (
 PRUint32
