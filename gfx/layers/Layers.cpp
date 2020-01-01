@@ -2631,9 +2631,10 @@ here
 ;
 NS_ASSERTION
 (
+!
 maskTranslation
 .
-HasOnlyIntegerTranslation
+HasNonTranslation
 (
 )
 "
