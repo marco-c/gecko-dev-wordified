@@ -346,6 +346,13 @@ nsAHtml5TreeBuilderState
 .
 h
 "
+#
+include
+"
+nsHtml5Macros
+.
+h
+"
 class
 nsHtml5StreamParser
 ;
@@ -416,8 +423,8 @@ originalMode
 PRBool
 framesetOk
 ;
-PRInt32
-foreignFlag
+PRBool
+inForeign
 ;
 PRBool
 needToDropLF
@@ -457,8 +464,8 @@ PRInt32
 originalMode
 PRBool
 framesetOk
-PRInt32
-foreignFlag
+PRBool
+inForeign
 PRBool
 needToDropLF
 PRBool
@@ -514,8 +521,8 @@ isFramesetOk
 (
 )
 ;
-PRInt32
-getForeignFlag
+PRBool
+isInForeign
 (
 )
 ;

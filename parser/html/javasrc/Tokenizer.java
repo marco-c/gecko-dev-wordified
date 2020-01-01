@@ -12699,7 +12699,7 @@ if
 (
 tokenHandler
 .
-inForeign
+isInForeign
 (
 )
 )

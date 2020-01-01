@@ -487,8 +487,8 @@ originalMode
 PRBool
 framesetOk
 ;
-PRInt32
-foreignFlag
+PRBool
+inForeign
 ;
 protected
 :
@@ -1526,11 +1526,6 @@ PRBool
 scriptingEnabled
 )
 ;
-PRBool
-inForeign
-(
-)
-;
 void
 flushCharacters
 (
@@ -1638,8 +1633,8 @@ isFramesetOk
 (
 )
 ;
-PRInt32
-getForeignFlag
+PRBool
+isInForeign
 (
 )
 ;
@@ -2107,13 +2102,5 @@ NS_HTML5TREE_BUILDER_CHARSET_UNQUOTED
 define
 NS_HTML5TREE_BUILDER_NOT_FOUND_ON_STACK
 PR_INT32_MAX
-#
-define
-NS_HTML5TREE_BUILDER_IN_FOREIGN
-0
-#
-define
-NS_HTML5TREE_BUILDER_NOT_IN_FOREIGN
-1
 #
 endif

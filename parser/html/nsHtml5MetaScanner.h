@@ -356,6 +356,13 @@ nsAHtml5TreeBuilderState
 .
 h
 "
+#
+include
+"
+nsHtml5Macros
+.
+h
+"
 class
 nsHtml5StreamParser
 ;
