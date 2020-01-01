@@ -562,7 +562,7 @@ spec
 aURL
 -
 >
-GetSpec
+GetAsciiSpec
 (
 spec
 )
