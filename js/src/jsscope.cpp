@@ -7780,12 +7780,9 @@ buf
 bufsize
 -
 1
-ATOM_TO_STRING
-(
-JSID_TO_ATOM
+JSID_TO_STRING
 (
 id
-)
 )
 0
 )
@@ -7940,12 +7937,9 @@ buf
 bufsize
 -
 1
-ATOM_TO_STRING
-(
-JSID_TO_ATOM
+JSID_TO_STRING
 (
 id
-)
 )
 0
 )

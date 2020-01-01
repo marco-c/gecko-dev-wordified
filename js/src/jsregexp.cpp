@@ -34550,6 +34550,13 @@ index
 1
 )
 {
+Value
+undef
+=
+undefinedValue
+(
+)
+;
 ok
 =
 js_DefineProperty
@@ -34563,7 +34570,7 @@ num
 1
 )
 &
-sUndefinedValue
+undef
 NULL
 NULL
 JSPROP_ENUMERATE

@@ -438,6 +438,9 @@ BLOCK
 *
 *
 /
+#
+define
+__STDC_LIMIT_MACROS
 /
 *
 *
@@ -1314,7 +1317,7 @@ cx
 )
 ;
 }
-JS_AddNamedRoot
+JS_AddNamedStringRoot
 (
 cx
 &
@@ -1332,7 +1335,7 @@ ToString
 (
 )
 {
-JS_RemoveRoot
+JS_RemoveStringRoot
 (
 cx
 &
@@ -7185,10 +7188,11 @@ v
 else
 if
 (
-v
 !
-=
-JSVAL_NULL
+JSVAL_IS_NULL
+(
+v
+)
 )
 {
 JS_ReportError

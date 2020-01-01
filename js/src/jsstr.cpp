@@ -3806,7 +3806,9 @@ vp
 2
 ]
 :
-sUndefinedValue
+undefinedValue
+(
+)
 )
 ;
 if
@@ -23945,7 +23947,9 @@ atomState
 .
 lengthAtom
 )
-sUndefinedValue
+undefinedValue
+(
+)
 NULL
 NULL
 JSPROP_READONLY

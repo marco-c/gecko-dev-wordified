@@ -3579,12 +3579,9 @@ id
 {
 str
 =
-ATOM_TO_STRING
-(
-JSID_TO_ATOM
+JSID_TO_STRING
 (
 id
-)
 )
 ;
 }

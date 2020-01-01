@@ -25645,7 +25645,12 @@ atomState
 .
 emptyAtom
 )
-sUndefinedValue
+Value
+(
+UndefinedTag
+(
+)
+)
 NULL
 NULL
 JSPROP_ENUMERATE

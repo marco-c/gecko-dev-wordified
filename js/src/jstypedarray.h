@@ -1103,7 +1103,6 @@ API
 methods
 *
 /
-JS_BEGIN_EXTERN_C
 JS_FRIEND_API
 (
 JSObject
@@ -1421,7 +1420,6 @@ JSObject
 scope
 )
 ;
-JS_END_EXTERN_C
 #
 endif
 /
