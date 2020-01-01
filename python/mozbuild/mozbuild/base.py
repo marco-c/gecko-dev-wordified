@@ -1784,6 +1784,50 @@ ignore_errors
 '
 :
 ignore_errors
+            
+#
+Make
+manages
+its
+children
+so
+mozprocess
+doesn
+'
+t
+need
+to
+bother
+.
+            
+#
+Having
+mozprocess
+manage
+children
+can
+also
+have
+side
+-
+effects
+when
+            
+#
+building
+on
+Windows
+.
+See
+bug
+796840
+.
+            
+'
+ignore_children
+'
+:
+True
         
 }
         
@@ -2012,6 +2056,9 @@ False
 ignore_errors
 =
 False
+ignore_children
+=
+False
 )
 :
         
@@ -2134,6 +2181,16 @@ UNIX
 -
 like
 shell
+.
+        
+ignore_children
+is
+proxied
+to
+mozprocess
+'
+s
+ignore_children
 .
         
 "
@@ -2343,6 +2400,10 @@ handleLine
 universal_newlines
 =
 True
+            
+ignore_children
+=
+ignore_children
 )
         
 p
