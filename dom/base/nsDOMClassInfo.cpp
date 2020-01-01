@@ -2109,6 +2109,13 @@ h
 #
 include
 "
+nsIDOMNSHTMLScriptElement
+.
+h
+"
+#
+include
+"
 nsIDOMNSHTMLSelectElement
 .
 h
@@ -11236,6 +11243,10 @@ nsIDOMHTMLScriptElement
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMHTMLScriptElement
+)
+DOM_CLASSINFO_MAP_ENTRY
+(
+nsIDOMNSHTMLScriptElement
 )
 DOM_CLASSINFO_GENERIC_HTML_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END

@@ -1884,6 +1884,12 @@ nsScriptLoadRequest
 >
 mRequests
 ;
+nsCOMArray
+<
+nsScriptLoadRequest
+>
+mAsyncRequests
+;
 /
 /
 In
