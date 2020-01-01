@@ -10,6 +10,8 @@ TMFLAGS
 full
 fragprofile
 treevis
+;
+valgrind
 function
 testRegExpTest
 (
