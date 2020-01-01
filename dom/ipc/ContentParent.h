@@ -175,6 +175,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -1566,6 +1575,7 @@ mMessageManager
 ;
 class
 WatchedFile
+MOZ_FINAL
 :
 public
 nsIFileUpdateListener
