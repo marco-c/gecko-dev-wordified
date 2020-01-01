@@ -7945,6 +7945,12 @@ _ignorePrefObserver
 =
 false
 ;
+SyncScheduler
+.
+setDefaults
+(
+)
+;
 Svc
 .
 Prefs
