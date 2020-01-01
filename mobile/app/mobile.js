@@ -598,7 +598,7 @@ pipelining
 .
 maxrequests
 "
-2
+6
 )
 ;
 pref
@@ -628,7 +628,7 @@ max
 -
 connections
 "
-4
+6
 )
 ;
 pref
@@ -646,7 +646,7 @@ per
 -
 server
 "
-1
+4
 )
 ;
 pref
@@ -666,7 +666,7 @@ per
 -
 server
 "
-1
+4
 )
 ;
 pref
@@ -686,7 +686,7 @@ per
 -
 proxy
 "
-1
+4
 )
 ;
 /
