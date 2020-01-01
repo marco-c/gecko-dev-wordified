@@ -716,7 +716,6 @@ node
 .
 *
 /
-inline
 nsDocAccessible
 *
 GetDocAccessible
