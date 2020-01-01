@@ -709,7 +709,10 @@ duration
 ;
 public
 :
+nsAutoPtr
+<
 nsMediaStream
+>
 mStream
 ;
 /
