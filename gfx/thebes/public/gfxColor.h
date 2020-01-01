@@ -535,6 +535,13 @@ define
 GFX_HAVE_CHEAP_NTOHL
 #
 else
+#
+include
+"
+prbit
+.
+h
+"
 /
 /
 A
