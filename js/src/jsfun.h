@@ -1665,12 +1665,6 @@ inStrictMode
 )
 const
 ;
-bool
-isBound
-(
-)
-const
-;
 uintN
 countVars
 (
