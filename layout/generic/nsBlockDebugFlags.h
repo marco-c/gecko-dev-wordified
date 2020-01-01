@@ -597,14 +597,14 @@ incomplete
 "
 #
 undef
-NOISY_SPACEMANAGER
+NOISY_FLOATMANAGER
 /
 /
 enables
 debug
 output
 for
-space
+float
 manager
 use
 useful

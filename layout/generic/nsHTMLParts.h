@@ -625,7 +625,7 @@ NS_BLOCK_MARGIN_ROOT
 0x00400000
 #
 define
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 0x00800000
 #
 define
@@ -861,7 +861,7 @@ NS_NewBlockFrame
 (
 aPresShell
 aContext
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 |
 NS_BLOCK_MARGIN_ROOT
 )
@@ -893,7 +893,7 @@ NS_NewBlockFrame
 (
 aPresShell
 aContext
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 |
 NS_BLOCK_MARGIN_ROOT
 )
@@ -911,7 +911,7 @@ t
 use
 its
 own
-space
+float
 manager
 and
 /

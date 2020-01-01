@@ -469,7 +469,7 @@ class
 nsIRenderingContext
 ;
 class
-nsSpaceManager
+nsFloatManager
 ;
 class
 nsLineLayout
@@ -1534,15 +1534,15 @@ mFrameType
 pointer
 to
 the
-space
+float
 manager
 associated
 with
 this
 area
-nsSpaceManager
+nsFloatManager
 *
-mSpaceManager
+mFloatManager
 ;
 /
 /

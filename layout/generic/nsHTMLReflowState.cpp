@@ -779,7 +779,7 @@ aAvailableSpace
 .
 height
 ;
-mSpaceManager
+mFloatManager
 =
 nsnull
 ;
@@ -1162,11 +1162,11 @@ aAvailableSpace
 .
 height
 ;
-mSpaceManager
+mFloatManager
 =
 aParentReflowState
 .
-mSpaceManager
+mFloatManager
 ;
 if
 (

@@ -431,7 +431,7 @@ of
 floats
 that
 implements
-space
+float
 manager
 interfaces
 *
@@ -838,7 +838,7 @@ mSpaceManager
 bad
 state
 no
-space
+float
 manager
 "
 )

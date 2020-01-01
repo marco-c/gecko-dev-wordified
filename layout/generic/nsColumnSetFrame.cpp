@@ -4512,7 +4512,7 @@ cool
 to
 consult
 the
-space
+float
 manager
 for
 the
@@ -4547,7 +4547,7 @@ region
 from
 the
 new
-space
+float
 manager
 .
 So

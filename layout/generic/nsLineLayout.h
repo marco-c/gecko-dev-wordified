@@ -580,7 +580,7 @@ class
 nsBlockFrame
 ;
 class
-nsSpaceManager
+nsFloatManager
 ;
 class
 nsPlaceholderFrame
@@ -598,9 +598,9 @@ nsLineLayout
 nsPresContext
 *
 aPresContext
-nsSpaceManager
+nsFloatManager
 *
-aSpaceManager
+aFloatManager
 const
 nsHTMLReflowState
 *
@@ -2542,9 +2542,9 @@ frame
 doing
 line
 layout
-nsSpaceManager
+nsFloatManager
 *
-mSpaceManager
+mFloatManager
 ;
 const
 nsStyleText

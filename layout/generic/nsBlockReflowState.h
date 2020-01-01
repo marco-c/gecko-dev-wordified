@@ -567,10 +567,10 @@ has
 the
 equivalent
 of
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 #
 define
-BRS_SPACE_MGR
+BRS_FLOAT_MGR
 0x00000040
 /
 /
@@ -630,7 +630,7 @@ aTopMarginRoot
 PRBool
 aBottomMarginRoot
 PRBool
-aBlockNeedsSpaceManager
+aBlockNeedsFloatManager
 )
 ;
 ~
@@ -1337,9 +1337,9 @@ nsHTMLReflowState
 &
 mReflowState
 ;
-nsSpaceManager
+nsFloatManager
 *
-mSpaceManager
+mFloatManager
 ;
 /
 /
@@ -1406,8 +1406,8 @@ and
 floats
 .
 nscoord
-mSpaceManagerX
-mSpaceManagerY
+mFloatManagerX
+mFloatManagerY
 ;
 /
 /

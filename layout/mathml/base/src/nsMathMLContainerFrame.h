@@ -3643,7 +3643,7 @@ should
 always
 have
 a
-space
+float
 manager
 .
 Not
@@ -3670,7 +3670,7 @@ layout
 .
 AddStateBits
 (
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 )
 ;
 }

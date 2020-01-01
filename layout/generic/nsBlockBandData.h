@@ -431,7 +431,7 @@ of
 floats
 that
 implements
-space
+float
 manager
 interfaces
 *
@@ -556,7 +556,7 @@ the
 current
 /
 /
-space
+float
 manager
 translation
 .
@@ -641,7 +641,7 @@ translation
 /
 in
 the
-space
+float
 manager
 which
 means
@@ -868,7 +868,7 @@ our
 translation
 in
 the
-space
+float
 manager
 "
 hides

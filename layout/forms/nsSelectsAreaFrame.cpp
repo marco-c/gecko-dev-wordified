@@ -509,7 +509,7 @@ it
 /
 We
 need
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 to
 ensure
 that
@@ -538,7 +538,7 @@ SetFlags
 (
 aFlags
 |
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 )
 ;
 }
