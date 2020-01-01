@@ -456,6 +456,13 @@ nsSVGMarkerElement
 h
 "
 #
+include
+"
+nsMathUtils
+.
+h
+"
+#
 ifdef
 MOZ_SMIL
 #
@@ -1303,7 +1310,7 @@ rest
 str
 &
 &
-NS_FloatIsFinite
+NS_finite
 (
 *
 aValue

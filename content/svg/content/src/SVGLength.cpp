@@ -458,13 +458,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsTextFormatter
 .
 h
@@ -473,6 +466,13 @@ h
 include
 "
 prdtoa
+.
+h
+"
+#
+include
+"
+nsMathUtils
 .
 h
 "
@@ -670,7 +670,7 @@ unit
 str
 &
 &
-NS_FloatIsFinite
+NS_finite
 (
 tmpValue
 )
@@ -1314,7 +1314,7 @@ userUnitsPerCurrentUnit
 |
 |
 !
-NS_FloatIsFinite
+NS_finite
 (
 userUnitsPerCurrentUnit
 )
@@ -1333,7 +1333,7 @@ userUnitsPerNewUnit
 |
 |
 !
-NS_FloatIsFinite
+NS_finite
 (
 userUnitsPerNewUnit
 )
@@ -1368,7 +1368,7 @@ zero
 .
 if
 (
-NS_FloatIsFinite
+NS_finite
 (
 value
 )

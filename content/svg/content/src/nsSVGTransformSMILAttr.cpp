@@ -534,6 +534,13 @@ prlog
 .
 h
 "
+#
+include
+"
+nsMathUtils
+.
+h
+"
 nsresult
 nsSVGTransformSMILAttr
 :
@@ -1717,7 +1724,7 @@ get
 |
 |
 !
-NS_FloatIsFinite
+NS_finite
 (
 f
 )

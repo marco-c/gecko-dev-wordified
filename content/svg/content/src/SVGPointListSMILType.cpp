@@ -1452,7 +1452,7 @@ total
 if
 (
 !
-NS_FloatIsFinite
+NS_finite
 (
 distance
 )

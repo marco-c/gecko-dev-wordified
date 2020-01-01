@@ -476,6 +476,13 @@ nsDOMError
 .
 h
 "
+#
+include
+"
+nsMathUtils
+.
+h
+"
 /
 /
 See
@@ -954,7 +961,7 @@ Axis
 ;
 if
 (
-NS_FloatIsFinite
+NS_finite
 (
 *
 aValue

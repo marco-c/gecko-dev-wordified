@@ -450,7 +450,7 @@ h
 #
 include
 "
-nsContentUtils
+nsMathUtils
 .
 h
 "
@@ -1148,7 +1148,7 @@ uuPerUnit
 0
 &
 &
-NS_FloatIsFinite
+NS_finite
 (
 value
 )
@@ -1316,7 +1316,7 @@ aAxis
 ;
 if
 (
-NS_FloatIsFinite
+NS_finite
 (
 val
 )
@@ -1404,7 +1404,7 @@ IsValid
 const
 {
 return
-NS_FloatIsFinite
+NS_finite
 (
 mValue
 )
