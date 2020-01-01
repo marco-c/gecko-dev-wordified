@@ -1462,6 +1462,9 @@ execute_js_script
 (
 js
 args
+special_powers
+=
+True
 )
             
 if

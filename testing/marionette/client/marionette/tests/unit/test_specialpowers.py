@@ -159,6 +159,9 @@ self
 .
 testvalue
 }
+special_powers
+=
+True
 )
 ;
         
