@@ -962,10 +962,6 @@ thisFromCtor
 )
 )
 )
-oomInVector
-(
-false
-)
 stubcc
 (
 cx
@@ -999,6 +995,10 @@ traceJitEnabled
 )
 #
 endif
+oomInVector
+(
+false
+)
 {
 }
 CompileStatus
