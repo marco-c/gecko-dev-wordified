@@ -3039,7 +3039,7 @@ rt
 nsXPConnect
 :
 :
-FastGetXPConnect
+XPConnect
 (
 )
 -

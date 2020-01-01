@@ -2553,7 +2553,7 @@ rv
 nsXPConnect
 :
 :
-FastGetXPConnect
+XPConnect
 (
 )
 -
