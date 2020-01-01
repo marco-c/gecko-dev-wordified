@@ -1094,6 +1094,11 @@ NPDrawingModel
 aModel
 )
 ;
+void
+RedrawPlugin
+(
+)
+;
 #
 ifdef
 XP_MACOSX
