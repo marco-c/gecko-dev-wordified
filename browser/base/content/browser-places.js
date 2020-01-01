@@ -5481,6 +5481,8 @@ PlacesControllerDragHelper
 canDrop
 (
 view
+.
+_viewer
 -
 1
 )
@@ -5577,7 +5579,6 @@ PlacesControllerDragHelper
 .
 onDrop
 (
-view
 ip
 )
 ;
