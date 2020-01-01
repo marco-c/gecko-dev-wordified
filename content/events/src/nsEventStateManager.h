@@ -3024,7 +3024,7 @@ DispatchCrossProcessEvent
 nsEvent
 *
 aEvent
-nsIFrameLoader
+nsFrameLoader
 *
 remote
 nsEventStatus
