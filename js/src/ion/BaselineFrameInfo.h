@@ -796,7 +796,7 @@ arguments
 fp
 +
 x
-IonBaselineJSFrameLayout
+IonJSFrameLayout
 (
 frame
 header
@@ -931,7 +931,7 @@ index
 return
 FramePointerOffset
 +
-IonBaselineJSFrameLayout
+IonJSFrameLayout
 :
 :
 offsetOfActualArg
