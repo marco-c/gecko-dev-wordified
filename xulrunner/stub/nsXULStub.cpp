@@ -634,6 +634,9 @@ endif
 ifdef
 XP_WIN
 #
+define
+XRE_DONT_PROTECT_DLL_LOAD
+#
 include
 "
 nsWindowsWMain
