@@ -7528,8 +7528,6 @@ aReturn
 nsnull
 mPrincipal
 name
-nsnull
-nsnull
 aPublicId
 aSystemId
 voidString
@@ -7857,14 +7855,6 @@ html
 /
 /
 aName
-NULL
-/
-/
-aEntities
-NULL
-/
-/
-aNotations
 EmptyString
 (
 )

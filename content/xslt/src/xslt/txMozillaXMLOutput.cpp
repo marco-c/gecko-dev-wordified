@@ -5213,8 +5213,6 @@ documentType
 mNodeInfoManager
 nsnull
 doctypeName
-nsnull
-nsnull
 mOutputFormat
 .
 mPublicId

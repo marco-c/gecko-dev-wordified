@@ -854,10 +854,6 @@ nsIPrincipal
 *
 nsIAtom
 *
-nsIDOMNamedNodeMap
-*
-nsIDOMNamedNodeMap
-*
 const
 nsAString
 &
