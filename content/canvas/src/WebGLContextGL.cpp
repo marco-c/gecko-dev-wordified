@@ -10819,17 +10819,6 @@ ImageFormatRGB24
 {
 PRUint8
 *
-src
-=
-surf
--
->
-Data
-(
-)
-;
-PRUint8
-*
 dst
 =
 surf
@@ -10862,6 +10851,8 @@ j
 +
 )
 {
+PRUint8
+*
 src
 =
 surf
