@@ -27272,7 +27272,6 @@ js_NewStringCopyN
 cx
 s
 n
-0
 )
 ;
 }
@@ -27316,7 +27315,6 @@ js_NewStringCopyZ
 (
 cx
 s
-0
 )
 ;
 }
@@ -27771,7 +27769,6 @@ cx
 str
 start
 length
-0
 )
 ;
 }

@@ -8405,7 +8405,6 @@ cx
 str
 0
 offset
-0
 )
 ;
 if
@@ -8597,7 +8596,6 @@ offset
 +
 1
 )
-0
 )
 ;
 if
@@ -8901,7 +8899,6 @@ cx
 str
 offset
 newlength
-0
 )
 ;
 }
@@ -9982,7 +9979,6 @@ chars
 length
 -
 6
-0
 )
 ;
 if
@@ -16167,7 +16163,6 @@ cx
 uri
 offset
 length
-0
 )
 ;
 }
@@ -19795,7 +19790,6 @@ name
 )
 -
 1
-0
 )
 ;
 if
@@ -47431,7 +47425,6 @@ JSSTRING_LENGTH
 (
 str
 )
-0
 )
 ;
 if

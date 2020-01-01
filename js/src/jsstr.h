@@ -2770,8 +2770,6 @@ size_t
 start
 size_t
 length
-uintN
-gcflag
 )
 ;
 /
@@ -2805,8 +2803,6 @@ jschar
 s
 size_t
 n
-uintN
-gcflag
 )
 ;
 /
@@ -2838,8 +2834,6 @@ const
 jschar
 *
 s
-uintN
-gcflag
 )
 ;
 /
