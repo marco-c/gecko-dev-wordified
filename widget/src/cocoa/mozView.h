@@ -444,14 +444,6 @@ nsIWidget
 ;
 /
 /
-/
-/
-protocol
-mozView
-/
-/
-/
-/
 A
 protocol
 listing
@@ -499,8 +491,6 @@ implement
 this
 protocol
 .
-/
-/
 protocol
 mozView
 /
@@ -700,8 +690,6 @@ widgetDestroyed
 end
 /
 /
-/
-/
 An
 informal
 protocol
@@ -755,8 +743,6 @@ nsIEmbeddingSiteWindow
 SetFocus
 implementation
 .
-/
-/
 interface
 NSObject
 (

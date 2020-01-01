@@ -510,17 +510,6 @@ nsILocalFileMac
 class
 NSArray
 ;
-/
-*
-*
-*
-Native
-Mac
-Cocoa
-FileSelector
-wrapper
-*
-/
 class
 nsFilePicker
 :

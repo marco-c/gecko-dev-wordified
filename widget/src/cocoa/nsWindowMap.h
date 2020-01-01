@@ -447,8 +447,6 @@ h
 >
 /
 /
-/
-/
 WindowDataMap
 /
 /
@@ -564,8 +562,6 @@ notification
 observer
 etc
 .
-/
-/
 interface
 WindowDataMap
 :
@@ -693,8 +689,6 @@ ChildView
 ;
 /
 /
-/
-/
 TopLevelWindowData
 /
 /
@@ -713,8 +707,6 @@ window
 state
 changes
 .
-/
-/
 interface
 TopLevelWindowData
 :
