@@ -528,7 +528,7 @@ lir
 new
 LUnboxFloatingPoint
 (
-useRegister
+useRegisterAtStart
 (
 box
 )
@@ -546,7 +546,7 @@ lir
 new
 LUnbox
 (
-useRegister
+useRegisterAtStart
 (
 box
 )
