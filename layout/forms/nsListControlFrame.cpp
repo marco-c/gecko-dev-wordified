@@ -4292,9 +4292,6 @@ aStatus
 )
 ;
 }
-nsGfxScrollFrameInner
-:
-:
 ScrollbarStyles
 nsListControlFrame
 :
@@ -4344,9 +4341,6 @@ NS_STYLE_OVERFLOW_AUTO
 NS_STYLE_OVERFLOW_SCROLL
 ;
 return
-nsGfxScrollFrameInner
-:
-:
 ScrollbarStyles
 (
 NS_STYLE_OVERFLOW_HIDDEN
