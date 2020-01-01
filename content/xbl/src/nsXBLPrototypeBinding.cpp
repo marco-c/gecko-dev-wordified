@@ -10818,16 +10818,6 @@ mNodeInfo
 =
 nodeInfo
 ;
-prototype
--
->
-mScriptTypeID
-=
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
-;
 nsCOMPtr
 <
 Element
