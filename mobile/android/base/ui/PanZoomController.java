@@ -5036,7 +5036,6 @@ updatePosition
 (
 )
 ;
-}
 /
 *
 *
@@ -5153,6 +5152,7 @@ threshold
 )
 return
 ;
+}
 /
 *
 *
