@@ -959,7 +959,7 @@ chrome
 :
 /
 /
-sync
+weave
 '
 null
 realm
@@ -1068,7 +1068,7 @@ chrome
 :
 /
 /
-sync
+weave
 '
 null
 realm
@@ -1154,7 +1154,7 @@ chrome
 :
 /
 /
-sync
+weave
 '
 null
 realm
