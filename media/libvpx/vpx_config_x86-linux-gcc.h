@@ -155,7 +155,7 @@ CONFIG_MSVS
 #
 define
 CONFIG_PIC
-0
+1
 #
 define
 CONFIG_BIG_ENDIAN
