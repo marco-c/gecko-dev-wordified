@@ -775,6 +775,7 @@ once
 if
 special_powers
 and
+(
 manifest
 .
 endswith
@@ -784,6 +785,18 @@ crashtests
 .
 list
 '
+)
+or
+manifest
+.
+endswith
+(
+'
+jstests
+.
+list
+'
+)
 )
 :
       
