@@ -1949,10 +1949,11 @@ aVisitor
 mEvent
 -
 >
-flags
-|
+mFlags
+.
+mMultipleActionsPrevented
 =
-NS_EVENT_FLAG_PREVENT_MULTIPLE_ACTIONS
+true
 ;
 }
 else
