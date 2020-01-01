@@ -461,6 +461,8 @@ gfxD2DSurface
 (
 HWND
 wnd
+gfxContentType
+aContent
 )
 ;
 gfxD2DSurface
