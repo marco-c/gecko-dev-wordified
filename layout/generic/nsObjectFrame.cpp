@@ -4476,7 +4476,6 @@ mRootPresContextRegisteredWith
 >
 RequestUpdatePluginGeometry
 (
-this
 )
 ;
 }

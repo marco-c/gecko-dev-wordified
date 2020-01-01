@@ -52759,14 +52759,6 @@ it
 for
 us
 .
-nsIFrame
-*
-rootFrame
-=
-GetRootFrame
-(
-)
-;
 nsRootPresContext
 *
 rootPC
@@ -52788,7 +52780,6 @@ rootPC
 >
 RequestUpdatePluginGeometry
 (
-rootFrame
 )
 ;
 }
