@@ -443,9 +443,6 @@ permissions
 [
 '
 indexedDB
-'
-'
-indexedDB
 -
 unlimited
 '
