@@ -765,8 +765,9 @@ put
 Constants
 .
 JSON_KEY_SYNC_AUTOMATICALLY
-new
 Boolean
+.
+valueOf
 (
 syncAutomatically
 )
@@ -1176,13 +1177,9 @@ JSON_KEY_SYNC_AUTOMATICALLY
 {
 if
 (
-(
-new
 Boolean
-(
-false
-)
-)
+.
+FALSE
 .
 equals
 (
