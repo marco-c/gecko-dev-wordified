@@ -3947,6 +3947,13 @@ false
 atomsCompartment
 -
 >
+systemGCChunks
+=
+true
+;
+atomsCompartment
+-
+>
 setGCLastBytes
 (
 8192
