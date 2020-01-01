@@ -1845,11 +1845,4 @@ ShutDown
 (
 )
 ;
-nsRefreshDriver
-:
-:
-Shutdown
-(
-)
-;
 }
