@@ -3157,7 +3157,7 @@ timeout
 .
 mDeltaToNextIdleSwitchInS
 =
-PR_MIN
+NS_MIN
 (
 mDeltaToNextIdleSwitchInS
 curListener
@@ -4258,7 +4258,7 @@ out
 .
 mDeltaToNextIdleSwitchInS
 =
-PR_MIN
+NS_MIN
 (
 mDeltaToNextIdleSwitchInS
 curListener

@@ -957,7 +957,10 @@ gradual
 .
 mNextDelay
 =
-PR_MIN
+NS_MIN
+<
+double
+>
 (
 kWSReconnectMaxDelay
 mNextDelay

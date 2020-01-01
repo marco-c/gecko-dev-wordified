@@ -2114,7 +2114,7 @@ DataSize
 (
 )
 /
-PR_MAX
+NS_MAX
 (
 1
 entry

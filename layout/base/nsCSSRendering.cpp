@@ -20583,7 +20583,7 @@ sliceWidth
 slice
 .
 left
-PR_MAX
+NS_MAX
 (
 imageSize
 .
@@ -20614,7 +20614,7 @@ sliceHeight
 slice
 .
 top
-PR_MAX
+NS_MAX
 (
 imageSize
 .
