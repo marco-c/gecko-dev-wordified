@@ -849,6 +849,14 @@ nsIDOMEvent
 aEvent
 )
 ;
+PRBool
+CheckEventDetail
+(
+nsIDOMEvent
+*
+aEvent
+)
+;
 nsSMILTimeValue
 ConvertBetweenTimeContainers
 (
