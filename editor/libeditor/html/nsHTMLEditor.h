@@ -903,6 +903,15 @@ HasFocus
 (
 )
 ;
+virtual
+already_AddRefed
+<
+nsPIDOMEventTarget
+>
+GetPIDOMEventTarget
+(
+)
+;
 /
 *
 -

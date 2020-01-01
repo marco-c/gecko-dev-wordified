@@ -3555,6 +3555,7 @@ PRInt32
 aEndOffset
 )
 ;
+virtual
 already_AddRefed
 <
 nsPIDOMEventTarget
@@ -3562,6 +3563,8 @@ nsPIDOMEventTarget
 GetPIDOMEventTarget
 (
 )
+=
+0
 ;
 /
 /
