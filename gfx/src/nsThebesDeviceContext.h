@@ -651,7 +651,7 @@ aLanguage
 gfxUserFontSet
 *
 aUserFontSet
-nsIFontMetrics
+nsFontMetrics
 *
 &
 aMetrics
@@ -667,7 +667,7 @@ aFont
 gfxUserFontSet
 *
 aUserFontSet
-nsIFontMetrics
+nsFontMetrics
 *
 &
 aMetrics
@@ -709,7 +709,7 @@ NS_IMETHOD
 FontMetricsDeleted
 (
 const
-nsIFontMetrics
+nsFontMetrics
 *
 aFontMetrics
 )

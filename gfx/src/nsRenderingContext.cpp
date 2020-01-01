@@ -3055,7 +3055,7 @@ nsRenderingContext
 :
 SetFont
 (
-nsIFontMetrics
+nsFontMetrics
 *
 aFontMetrics
 )

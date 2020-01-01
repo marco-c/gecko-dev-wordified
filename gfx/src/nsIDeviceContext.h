@@ -484,7 +484,7 @@ class
 nsIView
 ;
 class
-nsIFontMetrics
+nsFontMetrics
 ;
 class
 nsIWidget
@@ -2149,7 +2149,7 @@ const
 *
 Get
 the
-nsIFontMetrics
+nsFontMetrics
 that
 describe
 the
@@ -2209,7 +2209,7 @@ aLanguage
 gfxUserFontSet
 *
 aUserFontSet
-nsIFontMetrics
+nsFontMetrics
 *
 &
 aMetrics
@@ -2223,7 +2223,7 @@ aMetrics
 *
 Get
 the
-nsIFontMetrics
+nsFontMetrics
 that
 describe
 the
@@ -2272,7 +2272,7 @@ aFont
 gfxUserFontSet
 *
 aUserFontSet
-nsIFontMetrics
+nsFontMetrics
 *
 &
 aMetrics
@@ -2384,7 +2384,7 @@ NS_IMETHOD
 FontMetricsDeleted
 (
 const
-nsIFontMetrics
+nsFontMetrics
 *
 aFontMetrics
 )

@@ -457,7 +457,7 @@ h
 #
 include
 "
-nsIFontMetrics
+nsFontMetrics
 .
 h
 "
@@ -897,12 +897,12 @@ aUserFontSet
 void
 SetFont
 (
-nsIFontMetrics
+nsFontMetrics
 *
 aFontMetrics
 )
 ;
-nsIFontMetrics
+nsFontMetrics
 *
 FontMetrics
 (
@@ -1085,9 +1085,9 @@ nsIDeviceContext
 >
 mDeviceContext
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 mFontMetrics
 ;

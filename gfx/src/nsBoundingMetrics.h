@@ -484,7 +484,7 @@ not
 the
 rest
 of
-nsIFontMetrics
+nsFontMetrics
 or
 vice
 versa
