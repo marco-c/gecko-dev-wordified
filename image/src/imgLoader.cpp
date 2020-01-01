@@ -437,7 +437,7 @@ imgMemoryReporter
 MOZ_FINAL
 :
 public
-nsIMemoryMultiReporter
+nsIMemoryReporter
 {
 public
 :
@@ -471,7 +471,7 @@ NS_OK
 NS_IMETHOD
 CollectReports
 (
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 *
 callback
 nsISupports
@@ -1552,7 +1552,7 @@ PL_DHASH_NEXT
 NS_IMPL_ISUPPORTS1
 (
 imgMemoryReporter
-nsIMemoryMultiReporter
+nsIMemoryReporter
 )
 /
 /
@@ -1567,7 +1567,7 @@ ImagesContentUsedUncompressedReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -1575,7 +1575,7 @@ ImagesContentUsedUncompressedReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 images
@@ -4783,7 +4783,7 @@ imgMemoryReporter
 (
 )
 ;
-NS_RegisterMemoryMultiReporter
+NS_RegisterMemoryReporter
 (
 sMemReporter
 )

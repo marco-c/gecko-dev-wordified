@@ -6342,12 +6342,12 @@ MemoryReporter
 MOZ_FINAL
 :
 public
-nsIMemoryMultiReporter
+nsIMemoryReporter
 {
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSIMEMORYMULTIREPORTER
+NS_DECL_NSIMEMORYREPORTER
 }
 ;
 void

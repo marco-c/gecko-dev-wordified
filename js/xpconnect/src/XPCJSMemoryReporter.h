@@ -116,7 +116,7 @@ class
 nsISupports
 ;
 class
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 ;
 namespace
 xpc
@@ -147,7 +147,7 @@ nearly
 an
 instance
 of
-nsIMemoryMultiReporter
+nsIMemoryReporter
 but
 it
 '
@@ -175,7 +175,7 @@ in
 CollectReports
 .
 class
-JSMemoryMultiReporter
+JSReporter
 {
 public
 :
@@ -189,7 +189,7 @@ windowPaths
 WindowPaths
 *
 topWindowPaths
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 *
 cb
 nsISupports

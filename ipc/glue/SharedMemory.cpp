@@ -180,7 +180,7 @@ ShmemAllocatedReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -188,7 +188,7 @@ ShmemAllocatedReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 shmem
@@ -238,7 +238,7 @@ ShmemMappedReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -246,7 +246,7 @@ ShmemMappedReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 shmem

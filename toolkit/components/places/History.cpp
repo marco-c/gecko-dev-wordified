@@ -11134,7 +11134,7 @@ HistoryLinksHashtableReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -11142,7 +11142,7 @@ HistoryLinksHashtableReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 explicit

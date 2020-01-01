@@ -452,7 +452,7 @@ gfxPlatformFontList
 :
 :
 MemoryReporter
-nsIMemoryMultiReporter
+nsIMemoryReporter
 )
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
@@ -496,7 +496,7 @@ MemoryReporter
 :
 CollectReports
 (
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 *
 aCb
 nsISupports
@@ -839,7 +839,7 @@ Init
 16
 )
 ;
-NS_RegisterMemoryMultiReporter
+NS_RegisterMemoryReporter
 (
 new
 MemoryReporter
