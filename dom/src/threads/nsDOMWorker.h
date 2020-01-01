@@ -965,6 +965,9 @@ mSuspended
 PRPackedBool
 mCompileAttempted
 ;
+PRPackedBool
+mTerminated
+;
 }
 ;
 /
