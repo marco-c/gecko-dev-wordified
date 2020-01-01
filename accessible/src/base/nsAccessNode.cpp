@@ -822,9 +822,10 @@ nsAccessNode
 nsAccessible
 .
 nsISupports
-NS_IMPL_CYCLE_COLLECTION_0
+NS_IMPL_CYCLE_COLLECTION_1
 (
 nsAccessNode
+mContent
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (

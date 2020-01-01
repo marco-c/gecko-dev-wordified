@@ -611,7 +611,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 nsXULTreeGridRowAccessible
-nsAccessible
+nsXULTreeItemAccessibleBase
 )
 /
 /
@@ -814,6 +814,11 @@ aColumn
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+(
+nsXULTreeGridCellAccessible
+nsLeafAccessible
+)
 /
 /
 nsIAccessible
