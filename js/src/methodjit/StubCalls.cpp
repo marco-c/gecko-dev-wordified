@@ -7321,6 +7321,13 @@ toObject
 (
 )
 ;
+l
+-
+>
+assertSpecialEqualitySynced
+(
+)
+;
 if
 (
 EqualityOp
