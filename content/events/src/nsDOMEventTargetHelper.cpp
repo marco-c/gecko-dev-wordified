@@ -479,6 +479,13 @@ nsDOMJSUtils
 .
 h
 "
+#
+include
+"
+prprf
+.
+h
+"
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsDOMEventListenerWrapper
