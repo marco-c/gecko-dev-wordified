@@ -228,6 +228,18 @@ aAttrName
 )
 const
 ;
+const
+nsAttrValue
+*
+GetAttr
+(
+const
+nsAString
+&
+aAttrName
+)
+const
+;
 PRUint32
 Count
 (
@@ -413,8 +425,6 @@ IndexOfAttr
 nsIAtom
 *
 aLocalName
-PRInt32
-aNamespaceID
 )
 const
 ;
