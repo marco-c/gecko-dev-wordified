@@ -23469,6 +23469,9 @@ MEASUREMENT_BUFFER_SIZE
 PRBool
 haveHyphenation
 =
+aProvider
+&
+&
 (
 mFlags
 &
