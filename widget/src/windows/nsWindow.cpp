@@ -1514,7 +1514,7 @@ h
 #
 include
 "
-nsKeyboardLayout
+KeyboardLayout
 .
 h
 "
@@ -1731,6 +1731,13 @@ FunctionTimer
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+widget
+;
 /
 *
 *
