@@ -3845,7 +3845,7 @@ getItemAnnotation
 aNode
 .
 itemId
-this
+PlacesUtils
 .
 LMANNO_SITEURI
 )
@@ -3866,7 +3866,7 @@ getItemAnnotation
 aNode
 .
 itemId
-this
+PlacesUtils
 .
 LMANNO_FEEDURI
 )
@@ -3897,7 +3897,7 @@ itemHasAnnotation
 aNode
 .
 itemId
-this
+PlacesUtils
 .
 LMANNO_FEEDURI
 )
