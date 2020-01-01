@@ -4957,7 +4957,7 @@ normally
 .
 "
 )
-JS_FS_END
+JS_FS_HELP_END
 }
 ;
 namespace
