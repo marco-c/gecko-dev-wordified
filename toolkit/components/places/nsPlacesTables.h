@@ -258,6 +258,15 @@ Original
 Author
 )
 *
+Richard
+Newman
+<
+rnewman
+mozilla
+.
+com
+>
+*
 *
 Alternatively
 the
@@ -925,6 +934,11 @@ VARCHAR
 "
 expiration
 LONG
+"
+\
+"
+guid
+TEXT
 "
 \
 "
