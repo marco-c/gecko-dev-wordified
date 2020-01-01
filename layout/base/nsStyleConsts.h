@@ -866,6 +866,15 @@ NS_STYLE_BOX_SIZING_BORDER
 2
 /
 /
+box
+-
+shadow
+#
+define
+NS_STYLE_BOX_SHADOW_INSET
+0
+/
+/
 float
 -
 edge

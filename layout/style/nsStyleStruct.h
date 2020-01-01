@@ -1958,6 +1958,9 @@ mColor
 should
 be
 used
+PRPackedBool
+mInset
+;
 nsCSSShadowItem
 (
 )
@@ -2035,6 +2038,14 @@ mSpread
 aOther
 .
 mSpread
+&
+&
+mInset
+=
+=
+aOther
+.
+mInset
 &
 &
 (

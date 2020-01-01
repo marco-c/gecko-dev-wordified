@@ -4502,7 +4502,7 @@ nsStyleContext
 *
 aContext
 PRBool
-aUsesSpread
+aIsBoxShadow
 PRBool
 &
 inherited

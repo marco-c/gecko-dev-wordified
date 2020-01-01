@@ -1499,6 +1499,13 @@ kBoxPropSourceKTable
 static
 const
 PRInt32
+kBoxShadowTypeKTable
+[
+]
+;
+static
+const
+PRInt32
 kBoxSizingKTable
 [
 ]
