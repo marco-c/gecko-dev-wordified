@@ -3505,7 +3505,7 @@ frame
 and
 the
 results
-and
+are
 displayed
 in
 the
