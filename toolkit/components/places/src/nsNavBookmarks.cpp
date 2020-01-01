@@ -18881,15 +18881,13 @@ NS_IMETHODIMP
 nsNavBookmarks
 :
 :
-OnPageExpired
+OnDeleteVisits
 (
 nsIURI
 *
 aURI
 PRTime
 aVisitTime
-PRBool
-aWholeEntry
 )
 {
 /

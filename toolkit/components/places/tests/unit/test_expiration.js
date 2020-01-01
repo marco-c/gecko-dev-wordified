@@ -713,13 +713,12 @@ aValue
 expiredURI
 :
 null
-onPageExpired
+onDeleteVisits
 :
 function
 (
 aURI
 aVisitTime
-aWholeEntry
 )
 {
 this
@@ -4548,7 +4547,7 @@ confirmation
 :
 -
 check
-onPageExpired
+onDeleteVisits
 confirm
 nothing
 was
@@ -4920,7 +4919,7 @@ confirmation
 :
 -
 check
-onPageExpired
+onDeleteVisits
 confirm
 that
 the
@@ -5369,7 +5368,7 @@ confirmation
 :
 -
 check
-onPageExpired
+onDeleteVisits
 confirm
 our
 oldest
@@ -5856,7 +5855,7 @@ confirmation
 :
 -
 check
-onPageExpired
+onDeleteVisits
 confirm
 nothing
 was
@@ -6195,7 +6194,7 @@ confirmation
 :
 -
 check
-onPageExpired
+onDeleteVisits
 confirm
 visit
 was
@@ -6463,7 +6462,7 @@ confirmation
 :
 -
 check
-onPageExpired
+onDeleteVisits
 confirm
 nothing
 was

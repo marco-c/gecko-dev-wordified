@@ -9782,7 +9782,7 @@ function
 )
 {
 }
-onPageExpired
+onDeleteVisits
 :
 function
 (

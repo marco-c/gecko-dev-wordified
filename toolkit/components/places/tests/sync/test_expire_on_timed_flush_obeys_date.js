@@ -794,13 +794,12 @@ var
 historyObserver
 =
 {
-onPageExpired
+onDeleteVisits
 :
 function
 (
 aURI
 aVisitTime
-aWholeEntry
 )
 {
 do_throw

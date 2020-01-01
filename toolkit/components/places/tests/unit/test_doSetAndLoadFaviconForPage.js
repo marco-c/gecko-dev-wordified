@@ -1345,7 +1345,7 @@ function
 )
 {
 }
-onPageExpired
+onDeleteVisits
 :
 function
 (

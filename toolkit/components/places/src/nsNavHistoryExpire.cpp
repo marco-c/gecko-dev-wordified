@@ -2211,7 +2211,7 @@ mHistory
 >
 mObservers
 nsINavHistoryObserver
-OnPageExpired
+OnDeleteVisits
 (
 uri
 expiredVisits
@@ -2220,12 +2220,6 @@ i
 ]
 .
 visitDate
-expiredVisits
-[
-i
-]
-.
-erased
 )
 )
 ;
