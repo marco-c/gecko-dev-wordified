@@ -2361,15 +2361,6 @@ returncode
 stdout
 )
           
-checkForCrashes
-(
-testdir
-symbolsPath
-testName
-=
-test
-)
-          
 failCount
 +
 =
@@ -2397,6 +2388,15 @@ passCount
 +
 =
 1
+        
+checkForCrashes
+(
+testdir
+symbolsPath
+testName
+=
+test
+)
         
 dumpLeakLog
 (
