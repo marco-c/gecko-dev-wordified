@@ -2998,9 +2998,6 @@ mWorker
 PRUint32
 mBytesDecoded
 ;
-PRUint32
-mDecoderFlags
-;
 /
 /
 Boolean
@@ -3132,8 +3129,8 @@ SyncDecode
 nsresult
 InitDecoder
 (
-PRUint32
-dFlags
+bool
+aDoSizeDecode
 )
 ;
 nsresult
