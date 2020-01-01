@@ -175,7 +175,7 @@ window
 addEventListener
 (
 '
-MozContextUIShow
+MozAppbarShowing
 '
 this
 false
@@ -266,7 +266,7 @@ type
 {
 case
 '
-MozContextUIShow
+MozAppbarShowing
 '
 :
 this
