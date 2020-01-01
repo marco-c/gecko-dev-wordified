@@ -15983,7 +15983,7 @@ if
 global
 -
 >
-isEvalAllowed
+isRuntimeCodeGenEnabled
 (
 cx
 )
