@@ -254,6 +254,7 @@ PermissionSettingsModule
 init
 :
 function
+init
 (
 )
 {
@@ -297,6 +298,7 @@ false
 addPermission
 :
 function
+addPermission
 (
 aData
 aCallbacks
@@ -483,7 +485,7 @@ getPermission
 function
 getPermission
 (
-aPermission
+aPermName
 aManifestURL
 aOrigin
 aBrowserFlag
@@ -496,7 +498,7 @@ getPermission
 :
 "
 +
-aPermission
+aPermName
 +
 "
 "
@@ -553,7 +555,7 @@ permissionManager
 testExactPermissionFromPrincipal
 (
 principal
-aPermission
+aPermName
 )
 ;
 switch
@@ -633,6 +635,7 @@ unknown
 observe
 :
 function
+observe
 (
 aSubject
 aTopic
@@ -675,6 +678,7 @@ null
 receiveMessage
 :
 function
+receiveMessage
 (
 aMessage
 )

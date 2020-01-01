@@ -457,6 +457,7 @@ PermissionPromptHelper
 init
 :
 function
+init
 (
 )
 {
@@ -500,6 +501,7 @@ false
 askPermission
 :
 function
+askPermission
 (
 aMessage
 aCallbacks
@@ -549,11 +551,12 @@ READWRITE
 }
 /
 /
-expand
-Permissions
-:
+Expand
+permission
+names
+.
 var
-expandedPerms
+expandedPermNames
 =
 expandPermissions
 (
@@ -564,7 +567,7 @@ access
 )
 ;
 let
-installedPerms
+installedPermValues
 =
 [
 ]
@@ -577,7 +580,7 @@ for
 let
 idx
 in
-expandedPerms
+expandedPermNames
 )
 {
 let
@@ -635,7 +638,7 @@ msg
 type
 ;
 let
-perm
+permValue
 =
 permissionManager
 .
@@ -645,11 +648,11 @@ principal
 access
 )
 ;
-installedPerms
+installedPermValues
 .
 push
 (
-perm
+permValue
 )
 ;
 }
@@ -685,7 +688,7 @@ for
 let
 idx
 in
-installedPerms
+installedPermValues
 )
 {
 /
@@ -694,7 +697,7 @@ if
 any
 of
 the
-installedPerms
+installedPermValues
 are
 deny
 run
@@ -703,7 +706,7 @@ aCallbacks
 cancel
 if
 (
-installedPerms
+installedPermValues
 [
 idx
 ]
@@ -716,7 +719,7 @@ nsIPermissionManager
 DENY_ACTION
 |
 |
-installedPerms
+installedPermValues
 [
 idx
 ]
@@ -744,12 +747,12 @@ for
 let
 idx
 in
-installedPerms
+installedPermValues
 )
 {
 if
 (
-installedPerms
+installedPermValues
 [
 idx
 ]
@@ -833,12 +836,12 @@ for
 let
 idx
 in
-installedPerms
+installedPermValues
 )
 {
 if
 (
-installedPerms
+installedPermValues
 [
 idx
 ]
@@ -865,6 +868,7 @@ return
 observe
 :
 function
+observe
 (
 aSubject
 aTopic
@@ -907,6 +911,7 @@ null
 receiveMessage
 :
 function
+receiveMessage
 (
 aMessage
 )
