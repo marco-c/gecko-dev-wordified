@@ -549,7 +549,7 @@ h
 #
 include
 <
-Richedit
+richedit
 .
 h
 >
