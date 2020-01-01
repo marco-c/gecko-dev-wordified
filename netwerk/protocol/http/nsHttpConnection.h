@@ -554,7 +554,7 @@ Activate
 (
 nsAHttpTransaction
 *
-uint8_t
+uint32_t
 caps
 int32_t
 pri
@@ -1227,7 +1227,7 @@ EnsureNPNComplete
 void
 SetupNPN
 (
-uint8_t
+uint32_t
 caps
 )
 ;

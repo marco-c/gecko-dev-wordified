@@ -13763,7 +13763,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-uint8_t
+uint32_t
 SpdySession2
 :
 :

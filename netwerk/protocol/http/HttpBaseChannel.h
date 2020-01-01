@@ -400,7 +400,7 @@ Init
 nsIURI
 *
 aURI
-uint8_t
+uint32_t
 aCaps
 nsProxyInfo
 *
@@ -1474,11 +1474,11 @@ mStatus
 uint32_t
 mLoadFlags
 ;
+uint32_t
+mCaps
+;
 int16_t
 mPriority
-;
-uint8_t
-mCaps
 ;
 uint8_t
 mRedirectionLimit

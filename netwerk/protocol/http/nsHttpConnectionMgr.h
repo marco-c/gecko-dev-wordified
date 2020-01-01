@@ -2907,7 +2907,7 @@ ent
 nsAHttpTransaction
 *
 trans
-uint8_t
+uint32_t
 caps
 )
 ;
@@ -3065,7 +3065,7 @@ nsIAsyncInputStream
 >
 mStreamIn
 ;
-uint8_t
+uint32_t
 mCaps
 ;
 /
@@ -3689,7 +3689,7 @@ AtActiveConnectionLimit
 (
 nsConnectionEntry
 *
-uint8_t
+uint32_t
 caps
 )
 ;
@@ -3724,7 +3724,7 @@ nsConnectionEntry
 *
 nsAHttpTransaction
 *
-uint8_t
+uint32_t
 nsHttpConnection
 *
 int32_t
@@ -3784,7 +3784,7 @@ nsConnectionEntry
 *
 nsAHttpTransaction
 *
-uint8_t
+uint32_t
 bool
 )
 ;

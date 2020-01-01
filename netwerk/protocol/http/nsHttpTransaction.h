@@ -647,7 +647,7 @@ status
 nsresult
 Init
 (
-uint8_t
+uint32_t
 caps
 nsHttpConnectionInfo
 *
@@ -1324,7 +1324,7 @@ transaction
 has
 been
 restarted
-uint8_t
+uint32_t
 mCaps
 ;
 enum

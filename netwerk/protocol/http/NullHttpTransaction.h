@@ -219,7 +219,7 @@ ci
 nsIInterfaceRequestor
 *
 callbacks
-uint8_t
+uint32_t
 caps
 )
 ;
@@ -263,7 +263,7 @@ private
 nsresult
 mStatus
 ;
-uint8_t
+uint32_t
 mCaps
 ;
 nsRefPtr

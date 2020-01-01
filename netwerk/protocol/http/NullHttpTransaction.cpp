@@ -160,7 +160,7 @@ ci
 nsIInterfaceRequestor
 *
 callbacks
-uint8_t
+uint32_t
 caps
 )
 :
@@ -314,7 +314,7 @@ return
 mStatus
 ;
 }
-uint8_t
+uint32_t
 NullHttpTransaction
 :
 :

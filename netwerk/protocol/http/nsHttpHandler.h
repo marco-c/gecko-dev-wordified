@@ -479,7 +479,7 @@ AddConnectionHeader
 (
 nsHttpHeaderArray
 *
-uint8_t
+uint32_t
 capabilities
 )
 ;
@@ -1713,7 +1713,7 @@ mHttpVersion
 uint8_t
 mProxyHttpVersion
 ;
-uint8_t
+uint32_t
 mCapabilities
 ;
 uint8_t

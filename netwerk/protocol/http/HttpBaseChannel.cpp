@@ -238,13 +238,13 @@ mLoadFlags
 (
 LOAD_NORMAL
 )
-mPriority
-(
-PRIORITY_NORMAL
-)
 mCaps
 (
 0
+)
+mPriority
+(
+PRIORITY_NORMAL
 )
 mRedirectionLimit
 (
@@ -448,7 +448,7 @@ Init
 nsIURI
 *
 aURI
-uint8_t
+uint32_t
 aCaps
 nsProxyInfo
 *

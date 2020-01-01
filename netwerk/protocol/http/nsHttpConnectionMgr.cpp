@@ -2014,7 +2014,7 @@ wrappedCallbacks
 )
 )
 ;
-uint8_t
+uint32_t
 caps
 =
 ci
@@ -6922,7 +6922,7 @@ AtActiveConnectionLimit
 nsConnectionEntry
 *
 ent
-uint8_t
+uint32_t
 caps
 )
 {
@@ -9472,7 +9472,7 @@ Classification
 (
 )
 ;
-uint8_t
+uint32_t
 caps
 =
 trans
@@ -10296,7 +10296,7 @@ nsHttpConnection
 conn
 )
 {
-uint8_t
+uint32_t
 caps
 =
 trans
@@ -10732,7 +10732,7 @@ ent
 nsAHttpTransaction
 *
 aTrans
-uint8_t
+uint32_t
 caps
 nsHttpConnection
 *
@@ -12006,7 +12006,7 @@ ent
 nsAHttpTransaction
 *
 trans
-uint8_t
+uint32_t
 caps
 bool
 speculative
@@ -15842,7 +15842,7 @@ ent
 nsAHttpTransaction
 *
 trans
-uint8_t
+uint32_t
 caps
 )
 :
