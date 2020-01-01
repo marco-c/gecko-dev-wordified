@@ -1758,6 +1758,19 @@ the
 counter
 .
 *
+param
+by
+*
+(
+integer
+)
+How
+much
+to
+increment
+by
+.
+*
 return
 Promise
 <
@@ -1775,6 +1788,9 @@ new
 Date
 (
 )
+by
+=
+1
 )
 {
 return
@@ -1791,6 +1807,7 @@ fieldID
 field
 )
 date
+by
 )
 ;
 }
