@@ -7328,6 +7328,9 @@ initial_values
 "
 normal
 "
+"
+400
+"
 ]
 other_values
 :
@@ -7343,9 +7346,6 @@ bold
 "
 "
 300
-"
-"
-400
 "
 "
 500
