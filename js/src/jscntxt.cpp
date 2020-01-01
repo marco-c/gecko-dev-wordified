@@ -13178,8 +13178,13 @@ options
 JSOPTION_METHODJIT
 )
 #
-ifdef
+if
+defined
 JS_CPU_X86
+|
+|
+defined
+JS_CPU_X64
 &
 &
 JSC
