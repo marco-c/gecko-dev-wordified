@@ -5009,6 +5009,7 @@ result
 )
 ;
 }
+static
 JSErrorFormatString
 ErrorFormatString
 [
@@ -5046,6 +5047,7 @@ undef
 MSG_DEF
 }
 ;
+static
 const
 JSErrorFormatString
 *
@@ -5085,6 +5087,7 @@ return
 NULL
 ;
 }
+static
 JSBool
 TypeError
 (
@@ -6266,6 +6269,7 @@ return
 true
 ;
 }
+static
 JSObject
 *
 InitInt64Class
@@ -6581,6 +6585,7 @@ i
 )
 ;
 }
+static
 JSBool
 InitTypeClasses
 (
@@ -8191,6 +8196,7 @@ is
 not
 an
 object
+static
 bool
 GetObjectProperty
 (
@@ -13685,6 +13691,7 @@ ownResult
 '
 argument
 .
+static
 JSBool
 ConvertToJS
 (
@@ -14745,6 +14752,7 @@ to
 indicate
 this
 .
+static
 JSBool
 ImplicitConvert
 (
@@ -17451,6 +17459,7 @@ than
 /
 ImplicitConvert
 .
+static
 JSBool
 ExplicitConvert
 (
