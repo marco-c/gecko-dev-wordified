@@ -462,6 +462,15 @@ nsRenderingContext
 class
 nsGUIEvent
 ;
+class
+nsIWidget
+;
+class
+nsRegion
+;
+class
+nsIntRegion
+;
 #
 define
 NS_IVIEWOBSERVER_IID
