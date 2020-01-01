@@ -16083,6 +16083,7 @@ else
 {
 NS_ASSERTION
 (
+!
 aAllowScrollSpeedOverride
 "
 aAllowScrollSpeedOverride
