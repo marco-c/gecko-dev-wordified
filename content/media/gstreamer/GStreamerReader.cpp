@@ -940,7 +940,7 @@ buffers
 2
 sync
 =
-true
+false
 caps
 =
 audio
@@ -1008,7 +1008,7 @@ buffers
 2
 sync
 =
-true
+false
 caps
 =
 audio
