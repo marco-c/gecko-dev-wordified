@@ -11094,6 +11094,9 @@ JSObject
 *
 wrapper
 =
+nsWrapperCache
+:
+:
 GetWrapper
 (
 )

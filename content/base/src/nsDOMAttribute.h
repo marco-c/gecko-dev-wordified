@@ -183,6 +183,13 @@ nsStubMutationObserver
 .
 h
 "
+#
+include
+"
+nsGenericElement
+.
+h
+"
 /
 /
 Attribute

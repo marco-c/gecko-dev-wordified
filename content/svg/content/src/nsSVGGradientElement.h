@@ -504,12 +504,7 @@ nsSVGLinearGradientElementBase
 :
 )
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
-NS_FORWARD_NSIDOMELEMENT
-(
-nsSVGLinearGradientElementBase
-:
-:
-)
+NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 virtual
 nsresult
 Clone
@@ -710,12 +705,7 @@ use
 virtual
 inheritance
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
-NS_FORWARD_NSIDOMELEMENT
-(
-nsSVGRadialGradientElementBase
-:
-:
-)
+NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMSVGELEMENT
 (
 nsSVGRadialGradientElementBase

@@ -277,6 +277,9 @@ class
 nsIDOMNamedNodeMap
 ;
 class
+nsIHTMLCollection
+;
+class
 nsINodeInfo
 ;
 class
@@ -1000,6 +1003,12 @@ WalkContentStyleRules
 nsRuleWalker
 *
 aRuleWalker
+)
+;
+nsIHTMLCollection
+*
+Children
+(
 )
 ;
 public
@@ -1743,12 +1752,6 @@ element
 /
 nsAttrAndChildArray
 mAttrsAndChildren
-;
-nsContentList
-*
-GetChildrenList
-(
-)
 ;
 }
 ;

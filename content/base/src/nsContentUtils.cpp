@@ -386,6 +386,13 @@ h
 #
 include
 "
+nsContentList
+.
+h
+"
+#
+include
+"
 nsIHTMLDocument
 .
 h
@@ -35039,9 +35046,6 @@ return
 info
 ;
 }
-/
-/
-static
 #
 ifdef
 DEBUG

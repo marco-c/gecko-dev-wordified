@@ -1400,6 +1400,12 @@ nsContentList
 /
 /
 nsWrapperCache
+using
+nsWrapperCache
+:
+:
+GetWrapper
+;
 virtual
 JSObject
 *
