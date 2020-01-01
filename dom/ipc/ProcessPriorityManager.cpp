@@ -223,6 +223,13 @@ h
 #
 include
 "
+nsIFrameLoader
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestorUtils
 .
 h

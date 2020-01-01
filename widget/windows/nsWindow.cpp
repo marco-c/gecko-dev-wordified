@@ -42282,9 +42282,9 @@ ScreenToClient
 mWnd
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMTouch
+Touch
 >
 touch
 =

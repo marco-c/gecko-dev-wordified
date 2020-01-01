@@ -119,6 +119,13 @@ nsIDocShell
 .
 h
 "
+#
+include
+"
+nsIDocument
+.
+h
+"
 /
 /
 For
