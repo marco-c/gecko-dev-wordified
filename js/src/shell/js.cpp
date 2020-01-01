@@ -2949,6 +2949,10 @@ len
 if
 (
 hitEOF
+&
+&
+!
+buffer
 )
 break
 ;
@@ -3074,6 +3078,10 @@ len
 }
 while
 (
+!
+hitEOF
+&
+&
 !
 gQuitting
 )
