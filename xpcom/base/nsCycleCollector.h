@@ -272,14 +272,6 @@ cb
 =
 0
 ;
-virtual
-nsresult
-FinishTraverse
-(
-)
-=
-0
-;
 /
 *
 *
