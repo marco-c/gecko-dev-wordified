@@ -130,6 +130,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 prinrval
 .
 h
@@ -297,6 +306,7 @@ duration
 is
 0
 .
+MOZ_CONSTEXPR
 TimeDuration
 (
 )
