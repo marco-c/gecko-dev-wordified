@@ -2166,6 +2166,17 @@ return
 mShadowManager
 ;
 }
+virtual
+void
+WindowOverlayChanged
+(
+)
+{
+mWindowOverlayChanged
+=
+true
+;
+}
 /
 *
 *
@@ -2868,6 +2879,9 @@ mIsFirstPaint
 ;
 bool
 mDrawColoredBorders
+;
+bool
+mWindowOverlayChanged
 ;
 }
 ;

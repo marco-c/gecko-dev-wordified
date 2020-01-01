@@ -952,6 +952,10 @@ mDrawColoredBorders
 (
 false
 )
+mWindowOverlayChanged
+(
+false
+)
 {
 mTxn
 =
@@ -2135,6 +2139,10 @@ mTxn
 RotationChanged
 (
 )
+&
+&
+!
+mWindowOverlayChanged
 )
 {
 MOZ_LAYERS_LOG
@@ -2685,6 +2693,9 @@ NS_ABORT_IF_FALSE
 nCsets
 >
 0
+|
+|
+mWindowOverlayChanged
 "
 should
 have
@@ -2792,6 +2803,10 @@ size
 )
 ;
 }
+mWindowOverlayChanged
+=
+false
+;
 TargetConfig
 targetConfig
 (
