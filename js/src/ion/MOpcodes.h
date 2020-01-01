@@ -630,6 +630,11 @@ OsrEntry
 \
 _
 (
+ImplicitThis
+)
+\
+_
+(
 Slots
 )
 \
@@ -656,6 +661,11 @@ TypeBarrier
 _
 (
 GuardShape
+)
+\
+_
+(
+GuardClass
 )
 \
 _
