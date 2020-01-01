@@ -3041,7 +3041,7 @@ MOZ_MEMORY_DARWIN
 static
 const
 bool
-__isthreaded
+isthreaded
 =
 true
 ;
@@ -3231,7 +3231,7 @@ MOZ_MEMORY_DARWIN
 static
 const
 bool
-__isthreaded
+isthreaded
 =
 true
 ;
@@ -10428,7 +10428,7 @@ MOZ_MEMORY_WINDOWS
 )
 if
 (
-__isthreaded
+isthreaded
 )
 if
 (
@@ -10624,7 +10624,7 @@ mutex
 else
 if
 (
-__isthreaded
+isthreaded
 )
 _SPINLOCK
 (
@@ -10689,7 +10689,7 @@ mutex
 else
 if
 (
-__isthreaded
+isthreaded
 )
 _SPINUNLOCK
 (
@@ -10720,7 +10720,7 @@ MOZ_MEMORY_WINDOWS
 )
 if
 (
-__isthreaded
+isthreaded
 )
 if
 (
@@ -10909,7 +10909,7 @@ lock
 else
 if
 (
-__isthreaded
+isthreaded
 )
 _SPINLOCK
 (
@@ -10974,7 +10974,7 @@ lock
 else
 if
 (
-__isthreaded
+isthreaded
 )
 _SPINUNLOCK
 (
@@ -11260,7 +11260,7 @@ ret
 ;
 if
 (
-__isthreaded
+isthreaded
 )
 {
 if
@@ -11416,7 +11416,7 @@ lock
 {
 if
 (
-__isthreaded
+isthreaded
 )
 _pthread_mutex_unlock
 (
@@ -19332,7 +19332,7 @@ ifndef
 NO_TLS
 if
 (
-__isthreaded
+isthreaded
 =
 =
 false
@@ -19411,7 +19411,7 @@ NULL
 else
 if
 (
-__isthreaded
+isthreaded
 &
 &
 narenas
@@ -19781,7 +19781,7 @@ ret
 ;
 assert
 (
-__isthreaded
+isthreaded
 )
 ;
 #

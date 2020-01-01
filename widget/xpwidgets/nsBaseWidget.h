@@ -892,6 +892,15 @@ aShow
 }
 virtual
 void
+SetShowsFullScreenButton
+(
+bool
+aShow
+)
+{
+}
+virtual
+void
 SetWindowAnimationType
 (
 WindowAnimationType

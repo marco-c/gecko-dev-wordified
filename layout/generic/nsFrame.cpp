@@ -1012,6 +1012,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 CSSCalc
 .
 h

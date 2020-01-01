@@ -3085,7 +3085,7 @@ size_type
 newCapacity
 )
 ;
-void
+bool
 NS_FASTCALL
 SetLength
 (
