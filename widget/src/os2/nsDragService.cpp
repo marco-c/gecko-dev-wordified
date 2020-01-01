@@ -512,6 +512,13 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+nsGUIEvent
+.
+h
+"
 NS_IMPL_ADDREF_INHERITED
 (
 nsDragService
