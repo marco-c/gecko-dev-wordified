@@ -743,9 +743,6 @@ isPrivate
 true
 ;
 }
-var
-cacheEntry
-=
 session
 .
 asyncOpenCacheEntry
@@ -1020,9 +1017,6 @@ isPrivate
 true
 ;
 }
-var
-cacheEntry
-=
 session
 .
 asyncOpenCacheEntry
