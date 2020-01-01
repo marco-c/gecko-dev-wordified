@@ -313,7 +313,7 @@ e
 assertEq
 (
 count
-2
+1
 )
 ;
 assertEq
