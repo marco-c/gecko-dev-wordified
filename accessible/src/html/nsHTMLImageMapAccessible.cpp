@@ -2317,7 +2317,7 @@ hypertext
 accessible
 .
 return
-GetIndexInParent
+IndexInParent
 (
 )
 ;
@@ -2331,7 +2331,7 @@ EndOffset
 )
 {
 return
-GetIndexInParent
+IndexInParent
 (
 )
 +

@@ -3553,7 +3553,7 @@ aIndexInParent
 *
 aIndexInParent
 =
-GetIndexInParent
+IndexInParent
 (
 )
 ;
@@ -16439,7 +16439,7 @@ this
 aChild
 -
 >
-GetIndexInParent
+IndexInParent
 (
 )
 ;
@@ -16448,7 +16448,7 @@ PRInt32
 nsAccessible
 :
 :
-GetIndexInParent
+IndexInParent
 (
 )
 const

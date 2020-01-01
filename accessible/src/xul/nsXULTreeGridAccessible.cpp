@@ -6988,7 +6988,7 @@ PRInt32
 nsXULTreeGridCellAccessible
 :
 :
-GetIndexInParent
+IndexInParent
 (
 )
 const

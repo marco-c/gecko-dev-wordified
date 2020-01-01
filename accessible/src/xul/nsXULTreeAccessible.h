@@ -1243,7 +1243,7 @@ NativeState
 ;
 virtual
 PRInt32
-GetIndexInParent
+IndexInParent
 (
 )
 const
