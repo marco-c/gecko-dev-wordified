@@ -130,13 +130,6 @@ IonSpewer
 h
 "
 #
-include
-"
-jsscriptinlines
-.
-h
-"
-#
 ifndef
 ION_SPEW_DIR
 #
