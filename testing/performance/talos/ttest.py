@@ -1776,6 +1776,12 @@ processes
     
 ffprocess
 .
+Sleep
+(
+)
+    
+ffprocess
+.
 TerminateAllProcesses
 (
 "
@@ -1829,12 +1835,6 @@ file
 into
 it
 .
-  
-ffprocess
-.
-Sleep
-(
-)
   
 ffsetup
 .
