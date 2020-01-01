@@ -472,7 +472,7 @@ h
 #
 include
 "
-txTokenizer
+nsWhitespaceTokenizer
 .
 h
 "
@@ -494,6 +494,13 @@ h
 include
 "
 txStringUtils
+.
+h
+"
+#
+include
+"
+txXMLUtils
 .
 h
 "
@@ -1294,7 +1301,7 @@ i
 idList
 )
 ;
-txTokenizer
+nsWhitespaceTokenizer
 tokenizer
 (
 idList
@@ -1352,7 +1359,7 @@ stringValue
 idList
 )
 ;
-txTokenizer
+nsWhitespaceTokenizer
 tokenizer
 (
 idList

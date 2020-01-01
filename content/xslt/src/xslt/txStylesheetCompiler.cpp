@@ -460,7 +460,7 @@ h
 #
 include
 "
-txTokenizer
+nsWhitespaceTokenizer
 .
 h
 "
@@ -1685,7 +1685,7 @@ rv
 rv
 )
 ;
-txTokenizer
+nsWhitespaceTokenizer
 tok
 (
 attr
