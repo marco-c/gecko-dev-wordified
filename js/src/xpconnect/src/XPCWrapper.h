@@ -1031,6 +1031,9 @@ JSObject
 *
 GetUnsafeObject
 (
+JSContext
+*
+cx
 JSObject
 *
 obj

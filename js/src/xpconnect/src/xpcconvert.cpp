@@ -8167,6 +8167,7 @@ GetNewOrUsed
 (
 ccx
 wrapper
+scope
 objPrincipal
 )
 ;
@@ -8214,7 +8215,7 @@ XPCSafeJSObjectWrapper
 WrapObject
 (
 ccx
-nsnull
+scope
 v
 &
 v

@@ -14283,6 +14283,7 @@ GetNewOrUsed
 (
 aJSContext
 wrapper
+aScope
 aPrincipal
 )
 ;
@@ -14311,7 +14312,7 @@ XPCSafeJSObjectWrapper
 WrapObject
 (
 aJSContext
-nsnull
+aScope
 val
 &
 val

@@ -1690,6 +1690,7 @@ if
 !
 wrappedNative
 )
+{
 return
 XPCSafeJSObjectWrapper
 :
@@ -1697,11 +1698,15 @@ XPCSafeJSObjectWrapper
 WrapObject
 (
 cx
-nsnull
+JS_GetScopeChain
+(
+cx
+)
 v
 rval
 )
 ;
+}
 if
 (
 HAS_FLAGS
@@ -1862,6 +1867,10 @@ GetNewOrUsed
 (
 cx
 wrappedNative
+JS_GetScopeChain
+(
+cx
+)
 nsnull
 )
 ;
@@ -5509,6 +5518,7 @@ GetNewOrUsed
 cx
 parent_wrapper
 nsnull
+nsnull
 )
 ;
 if
@@ -7159,6 +7169,9 @@ cx
 XPCWrappedNative
 *
 wrapper
+JSObject
+*
+scope
 nsIPrincipal
 *
 aObjectPrincipal
@@ -7335,7 +7348,7 @@ XPCSafeJSObjectWrapper
 WrapObject
 (
 cx
-nsnull
+scope
 v
 &
 v

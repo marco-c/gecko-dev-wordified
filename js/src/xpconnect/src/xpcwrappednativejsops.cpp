@@ -5351,6 +5351,7 @@ XPCSafeJSObjectWrapper
 :
 GetUnsafeObject
 (
+cx
 obj
 )
 ;
@@ -5557,6 +5558,7 @@ XPCSafeJSObjectWrapper
 :
 GetUnsafeObject
 (
+cx
 JSVAL_TO_OBJECT
 (
 v
