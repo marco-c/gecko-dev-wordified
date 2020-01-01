@@ -870,7 +870,7 @@ JSD_DISABLE_OBJECT_TRACE
 )
 {
 /
-/
+*
 Need
 to
 reenable
@@ -878,6 +878,8 @@ our
 call
 hooks
 now
+*
+/
 JS_SetExecuteHook
 (
 jsdc
@@ -911,11 +913,13 @@ JSD_DISABLE_OBJECT_TRACE
 )
 {
 /
-/
+*
 Changing
 our
 JSD_DISABLE_OBJECT_TRACE
 flag
+*
+/
 if
 (
 !
@@ -927,7 +931,7 @@ JSD_DISABLE_OBJECT_TRACE
 )
 {
 /
-/
+*
 Need
 to
 reenable
@@ -935,13 +939,8 @@ our
 object
 hooks
 now
-if
-(
-jsd_InitObjectManager
-(
-jsdc
-)
-)
+*
+/
 JS_SetObjectHook
 (
 jsdc
@@ -955,7 +954,7 @@ jsdc
 }
 else
 {
-jsd_DestroyObjectManager
+jsd_DestroyObjects
 (
 jsdc
 )
