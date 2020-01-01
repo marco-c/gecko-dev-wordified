@@ -1044,6 +1044,9 @@ panesHidden
 animated
 :
 true
+delayed
+:
+true
 }
 )
 ;
