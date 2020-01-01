@@ -754,6 +754,7 @@ NULL
 )
 userbuf
 (
+cx
 base
 length
 )
@@ -808,6 +809,18 @@ tokenSkip
 cx
 &
 tokens
+)
+linebaseSkip
+(
+cx
+&
+linebase
+)
+prevLinebaseSkip
+(
+cx
+&
+prevLinebase
 )
 {
 if
@@ -4397,6 +4410,7 @@ lineno
 TokenBuf
 buf
 (
+cx
 tok
 .
 ptr
