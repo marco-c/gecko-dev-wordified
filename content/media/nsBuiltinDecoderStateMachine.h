@@ -2261,7 +2261,7 @@ locked
 void
 Wait
 (
-PRUint32
+PRInt64
 aMs
 )
 ;

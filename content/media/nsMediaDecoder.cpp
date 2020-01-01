@@ -1979,11 +1979,17 @@ downloaded
 PRInt64
 readAheadMargin
 =
+static_cast
+<
+PRInt64
+>
+(
 stats
 .
 mPlaybackRate
 *
 CAN_PLAY_THROUGH_MARGIN
+)
 ;
 return
 stats
