@@ -589,7 +589,7 @@ immediate
 /
 #
 define
-JOF_CONST
+JOF_ATOM
 2
 /
 *
@@ -668,7 +668,7 @@ ops
 /
 #
 define
-JOF_INDEXCONST
+JOF_SLOTATOM
 8
 /
 *
@@ -803,7 +803,7 @@ index
 /
 #
 define
-JOF_INDEXOBJECT
+JOF_SLOTOBJECT
 16
 /
 *
@@ -2088,7 +2088,7 @@ literals
 so
 the
 standard
-JOF_CONST
+JOF_ATOM
 JOF_OBJECT
 and
 *
