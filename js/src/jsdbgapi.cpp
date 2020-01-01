@@ -4208,7 +4208,7 @@ JSVAL_NULL
 if
 (
 !
-js_AddRoot
+AddValueRoot
 (
 cx
 &
@@ -4242,7 +4242,7 @@ i
 if
 (
 !
-js_AddRoot
+AddValueRoot
 (
 cx
 &
@@ -4538,7 +4538,7 @@ JSVAL_NULL
 if
 (
 !
-js_AddRoot
+AddValueRoot
 (
 cx
 &
@@ -4557,7 +4557,7 @@ bad
 if
 (
 !
-js_AddRoot
+AddValueRoot
 (
 cx
 &
@@ -4622,7 +4622,7 @@ JSPD_ALIAS
 &
 &
 !
-js_AddRoot
+AddValueRoot
 (
 cx
 &

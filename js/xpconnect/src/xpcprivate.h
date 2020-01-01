@@ -17991,7 +17991,7 @@ obj
 js
 :
 :
-IncrementalReferenceBarrier
+IncrementalObjectBarrier
 (
 GetWrapperPreserveColor
 (

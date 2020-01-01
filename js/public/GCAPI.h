@@ -839,6 +839,8 @@ IncrementalReferenceBarrier
 void
 *
 ptr
+JSGCTraceKind
+kind
 )
 ;
 extern
@@ -852,6 +854,18 @@ const
 Value
 &
 v
+)
+;
+extern
+JS_FRIEND_API
+(
+void
+)
+IncrementalObjectBarrier
+(
+JSObject
+*
+obj
 )
 ;
 extern
@@ -960,7 +974,7 @@ IsIncrementalBarrierNeeded
 rt
 )
 )
-IncrementalReferenceBarrier
+IncrementalObjectBarrier
 (
 value
 )
@@ -1002,7 +1016,7 @@ JSRuntime
 rt
 )
 {
-IncrementalReferenceBarrier
+IncrementalObjectBarrier
 (
 value
 )
@@ -1018,7 +1032,7 @@ JSObject
 obj
 )
 {
-IncrementalReferenceBarrier
+IncrementalObjectBarrier
 (
 value
 )
@@ -1227,6 +1241,7 @@ kind
 IncrementalReferenceBarrier
 (
 thing
+kind
 )
 ;
 }

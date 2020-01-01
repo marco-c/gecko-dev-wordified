@@ -413,7 +413,7 @@ if
 mRt
 &
 &
-js_AddRootRT
+JS_AddNamedValueRootRT
 (
 aRt
 &
@@ -469,7 +469,7 @@ if
 mRt
 )
 {
-js_RemoveRoot
+JS_RemoveValueRootRT
 (
 mRt
 &
