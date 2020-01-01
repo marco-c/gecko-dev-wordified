@@ -1976,7 +1976,6 @@ ELEMENT_NODE
 )
 &
 &
-!
 whitespace
 .
 test
