@@ -1602,6 +1602,10 @@ aOrigin
 )
 mProtocol
 mEncrypted
+mPingInterval
+mClientSetPingInterval
+mPingResponseTimeout
+mClientSetPingTimeout
 )
 )
 return
@@ -1626,6 +1630,10 @@ aContext
 mOrigin
 =
 aOrigin
+;
+mWasOpened
+=
+1
 ;
 return
 NS_OK
