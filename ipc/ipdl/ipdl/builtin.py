@@ -228,7 +228,7 @@ ipc
 FileDescriptor
 '
 )
-HeaderIncludes
+Includes
 =
 (
     
@@ -241,7 +241,21 @@ h
 '
     
 '
+base
+/
+basictypes
+.
+h
+'
+    
+'
 prtime
+.
+h
+'
+    
+'
+nscore
 .
 h
 '
@@ -279,21 +293,17 @@ h
 '
     
 '
+nsIFile
+.
+h
+'
+    
+'
 mozilla
 /
 ipc
 /
 ProtocolUtils
-.
-h
-'
-)
-CppIncludes
-=
-(
-    
-'
-nsIFile
 .
 h
 '

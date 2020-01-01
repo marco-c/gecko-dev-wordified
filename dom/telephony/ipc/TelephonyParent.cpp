@@ -105,13 +105,6 @@ TelephonyParent
 .
 h
 "
-#
-include
-"
-nsServiceManagerUtils
-.
-h
-"
 USING_TELEPHONY_NAMESPACE
 /
 *

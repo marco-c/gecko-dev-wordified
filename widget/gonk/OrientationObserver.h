@@ -208,15 +208,6 @@ ScreenOrientation
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Scoped
-.
-h
-"
 namespace
 mozilla
 {
