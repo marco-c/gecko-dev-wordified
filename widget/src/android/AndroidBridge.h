@@ -910,6 +910,14 @@ nsAString
 aAlertName
 )
 ;
+void
+ShowFilePicker
+(
+nsAString
+&
+aFilePath
+)
+;
 struct
 AutoLocalJNIFrame
 {
@@ -1223,6 +1231,9 @@ jSetClipboardText
 ;
 jmethodID
 jShowAlertNotification
+;
+jmethodID
+jShowFilePicker
 ;
 /
 /
