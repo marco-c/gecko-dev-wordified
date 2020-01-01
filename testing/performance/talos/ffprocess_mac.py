@@ -576,6 +576,8 @@ cmd
 '
 %
 s
+-
+foreground
 %
 s
 %
