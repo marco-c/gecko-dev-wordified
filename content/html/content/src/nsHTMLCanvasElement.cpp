@@ -4421,6 +4421,8 @@ nsChangeHint
 Layer
 *
 layer
+=
+nullptr
 ;
 if
 (
