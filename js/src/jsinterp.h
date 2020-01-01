@@ -4675,6 +4675,10 @@ endif
 #
 endif
 #
+define
+JS_MAX_INLINE_CALL_COUNT
+3000
+#
 if
 !
 JS_LONE_INTERPRET

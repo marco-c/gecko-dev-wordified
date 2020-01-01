@@ -16630,10 +16630,6 @@ slot
 )
 #
 endif
-#
-define
-MAX_INLINE_CALL_COUNT
-3000
 /
 *
 *
