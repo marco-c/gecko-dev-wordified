@@ -3843,6 +3843,8 @@ getUseCount
 js_IonOptions
 .
 usesBeforeInlining
+(
+)
 )
 ;
 return
