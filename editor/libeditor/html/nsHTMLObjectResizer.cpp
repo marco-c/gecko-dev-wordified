@@ -1622,7 +1622,7 @@ NS_LITERAL_STRING
 mousedown
 "
 )
-mMouseListenerP
+mEventListener
 PR_TRUE
 )
 ;
@@ -2980,7 +2980,7 @@ mousedown
 RemoveListenerAndDeleteRef
 (
 mousedown
-mMouseListenerP
+mEventListener
 PR_TRUE
 mTopLeftHandle
 parentContent
@@ -2994,7 +2994,7 @@ nsnull
 RemoveListenerAndDeleteRef
 (
 mousedown
-mMouseListenerP
+mEventListener
 PR_TRUE
 mTopHandle
 parentContent
@@ -3008,7 +3008,7 @@ nsnull
 RemoveListenerAndDeleteRef
 (
 mousedown
-mMouseListenerP
+mEventListener
 PR_TRUE
 mTopRightHandle
 parentContent
@@ -3022,7 +3022,7 @@ nsnull
 RemoveListenerAndDeleteRef
 (
 mousedown
-mMouseListenerP
+mEventListener
 PR_TRUE
 mLeftHandle
 parentContent
@@ -3036,7 +3036,7 @@ nsnull
 RemoveListenerAndDeleteRef
 (
 mousedown
-mMouseListenerP
+mEventListener
 PR_TRUE
 mRightHandle
 parentContent
@@ -3050,7 +3050,7 @@ nsnull
 RemoveListenerAndDeleteRef
 (
 mousedown
-mMouseListenerP
+mEventListener
 PR_TRUE
 mBottomLeftHandle
 parentContent
@@ -3064,7 +3064,7 @@ nsnull
 RemoveListenerAndDeleteRef
 (
 mousedown
-mMouseListenerP
+mEventListener
 PR_TRUE
 mBottomHandle
 parentContent
@@ -3078,7 +3078,7 @@ nsnull
 RemoveListenerAndDeleteRef
 (
 mousedown
-mMouseListenerP
+mEventListener
 PR_TRUE
 mBottomRightHandle
 parentContent
@@ -3092,7 +3092,7 @@ nsnull
 RemoveListenerAndDeleteRef
 (
 mousedown
-mMouseListenerP
+mEventListener
 PR_TRUE
 mResizingShadow
 parentContent
@@ -3106,7 +3106,7 @@ nsnull
 RemoveListenerAndDeleteRef
 (
 mousedown
-mMouseListenerP
+mEventListener
 PR_TRUE
 mResizingInfo
 parentContent

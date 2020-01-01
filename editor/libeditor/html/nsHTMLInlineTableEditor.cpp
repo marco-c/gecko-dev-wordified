@@ -1309,6 +1309,7 @@ if
 (
 evtTarget
 )
+{
 evtTarget
 -
 >
@@ -1320,10 +1321,11 @@ NS_LITERAL_STRING
 click
 "
 )
-mMouseListenerP
+mEventListener
 PR_TRUE
 )
 ;
+}
 }
 void
 nsHTMLEditor
@@ -1352,6 +1354,7 @@ if
 (
 evtTarget
 )
+{
 evtTarget
 -
 >
@@ -1363,10 +1366,11 @@ NS_LITERAL_STRING
 click
 "
 )
-mMouseListenerP
+mEventListener
 PR_TRUE
 )
 ;
+}
 }
 NS_IMETHODIMP
 nsHTMLEditor

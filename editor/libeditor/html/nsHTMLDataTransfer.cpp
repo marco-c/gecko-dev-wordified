@@ -478,13 +478,6 @@ h
 #
 include
 "
-nsEditorEventListeners
-.
-h
-"
-#
-include
-"
 nsIDOMText
 .
 h

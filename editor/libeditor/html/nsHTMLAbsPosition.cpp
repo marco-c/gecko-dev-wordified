@@ -1647,7 +1647,7 @@ NS_LITERAL_STRING
 mousedown
 "
 )
-mMouseListenerP
+mEventListener
 PR_FALSE
 )
 ;
