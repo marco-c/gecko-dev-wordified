@@ -33349,11 +33349,11 @@ LayoutDeviceIntPoint
 (
 GET_X_LPARAM
 (
-lParam
+pos
 )
 GET_Y_LPARAM
 (
-lParam
+pos
 )
 )
 ;
