@@ -2516,7 +2516,6 @@ gs
 )
 {
 return
-NULL
 ;
 }
 g_source_set_priority
