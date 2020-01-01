@@ -1818,9 +1818,9 @@ sys
 /
 class
 /
-backlight
+leds
 /
-pwm
+lcd
 -
 backlight
 /
