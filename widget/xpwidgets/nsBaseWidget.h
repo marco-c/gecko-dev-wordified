@@ -947,7 +947,7 @@ CreateCompositor
 ;
 virtual
 void
-DrawOver
+DrawWindowOverlay
 (
 LayerManager
 *
@@ -1470,6 +1470,13 @@ aNewParent
 )
 =
 0
+;
+virtual
+PRUint32
+GetGLFrameBufferFormat
+(
+)
+MOZ_OVERRIDE
 ;
 /
 *
