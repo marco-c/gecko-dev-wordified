@@ -10385,7 +10385,7 @@ clearReturningFrameFromNativeTracker
 )
 ;
 JS_REQUIRES_STACK
-void
+AbortableRecordingStatus
 putActivationObjects
 (
 )
