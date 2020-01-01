@@ -805,8 +805,6 @@ Link
 :
 ResetLinkState
 (
-bool
-aNotify
 )
 {
 NS_NOTREACHED

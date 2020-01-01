@@ -690,6 +690,14 @@ GetLinkState
 const
 ;
 virtual
+void
+SetLinkState
+(
+nsLinkState
+aState
+)
+;
+virtual
 already_AddRefed
 <
 nsIURI
