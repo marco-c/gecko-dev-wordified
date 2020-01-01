@@ -845,7 +845,7 @@ feature
 Mask
 "
 )
-SVG_UNSUPPORTED_FEATURE
+SVG_SUPPORTED_FEATURE
 (
 "
 http
@@ -981,7 +981,7 @@ feature
 BasicClip
 "
 )
-SVG_UNSUPPORTED_FEATURE
+SVG_SUPPORTED_FEATURE
 (
 "
 http
