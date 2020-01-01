@@ -991,6 +991,14 @@ LIns
 ;
 }
 ;
+typedef
+SeqBuilder
+<
+char
+*
+>
+StringList
+;
 /
 *
 *
@@ -1224,6 +1232,9 @@ Assembler
 CodeAlloc
 &
 codeAlloc
+Allocator
+&
+alloc
 AvmCore
 *
 core
@@ -1662,6 +1673,10 @@ r
 0
 ;
 }
+Allocator
+&
+alloc
+;
 AvmCore
 *
 core
