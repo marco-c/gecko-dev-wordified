@@ -1908,6 +1908,7 @@ show
 localepicker
 "
 )
+;
 if
 (
 (
@@ -1930,6 +1931,10 @@ haveSystemLocale
 (
 )
 )
+)
+{
+/
+/
 |
 |
 !

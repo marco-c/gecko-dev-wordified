@@ -8076,7 +8076,7 @@ show
 .
 localepicker
 "
-true
+false
 )
 ;
 /
