@@ -941,10 +941,8 @@ interface
 NS_IMETHOD
 OpenContainer
 (
-const
-nsIParserNode
-&
-aNode
+nsHTMLTag
+aNodeType
 )
 =
 0

@@ -273,18 +273,6 @@ return
 NS_ERROR_HTMLPARSER_STOPPARSING
 ;
 }
-nsParserNode
-html
-(
-eHTMLTag_html
-)
-;
-nsParserNode
-body
-(
-eHTMLTag_body
-)
-;
 nsresult
 rv
 =
@@ -293,7 +281,7 @@ sink
 >
 OpenContainer
 (
-html
+eHTMLTag_html
 )
 ;
 NS_ENSURE_SUCCESS
@@ -309,7 +297,7 @@ sink
 >
 OpenContainer
 (
-body
+eHTMLTag_body
 )
 ;
 NS_ENSURE_SUCCESS
