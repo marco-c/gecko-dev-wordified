@@ -1,3 +1,6 @@
+#
+filter
+substitution
 /
 *
 This
@@ -155,7 +158,7 @@ let
 channel
 =
 "
-default
+MOZ_UPDATE_CHANNEL
 "
 ;
 let
@@ -197,6 +200,7 @@ e
 /
 use
 default
+value
 when
 pref
 not
