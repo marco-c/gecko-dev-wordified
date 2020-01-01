@@ -22444,12 +22444,12 @@ cx
 goto
 out
 ;
+#
+endif
 VOUCH_HAVE_STACK
 (
 )
 ;
-#
-endif
 /
 *
 Reset
