@@ -7059,7 +7059,7 @@ index
 '
 )
 {
-nameStr
+name
 .
 Cut
 (
