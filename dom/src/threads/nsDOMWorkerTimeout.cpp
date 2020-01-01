@@ -1535,6 +1535,10 @@ of
 0
 milliseconds
 .
+interval
+=
+0
+;
 aIsInterval
 =
 PR_FALSE
