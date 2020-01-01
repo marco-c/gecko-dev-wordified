@@ -14769,9 +14769,7 @@ if
 script
 -
 >
-hasGlobal
-(
-)
+compileAndGo
 &
 &
 !

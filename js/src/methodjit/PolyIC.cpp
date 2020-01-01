@@ -6217,9 +6217,7 @@ script
 )
 -
 >
-hasGlobal
-(
-)
+compileAndGo
 )
 return
 disable
