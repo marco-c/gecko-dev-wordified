@@ -500,13 +500,6 @@ h
 #
 include
 "
-jstracer
-.
-h
-"
-#
-include
-"
 jswatchpoint
 .
 h

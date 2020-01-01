@@ -599,13 +599,6 @@ jsscript
 h
 "
 #
-include
-"
-jstracer
-.
-h
-"
-#
 if
 JS_HAS_XDR
 #
