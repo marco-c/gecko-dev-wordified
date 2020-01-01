@@ -823,9 +823,11 @@ ToInteger
 (
 cx
 args
-[
+.
+handleAt
+(
 0
-]
+)
 &
 result
 )

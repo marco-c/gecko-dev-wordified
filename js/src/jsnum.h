@@ -1469,12 +1469,7 @@ ToInteger
 JSContext
 *
 cx
-const
-js
-:
-:
-Value
-&
+HandleValue
 v
 double
 *
