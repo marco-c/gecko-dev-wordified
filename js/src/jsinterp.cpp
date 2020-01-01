@@ -38033,7 +38033,7 @@ toObject
 if
 (
 !
-js_ArrayCompPush
+js_NewbornArrayPush
 (
 cx
 obj
