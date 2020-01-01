@@ -6604,6 +6604,7 @@ if
 (
 aTransparencyMode
 )
+{
 *
 aTransparencyMode
 =
@@ -6618,6 +6619,7 @@ aDisp
 mAppearance
 )
 ;
+}
 return
 PR_TRUE
 ;
