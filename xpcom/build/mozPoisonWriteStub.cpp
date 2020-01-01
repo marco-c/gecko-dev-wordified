@@ -155,6 +155,15 @@ fd
 {
 }
 void
+MozillaRegisterDebugFILE
+(
+FILE
+*
+f
+)
+{
+}
+void
 MozillaUnRegisterDebugFD
 (
 int
