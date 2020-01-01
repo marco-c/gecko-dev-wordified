@@ -651,6 +651,7 @@ function
 Normalize
 (
 aNumber
+aNumbersOnly
 )
 {
 var
@@ -661,6 +662,7 @@ PhoneNumber
 Normalize
 (
 aNumber
+aNumbersOnly
 )
 ;
 if
@@ -682,6 +684,11 @@ aNumber
 "
 +
 normalized
++
+"
+"
++
+aNumbersOnly
 )
 ;
 return
