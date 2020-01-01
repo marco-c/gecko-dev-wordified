@@ -3824,9 +3824,6 @@ mInPrivateBrowsing
 PRUint16
 mDatabaseStatus
 ;
-PRInt8
-mHasHistoryEntries
-;
 /
 /
 Used
