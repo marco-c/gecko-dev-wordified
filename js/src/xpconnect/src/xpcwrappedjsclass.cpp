@@ -2267,7 +2267,6 @@ rv
 nsresult
 )
 (
-*
 JSVAL_TO_DOUBLE
 (
 jsexception
@@ -7863,9 +7862,6 @@ thisObj
 bool
 invokeCall
 ;
-bool
-invokeCall
-;
 /
 /
 Make
@@ -9015,10 +9011,13 @@ sp
 =
 stackbase
 =
+Jsvalify
+(
 args
 .
 getvp
 (
+)
 )
 ;
 /
@@ -10144,7 +10143,10 @@ fval
 {
 success
 =
-js_Invoke
+js
+:
+:
+Invoke
 (
 cx
 args

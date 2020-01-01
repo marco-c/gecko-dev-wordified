@@ -901,16 +901,7 @@ ifdef
 DEBUG
 if
 (
-JSVAL_IS_OBJECT
-(
 aOther
-)
-&
-&
-JSVAL_TO_OBJECT
-(
-aOther
-)
 )
 {
 NS_ASSERTION

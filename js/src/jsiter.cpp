@@ -4548,9 +4548,7 @@ cx
 JSObject
 *
 obj
-const
 Value
-*
 v
 JSBool
 *
@@ -4562,7 +4560,6 @@ bp
 =
 js_ValueIsStopIteration
 (
-*
 v
 )
 ;
