@@ -2233,6 +2233,12 @@ __SS_data
 ;
 this
 .
+_lastWindowClosed
+=
+null
+;
+this
+.
 _clearDisk
 (
 )
@@ -3126,7 +3132,7 @@ save
 during
 the
 first
-five
+ten
 seconds
 /
 /
@@ -9501,7 +9507,7 @@ unique
 frame
 IDs
 var
-aIdMap
+idMap
 =
 {
 used
@@ -9516,7 +9522,7 @@ restoreHistory
 (
 aWindow
 aTabs
-aIdMap
+idMap
 )
 ;
 }
