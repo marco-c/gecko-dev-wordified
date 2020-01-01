@@ -81,7 +81,7 @@ AVVENDOR
 #
 include
 <
-objdir
+objidl
 .
 h
 >
