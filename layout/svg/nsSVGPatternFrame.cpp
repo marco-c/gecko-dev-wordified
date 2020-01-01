@@ -198,7 +198,11 @@ h
 #
 include
 "
-nsSVGPatternElement
+mozilla
+/
+dom
+/
+SVGPatternElement
 .
 h
 "
@@ -1782,7 +1786,7 @@ patternContentUnits
 =
 GetEnumValue
 (
-nsSVGPatternElement
+SVGPatternElement
 :
 :
 PATTERNCONTENTUNITS
@@ -1793,7 +1797,7 @@ patternUnits
 =
 GetEnumValue
 (
-nsSVGPatternElement
+SVGPatternElement
 :
 :
 PATTERNUNITS
@@ -3029,7 +3033,7 @@ thisEnum
 =
 static_cast
 <
-nsSVGPatternElement
+SVGPatternElement
 *
 >
 (
@@ -3085,7 +3089,7 @@ aDefault
 :
 static_cast
 <
-nsSVGPatternElement
+SVGPatternElement
 *
 >
 (
@@ -3121,7 +3125,7 @@ thisTransformList
 =
 static_cast
 <
-nsSVGPatternElement
+SVGPatternElement
 *
 >
 (
@@ -3175,7 +3179,7 @@ aDefault
 :
 static_cast
 <
-nsSVGPatternElement
+SVGPatternElement
 *
 >
 (
@@ -3250,7 +3254,7 @@ thisViewBox
 =
 static_cast
 <
-nsSVGPatternElement
+SVGPatternElement
 *
 >
 (
@@ -3298,7 +3302,7 @@ aDefault
 :
 static_cast
 <
-nsSVGPatternElement
+SVGPatternElement
 *
 >
 (
@@ -3329,7 +3333,7 @@ thisPar
 =
 static_cast
 <
-nsSVGPatternElement
+SVGPatternElement
 *
 >
 (
@@ -3377,7 +3381,7 @@ aDefault
 :
 static_cast
 <
-nsSVGPatternElement
+SVGPatternElement
 *
 >
 (
@@ -3411,7 +3415,7 @@ thisLength
 &
 static_cast
 <
-nsSVGPatternElement
+SVGPatternElement
 *
 >
 (
@@ -3465,7 +3469,7 @@ aDefault
 &
 static_cast
 <
-nsSVGPatternElement
+SVGPatternElement
 *
 >
 (
@@ -3545,13 +3549,13 @@ xlink
 :
 href
 attribute
-nsSVGPatternElement
+SVGPatternElement
 *
 pattern
 =
 static_cast
 <
-nsSVGPatternElement
+SVGPatternElement
 *
 >
 (
@@ -3566,7 +3570,7 @@ pattern
 >
 mStringAttributes
 [
-nsSVGPatternElement
+SVGPatternElement
 :
 :
 HREF
@@ -3855,7 +3859,7 @@ tmpX
 =
 GetLengthValue
 (
-nsSVGPatternElement
+SVGPatternElement
 :
 :
 X
@@ -3865,7 +3869,7 @@ tmpY
 =
 GetLengthValue
 (
-nsSVGPatternElement
+SVGPatternElement
 :
 :
 Y
@@ -3875,7 +3879,7 @@ tmpHeight
 =
 GetLengthValue
 (
-nsSVGPatternElement
+SVGPatternElement
 :
 :
 HEIGHT
@@ -3885,7 +3889,7 @@ tmpWidth
 =
 GetLengthValue
 (
-nsSVGPatternElement
+SVGPatternElement
 :
 :
 WIDTH
@@ -4285,7 +4289,7 @@ viewportWidth
 =
 GetLengthValue
 (
-nsSVGPatternElement
+SVGPatternElement
 :
 :
 WIDTH
@@ -4301,7 +4305,7 @@ viewportHeight
 =
 GetLengthValue
 (
-nsSVGPatternElement
+SVGPatternElement
 :
 :
 HEIGHT
@@ -4333,7 +4337,7 @@ viewportWidth
 =
 GetLengthValue
 (
-nsSVGPatternElement
+SVGPatternElement
 :
 :
 WIDTH
@@ -4349,7 +4353,7 @@ viewportHeight
 =
 GetLengthValue
 (
-nsSVGPatternElement
+SVGPatternElement
 :
 :
 HEIGHT
@@ -4417,7 +4421,7 @@ GetViewBoxTransform
 (
 static_cast
 <
-nsSVGPatternElement
+SVGPatternElement
 *
 >
 (
