@@ -691,6 +691,9 @@ Don
 t
 capture
 in
+per
+-
+window
 private
 browsing
 mode
@@ -699,7 +702,7 @@ if
 (
 gPrivateBrowsingUI
 .
-privateBrowsingEnabled
+privateWindow
 )
 return
 false
