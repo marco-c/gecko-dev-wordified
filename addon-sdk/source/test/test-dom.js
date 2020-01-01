@@ -104,6 +104,8 @@ document
 .
 window
 ;
+/
+*
 exports
 [
 "
@@ -617,6 +619,8 @@ options
 )
 ;
 }
+*
+/
 require
 (
 "
