@@ -220,6 +220,11 @@ RIL
 sendMMI
 (
 {
+rilMessageType
+:
+"
+sendMMI
+"
 mmi
 :
 mmi
@@ -2314,6 +2319,7 @@ ERROR_SUCCESS
 )
 ;
 }
+;
 worker
 .
 RIL
@@ -3195,6 +3201,7 @@ ERROR_SUCCESS
 )
 ;
 }
+;
 worker
 .
 RIL
@@ -3426,6 +3433,7 @@ ERROR_SUCCESS
 )
 ;
 }
+;
 worker
 .
 RIL
@@ -3657,6 +3665,7 @@ ERROR_SUCCESS
 )
 ;
 }
+;
 worker
 .
 RIL
@@ -3888,6 +3897,7 @@ ERROR_SUCCESS
 )
 ;
 }
+;
 worker
 .
 RIL
@@ -4126,6 +4136,7 @@ ERROR_SUCCESS
 )
 ;
 }
+;
 worker
 .
 RIL
@@ -4151,11 +4162,12 @@ workerhelper
 .
 postedMessage
 ;
-do_check_true
+do_check_neq
 (
 mmiOptions
 .
 mmi
+null
 )
 ;
 do_check_eq
@@ -4236,6 +4248,7 @@ ERROR_RADIO_NOT_AVAILABLE
 )
 ;
 }
+;
 worker
 .
 RIL
@@ -4261,11 +4274,12 @@ workerhelper
 .
 postedMessage
 ;
-do_check_true
+do_check_neq
 (
 mmiOptions
 .
 mmi
+null
 )
 ;
 do_check_eq
@@ -4362,6 +4376,7 @@ ERROR_SUCCESS
 )
 ;
 }
+;
 worker
 .
 RIL
@@ -4513,6 +4528,7 @@ ERROR_SUCCESS
 )
 ;
 }
+;
 worker
 .
 RIL
@@ -4639,6 +4655,7 @@ ERROR_SUCCESS
 )
 ;
 }
+;
 worker
 .
 RIL
@@ -4808,6 +4825,7 @@ ERROR_SUCCESS
 )
 ;
 }
+;
 worker
 .
 RIL
@@ -4939,6 +4957,7 @@ ERROR_GENERIC_FAILURE
 )
 ;
 }
+;
 worker
 .
 RIL
