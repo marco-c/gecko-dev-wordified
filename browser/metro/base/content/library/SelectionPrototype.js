@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -5867,6 +5872,7 @@ rect
 of
 target
 element
+let
 r
 =
 this
