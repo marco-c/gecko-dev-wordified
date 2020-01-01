@@ -609,6 +609,15 @@ mResolution
 aResolution
 ;
 }
+bool
+HasFormatChanged
+(
+BasicTiledThebesLayer
+*
+aThebesLayer
+)
+const
+;
 protected
 :
 BasicTiledLayerTile
@@ -750,6 +759,9 @@ mCallbackData
 ;
 gfxSize
 mResolution
+;
+bool
+mLastPaintOpaque
 ;
 /
 /
