@@ -1319,10 +1319,6 @@ nsAString
 aValue
 )
 ;
-friend
-class
-nsSVGTextPositioningElement
-;
 /
 /
 Hooks
