@@ -2539,10 +2539,6 @@ thisForCtor
 (
 )
 )
-tempPoolMark
-(
-NULL
-)
 traceListHead
 (
 NULL

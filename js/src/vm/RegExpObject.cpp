@@ -1030,9 +1030,12 @@ pairs_
 MatchPair
 *
 )
-lifoAlloc_
--
->
+lifoScope_
+.
+alloc
+(
+)
+.
 alloc
 (
 sizeof
