@@ -520,9 +520,10 @@ is
 not
 focused
 initially
-focusElement
+browser
+.
+focus
 (
-content
 )
 ;
 isnot
