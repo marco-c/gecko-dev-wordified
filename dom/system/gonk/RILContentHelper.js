@@ -640,6 +640,9 @@ nsIDOMMozMobileConnectionInfo
 connected
 :
 false
+state
+:
+null
 emergencyCallsOnly
 :
 false
