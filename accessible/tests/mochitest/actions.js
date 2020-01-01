@@ -772,7 +772,7 @@ isThereActions
 =
 acc
 .
-numActions
+actionCount
 >
 0
 ;

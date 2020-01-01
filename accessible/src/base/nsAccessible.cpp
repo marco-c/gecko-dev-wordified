@@ -11173,12 +11173,12 @@ NOTHING
 readonly
 attribute
 PRUint8
-numActions
+actionCount
 NS_IMETHODIMP
 nsAccessible
 :
 :
-GetNumActions
+GetActionCount
 (
 PRUint8
 *
