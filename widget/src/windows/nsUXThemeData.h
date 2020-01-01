@@ -725,9 +725,8 @@ static
 void
 UpdateTitlebarInfo
 (
-TITLEBARINFOEX
-&
-info
+HWND
+aWnd
 )
 ;
 static
