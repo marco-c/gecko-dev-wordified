@@ -1517,7 +1517,7 @@ asynchronous
 *
 *
 If
-aFromActorDestroyed
+aCloseWithError
 is
 true
 and
@@ -1569,18 +1569,6 @@ g
 a
 crash
 )
-;
-when
-the
-process
-shuts
-down
-*
-cleanly
-ShutDownProcess
-runs
-before
-ActorDestroyed
 .
 *
 /
@@ -1588,7 +1576,7 @@ void
 ShutDownProcess
 (
 bool
-aFromActorDestroyed
+aCloseWithError
 )
 ;
 PCompositorParent
