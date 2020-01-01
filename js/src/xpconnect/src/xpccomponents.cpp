@@ -22782,7 +22782,6 @@ ccx
 cholder
 aScope
 iface
-nsnull
 OBJ_IS_NOT_GLOBAL
 getter_AddRefs
 (
