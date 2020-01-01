@@ -1857,6 +1857,10 @@ static
 unsigned
 ThreadPrivateIndex
 ;
+static
+bool
+TLSInitialized
+;
 #
 endif
 #
