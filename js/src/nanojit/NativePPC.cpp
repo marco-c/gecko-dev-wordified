@@ -4990,7 +4990,7 @@ _logc
 >
 lcbits
 &
-LC_Assembly
+LC_Native
 )
 outputf
 (
@@ -8161,7 +8161,7 @@ _logc
 >
 lcbits
 &
-LC_Assembly
+LC_Native
 )
 outputf
 (
@@ -8250,7 +8250,7 @@ _logc
 >
 lcbits
 &
-LC_Assembly
+LC_Native
 )
 outputf
 (
@@ -8564,7 +8564,7 @@ _logc
 >
 lcbits
 &
-LC_Assembly
+LC_Native
 )
 outputf
 (

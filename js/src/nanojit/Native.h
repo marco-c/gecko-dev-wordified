@@ -921,7 +921,7 @@ but
 only
 outputs
 if
-LC_Assembly
+LC_Native
 is
 set
 .
@@ -958,7 +958,7 @@ _logc
 >
 lcbits
 &
-LC_Assembly
+LC_Native
 )
 {
 \
