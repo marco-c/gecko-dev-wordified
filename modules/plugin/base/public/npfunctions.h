@@ -1416,7 +1416,7 @@ message
 )
 ;
 typedef
-void
+bool
 (
 *
 NPN_PushPopupsEnabledStateProcPtr
@@ -1429,7 +1429,7 @@ enabled
 )
 ;
 typedef
-void
+bool
 (
 *
 NPN_PopPopupsEnabledStateProcPtr
