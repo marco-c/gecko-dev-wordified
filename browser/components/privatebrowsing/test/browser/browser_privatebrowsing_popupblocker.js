@@ -161,8 +161,6 @@ test
 /
 browser
 /
-global
-/
 popup
 .
 html

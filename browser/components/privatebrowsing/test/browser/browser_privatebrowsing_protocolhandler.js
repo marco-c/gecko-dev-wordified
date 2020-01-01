@@ -138,8 +138,6 @@ test
 /
 browser
 /
-global
-/
 browser_privatebrowsing_protocolhandler_page
 .
 html
