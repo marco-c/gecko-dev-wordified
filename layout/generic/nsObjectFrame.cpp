@@ -1941,8 +1941,8 @@ nsIDOMMouseListener
 /
 /
 /
-nsIDOMMouseListener
-intefaces
+nsIDOMMouseMotionListener
+interfaces
 NS_IMETHOD
 MouseMove
 (
