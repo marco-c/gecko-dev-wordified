@@ -267,13 +267,6 @@ OnAccountsUpdateListener
 import
 android
 .
-app
-.
-Activity
-;
-import
-android
-.
 content
 .
 ContentResolver

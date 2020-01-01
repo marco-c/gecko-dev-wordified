@@ -125,15 +125,6 @@ SystemClock
 import
 android
 .
-provider
-.
-Settings
-.
-Secure
-;
-import
-android
-.
 text
 .
 Editable

@@ -338,15 +338,6 @@ graphics
 .
 drawable
 .
-Drawable
-;
-import
-android
-.
-graphics
-.
-drawable
-.
 BitmapDrawable
 ;
 import

@@ -142,13 +142,6 @@ android
 .
 util
 .
-DisplayMetrics
-;
-import
-android
-.
-util
-.
 Pair
 ;
 import

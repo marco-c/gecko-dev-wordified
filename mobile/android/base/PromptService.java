@@ -204,13 +204,6 @@ InputType
 import
 android
 .
-util
-.
-TypedValue
-;
-import
-android
-.
 view
 .
 View

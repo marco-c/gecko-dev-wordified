@@ -229,13 +229,6 @@ android
 .
 view
 .
-ActionMode
-;
-import
-android
-.
-view
-.
 ContextMenu
 ;
 import

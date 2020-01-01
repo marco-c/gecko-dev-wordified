@@ -105,15 +105,6 @@ mozilla
 .
 gecko
 .
-GeckoApp
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 GeckoAppShell
 ;
 import
