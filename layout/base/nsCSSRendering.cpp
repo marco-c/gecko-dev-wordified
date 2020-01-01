@@ -15853,6 +15853,12 @@ aBorder
 if
 (
 isSolidBorder
+&
+&
+currentBackgroundClip
+=
+=
+NS_STYLE_BG_CLIP_BORDER
 )
 currentBackgroundClip
 =
