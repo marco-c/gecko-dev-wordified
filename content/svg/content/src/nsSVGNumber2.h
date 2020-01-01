@@ -345,6 +345,17 @@ mIsAnimated
 mIsBaseSet
 ;
 }
+already_AddRefed
+<
+nsIDOMSVGAnimatedNumber
+>
+ToDOMAnimatedNumber
+(
+nsSVGElement
+*
+aSVGElement
+)
+;
 nsresult
 ToDOMAnimatedNumber
 (
