@@ -1188,11 +1188,11 @@ aContext
 )
 ;
 NS_IMETHODIMP
-GetIMEEnabled
+GetInputMode
 (
-PRUint32
-*
-aState
+IMEContext
+&
+aContext
 )
 ;
 /
@@ -1450,6 +1450,9 @@ leaving
 fullscreen
 nsSizeMode
 mLastSizeMode
+;
+IMEContext
+mIMEContext
 ;
 /
 *

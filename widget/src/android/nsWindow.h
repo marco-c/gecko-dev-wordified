@@ -1084,11 +1084,11 @@ aContext
 )
 ;
 NS_IMETHOD
-GetIMEEnabled
+GetInputMode
 (
-PRUint32
-*
-aState
+IMEContext
+&
+aContext
 )
 ;
 NS_IMETHOD
@@ -1269,9 +1269,6 @@ nsIdleService
 >
 mIdleService
 ;
-PRUint32
-mIMEEnabled
-;
 PRBool
 mIMEComposing
 ;
@@ -1284,6 +1281,9 @@ nsTextRange
 4
 >
 mIMERanges
+;
+IMEContext
+mIMEContext
 ;
 static
 void
