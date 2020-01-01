@@ -6,6 +6,8 @@ Copyright
 c
 )
 2008
+-
+2010
 Mozilla
 Foundation
 *
@@ -1662,11 +1664,6 @@ static
 nsHtml5ElementName
 *
 ELT_SYMBOL
-;
-static
-nsHtml5ElementName
-*
-ELT_SPACER
 ;
 static
 nsHtml5ElementName
@@ -4582,15 +4579,6 @@ nsHtml5ElementName
 :
 :
 ELT_SYMBOL
-=
-nsnull
-;
-nsHtml5ElementName
-*
-nsHtml5ElementName
-:
-:
-ELT_SPACER
 =
 nsnull
 ;
