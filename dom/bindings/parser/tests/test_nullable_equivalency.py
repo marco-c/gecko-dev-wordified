@@ -514,6 +514,9 @@ inner
 '
 QName
 '
+'
+getDeps
+'
 ]
 or
 \
