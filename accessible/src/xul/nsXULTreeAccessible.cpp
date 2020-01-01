@@ -1006,6 +1006,10 @@ NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
 nsXULTreeAccessible
 )
+NS_INTERFACE_MAP_STATIC_AMBIGUOUS
+(
+nsXULTreeAccessible
+)
 NS_INTERFACE_MAP_END_INHERITING
 (
 nsAccessible
@@ -5264,10 +5268,7 @@ nsPresContext
 *
 presContext
 =
-mDoc
--
->
-PresContext
+GetPresContext
 (
 )
 ;
