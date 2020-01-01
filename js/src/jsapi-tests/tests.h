@@ -852,9 +852,6 @@ filename
 lineno
 )
 ;
-return
-true
-;
 }
 #
 define
