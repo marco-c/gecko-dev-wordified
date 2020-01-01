@@ -35680,7 +35680,7 @@ the
 popstate
 event
 .
-SetDocPendingStateObj
+SetDocCurrentStateObj
 (
 mLSHE
 )
@@ -46588,7 +46588,7 @@ nsresult
 nsDocShell
 :
 :
-SetDocPendingStateObj
+SetDocCurrentStateObj
 (
 nsISHEntry
 *
@@ -46666,7 +46666,7 @@ string
 document
 -
 >
-SetPendingStateObject
+SetCurrentStateObject
 (
 stateData
 )
@@ -50795,7 +50795,7 @@ newURI
 )
 ;
 }
-SetDocPendingStateObj
+SetDocCurrentStateObj
 (
 mOSHE
 )

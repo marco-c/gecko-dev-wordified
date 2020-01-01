@@ -2935,6 +2935,8 @@ public
 nsIApplicationCacheContainer
 public
 nsStubMutationObserver
+public
+nsIDOMNSDocument_MOZILLA_2_0_BRANCH
 {
 public
 :
@@ -4542,6 +4544,7 @@ NS_DECL_NSIDOMXMLDOCUMENT
 /
 nsIDOMNSDocument
 NS_DECL_NSIDOMNSDOCUMENT
+NS_DECL_NSIDOMNSDOCUMENT_MOZILLA_2_0_BRANCH
 /
 /
 nsIDOMDocumentEvent

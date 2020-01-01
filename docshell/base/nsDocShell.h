@@ -3614,7 +3614,7 @@ current
 document
 '
 s
-pending
+current
 state
 object
 to
@@ -3629,7 +3629,7 @@ state
 object
 .
 The
-pending
+current
 state
 object
 is
@@ -3646,7 +3646,7 @@ PopState
 event
 .
 nsresult
-SetDocPendingStateObj
+SetDocCurrentStateObj
 (
 nsISHEntry
 *
