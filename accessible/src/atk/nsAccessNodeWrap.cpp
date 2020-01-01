@@ -774,17 +774,4 @@ ShutdownXPAccessibility
 (
 )
 ;
-/
-/
-Shutdown
-accessibility
-for
-ATK
-nsApplicationAccessibleWrap
-:
-:
-Unload
-(
-)
-;
 }

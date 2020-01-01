@@ -2012,6 +2012,13 @@ NS_IF_RELEASE
 sAccService
 )
 ;
+nsApplicationAccessibleWrap
+:
+:
+Unload
+(
+)
+;
 NS_IF_RELEASE
 (
 gApplicationAccessible
