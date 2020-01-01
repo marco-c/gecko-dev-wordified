@@ -600,10 +600,6 @@ class
 SVGUserUnitList
 ;
 }
-using
-namespace
-mozilla
-;
 typedef
 nsStyledElement
 nsSVGElementBase
@@ -1253,6 +1249,9 @@ aFirst
 void
 GetAnimatedLengthListValues
 (
+mozilla
+:
+:
 SVGUserUnitList
 *
 aFirst
@@ -1261,6 +1260,9 @@ aFirst
 .
 )
 ;
+mozilla
+:
+:
 SVGAnimatedLengthList
 *
 GetAnimatedLengthList
@@ -1953,6 +1955,9 @@ mCouldZeroPadList
 struct
 LengthListAttributesInfo
 {
+mozilla
+:
+:
 SVGAnimatedLengthList
 *
 mLengthLists
@@ -1966,6 +1971,9 @@ mLengthListCount
 ;
 LengthListAttributesInfo
 (
+mozilla
+:
+:
 SVGAnimatedLengthList
 *
 aLengthLists

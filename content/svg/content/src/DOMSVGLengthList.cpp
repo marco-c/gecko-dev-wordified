@@ -617,6 +617,9 @@ DOMSVGLengthList
 DOMCI_DATA
 (
 SVGLengthList
+mozilla
+:
+:
 DOMSVGLengthList
 )
 namespace

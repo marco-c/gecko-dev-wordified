@@ -503,6 +503,9 @@ DOMSVGAnimatedLengthList
 DOMCI_DATA
 (
 SVGAnimatedLengthList
+mozilla
+:
+:
 DOMSVGAnimatedLengthList
 )
 namespace

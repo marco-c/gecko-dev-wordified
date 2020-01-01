@@ -628,6 +628,9 @@ DOMSVGLength
 DOMCI_DATA
 (
 SVGLength
+mozilla
+:
+:
 DOMSVGLength
 )
 namespace
@@ -639,6 +642,9 @@ DOMSVGLength
 )
 NS_INTERFACE_MAP_ENTRY
 (
+mozilla
+:
+:
 DOMSVGLength
 )
 /

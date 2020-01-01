@@ -853,6 +853,10 @@ endif
 /
 /
 MOZ_SMIL
+using
+namespace
+mozilla
+;
 /
 /
 This
@@ -12096,9 +12100,6 @@ mozAnimateMotionDummyAttr
 {
 return
 new
-mozilla
-:
-:
 SVGMotionSMILAttr
 (
 this
