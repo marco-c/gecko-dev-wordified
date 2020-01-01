@@ -4701,13 +4701,11 @@ Sweep
 ;
 static
 PRBool
-HasAuthorSpecifiedRules
+HasAuthorSpecifiedBorderOrBackground
 (
 nsStyleContext
 *
 aStyleContext
-PRUint32
-ruleTypeMask
 )
 ;
 }
