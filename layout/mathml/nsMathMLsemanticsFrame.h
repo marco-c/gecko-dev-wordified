@@ -102,7 +102,7 @@ nsMathMLsemanticsFrame_h___
 #
 include
 "
-nsMathMLContainerFrame
+nsMathMLSelectedFrame
 .
 h
 "
@@ -127,7 +127,7 @@ class
 nsMathMLsemanticsFrame
 :
 public
-nsMathMLContainerFrame
+nsMathMLSelectedFrame
 {
 public
 :
@@ -145,11 +145,6 @@ nsStyleContext
 aContext
 )
 ;
-NS_IMETHOD
-TransmitAutomaticData
-(
-)
-;
 protected
 :
 nsMathMLsemanticsFrame
@@ -159,7 +154,7 @@ nsStyleContext
 aContext
 )
 :
-nsMathMLContainerFrame
+nsMathMLSelectedFrame
 (
 aContext
 )
@@ -168,6 +163,12 @@ aContext
 virtual
 ~
 nsMathMLsemanticsFrame
+(
+)
+;
+nsIFrame
+*
+GetSelectedFrame
 (
 )
 ;
