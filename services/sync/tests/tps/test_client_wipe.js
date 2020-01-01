@@ -703,7 +703,6 @@ prefs1
 ]
 [
 Sync
-SYNC_WIPE_SERVER
 ]
 ]
 )

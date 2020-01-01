@@ -435,7 +435,6 @@ history1
 ]
 [
 Sync
-SYNC_WIPE_SERVER
 ]
 ]
 )
@@ -454,7 +453,7 @@ history1
 ]
 [
 Sync
-SYNC_WIPE_SERVER
+SYNC_WIPE_REMOTE
 ]
 ]
 )
