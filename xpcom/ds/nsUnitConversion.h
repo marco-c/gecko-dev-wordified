@@ -533,9 +533,13 @@ aValue
 return
 nscoord
 (
-NS_roundf
+NS_floorf
 (
 aValue
++
+0
+.
+5f
 )
 )
 ;
