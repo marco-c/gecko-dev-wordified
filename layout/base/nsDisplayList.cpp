@@ -4616,7 +4616,7 @@ item
 >
 mVisibleRect
 .
-ToOutsidePixels
+ToNearestPixels
 (
 appUnitsPerDevPixel
 )
