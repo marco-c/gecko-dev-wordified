@@ -4090,9 +4090,9 @@ FUNCTION
 BrowserWndProc
 (
 HWND
-unsigned
-WORD
-LONG
+UINT
+WRAPAM
+LPARAM
 )
 /
 /
@@ -4970,10 +4970,10 @@ hwndDlg
 IDC_BROWSER
 )
 ;
-SetWindowLong
+SetWindowLongPtr
 (
 hwndBrowser
-GWL_USERDATA
+GWLP_USERDATA
 nsnull
 )
 ;
@@ -5864,7 +5864,7 @@ retval
 0
 )
 {
-int
+size_t
 resLen
 =
 strlen
@@ -6449,6 +6449,9 @@ hFakeEvent
 )
 ;
 return
+(
+PRUint32
+)
 msg
 .
 wParam
