@@ -456,13 +456,6 @@ h
 "
 #
 include
-"
-nsClipboardPrivacyHandler
-.
-h
-"
-#
-include
 <
 gtk
 /
@@ -667,9 +660,6 @@ nsCOMPtr
 nsITransferable
 >
 mGlobalTransferable
-;
-nsClipboardPrivacyHandler
-mPrivacyHandler
 ;
 }
 ;
