@@ -1007,6 +1007,14 @@ test
 )
 ;
 bool
+visitPolyInlineDispatch
+(
+MPolyInlineDispatch
+*
+ins
+)
+;
+bool
 visitCompare
 (
 MCompare
