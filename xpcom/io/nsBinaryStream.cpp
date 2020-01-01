@@ -242,13 +242,6 @@ h
 #
 include
 "
-prlong
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

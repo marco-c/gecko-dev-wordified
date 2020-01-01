@@ -93,13 +93,6 @@ h
 #
 include
 "
-prlong
-.
-h
-"
-#
-include
-"
 mozIThirdPartyUtil
 .
 h

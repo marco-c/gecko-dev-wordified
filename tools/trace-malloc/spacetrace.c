@@ -292,13 +292,6 @@ nsQuickSort
 .
 h
 "
-#
-include
-"
-prlong
-.
-h
-"
 /
 *
 *

@@ -1018,13 +1018,6 @@ h
 #
 include
 "
-prlong
-.
-h
-"
-#
-include
-"
 nsIDragService
 .
 h
