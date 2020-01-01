@@ -17306,10 +17306,10 @@ value
 ;
 aComponent
 =
+NSToIntRound
 (
-PRUint8
-)
 value
+)
 ;
 return
 PR_TRUE
