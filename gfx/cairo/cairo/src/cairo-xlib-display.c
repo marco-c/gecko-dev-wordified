@@ -2620,9 +2620,6 @@ buggy_repeat
 =
 TRUE
 ;
-#
-ifndef
-MOZ_EGL_XRENDER_COMPOSITE
 /
 *
 Too
@@ -2650,8 +2647,6 @@ buggy_pad_reflect
 =
 TRUE
 ;
-#
-endif
 }
 }
 else
