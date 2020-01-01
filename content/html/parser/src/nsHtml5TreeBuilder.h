@@ -517,9 +517,6 @@ nsIContent
 *
 headPointer
 ;
-PRBool
-reportingDoctype
-;
 protected
 :
 jArray
@@ -1413,13 +1410,6 @@ setDocumentModeHandler
 nsHtml5Parser
 *
 documentModeHandler
-)
-;
-void
-setReportingDoctype
-(
-PRBool
-reportingDoctype
 )
 ;
 PRBool

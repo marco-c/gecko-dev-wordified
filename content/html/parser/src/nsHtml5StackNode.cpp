@@ -471,6 +471,10 @@ tainted
 (
 PR_FALSE
 )
+refcount
+(
+1
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -570,6 +574,10 @@ fosterParenting
 tainted
 (
 PR_FALSE
+)
+refcount
+(
+1
 )
 {
 MOZ_COUNT_CTOR
@@ -670,6 +678,10 @@ fosterParenting
 tainted
 (
 PR_FALSE
+)
+refcount
+(
+1
 )
 {
 MOZ_COUNT_CTOR
@@ -763,6 +775,10 @@ PR_FALSE
 tainted
 (
 PR_FALSE
+)
+refcount
+(
+1
 )
 {
 MOZ_COUNT_CTOR
