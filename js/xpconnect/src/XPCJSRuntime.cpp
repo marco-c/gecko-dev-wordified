@@ -13612,7 +13612,13 @@ WrapperFactory
 :
 :
 Rewrap
-NULL
+xpc
+:
+:
+WrapperFactory
+:
+:
+WrapForSameCompartment
 xpc
 :
 :
