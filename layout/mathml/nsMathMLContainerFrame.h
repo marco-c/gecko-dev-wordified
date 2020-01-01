@@ -1188,12 +1188,12 @@ aChildLeading
 {
 return
 (
-NS_MATHML_IS_RTL
+StyleVisibility
 (
-mPresentationData
-.
-flags
 )
+-
+>
+mDirection
 ?
 aParentWidth
 -

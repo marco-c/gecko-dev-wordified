@@ -1719,12 +1719,12 @@ NS_STRETCH_DIRECTION_VERTICAL
 contSize
 radicalSize
 NS_STRETCH_LARGER
-NS_MATHML_IS_RTL
+StyleVisibility
 (
-mPresentationData
-.
-flags
 )
+-
+>
+mDirection
 )
 ;
 /
