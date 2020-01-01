@@ -4107,6 +4107,10 @@ bool
 lambdaParen
 )
 {
+AssertCanGC
+(
+)
+;
 StringBuffer
 out
 (
