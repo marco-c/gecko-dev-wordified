@@ -635,15 +635,6 @@ aParent
 )
 ;
 NS_IMETHOD
-GetAttributes
-(
-nsIPersistentProperties
-*
-*
-aAttributes
-)
-;
-NS_IMETHOD
 TakeFocus
 (
 void

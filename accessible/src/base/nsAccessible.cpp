@@ -13893,7 +13893,10 @@ element
 (
 do_QueryInterface
 (
+GetRoleContent
+(
 mDOMNode
+)
 )
 )
 ;

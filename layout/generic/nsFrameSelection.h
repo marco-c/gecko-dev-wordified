@@ -2586,6 +2586,7 @@ frame
 .
 *
 /
+virtual
 nsIFrame
 *
 GetFrameForNodeOffset
