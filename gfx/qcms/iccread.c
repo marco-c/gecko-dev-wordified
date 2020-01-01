@@ -254,6 +254,13 @@ h
 >
 #
 include
+<
+string
+.
+h
+>
+#
+include
 "
 qcmsint
 .
