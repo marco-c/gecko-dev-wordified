@@ -633,6 +633,7 @@ aPanel
 .
 js
 "
+true
 )
 ;
 yield
@@ -756,6 +757,7 @@ aPanel
 .
 js
 "
+true
 )
 ;
 yield
