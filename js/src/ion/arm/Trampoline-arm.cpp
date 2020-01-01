@@ -503,6 +503,15 @@ Bailouts
 .
 h
 "
+#
+include
+"
+ion
+/
+IonVMFunctions
+.
+h
+"
 using
 namespace
 js
@@ -5048,6 +5057,10 @@ CallMask
 temp
 =
 regs
+.
+takeAny
+(
+)
 ;
 /
 /

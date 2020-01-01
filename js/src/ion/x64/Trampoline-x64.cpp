@@ -503,6 +503,15 @@ Bailouts
 .
 h
 "
+#
+include
+"
+ion
+/
+IonVMFunctions
+.
+h
+"
 using
 namespace
 js
@@ -3689,9 +3698,6 @@ f
 outParam
 =
 =
-VMFunction
-:
-:
 Type_Value
 )
 {
@@ -3898,9 +3904,6 @@ failType
 )
 {
 case
-VMFunction
-:
-:
 Type_Object
 :
 masm
@@ -3926,9 +3929,6 @@ exception
 break
 ;
 case
-VMFunction
-:
-:
 Type_Bool
 :
 masm
@@ -3985,9 +3985,6 @@ f
 outParam
 =
 =
-VMFunction
-:
-:
 Type_Value
 )
 {
