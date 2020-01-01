@@ -1327,7 +1327,12 @@ define
 PROP_END
 {
 NULL
-JSVAL_VOID
+JS
+:
+:
+UndefinedValue
+(
+)
 }
 /
 /
@@ -1455,6 +1460,7 @@ portable
 *
 /
 static
+const
 dom
 :
 :
@@ -2990,6 +2996,7 @@ portable
 *
 /
 static
+const
 dom
 :
 :
