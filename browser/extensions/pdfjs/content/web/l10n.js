@@ -101,7 +101,7 @@ response
 =
 FirefoxCom
 .
-request
+requestSync
 (
 '
 getStrings
@@ -589,7 +589,7 @@ gLanguage
 =
 FirefoxCom
 .
-request
+requestSync
 (
 '
 getLocale
