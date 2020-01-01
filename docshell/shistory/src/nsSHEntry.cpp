@@ -4180,6 +4180,10 @@ mRefreshURIList
 =
 nsnull
 ;
+mEditorData
+=
+nsnull
+;
 }
 void
 nsSHEntry
