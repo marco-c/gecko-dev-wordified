@@ -778,6 +778,15 @@ gslots
 )
 ;
 }
+struct
+JSStackFrame
+*
+entryFrame
+;
+struct
+JSFrameRegs
+entryRegs
+;
 unsigned
 entryNativeFrameSlots
 ;
@@ -939,6 +948,7 @@ entryFrame
 ;
 struct
 JSFrameRegs
+*
 entryRegs
 ;
 JSAtom
