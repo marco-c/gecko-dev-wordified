@@ -529,6 +529,15 @@ mozilla
 com
 >
 #
+Rob
+Campbell
+<
+rcampbell
+mozilla
+.
+com
+>
+#
 #
 Alternatively
 the
@@ -1061,6 +1070,11 @@ include
 browser
 -
 fullZoom
+.
+js
+#
+include
+inspector
 .
 js
 #
