@@ -6200,7 +6200,7 @@ GetRuntime
 {
 if
 (
-js
+JS
 :
 :
 IsIncrementalBarrierNeeded
@@ -6213,7 +6213,7 @@ GetJSRuntime
 )
 )
 )
-js
+JS
 :
 :
 IncrementalObjectBarrier
@@ -6291,7 +6291,7 @@ GetJSRuntime
 ;
 if
 (
-js
+JS
 :
 :
 IsIncrementalBarrierNeeded

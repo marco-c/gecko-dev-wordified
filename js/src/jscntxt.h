@@ -5436,7 +5436,7 @@ called
 .
 *
 /
-js
+JS
 :
 :
 gcreason
@@ -6438,7 +6438,7 @@ gcFullCompartmentChecks
 JSGCCallback
 gcCallback
 ;
-js
+JS
 :
 :
 GCSliceCallback

@@ -16960,6 +16960,9 @@ if
 (
 protoArg
 )
+JS
+:
+:
 PoisonPtr
 (
 &

@@ -7179,7 +7179,7 @@ nsJSContext
 :
 PokeGC
 (
-js
+JS
 :
 :
 gcreason

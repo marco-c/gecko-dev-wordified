@@ -6888,6 +6888,9 @@ initial
 )
 {
 return
+JS
+:
+:
 UndefinedValue
 (
 )
@@ -6917,6 +6920,9 @@ v
 )
 {
 return
+JS
+:
+:
 IsPoisonedValue
 (
 v
@@ -6947,6 +6953,9 @@ initial
 )
 {
 return
+JS
+:
+:
 UndefinedValue
 (
 )
@@ -6976,6 +6985,9 @@ v
 )
 {
 return
+JS
+:
+:
 IsPoisonedValue
 (
 v
@@ -7933,6 +7945,9 @@ Value
 public
 ValueOperations
 <
+JS
+:
+:
 Handle
 <
 JS
@@ -7946,6 +7961,9 @@ friend
 class
 ValueOperations
 <
+JS
+:
+:
 Handle
 <
 JS
@@ -7970,6 +7988,9 @@ return
 static_cast
 <
 const
+JS
+:
+:
 Handle
 <
 JS
@@ -8035,6 +8056,9 @@ Value
 public
 MutableValueOperations
 <
+JS
+:
+:
 MutableHandle
 <
 JS
@@ -8048,6 +8072,9 @@ friend
 class
 ValueOperations
 <
+JS
+:
+:
 MutableHandle
 <
 JS
@@ -8072,6 +8099,9 @@ return
 static_cast
 <
 const
+JS
+:
+:
 MutableHandle
 <
 JS
@@ -8095,6 +8125,9 @@ friend
 class
 MutableValueOperations
 <
+JS
+:
+:
 MutableHandle
 <
 JS
@@ -8116,6 +8149,9 @@ extractMutable
 return
 static_cast
 <
+JS
+:
+:
 MutableHandle
 <
 JS
@@ -8181,6 +8217,9 @@ Value
 public
 MutableValueOperations
 <
+JS
+:
+:
 Rooted
 <
 JS
@@ -8194,6 +8233,9 @@ friend
 class
 ValueOperations
 <
+JS
+:
+:
 Rooted
 <
 JS
@@ -8218,6 +8260,9 @@ return
 static_cast
 <
 const
+JS
+:
+:
 Rooted
 <
 JS
@@ -8241,6 +8286,9 @@ friend
 class
 MutableValueOperations
 <
+JS
+:
+:
 Rooted
 <
 JS
@@ -8262,6 +8310,9 @@ extractMutable
 return
 static_cast
 <
+JS
+:
+:
 Rooted
 <
 JS

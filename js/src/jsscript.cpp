@@ -9091,6 +9091,9 @@ barrier
 /
 if
 (
+JS
+:
+:
 IsIncrementalGCInProgress
 (
 rt

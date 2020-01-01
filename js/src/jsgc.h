@@ -3644,7 +3644,7 @@ TriggerGC
 JSRuntime
 *
 rt
-js
+JS
 :
 :
 gcreason
@@ -3673,7 +3673,7 @@ TriggerZoneGC
 Zone
 *
 zone
-js
+JS
 :
 :
 gcreason
@@ -3755,7 +3755,7 @@ JSRuntime
 rt
 JSGCInvocationKind
 gckind
-js
+JS
 :
 :
 gcreason
@@ -3774,7 +3774,7 @@ JSRuntime
 rt
 JSGCInvocationKind
 gckind
-js
+JS
 :
 :
 gcreason
@@ -3797,7 +3797,7 @@ JSRuntime
 rt
 JSGCInvocationKind
 gckind
-js
+JS
 :
 :
 gcreason

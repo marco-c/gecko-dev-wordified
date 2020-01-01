@@ -2434,7 +2434,7 @@ MOZ_ASSERT
 (
 reason
 <
-js
+JS
 :
 :
 gcreason
@@ -2443,7 +2443,7 @@ gcreason
 NUM_REASONS
 )
 ;
-js
+JS
 :
 :
 gcreason
@@ -2453,7 +2453,7 @@ Reason
 gcreason
 =
 (
-js
+JS
 :
 :
 gcreason
@@ -2476,7 +2476,7 @@ GetJSRuntime
 (
 )
 ;
-js
+JS
 :
 :
 PrepareForFullGC
@@ -2484,7 +2484,7 @@ PrepareForFullGC
 rt
 )
 ;
-js
+JS
 :
 :
 GCForReason
@@ -3255,7 +3255,7 @@ vkind
 MOZ_ASSERT
 (
 !
-js
+JS
 :
 :
 IsIncrementalGCInProgress
@@ -14401,7 +14401,7 @@ NotifyDidPaint
 (
 )
 {
-js
+JS
 :
 :
 NotifyDidPaint

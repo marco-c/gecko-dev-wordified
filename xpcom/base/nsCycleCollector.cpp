@@ -9192,7 +9192,7 @@ Zone
 *
 zone
 =
-js
+JS
 :
 :
 GetGCThingZone

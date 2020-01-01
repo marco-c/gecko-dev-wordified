@@ -196,6 +196,9 @@ NewShortString
 JSContext
 *
 cx
+JS
+:
+:
 Latin1Chars
 chars
 )
@@ -342,6 +345,9 @@ NewShortString
 JSContext
 *
 cx
+JS
+:
+:
 StableTwoByteChars
 chars
 )
@@ -503,6 +509,9 @@ NewShortString
 JSContext
 *
 cx
+JS
+:
+:
 TwoByteChars
 chars
 )
@@ -639,6 +648,9 @@ CanGC
 >
 (
 cx
+JS
+:
+:
 StableTwoByteChars
 (
 tmp
@@ -1541,7 +1553,7 @@ CanGC
 >
 (
 cx
-js
+JS
 :
 :
 TwoByteChars

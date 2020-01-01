@@ -4592,7 +4592,7 @@ l
 JS_ASSERT
 (
 !
-js
+JS
 :
 :
 IsPoisonedPtr
@@ -4682,7 +4682,7 @@ l
 JS_ASSERT
 (
 !
-js
+JS
 :
 :
 IsPoisonedPtr
@@ -4694,7 +4694,7 @@ k
 JS_ASSERT
 (
 !
-js
+JS
 :
 :
 IsPoisonedPtr

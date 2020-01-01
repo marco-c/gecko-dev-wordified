@@ -663,6 +663,9 @@ gc
 Marking
 .
 cpp
+JS
+:
+:
 ExposeGCThingToActiveJS
 (
 p
@@ -970,6 +973,9 @@ gc
 Marking
 .
 cpp
+JS
+:
+:
 ExposeGCThingToActiveJS
 (
 closure

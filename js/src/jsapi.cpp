@@ -4148,6 +4148,9 @@ false
 )
 gcTriggerReason
 (
+JS
+:
+:
 gcreason
 :
 :
@@ -15374,6 +15377,9 @@ AssertHeapIsIdle
 rt
 )
 ;
+JS
+:
+:
 PrepareForFullGC
 (
 rt
@@ -15383,6 +15389,9 @@ GC
 (
 rt
 GC_NORMAL
+JS
+:
+:
 gcreason
 :
 :
@@ -17777,6 +17786,9 @@ clasp
 JSPrincipals
 *
 principals
+JS
+:
+:
 ZoneSpecifier
 zoneSpec
 )
@@ -17826,6 +17838,9 @@ if
 zoneSpec
 =
 =
+JS
+:
+:
 SystemZone
 )
 zone
@@ -17841,6 +17856,9 @@ if
 zoneSpec
 =
 =
+JS
+:
+:
 FreshZone
 )
 zone
@@ -17887,6 +17905,9 @@ if
 zoneSpec
 =
 =
+JS
+:
+:
 SystemZone
 )
 {
@@ -34939,6 +34960,9 @@ if
 ParseJSONWithReviver
 (
 cx
+JS
+:
+:
 StableCharPtr
 (
 chars

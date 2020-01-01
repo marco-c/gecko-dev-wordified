@@ -1732,6 +1732,9 @@ JSID_TO_FLAT_STRING
 id
 )
 ;
+JS
+:
+:
 TwoByteChars
 cp
 =

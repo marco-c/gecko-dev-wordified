@@ -5503,7 +5503,7 @@ nsJSContext
 :
 GarbageCollectNow
 (
-js
+JS
 :
 :
 gcreason
@@ -5529,7 +5529,7 @@ nsJSContext
 :
 GarbageCollectNow
 (
-js
+JS
 :
 :
 gcreason
