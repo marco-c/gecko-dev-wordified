@@ -871,7 +871,7 @@ setVisibility
 (
 View
 .
-INVISIBLE
+GONE
 )
 ;
 }
