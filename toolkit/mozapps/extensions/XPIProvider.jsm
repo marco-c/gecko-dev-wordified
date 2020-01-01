@@ -1746,7 +1746,7 @@ push
 {
 oldFile
 :
-null
+oldFile
 newFile
 :
 newFile
