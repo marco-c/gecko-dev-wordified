@@ -24820,7 +24820,7 @@ JSMutableHandleValue
 vp
 )
 {
-js
+JS
 :
 :
 RootedObject
@@ -24894,7 +24894,7 @@ bool
 _retval
 )
 {
-js
+JS
 :
 :
 RootedObject
@@ -24904,7 +24904,7 @@ cx
 obj_
 )
 ;
-js
+JS
 :
 :
 RootedId
@@ -26042,7 +26042,7 @@ DOM
 worker
 code
 .
-js
+JS
 :
 :
 RootedObject
@@ -27187,7 +27187,7 @@ js
 :
 ReportIfUndeclaredVarAssignment
 .
-js
+JS
 :
 :
 Rooted
@@ -34247,7 +34247,7 @@ JSMutableHandleObject
 objp
 )
 {
-js
+JS
 :
 :
 RootedValue
@@ -35028,7 +35028,7 @@ return
 JS_FALSE
 ;
 }
-js
+JS
 :
 :
 Rooted

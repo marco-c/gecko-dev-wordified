@@ -1165,7 +1165,7 @@ filename
 1
 )
 ;
-js
+JS
 :
 :
 RootedObject

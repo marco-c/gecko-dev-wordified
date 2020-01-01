@@ -2478,7 +2478,7 @@ Flag
 us
 as
 XBL
-js
+JS
 :
 :
 RootedObject

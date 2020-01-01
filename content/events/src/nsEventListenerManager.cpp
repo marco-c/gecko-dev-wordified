@@ -4951,7 +4951,7 @@ setVersion
 SCRIPTVERSION_DEFAULT
 )
 ;
-js
+JS
 :
 :
 RootedObject

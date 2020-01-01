@@ -8830,7 +8830,7 @@ aCx
 xblScope
 )
 ;
-js
+JS
 :
 :
 RootedId
@@ -9013,7 +9013,7 @@ no
 matter
 what
 .
-js
+JS
 :
 :
 RootedValue

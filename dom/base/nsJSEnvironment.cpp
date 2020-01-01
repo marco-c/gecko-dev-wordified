@@ -7568,7 +7568,7 @@ aScopeObject
 +
 mExecuteDepth
 ;
-js
+JS
 :
 :
 RootedObject
@@ -8072,7 +8072,7 @@ setSourcePolicy
 sp
 )
 ;
-js
+JS
 :
 :
 RootedObject
