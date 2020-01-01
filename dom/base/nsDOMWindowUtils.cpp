@@ -579,13 +579,6 @@ h
 #
 include
 "
-nsICanvasElement
-.
-h
-"
-#
-include
-"
 gfxContext
 .
 h

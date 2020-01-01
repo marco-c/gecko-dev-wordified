@@ -16643,9 +16643,7 @@ ECMA
 step
 9
 ignore
-non
--
-existent
+nonexistent
 *
 properties
 .
