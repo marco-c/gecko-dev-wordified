@@ -41587,9 +41587,6 @@ id
 406684
 )
 .
-nsContentUtils
-:
-:
 ReleaseWrapper
 (
 static_cast
@@ -41600,7 +41597,6 @@ nsINode
 (
 this
 )
-this
 )
 ;
 }

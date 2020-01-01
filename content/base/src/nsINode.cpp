@@ -7128,12 +7128,11 @@ nsINode
 tmp
 )
 {
-nsContentUtils
-:
-:
+tmp
+-
+>
 ReleaseWrapper
 (
-tmp
 tmp
 )
 ;

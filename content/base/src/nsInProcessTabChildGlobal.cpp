@@ -1391,9 +1391,6 @@ if
 mLoadingScript
 )
 {
-nsContentUtils
-:
-:
 ReleaseWrapper
 (
 static_cast
@@ -1404,7 +1401,6 @@ EventTarget
 (
 this
 )
-this
 )
 ;
 mGlobal
