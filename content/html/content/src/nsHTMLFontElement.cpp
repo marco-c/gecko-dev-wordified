@@ -1516,6 +1516,8 @@ mPresContext
 -
 >
 UseDocumentColors
+(
+)
 )
 {
 /
