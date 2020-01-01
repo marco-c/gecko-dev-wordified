@@ -3957,6 +3957,13 @@ return
 NS_OK
 ;
 /
+*
+XXX
+this
+caused
+reftest
+failures
+/
 /
 viewport
 changes
@@ -4001,6 +4008,8 @@ return
 NS_OK
 ;
 }
+*
+/
 /
 /
 make
