@@ -1558,6 +1558,11 @@ aPresentationData
 mstyle
 =
 frame
+-
+>
+GetFirstContinuation
+(
+)
 ;
 break
 ;
