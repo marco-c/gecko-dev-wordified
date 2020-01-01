@@ -11103,6 +11103,12 @@ Bundle
 savedInstanceState
 )
 {
+GeckoAppShell
+.
+registerGlobalExceptionHandler
+(
+)
+;
 mAppContext
 =
 this
