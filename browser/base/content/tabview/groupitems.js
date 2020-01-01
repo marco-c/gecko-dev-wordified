@@ -2263,6 +2263,14 @@ _activeTab
 =
 tab
 ;
+if
+(
+this
+.
+isStacked
+(
+)
+)
 this
 .
 arrange
