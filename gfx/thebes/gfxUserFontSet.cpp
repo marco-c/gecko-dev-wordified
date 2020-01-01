@@ -2338,8 +2338,10 @@ aMetaOrigLen
 ;
 }
 }
-static
 void
+gfxUserFontSet
+:
+:
 CopyWOFFMetadata
 (
 const
