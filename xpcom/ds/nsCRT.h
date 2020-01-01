@@ -1920,6 +1920,9 @@ char
 start
 PRUint32
 length
+PRBool
+*
+err
 )
 ;
 /

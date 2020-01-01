@@ -2021,6 +2021,9 @@ char
 start
 PRUint32
 length
+PRBool
+*
+err
 )
 {
 PRUint32
@@ -2044,6 +2047,11 @@ start
 +
 length
 ;
+*
+err
+=
+PR_FALSE
+;
 while
 (
 s
@@ -2051,9 +2059,6 @@ s
 end
 )
 {
-PRBool
-err
-;
 PRUint32
 ucs4
 =
@@ -2065,12 +2070,12 @@ NextChar
 &
 s
 end
-&
 err
 )
 ;
 if
 (
+*
 err
 )
 {
