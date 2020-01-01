@@ -1156,7 +1156,7 @@ response
 param
 request
 :
-nsIHttpRequestMetadata
+nsIHttpRequest
 *
 the
 request
