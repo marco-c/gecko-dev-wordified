@@ -1840,6 +1840,10 @@ PRUint32
 aFocusMethod
 PRBool
 aWindowRaised
+PRBool
+aIsRefocus
+=
+PR_FALSE
 )
 ;
 /
