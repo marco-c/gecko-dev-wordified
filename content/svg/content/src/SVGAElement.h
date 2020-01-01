@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsIDOMSVGURIReference
-.
-h
-"
-#
-include
-"
 nsILink
 .
 h
@@ -170,8 +163,6 @@ public
 SVGAElementBase
 public
 nsIDOMSVGElement
-public
-nsIDOMSVGURIReference
 public
 nsILink
 public
@@ -231,7 +222,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGURIREFERENCE
 /
 /
 XXX

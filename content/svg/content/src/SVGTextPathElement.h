@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsIDOMSVGURIReference
-.
-h
-"
-#
-include
-"
 nsSVGEnum
 .
 h
@@ -267,8 +260,6 @@ public
 SVGTextPathElementBase
 public
 nsIDOMSVGElement
-public
-nsIDOMSVGURIReference
 {
 friend
 class
@@ -336,7 +327,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGURIREFERENCE
 /
 /
 xxx

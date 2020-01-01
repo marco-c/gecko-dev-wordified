@@ -102,13 +102,6 @@ __NS_SVGGRADIENTELEMENT_H__
 #
 include
 "
-nsIDOMSVGURIReference
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h
@@ -276,8 +269,6 @@ SVGGradientElement
 :
 public
 SVGGradientElementBase
-public
-nsIDOMSVGURIReference
 {
 friend
 class
@@ -322,11 +313,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-/
-/
-URI
-Reference
-NS_DECL_NSIDOMSVGURIREFERENCE
 /
 /
 nsIContent

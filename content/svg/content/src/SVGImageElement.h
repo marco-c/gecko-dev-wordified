@@ -102,13 +102,6 @@ mozilla_dom_SVGImageElement_h
 #
 include
 "
-nsIDOMSVGURIReference
-.
-h
-"
-#
-include
-"
 nsImageLoadingContent
 .
 h
@@ -179,8 +172,6 @@ SVGImageElementBase
 public
 nsIDOMSVGElement
 public
-nsIDOMSVGURIReference
-public
 nsImageLoadingContent
 {
 friend
@@ -249,7 +240,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGURIREFERENCE
 /
 /
 xxx

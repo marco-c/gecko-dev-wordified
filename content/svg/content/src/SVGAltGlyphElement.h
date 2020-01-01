@@ -102,13 +102,6 @@ mozilla_dom_SVGAltGlyphElement_h
 #
 include
 "
-nsIDOMSVGURIReference
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -156,8 +149,6 @@ public
 SVGAltGlyphElementBase
 public
 nsIDOMSVGElement
-public
-nsIDOMSVGURIReference
 {
 protected
 :
@@ -213,7 +204,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGURIREFERENCE
 /
 /
 xxx

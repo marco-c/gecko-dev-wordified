@@ -102,13 +102,6 @@ mozilla_dom_SVGMPathElement_h
 #
 include
 "
-nsIDOMSVGURIReference
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h
@@ -169,8 +162,6 @@ public
 SVGMPathElementBase
 public
 nsIDOMSVGElement
-public
-nsIDOMSVGURIReference
 public
 nsStubMutationObserver
 {
@@ -233,7 +224,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGURIREFERENCE
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 SVGMPathElement

@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsIDOMSVGURIReference
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

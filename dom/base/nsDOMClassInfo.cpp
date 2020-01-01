@@ -1688,13 +1688,6 @@ h
 #
 include
 "
-nsIDOMSVGURIReference
-.
-h
-"
-#
-include
-"
 nsIDOMSVGZoomEvent
 .
 h

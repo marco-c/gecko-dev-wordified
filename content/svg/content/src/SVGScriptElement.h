@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsIDOMSVGURIReference
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -199,8 +192,6 @@ public
 SVGScriptElementBase
 public
 nsIDOMSVGElement
-public
-nsIDOMSVGURIReference
 public
 nsScriptElement
 {
@@ -268,7 +259,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGURIREFERENCE
 /
 /
 xxx
