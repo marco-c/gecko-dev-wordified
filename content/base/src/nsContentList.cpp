@@ -3836,13 +3836,6 @@ debugMutationGuard
 endif
 PRUint32
 count
-=
-aContent
--
->
-GetChildCount
-(
-)
 ;
 nsIContent
 *
@@ -3855,6 +3848,8 @@ aContent
 >
 GetChildArray
 (
+&
+count
 )
 ;
 nsIContent
@@ -4090,13 +4085,6 @@ debugMutationGuard
 endif
 PRUint32
 childCount
-=
-aStartRoot
--
->
-GetChildCount
-(
-)
 ;
 nsIContent
 *
@@ -4109,6 +4097,8 @@ aStartRoot
 >
 GetChildArray
 (
+&
+childCount
 )
 ;
 nsIContent

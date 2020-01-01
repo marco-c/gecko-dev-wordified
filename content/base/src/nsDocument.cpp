@@ -16598,6 +16598,9 @@ nsDocument
 :
 GetChildArray
 (
+PRUint32
+*
+aChildCount
 )
 const
 {
@@ -16606,6 +16609,7 @@ mChildren
 .
 GetChildArray
 (
+aChildCount
 )
 ;
 }
