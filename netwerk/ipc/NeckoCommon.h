@@ -658,7 +658,14 @@ TODO
 :
 Remove
 eventually
-.
+when
+no
+longer
+supported
+(
+bug
+571126
+)
 const
 char
 *

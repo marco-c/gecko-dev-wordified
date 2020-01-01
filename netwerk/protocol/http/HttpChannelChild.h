@@ -591,6 +591,9 @@ replace
 with
 IPDL
 states
+:
+bug
+536319
 enum
 HttpChannelChildState
 {

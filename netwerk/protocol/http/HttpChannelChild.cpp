@@ -1110,6 +1110,10 @@ TODO
 Cancel
 request
 :
+(
+bug
+536317
+)
 /
 /
 -
@@ -1361,9 +1365,10 @@ Cancel
 request
 :
 see
-notes
-in
 OnStartRequest
+.
+Bug
+536317
 return
 false
 ;
@@ -1490,9 +1495,11 @@ Cancel
 request
 :
 see
-notes
-in
 OnStartRequest
+(
+bug
+536317
+)
 return
 false
 ;
