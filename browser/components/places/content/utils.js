@@ -6268,9 +6268,7 @@ true
 ;
 browserWindow
 .
-getBrowser
-(
-)
+gBrowser
 .
 loadTabs
 (
