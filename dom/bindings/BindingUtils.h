@@ -13958,6 +13958,7 @@ true
 public
 :
 static
+MOZ_CONSTEXPR
 nsCycleCollectionParticipant
 *
 Get
