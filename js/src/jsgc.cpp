@@ -12603,9 +12603,6 @@ PARSER
 :
 static_cast
 <
-frontend
-:
-:
 Parser
 *
 >

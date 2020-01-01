@@ -5140,9 +5140,6 @@ PARSER
 js
 :
 :
-frontend
-:
-:
 Parser
 *
 /

@@ -122,9 +122,6 @@ h
 namespace
 js
 {
-namespace
-frontend
-{
 bool
 FoldConstants
 (
@@ -147,13 +144,6 @@ inCond
 false
 )
 ;
-}
-/
-*
-namespace
-frontend
-*
-/
 }
 /
 *

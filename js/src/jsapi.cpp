@@ -664,15 +664,6 @@ js
 :
 types
 ;
-using
-js
-:
-:
-frontend
-:
-:
-Parser
-;
 /
 *
 *
@@ -36988,9 +36979,6 @@ false
 isIdentifier
 =
 js
-:
-:
-frontend
 :
 :
 IsIdentifier

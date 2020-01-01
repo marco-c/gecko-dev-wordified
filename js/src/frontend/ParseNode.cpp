@@ -157,13 +157,6 @@ using
 namespace
 js
 ;
-using
-namespace
-js
-:
-:
-frontend
-;
 /
 *
 *
@@ -3990,7 +3983,7 @@ tree
 /
 ParseNode
 *
-frontend
+js
 :
 :
 CloneLeftHandSide
@@ -4504,7 +4497,7 @@ pn
 ifdef
 DEBUG
 void
-frontend
+js
 :
 :
 DumpParseTree
