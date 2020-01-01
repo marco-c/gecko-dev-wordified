@@ -688,6 +688,7 @@ NativeDataType
 NativeGLContext
 NativeCGLContext
 NativePBuffer
+NativeImageSurface
 NativeDataTypeMax
 }
 ;
