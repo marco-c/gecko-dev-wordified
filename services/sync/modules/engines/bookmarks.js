@@ -6681,6 +6681,9 @@ index
 +
 =
 result
+[
+0
+]
 .
 frecency
 ;
