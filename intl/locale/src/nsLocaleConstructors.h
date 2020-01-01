@@ -491,13 +491,6 @@ h
 #
 include
 "
-nsCharsetAlias
-.
-h
-"
-#
-include
-"
 nsPlatformCharset
 .
 h
@@ -731,10 +724,6 @@ nsScriptableDateTimeFormat
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsLanguageAtomService
-)
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
-nsCharsetAlias2
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (

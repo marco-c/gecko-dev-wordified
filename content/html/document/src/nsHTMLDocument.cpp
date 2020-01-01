@@ -470,13 +470,6 @@ h
 #
 include
 "
-nsICharsetAlias
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -886,13 +879,6 @@ h
 for
 toStringwithformat
 code
-#
-include
-"
-nsICharsetAlias
-.
-h
-"
 #
 include
 "

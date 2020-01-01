@@ -480,13 +480,6 @@ h
 #
 include
 "
-nsICharsetAlias
-.
-h
-"
-#
-include
-"
 nsICharsetDetectionObserver
 .
 h
