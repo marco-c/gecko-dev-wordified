@@ -3982,7 +3982,7 @@ if
 baseuri
 )
 return
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -4011,7 +4011,7 @@ rv
 )
 )
 return
-NULL
+nullptr
 ;
 return
 resolved
