@@ -11017,7 +11017,7 @@ PropertyTable
 )
 -
 >
-DeleteAllProperties
+DeleteAll
 (
 )
 ;
@@ -16438,7 +16438,7 @@ PropertyTable
 )
 -
 >
-DeleteAllPropertiesFor
+DeleteAllFor
 (
 aFrame
 )
