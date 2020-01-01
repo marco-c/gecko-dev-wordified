@@ -2233,6 +2233,7 @@ IDBTransactionRequest
 TransactionIsOpen
 (
 )
+const
 {
 NS_ASSERTION
 (
@@ -2272,6 +2273,7 @@ IDBTransactionRequest
 IsWriteAllowed
 (
 )
+const
 {
 NS_ASSERTION
 (

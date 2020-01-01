@@ -658,11 +658,13 @@ bool
 TransactionIsOpen
 (
 )
+const
 ;
 bool
 IsWriteAllowed
 (
 )
+const
 ;
 #
 else
@@ -670,6 +672,7 @@ bool
 TransactionIsOpen
 (
 )
+const
 {
 return
 mReadyState
@@ -694,6 +697,7 @@ bool
 IsWriteAllowed
 (
 )
+const
 {
 return
 mMode
