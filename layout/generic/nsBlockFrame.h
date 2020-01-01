@@ -4707,14 +4707,6 @@ aLine
 nsBlockFrame
 *
 aFromContainer
-bool
-aFromOverflowLine
-nsFrameList
-&
-aFromFrameList
-nsLineList
-&
-aFromLineList
 nsLineList
 :
 :
