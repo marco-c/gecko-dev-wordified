@@ -3071,7 +3071,7 @@ eFromValue
 /
 /
 ROLE_ENTRY
-eNoRule
+eFromSubtreeIfRec
 /
 /
 ROLE_CAPTION
