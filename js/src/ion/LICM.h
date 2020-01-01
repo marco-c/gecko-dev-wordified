@@ -753,7 +753,7 @@ hoisting
 bool
 isInLoop
 (
-MInstruction
+MDefinition
 *
 ins
 )

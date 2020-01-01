@@ -612,7 +612,7 @@ emitAtUses
 box
 )
 ;
-MInstruction
+MDefinition
 *
 inner
 =
@@ -866,7 +866,7 @@ the
 first
 input
 .
-MInstruction
+MDefinition
 *
 inner
 =
@@ -1097,7 +1097,7 @@ MReturn
 ret
 )
 {
-MInstruction
+MDefinition
 *
 opd
 =
@@ -1253,7 +1253,7 @@ bool
 LIRGeneratorX86
 :
 :
-visitPhi
+lowerPhi
 (
 MPhi
 *
@@ -1301,6 +1301,9 @@ type
 MIRType_Value
 )
 return
+LIRGenerator
+:
+:
 lowerPhi
 (
 ins
@@ -1428,7 +1431,7 @@ i
 +
 )
 {
-MInstruction
+MDefinition
 *
 opd
 =
@@ -1618,7 +1621,7 @@ i
 +
 )
 {
-MInstruction
+MDefinition
 *
 ins
 =
@@ -1822,13 +1825,13 @@ lowerForALU
 LMathI
 *
 ins
-MInstruction
+MDefinition
 *
 mir
-MInstruction
+MDefinition
 *
 lhs
-MInstruction
+MDefinition
 *
 rhs
 )

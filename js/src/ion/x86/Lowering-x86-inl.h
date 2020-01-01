@@ -553,7 +553,7 @@ inline
 uint32
 VirtualRegisterOfPayload
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -568,7 +568,7 @@ isBox
 )
 )
 {
-MInstruction
+MDefinition
 *
 inner
 =
@@ -621,7 +621,7 @@ LIRGeneratorX86
 :
 useType
 (
-MInstruction
+MDefinition
 *
 mir
 LUse
@@ -675,7 +675,7 @@ LIRGeneratorX86
 :
 usePayload
 (
-MInstruction
+MDefinition
 *
 mir
 LUse
@@ -725,7 +725,7 @@ LIRGeneratorX86
 :
 usePayloadInRegister
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -752,7 +752,7 @@ LInstruction
 lir
 size_t
 n
-MInstruction
+MDefinition
 *
 mir
 )

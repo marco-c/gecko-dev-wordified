@@ -525,7 +525,7 @@ stopUsing
 LUse
 useType
 (
-MInstruction
+MDefinition
 *
 mir
 LUse
@@ -538,7 +538,7 @@ policy
 LUse
 useTypeOrConstant
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -546,7 +546,7 @@ mir
 LUse
 usePayload
 (
-MInstruction
+MDefinition
 *
 mir
 LUse
@@ -559,7 +559,7 @@ policy
 LUse
 usePayloadInRegister
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -617,7 +617,7 @@ LInstruction
 lir
 size_t
 n
-MInstruction
+MDefinition
 *
 mir
 )
@@ -644,13 +644,13 @@ lowerForALU
 LMathI
 *
 ins
-MInstruction
+MDefinition
 *
 mir
-MInstruction
+MDefinition
 *
 lhs
-MInstruction
+MDefinition
 *
 rhs
 )
@@ -690,7 +690,7 @@ ret
 )
 ;
 bool
-visitPhi
+lowerPhi
 (
 MPhi
 *

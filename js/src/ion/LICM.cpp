@@ -1282,6 +1282,11 @@ use
 ins
 (
 )
+-
+>
+toInstruction
+(
+)
 )
 )
 return
@@ -1445,7 +1450,7 @@ Loop
 :
 isInLoop
 (
-MInstruction
+MDefinition
 *
 ins
 )

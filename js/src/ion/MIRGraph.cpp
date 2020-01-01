@@ -1073,7 +1073,7 @@ return
 true
 ;
 }
-MInstruction
+MDefinition
 *
 MBasicBlock
 :
@@ -1097,7 +1097,7 @@ slots_
 index
 ]
 .
-ins
+def
 ;
 }
 void
@@ -1108,7 +1108,7 @@ initSlot
 (
 uint32
 slot
-MInstruction
+MDefinition
 *
 ins
 )
@@ -1143,7 +1143,7 @@ setSlot
 (
 uint32
 slot
-MInstruction
+MDefinition
 *
 ins
 )
@@ -1793,13 +1793,13 @@ stackPosition_
 1
 ]
 ;
-MInstruction
+MDefinition
 *
-ins
+def
 =
 top
 .
-ins
+def
 ;
 if
 (
@@ -1822,7 +1822,7 @@ a
 copy
 of
 |
-ins
+def
 |
 .
 Note
@@ -1892,6 +1892,8 @@ into
 a
 SET
 .
+MInstruction
+*
 ins
 =
 MCopy
@@ -1899,7 +1901,7 @@ MCopy
 :
 New
 (
-ins
+def
 )
 ;
 add
@@ -1907,11 +1909,15 @@ add
 ins
 )
 ;
+def
+=
+ins
+;
 }
 setSlot
 (
 index
-ins
+def
 )
 ;
 if
@@ -1989,7 +1995,7 @@ GETLOCAL
 Note
 that
 |
-ins
+def
 |
 is
 already
@@ -2121,7 +2127,7 @@ MBasicBlock
 :
 push
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -2219,11 +2225,11 @@ slot
 ;
 to
 .
-ins
+def
 =
 from
 .
-ins
+def
 ;
 to
 .
@@ -2314,7 +2320,7 @@ local
 )
 ;
 }
-MInstruction
+MDefinition
 *
 MBasicBlock
 :
@@ -2458,10 +2464,10 @@ isCopied
 return
 slot
 .
-ins
+def
 ;
 }
-MInstruction
+MDefinition
 *
 MBasicBlock
 :
@@ -2579,7 +2585,7 @@ graph
 (
 )
 .
-allocInstructionId
+allocDefinitionId
 (
 ins
 )
@@ -2624,7 +2630,7 @@ graph
 (
 )
 .
-allocInstructionId
+allocDefinitionId
 (
 ins
 )
@@ -2672,7 +2678,7 @@ graph
 (
 )
 .
-allocInstructionId
+allocDefinitionId
 (
 ins
 )
@@ -2747,7 +2753,7 @@ graph
 (
 )
 .
-allocInstructionId
+allocDefinitionId
 (
 phi
 )
@@ -2828,7 +2834,7 @@ i
 +
 )
 {
-MInstruction
+MDefinition
 *
 mine
 =
@@ -2837,7 +2843,7 @@ getSlot
 i
 )
 ;
-MInstruction
+MDefinition
 *
 other
 =
@@ -3331,7 +3337,7 @@ i
 +
 )
 {
-MInstruction
+MDefinition
 *
 entryDef
 =
@@ -3345,7 +3351,7 @@ getOperand
 i
 )
 ;
-MInstruction
+MDefinition
 *
 exitDef
 =
@@ -3357,7 +3363,7 @@ slots_
 i
 ]
 .
-ins
+def
 ;
 /
 /
@@ -3745,7 +3751,7 @@ slots_
 j
 ]
 .
-ins
+def
 !
 =
 entryDef

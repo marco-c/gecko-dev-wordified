@@ -950,9 +950,9 @@ i
 ;
 }
 void
-allocInstructionId
+allocDefinitionId
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -1044,9 +1044,9 @@ uint32
 struct
 StackSlot
 {
-MInstruction
+MDefinition
 *
-ins
+def
 ;
 uint32
 copyOf
@@ -1090,17 +1090,17 @@ list
 void
 set
 (
-MInstruction
+MDefinition
 *
-ins
+def
 )
 {
 this
 -
 >
-ins
+def
 =
-ins
+def
 ;
 copyOf
 =
@@ -1217,7 +1217,7 @@ setSlot
 (
 uint32
 slot
-MInstruction
+MDefinition
 *
 ins
 )
@@ -1544,7 +1544,7 @@ various
 slot
 types
 .
-MInstruction
+MDefinition
 *
 peek
 (
@@ -1585,7 +1585,7 @@ initSlot
 (
 uint32
 index
-MInstruction
+MDefinition
 *
 ins
 )
@@ -1644,7 +1644,7 @@ stack
 void
 push
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -1678,7 +1678,7 @@ virtual
 stack
 pointer
 .
-MInstruction
+MDefinition
 *
 pop
 (
@@ -2511,7 +2511,7 @@ to
 enhance
 spew
 .
-MInstruction
+MDefinition
 *
 getSlot
 (
@@ -2556,7 +2556,7 @@ numOperands
 )
 ;
 }
-MInstruction
+MDefinition
 *
 getEntrySlot
 (
@@ -2781,7 +2781,7 @@ phiIndex_
 MInstructionIterator
 iter_
 ;
-MInstruction
+MDefinition
 *
 getIns
 (
@@ -2866,7 +2866,7 @@ iter_
 +
 ;
 }
-MInstruction
+MDefinition
 *
 operator
 *
@@ -2879,7 +2879,7 @@ getIns
 )
 ;
 }
-MInstruction
+MDefinition
 *
 operator
 -
