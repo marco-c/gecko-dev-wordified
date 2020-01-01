@@ -52025,12 +52025,6 @@ false
 nsAutoString
 outValue
 ;
-nsCOMPtr
-<
-nsIDOMNode
->
-resultNode
-;
 if
 (
 !
@@ -52060,10 +52054,6 @@ attr
 )
 nsnull
 isSet
-getter_AddRefs
-(
-resultNode
-)
 &
 outValue
 )
