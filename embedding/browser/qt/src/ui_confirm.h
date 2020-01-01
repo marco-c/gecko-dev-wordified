@@ -1211,7 +1211,7 @@ clicked
 ConfirmDialog
 SLOT
 (
-done1
+reject
 (
 )
 )
@@ -1232,7 +1232,7 @@ clicked
 ConfirmDialog
 SLOT
 (
-done2
+accept
 (
 )
 )
