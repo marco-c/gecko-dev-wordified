@@ -124,13 +124,6 @@ h
 #
 include
 "
-jsprvtd
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h
@@ -139,6 +132,13 @@ h
 include
 "
 jsfriendapi
+.
+h
+"
+#
+include
+"
+jsprvtd
 .
 h
 "

@@ -118,13 +118,6 @@ h
 #
 include
 "
-jstypes
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h
@@ -140,6 +133,13 @@ h
 include
 "
 jsgc
+.
+h
+"
+#
+include
+"
+jstypes
 .
 h
 "
