@@ -733,6 +733,13 @@ h
 #
 include
 "
+nsICachingChannel
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
@@ -3827,10 +3834,10 @@ aURI
 nsnull
 loadGroup
 nsnull
-nsIRequest
+nsICachingChannel
 :
 :
-LOAD_NORMAL
+LOAD_BYPASS_LOCAL_CACHE_IF_BUSY
 )
 ;
 NS_ENSURE_SUCCESS
