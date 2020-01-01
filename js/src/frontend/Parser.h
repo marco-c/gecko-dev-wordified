@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-Parser_h__
+frontend_Parser_h
 #
 define
-Parser_h__
+frontend_Parser_h
 /
 *
 *
@@ -3956,6 +3956,6 @@ tokenStream
 endif
 /
 *
-Parser_h__
+frontend_Parser_h
 *
 /

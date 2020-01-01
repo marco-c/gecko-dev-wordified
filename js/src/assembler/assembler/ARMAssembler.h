@@ -321,10 +321,10 @@ BLOCK
 /
 #
 ifndef
-ARMAssembler_h
+assembler_assembler_ARMAssembler_h
 #
 define
-ARMAssembler_h
+assembler_assembler_ARMAssembler_h
 #
 include
 "
@@ -12470,5 +12470,7 @@ ARM_TRADITIONAL
 #
 endif
 /
+*
+assembler_assembler_ARMAssembler_h
+*
 /
-ARMAssembler_h

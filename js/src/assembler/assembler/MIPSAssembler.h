@@ -268,10 +268,10 @@ DAMAGE
 /
 #
 ifndef
-MIPSAssembler_h
+assembler_assembler_MIPSAssembler_h
 #
 define
-MIPSAssembler_h
+assembler_assembler_MIPSAssembler_h
 #
 if
 ENABLE
@@ -6429,5 +6429,7 @@ MIPS
 #
 endif
 /
+*
+assembler_assembler_MIPSAssembler_h
+*
 /
-MIPSAssembler_h

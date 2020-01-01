@@ -270,10 +270,10 @@ DAMAGE
 /
 #
 ifndef
-WTF_Platform_h
+assembler_wtf_Platform_h
 #
 define
-WTF_Platform_h
+assembler_wtf_Platform_h
 /
 *
 =
@@ -6532,6 +6532,6 @@ endif
 endif
 /
 *
-WTF_Platform_h
+assembler_wtf_Platform_h
 *
 /

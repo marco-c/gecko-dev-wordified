@@ -242,10 +242,10 @@ DAMAGE
 /
 #
 ifndef
-WTF_Assertions_h
+assembler_wtf_Assertions_h
 #
 define
-WTF_Assertions_h
+assembler_wtf_Assertions_h
 #
 include
 "
@@ -366,5 +366,7 @@ name
 #
 endif
 /
+*
+assembler_wtf_Assertions_h
+*
 /
-WTF_Assertions_h

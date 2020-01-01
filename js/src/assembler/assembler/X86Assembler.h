@@ -319,10 +319,10 @@ BLOCK
 /
 #
 ifndef
-X86Assembler_h
+assembler_assembler_X86Assembler_h
 #
 define
-X86Assembler_h
+assembler_assembler_X86Assembler_h
 #
 include
 <
@@ -20929,5 +20929,7 @@ X86
 #
 endif
 /
+*
+assembler_assembler_X86Assembler_h
+*
 /
-X86Assembler_h

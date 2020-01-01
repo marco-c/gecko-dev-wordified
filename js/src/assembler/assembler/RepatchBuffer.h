@@ -319,10 +319,10 @@ BLOCK
 /
 #
 ifndef
-RepatchBuffer_h
+assembler_assembler_RepatchBuffer_h
 #
 define
-RepatchBuffer_h
+assembler_assembler_RepatchBuffer_h
 #
 include
 "
@@ -849,5 +849,7 @@ ASSEMBLER
 #
 endif
 /
+*
+assembler_assembler_RepatchBuffer_h
+*
 /
-RepatchBuffer_h

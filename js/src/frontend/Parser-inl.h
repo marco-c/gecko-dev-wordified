@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-Parser_inl_h__
+frontend_Parser_inl
 #
 define
-Parser_inl_h__
+frontend_Parser_inl
 #
 include
 "
@@ -740,5 +740,7 @@ js
 #
 endif
 /
+*
+frontend_Parser_inl
+*
 /
-Parser_inl_h__

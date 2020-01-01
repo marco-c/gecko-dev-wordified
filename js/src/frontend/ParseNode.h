@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-ParseNode_h__
+frontend_ParseNode_h
 #
 define
-ParseNode_h__
+frontend_ParseNode_h
 #
 include
 "
@@ -9249,6 +9249,6 @@ js
 endif
 /
 *
-ParseNode_h__
+frontend_ParseNode_h
 *
 /

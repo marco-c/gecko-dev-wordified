@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-TestingFunctions_h__
+builtin_TestingFunctions_h
 #
 define
-TestingFunctions_h__
+builtin_TestingFunctions_h
 #
 include
 "
@@ -158,6 +158,6 @@ js
 endif
 /
 *
-TestingFunctions_h__
+builtin_TestingFunctions_h
 *
 /

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-SourceNotes_h__
+frontend_SourceNotes_h
 #
 define
-SourceNotes_h__
+frontend_SourceNotes_h
 #
 include
 "
@@ -1433,5 +1433,7 @@ which
 #
 endif
 /
+*
+frontend_SourceNotes_h
+*
 /
-SourceNotes_h__

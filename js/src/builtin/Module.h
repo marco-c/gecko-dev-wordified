@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-Module_h___
+builtin_Module_h
 #
 define
-Module_h___
+builtin_Module_h
 #
 include
 "
@@ -240,5 +240,7 @@ js
 #
 endif
 /
+*
+builtin_Module_h
+*
 /
-Module_h___

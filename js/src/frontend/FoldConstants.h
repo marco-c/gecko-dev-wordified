@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-FoldConstants_h__
+frontend_FoldConstants_h
 #
 define
-FoldConstants_h__
+frontend_FoldConstants_h
 #
 include
 "
@@ -312,6 +312,6 @@ js
 endif
 /
 *
-FoldConstants_h__
+frontend_FoldConstants_h
 *
 /

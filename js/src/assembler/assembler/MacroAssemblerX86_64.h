@@ -319,10 +319,10 @@ BLOCK
 /
 #
 ifndef
-MacroAssemblerX86_64_h
+assembler_assembler_MacroAssemblerX86_64_h
 #
 define
-MacroAssemblerX86_64_h
+assembler_assembler_MacroAssemblerX86_64_h
 #
 include
 "
@@ -3461,5 +3461,7 @@ ASSEMBLER
 #
 endif
 /
+*
+assembler_assembler_MacroAssemblerX86_64_h
+*
 /
-MacroAssemblerX86_64_h

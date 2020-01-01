@@ -320,10 +320,10 @@ BLOCK
 /
 #
 ifndef
-AssemblerBufferWithConstantPool_h
+assembler_assembler_AssemblerBufferWithConstantPool_h
 #
 define
-AssemblerBufferWithConstantPool_h
+assembler_assembler_AssemblerBufferWithConstantPool_h
 #
 include
 "
@@ -2300,5 +2300,7 @@ ASSEMBLER
 #
 endif
 /
+*
+assembler_assembler_AssemblerBufferWithConstantPool_h
+*
 /
-AssemblerBufferWithConstantPool_h

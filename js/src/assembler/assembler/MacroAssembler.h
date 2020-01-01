@@ -319,10 +319,10 @@ BLOCK
 /
 #
 ifndef
-MacroAssembler_h
+assembler_assembler_MacroAssembler_h
 #
 define
-MacroAssembler_h
+assembler_assembler_MacroAssembler_h
 #
 include
 "
@@ -1830,5 +1830,7 @@ ASSEMBLER
 #
 endif
 /
+*
+assembler_assembler_MacroAssembler_h
+*
 /
-MacroAssembler_h

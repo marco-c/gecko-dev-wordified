@@ -280,10 +280,10 @@ DAMAGE
 /
 #
 ifndef
-SegmentedVector_h
+assembler_wtf_SegmentedVector_h
 #
 define
-SegmentedVector_h
+assembler_wtf_SegmentedVector_h
 #
 include
 "
@@ -1568,5 +1568,7 @@ SegmentedVector
 #
 endif
 /
+*
+assembler_wtf_SegmentedVector_h
+*
 /
-SegmentedVector_h

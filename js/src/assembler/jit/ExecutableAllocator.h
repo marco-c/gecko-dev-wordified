@@ -238,10 +238,10 @@ DAMAGE
 /
 #
 ifndef
-ExecutableAllocator_h
+assembler_jit_ExecutableAllocator_h
 #
 define
-ExecutableAllocator_h
+assembler_jit_ExecutableAllocator_h
 #
 include
 <
@@ -3183,9 +3183,7 @@ ASSEMBLER
 #
 endif
 /
+*
+assembler_jit_ExecutableAllocator_h
+*
 /
-!
-defined
-(
-ExecutableAllocator
-)

@@ -319,10 +319,10 @@ BLOCK
 /
 #
 ifndef
-CodeLocation_h
+assembler_assembler_CodeLocation_h
 #
 define
-CodeLocation_h
+assembler_assembler_CodeLocation_h
 #
 include
 "
@@ -1176,5 +1176,7 @@ ASSEMBLER
 #
 endif
 /
+*
+assembler_assembler_CodeLocation_h
+*
 /
-CodeLocation_h

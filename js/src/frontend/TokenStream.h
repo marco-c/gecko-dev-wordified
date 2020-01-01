@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-TokenStream_h__
+frontend_TokenStream_h
 #
 define
-TokenStream_h__
+frontend_TokenStream_h
 /
 *
 *
@@ -6382,6 +6382,6 @@ endif
 endif
 /
 *
-TokenStream_h__
+frontend_TokenStream_h
 *
 /

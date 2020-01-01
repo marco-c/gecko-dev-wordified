@@ -319,10 +319,10 @@ BLOCK
 /
 #
 ifndef
-AbstractMacroAssembler_h
+assembler_assembler_AbstractMacroAssembler_h
 #
 define
-AbstractMacroAssembler_h
+assembler_assembler_AbstractMacroAssembler_h
 #
 include
 "
@@ -3065,5 +3065,7 @@ ASSEMBLER
 #
 endif
 /
+*
+assembler_assembler_AbstractMacroAssembler_h
+*
 /
-AbstractMacroAssembler_h

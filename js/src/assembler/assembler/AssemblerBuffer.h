@@ -319,10 +319,10 @@ BLOCK
 /
 #
 ifndef
-AssemblerBuffer_h
+assembler_assembler_AssemblerBuffer_h
 #
 define
-AssemblerBuffer_h
+assembler_assembler_AssemblerBuffer_h
 #
 include
 "
@@ -1887,5 +1887,7 @@ ASSEMBLER
 #
 endif
 /
+*
+assembler_assembler_AssemblerBuffer_h
+*
 /
-AssemblerBuffer_h

@@ -319,10 +319,10 @@ BLOCK
 /
 #
 ifndef
-LinkBuffer_h
+assembler_assembler_LinkBuffer_h
 #
 define
-LinkBuffer_h
+assembler_assembler_LinkBuffer_h
 #
 include
 "
@@ -1425,5 +1425,7 @@ ASSEMBLER
 #
 endif
 /
+*
+assembler_assembler_LinkBuffer_h
+*
 /
-LinkBuffer_h

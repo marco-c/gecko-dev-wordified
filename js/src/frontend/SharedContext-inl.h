@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-SharedContext_inl_h__
+frontend_SharedContext_inl_h
 #
 define
-SharedContext_inl_h__
+frontend_SharedContext_inl_h
 #
 include
 "
@@ -549,5 +549,7 @@ js
 #
 endif
 /
+*
+frontend_SharedContext_inl_h
+*
 /
-SharedContext_inl_h__

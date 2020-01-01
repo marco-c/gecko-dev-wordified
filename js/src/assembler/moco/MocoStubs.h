@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-_include_assembler_moco_stubs_h_
+assembler_moco_MocoStubs_h
 #
 define
-_include_assembler_moco_stubs_h_
+assembler_moco_MocoStubs_h
 namespace
 JSC
 {
@@ -223,6 +223,6 @@ JSC
 endif
 /
 *
-_include_assembler_moco_stubs_h_
+assembler_moco_MocoStubs_h
 *
 /

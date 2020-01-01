@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-MacroAssemblerSparc_h
+assembler_assembler_MacroAssemblerSparc_h
 #
 define
-MacroAssemblerSparc_h
+assembler_assembler_MacroAssemblerSparc_h
 #
 include
 <
@@ -9486,5 +9486,7 @@ SPARC
 #
 endif
 /
+*
+assembler_assembler_MacroAssemblerSparc_h
+*
 /
-MacroAssemblerSparc_h

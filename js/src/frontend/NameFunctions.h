@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-NameFunctions_h__
+frontend_NameFunctions_h
 #
 define
-NameFunctions_h__
+frontend_NameFunctions_h
 struct
 JSContext
 ;
@@ -155,6 +155,6 @@ js
 endif
 /
 *
-NameFunctions_h__
+frontend_NameFunctions_h
 *
 /

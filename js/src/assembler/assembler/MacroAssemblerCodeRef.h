@@ -319,10 +319,10 @@ BLOCK
 /
 #
 ifndef
-MacroAssemblerCodeRef_h
+assembler_assembler_MacroAssemblerCodeRef_h
 #
 define
-MacroAssemblerCodeRef_h
+assembler_assembler_MacroAssemblerCodeRef_h
 #
 include
 "
@@ -1286,5 +1286,7 @@ ASSEMBLER
 #
 endif
 /
+*
+assembler_assembler_MacroAssemblerCodeRef_h
+*
 /
-MacroAssemblerCodeRef_h

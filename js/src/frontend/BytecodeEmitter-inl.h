@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-BytecodeEmitter_inl_h__
+frontend_BytecodeEmitter_inl_h
 #
 define
-BytecodeEmitter_inl_h__
+frontend_BytecodeEmitter_inl_h
 #
 include
 "
@@ -169,5 +169,7 @@ js
 #
 endif
 /
+*
+frontend_BytecodeEmitter_inl_h
+*
 /
-BytecodeEmitter_inl_h__

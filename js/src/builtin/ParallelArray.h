@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-ParallelArray_h__
+builtin_ParallelArray_h
 #
 define
-ParallelArray_h__
+builtin_ParallelArray_h
 #
 include
 "
@@ -450,5 +450,7 @@ obj
 #
 endif
 /
+*
+builtin_ParallelArray_h
+*
 /
-ParallelArray_h__

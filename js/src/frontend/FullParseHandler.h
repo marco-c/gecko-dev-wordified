@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-FullParseHandler_h__
+frontend_FullParseHandler_h
 #
 define
-FullParseHandler_h__
+frontend_FullParseHandler_h
 #
 include
 "
@@ -3462,6 +3462,6 @@ js
 endif
 /
 *
-FullParseHandler_h__
+frontend_FullParseHandler_h
 *
 /

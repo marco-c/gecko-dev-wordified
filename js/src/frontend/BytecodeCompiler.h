@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-BytecodeCompiler_h__
+frontend_BytecodeCompiler_h
 #
 define
-BytecodeCompiler_h__
+frontend_BytecodeCompiler_h
 #
 include
 "
@@ -356,6 +356,6 @@ js
 endif
 /
 *
-BytecodeCompiler_h__
+frontend_BytecodeCompiler_h
 *
 /

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-ParseMaps_h__
+frontend_ParseMaps_h
 #
 define
-ParseMaps_h__
+frontend_ParseMaps_h
 #
 include
 "
@@ -2740,3 +2740,8 @@ mozilla
 /
 #
 endif
+/
+*
+frontend_ParseMaps_h
+*
+/

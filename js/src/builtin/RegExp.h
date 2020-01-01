@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-RegExp_h___
+builtin_RegExp_h
 #
 define
-RegExp_h___
+builtin_RegExp_h
 #
 include
 "
@@ -396,6 +396,6 @@ js
 endif
 /
 *
-RegExp_h__
+builtin_RegExp_h
 *
 /

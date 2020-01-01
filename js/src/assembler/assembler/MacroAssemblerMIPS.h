@@ -254,10 +254,10 @@ DAMAGE
 /
 #
 ifndef
-MacroAssemblerMIPS_h
+assembler_assembler_MacroAssemblerMIPS_h
 #
 define
-MacroAssemblerMIPS_h
+assembler_assembler_MacroAssemblerMIPS_h
 #
 if
 ENABLE
@@ -16486,5 +16486,7 @@ MIPS
 #
 endif
 /
+*
+assembler_assembler_MacroAssemblerMIPS_h
+*
 /
-MacroAssemblerMIPS_h

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-Iterator_inl_h_
+builtin_Iterator_inl_h
 #
 define
-Iterator_inl_h_
+builtin_Iterator_inl_h
 #
 include
 "
@@ -201,5 +201,7 @@ ni
 #
 endif
 /
+*
+builtin_Iterator_inl_h
+*
 /
-Iterator_inl_h_

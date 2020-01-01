@@ -330,10 +330,10 @@ BLOCK
 /
 #
 ifndef
-MacroAssemblerARM_h
+assembler_assembler_MacroAssemblerARM_h
 #
 define
-MacroAssemblerARM_h
+assembler_assembler_MacroAssemblerARM_h
 #
 include
 "
@@ -9882,5 +9882,7 @@ ARM_TRADITIONAL
 #
 endif
 /
+*
+assembler_assembler_MacroAssemblerARM_h
+*
 /
-MacroAssemblerARM_h

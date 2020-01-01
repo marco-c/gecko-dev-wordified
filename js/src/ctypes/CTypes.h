@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-CTYPES_H
+ctypes_CTypes_h
 #
 define
-CTYPES_H
+ctypes_CTypes_h
 #
 include
 "
@@ -3924,3 +3924,8 @@ obj
 }
 #
 endif
+/
+*
+ctypes_CTypes_h
+*
+/

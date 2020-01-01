@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-Object_h___
+builtin_Object_h
 #
 define
-Object_h___
+builtin_Object_h
 #
 include
 "
@@ -182,3 +182,8 @@ js
 /
 #
 endif
+/
+*
+builtin_Object_h
+*
+/

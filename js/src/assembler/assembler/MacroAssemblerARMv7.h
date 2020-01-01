@@ -328,10 +328,10 @@ BLOCK
 /
 #
 ifndef
-MacroAssemblerARMv7_h
+assembler_assembler_MacroAssemblerARMv7_h
 #
 define
-MacroAssemblerARMv7_h
+assembler_assembler_MacroAssemblerARMv7_h
 #
 include
 "
@@ -7253,5 +7253,7 @@ ASSEMBLER
 #
 endif
 /
+*
+assembler_assembler_MacroAssemblerARMv7_h
+*
 /
-MacroAssemblerARMv7_h

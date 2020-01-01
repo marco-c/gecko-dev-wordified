@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-ParseMapPool_inl_h__
+frontend_ParseMaps_inl_h
 #
 define
-ParseMapPool_inl_h__
+frontend_ParseMaps_inl_h
 #
 include
 "
@@ -691,3 +691,8 @@ js
 /
 #
 endif
+/
+*
+frontend_ParseMaps_inl_h
+*
+/
