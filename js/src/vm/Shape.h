@@ -904,6 +904,9 @@ js
 class
 Bindings
 ;
+class
+Nursery
+;
 /
 *
 Limit
@@ -3298,6 +3301,13 @@ js
 :
 :
 Bindings
+;
+friend
+class
+js
+:
+:
+Nursery
 ;
 friend
 class

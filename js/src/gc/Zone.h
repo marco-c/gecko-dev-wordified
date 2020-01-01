@@ -1159,7 +1159,7 @@ return
 rt
 -
 >
-isHeapCollecting
+isHeapMajorCollecting
 (
 )
 &
