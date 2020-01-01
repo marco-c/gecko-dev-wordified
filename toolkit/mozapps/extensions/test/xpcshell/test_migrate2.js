@@ -1754,7 +1754,7 @@ database
 but
 needed
 a
-compatibiltiy
+compatibility
 update
 do_check_neq
 (

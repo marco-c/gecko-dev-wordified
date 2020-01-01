@@ -45,6 +45,7 @@ when
 there
 is
 a
+SQLITE
 database
 /
 /
