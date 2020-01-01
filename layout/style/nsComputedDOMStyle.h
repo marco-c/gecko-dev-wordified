@@ -1450,6 +1450,15 @@ nsIDOMCSSValue
 aValue
 )
 ;
+nsresult
+GetBorderImage
+(
+nsIDOMCSSValue
+*
+*
+aValue
+)
+;
 /
 *
 Box

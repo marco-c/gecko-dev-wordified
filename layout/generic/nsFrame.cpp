@@ -3351,7 +3351,7 @@ GetStyleBorder
 )
 -
 >
-GetBorder
+GetActualBorder
 (
 )
 ;
@@ -19064,7 +19064,7 @@ hBorder
 styleBorder
 -
 >
-GetBorderWidth
+GetActualBorderWidth
 (
 NS_SIDE_LEFT
 )
@@ -19077,7 +19077,7 @@ hBorder
 styleBorder
 -
 >
-GetBorderWidth
+GetActualBorderWidth
 (
 NS_SIDE_RIGHT
 )
@@ -23508,7 +23508,7 @@ if
 border
 -
 >
-GetBorderWidth
+GetActualBorderWidth
 (
 side
 )
