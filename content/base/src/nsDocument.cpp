@@ -42882,7 +42882,7 @@ mAttrStyleSheet
 mAttrStyleSheet
 -
 >
-SizeOf
+DOMSizeOf
 (
 )
 :
