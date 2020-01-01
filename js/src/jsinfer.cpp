@@ -26517,8 +26517,16 @@ JSFunction
 fun
 )
 {
-JS_ASSERT
+this
+-
+>
+fun
+=
+fun
+;
+if
 (
+!
 cx
 -
 >
@@ -26526,6 +26534,8 @@ typeInferenceEnabled
 (
 )
 )
+return
+true
 ;
 char
 *
