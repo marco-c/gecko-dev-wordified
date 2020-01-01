@@ -3186,6 +3186,12 @@ kAppShellCID
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+appShell
+NS_ERROR_FAILURE
+)
+;
 #
 if
 defined
