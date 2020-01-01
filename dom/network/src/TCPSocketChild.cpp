@@ -434,9 +434,8 @@ mSocketObj
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
-aCx
 &
 aSocketObj
 .
