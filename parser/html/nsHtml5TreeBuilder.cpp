@@ -620,7 +620,7 @@ kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
-HTML
+ELT_HTML
 elt
 )
 ;
@@ -2708,7 +2708,7 @@ contains
 nsHtml5AttributeName
 :
 :
-COLOR
+ATTR_COLOR
 )
 |
 |
@@ -2720,7 +2720,7 @@ contains
 nsHtml5AttributeName
 :
 :
-FACE
+ATTR_FACE
 )
 |
 |
@@ -2732,7 +2732,7 @@ contains
 nsHtml5AttributeName
 :
 :
-SIZE
+ATTR_SIZE
 )
 )
 {
@@ -2917,7 +2917,7 @@ kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
-TR
+ELT_TR
 nsHtml5HtmlAttributes
 :
 :
@@ -3177,7 +3177,7 @@ kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
-COLGROUP
+ELT_COLGROUP
 nsHtml5HtmlAttributes
 :
 :
@@ -3240,7 +3240,7 @@ kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
-TBODY
+ELT_TBODY
 nsHtml5HtmlAttributes
 :
 :
@@ -3374,7 +3374,7 @@ getValue
 nsHtml5AttributeName
 :
 :
-TYPE
+ATTR_TYPE
 )
 )
 )
@@ -4542,7 +4542,7 @@ elementName
 nsHtml5ElementName
 :
 :
-IMG
+ELT_IMG
 ;
 goto
 starttagloop
@@ -4615,7 +4615,7 @@ getIndex
 nsHtml5AttributeName
 :
 :
-ACTION
+ATTR_ACTION
 )
 ;
 if
@@ -4634,7 +4634,7 @@ addAttribute
 nsHtml5AttributeName
 :
 :
-ACTION
+ATTR_ACTION
 attributes
 -
 >
@@ -4656,7 +4656,7 @@ kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
-HR
+ELT_HR
 nsHtml5HtmlAttributes
 :
 :
@@ -4669,7 +4669,7 @@ kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
-P
+ELT_P
 nsHtml5HtmlAttributes
 :
 :
@@ -4682,7 +4682,7 @@ kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
-LABEL
+ELT_LABEL
 nsHtml5HtmlAttributes
 :
 :
@@ -4700,7 +4700,7 @@ getIndex
 nsHtml5AttributeName
 :
 :
-PROMPT
+ATTR_PROMPT
 )
 ;
 if
@@ -4798,7 +4798,7 @@ addAttribute
 nsHtml5AttributeName
 :
 :
-NAME
+ATTR_NAME
 nsHtml5Portability
 :
 :
@@ -4850,7 +4850,7 @@ if
 nsHtml5AttributeName
 :
 :
-NAME
+ATTR_NAME
 =
 =
 attributeQName
@@ -4859,7 +4859,7 @@ attributeQName
 nsHtml5AttributeName
 :
 :
-ACTION
+ATTR_ACTION
 =
 =
 attributeQName
@@ -4868,7 +4868,7 @@ attributeQName
 nsHtml5AttributeName
 :
 :
-PROMPT
+ATTR_PROMPT
 =
 =
 attributeQName
@@ -4935,7 +4935,7 @@ kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
-HR
+ELT_HR
 nsHtml5HtmlAttributes
 :
 :
@@ -7564,7 +7564,7 @@ getValue
 nsHtml5AttributeName
 :
 :
-CONTENT
+ATTR_CONTENT
 )
 ;
 nsString
@@ -7609,7 +7609,7 @@ getValue
 nsHtml5AttributeName
 :
 :
-CHARSET
+ATTR_CHARSET
 )
 ;
 if
@@ -13033,7 +13033,7 @@ kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
-HEAD
+ELT_HEAD
 headPointer
 )
 )
@@ -13536,7 +13536,7 @@ kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
-HTML
+ELT_HTML
 elt
 )
 ;
@@ -13637,7 +13637,7 @@ kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
-HEAD
+ELT_HEAD
 elt
 )
 ;
@@ -13672,7 +13672,7 @@ kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
-BODY
+ELT_BODY
 attributes
 )
 ;
@@ -13783,7 +13783,7 @@ kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
-FORM
+ELT_FORM
 elt
 )
 ;
@@ -14274,7 +14274,7 @@ popName
 nsHtml5ElementName
 :
 :
-FOREIGNOBJECT
+ELT_FOREIGNOBJECT
 =
 =
 elementName
