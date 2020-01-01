@@ -160,6 +160,15 @@ include
 "
 builtin
 /
+Eval
+.
+h
+"
+#
+include
+"
+builtin
+/
 MapObject
 .
 h
@@ -1354,7 +1363,7 @@ js_DefineFunction
 cx
 self
 id
-eval
+IndirectEval
 1
 JSFUN_STUB_GSOPS
 )
