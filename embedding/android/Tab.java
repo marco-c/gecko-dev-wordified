@@ -474,13 +474,6 @@ Drawable
 import
 android
 .
-os
-.
-AsyncTask
-;
-import
-android
-.
 provider
 .
 Browser
@@ -1812,7 +1805,7 @@ private
 class
 CheckBookmarkTask
 extends
-AsyncTask
+GeckoAsyncTask
 <
 Void
 Void
@@ -1950,7 +1943,7 @@ private
 class
 AddBookmarkTask
 extends
-AsyncTask
+GeckoAsyncTask
 <
 Void
 Void
@@ -2166,7 +2159,7 @@ private
 class
 RemoveBookmarkTask
 extends
-AsyncTask
+GeckoAsyncTask
 <
 Void
 Void
