@@ -2193,9 +2193,6 @@ later
 is
 required
 return
-false
-&
-&
 OSXVersion
 (
 )
