@@ -49925,15 +49925,14 @@ length
 RegExpFlag
 flags
 =
-RegExpFlag
-(
 tokenStream
 .
 currentToken
 (
 )
 .
-t_reflags
+regExpFlags
+(
 )
 ;
 RegExpStatics
