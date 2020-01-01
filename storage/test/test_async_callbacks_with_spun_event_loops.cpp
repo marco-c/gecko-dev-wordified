@@ -58,6 +58,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 sqlite3
 .
 h
@@ -316,6 +325,7 @@ mozIStorageStatementCallback
 implementation
 class
 UnownedCallback
+MOZ_FINAL
 :
 public
 mozIStorageStatementCallback
