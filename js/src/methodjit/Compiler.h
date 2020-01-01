@@ -1884,8 +1884,7 @@ ActiveFrame
 *
 outer
 ;
-JSScript
-*
+RootedScript
 script_
 ;
 analyze

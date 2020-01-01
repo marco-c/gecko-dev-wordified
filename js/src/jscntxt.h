@@ -2620,7 +2620,10 @@ cloneSelfHostedValueById
 JSContext
 *
 cx
-jsid
+js
+:
+:
+HandleId
 id
 js
 :
@@ -2630,8 +2633,7 @@ holder
 js
 :
 :
-Value
-*
+MutableHandleValue
 vp
 )
 ;

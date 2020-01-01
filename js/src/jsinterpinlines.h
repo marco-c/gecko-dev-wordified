@@ -2814,8 +2814,7 @@ script
 jsbytecode
 *
 pc
-Value
-*
+MutableHandleValue
 vp
 )
 {
