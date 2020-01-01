@@ -2755,7 +2755,7 @@ name
 \
 {
 (
-intptr_t
+uintptr_t
 )
 &
 name
