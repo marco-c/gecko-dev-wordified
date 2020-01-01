@@ -9323,7 +9323,7 @@ d
 ;
 JS_ALWAYS_TRUE
 (
-ValueToNumber
+ToNumber
 (
 cx
 top
@@ -19964,7 +19964,7 @@ primitives
 /
 JS_ALWAYS_TRUE
 (
-ValueToNumber
+ToNumber
 (
 cx
 lhs
@@ -19975,7 +19975,7 @@ ld
 ;
 JS_ALWAYS_TRUE
 (
-ValueToNumber
+ToNumber
 (
 cx
 rhs
@@ -25754,7 +25754,7 @@ sub
 since
 it
 calls
-ValueToNumber
+ToNumber
 instead
 of
 string
@@ -26211,7 +26211,7 @@ sub
 since
 it
 calls
-ValueToNumber
+ToNumber
 instead
 of
 string
@@ -26739,7 +26739,7 @@ sub
 since
 it
 calls
-ValueToNumber
+ToNumber
 instead
 of
 string

@@ -2111,7 +2111,7 @@ js
 :
 :
 GCChunkSet
-gcChunkSet
+gcUserChunkSet
 ;
 js
 :
@@ -11995,6 +11995,16 @@ extern
 jsbytecode
 *
 js_GetCurrentBytecodePC
+(
+JSContext
+*
+cx
+)
+;
+extern
+JSScript
+*
+js_GetCurrentScript
 (
 JSContext
 *

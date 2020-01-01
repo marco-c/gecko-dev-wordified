@@ -1117,6 +1117,7 @@ typedef
 Vector
 <
 UpvarCookie
+8
 >
 UpvarCookies
 ;
