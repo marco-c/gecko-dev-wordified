@@ -3005,7 +3005,7 @@ style
 drawable
 GTK_STATE_ACTIVE
 cliprect
-gRadiobuttonWidget
+gCheckboxWidget
 "
 checkbutton
 "
