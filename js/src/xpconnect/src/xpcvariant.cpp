@@ -2664,6 +2664,15 @@ type
 nsIDataType
 :
 :
+VTYPE_EMPTY_ARRAY
+|
+|
+type
+=
+=
+nsIDataType
+:
+:
 VTYPE_ID
 )
 {
