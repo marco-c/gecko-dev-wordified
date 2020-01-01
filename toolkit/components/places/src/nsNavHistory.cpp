@@ -44685,7 +44685,7 @@ duplicate
 uris
 except
 the
-choosen
+chosen
 id
 nsCOMPtr
 <

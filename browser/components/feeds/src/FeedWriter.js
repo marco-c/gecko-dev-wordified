@@ -8836,7 +8836,7 @@ choose
 application
 menuitem
 was
-choosen
+chosen
 using
 the
 keyboard
