@@ -2356,6 +2356,15 @@ HWND
 aWnd
 )
 ;
+void
+ScrollChildWindows
+(
+PRInt32
+aX
+PRInt32
+aY
+)
+;
 /
 /
 Enumeration
