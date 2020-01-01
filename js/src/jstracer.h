@@ -3374,14 +3374,6 @@ record_IteratorNextComplete
 (
 )
 ;
-JS_REQUIRES_STACK
-bool
-record_ApplyComplete
-(
-uintN
-argc
-)
-;
 nanojit
 :
 :
@@ -3737,6 +3729,12 @@ JSOP_NEXTITER
 |
 |
 \
+x
+=
+=
+JSOP_APPLY
+|
+|
 JSOP_IS_BINARY
 (
 x
