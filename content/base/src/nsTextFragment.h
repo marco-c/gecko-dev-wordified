@@ -762,6 +762,7 @@ subclassed
 *
 /
 class
+NS_FINAL_CLASS
 nsTextFragment
 {
 public
