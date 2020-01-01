@@ -13192,7 +13192,7 @@ GetRowSpan
 (
 aRowIndex
 aColIndex
-false
+true
 )
 ;
 PRUint32
