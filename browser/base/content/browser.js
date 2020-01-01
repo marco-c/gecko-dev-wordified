@@ -14993,6 +14993,11 @@ about
 :
 blank
 "
+|
+|
+content
+.
+opener
 )
 {
 gURLBar
@@ -25396,6 +25401,7 @@ content
 {
 if
 (
+(
 location
 =
 =
@@ -25404,6 +25410,13 @@ about
 :
 blank
 "
+&
+&
+!
+content
+.
+opener
+)
 |
 |
 location
