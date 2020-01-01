@@ -456,7 +456,7 @@ nsTArray
 .
 h
 "
-struct
+class
 nsSMILValue
 ;
 /
