@@ -691,6 +691,14 @@ getContentWindow
 (
 )
 ;
+assertNumberOfGroups
+(
+'
+start
+'
+1
+)
+;
 createGroupItem
 (
 )
