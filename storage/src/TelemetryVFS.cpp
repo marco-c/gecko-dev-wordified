@@ -2161,6 +2161,16 @@ pOutFlags
 ;
 if
 (
+rc
+!
+=
+SQLITE_OK
+)
+return
+rc
+;
+if
+(
 p
 -
 >
