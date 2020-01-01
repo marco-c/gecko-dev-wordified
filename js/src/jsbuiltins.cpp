@@ -729,11 +729,11 @@ not
 or
 really
 bad
+*
 things
 are
 going
 to
-*
 happen
 .
 *
