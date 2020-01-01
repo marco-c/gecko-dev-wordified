@@ -1353,17 +1353,6 @@ GetEnumValue
 +
 3
 ;
-/
-/
-XXX
-should
-be
-BASEFONT
-not
-three
-see
-bug
-3875
 else
 size
 =
