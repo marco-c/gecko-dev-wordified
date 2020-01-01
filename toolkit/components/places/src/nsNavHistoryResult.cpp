@@ -1689,9 +1689,10 @@ GetHistoryService
 (
 )
 ;
-NS_ENSURE_STATE
+NS_ENSURE_TRUE
 (
 history
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 mozIStorageStatement
@@ -1703,6 +1704,11 @@ history
 >
 DBGetTags
 (
+)
+;
+NS_ENSURE_STATE
+(
+getTagsStatement
 )
 ;
 mozStorageStatementScoper
