@@ -1505,7 +1505,7 @@ error
 "
 )
 false
-true
+false
 )
 ;
 }
@@ -17238,8 +17238,6 @@ NS_LITERAL_STRING
 MozAudioAvailable
 "
 )
-true
-true
 frameBuffer
 .
 forget
@@ -17368,7 +17366,7 @@ this
 )
 aName
 false
-true
+false
 )
 ;
 }
