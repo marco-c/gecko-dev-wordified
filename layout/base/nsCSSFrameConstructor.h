@@ -9885,7 +9885,7 @@ used
 .
 *
 /
-nsresult
+void
 ProcessChildren
 (
 nsFrameConstructorState
