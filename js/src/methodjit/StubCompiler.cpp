@@ -468,6 +468,15 @@ LinkBuffer
 .
 h
 "
+#
+include
+"
+FrameState
+-
+inl
+.
+h
+"
 using
 namespace
 js
