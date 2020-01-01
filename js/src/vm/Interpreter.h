@@ -2054,7 +2054,7 @@ HandleObject
 obj
 HandleValue
 v
-JSBool
+bool
 *
 bp
 )
@@ -2790,7 +2790,7 @@ HandleValue
 index
 HandleValue
 value
-JSBool
+bool
 strict
 )
 ;
@@ -2806,7 +2806,7 @@ HandleValue
 index
 HandleValue
 value
-JSBool
+bool
 strict
 HandleScript
 script
@@ -2988,7 +2988,7 @@ HandleValue
 val
 HandlePropertyName
 name
-JSBool
+bool
 *
 bv
 )
@@ -3008,7 +3008,7 @@ HandleValue
 val
 HandleValue
 index
-JSBool
+bool
 *
 bv
 )

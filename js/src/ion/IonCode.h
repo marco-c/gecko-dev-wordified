@@ -345,7 +345,7 @@ the
 prebarrier
 table
 .
-JSBool
+bool
 invalidated_
 ;
 /

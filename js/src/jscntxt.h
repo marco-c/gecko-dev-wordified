@@ -4542,7 +4542,7 @@ cx
 )
 ;
 extern
-JSBool
+bool
 js_HandleExecutionInterrupt
 (
 JSContext

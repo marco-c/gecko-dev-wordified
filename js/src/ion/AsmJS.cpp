@@ -42303,7 +42303,7 @@ IntArgReg0
 ;
 #
 endif
-JSBool
+bool
 (
 *
 pf
@@ -42332,13 +42332,8 @@ pf
 ;
 masm
 .
-branchTest32
+branchIfFalseBool
 (
-Assembler
-:
-:
-Zero
-ReturnReg
 ReturnReg
 throwLabel
 )
@@ -42659,7 +42654,7 @@ save
 all
 FP
 registers
-JSBool
+bool
 (
 *
 pf
@@ -42688,13 +42683,8 @@ pf
 ;
 masm
 .
-branchTest32
+branchIfFalseBool
 (
-Assembler
-:
-:
-Zero
-ReturnReg
 ReturnReg
 throwLabel
 )

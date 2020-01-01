@@ -2042,7 +2042,7 @@ JSContext
 *
 BaselineFrame
 *
-JSBool
+bool
 *
 )
 ;
@@ -4606,11 +4606,7 @@ IC
 will
 leave
 a
-JSBool
-value
-(
-guaranteed
-)
+BooleanValue
 in
 R0
 just
@@ -8053,7 +8049,7 @@ JSContext
 *
 HandleValue
 HandleValue
-JSBool
+bool
 *
 )
 ;
@@ -8739,7 +8735,7 @@ JSContext
 *
 HandleValue
 HandlePropertyName
-JSBool
+bool
 *
 )
 ;
@@ -12667,7 +12663,7 @@ BaselineFrame
 jsbytecode
 *
 pc
-JSBool
+bool
 *
 )
 ;
@@ -12818,7 +12814,7 @@ JSContext
 *
 BaselineFrame
 *
-JSBool
+bool
 )
 ;
 static
