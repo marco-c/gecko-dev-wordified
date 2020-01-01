@@ -581,7 +581,7 @@ kSignonBundle
 getString
 (
 "
-passwordsAll
+loginsSpielAll
 "
 )
 ;
@@ -1995,7 +1995,7 @@ kSignonBundle
 getString
 (
 "
-passwordsAll
+loginsSpielAll
 "
 )
 ;
@@ -2477,7 +2477,7 @@ kSignonBundle
 getString
 (
 "
-passwordsFiltered
+loginsSpielFiltered
 "
 )
 ;
