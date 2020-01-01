@@ -436,6 +436,8 @@ testPage
 ;
 gBrowser
 .
+tabContainer
+.
 addEventListener
 (
 "
@@ -447,6 +449,8 @@ aEvent
 )
 {
 gBrowser
+.
+tabContainer
 .
 removeEventListener
 (
@@ -493,6 +497,8 @@ testPage
 ;
 gBrowser
 .
+tabContainer
+.
 addEventListener
 (
 "
@@ -504,6 +510,8 @@ aEvent
 )
 {
 gBrowser
+.
+tabContainer
 .
 removeEventListener
 (
