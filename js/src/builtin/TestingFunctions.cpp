@@ -923,7 +923,7 @@ object
 s
 compartment
 (
-any
+and
 any
 other
 compartments
@@ -936,7 +936,7 @@ GC
 Otherwise
 we
 collect
-call
+all
 compartments
 .
 *
