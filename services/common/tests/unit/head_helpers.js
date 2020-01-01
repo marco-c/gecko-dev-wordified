@@ -989,6 +989,9 @@ completely
 fresh
 setup
 .
+mainThreadOnly
+:
+true
 PACURI
 :
 null
