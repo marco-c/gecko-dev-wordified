@@ -4473,11 +4473,9 @@ JSObject
 *
 arr
 =
-js_NewArrayObject
+NewDenseEmptyArray
 (
 cx
-0
-NULL
 )
 ;
 if
@@ -5442,11 +5440,9 @@ JSObject
 *
 arr
 =
-js_NewArrayObject
+NewDenseEmptyArray
 (
 cx
-0
-NULL
 )
 ;
 if

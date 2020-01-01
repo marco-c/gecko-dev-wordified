@@ -23381,7 +23381,7 @@ length
 )
 ;
 return
-js_NewArrayObject
+NewDenseCopiedArray
 (
 cx
 (
