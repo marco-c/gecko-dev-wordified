@@ -14549,10 +14549,6 @@ PRInt32
 pos
 )
 {
-silentCarriageReturn
-(
-)
-;
 flushChars
 (
 buf
@@ -14574,7 +14570,9 @@ REPLACEMENT_CHARACTER
 ;
 cstart
 =
-PR_INT32_MAX
+pos
++
+1
 ;
 }
 void
