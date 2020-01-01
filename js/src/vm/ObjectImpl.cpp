@@ -2953,9 +2953,11 @@ return
 true
 ;
 }
-static
 JSObject
 *
+js
+:
+:
 ArrayBufferDelegate
 (
 JSContext
