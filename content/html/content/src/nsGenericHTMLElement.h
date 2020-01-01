@@ -484,7 +484,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLFrameElement
+nsIDOMHTMLFrameElement
 .
 h
 "
@@ -6579,8 +6579,6 @@ nsGenericHTMLFrameElement
 public
 nsGenericHTMLElement
 public
-nsIDOMNSHTMLFrameElement
-public
 nsIFrameLoaderOwner
 {
 public
@@ -6642,10 +6640,6 @@ void
 aInstancePtr
 )
 ;
-/
-/
-nsIDOMNSHTMLFrameElement
-NS_DECL_NSIDOMNSHTMLFRAMEELEMENT
 /
 /
 nsIFrameLoaderOwner
@@ -6824,6 +6818,15 @@ nsIDOMDocument
 *
 *
 aContentDocument
+)
+;
+nsresult
+GetContentWindow
+(
+nsIDOMWindow
+*
+*
+aContentWindow
 )
 ;
 nsRefPtr

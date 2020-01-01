@@ -516,7 +516,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLFrameElement
+nsIDOMHTMLFrameElement
 .
 h
 "

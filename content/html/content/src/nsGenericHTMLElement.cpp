@@ -17884,10 +17884,9 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsGenericHTMLFrameElement
 )
-NS_INTERFACE_TABLE_INHERITED2
+NS_INTERFACE_TABLE_INHERITED1
 (
 nsGenericHTMLFrameElement
-nsIDOMNSHTMLFrameElement
 nsIFrameLoaderOwner
 )
 NS_INTERFACE_TABLE_TO_MAP_SEGUE_CYCLE_COLLECTION
@@ -17959,7 +17958,7 @@ aContentDocument
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsGenericHTMLFrameElement
 :
 :
