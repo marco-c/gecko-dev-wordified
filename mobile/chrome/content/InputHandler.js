@@ -530,7 +530,7 @@ tap
 const
 kLongTapWait
 =
-700
+500
 ;
 /
 /
@@ -4359,7 +4359,7 @@ event
 initEvent
 (
 "
-LongTap
+TapLong
 "
 true
 false
