@@ -1240,6 +1240,12 @@ DidPaintWindow
 (
 )
 ;
+void
+RequestRepaint
+(
+)
+MOZ_OVERRIDE
+;
 nsEventStatus
 HandleEvent
 (
