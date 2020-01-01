@@ -9967,7 +9967,7 @@ IME_UPDATE_CONTEXT
 AndroidBridge
 :
 :
-NotifyIMEEnabled
+NotifyIMEContext
 (
 mInputContext
 .

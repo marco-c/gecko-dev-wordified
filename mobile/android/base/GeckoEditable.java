@@ -425,7 +425,7 @@ IME
 enabled
 state
 for
-notifyIMEEnabled
+notifyIMEContext
 (
 )
 final
@@ -462,7 +462,7 @@ state
 )
 ;
 void
-notifyIMEEnabled
+notifyIMEContext
 (
 int
 state
@@ -4466,7 +4466,7 @@ state
 Override
 public
 void
-notifyIMEEnabled
+notifyIMEContext
 (
 final
 int
@@ -4527,7 +4527,7 @@ d
 (
 LOGTAG
 "
-notifyIMEEnabled
+notifyIMEContext
 (
 "
 +
@@ -4611,13 +4611,13 @@ syncWithGecko
 Set
 InputConnectionHandler
 in
-notifyIMEEnabled
+notifyIMEContext
 because
 /
 /
 GeckoInputConnection
 .
-notifyIMEEnabled
+notifyIMEContext
 calls
 restartInput
 (
@@ -4673,7 +4673,7 @@ mListener
 ;
 mListener
 .
-notifyIMEEnabled
+notifyIMEContext
 (
 state
 typeHint

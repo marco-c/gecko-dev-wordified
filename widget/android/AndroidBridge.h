@@ -811,7 +811,7 @@ aState
 ;
 static
 void
-NotifyIMEEnabled
+NotifyIMEContext
 (
 int
 aState
@@ -2219,7 +2219,7 @@ jmethodID
 jNotifyIME
 ;
 jmethodID
-jNotifyIMEEnabled
+jNotifyIMEContext
 ;
 jmethodID
 jNotifyIMEChange

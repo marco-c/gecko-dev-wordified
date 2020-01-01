@@ -1157,12 +1157,12 @@ InputThreadUtils
 Managed
 only
 by
-notifyIMEEnabled
+notifyIMEContext
 ;
 see
 comments
 in
-notifyIMEEnabled
+notifyIMEContext
 private
 int
 mIMEState
@@ -2323,7 +2323,7 @@ here
 see
 comments
 in
-notifyIMEEnabled
+notifyIMEContext
 }
 Override
 public
@@ -4911,7 +4911,7 @@ vkb
 is
 done
 in
-notifyIMEEnabled
+notifyIMEContext
 resetInputConnection
 (
 )
@@ -4946,7 +4946,7 @@ break
 Override
 public
 void
-notifyIMEEnabled
+notifyIMEContext
 (
 int
 state
@@ -5121,7 +5121,7 @@ only
 be
 changed
 by
-notifyIMEEnabled
+notifyIMEContext
 /
 /
 and
@@ -5131,7 +5131,7 @@ anywhere
 else
 .
 Usually
-notifyIMEEnabled
+notifyIMEContext
 is
 called
 right
@@ -5165,7 +5165,7 @@ guaranteed
 Gecko
 may
 call
-notifyIMEEnabled
+notifyIMEContext
 /
 /
 independent
@@ -5186,7 +5186,7 @@ by
 /
 /
 a
-notifyIMEEnabled
+notifyIMEContext
 call
 .
 So
@@ -5203,7 +5203,7 @@ not
 /
 be
 another
-notifyIMEEnabled
+notifyIMEContext
 call
 to
 set
@@ -5318,7 +5318,7 @@ we
 can
 still
 receive
-notifyIMEEnabled
+notifyIMEContext
 calls
 due
 to
@@ -5619,7 +5619,7 @@ else
 if
 (
 "
-notifyIMEEnabled
+notifyIMEContext
 "
 .
 equals

@@ -9703,7 +9703,7 @@ new
 LayerView
 GeckoAppShell
 .
-notifyIMEEnabled
+notifyIMEContext
 (
 GeckoEditableListener
 .
@@ -9714,7 +9714,6 @@ IME_STATE_DISABLED
 "
 "
 "
-false
 )
 ;
 }
