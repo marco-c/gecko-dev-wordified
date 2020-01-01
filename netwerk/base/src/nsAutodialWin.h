@@ -1096,15 +1096,6 @@ static
 PRIntervalTime
 mDontRetryUntil
 ;
-/
-/
-OS
-version
-info
-.
-OSVERSIONINFO
-mOSVerInfo
-;
 public
 :
 /

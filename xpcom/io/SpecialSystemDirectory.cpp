@@ -3952,8 +3952,6 @@ aFile
 /
 On
 WinXP
-and
-2k
 there
 is
 no

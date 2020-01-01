@@ -1472,9 +1472,6 @@ enum
 kWindowsUnknown
 =
 0
-kWindows2000
-=
-0x50000
 kWindowsXP
 =
 0x50001
