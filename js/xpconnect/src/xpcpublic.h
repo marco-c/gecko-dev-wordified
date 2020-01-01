@@ -1319,7 +1319,10 @@ set
 on
 cx
 .
+NS_EXPORT_
+(
 bool
+)
 Base64Encode
 (
 JSContext
@@ -1338,7 +1341,10 @@ Value
 out
 )
 ;
+NS_EXPORT_
+(
 bool
+)
 Base64Decode
 (
 JSContext
