@@ -634,9 +634,6 @@ run_test
 (
 )
 {
-return
-true
-;
 /
 /
 test
