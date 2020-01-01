@@ -854,13 +854,6 @@ defined
 (
 WEBRTC_ANDROID
 )
-&
-&
-!
-defined
-(
-WEBRTC_GONK
-)
 /
 /
 Enable
@@ -1632,13 +1625,6 @@ if
 defined
 (
 WEBRTC_ANDROID
-)
-&
-&
-!
-defined
-(
-WEBRTC_GONK
 )
 if
 (
