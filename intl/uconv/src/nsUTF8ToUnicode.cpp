@@ -763,7 +763,7 @@ byte
 we
 will
 return
-NS_ERROR_UNEXPECTED
+NS_ERROR_ILLEGAL_INPUT
 and
 the
 caller
@@ -2817,7 +2817,7 @@ state
 /
 res
 =
-NS_ERROR_UNEXPECTED
+NS_ERROR_ILLEGAL_INPUT
 ;
 break
 ;
@@ -3054,7 +3054,7 @@ mUcs4
 {
 res
 =
-NS_ERROR_UNEXPECTED
+NS_ERROR_ILLEGAL_INPUT
 ;
 break
 ;
@@ -3244,7 +3244,7 @@ in
 ;
 res
 =
-NS_ERROR_UNEXPECTED
+NS_ERROR_ILLEGAL_INPUT
 ;
 break
 ;
