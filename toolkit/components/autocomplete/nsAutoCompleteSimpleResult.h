@@ -624,6 +624,9 @@ mDefaultIndex
 PRUint32
 mSearchResult
 ;
+bool
+mTypeAheadResult
+;
 nsCOMPtr
 <
 nsIAutoCompleteSimpleResultListener
