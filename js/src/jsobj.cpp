@@ -23264,8 +23264,11 @@ init
 JSContext
 *
 cx
+Handle
+<
 JSObject
 *
+>
 obj
 )
 ;

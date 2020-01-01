@@ -488,6 +488,13 @@ ParallelArray
 js_InitParallelArrayClass
 )
 \
+macro
+(
+Intl
+41
+js_InitIntlClass
+)
+\
 #
 endif
 /

@@ -1265,6 +1265,10 @@ GeneratorClass
 ;
 extern
 Class
+IntlClass
+;
+extern
+Class
 JSONClass
 ;
 extern
