@@ -180,13 +180,6 @@ h
 #
 include
 "
-nsDOMMemoryReporter
-.
-h
-"
-#
-include
-"
 nsEventDispatcher
 .
 h

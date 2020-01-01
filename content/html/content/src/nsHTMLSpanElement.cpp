@@ -471,13 +471,6 @@ nsRuleData
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 class
 nsHTMLSpanElement
 :

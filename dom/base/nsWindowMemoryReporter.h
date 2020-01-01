@@ -434,10 +434,10 @@ BLOCK
 /
 #
 ifndef
-nsDOMMemoryReporter_h__
+nsWindowMemoryReporter_h__
 #
 define
-nsDOMMemoryReporter_h__
+nsWindowMemoryReporter_h__
 #
 include
 "
@@ -567,7 +567,7 @@ mLayoutTextRuns
 }
 ;
 class
-nsDOMMemoryMultiReporter
+nsWindowMemoryReporter
 :
 public
 nsIMemoryMultiReporter
@@ -594,7 +594,7 @@ Init
 )
 instead
 .
-nsDOMMemoryMultiReporter
+nsWindowMemoryReporter
 (
 )
 ;
@@ -604,4 +604,4 @@ nsDOMMemoryMultiReporter
 endif
 /
 /
-nsDOMMemoryReporter_h__
+nsWindowMemoryReporter_h__

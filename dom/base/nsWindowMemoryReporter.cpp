@@ -435,7 +435,7 @@ BLOCK
 #
 include
 "
-nsDOMMemoryReporter
+nsWindowMemoryReporter
 .
 h
 "
@@ -446,17 +446,17 @@ nsGlobalWindow
 .
 h
 "
-nsDOMMemoryMultiReporter
+nsWindowMemoryReporter
 :
 :
-nsDOMMemoryMultiReporter
+nsWindowMemoryReporter
 (
 )
 {
 }
 NS_IMPL_ISUPPORTS1
 (
-nsDOMMemoryMultiReporter
+nsWindowMemoryReporter
 nsIMemoryMultiReporter
 )
 /
@@ -465,7 +465,7 @@ static
 *
 /
 void
-nsDOMMemoryMultiReporter
+nsWindowMemoryReporter
 :
 :
 Init
@@ -488,7 +488,7 @@ object
 NS_RegisterMemoryMultiReporter
 (
 new
-nsDOMMemoryMultiReporter
+nsWindowMemoryReporter
 (
 )
 )
@@ -1895,7 +1895,7 @@ PL_DHASH_NEXT
 ;
 }
 NS_IMETHODIMP
-nsDOMMemoryMultiReporter
+nsWindowMemoryReporter
 :
 :
 GetName
@@ -1921,7 +1921,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsDOMMemoryMultiReporter
+nsWindowMemoryReporter
 :
 :
 CollectReports
@@ -2345,7 +2345,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsDOMMemoryMultiReporter
+nsWindowMemoryReporter
 :
 :
 GetExplicitNonHeap
