@@ -1663,7 +1663,7 @@ SetPropertyAsBool
 NS_LITERAL_STRING
 (
 "
-isTablet
+tablet
 "
 )
 isTablet
