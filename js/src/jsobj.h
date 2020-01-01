@@ -10084,6 +10084,9 @@ propp
 bool
 GetPropertyPure
 (
+ThreadSafeContext
+*
+tcx
 JSObject
 *
 obj
@@ -10098,6 +10101,9 @@ inline
 bool
 GetPropertyPure
 (
+ThreadSafeContext
+*
+tcx
 JSObject
 *
 obj
@@ -10112,6 +10118,7 @@ vp
 return
 GetPropertyPure
 (
+tcx
 obj
 NameToId
 (
