@@ -31142,7 +31142,7 @@ break
 break
 ;
 case
-WM_XP_THEMECHANGED
+WM_THEMECHANGED
 :
 {
 /
@@ -31154,6 +31154,13 @@ client
 margin
 offsets
 UpdateNonClientMargins
+(
+)
+;
+nsUXThemeData
+:
+:
+InitTitlebarInfo
 (
 )
 ;
