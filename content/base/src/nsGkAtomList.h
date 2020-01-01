@@ -2998,13 +2998,6 @@ grid
 )
 GK_ATOM
 (
-gripper
-"
-gripper
-"
-)
-GK_ATOM
-(
 grippy
 "
 grippy
