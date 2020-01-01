@@ -1707,6 +1707,14 @@ image
 =
 0
 ;
+virtual
+EGLImage
+GetNullEGLImage
+(
+)
+=
+0
+;
 #
 endif
 virtual
