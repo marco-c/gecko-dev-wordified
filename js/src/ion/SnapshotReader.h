@@ -1423,6 +1423,16 @@ slotsRead_
 slotCount_
 ;
 }
+uint32
+frameCount
+(
+)
+const
+{
+return
+frameCount_
+;
+}
 }
 ;
 }

@@ -1690,11 +1690,12 @@ snapshot
 .
 InlineFrameIterator
 ifi
-=
-InlineFrameIterator
 (
 &
 fiter
+MachineState
+(
+)
 )
 ;
 JS_ASSERT
