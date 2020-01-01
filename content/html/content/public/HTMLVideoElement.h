@@ -248,6 +248,12 @@ aAttribute
 const
 MOZ_OVERRIDE
 ;
+static
+void
+Init
+(
+)
+;
 virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
