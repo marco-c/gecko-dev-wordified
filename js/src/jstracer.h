@@ -4201,6 +4201,7 @@ class
 TraceRecorder
 {
 VMAllocator
+&
 tempAlloc
 ;
 JSContext
