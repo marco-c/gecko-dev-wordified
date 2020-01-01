@@ -1037,6 +1037,11 @@ on
 worker
 thread
 only
+bool
+EventOccurred
+(
+)
+;
 void
 MaybeProcessDeferredIncall
 (
