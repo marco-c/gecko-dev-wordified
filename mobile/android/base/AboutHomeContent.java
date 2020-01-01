@@ -4370,9 +4370,6 @@ heightMeasureSpec
 )
 {
 int
-numCols
-;
-int
 numRows
 ;
 Configuration
@@ -4402,10 +4399,6 @@ Configuration
 ORIENTATION_LANDSCAPE
 )
 {
-numCols
-=
-NUMBER_OF_COLS_LANDSCAPE
-;
 numRows
 =
 NUMBER_OF_TOP_SITES_LANDSCAPE
@@ -4415,10 +4408,6 @@ NUMBER_OF_COLS_LANDSCAPE
 }
 else
 {
-numCols
-=
-NUMBER_OF_COLS_PORTRAIT
-;
 numRows
 =
 NUMBER_OF_TOP_SITES_PORTRAIT
