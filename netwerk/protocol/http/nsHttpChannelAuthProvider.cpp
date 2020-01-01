@@ -235,6 +235,10 @@ mAuthChannel
 (
 nullptr
 )
+mIsPrivate
+(
+false
+)
 mProxyAuthContinuationState
 (
 nullptr
@@ -467,6 +471,24 @@ rv
 )
 return
 rv
+;
+nsCOMPtr
+<
+nsIChannel
+>
+bareChannel
+=
+do_QueryInterface
+(
+channel
+)
+;
+mIsPrivate
+=
+NS_UsePrivateBrowsing
+(
+bareChannel
+)
 ;
 return
 NS_OK
@@ -1059,6 +1081,7 @@ gHttpHandler
 >
 AuthCache
 (
+mIsPrivate
 )
 ;
 /
@@ -2077,6 +2100,7 @@ gHttpHandler
 >
 AuthCache
 (
+mIsPrivate
 )
 ;
 /
@@ -3616,6 +3640,7 @@ gHttpHandler
 >
 AuthCache
 (
+mIsPrivate
 )
 ;
 uint32_t
@@ -6170,6 +6195,7 @@ gHttpHandler
 >
 AuthCache
 (
+mIsPrivate
 )
 ;
 nsHttpAuthEntry

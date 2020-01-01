@@ -796,9 +796,16 @@ nsHttpAuthCache
 *
 AuthCache
 (
+bool
+aPrivate
 )
 {
 return
+aPrivate
+?
+&
+mPrivateAuthCache
+:
 &
 mAuthCache
 ;
@@ -1660,6 +1667,9 @@ credentials
 cache
 nsHttpAuthCache
 mAuthCache
+;
+nsHttpAuthCache
+mPrivateAuthCache
 ;
 /
 /
