@@ -420,6 +420,13 @@ nsXPCOM
 h
 "
 #
+include
+"
+nsRegion
+.
+h
+"
+#
 if
 defined
 (
@@ -532,6 +539,13 @@ message_loop
 set_exception_restoration
 (
 true
+)
+;
+nsRegion
+:
+:
+MigrateToCurrentThread
+(
 )
 ;
 NS_LogInit
