@@ -283,6 +283,11 @@ mPanners
 AppendElement
 (
 aPannerNode
+-
+>
+asWeakPtr
+(
+)
 )
 ;
 /
@@ -400,6 +405,14 @@ Length
 i
 )
 {
+if
+(
+mPanners
+[
+i
+]
+)
+{
 mPanners
 [
 i
@@ -412,6 +425,7 @@ aIndex
 aValue
 )
 ;
+}
 }
 }
 void
@@ -448,6 +462,14 @@ Length
 i
 )
 {
+if
+(
+mPanners
+[
+i
+]
+)
+{
 mPanners
 [
 i
@@ -460,6 +482,7 @@ aIndex
 aValue
 )
 ;
+}
 }
 }
 }
