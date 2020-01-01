@@ -473,8 +473,6 @@ future
 .
 *
 /
-/
-/
 #
 define
 CAIRO_FORMAT_RGB16_565
