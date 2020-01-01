@@ -7117,13 +7117,10 @@ args_
 ;
 if
 (
+IsErrorStatus
+(
 result
-=
-=
-ion
-:
-:
-IonExec_Error
+)
 )
 return
 false

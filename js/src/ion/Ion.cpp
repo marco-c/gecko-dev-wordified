@@ -8057,7 +8057,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-IonExec_Error
+IonExec_Aborted
 )
 ;
 JS_ASSERT
