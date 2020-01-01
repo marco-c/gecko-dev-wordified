@@ -6233,7 +6233,7 @@ GetPercentValue
 =
 0
 .
-0
+0f
 )
 |
 |
@@ -6334,7 +6334,7 @@ GetPercentValue
 =
 0
 .
-0
+0f
 )
 |
 |
