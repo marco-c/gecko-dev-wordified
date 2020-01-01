@@ -3355,12 +3355,6 @@ WebIDL
 -
 ish
 APIs
-static
-bool
-HasPerformanceSupport
-(
-)
-;
 nsPerformance
 *
 GetPerformance
