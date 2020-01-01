@@ -16739,6 +16739,11 @@ thisObj
 ValuePropertyBearer
 (
 cx
+regs
+.
+fp
+(
+)
 thisv
 -
 2
