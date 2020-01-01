@@ -991,12 +991,6 @@ doSeek
 )
 )
 {
-mVideoQueue
-.
-Finish
-(
-)
-;
 return
 false
 ;
@@ -1839,12 +1833,6 @@ mAudioSeekTimeUs
 )
 )
 {
-mAudioQueue
-.
-Finish
-(
-)
-;
 return
 false
 ;
