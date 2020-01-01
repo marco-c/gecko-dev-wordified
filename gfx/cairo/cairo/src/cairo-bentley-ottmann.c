@@ -4476,7 +4476,10 @@ NULL
 )
 status
 =
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 return
 status
@@ -4758,7 +4761,10 @@ events
 NULL
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 sorted_event_ptrs
 =
@@ -5260,7 +5266,10 @@ sweep_line_elt
 NULL
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 next_elt
 =
@@ -6947,7 +6956,10 @@ edge
 deferred_trap
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 trap
 -
@@ -8260,7 +8272,10 @@ edges
 NULL
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 }
 /

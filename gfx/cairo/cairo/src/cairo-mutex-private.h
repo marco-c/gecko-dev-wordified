@@ -405,6 +405,17 @@ include
 "
 cairo
 -
+compiler
+-
+private
+.
+h
+"
+#
+include
+"
+cairo
+-
 mutex
 -
 type

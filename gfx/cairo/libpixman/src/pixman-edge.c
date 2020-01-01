@@ -1,35 +1,6 @@
 /
 *
 *
-Id
-:
-pixman
--
-edge
-.
-c
-v
-1
-.
-9
-2007
-/
-09
-/
-20
-19
-:
-24
-:
-51
-vladimir
-%
-pobox
-.
-com
-Exp
-*
-*
 Copyright
 2004
 Keith
@@ -462,6 +433,7 @@ __o
 =
 READ
 (
+image
 __ap
 )
 ;
@@ -482,6 +454,7 @@ __ao
 \
 WRITE
 (
+image
 __ap
 Put4
 (
@@ -644,6 +617,7 @@ i__
 \
 WRITE
 (
+image
 (
 buf__
 )
@@ -651,6 +625,7 @@ clip255
 (
 READ
 (
+image
 (
 buf__
 )
@@ -861,7 +836,7 @@ bits
 .
 bits
 ;
-int32_t
+int
 stride
 =
 (
@@ -873,7 +848,7 @@ bits
 .
 rowstride
 ;
-int32_t
+int
 width
 =
 (
@@ -1056,6 +1031,7 @@ rxi
 {
 WRITE
 (
+image
 ap
 +
 lxi
@@ -1063,6 +1039,7 @@ clip255
 (
 READ
 (
+image
 ap
 +
 lxi
@@ -1079,6 +1056,7 @@ else
 {
 WRITE
 (
+image
 ap
 +
 lxi
@@ -1086,6 +1064,7 @@ clip255
 (
 READ
 (
+image
 ap
 +
 lxi
@@ -1410,6 +1389,7 @@ rxs
 )
 WRITE
 (
+image
 ap
 +
 rxi
@@ -1417,6 +1397,7 @@ clip255
 (
 READ
 (
+image
 ap
 +
 rxi
@@ -1474,6 +1455,7 @@ N_Y_FRAC
 {
 MEMSET_WRAPPED
 (
+image
 ap
 +
 fill_start
@@ -1581,6 +1563,7 @@ N_Y_FRAC
 {
 MEMSET_WRAPPED
 (
+image
 ap
 +
 fill_start

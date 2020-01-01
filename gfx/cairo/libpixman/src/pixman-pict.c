@@ -311,6 +311,7 @@ WRITE
 define
 READ
 (
+img
 x
 )
 (
@@ -323,6 +324,7 @@ x
 define
 WRITE
 (
+img
 ptr
 v
 )
@@ -742,6 +744,7 @@ m
 =
 READ
 (
+pMask
 mask
 +
 +
@@ -756,6 +759,7 @@ s
 =
 READ
 (
+pSrc
 src
 )
 |
@@ -770,6 +774,7 @@ m
 )
 WRITE
 (
+pDst
 dst
 s
 )
@@ -786,12 +791,14 @@ m
 ;
 WRITE
 (
+pDst
 dst
 fbOver
 (
 d
 READ
 (
+pDst
 dst
 )
 )
@@ -1461,6 +1468,7 @@ m
 =
 READ
 (
+pMask
 mask
 +
 +
@@ -1483,6 +1491,7 @@ srca
 )
 WRITE
 (
+pDst
 dst
 src
 &
@@ -1492,12 +1501,14 @@ dstMask
 else
 WRITE
 (
+pDst
 dst
 fbOver
 (
 src
 READ
 (
+pDst
 dst
 )
 )
@@ -1522,12 +1533,14 @@ m
 ;
 WRITE
 (
+pDst
 dst
 fbOver
 (
 d
 READ
 (
+pDst
 dst
 )
 )
@@ -1728,6 +1741,7 @@ ma
 =
 READ
 (
+pMask
 mask
 +
 +
@@ -1750,6 +1764,7 @@ srca
 )
 WRITE
 (
+pDst
 dst
 src
 &
@@ -1759,12 +1774,14 @@ dstMask
 else
 WRITE
 (
+pDst
 dst
 fbOver
 (
 src
 READ
 (
+pDst
 dst
 )
 )
@@ -1783,6 +1800,7 @@ d
 =
 READ
 (
+pDst
 dst
 )
 ;
@@ -1938,6 +1956,7 @@ p
 ;
 WRITE
 (
+pDst
 dst
 m
 |
@@ -2121,6 +2140,7 @@ m
 =
 READ
 (
+pMask
 mask
 +
 +
@@ -2151,6 +2171,7 @@ d
 =
 Fetch24
 (
+pDst
 dst
 )
 ;
@@ -2165,6 +2186,7 @@ d
 }
 Store24
 (
+pDst
 dst
 d
 )
@@ -2187,12 +2209,14 @@ m
 )
 Fetch24
 (
+pDst
 dst
 )
 )
 ;
 Store24
 (
+pDst
 dst
 d
 )
@@ -2371,6 +2395,7 @@ m
 =
 READ
 (
+pMask
 mask
 +
 +
@@ -2401,6 +2426,7 @@ d
 =
 READ
 (
+pDst
 dst
 )
 ;
@@ -2418,6 +2444,7 @@ d
 }
 WRITE
 (
+pDst
 dst
 cvt8888to0565
 (
@@ -2436,6 +2463,7 @@ d
 =
 READ
 (
+pDst
 dst
 )
 ;
@@ -2456,6 +2484,7 @@ d
 ;
 WRITE
 (
+pDst
 dst
 cvt8888to0565
 (
@@ -2651,6 +2680,7 @@ ma
 =
 READ
 (
+pMask
 mask
 +
 +
@@ -2674,6 +2704,7 @@ srca
 {
 WRITE
 (
+pDst
 dst
 src16
 )
@@ -2685,6 +2716,7 @@ d
 =
 READ
 (
+pDst
 dst
 )
 ;
@@ -2701,6 +2733,7 @@ d
 ;
 WRITE
 (
+pDst
 dst
 cvt8888to0565
 (
@@ -2720,6 +2753,7 @@ d
 =
 READ
 (
+pDst
 dst
 )
 ;
@@ -2770,6 +2804,7 @@ o
 ;
 WRITE
 (
+pDst
 dst
 cvt8888to0565
 (
@@ -2934,6 +2969,7 @@ s
 =
 READ
 (
+pSrc
 src
 +
 +
@@ -2955,6 +2991,7 @@ a
 )
 WRITE
 (
+pDst
 dst
 s
 &
@@ -2968,12 +3005,14 @@ a
 )
 WRITE
 (
+pDst
 dst
 fbOver
 (
 s
 READ
 (
+pDst
 dst
 )
 )
@@ -3124,6 +3163,7 @@ s
 =
 READ
 (
+pSrc
 src
 +
 +
@@ -3160,12 +3200,14 @@ fbOver24
 s
 Fetch24
 (
+pDst
 dst
 )
 )
 ;
 Store24
 (
+pDst
 dst
 d
 )
@@ -3315,6 +3357,7 @@ s
 =
 READ
 (
+pSrc
 src
 +
 +
@@ -3349,6 +3392,7 @@ d
 =
 READ
 (
+pDst
 dst
 )
 ;
@@ -3366,6 +3410,7 @@ d
 }
 WRITE
 (
+pDst
 dst
 cvt8888to0565
 (
@@ -3517,6 +3562,7 @@ s
 =
 READ
 (
+pSrc
 src
 +
 +
@@ -3539,6 +3585,7 @@ d
 =
 READ
 (
+pDst
 dst
 )
 ;
@@ -3566,6 +3613,7 @@ t
 }
 WRITE
 (
+pDst
 dst
 s
 )
@@ -3720,6 +3768,7 @@ s
 =
 READ
 (
+pSrc
 src
 +
 +
@@ -3742,6 +3791,7 @@ d
 =
 READ
 (
+pDst
 dst
 )
 ;
@@ -3804,6 +3854,7 @@ p
 }
 WRITE
 (
+pDst
 dst
 s
 )
@@ -3986,6 +4037,7 @@ a
 =
 READ
 (
+pMask
 mask
 +
 +
@@ -3995,6 +4047,7 @@ d
 =
 READ
 (
+pDst
 dst
 )
 ;
@@ -4020,6 +4073,7 @@ tmp
 ;
 WRITE
 (
+pDst
 dst
 +
 +
@@ -5871,6 +5925,18 @@ repeat
 =
 =
 PIXMAN_REPEAT_NORMAL
+;
+maskTransform
+=
+pMask
+-
+>
+common
+.
+transform
+!
+=
+0
 ;
 if
 (

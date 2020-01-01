@@ -381,6 +381,17 @@ pixman
 .
 h
 >
+#
+include
+"
+cairo
+-
+compiler
+-
+private
+.
+h
+"
 /
 *
 cairo_region_t

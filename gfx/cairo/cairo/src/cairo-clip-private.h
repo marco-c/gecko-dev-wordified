@@ -348,6 +348,17 @@ include
 "
 cairo
 -
+compiler
+-
+private
+.
+h
+"
+#
+include
+"
+cairo
+-
 path
 -
 fixed
@@ -365,8 +376,7 @@ _cairo_rectangles_nil
 struct
 _cairo_clip_path
 {
-unsigned
-int
+cairo_reference_count_t
 ref_count
 ;
 cairo_path_fixed_t
@@ -392,6 +402,9 @@ _cairo_clip
 {
 cairo_clip_mode_t
 mode
+;
+cairo_bool_t
+all_clipped
 ;
 /
 *

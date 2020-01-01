@@ -586,6 +586,8 @@ void
 cairo_font_options_t
 *
 options
+;
+options
 =
 malloc
 (
@@ -600,6 +602,12 @@ if
 !
 options
 )
+{
+_cairo_error_throw
+(
+CAIRO_STATUS_NO_MEMORY
+)
+;
 return
 (
 cairo_font_options_t
@@ -608,6 +616,7 @@ cairo_font_options_t
 &
 _cairo_font_options_nil
 ;
+}
 _cairo_font_options_init_default
 (
 options
@@ -758,6 +767,12 @@ if
 !
 options
 )
+{
+_cairo_error_throw
+(
+CAIRO_STATUS_NO_MEMORY
+)
+;
 return
 (
 cairo_font_options_t
@@ -766,6 +781,7 @@ cairo_font_options_t
 &
 _cairo_font_options_nil
 ;
+}
 _cairo_font_options_init_copy
 (
 options

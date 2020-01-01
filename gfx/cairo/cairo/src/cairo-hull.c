@@ -525,9 +525,16 @@ hull
 =
 NULL
 )
+{
+_cairo_error_throw
+(
+CAIRO_STATUS_NO_MEMORY
+)
+;
 return
 NULL
 ;
+}
 for
 (
 i
@@ -1028,7 +1035,7 @@ index
 ;
 }
 static
-cairo_status_t
+void
 _cairo_hull_eliminate_concave
 (
 cairo_hull_t
@@ -1147,7 +1154,6 @@ i
 k
 )
 return
-CAIRO_STATUS_SUCCESS
 ;
 hull
 [
@@ -1201,12 +1207,9 @@ j
 0
 )
 ;
-return
-CAIRO_STATUS_SUCCESS
-;
 }
 static
-cairo_status_t
+void
 _cairo_hull_to_pen
 (
 cairo_hull_t
@@ -1274,9 +1277,6 @@ point
 num_vertices
 =
 j
-;
-return
-CAIRO_STATUS_SUCCESS
 ;
 }
 /

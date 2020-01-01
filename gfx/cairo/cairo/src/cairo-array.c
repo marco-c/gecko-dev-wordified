@@ -877,7 +877,10 @@ elements
 NULL
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 *
 array
@@ -897,7 +900,7 @@ new_size
 ;
 new_elements
 =
-realloc
+_cairo_realloc_ab
 (
 *
 array
@@ -908,7 +911,6 @@ array
 -
 >
 size
-*
 array
 -
 >
@@ -931,7 +933,10 @@ size
 old_size
 ;
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 }
 *

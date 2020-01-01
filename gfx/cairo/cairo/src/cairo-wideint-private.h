@@ -506,6 +506,17 @@ etc
 )
 #
 endif
+#
+include
+"
+cairo
+-
+compiler
+-
+private
+.
+h
+"
 /
 *
 *

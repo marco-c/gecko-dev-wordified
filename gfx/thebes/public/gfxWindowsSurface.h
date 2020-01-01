@@ -623,6 +623,12 @@ EndPage
 (
 )
 ;
+virtual
+PRInt32
+GetDefaultContextFlags
+(
+)
+;
 private
 :
 PRPackedBool

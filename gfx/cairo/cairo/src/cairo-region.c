@@ -521,7 +521,10 @@ pboxes
 NULL
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 }
 for
@@ -620,7 +623,10 @@ count
 )
 status
 =
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 if
 (
@@ -685,7 +691,10 @@ rgn
 )
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 return
 CAIRO_STATUS_SUCCESS
@@ -793,7 +802,10 @@ cboxes
 NULL
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 for
 (
@@ -1055,7 +1067,10 @@ rgn
 )
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 return
 CAIRO_STATUS_SUCCESS
@@ -1098,7 +1113,10 @@ rgn
 )
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 return
 CAIRO_STATUS_SUCCESS
@@ -1152,7 +1170,10 @@ height
 )
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 return
 CAIRO_STATUS_SUCCESS

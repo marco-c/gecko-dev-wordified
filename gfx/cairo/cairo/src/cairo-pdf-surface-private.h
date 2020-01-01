@@ -510,6 +510,9 @@ next_available_resource
 cairo_pdf_resource_t
 pages_resource
 ;
+cairo_bool_t
+compress_content
+;
 struct
 {
 cairo_bool_t
@@ -545,6 +548,10 @@ stream
 ;
 cairo_output_stream_t
 *
+mem_stream
+;
+cairo_output_stream_t
+*
 old_output
 ;
 cairo_pdf_group_resources_t
@@ -567,6 +574,10 @@ active
 cairo_output_stream_t
 *
 stream
+;
+cairo_output_stream_t
+*
+mem_stream
 ;
 cairo_output_stream_t
 *
