@@ -4226,7 +4226,7 @@ if
 type
 )
 return
-NULL
+false
 ;
 }
 /
