@@ -647,8 +647,10 @@ Reset
 ;
 protected
 :
+nsCOMPtr
+<
 nsINode
-*
+>
 mRoot
 ;
 nsCOMPtr
