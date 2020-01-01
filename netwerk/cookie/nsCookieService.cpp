@@ -9782,6 +9782,14 @@ of
 the
 way
 .
+if
+(
+mDefaultDBState
+-
+>
+dbConn
+)
+{
 mDefaultDBState
 -
 >
@@ -9796,6 +9804,7 @@ mDefaultDBState
 closeListener
 )
 ;
+}
 CloseDefaultDBConnection
 (
 )
