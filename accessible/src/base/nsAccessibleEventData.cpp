@@ -1051,7 +1051,7 @@ NS_OK
 }
 /
 /
-nsAccStateChangeEvent
+nsAccTextChangeEvent
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsAccTextChangeEvent
@@ -1095,7 +1095,7 @@ aLength
 )
 mIsInserted
 (
-mIsInserted
+aIsInserted
 )
 {
 }
