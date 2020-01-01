@@ -1618,7 +1618,6 @@ realVal
 JS_IsArrayBufferObject
 (
 obj
-aCx
 )
 )
 )
@@ -1629,7 +1628,6 @@ len
 JS_GetArrayBufferByteLength
 (
 obj
-aCx
 )
 ;
 char
@@ -1645,7 +1643,6 @@ char
 JS_GetArrayBufferData
 (
 obj
-aCx
 )
 )
 ;

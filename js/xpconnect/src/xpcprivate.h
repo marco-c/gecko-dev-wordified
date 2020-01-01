@@ -21177,9 +21177,6 @@ static
 JSBool
 JSTypedArray2Native
 (
-JSContext
-*
-cx
 void
 *
 *

@@ -563,7 +563,6 @@ bufferLength
 JS_GetArrayBufferByteLength
 (
 jsArrayBuffer
-aCx
 )
 ;
 uint8_t
@@ -573,7 +572,6 @@ arrayBuffer
 JS_GetArrayBufferData
 (
 jsArrayBuffer
-aCx
 )
 ;
 nsCOMPtr

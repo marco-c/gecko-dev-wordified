@@ -1359,7 +1359,6 @@ JS_IsArrayBufferViewObject
 (
 &
 obj
-aCx
 )
 )
 {
@@ -1371,13 +1370,11 @@ JS_GetArrayBufferViewData
 (
 &
 obj
-aCx
 )
 JS_GetArrayBufferViewByteLength
 (
 &
 obj
-aCx
 )
 )
 ;
@@ -1390,7 +1387,6 @@ JS_IsArrayBufferObject
 (
 &
 obj
-aCx
 )
 )
 {
@@ -1761,12 +1757,10 @@ AppendVoidPtr
 JS_GetArrayBufferData
 (
 aBuffer
-aCx
 )
 JS_GetArrayBufferByteLength
 (
 aBuffer
-aCx
 )
 )
 ;
