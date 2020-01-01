@@ -1569,6 +1569,11 @@ op
 )
 ;
 bool
+jsop_neg
+(
+)
+;
+bool
 jsop_ifeq
 (
 JSOp
