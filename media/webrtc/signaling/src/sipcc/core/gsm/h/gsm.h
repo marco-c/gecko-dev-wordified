@@ -229,7 +229,7 @@ have
 access
 to
 the
-gsm_msgq
+gsm_msg_queue
 variable
 since
 CPR
@@ -250,7 +250,7 @@ message
 /
 extern
 cprMsgQueue_t
-gsm_msgq
+gsm_msg_queue
 ;
 extern
 void
