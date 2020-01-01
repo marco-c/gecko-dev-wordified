@@ -222,7 +222,7 @@ getMeasurement
 "
 counts
 "
-1
+2
 )
 ;
 m
