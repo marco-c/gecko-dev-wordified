@@ -2912,7 +2912,7 @@ emptyShape
 .
 Mnemonic
 :
-ABDEW
+ABCDEW
 *
 /
 js
@@ -2928,6 +2928,13 @@ js
 EmptyShape
 *
 emptyBlockShape
+;
+js
+:
+:
+EmptyShape
+*
+emptyCallShape
 ;
 js
 :

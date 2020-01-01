@@ -5692,6 +5692,17 @@ static
 inline
 EmptyShape
 *
+getEmptyCallShape
+(
+JSContext
+*
+cx
+)
+;
+static
+inline
+EmptyShape
+*
 getEmptyDeclEnvShape
 (
 JSContext
