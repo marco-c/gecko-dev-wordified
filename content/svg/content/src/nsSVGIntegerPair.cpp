@@ -520,7 +520,7 @@ nsISupports
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
-SVGAnimatedIntegerPair
+SVGAnimatedInteger
 )
 NS_INTERFACE_MAP_END
 /
