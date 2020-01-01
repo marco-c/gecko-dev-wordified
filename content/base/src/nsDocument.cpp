@@ -44895,7 +44895,7 @@ return
 docShell
 -
 >
-GetIsBrowserElement
+GetIsContentBoundary
 (
 )
 ;
