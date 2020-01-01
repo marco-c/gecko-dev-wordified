@@ -1584,7 +1584,7 @@ return
 rv
 ;
 }
-nsresult
+void
 nsINode
 :
 :
@@ -1607,13 +1607,8 @@ GetOwnerDoc
 ;
 if
 (
-!
 doc
 )
-return
-nsnull
-;
-return
 doc
 -
 >
