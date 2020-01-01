@@ -4602,7 +4602,7 @@ StoreOptimizedLayerForFrame
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aDisplayItemKey
 Layer
 *
@@ -4649,7 +4649,7 @@ return
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -1890,7 +1890,7 @@ static
 bool
 IsPermanentRedirect
 (
-PRUint32
+uint32_t
 httpStatus
 )
 ;

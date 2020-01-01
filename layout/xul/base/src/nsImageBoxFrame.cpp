@@ -1853,7 +1853,7 @@ ShouldSyncDecodeImages
 )
 ?
 (
-PRUint32
+uint32_t
 )
 imgIContainer
 :
@@ -1861,7 +1861,7 @@ imgIContainer
 FLAG_SYNC_DECODE
 :
 (
-PRUint32
+uint32_t
 )
 imgIContainer
 :
@@ -1899,7 +1899,7 @@ mFrame
 )
 )
 ;
-PRInt32
+int32_t
 factor
 =
 mFrame
@@ -1989,10 +1989,10 @@ imgCon
 )
 )
 ;
-PRInt32
+int32_t
 imageWidth
 ;
-PRInt32
+int32_t
 imageHeight
 ;
 imgCon
