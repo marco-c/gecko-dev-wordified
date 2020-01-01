@@ -554,6 +554,11 @@ nsAudioStream
 (
 )
 ;
+~
+nsAudioStream
+(
+)
+;
 /
 /
 Initialize

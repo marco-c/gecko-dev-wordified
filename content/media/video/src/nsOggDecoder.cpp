@@ -6202,6 +6202,16 @@ mState
 case
 DECODER_STATE_SHUTDOWN
 :
+if
+(
+mPlaying
+)
+{
+StopPlayback
+(
+)
+;
+}
 return
 NS_OK
 ;
