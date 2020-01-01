@@ -2761,6 +2761,15 @@ fcount
 0
 )
 {
+last
+=
+TimeStamp
+:
+:
+Now
+(
+)
+;
 }
 void
 DrawFPS
