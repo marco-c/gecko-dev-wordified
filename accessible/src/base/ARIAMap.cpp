@@ -1737,6 +1737,8 @@ nsGkAtoms
 :
 :
 aria_atomic
+ATTR_BYPASSOBJ_IF_FALSE
+|
 ATTR_VALTOKEN
 |
 ATTR_GLOBAL
