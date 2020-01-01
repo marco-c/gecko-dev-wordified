@@ -4843,9 +4843,6 @@ click
 hold
 context
 menus
-bool
-mClickHoldContextMenu
-;
 nsCOMPtr
 <
 nsITimer
