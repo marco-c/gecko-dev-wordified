@@ -1929,6 +1929,10 @@ FileTransferComplete
 (
 )
 ;
+NotifyAboutFileChange
+(
+)
+;
 }
 ReplyToPut
 (
