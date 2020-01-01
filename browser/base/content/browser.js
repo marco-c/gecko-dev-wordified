@@ -17470,7 +17470,6 @@ nsISessionStore
 ;
 if
 (
-!
 ss
 .
 canRestoreLastSession
@@ -17484,10 +17483,13 @@ launcher
 "
 )
 .
-removeAttribute
+setAttribute
 (
 "
 session
+"
+"
+true
 "
 )
 ;
