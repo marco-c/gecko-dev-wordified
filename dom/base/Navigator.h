@@ -1011,7 +1011,10 @@ aBuildID
 )
 ;
 }
-nsIDOMMozPowerManager
+power
+:
+:
+PowerManager
 *
 GetMozPower
 (
