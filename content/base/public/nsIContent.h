@@ -2425,7 +2425,6 @@ set
 .
 *
 /
-virtual
 bool
 GetAttr
 (
@@ -2439,8 +2438,6 @@ nsAString
 aResult
 )
 const
-=
-0
 ;
 /
 *
