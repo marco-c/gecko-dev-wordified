@@ -3834,7 +3834,7 @@ then
 script
 -
 >
-argLivesInCallObject
+formalLivesInCallObject
 and
 *
 JSOP_
