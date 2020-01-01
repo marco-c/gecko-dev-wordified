@@ -182,6 +182,13 @@ set
 [
     
 '
+crashreporter
+*
+.
+ini
+'
+    
+'
 searchplugins
 '
     
