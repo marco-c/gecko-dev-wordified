@@ -782,6 +782,16 @@ i32
 )
 {
 }
+int32
+getValue
+(
+)
+const
+{
+return
+i32_
+;
+}
 }
 ;
 /
