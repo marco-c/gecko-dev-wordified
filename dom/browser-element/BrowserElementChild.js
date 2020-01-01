@@ -3250,7 +3250,7 @@ toDataURL
 "
 image
 /
-png
+jpeg
 "
 )
 }
