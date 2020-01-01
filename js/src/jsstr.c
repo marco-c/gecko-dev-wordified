@@ -38598,6 +38598,14 @@ u
 '
 )
 {
+if
+(
+u
+!
+=
+0
+)
+{
 escape
 =
 strchr
@@ -38624,6 +38632,7 @@ escape
 goto
 do_escape
 ;
+}
 }
 goto
 do_hex_escape
