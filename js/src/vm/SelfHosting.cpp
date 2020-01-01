@@ -2776,7 +2776,7 @@ false
 /
 *
 *
-UnsafeSetElement
+UnsafePutElements
 (
 arr0
 idx0
@@ -2790,10 +2790,10 @@ elemN
 )
 :
 For
-*
 each
 set
 of
+*
 (
 arr
 idx
@@ -2804,9 +2804,9 @@ that
 are
 passed
 performs
-*
 the
 assignment
+*
 |
 arr
 [
@@ -2825,7 +2825,6 @@ either
 a
 dense
 array
-*
 or
 a
 typed
@@ -2906,7 +2905,7 @@ JSBool
 js
 :
 :
-intrinsic_UnsafeSetElement
+intrinsic_UnsafePutElements
 (
 JSContext
 *
@@ -4181,9 +4180,9 @@ intrinsic_RuntimeDefaultLocale
 JS_FN
 (
 "
-UnsafeSetElement
+UnsafePutElements
 "
-intrinsic_UnsafeSetElement
+intrinsic_UnsafePutElements
 3
 0
 )

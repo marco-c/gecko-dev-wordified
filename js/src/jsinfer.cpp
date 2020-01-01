@@ -9365,12 +9365,12 @@ if
 native
 =
 =
-intrinsic_UnsafeSetElement
+intrinsic_UnsafePutElements
 )
 {
 /
 /
-UnsafeSetElement
+UnsafePutElements
 (
 arr0
 idx0

@@ -715,10 +715,10 @@ if
 native
 =
 =
-intrinsic_UnsafeSetElement
+intrinsic_UnsafePutElements
 )
 return
-inlineUnsafeSetElement
+inlineUnsafePutElements
 (
 callInfo
 )
@@ -6289,7 +6289,7 @@ InliningStatus
 IonBuilder
 :
 :
-inlineUnsafeSetElement
+inlineUnsafePutElements
 (
 CallInfo
 &
@@ -6350,8 +6350,7 @@ a
 call
 to
 *
-%
-UnsafeSetElement
+UnsafePutElements
 (
 )
 .
@@ -6751,7 +6750,7 @@ true
 /
 /
 in
-intrinsic_UnsafeSetElement
+intrinsic_UnsafePutElements
 (
 )
 :
@@ -6775,7 +6774,7 @@ length
 Furthermore
 note
 that
-inlineUnsafeSetElement
+inlineUnsafePutElements
 ensures
 the
 type
@@ -6907,7 +6906,7 @@ true
 /
 /
 in
-intrinsic_UnsafeSetElement
+intrinsic_UnsafePutElements
 (
 )
 :

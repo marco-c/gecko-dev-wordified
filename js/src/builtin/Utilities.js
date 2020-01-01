@@ -160,7 +160,7 @@ false
 NewDenseArray
 :
 false
-UnsafeSetElement
+UnsafePutElements
 :
 false
 ShouldForceSequential

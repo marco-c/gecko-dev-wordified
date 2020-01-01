@@ -239,7 +239,7 @@ SetElem_Normal
 Write
 due
 to
-UnsafeSetElement
+UnsafePutElements
 :
 /
 /
@@ -3117,7 +3117,7 @@ Array
 intrinsics
 .
 InliningStatus
-inlineUnsafeSetElement
+inlineUnsafePutElements
 (
 CallInfo
 &

@@ -1658,7 +1658,7 @@ O
 ;
 /
 /
-UnsafeSetElement
+UnsafePutElements
 doesn
 '
 t
@@ -1671,7 +1671,7 @@ use
 it
 here
 .
-UnsafeSetElement
+UnsafePutElements
 (
 A
 k

@@ -2267,7 +2267,7 @@ indexStart
 indexEnd
 )
 ;
-UnsafeSetElement
+UnsafePutElements
 (
 info
 SLICE_POS
@@ -2315,7 +2315,7 @@ i
 +
 +
 )
-UnsafeSetElement
+UnsafePutElements
 (
 buffer
 i
@@ -2369,7 +2369,7 @@ i
 +
 )
 {
-UnsafeSetElement
+UnsafePutElements
 (
 buffer
 i
@@ -2470,7 +2470,7 @@ i
 +
 )
 {
-UnsafeSetElement
+UnsafePutElements
 (
 buffer
 i
@@ -2561,7 +2561,7 @@ null
 indices
 )
 ;
-UnsafeSetElement
+UnsafePutElements
 (
 buffer
 i
@@ -2824,7 +2824,7 @@ i
 self
 )
 ;
-UnsafeSetElement
+UnsafePutElements
 (
 buffer
 i
@@ -2931,7 +2931,7 @@ i
 +
 +
 )
-UnsafeSetElement
+UnsafePutElements
 (
 buffer
 i
@@ -2948,7 +2948,7 @@ self
 )
 )
 ;
-UnsafeSetElement
+UnsafePutElements
 (
 info
 SLICE_POS
@@ -3426,7 +3426,7 @@ indexPos
 CHUNK_SIZE
 )
 ;
-UnsafeSetElement
+UnsafePutElements
 (
 subreductions
 sliceId
@@ -3490,7 +3490,7 @@ indexPos
 CHUNK_SIZE
 )
 ;
-UnsafeSetElement
+UnsafePutElements
 (
 subreductions
 sliceId
@@ -4059,7 +4059,7 @@ start
 end
 )
 {
-UnsafeSetElement
+UnsafePutElements
 (
 buffer
 start
@@ -4097,7 +4097,7 @@ i
 )
 )
 ;
-UnsafeSetElement
+UnsafePutElements
 (
 buffer
 i
@@ -4416,7 +4416,7 @@ indexStart
 indexEnd
 )
 ;
-UnsafeSetElement
+UnsafePutElements
 (
 info
 SLICE_POS
@@ -4544,7 +4544,7 @@ indexStart
 indexEnd
 )
 ;
-UnsafeSetElement
+UnsafePutElements
 (
 info
 SLICE_POS
@@ -5220,7 +5220,7 @@ indexPos
 +
 )
 {
-UnsafeSetElement
+UnsafePutElements
 (
 buffer
 indexPos
@@ -6300,7 +6300,7 @@ i
 +
 +
 )
-UnsafeSetElement
+UnsafePutElements
 (
 checkpoints
 i
@@ -6339,14 +6339,14 @@ i
 +
 )
 {
-UnsafeSetElement
+UnsafePutElements
 (
 buffer
 i
 defaultValue
 )
 ;
-UnsafeSetElement
+UnsafePutElements
 (
 conflicts
 i
@@ -6500,7 +6500,7 @@ t
 ]
 )
 ;
-UnsafeSetElement
+UnsafePutElements
 (
 buffer
 t
@@ -6639,7 +6639,7 @@ i
 +
 +
 )
-UnsafeSetElement
+UnsafePutElements
 (
 localBuffers
 i
@@ -6696,14 +6696,14 @@ j
 +
 +
 )
-UnsafeSetElement
+UnsafePutElements
 (
 conflicts_i
 j
 false
 )
 ;
-UnsafeSetElement
+UnsafePutElements
 (
 localConflicts
 i
@@ -6777,7 +6777,7 @@ i
 +
 +
 )
-UnsafeSetElement
+UnsafePutElements
 (
 outputBuffer
 i
@@ -6915,7 +6915,7 @@ t
 ]
 )
 ;
-UnsafeSetElement
+UnsafePutElements
 (
 localbuffer
 t
@@ -7152,14 +7152,14 @@ i
 +
 )
 {
-UnsafeSetElement
+UnsafePutElements
 (
 buffer
 i
 defaultValue
 )
 ;
-UnsafeSetElement
+UnsafePutElements
 (
 conflicts
 i
@@ -7223,7 +7223,7 @@ t
 ]
 )
 ;
-UnsafeSetElement
+UnsafePutElements
 (
 buffer
 t
@@ -7580,7 +7580,7 @@ i
 +
 +
 )
-UnsafeSetElement
+UnsafePutElements
 (
 counts
 i
@@ -7944,7 +7944,7 @@ count
 keep
 ;
 }
-UnsafeSetElement
+UnsafePutElements
 (
 survivors
 chunkPos
@@ -8297,7 +8297,7 @@ i
 )
 )
 {
-UnsafeSetElement
+UnsafePutElements
 (
 buffer
 count
