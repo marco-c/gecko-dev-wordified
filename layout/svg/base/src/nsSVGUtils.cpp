@@ -3806,7 +3806,7 @@ presShell
 currentDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
