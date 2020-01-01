@@ -1472,7 +1472,7 @@ PCrashReporterChild
 *
 crashreporter
 =
-ManagedPCrashReporter
+ManagedPCrashReporterChild
 (
 )
 [
