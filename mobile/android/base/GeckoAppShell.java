@@ -2641,13 +2641,13 @@ timeDiff
 =
 location
 .
-getElapsedRealtimeNanos
+getTime
 (
 )
 -
 lastKnownLocation
 .
-getElapsedRealtimeNanos
+getTime
 (
 )
 ;
