@@ -3270,6 +3270,9 @@ globalSlots
 ;
 }
 ;
+struct
+PICTable
+;
 /
 *
 *
@@ -3464,6 +3467,10 @@ shapes
 (
 alloc
 )
+picTables
+(
+alloc
+)
 visiting
 (
 false
@@ -3613,6 +3620,13 @@ Shape
 *
 >
 shapes
+;
+Queue
+<
+PICTable
+*
+>
+picTables
 ;
 unsigned
 maxNativeStackSlots
