@@ -671,7 +671,7 @@ dump
 (
 "
 \
-tPassed
+tPass
 :
 "
 +
@@ -680,11 +680,8 @@ passCount
 "
 \
 n
-"
-+
-"
 \
-tFailed
+tFail
 :
 "
 +
@@ -693,9 +690,6 @@ failCount
 "
 \
 n
-"
-+
-"
 \
 tTodo
 :
