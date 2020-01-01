@@ -206,6 +206,7 @@ BluetoothProfileManagerBase
 public
 :
 NS_DECL_ISUPPORTS
+NS_DECL_NSIOBSERVER
 /
 *
 *
@@ -512,11 +513,6 @@ ExtractBlobHeaders
 (
 )
 ;
-nsresult
-HandleShutdown
-(
-)
-;
 /
 /
 Return
@@ -642,6 +638,16 @@ MOZ_OVERRIDE
 private
 :
 BluetoothOppManager
+(
+)
+;
+bool
+Init
+(
+)
+;
+nsresult
+HandleShutdown
 (
 )
 ;
