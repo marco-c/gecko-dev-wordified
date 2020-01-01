@@ -8590,7 +8590,7 @@ int8_t
 )
 {
 return
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT8
@@ -8610,7 +8610,7 @@ uint8_t
 )
 {
 return
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8
@@ -8630,7 +8630,7 @@ int16_t
 )
 {
 return
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT16
@@ -8650,7 +8650,7 @@ uint16_t
 )
 {
 return
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT16
@@ -8670,7 +8670,7 @@ int32_t
 )
 {
 return
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT32
@@ -8690,7 +8690,7 @@ uint32_t
 )
 {
 return
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT32
@@ -8710,7 +8710,7 @@ float
 )
 {
 return
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT32
@@ -8730,7 +8730,7 @@ double
 )
 {
 return
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT64
@@ -8750,7 +8750,7 @@ uint8_clamped
 )
 {
 return
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8_CLAMPED
@@ -9742,7 +9742,7 @@ ArrayTypeID
 )
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8_CLAMPED
@@ -15281,7 +15281,7 @@ type
 )
 {
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT8
@@ -15337,13 +15337,13 @@ break
 ;
 }
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8
 :
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8_CLAMPED
@@ -15399,7 +15399,7 @@ break
 ;
 }
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT16
@@ -15455,7 +15455,7 @@ break
 ;
 }
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT16
@@ -15511,7 +15511,7 @@ break
 ;
 }
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT32
@@ -15567,7 +15567,7 @@ break
 ;
 }
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT32
@@ -15623,7 +15623,7 @@ break
 ;
 }
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT32
@@ -15679,7 +15679,7 @@ break
 ;
 }
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT64
@@ -15948,7 +15948,7 @@ type
 )
 {
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT8
@@ -16001,13 +16001,13 @@ break
 ;
 }
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8
 :
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8_CLAMPED
@@ -16060,7 +16060,7 @@ break
 ;
 }
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT16
@@ -16113,7 +16113,7 @@ break
 ;
 }
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT16
@@ -16166,7 +16166,7 @@ break
 ;
 }
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT32
@@ -16219,7 +16219,7 @@ break
 ;
 }
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT32
@@ -16272,7 +16272,7 @@ break
 ;
 }
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT32
@@ -16325,7 +16325,7 @@ break
 ;
 }
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT64
@@ -16490,6 +16490,9 @@ enum
 {
 ACTUAL_TYPE
 =
+ScalarTypeRepresentation
+:
+:
 TYPE_INT8
 }
 ;
@@ -16524,6 +16527,9 @@ enum
 {
 ACTUAL_TYPE
 =
+ScalarTypeRepresentation
+:
+:
 TYPE_UINT8
 }
 ;
@@ -16558,6 +16564,9 @@ enum
 {
 ACTUAL_TYPE
 =
+ScalarTypeRepresentation
+:
+:
 TYPE_INT16
 }
 ;
@@ -16592,6 +16601,9 @@ enum
 {
 ACTUAL_TYPE
 =
+ScalarTypeRepresentation
+:
+:
 TYPE_UINT16
 }
 ;
@@ -16626,6 +16638,9 @@ enum
 {
 ACTUAL_TYPE
 =
+ScalarTypeRepresentation
+:
+:
 TYPE_INT32
 }
 ;
@@ -16660,6 +16675,9 @@ enum
 {
 ACTUAL_TYPE
 =
+ScalarTypeRepresentation
+:
+:
 TYPE_UINT32
 }
 ;
@@ -16694,6 +16712,9 @@ enum
 {
 ACTUAL_TYPE
 =
+ScalarTypeRepresentation
+:
+:
 TYPE_FLOAT32
 }
 ;
@@ -16728,6 +16749,9 @@ enum
 {
 ACTUAL_TYPE
 =
+ScalarTypeRepresentation
+:
+:
 TYPE_FLOAT64
 }
 ;
@@ -16762,6 +16786,9 @@ enum
 {
 ACTUAL_TYPE
 =
+ScalarTypeRepresentation
+:
+:
 TYPE_UINT8_CLAMPED
 }
 ;
@@ -21588,6 +21615,9 @@ type
 )
 {
 case
+ScalarTypeRepresentation
+:
+:
 TYPE_INT8
 :
 TypedArrayObjectTemplate
@@ -21606,6 +21636,9 @@ vp
 break
 ;
 case
+ScalarTypeRepresentation
+:
+:
 TYPE_UINT8
 :
 TypedArrayObjectTemplate
@@ -21624,6 +21657,9 @@ vp
 break
 ;
 case
+ScalarTypeRepresentation
+:
+:
 TYPE_UINT8_CLAMPED
 :
 TypedArrayObjectTemplate
@@ -21642,6 +21678,9 @@ vp
 break
 ;
 case
+ScalarTypeRepresentation
+:
+:
 TYPE_INT16
 :
 TypedArrayObjectTemplate
@@ -21660,6 +21699,9 @@ vp
 break
 ;
 case
+ScalarTypeRepresentation
+:
+:
 TYPE_UINT16
 :
 TypedArrayObjectTemplate
@@ -21678,6 +21720,9 @@ vp
 break
 ;
 case
+ScalarTypeRepresentation
+:
+:
 TYPE_INT32
 :
 TypedArrayObjectTemplate
@@ -21696,6 +21741,9 @@ vp
 break
 ;
 case
+ScalarTypeRepresentation
+:
+:
 TYPE_UINT32
 :
 TypedArrayObjectTemplate
@@ -21714,6 +21762,9 @@ vp
 break
 ;
 case
+ScalarTypeRepresentation
+:
+:
 TYPE_FLOAT32
 :
 TypedArrayObjectTemplate
@@ -21732,6 +21783,9 @@ vp
 break
 ;
 case
+ScalarTypeRepresentation
+:
+:
 TYPE_FLOAT64
 :
 TypedArrayObjectTemplate
@@ -23538,6 +23592,9 @@ TypedArrayObject
 :
 classes
 [
+ScalarTypeRepresentation
+:
+:
 TYPE_MAX
 ]
 =
@@ -23586,6 +23643,9 @@ TypedArrayObject
 :
 protoClasses
 [
+ScalarTypeRepresentation
+:
+:
 TYPE_MAX
 ]
 =
@@ -25105,7 +25165,7 @@ type
 )
 {
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT8
@@ -25121,7 +25181,7 @@ class_constructor
 )
 ;
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8
@@ -25137,7 +25197,7 @@ class_constructor
 )
 ;
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT16
@@ -25153,7 +25213,7 @@ class_constructor
 )
 ;
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT16
@@ -25169,7 +25229,7 @@ class_constructor
 )
 ;
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT32
@@ -25185,7 +25245,7 @@ class_constructor
 )
 ;
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT32
@@ -25201,7 +25261,7 @@ class_constructor
 )
 ;
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT32
@@ -25217,7 +25277,7 @@ class_constructor
 )
 ;
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT64
@@ -25233,7 +25293,7 @@ class_constructor
 )
 ;
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8_CLAMPED

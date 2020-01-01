@@ -256,6 +256,15 @@ h
 #
 include
 "
+builtin
+/
+TypeRepresentation
+.
+h
+"
+#
+include
+"
 ctypes
 /
 Library
@@ -14458,7 +14467,7 @@ valObj
 )
 {
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT8
@@ -14470,13 +14479,13 @@ TYPE_int8_t
 break
 ;
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8
 :
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8_CLAMPED
@@ -14488,7 +14497,7 @@ TYPE_uint8_t
 break
 ;
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT16
@@ -14500,7 +14509,7 @@ TYPE_int16_t
 break
 ;
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT16
@@ -14512,7 +14521,7 @@ TYPE_uint16_t
 break
 ;
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT32
@@ -14524,7 +14533,7 @@ TYPE_int32_t
 break
 ;
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT32
@@ -14536,7 +14545,7 @@ TYPE_uint32_t
 break
 ;
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT32
@@ -14548,7 +14557,7 @@ TYPE_float32_t
 break
 ;
 case
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT64

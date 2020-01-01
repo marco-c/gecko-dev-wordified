@@ -13619,7 +13619,7 @@ classes
 ]
 ;
 return
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_MAX

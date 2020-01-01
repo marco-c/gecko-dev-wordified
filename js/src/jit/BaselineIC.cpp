@@ -23093,7 +23093,7 @@ return
 type
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT32
@@ -23102,7 +23102,7 @@ TYPE_UINT32
 type
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT32
@@ -23111,7 +23111,7 @@ TYPE_FLOAT32
 type
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT64
@@ -31467,7 +31467,7 @@ if
 type_
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT32
@@ -31476,7 +31476,7 @@ TYPE_FLOAT32
 type_
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT64
@@ -31513,7 +31513,7 @@ if
 type_
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8_CLAMPED
@@ -37355,7 +37355,7 @@ TypedArrayObject
 :
 classes
 [
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_MAX

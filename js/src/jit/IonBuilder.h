@@ -2964,7 +2964,10 @@ obj
 MDefinition
 *
 index
-int
+ScalarTypeRepresentation
+:
+:
+Type
 arrayType
 )
 ;
@@ -3000,7 +3003,10 @@ value
 bool
 jsop_setelem_typed
 (
-int
+ScalarTypeRepresentation
+:
+:
+Type
 arrayType
 SetElemSafety
 safety
@@ -3499,7 +3505,10 @@ CallInfo
 callInfo
 uint32_t
 base
-int
+ScalarTypeRepresentation
+:
+:
+Type
 arrayType
 )
 ;
