@@ -13002,7 +13002,9 @@ if
 (
 anEvent
 .
-isShift
+IsShift
+(
+)
 )
 state
 |
@@ -13013,7 +13015,9 @@ if
 (
 anEvent
 .
-isControl
+IsControl
+(
+)
 )
 state
 |
@@ -13024,7 +13028,9 @@ if
 (
 anEvent
 .
-isAlt
+IsAlt
+(
+)
 )
 state
 |
@@ -13035,7 +13041,9 @@ if
 (
 anEvent
 .
-isMeta
+IsMeta
+(
+)
 )
 state
 |

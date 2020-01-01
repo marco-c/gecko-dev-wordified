@@ -5083,7 +5083,13 @@ mCachedMousePoint
 /
 cached
 modifiers
-PRInt8
+mozilla
+:
+:
+widget
+:
+:
+Modifiers
 mCachedModifiers
 ;
 /
