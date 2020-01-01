@@ -957,15 +957,6 @@ mBatchLevel
 ;
 /
 /
-lock
-for
-RunInBatchMode
-PRLock
-*
-mLock
-;
-/
-/
 true
 if
 the
