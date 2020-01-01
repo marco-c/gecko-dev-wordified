@@ -674,6 +674,13 @@ GetDefaultContextFlags
 )
 const
 ;
+const
+gfxIntSize
+GetSize
+(
+)
+const
+;
 void
 MovePixels
 (
