@@ -495,7 +495,7 @@ The
 following
 family
 of
-four
+three
 classes
 will
 exactly
@@ -620,11 +620,6 @@ trigger
 a
 GC
 .
-This
-is
-generally
-true
-of
 *
 *
 -
@@ -960,13 +955,6 @@ family
 :
 *
 *
-RawT
--
--
--
--
--
->
 Rooted
 <
 T
@@ -1011,6 +999,8 @@ all
 of
 these
 types
+have
+an
 implicit
 conversion
 to
@@ -1018,8 +1008,8 @@ RawT
 .
 These
 are
-present
 *
+present
 only
 for
 the
@@ -1031,9 +1021,9 @@ rooting
 and
 will
 be
+*
 removed
 in
-*
 the
 future
 (
