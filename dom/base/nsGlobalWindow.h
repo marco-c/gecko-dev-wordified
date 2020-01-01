@@ -898,7 +898,7 @@ class
 nsIDOMEvent
 ;
 class
-nsIScrollableView
+nsIScrollableFrame
 ;
 class
 nsIControllers
@@ -3388,7 +3388,7 @@ aBrowserChrome
 ;
 /
 /
-GetScrollInfo
+GetScrollFrame
 does
 not
 flush
@@ -3412,15 +3412,12 @@ want
 off
 the
 scrollable
-view
+frame
 .
-nsresult
-GetScrollInfo
+nsIScrollableFrame
+*
+GetScrollFrame
 (
-nsIScrollableView
-*
-*
-aScrollableView
 )
 ;
 nsresult
