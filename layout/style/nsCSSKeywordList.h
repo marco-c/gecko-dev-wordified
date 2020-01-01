@@ -1407,6 +1407,13 @@ alternate
 )
 CSS_KEY
 (
+alternate
+-
+reverse
+alternate_reverse
+)
+CSS_KEY
+(
 always
 always
 )
