@@ -6930,7 +6930,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 %
 LOCALE
