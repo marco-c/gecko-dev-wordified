@@ -567,6 +567,9 @@ const
 nsACString
 &
 aScheme
+PRBool
+*
+found
 )
 ;
 /

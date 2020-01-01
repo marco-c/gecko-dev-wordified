@@ -1402,6 +1402,9 @@ const
 nsACString
 &
 aScheme
+PRBool
+*
+found
 )
 =
 0

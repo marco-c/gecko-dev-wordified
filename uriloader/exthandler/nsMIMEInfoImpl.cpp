@@ -2258,7 +2258,12 @@ _retval
 *
 _retval
 =
-PR_FALSE
+!
+mDefaultAppDescription
+.
+IsEmpty
+(
+)
 ;
 if
 (
