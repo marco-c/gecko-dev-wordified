@@ -593,6 +593,15 @@ h
 #
 include
 "
+methodjit
+/
+ICRepatcher
+.
+h
+"
+#
+include
+"
 jsinterpinlines
 .
 h
@@ -676,6 +685,12 @@ mjit
 using
 namespace
 JSC
+;
+using
+ic
+:
+:
+Repatcher
 ;
 static
 jsbytecode
@@ -6662,6 +6677,7 @@ true
 }
 #
 if
+defined
 JS_MONOIC
 static
 void
