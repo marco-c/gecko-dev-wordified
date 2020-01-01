@@ -1244,6 +1244,11 @@ delta
 ;
 protected
 :
+void
+AddCookiesToRequest
+(
+)
+;
 /
 /
 Helper
@@ -1380,6 +1385,9 @@ mContentTypeHint
 ;
 nsCString
 mContentCharsetHint
+;
+nsCString
+mUserSetCookieHeader
 ;
 nsresult
 mStatus

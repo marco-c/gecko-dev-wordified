@@ -960,11 +960,13 @@ mResponseHead
 void
 SetRemoteChannel
 (
+bool
+aRemote
 )
 {
 mRemoteChannel
 =
-1
+aRemote
 ;
 }
 void
@@ -1148,11 +1150,6 @@ DoNotifyListener
 ;
 nsresult
 SetupTransaction
-(
-)
-;
-void
-AddCookiesToRequest
 (
 )
 ;
@@ -1853,9 +1850,6 @@ mTransaction
 ;
 PRUint64
 mLogicalOffset
-;
-nsCString
-mUserSetCookieHeader
 ;
 /
 /
