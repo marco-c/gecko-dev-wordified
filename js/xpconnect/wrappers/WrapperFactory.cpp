@@ -147,6 +147,13 @@ h
 #
 include
 "
+ChromeObjectWrapper
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h
@@ -3004,11 +3011,7 @@ else
 wrapper
 =
 &
-FilteringWrapper
-<
-CrossCompartmentSecurityWrapper
-ExposedPropertiesOnly
->
+ChromeObjectWrapper
 :
 :
 singleton
