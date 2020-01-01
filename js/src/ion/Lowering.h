@@ -903,6 +903,14 @@ ins
 )
 ;
 bool
+visitNewCallObject
+(
+MNewCallObject
+*
+ins
+)
+;
+bool
 visitInitProp
 (
 MInitProp

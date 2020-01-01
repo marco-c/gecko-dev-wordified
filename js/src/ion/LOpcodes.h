@@ -535,6 +535,11 @@ NewObject
 \
 _
 (
+NewCallObject
+)
+\
+_
+(
 InitProp
 )
 \
