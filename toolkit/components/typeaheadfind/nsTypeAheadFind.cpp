@@ -196,6 +196,13 @@ h
 #
 include
 "
+nsIDOMNSEvent
+.
+h
+"
+#
+include
+"
 nsIPrefBranch
 .
 h

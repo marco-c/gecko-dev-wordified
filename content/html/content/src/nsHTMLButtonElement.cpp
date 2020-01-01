@@ -215,6 +215,13 @@ h
 #
 include
 "
+nsIDOMNSEvent
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h

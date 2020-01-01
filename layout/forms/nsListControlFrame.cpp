@@ -311,6 +311,13 @@ h
 #
 include
 "
+nsIDOMNSEvent
+.
+h
+"
+#
+include
+"
 nsGUIEvent
 .
 h

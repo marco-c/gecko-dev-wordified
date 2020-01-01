@@ -94,7 +94,7 @@ class
 nsIDOMNode
 ;
 class
-nsPIDOMWindow
+nsIDOMWindow
 ;
 class
 nsIDOMDragEvent
@@ -313,7 +313,7 @@ static
 nsresult
 GetDragData
 (
-nsPIDOMWindow
+nsIDOMWindow
 *
 aWindow
 nsIContent

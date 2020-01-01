@@ -3897,7 +3897,7 @@ modifiers
 =
 Ci
 .
-nsIDOMEvent
+nsIDOMNSEvent
 .
 CONTROL_MASK
 )
@@ -11489,7 +11489,7 @@ y
 1
 Ci
 .
-nsIDOMEvent
+nsIDOMNSEvent
 .
 SHIFT_MASK
 true
@@ -11512,7 +11512,7 @@ y
 1
 Ci
 .
-nsIDOMEvent
+nsIDOMNSEvent
 .
 SHIFT_MASK
 true
@@ -11675,7 +11675,7 @@ y
 1
 Ci
 .
-nsIDOMEvent
+nsIDOMNSEvent
 .
 SHIFT_MASK
 true
@@ -11698,7 +11698,7 @@ y
 1
 Ci
 .
-nsIDOMEvent
+nsIDOMNSEvent
 .
 SHIFT_MASK
 true

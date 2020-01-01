@@ -183,13 +183,6 @@ nsMapRuleToAttributesFunc
 aMapRuleFunc
 )
 ;
-/
-/
-Do
-not
-return
-null
-.
 void
 *
 operator

@@ -308,6 +308,13 @@ h
 #
 include
 "
+nsIDOMNSEvent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

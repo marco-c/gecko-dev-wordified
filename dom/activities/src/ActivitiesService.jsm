@@ -1272,8 +1272,6 @@ if
 (
 aResults
 .
-options
-.
 length
 =
 =
