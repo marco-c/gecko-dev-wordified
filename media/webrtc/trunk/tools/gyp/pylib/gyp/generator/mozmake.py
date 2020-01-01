@@ -266,19 +266,11 @@ rules
 .
 mk
 include
-(
-DEPTH
-)
-/
 %
 (
-relative_path
+common_mk_path
 )
 s
-/
-common
-.
-mk
 "
 "
 "
@@ -924,6 +916,7 @@ depth
 topsrcdir
 srcdir
 relative_path
+common_mk_path
 extra_data
 =
 None
@@ -1109,10 +1102,10 @@ COMMON_FOOTER
 %
 {
 '
-relative_path
+common_mk_path
 '
 :
-relative_path
+common_mk_path
 }
 )
     
@@ -1422,6 +1415,7 @@ relative_topsrcdir
 relative_srcdir
 output_dir
 flavor
+common_mk_path
 )
 :
     
@@ -1504,6 +1498,12 @@ self
 flavor
 =
 flavor
+    
+self
+.
+common_mk_path
+=
+common_mk_path
     
 #
 Directories
@@ -3089,6 +3089,10 @@ rel_path
 self
 .
 relative_srcdir
+                  
+self
+.
+common_mk_path
 )
     
 return
@@ -3556,6 +3560,25 @@ build_file_
 )
 )
   
+common_mk_path
+=
+objdir_path
+(
+os
+.
+path
+.
+join
+(
+output_dir
+"
+common
+.
+mk
+"
+)
+)
+  
 generator
 =
 MakefileGenerator
@@ -3569,6 +3592,7 @@ relative_topsrcdir
 relative_srcdir
 output_dir
 flavor
+common_mk_path
 )
   
 generator
@@ -3679,6 +3703,8 @@ swapslashes
 (
 relative_srcdir
 )
+                
+common_mk_path
 )
   
 scriptname
