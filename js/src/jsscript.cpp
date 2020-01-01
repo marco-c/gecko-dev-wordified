@@ -615,6 +615,10 @@ jsscriptinlines
 .
 h
 "
+using
+namespace
+js
+;
 const
 uint32
 JSSLOT_EXEC_DEPTH
@@ -11331,7 +11335,7 @@ endif
 #
 ifdef
 JS_TRACER
-js_PurgeScriptFragments
+PurgeScriptFragments
 (
 cx
 script

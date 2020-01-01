@@ -664,6 +664,10 @@ jstracer
 .
 h
 "
+using
+namespace
+js
+;
 static
 void
 FreeContext
@@ -750,7 +754,7 @@ endif
 #
 ifdef
 JS_TRACER
-js_InitJIT
+InitJIT
 (
 &
 traceMonitor
@@ -881,7 +885,7 @@ propertyCache
 if
 defined
 JS_TRACER
-js_FinishJIT
+FinishJIT
 (
 &
 traceMonitor
@@ -5238,7 +5242,7 @@ cx
 runtime
 )
 ;
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )

@@ -615,6 +615,10 @@ using
 namespace
 nanojit
 ;
+using
+namespace
+js
+;
 JS_FRIEND_API
 (
 void
@@ -626,7 +630,7 @@ JSContext
 cx
 )
 {
-js_SetBuiltinError
+SetBuiltinError
 (
 cx
 )

@@ -1027,7 +1027,7 @@ fi
 >
 callerHeight
 ;
-JSTraceType
+TraceType
 *
 typeMap
 =
@@ -1038,7 +1038,7 @@ get_typemap
 (
 )
 ;
-js_CaptureStackTypes
+CaptureStackTypes
 (
 cx
 1
@@ -1046,7 +1046,7 @@ typeMap
 )
 ;
 const
-JSTraceType
+TraceType
 *
 m1
 =
@@ -1237,25 +1237,25 @@ downPostSlots
 +
 ngslots
 ;
-JSTraceType
+TraceType
 *
 exitTypeMap
 =
 (
-JSTraceType
+TraceType
 *
 )
 alloca
 (
 sizeof
 (
-JSTraceType
+TraceType
 )
 *
 exitTypeMapLen
 )
 ;
-JSTraceType
+TraceType
 *
 typeMap
 =
@@ -1340,7 +1340,7 @@ VMSideExit
 +
 sizeof
 (
-JSTraceType
+TraceType
 )
 *
 exitTypeMapLen
@@ -1549,7 +1549,7 @@ fullTypeMap
 exitTypeMap
 sizeof
 (
-JSTraceType
+TraceType
 )
 *
 exitTypeMapLen
@@ -1942,7 +1942,7 @@ totalSlots
 *
 sizeof
 (
-JSTraceType
+TraceType
 )
 )
 ;
@@ -2208,7 +2208,7 @@ frame
 .
 *
 /
-js_CaptureStackTypes
+CaptureStackTypes
 (
 cx
 1
@@ -2257,7 +2257,7 @@ downPostSlots
 1
 )
 ;
-JSTraceType
+TraceType
 *
 typeMap
 =
@@ -2609,7 +2609,7 @@ rval_ins
 NULL
 )
 ;
-JSTraceType
+TraceType
 returnType
 =
 exit
@@ -2656,8 +2656,6 @@ rval_ins
 ;
 rval_ins
 =
-:
-:
 demote
 (
 lir
@@ -2839,7 +2837,7 @@ public
 unsigned
 curSlot
 ;
-JSTraceType
+TraceType
 *
 typeMap
 ;
@@ -3649,7 +3647,7 @@ VMSideExit
 +
 sizeof
 (
-JSTraceType
+TraceType
 )
 *
 safeSlots
@@ -3758,7 +3756,7 @@ away
 .
 *
 /
-JSTraceType
+TraceType
 *
 typeMap
 =
@@ -3800,7 +3798,7 @@ exit
 >
 pc
 ;
-js_CaptureStackTypes
+CaptureStackTypes
 (
 cx
 frameDepth
@@ -3975,7 +3973,7 @@ LIns
 *
 rval_ins
 ;
-JSTraceType
+TraceType
 returnType
 =
 exit
@@ -4049,8 +4047,6 @@ rval_ins
 ;
 rval_ins
 =
-:
-:
 demote
 (
 lir

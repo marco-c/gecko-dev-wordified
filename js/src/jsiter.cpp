@@ -648,6 +648,10 @@ h
 "
 #
 endif
+using
+namespace
+js
+;
 JS_STATIC_ASSERT
 (
 JSSLOT_ITER_FLAGS
@@ -2484,7 +2488,7 @@ bad
 }
 else
 {
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
@@ -5512,7 +5516,7 @@ obj
 jsval
 arg
 ;
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )

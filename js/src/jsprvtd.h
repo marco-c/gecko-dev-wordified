@@ -938,11 +938,6 @@ JSTokenStream
 ;
 typedef
 struct
-JSTraceMonitor
-JSTraceMonitor
-;
-typedef
-struct
 JSTreeContext
 JSTreeContext
 ;
@@ -1126,6 +1121,12 @@ C
 namespace
 js
 {
+class
+TraceRecorder
+;
+class
+TraceMonitor
+;
 class
 ContextAllocPolicy
 ;

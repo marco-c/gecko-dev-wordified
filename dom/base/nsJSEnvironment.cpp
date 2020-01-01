@@ -15824,7 +15824,10 @@ rv
 =
 NS_OK
 ;
-js_LeaveTrace
+js
+:
+:
+LeaveTrace
 (
 mContext
 )

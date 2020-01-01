@@ -794,6 +794,10 @@ jsautooplen
 .
 h
 "
+using
+namespace
+js
+;
 #
 ifdef
 JS_THREADSAFE
@@ -10446,7 +10450,7 @@ prop
 )
 )
 {
-js_SetBuiltinError
+SetBuiltinError
 (
 cx
 )
@@ -10679,7 +10683,7 @@ v
 )
 )
 {
-js_SetBuiltinError
+SetBuiltinError
 (
 cx
 )
@@ -26658,7 +26662,7 @@ here
 .
 *
 /
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
@@ -27339,7 +27343,7 @@ JSDNP_SET_METHOD
 0
 )
 ;
-js_LeaveTraceIfGlobalObject
+LeaveTraceIfGlobalObject
 (
 cx
 obj
@@ -30415,7 +30419,7 @@ jsval
 vp
 )
 {
-js_LeaveTraceIfGlobalObject
+LeaveTraceIfGlobalObject
 (
 cx
 pobj
@@ -30704,7 +30708,7 @@ jsval
 vp
 )
 {
-js_LeaveTraceIfGlobalObject
+LeaveTraceIfGlobalObject
 (
 cx
 obj
@@ -31435,7 +31439,7 @@ resolveFlags
 JSRESOLVE_INFER
 )
 {
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )

@@ -594,6 +594,10 @@ jsscopeinlines
 .
 h
 "
+using
+namespace
+js
+;
 uint32
 js_GenerateShape
 (
@@ -6646,7 +6650,7 @@ if
 object
 )
 {
-js_LeaveTraceIfGlobalObject
+LeaveTraceIfGlobalObject
 (
 cx
 object
@@ -6746,7 +6750,7 @@ memoize
 .
 *
 /
-JSTraceMonitor
+TraceMonitor
 *
 tm
 =
@@ -9991,7 +9995,7 @@ clearOwnShape
 (
 )
 ;
-js_LeaveTraceIfGlobalObject
+LeaveTraceIfGlobalObject
 (
 cx
 object

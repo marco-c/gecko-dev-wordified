@@ -667,6 +667,10 @@ nanojit
 ;
 #
 endif
+using
+namespace
+js
+;
 typedef
 enum
 REOp
@@ -13179,6 +13183,9 @@ ContextAllocPolicy
 >
 LInsList
 ;
+namespace
+js
+{
 struct
 REFragment
 :
@@ -13216,6 +13223,13 @@ profFragID
 }
 }
 ;
+}
+/
+*
+namespace
+js
+*
+/
 /
 *
 Return
@@ -13250,7 +13264,7 @@ size_t
 re_length
 )
 {
-JSTraceMonitor
+TraceMonitor
 *
 tm
 =
@@ -13311,7 +13325,7 @@ uint32_t
 profFragID
 =
 (
-js_LogController
+LogController
 .
 lcbits
 &
@@ -22173,7 +22187,7 @@ LabelMap
 (
 tempAlloc
 &
-js_LogController
+LogController
 )
 ;
 lirbuf
@@ -22236,7 +22250,7 @@ re_chars
 size_t
 re_length
 ;
-JSTraceMonitor
+TraceMonitor
 *
 tm
 =
@@ -22268,7 +22282,7 @@ outOfMemory
 )
 |
 |
-js_OverfullJITCache
+OverfullJITCache
 (
 tm
 )
@@ -22405,7 +22419,7 @@ debug_only_stmt
 (
 if
 (
-js_LogController
+LogController
 .
 lcbits
 &
@@ -22426,7 +22440,7 @@ lirbuf
 >
 names
 &
-js_LogController
+LogController
 )
 ;
 }
@@ -22649,7 +22663,7 @@ verbose_only
 (
 if
 (
-js_LogController
+LogController
 .
 lcbits
 &
@@ -22894,7 +22908,7 @@ debug_only_stmt
 (
 if
 (
-js_LogController
+LogController
 .
 lcbits
 &
@@ -22918,7 +22932,7 @@ outOfMemory
 )
 |
 |
-js_OverfullJITCache
+OverfullJITCache
 (
 tm
 )
@@ -22974,7 +22988,7 @@ value
 (
 )
 ;
-js_FragProfiling_FragFinalizer
+FragProfiling_FragFinalizer
 (
 frag
 tm
@@ -22982,7 +22996,7 @@ tm
 ;
 }
 )
-js_FlushJITCache
+FlushJITCache
 (
 cx
 )
@@ -23029,7 +23043,7 @@ debug_only_stmt
 (
 if
 (
-js_LogController
+LogController
 .
 lcbits
 &

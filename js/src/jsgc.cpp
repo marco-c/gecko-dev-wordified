@@ -895,6 +895,10 @@ MAP_ANONYMOUS
 0
 #
 endif
+using
+namespace
+js
+;
 /
 *
 *
@@ -20038,7 +20042,7 @@ endif
 #
 ifdef
 JS_TRACER
-js_PurgeJITOracle
+PurgeJITOracle
 (
 )
 ;

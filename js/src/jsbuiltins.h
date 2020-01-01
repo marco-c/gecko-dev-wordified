@@ -2110,7 +2110,7 @@ define
 _JS_CTYPE_APNPTR
 _JS_CTYPE
 (
-js_ArgsPrivateNative
+ArgsPrivateNative
 *
 _JS_PTR
 -
@@ -4082,7 +4082,7 @@ unboxed
 Extern
 version
 of
-js_SetBuiltinError
+SetBuiltinError
 .
 *
 /

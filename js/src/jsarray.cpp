@@ -1020,6 +1020,10 @@ jsatominlines
 .
 h
 "
+using
+namespace
+js
+;
 /
 *
 2
@@ -10991,7 +10995,7 @@ addr
 )
 )
 {
-js_SetBuiltinError
+SetBuiltinError
 (
 cx
 )
@@ -11048,7 +11052,7 @@ addr
 )
 )
 {
-js_SetBuiltinError
+SetBuiltinError
 (
 cx
 )
@@ -14473,7 +14477,7 @@ void
 *
 mark
 ;
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
@@ -15226,7 +15230,7 @@ value
 )
 ;
 }
-js_SetBuiltinError
+SetBuiltinError
 (
 cx
 )
@@ -15602,7 +15606,7 @@ value
 )
 ;
 }
-js_SetBuiltinError
+SetBuiltinError
 (
 cx
 )
@@ -19661,7 +19665,7 @@ array
 .
 *
 /
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )

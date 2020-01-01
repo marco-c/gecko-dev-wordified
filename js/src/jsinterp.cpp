@@ -753,6 +753,10 @@ jsautooplen
 .
 h
 "
+using
+namespace
+js
+;
 /
 *
 jsinvoke_cpp___
@@ -5159,7 +5163,7 @@ trace
 .
 *
 /
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
@@ -9761,7 +9765,7 @@ mark
 JSBool
 ok
 ;
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
@@ -9999,7 +10003,7 @@ jsval
 rval
 )
 {
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
@@ -10115,7 +10119,7 @@ return
 JS_TRUE
 ;
 }
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
@@ -17670,7 +17674,7 @@ cx
 )
 )
 \
-js_AbortRecording
+AbortRecording
 (
 cx
 reason
@@ -19102,7 +19106,7 @@ cx
 \
 if
 (
-js_MonitorLoopEdge
+MonitorLoopEdge
 (
 cx
 inlineCallCount
@@ -19939,7 +19943,7 @@ TRACE_RECORDER
 cx
 )
 )
-js_AbortRecording
+AbortRecording
 (
 cx
 "
@@ -20653,7 +20657,7 @@ TRACE_RECORDER
 cx
 )
 )
-js_AbortRecording
+AbortRecording
 (
 cx
 "
@@ -21875,7 +21879,7 @@ TRACE_RECORDER
 cx
 )
 )
-js_AbortRecording
+AbortRecording
 (
 cx
 "

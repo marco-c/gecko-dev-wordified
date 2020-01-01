@@ -690,6 +690,10 @@ jsatominlines
 .
 h
 "
+using
+namespace
+js
+;
 static
 inline
 void
@@ -888,7 +892,7 @@ SetArgsPrivateNative
 JSObject
 *
 argsobj
-js_ArgsPrivateNative
+ArgsPrivateNative
 *
 apn
 )
@@ -2060,7 +2064,7 @@ callee
 double
 *
 argv
-js_ArgsPrivateNative
+ArgsPrivateNative
 *
 apn
 )
@@ -3845,7 +3849,7 @@ obj
 #
 ifdef
 JS_TRACER
-js_ArgsPrivateNative
+ArgsPrivateNative
 *
 argp
 =
@@ -3861,7 +3865,7 @@ argp
 {
 if
 (
-js_NativeToValue
+NativeToValue
 (
 cx
 *
@@ -3888,7 +3892,7 @@ arg
 return
 true
 ;
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
@@ -4239,7 +4243,7 @@ cx
 )
 )
 {
-js_DeepBail
+DeepBail
 (
 cx
 )
@@ -5413,7 +5417,7 @@ needsWrapper
 )
 )
 {
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
@@ -12374,7 +12378,7 @@ mark
 JSBool
 ok
 ;
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
@@ -12759,7 +12763,7 @@ vp
 )
 ;
 }
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )

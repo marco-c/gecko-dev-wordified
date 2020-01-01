@@ -745,6 +745,10 @@ jsstrinlines
 .
 h
 "
+using
+namespace
+js
+;
 #
 define
 JSSTRDEP_RECURSION_LIMIT
@@ -11251,7 +11255,7 @@ i
 m
 n
 ;
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
@@ -24145,7 +24149,7 @@ throwing
 if
 (
 !
-js_CanLeaveTrace
+CanLeaveTrace
 (
 cx
 )
@@ -24153,7 +24157,7 @@ cx
 return
 NULL
 ;
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
