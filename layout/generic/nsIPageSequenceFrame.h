@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsRect
+nsCoord
 .
 h
 "

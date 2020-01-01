@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsRect
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -159,13 +166,6 @@ include
 mozilla
 /
 Assertions
-.
-h
-"
-#
-include
-"
-nsRect
 .
 h
 "

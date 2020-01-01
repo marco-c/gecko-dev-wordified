@@ -143,13 +143,6 @@ nsQueryFrame
 .
 h
 "
-#
-include
-"
-nsRect
-.
-h
-"
 class
 gfxContext
 ;

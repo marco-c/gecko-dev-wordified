@@ -167,13 +167,6 @@ h
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

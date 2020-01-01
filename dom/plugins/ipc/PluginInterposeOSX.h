@@ -345,13 +345,6 @@ npapi
 .
 h
 "
-#
-include
-"
-nsRect
-.
-h
-"
 /
 /
 Make

@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 prlog
 .
 h
@@ -710,6 +703,9 @@ nsBoxLayoutMetrics
 ;
 class
 nsDisplayBackgroundImage
+;
+struct
+nsRect
 ;
 /
 *

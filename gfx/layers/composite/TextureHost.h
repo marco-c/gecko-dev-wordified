@@ -310,17 +310,6 @@ NS_RUNTIMEABORT
 #
 include
 "
-nsRect
-.
-h
-"
-/
-/
-for
-nsIntRect
-#
-include
-"
 nsRegion
 .
 h
@@ -363,6 +352,9 @@ nsIntPoint
 ;
 struct
 nsIntSize
+;
+struct
+nsIntRect
 ;
 namespace
 mozilla

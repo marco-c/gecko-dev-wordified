@@ -113,13 +113,6 @@ nsQueryFrame
 .
 h
 "
-#
-include
-"
-nsRect
-.
-h
-"
 class
 nsIFrame
 ;
@@ -134,6 +127,12 @@ nsPoint
 ;
 class
 SVGBBox
+;
+struct
+nsRect
+;
+struct
+nsIntRect
 ;
 namespace
 mozilla

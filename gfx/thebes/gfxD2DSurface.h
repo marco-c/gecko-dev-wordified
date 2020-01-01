@@ -112,13 +112,6 @@ h
 "
 #
 include
-"
-nsRect
-.
-h
-"
-#
-include
 <
 windows
 .
@@ -126,6 +119,9 @@ h
 >
 struct
 ID3D10Texture2D
+;
+struct
+nsIntRect
 ;
 class
 gfxD2DSurface

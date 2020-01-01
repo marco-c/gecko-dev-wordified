@@ -134,13 +134,6 @@ nsAutoPtr
 .
 h
 "
-#
-include
-"
-nsRect
-.
-h
-"
 class
 nsPresState
 {

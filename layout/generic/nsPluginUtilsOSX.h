@@ -146,13 +146,6 @@ endif
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h
@@ -164,6 +157,9 @@ npapi
 .
 h
 "
+struct
+nsRect
+;
 /
 /
 We

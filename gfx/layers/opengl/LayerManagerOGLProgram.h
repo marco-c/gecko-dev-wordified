@@ -229,17 +229,6 @@ nsIntPoint
 #
 include
 "
-nsRect
-.
-h
-"
-/
-/
-for
-nsIntRect
-#
-include
-"
 nsTArray
 .
 h
@@ -261,6 +250,9 @@ h
 "
 struct
 gfxRGBA
+;
+struct
+nsIntRect
 ;
 namespace
 mozilla

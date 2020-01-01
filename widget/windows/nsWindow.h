@@ -221,6 +221,13 @@ TimeStamp
 h
 "
 #
+include
+"
+nsMargin
+.
+h
+"
+#
 ifdef
 CAIRO_HAS_D2D_SURFACE
 #

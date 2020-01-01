@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
@@ -142,6 +135,9 @@ QuartzSupport
 .
 h
 "
+struct
+nsIntRect
+;
 namespace
 mozilla
 {
