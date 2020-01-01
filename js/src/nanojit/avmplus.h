@@ -512,6 +512,12 @@ defined
 (
 AVMPLUS_UNIX
 )
+|
+|
+defined
+(
+AVMPLUS_OS2
+)
 #
 include
 <
