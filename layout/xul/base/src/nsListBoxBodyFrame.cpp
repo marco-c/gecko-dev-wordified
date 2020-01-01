@@ -2906,7 +2906,7 @@ aIndex
 return
 NS_OK
 ;
-PRInt32
+int32_t
 itemCount
 =
 0
