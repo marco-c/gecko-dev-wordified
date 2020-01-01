@@ -2158,11 +2158,8 @@ FILE_BLOCKLIST
 ;
 if
 (
+!
 appVersion
-=
-=
-=
-undefined
 )
 appVersion
 =
@@ -2172,11 +2169,8 @@ version
 ;
 if
 (
+!
 toolkitVersion
-=
-=
-=
-undefined
 )
 toolkitVersion
 =
