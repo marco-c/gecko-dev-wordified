@@ -4335,6 +4335,12 @@ NS_FAILED
 (
 rv
 )
+&
+&
+rv
+!
+=
+NS_ERROR_NOT_AVAILABLE
 )
 NS_WARNING
 (
