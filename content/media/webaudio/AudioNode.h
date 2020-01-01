@@ -861,11 +861,15 @@ return
 mChannelCountMode
 ;
 }
+virtual
 void
 SetChannelCountModeValue
 (
 ChannelCountMode
 aMode
+ErrorResult
+&
+aRv
 )
 {
 mChannelCountMode
