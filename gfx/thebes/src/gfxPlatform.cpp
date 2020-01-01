@@ -1511,6 +1511,13 @@ Shutdown
 (
 )
 ;
+gfxFontGroup
+:
+:
+Shutdown
+(
+)
+;
 #
 if
 defined
@@ -2402,7 +2409,7 @@ GetPrefFonts
 const
 char
 *
-aLangGroup
+aLanguage
 nsString
 &
 aFonts
@@ -2419,7 +2426,7 @@ Truncate
 AppendGenericFontFromPref
 (
 aFonts
-aLangGroup
+aLanguage
 nsnull
 )
 ;

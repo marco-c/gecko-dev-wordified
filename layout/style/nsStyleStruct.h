@@ -7598,7 +7598,7 @@ nsCOMPtr
 <
 nsIAtom
 >
-mLangGroup
+mLanguage
 ;
 /
 /

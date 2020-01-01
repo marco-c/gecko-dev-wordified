@@ -11093,7 +11093,7 @@ GetStyleVisibility
 )
 -
 >
-mLangGroup
+mLanguage
 fs
 *
 aFontMetrics
@@ -20583,7 +20583,7 @@ mFont
 visibility
 -
 >
-mLangGroup
+mLanguage
 aSC
 -
 >

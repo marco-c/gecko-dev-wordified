@@ -1602,7 +1602,6 @@ font
 -
 >
 mFont
-nsnull
 aPresContext
 -
 >

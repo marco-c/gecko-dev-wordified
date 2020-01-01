@@ -1220,7 +1220,6 @@ font
 -
 >
 mFont
-nsnull
 PresContext
 (
 )

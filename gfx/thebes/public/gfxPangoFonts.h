@@ -1124,7 +1124,7 @@ aFcFamilyList
 const
 nsACString
 &
-aLangGroup
+aLanguage
 )
 ;
 /

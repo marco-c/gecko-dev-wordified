@@ -9921,7 +9921,7 @@ GetDocument
 )
 ;
 nsCString
-langGroup
+language
 ;
 presShell
 -
@@ -9931,14 +9931,14 @@ GetPresContext
 )
 -
 >
-GetLangGroup
+GetLanguage
 (
 )
 -
 >
 ToUTF8String
 (
-langGroup
+language
 )
 ;
 nsCOMArray
@@ -10342,7 +10342,7 @@ NSAppUnitsToFloatPixels
 fontSize
 aupcp
 )
-langGroup
+language
 fontStyle
 -
 >

@@ -513,7 +513,7 @@ nsFont
 aFont
 nsIAtom
 *
-aLangGroup
+aLanguage
 nsIDeviceContext
 *
 aContext
@@ -656,12 +656,12 @@ aAdvance
 )
 ;
 NS_IMETHOD
-GetLangGroup
+GetLanguage
 (
 nsIAtom
 *
 *
-aLangGroup
+aLanguage
 )
 ;
 NS_IMETHOD
@@ -1234,7 +1234,7 @@ nsCOMPtr
 <
 nsIAtom
 >
-mLangGroup
+mLanguage
 ;
 PRInt32
 mP2A

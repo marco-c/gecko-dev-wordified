@@ -1029,9 +1029,7 @@ NS_FONT_STRETCH_NORMAL
 nsDependentCString
 (
 "
-x
--
-western
+en
 "
 )
 0

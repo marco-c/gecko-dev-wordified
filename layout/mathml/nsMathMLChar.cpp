@@ -9796,7 +9796,6 @@ aRenderingContext
 SetFont
 (
 aFont
-nsnull
 aPresContext
 -
 >
@@ -12604,7 +12603,6 @@ aRenderingContext
 SetFont
 (
 font
-nsnull
 aPresContext
 -
 >
@@ -16012,7 +16010,6 @@ aRenderingContext
 SetFont
 (
 theFont
-nsnull
 aPresContext
 -
 >

@@ -3930,7 +3930,6 @@ mPD
 -
 >
 mHeadFootFont
-nsnull
 pc
 -
 >

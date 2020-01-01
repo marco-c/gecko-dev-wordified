@@ -1448,7 +1448,6 @@ GetStyleFont
 -
 >
 mFont
-nsnull
 aPresContext
 -
 >

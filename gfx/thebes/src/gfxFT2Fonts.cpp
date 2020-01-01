@@ -2134,7 +2134,7 @@ GetPrefFonts
 aStyle
 -
 >
-langGroup
+language
 .
 get
 (
@@ -2159,7 +2159,7 @@ prefFamilies
 aStyle
 -
 >
-langGroup
+language
 FontCallback
 &
 familyArray
@@ -4319,7 +4319,6 @@ style
 '
 s
 language
-group
 nsAutoTArray
 <
 nsRefPtr
@@ -4334,7 +4333,7 @@ GetPrefFonts
 (
 mStyle
 .
-langGroup
+language
 .
 get
 (

@@ -4430,7 +4430,6 @@ GetStyleFont
 -
 >
 mFont
-nsnull
 aPresContext
 -
 >

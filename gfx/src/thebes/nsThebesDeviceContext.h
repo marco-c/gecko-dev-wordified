@@ -664,7 +664,7 @@ nsFont
 aFont
 nsIAtom
 *
-aLangGroup
+aLanguage
 gfxUserFontSet
 *
 aUserFontSet
@@ -947,7 +947,7 @@ aForceAlias
 )
 ;
 void
-GetLocaleLangGroup
+GetLocaleLanguage
 (
 void
 )
@@ -1003,7 +1003,7 @@ nsCOMPtr
 <
 nsIAtom
 >
-mLocaleLangGroup
+mLocaleLanguage
 ;
 /
 /
@@ -1013,8 +1013,6 @@ fix
 for
 performance
 bug
--
-erik
 nsHashtable
 *
 mFontAliasTable
