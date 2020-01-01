@@ -2368,7 +2368,7 @@ script
 fop
 -
 >
-free_
+delete_
 (
 script
 )
