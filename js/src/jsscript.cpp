@@ -910,10 +910,10 @@ setter
 uint32
 slot
 =
-JSObject
+CallObject
 :
 :
-CALL_RESERVED_SLOTS
+RESERVED_SLOTS
 ;
 if
 (

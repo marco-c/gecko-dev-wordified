@@ -28612,7 +28612,11 @@ JS_ASSERT_IF
 isCall
 (
 )
-maybeCallObjStackFrame
+asCall
+(
+)
+.
+maybeStackFrame
 (
 )
 !
