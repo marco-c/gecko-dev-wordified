@@ -5404,6 +5404,18 @@ end
 :
 2em
 ;
+max
+-
+width
+:
+300px
+;
+max
+-
+height
+:
+300px
+;
 }
 #
 detail
@@ -5469,7 +5481,7 @@ min
 -
 width
 :
-8em
+10em
 ;
 }
 #
