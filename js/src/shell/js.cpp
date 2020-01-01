@@ -27158,7 +27158,11 @@ rval
 )
 )
 return
-EXIT_FAILURE
+gExitCode
+?
+gExitCode
+:
+EXITCODE_RUNTIME_ERROR
 ;
 codeChunks
 .
