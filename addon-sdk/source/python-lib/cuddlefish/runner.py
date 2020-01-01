@@ -359,9 +359,11 @@ results
 OUTPUT_TIMEOUT
 =
 60
+*
+5
 #
-one
-minute
+five
+minutes
 def
 follow_file
 (
