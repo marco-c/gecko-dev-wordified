@@ -147,10 +147,7 @@ ID
 "
     
 for
-(
-name
-definition
-)
+histogram
 in
 histogram_tools
 .
@@ -162,13 +159,10 @@ filename
         
 cpp_guard
 =
-definition
+histogram
 .
-get
-(
-'
 cpp_guard
-'
+(
 )
         
 if
@@ -194,8 +188,10 @@ print
 s
 "
 %
-(
+histogram
+.
 name
+(
 )
         
 if
