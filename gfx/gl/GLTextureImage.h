@@ -1246,7 +1246,7 @@ it
 .
 Otherwise
 return
-NULL
+nullptr
 .
 *
 /
@@ -1260,7 +1260,7 @@ GetBackingSurface
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const

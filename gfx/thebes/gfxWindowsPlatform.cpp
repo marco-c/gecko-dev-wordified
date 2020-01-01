@@ -3368,7 +3368,12 @@ mRenderMode
 RENDER_DIRECT2D
 )
 {
-return
+nsRefPtr
+<
+gfxASurface
+>
+surface
+=
 new
 gfxImageSurface
 (
@@ -3377,6 +3382,13 @@ OptimalFormatForContent
 (
 aContentType
 )
+)
+;
+return
+surface
+.
+forget
+(
 )
 ;
 }

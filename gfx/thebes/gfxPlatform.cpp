@@ -4388,7 +4388,7 @@ data
 )
 {
 return
-NULL
+nullptr
 ;
 }
 IntSize

@@ -281,8 +281,10 @@ object
 *
 /
 static
+already_AddRefed
+<
 nsAnnotationService
-*
+>
 GetSingleton
 (
 )

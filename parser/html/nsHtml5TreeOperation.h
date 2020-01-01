@@ -1811,7 +1811,10 @@ IsStaticAtom
 )
 {
 return
+dont_AddRef
+(
 aAtom
+)
 ;
 }
 nsAutoString

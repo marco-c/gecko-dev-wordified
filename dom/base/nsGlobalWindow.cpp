@@ -16483,7 +16483,7 @@ frameLoaderOwner
 )
 {
 return
-NULL
+nullptr
 ;
 }
 nsRefPtr
@@ -16506,7 +16506,7 @@ frameLoader
 )
 {
 return
-NULL
+nullptr
 ;
 }
 nsCOMPtr

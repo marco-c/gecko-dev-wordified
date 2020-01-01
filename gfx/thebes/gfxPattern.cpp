@@ -1982,7 +1982,7 @@ gfxPattern
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }

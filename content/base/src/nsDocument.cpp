@@ -25840,6 +25840,8 @@ nullptr
 ;
 }
 return
+dont_AddRef
+(
 content
 .
 forget
@@ -25853,6 +25855,7 @@ get
 >
 AsElement
 (
+)
 )
 ;
 }
@@ -26019,6 +26022,8 @@ nullptr
 ;
 }
 return
+dont_AddRef
+(
 content
 .
 forget
@@ -26032,6 +26037,7 @@ get
 >
 AsElement
 (
+)
 )
 ;
 }
@@ -36893,6 +36899,8 @@ ev
 return
 ev
 ?
+dont_AddRef
+(
 ev
 .
 forget
@@ -36906,6 +36914,7 @@ get
 >
 InternalDOMEvent
 (
+)
 )
 :
 nullptr

@@ -464,8 +464,10 @@ object
 *
 /
 static
+already_AddRefed
+<
 nsNavHistory
-*
+>
 GetSingleton
 (
 )

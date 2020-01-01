@@ -419,8 +419,10 @@ object
 *
 /
 static
+already_AddRefed
+<
 nsNavBookmarks
-*
+>
 GetSingleton
 (
 )

@@ -390,8 +390,10 @@ object
 *
 /
 static
+already_AddRefed
+<
 nsFaviconService
-*
+>
 GetSingleton
 (
 )

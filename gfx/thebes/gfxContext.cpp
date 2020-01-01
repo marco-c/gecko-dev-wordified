@@ -929,7 +929,7 @@ backing
 it
 .
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1306,7 +1306,7 @@ for
 Azure
 .
 return
-NULL
+nullptr
 ;
 }
 }
@@ -9798,7 +9798,7 @@ needs
 fixing
 .
 return
-NULL
+nullptr
 ;
 }
 }
