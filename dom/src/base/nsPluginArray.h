@@ -470,8 +470,6 @@ nsPluginArray
 :
 public
 nsIDOMPluginArray
-public
-nsIDOMJSPluginArray
 {
 public
 :
@@ -496,10 +494,6 @@ NS_DECL_ISUPPORTS
 /
 nsIDOMPluginArray
 NS_DECL_NSIDOMPLUGINARRAY
-/
-/
-nsIDOMJSPluginArray
-NS_DECL_NSIDOMJSPLUGINARRAY
 nsresult
 GetPluginHost
 (

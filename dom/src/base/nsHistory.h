@@ -438,13 +438,6 @@ h
 #
 include
 "
-nsIDOMNSHistory
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h
@@ -485,8 +478,6 @@ nsHistory
 :
 public
 nsIDOMHistory
-public
-nsIDOMNSHistory
 {
 public
 :
@@ -511,10 +502,6 @@ NS_DECL_ISUPPORTS
 /
 nsIDOMHistory
 NS_DECL_NSIDOMHISTORY
-/
-/
-nsIDOMNSHistory
-NS_DECL_NSIDOMNSHISTORY
 void
 SetDocShell
 (
