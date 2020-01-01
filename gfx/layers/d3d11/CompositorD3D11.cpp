@@ -542,7 +542,7 @@ SetPrivateData
 (
 sDeviceAttachmentsD3D11
 0
-NULL
+nullptr
 )
 ;
 delete
@@ -2004,7 +2004,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 byRef
 (
 texture
@@ -2142,7 +2142,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 byRef
 (
 texture
@@ -3868,7 +3868,7 @@ mDevice
 CreateRenderTargetView
 (
 backBuf
-NULL
+nullptr
 byRef
 (
 mDefaultRT
@@ -4450,7 +4450,7 @@ CreateTexture2D
 (
 &
 softDesc
-NULL
+nullptr
 getter_AddRefs
 (
 readTexture

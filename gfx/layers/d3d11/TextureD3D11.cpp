@@ -312,7 +312,7 @@ mTextures
 [
 0
 ]
-NULL
+nullptr
 byRef
 (
 mRTView
@@ -1146,7 +1146,7 @@ locked
 when
 it
 gets
-NULL
+nullptr
 '
 ed
 as
