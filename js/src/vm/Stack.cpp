@@ -5242,6 +5242,12 @@ firstUnused
 return
 false
 ;
+MakeRangeGCSafe
+(
+firstUnused
+argc
+)
+;
 ImplicitCast
 <
 CallArgs
