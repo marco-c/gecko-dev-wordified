@@ -456,15 +456,10 @@ unique
 :
 "
 +
-Math
-.
-floor
-(
 Date
 .
 now
 (
-)
 )
 ;
 /

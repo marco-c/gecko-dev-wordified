@@ -121,9 +121,7 @@ com
 let
 now
 =
-Math
-.
-floor
+Number
 (
 Date
 .
