@@ -8676,6 +8676,7 @@ Clear
 )
 ;
 }
+virtual
 gfxFont
 *
 GetFontAt
@@ -8696,6 +8697,7 @@ i
 )
 ;
 }
+virtual
 PRUint32
 FontListLength
 (
