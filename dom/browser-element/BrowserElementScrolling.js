@@ -1762,12 +1762,6 @@ should
 not
 perform
 scrolling
-evt
-.
-preventDefault
-(
-)
-;
 return
 ;
 }
