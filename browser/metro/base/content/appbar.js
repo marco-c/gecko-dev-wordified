@@ -333,7 +333,7 @@ clearSelection
 }
 this
 .
-clearContextualActions
+_clearContextualActions
 (
 )
 ;
@@ -1105,17 +1105,6 @@ show
 )
 ;
 }
-else
-{
-Elements
-.
-contextappbar
-.
-hide
-(
-)
-;
-}
 /
 /
 Look
@@ -1442,7 +1431,7 @@ true
 )
 ;
 }
-clearContextualActions
+_clearContextualActions
 :
 function
 (
