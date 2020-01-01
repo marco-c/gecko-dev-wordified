@@ -16328,9 +16328,7 @@ resolution
 =
 aFrameMetrics
 .
-CalculateResolution
-(
-)
+mZoom
 ;
 ScreenRect
 dp
