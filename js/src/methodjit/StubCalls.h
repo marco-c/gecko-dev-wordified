@@ -595,6 +595,15 @@ VMFrame
 f
 )
 ;
+void
+JS_FASTCALL
+Throw
+(
+VMFrame
+&
+f
+)
+;
 JSObject
 *
 JS_FASTCALL
