@@ -64,7 +64,7 @@ startup
 homepage_override_url
 "
 "
-http
+https
 :
 /
 /
@@ -72,7 +72,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 %
 LOCALE
@@ -103,7 +103,7 @@ startup
 homepage_welcome_url
 "
 "
-http
+https
 :
 /
 /
@@ -111,7 +111,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 %
 LOCALE
