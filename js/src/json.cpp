@@ -7339,7 +7339,7 @@ JS_FN
 parse
 "
 js_json_parse
-1
+2
 0
 )
 JS_FN
@@ -7348,7 +7348,7 @@ JS_FN
 stringify
 "
 js_json_stringify
-1
+3
 0
 )
 JS_FS_END
