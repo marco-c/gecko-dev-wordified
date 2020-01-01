@@ -5793,6 +5793,17 @@ mNumOpenIFRAMES
 ;
 break
 ;
+#
+ifdef
+MOZ_MEDIA
+case
+eHTMLTag_video
+:
+case
+eHTMLTag_audio
+:
+#
+endif
 case
 eHTMLTag_select
 :
