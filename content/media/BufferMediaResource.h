@@ -770,6 +770,16 @@ return
 NS_OK
 ;
 }
+bool
+IsTransportSeekable
+(
+)
+MOZ_OVERRIDE
+{
+return
+true
+;
+}
 private
 :
 const

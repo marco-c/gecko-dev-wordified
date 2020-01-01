@@ -6819,7 +6819,7 @@ Media
 data
 resource
 .
-nsAutoPtr
+nsRefPtr
 <
 MediaResource
 >
