@@ -2914,15 +2914,13 @@ change
 them
 without
 advancing
-vm
-/
-Xdr
+jsxdrapi
 .
 h
 '
 s
 *
-XDR_BYTECODE_VERSION
+JSXDR_BYTECODE_VERSION
 .
 *
 /
