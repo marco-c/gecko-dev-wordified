@@ -340,6 +340,9 @@ port
 retrylimit
 =
 5
+deviceRoot
+=
+None
 )
 :
     
@@ -372,6 +375,12 @@ self
 _sock
 =
 None
+    
+self
+.
+deviceRoot
+=
+deviceRoot
     
 if
 self
@@ -6481,9 +6490,24 @@ self
 )
 :
     
-try
+if
+self
+.
+deviceRoot
 :
       
+deviceRoot
+=
+self
+.
+deviceRoot
+    
+else
+:
+      
+try
+:
+        
 data
 =
 self
@@ -6502,13 +6526,13 @@ testroot
 }
 ]
 )
-    
+      
 except
 :
-      
+        
 return
 None
-    
+      
 deviceRoot
 =
 data
@@ -6551,7 +6575,15 @@ None
 return
 None
     
+self
+.
+deviceRoot
+=
+deviceRoot
+    
 return
+self
+.
 deviceRoot
   
 def
