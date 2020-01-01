@@ -61783,6 +61783,12 @@ function
 (
 )
 {
+let
+tempScope
+=
+{
+}
+;
 Cu
 .
 import
@@ -61799,11 +61805,14 @@ HUDService
 .
 jsm
 "
+tempScope
 )
 ;
 try
 {
 return
+tempScope
+.
 HUDService
 .
 consoleUI
