@@ -4067,7 +4067,7 @@ visible
 set
 "
 "
-UniversalBrowserWrite
+UniversalXPConnect
 "
 )
 ;
@@ -4211,7 +4211,7 @@ History
 current
 "
 "
-UniversalBrowserRead
+UniversalXPConnect
 "
 )
 ;
@@ -4269,7 +4269,7 @@ History
 item
 "
 "
-UniversalBrowserRead
+UniversalXPConnect
 "
 )
 ;
@@ -4287,7 +4287,7 @@ History
 next
 "
 "
-UniversalBrowserRead
+UniversalXPConnect
 "
 )
 ;
@@ -4305,7 +4305,7 @@ History
 previous
 "
 "
-UniversalBrowserRead
+UniversalXPConnect
 "
 )
 ;
@@ -4323,7 +4323,7 @@ History
 toString
 "
 "
-UniversalBrowserRead
+UniversalXPConnect
 "
 )
 ;
