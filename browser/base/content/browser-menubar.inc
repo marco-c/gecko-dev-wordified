@@ -4029,7 +4029,7 @@ event
 )
 ;
 "
-ondragdrop
+ondrop
 =
 "
 nsDragAndDrop
