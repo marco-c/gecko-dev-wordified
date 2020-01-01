@@ -1623,16 +1623,7 @@ void
 pre
 (
 )
-{
-T
-:
-:
-writeBarrierPre
-(
-value
-)
 ;
-}
 }
 ;
 template
