@@ -2425,6 +2425,8 @@ this
 .
 PRBool
 hasKHRImage
+=
+PR_FALSE
 ;
 if
 (
