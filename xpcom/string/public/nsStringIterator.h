@@ -1508,7 +1508,7 @@ return
 this
 ;
 }
-PRUint32
+void
 write
 (
 const
@@ -1566,9 +1566,6 @@ difference_type
 n
 )
 )
-;
-return
-n
 ;
 }
 }

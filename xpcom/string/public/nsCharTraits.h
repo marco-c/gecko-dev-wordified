@@ -4080,7 +4080,7 @@ struct
 nsCharSinkTraits
 {
 static
-PRUint32
+void
 write
 (
 OutputIterator
@@ -4098,7 +4098,6 @@ PRUint32
 n
 )
 {
-return
 iter
 .
 write
@@ -4126,7 +4125,7 @@ CharT
 >
 {
 static
-PRUint32
+void
 write
 (
 CharT
@@ -4157,9 +4156,6 @@ n
 iter
 +
 =
-n
-;
-return
 n
 ;
 }
@@ -4176,7 +4172,7 @@ char
 >
 {
 static
-PRUint32
+void
 write
 (
 char
@@ -4207,9 +4203,6 @@ n
 iter
 +
 =
-n
-;
-return
 n
 ;
 }
@@ -4224,7 +4217,7 @@ PRUnichar
 >
 {
 static
-PRUint32
+void
 write
 (
 PRUnichar
@@ -4255,9 +4248,6 @@ n
 iter
 +
 =
-n
-;
-return
 n
 ;
 }

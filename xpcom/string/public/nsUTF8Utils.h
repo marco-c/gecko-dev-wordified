@@ -2549,7 +2549,7 @@ mBuffer
 mStart
 ;
 }
-PRUint32
+void
 NS_ALWAYS_INLINE
 write
 (
@@ -2566,7 +2566,6 @@ if
 mErrorEncountered
 )
 return
-N
 ;
 /
 /
@@ -2658,7 +2657,6 @@ mBuffer
 out
 ;
 return
-N
 ;
 }
 if
@@ -2820,11 +2818,6 @@ mBuffer
 =
 out
 ;
-return
-p
--
-start
-;
 }
 void
 write_terminator
@@ -2927,7 +2920,7 @@ return
 mLength
 ;
 }
-PRUint32
+void
 NS_ALWAYS_INLINE
 write
 (
@@ -2950,7 +2943,6 @@ if
 mErrorEncountered
 )
 return
-N
 ;
 /
 /
@@ -3275,15 +3267,7 @@ mErrorEncountered
 =
 PR_TRUE
 ;
-return
-N
-;
 }
-return
-p
--
-start
-;
 }
 private
 :
@@ -3413,7 +3397,7 @@ mBuffer
 mStart
 ;
 }
-PRUint32
+void
 NS_ALWAYS_INLINE
 write
 (
@@ -4014,9 +3998,6 @@ mBuffer
 =
 out
 ;
-return
-N
-;
 }
 void
 write_terminator
@@ -4128,7 +4109,7 @@ return
 mSize
 ;
 }
-PRUint32
+void
 NS_ALWAYS_INLINE
 write
 (
@@ -4460,9 +4441,6 @@ surrogate
 ;
 }
 }
-return
-N
-;
 }
 private
 :
@@ -4546,7 +4524,7 @@ aDestination
 )
 {
 }
-PRUint32
+void
 write
 (
 const
@@ -4608,9 +4586,6 @@ C
 String
 |
 behavior
-return
-aSourceLength
-;
 }
 void
 write_terminator
