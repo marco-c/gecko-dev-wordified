@@ -1529,6 +1529,14 @@ script
 argsObjAliasesFormals
 (
 )
+&
+&
+fp
+-
+>
+hasArgsObj
+(
+)
 )
 setArg
 (
@@ -1557,6 +1565,7 @@ fp
 unaliasedFormal
 (
 i
+DONT_CHECK_ALIASING
 )
 DONT_CHECK_ALIASING
 )
@@ -7652,12 +7661,9 @@ the
 stack
 .
 Thus
-handleUn
+handleUnaliasedAccess
 must
 translate
-would
--
-be
 *
 accesses
 to
@@ -7994,6 +8000,14 @@ script
 argsObjAliasesFormals
 (
 )
+&
+&
+maybefp
+-
+>
+hasArgsObj
+(
+)
 )
 {
 if
@@ -8052,6 +8066,7 @@ maybefp
 unaliasedFormal
 (
 i
+DONT_CHECK_ALIASING
 )
 ;
 else
@@ -8061,6 +8076,7 @@ maybefp
 unaliasedFormal
 (
 i
+DONT_CHECK_ALIASING
 )
 =
 *

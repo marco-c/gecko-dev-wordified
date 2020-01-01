@@ -6377,11 +6377,6 @@ nsIFile
 aTemporaryFile
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 bool
 isFile
 =

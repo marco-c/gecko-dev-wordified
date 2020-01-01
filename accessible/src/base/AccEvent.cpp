@@ -3616,6 +3616,8 @@ PRInt32
 aOldStart
 PRInt32
 aOldEnd
+PRInt16
+aReason
 )
 :
 AccEvent
@@ -3639,6 +3641,10 @@ aOldStart
 mOldEnd
 (
 aOldEnd
+)
+mReason
+(
+aReason
 )
 {
 }

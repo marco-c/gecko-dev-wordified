@@ -588,8 +588,8 @@ fixupCount
 void
 push
 (
-PRInt32
-pairIndex
+PRUint32
+endPairChar
 PRInt32
 scriptCode
 )
@@ -609,8 +609,8 @@ scriptCode
 struct
 ParenStackEntry
 {
-PRInt32
-pairIndex
+PRUint32
+endPairChar
 ;
 PRInt32
 scriptCode

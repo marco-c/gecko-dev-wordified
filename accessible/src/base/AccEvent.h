@@ -1609,6 +1609,8 @@ PRInt32
 aOldStart
 PRInt32
 aOldEnd
+PRInt16
+aReason
 )
 ;
 virtual
@@ -1695,6 +1697,16 @@ return
 mOldEnd
 ;
 }
+PRInt32
+Reason
+(
+)
+const
+{
+return
+mReason
+;
+}
 private
 :
 nsRefPtr
@@ -1708,6 +1720,9 @@ mOldStart
 ;
 PRInt32
 mOldEnd
+;
+PRInt16
+mReason
 ;
 }
 ;

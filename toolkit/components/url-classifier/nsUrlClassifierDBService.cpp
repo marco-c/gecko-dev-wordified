@@ -364,6 +364,15 @@ zlib
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 Needed
@@ -21614,6 +21623,7 @@ callback
 .
 class
 nsUrlClassifierLookupCallback
+MOZ_FINAL
 :
 public
 nsIUrlClassifierLookupCallback
@@ -22901,6 +22911,7 @@ enums
 .
 class
 nsUrlClassifierClassifyCallback
+MOZ_FINAL
 :
 public
 nsIUrlClassifierCallback

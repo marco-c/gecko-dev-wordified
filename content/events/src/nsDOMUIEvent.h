@@ -610,11 +610,6 @@ Internal
 helper
 functions
 nsIntPoint
-GetScreenPoint
-(
-)
-;
-nsIntPoint
 GetClientPoint
 (
 )
@@ -711,9 +706,6 @@ mMovementPoint
 ;
 bool
 mIsPointerLocked
-;
-nsIntPoint
-mLastScreenPoint
 ;
 nsIntPoint
 mLastClientPoint
