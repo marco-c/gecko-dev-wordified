@@ -2784,6 +2784,10 @@ op
 BinaryAlloc
 &
 alloc
+bool
+resultNeeded
+=
+true
 )
 ;
 /
