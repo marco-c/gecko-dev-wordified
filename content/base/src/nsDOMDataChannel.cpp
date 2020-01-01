@@ -2272,6 +2272,7 @@ getter_AddRefs
 (
 event
 )
+this
 nullptr
 nullptr
 )
@@ -2511,6 +2512,7 @@ getter_AddRefs
 (
 event
 )
+this
 nullptr
 nullptr
 )

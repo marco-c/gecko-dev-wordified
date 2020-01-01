@@ -128,6 +128,15 @@ public
 :
 nsDOMMouseEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

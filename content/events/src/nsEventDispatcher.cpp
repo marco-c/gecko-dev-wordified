@@ -4004,6 +4004,15 @@ nsEventDispatcher
 :
 CreateEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -4045,6 +4054,7 @@ return
 NS_NewDOMMutationEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4069,6 +4079,7 @@ return
 NS_NewDOMUIEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4087,6 +4098,7 @@ return
 NS_NewDOMScrollAreaEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4105,6 +4117,7 @@ return
 NS_NewDOMKeyboardEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4123,6 +4136,7 @@ return
 NS_NewDOMCompositionEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4141,6 +4155,7 @@ return
 NS_NewDOMMouseEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4159,6 +4174,7 @@ return
 NS_NewDOMMouseScrollEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4177,6 +4193,7 @@ return
 NS_NewDOMWheelEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4198,6 +4215,7 @@ return
 NS_NewDOMDragEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4216,6 +4234,7 @@ return
 NS_NewDOMTextEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4234,6 +4253,7 @@ return
 NS_NewDOMSVGEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 aEvent
 )
@@ -4245,6 +4265,7 @@ return
 NS_NewDOMSVGZoomEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4263,6 +4284,7 @@ return
 NS_NewDOMTimeEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 aEvent
 )
@@ -4274,6 +4296,7 @@ return
 NS_NewDOMCommandEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4292,6 +4315,7 @@ return
 NS_NewDOMSimpleGestureEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4310,6 +4334,7 @@ return
 NS_NewDOMTouchEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4328,6 +4353,7 @@ return
 NS_NewDOMTransitionEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4346,6 +4372,7 @@ return
 NS_NewDOMAnimationEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 static_cast
 <
@@ -4377,6 +4404,7 @@ return
 NS_NewDOMEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 aEvent
 )
@@ -4434,6 +4462,7 @@ return
 NS_NewDOMMouseEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4453,6 +4482,7 @@ return
 NS_NewDOMMouseScrollEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4482,6 +4512,7 @@ return
 NS_NewDOMDragEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4511,6 +4542,7 @@ return
 NS_NewDOMKeyboardEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4530,6 +4562,7 @@ return
 NS_NewDOMCompositionEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4559,6 +4592,7 @@ return
 NS_NewDOMMutationEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4588,6 +4622,7 @@ return
 NS_NewDOMTextEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4607,6 +4642,7 @@ return
 NS_NewDOMPopupBlockedEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4626,6 +4662,7 @@ return
 NS_NewDOMDeviceOrientationEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4645,6 +4682,7 @@ return
 NS_NewDOMDeviceMotionEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4674,6 +4712,7 @@ return
 NS_NewDOMUIEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4713,6 +4752,7 @@ return
 NS_NewDOMEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4742,6 +4782,7 @@ return
 NS_NewDOMSVGEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4771,6 +4812,7 @@ return
 NS_NewDOMSVGZoomEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4800,6 +4842,7 @@ return
 NS_NewDOMTimeEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4829,6 +4872,7 @@ return
 NS_NewDOMXULCommandEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4858,6 +4902,7 @@ return
 NS_NewDOMCommandEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4877,6 +4922,7 @@ return
 NS_NewDOMElementReplaceEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4906,6 +4952,7 @@ return
 NS_NewDOMDataContainerEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4925,6 +4972,7 @@ return
 NS_NewDOMMessageEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4944,6 +4992,7 @@ return
 NS_NewDOMNotifyPaintEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4963,6 +5012,7 @@ return
 NS_NewDOMSimpleGestureEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -4982,6 +5032,7 @@ return
 NS_NewDOMBeforeUnloadEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -5001,6 +5052,7 @@ return
 NS_NewDOMPageTransitionEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -5020,6 +5072,7 @@ return
 NS_NewDOMDOMTransactionEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -5039,6 +5092,7 @@ return
 NS_NewDOMScrollAreaEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -5081,6 +5135,7 @@ return
 NS_NewDOMTransitionEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -5100,6 +5155,7 @@ return
 NS_NewDOMAnimationEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -5119,6 +5175,7 @@ return
 NS_NewDOMPopStateEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -5138,6 +5195,7 @@ return
 NS_NewDOMAudioAvailableEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -5157,6 +5215,7 @@ return
 NS_NewDOMCloseEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -5184,6 +5243,7 @@ return
 NS_NewDOMTouchEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -5203,6 +5263,7 @@ return
 NS_NewDOMHashChangeEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -5222,6 +5283,7 @@ return
 NS_NewDOMCustomEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -5241,6 +5303,7 @@ return
 NS_NewDOMMozSmsEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )
@@ -5261,6 +5324,7 @@ return
 NS_NewDOMStorageEvent
 (
 aDOMEvent
+aOwner
 aPresContext
 nullptr
 )

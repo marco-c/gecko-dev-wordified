@@ -125,6 +125,15 @@ public
 :
 nsDOMKeyboardEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

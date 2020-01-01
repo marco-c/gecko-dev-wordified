@@ -144,6 +144,15 @@ StkCommandEvent
 :
 Create
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 const
 nsAString
 &
@@ -159,6 +168,7 @@ event
 new
 StkCommandEvent
 (
+aOwner
 )
 ;
 event

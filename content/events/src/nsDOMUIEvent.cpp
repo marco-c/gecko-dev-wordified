@@ -229,6 +229,15 @@ nsDOMUIEvent
 :
 nsDOMUIEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -239,6 +248,7 @@ aEvent
 :
 nsDOMEvent
 (
+aOwner
 aPresContext
 aEvent
 ?
@@ -2589,6 +2599,15 @@ nsIDOMEvent
 *
 *
 aInstancePtrResult
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -2604,6 +2623,7 @@ it
 new
 nsDOMUIEvent
 (
+aOwner
 aPresContext
 aEvent
 )

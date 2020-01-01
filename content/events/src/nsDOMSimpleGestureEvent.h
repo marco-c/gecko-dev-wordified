@@ -91,6 +91,15 @@ public
 :
 nsDOMSimpleGestureEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 nsSimpleGestureEvent

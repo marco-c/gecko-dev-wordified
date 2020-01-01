@@ -7216,6 +7216,7 @@ nsEventDispatcher
 :
 CreateEvent
 (
+this
 nullptr
 nullptr
 NS_LITERAL_STRING
@@ -7403,6 +7404,7 @@ getter_AddRefs
 (
 event
 )
+this
 nullptr
 nullptr
 )

@@ -11925,7 +11925,7 @@ return
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 dispatchTarget
 =
@@ -11936,7 +11936,7 @@ ourWindow
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 eventTarget
 =
@@ -12106,6 +12106,7 @@ getter_AddRefs
 (
 event
 )
+eventTarget
 this
 nullptr
 NS_AFTERPAINT

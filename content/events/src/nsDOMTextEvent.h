@@ -132,6 +132,15 @@ public
 :
 nsDOMTextEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

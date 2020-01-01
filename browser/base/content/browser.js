@@ -1396,7 +1396,7 @@ handlers
 function
 pageShowEventHandlers
 (
-event
+persisted
 )
 {
 charsetLoadListener
@@ -1427,8 +1427,6 @@ BF
 cache
 .
 |
-event
-.
 persisted
 |
 is
@@ -1455,8 +1453,6 @@ necessary
 .
 if
 (
-event
-.
 persisted
 )
 gPluginHandler
@@ -10017,6 +10013,8 @@ setTimeout
 pageShowEventHandlers
 0
 event
+.
+persisted
 )
 ;
 }

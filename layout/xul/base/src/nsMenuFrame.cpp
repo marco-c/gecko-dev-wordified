@@ -613,6 +613,7 @@ nsEventDispatcher
 :
 CreateEvent
 (
+mMenu
 mPresContext
 nullptr
 NS_LITERAL_STRING

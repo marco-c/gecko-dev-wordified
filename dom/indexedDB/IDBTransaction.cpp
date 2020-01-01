@@ -4326,6 +4326,7 @@ event
 =
 CreateGenericEvent
 (
+mTransaction
 NS_LITERAL_STRING
 (
 ABORT_EVT_STR
@@ -4413,6 +4414,7 @@ event
 =
 CreateGenericEvent
 (
+mTransaction
 NS_LITERAL_STRING
 (
 COMPLETE_EVT_STR

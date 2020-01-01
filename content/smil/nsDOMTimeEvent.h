@@ -125,6 +125,15 @@ public
 :
 nsDOMTimeEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

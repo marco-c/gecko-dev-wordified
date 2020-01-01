@@ -154,6 +154,13 @@ h
 #
 include
 "
+nsDOMEvent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -377,6 +384,12 @@ NEW_BINDING
 (
 nsSVGElement
 SVGElement
+)
+;
+NEW_BINDING
+(
+nsDOMEvent
+Event
 )
 ;
 #

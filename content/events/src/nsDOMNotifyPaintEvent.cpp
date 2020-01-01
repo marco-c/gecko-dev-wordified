@@ -158,6 +158,15 @@ nsDOMNotifyPaintEvent
 :
 nsDOMNotifyPaintEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -173,6 +182,7 @@ aInvalidateRequests
 :
 nsDOMEvent
 (
+aOwner
 aPresContext
 aEvent
 )
@@ -1003,6 +1013,15 @@ nsIDOMEvent
 *
 *
 aInstancePtrResult
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -1023,6 +1042,7 @@ it
 new
 nsDOMNotifyPaintEvent
 (
+aOwner
 aPresContext
 aEvent
 aEventType

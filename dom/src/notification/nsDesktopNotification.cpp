@@ -1120,6 +1120,7 @@ getter_AddRefs
 (
 event
 )
+this
 nullptr
 nullptr
 )

@@ -125,6 +125,15 @@ public
 :
 nsDOMMutationEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

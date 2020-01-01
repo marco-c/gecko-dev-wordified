@@ -172,6 +172,15 @@ public
 :
 nsDOMDeviceMotionEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -182,6 +191,7 @@ aEvent
 :
 nsDOMEvent
 (
+aOwner
 aPresContext
 aEvent
 )

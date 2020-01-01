@@ -192,6 +192,15 @@ public
 :
 nsDOMMessageEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

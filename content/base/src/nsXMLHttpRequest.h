@@ -2128,7 +2128,6 @@ doesn
 t
 bubble
 .
-static
 nsresult
 CreateReadystatechangeEvent
 (
