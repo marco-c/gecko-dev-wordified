@@ -1918,8 +1918,11 @@ ASM_EXPORT_INDEX_SLOT
 =
 1
 ;
-static
+extern
 JSBool
+js
+:
+:
 CallAsmJS
 (
 JSContext
