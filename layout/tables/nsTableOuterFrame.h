@@ -1202,16 +1202,6 @@ PRInt32
 aColumn
 )
 ;
-PRBool
-IsNested
-(
-const
-nsHTMLReflowState
-&
-aReflowState
-)
-const
-;
 protected
 :
 nsTableOuterFrame
