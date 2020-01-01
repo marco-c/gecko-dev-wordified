@@ -114,6 +114,13 @@ MPL
 #
 include
 "
+xpcprivate
+.
+h
+"
+#
+include
+"
 XPCWrapper
 .
 h

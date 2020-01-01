@@ -55,6 +55,14 @@ windows
 h
 >
 #
+ifdef
+GetClassName
+#
+undef
+GetClassName
+#
+endif
+#
 include
 "
 base

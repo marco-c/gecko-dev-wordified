@@ -3844,11 +3844,8 @@ wrapper
 }
 }
 struct
-DeferredFinalizeFunction
+DeferredFinalizeFunctionHolder
 {
-XPCJSRuntime
-:
-:
 DeferredFinalizeFunction
 run
 ;
@@ -3877,7 +3874,7 @@ items
 ;
 nsAutoTArray
 <
-DeferredFinalizeFunction
+DeferredFinalizeFunctionHolder
 16
 >
 deferredFinalizeFunctions
@@ -4115,7 +4112,7 @@ SwapElements
 items
 )
 ;
-DeferredFinalizeFunction
+DeferredFinalizeFunctionHolder
 *
 function
 =
@@ -4336,7 +4333,7 @@ false
 do
 {
 const
-DeferredFinalizeFunction
+DeferredFinalizeFunctionHolder
 &
 function
 =

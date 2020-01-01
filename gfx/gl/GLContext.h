@@ -164,6 +164,14 @@ h
 #
 endif
 #
+ifdef
+GetClassName
+#
+undef
+GetClassName
+#
+endif
+#
 include
 "
 GLDefs
