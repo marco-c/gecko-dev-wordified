@@ -23712,10 +23712,7 @@ cx
 )
 ;
 return
-obj
--
->
-type_
+NULL
 ;
 }
 if
