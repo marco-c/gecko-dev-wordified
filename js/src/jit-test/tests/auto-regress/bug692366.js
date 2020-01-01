@@ -27,11 +27,6 @@ subarray
 (
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 )
 ;

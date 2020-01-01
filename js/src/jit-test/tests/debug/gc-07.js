@@ -23,11 +23,6 @@ g
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 for

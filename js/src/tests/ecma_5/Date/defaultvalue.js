@@ -1253,11 +1253,6 @@ Date
 =
 newGlobal
 (
-"
-new
--
-compartment
-"
 )
 .
 Date

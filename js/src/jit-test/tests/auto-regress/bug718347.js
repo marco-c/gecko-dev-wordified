@@ -41,11 +41,6 @@ __proto__
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 eval

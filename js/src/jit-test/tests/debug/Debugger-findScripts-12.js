@@ -74,11 +74,6 @@ g1
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 g1
@@ -114,11 +109,6 @@ g2
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 g2
@@ -154,11 +144,6 @@ g3
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 var

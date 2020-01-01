@@ -36,11 +36,6 @@ addDebuggee
 (
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 )
 ;

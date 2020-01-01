@@ -11,11 +11,6 @@ otherGlobal
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 var

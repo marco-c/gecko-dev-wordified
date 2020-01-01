@@ -52,11 +52,6 @@ g
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 gcparam

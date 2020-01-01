@@ -17505,11 +17505,6 @@ alien
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 var

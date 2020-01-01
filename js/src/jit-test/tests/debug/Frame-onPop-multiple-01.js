@@ -127,11 +127,6 @@ g
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 /

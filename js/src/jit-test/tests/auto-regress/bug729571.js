@@ -196,13 +196,6 @@ g
 =
 newGlobal
 (
-\
-"
-new
--
-compartment
-\
-"
 )
 ;
 \

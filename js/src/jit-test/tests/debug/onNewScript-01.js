@@ -10,11 +10,6 @@ g
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 var
@@ -294,11 +289,6 @@ g2
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 dbg

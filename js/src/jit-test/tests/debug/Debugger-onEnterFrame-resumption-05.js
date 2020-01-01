@@ -200,11 +200,6 @@ debuggee
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 var

@@ -35,11 +35,6 @@ g
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 let

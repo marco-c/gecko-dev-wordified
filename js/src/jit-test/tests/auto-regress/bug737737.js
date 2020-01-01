@@ -41,11 +41,6 @@ primarySandbox
 =
 newGlobal
 (
-"
-new
--
-compartment
-"
 )
 }
 return

@@ -45,11 +45,6 @@ global
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 var

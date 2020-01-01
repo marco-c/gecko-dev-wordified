@@ -38,11 +38,6 @@ crash
 .
 newGlobal
 (
-"
-new
--
-compartment
-"
 )
 .
 __lookupSetter__

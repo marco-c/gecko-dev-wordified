@@ -13,11 +13,6 @@ g
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 var
@@ -25,11 +20,6 @@ h
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 var

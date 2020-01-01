@@ -15,11 +15,6 @@ global
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 Debugger

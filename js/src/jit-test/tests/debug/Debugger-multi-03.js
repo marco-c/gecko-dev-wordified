@@ -30,11 +30,6 @@ debuggerGlobal
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 debuggerGlobal
@@ -120,11 +115,6 @@ base
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 var
