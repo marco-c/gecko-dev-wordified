@@ -1663,7 +1663,7 @@ _
 "
 Verify
 that
-lazyMap
+mapDupe
 uses
 the
 anno
@@ -1682,7 +1682,7 @@ do_check_eq
 mostVisitedGUID
 engine
 .
-_lazyMap
+_mapDupe
 (
 record
 )
@@ -1706,7 +1706,7 @@ do_check_eq
 mostVisitedGUID
 engine
 .
-_lazyMap
+_mapDupe
 (
 record
 )
@@ -1832,7 +1832,7 @@ do_check_eq
 mostVisitedGUID
 engine
 .
-_lazyMap
+_mapDupe
 (
 record
 )
