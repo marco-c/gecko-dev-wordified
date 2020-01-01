@@ -5226,6 +5226,15 @@ mState
 ;
 if
 (
+GeckoApp
+.
+mDOMFullScreen
+)
+return
+false
+;
+if
+(
 mState
 =
 =
