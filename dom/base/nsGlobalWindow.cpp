@@ -14367,8 +14367,10 @@ if
 topWindow
 )
 {
-NS_ERROR
+NS_ASSERTION
 (
+!
+mDocShell
 "
 AreDialogsBlocked
 (
