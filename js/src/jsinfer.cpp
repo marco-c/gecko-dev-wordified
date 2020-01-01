@@ -20024,6 +20024,7 @@ obj
 >
 rollbackProperties
 (
+cx
 numProperties
 )
 ;

@@ -8406,6 +8406,9 @@ JSObject
 :
 rollbackProperties
 (
+JSContext
+*
+cx
 uint32
 slotSpan
 )
@@ -8429,6 +8432,12 @@ span
 /
 JS_ASSERT
 (
+!
+inDictionaryMode
+(
+)
+&
+&
 !
 hasSlotsArray
 (
@@ -8487,6 +8496,11 @@ removeLastProperty
 )
 ;
 }
+updateShape
+(
+cx
+)
+;
 }
 void
 JSObject
