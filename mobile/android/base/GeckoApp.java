@@ -5252,6 +5252,13 @@ clearFavicon
 ;
 tab
 .
+updateTitle
+(
+null
+)
+;
+tab
+.
 updateIdentityData
 (
 null
