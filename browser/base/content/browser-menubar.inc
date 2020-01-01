@@ -4115,6 +4115,11 @@ type
 "
 checkbox
 "
+hidden
+=
+"
+true
+"
 label
 =
 "
