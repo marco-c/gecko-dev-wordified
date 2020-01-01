@@ -631,7 +631,7 @@ fmradio
 {
 app
 :
-ALLOW_ACTION
+DENY_ACTION
 privileged
 :
 ALLOW_ACTION

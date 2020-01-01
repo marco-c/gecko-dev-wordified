@@ -261,13 +261,6 @@ alarms
 allow
 "
 "
-fmradio
-"
-:
-"
-allow
-"
-"
 desktop
 -
 notification
@@ -302,13 +295,6 @@ unknown
 "
 "
 alarms
-"
-:
-"
-unknown
-"
-"
-fmradio
 "
 :
 "
