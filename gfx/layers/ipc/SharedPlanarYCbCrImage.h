@@ -707,6 +707,12 @@ BufferTextureClient
 >
 mTextureClient
 ;
+RefPtr
+<
+ImageClient
+>
+mCompositable
+;
 }
 ;
 }
