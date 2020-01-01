@@ -516,7 +516,7 @@ uses
 .
 requestLongerTimeout
 (
-2
+4
 )
 ;
 runNextTest
