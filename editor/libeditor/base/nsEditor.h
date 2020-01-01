@@ -3282,6 +3282,7 @@ editable
 node
 *
 /
+virtual
 PRBool
 IsEditable
 (
