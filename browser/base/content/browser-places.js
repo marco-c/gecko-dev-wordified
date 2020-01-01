@@ -1542,7 +1542,7 @@ showEditBookmarkPopup
 itemId
 starIcon
 "
-after_start
+after_end
 "
 )
 ;
