@@ -114,6 +114,13 @@ h
 #
 include
 "
+nsMimeTypes
+.
+h
+"
+#
+include
+"
 nsIURL
 .
 h
@@ -732,11 +739,7 @@ aURI
 stream
 NS_LITERAL_CSTRING
 (
-"
-image
-/
-icon
-"
+IMAGE_ICON
 )
 )
 ;

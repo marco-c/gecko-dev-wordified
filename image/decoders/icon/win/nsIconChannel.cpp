@@ -3557,13 +3557,7 @@ aContentType
 .
 AssignLiteral
 (
-"
-image
-/
-x
--
-icon
-"
+IMAGE_ICO
 )
 ;
 return

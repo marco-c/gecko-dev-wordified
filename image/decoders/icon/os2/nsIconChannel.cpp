@@ -221,6 +221,13 @@ h
 #
 include
 "
+nsMimeTypes
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h
@@ -4545,11 +4552,7 @@ aContentType
 .
 AssignLiteral
 (
-"
-image
-/
-icon
-"
+IMAGE_ICON
 )
 ;
 return
