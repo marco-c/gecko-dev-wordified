@@ -336,7 +336,7 @@ profileDir
 /
 Will
 be
-incompatible
+disabled
 in
 the
 first
@@ -651,7 +651,7 @@ a3
 null
 )
 ;
-do_check_true
+do_check_false
 (
 isExtensionInAddonsList
 (
