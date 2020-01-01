@@ -75,8 +75,7 @@ Components
 .
 interfaces
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -126,10 +125,6 @@ in
 blissful
 ignorance
 .
-this
-.
-ContentPrefInstance
-=
 function
 ContentPrefInstance
 (
@@ -171,7 +166,6 @@ _context
 aContext
 ;
 }
-;
 ContentPrefInstance
 .
 prototype
