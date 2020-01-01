@@ -4507,6 +4507,9 @@ true
 /
 /
 NetworkStats
+#
+ifdef
+MOZ_B2G_RIL
 pref
 (
 "
@@ -4519,6 +4522,8 @@ enabled
 true
 )
 ;
+#
+endif
 /
 /
 WebSettings
