@@ -2037,6 +2037,11 @@ mError
 mIsFullyLoaded
 )
 {
+*
+aWidth
+=
+0
+;
 return
 NS_ERROR_FAILURE
 ;
@@ -2058,6 +2063,11 @@ aWidth
 )
 )
 {
+*
+aWidth
+=
+0
+;
 return
 NS_ERROR_FAILURE
 ;
@@ -2175,6 +2185,11 @@ mError
 mIsFullyLoaded
 )
 {
+*
+aHeight
+=
+0
+;
 return
 NS_ERROR_FAILURE
 ;
@@ -2196,6 +2211,11 @@ aHeight
 )
 )
 {
+*
+aHeight
+=
+0
+;
 return
 NS_ERROR_FAILURE
 ;
