@@ -667,13 +667,9 @@ mPixelStorePremultiplyAlpha
 =
 PR_FALSE
 ;
-/
-/
-eventually
-true
 mShaderValidation
 =
-PR_FALSE
+PR_TRUE
 ;
 mMapBuffers
 .
