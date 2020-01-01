@@ -512,6 +512,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 pldhash
 .
 h
@@ -1960,7 +1967,12 @@ script
 PRUint32
 mWriteLevel
 ;
-nsSmallVoidArray
+nsAutoTArray
+<
+nsIScriptElement
+*
+1
+>
 mPendingScripts
 ;
 /
