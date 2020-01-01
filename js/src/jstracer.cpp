@@ -3019,7 +3019,7 @@ v
 )
 ?
 (
-isPromote
+isPromoteInt
 (
 i
 )
@@ -3225,7 +3225,7 @@ getFragment
 sp
 &
 &
-isPromote
+isPromoteInt
 (
 value
 )
@@ -3279,7 +3279,7 @@ getFragment
 sp
 &
 &
-isPromote
+isPromoteInt
 (
 value
 )
