@@ -6406,10 +6406,7 @@ l
 )
 {
 return
-mozilla
-:
-:
-HashString
+JS_HashString
 (
 l
 )

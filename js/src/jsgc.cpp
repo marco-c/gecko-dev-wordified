@@ -465,6 +465,13 @@ h
 #
 include
 "
+jshash
+.
+h
+"
+#
+include
+"
 jsclist
 .
 h

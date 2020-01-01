@@ -218,6 +218,13 @@ h
 #
 include
 "
+jshash
+.
+h
+"
+#
+include
+"
 jspubtd
 .
 h
