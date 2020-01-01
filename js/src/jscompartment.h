@@ -3194,6 +3194,8 @@ setGCLastBytes
 (
 size_t
 lastBytes
+JSGCInvocationKind
+gckind
 )
 ;
 void

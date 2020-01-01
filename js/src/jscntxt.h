@@ -2342,6 +2342,12 @@ GCMarker
 *
 gcMarkingTracer
 ;
+bool
+gcChunkAllocationSinceLastGC
+;
+int64
+gcNextFullGCTime
+;
 int64
 gcJitReleaseTime
 ;
@@ -4305,6 +4311,8 @@ setGCLastBytes
 (
 size_t
 lastBytes
+JSGCInvocationKind
+gckind
 )
 ;
 void
