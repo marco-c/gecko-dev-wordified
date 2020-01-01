@@ -302,7 +302,7 @@ if
 hal_sandbox
 :
 :
-IsHalChildLive
+HalChildDestroyed
 (
 )
 )
@@ -357,7 +357,7 @@ if
 hal_sandbox
 :
 :
-IsHalChildLive
+HalChildDestroyed
 (
 )
 )
