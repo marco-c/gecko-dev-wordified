@@ -951,7 +951,7 @@ d
 }
 jsdouble
 FASTCALL
-builtin_Math_dot_sin
+builtin_Math_sin
 (
 jsdouble
 d
@@ -966,7 +966,7 @@ d
 }
 jsdouble
 FASTCALL
-builtin_Math_dot_cos
+builtin_Math_cos
 (
 jsdouble
 d
@@ -981,7 +981,7 @@ d
 }
 jsdouble
 FASTCALL
-builtin_Math_dot_pow
+builtin_Math_pow
 (
 jsdouble
 d
@@ -994,7 +994,8 @@ ifdef
 NOTYET
 /
 *
-need
+XXX
+Need
 to
 get
 a
