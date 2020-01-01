@@ -455,10 +455,10 @@ gfxASurface
 class
 gfxPattern
 ;
-class
+struct
 gfxMatrix
 ;
-class
+struct
 gfxRect
 ;
 class
