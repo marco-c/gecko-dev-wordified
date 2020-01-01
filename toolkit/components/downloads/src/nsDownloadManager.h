@@ -2185,6 +2185,9 @@ mResumedAt
 double
 mSpeed
 ;
+PRBool
+mHasMultipleFiles
+;
 /
 *
 *
