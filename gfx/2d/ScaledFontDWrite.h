@@ -305,6 +305,10 @@ friend
 class
 DrawTargetD2D
 ;
+friend
+class
+DrawTargetD2D1
+;
 RefPtr
 <
 IDWriteRenderingParams
