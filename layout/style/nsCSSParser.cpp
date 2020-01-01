@@ -48796,7 +48796,7 @@ since
 '
 animation
 -
-property
+name
 '
 accepts
 any
