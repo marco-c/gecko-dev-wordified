@@ -485,7 +485,7 @@ imgIRequest
 aImage
 )
 {
-mBorderImage
+mBorderImageSource
 =
 aImage
 ;
@@ -510,7 +510,7 @@ const
 NS_ABORT_IF_FALSE
 (
 !
-mBorderImage
+mBorderImageSource
 |
 |
 mImageTracked
@@ -531,7 +531,7 @@ use
 )
 ;
 return
-mBorderImage
+mBorderImageSource
 ;
 }
 inline
@@ -548,12 +548,12 @@ PRUint32
 status
 ;
 return
-mBorderImage
+mBorderImageSource
 &
 &
 NS_SUCCEEDED
 (
-mBorderImage
+mBorderImageSource
 -
 >
 GetImageStatus
