@@ -4334,7 +4334,7 @@ today
 .
 setSeconds
 (
-30
+1
 )
 ;
 bhist
@@ -6583,7 +6583,7 @@ today
 .
 setSeconds
 (
-30
+1
 )
 ;
 data
