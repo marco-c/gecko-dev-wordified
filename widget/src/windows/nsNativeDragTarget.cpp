@@ -1775,6 +1775,14 @@ DROPEFFECT_MOVE
 =
 0
 ;
+nsMemory
+:
+:
+Free
+(
+tempOutData
+)
+;
 }
 else
 {
