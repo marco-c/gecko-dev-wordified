@@ -681,6 +681,13 @@ try
 catch
 statements
 .
+/
+/
+/
+/
+Default
+:
+true
 bool
 compileTryCatch
 ;
@@ -1075,7 +1082,7 @@ exceptionBailoutThreshold
 )
 compileTryCatch
 (
-false
+true
 )
 maxStackArgs
 (
