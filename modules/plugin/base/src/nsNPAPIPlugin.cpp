@@ -11438,7 +11438,17 @@ npp
 )
 ;
 return
+*
+(
+NPObject
+*
+*
+)
+result
+?
 NPERR_NO_ERROR
+:
+NPERR_GENERIC_ERROR
 ;
 }
 case
