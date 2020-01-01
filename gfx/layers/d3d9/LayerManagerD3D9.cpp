@@ -904,7 +904,7 @@ EndConstruction
 )
 {
 }
-void
+bool
 LayerManagerD3D9
 :
 :
@@ -1006,6 +1006,9 @@ target
 mTarget
 =
 NULL
+;
+return
+true
 ;
 }
 void
