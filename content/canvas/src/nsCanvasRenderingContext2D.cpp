@@ -12925,9 +12925,11 @@ DirtyAllStyles
 ;
 }
 if
+(
 NS_FAILED
 (
 rv
+)
 )
 return
 rv
@@ -12962,9 +12964,11 @@ STYLE_STROKE
 )
 ;
 if
+(
 NS_FAILED
 (
 rv
+)
 )
 return
 rv
