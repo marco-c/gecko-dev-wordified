@@ -1289,8 +1289,6 @@ selectAll
 setSelection
 (
 0
-mUpdateExtract
-.
 text
 .
 length
