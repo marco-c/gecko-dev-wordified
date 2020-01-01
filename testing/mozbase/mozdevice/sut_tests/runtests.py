@@ -62,9 +62,11 @@ os
 import
 re
 import
+sys
+import
 unittest
 import
-sys
+mozlog
 import
 dmunit
 import
@@ -104,18 +106,13 @@ if
 verbose
 :
         
-from
-mozdevice
+dmunit
 .
-devicemanagerSUT
-import
-DeviceManagerSUT
-        
-DeviceManagerSUT
-.
-debug
+log_level
 =
-4
+mozlog
+.
+DEBUG
     
 suite
 =
