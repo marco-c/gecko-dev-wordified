@@ -5069,7 +5069,7 @@ mViewSource
 AddErrorToCurrentRun
 (
 "
-errStrayStartTag
+errStrayStartTag2
 "
 aName
 )
