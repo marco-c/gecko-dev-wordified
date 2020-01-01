@@ -459,6 +459,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsNSSCertificate
 .
 h
@@ -630,7 +637,7 @@ aStatus
 =
 nsnull
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsSSLStatus
 >
