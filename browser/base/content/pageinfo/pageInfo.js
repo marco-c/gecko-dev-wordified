@@ -763,6 +763,10 @@ count
 this
 .
 rowCount
+&
+&
+!
+gImageElement
 )
 this
 .
