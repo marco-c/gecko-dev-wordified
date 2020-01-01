@@ -1545,6 +1545,16 @@ CreateBasicLayerManager
 (
 )
 ;
+nsPopupType
+PopupType
+(
+)
+const
+{
+return
+mPopupType
+;
+}
 protected
 :
 /
@@ -1730,6 +1740,9 @@ mSizeMode
 ;
 nsPopupLevel
 mPopupLevel
+;
+nsPopupType
+mPopupType
 ;
 /
 /
