@@ -4108,6 +4108,16 @@ gfxASurface
 :
 :
 CONTENT_COLOR_ALPHA
+&
+&
+!
+(
+GetFlags
+(
+)
+&
+FLAG_DISABLE_COPY_BACKGROUND
+)
 )
 {
 nsRefPtr
