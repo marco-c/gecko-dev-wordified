@@ -478,16 +478,7 @@ include
 "
 mozilla
 /
-Types
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Util
+Assertions
 .
 h
 "
