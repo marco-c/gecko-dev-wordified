@@ -15302,8 +15302,17 @@ pos
 ;
 }
 #
-ifdef
+if
+defined
+(
 AVMPLUS_ARM
+)
+|
+|
+defined
+(
+AVMPLUS_SPARC
+)
 /
 *
 We
@@ -15314,6 +15323,8 @@ do
 this
 on
 ARM
+or
+SPARC
 since
 it
 relies
