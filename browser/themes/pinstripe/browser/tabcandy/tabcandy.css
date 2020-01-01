@@ -4,6 +4,8 @@ overflow
 :
 hidden
 ;
+/
+*
 image
 -
 rendering
@@ -15,6 +17,8 @@ crisp
 -
 edges
 ;
+*
+/
 }
 body
 {
