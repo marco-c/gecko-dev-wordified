@@ -1769,10 +1769,7 @@ js_FindClassObject
 (
 cx
 NULL
-INT_TO_JSID
-(
 JSProto_StopIteration
-)
 &
 v
 )

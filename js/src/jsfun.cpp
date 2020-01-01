@@ -15530,6 +15530,16 @@ JSObject
 proto
 )
 {
+JS_ASSERT
+(
+parent
+)
+;
+JS_ASSERT
+(
+proto
+)
+;
 /
 *
 *
@@ -15563,7 +15573,7 @@ JSObject
 *
 clone
 =
-js_NewObject
+js_NewObjectWithGivenProto
 (
 cx
 &
@@ -15596,6 +15606,9 @@ return
 clone
 ;
 }
+#
+ifdef
+JS_TRACER
 JS_DEFINE_CALLINFO_4
 (
 extern
@@ -15608,6 +15621,8 @@ OBJECT
 0
 0
 )
+#
+endif
 /
 *
 *
@@ -15718,7 +15733,7 @@ JSObject
 *
 closure
 =
-js_CloneFunctionObject
+CloneFunctionObject
 (
 cx
 fun
