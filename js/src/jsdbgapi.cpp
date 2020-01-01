@@ -6085,7 +6085,7 @@ return
 obj
 -
 >
-computedSizeOfIncludingThis
+computedSizeOfThisSlotsElements
 (
 )
 ;

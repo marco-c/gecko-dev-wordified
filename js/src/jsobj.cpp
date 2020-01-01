@@ -26937,7 +26937,7 @@ objectResizeActive
 (
 )
 ?
-computedSizeOfIncludingThis
+computedSizeOfThisSlotsElements
 (
 )
 :
@@ -27447,7 +27447,7 @@ objectResizeActive
 (
 )
 ?
-computedSizeOfIncludingThis
+computedSizeOfThisSlotsElements
 (
 )
 :
@@ -27758,7 +27758,7 @@ objectResizeActive
 (
 )
 ?
-computedSizeOfIncludingThis
+computedSizeOfThisSlotsElements
 (
 )
 :
@@ -28051,7 +28051,7 @@ resizeObject
 cx
 this
 oldSize
-computedSizeOfIncludingThis
+computedSizeOfThisSlotsElements
 (
 )
 )
@@ -28105,7 +28105,7 @@ objectResizeActive
 (
 )
 ?
-computedSizeOfIncludingThis
+computedSizeOfThisSlotsElements
 (
 )
 :
@@ -28233,7 +28233,7 @@ resizeObject
 cx
 this
 oldSize
-computedSizeOfIncludingThis
+computedSizeOfThisSlotsElements
 (
 )
 )

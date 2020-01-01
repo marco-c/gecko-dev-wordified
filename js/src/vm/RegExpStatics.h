@@ -1783,6 +1783,17 @@ PreserveRegExpStatics
 ;
 }
 ;
+size_t
+SizeOfRegExpStaticsData
+(
+const
+JSObject
+*
+obj
+JSMallocSizeOfFun
+mallocSizeOf
+)
+;
 }
 /
 *
