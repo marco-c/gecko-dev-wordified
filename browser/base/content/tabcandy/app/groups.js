@@ -4011,7 +4011,7 @@ self
 =
 this
 ;
-a
+el
 .
 one
 (
@@ -7526,8 +7526,6 @@ item
 isAGroup
 )
 {
-/
-/
 ui
 =
 this
@@ -7871,19 +7869,6 @@ if
 this
 .
 item
-&
-&
-!
-this
-.
-el
-.
-hasClass
-(
-'
-acceptsDrop
-'
-)
 &
 &
 !
