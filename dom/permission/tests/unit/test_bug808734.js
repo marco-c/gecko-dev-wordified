@@ -141,6 +141,13 @@ pin
 -
 app
 "
+"
+default
+-
+persistent
+-
+storage
+"
 ]
 }
 /

@@ -1883,6 +1883,10 @@ AllocPIndexedDBChild
 const
 nsCString
 &
+aGroup
+const
+nsCString
+&
 aASCIIOrigin
 bool
 *

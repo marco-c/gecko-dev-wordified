@@ -1069,6 +1069,10 @@ const
 uint64_t
 &
 aVersion
+const
+PersistenceType
+&
+aPersistenceType
 )
 {
 return
@@ -1109,6 +1113,10 @@ const
 nsString
 &
 aName
+const
+PersistenceType
+&
+aPersistenceType
 )
 {
 MOZ_CRASH
@@ -1503,6 +1511,9 @@ QuotaManager
 :
 GetStorageId
 (
+aDBInfo
+.
+persistenceType
 aDBInfo
 .
 origin

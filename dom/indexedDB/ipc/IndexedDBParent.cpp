@@ -1019,6 +1019,10 @@ const
 uint64_t
 &
 aVersion
+const
+PersistenceType
+&
+aPersistenceType
 )
 {
 if
@@ -1082,6 +1086,7 @@ OpenInternal
 (
 aName
 aVersion
+aPersistenceType
 false
 getter_AddRefs
 (
@@ -1141,6 +1146,10 @@ const
 nsString
 &
 aName
+const
+PersistenceType
+&
+aPersistenceType
 )
 {
 if
@@ -1217,6 +1226,7 @@ OpenInternal
 (
 aName
 0
+aPersistenceType
 true
 getter_AddRefs
 (
@@ -1265,6 +1275,10 @@ const
 uint64_t
 &
 aVersion
+const
+PersistenceType
+&
+aPersistenceType
 )
 {
 return
@@ -1303,6 +1317,10 @@ const
 nsString
 &
 aName
+const
+PersistenceType
+&
+aPersistenceType
 )
 {
 return

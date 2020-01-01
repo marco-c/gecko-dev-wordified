@@ -434,7 +434,11 @@ origin
 =
 principal
 .
-extendedOrigin
+jarPrefix
++
+principal
+.
+origin
 ;
 /
 /

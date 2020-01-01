@@ -1077,20 +1077,6 @@ cb
 ;
 }
 function
-scheduleGC
-(
-)
-{
-SpecialPowers
-.
-exactGC
-(
-window
-continueToNextStep
-)
-;
-}
-function
 getFileId
 (
 file
@@ -1141,6 +1127,7 @@ getFileReferences
 (
 name
 id
+null
 count
 )
 ;
@@ -1169,6 +1156,7 @@ getFileReferences
 (
 name
 id
+null
 {
 }
 count

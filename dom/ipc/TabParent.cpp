@@ -6119,6 +6119,10 @@ AllocPIndexedDBParent
 const
 nsCString
 &
+aGroup
+const
+nsCString
+&
 aASCIIOrigin
 bool
 *
@@ -6164,6 +6168,10 @@ RecvPIndexedDBConstructor
 PIndexedDBParent
 *
 aActor
+const
+nsCString
+&
+aGroup
 const
 nsCString
 &
@@ -6605,6 +6613,7 @@ IDBFactory
 Create
 (
 window
+aGroup
 aASCIIOrigin
 contentParent
 getter_AddRefs

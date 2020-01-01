@@ -1528,6 +1528,10 @@ AllocPIndexedDBParent
 const
 nsCString
 &
+aGroup
+const
+nsCString
+&
 aASCIIOrigin
 bool
 *
@@ -1554,6 +1558,10 @@ RecvPIndexedDBConstructor
 PIndexedDBParent
 *
 aActor
+const
+nsCString
+&
+aGroup
 const
 nsCString
 &
