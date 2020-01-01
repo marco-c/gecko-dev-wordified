@@ -946,6 +946,7 @@ chain
 .
 With
 the
+lost
 "
 reformed
 with
@@ -953,10 +954,9 @@ with
 *
 proposal
 for
-JS2
+ES4
 we
-'
-ll
+would
 be
 able
 to

@@ -12030,9 +12030,6 @@ pn
 >
 pn_atom
 ;
-if
-(
-(
 stmt
 =
 js_LexicalLookup
@@ -12042,7 +12039,10 @@ atom
 &
 slot
 )
-)
+;
+if
+(
+stmt
 )
 {
 if
