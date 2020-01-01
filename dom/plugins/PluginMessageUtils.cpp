@@ -770,7 +770,7 @@ return
 "
 "
 +
-mPluginFilePath
+path
 +
 "
 \
