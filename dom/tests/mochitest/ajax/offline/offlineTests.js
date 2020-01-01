@@ -1094,7 +1094,7 @@ added
 with
 applicationCache
 .
-add
+mozAdd
 (
 )
 .
