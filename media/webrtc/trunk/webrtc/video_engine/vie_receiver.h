@@ -247,6 +247,16 @@ StopReceive
 (
 )
 ;
+void
+StartRTCPReceive
+(
+)
+;
+void
+StopRTCPReceive
+(
+)
+;
 int
 StartRTPDump
 (
@@ -412,6 +422,9 @@ rtp_dump_
 ;
 bool
 receiving_
+;
+bool
+receiving_rtcp_
 ;
 }
 ;
