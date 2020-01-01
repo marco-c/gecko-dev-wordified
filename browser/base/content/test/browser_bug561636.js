@@ -121,7 +121,7 @@ gInvalidFormPopup
 .
 firstChild
 .
-textContent
+nodeValue
 doc
 .
 getElementById
@@ -2641,7 +2641,7 @@ gInvalidFormPopup
 .
 firstChild
 .
-textContent
+nodeValue
 "
 foo
 "
