@@ -999,6 +999,12 @@ __rdtsc
 elif
 defined
 (
+__GNUC__
+)
+&
+&
+defined
+(
 __powerpc__
 )
 #
