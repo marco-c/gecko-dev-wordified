@@ -528,11 +528,11 @@ setdefaulttimeout
 import
 config
 import
+post_file
+import
 tp
 import
 ts
-import
-post_file
 def
 shortNames
 (
@@ -1161,10 +1161,10 @@ FAIL
 no
 ts
 results
-:
-something
-bad
-happened
+build
+failed
+to
+run
 :
 BAD
 BUILD
@@ -1224,11 +1224,14 @@ res
     
 print
 "
-something
-bad
-happened
-during
+FAIL
+:
 tp
+did
+not
+run
+to
+completion
 "
     
 print
@@ -1277,11 +1280,20 @@ is
 of
 the
 format
-page
-:
+i
+;
 page_name
-:
-page_loadtime
+;
+median
+;
+mean
+;
+min
+;
+max
+;
+time
+vals
 \
 n
   
@@ -1577,6 +1589,10 @@ for
 mypage
 in
 page_results
+[
+3
+:
+]
 :
       
 r
@@ -1586,7 +1602,7 @@ mypage
 split
 (
 '
-:
+;
 '
 )
       
@@ -1819,12 +1835,9 @@ post_multipart
 config
 .
 RESULTS_SERVER
-'
-/
-bulk
+config
 .
-cgi
-'
+RESULTS_LINK
 [
 (
 "
