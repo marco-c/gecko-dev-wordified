@@ -902,6 +902,16 @@ GetData
 item
 )
 ;
+if
+(
+!
+mZs
+.
+next_in
+)
+return
+NS_ERROR_FILE_CORRUPTED
+;
 mZs
 .
 avail_in
