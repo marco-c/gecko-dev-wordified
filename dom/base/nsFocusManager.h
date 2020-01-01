@@ -1113,6 +1113,8 @@ AdjustWindowFocus
 nsPIDOMWindow
 *
 aNewWindow
+PRBool
+aCheckPermission
 )
 ;
 /
