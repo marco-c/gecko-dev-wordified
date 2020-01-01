@@ -11851,12 +11851,6 @@ uri
 "
 )
 ;
-final
-CharSequence
-uriText
-=
-uri
-;
 Log
 .
 i
@@ -11895,7 +11889,7 @@ mAwesomeBar
 .
 setText
 (
-uriText
+uri
 )
 ;
 }
