@@ -274,7 +274,6 @@ mRefCnt
 .
 stabilizeForDeletion
 (
-base
 )
 ;
 delete

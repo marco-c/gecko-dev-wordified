@@ -909,8 +909,6 @@ refcount
 void
 stabilizeForDeletion
 (
-nsISupports
-*
 )
 {
 mTagged
@@ -3101,7 +3099,6 @@ mRefCnt
 .
 stabilizeForDeletion
 (
-base
 )
 ;
 \
