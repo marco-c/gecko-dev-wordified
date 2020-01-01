@@ -1389,6 +1389,11 @@ newLong
 ;
 #
 endif
+void
+HookSystemParametersInfo
+(
+)
+;
 class
 FlashThrottleAsyncMsg
 :
