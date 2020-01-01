@@ -1500,8 +1500,6 @@ nsIObserver
 public
 nsILoadContext
 public
-nsIDocShell_MOZILLA_1_9_1
-public
 nsIWebShellServices
 public
 nsILinkHandler
@@ -1548,7 +1546,6 @@ NS_DECL_NSIWEBPAGEDESCRIPTOR
 NS_DECL_NSIAUTHPROMPTPROVIDER
 NS_DECL_NSIOBSERVER
 NS_DECL_NSILOADCONTEXT
-NS_DECL_NSIDOCSHELL_MOZILLA_1_9_1
 NS_DECL_NSICLIPBOARDCOMMANDS
 NS_DECL_NSIWEBSHELLSERVICES
 NS_IMETHOD
@@ -4045,7 +4042,7 @@ nsIURI
 aURI
 PRBool
 create
-nsIDOMStorageObsolete
+nsIDOMStorage
 *
 *
 aStorage
@@ -4174,12 +4171,9 @@ domain
 nsInterfaceHashtable
 <
 nsCStringHashKey
-nsIDOMStorageObsolete
+nsIDOMStorage
 >
 mStorages
-;
-nsIntRect
-mBounds
 ;
 /
 /
@@ -4187,6 +4181,9 @@ Dimensions
 of
 the
 docshell
+nsIntRect
+mBounds
+;
 nsString
 mName
 ;
