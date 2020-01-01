@@ -397,10 +397,10 @@ SpeechRecognition
 :
 :
 EVENT_RECOGNITIONSERVICE_ERROR
-nsIDOMSpeechRecognitionError
+SpeechRecognitionErrorCode
 :
 :
-NETWORK
+Network
 /
 /
 TODO
