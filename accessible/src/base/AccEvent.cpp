@@ -517,7 +517,7 @@ h
 #
 include
 "
-nsIEventStateManager
+nsEventStateManager
 .
 h
 "
@@ -1666,7 +1666,7 @@ event
 return
 ;
 }
-nsIEventStateManager
+nsEventStateManager
 *
 esm
 =

@@ -686,13 +686,6 @@ h
 #
 include
 "
-nsIEventStateManager
-.
-h
-"
-#
-include
-"
 nsISelectionPrivate
 .
 h

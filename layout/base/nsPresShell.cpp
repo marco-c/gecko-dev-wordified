@@ -1045,6 +1045,13 @@ h
 #
 include
 "
+nsEventStateManager
+.
+h
+"
+#
+include
+"
 nsXPCOM
 .
 h
@@ -21609,9 +21616,9 @@ tears
 us
 down
 .
-nsCOMPtr
+nsRefPtr
 <
-nsIEventStateManager
+nsEventStateManager
 >
 esm
 =
@@ -39067,7 +39074,7 @@ over
 some
 subdocument
 .
-nsIEventStateManager
+nsEventStateManager
 *
 activeESM
 =
@@ -40857,9 +40864,9 @@ NS_OK
 }
 #
 endif
-nsCOMPtr
+nsRefPtr
 <
-nsIEventStateManager
+nsEventStateManager
 >
 manager
 =

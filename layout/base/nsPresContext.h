@@ -725,7 +725,7 @@ class
 nsIAtom
 ;
 class
-nsIEventStateManager
+nsEventStateManager
 ;
 class
 nsIURI

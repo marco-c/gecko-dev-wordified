@@ -461,13 +461,6 @@ h
 #
 include
 "
-nsIEventStateManager
-.
-h
-"
-#
-include
-"
 nsDOMDataTransfer
 .
 h

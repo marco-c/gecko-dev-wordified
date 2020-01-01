@@ -532,7 +532,7 @@ h
 #
 include
 "
-nsIEventStateManager
+nsEventStateManager
 .
 h
 "
@@ -738,7 +738,7 @@ keyEvent
 keyCode
 )
 {
-nsIEventStateManager
+nsEventStateManager
 *
 esm
 =
@@ -918,7 +918,7 @@ hover
 :
 active
 state
-nsIEventStateManager
+nsEventStateManager
 *
 esm
 =

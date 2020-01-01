@@ -602,7 +602,7 @@ h
 #
 include
 "
-nsIEventStateManager
+nsEventStateManager
 .
 h
 "
@@ -783,13 +783,6 @@ h
 include
 "
 nsDisplayList
-.
-h
-"
-#
-include
-"
-nsIEventStateManager
 .
 h
 "
@@ -13696,7 +13689,7 @@ nsCOMPtr
 nsIContent
 >
 content
-;
+=
 PresContext
 (
 )
@@ -13710,10 +13703,6 @@ EventStateManager
 GetEventTargetContent
 (
 nsnull
-getter_AddRefs
-(
-content
-)
 )
 ;
 nsCOMPtr

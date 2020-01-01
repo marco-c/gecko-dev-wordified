@@ -590,13 +590,6 @@ h
 #
 include
 "
-nsIEventStateManager
-.
-h
-"
-#
-include
-"
 nsContentList
 .
 h

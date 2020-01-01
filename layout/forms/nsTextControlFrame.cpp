@@ -840,13 +840,6 @@ h
 #
 include
 "
-nsIEventStateManager
-.
-h
-"
-#
-include
-"
 nsIDOMFocusListener
 .
 h
