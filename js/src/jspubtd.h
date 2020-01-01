@@ -218,7 +218,10 @@ class
 Rooted
 ;
 class
+JS_PUBLIC_API
+(
 AutoGCRooter
+)
 ;
 struct
 Zone
