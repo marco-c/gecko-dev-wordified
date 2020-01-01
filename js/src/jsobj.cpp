@@ -10391,9 +10391,8 @@ obj_getPrototypeOf
 JS_FS_END
 }
 ;
-static
 JSBool
-Object
+js_Object
 (
 JSContext
 *
@@ -13178,7 +13177,7 @@ obj
 NULL
 &
 js_ObjectClass
-Object
+js_Object
 1
 object_props
 object_methods
