@@ -10949,7 +10949,7 @@ loading
 -
 image
 .
-gif
+png
 "
 )
 ;
@@ -10969,7 +10969,7 @@ broken
 -
 image
 .
-gif
+png
 "
 )
 ;
