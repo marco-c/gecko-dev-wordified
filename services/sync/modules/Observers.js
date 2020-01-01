@@ -706,6 +706,9 @@ components
 if
 (
 subject
+&
+&
+subject
 .
 wrappedJSObject
 )
