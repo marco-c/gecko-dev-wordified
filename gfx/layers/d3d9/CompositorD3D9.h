@@ -694,6 +694,16 @@ EnsureSize
 )
 ;
 void
+SetSamplerForFilter
+(
+gfx
+:
+:
+Filter
+aFilter
+)
+;
+void
 PaintToTarget
 (
 )
