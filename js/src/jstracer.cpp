@@ -17656,10 +17656,6 @@ stable_peer
 =
 NULL
 ;
-demote
-=
-false
-;
 /
 *
 *
@@ -26934,6 +26930,8 @@ false
 }
 bool
 demote
+=
+false
 ;
 Fragment
 *
