@@ -6815,7 +6815,9 @@ JS_ASSERT
 proto
 -
 >
-privateData
+getPrivate
+(
+)
 =
 =
 NULL
