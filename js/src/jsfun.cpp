@@ -454,6 +454,13 @@ js
 :
 types
 ;
+using
+namespace
+js
+:
+:
+frontend
+;
 static
 JSBool
 fun_getProperty

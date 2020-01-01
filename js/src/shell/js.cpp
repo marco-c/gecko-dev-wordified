@@ -17914,6 +17914,13 @@ jsval
 vp
 )
 {
+using
+namespace
+js
+:
+:
+frontend
+;
 if
 (
 argc
@@ -18006,9 +18013,6 @@ JSVAL_TO_STRING
 arg0
 )
 ;
-js
-:
-:
 Parser
 parser
 (

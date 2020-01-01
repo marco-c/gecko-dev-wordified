@@ -3347,6 +3347,9 @@ new_
 js
 :
 :
+frontend
+:
+:
 ParseMapPool
 >
 (

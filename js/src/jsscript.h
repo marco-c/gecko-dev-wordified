@@ -3576,6 +3576,9 @@ cx
 js
 :
 :
+frontend
+:
+:
 BytecodeEmitter
 *
 bce

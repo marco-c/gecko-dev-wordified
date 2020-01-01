@@ -158,6 +158,9 @@ h
 namespace
 js
 {
+namespace
+frontend
+{
 /
 *
 *
@@ -9971,6 +9974,13 @@ const
 ;
 }
 ;
+}
+/
+*
+namespace
+frontend
+*
+/
 }
 /
 *

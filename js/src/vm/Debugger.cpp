@@ -248,6 +248,15 @@ using
 namespace
 js
 ;
+using
+js
+:
+:
+frontend
+:
+:
+IsIdentifier
+;
 /
 *
 *

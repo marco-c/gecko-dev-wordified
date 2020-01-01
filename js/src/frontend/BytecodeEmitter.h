@@ -202,6 +202,9 @@ h
 namespace
 js
 {
+namespace
+frontend
+{
 struct
 TryNode
 {
@@ -1325,9 +1328,6 @@ errorNumber
 ;
 }
 ;
-namespace
-frontend
-{
 /
 *
 *
@@ -3285,13 +3285,6 @@ TryNoteArray
 array
 )
 ;
-}
-/
-*
-namespace
-frontend
-*
-/
 /
 *
 *
@@ -3685,6 +3678,13 @@ w
 1
 ;
 }
+}
+/
+*
+namespace
+frontend
+*
+/
 }
 /
 *
