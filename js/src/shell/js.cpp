@@ -213,13 +213,6 @@ h
 #
 include
 "
-jswrapper
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h
@@ -340,6 +333,13 @@ h
 include
 "
 jsworkers
+.
+h
+"
+#
+include
+"
+jswrapper
 .
 h
 "
