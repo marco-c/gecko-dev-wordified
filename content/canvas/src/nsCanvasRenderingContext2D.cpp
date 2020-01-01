@@ -5156,6 +5156,17 @@ SetFilter
 aFilter
 )
 ;
+pat
+-
+>
+SetExtend
+(
+gfxPattern
+:
+:
+EXTEND_PAD
+)
+;
 gfxContext
 :
 :
