@@ -235,6 +235,10 @@ mDataRooted
 false
 )
 {
+SetIsDOMBinding
+(
+)
+;
 }
 nsDOMMessageEvent
 :
