@@ -316,10 +316,10 @@ in
 content
 processes
 so
+/
+/
 audio
 must
-/
-/
 be
 remoted
 to
@@ -332,7 +332,7 @@ process
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 #
 define
