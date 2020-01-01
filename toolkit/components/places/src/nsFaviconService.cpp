@@ -2996,7 +2996,7 @@ to
 prevent
 dataloss
 .
-mozIStorageStatement
+mozIStorageBaseStatement
 *
 stmts
 [
