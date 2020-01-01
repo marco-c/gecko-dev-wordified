@@ -1012,6 +1012,9 @@ CanvasLayer
 >
 GetCanvasLayer
 (
+CanvasLayer
+*
+aOldLayer
 LayerManager
 *
 aManager

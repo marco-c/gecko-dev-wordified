@@ -3042,6 +3042,9 @@ nsHTMLCanvasElement
 :
 GetCanvasLayer
 (
+CanvasLayer
+*
+aOldLayer
 LayerManager
 *
 aManager
@@ -3061,6 +3064,7 @@ mCurrentContext
 >
 GetCanvasLayer
 (
+aOldLayer
 aManager
 )
 ;

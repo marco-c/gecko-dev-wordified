@@ -2993,7 +2993,7 @@ LayerBuilder
 )
 -
 >
-MakeContainerLayerFor
+GetContainerLayerFor
 (
 aBuilder
 layerManager
@@ -7646,7 +7646,7 @@ LayerBuilder
 )
 -
 >
-MakeContainerLayerFor
+GetContainerLayerFor
 (
 aBuilder
 aManager

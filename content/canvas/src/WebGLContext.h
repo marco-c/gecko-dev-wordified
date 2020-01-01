@@ -1636,9 +1636,12 @@ CanvasLayer
 >
 GetCanvasLayer
 (
+CanvasLayer
+*
+aOldLayer
 LayerManager
 *
-manager
+aManager
 )
 ;
 void
@@ -1728,8 +1731,11 @@ mHeight
 CheckedUint32
 mGeneration
 ;
-PRBool
+PRPackedBool
 mInvalidated
+;
+PRPackedBool
+mResetLayer
 ;
 WebGLuint
 mActiveTexture

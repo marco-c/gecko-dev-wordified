@@ -490,6 +490,9 @@ h
 class
 nsPresContext
 ;
+class
+nsDisplayItem
+;
 nsIFrame
 *
 NS_NewHTMLCanvasFrame
@@ -572,6 +575,9 @@ aBuilder
 LayerManager
 *
 aManager
+nsDisplayItem
+*
+aItem
 )
 ;
 /
