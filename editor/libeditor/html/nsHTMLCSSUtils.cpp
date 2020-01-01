@@ -3640,7 +3640,7 @@ aNode
 aProperty
 aValue
 nsnull
-SPECIFIED_STYLE_TYPE
+eSpecified
 )
 ;
 }
@@ -3692,7 +3692,7 @@ aNode
 aProperty
 aValue
 window
-COMPUTED_STYLE_TYPE
+eComputed
 )
 ;
 }
@@ -3714,7 +3714,7 @@ aValue
 nsIDOMWindow
 *
 aWindow
-PRUint8
+StyleType
 aStyleType
 )
 {
@@ -3758,7 +3758,7 @@ aValue
 nsIDOMWindow
 *
 aWindow
-PRUint8
+StyleType
 aStyleType
 )
 {
@@ -3797,7 +3797,7 @@ aStyleType
 )
 {
 case
-COMPUTED_STYLE_TYPE
+eComputed
 :
 if
 (
@@ -3913,7 +3913,7 @@ value
 break
 ;
 case
-SPECIFIED_STYLE_TYPE
+eSpecified
 :
 if
 (
@@ -6794,7 +6794,7 @@ aAttribute
 nsAString
 &
 aValueString
-PRUint8
+StyleType
 aStyleType
 )
 {
@@ -6880,10 +6880,10 @@ window
 ;
 if
 (
-COMPUTED_STYLE_TYPE
-=
-=
 aStyleType
+=
+=
+eComputed
 )
 {
 nsresult
@@ -7163,7 +7163,7 @@ const
 nsAString
 &
 aValue
-PRUint8
+StyleType
 aStyleType
 )
 {
@@ -7173,20 +7173,6 @@ aContent
 &
 &
 aProperty
-)
-;
-MOZ_ASSERT
-(
-aStyleType
-=
-=
-SPECIFIED_STYLE_TYPE
-|
-|
-aStyleType
-=
-=
-COMPUTED_STYLE_TYPE
 )
 ;
 bool
@@ -7260,7 +7246,7 @@ aIsSet
 nsAString
 &
 valueString
-PRUint8
+StyleType
 aStyleType
 )
 {

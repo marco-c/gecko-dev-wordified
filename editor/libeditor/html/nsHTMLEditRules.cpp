@@ -5819,7 +5819,10 @@ dummyProperty
 &
 typeAttrName
 value
-COMPUTED_STYLE_TYPE
+nsHTMLCSSUtils
+:
+:
+eComputed
 )
 ;
 if
@@ -50396,7 +50399,10 @@ attr
 )
 isSet
 outValue
-COMPUTED_STYLE_TYPE
+nsHTMLCSSUtils
+:
+:
+eComputed
 )
 ;
 }
@@ -50677,7 +50683,10 @@ i
 attr
 )
 curValue
-COMPUTED_STYLE_TYPE
+nsHTMLCSSUtils
+:
+:
+eComputed
 )
 ;
 }
