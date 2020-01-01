@@ -459,13 +459,6 @@ prtypes
 .
 h
 "
-#
-include
-"
-psSharedCore
-.
-h
-"
 /
 *
 Various
@@ -744,7 +737,6 @@ struct
 PRLibrary
 ;
 class
-NS_PSSHARED
 nsCUPSShim
 {
 public
