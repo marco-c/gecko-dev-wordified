@@ -10,7 +10,7 @@ debug
 /
 Debug
 .
-Function
+Object
 .
 prototype
 .

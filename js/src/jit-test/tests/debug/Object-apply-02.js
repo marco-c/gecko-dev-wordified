@@ -15,7 +15,7 @@ functions
 via
 Debug
 .
-Function
+Object
 .
 prototype
 .
