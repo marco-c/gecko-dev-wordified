@@ -68,9 +68,6 @@ libraries
 h
 "
 #
-ifdef
-ENABLE_SPS_LEAF_DATA
-#
 ifndef
 __GLIBC__
 /
@@ -422,5 +419,3 @@ return
 info
 ;
 }
-#
-endif
