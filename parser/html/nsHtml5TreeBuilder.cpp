@@ -1491,16 +1491,13 @@ listPtr
 -
 1
 ;
-;
 formPointer
 =
 nsnull
 ;
-;
 headPointer
 =
 nsnull
-;
 ;
 deepTreeSurrogateParent
 =
@@ -1552,7 +1549,6 @@ elt
 =
 contextNode
 ;
-;
 }
 else
 {
@@ -1576,7 +1572,6 @@ node
 new
 nsHtml5StackNode
 (
-kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
@@ -1757,23 +1752,13 @@ contextName
 )
 ;
 }
-nsHtml5Portability
-:
-:
-releaseLocal
-(
-contextName
-)
-;
 contextName
 =
 nsnull
-;
 ;
 contextNode
 =
 nsnull
-;
 ;
 }
 else
@@ -3294,16 +3279,13 @@ endTokenization
 (
 )
 {
-;
 formPointer
 =
 nsnull
 ;
-;
 headPointer
 =
 nsnull
-;
 ;
 deepTreeSurrogateParent
 =
@@ -3758,9 +3740,8 @@ if
 selfClosing
 )
 {
-appendVoidElementToCurrentMayFosterCamelCase
+appendVoidElementToCurrentMayFosterSVG
 (
-currNs
 elementName
 attributes
 )
@@ -3772,9 +3753,8 @@ PR_FALSE
 }
 else
 {
-appendToCurrentNodeAndPushElementMayFosterCamelCase
+appendToCurrentNodeAndPushElementMayFosterSVG
 (
-currNs
 elementName
 attributes
 )
@@ -3804,9 +3784,8 @@ if
 selfClosing
 )
 {
-appendVoidElementToCurrentMayFoster
+appendVoidElementToCurrentMayFosterMathML
 (
-currNs
 elementName
 attributes
 )
@@ -3818,9 +3797,8 @@ PR_FALSE
 }
 else
 {
-appendToCurrentNodeAndPushElementMayFosterNoScoping
+appendToCurrentNodeAndPushElementMayFosterMathML
 (
-currNs
 elementName
 attributes
 )
@@ -3867,7 +3845,6 @@ findLastInTableScopeOrRootTbodyTheadTfoot
 ;
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -3899,7 +3876,6 @@ findLastInTableScopeOrRootTbodyTheadTfoot
 ;
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
@@ -3999,7 +3975,6 @@ NS_HTML5TREE_BUILDER_TR
 ;
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -4115,7 +4090,6 @@ insertMarker
 ;
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -4148,7 +4122,6 @@ NS_HTML5TREE_BUILDER_TABLE
 ;
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -4181,7 +4154,6 @@ NS_HTML5TREE_BUILDER_TABLE
 ;
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
@@ -4216,7 +4188,6 @@ NS_HTML5TREE_BUILDER_TABLE
 ;
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -4252,7 +4223,6 @@ NS_HTML5TREE_BUILDER_TABLE
 ;
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
@@ -4331,7 +4301,6 @@ NS_HTML5TREE_BUILDER_SCRIPT
 {
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -4369,7 +4338,6 @@ NS_HTML5TREE_BUILDER_STYLE
 {
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -4437,7 +4405,6 @@ intableloop
 }
 appendVoidElementToCurrent
 (
-kNameSpaceID_XHTML
 name
 attributes
 formPointer
@@ -4736,7 +4703,6 @@ pop
 }
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -4985,7 +4951,6 @@ implicitlyCloseP
 ;
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -5031,7 +4996,6 @@ pop
 }
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -5056,7 +5020,6 @@ implicitlyCloseP
 ;
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 formPointer
@@ -5082,7 +5045,6 @@ implicitlyCloseP
 ;
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -5272,7 +5234,6 @@ implicitlyCloseP
 ;
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -5297,7 +5258,6 @@ implicitlyCloseP
 ;
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -5410,7 +5370,6 @@ reconstructTheActiveFormattingElements
 ;
 appendToCurrentNodeAndPushFormattingElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -5447,7 +5406,6 @@ attributes
 ;
 appendToCurrentNodeAndPushFormattingElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -5495,7 +5453,6 @@ nobr
 }
 appendToCurrentNodeAndPushFormattingElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -5560,7 +5517,6 @@ reconstructTheActiveFormattingElements
 ;
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 formPointer
@@ -5587,7 +5543,6 @@ reconstructTheActiveFormattingElements
 ;
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 formPointer
@@ -5617,7 +5572,6 @@ reconstructTheActiveFormattingElements
 ;
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -5653,7 +5607,6 @@ implicitlyCloseP
 }
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -5693,7 +5646,6 @@ NS_HTML5TREE_BUILDER_PARAM_OR_SOURCE
 {
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -5722,7 +5674,6 @@ implicitlyCloseP
 ;
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -5771,7 +5722,6 @@ reconstructTheActiveFormattingElements
 ;
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 name
 attributes
 formPointer
@@ -5868,7 +5818,6 @@ formAttrs
 ;
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
@@ -5881,7 +5830,6 @@ EMPTY_ATTRIBUTES
 ;
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
@@ -6096,7 +6044,6 @@ clearWithoutReleasingContents
 ;
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 nsHtml5Atoms
 :
 :
@@ -6111,7 +6058,6 @@ pop
 ;
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
@@ -6142,7 +6088,6 @@ NS_HTML5TREE_BUILDER_TEXTAREA
 {
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 formPointer
@@ -6193,7 +6138,6 @@ reconstructTheActiveFormattingElements
 ;
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -6241,7 +6185,6 @@ reconstructTheActiveFormattingElements
 ;
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -6272,7 +6215,6 @@ NS_HTML5TREE_BUILDER_NOEMBED
 {
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -6314,7 +6256,6 @@ reconstructTheActiveFormattingElements
 ;
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 formPointer
@@ -6486,7 +6427,6 @@ reconstructTheActiveFormattingElements
 ;
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -6551,7 +6491,6 @@ pop
 }
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -6586,9 +6525,8 @@ if
 selfClosing
 )
 {
-appendVoidElementToCurrentMayFoster
+appendVoidElementToCurrentMayFosterMathML
 (
-kNameSpaceID_MathML
 elementName
 attributes
 )
@@ -6600,9 +6538,8 @@ PR_FALSE
 }
 else
 {
-appendToCurrentNodeAndPushElementMayFoster
+appendToCurrentNodeAndPushElementMayFosterMathML
 (
-kNameSpaceID_MathML
 elementName
 attributes
 )
@@ -6642,9 +6579,8 @@ if
 selfClosing
 )
 {
-appendVoidElementToCurrentMayFosterCamelCase
+appendVoidElementToCurrentMayFosterSVG
 (
-kNameSpaceID_SVG
 elementName
 attributes
 )
@@ -6656,9 +6592,8 @@ PR_FALSE
 }
 else
 {
-appendToCurrentNodeAndPushElementMayFoster
+appendToCurrentNodeAndPushElementMayFosterSVG
 (
-kNameSpaceID_SVG
 elementName
 attributes
 )
@@ -6722,7 +6657,6 @@ reconstructTheActiveFormattingElements
 ;
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 formPointer
@@ -6747,7 +6681,6 @@ reconstructTheActiveFormattingElements
 ;
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -6818,7 +6751,6 @@ NS_HTML5TREE_BUILDER_COMMAND
 {
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -6856,7 +6788,6 @@ NS_HTML5TREE_BUILDER_TITLE
 {
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -6899,7 +6830,6 @@ scriptingEnabled
 {
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -6926,7 +6856,6 @@ else
 {
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -6952,7 +6881,6 @@ NS_HTML5TREE_BUILDER_SCRIPT
 {
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -6993,7 +6921,6 @@ NS_HTML5TREE_BUILDER_NOFRAMES
 {
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -7099,7 +7026,6 @@ NS_HTML5TREE_BUILDER_LINK_OR_BASEFONT_OR_BGSOUND
 {
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -7129,7 +7055,6 @@ attributes
 ;
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -7157,7 +7082,6 @@ NS_HTML5TREE_BUILDER_NOFRAMES
 {
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -7266,7 +7190,6 @@ NS_HTML5TREE_BUILDER_COL
 {
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -7448,7 +7371,6 @@ pop
 }
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -7501,7 +7423,6 @@ pop
 }
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -7627,7 +7548,6 @@ NS_HTML5TREE_BUILDER_SCRIPT
 {
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -7736,7 +7656,6 @@ NS_HTML5TREE_BUILDER_FRAMESET
 {
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -7757,7 +7676,6 @@ NS_HTML5TREE_BUILDER_FRAME
 {
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -7826,7 +7744,6 @@ NS_HTML5TREE_BUILDER_NOFRAMES
 {
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -8120,7 +8037,6 @@ NS_HTML5TREE_BUILDER_FRAMESET
 {
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -8149,7 +8065,6 @@ pushHeadPointerOntoStack
 ;
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -8182,7 +8097,6 @@ pushHeadPointerOntoStack
 ;
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -8220,7 +8134,6 @@ pushHeadPointerOntoStack
 ;
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -8253,7 +8166,6 @@ pushHeadPointerOntoStack
 ;
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -8298,7 +8210,6 @@ pushHeadPointerOntoStack
 ;
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -8340,7 +8251,6 @@ pushHeadPointerOntoStack
 ;
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -8490,7 +8400,6 @@ NS_HTML5TREE_BUILDER_NOFRAMES
 {
 appendToCurrentNodeAndPushElementMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 attributes
 )
@@ -10462,7 +10371,6 @@ endtagloop
 )
 ;
 }
-;
 formPointer
 =
 nsnull
@@ -10556,7 +10464,6 @@ PR_FALSE
 }
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 nsHtml5HtmlAttributes
 :
@@ -10816,7 +10723,6 @@ reconstructTheActiveFormattingElements
 ;
 appendVoidElementToCurrentMayFoster
 (
-kNameSpaceID_XHTML
 elementName
 nsHtml5HtmlAttributes
 :
@@ -11006,7 +10912,7 @@ if
 node
 -
 >
-isScopingOrSpecial
+isSpecial
 (
 )
 )
@@ -14436,7 +14342,7 @@ if
 node
 -
 >
-isScopingOrSpecial
+isSpecial
 (
 )
 )
@@ -14700,7 +14606,6 @@ node
 =
 newNode
 ;
-;
 detachFromParent
 (
 lastNode
@@ -14878,7 +14783,6 @@ insertIntoStack
 formattingClone
 furthestBlockPos
 )
-;
 ;
 }
 return
@@ -15432,7 +15336,6 @@ silentPush
 new
 nsHtml5StackNode
 (
-kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
@@ -15961,7 +15864,6 @@ node
 new
 nsHtml5StackNode
 (
-kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
@@ -15973,7 +15875,6 @@ push
 (
 node
 )
-;
 ;
 }
 void
@@ -16037,7 +15938,6 @@ headPointer
 =
 elt
 ;
-;
 nsHtml5StackNode
 *
 node
@@ -16045,7 +15945,6 @@ node
 new
 nsHtml5StackNode
 (
-kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
@@ -16057,7 +15956,6 @@ push
 (
 node
 )
-;
 ;
 }
 void
@@ -16073,7 +15971,6 @@ attributes
 {
 appendToCurrentNodeAndPushElement
 (
-kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
@@ -16131,7 +16028,6 @@ formPointer
 =
 elt
 ;
-;
 nsHtml5StackNode
 *
 current
@@ -16176,7 +16072,6 @@ node
 new
 nsHtml5StackNode
 (
-kNameSpaceID_XHTML
 nsHtml5ElementName
 :
 :
@@ -16189,7 +16084,6 @@ push
 node
 )
 ;
-;
 }
 void
 nsHtml5TreeBuilder
@@ -16197,8 +16091,6 @@ nsHtml5TreeBuilder
 :
 appendToCurrentNodeAndPushFormattingElementMayFoster
 (
-PRInt32
-ns
 nsHtml5ElementName
 *
 elementName
@@ -16214,7 +16106,7 @@ elt
 =
 createElement
 (
-ns
+kNameSpaceID_XHTML
 elementName
 -
 >
@@ -16266,7 +16158,6 @@ node
 new
 nsHtml5StackNode
 (
-ns
 elementName
 elt
 attributes
@@ -16295,7 +16186,6 @@ retain
 (
 )
 ;
-;
 }
 void
 nsHtml5TreeBuilder
@@ -16303,8 +16193,6 @@ nsHtml5TreeBuilder
 :
 appendToCurrentNodeAndPushElement
 (
-PRInt32
-ns
 nsHtml5ElementName
 *
 elementName
@@ -16320,7 +16208,7 @@ elt
 =
 createElement
 (
-ns
+kNameSpaceID_XHTML
 elementName
 -
 >
@@ -16347,7 +16235,6 @@ node
 new
 nsHtml5StackNode
 (
-ns
 elementName
 elt
 )
@@ -16356,7 +16243,6 @@ push
 (
 node
 )
-;
 ;
 }
 void
@@ -16365,8 +16251,6 @@ nsHtml5TreeBuilder
 :
 appendToCurrentNodeAndPushElementMayFoster
 (
-PRInt32
-ns
 nsHtml5ElementName
 *
 elementName
@@ -16391,7 +16275,7 @@ elt
 =
 createElement
 (
-ns
+kNameSpaceID_XHTML
 popName
 attributes
 )
@@ -16440,7 +16324,6 @@ node
 new
 nsHtml5StackNode
 (
-ns
 elementName
 elt
 popName
@@ -16451,16 +16334,13 @@ push
 node
 )
 ;
-;
 }
 void
 nsHtml5TreeBuilder
 :
 :
-appendToCurrentNodeAndPushElementMayFosterNoScoping
+appendToCurrentNodeAndPushElementMayFosterMathML
 (
-PRInt32
-ns
 nsHtml5ElementName
 *
 elementName
@@ -16485,7 +16365,7 @@ elt
 =
 createElement
 (
-ns
+kNameSpaceID_MathML
 popName
 attributes
 )
@@ -16534,7 +16414,6 @@ node
 new
 nsHtml5StackNode
 (
-ns
 elementName
 elt
 popName
@@ -16546,16 +16425,13 @@ push
 node
 )
 ;
-;
 }
 void
 nsHtml5TreeBuilder
 :
 :
-appendToCurrentNodeAndPushElementMayFosterCamelCase
+appendToCurrentNodeAndPushElementMayFosterSVG
 (
-PRInt32
-ns
 nsHtml5ElementName
 *
 elementName
@@ -16580,7 +16456,7 @@ elt
 =
 createElement
 (
-ns
+kNameSpaceID_SVG
 popName
 attributes
 )
@@ -16629,24 +16505,15 @@ node
 new
 nsHtml5StackNode
 (
-ns
 elementName
-elt
 popName
-nsHtml5ElementName
-:
-:
-ELT_FOREIGNOBJECT
-=
-=
-elementName
+elt
 )
 ;
 push
 (
 node
 )
-;
 ;
 }
 void
@@ -16655,8 +16522,6 @@ nsHtml5TreeBuilder
 :
 appendToCurrentNodeAndPushElementMayFoster
 (
-PRInt32
-ns
 nsHtml5ElementName
 *
 elementName
@@ -16676,7 +16541,7 @@ elt
 =
 createElement
 (
-ns
+kNameSpaceID_XHTML
 elementName
 -
 >
@@ -16733,7 +16598,6 @@ node
 new
 nsHtml5StackNode
 (
-ns
 elementName
 elt
 )
@@ -16743,7 +16607,6 @@ push
 node
 )
 ;
-;
 }
 void
 nsHtml5TreeBuilder
@@ -16751,8 +16614,6 @@ nsHtml5TreeBuilder
 :
 appendVoidElementToCurrentMayFoster
 (
-PRInt32
-ns
 nsIAtom
 *
 name
@@ -16772,7 +16633,7 @@ elt
 =
 createElement
 (
-ns
+kNameSpaceID_XHTML
 name
 attributes
 fragment
@@ -16821,18 +16682,17 @@ node
 }
 elementPushed
 (
-ns
+kNameSpaceID_XHTML
 name
 elt
 )
 ;
 elementPopped
 (
-ns
+kNameSpaceID_XHTML
 name
 elt
 )
-;
 ;
 }
 void
@@ -16841,8 +16701,6 @@ nsHtml5TreeBuilder
 :
 appendVoidElementToCurrentMayFoster
 (
-PRInt32
-ns
 nsHtml5ElementName
 *
 elementName
@@ -16867,7 +16725,7 @@ elt
 =
 createElement
 (
-ns
+kNameSpaceID_XHTML
 popName
 attributes
 )
@@ -16911,28 +16769,25 @@ node
 }
 elementPushed
 (
-ns
+kNameSpaceID_XHTML
 popName
 elt
 )
 ;
 elementPopped
 (
-ns
+kNameSpaceID_XHTML
 popName
 elt
 )
-;
 ;
 }
 void
 nsHtml5TreeBuilder
 :
 :
-appendVoidElementToCurrentMayFosterCamelCase
+appendVoidElementToCurrentMayFosterSVG
 (
-PRInt32
-ns
 nsHtml5ElementName
 *
 elementName
@@ -16957,7 +16812,7 @@ elt
 =
 createElement
 (
-ns
+kNameSpaceID_SVG
 popName
 attributes
 )
@@ -17001,18 +16856,104 @@ node
 }
 elementPushed
 (
-ns
+kNameSpaceID_SVG
 popName
 elt
 )
 ;
 elementPopped
 (
-ns
+kNameSpaceID_SVG
 popName
 elt
 )
 ;
+}
+void
+nsHtml5TreeBuilder
+:
+:
+appendVoidElementToCurrentMayFosterMathML
+(
+nsHtml5ElementName
+*
+elementName
+nsHtml5HtmlAttributes
+*
+attributes
+)
+{
+nsIAtom
+*
+popName
+=
+elementName
+-
+>
+name
+;
+nsIContent
+*
+*
+elt
+=
+createElement
+(
+kNameSpaceID_MathML
+popName
+attributes
+)
+;
+nsHtml5StackNode
+*
+current
+=
+stack
+[
+currentPtr
+]
+;
+if
+(
+current
+-
+>
+isFosterParenting
+(
+)
+)
+{
+insertIntoFosterParent
+(
+elt
+)
+;
+}
+else
+{
+appendElement
+(
+elt
+current
+-
+>
+node
+)
+;
+}
+elementPushed
+(
+kNameSpaceID_MathML
+popName
+elt
+)
+;
+elementPopped
+(
+kNameSpaceID_MathML
+popName
+elt
+)
 ;
 }
 void
@@ -17021,8 +16962,6 @@ nsHtml5TreeBuilder
 :
 appendVoidElementToCurrent
 (
-PRInt32
-ns
 nsIAtom
 *
 name
@@ -17042,7 +16981,7 @@ elt
 =
 createElement
 (
-ns
+kNameSpaceID_XHTML
 name
 attributes
 fragment
@@ -17072,18 +17011,17 @@ node
 ;
 elementPushed
 (
-ns
+kNameSpaceID_XHTML
 name
 elt
 )
 ;
 elementPopped
 (
-ns
+kNameSpaceID_XHTML
 name
 elt
 )
-;
 ;
 }
 void
@@ -17227,14 +17165,6 @@ contextName
 =
 context
 ;
-nsHtml5Portability
-:
-:
-retainLocal
-(
-context
-)
-;
 this
 -
 >
@@ -17248,7 +17178,6 @@ this
 contextNode
 =
 node
-;
 ;
 this
 -
@@ -17816,7 +17745,6 @@ retain
 ;
 }
 }
-;
 return
 new
 nsHtml5StateSnapshot
@@ -18565,7 +18493,6 @@ retain
 ;
 }
 }
-;
 formPointer
 =
 snapshot
@@ -18574,8 +18501,6 @@ snapshot
 getFormPointer
 (
 )
-;
-;
 ;
 headPointer
 =
@@ -18586,8 +18511,6 @@ getHeadPointer
 (
 )
 ;
-;
-;
 deepTreeSurrogateParent
 =
 snapshot
@@ -18596,7 +18519,6 @@ snapshot
 getDeepTreeSurrogateParent
 (
 )
-;
 ;
 mode
 =
