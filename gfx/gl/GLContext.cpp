@@ -471,6 +471,12 @@ GL_EXT_occlusion_query_boolean
 "
 GL_ARB_occlusion_query2
 "
+"
+GL_EXT_transform_feedback
+"
+"
+GL_NV_transform_feedback
+"
 nullptr
 }
 ;
