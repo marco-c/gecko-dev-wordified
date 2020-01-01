@@ -1134,14 +1134,6 @@ downloads
 do_get_file
 (
 "
-toolkit
-/
-components
-/
-downloads
-/
-test
-/
 downloads
 .
 empty

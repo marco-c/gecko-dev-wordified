@@ -570,14 +570,6 @@ cernDir
 do_get_file
 (
 "
-netwerk
-/
-test
-/
-httpserver
-/
-test
-/
 data
 /
 cern_meta

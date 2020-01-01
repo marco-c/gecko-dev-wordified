@@ -631,16 +631,8 @@ __testsDirectory
 {
 __testsDirectory
 =
-do_get_file
+do_get_cwd
 (
-"
-content
-/
-test
-/
-unit
-/
-"
 )
 ;
 }

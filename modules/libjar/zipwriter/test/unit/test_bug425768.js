@@ -425,16 +425,6 @@ source
 do_get_file
 (
 "
-modules
-/
-libjar
-/
-zipwriter
-/
-test
-/
-unit
-/
 data
 /
 test

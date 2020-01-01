@@ -742,14 +742,8 @@ sample
 do_load_module
 (
 "
-/
-toolkit
-/
-components
-/
-places
-/
-tests
+.
+.
 /
 unit
 /

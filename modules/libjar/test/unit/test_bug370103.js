@@ -77,14 +77,6 @@ file
 do_get_file
 (
 "
-modules
-/
-libjar
-/
-test
-/
-unit
-/
 data
 /
 test_bug370103

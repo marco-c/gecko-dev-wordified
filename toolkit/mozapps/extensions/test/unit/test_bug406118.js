@@ -442,16 +442,6 @@ source
 do_get_file
 (
 "
-toolkit
-/
-mozapps
-/
-extensions
-/
-test
-/
-unit
-/
 data
 /
 test_bug393285

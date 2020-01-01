@@ -496,16 +496,6 @@ const
 DATA_DIR
 =
 "
-modules
-/
-libjar
-/
-zipwriter
-/
-test
-/
-unit
-/
 data
 /
 "

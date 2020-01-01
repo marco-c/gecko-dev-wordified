@@ -454,12 +454,6 @@ manifests
 do_get_file
 (
 "
-chrome
-/
-test
-/
-unit
-/
 data
 /
 test_no_remote_registration

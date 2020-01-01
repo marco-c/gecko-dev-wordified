@@ -397,12 +397,6 @@ MANIFESTS
 do_get_file
 (
 "
-chrome
-/
-test
-/
-unit
-/
 data
 /
 test_bug292789

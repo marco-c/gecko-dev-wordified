@@ -959,17 +959,6 @@ component
 do_load_module
 (
 "
-/
-js
-/
-src
-/
-xpconnect
-/
-tests
-/
-unit
-/
 component_import
 .
 js

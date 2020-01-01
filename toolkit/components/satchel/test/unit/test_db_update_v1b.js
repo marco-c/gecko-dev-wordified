@@ -486,16 +486,6 @@ testfile
 do_get_file
 (
 "
-toolkit
-/
-components
-/
-satchel
-/
-test
-/
-unit
-/
 formhistory_v0v1
 .
 sqlite

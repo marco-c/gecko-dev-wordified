@@ -473,8 +473,6 @@ doc
 =
 do_parse_document
 (
-gBasePath
-+
 aFile
 "
 text

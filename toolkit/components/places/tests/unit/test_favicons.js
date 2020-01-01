@@ -6,22 +6,6 @@ for
 nsIFaviconService
 *
 /
-const
-TESTDIR
-=
-"
-toolkit
-/
-components
-/
-places
-/
-tests
-/
-unit
-/
-"
-;
 /
 *
 *
@@ -915,8 +899,6 @@ iconFile
 =
 do_get_file
 (
-TESTDIR
-+
 iconName
 )
 ;
@@ -1038,8 +1020,6 @@ iconFile
 =
 do_get_file
 (
-TESTDIR
-+
 iconName
 )
 ;
@@ -1169,8 +1149,6 @@ iconFile
 =
 do_get_file
 (
-TESTDIR
-+
 iconName
 )
 ;
@@ -1214,8 +1192,6 @@ expectedFile
 =
 do_get_file
 (
-TESTDIR
-+
 "
 expected
 -
@@ -1341,8 +1317,6 @@ iconFile
 =
 do_get_file
 (
-TESTDIR
-+
 iconName
 )
 ;
@@ -1386,8 +1360,6 @@ expectedFile
 =
 do_get_file
 (
-TESTDIR
-+
 "
 expected
 -
@@ -1513,8 +1485,6 @@ iconFile
 =
 do_get_file
 (
-TESTDIR
-+
 iconName
 )
 ;
@@ -1558,8 +1528,6 @@ expectedFile
 =
 do_get_file
 (
-TESTDIR
-+
 "
 expected
 -
@@ -1727,8 +1695,6 @@ iconFile
 =
 do_get_file
 (
-TESTDIR
-+
 iconName
 )
 ;
@@ -1772,8 +1738,6 @@ expectedFile
 =
 do_get_file
 (
-TESTDIR
-+
 "
 expected
 -
@@ -1899,8 +1863,6 @@ iconFile
 =
 do_get_file
 (
-TESTDIR
-+
 iconName
 )
 ;
@@ -1944,8 +1906,6 @@ expectedFile
 =
 do_get_file
 (
-TESTDIR
-+
 "
 expected
 -
@@ -2071,8 +2031,6 @@ iconFile
 =
 do_get_file
 (
-TESTDIR
-+
 iconName
 )
 ;
@@ -2116,8 +2074,6 @@ expectedFile
 =
 do_get_file
 (
-TESTDIR
-+
 "
 expected
 -
@@ -2243,8 +2199,6 @@ iconFile
 =
 do_get_file
 (
-TESTDIR
-+
 iconName
 )
 ;
@@ -2288,8 +2242,6 @@ expectedFile
 =
 do_get_file
 (
-TESTDIR
-+
 "
 expected
 -
@@ -2409,8 +2361,6 @@ icon1File
 =
 do_get_file
 (
-TESTDIR
-+
 icon1Name
 )
 ;
@@ -2444,8 +2394,6 @@ file
 .
 /
 "
-+
-TESTDIR
 +
 icon1Name
 )
@@ -2482,8 +2430,6 @@ icon2File
 =
 do_get_file
 (
-TESTDIR
-+
 icon2Name
 )
 ;
@@ -2517,8 +2463,6 @@ file
 .
 /
 "
-+
-TESTDIR
 +
 icon2Name
 )
@@ -2976,8 +2920,6 @@ iconFile
 =
 do_get_file
 (
-TESTDIR
-+
 iconName
 )
 ;
@@ -3026,8 +2968,6 @@ file
 .
 /
 "
-+
-TESTDIR
 +
 iconName
 )
@@ -3215,8 +3155,6 @@ file
 .
 /
 "
-+
-TESTDIR
 +
 iconName
 )

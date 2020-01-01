@@ -624,16 +624,6 @@ file
 do_get_file
 (
 "
-toolkit
-/
-components
-/
-places
-/
-tests
-/
-unit
-/
 history_import_test
 .
 dat
