@@ -5045,8 +5045,6 @@ if
 item
 .
 tab
-.
-raw
 =
 =
 gBrowser
@@ -9532,15 +9530,11 @@ a
 .
 tab
 .
-raw
-.
 _tPos
 -
 b
 .
 tab
-.
-raw
 .
 _tPos
 )
