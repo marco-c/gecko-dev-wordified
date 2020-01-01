@@ -14949,6 +14949,8 @@ Qt
 WA_NoSystemBackground
 )
 ;
+/
+/
 mDrawingarea
 -
 >
