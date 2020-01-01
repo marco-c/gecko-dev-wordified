@@ -3185,6 +3185,14 @@ nsGeolocation
 (
 )
 {
+if
+(
+mService
+)
+Shutdown
+(
+)
+;
 }
 void
 nsGeolocation
