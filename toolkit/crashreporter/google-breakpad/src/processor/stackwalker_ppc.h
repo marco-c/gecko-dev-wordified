@@ -4,7 +4,7 @@ Copyright
 (
 c
 )
-2006
+2010
 Google
 Inc
 .
@@ -535,16 +535,6 @@ const
 CallStack
 *
 stack
-const
-vector
-<
-linked_ptr
-<
-StackFrameInfo
->
->
-&
-stack_frame_info
 )
 ;
 /

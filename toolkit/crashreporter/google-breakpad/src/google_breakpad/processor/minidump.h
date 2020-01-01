@@ -4,7 +4,7 @@ Copyright
 (
 c
 )
-2006
+2010
 Google
 Inc
 .
@@ -2069,6 +2069,7 @@ u_int8_t
 GetMemory
 (
 )
+const
 ;
 /
 /
@@ -2086,6 +2087,7 @@ u_int64_t
 GetBase
 (
 )
+const
 ;
 /
 /
@@ -2102,6 +2104,7 @@ u_int32_t
 GetSize
 (
 )
+const
 ;
 /
 /
@@ -2141,6 +2144,7 @@ u_int8_t
 *
 value
 )
+const
 ;
 bool
 GetMemoryAtAddress
@@ -2151,6 +2155,7 @@ u_int16_t
 *
 value
 )
+const
 ;
 bool
 GetMemoryAtAddress
@@ -2161,6 +2166,7 @@ u_int32_t
 *
 value
 )
+const
 ;
 bool
 GetMemoryAtAddress
@@ -2171,6 +2177,7 @@ u_int64_t
 *
 value
 )
+const
 ;
 /
 /
@@ -2262,6 +2269,7 @@ T
 *
 value
 )
+const
 ;
 /
 /
@@ -2317,6 +2325,7 @@ descriptor_
 Cached
 memory
 .
+mutable
 vector
 <
 u_int8_t

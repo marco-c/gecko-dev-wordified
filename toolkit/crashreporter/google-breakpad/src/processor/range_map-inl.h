@@ -4,7 +4,7 @@ Copyright
 (
 c
 )
-2006
+2010
 Google
 Inc
 .
@@ -1344,7 +1344,11 @@ entry_base
 iterator
 -
 >
-first
+second
+.
+base
+(
+)
 ;
 if
 (

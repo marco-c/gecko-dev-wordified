@@ -300,7 +300,7 @@ DAMAGE
 .
 /
 /
-stack_frame_info
+windows_frame_info
 .
 h
 :
@@ -345,10 +345,10 @@ Mark
 Mentovai
 #
 ifndef
-PROCESSOR_STACK_FRAME_INFO_H__
+PROCESSOR_WINDOWS_FRAME_INFO_H__
 #
 define
-PROCESSOR_STACK_FRAME_INFO_H__
+PROCESSOR_WINDOWS_FRAME_INFO_H__
 #
 include
 <
@@ -369,7 +369,7 @@ namespace
 google_breakpad
 {
 struct
-StackFrameInfo
+WindowsFrameInfo
 {
 public
 :
@@ -388,7 +388,7 @@ VALID_ALL
 1
 }
 ;
-StackFrameInfo
+WindowsFrameInfo
 (
 )
 :
@@ -429,7 +429,7 @@ program_string
 )
 {
 }
-StackFrameInfo
+WindowsFrameInfo
 (
 u_int32_t
 set_prolog_size
@@ -498,7 +498,7 @@ makes
 "
 this
 "
-StackFrameInfo
+WindowsFrameInfo
 object
 identical
 to
@@ -510,7 +510,7 @@ void
 CopyFrom
 (
 const
-StackFrameInfo
+WindowsFrameInfo
 &
 that
 )
@@ -574,7 +574,7 @@ program_string
 /
 Clears
 the
-StackFrameInfo
+WindowsFrameInfo
 object
 so
 that
@@ -730,4 +730,4 @@ google_breakpad
 endif
 /
 /
-PROCESSOR_STACK_FRAME_INFO_H__
+PROCESSOR_WINDOWS_FRAME_INFO_H__

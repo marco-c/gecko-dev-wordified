@@ -4,7 +4,7 @@ Copyright
 (
 c
 )
-2006
+2010
 Google
 Inc
 .
@@ -355,9 +355,9 @@ binary
 -
 with
 -
-stab
+debugging
 -
-symbol
+info
 >
 \
 n
@@ -382,14 +382,9 @@ argv
 1
 ]
 ;
-DumpSymbols
-dumper
-;
 if
 (
 !
-dumper
-.
 WriteSymbolFile
 (
 binary
