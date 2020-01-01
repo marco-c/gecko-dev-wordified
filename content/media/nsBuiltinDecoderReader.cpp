@@ -1717,6 +1717,14 @@ mStereoMode
 videoImage
 -
 >
+SetDelayedConversion
+(
+true
+)
+;
+videoImage
+-
+>
 SetData
 (
 data
