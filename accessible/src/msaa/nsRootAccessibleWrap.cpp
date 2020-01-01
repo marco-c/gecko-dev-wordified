@@ -239,7 +239,7 @@ gmail
 com
 >
 (
-origianl
+original
 author
 )
 *
