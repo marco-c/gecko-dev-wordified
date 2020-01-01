@@ -478,6 +478,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIWebBrowserChrome2
 .
 h
@@ -1716,8 +1723,10 @@ RenderFrameChild
 *
 mRemoteFrame
 ;
+nsRefPtr
+<
 TabChildGlobal
-*
+>
 mTabChildGlobal
 ;
 PRUint32
