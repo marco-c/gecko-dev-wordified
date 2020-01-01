@@ -1715,7 +1715,7 @@ known
 /
 to
 exist
-getExistingScript
+existingScript
 (
 )
 will
@@ -1843,7 +1843,7 @@ script_
 inline
 JSScript
 *
-getExistingScript
+existingScript
 (
 )
 ;

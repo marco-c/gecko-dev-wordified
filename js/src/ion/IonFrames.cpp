@@ -8707,7 +8707,7 @@ script_
 callee_
 -
 >
-getExistingScript
+existingScript
 (
 )
 ;

@@ -4376,7 +4376,7 @@ maybeScript
 fun
 -
 >
-getExistingScript
+existingScript
 (
 )
 ;
