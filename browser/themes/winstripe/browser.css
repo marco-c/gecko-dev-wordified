@@ -10156,12 +10156,6 @@ width
 :
 7em
 ;
-min
--
-width
-:
-7em
-;
 -
 moz
 -
@@ -10793,6 +10787,12 @@ margin
 start
 :
 0
+;
+min
+-
+width
+:
+4em
 ;
 }
 #
