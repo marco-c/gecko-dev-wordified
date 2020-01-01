@@ -274,6 +274,9 @@ nsHttpRequestHead
 *
 mRequestHead
 ;
+bool
+mIsDone
+;
 }
 ;
 }
