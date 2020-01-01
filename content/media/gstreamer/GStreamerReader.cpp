@@ -933,6 +933,11 @@ appsink
 name
 =
 audiosink
+max
+-
+buffers
+=
+2
 sync
 =
 true
@@ -996,6 +1001,11 @@ appsink
 name
 =
 audiosink
+max
+-
+buffers
+=
+2
 sync
 =
 true
