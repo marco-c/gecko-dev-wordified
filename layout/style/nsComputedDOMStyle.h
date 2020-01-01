@@ -1969,6 +1969,12 @@ DoGetAlignSelf
 ;
 nsIDOMCSSValue
 *
+DoGetFlexBasis
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetFlexDirection
 (
 )
