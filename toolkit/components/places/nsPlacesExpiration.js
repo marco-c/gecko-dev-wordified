@@ -5221,12 +5221,14 @@ row
 ;
 while
 (
+(
 row
 =
 aResultSet
 .
 getNextRow
 (
+)
 )
 )
 {

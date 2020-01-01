@@ -5423,12 +5423,14 @@ false
 ;
 while
 (
+(
 row
 =
 aResultSet
 .
 getNextRow
 (
+)
 )
 )
 {
