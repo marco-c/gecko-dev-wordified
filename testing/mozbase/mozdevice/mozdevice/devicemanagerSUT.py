@@ -174,7 +174,7 @@ host
 port
 =
 20701
-retrylimit
+retryLimit
 =
 5
 deviceRoot
@@ -200,9 +200,9 @@ port
         
 self
 .
-retrylimit
+retryLimit
 =
-retrylimit
+retryLimit
         
 self
 .
@@ -712,6 +712,9 @@ outputfile
 timeout
 =
 None
+retryLimit
+=
+None
 )
 :
         
@@ -726,9 +729,7 @@ that
 loops
 up
 to
-self
-.
-retrylimit
+retryLimit
 iterations
         
 "
@@ -815,6 +816,14 @@ data
 transmission
 .
         
+retryLimit
+=
+retryLimit
+or
+self
+.
+retryLimit
+        
 retries
 =
 0
@@ -822,9 +831,7 @@ retries
 while
 retries
 <
-self
-.
-retrylimit
+retryLimit
 :
             
 try
@@ -923,9 +930,7 @@ bit
 if
 retries
 <
-self
-.
-retrylimit
+retryLimit
 and
 not
 self
@@ -986,9 +991,7 @@ attempts
 self
 .
 host
-self
-.
-retrylimit
+retryLimit
 )
 )
     
@@ -998,6 +1001,9 @@ _runCmds
 self
 cmdlist
 timeout
+=
+None
+retryLimit
 =
 None
 )
@@ -1030,6 +1036,14 @@ file
 "
 "
         
+retryLimit
+=
+retryLimit
+or
+self
+.
+retryLimit
+        
 outputfile
 =
 StringIO
@@ -1045,6 +1059,9 @@ _sendCmds
 cmdlist
 outputfile
 timeout
+retryLimit
+=
+retryLimit
 )
         
 outputfile
@@ -2689,6 +2706,9 @@ pushFile
 self
 localname
 destname
+retryLimit
+=
+None
 )
 :
         
@@ -2710,6 +2730,14 @@ device
 "
 "
 "
+        
+retryLimit
+=
+retryLimit
+or
+self
+.
+retryLimit
         
 self
 .
@@ -2781,6 +2809,9 @@ read
 )
 }
 ]
+retryLimit
+=
+retryLimit
 )
 .
 strip
@@ -2938,6 +2969,9 @@ pushDir
 self
 localDir
 remoteDir
+retryLimit
+=
+None
 )
 :
         
@@ -2958,6 +2992,14 @@ device
 "
 "
 "
+        
+retryLimit
+=
+retryLimit
+or
+self
+.
+retryLimit
         
 if
 (
@@ -3131,6 +3173,9 @@ root
 f
 )
 remoteName
+retryLimit
+=
+retryLimit
 )
     
 def

@@ -130,7 +130,7 @@ None
 port
 =
 20701
-retrylimit
+retryLimit
 =
 5
 packageName
@@ -170,9 +170,9 @@ port
         
 self
 .
-retrylimit
+retryLimit
 =
-retrylimit
+retryLimit
         
 self
 .
@@ -1282,6 +1282,9 @@ pushFile
 self
 localname
 destname
+retryLimit
+=
+None
 )
 :
         
@@ -1349,6 +1352,14 @@ two
         
 #
 implementations
+        
+retryLimit
+=
+retryLimit
+or
+self
+.
+retryLimit
         
 if
 self
@@ -1434,6 +1445,10 @@ localname
 )
 remoteTmpFile
 ]
+                    
+retryLimit
+=
+retryLimit
 )
             
 if
@@ -1514,6 +1529,10 @@ localname
 )
 destname
 ]
+                    
+retryLimit
+=
+retryLimit
 )
     
 def
@@ -1602,6 +1621,9 @@ pushDir
 self
 localDir
 remoteDir
+retryLimit
+=
+None
 )
 :
         
@@ -1677,6 +1699,14 @@ get
 around
 this
 limitation
+        
+retryLimit
+=
+retryLimit
+or
+self
+.
+retryLimit
         
 if
 not
@@ -1776,6 +1806,9 @@ pushFile
 (
 localZip
 remoteZip
+retryLimit
+=
+retryLimit
 )
                 
 os
@@ -1803,6 +1836,7 @@ unzip
 o
 "
 remoteZip
+                                       
 "
 -
 d
@@ -1830,6 +1864,9 @@ rm
 "
 remoteZip
 ]
+retryLimit
+=
+retryLimit
 )
                 
 if
@@ -1899,6 +1936,9 @@ pushDir
 (
 localDir
 remoteDir
+retryLimit
+=
+retryLimit
 )
         
 else
@@ -1960,6 +2000,9 @@ push
 tmpDirTarget
 remoteDir
 ]
+retryLimit
+=
+retryLimit
 )
             
 shutil
@@ -2219,50 +2262,6 @@ filename
 )
     
 def
-_removeSingleDir
-(
-self
-remoteDir
-)
-:
-        
-"
-"
-"
-        
-Deletes
-a
-single
-empty
-directory
-        
-"
-"
-"
-        
-return
-self
-.
-_runCmd
-(
-[
-"
-shell
-"
-"
-rmdir
-"
-remoteDir
-]
-)
-.
-stdout
-.
-read
-(
-)
-    
-def
 removeDir
 (
 self
@@ -2321,6 +2320,10 @@ r
 "
 remoteDir
 ]
+)
+.
+wait
+(
 )
         
 else
@@ -6116,6 +6119,9 @@ args
 timeout
 =
 None
+retryLimit
+=
+None
 )
 :
         
@@ -6163,6 +6169,14 @@ Popen
 "
 "
 "
+        
+retryLimit
+=
+retryLimit
+or
+self
+.
+retryLimit
         
 #
 use
@@ -6316,6 +6330,16 @@ int
 timeout
 )
         
+retries
+=
+0
+        
+while
+retries
+<
+retryLimit
+:
+            
 proc
 =
 subprocess
@@ -6324,7 +6348,7 @@ Popen
 (
 finalArgs
 )
-        
+            
 start_time
 =
 time
@@ -6332,7 +6356,7 @@ time
 time
 (
 )
-        
+            
 ret_code
 =
 proc
@@ -6340,7 +6364,7 @@ proc
 poll
 (
 )
-        
+            
 while
 (
 (
@@ -6362,7 +6386,7 @@ ret_code
 =
 None
 :
-            
+                
 time
 .
 sleep
@@ -6371,7 +6395,7 @@ self
 .
 _pollingInterval
 )
-            
+                
 ret_code
 =
 proc
@@ -6379,20 +6403,30 @@ proc
 poll
 (
 )
-        
+            
 if
 ret_code
 =
 =
 None
 :
-            
+                
 proc
 .
 kill
 (
 )
+                
+retries
++
+=
+1
+                
+continue
             
+return
+ret_code
+        
 raise
 DMError
 (
@@ -6402,11 +6436,15 @@ exceeded
 for
 _checkCmd
 call
+after
+%
+d
+retries
+.
 "
+%
+retries
 )
-        
-return
-ret_code
     
 def
 _checkCmdAs
@@ -6414,6 +6452,9 @@ _checkCmdAs
 self
 args
 timeout
+=
+None
+retryLimit
 =
 None
 )
@@ -6480,6 +6521,14 @@ Popen
 "
 "
         
+retryLimit
+=
+retryLimit
+or
+self
+.
+retryLimit
+        
 if
 (
 self
@@ -6517,6 +6566,9 @@ _checkCmd
 (
 args
 timeout
+retryLimit
+=
+retryLimit
 )
     
 def
