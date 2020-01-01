@@ -323,6 +323,9 @@ this
 OutputGenerator
 =
 {
+defaultOutputOrder
+:
+OUTPUT_DESC_LAST
 /
 *
 *
@@ -2573,9 +2576,6 @@ UtteranceGenerator
 __proto__
 :
 OutputGenerator
-defaultOutputOrder
-:
-OUTPUT_DESC_FIRST
 gActionMap
 :
 {
@@ -3920,9 +3920,6 @@ BrailleGenerator
 __proto__
 :
 OutputGenerator
-defaultOutputOrder
-:
-OUTPUT_DESC_LAST
 genForContext
 :
 function
