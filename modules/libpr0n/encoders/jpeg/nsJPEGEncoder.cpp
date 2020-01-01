@@ -2953,6 +2953,8 @@ error_code
 =
 NS_ERROR_OUT_OF_MEMORY
 ;
+break
+;
 default
 :
 error_code
