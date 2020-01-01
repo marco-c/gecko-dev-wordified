@@ -1521,6 +1521,9 @@ mMaxTotalProgress
 PLDHashTable
 mRequestInfoHash
 ;
+nsInt64
+mCompletedTotalProgress
+;
 /
 *
 *
@@ -1772,6 +1775,14 @@ GetMaxTotalProgress
 ;
 nsresult
 AddRequestInfo
+(
+nsIRequest
+*
+aRequest
+)
+;
+void
+RemoveRequestInfo
 (
 nsIRequest
 *
