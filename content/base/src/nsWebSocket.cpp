@@ -7333,12 +7333,6 @@ mBinaryType
 WS_BINARY_TYPE_BLOB
 ;
 }
-else
-{
-return
-NS_ERROR_INVALID_ARG
-;
-}
 return
 NS_OK
 ;
