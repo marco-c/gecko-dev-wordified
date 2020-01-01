@@ -136,6 +136,13 @@ uint32_t
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StandardInteger
