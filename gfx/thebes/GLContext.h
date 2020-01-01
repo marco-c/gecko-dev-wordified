@@ -2558,10 +2558,11 @@ enum
 VendorIntel
 VendorNVIDIA
 VendorATI
+VendorQualcomm
 VendorOther
 }
 ;
-PRBool
+int
 Vendor
 (
 )
@@ -4002,7 +4003,7 @@ mIsGlobalSharedContext
 PRPackedBool
 mWindowOriginBottomLeft
 ;
-int
+PRInt32
 mVendor
 ;
 enum
