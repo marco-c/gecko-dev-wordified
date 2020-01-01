@@ -239,6 +239,17 @@ include
 "
 mozilla
 /
+dom
+/
+BindingUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Likely
 .
 h

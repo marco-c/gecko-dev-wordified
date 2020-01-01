@@ -395,6 +395,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+BindingUtils
+.
+h
+"
+#
+include
+"
 nsSandboxFlags
 .
 h

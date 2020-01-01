@@ -7241,6 +7241,12 @@ the
 new
 value
 .
+mozilla
+:
+:
+dom
+:
+:
 VisibilityState
 GetVisibilityState
 (
