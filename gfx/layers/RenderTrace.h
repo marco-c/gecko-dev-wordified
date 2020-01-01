@@ -492,6 +492,8 @@ line
 to
 enable
 RENDERTRACE
+/
+/
 #
 define
 MOZ_RENDERTRACE
