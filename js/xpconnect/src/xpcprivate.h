@@ -24006,8 +24006,14 @@ mEvaluated
 intptr_t
 mContextHasThread
 ;
-JSAutoEnterCompartment
-mEnterCompartment
+mozilla
+:
+:
+Maybe
+<
+JSAutoCompartment
+>
+mAutoCompartment
 ;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 /

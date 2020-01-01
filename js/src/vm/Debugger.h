@@ -702,7 +702,10 @@ compartment
 JSTrapStatus
 handleUncaughtException
 (
+Maybe
+<
 AutoCompartment
+>
 &
 ac
 Value
@@ -965,7 +968,10 @@ callHook
 JSTrapStatus
 parseResumptionValue
 (
+Maybe
+<
 AutoCompartment
+>
 &
 ac
 bool
@@ -2808,7 +2814,10 @@ false
 bool
 receiveCompletionValue
 (
+Maybe
+<
 AutoCompartment
+>
 &
 ac
 bool

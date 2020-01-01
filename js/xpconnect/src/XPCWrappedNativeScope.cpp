@@ -3949,12 +3949,8 @@ to
 get
 the
 scope
-JSAutoEnterCompartment
+JSAutoCompartment
 ac
-;
-ac
-.
-enterAndIgnoreErrors
 (
 cx
 obj

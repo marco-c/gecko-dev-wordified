@@ -4200,23 +4200,11 @@ n
 "
              
 "
-JSAutoEnterCompartment
+JSAutoCompartment
 ac
-;
-\
-n
-"
-             
-"
-NS_ENSURE_STATE
-(
-ac
-.
-enter
 (
 aCx
 obj
-)
 )
 ;
 \

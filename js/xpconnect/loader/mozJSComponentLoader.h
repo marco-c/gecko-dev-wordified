@@ -520,12 +520,8 @@ sSelf
 mContext
 )
 ;
-JSAutoEnterCompartment
+JSAutoCompartment
 ac
-;
-ac
-.
-enterAndIgnoreErrors
 (
 sSelf
 -
