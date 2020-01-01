@@ -540,6 +540,13 @@ h
 #
 include
 "
+WinMouseScrollHandler
+.
+h
+"
+#
+include
+"
 WinTaskbar
 .
 h
@@ -1516,6 +1523,13 @@ nsWidgetWindowsModuleDtor
 (
 )
 {
+MouseScrollHandler
+:
+:
+Shutdown
+(
+)
+;
 nsLookAndFeel
 :
 :
