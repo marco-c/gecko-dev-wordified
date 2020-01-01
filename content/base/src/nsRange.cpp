@@ -5419,6 +5419,10 @@ else
 NS_ASSERTION
 (
 mIsDetached
+|
+|
+!
+mIsPositioned
 "
 unexpected
 disconnected
