@@ -16907,6 +16907,7 @@ defined
 .
 *
 /
+static
 void
 #
 ifdef
