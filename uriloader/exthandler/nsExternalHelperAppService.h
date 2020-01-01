@@ -920,6 +920,9 @@ nsIHandlerInfo
 aMIMEInfo
 )
 ;
+#
+ifdef
+MOZ_RDF
 /
 *
 *
@@ -1021,6 +1024,8 @@ nsIHandlerInfo
 aHandlerInfo
 )
 ;
+#
+endif
 /
 *
 *
