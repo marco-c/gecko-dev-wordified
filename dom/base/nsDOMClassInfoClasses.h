@@ -1741,6 +1741,10 @@ WebGLExtensionCompressedTextureATC
 )
 DOMCI_CLASS
 (
+WebGLExtensionCompressedTexturePVRTC
+)
+DOMCI_CLASS
+(
 WebGLExtensionDepthTexture
 )
 DOMCI_CLASS

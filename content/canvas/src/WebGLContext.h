@@ -2767,6 +2767,14 @@ nsWrapperCache
 {
 friend
 class
+WebGLContextUserData
+;
+friend
+class
+WebGLMemoryPressureObserver
+;
+friend
+class
 WebGLMemoryMultiReporterWrapper
 ;
 friend
@@ -2783,11 +2791,7 @@ WebGLExtensionCompressedTextureATC
 ;
 friend
 class
-WebGLContextUserData
-;
-friend
-class
-WebGLMemoryPressureObserver
+WebGLExtensionCompressedTexturePVRTC
 ;
 friend
 class
@@ -7450,6 +7454,7 @@ EXT_texture_filter_anisotropic
 WEBGL_lose_context
 WEBGL_compressed_texture_s3tc
 WEBGL_compressed_texture_atc
+WEBGL_compressed_texture_pvrtc
 WEBGL_depth_texture
 WebGLExtensionID_number_of_extensions
 WebGLExtensionID_unknown_extension
@@ -7746,6 +7751,8 @@ info
 bool
 ValidateCompressedTextureSize
 (
+WebGLenum
+target
 WebGLint
 level
 WebGLenum
