@@ -2642,11 +2642,10 @@ accesskey
 oncommand
 =
 "
-SwitchDocumentDirection
-(
-window
+gContextMenu
 .
-content
+switchPageDirection
+(
 )
 ;
 "
