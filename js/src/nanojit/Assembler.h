@@ -1633,14 +1633,6 @@ LIns
 ;
 }
 ;
-typedef
-SeqBuilder
-<
-char
-*
->
-StringList
-;
 /
 *
 *
