@@ -35290,7 +35290,7 @@ LOCAL_ASSERT
 script
 -
 >
-main
+code
 <
 =
 target
@@ -35316,7 +35316,7 @@ pc
 script
 -
 >
-main
+code
 ;
 uintN
 pcdepth
