@@ -35853,8 +35853,14 @@ cx
 JSStructuredCloneWriter
 *
 writer
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 obj
 void
 *
