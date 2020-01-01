@@ -1142,10 +1142,6 @@ aBoundDoc
 nsIURI
 *
 aURL
-nsIDocument
-*
-*
-aResult
 )
 ;
 nsresult

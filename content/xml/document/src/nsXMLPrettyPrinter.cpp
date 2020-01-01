@@ -1097,12 +1097,6 @@ xblDoc
 NS_ERROR_FAILURE
 )
 ;
-nsCOMPtr
-<
-nsIDOMDocument
->
-dummy
-;
 xblDoc
 -
 >
@@ -1125,10 +1119,6 @@ XMLPrettyPrint
 .
 xml
 "
-)
-getter_AddRefs
-(
-dummy
 )
 )
 ;
