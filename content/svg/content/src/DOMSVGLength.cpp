@@ -1707,7 +1707,10 @@ InternalItem
 SetValueAndUnit
 (
 aValue
+PRUint8
+(
 aUnit
+)
 )
 ;
 Element
