@@ -99,7 +99,7 @@ GLCONTEXTPROVIDER_H_
 #
 include
 "
-GLContext
+GLContextTypes
 .
 h
 "

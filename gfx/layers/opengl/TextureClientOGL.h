@@ -101,7 +101,7 @@ MOZILLA_GFX_TEXTURECLIENTOGL_H
 #
 include
 "
-GLContext
+GLContextTypes
 .
 h
 "
@@ -278,9 +278,6 @@ aSize
 gl
 :
 :
-GLContext
-:
-:
 SharedTextureShareType
 aShareType
 bool
@@ -318,9 +315,6 @@ IntSize
 mSize
 ;
 gl
-:
-:
-GLContext
 :
 :
 SharedTextureShareType

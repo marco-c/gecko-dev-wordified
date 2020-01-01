@@ -99,17 +99,6 @@ GFX_CANVASLAYEROGL_H
 #
 include
 "
-GLContext
-.
-h
-"
-/
-/
-for
-GLContext
-#
-include
-"
 GLContextTypes
 .
 h
@@ -117,8 +106,7 @@ h
 /
 /
 for
-GLuint
-GLenum
+GLContext
 #
 include
 "
@@ -129,6 +117,7 @@ h
 /
 /
 for
+GLuint
 LOCAL_GL_TEXTURE_2D
 #
 include

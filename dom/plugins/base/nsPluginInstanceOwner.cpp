@@ -996,9 +996,6 @@ mozilla
 gl
 :
 :
-GLContext
-:
-:
 SameProcess
 ;
 data
@@ -10274,9 +10271,6 @@ mShareType
 gl
 :
 :
-GLContext
-:
-:
 SameProcess
 ;
 data
@@ -10301,9 +10295,6 @@ aVideoInfo
 >
 mSurfaceTexture
 gl
-:
-:
-GLContext
 :
 :
 SurfaceTexture

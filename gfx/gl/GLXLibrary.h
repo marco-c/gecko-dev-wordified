@@ -99,7 +99,7 @@ GFX_GLXLIBRARY_H
 #
 include
 "
-GLContext
+GLContextTypes
 .
 h
 "
@@ -116,6 +116,9 @@ glx
 .
 h
 >
+struct
+PRLibrary
+;
 namespace
 mozilla
 {
@@ -535,9 +538,6 @@ LibraryType
 SelectLibrary
 (
 const
-GLContext
-:
-:
 ContextFlags
 &
 aFlags

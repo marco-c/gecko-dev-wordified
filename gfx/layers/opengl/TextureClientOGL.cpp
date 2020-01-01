@@ -298,9 +298,6 @@ aSize
 gl
 :
 :
-GLContext
-:
-:
 SharedTextureShareType
 aShareType
 bool

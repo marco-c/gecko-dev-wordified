@@ -148,17 +148,11 @@ GLContextProviderNull
 :
 CreateSharedHandle
 (
-GLContext
-:
-:
 SharedTextureShareType
 shareType
 void
 *
 buffer
-GLContext
-:
-:
 SharedTextureBufferType
 bufferType
 )
@@ -176,9 +170,6 @@ GLContextProviderNull
 :
 GetSharedHandleAsSurface
 (
-GLContext
-:
-:
 SharedTextureShareType
 shareType
 SharedTextureHandle

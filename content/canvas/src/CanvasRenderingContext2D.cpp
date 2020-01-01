@@ -4833,7 +4833,7 @@ size
 height
 )
 caps
-GLContext
+gl
 :
 :
 ContextFlagsNone

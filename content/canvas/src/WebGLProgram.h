@@ -131,6 +131,11 @@ CheckedInt
 .
 h
 "
+#
+include
+<
+map
+>
 namespace
 mozilla
 {

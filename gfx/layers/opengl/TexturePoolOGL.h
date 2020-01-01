@@ -72,6 +72,7 @@ h
 /
 /
 for
+GLContext
 GLuint
 namespace
 mozilla
@@ -79,9 +80,6 @@ mozilla
 namespace
 gl
 {
-class
-GLContext
-;
 /
 /
 A

@@ -192,6 +192,13 @@ nsHashKeys
 h
 "
 #
+include
+"
+nsIObserver
+.
+h
+"
+#
 ifdef
 MOZ_CRASHREPORTER
 #

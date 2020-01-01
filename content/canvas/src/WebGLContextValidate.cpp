@@ -166,6 +166,13 @@ h
 #
 include
 "
+GLContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CheckedInt

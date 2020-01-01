@@ -99,7 +99,7 @@ VBOARENA_H_
 #
 include
 "
-GLContext
+GLTypes
 .
 h
 "
@@ -114,6 +114,9 @@ mozilla
 namespace
 gl
 {
+class
+GLContext
+;
 class
 VBOArena
 {

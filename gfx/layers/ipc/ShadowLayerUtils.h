@@ -122,7 +122,14 @@ h
 #
 include
 "
-GLContext
+GLContextTypes
+.
+h
+"
+#
+include
+"
+SurfaceTypes
 .
 h
 "
@@ -351,9 +358,6 @@ mozilla
 gl
 :
 :
-GLContext
-:
-:
 SharedTextureShareType
 >
 {
@@ -362,9 +366,6 @@ mozilla
 :
 :
 gl
-:
-:
-GLContext
 :
 :
 SharedTextureShareType

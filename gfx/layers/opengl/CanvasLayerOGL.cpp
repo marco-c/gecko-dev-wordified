@@ -103,6 +103,17 @@ h
 #
 include
 "
+GLContext
+.
+h
+"
+/
+/
+for
+GLContext
+#
+include
+"
 GLScreenBuffer
 .
 h

@@ -6750,15 +6750,7 @@ MakeContextCurrent
 (
 )
 const
-{
-gl
--
->
-MakeCurrent
-(
-)
 ;
-}
 /
 /
 helpers

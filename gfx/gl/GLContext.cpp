@@ -7523,10 +7523,9 @@ false
 ;
 #
 endif
-mAvailableExtensions
-.
-Load
+InitializeExtensionsBitSet
 (
+mAvailableExtensions
 extensions
 sExtensionNames
 firstRun

@@ -198,7 +198,7 @@ h
 #
 include
 "
-GLContext
+GLContextTypes
 .
 h
 "

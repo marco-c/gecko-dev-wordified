@@ -99,17 +99,6 @@ GFX_IMAGELAYEROGL_H
 #
 include
 "
-GLContext
-.
-h
-"
-/
-/
-for
-GLContext
-#
-include
-"
 GLContextTypes
 .
 h
@@ -117,6 +106,7 @@ h
 /
 /
 for
+GLContext
 GLuint
 #
 include
