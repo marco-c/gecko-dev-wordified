@@ -472,6 +472,13 @@ jstypes
 h
 "
 #
+include
+"
+jsstdint
+.
+h
+"
+#
 if
 !
 defined
