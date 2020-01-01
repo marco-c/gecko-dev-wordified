@@ -44,7 +44,7 @@ var
 ws1
 =
 new
-WebSocket
+MozWebSocket
 (
 "
 ws
@@ -100,7 +100,7 @@ frames
 0
 ]
 .
-WebSocket
+MozWebSocket
 (
 "
 ws
