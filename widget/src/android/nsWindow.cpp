@@ -1243,6 +1243,10 @@ mFocus
 (
 nsnull
 )
+mIMEComposing
+(
+PR_FALSE
+)
 {
 }
 nsWindow
