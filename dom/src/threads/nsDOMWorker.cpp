@@ -5348,7 +5348,7 @@ this
 NS_ENSURE_TRUE
 (
 scope
-NS_ERROR_OUT_OF_MEMORY
+PR_FALSE
 )
 ;
 nsISupports
