@@ -2016,7 +2016,10 @@ TimeDelta
 :
 FromMilliseconds
 (
-0x100000000I64
+GG_LONGLONG
+(
+0x100000000
+)
 )
 ;
 /
