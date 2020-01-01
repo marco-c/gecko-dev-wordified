@@ -1924,6 +1924,9 @@ endTag
 tagName
 )
 ;
+delete
+attributes
+;
 }
 else
 {
