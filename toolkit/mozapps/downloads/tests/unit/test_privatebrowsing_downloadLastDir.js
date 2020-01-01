@@ -728,7 +728,7 @@ equals
 (
 Ci
 .
-nsIDirectoryProvider
+nsIDirectoryServiceProvider
 )
 |
 |

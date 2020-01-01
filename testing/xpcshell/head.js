@@ -3270,7 +3270,7 @@ Components
 .
 interfaces
 .
-nsIDirectoryProvider
+nsIDirectoryServiceProvider
 )
 |
 |

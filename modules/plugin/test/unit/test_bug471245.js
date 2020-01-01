@@ -599,7 +599,7 @@ Components
 .
 interfaces
 .
-nsIDirectoryProvider
+nsIDirectoryServiceProvider
 )
 |
 |
