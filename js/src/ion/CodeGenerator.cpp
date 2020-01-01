@@ -5228,6 +5228,8 @@ call
 numStackArgs
 (
 )
++
+1
 )
 ;
 return
@@ -7964,6 +7966,15 @@ return
 false
 ;
 }
+JS_ASSERT
+(
+pushedArgumentSlots_
+.
+empty
+(
+)
+)
+;
 return
 true
 ;
