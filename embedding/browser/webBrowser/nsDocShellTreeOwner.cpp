@@ -961,6 +961,11 @@ nsPIDOMEventTarget
 aTarget
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+inBrowser
+)
+;
 nsCOMPtr
 <
 nsIDOMWindow
@@ -5371,6 +5376,14 @@ getter_AddRefs
 piTarget
 )
 )
+;
+if
+(
+!
+piTarget
+)
+return
+NS_OK
 ;
 nsCOMPtr
 <
