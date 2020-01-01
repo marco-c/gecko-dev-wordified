@@ -10310,6 +10310,10 @@ JSCLASS_NO_RESERVED_MEMBERS
 struct
 JSIdArray
 {
+void
+*
+self
+;
 jsint
 length
 ;

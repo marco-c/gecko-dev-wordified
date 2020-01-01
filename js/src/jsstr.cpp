@@ -14454,7 +14454,7 @@ sub
 !
 splits
 .
-push
+append
 (
 sub
 )
@@ -14593,7 +14593,7 @@ sub
 !
 splits
 .
-push
+append
 (
 sub
 )
@@ -14649,7 +14649,7 @@ length
 )
 splits
 .
-buffer
+begin
 (
 )
 )
@@ -27684,6 +27684,15 @@ return
 JS_FALSE
 ;
 }
+if
+(
+dstlen
+<
+2
+)
+goto
+bufferTooSmall
+;
 if
 (
 dst

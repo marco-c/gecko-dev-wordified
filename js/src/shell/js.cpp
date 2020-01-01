@@ -7656,6 +7656,8 @@ clasp
 =
 &
 js_GeneratorClass
+.
+base
 )
 {
 JSGenerator
@@ -19438,7 +19440,6 @@ if
 (
 cx
 )
-{
 js
 :
 :
@@ -19456,7 +19457,6 @@ JS_DestroyContextNoGC
 cx
 )
 ;
-}
 }
 #
 endif
