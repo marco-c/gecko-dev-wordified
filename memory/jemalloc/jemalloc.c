@@ -1575,8 +1575,6 @@ works
 .
 *
 /
-/
-/
 #
 define
 MALLOC_PAGEFILE
