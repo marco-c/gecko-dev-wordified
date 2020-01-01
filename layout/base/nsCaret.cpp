@@ -7626,6 +7626,9 @@ IsMenuPopupHidingCaret
 (
 )
 {
+#
+ifdef
+MOZ_XUL
 /
 /
 Check
@@ -7990,6 +7993,8 @@ PR_TRUE
 ;
 }
 }
+#
+endif
 /
 /
 There
