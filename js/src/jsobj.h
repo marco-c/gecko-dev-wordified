@@ -251,6 +251,11 @@ String
 .
 h
 "
+ForwardDeclareJS
+(
+Object
+)
+;
 namespace
 JS
 {
