@@ -1939,6 +1939,10 @@ mLastChild
 =
 nullptr
 ;
+mParent
+=
+nullptr
+;
 }
 /
 *
