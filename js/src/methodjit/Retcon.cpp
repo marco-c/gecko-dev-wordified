@@ -2064,8 +2064,7 @@ double
 /
 Vector
 <
-JSStackFrame
-*
+PatchableFrame
 >
 normalFrames
 (
@@ -2074,8 +2073,7 @@ cx
 ;
 Vector
 <
-JSStackFrame
-*
+PatchableFrame
 >
 ctorFrames
 (
@@ -2224,6 +2222,19 @@ JIT
 d
 code
 .
+PatchableFrame
+frame
+;
+frame
+.
+fp
+=
+fp
+;
+frame
+.
+pc
+=
 fp
 -
 >
@@ -2248,7 +2259,7 @@ ctorFrames
 .
 append
 (
-fp
+frame
 )
 )
 return
@@ -2270,7 +2281,7 @@ normalFrames
 .
 append
 (
-fp
+frame
 )
 )
 return
@@ -2967,8 +2978,7 @@ recompile
 (
 Vector
 <
-JSStackFrame
-*
+PatchableFrame
 >
 &
 frames
@@ -3002,6 +3012,8 @@ frames
 [
 0
 ]
+.
+fp
 ;
 JaegerSpew
 (
@@ -3036,6 +3048,8 @@ c
 (
 cx
 fp
+&
+frames
 )
 ;
 if
@@ -3057,8 +3071,6 @@ c
 .
 compile
 (
-&
-frames
 )
 !
 =
