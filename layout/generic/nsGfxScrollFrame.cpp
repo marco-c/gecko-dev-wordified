@@ -12408,7 +12408,7 @@ GetPresShell
 >
 FlushPendingNotifications
 (
-Flush_Layout
+Flush_InterruptibleLayout
 )
 ;
 }
