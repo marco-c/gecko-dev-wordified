@@ -2564,9 +2564,6 @@ nsIMozIconURI
 aIconURI
 )
 {
-nsresult
-rv
-;
 GIcon
 *
 icon
@@ -2902,11 +2899,6 @@ if
 icon
 )
 {
-NS_SUCCEEDED
-(
-rv
-)
-;
 /
 /
 Use
@@ -3019,6 +3011,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+nsresult
 rv
 =
 ScaleIconBuf
