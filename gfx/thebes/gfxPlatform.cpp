@@ -3682,6 +3682,12 @@ gfxASurface
 :
 :
 SurfaceTypeD2D
+&
+&
+format
+!
+=
+FORMAT_A8
 )
 {
 NativeSurface
