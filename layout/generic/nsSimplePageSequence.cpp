@@ -4623,6 +4623,14 @@ height
 )
 )
 ;
+nsContainerFrame
+:
+:
+PositionChildViews
+(
+conFrame
+)
+;
 PR_PL
 (
 (
