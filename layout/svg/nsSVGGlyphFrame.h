@@ -951,7 +951,7 @@ GetCharNumAtPosition
 mozilla
 :
 :
-DOMSVGPoint
+nsISVGPoint
 *
 point
 )

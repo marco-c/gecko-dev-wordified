@@ -165,7 +165,7 @@ h
 #
 include
 "
-nsSVGTextContentElement
+SVGTextContentElement
 .
 h
 "
@@ -185,7 +185,13 @@ class
 nsXPCClassInfo
 ;
 typedef
-nsSVGTextContentElement
+mozilla
+:
+:
+dom
+:
+:
+SVGTextContentElement
 nsSVGTextPathElementBase
 ;
 class

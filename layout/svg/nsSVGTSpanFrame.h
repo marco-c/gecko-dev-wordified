@@ -172,7 +172,7 @@ namespace
 mozilla
 {
 class
-DOMSVGPoint
+nsISVGPoint
 ;
 }
 typedef
@@ -359,7 +359,7 @@ GetCharNumAtPosition
 mozilla
 :
 :
-DOMSVGPoint
+nsISVGPoint
 *
 point
 )
