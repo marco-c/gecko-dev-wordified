@@ -471,13 +471,6 @@ AccessibleApplication
 .
 h
 "
-#
-include
-"
-nsIXULAppInfo
-.
-h
-"
 class
 nsApplicationAccessibleWrap
 :
@@ -628,13 +621,6 @@ void
 Unload
 (
 )
-;
-private
-:
-static
-nsIXULAppInfo
-*
-sAppInfo
 ;
 }
 ;

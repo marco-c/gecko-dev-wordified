@@ -190,6 +190,15 @@ interfaces
 nsIAccessibleDocument
 ;
 const
+nsIAccessibleApplication
+=
+Components
+.
+interfaces
+.
+nsIAccessibleApplication
+;
+const
 nsIAccessibleText
 =
 Components
@@ -1836,6 +1845,11 @@ gAccRetrieval
 .
 getApplicationAccessible
 (
+)
+.
+QueryInterface
+(
+nsIAccessibleApplication
 )
 ;
 }

@@ -5681,11 +5681,9 @@ aAtkObj
 nsnull
 )
 ;
-nsRefPtr
-<
-nsApplicationAccessibleWrap
->
-appAccWrap
+nsApplicationAccessible
+*
+applicationAcc
 =
 nsAccessNode
 :
@@ -5704,11 +5702,7 @@ nsAccessibleWrap
 *
 >
 (
-appAccWrap
-.
-get
-(
-)
+applicationAcc
 )
 ;
 if

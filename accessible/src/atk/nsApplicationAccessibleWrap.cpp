@@ -2553,11 +2553,9 @@ return
 nsnull
 ;
 }
-nsRefPtr
-<
-nsApplicationAccessibleWrap
->
-root
+nsApplicationAccessible
+*
+applicationAcc
 =
 nsAccessNode
 :
@@ -2568,10 +2566,10 @@ GetApplicationAccessible
 ;
 if
 (
-root
+applicationAcc
 )
 return
-root
+applicationAcc
 -
 >
 GetAtkObject
