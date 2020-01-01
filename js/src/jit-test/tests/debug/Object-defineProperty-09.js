@@ -33,17 +33,6 @@ not
 a
 wrapper
 .
-load
-(
-libdir
-+
-"
-asserts
-.
-js
-"
-)
-;
 var
 g
 =
