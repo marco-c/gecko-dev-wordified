@@ -3325,6 +3325,11 @@ bNode
 )
 )
 {
+asContainer
+(
+bNode
+)
+;
 if
 (
 self
@@ -3573,7 +3578,6 @@ bNode
 title
 ;
 }
-else
 if
 (
 self
@@ -3602,7 +3606,6 @@ bNode
 .
 title
 ;
-else
 /
 /
 ignore
@@ -3809,7 +3812,6 @@ n
 "
 ;
 }
-else
 if
 (
 self
@@ -3820,6 +3822,11 @@ bNode
 )
 )
 {
+asContainer
+(
+bNode
+)
+;
 var
 wasOpen
 =
@@ -3932,7 +3939,6 @@ n
 "
 ;
 }
-else
 if
 (
 self
@@ -3973,7 +3979,6 @@ A
 n
 "
 ;
-else
 if
 (
 self
@@ -3992,7 +3997,6 @@ HR
 n
 "
 ;
-else
 return
 "
 "
@@ -4030,7 +4034,6 @@ nodeIsLivemarkContainer
 bNode
 )
 )
-{
 return
 self
 .
@@ -4045,8 +4048,6 @@ itemId
 .
 spec
 ;
-}
-else
 if
 (
 self
@@ -4057,6 +4058,11 @@ bNode
 )
 )
 {
+asContainer
+(
+bNode
+)
+;
 var
 wasOpen
 =
@@ -4160,7 +4166,6 @@ return
 childString
 ;
 }
-else
 if
 (
 self
@@ -4180,7 +4185,6 @@ bNode
 uri
 )
 ;
-else
 if
 (
 self
@@ -4214,7 +4218,6 @@ return
 -
 "
 ;
-else
 return
 "
 "
@@ -4759,7 +4762,7 @@ children
 ;
 txn
 =
-this
+self
 .
 ptm
 .
@@ -4768,7 +4771,7 @@ createFolder
 title
 -
 1
-aIndex
+index
 annos
 folderItemsTransactions
 )
@@ -4812,7 +4815,7 @@ site
 ;
 txn
 =
-this
+self
 .
 ptm
 .
@@ -4846,7 +4849,7 @@ TYPE_X_MOZ_PLACE_SEPARATOR
 )
 txn
 =
-this
+self
 .
 ptm
 .
@@ -4854,7 +4857,7 @@ createSeparator
 (
 -
 1
-aIndex
+index
 )
 ;
 else
