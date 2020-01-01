@@ -1932,6 +1932,17 @@ XPCCallContext
 ccx
 )
 {
+JS_CHECK_RECURSION
+(
+ccx
+.
+GetJSContext
+(
+)
+return
+JS_FALSE
+)
+;
 if
 (
 JSVAL_IS_INT
