@@ -5772,7 +5772,6 @@ hasInstance
 \
 JSTraceOp
 trace
-;
 /
 *
 *
