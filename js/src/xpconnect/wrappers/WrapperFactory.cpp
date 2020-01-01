@@ -701,7 +701,7 @@ NULL
 obj
 -
 >
-getParent
+getGlobal
 (
 )
 &
@@ -2694,7 +2694,7 @@ NULL
 obj
 -
 >
-getParent
+getGlobal
 (
 )
 &
