@@ -787,6 +787,9 @@ Bookmarks
 _ID
 Bookmarks
 .
+GUID
+Bookmarks
+.
 URL
 Bookmarks
 .
