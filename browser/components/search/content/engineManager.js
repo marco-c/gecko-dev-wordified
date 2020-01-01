@@ -1715,6 +1715,7 @@ if
 (
 selectedIndex
 >
+=
 0
 )
 {
