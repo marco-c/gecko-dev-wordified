@@ -537,6 +537,7 @@ return
 NS_OK
 ;
 }
+else
 NS_INTERFACE_MAP_END_INHERITING
 (
 EditTxn
