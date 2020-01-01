@@ -240,7 +240,7 @@ GetCairo
 cairo_set_font_size
 (
 cr
-10
+25
 )
 ;
 cairo_text_extents_t
@@ -312,7 +312,7 @@ gfxPoint
 gfxSize
 (
 textWidth
-15
+30
 )
 )
 )
@@ -364,7 +364,7 @@ gfxPoint
 gfxSize
 (
 textWidth
-15
+30
 )
 )
 )
@@ -385,7 +385,7 @@ cairo_move_to
 (
 cr
 4
-13
+28
 )
 ;
 cairo_show_text
