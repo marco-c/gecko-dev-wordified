@@ -6593,7 +6593,7 @@ if
 (
 argc
 <
-3
+2
 )
 {
 fprintf
@@ -6608,11 +6608,10 @@ dir
 -
 path
 >
-<
+[
 parent
 -
 pid
->
 [
 working
 -
@@ -6623,6 +6622,7 @@ args
 .
 .
 ]
+]
 \
 n
 "
@@ -6632,6 +6632,13 @@ return
 1
 ;
 }
+if
+(
+argc
+>
+2
+)
+{
 int
 pid
 =
@@ -6778,6 +6785,7 @@ status
 ;
 #
 endif
+}
 }
 #
 ifdef
