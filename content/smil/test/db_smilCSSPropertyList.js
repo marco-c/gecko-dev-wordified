@@ -1328,7 +1328,7 @@ rect
 stroke_dasharray
 :
 new
-AdditiveAttribute
+NonAdditiveAttribute
 (
 "
 stroke
