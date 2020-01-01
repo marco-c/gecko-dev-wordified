@@ -3442,6 +3442,7 @@ away
 .
 *
 /
+const
 DisplayItemClip
 *
 AllocateDisplayItemClip
