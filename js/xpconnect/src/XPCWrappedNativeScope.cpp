@@ -1741,7 +1741,7 @@ UndefinedValue
 nsresult
 rv
 =
-xpc_CreateSandboxObject
+CreateSandboxObject
 (
 cx
 v

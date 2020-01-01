@@ -3271,7 +3271,10 @@ this
 *
 _retval
 =
-xpc_CloneAllAccess
+xpc
+:
+:
+CloneAllAccess
 (
 )
 ;
@@ -3336,7 +3339,10 @@ nullptr
 *
 _retval
 =
-xpc_CheckAccessList
+xpc
+:
+:
+CheckAccessList
 (
 methodName
 allowed
@@ -3406,7 +3412,10 @@ nullptr
 *
 _retval
 =
-xpc_CheckAccessList
+xpc
+:
+:
+CheckAccessList
 (
 propertyName
 allowed
