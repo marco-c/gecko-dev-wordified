@@ -1490,7 +1490,9 @@ ShowTabCandy
 oncommand
 =
 "
-BrowserShowTabCandy
+TabCandy
+.
+show
 (
 )
 ;
