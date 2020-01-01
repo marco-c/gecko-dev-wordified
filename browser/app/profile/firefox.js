@@ -3451,7 +3451,7 @@ urlbar
 .
 autoFill
 "
-true
+false
 )
 ;
 /
@@ -3612,7 +3612,7 @@ urlbar
 .
 delay
 "
-0
+50
 )
 ;
 /
