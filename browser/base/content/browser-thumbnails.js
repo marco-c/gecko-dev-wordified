@@ -554,6 +554,15 @@ Thumbnails_shouldCapture
 aBrowser
 )
 {
+if
+(
+gPrivateBrowsingUI
+.
+privateBrowsingEnabled
+)
+return
+false
+;
 let
 doc
 =
