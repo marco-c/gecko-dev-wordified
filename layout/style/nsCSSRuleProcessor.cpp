@@ -17567,17 +17567,11 @@ aData
 PRInt32
 type
 =
-nsICSSRule
-:
-:
-UNKNOWN_RULE
-;
 aRule
 -
 >
 GetType
 (
-type
 )
 ;
 if
