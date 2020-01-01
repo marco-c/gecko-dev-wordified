@@ -544,7 +544,7 @@ mCARenderer
 (
 nsnull
 )
-mFBOTexture
+mPixelBuffer
 (
 nsnull
 )
@@ -744,8 +744,9 @@ void
 *
 mCARenderer
 ;
-GLuint
-mFBOTexture
+_CGLPBufferObject
+*
+mPixelBuffer
 ;
 _CGLContextObject
 *
