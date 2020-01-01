@@ -8507,8 +8507,6 @@ bug
 id
 =
 JSID_VOID
-(
-)
 ;
 i
 =
@@ -21571,8 +21569,6 @@ sp
 id
 =
 JSID_VOID
-(
-)
 ;
 i
 =
@@ -21689,8 +21685,6 @@ sp
 id
 =
 JSID_VOID
-(
-)
 ;
 i
 =

@@ -1226,7 +1226,8 @@ _MSC_VER
 *
 /
 /
-/
+*
+*
 We
 need
 this
@@ -1242,8 +1243,7 @@ t
 allow
 us
 to
-/
-/
+*
 make
 a
 16
@@ -1253,6 +1253,8 @@ enum
 in
 C
 .
+*
+/
 typedef
 uint16
 JSValueMask16

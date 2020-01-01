@@ -17385,8 +17385,6 @@ funidp
 funidp
 =
 JSID_VOID
-(
-)
 ;
 return
 JS_TRUE
@@ -17433,8 +17431,6 @@ funidp
 funidp
 =
 JSID_VOID
-(
-)
 ;
 return
 JS_TRUE
@@ -17785,8 +17781,6 @@ NULL
 funidp
 =
 JSID_VOID
-(
-)
 ;
 return
 ToAttributeName
@@ -27220,8 +27214,6 @@ out
 id
 =
 JSID_VOID
-(
-)
 ;
 primitiveAssign
 =

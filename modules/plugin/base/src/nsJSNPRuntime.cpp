@@ -992,7 +992,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -1009,7 +1009,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -1026,7 +1026,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -1043,7 +1043,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -1080,7 +1080,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 uintN
 flags
@@ -1174,7 +1174,7 @@ obj
 NPObject
 *
 npobj
-jsval
+jsid
 id
 NPVariant
 *
@@ -6016,7 +6016,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -6107,7 +6107,7 @@ npobj
 NPIdentifier
 identifier
 =
-JSValToNPIdentifier
+JSIdToNPIdentifier
 (
 id
 )
@@ -6230,7 +6230,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -6309,7 +6309,7 @@ npobj
 NPIdentifier
 identifier
 =
-JSValToNPIdentifier
+JSIdToNPIdentifier
 (
 id
 )
@@ -6395,7 +6395,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -6533,7 +6533,7 @@ npp
 NPIdentifier
 identifier
 =
-JSValToNPIdentifier
+JSIdToNPIdentifier
 (
 id
 )
@@ -6709,7 +6709,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -6869,7 +6869,7 @@ npv
 NPIdentifier
 identifier
 =
-JSValToNPIdentifier
+JSIdToNPIdentifier
 (
 id
 )
@@ -8306,7 +8306,7 @@ idp
 *
 idp
 =
-INT_TO_JSVAL
+INT_TO_JSID
 (
 length
 )
@@ -8354,10 +8354,10 @@ index
 length
 )
 {
-jsval
-val
+*
+idp
 =
-NPIdentifierToJSVal
+NPIdentifierToJSId
 (
 enum_value
 [
@@ -8371,14 +8371,7 @@ index
 )
 ;
 return
-:
-:
-JS_ValueToId
-(
-cx
-val
-idp
-)
+JS_TRUE
 ;
 }
 /
@@ -8440,7 +8433,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 uintN
 flags
@@ -8522,7 +8515,7 @@ npobj
 NPIdentifier
 identifier
 =
-JSValToNPIdentifier
+JSIdToNPIdentifier
 (
 id
 )
@@ -8563,7 +8556,7 @@ ok
 ;
 if
 (
-JSVAL_IS_STRING
+JSID_IS_STRING
 (
 id
 )
@@ -8573,7 +8566,7 @@ JSString
 *
 str
 =
-JSVAL_TO_STRING
+JSID_TO_STRING
 (
 id
 )
@@ -8615,7 +8608,7 @@ JS_DefineElement
 (
 cx
 obj
-JSVAL_TO_INT
+JSID_TO_INT
 (
 id
 )
@@ -8684,7 +8677,7 @@ nsnull
 ;
 if
 (
-JSVAL_IS_STRING
+JSID_IS_STRING
 (
 id
 )
@@ -8692,7 +8685,7 @@ id
 {
 str
 =
-JSVAL_TO_STRING
+JSID_TO_STRING
 (
 id
 )
@@ -8702,7 +8695,7 @@ else
 {
 NS_ASSERTION
 (
-JSVAL_IS_INT
+JSID_IS_INT
 (
 id
 )
@@ -8720,6 +8713,23 @@ n
 "
 )
 ;
+jsval
+idval
+;
+if
+(
+!
+JS_IdToValue
+(
+cx
+id
+&
+idval
+)
+)
+return
+JS_FALSE
+;
 str
 =
 :
@@ -8727,7 +8737,7 @@ str
 JS_ValueToString
 (
 cx
-id
+idval
 )
 ;
 if
@@ -10981,7 +10991,7 @@ obj
 NPObject
 *
 npobj
-jsval
+jsid
 id
 NPVariant
 *
@@ -11157,7 +11167,7 @@ memberPrivate
 NPIdentifier
 identifier
 =
-JSValToNPIdentifier
+JSIdToNPIdentifier
 (
 id
 )

@@ -6694,7 +6694,7 @@ aJSContext
 JSObject
 *
 obj
-jsval
+jsid
 id
 )
 {

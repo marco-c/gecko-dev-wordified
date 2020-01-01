@@ -5458,8 +5458,6 @@ list
 id
 =
 JSID_VOID
-(
-)
 ;
 next
 =
