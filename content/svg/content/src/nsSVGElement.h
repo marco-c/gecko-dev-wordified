@@ -1077,6 +1077,14 @@ aAttrEnum
 ;
 virtual
 void
+DidAnimateInteger
+(
+PRUint8
+aAttrEnum
+)
+;
+virtual
+void
 DidAnimateAngle
 (
 PRUint8
