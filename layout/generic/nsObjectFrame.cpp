@@ -382,13 +382,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIDocumentEncoder
 .
 h

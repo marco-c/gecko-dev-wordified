@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIDOMXULDocument
 .
 h

@@ -146,6 +146,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 /
 TouchList
@@ -1034,7 +1041,7 @@ i
 mChanged
 )
 {
-nsIDOMEventTarget
+EventTarget
 *
 targetPtr
 =

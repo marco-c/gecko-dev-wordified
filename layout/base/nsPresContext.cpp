@@ -456,13 +456,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsObjectFrame
 .
 h
@@ -12316,7 +12309,7 @@ HasPaintEventListeners
 return
 true
 ;
-nsIDOMEventTarget
+EventTarget
 *
 parentTarget
 =
@@ -12480,7 +12473,7 @@ do_QueryInterface
 parentTarget
 )
 ;
-nsIDOMEventTarget
+EventTarget
 *
 tabChildGlobal
 ;

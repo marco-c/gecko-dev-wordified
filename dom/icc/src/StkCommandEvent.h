@@ -113,12 +113,6 @@ StkCommandEvent
 >
 Create
 (
-mozilla
-:
-:
-dom
-:
-:
 EventTarget
 *
 aOwner
@@ -131,7 +125,7 @@ aMessage
 nsresult
 Dispatch
 (
-nsIDOMEventTarget
+EventTarget
 *
 aTarget
 const

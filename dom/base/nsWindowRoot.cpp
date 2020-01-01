@@ -408,7 +408,7 @@ DispatchDOMEvent
 (
 static_cast
 <
-nsIDOMEventTarget
+EventTarget
 *
 >
 (
@@ -463,7 +463,7 @@ DispatchDOMEvent
 (
 static_cast
 <
-nsIDOMEventTarget
+EventTarget
 *
 >
 (
@@ -754,7 +754,7 @@ nsEventListenerManager
 (
 static_cast
 <
-nsIDOMEventTarget
+EventTarget
 *
 >
 (
