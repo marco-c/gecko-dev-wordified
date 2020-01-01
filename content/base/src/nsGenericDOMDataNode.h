@@ -1902,6 +1902,9 @@ GetNodeParent
 ;
 return
 parent
+&
+&
+parent
 -
 >
 IsElement
