@@ -2135,10 +2135,7 @@ StackTypeSet
 *
 id
 =
-DropUnrooted
-(
 script
-)
 -
 >
 analysis
