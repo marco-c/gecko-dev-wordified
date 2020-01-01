@@ -613,7 +613,7 @@ _log
 =
 Log4Moz
 .
-Service
+repository
 .
 getLogger
 (

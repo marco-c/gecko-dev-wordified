@@ -1002,7 +1002,7 @@ logger
 =
 Log4Moz
 .
-Service
+repository
 .
 getLogger
 (
