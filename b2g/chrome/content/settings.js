@@ -473,6 +473,9 @@ Audio
 =
 =
 =
+#
+ifdef
+MOZ_WIDGET_GONK
 SettingsListener
 .
 observe
@@ -768,6 +771,8 @@ streamType
 )
 ;
 }
+#
+endif
 /
 /
 =
