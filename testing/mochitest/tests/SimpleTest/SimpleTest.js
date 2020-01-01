@@ -2124,7 +2124,7 @@ name
 message
 )
 {
-this
+SimpleTest
 .
 _logResult
 (
