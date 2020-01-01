@@ -13483,7 +13483,7 @@ answer
 JSBool
 ok
 ;
-JSFunction
+JSScriptedFunction
 *
 fun
 ;
@@ -13588,6 +13588,8 @@ c
 /
 fun
 =
+FUN_TO_SCRIPTED
+(
 GET_FUNCTION_PRIVATE
 (
 cx
@@ -13598,6 +13600,7 @@ pn_funpob
 -
 >
 object
+)
 )
 ;
 if
@@ -25311,7 +25314,7 @@ case
 TOK_FUNCTION
 :
 {
-JSFunction
+JSScriptedFunction
 *
 fun
 ;
@@ -25361,6 +25364,8 @@ break
 endif
 fun
 =
+FUN_TO_SCRIPTED
+(
 GET_FUNCTION_PRIVATE
 (
 cx
@@ -25372,16 +25377,13 @@ pn_funpob
 >
 object
 )
+)
 ;
 if
 (
 fun
 -
 >
-u
-.
-i
-.
 script
 )
 {

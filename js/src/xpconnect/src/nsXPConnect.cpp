@@ -3343,7 +3343,7 @@ gCollected
 }
 /
 /
-JSTRACE_FUNCTION
+JSTRACE_SCRIPTED_FUNCTION
 can
 hold
 on
@@ -3356,9 +3356,9 @@ adding
 it
 to
 the
+/
+/
 cycle
-/
-/
 collector
 reduces
 the
@@ -3413,7 +3413,7 @@ _kind
 )
 =
 =
-JSTRACE_FUNCTION
+JSTRACE_SCRIPTED_FUNCTION
 |
 |
 \

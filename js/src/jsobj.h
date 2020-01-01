@@ -3656,6 +3656,8 @@ proto
 JSObject
 *
 parent
+uintN
+extraBytes
 )
 ;
 /
@@ -3686,6 +3688,8 @@ proto
 JSObject
 *
 parent
+uintN
+extraBytes
 )
 ;
 /

@@ -484,7 +484,7 @@ JSTRACE_STRING
 ;
 #
 define
-JSTRACE_FUNCTION
+JSTRACE_SCRIPTED_FUNCTION
 3
 #
 define
@@ -566,10 +566,10 @@ JSString
 #
 define
 GCX_FUNCTION
-JSTRACE_FUNCTION
+JSTRACE_SCRIPTED_FUNCTION
 /
 *
-JSFunction
+JSScriptedFunction
 *
 /
 #
@@ -1609,7 +1609,8 @@ kind
 )
 <
 =
-JSTRACE_FUNCTION
+\
+JSTRACE_SCRIPTED_FUNCTION
 )
 #
 endif
@@ -1619,14 +1620,14 @@ endif
 JS_IS_VALID_TRACE_KIND
 assumes
 that
-JSTRACE_FUNCTION
+JSTRACE_SCRIPTED_FUNCTION
 is
 the
 last
+*
 non
 -
 xml
-*
 trace
 kind
 when
@@ -1638,7 +1639,7 @@ false
 /
 JS_STATIC_ASSERT
 (
-JSTRACE_FUNCTION
+JSTRACE_SCRIPTED_FUNCTION
 +
 1
 =
