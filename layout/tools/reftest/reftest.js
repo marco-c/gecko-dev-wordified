@@ -2245,6 +2245,7 @@ evaluation
 var
 sandbox
 =
+new
 Components
 .
 utils
