@@ -13452,6 +13452,7 @@ mForm
 RemoveElement
 (
 this
+true
 aNotify
 )
 ;
@@ -14570,6 +14571,7 @@ mForm
 RemoveElement
 (
 this
+false
 aNotify
 )
 ;
@@ -14925,6 +14927,7 @@ mForm
 AddElement
 (
 this
+false
 aNotify
 )
 ;
@@ -16744,6 +16747,7 @@ mForm
 AddElement
 (
 this
+true
 !
 hadForm
 )

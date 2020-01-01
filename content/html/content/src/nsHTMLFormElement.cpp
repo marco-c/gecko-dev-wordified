@@ -5850,6 +5850,8 @@ AddElement
 nsGenericHTMLFormElement
 *
 aChild
+bool
+aUpdateValidity
 PRBool
 aNotify
 )
@@ -6734,6 +6736,11 @@ our
 internal
 counter
 .
+if
+(
+aUpdateValidity
+)
+{
 nsCOMPtr
 <
 nsIConstraintValidation
@@ -6780,6 +6787,7 @@ PR_FALSE
 )
 ;
 }
+}
 return
 NS_OK
 ;
@@ -6819,6 +6827,8 @@ RemoveElement
 nsGenericHTMLFormElement
 *
 aChild
+bool
+aUpdateValidity
 PRBool
 aNotify
 )
@@ -7219,6 +7229,11 @@ our
 internal
 counter
 .
+if
+(
+aUpdateValidity
+)
+{
 nsCOMPtr
 <
 nsIConstraintValidation
@@ -7264,6 +7279,7 @@ UpdateValidity
 PR_TRUE
 )
 ;
+}
 }
 return
 rv
