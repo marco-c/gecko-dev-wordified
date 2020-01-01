@@ -3765,17 +3765,6 @@ MBasicBlock
 fallbackTarget
 )
 ;
-bool
-anyFunctionIsCloneAtCallsite
-(
-types
-:
-:
-StackTypeSet
-*
-funTypes
-)
-;
 MDefinition
 *
 makeCallsiteClone

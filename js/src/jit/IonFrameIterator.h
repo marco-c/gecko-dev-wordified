@@ -816,12 +816,6 @@ isConstructing
 )
 const
 ;
-bool
-isEntryJSFrame
-(
-)
-const
-;
 void
 *
 calleeToken
@@ -867,13 +861,6 @@ jsbytecode
 *
 *
 pcRes
-)
-const
-;
-Value
-*
-nativeVp
-(
 )
 const
 ;
