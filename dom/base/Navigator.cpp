@@ -158,7 +158,11 @@ h
 #
 include
 "
-nsDesktopNotification
+mozilla
+/
+dom
+/
+DesktopNotification
 .
 h
 "
@@ -7140,7 +7144,7 @@ NS_ERROR_FAILURE
 mNotification
 =
 new
-nsDesktopNotificationCenter
+DesktopNotificationCenter
 (
 win
 )
@@ -10559,7 +10563,7 @@ SizeOfIncludingThis
 (
 )
 to
-nsDesktopNotificationCenter
+DesktopNotificationCenter
 bug
 674116
 .

@@ -473,7 +473,11 @@ h
 #
 include
 "
-nsDesktopNotification
+mozilla
+/
+dom
+/
+DesktopNotification
 .
 h
 "

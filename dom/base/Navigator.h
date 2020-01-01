@@ -263,9 +263,6 @@ class
 nsGeolocation
 ;
 class
-nsDesktopNotificationCenter
-;
-class
 nsPIDOMWindow
 ;
 class
@@ -515,6 +512,9 @@ BatteryManager
 /
 namespace
 battery
+class
+DesktopNotificationCenter
+;
 class
 SmsManager
 ;
@@ -854,7 +854,7 @@ mGeolocation
 ;
 nsRefPtr
 <
-nsDesktopNotificationCenter
+DesktopNotificationCenter
 >
 mNotification
 ;
