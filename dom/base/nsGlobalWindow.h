@@ -4146,11 +4146,6 @@ aReturn
 )
 ;
 nsresult
-ClearTimeoutOrInterval
-(
-)
-;
-nsresult
 ResetTimersForNonBackgroundWindow
 (
 )
