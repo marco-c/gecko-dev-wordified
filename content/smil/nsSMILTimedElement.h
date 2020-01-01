@@ -3479,10 +3479,8 @@ Unlink
 Hashtable
 callback
 methods
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 NotifyNewIntervalCallback
 (
 TimeValueSpecPtrKey

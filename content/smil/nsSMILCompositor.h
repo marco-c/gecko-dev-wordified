@@ -647,10 +647,8 @@ aBaseValue
 Static
 callback
 methods
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 DoComposeAttribute
 (
 nsSMILCompositor

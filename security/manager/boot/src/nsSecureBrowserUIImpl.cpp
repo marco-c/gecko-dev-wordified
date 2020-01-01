@@ -496,10 +496,8 @@ r
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 bool
-)
 RequestMapMatchEntry
 (
 PLDHashTable
@@ -540,10 +538,8 @@ r
 key
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 bool
-)
 RequestMapInitEntry
 (
 PLDHashTable
