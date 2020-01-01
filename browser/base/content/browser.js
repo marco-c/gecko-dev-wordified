@@ -28647,6 +28647,8 @@ _hostChanged
 #
 ifdef
 DEBUG
+try
+{
 var
 contentHost
 =
@@ -28725,6 +28727,13 @@ n
 "
 )
 ;
+}
+}
+catch
+(
+ex
+)
+{
 }
 #
 endif
