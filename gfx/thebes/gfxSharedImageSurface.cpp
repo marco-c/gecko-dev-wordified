@@ -492,6 +492,7 @@ ipc
 SharedMemory
 ;
 static
+const
 cairo_user_data_key_t
 SHM_KEY
 ;
