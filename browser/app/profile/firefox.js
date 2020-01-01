@@ -13411,13 +13411,13 @@ ui
 .
 variables
 -
-non
+only
 -
 enum
 -
 visible
 "
-true
+false
 )
 ;
 pref
