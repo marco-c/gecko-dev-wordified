@@ -2825,7 +2825,7 @@ well
 /
 /
 We
-achive
+achieve
 that
 by
 generating
@@ -2848,6 +2848,11 @@ listeners
 .
 if
 (
+this
+.
+activeThread
+&
+&
 aPacket
 .
 type
