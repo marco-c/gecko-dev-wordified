@@ -802,7 +802,6 @@ sendKey
 "
 ESCAPE
 "
-window
 )
 ;
 is
