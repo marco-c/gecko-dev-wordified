@@ -5871,9 +5871,6 @@ i
 continue
 ;
 case
-FRAMESET_OK
-:
-case
 IN_HEAD
 :
 case
@@ -5907,6 +5904,9 @@ node
 continue
 ;
 case
+FRAMESET_OK
+:
+case
 IN_BODY
 :
 case
@@ -5915,14 +5915,6 @@ IN_CELL
 case
 IN_CAPTION
 :
-/
-/
-XXX
-is
-this
-dead
-code
-?
 if
 (
 start
