@@ -1142,6 +1142,7 @@ lib
 .
 LoadPlugin
 (
+&
 mLibrary
 )
 ;
