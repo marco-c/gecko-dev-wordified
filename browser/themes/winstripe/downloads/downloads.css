@@ -171,6 +171,7 @@ downloadsPanel
 [
 hasdownloads
 ]
+>
 #
 downloadsFooter
 {
@@ -1006,6 +1007,9 @@ state
 ]
 :
 hover
+>
+stack
+>
 .
 downloadButton
 .
@@ -1044,6 +1048,9 @@ state
 ]
 :
 hover
+>
+stack
+>
 .
 downloadButton
 .
@@ -1084,6 +1091,9 @@ state
 ]
 :
 hover
+>
+stack
+>
 .
 downloadButton
 .
