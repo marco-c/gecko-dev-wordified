@@ -9428,7 +9428,7 @@ fp
 )
 -
 >
-setAssignedReturnValue
+setReturnValue
 (
 rval
 )
@@ -9652,7 +9652,7 @@ fp
 )
 -
 >
-setAssignedReturnValue
+setReturnValue
 (
 rval
 )
