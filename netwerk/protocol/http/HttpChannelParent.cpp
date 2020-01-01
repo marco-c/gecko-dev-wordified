@@ -213,9 +213,10 @@ Original
 Code
 is
 *
-The
+the
 Mozilla
 Foundation
+.
 *
 Portions
 created
@@ -3908,6 +3909,9 @@ if
 !
 mIPCClosed
 )
+unused
+<
+<
 SendDeleteSelf
 (
 )
