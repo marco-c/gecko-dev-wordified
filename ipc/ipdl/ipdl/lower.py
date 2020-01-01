@@ -10318,18 +10318,29 @@ p
 return
 True
     
-for
-mgd
-in
+ptype
+=
 p
 .
 decl
 .
 type
+    
+for
+mgd
+in
+ptype
 .
 manages
 :
         
+if
+ptype
+is
+not
+mgd
+:
+            
 if
 _subtreeUsesShmem
 (
@@ -10338,7 +10349,7 @@ mgd
 _p
 )
 :
-            
+                
 return
 True
     
@@ -19515,6 +19526,13 @@ ptype
 manages
 :
             
+if
+mtype
+is
+not
+ptype
+:
+                
 self
 .
 walkDownTheProtocolTree
@@ -20925,6 +20943,29 @@ ptype
 manages
 )
         
+#
+don
+'
+t
+friend
+ourself
+if
+we
+'
+re
+a
+self
+-
+managed
+protocol
+        
+friends
+.
+discard
+(
+ptype
+)
+        
 for
 friend
 in
@@ -21243,6 +21284,16 @@ ptype
 isManagerOf
 (
 managed
+)
+or
+md
+.
+decl
+.
+type
+.
+isDtor
+(
 )
 :
                 
