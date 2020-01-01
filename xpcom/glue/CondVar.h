@@ -493,10 +493,9 @@ reason
 Monitor
 provides
 a
-better
+simpler
 API
 .
-*
 *
 /
 class
