@@ -4875,6 +4875,12 @@ aTargetNode
 =
 =
 mDOMNode
+&
+&
+mDOMNode
+!
+=
+gLastFocusedNode
 )
 {
 /
