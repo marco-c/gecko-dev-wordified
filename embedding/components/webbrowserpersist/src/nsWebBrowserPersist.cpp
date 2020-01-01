@@ -5344,9 +5344,12 @@ Read
 buffer
 NS_MIN
 (
+PRUint32
+(
 sizeof
 (
 buffer
+)
 )
 bytesRemaining
 )
