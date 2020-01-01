@@ -656,7 +656,7 @@ ExecuteScript
 void
 *
 aScriptObject
-void
+JSObject
 *
 aScopeObject
 nsAString
