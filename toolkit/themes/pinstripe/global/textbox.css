@@ -823,6 +823,16 @@ font
 inherit
 ;
 }
+.
+textbox
+-
+contextmenu
+{
+cursor
+:
+default
+;
+}
 /
 *
 .
