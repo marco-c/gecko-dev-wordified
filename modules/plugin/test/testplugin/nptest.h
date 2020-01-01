@@ -534,10 +534,6 @@ functionToFail
 NPError
 failureCode
 ;
-NPObject
-*
-callOnDestroy
-;
 PostMode
 postMode
 ;
@@ -607,16 +603,6 @@ notifyDidPaint
 InstanceData
 *
 instanceData
-)
-;
-void
-NoteIntentionalCrash
-(
-)
-;
-void
-IntentionalCrash
-(
 )
 ;
 #
