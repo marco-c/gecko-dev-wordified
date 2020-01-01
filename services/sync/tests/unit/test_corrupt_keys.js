@@ -192,6 +192,8 @@ js
 "
 )
 ;
+add_test
+(
 function
 test_locally_changed_keys
 (
@@ -314,10 +316,6 @@ Weave
 Service
 .
 handleHMACEvent
-)
-;
-do_test_pending
-(
 )
 ;
 let
@@ -2171,11 +2169,13 @@ server
 .
 stop
 (
-do_test_finished
+run_next_test
 )
 ;
 }
 }
+)
+;
 function
 run_test
 (
@@ -2206,7 +2206,7 @@ DumpAppender
 )
 )
 ;
-test_locally_changed_keys
+run_next_test
 (
 )
 ;
