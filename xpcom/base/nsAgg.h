@@ -807,6 +807,8 @@ void
 ;
 \
 \
+NS_DECL_OWNINGTHREAD
+\
 }
 ;
 \
@@ -1079,6 +1081,12 @@ refcnt
 )
 ;
 \
+NS_ASSERT_OWNINGTHREAD
+(
+_class
+)
+;
+\
 +
 +
 agg
@@ -1170,6 +1178,12 @@ mRefCnt
 dup
 release
 "
+)
+;
+\
+NS_ASSERT_OWNINGTHREAD
+(
+_class
 )
 ;
 \
