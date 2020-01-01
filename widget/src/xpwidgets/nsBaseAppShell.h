@@ -583,10 +583,6 @@ ScheduleNativeEventCallback
 void
 NativeEventCallback
 (
-PRBool
-aAlwaysBlockNative
-=
-PR_FALSE
 )
 ;
 /
