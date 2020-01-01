@@ -707,9 +707,6 @@ const
 OptionalURIParams
 &
 aReferrer
-PBrowserChild
-*
-aBrowser
 )
 ;
 virtual
