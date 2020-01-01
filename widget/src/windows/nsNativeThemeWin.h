@@ -816,6 +816,9 @@ mComboBoxTheme
 HANDLE
 mHeaderTheme
 ;
+HANDLE
+mMenuTheme
+;
 BOOL
 mFlatMenus
 ;

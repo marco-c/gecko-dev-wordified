@@ -3680,6 +3680,16 @@ menuarrow
 )
 CSS_KEY
 (
+menuimage
+menuimage
+)
+CSS_KEY
+(
+menuitemtext
+menuitemtext
+)
+CSS_KEY
+(
 menulist
 menulist
 )
