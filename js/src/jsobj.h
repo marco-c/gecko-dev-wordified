@@ -7627,6 +7627,8 @@ uint32
 slot
 )
 ;
+public
+:
 bool
 reportReadOnly
 (
