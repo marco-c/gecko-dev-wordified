@@ -1919,14 +1919,14 @@ if
 pi
 )
 {
-nsPluginPrint
+NPPrint
 npprint
 ;
 npprint
 .
 mode
 =
-nsPluginMode_Full
+NP_FULL
 ;
 npprint
 .

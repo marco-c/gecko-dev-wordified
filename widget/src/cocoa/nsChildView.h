@@ -3136,8 +3136,11 @@ is
 a
 CoreGraphics
 plugin
-nsPluginPort
-mPluginPort
+NP_CGContext
+mPluginCGContext
+;
+NP_Port
+mPluginQDPort
 ;
 nsIPluginInstanceOwner
 *

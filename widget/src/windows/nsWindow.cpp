@@ -1621,7 +1621,7 @@ support
 #
 include
 "
-nsplugindefs
+npapi
 .
 h
 "
@@ -20910,7 +20910,7 @@ aModKeyState
 .
 mIsAltDown
 ;
-nsPluginEvent
+NPEvent
 pluginEvent
 ;
 if
@@ -21532,7 +21532,7 @@ event
 point
 )
 ;
-nsPluginEvent
+NPEvent
 pluginEvent
 ;
 pluginEvent
@@ -22248,7 +22248,7 @@ clickCount
 ;
 #
 endif
-nsPluginEvent
+NPEvent
 pluginEvent
 ;
 switch
@@ -23077,7 +23077,7 @@ y
 =
 0
 ;
-nsPluginEvent
+NPEvent
 pluginEvent
 ;
 switch

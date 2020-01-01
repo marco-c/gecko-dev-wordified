@@ -582,7 +582,7 @@ nsnull
 endif
 type
 =
-nsPluginWindowType_Window
+NPWindowTypeWindow
 ;
 }
 nsPluginNativeWindowPLATFORM

@@ -645,7 +645,7 @@ support
 #
 include
 "
-nsplugindefs
+npapi
 .
 h
 "
