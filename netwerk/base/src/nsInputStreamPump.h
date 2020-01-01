@@ -669,7 +669,7 @@ onStopRequest
 /
 NS_HIDDEN_
 (
-void
+nsresult
 )
 PeekStream
 (
