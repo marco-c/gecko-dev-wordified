@@ -788,9 +788,9 @@ XBL
 NS_IMETHOD
 AttachGlobalKeyHandler
 (
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 *
-aElement
+aTarget
 )
 ;
 NS_DECL_NSIOBSERVER

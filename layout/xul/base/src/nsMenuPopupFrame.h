@@ -491,7 +491,7 @@ h
 #
 include
 "
-nsIDOMEventReceiver
+nsIDOMEventTarget
 .
 h
 "
@@ -1566,7 +1566,7 @@ about
 key
 events
 .
-nsIDOMEventReceiver
+nsIDOMEventTarget
 *
 mTarget
 ;

@@ -499,7 +499,7 @@ h
 #
 include
 "
-nsIDOMEventReceiver
+nsIDOMEventTarget
 .
 h
 "
@@ -5357,9 +5357,9 @@ handlerChain
 {
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-receiver
+piTarget
 =
 do_QueryInterface
 (
@@ -5374,7 +5374,7 @@ target
 =
 do_QueryInterface
 (
-receiver
+piTarget
 )
 ;
 nsCOMPtr
@@ -5586,7 +5586,7 @@ if
 !
 systemEventGroup
 )
-receiver
+piTarget
 -
 >
 GetSystemEventGroup
@@ -5783,7 +5783,7 @@ if
 !
 systemEventGroup
 )
-receiver
+piTarget
 -
 >
 GetSystemEventGroup
