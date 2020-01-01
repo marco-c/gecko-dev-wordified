@@ -590,13 +590,6 @@ h
 #
 include
 "
-nsIPrivateDOMImplementation
-.
-h
-"
-#
-include
-"
 nsIDOMXULElement
 .
 h
