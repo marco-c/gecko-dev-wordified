@@ -1498,7 +1498,7 @@ checker
 (
 stmt
 .
-step
+executeStep
 (
 )
 )
