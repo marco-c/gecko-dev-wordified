@@ -710,8 +710,14 @@ defined
 (
 WIN32
 )
+|
+|
+defined
+(
+OS2
+)
 /
-/
+*
 (
 left
 <
@@ -726,6 +732,8 @@ bits
 per
 channel
 )
+*
+/
 #
 define
 SA_VOLUME_MUTED
