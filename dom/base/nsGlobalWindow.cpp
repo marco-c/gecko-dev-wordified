@@ -206,13 +206,6 @@ h
 #
 include
 "
-nsBarProps
-.
-h
-"
-#
-include
-"
 nsIDOMStorage
 .
 h
@@ -488,6 +481,17 @@ h
 include
 "
 nsGeolocation
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+BarProps
 .
 h
 "
@@ -20859,7 +20863,7 @@ mMenubar
 mMenubar
 =
 new
-nsMenubarProp
+MenubarProp
 (
 this
 )
@@ -20922,7 +20926,7 @@ mToolbar
 mToolbar
 =
 new
-nsToolbarProp
+ToolbarProp
 (
 this
 )
@@ -20985,7 +20989,7 @@ mLocationbar
 mLocationbar
 =
 new
-nsLocationbarProp
+LocationbarProp
 (
 this
 )
@@ -21048,7 +21052,7 @@ mPersonalbar
 mPersonalbar
 =
 new
-nsPersonalbarProp
+PersonalbarProp
 (
 this
 )
@@ -21111,7 +21115,7 @@ mStatusbar
 mStatusbar
 =
 new
-nsStatusbarProp
+StatusbarProp
 (
 this
 )
@@ -21174,7 +21178,7 @@ mScrollbars
 mScrollbars
 =
 new
-nsScrollbarsProp
+ScrollbarsProp
 (
 this
 )
