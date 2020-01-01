@@ -1031,8 +1031,9 @@ aContainer
 nsIFrame
 *
 aChildFrame
-PRInt32
-aIndex
+nsIContent
+*
+aOldNextSibling
 )
 ;
 void
