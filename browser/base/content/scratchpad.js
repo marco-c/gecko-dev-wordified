@@ -1819,10 +1819,10 @@ context
 .
 *
 /
-execute
+run
 :
 function
-SP_execute
+SP_run
 (
 )
 {
@@ -1917,7 +1917,7 @@ result
 =
 this
 .
-execute
+run
 (
 )
 ;
@@ -1963,10 +1963,8 @@ The
 evaluation
 result
 is
-"
-printed
-"
-in
+inserted
+into
 the
 textbox
 after
@@ -1992,10 +1990,10 @@ text
 .
 *
 /
-print
+display
 :
 function
-SP_print
+SP_display
 (
 )
 {
@@ -2044,7 +2042,7 @@ result
 =
 this
 .
-execute
+run
 (
 )
 ;

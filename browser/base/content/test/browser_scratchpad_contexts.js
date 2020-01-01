@@ -387,7 +387,7 @@ foobarBug636725
 ;
 sp
 .
-execute
+run
 (
 )
 ;
@@ -532,7 +532,7 @@ foobarBug636725
 ;
 sp
 .
-execute
+run
 (
 )
 ;
@@ -571,7 +571,7 @@ is
 typeof
 sp
 .
-execute
+run
 (
 )
 [
@@ -618,7 +618,7 @@ is
 (
 sp
 .
-execute
+run
 (
 )
 [
@@ -654,7 +654,7 @@ foo
 ;
 sp
 .
-execute
+run
 (
 )
 ;
@@ -674,7 +674,7 @@ is
 (
 sp
 .
-execute
+run
 (
 )
 [
@@ -704,7 +704,7 @@ is
 (
 sp
 .
-execute
+run
 (
 )
 [
@@ -745,7 +745,7 @@ foo
 ;
 sp
 .
-execute
+run
 (
 )
 ;
@@ -765,7 +765,7 @@ is
 (
 sp
 .
-execute
+run
 (
 )
 [
@@ -810,7 +810,7 @@ is
 (
 sp
 .
-execute
+run
 (
 )
 [

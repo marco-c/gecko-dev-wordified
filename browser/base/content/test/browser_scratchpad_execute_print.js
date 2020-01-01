@@ -142,11 +142,11 @@ html
 p
 >
 test
-execute
+run
 (
 )
 and
-print
+display
 (
 )
 in
@@ -217,7 +217,7 @@ exec
 =
 sp
 .
-execute
+run
 (
 )
 ;
@@ -315,7 +315,7 @@ foobarBug636725
 ;
 sp
 .
-print
+display
 (
 )
 ;
@@ -547,7 +547,7 @@ exec
 =
 sp
 .
-execute
+run
 (
 )
 ;
@@ -705,7 +705,7 @@ selectRange
 ;
 sp
 .
-print
+display
 (
 )
 ;
