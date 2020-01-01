@@ -3688,6 +3688,11 @@ browser
 contentDocument
 .
 title
+|
+|
+bookmarkURI
+.
+spec
 ;
 if
 (
