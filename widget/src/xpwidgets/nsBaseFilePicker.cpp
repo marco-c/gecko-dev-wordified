@@ -953,6 +953,14 @@ stringService
 do_GetService
 (
 NS_STRINGBUNDLE_CONTRACTID
+&
+rv
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 nsCOMPtr
