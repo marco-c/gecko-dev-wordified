@@ -143,6 +143,12 @@ mach
 settings
 import
 Settings
+from
+mach
+.
+testing
+import
+Testing
 #
 Classes
 inheriting
@@ -157,6 +163,8 @@ HANDLERS
 [
     
 Settings
+    
+Testing
 ]
 #
 Classes
@@ -332,6 +340,16 @@ list
 of
 all
 commands
+.
+    
+%
+(
+prog
+)
+s
+test
+Run
+tests
 .
 To
 see
