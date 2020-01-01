@@ -3603,6 +3603,10 @@ mUseShadowClipRect
 (
 false
 )
+mShadowTransformSetByAnimation
+(
+false
+)
 mDestroyed
 (
 false

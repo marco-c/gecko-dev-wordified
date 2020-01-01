@@ -2579,6 +2579,14 @@ GetBaseTransform
 layerComposite
 -
 >
+SetShadowTransformSetByAnimation
+(
+false
+)
+;
+layerComposite
+-
+>
 SetShadowVisibleRegion
 (
 aLayer
