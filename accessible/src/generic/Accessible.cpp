@@ -13609,8 +13609,10 @@ IsDefunct
 )
 return
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 mDoc
@@ -13650,8 +13652,7 @@ nsIPresShell
 SCROLL_OVERFLOW_HIDDEN
 )
 ;
-nsIFrame
-*
+nsWeakFrame
 frame
 =
 aContent
@@ -13710,8 +13711,10 @@ GetSize
 (
 )
 ;
+nsRefPtr
+<
 nsPresContext
-*
+>
 presContext
 =
 presShell
