@@ -699,6 +699,9 @@ atom
 JSHashNumber
 )
 (
+jsuword
+)
+(
 atom
 )
 >
