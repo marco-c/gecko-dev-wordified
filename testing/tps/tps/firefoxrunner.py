@@ -62,15 +62,7 @@ os
 import
 shutil
 import
-sys
-import
 mozinstall
-from
-mozprocess
-.
-pid
-import
-get_pids
 from
 mozprofile
 import
