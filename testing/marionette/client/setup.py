@@ -12,7 +12,7 @@ version
 .
 5
 .
-25
+26
 '
 #
 get
@@ -88,7 +88,7 @@ mozhttpd
 =
 0
 .
-3
+5
 '
         
 '
@@ -97,7 +97,7 @@ mozprocess
 =
 0
 .
-6
+9
 '
 '
 mozrunner
@@ -105,7 +105,7 @@ mozrunner
 =
 5
 .
-11
+15
 '
         
 '
@@ -114,7 +114,7 @@ mozdevice
 =
 0
 .
-12
+22
 '
 '
 moznetwork
@@ -132,6 +132,14 @@ mozcrash
 0
 .
 5
+'
+'
+mozprofile
+>
+=
+0
+.
+7
 '
 ]
 setup
