@@ -206,6 +206,10 @@ const
 PRUint32
 &
 stateEvent
+const
+PRUint64
+&
+byteProgress
 )
 ;
 virtual
@@ -397,6 +401,9 @@ nsCOMPtr
 nsIDOMWindow
 >
 mWindow
+;
+PRUint64
+mByteProgress
 ;
 }
 ;

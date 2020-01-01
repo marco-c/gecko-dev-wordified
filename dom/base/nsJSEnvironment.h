@@ -556,6 +556,9 @@ CreateNativeGlobalForInner
 nsIScriptGlobalObject
 *
 aGlobal
+nsIURI
+*
+aURI
 bool
 aIsChrome
 nsIPrincipal

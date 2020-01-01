@@ -1503,6 +1503,14 @@ DOMCI_CLASS
 (
 MessageEvent
 )
+DOMCI_CLASS
+(
+DeviceStorage
+)
+DOMCI_CLASS
+(
+DeviceStorageCursor
+)
 /
 /
 Geolocation
@@ -1860,7 +1868,7 @@ CustomEvent
 )
 DOMCI_CLASS
 (
-MozMutationObserver
+MutationObserver
 )
 DOMCI_CLASS
 (

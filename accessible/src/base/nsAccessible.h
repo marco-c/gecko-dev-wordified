@@ -2819,7 +2819,7 @@ AsHTMLListItem
 ;
 inline
 bool
-IsImageAccessible
+IsImage
 (
 )
 const

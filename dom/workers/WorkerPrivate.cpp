@@ -9425,7 +9425,7 @@ Derived
 >
 :
 :
-_Trace
+_trace
 (
 JSTracer
 *
@@ -9475,7 +9475,7 @@ worker
 EventTarget
 :
 :
-_Trace
+_trace
 (
 aTrc
 )
@@ -9493,7 +9493,7 @@ Derived
 >
 :
 :
-_Finalize
+_finalize
 (
 JSFreeOp
 *
@@ -9650,7 +9650,7 @@ this
 EventTarget
 :
 :
-_Finalize
+_finalize
 (
 aFop
 )

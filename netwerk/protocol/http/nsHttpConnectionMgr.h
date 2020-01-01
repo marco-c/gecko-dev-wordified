@@ -2918,6 +2918,15 @@ mSpeculative
 val
 ;
 }
+bool
+HasConnected
+(
+)
+{
+return
+mHasConnected
+;
+}
 private
 :
 nsConnectionEntry
@@ -3086,6 +3095,9 @@ nsCOMPtr
 nsIAsyncInputStream
 >
 mBackupStreamIn
+;
+bool
+mHasConnected
 ;
 }
 ;

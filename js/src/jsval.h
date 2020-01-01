@@ -1657,6 +1657,9 @@ why
 size_t
 word
 ;
+uintptr_t
+uintptr
+;
 }
 payload
 ;
@@ -1764,6 +1767,9 @@ asPtr
 size_t
 asWord
 ;
+uintptr_t
+asUIntPtr
+;
 }
 JSVAL_ALIGNMENT
 jsval_layout
@@ -1831,6 +1837,9 @@ why
 ;
 size_t
 word
+;
+uintptr_t
+uintptr
 ;
 }
 payload
@@ -1908,6 +1917,9 @@ asPtr
 ;
 size_t
 asWord
+;
+uintptr_t
+asUIntPtr
 ;
 }
 JSVAL_ALIGNMENT
