@@ -10984,7 +10984,7 @@ cx
 (
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -11013,7 +11013,7 @@ ReceiveMessage
 (
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -11779,7 +11779,7 @@ return
 NS_OK
 ;
 }
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 nsFrameLoader
 :

@@ -2944,7 +2944,7 @@ GetWindow
 (
 )
 ;
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 target
 =

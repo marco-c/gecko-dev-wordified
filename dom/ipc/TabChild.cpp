@@ -3834,7 +3834,7 @@ ReceiveMessage
 (
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -4343,7 +4343,7 @@ scopeSupports
 =
 NS_ISUPPORTS_CAST
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 scope
 )

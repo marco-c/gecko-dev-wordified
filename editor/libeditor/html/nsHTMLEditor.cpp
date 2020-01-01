@@ -2611,7 +2611,7 @@ return
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 =
@@ -35402,7 +35402,7 @@ PR_TRUE
 }
 already_AddRefed
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 nsHTMLEditor
 :
@@ -35466,7 +35466,7 @@ yet
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 =

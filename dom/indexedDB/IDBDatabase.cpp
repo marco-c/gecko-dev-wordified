@@ -3707,7 +3707,7 @@ Create
 (
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -4878,7 +4878,7 @@ WrapNative
 aCx
 NS_ISUPPORTS_CAST
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 mTransaction
 )

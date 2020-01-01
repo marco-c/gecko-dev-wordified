@@ -622,7 +622,7 @@ false
 ;
 /
 /
-nsPIDOMEventTarget
+nsIDOMEventTarget
 virtual
 nsresult
 PreHandleEvent

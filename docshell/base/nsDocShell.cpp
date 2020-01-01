@@ -11002,7 +11002,7 @@ aChromeEventHandler
 {
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 =

@@ -741,7 +741,7 @@ DispatchDOMEvent
 (
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -796,7 +796,7 @@ DispatchDOMEvent
 (
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -1200,7 +1200,7 @@ SetListenerTarget
 (
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -1911,7 +1911,7 @@ NS_NewWindowRoot
 nsPIDOMWindow
 *
 aWindow
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 *
 aResult

@@ -855,7 +855,7 @@ h
 #
 include
 "
-nsPIDOMEventTarget
+nsIDOMEventTarget
 .
 h
 "
@@ -5111,7 +5111,7 @@ mTreeOwner
 /
 Weak
 Reference
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 mChromeEventHandler
 ;

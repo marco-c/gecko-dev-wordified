@@ -484,7 +484,7 @@ h
 #
 include
 "
-nsPIDOMEventTarget
+nsIDOMEventTarget
 .
 h
 "
@@ -808,7 +808,7 @@ return
 mIsBackground
 ;
 }
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 GetChromeEventHandler
 (
@@ -823,14 +823,14 @@ virtual
 void
 SetChromeEventHandler
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aChromeEventHandler
 )
 =
 0
 ;
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 GetParentTarget
 (
@@ -3198,7 +3198,7 @@ nsPIDOMWindow
 void
 SetChromeEventHandlerInternal
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aChromeEventHandler
 )
@@ -3275,7 +3275,7 @@ sync
 !
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 mChromeEventHandler
 ;
@@ -3293,7 +3293,7 @@ mDocument
 strong
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 mParentTarget
 ;

@@ -1158,7 +1158,7 @@ return
 mDocShell
 ;
 }
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 GetTabChildGlobalAsEventTarget
 (

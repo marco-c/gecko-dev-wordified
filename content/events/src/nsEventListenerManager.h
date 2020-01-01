@@ -744,7 +744,7 @@ nsIDOMEvent
 *
 *
 aDOMEvent
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aCurrentTarget
 PRUint32
@@ -889,7 +889,7 @@ nsIDOMEvent
 *
 *
 aDOMEvent
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aCurrentTarget
 PRUint32
@@ -1021,7 +1021,7 @@ aListener
 nsIDOMEvent
 *
 aDOMEvent
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aCurrentTarget
 PRUint32

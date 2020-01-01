@@ -6416,7 +6416,7 @@ aListener
 nsIDOMEvent
 *
 aDOMEvent
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aCurrentTarget
 PRUint32
@@ -6750,7 +6750,7 @@ nsIDOMEvent
 *
 *
 aDOMEvent
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aCurrentTarget
 PRUint32
@@ -8749,7 +8749,7 @@ aList
 {
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 target
 =

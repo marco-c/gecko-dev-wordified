@@ -6108,7 +6108,7 @@ WrapNative
 aCx
 NS_ISUPPORTS_CAST
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 database
 )

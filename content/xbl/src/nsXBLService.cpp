@@ -4510,7 +4510,7 @@ nsXBLService
 :
 AttachGlobalKeyHandler
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 )
@@ -4546,7 +4546,7 @@ case
 .
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 =
@@ -4865,14 +4865,14 @@ nsXBLService
 :
 DetachGlobalKeyHandler
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 )
 {
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 =

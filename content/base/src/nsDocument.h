@@ -5511,7 +5511,7 @@ kNameSpaceID_None
 void
 DispatchPageTransition
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aDispatchTarget
 const

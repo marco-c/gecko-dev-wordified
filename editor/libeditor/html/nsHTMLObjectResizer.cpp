@@ -457,7 +457,7 @@ h
 #
 include
 "
-nsPIDOMEventTarget
+nsIDOMEventTarget
 .
 h
 "
@@ -3092,7 +3092,7 @@ listeners
 !
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 =
@@ -3775,7 +3775,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 =

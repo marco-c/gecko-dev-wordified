@@ -7249,7 +7249,7 @@ PR_FALSE
 ;
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -7278,7 +7278,7 @@ PR_TRUE
 ;
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -7325,7 +7325,7 @@ PR_FALSE
 ;
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (

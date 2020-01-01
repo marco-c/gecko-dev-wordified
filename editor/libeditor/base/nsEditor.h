@@ -587,7 +587,7 @@ h
 #
 include
 "
-nsPIDOMEventTarget
+nsIDOMEventTarget
 .
 h
 "
@@ -3734,7 +3734,7 @@ aEndOffset
 virtual
 already_AddRefed
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 GetPIDOMEventTarget
 (
@@ -4706,7 +4706,7 @@ event
 receiver
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 mEventTarget
 ;

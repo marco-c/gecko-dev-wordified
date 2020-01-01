@@ -1883,7 +1883,7 @@ static
 nsresult
 GetDOMEventTarget
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 nsIDOMEventTarget
@@ -1892,7 +1892,7 @@ nsIDOMEventTarget
 aDOMTarget
 )
 {
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 realTarget
 =

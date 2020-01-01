@@ -557,7 +557,7 @@ aTransaction
 ;
 /
 /
-nsPIDOMEventTarget
+nsIDOMEventTarget
 virtual
 nsresult
 PreHandleEvent

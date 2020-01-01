@@ -2555,7 +2555,7 @@ aDOMWin
 )
 )
 ;
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 chromeEventHandler
 =
@@ -2655,7 +2655,7 @@ ours
 should
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 (
@@ -2823,7 +2823,7 @@ ours
 should
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 (

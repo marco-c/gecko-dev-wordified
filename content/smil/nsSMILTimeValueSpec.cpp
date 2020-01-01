@@ -2351,7 +2351,7 @@ group
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 ;

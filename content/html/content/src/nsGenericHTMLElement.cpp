@@ -6628,7 +6628,7 @@ IsInnerWindow
 {
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 (

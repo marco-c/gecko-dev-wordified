@@ -442,7 +442,7 @@ nsINode_h___
 #
 include
 "
-nsPIDOMEventTarget
+nsIDOMEventTarget
 .
 h
 "

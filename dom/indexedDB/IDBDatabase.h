@@ -576,7 +576,7 @@ aASCIIOrigin
 ;
 /
 /
-nsPIDOMEventTarget
+nsIDOMEventTarget
 virtual
 nsresult
 PostHandleEvent

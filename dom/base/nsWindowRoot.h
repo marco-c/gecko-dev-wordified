@@ -580,7 +580,7 @@ virtual
 void
 SetParentTarget
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 )
@@ -591,7 +591,7 @@ aTarget
 ;
 }
 virtual
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 GetParentTarget
 (
@@ -674,7 +674,7 @@ OWNER
 ]
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 mParent
 ;
@@ -687,7 +687,7 @@ NS_NewWindowRoot
 nsPIDOMWindow
 *
 aWindow
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 *
 aResult

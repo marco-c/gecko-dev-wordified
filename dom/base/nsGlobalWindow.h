@@ -874,7 +874,7 @@ h
 #
 include
 "
-nsPIDOMEventTarget
+nsIDOMEventTarget
 .
 h
 "
@@ -2311,7 +2311,7 @@ void
 )
 SetChromeEventHandler
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aChromeEventHandler
 )

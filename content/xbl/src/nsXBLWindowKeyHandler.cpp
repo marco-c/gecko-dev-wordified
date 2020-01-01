@@ -1135,7 +1135,7 @@ nsXBLWindowKeyHandler
 nsIDOMElement
 *
 aElement
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 )
@@ -3259,7 +3259,7 @@ do
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 ;
@@ -3449,7 +3449,7 @@ NS_NewXBLWindowKeyHandler
 nsIDOMElement
 *
 aElement
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 nsXBLWindowKeyHandler

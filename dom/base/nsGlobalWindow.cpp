@@ -10150,7 +10150,7 @@ xblService
 {
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 =
@@ -14216,7 +14216,7 @@ return
 allowTabModal
 ;
 }
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 nsGlobalWindow
 :
@@ -14228,7 +14228,7 @@ GetTargetForDOMEvent
 return
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -14238,7 +14238,7 @@ GetOuterWindowInternal
 )
 ;
 }
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 nsGlobalWindow
 :
@@ -14256,7 +14256,7 @@ this
 :
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -15220,7 +15220,7 @@ addref
 /
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 kungFuDeathGrip1
 (
@@ -39835,7 +39835,7 @@ SetListenerTarget
 (
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -41078,7 +41078,7 @@ nsGlobalWindow
 :
 SetChromeEventHandler
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aChromeEventHandler
 )

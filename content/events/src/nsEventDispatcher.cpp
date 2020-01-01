@@ -445,7 +445,7 @@ h
 #
 include
 "
-nsPIDOMEventTarget
+nsIDOMEventTarget
 .
 h
 "
@@ -606,7 +606,7 @@ private
 :
 nsEventTargetChainItem
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 nsEventTargetChainItem
@@ -626,7 +626,7 @@ Create
 nsFixedSizeAllocator
 *
 aAllocator
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 nsEventTargetChainItem
@@ -819,7 +819,7 @@ mTarget
 )
 ;
 }
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 GetNewTarget
 (
@@ -832,7 +832,7 @@ mNewTarget
 void
 SetNewTarget
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aNewTarget
 )
@@ -971,7 +971,7 @@ NS_TARGET_CHAIN_MAY_HAVE_MANAGER
 )
 ;
 }
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 CurrentTarget
 (
@@ -1328,7 +1328,7 @@ sMaxEtciCount
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 mTarget
 ;
@@ -1386,7 +1386,7 @@ null
 .
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 mNewTarget
 ;
@@ -1437,7 +1437,7 @@ nsEventTargetChainItem
 :
 nsEventTargetChainItem
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 nsEventTargetChainItem
@@ -1643,7 +1643,7 @@ later
 .
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 firstTarget
 =
@@ -1793,7 +1793,7 @@ while
 nextTarget
 )
 {
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 newTarget
 =
@@ -1991,7 +1991,7 @@ while
 item
 )
 {
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 newTarget
 =
@@ -2612,7 +2612,7 @@ nsDispatchingCallback
 aCallback
 nsCOMArray
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 *
 aTargets
@@ -2758,7 +2758,7 @@ other
 endif
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 target
 =
@@ -2959,7 +2959,7 @@ chrome
 do
 nothing
 .
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 piTarget
 =
@@ -3014,7 +3014,7 @@ if
 fl
 )
 {
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 t
 =
@@ -3664,7 +3664,7 @@ code
 .
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 t
 =

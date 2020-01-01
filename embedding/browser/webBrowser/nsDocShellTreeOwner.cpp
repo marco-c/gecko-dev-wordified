@@ -880,7 +880,7 @@ h
 #
 include
 "
-nsPIDOMEventTarget
+nsIDOMEventTarget
 .
 h
 "
@@ -939,7 +939,7 @@ to
 /
 a
 |
-nsPIDOMEventTarget
+nsIDOMEventTarget
 |
 via
 the
@@ -959,7 +959,7 @@ GetPIDOMEventTarget
 nsWebBrowser
 *
 inBrowser
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 *
 aTarget
@@ -1029,7 +1029,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 =
@@ -5259,7 +5259,7 @@ listener
 manager
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 ;
@@ -5405,7 +5405,7 @@ mChromeContextMenuListener
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 ;

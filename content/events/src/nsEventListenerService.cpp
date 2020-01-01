@@ -459,7 +459,7 @@ h
 #
 include
 "
-nsPIDOMEventTarget
+nsIDOMEventTarget
 .
 h
 "
@@ -1208,7 +1208,7 @@ listenerInfos
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 target
 =
@@ -1378,7 +1378,7 @@ nsnull
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 target
 =
@@ -1401,7 +1401,7 @@ NS_EVENT_TYPE_NULL
 ;
 nsCOMArray
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 targets
 ;
@@ -1468,7 +1468,7 @@ Alloc
 (
 sizeof
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 )
 *
