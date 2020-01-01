@@ -10187,7 +10187,7 @@ isObject
 script_
 -
 >
-strictModeCode
+strict
 )
 {
 target

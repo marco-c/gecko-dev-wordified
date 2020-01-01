@@ -2481,7 +2481,7 @@ ScriptBits
 {
 NoScriptRval
 SavedCallerFun
-StrictModeCode
+Strict
 ContainsDynamicNameAccess
 FunHasExtensibleScope
 FunHasAnyAliasedFormal
@@ -2973,7 +2973,7 @@ if
 script
 -
 >
-strictModeCode
+strict
 )
 scriptBits
 |
@@ -2982,7 +2982,7 @@ scriptBits
 1
 <
 <
-StrictModeCode
+Strict
 )
 ;
 if
@@ -3778,13 +3778,13 @@ scriptBits
 1
 <
 <
-StrictModeCode
+Strict
 )
 )
 script
 -
 >
-strictModeCode
+strict
 =
 true
 ;
@@ -11592,7 +11592,7 @@ consts
 script
 -
 >
-strictModeCode
+strict
 =
 bce
 -
@@ -11600,7 +11600,7 @@ bce
 sc
 -
 >
-strictMode
+strict
 ;
 script
 -
@@ -14984,12 +14984,12 @@ src
 dst
 -
 >
-strictModeCode
+strict
 =
 src
 -
 >
-strictModeCode
+strict
 ;
 dst
 -

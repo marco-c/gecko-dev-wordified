@@ -849,7 +849,7 @@ strict
 callee
 -
 >
-inStrictMode
+strict
 (
 )
 ;

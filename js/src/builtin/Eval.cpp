@@ -1786,7 +1786,7 @@ script
 )
 -
 >
-strictModeCode
+strict
 )
 )
 {

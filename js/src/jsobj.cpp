@@ -29249,7 +29249,7 @@ if
 script
 -
 >
-strictModeCode
+strict
 &
 &
 !

@@ -2121,7 +2121,7 @@ if
 script
 -
 >
-strictModeCode
+strict
 )
 {
 CallObject

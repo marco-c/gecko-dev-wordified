@@ -998,7 +998,7 @@ isInterpreted
 fun
 -
 >
-inStrictMode
+strict
 (
 )
 )
@@ -13153,7 +13153,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 /
@@ -13294,7 +13294,7 @@ res
 script
 -
 >
-strictModeCode
+strict
 )
 )
 goto
@@ -13391,7 +13391,7 @@ res
 script
 -
 >
-strictModeCode
+strict
 )
 )
 goto
@@ -14251,7 +14251,7 @@ value
 script
 -
 >
-strictModeCode
+strict
 )
 )
 goto
@@ -14364,7 +14364,7 @@ rval
 script
 -
 >
-strictModeCode
+strict
 )
 )
 goto
@@ -17696,7 +17696,7 @@ rval
 script
 -
 >
-strictModeCode
+strict
 )
 )
 goto
@@ -18887,7 +18887,7 @@ rval
 script
 -
 >
-strictModeCode
+strict
 )
 :
 !
@@ -20072,7 +20072,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 if
@@ -20115,7 +20115,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 cx
@@ -20175,7 +20175,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 here
 because
@@ -20247,7 +20247,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -20326,7 +20326,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -20406,7 +20406,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -20461,7 +20461,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -20542,7 +20542,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -20643,7 +20643,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -20721,7 +20721,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Rooted
@@ -20793,7 +20793,7 @@ rval
 script
 -
 >
-strictModeCode
+strict
 )
 )
 goto
@@ -20846,7 +20846,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -20977,7 +20977,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 JSObject
@@ -21101,7 +21101,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 /
@@ -21172,7 +21172,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 bool
@@ -21355,7 +21355,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 cx
@@ -21427,7 +21427,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -21489,7 +21489,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -21550,7 +21550,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -21645,7 +21645,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 JSAtom
@@ -21704,7 +21704,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 JSAtom
@@ -21763,7 +21763,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 JSAtom
@@ -21851,7 +21851,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value

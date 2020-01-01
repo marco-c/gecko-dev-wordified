@@ -2232,13 +2232,13 @@ globalObj
 outerScript
 -
 >
-strictModeCode
+strict
 !
 =
 script
 -
 >
-strictModeCode
+strict
 )
 {
 okay
@@ -8714,7 +8714,7 @@ isActiveEval
 script_
 -
 >
-strictModeCode
+strict
 )
 {
 prepareStubCall
@@ -13343,7 +13343,7 @@ strictMode
 script_
 -
 >
-strictModeCode
+strict
 ;
 to
 .
@@ -43301,7 +43301,7 @@ function
 script_
 -
 >
-strictModeCode
+strict
 &
 &
 !

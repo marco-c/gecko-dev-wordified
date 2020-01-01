@@ -18829,7 +18829,7 @@ mir
 )
 -
 >
-strictModeCode
+strict
 (
 )
 )
@@ -23766,7 +23766,7 @@ mir
 )
 -
 >
-strictModeCode
+strict
 (
 )
 )
@@ -26254,7 +26254,7 @@ script
 )
 -
 >
-strictModeCode
+strict
 )
 return
 callVM

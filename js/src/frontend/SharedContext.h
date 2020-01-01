@@ -1192,7 +1192,7 @@ AnyContextFlags
 anyCxFlags
 ;
 bool
-strictMode
+strict
 ;
 /
 /

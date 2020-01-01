@@ -937,7 +937,7 @@ interpreted
 /
 inline
 bool
-inStrictMode
+strict
 (
 )
 const

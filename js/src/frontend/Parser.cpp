@@ -616,7 +616,7 @@ pc
 sc
 -
 >
-strictMode
+strict
 ;
 }
 bool
@@ -10779,7 +10779,7 @@ pc
 sc
 -
 >
-strictMode
+strict
 )
 ;
 JS_ASSERT
@@ -11076,7 +11076,7 @@ pc
 sc
 -
 >
-strictMode
+strict
 ;
 bool
 becameStrict
@@ -12774,7 +12774,7 @@ pc
 sc
 -
 >
-strictMode
+strict
 )
 {
 if
@@ -12877,7 +12877,7 @@ pc
 sc
 -
 >
-strictMode
+strict
 =
 true
 ;
@@ -23330,7 +23330,7 @@ pc
 sc
 -
 >
-strictMode
+strict
 &
 &
 !
@@ -34285,7 +34285,7 @@ outerpc
 sc
 -
 >
-strictMode
+strict
 )
 ;
 if
@@ -36393,7 +36393,7 @@ pc
 sc
 -
 >
-strictMode
+strict
 )
 pc
 -

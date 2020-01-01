@@ -8044,7 +8044,7 @@ bce
 sc
 -
 >
-strictMode
+strict
 )
 {
 switch
@@ -11032,7 +11032,7 @@ bce
 sc
 -
 >
-strictMode
+strict
 )
 ;
 /
@@ -12121,7 +12121,7 @@ bce
 sc
 -
 >
-strictMode
+strict
 )
 ;
 JS_ASSERT
@@ -23569,7 +23569,7 @@ bce
 sc
 -
 >
-strictMode
+strict
 )
 ;
 JS_ASSERT
@@ -24532,7 +24532,7 @@ bce
 sc
 -
 >
-strictMode
+strict
 )
 ;
 if
@@ -29319,7 +29319,7 @@ bce
 sc
 -
 >
-strictMode
+strict
 )
 ;
 if
@@ -29727,7 +29727,7 @@ bce
 sc
 -
 >
-strictMode
+strict
 )
 ;
 jsatomid
@@ -32995,11 +32995,11 @@ JS_ASSERT_IF
 outersc
 -
 >
-strictMode
+strict
 funbox
 -
 >
-strictMode
+strict
 )
 ;
 /
@@ -35966,7 +35966,7 @@ bce
 sc
 -
 >
-strictMode
+strict
 )
 ;
 if
@@ -37920,7 +37920,7 @@ bce
 sc
 -
 >
-strictMode
+strict
 )
 ;
 JS_ASSERT
@@ -43138,7 +43138,7 @@ bce
 sc
 -
 >
-strictMode
+strict
 )
 ;
 if
@@ -43337,7 +43337,7 @@ bce
 sc
 -
 >
-strictMode
+strict
 )
 ;
 /
@@ -43702,7 +43702,7 @@ bce
 sc
 -
 >
-strictMode
+strict
 )
 ;
 /
@@ -43864,7 +43864,7 @@ bce
 sc
 -
 >
-strictMode
+strict
 )
 ;
 JS_ASSERT
@@ -44175,7 +44175,7 @@ bce
 sc
 -
 >
-strictMode
+strict
 )
 ;
 if

@@ -2433,7 +2433,7 @@ loopDepth_
 ;
 }
 bool
-strictModeCode
+strict
 (
 )
 const
@@ -2446,7 +2446,7 @@ script
 )
 -
 >
-strictModeCode
+strict
 ;
 }
 void
