@@ -5483,6 +5483,13 @@ nsIURI
 uri
 )
 ;
+virtual
+nsISupports
+*
+GetCurrentContentSink
+(
+)
+;
 protected
 :
 friend
