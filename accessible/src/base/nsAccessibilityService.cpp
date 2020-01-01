@@ -7680,9 +7680,6 @@ ancestorContent
 =
 aContent
 ;
-nsAutoString
-activeID
-;
 while
 (
 (
@@ -7705,14 +7702,13 @@ if
 ancestorContent
 -
 >
-GetAttr
+HasAttr
 (
 kNameSpaceID_None
 nsAccessibilityAtoms
 :
 :
 aria_activedescendant
-activeID
 )
 )
 {
