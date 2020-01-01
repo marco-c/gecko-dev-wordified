@@ -1269,7 +1269,7 @@ before
 /
 getting
 into
-doReplaceOrInsertBefore
+ReplaceOrInsertBefore
 or
 doInsertChildAt
 .
