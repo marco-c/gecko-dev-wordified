@@ -1164,12 +1164,9 @@ changes
 .
 PlacesUtils
 .
-bookmarks
-.
-addObserver
+addLazyBookmarkObserver
 (
 this
-false
 )
 ;
 }
@@ -1513,9 +1510,7 @@ observer
 .
 PlacesUtils
 .
-bookmarks
-.
-removeObserver
+removeLazyBookmarkObserver
 (
 this
 )

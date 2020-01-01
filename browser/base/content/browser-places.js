@@ -7059,9 +7059,7 @@ _hasBookmarksObserver
 {
 PlacesUtils
 .
-bookmarks
-.
-removeObserver
+removeLazyBookmarkObserver
 (
 this
 )
@@ -7443,12 +7441,9 @@ try
 {
 PlacesUtils
 .
-bookmarks
-.
-addObserver
+addLazyBookmarkObserver
 (
 this
-false
 )
 ;
 this
