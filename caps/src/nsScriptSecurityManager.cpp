@@ -11960,9 +11960,6 @@ nsScriptSecurityManager
 :
 GetScriptPrincipal
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -12002,7 +11999,6 @@ jsp
 =
 JS_GetScriptPrincipals
 (
-cx
 script
 )
 ;
@@ -12468,7 +12464,6 @@ result
 return
 GetScriptPrincipal
 (
-cx
 script
 rv
 )
@@ -12548,7 +12543,6 @@ fp
 return
 GetScriptPrincipal
 (
-cx
 script
 rv
 )
@@ -18971,10 +18965,6 @@ nsJSPrincipals
 :
 :
 Subsume
-nsJSPrincipals
-:
-:
-Transcode
 ObjectPrincipalFinder
 ContentSecurityPolicyPermitsJSAction
 }

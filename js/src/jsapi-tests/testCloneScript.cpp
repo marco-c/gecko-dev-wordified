@@ -547,7 +547,6 @@ CHECK
 (
 JS_GetScriptPrincipals
 (
-cx
 script
 )
 =
@@ -646,7 +645,6 @@ CHECK
 (
 JS_GetScriptPrincipals
 (
-cx
 script
 )
 =
@@ -754,7 +752,6 @@ CHECK
 (
 JS_GetScriptPrincipals
 (
-cx
 script
 )
 =

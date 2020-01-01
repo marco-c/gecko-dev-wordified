@@ -2215,6 +2215,7 @@ ReadCachedScript
 cache
 cachePath
 cx
+mSystemPrincipal
 &
 script
 )
@@ -2330,6 +2331,7 @@ WriteCachedScript
 cache
 cachePath
 cx
+mSystemPrincipal
 script
 )
 ;

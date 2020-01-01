@@ -2549,9 +2549,6 @@ nsIPrincipal
 *
 GetScriptPrincipal
 (
-JSContext
-*
-cx
 JSScript
 *
 script

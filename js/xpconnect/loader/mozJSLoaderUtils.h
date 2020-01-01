@@ -479,6 +479,9 @@ uri
 JSContext
 *
 cx
+nsIPrincipal
+*
+systemPrincipal
 JSScript
 *
 *
@@ -503,6 +506,9 @@ uri
 JSContext
 *
 cx
+nsIPrincipal
+*
+systemPrincipal
 JSScript
 *
 script
