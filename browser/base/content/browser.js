@@ -51834,6 +51834,7 @@ getTabModalPromptBox
 (
 foundBrowser
 )
+;
 return
 null
 ;
