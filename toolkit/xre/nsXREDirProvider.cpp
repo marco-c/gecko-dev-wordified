@@ -3183,6 +3183,10 @@ mExtensionsLoaded
 )
 return
 ;
+mExtensionsLoaded
+=
+PR_TRUE
+;
 /
 /
 first
