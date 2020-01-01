@@ -1799,7 +1799,7 @@ selection
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >

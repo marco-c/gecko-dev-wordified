@@ -2475,7 +2475,7 @@ GetEditingHost
 ;
 }
 }
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >

@@ -1393,7 +1393,7 @@ _retval
 ;
 private
 :
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -5354,7 +5354,7 @@ selection
 nsresult
 rv
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >

@@ -635,7 +635,7 @@ privateSelection
 NS_ERROR_NULL_POINTER
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >

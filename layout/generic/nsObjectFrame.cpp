@@ -31820,7 +31820,7 @@ See
 bug
 525078
 .
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >

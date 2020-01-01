@@ -14239,7 +14239,7 @@ isControl
 ;
 #
 endif
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -15754,7 +15754,7 @@ PresShell
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >

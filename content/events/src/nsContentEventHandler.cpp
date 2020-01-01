@@ -2285,7 +2285,7 @@ range
 "
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -6298,7 +6298,7 @@ nsIContent
 "
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
