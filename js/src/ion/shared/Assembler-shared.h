@@ -521,6 +521,13 @@ value
 }
 }
 ;
+/
+/
+Pointer
+-
+sized
+immediate
+.
 struct
 ImmWord
 {
