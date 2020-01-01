@@ -2351,7 +2351,7 @@ bug
 Deny
 access
 .
-NS_ERROR
+NS_WARNING
 (
 "
 Implicit
@@ -2364,7 +2364,7 @@ code
 )
 ;
 return
-JS_FALSE
+JS_TRUE
 ;
 #
 else
