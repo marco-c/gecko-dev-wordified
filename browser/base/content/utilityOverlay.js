@@ -4,7 +4,7 @@
 -
 Mode
 :
-Java
+javascript
 ;
 tab
 -
@@ -188,6 +188,17 @@ gPrivateBrowsingUI
 "
 in
 window
+)
+&
+&
+!
+Services
+.
+prefs
+.
+prefHasUserValue
+(
+PREF
 )
 )
 {
