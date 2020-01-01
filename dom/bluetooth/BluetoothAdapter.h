@@ -166,6 +166,9 @@ class
 BluetoothNamedValue
 ;
 class
+BluetoothValue
+;
+class
 BluetoothAdapter
 :
 public
@@ -203,9 +206,9 @@ nsPIDOMWindow
 *
 aOwner
 const
-nsAString
+BluetoothValue
 &
-name
+aValue
 )
 ;
 void
@@ -278,9 +281,9 @@ nsPIDOMWindow
 *
 aOwner
 const
-nsAString
+BluetoothValue
 &
-aPath
+aValue
 )
 ;
 ~
