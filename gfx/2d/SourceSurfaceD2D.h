@@ -561,8 +561,14 @@ ID2D1Bitmap
 >
 mBitmap
 ;
-uint8_t
-*
+std
+:
+:
+vector
+<
+unsigned
+char
+>
 mRawData
 ;
 SurfaceFormat

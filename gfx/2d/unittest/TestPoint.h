@@ -425,9 +425,6 @@ BLOCK
 *
 /
 #
-pragma
-once
-#
 include
 "
 TestBase
