@@ -1032,15 +1032,6 @@ nanojit
 {
 const
 int
-NJ_LOG2_PAGE_SIZE
-=
-12
-;
-/
-/
-4K
-const
-int
 NJ_MAX_REGISTERS
 =
 24
