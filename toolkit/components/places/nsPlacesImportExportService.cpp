@@ -13865,9 +13865,11 @@ nsIObserverService
 >
 obs
 =
-do_GetService
+services
+:
+:
+GetObserverService
 (
-NS_OBSERVERSERVICE_CONTRACTID
 )
 ;
 if
