@@ -1326,7 +1326,7 @@ this
 ;
 if
 (
-mCx
+mGlobal
 )
 {
 DestroyCx
