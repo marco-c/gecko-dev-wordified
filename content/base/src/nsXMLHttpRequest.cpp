@@ -13621,7 +13621,9 @@ length
 aArrayBuffer
 -
 >
-mLength
+Length
+(
+)
 ;
 char
 *
@@ -13636,7 +13638,9 @@ char
 aArrayBuffer
 -
 >
-mData
+Data
+(
+)
 )
 ;
 nsCOMPtr

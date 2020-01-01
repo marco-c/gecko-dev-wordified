@@ -809,7 +809,11 @@ h
 #
 include
 "
-nsCoreAnimationSupport
+mozilla
+/
+gfx
+/
+QuartzSupport
 .
 h
 "

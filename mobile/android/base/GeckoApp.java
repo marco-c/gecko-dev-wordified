@@ -9943,12 +9943,12 @@ ViewGroup
 .
 LayoutParams
 .
-MATCH_PARENT
+FILL_PARENT
 ViewGroup
 .
 LayoutParams
 .
-MATCH_PARENT
+FILL_PARENT
 Gravity
 .
 CENTER

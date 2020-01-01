@@ -844,7 +844,7 @@ kPNGImageMime
 )
 format
 =
-CF_DIB
+CF_DIBV5
 ;
 else
 if
@@ -1854,7 +1854,7 @@ imageFE
 SET_FORMATETC
 (
 imageFE
-CF_DIB
+CF_DIBV5
 0
 DVASPECT_CONTENT
 -
@@ -3356,7 +3356,7 @@ hres
 If
 aFormat
 is
-CF_DIB
+CF_DIBV5
 aMIMEImageFormat
 must
 be
@@ -3887,7 +3887,7 @@ NS_OK
 break
 ;
 case
-CF_DIB
+CF_DIBV5
 :
 if
 (

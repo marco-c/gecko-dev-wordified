@@ -9196,6 +9196,12 @@ IsTransformed
 )
 const
 ;
+bool
+HasOpacity
+(
+)
+const
+;
 /
 *
 *

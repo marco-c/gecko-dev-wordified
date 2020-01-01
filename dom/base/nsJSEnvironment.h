@@ -785,6 +785,10 @@ IsShrinking
 aShrinking
 =
 NonShrinkingGC
+int64_t
+aSliceMillis
+=
+0
 )
 ;
 static

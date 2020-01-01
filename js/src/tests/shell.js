@@ -3831,6 +3831,8 @@ settings
 /
 except
 jit
+and
+allow_xml
 .
 var
 optionNames
@@ -3897,6 +3899,14 @@ optionName
 =
 "
 ion
+"
+&
+&
+optionName
+!
+=
+"
+allow_xml
 "
 )
 {
@@ -4102,13 +4112,6 @@ optionsInit
 ;
 optionsClear
 (
-)
-;
-options
-(
-"
-allow_xml
-"
 )
 ;
 }

@@ -6710,12 +6710,11 @@ gfxASurface
 SurfaceTypeXlib
 )
 {
-XSync
+FinishX
 (
 DefaultXDisplay
 (
 )
-False
 )
 ;
 }

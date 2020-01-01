@@ -1704,9 +1704,12 @@ registry
 .
 *
 /
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsIURI
+>
 >
 mUnloadedOverlays
 ;

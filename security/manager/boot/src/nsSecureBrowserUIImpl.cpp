@@ -719,6 +719,10 @@ mRestoreSubrequests
 (
 false
 )
+mOnLocationChangeSeen
+(
+false
+)
 #
 ifdef
 DEBUG
@@ -6415,6 +6419,9 @@ again
 if
 (
 sinkChanged
+|
+|
+mOnLocationChangeSeen
 )
 return
 EvaluateAndUpdateSecurityState
@@ -6425,6 +6432,10 @@ false
 )
 ;
 }
+mOnLocationChangeSeen
+=
+false
+;
 if
 (
 mRestoreSubrequests
@@ -8151,6 +8162,10 @@ state
 right
 away
 .
+mOnLocationChangeSeen
+=
+true
+;
 return
 EvaluateAndUpdateSecurityState
 (
