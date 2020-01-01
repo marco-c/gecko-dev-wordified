@@ -3388,11 +3388,6 @@ GetLastError
 ;
 }
 }
-LocalFree
-(
-argv
-)
-;
 return
 result
 ;
