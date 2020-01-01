@@ -806,6 +806,8 @@ aIsEnabled
 :
 nsAccEvent
 (
+:
+:
 nsIAccessibleEvent
 :
 :
