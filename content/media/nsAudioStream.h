@@ -504,6 +504,12 @@ FORMAT_S16_LE
 FORMAT_FLOAT32
 }
 ;
+virtual
+~
+nsAudioStream
+(
+)
+;
 /
 /
 Initialize
@@ -579,7 +585,6 @@ in
 the
 child
 process
-virtual
 nsIThread
 *
 GetThread
