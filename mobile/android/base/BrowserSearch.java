@@ -3196,13 +3196,6 @@ updateFromCursor
 c
 )
 ;
-/
-/
-FIXME
-:
-show
-bookmark
-icon
 return
 row
 ;
