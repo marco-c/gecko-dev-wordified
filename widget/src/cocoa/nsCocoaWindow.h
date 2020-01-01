@@ -1927,6 +1927,13 @@ aMode
 )
 ;
 NS_IMETHOD
+SetWindowShadowStyle
+(
+PRInt32
+aStyle
+)
+;
+NS_IMETHOD
 SetWindowTitlebarColor
 (
 nscolor

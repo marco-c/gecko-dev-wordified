@@ -1323,6 +1323,12 @@ window
 BOOL
 mIsTransparent
 ;
+PRIntervalTime
+mLastShadowInvalidation
+;
+BOOL
+mNeedsShadowInvalidation
+;
 /
 /
 Holds
@@ -2741,6 +2747,13 @@ SetTransparencyMode
 (
 nsTransparencyMode
 aMode
+)
+;
+NS_IMETHOD
+SetWindowShadowStyle
+(
+PRInt32
+aStyle
 )
 ;
 /
