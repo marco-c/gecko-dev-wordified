@@ -4133,6 +4133,13 @@ OP_RECURSIVE
 /
 Recursive
 calls
+OP_TYPED_ARRAY
+/
+/
+Accesses
+to
+typed
+arrays
 OP_LIMIT
 }
 ;
