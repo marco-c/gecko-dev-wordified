@@ -12605,6 +12605,9 @@ mSizeMode
 return
 NS_OK
 ;
+#
+ifdef
+WINCE
 /
 /
 on
@@ -12650,6 +12653,8 @@ aMode
 nsSizeMode_Maximized
 ;
 }
+#
+endif
 /
 /
 save
