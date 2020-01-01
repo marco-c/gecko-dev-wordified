@@ -1373,6 +1373,9 @@ shape
 }
 enum
 {
+INVALID_SHAPE
+=
+0x8fffffff
 SHAPELESS
 =
 0xffffffff
@@ -2943,8 +2946,6 @@ arrays
 .
 *
 /
-private
-:
 /
 /
 Used
@@ -2961,6 +2962,8 @@ JSSLOT_ARRAY_LENGTH
 =
 JSSLOT_PRIVATE
 ;
+private
+:
 /
 /
 Used
@@ -9224,6 +9227,14 @@ JSStackFrame
 start
 =
 NULL
+)
+;
+bool
+IsSaneThisObject
+(
+JSObject
+&
+obj
 )
 ;
 #

@@ -32927,7 +32927,7 @@ possible
 /
 if
 (
-TRACING_ENABLED
+REGEX_JIT_ENABLED
 (
 gData
 -

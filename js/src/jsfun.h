@@ -1386,6 +1386,7 @@ h
 *
 /
 union
+U
 {
 struct
 {
@@ -1456,6 +1457,7 @@ trcinfo
 n
 ;
 struct
+Scripted
 {
 uint16
 nvars
