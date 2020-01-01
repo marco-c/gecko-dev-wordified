@@ -1286,6 +1286,7 @@ mPanZoomController
 .
 geometryChanged
 (
+false
 )
 ;
 mView
@@ -1318,6 +1319,7 @@ mPanZoomController
 .
 geometryChanged
 (
+false
 )
 ;
 GeckoApp
@@ -1380,6 +1382,7 @@ mPanZoomController
 .
 geometryChanged
 (
+false
 )
 ;
 GeckoApp
@@ -1421,6 +1424,7 @@ mPanZoomController
 .
 geometryChanged
 (
+false
 )
 ;
 GeckoApp
@@ -1494,6 +1498,7 @@ mPanZoomController
 .
 geometryChanged
 (
+false
 )
 ;
 mView
@@ -1552,6 +1557,7 @@ mPanZoomController
 .
 geometryChanged
 (
+true
 )
 ;
 GeckoApp
