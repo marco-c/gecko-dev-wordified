@@ -201,6 +201,7 @@ ctypes
 jsm
 "
 )
+;
 const
 Cc
 =
@@ -14516,6 +14517,19 @@ cancel
 )
 ;
 }
+/
+*
+*
+*
+See
+nsIUpdateService
+.
+idl
+*
+/
+getUpdatesDirectory
+:
+getUpdatesDir
 /
 *
 *
