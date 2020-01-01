@@ -14121,6 +14121,8 @@ this
 .
 windowToFocus
 .
+content
+.
 focus
 (
 )
