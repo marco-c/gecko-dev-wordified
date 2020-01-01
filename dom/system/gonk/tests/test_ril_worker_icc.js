@@ -5996,13 +5996,9 @@ RIL
 .
 iccInfoPrivate
 .
-SPN
-=
-{
 spnDisplayCondition
-:
+=
 iccDisplayCondition
-}
 ;
 RIL
 .
