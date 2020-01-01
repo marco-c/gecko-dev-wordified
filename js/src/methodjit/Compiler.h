@@ -587,6 +587,16 @@ JSC
 MacroAssembler
 :
 :
+AbsoluteAddress
+AbsoluteAddress
+;
+typedef
+JSC
+:
+:
+MacroAssembler
+:
+:
 BaseIndex
 BaseIndex
 ;
