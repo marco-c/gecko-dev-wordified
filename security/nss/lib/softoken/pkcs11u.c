@@ -2886,6 +2886,10 @@ attribute
 .
 pValue
 =
+(
+void
+*
+)
 value
 ;
 attribute

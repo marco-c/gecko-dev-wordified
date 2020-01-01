@@ -9846,6 +9846,7 @@ return
 SECSuccess
 ;
 }
+SECStatus
 blapi_pqg_param_gen
 (
 unsigned
