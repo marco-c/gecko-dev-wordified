@@ -3751,6 +3751,13 @@ bundle
 NULL
 ;
 char
+pathBuf
+[
+PATH_MAX
+]
+;
+const
+char
 *
 resolvedPath
 ;
@@ -3773,7 +3780,7 @@ resolvedPath
 realpath
 (
 name
-NULL
+pathBuf
 )
 ;
 if
@@ -3789,13 +3796,8 @@ pathRef
 CFStringCreateWithCString
 (
 NULL
-resolvedPath
+pathBuf
 kCFStringEncodingUTF8
-)
-;
-free
-(
-resolvedPath
 )
 ;
 if
