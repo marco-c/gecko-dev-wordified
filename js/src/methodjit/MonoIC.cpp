@@ -5467,9 +5467,16 @@ funGuard
 executableAddress
 (
 )
+static_cast
+<
+void
+*
+>
+(
 ic
 .
 fastGuardedObject
+)
 )
 ;
 return
