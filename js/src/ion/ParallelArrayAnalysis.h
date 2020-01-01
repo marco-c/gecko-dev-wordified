@@ -280,7 +280,7 @@ checkScriptSize
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 )
 ;

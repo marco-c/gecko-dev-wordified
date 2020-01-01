@@ -1202,14 +1202,14 @@ isNative
 )
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 lastProperty
 (
 )
 ;
-UnrootedShape
+RawShape
 prev
 =
 NULL
@@ -2009,7 +2009,7 @@ stack
 MOZ_NEVER_INLINE
 #
 endif
-UnrootedShape
+RawShape
 js
 :
 :

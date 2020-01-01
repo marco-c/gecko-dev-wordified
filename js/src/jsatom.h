@@ -1271,7 +1271,7 @@ true
 }
 ;
 extern
-UnrootedAtom
+RawAtom
 Atomize
 (
 JSContext
@@ -1301,7 +1301,7 @@ AllowGC
 allowGC
 >
 extern
-UnrootedAtom
+RawAtom
 AtomizeChars
 (
 JSContext
@@ -1331,7 +1331,7 @@ AllowGC
 allowGC
 >
 extern
-UnrootedAtom
+RawAtom
 AtomizeString
 (
 JSContext

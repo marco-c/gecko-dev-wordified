@@ -475,7 +475,7 @@ isHeavyweight
 )
 ;
 }
-UnrootedShape
+RawShape
 StaticScopeIter
 :
 :
@@ -509,15 +509,12 @@ type
 =
 BLOCK
 ?
-UnrootedShape
-(
 block
 (
 )
 .
 lastProperty
 (
-)
 )
 :
 funScript
@@ -593,7 +590,7 @@ asStaticBlock
 )
 ;
 }
-UnrootedScript
+RawScript
 StaticScopeIter
 :
 :
@@ -705,7 +702,7 @@ nonLazyScript
 *
 *
 /
-UnrootedShape
+RawShape
 js
 :
 :
@@ -4422,7 +4419,7 @@ asStaticBlock
 static
 *
 /
-UnrootedShape
+RawShape
 StaticBlockObject
 :
 :
@@ -4525,10 +4522,7 @@ redeclared
 true
 ;
 return
-UnrootedShape
-(
 NULL
-)
 ;
 }
 /
@@ -5116,7 +5110,7 @@ popFront
 )
 )
 {
-UnrootedShape
+RawShape
 shape
 =
 &
@@ -8508,7 +8502,7 @@ asClonedBlock
 )
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 block
@@ -8568,7 +8562,7 @@ if
 maybeframe
 )
 {
-UnrootedScript
+RawScript
 script
 =
 maybeframe

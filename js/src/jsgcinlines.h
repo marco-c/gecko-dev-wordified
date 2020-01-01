@@ -3212,7 +3212,7 @@ inline
 js
 :
 :
-UnrootedShape
+RawShape
 js_NewGCShape
 (
 JSContext
@@ -3276,7 +3276,7 @@ inline
 js
 :
 :
-UnrootedBaseShape
+RawBaseShape
 js_NewGCBaseShape
 (
 JSContext

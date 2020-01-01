@@ -1636,7 +1636,7 @@ memory
 /
 JS_ALWAYS_INLINE
 static
-UnrootedAtom
+RawAtom
 AtomizeAndTakeOwnership
 (
 JSContext
@@ -1665,7 +1665,7 @@ length
 ;
 if
 (
-UnrootedAtom
+RawAtom
 s
 =
 cx
@@ -1808,7 +1808,7 @@ if
 p
 )
 {
-UnrootedAtom
+RawAtom
 atom
 =
 p
@@ -1848,7 +1848,7 @@ ac
 cx
 )
 ;
-UnrootedFlatString
+RawFlatString
 flat
 =
 js_NewString
@@ -1884,12 +1884,10 @@ tbchars
 )
 ;
 return
-UnrootedAtom
-(
-)
+NULL
 ;
 }
-UnrootedAtom
+RawAtom
 atom
 =
 flat
@@ -1941,9 +1939,7 @@ OOM
 *
 /
 return
-UnrootedAtom
-(
-)
+NULL
 ;
 }
 return
@@ -1974,7 +1970,7 @@ allowGC
 >
 JS_ALWAYS_INLINE
 static
-UnrootedAtom
+RawAtom
 AtomizeAndCopyChars
 (
 JSContext
@@ -1992,7 +1988,7 @@ ib
 {
 if
 (
-UnrootedAtom
+RawAtom
 s
 =
 cx
@@ -2124,7 +2120,7 @@ if
 p
 )
 {
-UnrootedAtom
+RawAtom
 atom
 =
 p
@@ -2155,7 +2151,7 @@ ac
 cx
 )
 ;
-UnrootedFlatString
+RawFlatString
 flat
 =
 js_NewStringCopyN
@@ -2174,11 +2170,9 @@ if
 flat
 )
 return
-UnrootedAtom
-(
-)
+NULL
 ;
-UnrootedAtom
+RawAtom
 atom
 =
 flat
@@ -2230,9 +2224,7 @@ OOM
 *
 /
 return
-UnrootedAtom
-(
-)
+NULL
 ;
 }
 return
@@ -2244,7 +2236,7 @@ template
 AllowGC
 allowGC
 >
-UnrootedAtom
+RawAtom
 js
 :
 :
@@ -2534,7 +2526,7 @@ ib
 ;
 }
 template
-UnrootedAtom
+RawAtom
 js
 :
 :
@@ -2557,7 +2549,7 @@ ib
 )
 ;
 template
-UnrootedAtom
+RawAtom
 js
 :
 :
@@ -2579,7 +2571,7 @@ InternBehavior
 ib
 )
 ;
-UnrootedAtom
+RawAtom
 js
 :
 :
@@ -2766,9 +2758,7 @@ if
 tbcharsZ
 )
 return
-UnrootedAtom
-(
-)
+NULL
 ;
 return
 AtomizeAndTakeOwnership
@@ -2785,7 +2775,7 @@ template
 AllowGC
 allowGC
 >
-UnrootedAtom
+RawAtom
 js
 :
 :
@@ -2838,7 +2828,7 @@ ib
 ;
 }
 template
-UnrootedAtom
+RawAtom
 js
 :
 :
@@ -2861,7 +2851,7 @@ ib
 )
 ;
 template
-UnrootedAtom
+RawAtom
 js
 :
 :

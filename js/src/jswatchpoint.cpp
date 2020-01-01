@@ -919,7 +919,7 @@ isNative
 {
 if
 (
-UnrootedShape
+RawShape
 shape
 =
 obj

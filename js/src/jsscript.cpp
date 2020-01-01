@@ -889,7 +889,7 @@ BaseShape
 DELEGATE
 )
 ;
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 nbase
 =
 BaseShape
@@ -973,12 +973,7 @@ HAS_SHORTID
 frameIndex
 )
 ;
-DropUnrooted
-(
-nbase
-)
-;
-UnrootedShape
+RawShape
 shape
 =
 self
@@ -5828,7 +5823,7 @@ ScriptCountsMap
 Ptr
 GetScriptCountsMapEntry
 (
-UnrootedScript
+RawScript
 script
 )
 {
@@ -10708,7 +10703,7 @@ return
 size
 ;
 }
-UnrootedScript
+RawScript
 JSScript
 :
 :
@@ -10752,10 +10747,7 @@ if
 script
 )
 return
-UnrootedScript
-(
 NULL
-)
 ;
 PodZero
 (
@@ -10998,10 +10990,7 @@ js_function_str
 )
 ;
 return
-UnrootedScript
-(
 NULL
-)
 ;
 }
 script
@@ -14630,7 +14619,7 @@ NULL
 return
 ;
 }
-UnrootedScript
+RawScript
 script
 =
 iter
@@ -14726,7 +14715,7 @@ off
 )
 ;
 }
-UnrootedScript
+RawScript
 js
 :
 :
@@ -14878,10 +14867,7 @@ if
 data
 )
 return
-UnrootedScript
-(
 NULL
-)
 ;
 /
 *
@@ -14935,10 +14921,7 @@ src
 )
 )
 return
-UnrootedScript
-(
 NULL
-)
 ;
 /
 *
@@ -15282,10 +15265,7 @@ clone
 )
 )
 return
-UnrootedScript
-(
 NULL
-)
 ;
 }
 }
@@ -15378,10 +15358,7 @@ clone
 )
 )
 return
-UnrootedScript
-(
 NULL
-)
 ;
 }
 }
@@ -15511,10 +15488,7 @@ data
 )
 ;
 return
-UnrootedScript
-(
 NULL
-)
 ;
 }
 AutoAssertNoGC

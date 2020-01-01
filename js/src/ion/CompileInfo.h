@@ -210,7 +210,7 @@ public
 :
 CompileInfo
 (
-UnrootedScript
+RawScript
 script
 JSFunction
 *
@@ -271,7 +271,7 @@ fun
 )
 ;
 }
-UnrootedScript
+RawScript
 script
 (
 )

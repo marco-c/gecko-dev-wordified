@@ -769,7 +769,7 @@ buffer
 js
 :
 :
-UnrootedFlatString
+RawFlatString
 finishString
 (
 )
@@ -793,7 +793,7 @@ created
 js
 :
 :
-UnrootedAtom
+RawAtom
 finishAtom
 (
 )

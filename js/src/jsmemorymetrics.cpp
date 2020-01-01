@@ -1255,7 +1255,7 @@ case
 JSTRACE_SHAPE
 :
 {
-UnrootedShape
+RawShape
 shape
 =
 static_cast

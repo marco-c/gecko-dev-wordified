@@ -247,7 +247,7 @@ inline
 js
 :
 :
-UnrootedShape
+RawShape
 js
 :
 :
@@ -279,7 +279,7 @@ inline
 js
 :
 :
-UnrootedShape
+RawShape
 js
 :
 :

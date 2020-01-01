@@ -500,7 +500,7 @@ globalObj
 *
 /
 extern
-UnrootedShape
+RawShape
 GetDenseArrayShape
 (
 JSContext

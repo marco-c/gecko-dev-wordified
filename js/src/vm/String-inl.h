@@ -220,7 +220,7 @@ len
 )
 )
 ;
-UnrootedInlineString
+RawInlineString
 str
 =
 JSInlineString

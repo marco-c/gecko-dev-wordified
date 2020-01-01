@@ -9068,7 +9068,7 @@ return
 NULL
 ;
 }
-UnrootedShape
+RawShape
 nshape
 =
 shape
@@ -9851,7 +9851,7 @@ Detecting
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -10214,7 +10214,7 @@ jsbytecode
 *
 pc
 ;
-UnrootedScript
+RawScript
 script
 =
 cx
@@ -20593,7 +20593,7 @@ return
 true
 ;
 }
-UnrootedShape
+RawShape
 js_AddNativeProperty
 (
 JSContext
@@ -20671,12 +20671,9 @@ id
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
-UnrootedShape
+RawShape
 shape
 =
 JSObject
@@ -22802,7 +22799,7 @@ return
 true
 ;
 }
-UnrootedShape
+RawShape
 shape
 ;
 if
@@ -23005,7 +23002,7 @@ return
 true
 ;
 }
-UnrootedShape
+RawShape
 shape
 =
 current
@@ -24083,7 +24080,7 @@ jsbytecode
 *
 pc
 ;
-UnrootedScript
+RawScript
 script
 =
 cx
@@ -25826,7 +25823,7 @@ propname
 )
 {
 {
-UnrootedScript
+RawScript
 script
 =
 cx
@@ -25942,7 +25939,7 @@ jsbytecode
 *
 pc
 ;
-UnrootedScript
+RawScript
 script
 =
 cx
@@ -28710,7 +28707,7 @@ true
 }
 if
 (
-UnrootedShape
+RawShape
 shape
 =
 obj
@@ -30880,7 +30877,7 @@ trc
 debugPrintIndex
 )
 ;
-UnrootedShape
+RawShape
 shape
 ;
 if
@@ -31424,7 +31421,7 @@ hasScript
 )
 )
 {
-UnrootedScript
+RawScript
 script
 =
 fun

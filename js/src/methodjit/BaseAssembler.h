@@ -1248,7 +1248,7 @@ guardShape
 (
 RegisterID
 objReg
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -6821,7 +6821,7 @@ objReg
 js
 :
 :
-UnrootedShape
+RawShape
 shape
 RegisterID
 typeReg

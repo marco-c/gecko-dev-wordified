@@ -250,7 +250,7 @@ isNull
 )
 ;
 }
-UnrootedShape
+RawShape
 toShape
 (
 )
@@ -282,7 +282,7 @@ TAG
 void
 setShape
 (
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -432,7 +432,7 @@ DEBUG
 void
 checkConsistency
 (
-UnrootedShape
+RawShape
 aKid
 )
 const
@@ -460,9 +460,9 @@ insertChild
 JSContext
 *
 cx
-UnrootedShape
+RawShape
 parent
-UnrootedShape
+RawShape
 child
 )
 ;
@@ -492,7 +492,7 @@ comp
 )
 {
 }
-UnrootedShape
+RawShape
 newShape
 (
 JSContext
@@ -500,7 +500,7 @@ JSContext
 cx
 )
 ;
-UnrootedShape
+RawShape
 getChild
 (
 JSContext

@@ -1394,7 +1394,7 @@ init
 JSRuntime
 *
 rt
-UnrootedShape
+RawShape
 lastProp
 )
 ;
@@ -2307,7 +2307,7 @@ inline
 void
 adoptUnowned
 (
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 other
 )
 ;
@@ -2315,7 +2315,7 @@ inline
 void
 setOwned
 (
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 unowned
 )
 ;
@@ -2878,7 +2878,7 @@ rawSetter
 explicit
 StackBaseShape
 (
-UnrootedBaseShape
+RawBaseShape
 base
 )
 :
@@ -2955,7 +2955,7 @@ NULL
 inline
 StackBaseShape
 (
-UnrootedShape
+RawShape
 shape
 )
 ;
@@ -3463,7 +3463,7 @@ shape_
 ;
 static
 inline
-UnrootedShape
+RawShape
 search
 (
 JSContext
@@ -3518,7 +3518,7 @@ HeapPtrShape
 dictp
 )
 ;
-UnrootedShape
+RawShape
 getChildBinding
 (
 JSContext
@@ -3552,7 +3552,7 @@ base
 *
 /
 static
-UnrootedShape
+RawShape
 replaceLastProperty
 (
 JSContext
@@ -3583,7 +3583,7 @@ shape
 void
 handoffTableTo
 (
-UnrootedShape
+RawShape
 newShape
 )
 ;
@@ -3591,7 +3591,7 @@ inline
 void
 setParent
 (
-UnrootedShape
+RawShape
 p
 )
 ;
@@ -3812,7 +3812,7 @@ public
 :
 Range
 (
-UnrootedShape
+RawShape
 shape
 )
 :
@@ -3999,7 +3999,7 @@ parent
 ;
 }
 static
-UnrootedShape
+RawShape
 setObjectParent
 (
 JSContext
@@ -4016,7 +4016,7 @@ last
 )
 ;
 static
-UnrootedShape
+RawShape
 setObjectFlag
 (
 JSContext
@@ -4218,7 +4218,7 @@ h
 /
 Shape
 (
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 base
 uint32_t
 nfixed
@@ -4752,7 +4752,7 @@ bool
 matches
 (
 const
-UnrootedShape
+RawShape
 other
 )
 const
@@ -4772,7 +4772,7 @@ inline
 bool
 matchesParamsAfterId
 (
-UnrootedBaseShape
+RawBaseShape
 base
 uint32_t
 aslot
@@ -5531,7 +5531,7 @@ table
 .
 entryCount
 ;
-UnrootedShape
+RawShape
 shape
 =
 this
@@ -5590,7 +5590,7 @@ hasTable
 )
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 this
@@ -5698,7 +5698,7 @@ fop
 void
 removeChild
 (
-UnrootedShape
+RawShape
 child
 )
 ;
@@ -5707,7 +5707,7 @@ inline
 void
 writeBarrierPre
 (
-UnrootedShape
+RawShape
 shape
 )
 ;
@@ -5766,7 +5766,7 @@ inline
 void
 readBarrier
 (
-UnrootedShape
+RawShape
 shape
 )
 ;
@@ -5791,7 +5791,7 @@ trc
 )
 ;
 inline
-UnrootedShape
+RawShape
 search
 (
 JSContext
@@ -6102,7 +6102,7 @@ Shape
 {
 EmptyShape
 (
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 base
 uint32_t
 nfixed
@@ -6494,7 +6494,7 @@ shortid
 explicit
 StackShape
 (
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 base
 jsid
 propid
@@ -6570,7 +6570,7 @@ SHAPE_INVALID_SLOT
 StackShape
 (
 const
-UnrootedShape
+RawShape
 &
 shape
 )
@@ -7031,7 +7031,7 @@ namespace
 js
 {
 inline
-UnrootedShape
+RawShape
 Shape
 :
 :
@@ -7249,7 +7249,7 @@ incrementNumLinearSearches
 }
 for
 (
-UnrootedShape
+RawShape
 shape
 =
 start
@@ -7281,10 +7281,7 @@ shape
 ;
 }
 return
-UnrootedShape
-(
 NULL
-)
 ;
 }
 template

@@ -1195,7 +1195,7 @@ setGuessedAtom
 js
 :
 :
-UnrootedAtom
+RawAtom
 atom
 )
 ;
@@ -1328,7 +1328,7 @@ cx
 js
 :
 :
-UnrootedScript
+RawScript
 getOrCreateScript
 (
 JSContext
@@ -1380,13 +1380,7 @@ cx
 )
 )
 return
-js
-:
-:
-UnrootedScript
-(
 NULL
-)
 ;
 return
 self
@@ -1483,7 +1477,7 @@ hasScript
 js
 :
 :
-UnrootedScript
+RawScript
 nonLazyScript
 (
 )
@@ -1517,7 +1511,7 @@ script_
 js
 :
 :
-UnrootedScript
+RawScript
 maybeNonLazyScript
 (
 )
@@ -1532,13 +1526,7 @@ nonLazyScript
 (
 )
 :
-js
-:
-:
-UnrootedScript
-(
 NULL
-)
 ;
 }
 js

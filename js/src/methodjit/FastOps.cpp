@@ -10818,7 +10818,7 @@ a
 dense
 array
 .
-UnrootedShape
+RawShape
 shape
 =
 GetDenseArrayShape
@@ -15305,7 +15305,7 @@ a
 dense
 array
 .
-UnrootedShape
+RawShape
 shape
 =
 GetDenseArrayShape

@@ -998,7 +998,7 @@ its
 use
 early
 .
-UnrootedScript
+RawScript
 script
 =
 iter
@@ -7693,7 +7693,7 @@ hasScript
 )
 )
 {
-UnrootedScript
+RawScript
 script
 =
 fun

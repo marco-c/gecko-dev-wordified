@@ -10919,7 +10919,7 @@ return
 NULL
 ;
 }
-UnrootedShape
+RawShape
 mjit
 :
 :
@@ -10959,10 +10959,7 @@ if
 pic
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 return
 pic

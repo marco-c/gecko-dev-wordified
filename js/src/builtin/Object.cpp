@@ -2169,7 +2169,7 @@ Steps
 .
 *
 /
-UnrootedString
+RawString
 str
 =
 js

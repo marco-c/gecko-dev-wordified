@@ -1514,7 +1514,7 @@ Invalidate
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 ExecutionMode
 mode
@@ -1530,7 +1530,7 @@ Invalidate
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 bool
 resetUses
@@ -1639,7 +1639,7 @@ ForbidCompilation
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 )
 ;
@@ -1649,7 +1649,7 @@ ForbidCompilation
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 ExecutionMode
 mode
@@ -1658,7 +1658,7 @@ mode
 uint32_t
 UsesBeforeIonRecompile
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1668,7 +1668,7 @@ pc
 void
 PurgeCaches
 (
-UnrootedScript
+RawScript
 script
 JSCompartment
 *
@@ -1678,7 +1678,7 @@ c
 size_t
 MemoryUsed
 (
-UnrootedScript
+RawScript
 script
 JSMallocSizeOfFun
 mallocSizeOf
@@ -1690,7 +1690,7 @@ DestroyIonScripts
 FreeOp
 *
 fop
-UnrootedScript
+RawScript
 script
 )
 ;
@@ -1700,7 +1700,7 @@ TraceIonScripts
 JSTracer
 *
 trc
-UnrootedScript
+RawScript
 script
 )
 ;

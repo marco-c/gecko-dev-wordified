@@ -2352,7 +2352,7 @@ hasScript
 )
 )
 {
-UnrootedScript
+RawScript
 script
 =
 fun

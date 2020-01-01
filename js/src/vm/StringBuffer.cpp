@@ -277,7 +277,7 @@ return
 buf
 ;
 }
-UnrootedFlatString
+RawFlatString
 StringBuffer
 :
 :
@@ -302,8 +302,6 @@ empty
 )
 )
 return
-UnrootedFlatString
-(
 cx
 -
 >
@@ -312,7 +310,6 @@ names
 )
 .
 empty
-)
 ;
 size_t
 length
@@ -336,9 +333,7 @@ length
 )
 )
 return
-UnrootedFlatString
-(
-)
+NULL
 ;
 JS_STATIC_ASSERT
 (
@@ -395,9 +390,7 @@ append
 )
 )
 return
-UnrootedFlatString
-(
-)
+NULL
 ;
 jschar
 *
@@ -413,9 +406,7 @@ if
 buf
 )
 return
-UnrootedFlatString
-(
-)
+NULL
 ;
 JSFlatString
 *
@@ -445,7 +436,7 @@ return
 str
 ;
 }
-UnrootedAtom
+RawAtom
 StringBuffer
 :
 :
@@ -482,8 +473,6 @@ length
 0
 )
 return
-UnrootedAtom
-(
 cx
 -
 >
@@ -492,9 +481,8 @@ names
 )
 .
 empty
-)
 ;
-UnrootedAtom
+RawAtom
 atom
 =
 AtomizeChars

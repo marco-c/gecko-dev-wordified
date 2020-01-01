@@ -498,7 +498,7 @@ mjit
 JITChunk
 *
 chunk
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -768,7 +768,7 @@ char
 ScriptFilename
 (
 const
-UnrootedScript
+RawScript
 script
 )
 {
@@ -813,7 +813,7 @@ FunctionName
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
 JSAutoByteString
 *
@@ -951,9 +951,9 @@ DTraceEnterJSFun
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
-UnrootedScript
+RawScript
 script
 )
 {
@@ -989,9 +989,9 @@ DTraceExitJSFun
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
-UnrootedScript
+RawScript
 script
 )
 {
@@ -1040,7 +1040,7 @@ const
 filename
 )
 {
-UnrootedScript
+RawScript
 script
 =
 cx
@@ -1226,9 +1226,9 @@ ETWEnterJSFun
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
-UnrootedScript
+RawScript
 script
 int
 counter
@@ -1290,9 +1290,9 @@ ETWExitJSFun
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
-UnrootedScript
+RawScript
 script
 int
 counter
@@ -1354,7 +1354,7 @@ ETWCreateObject
 JSContext
 *
 cx
-UnrootedObject
+RawObject
 obj
 )
 {
@@ -1413,7 +1413,7 @@ Probes
 :
 ETWFinalizeObject
 (
-UnrootedObject
+RawObject
 obj
 )
 {
@@ -1446,7 +1446,7 @@ ETWResizeObject
 JSContext
 *
 cx
-UnrootedObject
+RawObject
 obj
 size_t
 oldSize
@@ -1504,7 +1504,7 @@ ETWCreateString
 JSContext
 *
 cx
-UnrootedString
+RawString
 string
 size_t
 length
@@ -1552,7 +1552,7 @@ Probes
 :
 ETWFinalizeString
 (
-UnrootedString
+RawString
 string
 )
 {
@@ -1637,7 +1637,7 @@ ETWCalloutBegin
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
 )
 {
@@ -1696,7 +1696,7 @@ ETWCalloutEnd
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
 )
 {
@@ -2000,7 +2000,7 @@ Probes
 :
 ETWCustomMark
 (
-UnrootedString
+RawString
 string
 )
 {
@@ -2079,7 +2079,7 @@ Probes
 :
 ETWStartExecution
 (
-UnrootedScript
+RawScript
 script
 )
 {
@@ -2116,7 +2116,7 @@ Probes
 :
 ETWStopExecution
 (
-UnrootedScript
+RawScript
 script
 )
 {

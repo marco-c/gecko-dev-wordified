@@ -11109,7 +11109,7 @@ fun
 (
 )
 ;
-UnrootedScript
+RawScript
 script
 =
 fun
@@ -11505,7 +11505,7 @@ checks
 .
 *
 /
-UnrootedScript
+RawScript
 script
 =
 f

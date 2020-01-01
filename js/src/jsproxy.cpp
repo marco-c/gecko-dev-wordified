@@ -229,7 +229,7 @@ HeapSlot
 &
 GetCall
 (
-UnrootedObject
+RawObject
 proxy
 )
 {
@@ -256,7 +256,7 @@ inline
 Value
 GetConstruct
 (
-UnrootedObject
+RawObject
 proxy
 )
 {
@@ -293,7 +293,7 @@ HeapSlot
 &
 GetFunctionProxyConstruct
 (
-UnrootedObject
+RawObject
 proxy
 )
 {

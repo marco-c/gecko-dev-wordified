@@ -12896,7 +12896,7 @@ cv
 .
 v
 ;
-UnrootedScript
+RawScript
 parentScript
 =
 NULL
@@ -13158,7 +13158,7 @@ that
 .
 *
 /
-UnrootedScript
+RawScript
 callee
 =
 NULL

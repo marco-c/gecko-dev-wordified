@@ -389,7 +389,7 @@ ArgumentsData
 data
 )
 {
-UnrootedScript
+RawScript
 script
 =
 frame

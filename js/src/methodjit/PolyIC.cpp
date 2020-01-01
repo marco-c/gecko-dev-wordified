@@ -1296,7 +1296,7 @@ target
 LookupStatus
 patchInline
 (
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -5428,7 +5428,7 @@ inline
 void
 MarkNotIdempotent
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -7204,7 +7204,7 @@ patchInline
 JSObject
 *
 holder
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -7464,7 +7464,7 @@ generateGetterStub
 Assembler
 &
 masm
-UnrootedShape
+RawShape
 shape
 jsid
 userid
@@ -8429,7 +8429,7 @@ generateNativeGetterStub
 Assembler
 &
 masm
-UnrootedShape
+RawShape
 shape
 Label
 start
@@ -12255,7 +12255,7 @@ global
 )
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 getprop
@@ -15925,7 +15925,7 @@ jsbytecode
 *
 pc
 ;
-UnrootedScript
+RawScript
 script
 =
 cx

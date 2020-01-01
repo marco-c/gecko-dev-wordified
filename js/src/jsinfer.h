@@ -7816,7 +7816,7 @@ TypeCallsite
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -7975,7 +7975,7 @@ inline
 unsigned
 NumTypeSets
 (
-UnrootedScript
+RawScript
 script
 )
 ;
@@ -9622,7 +9622,7 @@ addPendingRecompile
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 jsbytecode
 *

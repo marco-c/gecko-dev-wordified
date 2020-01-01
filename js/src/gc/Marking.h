@@ -1631,7 +1631,7 @@ MarkCycleCollectorChildren
 JSTracer
 *
 trc
-UnrootedShape
+RawShape
 shape
 )
 ;

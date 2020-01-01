@@ -366,7 +366,7 @@ propertyCache
 )
 )
 ;
-UnrootedShape
+RawShape
 kshape
 =
 (
@@ -621,7 +621,7 @@ propertyCache
 )
 )
 ;
-UnrootedShape
+RawShape
 kshape
 =
 obj

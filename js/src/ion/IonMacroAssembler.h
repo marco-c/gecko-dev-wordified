@@ -4647,7 +4647,7 @@ const
 char
 *
 str
-UnrootedScript
+RawScript
 s
 Register
 temp

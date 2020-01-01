@@ -238,7 +238,7 @@ l
 )
 ;
 }
-UnrootedShape
+RawShape
 PropertyTree
 :
 :
@@ -249,7 +249,7 @@ JSContext
 cx
 )
 {
-UnrootedShape
+RawShape
 shape
 =
 js_NewGCShape
@@ -276,9 +276,9 @@ KidsHash
 *
 HashChildren
 (
-UnrootedShape
+RawShape
 kid1
-UnrootedShape
+RawShape
 kid2
 )
 {
@@ -355,9 +355,9 @@ insertChild
 JSContext
 *
 cx
-UnrootedShape
+RawShape
 parent
-UnrootedShape
+RawShape
 child
 )
 {
@@ -471,7 +471,7 @@ isShape
 )
 )
 {
-UnrootedShape
+RawShape
 shape
 =
 kidp
@@ -591,7 +591,7 @@ Shape
 :
 removeChild
 (
-UnrootedShape
+RawShape
 child
 )
 {
@@ -805,7 +805,7 @@ hash
 ;
 }
 }
-UnrootedShape
+RawShape
 PropertyTree
 :
 :
@@ -830,7 +830,7 @@ AssertCanGC
 )
 ;
 {
-UnrootedShape
+RawShape
 shape
 =
 NULL
@@ -938,7 +938,7 @@ isShape
 )
 )
 {
-UnrootedShape
+RawShape
 kid
 =
 kidp
@@ -1220,7 +1220,7 @@ cx
 parent_
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 newShape
@@ -1234,10 +1234,7 @@ if
 shape
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 new
 (
@@ -1260,10 +1257,7 @@ shape
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 return
 shape
@@ -1546,7 +1540,7 @@ KidsPointer
 :
 checkConsistency
 (
-UnrootedShape
+RawShape
 aKid
 )
 const
@@ -2125,7 +2119,7 @@ isShape
 )
 )
 {
-UnrootedShape
+RawShape
 kid
 =
 kids

@@ -1173,7 +1173,7 @@ static
 bool
 match
 (
-UnrootedScript
+RawScript
 script
 const
 EvalCacheLookup

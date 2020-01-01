@@ -397,7 +397,7 @@ it
 .
 *
 /
-UnrootedShape
+RawShape
 assignInitialShape
 (
 JSContext

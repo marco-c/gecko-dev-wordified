@@ -781,7 +781,7 @@ cx
 JSFunction
 &
 callee
-UnrootedScript
+RawScript
 script
 uint32_t
 nactual
@@ -3507,7 +3507,7 @@ numActualArgs
 ;
 }
 inline
-UnrootedScript
+RawScript
 ContextStack
 :
 :
@@ -3615,10 +3615,7 @@ cx_
 compartment
 )
 return
-UnrootedScript
-(
 NULL
-)
 ;
 return
 script
@@ -3703,7 +3700,7 @@ inlined
 inlineIndex
 ]
 ;
-UnrootedScript
+RawScript
 script
 =
 frame
@@ -3736,10 +3733,7 @@ cx_
 compartment
 )
 return
-UnrootedScript
-(
 NULL
-)
 ;
 if
 (
@@ -3764,7 +3758,7 @@ script
 }
 #
 endif
-UnrootedScript
+RawScript
 script
 =
 fp
@@ -3794,10 +3788,7 @@ cx_
 compartment
 )
 return
-UnrootedScript
-(
 NULL
-)
 ;
 if
 (
@@ -4008,7 +3999,7 @@ frame
 ;
 }
 inline
-UnrootedObject
+RawObject
 AbstractFramePtr
 :
 :
@@ -4765,7 +4756,7 @@ false
 ;
 }
 inline
-UnrootedScript
+RawScript
 AbstractFramePtr
 :
 :

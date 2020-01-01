@@ -883,7 +883,7 @@ patchInlineShapeGuard
 Repatcher
 &
 repatcher
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -925,7 +925,7 @@ ic
 JSObject
 *
 obj
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -1197,7 +1197,7 @@ name
 )
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 obj
@@ -10050,7 +10050,7 @@ JS_ASSERT
 fun
 )
 ;
-UnrootedScript
+RawScript
 script
 =
 fun
@@ -11194,7 +11194,7 @@ fun
 (
 )
 ;
-UnrootedScript
+RawScript
 script
 =
 fun

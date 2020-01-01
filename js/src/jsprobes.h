@@ -660,8 +660,8 @@ enterScript
 (
 JSContext
 *
-UnrootedScript
-UnrootedFunction
+RawScript
+RawFunction
 StackFrame
 *
 )
@@ -681,8 +681,8 @@ exitScript
 (
 JSContext
 *
-UnrootedScript
-UnrootedFunction
+RawScript
+RawFunction
 StackFrame
 *
 )
@@ -697,7 +697,7 @@ script
 bool
 startExecution
 (
-UnrootedScript
+RawScript
 script
 )
 ;
@@ -712,7 +712,7 @@ execution
 bool
 stopExecution
 (
-UnrootedScript
+RawScript
 script
 )
 ;
@@ -1025,7 +1025,7 @@ calloutBegin
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
 )
 ;
@@ -1046,7 +1046,7 @@ calloutEnd
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
 )
 ;
@@ -1444,7 +1444,7 @@ mjit
 JITChunk
 *
 chunk
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1567,9 +1567,9 @@ DTraceEnterJSFun
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
-UnrootedScript
+RawScript
 script
 )
 ;
@@ -1579,9 +1579,9 @@ DTraceExitJSFun
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
-UnrootedScript
+RawScript
 script
 )
 ;
@@ -1636,9 +1636,9 @@ ETWEnterJSFun
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
-UnrootedScript
+RawScript
 script
 int
 counter
@@ -1650,9 +1650,9 @@ ETWExitJSFun
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
-UnrootedScript
+RawScript
 script
 int
 counter
@@ -1741,7 +1741,7 @@ ETWCalloutBegin
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
 )
 ;
@@ -1751,7 +1751,7 @@ ETWCalloutEnd
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
 )
 ;
@@ -1838,7 +1838,7 @@ marker
 bool
 ETWStartExecution
 (
-UnrootedScript
+RawScript
 script
 )
 ;
@@ -1848,7 +1848,7 @@ ETWStopExecution
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 )
 ;
@@ -2007,9 +2007,9 @@ enterScript
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
-UnrootedFunction
+RawFunction
 maybeFun
 StackFrame
 *
@@ -2150,9 +2150,9 @@ exitScript
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
-UnrootedFunction
+RawFunction
 maybeFun
 StackFrame
 *
@@ -2893,7 +2893,7 @@ calloutBegin
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
 )
 {
@@ -2937,7 +2937,7 @@ calloutEnd
 JSContext
 *
 cx
-UnrootedFunction
+RawFunction
 fun
 )
 {
@@ -3419,7 +3419,7 @@ Probes
 :
 startExecution
 (
-UnrootedScript
+RawScript
 script
 )
 {
@@ -3495,7 +3495,7 @@ Probes
 :
 stopExecution
 (
-UnrootedScript
+RawScript
 script
 )
 {

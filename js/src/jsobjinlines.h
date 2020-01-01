@@ -2178,7 +2178,7 @@ setLastPropertyInfallible
 js
 :
 :
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -2401,7 +2401,7 @@ inDictionaryMode
 js
 :
 :
-UnrootedShape
+RawShape
 previous
 =
 lastProperty
@@ -12108,7 +12108,7 @@ PreallocateObjectDynamicSlots
 JSContext
 *
 cx
-UnrootedShape
+RawShape
 shape
 HeapSlot
 *
