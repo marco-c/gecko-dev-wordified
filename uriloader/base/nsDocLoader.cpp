@@ -6591,6 +6591,9 @@ nsIWebProgressListeners
 if
 (
 aStatus
+!
+=
+NS_OK
 )
 {
 /
