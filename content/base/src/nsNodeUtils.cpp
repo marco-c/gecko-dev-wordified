@@ -493,7 +493,7 @@ node
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -2187,7 +2187,7 @@ bool
 aDeep
 bool
 aCallUserDataHandlers
-nsIDOMNode
+nsINode
 *
 *
 aResult
@@ -2200,7 +2200,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 newNode
 ;

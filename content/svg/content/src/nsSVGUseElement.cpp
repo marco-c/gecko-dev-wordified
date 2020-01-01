@@ -2017,7 +2017,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 newnode
 ;

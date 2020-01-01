@@ -19802,7 +19802,7 @@ assumption
 that
 "
 "
-GetNodeParent
+GetParentNode
 (
 )
 is
@@ -19859,7 +19859,7 @@ parent
 cur
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -20266,7 +20266,7 @@ cur
 aElement
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -20298,7 +20298,7 @@ cur
 cur
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

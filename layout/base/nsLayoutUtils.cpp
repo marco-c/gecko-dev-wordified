@@ -4124,7 +4124,7 @@ c1
 c1
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )
@@ -4212,7 +4212,7 @@ c2
 c2
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )
@@ -4438,7 +4438,7 @@ parent
 content1Ancestor
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

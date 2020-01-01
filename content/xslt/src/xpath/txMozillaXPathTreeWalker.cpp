@@ -1288,7 +1288,7 @@ mPosition
 mNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -1412,7 +1412,7 @@ mPosition
 mNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -2872,7 +2872,7 @@ aNode
 mNode
 -
 >
-GetDOMBaseURI
+GetBaseURI
 (
 aURI
 )
@@ -3149,7 +3149,7 @@ parent
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -3158,7 +3158,7 @@ otherParent
 otherNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -3275,7 +3275,7 @@ node
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -3297,7 +3297,7 @@ otherNode
 otherNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

@@ -1101,7 +1101,7 @@ do_QueryInterface
 mContent
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )

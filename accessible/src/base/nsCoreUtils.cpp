@@ -1605,7 +1605,7 @@ parentNode
 parentNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )

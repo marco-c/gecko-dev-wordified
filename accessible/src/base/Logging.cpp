@@ -4220,7 +4220,7 @@ parentNode
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

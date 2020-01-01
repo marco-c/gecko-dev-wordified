@@ -3281,7 +3281,7 @@ MakeAccessNode
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )

@@ -8405,7 +8405,7 @@ currNode
 currNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )

@@ -3263,6 +3263,9 @@ styleContent
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
+ErrorResult
+error
+;
 styleContent
 -
 >
@@ -3280,6 +3283,7 @@ block
 }
 "
 )
+error
 )
 ;
 head

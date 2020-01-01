@@ -2729,7 +2729,7 @@ parentNode
 element
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

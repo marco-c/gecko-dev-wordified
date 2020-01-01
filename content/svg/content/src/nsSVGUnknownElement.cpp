@@ -166,12 +166,7 @@ could
 use
 virtual
 inheritance
-NS_FORWARD_NSIDOMNODE
-(
-nsSVGUnknownElementBase
-:
-:
-)
+NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT
 (
 nsSVGUnknownElementBase

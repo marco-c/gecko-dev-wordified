@@ -9427,7 +9427,7 @@ parent
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -10002,7 +10002,7 @@ parent
 aChild
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -10126,7 +10126,7 @@ aPossibleDescendant
 aPossibleDescendant
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -10250,7 +10250,7 @@ aNode
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -10608,7 +10608,7 @@ aNode1
 aNode1
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -10632,7 +10632,7 @@ aNode2
 aNode2
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -10828,7 +10828,7 @@ node1
 node1
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -10852,7 +10852,7 @@ node2
 node2
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -13082,7 +13082,7 @@ parent
 aContent
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -13118,7 +13118,7 @@ parent
 content
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -21087,7 +21087,7 @@ aNode
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -21199,7 +21199,7 @@ NS_PRECONDITION
 aChild
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 =
@@ -23991,7 +23991,7 @@ child
 child
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 =

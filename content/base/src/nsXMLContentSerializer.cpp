@@ -7050,7 +7050,7 @@ parent
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

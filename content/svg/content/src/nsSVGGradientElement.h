@@ -503,12 +503,7 @@ nsSVGLinearGradientElementBase
 :
 :
 )
-NS_FORWARD_NSIDOMNODE
-(
-nsSVGLinearGradientElementBase
-:
-:
-)
+NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT
 (
 nsSVGLinearGradientElementBase
@@ -714,12 +709,7 @@ could
 use
 virtual
 inheritance
-NS_FORWARD_NSIDOMNODE
-(
-nsSVGRadialGradientElementBase
-:
-:
-)
+NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT
 (
 nsSVGRadialGradientElementBase

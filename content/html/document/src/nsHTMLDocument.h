@@ -468,12 +468,7 @@ nsDocument
 /
 nsIDOMNode
 interface
-NS_FORWARD_NSIDOMNODE
-(
-nsDocument
-:
-:
-)
+NS_FORWARD_NSIDOMNODE_TO_NSINODE
 /
 /
 nsIDOMHTMLDocument

@@ -2710,7 +2710,7 @@ n
 n
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

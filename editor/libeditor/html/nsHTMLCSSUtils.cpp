@@ -9289,7 +9289,7 @@ node
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

@@ -177,12 +177,7 @@ could
 use
 virtual
 inheritance
-NS_FORWARD_NSIDOMNODE
-(
-nsSVGPolygonElementBase
-:
-:
-)
+NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT
 (
 nsSVGPolygonElementBase

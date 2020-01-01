@@ -4974,7 +4974,7 @@ node
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

@@ -3806,7 +3806,7 @@ parent
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -3841,7 +3841,7 @@ if
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )
@@ -3919,7 +3919,7 @@ previousSibling
 previousSibling
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 !
@@ -3935,7 +3935,7 @@ nextSibling
 nextSibling
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 !

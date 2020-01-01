@@ -2713,7 +2713,7 @@ cur
 ancestor
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

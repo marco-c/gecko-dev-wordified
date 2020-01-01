@@ -571,7 +571,7 @@ leftParent
 leftNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -601,7 +601,7 @@ rightParent
 rightNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

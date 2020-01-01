@@ -314,7 +314,7 @@ ancestor
 root
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )

@@ -185,12 +185,7 @@ could
 use
 virtual
 inheritance
-NS_FORWARD_NSIDOMNODE
-(
-nsSVGGElementBase
-:
-:
-)
+NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT
 (
 nsSVGGElementBase

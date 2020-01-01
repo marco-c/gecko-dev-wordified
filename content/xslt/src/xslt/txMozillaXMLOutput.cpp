@@ -1904,7 +1904,7 @@ if
 mCurrentNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )

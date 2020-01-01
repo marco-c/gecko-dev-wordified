@@ -9763,7 +9763,7 @@ aPossibleDescendant
 aPossibleDescendant
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

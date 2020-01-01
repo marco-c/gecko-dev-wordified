@@ -214,12 +214,7 @@ to
 our
 base
 class
-NS_FORWARD_NSIDOMNODE
-(
-nsMathMLElementBase
-:
-:
-)
+NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT
 (
 nsMathMLElementBase

@@ -1437,7 +1437,7 @@ GetAccessibleOrContainer
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )

@@ -4774,7 +4774,7 @@ OwnerDoc
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 clonedNode
 ;
@@ -5512,7 +5512,7 @@ hasInsertionPoints
 {
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 clonedNode
 ;
@@ -10658,7 +10658,7 @@ return
 mContent
 -
 >
-GetChildNodesList
+ChildNodes
 (
 )
 ;
