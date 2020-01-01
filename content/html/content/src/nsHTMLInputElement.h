@@ -1304,6 +1304,15 @@ NS_IMETHOD_
 nsIContent
 *
 )
+CreatePlaceholderNode
+(
+)
+;
+NS_IMETHOD_
+(
+nsIContent
+*
+)
 GetPlaceholderNode
 (
 )
