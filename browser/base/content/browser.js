@@ -39607,6 +39607,7 @@ manifestURI
 aDocument
 .
 documentURIObject
+window
 )
 ;
 }

@@ -720,6 +720,13 @@ mozilla
 :
 places
 ;
+using
+namespace
+mozilla
+:
+:
+docshell
+;
 namespace
 mozilla
 {

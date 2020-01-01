@@ -698,6 +698,14 @@ const
 nsCString
 &
 entityID
+const
+bool
+&
+chooseApplicationCache
+const
+nsCString
+&
+appCacheClientID
 )
 ;
 virtual
@@ -781,6 +789,12 @@ no
 virtual
 bool
 RecvDocumentChannelCleanup
+(
+)
+;
+virtual
+bool
+RecvMarkOfflineCacheEntryAsForeign
 (
 )
 ;
