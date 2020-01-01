@@ -117,6 +117,15 @@ js_Tracer_h
 #
 include
 "
+mozilla
+/
+NullPtr
+.
+h
+"
+#
+include
+"
 jspubtd
 .
 h
@@ -722,7 +731,7 @@ trc
 >
 realLocation
 =
-NULL
+nullptr
 ;
 \
 JS_END_MACRO
@@ -781,7 +790,7 @@ index
 JS_SET_TRACING_DETAILS
 (
 trc
-NULL
+nullptr
 name
 index
 )
@@ -810,7 +819,7 @@ name
 JS_SET_TRACING_DETAILS
 (
 trc
-NULL
+nullptr
 name
 (
 size_t

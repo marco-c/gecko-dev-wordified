@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+NullPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TypeTraits
 .
 h
@@ -1053,7 +1062,7 @@ NullPtr
 acts
 like
 a
-NULL
+nullptr
 pointer
 in
 contexts
@@ -1119,7 +1128,7 @@ JSObject
 just
 to
 pass
-NULL
+nullptr
 .
 *
 *
@@ -1270,7 +1279,7 @@ NullPtr
 acts
 like
 a
-NULL
+nullptr
 pointer
 in
 contexts
@@ -1336,7 +1345,7 @@ JSObject
 just
 to
 pass
-NULL
+nullptr
 .
 *
 /
@@ -3066,7 +3075,7 @@ a
 handle
 for
 a
-NULL
+nullptr
 pointer
 .
 *
@@ -3134,7 +3143,7 @@ a
 handle
 for
 a
-NULL
+nullptr
 pointer
 .
 *
@@ -4524,7 +4533,7 @@ initial
 )
 {
 return
-NULL
+nullptr
 ;
 }
 static
@@ -7150,7 +7159,7 @@ ptr
 :
 next
 (
-NULL
+nullptr
 )
 ptr_
 (

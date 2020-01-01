@@ -117,6 +117,15 @@ js_GCAPI_h
 #
 include
 "
+mozilla
+/
+NullPtr
+.
+h
+"
+#
+include
+"
 js
 /
 HeapAPI
@@ -1150,7 +1159,7 @@ ObjectPtr
 :
 value
 (
-NULL
+nullptr
 )
 {
 }
@@ -1212,7 +1221,7 @@ value
 ;
 value
 =
-NULL
+nullptr
 ;
 }
 void

@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+NullPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Range
 .
 h
@@ -356,7 +365,7 @@ Latin1CharsZ
 :
 Base
 (
-NULL
+nullptr
 0
 )
 {
@@ -595,7 +604,7 @@ UTF8CharsZ
 :
 Base
 (
-NULL
+nullptr
 0
 )
 {
@@ -1013,7 +1022,7 @@ TwoByteCharsZ
 :
 Base
 (
-NULL
+nullptr
 0
 )
 {
@@ -1157,7 +1166,7 @@ method
 will
 return
 a
-NULL
+nullptr
 chars
 (
 which

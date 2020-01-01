@@ -126,6 +126,15 @@ API
 #
 include
 "
+mozilla
+/
+NullPtr
+.
+h
+"
+#
+include
+"
 jsbytecode
 .
 h
@@ -289,7 +298,7 @@ StackFrame
 *
 start
 =
-NULL
+nullptr
 )
 ;
 #
@@ -3005,7 +3014,7 @@ before
 *
 *
 Returning
-NULL
+nullptr
 in
 the
 '

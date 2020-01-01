@@ -182,6 +182,15 @@ include
 "
 mozilla
 /
+NullPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
@@ -2122,7 +2131,7 @@ l
 )
 !
 =
-NULL
+nullptr
 ;
 }
 /
@@ -4075,7 +4084,7 @@ l
 )
 !
 =
-NULL
+nullptr
 ;
 }
 /
@@ -6639,11 +6648,11 @@ Range
 :
 cur
 (
-NULL
+nullptr
 )
 end
 (
-NULL
+nullptr
 )
 validEntry
 (
@@ -7196,7 +7205,7 @@ rhs
 >
 table
 =
-NULL
+nullptr
 ;
 }
 void
@@ -7243,7 +7252,7 @@ rhs
 >
 table
 =
-NULL
+nullptr
 ;
 }
 private
@@ -7908,7 +7917,7 @@ removedCount
 )
 table
 (
-NULL
+nullptr
 )
 entered
 (
@@ -8541,7 +8550,7 @@ Entry
 *
 firstRemoved
 =
-NULL
+nullptr
 ;
 while
 (
@@ -9954,7 +9963,7 @@ capacity
 ;
 table
 =
-NULL
+nullptr
 ;
 gen
 +

@@ -155,6 +155,15 @@ include
 "
 mozilla
 /
+NullPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Scoped
 .
 h
@@ -609,7 +618,7 @@ char
 *
 OOM_traceSymbols
 =
-NULL
+nullptr
 ;
 int32_t
 OOM_traceSize
@@ -768,7 +777,7 @@ JS_OOM_EMIT_BACKTRACE
 ;
 \
 return
-NULL
+nullptr
 ;
 \
 }
@@ -811,7 +820,7 @@ cx
 ;
 \
 return
-NULL
+nullptr
 ;
 \
 }
@@ -1472,7 +1481,7 @@ memory
 t
 parms
 :
-NULL
+nullptr
 ;
 /
 *
@@ -2451,7 +2460,7 @@ T
 value
 )
 return
-NULL
+nullptr
 ;
 return
 (
@@ -2506,7 +2515,7 @@ T
 value
 )
 return
-NULL
+nullptr
 ;
 return
 (
@@ -2548,7 +2557,7 @@ empty
 )
 {
 return
-NULL
+nullptr
 ;
 }
 static

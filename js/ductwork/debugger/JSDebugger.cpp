@@ -393,7 +393,7 @@ kJSDebuggerCIDs
 &
 kJSDEBUGGER_CID
 false
-NULL
+nullptr
 mozilla
 :
 :
@@ -403,7 +403,7 @@ jsdebugger
 JSDebuggerConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -427,7 +427,7 @@ JSDEBUGGER_CONTRACTID
 kJSDEBUGGER_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;
