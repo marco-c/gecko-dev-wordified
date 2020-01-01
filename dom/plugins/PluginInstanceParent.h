@@ -1163,6 +1163,16 @@ AnswerPluginGotFocus
 (
 )
 ;
+virtual
+bool
+RecvSetNestedEventState
+(
+const
+bool
+&
+aState
+)
+;
 private
 :
 bool
@@ -1317,6 +1327,9 @@ mPluginHWND
 ;
 WNDPROC
 mPluginWndProc
+;
+bool
+mNestedEventState
 ;
 #
 endif
