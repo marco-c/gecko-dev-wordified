@@ -3837,6 +3837,17 @@ bookmarksRestoreFilterExtension
 )
 )
 ;
+fp
+.
+appendFilters
+(
+Ci
+.
+nsIFilePicker
+.
+filterAll
+)
+;
 var
 dirSvc
 =
