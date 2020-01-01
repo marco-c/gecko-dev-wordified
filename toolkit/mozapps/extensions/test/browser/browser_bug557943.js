@@ -239,11 +239,9 @@ aQuery
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 searchBox
-2
-2
 {
 }
 gManagerWindow
