@@ -5457,6 +5457,13 @@ complete
 ;
 }
 ;
+UI
+.
+setActiveTab
+(
+this
+)
+;
 TabItems
 .
 _update
