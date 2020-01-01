@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsAtomicRefcnt
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

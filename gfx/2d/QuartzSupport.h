@@ -164,6 +164,13 @@ MacIOSurface
 .
 h
 "
+#
+include
+"
+nsError
+.
+h
+"
 /
 /
 Get

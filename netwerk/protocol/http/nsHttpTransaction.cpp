@@ -218,13 +218,6 @@ h
 #
 include
 "
-nsAtomicRefcnt
-.
-h
-"
-#
-include
-"
 nsISeekableStream
 .
 h

@@ -115,6 +115,13 @@ nsCxPusher
 .
 h
 "
+#
+include
+"
+pratom
+.
+h
+"
 using
 namespace
 mozilla

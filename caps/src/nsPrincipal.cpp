@@ -156,6 +156,13 @@ h
 #
 include
 "
+pratom
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h

@@ -186,6 +186,13 @@ nsIScriptSecurityManager
 .
 h
 "
+#
+include
+"
+pratom
+.
+h
+"
 NS_IMPL_CLASSINFO
 (
 nsSystemPrincipal

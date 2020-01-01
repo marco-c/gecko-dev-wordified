@@ -126,6 +126,13 @@ h
 #
 include
 "
+pratom
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Services
