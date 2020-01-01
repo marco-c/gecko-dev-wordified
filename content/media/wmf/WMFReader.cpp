@@ -238,7 +238,7 @@ WMFReader
 :
 WMFReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )

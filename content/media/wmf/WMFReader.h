@@ -178,7 +178,7 @@ public
 :
 WMFReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )
