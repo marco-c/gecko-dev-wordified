@@ -522,6 +522,15 @@ aOffset
 nsnull
 )
 ;
+nsIWidget
+*
+GetWidgetForElement
+(
+nsIDOMElement
+*
+aElement
+)
+;
 nsPresContext
 *
 GetPresContext
