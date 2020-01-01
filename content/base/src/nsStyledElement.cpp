@@ -1265,11 +1265,8 @@ nsICSSDeclaration
 nsStyledElementNotElementCSSInlineStyle
 :
 :
-GetStyle
+Style
 (
-nsresult
-*
-retval
 )
 {
 Element
@@ -1322,11 +1319,6 @@ SetMayHaveStyle
 )
 ;
 }
-*
-retval
-=
-NS_OK
-;
 return
 slots
 -
