@@ -489,13 +489,6 @@ h
 #
 include
 "
-nsSVGAnimatedTransformList
-.
-h
-"
-#
-include
-"
 nsSVGTransformSMILAttr
 .
 h
