@@ -1852,10 +1852,6 @@ ThebesContext
 (
 )
 pt
-gfxFont
-:
-:
-GLYPH_FILL
 0
 aLength
 &
@@ -1950,10 +1946,6 @@ ThebesContext
 (
 )
 pt
-gfxFont
-:
-:
-GLYPH_FILL
 0
 aLength
 &

@@ -12274,7 +12274,7 @@ NS_UpdateHint
 hint
 NS_CombineHint
 (
-nsChangeHint_NeedReflow
+nsChangeHint_ReflowFrame
 nsChangeHint_UpdateTransformLayer
 )
 )
@@ -12315,7 +12315,7 @@ NS_UpdateHint
 hint
 NS_CombineHint
 (
-nsChangeHint_NeedReflow
+nsChangeHint_ReflowFrame
 nsChangeHint_RepaintFrame
 )
 )
@@ -12359,7 +12359,7 @@ NS_UpdateHint
 hint
 NS_CombineHint
 (
-nsChangeHint_NeedReflow
+nsChangeHint_ReflowFrame
 nsChangeHint_RepaintFrame
 )
 )
@@ -12381,7 +12381,7 @@ NS_UpdateHint
 hint
 NS_CombineHint
 (
-nsChangeHint_NeedReflow
+nsChangeHint_ReflowFrame
 nsChangeHint_RepaintFrame
 )
 )
@@ -12415,7 +12415,7 @@ NS_UpdateHint
 hint
 NS_CombineHint
 (
-nsChangeHint_NeedReflow
+nsChangeHint_ReflowFrame
 nsChangeHint_RepaintFrame
 )
 )
