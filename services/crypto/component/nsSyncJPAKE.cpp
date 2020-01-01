@@ -494,6 +494,12 @@ nsString
 .
 h
 >
+using
+mozilla
+:
+:
+fallible_t
+;
 static
 bool
 hex_from_2char
@@ -898,6 +904,9 @@ SetCapacity
 2
 *
 len
+fallible_t
+(
+)
 )
 )
 return
@@ -2535,6 +2544,9 @@ out
 SetCapacity
 (
 len
+fallible_t
+(
+)
 )
 )
 {

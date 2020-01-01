@@ -651,10 +651,6 @@ SHDRAGIMAGE
 psdi
 )
 ;
-IDropSource
-*
-mNativeDragSrc
-;
 nsNativeDragTarget
 *
 mNativeDragTarget

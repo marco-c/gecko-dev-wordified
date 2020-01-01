@@ -4412,6 +4412,9 @@ Length
 )
 +
 destBufferLen
+fallible_t
+(
+)
 )
 )
 {

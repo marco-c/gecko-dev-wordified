@@ -534,6 +534,13 @@ nsISupportsPriority
 .
 h
 "
+#
+include
+<
+time
+.
+h
+>
 using
 namespace
 mozilla
@@ -1578,6 +1585,13 @@ if
 it
 exists
 .
+srand
+(
+PR_Now
+(
+)
+)
+;
 nsCAutoString
 leaf
 ;
