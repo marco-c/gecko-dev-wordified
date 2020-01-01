@@ -1063,14 +1063,13 @@ domdoc
 ;
 if
 (
-!
 doc
-|
-|
+&
+&
 doc
 -
 >
-IsCaseSensitive
+IsHTML
 (
 )
 )
@@ -1079,7 +1078,7 @@ format
 .
 mMethod
 =
-eXMLOutput
+eHTMLOutput
 ;
 }
 else
@@ -1088,7 +1087,7 @@ format
 .
 mMethod
 =
-eHTMLOutput
+eXMLOutput
 ;
 }
 *

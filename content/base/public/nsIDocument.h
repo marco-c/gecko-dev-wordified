@@ -4597,14 +4597,14 @@ Standalone
 =
 0
 ;
-virtual
 PRBool
-IsCaseSensitive
+IsHTML
 (
 )
+const
 {
 return
-PR_TRUE
+mIsRegularHTML
 ;
 }
 virtual
@@ -7901,6 +7901,9 @@ mIsInitialDocumentInWindow
 ;
 PRPackedBool
 mShellsAreHidden
+;
+PRPackedBool
+mIsRegularHTML
 ;
 /
 /

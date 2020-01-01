@@ -21038,7 +21038,8 @@ rv
 ;
 NS_ASSERTION
 (
-IsCaseSensitive
+!
+IsHTML
 (
 )
 "
@@ -31559,8 +31560,7 @@ aName
 ;
 if
 (
-!
-IsCaseSensitive
+IsHTML
 (
 )
 )

@@ -1619,11 +1619,10 @@ after
 bug
 335998
 lands
-!
 doc
 -
 >
-IsCaseSensitive
+IsHTML
 (
 )
 ;
