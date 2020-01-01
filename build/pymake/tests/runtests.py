@@ -644,6 +644,9 @@ FAIL
 1
 :
         
+print
+stdout
+        
 return
 False
 "
@@ -680,7 +683,10 @@ grepfor
 -
 1
 :
-            
+        
+print
+stdout
+        
 return
 False
 "
@@ -727,6 +733,9 @@ PASS
 -
 1
 :
+        
+print
+stdout
         
 return
 False
@@ -1069,6 +1078,14 @@ line
 in
 mdata
 :
+        
+line
+=
+line
+.
+strip
+(
+)
         
 m
 =

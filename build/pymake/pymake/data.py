@@ -8732,11 +8732,18 @@ cline
 )
             
 if
+(
 isHidden
 or
 makefile
 .
 silent
+)
+and
+not
+makefile
+.
+justprint
 :
                 
 echo
@@ -8796,6 +8803,11 @@ context
 echo
 =
 echo
+justprint
+=
+makefile
+.
+justprint
 )
             
 else
@@ -8865,6 +8877,12 @@ context
 echo
 =
 echo
+justprint
+=
+makefile
+.
+justprint
+                                     
 pycommandpath
 =
 e
@@ -9907,6 +9925,9 @@ False
 silent
 =
 False
+justprint
+=
+False
 )
 :
         
@@ -9982,6 +10003,12 @@ self
 silent
 =
 silent
+        
+self
+.
+justprint
+=
+justprint
         
 self
 .
