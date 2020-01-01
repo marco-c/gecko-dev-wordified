@@ -4108,6 +4108,8 @@ let
 style
 =
 aElement
+?
+aElement
 .
 ownerDocument
 .
@@ -4118,6 +4120,8 @@ getComputedStyle
 aElement
 null
 )
+:
+null
 ;
 if
 (
