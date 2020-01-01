@@ -3235,7 +3235,7 @@ document
 virtual
 nsScriptLoader
 *
-GetScriptLoader
+ScriptLoader
 (
 )
 =
