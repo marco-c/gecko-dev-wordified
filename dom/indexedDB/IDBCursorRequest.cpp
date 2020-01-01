@@ -655,11 +655,14 @@ mAutoIncrement
 (
 aAutoIncrement
 )
+{
 mIndexUpdateInfo
+.
+SwapElements
 (
 aIndexUpdateInfo
 )
-{
+;
 }
 PRUint16
 DoDatabaseWork
@@ -705,7 +708,6 @@ nsTArray
 <
 IndexUpdateInfo
 >
-&
 mIndexUpdateInfo
 ;
 }
