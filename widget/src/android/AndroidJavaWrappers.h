@@ -1670,10 +1670,6 @@ jGetAdminAreaMethod
 ;
 static
 jmethodID
-jGetCountryCodeMethod
-;
-static
-jmethodID
 jGetCountryNameMethod
 ;
 static

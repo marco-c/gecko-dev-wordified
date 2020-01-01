@@ -653,10 +653,6 @@ aCountry
 const
 nsAString
 &
-aCountryCode
-const
-nsAString
-&
 aPostalCode
 )
 ;
@@ -694,10 +690,6 @@ mRegion
 const
 nsString
 mCountry
-;
-const
-nsString
-mCountryCode
 ;
 const
 nsString
