@@ -7833,7 +7833,7 @@ if
 (
 chromeDoc
 .
-getAttribute
+hasAttribute
 (
 "
 chromehidden

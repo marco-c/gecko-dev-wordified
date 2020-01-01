@@ -785,8 +785,9 @@ nsIWebProgress
 NOTIFY_ALL
 )
 ;
-if
-(
+var
+cachedurl
+=
 panelBrowser
 .
 getAttribute
@@ -795,6 +796,9 @@ getAttribute
 cachedurl
 "
 )
+if
+(
+cachedurl
 )
 {
 panelBrowser
@@ -803,14 +807,7 @@ webNavigation
 .
 loadURI
 (
-panelBrowser
-.
-getAttribute
-(
-"
 cachedurl
-"
-)
 nsIWebNavigation
 .
 LOAD_FLAGS_NONE
