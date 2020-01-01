@@ -454,9 +454,9 @@ referentCount
 }
 ;
 struct
-ReferentCount
+ObserverServiceReferentCount
 {
-ReferentCount
+ObserverServiceReferentCount
 (
 )
 :
@@ -515,13 +515,13 @@ return
 PL_DHASH_NEXT
 ;
 }
-ReferentCount
+ObserverServiceReferentCount
 *
 referentCount
 =
 static_cast
 <
-ReferentCount
+ObserverServiceReferentCount
 *
 >
 (
@@ -776,7 +776,7 @@ return
 NS_OK
 ;
 }
-ReferentCount
+ObserverServiceReferentCount
 referentCount
 ;
 service
