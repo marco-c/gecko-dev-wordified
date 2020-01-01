@@ -971,11 +971,10 @@ nsnull
 ;
 }
 }
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS4
 (
 nsXULPopupManager
 nsIDOMKeyListener
-nsIDOMEventListener
 nsIMenuRollup
 nsIRollupListener
 nsITimerCallback

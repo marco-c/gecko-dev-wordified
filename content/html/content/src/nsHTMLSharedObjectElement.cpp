@@ -1186,15 +1186,14 @@ nsHTMLSharedObjectElement
 nsGenericHTMLElement
 nsIDOMHTMLAppletElement
 )
-NS_INTERFACE_TABLE_INHERITED9
+NS_INTERFACE_TABLE_INHERITED8
 (
 nsHTMLSharedObjectElement
+imgIDecoderObserver
 nsIRequestObserver
 nsIStreamListener
 nsIFrameLoaderOwner
-imgIContainerObserver
 nsIObjectLoadingContent
-imgIDecoderObserver
 nsIImageLoadingContent
 nsIInterfaceRequestor
 nsIChannelEventSink

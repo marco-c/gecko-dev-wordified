@@ -856,11 +856,10 @@ i
 ;
 }
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS1
 (
 inDeepTreeWalker
 inIDeepTreeWalker
-nsIDOMTreeWalker
 )
 /
 /

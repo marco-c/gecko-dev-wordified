@@ -729,11 +729,10 @@ InputTestConsumer
 )
 {
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS1
 (
 InputTestConsumer
 nsIStreamListener
-nsIRequestObserver
 )
 NS_IMETHODIMP
 InputTestConsumer

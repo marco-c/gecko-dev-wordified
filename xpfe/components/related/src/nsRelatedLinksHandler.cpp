@@ -1498,11 +1498,10 @@ NS_OK
 /
 nsISupports
 interface
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS1
 (
 RelatedLinksStreamListener
 nsIStreamListener
-nsIRequestObserver
 )
 /
 /
