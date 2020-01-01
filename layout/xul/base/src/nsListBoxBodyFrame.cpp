@@ -5315,6 +5315,10 @@ scrollPosition
 x
 aPosition
 )
+nsIScrollableFrame
+:
+:
+INSTANT
 )
 ;
 mYPosition
