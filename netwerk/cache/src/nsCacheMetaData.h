@@ -462,7 +462,7 @@ h
 #
 include
 "
-nsIAtom
+nsString
 .
 h
 "
@@ -580,10 +580,7 @@ MetaElement
 *
 mNext
 ;
-nsCOMPtr
-<
-nsIAtom
->
+nsCString
 mKey
 ;
 char
