@@ -2493,7 +2493,7 @@ compiled
 in
 .
 #
-endif
+else
 if
 (
 !
@@ -2559,6 +2559,8 @@ ACTIVE
 return
 true
 ;
+#
+endif
 }
 /
 /
