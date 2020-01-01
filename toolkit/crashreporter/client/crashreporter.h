@@ -242,13 +242,13 @@ EmailGrayText
 define
 ST_REPORTPRESUBMIT
 "
-ReportPreSubmit
+ReportPreSubmit2
 "
 #
 define
 ST_REPORTDURINGSUBMIT
 "
-ReportDuringSubmit
+ReportDuringSubmit2
 "
 #
 define
@@ -266,7 +266,7 @@ ReportSubmitFailed
 define
 ST_QUIT
 "
-Quit
+Quit2
 "
 #
 define
