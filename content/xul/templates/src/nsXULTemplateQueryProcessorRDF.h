@@ -1791,9 +1791,12 @@ The
 queries
 *
 /
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsITemplateRDFQuery
+>
 >
 mQueries
 ;
