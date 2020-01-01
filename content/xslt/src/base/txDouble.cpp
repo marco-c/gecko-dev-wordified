@@ -1076,7 +1076,6 @@ mState
 eIllegal
 ;
 return
-aSourceLength
 ;
 }
 break
