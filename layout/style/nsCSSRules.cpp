@@ -7727,6 +7727,16 @@ nsCSSFontFaceStyleDecl
 :
 :
 mUnicodeRange
+&
+nsCSSFontFaceStyleDecl
+:
+:
+mFontFeatureSettings
+&
+nsCSSFontFaceStyleDecl
+:
+:
+mFontLanguageOverride
 }
 ;
 DOMCI_DATA
