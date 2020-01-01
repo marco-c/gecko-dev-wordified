@@ -687,6 +687,15 @@ stubEntry
 DataLabelPtr
 shapeVal
 ;
+#
+if
+defined
+JS_PUNBOX64
+uint32
+patchValueOffset
+;
+#
+endif
 Label
 load
 ;
