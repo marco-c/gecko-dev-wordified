@@ -489,6 +489,16 @@ _
 (
 ModI
 )
+\
+_
+(
+ModPowTwoI
+)
+\
+_
+(
+ModMaskI
+)
 #
 endif
 /
