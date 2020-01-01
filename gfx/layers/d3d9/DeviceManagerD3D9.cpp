@@ -2746,7 +2746,7 @@ i
 ;
 i
 <
-mThebesLayers
+mLayersWithResources
 .
 Length
 (
@@ -2757,7 +2757,7 @@ i
 +
 )
 {
-mThebesLayers
+mLayersWithResources
 [
 i
 ]

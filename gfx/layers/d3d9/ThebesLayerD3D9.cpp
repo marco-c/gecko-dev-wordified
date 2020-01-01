@@ -506,7 +506,7 @@ deviceManager
 )
 -
 >
-mThebesLayers
+mLayersWithResources
 .
 AppendElement
 (
@@ -540,7 +540,7 @@ deviceManager
 )
 -
 >
-mThebesLayers
+mLayersWithResources
 .
 RemoveElement
 (
