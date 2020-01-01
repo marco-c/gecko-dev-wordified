@@ -295,7 +295,7 @@ interfaces
 namespace
 CSF
 {
-DECLARE_NS_PTR
+DECLARE_PTR
 (
 CallControlManager
 )
@@ -374,10 +374,6 @@ CallControlManager
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-CallControlManager
-)
 /
 *
 *
