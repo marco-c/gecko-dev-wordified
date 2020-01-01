@@ -383,8 +383,6 @@ newName
 PropertyName
 *
 name
-InBlockBool
-inBlock
 uint32_t
 blockid
 const
@@ -407,8 +405,6 @@ newPlaceholder
 JSAtom
 *
 atom
-InBlockBool
-inBlock
 uint32_t
 blockid
 const
