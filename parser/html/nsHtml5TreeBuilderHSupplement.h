@@ -443,6 +443,11 @@ nsHtml5TreeOpStage
 *
 mSpeculativeLoadStage
 ;
+nsIContent
+*
+*
+mDeepTreeSurrogateParent
+;
 PRBool
 mCurrentHtmlScriptIsAsyncOrDefer
 ;
