@@ -21428,7 +21428,7 @@ full
 ;
 #
 ifdef
-XP_MAC
+XP_MACOSX
 this
 .
 makeCloseButton
@@ -21511,7 +21511,7 @@ toolbar
 ;
 #
 ifndef
-XP_MAC
+XP_MACOSX
 this
 .
 makeCloseButton
