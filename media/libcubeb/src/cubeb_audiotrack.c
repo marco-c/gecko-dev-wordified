@@ -1420,7 +1420,7 @@ klass
 get_min_frame_count
 (
 min_frame_count
-param
+params
 -
 >
 stream_type
@@ -1443,7 +1443,7 @@ klass
 get_min_frame_count_gingerbread
 (
 min_frame_count
-param
+params
 -
 >
 stream_type
