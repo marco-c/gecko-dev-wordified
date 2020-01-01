@@ -221,6 +221,13 @@ h
 #
 include
 "
+jsanalyzeinlines
+.
+h
+"
+#
+include
+"
 vm
 /
 Stack

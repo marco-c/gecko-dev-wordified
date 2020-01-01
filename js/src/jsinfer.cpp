@@ -258,6 +258,13 @@ h
 #
 include
 "
+jsanalyzeinlines
+.
+h
+"
+#
+include
+"
 jsatominlines
 .
 h
@@ -280,6 +287,13 @@ h
 include
 "
 jsobjinlines
+.
+h
+"
+#
+include
+"
+jsopcodeinlines
 .
 h
 "
