@@ -562,7 +562,8 @@ to
 this
 one
 .
-NS_IMETHOD
+virtual
+PRBool
 Init
 (
 )
