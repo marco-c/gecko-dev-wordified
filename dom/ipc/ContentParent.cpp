@@ -3924,6 +3924,18 @@ path
 (
 )
 ;
+PRInt32
+kind
+=
+report
+[
+i
+]
+.
+kind
+(
+)
+;
 nsCString
 desc
 =
@@ -3959,6 +3971,7 @@ nsMemoryReporter
 (
 prefix
 path
+kind
 desc
 memoryUsed
 )

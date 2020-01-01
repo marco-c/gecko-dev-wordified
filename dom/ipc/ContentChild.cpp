@@ -1717,6 +1717,9 @@ report
 nsCString
 path
 ;
+PRInt32
+kind
+;
 nsCString
 desc
 ;
@@ -1732,6 +1735,15 @@ getter_Copies
 (
 path
 )
+)
+;
+report
+-
+>
+GetKind
+(
+&
+kind
 )
 ;
 report
@@ -1790,6 +1802,7 @@ getpid
 )
 )
 path
+kind
 desc
 memoryUsed
 )
