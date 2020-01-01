@@ -473,6 +473,13 @@ ImageLogging
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+imagelib
+;
 static
 nsresult
 GetResultFromImageStatus
@@ -514,7 +521,7 @@ imgStatusTracker
 :
 imgStatusTracker
 (
-imgIContainer
+Image
 *
 aImage
 )
@@ -1168,7 +1175,7 @@ queue
 .
 nsRefPtr
 <
-imgIContainer
+Image
 >
 mImage
 ;
