@@ -2361,9 +2361,9 @@ menu_items
 mHasSoftMenuButton
 =
 !
-mActivity
+HardwareUtils
 .
-hasPermanentMenuKey
+hasMenuButton
 (
 )
 ;

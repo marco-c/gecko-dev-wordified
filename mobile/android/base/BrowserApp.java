@@ -4638,7 +4638,9 @@ actionBarRes
 if
 (
 !
-hasPermanentMenuKey
+HardwareUtils
+.
+hasMenuButton
 (
 )
 |
