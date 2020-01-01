@@ -1054,9 +1054,6 @@ hr
 =
 getThemeColor
 (
-(
-HTHEME
-)
 aTheme
 aPart
 aState
@@ -1092,9 +1089,6 @@ E_HANDLE
 {
 closeTheme
 (
-(
-HTHEME
-)
 aTheme
 )
 ;
@@ -1113,9 +1107,6 @@ hr
 =
 getThemeColor
 (
-(
-HTHEME
-)
 aTheme
 aPart
 aState
