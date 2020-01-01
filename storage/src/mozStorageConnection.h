@@ -518,11 +518,11 @@ h
 "
 #
 include
-<
+"
 sqlite3
 .
 h
->
+"
 struct
 PRLock
 ;
