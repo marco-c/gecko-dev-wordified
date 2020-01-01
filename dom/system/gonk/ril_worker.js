@@ -32548,6 +32548,12 @@ updateCellBroadcastConfig
 (
 )
 ;
+this
+.
+setPreferredNetworkType
+(
+)
+;
 }
 this
 .
@@ -33971,12 +33977,6 @@ RILQUIRKS_V5_LEGACY
 this
 .
 initRILState
-(
-)
-;
-this
-.
-setPreferredNetworkType
 (
 )
 ;
