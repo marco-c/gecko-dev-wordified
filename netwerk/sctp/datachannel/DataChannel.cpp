@@ -387,7 +387,9 @@ MOZ_CRASH
 }
 }
 while
+(
 0
+)
 #
 endif
 static
