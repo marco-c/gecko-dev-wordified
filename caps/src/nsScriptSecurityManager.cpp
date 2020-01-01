@@ -17170,10 +17170,10 @@ ar
 cx
 )
 ;
-jsval
-cidVal
+jsid
+cidId
 =
-STRING_TO_JSVAL
+INTERNED_STRING_TO_JSID
 (
 :
 :
@@ -17206,7 +17206,7 @@ LookupPolicy
 (
 subjectPrincipal
 nameData
-cidVal
+cidId
 nsIXPCSecurityManager
 :
 :
