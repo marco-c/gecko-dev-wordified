@@ -590,7 +590,7 @@ aRewriteEncodingDeclaration
 NS_IMETHOD
 AppendText
 (
-nsIContent
+nsIDOMText
 *
 aText
 PRInt32
@@ -605,7 +605,7 @@ aStr
 NS_IMETHOD
 AppendCDATASection
 (
-nsIContent
+nsIDOMCDATASection
 *
 aCDATASection
 PRInt32
@@ -620,7 +620,7 @@ aStr
 NS_IMETHOD
 AppendProcessingInstruction
 (
-nsIContent
+nsIDOMProcessingInstruction
 *
 aPI
 PRInt32
@@ -635,7 +635,7 @@ aStr
 NS_IMETHOD
 AppendComment
 (
-nsIContent
+nsIDOMComment
 *
 aComment
 PRInt32
@@ -650,7 +650,7 @@ aStr
 NS_IMETHOD
 AppendDoctype
 (
-nsIContent
+nsIDOMDocumentType
 *
 aDoctype
 nsAString
@@ -661,10 +661,10 @@ aStr
 NS_IMETHOD
 AppendElementStart
 (
-nsIContent
+nsIDOMElement
 *
 aElement
-nsIContent
+nsIDOMElement
 *
 aOriginalElement
 nsAString
@@ -675,7 +675,7 @@ aStr
 NS_IMETHOD
 AppendElementEnd
 (
-nsIContent
+nsIDOMElement
 *
 aElement
 nsAString
@@ -698,7 +698,7 @@ NS_OK
 NS_IMETHOD
 AppendDocumentStart
 (
-nsIDocument
+nsIDOMDocument
 *
 aDocument
 nsAString
@@ -1110,7 +1110,7 @@ position
 nsresult
 AppendTextData
 (
-nsIContent
+nsIDOMNode
 *
 aNode
 PRInt32
@@ -1136,7 +1136,7 @@ const
 nsAString
 &
 aURI
-nsIContent
+nsIDOMElement
 *
 aOwner
 )
@@ -1144,7 +1144,7 @@ aOwner
 void
 PopNameSpaceDeclsFor
 (
-nsIContent
+nsIDOMElement
 *
 aOwner
 )
@@ -1358,7 +1358,7 @@ const
 nsAString
 &
 aURI
-nsIContent
+nsIDOMElement
 *
 aElement
 PRBool
@@ -1395,7 +1395,7 @@ ScanNamespaceDeclarations
 nsIContent
 *
 aContent
-nsIContent
+nsIDOMElement
 *
 aOriginalElement
 const
@@ -1411,7 +1411,7 @@ SerializeAttributes
 nsIContent
 *
 aContent
-nsIContent
+nsIDOMElement
 *
 aOriginalElement
 nsAString
@@ -1582,7 +1582,7 @@ virtual
 void
 AppendEndOfElementStart
 (
-nsIContent
+nsIDOMElement
 *
 aOriginalElement
 nsIAtom
@@ -1637,7 +1637,7 @@ AfterElementStart
 nsIContent
 *
 aContent
-nsIContent
+nsIDOMElement
 *
 aOriginalElement
 nsAString
@@ -1993,7 +1993,7 @@ aStr
 void
 MaybeFlagNewlineForRootNode
 (
-nsINode
+nsIDOMNode
 *
 aNode
 )
@@ -2043,7 +2043,7 @@ mPrefix
 nsString
 mURI
 ;
-nsIContent
+nsIDOMElement
 *
 mOwner
 ;

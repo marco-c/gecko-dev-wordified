@@ -531,10 +531,10 @@ nsHTMLContentSerializer
 NS_IMETHOD
 AppendElementStart
 (
-nsIContent
+nsIDOMElement
 *
 aElement
-nsIContent
+nsIDOMElement
 *
 aOriginalElement
 nsAString
@@ -545,7 +545,7 @@ aStr
 NS_IMETHOD
 AppendElementEnd
 (
-nsIContent
+nsIDOMElement
 *
 aElement
 nsAString
@@ -556,7 +556,7 @@ aStr
 NS_IMETHOD
 AppendDocumentStart
 (
-nsIDocument
+nsIDOMDocument
 *
 aDocument
 nsAString
@@ -573,7 +573,7 @@ SerializeHTMLAttributes
 nsIContent
 *
 aContent
-nsIContent
+nsIDOMElement
 *
 aOriginalElement
 nsAString

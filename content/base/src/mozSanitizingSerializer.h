@@ -629,7 +629,7 @@ aIsWholeDocument
 NS_IMETHOD
 AppendText
 (
-nsIContent
+nsIDOMText
 *
 aText
 PRInt32
@@ -644,7 +644,7 @@ aStr
 NS_IMETHOD
 AppendCDATASection
 (
-nsIContent
+nsIDOMCDATASection
 *
 aCDATASection
 PRInt32
@@ -663,7 +663,7 @@ NS_OK
 NS_IMETHOD
 AppendProcessingInstruction
 (
-nsIContent
+nsIDOMProcessingInstruction
 *
 aPI
 PRInt32
@@ -682,7 +682,7 @@ NS_OK
 NS_IMETHOD
 AppendComment
 (
-nsIContent
+nsIDOMComment
 *
 aComment
 PRInt32
@@ -701,7 +701,7 @@ NS_OK
 NS_IMETHOD
 AppendDoctype
 (
-nsIContent
+nsIDOMDocumentType
 *
 aDoctype
 nsAString
@@ -716,10 +716,10 @@ NS_OK
 NS_IMETHOD
 AppendElementStart
 (
-nsIContent
+nsIDOMElement
 *
 aElement
-nsIContent
+nsIDOMElement
 *
 aOriginalElement
 nsAString
@@ -730,7 +730,7 @@ aStr
 NS_IMETHOD
 AppendElementEnd
 (
-nsIContent
+nsIDOMElement
 *
 aElement
 nsAString
@@ -749,7 +749,7 @@ aStr
 NS_IMETHOD
 AppendDocumentStart
 (
-nsIDocument
+nsIDOMDocument
 *
 aDocument
 nsAString
