@@ -2251,7 +2251,7 @@ exclude_list
 find_tests
 (
 test_dir
-arg
+exclude
 )
         
 test_list
