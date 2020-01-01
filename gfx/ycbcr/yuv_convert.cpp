@@ -260,7 +260,10 @@ to
 bit
 ARGB
 .
+NS_GFX_
+(
 void
+)
 ConvertYCbCrToRGB32
 (
 const
