@@ -494,6 +494,9 @@ nsIPresShell
 class
 nsIChannel
 ;
+class
+nsTableColFrame
+;
 /
 *
 *
@@ -1490,7 +1493,7 @@ nsStyleContext
 aContext
 )
 ;
-nsIFrame
+nsTableColFrame
 *
 NS_NewTableColFrame
 (

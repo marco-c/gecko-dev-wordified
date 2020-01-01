@@ -1091,7 +1091,7 @@ methods
 -
 *
 /
-nsIFrame
+nsTableColFrame
 *
 NS_NewTableColFrame
 (

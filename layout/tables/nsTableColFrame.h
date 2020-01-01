@@ -600,7 +600,7 @@ created
 *
 /
 friend
-nsIFrame
+nsTableColFrame
 *
 NS_NewTableColFrame
 (
@@ -758,10 +758,9 @@ represents
 always
 >
 =
-0
+1
 *
 /
-virtual
 PRInt32
 GetSpan
 (
