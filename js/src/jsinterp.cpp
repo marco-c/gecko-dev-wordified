@@ -6238,7 +6238,7 @@ n
 \
 obj
 =
-ToObject
+ToObjectFromStack
 (
 cx
 (

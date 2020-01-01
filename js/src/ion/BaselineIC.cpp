@@ -27000,7 +27000,7 @@ RootedObject
 obj
 (
 cx
-ToObject
+ToObjectFromStack
 (
 cx
 objv
