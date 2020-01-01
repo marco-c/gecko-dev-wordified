@@ -449,15 +449,6 @@ Components
 results
 ;
 const
-GUID_ANNO
-=
-"
-sync
-/
-guid
-"
-;
-const
 HISTORY_TTL
 =
 5184000
