@@ -504,6 +504,13 @@ h
 #
 include
 "
+nsIDOMAbstractView
+.
+h
+"
+#
+include
+"
 nsIDOMCharacterData
 .
 h
@@ -519,6 +526,13 @@ h
 include
 "
 nsPIDOMWindow
+.
+h
+"
+#
+include
+"
+nsIDOMDocumentView
 .
 h
 "

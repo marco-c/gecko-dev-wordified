@@ -529,6 +529,13 @@ h
 #
 include
 "
+nsIDOMAbstractView
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h

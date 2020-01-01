@@ -34,8 +34,6 @@ offset
 *
 -
 *
-/
-/
 *
 *
 *
@@ -999,6 +997,13 @@ h
 include
 "
 nsRuleWalker
+.
+h
+"
+#
+include
+"
+nsIDOMViewCSS
 .
 h
 "

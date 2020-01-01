@@ -2668,9 +2668,9 @@ PR_TRUE
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsIDOMViewCSS
 >
-window
+viewCSS
 ;
 res
 =
@@ -2682,13 +2682,13 @@ GetDefaultViewCSS
 aElement
 getter_AddRefs
 (
-window
+viewCSS
 )
 )
 ;
 NS_ENSURE_TRUE
 (
-window
+viewCSS
 NS_ERROR_FAILURE
 )
 ;
@@ -2714,7 +2714,7 @@ element
 node
 res
 =
-window
+viewCSS
 -
 >
 GetComputedStyle

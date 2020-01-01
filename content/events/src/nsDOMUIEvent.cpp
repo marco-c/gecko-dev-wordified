@@ -1184,7 +1184,7 @@ nsDOMUIEvent
 :
 GetView
 (
-nsIDOMWindow
+nsIDOMAbstractView
 *
 *
 aView
@@ -1239,7 +1239,7 @@ PRBool
 canBubbleArg
 PRBool
 cancelableArg
-nsIDOMWindow
+nsIDOMAbstractView
 *
 viewArg
 PRInt32
@@ -2327,6 +2327,18 @@ aPresContext
 aEvent
 )
 ;
+if
+(
+nsnull
+=
+=
+it
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
+;
+}
 return
 CallQueryInterface
 (

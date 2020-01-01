@@ -732,7 +732,7 @@ PRBool
 aCanBubble
 PRBool
 aCancelable
-nsIDOMWindow
+nsIDOMAbstractView
 *
 aView
 PRInt32
@@ -841,6 +841,18 @@ aPresContext
 aEvent
 )
 ;
+if
+(
+nsnull
+=
+=
+it
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
+;
+}
 return
 CallQueryInterface
 (

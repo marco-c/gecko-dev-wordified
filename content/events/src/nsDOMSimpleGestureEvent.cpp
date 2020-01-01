@@ -721,7 +721,7 @@ PRBool
 aCanBubbleArg
 PRBool
 aCancelableArg
-nsIDOMWindow
+nsIDOMAbstractView
 *
 aViewArg
 PRInt32

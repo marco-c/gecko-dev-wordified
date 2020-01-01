@@ -603,6 +603,13 @@ h
 #
 include
 "
+nsIDOMViewCSS
+.
+h
+"
+#
+include
+"
 nsIDOMEventTarget
 .
 h
@@ -2070,6 +2077,8 @@ nsIDOM3EventTarget
 public
 nsIDOMNSEventTarget
 public
+nsIDOMViewCSS
+public
 nsIDOMStorageWindow
 public
 nsIDOMStorageIndexedDB
@@ -2781,6 +2790,14 @@ UpdateTouchState
 (
 )
 ;
+/
+/
+nsIDOMViewCSS
+NS_DECL_NSIDOMVIEWCSS
+/
+/
+nsIDOMAbstractView
+NS_DECL_NSIDOMABSTRACTVIEW
 /
 /
 nsIDOMStorageWindow

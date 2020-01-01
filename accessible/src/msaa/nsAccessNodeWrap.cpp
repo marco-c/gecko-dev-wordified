@@ -528,6 +528,13 @@ h
 #
 include
 "
+nsIDOMViewCSS
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h

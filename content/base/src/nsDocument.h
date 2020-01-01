@@ -514,6 +514,13 @@ h
 #
 include
 "
+nsIDOMDocumentView
+.
+h
+"
+#
+include
+"
 nsIDOMDocumentXBL
 .
 h
@@ -2860,6 +2867,8 @@ nsIDOM3DocumentEvent
 public
 nsIDOMNSDocumentStyle
 public
+nsIDOMDocumentView
+public
 nsIDOMDocumentRange
 public
 nsIDOMDocumentTraversal
@@ -4544,6 +4553,10 @@ NS_DECL_NSIDOMDOCUMENTSTYLE
 /
 nsIDOMNSDocumentStyle
 NS_DECL_NSIDOMNSDOCUMENTSTYLE
+/
+/
+nsIDOMDocumentView
+NS_DECL_NSIDOMDOCUMENTVIEW
 /
 /
 nsIDOMDocumentRange
@@ -6862,6 +6875,13 @@ NS_INTERFACE_TABLE_ENTRY_AMBIGUOUS
 (
 _class
 nsIDOMDocumentEvent
+nsDocument
+)
+\
+NS_INTERFACE_TABLE_ENTRY_AMBIGUOUS
+(
+_class
+nsIDOMDocumentView
 nsDocument
 )
 \
