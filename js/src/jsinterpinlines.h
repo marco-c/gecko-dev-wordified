@@ -4892,10 +4892,6 @@ cx
 obj
 idval
 idp
-.
-address
-(
-)
 vp
 )
 ;
@@ -4959,8 +4955,11 @@ obj
 return
 false
 ;
-jsid
+RootedId
 dummy
+(
+cx
+)
 ;
 if
 (
