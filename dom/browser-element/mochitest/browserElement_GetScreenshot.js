@@ -22,14 +22,14 @@ runTest
 (
 )
 {
-browserElementTestHelpers
+browserFrameHelpers
 .
 setEnabledPref
 (
 true
 )
 ;
-browserElementTestHelpers
+browserFrameHelpers
 .
 addToWhitelist
 (
