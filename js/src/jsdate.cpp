@@ -8465,7 +8465,7 @@ if
 GetUTCTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -8513,7 +8513,7 @@ if
 GetAndCacheLocalTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -8649,7 +8649,7 @@ if
 GetUTCTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -8711,7 +8711,7 @@ if
 GetAndCacheLocalTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -8773,7 +8773,7 @@ if
 GetUTCTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -8835,7 +8835,7 @@ if
 GetAndCacheLocalTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -8897,7 +8897,7 @@ if
 GetUTCTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -8959,7 +8959,7 @@ if
 GetAndCacheLocalTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -9021,7 +9021,7 @@ if
 GetUTCTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -9083,7 +9083,7 @@ if
 GetAndCacheLocalTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -9145,7 +9145,7 @@ if
 GetUTCTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -9207,7 +9207,7 @@ if
 GetAndCacheLocalTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -9269,7 +9269,7 @@ if
 GetUTCTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -9342,7 +9342,7 @@ if
 GetUTCTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -9415,7 +9415,7 @@ if
 GetUTCTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -9479,7 +9479,7 @@ result
 ;
 obj
 =
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -9592,7 +9592,7 @@ JSObject
 *
 obj
 =
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -9734,7 +9734,7 @@ result
 ;
 obj
 =
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -10474,7 +10474,7 @@ result
 ;
 obj
 =
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -11023,7 +11023,7 @@ JSObject
 *
 obj
 =
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -11538,7 +11538,7 @@ if
 GetUTCTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -12690,7 +12690,7 @@ utctime
 ;
 obj
 =
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -13403,7 +13403,7 @@ if
 GetUTCTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -13449,7 +13449,7 @@ if
 GetUTCTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -13526,7 +13526,7 @@ if
 GetUTCTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -13671,7 +13671,7 @@ if
 GetUTCTime
 (
 cx
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -14809,11 +14809,11 @@ proto
 toGMTStringId
 toUTCStringFun
 .
-value
+addr
 (
 )
-JS_PropertyStub
-JS_PropertyStub
+PropertyStub
+PropertyStub
 0
 )
 )

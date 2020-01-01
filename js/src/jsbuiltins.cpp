@@ -1991,16 +1991,8 @@ initSharingEmptyScope
 (
 &
 js_FunctionClass
-ObjectTag
-(
-*
 proto
-)
-ObjectTag
-(
-*
 parent
-)
 PrivateTag
 (
 fun
