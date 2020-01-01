@@ -519,6 +519,8 @@ context
 GtkSelectionData
 *
 selection_data
+guint
+info
 guint32
 aTime
 )
