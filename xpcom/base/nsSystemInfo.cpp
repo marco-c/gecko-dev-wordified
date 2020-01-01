@@ -827,6 +827,8 @@ N900
 )
 )
 ;
+break
+;
 }
 else
 if
@@ -881,6 +883,8 @@ N8xx
 )
 )
 ;
+break
+;
 }
 }
 }
@@ -891,6 +895,11 @@ line
 free
 (
 line
+)
+;
+fclose
+(
+fp
 )
 ;
 }
