@@ -1697,7 +1697,7 @@ good
 )
 mScanDelay
 (
-1
+10
 )
 {
 #
