@@ -544,14 +544,6 @@ SECTION
 TITLE
 )
 ;
-/
-/
-version
-(
-"
-130
-"
-)
 new
 TestCase
 (
