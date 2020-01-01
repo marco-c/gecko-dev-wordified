@@ -4360,12 +4360,6 @@ updateURI
 (
 )
 ;
-IdentityUI
-.
-checkIdentity
-(
-)
-;
 let
 event
 =

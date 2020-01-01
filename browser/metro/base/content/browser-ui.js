@@ -784,12 +784,6 @@ init
 (
 )
 ;
-IdentityUI
-.
-init
-(
-)
-;
 if
 (
 Browser
