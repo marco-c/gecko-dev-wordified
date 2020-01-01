@@ -9649,7 +9649,7 @@ baseobj
 gc
 :
 :
-FinalizeKind
+AllocKind
 kind
 =
 GuessObjectGCKind

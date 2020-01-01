@@ -781,16 +781,6 @@ free
 things
 *
 /
-CGCT_WRONGTAG
-/
-*
-tagged
-pointer
-but
-wrong
-type
-*
-/
 CGCT_NOTLIVE
 /
 *
@@ -1023,7 +1013,7 @@ COMPARTMENT
 LASTDITCH
 TOOMUCHMALLOC
 ALLOCTRIGGER
-CHUNK
+REFILL
 SHAPE
 NOREASON
 }

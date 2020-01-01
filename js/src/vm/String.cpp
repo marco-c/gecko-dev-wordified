@@ -6,6 +6,8 @@
 Mode
 :
 C
++
++
 ;
 tab
 -
@@ -487,12 +489,8 @@ const
 bool
 is_short
 =
-arenaHeader
 (
-)
--
->
-getThingKind
+getAllocKind
 (
 )
 =
@@ -501,6 +499,7 @@ gc
 :
 :
 FINALIZE_SHORT_STRING
+)
 ;
 JS_ASSERT_IF
 (
@@ -581,12 +580,8 @@ const
 bool
 is_external
 =
-arenaHeader
 (
-)
--
->
-getThingKind
+getAllocKind
 (
 )
 =
@@ -595,6 +590,7 @@ gc
 :
 :
 FINALIZE_EXTERNAL_STRING
+)
 ;
 JS_ASSERT_IF
 (

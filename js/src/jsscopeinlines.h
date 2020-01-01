@@ -596,15 +596,10 @@ js
 Class
 *
 aclasp
-/
-*
 gc
 :
 :
-FinalizeKind
-*
-/
-unsigned
+AllocKind
 kind
 )
 {
