@@ -1543,17 +1543,6 @@ _initTimer
 (
 )
 ;
-/
-/
-build
-the
-list
-this
-.
-update
-(
-)
-;
 }
 update
 :
