@@ -3388,6 +3388,7 @@ observers
 nsTObserverArray
 <
 nsICSSLoaderObserver
+*
 >
 mObservers
 ;

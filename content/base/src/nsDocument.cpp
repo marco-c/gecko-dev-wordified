@@ -5971,7 +5971,7 @@ slots
 >
 mMutationObservers
 .
-PrependObserver
+PrependElementUnlessExists
 (
 this
 )
@@ -10999,7 +10999,7 @@ NS_ENSURE_TRUE
 (
 mPresShells
 .
-AppendObserverUnlessExists
+AppendElementUnlessExists
 (
 shell
 )
@@ -11032,7 +11032,7 @@ aShell
 return
 mPresShells
 .
-RemoveObserver
+RemoveElement
 (
 aShell
 )
@@ -11055,9 +11055,10 @@ nsnull
 :
 mPresShells
 .
-SafeObserverAt
+SafeElementAt
 (
 0
+nsnull
 )
 ;
 }
@@ -13872,7 +13873,7 @@ the
 list
 mObservers
 .
-AppendObserverUnlessExists
+AppendElementUnlessExists
 (
 aObserver
 )
@@ -13968,7 +13969,7 @@ aObserver
 return
 mObservers
 .
-RemoveObserver
+RemoveElement
 (
 aObserver
 )
