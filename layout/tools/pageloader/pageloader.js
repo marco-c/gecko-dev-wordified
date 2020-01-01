@@ -1142,17 +1142,6 @@ getBrowser
 (
 )
 ;
-content
-.
-addEventListener
-(
-'
-load
-'
-plLoadHandler
-true
-)
-;
 setTimeout
 (
 plLoadPage
@@ -1295,7 +1284,7 @@ own
 timing
 use
 a
-capturig
+capturing
 handler
 /
 /
