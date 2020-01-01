@@ -606,6 +606,17 @@ size_t
 index
 )
 ;
+MDefinition
+*
+simplify
+(
+MDefinition
+*
+def
+bool
+useValueNumbers
+)
+;
 bool
 eliminateRedundancies
 (
