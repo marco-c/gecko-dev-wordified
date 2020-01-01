@@ -819,7 +819,7 @@ script
 >
 getName
 (
-GET_INDEX
+GET_UINT32_INDEX
 (
 f
 .
@@ -1084,7 +1084,7 @@ script
 >
 getName
 (
-GET_INDEX
+GET_UINT32_INDEX
 (
 f
 .
@@ -1559,7 +1559,7 @@ script
 >
 getName
 (
-GET_INDEX
+GET_UINT32_INDEX
 (
 f
 .

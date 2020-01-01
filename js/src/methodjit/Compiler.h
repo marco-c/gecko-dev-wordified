@@ -3338,14 +3338,6 @@ uint32_t
 pushed
 )
 ;
-uint32_t
-fullAtomIndex
-(
-jsbytecode
-*
-pc
-)
-;
 bool
 jumpInScript
 (

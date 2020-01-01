@@ -51,7 +51,7 @@ true
 trap
 (
 myparent
-28
+36
 "
 success
 (
@@ -89,7 +89,7 @@ false
 trap
 (
 myparent
-41
+51
 "
 myparent
 (

@@ -32,7 +32,7 @@ parent
 untrap
 (
 parent
-10
+16
 )
 ;
 x
@@ -64,7 +64,7 @@ parent
 trap
 (
 parent
-10
+16
 "
 child
 (

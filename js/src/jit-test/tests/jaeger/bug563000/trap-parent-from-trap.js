@@ -39,7 +39,7 @@ parent
 trap
 (
 parent
-10
+16
 "
 success
 (

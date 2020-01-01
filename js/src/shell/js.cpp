@@ -10569,7 +10569,7 @@ jmplen
 ;
 n
 =
-GET_INDEX
+GET_UINT16
 (
 pc
 )
@@ -10577,7 +10577,7 @@ pc
 pc
 +
 =
-INDEX_LEN
+UINT16_LEN
 ;
 jmplen
 +

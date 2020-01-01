@@ -15410,7 +15410,7 @@ JSOP_LOOKUPSWITCH
 pc
 +
 =
-INDEX_LEN
+UINT32_INDEX_LEN
 ;
 size_t
 target
