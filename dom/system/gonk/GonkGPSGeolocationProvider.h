@@ -576,9 +576,9 @@ mInitThread
 ;
 nsCOMPtr
 <
-nsIRadioInterfaceLayer
+nsIRadioInterface
 >
-mRIL
+mRadioInterface
 ;
 }
 ;
