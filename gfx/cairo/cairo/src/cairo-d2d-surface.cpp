@@ -20326,12 +20326,7 @@ style
 >
 line_width
 strokeStyle
-D2D1
-:
-:
-IdentityMatrix
-(
-)
+mat
 &
 bounds
 )
