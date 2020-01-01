@@ -108,7 +108,7 @@ objects
 The
 purpose
 of
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 (
 )
 is
@@ -130,7 +130,7 @@ do
 that
 /
 /
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 (
 )
 has
@@ -1040,7 +1040,7 @@ EXPORT_XPCOM_API
 (
 nsresult
 )
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 (
 nsISupports
 *
