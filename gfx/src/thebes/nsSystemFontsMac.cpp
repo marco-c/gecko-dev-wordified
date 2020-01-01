@@ -1036,7 +1036,7 @@ eSystemFont_Field
 :
 fontID
 =
-kThemeApplicationFont
+kThemeSmallSystemFont
 ;
 break
 ;
