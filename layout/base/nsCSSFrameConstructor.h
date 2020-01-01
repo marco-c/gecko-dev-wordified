@@ -2738,8 +2738,8 @@ nsIFrame
 &
 aNewFrame
 PRBool
-&
-aIsPseudoParent
+*
+aHasPseudoParent
 )
 ;
 nsresult
@@ -2769,8 +2769,8 @@ nsIFrame
 &
 aNewFrame
 PRBool
-&
-aIsPseudoParent
+*
+aHasPseudoParent
 )
 ;
 nsresult
@@ -2800,8 +2800,8 @@ nsIFrame
 &
 aNewFrame
 PRBool
-&
-aIsPseudoParent
+*
+aHasPseudoParent
 )
 ;
 nsresult
@@ -2831,8 +2831,8 @@ nsIFrame
 &
 aNewFrame
 PRBool
-&
-aIsPseudoParent
+*
+aHasPseudoParent
 )
 ;
 nsresult
@@ -2862,8 +2862,8 @@ nsIFrame
 &
 aNewFrame
 PRBool
-&
-aIsPseudoParent
+*
+aHasPseudoParent
 )
 ;
 nsresult
@@ -2897,8 +2897,8 @@ nsIFrame
 &
 aNewCellInnerFrame
 PRBool
-&
-aIsPseudoParent
+*
+aHasPseudoParent
 )
 ;
 nsresult
