@@ -806,7 +806,7 @@ ADDRESS
 Kind
 kind_
 :
-3
+4
 ;
 int32
 index_
@@ -816,7 +816,7 @@ index_
 Scale
 scale_
 :
-2
+3
 ;
 int32
 base_

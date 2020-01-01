@@ -1092,7 +1092,7 @@ SCALE
 Kind
 kind_
 :
-2
+3
 ;
 int32
 base_
@@ -1102,7 +1102,7 @@ base_
 Scale
 scale_
 :
-2
+3
 ;
 int32
 disp_
