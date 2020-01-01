@@ -4724,6 +4724,15 @@ FrameEntry
 arg
 )
 ;
+CompileStatus
+compileParseInt
+(
+JSValueType
+argType
+uint32_t
+argc
+)
+;
 void
 prepareStubCall
 (
