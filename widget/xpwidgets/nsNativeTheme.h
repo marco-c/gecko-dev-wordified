@@ -174,9 +174,13 @@ nsITimer
 .
 h
 "
-class
+#
+include
+"
 nsIContent
-;
+.
+h
+"
 class
 nsIFrame
 ;
