@@ -4905,6 +4905,10 @@ mGLMaxCubeMapTextureSize
 =
 MINVALUE_GL_MAX_CUBE_MAP_TEXTURE_SIZE
 ;
+mGLMaxRenderbufferSize
+=
+MINVALUE_GL_MAX_RENDERBUFFER_SIZE
+;
 mGLMaxTextureImageUnits
 =
 MINVALUE_GL_MAX_TEXTURE_IMAGE_UNITS
@@ -4934,6 +4938,16 @@ fGetIntegerv
 LOCAL_GL_MAX_CUBE_MAP_TEXTURE_SIZE
 &
 mGLMaxCubeMapTextureSize
+)
+;
+gl
+-
+>
+fGetIntegerv
+(
+LOCAL_GL_MAX_RENDERBUFFER_SIZE
+&
+mGLMaxRenderbufferSize
 )
 ;
 gl

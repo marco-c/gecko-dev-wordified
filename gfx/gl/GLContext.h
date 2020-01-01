@@ -6563,15 +6563,6 @@ extension
 )
 ;
 GLint
-GetMaxTextureSize
-(
-)
-{
-return
-mMaxTextureSize
-;
-}
-GLint
 GetMaxTextureImageSize
 (
 )
