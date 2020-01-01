@@ -772,6 +772,15 @@ PRUint32
 aLineNumber
 )
 ;
+PRBool
+NotifyForDocElement
+(
+)
+{
+return
+PR_FALSE
+;
+}
 nsresult
 CreateElement
 (

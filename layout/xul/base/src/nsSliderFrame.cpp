@@ -1657,16 +1657,6 @@ current
 ;
 }
 }
-nsAutoString
-currentStr
-;
-currentStr
-.
-AppendInt
-(
-current
-)
-;
 nsContentUtils
 :
 :
@@ -1680,7 +1670,7 @@ nsGkAtoms
 :
 :
 curpos
-currentStr
+current
 )
 )
 ;
