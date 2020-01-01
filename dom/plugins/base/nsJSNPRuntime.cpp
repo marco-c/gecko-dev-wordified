@@ -1924,15 +1924,7 @@ OnWrapperDestroyed
 }
 }
 ;
-namespace
-mozilla
-{
-namespace
-plugins
-{
-namespace
-parent
-{
+static
 JSContext
 *
 GetJSContext
@@ -2072,9 +2064,6 @@ GetNativeContext
 (
 )
 ;
-}
-}
-}
 }
 static
 NPP
