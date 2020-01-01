@@ -3536,7 +3536,7 @@ this
 .
 activeRange
 .
-overlaps
+contains
 (
 range
 )

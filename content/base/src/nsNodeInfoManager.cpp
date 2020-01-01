@@ -643,7 +643,7 @@ mName
 return
 HashString
 (
-nsDependentAtomString
+nsAtomString
 (
 node
 -
