@@ -1226,6 +1226,17 @@ shutdownManager
 (
 )
 ;
+do_check_false
+(
+isExtensionInAddonsList
+(
+profileDir
+olda1
+.
+id
+)
+)
+;
 startupManager
 (
 )
