@@ -2919,6 +2919,9 @@ we
 re
 on
 a
+non
+-
+mailto
 link
 .
 this
@@ -2933,6 +2936,12 @@ copylink
 this
 .
 onLink
+&
+&
+!
+this
+.
+onMailtoLink
 )
 ;
 this
