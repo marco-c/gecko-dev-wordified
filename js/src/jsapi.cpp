@@ -5721,7 +5721,7 @@ init
 )
 )
 return
-false
+NULL
 ;
 js_NewRuntimeWasCalled
 =
