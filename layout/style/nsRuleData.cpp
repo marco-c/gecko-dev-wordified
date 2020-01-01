@@ -607,6 +607,9 @@ mValueStorage
 aValueStorage
 )
 {
+#
+ifndef
+MOZ_VALGRIND
 size_t
 framePoisonOffset
 =
@@ -638,6 +641,8 @@ i
 framePoisonOffset
 ;
 }
+#
+endif
 }
 #
 ifdef
@@ -650,6 +655,9 @@ nsRuleData
 (
 )
 {
+#
+ifndef
+MOZ_VALGRIND
 /
 /
 assert
@@ -717,6 +725,8 @@ offset
 )
 ;
 }
+#
+endif
 }
 #
 endif
