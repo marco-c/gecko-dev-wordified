@@ -1280,6 +1280,9 @@ mStarted
 PRPackedBool
 mCached
 ;
+PRPackedBool
+mIsJavaPlugin
+;
 public
 :
 /
