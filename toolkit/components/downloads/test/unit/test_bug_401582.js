@@ -418,6 +418,10 @@ upon
 service
 initialization
 .
+cleanup
+(
+)
+;
 importDownloadsFile
 (
 "
@@ -555,6 +559,10 @@ tests
 [
 i
 ]
+(
+)
+;
+cleanup
 (
 )
 ;
