@@ -2401,7 +2401,7 @@ lastVisit
 jan7_800
 }
 {
-isPageAnnotation
+isDetails
 :
 true
 uri
@@ -2419,6 +2419,9 @@ begin
 .
 html
 "
+isPageAnnotation
+:
+true
 annoName
 :
 badAnnoName
