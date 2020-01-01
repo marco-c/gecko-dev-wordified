@@ -1519,20 +1519,6 @@ input
 truncated
 code
 unit
-/
-/
-TODO
-:
-Gecko
-doesn
-'
-t
-throw
-for
-unpaired
-surrogates
-/
-/
 {
 encoding
 :
@@ -1552,8 +1538,6 @@ input
 /
 surrogate
 half
-/
-/
 {
 encoding
 :
@@ -1575,8 +1559,6 @@ input
 /
 surrogate
 half
-/
-/
 {
 encoding
 :
@@ -1598,8 +1580,6 @@ input
 /
 trail
 surrogate
-/
-/
 {
 encoding
 :
