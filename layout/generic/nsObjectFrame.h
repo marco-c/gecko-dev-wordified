@@ -1511,6 +1511,9 @@ aDirtyRect
 void
 PaintPlugin
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIRenderingContext
 &
 aRenderingContext
