@@ -611,6 +611,8 @@ goToNext
 ;
 }
 }
+break
+;
 case
 "
 MozAppbarShowing
@@ -635,6 +637,8 @@ hide
 )
 ;
 }
+break
+;
 }
 }
 show
