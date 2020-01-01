@@ -7366,6 +7366,7 @@ showAddBookmarkUI
 (
 null
 null
+null
 ip
 )
 ;
@@ -7385,6 +7386,7 @@ PlacesUtils
 .
 showAddLivemarkUI
 (
+null
 null
 null
 null
