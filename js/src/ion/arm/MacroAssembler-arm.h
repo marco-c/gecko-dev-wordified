@@ -3959,6 +3959,17 @@ FloatRegister
 reg
 )
 ;
+Condition
+testStringTruthy
+(
+bool
+truthy
+const
+ValueOperand
+&
+value
+)
+;
 template
 <
 typename

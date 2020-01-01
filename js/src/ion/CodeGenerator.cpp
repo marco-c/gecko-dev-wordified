@@ -1651,6 +1651,8 @@ notString
 ;
 cond
 =
+masm
+.
 testStringTruthy
 (
 false
