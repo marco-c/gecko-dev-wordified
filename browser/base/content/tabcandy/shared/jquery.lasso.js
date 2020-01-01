@@ -323,6 +323,14 @@ e
 {
 if
 (
+Utils
+.
+isRightClick
+(
+e
+)
+|
+|
 (
 e
 .
