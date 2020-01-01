@@ -446,6 +446,13 @@ h
 #
 include
 "
+nsDOMStorageBaseDB
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h
@@ -462,6 +469,9 @@ nsDOMStoragePersistentDB
 ;
 class
 nsDOMStorageMemoryDB
+:
+public
+nsDOMStorageBaseDB
 {
 public
 :
