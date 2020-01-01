@@ -5619,6 +5619,11 @@ promptMessages
 {
 }
 ;
+let
+self
+=
+this
+;
 function
 reportError
 (
@@ -5679,7 +5684,7 @@ notify
 our
 observers
 .
-this
+self
 .
 _pageMarkInfo
 =
@@ -5701,7 +5706,7 @@ mark
 -
 config
 "
-this
+self
 .
 origin
 )
