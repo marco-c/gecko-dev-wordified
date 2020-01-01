@@ -70,11 +70,6 @@ success
 "
 ;
 }
-dis
-(
-parent
-)
-;
 parent
 (
 )
