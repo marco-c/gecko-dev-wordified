@@ -12537,7 +12537,7 @@ getArrayLength
 obj
 -
 >
-setArrayLength
+setDenseArrayLength
 (
 i
 +
