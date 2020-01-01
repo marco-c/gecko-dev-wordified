@@ -7166,6 +7166,9 @@ we
 return
 now
 .
+PRBool
+optionalBreakAfterFits
+;
 if
 (
 CanPlaceFrame
@@ -7180,6 +7183,8 @@ savedOptionalBreakContent
 nsnull
 metrics
 aReflowStatus
+&
+optionalBreakAfterFits
 )
 )
 {
@@ -7370,7 +7375,7 @@ GetContent
 (
 )
 PR_INT32_MAX
-PR_TRUE
+optionalBreakAfterFits
 )
 )
 {
@@ -7980,6 +7985,9 @@ aMetrics
 nsReflowStatus
 &
 aStatus
+PRBool
+*
+aOptionalBreakAfterFits
 )
 {
 NS_PRECONDITION
@@ -8001,6 +8009,11 @@ frame
 data
 "
 )
+;
+*
+aOptionalBreakAfterFits
+=
+PR_TRUE
 ;
 /
 /
@@ -8483,6 +8496,11 @@ return
 PR_TRUE
 ;
 }
+*
+aOptionalBreakAfterFits
+=
+PR_FALSE
+;
 /
 /
 When

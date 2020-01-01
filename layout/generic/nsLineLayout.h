@@ -1642,6 +1642,10 @@ aFits
 NS_ASSERTION
 (
 !
+aFits
+|
+|
+!
 GetFlag
 (
 LL_NEEDBACKUP
@@ -1655,6 +1659,11 @@ updating
 the
 break
 position
+with
+a
+break
+that
+fits
 after
 we
 '
@@ -2996,6 +3005,9 @@ aMetrics
 nsReflowStatus
 &
 aStatus
+PRBool
+*
+aOptionalBreakAfterFits
 )
 ;
 void
