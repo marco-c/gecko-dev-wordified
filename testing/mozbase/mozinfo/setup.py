@@ -59,7 +59,6 @@ from
 setuptools
 import
 setup
-find_packages
 PACKAGE_VERSION
 =
 '
@@ -220,17 +219,22 @@ mozilla
 author
 =
 '
-Jeff
-Hammel
+Mozilla
+Automation
+and
+Testing
+Team
 '
       
 author_email
 =
 '
-jhammel
+tools
+lists
+.
 mozilla
 .
-com
+org
 '
       
 url
@@ -249,6 +253,10 @@ org
 Auto
 -
 tools
+/
+Projects
+/
+MozBase
 '
       
 license
@@ -259,16 +267,11 @@ MPL
       
 packages
 =
-find_packages
-(
-exclude
-=
 [
 '
-legacy
+mozinfo
 '
 ]
-)
       
 include_package_data
 =
