@@ -1220,11 +1220,6 @@ nsFixedSizeAllocator
 *
 kAttrPool
 ;
-static
-nsFixedSizeAllocator
-*
-kInsPool
-;
 /
 /
 Internal
