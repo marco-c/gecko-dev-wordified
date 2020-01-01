@@ -18795,6 +18795,16 @@ region
 ;
 if
 (
+count
+=
+=
+0
+)
+return
+TRUE
+;
+if
+(
 !
 pixman_rect_alloc
 (
