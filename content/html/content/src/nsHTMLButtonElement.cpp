@@ -1257,12 +1257,11 @@ nsHTMLButtonElement
 Name
 name
 )
-NS_IMPL_INT_ATTR_DEFAULT_VALUE
+NS_IMPL_INT_ATTR
 (
 nsHTMLButtonElement
 TabIndex
 tabindex
-0
 )
 NS_IMPL_STRING_ATTR
 (

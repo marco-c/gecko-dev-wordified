@@ -907,12 +907,11 @@ nsHTMLAreaElement
 Shape
 shape
 )
-NS_IMPL_INT_ATTR_DEFAULT_VALUE
+NS_IMPL_INT_ATTR
 (
 nsHTMLAreaElement
 TabIndex
 tabindex
-0
 )
 NS_IMETHODIMP
 nsHTMLAreaElement

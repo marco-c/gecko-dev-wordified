@@ -7178,8 +7178,7 @@ NS_IMPL_INT_ATTR_DEFAULT_VALUE
 _class
 _method
 _atom
--
-1
+0
 )
 #
 define

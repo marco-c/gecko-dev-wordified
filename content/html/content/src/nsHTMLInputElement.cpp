@@ -5670,12 +5670,11 @@ nsHTMLInputElement
 Src
 src
 )
-NS_IMPL_INT_ATTR_DEFAULT_VALUE
+NS_IMPL_INT_ATTR
 (
 nsHTMLInputElement
 TabIndex
 tabindex
-0
 )
 NS_IMPL_STRING_ATTR
 (
