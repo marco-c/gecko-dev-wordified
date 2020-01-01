@@ -378,6 +378,17 @@ nsIContent
 >
 menuitem
 ;
+nsCOMPtr
+<
+nsIDOMHTMLElement
+>
+element
+=
+do_QueryInterface
+(
+aElement
+)
+;
 nsresult
 rv
 =
@@ -387,7 +398,7 @@ nsGkAtoms
 :
 :
 menuitem
-aElement
+element
 getter_AddRefs
 (
 menuitem

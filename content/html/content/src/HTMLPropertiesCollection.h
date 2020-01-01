@@ -603,7 +603,7 @@ collection
 is
 rooted
 at
-nsCOMPtr
+nsRefPtr
 <
 nsGenericHTMLElement
 >
