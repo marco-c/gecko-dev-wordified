@@ -628,17 +628,6 @@ aInstance
 )
 ;
 nsresult
-HandleBadPlugin
-(
-PRLibrary
-*
-aLibrary
-nsNPAPIPluginInstance
-*
-aInstance
-)
-;
-nsresult
 GetPluginTagForInstance
 (
 nsNPAPIPluginInstance
@@ -1428,9 +1417,6 @@ mPlayPreviewMimeTypes
 ;
 bool
 mPluginsLoaded
-;
-bool
-mDontShowBadPluginMessage
 ;
 /
 /
