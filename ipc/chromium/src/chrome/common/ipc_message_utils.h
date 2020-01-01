@@ -2124,7 +2124,7 @@ p
 m
 -
 >
-WriteInt
+WriteInt16
 (
 p
 )
@@ -2222,7 +2222,7 @@ p
 m
 -
 >
-WriteInt
+WriteUInt16
 (
 p
 )
