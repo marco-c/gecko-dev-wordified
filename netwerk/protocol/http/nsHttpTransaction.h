@@ -1610,9 +1610,6 @@ mSSLConnectFailed
 PRPackedBool
 mHttpResponseMatched
 ;
-PRPackedBool
-mPreserveStream
-;
 /
 /
 mClosed
