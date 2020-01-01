@@ -5576,19 +5576,6 @@ isConstant
 (
 )
 )
-{
-JS_ASSERT
-(
-key
-.
-index
-(
-)
->
-=
-0
-)
-;
 return
 branch32
 (
@@ -5604,7 +5591,6 @@ index
 )
 )
 ;
-}
 return
 branch32
 (
