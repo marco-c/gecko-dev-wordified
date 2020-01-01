@@ -1682,6 +1682,17 @@ cloned
 too
 *
 param
+aCallUserDataHandlers
+if
+true
+user
+data
+handlers
+will
+be
+called
+*
+param
 aResult
 the
 clone
@@ -1696,6 +1707,8 @@ nsINode
 aNode
 PRBool
 aDeep
+PRBool
+aCallUserDataHandlers
 nsIDOMNode
 *
 *

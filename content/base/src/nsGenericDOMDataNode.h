@@ -3069,6 +3069,7 @@ CloneNodeImpl
 (
 this
 aDeep
+PR_TRUE
 aReturn
 )
 ;
