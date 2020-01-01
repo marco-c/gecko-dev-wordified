@@ -5462,6 +5462,9 @@ inTryBlock
 ;
 }
 ;
+class
+AutoPreserveAcrossSyncAndKill
+;
 }
 /
 *

@@ -515,6 +515,12 @@ Address
 explicit
 Address
 (
+)
+{
+}
+explicit
+Address
+(
 RegisterID
 base
 int32_t
