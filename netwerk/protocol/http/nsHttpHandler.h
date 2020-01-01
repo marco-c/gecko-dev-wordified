@@ -953,6 +953,11 @@ return
 mFastFallbackToIPv4
 ;
 }
+PRUint32
+MaxSocketCount
+(
+)
+;
 bool
 IsPersistentHttpsCachingEnabled
 (
