@@ -3493,6 +3493,9 @@ test
 -
 ping
 "
+&
+&
+recordSuccess
 )
 Services
 .
@@ -5329,7 +5332,12 @@ Ci
 .
 nsIFile
 )
-true
+aData
+!
+=
+"
+async
+"
 )
 ;
 break
@@ -5355,7 +5363,12 @@ Ci
 .
 nsIFile
 )
-true
+aData
+!
+=
+"
+async
+"
 )
 ;
 break
