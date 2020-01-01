@@ -2450,7 +2450,7 @@ bool
 JSFlatString
 :
 :
-isElement
+isIndex
 (
 uint32
 *

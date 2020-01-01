@@ -3106,7 +3106,7 @@ Thus
 if
 *
 calling
-isElement
+isIndex
 returns
 true
 js
@@ -3132,7 +3132,7 @@ string
 *
 /
 bool
-isElement
+isIndex
 (
 uint32
 *
@@ -3165,9 +3165,9 @@ this
 is
 not
 an
-element
+index
 per
-isElement
+isIndex
 before
 calling
 *
@@ -3955,7 +3955,7 @@ PropertyName
 for
 this
 .
-isElement
+isIndex
 (
 )
 must
@@ -4765,7 +4765,7 @@ dummy
 JS_ASSERT
 (
 !
-isElement
+isIndex
 (
 &
 dummy

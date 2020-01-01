@@ -794,7 +794,7 @@ dummy
 JS_ASSERT
 (
 !
-isElement
+isIndex
 (
 &
 dummy

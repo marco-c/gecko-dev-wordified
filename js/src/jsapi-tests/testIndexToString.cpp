@@ -432,7 +432,7 @@ testIndexToString
 )
 BEGIN_TEST
 (
-testStringIsElement
+testStringIsIndex
 )
 {
 for
@@ -493,7 +493,7 @@ CHECK
 str
 -
 >
-isElement
+isIndex
 (
 &
 n
@@ -515,7 +515,7 @@ true
 }
 END_TEST
 (
-testStringIsElement
+testStringIsIndex
 )
 BEGIN_TEST
 (
@@ -562,7 +562,7 @@ CHECK
 hiStr
 -
 >
-isElement
+isIndex
 (
 &
 index
@@ -643,7 +643,7 @@ CHECK
 maxStr
 -
 >
-isElement
+isIndex
 (
 &
 index
@@ -719,7 +719,7 @@ CHECK
 maxPlusOneStr
 -
 >
-isElement
+isIndex
 (
 &
 index
