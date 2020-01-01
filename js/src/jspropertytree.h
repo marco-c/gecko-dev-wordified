@@ -1018,6 +1018,13 @@ child
 ;
 public
 :
+enum
+{
+MAX_HEIGHT
+=
+64
+}
+;
 bool
 init
 (
