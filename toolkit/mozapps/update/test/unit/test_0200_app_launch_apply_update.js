@@ -1557,7 +1557,12 @@ log
 to
 be
 created
+at
 "
++
+log
+.
+path
 )
 ;
 else
@@ -1630,7 +1635,13 @@ be
 pending
 or
 applying
+current
+status
+is
+:
 "
++
+status
 )
 ;
 else
