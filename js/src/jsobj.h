@@ -12616,6 +12616,9 @@ js_CheckContentSecurityPolicy
 JSContext
 *
 cx
+JSObject
+*
+scopeObj
 )
 ;
 /
