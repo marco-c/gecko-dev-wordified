@@ -9236,13 +9236,13 @@ precache_release
 profile
 -
 >
-output_table_g
+output_table_b
 )
 ;
 profile
 -
 >
-output_table_g
+output_table_b
 =
 NULL
 ;
