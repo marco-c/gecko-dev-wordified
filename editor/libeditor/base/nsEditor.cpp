@@ -2642,6 +2642,10 @@ mInlineSpellChecker
 =
 nsnull
 ;
+mSpellcheckCheckboxState
+=
+eTriUnset
+;
 mRootElement
 =
 nsnull
