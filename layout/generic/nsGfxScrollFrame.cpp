@@ -4828,11 +4828,14 @@ PR_TRUE
 )
 ;
 result
-+
 =
+NSCoordSaturatingAdd
+(
+result
 vScrollbarPrefSize
 .
 width
+)
 ;
 }
 return
