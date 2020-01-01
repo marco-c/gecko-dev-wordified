@@ -3662,11 +3662,11 @@ macros
 set
 or
 switch
-incompete
+incomplete
 statuses
 without
 touching
-th
+the
 /
 /
 NS_FRAME_REFLOW_NEXTINFLOW
