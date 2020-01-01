@@ -8531,12 +8531,10 @@ true
 CSSRect
 cssCompositedRect
 =
-AsyncPanZoomController
-:
-:
+aFrameMetrics
+.
 CalculateCompositedRectInCssPixels
 (
-aFrameMetrics
 )
 ;
 /

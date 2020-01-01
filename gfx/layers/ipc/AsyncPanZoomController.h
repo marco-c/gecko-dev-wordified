@@ -1935,16 +1935,6 @@ double
 aEstimatedPaintDuration
 )
 ;
-static
-CSSRect
-CalculateCompositedRectInCssPixels
-(
-const
-FrameMetrics
-&
-aMetrics
-)
-;
 /
 *
 *
