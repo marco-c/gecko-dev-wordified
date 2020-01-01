@@ -583,12 +583,14 @@ platform
 .
 startswith
 (
+(
 '
 win32
 '
 '
 cygwin
 '
+)
 )
 :
             
@@ -671,12 +673,14 @@ platform
 .
 startswith
 (
+(
 '
 win32
 '
 '
 cygwin
 '
+)
 )
 :
             
