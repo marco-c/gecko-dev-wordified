@@ -10924,15 +10924,6 @@ segsize
 segcount
 )
 ;
-nsIMemory
-*
-segalloc
-=
-net_GetSegmentAlloc
-(
-segsize
-)
-;
 /
 /
 create
@@ -10961,7 +10952,6 @@ openBlocking
 true
 segsize
 segcount
-segalloc
 )
 ;
 if
@@ -11178,15 +11168,6 @@ segsize
 segcount
 )
 ;
-nsIMemory
-*
-segalloc
-=
-net_GetSegmentAlloc
-(
-segsize
-)
-;
 /
 /
 create
@@ -11215,7 +11196,6 @@ true
 openBlocking
 segsize
 segcount
-segalloc
 )
 ;
 if

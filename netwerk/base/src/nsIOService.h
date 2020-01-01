@@ -1100,10 +1100,6 @@ public
 :
 /
 /
-Necko
-buffer
-cache
-.
 Used
 for
 all
@@ -1112,15 +1108,8 @@ buffer
 sizes
 that
 necko
-/
-/
 allocates
 .
-static
-nsIMemory
-*
-gBufferCache
-;
 static
 PRUint32
 gDefaultSegmentSize
