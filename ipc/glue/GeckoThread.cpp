@@ -420,13 +420,6 @@ nsXPCOM
 h
 "
 #
-include
-"
-nsRegion
-.
-h
-"
-#
 if
 defined
 (
