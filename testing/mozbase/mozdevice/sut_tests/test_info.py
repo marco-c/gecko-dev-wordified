@@ -115,9 +115,6 @@ memory
 '
 power
 '
-'
-process
-'
 )
         
 for
@@ -162,6 +159,7 @@ all
 =
 "
         
+#
 data
 =
 self
@@ -175,6 +173,7 @@ all
 '
 )
         
+#
 print
 str
 (
