@@ -2048,10 +2048,6 @@ indirectly
 under
 an
 nsDisplayTransform
-or
-SVG
-*
-foreignObject
 .
 *
 /
@@ -2059,6 +2055,7 @@ bool
 IsInTransform
 (
 )
+const
 {
 return
 mInTransform
