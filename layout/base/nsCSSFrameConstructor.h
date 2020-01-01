@@ -321,6 +321,9 @@ aDocument
 nsIPresShell
 *
 aPresShell
+nsStyleSet
+*
+aStyleSet
 )
 ;
 ~
