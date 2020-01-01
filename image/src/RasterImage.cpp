@@ -5996,6 +5996,11 @@ rv
 =
 NS_OK
 ;
+if
+(
+mDecoded
+)
+{
 /
 /
 If
@@ -6121,6 +6126,7 @@ mFrameDecodeFlags
 =
 desiredDecodeFlags
 ;
+}
 }
 /
 /
