@@ -2793,6 +2793,8 @@ const
 Value
 &
 value
+JSBool
+strict
 )
 ;
 bool

@@ -28722,6 +28722,8 @@ const
 Value
 &
 value
+JSBool
+strict
 )
 {
 jsid
@@ -28755,6 +28757,7 @@ cx
 obj
 id
 value
+strict
 )
 ;
 }
