@@ -2787,8 +2787,10 @@ if
 mFreeData
 )
 {
-delete
+free
+(
 mData
+)
 ;
 }
 }
