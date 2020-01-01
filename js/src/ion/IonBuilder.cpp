@@ -242,7 +242,7 @@ types
 .
 compiledInfo
 )
-lir
+backgroundCompiledLir
 (
 NULL
 )

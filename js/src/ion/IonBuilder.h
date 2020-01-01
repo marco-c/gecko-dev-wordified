@@ -2925,7 +2925,7 @@ here
 .
 LIRGraph
 *
-lir
+backgroundCompiledLir
 ;
 void
 clearForBackEnd
