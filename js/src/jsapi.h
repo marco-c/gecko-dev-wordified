@@ -4417,14 +4417,8 @@ will
 not
 root
 the
-contexts
-'
 global
 objects
-(
-see
-JS_GetGlobalObject
-)
 leaving
 that
 up
