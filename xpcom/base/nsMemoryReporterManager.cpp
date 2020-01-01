@@ -6375,8 +6375,14 @@ identifier
 .
 AppendInt
 (
+static_cast
+<
+int64_t
+>
+(
 PR_Now
 (
+)
 )
 /
 1000000
