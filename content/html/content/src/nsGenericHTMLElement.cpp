@@ -9084,9 +9084,6 @@ history
 nsCAutoString
 key
 ;
-nsresult
-rv
-=
 GetLayoutHistoryAndKey
 (
 aContent
@@ -9121,6 +9118,7 @@ state
 for
 this
 key
+nsresult
 rv
 =
 history
@@ -9135,6 +9133,12 @@ state
 ;
 if
 (
+NS_SUCCEEDED
+(
+rv
+)
+&
+&
 state
 )
 {
