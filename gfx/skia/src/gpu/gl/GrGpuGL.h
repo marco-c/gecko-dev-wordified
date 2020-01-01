@@ -1447,6 +1447,12 @@ fillInConfigRenderableTable
 (
 )
 ;
+bool
+canReadBGRA
+(
+)
+const
+;
 GrGLContext
 fGLContext
 ;
