@@ -19676,7 +19676,7 @@ memset
 aBreakBefore
 +
 runOffsetInSubstring
-0
+PR_FALSE
 run
 .
 GetRunLength
@@ -40490,6 +40490,11 @@ aRenderingContext
 else
 if
 (
+i
+<
+flowEndInTextRun
+&
+&
 hyphBreakBefore
 &
 &
