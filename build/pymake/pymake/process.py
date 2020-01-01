@@ -54,6 +54,10 @@ traceback
 os
 imp
 glob
+from
+collections
+import
+deque
 #
 XXXkhuey
 Work
@@ -3785,10 +3789,11 @@ self
 .
 pending
 =
-[
-]
+deque
+(
+)
 #
-list
+deque
 of
 (
 cb
@@ -3932,9 +3937,8 @@ self
 .
 pending
 .
-pop
+popleft
 (
-0
 )
             
 cb
