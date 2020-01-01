@@ -1797,14 +1797,6 @@ _lastSelectedSites
 =
 null
 ;
-this
-.
-_set
-.
-clearSelection
-(
-)
-;
 }
 }
 update
