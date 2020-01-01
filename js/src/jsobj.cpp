@@ -10169,8 +10169,6 @@ cx
 obj
 id
 JSPROP_GETTER
-NULL
-NULL
 )
 )
 return
@@ -10367,8 +10365,6 @@ cx
 obj
 id
 JSPROP_SETTER
-NULL
-NULL
 )
 )
 return
