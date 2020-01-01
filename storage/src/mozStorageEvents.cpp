@@ -557,6 +557,13 @@ mozStorageEvents
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+storage
+;
 /
 *
 *
@@ -3589,7 +3596,7 @@ sqlite3_stmt
 >
 &
 aStatements
-mozStorageConnection
+Connection
 *
 aConnection
 mozIStorageStatementCallback

@@ -1066,7 +1066,7 @@ mozStorageStatement
 :
 Initialize
 (
-mozStorageConnection
+Connection
 *
 aDBConnection
 const
