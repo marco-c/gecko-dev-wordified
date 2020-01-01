@@ -3135,8 +3135,6 @@ nsBlockFrame
 *
 aOldParent
 bool
-aFromOverflow
-bool
 aReparentSiblings
 )
 ;
@@ -3427,8 +3425,6 @@ aFrame
 nsFrameList
 &
 aList
-bool
-aFromOverflow
 bool
 aCollectFromSiblings
 )
