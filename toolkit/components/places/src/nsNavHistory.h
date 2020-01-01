@@ -2897,6 +2897,14 @@ aDBConn
 )
 ;
 nsresult
+MigrateV10Up
+(
+mozIStorageConnection
+*
+aDBConn
+)
+;
+nsresult
 RemovePagesInternal
 (
 const
