@@ -3416,7 +3416,6 @@ JSDHashTable
 gcRootsHash
 ;
 JSDHashTable
-*
 gcLocksHash
 ;
 jsrefcount
