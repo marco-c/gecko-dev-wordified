@@ -584,7 +584,6 @@ js
 function
 localRequest
 (
-server
 path
 )
 {
@@ -601,21 +600,21 @@ path
 let
 url
 =
-server
+"
+http
+:
+/
+/
+127
 .
-baseURI
-.
-substr
-(
 0
-server
 .
-baseURI
+0
 .
-length
--
 1
-)
+:
+8080
+"
 +
 path
 ;
@@ -680,7 +679,7 @@ server
 .
 start
 (
-null
+8080
 function
 (
 )
@@ -697,6 +696,14 @@ server
 port
 )
 ;
+do_check_eq
+(
+server
+.
+port
+8080
+)
+;
 Utils
 .
 nextTick
@@ -710,7 +717,6 @@ req
 =
 localRequest
 (
-server
 "
 /
 1
@@ -867,11 +873,19 @@ server
 .
 start
 (
-null
+8080
 function
 (
 )
 {
+do_check_eq
+(
+server
+.
+port
+8080
+)
+;
 Utils
 .
 nextTick
@@ -885,7 +899,6 @@ req
 =
 localRequest
 (
-server
 "
 /
 1
@@ -1020,7 +1033,6 @@ req
 =
 localRequest
 (
-server
 "
 /
 1
@@ -1156,7 +1168,6 @@ bar
 ;
 localRequest
 (
-server
 "
 /
 1
@@ -1367,7 +1378,6 @@ req
 =
 localRequest
 (
-server
 keysURL
 )
 ;
@@ -1459,7 +1469,6 @@ req
 =
 localRequest
 (
-server
 foosURL
 )
 ;
@@ -1580,7 +1589,6 @@ req
 =
 localRequest
 (
-server
 keysURL
 )
 ;
@@ -1688,7 +1696,6 @@ req
 =
 localRequest
 (
-server
 foosURL
 )
 ;
@@ -1855,7 +1862,6 @@ req
 =
 localRequest
 (
-server
 storageURL
 )
 ;
@@ -1968,7 +1974,6 @@ req
 =
 localRequest
 (
-server
 storageURL
 )
 ;
@@ -2049,7 +2054,6 @@ req
 =
 localRequest
 (
-server
 storageURL
 +
 "
@@ -2094,7 +2098,7 @@ server
 .
 start
 (
-null
+8080
 Async
 .
 chain
@@ -2185,7 +2189,7 @@ server
 .
 start
 (
-null
+8080
 function
 (
 )
@@ -2195,7 +2199,6 @@ wbo
 =
 localRequest
 (
-server
 "
 /
 1
@@ -2253,7 +2256,6 @@ col
 =
 localRequest
 (
-server
 "
 /
 1
