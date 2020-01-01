@@ -7746,7 +7746,7 @@ JSObject
 *
 thisobj
 =
-js_NewInstance
+js_CreateThis
 (
 cx
 &
