@@ -3393,7 +3393,7 @@ ROLE_SYSTEM_CLIENT
 &
 &
 !
-GetRoleAttribute
+GetARIARole
 (
 content
 roleString
