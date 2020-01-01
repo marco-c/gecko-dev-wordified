@@ -1779,6 +1779,11 @@ GenericParseContext
 *
 )
 NULL
+(
+ParseNode
+*
+)
+NULL
 &
 globalsc
 (
@@ -2272,6 +2277,11 @@ construct
 parser
 (
 GenericParseContext
+*
+)
+NULL
+(
+ParseNode
 *
 )
 NULL

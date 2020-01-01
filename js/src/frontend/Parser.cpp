@@ -3937,6 +3937,12 @@ parent
 *
 /
 NULL
+ParseHandler
+:
+:
+null
+(
+)
 &
 globalsc
 /
@@ -5480,6 +5486,7 @@ funpc
 (
 this
 pc
+fn
 funbox
 newDirectives
 /
@@ -13858,6 +13865,12 @@ funpc
 (
 parser
 outerpc
+SyntaxParseHandler
+:
+:
+null
+(
+)
 funbox
 newDirectives
 outerpc
@@ -14043,6 +14056,7 @@ funpc
 (
 this
 pc
+pn
 funbox
 newDirectives
 outerpc
@@ -14275,6 +14289,11 @@ funpc
 (
 this
 pc
+handler
+.
+null
+(
+)
 funbox
 newDirectives
 outerpc
@@ -14494,6 +14513,7 @@ parent
 *
 /
 NULL
+pn
 funbox
 &
 newDirectives
@@ -15335,6 +15355,13 @@ modulepc
 (
 this
 pc
+/
+*
+function
+=
+*
+/
+NULL
 modulebox
 /
 *
@@ -38532,6 +38559,7 @@ genpc
 (
 this
 outerpc
+genfn
 genFunbox
 /
 *
