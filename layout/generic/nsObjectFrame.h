@@ -1947,6 +1947,9 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+PRBool
+&
+aContainsRootContentDocBG
 )
 ;
 NS_DISPLAY_DECL_NAME

@@ -7580,6 +7580,9 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+PRBool
+&
+aContainsRootContentDocBG
 )
 {
 mVisibleRegion
@@ -7602,6 +7605,7 @@ ComputeVisibility
 (
 aBuilder
 aVisibleRegion
+aContainsRootContentDocBG
 )
 ;
 }
