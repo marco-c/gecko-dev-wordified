@@ -1422,7 +1422,7 @@ vp
 ;
 }
 JSBool
-math_cos
+js_math_cos
 (
 JSContext
 *
@@ -2142,7 +2142,7 @@ vp
 ;
 }
 JSBool
-math_pow
+js_math_pow
 (
 JSContext
 *
@@ -2947,7 +2947,7 @@ vp
 ;
 }
 JSBool
-math_sin
+js_math_sin
 (
 JSContext
 *
@@ -3242,7 +3242,7 @@ JS_FN
 "
 cos
 "
-math_cos
+js_math_cos
 1
 1
 0
@@ -3302,7 +3302,7 @@ JS_FN
 "
 pow
 "
-math_pow
+js_math_pow
 2
 2
 0
@@ -3332,7 +3332,7 @@ JS_FN
 "
 sin
 "
-math_sin
+js_math_sin
 1
 1
 0
