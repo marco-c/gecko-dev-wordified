@@ -61,7 +61,7 @@ MPL
 *
 Implementation
 of
-nsIDOMDOMTokenList
+DOMTokenList
 specified
 by
 HTML5
@@ -74,13 +74,6 @@ nsDOMTokenList_h___
 #
 define
 nsDOMTokenList_h___
-#
-include
-"
-nsIDOMDOMTokenList
-.
-h
-"
 #
 include
 "
@@ -153,7 +146,7 @@ class
 nsDOMTokenList
 :
 public
-nsIDOMDOMTokenList
+nsISupports
 public
 nsWrapperCache
 {
@@ -176,7 +169,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsDOMTokenList
 )
-NS_DECL_NSIDOMDOMTOKENLIST
 nsDOMTokenList
 (
 Element
