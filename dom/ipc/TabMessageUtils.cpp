@@ -96,6 +96,10 @@ MPL
 #
 include
 "
+mozilla
+/
+dom
+/
 TabMessageUtils
 .
 h
