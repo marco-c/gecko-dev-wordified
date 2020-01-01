@@ -603,7 +603,7 @@ nsCSSStyleSheetInner
 (
 nsICSSStyleSheet
 *
-aParentSheet
+aPrimarySheet
 )
 ;
 nsCSSStyleSheetInner
@@ -613,7 +613,7 @@ nsCSSStyleSheetInner
 aCopy
 nsCSSStyleSheet
 *
-aParentSheet
+aPrimarySheet
 )
 ;
 virtual
@@ -629,7 +629,7 @@ CloneFor
 (
 nsCSSStyleSheet
 *
-aParentSheet
+aPrimarySheet
 )
 ;
 virtual
@@ -638,7 +638,7 @@ AddSheet
 (
 nsICSSStyleSheet
 *
-aParentSheet
+aSheet
 )
 ;
 virtual
@@ -647,7 +647,7 @@ RemoveSheet
 (
 nsICSSStyleSheet
 *
-aParentSheet
+aSheet
 )
 ;
 virtual
