@@ -32300,7 +32300,16 @@ replaceState
 .
 if
 (
-aRequest
+!
+(
+aFlags
+&
+Ci
+.
+nsIWebProgressListener
+.
+LOCATION_CHANGE_SAME_DOCUMENT
+)
 )
 {
 /
