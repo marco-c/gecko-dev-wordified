@@ -3576,7 +3576,7 @@ if
 (
 cmdLine
 .
-findFlag
+handleFlag
 (
 "
 private
