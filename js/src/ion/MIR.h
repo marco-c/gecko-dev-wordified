@@ -35927,6 +35927,10 @@ types
 StackTypeSet
 *
 observed
+bool
+updateObserved
+=
+true
 )
 ;
 bool
