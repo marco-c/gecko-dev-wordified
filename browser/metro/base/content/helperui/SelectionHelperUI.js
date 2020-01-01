@@ -1799,6 +1799,15 @@ _setupDebugOptions
 )
 ;
 }
+else
+{
+this
+.
+_hideMonocles
+(
+)
+;
+}
 this
 .
 _lastPoint
