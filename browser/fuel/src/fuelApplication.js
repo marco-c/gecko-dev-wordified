@@ -6598,7 +6598,7 @@ Utilities
 .
 bookmarks
 .
-bookmarksRoot
+bookmarksMenuFolder
 ;
 this
 .
