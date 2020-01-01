@@ -6984,6 +6984,9 @@ op
 case
 LIR_addxovi
 :
+case
+LIR_addjovi
+:
 SLT
 (
 AT
@@ -7016,6 +7019,9 @@ done
 ;
 case
 LIR_subxovi
+:
+case
+LIR_subjovi
 :
 if
 (
@@ -7075,6 +7081,9 @@ break
 ;
 case
 LIR_mulxovi
+:
+case
+LIR_muljovi
 :
 case
 LIR_muli
@@ -7321,6 +7330,9 @@ op
 case
 LIR_addxovi
 :
+case
+LIR_addjovi
+:
 SLT
 (
 AT
@@ -7387,6 +7399,9 @@ break
 ;
 case
 LIR_subxovi
+:
+case
+LIR_subjovi
 :
 SLT
 (
@@ -7475,6 +7490,9 @@ break
 ;
 case
 LIR_mulxovi
+:
+case
+LIR_muljovi
 :
 t
 =
@@ -9691,7 +9709,8 @@ return
 patch
 ;
 }
-void
+NIns
+*
 Assembler
 :
 :
@@ -9717,9 +9736,10 @@ target
 NULL
 )
 ;
-(
-void
-)
+NIns
+*
+patch
+=
 asm_bxx
 (
 true
@@ -9750,6 +9770,9 @@ op
 ]
 target
 )
+;
+return
+patch
 ;
 }
 NIns
