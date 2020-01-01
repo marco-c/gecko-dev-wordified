@@ -1214,11 +1214,6 @@ this
 _rgnPage
 ;
 let
-clearRegion
-=
-false
-;
-let
 drawls
 =
 [
@@ -1330,13 +1325,6 @@ rect
 continue
 ;
 }
-else
-{
-clearRegion
-=
-true
-;
-}
 drawls
 .
 push
@@ -1429,7 +1417,8 @@ over
 them
 if
 (
-clearRegion
+!
+viewingBoundsOnly
 )
 this
 .
@@ -1646,8 +1635,7 @@ this
 _drawRects
 (
 drawls
-!
-clearRegion
+viewingBoundsOnly
 )
 ;
 }
