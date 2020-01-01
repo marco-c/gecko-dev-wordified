@@ -1721,10 +1721,8 @@ if
 cnt
 )
 {
-NS_DELETEXPCOM
-(
+delete
 this
-)
 ;
 /
 /

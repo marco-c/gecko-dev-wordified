@@ -440,9 +440,6 @@ BLOCK
 *
 *
 /
-#
-define
-__STDC_LIMIT_MACROS
 /
 *
 *
@@ -13134,10 +13131,12 @@ state
 .
 cp
 =
-js_UndependString
+str
+-
+>
+undepend
 (
 cx
-str
 )
 ;
 if

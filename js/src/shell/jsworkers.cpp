@@ -3772,9 +3772,8 @@ context
 jsOperationCallback
 )
 ;
-JS_TransferRequest
+JS_BeginRequest
 (
-parentcx
 context
 )
 ;
@@ -3984,10 +3983,9 @@ this
 goto
 bad
 ;
-JS_TransferRequest
+JS_EndRequest
 (
 context
-parentcx
 )
 ;
 JS_ClearContextThread
@@ -4000,6 +3998,11 @@ true
 ;
 bad
 :
+JS_EndRequest
+(
+context
+)
+;
 JS_DestroyContext
 (
 context
@@ -4008,11 +4011,6 @@ context
 context
 =
 NULL
-;
-JS_BeginRequest
-(
-parentcx
-)
 ;
 return
 false

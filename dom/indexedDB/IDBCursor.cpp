@@ -2005,7 +2005,9 @@ IDBCursor
 :
 Continue
 (
+const
 jsval
+&
 aKey
 JSContext
 *
@@ -2179,7 +2181,9 @@ IDBCursor
 :
 Update
 (
+const
 jsval
+&
 aValue
 JSContext
 *

@@ -6157,7 +6157,6 @@ proxy_SetProperty
 proxy_GetAttributes
 proxy_SetAttributes
 proxy_DeleteProperty
-js_DefaultValue
 js_Enumerate
 proxy_TypeOf_obj
 proxy_TraceObject
@@ -6398,7 +6397,6 @@ proxy_SetProperty
 proxy_GetAttributes
 proxy_SetAttributes
 proxy_DeleteProperty
-js_DefaultValue
 js_Enumerate
 proxy_TypeOf_fun
 proxy_TraceObject
@@ -6736,6 +6734,8 @@ JSObject
 proto
 *
 parent
+=
+NULL
 ;
 if
 (
@@ -6793,6 +6793,12 @@ proto
 =
 NULL
 ;
+}
+if
+(
+!
+parent
+)
 parent
 =
 vp
@@ -6808,7 +6814,6 @@ getParent
 (
 )
 ;
-}
 JSObject
 *
 proxy

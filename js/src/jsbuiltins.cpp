@@ -702,9 +702,7 @@ s
 .
 hi
 =
-JSDOUBLE_HI32_EXPMASK
-|
-JSDOUBLE_HI32_MANTMASK
+JSDOUBLE_HI32_NAN
 ;
 u
 .
@@ -712,7 +710,7 @@ s
 .
 lo
 =
-0xffffffff
+JSDOUBLE_LO32_NAN
 ;
 return
 u

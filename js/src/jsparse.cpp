@@ -440,9 +440,6 @@ BLOCK
 *
 *
 /
-#
-define
-__STDC_LIMIT_MACROS
 /
 *
 *
@@ -803,6 +800,13 @@ h
 include
 "
 jsobjinlines
+.
+h
+"
+#
+include
+"
+jsatominlines
 .
 h
 "
@@ -4353,7 +4357,7 @@ SetStaticLevel
 JSTreeContext
 *
 tc
-uint16
+uintN
 staticLevel
 )
 {
@@ -4487,7 +4491,7 @@ source
 NULL
 *
 /
-uint16
+uintN
 staticLevel
 /
 *

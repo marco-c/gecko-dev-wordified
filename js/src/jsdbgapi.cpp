@@ -440,9 +440,6 @@ BLOCK
 *
 *
 /
-#
-define
-__STDC_LIMIT_MACROS
 /
 *
 *
@@ -8442,6 +8439,15 @@ cx
 JSObject
 *
 scobj
+;
+JSScript
+*
+script
+;
+JSBool
+ok
+;
+scobj
 =
 JS_GetFrameScopeChain
 (
@@ -8513,8 +8519,6 @@ frame
 .
 *
 /
-JSScript
-*
 script
 =
 Compiler
@@ -8551,11 +8555,8 @@ script
 return
 JS_FALSE
 ;
-bool
 ok
 =
-!
-!
 Execute
 (
 cx

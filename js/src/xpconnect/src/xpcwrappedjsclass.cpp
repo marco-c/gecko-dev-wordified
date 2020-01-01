@@ -8001,6 +8001,13 @@ GetJSObject
 (
 )
 ;
+JSAutoEnterCompartment
+autoCompartment
+(
+ccx
+obj
+)
+;
 /
 /
 XXX
