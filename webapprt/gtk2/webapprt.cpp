@@ -1717,6 +1717,7 @@ void
 notify_init_t
 )
 (
+const
 char
 *
 )
@@ -1729,12 +1730,16 @@ void
 notify_notification_new_t
 )
 (
+const
 char
 *
+const
 char
 *
+const
 char
 *
+const
 char
 *
 )
@@ -1748,7 +1753,8 @@ notify_notification_show_t
 (
 void
 *
-char
+void
+*
 *
 )
 ;
@@ -1802,6 +1808,9 @@ nn_init
 (
 notify_init_t
 )
+(
+uintptr_t
+)
 dlsym
 (
 handle
@@ -1816,6 +1825,9 @@ nn_new
 (
 notify_notification_new_t
 )
+(
+uintptr_t
+)
 dlsym
 (
 handle
@@ -1829,6 +1841,9 @@ nn_show
 =
 (
 notify_notification_show_t
+)
+(
+uintptr_t
 )
 dlsym
 (
