@@ -511,10 +511,10 @@ aParent
 nsIDOMSVGMatrix
 *
 aMatrix
-float
-aX
-float
-aY
+const
+nsPoint
+&
+aPoint
 )
 ;
 /

@@ -831,7 +831,7 @@ outerSVGFrame
 outerSVGFrame
 -
 >
-InvalidateRect
+Invalidate
 (
 mFilterRect
 )
@@ -843,7 +843,7 @@ UpdateRect
 outerSVGFrame
 -
 >
-InvalidateRect
+Invalidate
 (
 mFilterRect
 )
