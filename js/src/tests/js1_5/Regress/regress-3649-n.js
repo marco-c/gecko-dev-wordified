@@ -597,6 +597,11 @@ expectExitCode
 ;
 expectExitCode
 (
+3
+)
+;
+expectExitCode
+(
 5
 )
 ;
