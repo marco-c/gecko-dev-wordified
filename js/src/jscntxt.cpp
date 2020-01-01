@@ -3045,6 +3045,8 @@ getSuspendedRegs
 >
 pc
 ;
+return
+;
 }
 JS_ASSERT
 (
