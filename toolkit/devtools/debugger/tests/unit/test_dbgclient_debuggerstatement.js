@@ -142,7 +142,7 @@ transport
 ;
 gClient
 .
-ready
+connect
 (
 function
 (

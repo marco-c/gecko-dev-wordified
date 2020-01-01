@@ -90,7 +90,7 @@ connectPipe
 ;
 gClient
 .
-ready
+connect
 (
 function
 (

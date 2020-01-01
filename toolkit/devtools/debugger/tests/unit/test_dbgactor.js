@@ -232,7 +232,7 @@ false
 ;
 gClient
 .
-ready
+connect
 (
 )
 ;

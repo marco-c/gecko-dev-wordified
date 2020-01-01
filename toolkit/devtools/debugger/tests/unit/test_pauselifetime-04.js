@@ -94,7 +94,7 @@ connectPipe
 ;
 gClient
 .
-ready
+connect
 (
 function
 (
@@ -175,7 +175,7 @@ actor
 ;
 gThreadClient
 .
-frames
+getFrames
 (
 0
 1

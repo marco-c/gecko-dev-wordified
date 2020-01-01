@@ -829,7 +829,7 @@ currentThread
 onOutputStreamReady
 :
 function
-DT_ready
+DT_onOutputStreamReady
 (
 aStream
 )
@@ -1019,7 +1019,7 @@ while
 (
 this
 .
-processIncoming
+_processIncoming
 (
 )
 )
@@ -1070,7 +1070,7 @@ return
 *
 *
 Process
-incomig
+incoming
 packets
 .
 Returns
@@ -1133,10 +1133,10 @@ parameter
 .
 *
 /
-processIncoming
+_processIncoming
 :
 function
-DT_processIncoming
+DT__processIncoming
 (
 )
 {

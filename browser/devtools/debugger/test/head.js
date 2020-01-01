@@ -566,7 +566,7 @@ pane
 =
 DebuggerUI
 .
-startDebugger
+toggleDebugger
 (
 )
 ;

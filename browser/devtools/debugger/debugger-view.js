@@ -564,7 +564,7 @@ param
 string
 aName
 *
-returns
+return
 string
 *
 /
@@ -604,7 +604,7 @@ param
 array
 aArray
 *
-returns
+return
 string
 *
 /
@@ -1646,7 +1646,7 @@ loaded
 *
 param
 boolean
-value
+aValue
 *
 True
 if
@@ -1660,14 +1660,14 @@ frames
 set
 dirty
 (
-value
+aValue
 )
 {
 this
 .
 _dirty
 =
-value
+aValue
 ;
 }
 /
@@ -1707,7 +1707,7 @@ _onFramesScroll
 function
 DVF__onFramesScroll
 (
-e
+aEvent
 )
 {
 /

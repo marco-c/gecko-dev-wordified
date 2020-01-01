@@ -89,7 +89,7 @@ connectPipe
 ;
 gClient
 .
-ready
+connect
 (
 function
 (
@@ -189,7 +189,7 @@ args
 ;
 objClient
 .
-prototypeAndProperties
+getPrototypeAndProperties
 (
 function
 (
@@ -390,7 +390,7 @@ prototype
 ;
 protoClient
 .
-ownPropertyNames
+getOwnPropertyNames
 (
 function
 (

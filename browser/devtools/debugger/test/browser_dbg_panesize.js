@@ -100,7 +100,7 @@ pane
 =
 DebuggerUI
 .
-startDebugger
+toggleDebugger
 (
 )
 ;
@@ -124,7 +124,7 @@ ok
 (
 pane
 "
-startDebugger
+toggleDebugger
 (
 )
 should
@@ -156,7 +156,7 @@ the
 same
 pane
 as
-startDebugger
+toggleDebugger
 (
 )
 .
@@ -167,9 +167,7 @@ ok
 (
 DebuggerUI
 .
-getPreferences
-(
-)
+preferences
 .
 height
 "
@@ -190,9 +188,7 @@ is
 (
 DebuggerUI
 .
-getPreferences
-(
-)
+preferences
 .
 height
 pane
@@ -229,9 +225,7 @@ ok
 (
 DebuggerUI
 .
-getPreferences
-(
-)
+preferences
 .
 height
 !
@@ -273,9 +267,7 @@ is
 (
 DebuggerUI
 .
-getPreferences
-(
-)
+preferences
 .
 height
 someHeight

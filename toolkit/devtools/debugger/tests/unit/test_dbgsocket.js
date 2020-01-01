@@ -422,7 +422,7 @@ onClosed
 :
 function
 (
-aPacket
+aStatus
 )
 {
 run_next_test

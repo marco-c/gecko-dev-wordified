@@ -89,7 +89,7 @@ connectPipe
 ;
 gClient
 .
-ready
+connect
 (
 function
 (
@@ -198,7 +198,7 @@ args
 ;
 objClient
 .
-nameAndParameters
+getSignature
 (
 function
 (
@@ -342,7 +342,7 @@ args
 ;
 objClient
 .
-nameAndParameters
+getSignature
 (
 function
 (

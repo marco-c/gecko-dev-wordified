@@ -81,7 +81,7 @@ connectPipe
 ;
 gClient
 .
-ready
+connect
 (
 function
 (
@@ -154,7 +154,7 @@ js
 ;
 gThreadClient
 .
-scripts
+getScripts
 (
 function
 (
