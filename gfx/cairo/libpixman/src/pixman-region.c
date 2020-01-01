@@ -2002,7 +2002,7 @@ region_data_type_t
 ;
 }
 static
-void
+region_data_type_t
 *
 alloc_data
 (
