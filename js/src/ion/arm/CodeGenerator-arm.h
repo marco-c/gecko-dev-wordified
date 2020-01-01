@@ -1048,6 +1048,15 @@ math
 ;
 virtual
 bool
+visitFloor
+(
+LFloor
+*
+lir
+)
+;
+virtual
+bool
 visitRound
 (
 LRound
