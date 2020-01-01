@@ -2375,7 +2375,7 @@ DeviceStorageFile
 NS_LITERAL_STRING
 (
 "
-movies
+videos
 "
 )
 storagePath
