@@ -842,17 +842,6 @@ be
 a
 critical
 operation
-nsCOMPtr
-<
-nsIDOMNode
->
-domRoot
-=
-do_QueryInterface
-(
-mRoot
-)
-;
 nsresult
 rv
 =
@@ -861,7 +850,7 @@ nsContentUtils
 :
 CheckSameOrigin
 (
-domRoot
+mRoot
 aCurrentNode
 )
 ;
