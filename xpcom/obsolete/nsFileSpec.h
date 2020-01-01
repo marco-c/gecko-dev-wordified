@@ -3371,7 +3371,7 @@ nsFileSpec
 /
 These
 two
-meathods
+methods
 take
 *
 native

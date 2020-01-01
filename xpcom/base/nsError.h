@@ -1657,7 +1657,7 @@ the
 "
 real
 "
-meathod
+method
 has
 NOT
 been
@@ -1701,7 +1701,7 @@ the
 "
 real
 "
-meathod
+method
 has
 ALREADY
 been
