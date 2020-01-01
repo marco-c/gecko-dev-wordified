@@ -2923,6 +2923,9 @@ force_osmesa
 false
 )
 ;
+#
+ifdef
+XP_WIN
 bool
 preferEGL
 =
@@ -2941,9 +2944,6 @@ egl
 false
 )
 ;
-#
-ifdef
-XP_WIN
 bool
 preferOpenGL
 =
@@ -3375,6 +3375,9 @@ msaaLevel
 ;
 }
 }
+#
+ifdef
+XP_WIN
 if
 (
 PR_GetEnv
@@ -3390,6 +3393,8 @@ preferEGL
 true
 ;
 }
+#
+endif
 /
 /
 Ask
@@ -3404,11 +3409,16 @@ useOpenGL
 =
 true
 ;
+#
+ifdef
+XP_WIN
 bool
 useANGLE
 =
 true
 ;
+#
+endif
 if
 (
 gfxInfo
@@ -3454,6 +3464,9 @@ false
 ;
 }
 }
+#
+ifdef
+XP_WIN
 if
 (
 NS_SUCCEEDED
@@ -3490,7 +3503,12 @@ false
 ;
 }
 }
+#
+endif
 }
+#
+ifdef
+XP_WIN
 /
 /
 allow
@@ -3524,6 +3542,8 @@ useOpenGL
 true
 ;
 }
+#
+endif
 /
 /
 if
