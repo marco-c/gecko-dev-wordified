@@ -943,6 +943,11 @@ index
 )
 ;
 void
+jsop_getprop_slow
+(
+)
+;
+void
 jsop_getarg
 (
 uint32
