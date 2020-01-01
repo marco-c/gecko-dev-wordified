@@ -632,10 +632,6 @@ NIns
 *
 fragEntry
 ;
-NIns
-*
-loopEntry
-;
 void
 *
 vmprivate
