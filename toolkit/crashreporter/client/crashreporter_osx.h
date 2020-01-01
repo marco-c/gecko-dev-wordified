@@ -979,7 +979,7 @@ TextViewWithPlaceHolder
 :
 NSTextView
 {
-NSAttributedString
+NSMutableAttributedString
 *
 mPlaceHolderString
 ;
