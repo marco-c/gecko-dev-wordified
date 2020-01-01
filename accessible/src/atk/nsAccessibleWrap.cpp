@@ -4504,7 +4504,7 @@ children
 hyperText
 -
 >
-GetLinks
+GetLinkCount
 (
 &
 count

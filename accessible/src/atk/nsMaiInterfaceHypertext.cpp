@@ -734,7 +734,7 @@ rv
 hyperText
 -
 >
-GetLinks
+GetLinkCount
 (
 &
 count
