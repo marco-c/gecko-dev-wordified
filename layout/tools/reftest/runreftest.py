@@ -2334,6 +2334,14 @@ if
 options
 .
 symbolsPath
+and
+not
+isURL
+(
+options
+.
+symbolsPath
+)
 :
     
 options
