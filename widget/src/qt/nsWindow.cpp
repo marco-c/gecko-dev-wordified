@@ -1611,7 +1611,7 @@ nsIWidget
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -1680,7 +1680,7 @@ Create
 nsNativeWidget
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -2619,7 +2619,7 @@ Qt
 Popup
 )
 {
-nsRect
+nsIntRect
 oldrect
 newrect
 ;
@@ -3605,12 +3605,12 @@ nsWindow
 :
 GetScreenBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
 {
-nsRect
+nsIntRect
 origin
 (
 0
@@ -4160,7 +4160,7 @@ nsWindow
 Invalidate
 (
 const
-nsRect
+nsIntRect
 &
 aRect
 PRBool
@@ -4550,7 +4550,7 @@ PRInt32
 aDx
 PRInt32
 aDy
-nsRect
+nsIntRect
 *
 aClipRect
 )
@@ -4600,7 +4600,7 @@ GetNextSibling
 )
 )
 {
-nsRect
+nsIntRect
 bounds
 ;
 kid
@@ -4684,7 +4684,7 @@ nsWindow
 :
 ScrollRect
 (
-nsRect
+nsIntRect
 &
 aSrcRect
 PRInt32
@@ -5185,10 +5185,10 @@ nsWindow
 WidgetToScreen
 (
 const
-nsRect
+nsIntRect
 &
 aOldRect
-nsRect
+nsIntRect
 &
 aNewRect
 )
@@ -5267,10 +5267,10 @@ nsWindow
 ScreenToWidget
 (
 const
-nsRect
+nsIntRect
 &
 aOldRect
-nsRect
+nsIntRect
 &
 aNewRect
 )
@@ -6550,7 +6550,7 @@ rect
 (
 )
 ;
-nsRect
+nsIntRect
 rect
 (
 r
@@ -6939,7 +6939,7 @@ into
 the
 right
 coordinates
-nsRect
+nsIntRect
 oldrect
 newrect
 ;
@@ -7035,7 +7035,7 @@ QResizeEvent
 e
 )
 {
-nsRect
+nsIntRect
 rect
 ;
 /
@@ -9413,7 +9413,7 @@ rect
 (
 )
 ;
-nsRect
+nsIntRect
 rect
 (
 r
@@ -10261,7 +10261,7 @@ aParent
 nsNativeWidget
 aNativeParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -11080,7 +11080,7 @@ Qt
 Popup
 )
 {
-nsRect
+nsIntRect
 oldrect
 newrect
 ;
@@ -12676,7 +12676,7 @@ aEvent
 .
 refPoint
 =
-nsPoint
+nsIntPoint
 (
 0
 0
@@ -13893,7 +13893,7 @@ nsWindow
 :
 DispatchResizeEvent
 (
-nsRect
+nsIntRect
 &
 aRect
 nsEventStatus
@@ -14297,7 +14297,7 @@ Qt
 Popup
 )
 {
-nsRect
+nsIntRect
 oldrect
 newrect
 ;
