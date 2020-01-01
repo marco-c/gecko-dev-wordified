@@ -1174,6 +1174,21 @@ lib
 '
 ]
             
+SDK_LIBRARY
+=
+[
+'
+fans
+.
+sdk
+'
+'
+tans
+.
+sdk
+'
+]
+            
 SIMPLE_PROGRAMS
 =
 [
