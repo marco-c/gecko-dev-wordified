@@ -21891,6 +21891,7 @@ failureCode
 return
 CGWrapper
 (
+            
 CGGeneric
 (
                 
@@ -21903,6 +21904,10 @@ ThrowErrorMessage
 (
 cx
 MSG_NOT_CALLABLE
+"
+%
+s
+"
 )
 ;
 \
@@ -21914,9 +21919,16 @@ n
 s
 '
 %
+(
+firstCap
+(
+sourceDescription
+)
 exceptionCode
 )
 )
+)
+            
 post
 =
 "
@@ -22656,23 +22668,33 @@ None
 notSequence
 =
 (
-"
+'
 ThrowErrorMessage
 (
 cx
 MSG_NOT_SEQUENCE
+"
+%
+s
+"
 )
 ;
 \
 n
-"
+'
                            
 "
 %
 s
 "
 %
+(
+firstCap
+(
+sourceDescription
+)
 exceptionCode
+)
 )
         
 else
@@ -28018,7 +28040,7 @@ ok
 n
 "
             
-"
+'
 int
 index
 =
@@ -28040,14 +28062,19 @@ val
 values
 )
 s
-\
 "
 %
 (
 enumtype
 )
 s
-\
+"
+"
+%
+(
+sourceDescription
+)
+s
 "
 &
 ok
@@ -28055,7 +28082,7 @@ ok
 ;
 \
 n
-"
+'
             
 "
 if
@@ -28173,6 +28200,15 @@ enumLoc
 "
 :
 enumLoc
+           
+"
+sourceDescription
+"
+:
+firstCap
+(
+sourceDescription
+)
                     
 }
 )
@@ -29266,7 +29302,7 @@ template
 +
 =
 (
-"
+'
 if
 (
 !
@@ -29279,12 +29315,16 @@ Init
 cx
 %
 s
+"
+%
+s
+"
 )
 )
 {
 \
 n
-"
+'
                      
 "
 %
@@ -29299,6 +29339,11 @@ n
 %
 (
 val
+firstCap
+(
+sourceDescription
+)
+                            
 exceptionCodeIndented
 .
 define
@@ -29483,23 +29528,33 @@ None
 notDate
 =
 (
-"
+'
 ThrowErrorMessage
 (
 cx
 MSG_NOT_DATE
+"
+%
+s
+"
 )
 ;
 \
 n
-"
+'
                        
 "
 %
 s
 "
 %
+(
+firstCap
+(
+sourceDescription
+)
 exceptionCode
+)
 )
         
 else
@@ -66391,6 +66446,7 @@ ThrowErrorMessage
 (
 cx
 MSG_NOT_DICTIONARY
+sourceDescription
 )
 ;
 \
@@ -66542,6 +66598,25 @@ Value
 '
 '
 val
+'
+)
+            
+Argument
+(
+'
+const
+char
+*
+'
+'
+sourceDescription
+'
+default
+=
+'
+"
+Value
+"
 '
 )
         
