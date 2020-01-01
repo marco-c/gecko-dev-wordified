@@ -6419,6 +6419,16 @@ ResultFromScode
 E_FAIL
 )
 ;
+(
+*
+ppEnum
+)
+-
+>
+Reset
+(
+)
+;
 /
 /
 Clone
