@@ -2393,6 +2393,35 @@ d
 "
 )
     
+inactivity_timeout_re
+=
+re
+.
+compile
+(
+r
+"
+MARIONETTE_INACTIVITY_TIMEOUT
+(
+\
+s
+*
+)
+=
+(
+\
+s
+*
+)
+(
+\
+d
++
+)
+;
+"
+)
+    
 match_re
 =
 re
@@ -2862,6 +2891,30 @@ set_script_timeout
 timeout
 )
         
+inactivity_timeout
+=
+self
+.
+inactivity_timeout_re
+.
+search
+(
+js
+)
+        
+if
+inactivity_timeout
+:
+            
+inactivity_timeout
+=
+inactivity_timeout
+.
+group
+(
+3
+)
+        
 try
 :
             
@@ -2880,6 +2933,10 @@ args
 special_powers
 =
 True
+                                                        
+inactivity_timeout
+=
+inactivity_timeout
                                                         
 filename
 =
