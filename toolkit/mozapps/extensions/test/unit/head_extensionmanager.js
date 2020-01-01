@@ -1098,6 +1098,14 @@ noarch
 -
 spidermonkey
 "
+invalidateCachesOnRestart
+:
+function
+invalidateCachesOnRestart
+(
+)
+{
+}
 QueryInterface
 :
 function
