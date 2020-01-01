@@ -953,6 +953,9 @@ mYScale
 nsIntPoint
 mScrollOffset
 ;
+nsIntSize
+mContentSize
+;
 /
 /
 When
