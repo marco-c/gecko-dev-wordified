@@ -920,15 +920,6 @@ ReflowCallbackCanceled
 )
 MOZ_OVERRIDE
 ;
-void
-UpdateImageLayer
-(
-const
-gfxRect
-&
-aRect
-)
-;
 /
 *
 *
