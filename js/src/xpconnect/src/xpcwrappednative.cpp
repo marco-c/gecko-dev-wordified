@@ -4877,6 +4877,10 @@ sciProto
 SetCallback
 (
 helper
+.
+forget
+(
+)
 )
 ;
 sciProto
@@ -5076,6 +5080,10 @@ sciWrapper
 SetCallback
 (
 helper
+.
+forget
+(
+)
 )
 ;
 sciWrapper
