@@ -7755,6 +7755,11 @@ nsIZipReader
 result
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+zipFile
+)
+;
 nsresult
 rv
 ;
