@@ -2481,7 +2481,6 @@ attribute
 exists
 *
 /
-virtual
 bool
 HasAttr
 (
@@ -2492,8 +2491,6 @@ nsIAtom
 aName
 )
 const
-=
-0
 ;
 /
 *
