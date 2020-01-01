@@ -10920,7 +10920,8 @@ not
 acquire
 lock
 aborting
-sync
+server
+reset
 "
 )
 ;
