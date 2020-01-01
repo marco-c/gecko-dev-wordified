@@ -438,13 +438,9 @@ nsISupports
 .
 h
 "
-#
-include
-"
+class
 nsIFrame
-.
-h
-"
+;
 /
 /
 {

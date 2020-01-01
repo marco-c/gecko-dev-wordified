@@ -431,12 +431,17 @@ GFX_COLOR_H
 define
 GFX_COLOR_H
 #
+ifdef
+MOZILLA_INTERNAL_API
+#
 include
 "
 nsPrintfCString
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1679,6 +1684,9 @@ return
 ;
 }
 }
+#
+ifdef
+MOZILLA_INTERNAL_API
 /
 *
 *
@@ -1796,6 +1804,8 @@ hex
 )
 ;
 }
+#
+endif
 }
 ;
 #
