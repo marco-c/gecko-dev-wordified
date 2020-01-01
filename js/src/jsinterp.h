@@ -2247,6 +2247,18 @@ cache
 *
 /
 uint32
+oddfills
+;
+/
+*
+fill
+attempt
+after
+setter
+deleted
+*
+/
+uint32
 modfills
 ;
 /
@@ -2904,6 +2916,8 @@ cx
 JSObject
 *
 obj
+jsuword
+kshape
 uintN
 scopeIndex
 uintN
@@ -2914,8 +2928,6 @@ pobj
 JSScopeProperty
 *
 sprop
-JSBool
-cacheByPrevShape
 JSPropCacheEntry
 *
 *
