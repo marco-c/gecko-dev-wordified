@@ -4158,7 +4158,7 @@ LARGEST_BRANCH_PATCH
 *
 sizeof
 (
-Nins
+NIns
 )
 ;
 inline
