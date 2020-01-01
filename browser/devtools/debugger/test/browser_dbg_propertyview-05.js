@@ -188,7 +188,7 @@ querySelector
 (
 "
 .
-info
+value
 "
 )
 .
@@ -311,7 +311,7 @@ querySelector
 (
 "
 .
-info
+value
 "
 )
 .
