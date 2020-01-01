@@ -991,6 +991,12 @@ triggerOperationCallback
 (
 )
 {
+AutoLockForOperationCallback
+lock
+(
+this
+)
+;
 /
 *
 *
