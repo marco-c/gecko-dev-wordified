@@ -5255,6 +5255,8 @@ v
 /
 *
 *
+Precondition
+:
 obj
 must
 be
