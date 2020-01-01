@@ -3454,7 +3454,6 @@ invalidRect
 >
 top
 )
-false
 )
 ;
 return
