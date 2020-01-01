@@ -644,6 +644,16 @@ GetReferencedFrame
 (
 )
 ;
+PRBool
+IsInObserverList
+(
+)
+const
+{
+return
+mInObserverList
+;
+}
 /
 *
 *
