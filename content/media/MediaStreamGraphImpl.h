@@ -1333,6 +1333,8 @@ held
 void
 PrepareUpdatesToMainThreadState
 (
+bool
+aFinalUpdate
 )
 ;
 /
