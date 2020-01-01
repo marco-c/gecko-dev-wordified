@@ -47602,6 +47602,10 @@ JSContext
 cx
 )
 {
+VOUCH_DOES_NOT_REQUIRE_STACK
+(
+)
+;
 return
 js_ComputeThisForFrame
 (
