@@ -2190,8 +2190,8 @@ RegAlloc
 a
 )
 ;
-NIns
-*
+static
+void
 nPatchBranch
 (
 NIns

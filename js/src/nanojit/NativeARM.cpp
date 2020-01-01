@@ -8198,8 +8198,7 @@ free
 )
 ;
 }
-NIns
-*
+void
 Assembler
 :
 :
@@ -8925,9 +8924,6 @@ at
 ;
 #
 endif
-return
-was
-;
 }
 RegisterMask
 Assembler
