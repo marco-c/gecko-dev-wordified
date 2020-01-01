@@ -17949,7 +17949,7 @@ ahead
 .
 if
 (
-InstIsGuard
+InstIsArtificialGuard
 (
 i
 &
