@@ -440,13 +440,6 @@ ordered
 #
 include
 "
-nsAccessibilityAtoms
-.
-h
-"
-#
-include
-"
 nsAccessibilityService
 .
 h
@@ -1983,7 +1976,7 @@ aContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 usemap
@@ -5971,7 +5964,7 @@ ancestorContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_activedescendant
@@ -6663,7 +6656,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 map
@@ -6822,7 +6815,7 @@ content
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 name
@@ -7008,7 +7001,7 @@ partOfHTMLTable
 frameType
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tableCaptionFrame
@@ -7017,7 +7010,7 @@ tableCaptionFrame
 frameType
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tableCellFrame
@@ -7026,7 +7019,7 @@ tableCellFrame
 frameType
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tableRowGroupFrame
@@ -7035,7 +7028,7 @@ tableRowGroupFrame
 frameType
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tableRowFrame
@@ -7127,7 +7120,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tableOuterFrame
@@ -7379,7 +7372,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 table
@@ -7478,7 +7471,7 @@ tryTagNameOrFrame
 frameType
 !
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tableOuterFrame
@@ -7757,7 +7750,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tableCaptionFrame
@@ -7908,7 +7901,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 svg
@@ -7950,7 +7943,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 math
@@ -8068,7 +8061,7 @@ Tag
 )
 !
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 body
@@ -8617,7 +8610,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 aContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_atomic
@@ -8630,7 +8623,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 aContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_busy
@@ -8643,7 +8636,7 @@ aContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_controls
@@ -8656,7 +8649,7 @@ aContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_describedby
@@ -8669,7 +8662,7 @@ aContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_disabled
@@ -8682,7 +8675,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 aContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_dropeffect
@@ -8695,7 +8688,7 @@ aContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_flowto
@@ -8708,7 +8701,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 aContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_grabbed
@@ -8721,7 +8714,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 aContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_haspopup
@@ -8734,7 +8727,7 @@ aContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_hidden
@@ -8747,7 +8740,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 aContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_invalid
@@ -8760,7 +8753,7 @@ aContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_label
@@ -8773,7 +8766,7 @@ aContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_labelledby
@@ -8786,7 +8779,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 aContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_live
@@ -8799,7 +8792,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 aContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_owns
@@ -8812,7 +8805,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 aContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_relevant
@@ -9352,7 +9345,7 @@ aContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tooltiptext
@@ -9611,7 +9604,7 @@ NodeInfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 menu
@@ -10376,7 +10369,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 legend
@@ -10407,7 +10400,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 option
@@ -10438,7 +10431,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 optgroup
@@ -10469,7 +10462,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 ul
@@ -10478,7 +10471,7 @@ ul
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 ol
@@ -10487,7 +10480,7 @@ ol
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 dl
@@ -10518,7 +10511,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 a
@@ -10629,7 +10622,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 dt
@@ -10639,7 +10632,7 @@ dt
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 li
@@ -10653,7 +10646,7 @@ GetType
 )
 !
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 blockFrame
@@ -10728,7 +10721,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 abbr
@@ -10737,7 +10730,7 @@ abbr
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 acronym
@@ -10746,7 +10739,7 @@ acronym
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 blockquote
@@ -10755,7 +10748,7 @@ blockquote
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 dd
@@ -10764,7 +10757,7 @@ dd
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 form
@@ -10773,7 +10766,7 @@ form
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h1
@@ -10782,7 +10775,7 @@ h1
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h2
@@ -10791,7 +10784,7 @@ h2
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h3
@@ -10800,7 +10793,7 @@ h3
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h4
@@ -10809,7 +10802,7 @@ h4
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h5
@@ -10818,7 +10811,7 @@ h5
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h6
@@ -10827,7 +10820,7 @@ h6
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 q
@@ -10858,7 +10851,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tr
@@ -10924,7 +10917,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 output
@@ -10955,7 +10948,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 progress
@@ -11601,7 +11594,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 boxFrame
@@ -11615,7 +11608,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 scrollFrame
@@ -11645,7 +11638,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 deckFrame
@@ -11700,7 +11693,7 @@ NodeInfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tabpanels

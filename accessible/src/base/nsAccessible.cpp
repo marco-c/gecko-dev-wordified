@@ -1858,7 +1858,7 @@ IsHTML
 )
 tooltipAttr
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 title
@@ -1875,7 +1875,7 @@ IsXUL
 )
 tooltipAttr
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tooltiptext
@@ -2082,7 +2082,7 @@ nsTextEquivUtils
 GetTextEquivFromIDRefs
 (
 this
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_describedby
@@ -2192,12 +2192,12 @@ descAtom
 =
 isXUL
 ?
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tooltiptext
 :
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 title
@@ -3792,7 +3792,7 @@ if
 frameType
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textFrame
@@ -3866,7 +3866,7 @@ if
 frameType
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 inlineFrame
@@ -4182,11 +4182,11 @@ mContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 disabled
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _true
@@ -4408,7 +4408,7 @@ mContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 popup
@@ -5684,7 +5684,7 @@ nsCoreUtils
 IsCorrectFrameType
 (
 ancestorFrame
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 inlineFrame
@@ -5698,7 +5698,7 @@ nsCoreUtils
 IsCorrectFrameType
 (
 ancestorFrame
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textFrame
@@ -5864,7 +5864,7 @@ nsCoreUtils
 IsCorrectFrameType
 (
 iterFrame
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 inlineFrame
@@ -6539,7 +6539,7 @@ mContent
 SetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_selected
@@ -6560,7 +6560,7 @@ mContent
 UnsetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_selected
@@ -6822,7 +6822,7 @@ ancestorContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_activedescendant
@@ -6885,7 +6885,7 @@ focusContent
 SetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_activedescendant
@@ -7618,7 +7618,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 toolbaritem
@@ -7630,7 +7630,7 @@ parent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 title
@@ -8011,7 +8011,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 role
@@ -8167,7 +8167,7 @@ nsAccUtils
 SetAccAttr
 (
 attributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 checkable
@@ -8473,7 +8473,7 @@ nsAccUtils
 GetAccAttr
 (
 attributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 live
@@ -8509,7 +8509,7 @@ nsAccUtils
 SetAccAttr
 (
 attributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 live
@@ -8680,7 +8680,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _class
@@ -8693,7 +8693,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _class
@@ -8982,7 +8982,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 display
@@ -9030,7 +9030,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textAlign
@@ -9078,7 +9078,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textIndent
@@ -9133,7 +9133,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 draggable
@@ -9222,7 +9222,7 @@ nsCoreUtils
 GetUIntAttr
 (
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_level
@@ -9235,7 +9235,7 @@ nsCoreUtils
 GetUIntAttr
 (
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_posinset
@@ -9248,7 +9248,7 @@ nsCoreUtils
 GetUIntAttr
 (
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_setsize
@@ -9537,11 +9537,11 @@ mContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_selected
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _false
@@ -9957,7 +9957,7 @@ ancestorContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_activedescendant
@@ -10355,7 +10355,7 @@ ancestorContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_activedescendant
@@ -10446,11 +10446,11 @@ ancestorContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_disabled
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _true
@@ -10655,7 +10655,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_valuetext
@@ -10669,7 +10669,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_valuenow
@@ -10774,7 +10774,7 @@ aMaximumValue
 return
 GetAttrValue
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_valuemax
@@ -10796,7 +10796,7 @@ aMinimumValue
 return
 GetAttrValue
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_valuemin
@@ -10854,7 +10854,7 @@ aValue
 return
 GetAttrValue
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_valuenow
@@ -10988,7 +10988,7 @@ mContent
 SetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_valuenow
@@ -11252,7 +11252,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_pressed
@@ -11295,11 +11295,11 @@ mContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_haspopup
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _true
@@ -12047,7 +12047,7 @@ loopContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_atomic
@@ -12200,7 +12200,7 @@ GetDocAccessible
 (
 )
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_labelledby
@@ -12217,7 +12217,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 label
@@ -12237,12 +12237,12 @@ IsHTML
 (
 )
 ?
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _for
 :
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 control
@@ -12267,7 +12267,7 @@ new
 IDRefsIterator
 (
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_labelledby
@@ -12343,7 +12343,7 @@ new
 IDRefsIterator
 (
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_describedby
@@ -12394,7 +12394,7 @@ GetDocAccessible
 (
 )
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_describedby
@@ -12443,7 +12443,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 description
@@ -12464,7 +12464,7 @@ new
 IDRefsIterator
 (
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 control
@@ -12492,7 +12492,7 @@ GetDocAccessible
 (
 )
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_owns
@@ -12753,7 +12753,7 @@ GetDocAccessible
 (
 )
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_controls
@@ -12774,7 +12774,7 @@ new
 IDRefsIterator
 (
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_controls
@@ -12812,7 +12812,7 @@ new
 IDRefsIterator
 (
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_flowto
@@ -12835,7 +12835,7 @@ GetDocAccessible
 (
 )
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_flowto
@@ -14562,7 +14562,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 brFrame
@@ -14893,7 +14893,7 @@ nsTextEquivUtils
 GetTextEquivFromIDRefs
 (
 this
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_labelledby
@@ -14934,7 +14934,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_label
@@ -16240,7 +16240,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_XLink
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 href
@@ -17857,7 +17857,7 @@ mContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 popup
@@ -17941,7 +17941,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_expanded

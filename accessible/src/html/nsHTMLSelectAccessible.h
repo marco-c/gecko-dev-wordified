@@ -451,13 +451,6 @@ __nsHTMLSelectAccessible_h__
 #
 include
 "
-nsAccessibilityAtoms
-.
-h
-"
-#
-include
-"
 nsHTMLFormControlAccessible
 .
 h

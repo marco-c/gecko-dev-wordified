@@ -706,7 +706,7 @@ nsTextEquivUtils
 GetTextEquivFromIDRefs
 (
 this
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_describedby

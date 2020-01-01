@@ -1853,7 +1853,7 @@ new
 IDRefsIterator
 (
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _for
@@ -1913,7 +1913,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 live

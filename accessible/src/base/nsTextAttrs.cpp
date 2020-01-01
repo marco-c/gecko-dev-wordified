@@ -668,7 +668,7 @@ color
 "
 kAnyValue
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 color
@@ -682,10 +682,10 @@ family
 "
 kAnyValue
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
-fontFamily
+font_family
 kCopyValue
 }
 {
@@ -696,10 +696,10 @@ style
 "
 kAnyValue
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
-fontStyle
+font_style
 kCopyValue
 }
 {
@@ -714,7 +714,7 @@ line
 through
 "
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textLineThroughStyle
@@ -732,7 +732,7 @@ decoration
 underline
 "
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textUnderlineStyle
@@ -748,7 +748,7 @@ align
 "
 kAnyValue
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textPosition
@@ -2566,6 +2566,7 @@ nsCSSTextAttr
 GetName
 (
 )
+const
 {
 return
 *

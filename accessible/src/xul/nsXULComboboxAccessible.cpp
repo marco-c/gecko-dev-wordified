@@ -705,11 +705,11 @@ mContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 type
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 autocomplete
@@ -1050,7 +1050,7 @@ NodeInfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textbox
@@ -1064,11 +1064,11 @@ mContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 editable
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _true

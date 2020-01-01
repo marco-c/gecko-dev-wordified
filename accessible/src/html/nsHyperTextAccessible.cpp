@@ -462,13 +462,6 @@ h
 #
 include
 "
-nsAccessibilityAtoms
-.
-h
-"
-#
-include
-"
 nsAccessibilityService
 .
 h
@@ -1107,7 +1100,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 form
@@ -1123,7 +1116,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 blockquote
@@ -1132,7 +1125,7 @@ blockquote
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 div
@@ -1141,7 +1134,7 @@ div
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 nav
@@ -1157,7 +1150,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h1
@@ -1166,7 +1159,7 @@ h1
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h2
@@ -1175,7 +1168,7 @@ h2
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h3
@@ -1184,7 +1177,7 @@ h3
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h4
@@ -1193,7 +1186,7 @@ h4
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h5
@@ -1202,7 +1195,7 @@ h5
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h6
@@ -1218,7 +1211,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 article
@@ -1241,7 +1234,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 header
@@ -1257,7 +1250,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 footer
@@ -1273,7 +1266,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aside
@@ -1312,7 +1305,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 blockFrame
@@ -1331,7 +1324,7 @@ Tag
 )
 !
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 input
@@ -1475,7 +1468,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 article
@@ -1573,7 +1566,7 @@ GetType
 )
 !
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textFrame
@@ -2420,7 +2413,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textFrame
@@ -2589,7 +2582,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textFrame
@@ -2953,7 +2946,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 brFrame
@@ -3995,7 +3988,7 @@ NodeInfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 br
@@ -4008,11 +4001,11 @@ findContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 mozeditorbogusnode
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _true
@@ -5114,7 +5107,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textFrame
@@ -7521,7 +7514,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textFrame
@@ -7716,7 +7709,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h1
@@ -7729,7 +7722,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h2
@@ -7742,7 +7735,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h3
@@ -7755,7 +7748,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h4
@@ -7768,7 +7761,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h5
@@ -7781,7 +7774,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 h6
@@ -7890,7 +7883,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 blockFrame
@@ -7961,7 +7954,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 lineNumber
@@ -8050,7 +8043,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 nav
@@ -8061,7 +8054,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 xmlroles
@@ -8084,7 +8077,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 footer
@@ -8095,7 +8088,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 xmlroles
@@ -8118,7 +8111,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aside
@@ -8129,7 +8122,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 xmlroles
@@ -8765,7 +8758,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textFrame
@@ -12956,7 +12949,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textFrame
@@ -13110,7 +13103,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textFrame
@@ -14043,7 +14036,7 @@ GetType
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 textFrame
@@ -14754,7 +14747,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 invalid

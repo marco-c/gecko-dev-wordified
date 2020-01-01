@@ -446,13 +446,6 @@ h
 #
 include
 "
-nsAccessibilityAtoms
-.
-h
-"
-#
-include
-"
 States
 .
 h
@@ -796,7 +789,7 @@ aValue
 return
 GetSliderAttr
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 curpos
@@ -944,7 +937,7 @@ rv
 return
 GetSliderAttr
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 maxpos
@@ -994,7 +987,7 @@ rv
 return
 GetSliderAttr
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 minpos
@@ -1045,7 +1038,7 @@ rv
 return
 GetSliderAttr
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 increment
@@ -1095,7 +1088,7 @@ rv
 return
 GetSliderAttr
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 curpos
@@ -1144,7 +1137,7 @@ rv
 return
 SetSliderAttr
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 curpos

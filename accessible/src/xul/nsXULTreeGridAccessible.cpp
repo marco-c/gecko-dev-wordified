@@ -6773,7 +6773,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tableCellIndex
@@ -6819,7 +6819,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 cycles
@@ -7741,11 +7741,11 @@ columnContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 editable
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _true
@@ -7762,11 +7762,11 @@ mContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 editable
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _true

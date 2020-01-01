@@ -469,13 +469,6 @@ h
 #
 include
 "
-nsAccessibilityAtoms
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h
@@ -1549,7 +1542,7 @@ eARIAAutoComplete
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_autocomplete
@@ -1591,7 +1584,7 @@ eARIABusy
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_busy
@@ -1616,7 +1609,7 @@ eARIACheckableBool
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_checked
@@ -1638,7 +1631,7 @@ eARIACheckableMixed
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_checked
@@ -1660,7 +1653,7 @@ eARIACheckedMixed
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_checked
@@ -1681,7 +1674,7 @@ eARIADisabled
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_disabled
@@ -1698,7 +1691,7 @@ eARIAExpanded
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_expanded
@@ -1719,7 +1712,7 @@ eARIAHasPopup
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_haspopup
@@ -1736,7 +1729,7 @@ eARIAInvalid
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_invalid
@@ -1753,7 +1746,7 @@ eARIAMultiline
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_multiline
@@ -1775,7 +1768,7 @@ eARIAMultiSelectable
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_multiselectable
@@ -1797,7 +1790,7 @@ eARIAOrientation
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_orientation
@@ -1823,7 +1816,7 @@ eARIAPressed
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_pressed
@@ -1843,7 +1836,7 @@ eARIAReadonly
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_readonly
@@ -1860,7 +1853,7 @@ eARIAReadonlyOrEditable
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_readonly
@@ -1882,7 +1875,7 @@ eARIARequired
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_required
@@ -1899,7 +1892,7 @@ eARIASelectable
 nsStateMapEntry
 (
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_selected
@@ -2033,7 +2026,7 @@ gWAIUnivAttrMap
 {
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_activedescendant
@@ -2041,7 +2034,7 @@ ATTR_BYPASSOBJ
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_atomic
@@ -2049,7 +2042,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_busy
@@ -2057,7 +2050,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_checked
@@ -2075,7 +2068,7 @@ attr
 /
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_controls
@@ -2083,7 +2076,7 @@ ATTR_BYPASSOBJ
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_describedby
@@ -2091,7 +2084,7 @@ ATTR_BYPASSOBJ
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_disabled
@@ -2101,7 +2094,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_dropeffect
@@ -2109,7 +2102,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_expanded
@@ -2119,7 +2112,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_flowto
@@ -2127,7 +2120,7 @@ ATTR_BYPASSOBJ
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_grabbed
@@ -2135,7 +2128,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_haspopup
@@ -2145,7 +2138,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_hidden
@@ -2161,7 +2154,7 @@ attr
 /
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_invalid
@@ -2171,7 +2164,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_label
@@ -2179,7 +2172,7 @@ ATTR_BYPASSOBJ
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_labelledby
@@ -2187,7 +2180,7 @@ ATTR_BYPASSOBJ
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_level
@@ -2202,7 +2195,7 @@ groupPosition
 /
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_live
@@ -2210,7 +2203,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_multiline
@@ -2220,7 +2213,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_multiselectable
@@ -2230,7 +2223,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_owns
@@ -2238,7 +2231,7 @@ ATTR_BYPASSOBJ
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_orientation
@@ -2246,7 +2239,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_posinset
@@ -2261,7 +2254,7 @@ groupPosition
 /
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_pressed
@@ -2271,7 +2264,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_readonly
@@ -2281,7 +2274,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_relevant
@@ -2289,7 +2282,7 @@ ATTR_BYPASSOBJ
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_required
@@ -2299,7 +2292,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_selected
@@ -2309,7 +2302,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_setsize
@@ -2324,7 +2317,7 @@ groupPosition
 /
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_sort
@@ -2332,7 +2325,7 @@ ATTR_VALTOKEN
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_valuenow
@@ -2340,7 +2333,7 @@ ATTR_BYPASSOBJ
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_valuemin
@@ -2348,7 +2341,7 @@ ATTR_BYPASSOBJ
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_valuemax
@@ -2356,7 +2349,7 @@ ATTR_BYPASSOBJ
 }
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_valuetext
@@ -3034,7 +3027,7 @@ kNameSpaceID_None
 entry
 .
 mAttributeName
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _empty
@@ -3052,7 +3045,7 @@ kNameSpaceID_None
 entry
 .
 mAttributeName
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _undefined

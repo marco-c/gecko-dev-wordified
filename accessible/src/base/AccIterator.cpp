@@ -1093,7 +1093,7 @@ IDAttr
 =
 mBindingParent
 ?
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 anonid
@@ -1484,7 +1484,7 @@ mRelIter
 (
 aDocument
 aElement
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _for
@@ -1576,7 +1576,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 label
@@ -1663,7 +1663,7 @@ Tag
 )
 !
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 form
@@ -1677,7 +1677,7 @@ Tag
 )
 !
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 body
@@ -1693,7 +1693,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 label
@@ -1906,7 +1906,7 @@ mRelIter
 (
 aDocument
 aElement
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _for
@@ -1956,7 +1956,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 output
@@ -2149,7 +2149,7 @@ mRelIter
 (
 aDocument
 aElement
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 control
@@ -2199,7 +2199,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 label
@@ -2392,7 +2392,7 @@ mRelIter
 (
 aDocument
 aElement
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 control
@@ -2442,7 +2442,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 description

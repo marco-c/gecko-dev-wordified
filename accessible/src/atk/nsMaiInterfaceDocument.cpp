@@ -464,13 +464,6 @@ nsMaiInterfaceDocument
 .
 h
 "
-#
-include
-"
-nsAccessibilityAtoms
-.
-h
-"
 const
 char
 *

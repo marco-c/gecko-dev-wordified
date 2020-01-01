@@ -458,13 +458,6 @@ h
 #
 include
 "
-nsAccessibilityAtoms
-.
-h
-"
-#
-include
-"
 nsAccUtils
 .
 h
@@ -1371,13 +1364,6 @@ gStringBundle
 )
 ;
 }
-nsAccessibilityAtoms
-:
-:
-AddRefAtoms
-(
-)
-;
 nsCOMPtr
 <
 nsIPrefBranch
@@ -2718,7 +2704,7 @@ doc
 >
 GetHeaderData
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 headerContentLanguage

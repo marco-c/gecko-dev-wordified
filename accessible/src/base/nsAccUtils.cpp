@@ -474,13 +474,6 @@ h
 #
 include
 "
-nsAccessibilityAtoms
-.
-h
-"
-#
-include
-"
 nsARIAMap
 .
 h
@@ -679,7 +672,7 @@ aLevel
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 level
@@ -711,7 +704,7 @@ aPosInSet
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 posinset
@@ -734,7 +727,7 @@ aSetSize
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 setsize
@@ -881,7 +874,7 @@ aAccessible
 GetContent
 (
 )
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_level
@@ -1687,7 +1680,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 ancestor
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_relevant
@@ -1700,7 +1693,7 @@ ancestor
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_relevant
@@ -1710,7 +1703,7 @@ relevant
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 containerRelevant
@@ -1755,7 +1748,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 ancestor
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_live
@@ -1768,7 +1761,7 @@ ancestor
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_live
@@ -1805,7 +1798,7 @@ IsEmpty
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 containerLive
@@ -1823,7 +1816,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 containerLiveRole
@@ -1860,7 +1853,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 ancestor
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_atomic
@@ -1873,7 +1866,7 @@ ancestor
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_atomic
@@ -1883,7 +1876,7 @@ atomic
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 containerAtomic
@@ -1911,7 +1904,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 ancestor
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_busy
@@ -1924,7 +1917,7 @@ ancestor
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_busy
@@ -1934,7 +1927,7 @@ busy
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 containerBusy
@@ -2029,7 +2022,7 @@ AttrValueIs
 (
 kNameSpaceID_None
 aAtom
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _empty
@@ -2044,7 +2037,7 @@ AttrValueIs
 (
 kNameSpaceID_None
 aAtom
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _undefined
@@ -2091,7 +2084,7 @@ aAttr
 )
 )
 return
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _empty
@@ -2107,17 +2100,17 @@ tokens
 =
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _false
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _true
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 mixed
@@ -2418,11 +2411,11 @@ GetContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_selected
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _true
@@ -3035,7 +3028,7 @@ content
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 role
