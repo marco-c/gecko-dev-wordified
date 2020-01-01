@@ -99,7 +99,7 @@ MakeCurrent
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -252,7 +252,7 @@ MakeCurrent
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -1165,7 +1165,7 @@ yet
 .
 for
 (
-size_t
+PRUint32
 i
 =
 0
