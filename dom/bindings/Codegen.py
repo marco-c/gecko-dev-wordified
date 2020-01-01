@@ -3602,6 +3602,40 @@ descriptors
 )
         
 #
+Grab
+the
+includes
+for
+the
+things
+that
+involve
+hasInstanceInterface
+        
+hasInstanceIncludes
+=
+set
+(
+d
+.
+hasInstanceInterface
++
+"
+.
+h
+"
+for
+d
+                                  
+in
+descriptors
+if
+d
+.
+hasInstanceInterface
+)
+        
+#
 Now
 find
 all
@@ -4143,6 +4177,9 @@ bindingIncludes
 |
                                                            
 bindingHeaders
+|
+                                                           
+hasInstanceIncludes
 |
                                                            
 implementationIncludes
