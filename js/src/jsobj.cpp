@@ -10163,9 +10163,11 @@ GenericObject
 /
 )
 {
-JSObject
-*
+RootedObject
 res
+(
+cx
+)
 ;
 if
 (

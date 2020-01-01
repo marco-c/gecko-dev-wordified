@@ -9760,6 +9760,13 @@ directly
 enter
 IonMonkey
 .
+RootedScript
+rscript
+(
+cx
+script
+)
+;
 if
 (
 js_IonOptions
@@ -9768,7 +9775,7 @@ eagerCompilation
 &
 &
 !
-script
+rscript
 -
 >
 hasBaselineScript
@@ -9807,13 +9814,6 @@ if
 already
 compiled
 .
-RootedScript
-rscript
-(
-cx
-script
-)
-;
 bool
 constructing
 =
@@ -9866,7 +9866,7 @@ Method_CantCompile
 ForbidCompilation
 (
 cx
-script
+rscript
 )
 ;
 return

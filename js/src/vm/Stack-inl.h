@@ -1850,10 +1850,10 @@ InitialFrameFlags
 initial
 )
 {
-JSFunction
-*
+RootedFunction
 callee
-=
+(
+cx
 &
 args
 .
@@ -1866,6 +1866,7 @@ as
 JSFunction
 >
 (
+)
 )
 ;
 JS_ASSERT
