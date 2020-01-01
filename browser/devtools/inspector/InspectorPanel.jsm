@@ -1926,6 +1926,9 @@ newWindow
 document
 .
 documentElement
+"
+navigateaway
+"
 )
 ;
 }
