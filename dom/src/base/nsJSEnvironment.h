@@ -473,6 +473,13 @@ h
 #
 include
 "
+nsITimer
+.
+h
+"
+#
+include
+"
 prtime
 .
 h
@@ -501,6 +508,8 @@ public
 nsIScriptContext
 public
 nsIXPCScriptNotify
+public
+nsITimerCallback
 {
 public
 :
@@ -1019,6 +1028,7 @@ object
 )
 ;
 NS_DECL_NSIXPCSCRIPTNOTIFY
+NS_DECL_NSITIMERCALLBACK
 static
 void
 LoadStart
@@ -1234,14 +1244,6 @@ CCIfUserInactive
 (
 )
 ;
-static
-void
-FireGCTimer
-(
-PRBool
-aLoadInProgress
-)
-;
 protected
 :
 nsresult
@@ -1276,6 +1278,7 @@ datatypes
 to
 jsvals
 .
+JS_FORCES_STACK
 nsresult
 ConvertSupportsTojsvals
 (
@@ -1307,6 +1310,13 @@ aArg
 jsval
 *
 aArgv
+)
+;
+void
+FireGCTimer
+(
+PRBool
+aLoadInProgress
 )
 ;
 /
