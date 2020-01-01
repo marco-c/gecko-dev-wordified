@@ -1265,7 +1265,10 @@ JSString
 *
 str
 =
-ConcatStringsPure
+ConcatStrings
+<
+NoGC
+>
 (
 slice
 left
