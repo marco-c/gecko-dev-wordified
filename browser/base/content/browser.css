@@ -2340,13 +2340,6 @@ box
 #
 identity
 -
-box
--
-inner
->
-#
-identity
--
 icon
 -
 labels
@@ -2412,13 +2405,6 @@ identity
 box
 .
 verifiedIdentity
->
-#
-identity
--
-box
--
-inner
 >
 #
 identity
