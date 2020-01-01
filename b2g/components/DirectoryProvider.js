@@ -203,6 +203,9 @@ PrefD
 "
 indexedDBPDir
 "
+"
+permissionDBPDir
+"
 ]
 ;
 if
