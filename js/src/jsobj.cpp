@@ -11562,7 +11562,6 @@ vals
 begin
 (
 )
-false
 )
 ;
 if
@@ -14845,7 +14844,7 @@ UINT32_MAX
 obj
 -
 >
-setSlowArrayLength
+setArrayLength
 (
 index
 +
