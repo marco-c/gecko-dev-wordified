@@ -34671,7 +34671,7 @@ domain
 if
 (
 !
-ChannelIsSafeMethod
+ChannelIsSafeHTTPMethod
 (
 aNewChannel
 )
@@ -53320,7 +53320,7 @@ ownerPrincipal
 &
 &
 !
-ChannelIsSafeMethod
+ChannelIsSafeHTTPMethod
 (
 channel
 )
@@ -63285,7 +63285,7 @@ bool
 nsDocShell
 :
 :
-ChannelIsSafeMethod
+ChannelIsSafeHTTPMethod
 (
 nsIChannel
 *
@@ -63311,7 +63311,7 @@ httpChannel
 )
 {
 return
-false
+true
 ;
 }
 nsCAutoString

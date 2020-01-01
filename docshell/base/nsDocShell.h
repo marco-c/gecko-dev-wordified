@@ -3026,7 +3026,7 @@ method
 note
 Will
 return
-false
+true
 if
 the
 channel
@@ -3041,7 +3041,7 @@ channel
 /
 static
 bool
-ChannelIsSafeMethod
+ChannelIsSafeHTTPMethod
 (
 nsIChannel
 *
