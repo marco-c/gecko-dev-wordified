@@ -3120,12 +3120,6 @@ if
 kind
 !
 =
-JSTRACE_DOUBLE
-&
-&
-kind
-!
-=
 JSTRACE_STRING
 )
 {

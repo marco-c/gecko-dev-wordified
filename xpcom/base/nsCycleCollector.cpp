@@ -17981,6 +17981,11 @@ nsISupports
 n
 )
 {
+if
+(
+n
+)
+{
 mExpectedGarbage
 .
 PutEntry
@@ -17988,6 +17993,7 @@ PutEntry
 n
 )
 ;
+}
 }
 void
 nsCycleCollector
@@ -18000,6 +18006,11 @@ nsISupports
 n
 )
 {
+if
+(
+n
+)
+{
 mExpectedGarbage
 .
 RemoveEntry
@@ -18007,6 +18018,7 @@ RemoveEntry
 n
 )
 ;
+}
 }
 #
 endif
