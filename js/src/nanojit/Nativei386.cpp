@@ -2253,7 +2253,7 @@ _allocator
 ;
 #
 ifdef
-WIN32
+_MSC_VER
 _asm
 {
 mov
@@ -2369,7 +2369,7 @@ memory
 endif
 /
 *
-WIN32
+_MSC_VER
 *
 /
 return
