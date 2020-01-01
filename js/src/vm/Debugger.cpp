@@ -4568,9 +4568,7 @@ HashTableWriteBarrierPost
 cx
 -
 >
-zone
-(
-)
+runtime
 &
 objects
 obj

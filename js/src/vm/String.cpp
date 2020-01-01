@@ -1494,14 +1494,11 @@ jschar
 *
 pos
 ;
-Zone
+JSRuntime
 *
-zone
+rt
 =
-this
--
->
-zone
+runtime
 (
 )
 ;
@@ -1678,7 +1675,7 @@ exit
 /
 StringWriteBarrierPostRemove
 (
-zone
+rt
 &
 left
 .
@@ -1691,7 +1688,7 @@ left
 ;
 StringWriteBarrierPost
 (
-zone
+rt
 (
 JSString
 *
@@ -1805,7 +1802,7 @@ pos
 ;
 StringWriteBarrierPostRemove
 (
-zone
+rt
 &
 str
 -
@@ -2077,7 +2074,7 @@ wholeCapacity
 ;
 StringWriteBarrierPostRemove
 (
-zone
+rt
 &
 str
 -
@@ -2091,7 +2088,7 @@ left
 ;
 StringWriteBarrierPostRemove
 (
-zone
+rt
 &
 str
 -
@@ -2175,7 +2172,7 @@ exit
 /
 StringWriteBarrierPost
 (
-zone
+rt
 (
 JSString
 *

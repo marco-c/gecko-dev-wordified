@@ -1230,6 +1230,13 @@ disable
 (
 )
 {
+if
+(
+!
+enabled
+)
+return
+;
 bufferVal
 .
 disable
