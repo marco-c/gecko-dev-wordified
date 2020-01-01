@@ -26128,7 +26128,7 @@ if
 (
 segOffset
 >
-1
+0
 &
 &
 NS_IS_LOW_SURROGATE
