@@ -3420,6 +3420,10 @@ reset
 client_fd
 )
 ;
+mIOLoop
+=
+nullptr
+;
 nsRefPtr
 <
 OnSocketEventTask
