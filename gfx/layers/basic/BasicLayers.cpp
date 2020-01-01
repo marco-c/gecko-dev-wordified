@@ -1885,6 +1885,14 @@ s
 "
 )
 ;
+nsRefPtr
+<
+gfxASurface
+>
+oldBuffer
+;
+oldBuffer
+=
 SetBuffer
 (
 aBuffer
