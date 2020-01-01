@@ -2646,6 +2646,10 @@ c
 len
 )
 ;
+n
+=
+0
+;
 if
 (
 value
@@ -2671,6 +2675,12 @@ len
 -
 value
 ;
+}
+if
+(
+n
+)
+{
 if
 (
 (
@@ -2763,6 +2773,12 @@ nvalue
 ;
 }
 else
+if
+(
+len
+>
+0
+)
 {
 debug_printf
 (
@@ -2810,7 +2826,8 @@ comment
 fs_comment_new
 (
 nvalue
-NULL
+"
+"
 )
 )
 =
