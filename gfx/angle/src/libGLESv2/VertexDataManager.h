@@ -290,14 +290,6 @@ UINT
 requiredSpace
 )
 ;
-void
-addRequiredSpaceFor
-(
-ArrayVertexBuffer
-*
-buffer
-)
-;
 protected
 :
 UINT
