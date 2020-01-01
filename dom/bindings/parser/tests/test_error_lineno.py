@@ -106,9 +106,6 @@ n
 '
 )
         
-print
-lines
-        
 harness
 .
 check
