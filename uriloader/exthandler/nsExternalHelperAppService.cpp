@@ -3105,6 +3105,17 @@ Install
 "
 }
 {
+APPLICATION_PDF
+"
+pdf
+"
+"
+Portable
+Document
+Format
+"
+}
+{
 APPLICATION_POSTSCRIPT
 "
 ps
