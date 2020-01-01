@@ -6292,6 +6292,13 @@ defined
 (
 BSDI
 )
+\
+|
+|
+defined
+(
+SYMBIAN
+)
 /
 *
 union

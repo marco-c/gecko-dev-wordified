@@ -21079,9 +21079,17 @@ Info
 .
 dwVolumeSerialNumber
 )
+{
+_MD_UNLOCK
+(
+&
+cachedVolumeLock
+)
+;
 return
 _PR_LOCAL_FILE
 ;
+}
 _MD_UNLOCK
 (
 &

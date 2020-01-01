@@ -495,7 +495,7 @@ arguments
 PR_BEGIN_EXTERN_C
 #
 ifndef
-XP_OS2_EMX
+XP_OS2
 extern
 char
 *
@@ -551,7 +551,7 @@ h
 /
 #
 ifdef
-XP_OS2_EMX
+XP_OS2
 #
 include
 <

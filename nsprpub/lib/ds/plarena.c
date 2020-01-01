@@ -589,6 +589,11 @@ static
 PRCallOnceType
 once
 ;
+static
+const
+PRCallOnceType
+pristineCallOnce
+;
 /
 *
 *
@@ -2592,6 +2597,10 @@ arenaLock
 NULL
 ;
 }
+once
+=
+pristineCallOnce
+;
 }
 #
 ifdef

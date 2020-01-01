@@ -441,9 +441,6 @@ OS
 *
 /
 #
-ifdef
-XP_OS2_EMX
-#
 include
 <
 sys
@@ -459,8 +456,6 @@ timeval
 .
 *
 /
-#
-endif
 #
 include
 "
