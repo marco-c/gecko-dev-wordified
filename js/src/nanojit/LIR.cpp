@@ -13598,6 +13598,9 @@ LIR_xf
 case
 LIR_xbarrier
 :
+case
+LIR_xtbl
+:
 formatGuard
 (
 i
