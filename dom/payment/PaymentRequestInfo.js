@@ -267,9 +267,6 @@ nsIDOMPaymentProductPrice
 ]
 }
 )
-country
-:
-null
 currency
 :
 null
@@ -281,17 +278,10 @@ init
 function
 init
 (
-aCountry
 aCurrency
 aAmount
 )
 {
-this
-.
-country
-=
-aCountry
-;
 this
 .
 currency
