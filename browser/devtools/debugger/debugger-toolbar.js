@@ -5298,7 +5298,7 @@ L10N
 getFormatStr
 (
 "
-searchPanelLine
+searchPanelGoToLine
 "
 this
 .
