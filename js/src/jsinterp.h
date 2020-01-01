@@ -5058,16 +5058,6 @@ size_t
 oplen
 )
 ;
-extern
-JSObject
-*
-GetScopeChain
-(
-JSContext
-*
-cx
-)
-;
 /
 *
 *
@@ -5339,6 +5329,7 @@ T
 v
 )
 ;
+inline
 void
 PutActivationObjects
 (
