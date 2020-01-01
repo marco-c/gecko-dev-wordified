@@ -2596,6 +2596,12 @@ break
 }
 MOZ_NOT_REACHED
 (
+"
+unexpected
+audio
+channel
+type
+"
 )
 ;
 return
