@@ -5958,6 +5958,16 @@ preferredScriptUrl
 if
 (
 preferredScriptUrl
+&
+&
+DebuggerView
+.
+Scripts
+.
+contains
+(
+preferredScriptUrl
+)
 )
 {
 DebuggerView
