@@ -445,6 +445,8 @@ BLOCK
 *
 *
 /
+/
+*
 #
 define
 FOREACH_RECT
@@ -452,7 +454,6 @@ FOREACH_RECT
 rect
 tilecache
 fn
-thisObj
 )
 \
 {
@@ -567,12 +568,7 @@ tile
 (
 fn
 )
-.
-call
 (
-(
-thisObj
-)
 tile
 )
 ;
@@ -591,7 +587,6 @@ FOREACH_RECT_CREATE
 rect
 tilecache
 fn
-thisObj
 )
 \
 {
@@ -751,12 +746,7 @@ true
 (
 fn
 )
-.
-call
 (
-(
-thisObj
-)
 tile
 )
 ;
@@ -768,6 +758,8 @@ tile
 }
 \
 }
+*
+/
 const
 kXHTMLNamespaceURI
 =
