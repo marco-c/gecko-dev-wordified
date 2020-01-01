@@ -642,7 +642,7 @@ aligned
 .
 stackAdjust_
 =
-alignStackForCall
+dynamicallyAlignStackForCall
 (
 stackForArgs
 scratch

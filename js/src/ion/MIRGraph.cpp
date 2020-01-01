@@ -514,6 +514,9 @@ MIRGenerator
 :
 MIRGenerator
 (
+JSContext
+*
+cx
 TempAllocator
 &
 temp
@@ -531,6 +534,10 @@ graph
 script
 (
 script
+)
+cx
+(
+cx
 )
 pc
 (

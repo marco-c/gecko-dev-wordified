@@ -813,7 +813,7 @@ Box
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 constant
 type
 "

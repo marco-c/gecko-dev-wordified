@@ -528,7 +528,7 @@ StackAlignment
 ;
 }
 uint32
-alignStackForCall
+dynamicallyAlignStackForCall
 (
 uint32
 stackForArgs
