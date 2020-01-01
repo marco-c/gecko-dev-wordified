@@ -1255,6 +1255,12 @@ IsMenu
 (
 )
 ;
+virtual
+nsMenuListType
+GetParentMenuListType
+(
+)
+;
 PRBool
 IsDisabled
 (
