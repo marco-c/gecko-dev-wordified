@@ -641,6 +641,9 @@ LaunchWithURI
 nsIURI
 *
 aURI
+nsIInterfaceRequestor
+*
+aWindowContext
 )
 {
 nsresult

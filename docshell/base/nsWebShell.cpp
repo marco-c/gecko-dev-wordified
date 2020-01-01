@@ -4974,9 +4974,10 @@ return
 extProtService
 -
 >
-LoadUrl
+LoadURI
 (
 aURI
+this
 )
 ;
 }
