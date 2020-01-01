@@ -3385,6 +3385,10 @@ JS_DECLARE_CALLINFO
 (
 js_Array_1str
 )
+JS_DECLARE_CALLINFO
+(
+js_ArrayCompPush
+)
 /
 *
 Defined
