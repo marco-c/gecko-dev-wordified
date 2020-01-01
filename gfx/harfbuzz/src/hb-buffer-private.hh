@@ -816,6 +816,16 @@ cluster
 ;
 HB_INTERNAL
 void
+add_info
+(
+const
+hb_glyph_info_t
+&
+glyph_info
+)
+;
+HB_INTERNAL
+void
 reverse_range
 (
 unsigned
@@ -928,6 +938,7 @@ HB_INTERNAL
 void
 output_info
 (
+const
 hb_glyph_info_t
 &
 glyph_info
