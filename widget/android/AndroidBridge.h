@@ -1053,6 +1053,16 @@ nsIAndroidDisplayport
 displayPort
 )
 ;
+void
+ContentDocumentChanged
+(
+)
+;
+bool
+IsContentDocumentDisplayed
+(
+)
+;
 bool
 ProgressiveUpdateCallback
 (
