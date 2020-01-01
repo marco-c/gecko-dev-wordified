@@ -3543,9 +3543,6 @@ JSFatLock
 *
 fl
 ;
-PRStatus
-stat
-;
 if
 (
 tl
@@ -3607,6 +3604,10 @@ js_UnlockGlobal
 tl
 )
 ;
+DebugOnly
+<
+PRStatus
+>
 stat
 =
 PR_WaitCondVar
@@ -3721,9 +3722,6 @@ tl
 >
 fat
 ;
-PRStatus
-stat
-;
 JS_ASSERT
 (
 fl
@@ -3755,6 +3753,10 @@ js_UnlockGlobal
 tl
 )
 ;
+DebugOnly
+<
+PRStatus
+>
 stat
 =
 PR_NotifyCondVar
