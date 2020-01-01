@@ -62,6 +62,12 @@ os
 re
 string
 sys
+from
+mozbuild
+.
+util
+import
+FileAvoidWrite
 def
 find_in_path
 (
@@ -304,12 +310,8 @@ header
 compiler
 )
         
-try
-:
-            
-f
-=
-open
+with
+FileAvoidWrite
 (
 os
 .
@@ -320,10 +322,10 @@ join
 outdir
 header
 )
-'
-w
-'
 )
+as
+f
+:
             
 f
 .
@@ -350,15 +352,6 @@ NEW_HEADER_PATH
 =
 path_to_new
 )
-)
-        
-finally
-:
-            
-f
-.
-close
-(
 )
 if
 __name__
