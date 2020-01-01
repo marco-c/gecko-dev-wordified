@@ -226,14 +226,12 @@ nsLeafFrame
 "
 )
 ;
+return
 DisplayBorderBackgroundOutline
 (
 aBuilder
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 /

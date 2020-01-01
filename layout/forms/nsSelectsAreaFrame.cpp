@@ -1033,6 +1033,9 @@ nsDisplayListSet
 aLists
 )
 {
+nsresult
+rv
+=
 nsBlockFrame
 :
 :
@@ -1041,6 +1044,12 @@ BuildDisplayList
 aBuilder
 aDirtyRect
 aLists
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 nsListControlFrame
@@ -1105,6 +1114,7 @@ contained
 descendants
 )
 .
+return
 aLists
 .
 Outlines

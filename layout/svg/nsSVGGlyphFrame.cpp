@@ -2450,6 +2450,7 @@ return
 NS_OK
 ;
 }
+return
 aLists
 .
 Content
@@ -2469,9 +2470,6 @@ aBuilder
 this
 )
 )
-;
-return
-NS_OK
 ;
 }
 /

@@ -806,6 +806,9 @@ nsDisplayListSet
 aLists
 )
 {
+nsresult
+rv
+=
 nsFormControlFrame
 :
 :
@@ -814,6 +817,12 @@ BuildDisplayList
 aBuilder
 aDirtyRect
 aLists
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 /
@@ -889,6 +898,7 @@ will
 do
 it
 .
+return
 aLists
 .
 Content
@@ -922,9 +932,6 @@ nsDisplayItem
 TYPE_CHECKED_CHECKBOX
 )
 )
-;
-return
-NS_OK
 ;
 }
 /
