@@ -469,7 +469,7 @@ public
 :
 ThebesLayerOGL
 (
-LayerManager
+LayerManagerOGL
 *
 aManager
 )

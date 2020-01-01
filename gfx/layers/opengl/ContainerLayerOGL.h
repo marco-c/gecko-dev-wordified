@@ -462,7 +462,7 @@ public
 :
 ContainerLayerOGL
 (
-LayerManager
+LayerManagerOGL
 *
 aManager
 )
