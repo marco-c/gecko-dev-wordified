@@ -12638,11 +12638,7 @@ if
 (
 capacity
 >
-~
-(
-size_t
-)
-0
+PR_UINT32_MAX
 /
 sizeof
 (
