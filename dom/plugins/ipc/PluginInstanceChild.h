@@ -1716,6 +1716,9 @@ mData
 NPWindow
 mWindow
 ;
+int16_t
+mDrawingModel
+;
 /
 /
 Cached
@@ -1978,9 +1981,6 @@ mShColorSpace
 ;
 CGContextRef
 mShContext
-;
-int16_t
-mDrawingModel
 ;
 nsCARenderer
 mCARenderer
