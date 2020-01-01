@@ -30175,7 +30175,8 @@ record_JSOP_VOID
 {
 stack
 (
-0
+-
+1
 lir
 -
 >
