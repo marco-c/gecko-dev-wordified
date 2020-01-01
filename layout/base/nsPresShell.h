@@ -5103,6 +5103,11 @@ return
 result
 ;
 }
+PRUint64
+ComputeTextRunMemoryUsed
+(
+)
+;
 class
 MemoryReporter
 :
