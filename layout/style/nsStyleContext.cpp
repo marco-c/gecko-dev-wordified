@@ -4483,17 +4483,6 @@ Mark
 (
 )
 {
-if
-(
-mStyleIfVisited
-)
-mStyleIfVisited
--
->
-Mark
-(
-)
-;
 /
 /
 Mark
