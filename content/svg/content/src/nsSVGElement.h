@@ -203,9 +203,13 @@ nsSVGClass
 .
 h
 "
-class
+#
+include
+"
 nsIDOMSVGElement
-;
+.
+h
+"
 class
 nsIDOMSVGSVGElement
 ;
