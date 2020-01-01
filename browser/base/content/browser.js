@@ -49254,6 +49254,12 @@ aIndex
 0
 )
 ;
+TabView
+.
+afterUndoCloseTab
+(
+)
+;
 if
 (
 blankTabToRemove
