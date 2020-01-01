@@ -8517,7 +8517,7 @@ case
 PR_FPUTS
 (
 "
-certificate_status_request
+certificate_status
 )
 \
 n
@@ -10708,7 +10708,7 @@ case
 :
 /
 *
-certificate_status_request
+certificate_status
 *
 /
 {
