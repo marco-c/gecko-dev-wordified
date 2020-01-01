@@ -700,8 +700,9 @@ version
 "
 )
 ;
-run_test_2
+do_execute_soon
 (
+run_test_2
 )
 ;
 }
@@ -932,8 +933,9 @@ version
 "
 )
 ;
-run_test_3
+do_execute_soon
 (
+run_test_3
 )
 ;
 }

@@ -214,8 +214,9 @@ addon
 isActive
 )
 ;
-run_test_1
+do_execute_soon
 (
+run_test_1
 )
 ;
 }
@@ -275,8 +276,9 @@ addon
 isActive
 )
 ;
-run_test_2
+do_execute_soon
 (
+run_test_2
 )
 ;
 }

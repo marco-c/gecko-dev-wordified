@@ -1098,6 +1098,15 @@ function
 addon
 )
 {
+do_check_true
+(
+!
+(
+!
+addon
+)
+)
+;
 addon
 .
 userDisabled

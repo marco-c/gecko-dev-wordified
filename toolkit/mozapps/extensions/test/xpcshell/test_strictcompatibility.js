@@ -927,8 +927,9 @@ a7
 strictCompatibility
 )
 ;
-aCallback
+do_execute_soon
 (
+aCallback
 )
 ;
 }

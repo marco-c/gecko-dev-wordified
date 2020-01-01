@@ -2206,6 +2206,7 @@ aActualAddons
 forEach
 (
 function
+check_each_addon
 (
 aActualAddon
 )
@@ -2219,9 +2220,10 @@ so
 better
 messages
 are
-outputted
+output
 when
-failure
+test
+fails
 if
 (
 aActualAddon
@@ -2606,6 +2608,7 @@ test_AddonRepository_1
 )
 ]
 function
+addon_1_install_callback
 (
 )
 {
@@ -2820,9 +2823,12 @@ BASE_URL
 +
 INSTALL_URL2
 function
+addon_2_get
 (
 aInstall
 )
+{
+try
 {
 aInstall
 .
@@ -2830,6 +2836,36 @@ install
 (
 )
 ;
+}
+catch
+(
+e
+)
+{
+do_print
+(
+"
+Failed
+to
+install
+add
+-
+on
+"
++
+aInstall
+.
+sourceURI
+.
+spec
+)
+;
+do_report_unexpected_exception
+(
+e
+)
+;
+}
 /
 /
 Create
@@ -3228,6 +3264,7 @@ tests
 forEach
 (
 function
+url_test
 (
 aTest
 )
@@ -3293,7 +3330,7 @@ urlTests
 }
 )
 ;
-run_test_2
+run_test_getAddonsByID_fails
 (
 )
 ;
@@ -3309,7 +3346,7 @@ getAddonsByIDs
 (
 )
 function
-run_test_2
+run_test_getAddonsByID_fails
 (
 )
 {
@@ -3369,7 +3406,7 @@ AddonRepository
 isSearching
 )
 ;
-run_test_3
+run_test_getAddonsByID_succeeds
 (
 )
 ;
@@ -3379,6 +3416,7 @@ run_test_3
 complete_search
 (
 function
+complete_search_fail_callback
 (
 aCallback
 )
@@ -3409,7 +3447,7 @@ getAddonsByIDs
 (
 )
 function
-run_test_3
+run_test_getAddonsByID_succeeds
 (
 )
 {
@@ -3441,7 +3479,7 @@ aAddonCount
 true
 )
 ;
-run_test_4
+run_test_retrieveRecommended_fails
 (
 )
 ;
@@ -3473,6 +3511,7 @@ end_test
 complete_search
 (
 function
+complete_search_succeed_callback
 (
 aCallback
 )
@@ -3503,7 +3542,7 @@ retrieveRecommendedAddons
 (
 )
 function
-run_test_4
+run_test_retrieveRecommended_fails
 (
 )
 {
@@ -3563,7 +3602,7 @@ AddonRepository
 isSearching
 )
 ;
-run_test_5
+run_test_retrieveRecommended_succeed
 (
 )
 ;
@@ -3573,6 +3612,7 @@ run_test_5
 complete_search
 (
 function
+retrieveRecommended_failing_callback
 (
 aCallback
 )
@@ -3601,7 +3641,7 @@ retrieveRecommendedAddons
 (
 )
 function
-run_test_5
+run_test_retrieveRecommended_succeed
 (
 )
 {
@@ -3632,7 +3672,7 @@ SEARCH_RESULTS
 aAddonCount
 )
 ;
-run_test_6
+run_test_searchAddons_fails
 (
 )
 ;
@@ -3664,6 +3704,7 @@ end_test
 complete_search
 (
 function
+retrieveRecommended_succeed_callback
 (
 aCallback
 )
@@ -3692,7 +3733,7 @@ searchAddons
 (
 )
 function
-run_test_6
+run_test_searchAddons_fails
 (
 )
 {
@@ -3752,7 +3793,7 @@ AddonRepository
 isSearching
 )
 ;
-run_test_7
+run_test_searchAddons_succeeds
 (
 )
 ;
@@ -3798,7 +3839,7 @@ searchAddons
 (
 )
 function
-run_test_7
+run_test_searchAddons_succeeds
 (
 )
 {

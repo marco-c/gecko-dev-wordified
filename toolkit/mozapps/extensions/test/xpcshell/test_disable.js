@@ -1171,7 +1171,7 @@ run_test_3
 Disabling
 then
 enabling
-withut
+without
 restart
 should
 fire

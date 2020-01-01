@@ -188,8 +188,9 @@ pendingAddons
 length
 )
 ;
-run_test_2
+do_execute_soon
 (
+run_test_2
 )
 ;
 }
@@ -231,8 +232,9 @@ addons
 length
 )
 ;
-run_test_3
+do_execute_soon
 (
+run_test_3
 )
 ;
 }

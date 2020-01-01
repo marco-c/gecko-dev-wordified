@@ -2684,8 +2684,9 @@ length
 )
 ;
 }
-callback
+do_execute_soon
 (
+callback
 )
 ;
 }
@@ -2980,6 +2981,13 @@ correctly
 )
 ;
 }
+do_execute_soon
+(
+function
+checkstate1
+(
+)
+{
 check_state
 (
 "
@@ -2987,6 +2995,9 @@ start
 "
 null
 run_test_pt2
+)
+;
+}
 )
 ;
 }

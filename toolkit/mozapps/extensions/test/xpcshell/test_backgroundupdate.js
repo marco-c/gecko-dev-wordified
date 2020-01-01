@@ -297,8 +297,9 @@ complete
 "
 )
 ;
-run_test_2
+do_execute_soon
 (
+run_test_2
 )
 ;
 }
