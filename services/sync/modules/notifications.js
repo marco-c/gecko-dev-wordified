@@ -445,6 +445,8 @@ resource
 /
 weave
 /
+ext
+/
 Observers
 .
 js
