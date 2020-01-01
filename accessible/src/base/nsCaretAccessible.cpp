@@ -1356,9 +1356,9 @@ ifdef
 DEBUG_NOTIFICATIONS
 nsCOMPtr
 <
-nsISelection2
+nsISelectionPrivate
 >
-sel2
+privSel
 (
 do_QueryInterface
 (
@@ -1371,7 +1371,7 @@ type
 =
 0
 ;
-sel2
+privSel
 -
 >
 GetType
@@ -1577,9 +1577,9 @@ aSelection
 {
 nsCOMPtr
 <
-nsISelection2
+nsISelectionPrivate
 >
-sel2
+privSel
 (
 do_QueryInterface
 (
@@ -1592,7 +1592,7 @@ type
 =
 0
 ;
-sel2
+privSel
 -
 >
 GetType
