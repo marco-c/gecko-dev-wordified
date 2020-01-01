@@ -487,7 +487,7 @@ NS_HTML_CONTENT_INTERFACES_AMBIGUOUS
 nsGenericHTMLElement
 nsIDOMHTMLAppletElement
 )
-NS_INTERFACE_TABLE_INHERITED9
+NS_INTERFACE_TABLE_INHERITED8
 (
 HTMLSharedObjectElement
 nsIRequestObserver
@@ -497,7 +497,6 @@ nsIObjectLoadingContent
 imgINotificationObserver
 nsIImageLoadingContent
 imgIOnloadBlocker
-nsIInterfaceRequestor
 nsIChannelEventSink
 )
 NS_INTERFACE_TABLE_TO_MAP_SEGUE

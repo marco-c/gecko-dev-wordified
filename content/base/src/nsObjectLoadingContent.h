@@ -182,13 +182,6 @@ h
 #
 include
 "
-nsIInterfaceRequestor
-.
-h
-"
-#
-include
-"
 nsIChannelEventSink
 .
 h
@@ -264,8 +257,6 @@ public
 nsIFrameLoaderOwner
 public
 nsIObjectLoadingContent
-public
-nsIInterfaceRequestor
 public
 nsIChannelEventSink
 {
@@ -675,7 +666,6 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIFRAMELOADEROWNER
 NS_DECL_NSIOBJECTLOADINGCONTENT
-NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSICHANNELEVENTSINK
 /
 *

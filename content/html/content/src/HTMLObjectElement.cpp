@@ -431,7 +431,7 @@ NS_HTML_CONTENT_INTERFACES
 (
 nsGenericHTMLFormElement
 )
-NS_INTERFACE_TABLE_INHERITED11
+NS_INTERFACE_TABLE_INHERITED10
 (
 HTMLObjectElement
 nsIDOMHTMLObjectElement
@@ -442,7 +442,6 @@ nsIFrameLoaderOwner
 nsIObjectLoadingContent
 nsIImageLoadingContent
 imgIOnloadBlocker
-nsIInterfaceRequestor
 nsIChannelEventSink
 nsIConstraintValidation
 )
