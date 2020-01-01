@@ -1142,6 +1142,8 @@ not
 result
 and
 not
+xpcshell
+.
 sequential
 :
             
