@@ -159,10 +159,6 @@ CSSRuleList
 )
 DOMCI_CLASS
 (
-CSSGroupRuleRuleList
-)
-DOMCI_CLASS
-(
 MediaList
 )
 DOMCI_CLASS
