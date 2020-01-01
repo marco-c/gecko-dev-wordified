@@ -714,6 +714,8 @@ false
 ;
 }
 /
+*
+/
 /
 shut
 down
@@ -737,6 +739,8 @@ disable
 (
 )
 ;
+*
+/
 const
 kAppStartup
 =
