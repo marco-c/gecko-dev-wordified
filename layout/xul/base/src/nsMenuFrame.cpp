@@ -927,10 +927,6 @@ aPresShell
 aContext
 )
 ;
-if
-(
-it
-)
 it
 -
 >
@@ -969,10 +965,6 @@ aPresShell
 aContext
 )
 ;
-if
-(
-it
-)
 it
 -
 >

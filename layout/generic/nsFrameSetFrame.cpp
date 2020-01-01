@@ -3002,14 +3002,6 @@ nsHTMLFramesetBlankFrame
 pseudoStyleContext
 )
 ;
-if
-(
-!
-blankFrame
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 result
 =
 blankFrame

@@ -883,11 +883,6 @@ nsColumnSetFrame
 aContext
 )
 ;
-if
-(
-it
-)
-{
 it
 -
 >
@@ -898,7 +893,6 @@ aStateFlags
 NS_BLOCK_MARGIN_ROOT
 )
 ;
-}
 return
 it
 ;
