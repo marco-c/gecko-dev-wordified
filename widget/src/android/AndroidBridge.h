@@ -1194,6 +1194,11 @@ const
 aBuf
 )
 ;
+bool
+GetShowPasswordSetting
+(
+)
+;
 struct
 AutoLocalJNIFrame
 {
@@ -1777,6 +1782,9 @@ jGetIconForExtension
 ;
 jmethodID
 jCreateShortcut
+;
+jmethodID
+jGetShowPasswordSetting
 ;
 /
 /
