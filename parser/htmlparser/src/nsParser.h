@@ -837,9 +837,6 @@ class
 nsScanner
 ;
 class
-nsIProgressEventSink
-;
-class
 nsSpeculativeScriptThread
 ;
 class
@@ -868,10 +865,6 @@ nsIStreamListener
 {
 public
 :
-friend
-class
-CTokenHandler
-;
 /
 *
 *
