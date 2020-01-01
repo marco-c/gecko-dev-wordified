@@ -2730,6 +2730,11 @@ StyleSet
 ResolveStyleFor
 (
 child
+-
+>
+AsElement
+(
+)
 mStyleContext
 )
 ;
