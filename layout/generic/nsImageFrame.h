@@ -1111,6 +1111,11 @@ imgIContainer
 aImage
 )
 ;
+void
+DisconnectMap
+(
+)
+;
 protected
 :
 virtual
