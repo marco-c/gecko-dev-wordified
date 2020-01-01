@@ -2011,6 +2011,15 @@ v_ins
 )
 ;
 bool
+name
+(
+jsval
+*
+&
+vp
+)
+;
+bool
 prop
 (
 JSObject
