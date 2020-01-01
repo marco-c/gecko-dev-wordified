@@ -681,6 +681,9 @@ jsvector
 h
 "
 #
+ifdef
+JS_METHODJIT
+#
 include
 "
 methodjit
@@ -709,6 +712,8 @@ Logging
 .
 h
 "
+#
+endif
 #
 include
 "

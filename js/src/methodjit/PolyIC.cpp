@@ -2362,12 +2362,7 @@ masm
 .
 load32
 (
-masm
-.
-payloadOf
-(
 capacity
-)
 pic
 .
 shapeReg

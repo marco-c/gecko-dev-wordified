@@ -5751,6 +5751,10 @@ fpreg
 elif
 defined
 JS_CPU_ARM
+|
+|
+defined
+JS_CPU_SPARC
 masm
 .
 negDouble
