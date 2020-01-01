@@ -8092,6 +8092,17 @@ breakpoint
 (
 )
 ;
+/
+/
+conditional
+breakpoint
+void
+breakpoint
+(
+Condition
+cc
+)
+;
 void
 compareDouble
 (
