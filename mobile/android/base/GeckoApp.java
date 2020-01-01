@@ -14751,7 +14751,7 @@ this
 )
 ;
 }
-private
+protected
 void
 registerEventListener
 (
@@ -14772,7 +14772,7 @@ this
 )
 ;
 }
-private
+protected
 void
 unregisterEventListener
 (
