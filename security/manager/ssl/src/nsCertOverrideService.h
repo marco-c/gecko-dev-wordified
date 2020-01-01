@@ -609,6 +609,12 @@ other
 .
 mDBKey
 ;
+mCert
+=
+other
+.
+mCert
+;
 return
 *
 this
@@ -645,6 +651,12 @@ mOverrideBits
 ;
 nsCString
 mDBKey
+;
+nsCOMPtr
+<
+nsIX509Cert
+>
+mCert
 ;
 static
 void
@@ -919,6 +931,11 @@ Init
 (
 )
 ;
+void
+RemoveAllTemporaryOverrides
+(
+)
+;
 typedef
 void
 (
@@ -1077,6 +1094,9 @@ nsACString
 host
 PRInt32
 port
+nsIX509Cert
+*
+aCert
 const
 PRBool
 aIsTemporary
