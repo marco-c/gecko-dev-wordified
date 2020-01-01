@@ -10039,7 +10039,7 @@ if
 script
 -
 >
-scriptCounts
+hasScriptCounts
 )
 {
 PCCounts
