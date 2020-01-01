@@ -1046,7 +1046,7 @@ regs
 #
 define
 NJ_MAX_STACK_ENTRY
-16384
+4096
 #
 define
 NJ_MAX_PARAMETERS
