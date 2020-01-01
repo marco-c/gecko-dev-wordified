@@ -5155,7 +5155,7 @@ AppendFrames
 empties
 out
 *
-aChildList
+aFrameList
 in
 the
 process
@@ -5310,7 +5310,7 @@ InsertFrames
 empties
 out
 *
-aChildList
+aFrameList
 in
 the
 process
