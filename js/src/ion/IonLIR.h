@@ -3253,6 +3253,9 @@ endif
 case
 MIRType_Slots
 :
+case
+MIRType_Elements
+:
 /
 /
 When

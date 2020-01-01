@@ -728,10 +728,10 @@ fail
 )
 ;
 Operand
-createArraySlotOperand
+createArrayElementOperand
 (
 Register
-slots
+elements
 const
 LAllocation
 *

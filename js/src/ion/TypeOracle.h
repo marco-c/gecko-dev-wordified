@@ -533,6 +533,12 @@ MIRType_Slots
 A
 slots
 vector
+MIRType_Elements
+/
+/
+An
+elements
+vector
 MIRType_StackFrame
 /
 /
@@ -1549,6 +1555,14 @@ MIRType_Slots
 return
 "
 Slots
+"
+;
+case
+MIRType_Elements
+:
+return
+"
+Elements
 "
 ;
 case
