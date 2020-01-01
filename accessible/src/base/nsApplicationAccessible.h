@@ -626,15 +626,6 @@ aRootDocument
 ;
 NS_SCRIPTABLE
 NS_IMETHOD
-GetInnerHTML
-(
-nsAString
-&
-aInnerHTML
-)
-;
-NS_SCRIPTABLE
-NS_IMETHOD
 ScrollTo
 (
 PRUint32

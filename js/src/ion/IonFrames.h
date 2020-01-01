@@ -2076,7 +2076,6 @@ js
 namespace
 ion
 {
-inline
 JSScript
 *
 GetTopIonJSScript

@@ -14538,6 +14538,16 @@ if
 HasShadow
 (
 )
+|
+|
+BasicManager
+(
+)
+-
+>
+IsTransactionIncomplete
+(
+)
 )
 {
 return

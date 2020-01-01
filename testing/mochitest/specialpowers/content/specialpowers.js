@@ -425,7 +425,14 @@ this
 .
 window
 =
+Components
+.
+utils
+.
+getWeakReference
+(
 window
+)
 ;
 this
 .

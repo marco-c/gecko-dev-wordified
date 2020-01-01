@@ -3575,7 +3575,7 @@ prefs
 mDefaultFantasyFont
 }
 ;
-PR_STATIC_ASSERT
+MOZ_STATIC_ASSERT
 (
 NS_ARRAY_LENGTH
 (
@@ -3584,6 +3584,14 @@ fontTypes
 =
 =
 eDefaultFont_COUNT
+"
+FontTypes
+array
+count
+is
+not
+correct
+"
 )
 ;
 /

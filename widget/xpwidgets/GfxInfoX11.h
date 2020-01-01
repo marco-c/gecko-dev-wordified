@@ -757,6 +757,12 @@ mVersion
 nsCString
 mAdapterDescription
 ;
+nsCString
+mOS
+;
+nsCString
+mOSRelease
+;
 bool
 mIsMesa
 mIsNVIDIA

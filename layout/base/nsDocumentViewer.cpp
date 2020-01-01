@@ -7072,6 +7072,12 @@ BUTTON_POS_1
 )
 )
 ;
+nsAutoSyncOperation
+sync
+(
+mDocument
+)
+;
 rv
 =
 prompt

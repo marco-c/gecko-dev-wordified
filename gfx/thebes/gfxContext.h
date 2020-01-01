@@ -4221,7 +4221,7 @@ class
 GeneralPattern
 ;
 friend
-class
+struct
 GlyphBufferAzure
 ;
 typedef

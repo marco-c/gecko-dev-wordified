@@ -988,7 +988,7 @@ origin
 }
 inline
 void
-ScriptOpcodeCounts
+ScriptCounts
 :
 :
 destroy
@@ -998,16 +998,12 @@ JSContext
 cx
 )
 {
-if
-(
-counts
-)
 cx
 -
 >
 free_
 (
-counts
+pcCountsVector
 )
 ;
 }
