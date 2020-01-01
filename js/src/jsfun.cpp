@@ -1640,8 +1640,10 @@ return
 proto
 ;
 }
-static
 JSBool
+js
+:
+:
 fun_resolve
 (
 JSContext
@@ -3471,6 +3473,9 @@ fun_enumerate
 (
 JSResolveOp
 )
+js
+:
+:
 fun_resolve
 JS_ConvertStub
 NULL
@@ -12390,6 +12395,9 @@ resolve
 (
 JSResolveOp
 )
+js
+:
+:
 fun_resolve
 )
 return
