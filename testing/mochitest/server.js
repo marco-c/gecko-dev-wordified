@@ -4619,7 +4619,7 @@ tests
 /
 SimpleTest
 /
-MozillaFileLogger
+MozillaLogger
 .
 js
 "
