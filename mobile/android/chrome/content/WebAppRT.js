@@ -310,7 +310,6 @@ useAudioChannelService
 "
 true
 )
-;
 ]
 init
 :
