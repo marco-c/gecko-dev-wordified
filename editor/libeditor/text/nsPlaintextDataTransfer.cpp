@@ -1381,13 +1381,11 @@ based
 on
 coordinates
 .
+newSelectionParent
+=
 GetNodeLocation
 (
 userSelectNode
-address_of
-(
-newSelectionParent
-)
 &
 newSelectionOffset
 )
