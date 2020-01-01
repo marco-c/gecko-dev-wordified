@@ -485,6 +485,11 @@ fp
 JSFunction
 *
 fun
+jsuint
+argc
+jsval
+*
+argv
 )
 ;
 extern
@@ -500,6 +505,9 @@ fp
 JSFunction
 *
 fun
+jsval
+*
+rval
 )
 ;
 extern
