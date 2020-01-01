@@ -981,6 +981,13 @@ nativeVp
 )
 const
 ;
+Value
+*
+argv
+(
+)
+const
+;
 /
 /
 Returns
