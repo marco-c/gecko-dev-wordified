@@ -2460,7 +2460,7 @@ aModifiers
 nsIDOMWindowUtils
 :
 :
-MODIFIER_SCROLL
+MODIFIER_SCROLLLOCK
 )
 {
 result
@@ -2498,7 +2498,7 @@ aModifiers
 nsIDOMWindowUtils
 :
 :
-MODIFIER_WIN
+MODIFIER_OS
 )
 {
 result
