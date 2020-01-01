@@ -104,8 +104,10 @@ for
 the
 cases
 of
+private
+and
 multiple
-inheritence
+inheritance
 .
 This
 code
@@ -113,9 +115,9 @@ was
 inspired
 by
 the
+*
 sample
 code
-*
 here
 :
 *
