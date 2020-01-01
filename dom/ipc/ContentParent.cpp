@@ -9385,7 +9385,7 @@ bool
 ContentParent
 :
 :
-RecvAudioChannelGetMuted
+RecvAudioChannelGetState
 (
 const
 AudioChannelType
@@ -9399,9 +9399,9 @@ const
 bool
 &
 aElementWasHidden
-bool
+AudioChannelState
 *
-aValue
+aState
 )
 {
 nsRefPtr
@@ -9418,9 +9418,9 @@ GetAudioChannelService
 )
 ;
 *
-aValue
+aState
 =
-false
+AUDIO_CHANNEL_STATE_NORMAL
 ;
 if
 (
@@ -9428,12 +9428,12 @@ service
 )
 {
 *
-aValue
+aState
 =
 service
 -
 >
-GetMutedInternal
+GetStateInternal
 (
 aType
 mChildID
@@ -12961,9 +12961,6 @@ const
 OptionalURIParams
 &
 aReferrer
-PBrowserParent
-*
-aBrowser
 )
 {
 ExternalHelperAppParent
@@ -12994,7 +12991,6 @@ aMimeContentType
 aContentDisposition
 aForceSave
 aReferrer
-aBrowser
 )
 ;
 return

@@ -1931,9 +1931,6 @@ const
 OptionalURIParams
 &
 aReferrer
-PBrowserParent
-*
-aBrowser
 )
 ;
 virtual
@@ -2508,7 +2505,7 @@ RecvFirstIdle
 ;
 virtual
 bool
-RecvAudioChannelGetMuted
+RecvAudioChannelGetState
 (
 const
 AudioChannelType
@@ -2522,7 +2519,7 @@ const
 bool
 &
 aElementWasHidden
-bool
+AudioChannelState
 *
 aValue
 )
