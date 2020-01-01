@@ -492,8 +492,6 @@ line
 to
 enable
 RENDERTRACE
-/
-/
 #
 define
 MOZ_RENDERTRACE
@@ -561,7 +559,6 @@ const
 char
 *
 aColor
-const
 nsIntRect
 aRect
 )
