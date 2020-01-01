@@ -739,8 +739,6 @@ jenv
 jclass
 jobject
 sv
-jint
-type
 )
 ;
 NS_EXPORT
@@ -1265,8 +1263,6 @@ jenv
 jclass
 jobject
 obj
-jint
-type
 )
 {
 AndroidBridge
@@ -1286,7 +1282,6 @@ NewGlobalRef
 (
 obj
 )
-type
 )
 ;
 }
