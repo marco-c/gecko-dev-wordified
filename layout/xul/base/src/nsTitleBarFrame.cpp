@@ -1172,6 +1172,11 @@ GetWindow
 (
 )
 ;
+if
+(
+window
+)
+{
 window
 -
 >
@@ -1185,6 +1190,7 @@ nsMoveBy
 y
 )
 ;
+}
 }
 *
 aEventStatus

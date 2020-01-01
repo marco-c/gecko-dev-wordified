@@ -38480,6 +38480,15 @@ do_QueryInterface
 pcContainer
 )
 ;
+if
+(
+!
+curNode
+)
+{
+return
+;
+}
 /
 /
 perform
