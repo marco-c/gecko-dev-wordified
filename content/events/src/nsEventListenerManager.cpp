@@ -3214,7 +3214,7 @@ window
 window
 -
 >
-SetHasPaintEventListener
+SetHasPaintEventListeners
 (
 )
 ;
