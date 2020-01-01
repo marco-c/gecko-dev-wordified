@@ -484,6 +484,12 @@ mArray
 )
 ;
 }
+NS_IMPL_ISUPPORTS2
+(
+nsSupportsArrayEnumerator
+nsIBidirectionalEnumerator
+nsIEnumerator
+)
 NS_IMETHODIMP
 nsSupportsArrayEnumerator
 :

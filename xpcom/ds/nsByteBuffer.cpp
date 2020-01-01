@@ -524,6 +524,11 @@ NS_OK
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
+NS_IMPL_ISUPPORTS1
+(
+ByteBufferImpl
+nsIByteBuffer
+)
 ByteBufferImpl
 :
 :
