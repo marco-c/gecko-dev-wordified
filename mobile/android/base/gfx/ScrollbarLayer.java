@@ -1262,6 +1262,12 @@ beginTransaction
 (
 )
 ;
+/
+/
+called
+on
+compositor
+thread
 try
 {
 setOpacity
@@ -1357,6 +1363,12 @@ beginTransaction
 (
 )
 ;
+/
+/
+called
+on
+compositor
+thread
 try
 {
 setOpacity

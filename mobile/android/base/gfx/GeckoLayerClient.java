@@ -1496,6 +1496,12 @@ beginTransaction
 (
 )
 ;
+/
+/
+Called
+on
+gecko
+thread
 try
 {
 updateViewport
@@ -1607,6 +1613,12 @@ beginTransaction
 (
 )
 ;
+/
+/
+Called
+on
+gecko
+thread
 if
 (
 mBufferSize

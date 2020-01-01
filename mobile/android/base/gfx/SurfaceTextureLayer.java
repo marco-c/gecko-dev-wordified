@@ -1045,6 +1045,15 @@ beginTransaction
 (
 )
 ;
+/
+/
+this
+is
+called
+on
+the
+Gecko
+thread
 setOrigin
 (
 origin
