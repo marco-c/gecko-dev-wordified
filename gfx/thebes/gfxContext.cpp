@@ -12652,6 +12652,7 @@ gfxContext
 :
 ChangeTransform
 (
+const
 Matrix
 &
 aNewMatrix
