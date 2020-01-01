@@ -9636,7 +9636,7 @@ nsAccessibleWrap
 :
 HandleAccEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 )
@@ -9671,7 +9671,7 @@ nsAccessibleWrap
 :
 FirePlatformEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 )

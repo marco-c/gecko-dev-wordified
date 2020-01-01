@@ -674,7 +674,7 @@ pgui
 )
 ;
 class
-nsAccTextChangeEvent
+AccTextChangeEvent
 ;
 class
 nsAccessNodeWrap
@@ -1569,7 +1569,7 @@ implementation
 *
 /
 static
-nsAccTextChangeEvent
+AccTextChangeEvent
 *
 gTextEvent
 ;

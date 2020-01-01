@@ -484,7 +484,7 @@ nsHyperTextAccessibleWrap
 :
 HandleAccEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 )
@@ -731,7 +731,6 @@ GetLength
 (
 )
 ;
-return
 gTextEvent
 -
 >
@@ -739,5 +738,8 @@ GetModifiedText
 (
 aText
 )
+;
+return
+NS_OK
 ;
 }

@@ -7199,12 +7199,12 @@ true
 ;
 nsRefPtr
 <
-nsAccEvent
+AccEvent
 >
 accEvent
 =
 new
-nsAccStateChangeEvent
+AccStateChangeEvent
 (
 this
 nsIAccessibleStates

@@ -2498,7 +2498,7 @@ EVENT_STATE_CHANGE
 )
 {
 \
-nsAccStateChangeEvent
+AccStateChangeEvent
 *
 event
 =
