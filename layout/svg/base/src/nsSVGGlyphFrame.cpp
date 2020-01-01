@@ -1841,6 +1841,18 @@ DidSetStyleContext
 (
 )
 ;
+if
+(
+!
+(
+GetStateBits
+(
+)
+&
+NS_FRAME_FIRST_REFLOW
+)
+)
+{
 ClearTextRun
 (
 )
@@ -1849,6 +1861,7 @@ NotifyGlyphMetricsChange
 (
 )
 ;
+}
 return
 NS_OK
 ;
@@ -3099,10 +3112,6 @@ participate
 in
 reflow
 "
-)
-;
-NotifyGlyphMetricsChange
-(
 )
 ;
 /
