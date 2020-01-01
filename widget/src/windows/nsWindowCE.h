@@ -656,6 +656,10 @@ NULL
 )
 ;
 static
+PRBool
+sSIPInTransition
+;
+static
 TriStateBool
 sShowSIPButton
 ;
