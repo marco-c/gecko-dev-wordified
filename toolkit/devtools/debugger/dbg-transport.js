@@ -416,6 +416,10 @@ specification
 .
 *
 /
+this
+.
+DebuggerTransport
+=
 function
 DebuggerTransport
 (

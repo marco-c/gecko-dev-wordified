@@ -127,9 +127,6 @@ License
 .
 *
 /
-let
-EXPORTED_SYMBOLS
-;
 if
 (
 !
@@ -149,6 +146,8 @@ loaded
 as
 a
 JSM
+.
+this
 .
 EXPORTED_SYMBOLS
 =
@@ -253,7 +252,8 @@ functions
 .
 *
 /
-let
+this
+.
 libcutils
 =
 (
@@ -696,7 +696,8 @@ libnetutils
 .
 *
 /
-let
+this
+.
 libnetutils
 =
 (
@@ -2174,7 +2175,8 @@ conversions
 .
 *
 /
-let
+this
+.
 netHelpers
 =
 {

@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [

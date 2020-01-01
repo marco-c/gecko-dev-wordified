@@ -1023,7 +1023,8 @@ getAttention
 /
 /
 Module
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -196,6 +197,10 @@ CLIENTS_TTL_REFRESH
 /
 7
 days
+this
+.
+ClientsRec
+=
 function
 ClientsRec
 (
@@ -258,6 +263,10 @@ commands
 ]
 )
 ;
+this
+.
+ClientEngine
+=
 function
 ClientEngine
 (

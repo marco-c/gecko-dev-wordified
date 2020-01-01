@@ -2613,7 +2613,8 @@ pending
 }
 }
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

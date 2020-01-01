@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -184,7 +185,8 @@ n
 )
 ;
 }
-var
+this
+.
 SafeBrowsing
 =
 {

@@ -131,7 +131,8 @@ loaded
 .
 *
 /
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [

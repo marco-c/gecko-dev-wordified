@@ -93,7 +93,8 @@ MPL
 .
 *
 /
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -228,7 +229,8 @@ PlacesUtils
 }
 )
 ;
-var
+this
+.
 PlacesUIUtils
 =
 {

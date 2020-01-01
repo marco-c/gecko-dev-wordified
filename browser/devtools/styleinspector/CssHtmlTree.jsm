@@ -280,7 +280,8 @@ jsm
 "
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -871,6 +872,10 @@ CssHtmlTree
 constructor
 *
 /
+this
+.
+CssHtmlTree
+=
 function
 CssHtmlTree
 (
@@ -4751,6 +4756,10 @@ rules
 .
 *
 /
+this
+.
+PropertyView
+=
 function
 PropertyView
 (

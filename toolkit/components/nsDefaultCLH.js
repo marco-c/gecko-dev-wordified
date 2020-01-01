@@ -811,7 +811,8 @@ helpInfo
 "
 }
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

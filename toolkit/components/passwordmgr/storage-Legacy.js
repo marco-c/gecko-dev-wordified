@@ -9733,7 +9733,8 @@ end
 of
 nsLoginManagerStorage_legacy
 implementation
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

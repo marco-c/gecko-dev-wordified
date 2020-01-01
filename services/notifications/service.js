@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -169,7 +170,8 @@ true
 }
 }
 ;
-let
+this
+.
 Service
 =
 new

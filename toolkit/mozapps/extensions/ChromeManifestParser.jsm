@@ -61,7 +61,8 @@ use
 strict
 "
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -239,7 +240,8 @@ files
 .
 *
 /
-var
+this
+.
 ChromeManifestParser
 =
 {

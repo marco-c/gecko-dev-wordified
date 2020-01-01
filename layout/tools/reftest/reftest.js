@@ -110,7 +110,8 @@ MPL
 #
 if
 BOOTSTRAP
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -1312,6 +1313,10 @@ unknown
 ;
 }
 }
+this
+.
+OnRefTestLoad
+=
 function
 OnRefTestLoad
 (

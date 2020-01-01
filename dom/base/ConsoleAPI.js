@@ -3052,7 +3052,8 @@ duration
 }
 }
 ;
-let
+this
+.
 NSGetFactory
 =
 XPCOMUtils

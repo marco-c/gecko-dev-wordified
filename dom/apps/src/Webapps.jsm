@@ -89,7 +89,8 @@ Components
 .
 results
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -483,7 +484,8 @@ ProfD
 ;
 #
 endif
-let
+this
+.
 DOMApplicationRegistry
 =
 {

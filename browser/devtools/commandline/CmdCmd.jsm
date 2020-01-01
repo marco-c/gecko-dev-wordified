@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -291,7 +292,8 @@ Exported
 API
 *
 /
-let
+this
+.
 CmdCommands
 =
 {

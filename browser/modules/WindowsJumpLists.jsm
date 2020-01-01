@@ -261,7 +261,8 @@ RECENT
 Exports
 *
 /
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -1173,7 +1174,8 @@ permanentPrivateBrowsing
 /
 /
 Implementation
-var
+this
+.
 WinTaskbarJumpList
 =
 {

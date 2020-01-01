@@ -103,7 +103,8 @@ jsm
 "
 )
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -112,7 +113,8 @@ WebappOSUtils
 "
 ]
 ;
-let
+this
+.
 WebappOSUtils
 =
 {

@@ -228,7 +228,8 @@ registers
 inspector
 tools
 .
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [

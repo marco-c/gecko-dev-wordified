@@ -1549,7 +1549,8 @@ Messages
 }
 )
 }
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

@@ -341,7 +341,8 @@ nsITCPSocketIntermediary
 )
 }
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

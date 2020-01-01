@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -72,7 +73,8 @@ Components
 .
 utils
 ;
-let
+this
+.
 Contacts
 =
 {

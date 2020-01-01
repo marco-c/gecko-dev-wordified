@@ -187,7 +187,8 @@ as
 a
 jsm
 module
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -238,6 +239,7 @@ osfile_shared_allthreads
 .
 jsm
 "
+this
 )
 ;
 }

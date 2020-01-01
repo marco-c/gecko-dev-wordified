@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -65,7 +66,8 @@ XPathGenerator
 "
 ]
 ;
-let
+this
+.
 XPathGenerator
 =
 {

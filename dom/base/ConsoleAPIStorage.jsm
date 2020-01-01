@@ -120,7 +120,8 @@ STORAGE_MAX_EVENTS
 =
 200
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -326,7 +327,8 @@ innerWindowID
 ;
 *
 /
-var
+this
+.
 ConsoleAPIStorage
 =
 {

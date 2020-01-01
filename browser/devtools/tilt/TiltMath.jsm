@@ -141,7 +141,8 @@ jsm
 "
 )
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -199,7 +200,8 @@ Jones
 .
 *
 /
-const
+this
+.
 EPSILON
 =
 0
@@ -250,7 +252,8 @@ Vector
 .
 *
 /
-let
+this
+.
 vec3
 =
 {
@@ -3036,7 +3039,8 @@ Matrix
 .
 *
 /
-let
+this
+.
 mat3
 =
 {
@@ -4047,7 +4051,8 @@ Matrix
 .
 *
 /
-let
+this
+.
 mat4
 =
 {
@@ -12267,7 +12272,8 @@ Quaternion
 .
 *
 /
-let
+this
+.
 quat4
 =
 {
@@ -15435,7 +15441,8 @@ engine
 .
 *
 /
-let
+this
+.
 TiltMath
 =
 {

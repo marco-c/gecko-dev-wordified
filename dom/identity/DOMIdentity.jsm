@@ -87,7 +87,8 @@ corresponding
 to
 nsDOMIdentity
 .
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -782,7 +783,8 @@ aMessage
 }
 }
 ;
-let
+this
+.
 DOMIdentity
 =
 {

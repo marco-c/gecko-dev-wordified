@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -314,6 +315,10 @@ privatebrowsing
 "
 )
 ;
+this
+.
+TabSetRecord
+=
 function
 TabSetRecord
 (
@@ -373,6 +378,10 @@ tabs
 ]
 )
 ;
+this
+.
+TabEngine
+=
 function
 TabEngine
 (

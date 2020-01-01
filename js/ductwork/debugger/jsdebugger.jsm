@@ -94,7 +94,8 @@ MPL
 .
 *
 /
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -230,6 +231,10 @@ interfaces
 IJSDebugger
 )
 ;
+this
+.
+addDebuggerToGlobal
+=
 function
 addDebuggerToGlobal
 (

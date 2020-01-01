@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -111,7 +112,8 @@ Components
 .
 interfaces
 ;
-var
+this
+.
 PrivateBrowsingUtils
 =
 {

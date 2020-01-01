@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -535,6 +536,10 @@ IDs
 .
 *
 /
+this
+.
+PopupNotifications
+=
 function
 PopupNotifications
 (

@@ -76,7 +76,8 @@ Cu
 =
 Components
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -167,6 +168,10 @@ tab
 *
 *
 /
+this
+.
+switchToFloatingScrollbars
+=
 function
 switchToFloatingScrollbars
 (
@@ -226,6 +231,10 @@ tab
 *
 *
 /
+this
+.
+switchToNativeScrollbars
+=
 function
 switchToNativeScrollbars
 (

@@ -191,7 +191,8 @@ jsm
 "
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -2397,7 +2398,8 @@ installed
 .
 *
 /
-var
+this
+.
 AddonRepository
 =
 {

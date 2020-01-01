@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -253,7 +254,8 @@ serialNumber
 /
 for
 favicons
-let
+this
+.
 BookmarkHTMLUtils
 =
 Object

@@ -96,6 +96,7 @@ wap_consts
 .
 js
 "
+this
 )
 ;
 let
@@ -181,6 +182,10 @@ failures
 .
 *
 /
+this
+.
+CodeError
+=
 function
 CodeError
 (
@@ -373,6 +378,10 @@ error
 .
 *
 /
+this
+.
+FatalCodeError
+=
 function
 FatalCodeError
 (
@@ -542,6 +551,10 @@ error
 .
 *
 /
+this
+.
+NotWellKnownEncodingError
+=
 function
 NotWellKnownEncodingError
 (
@@ -661,6 +674,10 @@ undefined
 .
 *
 /
+this
+.
+ensureHeader
+=
 function
 ensureHeader
 (
@@ -939,6 +956,10 @@ clause
 2
 *
 /
+this
+.
+skipValue
+=
 function
 skipValue
 (
@@ -1125,6 +1146,10 @@ value
 .
 *
 /
+this
+.
+decodeAlternatives
+=
 function
 decodeAlternatives
 (
@@ -1262,6 +1287,10 @@ encoding
 .
 *
 /
+this
+.
+encodeAlternatives
+=
 function
 encodeAlternatives
 (
@@ -1352,7 +1381,8 @@ begin
 }
 }
 }
-let
+this
+.
 Octet
 =
 {
@@ -1993,7 +2023,8 @@ Basic
 Rules
 *
 /
-let
+this
+.
 Text
 =
 {
@@ -2534,7 +2565,8 @@ code
 }
 }
 ;
-let
+this
+.
 NullTerminatedTexts
 =
 {
@@ -2787,7 +2819,8 @@ Basic
 Rules
 *
 /
-let
+this
+.
 Token
 =
 {
@@ -3430,7 +3463,8 @@ URI
 )
 *
 /
-let
+this
+.
 URIC
 =
 {
@@ -3720,7 +3754,8 @@ clause
 1
 *
 /
-let
+this
+.
 TextString
 =
 {
@@ -4039,7 +4074,8 @@ clause
 1
 *
 /
-let
+this
+.
 TokenText
 =
 {
@@ -4280,7 +4316,8 @@ clause
 1
 *
 /
-let
+this
+.
 QuotedString
 =
 {
@@ -4499,7 +4536,8 @@ clause
 1
 *
 /
-let
+this
+.
 ShortInteger
 =
 {
@@ -4785,7 +4823,8 @@ clause
 1
 *
 /
-let
+this
+.
 LongInteger
 =
 {
@@ -5319,7 +5358,8 @@ clause
 1
 *
 /
-let
+this
+.
 UintVar
 =
 {
@@ -5628,7 +5668,8 @@ clause
 1
 *
 /
-let
+this
+.
 ConstrainedEncoding
 =
 {
@@ -5815,7 +5856,8 @@ clause
 2
 *
 /
-let
+this
+.
 ValueLength
 =
 {
@@ -6024,7 +6066,8 @@ clause
 3
 *
 /
-let
+this
+.
 NoValue
 =
 {
@@ -6186,7 +6229,8 @@ clause
 3
 *
 /
-let
+this
+.
 TextValue
 =
 {
@@ -6327,7 +6371,8 @@ clause
 3
 *
 /
-let
+this
+.
 IntegerValue
 =
 {
@@ -6553,7 +6598,8 @@ clause
 3
 *
 /
-let
+this
+.
 DateValue
 =
 {
@@ -6781,7 +6827,8 @@ clause
 3
 *
 /
-let
+this
+.
 DeltaSecondsValue
 =
 IntegerValue
@@ -6850,7 +6897,8 @@ clause
 3
 *
 /
-let
+this
+.
 QValue
 =
 {
@@ -7233,7 +7281,8 @@ clause
 3
 *
 /
-let
+this
+.
 VersionValue
 =
 {
@@ -7637,7 +7686,8 @@ Basic
 Rules
 *
 /
-let
+this
+.
 UriValue
 =
 {
@@ -7769,7 +7819,8 @@ table
 38
 *
 /
-let
+this
+.
 TypeValue
 =
 {
@@ -8167,7 +8218,8 @@ clause
 4
 *
 /
-let
+this
+.
 Parameter
 =
 {
@@ -9261,7 +9313,8 @@ clause
 6
 *
 /
-let
+this
+.
 Header
 =
 {
@@ -9576,7 +9629,8 @@ clause
 6
 *
 /
-let
+this
+.
 WellKnownHeader
 =
 {
@@ -9972,7 +10026,8 @@ clause
 6
 *
 /
-let
+this
+.
 ApplicationHeader
 =
 {
@@ -10297,7 +10352,8 @@ clause
 6
 *
 /
-let
+this
+.
 FieldName
 =
 {
@@ -10606,7 +10662,8 @@ clause
 8
 *
 /
-let
+this
+.
 AcceptCharsetValue
 =
 {
@@ -11201,7 +11258,8 @@ clause
 8
 *
 /
-let
+this
+.
 WellKnownCharset
 =
 {
@@ -11677,7 +11735,8 @@ clause
 24
 *
 /
-let
+this
+.
 ContentTypeValue
 =
 {
@@ -12726,7 +12785,8 @@ clause
 54
 *
 /
-let
+this
+.
 ApplicationIdValue
 =
 {
@@ -12925,7 +12985,8 @@ urn
 }
 }
 ;
-let
+this
+.
 PduHelper
 =
 {
@@ -14393,7 +14454,8 @@ A
 Assigned
 Numbers
 .
-const
+this
+.
 WSP_HEADER_FIELDS
 =
 (
@@ -15317,7 +15379,8 @@ wapforum
 org
 /
 wina
-const
+this
+.
 WSP_WELL_KNOWN_CONTENT_TYPES
 =
 (
@@ -15497,7 +15560,8 @@ A
 Assigned
 Numbers
 .
-const
+this
+.
 WSP_WELL_KNOWN_PARAMS
 =
 (
@@ -15964,7 +16028,8 @@ assignments
 character
 -
 sets
-const
+this
+.
 WSP_WELL_KNOWN_CHARSETS
 =
 (
@@ -16116,7 +16181,8 @@ app
 id
 .
 aspx
-const
+this
+.
 OMNA_PUSH_APPLICATION_IDS
 =
 (
@@ -16233,7 +16299,8 @@ s
 }
 ;
 }
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 ALL_CONST_SYMBOLS

@@ -114,7 +114,8 @@ Components
 .
 interfaces
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -306,7 +307,8 @@ myGlobal
 =
 this
 ;
-let
+this
+.
 DOMContactManager
 =
 {

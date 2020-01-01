@@ -604,7 +604,8 @@ nsIProtocolHandler
 )
 }
 ;
-let
+this
+.
 NSGetFactory
 =
 XPCOMUtils

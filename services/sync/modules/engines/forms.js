@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -231,6 +232,10 @@ FORMS_TTL
 /
 60
 days
+this
+.
+FormRec
+=
 function
 FormRec
 (
@@ -1092,6 +1097,10 @@ stmt
 }
 }
 ;
+this
+.
+FormEngine
+=
 function
 FormEngine
 (

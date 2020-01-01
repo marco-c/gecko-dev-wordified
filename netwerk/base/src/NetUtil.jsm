@@ -106,7 +106,8 @@ MPL
 .
 *
 /
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -327,7 +328,8 @@ PR_UINT32_MAX
 /
 NetUtil
 Object
-const
+this
+.
 NetUtil
 =
 {

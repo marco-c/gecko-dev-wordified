@@ -13444,7 +13444,8 @@ Generator
 Person
 ]
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

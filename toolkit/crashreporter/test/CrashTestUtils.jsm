@@ -1,4 +1,14 @@
-var
+/
+/
+XXXkhuey
+this
+needs
+a
+license
+header
+.
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -7,7 +17,8 @@ CrashTestUtils
 "
 ]
 ;
-let
+this
+.
 CrashTestUtils
 =
 {

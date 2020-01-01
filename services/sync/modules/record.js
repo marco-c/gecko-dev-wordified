@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -214,6 +215,10 @@ js
 "
 )
 ;
+this
+.
+WBORecord
+=
 function
 WBORecord
 (
@@ -785,6 +790,10 @@ records
 .
 *
 /
+this
+.
+RecordManager
+=
 function
 RecordManager
 (
@@ -1148,6 +1157,10 @@ url
 }
 }
 ;
+this
+.
+CryptoWrapper
+=
 function
 CryptoWrapper
 (
@@ -1941,6 +1954,10 @@ date
 .
 *
 /
+this
+.
+CollectionKeyManager
+=
 function
 CollectionKeyManager
 (
@@ -3433,6 +3450,10 @@ r
 ;
 }
 }
+this
+.
+Collection
+=
 function
 Collection
 (

@@ -68,7 +68,8 @@ undefined
 "
 )
 {
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [

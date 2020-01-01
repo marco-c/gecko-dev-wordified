@@ -142,7 +142,8 @@ jsm
 '
 )
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [

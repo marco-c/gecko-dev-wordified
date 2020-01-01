@@ -286,7 +286,8 @@ jsm
 "
 )
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -327,6 +328,10 @@ created
 .
 *
 /
+this
+.
+DebuggerUI
+=
 function
 DebuggerUI
 (
@@ -346,6 +351,7 @@ listenToTabs
 )
 ;
 }
+;
 DebuggerUI
 .
 prototype

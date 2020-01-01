@@ -734,7 +734,8 @@ acba
 "
 )
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

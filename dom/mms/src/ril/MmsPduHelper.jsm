@@ -136,6 +136,10 @@ to
 see
 debug
 messages
+this
+.
+translatePduErrorToStatus
+=
 function
 translatePduErrorToStatus
 (
@@ -254,7 +258,8 @@ Octet
 >
 *
 /
-let
+this
+.
 BooleanValue
 =
 {
@@ -457,7 +462,8 @@ section
 8
 *
 /
-let
+this
+.
 Address
 =
 {
@@ -1495,7 +1501,8 @@ clause
 2
 *
 /
-let
+this
+.
 HeaderField
 =
 {
@@ -1700,7 +1707,8 @@ clause
 2
 *
 /
-let
+this
+.
 MmsHeader
 =
 {
@@ -2171,7 +2179,8 @@ clause
 9
 *
 /
-let
+this
+.
 ContentClassValue
 =
 {
@@ -2483,7 +2492,8 @@ clause
 10
 *
 /
-let
+this
+.
 ContentLocationValue
 =
 {
@@ -2720,7 +2730,8 @@ clause
 18
 *
 /
-let
+this
+.
 ElementDescriptorValue
 =
 {
@@ -2974,7 +2985,8 @@ clause
 18
 *
 /
-let
+this
+.
 Parameter
 =
 {
@@ -3573,7 +3585,8 @@ clause
 1
 *
 /
-let
+this
+.
 EncodedStringValue
 =
 {
@@ -4430,7 +4443,8 @@ clause
 20
 *
 /
-let
+this
+.
 ExpiryValue
 =
 {
@@ -4906,7 +4920,8 @@ clause
 21
 *
 /
-let
+this
+.
 FromValue
 =
 {
@@ -5298,7 +5313,8 @@ clause
 23
 *
 /
-let
+this
+.
 PreviouslySentByValue
 =
 {
@@ -5483,7 +5499,8 @@ clause
 24
 *
 /
-let
+this
+.
 PreviouslySentDateValue
 =
 {
@@ -5685,7 +5702,8 @@ clause
 27
 *
 /
-let
+this
+.
 MessageClassValue
 =
 {
@@ -6016,7 +6034,8 @@ clause
 30
 *
 /
-let
+this
+.
 MessageTypeValue
 =
 {
@@ -6311,7 +6330,8 @@ clause
 32
 *
 /
-let
+this
+.
 MmFlagsValue
 =
 {
@@ -6746,7 +6766,8 @@ clause
 33
 *
 /
-let
+this
+.
 MmStateValue
 =
 {
@@ -7015,7 +7036,8 @@ clause
 35
 *
 /
-let
+this
+.
 PriorityValue
 =
 {
@@ -7250,7 +7272,8 @@ clause
 39
 *
 /
-let
+this
+.
 RecommendedRetrievalModeValue
 =
 {
@@ -7376,7 +7399,8 @@ clause
 43
 *
 /
-let
+this
+.
 ReplyChargingValue
 =
 {
@@ -7680,7 +7704,8 @@ clause
 49
 *
 /
-let
+this
+.
 ResponseText
 =
 {
@@ -8059,7 +8084,8 @@ clause
 50
 *
 /
-let
+this
+.
 RetrieveStatusValue
 =
 {
@@ -8297,7 +8323,8 @@ clause
 54
 *
 /
-let
+this
+.
 StatusValue
 =
 {
@@ -8507,7 +8534,8 @@ value
 }
 }
 ;
-let
+this
+.
 PduHelper
 =
 {
@@ -11573,7 +11601,8 @@ s
 }
 ;
 }
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 ALL_CONST_SYMBOLS

@@ -61,7 +61,8 @@ use
 strict
 "
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -184,7 +185,8 @@ PRELOADER_INIT_DELAY_MS
 =
 5000
 ;
-let
+this
+.
 BrowserNewTabPreloader
 =
 {
