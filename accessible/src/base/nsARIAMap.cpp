@@ -705,6 +705,11 @@ nsIAccessibleStates
 :
 :
 STATE_PRESSED
+|
+nsIAccessibleStates
+:
+:
+STATE_CHECKABLE
 }
 {
 &
@@ -719,6 +724,11 @@ nsIAccessibleStates
 :
 :
 STATE_MIXED
+|
+nsIAccessibleStates
+:
+:
+STATE_CHECKABLE
 }
 kEndEntry
 }
@@ -1635,7 +1645,10 @@ ROLE_RADIOBUTTON
 eNoValue
 eSelectAction
 eNoLiveAttr
-kNoReqStates
+nsIAccessibleStates
+:
+:
+STATE_CHECKABLE
 {
 &
 nsAccessibilityAtoms
