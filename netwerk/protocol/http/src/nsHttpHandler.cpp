@@ -4700,9 +4700,6 @@ PPC
 Mac
 OS
 X
-Mach
--
-O
 "
 )
 ;
