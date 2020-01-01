@@ -1721,6 +1721,13 @@ hdr
 nPairs
 )
 ;
+const
+KernPair
+*
+limit
+=
+hi
+;
 if
 (
 reinterpret_cast
@@ -1861,6 +1868,11 @@ mid
 }
 if
 (
+lo
+<
+limit
+&
+&
 KERN_PAIR_KEY
 (
 lo
