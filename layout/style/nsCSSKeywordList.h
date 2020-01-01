@@ -3339,6 +3339,16 @@ translatey
 )
 CSS_KEY
 (
+transparent
+transparent
+)
+/
+/
+for
+nsComputedDOMStyle
+only
+CSS_KEY
+(
 tri
 -
 state
