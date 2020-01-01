@@ -7901,6 +7901,16 @@ root
 )
 ;
 }
+bool
+shouldInvalidate
+=
+layerManager
+-
+>
+NeedsWidgetInvalidation
+(
+)
+;
 if
 (
 view
@@ -7971,6 +7981,11 @@ height
 )
 )
 ;
+if
+(
+shouldInvalidate
+)
+{
 view
 -
 >
@@ -7985,6 +8000,7 @@ view
 rect
 )
 ;
+}
 presContext
 -
 >
@@ -7997,6 +8013,10 @@ bounds
 }
 }
 else
+if
+(
+shouldInvalidate
+)
 {
 view
 -
