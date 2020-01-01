@@ -1481,6 +1481,7 @@ printStackTrace
 }
 }
 else
+{
 sUniqueID
 =
 ba
@@ -1489,6 +1490,13 @@ getAddress
 (
 )
 ;
+sUniqueID
+.
+toLowerCase
+(
+)
+;
+}
 }
 if
 (
