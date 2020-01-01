@@ -2579,6 +2579,9 @@ frame
 .
 filename
 =
+SaveScriptFilename
+(
+cx
 fp
 -
 >
@@ -2588,6 +2591,17 @@ script
 -
 >
 filename
+)
+;
+if
+(
+!
+frame
+.
+filename
+)
+return
+false
 ;
 frame
 .

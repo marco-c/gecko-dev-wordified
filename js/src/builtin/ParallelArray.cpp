@@ -3689,7 +3689,7 @@ ATOM_TO_JSID
 (
 name
 )
-JSGET_NO_METHOD_BARRIER
+0
 &
 callable
 )

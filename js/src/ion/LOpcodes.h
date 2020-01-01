@@ -795,16 +795,6 @@ Lambda
 \
 _
 (
-LambdaJoinableForCall
-)
-\
-_
-(
-LambdaJoinableForSet
-)
-\
-_
-(
 ImplicitThis
 )
 \

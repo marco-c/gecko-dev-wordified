@@ -2188,7 +2188,7 @@ toObject
 (
 )
 id
-JSGET_NO_METHOD_BARRIER
+0
 &
 toJSON
 )

@@ -2216,6 +2216,14 @@ trc
 )
 ;
 }
+dom
+:
+:
+TraceBlackJS
+(
+trc
+)
+;
 }
 /
 /

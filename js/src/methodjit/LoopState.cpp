@@ -12909,9 +12909,6 @@ break
 case
 JSOP_SETPROP
 :
-case
-JSOP_SETMETHOD
-:
 {
 JSAtom
 *
