@@ -589,9 +589,4 @@ releaseStatics
 }
 ;
 #
-ifdef
-nsHtml5Portability_cpp__
-#
-endif
-#
 endif

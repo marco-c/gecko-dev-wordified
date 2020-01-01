@@ -6,6 +6,8 @@ Copyright
 c
 )
 2009
+-
+2010
 Mozilla
 Foundation
 *
@@ -395,7 +397,7 @@ nsAHtml5TreeBuilderState
 {
 private
 :
-jArray
+autoJArray
 <
 nsHtml5StackNode
 *
@@ -403,7 +405,7 @@ PRInt32
 >
 stack
 ;
-jArray
+autoJArray
 <
 nsHtml5StackNode
 *
@@ -588,10 +590,5 @@ releaseStatics
 ;
 }
 ;
-#
-ifdef
-nsHtml5StateSnapshot_cpp__
-#
-endif
 #
 endif
