@@ -2393,6 +2393,11 @@ nanojit
 LIns
 *
 idx_ins
+nanojit
+:
+:
+ExitType
+exitType
 )
 ;
 bool
