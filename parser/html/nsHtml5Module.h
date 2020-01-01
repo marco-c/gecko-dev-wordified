@@ -471,10 +471,6 @@ GetStreamParserThread
 ;
 static
 bool
-sEnabled
-;
-static
-bool
 sOffMainThread
 ;
 private

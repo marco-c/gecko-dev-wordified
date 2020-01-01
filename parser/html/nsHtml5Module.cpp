@@ -508,14 +508,6 @@ bool
 nsHtml5Module
 :
 :
-sEnabled
-=
-true
-;
-bool
-nsHtml5Module
-:
-:
 sOffMainThread
 =
 true
