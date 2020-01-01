@@ -4540,6 +4540,11 @@ loadSource
 (
 cx
 script
+-
+>
+scriptSource
+(
+)
 &
 haveSource
 )
