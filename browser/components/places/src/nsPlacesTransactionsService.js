@@ -1150,9 +1150,6 @@ Ci
 nsITransaction
 Ci
 .
-nsIClassInfo
-Ci
-.
 nsISupports
 ]
 )
