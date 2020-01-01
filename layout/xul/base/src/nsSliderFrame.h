@@ -672,7 +672,7 @@ bool
 aIsSmooth
 )
 ;
-nsresult
+void
 CurrentPositionChanged
 (
 )
