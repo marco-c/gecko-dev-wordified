@@ -3539,14 +3539,6 @@ pn
 Node
 newRegExp
 (
-const
-jschar
-*
-chars
-size_t
-length
-RegExpFlag
-flags
 )
 ;
 Node
