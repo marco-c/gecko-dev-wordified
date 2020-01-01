@@ -1123,7 +1123,10 @@ HasGeolocationProvider
 {
 NotifyError
 (
-NS_GEO_ERROR_CODE_LOCATION_PROVIDER_ERROR
+nsIDOMGeoPositionError
+:
+:
+POSITION_UNAVAILABLE
 )
 ;
 return
@@ -1251,7 +1254,10 @@ mHasSentData
 {
 NotifyError
 (
-NS_GEO_ERROR_CODE_TIMEOUT
+nsIDOMGeoPositionError
+:
+:
+TIMEOUT
 )
 ;
 /
@@ -1367,7 +1373,10 @@ Cancel
 {
 NotifyError
 (
-NS_GEO_ERROR_CODE_PERMISSION_ERROR
+nsIDOMGeoPositionError
+:
+:
+PERMISSION_DENIED
 )
 ;
 /
@@ -1452,7 +1461,10 @@ provider
 error
 NotifyError
 (
-NS_GEO_ERROR_CODE_LOCATION_PROVIDER_ERROR
+nsIDOMGeoPositionError
+:
+:
+POSITION_UNAVAILABLE
 )
 ;
 return
