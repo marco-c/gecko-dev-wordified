@@ -790,6 +790,12 @@ mImageContainerChild
 >
 CreateImage
 (
+(
+uint32_t
+*
+)
+aFormats
+aNumFormats
 )
 ;
 if
