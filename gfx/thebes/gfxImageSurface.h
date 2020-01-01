@@ -969,6 +969,11 @@ gfxIntSize
 gfxImageFormat
 )
 ;
+void
+MakeInvalid
+(
+)
+;
 gfxIntSize
 mSize
 ;

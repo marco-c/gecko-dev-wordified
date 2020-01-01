@@ -730,6 +730,14 @@ const
 ;
 private
 :
+void
+MakeInvalid
+(
+gfxIntSize
+&
+size
+)
+;
 bool
 mOwnsDC
 ;

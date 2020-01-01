@@ -628,6 +628,11 @@ aDestTopLeft
 }
 protected
 :
+void
+MakeInvalid
+(
+)
+;
 CGContextRef
 mCGContext
 ;
