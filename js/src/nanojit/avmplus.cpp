@@ -450,3 +450,10 @@ String
 "
 }
 ;
+void
+nanojit_test
+(
+void
+)
+{
+}
