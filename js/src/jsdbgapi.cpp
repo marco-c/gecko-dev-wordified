@@ -1002,6 +1002,9 @@ features
 .
 *
 /
+js
+:
+:
 mjit
 :
 :
@@ -1867,6 +1870,9 @@ hasJITCode
 )
 )
 {
+js
+:
+:
 mjit
 :
 :
