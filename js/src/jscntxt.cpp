@@ -348,6 +348,9 @@ jsworkers
 h
 "
 #
+ifdef
+JS_ION
+#
 include
 "
 ion
@@ -365,6 +368,8 @@ IonFrames
 .
 h
 "
+#
+endif
 #
 ifdef
 JS_METHODJIT

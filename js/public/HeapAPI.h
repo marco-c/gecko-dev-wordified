@@ -232,7 +232,7 @@ PageShift
 elif
 defined
 (
-__powerpc__
+__powerpc64__
 )
 const
 size_t

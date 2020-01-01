@@ -7478,6 +7478,9 @@ script
 )
 )
 ;
+#
+ifdef
+JS_METHODJIT
 /
 *
 Reset
@@ -7501,6 +7504,8 @@ resetLoopCount
 (
 )
 ;
+#
+endif
 #
 if
 JS_TRACE_LOGGING
@@ -8673,6 +8678,9 @@ BEGIN_CASE
 (
 JSOP_LOOPHEAD
 )
+#
+ifdef
+JS_METHODJIT
 script
 -
 >
@@ -8680,6 +8688,8 @@ incrLoopCount
 (
 )
 ;
+#
+endif
 END_CASE
 (
 JSOP_LOOPHEAD
@@ -14759,6 +14769,9 @@ script
 )
 )
 ;
+#
+ifdef
+JS_METHODJIT
 script
 -
 >
@@ -14766,6 +14779,8 @@ resetLoopCount
 (
 )
 ;
+#
+endif
 #
 ifdef
 JS_ION

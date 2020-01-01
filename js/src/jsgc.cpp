@@ -727,8 +727,6 @@ IonMacroAssembler
 h
 "
 #
-endif
-#
 include
 "
 ion
@@ -737,6 +735,8 @@ IonFrameIterator
 .
 h
 "
+#
+endif
 #
 include
 "
