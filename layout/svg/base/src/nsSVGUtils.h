@@ -845,6 +845,16 @@ NS_SVGEnabled
 (
 )
 ;
+/
+/
+GRRR
+WINDOWS
+HATE
+HATE
+HATE
+#
+undef
+CLIP_MASK
 class
 nsSVGRenderState
 {
