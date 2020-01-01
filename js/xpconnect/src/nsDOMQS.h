@@ -491,10 +491,6 @@ jsval
 *
 pThisVal
 \
-XPCLazyCallContext
-*
-lccx
-\
 bool
 failureFatal
 )
@@ -534,7 +530,6 @@ Depth
 \
 pThisRef
 pThisVal
-lccx
 &
 rv
 )
