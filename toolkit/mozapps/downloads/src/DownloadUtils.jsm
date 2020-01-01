@@ -1252,6 +1252,7 @@ seconds
 getDownloadStatus
 :
 function
+DU_getDownloadStatus
 (
 aCurrBytes
 aMaxBytes
@@ -1563,6 +1564,7 @@ text
 getTransferTotal
 :
 function
+DU_getTransferTotal
 (
 aCurrBytes
 aMaxBytes
@@ -1809,6 +1811,7 @@ seconds
 getTimeLeft
 :
 function
+DU_getTimeLeft
 (
 aSeconds
 aLastSec
@@ -2368,6 +2371,7 @@ name
 getURIHost
 :
 function
+DU_getURIHost
 (
 aURIString
 )
@@ -2826,6 +2830,7 @@ unit
 convertByteUnits
 :
 function
+DU_convertByteUnits
 (
 aBytes
 )
@@ -3052,6 +3057,7 @@ unit
 convertTimeUnits
 :
 function
+DU_convertTimeUnits
 (
 aSecs
 )
