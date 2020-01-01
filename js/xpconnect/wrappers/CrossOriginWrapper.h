@@ -142,7 +142,7 @@ namespace
 xpc
 {
 class
-CrossOriginWrapper
+WaiveXrayWrapper
 :
 public
 js
@@ -152,7 +152,7 @@ CrossCompartmentWrapper
 {
 public
 :
-CrossOriginWrapper
+WaiveXrayWrapper
 (
 unsigned
 flags
@@ -160,7 +160,7 @@ flags
 ;
 virtual
 ~
-CrossOriginWrapper
+WaiveXrayWrapper
 (
 )
 ;
@@ -283,7 +283,7 @@ rval
 MOZ_OVERRIDE
 ;
 static
-CrossOriginWrapper
+WaiveXrayWrapper
 singleton
 ;
 }

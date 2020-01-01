@@ -344,8 +344,8 @@ get
 off
 it
 .
-CrossOriginWrapper
-CrossOriginWrapper
+WaiveXrayWrapper
+WaiveXrayWrapper
 :
 :
 singleton
@@ -2506,7 +2506,7 @@ waiver
 wrapper
 =
 &
-CrossOriginWrapper
+WaiveXrayWrapper
 :
 :
 singleton
