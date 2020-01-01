@@ -3674,6 +3674,7 @@ kNameSpaceID_XBL
 )
 |
 |
+(
 realElement
 -
 >
@@ -3699,6 +3700,7 @@ nsGkAtoms
 :
 :
 value
+)
 )
 {
 /

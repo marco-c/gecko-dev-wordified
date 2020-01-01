@@ -2334,6 +2334,7 @@ info1Empty
 info2Empty
 |
 |
+(
 info1
 .
 mValue
@@ -2356,6 +2357,7 @@ Equals
 info2
 .
 mValue
+)
 )
 )
 {

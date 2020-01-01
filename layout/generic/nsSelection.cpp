@@ -8784,6 +8784,7 @@ something
 .
 if
 (
+(
 relToStart
 <
 0
@@ -8792,6 +8793,7 @@ relToStart
 relToEnd
 >
 0
+)
 |
 |
 (
