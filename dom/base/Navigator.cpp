@@ -266,6 +266,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 PowerManager
 .
 h
@@ -462,6 +466,8 @@ mozilla
 /
 dom
 /
+telephony
+/
 Telephony
 .
 h
@@ -547,16 +553,6 @@ NavigatorBinding
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-power
-;
 /
 /
 This
@@ -5727,9 +5723,6 @@ return
 mBatteryManager
 ;
 }
-power
-:
-:
 PowerManager
 *
 Navigator
@@ -6028,6 +6021,9 @@ return
 mCellBroadcast
 ;
 }
+telephony
+:
+:
 Telephony
 *
 Navigator
@@ -6065,6 +6061,9 @@ nullptr
 }
 mTelephony
 =
+telephony
+:
+:
 Telephony
 :
 :
@@ -8701,6 +8700,9 @@ return
 win
 &
 &
+telephony
+:
+:
 Telephony
 :
 :
