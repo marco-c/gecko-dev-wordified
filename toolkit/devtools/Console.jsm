@@ -941,6 +941,12 @@ to
 be
 stringified
 *
+param
+{
+boolean
+}
+aAllowNewLines
+*
 return
 {
 string
@@ -968,6 +974,7 @@ function
 stringify
 (
 aThing
+aAllowNewLines
 )
 {
 if
@@ -1179,6 +1186,16 @@ aThing
 toString
 (
 )
+;
+if
+(
+!
+aAllowNewLines
+)
+{
+str
+=
+str
 .
 replace
 (
@@ -1192,6 +1209,7 @@ g
 "
 )
 ;
+}
 return
 str
 ;
@@ -3273,6 +3291,7 @@ return
 stringify
 (
 arg
+true
 )
 ;
 }
