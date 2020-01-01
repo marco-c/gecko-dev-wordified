@@ -44790,7 +44790,7 @@ high_quality_downscaling
 .
 enabled
 "
-false
+true
 )
 ;
 #
