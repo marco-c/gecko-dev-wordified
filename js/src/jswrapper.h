@@ -538,6 +538,15 @@ CrossCompartmentWrapper
 (
 )
 ;
+virtual
+bool
+finalizeInBackground
+(
+HandleValue
+priv
+)
+MOZ_OVERRIDE
+;
 /
 *
 ES5
