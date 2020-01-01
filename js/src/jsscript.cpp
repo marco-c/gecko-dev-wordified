@@ -11344,7 +11344,7 @@ setFunction
 funbox
 -
 >
-fun
+function
 (
 )
 )

@@ -4542,7 +4542,7 @@ asFunbox
 )
 -
 >
-fun
+function
 (
 )
 ;
@@ -5944,7 +5944,7 @@ asFunbox
 )
 -
 >
-fun
+function
 (
 )
 ;
@@ -9508,7 +9508,7 @@ asFunbox
 )
 -
 >
-fun
+function
 (
 )
 )
@@ -18187,7 +18187,7 @@ asFunbox
 )
 -
 >
-fun
+function
 (
 )
 -
@@ -32871,7 +32871,7 @@ pn
 pn_funbox
 -
 >
-fun
+function
 (
 )
 )
@@ -33354,14 +33354,10 @@ objectList
 .
 add
 (
-&
 pn
 -
 >
 pn_funbox
--
->
-objbox
 )
 ;
 /
@@ -41109,7 +41105,7 @@ asFunbox
 )
 -
 >
-fun
+function
 (
 )
 )
