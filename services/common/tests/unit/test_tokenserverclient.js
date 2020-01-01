@@ -217,7 +217,7 @@ id
 "
 id
 "
-secret
+key
 :
 "
 key
@@ -1080,7 +1080,7 @@ id
 "
 id
 "
-secret
+key
 :
 "
 key
