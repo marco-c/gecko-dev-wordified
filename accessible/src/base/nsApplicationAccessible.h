@@ -954,6 +954,13 @@ aWhichChild
 )
 ;
 virtual
+nsAccessible
+*
+FocusedChild
+(
+)
+;
+virtual
 void
 InvalidateChildren
 (
