@@ -8580,9 +8580,11 @@ if
 native
 &
 &
+(
+!
 fun
-&
-&
+|
+|
 !
 (
 fun
@@ -8591,6 +8593,7 @@ fun
 flags
 &
 JSFUN_FAST_NATIVE
+)
 )
 )
 {
