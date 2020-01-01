@@ -123,9 +123,6 @@ h
 class
 nsIParser
 ;
-class
-nsIParserNode
-;
 #
 define
 NS_PARSERSERVICE_CONTRACTID
