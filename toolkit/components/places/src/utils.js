@@ -11333,7 +11333,11 @@ localizedFilenamePrefix
 +
 \
 .
+(
 json
+|
+html
+)
 "
 )
 ;
