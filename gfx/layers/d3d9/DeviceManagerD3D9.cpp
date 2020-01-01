@@ -1090,6 +1090,14 @@ this
 )
 ;
 }
+NS_IMPL_ADDREF
+(
+DeviceManagerD3D9
+)
+NS_IMPL_RELEASE
+(
+DeviceManagerD3D9
+)
 bool
 DeviceManagerD3D9
 :
