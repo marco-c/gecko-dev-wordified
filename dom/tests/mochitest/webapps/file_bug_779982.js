@@ -291,7 +291,7 @@ webapp
 action
 :
 '
-isInstalled
+checkInstalled
 '
 isnull
 :
@@ -302,7 +302,7 @@ fileTestOnCurrentOrigin
 message
 :
 '
-isInstalled
+checkInstalled
 (
 )
 for
@@ -331,7 +331,7 @@ webapp
 action
 :
 '
-isInstalledWrong
+checkInstalledWrong
 '
 isnull
 :
@@ -342,7 +342,7 @@ fileTestOnCurrentOrigin
 message
 :
 '
-isInstalled
+checkInstalled
 (
 )
 for
@@ -390,7 +390,7 @@ true
 action
 :
 '
-isInstalled
+checkInstalled
 '
 isnull
 :
@@ -401,7 +401,7 @@ fileTestOnCurrentOrigin
 message
 :
 '
-isInstalled
+checkInstalled
 (
 )
 for
@@ -418,7 +418,7 @@ true
 action
 :
 '
-isInstalledWrong
+checkInstalledWrong
 '
 isnull
 :
@@ -429,7 +429,7 @@ fileTestOnCurrentOrigin
 message
 :
 '
-isInstalled
+checkInstalled
 (
 )
 for
