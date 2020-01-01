@@ -2802,6 +2802,10 @@ cx
 (
 cx
 )
+tvr
+(
+cx
+)
 {
 nsIScriptSecurityManager
 *
@@ -3010,7 +3014,10 @@ cx
 JSRegExpStatics
 statics
 ;
-JSTempValueRooter
+js
+:
+:
+AutoValueRooter
 tvr
 ;
 uint32
@@ -5598,7 +5605,10 @@ return
 nsnull
 ;
 }
-JSAutoTempValueRooter
+js
+:
+:
+AutoValueRooter
 tvr
 (
 cx
