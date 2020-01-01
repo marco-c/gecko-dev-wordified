@@ -487,7 +487,7 @@ h
 #
 include
 "
-nsIStreamListener
+nsIParentChannel
 .
 h
 "
@@ -513,7 +513,7 @@ FTPChannelParent
 public
 PFTPChannelParent
 public
-nsIStreamListener
+nsIParentChannel
 public
 nsIInterfaceRequestor
 {
@@ -522,6 +522,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
+NS_DECL_NSIPARENTCHANNEL
 NS_DECL_NSIINTERFACEREQUESTOR
 FTPChannelParent
 (
@@ -562,6 +563,17 @@ IPC
 InputStream
 &
 uploadStream
+)
+;
+NS_OVERRIDE
+virtual
+bool
+RecvConnectChannel
+(
+const
+PRUint32
+&
+channelId
 )
 ;
 NS_OVERRIDE
