@@ -435,6 +435,7 @@ logging
 shutil
 signal
 math
+time
 from
 glob
 import
@@ -4461,6 +4462,14 @@ test
 name
 )
         
+startTime
+=
+time
+.
+time
+(
+)
+        
 proc
 =
 self
@@ -4824,6 +4833,20 @@ failCount
 else
 :
           
+timeTaken
+=
+(
+time
+.
+time
+(
+)
+-
+startTime
+)
+*
+1000
+          
 self
 .
 log
@@ -4841,6 +4864,13 @@ s
 |
 test
 passed
+(
+time
+:
+%
+.
+3fms
+)
 "
 %
 (
@@ -4856,6 +4886,7 @@ KNOWN
 FAIL
 "
 name
+timeTaken
 )
 )
           
