@@ -229,6 +229,16 @@ private
 in
 aOptions
 ;
+let
+wantPrivate
+=
+checkPrivacy
+&
+&
+aOptions
+.
+private
+;
 function
 isSuitableBrowserWindow
 (
@@ -263,9 +273,7 @@ win
 )
 =
 =
-aOptions
-.
-private
+wantPrivate
 )
 )
 ;
