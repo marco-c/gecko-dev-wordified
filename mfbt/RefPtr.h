@@ -472,15 +472,6 @@ Attributes
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Util
-.
-h
-"
 /
 *
 *
