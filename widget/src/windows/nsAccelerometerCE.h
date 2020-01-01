@@ -390,10 +390,10 @@ BLOCK
 /
 #
 ifndef
-nsAccelerometerWin_h
+nsAccelerometerCE_h
 #
 define
-nsAccelerometerWin_h
+nsAccelerometerCE_h
 #
 include
 "
