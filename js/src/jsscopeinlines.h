@@ -610,6 +610,12 @@ kind
 {
 JS_ASSERT
 (
+!
+singleton
+)
+;
+JS_ASSERT
+(
 kind
 >
 =
@@ -845,6 +851,14 @@ aclasp
 )
 {
 return
+proto
+&
+&
+!
+singleton
+&
+&
+(
 !
 emptyShapes
 |
@@ -861,6 +875,7 @@ getClass
 =
 =
 aclasp
+)
 ;
 }
 inline
