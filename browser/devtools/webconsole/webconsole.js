@@ -19737,6 +19737,9 @@ ToolSidebar
 (
 tabbox
 this
+"
+webconsole
+"
 )
 ;
 this

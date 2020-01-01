@@ -1695,6 +1695,9 @@ ToolSidebar
 (
 tabbox
 this
+"
+inspector
+"
 )
 ;
 let
