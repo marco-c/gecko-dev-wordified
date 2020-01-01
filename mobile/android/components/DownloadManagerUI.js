@@ -300,7 +300,7 @@ function
 show
 (
 aWindowContext
-aID
+aDownload
 aReason
 aUsePrivateUI
 )

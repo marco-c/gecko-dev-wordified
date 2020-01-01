@@ -341,18 +341,6 @@ if
 showDM
 )
 {
-uint32_t
-id
-;
-mInner
--
->
-GetId
-(
-&
-id
-)
-;
 nsCOMPtr
 <
 nsIDownloadManagerUI
@@ -444,7 +432,7 @@ dmui
 Show
 (
 nullptr
-id
+mInner
 nsIDownloadManagerUI
 :
 :

@@ -771,7 +771,7 @@ function
 DUI_show
 (
 aWindowContext
-aID
+aDownload
 aReason
 aUsePrivateUI
 )
@@ -790,7 +790,7 @@ _toolkitUI
 show
 (
 aWindowContext
-aID
+aDownload
 aReason
 aUsePrivateUI
 )
@@ -862,8 +862,6 @@ this
 _showDownloadManagerUI
 (
 aWindowContext
-aID
-aReason
 aUsePrivateUI
 )
 ;
@@ -913,8 +911,6 @@ this
 _showDownloadManagerUI
 (
 aWindowContext
-aID
-aReason
 aUsePrivateUI
 )
 ;
@@ -936,8 +932,6 @@ this
 _showDownloadManagerUI
 (
 aWindowContext
-aID
-aReason
 aUsePrivateUI
 )
 ;
@@ -1061,8 +1055,6 @@ function
 DUI_showDownloadManagerUI
 (
 aWindowContext
-aID
-aReason
 aUsePrivateUI
 )
 {
