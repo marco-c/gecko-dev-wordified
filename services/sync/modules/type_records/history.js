@@ -464,6 +464,15 @@ js
 "
 )
 ;
+const
+HISTORY_TTL
+=
+5184000
+;
+/
+/
+60
+days
 function
 HistoryRec
 (
@@ -498,6 +507,9 @@ Record
 .
 History
 "
+ttl
+:
+HISTORY_TTL
 }
 ;
 Utils

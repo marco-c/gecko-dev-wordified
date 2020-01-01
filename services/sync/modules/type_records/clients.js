@@ -464,6 +464,15 @@ js
 "
 )
 ;
+const
+CLIENTS_TTL
+=
+1814400
+;
+/
+/
+21
+days
 function
 ClientsRec
 (
@@ -498,6 +507,9 @@ Record
 .
 Clients
 "
+ttl
+:
+CLIENTS_TTL
 }
 ;
 Utils

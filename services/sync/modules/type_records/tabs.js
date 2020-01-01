@@ -464,6 +464,15 @@ js
 "
 )
 ;
+const
+TABS_TTL
+=
+604800
+;
+/
+/
+7
+days
 function
 TabSetRecord
 (
@@ -498,6 +507,9 @@ Record
 .
 Tabs
 "
+ttl
+:
+TABS_TTL
 }
 ;
 Utils
