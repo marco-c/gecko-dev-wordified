@@ -738,7 +738,7 @@ JSString
 *
 s2
 =
-JS_NewUCStringCopyN
+js_NewStringCopyN
 (
 sc
 -
@@ -1553,7 +1553,7 @@ isArray
 if
 (
 !
-JS_GetArrayLength
+js_GetLengthProperty
 (
 cx
 obj
@@ -1700,7 +1700,7 @@ else
 {
 ks
 =
-JS_ValueToString
+js_ValueToString
 (
 cx
 key
@@ -1935,7 +1935,7 @@ isArray
 {
 s
 =
-JS_ValueToString
+js_ValueToString
 (
 cx
 key
@@ -2041,7 +2041,7 @@ outputString
 ;
 s
 =
-JS_ValueToString
+js_ValueToString
 (
 cx
 outputValue
@@ -2423,7 +2423,7 @@ JSObject
 *
 arr
 =
-JS_NewArrayObject
+js_NewArrayObject
 (
 cx
 0
@@ -2879,7 +2879,7 @@ len
 ;
 ok
 =
-JS_GetArrayLength
+js_GetLengthProperty
 (
 cx
 parent
@@ -2957,7 +2957,7 @@ len
 if
 (
 !
-JS_GetArrayLength
+js_GetLengthProperty
 (
 cx
 jp
@@ -3140,7 +3140,7 @@ length
 if
 (
 !
-JS_GetArrayLength
+js_GetLengthProperty
 (
 cx
 jp
@@ -3209,12 +3209,14 @@ JSObject
 *
 obj
 =
-JS_NewObject
+js_NewObject
 (
 cx
+&
+js_ObjectClass
 NULL
 NULL
-NULL
+0
 )
 ;
 if
@@ -3261,7 +3263,7 @@ JSObject
 *
 arr
 =
-JS_NewArrayObject
+js_NewArrayObject
 (
 cx
 0
@@ -3303,7 +3305,7 @@ len
 if
 (
 !
-JS_GetArrayLength
+js_GetLengthProperty
 (
 cx
 jp
@@ -3320,7 +3322,7 @@ JS_FALSE
 if
 (
 !
-JS_SetArrayLength
+js_SetLengthProperty
 (
 cx
 jp
@@ -3496,7 +3498,7 @@ JSString
 *
 str
 =
-JS_NewUCStringCopyN
+js_NewStringCopyN
 (
 cx
 buf
@@ -3703,7 +3705,7 @@ jp
 >
 objectKey
 =
-JS_NewUCStringCopyN
+js_NewStringCopyN
 (
 cx
 buf
