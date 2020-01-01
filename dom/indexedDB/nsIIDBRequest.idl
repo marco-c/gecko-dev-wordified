@@ -565,10 +565,5 @@ attribute
 nsIDOMEventListener
 onerror
 ;
-readonly
-attribute
-nsISupports
-source
-;
 }
 ;
