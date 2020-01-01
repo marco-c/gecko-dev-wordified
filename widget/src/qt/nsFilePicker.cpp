@@ -1219,6 +1219,17 @@ QFileDialog
 AnyFile
 )
 ;
+mDialog
+-
+>
+setAcceptMode
+(
+QFileDialog
+:
+:
+AcceptSave
+)
+;
 break
 ;
 case
