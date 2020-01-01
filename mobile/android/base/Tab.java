@@ -751,7 +751,7 @@ mPluginViews
 private
 HashMap
 <
-Surface
+Object
 Layer
 >
 mPluginLayers
@@ -965,7 +965,7 @@ mPluginLayers
 new
 HashMap
 <
-Surface
+Object
 Layer
 >
 (
@@ -3202,8 +3202,8 @@ public
 void
 addPluginLayer
 (
-Surface
-surface
+Object
+surfaceOrView
 Layer
 layer
 )
@@ -3212,7 +3212,7 @@ mPluginLayers
 .
 put
 (
-surface
+surfaceOrView
 layer
 )
 ;
@@ -3221,8 +3221,8 @@ public
 Layer
 getPluginLayer
 (
-Surface
-surface
+Object
+surfaceOrView
 )
 {
 return
@@ -3230,7 +3230,7 @@ mPluginLayers
 .
 get
 (
-surface
+surfaceOrView
 )
 ;
 }
@@ -3255,8 +3255,8 @@ public
 Layer
 removePluginLayer
 (
-Surface
-surface
+Object
+surfaceOrView
 )
 {
 return
@@ -3264,7 +3264,7 @@ mPluginLayers
 .
 remove
 (
-surface
+surfaceOrView
 )
 ;
 }

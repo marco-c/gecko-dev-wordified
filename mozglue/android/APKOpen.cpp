@@ -3024,6 +3024,12 @@ notifyFilePickerResult
 jstring
 jlong
 )
+SHELL_WRAPPER1_WITH_RETURN
+(
+getSurfaceBits
+jobject
+jobject
+)
 static
 void
 *
@@ -5533,6 +5539,11 @@ notifyReadingMessageListFailed
 GETFUNC
 (
 notifyFilePickerResult
+)
+;
+GETFUNC
+(
+getSurfaceBits
 )
 ;
 #

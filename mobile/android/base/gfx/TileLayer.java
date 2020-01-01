@@ -561,11 +561,6 @@ Rect
 mDirtyRect
 ;
 private
-final
-CairoImage
-mImage
-;
-private
 IntSize
 mSize
 ;
@@ -574,6 +569,11 @@ int
 [
 ]
 mTextureIDs
+;
+protected
+final
+CairoImage
+mImage
 ;
 public
 enum
