@@ -3,7 +3,7 @@
 -
 *
 -
-mOde
+Mode
 :
 C
 +
@@ -1580,7 +1580,7 @@ fp
 =
 f
 .
-entryfp
+entryFp
 )
 ;
 JS_ASSERT
@@ -1930,7 +1930,7 @@ bumpCommitAndLimit
 (
 f
 .
-entryfp
+entryFp
 f
 .
 regs
@@ -2219,7 +2219,7 @@ script
 flags
 f
 .
-entryfp
+entryFp
 &
 f
 .
@@ -2886,7 +2886,7 @@ newscript
 flags
 f
 .
-entryfp
+entryFp
 &
 f
 .
@@ -4145,7 +4145,7 @@ lastFrame
 (
 f
 .
-entryfp
+entryFp
 =
 =
 f
@@ -5430,7 +5430,20 @@ regs
 pc
 =
 =
-JSOP_APPLY
+JSOP_FUNCALL
+|
+|
+*
+cx
+-
+>
+regs
+-
+>
+pc
+=
+=
+JSOP_FUNAPPLY
 )
 ;
 cx
