@@ -1755,6 +1755,8 @@ wstring
 UTF8ToWide
 (
 const
+:
+:
 StringPiece
 &
 utf8
