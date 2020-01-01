@@ -34,6 +34,9 @@ offset
 *
 -
 *
+/
+/
+*
 *
 *
 *
@@ -3550,6 +3553,8 @@ vinfo
 ;
 int
 chosenIndex
+=
+0
 ;
 for
 (

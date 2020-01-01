@@ -1483,6 +1483,8 @@ target
 ;
 PRBool
 needs_clip
+=
+PR_TRUE
 ;
 nsIntRect
 rectangles
@@ -1492,6 +1494,8 @@ MAX_STATIC_CLIP_RECTANGLES
 ;
 int
 rect_count
+=
+0
 ;
 /
 *

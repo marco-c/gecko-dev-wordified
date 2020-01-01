@@ -753,7 +753,7 @@ QCMS_INTENT_ABSOLUTE_COLORIMETRIC
 qcms_intent
 ;
 /
-/
+*
 XXX
 :
 I
@@ -765,6 +765,8 @@ like
 the
 _DATA_
 prefix
+*
+/
 typedef
 enum
 {

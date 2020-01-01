@@ -178,8 +178,10 @@ endif
 #
 else
 /
-/
+*
 MOZ_QCMS
+*
+/
 #
 if
 BYTE_ORDER

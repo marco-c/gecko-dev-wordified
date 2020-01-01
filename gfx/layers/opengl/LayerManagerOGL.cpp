@@ -1301,11 +1301,16 @@ the
 ProgramType
 enum
 !
+#
+ifdef
+DEBUG
 GLint
 programIndex
 =
 0
 ;
+#
+endif
 /
 *
 Layer
