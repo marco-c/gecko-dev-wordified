@@ -933,14 +933,6 @@ return
 false
 ;
 }
-void
-noteLValue
-(
-Node
-pn
-)
-{
-}
 bool
 finishInitializerAssignment
 (
