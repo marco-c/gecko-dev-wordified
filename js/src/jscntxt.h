@@ -2272,7 +2272,7 @@ JS_FALSE
 endif
 #
 ifdef
-DEBUG
+DEBUG_brendan
 #
 define
 JS_EVAL_CACHE_METERING
