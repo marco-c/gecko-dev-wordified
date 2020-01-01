@@ -2670,7 +2670,7 @@ rv
 !
 plugId
 .
-IsVoid
+IsEmpty
 (
 )
 )
