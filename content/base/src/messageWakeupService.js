@@ -477,12 +477,6 @@ generateQI
 [
 Ci
 .
-nsIMessageWakeupService
-Ci
-.
-nsISupports
-Ci
-.
 nsIObserver
 ]
 )
