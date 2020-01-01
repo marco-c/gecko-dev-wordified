@@ -212,19 +212,7 @@ license
 =
 '
 MPL
-1
-.
-1
-/
-GPL
 2
-.
-0
-/
-LGPL
-2
-.
-1
 '
       
 packages
@@ -286,14 +274,14 @@ Approved
 Mozilla
 Public
 License
-1
+2
 .
-1
+0
 (
 MPL
-1
+2
 .
-1
+0
 )
 '
                    
