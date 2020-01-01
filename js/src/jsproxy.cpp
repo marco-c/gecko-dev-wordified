@@ -6580,7 +6580,7 @@ proxy_innerObject
 NULL
 /
 *
-wrappedObject
+unused
 *
 /
 }
