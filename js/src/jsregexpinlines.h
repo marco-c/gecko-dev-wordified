@@ -1438,7 +1438,8 @@ multiline
 JSRegExpMultiline
 :
 JSRegExpSingleLine
-NULL
+&
+parenCount
 &
 error
 )
