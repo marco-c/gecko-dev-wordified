@@ -2586,13 +2586,6 @@ aRect
 NS_IMETHOD
 Invalidate
 (
-PRBool
-aIsSynchronous
-)
-;
-NS_IMETHOD
-Invalidate
-(
 const
 nsIntRect
 &

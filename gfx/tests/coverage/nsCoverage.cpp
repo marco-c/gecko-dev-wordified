@@ -2298,6 +2298,17 @@ n
 str
 )
 ;
+nsIntRect
+clientRect
+;
+gWindow
+-
+>
+GetClientBounds
+(
+clientRect
+)
+;
 switch
 (
 ke
@@ -2321,6 +2332,7 @@ gWindow
 >
 Invalidate
 (
+clientRect
 PR_FALSE
 )
 ;
@@ -2341,6 +2353,7 @@ gWindow
 >
 Invalidate
 (
+clientRect
 PR_FALSE
 )
 ;
@@ -2361,6 +2374,7 @@ gWindow
 >
 Invalidate
 (
+clientRect
 PR_FALSE
 )
 ;
@@ -2381,6 +2395,7 @@ gWindow
 >
 Invalidate
 (
+clientRect
 PR_FALSE
 )
 ;
