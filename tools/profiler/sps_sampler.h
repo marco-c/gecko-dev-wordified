@@ -173,6 +173,7 @@ mozilla
 ThreadLocal
 <
 ProfileStack
+*
 >
 tlsStack
 ;
@@ -183,6 +184,7 @@ mozilla
 ThreadLocal
 <
 TableTicker
+*
 >
 tlsTicker
 ;
