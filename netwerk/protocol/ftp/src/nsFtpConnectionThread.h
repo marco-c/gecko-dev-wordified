@@ -1949,6 +1949,9 @@ represents
 internal
 state
 errors
+PRPackedBool
+mReconnectAndLoginAgain
+;
 /
 /
 *
