@@ -3595,6 +3595,9 @@ Composite
 )
 ;
 }
+#
+ifndef
+MOZ_GFX_OPTIMIZE_MOBILE
 if
 (
 UpdateCount
@@ -3603,6 +3606,8 @@ UpdateCount
 >
 0
 )
+#
+endif
 {
 ForceUpdate
 (
