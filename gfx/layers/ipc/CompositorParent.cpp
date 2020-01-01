@@ -1583,6 +1583,15 @@ GetRoot
 (
 )
 ;
+if
+(
+!
+root
+)
+{
+return
+;
+}
 /
 *
 ContainerLayer
