@@ -1259,14 +1259,13 @@ kungFuDeathGrip
 ;
 if
 (
-length
-&
-&
 aNewValue
 .
-IsEmpty
+Length
 (
 )
+<
+length
 )
 {
 /

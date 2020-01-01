@@ -963,11 +963,9 @@ kungFuDeathGrip
 ;
 if
 (
-oldLength
-&
-&
-!
 newLength
+<
+oldLength
 )
 {
 /
