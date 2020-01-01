@@ -18893,11 +18893,6 @@ name
 )
 continue
 ;
-bool
-found
-=
-false
-;
 for
 (
 PRUint32
@@ -18937,10 +18932,6 @@ RemoveElementAt
 (
 i
 )
-;
-found
-=
-true
 ;
 break
 ;
