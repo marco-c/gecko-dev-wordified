@@ -4268,6 +4268,9 @@ sprops
 unsigned
 maxNativeStackSlots
 ;
+uintN
+execs
+;
 inline
 unsigned
 nGlobalTypes
