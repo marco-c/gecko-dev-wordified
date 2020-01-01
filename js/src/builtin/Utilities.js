@@ -355,6 +355,15 @@ Math
 min
 ;
 var
+std_Number_valueOf
+=
+Number
+.
+prototype
+.
+valueOf
+;
+var
 std_Object_create
 =
 Object

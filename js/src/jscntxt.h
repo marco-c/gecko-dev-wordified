@@ -7039,6 +7039,10 @@ cpp
 uint32_t
 propertyRemovals
 ;
+#
+if
+!
+ENABLE_INTL_API
 /
 *
 Number
@@ -7047,7 +7051,8 @@ used
 by
 jsnum
 .
-c
+cpp
+.
 *
 /
 const
@@ -7065,6 +7070,8 @@ char
 *
 numGrouping
 ;
+#
+endif
 private
 :
 js
