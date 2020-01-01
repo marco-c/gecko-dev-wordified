@@ -3998,6 +3998,16 @@ focusedDOMDocument
 )
 )
 ;
+if
+(
+!
+focusedDOMDocument
+)
+{
+return
+nsnull
+;
+}
 focusedDOMDocument
 -
 >
