@@ -727,6 +727,13 @@ nsFrameManager
 .
 h
 "
+#
+include
+"
+nsIPrefService
+.
+h
+"
 /
 /
 -
