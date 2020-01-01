@@ -6677,6 +6677,11 @@ frameRect
 Size
 (
 )
+frameRect
+.
+Size
+(
+)
 mFrame
 -
 >
