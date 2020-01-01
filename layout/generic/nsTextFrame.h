@@ -3191,6 +3191,14 @@ HasAnyNoncollapsedCharacters
 (
 )
 ;
+void
+ClearMetrics
+(
+nsHTMLReflowMetrics
+&
+aMetrics
+)
+;
 }
 ;
 #

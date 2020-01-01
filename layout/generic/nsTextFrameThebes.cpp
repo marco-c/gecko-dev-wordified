@@ -15931,8 +15931,10 @@ return
 PR_FALSE
 ;
 }
-static
 void
+nsTextFrame
+:
+:
 ClearMetrics
 (
 nsHTMLReflowMetrics
@@ -15955,6 +15957,10 @@ height
 aMetrics
 .
 ascent
+=
+0
+;
+mAscent
 =
 0
 ;
