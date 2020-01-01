@@ -1616,7 +1616,7 @@ Event
 :
 sClass
 "
-Event
+WorkerEvent
 "
 )
 DECL_EVENT_CLASS
@@ -2934,7 +2934,7 @@ MessageEvent
 :
 sClass
 "
-MessageEvent
+WorkerMessageEvent
 "
 )
 DECL_MESSAGEEVENT_CLASS
@@ -3856,7 +3856,7 @@ ErrorEvent
 :
 sClass
 "
-ErrorEvent
+WorkerErrorEvent
 "
 )
 DECL_ERROREVENT_CLASS
@@ -4527,7 +4527,7 @@ sClass
 =
 {
 "
-ProgressEvent
+WorkerProgressEvent
 "
 JSCLASS_HAS_PRIVATE
 |
