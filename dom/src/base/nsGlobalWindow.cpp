@@ -53720,6 +53720,9 @@ if
 (
 !
 mGeolocation
+&
+&
+mDocShell
 )
 {
 nsCOMPtr
