@@ -2503,10 +2503,8 @@ HASH_ResultLenByOidTag
 aOidTag
 )
 ;
-nsRefPtr
-<
 nsStringBuffer
->
+*
 fingerprint
 =
 nsStringBuffer
@@ -2588,6 +2586,13 @@ CERT_Hexify
 fpItem
 1
 )
+)
+;
+fingerprint
+-
+>
+Release
+(
 )
 ;
 return
