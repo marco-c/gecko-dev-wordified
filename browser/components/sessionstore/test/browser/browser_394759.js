@@ -843,10 +843,11 @@ title
 testURL
 &
 &
-data
+JSON
 .
-toSource
+stringify
 (
+data
 )
 .
 indexOf

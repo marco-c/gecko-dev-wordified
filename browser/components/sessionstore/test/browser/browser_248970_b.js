@@ -1387,10 +1387,11 @@ ss
 setTabState
 (
 tab_A
-state
+JSON
 .
-toSource
+stringify
 (
+state
 )
 )
 ;
@@ -1722,10 +1723,11 @@ ss
 setTabState
 (
 tab_B
-state1
+JSON
 .
-toSource
+stringify
 (
+state1
 )
 )
 ;

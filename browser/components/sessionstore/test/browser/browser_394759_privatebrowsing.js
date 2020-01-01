@@ -1281,10 +1281,11 @@ getClosedWindowData
 ;
 ok
 (
-data
+JSON
 .
-toSource
+stringify
 (
+data
 )
 .
 indexOf
@@ -1490,10 +1491,11 @@ getClosedWindowData
 ;
 ok
 (
-data
+JSON
 .
-toSource
+stringify
 (
+data
 )
 .
 indexOf
