@@ -459,13 +459,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsStyleContext
 .
 h
@@ -514,6 +507,9 @@ h
 "
 class
 nsIRenderingContext
+;
+class
+nsPresContext
 ;
 class
 nsHTMLButtonControlFrame

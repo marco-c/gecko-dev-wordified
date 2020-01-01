@@ -485,9 +485,6 @@ class
 gfxContext
 ;
 class
-nsPresContext
-;
-class
 nsSVGRenderState
 ;
 class

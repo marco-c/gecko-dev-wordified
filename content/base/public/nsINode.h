@@ -530,9 +530,6 @@ class
 nsIPresShell
 ;
 class
-nsPresContext
-;
-class
 nsEventChainVisitor
 ;
 class

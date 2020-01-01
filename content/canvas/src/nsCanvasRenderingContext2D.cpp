@@ -678,13 +678,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h

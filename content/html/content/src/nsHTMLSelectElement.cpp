@@ -480,13 +480,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

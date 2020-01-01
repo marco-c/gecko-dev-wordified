@@ -483,9 +483,6 @@ class
 nsIStyleRule
 ;
 class
-nsPresContext
-;
-class
 nsIContent
 ;
 class

@@ -647,9 +647,6 @@ nsIDocument
 class
 nsIScriptTimeoutHandler
 ;
-class
-nsPresContext
-;
 struct
 nsTimeout
 ;

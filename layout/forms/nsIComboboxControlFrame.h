@@ -443,9 +443,6 @@ nsFont
 h
 "
 class
-nsPresContext
-;
-class
 nsString
 ;
 class

@@ -470,9 +470,6 @@ nsCOMPtr
 h
 "
 class
-nsPresContext
-;
-class
 nsClientRect
 :
 public

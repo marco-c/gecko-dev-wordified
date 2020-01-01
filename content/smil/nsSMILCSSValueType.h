@@ -477,9 +477,6 @@ h
 For
 NS_OVERRIDE
 class
-nsPresContext
-;
-class
 nsIContent
 ;
 class

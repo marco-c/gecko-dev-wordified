@@ -708,13 +708,6 @@ imgIContainer
 h
 "
 #
-include
-"
-nsPresContext
-.
-h
-"
-#
 if
 DEBUG
 /

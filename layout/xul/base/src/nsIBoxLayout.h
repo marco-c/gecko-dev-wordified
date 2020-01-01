@@ -443,9 +443,6 @@ nsIFrame
 h
 "
 class
-nsPresContext
-;
-class
 nsBoxLayout
 ;
 class

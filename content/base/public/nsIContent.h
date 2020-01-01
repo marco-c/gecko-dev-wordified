@@ -486,9 +486,6 @@ class
 nsIAtom
 ;
 class
-nsPresContext
-;
-class
 nsIDOMEvent
 ;
 class

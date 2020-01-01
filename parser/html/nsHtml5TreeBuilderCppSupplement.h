@@ -475,13 +475,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsEvent
 .
 h
@@ -514,6 +507,9 @@ nsNodeUtils
 .
 h
 "
+class
+nsPresContext
+;
 /
 /
 this

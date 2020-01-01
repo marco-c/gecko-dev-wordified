@@ -477,9 +477,6 @@ class
 nsIFragmentContentSink
 ;
 class
-nsPresContext
-;
-class
 nsStyleContext
 ;
 class

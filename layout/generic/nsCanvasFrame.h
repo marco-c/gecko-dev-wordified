@@ -453,13 +453,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsStyleContext
 .
 h
@@ -506,6 +499,9 @@ nsAbsoluteContainingBlock
 .
 h
 "
+class
+nsPresContext
+;
 /
 *
 *

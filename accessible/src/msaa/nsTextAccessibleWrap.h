@@ -454,9 +454,6 @@ class
 nsIFrame
 ;
 class
-nsPresContext
-;
-class
 nsIRenderingContext
 ;
 class

@@ -482,13 +482,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h

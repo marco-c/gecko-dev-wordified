@@ -481,9 +481,6 @@ class
 nsMenuBarFrame
 ;
 class
-nsPresContext
-;
-class
 nsIDOMKeyEvent
 ;
 /

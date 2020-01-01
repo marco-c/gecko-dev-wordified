@@ -514,9 +514,6 @@ class
 nsIStyleSheet
 ;
 class
-nsPresContext
-;
-class
 nsIAtom
 ;
 class

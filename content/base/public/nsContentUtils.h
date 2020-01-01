@@ -803,6 +803,9 @@ nsIMIMEHeaderParam
 class
 nsIObserver
 ;
+class
+nsPresContext
+;
 #
 ifndef
 have_PrefChangedFunc_typedef

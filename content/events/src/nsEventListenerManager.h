@@ -484,6 +484,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+nsTObserverArray
+.
+h
+"
 class
 nsIDOMEvent
 ;

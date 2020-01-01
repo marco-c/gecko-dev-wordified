@@ -477,9 +477,6 @@ class
 nsIDOMEvent
 ;
 class
-nsPresContext
-;
-class
 nsIScriptGlobalObjectOwner
 ;
 class

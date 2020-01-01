@@ -496,9 +496,6 @@ gfxMatrix
 h
 "
 class
-nsPresContext
-;
-class
 nsSVGMarkerFrame
 ;
 class

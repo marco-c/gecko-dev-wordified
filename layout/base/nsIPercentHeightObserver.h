@@ -438,9 +438,6 @@ h
 struct
 nsHTMLReflowState
 ;
-class
-nsPresContext
-;
 /
 *
 *

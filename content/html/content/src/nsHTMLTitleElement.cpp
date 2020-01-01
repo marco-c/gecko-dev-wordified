@@ -462,13 +462,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsIDOMText
 .
 h

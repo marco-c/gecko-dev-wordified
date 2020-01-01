@@ -551,6 +551,9 @@ nsMediaQueryResultCacheKey
 class
 nsCSSStyleSheet
 ;
+class
+nsPresContext
+;
 /
 /
 -
