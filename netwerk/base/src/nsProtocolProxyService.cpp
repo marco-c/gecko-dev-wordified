@@ -2688,7 +2688,7 @@ ns4
 .
 x
 backwards
-compatability
+compatibility
 if
 (
 type

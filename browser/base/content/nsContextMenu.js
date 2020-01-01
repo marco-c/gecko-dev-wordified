@@ -8220,7 +8220,7 @@ linkURL
 /
 Backwards
 -
-compatability
+compatibility
 wrapper
 saveImage
 :
@@ -8411,7 +8411,7 @@ doc
 /
 Backwards
 -
-compatability
+compatibility
 wrapper
 sendImage
 :

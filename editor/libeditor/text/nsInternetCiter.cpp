@@ -697,7 +697,7 @@ quoting
 for
 /
 /
-compatability
+compatibility
 with
 RFC
 2646

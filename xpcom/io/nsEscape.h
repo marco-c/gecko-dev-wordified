@@ -531,7 +531,7 @@ url_All
 escape
 every
 byte
-uncondtionally
+unconditionally
 *
 /
 url_XAlphas

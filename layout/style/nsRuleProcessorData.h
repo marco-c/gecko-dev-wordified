@@ -474,7 +474,7 @@ h
 /
 /
 for
-nsCompatability
+nsCompatibility
 #
 include
 "

@@ -16211,7 +16211,7 @@ Call
 RecomputeVisiblity
 instead
 of
-ComputeVisibilty
+ComputeVisibility
 since
 /
 /

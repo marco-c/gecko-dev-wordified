@@ -3954,7 +3954,7 @@ This
 is
 needed
 for
-compatability
+compatibility
 *
 with
 the

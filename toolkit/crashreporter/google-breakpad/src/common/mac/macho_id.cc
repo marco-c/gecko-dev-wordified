@@ -1231,7 +1231,7 @@ hashed
 filename
 version
 and
-compatability
+compatibility
 version
 bytes
 /

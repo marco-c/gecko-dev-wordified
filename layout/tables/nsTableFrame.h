@@ -3463,15 +3463,15 @@ Adjust
 the
 table
 for
-visibilty
+visibility
 .
 collapse
 set
 on
 rowgroups
 rows
-colgroups
 *
+colgroups
 and
 cols
 *

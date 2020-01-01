@@ -7200,7 +7200,7 @@ time
 )
 for
 forwards
-compatability
+compatibility
 .
 entry
 .

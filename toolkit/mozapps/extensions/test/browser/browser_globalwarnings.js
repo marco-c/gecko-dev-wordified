@@ -366,7 +366,7 @@ pref
 false
 "
 Check
-Compatability
+Compatibility
 pref
 should
 be

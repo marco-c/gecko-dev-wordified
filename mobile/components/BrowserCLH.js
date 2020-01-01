@@ -1017,7 +1017,7 @@ the
 user
 has
 a
-compatable
+compatible
 locale
 from
 a

@@ -2341,7 +2341,7 @@ Note
 is
 for
 nav
-compatability
+compatibility
 nscoord
 x1
 =
@@ -4062,7 +4062,7 @@ Note
 is
 for
 nav
-compatability
+compatibility
 if
 (
 mNumCoords

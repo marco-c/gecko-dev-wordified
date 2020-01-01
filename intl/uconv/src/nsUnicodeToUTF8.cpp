@@ -673,7 +673,7 @@ not
 in
 valid
 surrogate
-rang
+range
 we
 need
 to

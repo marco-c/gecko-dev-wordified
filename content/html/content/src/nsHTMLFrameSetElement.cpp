@@ -2062,7 +2062,7 @@ frame
 sizes
 for
 Nav
-compatability
+compatibility
 /
 /
 Nav

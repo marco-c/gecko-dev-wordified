@@ -536,7 +536,7 @@ root
 *
 For
 backwards
-compatability
+compatibility
 if
 we
 don
