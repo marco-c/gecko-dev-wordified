@@ -4876,7 +4876,7 @@ type
 ;
 }
 inline
-void
+bool
 clearType
 (
 JSContext

@@ -3708,7 +3708,8 @@ prototype
 *
 /
 TypeObject
-emptyObject
+*
+typeEmpty
 ;
 /
 *

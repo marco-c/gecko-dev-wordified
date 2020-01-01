@@ -44416,6 +44416,9 @@ global
 .
 *
 /
+if
+(
+!
 obj
 -
 >
@@ -44423,6 +44426,9 @@ clearType
 (
 cx
 )
+)
+return
+false
 ;
 vp
 -

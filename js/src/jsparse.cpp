@@ -13495,6 +13495,9 @@ clearParent
 (
 )
 ;
+if
+(
+!
 FUN_OBJECT
 (
 fun
@@ -13505,6 +13508,9 @@ clearType
 (
 context
 )
+)
+return
+NULL
 ;
 }
 return
@@ -57452,6 +57458,9 @@ clearParent
 (
 )
 ;
+if
+(
+!
 obj
 -
 >
@@ -57459,6 +57468,9 @@ clearType
 (
 context
 )
+)
+return
+NULL
 ;
 }
 pn

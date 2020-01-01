@@ -11814,6 +11814,9 @@ too
 .
 *
 /
+if
+(
+!
 obj
 -
 >
@@ -11821,6 +11824,9 @@ clearType
 (
 cx
 )
+)
+return
+JS_FALSE
 ;
 #
 ifdef
