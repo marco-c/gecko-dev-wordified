@@ -5540,6 +5540,15 @@ isChar
 (
 PR_FALSE
 )
+#
+ifdef
+MOZ_IPC
+mOwnRangeArray
+(
+PR_FALSE
+)
+#
+endif
 {
 }
 nsString
