@@ -14125,7 +14125,7 @@ clientRc
 nsIntRect
 evRect
 (
-nsWindowGfx
+WinUtils
 :
 :
 ToIntRect
