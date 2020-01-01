@@ -2030,13 +2030,6 @@ namespace
 js
 *
 /
-static
-const
-uint32_t
-JS_SCRIPT_COOKIE
-=
-0xc00cee
-;
 struct
 JSScript
 :
