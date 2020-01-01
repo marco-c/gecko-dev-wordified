@@ -105,10 +105,6 @@ mPollTimeout
 (
 UINT16_MAX
 )
-mIsPrivate
-(
-false
-)
 {
 }
 /
@@ -274,9 +270,6 @@ reached
 /
 uint16_t
 mPollTimeout
-;
-bool
-mIsPrivate
 ;
 /
 /
