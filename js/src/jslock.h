@@ -1055,9 +1055,6 @@ define
 js_CurrentThreadId
 (
 )
-(
-jsword
-)
 PR_GetCurrentThread
 (
 )
