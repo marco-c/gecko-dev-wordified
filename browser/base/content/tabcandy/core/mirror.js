@@ -1375,8 +1375,6 @@ self
 this
 ;
 /
-*
-/
 /
 When
 a
@@ -1394,6 +1392,8 @@ function
 (
 )
 {
+/
+*
 self
 .
 update
@@ -1401,11 +1401,11 @@ update
 this
 )
 ;
+*
+/
 }
 )
 ;
-*
-/
 /
 /
 When
