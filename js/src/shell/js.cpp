@@ -30697,6 +30697,8 @@ cx
 )
 |
 JSOPTION_ANONFUNFIX
+|
+JSOPTION_ROPES
 )
 ;
 JS_SetGCParameterForThread
