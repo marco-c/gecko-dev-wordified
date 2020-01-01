@@ -2245,6 +2245,9 @@ nsIContent
 &
 mVisibleKidsOfHiddenElement
 ;
+bool
+mWasFrameVisible
+;
 }
 ;
 }
