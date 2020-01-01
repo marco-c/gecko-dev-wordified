@@ -1691,6 +1691,9 @@ mCumulativeRotation
 BOOL
 mDidForceRefreshOpenGL
 ;
+BOOL
+mWaitingForPaint
+;
 /
 /
 Support
