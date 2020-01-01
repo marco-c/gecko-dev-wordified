@@ -144,7 +144,17 @@ nsINodeInfo
 >
 aNodeInfo
 )
+:
+nsGenericHTMLElement
+(
+aNodeInfo
+)
+{
+SetIsDOMBinding
+(
+)
 ;
+}
 virtual
 ~
 HTMLLegendElement
