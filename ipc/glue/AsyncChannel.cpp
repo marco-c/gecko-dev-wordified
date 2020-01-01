@@ -622,7 +622,7 @@ aChan
 )
 mExistingListener
 (
-NULL
+nullptr
 )
 {
 }
@@ -1706,11 +1706,11 @@ false
 )
 mChannelErrorTask
 (
-NULL
+nullptr
 )
 mLink
 (
-NULL
+nullptr
 )
 mWorkerLoopID
 (
@@ -2955,7 +2955,7 @@ AssertNotCurrentThreadOwns
 ;
 mChannelErrorTask
 =
-NULL
+nullptr
 ;
 /
 /
@@ -3365,7 +3365,7 @@ Cancel
 ;
 mChannelErrorTask
 =
-NULL
+nullptr
 ;
 }
 }

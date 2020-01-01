@@ -954,7 +954,7 @@ return
 mSegment
 !
 =
-NULL
+nullptr
 ;
 }
 /
@@ -990,7 +990,7 @@ return
 mSegment
 !
 =
-NULL
+nullptr
 ;
 }
 /
@@ -1278,7 +1278,7 @@ by
 the
 caller
 )
-NULL
+nullptr
 if
 not
 .
@@ -1344,7 +1344,7 @@ the
 /
 caller
 )
-NULL
+nullptr
 if
 not
 .

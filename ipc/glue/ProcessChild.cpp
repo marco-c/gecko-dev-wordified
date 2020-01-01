@@ -217,7 +217,7 @@ ProcessChild
 {
 gProcessChild
 =
-NULL
+nullptr
 ;
 }
 }

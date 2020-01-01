@@ -829,12 +829,12 @@ nullptr
 HHOOK
 gDeferredGetMsgHook
 =
-NULL
+nullptr
 ;
 HHOOK
 gDeferredCallWndProcHook
 =
-NULL
+nullptr
 ;
 DWORD
 gUIThreadId
@@ -1163,7 +1163,7 @@ hook
 return
 CallNextHookEx
 (
-NULL
+nullptr
 nCode
 wParam
 lParam
@@ -1214,7 +1214,7 @@ SetWindowsHookEx
 (
 WH_GETMESSAGE
 DeferredMessageHook
-NULL
+nullptr
 gUIThreadId
 )
 ;
@@ -1226,7 +1226,7 @@ SetWindowsHookEx
 (
 WH_CALLWNDPROC
 DeferredMessageHook
-NULL
+nullptr
 gUIThreadId
 )
 ;
@@ -2846,7 +2846,7 @@ s
 possible
 to
 get
-NULL
+nullptr
 out
 of
 SetWindowLongPtr
@@ -2855,9 +2855,9 @@ the
 only
 way
 to
+/
+/
 know
-/
-/
 if
 that
 '
@@ -2874,10 +2874,10 @@ GetLastError
 Clear
 the
 error
+/
+/
 here
 so
-/
-/
 we
 can
 tell
@@ -3219,7 +3219,7 @@ hWnd
 return
 CallNextHookEx
 (
-NULL
+nullptr
 nCode
 wParam
 lParam
@@ -3770,7 +3770,7 @@ gNeuteredWindows
 ;
 gNeuteredWindows
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4196,7 +4196,7 @@ PeekMessageW
 (
 &
 msg
-NULL
+nullptr
 0
 0
 PM_REMOVE
@@ -4484,10 +4484,10 @@ timerId
 =
 SetTimer
 (
-NULL
+nullptr
 0
 mTimeoutMs
-NULL
+nullptr
 )
 ;
 NS_ASSERTION
@@ -4551,7 +4551,7 @@ SetWindowsHookEx
 (
 WH_CALLWNDPROC
 CallWindowProcedureHook
-NULL
+nullptr
 gUIThreadId
 )
 ;
@@ -5072,7 +5072,7 @@ PeekMessageW
 (
 &
 msg
-NULL
+nullptr
 0
 0
 PM_NOREMOVE
@@ -5200,7 +5200,7 @@ timerId
 {
 KillTimer
 (
-NULL
+nullptr
 timerId
 )
 ;
@@ -5384,7 +5384,7 @@ messages
 If
 windowHook
 is
-NULL
+nullptr
 SyncChannel
 :
 :
@@ -5396,7 +5396,7 @@ false
 HHOOK
 windowHook
 =
-NULL
+nullptr
 ;
 while
 (
@@ -5448,7 +5448,7 @@ windowHook
 ;
 windowHook
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5457,7 +5457,7 @@ timerId
 {
 KillTimer
 (
-NULL
+nullptr
 timerId
 )
 ;
@@ -5579,7 +5579,7 @@ SetWindowsHookEx
 (
 WH_CALLWNDPROC
 CallWindowProcedureHook
-NULL
+nullptr
 gUIThreadId
 )
 ;
@@ -5626,10 +5626,10 @@ timerId
 =
 SetTimer
 (
-NULL
+nullptr
 0
 mTimeoutMs
-NULL
+nullptr
 )
 ;
 NS_ASSERTION
@@ -5838,7 +5838,7 @@ PeekMessageW
 (
 &
 msg
-NULL
+nullptr
 0
 0
 PM_NOREMOVE
@@ -5970,7 +5970,7 @@ timerId
 {
 KillTimer
 (
-NULL
+nullptr
 timerId
 )
 ;
@@ -6169,8 +6169,8 @@ endif
 RedrawWindow
 (
 hWnd
-NULL
-NULL
+nullptr
+nullptr
 flags
 )
 ;
@@ -6370,7 +6370,7 @@ else
 {
 lParamString
 =
-NULL
+nullptr
 ;
 lParam
 =
@@ -6485,7 +6485,7 @@ windowPos
 .
 hwndInsertAfter
 =
-NULL
+nullptr
 ;
 windowPos
 .
@@ -6967,7 +6967,7 @@ copyData
 .
 lpData
 =
-NULL
+nullptr
 ;
 }
 lParam

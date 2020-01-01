@@ -1211,7 +1211,7 @@ isVoid
 /
 represents
 a
-NULL
+nullptr
 pointer
 return
 ;
@@ -1455,7 +1455,7 @@ isVoid
 /
 represents
 a
-NULL
+nullptr
 pointer
 return
 ;
@@ -3273,7 +3273,7 @@ aResult
 >
 data
 =
-NULL
+nullptr
 ;
 }
 return

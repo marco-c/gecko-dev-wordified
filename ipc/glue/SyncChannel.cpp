@@ -238,7 +238,7 @@ ifdef
 OS_WIN
 mTopFrame
 (
-NULL
+nullptr
 )
 #
 endif
@@ -275,10 +275,10 @@ mEvent
 =
 CreateEvent
 (
-NULL
+nullptr
 TRUE
 FALSE
-NULL
+nullptr
 )
 ;
 NS_ASSERTION
