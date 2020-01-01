@@ -11783,7 +11783,7 @@ rv
 newInnerWindow
 -
 >
-InnerWindowSetNewDocument
+InnerSetNewDocument
 (
 aDocument
 )
@@ -12220,7 +12220,7 @@ nsresult
 nsGlobalWindow
 :
 :
-InnerWindowSetNewDocument
+InnerSetNewDocument
 (
 nsIDocument
 *

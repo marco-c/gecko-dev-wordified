@@ -2742,7 +2742,7 @@ CallerInnerWindow
 )
 ;
 nsresult
-InnerWindowSetNewDocument
+InnerSetNewDocument
 (
 nsIDocument
 *
