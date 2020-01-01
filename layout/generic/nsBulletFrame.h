@@ -148,6 +148,9 @@ imgINotificationObserver
 h
 "
 class
+imgIContainer
+;
+class
 imgRequestProxy
 ;
 #
@@ -531,6 +534,15 @@ return
 mOrdinal
 ;
 }
+already_AddRefed
+<
+imgIContainer
+>
+GetImage
+(
+)
+const
+;
 protected
 :
 nsresult
