@@ -1809,6 +1809,11 @@ Truncate
 )
 ;
 }
+void
+HideSelectionIfBlurred
+(
+)
+;
 private
 :
 /
