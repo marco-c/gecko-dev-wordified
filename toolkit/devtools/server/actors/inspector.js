@@ -13309,10 +13309,7 @@ doc
 .
 createTreeWalker
 (
-nodeDocument
-(
-aNode
-)
+doc
 aShow
 aFilter
 aExpandEntityReferences
