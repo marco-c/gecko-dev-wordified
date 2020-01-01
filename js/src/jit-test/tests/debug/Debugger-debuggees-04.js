@@ -50,7 +50,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 ;
 function
 checkHas

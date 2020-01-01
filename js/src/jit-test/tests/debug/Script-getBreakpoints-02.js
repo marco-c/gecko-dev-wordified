@@ -10,7 +10,7 @@ breakpoints
 for
 the
 current
-Debug
+Debugger
 object
 only
 .
@@ -47,7 +47,7 @@ i
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

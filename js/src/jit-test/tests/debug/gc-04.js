@@ -2,7 +2,7 @@
 /
 Storing
 a
-Debug
+Debugger
 .
 Object
 as
@@ -49,7 +49,7 @@ N
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

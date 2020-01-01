@@ -9,7 +9,7 @@ object
 get
 the
 same
-Debug
+Debugger
 .
 Object
 wrapper
@@ -29,7 +29,7 @@ compartment
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

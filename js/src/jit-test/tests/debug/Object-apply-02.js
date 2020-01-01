@@ -5,7 +5,7 @@ calling
 native
 functions
 via
-Debug
+Debugger
 .
 Object
 .
@@ -57,7 +57,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )

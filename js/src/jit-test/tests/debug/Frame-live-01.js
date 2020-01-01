@@ -8,7 +8,7 @@ test
 debug
 /
 /
-Debug
+Debugger
 .
 Frame
 .
@@ -38,7 +38,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-Debug
+Debugger
 .
 Frame
 .
@@ -138,7 +138,7 @@ a
 var
 dbg
 =
-Debug
+Debugger
 (
 debuggeeGlobal
 )

@@ -1,6 +1,6 @@
 /
 /
-Debug
+Debugger
 hooks
 fire
 based
@@ -90,7 +90,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 ;
 dbg
 .

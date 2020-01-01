@@ -4,7 +4,7 @@ simplest
 possible
 test
 of
-Debug
+Debugger
 .
 Frame
 .
@@ -27,7 +27,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )

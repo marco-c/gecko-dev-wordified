@@ -2,7 +2,7 @@
 /
 Referents
 of
-Debug
+Debugger
 .
 Objects
 in
@@ -30,7 +30,7 @@ compartment
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

@@ -9440,7 +9440,7 @@ debugHooks
 destroyScriptHookData
 )
 ;
-Debug
+Debugger
 :
 :
 onDestroyScript

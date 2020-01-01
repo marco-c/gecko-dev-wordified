@@ -34327,7 +34327,7 @@ NULL
 if
 (
 !
-JS_DefineDebugObject
+JS_DefineDebuggerObject
 (
 cx
 glob

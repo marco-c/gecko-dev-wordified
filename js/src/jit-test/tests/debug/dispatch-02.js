@@ -2,7 +2,7 @@
 /
 Disabling
 a
-Debug
+Debugger
 object
 causes
 events
@@ -69,7 +69,7 @@ i
 ]
 =
 new
-Debug
+Debugger
 (
 g
 )

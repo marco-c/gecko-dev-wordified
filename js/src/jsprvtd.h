@@ -1126,7 +1126,7 @@ class
 BreakpointSite
 ;
 class
-Debug
+Debugger
 ;
 typedef
 HashMap

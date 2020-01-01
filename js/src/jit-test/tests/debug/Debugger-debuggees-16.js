@@ -85,7 +85,7 @@ compartment
 var
 dbg
 =
-Debug
+Debugger
 (
 g1
 )
@@ -155,7 +155,7 @@ f
 /
 Root
 the
-Debug
+Debugger
 objects
 and
 non

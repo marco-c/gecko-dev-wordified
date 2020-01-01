@@ -1,6 +1,6 @@
 /
 /
-Debug
+Debugger
 .
 Object
 referents
@@ -51,7 +51,7 @@ b
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

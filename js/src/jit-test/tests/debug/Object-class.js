@@ -3,7 +3,7 @@
 Basic
 tests
 for
-Debug
+Debugger
 .
 Object
 .
@@ -27,7 +27,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )

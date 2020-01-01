@@ -13,7 +13,7 @@ that
 we
 create
 new
-Debug
+Debugger
 .
 Frames
 and
@@ -88,7 +88,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 debuggeeGlobal
 )

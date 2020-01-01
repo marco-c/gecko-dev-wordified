@@ -2,7 +2,7 @@
 /
 A
 single
-Debug
+Debugger
 object
 can
 set
@@ -27,7 +27,7 @@ compartment
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

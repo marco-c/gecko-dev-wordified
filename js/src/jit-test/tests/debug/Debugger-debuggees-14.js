@@ -42,7 +42,7 @@ compartment
 var
 dbg1
 =
-Debug
+Debugger
 (
 g
 )
@@ -50,7 +50,7 @@ g
 var
 dbg2
 =
-Debug
+Debugger
 (
 )
 ;

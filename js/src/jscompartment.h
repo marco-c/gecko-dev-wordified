@@ -3493,7 +3493,7 @@ and
 disabled
 *
 by
-Debug
+Debugger
 objects
 .
 Therefore
@@ -3503,8 +3503,8 @@ the
 DebugFromC
 bit
 set
-if
 *
+if
 the
 C
 API
@@ -3518,8 +3518,8 @@ bit
 set
 if
 debuggees
-is
 *
+is
 nonempty
 .
 *
@@ -3721,7 +3721,7 @@ cx
 js
 :
 :
-Debug
+Debugger
 *
 dbg
 JSScript

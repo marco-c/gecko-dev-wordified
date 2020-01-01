@@ -1,7 +1,7 @@
 /
 /
 Multiple
-Debug
+Debugger
 objects
 can
 set
@@ -33,7 +33,7 @@ i
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

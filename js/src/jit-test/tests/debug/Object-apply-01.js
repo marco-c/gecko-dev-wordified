@@ -5,7 +5,7 @@ calling
 script
 functions
 via
-Debug
+Debugger
 .
 Object
 .
@@ -57,7 +57,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )
@@ -339,7 +339,7 @@ object
 but
 not
 a
-Debug
+Debugger
 .
 Object
 .

@@ -30,7 +30,7 @@ null
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

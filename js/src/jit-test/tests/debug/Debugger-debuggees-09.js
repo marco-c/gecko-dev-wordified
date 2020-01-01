@@ -39,7 +39,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 ;
 function
 check
@@ -196,7 +196,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 parent
 )

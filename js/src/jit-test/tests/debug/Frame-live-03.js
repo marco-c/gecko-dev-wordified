@@ -42,7 +42,7 @@ compartment
 var
 f
 ;
-Debug
+Debugger
 (
 g
 )
@@ -91,7 +91,7 @@ frame
 .
 older
 instanceof
-Debug
+Debugger
 .
 Frame
 true
@@ -103,7 +103,7 @@ frame
 .
 callee
 instanceof
-Debug
+Debugger
 .
 Object
 true

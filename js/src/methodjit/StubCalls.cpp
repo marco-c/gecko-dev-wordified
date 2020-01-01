@@ -7948,7 +7948,7 @@ JS_FASTCALL
 stubs
 :
 :
-Debugger
+DebuggerStatement
 (
 VMFrame
 &
@@ -8054,7 +8054,7 @@ JSTRAP_CONTINUE
 )
 st
 =
-Debug
+Debugger
 :
 :
 onDebuggerStatement
@@ -8374,7 +8374,7 @@ JSTRAP_TRAP
 )
 result
 =
-Debug
+Debugger
 :
 :
 onTrap

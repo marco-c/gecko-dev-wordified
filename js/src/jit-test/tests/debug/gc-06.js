@@ -1,6 +1,6 @@
 /
 /
-Debug
+Debugger
 objects
 do
 not
@@ -13,7 +13,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 ;
 for
 (

@@ -9,7 +9,7 @@ breakpoint
 from
 a
 different
-Debug
+Debugger
 object
 at
 the
@@ -118,7 +118,7 @@ i
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

@@ -41,7 +41,7 @@ compartment
 var
 dbg
 =
-Debug
+Debugger
 (
 )
 ;

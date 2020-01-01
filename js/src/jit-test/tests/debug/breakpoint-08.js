@@ -124,7 +124,7 @@ line0
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

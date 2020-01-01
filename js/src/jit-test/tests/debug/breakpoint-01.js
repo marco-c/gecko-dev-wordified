@@ -55,7 +55,7 @@ s
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

@@ -1,7 +1,7 @@
 /
 /
 A
-Debug
+Debugger
 object
 created
 with
@@ -16,7 +16,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 ;
 var
 debuggees

@@ -528,7 +528,7 @@ trapTypes
 ;
 void
 JS_FASTCALL
-Debugger
+DebuggerStatement
 (
 VMFrame
 &
@@ -1975,8 +1975,6 @@ IterNext
 VMFrame
 &
 f
-int32
-offset
 )
 ;
 JSBool

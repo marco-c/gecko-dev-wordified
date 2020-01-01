@@ -1,6 +1,6 @@
 /
 /
-Debug
+Debugger
 .
 Object
 .
@@ -22,7 +22,7 @@ compartment
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

@@ -1056,7 +1056,7 @@ hookData
 ;
 }
 }
-Debug
+Debugger
 :
 :
 leaveStackFrame

@@ -5,7 +5,7 @@ a
 property
 on
 a
-Debug
+Debugger
 .
 Object
 protects
@@ -46,7 +46,7 @@ N
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

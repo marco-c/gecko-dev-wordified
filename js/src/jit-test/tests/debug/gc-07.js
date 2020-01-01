@@ -6,7 +6,7 @@ t
 assert
 with
 dead
-Debug
+Debugger
 .
 Object
 and
@@ -50,7 +50,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 ;
 dbg
 .

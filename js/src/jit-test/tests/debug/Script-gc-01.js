@@ -8,7 +8,7 @@ test
 debug
 /
 /
-Debug
+Debugger
 .
 Script
 instances
@@ -39,7 +39,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )
@@ -65,7 +65,7 @@ frame
 .
 script
 instanceof
-Debug
+Debugger
 .
 Script
 true

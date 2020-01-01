@@ -30,7 +30,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 ;
 function
 check
@@ -132,7 +132,7 @@ ok
 /
 /
 A
-Debug
+Debugger
 .
 Object
 that
@@ -140,7 +140,7 @@ belongs
 to
 a
 different
-Debug
+Debugger
 object
 is
 invalid
@@ -161,7 +161,7 @@ var
 dbg2
 =
 new
-Debug
+Debugger
 ;
 var
 w
@@ -177,7 +177,7 @@ assertEq
 (
 w
 instanceof
-Debug
+Debugger
 .
 Object
 true

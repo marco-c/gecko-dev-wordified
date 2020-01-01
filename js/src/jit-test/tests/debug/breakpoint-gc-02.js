@@ -1,7 +1,7 @@
 /
 /
 A
-Debug
+Debugger
 with
 live
 breakpoints
@@ -102,7 +102,7 @@ i
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

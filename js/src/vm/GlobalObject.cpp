@@ -1477,7 +1477,7 @@ delete_
 GlobalObject
 :
 :
-DebugVector
+DebuggerVector
 *
 )
 obj
@@ -1511,7 +1511,7 @@ GlobalDebuggees_finalize
 GlobalObject
 :
 :
-DebugVector
+DebuggerVector
 *
 GlobalObject
 :
@@ -1556,7 +1556,7 @@ GlobalDebuggees_class
 ;
 return
 (
-DebugVector
+DebuggerVector
 *
 )
 debuggers
@@ -1573,7 +1573,7 @@ getPrivate
 GlobalObject
 :
 :
-DebugVector
+DebuggerVector
 *
 GlobalObject
 :
@@ -1591,7 +1591,7 @@ cx
 this
 )
 ;
-DebugVector
+DebuggerVector
 *
 vec
 =
@@ -1640,7 +1640,7 @@ cx
 >
 new_
 <
-DebugVector
+DebuggerVector
 >
 (
 )
@@ -1687,17 +1687,17 @@ bool
 GlobalObject
 :
 :
-addDebug
+addDebugger
 (
 JSContext
 *
 cx
-Debug
+Debugger
 *
 dbg
 )
 {
-DebugVector
+DebuggerVector
 *
 vec
 =
@@ -1719,7 +1719,7 @@ ifdef
 DEBUG
 for
 (
-Debug
+Debugger
 *
 *
 p

@@ -126,7 +126,7 @@ function
 )
 {
 new
-Debug
+Debugger
 (
 parent
 )

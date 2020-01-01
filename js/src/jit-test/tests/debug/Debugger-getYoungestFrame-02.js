@@ -2,7 +2,7 @@
 /
 Hooks
 and
-Debug
+Debugger
 .
 prototype
 .
@@ -28,7 +28,7 @@ compartment
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

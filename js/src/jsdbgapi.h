@@ -3879,7 +3879,7 @@ JS_PUBLIC_API
 (
 JSBool
 )
-JS_DefineDebugObject
+JS_DefineDebuggerObject
 (
 JSContext
 *

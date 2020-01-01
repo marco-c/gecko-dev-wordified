@@ -8,7 +8,7 @@ test
 debug
 /
 /
-Debug
+Debugger
 .
 Script
 throws
@@ -35,7 +35,7 @@ function
 (
 )
 {
-Debug
+Debugger
 .
 Script
 (
@@ -52,7 +52,7 @@ function
 )
 {
 new
-Debug
+Debugger
 .
 Script
 (

@@ -15,7 +15,7 @@ the
 same
 /
 /
-Debug
+Debugger
 .
 Frame
 object
@@ -47,7 +47,7 @@ frame
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

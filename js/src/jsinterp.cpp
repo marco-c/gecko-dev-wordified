@@ -28851,7 +28851,7 @@ rval
 JSTrapStatus
 status
 =
-Debug
+Debugger
 :
 :
 onTrap
@@ -35482,7 +35482,7 @@ JSTRAP_CONTINUE
 )
 st
 =
-Debug
+Debugger
 :
 :
 onDebuggerStatement
@@ -38529,7 +38529,7 @@ rval
 JSTrapStatus
 st
 =
-Debug
+Debugger
 :
 :
 onThrow

@@ -22,7 +22,7 @@ it
 must
 deliver
 different
-Debug
+Debugger
 .
 Frame
 objects
@@ -42,7 +42,7 @@ compartment
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

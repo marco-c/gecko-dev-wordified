@@ -59,7 +59,7 @@ function
 dbg
 =
 new
-Debug
+Debugger
 (
 debuggeeGlobal
 )
@@ -81,7 +81,7 @@ assertEq
 (
 frame
 instanceof
-Debug
+Debugger
 .
 Frame
 true
@@ -91,7 +91,7 @@ assertEq
 (
 exc
 instanceof
-Debug
+Debugger
 .
 Object
 true

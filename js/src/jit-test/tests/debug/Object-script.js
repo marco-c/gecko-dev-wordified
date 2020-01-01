@@ -22,7 +22,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )
@@ -60,7 +60,7 @@ arr
 .
 script
 instanceof
-Debug
+Debugger
 .
 Script
 true

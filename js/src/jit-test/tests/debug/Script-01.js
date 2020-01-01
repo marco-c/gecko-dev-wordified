@@ -12,7 +12,7 @@ We
 get
 the
 same
-Debug
+Debugger
 .
 Script
 object
@@ -70,7 +70,7 @@ var
 debug
 =
 new
-Debug
+Debugger
 (
 global
 )
@@ -190,7 +190,7 @@ both
 yield
 the
 same
-Debug
+Debugger
 .
 Script
 instance
@@ -283,7 +283,7 @@ should
 get
 a
 different
-Debug
+Debugger
 .
 Script
 .

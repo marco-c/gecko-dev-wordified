@@ -13964,10 +13964,10 @@ markCrossCompartmentWrappers
 gcmarker
 )
 ;
-Debug
+Debugger
 :
 :
-markCrossCompartmentDebugObjectReferents
+markCrossCompartmentDebuggerObjectReferents
 (
 &
 gcmarker
@@ -14022,7 +14022,7 @@ gcmarker
 )
 |
 |
-Debug
+Debugger
 :
 :
 mark
@@ -14453,7 +14453,7 @@ sweepShapeEnd
 }
 else
 {
-Debug
+Debugger
 :
 :
 sweepAll

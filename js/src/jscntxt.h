@@ -2899,7 +2899,7 @@ all
 js
 :
 :
-Debug
+Debugger
 objects
 .
 This

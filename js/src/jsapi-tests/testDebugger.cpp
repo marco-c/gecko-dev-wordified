@@ -836,12 +836,12 @@ testDebugger_getThisStrict
 )
 BEGIN_TEST
 (
-testDebugger_debugObjectVsDebugMode
+testDebugger_debuggerObjectVsDebugMode
 )
 {
 CHECK
 (
-JS_DefineDebugObject
+JS_DefineDebuggerObject
 (
 cx
 global
@@ -945,7 +945,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 debuggee
 )
@@ -1084,5 +1084,5 @@ true
 }
 END_TEST
 (
-testDebugger_debugObjectVsDebugMode
+testDebugger_debuggerObjectVsDebugMode
 )

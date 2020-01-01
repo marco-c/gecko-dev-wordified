@@ -3,13 +3,13 @@
 addDebuggee
 returns
 different
-Debug
+Debugger
 .
 Object
 wrappers
 for
 different
-Debug
+Debugger
 objects
 .
 var
@@ -28,7 +28,7 @@ var
 dbg1
 =
 new
-Debug
+Debugger
 ;
 var
 gw1
@@ -44,7 +44,7 @@ var
 dbg2
 =
 new
-Debug
+Debugger
 ;
 var
 gw2

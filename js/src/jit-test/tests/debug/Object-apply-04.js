@@ -1,6 +1,6 @@
 /
 /
-Debug
+Debugger
 .
 Object
 .
@@ -44,7 +44,7 @@ debugger
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

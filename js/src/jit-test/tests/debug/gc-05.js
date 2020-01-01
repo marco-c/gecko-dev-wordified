@@ -2,7 +2,7 @@
 /
 If
 a
-Debug
+Debugger
 survives
 its
 debuggee
@@ -82,7 +82,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g1
 )
@@ -265,7 +265,7 @@ coincidence
 will
 cause
 a
-Debug
+Debugger
 .
 Object
 to
@@ -318,7 +318,7 @@ assertEq
 (
 obj
 instanceof
-Debug
+Debugger
 .
 Object
 true

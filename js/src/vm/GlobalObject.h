@@ -1231,7 +1231,7 @@ Vector
 js
 :
 :
-Debug
+Debugger
 *
 0
 js
@@ -1239,7 +1239,7 @@ js
 :
 SystemAllocPolicy
 >
-DebugVector
+DebuggerVector
 ;
 /
 /
@@ -1270,7 +1270,7 @@ an
 empty
 vector
 .
-DebugVector
+DebuggerVector
 *
 getDebuggers
 (
@@ -1300,7 +1300,7 @@ only
 on
 OOM
 .
-DebugVector
+DebuggerVector
 *
 getOrCreateDebuggers
 (
@@ -1310,12 +1310,12 @@ cx
 )
 ;
 bool
-addDebug
+addDebugger
 (
 JSContext
 *
 cx
-Debug
+Debugger
 *
 dbg
 )

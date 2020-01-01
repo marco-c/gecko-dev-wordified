@@ -1,6 +1,6 @@
 /
 /
-Debug
+Debugger
 .
 Scripts
 keep
@@ -23,7 +23,7 @@ compartment
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

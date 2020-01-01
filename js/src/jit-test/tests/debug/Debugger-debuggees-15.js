@@ -1,6 +1,6 @@
 /
 /
-Debug
+Debugger
 mode
 can
 be
@@ -30,7 +30,7 @@ compartment
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

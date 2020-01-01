@@ -11,7 +11,7 @@ debug
 Test
 creating
 a
-Debug
+Debugger
 in
 a
 sandbox
@@ -97,7 +97,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 debuggeeGlobal
 )
@@ -114,7 +114,7 @@ eval
 "
 dbg
 instanceof
-Debug
+Debugger
 "
 )
 true
@@ -123,7 +123,7 @@ true
 /
 /
 The
-Debug
+Debugger
 constructor
 from
 this
@@ -169,7 +169,7 @@ eval
 "
 parent
 .
-Debug
+Debugger
 (
 parent
 .

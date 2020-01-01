@@ -20,7 +20,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )
@@ -38,7 +38,7 @@ assertEq
 (
 s
 instanceof
-Debug
+Debugger
 .
 Script
 true

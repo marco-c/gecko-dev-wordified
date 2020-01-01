@@ -5,7 +5,7 @@ that
 on
 -
 stack
-Debug
+Debugger
 .
 Frames
 are
@@ -26,7 +26,7 @@ the
 js
 :
 :
-Debug
+Debugger
 :
 :
 frames
@@ -76,7 +76,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )

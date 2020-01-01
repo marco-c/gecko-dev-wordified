@@ -4,7 +4,7 @@ Different
 objects
 get
 different
-Debug
+Debugger
 .
 Object
 wrappers
@@ -24,7 +24,7 @@ compartment
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

@@ -115,7 +115,7 @@ handlers
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

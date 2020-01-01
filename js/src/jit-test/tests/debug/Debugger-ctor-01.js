@@ -11,7 +11,7 @@ js
 ;
 /
 /
-Debug
+Debugger
 rejects
 arguments
 that
@@ -29,7 +29,7 @@ function
 (
 )
 {
-Debug
+Debugger
 (
 null
 )
@@ -44,7 +44,7 @@ function
 (
 )
 {
-Debug
+Debugger
 (
 true
 )
@@ -59,7 +59,7 @@ function
 (
 )
 {
-Debug
+Debugger
 (
 42
 )
@@ -74,7 +74,7 @@ function
 (
 )
 {
-Debug
+Debugger
 (
 "
 bad
@@ -91,7 +91,7 @@ function
 (
 )
 {
-Debug
+Debugger
 (
 function
 (
@@ -110,7 +110,7 @@ function
 (
 )
 {
-Debug
+Debugger
 (
 this
 )
@@ -126,7 +126,7 @@ function
 )
 {
 new
-Debug
+Debugger
 (
 null
 )
@@ -142,7 +142,7 @@ function
 )
 {
 new
-Debug
+Debugger
 (
 true
 )
@@ -158,7 +158,7 @@ function
 )
 {
 new
-Debug
+Debugger
 (
 42
 )
@@ -174,7 +174,7 @@ function
 )
 {
 new
-Debug
+Debugger
 (
 "
 bad
@@ -192,7 +192,7 @@ function
 )
 {
 new
-Debug
+Debugger
 (
 function
 (
@@ -212,7 +212,7 @@ function
 )
 {
 new
-Debug
+Debugger
 (
 this
 )
@@ -229,7 +229,7 @@ main
 compartment
 creating
 a
-Debug
+Debugger
 on
 a
 sandbox
@@ -251,7 +251,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )
@@ -260,7 +260,7 @@ assertEq
 (
 dbg
 instanceof
-Debug
+Debugger
 true
 )
 ;
@@ -272,7 +272,7 @@ getPrototypeOf
 (
 dbg
 )
-Debug
+Debugger
 .
 prototype
 )
