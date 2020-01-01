@@ -4526,7 +4526,7 @@ toFunction
 )
 -
 >
-script
+nonLazyScript
 (
 )
 -
@@ -12129,9 +12129,6 @@ enclosingScriptsCompiledSuccessfully
 )
 const
 {
-AutoAssertNoGC
-nogc
-;
 /
 *
 *
@@ -12232,13 +12229,8 @@ if
 fun
 -
 >
-script
+hasScript
 (
-)
-.
-get
-(
-nogc
 )
 )
 return
@@ -12249,7 +12241,7 @@ enclosing
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 -
@@ -14390,7 +14382,7 @@ ssi
 innerFun
 -
 >
-script
+nonLazyScript
 (
 )
 -
