@@ -2528,6 +2528,9 @@ mBookmarkIndex
 PRInt64
 mItemId
 ;
+PRInt64
+mFolderId
+;
 PRTime
 mDateAdded
 ;
