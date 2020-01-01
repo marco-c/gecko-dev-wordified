@@ -5822,6 +5822,13 @@ fp
 isConstructing
 (
 )
+/
+*
+newType
+=
+*
+/
+false
 )
 ;
 }

@@ -2304,6 +2304,8 @@ prologue
 JSContext
 *
 cx
+bool
+newType
 )
 {
 RootedScript
@@ -2494,9 +2496,7 @@ CreateThisForFunction
 (
 cx
 callee
-useNewType
-(
-)
+newType
 )
 ;
 if
