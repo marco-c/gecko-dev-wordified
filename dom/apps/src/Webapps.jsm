@@ -6547,6 +6547,11 @@ origin
 app
 .
 origin
+downloadSize
+:
+app
+.
+downloadSize
 }
 isUpdate
 function
