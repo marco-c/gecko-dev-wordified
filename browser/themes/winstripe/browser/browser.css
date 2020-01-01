@@ -15841,8 +15841,6 @@ identity
 -
 box
 {
-/
-*
 cursor
 :
 help
@@ -15853,8 +15851,6 @@ color
 :
 ThreeDFace
 ;
-*
-/
 %
 ifdef
 MOZ_WIDGET_GTK2
@@ -15887,8 +15883,6 @@ ThreeDShadow
 %
 endif
 }
-/
-*
 #
 identity
 -
@@ -15979,8 +15973,6 @@ display
 none
 ;
 }
-*
-/
 /
 *
 Popup
