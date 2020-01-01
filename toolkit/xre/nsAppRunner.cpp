@@ -4454,8 +4454,6 @@ NS_ERROR_NOT_IMPLEMENTED
 #
 endif
 }
-#
-endif
 NS_IMETHODIMP
 nsXULAppInfo
 :
@@ -4487,6 +4485,8 @@ NS_ERROR_NOT_IMPLEMENTED
 #
 endif
 }
+#
+endif
 static
 const
 nsXULAppInfo
