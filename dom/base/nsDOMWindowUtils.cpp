@@ -10937,7 +10937,7 @@ i
 ;
 #
 ifndef
-ANDROID
+MOZ_WIDGET_GONK
 (
 *
 paintTimes
@@ -10958,11 +10958,11 @@ else
 Waiting
 for
 bug
-785597
+830475
 to
 work
 on
-android
+B2G
 .
 (
 *
