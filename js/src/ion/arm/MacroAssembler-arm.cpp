@@ -12786,12 +12786,12 @@ address
 move32
 (
 src
-ScratchRegister
+secondScratchReg_
 )
 ;
 storePtr
 (
-ScratchRegister
+secondScratchReg_
 address
 )
 ;
