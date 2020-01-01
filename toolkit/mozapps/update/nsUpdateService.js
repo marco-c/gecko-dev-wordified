@@ -1056,13 +1056,8 @@ GreD
 ifdef
 XP_WIN
 #
-ifndef
-WINCE
-#
 define
 USE_UPDROOT
-#
-endif
 #
 elifdef
 ANDROID
@@ -1804,9 +1799,6 @@ false
 #
 ifdef
 XP_WIN
-#
-ifndef
-WINCE
 var
 sysInfo
 =
@@ -2458,11 +2450,6 @@ false
 )
 ;
 }
-#
-endif
-/
-/
-WINCE
 #
 endif
 /

@@ -2488,9 +2488,6 @@ e
 #
 ifdef
 XP_WIN
-#
-ifndef
-WINCE
 /
 /
 On
@@ -2579,8 +2576,6 @@ ex
 )
 {
 }
-#
-endif
 #
 endif
 if
@@ -3859,9 +3854,6 @@ false
 #
 ifdef
 XP_WIN
-#
-ifndef
-WINCE
 let
 tempScope
 =
@@ -3897,8 +3889,6 @@ onDownloadWindowLoad
 window
 )
 ;
-#
-endif
 #
 endif
 }

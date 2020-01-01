@@ -607,9 +607,6 @@ moz
 -
 Dialog
 ;
-%
-ifndef
-WINCE
 border
 -
 top
@@ -629,8 +626,6 @@ colors
 ThreeDShadow
 ThreeDHighlight
 ;
-%
-endif
 }
 /
 *

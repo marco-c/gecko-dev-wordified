@@ -1250,9 +1250,6 @@ if
 (
 !
 IS_WIN
-|
-|
-IS_WINCE
 )
 {
 logTestInfo
