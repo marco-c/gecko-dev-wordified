@@ -958,6 +958,13 @@ index
 )
 EDITOR_ATOM
 (
+datalist
+"
+datalist
+"
+)
+EDITOR_ATOM
+(
 dd
 "
 dd
