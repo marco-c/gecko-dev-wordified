@@ -5203,6 +5203,9 @@ method
 "
 GET
 "
+body
+:
+null
 panels
 :
 [
