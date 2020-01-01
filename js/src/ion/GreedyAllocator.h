@@ -1874,17 +1874,6 @@ vr
 )
 ;
 bool
-allocateWritableOperand
-(
-LAllocation
-*
-a
-VirtualRegister
-*
-vr
-)
-;
-bool
 prescanDefinition
 (
 LDefinition
