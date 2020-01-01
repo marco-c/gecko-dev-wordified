@@ -1969,9 +1969,6 @@ mFilter
 gfxIntSize
 mScaleToSize
 ;
-ImageLayer
-:
-:
 ScaleMode
 mScaleMode
 ;

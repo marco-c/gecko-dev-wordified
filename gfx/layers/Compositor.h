@@ -128,13 +128,6 @@ h
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 mozilla
 /
 RefPtr
@@ -149,6 +142,13 @@ mozilla
 layers
 /
 CompositorTypes
+.
+h
+"
+#
+include
+"
+Units
 .
 h
 "

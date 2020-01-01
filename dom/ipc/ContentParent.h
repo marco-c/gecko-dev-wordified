@@ -360,6 +360,9 @@ namespace
 dom
 {
 class
+Element
+;
+class
 TabParent
 ;
 class
