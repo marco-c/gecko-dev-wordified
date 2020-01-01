@@ -226,12 +226,6 @@ GetInstance
 )
 ;
 static
-bool
-isActive
-(
-)
-;
-static
 void
 Destroy
 (
