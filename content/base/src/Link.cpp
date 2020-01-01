@@ -111,6 +111,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
+#
+include
+"
 nsEventStates
 .
 h
