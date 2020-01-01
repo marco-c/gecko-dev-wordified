@@ -2268,6 +2268,11 @@ endObject
 (
 )
 ;
+fflush
+(
+fp_
+)
+;
 }
 void
 JSONSpewer
@@ -2283,6 +2288,11 @@ endList
 ;
 endObject
 (
+)
+;
+fflush
+(
+fp_
 )
 ;
 }
@@ -2316,6 +2326,11 @@ fp_
 \
 n
 "
+)
+;
+fflush
+(
+fp_
 )
 ;
 }
