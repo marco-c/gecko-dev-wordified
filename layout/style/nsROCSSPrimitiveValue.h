@@ -365,10 +365,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
-<
 nsDOMCSSRect
->
+*
 GetRectValue
 (
 mozilla
