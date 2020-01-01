@@ -5790,11 +5790,10 @@ proto
 return
 NULL
 ;
-OBJ_SET_PROTO
+OBJ_CLEAR_PROTO
 (
 cx
 proto
-NULL
 )
 ;
 return
