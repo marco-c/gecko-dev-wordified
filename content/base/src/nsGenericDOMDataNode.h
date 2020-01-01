@@ -1448,6 +1448,12 @@ nsAString
 aResult
 )
 ;
+virtual
+void
+DestroyContent
+(
+)
+;
 #
 ifdef
 DEBUG
