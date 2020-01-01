@@ -16693,7 +16693,6 @@ accService
 NS_ERROR_FAILURE
 )
 ;
-return
 accService
 -
 >
@@ -16706,7 +16705,7 @@ aRelated
 ;
 }
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 }
 NS_IMETHODIMP

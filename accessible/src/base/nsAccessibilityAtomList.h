@@ -911,6 +911,13 @@ label
 )
 ACCESSIBILITY_ATOM
 (
+legend
+"
+legend
+"
+)
+ACCESSIBILITY_ATOM
+(
 li
 "
 li
