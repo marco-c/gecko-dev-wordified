@@ -760,14 +760,9 @@ _msg
 let
 strings
 =
-document
+Elements
 .
-getElementById
-(
-"
-bundle_browser
-"
-)
+browserBundle
 ;
 this
 .

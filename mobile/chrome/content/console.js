@@ -514,14 +514,9 @@ this
 .
 _bundle
 =
-document
+Elements
 .
-getElementById
-(
-"
-bundle_browser
-"
-)
+browserBundle
 ;
 this
 .
