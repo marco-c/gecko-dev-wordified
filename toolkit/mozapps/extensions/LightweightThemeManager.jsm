@@ -2814,6 +2814,17 @@ return
 true
 ;
 }
+get
+scope
+(
+)
+{
+return
+AddonManager
+.
+SCOPE_PROFILE
+;
+}
 /
 /
 Lightweight
