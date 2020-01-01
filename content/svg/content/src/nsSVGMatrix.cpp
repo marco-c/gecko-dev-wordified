@@ -2034,12 +2034,6 @@ angle
 radPerDegree
 )
 ;
-NS_ENSURE_FINITE
-(
-ta
-NS_ERROR_DOM_SVG_INVALID_VALUE_ERR
-)
-;
 return
 NS_NewSVGMatrix
 (
@@ -2111,12 +2105,6 @@ tan
 angle
 *
 radPerDegree
-)
-;
-NS_ENSURE_FINITE
-(
-ta
-NS_ERROR_DOM_SVG_INVALID_VALUE_ERR
 )
 ;
 return
