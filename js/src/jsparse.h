@@ -2761,10 +2761,7 @@ cg
 )
 defs
 (
-ContextAllocPolicy
-(
 cx
-)
 )
 {
 }
@@ -2958,7 +2955,6 @@ Vector
 <
 GlobalDef
 16
-ContextAllocPolicy
 >
 defs
 ;

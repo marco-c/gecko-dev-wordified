@@ -489,6 +489,13 @@ h
 #
 include
 "
+jsalloc
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h

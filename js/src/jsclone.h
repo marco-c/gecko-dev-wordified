@@ -1306,6 +1306,7 @@ elements
 as
 objs
 .
+typedef
 js
 :
 :
@@ -1314,6 +1315,9 @@ HashSet
 JSObject
 *
 >
+MemorySet
+;
+MemorySet
 memory
 ;
 /
