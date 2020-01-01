@@ -9004,6 +9004,9 @@ ComputeVisibilityForSublist
 nsDisplayListBuilder
 *
 aBuilder
+nsDisplayItem
+*
+aForItem
 nsRegion
 *
 aVisibleRegion
