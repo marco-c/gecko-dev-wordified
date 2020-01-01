@@ -693,6 +693,12 @@ bin
         
 self
 .
+instance
+=
+None
+        
+self
+.
 profile
 =
 profile
