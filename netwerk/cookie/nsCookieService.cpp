@@ -12517,7 +12517,7 @@ PR_TRUE
 }
 nsCOMPtr
 <
-mozIStorageStatement
+mozIStorageAsyncStatement
 >
 stmt
 ;
@@ -12530,7 +12530,7 @@ mDefaultDBState
 dbConn
 -
 >
-CreateStatement
+CreateAsyncStatement
 (
 NS_LITERAL_CSTRING
 (
@@ -13499,7 +13499,7 @@ why
 .
 nsCOMPtr
 <
-mozIStorageStatement
+mozIStorageAsyncStatement
 >
 stmtRead
 ;
@@ -13512,7 +13512,7 @@ mDefaultDBState
 dbConn
 -
 >
-CreateStatement
+CreateAsyncStatement
 (
 NS_LITERAL_CSTRING
 (
@@ -13635,7 +13635,7 @@ downgrading
 )
 nsCOMPtr
 <
-mozIStorageStatement
+mozIStorageAsyncStatement
 >
 stmtDeleteNull
 ;
@@ -13647,7 +13647,7 @@ mDefaultDBState
 dbConn
 -
 >
-CreateStatement
+CreateAsyncStatement
 (
 NS_LITERAL_CSTRING
 (

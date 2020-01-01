@@ -4356,7 +4356,7 @@ aClause
 nsresult
 BindQueryClauseParameters
 (
-mozIStorageStatement
+mozIStorageBaseStatement
 *
 statement
 PRInt32
