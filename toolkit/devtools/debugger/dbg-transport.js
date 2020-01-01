@@ -192,7 +192,7 @@ stream
 *
 param
 aOutput
-nsIOutputStream
+nsIAsyncOutputStream
 *
 The
 output
@@ -1498,9 +1498,7 @@ Avoid
 the
 cost
 of
-JSON
-.
-stringify
+uneval
 (
 )
 when
@@ -1520,13 +1518,9 @@ Got
 :
 "
 +
-JSON
-.
-stringify
+uneval
 (
 aPacket
-null
-2
 )
 )
 ;
