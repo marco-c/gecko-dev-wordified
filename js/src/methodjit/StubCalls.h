@@ -1109,8 +1109,9 @@ DefFun
 VMFrame
 &
 f
-uint32
-index
+JSFunction
+*
+fun
 )
 ;
 JSObject
