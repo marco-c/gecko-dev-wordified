@@ -492,8 +492,7 @@ virtual
 bool
 inObjectIsDenseArray
 (
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -636,8 +635,7 @@ virtual
 bool
 elementWriteIsDenseArray
 (
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -687,8 +685,7 @@ virtual
 bool
 propertyWriteCanSpecialize
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1472,8 +1469,7 @@ pc
 bool
 inObjectIsDenseArray
 (
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -1558,8 +1554,7 @@ monitorResult
 bool
 elementWriteIsDenseArray
 (
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -1605,8 +1600,7 @@ pc
 bool
 propertyWriteCanSpecialize
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
