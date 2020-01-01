@@ -106,7 +106,7 @@ function
 {
 let
 {
-devtools
+TargetFactory
 }
 =
 Cu
@@ -123,7 +123,7 @@ modules
 /
 devtools
 /
-gDevTools
+Target
 .
 jsm
 "
@@ -134,8 +134,6 @@ jsm
 let
 target
 =
-devtools
-.
 TargetFactory
 .
 forTab
