@@ -586,6 +586,12 @@ void
 )
 widgetDestroyed
 ;
+-
+(
+BOOL
+)
+isDragInProgress
+;
 end
 /
 /
