@@ -1750,6 +1750,13 @@ options
 .
 testingModulesDir
         
+self
+.
+env
+=
+{
+}
+        
 if
 self
 .
@@ -2046,10 +2053,11 @@ def
 setLD_LIBRARY_PATH
 (
 self
-env
 )
 :
         
+self
+.
 env
 [
 "
@@ -2335,13 +2343,6 @@ self
         
 self
 .
-env
-=
-{
-}
-        
-self
-.
 buildCoreEnvironment
 (
 )
@@ -2350,9 +2351,6 @@ self
 .
 setLD_LIBRARY_PATH
 (
-self
-.
-env
 )
         
 self
@@ -3108,6 +3106,10 @@ self
 )
 :
         
+pushed_libs_count
+=
+0
+        
 if
 self
 .
@@ -3366,6 +3368,11 @@ filename
 )
 remoteFile
 )
+                        
+pushed_libs_count
++
+=
+1
             
 finally
 :
@@ -3378,6 +3385,7 @@ dir
 )
             
 return
+pushed_libs_count
         
 for
 file
@@ -3479,6 +3487,11 @@ file
 )
 remoteFile
 )
+                
+pushed_libs_count
++
+=
+1
         
 #
 Additional
@@ -3604,6 +3617,14 @@ file
 )
 remoteFile
 )
+                        
+pushed_libs_count
++
+=
+1
+        
+return
+pushed_libs_count
     
 def
 setupModules
