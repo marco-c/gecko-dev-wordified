@@ -4386,6 +4386,16 @@ parentItem
 )
 )
 ;
+if
+(
+!
+parentItem
+)
+{
+return
+NS_OK
+;
+}
 PRInt32
 parentType
 ;
