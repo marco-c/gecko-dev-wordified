@@ -2587,7 +2587,7 @@ select
 )
 *
 /
-nsresult
+void
 InsertOptionsIntoList
 (
 nsIContent
@@ -2734,7 +2734,7 @@ select
 )
 *
 /
-nsresult
+void
 InsertOptionsIntoListRecurse
 (
 nsIContent
