@@ -658,6 +658,7 @@ null
 createInstance
 :
 function
+BGSF_createInstance
 (
 outer
 iid
@@ -985,6 +986,7 @@ false
 _setPrefToSaveSession
 :
 function
+BG__setPrefToSaveSession
 (
 aForce
 )
@@ -1085,6 +1087,7 @@ implementation
 observe
 :
 function
+BG_observe
 (
 subject
 topic
@@ -1640,6 +1643,7 @@ startup
 _init
 :
 function
+BG__init
 (
 )
 {
@@ -1883,6 +1887,7 @@ shutdown
 _dispose
 :
 function
+BG__dispose
 (
 )
 {
@@ -2106,6 +2111,7 @@ locked
 _onAppDefaults
 :
 function
+BG__onAppDefaults
 (
 )
 {
@@ -2150,6 +2156,7 @@ routines
 _onProfileStartup
 :
 function
+BG__onProfileStartup
 (
 )
 {
@@ -2460,6 +2467,7 @@ routines
 _onProfileShutdown
 :
 function
+BG__onProfileShutdown
 (
 )
 {
@@ -2625,6 +2633,7 @@ opened
 _onBrowserStartup
 :
 function
+BG__onBrowserStartup
 (
 )
 {
@@ -3092,6 +3101,7 @@ endif
 _onQuitRequest
 :
 function
+BG__onQuitRequest
 (
 aCancelQuit
 aQuitType
@@ -4010,6 +4020,7 @@ it
 _shouldShowRights
 :
 function
+BG__shouldShowRights
 (
 )
 {
@@ -4280,6 +4291,7 @@ true
 _showRightsNotification
 :
 function
+BG__showRightsNotification
 (
 )
 {
@@ -4567,6 +4579,7 @@ bit
 _showPluginUpdatePage
 :
 function
+BG__showPluginUpdatePage
 (
 )
 {
@@ -4801,7 +4814,7 @@ bookmarks
 _initPlaces
 :
 function
-bg__initPlaces
+BG__initPlaces
 (
 )
 {
@@ -5946,7 +5959,7 @@ called
 _shutdownPlaces
 :
 function
-bg__shutdownPlaces
+BG__shutdownPlaces
 (
 )
 {
@@ -6068,7 +6081,7 @@ needed
 _backupBookmarks
 :
 function
-nsBrowserGlue__backupBookmarks
+BG__backupBookmarks
 (
 )
 {
@@ -6219,7 +6232,7 @@ database
 _showPlacesLockedNotificationBox
 :
 function
-nsBrowserGlue__showPlacesLockedNotificationBox
+BG__showPlacesLockedNotificationBox
 (
 )
 {
@@ -6487,7 +6500,7 @@ it
 _migrateUI
 :
 function
-bg__migrateUI
+BG__migrateUI
 (
 )
 {
@@ -6931,7 +6944,7 @@ version
 _getPersist
 :
 function
-bg__getPersist
+BG__getPersist
 (
 aSource
 aProperty
@@ -6971,7 +6984,7 @@ null
 _setPersist
 :
 function
-bg__setPersist
+BG__setPersist
 (
 aSource
 aProperty
@@ -7143,6 +7156,7 @@ members
 sanitize
 :
 function
+BG_sanitize
 (
 aParentWindow
 )
@@ -7160,6 +7174,7 @@ aParentWindow
 ensurePlacesDefaultQueriesInitialized
 :
 function
+BG_ensurePlacesDefaultQueriesInitialized
 (
 )
 {
@@ -7427,6 +7442,7 @@ callback
 _uri
 :
 function
+BG_EPDQI__uri
 (
 aSpec
 )
@@ -7467,6 +7483,7 @@ null
 runBatched
 :
 function
+BG_EPDQI_runBatched
 (
 )
 {
@@ -8310,6 +8327,7 @@ window
 getMostRecentBrowserWindow
 :
 function
+BG_getMostRecentBrowserWindow
 (
 )
 {
@@ -8726,6 +8744,7 @@ nsIGeolocationPrompt
 prompt
 :
 function
+GP_prompt
 (
 request
 )
