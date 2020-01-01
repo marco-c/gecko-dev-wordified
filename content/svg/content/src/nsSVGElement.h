@@ -765,16 +765,6 @@ aFlags
 )
 const
 ;
-virtual
-already_AddRefed
-<
-nsIURI
->
-GetBaseURI
-(
-)
-const
-;
 NS_IMETHOD
 WalkContentStyleRules
 (
