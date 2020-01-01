@@ -21981,7 +21981,7 @@ QueryInterface
 (
 Ci
 .
-nsISHistory_2_0_BRANCH
+nsISHistory
 )
 .
 reloadCurrentEntry
