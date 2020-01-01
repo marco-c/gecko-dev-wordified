@@ -991,6 +991,13 @@ bool
 aValue
 )
 ;
+virtual
+nsEventStates
+IntrinsicState
+(
+)
+const
+;
 /
 /
 nsIContent
