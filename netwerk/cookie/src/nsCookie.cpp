@@ -1093,6 +1093,8 @@ aPath
 PRInt64
 aExpiry
 PRInt64
+aLastAccessed
+PRInt64
 aCreationID
 PRBool
 aIsSession
@@ -1322,6 +1324,7 @@ host
 path
 end
 aExpiry
+aLastAccessed
 aCreationID
 aIsSession
 aIsSecure
