@@ -334,8 +334,7 @@ const
 Value
 &
 v
-jsid
-*
+MutableHandleId
 idp
 )
 {
@@ -358,12 +357,14 @@ i
 )
 )
 {
-*
 idp
-=
+.
+set
+(
 INT_TO_JSID
 (
 i
+)
 )
 ;
 return
@@ -377,6 +378,10 @@ cx
 obj
 v
 idp
+.
+address
+(
+)
 )
 ;
 }
@@ -391,8 +396,7 @@ const
 Value
 &
 v
-jsid
-*
+MutableHandleId
 idp
 )
 {
