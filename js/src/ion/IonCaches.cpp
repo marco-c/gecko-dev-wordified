@@ -6128,7 +6128,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 /
@@ -12056,7 +12056,7 @@ JSHandleId
 id
 JSBool
 strict
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 ;

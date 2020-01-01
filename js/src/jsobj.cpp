@@ -30988,7 +30988,7 @@ JSHandleObject
 obj
 JSIterateOp
 enum_op
-JSMutableHandleValue
+MutableHandleValue
 statep
 JS
 :
@@ -32689,7 +32689,7 @@ JSHandleId
 id
 JSBool
 strict
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {

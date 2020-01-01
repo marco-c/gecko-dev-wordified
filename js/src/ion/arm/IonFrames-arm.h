@@ -1822,7 +1822,7 @@ id_
 /
 space
 for
-JSMutableHandleValue
+MutableHandleValue
 result
 /
 /
@@ -2020,7 +2020,7 @@ id_
 /
 space
 for
-JSMutableHandleValue
+MutableHandleValue
 result
 /
 /

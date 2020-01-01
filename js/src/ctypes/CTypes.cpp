@@ -1203,7 +1203,7 @@ JSContext
 cx
 JSHandleObject
 obj
-JSMutableHandleValue
+MutableHandleValue
 v
 JSBool
 *
@@ -25480,7 +25480,7 @@ JSContext
 cx
 JSHandleObject
 obj
-JSMutableHandleValue
+MutableHandleValue
 v
 JSBool
 *
