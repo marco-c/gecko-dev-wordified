@@ -750,6 +750,11 @@ mViewport
 0
 0
 )
+mContentSize
+(
+0
+0
+)
 mViewportScrollOffset
 (
 0
@@ -864,6 +869,9 @@ NULL_SCROLL_ID
 }
 nsIntRect
 mViewport
+;
+nsIntSize
+mContentSize
 ;
 nsIntPoint
 mViewportScrollOffset
