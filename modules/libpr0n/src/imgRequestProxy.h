@@ -1066,6 +1066,9 @@ mLoadGroup
 nsLoadFlags
 mLoadFlags
 ;
+PRUint32
+mLocksHeld
+;
 PRPackedBool
 mCanceled
 ;
@@ -1076,10 +1079,7 @@ PRPackedBool
 mListenerIsStrongRef
 ;
 PRPackedBool
-mShouldRequestDecode
-;
-PRPackedBool
-mLockHeld
+mDecodeRequested
 ;
 }
 ;
