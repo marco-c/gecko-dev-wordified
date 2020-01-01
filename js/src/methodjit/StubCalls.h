@@ -1437,6 +1437,15 @@ JSAtom
 atom
 )
 ;
+JSBool
+JS_FASTCALL
+In
+(
+VMFrame
+&
+f
+)
+;
 void
 JS_FASTCALL
 DefVar
