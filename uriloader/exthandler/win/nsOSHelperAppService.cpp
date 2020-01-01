@@ -1331,7 +1331,7 @@ err
 =
 :
 :
-RegOpenKeyEx
+RegOpenKeyExA
 (
 HKEY_CLASSES_ROOT
 aProtocolScheme
@@ -1353,9 +1353,10 @@ err
 =
 :
 :
-RegQueryValueEx
+RegQueryValueExW
 (
 hKey
+L
 "
 URL
 Protocol
