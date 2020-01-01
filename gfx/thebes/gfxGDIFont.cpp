@@ -905,8 +905,6 @@ PRUint32
 aRunLength
 PRInt32
 aRunScript
-PRBool
-aPreferPlatformShaping
 )
 {
 if
