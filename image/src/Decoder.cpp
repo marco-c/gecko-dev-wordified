@@ -860,10 +860,6 @@ mFrameCount
 mInvalidRect
 )
 ;
-/
-/
-Fire
-OnDataAvailable
 if
 (
 mObserver
@@ -955,7 +951,7 @@ endif
 mObserver
 -
 >
-OnDataAvailable
+FrameChanged
 (
 &
 mInvalidRect
