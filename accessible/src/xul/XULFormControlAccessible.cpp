@@ -5297,11 +5297,10 @@ aDoc
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED3
+NS_IMPL_ISUPPORTS_INHERITED2
 (
 XULTextFieldAccessible
 Accessible
-HyperTextAccessible
 nsIAccessibleText
 nsIAccessibleEditableText
 )

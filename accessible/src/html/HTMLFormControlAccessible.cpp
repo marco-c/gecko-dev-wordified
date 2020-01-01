@@ -2306,11 +2306,10 @@ aDoc
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED3
+NS_IMPL_ISUPPORTS_INHERITED2
 (
 HTMLTextFieldAccessible
 Accessible
-HyperTextAccessible
 nsIAccessibleText
 nsIAccessibleEditableText
 )
