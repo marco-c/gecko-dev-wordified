@@ -1836,8 +1836,14 @@ Drag
 (
 this
 e
+true
 )
 ;
+/
+/
+true
+=
+isResizing
 }
 resize
 :
