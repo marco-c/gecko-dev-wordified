@@ -5819,12 +5819,6 @@ dragThreshold
 24
 )
 ;
-/
-/
-Waiting
-on
-bug
-598864
 pref
 (
 "
@@ -5834,6 +5828,6 @@ accelerate
 -
 all
 "
-false
+true
 )
 ;
