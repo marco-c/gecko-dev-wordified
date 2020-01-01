@@ -761,6 +761,12 @@ nsIRenderingContext
 aRenderingContext
 )
 ;
+virtual
+nsSize
+GetIntrinsicRatio
+(
+)
+;
 NS_IMETHOD
 Reflow
 (
