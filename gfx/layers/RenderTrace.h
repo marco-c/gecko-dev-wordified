@@ -492,14 +492,14 @@ line
 to
 enable
 RENDERTRACE
-/
-/
 #
 define
 MOZ_RENDERTRACE
 #
 ifndef
 GFX_RENDERTRACE_H
+/
+/
 #
 define
 GFX_RENDERTRACE_H
@@ -536,6 +536,7 @@ const
 char
 *
 aColor
+const
 gfx3DMatrix
 aRootTransform
 =
@@ -558,6 +559,7 @@ const
 char
 *
 aColor
+const
 nsIntRect
 aRect
 )
@@ -588,6 +590,7 @@ const
 char
 *
 aColor
+const
 gfx3DMatrix
 aRootTransform
 bool
@@ -606,6 +609,7 @@ const
 char
 *
 aColor
+const
 nsIntRect
 aRect
 )
