@@ -1215,6 +1215,12 @@ nsnull
 endif
 LoadLayout
 (
+:
+:
+GetKeyboardLayout
+(
+0
+)
 )
 ;
 }
@@ -1914,6 +1920,8 @@ KeyboardLayout
 :
 LoadLayout
 (
+HKL
+aLayout
 )
 {
 #
@@ -1998,12 +2006,7 @@ mNumOfChars
 ;
 mKeyboardLayout
 =
-:
-:
-GetKeyboardLayout
-(
-0
-)
+aLayout
 ;
 ReleaseDeadKeyTables
 (
@@ -2123,7 +2126,7 @@ rv
 =
 :
 :
-ToUnicode
+ToUnicodeEx
 (
 virtualKey
 0
@@ -2137,6 +2140,7 @@ NS_ARRAY_LENGTH
 uniChars
 )
 0
+mKeyboardLayout
 )
 ;
 if
@@ -2184,7 +2188,7 @@ rv
 =
 :
 :
-ToUnicode
+ToUnicodeEx
 (
 virtualKey
 0
@@ -2198,6 +2202,7 @@ NS_ARRAY_LENGTH
 deadChar
 )
 0
+mKeyboardLayout
 )
 ;
 NS_ASSERTION
@@ -3774,7 +3779,7 @@ rv
 =
 :
 :
-ToUnicode
+ToUnicodeEx
 (
 aDeadKey
 0
@@ -3791,6 +3796,7 @@ NS_ARRAY_LENGTH
 dummyChars
 )
 0
+mKeyboardLayout
 )
 ;
 /
@@ -4240,7 +4246,7 @@ rv
 =
 :
 :
-ToUnicode
+ToUnicodeEx
 (
 virtualKey
 0
@@ -4254,6 +4260,7 @@ NS_ARRAY_LENGTH
 compositeChars
 )
 0
+mKeyboardLayout
 )
 ;
 switch
@@ -4332,7 +4339,7 @@ rv
 =
 :
 :
-ToUnicode
+ToUnicodeEx
 (
 virtualKey
 0
@@ -4346,6 +4353,7 @@ NS_ARRAY_LENGTH
 baseChars
 )
 0
+mKeyboardLayout
 )
 ;
 NS_ASSERTION
