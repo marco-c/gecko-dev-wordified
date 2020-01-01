@@ -475,7 +475,7 @@ h
 #
 include
 "
-nsIPref
+nsIPrefBranch
 .
 h
 "
@@ -537,7 +537,7 @@ mDocShell
 ;
 nsCOMPtr
 <
-nsIPref
+nsIPrefBranch
 >
 mPrefs
 ;
