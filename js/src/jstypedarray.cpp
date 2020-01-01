@@ -649,7 +649,6 @@ size
 .
 *
 /
-inline
 ArrayBuffer
 *
 ArrayBuffer
@@ -1191,7 +1190,6 @@ subclasses
 .
 *
 /
-inline
 TypedArray
 *
 TypedArray
