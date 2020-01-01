@@ -1216,7 +1216,7 @@ GeckoAppShell
 .
 RESTORE_NONE
 ;
-protected
+private
 boolean
 mInitialized
 =
@@ -13304,7 +13304,7 @@ previous
 implementations
 *
 /
-protected
+private
 String
 getURIFromIntent
 (
