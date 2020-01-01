@@ -4444,6 +4444,14 @@ void
 aClosure
 )
 {
+if
+(
+aData
+-
+>
+mViewer
+)
+{
 aData
 -
 >
@@ -4454,6 +4462,7 @@ Hide
 (
 )
 ;
+}
 return
 PL_DHASH_NEXT
 ;
