@@ -42911,7 +42911,7 @@ return
 ThrowErrorMessage
 (
 cx
-MSG_DOES_NOT_IMPLEMENT_INTERFACE
+MSG_THIS_DOES_NOT_IMPLEMENT_INTERFACE
 "
 %
 s
@@ -42920,9 +42920,11 @@ s
 ;
 '
 %
-self
-.
 descriptor
+.
+interface
+.
+identifier
 .
 name
         
@@ -43472,6 +43474,36 @@ vp
 )
 ]
         
+unwrapFailureCode
+=
+(
+            
+'
+return
+ThrowInvalidMethodThis
+(
+cx
+args
+\
+"
+%
+s
+\
+"
+)
+;
+'
+%
+            
+descriptor
+.
+interface
+.
+identifier
+.
+name
+)
+        
 CGAbstractBindingMethod
 .
 __init__
@@ -43481,7 +43513,12 @@ descriptor
 '
 genericMethod
 '
+                                         
 args
+                                         
+unwrapFailureCode
+=
+unwrapFailureCode
 )
     
 def
@@ -44776,7 +44813,30 @@ genericGetter
             
 unwrapFailureCode
 =
-None
+(
+                
+'
+return
+ThrowInvalidGetterThis
+(
+cx
+"
+%
+s
+"
+)
+;
+'
+%
+                
+descriptor
+.
+interface
+.
+identifier
+.
+name
+)
         
 CGAbstractBindingMethod
 .
@@ -45437,7 +45497,30 @@ genericSetter
             
 unwrapFailureCode
 =
-None
+(
+                
+'
+return
+ThrowInvalidSetterThis
+(
+cx
+"
+%
+s
+"
+)
+;
+'
+%
+                
+descriptor
+.
+interface
+.
+identifier
+.
+name
+)
         
 CGAbstractBindingMethod
 .
