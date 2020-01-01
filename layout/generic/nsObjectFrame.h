@@ -1702,9 +1702,6 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
-nsRegion
-*
-aVisibleRegionBeforeMove
 )
 ;
 NS_DISPLAY_DECL_NAME

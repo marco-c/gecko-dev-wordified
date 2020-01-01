@@ -9953,7 +9953,6 @@ ComputeVisibility
 builder
 &
 visibleRegion
-nsnull
 )
 ;
 InvalidateFixedBackgroundFramesFromList

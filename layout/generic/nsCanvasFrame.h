@@ -1076,9 +1076,6 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
-nsRegion
-*
-aVisibleRegionBeforeMove
 )
 {
 return
@@ -1097,7 +1094,6 @@ ComputeVisibility
 (
 aBuilder
 aVisibleRegion
-aVisibleRegionBeforeMove
 )
 ;
 }

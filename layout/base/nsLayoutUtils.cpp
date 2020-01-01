@@ -8964,7 +8964,6 @@ ComputeVisibility
 builder
 &
 visibleRegion
-nsnull
 )
 ;
 #
