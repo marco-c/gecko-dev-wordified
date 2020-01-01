@@ -31731,7 +31731,7 @@ HasWidget
 )
 {
 PRBool
-widgetIsTranslucent
+widgetIsTransparent
 ;
 view
 -
@@ -31741,14 +31741,14 @@ GetWidget
 )
 -
 >
-GetWindowTranslucency
+GetHasTransparentBackground
 (
-widgetIsTranslucent
+widgetIsTransparent
 )
 ;
 if
 (
-widgetIsTranslucent
+widgetIsTransparent
 )
 {
 backgroundColor

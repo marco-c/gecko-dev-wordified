@@ -6698,7 +6698,7 @@ GetWidget
 )
 ;
 PRBool
-translucentWindow
+transparentWindow
 =
 PR_FALSE
 ;
@@ -6709,9 +6709,9 @@ widget
 widget
 -
 >
-GetWindowTranslucency
+GetHasTransparentBackground
 (
-translucentWindow
+transparentWindow
 )
 ;
 if
@@ -6726,7 +6726,7 @@ mScrollCnt
 &
 &
 !
-translucentWindow
+transparentWindow
 )
 {
 nsIViewObserver

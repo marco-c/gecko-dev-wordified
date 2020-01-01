@@ -1471,14 +1471,14 @@ GetThebesSurface
 ifdef
 MOZ_XUL
 NS_IMETHOD
-SetWindowTranslucency
+SetHasTransparentBackground
 (
 PRBool
 aTransparent
 )
 ;
 NS_IMETHOD
-GetWindowTranslucency
+GetHasTransparentBackground
 (
 PRBool
 &
@@ -1500,7 +1500,7 @@ GetWindowTranslucencyInner
 )
 {
 return
-mIsTranslucent
+mIsTransparent
 ;
 }
 void
@@ -1525,7 +1525,7 @@ nsresult
 SetupTranslucentWindowMemoryBitmap
 (
 PRBool
-aTranslucent
+aTransparent
 )
 ;
 public
@@ -2625,7 +2625,7 @@ nsRefPtr
 <
 gfxWindowsSurface
 >
-mTranslucentSurface
+mTransparentSurface
 ;
 HDC
 mMemoryDC
@@ -2642,10 +2642,10 @@ PRUint8
 mAlphaMask
 ;
 PRPackedBool
-mIsTranslucent
+mIsTransparent
 ;
 PRPackedBool
-mIsTopTranslucent
+mIsTopTransparent
 ;
 /
 /
