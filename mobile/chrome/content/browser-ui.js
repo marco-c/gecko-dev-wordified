@@ -2966,7 +2966,7 @@ load
 arguments
 .
 callee
-false
+true
 )
 ;
 /
@@ -3020,7 +3020,7 @@ init
 )
 ;
 }
-false
+true
 )
 ;
 }
