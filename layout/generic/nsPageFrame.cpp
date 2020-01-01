@@ -4372,7 +4372,6 @@ DeviceContext
 >
 GetMetricsFor
 (
-*
 mPD
 -
 >
