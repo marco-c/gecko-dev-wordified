@@ -4904,7 +4904,7 @@ randScoper
 mRandomStatement
 )
 ;
-PRBool
+bool
 exists
 ;
 nsresult
