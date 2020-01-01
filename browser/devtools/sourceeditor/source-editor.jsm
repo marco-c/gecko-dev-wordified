@@ -554,7 +554,7 @@ Error
 (
 "
 The
-UI
+ui
 editor
 component
 is
