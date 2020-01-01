@@ -1948,6 +1948,7 @@ x
 js_AbortRecording
 (
 cx
+NULL
 #
 x
 )
@@ -1969,6 +1970,9 @@ js_LoopEdge
 JSContext
 *
 cx
+jsbytecode
+*
+oldpc
 )
 ;
 extern
@@ -1978,6 +1982,9 @@ js_AbortRecording
 JSContext
 *
 cx
+jsbytecode
+*
+abortpc
 const
 char
 *

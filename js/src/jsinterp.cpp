@@ -17683,6 +17683,7 @@ JS_TRACER
 define
 MONITOR_BRANCH
 (
+oldpc
 )
 \
 JS_BEGIN_MACRO
@@ -17700,6 +17701,7 @@ ENABLE_TRACER
 js_LoopEdge
 (
 cx
+oldpc
 )
 )
 ;
@@ -17717,6 +17719,7 @@ JS_TRACER
 define
 MONITOR_BRANCH
 (
+oldpc
 )
 do
 {
@@ -17826,6 +17829,11 @@ n
 \
 MONITOR_BRANCH
 (
+regs
+.
+pc
+-
+n
 )
 ;
 \
