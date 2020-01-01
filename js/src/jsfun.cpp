@@ -4167,6 +4167,9 @@ jsval
 vp
 )
 {
+#
+ifdef
+JS_TRACER
 /
 /
 To
@@ -4235,6 +4238,8 @@ return
 false
 ;
 }
+#
+endif
 if
 (
 !
