@@ -6368,11 +6368,11 @@ y
 ;
 displayPort
 =
-shiftedDisplayPort
-.
-Intersect
-(
 scrollableRect
+.
+ClampRect
+(
+shiftedDisplayPort
 )
 ;
 displayPort
