@@ -690,6 +690,13 @@ h
 #
 include
 "
+nsAttrValueOrString
+.
+h
+"
+#
+include
+"
 nsPresState
 .
 h
@@ -4071,7 +4078,7 @@ nsIAtom
 *
 aName
 const
-nsAString
+nsAttrValueOrString
 *
 aValue
 bool
@@ -4212,8 +4219,12 @@ aValue
 {
 LoadImage
 (
-*
 aValue
+-
+>
+String
+(
+)
 true
 aNotify
 )

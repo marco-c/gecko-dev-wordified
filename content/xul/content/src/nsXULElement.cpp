@@ -1058,6 +1058,13 @@ nsIControllers
 .
 h
 "
+#
+include
+"
+nsAttrValueOrString
+.
+h
+"
 /
 /
 The
@@ -6822,7 +6829,7 @@ nsIAtom
 *
 aName
 const
-nsAString
+nsAttrValueOrString
 *
 aValue
 bool
@@ -7018,9 +7025,6 @@ chromemargin
 nsAttrValue
 attrValue
 ;
-nsIntMargin
-margins
-;
 /
 /
 Make
@@ -7038,8 +7042,12 @@ attrValue
 .
 ParseIntMarginValue
 (
-*
 aValue
+-
+>
+String
+(
+)
 )
 )
 {
