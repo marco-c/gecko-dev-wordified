@@ -552,7 +552,7 @@ if
 ins
 -
 >
-emitAtUses
+isEmittedAtUses
 (
 )
 &
@@ -602,7 +602,7 @@ if
 box
 -
 >
-emitAtUses
+isEmittedAtUses
 (
 )
 )
@@ -1265,7 +1265,7 @@ JS_ASSERT
 ins
 -
 >
-inWorklist
+isInWorklist
 (
 )
 &
@@ -1471,7 +1471,7 @@ JS_ASSERT
 opd
 -
 >
-inWorklist
+isInWorklist
 (
 )
 )

@@ -515,7 +515,7 @@ mir
 mir
 -
 >
-setEmitAtUses
+setEmittedAtUses
 (
 )
 ;
@@ -2358,7 +2358,7 @@ if
 opd
 -
 >
-emitAtUses
+isEmittedAtUses
 (
 )
 &
