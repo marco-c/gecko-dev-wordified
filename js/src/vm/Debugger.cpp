@@ -8418,6 +8418,16 @@ front
 (
 )
 ;
+if
+(
+IsAboutToBeFinalized
+(
+cx
+global
+)
+)
+continue
+;
 /
 *
 *
