@@ -800,9 +800,6 @@ mGIFOpen
 PRPackedBool
 mSawTransparency
 ;
-PRPackedBool
-mEnded
-;
 gif_struct
 mGIFStruct
 ;
