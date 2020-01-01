@@ -268,9 +268,9 @@ pointer
 tab
 canvas
 .
-thumb
+cached
 -
-placeholder
+thumb
 {
 border
 :
@@ -1412,7 +1412,7 @@ rgba
 0
 0
 .
-12
+08
 )
 ;
 border
@@ -1443,7 +1443,7 @@ rgba
 255
 255
 .
-15
+1
 )
 ;
 }
