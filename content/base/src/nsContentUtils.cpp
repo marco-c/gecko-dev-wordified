@@ -1578,12 +1578,17 @@ nsContentDLF
 h
 "
 #
+ifdef
+MOZ_MEDIA
+#
 include
 "
 nsHTMLMediaElement
 .
 h
 "
+#
+endif
 using
 namespace
 mozilla
