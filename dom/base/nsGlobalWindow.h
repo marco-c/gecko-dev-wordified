@@ -689,9 +689,6 @@ class
 nsDOMOfflineResourceList
 ;
 class
-nsDOMMozURLProperty
-;
-class
 nsDOMWindowUtils
 ;
 class
@@ -716,6 +713,9 @@ dom
 {
 class
 Navigator
+;
+class
+URL
 ;
 }
 /
@@ -1634,10 +1634,6 @@ MOZ_B2G
 {
 public
 :
-friend
-class
-nsDOMMozURLProperty
-;
 typedef
 mozilla
 :
@@ -6363,12 +6359,6 @@ window
 .
 bool
 mDialogsPermanentlyDisabled
-;
-nsRefPtr
-<
-nsDOMMozURLProperty
->
-mURLProperty
 ;
 nsTHashtable
 <

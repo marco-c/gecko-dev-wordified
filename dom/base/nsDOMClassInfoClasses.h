@@ -1430,10 +1430,6 @@ DOMCI_CLASS
 (
 ArchiveRequest
 )
-DOMCI_CLASS
-(
-MozURLProperty
-)
 /
 /
 DOM
