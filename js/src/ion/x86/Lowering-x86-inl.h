@@ -594,6 +594,17 @@ inner
 isConstant
 (
 )
+&
+&
+inner
+-
+>
+type
+(
+)
+!
+=
+MIRType_Double
 )
 return
 inner

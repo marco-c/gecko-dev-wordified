@@ -747,6 +747,15 @@ LTestIAndBranch
 test
 )
 ;
+virtual
+bool
+visitMathD
+(
+LMathD
+*
+math
+)
+;
 }
 ;
 }

@@ -722,12 +722,16 @@ type
 MIRType_Double
 )
 {
+specialization_
+=
+MIRType_Double
+;
 ins
 -
 >
 setResultType
 (
-MIRType_Double
+specialization_
 )
 ;
 return
