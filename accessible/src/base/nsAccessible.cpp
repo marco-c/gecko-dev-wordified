@@ -13061,6 +13061,15 @@ Created
 if
 necessary
 .
+if
+(
+IsDefunct
+(
+)
+)
+return
+NS_ERROR_FAILURE
+;
 nsCOMPtr
 <
 nsIContent
