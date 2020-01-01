@@ -579,6 +579,8 @@ v_
 .
 s
 .
+u
+.
 mask32
 ;
 }
@@ -640,6 +642,8 @@ setConstant
 v_
 .
 s
+.
+u
 .
 mask32
 =
