@@ -617,7 +617,7 @@ test
 /
 equality
 given
-and
+an
 assumed
 nsSimpleURI
 .
