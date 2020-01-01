@@ -914,7 +914,11 @@ etc
 )
 "
 ;
-}
+default
+:
+case
+CAIRO_STATUS_LAST_STATUS
+:
 return
 "
 <
@@ -924,6 +928,7 @@ status
 >
 "
 ;
+}
 }
 /
 *
@@ -4283,7 +4288,7 @@ h
 #
 if
 !
-WINCE
+_WIN32_WCE
 /
 *
 tmpfile
@@ -4517,7 +4522,7 @@ endif
 /
 *
 !
-WINCE
+_WIN32_WCE
 *
 /
 #
@@ -4713,6 +4718,18 @@ cairo_status_t
 status
 =
 CAIRO_STATUS_SUCCESS
+;
+if
+(
+CAIRO_INJECT_FAULT
+(
+)
+)
+return
+_cairo_error
+(
+CAIRO_STATUS_NO_MEMORY
+)
 ;
 if
 (

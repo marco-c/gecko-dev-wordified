@@ -2738,8 +2738,7 @@ unlikely
 status
 )
 )
-goto
-fail
+break
 ;
 status
 =
@@ -2769,8 +2768,7 @@ unlikely
 status
 )
 )
-goto
-fail
+break
 ;
 charstring_encrypt
 (
@@ -2891,8 +2889,6 @@ n
 )
 ;
 }
-fail
-:
 _cairo_scaled_font_thaw_cache
 (
 font
@@ -2901,6 +2897,8 @@ font
 type1_scaled_font
 )
 ;
+fail
+:
 _cairo_array_fini
 (
 &

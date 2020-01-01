@@ -1317,10 +1317,9 @@ _MSC_VER
 )
 &
 &
-!
 defined
 (
-WINCE
+_M_IX86
 )
 /
 *
