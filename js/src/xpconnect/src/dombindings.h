@@ -449,13 +449,9 @@ jsproxy
 .
 h
 "
-#
-include
-"
+class
 nsINodeList
-.
-h
-"
+;
 namespace
 xpc
 {
