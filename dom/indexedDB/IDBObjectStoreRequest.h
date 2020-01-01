@@ -603,6 +603,12 @@ mMode
 PRInt64
 mId
 ;
+nsTArray
+<
+nsString
+>
+mIndexes
+;
 }
 ;
 END_INDEXEDDB_NAMESPACE

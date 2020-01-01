@@ -566,7 +566,7 @@ aDescription
 PRBool
 aModifyDatabase
 PRUint8
-aArgCount
+aOptionalArgCount
 nsIIDBDatabaseRequest
 *
 *
@@ -575,9 +575,8 @@ _retval
 {
 if
 (
-aArgCount
-<
-3
+!
+aOptionalArgCount
 )
 {
 /
