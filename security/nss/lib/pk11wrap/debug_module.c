@@ -3921,7 +3921,7 @@ attr
 pValue
 )
 ;
-get_obj_class
+get_key_type
 (
 keyType
 valstr

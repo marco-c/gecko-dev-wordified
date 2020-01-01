@@ -6450,11 +6450,11 @@ pk12uErrno
 1
 ;
 }
-PR_Cleanup
+PL_ArenaFinish
 (
 )
 ;
-PL_ArenaFinish
+PR_Cleanup
 (
 )
 ;
