@@ -1144,7 +1144,7 @@ PreferencesReporter
 MOZ_FINAL
 :
 public
-MemoryUniReporter
+MemoryReporterBase
 {
 public
 :
@@ -1152,7 +1152,7 @@ PreferencesReporter
 (
 )
 :
-MemoryUniReporter
+MemoryReporterBase
 (
 "
 explicit

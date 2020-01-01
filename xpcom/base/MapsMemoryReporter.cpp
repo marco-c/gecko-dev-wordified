@@ -758,7 +758,7 @@ MapsReporter
 MOZ_FINAL
 :
 public
-nsIMemoryReporter
+nsIMemoryMultiReporter
 {
 public
 :
@@ -791,7 +791,7 @@ NS_OK
 NS_IMETHOD
 CollectReports
 (
-nsIMemoryReporterCallback
+nsIMemoryMultiReporterCallback
 *
 aCb
 nsISupports
@@ -838,7 +838,7 @@ ParseMapping
 FILE
 *
 aFile
-nsIMemoryReporterCallback
+nsIMemoryMultiReporterCallback
 *
 aCb
 nsISupports
@@ -882,7 +882,7 @@ const
 nsACString
 &
 aDescription
-nsIMemoryReporterCallback
+nsIMemoryMultiReporterCallback
 *
 aCb
 nsISupports
@@ -910,7 +910,7 @@ mMozillaLibraries
 NS_IMPL_ISUPPORTS1
 (
 MapsReporter
-nsIMemoryReporter
+nsIMemoryMultiReporter
 )
 MapsReporter
 :
@@ -984,7 +984,7 @@ MapsReporter
 :
 CollectReports
 (
-nsIMemoryReporterCallback
+nsIMemoryMultiReporterCallback
 *
 aCb
 nsISupports
@@ -1486,7 +1486,7 @@ ParseMapping
 FILE
 *
 aFile
-nsIMemoryReporterCallback
+nsIMemoryMultiReporterCallback
 *
 aCb
 nsISupports
@@ -3102,7 +3102,7 @@ const
 nsACString
 &
 aDescription
-nsIMemoryReporterCallback
+nsIMemoryMultiReporterCallback
 *
 aCb
 nsISupports
@@ -3433,7 +3433,7 @@ ResidentUniqueReporter
 MOZ_FINAL
 :
 public
-MemoryUniReporter
+MemoryReporterBase
 {
 public
 :
@@ -3441,7 +3441,7 @@ ResidentUniqueReporter
 (
 )
 :
-MemoryUniReporter
+MemoryReporterBase
 (
 "
 resident
@@ -3618,15 +3618,17 @@ could
 calculate
 this
 data
-within
+during
 the
 smaps
+multi
+-
 reporter
 but
 the
+/
+/
 overhead
-/
-/
 of
 the
 smaps
@@ -3641,9 +3643,9 @@ t
 even
 run
 the
+/
+/
 smaps
-/
-/
 reporter
 in
 normal
@@ -3801,7 +3803,7 @@ Init
 {
 nsCOMPtr
 <
-nsIMemoryReporter
+nsIMemoryMultiReporter
 >
 reporter
 =
@@ -3810,7 +3812,7 @@ MapsReporter
 (
 )
 ;
-NS_RegisterMemoryReporter
+NS_RegisterMemoryMultiReporter
 (
 reporter
 )

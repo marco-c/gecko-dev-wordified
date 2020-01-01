@@ -657,7 +657,7 @@ WebGLMemoryPressureObserver
 ;
 friend
 class
-WebGLMemoryReporterWrapper
+WebGLMemoryMultiReporterWrapper
 ;
 friend
 class

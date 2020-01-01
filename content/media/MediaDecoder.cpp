@@ -504,7 +504,7 @@ mDecoders
 ;
 nsCOMPtr
 <
-nsIMemoryReporter
+nsIMemoryMultiReporter
 >
 mReporter
 ;
@@ -8998,7 +8998,7 @@ MediaReporter
 MOZ_FINAL
 :
 public
-nsIMemoryReporter
+nsIMemoryMultiReporter
 {
 public
 :
@@ -9027,7 +9027,7 @@ NS_OK
 NS_IMETHOD
 CollectReports
 (
-nsIMemoryReporterCallback
+nsIMemoryMultiReporterCallback
 *
 aCb
 nsISupports
@@ -9167,7 +9167,7 @@ NS_OK
 NS_IMPL_ISUPPORTS1
 (
 MediaReporter
-nsIMemoryReporter
+nsIMemoryMultiReporter
 )
 MediaDecoderOwner
 *
@@ -9204,7 +9204,7 @@ MediaReporter
 )
 )
 {
-NS_RegisterMemoryReporter
+NS_RegisterMemoryMultiReporter
 (
 mReporter
 )
@@ -9218,7 +9218,7 @@ MediaMemoryTracker
 (
 )
 {
-NS_UnregisterMemoryReporter
+NS_UnregisterMemoryMultiReporter
 (
 mReporter
 )

@@ -173,6 +173,9 @@ class
 nsIMemoryReporter
 ;
 class
+nsIMemoryMultiReporter
+;
+class
 nsIXPConnect
 ;
 struct
@@ -987,11 +990,11 @@ nsCOMPtr
 <
 nsIMemoryReporter
 >
-mStorageSQLiteUniReporter
+mStorageSQLiteReporter
 ;
 nsCOMPtr
 <
-nsIMemoryReporter
+nsIMemoryMultiReporter
 >
 mStorageSQLiteMultiReporter
 ;
