@@ -5185,6 +5185,12 @@ aExcludePassword
 )
 const
 ;
+PRBool
+IsLabelableControl
+(
+)
+const
+;
 /
 /
 nsIContent

@@ -2018,6 +2018,13 @@ h
 #
 include
 "
+nsIDOMNSHTMLLabelElement
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLLegendElement
 .
 h
@@ -11253,6 +11260,10 @@ nsIDOMHTMLLabelElement
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMHTMLLabelElement
+)
+DOM_CLASSINFO_MAP_ENTRY
+(
+nsIDOMNSHTMLLabelElement
 )
 DOM_CLASSINFO_GENERIC_HTML_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END
