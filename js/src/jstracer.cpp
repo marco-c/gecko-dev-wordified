@@ -8762,7 +8762,11 @@ name
 {
 #
 ifdef
-DEBUG
+JS_JIT_SPEW
+if
+(
+js_verboseDebug
+)
 lirbuf
 -
 >
