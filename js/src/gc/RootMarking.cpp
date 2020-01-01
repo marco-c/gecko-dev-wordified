@@ -5021,6 +5021,19 @@ scriptAndCountsVector
 if
 (
 !
+trc
+-
+>
+runtime
+-
+>
+isHeapMinorCollecting
+(
+)
+&
+&
+(
+!
 IS_GC_MARKING_TRACER
 (
 trc
@@ -5040,6 +5053,7 @@ zone
 >
 isCollecting
 (
+)
 )
 )
 {
