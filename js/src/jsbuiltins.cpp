@@ -1330,7 +1330,7 @@ cx
 JSObject
 *
 obj
-uint32
+int32
 index
 )
 {
@@ -1392,7 +1392,7 @@ cx
 JSObject
 *
 obj
-uint32
+int32
 index
 jsval
 v
