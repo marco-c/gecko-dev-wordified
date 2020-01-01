@@ -786,6 +786,9 @@ mJarBaseURI
 nsCString
 mJarEntry
 ;
+nsCString
+mInnerJarEntry
+;
 }
 ;
 #
