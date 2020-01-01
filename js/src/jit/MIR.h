@@ -7575,7 +7575,8 @@ MInitProp
 MDefinition
 *
 obj
-HandlePropertyName
+PropertyName
+*
 name
 MDefinition
 *
@@ -7619,7 +7620,8 @@ New
 MDefinition
 *
 obj
-HandlePropertyName
+PropertyName
+*
 name
 MDefinition
 *
@@ -19708,7 +19710,8 @@ private
 :
 MDefFun
 (
-HandleFunction
+JSFunction
+*
 fun
 MDefinition
 *
@@ -19736,7 +19739,8 @@ MDefFun
 *
 New
 (
-HandleFunction
+JSFunction
+*
 fun
 MDefinition
 *
@@ -24046,7 +24050,8 @@ lhs
 MDefinition
 *
 rhs
-HandleObject
+JSObject
+*
 templateObj
 )
 :
@@ -24091,7 +24096,8 @@ lhs
 MDefinition
 *
 rhs
-HandleObject
+JSObject
+*
 templateObj
 )
 {
@@ -26887,7 +26893,8 @@ MGetPropertyCache
 MDefinition
 *
 obj
-HandlePropertyName
+PropertyName
+*
 name
 )
 :
@@ -26975,7 +26982,8 @@ New
 MDefinition
 *
 obj
-HandlePropertyName
+PropertyName
+*
 name
 )
 {
@@ -27336,7 +27344,8 @@ MGetPropertyPolymorphic
 MDefinition
 *
 obj
-HandlePropertyName
+PropertyName
+*
 name
 )
 :
@@ -27384,7 +27393,8 @@ New
 MDefinition
 *
 obj
-HandlePropertyName
+PropertyName
+*
 name
 )
 {
@@ -30287,7 +30297,8 @@ MGetNameCache
 MDefinition
 *
 obj
-HandlePropertyName
+PropertyName
+*
 name
 AccessKind
 kind
@@ -30326,7 +30337,8 @@ New
 MDefinition
 *
 obj
-HandlePropertyName
+PropertyName
+*
 name
 AccessKind
 kind
@@ -30400,7 +30412,8 @@ name_
 ;
 MCallGetIntrinsicValue
 (
-HandlePropertyName
+PropertyName
+*
 name
 )
 :
@@ -30426,7 +30439,8 @@ MCallGetIntrinsicValue
 *
 New
 (
-HandlePropertyName
+PropertyName
+*
 name
 )
 {
@@ -30626,7 +30640,8 @@ obj
 MDefinition
 *
 value
-HandlePropertyName
+PropertyName
+*
 name
 bool
 strict
@@ -30817,7 +30832,8 @@ MDeleteProperty
 MDefinition
 *
 val
-HandlePropertyName
+PropertyName
+*
 name
 )
 :
@@ -30850,7 +30866,8 @@ New
 MDefinition
 *
 obj
-HandlePropertyName
+PropertyName
+*
 name
 )
 {
@@ -31044,7 +31061,8 @@ obj
 MDefinition
 *
 value
-HandlePropertyName
+PropertyName
+*
 name
 bool
 strict
@@ -31076,7 +31094,8 @@ obj
 MDefinition
 *
 value
-HandlePropertyName
+PropertyName
+*
 name
 bool
 strict
@@ -31141,7 +31160,8 @@ obj
 MDefinition
 *
 value
-HandlePropertyName
+PropertyName
+*
 name
 bool
 strict
@@ -31179,7 +31199,8 @@ obj
 MDefinition
 *
 value
-HandlePropertyName
+PropertyName
+*
 name
 bool
 strict
@@ -31356,7 +31377,8 @@ MCallGetProperty
 MDefinition
 *
 value
-HandlePropertyName
+PropertyName
+*
 name
 )
 :
@@ -31393,7 +31415,8 @@ New
 MDefinition
 *
 value
-HandlePropertyName
+PropertyName
+*
 name
 )
 {
@@ -35437,7 +35460,8 @@ MNewStringObject
 MDefinition
 *
 input
-HandleObject
+JSObject
+*
 templateObj
 )
 :
@@ -35470,7 +35494,8 @@ New
 MDefinition
 *
 input
-HandleObject
+JSObject
+*
 templateObj
 )
 {
