@@ -500,7 +500,7 @@ nsSVGPaintServerFrame
 methods
 :
 virtual
-nsresult
+PRBool
 SetupPaintServer
 (
 gfxContext

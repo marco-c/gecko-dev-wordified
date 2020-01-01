@@ -2297,9 +2297,6 @@ mSource
 =
 aSource
 ;
-nsRect
-dummyRect
-;
 for
 (
 nsIFrame
@@ -5350,7 +5347,7 @@ NS_OK
 nsSVGPaintServerFrame
 methods
 :
-nsresult
+PRBool
 nsSVGPatternFrame
 :
 :
@@ -5451,7 +5448,7 @@ surface
 )
 ;
 return
-rv
+PR_FALSE
 ;
 }
 /
@@ -5565,7 +5562,7 @@ aClosure
 surface_pattern
 ;
 return
-NS_OK
+PR_TRUE
 ;
 }
 void

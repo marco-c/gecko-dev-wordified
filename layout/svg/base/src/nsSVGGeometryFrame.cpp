@@ -2047,7 +2047,7 @@ return
 aOpacity
 ;
 }
-nsresult
+PRBool
 nsSVGGeometryFrame
 :
 :
@@ -2198,7 +2198,7 @@ opacity
 )
 ;
 return
-NS_OK
+PR_TRUE
 ;
 }
 void
@@ -2462,7 +2462,7 @@ dashArray
 ;
 }
 }
-nsresult
+PRBool
 nsSVGGeometryFrame
 :
 :
@@ -2583,7 +2583,7 @@ opacity
 )
 ;
 return
-NS_OK
+PR_TRUE
 ;
 }
 void
