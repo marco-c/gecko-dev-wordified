@@ -700,6 +700,7 @@ CONTROL_TYPE_LAST
 }
 ;
 enum
+rstReason
 {
 RST_PROTOCOL_ERROR
 =
@@ -1073,6 +1074,11 @@ PROCESSING_CONTROL_SYN_REPLY
 PROCESSING_CONTROL_RST_STREAM
 }
 ;
+nsresult
+HandleSynReplyForValidStream
+(
+)
+;
 PRUint32
 GetWriteQueueSize
 (
@@ -1144,6 +1150,7 @@ CleanupStream
 SpdyStream
 *
 nsresult
+rstReason
 )
 ;
 void
