@@ -1099,6 +1099,14 @@ stubCount
 )
 <
 MAX_STUBS
+&
+&
+obj
+-
+>
+isNative
+(
+)
 )
 {
 cache
