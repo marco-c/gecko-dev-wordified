@@ -3196,6 +3196,7 @@ Used
 by
 DASH
 .
+virtual
 nsresult
 GetIndexByteRanges
 (

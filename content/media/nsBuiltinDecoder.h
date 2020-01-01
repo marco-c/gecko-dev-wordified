@@ -5037,6 +5037,7 @@ decoding
 has
 failed
 .
+virtual
 void
 DecodeError
 (
