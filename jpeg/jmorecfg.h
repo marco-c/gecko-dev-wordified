@@ -798,13 +798,9 @@ bug
 )
 *
 /
-/
-*
 #
 define
 HAVE_SSE2_INTEL_MNEMONICS
-*
-/
 #
 endif
 /
