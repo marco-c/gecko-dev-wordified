@@ -5175,9 +5175,10 @@ gRollupListener
 =
 nsnull
 ;
+NS_IF_RELEASE
+(
 gMenuRollup
-=
-nsnull
+)
 ;
 }
 return
