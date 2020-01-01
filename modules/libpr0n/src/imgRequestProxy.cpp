@@ -1712,6 +1712,13 @@ re
 holding
 a
 lock
+if
+(
+mLockHeld
+)
+return
+NS_OK
+;
 NS_ABORT_IF_FALSE
 (
 !
