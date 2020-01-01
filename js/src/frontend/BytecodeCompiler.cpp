@@ -492,6 +492,7 @@ arguments
 |
 in
 a
+legacy
 generator
 expression
 .
@@ -501,6 +502,12 @@ script
 -
 >
 isGeneratorExp
+&
+&
+script
+-
+>
+isLegacyGenerator
 )
 {
 parser

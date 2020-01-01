@@ -184,7 +184,7 @@ summary
 yield
 ignored
 if
-maybeNoteGenerator
+maybeNoteLegacyGenerator
 called
 too
 late
