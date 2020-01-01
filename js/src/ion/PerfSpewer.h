@@ -330,15 +330,6 @@ PerfSpewer
 )
 ;
 bool
-init
-(
-const
-char
-*
-path
-)
-;
-bool
 startBasicBlock
 (
 MBasicBlock
