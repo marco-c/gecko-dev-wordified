@@ -27793,10 +27793,16 @@ str
 =
 NULL
 ;
+if
+(
+!
 js_DestroyPrinter
 (
 jp
 )
+)
+return
+NULL
 ;
 return
 str

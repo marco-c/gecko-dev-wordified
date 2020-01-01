@@ -3208,7 +3208,7 @@ strict
 )
 ;
 extern
-void
+bool
 js_DestroyPrinter
 (
 JSPrinter
