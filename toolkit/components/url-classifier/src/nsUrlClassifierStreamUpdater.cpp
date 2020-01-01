@@ -1623,6 +1623,8 @@ nsUrlClassifierStreamUpdater
 :
 StreamFinished
 (
+nsresult
+status
 )
 {
 nsresult
@@ -1641,6 +1643,12 @@ it
 .
 if
 (
+NS_SUCCEEDED
+(
+status
+)
+&
+&
 mPendingUpdates
 .
 Length

@@ -14436,6 +14436,7 @@ mUpdateObserver
 >
 StreamFinished
 (
+mUpdateStatus
 )
 ;
 ResetStream
