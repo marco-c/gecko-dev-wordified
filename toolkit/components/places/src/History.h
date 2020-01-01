@@ -863,6 +863,8 @@ be
 accessed
 by
 GetIsVisistedStatement
+and
+Shutdown
 .
 *
 /
