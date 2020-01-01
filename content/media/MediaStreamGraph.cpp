@@ -11312,6 +11312,12 @@ FinishWithLockHeld
 (
 )
 {
+mMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 mUpdateFinished
 =
 true
@@ -11340,7 +11346,6 @@ SourceMediaStream
 EndAllTrackAndFinish
 (
 )
-{
 {
 MutexAutoLock
 lock
@@ -11389,7 +11394,6 @@ mCommands
 =
 TRACK_END
 ;
-}
 }
 FinishWithLockHeld
 (
