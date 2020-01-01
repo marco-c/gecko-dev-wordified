@@ -9180,6 +9180,13 @@ exits
 abruptly
 gPrefService
 .
+QueryInterface
+(
+Ci
+.
+nsIPrefService
+)
+.
 savePrefFile
 (
 null
