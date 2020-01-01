@@ -4765,7 +4765,7 @@ accesskey
 =
 "
 &
-clearPrivateDataCmd
+clearRecentHistoryCmd
 .
 accesskey
 ;
@@ -4774,7 +4774,7 @@ label
 =
 "
 &
-clearPrivateDataCmd
+clearRecentHistoryCmd
 .
 label
 ;
