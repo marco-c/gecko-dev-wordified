@@ -2684,6 +2684,9 @@ nsIDOMWindowUtils
 ;
 if
 (
+winUtils
+&
+&
 !
 winUtils
 .
