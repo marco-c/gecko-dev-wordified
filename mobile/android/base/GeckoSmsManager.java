@@ -2331,17 +2331,6 @@ containsKey
 requestId
 "
 )
-|
-|
-!
-bundle
-.
-containsKey
-(
-"
-processId
-"
-)
 )
 {
 Log
@@ -2611,14 +2600,6 @@ getInt
 requestId
 "
 )
-bundle
-.
-getLong
-(
-"
-processId
-"
-)
 )
 ;
 Log
@@ -2762,14 +2743,6 @@ getInt
 (
 "
 requestId
-"
-)
-bundle
-.
-getLong
-(
-"
-processId
 "
 )
 )
@@ -2948,8 +2921,6 @@ String
 aMessage
 int
 aRequestId
-long
-aProcessId
 )
 {
 int
@@ -3024,16 +2995,6 @@ putInt
 requestId
 "
 aRequestId
-)
-;
-bundle
-.
-putLong
-(
-"
-processId
-"
-aProcessId
 )
 ;
 if
@@ -3478,7 +3439,6 @@ notifySmsSendFailed
 (
 kUnknownError
 aRequestId
-aProcessId
 )
 ;
 }
@@ -3726,8 +3686,6 @@ int
 aMessageId
 int
 aRequestId
-long
-aProcessId
 )
 {
 class
@@ -3743,18 +3701,12 @@ private
 int
 mRequestId
 ;
-private
-long
-mProcessId
-;
 GetMessageRunnable
 (
 int
 aMessageId
 int
 aRequestId
-long
-aProcessId
 )
 {
 mMessageId
@@ -3764,10 +3716,6 @@ aMessageId
 mRequestId
 =
 aRequestId
-;
-mProcessId
-=
-aProcessId
 ;
 }
 Override
@@ -4058,7 +4006,6 @@ date
 )
 )
 mRequestId
-mProcessId
 )
 ;
 }
@@ -4094,7 +4041,6 @@ notifyGetSmsFailed
 (
 kNotFoundError
 mRequestId
-mProcessId
 )
 ;
 }
@@ -4139,7 +4085,6 @@ notifyGetSmsFailed
 (
 kUnknownError
 mRequestId
-mProcessId
 )
 ;
 }
@@ -4174,7 +4119,6 @@ notifyGetSmsFailed
 (
 kUnknownError
 mRequestId
-mProcessId
 )
 ;
 }
@@ -4210,7 +4154,6 @@ notifyGetSmsFailed
 (
 kNotFoundError
 mRequestId
-mProcessId
 )
 ;
 }
@@ -4244,7 +4187,6 @@ notifyGetSmsFailed
 (
 kUnknownError
 mRequestId
-mProcessId
 )
 ;
 }
@@ -4284,7 +4226,6 @@ GetMessageRunnable
 (
 aMessageId
 aRequestId
-aProcessId
 )
 )
 )
@@ -4313,7 +4254,6 @@ notifyGetSmsFailed
 (
 kUnknownError
 aRequestId
-aProcessId
 )
 ;
 }
@@ -4326,8 +4266,6 @@ int
 aMessageId
 int
 aRequestId
-long
-aProcessId
 )
 {
 class
@@ -4343,18 +4281,12 @@ private
 int
 mRequestId
 ;
-private
-long
-mProcessId
-;
 DeleteMessageRunnable
 (
 int
 aMessageId
 int
 aRequestId
-long
-aProcessId
 )
 {
 mMessageId
@@ -4364,10 +4296,6 @@ aMessageId
 mRequestId
 =
 aRequestId
-;
-mProcessId
-=
-aProcessId
 ;
 }
 Override
@@ -4436,7 +4364,6 @@ count
 =
 1
 mRequestId
-mProcessId
 )
 ;
 }
@@ -4470,7 +4397,6 @@ notifySmsDeleteFailed
 (
 kUnknownError
 mRequestId
-mProcessId
 )
 ;
 }
@@ -4505,7 +4431,6 @@ notifySmsDeleteFailed
 (
 kUnknownError
 mRequestId
-mProcessId
 )
 ;
 }
@@ -4527,7 +4452,6 @@ DeleteMessageRunnable
 (
 aMessageId
 aRequestId
-aProcessId
 )
 )
 )
@@ -4556,7 +4480,6 @@ notifySmsDeleteFailed
 (
 kUnknownError
 aRequestId
-aProcessId
 )
 ;
 }
@@ -4581,8 +4504,6 @@ boolean
 aReverse
 int
 aRequestId
-long
-aProcessId
 )
 {
 class
@@ -4620,10 +4541,6 @@ private
 int
 mRequestId
 ;
-private
-long
-mProcessId
-;
 CreateMessageListRunnable
 (
 long
@@ -4642,8 +4559,6 @@ boolean
 aReverse
 int
 aRequestId
-long
-aProcessId
 )
 {
 mStartDate
@@ -4673,10 +4588,6 @@ aReverse
 mRequestId
 =
 aRequestId
-;
-mProcessId
-=
-aProcessId
 ;
 }
 Override
@@ -5045,7 +4956,6 @@ GeckoAppShell
 notifyNoMessageInList
 (
 mRequestId
-mProcessId
 )
 ;
 return
@@ -5238,7 +5148,6 @@ date
 )
 )
 mRequestId
-mProcessId
 )
 ;
 }
@@ -5270,7 +5179,6 @@ notifyReadingMessageListFailed
 (
 kUnknownError
 mRequestId
-mProcessId
 )
 ;
 }
@@ -5307,7 +5215,6 @@ notifyReadingMessageListFailed
 (
 kUnknownError
 mRequestId
-mProcessId
 )
 ;
 }
@@ -5393,7 +5300,6 @@ aNumbersCount
 aDeliveryState
 aReverse
 aRequestId
-aProcessId
 )
 )
 )
@@ -5422,7 +5328,6 @@ notifyReadingMessageListFailed
 (
 kUnknownError
 aRequestId
-aProcessId
 )
 ;
 }
@@ -5435,8 +5340,6 @@ int
 aListId
 int
 aRequestId
-long
-aProcessId
 )
 {
 class
@@ -5452,18 +5355,12 @@ private
 int
 mRequestId
 ;
-private
-long
-mProcessId
-;
 GetNextMessageInListRunnable
 (
 int
 aListId
 int
 aRequestId
-long
-aProcessId
 )
 {
 mListId
@@ -5473,10 +5370,6 @@ aListId
 mRequestId
 =
 aRequestId
-;
-mProcessId
-=
-aProcessId
 ;
 }
 Override
@@ -5528,7 +5421,6 @@ GeckoAppShell
 notifyNoMessageInList
 (
 mRequestId
-mProcessId
 )
 ;
 return
@@ -5710,7 +5602,6 @@ date
 )
 )
 mRequestId
-mProcessId
 )
 ;
 }
@@ -5742,7 +5633,6 @@ notifyReadingMessageListFailed
 (
 kUnknownError
 mRequestId
-mProcessId
 )
 ;
 }
@@ -5781,7 +5671,6 @@ notifyReadingMessageListFailed
 (
 kUnknownError
 mRequestId
-mProcessId
 )
 ;
 }
@@ -5803,7 +5692,6 @@ GetNextMessageInListRunnable
 (
 aListId
 aRequestId
-aProcessId
 )
 )
 )
@@ -5832,7 +5720,6 @@ notifyReadingMessageListFailed
 (
 kUnknownError
 aRequestId
-aProcessId
 )
 ;
 }
@@ -5962,12 +5849,6 @@ aMessageClass
 )
 {
 case
-UNKNOWN
-:
-return
-kMessageClassNormal
-;
-case
 CLASS_0
 :
 return
@@ -5990,6 +5871,11 @@ CLASS_3
 :
 return
 kMessageClassClass3
+;
+default
+:
+return
+kMessageClassNormal
 ;
 }
 }
