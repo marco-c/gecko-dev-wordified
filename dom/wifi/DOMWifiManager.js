@@ -219,12 +219,12 @@ ID
 )
 ;
 function
-nsDOMWifiManager
+DOMWifiManager
 (
 )
 {
 }
-nsDOMWifiManager
+DOMWifiManager
 .
 prototype
 =
@@ -248,7 +248,7 @@ DOMWIFIMANAGER_CONTRACTID
 classDescription
 :
 "
-nsDOMWifiManager
+DOMWifiManager
 "
 interfaces
 :
@@ -1799,7 +1799,7 @@ XPCOMUtils
 generateNSGetFactory
 (
 [
-nsDOMWifiManager
+DOMWifiManager
 ]
 )
 ;
@@ -1824,7 +1824,7 @@ dump
 -
 *
 -
-nsDOMWifiManager
+DOMWifiManager
 component
 :
 "
