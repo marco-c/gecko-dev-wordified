@@ -3426,12 +3426,13 @@ gfx
 Factory
 :
 :
-CreateScaledFontForNativeFont
+CreateScaledFontWithCairo
 (
 nativeFont
 GetAdjustedSize
 (
 )
+mScaledFont
 )
 ;
 }
