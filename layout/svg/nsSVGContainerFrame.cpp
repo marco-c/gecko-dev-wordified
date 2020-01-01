@@ -2074,6 +2074,15 @@ currently
 underway
 .
 bool
+isFirstReflow
+=
+(
+mState
+&
+NS_FRAME_FIRST_REFLOW
+)
+;
+bool
 outerSVGHasHadFirstReflow
 =
 (
@@ -2537,9 +2546,7 @@ set
 ;
 if
 (
-mState
-&
-NS_FRAME_FIRST_REFLOW
+isFirstReflow
 )
 {
 /
