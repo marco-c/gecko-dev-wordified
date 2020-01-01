@@ -746,6 +746,9 @@ current_unit
 ogg_int64_t
 current_granulepos
 ;
+long
+current_page_bytes
+;
 #
 if
 0

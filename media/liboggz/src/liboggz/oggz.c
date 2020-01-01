@@ -3381,11 +3381,16 @@ OggzStreamContent
 /
 if
 (
+#
+ifdef
+ALLOW_SIGNED_ENUMS
 content
 <
-0
+OGGZ_CONTENT_THEORA
 |
 |
+#
+endif
 content
 >
 =
