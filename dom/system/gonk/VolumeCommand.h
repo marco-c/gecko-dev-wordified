@@ -520,7 +520,7 @@ mResponseCode
 aResponseCode
 ;
 #
-ifdef
+if
 ANDROID_VERSION
 >
 =
@@ -973,7 +973,7 @@ Truncate
 )
 ;
 #
-ifdef
+if
 ANDROID_VERSION
 >
 =
