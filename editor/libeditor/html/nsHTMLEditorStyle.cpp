@@ -432,13 +432,6 @@ nscore
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsISupports
 ;

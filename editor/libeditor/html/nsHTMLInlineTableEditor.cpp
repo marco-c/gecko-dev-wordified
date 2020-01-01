@@ -193,13 +193,6 @@ nscore
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 /
 /
 Uncomment

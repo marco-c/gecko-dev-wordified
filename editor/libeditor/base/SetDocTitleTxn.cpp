@@ -270,17 +270,6 @@ h
 /
 for
 NS_LITERAL_STRING
-#
-include
-"
-prtypes
-.
-h
-"
-/
-/
-for
-uint32_t
 using
 namespace
 mozilla

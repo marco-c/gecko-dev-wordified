@@ -205,13 +205,6 @@ nscore
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 /
 /
 Test

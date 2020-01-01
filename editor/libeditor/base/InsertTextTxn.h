@@ -185,17 +185,6 @@ h
 for
 NS_IMETHOD
 nsAString
-#
-include
-"
-prtypes
-.
-h
-"
-/
-/
-for
-uint32_t
 class
 nsIEditor
 ;

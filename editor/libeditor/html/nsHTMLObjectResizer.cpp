@@ -372,13 +372,6 @@ nscore
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsISelection
 ;

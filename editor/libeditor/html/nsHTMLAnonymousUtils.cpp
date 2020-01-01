@@ -358,13 +358,6 @@ nscore
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsIDOMEventListener
 ;

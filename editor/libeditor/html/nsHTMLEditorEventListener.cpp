@@ -240,13 +240,6 @@ nsLiteralString
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 /
 *
 *

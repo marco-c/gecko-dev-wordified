@@ -395,13 +395,6 @@ nscore
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 using
 namespace
 mozilla

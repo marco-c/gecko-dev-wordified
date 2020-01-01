@@ -169,13 +169,6 @@ nscore
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsIDOMElement
 ;

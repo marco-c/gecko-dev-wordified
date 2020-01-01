@@ -162,17 +162,6 @@ h
 /
 for
 NS_IMETHOD
-#
-include
-"
-prtypes
-.
-h
-"
-/
-/
-for
-int32_t
 class
 nsIEditor
 ;

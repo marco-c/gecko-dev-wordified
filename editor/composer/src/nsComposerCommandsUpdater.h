@@ -181,17 +181,6 @@ for
 NS_IMETHOD
 nsresult
 etc
-#
-include
-"
-prtypes
-.
-h
-"
-/
-/
-for
-int8_t
 class
 nsIDOMWindow
 ;

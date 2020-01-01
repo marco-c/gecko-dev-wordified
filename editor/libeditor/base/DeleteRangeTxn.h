@@ -162,13 +162,6 @@ nscore
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsEditor
 ;
