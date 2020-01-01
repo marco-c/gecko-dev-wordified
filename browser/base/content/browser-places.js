@@ -3175,6 +3175,12 @@ itemId
 1
 )
 {
+StarUI
+.
+beginBatch
+(
+)
+;
 var
 txn
 =
@@ -3207,12 +3213,6 @@ PlacesUtils
 getMostRecentBookmarkForURI
 (
 linkURI
-)
-;
-StarUI
-.
-beginBatch
-(
 )
 ;
 }
