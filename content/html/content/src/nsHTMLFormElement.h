@@ -520,13 +520,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-nsInterfaceHashtable
-.
-h
-"
 class
 nsFormControlList
 ;

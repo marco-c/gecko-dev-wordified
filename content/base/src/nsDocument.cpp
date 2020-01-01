@@ -28332,7 +28332,7 @@ nsAttrHashKey
 :
 KeyType
 aKey
-nsDOMAttribute
+nsIDOMNode
 *
 aData
 void
@@ -28362,7 +28362,10 @@ aUserArg
 *
 attr
 =
+do_QueryInterface
+(
 aData
+)
 ;
 NS_ASSERTION
 (
