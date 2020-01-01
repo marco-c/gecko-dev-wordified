@@ -78,7 +78,7 @@ None
         
 self
 .
-message
+msg
 =
 message
         
@@ -125,7 +125,7 @@ str
 (
 self
 .
-message
+msg
 )
                 
 '
@@ -170,7 +170,7 @@ str
 (
 self
 .
-message
+msg
 )
 class
 TimeoutException
