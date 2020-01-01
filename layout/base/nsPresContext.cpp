@@ -13915,6 +13915,7 @@ ComputeVisibility
 builder
 &
 visibleRegion
+nsnull
 )
 ;
 #

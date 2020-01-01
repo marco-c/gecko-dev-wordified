@@ -31164,6 +31164,7 @@ ComputeVisibility
 builder
 &
 region
+nsnull
 )
 ;
 list
@@ -33376,6 +33377,7 @@ rangeInfo
 mBuilder
 &
 visible
+nsnull
 )
 ;
 rangeInfo
