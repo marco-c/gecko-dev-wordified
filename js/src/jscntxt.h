@@ -6702,7 +6702,7 @@ js
 :
 SystemAllocPolicy
 >
-WrapperVector
+CompartmentVector
 ;
 }
 struct
@@ -6745,7 +6745,7 @@ lock
 js
 :
 :
-WrapperVector
+CompartmentVector
 compartments
 ;
 /
