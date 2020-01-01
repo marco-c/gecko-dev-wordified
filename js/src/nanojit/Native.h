@@ -526,7 +526,7 @@ namespace
 nanojit
 {
 const
-uint32_t
+size_t
 NJ_PAGE_SIZE
 =
 1

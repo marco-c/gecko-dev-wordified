@@ -1416,8 +1416,7 @@ endif
 NanoAssert
 (
 (
-int
-*
+uintptr_t
 )
 memory
 =
