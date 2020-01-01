@@ -1675,11 +1675,10 @@ isNonEvalFunctionFrame
 )
 )
 {
-Value
+RootedValue
 v
-=
-NullValue
 (
+cx
 )
 ;
 RootedId
@@ -1700,11 +1699,7 @@ callerAtom
 )
 )
 ;
-Rooted
-<
-JSObject
-*
->
+RootedObject
 obj
 (
 cx

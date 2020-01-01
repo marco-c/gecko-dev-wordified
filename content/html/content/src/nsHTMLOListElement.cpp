@@ -546,6 +546,12 @@ nsHTMLSharedListElement
 Type
 type
 )
+NS_IMPL_BOOL_ATTR
+(
+nsHTMLSharedListElement
+Reversed
+reversed
+)
 /
 /
 Shared

@@ -28261,8 +28261,7 @@ HandleId
 id
 JSAccessMode
 mode
-jsval
-*
+MutableHandleValue
 vp
 )
 {

@@ -128,6 +128,13 @@ BasicTableLayoutStrategy
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 pldhash
 .
 h

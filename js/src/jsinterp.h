@@ -1570,12 +1570,7 @@ JSContext
 cx
 HandleObject
 obj
-const
-js
-:
-:
-Value
-&
+HandleValue
 v
 JSBool
 *

@@ -29941,7 +29941,7 @@ if
 (
 change
 &
-nsChangeHint_ReflowFrame
+nsChangeHint_NeedReflow
 )
 return
 true
