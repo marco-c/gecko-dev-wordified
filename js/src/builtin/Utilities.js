@@ -240,13 +240,14 @@ info
 if
 (
 !
+(
 b
+)
 )
 AssertionFailed
 (
 info
 )
-;
 #
 else
 #
