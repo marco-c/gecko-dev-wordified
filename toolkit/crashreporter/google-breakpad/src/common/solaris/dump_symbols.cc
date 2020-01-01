@@ -4316,7 +4316,6 @@ obj_base
 =
 MAP_FAILED
 )
-)
 return
 false
 ;
