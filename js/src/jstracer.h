@@ -10775,8 +10775,8 @@ bytes
 )
 ;
 extern
-bool
-NativeToValue
+void
+ExternNativeToValue
 (
 JSContext
 *
