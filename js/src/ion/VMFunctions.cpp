@@ -340,6 +340,14 @@ js_IonOptions
 slowCallLimit
 )
 {
+AutoFlushCache
+afc
+(
+"
+InvokeFunction
+"
+)
+;
 Invalidate
 (
 cx

@@ -6040,7 +6040,7 @@ ion
 :
 AssemblerBufferWithConstantPool
 <
-16
+1024
 4
 Instruction
 Assembler
@@ -10251,6 +10251,10 @@ int
 offset
 Condition
 cond
+bool
+final
+=
+true
 )
 ;
 static
@@ -10262,6 +10266,10 @@ Instruction
 i
 int
 offset
+bool
+final
+=
+true
 )
 ;
 static
