@@ -170,7 +170,7 @@ offt
 ;
 fd
 =
-TEMP_FAILURE_RETRY
+MOZ_TEMP_FAILURE_RETRY
 (
 open
 (
@@ -230,7 +230,7 @@ do
 {
 ret
 =
-TEMP_FAILURE_RETRY
+MOZ_TEMP_FAILURE_RETRY
 (
 write
 (
@@ -304,7 +304,7 @@ aContentsLen
 ;
 ret
 =
-TEMP_FAILURE_RETRY
+MOZ_TEMP_FAILURE_RETRY
 (
 close
 (
