@@ -209,6 +209,13 @@ nsIAccessibleRole
 ROLE_DEFINITION_LIST
 ;
 const
+ROLE_DIAGRAM
+=
+nsIAccessibleRole
+.
+ROLE_DIAGRAM
+;
+const
 ROLE_DIALOG
 =
 nsIAccessibleRole
