@@ -7239,7 +7239,7 @@ NS_IMETHODIMP
 nsHyperTextAccessible
 :
 :
-GetEditor
+GetAssociatedEditor
 (
 nsIEditor
 *
