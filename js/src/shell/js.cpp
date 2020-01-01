@@ -17896,6 +17896,11 @@ newcx
 goto
 fail
 ;
+JS_BeginRequest
+(
+newcx
+)
+;
 JS_SetGlobalObject
 (
 newcx
@@ -17903,6 +17908,11 @@ JS_GetGlobalObject
 (
 cx
 )
+)
+;
+JS_EndRequest
+(
+newcx
 )
 ;
 JS_ClearContextThread
