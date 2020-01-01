@@ -4204,7 +4204,6 @@ return
 true
 ;
 }
-return
 ReportIncompatibleMethod
 (
 cx
@@ -4216,6 +4215,9 @@ getClass
 (
 )
 )
+;
+return
+false
 ;
 }
 /

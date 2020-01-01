@@ -3410,7 +3410,7 @@ true
 namespace
 js
 {
-bool
+void
 ReportIncompatibleMethod
 (
 JSContext
@@ -3653,9 +3653,6 @@ name
 )
 ;
 }
-return
-false
-;
 }
 bool
 ComputeThisFromArgv

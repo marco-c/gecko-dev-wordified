@@ -5051,7 +5051,7 @@ class
 .
 *
 /
-bool
+void
 ReportIncompatibleMethod
 (
 JSContext
