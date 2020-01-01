@@ -143,9 +143,7 @@ Original
 Code
 is
 tabview
-drag
-and
-drop
+launch
 test
 .
 *
