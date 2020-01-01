@@ -369,10 +369,10 @@ read
 .
 *
 /
-readAll
+read
 :
 function
-readAll
+read
 (
 bytes
 )
@@ -649,7 +649,7 @@ chunkSize
 =
 this
 .
-read
+_read
 (
 pointer
 bytes
@@ -853,10 +853,10 @@ set
 .
 *
 /
-writeFrom
+write
 :
 function
-writeFrom
+write
 (
 buffer
 bytes
@@ -901,7 +901,7 @@ chunkSize
 =
 this
 .
-write
+_write
 (
 pointer
 bytes
