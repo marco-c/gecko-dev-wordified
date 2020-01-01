@@ -60,7 +60,6 @@ MPL
 use
 strict
 "
-;
 let
 DEBUG
 =
