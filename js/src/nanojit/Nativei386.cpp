@@ -20456,7 +20456,7 @@ ra
 }
 else
 {
-verbose_only
+debug_only
 (
 Register
 rr
