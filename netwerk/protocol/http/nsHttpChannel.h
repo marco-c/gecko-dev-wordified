@@ -1435,6 +1435,13 @@ nsresult
 rv
 )
 ;
+nsresult
+OpenRedirectChannel
+(
+nsresult
+rv
+)
+;
 /
 *
 *
