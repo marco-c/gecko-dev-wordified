@@ -447,11 +447,6 @@ app
 is
 upgraded
 .
-"
-use
-strict
-"
-;
 const
 PREF_UPDATE_EXTENSIONS_ENABLED
 =

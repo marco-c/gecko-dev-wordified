@@ -428,11 +428,6 @@ BLOCK
 *
 *
 *
-"
-use
-strict
-"
-;
 function
 init
 (

@@ -393,11 +393,6 @@ BLOCK
 *
 *
 /
-"
-use
-strict
-"
-;
 (
 function
 (
