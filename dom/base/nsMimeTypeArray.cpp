@@ -1290,7 +1290,7 @@ mPluginMimeTypeCount
 0
 ;
 }
-nsresult
+void
 nsMimeTypeArray
 :
 :
@@ -1302,7 +1302,6 @@ Clear
 (
 )
 ;
-return
 GetMimeTypes
 (
 )

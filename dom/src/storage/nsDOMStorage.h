@@ -757,6 +757,8 @@ public
 nsIDOMStorageManager
 public
 nsIObserver
+public
+nsSupportsWeakReference
 {
 public
 :
@@ -822,6 +824,12 @@ GetInstance
 static
 void
 Shutdown
+(
+)
+;
+static
+void
+ShutdownDB
 (
 )
 ;

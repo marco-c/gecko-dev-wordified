@@ -5333,13 +5333,6 @@ onMozAfterPaint
 )
 GK_ATOM
 (
-onMozBeforePaint
-"
-onMozBeforePaint
-"
-)
-GK_ATOM
-(
 onmozfullscreenchange
 "
 onmozfullscreenchange
@@ -12301,9 +12294,6 @@ one
 without
 an
 underscore
-#
-ifndef
-DISABLE_XFORMS_HOOKS
 GK_ATOM
 (
 avg
@@ -12390,8 +12380,6 @@ from
 dateTime
 "
 )
-#
-endif
 /
 /
 Simple

@@ -418,6 +418,13 @@ h
 #
 include
 "
+nsHtml5ViewSourceUtils
+.
+h
+"
+#
+include
+"
 nsHtml5Tokenizer
 .
 h

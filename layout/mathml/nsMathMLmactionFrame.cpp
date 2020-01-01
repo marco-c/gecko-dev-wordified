@@ -698,7 +698,7 @@ mListener
 mContent
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -713,7 +713,7 @@ false
 mContent
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -728,7 +728,7 @@ false
 mContent
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -1526,7 +1526,7 @@ this
 mContent
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -1542,7 +1542,7 @@ false
 mContent
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -1558,7 +1558,7 @@ false
 mContent
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (

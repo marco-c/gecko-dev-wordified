@@ -875,6 +875,9 @@ RegExpPrivate
 class
 RegExpPrivateCode
 ;
+class
+RegExpPrivateCacheValue
+;
 }
 /
 *
@@ -1185,8 +1188,7 @@ JSAtom
 detail
 :
 :
-RegExpPrivate
-*
+RegExpPrivateCacheValue
 DefaultHasher
 <
 JSAtom

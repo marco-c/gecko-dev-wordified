@@ -521,6 +521,13 @@ QuirkSheet
 )
 ;
 static
+nsCSSStyleSheet
+*
+FullScreenOverrideSheet
+(
+)
+;
+static
 void
 Shutdown
 (
@@ -632,6 +639,12 @@ nsRefPtr
 nsCSSStyleSheet
 >
 mQuirkSheet
+;
+nsRefPtr
+<
+nsCSSStyleSheet
+>
+mFullScreenOverrideSheet
 ;
 }
 ;

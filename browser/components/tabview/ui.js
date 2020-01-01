@@ -5311,7 +5311,7 @@ closing
 return
 ;
 }
-var
+let
 groupItem
 =
 GroupItems
