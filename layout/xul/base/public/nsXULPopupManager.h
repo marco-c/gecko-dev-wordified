@@ -1866,6 +1866,8 @@ PRBool
 aAlt
 PRBool
 aMeta
+PRBool
+aUserInput
 )
 :
 mMenu
@@ -1891,6 +1893,10 @@ aAlt
 mMeta
 (
 aMeta
+)
+mUserInput
+(
+aUserInput
 )
 {
 NS_ASSERTION
@@ -1934,6 +1940,9 @@ mAlt
 ;
 PRBool
 mMeta
+;
+PRBool
+mUserInput
 ;
 }
 ;
