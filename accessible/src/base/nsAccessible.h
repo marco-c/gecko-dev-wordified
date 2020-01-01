@@ -1070,6 +1070,13 @@ nsIAccessible
 aAccessible
 )
 ;
+/
+/
+Returns
+-
+1
+on
+failure
 static
 PRBool
 IsLeaf
