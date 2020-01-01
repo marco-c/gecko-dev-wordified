@@ -6433,6 +6433,10 @@ else
 {
 try
 {
+if
+(
+mimeInfo
+)
 return
 mimeInfo
 .
@@ -6444,6 +6448,7 @@ catch
 e
 )
 {
+}
 /
 /
 Fall
@@ -6470,7 +6475,6 @@ ext
 |
 urlext
 ;
-}
 }
 }
 function
