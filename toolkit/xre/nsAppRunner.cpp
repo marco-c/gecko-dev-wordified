@@ -15519,7 +15519,7 @@ MOZ_X11
 #
 ifndef
 MOZ_PLATFORM_MAEMO
-void
+bool
 fire_glxtest_process
 (
 )
@@ -15663,9 +15663,14 @@ MOZ_X11
 #
 ifndef
 MOZ_PLATFORM_MAEMO
+if
+(
 fire_glxtest_process
 (
 )
+)
+return
+0
 ;
 #
 endif
