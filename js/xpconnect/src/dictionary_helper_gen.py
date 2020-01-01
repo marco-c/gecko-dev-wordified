@@ -489,7 +489,7 @@ l
 =
 [
 "
-nsAutoString
+nsString
 %
 s
 "
