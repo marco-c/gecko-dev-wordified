@@ -3921,7 +3921,7 @@ if
 !
 newChildRect
 .
-IsEqualEdges
+IsEqualInterior
 (
 childRect
 )
@@ -7509,7 +7509,7 @@ if
 !
 childCurrentRect
 .
-IsEqualEdges
+IsEqualInterior
 (
 aChildActualRect
 )
