@@ -2113,6 +2113,10 @@ jsid
 sOnvolumechange_id
 ;
 static
+jsid
+sOnmessage_id
+;
+static
 JSPropertyOp
 sXPCNativeWrapperGetPropertyOp
 ;
