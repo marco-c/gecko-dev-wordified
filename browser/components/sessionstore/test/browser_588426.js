@@ -71,7 +71,7 @@ url
 "
 about
 :
-robots
+rights
 "
 }
 ]

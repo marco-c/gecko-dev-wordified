@@ -437,7 +437,7 @@ url
 "
 about
 :
-robots
+rights
 "
 }
 ]
@@ -1414,7 +1414,7 @@ spec
 "
 about
 :
-robots
+rights
 "
 )
 ;
@@ -1663,7 +1663,7 @@ spec
 "
 about
 :
-robots
+rights
 "
 )
 ;

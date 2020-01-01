@@ -53,7 +53,7 @@ url
 "
 about
 :
-robots
+mozilla
 "
 }
 ]

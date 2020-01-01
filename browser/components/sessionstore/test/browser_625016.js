@@ -278,7 +278,7 @@ no
 "
 about
 :
-robots
+rights
 "
 )
 ;
