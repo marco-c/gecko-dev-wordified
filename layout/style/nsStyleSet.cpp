@@ -2135,7 +2135,9 @@ sheetService
 nsStyleSheetService
 :
 :
-gInstance
+GetInstance
+(
+)
 ;
 /
 /

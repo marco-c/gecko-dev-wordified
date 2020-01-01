@@ -284,6 +284,13 @@ aMallocSizeOf
 static
 nsStyleSheetService
 *
+GetInstance
+(
+)
+;
+static
+nsStyleSheetService
+*
 gInstance
 ;
 private
