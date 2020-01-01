@@ -283,6 +283,15 @@ prototype
 sort
 ;
 var
+std_Array_unshift
+=
+Array
+.
+prototype
+.
+unshift
+;
+var
 std_Boolean_toString
 =
 Boolean
