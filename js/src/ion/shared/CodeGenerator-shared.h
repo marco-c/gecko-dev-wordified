@@ -2097,8 +2097,7 @@ framePushed_
 void
 setSource
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -2124,8 +2123,7 @@ return
 pc_
 ;
 }
-JSScript
-*
+UnrootedScript
 script
 (
 )

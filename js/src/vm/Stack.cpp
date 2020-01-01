@@ -392,8 +392,7 @@ StackFrame
 :
 initExecuteFrame
 (
-JSScript
-*
+UnrootedScript
 script
 StackFrame
 *
@@ -570,8 +569,7 @@ u
 evalScript
 =
 (
-JSScript
-*
+RawScript
 )
 0xbad
 ;
@@ -8435,8 +8433,7 @@ jsbytecode
 script_
 =
 (
-JSScript
-*
+RawScript
 )
 0xbad
 ;
