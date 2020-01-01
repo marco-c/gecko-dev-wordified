@@ -7521,9 +7521,14 @@ cg
 ;
 if
 (
+!
 script
-&
-&
+)
+goto
+out
+;
+if
+(
 funbox
 )
 script
@@ -7536,11 +7541,6 @@ true
 #
 ifdef
 JS_SCOPE_DEPTH_METER
-if
-(
-script
-)
-{
 JSObject
 *
 obj
@@ -7585,7 +7585,6 @@ hostenvScopeDepthStats
 depth
 )
 ;
-}
 #
 endif
 {
