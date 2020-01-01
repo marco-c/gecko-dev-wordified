@@ -28180,7 +28180,7 @@ runtime
 )
 -
 >
-atomsZoneNeedsBarrier
+activeGCInAtomsZone
 (
 )
 )
