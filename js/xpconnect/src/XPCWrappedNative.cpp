@@ -8599,6 +8599,7 @@ NS_ASSERTION
 (
 JS_IsAboutToBeFinalized
 (
+&
 jso
 )
 "

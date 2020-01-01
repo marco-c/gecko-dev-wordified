@@ -4987,8 +4987,9 @@ view
 if
 (
 !
-JS_IsAboutToBeFinalized
+IsObjectAboutToBeFinalized
 (
+&
 view
 )
 )
