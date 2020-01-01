@@ -416,7 +416,6 @@ gfxCore
 h
 "
 class
-NS_GFX
 nsPaletteOS2
 {
 public
