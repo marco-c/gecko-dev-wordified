@@ -3208,6 +3208,7 @@ expected
 setup
 success
 failure
+flavor
 )
 {
 self
@@ -3220,6 +3221,7 @@ expected
 setup
 success
 failure
+flavor
 )
 ;
 }
