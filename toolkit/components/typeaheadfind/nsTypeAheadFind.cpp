@@ -6466,7 +6466,6 @@ visible
 /
 Otherwise
 return
-a
 the
 first
 visible
