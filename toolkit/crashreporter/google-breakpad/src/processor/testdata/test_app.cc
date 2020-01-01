@@ -347,12 +347,6 @@ releasestaticcrt
 exception_handler
 .
 lib
-\
-/
-/
-ole32
-.
-lib
 /
 /
 Then

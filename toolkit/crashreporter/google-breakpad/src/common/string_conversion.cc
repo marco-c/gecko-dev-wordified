@@ -325,6 +325,13 @@ string_conversion
 .
 h
 "
+#
+include
+<
+string
+.
+h
+>
 namespace
 google_breakpad
 {

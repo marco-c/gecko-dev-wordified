@@ -489,6 +489,13 @@ time
 .
 h
 >
+#
+include
+<
+string
+.
+h
+>
 using
 std
 :
