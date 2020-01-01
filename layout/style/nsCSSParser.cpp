@@ -32838,6 +32838,8 @@ ParseNonNegativeVariant
 (
 aValue
 VARIANT_HKLPO
+|
+VARIANT_CALC
 nsCSSProps
 :
 :
@@ -32865,6 +32867,8 @@ ParseNonNegativeVariant
 (
 aValue
 VARIANT_HKLP
+|
+VARIANT_CALC
 nsCSSProps
 :
 :
