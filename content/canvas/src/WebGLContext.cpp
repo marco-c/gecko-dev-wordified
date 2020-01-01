@@ -1419,12 +1419,6 @@ gl
 nsnull
 )
 {
-mWidth
-=
-mHeight
-=
-0
-;
 mGeneration
 =
 0
