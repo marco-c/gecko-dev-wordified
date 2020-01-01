@@ -678,6 +678,7 @@ JSVAL_TYPE_OBJECT
 }
 }
 static
+inline
 const
 char
 *
