@@ -4234,7 +4234,7 @@ mCanvasElement
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 DOMCI_DATA
 (
-CanvasRenderingContextWebGL
+WebGLRenderingContext
 WebGLContext
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
@@ -4260,7 +4260,7 @@ nsIDOMWebGLRenderingContext
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
-CanvasRenderingContextWebGL
+WebGLRenderingContext
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_ADDREF
