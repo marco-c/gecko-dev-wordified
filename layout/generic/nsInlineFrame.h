@@ -724,12 +724,6 @@ nsDisplayListSet
 aLists
 )
 ;
-virtual
-void
-Destroy
-(
-)
-;
 #
 ifdef
 ACCESSIBILITY
