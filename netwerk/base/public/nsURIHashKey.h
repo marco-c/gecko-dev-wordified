@@ -663,7 +663,7 @@ ALLOW_MEMMOVE
 PR_TRUE
 }
 ;
-private
+protected
 :
 nsCOMPtr
 <
