@@ -566,14 +566,15 @@ path
 .
 join
 (
+            
 outdir
-                            
+            
 *
 (
 [
 ns
 .
-namespace
+name
 for
 ns
 in
@@ -587,7 +588,7 @@ namespaces
 [
 hdr
 .
-filename
+name
 ]
 )
 )
