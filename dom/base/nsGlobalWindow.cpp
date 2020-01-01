@@ -61042,7 +61042,7 @@ elm
 elm
 -
 >
-GetJSEventListener
+GetEventHandler
 (
 nsGkAtoms
 :
@@ -61141,7 +61141,7 @@ return
 elm
 -
 >
-SetJSEventListenerToJsval
+SetEventHandlerToJsval
 (
 nsGkAtoms
 :
