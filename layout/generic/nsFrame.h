@@ -4099,13 +4099,6 @@ PRInt32
 aTarget
 )
 ;
-virtual
-PRBool
-ParentDisablesSelection
-(
-)
-const
-;
 /
 /
 Fills
