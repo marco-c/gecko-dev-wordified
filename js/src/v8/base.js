@@ -1,7 +1,7 @@
 /
 /
 Copyright
-2008
+2012
 the
 V8
 project
@@ -673,7 +673,7 @@ BenchmarkSuite
 version
 =
 '
-6
+7
 '
 ;
 /
