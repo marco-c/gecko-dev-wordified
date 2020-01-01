@@ -30079,6 +30079,16 @@ return
 will
 work
 .
+if
+(
+win
+-
+>
+IsOuterWindow
+(
+)
+)
+{
 win
 -
 >
@@ -30086,6 +30096,7 @@ EnsureInnerWindow
 (
 )
 ;
+}
 nsCOMPtr
 <
 nsIDOMLocation
