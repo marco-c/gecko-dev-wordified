@@ -147,7 +147,6 @@ org
 /
 MPL
 /
-I
 *
 *
 Software
@@ -4732,7 +4731,7 @@ from
 the
 primary
 frame
-man
+map
 and
 clears
 undisplayed
