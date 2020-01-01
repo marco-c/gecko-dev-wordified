@@ -486,6 +486,13 @@ XPCWrapper
 .
 h
 "
+#
+include
+"
+jsscope
+.
+h
+"
 const
 PRUint32
 XPCWrapper
