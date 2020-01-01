@@ -5076,13 +5076,6 @@ window
 newCursor
 )
 ;
-XFlush
-(
-GDK_DISPLAY
-(
-)
-)
-;
 }
 }
 return
@@ -5908,13 +5901,6 @@ mContainer
 >
 window
 cursor
-)
-;
-XFlush
-(
-GDK_DISPLAY
-(
-)
 )
 ;
 rv
