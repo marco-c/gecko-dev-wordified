@@ -181,7 +181,7 @@ it
 const
 APP_TIMER_TIMEOUT
 =
-20000
+120000
 ;
 let
 gAppTimer
