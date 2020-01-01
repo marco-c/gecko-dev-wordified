@@ -663,7 +663,14 @@ aRead
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+NotifySuccess
+(
+aRead
+?
+JSVAL_TRUE
+:
+JSVAL_FALSE
+)
 ;
 }
 NS_IMETHODIMP
@@ -677,7 +684,10 @@ aError
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+NotifyError
+(
+aError
+)
 ;
 }
 NS_IMETHODIMP
