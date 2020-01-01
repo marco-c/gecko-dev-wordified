@@ -708,8 +708,9 @@ intrinsic
 (
 _InterlockedCompareExchange
 )
-static
 JS_INLINE
+(
+static
 int
 js_CompareAndSwapHelper
 (
@@ -720,6 +721,7 @@ jsword
 ov
 jsword
 nv
+)
 )
 {
 _InterlockedCompareExchange
@@ -735,8 +737,9 @@ sete
 al
 }
 }
-static
 JS_INLINE
+(
+static
 int
 js_CompareAndSwap
 (
@@ -747,6 +750,7 @@ jsword
 ov
 jsword
 nv
+)
 )
 {
 return
@@ -783,8 +787,9 @@ OSAtomic
 .
 h
 >
-static
 JS_INLINE
+(
+static
 int
 js_CompareAndSwap
 (
@@ -795,6 +800,7 @@ jsword
 ov
 jsword
 nv
+)
 )
 {
 /
@@ -882,8 +888,9 @@ a
 instruction
 *
 /
-static
 JS_INLINE
+(
+static
 int
 js_CompareAndSwap
 (
@@ -894,6 +901,7 @@ jsword
 ov
 jsword
 nv
+)
 )
 {
 unsigned
@@ -1165,8 +1173,9 @@ defined
 (
 ULTRA_SPARC
 )
-static
 JS_INLINE
+(
+static
 int
 js_CompareAndSwap
 (
@@ -1177,6 +1186,7 @@ jsword
 ov
 jsword
 nv
+)
 )
 {
 #
@@ -1336,8 +1346,9 @@ atomic_op
 .
 h
 >
-static
 JS_INLINE
+(
+static
 int
 js_CompareAndSwap
 (
@@ -1348,6 +1359,7 @@ jsword
 ov
 jsword
 nv
+)
 )
 {
 return
@@ -6540,6 +6552,7 @@ tl
 ;
 }
 JS_INLINE
+(
 void
 js_Lock
 (
@@ -6548,6 +6561,7 @@ JSThinLock
 tl
 jsword
 me
+)
 )
 {
 JS_ASSERT
@@ -6608,6 +6622,7 @@ JS_ASSERT
 endif
 }
 JS_INLINE
+(
 void
 js_Unlock
 (
@@ -6616,6 +6631,7 @@ JSThinLock
 tl
 jsword
 me
+)
 )
 {
 JS_ASSERT
