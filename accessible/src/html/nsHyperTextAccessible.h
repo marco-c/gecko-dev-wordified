@@ -489,13 +489,6 @@ h
 #
 include
 "
-nsTextAttrs
-.
-h
-"
-#
-include
-"
 nsFrameSelection
 .
 h

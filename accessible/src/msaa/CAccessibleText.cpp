@@ -479,6 +479,13 @@ nsHyperTextAccessible
 .
 h
 "
+#
+include
+"
+nsIPersistentProperties2
+.
+h
+"
 /
 /
 IUnknown

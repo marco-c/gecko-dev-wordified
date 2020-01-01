@@ -482,6 +482,13 @@ nsRoleMap
 .
 h
 "
+#
+include
+"
+nsIPersistentProperties2
+.
+h
+"
 AtkAttributeSet
 *
 ConvertToAtkAttributeSet
