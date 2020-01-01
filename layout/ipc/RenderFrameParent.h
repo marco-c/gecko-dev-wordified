@@ -716,6 +716,12 @@ PLayersParent
 *
 AllocPLayers
 (
+LayerManager
+:
+:
+LayersBackend
+*
+aBackendType
 )
 ;
 NS_OVERRIDE
