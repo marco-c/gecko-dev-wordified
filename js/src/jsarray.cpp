@@ -22071,9 +22071,11 @@ jsvalCount
 =
 JS_MIN
 (
-js_DenseArrayCapacity
-(
 obj
+-
+>
+getDenseArrayCapacity
+(
 )
 length
 )
