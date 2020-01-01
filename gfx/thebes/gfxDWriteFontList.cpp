@@ -1480,7 +1480,7 @@ false
 }
 static
 bool
-UsingArabicScriptSystemLocale
+UsingArabicOrHebrewScriptSystemLocale
 (
 )
 {
@@ -1522,6 +1522,9 @@ LANG_UIGHUR
 case
 LANG_URDU
 :
+case
+LANG_HEBREW
+:
 return
 true
 ;
@@ -1561,7 +1564,7 @@ PlatformFontList
 ;
 /
 /
-don
+Don
 '
 t
 use
@@ -1593,6 +1596,15 @@ discrepancies
 see
 bug
 629386
+.
+/
+/
+Ditto
+for
+Hebrew
+bug
+837498
+.
 if
 (
 mFont
@@ -1611,7 +1623,7 @@ UseGDIFontTableAccess
 mItalic
 &
 &
-UsingArabicScriptSystemLocale
+UsingArabicOrHebrewScriptSystemLocale
 (
 )
 )
