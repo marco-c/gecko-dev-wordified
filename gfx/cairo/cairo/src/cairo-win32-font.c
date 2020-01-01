@@ -6463,6 +6463,8 @@ start_x
 logical_x
 ;
 }
+else
+{
 dx
 =
 logical_x
@@ -6492,6 +6494,7 @@ status
 return
 status
 ;
+}
 }
 else
 {
