@@ -3274,6 +3274,11 @@ script
 mLineNo
 doc
 mPrototype
+-
+>
+GetScriptGlobalObject
+(
+)
 )
 ;
 }
