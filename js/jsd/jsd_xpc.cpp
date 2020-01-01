@@ -9274,7 +9274,7 @@ JSObject
 *
 glob
 =
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 mJSCx
 )
