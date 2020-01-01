@@ -1756,9 +1756,7 @@ logoElt
 .
 alt
 =
-searchEngineInfo
-.
-name
+searchEngineName
 ;
 }
 /
