@@ -47049,7 +47049,7 @@ doc
 ;
 nsCOMPtr
 <
-nsIDOMHTMLElement
+nsIDOMElement
 >
 fse
 ;
@@ -47214,7 +47214,7 @@ nsDocument
 :
 GetMozFullScreenElement
 (
-nsIDOMHTMLElement
+nsIDOMElement
 *
 *
 aFullScreenElement
