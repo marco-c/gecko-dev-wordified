@@ -959,6 +959,15 @@ mCache
 cache
 ;
 }
+PRInt64
+GetMtime
+(
+)
+{
+return
+mMtime
+;
+}
 protected
 :
 /
@@ -1068,6 +1077,9 @@ in
 PRLock
 *
 mLock
+;
+PRInt64
+mMtime
 ;
 PRInt32
 mTotalItemsInManifest
