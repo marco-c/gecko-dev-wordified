@@ -734,6 +734,9 @@ const
 Range
 *
 rhs
+bool
+*
+nullRange
 )
 ;
 static
