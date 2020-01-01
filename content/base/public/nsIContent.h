@@ -2488,8 +2488,15 @@ an
 attribute
 exists
 *
+*
+Implemented
+inline
+in
+Element
+.
+h
+*
 /
-virtual
 bool
 HasAttr
 (
@@ -2500,8 +2507,6 @@ nsIAtom
 aName
 )
 const
-=
-0
 ;
 /
 *
