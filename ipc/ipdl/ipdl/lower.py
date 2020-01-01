@@ -23496,7 +23496,7 @@ Decl
 Type
 (
 '
-nsIFile
+nsILocalFile
 '
 ptrptr
 =

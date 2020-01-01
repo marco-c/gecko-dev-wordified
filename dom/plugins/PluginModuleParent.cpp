@@ -1699,7 +1699,7 @@ AbnormalShutdown
 {
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 dump
 ;
