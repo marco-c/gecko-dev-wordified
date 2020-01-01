@@ -4844,7 +4844,7 @@ ma_cmp
 (
 ToRegister
 (
-lhs
+dest
 )
 Imm32
 (
