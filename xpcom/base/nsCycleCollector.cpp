@@ -2827,6 +2827,10 @@ mStats
 (
 stats
 )
+mCurrGen
+(
+0
+)
 mTransferBuffer
 (
 nsnull
@@ -2849,6 +2853,10 @@ params
 mParams
 (
 params
+)
+mCurrGen
+(
+0
 )
 mTransferBuffer
 (
