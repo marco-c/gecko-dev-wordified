@@ -228,7 +228,7 @@ undefined
 expect
 =
 /
-Exception
+TypeError
 /
 ;
 try
