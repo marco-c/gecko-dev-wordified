@@ -507,13 +507,6 @@ aspx
 *
 /
 #
-include
-<
-vsstyle
-.
-h
->
-#
 define
 THEME_COLOR
 204
@@ -1146,10 +1139,6 @@ left
 mirroring
 #
 endif
-#
-define
-TMT_TRANSITIONDURATIONS
-6000
 /
 /
 Our
