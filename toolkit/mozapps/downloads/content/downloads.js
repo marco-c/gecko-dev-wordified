@@ -8078,6 +8078,10 @@ clear
 list
 to
 update
+updateClearListButton
+(
+)
+;
 setTimeout
 (
 function
