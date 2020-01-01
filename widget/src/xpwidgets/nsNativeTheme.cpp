@@ -2017,6 +2017,15 @@ if
 (
 !
 aFrame
+|
+|
+!
+aFrame
+-
+>
+GetContent
+(
+)
 )
 return
 eTreeSortDirection_Natural
