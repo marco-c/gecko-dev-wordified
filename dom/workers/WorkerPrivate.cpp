@@ -1611,6 +1611,8 @@ about
 :
 memory
 .
+rv
+=
 ReportJSRuntimeExplicitTreeStats
 (
 rtStats
@@ -1619,6 +1621,18 @@ aCallback
 aClosure
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+{
+return
+rv
+;
+}
 return
 NS_OK
 ;

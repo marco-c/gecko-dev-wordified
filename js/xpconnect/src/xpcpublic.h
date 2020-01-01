@@ -1629,7 +1629,7 @@ of
 them
 )
 .
-void
+nsresult
 ReportJSRuntimeExplicitTreeStats
 (
 const
@@ -1645,7 +1645,7 @@ nsACString
 pathPrefix
 nsIMemoryMultiReporterCallback
 *
-callback
+cb
 nsISupports
 *
 closure

@@ -1121,7 +1121,7 @@ CollectReports
 (
 nsIMemoryMultiReporterCallback
 *
-aCallback
+aCb
 nsISupports
 *
 aClosure
@@ -1199,7 +1199,7 @@ FILE
 aFile
 nsIMemoryMultiReporterCallback
 *
-aCallback
+aCb
 nsISupports
 *
 aClosure
@@ -1243,7 +1243,7 @@ nsACString
 aDescription
 nsIMemoryMultiReporterCallback
 *
-aCallback
+aCb
 nsISupports
 *
 aClosure
@@ -1345,7 +1345,7 @@ CollectReports
 (
 nsIMemoryMultiReporterCallback
 *
-aCallback
+aCb
 nsISupports
 *
 aClosure
@@ -1392,7 +1392,7 @@ rv
 ParseMapping
 (
 f
-aCallback
+aCb
 aClosure
 &
 categoriesSeen
@@ -1532,7 +1532,12 @@ categoriesSeen
 mSeenSwap
 )
 {
-aCallback
+nsresult
+rv
+;
+rv
+=
+aCb
 -
 >
 Callback
@@ -1574,6 +1579,12 @@ space
 "
 )
 aClosure
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }
@@ -1807,7 +1818,7 @@ FILE
 aFile
 nsIMemoryMultiReporterCallback
 *
-aCallback
+aCb
 nsISupports
 *
 aClosure
@@ -2260,7 +2271,7 @@ ParseMapBody
 aFile
 name
 description
-aCallback
+aCb
 aClosure
 aCategoriesSeen
 )
@@ -3189,7 +3200,7 @@ nsACString
 aDescription
 nsIMemoryMultiReporterCallback
 *
-aCallback
+aCb
 nsISupports
 *
 aClosure
@@ -3457,7 +3468,12 @@ Append
 aName
 )
 ;
-aCallback
+nsresult
+rv
+;
+rv
+=
+aCb
 -
 >
 Callback
@@ -3491,6 +3507,12 @@ to
 bytes
 aDescription
 aClosure
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 return
