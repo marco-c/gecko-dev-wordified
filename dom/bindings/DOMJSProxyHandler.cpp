@@ -400,7 +400,6 @@ nsISupports
 >
 (
 obj
-eProxyDOMObject
 )
 &
 cache

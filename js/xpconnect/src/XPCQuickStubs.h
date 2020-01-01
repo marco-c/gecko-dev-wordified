@@ -2523,15 +2523,6 @@ dom
 DOMClass
 *
 domClass
-;
-mozilla
-:
-:
-dom
-:
-:
-DOMObjectSlot
-slot
 =
 mozilla
 :
@@ -2542,7 +2533,6 @@ dom
 GetDOMClass
 (
 cur
-domClass
 )
 ;
 native
@@ -2559,7 +2549,6 @@ nsISupports
 >
 (
 cur
-slot
 )
 ;
 if

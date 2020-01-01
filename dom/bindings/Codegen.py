@@ -5833,7 +5833,6 @@ s
 >
 (
 obj
-eRegularDOMObject
 )
 ;
 "

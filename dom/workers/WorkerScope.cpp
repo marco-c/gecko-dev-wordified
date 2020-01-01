@@ -3791,7 +3791,6 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
-eRegularDOMObject
 )
 ;
 }
@@ -3941,7 +3940,6 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
-eRegularDOMObject
 )
 ;
 if
@@ -3999,7 +3997,6 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
-eRegularDOMObject
 )
 ;
 if
@@ -4383,7 +4380,6 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
-eRegularDOMObject
 )
 ;
 }
