@@ -3989,7 +3989,7 @@ offset
 ;
 to
 .
-extraShapeGuard
+hasExtraStub
 =
 0
 ;

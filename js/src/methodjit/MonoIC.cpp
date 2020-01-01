@@ -1303,7 +1303,7 @@ shape
 {
 JS_ASSERT
 (
-extraShapeGuard
+hasExtraStub
 )
 ;
 JSC
@@ -2071,11 +2071,6 @@ extraShapeGuard
 offset
 )
 ;
-JS_ASSERT
-(
-offset
-)
-;
 ic
 -
 >
@@ -2131,6 +2126,13 @@ extraStoreOffset
 =
 offset
 )
+;
+ic
+-
+>
+hasExtraStub
+=
+true
 ;
 return
 Lookup_Cacheable
@@ -2434,7 +2436,7 @@ if
 ic
 -
 >
-extraShapeGuard
+hasExtraStub
 )
 return
 UpdateSetGlobalNameStub
@@ -8827,7 +8829,7 @@ if
 (
 ic
 .
-extraShapeGuard
+hasExtraStub
 )
 {
 Repatcher
@@ -9543,7 +9545,7 @@ if
 !
 ic
 .
-extraShapeGuard
+hasExtraStub
 )
 continue
 ;
@@ -9568,9 +9570,9 @@ slowPathStart
 ;
 ic
 .
-extraShapeGuard
+hasExtraStub
 =
-0
+false
 ;
 released
 +

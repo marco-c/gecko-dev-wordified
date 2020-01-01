@@ -2050,7 +2050,9 @@ ARMRegisters
 :
 :
 S0
-0
+address
+.
+offset
 )
 ;
 m_assembler
@@ -2183,7 +2185,9 @@ ARMRegisters
 :
 :
 S0
-0
+address
+.
+offset
 )
 ;
 m_assembler
@@ -2300,7 +2304,9 @@ ARMRegisters
 :
 :
 S0
-0
+address
+.
+offset
 )
 ;
 m_assembler
