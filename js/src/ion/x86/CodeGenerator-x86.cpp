@@ -509,10 +509,10 @@ js
 :
 ion
 ;
-CodeGenerator
+CodeGeneratorX86
 :
 :
-CodeGenerator
+CodeGeneratorX86
 (
 MIRGenerator
 *
@@ -530,7 +530,7 @@ graph
 {
 }
 bool
-CodeGenerator
+CodeGeneratorX86
 :
 :
 visitValue
@@ -717,7 +717,7 @@ JSVAL_TAG_NULL
 ;
 }
 bool
-CodeGenerator
+CodeGeneratorX86
 :
 :
 visitBox
@@ -827,7 +827,7 @@ true
 ;
 }
 bool
-CodeGenerator
+CodeGeneratorX86
 :
 :
 visitBoxDouble
@@ -950,7 +950,7 @@ true
 ;
 }
 bool
-CodeGenerator
+CodeGeneratorX86
 :
 :
 visitUnbox
@@ -999,7 +999,7 @@ true
 ;
 }
 bool
-CodeGenerator
+CodeGeneratorX86
 :
 :
 visitReturn
@@ -1170,7 +1170,7 @@ d_
 }
 ;
 bool
-CodeGenerator
+CodeGeneratorX86
 :
 :
 visitDouble
@@ -1288,7 +1288,7 @@ true
 ;
 }
 bool
-CodeGenerator
+CodeGeneratorX86
 :
 :
 visitUnboxDouble
@@ -1411,7 +1411,7 @@ true
 ;
 }
 bool
-CodeGenerator
+CodeGeneratorX86
 :
 :
 visitUnboxDoubleSSE41

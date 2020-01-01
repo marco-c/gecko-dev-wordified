@@ -486,12 +486,12 @@ namespace
 ion
 {
 class
-CodeGenerator
+CodeGeneratorX86
 :
 public
 CodeGeneratorX86Shared
 {
-CodeGenerator
+CodeGeneratorX86
 *
 thisFromCtor
 (
@@ -503,7 +503,7 @@ this
 }
 public
 :
-CodeGenerator
+CodeGeneratorX86
 (
 MIRGenerator
 *
@@ -580,6 +580,10 @@ ins
 )
 ;
 }
+;
+typedef
+CodeGeneratorX86
+CodeGeneratorSpecific
 ;
 }
 /
