@@ -47664,7 +47664,7 @@ window
 window
 -
 >
-DispatchAsyncHashchange
+DispatchSyncHashchange
 (
 )
 ;
