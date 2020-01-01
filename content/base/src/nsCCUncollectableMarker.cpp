@@ -2038,7 +2038,7 @@ ClearContentUnbinder
 Increase
 generation
 to
-effectivly
+effectively
 unmark
 all
 current
