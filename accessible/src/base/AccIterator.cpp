@@ -2720,10 +2720,6 @@ nsIAtom
 aIDRefsAttr
 )
 :
-mCurrIdx
-(
-0
-)
 mContent
 (
 aContent
@@ -2731,6 +2727,10 @@ aContent
 mDoc
 (
 aDoc
+)
+mCurrIdx
+(
+0
 )
 {
 if
