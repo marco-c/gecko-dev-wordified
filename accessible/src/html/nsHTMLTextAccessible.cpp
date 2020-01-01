@@ -1349,15 +1349,6 @@ NativeState
 )
 {
 return
-IsDefunct
-(
-)
-?
-states
-:
-:
-DEFUNCT
-:
 states
 :
 :
