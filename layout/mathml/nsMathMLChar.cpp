@@ -6184,6 +6184,8 @@ base
 "
 )
 ;
+break
+;
 case
 eExtension_variants
 :
@@ -6197,6 +6199,8 @@ variants
 "
 )
 ;
+break
+;
 case
 eExtension_parts
 :
@@ -6209,6 +6213,8 @@ AssignLiteral
 parts
 "
 )
+;
+break
 ;
 default
 :
