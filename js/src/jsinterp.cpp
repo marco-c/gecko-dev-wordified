@@ -16616,6 +16616,9 @@ endif
 JS_THREADED_INTERP
 *
 /
+#
+ifdef
+JS_TRACER
 /
 *
 We
@@ -16667,6 +16670,8 @@ recorder
 NULL
 ;
 }
+#
+endif
 /
 *
 Check
@@ -44370,6 +44375,9 @@ cx
 >
 interpLevel
 ;
+#
+ifdef
+JS_TRACER
 if
 (
 tr
@@ -44392,6 +44400,8 @@ deepAbort
 )
 ;
 }
+#
+endif
 return
 ok
 ;
