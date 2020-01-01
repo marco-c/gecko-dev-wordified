@@ -109,7 +109,7 @@ h
 #
 include
 "
-ProfileEntry2
+ProfileEntry
 .
 h
 "
@@ -180,7 +180,7 @@ context
 .
 Adds
 a
-ProfileEntry2
+ProfileEntry
 /
 /
 into
@@ -211,7 +211,7 @@ MOD
 UnwinderThreadBuffer
 *
 utb
-ProfileEntry2
+ProfileEntry
 ent
 )
 ;
@@ -518,7 +518,7 @@ thread
 void
 uwt__release_full_buffer
 (
-ThreadProfile2
+ThreadProfile
 *
 aProfile
 UnwinderThreadBuffer

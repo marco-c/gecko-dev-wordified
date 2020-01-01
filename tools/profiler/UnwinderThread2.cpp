@@ -260,7 +260,7 @@ iostream
 #
 include
 "
-ProfileEntry2
+ProfileEntry
 .
 h
 "
@@ -597,7 +597,7 @@ CONTEXT
 void
 uwt__release_full_buffer
 (
-ThreadProfile2
+ThreadProfile
 *
 aProfile
 UnwinderThreadBuffer
@@ -633,7 +633,7 @@ MODIFIED
 UnwinderThreadBuffer
 *
 utb
-ProfileEntry2
+ProfileEntry
 ent
 )
 {
@@ -996,7 +996,7 @@ static
 void
 release_full_buffer
 (
-ThreadProfile2
+ThreadProfile
 *
 aProfile
 UnwinderThreadBuffer
@@ -1027,7 +1027,7 @@ utb_add_prof_ent
 UnwinderThreadBuffer
 *
 utb
-ProfileEntry2
+ProfileEntry
 ent
 )
 ;
@@ -1179,7 +1179,7 @@ CONTEXT
 void
 uwt__release_full_buffer
 (
-ThreadProfile2
+ThreadProfile
 *
 aProfile
 UnwinderThreadBuffer
@@ -1222,7 +1222,7 @@ MODIFIED
 UnwinderThreadBuffer
 *
 utb
-ProfileEntry2
+ProfileEntry
 ent
 )
 {
@@ -1594,7 +1594,7 @@ The
 number
 of
 fixed
-ProfileEntry2
+ProfileEntry
 slots
 .
 If
@@ -1637,7 +1637,7 @@ on
 arm
 )
 each
-ProfileEntry2
+ProfileEntry
 is
 8
 bytes
@@ -1675,7 +1675,7 @@ SPS_PAGE_SIZE
 /
 sizeof
 (
-ProfileEntry2
+ProfileEntry
 )
 )
 /
@@ -1683,7 +1683,7 @@ ProfileEntry2
 A
 page
 of
-ProfileEntry2s
+ProfileEntrys
 .
 This
 might
@@ -1704,7 +1704,7 @@ multiple
 of
 sizeof
 (
-ProfileEntry2
+ProfileEntry
 )
 .
 *
@@ -1712,7 +1712,7 @@ ProfileEntry2
 typedef
 struct
 {
-ProfileEntry2
+ProfileEntry
 ents
 [
 N_PROF_ENTS_PER_PAGE
@@ -1860,7 +1860,7 @@ seqNo
 /
 *
 The
-ThreadProfile2
+ThreadProfile
 into
 which
 the
@@ -1873,7 +1873,7 @@ dumped
 .
 *
 /
-ThreadProfile2
+ThreadProfile
 *
 aProfile
 ;
@@ -1887,7 +1887,7 @@ always
 present
 *
 /
-ProfileEntry2
+ProfileEntry
 entsFixed
 [
 N_FIXED_PROF_ENTS
@@ -4025,7 +4025,7 @@ static
 void
 release_full_buffer
 (
-ThreadProfile2
+ThreadProfile
 *
 aProfile
 UnwinderThreadBuffer
@@ -5272,7 +5272,7 @@ MODIFIED
 UnwinderThreadBuffer
 *
 utb
-ProfileEntry2
+ProfileEntry
 ent
 )
 {
@@ -5320,7 +5320,7 @@ utb__addEntry
 NO
 SPACE
 for
-ProfileEntry2
+ProfileEntry
 ;
 ignoring
 .
@@ -5496,7 +5496,7 @@ utb__addEntry
 MMAP
 FAILED
 for
-ProfileEntry2
+ProfileEntry
 ;
 ignoring
 .
@@ -5540,7 +5540,7 @@ entsUsed
 misc
 helper
 static
-ProfileEntry2
+ProfileEntry
 utb_get_profent
 (
 UnwinderThreadBuffer
@@ -6808,7 +6808,7 @@ k
 +
 )
 {
-ProfileEntry2
+ProfileEntry
 ent
 =
 utb_get_profent
@@ -7067,7 +7067,7 @@ k
 +
 )
 {
-ProfileEntry2
+ProfileEntry
 ent
 =
 utb_get_profent
@@ -7194,7 +7194,7 @@ k
 +
 )
 {
-ProfileEntry2
+ProfileEntry
 ent
 =
 utb_get_profent
@@ -7263,7 +7263,7 @@ aProfile
 >
 addTag
 (
-ProfileEntry2
+ProfileEntry
 (
 '
 s
@@ -7301,7 +7301,7 @@ aProfile
 >
 addTag
 (
-ProfileEntry2
+ProfileEntry
 (
 '
 l
@@ -7529,7 +7529,7 @@ k
 +
 )
 {
-ProfileEntry2
+ProfileEntry
 ent
 =
 utb_get_profent
@@ -7569,7 +7569,7 @@ aProfile
 >
 addTag
 (
-ProfileEntry2
+ProfileEntry
 (
 '
 s
@@ -7800,7 +7800,7 @@ k
 +
 )
 {
-ProfileEntry2
+ProfileEntry
 ent
 =
 utb_get_profent
@@ -7901,7 +7901,7 @@ aProfile
 >
 addTag
 (
-ProfileEntry2
+ProfileEntry
 (
 '
 s
@@ -8265,7 +8265,7 @@ buff
 entsUsed
 )
 ;
-ProfileEntry2
+ProfileEntry
 ent
 =
 utb_get_profent
@@ -8467,7 +8467,7 @@ buff
 entsUsed
 )
 ;
-ProfileEntry2
+ProfileEntry
 ent
 =
 utb_get_profent
@@ -8590,7 +8590,7 @@ aProfile
 >
 addTag
 (
-ProfileEntry2
+ProfileEntry
 (
 '
 l
@@ -8682,7 +8682,7 @@ k
 +
 )
 {
-ProfileEntry2
+ProfileEntry
 ent
 =
 utb_get_profent
@@ -8839,7 +8839,7 @@ k
 +
 )
 {
-ProfileEntry2
+ProfileEntry
 ent
 =
 utb_get_profent
@@ -8961,7 +8961,7 @@ aProfile
 >
 addTag
 (
-ProfileEntry2
+ProfileEntry
 (
 '
 s
@@ -8999,7 +8999,7 @@ aProfile
 >
 addTag
 (
-ProfileEntry2
+ProfileEntry
 (
 '
 l
