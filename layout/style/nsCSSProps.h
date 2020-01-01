@@ -707,6 +707,11 @@ values
 eStyleAnimType_Color
 /
 /
+nsStyleSVGPaint
+values
+eStyleAnimType_PaintServer
+/
+/
 property
 not
 animatable
