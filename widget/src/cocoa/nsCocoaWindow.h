@@ -483,9 +483,12 @@ mGeckoWindow
 WEAK
 ]
 (
-it
-owns
-us
+we
+are
+owned
+by
+the
+window
 )
 }
 -
