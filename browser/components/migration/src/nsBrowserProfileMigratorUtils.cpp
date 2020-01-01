@@ -2078,6 +2078,7 @@ ImportHTMLFromFileToFolder
 (
 localFile
 folder
+PR_TRUE
 )
 ;
 return

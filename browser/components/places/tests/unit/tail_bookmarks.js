@@ -403,8 +403,8 @@ here
 /
 remove
 bookmarks
-file
-clearDB
+files
+cleanUp
 (
 )
 ;

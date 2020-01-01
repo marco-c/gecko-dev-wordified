@@ -1641,6 +1641,7 @@ importer
 importHTMLFromFile
 (
 bookmarksFile
+true
 )
 ;
 }
