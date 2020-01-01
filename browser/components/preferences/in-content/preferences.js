@@ -217,6 +217,12 @@ init
 (
 )
 ;
+gSecurityPane
+.
+init
+(
+)
+;
 var
 initFinished
 =
