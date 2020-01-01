@@ -4160,12 +4160,6 @@ compatible
 ;
 class
 TraceRecorder
-:
-public
-avmplus
-:
-:
-GCObject
 {
 JSContext
 *
@@ -4174,6 +4168,13 @@ cx
 JSTraceMonitor
 *
 traceMonitor
+;
+nanojit
+:
+:
+Allocator
+&
+alloc
 ;
 JSObject
 *
@@ -6604,8 +6605,8 @@ uint32
 outerArgc
 )
 ;
-~
-TraceRecorder
+void
+trashTrees
 (
 )
 ;
