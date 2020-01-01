@@ -431,6 +431,10 @@ nsZipArchive
 .
 h
 \
+nsXPTZipLoader
+.
+h
+\
 (
 NULL
 )
