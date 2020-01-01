@@ -14204,6 +14204,13 @@ num
 type
 )
 ;
+if
+(
+type
+=
+=
+MIRType_Int32
+)
 ins
 -
 >
