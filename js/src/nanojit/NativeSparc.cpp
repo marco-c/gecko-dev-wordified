@@ -5139,7 +5139,6 @@ return
 tt
 ;
 }
-inline
 void
 Assembler
 :
