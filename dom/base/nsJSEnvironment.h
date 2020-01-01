@@ -405,15 +405,6 @@ IsContextInitialized
 MOZ_OVERRIDE
 ;
 virtual
-void
-ScriptEvaluated
-(
-bool
-aTerminated
-)
-MOZ_OVERRIDE
-;
-virtual
 bool
 GetScriptsEnabled
 (

@@ -777,12 +777,6 @@ JSContext
 *
 mCx
 ;
-nsCOMPtr
-<
-nsIScriptContext
->
-mCtx
-;
 /
 /
 And
