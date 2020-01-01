@@ -3070,9 +3070,10 @@ clobbering
 bool
 isConstructing
 =
-IsConstructing
-(
 args
+.
+isConstructing
+(
 )
 ;
 if

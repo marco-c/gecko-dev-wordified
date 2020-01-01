@@ -2235,9 +2235,10 @@ vp
 if
 (
 !
-IsConstructing
-(
 args
+.
+isConstructing
+(
 )
 )
 {

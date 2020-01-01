@@ -791,9 +791,10 @@ false
 ;
 if
 (
-IsConstructing
+args
+.
+isConstructing
 (
-vp
 )
 )
 {

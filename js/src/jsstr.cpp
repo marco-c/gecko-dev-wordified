@@ -22953,9 +22953,10 @@ emptyString
 }
 if
 (
-IsConstructing
-(
 args
+.
+isConstructing
+(
 )
 )
 {

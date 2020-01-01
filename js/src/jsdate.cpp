@@ -19417,9 +19417,10 @@ function
 if
 (
 !
-IsConstructing
-(
 args
+.
+isConstructing
+(
 )
 )
 return
