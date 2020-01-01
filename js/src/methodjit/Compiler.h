@@ -4069,8 +4069,8 @@ JSAtom
 atom
 bool
 usePropCache
-=
-true
+bool
+popGuaranteed
 )
 ;
 void
