@@ -969,9 +969,6 @@ XDamageNotifyEvent
 *
 ev
 ;
-XserverRegion
-parts
-;
 ev
 =
 (
@@ -1039,17 +1036,6 @@ area
 height
 )
 ;
-parts
-=
-XFixesCreateRegion
-(
-GDK_DISPLAY
-(
-)
-0
-0
-)
-;
 XDamageSubtract
 (
 GDK_DISPLAY
@@ -1060,7 +1046,7 @@ native_window
 >
 mDamage
 None
-parts
+None
 )
 ;
 /
