@@ -218,6 +218,13 @@ nsIDocShellTreeItem
 .
 h
 "
+#
+include
+"
+nsIURI
+.
+h
+"
 using
 namespace
 mozilla

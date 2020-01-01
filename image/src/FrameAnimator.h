@@ -109,13 +109,6 @@ h
 #
 include
 "
-FrameBlender
-.
-h
-"
-#
-include
-"
 nsRect
 .
 h
@@ -126,6 +119,9 @@ mozilla
 namespace
 image
 {
+class
+FrameBlender
+;
 class
 FrameAnimator
 {

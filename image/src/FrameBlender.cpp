@@ -109,13 +109,6 @@ h
 #
 include
 "
-RasterImage
-.
-h
-"
-#
-include
-"
 pixman
 .
 h

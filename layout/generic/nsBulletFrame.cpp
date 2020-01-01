@@ -204,6 +204,13 @@ h
 "
 #
 include
+"
+nsIURI
+.
+h
+"
+#
+include
 <
 algorithm
 >

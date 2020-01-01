@@ -127,13 +127,6 @@ imgFrame
 .
 h
 "
-#
-include
-"
-nsISupportsImpl
-.
-h
-"
 namespace
 mozilla
 {

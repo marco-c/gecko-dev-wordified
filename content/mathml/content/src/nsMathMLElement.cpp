@@ -212,6 +212,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

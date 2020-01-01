@@ -324,6 +324,13 @@ nsIFrame
 .
 h
 "
+#
+include
+"
+nsIURI
+.
+h
+"
 /
 /
 image

@@ -100,6 +100,13 @@ h
 #
 include
 "
+FrameBlender
+.
+h
+"
+#
+include
+"
 imgIContainer
 .
 h
