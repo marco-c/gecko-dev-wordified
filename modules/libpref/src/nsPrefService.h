@@ -238,6 +238,15 @@ netscape
 com
 >
 *
+Mats
+Palmgren
+<
+matspal
+gmail
+.
+com
+>
+*
 *
 Alternatively
 the
@@ -599,9 +608,6 @@ nsCOMPtr
 nsIFile
 >
 mCurrentFile
-;
-PRPackedBool
-mDontWriteUserPrefs
 ;
 }
 ;
