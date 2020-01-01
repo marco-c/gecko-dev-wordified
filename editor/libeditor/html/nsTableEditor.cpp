@@ -729,6 +729,7 @@ edit
 *
 /
 class
+NS_STACK_CLASS
 nsSetSelectionAfterTableEdit
 {
 private
@@ -876,6 +877,7 @@ for
 table
 selection
 class
+NS_STACK_CLASS
 nsSelectionBatcher
 {
 private

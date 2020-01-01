@@ -713,6 +713,7 @@ visible
 space
 .
 class
+NS_STACK_CLASS
 nsWSRunObject
 {
 public
@@ -2227,6 +2228,7 @@ the
 struct
 .
 struct
+NS_STACK_CLASS
 WSPoint
 {
 nsCOMPtr

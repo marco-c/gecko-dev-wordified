@@ -590,6 +590,7 @@ txn
 *
 /
 class
+NS_STACK_CLASS
 nsAutoPlaceHolderBatch
 {
 private
@@ -901,6 +902,7 @@ afterwards
 *
 /
 class
+NS_STACK_CLASS
 nsAutoSelectionReset
 {
 private
@@ -1095,6 +1097,7 @@ sandwich
 *
 /
 class
+NS_STACK_CLASS
 nsAutoRules
 {
 public
@@ -1299,6 +1302,7 @@ transactions
 *
 /
 class
+NS_STACK_CLASS
 nsAutoTxnsConserveSelection
 {
 public
@@ -1465,6 +1469,7 @@ requests
 *
 /
 class
+NS_STACK_CLASS
 nsAutoUpdateViewBatch
 {
 public
@@ -1737,6 +1742,7 @@ aNode
 }
 ;
 class
+NS_STACK_CLASS
 nsDOMIterator
 {
 public
@@ -2037,6 +2043,7 @@ struct
 *
 /
 struct
+NS_STACK_CLASS
 DOMPoint
 {
 nsCOMPtr
