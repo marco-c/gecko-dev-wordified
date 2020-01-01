@@ -227,7 +227,7 @@ outMAR
 compareBinaryData
 (
 outMARData
-outMARData
+refMARData
 )
 ;
 }
