@@ -1658,6 +1658,8 @@ nsIDocument
 aDocument
 bool
 aIsScriptable
+bool
+aIsRoot
 mozilla
 :
 :
@@ -3585,6 +3587,8 @@ nsINodeInfo
 aNodeInfo
 bool
 aIsScriptable
+bool
+aIsRoot
 )
 ;
 bool
@@ -3658,6 +3662,11 @@ bool
 aTriedToWrap
 )
 MOZ_OVERRIDE
+;
+void
+MaybeUpdatePrivateLifetime
+(
+)
 ;
 }
 ;

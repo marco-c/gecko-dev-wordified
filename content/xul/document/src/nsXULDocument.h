@@ -1912,6 +1912,8 @@ Element
 *
 *
 aResult
+bool
+aIsRoot
 )
 ;
 /
