@@ -14479,7 +14479,7 @@ endPage
 }
 if
 (
-mIsDoingPrintPreview
+mIsCreatingPrintPreview
 )
 {
 /
