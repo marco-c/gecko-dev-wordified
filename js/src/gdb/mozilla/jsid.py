@@ -147,6 +147,20 @@ self
 cache
 =
 cache
+        
+self
+.
+concrete_type
+=
+self
+.
+value
+.
+type
+.
+strip_typedefs
+(
+)
     
 #
 SpiderMonkey
@@ -197,9 +211,7 @@ self
 if
 self
 .
-value
-.
-type
+concrete_type
 .
 code
 =
@@ -222,9 +234,7 @@ asBits
 elif
 self
 .
-value
-.
-type
+concrete_type
 .
 code
 =

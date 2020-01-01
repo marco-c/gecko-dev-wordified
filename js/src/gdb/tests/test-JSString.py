@@ -120,6 +120,17 @@ times
 >
 "
 )
+assert_pretty
+(
+'
+xRaw
+'
+'
+"
+x
+"
+'
+)
 #
 JSAtom
 *

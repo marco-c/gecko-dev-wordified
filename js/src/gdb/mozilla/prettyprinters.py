@@ -2486,6 +2486,10 @@ value
 .
 type
 .
+strip_typedefs
+(
+)
+.
 code
 =
 =
@@ -2569,12 +2573,20 @@ display_hint
 string
 '
         
-if
+concrete_type
+=
 self
 .
 value
 .
 type
+.
+strip_typedefs
+(
+)
+        
+if
+concrete_type
 .
 code
 =
@@ -2600,11 +2612,7 @@ void_ptr_t
 )
         
 elif
-self
-.
-value
-.
-type
+concrete_type
 .
 code
 =
@@ -2636,6 +2644,24 @@ cache
 void_ptr_t
 )
 )
+        
+else
+:
+            
+assert
+not
+"
+mozilla
+.
+prettyprinters
+.
+Pointer
+applied
+to
+bad
+value
+type
+"
         
 try
 :
