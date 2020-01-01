@@ -15129,7 +15129,7 @@ MOZ_JPROF
 /
 #
 ifdef
-MOZ_DMD
+MOZ_DMDV
 /
 /
 See
@@ -15156,11 +15156,11 @@ on
 how
 to
 use
-DMD
+DMDV
 .
 static
 JSBool
-DMDCheckJS
+DMDVCheckAndDumpJS
 (
 JSContext
 *
@@ -15175,7 +15175,7 @@ vp
 mozilla
 :
 :
-DMDCheckAndDump
+DMDVCheckAndDump
 (
 )
 ;
@@ -15185,7 +15185,7 @@ JS_TRUE
 }
 static
 JSFunctionSpec
-DMDFunctions
+DMDVFunctions
 [
 ]
 =
@@ -15193,9 +15193,9 @@ DMDFunctions
 JS_FS
 (
 "
-DMD
+DMDV
 "
-DMDCheckJS
+DMDVCheckAndDumpJS
 0
 0
 )
@@ -15208,7 +15208,7 @@ endif
 *
 defined
 (
-MOZ_DMD
+MOZ_DMDV
 )
 *
 /
@@ -15307,13 +15307,13 @@ JProfFunctions
 endif
 #
 ifdef
-MOZ_DMD
+MOZ_DMDV
 /
 /
 Attempt
 to
 initialize
-DMD
+DMDV
 functions
 :
 :
@@ -15321,7 +15321,7 @@ JS_DefineFunctions
 (
 mContext
 aGlobalObj
-DMDFunctions
+DMDVFunctions
 )
 ;
 #
