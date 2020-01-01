@@ -8895,6 +8895,16 @@ if
 mLineBreaker
 )
 {
+if
+(
+goodSpace
+<
+mCurrentLine
+.
+Length
+(
+)
+)
 goodSpace
 =
 mLineBreaker
