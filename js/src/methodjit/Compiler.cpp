@@ -3772,7 +3772,7 @@ JS_ASSERT
 (
 L
 .
-isSet
+isValid
 (
 )
 )
@@ -4943,7 +4943,7 @@ jumpMap
 offs
 ]
 .
-isSet
+isValid
 (
 )
 )
@@ -5259,7 +5259,7 @@ jumpMap
 offs
 ]
 .
-isSet
+isValid
 (
 )
 )
@@ -6675,7 +6675,7 @@ jumpMap
 offset
 ]
 .
-isSet
+isValid
 (
 )
 )
@@ -14014,7 +14014,7 @@ jumpMap
 offs
 ]
 .
-isSet
+isValid
 (
 )
 )
