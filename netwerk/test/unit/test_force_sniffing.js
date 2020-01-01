@@ -550,10 +550,7 @@ addCategoryEntry
 (
 categoryName
 snifferContract
-"
-unit
-test
-"
+snifferContract
 false
 true
 )
