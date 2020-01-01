@@ -173903,4 +173903,9 @@ delete
 ]
 VALUES
 ;
+delete
+[
+]
+WINDOWS_1252
+;
 }
