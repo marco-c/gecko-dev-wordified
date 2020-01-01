@@ -2467,12 +2467,6 @@ error
 "
 "
         
-config
-=
-MockConfig
-(
-)
-        
 #
 This
 is
@@ -2492,14 +2486,16 @@ UTF
 .
         
 config
-.
-substs
-[
+=
+MockConfig
+(
+extra_substs
+=
+{
 '
 BAD_UTF8
 '
-]
-=
+:
 b
 '
 \
@@ -2513,6 +2509,8 @@ x82
 \
 x3A
 '
+}
+)
         
 sandbox
 =
