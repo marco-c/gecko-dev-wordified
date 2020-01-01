@@ -160,6 +160,9 @@ ModuleUtils
 h
 "
 #
+ifdef
+MOZ_WEBM
+#
 include
 "
 nestegg
@@ -168,6 +171,8 @@ nestegg
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -639,6 +644,9 @@ uint32_t
 aLength
 )
 {
+#
+ifdef
+MOZ_WEBM
 return
 nestegg_sniff
 (
@@ -654,6 +662,13 @@ true
 :
 false
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 NS_IMETHODIMP
 nsMediaSniffer
