@@ -9683,7 +9683,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 "
 "
 0
-kObjectPatternKTable
+kContextPatternKTable
 offsetof
 (
 nsStyleSVG
@@ -9703,8 +9703,8 @@ CSS_PROPERTY_PARSE_VALUE
 "
 VARIANT_HN
 |
-VARIANT_KEYWORD
-kObjectOpacityKTable
+VARIANT_OPENTYPE_SVG_KEYWORD
+kContextOpacityKTable
 offsetof
 (
 nsStyleSVG
@@ -9979,7 +9979,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 "
 "
 0
-kObjectPatternKTable
+kContextPatternKTable
 offsetof
 (
 nsStyleSVG
@@ -10010,7 +10010,7 @@ restrictions
 "
 "
 0
-kStrokeObjectValueKTable
+kStrokeContextValueKTable
 CSS_PROP_NO_OFFSET
 /
 *
@@ -10036,8 +10036,8 @@ CSS_PROPERTY_PARSE_VALUE
 "
 VARIANT_HLPN
 |
-VARIANT_KEYWORD
-kStrokeObjectValueKTable
+VARIANT_OPENTYPE_SVG_KEYWORD
+kStrokeContextValueKTable
 offsetof
 (
 nsStyleSVG
@@ -10116,8 +10116,8 @@ CSS_PROPERTY_PARSE_VALUE
 "
 VARIANT_HN
 |
-VARIANT_KEYWORD
-kObjectOpacityKTable
+VARIANT_OPENTYPE_SVG_KEYWORD
+kContextOpacityKTable
 offsetof
 (
 nsStyleSVG
@@ -10139,8 +10139,8 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 "
 VARIANT_HLPN
 |
-VARIANT_KEYWORD
-kStrokeObjectValueKTable
+VARIANT_OPENTYPE_SVG_KEYWORD
+kStrokeContextValueKTable
 offsetof
 (
 nsStyleSVG

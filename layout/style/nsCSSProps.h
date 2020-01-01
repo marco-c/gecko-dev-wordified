@@ -2576,7 +2576,7 @@ kStrokeLinejoinKTable
 static
 const
 int32_t
-kStrokeObjectValueKTable
+kStrokeContextValueKTable
 [
 ]
 ;
@@ -2905,14 +2905,14 @@ kMaskTypeKTable
 static
 const
 int32_t
-kObjectOpacityKTable
+kContextOpacityKTable
 [
 ]
 ;
 static
 const
 int32_t
-kObjectPatternKTable
+kContextPatternKTable
 [
 ]
 ;
