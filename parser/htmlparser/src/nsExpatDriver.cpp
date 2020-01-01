@@ -1996,8 +1996,6 @@ resource
 /
 /
 gre
--
-resources
 /
 res
 /
@@ -2044,8 +2042,8 @@ resource
 /
 /
 gre
--
-resources
+/
+res
 /
 mathml
 .
@@ -2080,8 +2078,8 @@ resource
 /
 /
 gre
--
-resources
+/
+res
 /
 mathml
 .
