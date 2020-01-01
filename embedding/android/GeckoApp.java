@@ -715,7 +715,7 @@ private
 static
 final
 String
-LOG_FILE_NAME
+LOG_NAME
 =
 "
 GeckoApp
@@ -2713,7 +2713,7 @@ Log
 .
 e
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 top
 level
@@ -3760,7 +3760,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Saving
 :
@@ -3880,7 +3880,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 The
 last
@@ -3896,7 +3896,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 The
 last
@@ -3922,7 +3922,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 pleaseKillMe
 "
@@ -4935,7 +4935,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 URI
 -
@@ -5007,7 +5007,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 title
 -
@@ -5073,7 +5073,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 link
 rel
@@ -5133,7 +5133,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Log
 :
@@ -5186,7 +5186,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 URI
 -
@@ -5244,7 +5244,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 State
 -
@@ -5285,7 +5285,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Got
 a
@@ -5319,7 +5319,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Got
 a
@@ -5399,7 +5399,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 progress
 -
@@ -5470,7 +5470,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Created
 a
@@ -5529,7 +5529,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Destroyed
 a
@@ -5586,7 +5586,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Switched
 to
@@ -5719,7 +5719,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 handleMessage
 throws
@@ -5767,7 +5767,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 DoorHanger
 received
@@ -5897,7 +5897,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Label
 :
@@ -5932,7 +5932,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 JSON
 throws
@@ -7069,7 +7069,7 @@ Log
 .
 d
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Error
 loading
@@ -7927,7 +7927,7 @@ Log
 .
 e
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 top
 level
@@ -8683,7 +8683,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Intent
 :
@@ -8741,7 +8741,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 onNewIntent
 :
@@ -8789,7 +8789,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Intent
 :
@@ -8839,7 +8839,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Intent
 :
@@ -8863,7 +8863,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 pause
 "
@@ -8977,7 +8977,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 resume
 "
@@ -9104,7 +9104,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 stop
 "
@@ -9258,7 +9258,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 restart
 "
@@ -9306,7 +9306,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 start
 "
@@ -9343,7 +9343,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 destroy
 "
@@ -9697,7 +9697,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 configuration
 changed
@@ -9728,7 +9728,7 @@ Log
 .
 e
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 low
 memory
@@ -9966,7 +9966,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 intent
 .
 toString
@@ -9996,7 +9996,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 error
 doing
@@ -10061,7 +10061,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Checking
 for
@@ -10210,7 +10210,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Update
 is
@@ -10305,7 +10305,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 amCmd
 )
 ;
@@ -10334,7 +10334,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Cannot
 rename
@@ -10364,7 +10364,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 error
 launching
@@ -10465,7 +10465,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 error
 writing
@@ -10545,7 +10545,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 error
 reading
@@ -10665,7 +10665,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 processing
 events
@@ -10692,7 +10692,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 showing
 file
@@ -10894,7 +10894,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Reload
 requested
@@ -11313,7 +11313,7 @@ Log
 .
 e
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 showing
 file
@@ -11344,7 +11344,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 error
 returning
@@ -11453,7 +11453,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Returning
 from
@@ -11682,7 +11682,7 @@ Log
 .
 d
 (
-LOG_FILE_NAME
+LOG_NAME
 type
 .
 name
