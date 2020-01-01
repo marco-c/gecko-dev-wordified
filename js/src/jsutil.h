@@ -452,6 +452,13 @@ stdlib
 .
 h
 >
+#
+include
+<
+string
+.
+h
+>
 JS_BEGIN_EXTERN_C
 /
 *
