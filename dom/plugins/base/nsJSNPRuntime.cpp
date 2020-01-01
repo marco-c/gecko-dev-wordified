@@ -8330,6 +8330,8 @@ JSVAL_VOID
 nullptr
 nullptr
 JSPROP_ENUMERATE
+|
+JSPROP_SHARED
 )
 )
 {
