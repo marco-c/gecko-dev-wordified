@@ -1225,6 +1225,13 @@ h
 #
 include
 "
+DecoderTraits
+.
+h
+"
+#
+include
+"
 nsWrapperCacheInlines
 .
 h
@@ -36437,7 +36444,7 @@ ifdef
 MOZ_OGG
 if
 (
-nsHTMLMediaElement
+DecoderTraits
 :
 :
 IsOggType
@@ -36499,7 +36506,7 @@ ifdef
 MOZ_WEBM
 if
 (
-nsHTMLMediaElement
+DecoderTraits
 :
 :
 IsWebMType
@@ -36561,7 +36568,7 @@ ifdef
 MOZ_GSTREAMER
 if
 (
-nsHTMLMediaElement
+DecoderTraits
 :
 :
 IsGStreamerSupportedType
@@ -36634,7 +36641,7 @@ IsMediaPluginsEnabled
 )
 &
 &
-nsHTMLMediaElement
+DecoderTraits
 :
 :
 IsMediaPluginsType
