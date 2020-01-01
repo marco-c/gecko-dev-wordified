@@ -127,10 +127,6 @@ from
 urlparse
 import
 urlparse
-from
-collections
-import
-OrderedDict
 class
 UnpackFinder
 (

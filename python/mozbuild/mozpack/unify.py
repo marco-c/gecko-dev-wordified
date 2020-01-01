@@ -925,9 +925,6 @@ difflib
 import
 unified_diff
             
-import
-sys
-            
 for
 line
 in

@@ -102,12 +102,6 @@ FileRegistry
     
 Jarrer
 )
-from
-mozpack
-.
-errors
-import
-errors
 STARTUP_CACHE_PATHS
 =
 [
@@ -1523,6 +1517,8 @@ jar
 '
 ]
 .
+\
+            
 contains
 (
 mozpack
@@ -1532,7 +1528,6 @@ path
 relpath
 (
 path
-                                                                          
 chrome
 )
 )

@@ -3106,6 +3106,7 @@ self
 .
 assertTrue
 (
+                
 f
 .
 is_resource

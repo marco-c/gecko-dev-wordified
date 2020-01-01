@@ -74,8 +74,6 @@ directory
 '
 '
 import
-sys
-import
 os
 import
 mozpack
