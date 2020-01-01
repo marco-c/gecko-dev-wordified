@@ -2588,14 +2588,10 @@ function
 )
 |
 |
-function
-(
-)
+script
 -
 >
-inStrictMode
-(
-)
+strict
 |
 |
 function
