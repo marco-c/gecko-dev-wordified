@@ -602,6 +602,8 @@ if
 (
 __prop
 =
+=
+=
 '
 constructor
 '
