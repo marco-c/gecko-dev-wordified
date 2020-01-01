@@ -4149,6 +4149,10 @@ mNotifiedIDDestroyed
 (
 false
 )
+mAllowScriptsToClose
+(
+false
+)
 mTimeoutInsertionPoint
 (
 nullptr
@@ -35184,6 +35188,9 @@ IsCallerTrustedForWrite
 bool
 allowClose
 =
+mAllowScriptsToClose
+|
+|
 Preferences
 :
 :
