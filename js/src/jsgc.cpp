@@ -11719,7 +11719,7 @@ type
 =
 JS_GC_ROOT_GCTHING_PTR
 )
-MarkGCThingRoot
+MarkRootGCThing
 (
 trc
 *
@@ -11738,7 +11738,7 @@ name
 )
 ;
 else
-MarkValueRoot
+MarkRoot
 (
 trc
 *
@@ -11782,7 +11782,7 @@ value
 1
 )
 ;
-MarkGCThingRoot
+MarkRootGCThing
 (
 trc
 entry
@@ -11806,7 +11806,7 @@ StackFrame
 fp
 )
 {
-MarkObjectRoot
+MarkRoot
 (
 trc
 &
@@ -11842,7 +11842,7 @@ hasArgsObj
 (
 )
 )
-MarkObjectRoot
+MarkRoot
 (
 trc
 &
@@ -11867,7 +11867,7 @@ isFunctionFrame
 )
 )
 {
-MarkObjectRoot
+MarkRoot
 (
 trc
 fp
@@ -11890,7 +11890,8 @@ isEvalFrame
 (
 )
 )
-MarkScriptRoot
+{
+MarkRoot
 (
 trc
 fp
@@ -11906,9 +11907,10 @@ script
 )
 ;
 }
+}
 else
 {
-MarkScriptRoot
+MarkRoot
 (
 trc
 fp
@@ -11940,7 +11942,7 @@ active
 =
 true
 ;
-MarkValueRoot
+MarkRoot
 (
 trc
 fp
@@ -11983,11 +11985,16 @@ trc
 idArray
 -
 >
-length
+vector
 idArray
 -
 >
 vector
++
+idArray
+-
+>
+length
 "
 JSAutoIdArray
 .
@@ -12010,7 +12017,7 @@ trc
 gc
 :
 :
-MarkObjectRoot
+MarkRoot
 (
 trc
 obj
@@ -12045,7 +12052,7 @@ tag
 case
 JSVAL
 :
-MarkValueRoot
+MarkRoot
 (
 trc
 static_cast
@@ -12137,11 +12144,16 @@ trc
 ida
 -
 >
-length
+vector
 ida
 -
 >
 vector
++
+ida
+-
+>
+length
 "
 JS
 :
@@ -12207,7 +12219,7 @@ descriptors
 i
 ]
 ;
-MarkValueRoot
+MarkRoot
 (
 trc
 desc
@@ -12221,7 +12233,7 @@ pd
 "
 )
 ;
-MarkValueRoot
+MarkRoot
 (
 trc
 desc
@@ -12235,7 +12247,7 @@ value
 "
 )
 ;
-MarkValueRoot
+MarkRoot
 (
 trc
 desc
@@ -12249,7 +12261,7 @@ get
 "
 )
 ;
-MarkValueRoot
+MarkRoot
 (
 trc
 desc
@@ -12291,7 +12303,7 @@ desc
 .
 obj
 )
-MarkObjectRoot
+MarkRoot
 (
 trc
 desc
@@ -12305,7 +12317,7 @@ obj
 "
 )
 ;
-MarkValueRoot
+MarkRoot
 (
 trc
 desc
@@ -12334,7 +12346,7 @@ desc
 .
 getter
 )
-MarkObjectRoot
+MarkRoot
 (
 trc
 CastAsObject
@@ -12364,7 +12376,7 @@ desc
 .
 setter
 )
-MarkObjectRoot
+MarkRoot
 (
 trc
 CastAsObject
@@ -12476,7 +12488,7 @@ this
 >
 obj
 )
-MarkObjectRoot
+MarkRoot
 (
 trc
 obj
@@ -12495,7 +12507,7 @@ return
 case
 ID
 :
-MarkIdRoot
+MarkRoot
 (
 trc
 static_cast
@@ -12544,7 +12556,7 @@ this
 >
 vector
 ;
-MarkValueRootRange
+MarkRootRange
 (
 trc
 vector
@@ -12591,7 +12603,7 @@ this
 >
 str
 )
-MarkStringRoot
+MarkRoot
 (
 trc
 str
@@ -12630,7 +12642,7 @@ this
 >
 vector
 ;
-MarkIdRootRange
+MarkRootRange
 (
 trc
 vector
@@ -12682,7 +12694,7 @@ this
 >
 vector
 ;
-MarkShapeRootRange
+MarkRootRange
 (
 trc
 vector
@@ -12690,18 +12702,10 @@ vector
 length
 (
 )
-const_cast
-<
-Shape
-*
-*
->
-(
 vector
 .
 begin
 (
-)
 )
 "
 js
@@ -12739,7 +12743,7 @@ this
 >
 vector
 ;
-MarkObjectRootRange
+MarkRootRange
 (
 trc
 vector
@@ -12782,7 +12786,7 @@ AutoValueArray
 this
 )
 ;
-MarkValueRootRange
+MarkRootRange
 (
 trc
 array
@@ -12817,7 +12821,7 @@ tag
 0
 )
 ;
-MarkValueRootRange
+MarkRootRange
 (
 trc
 tag
@@ -12947,7 +12951,7 @@ hasRunOption
 JSOPTION_UNROOTED_GLOBAL
 )
 )
-MarkObjectRoot
+MarkRoot
 (
 trc
 acx
@@ -12969,7 +12973,7 @@ isExceptionPending
 (
 )
 )
-MarkValueRoot
+MarkRoot
 (
 trc
 acx
@@ -13022,7 +13026,7 @@ acx
 sharpObjectMap
 )
 ;
-MarkValueRoot
+MarkRoot
 (
 trc
 acx
@@ -13249,7 +13253,7 @@ i
 +
 +
 )
-MarkScriptRoot
+MarkRoot
 (
 trc
 vec
@@ -13448,7 +13452,7 @@ script
 >
 pcCounters
 )
-MarkScriptRoot
+MarkRoot
 (
 trc
 script

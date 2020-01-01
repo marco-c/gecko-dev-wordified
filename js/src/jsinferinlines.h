@@ -9146,7 +9146,7 @@ barrier
 "
 )
 ;
-MarkShape
+MarkShapeUnbarriered
 (
 comp
 -

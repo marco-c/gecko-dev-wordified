@@ -1824,7 +1824,7 @@ while
 objbox
 )
 {
-MarkObjectRoot
+MarkRoot
 (
 trc
 objbox

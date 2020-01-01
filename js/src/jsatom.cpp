@@ -2845,7 +2845,8 @@ popFront
 (
 )
 )
-MarkStringRoot
+{
+MarkRoot
 (
 trc
 r
@@ -2862,6 +2863,7 @@ locked_atom
 "
 )
 ;
+}
 }
 else
 {
@@ -2916,7 +2918,7 @@ isTagged
 )
 continue
 ;
-MarkStringRoot
+MarkRoot
 (
 trc
 entry
