@@ -302,11 +302,11 @@ mWindowID
 (
 aWindowID
 )
-mFinished
+mStopped
 (
 false
 )
-mStopped
+mFinished
 (
 false
 )
