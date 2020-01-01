@@ -659,15 +659,6 @@ origPc
 ;
 void
 JS_FASTCALL
-DebugHook
-(
-VMFrame
-&
-f
-)
-;
-void
-JS_FASTCALL
 PutCallObject
 (
 VMFrame
