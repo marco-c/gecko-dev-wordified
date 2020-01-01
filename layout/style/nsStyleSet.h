@@ -1537,6 +1537,7 @@ eDocSheet
 /
 /
 CSS
+eScopedDocSheet
 eStyleAttrSheet
 eOverrideSheet
 /
@@ -1671,6 +1672,7 @@ style
 level
 (
 Doc
+ScopedDoc
 &
 PresHint
 levels
@@ -1729,6 +1731,14 @@ aIndex
 )
 ;
 }
+nsresult
+RemoveDocStyleSheet
+(
+nsIStyleSheet
+*
+aSheet
+)
+;
 nsresult
 AddDocStyleSheet
 (
@@ -2579,7 +2589,7 @@ mInReconstruct
 unsigned
 mDirty
 :
-8
+9
 ;
 /
 /
