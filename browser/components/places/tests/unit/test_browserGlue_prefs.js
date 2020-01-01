@@ -215,9 +215,6 @@ false
 )
 ;
 }
-let
-gTests
-=
 [
 /
 /
@@ -1660,6 +1657,11 @@ TOPICDATA_FORCE_PLACES_INIT
 ;
 }
 ]
+.
+forEach
+(
+add_test
+)
 ;
 do_register_cleanup
 (
