@@ -3927,7 +3927,7 @@ FINALIZE_KIND
 gc
 :
 :
-DefaultHeap
+TenuredHeap
 shape
 type
 slots
@@ -4393,7 +4393,7 @@ FINALIZE_KIND
 gc
 :
 :
-DefaultHeap
+TenuredHeap
 emptyBlockShape
 type
 NULL
