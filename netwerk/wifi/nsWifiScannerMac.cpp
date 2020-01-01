@@ -1211,7 +1211,8 @@ adhoc_access_points
 noErr
 )
 {
-continue
+return
+NS_ERROR_FAILURE
 ;
 }
 if
@@ -1222,7 +1223,8 @@ managed_access_points
 NULL
 )
 {
-continue
+return
+NS_ERROR_FAILURE
 ;
 }
 int
