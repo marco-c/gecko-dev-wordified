@@ -12860,6 +12860,8 @@ e
 )
 return
 NULL
+;
+else
 case
 PN_FUNC
 :
