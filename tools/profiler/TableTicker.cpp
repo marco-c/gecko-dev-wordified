@@ -5085,10 +5085,6 @@ flush
 if
 (
 !
-mJankOnly
-&
-&
-!
 sLastTracerEvent
 .
 IsNull
