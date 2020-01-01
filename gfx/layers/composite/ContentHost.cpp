@@ -2255,6 +2255,8 @@ mBackHostOnWhite
 =
 newHost
 ;
+return
+;
 }
 NS_ERROR
 (
