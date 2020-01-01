@@ -415,14 +415,14 @@ Components
 results
 ;
 const
-PREF_BLOCKLIST_PINGCOUNT
+PREF_BLOCKLIST_PINGCOUNTVERSION
 =
 "
 extensions
 .
 blocklist
 .
-pingCount
+pingCountVersion
 "
 ;
 const
@@ -1506,7 +1506,7 @@ prefs
 .
 setIntPref
 (
-PREF_BLOCKLIST_PINGCOUNT
+PREF_BLOCKLIST_PINGCOUNTVERSION
 (
 appChanged
 =
