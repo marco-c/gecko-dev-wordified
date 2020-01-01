@@ -1136,7 +1136,7 @@ printf
 "
 Can
 not
-aquire
+acquire
 component
 registrar
 \
@@ -2067,7 +2067,7 @@ printf
 "
 Can
 not
-aquire
+acquire
 component
 registrar
 \
