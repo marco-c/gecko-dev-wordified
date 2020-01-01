@@ -17445,14 +17445,7 @@ callerRegs
 .
 sp
 -
-JS_MAX
-(
-fun
--
->
-nargs
 argc
-)
 ;
 JS_ASSERT
 (
@@ -17529,6 +17522,8 @@ cx
 >
 fp
 )
++
+2
 )
 ;
 newifp
