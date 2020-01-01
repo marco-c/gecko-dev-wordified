@@ -594,9 +594,6 @@ Init
 (
 )
 {
-nsresult
-rv
-;
 /
 /
 Should
