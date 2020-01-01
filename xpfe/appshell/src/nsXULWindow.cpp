@@ -1261,6 +1261,10 @@ mChromeFlags
 (
 aChromeFlags
 )
+mIgnoreXULSizeMode
+(
+PR_FALSE
+)
 /
 /
 best
@@ -7872,6 +7876,11 @@ nsSizeMode_Minimized
 /
 if
 (
+!
+mIgnoreXULSizeMode
+&
+&
+(
 stateString
 .
 Equals
@@ -7885,6 +7894,7 @@ stateString
 Equals
 (
 SIZEMODE_FULLSCREEN
+)
 )
 )
 {
