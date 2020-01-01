@@ -9281,7 +9281,7 @@ function
 reads
 in
 the
-MAR_CHANNEL_ID
+ACCEPTED_MAR_CHANNEL_IDS
 from
 update
 -
@@ -9349,7 +9349,7 @@ char
 kUpdaterKeys
 =
 "
-MAR_CHANNEL_ID
+ACCEPTED_MAR_CHANNEL_IDS
 \
 0
 "
