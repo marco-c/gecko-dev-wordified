@@ -1152,6 +1152,12 @@ inherit
 !
 important
 ;
+text
+-
+overflow
+:
+inherit
+;
 }
 *
 |
