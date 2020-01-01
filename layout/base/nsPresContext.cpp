@@ -690,7 +690,7 @@ parser
 ParseColorString
 (
 aColor
-nullptr
+nsnull
 0
 value
 )
@@ -722,7 +722,7 @@ ComputeColor
 (
 value
 this
-nullptr
+nsnull
 color
 )
 ?
@@ -763,7 +763,7 @@ instance_data
 ;
 NS_ASSERTION
 (
-nullptr
+nsnull
 !
 =
 presContext
@@ -776,7 +776,7 @@ data
 ;
 if
 (
-nullptr
+nsnull
 !
 =
 presContext
@@ -827,7 +827,7 @@ NS_ASSERTION
 presContext
 !
 =
-nullptr
+nsnull
 "
 bad
 instance
@@ -1267,7 +1267,7 @@ document
 ;
 mUserFontSet
 =
-nullptr
+nsnull
 ;
 mUserFontSetDirty
 =
@@ -1305,7 +1305,7 @@ pointer
 ;
 SetShell
 (
-nullptr
+nsnull
 )
 ;
 NS_ABORT_IF_FALSE
@@ -1398,7 +1398,7 @@ mEventManager
 >
 SetPresContext
 (
-nullptr
+nsnull
 )
 ;
 NS_RELEASE
@@ -1421,7 +1421,7 @@ Cancel
 ;
 mPrefChangedTimer
 =
-nullptr
+nsnull
 ;
 }
 /
@@ -1648,11 +1648,6 @@ this
 NS_IF_RELEASE
 (
 mDeviceContext
-)
-;
-NS_IF_RELEASE
-(
-mLanguage
 )
 ;
 }
@@ -1999,7 +1994,7 @@ mEventManager
 >
 SetPresContext
 (
-nullptr
+nsnull
 )
 ;
 NS_RELEASE
@@ -2163,7 +2158,7 @@ tmp
 >
 mPrefChangedTimer
 =
-nullptr
+nsnull
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
@@ -2394,7 +2389,7 @@ nsIAtom
 *
 langGroupAtom
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -5515,7 +5510,7 @@ UpdateAfterPreferencesChanged
 {
 mPrefChangedTimer
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -6696,7 +6691,7 @@ Disconnect
 ;
 mTransitionManager
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -6713,7 +6708,7 @@ Disconnect
 ;
 mAnimationManager
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -6840,7 +6835,7 @@ i
 Enumerate
 (
 destroy_loads
-nullptr
+nsnull
 )
 ;
 mImageLoaders
@@ -6901,11 +6896,6 @@ if
 mLangService
 )
 {
-NS_IF_RELEASE
-(
-mLanguage
-)
-;
 mLanguage
 =
 mLangService
@@ -6919,14 +6909,7 @@ get
 (
 )
 )
-.
-get
-(
-)
 ;
-/
-/
-addrefs
 /
 /
 this
@@ -6970,13 +6953,6 @@ nsGkAtoms
 Unicode
 )
 {
-NS_RELEASE
-(
-mLanguage
-)
-;
-NS_IF_ADDREF
-(
 mLanguage
 =
 mLangService
@@ -6984,7 +6960,6 @@ mLangService
 >
 GetLocaleLanguage
 (
-)
 )
 ;
 }
@@ -7193,7 +7168,7 @@ PresContext
 }
 }
 return
-nullptr
+nsnull
 ;
 }
 nsPresContext
@@ -7212,7 +7187,7 @@ IsChrome
 )
 )
 return
-nullptr
+nsnull
 ;
 nsPresContext
 *
@@ -7336,7 +7311,7 @@ nsRootPresContext
 pc
 )
 :
-nullptr
+nsnull
 ;
 }
 nsRootPresContext
@@ -7498,7 +7473,7 @@ nsRootPresContext
 pc
 )
 :
-nullptr
+nsnull
 ;
 }
 void
@@ -8064,7 +8039,7 @@ if
 mShell
 !
 =
-nullptr
+nsnull
 )
 {
 nsIDocument
@@ -8284,7 +8259,7 @@ default
 :
 font
 =
-nullptr
+nsnull
 ;
 NS_ERROR
 (
@@ -8859,7 +8834,7 @@ SetImageLoaders
 (
 aFrame
 BORDER_IMAGE
-nullptr
+nsnull
 )
 ;
 return
@@ -8887,7 +8862,7 @@ Create
 aFrame
 borderImage
 actions
-nullptr
+nsnull
 )
 ;
 SetImageLoaders
@@ -8931,7 +8906,7 @@ ImageLoadType
 (
 i
 )
-nullptr
+nsnull
 )
 ;
 }
@@ -8984,7 +8959,7 @@ nsISupports
 *
 result
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -12272,7 +12247,7 @@ getter_AddRefs
 event
 )
 this
-nullptr
+nsnull
 NS_AFTERPAINT
 &
 mInvalidateRequests
@@ -12348,10 +12323,10 @@ nsEventDispatcher
 DispatchDOMEvent
 (
 dispatchTarget
-nullptr
+nsnull
 event
 this
-nullptr
+nsnull
 )
 ;
 }
@@ -12407,7 +12382,7 @@ nsEventListenerManager
 *
 manager
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -12946,7 +12921,7 @@ mDocument
 EnumerateSubDocuments
 (
 NotifyDidPaintSubdocumentCallback
-nullptr
+nsnull
 )
 ;
 }
@@ -14090,7 +14065,7 @@ aType
 )
 mUpdatePluginGeometryForFrame
 (
-nullptr
+nsnull
 )
 mDOMGeneration
 (
@@ -15864,7 +15839,7 @@ false
 ;
 mUpdatePluginGeometryForFrame
 =
-nullptr
+nsnull
 ;
 }
 else
@@ -16232,7 +16207,7 @@ false
 ;
 mUpdatePluginGeometryForFrame
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -16286,7 +16261,7 @@ mRegisteredPlugins
 EnumerateEntries
 (
 PluginDidSetGeometryEnumerator
-nullptr
+nsnull
 )
 ;
 }
@@ -16324,7 +16299,7 @@ false
 ;
 mUpdatePluginGeometryForFrame
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -16359,7 +16334,7 @@ false
 ;
 mUpdatePluginGeometryForFrame
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -16527,7 +16502,7 @@ FlushWillPaintObservers
 {
 mWillPaintFallbackEvent
 =
-nullptr
+nsnull
 ;
 nsTArray
 <

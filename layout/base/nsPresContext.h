@@ -916,7 +916,7 @@ this
 presentation
 context
 or
-nullptr
+nsnull
 if
 it
 can
@@ -1420,7 +1420,7 @@ aSize
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 void
@@ -1478,7 +1478,7 @@ ID
 If
 aLanguage
 is
-nullptr
+nsnull
 the
 document
 '
@@ -2951,7 +2951,7 @@ If
 aLanguage
 *
 is
-nullptr
+nsnull
 then
 the
 document
@@ -3163,7 +3163,7 @@ bool
 *
 aChanged
 =
-nullptr
+nsnull
 )
 ;
 static
@@ -5442,7 +5442,7 @@ GetPrimaryFrame
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 void
@@ -5723,7 +5723,7 @@ LangGroupFontPrefs
 :
 mLangGroup
 (
-nullptr
+nsnull
 )
 mMinimumFontSize
 (
@@ -5981,7 +5981,7 @@ mLangGroupFontPrefs
 .
 mNext
 =
-nullptr
+nsnull
 ;
 /
 /
@@ -5994,7 +5994,7 @@ mLangGroupFontPrefs
 .
 mLangGroup
 =
-nullptr
+nsnull
 ;
 }
 NS_HIDDEN_
@@ -6305,15 +6305,12 @@ lang
 attribute
 )
 .
+nsCOMPtr
+<
 nsIAtom
-*
+>
 mLanguage
 ;
-/
-/
-[
-STRONG
-]
 public
 :
 /
@@ -6984,7 +6981,7 @@ Cancel
 ;
 mNotifyDidPaintTimer
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -7572,7 +7569,7 @@ Revoke
 {
 mPresContext
 =
-nullptr
+nsnull
 ;
 }
 NS_IMETHOD
@@ -7626,7 +7623,7 @@ Cancel
 ;
 mUpdatePluginGeometryTimer
 =
-nullptr
+nsnull
 ;
 }
 }
