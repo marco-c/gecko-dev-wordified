@@ -1949,6 +1949,9 @@ nsGkAtoms
 :
 :
 menuitem
+#
+ifdef
+MOZ_MEDIA
 |
 |
 localName
@@ -1967,6 +1970,8 @@ nsGkAtoms
 :
 :
 video
+#
+endif
 )
 )
 {
