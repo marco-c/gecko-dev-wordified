@@ -47,11 +47,6 @@ waitForExplicitFinish
 (
 )
 ;
-function
-runTest
-(
-)
-{
 browserElementTestHelpers
 .
 setEnabledPref
@@ -65,6 +60,11 @@ addPermission
 (
 )
 ;
+function
+runTest
+(
+)
+{
 var
 iframe
 =
@@ -242,7 +242,11 @@ browserElementTestHelpers
 emptyPage1
 ;
 }
-runTest
+addEventListener
 (
+'
+testready
+'
+runTest
 )
 ;

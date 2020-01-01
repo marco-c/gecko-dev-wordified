@@ -71,11 +71,6 @@ waitForExplicitFinish
 (
 )
 ;
-function
-runTest
-(
-)
-{
 browserElementTestHelpers
 .
 setEnabledPref
@@ -89,6 +84,11 @@ addPermission
 (
 )
 ;
+function
+runTest
+(
+)
+{
 var
 principal
 =
@@ -437,7 +437,11 @@ finish
 )
 ;
 }
-runTest
+addEventListener
 (
+'
+testready
+'
+runTest
 )
 ;
