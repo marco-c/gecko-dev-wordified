@@ -898,13 +898,6 @@ public
 nsIComponentRegistrar
 public
 nsIInterfaceRequestor
-#
-ifdef
-MOZ_OMNIJAR
-public
-nsIManifestLoaderSink
-#
-endif
 {
 public
 :
@@ -912,12 +905,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSICOMPONENTMANAGER
 NS_DECL_NSICOMPONENTREGISTRAR
-#
-ifdef
-MOZ_OMNIJAR
-NS_DECL_NSIMANIFESTLOADERSINK
-#
-endif
 static
 nsresult
 Create
