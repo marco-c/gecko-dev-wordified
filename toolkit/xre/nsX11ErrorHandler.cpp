@@ -1157,7 +1157,10 @@ notes
 .
 AppendInt
 (
+PRUint32
+(
 age
+)
 )
 ;
 notes
@@ -1324,10 +1327,13 @@ notes
 .
 AppendInt
 (
+PRUint32
+(
 event
 -
 >
 resourceid
+)
 16
 )
 ;
