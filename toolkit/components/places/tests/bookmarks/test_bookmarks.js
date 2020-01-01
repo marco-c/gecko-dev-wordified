@@ -3806,6 +3806,13 @@ lastModified2
 lastModified2
 )
 ;
+/
+/
+XXX
+bug
+381240
+/
+/
 do_check_true
 (
 lastModified2
@@ -3813,6 +3820,8 @@ lastModified2
 lastModified
 )
 ;
+/
+/
 do_check_true
 (
 lastModified2
