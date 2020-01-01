@@ -2571,7 +2571,7 @@ array_
 )
 ;
 \
-nsCOMPtr
+nsRefPtr
 <
 obstype_
 >
