@@ -401,6 +401,11 @@ mozilla_sampler_unregister_thread
 (
 )
 ;
+double
+mozilla_sampler_time
+(
+)
+;
 /
 *
 Returns
