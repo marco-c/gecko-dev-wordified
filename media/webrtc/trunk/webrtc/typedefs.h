@@ -177,6 +177,12 @@ defined
 (
 WEBRTC_ANDROID
 )
+|
+|
+defined
+(
+WEBRTC_BSD
+)
 #
 define
 WEBRTC_POSIX
