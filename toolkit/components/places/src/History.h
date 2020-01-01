@@ -212,6 +212,7 @@ Original
 Code
 is
 *
+the
 Mozilla
 Foundation
 .
@@ -468,6 +469,13 @@ h
 #
 include
 "
+mozIAsyncHistory
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -570,12 +578,15 @@ History
 public
 IHistory
 public
+mozIAsyncHistory
+public
 nsIObserver
 {
 public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_IHISTORY
+NS_DECL_MOZIASYNCHISTORY
 NS_DECL_NSIOBSERVER
 History
 (
