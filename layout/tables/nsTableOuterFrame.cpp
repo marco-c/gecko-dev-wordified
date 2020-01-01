@@ -2260,7 +2260,10 @@ availableHeight
 1
 -
 1
-false
+nsHTMLReflowState
+:
+:
+CALLER_WILL_INIT
 )
 ;
 InitChildReflowState
@@ -4866,7 +4869,10 @@ availSize
 1
 -
 1
-false
+nsHTMLReflowState
+:
+:
+CALLER_WILL_INIT
 )
 ;
 InitChildReflowState
