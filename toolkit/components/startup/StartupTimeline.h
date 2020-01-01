@@ -178,7 +178,9 @@ mozilla_StartupTimeline
 #
 include
 "
-prtime
+mozilla
+/
+TimeStamp
 .
 h
 "
@@ -313,7 +315,7 @@ MAX_EVENT_ID
 }
 ;
 static
-PRTime
+TimeStamp
 Get
 (
 Event
@@ -363,7 +365,10 @@ ev
 Record
 (
 ev
-PR_Now
+TimeStamp
+:
+:
+Now
 (
 )
 )
@@ -375,7 +380,7 @@ Record
 (
 Event
 ev
-PRTime
+TimeStamp
 when
 )
 {
@@ -435,10 +440,15 @@ ev
 )
 {
 return
+!
 sStartupTimeline
 [
 ev
 ]
+.
+IsNull
+(
+)
 ;
 }
 private
@@ -446,7 +456,7 @@ private
 static
 NS_EXTERNAL_VIS_
 (
-PRTime
+TimeStamp
 )
 sStartupTimeline
 [
