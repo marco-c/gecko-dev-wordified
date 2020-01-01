@@ -1336,7 +1336,7 @@ yes
 *
 /
 enum
-DOMWorkerStatus
+Status
 {
 /
 /
@@ -1943,7 +1943,7 @@ Always
 protected
 by
 mLock
-DOMWorkerStatus
+Status
 mStatus
 ;
 /
