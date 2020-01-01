@@ -2242,14 +2242,15 @@ true
 }
 if
 (
+!
 aBatteryInfo
 -
 >
 charging
 (
 )
-&
-&
+|
+|
 (
 aBatteryInfo
 -
