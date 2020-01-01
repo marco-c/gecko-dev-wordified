@@ -9551,7 +9551,7 @@ AndroidKeyEvent
 KEYCODE_DPAD_CENTER
 :
 return
-NS_VK_RETURN
+NS_VK_ENTER
 ;
 /
 /
