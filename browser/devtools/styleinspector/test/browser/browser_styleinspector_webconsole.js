@@ -1432,7 +1432,7 @@ open
 "
 )
 ;
-is
+isnot
 (
 stylePanels
 [
@@ -1441,7 +1441,7 @@ stylePanels
 .
 state
 "
-closed
+open
 "
 "
 instance
@@ -1450,7 +1450,8 @@ stylePanels
 1
 ]
 is
-hidden
+not
+open
 "
 )
 ;
