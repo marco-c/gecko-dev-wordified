@@ -10538,7 +10538,10 @@ scratch
 void
 *
 )
+uintptr_t
+(
 argc
+)
 ;
 /
 *

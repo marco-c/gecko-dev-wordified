@@ -4270,13 +4270,12 @@ masm
 .
 storePtr
 (
-ImmPtr
+ImmIntPtr
 (
+intptr_t
 (
-void
-*
-)
 argc
+)
 )
 Address
 (
