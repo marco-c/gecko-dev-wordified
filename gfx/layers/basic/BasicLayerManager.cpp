@@ -3340,7 +3340,7 @@ SAMPLE_LABEL
 BasicLayerManager
 "
 "
-EndTransactionInternal
+EndTranscationInternal
 "
 )
 ;
@@ -5650,16 +5650,6 @@ ReadbackProcessor
 aReadback
 )
 {
-SAMPLE_LABEL
-(
-"
-BasicLayerManager
-"
-"
-PaintLayer
-"
-)
-;
 PaintContext
 paintContext
 (
