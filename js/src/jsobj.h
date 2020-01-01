@@ -11005,10 +11005,9 @@ JSIdArray
 *
 *
 idap
-jschar
+bool
 *
-*
-sp
+alreadySeen
 )
 ;
 extern
