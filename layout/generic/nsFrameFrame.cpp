@@ -3530,11 +3530,6 @@ TopBottom
 )
 ;
 }
-if
-(
-mInnerView
-)
-{
 nsIViewManager
 *
 vm
@@ -3578,7 +3573,6 @@ innerSize
 PR_TRUE
 )
 ;
-}
 /
 /
 Determine
