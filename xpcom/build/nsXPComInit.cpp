@@ -3520,10 +3520,6 @@ nsDirectoryService
 gService
 )
 ;
-nsCycleCollector_shutdown
-(
-)
-;
 if
 (
 moduleLoaders
@@ -3683,6 +3679,10 @@ moduleLoaders
 nullptr
 ;
 }
+nsCycleCollector_shutdown
+(
+)
+;
 PROFILER_MARKER
 (
 "
