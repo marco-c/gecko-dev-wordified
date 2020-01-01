@@ -220,6 +220,15 @@ int32_t
 v
 )
 )
+namespace
+js
+{
+unsigned
+GetCPUCount
+(
+)
+;
+}
 #
 else
 /

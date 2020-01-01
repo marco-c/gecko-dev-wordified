@@ -219,7 +219,7 @@ pc
 ;
 void
 JS_FASTCALL
-RecompileForInline
+TriggerIonCompile
 (
 VMFrame
 &
