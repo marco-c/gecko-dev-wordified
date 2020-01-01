@@ -745,6 +745,16 @@ loc
 ;
 loc
 .
+reg
+=
+InvalidReg
+.
+code
+(
+)
+;
+loc
+.
 stackSlot_
 =
 stackSlot

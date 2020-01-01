@@ -4014,6 +4014,16 @@ JSRuntime
 (
 )
 ;
+JSRuntime
+*
+thisFromCtor
+(
+)
+{
+return
+this
+;
+}
 bool
 init
 (
