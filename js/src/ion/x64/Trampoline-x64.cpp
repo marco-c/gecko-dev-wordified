@@ -459,13 +459,6 @@ h
 #
 include
 "
-jsinterp
-.
-h
-"
-#
-include
-"
 assembler
 /
 assembler
