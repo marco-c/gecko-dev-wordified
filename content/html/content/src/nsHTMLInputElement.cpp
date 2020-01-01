@@ -6558,7 +6558,7 @@ i
 ]
 -
 >
-GetMozFullPath
+GetMozFullPathInternal
 (
 str
 )
@@ -7384,7 +7384,7 @@ i
 ]
 -
 >
-GetMozFullPath
+GetMozFullPathInternal
 (
 str
 )
