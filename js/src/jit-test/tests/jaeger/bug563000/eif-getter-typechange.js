@@ -46,10 +46,6 @@ caller
 obj
 )
 {
-assertJit
-(
-)
-;
 var
 x
 =

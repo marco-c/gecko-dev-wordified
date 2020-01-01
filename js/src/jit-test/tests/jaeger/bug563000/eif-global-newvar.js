@@ -18,10 +18,6 @@ callee
 (
 )
 {
-assertJit
-(
-)
-;
 evalInFrame
 (
 1
