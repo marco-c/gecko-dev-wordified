@@ -677,7 +677,6 @@ status
 .
 *
 /
-enum
 mozilla
 :
 :
@@ -685,7 +684,7 @@ ipc
 :
 :
 SocketConnectionStatus
-mSocketStatus
+mPrevSocketStatus
 ;
 /
 *

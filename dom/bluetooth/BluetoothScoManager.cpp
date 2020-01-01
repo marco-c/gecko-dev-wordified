@@ -681,7 +681,7 @@ true
 false
 )
 ;
-mSocketStatus
+mPrevSocketStatus
 =
 mSocket
 -
@@ -846,12 +846,6 @@ manager
 new
 BluetoothScoManager
 (
-)
-;
-NS_ENSURE_TRUE
-(
-manager
-nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -1194,7 +1188,7 @@ return
 false
 ;
 }
-mSocketStatus
+mPrevSocketStatus
 =
 mSocket
 -
@@ -1258,7 +1252,7 @@ NotifyAudioManager
 address
 )
 ;
-mSocketStatus
+mPrevSocketStatus
 =
 mSocket
 -
@@ -1294,7 +1288,7 @@ Disconnect
 (
 )
 ;
-mSocketStatus
+mPrevSocketStatus
 =
 mSocket
 -
@@ -1329,7 +1323,7 @@ mSocket
 ;
 if
 (
-mSocketStatus
+mPrevSocketStatus
 =
 =
 SocketConnectionStatus
