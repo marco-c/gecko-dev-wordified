@@ -5989,6 +5989,14 @@ bool
 resetUseCounts
 )
 ;
+void
+PurgeJITCaches
+(
+JSCompartment
+*
+c
+)
+;
 }
 /
 *
