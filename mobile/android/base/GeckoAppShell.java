@@ -1103,7 +1103,7 @@ ActivityHandlerHelper
 )
 ;
 static
-NotificationServiceClient
+NotificationClient
 sNotificationClient
 ;
 /
@@ -8000,7 +8000,7 @@ static
 void
 setNotificationClient
 (
-NotificationServiceClient
+NotificationClient
 client
 )
 {
@@ -8021,7 +8021,7 @@ else
 {
 Log
 .
-w
+d
 (
 LOGTAG
 "
