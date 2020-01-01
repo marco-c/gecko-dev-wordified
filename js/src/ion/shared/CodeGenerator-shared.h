@@ -473,6 +473,15 @@ MoveGroupResolver
 .
 h
 "
+#
+include
+"
+ion
+/
+IonLinker
+.
+h
+"
 namespace
 js
 {
@@ -487,6 +496,9 @@ LInstructionVisitor
 {
 protected
 :
+Assembler
+masm
+;
 MIRGenerator
 *
 gen

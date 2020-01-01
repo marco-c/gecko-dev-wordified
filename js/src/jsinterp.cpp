@@ -4465,9 +4465,10 @@ return
 ion
 :
 :
-FireMahLaser
+Cannon
 (
 cx
+fp
 )
 ;
 }
@@ -26917,9 +26918,14 @@ interpReturnOK
 ion
 :
 :
-FireMahLaser
+Cannon
 (
 cx
+regs
+.
+fp
+(
+)
 )
 ;
 CHECK_INTERRUPT_HANDLER

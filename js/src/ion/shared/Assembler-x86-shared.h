@@ -536,7 +536,7 @@ size
 void
 executableCopy
 (
-uint8
+void
 *
 buffer
 )
