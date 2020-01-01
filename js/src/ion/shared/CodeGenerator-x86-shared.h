@@ -478,6 +478,9 @@ class
 OutOfLineBailout
 ;
 class
+MulNegativeZeroCheck
+;
+class
 CodeGeneratorX86Shared
 :
 public
@@ -1033,6 +1036,14 @@ bool
 visitOutOfLineBailout
 (
 OutOfLineBailout
+*
+ool
+)
+;
+bool
+visitMulNegativeZeroCheck
+(
+MulNegativeZeroCheck
 *
 ool
 )
