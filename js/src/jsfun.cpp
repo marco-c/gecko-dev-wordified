@@ -13336,6 +13336,13 @@ aobj
 isArguments
 (
 )
+&
+&
+!
+IsOverriddenArgsLength
+(
+aobj
+)
 )
 {
 /
