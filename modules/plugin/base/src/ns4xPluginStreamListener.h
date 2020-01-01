@@ -503,7 +503,7 @@ methods
 :
 ns4xPluginStreamListener
 (
-nsIPluginInstance
+ns4xPluginInstance
 *
 inst
 void
@@ -572,6 +572,11 @@ StopDataPump
 (
 )
 ;
+PRBool
+PluginInitJSLoadInProgress
+(
+)
+;
 protected
 :
 void
@@ -613,6 +618,9 @@ mCallNotify
 ;
 PRPackedBool
 mIsSuspended
+;
+PRPackedBool
+mIsPluginInitJSStream
 ;
 nsCString
 mResponseHeaders
