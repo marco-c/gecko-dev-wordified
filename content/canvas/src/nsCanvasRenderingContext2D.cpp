@@ -7530,6 +7530,7 @@ Init
 (
 drawExtents
 blurRadius
+nsnull
 )
 ;
 if

@@ -2169,9 +2169,6 @@ gfxContext
 *
 mDestinationCtx
 ;
-gfxRect
-mRequiredShadowArea
-;
 }
 ;
 #
