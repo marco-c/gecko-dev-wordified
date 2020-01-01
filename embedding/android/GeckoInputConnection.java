@@ -7,6 +7,14 @@ Mode
 :
 Java
 ;
+c
+-
+basic
+-
+offset
+:
+4
+;
 tab
 -
 width
@@ -808,6 +816,7 @@ IME
 deleteSurroundingText
 interrupted
 "
+e
 )
 ;
 return
@@ -1268,6 +1277,7 @@ IME
 performContextMenuAction
 interrupted
 "
+e
 )
 ;
 return
@@ -1478,6 +1488,7 @@ IME
 performContextMenuAction
 interrupted
 "
+e
 )
 ;
 return
@@ -1607,6 +1618,7 @@ IME
 getExtractedText
 interrupted
 "
+e
 )
 ;
 return
@@ -1700,6 +1712,7 @@ IME
 getExtractedText
 interrupted
 "
+e
 )
 ;
 return
@@ -1779,6 +1792,7 @@ getTextBefore
 AfterCursor
 interrupted
 "
+e
 )
 ;
 return
@@ -1897,6 +1911,7 @@ AfterCursor
 Interrupted
 !
 "
+e
 )
 ;
 return
@@ -2043,6 +2058,7 @@ IME
 setComposingText
 interrupted
 "
+e
 )
 ;
 return
