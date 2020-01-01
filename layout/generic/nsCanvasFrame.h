@@ -652,12 +652,15 @@ aBuilder
 nsIFrame
 *
 aFrame
+uint32_t
+aLayer
 )
 :
 nsDisplayBackground
 (
 aBuilder
 aFrame
+aLayer
 )
 {
 mExtraBackgroundColor
