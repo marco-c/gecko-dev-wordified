@@ -1956,7 +1956,7 @@ rv
 scriptContext
 -
 >
-EvaluateStringWithValue
+EvaluateString
 (
 NS_ConvertUTF8toUTF16
 (

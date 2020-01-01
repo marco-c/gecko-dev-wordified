@@ -7240,7 +7240,7 @@ nsresult
 nsJSContext
 :
 :
-EvaluateStringWithValue
+EvaluateString
 (
 const
 nsAString
@@ -7271,7 +7271,7 @@ SAMPLE_LABEL
 JS
 "
 "
-EvaluateStringWithValue
+EvaluateString
 "
 )
 ;

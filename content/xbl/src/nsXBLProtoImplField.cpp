@@ -495,7 +495,7 @@ mt
 ;
 /
 /
-EvaluateStringWithValue
+EvaluateString
 and
 JS_DefineUCProperty
 can
@@ -627,7 +627,7 @@ rv
 context
 -
 >
-EvaluateStringWithValue
+EvaluateString
 (
 nsDependentString
 (

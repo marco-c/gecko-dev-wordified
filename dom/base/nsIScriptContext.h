@@ -445,7 +445,7 @@ script
 /
 virtual
 nsresult
-EvaluateStringWithValue
+EvaluateString
 (
 const
 nsAString
