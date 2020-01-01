@@ -11381,8 +11381,8 @@ if
 (
 !
 prog
-&
-&
+|
+|
 static_cast
 <
 WebGLProgram
