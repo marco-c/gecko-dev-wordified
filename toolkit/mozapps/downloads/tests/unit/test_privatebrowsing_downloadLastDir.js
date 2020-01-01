@@ -597,7 +597,7 @@ jsm
 ;
 MockFilePicker
 .
-reset
+init
 (
 )
 ;
@@ -1406,7 +1406,7 @@ true
 ;
 MockFilePicker
 .
-reset
+cleanup
 (
 )
 ;
