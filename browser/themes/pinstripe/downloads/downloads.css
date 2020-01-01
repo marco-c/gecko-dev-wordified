@@ -172,9 +172,6 @@ not
 hasdownloads
 ]
 )
->
-vbox
->
 #
 downloadsHistory
 {
@@ -206,9 +203,6 @@ downloadsPanel
 [
 hasdownloads
 ]
->
-vbox
->
 #
 downloadsHistory
 {
@@ -338,9 +332,6 @@ not
 hasdownloads
 ]
 )
->
-vbox
->
 #
 downloadsHistory
 :
