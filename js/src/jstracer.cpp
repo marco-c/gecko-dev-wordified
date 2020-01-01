@@ -7262,8 +7262,8 @@ jsval
 /
 XXX
 LIR_ld
-only
 accepts
+only
 constant
 displacements
 !
@@ -7463,8 +7463,8 @@ jsval
 /
 XXX
 LIR_ld
-only
 accepts
+only
 constant
 displacements
 !
