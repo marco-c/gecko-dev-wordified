@@ -2065,11 +2065,14 @@ given
 display
 item
 was
-rendered
+visible
+in
+its
+layer
 during
+*
 the
 previous
-*
 paint
 .
 Returns
@@ -2080,7 +2083,7 @@ otherwise
 /
 static
 bool
-HasRetainedDataFor
+HasVisibleRetainedDataFor
 (
 nsIFrame
 *
