@@ -3042,7 +3042,7 @@ NetworkDiskCacheReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -3053,7 +3053,7 @@ nsDiskCacheDevice
 aDevice
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 explicit

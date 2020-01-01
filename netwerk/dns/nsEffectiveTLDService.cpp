@@ -567,7 +567,7 @@ EffectiveTLDServiceReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -575,7 +575,7 @@ EffectiveTLDServiceReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 explicit
