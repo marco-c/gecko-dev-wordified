@@ -117,7 +117,6 @@ unstable
 ;
 const
 {
-setImmediate
 setTimeout
 }
 =
@@ -262,7 +261,7 @@ utility
 *
 to
 do
-setImmediate
+setTimeout
 (
 function
 (
@@ -272,6 +271,7 @@ function
 .
 .
 }
+0
 )
 with
 a
@@ -316,9 +316,10 @@ function
 deferred
 (
 )
-setImmediate
+setTimeout
 (
 invoke
+0
 f
 arguments
 this
