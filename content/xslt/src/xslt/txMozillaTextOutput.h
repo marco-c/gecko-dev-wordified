@@ -494,12 +494,6 @@ public
 :
 txMozillaTextOutput
 (
-nsIDOMDocument
-*
-aSourceDocument
-nsIDOMDocument
-*
-aResultDocument
 nsITransformObserver
 *
 aObserver
@@ -520,8 +514,6 @@ txMozillaTextOutput
 ;
 TX_DECL_TXAXMLEVENTHANDLER
 TX_DECL_TXAOUTPUTXMLEVENTHANDLER
-private
-:
 nsresult
 createResultDocument
 (
@@ -533,6 +525,8 @@ nsIDOMDocument
 aResultDocument
 )
 ;
+private
+:
 nsresult
 createXHTMLElement
 (

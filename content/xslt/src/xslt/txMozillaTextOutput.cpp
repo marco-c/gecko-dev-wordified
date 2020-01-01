@@ -577,12 +577,6 @@ txMozillaTextOutput
 :
 txMozillaTextOutput
 (
-nsIDOMDocument
-*
-aSourceDocument
-nsIDOMDocument
-*
-aResultDocument
 nsITransformObserver
 *
 aObserver
@@ -598,12 +592,6 @@ mObserver
 do_GetWeakReference
 (
 aObserver
-)
-;
-createResultDocument
-(
-aSourceDocument
-aResultDocument
 )
 ;
 }
