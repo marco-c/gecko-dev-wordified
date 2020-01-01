@@ -99,8 +99,13 @@ Command
 '
 bootstrap
 '
+category
+=
+'
+devenv
+'
         
-help
+description
 =
 '
 Install
