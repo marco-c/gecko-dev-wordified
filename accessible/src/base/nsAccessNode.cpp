@@ -4458,7 +4458,6 @@ aUserArg
 {
 NS_ASSERTION
 (
-!
 aAccessNode
 "
 Calling
