@@ -339,14 +339,6 @@ xul
 "
 ;
 /
-/
-Static
-Data
-static
-HINSTANCE
-gInstance
-;
-/
 *
 *
 *
@@ -925,11 +917,6 @@ nsCOMPtr
 nsIWebBrowserChrome
 >
 chrome
-;
-HWND
-hWnd
-=
-NULL
 ;
 /
 /

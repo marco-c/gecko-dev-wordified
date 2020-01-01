@@ -3548,7 +3548,7 @@ rad6
 }
 {
 NULL
-NULL
+0
 }
 }
 ;
@@ -7378,7 +7378,7 @@ prntdlg
 .
 lCustData
 =
-NULL
+0
 ;
 prntdlg
 .
