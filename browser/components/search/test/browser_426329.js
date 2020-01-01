@@ -272,7 +272,7 @@ preTabNo
 =
 gBrowser
 .
-mTabs
+tabs
 .
 length
 ;
@@ -314,7 +314,7 @@ is
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 preTabNo
@@ -390,7 +390,7 @@ is
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 preTabNo
@@ -512,7 +512,7 @@ is
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 preTabNo
@@ -615,7 +615,7 @@ is
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 preTabNo
@@ -685,7 +685,7 @@ is
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 preTabNo
@@ -776,7 +776,7 @@ is
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 preTabNo
@@ -881,7 +881,7 @@ is
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 preTabNo
@@ -939,7 +939,7 @@ while
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 !
@@ -953,7 +953,7 @@ removeTab
 (
 gBrowser
 .
-mTabs
+tabs
 [
 0
 ]

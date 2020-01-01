@@ -756,7 +756,7 @@ tabs
 ]
 gBrowser
 .
-mTabs
+tabs
 [
 3
 ]
@@ -781,7 +781,7 @@ tabs
 ]
 gBrowser
 .
-mTabs
+tabs
 [
 7
 ]
@@ -806,7 +806,7 @@ tabs
 ]
 gBrowser
 .
-mTabs
+tabs
 [
 5
 ]
@@ -830,7 +830,7 @@ tabs
 ]
 gBrowser
 .
-mTabs
+tabs
 [
 1
 ]
@@ -855,7 +855,7 @@ tabs
 ]
 gBrowser
 .
-mTabs
+tabs
 [
 4
 ]
@@ -880,7 +880,7 @@ tabs
 ]
 gBrowser
 .
-mTabs
+tabs
 [
 6
 ]
@@ -912,7 +912,7 @@ tabs
 ]
 gBrowser
 .
-mTabs
+tabs
 [
 2
 ]
@@ -938,7 +938,7 @@ tabs
 ]
 gBrowser
 .
-mTabs
+tabs
 [
 8
 ]
@@ -962,7 +962,7 @@ tabs
 ]
 gBrowser
 .
-mTabs
+tabs
 [
 9
 ]

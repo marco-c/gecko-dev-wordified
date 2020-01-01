@@ -524,7 +524,7 @@ is
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 gCurrentTest
@@ -816,7 +816,7 @@ while
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 >
