@@ -253,6 +253,15 @@ nsIObserver
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIInputStream
 ;
@@ -933,6 +942,7 @@ nsZipFind
 /
 class
 nsJAREnumerator
+MOZ_FINAL
 :
 public
 nsIUTF8StringEnumerator

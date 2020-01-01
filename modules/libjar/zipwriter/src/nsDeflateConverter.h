@@ -91,6 +91,15 @@ zlib
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 DEFLATECONVERTER_CLASSNAME
 "
@@ -128,6 +137,7 @@ ZIP_BUFLEN
 )
 class
 nsDeflateConverter
+MOZ_FINAL
 :
 public
 nsIStreamConverter

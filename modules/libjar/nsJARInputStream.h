@@ -88,6 +88,15 @@ nsTArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 -
@@ -280,6 +289,7 @@ file
 /
 class
 nsJARInputStream
+MOZ_FINAL
 :
 public
 nsIInputStream
