@@ -14077,7 +14077,7 @@ aHighAccuracy
 {
 #
 ifdef
-MOZ_PERMISSIONS
+MOZ_CHILD_PERMISSIONS
 if
 (
 Preferences
