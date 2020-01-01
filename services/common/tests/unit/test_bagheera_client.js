@@ -519,9 +519,13 @@ foo
 bar
 "
 }
+{
+deleteID
+:
 "
 obsolete
 "
+}
 )
 ;
 promise
