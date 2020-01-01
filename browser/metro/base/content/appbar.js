@@ -415,7 +415,7 @@ MozContextUIShow
 :
 Elements
 .
-appbar
+navbar
 .
 show
 (
@@ -455,7 +455,7 @@ ToolPanelHidden
 :
 Elements
 .
-appbar
+navbar
 .
 dismiss
 (
@@ -881,7 +881,7 @@ y
 =
 Elements
 .
-appbar
+navbar
 .
 getBoundingClientRect
 (
