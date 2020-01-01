@@ -846,16 +846,6 @@ gc
 namespace
 js
 {
-void
-*
-const
-InternalHandleBase
-:
-:
-zeroPointer
-=
-NULL
-;
 namespace
 gc
 {
