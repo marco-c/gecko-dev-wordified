@@ -1276,6 +1276,7 @@ nsAttrValue
 attrValue
 (
 aStyleRule
+nsnull
 )
 ;
 /
@@ -2092,6 +2093,8 @@ aResult
 SetTo
 (
 rule
+&
+aValue
 )
 ;
 return
