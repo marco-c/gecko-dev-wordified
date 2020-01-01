@@ -6935,13 +6935,11 @@ sObjectClass
 =
 nsnull
 ;
-const
-JSClass
-*
+JSPropertyOp
 nsDOMClassInfo
 :
 :
-sXPCNativeWrapperClass
+sXPCNativeWrapperGetPropertyOp
 =
 nsnull
 ;
