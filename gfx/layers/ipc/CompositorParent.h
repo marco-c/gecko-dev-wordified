@@ -292,13 +292,11 @@ ViewTransform
 {
 ViewTransform
 (
-nsIntPoint
+gfxPoint
 aTranslation
 =
-nsIntPoint
+gfxPoint
 (
-0
-0
 )
 gfxSize
 aScale
@@ -356,7 +354,7 @@ y
 )
 ;
 }
-nsIntPoint
+gfxPoint
 mTranslation
 ;
 gfxSize

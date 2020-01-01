@@ -7577,9 +7577,8 @@ mAsyncScrollTimeout
 )
 ;
 }
-nsIntPoint
+gfxPoint
 scrollCompensation
-(
 (
 (
 scrollOffset
@@ -7590,11 +7589,6 @@ metricsScrollOffset
 )
 *
 localScale
-)
-.
-RoundedAwayFromZero
-(
-)
 )
 ;
 *
