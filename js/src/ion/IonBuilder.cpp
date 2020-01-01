@@ -24421,8 +24421,9 @@ isNative
 )
 )
 {
-JS_ASSERT
+if
 (
+!
 target
 -
 >
@@ -24430,6 +24431,8 @@ isNativeConstructor
 (
 )
 )
+return
+NULL
 ;
 MConstant
 *
