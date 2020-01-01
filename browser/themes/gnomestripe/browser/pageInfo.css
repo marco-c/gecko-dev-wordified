@@ -467,9 +467,12 @@ textbox
 .
 header
 {
+-
+moz
+-
 margin
 -
-left
+start
 :
 0
 ;
