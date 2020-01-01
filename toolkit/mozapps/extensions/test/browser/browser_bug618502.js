@@ -175,14 +175,10 @@ function
 (
 )
 {
-gProvider
-=
 new
 MockProvider
 (
 )
-;
-gProvider
 .
 createAddons
 (
