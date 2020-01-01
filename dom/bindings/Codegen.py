@@ -12197,7 +12197,7 @@ an
 #
 getter_AddRefs
 (
-nsCOMPtr
+nsRefPtr
 )
 to
 XPConnect
@@ -12253,7 +12253,7 @@ templateBody
 +
 =
 "
-nsCOMPtr
+nsRefPtr
 <
 "
 +
@@ -12273,7 +12273,7 @@ else
 holderType
 =
 "
-nsCOMPtr
+nsRefPtr
 <
 "
 +
@@ -12330,11 +12330,23 @@ val
 }
 &
 tmp
+static_cast
+<
+"
++
+typeName
++
+"
+*
+*
+>
+(
 getter_AddRefs
 (
 {
 holderName
 }
+)
 )
 &
 tmpVal
@@ -29366,6 +29378,12 @@ h
                           
 '
 XPCQuickStubs
+.
+h
+'
+                          
+'
+nsDOMQS
 .
 h
 '
