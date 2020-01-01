@@ -583,10 +583,12 @@ jsdc
 ;
 jsdscript
 =
-jsd_FindJSDScript
+jsd_FindOrCreateJSDScript
 (
 jsdc
+cx
 script
+fp
 )
 ;
 JSD_UNLOCK_SCRIPTS
@@ -878,10 +880,12 @@ jsdc
 ;
 jsdscript
 =
-jsd_FindJSDScript
+jsd_FindOrCreateJSDScript
 (
 jsdc
+cx
 jsscript
+fp
 )
 ;
 JSD_UNLOCK_SCRIPTS
