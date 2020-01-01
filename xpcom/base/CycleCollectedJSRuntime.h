@@ -363,8 +363,6 @@ uint32_t
 aMaxbytes
 JSUseHelperThreads
 aUseHelperThreads
-bool
-aExpectUnrootedGlobals
 )
 ;
 virtual
@@ -967,9 +965,6 @@ nsRefPtr
 IncrementalFinalizeRunnable
 >
 mFinalizeRunnable
-;
-bool
-mExpectUnrootedGlobals
 ;
 #
 ifdef

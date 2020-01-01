@@ -5104,6 +5104,8 @@ sContextCount
 mDefaultJSOptions
 =
 JSOPTION_PRIVATE_IS_NSISUPPORTS
+|
+JSOPTION_UNROOTED_GLOBAL
 ;
 mContext
 =

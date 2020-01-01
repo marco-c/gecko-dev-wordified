@@ -19475,7 +19475,6 @@ CycleCollectedJSRuntime
 *
 1024L
 JS_USE_HELPER_THREADS
-true
 )
 mJSContextStack
 (
