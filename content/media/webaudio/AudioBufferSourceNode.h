@@ -174,7 +174,7 @@ aTriedToWrap
 )
 ;
 void
-NoteOn
+Start
 (
 double
 )
@@ -190,7 +190,7 @@ now
 /
 }
 void
-NoteOff
+Stop
 (
 double
 )
