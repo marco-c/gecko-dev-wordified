@@ -381,6 +381,13 @@ nsDOMEvent
 h
 "
 #
+include
+"
+nsGlobalWindow
+.
+h
+"
+#
 ifdef
 MOZ_B2G_RIL
 #
