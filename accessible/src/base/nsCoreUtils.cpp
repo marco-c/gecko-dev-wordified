@@ -1146,14 +1146,6 @@ nsIContent
 aContent
 )
 {
-if
-(
-!
-aContent
-)
-return
-0
-;
 /
 /
 Accesskeys

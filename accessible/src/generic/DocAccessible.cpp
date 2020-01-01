@@ -692,6 +692,8 @@ mFlags
 |
 =
 eDocAccessible
+|
+eNotNodeMapEntry
 ;
 if
 (
@@ -1783,12 +1785,18 @@ aDescription
 ;
 if
 (
+HasOwnContent
+(
+)
+&
+&
 aDescription
 .
 IsEmpty
 (
 )
 )
+{
 nsTextEquivUtils
 :
 :
@@ -1802,6 +1810,7 @@ aria_describedby
 aDescription
 )
 ;
+}
 }
 /
 /
@@ -8330,7 +8339,7 @@ if
 aAccessible
 -
 >
-IsPrimaryForNode
+IsNodeMapEntry
 (
 )
 )
@@ -8537,7 +8546,7 @@ if
 aAccessible
 -
 >
-IsPrimaryForNode
+IsNodeMapEntry
 (
 )
 &
@@ -12758,7 +12767,7 @@ if
 aRoot
 -
 >
-IsPrimaryForNode
+IsNodeMapEntry
 (
 )
 &
