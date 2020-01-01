@@ -1447,6 +1447,7 @@ eOverrideSheet
 /
 /
 CSS
+eTransitionSheet
 eSheetTypeCount
 /
 /
@@ -2543,7 +2544,7 @@ mInReconstruct
 unsigned
 mDirty
 :
-7
+8
 ;
 /
 /
