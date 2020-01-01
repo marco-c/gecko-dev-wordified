@@ -748,6 +748,15 @@ rt
 )
 ;
 NS_COM
+nsCycleCollectionLanguageRuntime
+*
+nsCycleCollector_getRuntime
+(
+PRUint32
+langID
+)
+;
+NS_COM
 void
 nsCycleCollector_forgetRuntime
 (
