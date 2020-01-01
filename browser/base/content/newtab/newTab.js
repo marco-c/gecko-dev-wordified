@@ -189,6 +189,9 @@ gPinnedLinks
 blockedLinks
 :
 gBlockedLinks
+gridPrefs
+:
+gGridPrefs
 }
 =
 NewTabUtils
