@@ -4395,6 +4395,10 @@ wrapObjectCallback
 (
 TransparentObjectWrapper
 )
+sameCompartmentWrapObjectCallback
+(
+NULL
+)
 preWrapObjectCallback
 (
 NULL
@@ -6976,6 +6980,8 @@ JSRuntime
 rt
 JSWrapObjectCallback
 callback
+JSSameCompartmentWrapObjectCallback
+sccallback
 JSPreWrapCallback
 precallback
 )
@@ -6994,6 +7000,13 @@ rt
 wrapObjectCallback
 =
 callback
+;
+rt
+-
+>
+sameCompartmentWrapObjectCallback
+=
+sccallback
 ;
 rt
 -
