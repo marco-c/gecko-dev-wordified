@@ -1499,8 +1499,6 @@ NewProxiedChannel
 (
 url
 nullptr
-0
-nullptr
 result
 )
 ;
@@ -1517,11 +1515,6 @@ uri
 nsIProxyInfo
 *
 proxyInfo
-uint32_t
-proxyResolveFlags
-nsIURI
-*
-proxyURI
 nsIChannel
 *
 *
