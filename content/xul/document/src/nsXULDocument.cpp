@@ -4883,7 +4883,7 @@ aListener
 PRBool
 notify
 =
-mInitialLayoutComplete
+mDocumentLoaded
 |
 |
 mHandlingDelayedBroadcasters
