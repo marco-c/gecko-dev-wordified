@@ -17016,17 +17016,6 @@ if
 js_GetClassPrototype
 (
 cx
-cx
--
->
-fp
-(
-)
--
->
-scopeChain
-(
-)
 JSProto_RegExp
 &
 proto

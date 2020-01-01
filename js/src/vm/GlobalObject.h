@@ -435,9 +435,6 @@ js
 :
 FindClassObject
 *
-js
-:
-:
 FindClassPrototype
 and
 spec
