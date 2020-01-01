@@ -474,8 +474,15 @@ getBuffer
 ;
 public
 abstract
-IntSize
-getSize
+int
+getWidth
+(
+)
+;
+public
+abstract
+int
+getHeight
 (
 )
 ;
