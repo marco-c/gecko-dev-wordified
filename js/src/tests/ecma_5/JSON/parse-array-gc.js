@@ -3,7 +3,7 @@
 |
 reftest
 |
-random
+skip
 -
 if
 (
