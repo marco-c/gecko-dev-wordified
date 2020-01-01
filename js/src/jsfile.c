@@ -3140,6 +3140,12 @@ tmp
 return
 NULL
 ;
+JS_free
+(
+cx
+path
+)
+;
 path
 =
 tmp
