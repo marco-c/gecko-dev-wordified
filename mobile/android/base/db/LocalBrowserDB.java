@@ -794,6 +794,7 @@ NOT
 LIKE
 ?
 )
+AND
 "
 :
 "
