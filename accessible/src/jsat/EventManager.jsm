@@ -1270,8 +1270,6 @@ isInserted
 event
 .
 isInserted
-(
-)
 ;
 let
 txtIface
