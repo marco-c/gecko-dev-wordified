@@ -913,6 +913,15 @@ eintr_wrapper
 h
 "
 #
+include
+"
+linux
+/
+sched
+.
+h
+"
+#
 ifndef
 PR_SET_PTRACER
 #

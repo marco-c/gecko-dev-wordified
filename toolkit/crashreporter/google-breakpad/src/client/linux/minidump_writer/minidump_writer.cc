@@ -601,6 +601,13 @@ unistd
 h
 >
 #
+include
+<
+ctype
+.
+h
+>
+#
 if
 !
 defined
