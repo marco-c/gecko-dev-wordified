@@ -3291,9 +3291,8 @@ JSContext
 cx
 HandleObject
 obj
-JSAtom
-*
-atom
+HandlePropertyName
+name
 HandleValue
 value
 bool

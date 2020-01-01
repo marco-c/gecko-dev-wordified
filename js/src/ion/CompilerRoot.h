@@ -692,6 +692,14 @@ JSFunction
 >
 CompilerRootFunction
 ;
+typedef
+CompilerRoot
+<
+PropertyName
+*
+>
+CompilerRootPropertyName
+;
 /
 /
 Automatically

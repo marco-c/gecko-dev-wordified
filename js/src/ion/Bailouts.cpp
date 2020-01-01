@@ -1059,10 +1059,11 @@ isObject
 (
 )
 )
+{
 fp
 -
 >
-setScopeChainNoCallObj
+setScopeChain
 (
 scopeChainv
 .
@@ -1071,7 +1072,9 @@ toObject
 )
 )
 ;
+}
 else
+{
 JS_ASSERT
 (
 scopeChainv
@@ -1081,6 +1084,7 @@ isUndefined
 )
 )
 ;
+}
 if
 (
 fp

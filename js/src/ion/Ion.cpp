@@ -5883,14 +5883,11 @@ calleeToken
 =
 CalleeToToken
 (
+&
 fp
 -
 >
 callee
-(
-)
-.
-toFunction
 (
 )
 )
