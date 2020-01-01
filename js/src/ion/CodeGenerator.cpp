@@ -10893,7 +10893,7 @@ FunctionInfo
 pf
 >
 (
-CloseIterator
+CloseIteratorFromIon
 )
 ;
 const
