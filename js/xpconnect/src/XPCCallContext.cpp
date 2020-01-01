@@ -831,11 +831,6 @@ if
 mWrapper
 )
 {
-DEBUG_CheckWrapperThreadSafety
-(
-mWrapper
-)
-;
 mFlattenedJSObject
 =
 mWrapper
