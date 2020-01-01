@@ -8,7 +8,7 @@ c
 )
 2002
 -
-2010
+2011
 The
 ANGLE
 Project
@@ -1420,7 +1420,7 @@ getMappedNameMaxLength
 const
 {
 return
-MAX_IDENTIFIER_NAME_SIZE
+MAX_SHORTENED_IDENTIFIER_SIZE
 +
 1
 ;
