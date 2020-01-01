@@ -1279,6 +1279,7 @@ avmplus
 struct
 InterpState
 {
+const
 void
 *
 ip
