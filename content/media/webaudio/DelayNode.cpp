@@ -640,9 +640,9 @@ numFrames
 NS_lround
 (
 mMaxDelay
-)
 *
 aSampleRate
+)
 ;
 for
 (
