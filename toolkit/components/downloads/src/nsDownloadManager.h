@@ -796,10 +796,6 @@ const
 nsACString
 &
 aTarget
-const
-nsAString
-&
-aIconURL
 PRInt64
 aStartTime
 PRInt64

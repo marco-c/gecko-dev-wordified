@@ -592,9 +592,6 @@ DOWNLOAD_TYPE_DOWNLOAD
 aSource
 aTarget
 aDisplayName
-EmptyString
-(
-)
 aMIMEInfo
 aStartTime
 aTempFile
