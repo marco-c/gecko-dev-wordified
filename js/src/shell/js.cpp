@@ -7926,14 +7926,11 @@ NULL
 if
 (
 !
-JS_EvaluateScript
+JS_EvaluateUCInStackFrame
 (
 cx
 caller
--
->
-scopeChain
-JS_GetStringBytes
+JS_GetStringChars
 (
 str
 )
