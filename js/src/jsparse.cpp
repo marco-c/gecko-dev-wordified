@@ -37395,6 +37395,7 @@ pn_atom
 case
 JSOP_CALL
 :
+{
 /
 *
 *
@@ -37492,6 +37493,7 @@ FALL
 THROUGH
 *
 /
+}
 case
 JSOP_DEFFUN
 :
