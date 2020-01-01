@@ -6,6 +6,8 @@ jit
 test
 |
 mjitalways
+;
+debug
 setDebug
 (
 true

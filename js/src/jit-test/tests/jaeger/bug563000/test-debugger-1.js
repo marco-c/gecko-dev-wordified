@@ -1,3 +1,11 @@
+/
+/
+|
+jit
+-
+test
+|
+debug
 var
 result
 =

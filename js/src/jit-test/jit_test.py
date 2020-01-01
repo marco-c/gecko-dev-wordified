@@ -711,6 +711,27 @@ a
 '
 )
                     
+elif
+name
+=
+=
+'
+debug
+'
+:
+                        
+test
+.
+jitflags
+.
+append
+(
+'
+-
+d
+'
+)
+                    
 else
 :
                         
