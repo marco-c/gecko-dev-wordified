@@ -8045,7 +8045,6 @@ supported
 on
 this
 system
-.
 "
 )
 ;
@@ -8075,7 +8074,6 @@ without
 support
 for
 them
-.
 "
 )
 ;
