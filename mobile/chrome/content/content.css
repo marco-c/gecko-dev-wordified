@@ -741,6 +741,7 @@ color
 ;
 background
 :
+white
 -
 moz
 -
@@ -866,6 +867,7 @@ color
 ;
 background
 :
+white
 -
 moz
 -
@@ -920,6 +922,7 @@ checkbox
 {
 background
 :
+white
 -
 moz
 -
@@ -1255,6 +1258,12 @@ color
 ;
 background
 -
+color
+:
+transparent
+;
+background
+-
 image
 :
 -
@@ -1439,6 +1448,7 @@ rgb
 ;
 background
 :
+white
 -
 moz
 -
@@ -1583,6 +1593,7 @@ rgb
 ;
 background
 :
+white
 -
 moz
 -
@@ -1672,6 +1683,7 @@ focus
 {
 background
 :
+white
 -
 moz
 -
