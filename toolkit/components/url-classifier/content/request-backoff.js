@@ -768,7 +768,7 @@ if
 (
 this
 .
-isErrorStatus_
+isErrorStatus
 (
 status
 )
@@ -998,6 +998,7 @@ consider
 302
 303
 307
+4xx
 and
 5xx
 http
@@ -1030,7 +1031,7 @@ RequestBackoff
 .
 prototype
 .
-isErrorStatus_
+isErrorStatus
 =
 function
 (
@@ -1040,7 +1041,7 @@ status
 return
 (
 (
-500
+400
 <
 =
 status
