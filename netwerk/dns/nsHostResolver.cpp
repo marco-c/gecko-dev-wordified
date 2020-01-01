@@ -677,7 +677,7 @@ PRLogModuleInfo
 *
 gHostResolverLog
 =
-nsnull
+nullptr
 ;
 #
 define
@@ -1412,11 +1412,11 @@ addr_info_gencnt
 )
 addr_info
 (
-nsnull
+nullptr
 )
 addr
 (
-nsnull
+nullptr
 )
 negative
 (
@@ -2395,7 +2395,7 @@ void
 *
 iter
 =
-nsnull
+nullptr
 ;
 PRNetAddr
 addr
@@ -2786,7 +2786,7 @@ PL_DHashTableInit
 mDB
 &
 gHostDB_ops
-nsnull
+nullptr
 sizeof
 (
 nsHostDBEnt
@@ -2982,7 +2982,7 @@ OnLookupComplete
 (
 rec
 NS_ERROR_ABORT
-nsnull
+nullptr
 )
 ;
 }
@@ -3104,7 +3104,7 @@ PL_DHashTableEnumerate
 &
 mDB
 HostDB_RemoveEntry
-nsnull
+nullptr
 )
 ;
 }

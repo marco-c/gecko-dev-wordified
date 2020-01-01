@@ -345,7 +345,7 @@ aVisitor
 .
 mParentTarget
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -759,7 +759,7 @@ aFileList
 Length
 (
 )
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -1006,7 +1006,7 @@ aCx
 scope
 file
 aValue
-nsnull
+nullptr
 true
 )
 ;

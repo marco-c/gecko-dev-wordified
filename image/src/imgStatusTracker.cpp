@@ -500,7 +500,7 @@ statusTracker
 .
 mRequestRunnable
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1414,7 +1414,7 @@ GetResultFromImageStatus
 (
 mImageStatus
 )
-nsnull
+nullptr
 )
 ;
 proxy
@@ -1506,7 +1506,7 @@ aProxy
 OnStopDecode
 (
 aStatus
-nsnull
+nullptr
 )
 ;
 }
@@ -2813,7 +2813,7 @@ GetResultFromImageStatus
 (
 mImageStatus
 )
-nsnull
+nullptr
 )
 ;
 aProxy

@@ -2292,7 +2292,7 @@ Service
 :
 gService
 =
-nsnull
+nullptr
 ;
 Service
 *
@@ -2437,7 +2437,7 @@ ps
 >
 Alert
 (
-nsnull
+nullptr
 title
 .
 get
@@ -2504,7 +2504,7 @@ Service
 :
 sXPConnect
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2669,7 +2669,7 @@ mMutex
 )
 mSqliteVFS
 (
-nsnull
+nullptr
 )
 mRegistrationMutex
 (
@@ -2685,11 +2685,11 @@ mConnections
 )
 mStorageSQLiteReporter
 (
-nsnull
+nullptr
 )
 mStorageSQLiteMultiReporter
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2855,14 +2855,14 @@ observed
 ;
 gService
 =
-nsnull
+nullptr
 ;
 delete
 mSqliteVFS
 ;
 mSqliteVFS
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -3988,7 +3988,7 @@ service
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -4031,7 +4031,7 @@ locale
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -4063,7 +4063,7 @@ factory
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 rv
@@ -4099,7 +4099,7 @@ collation
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return

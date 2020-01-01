@@ -389,7 +389,7 @@ GetNextSibling
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -2887,7 +2887,7 @@ pushTableItem
 Push
 (
 aBuilder
-nsnull
+nullptr
 )
 ;
 nsIFrame
@@ -3040,7 +3040,7 @@ skip
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 GetPrevInFlow
@@ -3059,7 +3059,7 @@ NS_SIDE_TOP
 }
 if
 (
-nsnull
+nullptr
 !
 =
 GetNextInFlow
@@ -6054,7 +6054,7 @@ PresShell
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -6808,7 +6808,7 @@ GetStyleContext
 )
 myBorder
 aFlags
-nsnull
+nullptr
 )
 ;
 #

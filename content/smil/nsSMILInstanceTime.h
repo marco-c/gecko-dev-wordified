@@ -462,12 +462,12 @@ nsSMILTimeValueSpec
 *
 aCreator
 =
-nsnull
+nullptr
 nsSMILInterval
 *
 aBaseInterval
 =
-nsnull
+nullptr
 )
 ;
 ~

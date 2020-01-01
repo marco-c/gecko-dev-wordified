@@ -347,7 +347,7 @@ GetOwner
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr

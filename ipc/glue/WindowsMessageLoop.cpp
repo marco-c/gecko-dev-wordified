@@ -781,7 +781,7 @@ HWND
 *
 gNeuteredWindows
 =
-nsnull
+nullptr
 ;
 typedef
 nsTArray
@@ -797,7 +797,7 @@ DeferredMessageArray
 *
 gDeferredMessages
 =
-nsnull
+nullptr
 ;
 HHOOK
 gDeferredGetMsgHook
@@ -1081,7 +1081,7 @@ gDeferredMessages
 ;
 gDeferredMessages
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1246,7 +1246,7 @@ DeferredMessage
 *
 deferred
 =
-nsnull
+nullptr
 ;
 /
 /

@@ -196,7 +196,7 @@ nsIContentSink
 *
 aSink
 =
-nsnull
+nullptr
 )
 ;
 virtual
@@ -556,7 +556,7 @@ nsGkAtoms
 :
 :
 video
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :

@@ -280,7 +280,7 @@ aIdleObserver
 )
 mQueuedRunnables
 (
-nsnull
+nullptr
 )
 mIdleTimeoutMS
 (
@@ -941,7 +941,7 @@ thread
 >
 SetObserver
 (
-nsnull
+nullptr
 )
 )
 )
@@ -1271,7 +1271,7 @@ nsIThread
 this
 )
 IDLE_THREAD_TOPIC
-nsnull
+nullptr
 )
 ;
 }
@@ -1396,11 +1396,11 @@ queue
 .
 mQueuedRunnables
 =
-nsnull
+nullptr
 ;
 mThread
 =
-nsnull
+nullptr
 ;
 {
 MutexAutoLock
@@ -1469,7 +1469,7 @@ rv
 ;
 mIdleTimer
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1998,7 +1998,7 @@ aPRThread
 *
 aPRThread
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -2044,7 +2044,7 @@ now
 ;
 mIdleObserver
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_SUCCESS
 (

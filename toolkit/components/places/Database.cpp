@@ -933,7 +933,7 @@ ArrayLength
 (
 stmts
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 ps
@@ -1360,9 +1360,9 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 TOPIC_PLACES_CONNECTION_CLOSED
-nsnull
+nullptr
 )
 ;
 MOZ_ASSERT
@@ -2214,7 +2214,7 @@ this
 {
 gDatabase
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -6386,7 +6386,7 @@ stmt
 >
 ExecuteAsync
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 pendingStmt
@@ -7915,7 +7915,7 @@ stmt
 >
 ExecuteAsync
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 ps
@@ -9805,7 +9805,7 @@ deleteDynContainersStmt
 >
 ExecuteAsync
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 ps
@@ -10503,7 +10503,7 @@ fillHostsStmt
 >
 ExecuteAsync
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 ps
@@ -10772,7 +10772,7 @@ updateTypedStmt
 >
 ExecuteAsync
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 ps
@@ -11718,7 +11718,7 @@ updatePrefixesStmt
 >
 ExecuteAsync
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 ps
@@ -12165,7 +12165,7 @@ Observe
 (
 observer
 TOPIC_PLACES_INIT_COMPLETE
-nsnull
+nullptr
 )
 ;
 }
@@ -12192,9 +12192,9 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 TOPIC_PLACES_SHUTDOWN
-nsnull
+nullptr
 )
 ;
 }
@@ -12264,9 +12264,9 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 TOPIC_PLACES_WILL_CLOSE_CONNECTION
-nsnull
+nullptr
 )
 ;
 }

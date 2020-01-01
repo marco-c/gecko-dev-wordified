@@ -564,7 +564,7 @@ nsPluginInstanceOwner
 *
 sFullScreenInstance
 =
-nsnull
+nullptr
 ;
 using
 namespace
@@ -1368,7 +1368,7 @@ forget
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1450,7 +1450,7 @@ forget
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1680,19 +1680,19 @@ mPluginWindow
 else
 mPluginWindow
 =
-nsnull
+nullptr
 ;
 mObjectFrame
 =
-nsnull
+nullptr
 ;
 mContent
 =
-nsnull
+nullptr
 ;
 mTagText
 =
-nsnull
+nullptr
 ;
 mWidgetCreationComplete
 =
@@ -1738,7 +1738,7 @@ false
 ;
 mColorProfile
 =
-nsnull
+nullptr
 ;
 mPluginPortChanged
 =
@@ -1772,11 +1772,11 @@ mNumCachedParams
 ;
 mCachedAttrParamNames
 =
-nsnull
+nullptr
 ;
 mCachedAttrParamValues
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -1815,7 +1815,7 @@ false
 ;
 mJavaView
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -1899,7 +1899,7 @@ CancelTimer
 endif
 mObjectFrame
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -1946,7 +1946,7 @@ mCachedAttrParamNames
 cnt
 ]
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1973,7 +1973,7 @@ mCachedAttrParamValues
 cnt
 ]
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1989,7 +1989,7 @@ mCachedAttrParamNames
 ;
 mCachedAttrParamNames
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -2004,7 +2004,7 @@ mCachedAttrParamValues
 ;
 mCachedAttrParamValues
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -2019,7 +2019,7 @@ mTagText
 ;
 mTagText
 =
-nsnull
+nullptr
 ;
 }
 PLUG_DeletePluginNativeWindow
@@ -2029,7 +2029,7 @@ mPluginWindow
 ;
 mPluginWindow
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -2444,7 +2444,7 @@ rv
 *
 result
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -4196,7 +4196,7 @@ view
 >
 GetOffsetTo
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -4762,7 +4762,7 @@ result
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 mTagText
@@ -5075,7 +5075,7 @@ names
 =
 values
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -5124,7 +5124,7 @@ rv
 *
 result
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -5223,7 +5223,7 @@ mObjectFrame
 *
 result
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -5898,7 +5898,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -8010,7 +8010,7 @@ mCachedAttrParamValues
 nextAttrParamIndex
 ]
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -8666,7 +8666,7 @@ char
 *
 mime
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8982,7 +8982,7 @@ aHeight
 {
 mIOSurface
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -9060,7 +9060,7 @@ failed
 ;
 mIOSurface
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -9379,7 +9379,7 @@ return
 mCGPluginPortCopy
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -9583,7 +9583,7 @@ if
 mPluginWindow
 )
 return
-nsnull
+nullptr
 ;
 void
 *
@@ -9599,7 +9599,7 @@ if
 pluginPort
 )
 return
-nsnull
+nullptr
 ;
 mPluginWindow
 -
@@ -10054,7 +10054,7 @@ InitializeEventRecord
 (
 &
 scrollEvent
-nsnull
+nullptr
 )
 ;
 scrollEvent
@@ -10084,7 +10084,7 @@ HandleEvent
 (
 &
 scrollEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -10165,7 +10165,7 @@ InitializeEventRecord
 (
 &
 scrollEvent
-nsnull
+nullptr
 )
 ;
 scrollEvent
@@ -10195,7 +10195,7 @@ HandleEvent
 (
 &
 scrollEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -10763,7 +10763,7 @@ mJavaView
 ;
 mJavaView
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -10771,7 +10771,7 @@ mFullScreen
 )
 sFullScreenInstance
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -11476,7 +11476,7 @@ HandleEvent
 (
 &
 event
-nsnull
+nullptr
 )
 ;
 }
@@ -11563,7 +11563,7 @@ theEvent
 -
 >
 message
-nsnull
+nullptr
 )
 ;
 nsEventStatus
@@ -15789,7 +15789,7 @@ NS_NATIVE_DISPLAY
 )
 )
 :
-nsnull
+nullptr
 )
 qtEvent
 -
@@ -16155,7 +16155,7 @@ NS_NATIVE_DISPLAY
 )
 )
 :
-nsnull
+nullptr
 ;
 event
 .
@@ -16482,7 +16482,7 @@ HandleEvent
 (
 &
 event
-nsnull
+nullptr
 )
 ;
 }
@@ -16551,7 +16551,7 @@ HandleEvent
 (
 &
 event
-nsnull
+nullptr
 )
 ;
 }
@@ -16664,7 +16664,7 @@ mInstance
 HandleEvent
 (
 pluginEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -16697,7 +16697,7 @@ mObjectFrame
 >
 SetInstanceOwner
 (
-nsnull
+nullptr
 )
 ;
 #
@@ -16761,7 +16761,7 @@ mContent
 ;
 mCXMenuListener
 =
-nsnull
+nullptr
 ;
 }
 mContent
@@ -17149,7 +17149,7 @@ mPluginWindow
 >
 SetPluginWidget
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -17174,7 +17174,7 @@ pluginWidget
 >
 SetPluginInstanceOwner
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -17291,7 +17291,7 @@ InitializeEventRecord
 (
 &
 updateEvent
-nsnull
+nullptr
 )
 ;
 updateEvent
@@ -17316,7 +17316,7 @@ HandleEvent
 (
 &
 updateEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -17476,7 +17476,7 @@ HandleEvent
 (
 &
 updateEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -17545,7 +17545,7 @@ HandleEvent
 (
 &
 pluginEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -17725,7 +17725,7 @@ HandleEvent
 (
 &
 pluginEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -17832,7 +17832,7 @@ if
 pluginSurface
 =
 =
-nsnull
+nullptr
 |
 |
 aFrameRect
@@ -18107,7 +18107,7 @@ HandleEvent
 (
 &
 event
-nsnull
+nullptr
 )
 ;
 aContext
@@ -18596,7 +18596,7 @@ height
 rendererFlags
 screen
 visual
-nsnull
+nullptr
 )
 ;
 }
@@ -19480,7 +19480,7 @@ HandleEvent
 (
 &
 pluginEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -19595,7 +19595,7 @@ InitializeEventRecord
 (
 &
 idleEvent
-nsnull
+nullptr
 )
 ;
 idleEvent
@@ -19662,7 +19662,7 @@ HandleEvent
 (
 &
 idleEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -20590,7 +20590,7 @@ nsIDocument
 *
 doc
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -20677,7 +20677,7 @@ parentWidget
 get
 (
 )
-nsnull
+nullptr
 nsIntRect
 (
 0
@@ -20685,8 +20685,8 @@ nsIntRect
 0
 0
 )
-nsnull
-nsnull
+nullptr
+nullptr
 &
 initData
 )
@@ -20708,7 +20708,7 @@ Destroy
 ;
 mWidget
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -20914,7 +20914,7 @@ mPluginWindow
 >
 window
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -21150,7 +21150,7 @@ mInstance
 mObjectFrame
 )
 return
-nsnull
+nullptr
 ;
 NPEventModel
 eventModel
@@ -21176,7 +21176,7 @@ if
 pluginWidget
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -21218,7 +21218,7 @@ void
 *
 pluginPort
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -21259,7 +21259,7 @@ NPEventModelCarbon
 pluginPort
 )
 return
-nsnull
+nullptr
 ;
 #
 endif
@@ -21285,7 +21285,7 @@ void
 *
 cocoaTopLevelWindow
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -21312,7 +21312,7 @@ if
 widget
 )
 return
-nsnull
+nullptr
 ;
 cocoaTopLevelWindow
 =
@@ -21330,7 +21330,7 @@ if
 cocoaTopLevelWindow
 )
 return
-nsnull
+nullptr
 ;
 }
 nsIntPoint
@@ -22009,7 +22009,7 @@ pluginEvent
 (
 true
 NS_PLUGIN_FOCUS_EVENT
-nsnull
+nullptr
 )
 ;
 NPCocoaEvent
@@ -22115,7 +22115,7 @@ window
 #
 endif
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -22892,8 +22892,8 @@ oglImage
 >
 SetUpdateCallback
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 oglImage
@@ -22901,7 +22901,7 @@ oglImage
 >
 SetDestroyCallback
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -22990,7 +22990,7 @@ container
 >
 SetCurrentImageInTransaction
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -23152,7 +23152,7 @@ mObjectFrame
 >
 SetInstanceOwner
 (
-nsnull
+nullptr
 )
 ;
 }

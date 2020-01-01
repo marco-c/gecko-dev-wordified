@@ -187,7 +187,7 @@ dom
 :
 Link
 (
-nsnull
+nullptr
 )
 mHandler
 (
@@ -639,7 +639,7 @@ GetURI
 )
 ;
 return
-nsnull
+nullptr
 ;
 /
 /

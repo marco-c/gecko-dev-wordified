@@ -436,7 +436,7 @@ This
 cx
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -785,7 +785,7 @@ DEBUG
 :
 mThread
 (
-nsnull
+nullptr
 )
 #
 endif
@@ -813,7 +813,7 @@ LocaleToUnicode
 ;
 localeGetErrorMessage
 =
-nsnull
+nullptr
 ;
 }
 ~
@@ -1039,7 +1039,7 @@ JSString
 *
 str
 =
-nsnull
+nullptr
 ;
 PRInt32
 srcLength
@@ -1792,7 +1792,7 @@ called
 JS_SetLocaleCallbacks
 (
 cx
-nsnull
+nullptr
 )
 ;
 delete

@@ -137,7 +137,7 @@ PRLibrary
 *
 gtklib
 =
-nsnull
+nullptr
 ;
 typedef
 gboolean
@@ -155,7 +155,7 @@ static
 GdkKeymapHaveBidiLayoutsType
 GdkKeymapHaveBidiLayouts
 =
-nsnull
+nullptr
 ;
 NS_IMPL_ISUPPORTS1
 (
@@ -251,11 +251,11 @@ gtklib
 ;
 gtklib
 =
-nsnull
+nullptr
 ;
 GdkKeymapHaveBidiLayouts
 =
-nsnull
+nullptr
 ;
 }
 }

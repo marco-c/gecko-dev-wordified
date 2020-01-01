@@ -298,7 +298,7 @@ delete
 map
 ;
 return
-nsnull
+nullptr
 ;
 }
 inline
@@ -341,7 +341,7 @@ p
 >
 value
 :
-nsnull
+nullptr
 ;
 }
 inline
@@ -409,7 +409,7 @@ wrapper
 ?
 wrapper
 :
-nsnull
+nullptr
 ;
 }
 inline
@@ -672,7 +672,7 @@ entry
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 entry
@@ -732,7 +732,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1031,7 +1031,7 @@ entry
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 entry
@@ -1093,7 +1093,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1316,7 +1316,7 @@ entry
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 entry
@@ -1377,7 +1377,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1613,7 +1613,7 @@ entry
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 entry
@@ -1665,7 +1665,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1942,7 +1942,7 @@ entry
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 entry
@@ -1994,7 +1994,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -2243,7 +2243,7 @@ entry
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 entry
@@ -2305,7 +2305,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -2345,7 +2345,7 @@ XPCNativeSetKey
 key
 (
 set
-nsnull
+nullptr
 0
 )
 ;
@@ -2380,7 +2380,7 @@ XPCNativeSetKey
 key
 (
 set
-nsnull
+nullptr
 0
 )
 ;
@@ -2648,7 +2648,7 @@ entry
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 entry
@@ -2691,7 +2691,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 NS_IF_ADDREF
 (
@@ -3149,7 +3149,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -3415,7 +3415,7 @@ delete
 map
 ;
 return
-nsnull
+nullptr
 ;
 }
 inline
@@ -3459,7 +3459,7 @@ p
 value
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3536,7 +3536,7 @@ value
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 value

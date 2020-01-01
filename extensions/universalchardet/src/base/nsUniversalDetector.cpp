@@ -165,7 +165,7 @@ false
 ;
 mEscCharSetProber
 =
-nsnull
+nullptr
 ;
 mStart
 =
@@ -173,7 +173,7 @@ true
 ;
 mDetectedCharset
 =
-nsnull
+nullptr
 ;
 mGotData
 =
@@ -216,7 +216,7 @@ mCharSetProbers
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 nsUniversalDetector
@@ -285,7 +285,7 @@ true
 ;
 mDetectedCharset
 =
-nsnull
+nullptr
 ;
 mGotData
 =
@@ -770,7 +770,7 @@ mEscCharSetProber
 ;
 mEscCharSetProber
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -783,7 +783,7 @@ charset
 prober
 if
 (
-nsnull
+nullptr
 =
 =
 mCharSetProbers
@@ -805,7 +805,7 @@ mLanguageFilter
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 mCharSetProbers
@@ -819,7 +819,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 if
 (
-nsnull
+nullptr
 =
 =
 mCharSetProbers
@@ -845,7 +845,7 @@ nsSBCSGroupProber
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 mCharSetProbers
@@ -859,7 +859,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 if
 (
-nsnull
+nullptr
 =
 =
 mCharSetProbers
@@ -878,7 +878,7 @@ nsLatin1Prober
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 mCharSetProbers
@@ -983,7 +983,7 @@ eEscAscii
 :
 if
 (
-nsnull
+nullptr
 =
 =
 mEscCharSetProber
@@ -999,7 +999,7 @@ mLanguageFilter
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 mEscCharSetProber

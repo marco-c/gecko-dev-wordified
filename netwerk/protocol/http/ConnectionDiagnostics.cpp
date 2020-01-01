@@ -185,7 +185,7 @@ nsHttpConnectionMgr
 :
 OnMsgPrintDiagnostics
 0
-nsnull
+nullptr
 )
 ;
 }

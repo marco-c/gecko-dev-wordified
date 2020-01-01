@@ -2202,7 +2202,7 @@ SharedMemory
 *
 segment
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2951,7 +2951,7 @@ SharedMemory
 *
 segment
 =
-nsnull
+nullptr
 ;
 if
 (

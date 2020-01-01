@@ -1271,7 +1271,7 @@ this
 )
 gBookmarksService
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_ISUPPORTS5
@@ -4661,7 +4661,7 @@ dateAdded
 0
 folderGuid
 grandParentId
-nsnull
+nullptr
 aNewFolder
 guid
 )
@@ -4699,7 +4699,7 @@ aNewFolder
 aParent
 index
 FOLDER
-nsnull
+nullptr
 title
 dateAdded
 guid
@@ -4913,7 +4913,7 @@ dateAdded
 0
 folderGuid
 grandParentId
-nsnull
+nullptr
 aNewItemId
 guid
 )
@@ -4951,7 +4951,7 @@ aNewItemId
 aParent
 index
 TYPE_SEPARATOR
-nsnull
+nullptr
 voidString
 dateAdded
 guid
@@ -11415,7 +11415,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsNavHistory
 *
@@ -13314,7 +13314,7 @@ aCount
 *
 aBookmarks
 =
-nsnull
+nullptr
 ;
 nsTArray
 <
@@ -13999,7 +13999,7 @@ stmt
 >
 ExecuteAsync
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 pendingStmt
@@ -14927,7 +14927,7 @@ NS_ERROR_INVALID_ARG
 *
 aURI
 =
-nsnull
+nullptr
 ;
 /
 /

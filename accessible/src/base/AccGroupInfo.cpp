@@ -106,7 +106,7 @@ mSetSize
 )
 mParent
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR

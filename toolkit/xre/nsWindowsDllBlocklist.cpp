@@ -1036,7 +1036,7 @@ alignedOffset
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 ~
@@ -1731,7 +1731,7 @@ pathlen
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 wchar_t
@@ -1761,7 +1761,7 @@ allocate
 memory
 ?
 return
-nsnull
+nullptr
 ;
 }
 /

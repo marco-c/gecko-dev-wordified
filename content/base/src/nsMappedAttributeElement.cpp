@@ -197,7 +197,7 @@ GetAttributeStyleSheet
 (
 )
 :
-nsnull
+nullptr
 ;
 *
 aRetval

@@ -387,7 +387,7 @@ void
 {
 mCacheEntry
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -406,7 +406,7 @@ mOutput
 ;
 mOutput
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -1115,7 +1115,7 @@ mDescriptor
 >
 mOutput
 =
-nsnull
+nullptr
 ;
 }
 NS_RELEASE

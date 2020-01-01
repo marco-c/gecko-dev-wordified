@@ -904,7 +904,7 @@ mozHunspell
 {
 mPersonalDictionary
 =
-nsnull
+nullptr
 ;
 delete
 mHunspell
@@ -1013,7 +1013,7 @@ mHunspell
 ;
 mHunspell
 =
-nsnull
+nullptr
 ;
 mDictionary
 .
@@ -1041,11 +1041,11 @@ AssignLiteral
 ;
 mDecoder
 =
-nsnull
+nullptr
 ;
 mEncoder
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1073,9 +1073,9 @@ obs
 >
 NotifyObservers
 (
-nsnull
+nullptr
 SPELLCHECK_DICTIONARY_UPDATE_NOTIFICATION
-nsnull
+nullptr
 )
 ;
 }
@@ -1382,7 +1382,7 @@ mEncoder
 -
 >
 kOnError_Signal
-nsnull
+nullptr
 '
 ?
 '
@@ -1470,9 +1470,9 @@ obs
 >
 NotifyObservers
 (
-nsnull
+nullptr
 SPELLCHECK_DICTIONARY_UPDATE_NOTIFICATION
-nsnull
+nullptr
 )
 ;
 }

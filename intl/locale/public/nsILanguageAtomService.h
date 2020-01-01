@@ -204,7 +204,7 @@ nsresult
 *
 aError
 =
-nsnull
+nullptr
 )
 =
 0
@@ -224,7 +224,7 @@ nsresult
 *
 aError
 =
-nsnull
+nullptr
 )
 =
 0
@@ -238,7 +238,7 @@ nsresult
 *
 aError
 =
-nsnull
+nullptr
 )
 =
 0
@@ -255,7 +255,7 @@ nsresult
 *
 aError
 =
-nsnull
+nullptr
 )
 =
 0

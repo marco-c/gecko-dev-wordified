@@ -381,7 +381,7 @@ gfxIntSize
 *
 sScreenSize
 =
-nsnull
+nullptr
 ;
 BufferVector
 &

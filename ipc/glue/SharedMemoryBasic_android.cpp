@@ -281,7 +281,7 @@ mShmFd
 )
 mMemory
 (
-nsnull
+nullptr
 )
 {
 }
@@ -304,7 +304,7 @@ fd
 )
 mMemory
 (
-nsnull
+nullptr
 )
 {
 }
@@ -464,7 +464,7 @@ nBytes
 {
 NS_ABORT_IF_FALSE
 (
-nsnull
+nullptr
 =
 =
 mMemory
@@ -481,7 +481,7 @@ mMemory
 =
 mmap
 (
-nsnull
+nullptr
 nBytes
 PROT_READ
 |
@@ -513,7 +513,7 @@ Map
 ;
 mMemory
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -661,7 +661,7 @@ Unmap
 }
 mMemory
 =
-nsnull
+nullptr
 ;
 }
 void

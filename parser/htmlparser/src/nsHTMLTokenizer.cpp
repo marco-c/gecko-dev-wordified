@@ -636,7 +636,7 @@ parser
 ;
 mTokenAllocator
 =
-nsnull
+nullptr
 ;
 mTokenScanPos
 =
@@ -973,7 +973,7 @@ and
 sets
 it
 to
-nsnull
+nullptr
 .
 *
 *
@@ -3154,7 +3154,7 @@ CToken
 *
 theToken
 =
-nsnull
+nullptr
 ;
 nsresult
 result
@@ -4142,7 +4142,7 @@ NS_LIKELY
 theToken
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -5255,7 +5255,7 @@ CToken
 *
 endToken
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5526,7 +5526,7 @@ NS_LIKELY
 endToken
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -7026,7 +7026,7 @@ mTokenAllocator
 ;
 aToken
 =
-nsnull
+nullptr
 ;
 }
 else

@@ -1958,7 +1958,7 @@ io
 NewURI
 (
 url
-nsnull
+nullptr
 workingDirURI
 aResult
 )
@@ -1985,7 +1985,7 @@ NS_ConvertUTF16toUTF8
 (
 aArgument
 )
-nsnull
+nullptr
 workingDirURI
 aResult
 )
@@ -3058,7 +3058,7 @@ rv
 EnumerateValidators
 (
 EnumValidate
-nsnull
+nullptr
 )
 ;
 if
@@ -3076,7 +3076,7 @@ rv
 EnumerateHandlers
 (
 EnumRun
-nsnull
+nullptr
 )
 ;
 if

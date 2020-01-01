@@ -237,7 +237,7 @@ use
 BlobVariant
 )
 *
-nsnull
+nullptr
 -
 >
 NULL
@@ -1294,7 +1294,7 @@ empty
 blobs
 we
 return
-nsnull
+nullptr
 .
 if
 (
@@ -1311,7 +1311,7 @@ Length
 *
 _result
 =
-nsnull
+nullptr
 ;
 *
 _type

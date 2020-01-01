@@ -151,7 +151,7 @@ entries
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NO_INTERFACE

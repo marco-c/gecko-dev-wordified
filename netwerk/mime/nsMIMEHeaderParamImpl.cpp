@@ -640,7 +640,7 @@ charset
 get
 (
 )
-nsnull
+nullptr
 false
 str1
 )
@@ -1950,7 +1950,7 @@ NS_ERROR_INVALID_ARG
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1959,7 +1959,7 @@ aCharset
 *
 aCharset
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1968,7 +1968,7 @@ aLang
 *
 aLang
 =
-nsnull
+nullptr
 ;
 nsCAutoString
 charset
@@ -3306,7 +3306,7 @@ sQuote1
 0x27
 )
 :
-nsnull
+nullptr
 ;
 /
 /
@@ -5882,10 +5882,10 @@ if
 dest
 =
 =
-nsnull
+nullptr
 )
 return
-nsnull
+nullptr
 ;
 while
 (
@@ -6106,7 +6106,7 @@ dest
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -6974,7 +6974,7 @@ p
 *
 q
 =
-nsnull
+nullptr
 *
 r
 ;
@@ -7659,7 +7659,7 @@ q
 +
 2
 n
-nsnull
+nullptr
 )
 ;
 }
@@ -7668,7 +7668,7 @@ if
 decodedText
 =
 =
-nsnull
+nullptr
 )
 goto
 badsyntax

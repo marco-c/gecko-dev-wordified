@@ -265,7 +265,7 @@ memory
 !
 mCallback
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -280,7 +280,7 @@ mCallback
 }
 mCallbackTarget
 =
-nsnull
+nullptr
 ;
 callback
 -

@@ -961,7 +961,7 @@ CleanRedirectCacheChainIfNecessary
 {
 mRedirectedCachekeys
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHOD
@@ -1778,7 +1778,7 @@ T
 *
 retval
 =
-nsnull
+nullptr
 )
 ;
 private
@@ -2036,7 +2036,7 @@ mLoadGroup
 RemoveRequest
 (
 mThis
-nsnull
+nullptr
 mThis
 -
 >

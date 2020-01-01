@@ -288,7 +288,7 @@ NS_ERROR_INVALID_ARG
 *
 aStatus
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -322,7 +322,7 @@ foundDER
 .
 data
 =
-nsnull
+nullptr
 ;
 bool
 isDomainMismatch
@@ -382,7 +382,7 @@ srv
 =
 SECITEM_CopyItem
 (
-nsnull
+nullptr
 &
 foundDER
 &
@@ -474,7 +474,7 @@ CERT_NewTempCertificate
 certdb
 &
 foundDER
-nsnull
+nullptr
 /
 /
 no

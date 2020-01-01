@@ -121,7 +121,7 @@ h
 needed
 for
 '
-nsnull
+nullptr
 '
 #
 include
@@ -137,7 +137,7 @@ nsGTKToolkit
 :
 gToolkit
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -305,7 +305,7 @@ nsGTKToolkit
 :
 mSharedGC
 (
-nsnull
+nullptr
 )
 mFocusTimestamp
 (

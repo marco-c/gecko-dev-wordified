@@ -266,11 +266,11 @@ nsBufferDecoderSupport
 {
 mExtensionDecoder
 =
-nsnull
+nullptr
 ;
 m4BytesDecoder
 =
-nsnull
+nullptr
 ;
 }
 protected

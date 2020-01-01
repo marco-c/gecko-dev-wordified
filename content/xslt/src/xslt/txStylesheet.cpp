@@ -174,7 +174,7 @@ txStylesheet
 :
 mRootFrame
 (
-nsnull
+nullptr
 )
 {
 }
@@ -663,19 +663,19 @@ pointer
 *
 aImportFrame
 =
-nsnull
+nullptr
 ;
 txInstruction
 *
 matchTemplate
 =
-nsnull
+nullptr
 ;
 ImportFrame
 *
 endFrame
 =
-nsnull
+nullptr
 ;
 txListIterator
 frameIter
@@ -1495,7 +1495,7 @@ rv
 ;
 mRootFrame
 =
-nsnull
+nullptr
 ;
 frameIter
 .
@@ -2180,7 +2180,7 @@ unionPattern
 setSubPatternAt
 (
 0
-nsnull
+nullptr
 )
 ;
 }
@@ -2354,7 +2354,7 @@ unionPattern
 setSubPatternAt
 (
 unionPos
-nsnull
+nullptr
 )
 ;
 }
@@ -2784,7 +2784,7 @@ txInstruction
 *
 lastNonReturn
 =
-nsnull
+nullptr
 ;
 while
 (

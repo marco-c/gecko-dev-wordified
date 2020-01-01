@@ -365,7 +365,7 @@ gfxQtPlatform
 :
 sFontconfigUtils
 =
-nsnull
+nullptr
 ;
 static
 cairo_user_data_key_t
@@ -779,7 +779,7 @@ Shutdown
 ;
 sFontconfigUtils
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -954,7 +954,7 @@ display
 #
 else
 return
-nsnull
+nullptr
 ;
 #
 endif
@@ -988,7 +988,7 @@ windowHandle
 (
 )
 :
-nsnull
+nullptr
 )
 )
 ;
@@ -1054,7 +1054,7 @@ screen
 #
 else
 return
-nsnull
+nullptr
 ;
 #
 endif
@@ -1092,7 +1092,7 @@ windowHandle
 (
 )
 :
-nsnull
+nullptr
 )
 )
 ;
@@ -1127,7 +1127,7 @@ gfxASurface
 >
 newSurface
 =
-nsnull
+nullptr
 ;
 gfxASurface
 :
@@ -2690,7 +2690,7 @@ GetPlatformCMSOutputProfile
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -2753,7 +2753,7 @@ ff
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2798,7 +2798,7 @@ if
 ff
 )
 return
-nsnull
+nullptr
 ;
 return
 ff
@@ -2878,7 +2878,7 @@ gPlatformFonts
 gCodepointsWithNoFonts
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -2904,7 +2904,7 @@ aCh
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 GlobalFontMatch
@@ -2925,7 +2925,7 @@ GetStyle
 (
 )
 :
-nsnull
+nullptr
 )
 )
 ;
@@ -3033,7 +3033,7 @@ aCh
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool

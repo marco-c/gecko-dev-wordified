@@ -276,7 +276,7 @@ aCount
 elements
 set
 to
-nsnull
+nullptr
 ~
 nsVoidArray
 (
@@ -544,7 +544,7 @@ aIndex
 too
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1737,7 +1737,7 @@ aIndex
 too
 {
 return
-nsnull
+nullptr
 ;
 }
 return

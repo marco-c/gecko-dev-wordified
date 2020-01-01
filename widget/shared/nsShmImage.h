@@ -415,7 +415,7 @@ nsShmImage
 :
 mImage
 (
-nsnull
+nullptr
 )
 mXAttached
 (

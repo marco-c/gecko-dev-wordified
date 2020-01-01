@@ -480,11 +480,11 @@ NULL
 ;
 global
 =
-nsnull
+nullptr
 ;
 location
 =
-nsnull
+nullptr
 ;
 }
 ~

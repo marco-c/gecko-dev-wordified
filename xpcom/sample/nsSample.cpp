@@ -234,7 +234,7 @@ nsSampleImpl
 :
 mValue
 (
-nsnull
+nullptr
 )
 {
 mValue
@@ -463,7 +463,7 @@ NS_PRECONDITION
 aValue
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -666,7 +666,7 @@ else
 *
 aValue
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -690,7 +690,7 @@ NS_PRECONDITION
 aValue
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -857,7 +857,7 @@ NS_PRECONDITION
 aPrefix
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

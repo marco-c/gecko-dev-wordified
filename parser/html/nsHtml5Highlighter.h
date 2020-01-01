@@ -1189,7 +1189,7 @@ taken
 )
 or
 *
-nsnull
+nullptr
 for
 no
 attributes
@@ -1303,7 +1303,7 @@ taken
 )
 or
 *
-nsnull
+nullptr
 for
 no
 attributes

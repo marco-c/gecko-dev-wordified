@@ -165,7 +165,7 @@ aUsername
 *
 aUsername
 =
-nsnull
+nullptr
 ;
 PRUnichar
 username
@@ -228,7 +228,7 @@ aFullname
 *
 aFullname
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -249,7 +249,7 @@ aDomain
 *
 aDomain
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -270,7 +270,7 @@ aEmailAddress
 *
 aEmailAddress
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED

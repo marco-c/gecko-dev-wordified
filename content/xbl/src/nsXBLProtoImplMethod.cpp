@@ -809,7 +809,7 @@ compiled
 .
 mJSMethodObject
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -850,7 +850,7 @@ compiled
 .
 mJSMethodObject
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -887,7 +887,7 @@ char
 *
 args
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1061,7 +1061,7 @@ JSObject
 *
 methodObject
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1134,7 +1134,7 @@ rv
 {
 SetUncompiledMethod
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -1219,7 +1219,7 @@ rv
 {
 SetUncompiledMethod
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -1672,7 +1672,7 @@ method
 argc
 *
 /
-nsnull
+nullptr
 /
 *
 argv

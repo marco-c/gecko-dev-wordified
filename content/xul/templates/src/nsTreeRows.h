@@ -493,7 +493,7 @@ mSubtreeSize
 )
 mRows
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1613,7 +1613,7 @@ nsTreeRows
 :
 mRoot
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1775,7 +1775,7 @@ PRInt32
 *
 aSubtreeSize
 =
-nsnull
+nullptr
 )
 ;
 /

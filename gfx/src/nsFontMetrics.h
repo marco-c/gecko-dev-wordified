@@ -401,7 +401,7 @@ gfxUserFontSet
 *
 aUserFontSet
 =
-nsnull
+nullptr
 )
 ;
 /

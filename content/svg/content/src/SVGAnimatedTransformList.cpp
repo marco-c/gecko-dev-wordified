@@ -877,7 +877,7 @@ Length
 }
 mAnimVal
 =
-nsnull
+nullptr
 ;
 aElement
 -

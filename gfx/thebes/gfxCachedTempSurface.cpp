@@ -318,7 +318,7 @@ sExpirationTracker
 ;
 sExpirationTracker
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -338,7 +338,7 @@ CachedSurfaceExpirationTracker
 :
 sExpirationTracker
 =
-nsnull
+nullptr
 ;
 gfxCachedTempSurface
 :
@@ -431,7 +431,7 @@ aContentType
 {
 mSurface
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -509,7 +509,7 @@ if
 mSurface
 )
 return
-nsnull
+nullptr
 ;
 cleared
 =

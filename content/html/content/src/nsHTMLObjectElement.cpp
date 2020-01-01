@@ -2158,7 +2158,7 @@ aContentDocument
 *
 aContentDocument
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2527,7 +2527,7 @@ URI
 .
 LoadObject
 (
-nsnull
+nullptr
 aNotify
 ctype
 )

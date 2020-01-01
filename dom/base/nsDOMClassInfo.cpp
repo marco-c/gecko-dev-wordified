@@ -3968,7 +3968,7 @@ _flags
 #
 _name
 \
-nsnull
+nullptr
 \
 {
 _helper
@@ -3977,11 +3977,11 @@ _helper
 doCreate
 }
 \
-nsnull
+nullptr
 \
-nsnull
+nullptr
 \
-nsnull
+nullptr
 \
 _flags
 \
@@ -4014,7 +4014,7 @@ _flags
 #
 _name
 \
-nsnull
+nullptr
 \
 {
 _helper
@@ -4023,11 +4023,11 @@ _helper
 doCreate
 }
 \
-nsnull
+nullptr
 \
-nsnull
+nullptr
 \
-nsnull
+nullptr
 \
 _flags
 \
@@ -7273,7 +7273,7 @@ nsIDOMEvent
 *
 e
 =
-nsnull
+nullptr
 ;
 \
 nsresult
@@ -7286,8 +7286,8 @@ _class
 (
 &
 e
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 \
@@ -7567,7 +7567,7 @@ nsDOMClassInfo
 :
 sXPConnect
 =
-nsnull
+nullptr
 ;
 nsIScriptSecurityManager
 *
@@ -7576,7 +7576,7 @@ nsDOMClassInfo
 :
 sSecMan
 =
-nsnull
+nullptr
 ;
 bool
 nsDOMClassInfo
@@ -7992,7 +7992,7 @@ JSClass
 *
 sObjectClass
 =
-nsnull
+nullptr
 ;
 /
 *
@@ -8390,7 +8390,7 @@ idval
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 JS_ValueToString
@@ -8558,7 +8558,7 @@ nsIXPConnectJSObjectHolder
 *
 aHolder
 =
-nsnull
+nullptr
 )
 {
 return
@@ -8567,7 +8567,7 @@ WrapNative
 cx
 scope
 native
-nsnull
+nullptr
 aIID
 vp
 aHolder
@@ -8638,7 +8638,7 @@ nsIXPConnectJSObjectHolder
 *
 aHolder
 =
-nsnull
+nullptr
 )
 {
 return
@@ -8647,8 +8647,8 @@ WrapNative
 cx
 scope
 native
-nsnull
-nsnull
+nullptr
+nullptr
 vp
 aHolder
 aAllowWrapping
@@ -8704,7 +8704,7 @@ nsIXPConnectJSObjectHolder
 *
 aHolder
 =
-nsnull
+nullptr
 )
 {
 return
@@ -8714,7 +8714,7 @@ cx
 scope
 native
 cache
-nsnull
+nullptr
 vp
 aHolder
 aAllowWrapping
@@ -8816,7 +8816,7 @@ nsWrapperCache
 *
 cache
 =
-nsnull
+nullptr
 ;
 CallQueryInterface
 (
@@ -9823,7 +9823,7 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-nsnull
+nullptr
 }
 ;
 static
@@ -10105,7 +10105,7 @@ nsIID
 *
 iid
 =
-nsnull
+nullptr
 ;
 if_info
 -
@@ -10144,7 +10144,7 @@ char
 *
 name
 =
-nsnull
+nullptr
 ;
 if_info
 -
@@ -10652,12 +10652,12 @@ NS_GET_IID
 _if
 )
 :
-nsnull
+nullptr
 #
 define
 DOM_CLASSINFO_MAP_END
 \
-nsnull
+nullptr
 \
 }
 ;
@@ -17210,7 +17210,7 @@ count
 *
 aArray
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -17378,7 +17378,7 @@ else
 *
 _retval
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -17400,7 +17400,7 @@ aContractID
 *
 aContractID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -17440,7 +17440,7 @@ aClassID
 *
 aClassID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -18216,8 +18216,8 @@ cx
 obj
 sConstructor_id
 val
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -18909,7 +18909,7 @@ data
 *
 aResult
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -19664,7 +19664,7 @@ mData
 >
 mNameUTF16
 mData
-nsnull
+nullptr
 nameSpaceManager
 proto
 !
@@ -19703,7 +19703,7 @@ ID
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -19728,7 +19728,7 @@ Init
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 }
@@ -19771,7 +19771,7 @@ NS_ENSURE_TRUE
 data
 .
 mCachedClassInfo
-nsnull
+nullptr
 )
 ;
 NS_ADDREF
@@ -19920,7 +19920,7 @@ aData
 -
 >
 mCachedClassInfo
-nsnull
+nullptr
 )
 ;
 NS_ADDREF
@@ -21072,7 +21072,7 @@ document
 ResolveName
 (
 str
-nsnull
+nullptr
 getter_AddRefs
 (
 result
@@ -21138,8 +21138,8 @@ cx
 obj
 id
 v
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 )
@@ -21238,7 +21238,7 @@ doc
 JS_SetPrivate
 (
 proto
-nsnull
+nullptr
 )
 ;
 /
@@ -21356,7 +21356,7 @@ JS_NewObjectWithUniqueType
 cx
 &
 sGlobalScopePolluterClass
-nsnull
+nullptr
 obj
 )
 ;
@@ -21562,7 +21562,7 @@ nsIDOMWindow
 *
 frame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -22672,7 +22672,7 @@ mContractID
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -22732,7 +22732,7 @@ mConstructorFunc
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -23036,7 +23036,7 @@ GetOuterWindow
 (
 )
 :
-nsnull
+nullptr
 ;
 nsPIDOMWindow
 *
@@ -23051,7 +23051,7 @@ GetCurrentInnerWindow
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -23130,7 +23130,7 @@ JSObject
 *
 object
 =
-nsnull
+nullptr
 ;
 wrappedJS
 -
@@ -23562,7 +23562,7 @@ nsXPTConstant
 *
 c
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -23790,8 +23790,8 @@ GetName
 (
 )
 v
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -24323,12 +24323,12 @@ warnText
 get
 (
 )
-nsnull
+nullptr
 /
 /
 file
 name
-nsnull
+nullptr
 /
 /
 source
@@ -24452,8 +24452,8 @@ c
 .
 name
 value
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -24635,7 +24635,7 @@ c
 name
 JSVAL_VOID
 IDBConstantGetter
-nsnull
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -24841,8 +24841,8 @@ NS_strlen
 mClassName
 )
 thisAsVal
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -24892,7 +24892,7 @@ name
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 const
@@ -24960,7 +24960,7 @@ aNameStruct
 *
 aNameStruct
 =
-nsnull
+nullptr
 ;
 nsScriptNameSpaceManager
 *
@@ -25071,7 +25071,7 @@ data
 mConstructorCID
 !
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -25219,7 +25219,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -25508,7 +25508,7 @@ foundInterface
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -26465,7 +26465,7 @@ nsDOMClassInfoData
 *
 ci_data
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -27665,7 +27665,7 @@ char
 *
 class_parent_name
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -27931,7 +27931,7 @@ nsIID
 *
 iid
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -28149,7 +28149,7 @@ JSObject
 *
 proto
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -28437,8 +28437,8 @@ class_obj
 prototype
 "
 v
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
@@ -28685,7 +28685,7 @@ PRUnichar
 *
 class_name
 =
-nsnull
+nullptr
 ;
 const
 nsGlobalNameStruct
@@ -28962,7 +28962,7 @@ nsDOMConstructor
 Create
 (
 class_name
-nsnull
+nullptr
 name_struct
 static_cast
 <
@@ -29339,10 +29339,10 @@ aWin
 cx
 obj
 class_name
-nsnull
+nullptr
 name_struct
 nameSpaceManager
-nsnull
+nullptr
 true
 did_resolve
 )
@@ -29536,7 +29536,7 @@ class_name
 ci_data
 name_struct
 nameSpaceManager
-nsnull
+nullptr
 true
 did_resolve
 )
@@ -29570,7 +29570,7 @@ nsDOMConstructor
 Create
 (
 class_name
-nsnull
+nullptr
 name_struct
 static_cast
 <
@@ -29909,8 +29909,8 @@ cx
 obj
 id
 prop_val
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -30703,8 +30703,8 @@ cx
 obj
 index
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_SHARED
 )
 ;
@@ -31364,7 +31364,7 @@ JSObject
 *
 scope
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -31472,7 +31472,7 @@ cx
 obj
 id
 v
-nsnull
+nullptr
 LocationSetterUnwrapper
 JSPROP_PERMANENT
 |
@@ -31628,8 +31628,8 @@ chars
 )
 false
 true
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 child
@@ -31763,8 +31763,8 @@ cx
 obj
 id
 v
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -32104,7 +32104,7 @@ JS_DATA_TO_FUNC_PTR
 JSPropertyOp
 funObj
 )
-nsnull
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_GETTER
@@ -32364,8 +32364,8 @@ cx
 obj
 id
 v
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -33268,7 +33268,7 @@ window
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_UNEXPECTED
@@ -33331,7 +33331,7 @@ winObj
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_UNEXPECTED
@@ -33780,7 +33780,7 @@ nsGlobalNameStruct
 *
 name_struct
 =
-nsnull
+nullptr
 ;
 nameSpaceManager
 -
@@ -34010,8 +34010,8 @@ cx
 obj
 id
 prop_val
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -34623,7 +34623,7 @@ GetterShim
 <
 NodePrincipalGetter
 >
-nsnull
+nullptr
 JSPROP_READONLY
 |
 JSPROP_SHARED
@@ -34639,7 +34639,7 @@ GetterShim
 <
 BaseURIObjectGetter
 >
-nsnull
+nullptr
 JSPROP_READONLY
 |
 JSPROP_SHARED
@@ -36117,7 +36117,7 @@ IsXUL
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -36171,7 +36171,7 @@ StyleSet
 ResolveStyleFor
 (
 aElement
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -37186,8 +37186,8 @@ cx
 obj
 index
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_SHARED
@@ -37463,8 +37463,8 @@ cx
 obj
 i
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_SHARED
@@ -37584,7 +37584,7 @@ nsWrapperCache
 *
 cache
 =
-nsnull
+nullptr
 ;
 nsISupports
 *
@@ -38017,8 +38017,8 @@ cx
 obj
 id
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_SHARED
@@ -38105,7 +38105,7 @@ nsWrapperCache
 *
 cache
 =
-nsnull
+nullptr
 ;
 nsISupports
 *
@@ -38395,8 +38395,8 @@ cx
 obj
 id
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_SHARED
@@ -38539,8 +38539,8 @@ Length
 (
 )
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_SHARED
@@ -39186,7 +39186,7 @@ GetterShim
 <
 DocumentURIObjectGetter
 >
-nsnull
+nullptr
 JSPROP_READONLY
 |
 JSPROP_SHARED
@@ -39355,7 +39355,7 @@ cx
 obj
 id
 v
-nsnull
+nullptr
 LocationSetter
 <
 nsIDOMDocument
@@ -39838,7 +39838,7 @@ doc
 ResolveName
 (
 depStr
-nsnull
+nullptr
 result
 aCache
 )
@@ -39906,7 +39906,7 @@ nsHTMLDocumentSH
 :
 :
 ReleaseDocument
-nsnull
+nullptr
 /
 *
 checkAccess
@@ -40028,7 +40028,7 @@ nsHTMLDocumentSH
 :
 :
 ReleaseDocument
-nsnull
+nullptr
 /
 *
 checkAccess
@@ -40448,7 +40448,7 @@ return
 nodeList
 !
 =
-nsnull
+nullptr
 ;
 }
 JSBool
@@ -40826,7 +40826,7 @@ else
 {
 result
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -40933,7 +40933,7 @@ else
 {
 result
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -41090,7 +41090,7 @@ return
 fnc
 !
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -41181,7 +41181,7 @@ JS_NewObject
 cx
 &
 sHTMLDocumentAllTagsClass
-nsnull
+nullptr
 :
 :
 JS_GetGlobalForObject
@@ -41277,8 +41277,8 @@ cx
 obj
 id
 v
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -42029,7 +42029,7 @@ JS_NewObject
 cx
 &
 sHTMLDocumentAllClass
-nsnull
+nullptr
 :
 :
 JS_GetGlobalForObject
@@ -42161,8 +42161,8 @@ helper
 all
 "
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -42366,8 +42366,8 @@ cx
 obj
 id
 v
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 )
@@ -42579,8 +42579,8 @@ cx
 obj
 id
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -43279,7 +43279,7 @@ ResolveName
 *
 aCache
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -43464,8 +43464,8 @@ cx
 obj
 id
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -44164,8 +44164,8 @@ PRUint32
 n
 )
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_SHARED
@@ -44601,7 +44601,7 @@ _result
 *
 _result
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -44818,7 +44818,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -44886,7 +44886,7 @@ JSObject
 *
 obj
 =
-nsnull
+nullptr
 ;
 mWrapper
 -
@@ -45073,7 +45073,7 @@ JSObject
 *
 pi_obj
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -45091,7 +45091,7 @@ JSObject
 *
 pi_proto
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -45175,7 +45175,7 @@ JSObject
 *
 my_proto
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -46281,13 +46281,13 @@ JSObject
 *
 pi_obj
 =
-nsnull
+nullptr
 ;
 JSObject
 *
 pi_proto
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -46424,12 +46424,12 @@ plugin_proto
 *
 plugin_obj
 =
-nsnull
+nullptr
 ;
 *
 plugin_proto
 =
-nsnull
+nullptr
 ;
 JSAutoRequest
 ar
@@ -46999,7 +46999,7 @@ nsStringBuffer
 *
 sharedBuffer
 =
-nsnull
+nullptr
 ;
 *
 vp
@@ -47540,7 +47540,7 @@ nsWrapperCache
 *
 cache
 =
-nsnull
+nullptr
 ;
 CallQueryInterface
 (
@@ -48312,8 +48312,8 @@ cx
 realObj
 id
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -49120,7 +49120,7 @@ false
 *
 aIIDOfResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -49230,7 +49230,7 @@ false
 *
 aIIDOfResult
 =
-nsnull
+nullptr
 ;
 NS_IF_ADDREF
 (

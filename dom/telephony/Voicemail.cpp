@@ -350,7 +350,7 @@ aStatus
 *
 aStatus
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_STATE
 (
@@ -461,8 +461,8 @@ event
 new
 VoicemailEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsresult

@@ -490,8 +490,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsCOMPtr
@@ -669,7 +669,7 @@ nsIDNSService
 :
 RESOLVE_CANONICAL_NAME
 listener
-nsnull
+nullptr
 getter_AddRefs
 (
 req
@@ -757,7 +757,7 @@ Shutdown
 }
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

@@ -152,11 +152,11 @@ nsGridCell
 :
 mBoxInColumn
 (
-nsnull
+nullptr
 )
 mBoxInRow
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR

@@ -264,7 +264,7 @@ NS_ERROR_NULL_POINTER
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (

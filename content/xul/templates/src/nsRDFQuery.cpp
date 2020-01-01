@@ -183,11 +183,11 @@ it
 .
 mProcessor
 =
-nsnull
+nullptr
 ;
 mCachedResults
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -253,6 +253,6 @@ aResults
 ;
 mCachedResults
 =
-nsnull
+nullptr
 ;
 }

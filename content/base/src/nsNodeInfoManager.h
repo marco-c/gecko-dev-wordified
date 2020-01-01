@@ -304,7 +304,7 @@ nsIAtom
 *
 aExtraName
 =
-nsnull
+nullptr
 )
 ;
 nsresult

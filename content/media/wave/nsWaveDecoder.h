@@ -260,7 +260,7 @@ IsWaveEnabled
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

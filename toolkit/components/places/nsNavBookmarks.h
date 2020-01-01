@@ -488,7 +488,7 @@ NS_NAVBOOKMARKSSERVICE_CONTRACTID
 NS_ENSURE_TRUE
 (
 serv
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION
@@ -1397,7 +1397,7 @@ bookmark
 refers
 to
 pass
-nsnull
+nullptr
 for
 *
 items

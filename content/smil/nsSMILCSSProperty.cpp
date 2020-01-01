@@ -903,7 +903,7 @@ mPropID
 mElement
 computedStyleVal
 baseValue
-nsnull
+nullptr
 )
 ;
 }

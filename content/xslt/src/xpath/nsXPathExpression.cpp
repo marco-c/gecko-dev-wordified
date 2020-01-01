@@ -542,7 +542,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsAutoPtr
 <
@@ -900,7 +900,7 @@ context
 here
 .
 return
-nsnull
+nullptr
 ;
 }
 txResultRecycler

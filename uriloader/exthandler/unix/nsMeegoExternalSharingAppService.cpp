@@ -96,7 +96,7 @@ nsExternalSharingAppService
 :
 mShareUi
 (
-nsnull
+nullptr
 )
 {
 }

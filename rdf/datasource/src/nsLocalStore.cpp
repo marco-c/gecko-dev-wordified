@@ -1156,7 +1156,7 @@ NS_PRECONDITION
 aOuter
 =
 =
-nsnull
+nullptr
 "
 no
 aggregation
@@ -1175,7 +1175,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1338,7 +1338,7 @@ NS_ASSERTION
 remote
 !
 =
-nsnull
+nullptr
 "
 not
 an
@@ -1456,7 +1456,7 @@ NS_WARN_IF_FALSE
 remote
 !
 =
-nsnull
+nullptr
 "
 not
 an
@@ -1533,7 +1533,7 @@ NS_ASSERTION
 remote
 !
 =
-nsnull
+nullptr
 "
 not
 an
@@ -2297,7 +2297,7 @@ NS_PRECONDITION
 aURI
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

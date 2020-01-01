@@ -450,7 +450,7 @@ aHandler
 *
 aHandler
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -623,7 +623,7 @@ aHandler
 *
 aHandler
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -796,7 +796,7 @@ aHandler
 *
 aHandler
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -977,7 +977,7 @@ aHandler
 *
 aHandler
 =
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -1196,7 +1196,7 @@ aValue
 ;
 mTxValue
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -1220,7 +1220,7 @@ null
 ;
 mValue
 =
-nsnull
+nullptr
 ;
 mTxValue
 =
@@ -1414,7 +1414,7 @@ txMozillaXSLTProcessor
 :
 mStylesheetDocument
 (
-nsnull
+nullptr
 )
 mTransformResult
 (
@@ -1682,7 +1682,7 @@ aResult
 {
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_INVALID_ARG
@@ -1708,7 +1708,7 @@ getPrivateContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 txResultRecycler
@@ -1989,7 +1989,7 @@ new
 StringResult
 (
 aValue
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -2170,7 +2170,7 @@ mProcessor
 >
 TransformToDoc
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -2318,8 +2318,8 @@ bug
 reportError
 (
 rv
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -2856,8 +2856,8 @@ bug
 reportError
 (
 rv
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -4298,15 +4298,15 @@ this
 }
 mStylesheet
 =
-nsnull
+nullptr
 ;
 mStylesheetDocument
 =
-nsnull
+nullptr
 ;
 mEmbeddedStylesheetRoot
 =
-nsnull
+nullptr
 ;
 mCompileResult
 =
@@ -4473,8 +4473,8 @@ NS_ERROR_XSLT_NETWORK_ERROR
 reportError
 (
 status
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -5239,11 +5239,11 @@ ensureStylesheet
 ;
 mStylesheetDocument
 =
-nsnull
+nullptr
 ;
 mEmbeddedStylesheetRoot
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -5265,7 +5265,7 @@ aInfo
 {
 mStylesheet
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -5291,7 +5291,7 @@ aModType
 {
 mStylesheet
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -5319,7 +5319,7 @@ unused
 {
 mStylesheet
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -5347,7 +5347,7 @@ unused
 {
 mStylesheet
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -5374,7 +5374,7 @@ aPreviousSibling
 {
 mStylesheet
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -5606,7 +5606,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 PRUint16
 dataType
@@ -5717,7 +5717,7 @@ new
 NumberResult
 (
 value
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -5885,7 +5885,7 @@ new
 StringResult
 (
 value
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -5996,7 +5996,7 @@ txNodeSet
 (
 *
 xpathNode
-nsnull
+nullptr
 )
 ;
 if
@@ -6071,7 +6071,7 @@ nodeSet
 new
 txNodeSet
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -6284,7 +6284,7 @@ new
 StringResult
 (
 value
-nsnull
+nullptr
 )
 ;
 if
@@ -6408,7 +6408,7 @@ nodeSet
 new
 txNodeSet
 (
-nsnull
+nullptr
 )
 ;
 if

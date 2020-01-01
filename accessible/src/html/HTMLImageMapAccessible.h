@@ -499,7 +499,7 @@ HTMLImageMapAccessible
 this
 )
 :
-nsnull
+nullptr
 ;
 }
 #

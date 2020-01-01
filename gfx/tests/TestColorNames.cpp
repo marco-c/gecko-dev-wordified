@@ -222,7 +222,7 @@ kJunkNames
 ]
 =
 {
-nsnull
+nullptr
 "
 "
 "

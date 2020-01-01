@@ -583,7 +583,7 @@ aPos
 {
 \
 return
-nsnull
+nullptr
 ;
 \
 }
@@ -638,7 +638,7 @@ aPos
 {
 \
 return
-nsnull
+nullptr
 ;
 \
 }

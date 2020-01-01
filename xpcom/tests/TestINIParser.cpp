@@ -166,7 +166,7 @@ GetStrings
 (
 aSection
 StringCB
-nsnull
+nullptr
 )
 ;
 printf

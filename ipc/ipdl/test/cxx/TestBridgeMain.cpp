@@ -222,7 +222,7 @@ h
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsAutoPtr
@@ -259,7 +259,7 @@ Parent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -558,7 +558,7 @@ TestBridgeMainChild
 :
 mSubprocess
 (
-nsnull
+nullptr
 )
 {
 gBridgeMainChild
@@ -1062,7 +1062,7 @@ h
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsAutoPtr
@@ -1099,7 +1099,7 @@ Child
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if

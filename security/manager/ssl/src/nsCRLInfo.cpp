@@ -431,7 +431,7 @@ dateFormatter
 >
 FormatPRTime
 (
-nsnull
+nullptr
 kDateFormatShort
 kTimeFormatNone
 lastUpdate
@@ -486,7 +486,7 @@ dateFormatter
 >
 FormatPRTime
 (
-nsnull
+nullptr
 kDateFormatShort
 kTimeFormatNone
 nextUpdate

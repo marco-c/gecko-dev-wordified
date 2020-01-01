@@ -213,7 +213,7 @@ GetDocument
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 /

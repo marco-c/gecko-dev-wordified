@@ -575,7 +575,7 @@ PRInt32
 *
 aOutIndex
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -995,7 +995,7 @@ Revoke
 {
 mSelection
 =
-nsnull
+nullptr
 ;
 }
 private

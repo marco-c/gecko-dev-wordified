@@ -321,7 +321,7 @@ rv
 *
 aStream
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -560,7 +560,7 @@ l
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 if
@@ -612,7 +612,7 @@ firstBlob
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 /
@@ -727,7 +727,7 @@ l
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 if
@@ -763,7 +763,7 @@ lastBlob
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 blobs

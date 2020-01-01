@@ -129,7 +129,7 @@ JSOPTION_PRIVATE_IS_NSISUPPORTS
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -210,7 +210,7 @@ JSOPTION_PRIVATE_IS_NSISUPPORTS
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr

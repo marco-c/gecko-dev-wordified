@@ -480,7 +480,7 @@ mShHeight
 )
 mShColorSpace
 (
-nsnull
+nullptr
 )
 #
 endif
@@ -614,8 +614,8 @@ container
 >
 SetRemoteImageData
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 container
@@ -623,7 +623,7 @@ container
 >
 SetCompositionNotifySink
 (
-nsnull
+nullptr
 )
 ;
 DeallocShmem
@@ -1272,7 +1272,7 @@ NPERR_GENERIC_ERROR
 *
 aValue
 =
-nsnull
+nullptr
 ;
 *
 aResult
@@ -1471,7 +1471,7 @@ void
 *
 v
 =
-nsnull
+nullptr
 ;
 *
 result
@@ -2097,8 +2097,8 @@ container
 >
 SetRemoteImageData
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 container
@@ -2106,7 +2106,7 @@ container
 >
 SetCompositionNotifySink
 (
-nsnull
+nullptr
 )
 ;
 DeallocShmem
@@ -4069,7 +4069,7 @@ Size
 *
 aCtx
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -4500,7 +4500,7 @@ mBackground
 #
 else
 return
-nsnull
+nullptr
 ;
 #
 endif
@@ -4545,7 +4545,7 @@ mBackground
 ;
 mBackground
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -4770,7 +4770,7 @@ exclusively
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -7519,7 +7519,7 @@ mScriptableObjects
 Get
 (
 object
-nsnull
+nullptr
 )
 "
 NPObject
@@ -7824,7 +7824,7 @@ mScriptableObjects
 Get
 (
 aObject
-nsnull
+nullptr
 )
 "
 Duplicate
@@ -7888,7 +7888,7 @@ mScriptableObjects
 Get
 (
 aObject
-nsnull
+nullptr
 )
 "
 Unknown
@@ -8027,7 +8027,7 @@ memory
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -8052,7 +8052,7 @@ message
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 actor
@@ -8507,12 +8507,12 @@ sourceY
 sourceSpace
 ignoreDestX
 ?
-nsnull
+nullptr
 :
 destX
 ignoreDestY
 ?
-nsnull
+nullptr
 :
 destY
 destSpace

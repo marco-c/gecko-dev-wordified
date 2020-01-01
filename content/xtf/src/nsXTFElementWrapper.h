@@ -836,7 +836,7 @@ Disconnect
 {
 mWrapper
 =
-nsnull
+nullptr
 ;
 }
 NS_DECL_ISUPPORTS

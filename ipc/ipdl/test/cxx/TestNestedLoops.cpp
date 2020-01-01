@@ -426,7 +426,7 @@ if
 !
 NS_ProcessNextEvent
 (
-nsnull
+nullptr
 false
 )
 )

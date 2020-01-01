@@ -1687,7 +1687,7 @@ nsIStreamListener
 *
 converter
 =
-nsnull
+nullptr
 )
 ;
 private
@@ -1732,7 +1732,7 @@ CallbacksChanged
 {
 mProgressSink
 =
-nsnull
+nullptr
 ;
 mQueriedProgressSink
 =

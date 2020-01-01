@@ -860,7 +860,7 @@ sizes
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -902,7 +902,7 @@ rect
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -953,7 +953,7 @@ size
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1105,7 +1105,7 @@ rect
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsAutoPtr
@@ -1180,7 +1180,7 @@ mImage
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -1559,7 +1559,7 @@ VideoData
 *
 videoData
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1727,7 +1727,7 @@ DECODER_STATE_SHUTDOWN
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -1749,7 +1749,7 @@ Data
 *
 d
 =
-nsnull
+nullptr
 ;
 return
 (
@@ -1764,7 +1764,7 @@ PeekFront
 ?
 d
 :
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -2293,7 +2293,7 @@ PopFront
 ;
 audio
 =
-nsnull
+nullptr
 ;
 continue
 ;

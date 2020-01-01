@@ -368,7 +368,7 @@ gfxFontCache
 :
 gGlobalCache
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -988,7 +988,7 @@ if
 newFont
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1005,7 +1005,7 @@ delete
 newFont
 ;
 return
-nsnull
+nullptr
 ;
 }
 font
@@ -1030,7 +1030,7 @@ gfxFont
 *
 f
 =
-nsnull
+nullptr
 ;
 font
 .
@@ -1283,7 +1283,7 @@ ForgetHashEntry
 {
 mHashEntry
 =
-nsnull
+nullptr
 ;
 }
 size_t
@@ -1428,7 +1428,7 @@ new
 FontTableBlobData
 (
 aTable
-nsnull
+nullptr
 )
 ;
 mBlob
@@ -1660,7 +1660,7 @@ ForgetHashEntry
 ;
 mSharedBlobData
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -1677,7 +1677,7 @@ mBlob
 }
 mBlob
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1913,7 +1913,7 @@ entry
 /
 OOM
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1937,7 +1937,7 @@ Clear
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -3103,7 +3103,7 @@ family
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3194,7 +3194,7 @@ foundWeights
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -4609,7 +4609,7 @@ aMatchData
 mStyle
 =
 =
-nsnull
+nullptr
 )
 ?
 *
@@ -6084,7 +6084,7 @@ fe
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -6655,7 +6655,7 @@ gGlobalCache
 ;
 gGlobalCache
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -6955,7 +6955,7 @@ Cancel
 ;
 mWordCacheExpirationTimer
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -7137,7 +7137,7 @@ FONT_CACHE_HIT
 entry
 !
 =
-nsnull
+nullptr
 )
 ;
 if
@@ -7146,7 +7146,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 gfxFont
 *
@@ -7639,7 +7639,7 @@ mFonts
 EnumerateEntries
 (
 AgeCachedWordsForFont
-nsnull
+nullptr
 )
 ;
 }
@@ -8485,7 +8485,7 @@ haveTable
 &
 buffer
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -9033,7 +9033,7 @@ state
 .
 patternTransform
 :
-nsnull
+nullptr
 )
 ;
 if
@@ -9106,7 +9106,7 @@ Matrix
 *
 mat
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -9950,7 +9950,7 @@ cairo_pattern_t
 *
 strokePattern
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -10949,7 +10949,7 @@ Matrix
 *
 passedInvMatrix
 =
-nsnull
+nullptr
 ;
 RefPtr
 <
@@ -12563,7 +12563,7 @@ HasDetailedGlyphs
 )
 )
 ?
-nsnull
+nullptr
 :
 GetOrCreateGlyphExtents
 (
@@ -12885,7 +12885,7 @@ NS_ASSERTION
 details
 !
 =
-nsnull
+nullptr
 "
 detaiedGlyph
 record
@@ -13460,7 +13460,7 @@ text
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 gfxShapedWord
@@ -13552,7 +13552,7 @@ text
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 DebugOnly
@@ -18655,7 +18655,7 @@ mTightGlyphExtents
 .
 SizeOfExcludingThis
 (
-nsnull
+nullptr
 aMallocSizeOf
 )
 ;
@@ -18717,7 +18717,7 @@ UNDERLINE_OFFSET_NOT_SET
 {
 mUserFontSet
 =
-nsnull
+nullptr
 ;
 SetUserFontSet
 (
@@ -19305,7 +19305,7 @@ gfxFontEntry
 *
 fe
 =
-nsnull
+nullptr
 ;
 bool
 foundFamily
@@ -19661,7 +19661,7 @@ Clear
 ;
 SetUserFontSet
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -20017,7 +20017,7 @@ nsIAtom
 *
 groupAtom
 =
-nsnull
+nullptr
 ;
 nsCAutoString
 groupString
@@ -20891,7 +20891,7 @@ textRun
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 gfxFont
@@ -21076,7 +21076,7 @@ textRun
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 textRun
@@ -21256,7 +21256,7 @@ textRun
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 InitTextRun
@@ -21392,7 +21392,7 @@ textRun
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 InitTextRun
@@ -22460,7 +22460,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 /
@@ -22534,7 +22534,7 @@ missing
 glyphs
 matchedFont
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -23271,7 +23271,7 @@ forget
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -23698,7 +23698,7 @@ search
 different
 fonts
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -23852,7 +23852,7 @@ aCh
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -23969,7 +23969,7 @@ HB_SCRIPT_UNKNOWN
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -24036,7 +24036,7 @@ aCh
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -25361,7 +25361,7 @@ forget
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -25450,7 +25450,7 @@ forget
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -25479,7 +25479,7 @@ gfxFontGroup
 :
 gLangService
 =
-nsnull
+nullptr
 ;
 #
 define
@@ -26236,7 +26236,7 @@ SetMissing
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -27149,7 +27149,7 @@ storage
 /
 /
 Returns
-nsnull
+nullptr
 if
 allocation
 fails
@@ -27175,7 +27175,7 @@ storage
 we
 need
 returning
-nsnull
+nullptr
 on
 failure
 rather
@@ -27232,7 +27232,7 @@ run
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -27315,7 +27315,7 @@ storage
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -28923,7 +28923,7 @@ Elements
 (
 )
 :
-nsnull
+nullptr
 aStrokePattern
 )
 ;
@@ -29342,7 +29342,7 @@ gfxFont
 GLYPH_FILL
 &
 pt
-nsnull
+nullptr
 data
 .
 mLigatureStart
@@ -30275,7 +30275,7 @@ Elements
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 aMetrics
@@ -33131,7 +33131,7 @@ SetMissing
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -33564,7 +33564,7 @@ GetDetailedGlyphs
 i
 )
 :
-nsnull
+nullptr
 ;
 SetGlyphs
 (
@@ -33876,7 +33876,7 @@ gfxFont
 *
 lastFont
 =
-nsnull
+nullptr
 ;
 #
 endif

@@ -2000,7 +2000,7 @@ stmt
 >
 ExecuteAsync
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 handle
@@ -2214,9 +2214,9 @@ obs
 >
 NotifyObservers
 (
-nsnull
+nullptr
 mTopic
-nsnull
+nullptr
 )
 ;
 }
@@ -2360,9 +2360,9 @@ obs
 >
 NotifyObservers
 (
-nsnull
+nullptr
 mTopic
-nsnull
+nullptr
 )
 ;
 }

@@ -249,7 +249,7 @@ nsEventTargetChainItem
 *
 gCachedETCI
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -278,7 +278,7 @@ nsEventTargetChainItem
 *
 aChild
 =
-nsnull
+nullptr
 )
 ;
 public
@@ -298,14 +298,14 @@ nsEventTargetChainItem
 *
 aChild
 =
-nsnull
+nullptr
 )
 {
 void
 *
 place
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -355,7 +355,7 @@ aTarget
 aChild
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -401,14 +401,14 @@ mChild
 >
 mParent
 =
-nsnull
+nullptr
 ;
 item
 -
 >
 mChild
 =
-nsnull
+nullptr
 ;
 }
 while
@@ -869,7 +869,7 @@ mEvent
 currentTarget
 =
 =
-nsnull
+nullptr
 "
 CurrentTarget
 should
@@ -915,7 +915,7 @@ mEvent
 currentTarget
 =
 =
-nsnull
+nullptr
 "
 CurrentTarget
 should
@@ -1119,7 +1119,7 @@ aChild
 )
 mParent
 (
-nsnull
+nullptr
 )
 mFlags
 (
@@ -2150,7 +2150,7 @@ sEtciPool
 ;
 sEtciPool
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2201,14 +2201,14 @@ NS_CHAIN_POOL_SIZE
 {
 gCachedETCI
 =
-nsnull
+nullptr
 ;
 delete
 sEtciPool
 ;
 sEtciPool
 =
-nsnull
+nullptr
 ;
 nsEventTargetChainItem
 :
@@ -2234,14 +2234,14 @@ sEtciPoolUsers
 {
 gCachedETCI
 =
-nsnull
+nullptr
 ;
 delete
 sEtciPool
 ;
 sEtciPool
 =
-nsnull
+nullptr
 ;
 nsEventTargetChainItem
 :
@@ -2280,7 +2280,7 @@ ChainItemPool
 :
 sEtciPool
 =
-nsnull
+nullptr
 ;
 PRInt32
 ChainItemPool
@@ -2674,7 +2674,7 @@ GetInnerWindow
 (
 )
 :
-nsnull
+nullptr
 ;
 /
 /
@@ -2704,7 +2704,7 @@ GetParentTarget
 (
 )
 :
-nsnull
+nullptr
 ;
 NS_ENSURE_TRUE
 (
@@ -3497,7 +3497,7 @@ parentEtci
 ;
 parentEtci
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -3661,7 +3661,7 @@ targetEtci
 ;
 targetEtci
 =
-nsnull
+nullptr
 ;
 NS_MARK_EVENT_DISPATCH_DONE
 (
@@ -3821,14 +3821,14 @@ innerEvent
 >
 target
 =
-nsnull
+nullptr
 ;
 innerEvent
 -
 >
 originalTarget
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -3954,7 +3954,7 @@ aDOMEvent
 *
 aDOMEvent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4364,7 +4364,7 @@ NS_NewDOMMouseEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4383,7 +4383,7 @@ NS_NewDOMMouseScrollEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4412,7 +4412,7 @@ NS_NewDOMDragEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4441,7 +4441,7 @@ NS_NewDOMKeyboardEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4460,7 +4460,7 @@ NS_NewDOMCompositionEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4489,7 +4489,7 @@ NS_NewDOMMutationEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4518,7 +4518,7 @@ NS_NewDOMTextEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4537,7 +4537,7 @@ NS_NewDOMPopupBlockedEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4556,7 +4556,7 @@ NS_NewDOMDeviceOrientationEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4575,7 +4575,7 @@ NS_NewDOMDeviceMotionEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4604,7 +4604,7 @@ NS_NewDOMUIEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4643,7 +4643,7 @@ NS_NewDOMEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4672,7 +4672,7 @@ NS_NewDOMSVGEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4701,7 +4701,7 @@ NS_NewDOMSVGZoomEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4730,7 +4730,7 @@ NS_NewDOMTimeEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4759,7 +4759,7 @@ NS_NewDOMXULCommandEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4788,7 +4788,7 @@ NS_NewDOMCommandEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4817,7 +4817,7 @@ NS_NewDOMDataContainerEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4836,7 +4836,7 @@ NS_NewDOMMessageEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4855,7 +4855,7 @@ NS_NewDOMProgressEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4874,7 +4874,7 @@ NS_NewDOMNotifyPaintEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4893,7 +4893,7 @@ NS_NewDOMSimpleGestureEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4912,7 +4912,7 @@ NS_NewDOMBeforeUnloadEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4931,7 +4931,7 @@ NS_NewDOMPageTransitionEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4950,7 +4950,7 @@ NS_NewDOMMozTouchEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -4969,7 +4969,7 @@ NS_NewDOMScrollAreaEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 /
@@ -5011,7 +5011,7 @@ NS_NewDOMTransitionEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -5030,7 +5030,7 @@ NS_NewDOMAnimationEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -5049,7 +5049,7 @@ NS_NewDOMPopStateEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -5068,7 +5068,7 @@ NS_NewDOMAudioAvailableEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -5087,7 +5087,7 @@ NS_NewDOMCloseEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -5114,7 +5114,7 @@ NS_NewDOMTouchEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -5133,7 +5133,7 @@ NS_NewDOMHashChangeEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -5152,7 +5152,7 @@ NS_NewDOMCustomEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if
@@ -5171,7 +5171,7 @@ NS_NewDOMSmsEvent
 (
 aDOMEvent
 aPresContext
-nsnull
+nullptr
 )
 ;
 if

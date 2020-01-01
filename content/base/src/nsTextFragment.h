@@ -437,7 +437,7 @@ nsTextFragment
 :
 m1b
 (
-nsnull
+nullptr
 )
 mAllBits
 (

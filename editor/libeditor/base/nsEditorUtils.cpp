@@ -387,11 +387,11 @@ aEd
 :
 mSel
 (
-nsnull
+nullptr
 )
 mEd
 (
-nsnull
+nullptr
 )
 {
 if
@@ -739,7 +739,7 @@ nsDOMIterator
 :
 mIter
 (
-nsnull
+nullptr
 )
 {
 }

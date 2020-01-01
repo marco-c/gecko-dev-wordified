@@ -502,7 +502,7 @@ if
 c
 )
 return
-nsnull
+nullptr
 ;
 memcpy
 (
@@ -518,7 +518,7 @@ c
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -605,15 +605,15 @@ NodeList
 :
 next
 (
-nsnull
+nullptr
 )
 node
 (
-nsnull
+nullptr
 )
 name
 (
-nsnull
+nullptr
 )
 {
 }
@@ -630,7 +630,7 @@ NodeList
 {
 if
 (
-nsnull
+nullptr
 !
 =
 name
@@ -642,7 +642,7 @@ name
 }
 if
 (
-nsnull
+nullptr
 !
 =
 node
@@ -674,7 +674,7 @@ aLists
 {
 while
 (
-nsnull
+nullptr
 !
 =
 aLists
@@ -782,11 +782,11 @@ Node
 :
 next
 (
-nsnull
+nullptr
 )
 type
 (
-nsnull
+nullptr
 )
 state
 (
@@ -794,7 +794,7 @@ state
 )
 lists
 (
-nsnull
+nullptr
 )
 {
 }
@@ -811,7 +811,7 @@ Node
 {
 if
 (
-nsnull
+nullptr
 !
 =
 type
@@ -823,7 +823,7 @@ type
 }
 if
 (
-nsnull
+nullptr
 !
 =
 lists
@@ -855,7 +855,7 @@ aList
 {
 while
 (
-nsnull
+nullptr
 !
 =
 aList
@@ -910,7 +910,7 @@ aAttr
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 value
@@ -962,14 +962,14 @@ aFile
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 tag
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -993,7 +993,7 @@ delete
 tag
 ;
 return
-nsnull
+nullptr
 ;
 }
 Node
@@ -1112,7 +1112,7 @@ aFile
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 tag
@@ -1342,7 +1342,7 @@ aFile
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 tag
@@ -1408,7 +1408,7 @@ tag
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 child
@@ -1759,7 +1759,7 @@ Tag
 :
 name
 (
-nsnull
+nullptr
 )
 type
 (
@@ -1767,7 +1767,7 @@ open
 )
 attributes
 (
-nsnull
+nullptr
 )
 num
 (
@@ -1779,7 +1779,7 @@ size
 )
 values
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2039,7 +2039,7 @@ i
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -2258,7 +2258,7 @@ c
 0
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -2369,7 +2369,7 @@ aFile
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 char
@@ -2419,7 +2419,7 @@ c
 0
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -2594,7 +2594,7 @@ aFile
 if
 (
 (
-nsnull
+nullptr
 =
 =
 attr
@@ -2615,7 +2615,7 @@ char
 *
 value
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2637,7 +2637,7 @@ aFile
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 value
@@ -2688,7 +2688,7 @@ aFile
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -2761,7 +2761,7 @@ tag
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -3036,7 +3036,7 @@ aResult
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aResult
@@ -3048,7 +3048,7 @@ pointer
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 aResult
@@ -3209,7 +3209,7 @@ aIndent
 {
 while
 (
-nsnull
+nullptr
 !
 =
 aNode
@@ -3236,7 +3236,7 @@ lists
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 lists
@@ -3244,7 +3244,7 @@ lists
 {
 while
 (
-nsnull
+nullptr
 !
 =
 lists
@@ -3371,7 +3371,7 @@ each
 other
 if
 (
-nsnull
+nullptr
 =
 =
 tree1
@@ -3379,7 +3379,7 @@ tree1
 {
 if
 (
-nsnull
+nullptr
 =
 =
 tree2
@@ -3407,7 +3407,7 @@ false
 else
 if
 (
-nsnull
+nullptr
 =
 =
 tree2
@@ -3890,7 +3890,7 @@ for
 {
 if
 (
-nsnull
+nullptr
 =
 =
 list1
@@ -3898,7 +3898,7 @@ list1
 {
 if
 (
-nsnull
+nullptr
 !
 =
 list2
@@ -3969,7 +3969,7 @@ break
 }
 if
 (
-nsnull
+nullptr
 =
 =
 list2
@@ -4331,7 +4331,7 @@ aInputFile
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 tree1

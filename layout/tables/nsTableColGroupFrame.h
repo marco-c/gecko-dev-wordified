@@ -1234,7 +1234,7 @@ nsIFrame
 *
 aStartColFrame
 =
-nsnull
+nullptr
 )
 ;
 /

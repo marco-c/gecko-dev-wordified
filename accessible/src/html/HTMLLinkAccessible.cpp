@@ -1015,7 +1015,7 @@ GetHrefURI
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 /

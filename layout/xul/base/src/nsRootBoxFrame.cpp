@@ -201,7 +201,7 @@ aShell
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -227,7 +227,7 @@ rootFrame
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -647,7 +647,7 @@ true
 {
 mPopupSetFrame
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1287,7 +1287,7 @@ calling
 |
 SetPopupSetFrame
 (
-nsnull
+nullptr
 )
 |
 and

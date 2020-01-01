@@ -568,7 +568,7 @@ if
 conversion
 was
 successful
-nsnull
+nullptr
 if
 conversion
 *

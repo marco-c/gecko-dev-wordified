@@ -255,7 +255,7 @@ nsFilePicker
 :
 mPrevDisplayDirectory
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1478,7 +1478,7 @@ aFile
 *
 aFile
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1573,7 +1573,7 @@ aFileURL
 *
 aFileURL
 =
-nsnull
+nullptr
 ;
 return
 NS_NewURI

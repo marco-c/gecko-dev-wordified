@@ -2450,7 +2450,7 @@ aFiles
 *
 aFiles
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3276,7 +3276,7 @@ mDateFormatter
 >
 FormatPRTime
 (
-nsnull
+nullptr
 kDateFormatShort
 kTimeFormatSeconds
 lastModTime
@@ -4366,7 +4366,7 @@ nsIFile
 *
 )
 compareFunc
-nsnull
+nullptr
 )
 ;
 for

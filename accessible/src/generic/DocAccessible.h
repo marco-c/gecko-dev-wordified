@@ -836,7 +836,7 @@ Document
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -895,7 +895,7 @@ mChildDocuments
 SafeElementAt
 (
 aIndex
-nsnull
+nullptr
 )
 ;
 }
@@ -1431,7 +1431,7 @@ GetNodeParent
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -1514,7 +1514,7 @@ mDependentIDsHash
 Get
 (
 aID
-nsnull
+nullptr
 )
 ;
 }
@@ -1558,7 +1558,7 @@ the
 ARIA
 role
 or
-nsnull
+nullptr
 *
 if
 none
@@ -1983,7 +1983,7 @@ nsIAtom
 *
 aRelAttr
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -2052,7 +2052,7 @@ nsIAtom
 *
 aRelAttr
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -3072,7 +3072,7 @@ DocAccessible
 this
 )
 :
-nsnull
+nullptr
 ;
 }
 #

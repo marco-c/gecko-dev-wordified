@@ -798,7 +798,7 @@ nsComboboxControlFrame
 :
 sFocused
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -903,7 +903,7 @@ nsIView
 *
 aOutView
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -933,7 +933,7 @@ nsIView
 *
 view
 =
-nsnull
+nullptr
 ;
 nsIWidget
 *
@@ -1099,7 +1099,7 @@ GetWidget
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -2084,19 +2084,19 @@ aContext
 )
 mDisplayFrame
 (
-nsnull
+nullptr
 )
 mButtonFrame
 (
-nsnull
+nullptr
 )
 mDropdownFrame
 (
-nsnull
+nullptr
 )
 mListControlFrame
 (
-nsnull
+nullptr
 )
 mDisplayWidth
 (
@@ -2349,7 +2349,7 @@ PresShell
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -2422,7 +2422,7 @@ else
 {
 sFocused
 =
-nsnull
+nullptr
 ;
 mDelayedShowDropDown
 =
@@ -2663,7 +2663,7 @@ aShowPopup
 NS_XUL_POPUP_SHOWING
 :
 NS_XUL_POPUP_HIDING
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -3609,7 +3609,7 @@ frame
 >
 GetTransformMatrix
 (
-nsnull
+nullptr
 &
 parent
 )
@@ -8611,7 +8611,7 @@ nsGkAtoms
 :
 :
 button
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -9231,7 +9231,7 @@ aContent
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aContent
@@ -9274,7 +9274,7 @@ for
 mDisplayContent
 here
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -9349,7 +9349,7 @@ styleContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -9378,7 +9378,7 @@ textStyleContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -9413,7 +9413,7 @@ mDisplayFrame
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -9426,7 +9426,7 @@ Init
 (
 mContent
 this
-nsnull
+nullptr
 )
 ;
 if
@@ -9446,10 +9446,10 @@ Destroy
 ;
 mDisplayFrame
 =
-nsnull
+nullptr
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -9485,7 +9485,7 @@ textFrame
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -9503,7 +9503,7 @@ Init
 (
 aContent
 mDisplayFrame
-nsnull
+nullptr
 )
 ;
 if
@@ -9523,7 +9523,7 @@ Destroy
 ;
 mDisplayFrame
 =
-nsnull
+nullptr
 ;
 textFrame
 -
@@ -9534,10 +9534,10 @@ Destroy
 ;
 textFrame
 =
-nsnull
+nullptr
 ;
 return
-nsnull
+nullptr
 ;
 }
 mDisplayContent
@@ -10127,7 +10127,7 @@ IsAlive
 )
 )
 return
-nsnull
+nullptr
 ;
 ShowDropDown
 (
@@ -10149,7 +10149,7 @@ IsAlive
 )
 )
 return
-nsnull
+nullptr
 ;
 mListControlFrame
 -
@@ -10161,7 +10161,7 @@ false
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void

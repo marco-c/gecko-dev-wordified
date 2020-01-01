@@ -1040,7 +1040,7 @@ window
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1167,7 +1167,7 @@ NS_EVENT_TYPE_NULL
 ;
 mNoListenerForEventAtom
 =
-nsnull
+nullptr
 ;
 ls
 =
@@ -2325,7 +2325,7 @@ NS_EVENT_TYPE_NULL
 ;
 mNoListenerForEventAtom
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2661,7 +2661,7 @@ ls
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -2866,7 +2866,7 @@ else
 *
 aListenerStruct
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -3557,7 +3557,7 @@ SetJSEventListener
 context
 scope
 aName
-nsnull
+nullptr
 aPermitUntrustedEvents
 &
 ls
@@ -3650,7 +3650,7 @@ NS_EVENT_TYPE_NULL
 ;
 mNoListenerForEventAtom
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4626,7 +4626,7 @@ aPusher
 GetCurrentScriptContext
 (
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -5211,7 +5211,7 @@ aEvent
 >
 currentTarget
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5261,7 +5261,7 @@ Disconnect
 {
 mTarget
 =
-nsnull
+nullptr
 ;
 RemoveAllListeners
 (
@@ -5810,7 +5810,7 @@ nsListenerStruct
 ls
 )
 true
-nsnull
+nullptr
 )
 ;
 }
@@ -6243,7 +6243,7 @@ CompileEventHandlerInternal
 (
 ls
 true
-nsnull
+nullptr
 )
 ;
 }

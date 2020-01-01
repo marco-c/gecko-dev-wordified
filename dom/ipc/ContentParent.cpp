@@ -1508,7 +1508,7 @@ content
 -
 created
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -2510,7 +2510,7 @@ content
 -
 shutdown
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -2809,7 +2809,7 @@ Length
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 static_cast
@@ -3809,7 +3809,7 @@ trans
 >
 Init
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -3964,7 +3964,7 @@ trans
 >
 Init
 (
-nsnull
+nullptr
 )
 ;
 clipboard
@@ -4181,7 +4181,7 @@ Bridge
 )
 !
 =
-nsnull
+nullptr
 "
 AndroidBridge
 is
@@ -4200,7 +4200,7 @@ Bridge
 )
 =
 =
-nsnull
+nullptr
 )
 {
 /
@@ -4320,7 +4320,7 @@ Bridge
 )
 !
 =
-nsnull
+nullptr
 "
 AndroidBridge
 is
@@ -4339,7 +4339,7 @@ Bridge
 )
 =
 =
-nsnull
+nullptr
 )
 {
 /
@@ -4436,7 +4436,7 @@ Bridge
 )
 !
 =
-nsnull
+nullptr
 "
 AndroidBridge
 is
@@ -4455,7 +4455,7 @@ Bridge
 )
 !
 =
-nsnull
+nullptr
 )
 *
 showPassword
@@ -5141,7 +5141,7 @@ CrashReporterParent
 #
 else
 return
-nsnull
+nullptr
 ;
 #
 endif
@@ -5660,7 +5660,7 @@ obs
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 child
 -
@@ -5670,7 +5670,7 @@ reporter
 -
 update
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -5758,7 +5758,7 @@ parent
 #
 else
 return
-nsnull
+nullptr
 ;
 #
 endif
@@ -6177,7 +6177,7 @@ history
 RegisterVisitedCallback
 (
 newURI
-nsnull
+nullptr
 )
 ;
 }
@@ -6841,7 +6841,7 @@ extProtService
 LoadURI
 (
 ourURI
-nsnull
+nullptr
 )
 ;
 return
@@ -7131,7 +7131,7 @@ get
 aMsg
 true
 aJSON
-nsnull
+nullptr
 aRetvals
 )
 ;
@@ -7189,8 +7189,8 @@ get
 aMsg
 false
 aJSON
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -7255,9 +7255,9 @@ geo
 WatchPosition
 (
 this
-nsnull
+nullptr
 dummy
-nsnull
+nullptr
 &
 mGeolocationWatchID
 )
@@ -7625,7 +7625,7 @@ obs
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 last
 -
@@ -7635,7 +7635,7 @@ context
 -
 exited
 "
-nsnull
+nullptr
 )
 ;
 delete

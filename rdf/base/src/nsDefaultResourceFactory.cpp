@@ -143,7 +143,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

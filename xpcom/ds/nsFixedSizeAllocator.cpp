@@ -149,7 +149,7 @@ if
 p
 )
 return
-nsnull
+nullptr
 ;
 Bucket
 *
@@ -176,7 +176,7 @@ bucket
 >
 mFirst
 =
-nsnull
+nullptr
 ;
 bucket
 -
@@ -285,7 +285,7 @@ aAlign
 ;
 mBuckets
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -350,7 +350,7 @@ link
 )
 !
 =
-nsnull
+nullptr
 )
 {
 if
@@ -422,7 +422,7 @@ mNext
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -481,7 +481,7 @@ if
 bucket
 )
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -533,7 +533,7 @@ if
 next
 )
 return
-nsnull
+nullptr
 ;
 }
 #

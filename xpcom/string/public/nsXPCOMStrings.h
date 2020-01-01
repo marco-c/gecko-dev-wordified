@@ -1219,7 +1219,7 @@ NOTE
 NS_StringContainerInit2
 (
 container
-nsnull
+nullptr
 0
 0
 )
@@ -1248,7 +1248,7 @@ PRUnichar
 *
 aData
 =
-nsnull
+nullptr
 PRUint32
 aDataLength
 =
@@ -1498,7 +1498,7 @@ bool
 *
 aTerminated
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -2721,7 +2721,7 @@ NS_StringSetDataRange
 aStr
 aCutOffset
 aCutLength
-nsnull
+nullptr
 0
 )
 ;
@@ -3317,7 +3317,7 @@ NOTE
 NS_CStringContainerInit2
 (
 container
-nsnull
+nullptr
 0
 0
 )
@@ -3346,7 +3346,7 @@ char
 *
 aData
 =
-nsnull
+nullptr
 PRUint32
 aDataLength
 =
@@ -3596,7 +3596,7 @@ bool
 *
 aTerminated
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -4819,7 +4819,7 @@ NS_CStringSetDataRange
 aStr
 aCutOffset
 aCutLength
-nsnull
+nullptr
 0
 )
 ;

@@ -1939,7 +1939,7 @@ nsGkAtoms
 noshade
 }
 {
-nsnull
+nullptr
 }
 }
 ;

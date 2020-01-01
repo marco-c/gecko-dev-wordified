@@ -607,7 +607,7 @@ nsEventDispatcher
 CreateEvent
 (
 mPresContext
-nsnull
+nullptr
 NS_LITERAL_STRING
 (
 "
@@ -646,10 +646,10 @@ nsEventDispatcher
 DispatchDOMEvent
 (
 mMenu
-nsnull
+nullptr
 event
 mPresContext
-nsnull
+nullptr
 )
 ;
 }
@@ -1035,7 +1035,7 @@ eMenuType_Normal
 )
 mMenuParent
 (
-nsnull
+nullptr
 )
 mBlinkState
 (
@@ -1521,7 +1521,7 @@ FirstChild
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 nsFrameList
@@ -1543,7 +1543,7 @@ HasPopup
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsFrameList
@@ -2897,7 +2897,7 @@ Cancel
 ;
 mOpenTimer
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -2984,7 +2984,7 @@ mMenuParent
 >
 ChangeMenuItem
 (
-nsnull
+nullptr
 false
 )
 ;
@@ -4679,7 +4679,7 @@ disabled
 -
 exit
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -4727,7 +4727,7 @@ this
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -4901,7 +4901,7 @@ get
 {
 mOpenTimer
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4973,7 +4973,7 @@ pm
 >
 HasContextMenu
 (
-nsnull
+nullptr
 )
 |
 |
@@ -5213,7 +5213,7 @@ nsGkAtoms
 :
 :
 radio
-nsnull
+nullptr
 }
 ;
 switch
@@ -7130,12 +7130,12 @@ Cancel
 ;
 mBlinkTimer
 =
-nsnull
+nullptr
 ;
 }
 mDelayedMenuCommandEvent
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -7418,7 +7418,7 @@ mDelayedMenuCommandEvent
 }
 mDelayedMenuCommandEvent
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -7618,7 +7618,7 @@ GetPopup
 {
 aPrevFrame
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -8163,7 +8163,7 @@ menuFrame
 *
 aResult
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -8245,7 +8245,7 @@ popupFrame
 >
 ChangeMenuItem
 (
-nsnull
+nullptr
 false
 )
 ;
@@ -8337,7 +8337,7 @@ if
 popupFrame
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -8364,7 +8364,7 @@ childFrame
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -8539,6 +8539,6 @@ ClearFrame
 {
 mFrame
 =
-nsnull
+nullptr
 ;
 }

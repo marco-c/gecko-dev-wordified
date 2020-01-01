@@ -531,7 +531,7 @@ nsScriptSecurityManager
 :
 sIOService
 =
-nsnull
+nullptr
 ;
 nsIXPConnect
 *
@@ -540,7 +540,7 @@ nsScriptSecurityManager
 :
 sXPConnect
 =
-nsnull
+nullptr
 ;
 nsIThreadJSContextStack
 *
@@ -549,7 +549,7 @@ nsScriptSecurityManager
 :
 sJSContextStack
 =
-nsnull
+nullptr
 ;
 nsIStringBundle
 *
@@ -558,7 +558,7 @@ nsScriptSecurityManager
 :
 sStrBundle
 =
-nsnull
+nullptr
 ;
 JSRuntime
 *
@@ -699,7 +699,7 @@ idval
 )
 )
 return
-nsnull
+nullptr
 ;
 JSString
 *
@@ -717,7 +717,7 @@ if
 str
 )
 return
-nsnull
+nullptr
 ;
 return
 JS_GetStringCharsZ
@@ -1454,7 +1454,7 @@ mContext
 {
 mStack
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1473,7 +1473,7 @@ mStack
 >
 Pop
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1527,7 +1527,7 @@ cx
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 cx
@@ -1888,7 +1888,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 principal
@@ -1959,7 +1959,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 principal
@@ -2082,7 +2082,7 @@ aDomainPolicy
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 mDomainPolicy
@@ -3367,14 +3367,14 @@ return
 CheckPropertyAccessImpl
 (
 aAction
-nsnull
+nullptr
 cx
 aJSObject
-nsnull
-nsnull
+nullptr
+nullptr
 aClassName
 aProperty
-nsnull
+nullptr
 )
 ;
 }
@@ -3662,7 +3662,7 @@ reportError
 {
 ReportError
 (
-nsnull
+nullptr
 NS_LITERAL_STRING
 (
 "
@@ -4321,7 +4321,7 @@ nsIID
 *
 objIID
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -4639,7 +4639,7 @@ again
 .
 objectPrincipal
 =
-nsnull
+nullptr
 ;
 NS_ConvertUTF8toUTF16
 className
@@ -5798,7 +5798,7 @@ DomainPolicy
 *
 dpolicy
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -5931,21 +5931,21 @@ char
 *
 nextToLastDot
 =
-nsnull
+nullptr
 ;
 const
 char
 *
 lastDot
 =
-nsnull
+nullptr
 ;
 const
 char
 *
 colon
 =
-nsnull
+nullptr
 ;
 char
 *
@@ -6192,7 +6192,7 @@ ClassPolicy
 *
 cpolicy
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6447,7 +6447,7 @@ PropertyPolicy
 *
 ppolicy
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7901,7 +7901,7 @@ not
 system
 ReportError
 (
-nsnull
+nullptr
 errorTag
 sourceURI
 aTargetURI
@@ -8105,7 +8105,7 @@ NS_OK
 }
 ReportError
 (
-nsnull
+nullptr
 errorTag
 sourceURI
 aTargetURI
@@ -8233,7 +8233,7 @@ checkloaduri
 ClassInfoData
 nameData
 (
-nsnull
+nullptr
 loadURIPrefGroup
 )
 ;
@@ -8251,7 +8251,7 @@ nsIXPCSecurityManager
 :
 :
 ACCESS_GET_PROPERTY
-nsnull
+nullptr
 &
 secLevel
 )
@@ -8285,7 +8285,7 @@ NS_OK
 }
 ReportError
 (
-nsnull
+nullptr
 errorTag
 sourceURI
 aTargetURI
@@ -8819,8 +8819,8 @@ getter_AddRefs
 target
 )
 aTargetURIStr
-nsnull
-nsnull
+nullptr
+nullptr
 sIOService
 )
 ;
@@ -9043,7 +9043,7 @@ JSObject
 *
 )
 aFunObj
-nsnull
+nullptr
 &
 rv
 )
@@ -9800,7 +9800,7 @@ javascript
 ClassInfoData
 nameData
 (
-nsnull
+nullptr
 jsPrefGroupName
 )
 ;
@@ -9818,7 +9818,7 @@ nsIXPCSecurityManager
 :
 :
 ACCESS_GET_PROPERTY
-nsnull
+nullptr
 &
 secLevel
 )
@@ -9994,7 +9994,7 @@ rv
 NS_OK
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -10165,7 +10165,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_ARG
 (
@@ -10920,7 +10920,7 @@ EmptyCString
 EmptyCString
 (
 )
-nsnull
+nullptr
 aURI
 aAppId
 aInMozBrowser
@@ -11382,7 +11382,7 @@ EmptyCString
 )
 granted
 denied
-nsnull
+nullptr
 false
 isTrusted
 aAppId
@@ -11440,7 +11440,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 nsIScriptContextPrincipal
 *
@@ -11533,7 +11533,7 @@ script
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 JSPrincipals
@@ -11568,7 +11568,7 @@ principals
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -11707,7 +11707,7 @@ scripted
 caller
 .
 return
-nsnull
+nullptr
 ;
 }
 JSScript
@@ -11722,7 +11722,7 @@ cx
 fp
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -12241,7 +12241,7 @@ JSStackFrame
 *
 fp
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -12350,7 +12350,7 @@ rv
 NS_ERROR_FAILURE
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -12404,7 +12404,7 @@ JSStackFrame
 *
 inner
 =
-nsnull
+nullptr
 ;
 *
 frameResult
@@ -12423,7 +12423,7 @@ result
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIPrincipal
@@ -12709,7 +12709,7 @@ nsIPrincipal
 *
 result
 =
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -12834,7 +12834,7 @@ if
 aObj
 )
 return
-nsnull
+nullptr
 ;
 jsClass
 =
@@ -12874,7 +12874,7 @@ if
 aObj
 )
 return
-nsnull
+nullptr
 ;
 jsClass
 =
@@ -13016,7 +13016,7 @@ else
 {
 priv
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -13287,7 +13287,7 @@ JSStackFrame
 *
 fp
 =
-nsnull
+nullptr
 ;
 JSContext
 *
@@ -13308,7 +13308,7 @@ cx
 fp
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -13378,7 +13378,7 @@ nsIPrincipal
 *
 previousPrincipal
 =
-nsnull
+nullptr
 ;
 do
 {
@@ -13640,7 +13640,7 @@ fp
 )
 !
 =
-nsnull
+nullptr
 )
 ;
 if
@@ -14727,7 +14727,7 @@ objClassInfo
 ClassInfoData
 (
 aClassInfo
-nsnull
+nullptr
 )
 ;
 if
@@ -14823,8 +14823,8 @@ CheckXPCPermissions
 (
 cx
 aObj
-nsnull
-nsnull
+nullptr
+nullptr
 objectSecurityLevel
 )
 ;
@@ -15123,11 +15123,11 @@ rv
 =
 CheckXPCPermissions
 (
-nsnull
-nsnull
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -15280,11 +15280,11 @@ rv
 =
 CheckXPCPermissions
 (
-nsnull
-nsnull
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -15420,7 +15420,7 @@ cx
 aJSObject
 aObj
 aClassInfo
-nsnull
+nullptr
 aPropertyName
 aPolicy
 )
@@ -16133,7 +16133,7 @@ sJSEnabledPrefName
 sFileOriginPolicyPrefName
 sPolicyPrefix
 sPrincipalPrefix
-nsnull
+nullptr
 }
 ;
 NS_IMETHODIMP
@@ -16504,15 +16504,15 @@ void
 :
 mOriginToPolicyMap
 (
-nsnull
+nullptr
 )
 mDefaultPolicy
 (
-nsnull
+nullptr
 )
 mCapabilities
 (
-nsnull
+nullptr
 )
 mPrefInitialized
 (
@@ -16976,7 +16976,7 @@ NULL
 ;
 sRuntime
 =
-nsnull
+nullptr
 ;
 }
 sEnabledID
@@ -17065,7 +17065,7 @@ rv
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 rv
@@ -17104,7 +17104,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 ClearOnShutdown
@@ -17165,7 +17165,7 @@ nsIPrincipal
 *
 sysprin
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17331,7 +17331,7 @@ Drop
 ;
 mDefaultPolicy
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -17347,10 +17347,10 @@ mOriginToPolicyMap
 new
 nsObjectHashtable
 (
-nsnull
-nsnull
+nullptr
+nullptr
 DeleteDomainEntry
-nsnull
+nullptr
 )
 ;
 if
@@ -17429,10 +17429,10 @@ mCapabilities
 new
 nsObjectHashtable
 (
-nsnull
-nsnull
+nullptr
+nullptr
 DeleteCapability
-nsnull
+nullptr
 )
 ;
 if
@@ -17796,13 +17796,13 @@ char
 *
 lastDot
 =
-nsnull
+nullptr
 ;
 char
 *
 nextToLastDot
 =
-nsnull
+nullptr
 ;
 bool
 moreDomains
@@ -18049,7 +18049,7 @@ lastDot
 =
 nextToLastDot
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -19745,7 +19745,7 @@ EmptyCString
 )
 grantedList
 deniedList
-nsnull
+nullptr
 isCert
 isTrusted
 UNKNOWN_APP_ID

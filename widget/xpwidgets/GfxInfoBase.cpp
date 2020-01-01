@@ -357,7 +357,7 @@ GfxInfoBase
 :
 mDriverInfo
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -553,7 +553,7 @@ char
 *
 name
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -1211,7 +1211,7 @@ length
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -3661,7 +3661,7 @@ aOS
 /
 *
 =
-nsnull
+nullptr
 *
 /
 )
@@ -4442,7 +4442,7 @@ failures
 *
 failures
 =
-nsnull
+nullptr
 ;
 *
 failureCount
@@ -4880,7 +4880,7 @@ sCollectors
 ;
 sCollectors
 =
-nsnull
+nullptr
 ;
 }
 }

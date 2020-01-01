@@ -299,7 +299,7 @@ sum
 true
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -329,7 +329,7 @@ sum
 true
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -371,7 +371,7 @@ spline
 CALC_SPLINE
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -504,7 +504,7 @@ LL_MININT
 )
 mAnimationElement
 (
-nsnull
+nullptr
 )
 mErrorFlags
 (
@@ -2550,14 +2550,14 @@ nsSMILValue
 *
 from
 =
-nsnull
+nullptr
 ;
 const
 nsSMILValue
 *
 to
 =
-nsnull
+nullptr
 ;
 /
 /

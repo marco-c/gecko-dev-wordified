@@ -222,11 +222,11 @@ GetAccessibleOrContainer
 focusedNode
 )
 :
-nsnull
+nullptr
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -397,7 +397,7 @@ GetAccessibleOrContainer
 focusedNode
 )
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -617,7 +617,7 @@ aTarget
 )
 mActiveItem
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -762,7 +762,7 @@ aTarget
 )
 mActiveItem
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -926,7 +926,7 @@ return
 ;
 mActiveItem
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1716,7 +1716,7 @@ menuEndEvent
 ;
 mActiveARIAMenubar
 =
-nsnull
+nullptr
 ;
 }
 A11YDEBUG_FOCUS_NOTIFICATION_ACCTARGET
@@ -1887,7 +1887,7 @@ targetDocument
 >
 SetAnchorJump
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1976,7 +1976,7 @@ focusedElm
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 focusedElm
@@ -2014,7 +2014,7 @@ GetExtantDoc
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsIDocument
@@ -2045,6 +2045,6 @@ OwnerDoc
 (
 )
 :
-nsnull
+nullptr
 ;
 }

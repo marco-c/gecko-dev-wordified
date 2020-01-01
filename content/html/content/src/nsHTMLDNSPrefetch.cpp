@@ -302,7 +302,7 @@ nsIDNSService
 *
 sDNSService
 =
-nsnull
+nullptr
 ;
 static
 nsHTMLDNSPrefetch
@@ -312,7 +312,7 @@ nsDeferrals
 *
 sPrefetches
 =
-nsnull
+nullptr
 ;
 static
 nsHTMLDNSPrefetch
@@ -322,7 +322,7 @@ nsListener
 *
 sDNSListener
 =
-nsnull
+nullptr
 ;
 nsresult
 nsHTMLDNSPrefetch
@@ -830,7 +830,7 @@ nsIDNSService
 :
 RESOLVE_SPECULATE
 sDNSListener
-nsnull
+nullptr
 getter_AddRefs
 (
 tmpOutstanding
@@ -1515,7 +1515,7 @@ mTail
 .
 mElement
 =
-nsnull
+nullptr
 ;
 mTail
 =
@@ -1791,7 +1791,7 @@ GetURI
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 if
@@ -1870,7 +1870,7 @@ nsIDNSService
 :
 RESOLVE_SPECULATE
 sDNSListener
-nsnull
+nullptr
 getter_AddRefs
 (
 tmpOutstanding
@@ -1911,7 +1911,7 @@ mTail
 .
 mElement
 =
-nsnull
+nullptr
 ;
 mTail
 =

@@ -756,7 +756,7 @@ pacString
 ;
 mCallback
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -773,7 +773,7 @@ NS_ERROR_ABORT
 ;
 mDNSRequest
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -828,7 +828,7 @@ cache
 .
 mDNSRequest
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1027,7 +1027,7 @@ NS_ASSERTION
 mLoader
 =
 =
-nsnull
+nullptr
 "
 pac
 man
@@ -1042,7 +1042,7 @@ NS_ASSERTION
 mPAC
 =
 =
-nsnull
+nullptr
 "
 pac
 man
@@ -1088,7 +1088,7 @@ NS_ERROR_ABORT
 ;
 mPAC
 =
-nsnull
+nullptr
 ;
 mShutdown
 =
@@ -1611,7 +1611,7 @@ LL_MAXINT
 ;
 mPAC
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1753,7 +1753,7 @@ channel
 AsyncOpen
 (
 mLoader
-nsnull
+nullptr
 )
 )
 )
@@ -1797,7 +1797,7 @@ mScheduledReload
 )
 LoadPACFromURI
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1985,7 +1985,7 @@ NS_ERROR_ABORT
 ;
 mLoader
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2252,7 +2252,7 @@ NS_OK
 }
 mLoader
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2550,7 +2550,7 @@ status
 )
 mPAC
 =
-nsnull
+nullptr
 ;
 ProcessPendingQ
 (
@@ -2632,7 +2632,7 @@ promptFac
 >
 GetPrompt
 (
-nsnull
+nullptr
 iid
 reinterpret_cast
 <

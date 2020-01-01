@@ -711,7 +711,7 @@ Invalidate
 {
 mWindow
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -727,7 +727,7 @@ Invalidate
 ;
 mPlugins
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -759,7 +759,7 @@ Shutdown
 ;
 mGeolocation
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -776,7 +776,7 @@ Shutdown
 ;
 mNotification
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -793,7 +793,7 @@ Shutdown
 ;
 mBatteryManager
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -810,7 +810,7 @@ Shutdown
 ;
 mPowerManager
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -827,7 +827,7 @@ Shutdown
 ;
 mSmsManager
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -840,7 +840,7 @@ mTelephony
 {
 mTelephony
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -850,7 +850,7 @@ mVoicemail
 {
 mVoicemail
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -869,7 +869,7 @@ Shutdown
 ;
 mConnection
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -886,7 +886,7 @@ Shutdown
 ;
 mMobileConnection
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -899,7 +899,7 @@ mBluetooth
 {
 mBluetooth
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -914,7 +914,7 @@ mMessagesManager
 {
 mMessagesManager
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -2006,7 +2006,7 @@ GetDocShell
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -2268,7 +2268,7 @@ permMgr
 CanAccess
 (
 codebaseURI
-nsnull
+nullptr
 &
 access
 )
@@ -4289,7 +4289,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -4445,9 +4445,9 @@ getter_AddRefs
 channel
 )
 uri
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 loadFlags
 )
 ;
@@ -4988,7 +4988,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5106,7 +5106,7 @@ GetOuterWindow
 {
 mGeolocation
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -5590,7 +5590,7 @@ aRetVal
 *
 aRetVal
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5840,7 +5840,7 @@ mBatteryManager
 *
 aBattery
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -5914,7 +5914,7 @@ aPower
 *
 aPower
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5997,7 +5997,7 @@ aWakeLock
 *
 aWakeLock
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -6614,7 +6614,7 @@ aSmsManager
 *
 aSmsManager
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6963,7 +6963,7 @@ aVoicemail
 *
 aVoicemail
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7311,7 +7311,7 @@ aConnection
 *
 aConnection
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7390,7 +7390,7 @@ aMobileConnection
 *
 aMobileConnection
 =
-nsnull
+nullptr
 ;
 if
 (

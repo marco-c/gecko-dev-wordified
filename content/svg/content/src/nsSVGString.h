@@ -143,7 +143,7 @@ aAttrEnum
 {
 mAnimVal
 =
-nsnull
+nullptr
 ;
 mAttrEnum
 =

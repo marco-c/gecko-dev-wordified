@@ -317,7 +317,7 @@ CreateMultiTableEncoder
 (
 aTableCount
 aScanClassArray
-nsnull
+nullptr
 aMappingTable
 aMaxLengthFactor
 aOuter
@@ -412,7 +412,7 @@ return
 CreateTableEncoder
 (
 aScanClass
-nsnull
+nullptr
 aMappingTable
 aMaxLengthFactor
 aOuter

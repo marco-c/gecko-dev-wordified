@@ -396,7 +396,7 @@ mScrollPositionY
 )
 mParent
 (
-nsnull
+nullptr
 )
 mURIWasModified
 (
@@ -537,7 +537,7 @@ aEntry
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -570,7 +570,7 @@ mChildren
 EnumerateForwards
 (
 ClearParentPtr
-nsnull
+nullptr
 )
 ;
 }
@@ -3097,7 +3097,7 @@ aChild
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -3182,7 +3182,7 @@ nsISHEntry
 *
 dynEntry
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -3366,7 +3366,7 @@ oldChild
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3399,7 +3399,7 @@ aChild
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -3488,7 +3488,7 @@ mChildren
 .
 ReplaceObjectAt
 (
-nsnull
+nullptr
 index
 )
 ;
@@ -3504,7 +3504,7 @@ aChild
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -3645,7 +3645,7 @@ else
 *
 aResult
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -3946,7 +3946,7 @@ mShared
 mEditorData
 !
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP

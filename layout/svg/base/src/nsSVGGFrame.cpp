@@ -471,7 +471,7 @@ lazily
 updated
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 }
 nsSVGGFrameBase

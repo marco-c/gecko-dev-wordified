@@ -2139,7 +2139,7 @@ AsSourceStream
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3725,7 +3725,7 @@ ID
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /

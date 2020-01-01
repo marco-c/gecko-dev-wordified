@@ -1342,7 +1342,7 @@ fwdObject
 *
 result
 =
-nsnull
+nullptr
 ;
 \
 return
@@ -1387,7 +1387,7 @@ fwdObject
 *
 result
 =
-nsnull
+nullptr
 ;
 \
 return
@@ -1490,7 +1490,7 @@ fwdObject
 )
 \
 return
-nsnull
+nullptr
 ;
 \
 return

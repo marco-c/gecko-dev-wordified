@@ -1068,7 +1068,7 @@ eOpChangeDelete
 ;
 mRange
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1901,9 +1901,9 @@ mSpellChecker
 >
 MakeSpellCheckRange
 (
-nsnull
+nullptr
 0
-nsnull
+nullptr
 0
 getter_AddRefs
 (
@@ -2529,7 +2529,7 @@ give
 up
 mRange
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -2752,7 +2752,7 @@ rv
 *
 aDocument
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2896,7 +2896,7 @@ aRange
 *
 aRange
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3392,7 +3392,7 @@ UnregisterEventListeners
 }
 mEditor
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -3959,7 +3959,7 @@ aEnabled
 mSpellCheck
 !
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3989,7 +3989,7 @@ aEnabled
 {
 mSpellCheck
 =
-nsnull
+nullptr
 ;
 return
 Cleanup
@@ -4249,7 +4249,7 @@ optimization
 return
 SpellCheckRange
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -5001,7 +5001,7 @@ status
 .
 InitForRange
 (
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5632,7 +5632,7 @@ rv
 *
 aRange
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -6893,7 +6893,7 @@ status
 .
 InitForRange
 (
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -9048,7 +9048,7 @@ aRange
 *
 aRange
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -10480,7 +10480,7 @@ rv
 =
 SpellCheckRange
 (
-nsnull
+nullptr
 )
 ;
 }

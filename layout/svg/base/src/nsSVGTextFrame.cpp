@@ -1073,7 +1073,7 @@ lazily
 updated
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 }
 if

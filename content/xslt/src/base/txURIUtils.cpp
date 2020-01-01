@@ -315,7 +315,7 @@ node
 /
 XXXbz
 passing
-nsnull
+nullptr
 as
 the
 first
@@ -329,8 +329,8 @@ aNewDoc
 >
 Reset
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 return
@@ -426,7 +426,7 @@ sourceDoc
 GetDocumentURI
 (
 )
-nsnull
+nullptr
 loadGroup
 )
 )

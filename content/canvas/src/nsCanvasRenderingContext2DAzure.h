@@ -2641,7 +2641,7 @@ Snapshot
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 NS_IMETHOD
@@ -4453,7 +4453,7 @@ get
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -4837,14 +4837,14 @@ gradientStyles
 whichStyle
 ]
 =
-nsnull
+nullptr
 ;
 patternStyles
 [
 whichStyle
 ]
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -4862,7 +4862,7 @@ gradientStyles
 whichStyle
 ]
 =
-nsnull
+nullptr
 ;
 patternStyles
 [
@@ -4894,7 +4894,7 @@ patternStyles
 whichStyle
 ]
 =
-nsnull
+nullptr
 ;
 }
 /

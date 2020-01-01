@@ -158,15 +158,15 @@ txExprLexer
 :
 mCurrentItem
 (
-nsnull
+nullptr
 )
 mFirstItem
 (
-nsnull
+nullptr
 )
 mLastItem
 (
-nsnull
+nullptr
 )
 mTokenCount
 (
@@ -230,7 +230,7 @@ temp
 }
 mCurrentItem
 =
-nsnull
+nullptr
 ;
 }
 Token
@@ -260,7 +260,7 @@ lexer
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -536,8 +536,8 @@ scope
 Token
 nullToken
 (
-nsnull
-nsnull
+nullptr
+nullptr
 Token
 :
 :
@@ -554,7 +554,7 @@ Token
 *
 newToken
 =
-nsnull
+nullptr
 ;
 Token
 *

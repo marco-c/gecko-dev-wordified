@@ -274,7 +274,7 @@ question
 (
 must
 be
-nsnull
+nullptr
 and
 QI
 '

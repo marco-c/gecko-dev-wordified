@@ -164,11 +164,11 @@ mUseCount
 )
 mToken
 (
-nsnull
+nullptr
 )
 mTokenAllocator
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -181,7 +181,7 @@ ifdef
 HEAP_ALLOCATED_NODES
 mNodeAllocator
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -370,7 +370,7 @@ this
 }
 mNodeAllocator
 =
-nsnull
+nullptr
 ;
 #
 endif

@@ -1120,7 +1120,7 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -1130,7 +1130,7 @@ net
 -
 teardown
 "
-nsnull
+nullptr
 )
 )
 )
@@ -1144,7 +1144,7 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -1152,7 +1152,7 @@ change
 -
 teardown
 "
-nsnull
+nullptr
 )
 )
 )
@@ -1166,7 +1166,7 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -1174,7 +1174,7 @@ before
 -
 change
 "
-nsnull
+nullptr
 )
 )
 )
@@ -1207,7 +1207,7 @@ directory
 }
 mProfD
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1349,7 +1349,7 @@ profD
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 rv
@@ -1374,7 +1374,7 @@ profd
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 rv
@@ -1394,7 +1394,7 @@ DIRECTORY_TYPE
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 mProfD

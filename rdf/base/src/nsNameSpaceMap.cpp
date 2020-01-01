@@ -114,7 +114,7 @@ nsNameSpaceMap
 :
 mEntries
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -230,7 +230,7 @@ mEntries
 entry
 !
 =
-nsnull
+nullptr
 ;
 entry
 =
@@ -322,7 +322,7 @@ mEntries
 entry
 !
 =
-nsnull
+nullptr
 ;
 entry
 =

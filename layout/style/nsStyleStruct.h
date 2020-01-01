@@ -1481,7 +1481,7 @@ bool
 *
 aIsEntireImage
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -3674,7 +3674,7 @@ nsBorderColors
 :
 mNext
 (
-nsnull
+nullptr
 )
 mColor
 (
@@ -3697,7 +3697,7 @@ aColor
 :
 mNext
 (
-nsnull
+nullptr
 )
 mColor
 (
@@ -4749,7 +4749,7 @@ mBorderColors
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4788,7 +4788,7 @@ mBorderColors
 aSide
 ]
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -5487,7 +5487,7 @@ mBorderColors
 *
 aColors
 =
-nsnull
+nullptr
 ;
 else
 *
@@ -7550,7 +7550,7 @@ const
 return
 mLogicalDirections
 ?
-nsnull
+nullptr
 :
 &
 mRight
@@ -10253,7 +10253,7 @@ return
 mSpecifiedTransform
 !
 =
-nsnull
+nullptr
 |
 |
 mTransformStyle
@@ -10699,7 +10699,7 @@ mContent
 .
 mString
 =
-nsnull
+nullptr
 ;
 }
 ~
@@ -10864,7 +10864,7 @@ array
 ;
 array
 =
-nsnull
+nullptr
 ;
 }
 struct
@@ -12738,7 +12738,7 @@ mPaint
 .
 mPaintServer
 =
-nsnull
+nullptr
 ;
 }
 ~

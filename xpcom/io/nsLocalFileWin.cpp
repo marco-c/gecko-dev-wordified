@@ -1945,7 +1945,7 @@ mPersistFile
 {
 mShellLink
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -2019,7 +2019,7 @@ mShellLink
 >
 Resolve
 (
-nsnull
+nullptr
 SLR_NO_UI
 )
 )
@@ -2399,7 +2399,7 @@ ShortcutResolver
 *
 gResolver
 =
-nsnull
+nullptr
 ;
 static
 nsresult
@@ -2442,7 +2442,7 @@ gResolver
 ;
 gResolver
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -3873,7 +3873,7 @@ INVALID_HANDLE_VALUE
 *
 fd
 =
-nsnull
+nullptr
 ;
 return
 ConvertWinError
@@ -4357,7 +4357,7 @@ dir
 *
 dir
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5085,7 +5085,7 @@ nsDirEnumerator
 :
 mDir
 (
-nsnull
+nullptr
 )
 {
 }
@@ -5206,7 +5206,7 @@ if
 mNext
 =
 =
-nsnull
+nullptr
 &
 &
 mDir
@@ -5334,7 +5334,7 @@ result
 mNext
 !
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5392,7 +5392,7 @@ mNext
 /
 might
 return
-nsnull
+nullptr
 NS_IF_ADDREF
 (
 *
@@ -5401,7 +5401,7 @@ result
 ;
 mNext
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -5419,7 +5419,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 bool
 hasMore
@@ -5462,7 +5462,7 @@ result
 ;
 mNext
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -10435,7 +10435,7 @@ LANGANDCODEPAGE
 *
 translate
 =
-nsnull
+nullptr
 ;
 UINT
 pageCount
@@ -10568,7 +10568,7 @@ MAX_PATH
 LPVOID
 value
 =
-nsnull
+nullptr
 ;
 UINT
 size
@@ -12096,7 +12096,7 @@ if
 realDest
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -15412,7 +15412,7 @@ Length
 *
 aParent
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -15550,7 +15550,7 @@ L
 *
 aParent
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -17567,7 +17567,7 @@ rv
 *
 entries
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17654,7 +17654,7 @@ if
 dirEnum
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -18283,7 +18283,7 @@ if
 file
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -19146,7 +19146,7 @@ rv
 *
 result
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -19817,7 +19817,7 @@ L
 *
 aNext
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

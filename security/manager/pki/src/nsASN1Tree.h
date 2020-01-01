@@ -221,7 +221,7 @@ next
 =
 parent
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -315,12 +315,12 @@ PRInt32
 *
 optionalOutParentIndex
 =
-nsnull
+nullptr
 PRInt32
 *
 optionalOutLevel
 =
-nsnull
+nullptr
 )
 ;
 }

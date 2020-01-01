@@ -746,7 +746,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 /
 /

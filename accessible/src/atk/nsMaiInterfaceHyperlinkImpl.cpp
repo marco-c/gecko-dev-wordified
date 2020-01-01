@@ -158,7 +158,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 NS_ENSURE_TRUE
 (
@@ -168,7 +168,7 @@ accWrap
 IsLink
 (
 )
-nsnull
+nullptr
 )
 ;
 MaiHyperlink
@@ -185,7 +185,7 @@ GetMaiHyperlink
 NS_ENSURE_TRUE
 (
 maiHyperlink
-nsnull
+nullptr
 )
 ;
 return

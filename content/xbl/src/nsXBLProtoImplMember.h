@@ -170,7 +170,7 @@ nsXBLTextWithLineNumber
 :
 mText
 (
-nsnull
+nullptr
 )
 mLineNumber
 (
@@ -308,7 +308,7 @@ aName
 :
 mNext
 (
-nsnull
+nullptr
 )
 {
 mName

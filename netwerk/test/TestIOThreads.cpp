@@ -135,7 +135,7 @@ PRLogModuleInfo
 *
 gTestLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -349,9 +349,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -425,7 +425,7 @@ PR_SecondsToInterval
 ;
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

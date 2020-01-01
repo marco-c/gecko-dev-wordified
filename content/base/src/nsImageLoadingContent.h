@@ -658,7 +658,7 @@ nsIDocument
 *
 aDocument
 =
-nsnull
+nullptr
 nsLoadFlags
 aLoadFlags
 =
@@ -753,7 +753,7 @@ we
 belong
 to
 or
-nsnull
+nullptr
 if
 it
 doesn
@@ -810,7 +810,7 @@ with
 our
 frame
 or
-nsnull
+nullptr
 if
 either
 *
@@ -1132,7 +1132,7 @@ aObserver
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -1850,7 +1850,7 @@ request
 or
 *
 |
-nsnull
+nullptr
 |
 if
 the

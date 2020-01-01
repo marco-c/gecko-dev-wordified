@@ -168,7 +168,7 @@ aNode
 :
 mQuery
 (
-nsnull
+nullptr
 )
 mNode
 (
@@ -736,7 +736,7 @@ map
 *
 aValue
 =
-nsnull
+nullptr
 ;
 mInst
 .
@@ -843,7 +843,7 @@ GetMemberVariable
 (
 )
 :
-nsnull
+nullptr
 this
 mBindingValues
 )

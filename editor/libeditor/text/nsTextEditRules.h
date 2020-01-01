@@ -1191,7 +1191,7 @@ nsIDOMNode
 *
 outBRNode
 =
-nsnull
+nullptr
 )
 ;
 nsresult

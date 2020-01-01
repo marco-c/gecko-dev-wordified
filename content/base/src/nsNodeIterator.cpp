@@ -828,7 +828,7 @@ aRoot
 *
 aRoot
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1031,7 +1031,7 @@ filtered
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1246,7 +1246,7 @@ aRefNode
 *
 aRefNode
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

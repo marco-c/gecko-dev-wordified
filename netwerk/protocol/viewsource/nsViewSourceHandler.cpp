@@ -412,7 +412,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 /
 /

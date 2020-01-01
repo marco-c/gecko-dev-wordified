@@ -922,7 +922,7 @@ GetTFoot
 \
 rows
 =
-nsnull
+nullptr
 ;
 \
 if
@@ -1172,7 +1172,7 @@ aIndex
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -1233,7 +1233,7 @@ count
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -1268,7 +1268,7 @@ node
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1328,7 +1328,7 @@ aCache
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsISupports
@@ -1375,10 +1375,10 @@ item
 *
 aCache
 =
-nsnull
+nullptr
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -1421,7 +1421,7 @@ item
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1456,7 +1456,7 @@ mParent
 !
 mParent
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1831,7 +1831,7 @@ forget
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -1998,7 +1998,7 @@ forget
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -2409,7 +2409,7 @@ aValue
 *
 aValue
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -2630,7 +2630,7 @@ aValue
 *
 aValue
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -2825,7 +2825,7 @@ aValue
 *
 aValue
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3054,7 +3054,7 @@ child
 *
 aValue
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6069,7 +6069,7 @@ nsGkAtoms
 align
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -6369,7 +6369,7 @@ mTableInheritedAttributes
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -6417,7 +6417,7 @@ GetAttributeStyleSheet
 (
 )
 :
-nsnull
+nullptr
 ;
 nsRefPtr
 <

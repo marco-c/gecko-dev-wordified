@@ -988,7 +988,7 @@ actorChild
 )
 !
 =
-nsnull
+nullptr
 )
 fail
 (
@@ -4139,7 +4139,7 @@ actorChild
 )
 !
 =
-nsnull
+nullptr
 |
 |
 iaw
@@ -4149,7 +4149,7 @@ actorParent
 )
 !
 =
-nsnull
+nullptr
 )
 fail
 (
@@ -4183,7 +4183,7 @@ actorParent
 )
 !
 =
-nsnull
+nullptr
 )
 fail
 (
@@ -4230,7 +4230,7 @@ actorParent
 )
 !
 =
-nsnull
+nullptr
 )
 fail
 (

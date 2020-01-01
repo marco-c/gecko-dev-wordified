@@ -715,7 +715,7 @@ NS_DebugBreak
 (
 NS_DEBUG_WARNING
 str
-nsnull
+nullptr
 __FILE__
 __LINE__
 )
@@ -737,8 +737,8 @@ NS_ABORT
 NS_DebugBreak
 (
 NS_DEBUG_ABORT
-nsnull
-nsnull
+nullptr
+nullptr
 __FILE__
 __LINE__
 )
@@ -760,8 +760,8 @@ NS_BREAK
 NS_DebugBreak
 (
 NS_DEBUG_BREAK
-nsnull
-nsnull
+nullptr
+nullptr
 __FILE__
 __LINE__
 )
@@ -1866,7 +1866,7 @@ NS_DebugBreak
 (
 NS_DEBUG_ABORT
 msg
-nsnull
+nullptr
 __FILE__
 __LINE__
 )

@@ -374,7 +374,7 @@ aSurface
 *
 aSurface
 =
-nsnull
+nullptr
 ;
 double
 width
@@ -1180,7 +1180,7 @@ aPrinterNameList
 *
 aPrinterNameList
 =
-nsnull
+nullptr
 ;
 QList
 <

@@ -451,7 +451,7 @@ does
 *
 not
 then
-nsnull
+nullptr
 is
 returned
 .
@@ -695,11 +695,11 @@ aAttrEnum
 :
 mBaseVal
 (
-nsnull
+nullptr
 )
 mAnimVal
 (
-nsnull
+nullptr
 )
 mElement
 (

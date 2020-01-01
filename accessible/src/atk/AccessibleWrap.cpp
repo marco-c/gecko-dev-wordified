@@ -1158,7 +1158,7 @@ aDoc
 )
 mAtkObject
 (
-nsnull
+nullptr
 )
 {
 #
@@ -1308,12 +1308,12 @@ mAtkObject
 >
 accWrap
 =
-nsnull
+nullptr
 ;
 }
 SetMaiHyperlink
 (
-nsnull
+nullptr
 )
 ;
 g_object_unref
@@ -1323,7 +1323,7 @@ mAtkObject
 ;
 mAtkObject
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1401,7 +1401,7 @@ MaiHyperlink
 *
 maiHyperlink
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1563,7 +1563,7 @@ aOutAccessible
 *
 aOutAccessible
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1695,7 +1695,7 @@ void
 *
 atkObj
 =
-nsnull
+nullptr
 ;
 GetNativeInterface
 (
@@ -1742,7 +1742,7 @@ void
 *
 atkObjPtr
 =
-nsnull
+nullptr
 ;
 acc
 -
@@ -1761,7 +1761,7 @@ ATK_OBJECT
 atkObjPtr
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -2985,7 +2985,7 @@ aObj
 accWrap
 =
 =
-nsnull
+nullptr
 "
 AccWrap
 NOT
@@ -3102,7 +3102,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsAutoString
 uniName
@@ -3187,7 +3187,7 @@ IsDefunct
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 *
@@ -3411,13 +3411,13 @@ if
 aAttributes
 )
 return
-nsnull
+nullptr
 ;
 AtkAttributeSet
 *
 objAttributeSet
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3442,7 +3442,7 @@ propEnum
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 bool
@@ -3722,7 +3722,7 @@ attributes
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 AtkAttributeSet
@@ -3751,7 +3751,7 @@ GetAttributeSet
 accWrap
 )
 :
-nsnull
+nullptr
 ;
 }
 AtkObject
@@ -3787,7 +3787,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 Accessible
 *
@@ -3806,7 +3806,7 @@ if
 accParent
 )
 return
-nsnull
+nullptr
 ;
 AtkObject
 *
@@ -3917,7 +3917,7 @@ aChildIndex
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 AccessibleWrap
@@ -3945,7 +3945,7 @@ accWrap
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 Accessible
@@ -3966,7 +3966,7 @@ if
 accChild
 )
 return
-nsnull
+nullptr
 ;
 AtkObject
 *
@@ -3997,7 +3997,7 @@ if
 childAtkObj
 )
 return
-nsnull
+nullptr
 ;
 g_object_ref
 (
@@ -4255,7 +4255,7 @@ AtkStateSet
 *
 state_set
 =
-nsnull
+nullptr
 ;
 state_set
 =
@@ -4485,7 +4485,7 @@ Accessible
 *
 tempAcc
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -4588,7 +4588,7 @@ IS_MAI_OBJECT
 (
 aAtkObj
 )
-nsnull
+nullptr
 )
 ;
 AccessibleWrap
@@ -4618,7 +4618,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 NS_ENSURE_TRUE
 (
@@ -4631,7 +4631,7 @@ GetAtkObject
 =
 =
 aAtkObj
-nsnull
+nullptr
 )
 ;
 AccessibleWrap
@@ -4662,7 +4662,7 @@ IsValidObject
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 accWrap
@@ -6710,7 +6710,7 @@ char
 *
 signal_name
 =
-nsnull
+nullptr
 ;
 if
 (

@@ -1541,7 +1541,7 @@ aAnchorIndex
 0
 )
 return
-nsnull
+nullptr
 ;
 nsAutoString
 href
@@ -1587,7 +1587,7 @@ nsIURI
 *
 anchorURI
 =
-nsnull
+nullptr
 ;
 NS_NewURI
 (

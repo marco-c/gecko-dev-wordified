@@ -2895,7 +2895,7 @@ kOnError_CallBack
 aEncoder
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_NULL_POINTER

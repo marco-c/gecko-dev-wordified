@@ -514,7 +514,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -780,7 +780,7 @@ aContent
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 private

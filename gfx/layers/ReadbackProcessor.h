@@ -477,7 +477,7 @@ nsIntRegion
 *
 aUpdateRegion
 =
-nsnull
+nullptr
 )
 ;
 ~

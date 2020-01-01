@@ -161,7 +161,7 @@ nsIDNSService
 *
 sDNSService
 =
-nsnull
+nullptr
 ;
 nsresult
 nsDNSPrefetch
@@ -347,7 +347,7 @@ nsIDNSService
 :
 RESOLVE_SPECULATE
 this
-nsnull
+nullptr
 getter_AddRefs
 (
 tmpOutstanding

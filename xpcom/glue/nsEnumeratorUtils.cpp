@@ -693,7 +693,7 @@ if
 enumer
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1112,7 +1112,7 @@ secondEnumerator
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1157,7 +1157,7 @@ if
 enumer
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY

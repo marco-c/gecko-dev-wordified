@@ -188,7 +188,7 @@ aTime
 )
 mCachedArray
 (
-nsnull
+nullptr
 )
 mAllowAudioData
 (
@@ -257,7 +257,7 @@ tmp
 >
 mCachedArray
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
@@ -319,7 +319,7 @@ nsDOMNotifyAudioAvailableEvent
 ;
 mCachedArray
 =
-nsnull
+nullptr
 ;
 }
 }

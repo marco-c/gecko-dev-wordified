@@ -357,7 +357,7 @@ Root
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 bool

@@ -241,7 +241,7 @@ new
 buffer
 .
 Returns
-nsnull
+nullptr
 on
 failure
 .
@@ -383,7 +383,7 @@ PRInt32
 *
 aOutLen
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -406,7 +406,7 @@ new
 buffer
 .
 Returns
-nsnull
+nullptr
 on
 failure
 .
@@ -550,7 +550,7 @@ PRInt32
 *
 aOutLen
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -889,7 +889,7 @@ PRInt32
 *
 aOutLen
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -1094,7 +1094,7 @@ PRInt32
 *
 aOutLen
 =
-nsnull
+nullptr
 )
 ;
 }

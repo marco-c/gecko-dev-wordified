@@ -892,7 +892,7 @@ e
 it
 can
 be
-nsnull
+nullptr
 for
 /
 /
@@ -909,7 +909,7 @@ QueryPipeline
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /

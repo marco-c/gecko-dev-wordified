@@ -1044,7 +1044,7 @@ forget
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP_
@@ -1327,7 +1327,7 @@ nsGkAtoms
 :
 :
 simple
-nsnull
+nullptr
 }
 ;
 static
@@ -1355,7 +1355,7 @@ nsGkAtoms
 :
 :
 replace
-nsnull
+nullptr
 }
 ;
 static
@@ -1378,7 +1378,7 @@ nsGkAtoms
 :
 :
 onRequest
-nsnull
+nullptr
 }
 ;
 /
@@ -1533,7 +1533,7 @@ aURI
 *
 aURI
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -1590,7 +1590,7 @@ nsGkAtoms
 :
 :
 replace
-nsnull
+nullptr
 }
 ;
 switch

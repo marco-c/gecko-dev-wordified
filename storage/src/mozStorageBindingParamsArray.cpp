@@ -295,7 +295,7 @@ us
 .
 mOwningStatement
 =
-nsnull
+nullptr
 ;
 }
 const

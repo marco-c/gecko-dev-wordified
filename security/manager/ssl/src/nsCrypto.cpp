@@ -1652,7 +1652,7 @@ if
 keyAlg
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -1704,7 +1704,7 @@ if
 end
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -2390,7 +2390,7 @@ void
 *
 returnParams
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -2429,7 +2429,7 @@ if
 params
 )
 return
-nsnull
+nullptr
 ;
 PK11RSAGenParams
 *
@@ -2460,11 +2460,11 @@ if
 rsaParams
 =
 =
-nsnull
+nullptr
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2767,7 +2767,7 @@ char
 *
 curve
 =
-nsnull
+nullptr
 ;
 {
 /
@@ -2789,13 +2789,13 @@ char
 *
 name
 =
-nsnull
+nullptr
 ;
 char
 *
 value
 =
-nsnull
+nullptr
 ;
 int
 name_len
@@ -3103,19 +3103,19 @@ if
 params
 )
 return
-nsnull
+nullptr
 ;
 PQGParams
 *
 pqgParams
 =
-nsnull
+nullptr
 ;
 PQGVerify
 *
 vfy
 =
-nsnull
+nullptr
 ;
 SECStatus
 rv
@@ -3141,7 +3141,7 @@ index
 {
 returnParams
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -3188,7 +3188,7 @@ pqgParams
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 returnParams
@@ -3202,7 +3202,7 @@ default
 :
 returnParams
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -3268,7 +3268,7 @@ PK11SlotInfo
 *
 slot
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -3300,7 +3300,7 @@ slot
 ;
 slot
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -3845,7 +3845,7 @@ PK11SlotInfo
 *
 intSlot
 =
-nsnull
+nullptr
 ;
 PK11SlotInfoCleaner
 siCleaner
@@ -3918,7 +3918,7 @@ intSlot
 ;
 intSlot
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4828,7 +4828,7 @@ key
 pair
 .
 If
-nsnull
+nullptr
 then
 *
 this
@@ -5424,7 +5424,7 @@ if
 slot
 =
 =
-nsnull
+nullptr
 )
 {
 *
@@ -5445,7 +5445,7 @@ if
 slot
 =
 =
-nsnull
+nullptr
 )
 goto
 loser
@@ -6103,8 +6103,8 @@ derEncoded
 =
 SEC_ASN1EncodeItem
 (
-nsnull
-nsnull
+nullptr
+nullptr
 &
 src
 SEC_ASN1_GET
@@ -6256,8 +6256,8 @@ derEncoded
 =
 SEC_ASN1EncodeItem
 (
-nsnull
-nsnull
+nullptr
+nullptr
 &
 src
 SEC_ASN1_GET
@@ -6615,7 +6615,7 @@ SECItem
 *
 encodedExt
 =
-nsnull
+nullptr
 ;
 SECItem
 keyUsageValue
@@ -6625,7 +6625,7 @@ keyUsageValue
 SECItemType
 )
 0
-nsnull
+nullptr
 0
 }
 ;
@@ -6637,7 +6637,7 @@ bitsmap
 SECItemType
 )
 0
-nsnull
+nullptr
 0
 }
 ;
@@ -6648,7 +6648,7 @@ CRMFCertExtension
 *
 ext
 =
-nsnull
+nullptr
 ;
 CRMFCertExtCreationInfo
 extAddParams
@@ -6659,7 +6659,7 @@ bitStrTemplate
 {
 SEC_ASN1_BIT_STRING
 0
-nsnull
+nullptr
 sizeof
 (
 SECItem
@@ -6691,8 +6691,8 @@ encodedExt
 =
 SEC_ASN1EncodeItem
 (
-nsnull
-nsnull
+nullptr
+nullptr
 &
 bitsmap
 &
@@ -6704,7 +6704,7 @@ if
 encodedExt
 =
 =
-nsnull
+nullptr
 )
 {
 goto
@@ -6725,7 +6725,7 @@ if
 ext
 =
 =
-nsnull
+nullptr
 )
 {
 goto
@@ -7489,7 +7489,7 @@ if
 certReq
 )
 return
-nsnull
+nullptr
 ;
 long
 version
@@ -7503,7 +7503,7 @@ CERTSubjectPublicKeyInfo
 *
 spki
 =
-nsnull
+nullptr
 ;
 srv
 =
@@ -7693,7 +7693,7 @@ certReq
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -7930,7 +7930,7 @@ CRMF_CertReqMsgSetKeyEnciphermentPOP
 certReqMsg
 crmfSubsequentMessage
 crmfChallengeResp
-nsnull
+nullptr
 )
 ;
 }
@@ -8118,8 +8118,8 @@ der_request
 =
 SECITEM_AllocItem
 (
-nsnull
-nsnull
+nullptr
+nullptr
 der_request_len
 )
 ;
@@ -8741,8 +8741,8 @@ result_hmac_sha1_item
 =
 SECITEM_AllocItem
 (
-nsnull
-nsnull
+nullptr
+nullptr
 SHA1_LENGTH
 )
 ;
@@ -9167,9 +9167,9 @@ keyInfo
 -
 >
 pubKey
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -9318,7 +9318,7 @@ SECSuccess
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 SECItem
@@ -9342,11 +9342,11 @@ if
 dest
 =
 =
-nsnull
+nullptr
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 dest
@@ -9379,7 +9379,7 @@ dest
 data
 =
 =
-nsnull
+nullptr
 )
 {
 PORT_Free
@@ -9388,7 +9388,7 @@ dest
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 dest
@@ -9418,7 +9418,7 @@ true
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -9586,7 +9586,7 @@ if
 certReqMsgs
 )
 return
-nsnull
+nullptr
 ;
 memset
 (
@@ -9747,8 +9747,8 @@ retString
 =
 NSSBase64_EncodeItem
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 encodedReq
 )
@@ -9771,7 +9771,7 @@ numRequests
 )
 ;
 return
-nsnull
+nullptr
 ;
 ;
 }
@@ -9808,7 +9808,7 @@ cx
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -9851,7 +9851,7 @@ locker
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsresult
 nrv
@@ -9885,7 +9885,7 @@ nsAXPCNativeCallContext
 *
 ncc
 =
-nsnull
+nullptr
 ;
 nrv
 =
@@ -9928,7 +9928,7 @@ jsval
 *
 argv
 =
-nsnull
+nullptr
 ;
 nrv
 =
@@ -9972,7 +9972,7 @@ JSObject
 *
 script_obj
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -10484,7 +10484,7 @@ nsNSSCertificate
 *
 escrowCert
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -10509,7 +10509,7 @@ certDer
 =
 {
 siBuffer
-nsnull
+nullptr
 0
 }
 ;
@@ -10550,7 +10550,7 @@ CERT_GetDefaultCertDB
 )
 &
 certDer
-nsnull
+nullptr
 false
 true
 )
@@ -10707,7 +10707,7 @@ if
 keyids
 =
 =
-nsnull
+nullptr
 )
 {
 JS_ReportError
@@ -10748,7 +10748,7 @@ PK11SlotInfo
 *
 slot
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -10957,7 +10957,7 @@ if
 newObject
 =
 =
-nsnull
+nullptr
 )
 {
 JS_ReportError
@@ -11911,7 +11911,7 @@ NS_ASSERTION
 args
 "
 Passed
-nsnull
+nullptr
 to
 nsCryptoRunnable
 constructor
@@ -12151,9 +12151,9 @@ m_args
 >
 m_jsCallback
 )
-nsnull
+nullptr
 0
-nsnull
+nullptr
 )
 ;
 stack
@@ -12161,7 +12161,7 @@ stack
 >
 Pop
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -12405,17 +12405,17 @@ char
 *
 nickname
 =
-nsnull
+nullptr
 *
 cmmfResponse
 =
-nsnull
+nullptr
 ;
 CMMFCertRepContent
 *
 certRepContent
 =
-nsnull
+nullptr
 ;
 int
 numResponses
@@ -12427,7 +12427,7 @@ nsIX509Cert
 *
 certArr
 =
-nsnull
+nullptr
 ;
 int
 i
@@ -12470,7 +12470,7 @@ CERTCertList
 *
 caPubs
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -12519,7 +12519,7 @@ nickname
 ;
 nickname
 =
-nsnull
+nullptr
 ;
 }
 SECItem
@@ -12527,7 +12527,7 @@ cmmfDer
 =
 {
 siBuffer
-nsnull
+nullptr
 0
 }
 ;
@@ -12935,7 +12935,7 @@ if
 nickname
 =
 =
-nsnull
+nullptr
 |
 |
 nickname
@@ -13055,7 +13055,7 @@ if
 slot
 =
 =
-nsnull
+nullptr
 )
 {
 rv
@@ -13448,7 +13448,7 @@ out
 .
 certArr
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -13787,7 +13787,7 @@ nsAXPCNativeCallContext
 *
 ncc
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -14036,7 +14036,7 @@ jsval
 *
 argv
 =
-nsnull
+nullptr
 ;
 ncc
 -
@@ -14732,7 +14732,7 @@ CERTCertificate
 *
 signingCert
 =
-nsnull
+nullptr
 ;
 bool
 tryAgain
@@ -15374,11 +15374,11 @@ SEC_PKCS7CreateSignedData
 (
 signingCert
 certUsageEmailSigner
-nsnull
+nullptr
 SEC_OID_SHA1
 &
 digest
-nsnull
+nullptr
 uiContext
 )
 ;
@@ -15392,7 +15392,7 @@ srv
 SEC_PKCS7IncludeCertChain
 (
 ci
-nsnull
+nullptr
 )
 ;
 if
@@ -15426,8 +15426,8 @@ ci
 signTextOutputCallback
 &
 p7
-nsnull
-nsnull
+nullptr
+nullptr
 uiContext
 )
 ;
@@ -15502,8 +15502,8 @@ result
 =
 NSSBase64_EncodeItem
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 &
 binary_item
@@ -15859,10 +15859,10 @@ nsIPrompt
 :
 BUTTON_POS_1
 )
-nsnull
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
+nullptr
 &
 checkState
 &

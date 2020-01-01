@@ -353,7 +353,7 @@ AsGridPart
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 static

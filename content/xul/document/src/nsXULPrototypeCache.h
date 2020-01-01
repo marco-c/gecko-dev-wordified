@@ -294,7 +294,7 @@ aURI
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -452,7 +452,7 @@ the
 cache
 *
 returns
-nsnull
+nullptr
 .
 *
 /

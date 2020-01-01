@@ -512,7 +512,7 @@ if
 aDocument
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -2456,7 +2456,7 @@ IsActive
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -2496,7 +2496,7 @@ GetRootFrame
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -2539,7 +2539,7 @@ if
 rootElm
 )
 return
-nsnull
+nullptr
 ;
 bool
 isRootDoc
@@ -2556,7 +2556,7 @@ DocAccessible
 *
 parentDocAcc
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2631,7 +2631,7 @@ if
 parentDocAcc
 )
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2721,7 +2721,7 @@ Shutdown
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 docAcc
@@ -2783,7 +2783,7 @@ Shutdown
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3073,7 +3073,7 @@ DocAccessible
 *
 docAcc
 =
-nsnull
+nullptr
 ;
 while
 (

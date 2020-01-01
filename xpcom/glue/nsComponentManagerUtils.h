@@ -921,7 +921,7 @@ return
 CallCreateInstance
 (
 aClass
-nsnull
+nullptr
 NS_GET_TEMPLATE_IID
 (
 DestinationType
@@ -1040,7 +1040,7 @@ return
 CallCreateInstance
 (
 aContractID
-nsnull
+nullptr
 NS_GET_TEMPLATE_IID
 (
 DestinationType
@@ -1161,7 +1161,7 @@ aFactory
 >
 CreateInstance
 (
-nsnull
+nullptr
 NS_GET_TEMPLATE_IID
 (
 DestinationType

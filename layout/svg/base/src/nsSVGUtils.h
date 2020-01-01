@@ -1694,7 +1694,7 @@ nsGkAtoms
 svgOuterSVGFrame
 *
 returns
-nsnull
+nullptr
 .
 *
 /
@@ -1867,7 +1867,7 @@ nsRect
 *
 aBoundsSubArea
 =
-nsnull
+nullptr
 PRUint32
 aFlags
 =

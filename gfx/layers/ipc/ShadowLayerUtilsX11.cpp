@@ -535,7 +535,7 @@ if
 visual
 )
 return
-nsnull
+nullptr
 ;
 surf
 =
@@ -557,7 +557,7 @@ CairoStatus
 (
 )
 ?
-nsnull
+nullptr
 :
 surf
 .
@@ -817,7 +817,7 @@ type
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1182,7 +1182,7 @@ from
 -
 pixmap
 return
-nsnull
+nullptr
 ;
 }
 bool

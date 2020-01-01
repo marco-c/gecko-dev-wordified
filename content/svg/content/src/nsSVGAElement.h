@@ -351,7 +351,7 @@ PRInt32
 *
 aTabIndex
 =
-nsnull
+nullptr
 bool
 aWithMouse
 =
@@ -423,7 +423,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )

@@ -495,7 +495,7 @@ Shutdown
 {
 mSelectControl
 =
-nsnull
+nullptr
 ;
 AccessibleWrap
 :
@@ -640,7 +640,7 @@ selectedItems
 mDoc
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -839,7 +839,7 @@ nsIMutableArray
 *
 items
 =
-nsnull
+nullptr
 ;
 selectedItems
 .
@@ -942,7 +942,7 @@ GetAccessible
 itemNode
 )
 :
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -1240,7 +1240,7 @@ mSelectControl
 >
 SetSelectedItem
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -1505,7 +1505,7 @@ if
 mSelectControl
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1596,7 +1596,7 @@ DOMNode
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void

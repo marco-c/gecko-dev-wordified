@@ -159,7 +159,7 @@ nsPresState
 :
 mContentData
 (
-nsnull
+nullptr
 )
 mScrollState
 (
@@ -206,7 +206,7 @@ ClearNonScrollState
 {
 mContentData
 =
-nsnull
+nullptr
 ;
 mDisabledSet
 =

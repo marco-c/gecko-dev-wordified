@@ -599,7 +599,7 @@ in
 the
 taskbar
 .
-nsnull
+nullptr
 if
 no
 /

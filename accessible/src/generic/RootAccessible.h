@@ -457,7 +457,7 @@ RootAccessible
 this
 )
 :
-nsnull
+nullptr
 ;
 }
 #

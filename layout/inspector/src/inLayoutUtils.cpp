@@ -460,7 +460,7 @@ nsIDocument
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsIPresShell
@@ -480,7 +480,7 @@ if
 shell
 )
 return
-nsnull
+nullptr
 ;
 return
 shell
@@ -551,7 +551,7 @@ BindingManager
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIDOMDocument
@@ -624,7 +624,7 @@ domdoc
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIDOMNode
@@ -656,7 +656,7 @@ if
 doc
 )
 return
-nsnull
+nullptr
 ;
 nsPIDOMWindow
 *
@@ -675,7 +675,7 @@ if
 pwin
 )
 return
-nsnull
+nullptr
 ;
 return
 pwin

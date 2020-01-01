@@ -450,7 +450,7 @@ aFile
 *
 aFile
 =
-nsnull
+nullptr
 ;
 if
 (

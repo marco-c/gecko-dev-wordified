@@ -864,7 +864,7 @@ aURI
 PR_Now
 (
 )
-nsnull
+nullptr
 nsINavHistoryService
 :
 :

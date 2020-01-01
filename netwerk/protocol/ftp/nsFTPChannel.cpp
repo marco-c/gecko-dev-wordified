@@ -1116,7 +1116,7 @@ OnCallbacksChanged
 {
 mFTPEventSink
 =
-nsnull
+nullptr
 ;
 }
 /

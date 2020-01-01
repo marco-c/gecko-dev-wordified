@@ -246,7 +246,7 @@ SetNull
 {
 mImage
 =
-nsnull
+nullptr
 ;
 mIntrinsicSize
 =
@@ -547,7 +547,7 @@ TrackTicks
 *
 aStart
 =
-nsnull
+nullptr
 )
 {
 VideoChunk
@@ -567,7 +567,7 @@ c
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -587,7 +587,7 @@ TrackTicks
 *
 aStart
 =
-nsnull
+nullptr
 )
 {
 VideoChunk
@@ -605,7 +605,7 @@ c
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if

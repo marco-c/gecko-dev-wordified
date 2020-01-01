@@ -1044,7 +1044,7 @@ nsHttpHandler
 *
 gHttpHandler
 =
-nsnull
+nullptr
 ;
 nsHttpHandler
 :
@@ -1055,7 +1055,7 @@ nsHttpHandler
 :
 mConnMgr
 (
-nsnull
+nullptr
 )
 mHttpVersion
 (
@@ -1446,7 +1446,7 @@ DestroyAtomTable
 ;
 gHttpHandler
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -1645,7 +1645,7 @@ true
 PrefsChanged
 (
 prefBranch
-nsnull
+nullptr
 )
 ;
 }
@@ -2887,7 +2887,7 @@ HTTP_LWS
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -3226,7 +3226,7 @@ NotifyObservers
 (
 chan
 event
-nsnull
+nullptr
 )
 ;
 }
@@ -4870,7 +4870,7 @@ p
 pref
 =
 =
-nsnull
+nullptr
 )
 |
 |
@@ -4893,7 +4893,7 @@ p
 pref
 =
 =
-nsnull
+nullptr
 )
 |
 |
@@ -7995,7 +7995,7 @@ mIDNConverter
 )
 mIDNConverter
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -9365,7 +9365,7 @@ return
 NewProxiedChannel
 (
 uri
-nsnull
+nullptr
 result
 )
 ;
@@ -10924,7 +10924,7 @@ nsHttpConnectionInfo
 (
 host
 port
-nsnull
+nullptr
 usingSSL
 )
 ;
@@ -11140,7 +11140,7 @@ get
 )
 !
 =
-nsnull
+nullptr
 "
 no
 http

@@ -221,7 +221,7 @@ aFound
 false
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsresult

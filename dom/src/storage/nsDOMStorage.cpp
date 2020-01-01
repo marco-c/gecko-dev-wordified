@@ -1248,7 +1248,7 @@ aStr
 )
 mItem
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1269,7 +1269,7 @@ aToCopy
 )
 mItem
 (
-nsnull
+nullptr
 )
 {
 NS_ERROR
@@ -1664,7 +1664,7 @@ gStorageManager
 ;
 gStorageManager
 =
-nsnull
+nullptr
 ;
 ShutdownDB
 (
@@ -1693,7 +1693,7 @@ DOMStorageImpl
 :
 gStorageDB
 =
-nsnull
+nullptr
 ;
 }
 static
@@ -2127,7 +2127,7 @@ mStorages
 EnumerateEntries
 (
 ClearStorage
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -2396,9 +2396,9 @@ obsserv
 >
 NotifyObservers
 (
-nsnull
+nullptr
 NS_DOMSTORAGE_FLUSH_TIMER_TOPIC
-nsnull
+nullptr
 )
 ;
 }
@@ -2941,7 +2941,7 @@ aPrincipal
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -3088,7 +3088,7 @@ DOMStorageImpl
 :
 gStorageDB
 =
-nsnull
+nullptr
 ;
 nsDOMStorageEntry
 :
@@ -3109,7 +3109,7 @@ aStr
 )
 mStorage
 (
-nsnull
+nullptr
 )
 {
 }
@@ -3134,7 +3134,7 @@ aToCopy
 )
 mStorage
 (
-nsnull
+nullptr
 )
 {
 NS_ERROR
@@ -4043,7 +4043,7 @@ gStorageDB
 ;
 gStorageDB
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -4858,7 +4858,7 @@ mItems
 EnumerateEntries
 (
 ClearStorageItem
-nsnull
+nullptr
 )
 ;
 mItemsCachedVersion
@@ -5557,7 +5557,7 @@ aWantedIndex
 )
 mItem
 (
-nsnull
+nullptr
 )
 {
 }
@@ -5873,7 +5873,7 @@ nsIDOMStorageItem
 *
 item
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5971,7 +5971,7 @@ secure
 )
 )
 return
-nsnull
+nullptr
 ;
 *
 aResult
@@ -5981,7 +5981,7 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 nsRefPtr
@@ -6686,7 +6686,7 @@ Unknown
 )
 mEventBroadcaster
 (
-nsnull
+nullptr
 )
 {
 if
@@ -6740,7 +6740,7 @@ mPrincipal
 )
 mEventBroadcaster
 (
-nsnull
+nullptr
 )
 {
 if
@@ -7838,7 +7838,7 @@ aResult
 NS_ERROR_DOM_SECURITY_ERR
 ;
 return
-nsnull
+nullptr
 ;
 }
 *
@@ -8474,7 +8474,7 @@ cloning
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -8507,7 +8507,7 @@ forking
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -8600,7 +8600,7 @@ Principal
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -9118,7 +9118,7 @@ if
 storage
 )
 return
-nsnull
+nullptr
 ;
 storage
 -
@@ -9418,7 +9418,7 @@ storage2
 -
 changed
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -9702,7 +9702,7 @@ tmp
 >
 mStorage
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END

@@ -866,8 +866,8 @@ event
 new
 nsDOMEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsresult

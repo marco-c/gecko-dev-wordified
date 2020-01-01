@@ -284,7 +284,7 @@ char
 *
 type
 =
-nsnull
+nullptr
 )
 :
 mType
@@ -310,7 +310,7 @@ PR_UINT32_MAX
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 }

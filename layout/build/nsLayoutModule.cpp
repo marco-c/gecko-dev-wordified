@@ -2559,7 +2559,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 \
 if
@@ -2680,7 +2680,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 \
 if
@@ -3223,7 +3223,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3318,7 +3318,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3416,7 +3416,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3591,7 +3591,7 @@ NS_ERROR_NULL_POINTER
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (

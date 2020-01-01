@@ -150,7 +150,7 @@ nsCompositionEvent
 (
 false
 0
-nsnull
+nullptr
 )
 )
 {
@@ -290,7 +290,7 @@ mEvent
 ;
 mEvent
 =
-nsnull
+nullptr
 ;
 }
 }

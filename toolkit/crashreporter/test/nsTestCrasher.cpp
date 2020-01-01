@@ -345,7 +345,7 @@ nsISupports
 *
 lockfile
 =
-nsnull
+nullptr
 ;
 XRE_LockProfileDirectory
 (

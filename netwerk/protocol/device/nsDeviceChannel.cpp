@@ -492,12 +492,12 @@ URI
 *
 aStream
 =
-nsnull
+nullptr
 ;
 *
 aChannel
 =
-nsnull
+nullptr
 ;
 NS_NAMED_LITERAL_CSTRING
 (

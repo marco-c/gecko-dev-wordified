@@ -392,7 +392,7 @@ aLocale
 *
 dateTimeString
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

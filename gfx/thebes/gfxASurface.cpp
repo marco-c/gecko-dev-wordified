@@ -1412,7 +1412,7 @@ mSurfaceValid
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 cairo_surface_t
@@ -1448,7 +1448,7 @@ surface
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -2263,7 +2263,7 @@ height
 CreateSimilarSurface
 can
 return
-nsnull
+nullptr
 if
 the
 current
@@ -2494,7 +2494,7 @@ surface
 -
 image
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2504,7 +2504,7 @@ surface
 -
 pdf
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2514,7 +2514,7 @@ surface
 -
 ps
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2589,7 +2589,7 @@ surface
 -
 xcb
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2602,7 +2602,7 @@ glitz
 ?
 ?
 "
-nsnull
+nullptr
 }
 /
 /
@@ -2618,7 +2618,7 @@ surface
 -
 quartz
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2628,7 +2628,7 @@ surface
 -
 win32
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2638,7 +2638,7 @@ surface
 -
 beos
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2651,7 +2651,7 @@ directfb
 ?
 ?
 "
-nsnull
+nullptr
 }
 /
 /
@@ -2667,7 +2667,7 @@ surface
 -
 svg
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2677,7 +2677,7 @@ surface
 -
 os2
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2687,7 +2687,7 @@ surface
 -
 win32printing
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2697,7 +2697,7 @@ surface
 -
 quartzimage
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2707,7 +2707,7 @@ surface
 -
 script
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2717,7 +2717,7 @@ surface
 -
 qpainter
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2727,7 +2727,7 @@ surface
 -
 recording
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2737,7 +2737,7 @@ surface
 -
 vg
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2747,7 +2747,7 @@ surface
 -
 gl
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2757,7 +2757,7 @@ surface
 -
 drm
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2767,7 +2767,7 @@ surface
 -
 tee
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2777,7 +2777,7 @@ surface
 -
 xml
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2787,7 +2787,7 @@ surface
 -
 skia
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2797,7 +2797,7 @@ surface
 -
 subsurface
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2807,7 +2807,7 @@ surface
 -
 d2d
 "
-nsnull
+nullptr
 }
 }
 ;
@@ -3333,7 +3333,7 @@ CopyAsDataURL
 {
 WriteAsPNG_internal
 (
-nsnull
+nullptr
 false
 )
 ;
@@ -4065,7 +4065,7 @@ PL_Base64Encode
 (
 imgData
 imgSize
-nsnull
+nullptr
 )
 ;
 PR_Free
@@ -4261,7 +4261,7 @@ NS_ConvertASCIItoUTF16
 (
 string
 )
-nsnull
+nullptr
 )
 ;
 }

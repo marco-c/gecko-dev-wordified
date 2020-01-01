@@ -124,7 +124,7 @@ hDCScreen
 :
 GetDC
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION
@@ -160,7 +160,7 @@ screen
 :
 ReleaseDC
 (
-nsnull
+nullptr
 hDCScreen
 )
 ;
@@ -340,7 +340,7 @@ hDCScreen
 :
 GetDC
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION
@@ -386,7 +386,7 @@ VERTRES
 :
 ReleaseDC
 (
-nsnull
+nullptr
 hDCScreen
 )
 ;
@@ -608,7 +608,7 @@ hDCScreen
 :
 GetDC
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION
@@ -699,7 +699,7 @@ depth
 :
 ReleaseDC
 (
-nsnull
+nullptr
 hDCScreen
 )
 ;

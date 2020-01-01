@@ -715,7 +715,7 @@ aASCIIOrigin
 :
 mFactory
 (
-nsnull
+nullptr
 )
 mASCIIOrigin
 (

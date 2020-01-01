@@ -757,7 +757,7 @@ Mutex
 *
 sPluginThreadAsyncCallLock
 =
-nsnull
+nullptr
 ;
 static
 PRCList
@@ -930,7 +930,7 @@ notifyUIService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 experimental
 -
@@ -1048,7 +1048,7 @@ NP_VERSION_MINOR
 ;
 mLibrary
 =
-nsnull
+nullptr
 ;
 }
 nsNPAPIPlugin
@@ -1064,7 +1064,7 @@ mLibrary
 ;
 mLibrary
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -2314,7 +2314,7 @@ aPluginTag
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -2400,7 +2400,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3024,7 +3024,7 @@ void
 *
 notifyData
 =
-nsnull
+nullptr
 uint32_t
 len
 =
@@ -3034,7 +3034,7 @@ char
 *
 buf
 =
-nsnull
+nullptr
 NPBool
 file
 =
@@ -3418,7 +3418,7 @@ Invalidate
 {
 mFunc
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -3431,7 +3431,7 @@ return
 mFunc
 !
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -3461,7 +3461,7 @@ npp
 NS_ENSURE_TRUE
 (
 npp
-nsnull
+nullptr
 )
 ;
 nsNPAPIPluginInstance
@@ -3480,7 +3480,7 @@ ndata
 NS_ENSURE_TRUE
 (
 inst
-nsnull
+nullptr
 )
 ;
 PluginDestructionGuard
@@ -3509,7 +3509,7 @@ owner
 NS_ENSURE_TRUE
 (
 owner
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -3557,7 +3557,7 @@ GetScriptGlobalObject
 NS_ENSURE_TRUE
 (
 sgo
-nsnull
+nullptr
 )
 ;
 nsIScriptContext
@@ -3574,7 +3574,7 @@ GetContext
 NS_ENSURE_TRUE
 (
 scx
-nsnull
+nullptr
 )
 ;
 return
@@ -3607,7 +3607,7 @@ npp
 NS_ENSURE_TRUE
 (
 doc
-nsnull
+nullptr
 )
 ;
 return
@@ -3769,7 +3769,7 @@ gNPPException
 {
 gNPPException
 =
-nsnull
+nullptr
 ;
 }
 NPPExceptionAutoHolder
@@ -3850,7 +3850,7 @@ then
 .
 mFunc
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -3909,7 +3909,7 @@ call
 .
 mFunc
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -3980,7 +3980,7 @@ mFunc
 (
 mUserData
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -4117,7 +4117,7 @@ sPluginThreadAsyncCallLock
 ;
 sPluginThreadAsyncCallLock
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4170,7 +4170,7 @@ NPPStack
 :
 sCurrentNPP
 =
-nsnull
+nullptr
 ;
 const
 char
@@ -4214,7 +4214,7 @@ gNPPException
 ;
 gNPPException
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4432,7 +4432,7 @@ char
 *
 name
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -4856,7 +4856,7 @@ relativeURL
 target
 eNPPStreamTypeInternal_Post
 false
-nsnull
+nullptr
 len
 buf
 file
@@ -5020,7 +5020,7 @@ new
 nsNPAPIStreamWrapper
 (
 stream
-nsnull
+nullptr
 )
 ;
 if
@@ -5476,7 +5476,7 @@ listener
 >
 OnStopBinding
 (
-nsnull
+nullptr
 NS_BINDING_ABORTED
 )
 ;
@@ -6328,7 +6328,7 @@ n
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 JSContext
@@ -6343,7 +6343,7 @@ npp
 NS_ENSURE_TRUE
 (
 cx
-nsnull
+nullptr
 )
 ;
 /
@@ -6447,7 +6447,7 @@ n
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsNPAPIPluginInstance
@@ -6472,7 +6472,7 @@ if
 inst
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -6497,7 +6497,7 @@ if
 element
 )
 return
-nsnull
+nullptr
 ;
 JSContext
 *
@@ -6511,7 +6511,7 @@ npp
 NS_ENSURE_TRUE
 (
 cx
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -6534,7 +6534,7 @@ GetCID
 NS_ENSURE_TRUE
 (
 xpc
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -6569,14 +6569,14 @@ holder
 NS_ENSURE_TRUE
 (
 holder
-nsnull
+nullptr
 )
 ;
 JSObject
 *
 obj
 =
-nsnull
+nullptr
 ;
 holder
 -
@@ -6590,7 +6590,7 @@ obj
 NS_ENSURE_TRUE
 (
 obj
-nsnull
+nullptr
 )
 ;
 return
@@ -6988,7 +6988,7 @@ id
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 JSString
@@ -7154,7 +7154,7 @@ n
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -7178,7 +7178,7 @@ _createobject
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 PluginDestructionGuard
@@ -7208,7 +7208,7 @@ _createobject
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NPPAutoPusher
@@ -8297,7 +8297,7 @@ else
 {
 spec
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -8352,7 +8352,7 @@ spec
 0
 0
 rval
-nsnull
+nullptr
 )
 ;
 return
@@ -8773,7 +8773,7 @@ NPObject
 *
 document_obj
 =
-nsnull
+nullptr
 ;
 NPIdentifier
 doc_id
@@ -12564,7 +12564,7 @@ nsISupports
 )
 result
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -12830,7 +12830,7 @@ bWindowless
 result
 =
 =
-nsnull
+nullptr
 )
 ;
 return
@@ -12856,7 +12856,7 @@ bTransparent
 result
 !
 =
-nsnull
+nullptr
 )
 ;
 return
@@ -12916,7 +12916,7 @@ bPushCaller
 result
 !
 =
-nsnull
+nullptr
 )
 ;
 if
@@ -12966,7 +12966,7 @@ contextStack
 >
 Pop
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -12993,7 +12993,7 @@ bCached
 result
 !
 =
-nsnull
+nullptr
 )
 ;
 return
@@ -13017,7 +13017,7 @@ useDOMForCursor
 result
 !
 =
-nsnull
+nullptr
 )
 ;
 return
@@ -13238,7 +13238,7 @@ rangeList
 range
 !
 =
-nsnull
+nullptr
 ;
 range
 =
@@ -13500,7 +13500,7 @@ n
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NPN_PLUGIN_LOG
@@ -13561,7 +13561,7 @@ pluginHost
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 const
@@ -13589,7 +13589,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 retstr
@@ -14141,7 +14141,7 @@ cookieService
 GetCookieString
 (
 uri
-nsnull
+nullptr
 value
 )
 )
@@ -14333,8 +14333,8 @@ nsDependentCString
 (
 url
 )
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 uriIn
@@ -14362,7 +14362,7 @@ nsPluginHost
 :
 GetPrompt
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 prompt
@@ -14407,7 +14407,7 @@ SetCookieString
 uriIn
 prompt
 cookie
-nsnull
+nullptr
 )
 ;
 cookie
@@ -14550,12 +14550,12 @@ NPERR_INVALID_PARAM
 *
 username
 =
-nsnull
+nullptr
 ;
 *
 password
 =
-nsnull
+nullptr
 ;
 *
 ulen

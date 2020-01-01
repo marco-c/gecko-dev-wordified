@@ -657,7 +657,7 @@ MaybeMagicGrallocBufferHandle
 MOZ_OVERRIDE
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -723,7 +723,7 @@ creates
 one
 and
 returns
-nsnull
+nullptr
 since
 there
 was
@@ -782,7 +782,7 @@ table
 for
 aID
 or
-nsnull
+nullptr
 if
 there
 *

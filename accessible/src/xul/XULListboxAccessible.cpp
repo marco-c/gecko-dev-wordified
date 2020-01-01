@@ -1112,7 +1112,7 @@ Shutdown
 {
 mTable
 =
-nsnull
+nullptr
 ;
 XULSelectControlAccessible
 :
@@ -1594,7 +1594,7 @@ nsIContent
 *
 headContent
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -1784,7 +1784,7 @@ mContent
 NS_ENSURE_TRUE
 (
 control
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -1811,7 +1811,7 @@ if
 item
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1831,7 +1831,7 @@ if
 itemContent
 )
 return
-nsnull
+nullptr
 ;
 Accessible
 *
@@ -1848,7 +1848,7 @@ itemContent
 NS_ENSURE_TRUE
 (
 row
-nsnull
+nullptr
 )
 ;
 return
@@ -3471,14 +3471,14 @@ ContainerWidget
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 }
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3704,7 +3704,7 @@ IsDefunct
 )
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3723,7 +3723,7 @@ if
 listItem
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3760,7 +3760,7 @@ if
 listContent
 )
 return
-nsnull
+nullptr
 ;
 return
 mDoc
@@ -4879,7 +4879,7 @@ aTable
 *
 aTable
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5344,7 +5344,7 @@ aHeaderCells
 *
 aHeaderCells
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5400,7 +5400,7 @@ Accessible
 *
 list
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -5609,7 +5609,7 @@ aHeaderCells
 *
 aHeaderCells
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5857,7 +5857,7 @@ Shutdown
 {
 mTableCell
 =
-nsnull
+nullptr
 ;
 HyperTextAccessibleWrap
 :

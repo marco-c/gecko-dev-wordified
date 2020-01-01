@@ -226,7 +226,7 @@ name
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -475,7 +475,7 @@ code
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_IMPL_ADDREF

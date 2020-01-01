@@ -233,7 +233,7 @@ b
 :
 mHead
 (
-nsnull
+nullptr
 )
 mFragA
 (
@@ -264,7 +264,7 @@ head
 )
 mFragA
 (
-nsnull
+nullptr
 )
 /
 /
@@ -276,7 +276,7 @@ when
 head
 !
 =
-nsnull
+nullptr
 mFragB
 (
 b

@@ -135,7 +135,7 @@ nsAndroidHistory
 NS_ENSURE_TRUE
 (
 sHistory
-nsnull
+nullptr
 )
 ;
 }

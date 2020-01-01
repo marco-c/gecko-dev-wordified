@@ -217,7 +217,7 @@ IDXGIKeyedMutex
 *
 aMutex
 =
-nsnull
+nullptr
 )
 ;
 }

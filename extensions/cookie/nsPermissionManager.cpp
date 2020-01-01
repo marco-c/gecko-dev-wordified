@@ -252,7 +252,7 @@ nsPermissionManager
 *
 gPermissionManager
 =
-nsnull
+nullptr
 ;
 using
 mozilla
@@ -316,7 +316,7 @@ the
 child
 *
 process
-nsnull
+nullptr
 .
 *
 /
@@ -366,7 +366,7 @@ cpc
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -520,7 +520,7 @@ PLArenaPool
 *
 gHostArena
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1354,7 +1354,7 @@ RemoveAllFromMemory
 ;
 gPermissionManager
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -4130,15 +4130,15 @@ them
 .
 mStmtInsert
 =
-nsnull
+nullptr
 ;
 mStmtDelete
 =
-nsnull
+nullptr
 ;
 mStmtUpdate
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4183,7 +4183,7 @@ rv
 ;
 mDBConn
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -4249,7 +4249,7 @@ aNotifyObservers
 {
 NotifyObservers
 (
-nsnull
+nullptr
 NS_LITERAL_STRING
 (
 "
@@ -5032,7 +5032,7 @@ on
 failure
 entry
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -5709,7 +5709,7 @@ gHostArena
 }
 gHostArena
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

@@ -814,7 +814,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -925,7 +925,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1021,7 +1021,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1133,7 +1133,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1325,7 +1325,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1538,7 +1538,7 @@ here
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1848,7 +1848,7 @@ node
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

@@ -516,7 +516,7 @@ GetRotate
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -679,7 +679,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -747,7 +747,7 @@ if
 property
 )
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -760,7 +760,7 @@ nsGkAtoms
 :
 :
 svgPathGeometryFrame
-nsnull
+nullptr
 )
 ;
 }
@@ -825,7 +825,7 @@ gfxMatrix
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 gfxFloat

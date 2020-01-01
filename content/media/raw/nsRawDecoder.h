@@ -100,7 +100,7 @@ IsRawEnabled
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

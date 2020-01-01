@@ -1312,7 +1312,7 @@ _exn
 }
 \
 return
-nsnull
+nullptr
 ;
 #
 define

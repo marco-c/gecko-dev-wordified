@@ -244,7 +244,7 @@ if
 elm
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -282,7 +282,7 @@ if
 window
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

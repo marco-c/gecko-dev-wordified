@@ -593,7 +593,7 @@ node
 )
 attributes
 (
-nsnull
+nullptr
 )
 refcount
 (
@@ -716,7 +716,7 @@ node
 )
 attributes
 (
-nsnull
+nullptr
 )
 refcount
 (
@@ -779,7 +779,7 @@ node
 )
 attributes
 (
-nsnull
+nullptr
 )
 refcount
 (
@@ -845,7 +845,7 @@ node
 )
 attributes
 (
-nsnull
+nullptr
 )
 refcount
 (
@@ -994,7 +994,7 @@ dropAttributes
 {
 attributes
 =
-nsnull
+nullptr
 ;
 }
 void

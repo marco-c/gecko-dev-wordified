@@ -338,7 +338,7 @@ matchNodeString
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-nsnull
+nullptr
 }
 ;
 static
@@ -354,7 +354,7 @@ matchNodeUnicode
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-nsnull
+nullptr
 }
 ;
 static
@@ -447,7 +447,7 @@ PL_DHashTableInit
 gEntityToUnicode
 &
 EntityToUnicodeOps
-nsnull
+nullptr
 sizeof
 (
 EntityNodeEntry
@@ -467,7 +467,7 @@ gEntityToUnicode
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -482,7 +482,7 @@ PL_DHashTableInit
 gUnicodeToEntity
 &
 UnicodeToEntityOps
-nsnull
+nullptr
 sizeof
 (
 EntityNodeEntry
@@ -512,7 +512,7 @@ gUnicodeToEntity
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -742,7 +742,7 @@ gEntityToUnicode
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -762,7 +762,7 @@ gUnicodeToEntity
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1044,7 +1044,7 @@ entry
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 entry

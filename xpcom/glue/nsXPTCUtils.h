@@ -112,7 +112,7 @@ nsAutoXPTCStub
 :
 mXPTCStub
 (
-nsnull
+nullptr
 )
 {
 }

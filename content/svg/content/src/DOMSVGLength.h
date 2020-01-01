@@ -774,7 +774,7 @@ mItems
 mListIndex
 ]
 =
-nsnull
+nullptr
 ;
 }
 }

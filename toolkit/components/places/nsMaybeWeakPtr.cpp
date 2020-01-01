@@ -193,7 +193,7 @@ ref
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult

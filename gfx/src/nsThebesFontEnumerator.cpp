@@ -160,8 +160,8 @@ aResult
 return
 EnumerateFonts
 (
-nsnull
-nsnull
+nullptr
+nullptr
 aCount
 aResult
 )
@@ -297,7 +297,7 @@ aCount
 *
 aResult
 =
-nsnull
+nullptr
 ;
 /
 *
@@ -460,7 +460,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -549,7 +549,7 @@ IsEmpty
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -596,7 +596,7 @@ IsEmpty
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

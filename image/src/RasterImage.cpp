@@ -826,7 +826,7 @@ MOZ_DISABLE_IMAGE_DISCARD
 )
 =
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -994,7 +994,7 @@ DECODE_FLAGS_DEFAULT
 )
 mAnim
 (
-nsnull
+nullptr
 )
 mLoopCount
 (
@@ -1003,7 +1003,7 @@ mLoopCount
 )
 mObserver
 (
-nsnull
+nullptr
 )
 mLockCount
 (
@@ -1011,7 +1011,7 @@ mLockCount
 )
 mDecoder
 (
-nsnull
+nullptr
 )
 mDecodeRequest
 (
@@ -1789,7 +1789,7 @@ imgFrame
 *
 nextFrame
 =
-nsnull
+nullptr
 ;
 PRUint32
 currentFrameIndex
@@ -1816,7 +1816,7 @@ timeout
 ;
 mImageContainer
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2110,7 +2110,7 @@ mAnim
 >
 compositingFrame
 =
-nsnull
+nullptr
 ;
 }
 nextFrameIndex
@@ -2809,7 +2809,7 @@ observer
 >
 FrameChanged
 (
-nsnull
+nullptr
 this
 &
 dirtyRect
@@ -3064,7 +3064,7 @@ img
 >
 Init
 (
-nsnull
+nullptr
 "
 "
 "
@@ -3314,7 +3314,7 @@ frame
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -3994,7 +3994,7 @@ mFrames
 SafeElementAt
 (
 0
-nsnull
+nullptr
 )
 ;
 }
@@ -4023,7 +4023,7 @@ mFrames
 SafeElementAt
 (
 framenum
-nsnull
+nullptr
 )
 ;
 }
@@ -4051,7 +4051,7 @@ NS_SUCCEEDED
 (
 rv
 )
-nsnull
+nullptr
 )
 ;
 return
@@ -4126,7 +4126,7 @@ GetCompositingFailed
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 frame
@@ -5298,7 +5298,7 @@ frame
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -5866,7 +5866,7 @@ frame
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -6417,7 +6417,7 @@ aFrames
 SafeElementAt
 (
 i
-nsnull
+nullptr
 )
 ;
 NS_ABORT_IF_FALSE
@@ -6553,7 +6553,7 @@ mFrames
 framenum
 ]
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -7805,14 +7805,14 @@ aPaletteData
 =
 *
 /
-nsnull
+nullptr
 /
 *
 aPaletteLength
 =
 *
 /
-nsnull
+nullptr
 )
 ;
 }
@@ -9047,7 +9047,7 @@ currentAnimationFrameIndex
 ;
 mImageContainer
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -9105,7 +9105,7 @@ observer
 >
 FrameChanged
 (
-nsnull
+nullptr
 this
 &
 (
@@ -9486,7 +9486,7 @@ mAnim
 ;
 mAnim
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -11503,7 +11503,7 @@ mAnim
 >
 compositingFrame
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -11966,7 +11966,7 @@ mAnim
 >
 compositingPrevFrame
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -12344,7 +12344,7 @@ mAnim
 >
 compositingPrevFrame
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -14433,7 +14433,7 @@ count
 *
 keys
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -14654,7 +14654,7 @@ observer
 >
 OnDiscard
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -15595,7 +15595,7 @@ mDecoder
 ;
 mDecoder
 =
-nsnull
+nullptr
 ;
 mInDecoder
 =
@@ -17979,7 +17979,7 @@ GetRootLayoutFrame
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /

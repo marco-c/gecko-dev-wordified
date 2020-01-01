@@ -1275,7 +1275,7 @@ aConnection
 )
 mTransactionManager
 (
-nsnull
+nullptr
 )
 mCallback
 (
@@ -1501,7 +1501,7 @@ sqlite3_stmt
 *
 aStatement
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2729,7 +2729,7 @@ mTransactionManager
 ;
 mTransactionManager
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -2807,7 +2807,7 @@ ownership
 .
 mCallback
 =
-nsnull
+nullptr
 ;
 (
 void
@@ -3016,7 +3016,7 @@ rv
 )
 mResultSet
 =
-nsnull
+nullptr
 ;
 /
 /

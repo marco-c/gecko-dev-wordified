@@ -1752,7 +1752,7 @@ content
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -2197,7 +2197,7 @@ NS_ENSURE_TRUE
 IsEditableInternal
 (
 )
-nsnull
+nullptr
 )
 ;
 nsIDocument
@@ -2211,7 +2211,7 @@ GetCurrentDoc
 NS_ENSURE_TRUE
 (
 doc
-nsnull
+nullptr
 )
 ;
 /
@@ -3442,7 +3442,7 @@ node
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3483,7 +3483,7 @@ aIndex
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -3707,7 +3707,7 @@ child
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -3770,7 +3770,7 @@ child
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -3797,7 +3797,7 @@ parent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -3868,7 +3868,7 @@ index
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -3915,7 +3915,7 @@ child
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -3942,7 +3942,7 @@ parent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -4013,7 +4013,7 @@ index
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -4073,7 +4073,7 @@ child
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -4151,7 +4151,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -4188,7 +4188,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -4225,7 +4225,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -4262,7 +4262,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -4401,7 +4401,7 @@ aResult
 NS_OK
 ;
 return
-nsnull
+nullptr
 ;
 }
 slots
@@ -4444,7 +4444,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -4585,7 +4585,7 @@ nsIPresShell
 :
 SetCapturingContent
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -4623,7 +4623,7 @@ GetStyleFrame
 frame
 )
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -4644,7 +4644,7 @@ aOffsetParent
 *
 aOffsetParent
 =
-nsnull
+nullptr
 ;
 aRect
 =
@@ -4959,11 +4959,11 @@ aStyledFrame
 *
 aStyledFrame
 =
-nsnull
+nullptr
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -4992,7 +4992,7 @@ frame
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -5181,7 +5181,7 @@ GetRootScrollFrameAsScrollable
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -6101,7 +6101,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -6350,7 +6350,7 @@ GetSlots
 >
 mWeakReference
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -6942,11 +6942,11 @@ nsSlots
 )
 mDataset
 (
-nsnull
+nullptr
 )
 mBindingParent
 (
-nsnull
+nullptr
 )
 {
 }
@@ -7155,11 +7155,11 @@ aIsXUL
 {
 mStyle
 =
-nsnull
+nullptr
 ;
 mSMILOverrideStyle
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7175,7 +7175,7 @@ DropReference
 ;
 mAttributeMap
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -7189,7 +7189,7 @@ mControllers
 ;
 mChildrenList
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7205,7 +7205,7 @@ DropReference
 ;
 mClassList
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -8104,7 +8104,7 @@ IsElement
 *
 aAttributes
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -8565,7 +8565,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsIDocument
 *
@@ -8687,7 +8687,7 @@ aAttribute
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 OwnerDoc
 (
@@ -8797,7 +8797,7 @@ aAttribute
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 OwnerDoc
 (
@@ -9269,7 +9269,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 OwnerDoc
 (
@@ -9409,7 +9409,7 @@ aNewAttr
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 OwnerDoc
 (
@@ -9634,7 +9634,7 @@ aReturn
 name
 !
 =
-nsnull
+nullptr
 )
 ;
 return
@@ -9787,7 +9787,7 @@ GetBaseBinding
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -10651,7 +10651,7 @@ BindingManager
 ChangeDocumentFor
 (
 this
-nsnull
+nullptr
 /
 /
 aDocument
@@ -11640,7 +11640,7 @@ else
 {
 mParent
 =
-nsnull
+nullptr
 ;
 }
 SetParentIsContent
@@ -11891,7 +11891,7 @@ xulElem
 >
 SetXULBindingParent
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -11917,7 +11917,7 @@ slots
 >
 mBindingParent
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -12100,7 +12100,7 @@ list
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -12207,7 +12207,7 @@ nsINodeList
 *
 childList
 =
-nsnull
+nullptr
 ;
 nsIDocument
 *
@@ -12415,7 +12415,7 @@ nsINodeList
 *
 returnList
 =
-nsnull
+nullptr
 ;
 list
 .
@@ -13108,7 +13108,7 @@ aVisitor
 .
 mParentTarget
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -13431,7 +13431,7 @@ called
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -13533,7 +13533,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -13699,7 +13699,7 @@ GetInlineStyleRule
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -13789,7 +13789,7 @@ GetClassAttributeName
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -13906,7 +13906,7 @@ name
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsINodeInfo
@@ -13941,7 +13941,7 @@ name
 Atom
 (
 )
-nsnull
+nullptr
 kNameSpaceID_None
 nsIDOMNode
 :
@@ -13989,7 +13989,7 @@ const
 *
 aURI
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -14179,7 +14179,7 @@ mBindingParent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -14447,7 +14447,7 @@ shell
 HandleEventWithTarget
 (
 aEvent
-nsnull
+nullptr
 aTarget
 aStatus
 )
@@ -14724,7 +14724,7 @@ doc
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -15424,7 +15424,7 @@ container
 >
 mFirstChild
 =
-nsnull
+nullptr
 ;
 }
 UnbindSubtree
@@ -15534,7 +15534,7 @@ sContentUnbinder
 {
 sContentUnbinder
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -15567,7 +15567,7 @@ mLast
 ;
 mLast
 =
-nsnull
+nullptr
 ;
 NS_DispatchToMainThread
 (
@@ -15596,7 +15596,7 @@ sContentUnbinder
 ;
 sContentUnbinder
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -15750,7 +15750,7 @@ ContentUnbinder
 :
 sContentUnbinder
 =
-nsnull
+nullptr
 ;
 void
 nsGenericElement
@@ -16043,7 +16043,7 @@ tmp
 >
 mFirstChild
 =
-nsnull
+nullptr
 ;
 }
 child
@@ -16450,7 +16450,7 @@ UnoptimizableCCNode
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 aNode
@@ -16469,7 +16469,7 @@ UnoptimizableCCNode
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -16485,7 +16485,7 @@ nsINode
 *
 gCCBlackMarkedNodes
 =
-nsnull
+nullptr
 ;
 void
 ClearBlackMarkedNodes
@@ -16561,7 +16561,7 @@ gCCBlackMarkedNodes
 ;
 gCCBlackMarkedNodes
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -16848,7 +16848,7 @@ currentDoc
 {
 currentDoc
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17302,7 +17302,7 @@ nsINode
 *
 gPurpleRoots
 =
-nsnull
+nullptr
 ;
 nsAutoTArray
 <
@@ -17313,7 +17313,7 @@ nsIContent
 *
 gNodesToUnbind
 =
-nsnull
+nullptr
 ;
 void
 ClearCycleCollectorCleanupData
@@ -17377,7 +17377,7 @@ gPurpleRoots
 ;
 gPurpleRoots
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -17445,7 +17445,7 @@ gNodesToUnbind
 ;
 gNodesToUnbind
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -17979,7 +17979,7 @@ currentDoc
 {
 currentDoc
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -21604,7 +21604,7 @@ const
 {
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aName
@@ -21673,8 +21673,8 @@ index
 return
 nsAttrInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -21697,7 +21697,7 @@ const
 {
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aName
@@ -21819,7 +21819,7 @@ const
 {
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aName
@@ -22146,7 +22146,7 @@ aNotify
 {
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aName
@@ -22187,7 +22187,7 @@ BeforeSetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aNotify
 )
 ;
@@ -22476,7 +22476,7 @@ AfterSetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aNotify
 )
 ;
@@ -22636,7 +22636,7 @@ GetText
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -23556,7 +23556,7 @@ NS_ASSERTION
 contentList
 !
 =
-nsnull
+nullptr
 "
 oops
 binding
@@ -25371,7 +25371,7 @@ cur
 >
 mNext
 =
-nsnull
+nullptr
 ;
 delete
 cur
@@ -26041,7 +26041,7 @@ ElementHolder
 :
 mElement
 (
-nsnull
+nullptr
 )
 {
 }
@@ -26735,7 +26735,7 @@ IsPartOfApp
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -26781,7 +26781,7 @@ FullScreenDeniedBlocked
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult

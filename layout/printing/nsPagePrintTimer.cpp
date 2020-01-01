@@ -135,7 +135,7 @@ nsPagePrintTimer
 :
 mPrintEngine
 (
-nsnull
+nullptr
 )
 mDelay
 (
@@ -147,7 +147,7 @@ mFiringCount
 )
 mPrintObj
 (
-nsnull
+nullptr
 )
 {
 }
@@ -637,7 +637,7 @@ Cancel
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -675,7 +675,7 @@ result
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY

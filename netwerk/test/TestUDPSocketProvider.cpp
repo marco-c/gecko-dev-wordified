@@ -360,7 +360,7 @@ PRFileDesc
 *
 serverFD
 =
-nsnull
+nullptr
 ;
 do
 {
@@ -408,8 +408,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsCOMPtr
@@ -441,7 +441,7 @@ registrar
 >
 AutoRegister
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -670,7 +670,7 @@ localhost
 "
 )
 UDP_PORT
-nsnull
+nullptr
 getter_AddRefs
 (
 transport
@@ -1101,7 +1101,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION

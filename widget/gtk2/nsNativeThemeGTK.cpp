@@ -511,7 +511,7 @@ GetContent
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -995,7 +995,7 @@ nsIAtom
 *
 atom
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5080,8 +5080,8 @@ GetGtkWidgetAndState
 aWidgetType
 aFrame
 gtkWidgetType
-nsnull
-nsnull
+nullptr
+nullptr
 )
 )
 {
@@ -5285,8 +5285,8 @@ GetGtkWidgetAndState
 aWidgetType
 aFrame
 gtkWidgetType
-nsnull
-nsnull
+nullptr
+nullptr
 )
 )
 {

@@ -303,7 +303,7 @@ AutoAttachJavaThread
 {
 mozilla_AndroidBridge_SetMainThread
 (
-nsnull
+nullptr
 )
 ;
 attached
@@ -480,7 +480,7 @@ char
 *
 >
 (
-nsnull
+nullptr
 )
 )
 ;

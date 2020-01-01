@@ -137,7 +137,7 @@ nsStreamLoader
 :
 mData
 (
-nsnull
+nullptr
 )
 mAllocated
 (
@@ -231,7 +231,7 @@ if
 it
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -510,7 +510,7 @@ deallocate
 it
 mData
 =
-nsnull
+nullptr
 ;
 mLength
 =

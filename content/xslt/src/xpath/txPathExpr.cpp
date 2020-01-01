@@ -412,7 +412,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -555,7 +555,7 @@ NS_OK
 }
 res
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1235,7 +1235,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void

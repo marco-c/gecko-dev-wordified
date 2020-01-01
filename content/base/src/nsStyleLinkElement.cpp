@@ -265,7 +265,7 @@ nsStyleLinkElement
 :
 SetStyleSheet
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -301,7 +301,7 @@ cssSheet
 >
 SetOwningNode
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -426,7 +426,7 @@ aSheet
 *
 aSheet
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -850,7 +850,7 @@ aIsAlternate
 return
 DoUpdateStyleSheet
 (
-nsnull
+nullptr
 aObserver
 aWillNotify
 aIsAlternate
@@ -879,7 +879,7 @@ return
 DoUpdateStyleSheet
 (
 aOldDocument
-nsnull
+nullptr
 &
 notify
 &
@@ -1003,7 +1003,7 @@ nsStyleLinkElement
 :
 SetStyleSheet
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1202,7 +1202,7 @@ nsStyleLinkElement
 :
 SetStyleSheet
 (
-nsnull
+nullptr
 )
 ;
 }

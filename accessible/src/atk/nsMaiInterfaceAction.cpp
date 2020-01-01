@@ -280,7 +280,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsAutoString
 description
@@ -300,7 +300,7 @@ description
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -344,7 +344,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsAutoString
 autoStr
@@ -364,7 +364,7 @@ autoStr
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -408,7 +408,7 @@ if
 acc
 )
 return
-nsnull
+nullptr
 ;
 /
 /

@@ -522,7 +522,7 @@ JSObject
 *
 targetObject
 =
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -533,7 +533,7 @@ JSVAL_IS_PRIMITIVE
 aValue
 )
 ?
-nsnull
+nullptr
 :
 JSVAL_TO_OBJECT
 (
@@ -887,9 +887,9 @@ dummy
 JS_NewObject
 (
 aCx
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -926,8 +926,8 @@ OBJECT_TO_JSVAL
 (
 dummy
 )
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -958,8 +958,8 @@ IDBObjectStore
 :
 :
 sDummyPropJSClass
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -996,8 +996,8 @@ OBJECT_TO_JSVAL
 (
 dummy
 )
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -1644,8 +1644,8 @@ i
 &
 value
 DoNotCreateProperties
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -1772,8 +1772,8 @@ mStrings
 ]
 aOutVal
 DoNotCreateProperties
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -1798,7 +1798,7 @@ JS_NewArrayObject
 (
 aCx
 len
-nsnull
+nullptr
 )
 )
 ;
@@ -1848,8 +1848,8 @@ i
 &
 value
 DoNotCreateProperties
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -2397,7 +2397,7 @@ JS_NewArrayObject
 (
 aCx
 len
-nsnull
+nullptr
 )
 ;
 if

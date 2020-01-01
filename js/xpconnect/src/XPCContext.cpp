@@ -221,11 +221,11 @@ NS_OK
 )
 mSecurityManager
 (
-nsnull
+nullptr
 )
 mException
 (
-nsnull
+nullptr
 )
 mCallingLangType
 (
@@ -300,7 +300,7 @@ this
 JS_SetSecondContextPrivate
 (
 mJSContext
-nsnull
+nullptr
 )
 ;
 NS_IF_RELEASE

@@ -984,7 +984,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1054,7 +1054,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1128,7 +1128,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_FINITE2
 (
@@ -1237,7 +1237,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_FINITE2
 (
@@ -1302,7 +1302,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_FINITE
 (
@@ -1372,7 +1372,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_FINITE2
 (
@@ -1596,7 +1596,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_FINITE
 (
@@ -1719,7 +1719,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_FINITE
 (

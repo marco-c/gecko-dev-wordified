@@ -720,7 +720,7 @@ CacheEntry
 :
 data
 (
-nsnull
+nullptr
 )
 size
 (

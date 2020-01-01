@@ -1613,7 +1613,7 @@ aResult
 )
 )
 return
-nsnull
+nullptr
 ;
 *
 aResult
@@ -1635,7 +1635,7 @@ aResult
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 process

@@ -375,7 +375,7 @@ SerializedStructuredCloneReadInfo
 :
 data
 (
-nsnull
+nullptr
 )
 dataLength
 (
@@ -735,7 +735,7 @@ SerializedStructuredCloneWriteInfo
 :
 data
 (
-nsnull
+nullptr
 )
 dataLength
 (

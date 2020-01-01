@@ -487,7 +487,7 @@ PresShell
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #

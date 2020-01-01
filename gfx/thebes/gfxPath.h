@@ -327,7 +327,7 @@ gfxFloat
 *
 aAngle
 =
-nsnull
+nullptr
 )
 ;
 }

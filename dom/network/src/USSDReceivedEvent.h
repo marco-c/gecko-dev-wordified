@@ -233,8 +233,8 @@ USSDReceivedEvent
 :
 nsDOMEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 {
 }

@@ -163,11 +163,11 @@ nsDBusService
 {
 mConnection
 =
-nsnull
+nullptr
 ;
 mSingleClient
 =
-nsnull
+nullptr
 ;
 }
 nsDBusService
@@ -209,7 +209,7 @@ Cancel
 }
 gSingleton
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_ISUPPORTS1
@@ -229,7 +229,7 @@ nsDBusService
 :
 gSingleton
 =
-nsnull
+nullptr
 ;
 already_AddRefed
 <
@@ -311,7 +311,7 @@ rv
 {
 mSingleClient
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -344,7 +344,7 @@ client
 ;
 mSingleClient
 =
-nsnull
+nullptr
 ;
 }
 DBusPendingCall
@@ -366,7 +366,7 @@ DBusPendingCall
 *
 reply
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -389,7 +389,7 @@ reply
 {
 reply
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -529,7 +529,7 @@ Cancel
 ;
 mReconnectTimer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -603,7 +603,7 @@ mConnection
 ;
 mConnection
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -674,7 +674,7 @@ rv
 {
 mReconnectTimer
 =
-nsnull
+nullptr
 ;
 return
 ;

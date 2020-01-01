@@ -198,7 +198,7 @@ nsStructuredCloneContainer
 :
 mData
 (
-nsnull
+nullptr
 )
 mSize
 (
@@ -357,7 +357,7 @@ uint64_t
 *
 jsBytes
 =
-nsnull
+nullptr
 ;
 bool
 success
@@ -370,8 +370,8 @@ jsData
 jsBytes
 &
 mSize
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_STATE
@@ -627,7 +627,7 @@ aData
 *
 aData
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -650,8 +650,8 @@ mSize
 mVersion
 &
 jsStateObj
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_STATE

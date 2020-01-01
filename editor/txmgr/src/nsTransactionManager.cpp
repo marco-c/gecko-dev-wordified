@@ -1854,7 +1854,7 @@ tx
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1928,7 +1928,7 @@ tx
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

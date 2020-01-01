@@ -254,7 +254,7 @@ return
 ;
 out
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -360,7 +360,7 @@ return
 ;
 in
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -536,7 +536,7 @@ return
 ;
 out
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -635,7 +635,7 @@ return
 ;
 in
 =
-nsnull
+nullptr
 ;
 return
 0

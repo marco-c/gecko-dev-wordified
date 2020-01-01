@@ -293,7 +293,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -435,7 +435,7 @@ exprResult
 ;
 exprResult
 =
-nsnull
+nullptr
 ;
 rv
 =

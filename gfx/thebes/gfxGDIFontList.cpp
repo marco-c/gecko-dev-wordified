@@ -506,13 +506,13 @@ static
 TTLoadEmbeddedFontProc
 TTLoadEmbeddedFontPtr
 =
-nsnull
+nullptr
 ;
 static
 TTDeleteEmbeddedFontProc
 TTDeleteEmbeddedFontPtr
 =
-nsnull
+nullptr
 ;
 class
 WinUserFontData
@@ -917,7 +917,7 @@ mIsUserFont
 aUserFontData
 !
 =
-nsnull
+nullptr
 ;
 InitLogFont
 (
@@ -1965,7 +1965,7 @@ GetDC
 (
 HWND
 )
-nsnull
+nullptr
 )
 ;
 SetGraphicsMode
@@ -2727,7 +2727,7 @@ GDIFontEntry
 *
 fe
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -3043,7 +3043,7 @@ logFont
 lfWeight
 )
 0
-nsnull
+nullptr
 false
 )
 ;
@@ -3373,7 +3373,7 @@ hdc
 =
 GetDC
 (
-nsnull
+nullptr
 )
 ;
 SetGraphicsMode
@@ -3530,7 +3530,7 @@ get
 endif
 ReleaseDC
 (
-nsnull
+nullptr
 hdc
 )
 ;
@@ -4479,7 +4479,7 @@ aFullname
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -4614,7 +4614,7 @@ aProxyEntry
 -
 >
 mStretch
-nsnull
+nullptr
 lookup
 -
 >
@@ -4634,7 +4634,7 @@ if
 fe
 )
 return
-nsnull
+nullptr
 ;
 fe
 -
@@ -5374,7 +5374,7 @@ rv
 HANDLE
 fontRef
 =
-nsnull
+nullptr
 ;
 bool
 isEmbedded
@@ -5402,7 +5402,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -5608,7 +5608,7 @@ E_NONE
 {
 fontRef
 =
-nsnull
+nullptr
 ;
 char
 buf
@@ -5677,7 +5677,7 @@ if
 fontRef
 =
 =
-nsnull
+nullptr
 )
 {
 /
@@ -5723,7 +5723,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 DWORD
 numFonts
@@ -5844,7 +5844,7 @@ if
 fontRef
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -5899,7 +5899,7 @@ fontRef
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -6221,7 +6221,7 @@ aNeedsBold
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 bool

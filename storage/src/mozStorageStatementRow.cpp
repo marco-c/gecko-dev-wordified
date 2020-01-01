@@ -682,7 +682,7 @@ JS_NewArrayObject
 (
 aCtx
 length
-nsnull
+nullptr
 )
 ;
 if
@@ -997,8 +997,8 @@ aCtx
 aScopeObj
 aId
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;

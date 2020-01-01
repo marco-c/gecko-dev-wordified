@@ -209,12 +209,12 @@ aContext
 bool
 aIsRoot
 =
-nsnull
+nullptr
 nsBoxLayout
 *
 aLayoutManager
 =
-nsnull
+nullptr
 )
 ;
 virtual

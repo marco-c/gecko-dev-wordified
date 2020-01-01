@@ -949,7 +949,7 @@ nsSVGUtils
 PaintFrameWithEffects
 (
 aContext
-nsnull
+nullptr
 kid
 )
 ;
@@ -1485,7 +1485,7 @@ mFrame
 >
 SetParentCoordCtxProvider
 (
-nsnull
+nullptr
 )
 ;
 mFrame
@@ -1493,7 +1493,7 @@ mFrame
 >
 mMarkedFrame
 =
-nsnull
+nullptr
 ;
 mFrame
 -

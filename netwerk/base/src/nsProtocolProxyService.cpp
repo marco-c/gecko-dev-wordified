@@ -838,7 +838,7 @@ NS_OK
 SetResult
 (
 reason
-nsnull
+nullptr
 )
 ;
 return
@@ -904,7 +904,7 @@ NS_OK
 }
 mCallback
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1138,7 +1138,7 @@ mProxyInfo
 else
 mProxyInfo
 =
-nsnull
+nullptr
 ;
 }
 mCallback
@@ -1154,7 +1154,7 @@ mStatus
 ;
 mCallback
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1910,7 +1910,7 @@ false
 )
 mFilters
 (
-nsnull
+nullptr
 )
 mProxyConfig
 (
@@ -1946,7 +1946,7 @@ false
 )
 mPACMan
 (
-nsnull
+nullptr
 )
 mSessionStart
 (
@@ -2003,13 +2003,13 @@ Length
 mFilters
 =
 =
-nsnull
+nullptr
 &
 &
 mPACMan
 =
 =
-nsnull
+nullptr
 "
 what
 happened
@@ -2089,7 +2089,7 @@ prefs
 PrefsChanged
 (
 prefBranch
-nsnull
+nullptr
 )
 ;
 }
@@ -2203,7 +2203,7 @@ mFilters
 ;
 mFilters
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -2220,7 +2220,7 @@ Shutdown
 ;
 mPACMan
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2527,7 +2527,7 @@ else
 {
 mSystemProxySettings
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3845,7 +3845,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 PRUint32
 flags
@@ -3948,7 +3948,7 @@ char
 *
 type
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -4091,11 +4091,11 @@ char
 *
 host
 =
-nsnull
+nullptr
 *
 hostEnd
 =
-nsnull
+nullptr
 ;
 PRInt32
 port
@@ -4971,7 +4971,7 @@ IsEmpty
 *
 result
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -4991,15 +4991,15 @@ nsProxyInfo
 *
 pi
 =
-nsnull
+nullptr
 *
 first
 =
-nsnull
+nullptr
 *
 last
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -5035,7 +5035,7 @@ last
 mNext
 =
 =
-nsnull
+nullptr
 "
 leaking
 nsProxyInfo
@@ -5292,7 +5292,7 @@ NS_ASSERTION
 result
 =
 =
-nsnull
+nullptr
 "
 we
 should
@@ -5411,7 +5411,7 @@ EmptyCString
 1
 0
 0
-nsnull
+nullptr
 flags
 result
 )
@@ -5711,7 +5711,7 @@ char
 *
 type
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -6116,7 +6116,7 @@ FilterLink
 *
 last
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -6258,7 +6258,7 @@ FilterLink
 *
 last
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -6327,7 +6327,7 @@ iter
 >
 next
 =
-nsnull
+nullptr
 ;
 delete
 iter
@@ -7359,7 +7359,7 @@ hinfo
 ;
 hinfo
 =
-nsnull
+nullptr
 ;
 loser
 :
@@ -7689,7 +7689,7 @@ false
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8006,14 +8006,14 @@ char
 *
 type
 =
-nsnull
+nullptr
 ;
 const
 nsACString
 *
 host
 =
-nsnull
+nullptr
 ;
 PRInt32
 port
@@ -8344,7 +8344,7 @@ host
 port
 proxyFlags
 PR_UINT32_MAX
-nsnull
+nullptr
 flags
 result
 )
@@ -8548,7 +8548,7 @@ nsProxyInfo
 *
 head
 =
-nsnull
+nullptr
 ;
 CallQueryInterface
 (
@@ -8672,7 +8672,7 @@ nsProxyInfo
 *
 last
 =
-nsnull
+nullptr
 *
 iter
 =
@@ -8736,7 +8736,7 @@ iter
 >
 mNext
 =
-nsnull
+nullptr
 ;
 iter
 -
@@ -8889,7 +8889,7 @@ nsProxyInfo
 *
 last
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -8947,7 +8947,7 @@ reject
 >
 mNext
 =
-nsnull
+nullptr
 ;
 NS_RELEASE
 (

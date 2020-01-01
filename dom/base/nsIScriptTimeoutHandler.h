@@ -204,7 +204,7 @@ handler
 If
 this
 returns
-nsnull
+nullptr
 /
 /
 GetHandlerText

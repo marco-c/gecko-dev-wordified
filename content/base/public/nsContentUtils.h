@@ -1769,7 +1769,7 @@ bool
 *
 aDisconnected
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -1790,7 +1790,7 @@ bool
 *
 aDisconnected
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -3105,7 +3105,7 @@ bool
 *
 bigEndian
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -3237,7 +3237,7 @@ PRUnichar
 *
 aColon
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -3607,7 +3607,7 @@ return
 the
 presContext
 or
-nsnull
+nullptr
 if
 the
 content
@@ -3621,7 +3621,7 @@ document
 if
 GetCurrentDoc
 returns
-nsnull
+nullptr
 )
 *
 /
@@ -3810,7 +3810,7 @@ PRInt16
 *
 aImageBlockingStatus
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -4041,7 +4041,7 @@ imgIRequest
 *
 aRequest
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -4599,7 +4599,7 @@ param
 [
 aParams
 =
-nsnull
+nullptr
 ]
 (
 Optional
@@ -4631,7 +4631,7 @@ param
 [
 aURI
 =
-nsnull
+nullptr
 ]
 (
 Optional
@@ -4761,7 +4761,7 @@ PRUnichar
 *
 aParams
 =
-nsnull
+nullptr
 PRUint32
 aParamsLength
 =
@@ -4770,7 +4770,7 @@ nsIURI
 *
 aURI
 =
-nsnull
+nullptr
 const
 nsAFlatString
 &
@@ -5619,7 +5619,7 @@ bool
 *
 aDefaultAction
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -5757,7 +5757,7 @@ bool
 *
 aDefaultAction
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -5918,7 +5918,7 @@ bool
 *
 aDefaultAction
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -8183,7 +8183,7 @@ nsISupports
 *
 aExtra
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -10386,12 +10386,12 @@ nsIDOMEvent
 *
 aSourceEvent
 =
-nsnull
+nullptr
 nsIPresShell
 *
 aShell
 =
-nsnull
+nullptr
 bool
 aCtrl
 =
@@ -10424,7 +10424,7 @@ context
 .
 Will
 return
-nsnull
+nullptr
 on
 failure
 .
@@ -10573,7 +10573,7 @@ nsIXPConnectJSObjectHolder
 *
 aHolder
 =
-nsnull
+nullptr
 bool
 aAllowWrapping
 =
@@ -10586,7 +10586,7 @@ WrapNative
 cx
 scope
 native
-nsnull
+nullptr
 aIID
 vp
 aHolder
@@ -10655,7 +10655,7 @@ nsIXPConnectJSObjectHolder
 *
 aHolder
 =
-nsnull
+nullptr
 bool
 aAllowWrapping
 =
@@ -10668,8 +10668,8 @@ WrapNative
 cx
 scope
 native
-nsnull
-nsnull
+nullptr
+nullptr
 vp
 aHolder
 aAllowWrapping
@@ -10722,7 +10722,7 @@ nsIXPConnectJSObjectHolder
 *
 aHolder
 =
-nsnull
+nullptr
 bool
 aAllowWrapping
 =
@@ -10736,7 +10736,7 @@ cx
 scope
 native
 cache
-nsnull
+nullptr
 vp
 aHolder
 aAllowWrapping
@@ -11098,7 +11098,7 @@ bool
 *
 aAllowRetaining
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -11261,7 +11261,7 @@ bool
 *
 aAllowRetaining
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -11878,7 +11878,7 @@ ContentViewerType
 *
 aLoaderType
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -13095,7 +13095,7 @@ bool
 *
 aDefaultAction
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -13839,7 +13839,7 @@ foundInterface
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 \
 return
@@ -14174,7 +14174,7 @@ ptr_
 >
 member_
 =
-nsnull
+nullptr
 ;
 \
 while
@@ -14198,7 +14198,7 @@ cur
 >
 member_
 =
-nsnull
+nullptr
 ;
 \
 delete
@@ -14254,7 +14254,7 @@ aResult
 return
 GetParameter
 (
-nsnull
+nullptr
 aResult
 )
 ;

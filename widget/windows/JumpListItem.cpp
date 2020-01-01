@@ -1390,7 +1390,7 @@ IPropertyStore
 *
 pPropStore
 =
-nsnull
+nullptr
 ;
 hr
 =
@@ -1942,7 +1942,7 @@ IPropertyStore
 *
 pPropStore
 =
-nsnull
+nullptr
 ;
 hr
 =
@@ -2931,7 +2931,7 @@ IShellItem2
 *
 psi
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -3088,7 +3088,7 @@ IPropertyStore
 *
 pPropStore
 =
-nsnull
+nullptr
 ;
 HRESULT
 hres

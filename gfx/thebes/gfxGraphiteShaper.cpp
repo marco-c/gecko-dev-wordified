@@ -375,11 +375,11 @@ aFont
 )
 mGrFace
 (
-nsnull
+nullptr
 )
 mGrFont
 (
-nsnull
+nullptr
 )
 mUseFontGlyphWidths
 (
@@ -477,7 +477,7 @@ mTables
 Enumerate
 (
 ReleaseTableFunc
-nsnull
+nullptr
 )
 ;
 }
@@ -642,7 +642,7 @@ tableRec
 else
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -972,7 +972,7 @@ mGrFace
 ;
 mGrFace
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -1450,7 +1450,7 @@ aSegment
 slot
 !
 =
-nsnull
+nullptr
 ;
 slot
 =
@@ -2448,7 +2448,7 @@ SetGlyphs
 (
 offs
 g
-nsnull
+nullptr
 )
 ;
 }

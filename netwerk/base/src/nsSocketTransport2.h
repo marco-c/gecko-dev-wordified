@@ -928,7 +928,7 @@ nsISupports
 *
 param
 =
-nsnull
+nullptr
 )
 ;
 enum

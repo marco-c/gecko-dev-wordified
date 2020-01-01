@@ -813,7 +813,7 @@ file
 *
 aData
 =
-nsnull
+nullptr
 ;
 *
 aDataLen
@@ -949,10 +949,10 @@ if
 cacheFile
 =
 =
-nsnull
+nullptr
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -1232,7 +1232,7 @@ void
 *
 buff
 =
-nsnull
+nullptr
 ;
 nsPrimitiveHelpers
 :
@@ -1637,7 +1637,7 @@ params
 *
 aData
 =
-nsnull
+nullptr
 ;
 *
 aDataLen

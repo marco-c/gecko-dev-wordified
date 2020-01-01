@@ -588,11 +588,11 @@ CancelSetCaret
 {
 mEd
 =
-nsnull
+nullptr
 ;
 mTable
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -729,7 +729,7 @@ aNewCell
 *
 aNewCell
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1196,7 +1196,7 @@ res
 =
 GetCellContext
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 table
@@ -1468,7 +1468,7 @@ NS_ERROR_NULL_POINTER
 *
 aRowNode
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_TRUE
 (
@@ -1866,7 +1866,7 @@ NS_ERROR_NULL_POINTER
 *
 aRowNode
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_TRUE
 (
@@ -2290,7 +2290,7 @@ NS_ERROR_NULL_POINTER
 *
 aCellNode
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_TRUE
 (
@@ -2462,8 +2462,8 @@ getter_AddRefs
 (
 curCell
 )
-nsnull
-nsnull
+nullptr
+nullptr
 &
 startRowIndex
 &
@@ -3255,7 +3255,7 @@ res
 =
 GetCellContext
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 table
@@ -3264,8 +3264,8 @@ getter_AddRefs
 (
 curCell
 )
-nsnull
-nsnull
+nullptr
+nullptr
 &
 startRowIndex
 &
@@ -4376,11 +4376,11 @@ getter_AddRefs
 (
 table
 )
-nsnull
-nsnull
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4452,8 +4452,8 @@ getter_AddRefs
 (
 cell
 )
-nsnull
-nsnull
+nullptr
+nullptr
 &
 startRowIndex
 &
@@ -4784,7 +4784,7 @@ res
 =
 GetNextSelectedCell
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 cell
@@ -4976,7 +4976,7 @@ res
 =
 GetNextSelectedCell
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 cell
@@ -5209,8 +5209,8 @@ getter_AddRefs
 (
 cell
 )
-nsnull
-nsnull
+nullptr
+nullptr
 &
 startRowIndex
 &
@@ -5499,8 +5499,8 @@ getter_AddRefs
 (
 cell
 )
-nsnull
-nsnull
+nullptr
+nullptr
 &
 startRowIndex
 &
@@ -5674,7 +5674,7 @@ res
 =
 GetNextSelectedCell
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 cell
@@ -5691,7 +5691,7 @@ res
 else
 cell
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -5849,8 +5849,8 @@ getter_AddRefs
 (
 cell
 )
-nsnull
-nsnull
+nullptr
+nullptr
 &
 startRowIndex
 &
@@ -6875,8 +6875,8 @@ getter_AddRefs
 (
 cell
 )
-nsnull
-nsnull
+nullptr
+nullptr
 &
 startRowIndex
 &
@@ -7806,7 +7806,7 @@ into
 actualRowSpan
 -
 1
-nsnull
+nullptr
 )
 ;
 /
@@ -8041,7 +8041,7 @@ NS_LITERAL_STRING
 table
 "
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 table
@@ -8123,7 +8123,7 @@ NS_LITERAL_STRING
 td
 "
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 cell
@@ -8758,7 +8758,7 @@ NS_LITERAL_STRING
 td
 "
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 cell
@@ -9143,7 +9143,7 @@ NS_LITERAL_STRING
 td
 "
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 cell
@@ -9225,8 +9225,8 @@ getter_AddRefs
 (
 cell
 )
-nsnull
-nsnull
+nullptr
+nullptr
 &
 startRowIndex
 &
@@ -9540,7 +9540,7 @@ NS_LITERAL_STRING
 td
 "
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 cell
@@ -9620,8 +9620,8 @@ getter_AddRefs
 (
 cell
 )
-nsnull
-nsnull
+nullptr
+nullptr
 &
 startRowIndex
 &
@@ -9914,7 +9914,7 @@ res
 =
 GetCellContext
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 table
@@ -9923,8 +9923,8 @@ getter_AddRefs
 (
 cell
 )
-nsnull
-nsnull
+nullptr
+nullptr
 &
 startRowIndex
 &
@@ -10383,7 +10383,7 @@ aNewCell
 *
 aNewCell
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -10619,7 +10619,7 @@ aNewCell
 *
 aNewCell
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -11459,8 +11459,8 @@ address_of
 newNode
 )
 newCellType
-nsnull
-nsnull
+nullptr
+nullptr
 true
 )
 ;
@@ -11584,7 +11584,7 @@ res
 =
 GetCellContext
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 table
@@ -11593,8 +11593,8 @@ getter_AddRefs
 (
 targetCell
 )
-nsnull
-nsnull
+nullptr
+nullptr
 &
 startRowIndex
 &
@@ -11737,7 +11737,7 @@ res
 =
 GetNextSelectedCell
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 secondCell
@@ -11770,7 +11770,7 @@ joinSelectedCells
 secondCell
 !
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -12829,7 +12829,7 @@ actualColSpan2
 -
 extraColSpan
 extraColSpan
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -13451,7 +13451,7 @@ actualRowSpan
 effectiveRowSpan2
 -
 actualRowSpan
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -15376,7 +15376,7 @@ NS_LITERAL_STRING
 td
 "
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 cell
@@ -15519,7 +15519,7 @@ tableLayoutObject
 *
 tableLayoutObject
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_TRUE
 (
@@ -16057,7 +16057,7 @@ false
 *
 aCell
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -16094,7 +16094,7 @@ NS_LITERAL_STRING
 table
 "
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 table
@@ -16452,7 +16452,7 @@ aSelection
 *
 aSelection
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -16461,7 +16461,7 @@ aTable
 *
 aTable
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -16470,7 +16470,7 @@ aCell
 *
 aCell
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -16479,7 +16479,7 @@ aCellParent
 *
 aCellParent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17053,7 +17053,7 @@ NS_ERROR_NULL_POINTER
 *
 aCell
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -17343,7 +17343,7 @@ NS_ERROR_NULL_POINTER
 *
 aCell
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17352,7 +17352,7 @@ aRange
 *
 aRange
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -17544,7 +17544,7 @@ NS_ERROR_NULL_POINTER
 *
 aCell
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17553,7 +17553,7 @@ aRange
 *
 aRange
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -17842,7 +17842,7 @@ NS_ERROR_NULL_POINTER
 *
 aCell
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17873,7 +17873,7 @@ res
 =
 GetFirstSelectedCell
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 cell
@@ -18416,7 +18416,7 @@ aSelectedCount
 *
 aTableElement
 =
-nsnull
+nullptr
 ;
 aTagName
 .
@@ -18477,7 +18477,7 @@ res
 =
 GetFirstSelectedCell
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 tableOrCellElement
@@ -19017,7 +19017,7 @@ res
 =
 GetFirstSelectedCell
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 selectedCell
@@ -19191,7 +19191,7 @@ res
 =
 GetNextSelectedCell
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 selectedCell
@@ -19243,7 +19243,7 @@ res
 =
 GetFirstSelectedCell
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 selectedCell
@@ -19350,7 +19350,7 @@ res
 =
 GetNextSelectedCell
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 selectedCell

@@ -382,7 +382,7 @@ return
 data
 !
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -2770,7 +2770,7 @@ return
 data
 !
 =
-nsnull
+nullptr
 ;
 }
 void

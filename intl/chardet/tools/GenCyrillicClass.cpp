@@ -719,14 +719,14 @@ nsIUnicodeEncoder
 *
 gKOI8REncoder
 =
-nsnull
+nullptr
 ;
 static
 nsICharsetConverterManager
 *
 gCCM
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1052,7 +1052,7 @@ nsIUnicodeDecoder
 *
 decoder
 =
-nsnull
+nullptr
 ;
 nsresult
 res
@@ -1296,7 +1296,7 @@ argv
 nsresult
 res
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1320,7 +1320,7 @@ res
 &
 &
 (
-nsnull
+nullptr
 !
 =
 gCCM
@@ -1377,7 +1377,7 @@ res
 &
 &
 (
-nsnull
+nullptr
 !
 =
 gKOI8REncoder

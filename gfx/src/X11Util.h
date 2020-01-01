@@ -885,7 +885,7 @@ XErrorEvent
 *
 ev
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -947,7 +947,7 @@ XErrorEvent
 *
 ev
 =
-nsnull
+nullptr
 )
 ;
 }

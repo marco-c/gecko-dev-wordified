@@ -225,11 +225,11 @@ nsSMILTargetIdentifier
 :
 mElement
 (
-nsnull
+nullptr
 )
 mAttributeName
 (
-nsnull
+nullptr
 )
 mAttributeNamespaceID
 (
@@ -400,11 +400,11 @@ nsSMILWeakTargetIdentifier
 :
 mElement
 (
-nsnull
+nullptr
 )
 mAttributeName
 (
-nsnull
+nullptr
 )
 mIsCSS
 (

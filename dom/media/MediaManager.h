@@ -502,11 +502,11 @@ MediaManager
 :
 mBackend
 (
-nsnull
+nullptr
 )
 mMediaThread
 (
-nsnull
+nullptr
 )
 {
 mActiveWindows

@@ -432,7 +432,7 @@ Shutdown
 ;
 mNativeAccessible
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -851,8 +851,8 @@ aHwnd
 :
 LeafAccessible
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 {
 /

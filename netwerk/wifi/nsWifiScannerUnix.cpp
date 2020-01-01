@@ -829,7 +829,7 @@ char
 *
 )
 iw_stats
-nsnull
+nullptr
 }
 ;
 while

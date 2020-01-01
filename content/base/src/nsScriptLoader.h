@@ -371,7 +371,7 @@ DropDocumentReference
 {
 mDocument
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1523,7 +1523,7 @@ aChild
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 nsresult

@@ -1212,7 +1212,7 @@ LogFunc
 (
 l
 \
-nsnull
+nullptr
 \
 NS_LITERAL_CSTRING
 (
@@ -1233,7 +1233,7 @@ LogFunc
 (
 l
 \
-nsnull
+nullptr
 \
 NS_LITERAL_CSTRING
 (

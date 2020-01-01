@@ -761,7 +761,7 @@ MaybeMagicGrallocBufferHandle
 MOZ_OVERRIDE
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -938,7 +938,7 @@ it
 .
 *
 Returns
-nsnull
+nullptr
 if
 the
 pool

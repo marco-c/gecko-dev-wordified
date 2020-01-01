@@ -319,7 +319,7 @@ Disconnect
 {
 mTarget
 =
-nsnull
+nullptr
 ;
 }
 JSObject

@@ -557,7 +557,7 @@ serv
 NewChannel
 (
 url
-nsnull
+nullptr
 /
 /
 base
@@ -934,7 +934,7 @@ nsIEventQueue
 *
 gEventQ
 =
-nsnull
+nullptr
 ;
 class
 Listener
@@ -1366,7 +1366,7 @@ serv
 NewChannel
 (
 url
-nsnull
+nullptr
 /
 /
 base
@@ -1403,7 +1403,7 @@ if
 listener
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1415,7 +1415,7 @@ channel
 >
 AsyncOpen
 (
-nsnull
+nullptr
 listener
 )
 ;
@@ -1513,8 +1513,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsCOMPtr
@@ -1546,7 +1546,7 @@ registrar
 >
 AutoRegister
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION
@@ -1698,7 +1698,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION

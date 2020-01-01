@@ -275,7 +275,7 @@ PRInt64
 *
 aBytesRead
 =
-nsnull
+nullptr
 )
 ;
 bool

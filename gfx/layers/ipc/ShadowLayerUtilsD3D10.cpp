@@ -211,7 +211,7 @@ SurfaceDescriptor
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -351,7 +351,7 @@ GLenum
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -400,7 +400,7 @@ IDXGIResource
 *
 dr
 =
-nsnull
+nullptr
 ;
 hr
 =
@@ -491,7 +491,7 @@ ID3D10Texture2D
 *
 tex
 =
-nsnull
+nullptr
 ;
 hr
 =
@@ -537,7 +537,7 @@ hr
 tex
 )
 return
-nsnull
+nullptr
 ;
 /
 /

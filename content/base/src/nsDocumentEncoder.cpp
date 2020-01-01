@@ -518,7 +518,7 @@ nsINode
 *
 aOriginalNode
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -1060,7 +1060,7 @@ nsDocumentEncoder
 :
 mCachedBuffer
 (
-nsnull
+nullptr
 )
 {
 Initialize
@@ -1132,7 +1132,7 @@ aClearCachedSerializer
 {
 mSerializer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1735,7 +1735,7 @@ nsINode
 *
 node
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1912,7 +1912,7 @@ AsElement
 (
 )
 :
-nsnull
+nullptr
 ;
 mSerializer
 -
@@ -2181,7 +2181,7 @@ nsINode
 *
 maybeFixedNode
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2309,7 +2309,7 @@ IsSelectable
 (
 &
 isSelectable
-nsnull
+nullptr
 )
 ;
 if
@@ -3236,7 +3236,7 @@ aNode
 ;
 aChild
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_TRUE
 (
@@ -3396,7 +3396,7 @@ hasChildren
 ;
 aNextNode
 =
-nsnull
+nullptr
 ;
 aNode
 -
@@ -4094,7 +4094,7 @@ nsIContent
 *
 childAsNode
 =
-nsnull
+nullptr
 ;
 PRInt32
 startOffset
@@ -5228,7 +5228,7 @@ now
 !
 mCachedBuffer
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5777,7 +5777,7 @@ rv
 ;
 prevNode
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -5894,7 +5894,7 @@ false
 ;
 mSelection
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -5913,7 +5913,7 @@ output
 ;
 mRange
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -5966,7 +5966,7 @@ mNodeIsContainer
 }
 mNode
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -6137,7 +6137,7 @@ true
 }
 mCachedBuffer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -6269,7 +6269,7 @@ nsIUnicodeEncoder
 :
 :
 kOnError_Replace
-nsnull
+nullptr
 '
 ?
 '
@@ -6316,11 +6316,11 @@ true
 ;
 mStream
 =
-nsnull
+nullptr
 ;
 mUnicodeEncoder
 =
-nsnull
+nullptr
 ;
 return
 rv

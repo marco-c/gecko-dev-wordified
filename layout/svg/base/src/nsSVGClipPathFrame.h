@@ -285,7 +285,7 @@ nsISVGChildFrame
 *
 aSingleChild
 =
-nsnull
+nullptr
 )
 ;
 bool

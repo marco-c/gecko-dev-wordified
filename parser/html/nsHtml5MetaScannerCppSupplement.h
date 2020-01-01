@@ -120,7 +120,7 @@ stateSave
 ;
 readable
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -548,7 +548,7 @@ way
 ;
 mUnicodeDecoder
 =
-nsnull
+nullptr
 ;
 return
 false

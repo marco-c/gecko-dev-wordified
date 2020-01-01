@@ -315,7 +315,7 @@ struct
 fields
 window
 =
-nsnull
+nullptr
 ;
 x
 =
@@ -367,13 +367,13 @@ mWsInfo
 .
 display
 =
-nsnull
+nullptr
 ;
 mWsInfo
 .
 visual
 =
-nsnull
+nullptr
 ;
 mWsInfo
 .
@@ -883,7 +883,7 @@ mPluginInstance
 >
 SetWindow
 (
-nsnull
+nullptr
 )
 ;
 SetPluginInstance

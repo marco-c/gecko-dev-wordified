@@ -115,7 +115,7 @@ UTF
 8
 "
 )
-nsnull
+nullptr
 )
 {
 }
@@ -650,7 +650,7 @@ PRUnichar
 *
 stringData
 =
-nsnull
+nullptr
 ;
 PRUint32
 stringLen
@@ -802,7 +802,7 @@ UTF
 8
 "
 )
-nsnull
+nullptr
 )
 ;
 for

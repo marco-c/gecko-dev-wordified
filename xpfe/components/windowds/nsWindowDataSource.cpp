@@ -206,7 +206,7 @@ nsWindowDataSource
 :
 kNC_Name
 =
-nsnull
+nullptr
 ;
 nsIRDFResource
 *
@@ -215,7 +215,7 @@ nsWindowDataSource
 :
 kNC_WindowRoot
 =
-nsnull
+nullptr
 ;
 nsIRDFResource
 *
@@ -224,7 +224,7 @@ nsWindowDataSource
 :
 kNC_KeyIndex
 =
-nsnull
+nullptr
 ;
 nsIRDFService
 *
@@ -233,7 +233,7 @@ nsWindowDataSource
 :
 gRDFService
 =
-nsnull
+nullptr
 ;
 PRUint32
 nsWindowDataSource
@@ -628,11 +628,11 @@ to
 us
 mContainer
 =
-nsnull
+nullptr
 ;
 mInner
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1704,7 +1704,7 @@ windowResource
 get
 (
 )
-nsnull
+nullptr
 }
 ;
 mWindowResources

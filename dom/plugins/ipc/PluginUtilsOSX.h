@@ -335,7 +335,7 @@ nsDoubleBufferCARenderer
 :
 mCALayer
 (
-nsnull
+nullptr
 )
 {
 }

@@ -2195,7 +2195,7 @@ void
 *
 imgData
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -2530,7 +2530,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 aContext
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2547,7 +2547,7 @@ rv
 *
 aContext
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2687,7 +2687,7 @@ nsXPCOMCycleCollectionParticipant
 *
 cp
 =
-nsnull
+nullptr
 ;
 CallQueryInterface
 (
@@ -2704,7 +2704,7 @@ cp
 {
 mCurrentContext
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -2916,7 +2916,7 @@ propnameString
 {
 mCurrentContext
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -3027,7 +3027,7 @@ propvalString
 {
 mCurrentContext
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -3373,7 +3373,7 @@ rv
 {
 mCurrentContext
 =
-nsnull
+nullptr
 ;
 mCurrentContextId
 .
@@ -3405,7 +3405,7 @@ rv
 {
 mCurrentContext
 =
-nsnull
+nullptr
 ;
 mCurrentContextId
 .
@@ -3442,7 +3442,7 @@ rv
 {
 mCurrentContext
 =
-nsnull
+nullptr
 ;
 mCurrentContextId
 .
@@ -4075,7 +4075,7 @@ if
 mCurrentContext
 )
 return
-nsnull
+nullptr
 ;
 return
 mCurrentContext

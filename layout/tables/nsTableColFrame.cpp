@@ -980,7 +980,7 @@ GetNextSibling
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIAtom

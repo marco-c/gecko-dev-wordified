@@ -1269,7 +1269,7 @@ value
 if
 it
 exists
-nsnull
+nullptr
 otherwise
 .
 *

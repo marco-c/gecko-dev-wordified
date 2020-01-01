@@ -660,7 +660,7 @@ Pattern
 ;
 mGfxPattern
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1883,7 +1883,7 @@ cairo_surface_t
 *
 surf
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1898,7 +1898,7 @@ surf
 CAIRO_STATUS_SUCCESS
 )
 return
-nsnull
+nullptr
 ;
 return
 gfxASurface

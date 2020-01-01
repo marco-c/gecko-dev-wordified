@@ -291,7 +291,7 @@ aStyleContext
 )
 mPostResolveCallback
 (
-nsnull
+nullptr
 )
 mValueStorage
 (

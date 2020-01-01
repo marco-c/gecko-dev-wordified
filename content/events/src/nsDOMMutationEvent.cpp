@@ -158,7 +158,7 @@ mEventIsInternal
 aEvent
 =
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -193,7 +193,7 @@ mutation
 ;
 mEvent
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -243,7 +243,7 @@ aRelatedNode
 *
 aRelatedNode
 =
-nsnull
+nullptr
 ;
 nsMutationEvent
 *
@@ -632,7 +632,7 @@ aEvent
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 it

@@ -1466,7 +1466,7 @@ nsWidgetInitData
 *
 aInitData
 =
-nsnull
+nullptr
 )
 ;
 NS_IMETHOD

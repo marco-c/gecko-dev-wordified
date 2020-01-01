@@ -350,7 +350,7 @@ DoContent
 (
 aMimeContentType
 this
-nsnull
+nullptr
 aForceSave
 getter_AddRefs
 (
@@ -387,7 +387,7 @@ mListener
 OnStartRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 return
@@ -486,7 +486,7 @@ mListener
 OnDataAvailable
 (
 this
-nsnull
+nullptr
 stringStream
 offset
 count
@@ -518,7 +518,7 @@ mListener
 OnStopRequest
 (
 this
-nsnull
+nullptr
 (
 NS_SUCCEEDED
 (
@@ -840,7 +840,7 @@ aLoadGroup
 *
 aLoadGroup
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -876,7 +876,7 @@ aOwner
 *
 aOwner
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -912,7 +912,7 @@ aCallbacks
 *
 aCallbacks
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -948,7 +948,7 @@ aSecurityInfo
 *
 aSecurityInfo
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

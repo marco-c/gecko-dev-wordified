@@ -134,7 +134,7 @@ cx
 /
 *
 =
-nsnull
+nullptr
 *
 /
 JSObject
@@ -143,7 +143,7 @@ obj
 /
 *
 =
-nsnull
+nullptr
 *
 /
 JSObject
@@ -152,7 +152,7 @@ funobj
 /
 *
 =
-nsnull
+nullptr
 *
 /
 jsid
@@ -177,7 +177,7 @@ argv
 /
 *
 =
-nsnull
+nullptr
 *
 /
 jsval
@@ -186,7 +186,7 @@ rval
 /
 *
 =
-nsnull
+nullptr
 *
 /
 )
@@ -206,7 +206,7 @@ GetXPConnect
 )
 mXPCContext
 (
-nsnull
+nullptr
 )
 mJSContext
 (
@@ -286,7 +286,7 @@ GetXPConnect
 )
 mXPCContext
 (
-nsnull
+nullptr
 )
 mJSContext
 (
@@ -322,12 +322,12 @@ Init
 callerLanguage
 callBeginRequest
 obj
-nsnull
+nullptr
 WRAPPER_PASSED_TO_CONSTRUCTOR
 JSID_VOID
 NO_ARGS
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -412,7 +412,7 @@ shutdown
 .
 mJSContext
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -775,7 +775,7 @@ HAVE_OBJECT
 ;
 mTearOff
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -821,7 +821,7 @@ mTearOff
 )
 mScriptableInfo
 =
-nsnull
+nullptr
 ;
 else
 mScriptableInfo
@@ -916,7 +916,7 @@ mTearOff
 {
 mSet
 =
-nsnull
+nullptr
 ;
 mInterface
 =
@@ -977,7 +977,7 @@ GetSet
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -1013,7 +1013,7 @@ GetSet
 (
 )
 :
-nsnull
+nullptr
 &
 mStaticMemberIsLocal
 )
@@ -1046,11 +1046,11 @@ else
 {
 mMember
 =
-nsnull
+nullptr
 ;
 mInterface
 =
-nsnull
+nullptr
 ;
 mStaticMemberIsLocal
 =
@@ -1138,11 +1138,11 @@ iface
 )
 mTearOff
 =
-nsnull
+nullptr
 ;
 mSet
 =
-nsnull
+nullptr
 ;
 mInterface
 =
@@ -1219,15 +1219,15 @@ HAVE_NAME
 {
 mSet
 =
-nsnull
+nullptr
 ;
 mInterface
 =
-nsnull
+nullptr
 ;
 mMember
 =
-nsnull
+nullptr
 ;
 mStaticMemberIsLocal
 =
@@ -1321,7 +1321,7 @@ mInterface
 {
 mTearOff
 =
-nsnull
+nullptr
 ;
 return
 NS_FAILED
@@ -1419,7 +1419,7 @@ XPCCallContext
 ;
 mXPCContext
 =
-nsnull
+nullptr
 ;
 mState
 =
@@ -1511,7 +1511,7 @@ shouldReleaseXPC
 mPrevCallContext
 =
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1993,7 +1993,7 @@ GetIdentityObject
 (
 )
 :
-nsnull
+nullptr
 ;
 NS_IF_ADDREF
 (
@@ -2159,7 +2159,7 @@ GetClassInfo
 (
 )
 :
-nsnull
+nullptr
 ;
 NS_IF_ADDREF
 (

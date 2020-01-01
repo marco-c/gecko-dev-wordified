@@ -336,7 +336,7 @@ aContent
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1127,7 +1127,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -1174,7 +1174,7 @@ PRInt32
 *
 aTabIndex
 =
-nsnull
+nullptr
 bool
 aWithMouse
 =
@@ -3117,7 +3117,7 @@ nsHTMLFormElement
 *
 aCurrentForm
 =
-nsnull
+nullptr
 )
 ;
 virtual
@@ -4872,7 +4872,7 @@ nsGkAtoms
 :
 :
 _empty
-nsnull
+nullptr
 }
 ;
 if
@@ -5585,7 +5585,7 @@ GetCurrentDoc
 )
 !
 =
-nsnull
+nullptr
 )
 .
 *
@@ -6858,7 +6858,7 @@ nsGkAtoms
 :
 :
 _atom
-nsnull
+nullptr
 aValue
 )
 ;
@@ -7075,7 +7075,7 @@ nsGkAtoms
 :
 :
 _atom
-nsnull
+nullptr
 aValue
 )
 ;
@@ -7616,7 +7616,7 @@ foundInterface
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 \
 return

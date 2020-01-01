@@ -2838,15 +2838,15 @@ aReferenceFrame
 )
 mIgnoreScrollFrame
 (
-nsnull
+nullptr
 )
 mCurrentTableItem
 (
-nsnull
+nullptr
 )
 mFinalTransparentRegion
 (
-nsnull
+nullptr
 )
 mCachedOffsetFrame
 (
@@ -2859,7 +2859,7 @@ mCachedOffset
 )
 mGlassDisplayItem
 (
-nsnull
+nullptr
 )
 mMode
 (
@@ -3644,7 +3644,7 @@ nsIScrollableFrame
 *
 scrollableFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4082,7 +4082,7 @@ Next
 )
 !
 =
-nsnull
+nullptr
 )
 {
 area
@@ -4326,7 +4326,7 @@ state
 >
 mCaretFrame
 =
-nsnull
+nullptr
 ;
 state
 -
@@ -4562,7 +4562,7 @@ state
 -
 >
 mCaretFrame
-nsnull
+nullptr
 )
 ;
 }
@@ -5088,7 +5088,7 @@ RemoveBottom
 )
 !
 =
-nsnull
+nullptr
 )
 {
 if
@@ -5170,7 +5170,7 @@ GetBottom
 i
 !
 =
-nsnull
+nullptr
 ;
 i
 =
@@ -5723,7 +5723,7 @@ i
 <
 1
 ?
-nsnull
+nullptr
 :
 elements
 [
@@ -6420,11 +6420,11 @@ BuildContainerLayerFor
 aBuilder
 layerManager
 aForFrame
-nsnull
+nullptr
 *
 this
 containerParameters
-nsnull
+nullptr
 )
 ;
 if
@@ -6572,7 +6572,7 @@ usingDisplayport
 &
 displayport
 :
-nsnull
+nullptr
 )
 id
 containerParameters
@@ -6799,7 +6799,7 @@ if
 item
 )
 return
-nsnull
+nullptr
 ;
 mSentinel
 .
@@ -6837,7 +6837,7 @@ item
 >
 mAbove
 =
-nsnull
+nullptr
 ;
 return
 item
@@ -6866,7 +6866,7 @@ RemoveBottom
 )
 !
 =
-nsnull
+nullptr
 )
 {
 item
@@ -7783,7 +7783,7 @@ nsDisplayItem
 *
 prev
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -8202,7 +8202,7 @@ GetBottom
 i
 !
 =
-nsnull
+nullptr
 ;
 i
 =
@@ -8254,7 +8254,7 @@ RemoveBottom
 )
 !
 =
-nsnull
+nullptr
 )
 {
 if
@@ -8328,7 +8328,7 @@ RemoveBottom
 )
 !
 =
-nsnull
+nullptr
 )
 {
 tmp
@@ -14193,7 +14193,7 @@ nsLayoutUtils
 GetActiveScrolledRootFor
 (
 f
-nsnull
+nullptr
 )
 ;
 if
@@ -14974,7 +14974,7 @@ mFrame
 this
 mList
 aContainerParameters
-nsnull
+nullptr
 )
 ;
 if
@@ -14983,7 +14983,7 @@ if
 container
 )
 return
-nsnull
+nullptr
 ;
 container
 -
@@ -15207,7 +15207,7 @@ nsLayoutUtils
 GetActiveScrolledRootFor
 (
 mFrame
-nsnull
+nullptr
 )
 ;
 return
@@ -15560,7 +15560,7 @@ mFrame
 this
 mList
 aContainerParameters
-nsnull
+nullptr
 )
 ;
 return
@@ -16258,7 +16258,7 @@ mFrame
 this
 mList
 aContainerParameters
-nsnull
+nullptr
 )
 ;
 /
@@ -16372,7 +16372,7 @@ usingDisplayport
 &
 displayport
 :
-nsnull
+nullptr
 )
 scrollId
 aContainerParameters
@@ -18834,7 +18834,7 @@ GetFirstContinuation
 currFrame
 !
 =
-nsnull
+nullptr
 ;
 currFrame
 =
@@ -20292,7 +20292,7 @@ GetStyleDisplay
 (
 )
 :
-nsnull
+nullptr
 ;
 nsRect
 bounds
@@ -20415,8 +20415,8 @@ nsStyleTransformMatrix
 ReadTransforms
 (
 aTransformOverride
-nsnull
-nsnull
+nullptr
+nullptr
 dummy
 bounds
 aAppUnitsPerPixel
@@ -20589,7 +20589,7 @@ nsStyleDisplay
 *
 parentDisp
 =
-nsnull
+nullptr
 ;
 nsStyleContext
 *
@@ -20609,7 +20609,7 @@ GetParent
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -20862,11 +20862,11 @@ GetPosition
 (
 )
 aAppUnitsPerPixel
-nsnull
-nsnull
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 aOutAncestor
 )
 ;
@@ -21260,7 +21260,7 @@ newTransformMatrix
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -21514,7 +21514,7 @@ nsLayoutUtils
 GetActiveScrolledRootFor
 (
 mFrame
-nsnull
+nullptr
 )
 ;
 return
@@ -23874,7 +23874,7 @@ why
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -23897,7 +23897,7 @@ HasValidDimensions
 )
 {
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -23936,7 +23936,7 @@ opacity
 0f
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -24000,7 +24000,7 @@ isOK
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -24023,7 +24023,7 @@ mFrame
 this
 mList
 aContainerParameters
-nsnull
+nullptr
 )
 ;
 return

@@ -670,7 +670,7 @@ Time
 *
 aTime
 =
-nsnull
+nullptr
 )
 const
 {
@@ -1000,12 +1000,12 @@ Time
 *
 aEnd
 =
-nsnull
+nullptr
 Time
 *
 aStart
 =
-nsnull
+nullptr
 )
 const
 {

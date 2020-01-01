@@ -332,7 +332,7 @@ delete
 p
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -1031,7 +1031,7 @@ in
 the
 stream
 or
-nsnull
+nullptr
 if
 there
 are

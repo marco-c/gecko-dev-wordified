@@ -187,7 +187,7 @@ char
 *
 prefix
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -217,7 +217,7 @@ symname
 PlatformLookupFunction
 lookupFunction
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -233,13 +233,13 @@ firstStruct
 PlatformLookupFunction
 lookupFunction
 =
-nsnull
+nullptr
 const
 char
 *
 prefix
 =
-nsnull
+nullptr
 )
 ;
 protected
@@ -250,11 +250,11 @@ GLLibraryLoader
 {
 mLibrary
 =
-nsnull
+nullptr
 ;
 mLookupFunc
 =
-nsnull
+nullptr
 ;
 }
 PRLibrary

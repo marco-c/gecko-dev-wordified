@@ -1598,7 +1598,7 @@ params
 ;
 params
 =
-nsnull
+nullptr
 ;
 stmt
 -
@@ -1610,7 +1610,7 @@ paramsArray
 ;
 paramsArray
 =
-nsnull
+nullptr
 ;
 blocking_async_execute
 (
@@ -2282,7 +2282,7 @@ our
 reference
 stmt
 =
-nsnull
+nullptr
 ;
 /
 /

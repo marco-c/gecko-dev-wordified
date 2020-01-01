@@ -281,7 +281,7 @@ Count
 {
 EnsureNGetIndex
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -312,7 +312,7 @@ mObjects
 SafeElementAt
 (
 aIndex
-nsnull
+nullptr
 )
 ;
 if
@@ -530,7 +530,7 @@ aIndex
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 PRInt32

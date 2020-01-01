@@ -1254,7 +1254,7 @@ PRFileDesc
 *
 fd
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1613,7 +1613,7 @@ PRFileDesc
 *
 fd
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -6419,11 +6419,11 @@ Shutdown
 ;
 mProcessWatcher
 =
-nsnull
+nullptr
 ;
 mUpdate
 =
-nsnull
+nullptr
 ;
 }
 void

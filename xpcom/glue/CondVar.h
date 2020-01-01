@@ -218,7 +218,7 @@ monitor
 returns
 If
 failure
-nsnull
+nullptr
 .
 *
 If

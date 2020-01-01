@@ -336,7 +336,7 @@ Thread
 *
 sCompositorThread
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -401,7 +401,7 @@ MessageLoop
 *
 sCompositorLoop
 =
-nsnull
+nullptr
 ;
 struct
 LayerTreeState
@@ -667,7 +667,7 @@ sCompositorThread
 ;
 sCompositorThread
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -711,12 +711,12 @@ sCompositorThread
 ;
 sCompositorThread
 =
-nsnull
+nullptr
 ;
 }
 sCompositorLoop
 =
-nsnull
+nullptr
 ;
 sCompositorThreadID
 =
@@ -820,7 +820,7 @@ NS_ABORT_IF_FALSE
 sCompositorThread
 !
 =
-nsnull
+nullptr
 |
 |
 sCompositorThreadID
@@ -1933,7 +1933,7 @@ Resolve
 >
 (
 mRoot
-nsnull
+nullptr
 )
 ;
 }
@@ -1948,7 +1948,7 @@ Detach
 >
 (
 mRoot
-nsnull
+nullptr
 )
 ;
 }
@@ -3282,7 +3282,7 @@ nsDisplayTransform
 :
 GetResultingTransformMatrix
 (
-nsnull
+nullptr
 data
 .
 origin
@@ -5417,7 +5417,7 @@ if
 sCompositorMap
 =
 =
-nsnull
+nullptr
 )
 {
 sCompositorMap
@@ -5440,7 +5440,7 @@ if
 sCompositorMap
 !
 =
-nsnull
+nullptr
 )
 {
 NS_ASSERTION
@@ -5469,7 +5469,7 @@ sCompositorMap
 ;
 sCompositorMap
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -5514,7 +5514,7 @@ it
 >
 second
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -5596,7 +5596,7 @@ end
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 sCompositorMap
@@ -6220,7 +6220,7 @@ it
 s
 boned
 return
-nsnull
+nullptr
 ;
 }
 cpcp
@@ -6388,7 +6388,7 @@ cit
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

@@ -610,7 +610,7 @@ nsGkAtoms
 align
 }
 {
-nsnull
+nullptr
 }
 }
 ;

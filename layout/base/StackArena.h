@@ -428,7 +428,7 @@ gStackArena
 ;
 gStackArena
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -495,7 +495,7 @@ kwtable
 which
 is
 either
-nsnull
+nullptr
 or
 the
 name
@@ -2699,7 +2699,7 @@ CSS_PROPERTY_STORES_CALC
 "
 "
 0
-nsnull
+nullptr
 offsetof
 (
 nsStyleOutline
@@ -2730,7 +2730,7 @@ CSS_PROPERTY_STORES_CALC
 "
 "
 0
-nsnull
+nullptr
 offsetof
 (
 nsStyleOutline
@@ -2761,7 +2761,7 @@ CSS_PROPERTY_STORES_CALC
 "
 "
 0
-nsnull
+nullptr
 offsetof
 (
 nsStyleOutline
@@ -2792,7 +2792,7 @@ CSS_PROPERTY_STORES_CALC
 "
 "
 0
-nsnull
+nullptr
 offsetof
 (
 nsStyleOutline
@@ -2819,7 +2819,7 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 "
 "
 VARIANT_HI
-nsnull
+nullptr
 offsetof
 (
 nsStyleText
@@ -2883,7 +2883,7 @@ used
 by
 list
 parsing
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -2931,7 +2931,7 @@ used
 by
 list
 parsing
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -3062,7 +3062,7 @@ used
 by
 list
 parsing
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -3194,7 +3194,7 @@ CSS_PROPERTY_HASHLESS_COLOR_QUIRK
 "
 "
 VARIANT_HC
-nsnull
+nullptr
 offsetof
 (
 nsStyleBackground
@@ -3227,7 +3227,7 @@ used
 by
 list
 parsing
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -3365,7 +3365,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HUO
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -3440,7 +3440,7 @@ CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -3718,7 +3718,7 @@ CSS_PROPERTY_START_IMAGE_LOADS
 "
 "
 VARIANT_HUO
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -3756,7 +3756,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -3775,7 +3775,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -3936,7 +3936,7 @@ CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -4279,7 +4279,7 @@ CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -4497,7 +4497,7 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
 )
@@ -4743,7 +4743,7 @@ CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -4844,7 +4844,7 @@ CSS_PROPERTY_STORES_CALC
 "
 "
 0
-nsnull
+nullptr
 offsetof
 (
 nsStyleBorder
@@ -4873,7 +4873,7 @@ CSS_PROPERTY_STORES_CALC
 "
 "
 0
-nsnull
+nullptr
 offsetof
 (
 nsStyleBorder
@@ -4902,7 +4902,7 @@ CSS_PROPERTY_STORES_CALC
 "
 "
 0
-nsnull
+nullptr
 offsetof
 (
 nsStyleBorder
@@ -4931,7 +4931,7 @@ CSS_PROPERTY_STORES_CALC
 "
 "
 0
-nsnull
+nullptr
 offsetof
 (
 nsStyleBorder
@@ -4952,7 +4952,7 @@ CSS_PROPERTY_STORES_CALC
 VARIANT_AHLP
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStylePosition
@@ -5059,7 +5059,7 @@ CSS_PROPERTY_UNITLESS_LENGTH_QUIRK
 "
 "
 0
-nsnull
+nullptr
 offsetof
 (
 nsStyleDisplay
@@ -5082,7 +5082,7 @@ CSS_PROPERTY_HASHLESS_COLOR_QUIRK
 "
 "
 VARIANT_HC
-nsnull
+nullptr
 offsetof
 (
 nsStyleColor
@@ -5150,7 +5150,7 @@ CSS_PROPERTY_VALUE_AT_LEAST_ONE
 "
 "
 VARIANT_AHI
-nsnull
+nullptr
 offsetof
 (
 nsStyleColumn
@@ -5179,7 +5179,7 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 VARIANT_AHL
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStyleColumn
@@ -5210,7 +5210,7 @@ VARIANT_HL
 VARIANT_NORMAL
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStyleColumn
@@ -5336,7 +5336,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -5356,7 +5356,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -5648,7 +5648,7 @@ defined
 here
 .
 VARIANT_HN
-nsnull
+nullptr
 offsetof
 (
 nsStylePosition
@@ -5726,7 +5726,7 @@ defined
 here
 .
 VARIANT_HN
-nsnull
+nullptr
 offsetof
 (
 nsStylePosition
@@ -5762,7 +5762,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HI
-nsnull
+nullptr
 offsetof
 (
 nsStylePosition
@@ -5870,7 +5870,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -5897,7 +5897,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -5926,7 +5926,7 @@ VARIANT_NORMAL
 VARIANT_INHERIT
 |
 VARIANT_STRING
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -6007,7 +6007,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 VARIANT_HON
 |
 VARIANT_SYSFONT
-nsnull
+nullptr
 offsetof
 (
 nsStyleFont
@@ -6152,7 +6152,7 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 "
 "
 VARIANT_HI
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -6177,7 +6177,7 @@ CSS_PROPERTY_UNITLESS_LENGTH_QUIRK
 VARIANT_AHLP
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStylePosition
@@ -6202,7 +6202,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 "
 "
 0
-nsnull
+nullptr
 offsetof
 (
 nsStyleList
@@ -6240,7 +6240,7 @@ CSS_PROPERTY_UNITLESS_LENGTH_QUIRK
 VARIANT_AHLP
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStylePosition
@@ -6267,7 +6267,7 @@ VARIANT_HL
 VARIANT_NORMAL
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStyleText
@@ -6330,7 +6330,7 @@ CSS_PROPERTY_START_IMAGE_LOADS
 "
 "
 VARIANT_HUO
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -6398,7 +6398,7 @@ CSS_PROPERTY_UNITLESS_LENGTH_QUIRK
 VARIANT_AHLP
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStyleMargin
@@ -6450,7 +6450,7 @@ VARIANT_CALC
 for
 internal
 use
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -6498,7 +6498,7 @@ VARIANT_CALC
 for
 internal
 use
-nsnull
+nullptr
 offsetof
 (
 nsStyleMargin
@@ -6596,7 +6596,7 @@ VARIANT_CALC
 for
 internal
 use
-nsnull
+nullptr
 offsetof
 (
 nsStyleMargin
@@ -6696,7 +6696,7 @@ VARIANT_CALC
 for
 internal
 use
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -6721,7 +6721,7 @@ CSS_PROPERTY_UNITLESS_LENGTH_QUIRK
 VARIANT_AHLP
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStyleMargin
@@ -6742,7 +6742,7 @@ CSS_PROPERTY_PARSE_VALUE
 VARIANT_AHL
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStyleContent
@@ -6780,7 +6780,7 @@ CSS_PROPERTY_STORES_CALC
 VARIANT_HLPO
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStylePosition
@@ -6830,7 +6830,7 @@ CSS_PROPERTY_STORES_CALC
 VARIANT_AHLP
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStylePosition
@@ -6872,7 +6872,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HN
-nsnull
+nullptr
 offsetof
 (
 nsStyleDisplay
@@ -6910,7 +6910,7 @@ CSS_PROPERTY_VALUE_AT_LEAST_ONE
 "
 "
 VARIANT_HI
-nsnull
+nullptr
 )
 CSS_PROP_SHORTHAND
 (
@@ -6989,7 +6989,7 @@ CSS_PROPERTY_PARSE_VALUE
 VARIANT_HL
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStyleOutline
@@ -7068,7 +7068,7 @@ CSS_PROPERTY_UNITLESS_LENGTH_QUIRK
 VARIANT_HLP
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStylePadding
@@ -7122,7 +7122,7 @@ VARIANT_CALC
 for
 internal
 use
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -7172,7 +7172,7 @@ VARIANT_CALC
 for
 internal
 use
-nsnull
+nullptr
 offsetof
 (
 nsStylePadding
@@ -7272,7 +7272,7 @@ VARIANT_CALC
 for
 internal
 use
-nsnull
+nullptr
 offsetof
 (
 nsStylePadding
@@ -7374,7 +7374,7 @@ VARIANT_CALC
 for
 internal
 use
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -7401,7 +7401,7 @@ CSS_PROPERTY_UNITLESS_LENGTH_QUIRK
 VARIANT_HLP
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStylePadding
@@ -7420,7 +7420,7 @@ CSS_PROPERTY_PARSE_VALUE
 VARIANT_AUTO
 |
 VARIANT_IDENTIFIER
-nsnull
+nullptr
 )
 CSS_PROP_DISPLAY
 (
@@ -7526,7 +7526,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -7558,7 +7558,7 @@ CSS_PROPERTY_UNITLESS_LENGTH_QUIRK
 VARIANT_AHLP
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStylePosition
@@ -7800,7 +7800,7 @@ CSS_PROPERTY_STORES_CALC
 VARIANT_HLP
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStyleText
@@ -7855,7 +7855,7 @@ nonnegative
 "
 "
 0
-nsnull
+nullptr
 offsetof
 (
 nsStyleText
@@ -7886,7 +7886,7 @@ VARIANT_AUTO
 VARIANT_NONE
 |
 VARIANT_INHERIT
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -7973,7 +7973,7 @@ VARIANT_INHERIT
 VARIANT_LENGTH
 |
 VARIANT_POSITIVE_DIMENSION
-nsnull
+nullptr
 offsetof
 (
 nsStyleDisplay
@@ -8030,7 +8030,7 @@ CSS_PROPERTY_UNITLESS_LENGTH_QUIRK
 VARIANT_AHLP
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStylePosition
@@ -8066,7 +8066,7 @@ used
 by
 list
 parsing
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -8091,7 +8091,7 @@ used
 by
 list
 parsing
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -8118,7 +8118,7 @@ used
 only
 in
 shorthand
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -8392,7 +8392,7 @@ CSS_PROPERTY_VALUE_AT_LEAST_ONE
 "
 "
 VARIANT_HI
-nsnull
+nullptr
 )
 CSS_PROP_POSITION
 (
@@ -8478,7 +8478,7 @@ VARIANT_HL
 VARIANT_NORMAL
 |
 VARIANT_CALC
-nsnull
+nullptr
 offsetof
 (
 nsStyleText
@@ -8531,7 +8531,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_AHI
-nsnull
+nullptr
 offsetof
 (
 nsStylePosition
@@ -8610,7 +8610,7 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 "
 "
 VARIANT_HN
-nsnull
+nullptr
 offsetof
 (
 nsStyleXUL
@@ -8696,7 +8696,7 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 "
 "
 VARIANT_HI
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -8795,7 +8795,7 @@ style
 sheet
 .
 VARIANT_HI
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -8823,7 +8823,7 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -8851,7 +8851,7 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -8868,7 +8868,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HUO
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -8959,7 +8959,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 "
 "
 0
-nsnull
+nullptr
 offsetof
 (
 nsStyleSVG
@@ -8978,7 +8978,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HN
-nsnull
+nullptr
 offsetof
 (
 nsStyleSVG
@@ -9014,7 +9014,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HUO
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -9029,7 +9029,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HC
-nsnull
+nullptr
 offsetof
 (
 nsStyleSVGReset
@@ -9048,7 +9048,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HN
-nsnull
+nullptr
 offsetof
 (
 nsStyleSVGReset
@@ -9086,7 +9086,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HC
-nsnull
+nullptr
 offsetof
 (
 nsStyleSVGReset
@@ -9114,7 +9114,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HUO
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -9129,7 +9129,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HUO
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -9144,7 +9144,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HUO
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -9157,7 +9157,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HUO
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -9191,7 +9191,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HC
-nsnull
+nullptr
 offsetof
 (
 nsStyleSVGReset
@@ -9210,7 +9210,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HN
-nsnull
+nullptr
 offsetof
 (
 nsStyleSVGReset
@@ -9227,7 +9227,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 "
 "
 0
-nsnull
+nullptr
 offsetof
 (
 nsStyleSVG
@@ -9258,7 +9258,7 @@ restrictions
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 /
 *
@@ -9283,7 +9283,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HLPN
-nsnull
+nullptr
 offsetof
 (
 nsStyleSVG
@@ -9342,7 +9342,7 @@ CSS_PROPERTY_VALUE_AT_LEAST_ONE
 "
 "
 VARIANT_HN
-nsnull
+nullptr
 offsetof
 (
 nsStyleSVG
@@ -9361,7 +9361,7 @@ CSS_PROPERTY_PARSE_VALUE
 "
 "
 VARIANT_HN
-nsnull
+nullptr
 offsetof
 (
 nsStyleSVG
@@ -9382,7 +9382,7 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 "
 "
 VARIANT_HLPN
-nsnull
+nullptr
 offsetof
 (
 nsStyleSVG
@@ -9550,7 +9550,7 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -9566,7 +9566,7 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -9582,7 +9582,7 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
 0
-nsnull
+nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )

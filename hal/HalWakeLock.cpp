@@ -311,7 +311,7 @@ true
 ;
 sLockTable
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

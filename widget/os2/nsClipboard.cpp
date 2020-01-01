@@ -1053,7 +1053,7 @@ void
 *
 pMozData
 =
-nsnull
+nullptr
 ;
 PRUint32
 NumOfBytes
@@ -1217,7 +1217,7 @@ char
 *
 pByteMem
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1231,7 +1231,7 @@ PPVOID
 &
 pByteMem
 )
-nsnull
+nullptr
 NumOfBytes
 +
 sizeof
@@ -1366,7 +1366,7 @@ UniChar
 *
 pUnicodeMem
 =
-nsnull
+nullptr
 ;
 PRUint32
 NumOfChars
@@ -1390,7 +1390,7 @@ PPVOID
 &
 pUnicodeMem
 )
-nsnull
+nullptr
 NumOfBytes
 +
 sizeof
@@ -1488,7 +1488,7 @@ char
 *
 pByteMem
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1502,7 +1502,7 @@ PPVOID
 &
 pByteMem
 )
-nsnull
+nullptr
 NumOfBytes
 +
 1
@@ -1717,7 +1717,7 @@ data
 PBYTE
 pBinaryMem
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1731,7 +1731,7 @@ PPVOID
 &
 pBinaryMem
 )
-nsnull
+nullptr
 NumOfBytes
 +
 sizeof

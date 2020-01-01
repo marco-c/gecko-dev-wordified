@@ -304,7 +304,7 @@ JSContext
 *
 ccx
 =
-nsnull
+nullptr
 ;
 if
 (

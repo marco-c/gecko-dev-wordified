@@ -853,11 +853,11 @@ Clear
 ;
 mDocument
 =
-nsnull
+nullptr
 ;
 mPresShell
 =
-nsnull
+nullptr
 ;
 mTextHash
 .
@@ -4342,7 +4342,7 @@ aThisEvent
 >
 mPackedEvent
 =
-nsnull
+nullptr
 ;
 }
 aThisEvent
@@ -5254,7 +5254,7 @@ AsElement
 (
 )
 :
-nsnull
+nullptr
 ;
 nsAutoString
 text
@@ -6018,11 +6018,11 @@ mInsertedContent
 ;
 mDocument
 =
-nsnull
+nullptr
 ;
 mContainer
 =
-nsnull
+nullptr
 ;
 mInsertedContent
 .

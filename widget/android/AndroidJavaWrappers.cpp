@@ -4021,7 +4021,7 @@ NS_ASSERTION
 wrapped_obj
 =
 =
-nsnull
+nullptr
 "
 Init
 called
@@ -4126,7 +4126,7 @@ NS_ABORT_IF_FALSE
 wrapped_obj
 =
 =
-nsnull
+nullptr
 "
 Init
 called
@@ -4159,7 +4159,7 @@ NS_ASSERTION
 wrapped_obj
 =
 =
-nsnull
+nullptr
 "
 Init
 called
@@ -4815,7 +4815,7 @@ GetEnv
 )
 )
 return
-nsnull
+nullptr
 ;
 jobject
 ret
@@ -4844,7 +4844,7 @@ CheckForException
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 ret
@@ -4876,7 +4876,7 @@ GetEnv
 )
 )
 return
-nsnull
+nullptr
 ;
 jobject
 ret
@@ -4905,7 +4905,7 @@ CheckForException
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 ret
@@ -4937,7 +4937,7 @@ GetEnv
 )
 )
 return
-nsnull
+nullptr
 ;
 jobject
 ret
@@ -4966,7 +4966,7 @@ CheckForException
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 ret
@@ -4998,7 +4998,7 @@ GetEnv
 )
 )
 return
-nsnull
+nullptr
 ;
 jobject
 ret
@@ -5027,7 +5027,7 @@ CheckForException
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 ret
@@ -5583,7 +5583,7 @@ NS_ASSERTION
 wrapped_obj
 =
 =
-nsnull
+nullptr
 "
 Init
 called

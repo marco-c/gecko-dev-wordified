@@ -184,11 +184,11 @@ ArchiveReader
 :
 mBlob
 (
-nsnull
+nullptr
 )
 mWindow
 (
-nsnull
+nullptr
 )
 mStatus
 (

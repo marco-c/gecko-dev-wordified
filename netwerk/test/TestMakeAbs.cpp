@@ -323,8 +323,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsCOMPtr
@@ -356,7 +356,7 @@ registrar
 >
 AutoRegister
 (
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -397,7 +397,7 @@ serv
 NewURI
 (
 base
-nsnull
+nullptr
 getter_AddRefs
 (
 uri
@@ -501,7 +501,7 @@ call
 NS_ShutdownXPCOM
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

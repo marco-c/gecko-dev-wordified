@@ -412,7 +412,7 @@ char
 *
 suggestedVersion
 =
-nsnull
+nullptr
 bool
 ownDevices
 =

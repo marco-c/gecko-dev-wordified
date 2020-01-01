@@ -171,11 +171,11 @@ aNodeInfo
 )
 mElements
 (
-nsnull
+nullptr
 )
 mFirstLegend
 (
-nsnull
+nullptr
 )
 {
 /
@@ -463,8 +463,8 @@ nsContentList
 (
 this
 MatchListedElements
-nsnull
-nsnull
+nullptr
+nullptr
 true
 )
 ;
@@ -656,8 +656,8 @@ nsContentList
 (
 this
 MatchListedElements
-nsnull
-nsnull
+nullptr
+nullptr
 true
 )
 ;
@@ -908,7 +908,7 @@ GetNextSibling
 ;
 mFirstLegend
 =
-nsnull
+nullptr
 ;
 firstLegendHasChanged
 =
@@ -1052,8 +1052,8 @@ nsContentList
 (
 this
 MatchListedElements
-nsnull
-nsnull
+nullptr
+nullptr
 true
 )
 ;

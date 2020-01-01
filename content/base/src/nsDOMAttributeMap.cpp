@@ -348,7 +348,7 @@ aData
 >
 SetMap
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -368,7 +368,7 @@ mAttributeCache
 Enumerate
 (
 RemoveMapRef
-nsnull
+nullptr
 )
 ;
 }
@@ -385,12 +385,12 @@ mAttributeCache
 Enumerate
 (
 RemoveMapRef
-nsnull
+nullptr
 )
 ;
 mContent
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
@@ -658,7 +658,7 @@ node
 >
 SetMap
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -702,7 +702,7 @@ with
 aNodeInfo
 =
 =
-nsnull
+nullptr
 !
 "
 )
@@ -719,14 +719,14 @@ with
 aReturn
 =
 =
-nsnull
+nullptr
 "
 )
 ;
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsAttrKey
 attr
@@ -828,7 +828,7 @@ newAttr
 new
 nsDOMAttribute
 (
-nsnull
+nullptr
 ni
 .
 forget
@@ -870,7 +870,7 @@ node
 >
 SetMap
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -923,7 +923,7 @@ with
 aNodeInfo
 =
 =
-nsnull
+nullptr
 !
 "
 )
@@ -1063,7 +1063,7 @@ false
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -1190,7 +1190,7 @@ NS_OK
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1609,7 +1609,7 @@ NodeInfoManager
 GetNodeInfo
 (
 name
-nsnull
+nullptr
 kNameSpaceID_None
 nsIDOMNode
 :
@@ -1799,7 +1799,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1909,7 +1909,7 @@ nsDOMAttribute
 *
 node
 =
-nsnull
+nullptr
 ;
 const
 nsAttrName
@@ -2168,7 +2168,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2405,7 +2405,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsresult
 rv

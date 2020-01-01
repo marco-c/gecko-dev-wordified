@@ -792,7 +792,7 @@ WebGLMemoryMultiReporterWrapper
 :
 sUniqueInstance
 =
-nsnull
+nullptr
 ;
 WebGLMemoryMultiReporterWrapper
 *

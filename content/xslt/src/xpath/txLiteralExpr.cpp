@@ -218,7 +218,7 @@ aPos
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 void

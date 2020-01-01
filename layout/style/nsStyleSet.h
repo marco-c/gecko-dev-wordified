@@ -793,7 +793,7 @@ will
 /
 /
 return
-nsnull
+nullptr
 if
 there
 are

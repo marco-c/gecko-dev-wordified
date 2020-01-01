@@ -2196,7 +2196,7 @@ eMathMLFrameType
 *
 aMathMLFrameType
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -2753,7 +2753,7 @@ aStop
 aStop
 =
 =
-nsnull
+nullptr
 meaning
 all
 next
@@ -2772,7 +2772,7 @@ if
 aFirst
 =
 =
-nsnull
+nullptr
 .
 *
 /
@@ -2787,7 +2787,7 @@ nsIFrame
 *
 aStop
 =
-nsnull
+nullptr
 )
 ;
 private

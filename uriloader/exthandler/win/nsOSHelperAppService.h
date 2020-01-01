@@ -414,7 +414,7 @@ char
 *
 aTypeHint
 =
-nsnull
+nullptr
 )
 ;
 nsresult

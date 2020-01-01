@@ -326,7 +326,7 @@ data
 *
 oldData
 =
-nsnull
+nullptr
 ;
 *
 oldFlags

@@ -198,7 +198,7 @@ aLast
 >
 mContent
 =
-nsnull
+nullptr
 ;
 aFirst
 -
@@ -210,14 +210,14 @@ aLast
 >
 mChild
 =
-nsnull
+nullptr
 ;
 NS_PRECONDITION
 (
 aContent
 !
 =
-nsnull
+nullptr
 "
 no
 content
@@ -361,7 +361,7 @@ aLast
 >
 mChild
 =
-nsnull
+nullptr
 ;
 }
 return

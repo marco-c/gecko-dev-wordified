@@ -227,7 +227,7 @@ NS_ENSURE_TRUE
 aBuf
 !
 =
-nsnull
+nullptr
 NS_ERROR_NULL_POINTER
 )
 ;

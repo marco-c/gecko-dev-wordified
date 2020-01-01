@@ -834,7 +834,7 @@ else
 {
 container
 =
-nsnull
+nullptr
 ;
 document
 =
@@ -969,7 +969,7 @@ else
 {
 container
 =
-nsnull
+nullptr
 ;
 document
 =
@@ -1062,7 +1062,7 @@ aNode
 >
 mSlots
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -2163,7 +2163,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2184,7 +2184,7 @@ Clone
 (
 aNode
 aDeep
-nsnull
+nullptr
 nodesWithProperties
 getter_AddRefs
 (
@@ -2363,7 +2363,7 @@ parent
 *
 aResult
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2651,7 +2651,7 @@ nsGenericElement
 aNode
 )
 :
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

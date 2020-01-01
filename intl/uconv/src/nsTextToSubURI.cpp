@@ -214,7 +214,7 @@ _retval
 {
 if
 (
-nsnull
+nullptr
 =
 =
 _retval
@@ -225,7 +225,7 @@ NS_ERROR_NULL_POINTER
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -301,7 +301,7 @@ nsIUnicodeEncoder
 :
 :
 kOnError_Replace
-nsnull
+nullptr
 (
 PRUnichar
 )
@@ -386,7 +386,7 @@ outlen
 }
 if
 (
-nsnull
+nullptr
 =
 =
 pBuf
@@ -513,7 +513,7 @@ url_XPAlphas
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 *
@@ -571,7 +571,7 @@ _retval
 {
 if
 (
-nsnull
+nullptr
 =
 =
 _retval
@@ -581,7 +581,7 @@ NS_ERROR_NULL_POINTER
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 text
@@ -613,7 +613,7 @@ text
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -640,7 +640,7 @@ text
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 unescaped
@@ -722,7 +722,7 @@ PRUnichar
 *
 pBuf
 =
-nsnull
+nullptr
 ;
 PRInt32
 len
@@ -778,7 +778,7 @@ PRUnichar
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 pBuf

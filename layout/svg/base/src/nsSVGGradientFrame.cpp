@@ -768,7 +768,7 @@ GetStopFrame
 (
 -
 1
-nsnull
+nullptr
 )
 ;
 }
@@ -820,7 +820,7 @@ nsIFrame
 *
 stopFrame
 =
-nsnull
+nullptr
 ;
 GetStopFrame
 (
@@ -1690,7 +1690,7 @@ IsSingular
 )
 )
 return
-nsnull
+nullptr
 ;
 PRUint32
 nStops
@@ -1831,7 +1831,7 @@ CairoStatus
 )
 )
 return
-nsnull
+nullptr
 ;
 PRUint16
 aSpread
@@ -2050,7 +2050,7 @@ if
 mNoHRefURI
 )
 return
-nsnull
+nullptr
 ;
 nsSVGPaintingProperty
 *
@@ -2142,7 +2142,7 @@ mNoHRefURI
 true
 ;
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -2217,7 +2217,7 @@ if
 property
 )
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -2237,7 +2237,7 @@ if
 result
 )
 return
-nsnull
+nullptr
 ;
 nsIAtom
 *
@@ -2270,7 +2270,7 @@ nsGkAtoms
 svgRadialGradientFrame
 )
 return
-nsnull
+nullptr
 ;
 return
 static_cast
@@ -2306,7 +2306,7 @@ if
 referenced
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -2347,7 +2347,7 @@ attribute
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2377,7 +2377,7 @@ nsIFrame
 *
 stopFrame
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -3085,7 +3085,7 @@ nsSVGSVGElement
 *
 >
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -3726,7 +3726,7 @@ lengthElement
 GetRadialGradientWithLength
 (
 aIndex
-nsnull
+nullptr
 )
 ;
 return
@@ -3863,7 +3863,7 @@ nsSVGSVGElement
 *
 >
 (
-nsnull
+nullptr
 )
 )
 ;

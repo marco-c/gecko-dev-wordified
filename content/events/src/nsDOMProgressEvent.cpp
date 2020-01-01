@@ -302,7 +302,7 @@ aEvent
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 it

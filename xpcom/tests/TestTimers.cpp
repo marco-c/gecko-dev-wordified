@@ -520,7 +520,7 @@ nsIThread
 *
 notifiedThread
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

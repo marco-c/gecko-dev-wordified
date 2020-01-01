@@ -1217,7 +1217,7 @@ then
 aFirstFrameOnLine
 will
 be
-nsnull
+nullptr
 and
 *
 aNumFramesOnLine
@@ -1913,7 +1913,7 @@ coord
 aY
 '
 or
-nsnull
+nullptr
 if
 you
 must
@@ -2103,7 +2103,7 @@ ClearRowCursor
 If
 we
 return
-nsnull
+nullptr
 then
 we
 *
@@ -2312,7 +2312,7 @@ bool
 *
 aPageBreakBeforeEnd
 =
-nsnull
+nullptr
 )
 ;
 nsresult

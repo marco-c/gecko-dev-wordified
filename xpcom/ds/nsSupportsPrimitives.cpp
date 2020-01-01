@@ -241,7 +241,7 @@ nsSupportsIDImpl
 :
 mData
 (
-nsnull
+nullptr
 )
 {
 }
@@ -331,7 +331,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 aData
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -386,7 +386,7 @@ nsID
 else
 mData
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2757,7 +2757,7 @@ pointer
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 (
@@ -4213,7 +4213,7 @@ nsSupportsVoidImpl
 :
 mData
 (
-nsnull
+nullptr
 )
 {
 }
@@ -4455,7 +4455,7 @@ nsSupportsInterfacePointerImpl
 :
 mIID
 (
-nsnull
+nullptr
 )
 {
 }
@@ -4623,7 +4623,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 aIID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -4678,7 +4678,7 @@ nsID
 else
 mIID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

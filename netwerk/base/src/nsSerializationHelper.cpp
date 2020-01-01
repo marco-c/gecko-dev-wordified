@@ -440,7 +440,7 @@ str
 Length
 (
 )
-nsnull
+nullptr
 )
 ;
 if

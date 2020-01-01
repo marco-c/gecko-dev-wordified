@@ -317,7 +317,7 @@ rv
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 \
 return
@@ -493,7 +493,7 @@ rv
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 \
 return
@@ -565,7 +565,7 @@ NS_CLASSINFO_NAME
 _class
 )
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -910,7 +910,7 @@ _hasclassif
 _constructorcid
 )
 \
-nsnull
+nullptr
 \
 }
 ;
@@ -922,7 +922,7 @@ RegisterDOMClassInfo
 (
 #
 _class
-nsnull
+nullptr
 _proto
 \
 interfaces
@@ -975,7 +975,7 @@ _constructorcid
 NS_DOMCI_EXTENSION_ENTRY_END_HELPER
 (
 _class
-nsnull
+nullptr
 _hasclassif
 \
 _constructorcid

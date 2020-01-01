@@ -990,7 +990,7 @@ is
 fallible
 it
 returns
-nsnull
+nullptr
 on
 out
 -
@@ -1143,7 +1143,7 @@ is
 fallible
 it
 returns
-nsnull
+nullptr
 on
 out
 -
@@ -1308,7 +1308,7 @@ is
 fallible
 it
 returns
-nsnull
+nullptr
 on
 out
 -
@@ -5281,7 +5281,7 @@ that
 location
 *
 or
-nsnull
+nullptr
 if
 there
 is

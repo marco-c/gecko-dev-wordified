@@ -3892,7 +3892,7 @@ PRInt32
 *
 items
 =
-nsnull
+nullptr
 ;
 nsresult
 rv

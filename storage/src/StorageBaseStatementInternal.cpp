@@ -386,7 +386,7 @@ mStatement
 >
 mAsyncStatement
 =
-nsnull
+nullptr
 ;
 }
 (
@@ -624,7 +624,7 @@ mAsyncStatement
 ;
 mAsyncStatement
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -647,7 +647,7 @@ Connection
 *
 rawConnection
 =
-nsnull
+nullptr
 ;
 mConnection
 .
@@ -976,7 +976,7 @@ NS_DISPATCH_NORMAL
 {
 mAsyncStatement
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -1009,7 +1009,7 @@ mAsyncStatement
 ;
 mAsyncStatement
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP

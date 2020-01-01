@@ -1145,7 +1145,7 @@ false
 }
 aCOMPtr
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1331,7 +1331,7 @@ mFileInfoEntries
 EnumerateRead
 (
 FileInfoUpdateCallback
-nsnull
+nullptr
 )
 ;
 }

@@ -339,7 +339,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsAutoString
 locale
@@ -359,7 +359,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 AccessibleWrap
 :
@@ -494,7 +494,7 @@ IsDoc
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -511,7 +511,7 @@ GSList
 *
 attributes
 =
-nsnull
+nullptr
 ;
 DocAccessible
 *
@@ -657,7 +657,7 @@ IsDoc
 )
 )
 return
-nsnull
+nullptr
 ;
 DocAccessible
 *
@@ -737,12 +737,12 @@ attrValue
 ;
 else
 return
-nsnull
+nullptr
 ;
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -752,7 +752,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 AccessibleWrap
 :

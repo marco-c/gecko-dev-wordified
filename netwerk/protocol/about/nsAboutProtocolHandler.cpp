@@ -522,7 +522,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1424,7 +1424,7 @@ url
 *
 result
 =
-nsnull
+nullptr
 ;
 url
 .
@@ -1456,7 +1456,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -1749,7 +1749,7 @@ WriteBoolean
 mBaseURI
 !
 =
-nsnull
+nullptr
 )
 ;
 if
@@ -2070,7 +2070,7 @@ call
 NS_ENSURE_TRUE
 (
 mInnerURI
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -2118,7 +2118,7 @@ rv
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsNestedAboutURI

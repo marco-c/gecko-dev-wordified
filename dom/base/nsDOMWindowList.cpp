@@ -432,7 +432,7 @@ item
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -615,7 +615,7 @@ item
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -726,8 +726,8 @@ get
 )
 false
 false
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 item

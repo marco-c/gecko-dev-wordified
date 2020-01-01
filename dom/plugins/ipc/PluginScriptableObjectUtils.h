@@ -249,7 +249,7 @@ object
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -262,7 +262,7 @@ parent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -396,7 +396,7 @@ here
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -471,7 +471,7 @@ module
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -531,7 +531,7 @@ instance
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -703,7 +703,7 @@ PluginInstanceParent
 *
 aInstance
 =
-nsnull
+nullptr
 )
 ;
 template

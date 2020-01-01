@@ -132,7 +132,7 @@ nsMozTouchEvent
 (
 false
 0
-nsnull
+nullptr
 0
 )
 )
@@ -222,7 +222,7 @@ mEvent
 ;
 mEvent
 =
-nsnull
+nullptr
 ;
 }
 }

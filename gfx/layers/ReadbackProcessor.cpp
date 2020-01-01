@@ -269,7 +269,7 @@ HasNonIntegerTranslation
 )
 )
 return
-nsnull
+nullptr
 ;
 nsIntPoint
 transformOffset
@@ -340,7 +340,7 @@ HasNonIntegerTranslation
 )
 )
 return
-nsnull
+nullptr
 ;
 nsIntPoint
 backgroundOffset
@@ -429,7 +429,7 @@ rectInBackground
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -462,7 +462,7 @@ CONTENT_OPAQUE
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -507,7 +507,7 @@ GetSize
 )
 )
 return
-nsnull
+nullptr
 ;
 Layer
 :
@@ -542,7 +542,7 @@ Layer
 TYPE_THEBES
 )
 return
-nsnull
+nullptr
 ;
 *
 aOffset
@@ -556,7 +556,7 @@ l
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -660,7 +660,7 @@ aLayer
 >
 mBackgroundLayer
 =
-nsnull
+nullptr
 ;
 aLayer
 -

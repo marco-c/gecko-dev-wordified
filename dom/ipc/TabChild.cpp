@@ -669,11 +669,11 @@ aAppId
 :
 mRemoteFrame
 (
-nsnull
+nullptr
 )
 mTabChildGlobal
 (
-nsnull
+nullptr
 )
 mChromeFlags
 (
@@ -1594,7 +1594,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1847,7 +1847,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -2508,7 +2508,7 @@ Destroy
 ;
 mRemoteFrame
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2588,7 +2588,7 @@ mTabChildGlobal
 >
 mMessageManager
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2621,7 +2621,7 @@ webBrowser
 >
 SetContainerWindow
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2670,7 +2670,7 @@ mTabChildGlobal
 >
 mTabChild
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4558,7 +4558,7 @@ unused
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -4733,7 +4733,7 @@ unused
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -4898,8 +4898,8 @@ mTabChildGlobal
 aMessage
 false
 aJSON
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -4952,8 +4952,8 @@ getter_AddRefs
 (
 event
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -5375,7 +5375,7 @@ mWidget
 >
 Create
 (
-nsnull
+nullptr
 0
 /
 /
@@ -5390,11 +5390,11 @@ nsIntPoint
 )
 size
 )
-nsnull
+nullptr
 /
 /
 HandleWidgetEvent
-nsnull
+nullptr
 /
 /
 nsDeviceContext
@@ -5456,7 +5456,7 @@ PLayersChild
 *
 shadowManager
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5834,7 +5834,7 @@ NS_OK
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -6028,9 +6028,9 @@ nsFrameMessageManager
 false
 SendSyncMessageToParent
 SendAsyncMessageToParent
-nsnull
+nullptr
 mTabChild
-nsnull
+nullptr
 mTabChild
 -
 >
@@ -6121,7 +6121,7 @@ aContent
 *
 aContent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6196,7 +6196,7 @@ aDocShell
 *
 aDocShell
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6301,7 +6301,7 @@ if
 mTabChild
 )
 return
-nsnull
+nullptr
 ;
 return
 mTabChild
@@ -6327,7 +6327,7 @@ if
 mTabChild
 )
 return
-nsnull
+nullptr
 ;
 return
 mTabChild

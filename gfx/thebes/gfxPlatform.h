@@ -1358,7 +1358,7 @@ implementation
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1614,7 +1614,7 @@ aFontName
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /

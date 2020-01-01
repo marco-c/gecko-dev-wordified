@@ -2626,6 +2626,6 @@ atom
 ;
 }
 return
-nsnull
+nullptr
 ;
 }

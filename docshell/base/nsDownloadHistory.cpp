@@ -467,7 +467,7 @@ NotifyObservers
 (
 aSource
 NS_LINK_VISITED_EVENT_TOPIC
-nsnull
+nullptr
 )
 ;
 }

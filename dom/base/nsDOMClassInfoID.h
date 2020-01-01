@@ -932,7 +932,7 @@ foundInterface
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 \
 return
@@ -1009,7 +1009,7 @@ foundInterface
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 \
 return

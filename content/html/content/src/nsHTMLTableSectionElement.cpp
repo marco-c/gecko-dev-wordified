@@ -513,7 +513,7 @@ aValue
 *
 aValue
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1408,7 +1408,7 @@ nsGkAtoms
 height
 }
 {
-nsnull
+nullptr
 }
 }
 ;

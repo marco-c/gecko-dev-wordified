@@ -608,7 +608,7 @@ QWidget
 *
 aParent
 =
-nsnull
+nullptr
 )
 :
 QGraphicsView
@@ -1227,7 +1227,7 @@ QWidget
 *
 aParent
 =
-nsnull
+nullptr
 )
 :
 MWindow

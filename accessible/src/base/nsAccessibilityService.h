@@ -1082,7 +1082,7 @@ bool
 *
 aIsSubtreeHidden
 =
-nsnull
+nullptr
 )
 ;
 private

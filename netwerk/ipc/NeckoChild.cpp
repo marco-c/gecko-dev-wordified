@@ -205,7 +205,7 @@ PNeckoChild
 *
 gNeckoChild
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -396,7 +396,7 @@ gNeckoChild
 ;
 gNeckoChild
 =
-nsnull
+nullptr
 ;
 alreadyDestroyed
 =
@@ -595,7 +595,7 @@ called
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -686,7 +686,7 @@ called
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -844,7 +844,7 @@ called
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool

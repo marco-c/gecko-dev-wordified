@@ -201,7 +201,7 @@ GetDirectory
 NS_ENSURE_TRUE
 (
 directory
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -227,7 +227,7 @@ Id
 NS_ENSURE_TRUE
 (
 file
-nsnull
+nullptr
 )
 ;
 return
@@ -360,7 +360,7 @@ newFile
 -
 >
 mFile
-nsnull
+nullptr
 )
 ;
 newFile
@@ -474,7 +474,7 @@ FLAGS_DEFER_OPEN
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 nsCOMPtr

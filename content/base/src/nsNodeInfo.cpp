@@ -287,7 +287,7 @@ nsNodeInfo
 :
 sNodeInfoPool
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -336,7 +336,7 @@ if
 sNodeInfoPool
 )
 return
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -368,10 +368,10 @@ sNodeInfoPool
 ;
 sNodeInfoPool
 =
-nsnull
+nullptr
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -413,7 +413,7 @@ aExtraName
 aOwnerManager
 )
 :
-nsnull
+nullptr
 ;
 }
 nsNodeInfo
@@ -1174,7 +1174,7 @@ sNodeInfoPool
 ;
 sNodeInfoPool
 =
-nsnull
+nullptr
 ;
 }
 void

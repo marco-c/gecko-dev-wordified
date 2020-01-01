@@ -163,7 +163,7 @@ aResult
 >
 mEvent
 =
-nsnull
+nullptr
 ;
 nsString
 type
@@ -191,8 +191,8 @@ nsEventDispatcher
 :
 CreateEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 type
 getter_AddRefs
 (

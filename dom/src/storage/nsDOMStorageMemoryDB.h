@@ -250,7 +250,7 @@ nsDOMStoragePersistentDB
 *
 aPreloadDB
 =
-nsnull
+nullptr
 )
 ;
 /

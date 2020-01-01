@@ -170,7 +170,7 @@ if
 it
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -262,7 +262,7 @@ UnicharBufferImpl
 {
 if
 (
-nsnull
+nullptr
 !
 =
 mBuffer
@@ -275,7 +275,7 @@ mBuffer
 ;
 mBuffer
 =
-nsnull
+nullptr
 ;
 }
 mLength
@@ -372,7 +372,7 @@ aNewSize
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 newbuf

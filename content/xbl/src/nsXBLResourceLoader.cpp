@@ -338,11 +338,11 @@ aResources
 )
 mResourceList
 (
-nsnull
+nullptr
 )
 mLastResource
 (
-nsnull
+nullptr
 )
 mLoadingResources
 (
@@ -645,7 +645,7 @@ url
 doc
 docPrincipal
 docURL
-nsnull
+nullptr
 nsIRequest
 :
 :
@@ -885,7 +885,7 @@ mResourceList
 ;
 mResourceList
 =
-nsnull
+nullptr
 ;
 }
 /

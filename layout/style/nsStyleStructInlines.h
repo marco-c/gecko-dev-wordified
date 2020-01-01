@@ -284,7 +284,7 @@ imgIContainer
 *
 subImage
 =
-nsnull
+nullptr
 ;
 if
 (

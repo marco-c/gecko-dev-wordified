@@ -447,7 +447,7 @@ return
 mGlobalPrinterList
 !
 =
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -549,7 +549,7 @@ GlobalPrinters
 :
 mGlobalPrinterList
 =
-nsnull
+nullptr
 ;
 ULONG
 GlobalPrinters
@@ -585,11 +585,11 @@ nsDeviceContextSpecOS2
 :
 mQueue
 (
-nsnull
+nullptr
 )
 mPrintDC
 (
-nsnull
+nullptr
 )
 mPrintingStarted
 (
@@ -946,7 +946,7 @@ if
 aPrintSettings
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -1423,13 +1423,13 @@ PRUnichar
 *
 printer
 =
-nsnull
+nullptr
 ;
 PRUnichar
 *
 printfile
 =
-nsnull
+nullptr
 ;
 mPrintSettings
 -
@@ -1505,7 +1505,7 @@ if
 printfile
 !
 =
-nsnull
+nullptr
 )
 {
 /
@@ -1545,7 +1545,7 @@ if
 printer
 !
 =
-nsnull
+nullptr
 )
 strcpy
 (
@@ -1724,7 +1724,7 @@ if
 printfile
 !
 =
-nsnull
+nullptr
 )
 nsMemory
 :
@@ -1739,7 +1739,7 @@ if
 printer
 !
 =
-nsnull
+nullptr
 )
 nsMemory
 :
@@ -2494,7 +2494,7 @@ char
 *
 filename
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2943,7 +2943,7 @@ newSurface
 *
 surface
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -3017,7 +3017,7 @@ Length
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsAutoCharBuffer
@@ -3573,7 +3573,7 @@ aPrinterNameList
 *
 aPrinterNameList
 =
-nsnull
+nullptr
 ;
 nsDeviceContextSpecOS2
 :
@@ -4151,7 +4151,7 @@ GetRootBranch
 )
 =
 =
-nsnull
+nullptr
 )
 ;
 for
@@ -4347,7 +4347,7 @@ aDefaultPrinterName
 {
 aDefaultPrinterName
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -4468,7 +4468,7 @@ mGlobalPrinterList
 ;
 mGlobalPrinterList
 =
-nsnull
+nullptr
 ;
 mGlobalNumPrinters
 =

@@ -1821,7 +1821,7 @@ kidResult
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void

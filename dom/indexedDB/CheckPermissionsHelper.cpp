@@ -788,7 +788,7 @@ nsIRunnable
 this
 )
 TOPIC_PERMISSIONS_PROMPT
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -986,7 +986,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_AVAILABLE

@@ -164,7 +164,7 @@ ADDING
 )
 mSortedHashTable
 (
-nsnull
+nullptr
 )
 {
 memset
@@ -237,7 +237,7 @@ HashTableMatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-nsnull
+nullptr
 }
 ;
 /
@@ -392,7 +392,7 @@ NS_ENSURE_TRUE
 i
 !
 =
-nsnull
+nullptr
 false
 )
 ;
@@ -461,7 +461,7 @@ PL_DHashTableInit
 mHashTable
 &
 HashTableOps
-nsnull
+nullptr
 sizeof
 (
 HashTableEntry
@@ -561,7 +561,7 @@ entry
 mItems
 =
 =
-nsnull
+nullptr
 )
 "
 entry
@@ -969,7 +969,7 @@ mState
 DONE
 ;
 return
-nsnull
+nullptr
 ;
 }
 PL_DHashTableEnumerate
@@ -994,7 +994,7 @@ sh
 ]
 )
 SortArray
-nsnull
+nullptr
 )
 ;
 mSortedHashTable
@@ -1118,6 +1118,6 @@ DONE
 ;
 }
 return
-nsnull
+nullptr
 ;
 }

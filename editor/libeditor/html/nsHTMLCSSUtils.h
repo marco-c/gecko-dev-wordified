@@ -133,7 +133,7 @@ h
 for
 nsAString
 nsresult
-nsnull
+nullptr
 #
 include
 "
@@ -477,7 +477,7 @@ nsAString
 *
 aValue
 =
-nsnull
+nullptr
 )
 ;
 bool
@@ -498,7 +498,7 @@ nsAString
 *
 aValue
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -1145,7 +1145,7 @@ an
 attribute
 name
 or
-nsnull
+nullptr
 if
 irrelevant
 *
@@ -1258,7 +1258,7 @@ an
 attribute
 name
 or
-nsnull
+nullptr
 if
 irrelevant
 *
@@ -1431,7 +1431,7 @@ an
 attribute
 name
 or
-nsnull
+nullptr
 if
 irrelevant
 *
@@ -1600,7 +1600,7 @@ an
 attribute
 name
 or
-nsnull
+nullptr
 if
 irrelevant
 *
@@ -2349,7 +2349,7 @@ an
 attribute
 name
 or
-nsnull
+nullptr
 if
 irrelevant
 *

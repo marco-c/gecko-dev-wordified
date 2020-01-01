@@ -562,7 +562,7 @@ mShutdown
 true
 ;
 return
-nsnull
+nullptr
 ;
 }
 parent
@@ -641,7 +641,7 @@ mShutdown
 true
 ;
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -824,7 +824,7 @@ Delete
 ;
 mSubprocess
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -2144,7 +2144,7 @@ identifier
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 PluginIdentifierParent
@@ -2285,7 +2285,7 @@ aFuncs
 >
 javaClass
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2592,7 +2592,7 @@ instance
 >
 pdata
 =
-nsnull
+nullptr
 ;
 unused
 <
@@ -3247,7 +3247,7 @@ mNPNIface
 >
 uagent
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -3362,7 +3362,7 @@ chars
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 string
@@ -3429,7 +3429,7 @@ temporary
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -4675,7 +4675,7 @@ instance
 >
 pdata
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -4959,7 +4959,7 @@ parent
 :
 _getvalue
 (
-nsnull
+nullptr
 aVariable
 &
 boolVal
@@ -5479,7 +5479,7 @@ CrashReporterParent
 #
 else
 return
-nsnull
+nullptr
 ;
 #
 endif

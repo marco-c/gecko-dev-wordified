@@ -407,7 +407,7 @@ WebBrowserChrome
 {
 mNativeWindow
 =
-nsnull
+nullptr
 ;
 mSizeSet
 =
@@ -459,7 +459,7 @@ aBrowser
 *
 aBrowser
 =
-nsnull
+nullptr
 ;
 mWebBrowser
 =
@@ -536,7 +536,7 @@ browserBaseWindow
 InitWindow
 (
 mNativeWindow
-nsnull
+nullptr
 aX
 aY
 aCX
@@ -2045,7 +2045,7 @@ WebBrowserChromeUI
 UpdateStatusBarText
 (
 this
-nsnull
+nullptr
 )
 ;
 ContentFinishedLoading
@@ -2598,7 +2598,7 @@ false
 return
 SendHistoryStatusMessage
 (
-nsnull
+nullptr
 "
 purge
 "
@@ -3498,7 +3498,7 @@ aTitle
 *
 aTitle
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED

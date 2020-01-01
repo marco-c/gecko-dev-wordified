@@ -572,8 +572,8 @@ JS_NewObject
 (
 aCx
 aClass
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if

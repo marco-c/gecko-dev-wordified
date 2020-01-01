@@ -2079,7 +2079,7 @@ value
 ;
 ProcessLinkHeader
 (
-nsnull
+nullptr
 value
 )
 ;
@@ -2271,7 +2271,7 @@ getter_AddRefs
 resolvedUri
 )
 aAnchor
-nsnull
+nullptr
 contextUri
 )
 ;
@@ -4152,7 +4152,7 @@ getter_AddRefs
 url
 )
 aHref
-nsnull
+nullptr
 mDocument
 -
 >
@@ -4224,7 +4224,7 @@ aMedia
 aAlternate
 mRunsToCompletion
 ?
-nsnull
+nullptr
 :
 this
 &
@@ -4724,7 +4724,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 PromiseFlatCString
 (
@@ -5319,7 +5319,7 @@ aAction
 *
 aManifestURI
 =
-nsnull
+nullptr
 ;
 *
 aAction
@@ -6934,7 +6934,7 @@ ScrollToRef
 }
 mNotificationTimer
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -7303,7 +7303,7 @@ result
 {
 mNotificationTimer
 =
-nsnull
+nullptr
 ;
 }
 }

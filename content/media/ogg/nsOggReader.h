@@ -1726,7 +1726,7 @@ ogg_packet
 on
 success
 or
-nsnull
+nullptr
 if
 the
 read

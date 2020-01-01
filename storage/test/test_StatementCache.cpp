@@ -988,7 +988,7 @@ db
 >
 AsyncClose
 (
-nsnull
+nullptr
 )
 )
 ;

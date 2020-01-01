@@ -514,7 +514,7 @@ OperatingSystem
 *
 aOS
 =
-nsnull
+nullptr
 )
 ;
 /

@@ -209,7 +209,7 @@ PRLogModuleInfo
 *
 gUrlClassifierStreamUpdaterLog
 =
-nsnull
+nullptr
 ;
 #
 define
@@ -350,11 +350,11 @@ false
 )
 mUpdateUrl
 (
-nsnull
+nullptr
 )
 mChannel
 (
-nsnull
+nullptr
 )
 {
 #
@@ -447,15 +447,15 @@ false
 ;
 mSuccessCallback
 =
-nsnull
+nullptr
 ;
 mUpdateErrorCallback
 =
-nsnull
+nullptr
 ;
 mDownloadErrorCallback
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -684,8 +684,8 @@ getter_AddRefs
 mChannel
 )
 aUpdateUrl
-nsnull
-nsnull
+nullptr
+nullptr
 this
 loadFlags
 )
@@ -825,7 +825,7 @@ mChannel
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1501,7 +1501,7 @@ rekey
 -
 requested
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -1913,7 +1913,7 @@ successCallback
 =
 mDownloadError
 ?
-nsnull
+nullptr
 :
 mSuccessCallback
 .
@@ -2004,7 +2004,7 @@ errorCallback
 =
 mDownloadError
 ?
-nsnull
+nullptr
 :
 mUpdateErrorCallback
 .
@@ -2839,7 +2839,7 @@ FinishUpdate
 }
 mChannel
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -3005,7 +3005,7 @@ false
 ;
 mChannel
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -3022,7 +3022,7 @@ Cancel
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3475,7 +3475,7 @@ this
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 /
 /

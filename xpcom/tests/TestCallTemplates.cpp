@@ -427,7 +427,7 @@ nsITestService
 *
 myITestService
 =
-nsnull
+nullptr
 ;
 CallQueryInterface
 (

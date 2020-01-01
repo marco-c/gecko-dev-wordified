@@ -451,7 +451,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )

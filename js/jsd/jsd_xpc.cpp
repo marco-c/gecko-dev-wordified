@@ -906,7 +906,7 @@ script
 *
 gDeadScripts
 =
-nsnull
+nullptr
 ;
 enum
 PatternType
@@ -959,7 +959,7 @@ endLine
 *
 gFilters
 =
-nsnull
+nullptr
 ;
 static
 struct
@@ -967,7 +967,7 @@ LiveEphemeral
 *
 gLiveValues
 =
-nsnull
+nullptr
 ;
 static
 struct
@@ -975,7 +975,7 @@ LiveEphemeral
 *
 gLiveProperties
 =
-nsnull
+nullptr
 ;
 static
 struct
@@ -983,7 +983,7 @@ LiveEphemeral
 *
 gLiveContexts
 =
-nsnull
+nullptr
 ;
 static
 struct
@@ -991,7 +991,7 @@ LiveEphemeral
 *
 gLiveStackFrames
 =
-nsnull
+nullptr
 ;
 /
 *
@@ -1181,7 +1181,7 @@ if
 listHead
 )
 return
-nsnull
+nullptr
 ;
 LiveEphemeral
 *
@@ -1263,7 +1263,7 @@ listHead
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1507,7 +1507,7 @@ list
 *
 listHead
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -1804,7 +1804,7 @@ JSObject
 *
 glob_proper
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2269,7 +2269,7 @@ if
 gFilters
 )
 return
-nsnull
+nullptr
 ;
 FilterRecord
 *
@@ -2320,7 +2320,7 @@ gFilters
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3160,7 +3160,7 @@ jsds
 >
 DoPause
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -3173,7 +3173,7 @@ gDeadScripts
 ;
 gDeadScripts
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -3221,7 +3221,7 @@ ds
 )
 deadScripts
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3336,7 +3336,7 @@ jsds
 >
 DoUnPause
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -3654,7 +3654,7 @@ gJsds
 >
 DoPause
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -3682,7 +3682,7 @@ gJsds
 >
 DoUnPause
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -3836,7 +3836,7 @@ gJsds
 >
 DoPause
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -3854,7 +3854,7 @@ gJsds
 >
 DoUnPause
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -4154,7 +4154,7 @@ gJsds
 >
 DoPause
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -4196,7 +4196,7 @@ gJsds
 >
 DoUnPause
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -4385,7 +4385,7 @@ gJsds
 >
 DoPause
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -4402,7 +4402,7 @@ gJsds
 >
 DoUnPause
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -4562,7 +4562,7 @@ gJsds
 >
 DoPause
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -4579,7 +4579,7 @@ gJsds
 >
 DoUnPause
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -5999,7 +5999,7 @@ fun
 )
 )
 return
-nsnull
+nullptr
 ;
 nargs
 =
@@ -6016,7 +6016,7 @@ nargs
 12
 )
 return
-nsnull
+nullptr
 ;
 jsstr
 =
@@ -6033,7 +6033,7 @@ if
 jsstr
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -6051,7 +6051,7 @@ length
 )
 )
 return
-nsnull
+nullptr
 ;
 }
 JS
@@ -6158,7 +6158,7 @@ fun
 )
 )
 return
-nsnull
+nullptr
 ;
 baseLine
 =
@@ -6198,7 +6198,7 @@ script
 )
 )
 return
-nsnull
+nullptr
 ;
 jsstr
 =
@@ -6218,7 +6218,7 @@ if
 jsstr
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -6236,7 +6236,7 @@ length
 )
 )
 return
-nsnull
+nullptr
 ;
 }
 JS
@@ -6280,7 +6280,7 @@ if
 script
 )
 return
-nsnull
+nullptr
 ;
 baseLine
 =
@@ -7159,7 +7159,7 @@ count
 *
 paramNames
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -7226,7 +7226,7 @@ count
 *
 paramNames
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -8763,7 +8763,7 @@ aJSDCx
 aJSCx
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -8850,7 +8850,7 @@ jsdIContext
 *
 ctx
 =
-nsnull
+nullptr
 ;
 jsdicx
 .
@@ -9215,7 +9215,7 @@ else
 *
 _rval
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -9694,7 +9694,7 @@ if
 aStackFrameInfo
 )
 return
-nsnull
+nullptr
 ;
 jsdIStackFrame
 *
@@ -10668,7 +10668,7 @@ stack
 >
 Pop
 (
-nsnull
+nullptr
 )
 ;
 #
@@ -10761,7 +10761,7 @@ if
 aValue
 )
 return
-nsnull
+nullptr
 ;
 jsdIValue
 *
@@ -11689,7 +11689,7 @@ ASSERT_VALID_EPHEMERAL
 *
 propArray
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -12718,11 +12718,11 @@ mCx
 ;
 mCx
 =
-nsnull
+nullptr
 ;
 mRuntime
 =
-nsnull
+nullptr
 ;
 mOn
 =
@@ -14429,7 +14429,7 @@ rec
 )
 gFilters
 =
-nsnull
+nullptr
 ;
 }
 PR_REMOVE_LINK
@@ -14733,7 +14733,7 @@ RefreshFilters
 return
 EnumerateFilters
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -14829,7 +14829,7 @@ current
 ;
 gFilters
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -15022,7 +15022,7 @@ stack
 >
 Push
 (
-nsnull
+nullptr
 )
 )
 )
@@ -15034,7 +15034,7 @@ callback
 {
 DoPause
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -15049,7 +15049,7 @@ OnNest
 ;
 DoUnPause
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -15099,7 +15099,7 @@ NS_ASSERTION
 cx
 =
 =
-nsnull
+nullptr
 "
 JSContextStack
 mismatch
@@ -16177,39 +16177,39 @@ ClearFilters
 ;
 mErrorHook
 =
-nsnull
+nullptr
 ;
 mBreakpointHook
 =
-nsnull
+nullptr
 ;
 mDebugHook
 =
-nsnull
+nullptr
 ;
 mDebuggerHook
 =
-nsnull
+nullptr
 ;
 mInterruptHook
 =
-nsnull
+nullptr
 ;
 mScriptHook
 =
-nsnull
+nullptr
 ;
 mThrowHook
 =
-nsnull
+nullptr
 ;
 mTopLevelHook
 =
-nsnull
+nullptr
 ;
 mFunctionHook
 =
-nsnull
+nullptr
 ;
 Off
 (
@@ -16217,7 +16217,7 @@ Off
 ;
 gJsds
 =
-nsnull
+nullptr
 ;
 }
 jsdService

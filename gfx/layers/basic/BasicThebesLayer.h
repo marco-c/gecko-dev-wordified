@@ -623,7 +623,7 @@ aManager
 )
 mBufferTracker
 (
-nsnull
+nullptr
 )
 mIsNewBuffer
 (

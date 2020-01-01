@@ -1140,7 +1140,7 @@ if
 attributes
 =
 =
-nsnull
+nullptr
 )
 {
 printf
@@ -1170,8 +1170,8 @@ PR_CreateProcess
 "
 nsDnsAsyncLookup
 "
-nsnull
-nsnull
+nullptr
+nullptr
 attributes
 )
 ;
@@ -1180,7 +1180,7 @@ if
 daemon
 =
 =
-nsnull
+nullptr
 )
 {
 printf
@@ -1234,7 +1234,7 @@ status
 /
 daemon
 =
-nsnull
+nullptr
 ;
 }
 PR_DestroyProcessAttr

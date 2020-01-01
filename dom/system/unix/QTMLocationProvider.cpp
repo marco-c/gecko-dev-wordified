@@ -420,7 +420,7 @@ stopUpdates
 ;
 mCallback
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

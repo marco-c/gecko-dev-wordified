@@ -1541,15 +1541,15 @@ nsEditor
 :
 mPlaceHolderName
 (
-nsnull
+nullptr
 )
 mSelState
 (
-nsnull
+nullptr
 )
 mPhonetic
 (
-nsnull
+nullptr
 )
 mModCount
 (
@@ -1655,7 +1655,7 @@ called
 ;
 mTxnMgr
 =
-nsnull
+nullptr
 ;
 delete
 mPhonetic
@@ -1733,7 +1733,7 @@ GetCurrentDoc
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -2115,7 +2115,7 @@ stuff
 /
 mIMETextNode
 =
-nsnull
+nullptr
 ;
 mIMETextOffset
 =
@@ -2486,7 +2486,7 @@ nsIMEStateManager
 OnTextStateBlur
 (
 pc
-nsnull
+nullptr
 )
 ;
 nsIMEStateManager
@@ -2750,7 +2750,7 @@ Disconnect
 ;
 mEventTarget
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -3144,7 +3144,7 @@ Clear
 ;
 mInlineSpellChecker
 =
-nsnull
+nullptr
 ;
 mSpellcheckCheckboxState
 =
@@ -3152,7 +3152,7 @@ eTriUnset
 ;
 mRootElement
 =
-nsnull
+nullptr
 ;
 mDidPreDestroy
 =
@@ -3826,7 +3826,7 @@ NS_ERROR_NULL_POINTER
 *
 aSel
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -3945,7 +3945,7 @@ NS_ERROR_NULL_POINTER
 *
 aSelection
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4015,7 +4015,7 @@ sel
 NS_ENSURE_SUCCESS
 (
 res
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -4032,7 +4032,7 @@ sel
 NS_ENSURE_TRUE
 (
 selPrivate
-nsnull
+nullptr
 )
 ;
 nsRefPtr
@@ -4057,7 +4057,7 @@ frameSel
 NS_ENSURE_SUCCESS
 (
 res
-nsnull
+nullptr
 )
 ;
 return
@@ -4141,7 +4141,7 @@ this
 pointer
 mSelState
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -5421,7 +5421,7 @@ BeginUpdateViewBatch
 ;
 mPlaceHolderTxn
 =
-nsnull
+nullptr
 ;
 mPlaceHolderName
 =
@@ -5795,7 +5795,7 @@ mSelState
 ;
 mSelState
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -7110,7 +7110,7 @@ away
 *
 aInlineSpellChecker
 =
-nsnull
+nullptr
 ;
 return
 autoCreate
@@ -7161,7 +7161,7 @@ canSpell
 *
 aInlineSpellChecker
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -7219,7 +7219,7 @@ rv
 )
 mInlineSpellChecker
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_SUCCESS
 (
@@ -7379,7 +7379,7 @@ mInlineSpellChecker
 >
 SpellCheckRange
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -8769,7 +8769,7 @@ AsDOMNode
 (
 )
 :
-nsnull
+nullptr
 ;
 return
 rv
@@ -8820,7 +8820,7 @@ outNode
 *
 outNode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -9638,7 +9638,7 @@ AsDOMNode
 (
 )
 :
-nsnull
+nullptr
 ;
 return
 rv
@@ -10643,7 +10643,7 @@ HandleEventWithTarget
 (
 &
 inputEvent
-nsnull
+nullptr
 mTarget
 &
 status
@@ -11488,7 +11488,7 @@ transaction
 /
 mIMETextNode
 =
-nsnull
+nullptr
 ;
 mIMETextOffset
 =
@@ -11650,7 +11650,7 @@ NS_ERROR_NULL_POINTER
 *
 aWidget
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -14701,7 +14701,7 @@ mIMETextNode
 ;
 mIMETextNode
 =
-nsnull
+nullptr
 ;
 static_cast
 <
@@ -14853,7 +14853,7 @@ aRoot
 ?
 node
 :
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -15605,7 +15605,7 @@ NS_ASSERTION
 (
 (
 (
-nsnull
+nullptr
 !
 =
 aExistingRightNode
@@ -15613,7 +15613,7 @@ aExistingRightNode
 &
 &
 (
-nsnull
+nullptr
 !
 =
 aNewLeftNode
@@ -15621,7 +15621,7 @@ aNewLeftNode
 &
 &
 (
-nsnull
+nullptr
 !
 =
 aParent
@@ -15639,7 +15639,7 @@ result
 if
 (
 (
-nsnull
+nullptr
 !
 =
 aExistingRightNode
@@ -15647,7 +15647,7 @@ aExistingRightNode
 &
 &
 (
-nsnull
+nullptr
 !
 =
 aNewLeftNode
@@ -15655,7 +15655,7 @@ aNewLeftNode
 &
 &
 (
-nsnull
+nullptr
 !
 =
 aParent
@@ -15733,7 +15733,7 @@ result
 )
 selStartNode
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -15765,7 +15765,7 @@ result
 )
 selStartNode
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -16517,7 +16517,7 @@ result
 )
 selStartNode
 =
-nsnull
+nullptr
 ;
 result
 =
@@ -16561,7 +16561,7 @@ result
 )
 selStartNode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -17053,7 +17053,7 @@ firstNode
 /
 GetFirstChild
 returns
-nsnull
+nullptr
 firstNode
 if
 aNodeToKeep
@@ -17654,7 +17654,7 @@ aChild
 &
 &
 outOffset
-nsnull
+nullptr
 )
 ;
 *
@@ -17818,7 +17818,7 @@ NS_ERROR_NULL_POINTER
 *
 aResultNode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -17954,7 +17954,7 @@ this
 block
 .
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -18115,7 +18115,7 @@ NS_ERROR_NULL_POINTER
 *
 aResultNode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -18217,7 +18217,7 @@ GetNodeParent
 NS_ENSURE_TRUE
 (
 parent
-nsnull
+nullptr
 )
 ;
 aOffset
@@ -18315,7 +18315,7 @@ resultNode
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -18516,7 +18516,7 @@ aCurrentNode
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -18724,7 +18724,7 @@ parent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -18788,7 +18788,7 @@ parent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 cur
@@ -18816,7 +18816,7 @@ understand
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -18913,7 +18913,7 @@ aCurrentNode
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -18987,7 +18987,7 @@ text
 widget
 .
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -19008,7 +19008,7 @@ candidate
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -19056,7 +19056,7 @@ bNoBlockCrossing
 NS_ENSURE_TRUE
 (
 aCurrentNode
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -19167,7 +19167,7 @@ bNoBlockCrossing
 NS_ENSURE_TRUE
 (
 aCurrentNode
-nsnull
+nullptr
 )
 ;
 nsIContent
@@ -19188,7 +19188,7 @@ cur
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 for
@@ -19258,7 +19258,7 @@ understand
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -19278,7 +19278,7 @@ bNoBlockCrossing
 NS_ENSURE_TRUE
 (
 aCurrentNode
-nsnull
+nullptr
 )
 ;
 nsIContent
@@ -19299,7 +19299,7 @@ cur
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 for
@@ -19369,7 +19369,7 @@ understand
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -19391,7 +19391,7 @@ bNoBlockCrossing
 NS_ENSURE_TRUE
 (
 aCurrentNode
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -20477,8 +20477,8 @@ nsComputedDOMStyle
 GetStyleContextForElementNoFlush
 (
 aElement
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -21070,7 +21070,7 @@ Tag
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -22065,7 +22065,7 @@ NS_ERROR_NULL_POINTER
 *
 outStartNode
 =
-nsnull
+nullptr
 ;
 *
 outStartOffset
@@ -22329,7 +22329,7 @@ NS_ERROR_NULL_POINTER
 *
 outEndNode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -22683,7 +22683,7 @@ content
 AsElement
 (
 )
-nsnull
+nullptr
 ps
 )
 ;
@@ -23015,7 +23015,7 @@ outLeftNode
 *
 outLeftNode
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -23024,7 +23024,7 @@ outRightNode
 *
 outRightNode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -26037,7 +26037,7 @@ aTxn
 *
 aTxn
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -27888,7 +27888,7 @@ doc
 CreateElem
 (
 aTag
-nsnull
+nullptr
 kNameSpaceID_XHTML
 reinterpret_cast
 <
@@ -28812,7 +28812,7 @@ selectionPrivate
 >
 SetAncestorLimiter
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -29808,7 +29808,7 @@ aDOMKeyEvent
 NS_ENSURE_TRUE
 (
 aDOMKeyEvent
-nsnull
+nullptr
 )
 ;
 nsEvent
@@ -29825,7 +29825,7 @@ GetInternalNSEvent
 NS_ENSURE_TRUE
 (
 nativeEvent
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -29837,7 +29837,7 @@ eventStructType
 =
 =
 NS_KEY_EVENT
-nsnull
+nullptr
 )
 ;
 return
@@ -29879,7 +29879,7 @@ piTarget
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsFocusManager
@@ -29896,7 +29896,7 @@ GetFocusManager
 NS_ENSURE_TRUE
 (
 fm
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -29925,7 +29925,7 @@ forget
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 bool

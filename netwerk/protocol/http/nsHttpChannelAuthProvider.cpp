@@ -233,15 +233,15 @@ nsHttpChannelAuthProvider
 :
 mAuthChannel
 (
-nsnull
+nullptr
 )
 mProxyAuthContinuationState
 (
-nsnull
+nullptr
 )
 mAuthContinuationState
 (
-nsnull
+nullptr
 )
 mProxyAuth
 (
@@ -1183,7 +1183,7 @@ proxyHost
 ProxyPort
 (
 )
-nsnull
+nullptr
 /
 /
 proxy
@@ -1501,7 +1501,7 @@ status
 ;
 mAsyncPromptAuthCancelable
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1519,7 +1519,7 @@ status
 ;
 mDNSQuery
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1538,7 +1538,7 @@ status
 {
 mAuthChannel
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1555,7 +1555,7 @@ status
 ;
 mAsyncPromptAuthCancelable
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1573,7 +1573,7 @@ status
 ;
 mDNSQuery
 =
-nsnull
+nullptr
 ;
 }
 NS_IF_RELEASE
@@ -1713,7 +1713,7 @@ PRUnichar
 *
 domain
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2249,18 +2249,18 @@ saveCreds
 *
 result
 :
-nsnull
+nullptr
 saveChallenge
 ?
 challenge
 :
-nsnull
+nullptr
 saveIdentity
 ?
 &
 ident
 :
-nsnull
+nullptr
 sessionState
 )
 ;
@@ -3019,7 +3019,7 @@ n
 )
 !
 =
-nsnull
+nullptr
 )
 challenge
 .
@@ -3362,7 +3362,7 @@ eol
 +
 1
 :
-nsnull
+nullptr
 ;
 return
 rv
@@ -3990,7 +3990,7 @@ nsHttpAuthEntry
 *
 entry
 =
-nsnull
+nullptr
 ;
 authCache
 -
@@ -4215,7 +4215,7 @@ get
 ;
 entry
 =
-nsnull
+nullptr
 ;
 ident
 -
@@ -4933,7 +4933,7 @@ challenge
 )
 !
 =
-nsnull
+nullptr
 )
 authType
 .
@@ -5864,7 +5864,7 @@ AsyncPromptAuth
 (
 channel
 this
-nsnull
+nullptr
 level
 holder
 getter_AddRefs
@@ -6025,7 +6025,7 @@ mAuthChannel
 ;
 mAsyncPromptAuthCancelable
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6113,7 +6113,7 @@ nsHttpAuthEntry
 *
 entry
 =
-nsnull
+nullptr
 ;
 authCache
 -
@@ -6403,7 +6403,7 @@ mAuthChannel
 ;
 mAsyncPromptAuthCancelable
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7181,7 +7181,7 @@ prompt
 >
 ConfirmEx
 (
-nsnull
+nullptr
 msg
 nsIPrompt
 :
@@ -7192,10 +7192,10 @@ nsIPrompt
 :
 :
 STD_YES_NO_BUTTONS
-nsnull
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
+nullptr
 &
 checkState
 &
@@ -7229,7 +7229,7 @@ prompt
 >
 Confirm
 (
-nsnull
+nullptr
 msg
 &
 confirmed
@@ -7284,7 +7284,7 @@ nsHttpAuthEntry
 *
 entry
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -8139,7 +8139,7 @@ mAuthProvider
 >
 SetDNSQuery
 (
-nsnull
+nullptr
 )
 ;
 LOG
@@ -8244,8 +8244,8 @@ mAuthProvider
 >
 OnAuthAvailable
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -8283,7 +8283,7 @@ mAuthProvider
 >
 OnAuthCancelled
 (
-nsnull
+nullptr
 false
 )
 ;

@@ -175,7 +175,7 @@ PCrashReporterChild
 *
 reporters
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -271,7 +271,7 @@ ElementAt
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 }

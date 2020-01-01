@@ -946,7 +946,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 PRInt32
 identifier
@@ -1309,7 +1309,7 @@ mEmptyNodeSet
 new
 txNodeSet
 (
-nsnull
+nullptr
 )
 ;
 return

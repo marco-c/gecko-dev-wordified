@@ -245,7 +245,7 @@ this
 frame
 or
 *
-nsnull
+nullptr
 if
 this
 frame
@@ -1236,7 +1236,7 @@ positions
 ;
 can
 be
-nsnull
+nullptr
 if
 this
 functionality
@@ -1284,7 +1284,7 @@ nsBidiPositionResolve
 *
 aPosResolve
 =
-nsnull
+nullptr
 PRInt32
 aPosResolveCount
 =
@@ -1305,7 +1305,7 @@ aX
 aY
 aPosResolve
 aPosResolveCount
-nsnull
+nullptr
 )
 ;
 }
@@ -1346,7 +1346,7 @@ aRenderingContext
 MODE_MEASURE
 0
 0
-nsnull
+nullptr
 0
 &
 length
@@ -1884,7 +1884,7 @@ positions
 ;
 can
 be
-nsnull
+nullptr
 if
 this
 functionality
@@ -2362,7 +2362,7 @@ nsFrameContinuationState
 to
 *
 (
-nsnull
+nullptr
 0
 )
 for

@@ -969,7 +969,7 @@ wrapper
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /

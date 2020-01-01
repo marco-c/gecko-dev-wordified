@@ -261,7 +261,7 @@ call
 >
 mError
 =
-nsnull
+nullptr
 ;
 call
 -

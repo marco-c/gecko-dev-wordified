@@ -152,7 +152,7 @@ aEvent
 )
 mMessage
 (
-nsnull
+nullptr
 )
 {
 }

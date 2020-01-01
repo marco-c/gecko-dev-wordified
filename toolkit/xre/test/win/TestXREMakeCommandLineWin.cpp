@@ -1666,7 +1666,7 @@ L
 MakeCommandLineTests
 "
 sInputKey
-nsnull
+nullptr
 sInputVal
 MAXPATHLEN
 inifile
@@ -1859,7 +1859,7 @@ L
 MakeCommandLineTests
 "
 sOutputKey
-nsnull
+nullptr
 sOutputVal
 MAXPATHLEN
 inifile
@@ -1872,7 +1872,7 @@ L
 MakeCommandLineTests
 "
 sPassesKey
-nsnull
+nullptr
 sPassesVal
 MAXPATHLEN
 inifile

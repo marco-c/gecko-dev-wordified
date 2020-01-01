@@ -386,7 +386,7 @@ MaiAtkSocket
 *
 acc
 =
-nsnull
+nullptr
 ;
 acc
 =
@@ -450,7 +450,7 @@ MAI_IS_ATK_SOCKET
 (
 aComponent
 )
-nsnull
+nullptr
 )
 ;
 return
@@ -745,7 +745,7 @@ mAtkObject
 >
 accWrap
 =
-nsnull
+nullptr
 ;
 g_object_unref
 (
@@ -754,7 +754,7 @@ mAtkObject
 ;
 mAtkObject
 =
-nsnull
+nullptr
 ;
 }
 AccessibleWrap

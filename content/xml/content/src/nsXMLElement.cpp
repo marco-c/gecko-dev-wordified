@@ -380,7 +380,7 @@ GetAtomValue
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void

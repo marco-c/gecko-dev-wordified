@@ -1196,7 +1196,7 @@ if
 box
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -1235,7 +1235,7 @@ if
 box
 )
 return
-nsnull
+nullptr
 ;
 /
 /

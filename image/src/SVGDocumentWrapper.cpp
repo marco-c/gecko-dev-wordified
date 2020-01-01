@@ -357,7 +357,7 @@ GetDocument
 OnPageHide
 (
 false
-nsnull
+nullptr
 )
 ;
 mViewer
@@ -365,7 +365,7 @@ mViewer
 >
 Close
 (
-nsnull
+nullptr
 )
 ;
 mViewer
@@ -377,7 +377,7 @@ Destroy
 ;
 mViewer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -663,7 +663,7 @@ GetPrimaryFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -1212,7 +1212,7 @@ mListener
 OnStartRequest
 (
 aRequest
-nsnull
+nullptr
 )
 )
 )
@@ -1249,7 +1249,7 @@ mViewer
 >
 Init
 (
-nsnull
+nullptr
 nsIntRect
 (
 0
@@ -1274,8 +1274,8 @@ mViewer
 >
 Open
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -1450,7 +1450,7 @@ FlushLayout
 ;
 mListener
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1612,7 +1612,7 @@ mListener
 )
 mListener
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1620,7 +1620,7 @@ mLoadGroup
 )
 mLoadGroup
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1944,8 +1944,8 @@ resource
 chan
 newLoadGroup
 SVG_MIMETYPE
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 listener
@@ -2332,7 +2332,7 @@ if
 mViewer
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -2357,7 +2357,7 @@ if
 doc
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -2401,7 +2401,7 @@ svg
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

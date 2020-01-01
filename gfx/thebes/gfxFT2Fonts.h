@@ -300,7 +300,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 if
 (

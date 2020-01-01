@@ -648,7 +648,7 @@ PushNull
 {
 Notify
 (
-nsnull
+nullptr
 )
 ;
 pusher
@@ -685,7 +685,7 @@ PushNull
 {
 Notify
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -792,7 +792,7 @@ aObserver
 )
 !
 =
-nsnull
+nullptr
 ;
 EnsureTimerStarted
 (
@@ -1114,7 +1114,7 @@ rv
 {
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1144,7 +1144,7 @@ Cancel
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -1406,7 +1406,7 @@ ObserverArray
 *
 >
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2821,7 +2821,7 @@ mTimer
 {
 Notify
 (
-nsnull
+nullptr
 )
 ;
 }

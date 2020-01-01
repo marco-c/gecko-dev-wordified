@@ -359,7 +359,7 @@ NS_ASSERTION
 mCanvasSurface
 =
 =
-nsnull
+nullptr
 "
 BasicCanvasLayer
 :
@@ -378,7 +378,7 @@ aData
 mGLContext
 !
 =
-nsnull
+nullptr
 &
 &
 aData
@@ -386,7 +386,7 @@ aData
 mSurface
 !
 =
-nsnull
+nullptr
 )
 {
 NS_WARNING
@@ -1173,7 +1173,7 @@ ShaderProgramOGL
 *
 program
 =
-nsnull
+nullptr
 ;
 bool
 useGLContext
@@ -1597,7 +1597,7 @@ aManager
 ShadowCanvasLayer
 (
 aManager
-nsnull
+nullptr
 )
 LayerOGL
 (
@@ -1904,7 +1904,7 @@ DestroyFrontBuffer
 {
 mTexImage
 =
-nsnull
+nullptr
 ;
 if
 (

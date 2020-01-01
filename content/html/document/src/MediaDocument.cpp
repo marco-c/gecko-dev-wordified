@@ -359,7 +359,7 @@ prevent
 leaks
 mDocument
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -1258,7 +1258,7 @@ nsGkAtoms
 :
 :
 html
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -1336,7 +1336,7 @@ nsGkAtoms
 :
 :
 head
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -1396,7 +1396,7 @@ nsGkAtoms
 :
 :
 meta
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -1509,7 +1509,7 @@ nsGkAtoms
 :
 :
 body
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -1922,7 +1922,7 @@ nsGkAtoms
 :
 :
 link
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :

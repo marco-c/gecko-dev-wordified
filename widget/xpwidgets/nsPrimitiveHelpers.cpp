@@ -761,7 +761,7 @@ return
 *
 aDataBuff
 =
-nsnull
+nullptr
 ;
 if
 (

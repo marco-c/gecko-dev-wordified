@@ -5080,7 +5080,7 @@ aOS
 /
 *
 =
-nsnull
+nullptr
 *
 /
 )

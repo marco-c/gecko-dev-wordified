@@ -1327,7 +1327,7 @@ char
 *
 prevDomain
 =
-nsnull
+nullptr
 ;
 const
 char

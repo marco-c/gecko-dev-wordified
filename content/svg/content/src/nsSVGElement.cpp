@@ -518,7 +518,7 @@ void
 =
 sizeof
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -554,7 +554,7 @@ nsIDOMSVGUnitTypes
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -1760,7 +1760,7 @@ aName
 {
 mContentStyleRule
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -3883,7 +3883,7 @@ aName
 )
 mContentStyleRule
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5381,7 +5381,7 @@ GetPresContext
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -5696,7 +5696,7 @@ nsGkAtoms
 vector_effect
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -5815,7 +5815,7 @@ nsGkAtoms
 visibility
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -5950,7 +5950,7 @@ nsGkAtoms
 word_spacing
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -6027,7 +6027,7 @@ nsGkAtoms
 fontWeight
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -6069,7 +6069,7 @@ nsGkAtoms
 stop_opacity
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -6111,7 +6111,7 @@ nsGkAtoms
 clip
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -6160,7 +6160,7 @@ nsGkAtoms
 marker_start
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -6195,7 +6195,7 @@ nsGkAtoms
 color
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -6230,7 +6230,7 @@ nsGkAtoms
 colorInterpolationFilters
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -6272,7 +6272,7 @@ nsGkAtoms
 flood_opacity
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -6307,7 +6307,7 @@ nsGkAtoms
 lighting_color
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -7053,7 +7053,7 @@ aNodePrincipal
 )
 mDecl
 (
-nsnull
+nullptr
 )
 {
 /
@@ -7461,7 +7461,7 @@ mDecl
 )
 {
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -7486,13 +7486,13 @@ css
 :
 StyleRule
 (
-nsnull
+nullptr
 mDecl
 )
 ;
 mDecl
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -8414,7 +8414,7 @@ GetProperty
 (
 SMIL_MAPPED_ATTR_ANIMVAL
 SMIL_MAPPED_ATTR_STYLERULE_ATOM
-nsnull
+nullptr
 )
 )
 ;
@@ -8937,7 +8937,7 @@ BeforeSetAttr
 when
 GetParsedAttr
 returns
-nsnull
+nullptr
 /
 /
 b
@@ -9413,7 +9413,7 @@ SetAttrAndNotify
 (
 kNameSpaceID_None
 aName
-nsnull
+nullptr
 aEmptyOrOldValue
 aNewValue
 modType
@@ -9737,7 +9737,7 @@ foreignObject
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -9789,7 +9789,7 @@ element
 .
 .
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -9830,8 +9830,8 @@ GetLengthInfo
 return
 LengthAttributesInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -10059,7 +10059,7 @@ mLengths
 [
 aAttrEnum
 ]
-nsnull
+nullptr
 )
 ;
 DidChangeValue
@@ -10208,7 +10208,7 @@ found
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -10254,7 +10254,7 @@ nsSVGSVGElement
 *
 ctx
 =
-nsnull
+nullptr
 ;
 float
 *
@@ -10418,8 +10418,8 @@ GetLengthListInfo
 return
 LengthListAttributesInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -10551,7 +10551,7 @@ aAttrEnum
 GetBaseValue
 (
 )
-nsnull
+nullptr
 )
 ;
 DidChangeValue
@@ -10792,7 +10792,7 @@ attrEnum
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsSVGElement
@@ -10809,8 +10809,8 @@ GetNumberListInfo
 return
 NumberListAttributesInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -10954,7 +10954,7 @@ aAttrEnum
 GetBaseValue
 (
 )
-nsnull
+nullptr
 )
 ;
 DidChangeValue
@@ -11090,7 +11090,7 @@ attrEnum
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 SVGAnimatedNumberList
@@ -11167,7 +11167,7 @@ caller
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsAttrValue
@@ -11246,7 +11246,7 @@ GetAnimatedPointList
 GetBaseValue
 (
 )
-nsnull
+nullptr
 )
 ;
 DidChangeValue
@@ -11391,7 +11391,7 @@ GetAnimPathSegList
 GetBaseValue
 (
 )
-nsnull
+nullptr
 )
 ;
 DidChangeValue
@@ -11472,8 +11472,8 @@ GetNumberInfo
 return
 NumberAttributesInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -11575,7 +11575,7 @@ aAttrEnum
 GetBaseValue
 (
 )
-nsnull
+nullptr
 )
 ;
 SetParsedAttr
@@ -11590,7 +11590,7 @@ aAttrEnum
 ]
 .
 mName
-nsnull
+nullptr
 attrValue
 true
 )
@@ -11766,8 +11766,8 @@ GetNumberPairInfo
 return
 NumberPairAttributesInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -11903,7 +11903,7 @@ mNumberPairs
 [
 aAttrEnum
 ]
-nsnull
+nullptr
 )
 ;
 DidChangeValue
@@ -11989,8 +11989,8 @@ GetIntegerInfo
 return
 IntegerAttributesInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -12092,7 +12092,7 @@ aAttrEnum
 GetBaseValue
 (
 )
-nsnull
+nullptr
 )
 ;
 SetParsedAttr
@@ -12107,7 +12107,7 @@ aAttrEnum
 ]
 .
 mName
-nsnull
+nullptr
 attrValue
 true
 )
@@ -12283,8 +12283,8 @@ GetIntegerPairInfo
 return
 IntegerPairAttributesInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -12420,7 +12420,7 @@ mIntegerPairs
 [
 aAttrEnum
 ]
-nsnull
+nullptr
 )
 ;
 DidChangeValue
@@ -12506,8 +12506,8 @@ GetAngleInfo
 return
 AngleAttributesInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -12642,7 +12642,7 @@ mAngles
 [
 aAttrEnum
 ]
-nsnull
+nullptr
 )
 ;
 DidChangeValue
@@ -12728,8 +12728,8 @@ GetBooleanInfo
 return
 BooleanAttributesInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -12841,7 +12841,7 @@ aAttrEnum
 ]
 .
 mName
-nsnull
+nullptr
 attrValue
 true
 )
@@ -12914,8 +12914,8 @@ GetEnumInfo
 return
 EnumAttributesInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -13028,7 +13028,7 @@ aAttrEnum
 ]
 .
 mName
-nsnull
+nullptr
 attrValue
 true
 )
@@ -13097,7 +13097,7 @@ GetViewBox
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsAttrValue
@@ -13161,7 +13161,7 @@ SetTo
 (
 *
 viewBox
-nsnull
+nullptr
 )
 ;
 DidChangeValue
@@ -13224,7 +13224,7 @@ GetPreserveAspectRatio
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsAttrValue
@@ -13290,7 +13290,7 @@ SetTo
 (
 *
 preserveAspectRatio
-nsnull
+nullptr
 )
 ;
 DidChangeValue
@@ -13427,7 +13427,7 @@ DO_ALLOCATE
 GetBaseValue
 (
 )
-nsnull
+nullptr
 )
 ;
 DidChangeValue
@@ -13508,8 +13508,8 @@ GetStringInfo
 return
 StringAttributesInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -13783,8 +13783,8 @@ GetStringListInfo
 return
 StringListAttributesInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -13983,7 +13983,7 @@ mStringLists
 [
 aAttrEnum
 ]
-nsnull
+nullptr
 )
 ;
 }
@@ -14996,7 +14996,7 @@ ToSMILAttr
 this
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -15033,7 +15033,7 @@ ToSMILAttr
 this
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -15366,7 +15366,7 @@ this
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void

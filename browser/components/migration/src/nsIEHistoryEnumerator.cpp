@@ -764,7 +764,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -799,7 +799,7 @@ twice
 .
 mCachedNextEntry
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

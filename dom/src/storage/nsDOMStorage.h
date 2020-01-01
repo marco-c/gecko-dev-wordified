@@ -1896,7 +1896,7 @@ DOMStorageBase
 *
 aStorage
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -2534,8 +2534,8 @@ nsDOMStorageEvent
 :
 nsDOMEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 {
 }

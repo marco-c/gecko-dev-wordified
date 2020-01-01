@@ -295,8 +295,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -323,7 +323,7 @@ argv
 ]
 !
 =
-nsnull
+nullptr
 )
 {
 char
@@ -433,7 +433,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION

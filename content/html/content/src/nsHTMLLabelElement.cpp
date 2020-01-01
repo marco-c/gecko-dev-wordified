@@ -1520,7 +1520,7 @@ event
 (
 aIsTrustedEvent
 NS_MOUSE_CLICK
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -1678,7 +1678,7 @@ doc
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 Element
@@ -1711,7 +1711,7 @@ element
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 Element
@@ -1767,7 +1767,7 @@ AsElement
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -1788,6 +1788,6 @@ element
 }
 }
 return
-nsnull
+nullptr
 ;
 }

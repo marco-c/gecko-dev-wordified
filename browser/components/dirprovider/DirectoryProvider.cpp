@@ -235,7 +235,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -272,7 +272,7 @@ const
 *
 leafName
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1462,7 +1462,7 @@ kAppendSPlugins
 "
 searchplugins
 "
-nsnull
+nullptr
 }
 ;
 nsCOMPtr
@@ -1563,7 +1563,7 @@ mNext
 ;
 mNext
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1708,7 +1708,7 @@ break
 ;
 mNext
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1752,7 +1752,7 @@ begin
 .
 GetNext
 (
-nsnull
+nullptr
 )
 ;
 }

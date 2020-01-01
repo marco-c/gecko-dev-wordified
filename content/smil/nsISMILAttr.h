@@ -655,7 +655,7 @@ it
 avaiable
 .
 Otherwise
-nsnull
+nullptr
 .
 *
 /
@@ -669,7 +669,7 @@ GetTargetNode
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 /

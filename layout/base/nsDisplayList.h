@@ -1248,7 +1248,7 @@ restricted
 to
 (
 or
-nsnull
+nullptr
 *
 in
 the
@@ -2195,7 +2195,7 @@ mHasDisplayPort
 &
 mDisplayPort
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -3825,7 +3825,7 @@ nsDisplayItemLink
 :
 mAbove
 (
-nsnull
+nullptr
 )
 {
 }
@@ -4657,7 +4657,7 @@ lists
 this
 could
 return
-nsnull
+nullptr
 because
 there
 is
@@ -4674,7 +4674,7 @@ it
 will
 never
 return
-nsnull
+nullptr
 .
 *
 /
@@ -5616,7 +5616,7 @@ aContainerParameters
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -6079,7 +6079,7 @@ GetList
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -6360,7 +6360,7 @@ nsDisplayItem
 {
 mAbove
 =
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -6702,7 +6702,7 @@ mSentinel
 .
 mAbove
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -7123,7 +7123,7 @@ mSentinel
 .
 mAbove
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -7223,7 +7223,7 @@ mSentinel
 .
 mAbove
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -7319,7 +7319,7 @@ nsDisplayItem
 mTop
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -7464,7 +7464,7 @@ order
 *
 checks
 or
-nsnull
+nullptr
 if
 not
 known
@@ -7560,7 +7560,7 @@ order
 *
 checks
 or
-nsnull
+nullptr
 if
 not
 known
@@ -11767,7 +11767,7 @@ the
 frame
 to
 be
-nsnull
+nullptr
 .
 Callers
 to
@@ -12135,7 +12135,7 @@ if
 this
 item
 returned
-nsnull
+nullptr
 *
 for
 GetUnderlyingFrame
@@ -12177,7 +12177,7 @@ NS_NOTREACHED
 We
 never
 returned
-nsnull
+nullptr
 for
 GetUnderlyingFrame
 !
@@ -12185,7 +12185,7 @@ GetUnderlyingFrame
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -15283,7 +15283,7 @@ instead
 .
 Pass
 *
-nsnull
+nullptr
 (
 or
 nothing
@@ -15318,7 +15318,7 @@ nsRect
 *
 aBoundsOverride
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -15342,7 +15342,7 @@ nsRect
 *
 aBoundsOverride
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -15650,7 +15650,7 @@ optional
 If
 this
 is
-nsnull
+nullptr
 (
 the
 default
@@ -15727,34 +15727,34 @@ nsRect
 *
 aBoundsOverride
 =
-nsnull
+nullptr
 const
 nsCSSValueList
 *
 aTransformOverride
 =
-nsnull
+nullptr
 gfxPoint3D
 *
 aToMozOrigin
 =
-nsnull
+nullptr
 gfxPoint3D
 *
 aToPerspectiveOrigin
 =
-nsnull
+nullptr
 nscoord
 *
 aChildPerspective
 =
-nsnull
+nullptr
 nsIFrame
 *
 *
 aOutAncestor
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -16164,7 +16164,7 @@ nsCharClipDisplayItem
 aItem
 )
 :
-nsnull
+nullptr
 ;
 }
 nscoord

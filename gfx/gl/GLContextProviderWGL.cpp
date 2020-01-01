@@ -687,7 +687,7 @@ MOZ_WGL_DB
 )
 !
 =
-nsnull
+nullptr
 ;
 GLLibraryLoader
 :
@@ -1161,7 +1161,7 @@ t
 supported
 fCreatePbuffer
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1210,7 +1210,7 @@ format
 extension
 fChoosePixelFormat
 =
-nsnull
+nullptr
 ;
 }
 GLLibraryLoader
@@ -1512,7 +1512,7 @@ flag
 )
 =
 =
-nsnull
+nullptr
 )
 {
 mInitialized
@@ -1559,7 +1559,7 @@ aLibUsed
 HWND
 aWindow
 =
-nsnull
+nullptr
 bool
 aIsOffscreen
 =
@@ -1976,7 +1976,7 @@ mContext
 default
 :
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -2810,7 +2810,7 @@ false
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2930,7 +2930,7 @@ Context
 (
 )
 :
-nsnull
+nullptr
 attribs
 )
 ;
@@ -2953,7 +2953,7 @@ libToUse
 fCreateContextAttribs
 (
 dc
-nsnull
+nullptr
 attribs
 )
 ;
@@ -2964,7 +2964,7 @@ context
 {
 shareContext
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3010,7 +3010,7 @@ context
 {
 shareContext
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3057,7 +3057,7 @@ context
 {
 shareContext
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3068,7 +3068,7 @@ context
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -3105,7 +3105,7 @@ Init
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 glContext
@@ -3441,7 +3441,7 @@ numFormats
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3481,7 +3481,7 @@ aLibToUse
 )
 )
 return
-nsnull
+nullptr
 ;
 HANDLE
 pbuffer
@@ -3522,7 +3522,7 @@ pbuffer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 HDC
@@ -3586,7 +3586,7 @@ aLibToUse
 fCreateContextAttribs
 (
 pbdc
-nsnull
+nullptr
 attribs
 )
 ;
@@ -3636,7 +3636,7 @@ new
 GLContextWGL
 (
 aFormat
-nsnull
+nullptr
 pbuffer
 pbdc
 context
@@ -3697,7 +3697,7 @@ shareContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 LibType
@@ -3735,7 +3735,7 @@ win
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 HGLRC
@@ -3861,7 +3861,7 @@ win
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -3872,7 +3872,7 @@ context
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -3955,7 +3955,7 @@ MESA_LLVMPIPE_LIB
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -3991,7 +3991,7 @@ Preferences
 GetRootBranch
 (
 )
-nsnull
+nullptr
 )
 ;
 const
@@ -4091,7 +4091,7 @@ Init
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -4111,7 +4111,7 @@ mPBuffer
 )
 )
 return
-nsnull
+nullptr
 ;
 glContext
 -
@@ -4192,7 +4192,7 @@ MESA_LLVMPIPE_LIB
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -4260,7 +4260,7 @@ ContextFormat
 :
 BasicRGB24
 )
-nsnull
+nullptr
 sWGLLib
 [
 libToUse
@@ -4311,7 +4311,7 @@ gGlobalContext
 libToUse
 ]
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -4374,7 +4374,7 @@ gGlobalContext
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 }

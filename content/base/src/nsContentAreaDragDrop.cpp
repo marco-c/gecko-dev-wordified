@@ -908,10 +908,10 @@ persist
 SaveURI
 (
 sourceURI
-nsnull
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
+nullptr
 inDestFile
 )
 ;
@@ -1070,7 +1070,7 @@ aDataLen
 *
 aData
 =
-nsnull
+nullptr
 ;
 *
 aDataLen
@@ -1485,7 +1485,7 @@ do
 here
 ;
 return
-nsnull
+nullptr
 ;
 }
 for
@@ -1525,7 +1525,7 @@ content
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1935,7 +1935,7 @@ set
 *
 aDragNode
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1944,12 +1944,12 @@ nsIContent
 *
 dragNode
 =
-nsnull
+nullptr
 ;
 *
 aSelection
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2024,7 +2024,7 @@ GetEditingHost
 (
 )
 :
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4689,7 +4689,7 @@ outImageOrLinkNode
 *
 outImageOrLinkNode
 =
-nsnull
+nullptr
 ;
 *
 outDragSelectedText
@@ -5062,7 +5062,7 @@ outLinkNode
 *
 outLinkNode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

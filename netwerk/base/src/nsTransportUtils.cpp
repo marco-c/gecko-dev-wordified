@@ -233,7 +233,7 @@ mLock
 )
 mLastEvent
 (
-nsnull
+nullptr
 )
 mCoalesceAll
 (
@@ -425,7 +425,7 @@ mProxy
 >
 mLastEvent
 =
-nsnull
+nullptr
 ;
 }
 mProxy
@@ -653,7 +653,7 @@ anymore
 !
 mLastEvent
 =
-nsnull
+nullptr
 ;
 }
 }

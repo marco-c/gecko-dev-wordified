@@ -626,7 +626,7 @@ nsDownloadManager
 :
 gDownloadManagerService
 =
-nsnull
+nullptr
 ;
 nsDownloadManager
 *
@@ -723,14 +723,14 @@ mScanner
 ;
 mScanner
 =
-nsnull
+nullptr
 ;
 }
 #
 endif
 gDownloadManagerService
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -1576,7 +1576,7 @@ MOZ_STORAGE_SERVICE_CONTRACTID
 NS_ENSURE_TRUE
 (
 storage
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -1645,7 +1645,7 @@ false
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 rv
@@ -1666,7 +1666,7 @@ conn
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -1703,7 +1703,7 @@ MOZ_STORAGE_SERVICE_CONTRACTID
 NS_ENSURE_TRUE
 (
 storage
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -1732,7 +1732,7 @@ conn
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -1796,7 +1796,7 @@ mDBConn
 >
 AsyncClose
 (
-nsnull
+nullptr
 )
 ;
 MOZ_ASSERT
@@ -3421,7 +3421,7 @@ BackupDatabaseFile
 (
 dbFile
 DM_DB_CORRUPT_FILENAME
-nsnull
+nullptr
 getter_AddRefs
 (
 backup
@@ -5158,7 +5158,7 @@ mScanner
 ;
 mScanner
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -5290,7 +5290,7 @@ manager
 -
 initialized
 "
-nsnull
+nullptr
 )
 ;
 /
@@ -5714,7 +5714,7 @@ change
 -
 retention
 "
-nsnull
+nullptr
 )
 ;
 retentionBehavior
@@ -6041,7 +6041,7 @@ dl
 >
 mCancelable
 =
-nsnull
+nullptr
 ;
 dl
 -
@@ -6702,7 +6702,7 @@ NotifyObservers
 (
 aDownload
 aTopic
-nsnull
+nullptr
 )
 ;
 }
@@ -8814,7 +8814,7 @@ nsIParentalControlsService
 ePCLog_FileDownload
 enabled
 aSource
-nsnull
+nullptr
 )
 ;
 }
@@ -8979,7 +8979,7 @@ dl
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -9621,10 +9621,10 @@ dl
 -
 >
 mSource
-nsnull
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
+nullptr
 dl
 -
 >
@@ -9644,7 +9644,7 @@ dl
 >
 mCancelable
 =
-nsnull
+nullptr
 ;
 (
 void
@@ -9654,7 +9654,7 @@ wbp
 >
 SetProgressListener
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -9860,7 +9860,7 @@ remove
 -
 download
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -10111,7 +10111,7 @@ mObserverService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 download
 -
@@ -10121,7 +10121,7 @@ remove
 -
 download
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -10313,7 +10313,7 @@ mObserverService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 download
 -
@@ -10323,7 +10323,7 @@ remove
 -
 download
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -11023,7 +11023,7 @@ type
 -
 changed
 "
-nsnull
+nullptr
 )
 ;
 rv
@@ -11209,7 +11209,7 @@ to
 commit
 mHistoryTransaction
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -12219,7 +12219,7 @@ dmui
 >
 Show
 (
-nsnull
+nullptr
 0
 nsIDownloadManagerUI
 :
@@ -13063,8 +13063,8 @@ dontQuitButton
 get
 (
 )
-nsnull
-nsnull
+nullptr
+nullptr
 &
 nothing
 &
@@ -13650,7 +13650,7 @@ void
 FailDownload
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -16095,7 +16095,7 @@ void
 FailDownload
 (
 aStatus
-nsnull
+nullptr
 )
 ;
 }
@@ -16799,7 +16799,7 @@ download
 start
 mCancelable
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -16827,7 +16827,7 @@ Truncate
 ;
 mTempFile
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -17846,7 +17846,7 @@ the
 cycle
 mCancelable
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -17972,8 +17972,8 @@ getter_AddRefs
 channel
 )
 mSource
-nsnull
-nsnull
+nullptr
+nullptr
 ir
 )
 ;
@@ -18345,7 +18345,7 @@ rv
 {
 mCancelable
 =
-nsnull
+nullptr
 ;
 (
 void
@@ -18355,7 +18355,7 @@ wbp
 >
 SetProgressListener
 (
-nsnull
+nullptr
 )
 ;
 return

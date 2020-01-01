@@ -738,7 +738,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -758,7 +758,7 @@ NS_PRECONDITION
 aContainer
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1186,7 +1186,7 @@ NS_PRECONDITION
 aElement
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1287,7 +1287,7 @@ NS_PRECONDITION
 aElement
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1494,7 +1494,7 @@ NS_PRECONDITION
 aElement
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1729,7 +1729,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2062,11 +2062,11 @@ RDFContainerImpl
 :
 mDataSource
 (
-nsnull
+nullptr
 )
 mContainer
 (
-nsnull
+nullptr
 )
 {
 }
@@ -3005,7 +3005,7 @@ NS_ASSERTION
 element
 !
 =
-nsnull
+nullptr
 "
 something
 funky

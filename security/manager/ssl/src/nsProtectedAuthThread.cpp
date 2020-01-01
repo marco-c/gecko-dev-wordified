@@ -192,7 +192,7 @@ false
 )
 mThreadHandle
 (
-nsnull
+nullptr
 )
 mSlot
 (
@@ -344,7 +344,7 @@ thread_started_ok
 threadHandle
 !
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -661,6 +661,6 @@ mThreadHandle
 ;
 mThreadHandle
 =
-nsnull
+nullptr
 ;
 }

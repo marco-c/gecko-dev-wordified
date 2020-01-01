@@ -495,7 +495,7 @@ parent
 ;
 BaseCreate
 (
-nsnull
+nullptr
 aRect
 aHandleEventFunction
 aContext
@@ -699,10 +699,10 @@ Create
 (
 isPopup
 ?
-nsnull
+nullptr
 :
 this
-nsnull
+nullptr
 aRect
 aHandleEventFunction
 aContext
@@ -717,7 +717,7 @@ forget
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -751,7 +751,7 @@ Revoke
 ;
 mChild
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -768,11 +768,11 @@ Destroy
 }
 mLayerManager
 =
-nsnull
+nullptr
 ;
 mTabChild
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1120,7 +1120,7 @@ aPoint
 {
 if
 (
-nsnull
+nullptr
 =
 =
 aPoint
@@ -1591,7 +1591,7 @@ this
 InitEvent
 (
 textEvent
-nsnull
+nullptr
 )
 ;
 textEvent
@@ -1673,7 +1673,7 @@ this
 InitEvent
 (
 compEvent
-nsnull
+nullptr
 )
 ;
 compEvent
@@ -1915,7 +1915,7 @@ this
 InitEvent
 (
 queryEvent
-nsnull
+nullptr
 )
 ;
 /
@@ -2102,7 +2102,7 @@ this
 InitEvent
 (
 queryEvent
-nsnull
+nullptr
 )
 ;
 queryEvent
@@ -2201,7 +2201,7 @@ this
 InitEvent
 (
 queryEvent
-nsnull
+nullptr
 )
 ;
 DispatchEvent
@@ -2827,7 +2827,7 @@ break
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 PuppetScreen
@@ -3139,7 +3139,7 @@ mOneScreen
 new
 PuppetScreen
 (
-nsnull
+nullptr
 )
 ;
 }

@@ -618,7 +618,7 @@ context
 Returns
 /
 /
-nsnull
+nullptr
 for
 outer
 <
@@ -972,7 +972,7 @@ GetAnimateMotionTransform
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -1526,7 +1526,7 @@ GetAnimatedPointList
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1585,7 +1585,7 @@ by
 NS_DECL_NSIDOMSVGANIMATEDPATHDATA
 .
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1703,7 +1703,7 @@ aFlags
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1765,7 +1765,7 @@ GetPointListAttrName
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1777,7 +1777,7 @@ GetPathDataAttrName
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1789,7 +1789,7 @@ GetTransformListAttrName
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 protected

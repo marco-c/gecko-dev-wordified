@@ -414,7 +414,7 @@ ProcessType
 *
 pid
 =
-nsnull
+nullptr
 )
 ;
 #
@@ -509,7 +509,7 @@ mArgc
 )
 mArgv
 (
-nsnull
+nullptr
 )
 {
 }

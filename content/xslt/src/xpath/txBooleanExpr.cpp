@@ -200,7 +200,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 bool
 lval

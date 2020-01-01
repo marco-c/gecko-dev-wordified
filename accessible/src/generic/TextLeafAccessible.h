@@ -368,7 +368,7 @@ TextLeafAccessible
 this
 )
 :
-nsnull
+nullptr
 ;
 }
 #

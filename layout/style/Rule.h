@@ -194,11 +194,11 @@ Rule
 :
 mSheet
 (
-nsnull
+nullptr
 )
 mParentRule
 (
-nsnull
+nullptr
 )
 {
 }

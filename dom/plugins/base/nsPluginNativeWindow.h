@@ -407,7 +407,7 @@ mPluginInstance
 >
 SetWindow
 (
-nsnull
+nullptr
 )
 ;
 SetPluginInstance

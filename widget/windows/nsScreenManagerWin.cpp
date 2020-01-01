@@ -261,7 +261,7 @@ nsIScreen
 *
 retScreen
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -490,7 +490,7 @@ outScreen
 =
 CreateNewScreenObject
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -591,7 +591,7 @@ aPrimaryScreen
 =
 CreateNewScreenObject
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -745,8 +745,8 @@ result
 :
 EnumDisplayMonitors
 (
-nsnull
-nsnull
+nullptr
+nullptr
 (
 MONITORENUMPROC
 )

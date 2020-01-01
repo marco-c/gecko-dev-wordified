@@ -233,7 +233,7 @@ nsConsoleService
 :
 mMessages
 (
-nsnull
+nullptr
 )
 mCurrent
 (
@@ -318,7 +318,7 @@ i
 ]
 !
 =
-nsnull
+nullptr
 )
 {
 NS_RELEASE
@@ -616,7 +616,7 @@ if
 message
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_INVALID_ARG
@@ -894,7 +894,7 @@ if
 retiredMessage
 !
 =
-nsnull
+nullptr
 )
 NS_RELEASE
 (
@@ -1075,7 +1075,7 @@ nsIConsoleMessage
 *
 messageArray
 =
-nsnull
+nullptr
 ;
 *
 messages
@@ -1128,13 +1128,13 @@ if
 messageArray
 =
 =
-nsnull
+nullptr
 )
 {
 *
 messages
 =
-nsnull
+nullptr
 ;
 *
 count
@@ -1528,7 +1528,7 @@ i
 ]
 !
 =
-nsnull
+nullptr
 ;
 i
 +

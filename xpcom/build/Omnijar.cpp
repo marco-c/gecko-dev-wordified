@@ -146,8 +146,8 @@ sPath
 ]
 =
 {
-nsnull
-nsnull
+nullptr
+nullptr
 }
 ;
 nsZipArchive
@@ -161,8 +161,8 @@ sReader
 ]
 =
 {
-nsnull
-nsnull
+nullptr
+nullptr
 }
 ;
 bool
@@ -277,7 +277,7 @@ sReader
 aType
 ]
 =
-nsnull
+nullptr
 ;
 NS_IF_RELEASE
 (
@@ -926,7 +926,7 @@ APP
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult

@@ -747,11 +747,11 @@ void
 :
 mDB
 (
-nsnull
+nullptr
 )
 mBuilder
 (
-nsnull
+nullptr
 )
 mQueryProcessorRDFInited
 (
@@ -767,7 +767,7 @@ mUpdateBatchNest
 )
 mSimpleRuleMemberTest
 (
-nsnull
+nullptr
 )
 {
 gRefCnt
@@ -1087,7 +1087,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 *
 aShouldDelayBuilding
@@ -1867,19 +1867,19 @@ this
 ;
 mDB
 =
-nsnull
+nullptr
 ;
 mBuilder
 =
-nsnull
+nullptr
 ;
 mRefVariable
 =
-nsnull
+nullptr
 ;
 mLastRef
 =
-nsnull
+nullptr
 ;
 mGenerationStarted
 =
@@ -1946,7 +1946,7 @@ Clear
 ;
 mSimpleRuleMemberTest
 =
-nsnull
+nullptr
 ;
 mBindingDependencies
 .
@@ -2062,7 +2062,7 @@ TestNode
 *
 lastnode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2437,7 +2437,7 @@ aQuery
 *
 aResults
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2975,7 +2975,7 @@ nsXULTemplateResultSetRDF
 (
 this
 query
-nsnull
+nullptr
 )
 ;
 if
@@ -4197,7 +4197,7 @@ SynchronizeAll
 (
 aSource
 aProperty
-nsnull
+nullptr
 aTarget
 )
 ;
@@ -4271,7 +4271,7 @@ SynchronizeAll
 aSource
 aProperty
 aTarget
-nsnull
+nullptr
 )
 ;
 return
@@ -6842,7 +6842,7 @@ TestNode
 *
 testnode
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -7077,7 +7077,7 @@ NS_OK
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7632,7 +7632,7 @@ nsRDFPropertyTestNode
 *
 testnode
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8572,7 +8572,7 @@ TestNode
 *
 testnode
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8676,7 +8676,7 @@ nsGkAtoms
 :
 :
 _false
-nsnull
+nullptr
 }
 ;
 switch
@@ -9886,7 +9886,7 @@ mMemoryElementToResultMap
 Get
 (
 hash
-nsnull
+nullptr
 )
 )
 return

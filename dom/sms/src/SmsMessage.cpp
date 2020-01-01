@@ -290,7 +290,7 @@ aMessage
 *
 aMessage
 =
-nsnull
+nullptr
 ;
 /
 /

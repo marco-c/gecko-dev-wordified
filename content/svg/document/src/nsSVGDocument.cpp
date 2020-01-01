@@ -593,7 +593,7 @@ aRootElement
 *
 aRootElement
 =
-nsnull
+nullptr
 ;
 Element
 *

@@ -2067,7 +2067,7 @@ aNodeInfo
 )
 mParent
 (
-nsnull
+nullptr
 )
 mFlags
 (
@@ -2079,15 +2079,15 @@ mBoolFlags
 )
 mNextSibling
 (
-nsnull
+nullptr
 )
 mPreviousSibling
 (
-nsnull
+nullptr
 )
 mFirstChild
 (
-nsnull
+nullptr
 )
 mSubtreeRoot
 (
@@ -2095,7 +2095,7 @@ this
 )
 mSlots
 (
-nsnull
+nullptr
 )
 {
 }
@@ -3026,7 +3026,7 @@ OwnerDoc
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -3250,7 +3250,7 @@ return
 InsertBefore
 (
 aNewChild
-nsnull
+nullptr
 aReturn
 )
 ;
@@ -3821,7 +3821,7 @@ nsresult
 *
 aStatus
 =
-nsnull
+nullptr
 )
 const
 {
@@ -3943,7 +3943,7 @@ nsresult
 *
 aStatus
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -4084,7 +4084,7 @@ aValue
 NSPropertyDtorFunc
 aDtor
 =
-nsnull
+nullptr
 bool
 aTransfer
 =
@@ -4262,7 +4262,7 @@ aValue
 NSPropertyDtorFunc
 aDtor
 =
-nsnull
+nullptr
 bool
 aTransfer
 =
@@ -4272,7 +4272,7 @@ void
 *
 aOldValue
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -4514,7 +4514,7 @@ nsresult
 *
 aStatus
 =
-nsnull
+nullptr
 )
 {
 return
@@ -4662,7 +4662,7 @@ nsresult
 *
 aStatus
 =
-nsnull
+nullptr
 )
 ;
 bool
@@ -4778,7 +4778,7 @@ nsIContent
 mParent
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -4879,7 +4879,7 @@ AsElement
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -5667,11 +5667,11 @@ nsSlots
 :
 mChildNodes
 (
-nsnull
+nullptr
 )
 mWeakReference
 (
-nsnull
+nullptr
 )
 {
 }
@@ -6198,7 +6198,7 @@ nsIEditor
 *
 aEditor
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -6361,7 +6361,7 @@ count
 1
 ]
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -6545,7 +6545,7 @@ baseURIProperty
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 public
@@ -6852,7 +6852,7 @@ key
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -7202,7 +7202,7 @@ nsINode
 *
 aRoot
 =
-nsnull
+nullptr
 )
 const
 {
@@ -7306,7 +7306,7 @@ nsINode
 *
 aRoot
 =
-nsnull
+nullptr
 )
 const
 {
@@ -7506,7 +7506,7 @@ aRoot
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 const
@@ -7561,7 +7561,7 @@ aRoot
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 cur
@@ -7668,7 +7668,7 @@ nsINode
 *
 aRoot
 =
-nsnull
+nullptr
 )
 const
 {
@@ -7760,7 +7760,7 @@ aRoot
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -8869,7 +8869,7 @@ ClearSubtreeRootPointer
 {
 mSubtreeRoot
 =
-nsnull
+nullptr
 ;
 }
 public
@@ -9021,7 +9021,7 @@ return
 mSlots
 !
 =
-nsnull
+nullptr
 ;
 }
 nsSlots
@@ -9085,7 +9085,7 @@ GetExistingSlots
 >
 mMutationObservers
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -9262,7 +9262,7 @@ aReturn
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -9887,7 +9887,7 @@ define
 NS_OFFSET_AND_INTERFACE_TABLE_END
 \
 {
-nsnull
+nullptr
 0
 }
 }

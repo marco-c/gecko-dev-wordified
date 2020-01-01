@@ -487,7 +487,7 @@ mContent
 pres_context
 &
 event
-nsnull
+nullptr
 &
 status
 )
@@ -930,7 +930,7 @@ get
 >
 SetFrame
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -1102,7 +1102,7 @@ NS_ERROR_FAILURE
 ;
 mImageRequest
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1331,7 +1331,7 @@ gTheme
 >
 ThemeSupportsWidget
 (
-nsnull
+nullptr
 this
 appearance
 )
@@ -1469,7 +1469,7 @@ nsGkAtoms
 :
 :
 never
-nsnull
+nullptr
 }
 ;
 switch
@@ -1937,7 +1937,7 @@ hasSubRect
 &
 mSubRect
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -2098,7 +2098,7 @@ gTheme
 >
 ThemeSupportsWidget
 (
-nsnull
+nullptr
 this
 disp
 -

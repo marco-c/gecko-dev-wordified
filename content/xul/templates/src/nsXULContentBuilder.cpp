@@ -1943,7 +1943,7 @@ NS_PRECONDITION
 aOuter
 =
 =
-nsnull
+nullptr
 "
 no
 aggregation
@@ -4521,7 +4521,7 @@ false
 aChild
 false
 aMatch
-nsnull
+nullptr
 /
 *
 don
@@ -4530,7 +4530,7 @@ t
 care
 *
 /
-nsnull
+nullptr
 /
 *
 don
@@ -5304,7 +5304,7 @@ NS_ASSERTION
 value
 !
 =
-nsnull
+nullptr
 "
 unable
 to
@@ -6015,7 +6015,7 @@ nsTemplateMatch
 *
 match
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6369,7 +6369,7 @@ nsIContent
 *
 container
 =
-nsnull
+nullptr
 ;
 PRInt32
 querySetCount
@@ -6815,19 +6815,19 @@ nsTemplateMatch
 *
 prevmatch
 =
-nsnull
+nullptr
 ;
 nsTemplateMatch
 *
 existingmatch
 =
-nsnull
+nullptr
 ;
 nsTemplateMatch
 *
 removematch
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7036,8 +7036,8 @@ removematch
 -
 >
 mResult
-nsnull
-nsnull
+nullptr
+nullptr
 aElement
 )
 ;
@@ -7098,7 +7098,7 @@ nsTemplateRule
 *
 matchedrule
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -7637,7 +7637,7 @@ aElement
 )
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -7913,7 +7913,7 @@ child
 )
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -8112,7 +8112,7 @@ NS_ASSERTION
 doc
 !
 =
-nsnull
+nullptr
 "
 not
 initialized
@@ -8150,7 +8150,7 @@ NodeInfoManager
 GetNodeInfo
 (
 aTag
-nsnull
+nullptr
 aNameSpaceID
 nsIDOMNode
 :
@@ -8219,7 +8219,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -8456,7 +8456,7 @@ NS_PRECONDITION
 aElement
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -8892,7 +8892,7 @@ nsTemplateMatch
 *
 match
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8917,7 +8917,7 @@ else
 *
 aResult
 =
-nsnull
+nullptr
 ;
 }
 NS_IF_ADDREF
@@ -9376,7 +9376,7 @@ aLocations
 *
 aLocations
 =
-nsnull
+nullptr
 ;
 nsAutoString
 ref
@@ -9652,7 +9652,7 @@ aLocations
 >
 ReplaceObjectAt
 (
-nsnull
+nullptr
 t
 )
 ;
@@ -9954,8 +9954,8 @@ aNewMatch
 mResult
 true
 aNewMatch
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -10548,7 +10548,7 @@ nsTemplateMatch
 *
 match
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -10616,7 +10616,7 @@ match
 -
 >
 mResult
-nsnull
+nullptr
 mSortState
 .
 sortHints
@@ -11063,7 +11063,7 @@ nsIContent
 *
 child
 =
-nsnull
+nullptr
 ;
 /
 /

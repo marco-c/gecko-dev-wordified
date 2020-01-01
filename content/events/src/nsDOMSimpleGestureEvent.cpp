@@ -132,7 +132,7 @@ nsSimpleGestureEvent
 (
 false
 0
-nsnull
+nullptr
 0
 0
 .
@@ -241,7 +241,7 @@ mEvent
 ;
 mEvent
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -555,7 +555,7 @@ aEvent
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 it

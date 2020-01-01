@@ -2095,7 +2095,7 @@ xpc_CreateGlobalObject
 ccx
 clasp
 principal
-nsnull
+nullptr
 false
 &
 global
@@ -4211,7 +4211,7 @@ XPCNativeSet
 GetNewOrUsed
 (
 ccx
-nsnull
+nullptr
 iface
 0
 )
@@ -4246,7 +4246,7 @@ DEBUG_ReportShadowedMembers
 (
 set
 wrapper
-nsnull
+nullptr
 )
 ;
 }
@@ -5451,7 +5451,7 @@ wrapper
 >
 mIdentity
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -5581,7 +5581,7 @@ nsWrapperCache
 *
 cache
 =
-nsnull
+nullptr
 ;
 CallQueryInterface
 (
@@ -5643,7 +5643,7 @@ flat
 )
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -5654,7 +5654,7 @@ wrapper
 *
 resultWrapper
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -5755,7 +5755,7 @@ wrapper
 *
 resultWrapper
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -5881,7 +5881,7 @@ IsValid
 test
 mScriptableInfo
 (
-nsnull
+nullptr
 )
 mWrapperWord
 (
@@ -5983,7 +5983,7 @@ IsValid
 test
 mScriptableInfo
 (
-nsnull
+nullptr
 )
 mWrapperWord
 (
@@ -6099,7 +6099,7 @@ mScriptableInfo
 ;
 mScriptableInfo
 =
-nsnull
+nullptr
 ;
 }
 XPCWrappedNativeScope
@@ -6214,7 +6214,7 @@ mIdentity
 {
 mIdentity
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -6378,7 +6378,7 @@ WRAPPER_WORD_POISON
 }
 mMaybeScope
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -6572,7 +6572,7 @@ nsXPCClassInfo
 *
 classInfoHelper
 =
-nsnull
+nullptr
 ;
 CallQueryInterface
 (
@@ -8748,7 +8748,7 @@ bad
 JS_SetPrivate
 (
 jso
-nsnull
+nullptr
 )
 ;
 to
@@ -8915,7 +8915,7 @@ to
 >
 SetNative
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -8924,7 +8924,7 @@ to
 >
 SetInterface
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -8933,7 +8933,7 @@ nsWrapperCache
 *
 cache
 =
-nsnull
+nullptr
 ;
 CallQueryInterface
 (
@@ -8968,7 +8968,7 @@ on
 .
 mFlatJSObject
 =
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -9253,12 +9253,12 @@ finalization
 JS_SetPrivate
 (
 mFlatJSObject
-nsnull
+nullptr
 )
 ;
 mFlatJSObject
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -9403,7 +9403,7 @@ GetJSObjectPreserveColor
 JS_SetPrivate
 (
 jso
-nsnull
+nullptr
 )
 ;
 to
@@ -9411,7 +9411,7 @@ to
 >
 SetJSObject
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -9442,7 +9442,7 @@ to
 >
 SetNative
 (
-nsnull
+nullptr
 )
 ;
 to
@@ -9450,7 +9450,7 @@ to
 >
 SetInterface
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -9471,7 +9471,7 @@ mFirstChunk
 .
 mNextChunk
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -9662,15 +9662,15 @@ AutoWrapperChanger
 :
 mCache
 (
-nsnull
+nullptr
 )
 mCOMObj
 (
-nsnull
+nullptr
 )
 mPreservedWrapper
 (
-nsnull
+nullptr
 )
 {
 }
@@ -9833,7 +9833,7 @@ nsWrapperCache
 *
 cache
 =
-nsnull
+nullptr
 ;
 CallQueryInterface
 (
@@ -9980,7 +9980,7 @@ flat
 *
 aWrapper
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -10650,7 +10650,7 @@ death
 SetExpandoChain
 (
 newobj
-nsnull
+nullptr
 )
 ;
 if
@@ -10878,7 +10878,7 @@ x
 JS_SetPrivate
 (
 flat
-nsnull
+nullptr
 )
 ;
 JSObject
@@ -11145,7 +11145,7 @@ bad
 SetSlimWrapperProto
 (
 flat
-nsnull
+nullptr
 )
 ;
 NS_ERROR
@@ -11290,7 +11290,7 @@ NS_ERROR_FAILURE
 *
 aWrapper
 =
-nsnull
+nullptr
 ;
 wrapper
 .
@@ -11317,7 +11317,7 @@ XPCWrappedNative
 *
 wrapper
 =
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -11998,13 +11998,13 @@ XPCWrappedNativeProto
 *
 proto
 =
-nsnull
+nullptr
 ;
 nsIClassInfo
 *
 protoClassInfo
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -12228,7 +12228,7 @@ class
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -12322,7 +12322,7 @@ GetObjectPrivate
 cur
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -12387,7 +12387,7 @@ pobj2
 =
 isWN
 ?
-nsnull
+nullptr
 :
 cur
 ;
@@ -12498,7 +12498,7 @@ pobj2
 *
 pobj2
 =
-nsnull
+nullptr
 ;
 XPCWrappedNativeTearOff
 *
@@ -12522,7 +12522,7 @@ if
 to
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -12602,10 +12602,10 @@ pobj2
 *
 pobj2
 =
-nsnull
+nullptr
 ;
 return
-nsnull
+nullptr
 ;
 }
 JSBool
@@ -12741,7 +12741,7 @@ mFirstChunk
 chunk
 !
 =
-nsnull
+nullptr
 ;
 chunk
 =
@@ -12807,7 +12807,7 @@ tearOff
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 XPCWrappedNativeTearOff
@@ -12837,7 +12837,7 @@ pError
 /
 *
 =
-nsnull
+nullptr
 *
 /
 )
@@ -12869,7 +12869,7 @@ XPCWrappedNativeTearOff
 *
 firstAvailable
 =
-nsnull
+nullptr
 ;
 XPCWrappedNativeTearOffChunk
 *
@@ -13048,7 +13048,7 @@ ok
 {
 to
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -13225,7 +13225,7 @@ rv
 )
 to
 =
-nsnull
+nullptr
 ;
 }
 return_result
@@ -13457,7 +13457,7 @@ aTearOff
 >
 SetInterface
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -13526,7 +13526,7 @@ aTearOff
 >
 SetInterface
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -13751,7 +13751,7 @@ JSObject
 *
 jso
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -14011,7 +14011,7 @@ JSObject
 *
 proto
 =
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -14146,7 +14146,7 @@ aTearOff
 >
 SetInterface
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -14345,7 +14345,7 @@ aTearOff
 >
 SetInterface
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -14425,7 +14425,7 @@ aTearOff
 >
 SetInterface
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -14535,7 +14535,7 @@ aTearOff
 >
 SetInterface
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -15425,7 +15425,7 @@ GetInterfaceInfo
 )
 mMethodInfo
 (
-nsnull
+nullptr
 )
 mCallee
 (
@@ -15894,7 +15894,7 @@ Get
 >
 SetPendingException
 (
-nsnull
+nullptr
 )
 ;
 mCallContext
@@ -17476,7 +17476,7 @@ nsISupports
 *
 qiresult
 =
-nsnull
+nullptr
 ;
 invokeResult
 =
@@ -17885,7 +17885,7 @@ val
 .
 p
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -19582,7 +19582,7 @@ val
 p
 =
 =
-nsnull
+nullptr
 )
 return
 ;
@@ -20680,7 +20680,7 @@ else
 *
 aXPConnect
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -20766,7 +20766,7 @@ else
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -20843,7 +20843,7 @@ else
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -21369,7 +21369,7 @@ to
 /
 *
 =
-nsnull
+nullptr
 *
 /
 )
@@ -21425,13 +21425,13 @@ char
 *
 sz
 =
-nsnull
+nullptr
 ;
 char
 *
 name
 =
-nsnull
+nullptr
 ;
 XPCNativeScriptableInfo
 *
@@ -21700,7 +21700,7 @@ name
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 const
@@ -22061,13 +22061,13 @@ char
 *
 className
 =
-nsnull
+nullptr
 ;
 char
 *
 contractID
 =
-nsnull
+nullptr
 ;
 const
 char
@@ -22299,13 +22299,13 @@ char
 *
 className
 =
-nsnull
+nullptr
 ;
 char
 *
 contractID
 =
-nsnull
+nullptr
 ;
 nsIClassInfo
 *
@@ -22320,7 +22320,7 @@ GetClassInfo
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -23310,7 +23310,7 @@ set
 ;
 DEBUG_PrintShadowObjectInfo
 (
-nsnull
+nullptr
 set
 wrapper
 proto
@@ -23413,7 +23413,7 @@ Event
 "
 ChromeWindow
 "
-nsnull
+nullptr
 }
 ;
 static
@@ -23512,7 +23512,7 @@ char
 *
 className
 =
-nsnull
+nullptr
 ;
 si
 -
@@ -24253,7 +24253,7 @@ param
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -24339,7 +24339,7 @@ nsWrapperCache
 *
 cache
 =
-nsnull
+nullptr
 ;
 CallQueryInterface
 (
@@ -24364,7 +24364,7 @@ Morph
 (
 ccx
 obj
-nsnull
+nullptr
 cache
 getter_AddRefs
 (

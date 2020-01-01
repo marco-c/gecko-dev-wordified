@@ -495,7 +495,7 @@ GoodAlignmentLog2
 aSize
 )
 ?
-nsnull
+nullptr
 :
 ptr
 ;
@@ -548,7 +548,7 @@ false
 )
 mData
 (
-nsnull
+nullptr
 )
 mFormat
 (
@@ -586,7 +586,7 @@ surface
 just
 leave
 mData
-nsnull
+nullptr
 if
 (
 mSize

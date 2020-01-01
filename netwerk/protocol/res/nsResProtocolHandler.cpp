@@ -216,7 +216,7 @@ nsResProtocolHandler
 *
 gResHandler
 =
-nsnull
+nullptr
 ;
 #
 if
@@ -538,8 +538,8 @@ rv
 net_ExtractURLScheme
 (
 spec
-nsnull
-nsnull
+nullptr
+nullptr
 &
 scheme
 )
@@ -942,7 +942,7 @@ nsResProtocolHandler
 {
 gResHandler
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -2249,8 +2249,8 @@ mIOService
 NewChannel
 (
 spec
-nsnull
-nsnull
+nullptr
+nullptr
 result
 )
 ;
@@ -2649,8 +2649,8 @@ mIOService
 NewURI
 (
 newBase
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 newBaseURI
@@ -2827,7 +2827,7 @@ mSubstitutions
 Get
 (
 root
-nsnull
+nullptr
 )
 ;
 return

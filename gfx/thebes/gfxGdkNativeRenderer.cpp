@@ -418,7 +418,7 @@ size
 flags
 screen
 visual
-nsnull
+nullptr
 )
 ;
 }

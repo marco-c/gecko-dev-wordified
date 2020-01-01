@@ -184,7 +184,7 @@ PRLogModuleInfo
 *
 gTestLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -708,8 +708,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsCOMPtr
@@ -931,7 +931,7 @@ channel
 AsyncOpen
 (
 listener
-nsnull
+nullptr
 )
 ;
 PumpEvents
@@ -962,7 +962,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION

@@ -189,7 +189,7 @@ TransitionEvent
 ;
 mEvent
 =
-nsnull
+nullptr
 ;
 }
 }

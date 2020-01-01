@@ -494,7 +494,7 @@ constant
 {
 mOutputString
 =
-nsnull
+nullptr
 ;
 mHeadLevel
 =
@@ -1802,7 +1802,7 @@ textstr
 }
 mOutputString
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -1916,11 +1916,11 @@ id
 }
 mElement
 =
-nsnull
+nullptr
 ;
 mOutputString
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2013,11 +2013,11 @@ id
 }
 mElement
 =
-nsnull
+nullptr
 ;
 mOutputString
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2076,7 +2076,7 @@ FlushLine
 ;
 mOutputString
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -10561,7 +10561,7 @@ PRUnichar
 *
 offsetIntoBuffer
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -11226,7 +11226,7 @@ IsHTML
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIAtom
@@ -11250,7 +11250,7 @@ IsStaticAtom
 ?
 localName
 :
-nsnull
+nullptr
 ;
 }
 /

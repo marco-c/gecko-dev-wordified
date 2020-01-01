@@ -1185,7 +1185,7 @@ aContext
 )
 mOriginalRenderState
 (
-nsnull
+nullptr
 )
 mMode
 (
@@ -1222,7 +1222,7 @@ so
 /
 /
 passing
-nsnull
+nullptr
 as
 the
 destroy
@@ -1238,7 +1238,7 @@ AddUserData
 &
 sSVGAutoRenderStateKey
 this
-nsnull
+nullptr
 )
 ;
 }
@@ -1272,7 +1272,7 @@ AddUserData
 &
 sSVGAutoRenderStateKey
 mOriginalRenderState
-nsnull
+nullptr
 )
 ;
 }
@@ -1483,7 +1483,7 @@ nsIContent
 *
 element
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -1568,7 +1568,7 @@ element
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1650,8 +1650,8 @@ nsComputedDOMStyle
 GetStyleContextForElementNoFlush
 (
 aElement
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -1835,8 +1835,8 @@ nsComputedDOMStyle
 GetStyleContextForElementNoFlush
 (
 aElement
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -2901,7 +2901,7 @@ foreignObject
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2932,7 +2932,7 @@ GetFlattenedTreeParent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -3715,7 +3715,7 @@ svgOuterSVGFrame
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 while
@@ -3809,7 +3809,7 @@ compile
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRect
@@ -3875,7 +3875,7 @@ filter
 GetPostFilterBounds
 (
 aFrame
-nsnull
+nullptr
 &
 aPreFilterRect
 )
@@ -4442,7 +4442,7 @@ y
 width
 &
 height
-nsnull
+nullptr
 )
 ;
 if
@@ -4887,7 +4887,7 @@ nsSVGOuterSVGFrame
 *
 outerSVGFrame
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -5591,7 +5591,7 @@ nsSVGSVGElement
 *
 >
 (
-nsnull
+nullptr
 )
 )
 *
@@ -5814,7 +5814,7 @@ GetParent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -5847,7 +5847,7 @@ if
 svg
 )
 return
-nsnull
+nullptr
 ;
 *
 aRect
@@ -7004,7 +7004,7 @@ nsIntRect
 *
 dirtyRect
 =
-nsnull
+nullptr
 ;
 nsIntRect
 tmpDirtyRect
@@ -8072,7 +8072,7 @@ nsRect
 *
 dirtyRect
 =
-nsnull
+nullptr
 ;
 nsRect
 tmpDirtyRect
@@ -8292,7 +8292,7 @@ matrix
 opacity
 )
 :
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -8627,7 +8627,7 @@ nsIFrame
 *
 result
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -8746,7 +8746,7 @@ aPoint
 )
 result
 =
-nsnull
+nullptr
 ;
 return
 result
@@ -11005,7 +11005,7 @@ ancestorFrame
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 #

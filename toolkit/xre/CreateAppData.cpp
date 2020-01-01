@@ -684,7 +684,7 @@ aAppData
 profile
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -719,7 +719,7 @@ EnableExtensionManager
 NS_XRE_ENABLE_EXTENSION_MANAGER
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -781,7 +781,7 @@ aAppData
 maxVersion
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -827,7 +827,7 @@ aAppData
 crashReporterURL
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -854,7 +854,7 @@ Enabled
 NS_XRE_ENABLE_CRASH_REPORTER
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -904,7 +904,7 @@ aAppData
 UAName
 }
 {
-nsnull
+nullptr
 }
 }
 ;

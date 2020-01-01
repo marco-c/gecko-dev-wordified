@@ -449,7 +449,7 @@ nsMargin
 *
 pCollapseBorder
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -958,7 +958,7 @@ mFrames
 .
 AppendFrames
 (
-nsnull
+nullptr
 aFrameList
 )
 ;
@@ -1170,7 +1170,7 @@ mFrames
 .
 InsertFrames
 (
-nsnull
+nullptr
 aPrevFrame
 aFrameList
 )
@@ -1790,7 +1790,7 @@ GetNextSibling
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3333,7 +3333,7 @@ nsDisplayTableItem
 *
 item
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3484,7 +3484,7 @@ skip
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 GetPrevInFlow
@@ -3503,7 +3503,7 @@ NS_SIDE_TOP
 }
 if
 (
-nsnull
+nullptr
 !
 =
 GetNextInFlow
@@ -4827,7 +4827,7 @@ kidFrame
 DidReflow
 (
 aPresContext
-nsnull
+nullptr
 NS_FRAME_REFLOW_FINISHED
 )
 ;
@@ -5830,7 +5830,7 @@ FinishReflowChild
 (
 kidFrame
 aPresContext
-nsnull
+nullptr
 desiredSize
 x
 0
@@ -6808,7 +6808,7 @@ aCellFrame
 DidReflow
 (
 aPresContext
-nsnull
+nullptr
 NS_FRAME_REFLOW_FINISHED
 )
 ;
@@ -8067,7 +8067,7 @@ nsTableCellFrame
 *
 priorCell
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -8237,13 +8237,13 @@ GetNextSibling
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_DECLARE_FRAME_PROPERTY
 (
 RowUnpaginatedHeightProperty
-nsnull
+nullptr
 )
 void
 nsTableRowFrame
@@ -8439,7 +8439,7 @@ PresShell
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #

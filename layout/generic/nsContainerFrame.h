@@ -641,7 +641,7 @@ aNextInFlowResult
 is
 set
 to
-nsnull
+nullptr
 .
 *
 return
@@ -1257,7 +1257,7 @@ nsOverflowContinuationTracker
 *
 aTracker
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -2334,7 +2334,7 @@ a
 child
 frame
 or
-nsnull
+nullptr
 *
 return
 If
@@ -3171,7 +3171,7 @@ the
 overlist
 pointers
 to
-nsnull
+nullptr
 and
 updates
 the

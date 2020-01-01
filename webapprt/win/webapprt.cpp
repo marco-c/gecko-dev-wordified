@@ -846,8 +846,8 @@ NSFuncPtr
 XRE_main
 }
 {
-nsnull
-nsnull
+nullptr
+nullptr
 }
 }
 ;

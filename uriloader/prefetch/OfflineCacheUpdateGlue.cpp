@@ -764,7 +764,7 @@ update
 -
 added
 "
-nsnull
+nullptr
 )
 ;
 LOG
@@ -874,7 +874,7 @@ Init
 (
 aManifestURI
 aDocumentURI
-nsnull
+nullptr
 aCustomProfileDir
 )
 ;
@@ -1185,7 +1185,7 @@ update
 -
 completed
 "
-nsnull
+nullptr
 )
 ;
 LOG

@@ -882,7 +882,7 @@ outDidFind
 searchWindowSupports
 =
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1372,7 +1372,7 @@ new
 one
 docShellEnumerator
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -2337,7 +2337,7 @@ nsITextControlFrame
 *
 tcFrame
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -2504,7 +2504,7 @@ fm
 MoveFocus
 (
 aWindow
-nsnull
+nullptr
 nsIFocusManager
 :
 :
@@ -4756,7 +4756,7 @@ aSel
 *
 aSel
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4848,7 +4848,7 @@ nsIFrame
 *
 frame
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4926,7 +4926,7 @@ presContext
 )
 frame
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -5312,7 +5312,7 @@ This
 will
 always
 return
-nsnull
+nullptr
 if
 no
 docShell
@@ -5440,7 +5440,7 @@ if
 window
 )
 return
-nsnull
+nullptr
 ;
 return
 window

@@ -302,8 +302,8 @@ CallEvent
 :
 nsDOMEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 {
 }

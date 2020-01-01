@@ -815,7 +815,7 @@ usemap
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /

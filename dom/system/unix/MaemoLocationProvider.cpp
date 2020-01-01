@@ -201,11 +201,11 @@ true
 )
 mGPSControl
 (
-nsnull
+nullptr
 )
 mGPSDevice
 (
-nsnull
+nullptr
 )
 mIgnoreMinorChanges
 (
@@ -1236,7 +1236,7 @@ false
 ;
 mCallback
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1255,7 +1255,7 @@ mGPSControl
 ;
 mGPSControl
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1270,7 +1270,7 @@ mGPSDevice
 ;
 mGPSDevice
 =
-nsnull
+nullptr
 ;
 }
 return

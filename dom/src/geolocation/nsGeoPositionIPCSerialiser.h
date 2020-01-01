@@ -706,7 +706,7 @@ timeStamp
 GeoPositionCoords
 coords
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -758,7 +758,7 @@ to
 do
 "
 delete
-nsnull
+nullptr
 "
 in
 case

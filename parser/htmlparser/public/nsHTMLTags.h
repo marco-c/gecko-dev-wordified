@@ -449,7 +449,7 @@ aEnum
 >
 NS_HTML_TAG_MAX
 ?
-nsnull
+nullptr
 :
 sTagUnicodeTable
 [
@@ -479,7 +479,7 @@ aEnum
 >
 NS_HTML_TAG_MAX
 ?
-nsnull
+nullptr
 :
 sTagAtomTable
 [

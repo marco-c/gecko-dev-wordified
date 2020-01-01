@@ -213,10 +213,10 @@ mTransitionTable
 new
 nsObjectHashtable
 (
-nsnull
-nsnull
+nullptr
+nullptr
 DeleteDFAState
-nsnull
+nullptr
 )
 ;
 }
@@ -455,7 +455,7 @@ nsStyleContext
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -552,10 +552,10 @@ mCache
 new
 nsObjectHashtable
 (
-nsnull
-nsnull
+nullptr
+nullptr
 ReleaseStyleContext
-nsnull
+nullptr
 )
 ;
 }

@@ -299,8 +299,8 @@ BluetoothDeviceEvent
 :
 nsDOMEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 {
 }

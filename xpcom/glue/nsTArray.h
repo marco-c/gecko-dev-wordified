@@ -720,7 +720,7 @@ this
 SafeElementAt
 (
 i
-nsnull
+nullptr
 )
 ;
 }
@@ -748,7 +748,7 @@ this
 SafeElementAt
 (
 i
-nsnull
+nullptr
 )
 ;
 }
@@ -820,7 +820,7 @@ this
 SafeElementAt
 (
 i
-nsnull
+nullptr
 )
 ;
 }
@@ -848,7 +848,7 @@ this
 SafeElementAt
 (
 i
-nsnull
+nullptr
 )
 ;
 }
@@ -5155,7 +5155,7 @@ elem_type
 )
 )
 return
-nsnull
+nullptr
 ;
 DestructRange
 (
@@ -5518,7 +5518,7 @@ elem_type
 )
 )
 return
-nsnull
+nullptr
 ;
 this
 -
@@ -6324,7 +6324,7 @@ elem_type
 )
 )
 return
-nsnull
+nullptr
 ;
 index_type
 len
@@ -6501,7 +6501,7 @@ elem_type
 )
 )
 return
-nsnull
+nullptr
 ;
 elem_type
 *
@@ -6712,7 +6712,7 @@ elem_type
 )
 )
 return
-nsnull
+nullptr
 ;
 memcpy
 (
@@ -7556,7 +7556,7 @@ oldLen
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 TruncateLength
@@ -7776,7 +7776,7 @@ oldLen
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -7872,7 +7872,7 @@ elem_type
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -8056,7 +8056,7 @@ elem_type
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -8602,7 +8602,7 @@ elem_type
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /

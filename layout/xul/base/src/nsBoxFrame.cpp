@@ -713,7 +713,7 @@ nsBoxFrame
 :
 mDebugChild
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -851,7 +851,7 @@ if
 layout
 =
 =
-nsnull
+nullptr
 )
 {
 NS_NewSprocketLayout
@@ -1183,7 +1183,7 @@ nsGkAtoms
 :
 :
 always
-nsnull
+nullptr
 }
 ;
 switch
@@ -1505,7 +1505,7 @@ nsGkAtoms
 :
 :
 _true
-nsnull
+nullptr
 }
 ;
 PRInt32
@@ -1608,7 +1608,7 @@ nsGkAtoms
 :
 :
 right
-nsnull
+nullptr
 }
 ;
 static
@@ -1754,7 +1754,7 @@ nsGkAtoms
 :
 :
 end
-nsnull
+nullptr
 }
 ;
 static
@@ -2082,7 +2082,7 @@ nsGkAtoms
 :
 :
 bottom
-nsnull
+nullptr
 }
 ;
 static
@@ -2235,7 +2235,7 @@ nsGkAtoms
 :
 :
 end
-nsnull
+nullptr
 }
 ;
 static
@@ -2631,7 +2631,7 @@ nsGkAtoms
 :
 :
 horizontal
-nsnull
+nullptr
 }
 ;
 PRInt32
@@ -2870,7 +2870,7 @@ nsGkAtoms
 :
 :
 rtl
-nsnull
+nullptr
 }
 ;
 PRInt32
@@ -3088,7 +3088,7 @@ nsGkAtoms
 :
 :
 stretch
-nsnull
+nullptr
 }
 ;
 PRInt32
@@ -5318,7 +5318,7 @@ child
 boxes
 SetLayoutManager
 (
-nsnull
+nullptr
 )
 ;
 DestroyAbsoluteFrames
@@ -8473,7 +8473,7 @@ GetChildBox
 ;
 while
 (
-nsnull
+nullptr
 !
 =
 kid
@@ -10726,7 +10726,7 @@ else
 }
 mDebugChild
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -11384,7 +11384,7 @@ sorted
 ]
 =
 {
-nsnull
+nullptr
 }
 ;
 nsIFrame
@@ -11431,7 +11431,7 @@ current
 >
 SetNextSibling
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -11471,7 +11471,7 @@ length
 1
 (
 or
-nsnull
+nullptr
 )
 .
 /
@@ -11488,7 +11488,7 @@ length
 2
 (
 or
-nsnull
+nullptr
 )
 .
 /
@@ -11505,7 +11505,7 @@ length
 4
 (
 or
-nsnull
+nullptr
 )
 .
 etc
@@ -11547,7 +11547,7 @@ current
 *
 left
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -11601,7 +11601,7 @@ nsIFrame
 *
 result
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -11943,7 +11943,7 @@ nsIFrame
 *
 newPrevSib
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -12059,7 +12059,7 @@ mFrames
 .
 InsertFrame
 (
-nsnull
+nullptr
 newPrevSib
 aChild
 )
@@ -12162,7 +12162,7 @@ a
 descendant
 element
 into
-nsnull
+nullptr
 so
 events
 *

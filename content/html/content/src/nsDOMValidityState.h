@@ -177,7 +177,7 @@ Disconnect
 {
 mConstraintValidation
 =
-nsnull
+nullptr
 ;
 }
 /

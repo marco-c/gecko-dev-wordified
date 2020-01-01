@@ -505,7 +505,7 @@ mData
 .
 mString
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -514,7 +514,7 @@ eISupportsType
 :
 mISupports
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -535,7 +535,7 @@ mData
 .
 mCString
 =
-nsnull
+nullptr
 ;
 break
 ;

@@ -691,7 +691,7 @@ Shutdown
 {
 mTableCell
 =
-nsnull
+nullptr
 ;
 HyperTextAccessibleWrap
 :
@@ -1219,7 +1219,7 @@ aTable
 *
 aTable
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1510,7 +1510,7 @@ aHeaderCells
 *
 aHeaderCells
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1552,7 +1552,7 @@ aHeaderCells
 *
 aHeaderCells
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1801,7 +1801,7 @@ nsIAccessibleTable
 *
 tableAcc
 =
-nsnull
+nullptr
 ;
 CallQueryInterface
 (
@@ -1816,7 +1816,7 @@ tableAcc
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsITableCellLayout
@@ -1862,7 +1862,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 nsITableCellLayout
 *
@@ -2481,7 +2481,7 @@ nsGkAtoms
 :
 :
 row
-nsnull
+nullptr
 }
 ;
 PRInt32
@@ -3094,7 +3094,7 @@ Shutdown
 {
 mTable
 =
-nsnull
+nullptr
 ;
 AccessibleWrap
 :
@@ -3259,7 +3259,7 @@ Accessible
 *
 child
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -3784,7 +3784,7 @@ mChildren
 SafeElementAt
 (
 0
-nsnull
+nullptr
 )
 ;
 return
@@ -3806,7 +3806,7 @@ CAPTION
 ?
 child
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -4658,7 +4658,7 @@ if
 cellElement
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4678,7 +4678,7 @@ if
 cellContent
 )
 return
-nsnull
+nullptr
 ;
 Accessible
 *
@@ -4729,7 +4729,7 @@ cell
 =
 this
 ?
-nsnull
+nullptr
 :
 cell
 ;
@@ -5874,7 +5874,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 nsITableLayout
 *

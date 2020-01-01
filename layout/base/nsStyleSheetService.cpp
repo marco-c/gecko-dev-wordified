@@ -218,7 +218,7 @@ nsStyleSheetService
 :
 gInstance
 =
-nsnull
+nullptr
 ;
 nsStyleSheetService
 :
@@ -278,7 +278,7 @@ nsStyleSheetService
 {
 gInstance
 =
-nsnull
+nullptr
 ;
 nsLayoutStatics
 :
@@ -785,7 +785,7 @@ Count
 1
 ]
 message
-nsnull
+nullptr
 )
 ;
 }
@@ -1115,7 +1115,7 @@ NotifyObservers
 (
 sheet
 message
-nsnull
+nullptr
 )
 ;
 return

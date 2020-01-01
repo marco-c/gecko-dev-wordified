@@ -249,7 +249,7 @@ Foo
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -772,7 +772,7 @@ nsFixedSizeAllocator
 :
 mBuckets
 (
-nsnull
+nullptr
 )
 {
 }

@@ -357,7 +357,7 @@ nsIObserver
 *
 aIdleObserver
 =
-nsnull
+nullptr
 )
 ;
 /

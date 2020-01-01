@@ -2701,7 +2701,7 @@ Message
 *
 reply
 =
-nsnull
+nullptr
 ;
 +
 +

@@ -699,7 +699,7 @@ nsAccessibilityService
 :
 gAccessibilityService
 =
-nsnull
+nullptr
 ;
 bool
 nsAccessibilityService
@@ -749,7 +749,7 @@ shutdown
 ;
 gAccessibilityService
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1267,7 +1267,7 @@ documentNode
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -1911,7 +1911,7 @@ IsEmpty
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -2033,7 +2033,7 @@ windowless
 HWND
 pluginPort
 =
-nsnull
+nullptr
 ;
 aFrame
 -
@@ -2079,7 +2079,7 @@ AtkSocketAccessible
 gCanEmbed
 )
 return
-nsnull
+nullptr
 ;
 nsCString
 plugId
@@ -2189,7 +2189,7 @@ CreateAccessible
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -3401,7 +3401,7 @@ aAccessible
 *
 aAccessible
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4839,7 +4839,7 @@ aAccessible
 *
 aAccessible
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5036,7 +5036,7 @@ aRoot
 *
 aPivot
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -5318,7 +5318,7 @@ aNode
 gIsShutdown
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -5466,7 +5466,7 @@ document
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -5499,7 +5499,7 @@ document
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -5520,7 +5520,7 @@ if
 content
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -5649,7 +5649,7 @@ aIsSubtreeHidden
 true
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -5824,7 +5824,7 @@ frame
 #
 endif
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -5923,7 +5923,7 @@ accessible
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -5978,8 +5978,8 @@ GetRenderedText
 (
 &
 text
-nsnull
-nsnull
+nullptr
+nullptr
 0
 PR_UINT32_MAX
 )
@@ -6003,7 +6003,7 @@ aIsSubtreeHidden
 true
 ;
 return
-nsnull
+nullptr
 ;
 }
 newAcc
@@ -6023,7 +6023,7 @@ docAcc
 BindToDocument
 (
 newAcc
-nsnull
+nullptr
 )
 )
 {
@@ -6045,7 +6045,7 @@ newAcc
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -6237,7 +6237,7 @@ aIsSubtreeHidden
 true
 ;
 return
-nsnull
+nullptr
 ;
 }
 newAcc
@@ -6270,7 +6270,7 @@ return
 newAcc
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRoleMapEntry
@@ -6339,11 +6339,11 @@ IsFocusable
 )
 roleMapEntry
 =
-nsnull
+nullptr
 ;
 else
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -6480,7 +6480,7 @@ GetParent
 )
 !
 =
-nsnull
+nullptr
 )
 {
 nsIFrame
@@ -6734,7 +6734,7 @@ events
 )
 .
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -7196,7 +7196,7 @@ aIsSubtreeHidden
 true
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -7685,7 +7685,7 @@ roleMapEntry
 ?
 newAcc
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -7858,7 +7858,7 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 a11y
 -
@@ -7989,7 +7989,7 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 a11y
 -
@@ -8377,7 +8377,7 @@ if
 accessibleProvider
 )
 return
-nsnull
+nullptr
 ;
 PRInt32
 type
@@ -8402,7 +8402,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -8439,7 +8439,7 @@ Accessible
 *
 accessible
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -8456,7 +8456,7 @@ nsIAccessibleProvider
 NoAccessible
 :
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -8650,7 +8650,7 @@ tooltiptext
 )
 )
 return
-nsnull
+nullptr
 ;
 accessible
 =
@@ -8910,7 +8910,7 @@ kNameSpaceID_XUL
 )
 )
 return
-nsnull
+nullptr
 ;
 #
 endif
@@ -9584,7 +9584,7 @@ break
 default
 :
 return
-nsnull
+nullptr
 ;
 }
 NS_IF_ADDREF
@@ -10278,7 +10278,7 @@ accessible
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -10404,7 +10404,7 @@ if
 applicationAcc
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -10431,7 +10431,7 @@ if
 nativeRootAcc
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -10449,7 +10449,7 @@ nativeRootAcc
 #
 endif
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -10688,7 +10688,7 @@ NS_ERROR_NULL_POINTER
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -11055,7 +11055,7 @@ accessible
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -11098,7 +11098,7 @@ if
 treeBoxObj
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -11123,7 +11123,7 @@ if
 treeColumns
 )
 return
-nsnull
+nullptr
 ;
 PRInt32
 count

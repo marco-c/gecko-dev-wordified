@@ -747,7 +747,7 @@ pLocalBuffer
 ;
 pLocalBuffer
 =
-nsnull
+nullptr
 ;
 }
 iBufferLength

@@ -503,7 +503,7 @@ if
 printableItem
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -773,7 +773,7 @@ if
 printableItem
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -840,7 +840,7 @@ if
 serialNumber
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -3290,7 +3290,7 @@ decoded
 .
 data
 =
-nsnull
+nullptr
 ;
 decoded
 .
@@ -3305,7 +3305,7 @@ SECSuccess
 =
 SEC_ASN1DecodeItem
 (
-nsnull
+nullptr
 &
 decoded
 SEC_ASN1_GET
@@ -3700,7 +3700,7 @@ decoded
 .
 data
 =
-nsnull
+nullptr
 ;
 decoded
 .
@@ -3715,7 +3715,7 @@ SECSuccess
 =
 SEC_ASN1DecodeItem
 (
-nsnull
+nullptr
 &
 decoded
 SEC_ASN1_GET
@@ -4634,7 +4634,7 @@ SECItem
 *
 decodeItem
 =
-nsnull
+nullptr
 ;
 nsString
 avavalue
@@ -5228,7 +5228,7 @@ SECSuccess
 =
 SEC_ASN1DecodeItem
 (
-nsnull
+nullptr
 &
 item
 SEC_ASN1_GET
@@ -8854,7 +8854,7 @@ SECSuccess
 =
 SEC_ASN1DecodeItem
 (
-nsnull
+nullptr
 &
 decoded
 SEC_ASN1_GET
@@ -9338,7 +9338,7 @@ if
 extensionItem
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -9379,7 +9379,7 @@ critical
 data
 !
 =
-nsnull
+nullptr
 )
 {
 if
@@ -9578,7 +9578,7 @@ if
 sequence
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -9586,7 +9586,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 retSequence
 =
-nsnull
+nullptr
 ;
 nsString
 text
@@ -9665,7 +9665,7 @@ if
 printableItem
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -9735,7 +9735,7 @@ if
 printableItem
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -9945,7 +9945,7 @@ dateFormatter
 >
 FormatPRExplodedTime
 (
-nsnull
+nullptr
 kDateFormatShort
 kTimeFormatSecondsForce24Hour
 &
@@ -9987,7 +9987,7 @@ dateFormatter
 >
 FormatPRExplodedTime
 (
-nsnull
+nullptr
 kDateFormatShort
 kTimeFormatSecondsForce24Hour
 &
@@ -10031,7 +10031,7 @@ if
 printableItem
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -10116,7 +10116,7 @@ if
 spkiSequence
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -10237,7 +10237,7 @@ if
 printableItem
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -10761,7 +10761,7 @@ if
 extensionSequence
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -10829,7 +10829,7 @@ i
 ]
 !
 =
-nsnull
+nullptr
 ;
 i
 +
@@ -11193,7 +11193,7 @@ if
 sequence
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -11403,7 +11403,7 @@ if
 printableItem
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -11614,7 +11614,7 @@ if
 printableItem
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -11701,7 +11701,7 @@ issuerID
 data
 !
 =
-nsnull
+nullptr
 )
 {
 /
@@ -11790,7 +11790,7 @@ if
 printableItem
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -11928,7 +11928,7 @@ if
 printableItem
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -12090,7 +12090,7 @@ if
 mASN1Structure
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -12566,7 +12566,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 nsAutoString
 expiredString

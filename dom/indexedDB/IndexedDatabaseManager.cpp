@@ -553,7 +553,7 @@ IndexedDatabaseManager
 *
 gInstance
 =
-nsnull
+nullptr
 ;
 PRInt32
 gIndexedDBQuotaMB
@@ -1055,7 +1055,7 @@ instances
 ;
 gInstance
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -1113,7 +1113,7 @@ shutdown
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -1212,7 +1212,7 @@ instance
 -
 >
 mCurrentWindowIndex
-nsnull
+nullptr
 )
 !
 =
@@ -1237,7 +1237,7 @@ mCurrentWindowIndex
 BAD_TLS_INDEX
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -1288,7 +1288,7 @@ dbBaseDirectory
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 rv
@@ -1309,7 +1309,7 @@ indexedDB
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 rv
@@ -1328,7 +1328,7 @@ mDatabaseBasePath
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 /
@@ -1445,7 +1445,7 @@ instance
 -
 >
 mShutdownTimer
-nsnull
+nullptr
 )
 ;
 }
@@ -1462,7 +1462,7 @@ GetObserverService
 NS_ENSURE_TRUE
 (
 obs
-nsnull
+nullptr
 )
 ;
 /
@@ -1496,7 +1496,7 @@ false
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 if
@@ -1798,7 +1798,7 @@ str
 NS_ENSURE_TRUE
 (
 atom
-nsnull
+nullptr
 )
 ;
 return
@@ -2157,7 +2157,7 @@ errorMsg
 event
 .
 fileName
-nsnull
+nullptr
 event
 .
 lineNr
@@ -3133,7 +3133,7 @@ Id
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION
@@ -4310,7 +4310,7 @@ window
 PR_SetThreadPrivate
 (
 mCurrentWindowIndex
-nsnull
+nullptr
 )
 ;
 }
@@ -4632,7 +4632,7 @@ GetIndexedDBQuotaMB
 *
 1024
 mQuotaCallbackSingleton
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5408,7 +5408,7 @@ nsPIDOMWindow
 *
 window
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -5416,7 +5416,7 @@ CheckQuotaHelper
 >
 helper
 =
-nsnull
+nullptr
 ;
 bool
 createdHelper
@@ -6174,7 +6174,7 @@ array
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 for
@@ -6246,7 +6246,7 @@ forget
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -7213,7 +7213,7 @@ rv
 WaitForOpenAllowed
 (
 origin
-nsnull
+nullptr
 runnable
 )
 ;
@@ -7534,7 +7534,7 @@ rv
 WaitForOpenAllowed
 (
 origin
-nsnull
+nullptr
 runnable
 )
 ;
@@ -8154,7 +8154,7 @@ mFileManagers
 EnumerateRead
 (
 InvalidateAllFileManagers
-nsnull
+nullptr
 )
 ;
 if
@@ -8830,7 +8830,7 @@ mgr
 AllowNextSynchronizedOp
 (
 mOrigin
-nsnull
+nullptr
 )
 ;
 return
@@ -9451,11 +9451,11 @@ up
 .
 mURI
 =
-nsnull
+nullptr
 ;
 mCallback
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -9491,7 +9491,7 @@ mgr
 AllowNextSynchronizedOp
 (
 mOrigin
-nsnull
+nullptr
 )
 ;
 }
@@ -10011,7 +10011,7 @@ mRunnable
 ;
 mOp
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -10731,8 +10731,8 @@ obj
 indexedDB
 "
 indexedDBVal
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -10748,9 +10748,9 @@ keyrangeObj
 JS_NewObject
 (
 aCx
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -10790,8 +10790,8 @@ OBJECT_TO_JSVAL
 (
 keyrangeObj
 )
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )

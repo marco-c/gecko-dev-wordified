@@ -269,7 +269,7 @@ param
 *
 aContentDocument
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -330,7 +330,7 @@ param
 *
 aContentWindow
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -948,7 +948,7 @@ Destroy
 ;
 mFrameLoader
 =
-nsnull
+nullptr
 ;
 }
 nsGenericHTMLElement
@@ -1076,7 +1076,7 @@ Destroy
 ;
 mFrameLoader
 =
-nsnull
+nullptr
 ;
 }
 nsGenericHTMLElement

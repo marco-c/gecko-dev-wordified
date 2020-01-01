@@ -797,7 +797,7 @@ i
 ]
 =
 =
-nsnull
+nullptr
 )
 {
 fail
@@ -845,7 +845,7 @@ i
 ]
 !
 =
-nsnull
+nullptr
 )
 {
 fail

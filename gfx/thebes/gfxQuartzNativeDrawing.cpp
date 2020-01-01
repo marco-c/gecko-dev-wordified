@@ -255,7 +255,7 @@ CairoStatus
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -404,7 +404,7 @@ if
 mCGContext
 )
 return
-nsnull
+nullptr
 ;
 gfxMatrix
 m
@@ -622,7 +622,7 @@ CairoStatus
 )
 )
 return
-nsnull
+nullptr
 ;
 mSurfaceContext
 =

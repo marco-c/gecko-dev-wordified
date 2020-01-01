@@ -146,7 +146,7 @@ tryplatform
 ?
 mLookupFunc
 :
-nsnull
+nullptr
 prefix
 )
 ;
@@ -344,7 +344,7 @@ i
 ]
 =
 =
-nsnull
+nullptr
 )
 break
 ;

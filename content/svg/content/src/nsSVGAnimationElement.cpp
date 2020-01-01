@@ -866,7 +866,7 @@ AsElement
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -986,7 +986,7 @@ nsGkAtoms
 :
 :
 XML
-nsnull
+nullptr
 }
 ;
 nsSMILTargetAttrType
@@ -2671,7 +2671,7 @@ GetTimedDocumentRoot
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /

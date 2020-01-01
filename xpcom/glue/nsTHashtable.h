@@ -944,7 +944,7 @@ the
 key
 exists
 ;
-nsnull
+nullptr
 if
 the
 *
@@ -1019,7 +1019,7 @@ entry
 ?
 entry
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -1112,7 +1112,7 @@ entry
 class
 retreived
 ;
-nsnull
+nullptr
 only
 if
 memory
@@ -1594,7 +1594,7 @@ PL_DHashTableEnumerate
 &
 mTable
 PL_DHashStubEnumRemove
-nsnull
+nullptr
 )
 ;
 }
@@ -2349,7 +2349,7 @@ PL_DHashTableInit
 mTable
 &
 sOps
-nsnull
+nullptr
 sizeof
 (
 EntryType

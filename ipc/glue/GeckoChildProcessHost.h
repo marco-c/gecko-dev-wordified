@@ -182,7 +182,7 @@ Delegate
 *
 aDelegate
 =
-nsnull
+nullptr
 )
 ;
 ~

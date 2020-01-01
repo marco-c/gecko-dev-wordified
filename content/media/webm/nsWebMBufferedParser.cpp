@@ -725,7 +725,7 @@ length
 VIntLength
 (
 c
-nsnull
+nullptr
 )
 ;
 if

@@ -1436,7 +1436,7 @@ plugin
 *
 aCtx
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

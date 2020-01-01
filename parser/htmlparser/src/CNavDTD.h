@@ -1126,7 +1126,7 @@ nsEntryStack
 *
 aStyleStack
 =
-nsnull
+nullptr
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

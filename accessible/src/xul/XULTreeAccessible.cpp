@@ -1181,11 +1181,11 @@ mAccessibleCache
 ;
 mTree
 =
-nsnull
+nullptr
 ;
 mTreeView
 =
-nsnull
+nullptr
 ;
 AccessibleWrap
 :
@@ -1501,7 +1501,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 nsPresContext
 *
@@ -1539,7 +1539,7 @@ GetRootFrame
 NS_ENSURE_TRUE
 (
 rootFrame
-nsnull
+nullptr
 )
 ;
 nsIntRect
@@ -1838,7 +1838,7 @@ if
 mTreeView
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1892,7 +1892,7 @@ currentIndex
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1936,7 +1936,7 @@ if
 mTreeView
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1961,7 +1961,7 @@ if
 selection
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1980,7 +1980,7 @@ if
 selectedItems
 )
 return
-nsnull
+nullptr
 ;
 PRInt32
 rangeCount
@@ -2078,7 +2078,7 @@ nsIMutableArray
 *
 items
 =
-nsnull
+nullptr
 ;
 selectedItems
 .
@@ -2435,7 +2435,7 @@ if
 mTreeView
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2460,7 +2460,7 @@ if
 selection
 )
 return
-nsnull
+nullptr
 ;
 PRUint32
 selCount
@@ -2555,7 +2555,7 @@ selCount
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -3219,14 +3219,14 @@ ContainerWidget
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 }
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3342,7 +3342,7 @@ IsDefunct
 mTreeView
 )
 return
-nsnull
+nullptr
 ;
 PRInt32
 rowCount
@@ -3375,7 +3375,7 @@ aRow
 rowCount
 )
 return
-nsnull
+nullptr
 ;
 void
 *
@@ -3442,7 +3442,7 @@ Document
 BindToDocument
 (
 treeItem
-nsnull
+nullptr
 )
 )
 return
@@ -3457,7 +3457,7 @@ key
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -4709,7 +4709,7 @@ this
 ?
 this
 :
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -5416,7 +5416,7 @@ NS_ERROR_INVALID_ARG
 ;
 DoCommand
 (
-nsnull
+nullptr
 aIndex
 )
 ;
@@ -5520,11 +5520,11 @@ Shutdown
 {
 mTree
 =
-nsnull
+nullptr
 ;
 mTreeView
 =
-nsnull
+nullptr
 ;
 mRow
 =
@@ -7392,7 +7392,7 @@ Shutdown
 {
 mColumn
 =
-nsnull
+nullptr
 ;
 XULTreeItemAccessibleBase
 :
@@ -8126,6 +8126,6 @@ aOffset
 }
 }
 return
-nsnull
+nullptr
 ;
 }

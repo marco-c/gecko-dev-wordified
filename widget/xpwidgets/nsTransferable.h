@@ -189,7 +189,7 @@ aFlavor
 )
 mCacheFileName
 (
-nsnull
+nullptr
 )
 {
 }

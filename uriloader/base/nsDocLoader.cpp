@@ -341,7 +341,7 @@ PRLogModuleInfo
 *
 gDocLoaderLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -508,7 +508,7 @@ false
 )
 mLastStatus
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -719,7 +719,7 @@ nsDocLoader
 :
 mParent
 (
-nsnull
+nullptr
 )
 mListenerInfoList
 (
@@ -770,7 +770,7 @@ PR_LOGGING
 )
 if
 (
-nsnull
+nullptr
 =
 =
 gDocLoaderLog
@@ -817,7 +817,7 @@ PL_DHashTableInit
 mRequestInfoHash
 &
 hash_table_ops
-nsnull
+nullptr
 sizeof
 (
 nsRequestInfo
@@ -830,7 +830,7 @@ mRequestInfoHash
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 ClearInternalProgress
@@ -1335,7 +1335,7 @@ aSupports
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsDocLoader
@@ -2061,7 +2061,7 @@ NS_OK
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 aResult
@@ -2231,7 +2231,7 @@ mLoadGroup
 >
 SetGroupObserver
 (
-nsnull
+nullptr
 )
 ;
 DestroyChildren
@@ -2353,7 +2353,7 @@ loader
 >
 SetDocLoaderParent
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3069,7 +3069,7 @@ info
 >
 mLastStatus
 =
-nsnull
+nullptr
 ;
 PRInt64
 oldMax
@@ -3766,7 +3766,7 @@ aChild
 >
 SetDocLoaderParent
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3841,7 +3841,7 @@ mDocumentRequest
 *
 aChannel
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -4329,7 +4329,7 @@ mLoadGroup
 >
 SetDefaultLoadRequest
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -8700,7 +8700,7 @@ info
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -8804,7 +8804,7 @@ return
 null
 .
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -8908,7 +8908,7 @@ PL_DHashTableEnumerate
 &
 mRequestInfoHash
 RemoveInfoCallback
-nsnull
+nullptr
 )
 ;
 }

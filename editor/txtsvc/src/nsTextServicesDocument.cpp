@@ -1149,7 +1149,7 @@ NS_ERROR_NULL_POINTER
 *
 aDoc
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1833,7 +1833,7 @@ offsetTable
 docIter
 &
 iterStatus
-nsnull
+nullptr
 &
 blockStr
 )
@@ -1960,7 +1960,7 @@ offsetTable
 docIter
 &
 iterStatus
-nsnull
+nullptr
 &
 blockStr
 )
@@ -2320,7 +2320,7 @@ eValid
 {
 mPrevTextBlock
 =
-nsnull
+nullptr
 ;
 result
 =
@@ -2349,11 +2349,11 @@ document
 !
 mPrevTextBlock
 =
-nsnull
+nullptr
 ;
 mNextTextBlock
 =
-nsnull
+nullptr
 ;
 }
 UNLOCK_DOC
@@ -2857,7 +2857,7 @@ mIterator
 &
 mIteratorStatus
 mExtent
-nsnull
+nullptr
 )
 ;
 if
@@ -3156,7 +3156,7 @@ break
 ;
 content
 =
-nsnull
+nullptr
 ;
 iter
 -
@@ -3249,7 +3249,7 @@ mIterator
 &
 mIteratorStatus
 mExtent
-nsnull
+nullptr
 )
 ;
 if
@@ -3715,7 +3715,7 @@ mIterator
 &
 mIteratorStatus
 mExtent
-nsnull
+nullptr
 )
 ;
 if
@@ -4217,7 +4217,7 @@ mIterator
 &
 mIteratorStatus
 mExtent
-nsnull
+nullptr
 )
 ;
 if
@@ -4529,11 +4529,11 @@ done
 !
 mPrevTextBlock
 =
-nsnull
+nullptr
 ;
 mNextTextBlock
 =
-nsnull
+nullptr
 ;
 }
 UNLOCK_DOC
@@ -4823,11 +4823,11 @@ done
 .
 mPrevTextBlock
 =
-nsnull
+nullptr
 ;
 mNextTextBlock
 =
-nsnull
+nullptr
 ;
 }
 UNLOCK_DOC
@@ -12862,7 +12862,7 @@ nsIContent
 *
 node
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -13026,7 +13026,7 @@ result
 ;
 node
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -15139,7 +15139,7 @@ AsContent
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -15448,7 +15448,7 @@ AsContent
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -15664,7 +15664,7 @@ AsContent
 (
 )
 :
-nsnull
+nullptr
 ;
 current
 .
@@ -15827,7 +15827,7 @@ AsContent
 (
 )
 :
-nsnull
+nullptr
 ;
 current
 .
@@ -16120,7 +16120,7 @@ AsContent
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -17059,7 +17059,7 @@ aWordStartNode
 *
 aWordStartNode
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17077,7 +17077,7 @@ aWordEndNode
 *
 aWordEndNode
 =
-nsnull
+nullptr
 ;
 if
 (

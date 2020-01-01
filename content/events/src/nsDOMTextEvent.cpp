@@ -150,7 +150,7 @@ nsTextEvent
 (
 false
 0
-nsnull
+nullptr
 )
 )
 {
@@ -415,7 +415,7 @@ nsPrivateTextRangeList
 *
 textRangePtr
 =
-nsnull
+nullptr
 ;
 textRange
 .
@@ -429,7 +429,7 @@ textRangePtr
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -460,7 +460,7 @@ aEvent
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 it

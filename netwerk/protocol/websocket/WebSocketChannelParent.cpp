@@ -400,11 +400,11 @@ this
 ;
 mChannel
 =
-nsnull
+nullptr
 ;
 mAuthProvider
 =
-nsnull
+nullptr
 ;
 return
 mIPCOpen
@@ -636,7 +636,7 @@ AsyncOpen
 aURI
 aOrigin
 this
-nsnull
+nullptr
 )
 ;
 if
@@ -656,7 +656,7 @@ fail
 :
 mChannel
 =
-nsnull
+nullptr
 ;
 return
 SendOnStop

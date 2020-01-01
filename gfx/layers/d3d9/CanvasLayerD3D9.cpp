@@ -209,7 +209,7 @@ NS_ASSERTION
 mSurface
 =
 =
-nsnull
+nullptr
 "
 BasicCanvasLayer
 :
@@ -279,7 +279,7 @@ aData
 mGLContext
 =
 =
-nsnull
+nullptr
 "
 CanvasLayer
 can
@@ -680,7 +680,7 @@ tmpSurface
 ;
 tmpSurface
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1448,7 +1448,7 @@ in
 POOL_DEFAULT
 mTexture
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1477,7 +1477,7 @@ this
 ;
 mD3DManager
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -1624,7 +1624,7 @@ aManager
 ShadowCanvasLayer
 (
 aManager
-nsnull
+nullptr
 )
 LayerD3D9
 (
@@ -1836,7 +1836,7 @@ Destroy
 {
 mBuffer
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -1877,7 +1877,7 @@ this
 ;
 mD3DManager
 =
-nsnull
+nullptr
 ;
 }
 Layer

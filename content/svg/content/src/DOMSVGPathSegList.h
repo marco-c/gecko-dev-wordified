@@ -674,7 +674,7 @@ does
 *
 not
 then
-nsnull
+nullptr
 is
 returned
 .

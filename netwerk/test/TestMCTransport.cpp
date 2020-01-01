@@ -213,14 +213,14 @@ nsICacheSession
 *
 session
 =
-nsnull
+nullptr
 ;
 static
 nsICacheEntryDescriptor
 *
 desc
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -312,7 +312,7 @@ nsIEventQueue
 *
 gEventQ
 =
-nsnull
+nullptr
 ;
 class
 TestListener
@@ -371,7 +371,7 @@ filename
 )
 mFile
 (
-nsnull
+nullptr
 )
 {
 }
@@ -870,7 +870,7 @@ transport
 AsyncRead
 (
 listener
-nsnull
+nullptr
 0
 (
 PRUint32
@@ -996,7 +996,7 @@ PLEvent
 *
 event
 =
-nsnull
+nullptr
 ;
 gEventQ
 -

@@ -378,7 +378,7 @@ OnDestroyed
 ;
 mXTFElement
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -394,7 +394,7 @@ Disconnect
 ;
 mClassInfo
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -436,7 +436,7 @@ nsISupports
 *
 weakWrapper
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1300,7 +1300,7 @@ GetXTFElement
 >
 WillChangeDocument
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1336,7 +1336,7 @@ GetXTFElement
 >
 WillChangeParent
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1385,7 +1385,7 @@ GetXTFElement
 >
 ParentChanged
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1411,7 +1411,7 @@ GetXTFElement
 >
 DocumentChanged
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2740,7 +2740,7 @@ localName
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 const_cast
@@ -2967,7 +2967,7 @@ NodeInfoManager
 GetNodeInfo
 (
 nameAtom
-nsnull
+nullptr
 kNameSpaceID_None
 nsIDOMNode
 :
@@ -3127,7 +3127,7 @@ const
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3835,7 +3835,7 @@ aArray
 *
 aArray
 =
-nsnull
+nullptr
 ;
 *
 aCount
@@ -3852,7 +3852,7 @@ nsIID
 *
 baseArray
 =
-nsnull
+nullptr
 ;
 PRUint32
 xtfCount
@@ -3864,7 +3864,7 @@ nsIID
 *
 xtfArray
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4191,7 +4191,7 @@ aHelper
 *
 aHelper
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4242,7 +4242,7 @@ aContractID
 *
 aContractID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -4272,7 +4272,7 @@ aClassDescription
 *
 aClassDescription
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -4302,7 +4302,7 @@ aClassID
 *
 aClassID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -4540,7 +4540,7 @@ aDocumentFrameElement
 *
 aDocumentFrameElement
 =
-nsnull
+nullptr
 ;
 nsIDocument
 *
@@ -4845,7 +4845,7 @@ return
 result
 !
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -5154,7 +5154,7 @@ nsAttrValue
 *
 val
 =
-nsnull
+nullptr
 ;
 nsIAtom
 *
@@ -5491,7 +5491,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_ARG
 (

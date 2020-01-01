@@ -174,7 +174,7 @@ DropDocShellreference
 {
 mDocShell
 =
-nsnull
+nullptr
 ;
 }
 /

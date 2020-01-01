@@ -582,7 +582,7 @@ URL
 :
 next
 (
-nsnull
+nullptr
 )
 {
 }
@@ -621,7 +621,7 @@ aOther
 next
 )
 :
-nsnull
+nullptr
 )
 {
 }
@@ -1269,7 +1269,7 @@ DropReference
 {
 mRule
 =
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1342,7 +1342,7 @@ GetParentObject
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 protected

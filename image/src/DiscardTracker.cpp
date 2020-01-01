@@ -1286,7 +1286,7 @@ sTimer
 InitWithFuncCallback
 (
 TimerCallback
-nsnull
+nullptr
 sMinDiscardTimeoutMs
 /
 2

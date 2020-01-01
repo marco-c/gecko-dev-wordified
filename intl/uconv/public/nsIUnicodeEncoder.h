@@ -505,7 +505,7 @@ sbl
 &
 &
 (
-nsnull
+nullptr
 !
 =
 (

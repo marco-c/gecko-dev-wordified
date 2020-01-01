@@ -865,7 +865,7 @@ nsExternalHelperAppService
 :
 mLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -2135,7 +2135,7 @@ rv
 {
 dir
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -4013,7 +4013,7 @@ handler
 new
 nsExternalAppHandler
 (
-nsnull
+nullptr
 EmptyCString
 (
 )
@@ -4762,7 +4762,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 aStreamListener
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -4950,7 +4950,7 @@ nsIFile
 *
 localFile
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -5610,7 +5610,7 @@ return
 LoadURI
 (
 aURL
-nsnull
+nullptr
 )
 ;
 }
@@ -5785,8 +5785,8 @@ ios
 NewURI
 (
 spec
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 uri
@@ -7403,7 +7403,7 @@ aWindowContext
 )
 mWindowToClose
 (
-nsnull
+nullptr
 )
 mSuggestedFileName
 (
@@ -7448,7 +7448,7 @@ mProgress
 )
 mDataBuffer
 (
-nsnull
+nullptr
 )
 mKeepRequestAlive
 (
@@ -7456,7 +7456,7 @@ false
 )
 mRequest
 (
-nsnull
+nullptr
 )
 mExtProtSvc
 (
@@ -8024,7 +8024,7 @@ state
 .
 mWebProgressListener
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -8341,7 +8341,7 @@ oldLoadGroup
 RemoveRequest
 (
 request
-nsnull
+nullptr
 NS_BINDING_RETARGETED
 )
 ;
@@ -8350,7 +8350,7 @@ aChannel
 >
 SetLoadGroup
 (
-nsnull
+nullptr
 )
 ;
 aChannel
@@ -8358,7 +8358,7 @@ aChannel
 >
 SetNotificationCallbacks
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -8911,7 +8911,7 @@ char
 buffer
 )
 requiredBytesLength
-nsnull
+nullptr
 )
 ;
 NS_Free
@@ -8921,7 +8921,7 @@ buffer
 ;
 buffer
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8965,7 +8965,7 @@ b64
 ;
 b64
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -9539,7 +9539,7 @@ mIsFileChannel
 fileChan
 !
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -11123,7 +11123,7 @@ rv
 =
 LaunchWithApplication
 (
-nsnull
+nullptr
 false
 )
 ;
@@ -11142,7 +11142,7 @@ rv
 =
 SaveToDisk
 (
-nsnull
+nullptr
 false
 )
 ;
@@ -11633,7 +11633,7 @@ mWebProgressListener
 >
 OnStatusChange
 (
-nsnull
+nullptr
 (
 type
 =
@@ -11643,7 +11643,7 @@ kReadError
 ?
 aRequest
 :
-nsnull
+nullptr
 rv
 msgText
 )
@@ -12122,7 +12122,7 @@ mWebProgressListener
 >
 OnProgressChange64
 (
-nsnull
+nullptr
 request
 mProgress
 mContentLength
@@ -12213,7 +12213,7 @@ mKeepRequestAlive
 )
 mRequest
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -12318,7 +12318,7 @@ Close
 ;
 mOutStream
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -12401,7 +12401,7 @@ leaking
 )
 mWebProgressListener
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -12562,8 +12562,8 @@ mWebProgressListener
 >
 OnProgressChange64
 (
-nsnull
-nsnull
+nullptr
+nullptr
 mProgress
 mContentLength
 mProgress
@@ -12576,8 +12576,8 @@ mWebProgressListener
 >
 OnStateChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 nsIWebProgressListener
 :
 :
@@ -12914,7 +12914,7 @@ cycle
 .
 mDialog
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -12953,7 +12953,7 @@ tr
 >
 OnStateChange
 (
-nsnull
+nullptr
 mRequest
 nsIWebProgressListener
 :
@@ -13059,7 +13059,7 @@ tr
 ;
 mRequest
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -13613,7 +13613,7 @@ SendStatusChange
 (
 kWriteError
 rv
-nsnull
+nullptr
 path
 )
 ;
@@ -14223,7 +14223,7 @@ SendStatusChange
 (
 kWriteError
 rv
-nsnull
+nullptr
 path
 )
 ;
@@ -14640,7 +14640,7 @@ SendStatusChange
 (
 kLaunchError
 rv
-nsnull
+nullptr
 path
 )
 ;
@@ -15014,7 +15014,7 @@ SendStatusChange
 (
 kLaunchError
 rv
-nsnull
+nullptr
 path
 )
 ;
@@ -15326,7 +15326,7 @@ SendStatusChange
 (
 kWriteError
 rv
-nsnull
+nullptr
 path
 )
 ;
@@ -15391,11 +15391,11 @@ OnStartRequest
 )
 mDialog
 =
-nsnull
+nullptr
 ;
 mRequest
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -15420,7 +15420,7 @@ Close
 ;
 mOutStream
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -15500,7 +15500,7 @@ false
 ;
 mTempFile
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -15534,7 +15534,7 @@ false
 ;
 mFinalFileDestination
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -15563,7 +15563,7 @@ listener
 .
 mWebProgressListener
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -15740,7 +15740,7 @@ mOriginalChannel
 }
 mOriginalChannel
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -16073,11 +16073,11 @@ Close
 ;
 mWindowToClose
 =
-nsnull
+nullptr
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -16410,7 +16410,7 @@ get
 *
 _retval
 =
-nsnull
+nullptr
 ;
 /
 /

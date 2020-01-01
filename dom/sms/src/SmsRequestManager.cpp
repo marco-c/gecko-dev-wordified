@@ -445,8 +445,8 @@ event
 new
 nsDOMEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsresult
@@ -627,7 +627,7 @@ mRequests
 .
 ReplaceObjectAt
 (
-nsnull
+nullptr
 aRequestId
 )
 ;
@@ -677,7 +677,7 @@ mRequests
 .
 ReplaceObjectAt
 (
-nsnull
+nullptr
 aRequestId
 )
 ;

@@ -500,7 +500,7 @@ Shutdown
 ;
 mThread
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

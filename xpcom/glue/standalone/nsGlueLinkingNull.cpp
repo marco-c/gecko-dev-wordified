@@ -140,7 +140,7 @@ platform
 *
 func
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED

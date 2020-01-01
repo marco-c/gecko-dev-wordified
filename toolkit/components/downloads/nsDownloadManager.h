@@ -298,7 +298,7 @@ ifdef
 DOWNLOAD_SCANNER
 mScanner
 (
-nsnull
+nullptr
 )
 #
 endif
@@ -1720,7 +1720,7 @@ download
 failure
 message
 if
-nsnull
+nullptr
 .
 *
 /

@@ -730,7 +730,7 @@ aIsSelectionContainerAbsolutelyPositioned
 mAbsolutelyPositionedObject
 !
 =
-nsnull
+nullptr
 )
 ;
 return
@@ -1509,7 +1509,7 @@ res
 ;
 mAbsolutelyPositionedObject
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_TRUE
 (
@@ -1623,7 +1623,7 @@ ps
 ;
 mGrabber
 =
-nsnull
+nullptr
 ;
 DeleteRefToAnonymousNode
 (
@@ -1634,7 +1634,7 @@ ps
 ;
 mPositioningShadow
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2192,7 +2192,7 @@ ps
 ;
 mPositioningShadow
 =
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -2255,7 +2255,7 @@ listener
 }
 mMouseMotionListenerP
 =
-nsnull
+nullptr
 ;
 mGrabberClicked
 =

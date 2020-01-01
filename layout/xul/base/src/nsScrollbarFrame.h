@@ -153,7 +153,7 @@ aContext
 )
 mScrollbarMediator
 (
-nsnull
+nullptr
 )
 {
 }

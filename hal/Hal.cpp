@@ -2313,7 +2313,7 @@ gSensorObservers
 ;
 gSensorObservers
 =
-nsnull
+nullptr
 ;
 }
 void

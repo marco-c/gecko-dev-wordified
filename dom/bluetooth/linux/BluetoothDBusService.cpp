@@ -2843,7 +2843,7 @@ NULL
 ;
 mConnection
 =
-nsnull
+nullptr
 ;
 mBluetoothSignalObserverTable
 .

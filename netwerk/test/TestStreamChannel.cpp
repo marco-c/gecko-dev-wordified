@@ -292,7 +292,7 @@ PRLogModuleInfo
 *
 gTestLog
 =
-nsnull
+nullptr
 ;
 #
 define
@@ -1175,7 +1175,7 @@ new
 MyListener
 (
 )
-nsnull
+nullptr
 )
 ;
 if
@@ -1365,8 +1365,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsCOMPtr
@@ -1398,7 +1398,7 @@ registrar
 >
 AutoRegister
 (
-nsnull
+nullptr
 )
 ;
 #
@@ -1518,7 +1518,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION

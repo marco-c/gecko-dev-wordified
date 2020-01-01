@@ -257,7 +257,7 @@ PRLogModuleInfo
 *
 gTestLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -532,11 +532,11 @@ sts
 >
 CreateTransport
 (
-nsnull
+nullptr
 0
 host
 port
-nsnull
+nullptr
 getter_AddRefs
 (
 trans
@@ -938,8 +938,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 #
@@ -1103,7 +1103,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION

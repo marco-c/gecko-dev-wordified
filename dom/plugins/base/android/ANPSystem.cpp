@@ -282,7 +282,7 @@ if
 env
 )
 return
-nsnull
+nullptr
 ;
 jclass
 cls

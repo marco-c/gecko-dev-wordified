@@ -265,7 +265,7 @@ res
 host
 !
 =
-nsnull
+nullptr
 )
 )
 \
@@ -285,7 +285,7 @@ get
 >
 HandleBadPlugin
 (
-nsnull
+nullptr
 pluginInst
 )
 ;
@@ -386,7 +386,7 @@ res
 host
 !
 =
-nsnull
+nullptr
 )
 )
 \
@@ -406,7 +406,7 @@ get
 >
 HandleBadPlugin
 (
-nsnull
+nullptr
 pluginInst
 )
 ;

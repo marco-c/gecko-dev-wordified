@@ -2544,7 +2544,7 @@ name_
 )
 \
 :
-nsnull
+nullptr
 ;
 \
 if

@@ -548,7 +548,7 @@ true
 }
 mSwapChain
 =
-nsnull
+nullptr
 ;
 Init
 (
@@ -676,7 +676,7 @@ Reset
 {
 mSwapChain
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -1360,11 +1360,11 @@ unexpected
 ;
 mDevice
 =
-nsnull
+nullptr
 ;
 mDeviceEx
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2602,7 +2602,7 @@ VerifyReadyForRendering
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -2618,7 +2618,7 @@ hWnd
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -3112,7 +3112,7 @@ layer
 SetShaderMode
 (
 aMode
-nsnull
+nullptr
 true
 )
 ;
@@ -3396,7 +3396,7 @@ Reset
 }
 mVB
 =
-nsnull
+nullptr
 ;
 D3DPRESENT_PARAMETERS
 pp

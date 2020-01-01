@@ -766,7 +766,7 @@ given
 role
 or
 *
-nsnull
+nullptr
 if
 no
 match

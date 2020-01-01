@@ -985,7 +985,7 @@ true
 ;
 mCursor
 =
-nsnull
+nullptr
 ;
 switch
 (

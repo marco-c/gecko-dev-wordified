@@ -330,7 +330,7 @@ aCall
 ;
 mCallsArray
 =
-nsnull
+nullptr
 ;
 NotifyCallsChanged
 (
@@ -375,7 +375,7 @@ aCall
 ;
 mCallsArray
 =
-nsnull
+nullptr
 ;
 NotifyCallsChanged
 (

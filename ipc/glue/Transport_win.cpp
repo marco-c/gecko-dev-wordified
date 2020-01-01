@@ -222,7 +222,7 @@ Transport
 :
 :
 MODE_SERVER
-nsnull
+nullptr
 )
 ;
 HANDLE
@@ -403,7 +403,7 @@ aTd
 .
 mServerPipe
 aMode
-nsnull
+nullptr
 )
 ;
 }

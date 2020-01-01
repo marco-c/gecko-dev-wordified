@@ -162,7 +162,7 @@ mValidityBitField
 )
 mValidity
 (
-nsnull
+nullptr
 )
 /
 /

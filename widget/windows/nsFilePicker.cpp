@@ -993,7 +993,7 @@ mLastUsedUnicodeDirectory
 ;
 mLastUsedUnicodeDirectory
 =
-nsnull
+nullptr
 ;
 }
 CoUninitialize
@@ -2840,7 +2840,7 @@ browserInfo
 .
 pidlRoot
 =
-nsnull
+nullptr
 ;
 browserInfo
 .
@@ -6385,7 +6385,7 @@ aFile
 *
 aFile
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6461,7 +6461,7 @@ aFileURL
 *
 aFileURL
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -7325,7 +7325,7 @@ mLastUsedUnicodeDirectory
 ;
 mLastUsedUnicodeDirectory
 =
-nsnull
+nullptr
 ;
 }
 mLastUsedUnicodeDirectory

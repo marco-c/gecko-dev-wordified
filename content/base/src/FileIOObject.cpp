@@ -516,8 +516,8 @@ nsEventDispatcher
 :
 CreateEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 NS_LITERAL_STRING
 (
 "
@@ -619,10 +619,10 @@ rv
 return
 DispatchDOMEvent
 (
-nsnull
+nullptr
 event
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }

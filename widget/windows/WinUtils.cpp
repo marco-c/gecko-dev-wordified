@@ -324,7 +324,7 @@ WinUtils
 :
 sCreateItemFromParsingName
 =
-nsnull
+nullptr
 ;
 /
 *
@@ -1866,7 +1866,7 @@ static
 HMODULE
 sShellDll
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1927,7 +1927,7 @@ return
 sCreateItemFromParsingName
 !
 =
-nsnull
+nullptr
 ;
 }
 /

@@ -625,7 +625,7 @@ DontForward
 {
 mForwardTarget
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

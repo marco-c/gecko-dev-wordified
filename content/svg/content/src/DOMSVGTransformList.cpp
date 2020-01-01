@@ -315,7 +315,7 @@ mAList
 >
 mAnimVal
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -328,7 +328,7 @@ mAList
 >
 mBaseVal
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
@@ -563,7 +563,7 @@ aIndex
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -816,7 +816,7 @@ mItems
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1196,7 +1196,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1467,7 +1467,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1814,7 +1814,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2091,7 +2091,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2433,7 +2433,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2806,7 +2806,7 @@ DOMSVGTransform
 *
 >
 (
-nsnull
+nullptr
 )
 )
 ;

@@ -336,7 +336,7 @@ mOneScreen
 new
 nsScreenAndroid
 (
-nsnull
+nullptr
 )
 ;
 }

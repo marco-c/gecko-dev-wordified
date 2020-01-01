@@ -1494,7 +1494,7 @@ aAlignMask
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP_
@@ -4067,7 +4067,7 @@ aAlignMask
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP_

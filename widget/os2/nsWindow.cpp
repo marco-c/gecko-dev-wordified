@@ -4319,7 +4319,7 @@ PR_UINT32_MAX
 }
 CaptureRollupEvents
 (
-nsnull
+nullptr
 false
 true
 )
@@ -13292,7 +13292,7 @@ else
 {
 gRollupListener
 =
-nsnull
+nullptr
 ;
 NS_IF_RELEASE
 (
@@ -20815,7 +20815,7 @@ pressEvent
 (
 true
 0
-nsnull
+nullptr
 )
 ;
 USHORT
@@ -24903,7 +24903,7 @@ eTopLevel
 InitEvent
 (
 event
-nsnull
+nullptr
 )
 ;
 event

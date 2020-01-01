@@ -1873,7 +1873,7 @@ nsWidgetInitData
 *
 aWidgetInitData
 =
-nsnull
+nullptr
 bool
 aEnableDragDrop
 =
@@ -1935,7 +1935,7 @@ nsWidgetInitData
 *
 aWidgetInitData
 =
-nsnull
+nullptr
 bool
 aEnableDragDrop
 =
@@ -2027,7 +2027,7 @@ nsIWidget
 *
 aParentWidget
 =
-nsnull
+nullptr
 bool
 aEnableDragDrop
 =
@@ -2278,7 +2278,7 @@ view
 contains
 *
 or
-nsnull
+nullptr
 if
 there
 is
@@ -2325,7 +2325,7 @@ return
 mWindow
 !
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -2708,7 +2708,7 @@ aView
 :
 mPrev
 (
-nsnull
+nullptr
 )
 mView
 (
@@ -2771,7 +2771,7 @@ mView
 >
 SetDeletionObserver
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -2847,7 +2847,7 @@ Clear
 }
 mView
 =
-nsnull
+nullptr
 ;
 }
 private

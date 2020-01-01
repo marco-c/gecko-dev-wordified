@@ -241,7 +241,7 @@ URI
 :
 mURI
 (
-nsnull
+nullptr
 )
 {
 }
@@ -619,7 +619,7 @@ aResult
 >
 mURI
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -911,7 +911,7 @@ InputStream
 :
 mStream
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1271,7 +1271,7 @@ aResult
 >
 mStream
 =
-nsnull
+nullptr
 ;
 return
 true

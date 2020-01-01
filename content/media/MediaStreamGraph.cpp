@@ -4121,7 +4121,7 @@ i
 .
 mStream
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -7352,7 +7352,7 @@ newTracksByType
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 for
@@ -7545,7 +7545,7 @@ aStream
 >
 mAudioOutput
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -9934,7 +9934,7 @@ Shutdown
 ;
 mThread
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -10728,7 +10728,7 @@ gGraph
 ;
 gGraph
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -11230,7 +11230,7 @@ shutdown
 ;
 gGraph
 =
-nsnull
+nullptr
 ;
 delete
 this
@@ -11336,7 +11336,7 @@ Shutdown
 ;
 mAudioOutput
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -11411,7 +11411,7 @@ UpdateAffectedStream
 ;
 mWrapper
 =
-nsnull
+nullptr
 ;
 GraphImpl
 (

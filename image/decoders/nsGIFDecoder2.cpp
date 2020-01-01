@@ -715,7 +715,7 @@ mLastFlushedRow
 )
 mImageData
 (
-nsnull
+nullptr
 )
 mOldColor
 (
@@ -4601,7 +4601,7 @@ mGIFStruct
 .
 hold
 :
-nsnull
+nullptr
 ;
 if
 (

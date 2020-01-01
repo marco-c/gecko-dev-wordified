@@ -620,7 +620,7 @@ true
 *
 ppThis
 =
-nsnull
+nullptr
 ;
 }
 return

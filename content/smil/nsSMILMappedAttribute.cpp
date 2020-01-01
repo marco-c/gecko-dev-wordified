@@ -411,7 +411,7 @@ mPropID
 mElement
 baseStringValue
 baseValue
-nsnull
+nullptr
 )
 ;
 }
@@ -471,7 +471,7 @@ UnsetProperty
 (
 SMIL_MAPPED_ATTR_ANIMVAL
 attrName
-nsnull
+nullptr
 )
 ;
 FlushChangesToTargetAttr

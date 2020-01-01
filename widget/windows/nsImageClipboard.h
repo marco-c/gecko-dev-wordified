@@ -228,7 +228,7 @@ clipboard
 .
 If
 |
-nsnull
+nullptr
 |
 the
 /

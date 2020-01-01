@@ -761,7 +761,7 @@ nsFocusManager
 :
 sInstance
 =
-nsnull
+nullptr
 ;
 bool
 nsFocusManager
@@ -1204,27 +1204,27 @@ shutdown
 {
 mActiveWindow
 =
-nsnull
+nullptr
 ;
 mFocusedWindow
 =
-nsnull
+nullptr
 ;
 mFocusedContent
 =
-nsnull
+nullptr
 ;
 mFirstBlurEvent
 =
-nsnull
+nullptr
 ;
 mFirstFocusEvent
 =
-nsnull
+nullptr
 ;
 mWindowBeingLowered
 =
-nsnull
+nullptr
 ;
 mDelayedBlurFocusEvents
 .
@@ -1234,7 +1234,7 @@ Clear
 ;
 mMouseDownEventHandlingDocument
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1306,7 +1306,7 @@ GetWindow
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1351,7 +1351,7 @@ GetWindow
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -1378,19 +1378,19 @@ aFocusedWindow
 NS_ENSURE_TRUE
 (
 aWindow
-nsnull
+nullptr
 )
 ;
 *
 aFocusedWindow
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
 currentContent
 =
-nsnull
+nullptr
 ;
 nsPIDOMWindow
 *
@@ -1579,7 +1579,7 @@ if
 doc
 )
 return
-nsnull
+nullptr
 ;
 nsINodeList
 *
@@ -1663,7 +1663,7 @@ retval
 #
 endif
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2121,7 +2121,7 @@ else
 *
 aFocusedElement
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2325,7 +2325,7 @@ aFlags
 )
 !
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2356,7 +2356,7 @@ aElement
 *
 aElement
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -2946,7 +2946,7 @@ if
 Blur
 (
 window
-nsnull
+nullptr
 isAncestor
 true
 )
@@ -2987,7 +2987,7 @@ isAncestor
 Focus
 (
 window
-nsnull
+nullptr
 0
 true
 false
@@ -3004,7 +3004,7 @@ window
 >
 SetFocusedNode
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3055,7 +3055,7 @@ aElement
 *
 aElement
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3064,7 +3064,7 @@ aFocusedWindow
 *
 aFocusedWindow
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3893,7 +3893,7 @@ activate
 )
 true
 true
-nsnull
+nullptr
 )
 ;
 /
@@ -4278,7 +4278,7 @@ nsIPresShell
 :
 SetCapturingContent
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -4348,7 +4348,7 @@ deactivate
 )
 true
 true
-nsnull
+nullptr
 )
 ;
 /
@@ -4393,7 +4393,7 @@ mActiveWindow
 ;
 mActiveWindow
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4401,15 +4401,15 @@ mFocusedWindow
 )
 Blur
 (
-nsnull
-nsnull
+nullptr
+nullptr
 true
 true
 )
 ;
 mWindowBeingLowered
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -4528,7 +4528,7 @@ window
 >
 SetFocusedNode
 (
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -4616,7 +4616,7 @@ mFocusedWindow
 {
 mFocusedContent
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -5515,8 +5515,8 @@ nsIMEStateManager
 :
 OnTextStateBlur
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -5535,7 +5535,7 @@ presShell
 GetPresContext
 (
 )
-nsnull
+nullptr
 GetFocusMoveActionCause
 (
 0
@@ -5546,7 +5546,7 @@ SetCaretVisible
 (
 presShell
 false
-nsnull
+nullptr
 )
 ;
 }
@@ -5908,7 +5908,7 @@ parentWindow
 >
 SetFocusedNode
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -7788,7 +7788,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 commonAncestor
 !
 isElementInFocusedWindow
@@ -8139,7 +8139,7 @@ webnav
 NS_ENSURE_TRUE
 (
 dsti1
-nsnull
+nullptr
 )
 ;
 webnav
@@ -8163,7 +8163,7 @@ webnav
 NS_ENSURE_TRUE
 (
 dsti2
-nsnull
+nullptr
 )
 ;
 nsAutoTArray
@@ -8275,7 +8275,7 @@ nsIDocShellTreeItem
 *
 parent
 =
-nsnull
+nullptr
 ;
 PRUint32
 len
@@ -8849,7 +8849,7 @@ if
 aContent
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -8928,7 +8928,7 @@ if
 doc
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -8966,7 +8966,7 @@ if
 shell
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -9039,7 +9039,7 @@ nsPresContext
 eContext_PrintPreview
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -9058,7 +9058,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -9150,7 +9150,7 @@ IsFocusable
 ?
 aContent
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -9290,7 +9290,7 @@ FLAG_BYMOUSE
 ?
 aContent
 :
-nsnull
+nullptr
 ;
 }
 return
@@ -9299,7 +9299,7 @@ frame
 >
 IsFocusable
 (
-nsnull
+nullptr
 aFlags
 &
 FLAG_BYMOUSE
@@ -9307,7 +9307,7 @@ FLAG_BYMOUSE
 ?
 aContent
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -9367,7 +9367,7 @@ IsInDoc
 {
 mFocusedContent
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -9409,7 +9409,7 @@ window
 {
 mFocusedContent
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -9436,7 +9436,7 @@ docShell
 {
 mFocusedContent
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -9489,7 +9489,7 @@ presShell
 {
 mFocusedContent
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -9564,8 +9564,8 @@ nsIMEStateManager
 :
 OnTextStateBlur
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -9584,7 +9584,7 @@ presShell
 GetPresContext
 (
 )
-nsnull
+nullptr
 GetFocusMoveActionCause
 (
 0
@@ -9616,7 +9616,7 @@ window
 .
 mFocusedContent
 =
-nsnull
+nullptr
 ;
 bool
 shouldShowFocusRing
@@ -9637,7 +9637,7 @@ aWindowToClear
 >
 SetFocusedNode
 (
-nsnull
+nullptr
 )
 ;
 #
@@ -10064,7 +10064,7 @@ SetCaretVisible
 (
 presShell
 false
-nsnull
+nullptr
 )
 ;
 /
@@ -10163,7 +10163,7 @@ window
 mFocusedContent
 !
 =
-nsnull
+nullptr
 &
 &
 !
@@ -10234,18 +10234,18 @@ aAncestorWindowToFocus
 >
 SetFocusedNode
 (
-nsnull
+nullptr
 0
 true
 )
 ;
 mFocusedWindow
 =
-nsnull
+nullptr
 ;
 mFocusedContent
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -10327,7 +10327,7 @@ if
 mFocusedWindow
 =
 =
-nsnull
+nullptr
 )
 SendFocusOrBlurEvent
 (
@@ -10354,7 +10354,7 @@ result
 mFocusedWindow
 =
 =
-nsnull
+nullptr
 &
 &
 mActiveWindow
@@ -10431,7 +10431,7 @@ UpdateCaret
 (
 false
 true
-nsnull
+nullptr
 )
 ;
 }
@@ -10441,7 +10441,7 @@ clearFirstBlurEvent
 )
 mFirstBlurEvent
 =
-nsnull
+nullptr
 ;
 return
 result
@@ -11144,7 +11144,7 @@ aWindow
 mFocusedContent
 =
 =
-nsnull
+nullptr
 )
 SendFocusOrBlurEvent
 (
@@ -11201,7 +11201,7 @@ aWindow
 mFocusedContent
 =
 =
-nsnull
+nullptr
 )
 {
 mFocusedContent
@@ -11546,7 +11546,7 @@ nsIMEStateManager
 OnTextStateBlur
 (
 presContext
-nsnull
+nullptr
 )
 ;
 nsIMEStateManager
@@ -11555,7 +11555,7 @@ nsIMEStateManager
 OnChangeFocus
 (
 presContext
-nsnull
+nullptr
 GetFocusMoveActionCause
 (
 aFlags
@@ -11637,7 +11637,7 @@ aWindow
 mFocusedContent
 =
 =
-nsnull
+nullptr
 &
 &
 !
@@ -11708,7 +11708,7 @@ nsIMEStateManager
 OnTextStateBlur
 (
 presContext
-nsnull
+nullptr
 )
 ;
 nsIMEStateManager
@@ -11717,7 +11717,7 @@ nsIMEStateManager
 OnChangeFocus
 (
 presContext
-nsnull
+nullptr
 GetFocusMoveActionCause
 (
 aFlags
@@ -11868,7 +11868,7 @@ clearFirstFocusEvent
 )
 mFirstFocusEvent
 =
-nsnull
+nullptr
 ;
 }
 class
@@ -13847,7 +13847,7 @@ aStartContent
 *
 aEndContent
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -14013,7 +14013,7 @@ nsIContent
 *
 childContent
 =
-nsnull
+nullptr
 ;
 startContent
 =
@@ -14154,7 +14154,7 @@ nsIFrame
 *
 startFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -14356,7 +14356,7 @@ nsIFrame
 *
 newCaretFrame
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -14435,7 +14435,7 @@ CurrentItem
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 newCaretFrame
@@ -14699,7 +14699,7 @@ aNextContent
 *
 aNextContent
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -14994,7 +14994,7 @@ GetNextTabbableContent
 (
 presShell
 startContent
-nsnull
+nullptr
 startContent
 true
 1
@@ -15025,7 +15025,7 @@ GetNextTabbableContent
 (
 presShell
 startContent
-nsnull
+nullptr
 startContent
 false
 0
@@ -15104,7 +15104,7 @@ nsIFrame
 *
 popupFrame
 =
-nsnull
+nullptr
 ;
 PRInt32
 tabIndex
@@ -15653,7 +15653,7 @@ rootContent
 {
 startContent
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -16035,7 +16035,7 @@ presShell
 rootContent
 skipOriginalContentCheck
 ?
-nsnull
+nullptr
 :
 originalStartContent
 startContent
@@ -16674,7 +16674,7 @@ mFocusedContent
 Blur
 (
 mFocusedWindow
-nsnull
+nullptr
 true
 true
 )
@@ -16685,7 +16685,7 @@ window
 >
 SetFocusedNode
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -16790,7 +16790,7 @@ aResultContent
 *
 aResultContent
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -18457,7 +18457,7 @@ if
 mapContent
 )
 return
-nsnull
+nullptr
 ;
 PRUint32
 count
@@ -18592,7 +18592,7 @@ count
 GetChildAt
 will
 return
-nsnull
+nullptr
 if
 our
 index
@@ -18632,7 +18632,7 @@ index
 )
 !
 =
-nsnull
+nullptr
 )
 {
 if
@@ -18660,7 +18660,7 @@ areaContent
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -19086,7 +19086,7 @@ nsGkAtoms
 iframe
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -19111,12 +19111,12 @@ frame
 >
 IsFocusable
 (
-nsnull
+nullptr
 0
 )
 )
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -19161,7 +19161,7 @@ nsIDocShellTreeItem
 typeChrome
 )
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -19176,7 +19176,7 @@ aWindow
 )
 )
 return
-nsnull
+nullptr
 ;
 Element
 *
@@ -19196,7 +19196,7 @@ rootElement
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -19214,7 +19214,7 @@ GetPrimaryFrame
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -19255,7 +19255,7 @@ frameset
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -19280,7 +19280,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -19363,7 +19363,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 PRInt32
 childCount
@@ -19578,7 +19578,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -19750,7 +19750,7 @@ if
 pm
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -19895,7 +19895,7 @@ popupFrame
 )
 aCurrentPopup
 =
-nsnull
+nullptr
 ;
 continue
 ;
@@ -20027,7 +20027,7 @@ GetNextTabbableContent
 (
 presShell
 popup
-nsnull
+nullptr
 popup
 true
 1
@@ -20060,7 +20060,7 @@ get
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -20096,7 +20096,7 @@ nsIFrame
 *
 currentPopup
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -20304,7 +20304,7 @@ if
 startItem
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -20473,7 +20473,7 @@ nsPIDOMWindow
 >
 nextFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -20720,7 +20720,7 @@ if
 nextFrame
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -20732,7 +20732,7 @@ next
 iteration
 currentPopup
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -20798,7 +20798,7 @@ EventHandlingSuppressed
 {
 content
 =
-nsnull
+nullptr
 ;
 continue
 ;
@@ -20852,7 +20852,7 @@ popupContent
 GetNextTabbablePanel
 (
 doc
-nsnull
+nullptr
 false
 )
 ;
@@ -20971,7 +20971,7 @@ GetNextTabbableContent
 (
 presShell
 rootElement
-nsnull
+nullptr
 rootElement
 true
 1
@@ -20994,7 +20994,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 }
@@ -21033,7 +21033,7 @@ aFocusedContent
 *
 aFocusedContent
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -21248,7 +21248,7 @@ nextTestContent
 ;
 nextTestContent
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -21488,7 +21488,7 @@ endSelectionNode
 {
 selectionNode
 =
-nsnull
+nullptr
 ;
 break
 ;

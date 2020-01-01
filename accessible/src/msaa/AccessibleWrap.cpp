@@ -3055,7 +3055,7 @@ State
 )
 &
 msaaState
-nsnull
+nullptr
 )
 ;
 pvarState
@@ -5202,7 +5202,7 @@ Accessible
 *
 navAccessible
 =
-nsnull
+nullptr
 ;
 PRUint32
 xpRelation
@@ -9234,7 +9234,7 @@ if
 document
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -9434,7 +9434,7 @@ GetNativeWindow
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 HRESULT
@@ -9819,7 +9819,7 @@ IAccessible
 *
 msaaAccessible
 =
-nsnull
+nullptr
 ;
 aAccessible
 -
@@ -9872,7 +9872,7 @@ vt
 VT_I4
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -9912,7 +9912,7 @@ this
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -10077,7 +10077,7 @@ Parent
 (
 )
 :
-nsnull
+nullptr
 ;
 while
 (
@@ -10112,7 +10112,7 @@ Parent
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /

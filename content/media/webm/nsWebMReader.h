@@ -415,7 +415,7 @@ anObject
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }

@@ -568,7 +568,7 @@ aFrame
 )
 !
 =
-nsnull
+nullptr
 "
 expected
 a
@@ -1701,7 +1701,7 @@ aBlockFrame
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsAutoPtr
@@ -3917,7 +3917,7 @@ CheckCast
 item
 )
 :
-nsnull
+nullptr
 ;
 if
 (

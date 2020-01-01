@@ -620,7 +620,7 @@ NS_ASSERTION
 rdf
 !
 =
-nsnull
+nullptr
 "
 unable
 to
@@ -755,7 +755,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1207,7 +1207,7 @@ hasMore
 {
 mCurrent
 =
-nsnull
+nullptr
 ;
 continue
 ;
@@ -1363,7 +1363,7 @@ mResult
 ;
 mResult
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1461,7 +1461,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1481,7 +1481,7 @@ NS_PRECONDITION
 aContainer
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1501,7 +1501,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

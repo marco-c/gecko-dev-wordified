@@ -80,7 +80,7 @@ PRLogModuleInfo
 *
 gWyciwygLog
 =
-nsnull
+nullptr
 ;
 #
 endif

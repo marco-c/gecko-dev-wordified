@@ -251,7 +251,7 @@ nsIScreen
 *
 retval
 =
-nsnull
+nullptr
 ;
 if
 (

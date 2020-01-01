@@ -173,7 +173,7 @@ nsComputedDOMStyle
 GetStyleContextForElementNoFlush
 (
 aElement
-nsnull
+nullptr
 aPresShell
 )
 ;

@@ -3255,7 +3255,7 @@ JS_Stringify
 cx
 &
 val
-nsnull
+nullptr
 JSVAL_NULL
 WriteCallback
 &

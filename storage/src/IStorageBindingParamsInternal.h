@@ -224,7 +224,7 @@ to
 .
 *
 return
-nsnull
+nullptr
 on
 success
 or

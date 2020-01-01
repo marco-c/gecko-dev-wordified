@@ -552,7 +552,7 @@ nsRDFDataSourceDataSource
 :
 kNC_Name
 =
-nsnull
+nullptr
 ;
 nsIRDFResource
 *
@@ -561,7 +561,7 @@ nsRDFDataSourceDataSource
 :
 kNC_Value
 =
-nsnull
+nullptr
 ;
 nsIRDFResource
 *
@@ -570,7 +570,7 @@ nsRDFDataSourceDataSource
 :
 kNC_Child
 =
-nsnull
+nullptr
 ;
 nsRDFDataSourceDataSource
 :

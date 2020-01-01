@@ -976,7 +976,7 @@ list_
 >
 mNext_
 =
-nsnull
+nullptr
 ;
 \
 list_
@@ -1496,7 +1496,7 @@ nsPluginLogging
 :
 gNPNLog
 =
-nsnull
+nullptr
 ;
 PRLogModuleInfo
 *
@@ -1505,7 +1505,7 @@ nsPluginLogging
 :
 gNPPLog
 =
-nsnull
+nullptr
 ;
 PRLogModuleInfo
 *
@@ -1514,7 +1514,7 @@ nsPluginLogging
 :
 gPluginLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -2320,7 +2320,7 @@ to
 initialize
 members
 to
-nsnull
+nullptr
 false
 etc
 because
@@ -2669,7 +2669,7 @@ UnloadPlugins
 ;
 sInst
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_ISUPPORTS4
@@ -2708,7 +2708,7 @@ if
 sInst
 )
 return
-nsnull
+nullptr
 ;
 NS_ADDREF
 (
@@ -3068,7 +3068,7 @@ later
 DestroyRunningInstances
 (
 instsToReload
-nsnull
+nullptr
 )
 ;
 }
@@ -3111,7 +3111,7 @@ mPlugins
 p
 !
 =
-nsnull
+nullptr
 ;
 )
 {
@@ -3171,7 +3171,7 @@ p
 >
 mNext
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -3567,7 +3567,7 @@ else
 *
 retstring
 =
-nsnull
+nullptr
 ;
 }
 PLUGIN_LOG
@@ -3702,7 +3702,7 @@ _content
 get
 (
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 domWindow
@@ -3787,7 +3787,7 @@ altHost
 referrer
 forceJSEnabled
 0
-nsnull
+nullptr
 )
 ;
 }
@@ -3984,8 +3984,8 @@ GetURL
 (
 url
 target
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -4005,7 +4005,7 @@ url
 )
 pluginInst
 streamListener
-nsnull
+nullptr
 getHeaders
 getHeadersLength
 )
@@ -4714,8 +4714,8 @@ nsDependentCString
 (
 url
 )
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 uriIn
@@ -5060,7 +5060,7 @@ DIRECT
 }
 if
 (
-nsnull
+nullptr
 =
 =
 *
@@ -5142,8 +5142,8 @@ want
 it
 DestroyRunningInstances
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsPluginTag
@@ -5270,7 +5270,7 @@ mPrivateDirServiceProvider
 ;
 mPrivateDirServiceProvider
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -6120,7 +6120,7 @@ aMimeType
 "
 "
 )
-nsnull
+nullptr
 /
 /
 extra
@@ -6379,7 +6379,7 @@ NewEmbeddedPluginStream
 (
 aURL
 aContent
-nsnull
+nullptr
 )
 ;
 }
@@ -6622,7 +6622,7 @@ if
 aURL
 !
 =
-nsnull
+nullptr
 )
 aURL
 -
@@ -6867,7 +6867,7 @@ NPWindow
 *
 win
 =
-nsnull
+nullptr
 ;
 instanceOwner
 -
@@ -7049,7 +7049,7 @@ pluginTag
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsPluginTag
@@ -7121,7 +7121,7 @@ failed
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -7342,7 +7342,7 @@ if
 aURL
 !
 =
-nsnull
+nullptr
 )
 aURL
 -
@@ -7402,7 +7402,7 @@ char
 *
 mimetype
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -7751,7 +7751,7 @@ aOwner
 >
 SetInstance
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -8402,7 +8402,7 @@ version
 *
 aEnabledPlugin
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -8771,7 +8771,7 @@ while
 plugin
 !
 =
-nsnull
+nullptr
 )
 {
 if
@@ -8930,7 +8930,7 @@ while
 plugin
 !
 =
-nsnull
+nullptr
 )
 {
 count
@@ -9148,7 +9148,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsPluginTag
@@ -9246,7 +9246,7 @@ aMimeType
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 LoadPlugins
@@ -9387,7 +9387,7 @@ aExtension
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 LoadPlugins
@@ -9522,7 +9522,7 @@ preferredPlugin
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -11550,7 +11550,7 @@ tag
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsPluginTag
@@ -11603,7 +11603,7 @@ tag
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 namespace
@@ -12257,7 +12257,7 @@ NS_PLUGIN_FLAG_ENABLED
 ;
 pluginTag
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -12450,7 +12450,7 @@ PRLibrary
 *
 library
 =
-nsnull
+nullptr
 ;
 nsPluginInfo
 info
@@ -13165,7 +13165,7 @@ nsPluginTag
 *
 prev
 =
-nsnull
+nullptr
 ;
 nsPluginTag
 *
@@ -13642,7 +13642,7 @@ obsService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 plugins
 -
@@ -13650,7 +13650,7 @@ list
 -
 updated
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -15144,7 +15144,7 @@ bug
 *
 /
 mOverrideInternalTypes
-nsnull
+nullptr
 )
 ;
 }
@@ -15297,7 +15297,7 @@ PRFileDesc
 *
 fd
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -16152,7 +16152,7 @@ PRFileDesc
 *
 fd
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -17714,7 +17714,7 @@ tag
 >
 mNext
 =
-nsnull
+nullptr
 ;
 *
 result
@@ -18083,7 +18083,7 @@ NodePrincipal
 (
 )
 :
-nsnull
+nullptr
 )
 element
 EmptyCString
@@ -18093,7 +18093,7 @@ EmptyCString
 /
 mime
 guess
-nsnull
+nullptr
 /
 /
 extra
@@ -18185,8 +18185,8 @@ getter_AddRefs
 channel
 )
 url
-nsnull
-nsnull
+nullptr
+nullptr
 /
 *
 do
@@ -18603,7 +18603,7 @@ channel
 AsyncOpen
 (
 listenerPeer
-nsnull
+nullptr
 )
 ;
 if
@@ -19533,9 +19533,9 @@ getter_AddRefs
 channel
 )
 aURL
-nsnull
+nullptr
 loadGroup
-nsnull
+nullptr
 )
 ;
 if
@@ -19610,7 +19610,7 @@ channel
 AsyncOpen
 (
 listener
-nsnull
+nullptr
 )
 ;
 if
@@ -20499,9 +20499,9 @@ nsIPrompt
 :
 :
 BUTTON_POS_0
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 checkboxMessage
 &
 checkboxState
@@ -23127,7 +23127,7 @@ wm
 >
 GetXULWindowEnumerator
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 windowList
@@ -23484,7 +23484,7 @@ plugin
 -
 crashed
 "
-nsnull
+nullptr
 )
 ;
 /
@@ -23701,7 +23701,7 @@ crashedPluginTag
 >
 mPlugin
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -23797,7 +23797,7 @@ instance
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsNPAPIPluginInstance
@@ -23813,7 +23813,7 @@ nsNPAPIPluginInstance
 *
 oldestInstance
 =
-nsnull
+nullptr
 ;
 TimeStamp
 oldestTime
@@ -24057,7 +24057,7 @@ instance
 >
 SetWindow
 (
-nsnull
+nullptr
 )
 ;
 instance
@@ -24223,7 +24223,7 @@ instance
 >
 SetWindow
 (
-nsnull
+nullptr
 )
 ;
 instance

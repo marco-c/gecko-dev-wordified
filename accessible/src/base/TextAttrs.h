@@ -206,7 +206,7 @@ aHyperTextAcc
 :
 mOffsetAcc
 (
-nsnull
+nullptr
 )
 mHyperTextAcc
 (
@@ -432,12 +432,12 @@ PRInt32
 *
 aStartHTOffset
 =
-nsnull
+nullptr
 PRInt32
 *
 aEndHTOffset
 =
-nsnull
+nullptr
 )
 ;
 protected

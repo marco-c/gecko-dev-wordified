@@ -697,7 +697,7 @@ NS_OK
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <

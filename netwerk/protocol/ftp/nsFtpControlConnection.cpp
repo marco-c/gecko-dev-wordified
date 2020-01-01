@@ -585,7 +585,7 @@ sts
 >
 CreateTransport
 (
-nsnull
+nullptr
 0
 mHost
 mPort
@@ -845,7 +845,7 @@ listener
 {
 mListener
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -950,10 +950,10 @@ mSocketInput
 >
 AsyncWait
 (
-nsnull
+nullptr
 0
 0
-nsnull
+nullptr
 )
 ;
 /
@@ -963,11 +963,11 @@ any
 observer
 mSocketInput
 =
-nsnull
+nullptr
 ;
 mSocketOutput
 =
-nsnull
+nullptr
 ;
 }
 return

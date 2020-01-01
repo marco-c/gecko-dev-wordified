@@ -1015,7 +1015,7 @@ values
 .
 mIconURL
 =
-nsnull
+nullptr
 ;
 mSize
 =
@@ -1547,8 +1547,8 @@ ioService
 NewURI
 (
 iconPath
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 uri

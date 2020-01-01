@@ -614,7 +614,7 @@ Shutdown
 {
 mTable
 =
-nsnull
+nullptr
 ;
 AccessibleWrap
 :
@@ -757,7 +757,7 @@ Accessible
 *
 cell
 =
-nsnull
+nullptr
 ;
 PRUint32
 colCount
@@ -851,7 +851,7 @@ if
 row
 )
 return
-nsnull
+nullptr
 ;
 return
 GetCellInRowAt
@@ -1013,7 +1013,7 @@ Accessible
 *
 cell
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -1154,7 +1154,7 @@ Accessible
 *
 row
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -1202,7 +1202,7 @@ Accessible
 *
 cell
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -1353,7 +1353,7 @@ Accessible
 *
 cell
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -1456,7 +1456,7 @@ Accessible
 *
 row
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -1598,7 +1598,7 @@ Accessible
 *
 row
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -1627,7 +1627,7 @@ Accessible
 *
 cell
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1732,7 +1732,7 @@ Accessible
 *
 row
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -1811,7 +1811,7 @@ Accessible
 *
 cell
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -1975,7 +1975,7 @@ Accessible
 *
 cell
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -2102,7 +2102,7 @@ Accessible
 *
 row
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -2253,7 +2253,7 @@ Accessible
 *
 row
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -2333,7 +2333,7 @@ Accessible
 *
 row
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -2469,7 +2469,7 @@ Accessible
 *
 row
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -3009,7 +3009,7 @@ Accessible
 *
 cell
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -3177,7 +3177,7 @@ Accessible
 *
 cell
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -3685,7 +3685,7 @@ aTable
 *
 aTable
 =
-nsnull
+nullptr
 ;
 Accessible
 *
@@ -4153,7 +4153,7 @@ aHeaderCells
 *
 aHeaderCells
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4222,7 +4222,7 @@ aHeaderCells
 *
 aHeaderCells
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4949,7 +4949,7 @@ Shutdown
 {
 mTableCell
 =
-nsnull
+nullptr
 ;
 HyperTextAccessibleWrap
 :

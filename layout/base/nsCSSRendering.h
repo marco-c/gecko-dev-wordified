@@ -1923,7 +1923,7 @@ nsRect
 *
 aBGClipRect
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -2001,7 +2001,7 @@ nsRect
 *
 aBGClipRect
 =
-nsnull
+nullptr
 )
 ;
 /

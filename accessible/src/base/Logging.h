@@ -387,7 +387,7 @@ DocAccessible
 *
 aDocument
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -416,7 +416,7 @@ DocAccessible
 *
 aDocument
 =
-nsnull
+nullptr
 )
 ;
 /

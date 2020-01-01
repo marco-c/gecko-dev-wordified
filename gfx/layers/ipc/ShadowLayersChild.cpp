@@ -230,7 +230,7 @@ you
 )
 ;
 return
-nsnull
+nullptr
 ;
 #
 endif

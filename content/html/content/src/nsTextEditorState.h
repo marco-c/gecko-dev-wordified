@@ -1253,7 +1253,7 @@ nsAString
 *
 aValue
 =
-nsnull
+nullptr
 )
 ;
 void
@@ -1741,7 +1741,7 @@ FinishedRestoringSelection
 {
 mRestoringSelection
 =
-nsnull
+nullptr
 ;
 }
 class

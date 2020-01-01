@@ -314,7 +314,7 @@ aAccWrap
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -393,7 +393,7 @@ if
 accAtPoint
 )
 return
-nsnull
+nullptr
 ;
 AtkObject
 *

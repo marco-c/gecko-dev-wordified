@@ -650,7 +650,7 @@ return
 mLoader
 !
 =
-nsnull
+nullptr
 ;
 }
 /

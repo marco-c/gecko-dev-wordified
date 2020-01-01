@@ -348,7 +348,7 @@ nsIWeakReference
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (

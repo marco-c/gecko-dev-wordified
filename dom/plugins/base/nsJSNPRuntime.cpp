@@ -870,14 +870,14 @@ JSResolveOp
 NPObjWrapper_NewResolve
 NPObjWrapper_Convert
 NPObjWrapper_Finalize
-nsnull
+nullptr
 /
 *
 checkAccess
 *
 /
 NPObjWrapper_Call
-nsnull
+nullptr
 /
 *
 hasInstance
@@ -982,10 +982,10 @@ JS_EnumerateStub
 JS_ResolveStub
 NPObjectMember_Convert
 NPObjectMember_Finalize
-nsnull
+nullptr
 NPObjectMember_Call
-nsnull
-nsnull
+nullptr
+nullptr
 NPObjectMember_Trace
 }
 ;
@@ -1057,7 +1057,7 @@ sDelayedReleases
 ;
 sDelayedReleases
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1184,7 +1184,7 @@ NS_ASSERTION
 sJSRuntime
 !
 =
-nsnull
+nullptr
 "
 no
 JSRuntime
@@ -1335,7 +1335,7 @@ sJSObjWrappers
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1393,7 +1393,7 @@ sNPObjWrappers
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1406,7 +1406,7 @@ this
 .
 sJSRuntime
 =
-nsnull
+nullptr
 ;
 NS_IF_RELEASE
 (
@@ -1514,7 +1514,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 sContextStack
 -
@@ -1529,7 +1529,7 @@ JSContext
 *
 currentCx
 =
-nsnull
+nullptr
 ;
 sContextStack
 -
@@ -1615,7 +1615,7 @@ npp
 NS_ENSURE_TRUE
 (
 npp
-nsnull
+nullptr
 )
 ;
 nsNPAPIPluginInstance
@@ -1634,7 +1634,7 @@ ndata
 NS_ENSURE_TRUE
 (
 inst
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -1657,7 +1657,7 @@ owner
 NS_ENSURE_TRUE
 (
 owner
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -1680,7 +1680,7 @@ doc
 NS_ENSURE_TRUE
 (
 doc
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -1711,7 +1711,7 @@ documentContainer
 NS_ENSURE_TRUE
 (
 sgo
-nsnull
+nullptr
 )
 ;
 nsIScriptContext
@@ -1728,7 +1728,7 @@ GetContext
 NS_ENSURE_TRUE
 (
 scx
-nsnull
+nullptr
 )
 ;
 return
@@ -2728,7 +2728,7 @@ JS_TRUE
 ThrowJSException
 (
 cx
-nsnull
+nullptr
 )
 ;
 return
@@ -2746,7 +2746,7 @@ npp
 :
 nsJSObjWrapperKey
 (
-nsnull
+nullptr
 npp
 )
 {
@@ -2984,7 +2984,7 @@ jsnpobj
 >
 mJSObj
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -5199,7 +5199,7 @@ GetNewOrUsed
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -5241,7 +5241,7 @@ GetNewOrUsed
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -5424,7 +5424,7 @@ if
 npobj
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -5487,7 +5487,7 @@ PL_DHashTableInit
 sJSObjWrappers
 &
 ops
-nsnull
+nullptr
 sizeof
 (
 JSObjWrapperHashEntry
@@ -5507,7 +5507,7 @@ PLDHashTable
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -5551,7 +5551,7 @@ of
 memory
 .
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -5636,7 +5636,7 @@ entry
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 wrapper
@@ -5743,7 +5743,7 @@ entry
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -5926,7 +5926,7 @@ obj
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -7066,7 +7066,7 @@ cx
 obj
 npobj
 id
-nsnull
+nullptr
 vp
 )
 ;
@@ -8495,8 +8495,8 @@ cx
 obj
 id
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -8600,7 +8600,7 @@ return
 fnc
 !
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -9279,7 +9279,7 @@ entry
 -
 >
 mJSObj
-nsnull
+nullptr
 )
 ;
 /
@@ -9374,7 +9374,7 @@ GetNewOrUsed
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -9442,7 +9442,7 @@ GetNewOrUsed
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -9476,7 +9476,7 @@ sNPObjWrappers
 PL_DHashGetStubOps
 (
 )
-nsnull
+nullptr
 sizeof
 (
 NPObjWrapperHashEntry
@@ -9496,7 +9496,7 @@ PLDHashTable
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -9536,7 +9536,7 @@ cx
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -9657,8 +9657,8 @@ JS_NewObject
 cx
 &
 sNPObjectJSWrapperClass
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -9767,7 +9767,7 @@ entry
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 OnWrapperCreated
@@ -9900,7 +9900,7 @@ table
 >
 ops
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -10067,7 +10067,7 @@ table
 >
 ops
 =
-nsnull
+nullptr
 ;
 NPObject
 *
@@ -10206,7 +10206,7 @@ entry
 -
 >
 mJSObj
-nsnull
+nullptr
 )
 ;
 table
@@ -11028,7 +11028,7 @@ entry
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -11196,8 +11196,8 @@ JS_NewObject
 cx
 &
 sNPObjectMemberClass
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -11472,7 +11472,7 @@ cx
 obj
 &
 sNPObjectMemberClass
-nsnull
+nullptr
 )
 ;
 if

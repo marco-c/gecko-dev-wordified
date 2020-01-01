@@ -860,7 +860,7 @@ else
 {
 mLastSelectionContainer
 =
-nsnull
+nullptr
 ;
 mLastSelectionOffset
 =
@@ -1130,7 +1130,7 @@ all
 props
 ClearProp
 (
-nsnull
+nullptr
 EmptyString
 (
 )
@@ -1693,7 +1693,7 @@ aProp
 EmptyString
 (
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -1984,7 +1984,7 @@ FindPropInList
 (
 aProp
 aAttr
-nsnull
+nullptr
 mSetArray
 index
 )
@@ -2029,7 +2029,7 @@ FindPropInList
 (
 aProp
 aAttr
-nsnull
+nullptr
 mClearedArray
 index
 )
@@ -2246,7 +2246,7 @@ FindPropInList
 (
 aProp
 aAttr
-nsnull
+nullptr
 mClearedArray
 outIndex
 )
@@ -2262,7 +2262,7 @@ FindPropInList
 EmptyString
 (
 )
-nsnull
+nullptr
 mClearedArray
 outIndex
 )
@@ -2563,7 +2563,7 @@ PropItem
 :
 tag
 (
-nsnull
+nullptr
 )
 attr
 (

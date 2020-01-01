@@ -587,7 +587,7 @@ get
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -651,11 +651,11 @@ IsCombobox
 ?
 combobox
 :
-nsnull
+nullptr
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 }

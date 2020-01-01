@@ -149,7 +149,7 @@ binding
 >
 mExpr
 =
-nsnull
+nullptr
 ;
 binding
 =
@@ -422,7 +422,7 @@ mNext
 *
 aBinding
 =
-nsnull
+nullptr
 ;
 return
 -
@@ -506,7 +506,7 @@ Evaluate
 (
 contextNode
 aType
-nsnull
+nullptr
 getter_AddRefs
 (
 resultsupports
@@ -608,7 +608,7 @@ else
 *
 aNode
 =
-nsnull
+nullptr
 ;
 }
 void

@@ -199,7 +199,7 @@ FrameTextRunCache
 *
 gTextRuns
 =
-nsnull
+nullptr
 ;
 /
 *
@@ -433,7 +433,7 @@ if
 textRun
 )
 return
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -463,7 +463,7 @@ textRun
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -584,9 +584,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -721,7 +721,7 @@ serif
 )
 &
 style
-nsnull
+nullptr
 )
 ;
 gfxTextRunFactory
@@ -732,9 +732,9 @@ params
 =
 {
 ctx
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 0
 60
 }
@@ -819,7 +819,7 @@ str
 Length
 (
 )
-nsnull
+nullptr
 )
 ;
 /
@@ -937,7 +937,7 @@ str2
 Length
 (
 )
-nsnull
+nullptr
 )
 ;
 }

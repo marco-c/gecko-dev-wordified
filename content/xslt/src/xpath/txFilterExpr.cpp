@@ -268,7 +268,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -352,7 +352,7 @@ shared
 ness
 exprRes
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <

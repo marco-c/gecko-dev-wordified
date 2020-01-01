@@ -688,7 +688,7 @@ OwnerDoc
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -993,7 +993,7 @@ mNode
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -3159,7 +3159,7 @@ mPreceedingCount
 )
 mPackedEvent
 (
-nsnull
+nullptr
 )
 {
 if

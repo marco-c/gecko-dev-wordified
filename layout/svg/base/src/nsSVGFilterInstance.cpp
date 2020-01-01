@@ -531,7 +531,7 @@ CairoStatus
 )
 )
 return
-nsnull
+nullptr
 ;
 surface
 -
@@ -555,7 +555,7 @@ gfxImageSurface
 *
 retval
 =
-nsnull
+nullptr
 ;
 surface
 .
@@ -3076,7 +3076,7 @@ aOutput
 *
 aOutput
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -3657,7 +3657,7 @@ mImage
 .
 mImage
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3694,7 +3694,7 @@ gfxImageSurface
 *
 surf
 =
-nsnull
+nullptr
 ;
 result
 -

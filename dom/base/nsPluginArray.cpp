@@ -218,7 +218,7 @@ mPluginCount
 )
 mPluginArray
 (
-nsnull
+nullptr
 )
 mDocShell
 (
@@ -242,7 +242,7 @@ if
 mPluginArray
 !
 =
-nsnull
+nullptr
 )
 {
 for
@@ -446,14 +446,14 @@ AllowPlugins
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
 mPluginArray
 =
 =
-nsnull
+nullptr
 )
 {
 *
@@ -472,7 +472,7 @@ aResult
 NS_OK
 )
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -485,7 +485,7 @@ mPluginArray
 aIndex
 ]
 :
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -551,14 +551,14 @@ AllowPlugins
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
 mPluginArray
 =
 =
-nsnull
+nullptr
 )
 {
 *
@@ -577,7 +577,7 @@ aResult
 NS_OK
 )
 return
-nsnull
+nullptr
 ;
 }
 for
@@ -636,7 +636,7 @@ plugin
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -657,7 +657,7 @@ aReturn
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aReturn
@@ -762,11 +762,11 @@ Invalidate
 {
 mDocShell
 =
-nsnull
+nullptr
 ;
 mNavigator
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -918,7 +918,7 @@ if
 mPluginArray
 !
 =
-nsnull
+nullptr
 )
 {
 for
@@ -956,7 +956,7 @@ mPluginCount
 ;
 mPluginArray
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1227,7 +1227,7 @@ mMimeTypeCount
 ;
 mMimeTypeArray
 =
-nsnull
+nullptr
 ;
 }
 nsPluginElement
@@ -1248,7 +1248,7 @@ if
 mMimeTypeArray
 !
 =
-nsnull
+nullptr
 )
 {
 for
@@ -1469,7 +1469,7 @@ if
 mMimeTypeArray
 =
 =
-nsnull
+nullptr
 )
 {
 *
@@ -1488,7 +1488,7 @@ aResult
 NS_OK
 )
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1505,7 +1505,7 @@ aResult
 NS_ERROR_FAILURE
 ;
 return
-nsnull
+nullptr
 ;
 }
 *
@@ -1575,7 +1575,7 @@ if
 mMimeTypeArray
 =
 =
-nsnull
+nullptr
 )
 {
 *
@@ -1594,7 +1594,7 @@ aResult
 NS_OK
 )
 return
-nsnull
+nullptr
 ;
 }
 *
@@ -1658,7 +1658,7 @@ mimeType
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -1739,7 +1739,7 @@ if
 mMimeTypeArray
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY

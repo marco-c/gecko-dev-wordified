@@ -763,7 +763,7 @@ lazily
 updated
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 nsSVGUtils
 :
@@ -2012,7 +2012,7 @@ y
 width
 &
 height
-nsnull
+nullptr
 )
 ;
 gfxRect
@@ -2261,7 +2261,7 @@ NS_STATE_SVG_NONDISPLAY_CHILD
 )
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -2277,7 +2277,7 @@ if
 kid
 )
 return
-nsnull
+nullptr
 ;
 float
 x
@@ -2305,7 +2305,7 @@ y
 width
 &
 height
-nsnull
+nullptr
 )
 ;
 gfxMatrix
@@ -2329,7 +2329,7 @@ IsSingular
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -2397,7 +2397,7 @@ pt
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -2473,7 +2473,7 @@ return
 frame
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP_
@@ -2513,7 +2513,7 @@ y
 w
 &
 h
-nsnull
+nullptr
 )
 ;
 if
@@ -2684,7 +2684,7 @@ y
 w
 &
 h
-nsnull
+nullptr
 )
 ;
 /
@@ -3726,7 +3726,7 @@ it
 .
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3776,7 +3776,7 @@ y
 w
 &
 h
-nsnull
+nullptr
 )
 ;
 if

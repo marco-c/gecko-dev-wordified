@@ -532,7 +532,7 @@ SharedImageMap
 *
 sSharedImageMap
 =
-nsnull
+nullptr
 ;
 static
 const
@@ -660,7 +660,7 @@ aID
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 SharedImage
@@ -799,7 +799,7 @@ img
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 SharedImage
@@ -842,7 +842,7 @@ image
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -948,7 +948,7 @@ if
 sSharedImageMap
 =
 =
-nsnull
+nullptr
 )
 {
 sSharedImageMap
@@ -971,7 +971,7 @@ if
 sSharedImageMap
 !
 =
-nsnull
+nullptr
 )
 {
 NS_ABORT_IF_FALSE
@@ -1003,7 +1003,7 @@ sSharedImageMap
 ;
 sSharedImageMap
 =
-nsnull
+nullptr
 ;
 }
 }

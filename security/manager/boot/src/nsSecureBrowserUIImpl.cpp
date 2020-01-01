@@ -476,7 +476,7 @@ PRLogModuleInfo
 *
 gSecureDocLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -733,7 +733,7 @@ mTransferringRequests
 .
 ops
 =
-nsnull
+nullptr
 ;
 ResetStateTracking
 (
@@ -792,7 +792,7 @@ mTransferringRequests
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1283,7 +1283,7 @@ nsISupports
 *
 retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2218,7 +2218,7 @@ mTransferringRequests
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 PL_DHashTableInit
@@ -2227,7 +2227,7 @@ PL_DHashTableInit
 mTransferringRequests
 &
 gMapOps
-nsnull
+nullptr
 sizeof
 (
 RequestHashEntry
@@ -7534,7 +7534,7 @@ newSecurityState
 {
 mSSLStatus
 =
-nsnull
+nullptr
 ;
 mInfoTooltip
 .
@@ -8533,7 +8533,7 @@ lis_broken_security
 *
 _result
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -8679,7 +8679,7 @@ PRUnichar
 *
 ptrv
 =
-nsnull
+nullptr
 ;
 if
 (

@@ -226,7 +226,7 @@ stored
 locale
 if
 (
-nsnull
+nullptr
 =
 =
 locale
@@ -418,7 +418,7 @@ locale
 specified
 if
 (
-nsnull
+nullptr
 =
 =
 locale

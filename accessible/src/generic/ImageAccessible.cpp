@@ -1495,7 +1495,7 @@ nsGkAtoms
 :
 :
 longdesc
-nsnull
+nullptr
 getter_AddRefs
 (
 uri
@@ -1616,7 +1616,7 @@ nsGkAtoms
 :
 :
 href
-nsnull
+nullptr
 getter_AddRefs
 (
 uri
@@ -1634,7 +1634,7 @@ forget
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 bool

@@ -226,7 +226,7 @@ ClearContext
 {
 mContext
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -696,7 +696,7 @@ nsIID
 *
 iidArray
 =
-nsnull
+nullptr
 ;
 PRUint32
 iidCount
@@ -1850,7 +1850,7 @@ else
 {
 context
 =
-nsnull
+nullptr
 ;
 }
 /

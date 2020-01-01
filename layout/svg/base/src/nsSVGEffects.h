@@ -1405,7 +1405,7 @@ aObserver
 )
 !
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -1842,7 +1842,7 @@ if
 mFilter
 )
 return
-nsnull
+nullptr
 ;
 nsSVGFilterFrame
 *
@@ -1978,7 +1978,7 @@ GetFilterFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 /

@@ -395,8 +395,8 @@ IDBVersionChangeEvent
 :
 nsDOMEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 {
 }

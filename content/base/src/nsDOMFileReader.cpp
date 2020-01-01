@@ -450,7 +450,7 @@ tmp
 >
 mResultArrayBuffer
 =
-nsnull
+nullptr
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
@@ -573,7 +573,7 @@ nsDOMFileReader
 :
 mFileData
 (
-nsnull
+nullptr
 )
 mDataLen
 (
@@ -585,7 +585,7 @@ FILE_AS_BINARY
 )
 mResultArrayBuffer
 (
-nsnull
+nullptr
 )
 {
 nsLayoutStatics
@@ -1049,7 +1049,7 @@ aFile
 return
 ReadFileContent
 (
-nsnull
+nullptr
 aFile
 EmptyString
 (
@@ -1076,7 +1076,7 @@ aCharset
 return
 ReadFileContent
 (
-nsnull
+nullptr
 aFile
 aCharset
 FILE_AS_TEXT
@@ -1097,7 +1097,7 @@ aFile
 return
 ReadFileContent
 (
-nsnull
+nullptr
 aFile
 EmptyString
 (
@@ -1148,7 +1148,7 @@ mResult
 ;
 mResultArrayBuffer
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1185,12 +1185,12 @@ NS_ERROR_FAILURE
 ;
 mChannel
 =
-nsnull
+nullptr
 ;
 }
 mFile
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1385,7 +1385,7 @@ PRUnichar
 *
 buf
 =
-nsnull
+nullptr
 ;
 mResult
 .
@@ -1753,7 +1753,7 @@ Abort
 ;
 mError
 =
-nsnull
+nullptr
 ;
 SetDOMStringToNull
 (
@@ -1920,7 +1920,7 @@ mChannel
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2293,7 +2293,7 @@ aFileData
 +
 totalRead
 numEncode
-nsnull
+nullptr
 )
 ;
 AppendASCIItoUTF16

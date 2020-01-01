@@ -3662,7 +3662,7 @@ nsIFrame
 *
 aContainingBlock
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -4169,7 +4169,7 @@ nsIContent
 *
 aContent
 =
-nsnull
+nullptr
 )
 ;
 private

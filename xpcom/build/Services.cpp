@@ -256,7 +256,7 @@ g
 #
 NAME
 =
-nsnull
+nullptr
 ;
 \
 \

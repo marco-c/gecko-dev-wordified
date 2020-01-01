@@ -930,7 +930,7 @@ DestroyTabWidth
 NS_DECLARE_FRAME_PROPERTY
 (
 OffsetToFrameProperty
-nsnull
+nullptr
 )
 /
 /
@@ -946,12 +946,12 @@ cache
 NS_DECLARE_FRAME_PROPERTY
 (
 UninflatedTextRunProperty
-nsnull
+nullptr
 )
 NS_DECLARE_FRAME_PROPERTY
 (
 FontSizeInflationProperty
-nsnull
+nullptr
 )
 /
 /
@@ -2889,7 +2889,7 @@ GetUserData
 )
 =
 =
-nsnull
+nullptr
 |
 .
 *
@@ -3034,7 +3034,7 @@ aTextRun
 >
 SetUserData
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3167,7 +3167,7 @@ i
 }
 aStartContinuation
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3209,7 +3209,7 @@ aTextRun
 >
 SetUserData
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3263,7 +3263,7 @@ FrameTextRunCache
 *
 gTextRuns
 =
-nsnull
+nullptr
 ;
 /
 *
@@ -3385,7 +3385,7 @@ aTextRun
 UnhookTextRunFromFrames
 (
 aTextRun
-nsnull
+nullptr
 )
 ;
 RemoveFromCache
@@ -3480,7 +3480,7 @@ textRun
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -3511,7 +3511,7 @@ textRun
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -3566,7 +3566,7 @@ gTextRuns
 ;
 gTextRuns
 =
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -3923,7 +3923,7 @@ flowLength
 ;
 flowLength
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -5066,7 +5066,7 @@ aWhichTextRun
 :
 mCurrentFramesAllSameTextRun
 (
-nsnull
+nullptr
 )
 mContext
 (
@@ -5307,7 +5307,7 @@ ResetRunInfo
 {
 mLastFrame
 =
-nsnull
+nullptr
 ;
 mMappedFlows
 .
@@ -6497,7 +6497,7 @@ GetNextSibling
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 else
@@ -6521,14 +6521,14 @@ GetNextSibling
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 else
 {
 f
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -6634,7 +6634,7 @@ result
 .
 mOverflowFrameToScan
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6752,7 +6752,7 @@ result
 .
 mFrameToScan
 =
-nsnull
+nullptr
 ;
 result
 .
@@ -6839,13 +6839,13 @@ result
 .
 mFrameToScan
 =
-nsnull
+nullptr
 ;
 result
 .
 mOverflowFrameToScan
 =
-nsnull
+nullptr
 ;
 result
 .
@@ -6914,7 +6914,7 @@ nsTextFrame
 aFrame
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -7699,7 +7699,7 @@ scanner
 .
 SetCommonAncestorWithLastFrame
 (
-nsnull
+nullptr
 )
 ;
 nsIFrame
@@ -8058,7 +8058,7 @@ nsTextFrame
 *
 nextLineFirstTextFrame
 =
-nsnull
+nullptr
 ;
 bool
 seenTextRunBoundaryOnLaterLine
@@ -8128,8 +8128,8 @@ state
 =
 {
 stopAtFrame
-nsnull
-nsnull
+nullptr
+nullptr
 bool
 (
 seenTextRunBoundaryOnLaterLine
@@ -8309,7 +8309,7 @@ true
 }
 stopAtFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8443,7 +8443,7 @@ scanner
 .
 SetCommonAncestorWithLastFrame
 (
-nsnull
+nullptr
 )
 ;
 nsIFrame
@@ -8622,7 +8622,7 @@ scanner
 .
 FlushLineBreaks
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -8800,7 +8800,7 @@ mMappedFlows
 mEndFrame
 =
 =
-nsnull
+nullptr
 ;
 TextRunUserData
 *
@@ -8964,7 +8964,7 @@ gfxTextRun
 *
 textRun
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -9238,7 +9238,7 @@ FlushLineBreaks
 (
 aSuppressTrailingBreak
 ?
-nsnull
+nullptr
 :
 textRun
 )
@@ -9662,7 +9662,7 @@ mWhichTextRun
 {
 mCurrentFramesAllSameTextRun
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -10884,7 +10884,7 @@ Length
 )
 )
 return
-nsnull
+nullptr
 ;
 *
 aIndex
@@ -10943,7 +10943,7 @@ nsFontMetrics
 *
 aOutFontMetrics
 =
-nsnull
+nullptr
 )
 {
 if
@@ -10953,7 +10953,7 @@ aOutFontMetrics
 *
 aOutFontMetrics
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -10980,7 +10980,7 @@ if
 metrics
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -11118,7 +11118,7 @@ if
 tmp
 )
 return
-nsnull
+nullptr
 ;
 }
 gfxContext
@@ -11193,7 +11193,7 @@ ctx
 GetReferenceRenderingContext
 (
 aTextFrame
-nsnull
+nullptr
 )
 ;
 }
@@ -11203,7 +11203,7 @@ if
 ctx
 )
 return
-nsnull
+nullptr
 ;
 gfxFontGroup
 *
@@ -11676,7 +11676,7 @@ dummyData
 ;
 userDataToDestroy
 =
-nsnull
+nullptr
 ;
 dummyData
 .
@@ -11886,20 +11886,20 @@ nsStyleText
 *
 textStyle
 =
-nsnull
+nullptr
 ;
 const
 nsStyleFont
 *
 fontStyle
 =
-nsnull
+nullptr
 ;
 nsStyleContext
 *
 lastStyleContext
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -12364,7 +12364,7 @@ userDataToDestroy
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 PRUint8
@@ -12547,7 +12547,7 @@ userDataToDestroy
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -12573,7 +12573,7 @@ TEXT_IS_SIMPLE_FLOW
 ;
 userData
 =
-nsnull
+nullptr
 ;
 finalUserData
 =
@@ -12670,7 +12670,7 @@ userDataToDestroy
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -13441,7 +13441,7 @@ userDataToDestroy
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -13658,7 +13658,7 @@ textRun
 >
 SetUserData
 (
-nsnull
+nullptr
 )
 ;
 DestroyUserData
@@ -13667,7 +13667,7 @@ userDataToDestroy
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -13917,7 +13917,7 @@ dummyData
 ;
 userDataToDestroy
 =
-nsnull
+nullptr
 ;
 dummyData
 .
@@ -14022,7 +14022,7 @@ nsStyleText
 *
 textStyle
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -15115,7 +15115,7 @@ aFlags
 SBS_SUPPRESS_SINK
 )
 ?
-nsnull
+nullptr
 :
 (
 *
@@ -15506,7 +15506,7 @@ flow
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -15789,7 +15789,7 @@ nsTextFrame
 *
 firstFrame
 =
-nsnull
+nullptr
 ;
 PRUint32
 startOffset
@@ -15954,7 +15954,7 @@ nsTextFrame
 *
 clearFrom
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -16049,7 +16049,7 @@ GetLength
 ?
 f
 :
-nsnull
+nullptr
 ;
 }
 f
@@ -16317,7 +16317,7 @@ ctx
 GetReferenceRenderingContext
 (
 this
-nsnull
+nullptr
 )
 ;
 }
@@ -17954,7 +17954,7 @@ aTextRun
 )
 mFontGroup
 (
-nsnull
+nullptr
 )
 mTextStyle
 (
@@ -17982,7 +17982,7 @@ aStart
 )
 mTabWidths
 (
-nsnull
+nullptr
 )
 mTabWidthsAnalyzedLimit
 (
@@ -18119,7 +18119,7 @@ aWhichTextRun
 )
 mFontGroup
 (
-nsnull
+nullptr
 )
 mTextStyle
 (
@@ -18146,7 +18146,7 @@ GetText
 )
 mLineContainer
 (
-nsnull
+nullptr
 )
 mFrame
 (
@@ -18162,7 +18162,7 @@ aStart
 )
 mTabWidths
 (
-nsnull
+nullptr
 )
 mTabWidthsAnalyzedLimit
 (
@@ -20367,7 +20367,7 @@ i
 clusterEnd
 -
 i
-nsnull
+nullptr
 )
 ;
 }
@@ -20534,7 +20534,7 @@ hyphenTextRun
 GetHyphenTextRun
 (
 mTextRun
-nsnull
+nullptr
 mFrame
 )
 )
@@ -20567,7 +20567,7 @@ hyphenTextRun
 GetLength
 (
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -21535,7 +21535,7 @@ hyphenTextRun
 GetHyphenTextRun
 (
 mTextRun
-nsnull
+nullptr
 mFrame
 )
 )
@@ -21564,7 +21564,7 @@ hyphenTextRun
 GetLength
 (
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -21897,7 +21897,7 @@ nsBlinkTimer
 :
 sTextBlinker
 =
-nsnull
+nullptr
 ;
 PRUint32
 nsBlinkTimer
@@ -21938,7 +21938,7 @@ Stop
 ;
 sTextBlinker
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -22002,7 +22002,7 @@ Stop
 {
 if
 (
-nsnull
+nullptr
 !
 =
 mTimer
@@ -22017,7 +22017,7 @@ Cancel
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -23497,7 +23497,7 @@ aContent
 NS_ENSURE_TRUE
 (
 aContent
-nsnull
+nullptr
 )
 ;
 while
@@ -23574,7 +23574,7 @@ AsElement
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -23724,7 +23724,7 @@ nsStyleContext
 >
 sc
 =
-nsnull
+nullptr
 ;
 sc
 =
@@ -24845,8 +24845,8 @@ GetRenderedText
 (
 &
 renderedWhitespace
-nsnull
-nsnull
+nullptr
+nullptr
 0
 1
 )
@@ -24861,7 +24861,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -24900,7 +24900,7 @@ PresShell
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -25355,7 +25355,7 @@ mNextContinuation
 >
 SetPrevInFlow
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -25538,7 +25538,7 @@ NS_FRAME_IS_FLUID_CONTINUATION
 ?
 mPrevContinuation
 :
-nsnull
+nullptr
 ;
 }
 NS_IMETHOD
@@ -25662,17 +25662,17 @@ nsAString
 *
 aString
 =
-nsnull
+nullptr
 gfxSkipChars
 *
 aSkipChars
 =
-nsnull
+nullptr
 gfxSkipCharsIterator
 *
 aSkipIter
 =
-nsnull
+nullptr
 PRUint32
 aSkippedStartOffset
 =
@@ -27364,7 +27364,7 @@ GetParent
 )
 !
 =
-nsnull
+nullptr
 )
 {
 nsIContent
@@ -27754,7 +27754,7 @@ hurt
 .
 ClearTextRun
 (
-nsnull
+nullptr
 nsTextFrame
 :
 :
@@ -27877,7 +27877,7 @@ mTextRun
 {
 mTextRun
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -28301,7 +28301,7 @@ nsTextFrame
 *
 lastDirtiedFrame
 =
-nsnull
+nullptr
 ;
 nsIPresShell
 *
@@ -29331,7 +29331,7 @@ GetTableCellSelection
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -29464,7 +29464,7 @@ GetContent
 )
 )
 return
-nsnull
+nullptr
 ;
 SelectionDetails
 *
@@ -29790,7 +29790,7 @@ this
 *
 fChild
 =
-nsnull
+nullptr
 ;
 f
 ;
@@ -33309,7 +33309,7 @@ GetLength
 )
 aBoundingBoxType
 aContext
-nsnull
+nullptr
 )
 ;
 aMetrics
@@ -33547,7 +33547,7 @@ AppUnitsPerDevPixel
 )
 aCtx
 aDirtyRect
-nsnull
+nullptr
 )
 ;
 if
@@ -33594,7 +33594,7 @@ aForegroundColor
 ;
 decorationOverrideColor
 =
-nsnull
+nullptr
 ;
 }
 aCtx
@@ -33885,7 +33885,7 @@ prevailingSelections
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 SelectionDetails
@@ -34399,7 +34399,7 @@ gfxFont
 :
 :
 LOOSE_INK_EXTENTS
-nsnull
+nullptr
 &
 aProvider
 )
@@ -34691,7 +34691,7 @@ selectedChars
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 SelectionDetails
@@ -36631,7 +36631,7 @@ gfxFont
 :
 :
 LOOSE_INK_EXTENTS
-nsnull
+nullptr
 &
 provider
 )
@@ -36776,7 +36776,7 @@ aLength
 aProvider
 &
 aAdvanceWidth
-nsnull
+nullptr
 )
 ;
 if
@@ -36817,7 +36817,7 @@ hyphenTextRun
 GetHyphenTextRun
 (
 mTextRun
-nsnull
+nullptr
 this
 )
 )
@@ -36895,7 +36895,7 @@ hyphenTextRun
 GetLength
 (
 )
-nsnull
+nullptr
 )
 :
 0
@@ -36925,9 +36925,9 @@ hyphenTextRun
 GetLength
 (
 )
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -38766,7 +38766,7 @@ GetSelectionUnderline
 (
 aPresContext
 index
-nsnull
+nullptr
 &
 relativeSize
 &
@@ -38858,7 +38858,7 @@ GetSelectionUnderline
 (
 aPresContext
 index
-nsnull
+nullptr
 &
 relativeSize
 &
@@ -42749,7 +42749,7 @@ VoidPtrOrFloat
 :
 p
 (
-nsnull
+nullptr
 )
 {
 }
@@ -43197,7 +43197,7 @@ frag
 this
 iter
 len
-nsnull
+nullptr
 0
 aTextRunType
 )
@@ -43264,7 +43264,7 @@ bool
 *
 hyphBreakBefore
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -43972,7 +43972,7 @@ run
 .
 ClearTextRun
 (
-nsnull
+nullptr
 nsTextFrame
 :
 :
@@ -43988,7 +43988,7 @@ gfxTextRun
 *
 lastTextRun
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -44153,7 +44153,7 @@ aData
 >
 line
 =
-nsnull
+nullptr
 ;
 aData
 -
@@ -44364,7 +44364,7 @@ frag
 this
 iter
 PR_INT32_MAX
-nsnull
+nullptr
 0
 aTextRunType
 )
@@ -45017,7 +45017,7 @@ run
 .
 ClearTextRun
 (
-nsnull
+nullptr
 nsTextFrame
 :
 :
@@ -45033,7 +45033,7 @@ gfxTextRun
 *
 lastTextRun
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -45198,7 +45198,7 @@ aData
 >
 line
 =
-nsnull
+nullptr
 ;
 aData
 -
@@ -45885,7 +45885,7 @@ GetPrevInFlow
 )
 !
 =
-nsnull
+nullptr
 "
 aFirstToNotRemove
 should
@@ -45923,7 +45923,7 @@ GetPrevInFlow
 )
 !
 =
-nsnull
+nullptr
 "
 aFrame
 should
@@ -46153,7 +46153,7 @@ aFrame
 >
 SetPrevInFlow
 (
-nsnull
+nullptr
 )
 ;
 lastRemoved
@@ -46161,7 +46161,7 @@ lastRemoved
 >
 SetNextInFlow
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -46880,7 +46880,7 @@ nsTextFrame
 *
 framesToRemove
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -47238,7 +47238,7 @@ f
 ;
 framesToRemove
 =
-nsnull
+nullptr
 ;
 }
 f
@@ -48423,7 +48423,7 @@ NewlineProperty
 *
 cachedNewlineOffset
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -49183,7 +49183,7 @@ run
 .
 ClearTextRun
 (
-nsnull
+nullptr
 nsTextFrame
 :
 :
@@ -50001,7 +50001,7 @@ canTrimTrailingWhitespace
 &
 trimmedWidth
 :
-nsnull
+nullptr
 &
 textMetrics
 boundingBoxType
@@ -52096,7 +52096,7 @@ cachedNewlineOffset
 ;
 cachedNewlineOffset
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -52614,7 +52614,7 @@ frag
 this
 start
 contentLength
-nsnull
+nullptr
 0
 nsTextFrame
 :
@@ -52732,7 +52732,7 @@ frag
 this
 start
 contentLength
-nsnull
+nullptr
 0
 nsTextFrame
 :
@@ -53254,7 +53254,7 @@ gfxFont
 :
 :
 LOOSE_INK_EXTENTS
-nsnull
+nullptr
 &
 provider
 )
@@ -54670,7 +54670,7 @@ GetPrevContinuation
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 prevContinuation
@@ -54700,7 +54700,7 @@ prevContinuation
 }
 if
 (
-nsnull
+nullptr
 !
 =
 mNextContinuation
@@ -55153,7 +55153,7 @@ SetLength
 aEnd
 -
 aStart
-nsnull
+nullptr
 0
 )
 ;

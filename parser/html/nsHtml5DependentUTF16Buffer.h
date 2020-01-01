@@ -165,7 +165,7 @@ If
 the
 allocation
 fails
-nsnull
+nullptr
 is
 returned
 .
@@ -176,7 +176,7 @@ heap
 allocated
 copy
 or
-nsnull
+nullptr
 if
 memory
 allocation

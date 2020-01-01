@@ -1237,9 +1237,9 @@ get
 (
 )
 req_flags
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -1710,7 +1710,7 @@ token
 /
 inToken
 =
-nsnull
+nullptr
 ;
 inTokenLen
 =
@@ -1798,7 +1798,7 @@ char
 )
 outToken
 outTokenLen
-nsnull
+nullptr
 )
 ;
 nsMemory

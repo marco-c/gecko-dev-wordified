@@ -139,7 +139,7 @@ PRLogModuleInfo
 *
 gCacheLog
 =
-nsnull
+nullptr
 ;
 void
 CacheLogInit
@@ -346,7 +346,7 @@ NS_OK
 *
 result
 =
-nsnull
+nullptr
 ;
 nsReadingIterator
 <

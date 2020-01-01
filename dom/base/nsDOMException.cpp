@@ -517,8 +517,8 @@ msg
 {
 0
 0
-nsnull
-nsnull
+nullptr
+nullptr
 }
 /
 /
@@ -560,12 +560,12 @@ aCode
 *
 aName
 =
-nsnull
+nullptr
 ;
 *
 aMessage
 =
-nsnull
+nullptr
 ;
 *
 aCode
@@ -676,14 +676,14 @@ char
 *
 name
 =
-nsnull
+nullptr
 ;
 const
 char
 *
 message
 =
-nsnull
+nullptr
 ;
 PRUint16
 code
@@ -1048,7 +1048,7 @@ else
 *
 aMessage
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1116,7 +1116,7 @@ else
 *
 aName
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1158,7 +1158,7 @@ aFilename
 *
 aFilename
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1279,7 +1279,7 @@ aLocation
 *
 aLocation
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1305,7 +1305,7 @@ aInner
 *
 aInner
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1346,7 +1346,7 @@ aData
 *
 aData
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1367,7 +1367,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 static
 const

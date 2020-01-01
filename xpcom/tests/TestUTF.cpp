@@ -950,8 +950,8 @@ test_hashas16
 test_hashas16
 }
 {
-nsnull
-nsnull
+nullptr
+nullptr
 }
 }
 ;
@@ -1014,7 +1014,7 @@ t
 name
 !
 =
-nsnull
+nullptr
 ;
 +
 +

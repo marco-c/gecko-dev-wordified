@@ -405,7 +405,7 @@ nsCertVerificationThread
 :
 mJobQ
 (
-nsnull
+nullptr
 )
 {
 NS_ASSERTION
@@ -444,7 +444,7 @@ nsCertVerificationThread
 {
 verification_thread_singleton
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -531,7 +531,7 @@ nsBaseVerificationJob
 *
 job
 =
-nsnull
+nullptr
 ;
 {
 MutexAutoLock

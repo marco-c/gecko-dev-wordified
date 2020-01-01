@@ -638,7 +638,7 @@ gCtx
 ;
 gCtx
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -746,7 +746,7 @@ this
 )
 sActivePreview
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1253,7 +1253,7 @@ else
 {
 sActivePreview
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2266,7 +2266,7 @@ TaskbarPreview
 :
 sActivePreview
 =
-nsnull
+nullptr
 ;
 }
 /

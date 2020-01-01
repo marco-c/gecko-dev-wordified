@@ -1278,7 +1278,7 @@ gfxFontFamily
 *
 aFamily
 =
-nsnull
+nullptr
 bool
 aIsStandardFace
 =
@@ -1360,11 +1360,11 @@ mUVSOffset
 )
 mUVSData
 (
-nsnull
+nullptr
 )
 mUserFontData
 (
-nsnull
+nullptr
 )
 mLanguageOverride
 (
@@ -2216,11 +2216,11 @@ mUVSOffset
 )
 mUVSData
 (
-nsnull
+nullptr
 )
 mUserFontData
 (
-nsnull
+nullptr
 )
 mLanguageOverride
 (
@@ -2228,7 +2228,7 @@ NO_FONT_LANGUAGE_OVERRIDE
 )
 mFamily
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2259,7 +2259,7 @@ CreateFontInstance
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -2700,7 +2700,7 @@ toCopy
 .
 mBlob
 =
-nsnull
+nullptr
 ;
 }
 ~
@@ -3179,7 +3179,7 @@ fe
 >
 SetFamily
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -4960,7 +4960,7 @@ mFonts
 EnumerateEntries
 (
 ClearCachedWordsForFont
-nsnull
+nullptr
 )
 ;
 }
@@ -5109,7 +5109,7 @@ aStr
 :
 mFont
 (
-nsnull
+nullptr
 )
 {
 }
@@ -6203,7 +6203,7 @@ aGlyphID
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -6223,7 +6223,7 @@ aGlyphID
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -7336,7 +7336,7 @@ cairo_scaled_font_t
 *
 aScaledFont
 =
-nsnull
+nullptr
 )
 ;
 public
@@ -7647,7 +7647,7 @@ matters
 should
 override
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -8082,7 +8082,7 @@ GetGlyphRenderingOptions
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 gfxFloat
@@ -10949,7 +10949,7 @@ storage
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -11138,7 +11138,7 @@ storage
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -13066,7 +13066,7 @@ false
 false
 0
 )
-nsnull
+nullptr
 )
 ;
 mCharacterGlyphs
@@ -13112,7 +13112,7 @@ return
 mDetailedGlyphs
 !
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -13976,7 +13976,7 @@ details
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -14064,7 +14064,7 @@ detailIndex
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -14089,7 +14089,7 @@ CompareRecordOffsets
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -15748,7 +15748,7 @@ length2
 dirty
 &
 provider
-nsnull
+nullptr
 )
 should
 have
@@ -15768,7 +15768,7 @@ length2
 dirty
 &
 provider
-nsnull
+nullptr
 )
 .
 *
@@ -15817,7 +15817,7 @@ length1
 dirty
 &
 provider
-nsnull
+nullptr
 )
 should
 have
@@ -15837,7 +15837,7 @@ length2
 dirty
 &
 provider
-nsnull
+nullptr
 )
 .
 *
@@ -18259,7 +18259,7 @@ false
 false
 0
 )
-nsnull
+nullptr
 )
 ;
 mCharacterGlyphs
@@ -18415,7 +18415,7 @@ NS_ASSERTION
 mDetailedGlyphs
 !
 =
-nsnull
+nullptr
 &
 &
 !
@@ -18471,7 +18471,7 @@ return
 mDetailedGlyphs
 !
 =
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -19557,7 +19557,7 @@ gfxUserFontSet
 *
 aUserFontSet
 =
-nsnull
+nullptr
 )
 ;
 virtual
@@ -19971,9 +19971,9 @@ params
 =
 {
 aRefContext
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 0
 aAppUnitsPerDevUnit
 }
@@ -20259,7 +20259,7 @@ for
 a
 character
 return
-nsnull
+nullptr
 if
 no
 matching

@@ -389,7 +389,7 @@ execute
 in
 or
 *
-nsnull
+nullptr
 to
 use
 a
@@ -769,7 +769,7 @@ to
 execute
 *
 or
-nsnull
+nullptr
 to
 use
 a

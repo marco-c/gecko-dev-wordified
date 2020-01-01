@@ -412,7 +412,7 @@ layout
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

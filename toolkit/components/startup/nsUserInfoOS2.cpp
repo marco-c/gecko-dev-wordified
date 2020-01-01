@@ -224,7 +224,7 @@ aUsername
 *
 aUsername
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -245,7 +245,7 @@ aFullname
 *
 aFullname
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -266,7 +266,7 @@ aDomain
 *
 aDomain
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -287,7 +287,7 @@ aEmailAddress
 *
 aEmailAddress
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED

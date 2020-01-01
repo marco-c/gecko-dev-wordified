@@ -266,7 +266,7 @@ if
 aFrame
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -328,7 +328,7 @@ GetPresShell
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsEventStates
@@ -1867,7 +1867,7 @@ nsGkAtoms
 :
 :
 scrollbarUpTop
-nsnull
+nullptr
 }
 ;
 switch
@@ -1978,7 +1978,7 @@ nsGkAtoms
 :
 :
 ascending
-nsnull
+nullptr
 }
 ;
 switch
@@ -3290,7 +3290,7 @@ if
 aFrame
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -3427,7 +3427,7 @@ x
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 sibling

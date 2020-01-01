@@ -196,7 +196,7 @@ false
 )
 mQuotaFile
 (
-nsnull
+nullptr
 )
 {
 }

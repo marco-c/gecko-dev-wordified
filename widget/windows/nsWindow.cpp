@@ -1703,7 +1703,7 @@ nsWindow
 :
 sCursorImgContainer
 =
-nsnull
+nullptr
 ;
 nsWindow
 *
@@ -1712,7 +1712,7 @@ nsWindow
 :
 sCurrentWindow
 =
-nsnull
+nullptr
 ;
 bool
 nsWindow
@@ -1846,7 +1846,7 @@ nsWindow
 :
 sRollupListener
 =
-nsnull
+nullptr
 ;
 nsIWidget
 *
@@ -1855,7 +1855,7 @@ nsWindow
 :
 sRollupWidget
 =
-nsnull
+nullptr
 ;
 bool
 nsWindow
@@ -2210,7 +2210,7 @@ PRLogModuleInfo
 *
 gWindowsLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -2907,27 +2907,27 @@ nsWindow
 endif
 mIconSmall
 =
-nsnull
+nullptr
 ;
 mIconBig
 =
-nsnull
+nullptr
 ;
 mWnd
 =
-nsnull
+nullptr
 ;
 mPaintDC
 =
-nsnull
+nullptr
 ;
 mPrevWndProc
 =
-nsnull
+nullptr
 ;
 mNativeDragTarget
 =
-nsnull
+nullptr
 ;
 mInDtor
 =
@@ -3051,11 +3051,11 @@ ifdef
 MOZ_XUL
 mTransparentSurface
 =
-nsnull
+nullptr
 ;
 mMemoryDC
 =
-nsnull
+nullptr
 ;
 mTransparencyMode
 =
@@ -3104,7 +3104,7 @@ COLOR_WINDOWTEXT
 ;
 mTaskbarPreview
 =
-nsnull
+nullptr
 ;
 mHasTaskbarIconBeenCreated
 =
@@ -3273,7 +3273,7 @@ ForgetRedirectedKeyDownMessage
 sInstanceCount
 mIdleService
 =
-nsnull
+nullptr
 ;
 sInstanceCount
 +
@@ -3743,14 +3743,14 @@ mWindowType
 =
 eWindowType_invisible
 ?
-nsnull
+nullptr
 :
 aParent
 ;
 mIsTopWidgetWindow
 =
 (
-nsnull
+nullptr
 =
 =
 baseParent
@@ -3851,7 +3851,7 @@ HWND
 aNativeParent
 )
 :
-nsnull
+nullptr
 ;
 }
 mIsRTL
@@ -4924,7 +4924,7 @@ Destroy
 }
 mLayerManager
 =
-nsnull
+nullptr
 ;
 /
 *
@@ -6916,7 +6916,7 @@ VERIFY
 SetParent
 (
 mWnd
-nsnull
+nullptr
 )
 )
 ;
@@ -7176,7 +7176,7 @@ a
 nsIWidget
 .
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -7225,7 +7225,7 @@ mInDtor
 mOnDestroyCalled
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -7269,7 +7269,7 @@ nsWindow
 *
 widget
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7279,7 +7279,7 @@ mWnd
 HWND
 parent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7354,7 +7354,7 @@ mInDtor
 {
 widget
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -8995,7 +8995,7 @@ ePopupTypePanel
 HRGN
 hRgn
 =
-nsnull
+nullptr
 ;
 RECT
 rect
@@ -18462,7 +18462,7 @@ debug_DumpInvalidate
 (
 stdout
 this
-nsnull
+nullptr
 nsCAutoString
 (
 "
@@ -20523,7 +20523,7 @@ aEnable
 {
 if
 (
-nsnull
+nullptr
 =
 =
 mNativeDragTarget
@@ -20600,7 +20600,7 @@ else
 {
 if
 (
-nsnull
+nullptr
 !
 =
 mWnd
@@ -21176,7 +21176,7 @@ else
 {
 sRollupListener
 =
-nsnull
+nullptr
 ;
 NS_IF_RELEASE
 (
@@ -22334,7 +22334,7 @@ Destroy
 ;
 mLayerManager
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -22879,7 +22879,7 @@ NS_ASSERTION
 aShadowManager
 =
 =
-nsnull
+nullptr
 "
 Async
 Compositor
@@ -24481,7 +24481,7 @@ aPoint
 {
 if
 (
-nsnull
+nullptr
 =
 =
 aPoint
@@ -25730,7 +25730,7 @@ recursionBlocker
 {
 NS_ProcessPendingEvents
 (
-nsnull
+nullptr
 PR_MillisecondsToInterval
 (
 100
@@ -27083,7 +27083,7 @@ event
 callback
 if
 (
-nsnull
+nullptr
 !
 =
 mEventCallback
@@ -27187,7 +27187,7 @@ this
 if
 (
 (
-nsnull
+nullptr
 !
 =
 sCurrentWindow
@@ -27297,7 +27297,7 @@ this
 {
 sCurrentWindow
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -27388,14 +27388,14 @@ aEventType
 {
 if
 (
-nsnull
+nullptr
 =
 =
 mEventCallback
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsAccessibleEvent
@@ -27409,7 +27409,7 @@ this
 InitEvent
 (
 event
-nsnull
+nullptr
 )
 ;
 ModifierKeyState
@@ -29808,7 +29808,7 @@ this
 assert
 if
 (
-nsnull
+nullptr
 =
 =
 someWindow
@@ -30685,7 +30685,7 @@ application
 -
 requested
 "
-nsnull
+nullptr
 )
 ;
 bool
@@ -30839,7 +30839,7 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 quit
 -
@@ -30847,7 +30847,7 @@ application
 -
 granted
 "
-nsnull
+nullptr
 )
 ;
 obsServ
@@ -30855,7 +30855,7 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 quit
 -
@@ -30863,7 +30863,7 @@ application
 -
 forced
 "
-nsnull
+nullptr
 )
 ;
 obsServ
@@ -30871,13 +30871,13 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 quit
 -
 application
 "
-nsnull
+nullptr
 )
 ;
 obsServ
@@ -30885,7 +30885,7 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -30907,7 +30907,7 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -30927,7 +30927,7 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -32174,7 +32174,7 @@ result
 ProcessCharMessage
 (
 nativeMsg
-nsnull
+nullptr
 )
 ;
 DispatchPendingEvents
@@ -32219,7 +32219,7 @@ result
 ProcessKeyUpMessage
 (
 nativeMsg
-nsnull
+nullptr
 )
 ;
 DispatchPendingEvents
@@ -32254,7 +32254,7 @@ result
 ProcessKeyDownMessage
 (
 nativeMsg
-nsnull
+nullptr
 )
 ;
 DispatchPendingEvents
@@ -36328,7 +36328,7 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 aIsSleepMode
 ?
 "
@@ -36338,7 +36338,7 @@ sleep_notification
 "
 wake_notification
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -37295,7 +37295,7 @@ OnKeyDown
 aMsg
 modKeyState
 aEventDispatched
-nsnull
+nullptr
 )
 ;
 /
@@ -38277,8 +38277,8 @@ OnKeyDown
 (
 msg
 modKeyState
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -38302,7 +38302,7 @@ OnKeyDown
 (
 msg
 modKeyState
-nsnull
+nullptr
 &
 fakeMsg
 )
@@ -38364,7 +38364,7 @@ OnChar
 msg
 nativeKey
 modKeyState
-nsnull
+nullptr
 )
 ;
 }
@@ -38376,8 +38376,8 @@ OnKeyDown
 (
 msg
 modKeyState
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -38557,7 +38557,7 @@ OnKeyUp
 (
 msg
 modKeyState
-nsnull
+nullptr
 )
 ;
 }
@@ -39038,7 +39038,7 @@ if
 wp
 =
 =
-nsnull
+nullptr
 )
 return
 ;
@@ -40791,7 +40791,7 @@ event
 .
 mActualBelow
 =
-nsnull
+nullptr
 ;
 event
 .
@@ -42967,7 +42967,7 @@ OnChar
 msg
 nativeKey
 aModKeyState
-nsnull
+nullptr
 extraFlags
 )
 ;
@@ -43098,7 +43098,7 @@ OnChar
 msg
 nativeKey
 aModKeyState
-nsnull
+nullptr
 extraFlags
 )
 ;
@@ -44352,7 +44352,7 @@ modKeyState
 DispatchKeyEvent
 (
 keypressEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -44390,7 +44390,7 @@ aModKeyState
 DispatchKeyEvent
 (
 keypressEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -46762,7 +46762,7 @@ events
 .
 mEventCallback
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -46839,7 +46839,7 @@ this
 )
 sCurrentWindow
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -46906,7 +46906,7 @@ order
 and
 SetParent
 (
-nsnull
+nullptr
 )
 '
 s
@@ -46932,12 +46932,12 @@ above
 /
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 mParent
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -47011,7 +47011,7 @@ Rollup
 ;
 CaptureRollupEvents
 (
-nsnull
+nullptr
 false
 true
 )
@@ -47088,7 +47088,7 @@ mtrailer
 >
 SetCaptureWindow
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -49195,7 +49195,7 @@ DispatchAccessibleEvent
 NS_GETACCESSIBLE
 )
 :
-nsnull
+nullptr
 ;
 \
 PR_LOG
@@ -49273,7 +49273,7 @@ void
 *
 hwnd
 =
-nsnull
+nullptr
 ;
 \
 doc
@@ -49555,7 +49555,7 @@ a11y
 ePlatformIsDisabled
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -49572,7 +49572,7 @@ eWindowType_invisible
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_LOG_WMGETOBJECT_THISWND
@@ -49951,7 +49951,7 @@ newSurface
 ;
 mMemoryDC
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -50335,7 +50335,7 @@ else
 {
 mTransparentSurface
 =
-nsnull
+nullptr
 ;
 mMemoryDC
 =
@@ -52460,7 +52460,7 @@ ifdef
 CAIRO_HAS_D2D_SURFACE
 mD2DWindowSurface
 =
-nsnull
+nullptr
 ;
 #
 endif

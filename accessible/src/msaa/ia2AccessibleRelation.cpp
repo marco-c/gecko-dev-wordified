@@ -176,7 +176,7 @@ Accessible
 *
 target
 =
-nsnull
+nullptr
 ;
 while
 (

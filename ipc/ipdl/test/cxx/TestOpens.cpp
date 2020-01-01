@@ -455,7 +455,7 @@ h
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 gParentThread
@@ -1027,7 +1027,7 @@ h
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 gChildThread

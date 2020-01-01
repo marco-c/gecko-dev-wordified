@@ -258,7 +258,7 @@ HTMLPropertiesCollection
 /
 SetDocument
 (
-nsnull
+nullptr
 )
 ensures
 that
@@ -274,7 +274,7 @@ tmp
 >
 SetDocument
 (
-nsnull
+nullptr
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
@@ -2057,7 +2057,7 @@ PropertyNodeList
 /
 SetDocument
 (
-nsnull
+nullptr
 )
 ensures
 that
@@ -2073,7 +2073,7 @@ tmp
 >
 SetDocument
 (
-nsnull
+nullptr
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR

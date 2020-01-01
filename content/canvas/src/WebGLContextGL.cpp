@@ -2219,7 +2219,7 @@ NS_ABORT_IF_FALSE
 boundBuffer
 !
 =
-nsnull
+nullptr
 "
 no
 buffer
@@ -2349,7 +2349,7 @@ ArrayBuffer
 *
 >
 (
-nsnull
+nullptr
 )
 usage
 )
@@ -3168,7 +3168,7 @@ BufferSubData
 (
 target
 offset
-nsnull
+nullptr
 )
 ;
 return
@@ -6209,7 +6209,7 @@ IsContextStable
 )
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -6282,7 +6282,7 @@ IsContextStable
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -6309,7 +6309,7 @@ type
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -6488,7 +6488,7 @@ WebGLBuffer
 *
 >
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -6508,7 +6508,7 @@ WebGLBuffer
 *
 >
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -6547,7 +6547,7 @@ i
 .
 buf
 =
-nsnull
+nullptr
 ;
 }
 buf
@@ -6656,7 +6656,7 @@ WebGLFramebuffer
 *
 >
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -6764,7 +6764,7 @@ WebGLRenderbuffer
 *
 >
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -6946,7 +6946,7 @@ WebGLTexture
 *
 >
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -8175,7 +8175,7 @@ fBufferData
 (
 LOCAL_GL_ARRAY_BUFFER
 dataSize
-nsnull
+nullptr
 LOCAL_GL_DYNAMIC_DRAW
 )
 ;
@@ -10630,7 +10630,7 @@ IsContextStable
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -10646,7 +10646,7 @@ prog
 )
 )
 return
-nsnull
+nullptr
 ;
 MakeContextCurrent
 (
@@ -10687,7 +10687,7 @@ len
 0
 )
 return
-nsnull
+nullptr
 ;
 nsAutoArrayPtr
 <
@@ -10744,7 +10744,7 @@ attrtype
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCString
@@ -11201,7 +11201,7 @@ IsContextStable
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -11217,7 +11217,7 @@ prog
 )
 )
 return
-nsnull
+nullptr
 ;
 MakeContextCurrent
 (
@@ -11257,7 +11257,7 @@ len
 0
 )
 return
-nsnull
+nullptr
 ;
 nsAutoArrayPtr
 <
@@ -11320,7 +11320,7 @@ utype
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCString
@@ -11664,7 +11664,7 @@ IsNull
 *
 retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -14901,7 +14901,7 @@ IsContextStable
 )
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -14969,7 +14969,7 @@ IsContextStable
 )
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -17645,7 +17645,7 @@ IsContextStable
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -17661,7 +17661,7 @@ prog
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -17675,7 +17675,7 @@ getUniformLocation
 )
 )
 return
-nsnull
+nullptr
 ;
 NS_LossyConvertUTF16toASCII
 cname
@@ -17730,7 +17730,7 @@ WebGLUniformLocation
 *
 loc
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -19441,7 +19441,7 @@ char
 *
 shaderTypeName
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -26156,7 +26156,7 @@ IsContextStable
 )
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -26224,7 +26224,7 @@ IsContextStable
 )
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -28889,7 +28889,7 @@ IsContextStable
 )
 )
 return
-nsnull
+nullptr
 ;
 switch
 (
@@ -28917,7 +28917,7 @@ shadertype
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 switch
@@ -28958,7 +28958,7 @@ precisiontype
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 MakeContextCurrent
@@ -29334,7 +29334,7 @@ if
 mBoundArrayBuffer
 =
 =
-nsnull
+nullptr
 )
 return
 ErrorInvalidOperation
@@ -29772,7 +29772,7 @@ NS_ABORT_IF_FALSE
 tex
 !
 =
-nsnull
+nullptr
 "
 no
 texture
@@ -30726,7 +30726,7 @@ height
 border
 format
 type
-nsnull
+nullptr
 rv
 )
 ;
@@ -31883,7 +31883,7 @@ width
 height
 format
 type
-nsnull
+nullptr
 rv
 )
 ;

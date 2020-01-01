@@ -186,7 +186,7 @@ Caption
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -300,7 +300,7 @@ aColIdx
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /

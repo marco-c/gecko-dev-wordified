@@ -201,7 +201,7 @@ void
 :
 fHashtable
 (
-nsnull
+nullptr
 )
 fCategoryCount
 (

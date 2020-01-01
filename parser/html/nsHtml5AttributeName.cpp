@@ -1138,7 +1138,7 @@ nsHtml5AttributeName
 :
 ATTR_D
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1147,7 +1147,7 @@ nsHtml5AttributeName
 :
 ATTR_K
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1156,7 +1156,7 @@ nsHtml5AttributeName
 :
 ATTR_R
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1165,7 +1165,7 @@ nsHtml5AttributeName
 :
 ATTR_X
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1174,7 +1174,7 @@ nsHtml5AttributeName
 :
 ATTR_Y
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1183,7 +1183,7 @@ nsHtml5AttributeName
 :
 ATTR_Z
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1192,7 +1192,7 @@ nsHtml5AttributeName
 :
 ATTR_BY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1201,7 +1201,7 @@ nsHtml5AttributeName
 :
 ATTR_CX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1210,7 +1210,7 @@ nsHtml5AttributeName
 :
 ATTR_CY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1219,7 +1219,7 @@ nsHtml5AttributeName
 :
 ATTR_DX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1228,7 +1228,7 @@ nsHtml5AttributeName
 :
 ATTR_DY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1237,7 +1237,7 @@ nsHtml5AttributeName
 :
 ATTR_G2
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1246,7 +1246,7 @@ nsHtml5AttributeName
 :
 ATTR_G1
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1255,7 +1255,7 @@ nsHtml5AttributeName
 :
 ATTR_FX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1264,7 +1264,7 @@ nsHtml5AttributeName
 :
 ATTR_FY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1273,7 +1273,7 @@ nsHtml5AttributeName
 :
 ATTR_K4
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1282,7 +1282,7 @@ nsHtml5AttributeName
 :
 ATTR_K2
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1291,7 +1291,7 @@ nsHtml5AttributeName
 :
 ATTR_K3
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1300,7 +1300,7 @@ nsHtml5AttributeName
 :
 ATTR_K1
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1309,7 +1309,7 @@ nsHtml5AttributeName
 :
 ATTR_ID
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1318,7 +1318,7 @@ nsHtml5AttributeName
 :
 ATTR_IN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1327,7 +1327,7 @@ nsHtml5AttributeName
 :
 ATTR_U2
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1336,7 +1336,7 @@ nsHtml5AttributeName
 :
 ATTR_U1
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1345,7 +1345,7 @@ nsHtml5AttributeName
 :
 ATTR_RT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1354,7 +1354,7 @@ nsHtml5AttributeName
 :
 ATTR_RX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1363,7 +1363,7 @@ nsHtml5AttributeName
 :
 ATTR_RY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1372,7 +1372,7 @@ nsHtml5AttributeName
 :
 ATTR_TO
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1381,7 +1381,7 @@ nsHtml5AttributeName
 :
 ATTR_Y2
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1390,7 +1390,7 @@ nsHtml5AttributeName
 :
 ATTR_Y1
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1399,7 +1399,7 @@ nsHtml5AttributeName
 :
 ATTR_X1
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1408,7 +1408,7 @@ nsHtml5AttributeName
 :
 ATTR_X2
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1417,7 +1417,7 @@ nsHtml5AttributeName
 :
 ATTR_ALT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1426,7 +1426,7 @@ nsHtml5AttributeName
 :
 ATTR_DIR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1435,7 +1435,7 @@ nsHtml5AttributeName
 :
 ATTR_DUR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1444,7 +1444,7 @@ nsHtml5AttributeName
 :
 ATTR_END
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1453,7 +1453,7 @@ nsHtml5AttributeName
 :
 ATTR_FOR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1462,7 +1462,7 @@ nsHtml5AttributeName
 :
 ATTR_IN2
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1471,7 +1471,7 @@ nsHtml5AttributeName
 :
 ATTR_MAX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1480,7 +1480,7 @@ nsHtml5AttributeName
 :
 ATTR_MIN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1489,7 +1489,7 @@ nsHtml5AttributeName
 :
 ATTR_LOW
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1498,7 +1498,7 @@ nsHtml5AttributeName
 :
 ATTR_REL
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1507,7 +1507,7 @@ nsHtml5AttributeName
 :
 ATTR_REV
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1516,7 +1516,7 @@ nsHtml5AttributeName
 :
 ATTR_SRC
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1525,7 +1525,7 @@ nsHtml5AttributeName
 :
 ATTR_AXIS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1534,7 +1534,7 @@ nsHtml5AttributeName
 :
 ATTR_ABBR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1543,7 +1543,7 @@ nsHtml5AttributeName
 :
 ATTR_BBOX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1552,7 +1552,7 @@ nsHtml5AttributeName
 :
 ATTR_CITE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1561,7 +1561,7 @@ nsHtml5AttributeName
 :
 ATTR_CODE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1570,7 +1570,7 @@ nsHtml5AttributeName
 :
 ATTR_BIAS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1579,7 +1579,7 @@ nsHtml5AttributeName
 :
 ATTR_COLS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1588,7 +1588,7 @@ nsHtml5AttributeName
 :
 ATTR_CLIP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1597,7 +1597,7 @@ nsHtml5AttributeName
 :
 ATTR_CHAR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1606,7 +1606,7 @@ nsHtml5AttributeName
 :
 ATTR_BASE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1615,7 +1615,7 @@ nsHtml5AttributeName
 :
 ATTR_EDGE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1624,7 +1624,7 @@ nsHtml5AttributeName
 :
 ATTR_DATA
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1633,7 +1633,7 @@ nsHtml5AttributeName
 :
 ATTR_FILL
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1642,7 +1642,7 @@ nsHtml5AttributeName
 :
 ATTR_FROM
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1651,7 +1651,7 @@ nsHtml5AttributeName
 :
 ATTR_FORM
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1660,7 +1660,7 @@ nsHtml5AttributeName
 :
 ATTR_FACE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1669,7 +1669,7 @@ nsHtml5AttributeName
 :
 ATTR_HIGH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1678,7 +1678,7 @@ nsHtml5AttributeName
 :
 ATTR_HREF
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1687,7 +1687,7 @@ nsHtml5AttributeName
 :
 ATTR_OPEN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1696,7 +1696,7 @@ nsHtml5AttributeName
 :
 ATTR_ICON
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1705,7 +1705,7 @@ nsHtml5AttributeName
 :
 ATTR_NAME
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1714,7 +1714,7 @@ nsHtml5AttributeName
 :
 ATTR_MODE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1723,7 +1723,7 @@ nsHtml5AttributeName
 :
 ATTR_MASK
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1732,7 +1732,7 @@ nsHtml5AttributeName
 :
 ATTR_LINK
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1741,7 +1741,7 @@ nsHtml5AttributeName
 :
 ATTR_LANG
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1750,7 +1750,7 @@ nsHtml5AttributeName
 :
 ATTR_LOOP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1759,7 +1759,7 @@ nsHtml5AttributeName
 :
 ATTR_LIST
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1768,7 +1768,7 @@ nsHtml5AttributeName
 :
 ATTR_TYPE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1777,7 +1777,7 @@ nsHtml5AttributeName
 :
 ATTR_WHEN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1786,7 +1786,7 @@ nsHtml5AttributeName
 :
 ATTR_WRAP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1795,7 +1795,7 @@ nsHtml5AttributeName
 :
 ATTR_TEXT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1804,7 +1804,7 @@ nsHtml5AttributeName
 :
 ATTR_PATH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1813,7 +1813,7 @@ nsHtml5AttributeName
 :
 ATTR_PING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1822,7 +1822,7 @@ nsHtml5AttributeName
 :
 ATTR_REFX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1831,7 +1831,7 @@ nsHtml5AttributeName
 :
 ATTR_REFY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1840,7 +1840,7 @@ nsHtml5AttributeName
 :
 ATTR_SIZE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1849,7 +1849,7 @@ nsHtml5AttributeName
 :
 ATTR_SEED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1858,7 +1858,7 @@ nsHtml5AttributeName
 :
 ATTR_ROWS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1867,7 +1867,7 @@ nsHtml5AttributeName
 :
 ATTR_SPAN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1876,7 +1876,7 @@ nsHtml5AttributeName
 :
 ATTR_STEP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1885,7 +1885,7 @@ nsHtml5AttributeName
 :
 ATTR_ROLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1894,7 +1894,7 @@ nsHtml5AttributeName
 :
 ATTR_XREF
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1903,7 +1903,7 @@ nsHtml5AttributeName
 :
 ATTR_ASYNC
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1912,7 +1912,7 @@ nsHtml5AttributeName
 :
 ATTR_ALINK
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1921,7 +1921,7 @@ nsHtml5AttributeName
 :
 ATTR_ALIGN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1930,7 +1930,7 @@ nsHtml5AttributeName
 :
 ATTR_CLOSE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1939,7 +1939,7 @@ nsHtml5AttributeName
 :
 ATTR_COLOR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1948,7 +1948,7 @@ nsHtml5AttributeName
 :
 ATTR_CLASS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1957,7 +1957,7 @@ nsHtml5AttributeName
 :
 ATTR_CLEAR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1966,7 +1966,7 @@ nsHtml5AttributeName
 :
 ATTR_BEGIN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1975,7 +1975,7 @@ nsHtml5AttributeName
 :
 ATTR_DEPTH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1984,7 +1984,7 @@ nsHtml5AttributeName
 :
 ATTR_DEFER
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -1993,7 +1993,7 @@ nsHtml5AttributeName
 :
 ATTR_FENCE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2002,7 +2002,7 @@ nsHtml5AttributeName
 :
 ATTR_FRAME
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2011,7 +2011,7 @@ nsHtml5AttributeName
 :
 ATTR_ISMAP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2020,7 +2020,7 @@ nsHtml5AttributeName
 :
 ATTR_ONEND
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2029,7 +2029,7 @@ nsHtml5AttributeName
 :
 ATTR_INDEX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2038,7 +2038,7 @@ nsHtml5AttributeName
 :
 ATTR_ORDER
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2047,7 +2047,7 @@ nsHtml5AttributeName
 :
 ATTR_OTHER
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2056,7 +2056,7 @@ nsHtml5AttributeName
 :
 ATTR_ONCUT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2065,7 +2065,7 @@ nsHtml5AttributeName
 :
 ATTR_NARGS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2074,7 +2074,7 @@ nsHtml5AttributeName
 :
 ATTR_MEDIA
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2083,7 +2083,7 @@ nsHtml5AttributeName
 :
 ATTR_LABEL
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2092,7 +2092,7 @@ nsHtml5AttributeName
 :
 ATTR_LOCAL
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2101,7 +2101,7 @@ nsHtml5AttributeName
 :
 ATTR_WIDTH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2110,7 +2110,7 @@ nsHtml5AttributeName
 :
 ATTR_TITLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2119,7 +2119,7 @@ nsHtml5AttributeName
 :
 ATTR_VLINK
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2128,7 +2128,7 @@ nsHtml5AttributeName
 :
 ATTR_VALUE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2137,7 +2137,7 @@ nsHtml5AttributeName
 :
 ATTR_SLOPE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2146,7 +2146,7 @@ nsHtml5AttributeName
 :
 ATTR_SHAPE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2155,7 +2155,7 @@ nsHtml5AttributeName
 :
 ATTR_SCOPE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2164,7 +2164,7 @@ nsHtml5AttributeName
 :
 ATTR_SCALE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2173,7 +2173,7 @@ nsHtml5AttributeName
 :
 ATTR_SPEED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2182,7 +2182,7 @@ nsHtml5AttributeName
 :
 ATTR_STYLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2191,7 +2191,7 @@ nsHtml5AttributeName
 :
 ATTR_RULES
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2200,7 +2200,7 @@ nsHtml5AttributeName
 :
 ATTR_STEMH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2209,7 +2209,7 @@ nsHtml5AttributeName
 :
 ATTR_STEMV
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2218,7 +2218,7 @@ nsHtml5AttributeName
 :
 ATTR_START
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2227,7 +2227,7 @@ nsHtml5AttributeName
 :
 ATTR_XMLNS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2236,7 +2236,7 @@ nsHtml5AttributeName
 :
 ATTR_ACCEPT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2245,7 +2245,7 @@ nsHtml5AttributeName
 :
 ATTR_ACCENT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2254,7 +2254,7 @@ nsHtml5AttributeName
 :
 ATTR_ASCENT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2263,7 +2263,7 @@ nsHtml5AttributeName
 :
 ATTR_ACTIVE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2272,7 +2272,7 @@ nsHtml5AttributeName
 :
 ATTR_ALTIMG
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2281,7 +2281,7 @@ nsHtml5AttributeName
 :
 ATTR_ACTION
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2290,7 +2290,7 @@ nsHtml5AttributeName
 :
 ATTR_BORDER
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2299,7 +2299,7 @@ nsHtml5AttributeName
 :
 ATTR_CURSOR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2308,7 +2308,7 @@ nsHtml5AttributeName
 :
 ATTR_COORDS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2317,7 +2317,7 @@ nsHtml5AttributeName
 :
 ATTR_FILTER
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2326,7 +2326,7 @@ nsHtml5AttributeName
 :
 ATTR_FORMAT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2335,7 +2335,7 @@ nsHtml5AttributeName
 :
 ATTR_HIDDEN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2344,7 +2344,7 @@ nsHtml5AttributeName
 :
 ATTR_HSPACE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2353,7 +2353,7 @@ nsHtml5AttributeName
 :
 ATTR_HEIGHT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2362,7 +2362,7 @@ nsHtml5AttributeName
 :
 ATTR_ONMOVE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2371,7 +2371,7 @@ nsHtml5AttributeName
 :
 ATTR_ONLOAD
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2380,7 +2380,7 @@ nsHtml5AttributeName
 :
 ATTR_ONDRAG
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2389,7 +2389,7 @@ nsHtml5AttributeName
 :
 ATTR_ORIGIN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2398,7 +2398,7 @@ nsHtml5AttributeName
 :
 ATTR_ONZOOM
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2407,7 +2407,7 @@ nsHtml5AttributeName
 :
 ATTR_ONHELP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2416,7 +2416,7 @@ nsHtml5AttributeName
 :
 ATTR_ONSTOP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2425,7 +2425,7 @@ nsHtml5AttributeName
 :
 ATTR_ONDROP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2434,7 +2434,7 @@ nsHtml5AttributeName
 :
 ATTR_ONBLUR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2443,7 +2443,7 @@ nsHtml5AttributeName
 :
 ATTR_OBJECT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2452,7 +2452,7 @@ nsHtml5AttributeName
 :
 ATTR_OFFSET
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2461,7 +2461,7 @@ nsHtml5AttributeName
 :
 ATTR_ORIENT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2470,7 +2470,7 @@ nsHtml5AttributeName
 :
 ATTR_ONCOPY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2479,7 +2479,7 @@ nsHtml5AttributeName
 :
 ATTR_NOWRAP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2488,7 +2488,7 @@ nsHtml5AttributeName
 :
 ATTR_NOHREF
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2497,7 +2497,7 @@ nsHtml5AttributeName
 :
 ATTR_MACROS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2506,7 +2506,7 @@ nsHtml5AttributeName
 :
 ATTR_METHOD
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2515,7 +2515,7 @@ nsHtml5AttributeName
 :
 ATTR_LOWSRC
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2524,7 +2524,7 @@ nsHtml5AttributeName
 :
 ATTR_LSPACE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2533,7 +2533,7 @@ nsHtml5AttributeName
 :
 ATTR_LQUOTE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2542,7 +2542,7 @@ nsHtml5AttributeName
 :
 ATTR_USEMAP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2551,7 +2551,7 @@ nsHtml5AttributeName
 :
 ATTR_WIDTHS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2560,7 +2560,7 @@ nsHtml5AttributeName
 :
 ATTR_TARGET
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2569,7 +2569,7 @@ nsHtml5AttributeName
 :
 ATTR_VALUES
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2578,7 +2578,7 @@ nsHtml5AttributeName
 :
 ATTR_VALIGN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2587,7 +2587,7 @@ nsHtml5AttributeName
 :
 ATTR_VSPACE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2596,7 +2596,7 @@ nsHtml5AttributeName
 :
 ATTR_POSTER
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2605,7 +2605,7 @@ nsHtml5AttributeName
 :
 ATTR_POINTS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2614,7 +2614,7 @@ nsHtml5AttributeName
 :
 ATTR_PROMPT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2623,7 +2623,7 @@ nsHtml5AttributeName
 :
 ATTR_SCOPED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2632,7 +2632,7 @@ nsHtml5AttributeName
 :
 ATTR_STRING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2641,7 +2641,7 @@ nsHtml5AttributeName
 :
 ATTR_SCHEME
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2650,7 +2650,7 @@ nsHtml5AttributeName
 :
 ATTR_STROKE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2659,7 +2659,7 @@ nsHtml5AttributeName
 :
 ATTR_RADIUS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2668,7 +2668,7 @@ nsHtml5AttributeName
 :
 ATTR_RESULT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2677,7 +2677,7 @@ nsHtml5AttributeName
 :
 ATTR_REPEAT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2686,7 +2686,7 @@ nsHtml5AttributeName
 :
 ATTR_RSPACE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2695,7 +2695,7 @@ nsHtml5AttributeName
 :
 ATTR_ROTATE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2704,7 +2704,7 @@ nsHtml5AttributeName
 :
 ATTR_RQUOTE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2713,7 +2713,7 @@ nsHtml5AttributeName
 :
 ATTR_ALTTEXT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2722,7 +2722,7 @@ nsHtml5AttributeName
 :
 ATTR_ARCHIVE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2731,7 +2731,7 @@ nsHtml5AttributeName
 :
 ATTR_AZIMUTH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2740,7 +2740,7 @@ nsHtml5AttributeName
 :
 ATTR_CLOSURE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2749,7 +2749,7 @@ nsHtml5AttributeName
 :
 ATTR_CHECKED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2758,7 +2758,7 @@ nsHtml5AttributeName
 :
 ATTR_CLASSID
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2767,7 +2767,7 @@ nsHtml5AttributeName
 :
 ATTR_CHAROFF
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2776,7 +2776,7 @@ nsHtml5AttributeName
 :
 ATTR_BGCOLOR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2785,7 +2785,7 @@ nsHtml5AttributeName
 :
 ATTR_COLSPAN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2794,7 +2794,7 @@ nsHtml5AttributeName
 :
 ATTR_CHARSET
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2803,7 +2803,7 @@ nsHtml5AttributeName
 :
 ATTR_COMPACT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2812,7 +2812,7 @@ nsHtml5AttributeName
 :
 ATTR_CONTENT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2821,7 +2821,7 @@ nsHtml5AttributeName
 :
 ATTR_ENCTYPE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2830,7 +2830,7 @@ nsHtml5AttributeName
 :
 ATTR_DATASRC
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2839,7 +2839,7 @@ nsHtml5AttributeName
 :
 ATTR_DATAFLD
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2848,7 +2848,7 @@ nsHtml5AttributeName
 :
 ATTR_DECLARE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2857,7 +2857,7 @@ nsHtml5AttributeName
 :
 ATTR_DISPLAY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2866,7 +2866,7 @@ nsHtml5AttributeName
 :
 ATTR_DIVISOR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2875,7 +2875,7 @@ nsHtml5AttributeName
 :
 ATTR_DEFAULT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2884,7 +2884,7 @@ nsHtml5AttributeName
 :
 ATTR_DESCENT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2893,7 +2893,7 @@ nsHtml5AttributeName
 :
 ATTR_KERNING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2902,7 +2902,7 @@ nsHtml5AttributeName
 :
 ATTR_HANGING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2911,7 +2911,7 @@ nsHtml5AttributeName
 :
 ATTR_HEADERS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2920,7 +2920,7 @@ nsHtml5AttributeName
 :
 ATTR_ONPASTE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2929,7 +2929,7 @@ nsHtml5AttributeName
 :
 ATTR_ONCLICK
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2938,7 +2938,7 @@ nsHtml5AttributeName
 :
 ATTR_OPTIMUM
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2947,7 +2947,7 @@ nsHtml5AttributeName
 :
 ATTR_ONBEGIN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2956,7 +2956,7 @@ nsHtml5AttributeName
 :
 ATTR_ONKEYUP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2965,7 +2965,7 @@ nsHtml5AttributeName
 :
 ATTR_ONFOCUS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2974,7 +2974,7 @@ nsHtml5AttributeName
 :
 ATTR_ONERROR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2983,7 +2983,7 @@ nsHtml5AttributeName
 :
 ATTR_ONINPUT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -2992,7 +2992,7 @@ nsHtml5AttributeName
 :
 ATTR_ONABORT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3001,7 +3001,7 @@ nsHtml5AttributeName
 :
 ATTR_ONSTART
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3010,7 +3010,7 @@ nsHtml5AttributeName
 :
 ATTR_ONRESET
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3019,7 +3019,7 @@ nsHtml5AttributeName
 :
 ATTR_OPACITY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3028,7 +3028,7 @@ nsHtml5AttributeName
 :
 ATTR_NOSHADE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3037,7 +3037,7 @@ nsHtml5AttributeName
 :
 ATTR_MINSIZE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3046,7 +3046,7 @@ nsHtml5AttributeName
 :
 ATTR_MAXSIZE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3055,7 +3055,7 @@ nsHtml5AttributeName
 :
 ATTR_LARGEOP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3064,7 +3064,7 @@ nsHtml5AttributeName
 :
 ATTR_UNICODE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3073,7 +3073,7 @@ nsHtml5AttributeName
 :
 ATTR_TARGETX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3082,7 +3082,7 @@ nsHtml5AttributeName
 :
 ATTR_TARGETY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3091,7 +3091,7 @@ nsHtml5AttributeName
 :
 ATTR_VIEWBOX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3100,7 +3100,7 @@ nsHtml5AttributeName
 :
 ATTR_VERSION
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3109,7 +3109,7 @@ nsHtml5AttributeName
 :
 ATTR_PATTERN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3118,7 +3118,7 @@ nsHtml5AttributeName
 :
 ATTR_PROFILE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3127,7 +3127,7 @@ nsHtml5AttributeName
 :
 ATTR_SPACING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3136,7 +3136,7 @@ nsHtml5AttributeName
 :
 ATTR_RESTART
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3145,7 +3145,7 @@ nsHtml5AttributeName
 :
 ATTR_ROWSPAN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3154,7 +3154,7 @@ nsHtml5AttributeName
 :
 ATTR_SANDBOX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3163,7 +3163,7 @@ nsHtml5AttributeName
 :
 ATTR_SUMMARY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3172,7 +3172,7 @@ nsHtml5AttributeName
 :
 ATTR_STANDBY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3181,7 +3181,7 @@ nsHtml5AttributeName
 :
 ATTR_REPLACE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3190,7 +3190,7 @@ nsHtml5AttributeName
 :
 ATTR_AUTOPLAY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3199,7 +3199,7 @@ nsHtml5AttributeName
 :
 ATTR_ADDITIVE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3208,7 +3208,7 @@ nsHtml5AttributeName
 :
 ATTR_CALCMODE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3217,7 +3217,7 @@ nsHtml5AttributeName
 :
 ATTR_CODETYPE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3226,7 +3226,7 @@ nsHtml5AttributeName
 :
 ATTR_CODEBASE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3235,7 +3235,7 @@ nsHtml5AttributeName
 :
 ATTR_CONTROLS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3244,7 +3244,7 @@ nsHtml5AttributeName
 :
 ATTR_BEVELLED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3253,7 +3253,7 @@ nsHtml5AttributeName
 :
 ATTR_BASELINE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3262,7 +3262,7 @@ nsHtml5AttributeName
 :
 ATTR_EXPONENT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3271,7 +3271,7 @@ nsHtml5AttributeName
 :
 ATTR_EDGEMODE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3280,7 +3280,7 @@ nsHtml5AttributeName
 :
 ATTR_ENCODING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3289,7 +3289,7 @@ nsHtml5AttributeName
 :
 ATTR_GLYPHREF
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3298,7 +3298,7 @@ nsHtml5AttributeName
 :
 ATTR_DATETIME
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3307,7 +3307,7 @@ nsHtml5AttributeName
 :
 ATTR_DISABLED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3316,7 +3316,7 @@ nsHtml5AttributeName
 :
 ATTR_FONTSIZE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3325,7 +3325,7 @@ nsHtml5AttributeName
 :
 ATTR_KEYTIMES
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3334,7 +3334,7 @@ nsHtml5AttributeName
 :
 ATTR_PANOSE_1
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3343,7 +3343,7 @@ nsHtml5AttributeName
 :
 ATTR_HREFLANG
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3352,7 +3352,7 @@ nsHtml5AttributeName
 :
 ATTR_ONRESIZE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3361,7 +3361,7 @@ nsHtml5AttributeName
 :
 ATTR_ONCHANGE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3370,7 +3370,7 @@ nsHtml5AttributeName
 :
 ATTR_ONBOUNCE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3379,7 +3379,7 @@ nsHtml5AttributeName
 :
 ATTR_ONUNLOAD
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3388,7 +3388,7 @@ nsHtml5AttributeName
 :
 ATTR_ONFINISH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3397,7 +3397,7 @@ nsHtml5AttributeName
 :
 ATTR_ONSCROLL
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3406,7 +3406,7 @@ nsHtml5AttributeName
 :
 ATTR_OPERATOR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3415,7 +3415,7 @@ nsHtml5AttributeName
 :
 ATTR_OVERFLOW
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3424,7 +3424,7 @@ nsHtml5AttributeName
 :
 ATTR_ONSUBMIT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3433,7 +3433,7 @@ nsHtml5AttributeName
 :
 ATTR_ONREPEAT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3442,7 +3442,7 @@ nsHtml5AttributeName
 :
 ATTR_ONSELECT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3451,7 +3451,7 @@ nsHtml5AttributeName
 :
 ATTR_NOTATION
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3460,7 +3460,7 @@ nsHtml5AttributeName
 :
 ATTR_NORESIZE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3469,7 +3469,7 @@ nsHtml5AttributeName
 :
 ATTR_MANIFEST
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3478,7 +3478,7 @@ nsHtml5AttributeName
 :
 ATTR_MATHSIZE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3487,7 +3487,7 @@ nsHtml5AttributeName
 :
 ATTR_MULTIPLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3496,7 +3496,7 @@ nsHtml5AttributeName
 :
 ATTR_LONGDESC
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3505,7 +3505,7 @@ nsHtml5AttributeName
 :
 ATTR_LANGUAGE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3514,7 +3514,7 @@ nsHtml5AttributeName
 :
 ATTR_TEMPLATE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3523,7 +3523,7 @@ nsHtml5AttributeName
 :
 ATTR_TABINDEX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3532,7 +3532,7 @@ nsHtml5AttributeName
 :
 ATTR_READONLY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3541,7 +3541,7 @@ nsHtml5AttributeName
 :
 ATTR_SELECTED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3550,7 +3550,7 @@ nsHtml5AttributeName
 :
 ATTR_ROWLINES
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3559,7 +3559,7 @@ nsHtml5AttributeName
 :
 ATTR_SEAMLESS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3568,7 +3568,7 @@ nsHtml5AttributeName
 :
 ATTR_ROWALIGN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3577,7 +3577,7 @@ nsHtml5AttributeName
 :
 ATTR_STRETCHY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3586,7 +3586,7 @@ nsHtml5AttributeName
 :
 ATTR_REQUIRED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3595,7 +3595,7 @@ nsHtml5AttributeName
 :
 ATTR_XML_BASE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3604,7 +3604,7 @@ nsHtml5AttributeName
 :
 ATTR_XML_LANG
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3613,7 +3613,7 @@ nsHtml5AttributeName
 :
 ATTR_X_HEIGHT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3622,7 +3622,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_OWNS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3631,7 +3631,7 @@ nsHtml5AttributeName
 :
 ATTR_AUTOFOCUS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3640,7 +3640,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_SORT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3649,7 +3649,7 @@ nsHtml5AttributeName
 :
 ATTR_ACCESSKEY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3658,7 +3658,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_BUSY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3667,7 +3667,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_GRAB
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3676,7 +3676,7 @@ nsHtml5AttributeName
 :
 ATTR_AMPLITUDE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3685,7 +3685,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_LIVE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3694,7 +3694,7 @@ nsHtml5AttributeName
 :
 ATTR_CLIP_RULE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3703,7 +3703,7 @@ nsHtml5AttributeName
 :
 ATTR_CLIP_PATH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3712,7 +3712,7 @@ nsHtml5AttributeName
 :
 ATTR_EQUALROWS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3721,7 +3721,7 @@ nsHtml5AttributeName
 :
 ATTR_ELEVATION
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3730,7 +3730,7 @@ nsHtml5AttributeName
 :
 ATTR_DIRECTION
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3739,7 +3739,7 @@ nsHtml5AttributeName
 :
 ATTR_DRAGGABLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3748,7 +3748,7 @@ nsHtml5AttributeName
 :
 ATTR_FILTERRES
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3757,7 +3757,7 @@ nsHtml5AttributeName
 :
 ATTR_FILL_RULE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3766,7 +3766,7 @@ nsHtml5AttributeName
 :
 ATTR_FONTSTYLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3775,7 +3775,7 @@ nsHtml5AttributeName
 :
 ATTR_FONT_SIZE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3784,7 +3784,7 @@ nsHtml5AttributeName
 :
 ATTR_KEYPOINTS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3793,7 +3793,7 @@ nsHtml5AttributeName
 :
 ATTR_HIDEFOCUS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3802,7 +3802,7 @@ nsHtml5AttributeName
 :
 ATTR_ONMESSAGE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3811,7 +3811,7 @@ nsHtml5AttributeName
 :
 ATTR_INTERCEPT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3820,7 +3820,7 @@ nsHtml5AttributeName
 :
 ATTR_ONDRAGEND
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3829,7 +3829,7 @@ nsHtml5AttributeName
 :
 ATTR_ONMOVEEND
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3838,7 +3838,7 @@ nsHtml5AttributeName
 :
 ATTR_ONINVALID
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3847,7 +3847,7 @@ nsHtml5AttributeName
 :
 ATTR_ONKEYDOWN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3856,7 +3856,7 @@ nsHtml5AttributeName
 :
 ATTR_ONFOCUSIN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3865,7 +3865,7 @@ nsHtml5AttributeName
 :
 ATTR_ONMOUSEUP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3874,7 +3874,7 @@ nsHtml5AttributeName
 :
 ATTR_INPUTMODE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3883,7 +3883,7 @@ nsHtml5AttributeName
 :
 ATTR_ONROWEXIT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3892,7 +3892,7 @@ nsHtml5AttributeName
 :
 ATTR_MATHCOLOR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3901,7 +3901,7 @@ nsHtml5AttributeName
 :
 ATTR_MASKUNITS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3910,7 +3910,7 @@ nsHtml5AttributeName
 :
 ATTR_MAXLENGTH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3919,7 +3919,7 @@ nsHtml5AttributeName
 :
 ATTR_LINEBREAK
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3928,7 +3928,7 @@ nsHtml5AttributeName
 :
 ATTR_TRANSFORM
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3937,7 +3937,7 @@ nsHtml5AttributeName
 :
 ATTR_V_HANGING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3946,7 +3946,7 @@ nsHtml5AttributeName
 :
 ATTR_VALUETYPE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3955,7 +3955,7 @@ nsHtml5AttributeName
 :
 ATTR_POINTSATZ
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3964,7 +3964,7 @@ nsHtml5AttributeName
 :
 ATTR_POINTSATX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3973,7 +3973,7 @@ nsHtml5AttributeName
 :
 ATTR_POINTSATY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3982,7 +3982,7 @@ nsHtml5AttributeName
 :
 ATTR_SYMMETRIC
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -3991,7 +3991,7 @@ nsHtml5AttributeName
 :
 ATTR_SCROLLING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4000,7 +4000,7 @@ nsHtml5AttributeName
 :
 ATTR_REPEATDUR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4009,7 +4009,7 @@ nsHtml5AttributeName
 :
 ATTR_SELECTION
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4018,7 +4018,7 @@ nsHtml5AttributeName
 :
 ATTR_SEPARATOR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4027,7 +4027,7 @@ nsHtml5AttributeName
 :
 ATTR_XML_SPACE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4036,7 +4036,7 @@ nsHtml5AttributeName
 :
 ATTR_AUTOSUBMIT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4045,7 +4045,7 @@ nsHtml5AttributeName
 :
 ATTR_ALPHABETIC
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4054,7 +4054,7 @@ nsHtml5AttributeName
 :
 ATTR_ACTIONTYPE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4063,7 +4063,7 @@ nsHtml5AttributeName
 :
 ATTR_ACCUMULATE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4072,7 +4072,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_LEVEL
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4081,7 +4081,7 @@ nsHtml5AttributeName
 :
 ATTR_COLUMNSPAN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4090,7 +4090,7 @@ nsHtml5AttributeName
 :
 ATTR_CAP_HEIGHT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4099,7 +4099,7 @@ nsHtml5AttributeName
 :
 ATTR_BACKGROUND
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4108,7 +4108,7 @@ nsHtml5AttributeName
 :
 ATTR_GLYPH_NAME
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4117,7 +4117,7 @@ nsHtml5AttributeName
 :
 ATTR_GROUPALIGN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4126,7 +4126,7 @@ nsHtml5AttributeName
 :
 ATTR_FONTFAMILY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4135,7 +4135,7 @@ nsHtml5AttributeName
 :
 ATTR_FONTWEIGHT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4144,7 +4144,7 @@ nsHtml5AttributeName
 :
 ATTR_FONT_STYLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4153,7 +4153,7 @@ nsHtml5AttributeName
 :
 ATTR_KEYSPLINES
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4162,7 +4162,7 @@ nsHtml5AttributeName
 :
 ATTR_HTTP_EQUIV
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4171,7 +4171,7 @@ nsHtml5AttributeName
 :
 ATTR_ONACTIVATE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4180,7 +4180,7 @@ nsHtml5AttributeName
 :
 ATTR_OCCURRENCE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4189,7 +4189,7 @@ nsHtml5AttributeName
 :
 ATTR_IRRELEVANT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4198,7 +4198,7 @@ nsHtml5AttributeName
 :
 ATTR_ONDBLCLICK
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4207,7 +4207,7 @@ nsHtml5AttributeName
 :
 ATTR_ONDRAGDROP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4216,7 +4216,7 @@ nsHtml5AttributeName
 :
 ATTR_ONKEYPRESS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4225,7 +4225,7 @@ nsHtml5AttributeName
 :
 ATTR_ONROWENTER
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4234,7 +4234,7 @@ nsHtml5AttributeName
 :
 ATTR_ONDRAGOVER
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4243,7 +4243,7 @@ nsHtml5AttributeName
 :
 ATTR_ONFOCUSOUT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4252,7 +4252,7 @@ nsHtml5AttributeName
 :
 ATTR_ONMOUSEOUT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4261,7 +4261,7 @@ nsHtml5AttributeName
 :
 ATTR_NUMOCTAVES
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4270,7 +4270,7 @@ nsHtml5AttributeName
 :
 ATTR_MARKER_MID
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4279,7 +4279,7 @@ nsHtml5AttributeName
 :
 ATTR_MARKER_END
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4288,7 +4288,7 @@ nsHtml5AttributeName
 :
 ATTR_TEXTLENGTH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4297,7 +4297,7 @@ nsHtml5AttributeName
 :
 ATTR_VISIBILITY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4306,7 +4306,7 @@ nsHtml5AttributeName
 :
 ATTR_VIEWTARGET
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4315,7 +4315,7 @@ nsHtml5AttributeName
 :
 ATTR_VERT_ADV_Y
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4324,7 +4324,7 @@ nsHtml5AttributeName
 :
 ATTR_PATHLENGTH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4333,7 +4333,7 @@ nsHtml5AttributeName
 :
 ATTR_REPEAT_MAX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4342,7 +4342,7 @@ nsHtml5AttributeName
 :
 ATTR_RADIOGROUP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4351,7 +4351,7 @@ nsHtml5AttributeName
 :
 ATTR_STOP_COLOR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4360,7 +4360,7 @@ nsHtml5AttributeName
 :
 ATTR_SEPARATORS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4369,7 +4369,7 @@ nsHtml5AttributeName
 :
 ATTR_REPEAT_MIN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4378,7 +4378,7 @@ nsHtml5AttributeName
 :
 ATTR_ROWSPACING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4387,7 +4387,7 @@ nsHtml5AttributeName
 :
 ATTR_ZOOMANDPAN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4396,7 +4396,7 @@ nsHtml5AttributeName
 :
 ATTR_XLINK_TYPE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4405,7 +4405,7 @@ nsHtml5AttributeName
 :
 ATTR_XLINK_ROLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4414,7 +4414,7 @@ nsHtml5AttributeName
 :
 ATTR_XLINK_HREF
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4423,7 +4423,7 @@ nsHtml5AttributeName
 :
 ATTR_XLINK_SHOW
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4432,7 +4432,7 @@ nsHtml5AttributeName
 :
 ATTR_ACCENTUNDER
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4441,7 +4441,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_SECRET
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4450,7 +4450,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_ATOMIC
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4459,7 +4459,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_HIDDEN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4468,7 +4468,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_FLOWTO
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4477,7 +4477,7 @@ nsHtml5AttributeName
 :
 ATTR_ARABIC_FORM
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4486,7 +4486,7 @@ nsHtml5AttributeName
 :
 ATTR_CELLPADDING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4495,7 +4495,7 @@ nsHtml5AttributeName
 :
 ATTR_CELLSPACING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4504,7 +4504,7 @@ nsHtml5AttributeName
 :
 ATTR_COLUMNWIDTH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4513,7 +4513,7 @@ nsHtml5AttributeName
 :
 ATTR_CROSSORIGIN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4522,7 +4522,7 @@ nsHtml5AttributeName
 :
 ATTR_COLUMNALIGN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4531,7 +4531,7 @@ nsHtml5AttributeName
 :
 ATTR_COLUMNLINES
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4540,7 +4540,7 @@ nsHtml5AttributeName
 :
 ATTR_CONTEXTMENU
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4549,7 +4549,7 @@ nsHtml5AttributeName
 :
 ATTR_BASEPROFILE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4558,7 +4558,7 @@ nsHtml5AttributeName
 :
 ATTR_FONT_FAMILY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4567,7 +4567,7 @@ nsHtml5AttributeName
 :
 ATTR_FRAMEBORDER
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4576,7 +4576,7 @@ nsHtml5AttributeName
 :
 ATTR_FILTERUNITS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4585,7 +4585,7 @@ nsHtml5AttributeName
 :
 ATTR_FLOOD_COLOR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4594,7 +4594,7 @@ nsHtml5AttributeName
 :
 ATTR_FONT_WEIGHT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4603,7 +4603,7 @@ nsHtml5AttributeName
 :
 ATTR_HORIZ_ADV_X
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4612,7 +4612,7 @@ nsHtml5AttributeName
 :
 ATTR_ONDRAGLEAVE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4621,7 +4621,7 @@ nsHtml5AttributeName
 :
 ATTR_ONMOUSEMOVE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4630,7 +4630,7 @@ nsHtml5AttributeName
 :
 ATTR_ORIENTATION
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4639,7 +4639,7 @@ nsHtml5AttributeName
 :
 ATTR_ONMOUSEDOWN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4648,7 +4648,7 @@ nsHtml5AttributeName
 :
 ATTR_ONMOUSEOVER
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4657,7 +4657,7 @@ nsHtml5AttributeName
 :
 ATTR_ONDRAGENTER
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4666,7 +4666,7 @@ nsHtml5AttributeName
 :
 ATTR_IDEOGRAPHIC
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4675,7 +4675,7 @@ nsHtml5AttributeName
 :
 ATTR_ONBEFORECUT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4684,7 +4684,7 @@ nsHtml5AttributeName
 :
 ATTR_ONFORMINPUT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4693,7 +4693,7 @@ nsHtml5AttributeName
 :
 ATTR_ONDRAGSTART
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4702,7 +4702,7 @@ nsHtml5AttributeName
 :
 ATTR_ONMOVESTART
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4711,7 +4711,7 @@ nsHtml5AttributeName
 :
 ATTR_MARKERUNITS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4720,7 +4720,7 @@ nsHtml5AttributeName
 :
 ATTR_MATHVARIANT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4729,7 +4729,7 @@ nsHtml5AttributeName
 :
 ATTR_MARGINWIDTH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4738,7 +4738,7 @@ nsHtml5AttributeName
 :
 ATTR_MARKERWIDTH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4747,7 +4747,7 @@ nsHtml5AttributeName
 :
 ATTR_TEXT_ANCHOR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4756,7 +4756,7 @@ nsHtml5AttributeName
 :
 ATTR_TABLEVALUES
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4765,7 +4765,7 @@ nsHtml5AttributeName
 :
 ATTR_SCRIPTLEVEL
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4774,7 +4774,7 @@ nsHtml5AttributeName
 :
 ATTR_REPEATCOUNT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4783,7 +4783,7 @@ nsHtml5AttributeName
 :
 ATTR_STITCHTILES
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4792,7 +4792,7 @@ nsHtml5AttributeName
 :
 ATTR_STARTOFFSET
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4801,7 +4801,7 @@ nsHtml5AttributeName
 :
 ATTR_SCROLLDELAY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4810,7 +4810,7 @@ nsHtml5AttributeName
 :
 ATTR_XMLNS_XLINK
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4819,7 +4819,7 @@ nsHtml5AttributeName
 :
 ATTR_XLINK_TITLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4828,7 +4828,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_INVALID
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4837,7 +4837,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_PRESSED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4846,7 +4846,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_CHECKED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4855,7 +4855,7 @@ nsHtml5AttributeName
 :
 ATTR_AUTOCOMPLETE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4864,7 +4864,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_SETSIZE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4873,7 +4873,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_CHANNEL
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4882,7 +4882,7 @@ nsHtml5AttributeName
 :
 ATTR_EQUALCOLUMNS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4891,7 +4891,7 @@ nsHtml5AttributeName
 :
 ATTR_DISPLAYSTYLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4900,7 +4900,7 @@ nsHtml5AttributeName
 :
 ATTR_DATAFORMATAS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4909,7 +4909,7 @@ nsHtml5AttributeName
 :
 ATTR_FILL_OPACITY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4918,7 +4918,7 @@ nsHtml5AttributeName
 :
 ATTR_FONT_VARIANT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4927,7 +4927,7 @@ nsHtml5AttributeName
 :
 ATTR_FONT_STRETCH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4936,7 +4936,7 @@ nsHtml5AttributeName
 :
 ATTR_FRAMESPACING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4945,7 +4945,7 @@ nsHtml5AttributeName
 :
 ATTR_KERNELMATRIX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4954,7 +4954,7 @@ nsHtml5AttributeName
 :
 ATTR_ONDEACTIVATE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4963,7 +4963,7 @@ nsHtml5AttributeName
 :
 ATTR_ONROWSDELETE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4972,7 +4972,7 @@ nsHtml5AttributeName
 :
 ATTR_ONMOUSELEAVE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4981,7 +4981,7 @@ nsHtml5AttributeName
 :
 ATTR_ONFORMCHANGE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4990,7 +4990,7 @@ nsHtml5AttributeName
 :
 ATTR_ONCELLCHANGE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -4999,7 +4999,7 @@ nsHtml5AttributeName
 :
 ATTR_ONMOUSEWHEEL
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5008,7 +5008,7 @@ nsHtml5AttributeName
 :
 ATTR_ONMOUSEENTER
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5017,7 +5017,7 @@ nsHtml5AttributeName
 :
 ATTR_ONAFTERPRINT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5026,7 +5026,7 @@ nsHtml5AttributeName
 :
 ATTR_ONBEFORECOPY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5035,7 +5035,7 @@ nsHtml5AttributeName
 :
 ATTR_MARGINHEIGHT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5044,7 +5044,7 @@ nsHtml5AttributeName
 :
 ATTR_MARKERHEIGHT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5053,7 +5053,7 @@ nsHtml5AttributeName
 :
 ATTR_MARKER_START
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5062,7 +5062,7 @@ nsHtml5AttributeName
 :
 ATTR_MATHEMATICAL
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5071,7 +5071,7 @@ nsHtml5AttributeName
 :
 ATTR_LENGTHADJUST
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5080,7 +5080,7 @@ nsHtml5AttributeName
 :
 ATTR_UNSELECTABLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5089,7 +5089,7 @@ nsHtml5AttributeName
 :
 ATTR_UNICODE_BIDI
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5098,7 +5098,7 @@ nsHtml5AttributeName
 :
 ATTR_UNITS_PER_EM
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5107,7 +5107,7 @@ nsHtml5AttributeName
 :
 ATTR_WORD_SPACING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5116,7 +5116,7 @@ nsHtml5AttributeName
 :
 ATTR_WRITING_MODE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5125,7 +5125,7 @@ nsHtml5AttributeName
 :
 ATTR_V_ALPHABETIC
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5134,7 +5134,7 @@ nsHtml5AttributeName
 :
 ATTR_PATTERNUNITS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5143,7 +5143,7 @@ nsHtml5AttributeName
 :
 ATTR_SPREADMETHOD
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5152,7 +5152,7 @@ nsHtml5AttributeName
 :
 ATTR_SURFACESCALE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5161,7 +5161,7 @@ nsHtml5AttributeName
 :
 ATTR_STROKE_WIDTH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5170,7 +5170,7 @@ nsHtml5AttributeName
 :
 ATTR_REPEAT_START
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5179,7 +5179,7 @@ nsHtml5AttributeName
 :
 ATTR_STDDEVIATION
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5188,7 +5188,7 @@ nsHtml5AttributeName
 :
 ATTR_STOP_OPACITY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5197,7 +5197,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_CONTROLS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5206,7 +5206,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_HASPOPUP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5215,7 +5215,7 @@ nsHtml5AttributeName
 :
 ATTR_ACCENT_HEIGHT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5224,7 +5224,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_VALUENOW
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5233,7 +5233,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_RELEVANT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5242,7 +5242,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_POSINSET
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5251,7 +5251,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_VALUEMAX
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5260,7 +5260,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_READONLY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5269,7 +5269,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_SELECTED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5278,7 +5278,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_REQUIRED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5287,7 +5287,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_EXPANDED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5296,7 +5296,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_DISABLED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5305,7 +5305,7 @@ nsHtml5AttributeName
 :
 ATTR_ATTRIBUTETYPE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5314,7 +5314,7 @@ nsHtml5AttributeName
 :
 ATTR_ATTRIBUTENAME
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5323,7 +5323,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_DATATYPE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5332,7 +5332,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_VALUEMIN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5341,7 +5341,7 @@ nsHtml5AttributeName
 :
 ATTR_BASEFREQUENCY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5350,7 +5350,7 @@ nsHtml5AttributeName
 :
 ATTR_COLUMNSPACING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5359,7 +5359,7 @@ nsHtml5AttributeName
 :
 ATTR_COLOR_PROFILE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5368,7 +5368,7 @@ nsHtml5AttributeName
 :
 ATTR_CLIPPATHUNITS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5377,7 +5377,7 @@ nsHtml5AttributeName
 :
 ATTR_DEFINITIONURL
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5386,7 +5386,7 @@ nsHtml5AttributeName
 :
 ATTR_GRADIENTUNITS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5395,7 +5395,7 @@ nsHtml5AttributeName
 :
 ATTR_FLOOD_OPACITY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5404,7 +5404,7 @@ nsHtml5AttributeName
 :
 ATTR_ONAFTERUPDATE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5413,7 +5413,7 @@ nsHtml5AttributeName
 :
 ATTR_ONERRORUPDATE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5422,7 +5422,7 @@ nsHtml5AttributeName
 :
 ATTR_ONBEFOREPASTE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5431,7 +5431,7 @@ nsHtml5AttributeName
 :
 ATTR_ONLOSECAPTURE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5440,7 +5440,7 @@ nsHtml5AttributeName
 :
 ATTR_ONCONTEXTMENU
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5449,7 +5449,7 @@ nsHtml5AttributeName
 :
 ATTR_ONSELECTSTART
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5458,7 +5458,7 @@ nsHtml5AttributeName
 :
 ATTR_ONBEFOREPRINT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5467,7 +5467,7 @@ nsHtml5AttributeName
 :
 ATTR_MOVABLELIMITS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5476,7 +5476,7 @@ nsHtml5AttributeName
 :
 ATTR_LINETHICKNESS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5485,7 +5485,7 @@ nsHtml5AttributeName
 :
 ATTR_UNICODE_RANGE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5494,7 +5494,7 @@ nsHtml5AttributeName
 :
 ATTR_THINMATHSPACE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5503,7 +5503,7 @@ nsHtml5AttributeName
 :
 ATTR_VERT_ORIGIN_X
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5512,7 +5512,7 @@ nsHtml5AttributeName
 :
 ATTR_VERT_ORIGIN_Y
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5521,7 +5521,7 @@ nsHtml5AttributeName
 :
 ATTR_V_IDEOGRAPHIC
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5530,7 +5530,7 @@ nsHtml5AttributeName
 :
 ATTR_PRESERVEALPHA
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5539,7 +5539,7 @@ nsHtml5AttributeName
 :
 ATTR_SCRIPTMINSIZE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5548,7 +5548,7 @@ nsHtml5AttributeName
 :
 ATTR_SPECIFICATION
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5557,7 +5557,7 @@ nsHtml5AttributeName
 :
 ATTR_XLINK_ACTUATE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5566,7 +5566,7 @@ nsHtml5AttributeName
 :
 ATTR_XLINK_ARCROLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5575,7 +5575,7 @@ nsHtml5AttributeName
 :
 ATTR_ACCEPT_CHARSET
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5584,7 +5584,7 @@ nsHtml5AttributeName
 :
 ATTR_ALIGNMENTSCOPE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5593,7 +5593,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_MULTILINE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5602,7 +5602,7 @@ nsHtml5AttributeName
 :
 ATTR_BASELINE_SHIFT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5611,7 +5611,7 @@ nsHtml5AttributeName
 :
 ATTR_HORIZ_ORIGIN_X
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5620,7 +5620,7 @@ nsHtml5AttributeName
 :
 ATTR_HORIZ_ORIGIN_Y
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5629,7 +5629,7 @@ nsHtml5AttributeName
 :
 ATTR_ONBEFOREUPDATE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5638,7 +5638,7 @@ nsHtml5AttributeName
 :
 ATTR_ONFILTERCHANGE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5647,7 +5647,7 @@ nsHtml5AttributeName
 :
 ATTR_ONROWSINSERTED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5656,7 +5656,7 @@ nsHtml5AttributeName
 :
 ATTR_ONBEFOREUNLOAD
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5665,7 +5665,7 @@ nsHtml5AttributeName
 :
 ATTR_MATHBACKGROUND
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5674,7 +5674,7 @@ nsHtml5AttributeName
 :
 ATTR_LETTER_SPACING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5683,7 +5683,7 @@ nsHtml5AttributeName
 :
 ATTR_LIGHTING_COLOR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5692,7 +5692,7 @@ nsHtml5AttributeName
 :
 ATTR_THICKMATHSPACE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5701,7 +5701,7 @@ nsHtml5AttributeName
 :
 ATTR_TEXT_RENDERING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5710,7 +5710,7 @@ nsHtml5AttributeName
 :
 ATTR_V_MATHEMATICAL
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5719,7 +5719,7 @@ nsHtml5AttributeName
 :
 ATTR_POINTER_EVENTS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5728,7 +5728,7 @@ nsHtml5AttributeName
 :
 ATTR_PRIMITIVEUNITS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5737,7 +5737,7 @@ nsHtml5AttributeName
 :
 ATTR_SYSTEMLANGUAGE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5746,7 +5746,7 @@ nsHtml5AttributeName
 :
 ATTR_STROKE_LINECAP
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5755,7 +5755,7 @@ nsHtml5AttributeName
 :
 ATTR_SUBSCRIPTSHIFT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5764,7 +5764,7 @@ nsHtml5AttributeName
 :
 ATTR_STROKE_OPACITY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5773,7 +5773,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_DROPEFFECT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5782,7 +5782,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_LABELLEDBY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5791,7 +5791,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_TEMPLATEID
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5800,7 +5800,7 @@ nsHtml5AttributeName
 :
 ATTR_COLOR_RENDERING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5809,7 +5809,7 @@ nsHtml5AttributeName
 :
 ATTR_CONTENTEDITABLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5818,7 +5818,7 @@ nsHtml5AttributeName
 :
 ATTR_DIFFUSECONSTANT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5827,7 +5827,7 @@ nsHtml5AttributeName
 :
 ATTR_ONDATAAVAILABLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5836,7 +5836,7 @@ nsHtml5AttributeName
 :
 ATTR_ONCONTROLSELECT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5845,7 +5845,7 @@ nsHtml5AttributeName
 :
 ATTR_IMAGE_RENDERING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5854,7 +5854,7 @@ nsHtml5AttributeName
 :
 ATTR_MEDIUMMATHSPACE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5863,7 +5863,7 @@ nsHtml5AttributeName
 :
 ATTR_TEXT_DECORATION
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5872,7 +5872,7 @@ nsHtml5AttributeName
 :
 ATTR_SHAPE_RENDERING
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5881,7 +5881,7 @@ nsHtml5AttributeName
 :
 ATTR_STROKE_LINEJOIN
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5890,7 +5890,7 @@ nsHtml5AttributeName
 :
 ATTR_REPEAT_TEMPLATE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5899,7 +5899,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_DESCRIBEDBY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5908,7 +5908,7 @@ nsHtml5AttributeName
 :
 ATTR_CONTENTSTYLETYPE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5917,7 +5917,7 @@ nsHtml5AttributeName
 :
 ATTR_FONT_SIZE_ADJUST
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5926,7 +5926,7 @@ nsHtml5AttributeName
 :
 ATTR_KERNELUNITLENGTH
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5935,7 +5935,7 @@ nsHtml5AttributeName
 :
 ATTR_ONBEFOREACTIVATE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5944,7 +5944,7 @@ nsHtml5AttributeName
 :
 ATTR_ONPROPERTYCHANGE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5953,7 +5953,7 @@ nsHtml5AttributeName
 :
 ATTR_ONDATASETCHANGED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5962,7 +5962,7 @@ nsHtml5AttributeName
 :
 ATTR_MASKCONTENTUNITS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5971,7 +5971,7 @@ nsHtml5AttributeName
 :
 ATTR_PATTERNTRANSFORM
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5980,7 +5980,7 @@ nsHtml5AttributeName
 :
 ATTR_REQUIREDFEATURES
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5989,7 +5989,7 @@ nsHtml5AttributeName
 :
 ATTR_RENDERING_INTENT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -5998,7 +5998,7 @@ nsHtml5AttributeName
 :
 ATTR_SPECULAREXPONENT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6007,7 +6007,7 @@ nsHtml5AttributeName
 :
 ATTR_SPECULARCONSTANT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6016,7 +6016,7 @@ nsHtml5AttributeName
 :
 ATTR_SUPERSCRIPTSHIFT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6025,7 +6025,7 @@ nsHtml5AttributeName
 :
 ATTR_STROKE_DASHARRAY
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6034,7 +6034,7 @@ nsHtml5AttributeName
 :
 ATTR_XCHANNELSELECTOR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6043,7 +6043,7 @@ nsHtml5AttributeName
 :
 ATTR_YCHANNELSELECTOR
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6052,7 +6052,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_AUTOCOMPLETE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6061,7 +6061,7 @@ nsHtml5AttributeName
 :
 ATTR_CONTENTSCRIPTTYPE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6070,7 +6070,7 @@ nsHtml5AttributeName
 :
 ATTR_ENABLE_BACKGROUND
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6079,7 +6079,7 @@ nsHtml5AttributeName
 :
 ATTR_DOMINANT_BASELINE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6088,7 +6088,7 @@ nsHtml5AttributeName
 :
 ATTR_GRADIENTTRANSFORM
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6097,7 +6097,7 @@ nsHtml5AttributeName
 :
 ATTR_ONBEFORDEACTIVATE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6106,7 +6106,7 @@ nsHtml5AttributeName
 :
 ATTR_ONDATASETCOMPLETE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6115,7 +6115,7 @@ nsHtml5AttributeName
 :
 ATTR_OVERLINE_POSITION
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6124,7 +6124,7 @@ nsHtml5AttributeName
 :
 ATTR_ONBEFOREEDITFOCUS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6133,7 +6133,7 @@ nsHtml5AttributeName
 :
 ATTR_LIMITINGCONEANGLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6142,7 +6142,7 @@ nsHtml5AttributeName
 :
 ATTR_VERYTHINMATHSPACE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6151,7 +6151,7 @@ nsHtml5AttributeName
 :
 ATTR_STROKE_DASHOFFSET
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6160,7 +6160,7 @@ nsHtml5AttributeName
 :
 ATTR_STROKE_MITERLIMIT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6169,7 +6169,7 @@ nsHtml5AttributeName
 :
 ATTR_ALIGNMENT_BASELINE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6178,7 +6178,7 @@ nsHtml5AttributeName
 :
 ATTR_ONREADYSTATECHANGE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6187,7 +6187,7 @@ nsHtml5AttributeName
 :
 ATTR_OVERLINE_THICKNESS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6196,7 +6196,7 @@ nsHtml5AttributeName
 :
 ATTR_UNDERLINE_POSITION
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6205,7 +6205,7 @@ nsHtml5AttributeName
 :
 ATTR_VERYTHICKMATHSPACE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6214,7 +6214,7 @@ nsHtml5AttributeName
 :
 ATTR_REQUIREDEXTENSIONS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6223,7 +6223,7 @@ nsHtml5AttributeName
 :
 ATTR_COLOR_INTERPOLATION
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6232,7 +6232,7 @@ nsHtml5AttributeName
 :
 ATTR_UNDERLINE_THICKNESS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6241,7 +6241,7 @@ nsHtml5AttributeName
 :
 ATTR_PRESERVEASPECTRATIO
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6250,7 +6250,7 @@ nsHtml5AttributeName
 :
 ATTR_PATTERNCONTENTUNITS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6259,7 +6259,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_MULTISELECTABLE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6268,7 +6268,7 @@ nsHtml5AttributeName
 :
 ATTR_SCRIPTSIZEMULTIPLIER
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6277,7 +6277,7 @@ nsHtml5AttributeName
 :
 ATTR_ARIA_ACTIVEDESCENDANT
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6286,7 +6286,7 @@ nsHtml5AttributeName
 :
 ATTR_VERYVERYTHINMATHSPACE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6295,7 +6295,7 @@ nsHtml5AttributeName
 :
 ATTR_VERYVERYTHICKMATHSPACE
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6304,7 +6304,7 @@ nsHtml5AttributeName
 :
 ATTR_STRIKETHROUGH_POSITION
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6313,7 +6313,7 @@ nsHtml5AttributeName
 :
 ATTR_STRIKETHROUGH_THICKNESS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6322,7 +6322,7 @@ nsHtml5AttributeName
 :
 ATTR_EXTERNALRESOURCESREQUIRED
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6331,7 +6331,7 @@ nsHtml5AttributeName
 :
 ATTR_GLYPH_ORIENTATION_VERTICAL
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6340,7 +6340,7 @@ nsHtml5AttributeName
 :
 ATTR_COLOR_INTERPOLATION_FILTERS
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -6349,7 +6349,7 @@ nsHtml5AttributeName
 :
 ATTR_GLYPH_ORIENTATION_HORIZONTAL
 =
-nsnull
+nullptr
 ;
 nsHtml5AttributeName
 *
@@ -7107,21 +7107,21 @@ ALL_NO_PREFIX
 0
 ]
 =
-nsnull
+nullptr
 ;
 ALL_NO_PREFIX
 [
 1
 ]
 =
-nsnull
+nullptr
 ;
 ALL_NO_PREFIX
 [
 2
 ]
 =
-nsnull
+nullptr
 ;
 XMLNS_PREFIX
 =
@@ -7137,7 +7137,7 @@ XMLNS_PREFIX
 0
 ]
 =
-nsnull
+nullptr
 ;
 XMLNS_PREFIX
 [
@@ -7173,7 +7173,7 @@ XLINK_PREFIX
 0
 ]
 =
-nsnull
+nullptr
 ;
 XLINK_PREFIX
 [
@@ -7209,7 +7209,7 @@ XML_PREFIX
 0
 ]
 =
-nsnull
+nullptr
 ;
 XML_PREFIX
 [

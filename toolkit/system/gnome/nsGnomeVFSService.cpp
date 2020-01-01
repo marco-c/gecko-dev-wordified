@@ -554,7 +554,7 @@ aSchemes
 *
 aSchemes
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -771,7 +771,7 @@ aApp
 *
 aApp
 =
-nsnull
+nullptr
 ;
 GnomeVFSMimeApplication
 *

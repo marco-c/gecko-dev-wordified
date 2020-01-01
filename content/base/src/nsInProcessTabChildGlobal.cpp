@@ -361,7 +361,7 @@ owner
 aMessage
 true
 aJSON
-nsnull
+nullptr
 aJSONRetVal
 )
 ;
@@ -453,8 +453,8 @@ mOwner
 mMessage
 false
 mJSON
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -706,9 +706,9 @@ nsFrameMessageManager
 false
 SendSyncMessageToParent
 SendAsyncMessageToParent
-nsnull
+nullptr
 this
-nsnull
+nullptr
 mCx
 )
 ;
@@ -889,7 +889,7 @@ aContent
 *
 aContent
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1075,7 +1075,7 @@ event
 escape
 mOwner
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1097,8 +1097,8 @@ getter_AddRefs
 (
 event
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -1193,11 +1193,11 @@ GetChromeEventHandler
 }
 mDocShell
 =
-nsnull
+nullptr
 ;
 mChromeMessageManager
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1224,7 +1224,7 @@ Disconnect
 ;
 mMessageManager
 =
-nsnull
+nullptr
 ;
 }
 if

@@ -238,7 +238,7 @@ Transport
 :
 :
 MODE_SERVER
-nsnull
+nullptr
 )
 ;
 int
@@ -395,7 +395,7 @@ mFd
 .
 fd
 aMode
-nsnull
+nullptr
 )
 ;
 }

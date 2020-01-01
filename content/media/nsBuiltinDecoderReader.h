@@ -912,7 +912,7 @@ video
 data
 .
 Returns
-nsnull
+nullptr
 if
 an
 error
@@ -1410,7 +1410,7 @@ anObject
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -2799,7 +2799,7 @@ mImage
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -2875,7 +2875,7 @@ GetDataSize
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 PRInt64
@@ -2968,7 +2968,7 @@ AudioDataValue
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 PRInt64

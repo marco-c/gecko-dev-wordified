@@ -679,11 +679,11 @@ mozHunspell
 :
 mHunspell
 (
-nsnull
+nullptr
 )
 mHunspellReporter
 (
-nsnull
+nullptr
 )
 {
 }

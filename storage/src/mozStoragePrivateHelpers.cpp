@@ -712,7 +712,7 @@ aValue
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 new
@@ -802,7 +802,7 @@ obj
 )
 )
 return
-nsnull
+nullptr
 ;
 double
 msecd
@@ -840,7 +840,7 @@ msec
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 namespace

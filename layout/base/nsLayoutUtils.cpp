@@ -1612,7 +1612,7 @@ content
 else
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -2171,7 +2171,7 @@ lastChildFrame
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2585,7 +2585,7 @@ nsIFrame
 kPopupList
 )
 :
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -2918,7 +2918,7 @@ firstFrame
 &
 IsGeneratedContentFor
 (
-nsnull
+nullptr
 firstFrame
 nsCSSPseudoElements
 :
@@ -2932,7 +2932,7 @@ firstFrame
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2982,7 +2982,7 @@ lastFrame
 &
 IsGeneratedContentFor
 (
-nsnull
+nullptr
 lastFrame
 nsCSSPseudoElements
 :
@@ -2996,7 +2996,7 @@ lastFrame
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3056,7 +3056,7 @@ frame
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3208,7 +3208,7 @@ outOfFlowFrame
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3425,7 +3425,7 @@ if
 v
 )
 return
-nsnull
+nullptr
 ;
 v
 =
@@ -3447,7 +3447,7 @@ if
 v
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -3491,7 +3491,7 @@ GetFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -3813,7 +3813,7 @@ null
 .
 aCommonAncestor
 =
-nsnull
+nullptr
 ;
 }
 nsAutoTArray
@@ -3902,7 +3902,7 @@ aContent1
 aContent2
 aIf1Ancestor
 aIf2Ancestor
-nsnull
+nullptr
 )
 ;
 }
@@ -3932,13 +3932,13 @@ nsINode
 *
 content1Ancestor
 =
-nsnull
+nullptr
 ;
 nsINode
 *
 content2Ancestor
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -4435,7 +4435,7 @@ is
 wrong
 aCommonAncestor
 =
-nsnull
+nullptr
 ;
 }
 nsAutoTArray
@@ -4493,7 +4493,7 @@ aFrame1
 aFrame2
 aIf1Ancestor
 aIf2Ancestor
-nsnull
+nullptr
 )
 ;
 }
@@ -4721,7 +4721,7 @@ aFrame
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -4742,7 +4742,7 @@ GetNextSibling
 )
 !
 =
-nsnull
+nullptr
 )
 {
 aFrame
@@ -4796,7 +4796,7 @@ GetContent
 (
 )
 :
-nsnull
+nullptr
 ;
 for
 (
@@ -4995,7 +4995,7 @@ insertBefore
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -5031,7 +5031,7 @@ frame
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIScrollableFrame
@@ -5191,7 +5191,7 @@ f
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -5399,7 +5399,7 @@ rootScrollFrame
 GetContent
 (
 )
-nsnull
+nullptr
 )
 )
 return
@@ -5601,7 +5601,7 @@ scrollableFrame
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -5704,7 +5704,7 @@ scrollableFrame
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -5781,7 +5781,7 @@ return
 pseudoContext
 !
 =
-nsnull
+nullptr
 ;
 }
 nsPoint
@@ -6495,7 +6495,7 @@ pm
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsTArray
@@ -6593,7 +6593,7 @@ popup
 #
 endif
 return
-nsnull
+nullptr
 ;
 }
 gfx3DMatrix
@@ -7495,7 +7495,7 @@ TransformGfxPointFromAncestor
 (
 aFrame
 result
-nsnull
+nullptr
 )
 ;
 return
@@ -8368,7 +8368,7 @@ aIgnoreRootScrollFrame
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -8385,7 +8385,7 @@ ElementAt
 0
 )
 :
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -9339,7 +9339,7 @@ if
 nextPageFrame
 )
 return
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -9910,7 +9910,7 @@ GetCurrentDoc
 (
 )
 :
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -10410,7 +10410,7 @@ page
 )
 !
 =
-nsnull
+nullptr
 )
 {
 SAMPLE_LABEL
@@ -10492,7 +10492,7 @@ GetNextContinuation
 )
 !
 =
-nsnull
+nullptr
 )
 {
 SAMPLE_LABEL
@@ -13360,7 +13360,7 @@ block
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -13647,7 +13647,7 @@ value
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -20027,7 +20027,7 @@ AppUnitsPerDevPixel
 )
 aDestCtx
 aDirtyRect
-nsnull
+nullptr
 )
 ;
 if
@@ -25674,7 +25674,7 @@ aWindow
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -25782,7 +25782,7 @@ to
 go
 on
 return
-nsnull
+nullptr
 ;
 }
 win
@@ -25872,7 +25872,7 @@ parentItem
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -26796,7 +26796,7 @@ rv
 )
 surf
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -26822,7 +26822,7 @@ SurfaceTypeImage
 )
 surf
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -27495,7 +27495,7 @@ NODE_IS_EDITABLE
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -27562,7 +27562,7 @@ domHTMLDoc
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 Element
@@ -27678,7 +27678,7 @@ content
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #

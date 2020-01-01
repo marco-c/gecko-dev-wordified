@@ -177,7 +177,7 @@ struct
 fields
 window
 =
-nsnull
+nullptr
 ;
 x
 =
@@ -221,7 +221,7 @@ XP_MACOSX
 )
 ws_info
 =
-nsnull
+nullptr
 ;
 #
 endif

@@ -679,7 +679,7 @@ aNode
 aRoot
 )
 return
-nsnull
+nullptr
 ;
 next
 =
@@ -740,7 +740,7 @@ aRoot
 next
 )
 return
-nsnull
+nullptr
 ;
 aNode
 =
@@ -1774,7 +1774,7 @@ mNextWordIndex
 *
 aRange
 =
-nsnull
+nullptr
 ;
 *
 aSkipChecking
@@ -3956,7 +3956,7 @@ mSoftTextValid
 return
 NodeOffset
 (
-nsnull
+nullptr
 -
 1
 )
@@ -4064,7 +4064,7 @@ end
 return
 NodeOffset
 (
-nsnull
+nullptr
 -
 1
 )
@@ -4286,7 +4286,7 @@ offset
 return
 NodeOffset
 (
-nsnull
+nullptr
 -
 1
 )

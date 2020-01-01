@@ -645,7 +645,7 @@ nsString
 *
 aLanguageOverride
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -690,7 +690,7 @@ nsString
 *
 aLanguageOverride
 =
-nsnull
+nullptr
 )
 ;
 /

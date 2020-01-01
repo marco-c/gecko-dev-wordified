@@ -1089,7 +1089,7 @@ buf
 )
 !
 =
-nsnull
+nullptr
 )
 *
 p

@@ -672,7 +672,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -693,7 +693,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -714,7 +714,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -735,7 +735,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1632,7 +1632,7 @@ nsThread
 Init
 event
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1886,7 +1886,7 @@ self
 >
 SetObserver
 (
-nsnull
+nullptr
 )
 ;
 NS_RELEASE
@@ -1999,7 +1999,7 @@ PRIORITY_NORMAL
 )
 mThread
 (
-nsnull
+nullptr
 )
 mRunningEvent
 (
@@ -2011,7 +2011,7 @@ aStackSize
 )
 mShutdownContext
 (
-nsnull
+nullptr
 )
 mShutdownRequired
 (
@@ -3049,7 +3049,7 @@ mThread
 ;
 mThread
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -3153,7 +3153,7 @@ mEvents
 GetEvent
 (
 false
-nsnull
+nullptr
 )
 ;
 return
@@ -3644,7 +3644,7 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 memory
 -
@@ -3919,7 +3919,7 @@ get
 )
 !
 =
-nsnull
+nullptr
 )
 ;
 if
@@ -4680,7 +4680,7 @@ Run
 ;
 mSyncTask
 =
-nsnull
+nullptr
 ;
 /
 /

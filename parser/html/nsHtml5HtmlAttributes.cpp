@@ -416,7 +416,7 @@ nsHtml5HtmlAttributes
 :
 EMPTY_ATTRIBUTES
 =
-nsnull
+nullptr
 ;
 nsHtml5HtmlAttributes
 :
@@ -591,7 +591,7 @@ mode
 else
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -629,7 +629,7 @@ index
 else
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -716,7 +716,7 @@ mode
 else
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -754,7 +754,7 @@ index
 else
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -788,7 +788,7 @@ index
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 else
@@ -968,7 +968,7 @@ names
 i
 ]
 =
-nsnull
+nullptr
 ;
 nsHtml5Portability
 :
@@ -986,7 +986,7 @@ values
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 length
@@ -1049,14 +1049,14 @@ names
 i
 ]
 =
-nsnull
+nullptr
 ;
 values
 [
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 length

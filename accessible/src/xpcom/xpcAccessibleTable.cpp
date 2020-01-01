@@ -173,7 +173,7 @@ aCaption
 *
 aCaption
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -310,7 +310,7 @@ aCell
 *
 aCell
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1211,7 +1211,7 @@ aSelectedCells
 *
 aSelectedCells
 =
-nsnull
+nullptr
 ;
 if
 (

@@ -315,7 +315,7 @@ nsFloatCacheList
 :
 mHead
 (
-nsnull
+nullptr
 )
 {
 }
@@ -333,7 +333,7 @@ IsEmpty
 const
 {
 return
-nsnull
+nullptr
 =
 =
 mHead
@@ -346,7 +346,7 @@ NotEmpty
 const
 {
 return
-nsnull
+nullptr
 !
 =
 mHead
@@ -488,7 +488,7 @@ was
 before
 aElement
 or
-nsnull
+nullptr
 if
 aElement
 was
@@ -590,7 +590,7 @@ nsFloatCacheFreeList
 :
 mTail
 (
-nsnull
+nullptr
 )
 {
 }
@@ -614,7 +614,7 @@ IsEmpty
 const
 {
 return
-nsnull
+nullptr
 =
 =
 mHead
@@ -649,7 +649,7 @@ NotEmpty
 const
 {
 return
-nsnull
+nullptr
 !
 =
 mHead
@@ -6666,7 +6666,7 @@ _mNext
 >
 _mNext
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -6677,7 +6677,7 @@ _mNext
 >
 _mPrev
 =
-nsnull
+nullptr
 ;
 mLink
 .
@@ -6783,7 +6783,7 @@ _mPrev
 >
 _mPrev
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -6794,7 +6794,7 @@ _mPrev
 >
 _mNext
 =
-nsnull
+nullptr
 ;
 mLink
 .
@@ -8215,7 +8215,7 @@ mIndex
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -8244,7 +8244,7 @@ mNumLines
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -8282,7 +8282,7 @@ mNumLines
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

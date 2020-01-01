@@ -169,7 +169,7 @@ NS_ASSERTION
 mSurface
 =
 =
-nsnull
+nullptr
 "
 BasicCanvasLayer
 :
@@ -201,7 +201,7 @@ aData
 mGLContext
 =
 =
-nsnull
+nullptr
 &
 &
 !
@@ -373,7 +373,7 @@ aData
 mGLContext
 =
 =
-nsnull
+nullptr
 &
 &
 aData
@@ -381,7 +381,7 @@ aData
 mSurface
 =
 =
-nsnull
+nullptr
 "
 CanvasLayer
 can
@@ -582,7 +582,7 @@ GetD3DShareHandle
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -1029,7 +1029,7 @@ tmpSurface
 ;
 tmpSurface
 =
-nsnull
+nullptr
 ;
 /
 /

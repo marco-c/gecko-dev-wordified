@@ -999,7 +999,7 @@ ItemAt
 mListIndex
 )
 =
-nsnull
+nullptr
 ;
 }
 }

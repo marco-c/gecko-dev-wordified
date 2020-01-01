@@ -144,9 +144,9 @@ aAccessible
 :
 RootAccessible
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 {
 /
@@ -201,6 +201,6 @@ mAtkObject
 ;
 mAtkObject
 =
-nsnull
+nullptr
 ;
 }

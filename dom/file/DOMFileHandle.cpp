@@ -231,7 +231,7 @@ mName
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 newFile
@@ -311,7 +311,7 @@ DEFER_OPEN
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -350,7 +350,7 @@ DEFER_OPEN
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return

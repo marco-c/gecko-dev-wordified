@@ -377,7 +377,7 @@ JS_NewArrayObject
 (
 aCx
 0
-nsnull
+nullptr
 )
 ;
 }
@@ -541,11 +541,11 @@ Telephony
 :
 mActiveCall
 (
-nsnull
+nullptr
 )
 mCallsArray
 (
-nsnull
+nullptr
 )
 mRooted
 (
@@ -662,7 +662,7 @@ gTelephonyList
 ;
 gTelephonyList
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -731,7 +731,7 @@ aOwner
 NS_ENSURE_TRUE
 (
 sgo
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -750,7 +750,7 @@ GetContext
 NS_ENSURE_TRUE
 (
 scriptContext
-nsnull
+nullptr
 )
 ;
 nsRefPtr
@@ -807,7 +807,7 @@ mRILTelephonyCallback
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 rv
@@ -826,7 +826,7 @@ mRILTelephonyCallback
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -1409,14 +1409,14 @@ tmp
 >
 mActiveCall
 =
-nsnull
+nullptr
 ;
 tmp
 -
 >
 mCallsArray
 =
-nsnull
+nullptr
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
@@ -2151,7 +2151,7 @@ tempCall
 ;
 outgoingCall
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -2264,7 +2264,7 @@ CALL_STATE_DISCONNECTED
 {
 mActiveCall
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -2295,7 +2295,7 @@ aCallIndex
 {
 mActiveCall
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2813,7 +2813,7 @@ CallIndex
 {
 mActiveCall
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -2920,7 +2920,7 @@ allowed
 *
 aTelephony
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

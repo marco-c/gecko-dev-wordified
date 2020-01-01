@@ -612,7 +612,7 @@ sInstance
 ;
 sInstance
 =
-nsnull
+nullptr
 ;
 }
 private

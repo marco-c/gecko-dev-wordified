@@ -323,13 +323,13 @@ unitMap
 ]
 =
 {
-nsnull
+nullptr
 /
 *
 SVG_LENGTHTYPE_UNKNOWN
 *
 /
-nsnull
+nullptr
 /
 *
 SVG_LENGTHTYPE_NUMBER

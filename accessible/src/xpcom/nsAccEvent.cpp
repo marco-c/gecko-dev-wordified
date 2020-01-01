@@ -352,7 +352,7 @@ aAccessible
 *
 aAccessible
 =
-nsnull
+nullptr
 ;
 NS_IF_ADDREF
 (
@@ -391,7 +391,7 @@ aDOMNode
 *
 aDOMNode
 =
-nsnull
+nullptr
 ;
 nsINode
 *

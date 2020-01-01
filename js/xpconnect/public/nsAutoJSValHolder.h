@@ -175,7 +175,7 @@ JSVAL_NULL
 )
 mRt
 (
-nsnull
+nullptr
 )
 {
 /
@@ -395,7 +395,7 @@ mVal
 ;
 mRt
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -472,7 +472,7 @@ mVal
 infallible
 mRt
 =
-nsnull
+nullptr
 ;
 }
 mVal
@@ -540,7 +540,7 @@ toObject
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 jsval

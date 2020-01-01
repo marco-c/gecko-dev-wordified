@@ -596,7 +596,7 @@ data
 .
 state
 =
-nsnull
+nullptr
 ;
 }
 }

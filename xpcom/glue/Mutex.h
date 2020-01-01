@@ -264,7 +264,7 @@ lock
 returns
 If
 failure
-nsnull
+nullptr
 *
 If
 success

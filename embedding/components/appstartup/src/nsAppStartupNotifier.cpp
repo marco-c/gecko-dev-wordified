@@ -480,9 +480,9 @@ startupObserver
 >
 Observe
 (
-nsnull
+nullptr
 aTopic
-nsnull
+nullptr
 )
 ;
 /

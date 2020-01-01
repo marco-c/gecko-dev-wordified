@@ -1116,7 +1116,7 @@ nsDocument
 :
 sFullScreenDoc
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1147,7 +1147,7 @@ nsDocument
 :
 sFullScreenRootDoc
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -1531,7 +1531,7 @@ Count
 {
 mChangeCallbacks
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1747,7 +1747,7 @@ mIdContentList
 .
 IndexOf
 (
-nsnull
+nullptr
 )
 <
 0
@@ -1819,7 +1819,7 @@ NS_ASSERTION
 currentElement
 =
 =
-nsnull
+nullptr
 "
 How
 did
@@ -1831,7 +1831,7 @@ happen
 ;
 FireChangeCallbacks
 (
-nsnull
+nullptr
 aElement
 )
 ;
@@ -2506,7 +2506,7 @@ aSubDoc
 )
 mResult
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2898,7 +2898,7 @@ GetNumberOfStyleSheets
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIStyleSheet
@@ -2960,7 +2960,7 @@ sheet
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2988,7 +2988,7 @@ aNode
 {
 mDocument
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -3229,7 +3229,7 @@ aLoadGroup
 *
 aLoadGroup
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3460,7 +3460,7 @@ node
 *
 aPendingLoad
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3468,7 +3468,7 @@ mHaveShutDown
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3516,7 +3516,7 @@ clone
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 ExternalResource
@@ -3574,7 +3574,7 @@ aPendingLoad
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 load
@@ -3642,8 +3642,8 @@ etc
 AddExternalResource
 (
 clone
-nsnull
-nsnull
+nullptr
+nullptr
 aDisplayDocument
 )
 ;
@@ -3659,7 +3659,7 @@ aPendingLoad
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 struct
@@ -3991,7 +3991,7 @@ mMap
 EnumerateRead
 (
 ExternalResourceHider
-nsnull
+nullptr
 )
 ;
 }
@@ -4049,7 +4049,7 @@ mMap
 EnumerateRead
 (
 ExternalResourceShower
-nsnull
+nullptr
 )
 ;
 }
@@ -4177,7 +4177,7 @@ fromCtxt
 >
 MinFontSize
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -4240,7 +4240,7 @@ aToDoc
 OnPageShow
 (
 true
-nsnull
+nullptr
 )
 ;
 }
@@ -4433,7 +4433,7 @@ aViewer
 >
 Init
 (
-nsnull
+nullptr
 nsIntRect
 (
 0
@@ -4458,8 +4458,8 @@ aViewer
 >
 Open
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -4474,15 +4474,15 @@ rv
 {
 doc
 =
-nsnull
+nullptr
 ;
 aViewer
 =
-nsnull
+nullptr
 ;
 aLoadGroup
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4598,7 +4598,7 @@ document
 -
 created
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -4729,7 +4729,7 @@ rv2
 {
 mTargetListener
 =
-nsnull
+nullptr
 ;
 return
 rv2
@@ -4783,12 +4783,12 @@ OnStartRequest
 *
 aViewer
 =
-nsnull
+nullptr
 ;
 *
 aLoadGroup
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -5077,8 +5077,8 @@ type
 get
 (
 )
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 listener
@@ -5541,7 +5541,7 @@ EmptyCString
 /
 mime
 guess
-nsnull
+nullptr
 /
 /
 extra
@@ -5647,7 +5647,7 @@ getter_AddRefs
 channel
 )
 aURI
-nsnull
+nullptr
 loadGroup
 req
 )
@@ -5669,7 +5669,7 @@ channel
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 }
@@ -5898,7 +5898,7 @@ aSink
 *
 aSink
 =
-nsnull
+nullptr
 ;
 TRY_SHIM
 (
@@ -5956,7 +5956,7 @@ mViewer
 >
 Close
 (
-nsnull
+nullptr
 )
 ;
 mViewer
@@ -6161,7 +6161,7 @@ Disconnect
 {
 mDocument
 =
-nsnull
+nullptr
 ;
 }
 protected
@@ -6933,7 +6933,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_STATE
 (
@@ -7035,7 +7035,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -7277,7 +7277,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_STATE
 (
@@ -7859,7 +7859,7 @@ nsIDocument
 :
 nsINode
 (
-nsnull
+nullptr
 )
 mCharacterSet
 (
@@ -7876,7 +7876,7 @@ ISO
 )
 mNodeInfoManager
 (
-nsnull
+nullptr
 )
 mCompatMode
 (
@@ -8278,7 +8278,7 @@ Disconnect
 }
 mParentDocument
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -8310,7 +8310,7 @@ mSubDocuments
 ;
 mSubDocuments
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -8400,11 +8400,11 @@ indx
 }
 mFirstChild
 =
-nsnull
+nullptr
 ;
 mCachedRootElement
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -8443,7 +8443,7 @@ indx
 >
 SetOwningDocument
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -8473,7 +8473,7 @@ indx
 >
 SetOwningDocument
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -8487,7 +8487,7 @@ mAttrStyleSheet
 >
 SetOwningDocument
 (
-nsnull
+nullptr
 )
 ;
 NS_RELEASE
@@ -8505,7 +8505,7 @@ mStyleAttrStyleSheet
 >
 SetOwningDocument
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -8577,7 +8577,7 @@ mBoxObjectTable
 EnumerateRead
 (
 ClearAllBoxObjects
-nsnull
+nullptr
 )
 ;
 delete
@@ -10010,7 +10010,7 @@ tmp
 >
 mFirstChild
 =
-nsnull
+nullptr
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
@@ -10021,7 +10021,7 @@ tmp
 >
 mCachedRootElement
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -10058,7 +10058,7 @@ tmp
 >
 mParentDocument
 =
-nsnull
+nullptr
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMARRAY
 (
@@ -10081,7 +10081,7 @@ mBoxObjectTable
 EnumerateRead
 (
 ClearAllBoxObjects
-nsnull
+nullptr
 )
 ;
 delete
@@ -10095,7 +10095,7 @@ tmp
 >
 mBoxObjectTable
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -10129,7 +10129,7 @@ tmp
 >
 mListenerManager
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -10153,7 +10153,7 @@ tmp
 >
 mSubDocuments
 =
-nsnull
+nullptr
 ;
 }
 tmp
@@ -10965,11 +10965,11 @@ get
 endif
 mSecurityInfo
 =
-nsnull
+nullptr
 ;
 mDocumentLoadGroup
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -11005,7 +11005,7 @@ mSubDocuments
 ;
 mSubDocuments
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -11165,7 +11165,7 @@ oldVal
 ;
 mCachedRootElement
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -11197,7 +11197,7 @@ Disconnect
 ;
 mListenerManager
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -11209,7 +11209,7 @@ list
 .
 mDOMStyleSheets
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -11261,7 +11261,7 @@ principals
 .
 SetPrincipal
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -11277,7 +11277,7 @@ it
 .
 mOriginalURI
 =
-nsnull
+nullptr
 ;
 SetDocumentURI
 (
@@ -11303,7 +11303,7 @@ mDocumentURI
 .
 mDocumentBaseURI
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -11688,7 +11688,7 @@ sheet
 >
 SetOwningDocument
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -11746,7 +11746,7 @@ sheet
 >
 SetOwningDocument
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -14623,7 +14623,7 @@ aElement
 *
 aElement
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -14887,7 +14887,7 @@ aElement
 *
 aElement
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -14948,7 +14948,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -15482,7 +15482,7 @@ nsIContent
 *
 lastAdded
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -15704,7 +15704,7 @@ nsIPresShell
 :
 SetCapturingContent
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -15804,7 +15804,7 @@ else
 {
 mDocumentBaseURI
 =
-nsnull
+nullptr
 ;
 }
 RefreshLinkHrefs
@@ -16223,7 +16223,7 @@ data
 >
 mNext
 =
-nsnull
+nullptr
 ;
 delete
 data
@@ -16825,7 +16825,7 @@ aInstancePtrResult
 *
 aInstancePtrResult
 =
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -17141,12 +17141,12 @@ mImageTracker
 EnumerateRead
 (
 RequestDiscardEnumerator
-nsnull
+nullptr
 )
 ;
 mPresShell
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -17236,7 +17236,7 @@ mSubDocument
 >
 SetParentDocument
 (
-nsnull
+nullptr
 )
 ;
 NS_RELEASE
@@ -17321,7 +17321,7 @@ e
 >
 mSubDocument
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -17357,7 +17357,7 @@ aSubDoc
 /
 aSubDoc
 is
-nsnull
+nullptr
 remove
 the
 mapping
@@ -17436,7 +17436,7 @@ PL_NewDHashTable
 (
 &
 hash_table_ops
-nsnull
+nullptr
 sizeof
 (
 SubDocMapEntry
@@ -17508,7 +17508,7 @@ mSubDocument
 >
 SetParentDocument
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -17621,7 +17621,7 @@ mSubDocument
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -17715,7 +17715,7 @@ const
 NS_ENSURE_TRUE
 (
 aDocument
-nsnull
+nullptr
 )
 ;
 if
@@ -17725,7 +17725,7 @@ mSubDocuments
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 FindContentData
@@ -17923,10 +17923,10 @@ this
 >
 mCachedRootElement
 =
-nsnull
+nullptr
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -18226,7 +18226,7 @@ mChildren
 ;
 mCachedRootElement
 =
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -18273,7 +18273,7 @@ mStyleSheets
 Count
 (
 )
-nsnull
+nullptr
 )
 ;
 return
@@ -18554,7 +18554,7 @@ aSheet
 >
 SetOwningDocument
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -19036,7 +19036,7 @@ mCatalogSheets
 Count
 (
 )
-nsnull
+nullptr
 )
 ;
 return
@@ -19584,7 +19584,7 @@ aContainer
 EnumerateFreezableElements
 (
 NotifyActivityChanged
-nsnull
+nullptr
 )
 ;
 }
@@ -19782,7 +19782,7 @@ loadGroup
 RemoveRequest
 (
 mOnloadBlocker
-nsnull
+nullptr
 NS_OK
 )
 ;
@@ -19800,7 +19800,7 @@ aScriptGlobalObject
 {
 mScriptObject
 =
-nsnull
+nullptr
 ;
 mHasHadScriptHandlingObject
 =
@@ -19821,7 +19821,7 @@ history
 state
 mLayoutHistoryState
 =
-nsnull
+nullptr
 ;
 mScopeObject
 =
@@ -19915,7 +19915,7 @@ GetNativeContext
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -20322,7 +20322,7 @@ combination
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -20462,7 +20462,7 @@ win
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -21079,7 +21079,7 @@ aElementId
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIdentifierMapEntry
@@ -21103,7 +21103,7 @@ GetIdElement
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 const
@@ -21131,7 +21131,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIdentifierMapEntry
@@ -21155,7 +21155,7 @@ GetIdElements
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -21199,7 +21199,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -21239,7 +21239,7 @@ id
 )
 )
 return
-nsnull
+nullptr
 ;
 nsIdentifierMapEntry
 *
@@ -21255,7 +21255,7 @@ id
 NS_ENSURE_TRUE
 (
 entry
-nsnull
+nullptr
 )
 ;
 entry
@@ -21441,7 +21441,7 @@ AsElement
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 if
@@ -21489,7 +21489,7 @@ IsEmpty
 )
 )
 return
-nsnull
+nullptr
 ;
 nsIdentifierMapEntry
 *
@@ -21512,7 +21512,7 @@ GetImageIdElement
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -22142,7 +22142,7 @@ GetContentSink
 ;
 mParser
 =
-nsnull
+nullptr
 ;
 }
 NS_DOCUMENT_NOTIFY_OBSERVERS
@@ -22595,7 +22595,7 @@ aDocumentElement
 *
 aDocumentElement
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -22620,7 +22620,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -22747,7 +22747,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -22808,7 +22808,7 @@ needsLowercase
 lcTagName
 :
 aTagName
-nsnull
+nullptr
 mDefaultElementType
 aReturn
 )
@@ -22840,7 +22840,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -22960,7 +22960,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -23097,7 +23097,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -23185,7 +23185,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -23303,7 +23303,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -23400,7 +23400,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 WarnOnceAbout
 (
@@ -23445,7 +23445,7 @@ mNodeInfoManager
 GetNodeInfo
 (
 aName
-nsnull
+nullptr
 kNameSpaceID_None
 nsIDOMNode
 :
@@ -23475,7 +23475,7 @@ attribute
 new
 nsDOMAttribute
 (
-nsnull
+nullptr
 nodeInfo
 .
 forget
@@ -23524,7 +23524,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 WarnOnceAbout
 (
@@ -23576,7 +23576,7 @@ attribute
 new
 nsDOMAttribute
 (
-nsnull
+nullptr
 nodeInfo
 .
 forget
@@ -23710,7 +23710,7 @@ nameSpaceId
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 }
@@ -24581,7 +24581,7 @@ true
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -25251,7 +25251,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -25396,7 +25396,7 @@ matchedContent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -25439,7 +25439,7 @@ if
 nodeList
 )
 return
-nsnull
+nullptr
 ;
 PRUint32
 length
@@ -25516,7 +25516,7 @@ matchedElm
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -25545,7 +25545,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -25611,7 +25611,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -25717,7 +25717,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -25828,7 +25828,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -25937,7 +25937,7 @@ aDefaultView
 *
 aDefaultView
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -25980,7 +25980,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -26050,7 +26050,7 @@ return
 rootElement
 ;
 return
-nsnull
+nullptr
 ;
 }
 Element
@@ -26079,7 +26079,7 @@ if
 html
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -26151,7 +26151,7 @@ AsElement
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -26242,7 +26242,7 @@ if
 mMayHaveTitleElement
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -26596,7 +26596,7 @@ nsGkAtoms
 :
 :
 title
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -26986,7 +26986,7 @@ UseOfGetBoxObjectForWarning
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -27677,7 +27677,7 @@ mDelayFrameLoaderInitialization
 .
 mFrameLoaderRunner
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -27771,7 +27771,7 @@ return
 }
 mFrameLoaderRunner
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -28227,7 +28227,7 @@ mLoadedAsData
 mLoadedAsInteractiveData
 )
 return
-nsnull
+nullptr
 ;
 mAnimationController
 =
@@ -28823,7 +28823,7 @@ aParentNode
 *
 aParentNode
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -28844,7 +28844,7 @@ aParentElement
 *
 aParentElement
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -28990,7 +28990,7 @@ aPreviousSibling
 *
 aPreviousSibling
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -29011,7 +29011,7 @@ aNextSibling
 *
 aNextSibling
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -29032,7 +29032,7 @@ aAttributes
 *
 aAttributes
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -29202,7 +29202,7 @@ nsDocument
 InsertBefore
 (
 aNewChild
-nsnull
+nullptr
 aReturn
 )
 ;
@@ -30142,12 +30142,12 @@ aNewDocument
 *
 aCx
 =
-nsnull
+nullptr
 ;
 *
 aNewScope
 =
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -30421,7 +30421,7 @@ aAdoptedNode
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -30901,13 +30901,13 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 JSObject
 *
 newScope
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -30950,7 +30950,7 @@ Adopt
 adoptedNode
 sameDocument
 ?
-nsnull
+nullptr
 :
 mNodeInfoManager
 cx
@@ -31484,7 +31484,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -31504,7 +31504,7 @@ nsPresContext
 *
 presContext
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -31541,7 +31541,7 @@ nsEventDispatcher
 CreateEvent
 (
 presContext
-nsnull
+nullptr
 aEventType
 aReturn
 )
@@ -31715,7 +31715,7 @@ sink
 {
 mWeakSink
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -32848,7 +32848,7 @@ nsHTMLDocument
 *
 aRadioOut
 =
-nsnull
+nullptr
 ;
 nsRadioGroupStruct
 *
@@ -33390,7 +33390,7 @@ nsRadioGroupStruct
 *
 radioGroup
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -33610,7 +33610,7 @@ nsRadioGroupStruct
 *
 radioGroup
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -34451,7 +34451,7 @@ nsAware
 aPrefix
 !
 =
-nsnull
+nullptr
 |
 |
 aNamespaceID
@@ -34499,7 +34499,7 @@ endif
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -35241,7 +35241,7 @@ subdoc
 >
 CanSavePresentation
 (
-nsnull
+nullptr
 )
 :
 false
@@ -35799,7 +35799,7 @@ oldVal
 ;
 mLayoutHistoryState
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -35931,7 +35931,7 @@ true
 EnumerateFreezableElements
 (
 NotifyActivityChanged
-nsnull
+nullptr
 )
 ;
 PRUint32
@@ -35989,7 +35989,7 @@ nsILayoutHistoryState
 *
 state
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -36210,7 +36210,7 @@ loadGroup
 AddRequest
 (
 mOnloadBlocker
-nsnull
+nullptr
 )
 ;
 }
@@ -36469,7 +36469,7 @@ loadGroup
 AddRequest
 (
 mOnloadBlocker
-nsnull
+nullptr
 )
 ;
 }
@@ -36912,7 +36912,7 @@ loadGroup
 RemoveRequest
 (
 mOnloadBlocker
-nsnull
+nullptr
 NS_OK
 )
 ;
@@ -37049,7 +37049,7 @@ GetRootFrame
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -37147,10 +37147,10 @@ nsEventDispatcher
 DispatchDOMEvent
 (
 aDispatchTarget
-nsnull
+nullptr
 event
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -37190,7 +37190,7 @@ OnPageShow
 (
 *
 aPersistedPtr
-nsnull
+nullptr
 )
 ;
 return
@@ -37217,7 +37217,7 @@ true
 EnumerateFreezableElements
 (
 NotifyActivityChanged
-nsnull
+nullptr
 )
 ;
 EnumerateExternalResources
@@ -37467,7 +37467,7 @@ OnPageHide
 (
 *
 aPersistedPtr
-nsnull
+nullptr
 )
 ;
 return
@@ -37726,7 +37726,7 @@ aPersisted
 EnumerateFreezableElements
 (
 NotifyActivityChanged
-nsnull
+nullptr
 )
 ;
 if
@@ -38146,7 +38146,7 @@ nsINode
 *
 commonAncestor
 =
-nsnull
+nullptr
 ;
 PRInt32
 realTargetCount
@@ -39669,7 +39669,7 @@ document
 used
 as
 referrer
-nsnull
+nullptr
 /
 /
 no
@@ -40211,7 +40211,7 @@ GetContentSink
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -41047,7 +41047,7 @@ mLinksToUpdate
 EnumerateEntries
 (
 EnumeratePendingLinkUpdates
-nsnull
+nullptr
 )
 ;
 mLinksToUpdate
@@ -41089,7 +41089,7 @@ this
 NS_ENSURE_TRUE
 (
 domDoc
-nsnull
+nullptr
 )
 ;
 mCreatingStaticClone
@@ -41262,10 +41262,10 @@ sheet
 >
 Clone
 (
-nsnull
-nsnull
+nullptr
+nullptr
 clonedDoc
-nsnull
+nullptr
 )
 ;
 NS_WARN_IF_FALSE
@@ -41362,10 +41362,10 @@ sheet
 >
 Clone
 (
-nsnull
-nsnull
+nullptr
+nullptr
 clonedDoc
-nsnull
+nullptr
 )
 ;
 NS_WARN_IF_FALSE
@@ -41803,7 +41803,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsAString
@@ -41847,7 +41847,7 @@ hash
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -41886,7 +41886,7 @@ end
 )
 {
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -42014,7 +42014,7 @@ AsElement
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -42044,7 +42044,7 @@ nsDeprecatedOperationList
 .
 h
 "
-nsnull
+nullptr
 }
 ;
 #
@@ -42408,7 +42408,7 @@ EnumerateFreezableElements
 :
 :
 NotifyAudioAvailableListener
-nsnull
+nullptr
 )
 ;
 }
@@ -43066,7 +43066,7 @@ aLocked
 LockEnumerator
 :
 UnlockEnumerator
-nsnull
+nullptr
 )
 ;
 /
@@ -43186,7 +43186,7 @@ aAnimating
 IncrementAnimationEnumerator
 :
 DecrementAnimationEnumerator
-nsnull
+nullptr
 )
 ;
 /
@@ -44306,11 +44306,11 @@ ExitFullScreen
 .
 sFullScreenRootDoc
 =
-nsnull
+nullptr
 ;
 sFullScreenDoc
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -44353,7 +44353,7 @@ IsFullScreenDoc
 sFullScreenDoc
 !
 =
-nsnull
+nullptr
 "
 Should
 have
@@ -44555,7 +44555,7 @@ while
 doc
 !
 =
-nsnull
+nullptr
 )
 {
 static_cast
@@ -44869,7 +44869,7 @@ if
 doc
 =
 =
-nsnull
+nullptr
 )
 {
 /
@@ -44943,11 +44943,11 @@ stacks
 ;
 sFullScreenDoc
 =
-nsnull
+nullptr
 ;
 sFullScreenRootDoc
 =
-nsnull
+nullptr
 ;
 SetWindowFullScreen
 (
@@ -44971,7 +44971,7 @@ GetFullScreenElement
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 class
@@ -45875,7 +45875,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -47220,7 +47220,7 @@ sFullScreenDoc
 Note
 previousFullscreenDoc
 =
-nsnull
+nullptr
 upon
 first
 entry
@@ -47566,7 +47566,7 @@ aFullScreenElement
 *
 aFullScreenElement
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -48221,7 +48221,7 @@ Run
 {
 sInstance
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -48384,14 +48384,14 @@ sInstance
 >
 mElement
 =
-nsnull
+nullptr
 ;
 sInstance
 -
 >
 mDocument
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -48527,7 +48527,7 @@ nsAsyncPointerLockRequest
 :
 sInstance
 =
-nsnull
+nullptr
 ;
 nsWeakPtr
 nsDocument
@@ -48671,11 +48671,11 @@ ClearPointerLock
 }
 sPendingPointerLockDoc
 =
-nsnull
+nullptr
 ;
 sPendingPointerLockElement
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -48719,7 +48719,7 @@ NS_ENSURE_TRUE
 aElement
 !
 =
-nsnull
+nullptr
 NS_ERROR_FAILURE
 )
 ;
@@ -49427,7 +49427,7 @@ NOTE
 aElement
 will
 be
-nsnull
+nullptr
 when
 unlocking
 .
@@ -49755,7 +49755,7 @@ esm
 SetCursor
 (
 aCursorStyle
-nsnull
+nullptr
 false
 0
 .
@@ -49870,7 +49870,7 @@ doc
 >
 SetPointerLock
 (
-nsnull
+nullptr
 NS_STYLE_CURSOR_AUTO
 )
 )
@@ -49906,14 +49906,14 @@ nsEventStateManager
 :
 sPointerLockedElement
 =
-nsnull
+nullptr
 ;
 nsEventStateManager
 :
 :
 sPointerLockedDoc
 =
-nsnull
+nullptr
 ;
 pointerLockedElement
 -
@@ -49980,7 +49980,7 @@ aPointerLockedElement
 *
 aPointerLockedElement
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

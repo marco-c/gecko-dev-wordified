@@ -243,7 +243,7 @@ Alloc
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }

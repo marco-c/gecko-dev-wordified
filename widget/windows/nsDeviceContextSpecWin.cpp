@@ -527,7 +527,7 @@ return
 mPrinters
 !
 =
-nsnull
+nullptr
 ;
 }
 LPWSTR
@@ -548,7 +548,7 @@ ElementAt
 aInx
 )
 :
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -650,7 +650,7 @@ GlobalPrinters
 :
 mPrinters
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1322,11 +1322,11 @@ nsDeviceContextSpecWin
 {
 mDriverName
 =
-nsnull
+nullptr
 ;
 mDeviceName
 =
-nsnull
+nullptr
 ;
 mDevMode
 =
@@ -1432,12 +1432,12 @@ nsDeviceContextSpecWin
 {
 SetDeviceName
 (
-nsnull
+nullptr
 )
 ;
 SetDriverName
 (
-nsnull
+nullptr
 )
 ;
 SetDevMode
@@ -1467,7 +1467,7 @@ psWin
 >
 SetDeviceName
 (
-nsnull
+nullptr
 )
 ;
 psWin
@@ -1475,7 +1475,7 @@ psWin
 >
 SetDriverName
 (
-nsnull
+nullptr
 )
 ;
 psWin
@@ -3120,7 +3120,7 @@ CheckForPrintToFile
 (
 mPrintSettings
 deviceName
-nsnull
+nullptr
 )
 ;
 if
@@ -3289,7 +3289,7 @@ PRUnichar
 *
 printerName
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3377,7 +3377,7 @@ aIsPrintPreview
 CheckForPrintToFile
 (
 mPrintSettings
-nsnull
+nullptr
 printerName
 )
 ;
@@ -3479,7 +3479,7 @@ if
 aStr
 !
 =
-nsnull
+nullptr
 )
 {
 if
@@ -3487,7 +3487,7 @@ if
 aNewStr
 !
 =
-nsnull
+nullptr
 &
 &
 wcslen
@@ -3526,13 +3526,13 @@ aStr
 ;
 aStr
 =
-nsnull
+nullptr
 ;
 }
 }
 if
 (
-nsnull
+nullptr
 !
 =
 aNewStr
@@ -3866,7 +3866,7 @@ NS_OK
 *
 surface
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -5814,7 +5814,7 @@ if
 aPrintSettings
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -6857,7 +6857,7 @@ aPrinterNameList
 *
 aPrinterNameList
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -7531,7 +7531,7 @@ if
 mPrinters
 !
 =
-nsnull
+nullptr
 )
 {
 for
@@ -7572,7 +7572,7 @@ mPrinters
 ;
 mPrinters
 =
-nsnull
+nullptr
 ;
 }
 }

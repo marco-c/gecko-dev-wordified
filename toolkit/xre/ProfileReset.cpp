@@ -327,7 +327,7 @@ aProfileSvc
 >
 CreateProfile
 (
-nsnull
+nullptr
 /
 /
 choose
@@ -336,7 +336,7 @@ default
 dir
 for
 us
-nsnull
+nullptr
 /
 /
 choose
@@ -874,7 +874,7 @@ windowWatcher
 >
 OpenWindow
 (
-nsnull
+nullptr
 kResetProgressURL
 "
 _blank

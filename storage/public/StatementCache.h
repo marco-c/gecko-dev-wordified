@@ -387,7 +387,7 @@ aQuery
 NS_ENSURE_TRUE
 (
 stmt
-nsnull
+nullptr
 )
 ;
 mCachedStatements
@@ -603,7 +603,7 @@ aQuery
 NS_ENSURE_TRUE
 (
 mConnection
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -717,7 +717,7 @@ get
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -753,7 +753,7 @@ aQuery
 NS_ENSURE_TRUE
 (
 mConnection
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -780,7 +780,7 @@ stmt
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return

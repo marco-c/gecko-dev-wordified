@@ -1437,7 +1437,7 @@ AsShadowForwarder
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1448,7 +1448,7 @@ AsShadowManager
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2431,7 +2431,7 @@ CreateReadbackLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2465,7 +2465,7 @@ CreateRefLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -4170,7 +4170,7 @@ mUseClipRect
 aRect
 !
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4857,7 +4857,7 @@ mUseClipRect
 &
 mClipRect
 :
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -4918,7 +4918,7 @@ GetFirstChild
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -4929,7 +4929,7 @@ GetLastChild
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 const
@@ -5504,7 +5504,7 @@ AsThebesLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -5537,7 +5537,7 @@ AsContainerLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -5570,7 +5570,7 @@ AsRefLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -5608,7 +5608,7 @@ AsShadowLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -5646,7 +5646,7 @@ AsShadowableLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -7101,7 +7101,7 @@ mAllowResidualTranslation
 &
 residual
 :
-nsnull
+nullptr
 )
 ;
 /
@@ -8038,11 +8038,11 @@ aImplData
 )
 mFirstChild
 (
-nsnull
+nullptr
 )
 mLastChild
 (
-nsnull
+nullptr
 )
 mUseIntermediateSurface
 (
@@ -8317,7 +8317,7 @@ gfxRect
 0
 0
 )
-nsnull
+nullptr
 )
 ;
 ComputeEffectiveTransformForMaskLayer
@@ -8490,15 +8490,15 @@ Data
 :
 mSurface
 (
-nsnull
+nullptr
 )
 mGLContext
 (
-nsnull
+nullptr
 )
 mDrawTarget
 (
-nsnull
+nullptr
 )
 mGLBufferIsPremultiplied
 (
@@ -8898,7 +8898,7 @@ mBounds
 .
 height
 )
-nsnull
+nullptr
 )
 *
 SnapTransform
@@ -8911,7 +8911,7 @@ gfxRect
 0
 0
 )
-nsnull
+nullptr
 )
 ;
 ComputeEffectiveTransformForMaskLayer
@@ -8939,11 +8939,11 @@ aImplData
 )
 mCallback
 (
-nsnull
+nullptr
 )
 mCallbackData
 (
-nsnull
+nullptr
 )
 mFilter
 (
@@ -9365,14 +9365,14 @@ mFirstChild
 =
 mLastChild
 =
-nsnull
+nullptr
 ;
 aLayer
 -
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 }

@@ -316,7 +316,7 @@ FILE
 *
 fp
 =
-nsnull
+nullptr
 )
 :
 fp_
@@ -1047,7 +1047,7 @@ char
 *
 currSection
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1239,7 +1239,7 @@ working
 with
 currSection
 =
-nsnull
+nullptr
 ;
 }
 continue

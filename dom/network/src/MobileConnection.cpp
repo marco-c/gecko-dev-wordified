@@ -294,7 +294,7 @@ tmp
 >
 mProvider
 =
-nsnull
+nullptr
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
@@ -777,7 +777,7 @@ mProvider
 *
 voice
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -814,7 +814,7 @@ mProvider
 *
 data
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -883,7 +883,7 @@ request
 *
 request
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -926,7 +926,7 @@ request
 *
 request
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -967,7 +967,7 @@ request
 *
 request
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1011,7 +1011,7 @@ aDomRequest
 *
 aDomRequest
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1056,7 +1056,7 @@ aDomRequest
 *
 aDomRequest
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1101,7 +1101,7 @@ aDomRequest
 *
 aDomRequest
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1223,8 +1223,8 @@ event
 new
 nsDOMEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsresult

@@ -427,7 +427,7 @@ aExecutorDoc
 {
 mDocument
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -2009,7 +2009,7 @@ GetNodeInfoManager
 GetNodeInfo
 (
 name
-nsnull
+nullptr
 ns
 nsIDOMNode
 :
@@ -2223,7 +2223,7 @@ nsGkAtoms
 :
 :
 moztype
-nsnull
+nullptr
 theAttribute
 false
 )
@@ -2248,7 +2248,7 @@ nsHtml5Atoms
 :
 :
 option
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :

@@ -428,7 +428,7 @@ mResultContent
 )
 mResultFrame
 (
-nsnull
+nullptr
 )
 mContentOffset
 (
@@ -3788,7 +3788,7 @@ respectively
 will
 be
 *
-nsnull
+nullptr
 .
 *
 *

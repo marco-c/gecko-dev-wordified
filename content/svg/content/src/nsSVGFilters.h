@@ -597,7 +597,7 @@ OperatesOnSRGB
 aInstance
 -
 1
-nsnull
+nullptr
 )
 ?
 ColorModel

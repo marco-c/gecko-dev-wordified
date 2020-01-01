@@ -341,7 +341,7 @@ aInvalidateRegion
 ;
 mMainMemoryTiledBuffer
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -696,7 +696,7 @@ aManager
 ShadowThebesLayer
 (
 aManager
-nsnull
+nullptr
 )
 LayerOGL
 (
@@ -1304,7 +1304,7 @@ Next
 rect
 !
 =
-nsnull
+nullptr
 ;
 rect
 =

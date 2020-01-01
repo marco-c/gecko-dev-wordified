@@ -372,7 +372,7 @@ SystemWorkerManager
 *
 gInstance
 =
-nsnull
+nullptr
 ;
 class
 ConnectWorkerToRIL
@@ -1125,7 +1125,7 @@ instance
 ;
 gInstance
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -1405,7 +1405,7 @@ StopRil
 ;
 mRILWorker
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1433,12 +1433,12 @@ Shutdown
 ;
 wifi
 =
-nsnull
+nullptr
 ;
 }
 mWifiWorker
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1536,7 +1536,7 @@ Shutdown
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 gInstance

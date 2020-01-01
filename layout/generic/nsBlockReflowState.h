@@ -385,7 +385,7 @@ return
 GetFloatAvailableSpaceWithState
 (
 aY
-nsnull
+nullptr
 )
 ;
 }
@@ -580,7 +580,7 @@ nsIFrame
 *
 aReplacedBlock
 =
-nsnull
+nullptr
 PRUint32
 aFlags
 =

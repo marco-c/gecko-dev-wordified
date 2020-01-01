@@ -403,7 +403,7 @@ mAList
 mBaseVal
 )
 =
-nsnull
+nullptr
 ;
 }
 }

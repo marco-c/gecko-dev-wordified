@@ -476,7 +476,7 @@ mStyleStructs
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -524,7 +524,7 @@ mStyleStructs
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -780,7 +780,7 @@ aSID
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -840,7 +840,7 @@ name_
 ]
 )
 :
-nsnull
+nullptr
 ;
 \
 }
@@ -892,7 +892,7 @@ name_
 ]
 )
 :
-nsnull
+nullptr
 ;
 \
 }
@@ -947,11 +947,11 @@ aContext
 ;
 mResetData
 =
-nsnull
+nullptr
 ;
 mInheritedData
 =
-nsnull
+nullptr
 ;
 }
 nsCachedStyleData
@@ -960,11 +960,11 @@ nsCachedStyleData
 :
 mInheritedData
 (
-nsnull
+nullptr
 )
 mResetData
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2095,7 +2095,7 @@ mChildren
 asVoid
 !
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -2679,7 +2679,7 @@ Destroy
 {
 DestroyInternal
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3662,7 +3662,7 @@ return
 mParent
 =
 =
-nsnull
+nullptr
 ;
 }
 /

@@ -261,7 +261,7 @@ void
 *
 iter
 =
-nsnull
+nullptr
 ;
 if
 (

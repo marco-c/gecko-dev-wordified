@@ -429,7 +429,7 @@ image
 >
 Init
 (
-nsnull
+nullptr
 mimeType
 .
 get

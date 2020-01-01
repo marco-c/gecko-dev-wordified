@@ -452,7 +452,7 @@ XRE_InitEmbedding2
 (
 localFile
 localFile
-nsnull
+nullptr
 )
 ;
 if

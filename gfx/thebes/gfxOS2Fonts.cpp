@@ -300,11 +300,11 @@ aFontStyle
 )
 mFontFace
 (
-nsnull
+nullptr
 )
 mMetrics
 (
-nsnull
+nullptr
 )
 mAdjustedSize
 (
@@ -555,15 +555,15 @@ mMetrics
 ;
 mFontFace
 =
-nsnull
+nullptr
 ;
 mScaledFont
 =
-nsnull
+nullptr
 ;
 mMetrics
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -3587,7 +3587,7 @@ if
 face
 )
 return
-nsnull
+nullptr
 ;
 cairo_font_options_t
 *
@@ -3904,7 +3904,7 @@ if
 font
 )
 return
-nsnull
+nullptr
 ;
 gfxFontCache
 :
@@ -3924,7 +3924,7 @@ gfxFont
 *
 f
 =
-nsnull
+nullptr
 ;
 font
 .
@@ -4716,7 +4716,7 @@ if
 textRun
 )
 return
-nsnull
+nullptr
 ;
 mEnableKerning
 =
@@ -4999,7 +4999,7 @@ if
 textRun
 )
 return
-nsnull
+nullptr
 ;
 mEnableKerning
 =

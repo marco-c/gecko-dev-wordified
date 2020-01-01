@@ -70,5 +70,5 @@ gfxFontTestStore
 :
 sCurrentStore
 =
-nsnull
+nullptr
 ;

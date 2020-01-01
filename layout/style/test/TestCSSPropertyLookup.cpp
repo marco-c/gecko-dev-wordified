@@ -145,7 +145,7 @@ kJunkNames
 ]
 =
 {
-nsnull
+nullptr
 "
 "
 "
@@ -1202,9 +1202,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1236,7 +1236,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS

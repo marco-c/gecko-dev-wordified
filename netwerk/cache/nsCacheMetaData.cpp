@@ -226,7 +226,7 @@ corrupted
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsresult

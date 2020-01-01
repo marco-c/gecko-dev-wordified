@@ -357,11 +357,11 @@ mEnumeratorList
 )
 mOldestWindow
 (
-nsnull
+nullptr
 )
 mTopmostWindow
 (
-nsnull
+nullptr
 )
 mTimeStamp
 (
@@ -555,7 +555,7 @@ winData
 =
 {
 inWindow
-nsnull
+nullptr
 }
 ;
 mListeners
@@ -592,7 +592,7 @@ mOldestWindow
 -
 >
 mOlder
-nsnull
+nullptr
 )
 ;
 else
@@ -714,7 +714,7 @@ mWindow
 get
 (
 )
-nsnull
+nullptr
 }
 ;
 mListeners
@@ -787,7 +787,7 @@ mOldestWindow
 )
 mOldestWindow
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -798,7 +798,7 @@ mTopmostWindow
 )
 mTopmostWindow
 =
-nsnull
+nullptr
 ;
 delete
 inInfo
@@ -831,7 +831,7 @@ if
 aWindow
 )
 return
-nsnull
+nullptr
 ;
 info
 =
@@ -839,7 +839,7 @@ mOldestWindow
 ;
 listEnd
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -879,7 +879,7 @@ mOldestWindow
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsWindowInfo
@@ -906,7 +906,7 @@ if
 aWindow
 )
 return
-nsnull
+nullptr
 ;
 info
 =
@@ -914,7 +914,7 @@ mOldestWindow
 ;
 listEnd
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -987,7 +987,7 @@ mOldestWindow
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -1306,7 +1306,7 @@ inEnumerator
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -1378,7 +1378,7 @@ outWindow
 *
 outWindow
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1540,7 +1540,7 @@ listEnd
 *
 foundInfo
 =
-nsnull
+nullptr
 ;
 searchInfo
 =
@@ -1548,7 +1548,7 @@ mOldestWindow
 ;
 listEnd
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -1840,7 +1840,7 @@ mReady
 *
 outBelow
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1899,7 +1899,7 @@ nsIXULWindow
 *
 belowWindow
 =
-nsnull
+nullptr
 ;
 bool
 found
@@ -2802,7 +2802,7 @@ belowInfo
 {
 belowInfo
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -2856,7 +2856,7 @@ mTopmostWindow
 >
 mHigher
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -2880,7 +2880,7 @@ inInfo
 >
 InsertAfter
 (
-nsnull
+nullptr
 belowInfo
 )
 ;
@@ -3470,7 +3470,7 @@ scan
 >
 InsertAfter
 (
-nsnull
+nullptr
 prev
 )
 ;
@@ -3831,7 +3831,7 @@ scan
 >
 InsertAfter
 (
-nsnull
+nullptr
 search
 )
 ;

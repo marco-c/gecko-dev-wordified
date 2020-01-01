@@ -435,7 +435,7 @@ childState
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -743,11 +743,11 @@ aRelAttr
 )
 mProviders
 (
-nsnull
+nullptr
 )
 mBindingParent
 (
-nsnull
+nullptr
 )
 mIndex
 (
@@ -824,7 +824,7 @@ if
 mProviders
 )
 return
-nsnull
+nullptr
 ;
 while
 (
@@ -992,7 +992,7 @@ mDocument
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1245,7 +1245,7 @@ Accessible
 *
 label
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -1311,7 +1311,7 @@ IsWidget
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -1474,7 +1474,7 @@ Parent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1677,7 +1677,7 @@ Accessible
 *
 output
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -1717,7 +1717,7 @@ output
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1920,7 +1920,7 @@ Accessible
 *
 label
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -1960,7 +1960,7 @@ label
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2163,7 +2163,7 @@ Accessible
 *
 descr
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -2203,7 +2203,7 @@ descr
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2570,7 +2570,7 @@ refContent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -2813,7 +2813,7 @@ aID
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 Accessible
@@ -2844,7 +2844,7 @@ GetAccessible
 nextElm
 )
 :
-nsnull
+nullptr
 ;
 }
 Accessible
@@ -2885,6 +2885,6 @@ IsDefunct
 ?
 nextAcc
 :
-nsnull
+nullptr
 ;
 }

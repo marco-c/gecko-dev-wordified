@@ -577,7 +577,7 @@ aBaseWindow
 =
 do_QueryInterface
 (
-nsnull
+nullptr
 &
 status
 )

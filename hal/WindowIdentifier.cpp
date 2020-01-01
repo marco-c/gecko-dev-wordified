@@ -151,7 +151,7 @@ WindowIdentifier
 :
 mWindow
 (
-nsnull
+nullptr
 )
 mIsEmpty
 (

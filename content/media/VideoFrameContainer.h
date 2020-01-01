@@ -462,7 +462,7 @@ ForgetElement
 {
 mElement
 =
-nsnull
+nullptr
 ;
 }
 protected

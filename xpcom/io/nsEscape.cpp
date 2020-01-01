@@ -2134,7 +2134,7 @@ char
 *
 rv
 =
-nsnull
+nullptr
 ;
 /
 *
@@ -2175,7 +2175,7 @@ PR_UINT32_MAX
 )
 )
 return
-nsnull
+nullptr
 ;
 rv
 =
@@ -2608,7 +2608,7 @@ PRUnichar
 )
 )
 return
-nsnull
+nullptr
 ;
 PRUnichar
 *

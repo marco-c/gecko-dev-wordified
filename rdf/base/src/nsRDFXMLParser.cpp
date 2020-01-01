@@ -743,7 +743,7 @@ listener
 OnStartRequest
 (
 channel
-nsnull
+nullptr
 )
 ;
 listener
@@ -752,7 +752,7 @@ listener
 OnDataAvailable
 (
 channel
-nsnull
+nullptr
 stream
 0
 aString
@@ -768,7 +768,7 @@ listener
 OnStopRequest
 (
 channel
-nsnull
+nullptr
 NS_OK
 )
 ;

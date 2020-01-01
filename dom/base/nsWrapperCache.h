@@ -933,7 +933,7 @@ triedToWrap
 false
 ;
 return
-nsnull
+nullptr
 ;
 }
 /

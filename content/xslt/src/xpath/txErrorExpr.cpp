@@ -139,7 +139,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsAutoString
 err

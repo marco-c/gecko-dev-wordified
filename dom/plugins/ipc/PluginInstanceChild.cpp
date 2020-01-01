@@ -654,11 +654,11 @@ mAsyncInvalidateTask
 )
 mCachedWindowActor
 (
-nsnull
+nullptr
 )
 mCachedElementActor
 (
-nsnull
+nullptr
 )
 #
 if
@@ -728,19 +728,19 @@ NPEventModelCarbon
 endif
 mShColorSpace
 (
-nsnull
+nullptr
 )
 mShContext
 (
-nsnull
+nullptr
 )
 mCGLayer
 (
-nsnull
+nullptr
 )
 mCurrentEvent
 (
-nsnull
+nullptr
 )
 #
 endif
@@ -781,11 +781,11 @@ SurfaceTypeMax
 )
 mCurrentInvalidateTask
 (
-nsnull
+nullptr
 )
 mCurrentAsyncSetWindowTask
 (
-nsnull
+nullptr
 )
 mPendingPluginCall
 (
@@ -854,7 +854,7 @@ mData
 .
 pdata
 =
-nsnull
+nullptr
 ;
 mAsyncBitmaps
 .
@@ -1285,7 +1285,7 @@ PPluginScriptableObjectChild
 *
 currentActor
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -3179,7 +3179,7 @@ NPObject
 *
 object
 =
-nsnull
+nullptr
 ;
 NPError
 result
@@ -3309,7 +3309,7 @@ NPERR_GENERIC_ERROR
 *
 aValue
 =
-nsnull
+nullptr
 ;
 *
 aResult
@@ -4699,7 +4699,7 @@ void
 *
 caLayer
 =
-nsnull
+nullptr
 ;
 NPError
 result
@@ -4855,7 +4855,7 @@ width
 mWindow
 .
 height
-nsnull
+nullptr
 )
 ;
 return
@@ -6006,7 +6006,7 @@ mShContext
 ;
 mShContext
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -9504,7 +9504,7 @@ void
 *
 ppvBits
 =
-nsnull
+nullptr
 ;
 mAlphaExtract
 .
@@ -10297,7 +10297,7 @@ mWinlessThrottleOldWndProc
 ;
 mWinlessThrottleOldWndProc
 =
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -10346,7 +10346,7 @@ kFlashThrottleProperty
 ;
 mWinlessHiddenMsgHWND
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -10884,7 +10884,7 @@ mWinlessThrottleOldWndProc
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -12311,7 +12311,7 @@ message
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 actor
@@ -12583,7 +12583,7 @@ bitmap
 .
 data
 =
-nsnull
+nullptr
 ;
 mAsyncBitmaps
 .
@@ -12671,7 +12671,7 @@ mAsyncBitmaps
 Get
 (
 surface
-nsnull
+nullptr
 )
 )
 {
@@ -13646,7 +13646,7 @@ Cancel
 ;
 mCurrentAsyncSetWindowTask
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -14145,7 +14145,7 @@ return
 }
 mCurrentAsyncSetWindowTask
 =
-nsnull
+nullptr
 ;
 }
 mWindow
@@ -14691,7 +14691,7 @@ return
 mCurrentSurface
 !
 =
-nsnull
+nullptr
 ;
 }
 XRenderPictFormat
@@ -14751,7 +14751,7 @@ return
 mCurrentSurface
 !
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -14973,7 +14973,7 @@ Visual
 *
 visual
 =
-nsnull
+nullptr
 ;
 Colormap
 colormap
@@ -15413,7 +15413,7 @@ size
 .
 mBackground
 =
-nsnull
+nullptr
 ;
 toInvalidate
 .
@@ -15527,7 +15527,7 @@ mWindow
 .
 window
 =
-nsnull
+nullptr
 ;
 ClearCurrentSurface
 (
@@ -15636,7 +15636,7 @@ void
 *
 caLayer
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -15943,7 +15943,7 @@ Visual
 *
 visual
 =
-nsnull
+nullptr
 ;
 Colormap
 colormap
@@ -16139,7 +16139,7 @@ mWindow
 .
 window
 =
-nsnull
+nullptr
 ;
 mWsInfo
 .
@@ -20374,7 +20374,7 @@ Next
 )
 !
 =
-nsnull
+nullptr
 )
 {
 ctx
@@ -20421,7 +20421,7 @@ return
 }
 mCurrentInvalidateTask
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -21191,7 +21191,7 @@ finishing
 .
 mBackground
 =
-nsnull
+nullptr
 ;
 AsyncShowPluginFrame
 (
@@ -21723,7 +21723,7 @@ ClearCurrentSurface
 {
 mCurrentSurface
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -21771,7 +21771,7 @@ NULL
 endif
 mHelperSurface
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -21886,11 +21886,11 @@ GetShmem
 ;
 mCurrentSurface
 =
-nsnull
+nullptr
 ;
 mBackSurface
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -22001,7 +22001,7 @@ mCGLayer
 ;
 mCGLayer
 =
-nsnull
+nullptr
 ;
 }
 mDoubleBufferCARenderer
@@ -22291,7 +22291,7 @@ Cancel
 ;
 mCurrentInvalidateTask
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -22308,7 +22308,7 @@ Cancel
 ;
 mCurrentAsyncSetWindowTask
 =
-nsnull
+nullptr
 ;
 }
 {
@@ -22332,7 +22332,7 @@ Cancel
 ;
 mAsyncInvalidateTask
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -22409,11 +22409,11 @@ above
 .
 mCachedWindowActor
 =
-nsnull
+nullptr
 ;
 mCachedElementActor
 =
-nsnull
+nullptr
 ;
 #
 if

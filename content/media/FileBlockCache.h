@@ -914,7 +914,7 @@ get
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1361,7 +1361,7 @@ BLOCK_SIZE
 ]
 =
 =
-nsnull
+nullptr
 /
 /
 then
@@ -1386,7 +1386,7 @@ BLOCK_SIZE
 ]
 !
 =
-nsnull
+nullptr
 then
 either
 there

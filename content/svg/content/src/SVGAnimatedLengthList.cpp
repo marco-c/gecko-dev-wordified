@@ -853,7 +853,7 @@ mBaseVal
 }
 mAnimVal
 =
-nsnull
+nullptr
 ;
 aElement
 -

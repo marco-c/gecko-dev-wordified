@@ -134,7 +134,7 @@ mCodingSM
 i
 ]
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -214,7 +214,7 @@ eDetecting
 ;
 mDetectedCharset
 =
-nsnull
+nullptr
 ;
 }
 nsEscCharSetProber
@@ -299,7 +299,7 @@ NUM_OF_ESC_CHARSETS
 ;
 mDetectedCharset
 =
-nsnull
+nullptr
 ;
 }
 nsProbingState

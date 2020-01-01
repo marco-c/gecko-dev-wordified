@@ -340,7 +340,7 @@ is
 associated
 or
 *
-nsnull
+nullptr
 if
 it
 is
@@ -406,7 +406,7 @@ GetTargetElementContent
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -1235,7 +1235,7 @@ Setting
 this
 *
 to
-nsnull
+nullptr
 will
 simply
 disassociate
@@ -1725,7 +1725,7 @@ nsresult
 *
 aParseResult
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -2957,7 +2957,7 @@ returned
 .
 May
 be
-nsnull
+nullptr
 .
 *
 param
@@ -2994,7 +2994,7 @@ themselves
 .
 May
 be
-nsnull
+nullptr
 .
 *
 param
@@ -3039,7 +3039,7 @@ state
 .
 May
 be
-nsnull
+nullptr
 .
 *
 param
@@ -3416,7 +3416,7 @@ callback
 mCurrentInterval
 will
 be
-nsnull
+nullptr
 and
 we
 will

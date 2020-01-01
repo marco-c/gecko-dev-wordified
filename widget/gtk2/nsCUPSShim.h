@@ -508,7 +508,7 @@ IsInitialized
 )
 {
 return
-nsnull
+nullptr
 !
 =
 mCupsLib

@@ -387,7 +387,7 @@ mMutex
 ;
 mPrivate
 =
-nsnull
+nullptr
 ;
 }
 /

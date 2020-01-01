@@ -966,7 +966,7 @@ nsBoxLayout
 *
 aLayoutManager
 =
-nsnull
+nullptr
 )
 ;
 /

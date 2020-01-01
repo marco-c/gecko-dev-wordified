@@ -1121,7 +1121,7 @@ aDirectory
 {
 mDisplayDirectory
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1191,7 +1191,7 @@ aDirectory
 *
 aDirectory
 =
-nsnull
+nullptr
 ;
 if
 (

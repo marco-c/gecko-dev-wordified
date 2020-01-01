@@ -260,13 +260,13 @@ nsIUnicodeEncoder
 *
 encoder
 =
-nsnull
+nullptr
 ;
 nsIUnicodeDecoder
 *
 decoder
 =
-nsnull
+nullptr
 ;
 UINT
 incp

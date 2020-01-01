@@ -660,7 +660,7 @@ aOldFontEntry
 >
 SetFamily
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -765,7 +765,7 @@ aFontEntry
 >
 SetFamily
 (
-nsnull
+nullptr
 )
 ;
 mAvailableFonts
@@ -868,7 +868,7 @@ fe
 >
 SetFamily
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1153,7 +1153,7 @@ gfxSparseBitSet
 *
 aUnicodeRanges
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -1210,7 +1210,7 @@ aFamilyName
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 /

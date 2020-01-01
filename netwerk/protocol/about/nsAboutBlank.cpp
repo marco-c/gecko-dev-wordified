@@ -296,7 +296,7 @@ if
 about
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY

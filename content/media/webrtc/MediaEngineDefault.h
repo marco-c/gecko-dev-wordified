@@ -195,7 +195,7 @@ MediaEngineDefaultVideoSource
 :
 mTimer
 (
-nsnull
+nullptr
 )
 mState
 (
@@ -325,7 +325,7 @@ MediaEngineDefaultAudioSource
 :
 mTimer
 (
-nsnull
+nullptr
 )
 mState
 (

@@ -131,9 +131,9 @@ new
 nsCommandEvent
 (
 false
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 )
 {
@@ -198,7 +198,7 @@ mEvent
 ;
 mEvent
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -375,7 +375,7 @@ aEvent
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 it

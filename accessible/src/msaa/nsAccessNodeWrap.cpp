@@ -237,7 +237,7 @@ nsAccessNodeWrap
 :
 gTextEvent
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -827,7 +827,7 @@ ppv
 *
 ppv
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -931,7 +931,7 @@ ppv
 *
 ppv
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1713,12 +1713,12 @@ __try
 *
 aNodeName
 =
-nsnull
+nullptr
 ;
 *
 aNodeValue
 =
-nsnull
+nullptr
 ;
 nsINode
 *
@@ -2113,7 +2113,7 @@ aAttribNames
 index
 ]
 =
-nsnull
+nullptr
 ;
 nsAutoString
 attributeValue
@@ -2360,7 +2360,7 @@ aAttribValues
 index
 ]
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3104,7 +3104,7 @@ IAccessible
 *
 msaaAccessible
 =
-nsnull
+nullptr
 ;
 acc
 -
@@ -3584,7 +3584,7 @@ __try
 *
 aNode
 =
-nsnull
+nullptr
 ;
 nsINode
 *
@@ -3654,7 +3654,7 @@ __try
 *
 aInnerHTML
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

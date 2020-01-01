@@ -1049,7 +1049,7 @@ NS_LOCAL_FILE_CONTRACTID
 NS_ENSURE_TRUE
 (
 directory
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -1066,7 +1066,7 @@ mDirectoryPath
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -1115,14 +1115,14 @@ shutdown
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 FileInfo
 *
 fileInfo
 =
-nsnull
+nullptr
 ;
 {
 MutexAutoLock
@@ -1198,7 +1198,7 @@ shutdown
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsAutoPtr
@@ -1329,7 +1329,7 @@ file
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 rv
@@ -1345,7 +1345,7 @@ id
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return

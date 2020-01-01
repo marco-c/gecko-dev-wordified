@@ -1837,7 +1837,7 @@ LockedInterfaceInfoDeathNotification
 {
 mInfo
 =
-nsnull
+nullptr
 ;
 }
 xptiInterfaceEntry
@@ -3025,7 +3025,7 @@ mParent
 ;
 mEntry
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -3045,7 +3045,7 @@ still
 end
 up
 as
-nsnull
+nullptr
 if
 we
 don
@@ -3290,7 +3290,7 @@ xptiInterfaceInfoManager
 *
 self
 =
-nsnull
+nullptr
 )
 {
 self

@@ -248,7 +248,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 PRInt32

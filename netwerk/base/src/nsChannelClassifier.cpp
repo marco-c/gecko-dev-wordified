@@ -776,7 +776,7 @@ status
 1
 "
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -1051,7 +1051,7 @@ Resume
 ;
 mSuspendedChannel
 =
-nsnull
+nullptr
 ;
 }
 return

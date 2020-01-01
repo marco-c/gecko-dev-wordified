@@ -373,7 +373,7 @@ screenmanager
 NS_ENSURE_TRUE
 (
 screenMgr
-nsnull
+nullptr
 )
 ;
 nsCOMPtr

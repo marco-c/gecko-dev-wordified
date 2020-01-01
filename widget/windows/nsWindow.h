@@ -427,7 +427,7 @@ nsWidgetInitData
 *
 aInitData
 =
-nsnull
+nullptr
 )
 ;
 NS_IMETHOD
@@ -795,7 +795,7 @@ PLayersChild
 *
 aShadowManager
 =
-nsnull
+nullptr
 LayersBackend
 aBackendHint
 =
@@ -814,7 +814,7 @@ bool
 *
 aAllowRetaining
 =
-nsnull
+nullptr
 )
 ;
 gfxASurface
@@ -1072,7 +1072,7 @@ nsIntPoint
 *
 aPoint
 =
-nsnull
+nullptr
 )
 ;
 virtual
@@ -2079,7 +2079,7 @@ nsFakeCharMessage
 *
 aFakeCharMessage
 =
-nsnull
+nullptr
 )
 ;
 virtual

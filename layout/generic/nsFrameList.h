@@ -279,11 +279,11 @@ nsFrameList
 :
 mFirstChild
 (
-nsnull
+nullptr
 )
 mLastChild
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -542,7 +542,7 @@ mFirstChild
 =
 mLastChild
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -888,7 +888,7 @@ the
 first
 child
 or
-nsnull
+nullptr
 if
 the
 list
@@ -1304,7 +1304,7 @@ IsEmpty
 const
 {
 return
-nsnull
+nullptr
 =
 =
 mFirstChild
@@ -1317,7 +1317,7 @@ NotEmpty
 const
 {
 return
-nsnull
+nullptr
 !
 =
 mFirstChild
@@ -1388,7 +1388,7 @@ FirstChild
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1712,7 +1712,7 @@ FirstChild
 )
 mEnd
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2089,7 +2089,7 @@ Enumerator
 (
 *
 this
-nsnull
+nullptr
 )
 ;
 }
@@ -2355,7 +2355,7 @@ aList
 )
 mPrev
 (
-nsnull
+nullptr
 )
 {
 }

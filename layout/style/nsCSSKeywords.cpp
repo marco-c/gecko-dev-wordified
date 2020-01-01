@@ -417,7 +417,7 @@ gKeywordTable
 ;
 gKeywordTable
 =
-nsnull
+nullptr
 ;
 }
 }

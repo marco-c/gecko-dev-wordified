@@ -783,7 +783,7 @@ PHASE_NONE
 endif
 mWidget
 (
-nsnull
+nullptr
 )
 mDoubleBuffering
 (
@@ -836,7 +836,7 @@ ClearCachedResources
 ;
 mRoot
 =
-nsnull
+nullptr
 ;
 MOZ_COUNT_DTOR
 (
@@ -2825,7 +2825,7 @@ mTarget
 mRoot
 aCallback
 aCallbackData
-nsnull
+nullptr
 )
 ;
 if
@@ -2859,7 +2859,7 @@ transaction
 .
 mTarget
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3140,8 +3140,8 @@ false
 return
 EndTransactionInternal
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -3559,7 +3559,7 @@ pixman_image_composite32
 (
 PIXMAN_OP_SRC
 src
-nsnull
+nullptr
 dest
 aDestOffset
 .
@@ -3669,7 +3669,7 @@ return
 Transformed
 surface
 or
-nsnull
+nullptr
 if
 it
 has
@@ -4043,7 +4043,7 @@ blitComplete
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -5151,8 +5151,8 @@ ImplData
 >
 Paint
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -5774,7 +5774,7 @@ HasShadowManager
 (
 )
 ?
-nsnull
+nullptr
 :
 aLayer
 -
@@ -6576,7 +6576,7 @@ mShadowTarget
 ;
 mShadowTarget
 =
-nsnull
+nullptr
 ;
 }
 }

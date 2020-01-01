@@ -693,7 +693,7 @@ mBuf
 ;
 mBuf
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -739,7 +739,7 @@ nsInputStreamTee
 :
 mLock
 (
-nsnull
+nullptr
 )
 mSinkIsValid
 (
@@ -1741,7 +1741,7 @@ NS_NewInputStreamTeeAsync
 result
 source
 sink
-nsnull
+nullptr
 )
 ;
 }

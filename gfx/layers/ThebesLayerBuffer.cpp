@@ -2027,7 +2027,7 @@ isClear
 mBuffer
 =
 =
-nsnull
+nullptr
 ;
 if
 (

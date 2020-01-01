@@ -301,7 +301,7 @@ aTransaction
 AsyncConnectionHelper
 (
 aTransaction
-nsnull
+nullptr
 )
 {
 NS_ASSERTION
@@ -544,7 +544,7 @@ ReleaseMainThreadObjects
 {
 mFileInfo
 =
-nsnull
+nullptr
 ;
 AsyncConnectionHelper
 :
@@ -675,7 +675,7 @@ forget
 {
 mInfo
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -807,7 +807,7 @@ GetScriptOwner
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 db
@@ -911,7 +911,7 @@ shutting
 down
 .
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -935,11 +935,11 @@ mDatabaseId
 )
 mActorChild
 (
-nsnull
+nullptr
 )
 mActorParent
 (
-nsnull
+nullptr
 )
 mInvalidated
 (
@@ -1464,7 +1464,7 @@ happen
 ;
 mPreviousDatabaseInfo
 =
-nsnull
+nullptr
 ;
 mRunningVersionChange
 =
@@ -1485,7 +1485,7 @@ mPreviousDatabaseInfo
 ;
 mPreviousDatabaseInfo
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -3456,9 +3456,9 @@ IDBRequest
 :
 Create
 (
-nsnull
+nullptr
 this
-nsnull
+nullptr
 aCx
 )
 ;
@@ -3669,7 +3669,7 @@ IndexedDatabaseManager
 :
 SetCurrentWindow
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -4073,7 +4073,7 @@ ReleaseMainThreadObjects
 {
 mObjectStore
 =
-nsnull
+nullptr
 ;
 NoRequestDatabaseHelper
 :

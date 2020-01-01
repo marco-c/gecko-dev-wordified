@@ -1718,11 +1718,11 @@ false
 )
 mCurrentRemoteFrame
 (
-nsnull
+nullptr
 )
 mRemoteBrowser
 (
-nsnull
+nullptr
 )
 mRenderMode
 (
@@ -1751,7 +1751,7 @@ aNetworkCreated
 NS_ENSURE_TRUE
 (
 aOwner
-nsnull
+nullptr
 )
 ;
 nsIDocument
@@ -1803,7 +1803,7 @@ IsStaticDocument
 (
 )
 )
-nsnull
+nullptr
 )
 ;
 return
@@ -1933,7 +1933,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 doc_charset
 .
@@ -2163,7 +2163,7 @@ rv
 {
 mURIToLoad
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -2532,7 +2532,7 @@ tmpState
 ;
 mURIToLoad
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_SUCCESS
 (
@@ -2904,7 +2904,7 @@ aDocShell
 *
 aDocShell
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -3058,7 +3058,7 @@ Destroy
 }
 mDocShell
 =
-nsnull
+nullptr
 ;
 }
 static
@@ -4520,7 +4520,7 @@ baseWindow
 >
 InitWindow
 (
-nsnull
+nullptr
 view
 -
 >
@@ -5439,7 +5439,7 @@ baseWin
 >
 SetParentWidget
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -6951,7 +6951,7 @@ ourTreeItem
 otherContent
 otherOwner
 otherParentType
-nsnull
+nullptr
 )
 ;
 AddTreeItemToTreeOwner
@@ -6960,7 +6960,7 @@ otherTreeItem
 ourContent
 ourOwner
 ourParentType
-nsnull
+nullptr
 )
 ;
 /
@@ -7016,7 +7016,7 @@ ourParentDocument
 SetSubDocumentFor
 (
 ourContent
-nsnull
+nullptr
 )
 ;
 otherParentDocument
@@ -7025,7 +7025,7 @@ otherParentDocument
 SetSubDocumentFor
 (
 otherContent
-nsnull
+nullptr
 )
 ;
 ourParentDocument
@@ -7211,7 +7211,7 @@ GetParentManager
 (
 )
 :
-nsnull
+nullptr
 ;
 nsFrameMessageManager
 *
@@ -7232,7 +7232,7 @@ GetParentManager
 (
 )
 :
-nsnull
+nullptr
 ;
 JSContext
 *
@@ -7247,7 +7247,7 @@ GetJSContext
 (
 )
 :
-nsnull
+nullptr
 ;
 JSContext
 *
@@ -7268,7 +7268,7 @@ GetJSContext
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -7537,7 +7537,7 @@ mRemoteBrowser
 >
 SetOwnerElement
 (
-nsnull
+nullptr
 )
 ;
 mRemoteBrowser
@@ -7549,7 +7549,7 @@ Destroy
 ;
 mRemoteBrowser
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -7656,12 +7656,12 @@ doc
 SetSubDocumentFor
 (
 mOwnerContent
-nsnull
+nullptr
 )
 ;
 SetOwnerContent
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -7819,7 +7819,7 @@ win_private
 >
 SetFrameElementInternal
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -7894,7 +7894,7 @@ docshell
 .
 mDocShell
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -10373,8 +10373,8 @@ GetPositionAndSize
 x
 &
 y
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -12276,8 +12276,8 @@ tabChild
 mMessage
 false
 mJSON
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -12562,7 +12562,7 @@ GetCurrentRemoteFrame
 *
 aResult
 =
-nsnull
+nullptr
 ;
 *
 aLength
@@ -12719,7 +12719,7 @@ rfp
 *
 aContentView
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -12842,7 +12842,7 @@ mRemoteBrowserShown
 ?
 this
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -12944,14 +12944,14 @@ new
 nsFrameMessageManager
 (
 true
-nsnull
+nullptr
 SendAsyncMessageToChild
 LoadScript
 mRemoteBrowserShown
 ?
 this
 :
-nsnull
+nullptr
 static_cast
 <
 nsFrameMessageManager
@@ -12976,10 +12976,10 @@ new
 nsFrameMessageManager
 (
 true
-nsnull
+nullptr
 SendAsyncMessageToChild
 LoadScript
-nsnull
+nullptr
 static_cast
 <
 nsFrameMessageManager

@@ -1237,7 +1237,7 @@ mLoadGroup
 AddRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 }
@@ -3875,7 +3875,7 @@ aSecurityInfo
 *
 aSecurityInfo
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3950,7 +3950,7 @@ aStatus
 ;
 mListener
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -3969,7 +3969,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 aStatus
 )
 ;
@@ -3984,7 +3984,7 @@ cycles
 .
 mCallbacks
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

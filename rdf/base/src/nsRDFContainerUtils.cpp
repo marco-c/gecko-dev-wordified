@@ -554,7 +554,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -830,7 +830,7 @@ NS_PRECONDITION
 aOrdinal
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1038,7 +1038,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1058,7 +1058,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1078,7 +1078,7 @@ NS_PRECONDITION
 _retval
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1313,7 +1313,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1333,7 +1333,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1353,7 +1353,7 @@ NS_PRECONDITION
 _retval
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1404,7 +1404,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1424,7 +1424,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1444,7 +1444,7 @@ NS_PRECONDITION
 _retval
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1495,7 +1495,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1515,7 +1515,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1535,7 +1535,7 @@ NS_PRECONDITION
 _retval
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1968,7 +1968,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2040,7 +2040,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2060,7 +2060,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2080,7 +2080,7 @@ NS_PRECONDITION
 aType
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2102,7 +2102,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsresult
 rv

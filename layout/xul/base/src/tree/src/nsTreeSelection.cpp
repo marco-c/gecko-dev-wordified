@@ -246,11 +246,11 @@ aSel
 )
 mPrev
 (
-nsnull
+nullptr
 )
 mNext
 (
-nsnull
+nullptr
 )
 mMin
 (
@@ -279,11 +279,11 @@ aSel
 )
 mPrev
 (
-nsnull
+nullptr
 )
 mNext
 (
-nsnull
+nullptr
 )
 mMin
 (
@@ -311,12 +311,12 @@ nsTreeRange
 *
 aPrev
 =
-nsnull
+nullptr
 nsTreeRange
 *
 aNext
 =
-nsnull
+nullptr
 )
 {
 if
@@ -558,7 +558,7 @@ mPrev
 =
 mNext
 =
-nsnull
+nullptr
 ;
 delete
 this
@@ -701,7 +701,7 @@ mNext
 =
 mPrev
 =
-nsnull
+nullptr
 ;
 delete
 this
@@ -974,7 +974,7 @@ newRange
 Connect
 (
 this
-nsnull
+nullptr
 )
 ;
 }
@@ -1293,7 +1293,7 @@ mNext
 =
 mPrev
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1388,7 +1388,7 @@ aRange
 Connect
 (
 this
-nsnull
+nullptr
 )
 ;
 }
@@ -1424,7 +1424,7 @@ mShiftSelectPivot
 )
 mFirstRange
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1546,7 +1546,7 @@ Cancel
 ;
 mSelectTimer
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1673,7 +1673,7 @@ nsGkAtoms
 :
 :
 text
-nsnull
+nullptr
 }
 ;
 *
@@ -2341,7 +2341,7 @@ mFirstRange
 ;
 mFirstRange
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2652,7 +2652,7 @@ mFirstRange
 ;
 mFirstRange
 =
-nsnull
+nullptr
 ;
 }
 mShiftSelectPivot
@@ -3722,7 +3722,7 @@ mFirstRange
 ;
 mFirstRange
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -4375,7 +4375,7 @@ self
 >
 mSelectTimer
 =
-nsnull
+nullptr
 ;
 }
 }

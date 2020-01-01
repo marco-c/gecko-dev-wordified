@@ -1017,7 +1017,7 @@ char
 *
 docState
 =
-nsnull
+nullptr
 ;
 nsIDocument
 :
@@ -1242,7 +1242,7 @@ GetRootScrollFrameAsScrollableExternal
 (
 )
 :
-nsnull
+nullptr
 ;
 printf
 (

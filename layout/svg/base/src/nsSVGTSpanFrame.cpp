@@ -1217,7 +1217,7 @@ GetNextGlyphFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP_

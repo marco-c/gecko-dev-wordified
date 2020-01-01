@@ -409,7 +409,7 @@ if
 mContainer
 )
 return
-nsnull
+nullptr
 ;
 mContainer
 -
@@ -423,7 +423,7 @@ IsCompositingCheap
 (
 )
 ?
-nsnull
+nullptr
 :
 BasicManager
 (
@@ -487,7 +487,7 @@ CairoStatus
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -509,7 +509,7 @@ pat
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 pat
@@ -1470,7 +1470,7 @@ ImplData
 Paint
 (
 aContext
-nsnull
+nullptr
 )
 ;
 }
@@ -2044,7 +2044,7 @@ aContext
 GetEffectiveOpacity
 (
 )
-nsnull
+nullptr
 )
 ;
 if
@@ -2228,7 +2228,7 @@ height
 .
 0
 tmpCtx
-nsnull
+nullptr
 )
 ;
 BasicManager

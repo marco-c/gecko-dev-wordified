@@ -575,7 +575,7 @@ nsIContentSink
 *
 aSink
 =
-nsnull
+nullptr
 )
 ;
 virtual

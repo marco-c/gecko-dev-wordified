@@ -618,7 +618,7 @@ aIndex
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -918,7 +918,7 @@ mItems
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1347,7 +1347,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1596,7 +1596,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1931,7 +1931,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2200,7 +2200,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2616,7 +2616,7 @@ DOMSVGPoint
 *
 >
 (
-nsnull
+nullptr
 )
 )
 ;

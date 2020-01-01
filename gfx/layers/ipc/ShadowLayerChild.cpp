@@ -242,7 +242,7 @@ Disconnect
 ;
 mLayer
 =
-nsnull
+nullptr
 ;
 }
 }

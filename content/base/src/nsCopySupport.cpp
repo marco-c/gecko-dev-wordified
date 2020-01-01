@@ -506,7 +506,7 @@ aTransferable
 *
 aTransferable
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -1123,7 +1123,7 @@ clipboard
 aTransferable
 !
 =
-nsnull
+nullptr
 )
 {
 /
@@ -1644,7 +1644,7 @@ clipboard
 SetData
 (
 trans
-nsnull
+nullptr
 aClipboardID
 )
 ;
@@ -1665,7 +1665,7 @@ if
 aTransferable
 !
 =
-nsnull
+nullptr
 )
 {
 trans
@@ -1710,7 +1710,7 @@ nsIDocumentEncoder
 :
 :
 SkipInvisibleContent
-nsnull
+nullptr
 )
 ;
 }
@@ -2083,7 +2083,7 @@ override
 >
 OnCopyOrDrag
 (
-nsnull
+nullptr
 aTrans
 aDoPutOnClipboard
 )
@@ -3185,7 +3185,7 @@ clipboard
 SetData
 (
 trans
-nsnull
+nullptr
 nsIClipboard
 :
 :
@@ -3206,7 +3206,7 @@ clipboard
 SetData
 (
 trans
-nsnull
+nullptr
 nsIClipboard
 :
 :
@@ -3658,7 +3658,7 @@ aSelection
 *
 aSelection
 =
-nsnull
+nullptr
 ;
 nsIPresShell
 *
@@ -3677,7 +3677,7 @@ if
 presShell
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -3819,7 +3819,7 @@ SELECTION_NORMAL
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -4269,7 +4269,7 @@ GetPresContext
 )
 &
 evt
-nsnull
+nullptr
 &
 status
 )

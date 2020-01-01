@@ -1216,7 +1216,7 @@ NS_ERROR_UNEXPECTED
 ;
 mFD
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1231,7 +1231,7 @@ mBitMap
 ;
 mBitMap
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -2261,12 +2261,12 @@ presume
 buffer
 !
 =
-nsnull
+nullptr
 and
 startBlock
 !
 =
-nsnull
+nullptr
 NS_ENSURE_TRUE
 (
 mFD
@@ -2520,7 +2520,7 @@ presume
 buffer
 !
 =
-nsnull
+nullptr
 and
 bytesRead
 !

@@ -409,14 +409,14 @@ SetCookieStringFromHttp
 (
 uri1
 uri2
-nsnull
+nullptr
 (
 char
 *
 )
 aCookieString
 aServerTime
-nsnull
+nullptr
 )
 ;
 /
@@ -561,13 +561,13 @@ aCookieService
 SetCookieString
 (
 uri
-nsnull
+nullptr
 (
 char
 *
 )
 aCookieString
-nsnull
+nullptr
 )
 ;
 /
@@ -758,7 +758,7 @@ GetCookieStringFromHttp
 (
 uri1
 uri2
-nsnull
+nullptr
 aCookie
 )
 ;
@@ -835,7 +835,7 @@ return
 aCookie
 !
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -925,7 +925,7 @@ aCookieService
 GetCookieString
 (
 uri
-nsnull
+nullptr
 aCookie
 )
 ;
@@ -1002,7 +1002,7 @@ return
 aCookie
 !
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1089,7 +1089,7 @@ char
 *
 aRhs
 =
-nsnull
+nullptr
 )
 {
 switch
@@ -1141,7 +1141,7 @@ aRhs
 )
 !
 =
-nsnull
+nullptr
 ;
 case
 MUST_NOT_CONTAIN
@@ -1154,7 +1154,7 @@ aRhs
 )
 =
 =
-nsnull
+nullptr
 ;
 default
 :
@@ -1470,9 +1470,9 @@ rv
 (
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 )
 {
@@ -1491,7 +1491,7 @@ rv
 )
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2087,13 +2087,13 @@ basic
 .
 com
 "
-nsnull
+nullptr
 "
 test
 =
 basic
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -2110,7 +2110,7 @@ basic
 .
 com
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2157,7 +2157,7 @@ testfile
 .
 txt
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2200,7 +2200,7 @@ com
 .
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2237,7 +2237,7 @@ basic
 com
 .
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2280,7 +2280,7 @@ testfile
 .
 txt
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2317,7 +2317,7 @@ basic2
 com
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2353,7 +2353,7 @@ basic
 .
 com
 "
-nsnull
+nullptr
 "
 test
 =
@@ -2366,7 +2366,7 @@ age
 -
 1
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -2384,7 +2384,7 @@ basic
 com
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2477,7 +2477,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 "
 test
 =
@@ -2489,7 +2489,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -2504,7 +2504,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2544,7 +2544,7 @@ domain
 com
 .
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2580,7 +2580,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2621,7 +2621,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2662,7 +2662,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 "
 test
 =
@@ -2681,7 +2681,7 @@ age
 -
 1
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -2696,7 +2696,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2732,7 +2732,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 "
 test
 =
@@ -2745,7 +2745,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -2760,7 +2760,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2801,7 +2801,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2842,7 +2842,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2883,7 +2883,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 "
 test
 =
@@ -2903,7 +2903,7 @@ age
 -
 1
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -2918,7 +2918,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -2954,7 +2954,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 "
 test
 =
@@ -2969,7 +2969,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -2986,7 +2986,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3022,7 +3022,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 "
 test
 =
@@ -3034,7 +3034,7 @@ moose
 .
 com
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -3051,7 +3051,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3087,7 +3087,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 "
 test
 =
@@ -3100,7 +3100,7 @@ domain
 com
 .
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -3117,7 +3117,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3153,7 +3153,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 "
 test
 =
@@ -3167,7 +3167,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -3184,7 +3184,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3220,7 +3220,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 "
 test
 =
@@ -3235,7 +3235,7 @@ domain
 com
 .
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -3252,7 +3252,7 @@ domain
 .
 com
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3290,7 +3290,7 @@ path
 /
 file
 "
-nsnull
+nullptr
 "
 test
 =
@@ -3305,7 +3305,7 @@ bogus
 \
 "
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -3324,7 +3324,7 @@ path
 /
 file
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3367,7 +3367,7 @@ path
 /
 file
 "
-nsnull
+nullptr
 "
 test
 =
@@ -3380,7 +3380,7 @@ age
 -
 1
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -3399,7 +3399,7 @@ path
 /
 file
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3494,7 +3494,7 @@ path
 /
 file
 "
-nsnull
+nullptr
 "
 test
 =
@@ -3505,7 +3505,7 @@ path
 /
 path
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -3522,7 +3522,7 @@ net
 /
 path
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3564,7 +3564,7 @@ net
 path
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3609,7 +3609,7 @@ hithere
 .
 foo
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3654,7 +3654,7 @@ hithere
 /
 foo
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3695,7 +3695,7 @@ net
 /
 path2
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3732,7 +3732,7 @@ net
 path2
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3770,7 +3770,7 @@ path
 /
 file
 "
-nsnull
+nullptr
 "
 test
 =
@@ -3788,7 +3788,7 @@ age
 -
 1
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -3806,7 +3806,7 @@ net
 path
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3844,7 +3844,7 @@ path
 /
 file
 "
-nsnull
+nullptr
 "
 test
 =
@@ -3856,7 +3856,7 @@ path
 path
 /
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -3873,7 +3873,7 @@ net
 /
 path
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3915,7 +3915,7 @@ net
 path
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -3958,7 +3958,7 @@ path
 /
 file
 "
-nsnull
+nullptr
 "
 test
 =
@@ -3977,7 +3977,7 @@ age
 -
 1
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -3995,7 +3995,7 @@ net
 path
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -4080,7 +4080,7 @@ path
 /
 file
 "
-nsnull
+nullptr
 "
 test
 =
@@ -4092,7 +4092,7 @@ path
 foo
 /
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -4109,7 +4109,7 @@ net
 /
 path
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -4145,7 +4145,7 @@ net
 /
 foo
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -4188,7 +4188,7 @@ path
 /
 file
 "
-nsnull
+nullptr
 "
 test
 =
@@ -4207,7 +4207,7 @@ age
 -
 1
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -4225,7 +4225,7 @@ net
 foo
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -4303,7 +4303,7 @@ path
 net
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -4315,7 +4315,7 @@ path
 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
 /
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -4332,7 +4332,7 @@ net
 /
 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -4386,13 +4386,13 @@ net
 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
 /
 "
-nsnull
+nullptr
 "
 test
 =
 path
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -4410,7 +4410,7 @@ net
 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -4456,7 +4456,7 @@ path
 net
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -4470,7 +4470,7 @@ foo
 tbar
 /
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -4490,7 +4490,7 @@ foo
 tbar
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -4536,7 +4536,7 @@ path
 net
 /
 "
-nsnull
+nullptr
 "
 test
 \
@@ -4544,7 +4544,7 @@ ttabs
 =
 tab
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -4560,7 +4560,7 @@ path
 net
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -4608,7 +4608,7 @@ path
 net
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -4616,7 +4616,7 @@ tab
 \
 ttest
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -4632,7 +4632,7 @@ path
 net
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -4674,7 +4674,7 @@ path
 net
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -4689,7 +4689,7 @@ age
 -
 1
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -4705,7 +4705,7 @@ path
 net
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -4810,7 +4810,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -4823,7 +4823,7 @@ age
 -
 1
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -4839,7 +4839,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -4874,7 +4874,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -4886,7 +4886,7 @@ age
 =
 0
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -4902,7 +4902,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -4937,7 +4937,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -4947,7 +4947,7 @@ expires
 =
 bad
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -4963,7 +4963,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -5003,7 +5003,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -5022,7 +5022,7 @@ Apr
 12
 GMT
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -5038,7 +5038,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -5073,7 +5073,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -5094,7 +5094,7 @@ Apr
 12
 GMT
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -5110,7 +5110,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -5145,7 +5145,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -5168,7 +5168,7 @@ GMT
 \
 "
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -5184,7 +5184,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -5219,7 +5219,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -5231,7 +5231,7 @@ age
 =
 60
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -5247,7 +5247,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -5287,7 +5287,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -5300,7 +5300,7 @@ age
 -
 20
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -5316,7 +5316,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -5351,7 +5351,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -5363,7 +5363,7 @@ age
 =
 60
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -5379,7 +5379,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -5419,7 +5419,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -5438,7 +5438,7 @@ Apr
 12
 GMT
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -5454,7 +5454,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -5489,7 +5489,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -5501,7 +5501,7 @@ age
 =
 60
 "
-nsnull
+nullptr
 )
 ;
 SetACookie
@@ -5517,7 +5517,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 newtest
 =
@@ -5529,7 +5529,7 @@ age
 =
 60
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -5545,7 +5545,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -5605,7 +5605,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -5617,7 +5617,7 @@ age
 =
 0
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -5633,7 +5633,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -5673,7 +5673,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 newtest
 =
@@ -5685,7 +5685,7 @@ age
 =
 0
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -5701,7 +5701,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -5738,7 +5738,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -5757,7 +5757,7 @@ age
 =
 60
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -5773,7 +5773,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -5815,7 +5815,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -5834,7 +5834,7 @@ age
 =
 0
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -5850,7 +5850,7 @@ expireme
 org
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -5955,7 +5955,7 @@ multiple
 cookies
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -6007,7 +6007,7 @@ newtest
 =
 reincarnated
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -6023,7 +6023,7 @@ multiple
 cookies
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -6163,7 +6163,7 @@ multiple
 cookies
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -6182,7 +6182,7 @@ age
 =
 0
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -6198,7 +6198,7 @@ multiple
 cookies
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -6238,7 +6238,7 @@ multiple
 cookies
 /
 "
-nsnull
+nullptr
 "
 \
 n
@@ -6254,7 +6254,7 @@ age
 \
 n
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -6270,7 +6270,7 @@ multiple
 cookies
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -6310,7 +6310,7 @@ multiple
 cookies
 /
 "
-nsnull
+nullptr
 "
 newtest
 =
@@ -6322,7 +6322,7 @@ age
 =
 0
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -6338,7 +6338,7 @@ multiple
 cookies
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -6422,7 +6422,7 @@ parser
 test
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -6458,7 +6458,7 @@ age
 ;
 ;
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -6474,7 +6474,7 @@ parser
 test
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -6514,7 +6514,7 @@ parser
 test
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -6533,7 +6533,7 @@ age
 =
 0
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -6549,7 +6549,7 @@ parser
 test
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -6584,7 +6584,7 @@ parser
 test
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -6628,7 +6628,7 @@ age
 .
 63
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -6644,7 +6644,7 @@ parser
 test
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -6707,7 +6707,7 @@ parser
 test
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -6735,7 +6735,7 @@ age
 =
 0
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -6751,7 +6751,7 @@ parser
 test
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -6827,11 +6827,11 @@ parser
 test
 /
 "
-nsnull
+nullptr
 "
 six
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -6847,7 +6847,7 @@ parser
 test
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -6885,11 +6885,11 @@ parser
 test
 /
 "
-nsnull
+nullptr
 "
 seven
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -6905,7 +6905,7 @@ parser
 test
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -6943,12 +6943,12 @@ parser
 test
 /
 "
-nsnull
+nullptr
 "
 =
 eight
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -6964,7 +6964,7 @@ parser
 test
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -7002,13 +7002,13 @@ parser
 test
 /
 "
-nsnull
+nullptr
 "
 test
 =
 six
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -7024,7 +7024,7 @@ parser
 test
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -7141,7 +7141,7 @@ path
 tests
 /
 "
-nsnull
+nullptr
 "
 test1
 =
@@ -7156,7 +7156,7 @@ two
 /
 three
 "
-nsnull
+nullptr
 )
 ;
 SetACookie
@@ -7174,7 +7174,7 @@ path
 tests
 /
 "
-nsnull
+nullptr
 "
 test2
 =
@@ -7226,7 +7226,7 @@ one
 two
 /
 "
-nsnull
+nullptr
 )
 ;
 SetACookie
@@ -7254,13 +7254,13 @@ four
 five
 /
 "
-nsnull
+nullptr
 "
 test6
 =
 path
 "
-nsnull
+nullptr
 )
 ;
 SetACookie
@@ -7290,7 +7290,7 @@ five
 six
 /
 "
-nsnull
+nullptr
 "
 test7
 =
@@ -7299,7 +7299,7 @@ path
 path
 =
 "
-nsnull
+nullptr
 )
 ;
 SetACookie
@@ -7317,7 +7317,7 @@ path
 tests
 /
 "
-nsnull
+nullptr
 "
 test8
 =
@@ -7327,7 +7327,7 @@ path
 =
 /
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -7357,7 +7357,7 @@ five
 six
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -7498,7 +7498,7 @@ httponly
 test
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -7546,7 +7546,7 @@ httponly
 test
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -7554,7 +7554,7 @@ httponly
 ;
 httponly
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -7570,7 +7570,7 @@ httponly
 test
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -7665,7 +7665,7 @@ httponly
 test
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -7673,7 +7673,7 @@ httponly
 ;
 httponly
 "
-nsnull
+nullptr
 )
 ;
 SetACookieNoHttp
@@ -7711,7 +7711,7 @@ httponly
 test
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -7814,7 +7814,7 @@ httponly
 test
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -7822,7 +7822,7 @@ httponly
 ;
 httponly
 "
-nsnull
+nullptr
 )
 ;
 SetACookieNoHttp
@@ -7865,7 +7865,7 @@ httponly
 test
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -7914,7 +7914,7 @@ httponly
 test
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -7929,7 +7929,7 @@ age
 -
 1
 "
-nsnull
+nullptr
 )
 ;
 GetACookie
@@ -7945,7 +7945,7 @@ httponly
 test
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -7994,7 +7994,7 @@ httponly
 test
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -8002,7 +8002,7 @@ httponly
 ;
 httponly
 "
-nsnull
+nullptr
 )
 ;
 SetACookie
@@ -8018,7 +8018,7 @@ httponly
 test
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -8026,7 +8026,7 @@ not
 -
 httponly
 "
-nsnull
+nullptr
 )
 ;
 GetACookieNoHttp
@@ -8102,7 +8102,7 @@ httponly
 test
 /
 "
-nsnull
+nullptr
 "
 test
 =
@@ -8110,7 +8110,7 @@ not
 -
 httponly
 "
-nsnull
+nullptr
 )
 ;
 SetACookieNoHttp
@@ -8729,7 +8729,7 @@ test
 foo
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -9363,13 +9363,13 @@ ordering
 tests
 /
 "
-nsnull
+nullptr
 name
 .
 get
 (
 )
-nsnull
+nullptr
 )
 ;
 if
@@ -9418,7 +9418,7 @@ ordering
 tests
 /
 "
-nsnull
+nullptr
 getter_Copies
 (
 cookie
@@ -9565,7 +9565,7 @@ sBuffer
 ;
 sBuffer
 =
-nsnull
+nullptr
 ;
 return
 0

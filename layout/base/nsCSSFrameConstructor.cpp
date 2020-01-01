@@ -2060,8 +2060,8 @@ FrameCreationFunc
 )
 _func
 }
-nsnull
-nsnull
+nullptr
+nullptr
 }
 #
 define
@@ -2083,7 +2083,7 @@ FrameCreationFunc
 )
 _func
 }
-nsnull
+nullptr
 &
 _anon_box
 }
@@ -2509,7 +2509,7 @@ GetContent
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3017,7 +3017,7 @@ code
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -5451,7 +5451,7 @@ nsIFrame
 *
 aInsertAfterFrame
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -5847,7 +5847,7 @@ ifdef
 MOZ_XUL
 mPopupItems
 (
-nsnull
+nullptr
 )
 #
 endif
@@ -6013,7 +6013,7 @@ ifdef
 MOZ_XUL
 mPopupItems
 (
-nsnull
+nullptr
 )
 #
 endif
@@ -6468,7 +6468,7 @@ aContainingBlockIn
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -7463,7 +7463,7 @@ aContent
 aNewFrame
 aStyleContext
 aParentFrame
-nsnull
+nullptr
 placeholderType
 &
 placeholderFrame
@@ -7613,7 +7613,7 @@ frameItems
 >
 InsertFrame
 (
-nsnull
+nullptr
 aInsertAfterFrame
 aNewFrame
 )
@@ -8156,7 +8156,7 @@ nsIFrame
 *
 insertionPoint
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -8337,15 +8337,15 @@ nsFrameConstructorSaveState
 :
 mItems
 (
-nsnull
+nullptr
 )
 mFixedPosIsAbsPos
 (
-nsnull
+nullptr
 )
 mSavedItems
 (
-nsnull
+nullptr
 )
 mSavedFixedPosIsAbsPos
 (
@@ -8357,7 +8357,7 @@ kPrincipalList
 )
 mState
 (
-nsnull
+nullptr
 )
 {
 }
@@ -9001,27 +9001,27 @@ aDocument
 )
 mRootElementFrame
 (
-nsnull
+nullptr
 )
 mRootElementStyleFrame
 (
-nsnull
+nullptr
 )
 mFixedContainingBlock
 (
-nsnull
+nullptr
 )
 mDocElementContainingBlock
 (
-nsnull
+nullptr
 )
 mGfxScrollFrame
 (
-nsnull
+nullptr
 )
 mPageSequenceFrame
 (
-nsnull
+nullptr
 )
 mUpdateCount
 (
@@ -9688,7 +9688,7 @@ well
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 content
@@ -9840,7 +9840,7 @@ an
 image
 object
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -9896,7 +9896,7 @@ nsGkAtoms
 :
 :
 mozgeneratedcontentimage
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -9956,8 +9956,8 @@ mContent
 .
 mString
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 case
@@ -10129,7 +10129,7 @@ attrName
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -10212,7 +10212,7 @@ if
 counterList
 )
 return
-nsnull
+nullptr
 ;
 nsCounterUseNode
 *
@@ -10275,7 +10275,7 @@ above
 )
 ;
 return
-nsnull
+nullptr
 ;
 case
 eStyleContentType_OpenQuote
@@ -10552,8 +10552,8 @@ CreateGenConTextNode
 (
 aState
 temp
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -10565,7 +10565,7 @@ break
 /
 switch
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -10881,7 +10881,7 @@ NodeInfoManager
 GetNodeInfo
 (
 elemName
-nsnull
+nullptr
 kNameSpaceID_None
 nsIDOMNode
 :
@@ -12153,7 +12153,7 @@ InitAndRestoreFrame
 aState
 content
 geometricParent
-nsnull
+nullptr
 newFrame
 )
 ;
@@ -12214,7 +12214,7 @@ InitAndRestoreFrame
 aState
 content
 newFrame
-nsnull
+nullptr
 innerFrame
 )
 ;
@@ -12598,7 +12598,7 @@ InitAndRestoreFrame
 aState
 content
 aParentFrame
-nsnull
+nullptr
 newFrame
 )
 ;
@@ -12761,7 +12761,7 @@ InitAndRestoreFrame
 aState
 content
 aParentFrame
-nsnull
+nullptr
 colFrame
 )
 ;
@@ -12864,7 +12864,7 @@ InitAndRestoreFrame
 aState
 content
 aParentFrame
-nsnull
+nullptr
 newCol
 false
 )
@@ -13219,7 +13219,7 @@ InitAndRestoreFrame
 aState
 content
 aParentFrame
-nsnull
+nullptr
 newFrame
 )
 ;
@@ -13341,7 +13341,7 @@ InitAndRestoreFrame
 aState
 content
 newFrame
-nsnull
+nullptr
 cellInnerFrame
 )
 ;
@@ -13432,7 +13432,7 @@ aState
 .
 PushFloatContainingBlock
 (
-nsnull
+nullptr
 floatSaveState
 )
 ;
@@ -14170,7 +14170,7 @@ IsPaginated
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 Element
@@ -14219,7 +14219,7 @@ styleSet
 ResolveStyleFor
 (
 docElement
-nsnull
+nullptr
 )
 ;
 if
@@ -14229,7 +14229,7 @@ rootStyle
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -14361,7 +14361,7 @@ IsHTML
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -14436,7 +14436,7 @@ frameset
 >
 .
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -14468,7 +14468,7 @@ bodyStyle
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -14503,7 +14503,7 @@ bodyElement
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -14575,7 +14575,7 @@ here
 *
 aNewFrame
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -14634,8 +14634,8 @@ state
 (
 mPresShell
 mFixedContainingBlock
-nsnull
-nsnull
+nullptr
+nullptr
 aFrameState
 )
 ;
@@ -14673,7 +14673,7 @@ mAncestorFilter
 .
 Init
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -14821,7 +14821,7 @@ StyleSet
 ResolveStyleFor
 (
 aDocElement
-nsnull
+nullptr
 )
 ;
 const
@@ -15019,7 +15019,7 @@ StyleSet
 ResolveStyleFor
 (
 aDocElement
-nsnull
+nullptr
 )
 ;
 display
@@ -15381,7 +15381,7 @@ InitAndRestoreFrame
 state
 aDocElement
 mDocElementContainingBlock
-nsnull
+nullptr
 contentFrame
 )
 ;
@@ -15524,7 +15524,7 @@ rootSVGData
 FCDATA_DECL
 (
 0
-nsnull
+nullptr
 )
 ;
 nsRefPtr
@@ -15549,7 +15549,7 @@ Tag
 (
 )
 kNameSpaceID_SVG
-nsnull
+nullptr
 extraRef
 .
 forget
@@ -15756,7 +15756,7 @@ rootTableData
 FCDATA_DECL
 (
 0
-nsnull
+nullptr
 )
 ;
 nsRefPtr
@@ -15781,7 +15781,7 @@ Tag
 (
 )
 kNameSpaceID_None
-nsnull
+nullptr
 extraRef
 .
 forget
@@ -15935,7 +15935,7 @@ display
 IsPositioned
 (
 )
-nsnull
+nullptr
 )
 ;
 if
@@ -16160,7 +16160,7 @@ contentFrame
 true
 childItems
 false
-nsnull
+nullptr
 )
 ;
 /
@@ -16303,7 +16303,7 @@ nsIFrame
 *
 viewportFrame
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -16322,7 +16322,7 @@ nsCSSAnonBoxes
 :
 :
 viewport
-nsnull
+nullptr
 )
 ;
 viewportFrame
@@ -16377,9 +16377,9 @@ viewportFrame
 >
 Init
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 /
@@ -16944,7 +16944,7 @@ nsIFrame
 *
 rootFrame
 =
-nsnull
+nullptr
 ;
 nsIAtom
 *
@@ -17401,9 +17401,9 @@ nsFrameConstructorState
 state
 (
 mPresShell
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 /
@@ -17691,7 +17691,7 @@ content
 .
 newFrame
 =
-nsnull
+nullptr
 ;
 rootPseudoStyle
 =
@@ -17730,7 +17730,7 @@ Init
 (
 aDocElement
 parentFrame
-nsnull
+nullptr
 )
 ;
 if
@@ -17777,7 +17777,7 @@ ConstructPageFrame
 mPresShell
 presContext
 rootFrame
-nsnull
+nullptr
 pageFrame
 canvasFrame
 )
@@ -17986,7 +17986,7 @@ aPageFrame
 >
 Init
 (
-nsnull
+nullptr
 aParentFrame
 aPrevPageFrame
 )
@@ -18069,7 +18069,7 @@ nsIFrame
 *
 prevPageContentFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -18102,7 +18102,7 @@ pageContentFrame
 >
 Init
 (
-nsnull
+nullptr
 aPageFrame
 prevPageContentFrame
 )
@@ -18179,7 +18179,7 @@ nsIFrame
 *
 prevCanvasFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -18211,7 +18211,7 @@ aCanvasFrame
 >
 Init
 (
-nsnull
+nullptr
 pageContentFrame
 prevCanvasFrame
 )
@@ -18840,7 +18840,7 @@ aState
 .
 mFrameState
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -18859,7 +18859,7 @@ GetGeometricParent
 aStyleDisplay
 aParentFrame
 )
-nsnull
+nullptr
 comboboxFrame
 )
 ;
@@ -19138,7 +19138,7 @@ ListFrame
 s
 view
 is
-nsnull
+nullptr
 "
 )
 ;
@@ -19542,7 +19542,7 @@ Init
 (
 aContent
 geometricParent
-nsnull
+nullptr
 )
 ;
 if
@@ -19755,7 +19755,7 @@ GetGeometricParent
 aStyleDisplay
 aParentFrame
 )
-nsnull
+nullptr
 newFrame
 )
 ;
@@ -19810,7 +19810,7 @@ InitAndRestoreFrame
 aState
 content
 newFrame
-nsnull
+nullptr
 blockFrame
 )
 ;
@@ -20048,7 +20048,7 @@ fieldsetKids
 InsertFrame
 (
 newFrame
-nsnull
+nullptr
 child
 )
 ;
@@ -20222,7 +20222,7 @@ f
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -20249,10 +20249,10 @@ _flags
 |
 FCDATA_FUNC_IS_FULL_CTOR
 {
-nsnull
+nullptr
 }
 _func
-nsnull
+nullptr
 }
 /
 *
@@ -20340,7 +20340,7 @@ sSVGGlyphData
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -20435,7 +20435,7 @@ InitAndRestoreFrame
 aState
 aContent
 aParentFrame
-nsnull
+nullptr
 newFrame
 )
 ;
@@ -20706,7 +20706,7 @@ data
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -20819,7 +20819,7 @@ data
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -20830,7 +20830,7 @@ SUPPRESS_FCDATA
 FCDATA_DECL
 (
 FCDATA_SUPPRESS_FRAME
-nsnull
+nullptr
 )
 #
 define
@@ -21019,7 +21019,7 @@ kNameSpaceID_XHTML
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -21291,7 +21291,7 @@ I
 think
 .
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -21522,7 +21522,7 @@ aStyleContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -21578,7 +21578,7 @@ aStyleContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -22147,7 +22147,7 @@ IsScriptEnabled
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -22605,7 +22605,7 @@ AsElement
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 nsIFrame
@@ -22799,7 +22799,7 @@ nsIFrame
 *
 frameToAddToList
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -22838,7 +22838,7 @@ InitAndRestoreFrame
 aState
 content
 geometricParent
-nsnull
+nullptr
 newFrame
 )
 ;
@@ -23041,7 +23041,7 @@ InitAndRestoreFrame
 aState
 content
 newFrame
-nsnull
+nullptr
 blockFrame
 )
 ;
@@ -23278,7 +23278,7 @@ aState
 .
 PushAbsoluteContainingBlock
 (
-nsnull
+nullptr
 absoluteSaveState
 )
 ;
@@ -23563,7 +23563,7 @@ FirstChild
 )
 !
 =
-nsnull
+nullptr
 )
 {
 bool
@@ -24962,7 +24962,7 @@ layout
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -25013,7 +25013,7 @@ kNameSpaceID_XUL
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -25273,7 +25273,7 @@ IsRootOfNativeAnonymousSubtree
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -25714,7 +25714,7 @@ NS_STYLE_DISPLAY_GRID_GROUP
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -25773,7 +25773,7 @@ NS_STYLE_DISPLAY_GRID_LINE
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -26066,7 +26066,7 @@ InitAndRestoreFrame
 aState
 aContent
 aParentFrame
-nsnull
+nullptr
 gfxScrollFrame
 )
 ;
@@ -26133,7 +26133,7 @@ CreateAnonymousFrames
 aState
 aContent
 gfxScrollFrame
-nsnull
+nullptr
 anonymousItems
 )
 ;
@@ -26552,7 +26552,7 @@ InitAndRestoreFrame
 aState
 aContent
 aNewFrame
-nsnull
+nullptr
 aScrolledFrame
 )
 ;
@@ -27362,7 +27362,7 @@ mStyleContext
 *
 aNewFrame
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -27912,7 +27912,7 @@ nsStyleContext
 *
 parentStyleContext
 =
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -27938,7 +27938,7 @@ nsFrame
 CorrectStyleParentFrame
 (
 aParentFrame
-nsnull
+nullptr
 )
 ;
 if
@@ -28349,7 +28349,7 @@ InitAndRestoreFrame
 aState
 aContent
 aParentFrame
-nsnull
+nullptr
 blockFrame
 )
 ;
@@ -28527,7 +28527,7 @@ aNameSpaceID
 kNameSpaceID_MathML
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -28908,7 +28908,7 @@ InitAndRestoreFrame
 aState
 content
 geometricParent
-nsnull
+nullptr
 newFrame
 )
 ;
@@ -28995,7 +28995,7 @@ InitAndRestoreFrame
 aState
 content
 newFrame
-nsnull
+nullptr
 innerFrame
 )
 ;
@@ -29361,7 +29361,7 @@ kNameSpaceID_SVG
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -29401,7 +29401,7 @@ GetContent
 (
 )
 :
-nsnull
+nullptr
 ;
 /
 /
@@ -30793,7 +30793,7 @@ nsCSSAnonBoxes
 :
 pageBreak
 kNameSpaceID_None
-nsnull
+nullptr
 pseudoStyle
 .
 forget
@@ -30825,7 +30825,7 @@ aFrameItems
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aParentFrame
@@ -31463,7 +31463,7 @@ PendingBinding
 *
 pendingBinding
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -33031,7 +33031,7 @@ aState
 GetGeometricParent
 (
 display
-nsnull
+nullptr
 )
 )
 ;
@@ -33277,7 +33277,7 @@ aState
 GetGeometricParent
 (
 display
-nsnull
+nullptr
 )
 )
 )
@@ -34390,7 +34390,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -34453,7 +34453,7 @@ aContent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -34520,7 +34520,7 @@ aFrame
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 mRootElementFrame
@@ -34635,7 +34635,7 @@ method
 .
 .
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -34757,7 +34757,7 @@ nsIFrame
 *
 absPosCBCandidate
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -34945,7 +34945,7 @@ mHasRootAbsPosContainingBlock
 ?
 mDocElementContainingBlock
 :
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -35094,7 +35094,7 @@ one
 return
 null
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -35275,7 +35275,7 @@ GetParent
 *
 aAfterFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -36540,13 +36540,13 @@ nsIAtom
 *
 parentType
 =
-nsnull
+nullptr
 ;
 nsIAtom
 *
 grandparentType
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -36753,7 +36753,7 @@ ResolveStyleContext
 (
 styleParent
 aContent
-nsnull
+nullptr
 )
 ;
 if
@@ -37280,7 +37280,7 @@ s
 fixed
 .
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -37493,7 +37493,7 @@ aTargetContentDisplay
 {
 sibling
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -37610,7 +37610,7 @@ prevSibling
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -37670,7 +37670,7 @@ is
 fixed
 .
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -37726,7 +37726,7 @@ nextSibling
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -37784,7 +37784,7 @@ nsIFrame
 *
 newParent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -38560,7 +38560,7 @@ if
 aContainer
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -38648,7 +38648,7 @@ false
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -38867,7 +38867,7 @@ ContentInserted
 (
 aParentContent
 aContent
-nsnull
+nullptr
 false
 )
 ;
@@ -39839,7 +39839,7 @@ nsIContent
 *
 firstChildInRun
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -40000,7 +40000,7 @@ ContentRangeInserted
 aContent
 firstChildInRun
 child
-nsnull
+nullptr
 false
 )
 ;
@@ -40396,7 +40396,7 @@ false
 GetInsertionPoint
 (
 aParentFrame
-nsnull
+nullptr
 &
 insertionPoint
 &
@@ -40409,7 +40409,7 @@ if
 insertionPoint
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -40729,7 +40729,7 @@ multiple
 aEndChild
 !
 =
-nsnull
+nullptr
 |
 |
 childCount
@@ -40780,7 +40780,7 @@ aAllowLazyConstruction
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -41244,7 +41244,7 @@ GetRangeInsertionPoint
 aContainer
 parentFrame
 aFirstNewContent
-nsnull
+nullptr
 aAllowLazyConstruction
 )
 ;
@@ -41272,7 +41272,7 @@ MaybeRecreateForFrameset
 (
 parentFrame
 aFirstNewContent
-nsnull
+nullptr
 )
 )
 {
@@ -41332,7 +41332,7 @@ again
 ClearLazyBits
 (
 aFirstNewContent
-nsnull
+nullptr
 )
 ;
 return
@@ -41808,7 +41808,7 @@ aContainer
 )
 =
 =
-nsnull
+nullptr
 ;
 FrameConstructionItemList
 items
@@ -42808,7 +42808,7 @@ ContentRangeInserted
 mPresShell
 aContainer
 aFirstNewContent
-nsnull
+nullptr
 )
 ;
 }
@@ -43702,9 +43702,9 @@ sibling
 "
 .
 aStartChild
-nsnull
+nullptr
 mDocument
-nsnull
+nullptr
 CONTENT_INSERTED
 )
 )
@@ -43862,7 +43862,7 @@ NS_OK
 }
 NS_PRECONDITION
 (
-nsnull
+nullptr
 =
 =
 mRootElementFrame
@@ -44599,7 +44599,7 @@ AsElement
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 /
@@ -45315,7 +45315,7 @@ aContainer
 )
 =
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -46510,7 +46510,7 @@ nsIFrame
 *
 captionPrevSibling
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -46611,7 +46611,7 @@ nsIFrame
 *
 outerTable
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -46760,7 +46760,7 @@ outerTable
 {
 captionPrevSibling
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -48386,23 +48386,23 @@ isRoot
 {
 mRootElementFrame
 =
-nsnull
+nullptr
 ;
 mRootElementStyleFrame
 =
-nsnull
+nullptr
 ;
 mDocElementContainingBlock
 =
-nsnull
+nullptr
 ;
 mPageSequenceFrame
 =
-nsnull
+nullptr
 ;
 mGfxScrollFrame
 =
-nsnull
+nullptr
 ;
 mHasRootAbsPosContainingBlock
 =
@@ -48959,7 +48959,7 @@ PresContext
 (
 )
 aFrame
-nsnull
+nullptr
 view
 )
 ;
@@ -50748,7 +50748,7 @@ the
 content
 if
 (
-nsnull
+nullptr
 !
 =
 frame
@@ -51065,7 +51065,7 @@ rv
 NS_DECLARE_FRAME_PROPERTY
 (
 ChangeListProperty
-nsnull
+nullptr
 )
 nsresult
 nsCSSFrameConstructor
@@ -51392,7 +51392,7 @@ fixed
 .
 frame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -52619,7 +52619,7 @@ fixed
 .
 aPrimaryFrame
 =
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -53017,7 +53017,7 @@ WidgetStateChanged
 (
 primaryFrame
 app
-nsnull
+nullptr
 &
 repaint
 )
@@ -54456,7 +54456,7 @@ Destroy
 *
 aContinuingFrame
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -54525,7 +54525,7 @@ else
 *
 aContinuingFrame
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -54731,7 +54731,7 @@ GetAbsoluteContainingBlock
 (
 newFrame
 )
-nsnull
+nullptr
 )
 ;
 state
@@ -54778,7 +54778,7 @@ Init
 (
 headerFooter
 newFrame
-nsnull
+nullptr
 )
 ;
 ProcessChildren
@@ -54795,7 +54795,7 @@ headerFooterFrame
 true
 childItems
 false
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION
@@ -54900,7 +54900,7 @@ else
 *
 aContinuingFrame
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -54956,7 +54956,7 @@ nsIFrame
 *
 newFrame
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -55483,7 +55483,7 @@ Destroy
 *
 aContinuingFrame
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -55655,7 +55655,7 @@ Destroy
 *
 aContinuingFrame
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -55887,7 +55887,7 @@ rv
 *
 aContinuingFrame
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -55940,7 +55940,7 @@ Destroy
 *
 aContinuingFrame
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -56046,7 +56046,7 @@ Destroy
 *
 aContinuingFrame
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -56121,7 +56121,7 @@ type
 *
 aContinuingFrame
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_UNEXPECTED
@@ -56536,7 +56536,7 @@ state
 (
 mPresShell
 aParentFrame
-nsnull
+nullptr
 mRootElementFrame
 )
 ;
@@ -57210,7 +57210,7 @@ point
 *
 aInsertionPoint
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -59579,7 +59579,7 @@ GetContent
 (
 )
 :
-nsnull
+nullptr
 ;
 /
 /
@@ -59797,7 +59797,7 @@ IsRootOfAnonymousSubtree
 (
 )
 ?
-nsnull
+nullptr
 :
 aContent
 -
@@ -60024,7 +60024,7 @@ aStyleContext
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -60075,7 +60075,7 @@ aStyleContext
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -61079,7 +61079,7 @@ mNameSpaceID
 no
 pending
 binding
-nsnull
+nullptr
 wrapperStyle
 .
 forget
@@ -62716,7 +62716,7 @@ mNameSpaceID
 no
 pending
 binding
-nsnull
+nullptr
 wrapperStyle
 .
 forget
@@ -63360,7 +63360,7 @@ aState
 .
 PushFloatContainingBlock
 (
-nsnull
+nullptr
 floatSaveState
 )
 ;
@@ -63900,7 +63900,7 @@ nsFrame
 CorrectStyleParentFrame
 (
 aFrame
-nsnull
+nullptr
 )
 -
 >
@@ -64066,7 +64066,7 @@ aContent
 GetFirstChild
 (
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -64138,7 +64138,7 @@ WrapFramesInFirstLineFrame
 aState
 aContent
 aFrame
-nsnull
+nullptr
 aFrameItems
 )
 ;
@@ -64241,7 +64241,7 @@ FirstChild
 )
 !
 =
-nsnull
+nullptr
 )
 "
 Something
@@ -64512,7 +64512,7 @@ InitAndRestoreFrame
 aState
 aContent
 aFrame
-nsnull
+nullptr
 blockFrame
 false
 )
@@ -64998,7 +64998,7 @@ InitAndRestoreFrame
 aState
 aBlockContent
 aBlockFrame
-nsnull
+nullptr
 aLineFrame
 )
 ;
@@ -65046,8 +65046,8 @@ aFrameItems
 .
 InsertFrame
 (
-nsnull
-nsnull
+nullptr
+nullptr
 aLineFrame
 )
 ;
@@ -65281,7 +65281,7 @@ WrapFramesInFirstLineFrame
 aState
 aBlockContent
 aBlockFrame
-nsnull
+nullptr
 aFrameItems
 )
 ;
@@ -65668,7 +65668,7 @@ InsertFrames
 (
 lineFrame
 kPrincipalList
-nsnull
+nullptr
 newFrame
 )
 ;
@@ -65699,13 +65699,13 @@ aFrameItems
 .
 childList
 =
-nsnull
+nullptr
 ;
 aFrameItems
 .
 lastChild
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -65866,7 +65866,7 @@ InitAndRestoreFrame
 aState
 aContent
 aBlockFrame
-nsnull
+nullptr
 lineFrame
 )
 ;
@@ -66413,13 +66413,13 @@ aFrameItems
 .
 childList
 =
-nsnull
+nullptr
 ;
 aFrameItems
 .
 lastChild
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -66936,7 +66936,7 @@ InitAndRestoreFrame
 aState
 letterContent
 containingBlock
-nsnull
+nullptr
 letterFrame
 )
 ;
@@ -67029,7 +67029,7 @@ InitAndRestoreFrame
 aState
 aTextContent
 letterFrame
-nsnull
+nullptr
 aTextFrame
 )
 ;
@@ -67103,7 +67103,7 @@ nsIFrame
 *
 nextTextFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -67645,7 +67645,7 @@ aTextContent
 >
 SetPrimaryFrame
 (
-nsnull
+nullptr
 )
 ;
 nsIFrame
@@ -67840,7 +67840,7 @@ Init
 (
 letterContent
 aParentFrame
-nsnull
+nullptr
 )
 ;
 InitAndRestoreFrame
@@ -67848,7 +67848,7 @@ InitAndRestoreFrame
 state
 aTextContent
 letterFrame
-nsnull
+nullptr
 textFrame
 )
 ;
@@ -67947,19 +67947,19 @@ nsIFrame
 *
 parentFrame
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
 textFrame
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
 prevFrame
 =
-nsnull
+nullptr
 ;
 nsFrameItems
 letterFrames
@@ -68052,7 +68052,7 @@ aBlockFrames
 .
 InsertFrames
 (
-nsnull
+nullptr
 prevFrame
 letterFrames
 )
@@ -68154,7 +68154,7 @@ nsIFrame
 *
 prevFrame
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -68809,7 +68809,7 @@ Init
 (
 textContent
 parentFrame
-nsnull
+nullptr
 )
 ;
 /
@@ -69033,7 +69033,7 @@ nsIFrame
 *
 prevSibling
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -69192,7 +69192,7 @@ Init
 (
 textContent
 aFrame
-nsnull
+nullptr
 )
 ;
 /
@@ -69505,19 +69505,19 @@ nsIFrame
 *
 parentFrame
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
 textFrame
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
 prevFrame
 =
-nsnull
+nullptr
 ;
 nsFrameItems
 letterFrames
@@ -69789,7 +69789,7 @@ new
 frame
 if
 (
-nsnull
+nullptr
 !
 =
 aParentFrame
@@ -69904,7 +69904,7 @@ mDisplay
 *
 aNewFrame
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -70250,7 +70250,7 @@ nsIFrame
 *
 columnSetFrame
 =
-nsnull
+nullptr
 ;
 columnSetFrame
 =
@@ -70276,7 +70276,7 @@ InitAndRestoreFrame
 aState
 aContent
 aParentFrame
-nsnull
+nullptr
 columnSetFrame
 )
 ;
@@ -70328,7 +70328,7 @@ InitAndRestoreFrame
 aState
 aContent
 parent
-nsnull
+nullptr
 blockFrame
 )
 ;
@@ -71184,7 +71184,7 @@ InitAndRestoreFrame
 aState
 content
 aParentFrame
-nsnull
+nullptr
 newFrame
 )
 ;
@@ -71869,7 +71869,7 @@ InitAndRestoreFrame
 aState
 content
 parentFrame
-nsnull
+nullptr
 blockFrame
 false
 )
@@ -71980,7 +71980,7 @@ InitAndRestoreFrame
 aState
 content
 parentFrame
-nsnull
+nullptr
 inlineFrame
 false
 )
@@ -72080,7 +72080,7 @@ NotEmpty
 SetFrameIsSpecial
 (
 lastNewInline
-nsnull
+nullptr
 )
 ;
 }
@@ -72192,7 +72192,7 @@ AsElement
 CreateGeneratedContentItem
 (
 aState
-nsnull
+nullptr
 parentContent
 parentStyleContext
 nsCSSPseudoElements
@@ -72407,7 +72407,7 @@ AddFrameConstructionItemsInternal
 (
 aState
 content
-nsnull
+nullptr
 content
 -
 >
@@ -72445,7 +72445,7 @@ after
 CreateGeneratedContentItem
 (
 aState
-nsnull
+nullptr
 parentContent
 parentStyleContext
 nsCSSPseudoElements
@@ -73149,7 +73149,7 @@ aState
 .
 PushFloatContainingBlock
 (
-nsnull
+nullptr
 floatSaveState
 )
 ;
@@ -77488,7 +77488,7 @@ reachedFollowingSibling
 aFollowingSibling
 =
 =
-nsnull
+nullptr
 )
 ;
 for
@@ -78754,9 +78754,9 @@ nsFrameConstructorState
 state
 (
 mPresShell
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 /
@@ -78822,7 +78822,7 @@ aFrame
 false
 childItems
 false
-nsnull
+nullptr
 )
 ;
 if
@@ -78909,7 +78909,7 @@ ContentRangeInserted
 mPresShell
 container
 child
-nsnull
+nullptr
 )
 ;
 }
@@ -79658,7 +79658,7 @@ mStyleContext
 GetStyleDisplay
 (
 )
-nsnull
+nullptr
 )
 )
 {

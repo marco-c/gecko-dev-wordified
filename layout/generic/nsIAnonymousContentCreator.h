@@ -270,7 +270,7 @@ returned
 elements
 can
 be
-nsnull
+nullptr
 .
 *
 *
@@ -449,7 +449,7 @@ default
 this
 method
 returns
-nsnull
+nullptr
 which
 means
 the
@@ -472,7 +472,7 @@ aContent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }

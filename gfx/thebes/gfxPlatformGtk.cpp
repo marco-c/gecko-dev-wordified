@@ -356,7 +356,7 @@ gfxPlatformGtk
 :
 sFontconfigUtils
 =
-nsnull
+nullptr
 ;
 #
 ifndef
@@ -569,7 +569,7 @@ Shutdown
 ;
 sFontconfigUtils
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -999,7 +999,7 @@ CairoStatus
 {
 newSurface
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2966,7 +2966,7 @@ n
 #
 endif
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -3483,7 +3483,7 @@ profile
 #
 endif
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -3546,7 +3546,7 @@ ff
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -3591,7 +3591,7 @@ if
 ff
 )
 return
-nsnull
+nullptr
 ;
 return
 ff
@@ -3671,7 +3671,7 @@ gPlatformFonts
 gCodepointsWithNoFonts
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -3697,7 +3697,7 @@ aCh
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 GlobalFontMatch
@@ -3718,7 +3718,7 @@ GetStyle
 (
 )
 :
-nsnull
+nullptr
 )
 )
 ;
@@ -3826,7 +3826,7 @@ aCh
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool

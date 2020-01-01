@@ -303,7 +303,7 @@ stack
 >
 Push
 (
-nsnull
+nullptr
 )
 )
 )
@@ -352,7 +352,7 @@ NS_ASSERTION
 cx
 =
 =
-nsnull
+nullptr
 "
 JSContextStack
 mismatch

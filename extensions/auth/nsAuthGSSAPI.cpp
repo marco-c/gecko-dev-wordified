@@ -558,7 +558,7 @@ PRLibrary
 *
 gssLibrary
 =
-nsnull
+nullptr
 ;
 #
 define
@@ -2106,7 +2106,7 @@ gssLibrary
 ;
 gssLibrary
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2735,11 +2735,11 @@ req_flags
 GSS_C_INDEFINITE
 GSS_C_NO_CHANNEL_BINDINGS
 in_token_ptr
-nsnull
+nullptr
 &
 output_token
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if

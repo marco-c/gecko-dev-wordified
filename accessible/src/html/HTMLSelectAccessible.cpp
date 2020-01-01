@@ -938,7 +938,7 @@ activeOptionNode
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -2644,7 +2644,7 @@ IsListControl
 ?
 mParent
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -3484,7 +3484,7 @@ Document
 BindToDocument
 (
 mListAccessible
-nsnull
+nullptr
 )
 )
 return
@@ -3554,7 +3554,7 @@ Shutdown
 ;
 mListAccessible
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4159,7 +4159,7 @@ CurrentItem
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -4306,7 +4306,7 @@ if
 comboboxFrame
 )
 return
-nsnull
+nullptr
 ;
 nsIListControlFrame
 *
@@ -4369,7 +4369,7 @@ activeOptionNode
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -4694,7 +4694,7 @@ GetDropDown
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -4943,7 +4943,7 @@ aBoundingFrame
 *
 aBoundingFrame
 =
-nsnull
+nullptr
 ;
 Accessible
 *
@@ -5039,7 +5039,7 @@ frame
 *
 aBoundingFrame
 =
-nsnull
+nullptr
 ;
 return
 ;

@@ -1933,7 +1933,7 @@ flags
 ;
 coreFrame
 =
-nsnull
+nullptr
 ;
 direction
 =
@@ -2169,11 +2169,11 @@ flags
 ;
 baseFrame
 =
-nsnull
+nullptr
 ;
 mstyle
 =
-nsnull
+nullptr
 ;
 }
 }

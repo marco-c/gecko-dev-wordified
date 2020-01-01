@@ -223,7 +223,7 @@ GetGlobalJSObject
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -282,7 +282,7 @@ IDBWrapperCache
 :
 mScriptOwner
 (
-nsnull
+nullptr
 )
 {
 }

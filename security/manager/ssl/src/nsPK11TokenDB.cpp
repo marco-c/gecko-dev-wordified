@@ -578,7 +578,7 @@ mSlot
 ;
 mSlot
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2411,7 +2411,7 @@ le
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsresult
 rv

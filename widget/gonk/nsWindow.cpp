@@ -435,14 +435,14 @@ nsWindow
 *
 gWindowToRedraw
 =
-nsnull
+nullptr
 ;
 static
 nsWindow
 *
 gFocusedWindow
 =
-nsnull
+nullptr
 ;
 static
 android
@@ -452,7 +452,7 @@ FramebufferNativeWindow
 *
 gNativeWindow
 =
-nsnull
+nullptr
 ;
 static
 bool
@@ -1723,7 +1723,7 @@ gWindowToRedraw
 )
 gWindowToRedraw
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1734,7 +1734,7 @@ gFocusedWindow
 )
 gFocusedWindow
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2287,7 +2287,7 @@ this
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -2474,7 +2474,7 @@ n
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -3605,7 +3605,7 @@ mOneScreen
 new
 nsScreenGonk
 (
-nsnull
+nullptr
 )
 ;
 }

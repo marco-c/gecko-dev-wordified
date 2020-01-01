@@ -893,7 +893,7 @@ mChannel
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 if

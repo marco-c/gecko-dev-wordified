@@ -172,7 +172,7 @@ TimerThread
 *
 gThread
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -720,7 +720,7 @@ nsTimerEvent
 :
 sAllocator
 =
-nsnull
+nullptr
 ;
 NS_IMPL_THREADSAFE_QUERY_INTERFACE1
 (
@@ -1272,7 +1272,7 @@ nsTimerImpl
 :
 mClosure
 (
-nsnull
+nullptr
 )
 mCallbackType
 (
@@ -1330,7 +1330,7 @@ mCallback
 .
 c
 =
-nsnull
+nullptr
 ;
 }
 nsTimerImpl
@@ -2303,7 +2303,7 @@ else
 *
 aCallback
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2835,7 +2835,7 @@ nsITimer
 this
 )
 NS_TIMER_CALLBACK_TOPIC
-nsnull
+nullptr
 )
 ;
 break
@@ -2954,7 +2954,7 @@ false
 ;
 mTimerCallbackWhileFiring
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -3194,7 +3194,7 @@ sAllocator
 ;
 sAllocator
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -3693,7 +3693,7 @@ if
 timer
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY

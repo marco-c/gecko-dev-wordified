@@ -1150,7 +1150,7 @@ BlockingResourceBase
 *
 prev
 =
-nsnull
+nullptr
 ;
 while
 (

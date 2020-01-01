@@ -135,7 +135,7 @@ object
 ;
 object
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -385,7 +385,7 @@ object
 \
 object
 =
-nsnull
+nullptr
 ;
 \
 }
@@ -399,7 +399,7 @@ detach
 {
 object
 =
-nsnull
+nullptr
 ;
 }
 \
@@ -534,7 +534,7 @@ paramvalue
 \
 object
 =
-nsnull
+nullptr
 ;
 \
 }
@@ -548,7 +548,7 @@ detach
 {
 object
 =
-nsnull
+nullptr
 ;
 }
 \

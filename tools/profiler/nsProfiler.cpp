@@ -772,7 +772,7 @@ aCount
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -862,7 +862,7 @@ aCount
 *
 aFeatures
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

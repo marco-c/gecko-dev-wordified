@@ -180,7 +180,7 @@ nsIMM32Handler
 *
 gIMM32Handler
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -189,7 +189,7 @@ PRLogModuleInfo
 *
 gIMM32Log
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -610,7 +610,7 @@ gIMM32Handler
 ;
 gIMM32Handler
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1617,7 +1617,7 @@ nsIMM32Handler
 :
 mComposingWindow
 (
-nsnull
+nullptr
 )
 mCursorPosition
 (
@@ -1903,7 +1903,7 @@ gIMM32Handler
 >
 mComposingWindow
 :
-nsnull
+nullptr
 gIMM32Handler
 &
 &
@@ -2129,7 +2129,7 @@ gIMM32Handler
 >
 mComposingWindow
 :
-nsnull
+nullptr
 gIMM32Handler
 &
 &
@@ -4973,7 +4973,7 @@ aWindow
 DispatchKeyEvent
 (
 keyEvent
-nsnull
+nullptr
 )
 ;
 sIsStatusChanged
@@ -6242,7 +6242,7 @@ false
 ;
 mComposingWindow
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -6352,7 +6352,7 @@ false
 ;
 mComposingWindow
 =
-nsnull
+nullptr
 ;
 bool
 handled
@@ -9490,7 +9490,7 @@ false
 ;
 mComposingWindow
 =
-nsnull
+nullptr
 ;
 mLastDispatchedCompositionString
 .
@@ -10329,7 +10329,7 @@ GetTopLevelWindow
 false
 )
 r
-nsnull
+nullptr
 screenRect
 )
 ;
@@ -13656,7 +13656,7 @@ aWindow
 GetWindowHandle
 (
 )
-nsnull
+nullptr
 caretRect
 .
 width

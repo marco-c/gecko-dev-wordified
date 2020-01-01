@@ -400,7 +400,7 @@ roles
 PAGETAB
 )
 return
-nsnull
+nullptr
 ;
 AccGroupInfo
 *

@@ -335,7 +335,7 @@ aError
 NS_ERROR_FAILURE
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -373,7 +373,7 @@ aError
 NS_ERROR_FAILURE
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -387,7 +387,7 @@ nsIAtom
 *
 raw
 =
-nsnull
+nullptr
 ;
 langGroup
 .
@@ -621,7 +621,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 }

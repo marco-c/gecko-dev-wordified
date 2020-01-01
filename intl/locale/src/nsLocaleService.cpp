@@ -712,7 +712,7 @@ if
 lc_temp
 !
 =
-nsnull
+nullptr
 )
 {
 result
@@ -740,7 +740,7 @@ if
 lang
 =
 =
-nsnull
+nullptr
 )
 {
 platformLocale
@@ -959,7 +959,7 @@ i
 {
 lc_temp
 =
-nsnull
+nullptr
 ;
 UniQueryLocaleObject
 (
@@ -996,7 +996,7 @@ if
 lc_temp
 !
 =
-nsnull
+nullptr
 )
 result
 =
@@ -1027,7 +1027,7 @@ if
 lang
 =
 =
-nsnull
+nullptr
 )
 {
 result
@@ -1358,7 +1358,7 @@ result
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -1522,7 +1522,7 @@ _retval
 nsILocale
 *
 )
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -1564,7 +1564,7 @@ _retval
 nsILocale
 *
 )
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -1643,7 +1643,7 @@ NS_ASSERTION
 input
 !
 =
-nsnull
+nullptr
 "
 nsLocaleFactory
 :
@@ -1932,7 +1932,7 @@ cPtr
 )
 !
 =
-nsnull
+nullptr
 )
 {
 PR_sscanf

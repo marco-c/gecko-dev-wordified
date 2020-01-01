@@ -214,7 +214,7 @@ processing
 .
 *
 return
-nsnull
+nullptr
 if
 no
 processing

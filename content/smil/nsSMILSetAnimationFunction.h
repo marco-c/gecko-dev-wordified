@@ -333,7 +333,7 @@ nsresult
 *
 aParseResult
 =
-nsnull
+nullptr
 )
 ;
 /

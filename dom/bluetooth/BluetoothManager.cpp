@@ -518,7 +518,7 @@ ReleaseMembers
 ;
 mManagerPtr
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -644,7 +644,7 @@ runnable
 .
 mManagerPtr
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -1211,7 +1211,7 @@ observer
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1276,7 +1276,7 @@ allowed
 *
 aBluetoothManager
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

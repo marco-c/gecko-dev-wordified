@@ -1640,7 +1640,7 @@ NS_ASSERTION
 mNextSrcLoadWaiter
 =
 =
-nsnull
+nullptr
 "
 unreferenced
 document
@@ -1838,7 +1838,7 @@ NS_PRECONDITION
 result
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2359,7 +2359,7 @@ tmp
 >
 mTemplateBuilderTable
 =
-nsnull
+nullptr
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
@@ -2989,7 +2989,7 @@ GetPrototype
 mDocumentURI
 )
 :
-nsnull
+nullptr
 ;
 /
 /
@@ -5157,7 +5157,7 @@ PL_DHashMatchEntryStub
 PL_DHashMoveEntryStub
 ClearBroadcasterMapEntry
 PL_DHashFinalizeStub
-nsnull
+nullptr
 }
 ;
 if
@@ -5172,7 +5172,7 @@ PL_NewDHashTable
 (
 &
 gOps
-nsnull
+nullptr
 sizeof
 (
 BroadcasterMapEntry
@@ -5989,7 +5989,7 @@ child
 aPresContext
 &
 event
-nsnull
+nullptr
 &
 status
 )
@@ -8097,7 +8097,7 @@ NodePrincipal
 IsCapabilityEnabled
 (
 aCapabilityLabel
-nsnull
+nullptr
 &
 enabled
 )
@@ -9069,7 +9069,7 @@ aNode
 *
 aNode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -9276,7 +9276,7 @@ aRangeParent
 *
 aRangeParent
 =
-nsnull
+nullptr
 ;
 nsXULPopupManager
 *
@@ -9470,7 +9470,7 @@ aNode
 *
 aNode
 =
-nsnull
+nullptr
 ;
 nsXULPopupManager
 *
@@ -9596,7 +9596,7 @@ aId
 )
 )
 return
-nsnull
+nullptr
 ;
 nsIdentifierMapEntry
 *
@@ -9677,7 +9677,7 @@ GetFirstElement
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -10644,7 +10644,7 @@ NS_ASSERTION
 domelement
 !
 =
-nsnull
+nullptr
 "
 not
 a
@@ -10859,7 +10859,7 @@ else
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -11221,7 +11221,7 @@ document
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_DOM_NOT_SUPPORTED_ERR
@@ -11694,7 +11694,7 @@ NS_ASSERTION
 cx
 !
 =
-nsnull
+nullptr
 "
 no
 pres
@@ -11728,7 +11728,7 @@ NS_ASSERTION
 container
 !
 =
-nsnull
+nullptr
 "
 pres
 context
@@ -11763,7 +11763,7 @@ NS_ASSERTION
 docShell
 !
 =
-nsnull
+nullptr
 "
 container
 is
@@ -12225,7 +12225,7 @@ rv
 {
 mCurrentPrototype
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -13211,7 +13211,7 @@ ContextStack
 :
 mTop
 (
-nsnull
+nullptr
 )
 mDepth
 (
@@ -14721,7 +14721,7 @@ getter_AddRefs
 uri
 )
 href
-nsnull
+nullptr
 mCurrentPrototype
 -
 >
@@ -15139,7 +15139,7 @@ getter_AddRefs
 uri
 )
 aURL
-nsnull
+nullptr
 )
 ;
 if
@@ -15161,7 +15161,7 @@ nsIObserver
 *
 obs
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -15613,7 +15613,7 @@ GetPrototype
 aURI
 )
 :
-nsnull
+nullptr
 ;
 /
 /
@@ -16051,7 +16051,7 @@ aURI
 "
 view
 "
-nsnull
+nullptr
 getter_AddRefs
 (
 parser
@@ -16230,7 +16230,7 @@ getter_AddRefs
 channel
 )
 aURI
-nsnull
+nullptr
 group
 )
 ;
@@ -16300,7 +16300,7 @@ channel
 AsyncOpen
 (
 listener
-nsnull
+nullptr
 )
 ;
 }
@@ -16319,7 +16319,7 @@ this
 prototype
 mCurrentPrototype
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -16808,7 +16808,7 @@ GetURI
 (
 )
 :
-nsnull
+nullptr
 ;
 while
 (
@@ -17128,7 +17128,7 @@ ssle
 >
 UpdateStyleSheet
 (
-nsnull
+nullptr
 &
 willNotify
 &
@@ -18119,7 +18119,7 @@ warningFlag
 XUL
 Document
 "
-nsnull
+nullptr
 nsContentUtils
 :
 :
@@ -20427,7 +20427,7 @@ aScriptProto
 >
 mSrcURI
 this
-nsnull
+nullptr
 group
 )
 ;
@@ -20441,7 +20441,7 @@ rv
 {
 mCurrentScriptProto
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -20733,7 +20733,7 @@ mCurrentScriptProto
 ;
 mCurrentScriptProto
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -21433,7 +21433,7 @@ NS_ASSERTION
 global
 !
 =
-nsnull
+nullptr
 "
 master
 prototype
@@ -21468,7 +21468,7 @@ NS_ASSERTION
 scriptContext
 !
 =
-nsnull
+nullptr
 "
 Failed
 to
@@ -21489,7 +21489,7 @@ scriptProto
 >
 SerializeOutOfLine
 (
-nsnull
+nullptr
 global
 )
 ;
@@ -21588,7 +21588,7 @@ docp
 )
 !
 =
-nsnull
+nullptr
 )
 {
 NS_ASSERTION
@@ -21616,7 +21616,7 @@ doc
 >
 mCurrentScriptProto
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -21644,7 +21644,7 @@ doc
 >
 mNextSrcLoadWaiter
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -21729,13 +21729,13 @@ NS_PRECONDITION
 aScriptObject
 !
 =
-nsnull
+nullptr
 &
 &
 aContext
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -21789,8 +21789,8 @@ ExecuteScript
 (
 aScriptObject
 global
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -21810,7 +21810,7 @@ NS_PRECONDITION
 aScript
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -21875,7 +21875,7 @@ NS_ENSURE_TRUE
 context
 !
 =
-nsnull
+nullptr
 NS_ERROR_UNEXPECTED
 )
 ;
@@ -21942,7 +21942,7 @@ NS_PRECONDITION
 aPrototype
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -21960,7 +21960,7 @@ NS_ERROR_NULL_POINTER
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -23029,7 +23029,7 @@ nsGkAtoms
 :
 treechildren
 )
-nsnull
+nullptr
 kNameSpaceID_XUL
 getter_AddRefs
 (
@@ -24529,7 +24529,7 @@ nsIContent
 *
 elementInDocument
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -25792,12 +25792,12 @@ NodeInfo
 *
 aListener
 =
-nsnull
+nullptr
 ;
 *
 aBroadcaster
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -25976,7 +25976,7 @@ aListener
 *
 aListener
 =
-nsnull
+nullptr
 ;
 aElement
 -
@@ -26217,7 +26217,7 @@ aListener
 *
 aListener
 =
-nsnull
+nullptr
 ;
 aAttribute
 .
@@ -26526,7 +26526,7 @@ NS_ASSERTION
 content
 !
 =
-nsnull
+nullptr
 "
 not
 an
@@ -26751,7 +26751,7 @@ nsIContent
 *
 content
 =
-nsnull
+nullptr
 ;
 char
 *
@@ -27642,7 +27642,7 @@ avoid
 cycles
 mPrototype
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -27787,7 +27787,7 @@ observer
 .
 mDocument
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -27849,7 +27849,7 @@ GetTopWindowRoot
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -27913,7 +27913,7 @@ nsGkAtoms
 :
 :
 rtl
-nsnull
+nullptr
 }
 ;
 switch

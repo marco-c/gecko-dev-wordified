@@ -439,7 +439,7 @@ rv
 *
 result
 =
-nsnull
+nullptr
 ;
 thread
 .

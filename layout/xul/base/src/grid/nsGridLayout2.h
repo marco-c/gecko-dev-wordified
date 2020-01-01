@@ -217,7 +217,7 @@ CastToRowGroupLayout
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -246,7 +246,7 @@ nsGridRowLayout
 *
 aRequestor
 =
-nsnull
+nullptr
 )
 ;
 virtual
@@ -274,7 +274,7 @@ called
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 virtual

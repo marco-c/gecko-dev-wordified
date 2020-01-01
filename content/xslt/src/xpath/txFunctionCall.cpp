@@ -337,7 +337,7 @@ evaluate
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <

@@ -601,9 +601,9 @@ getter_AddRefs
 mChannel
 )
 pSourceURI
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 nsIRequest
 :
 :
@@ -624,7 +624,7 @@ mChannel
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1125,7 +1125,7 @@ Pump
 messages
 NS_ProcessNextEvent
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -3124,7 +3124,7 @@ m_cRef
 )
 mTransferable
 (
-nsnull
+nullptr
 )
 mIsAsyncMode
 (
@@ -6743,7 +6743,7 @@ image
 HANDLE
 bits
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -9739,7 +9739,7 @@ char
 *
 plainTextData
 =
-nsnull
+nullptr
 ;
 PRUnichar
 *
@@ -9917,7 +9917,7 @@ char
 *
 utf8HTML
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -10868,7 +10868,7 @@ image
 HANDLE
 bits
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -13148,7 +13148,7 @@ aTransferable
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 mTransferable
@@ -13926,7 +13926,7 @@ outPlatformHTML
 *
 outPlatformHTML
 =
-nsnull
+nullptr
 ;
 nsDependentCString
 inHTMLString
@@ -14794,7 +14794,7 @@ aFilename
 *
 aSourceURI
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_TRUE
 (

@@ -347,7 +347,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -725,7 +725,7 @@ eDOMClassInfo_HTMLHtmlElement_id
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1265,7 +1265,7 @@ compact
 /
 XXX
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -1490,7 +1490,7 @@ aDocument
 >
 SetBaseURI
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1503,7 +1503,7 @@ aDocument
 >
 SetBaseURI
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1941,7 +1941,7 @@ SetBaseURIUsingFirstBaseWithHref
 GetCurrentDoc
 (
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -1962,7 +1962,7 @@ SetBaseTargetUsingFirstBaseWithTarget
 GetCurrentDoc
 (
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -2185,7 +2185,7 @@ href
 SetBaseURIUsingFirstBaseWithHref
 (
 doc
-nsnull
+nullptr
 )
 ;
 }
@@ -2204,7 +2204,7 @@ target
 SetBaseTargetUsingFirstBaseWithTarget
 (
 doc
-nsnull
+nullptr
 )
 ;
 }

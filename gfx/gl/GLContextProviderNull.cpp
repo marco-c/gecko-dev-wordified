@@ -117,7 +117,7 @@ nsIWidget
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -140,7 +140,7 @@ ContextFlags
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 GLContext
@@ -153,7 +153,7 @@ GetGlobalContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 void

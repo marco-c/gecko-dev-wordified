@@ -2112,7 +2112,7 @@ nsCOMPtr
 with
 NULL
 0
-nsnull
+nullptr
 [
 !
 =

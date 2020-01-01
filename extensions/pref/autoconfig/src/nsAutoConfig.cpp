@@ -416,7 +416,7 @@ IsEmpty
 *
 aConfigURL
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -758,7 +758,7 @@ mBuf
 Length
 (
 )
-nsnull
+nullptr
 false
 true
 false
@@ -1369,7 +1369,7 @@ prefs
 >
 GetBranch
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 mPrefBranch
@@ -1695,8 +1695,8 @@ mConfigURL
 get
 (
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -1781,9 +1781,9 @@ getter_AddRefs
 channel
 )
 url
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 nsIRequest
 :
 :
@@ -1813,7 +1813,7 @@ channel
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 if
@@ -2581,7 +2581,7 @@ EvaluateAdminConfigScript
 (
 buf
 fs
-nsnull
+nullptr
 false
 true
 false
@@ -3240,7 +3240,7 @@ promptService
 >
 Prompt
 (
-nsnull
+nullptr
 title
 .
 get
@@ -3255,7 +3255,7 @@ getter_Copies
 (
 emailResult
 )
-nsnull
+nullptr
 &
 check
 &

@@ -259,7 +259,7 @@ aContext
 )
 mBarDiv
 (
-nsnull
+nullptr
 )
 {
 }
@@ -412,7 +412,7 @@ nsGkAtoms
 :
 :
 div
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :

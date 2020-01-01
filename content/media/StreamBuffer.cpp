@@ -198,7 +198,7 @@ aID
 TRACK_NONE
 )
 return
-nsnull
+nullptr
 ;
 for
 (
@@ -248,7 +248,7 @@ track
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void

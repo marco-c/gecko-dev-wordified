@@ -1636,7 +1636,7 @@ mHWND
 }
 mHWND
 =
-nsnull
+nullptr
 ;
 }
 DocAccessible

@@ -1723,7 +1723,7 @@ nsIContent
 *
 outNode
 =
-nsnull
+nullptr
 PRInt32
 *
 outOffset
@@ -1750,7 +1750,7 @@ nsIContent
 *
 outNode
 =
-nsnull
+nullptr
 PRInt32
 *
 outOffset
@@ -3703,7 +3703,7 @@ nsAString
 *
 outValue
 =
-nsnull
+nullptr
 )
 ;
 void
@@ -3730,7 +3730,7 @@ nsAString
 *
 outValue
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -4089,7 +4089,7 @@ nsIDOMNode
 *
 outLink
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -4597,7 +4597,7 @@ nsIDOMNode
 *
 outLeftNode
 =
-nsnull
+nullptr
 nsCOMPtr
 <
 nsIDOMNode
@@ -4605,7 +4605,7 @@ nsIDOMNode
 *
 outRightNode
 =
-nsnull
+nullptr
 )
 ;
 nsresult

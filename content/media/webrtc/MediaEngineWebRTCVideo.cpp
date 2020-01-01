@@ -1209,7 +1209,7 @@ source
 *
 aFile
 =
-nsnull
+nullptr
 ;
 if
 (

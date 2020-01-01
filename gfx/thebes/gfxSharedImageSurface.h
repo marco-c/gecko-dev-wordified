@@ -496,7 +496,7 @@ aSize
 )
 )
 return
-nsnull
+nullptr
 ;
 Shmem
 shmem
@@ -540,7 +540,7 @@ shmem
 )
 )
 return
-nsnull
+nullptr
 ;
 }
 else
@@ -560,7 +560,7 @@ shmem
 )
 )
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -599,7 +599,7 @@ shmem
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 s

@@ -994,7 +994,7 @@ mObserverTopicTable
 EnumerateEntries
 (
 UnmarkGrayObserverEntry
-nsnull
+nullptr
 )
 ;
 return

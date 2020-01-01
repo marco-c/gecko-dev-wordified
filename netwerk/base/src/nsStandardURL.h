@@ -1152,7 +1152,7 @@ nsCString
 *
 esc
 =
-nsnull
+nullptr
 bool
 useEsc
 =

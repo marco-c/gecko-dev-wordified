@@ -276,7 +276,7 @@ CERTCertificate
 *
 cert
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -453,7 +453,7 @@ CERTCertList
 *
 certList
 =
-nsnull
+nullptr
 bool
 adopt
 =

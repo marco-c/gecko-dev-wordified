@@ -596,7 +596,7 @@ PRLogModuleInfo
 *
 gPIPNSSLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -1168,7 +1168,7 @@ rv
 NS_OpenURI
 (
 mListener
-nsnull
+nullptr
 uri
 )
 ;
@@ -1863,7 +1863,7 @@ mCrlTimerLock
 )
 mThreadList
 (
-nsnull
+nullptr
 )
 mCertVerificationThread
 (
@@ -1915,11 +1915,11 @@ false
 ;
 crlsScheduledForDownload
 =
-nsnull
+nullptr
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 mObserversRegistered
 =
@@ -1986,7 +1986,7 @@ mInstanceCount
 ;
 hashTableCerts
 =
-nsnull
+nullptr
 ;
 mShutdownObjectList
 =
@@ -2027,7 +2027,7 @@ mCertVerificationThread
 ;
 mCertVerificationThread
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2044,7 +2044,7 @@ NS_ASSERTION
 mCertVerificationThread
 =
 =
-nsnull
+nullptr
 "
 Cert
 verification
@@ -2090,7 +2090,7 @@ mCertVerificationThread
 ;
 mCertVerificationThread
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2157,7 +2157,7 @@ if
 crlsScheduledForDownload
 !
 =
-nsnull
+nullptr
 )
 {
 crlsScheduledForDownload
@@ -2815,7 +2815,7 @@ if
 doc
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -3454,7 +3454,7 @@ if
 mThreadList
 =
 =
-nsnull
+nullptr
 )
 {
 mThreadList
@@ -3562,7 +3562,7 @@ mThreadList
 ;
 mThreadList
 =
-nsnull
+nullptr
 ;
 }
 static
@@ -3755,7 +3755,7 @@ SECMODModule
 *
 RootsModule
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -4015,7 +4015,7 @@ RootsModule
 ;
 RootsModule
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -4202,7 +4202,7 @@ char
 *
 fullLibraryPath
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4217,7 +4217,7 @@ fullLibraryPath
 =
 PR_GetLibraryName
 (
-nsnull
+nullptr
 "
 nssckbi
 "
@@ -4602,7 +4602,7 @@ get
 (
 )
 )
-nsnull
+nullptr
 /
 /
 no
@@ -4637,7 +4637,7 @@ RootsModule
 ;
 RootsModule
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6494,13 +6494,13 @@ char
 *
 signingCA
 =
-nsnull
+nullptr
 ;
 char
 *
 url
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -7302,7 +7302,7 @@ hashKey
 void
 *
 )
-nsnull
+nullptr
 )
 ;
 /
@@ -8708,7 +8708,7 @@ if
 crlsScheduledForDownload
 !
 =
-nsnull
+nullptr
 )
 {
 crlsScheduledForDownload
@@ -8723,7 +8723,7 @@ crlsScheduledForDownload
 ;
 crlsScheduledForDownload
 =
-nsnull
+nullptr
 ;
 }
 {
@@ -11272,7 +11272,7 @@ hashTableCerts
 ;
 hashTableCerts
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -11289,7 +11289,7 @@ PK11_SetPasswordFunc
 (
 PK11PasswordFunc
 )
-nsnull
+nullptr
 )
 ;
 mHttpForNSS
@@ -11747,7 +11747,7 @@ DeregisterObservers
 ;
 mPIPNSSBundle
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -11771,7 +11771,7 @@ char
 *
 unrestricted_hosts
 =
-nsnull
+nullptr
 ;
 mPrefBranch
 -
@@ -11815,7 +11815,7 @@ unrestricted_hosts
 ;
 unrestricted_hosts
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -11926,7 +11926,7 @@ DeregisterObservers
 ;
 mPIPNSSBundle
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -12077,7 +12077,7 @@ algid
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -12166,7 +12166,7 @@ aErrorCode
 *
 aPrincipal
 =
-nsnull
+nullptr
 ;
 nsNSSShutDownPreventionLock
 locker
@@ -12175,7 +12175,7 @@ SEC_PKCS7ContentInfo
 *
 p7_info
 =
-nsnull
+nullptr
 ;
 unsigned
 char
@@ -12217,11 +12217,11 @@ SEC_PKCS7DecodeItem
 &
 item
 ContentCallback
-nsnull
+nullptr
 GetPasswordKeyCallback
-nsnull
+nullptr
 GetDecryptKeyCallback
-nsnull
+nullptr
 DecryptionAllowedCallback
 )
 ;
@@ -12273,7 +12273,7 @@ digest
 .
 data
 =
-nsnull
+nullptr
 ;
 digest
 .
@@ -12668,7 +12668,7 @@ NS_ConvertUTF16toUTF8
 orgName
 )
 pCert
-nsnull
+nullptr
 getter_AddRefs
 (
 certPrincipal
@@ -13339,7 +13339,7 @@ mPSMContentListener
 }
 mPSMContentListener
 =
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -13676,7 +13676,7 @@ char
 *
 unrestricted_hosts
 =
-nsnull
+nullptr
 ;
 mPrefBranch
 -
@@ -14151,7 +14151,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -14302,7 +14302,7 @@ prompter
 >
 Alert
 (
-nsnull
+nullptr
 message
 .
 get
@@ -15548,7 +15548,7 @@ nsCryptoHash
 :
 mHashContext
 (
-nsnull
+nullptr
 )
 mInitialized
 (
@@ -15625,7 +15625,7 @@ mHashContext
 ;
 mHashContext
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_ISUPPORTS1
@@ -16381,7 +16381,7 @@ nsCryptoHMAC
 {
 mHMACContext
 =
-nsnull
+nullptr
 ;
 }
 nsCryptoHMAC
@@ -16454,7 +16454,7 @@ true
 ;
 mHMACContext
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -16502,7 +16502,7 @@ true
 ;
 mHMACContext
 =
-nsnull
+nullptr
 ;
 }
 CK_MECHANISM_TYPE
@@ -17289,7 +17289,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17338,7 +17338,7 @@ nsIPrompt
 *
 prompt
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -17597,7 +17597,7 @@ type
 :
 mByteData
 (
-nsnull
+nullptr
 )
 mType
 (
@@ -17888,7 +17888,7 @@ if
 newBuffer
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -18508,7 +18508,7 @@ prefSvc
 >
 SavePrefFile
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -18920,11 +18920,11 @@ PSMContentListener
 {
 mLoadCookie
 =
-nsnull
+nullptr
 ;
 mParentContentListener
 =
-nsnull
+nullptr
 ;
 }
 PSMContentListener

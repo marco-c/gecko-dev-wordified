@@ -159,7 +159,7 @@ aSize
 <
 =
 PR_UINT32_MAX
-nsnull
+nullptr
 )
 ;
 nsRefPtr
@@ -201,7 +201,7 @@ length
 =
 =
 aSize
-nsnull
+nullptr
 )
 ;
 return

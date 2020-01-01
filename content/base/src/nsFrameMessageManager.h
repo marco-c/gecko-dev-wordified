@@ -579,7 +579,7 @@ sParentProcessManager
 {
 sParentProcessManager
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -592,14 +592,14 @@ sChildProcessManager
 {
 sChildProcessManager
 =
-nsnull
+nullptr
 ;
 delete
 sPendingSameProcessAsyncMessages
 ;
 sPendingSameProcessAsyncMessages
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -612,7 +612,7 @@ sSameProcessParentManager
 {
 sSameProcessParentManager
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -673,7 +673,7 @@ JSContext
 *
 aContext
 =
-nsnull
+nullptr
 )
 ;
 void
@@ -1058,7 +1058,7 @@ nsFrameScriptExecutor
 :
 mCx
 (
-nsnull
+nullptr
 )
 mCxStackRefCnt
 (

@@ -1642,8 +1642,8 @@ event
 new
 SmsEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsresult

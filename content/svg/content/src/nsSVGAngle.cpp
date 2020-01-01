@@ -335,7 +335,7 @@ mVal
 SetBaseValue
 (
 aValue
-nsnull
+nullptr
 false
 )
 ;
@@ -400,7 +400,7 @@ mVal
 SetBaseValueString
 (
 aValue
-nsnull
+nullptr
 false
 )
 ;
@@ -440,7 +440,7 @@ NewValueSpecifiedUnits
 (
 unitType
 valueInSpecifiedUnits
-nsnull
+nullptr
 )
 ;
 }
@@ -457,7 +457,7 @@ mVal
 ConvertToSpecifiedUnits
 (
 unitType
-nsnull
+nullptr
 )
 ;
 }
@@ -645,13 +645,13 @@ unitMap
 ]
 =
 {
-nsnull
+nullptr
 /
 *
 SVG_ANGLETYPE_UNKNOWN
 *
 /
-nsnull
+nullptr
 /
 *
 SVG_ANGLETYPE_UNSPECIFIED
@@ -2070,7 +2070,7 @@ attribute
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsresult

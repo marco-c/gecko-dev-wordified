@@ -319,7 +319,7 @@ entry
 mMatch
 =
 =
-nsnull
+nullptr
 "
 over
 -

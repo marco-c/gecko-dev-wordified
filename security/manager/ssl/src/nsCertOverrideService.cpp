@@ -700,7 +700,7 @@ settings
 file
 Observe
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -708,7 +708,7 @@ do
 -
 change
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -933,7 +933,7 @@ else
 {
 mSettingsFile
 =
-nsnull
+nullptr
 ;
 }
 Read
@@ -1000,7 +1000,7 @@ mSettings
 .
 mCert
 =
-nsnull
+nullptr
 ;
 return
 PL_DHASH_REMOVE
@@ -1030,7 +1030,7 @@ mSettingsTable
 EnumerateEntries
 (
 RemoveTemporariesCallback
-nsnull
+nullptr
 )
 ;
 /
@@ -1616,7 +1616,7 @@ AddEntryToList
 (
 host
 port
-nsnull
+nullptr
 /
 /
 don
@@ -2436,7 +2436,7 @@ oid
 .
 data
 =
-nsnull
+nullptr
 ;
 oid
 .
@@ -2449,7 +2449,7 @@ srv
 =
 SEC_StringToOID
 (
-nsnull
+nullptr
 &
 oid
 dottedOid
@@ -2897,7 +2897,7 @@ aTemporary
 ?
 aCert
 :
-nsnull
+nullptr
 /
 /
 keep

@@ -520,7 +520,7 @@ the
 before
 frame
 or
-nsnull
+nullptr
 if
 there
 isn
@@ -617,7 +617,7 @@ the
 after
 frame
 or
-nsnull
+nullptr
 if
 there
 isn
@@ -695,7 +695,7 @@ the
 given
 type
 or
-nsnull
+nullptr
 if
 no
 *
@@ -771,7 +771,7 @@ nsGkAtoms
 :
 pageFrame
 or
-nsnull
+nullptr
 if
 no
 *
@@ -1142,7 +1142,7 @@ nsIContent
 *
 aCommonAncestor
 =
-nsnull
+nullptr
 )
 {
 return
@@ -1235,7 +1235,7 @@ nsIContent
 *
 aCommonAncestor
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -1407,7 +1407,7 @@ nsIFrame
 *
 aCommonAncestor
 =
-nsnull
+nullptr
 )
 {
 return
@@ -1499,7 +1499,7 @@ nsIFrame
 *
 aCommonAncestor
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -1558,7 +1558,7 @@ of
 aFrame
 or
 returns
-nsnull
+nullptr
 if
 *
 aFrame
@@ -1784,7 +1784,7 @@ nsPoint
 *
 aCrossDocOffset
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -1810,7 +1810,7 @@ aFrame
 *
 param
 aCommonAncestor
-nsnull
+nullptr
 or
 a
 common
@@ -1852,7 +1852,7 @@ nsIFrame
 *
 aCommonAncestor
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -1900,7 +1900,7 @@ nsIFrame
 *
 aCommonAncestor
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -1929,7 +1929,7 @@ boundaries
 *
 param
 aCommonAncestor
-nsnull
+nullptr
 or
 a
 common
@@ -1989,7 +1989,7 @@ nsIFrame
 *
 aCommonAncestor
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -2090,7 +2090,7 @@ bool
 *
 aShouldFixToViewport
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -2266,7 +2266,7 @@ nearest
 scrollable
 frame
 or
-nsnull
+nullptr
 if
 not
 found
@@ -2348,7 +2348,7 @@ nearest
 scrollable
 frame
 or
-nsnull
+nullptr
 if
 not
 found
@@ -2487,7 +2487,7 @@ float
 *
 otherwise
 return
-nsnull
+nullptr
 .
 aPlaceholder
 must
@@ -3259,7 +3259,7 @@ that
 location
 *
 or
-nsnull
+nullptr
 if
 there
 is
@@ -3367,7 +3367,7 @@ mouse
 event
 *
 or
-nsnull
+nullptr
 if
 there
 is
@@ -8246,7 +8246,7 @@ nsRect
 *
 aSourceArea
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -8393,7 +8393,7 @@ nsRect
 *
 aSourceArea
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -10410,7 +10410,7 @@ void
 SizeOfTextRunsForFrames
 (
 rootFrame
-nsnull
+nullptr
 true
 )
 ;
@@ -11751,7 +11751,7 @@ to
 restore
 mPresContext
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -261,7 +261,7 @@ will
 be
 set
 to
-nsnull
+nullptr
 .
 *
 /
@@ -294,7 +294,7 @@ param
 aFound
 If
 not
-nsnull
+nullptr
 will
 be
 set
@@ -315,7 +315,7 @@ return
 The
 entry
 or
-nsnull
+nullptr
 if
 not
 found
@@ -338,7 +338,7 @@ bool
 *
 aFound
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -471,7 +471,7 @@ will
 be
 set
 to
-nsnull
+nullptr
 .
 *
 /
@@ -632,7 +632,7 @@ pRefPtr
 *
 pRefPtr
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -708,7 +708,7 @@ does
 not
 exist
 return
-nsnull
+nullptr
 and
 set
 aFound
@@ -724,7 +724,7 @@ aFound
 false
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -852,7 +852,7 @@ pRefPtr
 *
 pRefPtr
 =
-nsnull
+nullptr
 ;
 PR_Unlock
 (

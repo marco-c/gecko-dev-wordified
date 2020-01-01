@@ -879,7 +879,7 @@ Abandon
 {
 mStatement
 =
-nsnull
+nullptr
 ;
 }
 protected

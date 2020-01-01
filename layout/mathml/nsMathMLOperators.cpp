@@ -232,14 +232,14 @@ OperatorData
 *
 gOperatorArray
 =
-nsnull
+nullptr
 ;
 static
 nsHashtable
 *
 gOperatorTable
 =
-nsnull
+nullptr
 ;
 static
 bool
@@ -255,7 +255,7 @@ nsString
 *
 gInvariantCharArray
 =
-nsnull
+nullptr
 ;
 static
 const
@@ -2402,7 +2402,7 @@ gInvariantCharArray
 ;
 gInvariantCharArray
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -2417,7 +2417,7 @@ gOperatorArray
 ;
 gOperatorArray
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -2430,7 +2430,7 @@ gOperatorTable
 ;
 gOperatorTable
 =
-nsnull
+nullptr
 ;
 }
 }

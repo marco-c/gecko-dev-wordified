@@ -2481,7 +2481,7 @@ URI
 .
 mCachedURI
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2724,7 +2724,7 @@ uri
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr

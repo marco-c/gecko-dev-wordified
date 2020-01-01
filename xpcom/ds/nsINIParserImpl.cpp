@@ -159,7 +159,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

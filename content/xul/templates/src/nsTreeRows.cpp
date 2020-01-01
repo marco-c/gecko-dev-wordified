@@ -214,7 +214,7 @@ Subtree
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -340,7 +340,7 @@ row
 .
 mSubtree
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -353,7 +353,7 @@ aParent
 subtree
 !
 =
-nsnull
+nullptr
 ;
 subtree
 =
@@ -481,7 +481,7 @@ current
 last
 )
 :
-nsnull
+nullptr
 ;
 }
 while
@@ -1308,7 +1308,7 @@ mRows
 ;
 mRows
 =
-nsnull
+nullptr
 ;
 mCount
 =
@@ -1500,7 +1500,7 @@ aIndex
 .
 mSubtree
 =
-nsnull
+nullptr
 ;
 +
 +
@@ -1908,7 +1908,7 @@ this
 subtree
 !
 =
-nsnull
+nullptr
 ;
 subtree
 =

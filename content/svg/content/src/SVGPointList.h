@@ -1026,7 +1026,7 @@ nsSVGElement
 *
 aElement
 =
-nsnull
+nullptr
 )
 :
 mElement
