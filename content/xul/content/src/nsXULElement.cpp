@@ -16176,9 +16176,6 @@ array
 "
 )
 ;
-nsresult
-rv
-;
 /
 /
 Read
@@ -16187,8 +16184,8 @@ Info
 PRUint32
 number
 ;
+nsresult
 rv
-|
 =
 aStream
 -
