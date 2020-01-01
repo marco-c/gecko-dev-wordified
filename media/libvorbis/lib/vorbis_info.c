@@ -1166,6 +1166,14 @@ vc
 long
 i
 ;
+if
+(
+vc
+-
+>
+user_comments
+)
+{
 for
 (
 i
@@ -1204,13 +1212,6 @@ i
 ]
 )
 ;
-if
-(
-vc
--
->
-user_comments
-)
 _ogg_free
 (
 vc
@@ -1219,6 +1220,7 @@ vc
 user_comments
 )
 ;
+}
 if
 (
 vc
