@@ -373,6 +373,13 @@ AddonListener
 ;
 AddonManager
 .
+addInstallListener
+(
+InstallListener
+)
+;
+AddonManager
+.
 getAddons
 (
 [
@@ -1281,6 +1288,11 @@ onDisabled
 "
 ]
 }
+[
+"
+onExternalInstall
+"
+]
 )
 ;
 LightweightThemeManager
@@ -1790,6 +1802,11 @@ onEnabled
 "
 ]
 }
+[
+"
+onExternalInstall
+"
+]
 )
 ;
 LightweightThemeManager
