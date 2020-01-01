@@ -2628,7 +2628,7 @@ nsresult
 nsGtkIMModule
 :
 :
-ResetInputState
+CommitIMEComposition
 (
 nsWindow
 *
@@ -2661,11 +2661,13 @@ GtkIMModule
 p
 )
 :
-ResetInputState
+CommitIMEComposition
 aCaller
 =
 %
 p
+"
+"
 mCompositionState
 =
 %
@@ -3110,7 +3112,7 @@ IsEditable
 )
 )
 {
-ResetInputState
+CommitIMEComposition
 (
 mLastFocusedWindow
 )

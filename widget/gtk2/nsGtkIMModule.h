@@ -605,7 +605,7 @@ nsIWidget
 methods
 .
 nsresult
-ResetInputState
+CommitIMEComposition
 (
 nsWindow
 *
