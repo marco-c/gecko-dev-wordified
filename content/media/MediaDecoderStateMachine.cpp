@@ -20842,6 +20842,13 @@ aHasAudio
 metadata
 -
 >
+mHasVideo
+=
+aHasVideo
+;
+metadata
+-
+>
 mTags
 =
 aTags
