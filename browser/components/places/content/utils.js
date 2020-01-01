@@ -10189,7 +10189,7 @@ this
 .
 getFolderContents
 (
-node
+aNode
 .
 itemId
 false
@@ -10239,7 +10239,7 @@ urls
 .
 push
 (
-node
+child
 .
 uri
 )
