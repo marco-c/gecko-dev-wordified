@@ -4953,23 +4953,6 @@ scaleRatio
 '
 )
         
-options
-.
-extraPrefs
-.
-append
-(
-'
-browser
-.
-chrome
-.
-dynamictoolbar
-=
-false
-'
-)
-        
 if
 (
 options
