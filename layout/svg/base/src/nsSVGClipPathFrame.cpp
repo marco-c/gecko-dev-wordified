@@ -1650,6 +1650,14 @@ nsGkAtoms
 transform
 )
 {
+nsSVGEffects
+:
+:
+InvalidateDirectRenderingObservers
+(
+this
+)
+;
 nsSVGUtils
 :
 :
