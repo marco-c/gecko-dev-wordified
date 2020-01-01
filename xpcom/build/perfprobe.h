@@ -667,6 +667,7 @@ aManager
 )
 ;
 friend
+class
 ProbeManager
 ;
 protected
@@ -1427,6 +1428,7 @@ bool
 mInitialized
 ;
 friend
+class
 Probe
 ;
 /
@@ -1442,17 +1444,13 @@ ULONG
 WINAPI
 ControlCallback
 (
-__in
 WMIDPREQUESTCODE
 RequestCode
-__in
 PVOID
 Context
-__in
 ULONG
 *
 Reserved
-__in
 PVOID
 Buffer
 )
@@ -1467,7 +1465,6 @@ mSessionHandle
 ;
 }
 }
-;
 #
 endif
 /
