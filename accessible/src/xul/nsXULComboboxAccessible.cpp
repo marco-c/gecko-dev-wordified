@@ -467,6 +467,13 @@ h
 #
 include
 "
+nsAccessibilityService
+.
+h
+"
+#
+include
+"
 nsIDOMXULMenuListElement
 .
 h
@@ -475,13 +482,6 @@ h
 include
 "
 nsIDOMXULSelectCntrlItemEl
-.
-h
-"
-#
-include
-"
-nsServiceManagerUtils
 .
 h
 "

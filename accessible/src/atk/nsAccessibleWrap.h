@@ -768,7 +768,7 @@ aEvent
 nsresult
 FireAtkStateChangeEvent
 (
-nsIAccessibleEvent
+nsAccEvent
 *
 aEvent
 AtkObject
@@ -779,18 +779,7 @@ aObject
 nsresult
 FireAtkTextChangedEvent
 (
-nsIAccessibleEvent
-*
-aEvent
-AtkObject
-*
-aObject
-)
-;
-nsresult
-FireAtkPropChangedEvent
-(
-nsIAccessibleEvent
+nsAccEvent
 *
 aEvent
 AtkObject
@@ -801,7 +790,7 @@ aObject
 nsresult
 FireAtkShowHideEvent
 (
-nsIAccessibleEvent
+nsAccEvent
 *
 aEvent
 AtkObject

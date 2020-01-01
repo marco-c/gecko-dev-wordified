@@ -458,6 +458,13 @@ h
 #
 include
 "
+nsAccUtils
+.
+h
+"
+#
+include
+"
 nsArrayUtils
 .
 h

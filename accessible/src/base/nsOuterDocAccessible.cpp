@@ -444,14 +444,14 @@ h
 #
 include
 "
-nsIAccessibilityService
+nsAccessibilityService
 .
 h
 "
 #
 include
 "
-nsIAccessibleDocument
+nsAccUtils
 .
 h
 "

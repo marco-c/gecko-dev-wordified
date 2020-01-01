@@ -524,6 +524,13 @@ h
 #
 include
 "
+nsIPersistentProperties2
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

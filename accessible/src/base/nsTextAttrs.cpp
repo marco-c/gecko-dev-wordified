@@ -446,7 +446,14 @@ h
 #
 include
 "
-nsAccessNode
+nsAccUtils
+.
+h
+"
+#
+include
+"
+nsCoreUtils
 .
 h
 "

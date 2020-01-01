@@ -483,6 +483,13 @@ h
 #
 include
 "
+nsAccUtils
+.
+h
+"
+#
+include
+"
 nsDocAccessible
 .
 h

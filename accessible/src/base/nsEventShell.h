@@ -452,14 +452,14 @@ h
 #
 include
 "
-nsAutoPtr
+a11yGeneric
 .
 h
 "
 #
 include
 "
-nsCoreUtils
+nsAutoPtr
 .
 h
 "

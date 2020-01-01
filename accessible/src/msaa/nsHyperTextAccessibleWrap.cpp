@@ -458,6 +458,13 @@ nsHyperTextAccessibleWrap
 .
 h
 "
+#
+include
+"
+nsEventShell
+.
+h
+"
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsHyperTextAccessibleWrap

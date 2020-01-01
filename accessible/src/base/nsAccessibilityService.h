@@ -447,6 +447,13 @@ h
 #
 include
 "
+a11yGeneric
+.
+h
+"
+#
+include
+"
 nsCoreUtils
 .
 h
