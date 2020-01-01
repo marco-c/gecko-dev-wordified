@@ -1159,12 +1159,7 @@ run
 -
 >
 mFont
-run
--
->
-mMatchType
 offset
-PR_FALSE
 )
 ;
 if

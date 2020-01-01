@@ -812,16 +812,6 @@ aNewRange
 )
 const
 ;
-virtual
-nsresult
-GetUsedFontFaces
-(
-nsIDOMFontFaceList
-*
-*
-aResult
-)
-;
 /
 /
 nsIMutationObserver
