@@ -4226,12 +4226,6 @@ return
 NS_ASSERTION
 (
 aIntervalIndex
->
-=
-0
-&
-&
-aIntervalIndex
 <
 (
 PRUint32
@@ -4266,11 +4260,6 @@ intervals
 ;
 if
 (
-aIntervalIndex
-<
-0
-|
-|
 aIntervalIndex
 >
 =
