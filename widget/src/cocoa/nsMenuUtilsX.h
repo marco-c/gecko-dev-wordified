@@ -511,7 +511,7 @@ implementation
 namespace
 nsMenuUtilsX
 {
-nsEventStatus
+void
 DispatchCommandTo
 (
 nsIContent
