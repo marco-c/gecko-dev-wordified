@@ -12743,6 +12743,13 @@ InvalidateAll
 (
 )
 ;
+jsdStackFrame
+:
+:
+InvalidateAll
+(
+)
+;
 ClearAllBreakpoints
 (
 )
