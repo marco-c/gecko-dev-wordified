@@ -20922,8 +20922,8 @@ boilerplate
 *
 /
 #
-ifdef
-ENABLE_TYPEDARRAY_MOVE
+ifndef
+RELEASE_BUILD
 #
 define
 IMPL_TYPED_ARRAY_STATICS
