@@ -2399,6 +2399,7 @@ x
 ;
 }
 else
+{
 z
 =
 (
@@ -2411,6 +2412,7 @@ x
 :
 z
 ;
+}
 }
 return
 js_NewNumberInRootedValue
@@ -3773,7 +3775,6 @@ d
 return
 p
 ;
-else
 return
 d
 ;
