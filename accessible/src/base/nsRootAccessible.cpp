@@ -1725,6 +1725,11 @@ GetRootFocusController
 (
 )
 ;
+if
+(
+focusController
+)
+{
 PRBool
 isActive
 =
@@ -1753,6 +1758,7 @@ nsIAccessibleStates
 :
 EXT_STATE_ACTIVE
 ;
+}
 }
 }
 #
