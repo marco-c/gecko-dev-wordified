@@ -630,6 +630,11 @@ aFlags
 )
 ;
 NS_IMETHOD
+DetachEditor
+(
+)
+;
+NS_IMETHOD
 BeforeEdit
 (
 PRInt32
