@@ -535,6 +535,9 @@ dom
 class
 nsICacheEntryDescriptor
 ;
+class
+nsIAssociatedContentSecurity
+;
 namespace
 mozilla
 {
@@ -815,6 +818,12 @@ nsCOMPtr
 nsICacheEntryDescriptor
 >
 mCacheDescriptor
+;
+nsCOMPtr
+<
+nsIAssociatedContentSecurity
+>
+mAssociatedContentSecurity
 ;
 bool
 mIPCClosed
