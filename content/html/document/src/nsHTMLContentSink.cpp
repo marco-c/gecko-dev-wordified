@@ -13249,16 +13249,6 @@ an
 empty
 one
 )
-nsAutoString
-voidString
-;
-voidString
-.
-SetIsVoid
-(
-true
-)
-;
 rv
 =
 NS_NewDOMDocumentType
@@ -13276,7 +13266,9 @@ NodeInfoManager
 nameAtom
 publicId
 systemId
-voidString
+NullString
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS
