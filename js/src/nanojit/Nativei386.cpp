@@ -804,7 +804,7 @@ getDate
 ;
 #
 ifdef
-NANOJIT_ADM64
+NANOJIT_AMD64
 avmplus
 :
 :
