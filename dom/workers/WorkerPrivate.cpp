@@ -9640,7 +9640,7 @@ true
 NS_ASSERTION
 (
 aStatus
-<
+!
 =
 Terminating
 |
