@@ -957,6 +957,13 @@ StartLayout
 (
 )
 {
+if
+(
+GetDocument
+(
+)
+)
+{
 mParser
 -
 >
@@ -965,4 +972,5 @@ StartLayout
 PR_FALSE
 )
 ;
+}
 }

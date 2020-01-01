@@ -59,7 +59,7 @@ src
 /
 MochiKit
 /
-packed
+MochiKit
 .
 js
 "
@@ -234,7 +234,7 @@ countElements
 (
 node
 namespaceURI
-localName
+tagName
 )
 {
 var
@@ -286,10 +286,10 @@ ELEMENT_NODE
 &
 child
 .
-localName
+tagName
 =
 =
-localName
+tagName
 &
 &
 child
@@ -321,7 +321,7 @@ countElements
 (
 child
 namespaceURI
-localName
+tagName
 )
 ;
 }
@@ -334,7 +334,7 @@ function
 checkElements
 (
 namespaceURI
-localName
+tagName
 )
 {
 var
@@ -345,7 +345,7 @@ document
 getElementsByTagNameNS
 (
 namespaceURI
-localName
+tagName
 )
 ;
 var
@@ -355,7 +355,7 @@ document
 .
 getElementsByTagName
 (
-localName
+tagName
 )
 ;
 var
@@ -365,7 +365,7 @@ countElements
 (
 document
 namespaceURI
-localName
+tagName
 )
 ;
 const
@@ -380,7 +380,7 @@ getElementsByTagName
 '
 '
 +
-localName
+tagName
 +
 '
 \
@@ -417,7 +417,7 @@ namespaceURI
 '
 '
 +
-localName
+tagName
 +
 '
 \
@@ -485,7 +485,7 @@ gEBTN
 namespaceURI
 ]
 [
-localName
+tagName
 ]
 .
 length
@@ -502,7 +502,7 @@ gEBTNNS
 namespaceURI
 ]
 [
-localName
+tagName
 ]
 .
 length
@@ -630,7 +630,7 @@ gEBTN
 xhtmlNS
 ]
 .
-span
+SPAN
 =
 document
 .
@@ -648,7 +648,7 @@ gEBTNNS
 xhtmlNS
 ]
 .
-span
+SPAN
 =
 document
 .
@@ -667,7 +667,7 @@ gEBTN
 xhtmlNS
 ]
 .
-script
+SCRIPT
 =
 document
 .
@@ -685,7 +685,7 @@ gEBTNNS
 xhtmlNS
 ]
 .
-script
+SCRIPT
 =
 document
 .
