@@ -2134,7 +2134,7 @@ PRUint16
 i
 ;
 return
-true
+JS_TRUE
 ;
 }
 }
@@ -2207,12 +2207,12 @@ PRUint16
 i
 ;
 return
-true
+JS_TRUE
 ;
 }
 }
 return
-false
+JS_FALSE
 ;
 }
 inline
@@ -2250,7 +2250,7 @@ index
 )
 )
 return
-false
+JS_FALSE
 ;
 *
 pInterface
@@ -2261,7 +2261,7 @@ index
 ]
 ;
 return
-true
+JS_TRUE
 ;
 }
 inline
@@ -2315,7 +2315,7 @@ Interface
 )
 )
 return
-false
+JS_FALSE
 ;
 *
 pMember
@@ -2382,7 +2382,7 @@ Member
 )
 ;
 return
-true
+JS_TRUE
 ;
 }
 inline
@@ -2582,11 +2582,11 @@ aInterface
 pp
 )
 return
-true
+JS_TRUE
 ;
 }
 return
-false
+JS_FALSE
 ;
 }
 inline
@@ -2689,7 +2689,7 @@ iid
 )
 )
 return
-true
+JS_TRUE
 ;
 /
 /
@@ -2715,7 +2715,7 @@ return
 true
 ;
 return
-false
+JS_FALSE
 ;
 }
 inline
@@ -2817,7 +2817,7 @@ pp2
 )
 )
 return
-false
+JS_FALSE
 ;
 if
 (
@@ -2827,11 +2827,11 @@ cur
 iface
 )
 return
-true
+JS_TRUE
 ;
 }
 return
-false
+JS_FALSE
 ;
 }
 inline
@@ -3482,10 +3482,10 @@ prop
 )
 )
 return
-false
+JS_FALSE
 ;
 return
-true
+JS_TRUE
 ;
 }
 inline
@@ -3576,7 +3576,7 @@ else
 {
 obj
 =
-JS_NewObject
+JS_NewObjectWithUncacheableProto
 (
 cx
 clasp
@@ -3698,7 +3698,7 @@ ccx
 )
 ;
 return
-false
+JS_FALSE
 ;
 }
 inline
