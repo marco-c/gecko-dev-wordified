@@ -2734,6 +2734,26 @@ self
 xml_output
 :
             
+xml_dir
+=
+os
+.
+path
+.
+dirname
+(
+os
+.
+path
+.
+abspath
+(
+self
+.
+xml_output
+)
+)
+            
 if
 not
 os
@@ -2742,16 +2762,7 @@ path
 .
 exists
 (
-os
-.
-path
-.
-dirname
-(
-self
-.
-xml_output
-)
+xml_dir
 )
 :
                 
@@ -2759,16 +2770,7 @@ os
 .
 makedirs
 (
-os
-.
-path
-.
-dirname
-(
-self
-.
-xml_output
-)
+xml_dir
 )
             
 with
