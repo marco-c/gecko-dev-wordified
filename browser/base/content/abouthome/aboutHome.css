@@ -1594,6 +1594,15 @@ hsla
 )
 ;
 }
+#
+launcher
+:
+not
+(
+[
+session
+]
+)
 body
 [
 narrow
