@@ -18275,6 +18275,14 @@ psd
 state
 )
 ;
+remainingWidth
+=
+availWidth
+-
+aLineBounds
+.
+width
+;
 break
 ;
 }
