@@ -330,9 +330,9 @@ WebGLContext
 :
 GetImageSize
 (
-WebGLsizei
+GLsizei
 height
-WebGLsizei
+GLsizei
 width
 uint32_t
 pixelSize
@@ -428,7 +428,7 @@ WebGLContext
 :
 SynthesizeGLError
 (
-WebGLenum
+GLenum
 err
 )
 {
@@ -505,7 +505,7 @@ WebGLContext
 :
 SynthesizeGLError
 (
-WebGLenum
+GLenum
 err
 const
 char

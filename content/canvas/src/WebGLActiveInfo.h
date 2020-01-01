@@ -140,9 +140,9 @@ public
 :
 WebGLActiveInfo
 (
-WebGLint
+GLint
 size
-WebGLenum
+GLenum
 type
 const
 nsACString
@@ -171,7 +171,7 @@ name
 /
 WebIDL
 attributes
-WebGLint
+GLint
 Size
 (
 )
@@ -181,7 +181,7 @@ return
 mSize
 ;
 }
-WebGLenum
+GLenum
 Type
 (
 )
@@ -229,10 +229,10 @@ WebGLActiveInfo
 )
 protected
 :
-WebGLint
+GLint
 mSize
 ;
-WebGLenum
+GLenum
 mType
 ;
 nsString

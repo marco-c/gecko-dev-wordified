@@ -841,10 +841,10 @@ private
 /
 /
 MEMBERS
-WebGLuint
+GLuint
 mGLName
 ;
-WebGLenum
+GLenum
 mType
 ;
 /

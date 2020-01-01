@@ -191,7 +191,7 @@ mHasEverBeenBound
 x
 ;
 }
-WebGLuint
+GLuint
 GLName
 (
 )
@@ -223,7 +223,7 @@ mInitialized
 aInitialized
 ;
 }
-WebGLenum
+GLenum
 InternalFormat
 (
 )
@@ -236,7 +236,7 @@ mInternalFormat
 void
 SetInternalFormat
 (
-WebGLenum
+GLenum
 aInternalFormat
 )
 {
@@ -245,7 +245,7 @@ mInternalFormat
 aInternalFormat
 ;
 }
-WebGLenum
+GLenum
 InternalFormatForGL
 (
 )
@@ -258,7 +258,7 @@ mInternalFormatForGL
 void
 SetInternalFormatForGL
 (
-WebGLenum
+GLenum
 aInternalFormatForGL
 )
 {
@@ -316,13 +316,13 @@ WebGLRenderbuffer
 )
 protected
 :
-WebGLuint
+GLuint
 mGLName
 ;
-WebGLenum
+GLenum
 mInternalFormat
 ;
-WebGLenum
+GLenum
 mInternalFormatForGL
 ;
 bool

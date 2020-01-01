@@ -219,7 +219,7 @@ WebGLShader
 WebGLContext
 *
 context
-WebGLenum
+GLenum
 stype
 )
 ;
@@ -244,7 +244,7 @@ aMallocSizeOf
 )
 const
 ;
-WebGLuint
+GLuint
 GLName
 (
 )
@@ -253,7 +253,7 @@ return
 mGLName
 ;
 }
-WebGLenum
+GLenum
 ShaderType
 (
 )
@@ -432,10 +432,10 @@ WebGLShader
 )
 protected
 :
-WebGLuint
+GLuint
 mGLName
 ;
-WebGLenum
+GLenum
 mType
 ;
 nsString

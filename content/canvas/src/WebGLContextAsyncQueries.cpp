@@ -189,7 +189,7 @@ char
 *
 GetQueryTargetEnumString
 (
-WebGLenum
+GLenum
 target
 )
 {
@@ -659,7 +659,7 @@ WebGLContext
 :
 BeginQuery
 (
-WebGLenum
+GLenum
 target
 WebGLQuery
 *
@@ -1109,7 +1109,7 @@ WebGLContext
 :
 EndQuery
 (
-WebGLenum
+GLenum
 target
 )
 {
@@ -1458,9 +1458,9 @@ WebGLContext
 :
 GetQuery
 (
-WebGLenum
+GLenum
 target
-WebGLenum
+GLenum
 pname
 )
 {
@@ -1580,7 +1580,7 @@ cx
 WebGLQuery
 *
 query
-WebGLenum
+GLenum
 pname
 )
 {
@@ -2023,7 +2023,7 @@ WebGLContext
 :
 GetQueryTargetSlot
 (
-WebGLenum
+GLenum
 target
 const
 char

@@ -565,7 +565,7 @@ mHasEverBeenBound
 x
 ;
 }
-WebGLuint
+GLuint
 GLName
 (
 )
@@ -578,7 +578,7 @@ mGLName
 bool
 EnsureAttribIndex
 (
-WebGLuint
+GLuint
 index
 const
 char
@@ -748,7 +748,7 @@ private
 /
 /
 MEMBERS
-WebGLuint
+GLuint
 mGLName
 ;
 bool

@@ -5625,7 +5625,7 @@ DOMString
 mozGetUnderlyingParamString
 (
 in
-WebGLenum
+GLenum
 pname
 )
 ;
@@ -6916,7 +6916,7 @@ char
 info
 )
 {
-WebGLenum
+GLenum
 status
 =
 CheckFramebufferStatus

@@ -182,7 +182,7 @@ WebGLShader
 WebGLContext
 *
 context
-WebGLenum
+GLenum
 stype
 )
 :
