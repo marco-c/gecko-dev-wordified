@@ -3801,6 +3801,13 @@ sTextStateObserver
 -
 >
 mEditableNode
+|
+|
+!
+sTextStateObserver
+-
+>
+mSel
 )
 return
 NS_ERROR_NOT_AVAILABLE
