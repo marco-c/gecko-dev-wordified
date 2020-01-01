@@ -434,6 +434,12 @@ BLOCK
 *
 /
 #
+ifndef
+NS_SVGAELEMENT_H_
+#
+define
+NS_SVGAELEMENT_H_
+#
 include
 "
 nsSVGGraphicElement
@@ -799,3 +805,8 @@ sStringInfo
 ;
 }
 ;
+#
+endif
+/
+/
+NS_SVGAELEMENT_H_

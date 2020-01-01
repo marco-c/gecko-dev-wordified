@@ -437,6 +437,16 @@ BLOCK
 /
 /
 /
+This
+file
+must
+not
+have
+include
+guards
+.
+/
+/
 Features
 (
 SVG

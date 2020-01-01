@@ -567,6 +567,16 @@ the
 above
 *
 /
+/
+/
+This
+file
+must
+not
+have
+include
+guards
+.
 #
 define
 ATTRS_NONE
