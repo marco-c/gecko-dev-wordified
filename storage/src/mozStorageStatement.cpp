@@ -523,13 +523,6 @@ h
 #
 include
 "
-mozStorageValueArray
-.
-h
-"
-#
-include
-"
 mozStoragePrivateHelpers
 .
 h
