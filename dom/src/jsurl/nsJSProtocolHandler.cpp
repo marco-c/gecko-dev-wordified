@@ -1414,7 +1414,12 @@ JS
 Value
 v
 =
-JSVAL_VOID
+JS
+:
+:
+UndefinedValue
+(
+)
 ;
 /
 /
@@ -2131,10 +2136,7 @@ result
 init
 (
 cx
-JSVAL_TO_STRING
-(
 v
-)
 )
 )
 {

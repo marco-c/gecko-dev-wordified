@@ -5896,6 +5896,7 @@ aRequest
 >
 mOriginPrincipal
 )
+{
 options
 .
 setOriginPrincipals
@@ -5912,6 +5913,7 @@ mOriginPrincipal
 )
 )
 ;
+}
 JS
 :
 :
