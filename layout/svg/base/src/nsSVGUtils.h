@@ -1194,7 +1194,13 @@ nsIContent
 *
 /
 static
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetParentElement
 (

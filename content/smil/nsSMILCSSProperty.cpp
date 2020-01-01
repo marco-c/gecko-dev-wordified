@@ -501,6 +501,13 @@ nsIDOMElement
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 /
 Helper
@@ -730,7 +737,7 @@ nsSMILCSSProperty
 (
 nsCSSProperty
 aPropID
-nsIContent
+Element
 *
 aElement
 )

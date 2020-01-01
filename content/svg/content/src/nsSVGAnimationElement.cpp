@@ -484,6 +484,13 @@ nsISMILAttr
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 /
 -
@@ -1055,7 +1062,7 @@ aAttName
 )
 ;
 }
-nsIContent
+Element
 *
 nsSVGAnimationElement
 :
