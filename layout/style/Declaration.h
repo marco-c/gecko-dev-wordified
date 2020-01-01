@@ -945,6 +945,17 @@ initial
 state
 .
 *
+Callers
+must
+make
+sure
+mOrder
+is
+updated
+as
+necessary
+.
+*
 /
 void
 CompressFrom
