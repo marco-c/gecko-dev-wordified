@@ -16898,10 +16898,8 @@ otherwise
 exit
 from
 trace
-and
-proceed
-with
-GC
+before
+throwing
 .
 *
 /
