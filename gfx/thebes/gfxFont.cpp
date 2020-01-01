@@ -23011,7 +23011,7 @@ just
 add
 the
 advance
-PRUint32
+PRInt32
 advance
 =
 glyphData
