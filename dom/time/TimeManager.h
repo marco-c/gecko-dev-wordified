@@ -87,6 +87,15 @@ Observer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsPIDOMWindow
 ;
@@ -111,6 +120,7 @@ time
 {
 class
 TimeManager
+MOZ_FINAL
 :
 public
 nsIDOMMozTimeManager
