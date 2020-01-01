@@ -594,8 +594,13 @@ g_type_init
 #
 endif
 #
-ifdef
+if
+(
 MOZ_PLATFORM_MAEMO
+=
+=
+5
+)
 /
 *
 Initialize
