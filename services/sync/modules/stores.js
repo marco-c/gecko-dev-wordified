@@ -6038,6 +6038,11 @@ command
 .
 data
 .
+isHttpOnly
+command
+.
+data
+.
 isSession
 command
 .
