@@ -18889,15 +18889,6 @@ update
 {
 if
 (
-!
-this
-.
-_enabled
-)
-return
-;
-if
-(
 update
 .
 errorCode
@@ -18915,7 +18906,7 @@ CERT_ATTR_CHECK_FAILED_NO_UPDATE
 update
 .
 errorCode
-!
+=
 =
 CERT_ATTR_CHECK_FAILED_HAS_UPDATE
 )
