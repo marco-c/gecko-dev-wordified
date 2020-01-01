@@ -3351,8 +3351,8 @@ SLOT_FIELDINFO
 StructTypes
 only
 )
-FieldInfo
-array
+FieldInfoHash
+table
 SLOT_FNINFO
 =
 7
