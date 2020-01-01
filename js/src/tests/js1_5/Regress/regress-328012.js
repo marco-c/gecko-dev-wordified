@@ -554,6 +554,11 @@ focus
 '
 undefined
 '
+&
+&
+focus
+.
+prototype
 )
 {
 try
