@@ -698,6 +698,11 @@ nsCString
 aCharset
 )
 ;
+void
+NotifyListener
+(
+)
+;
 nsresult
 mStatus
 ;
