@@ -77,3 +77,7 @@ from
 runtests
 import
 MarionetteTestRunner
+from
+runtests
+import
+MarionetteTestOptions

@@ -812,6 +812,9 @@ suite
 testloader
 marionette
 testvars
+*
+*
+kwargs
 )
 :
         
@@ -905,6 +908,10 @@ filepath
 testvars
 =
 testvars
+                                  
+*
+*
+kwargs
 )
 )
     
