@@ -3253,9 +3253,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3282,9 +3280,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3311,9 +3307,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3340,9 +3334,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3369,9 +3361,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3398,9 +3388,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3427,9 +3415,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3456,9 +3442,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3485,9 +3469,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3514,9 +3496,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3543,9 +3523,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3572,9 +3550,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3601,9 +3577,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3630,9 +3604,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3659,9 +3631,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3688,9 +3658,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3717,9 +3685,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3746,9 +3712,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3775,9 +3739,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3804,9 +3766,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3833,9 +3793,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3865,9 +3823,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
@@ -3894,9 +3850,7 @@ aContext
 nsRuleNode
 *
 aHighestNode
-const
 RuleDetail
-&
 aRuleDetail
 PRBool
 aInherited
