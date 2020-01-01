@@ -3428,13 +3428,6 @@ nsIContent
 aElement
 )
 ;
-nsIntPoint
-GetMouseCoords
-(
-nsIntRect
-aBounds
-)
-;
 static
 void
 sClickHoldCallback
