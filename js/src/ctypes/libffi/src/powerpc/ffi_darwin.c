@@ -2896,7 +2896,7 @@ ABI
 .
 *
 /
-int
+unsigned
 i
 ;
 ffi_type
@@ -4125,7 +4125,10 @@ ecif
 .
 rvalue
 fn
+FFI_FN
+(
 ffi_prep_args
+)
 )
 ;
 break
@@ -4153,7 +4156,10 @@ ecif
 .
 rvalue
 fn
+FFI_FN
+(
 ffi_prep_args
+)
 )
 ;
 break
@@ -6438,8 +6444,7 @@ i
 ]
 =
 (
-void
-*
+uintptr_t
 )
 pgr
 +

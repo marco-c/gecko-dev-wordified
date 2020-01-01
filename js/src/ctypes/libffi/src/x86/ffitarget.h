@@ -438,7 +438,7 @@ define
 USE_BUILTIN_FFS
 0
 /
-/
+*
 not
 yet
 implemented
@@ -446,6 +446,8 @@ in
 mingw
 -
 64
+*
+/
 #
 endif
 /
