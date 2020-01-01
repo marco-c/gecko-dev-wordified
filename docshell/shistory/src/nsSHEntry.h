@@ -716,6 +716,9 @@ mExpired
 PRPackedBool
 mSticky
 ;
+PRPackedBool
+mDynamicallyCreated
+;
 nsCString
 mContentType
 ;
@@ -771,6 +774,9 @@ mEditorData
 ;
 nsString
 mStateData
+;
+PRUint64
+mDocShellID
 ;
 }
 ;

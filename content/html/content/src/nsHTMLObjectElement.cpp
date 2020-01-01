@@ -913,6 +913,14 @@ RegisterFreezableElement
 (
 )
 ;
+SetIsNetworkCreated
+(
+aFromParser
+=
+=
+NS_FROM_PARSER_NETWORK
+)
+;
 }
 nsHTMLObjectElement
 :
@@ -2297,6 +2305,11 @@ ctype
 )
 ;
 }
+SetIsNetworkCreated
+(
+PR_FALSE
+)
+;
 }
 PRInt32
 nsHTMLObjectElement
