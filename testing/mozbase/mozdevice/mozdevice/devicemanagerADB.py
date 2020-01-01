@@ -106,6 +106,9 @@ None
 deviceRoot
 =
 None
+*
+*
+kwargs
 )
 :
         
@@ -4288,8 +4291,9 @@ deviceRoot
 )
 :
                 
-if
-not
+try
+:
+                    
 self
 .
 mkDir
@@ -4298,11 +4302,11 @@ self
 .
 deviceRoot
 )
+                
+except
 :
                     
-raise
-DMError
-(
+print
 "
 Unable
 to
@@ -4316,7 +4320,8 @@ s
 self
 .
 deviceRoot
-)
+                    
+raise
             
 return
         

@@ -188,6 +188,9 @@ retrylimit
 deviceRoot
 =
 None
+*
+*
+kwargs
 )
 :
         
@@ -214,6 +217,12 @@ self
 _sock
 =
 None
+        
+self
+.
+_everConnected
+=
+False
         
 self
 .
@@ -1132,6 +1141,10 @@ debug
 >
 =
 1
+and
+self
+.
+_everConnected
 :
                     
 print
@@ -1263,6 +1276,12 @@ True
                     
 return
 False
+                
+self
+.
+_everConnected
+=
+True
             
 except
 socket
