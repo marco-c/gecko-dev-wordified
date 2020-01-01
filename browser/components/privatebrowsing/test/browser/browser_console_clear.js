@@ -488,7 +488,7 @@ nsIConsoleService
 )
 ;
 const
-kExitMessage
+EXIT_MESSAGE
 =
 "
 Message
@@ -537,7 +537,7 @@ aMessage
 message
 =
 =
-kExitMessage
+EXIT_MESSAGE
 )
 {
 /
@@ -577,7 +577,7 @@ console
 does
 not
 contain
-kTestMessage
+TEST_MESSAGE
 ok
 (
 !
@@ -694,7 +694,7 @@ i
 message
 =
 =
-kTestMessage
+TEST_MESSAGE
 )
 return
 true
@@ -705,7 +705,7 @@ false
 ;
 }
 const
-kTestMessage
+TEST_MESSAGE
 =
 "
 Test
@@ -731,7 +731,7 @@ consoleService
 .
 logStringMessage
 (
-kTestMessage
+TEST_MESSAGE
 )
 ;
 ok
@@ -826,7 +826,7 @@ consoleService
 .
 logStringMessage
 (
-kExitMessage
+EXIT_MESSAGE
 )
 ;
 }

@@ -1397,9 +1397,6 @@ ww
 .
 registerNotification
 (
-{
-observe
-:
 function
 (
 aSubject
@@ -1411,7 +1408,9 @@ ww
 .
 unregisterNotification
 (
-this
+arguments
+.
+callee
 )
 ;
 aSubject
@@ -1432,7 +1431,6 @@ doTest
 false
 )
 ;
-}
 }
 )
 ;

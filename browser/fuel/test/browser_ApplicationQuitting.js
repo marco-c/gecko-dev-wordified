@@ -3,13 +3,8 @@ test
 (
 )
 {
-let
-quitRequestObserver
-=
-{
-observe
-:
 function
+quitRequestObserver
 (
 aSubject
 aTopic
@@ -58,8 +53,6 @@ data
 true
 ;
 }
-}
-;
 /
 /
 ensure
@@ -73,9 +66,7 @@ quit
 let
 os
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -92,9 +83,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIObserverService
 )

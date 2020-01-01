@@ -1549,15 +1549,12 @@ us
 *
 /
 let
-observer
-=
-{
 hitCount
-:
+=
 0
-observe
-:
+;
 function
+observer
 (
 aCancel
 aTopic
@@ -1589,8 +1586,6 @@ if
 (
 +
 +
-this
-.
 hitCount
 =
 =
@@ -1616,8 +1611,6 @@ true
 ;
 }
 }
-}
-;
 let
 observerService
 =
@@ -1747,7 +1740,6 @@ o
 in
 observing
 )
-{
 observerService
 .
 addObserver
@@ -1757,7 +1749,6 @@ o
 false
 )
 ;
-}
 /
 /
 Make
@@ -1835,7 +1826,6 @@ o
 in
 observing
 )
-{
 observerService
 .
 removeObserver
@@ -1845,7 +1835,6 @@ o
 false
 )
 ;
-}
 /
 /
 Reset
@@ -1853,12 +1842,6 @@ the
 prefs
 we
 touched
-for
-each
-(
-let
-pref
-in
 [
 "
 browser
@@ -1875,6 +1858,12 @@ privatebrowsing
 keep_current_session
 "
 ]
+.
+forEach
+(
+function
+(
+pref
 )
 {
 if
@@ -1886,7 +1875,6 @@ prefHasUserValue
 pref
 )
 )
-{
 gPrefService
 .
 clearUserPref
@@ -1895,7 +1883,8 @@ pref
 )
 ;
 }
-}
+)
+;
 gPrefService
 .
 setBoolPref

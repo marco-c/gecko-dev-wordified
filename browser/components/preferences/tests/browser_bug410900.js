@@ -191,13 +191,8 @@ Ci
 nsIObserverService
 )
 ;
-var
-observer
-=
-{
-observe
-:
 function
+observer
 (
 win
 topic
@@ -243,8 +238,6 @@ win
 )
 ;
 }
-}
-;
 obs
 .
 addObserver

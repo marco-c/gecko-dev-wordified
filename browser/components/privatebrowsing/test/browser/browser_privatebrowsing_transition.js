@@ -524,13 +524,8 @@ secondUnloadFired
 =
 0
 ;
-let
-pbObserver
-=
-{
-observe
-:
 function
+pbObserver
 (
 aSubject
 aTopic
@@ -540,7 +535,7 @@ aData
 if
 (
 aTopic
-=
+!
 =
 "
 private
@@ -548,7 +543,8 @@ private
 browsing
 "
 )
-{
+return
+;
 switch
 (
 aData
@@ -606,7 +602,7 @@ _obs
 .
 removeObserver
 (
-this
+pbObserver
 "
 private
 -
@@ -652,8 +648,6 @@ now
 ;
 break
 ;
-}
-}
 }
 }
 function
@@ -722,7 +716,6 @@ addEventListener
 "
 unload
 "
-(
 function
 (
 )
@@ -764,7 +757,6 @@ yet
 )
 ;
 }
-)
 true
 )
 ;
@@ -798,7 +790,6 @@ addEventListener
 "
 unload
 "
-(
 function
 (
 )
@@ -865,7 +856,6 @@ false
 )
 ;
 }
-)
 true
 )
 ;
@@ -888,7 +878,6 @@ addEventListener
 "
 unload
 "
-(
 function
 (
 )
@@ -975,7 +964,6 @@ false
 )
 ;
 }
-)
 true
 )
 ;

@@ -3912,13 +3912,8 @@ wh
 =
 this
 ;
-let
-windowObserver
-=
-{
-observe
-:
 function
+windowObserver
 (
 aSubject
 aTopic
@@ -3930,7 +3925,6 @@ if
 aTopic
 !
 =
-=
 "
 domwindowopened
 "
@@ -3941,7 +3935,7 @@ winWatch
 .
 unregisterNotification
 (
-this
+windowObserver
 )
 ;
 var
@@ -4267,8 +4261,6 @@ false
 )
 ;
 }
-}
-;
 winWatch
 .
 registerNotification

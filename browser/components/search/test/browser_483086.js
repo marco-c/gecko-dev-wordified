@@ -456,13 +456,8 @@ waitForExplicitFinish
 (
 )
 ;
-let
-observer
-=
-{
-observe
-:
 function
+observer
 (
 aSubject
 aTopic
@@ -546,7 +541,7 @@ gObs
 .
 removeObserver
 (
-this
+observer
 "
 browser
 -
@@ -566,8 +561,6 @@ break
 ;
 }
 }
-}
-;
 gObs
 .
 addObserver
@@ -640,13 +633,8 @@ test2
 (
 )
 {
-let
-observer
-=
-{
-observe
-:
 function
+observer
 (
 aSubject
 aTopic
@@ -729,7 +717,7 @@ gObs
 .
 removeObserver
 (
-this
+observer
 "
 browser
 -
@@ -749,8 +737,6 @@ break
 ;
 }
 }
-}
-;
 gObs
 .
 addObserver
