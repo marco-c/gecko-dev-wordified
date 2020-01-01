@@ -13289,6 +13289,9 @@ NS_ENSURE_ARG
 aNewInner
 )
 ;
+#
+ifdef
+DEBUG
 JSObject
 *
 newInnerJSObject
@@ -13305,6 +13308,8 @@ GetScriptGlobal
 JAVASCRIPT
 )
 ;
+#
+endif
 JSObject
 *
 outerGlobal
