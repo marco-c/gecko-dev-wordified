@@ -11000,6 +11000,11 @@ GetSystemMetrics
 (
 SM_CXFRAME
 )
++
+GetSystemMetrics
+(
+SM_CXPADDEDBORDER
+)
 ;
 return
 true

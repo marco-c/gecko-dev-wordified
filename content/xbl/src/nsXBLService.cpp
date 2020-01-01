@@ -5667,6 +5667,7 @@ CheckMayLoad
 (
 aBindingURI
 true
+false
 )
 ;
 NS_ENSURE_SUCCESS

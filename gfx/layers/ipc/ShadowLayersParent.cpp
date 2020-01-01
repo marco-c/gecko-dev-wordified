@@ -199,6 +199,13 @@ TiledLayerBuffer
 .
 h
 "
+#
+include
+"
+gfxPlatform
+.
+h
+"
 typedef
 std
 :
@@ -1341,10 +1348,6 @@ SetOpacity
 common
 .
 opacity
-(
-)
-.
-value
 (
 )
 )

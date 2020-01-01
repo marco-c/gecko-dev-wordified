@@ -244,13 +244,6 @@ h
 #
 include
 "
-ImageLayers
-.
-h
-"
-#
-include
-"
 BasicLayers
 .
 h

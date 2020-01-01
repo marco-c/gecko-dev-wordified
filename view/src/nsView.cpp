@@ -5863,6 +5863,11 @@ with
 /
 window
 creation
+SetForcedRepaint
+(
+true
+)
+;
 if
 (
 this

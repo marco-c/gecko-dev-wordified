@@ -6149,6 +6149,16 @@ bool
 enabled
 )
 ;
+void
+SetValidateGC
+(
+JSContext
+*
+cx
+bool
+enabled
+)
+;
 const
 int
 ZealPokeValue

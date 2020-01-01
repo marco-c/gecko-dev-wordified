@@ -162,6 +162,13 @@ h
 #
 include
 "
+ImageContainer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences
@@ -2620,10 +2627,6 @@ aDecoder
 mState
 (
 DECODER_STATE_DECODING_METADATA
-)
-mCbCrSize
-(
-0
 )
 mPlayDuration
 (

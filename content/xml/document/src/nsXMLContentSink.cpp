@@ -370,13 +370,6 @@ h
 #
 include
 "
-nsIImageLoadingContent
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

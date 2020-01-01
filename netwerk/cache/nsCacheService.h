@@ -1098,6 +1098,11 @@ LeavePrivateBrowsing
 (
 )
 ;
+bool
+IsDoomListEmpty
+(
+)
+;
 typedef
 bool
 (
@@ -1143,6 +1148,10 @@ nsDoomEvent
 friend
 class
 nsDisableOldMaxSmartSizePrefEvent
+;
+friend
+class
+nsDiskCacheMap
 ;
 /
 *

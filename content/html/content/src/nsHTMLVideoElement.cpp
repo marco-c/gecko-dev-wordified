@@ -222,6 +222,13 @@ h
 #
 include
 "
+ImageContainer
+.
+h
+"
+#
+include
+"
 nsIScriptSecurityManager
 .
 h

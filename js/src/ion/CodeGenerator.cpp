@@ -12657,7 +12657,7 @@ atomMask
 JSString
 :
 :
-ATOM_MASK
+ATOM_BIT
 )
 ;
 /
@@ -13810,14 +13810,14 @@ branchTest32
 Assembler
 :
 :
-NonZero
+Zero
 output
 Imm32
 (
 JSString
 :
 :
-ROPE_BIT
+FLAGS_MASK
 )
 ool
 -

@@ -1256,6 +1256,9 @@ mPipelinePosition
 PRInt64
 mMaxPipelineObjectSize
 ;
+nsHttpVersion
+mHttpVersion
+;
 /
 /
 state

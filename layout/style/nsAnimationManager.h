@@ -445,6 +445,14 @@ NS_STYLE_ANIMATION_PLAY_STATE_PAUSED
 ;
 }
 bool
+HasAnimationOfProperty
+(
+nsCSSProperty
+aProperty
+)
+const
+;
+bool
 CanPerformOnCompositor
 (
 mozilla

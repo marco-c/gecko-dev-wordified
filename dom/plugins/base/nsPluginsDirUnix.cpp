@@ -2084,6 +2084,16 @@ pLibrary
 ;
 #
 endif
+if
+(
+!
+pLibrary
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 return
 NS_OK
 ;

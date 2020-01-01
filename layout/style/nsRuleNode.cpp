@@ -19181,6 +19181,13 @@ do_GetAtom
 lang
 )
 ;
+aFont
+-
+>
+mExplicitLanguage
+=
+true
+;
 }
 const
 nsFont

@@ -559,7 +559,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 REMOTE_IMAGE_BITMAP
@@ -707,7 +707,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 REMOTE_IMAGE_DXGI_TEXTURE
@@ -761,7 +761,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 CAIRO_SURFACE
@@ -1162,7 +1162,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 CAIRO_SURFACE
@@ -1176,7 +1176,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 REMOTE_IMAGE_BITMAP
@@ -1190,7 +1190,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 REMOTE_IMAGE_DXGI_TEXTURE
@@ -1206,7 +1206,7 @@ GetFormat
 )
 !
 =
-Image
+ImageFormat
 :
 :
 CAIRO_SURFACE
@@ -1410,7 +1410,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 PLANAR_YCBCR
@@ -2019,7 +2019,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 PLANAR_YCBCR
@@ -2528,7 +2528,7 @@ GetFormat
 )
 !
 =
-Image
+ImageFormat
 :
 :
 CAIRO_SURFACE
