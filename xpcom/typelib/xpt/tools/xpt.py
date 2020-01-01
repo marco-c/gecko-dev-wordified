@@ -930,9 +930,6 @@ self
 pointer
 =
 False
-unique_pointer
-=
-False
 reference
 =
 False
@@ -944,12 +941,6 @@ self
 pointer
 =
 pointer
-        
-self
-.
-unique_pointer
-=
-unique_pointer
         
 self
 .
@@ -1074,17 +1065,6 @@ byte
 )
                 
 '
-unique_pointer
-'
-:
-bool
-(
-byte
-&
-0x40
-)
-                
-'
 reference
 '
 :
@@ -1140,17 +1120,6 @@ flags
 |
 =
 0x80
-        
-if
-self
-.
-unique_pointer
-:
-            
-flags
-|
-=
-0x40
         
 if
 self

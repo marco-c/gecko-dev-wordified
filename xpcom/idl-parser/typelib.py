@@ -967,18 +967,6 @@ pointer
 =
 isPtr
                                         
-#
-XXXkhuey
-unique_pointer
-is
-completely
-unused
-(
-bug
-677787
-.
-)
-                                        
 reference
 =
 False
@@ -1193,13 +1181,6 @@ pointer
 =
 isPtr
                                       
-#
-XXXkhuey
-unique_pointer
-is
-completely
-unused
-                                      
 reference
 =
 isRef
@@ -1242,13 +1223,6 @@ void
 pointer
 =
 True
-                                      
-#
-XXXkhuey
-unique_pointer
-is
-completely
-unused
                                       
 reference
 =
