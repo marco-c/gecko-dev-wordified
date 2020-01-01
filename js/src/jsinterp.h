@@ -2507,8 +2507,6 @@ js
 InvokeArgsGuard
 &
 args
-JSBool
-clampReturn
 )
 ;
 extern
