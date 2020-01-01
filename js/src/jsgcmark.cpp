@@ -6123,6 +6123,13 @@ if
 (
 start
 <
+nslots
+)
+{
+if
+(
+start
+<
 nfixed
 )
 {
@@ -6146,12 +6153,6 @@ nslots
 ;
 }
 else
-if
-(
-start
-<
-nslots
-)
 {
 *
 vpp
@@ -6177,6 +6178,7 @@ nslots
 -
 nfixed
 ;
+}
 }
 else
 {
@@ -6201,10 +6203,7 @@ vpp
 *
 endp
 =
-obj
--
->
-slots
+vp
 ;
 }
 }
