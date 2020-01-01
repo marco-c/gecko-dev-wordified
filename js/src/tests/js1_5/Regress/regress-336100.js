@@ -552,7 +552,7 @@ expect
 '
 [
 object
-Object
+Arguments
 ]
 '
 ;
@@ -606,7 +606,7 @@ undefined
 '
 [
 object
-Object
+Arguments
 ]
 '
 ;
