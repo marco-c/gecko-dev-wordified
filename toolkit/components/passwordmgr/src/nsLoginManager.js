@@ -2287,6 +2287,15 @@ function
 event
 )
 {
+if
+(
+!
+event
+.
+isTrusted
+)
+return
+;
 this
 .
 _pwmgr
