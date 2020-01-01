@@ -749,12 +749,6 @@ bbox
 aParent
 )
 ;
-maskArea
-.
-RoundOut
-(
-)
-;
 gfxContext
 *
 gfx
@@ -790,6 +784,12 @@ gfx
 -
 >
 GetClipExtents
+(
+)
+;
+clipExtents
+.
+RoundOut
 (
 )
 ;
