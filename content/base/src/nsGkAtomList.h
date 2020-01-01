@@ -713,6 +713,13 @@ _moz
 )
 GK_ATOM
 (
+mozallowfullscreen
+"
+mozallowfullscreen
+"
+)
+GK_ATOM
+(
 moztype
 "
 _moz
