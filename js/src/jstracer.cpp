@@ -44609,7 +44609,7 @@ s0
 |
 |
 !
-isPromote
+isPromoteInt
 (
 s1
 )
