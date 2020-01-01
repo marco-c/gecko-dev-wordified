@@ -12279,7 +12279,7 @@ height
 ;
 nsAutoArrayPtr
 <
-PRUint8
+uint8_t
 >
 imageBuffer
 (
@@ -12290,7 +12290,7 @@ std
 :
 nothrow
 )
-PRUint8
+uint8_t
 [
 bufferSize
 ]
