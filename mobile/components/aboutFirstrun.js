@@ -609,7 +609,7 @@ content
 /
 firstrun
 .
-xhtml
+html
 "
 null
 null
