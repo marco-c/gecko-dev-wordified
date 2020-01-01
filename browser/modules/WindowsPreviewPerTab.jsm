@@ -5513,7 +5513,7 @@ service
 1
 "
 "
-nsIPrefBranch2
+nsIPrefBranch
 "
 )
 ;
