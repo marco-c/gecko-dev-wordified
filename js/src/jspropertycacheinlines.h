@@ -475,10 +475,6 @@ jsscope
 .
 h
 "
-using
-namespace
-js
-;
 /
 *
 *
@@ -661,6 +657,9 @@ shape
 /
 JS_ALWAYS_INLINE
 void
+js
+:
+:
 PropertyCache
 :
 :
@@ -881,6 +880,9 @@ misses
 }
 JS_ALWAYS_INLINE
 bool
+js
+:
+:
 PropertyCache
 :
 :
