@@ -2379,6 +2379,9 @@ it
 .
 *
 /
+#
+ifdef
+JS_METHODJIT
 if
 (
 isJITRuntimeEnabled
@@ -2450,6 +2453,8 @@ return
 true
 ;
 }
+#
+endif
 codeBlock
 .
 setFallBack
