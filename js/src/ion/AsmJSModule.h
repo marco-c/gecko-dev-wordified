@@ -1120,6 +1120,9 @@ fun
 PropertyName
 *
 maybeFieldName
+mozilla
+:
+:
 MoveRef
 <
 ArgCoercionVector
@@ -1202,6 +1205,9 @@ public
 :
 ExportedFunction
 (
+mozilla
+:
+:
 MoveRef
 <
 ExportedFunction
@@ -1225,6 +1231,9 @@ maybeFieldName_
 )
 argCoercions_
 (
+mozilla
+:
+:
 Move
 (
 rhs
@@ -2657,6 +2666,9 @@ fun
 PropertyName
 *
 maybeFieldName
+mozilla
+:
+:
 MoveRef
 <
 ArgCoercionVector
@@ -2680,6 +2692,9 @@ exports_
 .
 append
 (
+mozilla
+:
+:
 Move
 (
 func

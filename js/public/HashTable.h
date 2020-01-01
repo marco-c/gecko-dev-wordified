@@ -164,6 +164,15 @@ include
 "
 mozilla
 /
+Move
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
@@ -1370,6 +1379,9 @@ impl
 add
 (
 p
+mozilla
+:
+:
 Move
 (
 e
@@ -1404,6 +1416,9 @@ impl
 add
 (
 p
+mozilla
+:
+:
 Move
 (
 e
@@ -1448,6 +1463,9 @@ relookupOrAdd
 (
 p
 k
+mozilla
+:
+:
 Move
 (
 e
@@ -2207,6 +2225,9 @@ impl
 putNew
 (
 k
+mozilla
+:
+:
 Move
 (
 e
@@ -2380,6 +2401,9 @@ is
 movable
 HashMap
 (
+mozilla
+:
+:
 MoveRef
 <
 HashMap
@@ -2389,6 +2413,9 @@ rhs
 :
 impl
 (
+mozilla
+:
+:
 Move
 (
 rhs
@@ -2403,6 +2430,9 @@ void
 operator
 =
 (
+mozilla
+:
+:
 MoveRef
 <
 HashMap
@@ -2412,6 +2442,9 @@ rhs
 {
 impl
 =
+mozilla
+:
+:
 Move
 (
 rhs
@@ -4208,6 +4241,9 @@ is
 movable
 HashSet
 (
+mozilla
+:
+:
 MoveRef
 <
 HashSet
@@ -4217,6 +4253,9 @@ rhs
 :
 impl
 (
+mozilla
+:
+:
 Move
 (
 rhs
@@ -4231,6 +4270,9 @@ void
 operator
 =
 (
+mozilla
+:
+:
 MoveRef
 <
 HashSet
@@ -4240,6 +4282,9 @@ rhs
 {
 impl
 =
+mozilla
+:
+:
 Move
 (
 rhs
@@ -5313,6 +5358,9 @@ v
 }
 HashMapEntry
 (
+mozilla
+:
+:
 MoveRef
 <
 HashMapEntry
@@ -5322,6 +5370,9 @@ rhs
 :
 key
 (
+mozilla
+:
+:
 Move
 (
 rhs
@@ -5332,6 +5383,9 @@ key
 )
 value
 (
+mozilla
+:
+:
 Move
 (
 rhs
@@ -7046,6 +7100,9 @@ is
 movable
 HashTable
 (
+mozilla
+:
+:
 MoveRef
 <
 HashTable
@@ -7082,6 +7139,9 @@ void
 operator
 =
 (
+mozilla
+:
+:
 MoveRef
 <
 HashTable
@@ -9011,6 +9071,9 @@ hn
 setLive
 (
 hn
+mozilla
+:
+:
 Move
 (
 src
@@ -10567,6 +10630,9 @@ T
 NonConstT
 t
 (
+mozilla
+:
+:
 Move
 (
 *
@@ -10601,6 +10667,9 @@ entry_
 putNewInfallible
 (
 l
+mozilla
+:
+:
 Move
 (
 t

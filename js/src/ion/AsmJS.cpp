@@ -111,6 +111,15 @@ MPL
 #
 include
 "
+mozilla
+/
+Move
+.
+h
+"
+#
+include
+"
 jsmath
 .
 h

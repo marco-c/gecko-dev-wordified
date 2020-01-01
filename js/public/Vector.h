@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+Move
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TypeTraits
 .
 h
@@ -635,6 +644,9 @@ dst
 )
 T
 (
+mozilla
+:
+:
 Move
 (
 *
@@ -882,6 +894,9 @@ dst
 )
 T
 (
+mozilla
+:
+:
 Move
 (
 *
@@ -2274,6 +2289,9 @@ AllocPolicy
 ;
 Vector
 (
+mozilla
+:
+:
 MoveRef
 <
 Vector
@@ -2292,6 +2310,9 @@ Vector
 operator
 =
 (
+mozilla
+:
+:
 MoveRef
 <
 Vector
@@ -3767,6 +3788,9 @@ AllocPolicy
 :
 Vector
 (
+mozilla
+:
+:
 MoveRef
 <
 Vector
@@ -4023,6 +4047,9 @@ AP
 operator
 =
 (
+mozilla
+:
+:
 MoveRef
 <
 Vector
