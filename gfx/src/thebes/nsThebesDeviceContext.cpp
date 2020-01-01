@@ -4412,8 +4412,6 @@ SetDPI
 #
 ifdef
 NS_DEBUG
-/
-/
 NS_ASSERTION
 (
 !
