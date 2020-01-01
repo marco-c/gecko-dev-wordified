@@ -480,7 +480,7 @@ VALUES
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 LATIN1_AE
@@ -488,7 +488,7 @@ LATIN1_AE
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 1
 1
@@ -502,7 +502,7 @@ execute
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "
@@ -512,7 +512,7 @@ A
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 1
 2
@@ -526,7 +526,7 @@ execute
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "
@@ -536,7 +536,7 @@ b
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 1
 3
@@ -550,7 +550,7 @@ execute
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 LATIN1_ae
@@ -558,7 +558,7 @@ LATIN1_ae
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 1
 4
@@ -680,7 +680,7 @@ upper
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 LATIN1_ae
@@ -833,7 +833,7 @@ lower
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 LATIN1_AE
@@ -911,7 +911,7 @@ LIKE
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 LATIN1_AE
@@ -972,7 +972,7 @@ LIKE
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 LATIN1_ae

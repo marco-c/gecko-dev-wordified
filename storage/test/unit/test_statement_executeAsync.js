@@ -1731,7 +1731,7 @@ VALUES
 ;
 stmt
 .
-bindBlobParameter
+bindBlobByIndex
 (
 4
 BLOB
@@ -1742,14 +1742,15 @@ length
 ;
 stmt
 .
-bindNullParameter
+bindByIndex
 (
 3
+null
 )
 ;
 stmt
 .
-bindDoubleParameter
+bindByIndex
 (
 2
 REAL
@@ -1757,7 +1758,7 @@ REAL
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 1
 TEXT
@@ -1765,7 +1766,7 @@ TEXT
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 INTEGER
@@ -1849,7 +1850,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 INTEGER
@@ -2529,7 +2530,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 0
@@ -2577,7 +2578,7 @@ SELECT
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 1
@@ -2679,7 +2680,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 0
@@ -2825,7 +2826,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 0
@@ -2891,7 +2892,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 0
@@ -2994,7 +2995,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 0

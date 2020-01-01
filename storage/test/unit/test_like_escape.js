@@ -497,7 +497,7 @@ on
 LATIN_AE
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "
@@ -612,7 +612,7 @@ contains
 "
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "
@@ -750,7 +750,7 @@ contains
 "
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "

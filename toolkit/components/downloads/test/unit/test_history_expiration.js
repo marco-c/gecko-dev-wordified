@@ -670,7 +670,7 @@ the
 URI
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 theId
@@ -678,7 +678,7 @@ theId
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 1
 theURI
@@ -739,7 +739,7 @@ expireTest
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 2
 Cc
@@ -782,7 +782,7 @@ some
 state
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 3
 dm

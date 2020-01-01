@@ -469,7 +469,7 @@ i
 {
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 testNums

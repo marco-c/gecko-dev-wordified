@@ -715,7 +715,7 @@ sql
 ;
 stmt
 .
-bindUTF8StringParameter
+bindByIndex
 (
 0
 keyword
@@ -874,7 +874,7 @@ sql
 ;
 stmt
 .
-bindUTF8StringParameter
+bindByIndex
 (
 0
 keyword
