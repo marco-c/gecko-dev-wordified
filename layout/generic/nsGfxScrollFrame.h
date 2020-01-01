@@ -1126,11 +1126,6 @@ nsPresState
 *
 SaveState
 (
-nsIStatefulFrame
-:
-:
-SpecialStateID
-aStateID
 )
 ;
 void
@@ -3134,8 +3129,6 @@ nsIStatefulFrame
 NS_IMETHOD
 SaveState
 (
-SpecialStateID
-aStateID
 nsPresState
 *
 *
@@ -3155,7 +3148,6 @@ mInner
 .
 SaveState
 (
-aStateID
 )
 ;
 return
@@ -4444,8 +4436,6 @@ nsIStatefulFrame
 NS_IMETHOD
 SaveState
 (
-SpecialStateID
-aStateID
 nsPresState
 *
 *
@@ -4465,7 +4455,6 @@ mInner
 .
 SaveState
 (
-aStateID
 )
 ;
 return

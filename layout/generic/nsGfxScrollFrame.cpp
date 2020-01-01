@@ -24591,11 +24591,6 @@ nsGfxScrollFrameInner
 :
 SaveState
 (
-nsIStatefulFrame
-:
-:
-SpecialStateID
-aStateID
 )
 {
 nsIScrollbarMediator

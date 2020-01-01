@@ -11775,11 +11775,6 @@ aFrame
 nsILayoutHistoryState
 *
 aState
-nsIStatefulFrame
-:
-:
-SpecialStateID
-aID
 )
 {
 if
@@ -11861,7 +11856,6 @@ statefulFrame
 >
 SaveState
 (
-aID
 getter_Transfers
 (
 frameState
@@ -11935,7 +11929,6 @@ GenerateStateKey
 (
 content
 doc
-aID
 stateKey
 )
 ;
@@ -12238,11 +12231,6 @@ aFrame
 nsILayoutHistoryState
 *
 aState
-nsIStatefulFrame
-:
-:
-SpecialStateID
-aID
 )
 {
 if
@@ -12388,7 +12376,6 @@ GenerateStateKey
 (
 content
 doc
-aID
 stateKey
 )
 ;

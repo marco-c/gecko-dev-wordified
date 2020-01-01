@@ -11440,8 +11440,6 @@ nsComboboxControlFrame
 :
 SaveState
 (
-SpecialStateID
-aStateID
 nsPresState
 *
 *
@@ -11471,7 +11469,6 @@ stateful
 >
 SaveState
 (
-aStateID
 aState
 )
 ;

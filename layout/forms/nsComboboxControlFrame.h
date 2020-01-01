@@ -1125,8 +1125,6 @@ nsIStatefulFrame
 NS_IMETHOD
 SaveState
 (
-SpecialStateID
-aStateID
 nsPresState
 *
 *

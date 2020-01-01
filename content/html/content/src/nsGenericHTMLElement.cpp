@@ -12095,10 +12095,6 @@ GenerateStateKey
 (
 aContent
 doc
-nsIStatefulFrame
-:
-:
-eNoID
 aKey
 )
 ;
