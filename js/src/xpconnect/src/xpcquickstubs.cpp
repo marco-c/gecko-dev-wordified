@@ -1796,7 +1796,7 @@ desc
 obj
 -
 >
-getClass
+getJSClass
 (
 )
 )
@@ -2207,7 +2207,7 @@ IS_PROTO_CLASS
 obj2
 -
 >
-getClass
+getJSClass
 (
 )
 )
@@ -2955,7 +2955,7 @@ IS_WRAPPER_CLASS
 obj
 -
 >
-getClass
+getJSClass
 (
 )
 )
@@ -2964,7 +2964,7 @@ getClass
 obj
 -
 >
-getClass
+getJSClass
 (
 )
 =

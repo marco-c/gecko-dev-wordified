@@ -3192,6 +3192,10 @@ public
 :
 JSScope
 (
+const
+JSObjectOps
+*
+ops
 JSObject
 *
 obj
@@ -3199,6 +3203,7 @@ obj
 :
 JSObjectMap
 (
+ops
 0
 )
 object
@@ -3226,6 +3231,10 @@ create
 JSContext
 *
 cx
+const
+JSObjectOps
+*
+ops
 js
 :
 :
@@ -3346,6 +3355,9 @@ inline
 bool
 canProvideEmptyScope
 (
+JSObjectOps
+*
+ops
 js
 :
 :
@@ -4942,6 +4954,10 @@ JSEmptyScope
 JSContext
 *
 cx
+const
+JSObjectOps
+*
+ops
 js
 :
 :
@@ -7682,6 +7698,9 @@ JSScope
 :
 canProvideEmptyScope
 (
+JSObjectOps
+*
+ops
 js
 :
 :
@@ -7728,6 +7747,16 @@ return
 false
 ;
 return
+this
+-
+>
+ops
+=
+=
+ops
+&
+&
+(
 !
 emptyScope
 |
@@ -7739,6 +7768,7 @@ clasp
 =
 =
 clasp
+)
 ;
 }
 inline

@@ -4244,6 +4244,8 @@ getClass
 =
 &
 js_IteratorClass
+.
+base
 &
 &
 (
