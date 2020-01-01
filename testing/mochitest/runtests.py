@@ -525,6 +525,7 @@ optparse
 OptionParser
 )
 :
+  
 "
 "
 "
@@ -536,6 +537,7 @@ options
 "
 "
 "
+  
 def
 __init__
 (
@@ -547,11 +549,13 @@ scriptdir
 kwargs
 )
 :
+    
 self
 .
 _automation
 =
 automation
+    
 optparse
 .
 OptionParser
@@ -563,10 +567,12 @@ self
 *
 kwargs
 )
+    
 defaults
 =
 {
 }
+    
 #
 we
 want
@@ -580,6 +586,7 @@ self
 _automation
 .
 __all__
+    
 addCommonOptions
 (
 self
@@ -594,6 +601,7 @@ self
 _automation
 .
 __all__
+             
 [
 getattr
 (
@@ -614,6 +622,7 @@ __all__
 )
 )
 )
+    
 self
 .
 _automation
@@ -622,6 +631,7 @@ addCommonOptions
 (
 self
 )
+    
 self
 .
 add_option
@@ -635,6 +645,7 @@ when
 -
 done
 "
+                    
 action
 =
 "
@@ -645,6 +656,7 @@ dest
 "
 closeWhenDone
 "
+                    
 help
 =
 "
@@ -658,6 +670,7 @@ done
 running
 "
 )
+    
 defaults
 [
 "
@@ -666,6 +679,7 @@ closeWhenDone
 ]
 =
 False
+    
 self
 .
 add_option
@@ -675,6 +689,7 @@ add_option
 -
 appname
 "
+                    
 action
 =
 "
@@ -690,6 +705,7 @@ dest
 "
 app
 "
+                    
 help
 =
 "
@@ -701,6 +717,7 @@ overriding
 default
 "
 )
+    
 defaults
 [
 "
@@ -721,6 +738,7 @@ _automation
 .
 DEFAULT_APP
 )
+    
 self
 .
 add_option
@@ -732,6 +750,7 @@ utility
 -
 path
 "
+                    
 action
 =
 "
@@ -747,6 +766,7 @@ dest
 "
 utilityPath
 "
+                    
 help
 =
 "
@@ -764,6 +784,7 @@ certutil
 )
 "
 )
+    
 defaults
 [
 "
@@ -776,6 +797,7 @@ self
 _automation
 .
 DIST_BIN
+    
 self
 .
 add_option
@@ -787,6 +809,7 @@ certificate
 -
 path
 "
+                    
 action
 =
 "
@@ -802,6 +825,7 @@ dest
 "
 certPath
 "
+                    
 help
 =
 "
@@ -818,6 +842,7 @@ testing
 profile
 "
 )
+    
 defaults
 [
 "
@@ -830,6 +855,7 @@ self
 _automation
 .
 CERTS_SRC_DIR
+    
 self
 .
 add_option
@@ -841,6 +867,7 @@ log
 -
 file
 "
+                    
 action
 =
 "
@@ -851,6 +878,7 @@ type
 "
 string
 "
+                    
 dest
 =
 "
@@ -861,6 +889,7 @@ metavar
 "
 FILE
 "
+                    
 help
 =
 "
@@ -871,6 +900,7 @@ logging
 occurs
 "
 )
+    
 defaults
 [
 "
@@ -880,6 +910,7 @@ logFile
 =
 "
 "
+    
 self
 .
 add_option
@@ -889,6 +920,7 @@ add_option
 -
 autorun
 "
+                    
 action
 =
 "
@@ -899,6 +931,7 @@ dest
 "
 autorun
 "
+                    
 help
 =
 "
@@ -911,6 +944,7 @@ application
 starts
 "
 )
+    
 defaults
 [
 "
@@ -919,6 +953,7 @@ autorun
 ]
 =
 False
+    
 self
 .
 add_option
@@ -928,6 +963,7 @@ add_option
 -
 timeout
 "
+                    
 type
 =
 "
@@ -938,6 +974,7 @@ dest
 "
 timeout
 "
+                    
 help
 =
 "
@@ -949,6 +986,7 @@ in
 seconds
 "
 )
+    
 defaults
 [
 "
@@ -957,6 +995,7 @@ timeout
 ]
 =
 None
+    
 self
 .
 add_option
@@ -968,6 +1007,7 @@ total
 -
 chunks
 "
+                    
 type
 =
 "
@@ -978,6 +1018,7 @@ dest
 "
 totalChunks
 "
+                    
 help
 =
 "
@@ -992,6 +1033,7 @@ up
 into
 "
 )
+    
 defaults
 [
 "
@@ -1000,6 +1042,7 @@ totalChunks
 ]
 =
 None
+    
 self
 .
 add_option
@@ -1011,6 +1054,7 @@ this
 -
 chunk
 "
+                    
 type
 =
 "
@@ -1021,6 +1065,7 @@ dest
 "
 thisChunk
 "
+                    
 help
 =
 "
@@ -1030,6 +1075,7 @@ to
 run
 "
 )
+    
 defaults
 [
 "
@@ -1038,6 +1084,7 @@ thisChunk
 ]
 =
 None
+    
 self
 .
 add_option
@@ -1051,6 +1098,7 @@ by
 -
 dir
 "
+                    
 type
 =
 "
@@ -1061,6 +1109,7 @@ dest
 "
 chunkByDir
 "
+                    
 help
 =
 "
@@ -1081,6 +1130,7 @@ chunkByDir
 directories
 "
 )
+    
 defaults
 [
 "
@@ -1089,6 +1139,7 @@ chunkByDir
 ]
 =
 0
+    
 self
 .
 add_option
@@ -1098,16 +1149,19 @@ add_option
 -
 shuffle
 "
+                    
 dest
 =
 "
 shuffle
 "
+                    
 action
 =
 "
 store_true
 "
+                    
 help
 =
 "
@@ -1116,6 +1170,7 @@ test
 order
 "
 )
+    
 defaults
 [
 "
@@ -1124,6 +1179,7 @@ shuffle
 ]
 =
 False
+    
 LOG_LEVELS
 =
 (
@@ -1143,6 +1199,7 @@ ERROR
 FATAL
 "
 )
+    
 LEVEL_STRING
 =
 "
@@ -1152,6 +1209,7 @@ join
 (
 LOG_LEVELS
 )
+    
 self
 .
 add_option
@@ -1163,6 +1221,7 @@ console
 -
 level
 "
+                    
 action
 =
 "
@@ -1178,6 +1237,7 @@ dest
 "
 consoleLevel
 "
+                    
 choices
 =
 LOG_LEVELS
@@ -1186,6 +1246,7 @@ metavar
 "
 LEVEL
 "
+                    
 help
 =
 "
@@ -1200,12 +1261,14 @@ level
 of
 console
 "
+                           
 "
 logging
 "
 %
 LEVEL_STRING
 )
+    
 defaults
 [
 "
@@ -1214,6 +1277,7 @@ consoleLevel
 ]
 =
 None
+    
 self
 .
 add_option
@@ -1225,6 +1289,7 @@ file
 -
 level
 "
+                    
 action
 =
 "
@@ -1240,6 +1305,7 @@ dest
 "
 fileLevel
 "
+                    
 choices
 =
 LOG_LEVELS
@@ -1248,6 +1314,7 @@ metavar
 "
 LEVEL
 "
+                    
 help
 =
 "
@@ -1262,6 +1329,7 @@ level
 of
 file
 "
+                           
 "
 logging
 if
@@ -1272,6 +1340,7 @@ been
 specified
 defaulting
 "
+                           
 "
 to
 INFO
@@ -1279,6 +1348,7 @@ INFO
 %
 LEVEL_STRING
 )
+    
 defaults
 [
 "
@@ -1289,6 +1359,7 @@ fileLevel
 "
 INFO
 "
+    
 self
 .
 add_option
@@ -1298,6 +1369,7 @@ add_option
 -
 chrome
 "
+                    
 action
 =
 "
@@ -1308,6 +1380,7 @@ dest
 "
 chrome
 "
+                    
 help
 =
 "
@@ -1316,6 +1389,7 @@ chrome
 Mochitests
 "
 )
+    
 defaults
 [
 "
@@ -1324,6 +1398,7 @@ chrome
 ]
 =
 False
+    
 self
 .
 add_option
@@ -1335,6 +1410,7 @@ test
 -
 path
 "
+                    
 action
 =
 "
@@ -1350,6 +1426,7 @@ dest
 "
 testPath
 "
+                    
 help
 =
 "
@@ -1363,6 +1440,7 @@ s
 tests
 "
 )
+    
 defaults
 [
 "
@@ -1372,6 +1450,7 @@ testPath
 =
 "
 "
+    
 self
 .
 add_option
@@ -1383,6 +1462,7 @@ browser
 -
 chrome
 "
+                    
 action
 =
 "
@@ -1393,6 +1473,7 @@ dest
 "
 browserChrome
 "
+                    
 help
 =
 "
@@ -1402,6 +1483,7 @@ chrome
 Mochitests
 "
 )
+    
 defaults
 [
 "
@@ -1410,6 +1492,7 @@ browserChrome
 ]
 =
 False
+    
 self
 .
 add_option
@@ -1419,6 +1502,7 @@ add_option
 -
 a11y
 "
+                    
 action
 =
 "
@@ -1429,6 +1513,7 @@ dest
 "
 a11y
 "
+                    
 help
 =
 "
@@ -1438,6 +1523,7 @@ Mochitests
 "
 )
 ;
+    
 defaults
 [
 "
@@ -1446,6 +1532,7 @@ a11y
 ]
 =
 False
+    
 self
 .
 add_option
@@ -1455,6 +1542,7 @@ add_option
 -
 setenv
 "
+                    
 action
 =
 "
@@ -1465,6 +1553,7 @@ type
 "
 string
 "
+                    
 dest
 =
 "
@@ -1477,6 +1566,7 @@ NAME
 =
 VALUE
 "
+                    
 help
 =
 "
@@ -1490,10 +1580,12 @@ application
 '
 s
 "
+                           
 "
 environment
 "
 )
+    
 defaults
 [
 "
@@ -1503,6 +1595,7 @@ environment
 =
 [
 ]
+    
 self
 .
 add_option
@@ -1514,6 +1607,7 @@ browser
 -
 arg
 "
+                    
 action
 =
 "
@@ -1524,6 +1618,7 @@ type
 "
 string
 "
+                    
 dest
 =
 "
@@ -1534,6 +1629,7 @@ metavar
 "
 ARG
 "
+                    
 help
 =
 "
@@ -1546,6 +1642,7 @@ test
 application
 "
 )
+    
 defaults
 [
 "
@@ -1555,6 +1652,7 @@ browserArgs
 =
 [
 ]
+    
 self
 .
 add_option
@@ -1566,6 +1664,7 @@ leak
 -
 threshold
 "
+                    
 action
 =
 "
@@ -1576,6 +1675,7 @@ type
 "
 int
 "
+                    
 dest
 =
 "
@@ -1586,6 +1686,7 @@ metavar
 "
 THRESHOLD
 "
+                    
 help
 =
 "
@@ -1598,6 +1699,7 @@ bytes
 leaked
 through
 "
+                           
 "
 refcounted
 objects
@@ -1608,6 +1710,7 @@ in
 classes
 with
 "
+                           
 "
 MOZ_COUNT_CTOR
 and
@@ -1616,6 +1719,7 @@ MOZ_COUNT_DTOR
 is
 greater
 "
+                           
 "
 than
 the
@@ -1623,6 +1727,7 @@ given
 number
 "
 )
+    
 defaults
 [
 "
@@ -1631,6 +1736,7 @@ leakThreshold
 ]
 =
 0
+    
 self
 .
 add_option
@@ -1642,6 +1748,7 @@ fatal
 -
 assertions
 "
+                    
 action
 =
 "
@@ -1652,6 +1759,7 @@ dest
 "
 fatalAssertions
 "
+                    
 help
 =
 "
@@ -1663,6 +1771,7 @@ assertion
 is
 hit
 "
+                           
 "
 (
 requires
@@ -1675,6 +1784,7 @@ effective
 )
 "
 )
+    
 defaults
 [
 "
@@ -1683,6 +1793,7 @@ fatalAssertions
 ]
 =
 False
+    
 self
 .
 add_option
@@ -1696,6 +1807,7 @@ profile
 -
 file
 "
+                    
 action
 =
 "
@@ -1706,6 +1818,7 @@ dest
 "
 extraProfileFiles
 "
+                    
 help
 =
 "
@@ -1719,6 +1832,7 @@ testing
 profile
 "
 )
+    
 defaults
 [
 "
@@ -1728,6 +1842,7 @@ extraProfileFiles
 =
 [
 ]
+    
 self
 .
 add_option
@@ -1744,6 +1859,7 @@ action
 "
 store
 "
+                    
 type
 =
 "
@@ -1754,6 +1870,7 @@ dest
 "
 profilePath
 "
+                    
 help
 =
 "
@@ -1766,6 +1883,7 @@ be
 stored
 .
 "
+                           
 "
 This
 directory
@@ -1779,6 +1897,7 @@ are
 finished
 "
 )
+    
 defaults
 [
 "
@@ -1791,6 +1910,7 @@ tempfile
 mkdtemp
 (
 )
+    
 self
 .
 add_option
@@ -1804,6 +1924,7 @@ vmware
 -
 recording
 "
+                    
 action
 =
 "
@@ -1814,6 +1935,7 @@ dest
 "
 vmwareRecording
 "
+                    
 help
 =
 "
@@ -1825,6 +1947,7 @@ application
 is
 running
 "
+                           
 "
 inside
 a
@@ -1838,6 +1961,7 @@ later
 VM
 "
 )
+    
 defaults
 [
 "
@@ -1846,6 +1970,7 @@ vmwareRecording
 ]
 =
 False
+    
 #
 -
 h
@@ -1857,6 +1982,7 @@ automatically
 handled
 by
 OptionParser
+    
 self
 .
 set_defaults
@@ -1865,6 +1991,7 @@ set_defaults
 *
 defaults
 )
+    
 usage
 =
 "
@@ -1951,12 +2078,14 @@ levels
 "
 "
 "
+    
 self
 .
 set_usage
 (
 usage
 )
+  
 def
 verifyOptions
 (
@@ -1965,6 +2094,7 @@ options
 mochitest
 )
 :
+    
 "
 "
 "
@@ -1977,6 +2107,7 @@ paths
 "
 "
 "
+    
 if
 options
 .
@@ -1991,6 +2122,7 @@ thisChunk
 is
 None
 :
+      
 self
 .
 error
@@ -2006,11 +2138,13 @@ is
 specified
 "
 )
+    
 if
 options
 .
 totalChunks
 :
+      
 if
 not
 1
@@ -2025,6 +2159,7 @@ options
 .
 totalChunks
 :
+        
 self
 .
 error
@@ -2039,6 +2174,7 @@ and
 totalChunks
 "
 )
+    
 if
 options
 .
@@ -2046,6 +2182,7 @@ xrePath
 is
 None
 :
+      
 #
 default
 xrePath
@@ -2056,6 +2193,7 @@ path
 if
 not
 provided
+      
 #
 but
 only
@@ -2066,6 +2204,7 @@ path
 was
 explicitly
 provided
+      
 if
 options
 .
@@ -2081,6 +2220,7 @@ app
 '
 ]
 :
+        
 options
 .
 xrePath
@@ -2095,8 +2235,10 @@ options
 .
 app
 )
+      
 else
 :
+        
 #
 otherwise
 default
@@ -2104,6 +2246,7 @@ to
 dist
 /
 bin
+        
 options
 .
 xrePath
@@ -2113,10 +2256,12 @@ self
 _automation
 .
 DIST_BIN
+    
 #
 allow
 relative
 paths
+    
 options
 .
 xrePath
@@ -2129,6 +2274,7 @@ options
 .
 xrePath
 )
+    
 options
 .
 profilePath
@@ -2141,6 +2287,7 @@ options
 .
 profilePath
 )
+    
 options
 .
 app
@@ -2153,6 +2300,7 @@ options
 .
 app
 )
+    
 if
 not
 os
@@ -2166,12 +2314,14 @@ options
 app
 )
 :
+      
 msg
 =
 "
 "
 "
 \
+      
 Error
 :
 Path
@@ -2185,6 +2335,7 @@ doesn
 t
 exist
 .
+      
 Are
 you
 executing
@@ -2203,6 +2354,7 @@ py
 "
 "
 "
+      
 print
 msg
 %
@@ -2215,8 +2367,10 @@ options
 .
 app
 }
+      
 return
 None
+    
 options
 .
 utilityPath
@@ -2229,6 +2383,7 @@ options
 .
 utilityPath
 )
+    
 options
 .
 certPath
@@ -2241,6 +2396,7 @@ options
 .
 certPath
 )
+    
 if
 options
 .
@@ -2254,6 +2410,7 @@ options
 symbolsPath
 )
 :
+      
 options
 .
 symbolsPath
@@ -2266,6 +2423,7 @@ options
 .
 symbolsPath
 )
+    
 options
 .
 webServer
@@ -2275,6 +2433,7 @@ self
 _automation
 .
 DEFAULT_WEB_SERVER
+    
 options
 .
 httpPort
@@ -2284,6 +2443,7 @@ self
 _automation
 .
 DEFAULT_HTTP_PORT
+    
 options
 .
 sslPort
@@ -2293,6 +2453,7 @@ self
 _automation
 .
 DEFAULT_SSL_PORT
+    
 options
 .
 webSocketPort
@@ -2302,11 +2463,13 @@ self
 _automation
 .
 DEFAULT_WEBSOCKET_PORT
+    
 if
 options
 .
 vmwareRecording
 :
+      
 if
 not
 self
@@ -2315,6 +2478,7 @@ _automation
 .
 IS_WIN32
 :
+        
 self
 .
 error
@@ -2333,6 +2497,7 @@ Windows
 .
 "
 )
+      
 mochitest
 .
 vmwareHelperPath
@@ -2343,6 +2508,7 @@ path
 .
 join
 (
+        
 options
 .
 utilityPath
@@ -2353,6 +2519,7 @@ VMWARE_RECORDING_HELPER_BASENAME
 dll
 "
 )
+      
 if
 not
 os
@@ -2366,6 +2533,7 @@ mochitest
 vmwareHelperPath
 )
 :
+        
 self
 .
 error
@@ -2382,10 +2550,12 @@ recording
 .
 "
 %
+                   
 mochitest
 .
 vmwareHelperPath
 )
+    
 return
 options
 #
@@ -2442,6 +2612,7 @@ SUPPORT
 class
 MochitestServer
 :
+  
 "
 Web
 server
@@ -2458,6 +2629,7 @@ real
 web
 .
 "
+  
 def
 __init__
 (
@@ -2466,11 +2638,13 @@ automation
 options
 )
 :
+    
 self
 .
 _automation
 =
 automation
+    
 self
 .
 _closeWhenDone
@@ -2478,6 +2652,7 @@ _closeWhenDone
 options
 .
 closeWhenDone
+    
 self
 .
 _utilityPath
@@ -2485,6 +2660,7 @@ _utilityPath
 options
 .
 utilityPath
+    
 self
 .
 _xrePath
@@ -2492,6 +2668,7 @@ _xrePath
 options
 .
 xrePath
+    
 self
 .
 _profileDir
@@ -2499,6 +2676,7 @@ _profileDir
 options
 .
 profilePath
+    
 self
 .
 webServer
@@ -2506,6 +2684,7 @@ webServer
 options
 .
 webServer
+    
 self
 .
 httpPort
@@ -2513,6 +2692,7 @@ httpPort
 options
 .
 httpPort
+    
 self
 .
 shutdownURL
@@ -2555,12 +2735,14 @@ self
 .
 httpPort
 }
+  
 def
 start
 (
 self
 )
 :
+    
 "
 Run
 the
@@ -2575,6 +2757,7 @@ the
 server
 .
 "
+    
 env
 =
 self
@@ -2589,6 +2772,7 @@ self
 .
 _xrePath
 )
+    
 env
 [
 "
@@ -2599,6 +2783,7 @@ XPCOM_DEBUG_BREAK
 "
 warn
 "
+    
 if
 self
 .
@@ -2606,6 +2791,7 @@ _automation
 .
 IS_WIN32
 :
+      
 env
 [
 "
@@ -2627,6 +2813,7 @@ PATH
 self
 .
 _xrePath
+    
 args
 =
 [
@@ -2637,6 +2824,7 @@ g
 self
 .
 _xrePath
+            
 "
 -
 v
@@ -2644,6 +2832,7 @@ v
 "
 170
 "
+            
 "
 -
 f
@@ -2658,6 +2847,7 @@ httpd
 .
 js
 "
+            
 "
 -
 e
@@ -2698,6 +2888,7 @@ s
 ;
 "
 %
+                   
 {
 "
 profile
@@ -2735,6 +2926,7 @@ self
 .
 webServer
 }
+            
 "
 -
 f
@@ -2750,6 +2942,7 @@ server
 js
 "
 ]
+    
 xpcshell
 =
 os
@@ -2761,6 +2954,7 @@ join
 self
 .
 _utilityPath
+                            
 "
 xpcshell
 "
@@ -2771,6 +2965,7 @@ _automation
 .
 BIN_SUFFIX
 )
+    
 self
 .
 _process
@@ -2790,6 +2985,7 @@ env
 =
 env
 )
+    
 pid
 =
 self
@@ -2797,11 +2993,13 @@ self
 _process
 .
 pid
+    
 if
 pid
 <
 0
 :
+      
 print
 "
 Error
@@ -2809,12 +3007,14 @@ starting
 server
 .
 "
+      
 sys
 .
 exit
 (
 2
 )
+    
 self
 .
 _automation
@@ -2838,6 +3038,7 @@ d
 "
 pid
 )
+  
 def
 ensureReady
 (
@@ -2845,11 +3046,13 @@ self
 timeout
 )
 :
+    
 assert
 timeout
 >
 =
 0
+    
 aliveFile
 =
 os
@@ -2867,14 +3070,17 @@ server_alive
 txt
 "
 )
+    
 i
 =
 0
+    
 while
 i
 <
 timeout
 :
+      
 if
 os
 .
@@ -2885,19 +3091,24 @@ exists
 aliveFile
 )
 :
+        
 break
+      
 time
 .
 sleep
 (
 1
 )
+      
 i
 +
 =
 1
+    
 else
 :
+      
 print
 "
 Timed
@@ -2909,25 +3120,30 @@ server
 startup
 .
 "
+      
 self
 .
 stop
 (
 )
+      
 sys
 .
 exit
 (
 1
 )
+  
 def
 stop
 (
 self
 )
 :
+    
 try
 :
+      
 c
 =
 urllib2
@@ -2938,16 +3154,19 @@ self
 .
 shutdownURL
 )
+      
 c
 .
 read
 (
 )
+      
 c
 .
 close
 (
 )
+      
 rtncode
 =
 self
@@ -2957,6 +3176,7 @@ _process
 poll
 (
 )
+      
 if
 (
 rtncode
@@ -2965,6 +3185,7 @@ rtncode
 None
 )
 :
+        
 self
 .
 _process
@@ -2972,8 +3193,10 @@ _process
 terminate
 (
 )
+    
 except
 :
+      
 self
 .
 _process
@@ -2987,6 +3210,7 @@ WebSocketServer
 object
 )
 :
+  
 "
 Class
 which
@@ -2995,6 +3219,7 @@ the
 mod_pywebsocket
 server
 "
+  
 def
 __init__
 (
@@ -3004,6 +3229,7 @@ options
 scriptdir
 )
 :
+    
 self
 .
 port
@@ -3011,22 +3237,26 @@ port
 options
 .
 webSocketPort
+    
 self
 .
 _automation
 =
 automation
+    
 self
 .
 _scriptdir
 =
 scriptdir
+  
 def
 start
 (
 self
 )
 :
+    
 script
 =
 os
@@ -3046,6 +3276,7 @@ standalone
 py
 '
 )
+    
 cmd
 =
 [
@@ -3099,6 +3330,7 @@ level
 debug
 '
 ]
+    
 self
 .
 _process
@@ -3111,6 +3343,7 @@ Process
 (
 cmd
 )
+    
 pid
 =
 self
@@ -3118,11 +3351,13 @@ self
 _process
 .
 pid
+    
 if
 pid
 <
 0
 :
+      
 print
 "
 Error
@@ -3131,12 +3366,14 @@ websocket
 server
 .
 "
+      
 sys
 .
 exit
 (
 2
 )
+    
 self
 .
 _automation
@@ -3161,12 +3398,14 @@ d
 "
 pid
 )
+  
 def
 stop
 (
 self
 )
 :
+    
 self
 .
 _process
@@ -3180,6 +3419,7 @@ Mochitest
 object
 )
 :
+  
 #
 Path
 to
@@ -3189,6 +3429,7 @@ script
 on
 the
 server
+  
 TEST_PATH
 =
 "
@@ -3196,6 +3437,7 @@ TEST_PATH
 tests
 /
 "
+  
 CHROME_PATH
 =
 "
@@ -3205,6 +3447,7 @@ redirect
 html
 "
 ;
+  
 A11Y_PATH
 =
 "
@@ -3215,16 +3458,20 @@ a11y
 .
 html
 "
+  
 urlOpts
 =
 [
 ]
+  
 runSSLTunnel
 =
 True
+  
 vmwareHelper
 =
 None
+  
 oldcwd
 =
 os
@@ -3232,6 +3479,7 @@ os
 getcwd
 (
 )
+  
 def
 __init__
 (
@@ -3239,11 +3487,13 @@ self
 automation
 )
 :
+    
 self
 .
 automation
 =
 automation
+    
 #
 Max
 time
@@ -3261,6 +3511,7 @@ fail
 -
 -
 if
+    
 #
 this
 seems
@@ -3275,6 +3526,7 @@ machines
 where
 cold
 startup
+    
 #
 (
 particularly
@@ -3285,6 +3537,7 @@ build
 takes
 forever
 .
+    
 if
 self
 .
@@ -3292,18 +3545,22 @@ automation
 .
 IS_DEBUG_BUILD
 :
+      
 self
 .
 SERVER_STARTUP_TIMEOUT
 =
 180
+    
 else
 :
+      
 self
 .
 SERVER_STARTUP_TIMEOUT
 =
 90
+    
 self
 .
 SCRIPT_DIRECTORY
@@ -3330,6 +3587,7 @@ __file__
 )
 )
 )
+    
 os
 .
 chdir
@@ -3338,6 +3596,7 @@ self
 .
 SCRIPT_DIRECTORY
 )
+  
 def
 getFullPath
 (
@@ -3345,6 +3604,7 @@ self
 path
 )
 :
+    
 "
 Get
 an
@@ -3357,6 +3617,7 @@ self
 oldcwd
 .
 "
+    
 return
 os
 .
@@ -3383,6 +3644,7 @@ path
 )
 )
 )
+  
 def
 buildTestPath
 (
@@ -3390,6 +3652,7 @@ self
 options
 )
 :
+    
 "
 "
 "
@@ -3410,6 +3673,7 @@ directory
 "
 "
 "
+    
 testHost
 =
 "
@@ -3423,6 +3687,7 @@ test
 :
 8888
 "
+    
 testURL
 =
 testHost
@@ -3434,11 +3699,13 @@ TEST_PATH
 options
 .
 testPath
+    
 if
 options
 .
 chrome
 :
+      
 testURL
 =
 testHost
@@ -3446,11 +3713,13 @@ testHost
 self
 .
 CHROME_PATH
+      
 if
 options
 .
 testPath
 :
+        
 self
 .
 urlOpts
@@ -3469,11 +3738,13 @@ options
 testPath
 )
 )
+    
 elif
 options
 .
 a11y
 :
+      
 testURL
 =
 testHost
@@ -3481,11 +3752,13 @@ testHost
 self
 .
 A11Y_PATH
+      
 if
 options
 .
 testPath
 :
+        
 self
 .
 urlOpts
@@ -3504,11 +3777,13 @@ options
 testPath
 )
 )
+    
 elif
 options
 .
 browserChrome
 :
+      
 testURL
 =
 "
@@ -3516,8 +3791,10 @@ about
 :
 blank
 "
+    
 return
 testURL
+  
 def
 startWebSocketServer
 (
@@ -3525,6 +3802,7 @@ self
 options
 )
 :
+    
 "
 "
 "
@@ -3535,6 +3813,7 @@ server
 "
 "
 "
+    
 if
 options
 .
@@ -3551,7 +3830,9 @@ webServer
 1
 '
 :
+      
 return
+    
 self
 .
 wsserver
@@ -3566,6 +3847,7 @@ self
 .
 SCRIPT_DIRECTORY
 )
+    
 self
 .
 wsserver
@@ -3573,6 +3855,7 @@ wsserver
 start
 (
 )
+  
 def
 stopWebSocketServer
 (
@@ -3580,6 +3863,7 @@ self
 options
 )
 :
+    
 if
 options
 .
@@ -3596,7 +3880,9 @@ webServer
 1
 '
 :
+      
 return
+    
 self
 .
 wsserver
@@ -3604,6 +3890,7 @@ wsserver
 stop
 (
 )
+  
 def
 startWebServer
 (
@@ -3611,6 +3898,7 @@ self
 options
 )
 :
+    
 if
 options
 .
@@ -3627,7 +3915,9 @@ webServer
 1
 '
 :
+      
 return
+    
 "
 "
 "
@@ -3641,6 +3931,7 @@ up
 "
 "
 "
+    
 self
 .
 server
@@ -3652,6 +3943,7 @@ self
 automation
 options
 )
+    
 self
 .
 server
@@ -3659,6 +3951,7 @@ server
 start
 (
 )
+    
 #
 If
 we
@@ -3676,6 +3969,7 @@ and
 all
 paths
 are
+    
 #
 ready
 etc
@@ -3690,6 +3984,7 @@ at
 least
 for
 debug
+    
 #
 builds
 .
@@ -3708,6 +4003,7 @@ and
 if
 we
 fail
+    
 #
 we
 '
@@ -3723,6 +4019,7 @@ with
 an
 error
 .
+    
 self
 .
 server
@@ -3733,6 +4030,7 @@ self
 .
 SERVER_STARTUP_TIMEOUT
 )
+  
 def
 stopWebServer
 (
@@ -3740,6 +4038,7 @@ self
 options
 )
 :
+    
 "
 "
 "
@@ -3756,6 +4055,7 @@ importantly
 anything
 it
 might
+        
 spew
 to
 console
@@ -3771,9 +4071,11 @@ we
 print
 next
 .
+    
 "
 "
 "
+    
 if
 options
 .
@@ -3790,7 +4092,9 @@ webServer
 1
 '
 :
+      
 return
+    
 self
 .
 server
@@ -3798,6 +4102,7 @@ server
 stop
 (
 )
+  
 def
 getLogFilePath
 (
@@ -3805,6 +4110,7 @@ self
 logFile
 )
 :
+    
 "
 "
 "
@@ -3824,6 +4130,7 @@ on
 in
 most
 cases
+        
 it
 will
 be
@@ -3834,9 +4141,11 @@ on
 the
 local
 system
+    
 "
 "
 "
+    
 return
 self
 .
@@ -3844,6 +4153,7 @@ getFullPath
 (
 logFile
 )
+  
 def
 buildProfile
 (
@@ -3851,6 +4161,7 @@ self
 options
 )
 :
+    
 "
 "
 "
@@ -3869,6 +4180,7 @@ requested
 "
 "
 "
+    
 self
 .
 automation
@@ -3885,6 +4197,7 @@ useServerLocations
 =
 True
 )
+    
 manifest
 =
 self
@@ -3893,14 +4206,17 @@ addChromeToProfile
 (
 options
 )
+    
 self
 .
 copyExtraFilesToProfile
 (
 options
 )
+    
 return
 manifest
+  
 def
 buildBrowserEnv
 (
@@ -3908,6 +4224,7 @@ self
 options
 )
 :
+    
 "
 "
 "
@@ -3925,6 +4242,7 @@ system
 "
 "
 "
+    
 browserEnv
 =
 self
@@ -3939,6 +4257,7 @@ options
 .
 xrePath
 )
+    
 #
 These
 variables
@@ -3950,6 +4269,7 @@ application
 startup
 ;
 change
+    
 #
 via
 the
@@ -3959,6 +4279,7 @@ your
 own
 risk
 .
+    
 browserEnv
 [
 "
@@ -3969,6 +4290,7 @@ XPCOM_DEBUG_BREAK
 "
 stack
 "
+    
 for
 v
 in
@@ -3976,6 +4298,7 @@ options
 .
 environment
 :
+      
 ix
 =
 v
@@ -3986,12 +4309,14 @@ find
 =
 "
 )
+      
 if
 ix
 <
 =
 0
 :
+        
 print
 "
 Error
@@ -4006,8 +4331,10 @@ setenv
 "
 +
 v
+        
 return
 None
+      
 browserEnv
 [
 v
@@ -4024,6 +4351,7 @@ ix
 1
 :
 ]
+    
 browserEnv
 [
 "
@@ -4034,11 +4362,13 @@ XPCOM_MEM_BLOAT_LOG
 self
 .
 leak_report_file
+    
 if
 options
 .
 fatalAssertions
 :
+      
 browserEnv
 [
 "
@@ -4053,8 +4383,10 @@ and
 -
 abort
 "
+    
 return
 browserEnv
+  
 def
 buildURLOptions
 (
@@ -4062,6 +4394,7 @@ self
 options
 )
 :
+    
 "
 "
 "
@@ -4076,12 +4409,14 @@ line
 to
 the
 url
+        
 URL
 parameters
 to
 test
 URL
 :
+        
 autorun
 -
 -
@@ -4089,6 +4424,7 @@ kick
 off
 tests
 automatically
+        
 closeWhenDone
 -
 -
@@ -4098,6 +4434,7 @@ quit
 js
 after
 tests
+        
 logFile
 -
 -
@@ -4108,6 +4445,7 @@ to
 an
 absolute
 path
+        
 totalChunks
 -
 -
@@ -4118,6 +4456,7 @@ to
 split
 tests
 into
+        
 thisChunk
 -
 -
@@ -4125,6 +4464,7 @@ which
 chunk
 to
 run
+        
 timeout
 -
 -
@@ -4134,20 +4474,24 @@ test
 timeout
 in
 seconds
+    
 "
 "
 "
+    
 #
 allow
 relative
 paths
 for
 logFile
+    
 if
 options
 .
 logFile
 :
+      
 options
 .
 logFile
@@ -4160,24 +4504,29 @@ options
 .
 logFile
 )
+    
 if
 options
 .
 browserChrome
 :
+      
 self
 .
 makeTestConfig
 (
 options
 )
+    
 else
 :
+      
 if
 options
 .
 autorun
 :
+        
 self
 .
 urlOpts
@@ -4190,11 +4539,13 @@ autorun
 1
 "
 )
+      
 if
 options
 .
 timeout
 :
+        
 self
 .
 urlOpts
@@ -4212,11 +4563,13 @@ options
 .
 timeout
 )
+      
 if
 options
 .
 closeWhenDone
 :
+        
 self
 .
 urlOpts
@@ -4229,11 +4582,13 @@ closeWhenDone
 1
 "
 )
+      
 if
 options
 .
 logFile
 :
+        
 self
 .
 urlOpts
@@ -4252,6 +4607,7 @@ options
 logFile
 )
 )
+        
 self
 .
 urlOpts
@@ -4270,11 +4626,13 @@ options
 fileLevel
 )
 )
+      
 if
 options
 .
 consoleLevel
 :
+        
 self
 .
 urlOpts
@@ -4293,11 +4651,13 @@ options
 consoleLevel
 )
 )
+      
 if
 options
 .
 totalChunks
 :
+        
 self
 .
 urlOpts
@@ -4315,6 +4675,7 @@ options
 .
 totalChunks
 )
+        
 self
 .
 urlOpts
@@ -4332,11 +4693,13 @@ options
 .
 thisChunk
 )
+      
 if
 options
 .
 chunkByDir
 :
+        
 self
 .
 urlOpts
@@ -4354,11 +4717,13 @@ options
 .
 chunkByDir
 )
+      
 if
 options
 .
 shuffle
 :
+        
 self
 .
 urlOpts
@@ -4371,6 +4736,7 @@ shuffle
 1
 "
 )
+  
 def
 cleanup
 (
@@ -4379,6 +4745,7 @@ manifest
 options
 )
 :
+    
 "
 "
 "
@@ -4390,12 +4757,14 @@ profile
 "
 "
 "
+    
 os
 .
 remove
 (
 manifest
 )
+    
 shutil
 .
 rmtree
@@ -4404,6 +4773,7 @@ options
 .
 profilePath
 )
+  
 def
 startVMwareRecording
 (
@@ -4411,6 +4781,7 @@ self
 options
 )
 :
+    
 "
 "
 "
@@ -4427,6 +4798,7 @@ dll
 "
 "
 "
+    
 assert
 (
 self
@@ -4435,10 +4807,12 @@ automation
 .
 IS_WIN32
 )
+    
 from
 ctypes
 import
 cdll
+    
 self
 .
 vmwareHelper
@@ -4451,6 +4825,7 @@ self
 .
 vmwareHelperPath
 )
+    
 if
 self
 .
@@ -4458,6 +4833,7 @@ vmwareHelper
 is
 None
 :
+      
 self
 .
 automation
@@ -4477,13 +4853,16 @@ Failed
 to
 load
 "
+                                  
 "
 VMware
 recording
 helper
 "
 )
+      
 return
+    
 self
 .
 automation
@@ -4505,8 +4884,10 @@ recording
 .
 "
 )
+    
 try
 :
+      
 self
 .
 vmwareHelper
@@ -4514,10 +4895,12 @@ vmwareHelper
 StartRecording
 (
 )
+    
 except
 Exception
 e
 :
+      
 self
 .
 automation
@@ -4537,6 +4920,7 @@ Failed
 to
 start
 "
+                                  
 "
 VMware
 recording
@@ -4552,17 +4936,20 @@ str
 e
 )
 )
+      
 self
 .
 vmwareHelper
 =
 None
+  
 def
 stopVMwareRecording
 (
 self
 )
 :
+    
 "
 "
 "
@@ -4579,6 +4966,7 @@ dll
 "
 "
 "
+    
 assert
 (
 self
@@ -4587,6 +4975,7 @@ automation
 .
 IS_WIN32
 )
+    
 if
 self
 .
@@ -4595,6 +4984,7 @@ is
 not
 None
 :
+      
 self
 .
 automation
@@ -4613,13 +5003,16 @@ py
 Stopping
 VMware
 "
+                               
 "
 recording
 .
 "
 )
+      
 try
 :
+        
 self
 .
 vmwareHelper
@@ -4627,10 +5020,12 @@ vmwareHelper
 StopRecording
 (
 )
+      
 except
 Exception
 e
 :
+        
 self
 .
 automation
@@ -4650,6 +5045,7 @@ Failed
 to
 stop
 "
+                                    
 "
 VMware
 recording
@@ -4665,11 +5061,13 @@ str
 e
 )
 )
+      
 self
 .
 vmwareHelper
 =
 None
+  
 def
 runTests
 (
@@ -4677,6 +5075,7 @@ self
 options
 )
 :
+    
 "
 "
 "
@@ -4689,6 +5088,7 @@ cleanup
 "
 "
 "
+    
 debuggerInfo
 =
 getDebuggerInfo
@@ -4702,11 +5102,13 @@ debugger
 options
 .
 debuggerArgs
+                      
 options
 .
 debuggerInteractive
 )
 ;
+    
 self
 .
 leak_report_file
@@ -4726,6 +5128,7 @@ runtests_leaks
 log
 "
 )
+    
 browserEnv
 =
 self
@@ -4734,6 +5137,7 @@ buildBrowserEnv
 (
 options
 )
+    
 if
 (
 browserEnv
@@ -4742,8 +5146,10 @@ browserEnv
 None
 )
 :
+      
 return
 1
+    
 manifest
 =
 self
@@ -4752,18 +5158,21 @@ buildProfile
 (
 options
 )
+    
 self
 .
 startWebServer
 (
 options
 )
+    
 self
 .
 startWebSocketServer
 (
 options
 )
+    
 testURL
 =
 self
@@ -4772,12 +5181,14 @@ buildTestPath
 (
 options
 )
+    
 self
 .
 buildURLOptions
 (
 options
 )
+    
 if
 (
 len
@@ -4790,6 +5201,7 @@ urlOpts
 0
 )
 :
+      
 testURL
 +
 =
@@ -4807,6 +5219,7 @@ self
 .
 urlOpts
 )
+    
 #
 Remove
 the
@@ -4826,6 +5239,7 @@ the
 tests
 run
 .
+    
 #
 The
 file
@@ -4843,6 +5257,7 @@ the
 application
 build
 .
+    
 if
 os
 .
@@ -4855,6 +5270,7 @@ self
 leak_report_file
 )
 :
+      
 os
 .
 remove
@@ -4863,6 +5279,7 @@ self
 .
 leak_report_file
 )
+    
 #
 then
 again
@@ -4870,11 +5287,13 @@ to
 actually
 run
 mochitest
+    
 if
 options
 .
 timeout
 :
+      
 timeout
 =
 options
@@ -4882,17 +5301,21 @@ options
 timeout
 +
 30
+    
 elif
 not
 options
 .
 autorun
 :
+      
 timeout
 =
 None
+    
 else
 :
+      
 timeout
 =
 330
@@ -4906,11 +5329,13 @@ timeout
 is
 300
 seconds
+    
 if
 options
 .
 vmwareRecording
 :
+      
 self
 .
 startVMwareRecording
@@ -4918,6 +5343,7 @@ startVMwareRecording
 options
 )
 ;
+    
 self
 .
 automation
@@ -4942,6 +5368,7 @@ start
 n
 "
 )
+    
 status
 =
 self
@@ -4955,67 +5382,80 @@ browserEnv
 options
 .
 app
+                                
 options
 .
 profilePath
 options
 .
 browserArgs
+                                
 runSSLTunnel
 =
 self
 .
 runSSLTunnel
+                                
 utilityPath
 =
 options
 .
 utilityPath
+                                
 xrePath
 =
 options
 .
 xrePath
+                                
 certPath
 =
 options
 .
 certPath
+                                
 debuggerInfo
 =
 debuggerInfo
+                                
 symbolsPath
 =
 options
 .
 symbolsPath
+                                
 timeout
 =
 timeout
 )
+    
 if
 options
 .
 vmwareRecording
 :
+      
 self
 .
 stopVMwareRecording
 (
 )
 ;
+    
 self
 .
 stopWebServer
 (
 options
 )
+    
 self
 .
 stopWebSocketServer
 (
 options
 )
+    
 processLeakLog
 (
 self
@@ -5025,6 +5465,7 @@ options
 .
 leakThreshold
 )
+    
 self
 .
 automation
@@ -5048,6 +5489,7 @@ end
 .
 "
 )
+    
 self
 .
 cleanup
@@ -5055,8 +5497,10 @@ cleanup
 manifest
 options
 )
+    
 return
 status
+  
 def
 makeTestConfig
 (
@@ -5064,6 +5508,7 @@ self
 options
 )
 :
+    
 "
 Creates
 a
@@ -5076,23 +5521,28 @@ test
 execution
 .
 "
+    
 def
 boolString
 (
 b
 )
 :
+      
 if
 b
 :
+        
 return
 "
 true
 "
+      
 return
 "
 false
 "
+    
 logFile
 =
 options
@@ -5112,6 +5562,7 @@ replace
 \
 "
 )
+    
 testPath
 =
 options
@@ -5131,6 +5582,7 @@ replace
 \
 "
 )
+    
 content
 =
 "
@@ -5139,6 +5591,7 @@ content
 \
 (
 {
+  
 autoRun
 :
 %
@@ -5146,6 +5599,7 @@ autoRun
 autorun
 )
 s
+  
 closeWhenDone
 :
 %
@@ -5153,6 +5607,7 @@ closeWhenDone
 closeWhenDone
 )
 s
+  
 logPath
 :
 "
@@ -5162,6 +5617,7 @@ logPath
 )
 s
 "
+  
 testPath
 :
 "
@@ -5188,6 +5644,7 @@ options
 .
 autorun
 )
+         
 "
 closeWhenDone
 "
@@ -5198,17 +5655,20 @@ options
 .
 closeWhenDone
 )
+         
 "
 logPath
 "
 :
 logFile
+         
 "
 testPath
 "
 :
 testPath
 }
+    
 config
 =
 open
@@ -5232,17 +5692,20 @@ js
 w
 "
 )
+    
 config
 .
 write
 (
 content
 )
+    
 config
 .
 close
 (
 )
+  
 def
 addChromeToProfile
 (
@@ -5250,6 +5713,7 @@ self
 options
 )
 :
+    
 "
 Adds
 MochiKit
@@ -5260,6 +5724,7 @@ the
 profile
 .
 "
+    
 chromedir
 =
 os
@@ -5275,12 +5740,14 @@ profilePath
 chrome
 "
 )
+    
 os
 .
 mkdir
 (
 chromedir
 )
+    
 chrome
 =
 "
@@ -5326,6 +5793,7 @@ XUL
 toolbar
 toolbarpalette
 {
+  
 background
 -
 color
@@ -5346,6 +5814,7 @@ nav
 -
 bar
 {
+  
 background
 -
 image
@@ -5358,11 +5827,13 @@ important
 "
 "
 "
+    
 #
 write
 userChrome
 .
 css
+    
 chromeFile
 =
 open
@@ -5386,22 +5857,26 @@ css
 a
 "
 )
+    
 chromeFile
 .
 write
 (
 chrome
 )
+    
 chromeFile
 .
 close
 (
 )
+    
 #
 register
 our
 chrome
 dir
+    
 chrometestDir
 =
 os
@@ -5418,6 +5893,7 @@ abspath
 "
 /
 "
+    
 if
 self
 .
@@ -5425,6 +5901,7 @@ automation
 .
 IS_WIN32
 :
+      
 chrometestDir
 =
 "
@@ -5447,6 +5924,7 @@ replace
 /
 "
 )
+    
 temp_file
 =
 os
@@ -5466,6 +5944,7 @@ mochikit
 manifest
 "
 )
+    
 manifestFile
 =
 open
@@ -5475,6 +5954,7 @@ temp_file
 w
 "
 )
+    
 manifestFile
 .
 write
@@ -5494,11 +5974,13 @@ yes
 n
 "
 )
+    
 if
 options
 .
 browserChrome
 :
+      
 manifestFile
 .
 write
@@ -5564,6 +6046,7 @@ xul
 "
 "
 )
+    
 elif
 (
 (
@@ -5585,6 +6068,7 @@ False
 )
 )
 :
+      
 #
 only
 do
@@ -5599,6 +6083,7 @@ mochitest
 -
 plain
 .
+      
 #
 Currently
 there
@@ -5618,6 +6103,7 @@ dialogs
 when
 using
 ipc
+      
 manifestFile
 .
 write
@@ -5650,11 +6136,13 @@ overlay
 xul
 "
 )
+    
 manifestFile
 .
 close
 (
 )
+    
 return
 self
 .
@@ -5663,6 +6151,7 @@ installChromeFile
 temp_file
 options
 )
+  
 def
 installChromeFile
 (
@@ -5671,6 +6160,7 @@ filename
 options
 )
 :
+    
 (
 path
 leaf
@@ -5686,6 +6176,7 @@ options
 .
 app
 )
+    
 manifestdir
 =
 os
@@ -5705,6 +6196,7 @@ bundles
 mochitest
 "
 )
+    
 if
 not
 os
@@ -5716,12 +6208,14 @@ exists
 manifestdir
 )
 :
+      
 os
 .
 makedirs
 (
 manifestdir
 )
+    
 manifest
 =
 os
@@ -5737,6 +6231,7 @@ chrome
 manifest
 "
 )
+    
 shutil
 .
 copy
@@ -5744,8 +6239,10 @@ copy
 filename
 manifest
 )
+    
 return
 manifest
+  
 def
 copyExtraFilesToProfile
 (
@@ -5753,6 +6250,7 @@ self
 options
 )
 :
+    
 "
 Copy
 extra
@@ -5770,6 +6268,7 @@ testing
 profile
 .
 "
+    
 for
 f
 in
@@ -5777,6 +6276,7 @@ options
 .
 extraProfileFiles
 :
+      
 abspath
 =
 self
@@ -5785,6 +6285,7 @@ getFullPath
 (
 f
 )
+      
 dest
 =
 os
@@ -5805,6 +6306,7 @@ basename
 abspath
 )
 )
+      
 if
 os
 .
@@ -5815,6 +6317,7 @@ isdir
 abspath
 )
 :
+        
 shutil
 .
 copytree
@@ -5822,8 +6325,10 @@ copytree
 abspath
 dest
 )
+      
 else
 :
+        
 shutil
 .
 copy
@@ -5836,17 +6341,20 @@ main
 (
 )
 :
+  
 automation
 =
 Automation
 (
 )
+  
 mochitest
 =
 Mochitest
 (
 automation
 )
+  
 parser
 =
 MochitestOptions
@@ -5856,6 +6364,7 @@ mochitest
 .
 SCRIPT_DIRECTORY
 )
+  
 options
 args
 =
@@ -5864,6 +6373,7 @@ parser
 parse_args
 (
 )
+  
 options
 =
 parser
@@ -5873,18 +6383,21 @@ verifyOptions
 options
 mochitest
 )
+  
 if
 options
 =
 =
 None
 :
+    
 sys
 .
 exit
 (
 1
 )
+  
 options
 .
 utilityPath
@@ -5897,6 +6410,7 @@ options
 .
 utilityPath
 )
+  
 options
 .
 certPath
@@ -5909,6 +6423,7 @@ options
 .
 certPath
 )
+  
 if
 options
 .
@@ -5922,6 +6437,7 @@ options
 symbolsPath
 )
 :
+    
 options
 .
 symbolsPath
@@ -5934,6 +6450,7 @@ options
 .
 symbolsPath
 )
+  
 automation
 .
 setServerInfo
@@ -5941,16 +6458,20 @@ setServerInfo
 options
 .
 webServer
+                           
 options
 .
 httpPort
+                           
 options
 .
 sslPort
+                           
 options
 .
 webSocketPort
 )
+  
 sys
 .
 exit
@@ -5970,6 +6491,7 @@ __name__
 __main__
 "
 :
+  
 main
 (
 )
