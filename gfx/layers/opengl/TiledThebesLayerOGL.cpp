@@ -784,6 +784,12 @@ mTiledBuffer
 )
 {
 mMainMemoryTiledBuffer
+.
+ReadUnlock
+(
+)
+;
+mMainMemoryTiledBuffer
 =
 *
 mTiledBuffer
