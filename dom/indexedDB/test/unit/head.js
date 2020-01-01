@@ -87,12 +87,6 @@ Ci
 .
 nsIIDBDatabase
 const
-IDBFactory
-=
-Ci
-.
-nsIIDBFactory
-const
 IDBIndex
 =
 Ci

@@ -48146,7 +48146,7 @@ nsGlobalWindow
 :
 GetIndexedDB
 (
-nsIIDBFactory
+nsISupports
 *
 *
 _retval
@@ -48322,7 +48322,7 @@ rv
 }
 nsCOMPtr
 <
-nsIIDBFactory
+nsISupports
 >
 request
 (
@@ -48346,7 +48346,7 @@ nsGlobalWindow
 :
 GetMozIndexedDB
 (
-nsIIDBFactory
+nsISupports
 *
 *
 _retval
