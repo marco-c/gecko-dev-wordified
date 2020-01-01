@@ -503,7 +503,7 @@ StartProfiler
 (
 uint32_t
 aEntries
-uint32_t
+double
 aInterval
 const
 char

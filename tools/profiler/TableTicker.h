@@ -289,7 +289,7 @@ public
 :
 TableTicker
 (
-int
+double
 aInterval
 int
 aEntrySize
