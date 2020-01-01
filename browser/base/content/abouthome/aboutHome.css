@@ -465,6 +465,9 @@ radius
 #
 searchText
 :
+-
+moz
+-
 dir
 (
 rtl
@@ -706,6 +709,9 @@ duration
 #
 searchSubmit
 :
+-
+moz
+-
 dir
 (
 rtl
@@ -1022,6 +1028,9 @@ start
 #
 defaultSnippet1
 :
+-
+moz
+-
 dir
 (
 rtl
@@ -1029,6 +1038,9 @@ rtl
 #
 defaultSnippet2
 :
+-
+moz
+-
 dir
 (
 rtl
@@ -2367,6 +2379,9 @@ end
 #
 restorePreviousSession
 :
+-
+moz
+-
 dir
 (
 rtl
