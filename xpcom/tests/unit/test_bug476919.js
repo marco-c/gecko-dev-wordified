@@ -238,9 +238,6 @@ link
 path
 ]
 ;
-var
-result
-=
 process
 .
 run
@@ -250,12 +247,6 @@ args
 args
 .
 length
-)
-;
-do_check_eq
-(
-result
-0
 )
 ;
 do_check_true

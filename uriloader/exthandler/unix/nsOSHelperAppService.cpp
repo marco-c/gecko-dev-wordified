@@ -6810,9 +6810,6 @@ get
 )
 )
 ;
-PRUint32
-pid
-;
 rv
 =
 process
@@ -6823,8 +6820,6 @@ Run
 PR_TRUE
 args
 2
-&
-pid
 )
 ;
 if
