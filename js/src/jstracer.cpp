@@ -10519,7 +10519,7 @@ data
 FORALL_SLOTS_IN_PENDING_FRAMES
 (
 cx
-callDepth
+0
 LIns
 *
 i
