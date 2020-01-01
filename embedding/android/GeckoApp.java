@@ -3950,7 +3950,7 @@ unknown
 ;
 tab
 .
-removeAllDoorHangers
+removeTransientDoorHangers
 (
 )
 ;
