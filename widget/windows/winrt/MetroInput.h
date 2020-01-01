@@ -751,17 +751,6 @@ rotate
 etc
 )
 HRESULT
-OnPointerWheelChanged
-(
-ICoreWindow
-*
-aSender
-IPointerEventArgs
-*
-aArgs
-)
-;
-HRESULT
 OnPointerPressed
 (
 ICoreWindow
@@ -1778,9 +1767,6 @@ mTokenPointerEntered
 ;
 EventRegistrationToken
 mTokenPointerExited
-;
-EventRegistrationToken
-mTokenPointerWheelChanged
 ;
 /
 /
