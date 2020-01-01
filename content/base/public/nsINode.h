@@ -2003,13 +2003,13 @@ mTitleChangedListener
 /
 /
 -
-nsHTMLBodyElement
+HTMLBodyElement
 :
 mContentStyleRule
 /
 /
 -
-nsHTMLDataListElement
+HTMLDataListElement
 :
 mOptions
 /
@@ -2030,7 +2030,7 @@ many
 /
 /
 -
-nsHTMLFrameSetElement
+HTMLFrameSetElement
 :
 mRowSpecs
 mColSpecs

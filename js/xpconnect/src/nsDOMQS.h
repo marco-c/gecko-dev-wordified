@@ -86,13 +86,6 @@ h
 #
 include
 "
-nsHTMLDivElement
-.
-h
-"
-#
-include
-"
 nsHTMLFormElement
 .
 h
@@ -996,11 +989,6 @@ DEFINE_UNWRAP_CAST_HTML
 (
 canvas
 nsHTMLCanvasElement
-)
-DEFINE_UNWRAP_CAST_HTML
-(
-div
-nsHTMLDivElement
 )
 DEFINE_UNWRAP_CAST_HTML
 (

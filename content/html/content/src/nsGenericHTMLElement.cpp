@@ -10858,11 +10858,11 @@ See
 similar
 code
 in
-nsHTMLBodyElement
+HTMLBodyElement
 and
 /
 /
-nsHTMLFramesetElement
+HTMLFramesetElement
 *
 aDefer
 =

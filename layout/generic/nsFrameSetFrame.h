@@ -196,7 +196,7 @@ NO_COLOR
 /
 defined
 at
-nsHTMLFrameSetElement
+HTMLFrameSetElement
 .
 h
 struct
