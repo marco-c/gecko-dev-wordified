@@ -518,10 +518,6 @@ SVGGradientElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

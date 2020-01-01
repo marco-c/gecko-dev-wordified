@@ -359,10 +359,6 @@ SVGAltGlyphElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

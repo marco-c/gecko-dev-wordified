@@ -328,10 +328,6 @@ SVGDescElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

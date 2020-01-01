@@ -335,10 +335,6 @@ SVGSymbolElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

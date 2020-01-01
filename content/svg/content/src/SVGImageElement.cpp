@@ -485,10 +485,6 @@ SVGImageElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 /
 /
 We

@@ -514,10 +514,6 @@ SVGMaskElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

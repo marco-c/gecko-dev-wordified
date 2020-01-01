@@ -464,10 +464,6 @@ pop
 #
 endif
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SVGMPathElement
 :

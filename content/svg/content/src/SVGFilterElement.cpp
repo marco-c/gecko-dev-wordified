@@ -520,10 +520,6 @@ SVGFilterElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

@@ -423,10 +423,6 @@ SVGGraphicsElement
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

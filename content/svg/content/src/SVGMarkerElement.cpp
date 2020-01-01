@@ -703,10 +703,6 @@ mCoordCtx
 nullptr
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

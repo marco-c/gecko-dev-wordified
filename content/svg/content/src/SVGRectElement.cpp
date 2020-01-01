@@ -461,10 +461,6 @@ SVGRectElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

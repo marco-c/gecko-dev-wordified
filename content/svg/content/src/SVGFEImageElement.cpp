@@ -413,10 +413,6 @@ SVGFEImageElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 /
 /
 We

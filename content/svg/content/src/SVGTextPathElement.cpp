@@ -516,10 +516,6 @@ SVGTextPathElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

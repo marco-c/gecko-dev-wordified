@@ -399,10 +399,6 @@ SVGStyleElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 AddMutationObserver
 (
 this

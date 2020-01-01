@@ -311,10 +311,6 @@ nsSVGPolyElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 already_AddRefed
 <

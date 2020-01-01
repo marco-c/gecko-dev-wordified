@@ -932,7 +932,7 @@ SVGTests
 >
 tests
 =
-do_QueryInterface
+do_QueryObject
 (
 mElement
 )

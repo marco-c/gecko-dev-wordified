@@ -405,10 +405,6 @@ SVGCircleElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

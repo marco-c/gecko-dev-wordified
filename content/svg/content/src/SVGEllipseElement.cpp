@@ -414,10 +414,6 @@ SVGEllipseElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

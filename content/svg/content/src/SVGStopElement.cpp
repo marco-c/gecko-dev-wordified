@@ -347,10 +347,6 @@ SVGStopElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

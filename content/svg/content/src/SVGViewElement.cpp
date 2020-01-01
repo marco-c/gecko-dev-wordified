@@ -412,10 +412,6 @@ SVGViewElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

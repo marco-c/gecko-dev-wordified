@@ -487,10 +487,6 @@ pop
 #
 endif
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsresult
 SVGAnimationElement

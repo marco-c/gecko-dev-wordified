@@ -411,10 +411,6 @@ Link
 this
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 already_AddRefed
 <

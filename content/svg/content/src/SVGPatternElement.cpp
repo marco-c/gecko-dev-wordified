@@ -543,10 +543,6 @@ SVGPatternElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

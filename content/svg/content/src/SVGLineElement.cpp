@@ -414,10 +414,6 @@ SVGLineElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

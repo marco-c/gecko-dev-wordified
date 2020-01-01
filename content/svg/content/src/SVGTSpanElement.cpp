@@ -335,10 +335,6 @@ SVGTSpanElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

@@ -397,10 +397,6 @@ SVGPathElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /
