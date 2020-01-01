@@ -194,18 +194,7 @@ self
 .
 marionette
 .
-execute_script
-(
-"
-return
-window
-.
-document
-.
 title
-;
-"
-)
 )
         
 self
@@ -366,18 +355,7 @@ self
 .
 marionette
 .
-execute_script
-(
-"
-return
-window
-.
-document
-.
 title
-;
-"
-)
 )
         
 self
