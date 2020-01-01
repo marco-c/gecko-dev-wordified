@@ -571,11 +571,9 @@ nsresult
 GetKeyPathValueFromStructuredData
 (
 const
-PRUint8
-*
-aData
-PRUint32
-aDataLength
+JSAutoStructuredCloneBuffer
+&
+aBuffer
 const
 nsAString
 &
