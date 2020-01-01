@@ -5701,9 +5701,9 @@ PR_TRUE
 if
 (
 aContentType
-!
 =
-eContentTypeContentFrame
+=
+eContentTypeContent
 )
 {
 /
