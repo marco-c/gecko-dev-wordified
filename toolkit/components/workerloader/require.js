@@ -1138,6 +1138,8 @@ get
 (
 path
 )
+.
+exports
 ;
 }
 modules
@@ -1145,7 +1147,7 @@ modules
 set
 (
 path
-exports
+module
 )
 ;
 /
@@ -1493,6 +1495,13 @@ freeze
 module
 .
 exports
+)
+;
+Object
+.
+freeze
+(
+module
 )
 ;
 return
