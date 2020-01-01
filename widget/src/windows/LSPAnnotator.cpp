@@ -762,13 +762,13 @@ char
 size
 ]
 ;
-WSAPROTOCOL_INFO
+WSAPROTOCOL_INFOW
 *
 providers
 =
 reinterpret_cast
 <
-WSAPROTOCOL_INFO
+WSAPROTOCOL_INFOW
 *
 >
 (
