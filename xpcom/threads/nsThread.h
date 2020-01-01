@@ -638,17 +638,6 @@ Clear
 )
 ;
 }
-/
-/
-The
-global
-thread
-observer
-static
-nsIThreadObserver
-*
-sGlobalObserver
-;
 private
 :
 friend
