@@ -612,7 +612,7 @@ node
 void
 SetDirectionFromNewTextNode
 (
-nsTextNode
+nsIContent
 *
 aTextNode
 )
