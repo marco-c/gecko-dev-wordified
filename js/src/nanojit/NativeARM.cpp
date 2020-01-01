@@ -712,15 +712,8 @@ highwatermark
 NJ_STACK_OFFSET
 ;
 uint32_t
-savingCount
-=
-0
-;
-uint32_t
 savingMask
 =
-SavedRegs
-|
 rmask
 (
 FP
@@ -731,10 +724,9 @@ rmask
 LR
 )
 ;
+uint32_t
 savingCount
 =
-NumSavedRegs
-+
 2
 ;
 /
@@ -749,10 +741,8 @@ ve
 pushed
 return
 addr
-fp
 and
-savingCount
-registers
+fp
 uint32_t
 stackPushed
 =
@@ -1070,7 +1060,7 @@ GuardRecord
 *
 LDi
 (
-R2
+R0
 int
 (
 lr
@@ -1122,8 +1112,6 @@ LinkRecord
 RegisterMask
 savingMask
 =
-SavedRegs
-|
 rmask
 (
 FP
