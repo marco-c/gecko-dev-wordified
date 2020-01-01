@@ -1574,7 +1574,7 @@ its
 /
 ToAStringPtr
 .
-class
+struct
 FakeDependentString
 ;
 template
