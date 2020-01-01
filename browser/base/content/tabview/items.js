@@ -1662,7 +1662,6 @@ if
 (
 group
 )
-{
 group
 .
 remove
@@ -1679,7 +1678,6 @@ true
 }
 )
 ;
-}
 iQ
 (
 this
@@ -4760,7 +4758,6 @@ start
 function
 "
 )
-{
 self
 .
 dragOptions
@@ -4791,7 +4788,6 @@ y
 ]
 )
 ;
-}
 startSent
 =
 true
