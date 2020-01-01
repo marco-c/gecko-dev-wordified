@@ -493,7 +493,7 @@ h
 class
 nsMappedAttributes
 ;
-class
+struct
 nsRuleData
 ;
 typedef
