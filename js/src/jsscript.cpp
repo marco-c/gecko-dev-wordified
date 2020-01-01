@@ -1365,7 +1365,7 @@ JSID_IS_ATOM
 (
 shape
 .
-id
+propid
 )
 )
 {
@@ -1375,7 +1375,7 @@ JSID_TO_ATOM
 (
 shape
 .
-id
+propid
 )
 ;
 }
@@ -1387,7 +1387,7 @@ JSID_IS_INT
 (
 shape
 .
-id
+propid
 )
 )
 ;

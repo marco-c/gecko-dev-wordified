@@ -1549,7 +1549,7 @@ JSID_IS_DEFAULT_XML_NAMESPACE
 (
 shape
 .
-id
+propid
 )
 &
 &
@@ -1569,7 +1569,7 @@ obj
 pobj
 shape
 .
-id
+propid
 shape
 .
 enumerable

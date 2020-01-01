@@ -4211,7 +4211,7 @@ nativeLookup
 shape
 -
 >
-id
+propid
 )
 ;
 if
@@ -4783,7 +4783,7 @@ JSObject
 *
 obj
 jsid
-id
+propid
 )
 {
 JSWatchPoint
@@ -4849,10 +4849,10 @@ wp
 shape
 -
 >
-id
+propid
 =
 =
-id
+propid
 )
 return
 wp
@@ -5062,7 +5062,7 @@ propid
 shape
 -
 >
-id
+propid
 ;
 shape
 =
@@ -6379,13 +6379,13 @@ wp
 shape
 -
 >
-id
+propid
 =
 =
 newShape
 -
 >
-id
+propid
 )
 ;
 JS_ASSERT
@@ -6426,7 +6426,7 @@ cx
 newShape
 -
 >
-id
+propid
 newShape
 -
 >
@@ -6748,7 +6748,7 @@ obj
 newShape
 -
 >
-id
+propid
 )
 ;
 if
@@ -6910,7 +6910,7 @@ obj
 shape
 -
 >
-id
+propid
 )
 ;
 /
@@ -10847,7 +10847,7 @@ JSID_IS_EMPTY
 shape
 -
 >
-id
+propid
 )
 )
 ;
@@ -10924,7 +10924,7 @@ IdToJsval
 shape
 -
 >
-id
+propid
 )
 ;
 JSBool
@@ -10974,7 +10974,7 @@ obj
 shape
 -
 >
-id
+propid
 Valueify
 (
 &
@@ -11284,7 +11284,7 @@ IdToJsval
 (
 aprop
 .
-id
+propid
 )
 ;
 break

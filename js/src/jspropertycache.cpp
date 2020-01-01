@@ -1682,7 +1682,7 @@ shape
 shape
 -
 >
-shape
+shapeid
 )
 {
 /
@@ -1971,7 +1971,7 @@ previous
 )
 -
 >
-shape
+shapeid
 ;
 /
 *

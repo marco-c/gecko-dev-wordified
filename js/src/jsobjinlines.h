@@ -1112,7 +1112,7 @@ objShape
 lastProp
 -
 >
-shape
+shapeid
 ;
 }
 /
@@ -1267,7 +1267,7 @@ objShape
 lastProp
 -
 >
-shape
+shapeid
 ;
 }
 /
@@ -5181,7 +5181,7 @@ objShape
 lastProp
 -
 >
-shape
+shapeid
 ;
 }
 inline
@@ -5355,7 +5355,7 @@ objShape
 lastProp
 -
 >
-shape
+shapeid
 ;
 }
 inline
@@ -5494,7 +5494,7 @@ nativeLookup
 (
 shape
 .
-id
+propid
 )
 =
 =
@@ -5532,7 +5532,7 @@ JSID_IS_VOID
 lastProp
 -
 >
-id
+propid
 )
 )
 ;
@@ -5677,7 +5677,7 @@ JSID_IS_VOID
 shape
 -
 >
-id
+propid
 )
 )
 ;
@@ -5690,7 +5690,7 @@ JSID_IS_VOID
 lastProp
 -
 >
-id
+propid
 )
 )
 ;
@@ -5752,7 +5752,7 @@ lastProp
 parent
 -
 >
-id
+propid
 )
 )
 ;
