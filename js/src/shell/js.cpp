@@ -17483,7 +17483,7 @@ if
 (
 flags
 &
-JSWrapper
+Wrapper
 :
 :
 CROSS_COMPARTMENT
@@ -18369,7 +18369,7 @@ desc
 if
 (
 !
-JSProxy
+Proxy
 :
 :
 getOwnPropertyDescriptor
@@ -22748,7 +22748,7 @@ JSObject
 *
 wrapped
 =
-JSWrapper
+Wrapper
 :
 :
 New
@@ -22768,7 +22768,7 @@ getGlobal
 (
 )
 &
-JSWrapper
+Wrapper
 :
 :
 singleton

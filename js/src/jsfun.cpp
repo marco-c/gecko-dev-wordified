@@ -11295,7 +11295,7 @@ isFunctionProxy
 )
 )
 return
-JSProxy
+Proxy
 :
 :
 fun_toString

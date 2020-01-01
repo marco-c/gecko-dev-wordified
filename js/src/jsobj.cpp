@@ -5217,7 +5217,7 @@ isProxy
 )
 )
 return
-JSProxy
+Proxy
 :
 :
 obj_toString
@@ -9579,7 +9579,7 @@ has
 if
 (
 !
-JSProxy
+Proxy
 :
 :
 hasOwn
@@ -11572,7 +11572,7 @@ isProxy
 )
 )
 return
-JSProxy
+Proxy
 :
 :
 getOwnPropertyDescriptor
@@ -15861,7 +15861,7 @@ isProxy
 )
 )
 return
-JSProxy
+Proxy
 :
 :
 defineProperty
@@ -23382,7 +23382,7 @@ isWrapper
 &
 &
 (
-JSWrapper
+Wrapper
 :
 :
 wrapperHandler
@@ -23395,7 +23395,7 @@ flags
 (
 )
 &
-JSWrapper
+Wrapper
 :
 :
 CROSS_COMPARTMENT
@@ -37579,7 +37579,7 @@ isProxy
 (
 )
 ?
-JSProxy
+Proxy
 :
 :
 get
@@ -38627,7 +38627,7 @@ cx
 if
 (
 !
-JSProxy
+Proxy
 :
 :
 getPropertyDescriptor

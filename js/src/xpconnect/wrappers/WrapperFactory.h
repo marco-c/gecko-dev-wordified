@@ -455,7 +455,10 @@ enum
 {
 WAIVE_XRAY_WRAPPER_FLAG
 =
-JSWrapper
+js
+:
+:
+Wrapper
 :
 :
 LAST_USED_FLAG
@@ -781,7 +784,10 @@ obj
 }
 ;
 extern
-JSWrapper
+js
+:
+:
+Wrapper
 WaiveXrayWrapperWrapper
 ;
 }

@@ -4373,7 +4373,10 @@ JSObject
 *
 obj
 =
-JSWrapper
+js
+:
+:
+Wrapper
 :
 :
 New

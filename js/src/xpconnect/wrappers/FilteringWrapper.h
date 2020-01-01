@@ -559,7 +559,10 @@ JSObject
 wrapper
 jsid
 id
-JSWrapper
+js
+:
+:
+Wrapper
 :
 :
 Action

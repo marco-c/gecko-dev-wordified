@@ -578,7 +578,7 @@ sWrapperFamily
 ;
 void
 *
-JSWrapper
+Wrapper
 :
 :
 getWrapperFamily
@@ -646,14 +646,14 @@ flags
 (
 )
 &
-JSWrapper
+Wrapper
 :
 :
 CROSS_COMPARTMENT
 )
 ;
 }
-JSWrapper
+Wrapper
 *
 JSObject
 :
@@ -673,7 +673,7 @@ isWrapper
 return
 static_cast
 <
-JSWrapper
+Wrapper
 *
 >
 (
@@ -721,7 +721,7 @@ flags
 =
 static_cast
 <
-JSWrapper
+Wrapper
 *
 >
 (
@@ -781,16 +781,16 @@ return
 wrapped
 ;
 }
-JSWrapper
+Wrapper
 :
 :
-JSWrapper
+Wrapper
 (
 uintN
 flags
 )
 :
-JSProxyHandler
+ProxyHandler
 (
 &
 sWrapperFamily
@@ -801,11 +801,11 @@ flags
 )
 {
 }
-JSWrapper
+Wrapper
 :
 :
 ~
-JSWrapper
+Wrapper
 (
 )
 {
@@ -885,7 +885,7 @@ action
 GET
 )
 bool
-JSWrapper
+Wrapper
 :
 :
 getPropertyDescriptor
@@ -1003,7 +1003,7 @@ isProxy
 )
 )
 return
-JSProxy
+Proxy
 :
 :
 getOwnPropertyDescriptor
@@ -1054,7 +1054,7 @@ true
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 getOwnPropertyDescriptor
@@ -1114,7 +1114,7 @@ GET
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 defineProperty
@@ -1163,7 +1163,7 @@ attrs
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 getOwnPropertyNames
@@ -1240,7 +1240,7 @@ true
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 delete_
@@ -1302,7 +1302,7 @@ bp
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 enumerate
@@ -1353,7 +1353,7 @@ props
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 fix
@@ -1403,7 +1403,7 @@ true
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 has
@@ -1464,7 +1464,7 @@ bp
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 hasOwn
@@ -1537,7 +1537,7 @@ bp
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 get
@@ -1595,7 +1595,7 @@ vp
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 set
@@ -1651,7 +1651,7 @@ false
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 keys
@@ -1702,7 +1702,7 @@ props
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 iterate
@@ -1760,7 +1760,7 @@ vp
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 call
@@ -1804,7 +1804,7 @@ JSID_VOID
 ;
 CHECKED
 (
-JSProxyHandler
+ProxyHandler
 :
 :
 call
@@ -1819,7 +1819,7 @@ CALL
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 construct
@@ -1866,7 +1866,7 @@ JSID_VOID
 ;
 GET
 (
-JSProxyHandler
+ProxyHandler
 :
 :
 construct
@@ -1881,7 +1881,7 @@ vp
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 hasInstance
@@ -1953,7 +1953,7 @@ bp
 ;
 }
 JSType
-JSWrapper
+Wrapper
 :
 :
 typeOf
@@ -1983,7 +1983,7 @@ wrapper
 }
 JSString
 *
-JSWrapper
+Wrapper
 :
 :
 obj_toString
@@ -2074,7 +2074,7 @@ str
 }
 JSString
 *
-JSWrapper
+Wrapper
 :
 :
 fun_toString
@@ -2187,7 +2187,7 @@ JSString
 *
 str
 =
-JSProxyHandler
+ProxyHandler
 :
 :
 fun_toString
@@ -2208,7 +2208,7 @@ str
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 defaultValue
@@ -2262,7 +2262,7 @@ vp
 ;
 }
 void
-JSWrapper
+Wrapper
 :
 :
 trace
@@ -2291,7 +2291,7 @@ wrappedObject
 }
 JSObject
 *
-JSWrapper
+Wrapper
 :
 :
 wrappedObject
@@ -2315,9 +2315,9 @@ toObjectOrNull
 )
 ;
 }
-JSWrapper
+Wrapper
 *
-JSWrapper
+Wrapper
 :
 :
 wrapperHandler
@@ -2331,7 +2331,7 @@ wrapper
 return
 static_cast
 <
-JSWrapper
+Wrapper
 *
 >
 (
@@ -2345,7 +2345,7 @@ getProxyHandler
 ;
 }
 bool
-JSWrapper
+Wrapper
 :
 :
 enter
@@ -2375,7 +2375,7 @@ true
 ;
 }
 void
-JSWrapper
+Wrapper
 :
 :
 leave
@@ -2389,8 +2389,8 @@ wrapper
 )
 {
 }
-JSWrapper
-JSWrapper
+Wrapper
+Wrapper
 :
 :
 singleton
@@ -2403,7 +2403,7 @@ uintN
 ;
 JSObject
 *
-JSWrapper
+Wrapper
 :
 :
 New
@@ -2420,7 +2420,7 @@ proto
 JSObject
 *
 parent
-JSWrapper
+Wrapper
 *
 handler
 )
@@ -2541,7 +2541,7 @@ innerObject
 )
 ;
 return
-JSWrapper
+Wrapper
 :
 :
 New
@@ -2551,7 +2551,7 @@ obj
 wrappedProto
 parent
 &
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 singleton
@@ -3046,16 +3046,16 @@ wrappers
 .
 *
 /
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 (
 uintN
 flags
 )
 :
-JSWrapper
+Wrapper
 (
 CROSS_COMPARTMENT
 |
@@ -3063,11 +3063,11 @@ flags
 )
 {
 }
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 ~
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 (
 )
 {
@@ -3148,7 +3148,7 @@ NOTHING
 true
 )
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 getPropertyDescriptor
@@ -3188,7 +3188,7 @@ cx
 &
 id
 )
-JSWrapper
+Wrapper
 :
 :
 getPropertyDescriptor
@@ -3213,7 +3213,7 @@ desc
 ;
 }
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 getOwnPropertyDescriptor
@@ -3253,7 +3253,7 @@ cx
 &
 id
 )
-JSWrapper
+Wrapper
 :
 :
 getOwnPropertyDescriptor
@@ -3278,7 +3278,7 @@ desc
 ;
 }
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 defineProperty
@@ -3332,7 +3332,7 @@ cx
 &
 desc2
 )
-JSWrapper
+Wrapper
 :
 :
 defineProperty
@@ -3348,7 +3348,7 @@ NOTHING
 ;
 }
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 getOwnPropertyNames
@@ -3370,7 +3370,7 @@ cx
 wrapper
 GET
 NOTHING
-JSWrapper
+Wrapper
 :
 :
 getOwnPropertyNames
@@ -3393,7 +3393,7 @@ props
 ;
 }
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 delete_
@@ -3427,7 +3427,7 @@ cx
 &
 id
 )
-JSWrapper
+Wrapper
 :
 :
 delete_
@@ -3442,7 +3442,7 @@ NOTHING
 ;
 }
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 enumerate
@@ -3464,7 +3464,7 @@ cx
 wrapper
 GET
 NOTHING
-JSWrapper
+Wrapper
 :
 :
 enumerate
@@ -3487,7 +3487,7 @@ props
 ;
 }
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 has
@@ -3521,7 +3521,7 @@ cx
 &
 id
 )
-JSWrapper
+Wrapper
 :
 :
 has
@@ -3536,7 +3536,7 @@ NOTHING
 ;
 }
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 hasOwn
@@ -3570,7 +3570,7 @@ cx
 &
 id
 )
-JSWrapper
+Wrapper
 :
 :
 hasOwn
@@ -3585,7 +3585,7 @@ NOTHING
 ;
 }
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 get
@@ -3635,7 +3635,7 @@ cx
 &
 id
 )
-JSWrapper
+Wrapper
 :
 :
 get
@@ -3660,7 +3660,7 @@ vp
 ;
 }
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 set
@@ -3736,7 +3736,7 @@ addr
 (
 )
 )
-JSWrapper
+Wrapper
 :
 :
 set
@@ -3757,7 +3757,7 @@ NOTHING
 ;
 }
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 keys
@@ -3779,7 +3779,7 @@ cx
 wrapper
 GET
 NOTHING
-JSWrapper
+Wrapper
 :
 :
 keys
@@ -4219,7 +4219,7 @@ vp
 ;
 }
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 iterate
@@ -4243,7 +4243,7 @@ cx
 wrapper
 GET
 NOTHING
-JSWrapper
+Wrapper
 :
 :
 iterate
@@ -4281,7 +4281,7 @@ vp
 ;
 }
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 call
@@ -4406,7 +4406,7 @@ false
 if
 (
 !
-JSWrapper
+Wrapper
 :
 :
 call
@@ -4440,7 +4440,7 @@ vp
 ;
 }
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 construct
@@ -4524,7 +4524,7 @@ false
 if
 (
 !
-JSWrapper
+Wrapper
 :
 :
 construct
@@ -4559,7 +4559,7 @@ rval
 ;
 }
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 hasInstance
@@ -4626,7 +4626,7 @@ return
 false
 ;
 return
-JSWrapper
+Wrapper
 :
 :
 hasInstance
@@ -4641,7 +4641,7 @@ bp
 }
 JSString
 *
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 obj_toString
@@ -4680,7 +4680,7 @@ JSString
 *
 str
 =
-JSWrapper
+Wrapper
 :
 :
 obj_toString
@@ -4727,7 +4727,7 @@ str
 }
 JSString
 *
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 fun_toString
@@ -4768,7 +4768,7 @@ JSString
 *
 str
 =
-JSWrapper
+Wrapper
 :
 :
 fun_toString
@@ -4815,7 +4815,7 @@ str
 ;
 }
 bool
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 defaultValue
@@ -4858,7 +4858,7 @@ false
 if
 (
 !
-JSWrapper
+Wrapper
 :
 :
 defaultValue
@@ -4892,7 +4892,7 @@ vp
 ;
 }
 void
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 trace
@@ -4919,8 +4919,8 @@ wrappedObject
 )
 ;
 }
-JSCrossCompartmentWrapper
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 singleton

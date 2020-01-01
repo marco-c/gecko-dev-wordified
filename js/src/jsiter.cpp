@@ -1857,7 +1857,7 @@ JSITER_HIDDEN
 if
 (
 !
-JSProxy
+Proxy
 :
 :
 getOwnPropertyNames
@@ -1876,7 +1876,7 @@ else
 if
 (
 !
-JSProxy
+Proxy
 :
 :
 keys
@@ -1896,7 +1896,7 @@ else
 if
 (
 !
-JSProxy
+Proxy
 :
 :
 enumerate
@@ -4446,7 +4446,7 @@ cx
 )
 ;
 return
-JSProxy
+Proxy
 :
 :
 iterate

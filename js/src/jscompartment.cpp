@@ -1158,7 +1158,7 @@ isWrapper
 !
 !
 (
-JSWrapper
+Wrapper
 :
 :
 wrapperHandler
@@ -1171,7 +1171,7 @@ flags
 (
 )
 &
-JSWrapper
+Wrapper
 :
 :
 CROSS_COMPARTMENT

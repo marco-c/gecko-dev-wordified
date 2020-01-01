@@ -476,7 +476,7 @@ uintN
 flags
 )
 :
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 (
 flags
 )
@@ -540,7 +540,7 @@ desc
 )
 {
 return
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 getPropertyDescriptor
@@ -592,7 +592,7 @@ desc
 )
 {
 return
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 getOwnPropertyDescriptor
@@ -645,7 +645,7 @@ vp
 )
 {
 return
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 get
@@ -691,7 +691,7 @@ vp
 )
 {
 return
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 call
@@ -742,7 +742,7 @@ rval
 )
 {
 return
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 construct
@@ -827,7 +827,7 @@ enter
 is
 called
 here
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 has
 /
 /

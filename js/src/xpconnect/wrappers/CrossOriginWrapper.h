@@ -456,7 +456,10 @@ class
 NoWaiverWrapper
 :
 public
-JSCrossCompartmentWrapper
+js
+:
+:
+CrossCompartmentWrapper
 {
 public
 :
