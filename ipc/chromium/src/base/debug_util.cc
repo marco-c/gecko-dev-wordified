@@ -230,6 +230,16 @@ char
 varname
 )
 {
+const
+char
+*
+e
+=
+getenv
+(
+varname
+)
+;
 if
 (
 e
