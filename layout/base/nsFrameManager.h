@@ -956,6 +956,10 @@ aListID
 nsIFrame
 *
 aOldFrame
+bool
+aInvalidate
+=
+true
 )
 ;
 /
