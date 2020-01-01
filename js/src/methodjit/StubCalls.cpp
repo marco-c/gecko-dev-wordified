@@ -4095,7 +4095,7 @@ sp
 ]
 ;
 Value
-retval
+rval
 =
 regs
 .
@@ -4257,13 +4257,7 @@ obj
 setDenseArrayElement
 (
 i
-regs
-.
-sp
-[
--
-1
-]
+rval
 )
 ;
 goto
@@ -4288,7 +4282,7 @@ setProperty
 cx
 id
 &
-retval
+rval
 strict
 )
 )
@@ -4360,7 +4354,13 @@ sp
 3
 ]
 =
-retval
+regs
+.
+sp
+[
+-
+1
+]
 ;
 }
 template
