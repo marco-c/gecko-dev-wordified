@@ -5484,10 +5484,7 @@ font
 )
 ;
 return
-NS_SUCCEEDED
-(
-rv
-)
+PR_TRUE
 ;
 }
 /
