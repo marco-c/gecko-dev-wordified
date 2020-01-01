@@ -827,10 +827,10 @@ enum
 Kind
 {
 REG
-REG_DISP
+MEM_REG_DISP
 FPREG
-SCALE
-ADDRESS
+MEM_SCALE
+MEM_ADDRESS
 }
 ;
 Kind
@@ -909,7 +909,7 @@ address
 :
 kind_
 (
-REG_DISP
+MEM_REG_DISP
 )
 base_
 (
@@ -940,7 +940,7 @@ address
 :
 kind_
 (
-SCALE
+MEM_SCALE
 )
 index_
 (
@@ -992,7 +992,7 @@ disp
 :
 kind_
 (
-SCALE
+MEM_SCALE
 )
 index_
 (
@@ -1030,7 +1030,7 @@ disp
 :
 kind_
 (
-REG_DISP
+MEM_REG_DISP
 )
 base_
 (
@@ -1057,7 +1057,7 @@ address
 :
 kind_
 (
-ADDRESS
+MEM_ADDRESS
 )
 base_
 (
@@ -1084,7 +1084,7 @@ address
 :
 kind_
 (
-ADDRESS
+MEM_ADDRESS
 )
 base_
 (
@@ -1110,7 +1110,7 @@ kind
 )
 =
 =
-REG_DISP
+MEM_REG_DISP
 )
 ;
 return
@@ -1143,7 +1143,7 @@ kind
 )
 =
 =
-SCALE
+MEM_SCALE
 )
 ;
 return
@@ -1231,7 +1231,7 @@ kind
 )
 =
 =
-REG_DISP
+MEM_REG_DISP
 |
 |
 kind
@@ -1239,7 +1239,7 @@ kind
 )
 =
 =
-SCALE
+MEM_SCALE
 )
 ;
 return
@@ -1268,7 +1268,7 @@ kind
 )
 =
 =
-SCALE
+MEM_SCALE
 )
 ;
 return
@@ -1294,7 +1294,7 @@ kind
 )
 =
 =
-SCALE
+MEM_SCALE
 )
 ;
 return
@@ -1343,7 +1343,7 @@ kind
 )
 =
 =
-REG_DISP
+MEM_REG_DISP
 |
 |
 kind
@@ -1351,7 +1351,7 @@ kind
 )
 =
 =
-SCALE
+MEM_SCALE
 )
 ;
 return
@@ -1372,7 +1372,7 @@ kind
 )
 =
 =
-ADDRESS
+MEM_ADDRESS
 )
 ;
 return
@@ -2060,7 +2060,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -2092,7 +2092,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -2590,7 +2590,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -2622,7 +2622,7 @@ case
 Operand
 :
 :
-ADDRESS
+MEM_ADDRESS
 :
 masm
 .

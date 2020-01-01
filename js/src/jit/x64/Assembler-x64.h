@@ -1376,9 +1376,9 @@ enum
 Kind
 {
 REG
-REG_DISP
+MEM_REG_DISP
 FPREG
-SCALE
+MEM_SCALE
 }
 ;
 Kind
@@ -1459,7 +1459,7 @@ address
 :
 kind_
 (
-REG_DISP
+MEM_REG_DISP
 )
 base_
 (
@@ -1490,7 +1490,7 @@ address
 :
 kind_
 (
-SCALE
+MEM_SCALE
 )
 base_
 (
@@ -1542,7 +1542,7 @@ disp
 :
 kind_
 (
-SCALE
+MEM_SCALE
 )
 base_
 (
@@ -1580,7 +1580,7 @@ disp
 :
 kind_
 (
-REG_DISP
+MEM_REG_DISP
 )
 base_
 (
@@ -1609,7 +1609,7 @@ kind
 )
 =
 =
-REG_DISP
+MEM_REG_DISP
 )
 ;
 return
@@ -1643,7 +1643,7 @@ kind
 )
 =
 =
-SCALE
+MEM_SCALE
 )
 ;
 return
@@ -1731,7 +1731,7 @@ kind
 )
 =
 =
-REG_DISP
+MEM_REG_DISP
 |
 |
 kind
@@ -1739,7 +1739,7 @@ kind
 )
 =
 =
-SCALE
+MEM_SCALE
 )
 ;
 return
@@ -1768,7 +1768,7 @@ kind
 )
 =
 =
-SCALE
+MEM_SCALE
 )
 ;
 return
@@ -1794,7 +1794,7 @@ kind
 )
 =
 =
-SCALE
+MEM_SCALE
 )
 ;
 return
@@ -1843,7 +1843,7 @@ kind
 )
 =
 =
-REG_DISP
+MEM_REG_DISP
 |
 |
 kind
@@ -1851,7 +1851,7 @@ kind
 )
 =
 =
-SCALE
+MEM_SCALE
 )
 ;
 return
@@ -2986,7 +2986,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -3015,7 +3015,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -3113,7 +3113,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -3142,7 +3142,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -3236,7 +3236,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -3263,7 +3263,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -3557,7 +3557,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -3673,7 +3673,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -3817,7 +3817,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -4039,7 +4039,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -4386,7 +4386,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -4415,7 +4415,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -4729,7 +4729,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -4813,7 +4813,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -4899,7 +4899,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -5095,7 +5095,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .

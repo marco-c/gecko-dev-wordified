@@ -1463,7 +1463,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -1492,7 +1492,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -1534,7 +1534,7 @@ case
 Operand
 :
 :
-ADDRESS
+MEM_ADDRESS
 :
 masm
 .
@@ -1619,7 +1619,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -1648,7 +1648,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -1690,7 +1690,7 @@ case
 Operand
 :
 :
-ADDRESS
+MEM_ADDRESS
 :
 masm
 .
@@ -1773,7 +1773,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -1800,7 +1800,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -1970,7 +1970,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -1999,7 +1999,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -2104,7 +2104,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -2133,7 +2133,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -2238,7 +2238,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -2267,7 +2267,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -2372,7 +2372,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -2401,7 +2401,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -2482,7 +2482,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -2511,7 +2511,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -2592,7 +2592,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -2621,7 +2621,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -2769,7 +2769,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -2798,7 +2798,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -2872,7 +2872,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -2901,7 +2901,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -2975,7 +2975,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -3004,7 +3004,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -3078,7 +3078,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -3105,7 +3105,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -3177,7 +3177,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -3206,7 +3206,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -3280,7 +3280,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -3309,7 +3309,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -3383,7 +3383,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -3410,7 +3410,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -3482,7 +3482,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -3511,7 +3511,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -3585,7 +3585,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -3614,7 +3614,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -4275,7 +4275,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -4299,7 +4299,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -5065,7 +5065,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -5313,7 +5313,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -5423,7 +5423,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -5450,7 +5450,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -5490,7 +5490,7 @@ case
 Operand
 :
 :
-ADDRESS
+MEM_ADDRESS
 :
 masm
 .
@@ -5573,7 +5573,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -5605,7 +5605,7 @@ case
 Operand
 :
 :
-ADDRESS
+MEM_ADDRESS
 :
 masm
 .
@@ -5686,7 +5686,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -5716,7 +5716,7 @@ case
 Operand
 :
 :
-ADDRESS
+MEM_ADDRESS
 :
 masm
 .
@@ -5975,7 +5975,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -6085,7 +6085,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -6115,7 +6115,7 @@ case
 Operand
 :
 :
-ADDRESS
+MEM_ADDRESS
 :
 masm
 .
@@ -6220,7 +6220,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -6366,7 +6366,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -6506,7 +6506,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -6644,7 +6644,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -6782,7 +6782,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -6868,7 +6868,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -6956,7 +6956,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -7044,7 +7044,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -7132,7 +7132,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -7281,7 +7281,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -7360,7 +7360,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -7455,7 +7455,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -7712,7 +7712,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -7807,7 +7807,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -8137,7 +8137,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -8331,7 +8331,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -8360,7 +8360,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -8539,7 +8539,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -8568,7 +8568,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 masm
 .
@@ -9080,7 +9080,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -9112,7 +9112,7 @@ case
 Operand
 :
 :
-ADDRESS
+MEM_ADDRESS
 :
 masm
 .
@@ -9204,7 +9204,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -9236,7 +9236,7 @@ case
 Operand
 :
 :
-ADDRESS
+MEM_ADDRESS
 :
 masm
 .
@@ -9402,7 +9402,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -9497,7 +9497,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -9629,7 +9629,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -9724,7 +9724,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -9930,7 +9930,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -10025,7 +10025,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -10388,7 +10388,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -10520,7 +10520,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -10587,7 +10587,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -10642,7 +10642,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
@@ -10697,7 +10697,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 masm
 .
