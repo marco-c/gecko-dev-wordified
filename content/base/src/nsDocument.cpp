@@ -23325,10 +23325,7 @@ if
 needsLowercase
 )
 {
-nsContentUtils
-:
-:
-ASCIIToLower
+ToLowerCase
 (
 aTagName
 lcTagName
