@@ -741,7 +741,7 @@ Node
 >
 :
 :
-mergeCompartmentGroups
+mergeGroups
 (
 Node
 *
