@@ -431,9 +431,6 @@ void
 returnAddrOut
 )
 {
-AutoAssertNoGC
-nogc
-;
 IonFrameIterator
 iter
 (

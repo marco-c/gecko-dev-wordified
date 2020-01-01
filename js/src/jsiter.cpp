@@ -4465,9 +4465,6 @@ active
 *
 /
 {
-AutoAssertNoGC
-nogc
-;
 RawObject
 pobj
 =

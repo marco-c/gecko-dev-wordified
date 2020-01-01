@@ -14532,9 +14532,6 @@ JSContext
 cx
 )
 {
-AutoAssertNoGC
-nogc
-;
 return
 PCToLineNumber
 (
@@ -14583,9 +14580,6 @@ JSPrincipals
 origin
 )
 {
-AutoAssertNoGC
-nogc
-;
 NonBuiltinScriptFrameIter
 iter
 (
@@ -15491,9 +15485,6 @@ return
 NULL
 ;
 }
-AutoAssertNoGC
-nogc
-;
 dst
 -
 >

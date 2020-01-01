@@ -7054,9 +7054,6 @@ bool
 adding
 )
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 start

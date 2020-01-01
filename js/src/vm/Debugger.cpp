@@ -8210,9 +8210,6 @@ tests
 *
 /
 {
-AutoAssertNoGC
-nogc
-;
 uint32_t
 stepperCount
 =
@@ -25308,9 +25305,6 @@ args
 thisobj
 iter
 )
-;
-AutoAssertNoGC
-nogc
 ;
 RawScript
 script

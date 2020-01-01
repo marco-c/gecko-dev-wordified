@@ -365,9 +365,6 @@ ionScriptOut
 )
 const
 {
-AutoAssertNoGC
-nogc
-;
 uint8_t
 *
 returnAddr
@@ -900,9 +897,6 @@ script
 )
 const
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 isScripted
@@ -1981,9 +1975,6 @@ function
 is
 exiting
 .
-AutoAssertNoGC
-nogc
-;
 RawScript
 script
 =
@@ -6107,9 +6098,6 @@ findNextFrame
 (
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 more
@@ -7619,9 +7607,6 @@ dump
 )
 const
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 more
