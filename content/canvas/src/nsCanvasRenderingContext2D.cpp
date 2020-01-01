@@ -4567,6 +4567,10 @@ globalAlpha
 =
 aGlobalAlpha
 ;
+DirtyAllStyles
+(
+)
+;
 return
 NS_OK
 ;
