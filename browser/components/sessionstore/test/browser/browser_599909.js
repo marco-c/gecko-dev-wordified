@@ -434,7 +434,7 @@ browser
 .
 sessionstore
 .
-max_concurrent_tabs
+restore_on_demand
 "
 )
 ;
@@ -499,7 +499,7 @@ Set
 the
 pref
 to
-0
+true
 so
 we
 know
@@ -533,16 +533,16 @@ Services
 .
 prefs
 .
-setIntPref
+setBoolPref
 (
 "
 browser
 .
 sessionstore
 .
-max_concurrent_tabs
+restore_on_demand
 "
-0
+true
 )
 ;
 let
