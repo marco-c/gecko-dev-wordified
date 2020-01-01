@@ -210,9 +210,9 @@ mobile
 "
 )
 ;
-Svc
+PlacesUtils
 .
-History
+history
 .
 removeAllPages
 (
@@ -1137,9 +1137,9 @@ MOBILE_BATCH_SIZE
 }
 finally
 {
-Svc
+PlacesUtils
 .
-History
+history
 .
 removeAllPages
 (
