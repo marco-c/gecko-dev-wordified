@@ -544,7 +544,7 @@ like
 JSObject
 :
 :
-lastProp
+shape_
 that
 we
 trace

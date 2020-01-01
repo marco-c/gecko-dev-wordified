@@ -2580,7 +2580,9 @@ class
 *
 *
 The
-lastProp
+|
+shape_
+|
 member
 stores
 the
