@@ -7492,11 +7492,15 @@ movq
 %
 s
 %
-llu
+p
 "
 RQ
 (
 r
+)
+(
+void
+*
 )
 u64
 )
