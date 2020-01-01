@@ -1746,6 +1746,14 @@ this
 .
 node
 .
+autoscrollWithAppendedItems
+=
+true
+;
+this
+.
+node
+.
 addEventListener
 (
 "
