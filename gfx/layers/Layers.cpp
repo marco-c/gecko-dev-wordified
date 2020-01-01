@@ -4903,7 +4903,7 @@ MOZ_DUMP_PAINTING
 WriteSnapshotLinkToDumpFile
 (
 this
-aFile
+file
 )
 ;
 #
@@ -4927,7 +4927,7 @@ ifdef
 MOZ_DUMP_PAINTING
 fprintf
 (
-aFile
+file
 "
 <
 /
