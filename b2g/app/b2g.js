@@ -5954,7 +5954,7 @@ ipc
 .
 processPriorityManager
 .
-temporaryPriorityLockMS
+temporaryPriorityMS
 "
 5000
 )
