@@ -578,7 +578,7 @@ _tabs
 _selectedTab
 :
 null
-_windowUtils
+windowUtils
 :
 window
 .
@@ -825,7 +825,7 @@ enough
 .
 self
 .
-_windowUtils
+windowUtils
 .
 processUpdates
 (
