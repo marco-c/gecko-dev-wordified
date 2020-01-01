@@ -19887,11 +19887,6 @@ aWithMouse
 false
 )
 ;
-void
-ClearDisplayItemCache
-(
-)
-;
 /
 /
 BOX
