@@ -554,7 +554,6 @@ gc
 ;
 static
 inline
-const
 HeapValue
 &
 GetCall
@@ -621,7 +620,6 @@ JSSLOT_PROXY_CONSTRUCT
 }
 static
 inline
-const
 HeapValue
 &
 GetFunctionProxyConstruct
@@ -715,6 +713,21 @@ return
 false
 ;
 }
+static
+bool
+FixProxy
+(
+JSContext
+*
+cx
+JSObject
+*
+proxy
+JSBool
+*
+bp
+)
+;
 ProxyHandler
 :
 :
@@ -7932,6 +7945,7 @@ obj
 MarkCrossCompartmentValue
 (
 trc
+&
 obj
 -
 >
@@ -7947,6 +7961,7 @@ private
 MarkCrossCompartmentValue
 (
 trc
+&
 obj
 -
 >
@@ -7964,6 +7979,7 @@ extra0
 MarkCrossCompartmentValue
 (
 trc
+&
 obj
 -
 >
@@ -7989,6 +8005,7 @@ obj
 MarkCrossCompartmentValue
 (
 trc
+&
 GetCall
 (
 obj
@@ -8001,6 +8018,7 @@ call
 MarkCrossCompartmentValue
 (
 trc
+&
 GetFunctionProxyConstruct
 (
 obj
@@ -8033,6 +8051,7 @@ obj
 MarkCrossCompartmentValue
 (
 trc
+&
 GetCall
 (
 obj
@@ -8045,6 +8064,7 @@ call
 MarkCrossCompartmentValue
 (
 trc
+&
 GetFunctionProxyConstruct
 (
 obj
@@ -10335,13 +10355,8 @@ callable_Call
 callable_Construct
 }
 ;
-JS_FRIEND_API
-(
-JSBool
-)
-js
-:
-:
+static
+bool
 FixProxy
 (
 JSContext

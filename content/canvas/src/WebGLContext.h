@@ -5883,6 +5883,7 @@ componentSize
 ;
 class
 WebGLBuffer
+MOZ_FINAL
 :
 public
 nsIWebGLBuffer
@@ -6582,6 +6583,7 @@ copy
 ;
 class
 WebGLTexture
+MOZ_FINAL
 :
 public
 nsIWebGLTexture
@@ -9461,6 +9463,7 @@ DoNeedFakeBlack
 ;
 class
 WebGLShader
+MOZ_FINAL
 :
 public
 nsIWebGLShader
@@ -9741,6 +9744,7 @@ mMonotonicHandle
 ;
 class
 WebGLProgram
+MOZ_FINAL
 :
 public
 nsIWebGLProgram
@@ -10349,6 +10353,7 @@ mMonotonicHandle
 ;
 class
 WebGLRenderbuffer
+MOZ_FINAL
 :
 public
 nsIWebGLRenderbuffer
@@ -11276,6 +11281,7 @@ false
 ;
 class
 WebGLFramebuffer
+MOZ_FINAL
 :
 public
 nsIWebGLFramebuffer
@@ -12840,6 +12846,7 @@ mMonotonicHandle
 ;
 class
 WebGLUniformLocation
+MOZ_FINAL
 :
 public
 nsIWebGLUniformLocation
@@ -13019,6 +13026,7 @@ WebGLProgram
 ;
 class
 WebGLActiveInfo
+MOZ_FINAL
 :
 public
 nsIWebGLActiveInfo
@@ -13074,6 +13082,7 @@ mName
 ;
 class
 WebGLShaderPrecisionFormat
+MOZ_FINAL
 :
 public
 nsIWebGLShaderPrecisionFormat

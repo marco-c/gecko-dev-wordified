@@ -2733,6 +2733,7 @@ gc
 MarkValue
 (
 trc
+&
 getConstant
 (
 i

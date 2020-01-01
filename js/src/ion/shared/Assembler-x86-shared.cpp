@@ -581,6 +581,7 @@ readUnsigned
 ;
 void
 *
+*
 ptr
 =
 JSC
@@ -589,7 +590,7 @@ JSC
 X86Assembler
 :
 :
-getPointer
+getPointerRef
 (
 buffer
 +
@@ -605,6 +606,7 @@ trc
 reinterpret_cast
 <
 uintptr_t
+*
 >
 (
 ptr

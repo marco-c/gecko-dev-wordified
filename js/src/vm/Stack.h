@@ -7498,7 +7498,6 @@ HAS_RVAL
 )
 ;
 }
-const
 Value
 &
 returnValue
