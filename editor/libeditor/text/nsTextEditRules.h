@@ -1124,6 +1124,8 @@ aCancel
 PRBool
 *
 aHandled
+PRInt32
+aMaxLength
 )
 ;
 nsresult
@@ -1492,6 +1494,9 @@ nsAString
 aOutString
 PRInt32
 aMaxLength
+PRBool
+*
+aTruncated
 )
 ;
 /
