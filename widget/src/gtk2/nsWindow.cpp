@@ -24416,9 +24416,6 @@ PR_FALSE
 #
 ifdef
 ACCESSIBILITY
-#
-ifdef
-MOZ_ENABLE_GCONF
 nsresult
 rv
 ;
@@ -24552,8 +24549,6 @@ sAccessibilityEnabled
 }
 }
 }
-#
-endif
 #
 endif
 #
