@@ -7796,7 +7796,7 @@ aPriority
 PRInt16
 newValue
 =
-CLAMP
+clamped
 (
 aPriority
 PR_INT16_MIN
