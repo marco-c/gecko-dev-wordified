@@ -3454,6 +3454,10 @@ GetParentNode
 if
 (
 !
+parent
+|
+|
+!
 nsContentUtils
 :
 :
