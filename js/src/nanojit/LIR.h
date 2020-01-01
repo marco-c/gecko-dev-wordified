@@ -7663,10 +7663,6 @@ Entry
 >
 names
 ;
-LabelMap
-*
-labels
-;
 void
 formatImm
 (
@@ -7679,6 +7675,10 @@ buf
 ;
 public
 :
+LabelMap
+*
+labels
+;
 LirNameMap
 (
 Allocator
