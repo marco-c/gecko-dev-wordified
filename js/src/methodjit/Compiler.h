@@ -2107,6 +2107,15 @@ LazyArgsObj
 }
 applyTricks
 ;
+#
+ifdef
+DEBUG
+int
+*
+pcProfile
+;
+#
+endif
 Compiler
 *
 thisFromCtor
