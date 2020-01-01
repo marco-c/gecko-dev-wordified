@@ -2375,7 +2375,7 @@ path
 >
 extents
 .
-x
+y
 &
 &
 rectangle
