@@ -10940,7 +10940,7 @@ isInterpreted
 cx
 -
 >
-markTypeFunctionUninlineable
+markTypeObjectFlags
 (
 fun
 -
@@ -10948,6 +10948,7 @@ fun
 getType
 (
 )
+OBJECT_FLAG_UNINLINEABLE
 )
 ;
 }
@@ -11106,7 +11107,7 @@ fun
 cx
 -
 >
-markTypeFunctionUninlineable
+markTypeObjectFlags
 (
 fun
 -
@@ -11114,6 +11115,7 @@ fun
 getType
 (
 )
+OBJECT_FLAG_UNINLINEABLE
 )
 ;
 }
