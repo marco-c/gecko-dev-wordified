@@ -1116,6 +1116,13 @@ traceMonitor
 ;
 #
 endif
+thread
+-
+>
+scriptsToGC
+=
+NULL
+;
 /
 *
 *
