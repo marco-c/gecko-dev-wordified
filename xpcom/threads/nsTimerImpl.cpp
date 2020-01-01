@@ -1725,6 +1725,12 @@ mCanceled
 =
 false
 ;
+mTimeout
+=
+TimeStamp
+(
+)
+;
 mGeneration
 =
 PR_ATOMIC_INCREMENT
