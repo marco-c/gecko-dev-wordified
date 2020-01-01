@@ -597,6 +597,10 @@ nsIInputStream
 *
 *
 result
+nsIChannel
+*
+*
+channel
 )
 ;
 private
