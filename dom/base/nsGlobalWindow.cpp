@@ -43249,7 +43249,7 @@ NS_IMETHODIMP
 nsGlobalWindow
 :
 :
-GetMoz_indexedDB
+GetMozIndexedDB
 (
 nsIIDBFactory
 *
