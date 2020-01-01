@@ -3817,7 +3817,7 @@ aFrame
 const
 nsRect
 &
-aUnfilteredRect
+aPreFilterRect
 )
 {
 NS_ABORT_IF_FALSE
@@ -3858,7 +3858,7 @@ filter
 )
 {
 return
-aUnfilteredRect
+aPreFilterRect
 ;
 }
 PRInt32
@@ -3877,9 +3877,9 @@ AppUnitsPerDevPixel
 )
 ;
 nsIntRect
-unfilteredRect
+preFilterRect
 =
-aUnfilteredRect
+aPreFilterRect
 .
 ToOutsidePixels
 (
@@ -3892,12 +3892,12 @@ rect
 filter
 -
 >
-GetFilterBBox
+GetPostFilterBounds
 (
 aFrame
 nsnull
 &
-unfilteredRect
+preFilterRect
 )
 ;
 nsRect
@@ -8043,7 +8043,7 @@ paintCallback
 filterFrame
 -
 >
-FilterPaint
+PaintFilteredFrame
 (
 aContext
 aFrame

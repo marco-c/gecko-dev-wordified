@@ -256,7 +256,7 @@ mFilterSpaceSize
 .
 width
 /
-mFilterRect
+mFilterRegion
 .
 Width
 (
@@ -275,7 +275,7 @@ mFilterSpaceSize
 .
 height
 /
-mFilterRect
+mFilterRegion
 .
 Height
 (
@@ -301,7 +301,7 @@ mFilterSpaceSize
 .
 width
 /
-mFilterRect
+mFilterRegion
 .
 Width
 (
@@ -310,7 +310,7 @@ mFilterSpaceSize
 .
 height
 /
-mFilterRect
+mFilterRegion
 .
 Height
 (
@@ -586,7 +586,7 @@ r
 =
 aRect
 -
-mFilterRect
+mFilterRegion
 .
 TopLeft
 (
@@ -600,7 +600,7 @@ mFilterSpaceSize
 .
 width
 /
-mFilterRect
+mFilterRegion
 .
 Width
 (
@@ -609,7 +609,7 @@ mFilterSpaceSize
 .
 height
 /
-mFilterRect
+mFilterRegion
 .
 Height
 (
@@ -640,7 +640,7 @@ aPt
 .
 x
 *
-mFilterRect
+mFilterRegion
 .
 Width
 (
@@ -650,7 +650,7 @@ mFilterSpaceSize
 .
 width
 +
-mFilterRect
+mFilterRegion
 .
 X
 (
@@ -659,7 +659,7 @@ aPt
 .
 y
 *
-mFilterRect
+mFilterRegion
 .
 Height
 (
@@ -669,7 +669,7 @@ mFilterSpaceSize
 .
 height
 +
-mFilterRect
+mFilterRegion
 .
 Y
 (
@@ -693,7 +693,7 @@ mFilterSpaceSize
 .
 width
 /
-mFilterRect
+mFilterRegion
 .
 Width
 (
@@ -706,7 +706,7 @@ mFilterSpaceSize
 .
 height
 /
-mFilterRect
+mFilterRegion
 .
 Height
 (
@@ -724,7 +724,7 @@ widthScale
 0f
 heightScale
 -
-mFilterRect
+mFilterRegion
 .
 X
 (
@@ -732,7 +732,7 @@ X
 *
 widthScale
 -
-mFilterRect
+mFilterRegion
 .
 Y
 (
@@ -1936,7 +1936,7 @@ Length
 ]
 .
 mResultBoundingBox
-mDirtyOutputRect
+mPostFilterDirtyRect
 )
 ;
 for
@@ -3721,15 +3721,15 @@ nsresult
 nsSVGFilterInstance
 :
 :
-ComputeOutputDirtyRect
+ComputePostFilterDirtyRect
 (
 nsIntRect
 *
-aDirty
+aPostFilterDirtyRect
 )
 {
 *
-aDirty
+aPostFilterDirtyRect
 =
 nsIntRect
 (
@@ -3801,13 +3801,13 @@ mSourceColorAlpha
 .
 mResultChangeBox
 =
-mDirtyInputRect
+mPreFilterDirtyRect
 ;
 mSourceAlpha
 .
 mResultChangeBox
 =
-mDirtyInputRect
+mPreFilterDirtyRect
 ;
 ComputeResultChangeBoxes
 (
@@ -3830,7 +3830,7 @@ Length
 ]
 ;
 *
-aDirty
+aPostFilterDirtyRect
 =
 result
 -
