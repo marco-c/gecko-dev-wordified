@@ -1343,14 +1343,6 @@ return
 mTarget
 -
 >
-SetOverrideCTM
-(
-nsnull
-)
-;
-mTarget
--
->
 SetMatrixPropagation
 (
 PR_TRUE
