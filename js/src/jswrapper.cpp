@@ -1423,7 +1423,7 @@ id
 =
 JSID_VOID
 ;
-GET
+CHECKED
 (
 IndirectProxyHandler
 :
@@ -1436,6 +1436,7 @@ argc
 argv
 vp
 )
+CALL
 )
 ;
 }
