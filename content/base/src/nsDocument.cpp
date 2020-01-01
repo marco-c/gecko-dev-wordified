@@ -5572,6 +5572,9 @@ from
 the
 doc
 .
+tmp
+-
+>
 DestroyLinkMap
 (
 )
