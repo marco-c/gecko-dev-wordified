@@ -514,7 +514,7 @@ class
 nsPluginInstanceOwner
 ;
 class
-nsIPluginHost
+nsPluginHost
 ;
 class
 nsIPluginInstance
@@ -1440,7 +1440,7 @@ aDesiredSize
 nsresult
 InstantiatePlugin
 (
-nsIPluginHost
+nsPluginHost
 *
 aPluginHost
 const

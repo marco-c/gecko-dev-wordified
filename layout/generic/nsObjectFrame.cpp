@@ -690,7 +690,7 @@ h
 #
 include
 "
-nsIPluginHost
+nsPluginHost
 .
 h
 "
@@ -6273,7 +6273,7 @@ nsObjectFrame
 :
 InstantiatePlugin
 (
-nsIPluginHost
+nsPluginHost
 *
 aPluginHost
 const
@@ -6492,6 +6492,7 @@ InstantiateEmbeddedPlugin
 aMimeType
 aURI
 mInstanceOwner
+PR_TRUE
 )
 ;
 }
@@ -16210,7 +16211,18 @@ rv
 =
 InstantiatePlugin
 (
+static_cast
+<
+nsPluginHost
+*
+>
+(
 pluginHost
+.
+get
+(
+)
+)
 aMimeType
 aURI
 )
