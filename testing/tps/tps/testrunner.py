@@ -3605,6 +3605,30 @@ is
 None
 :
         
+buildUrl
+=
+None
+        
+if
+self
+.
+firefoxRunner
+and
+self
+.
+firefoxRunner
+.
+url
+:
+          
+buildUrl
+=
+self
+.
+firefoxRunner
+.
+url
+        
 body
 =
 GenerateEmailBody
@@ -3637,9 +3661,7 @@ serverURL
                                  
 self
 .
-firefoxRunner
-.
-url
+buildUrl
 )
       
 subj
