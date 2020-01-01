@@ -1267,10 +1267,6 @@ aOffset
 float
 aZoom
 const
-LayerIntRect
-&
-aPageRect
-const
 CSSRect
 &
 aCssPageRect

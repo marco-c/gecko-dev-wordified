@@ -749,10 +749,6 @@ aOffset
 float
 aZoom
 const
-LayerIntRect
-&
-aPageRect
-const
 CSSRect
 &
 aCssPageRect
@@ -1000,7 +996,7 @@ DetachRefLayers
 TargetConfig
 mTargetConfig
 ;
-LayerIntRect
+CSSRect
 mContentRect
 ;
 nsRefPtr
