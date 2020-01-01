@@ -529,6 +529,12 @@ moz_downloads
 "
 )
 ;
+stmt
+.
+finalize
+(
+)
+;
 /
 /
 now
@@ -687,7 +693,7 @@ getIsNull
 ;
 stmt
 .
-reset
+finalize
 (
 )
 ;
