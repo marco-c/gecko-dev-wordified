@@ -71,6 +71,8 @@ DirectoryTraversal
     
 Exports
     
+IPDLFile
+    
 Program
     
 ReaderSummary
@@ -785,6 +787,28 @@ XpcshellManifests
 (
 sandbox
 manifest
+)
+        
+for
+ipdl
+in
+sandbox
+.
+get
+(
+'
+IPDL_SOURCES
+'
+[
+]
+)
+:
+            
+yield
+IPDLFile
+(
+sandbox
+ipdl
 )
     
 def
