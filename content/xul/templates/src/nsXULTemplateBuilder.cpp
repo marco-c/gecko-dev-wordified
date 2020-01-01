@@ -6876,7 +6876,7 @@ mDB
 by
 parsing
 the
-vew
+new
 value
 and
 rebuild
@@ -6893,6 +6893,15 @@ nsGkAtoms
 datasources
 )
 {
+Uninit
+(
+PR_FALSE
+)
+;
+/
+/
+Reset
+results
 PRBool
 shouldDelay
 ;
