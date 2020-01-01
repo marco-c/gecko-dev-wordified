@@ -325,17 +325,6 @@ jsobjinlines
 h
 "
 #
-include
-"
-vm
-/
-GlobalObject
--
-inl
-.
-h
-"
-#
 if
 JS_USE_NEW_OBJECT_REPRESENTATION
 /
