@@ -3729,7 +3729,7 @@ step
 /
 inline
 void
-SlotRangeWriteBarrierPost
+DenseRangeWriteBarrierPost
 (
 JSCompartment
 *

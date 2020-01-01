@@ -5737,7 +5737,7 @@ inline
 void
 writeBarrierPost
 (
-UnrootedShape
+RawShape
 shape
 void
 *

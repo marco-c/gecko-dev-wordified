@@ -383,6 +383,9 @@ enterCompartmentDepth
 #
 ifdef
 JSGC_GENERATIONAL
+gcNursery
+(
+)
 gcStoreBuffer
 (
 &
