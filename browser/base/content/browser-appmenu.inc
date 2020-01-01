@@ -2224,7 +2224,7 @@ document
 getElementById
 (
 '
-appmenu_historyMenu
+appmenu_history
 '
 )
 .
@@ -2283,7 +2283,7 @@ document
 getElementById
 (
 '
-appmenu_historyMenu
+appmenu_history
 '
 )
 .
