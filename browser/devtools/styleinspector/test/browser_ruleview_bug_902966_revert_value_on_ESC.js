@@ -83,7 +83,8 @@ let
 originalValue
 =
 "
-blue
+#
+00F
 "
 ;
 /
@@ -418,6 +419,7 @@ should
 be
 the
 value
+span
 .
 "
 )
