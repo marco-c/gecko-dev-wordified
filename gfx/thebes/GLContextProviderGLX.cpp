@@ -1169,7 +1169,7 @@ gIsATI
 vendor
 &
 &
-strstr
+DoesVendorStringMatch
 (
 vendor
 "
@@ -1183,7 +1183,7 @@ gIsChromium
 vendor
 &
 &
-strstr
+DoesVendorStringMatch
 (
 vendor
 "
@@ -1197,7 +1197,7 @@ Chromium
 serverVersion
 &
 &
-strstr
+DoesVendorStringMatch
 (
 serverVersionStr
 "
