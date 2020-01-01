@@ -2307,10 +2307,6 @@ for
 line
 in
 fileobj
-.
-readlines
-(
-)
 :
         
 linenum
