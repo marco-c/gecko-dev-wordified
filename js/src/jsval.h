@@ -135,15 +135,6 @@ h
 #
 include
 "
-mozilla
-/
-FloatingPoint
-.
-h
-"
-#
-include
-"
 js
 /
 Utility
