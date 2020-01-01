@@ -1079,7 +1079,10 @@ extern
 Latin1CharsZ
 LossyTwoByteCharsToNewLatin1CharsZ
 (
-JSContext
+js
+:
+:
+ThreadSafeContext
 *
 cx
 TwoByteChars
@@ -1090,7 +1093,10 @@ extern
 UTF8CharsZ
 TwoByteCharsToNewUTF8CharsZ
 (
-JSContext
+js
+:
+:
+ThreadSafeContext
 *
 cx
 TwoByteChars
