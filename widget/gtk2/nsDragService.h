@@ -1447,6 +1447,16 @@ RunScheduledTask
 (
 )
 ;
+void
+DispatchMotionEvents
+(
+)
+;
+gboolean
+DispatchDropEvent
+(
+)
+;
 }
 ;
 #
