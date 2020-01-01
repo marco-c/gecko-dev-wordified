@@ -11865,7 +11865,15 @@ sp
 +
 +
 =
-JSVAL_NULL
+OBJECT_TO_JSVAL
+(
+lambda
+-
+>
+getParent
+(
+)
+)
 ;
 /
 *
