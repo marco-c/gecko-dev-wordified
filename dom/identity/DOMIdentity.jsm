@@ -135,10 +135,14 @@ jsm
 "
 )
 ;
-Cu
+XPCOMUtils
 .
-import
+defineLazyModuleGetter
 (
+this
+"
+objectCopy
+"
 "
 resource
 :

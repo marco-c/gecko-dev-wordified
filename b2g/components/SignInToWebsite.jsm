@@ -780,10 +780,14 @@ jsm
 "
 )
 ;
-Cu
+XPCOMUtils
 .
-import
+defineLazyModuleGetter
 (
+this
+"
+getRandomId
+"
 "
 resource
 :
