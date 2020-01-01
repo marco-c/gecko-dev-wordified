@@ -445,16 +445,10 @@ len
 ;
 if
 (
-!
-LL_GE_ZERO
-(
 len
-)
-)
-/
-/
 <
 0
+)
 mHeaders
 .
 ClearHeader
