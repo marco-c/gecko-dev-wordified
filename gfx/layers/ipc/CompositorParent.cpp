@@ -1143,7 +1143,7 @@ GetPrimaryScrollableLayer
 else
 Layer
 *
-root
+layer
 =
 mLayerManager
 -
