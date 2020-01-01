@@ -68,8 +68,6 @@ pymake
 .
 parser
 import
-shlex
-import
 sys
 import
 subprocess
@@ -87,10 +85,6 @@ pymake
 data
 import
 Makefile
-from
-tempfile
-import
-TemporaryFile
 from
 mozbuild
 .
@@ -2290,7 +2284,7 @@ use_env
 .
 update
 (
-env
+append_env
 )
         
 p
