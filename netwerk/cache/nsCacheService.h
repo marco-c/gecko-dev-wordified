@@ -1174,6 +1174,10 @@ friend
 class
 nsProcessRequestEvent
 ;
+friend
+class
+nsSetSmartSizeEvent
+;
 /
 *
 *
