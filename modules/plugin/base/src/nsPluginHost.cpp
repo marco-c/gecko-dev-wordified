@@ -1045,13 +1045,6 @@ h
 #
 include
 "
-nsInt64
-.
-h
-"
-#
-include
-"
 nsPluginError
 .
 h
@@ -17224,7 +17217,7 @@ rv
 PRInt32
 flen
 =
-nsInt64
+PRInt64
 (
 fileSize
 )

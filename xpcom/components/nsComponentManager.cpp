@@ -834,13 +834,6 @@ h
 #
 include
 "
-nsInt64
-.
-h
-"
-#
-include
-"
 nsManifestLineReader
 .
 h

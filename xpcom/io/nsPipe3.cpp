@@ -465,13 +465,6 @@ h
 #
 include
 "
-nsInt64
-.
-h
-"
-#
-include
-"
 nsIClassInfoImpl
 .
 h
@@ -1142,7 +1135,7 @@ consumer
 nsrefcnt
 mReaderRefCnt
 ;
-nsInt64
+PRInt64
 mLogicalOffset
 ;
 PRPackedBool
@@ -1515,7 +1508,7 @@ producer
 nsrefcnt
 mWriterRefCnt
 ;
-nsInt64
+PRInt64
 mLogicalOffset
 ;
 PRPackedBool

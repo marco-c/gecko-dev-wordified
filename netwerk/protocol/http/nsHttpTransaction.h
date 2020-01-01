@@ -474,13 +474,6 @@ h
 #
 include
 "
-nsInt64
-.
-h
-"
-#
-include
-"
 nsIPipe
 .
 h
@@ -1442,7 +1435,7 @@ contain
 a
 partial
 line
-nsInt64
+PRInt64
 mContentLength
 ;
 /
@@ -1452,7 +1445,7 @@ equals
 1
 if
 unknown
-nsInt64
+PRInt64
 mContentRead
 ;
 /
