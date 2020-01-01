@@ -1030,8 +1030,14 @@ if
 !
 started
 )
+{
+mSensor
+=
+nsnull
+;
 return
 ;
+}
 mUpdateTimer
 =
 do_CreateInstance
