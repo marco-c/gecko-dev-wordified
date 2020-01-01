@@ -1770,15 +1770,6 @@ finalize
 (
 )
 ;
-let
-deferred
-=
-Promise
-.
-defer
-(
-)
-;
 yield
 asyncClose
 (
@@ -2209,7 +2200,6 @@ insert
 and
 fetch
 back
-let
 name
 =
 "
