@@ -1567,6 +1567,9 @@ end
 )
 blocks
 (
+mozilla
+:
+:
 Move
 (
 blocksVector
@@ -1596,6 +1599,9 @@ endCodeOffset
 )
 blocks
 (
+mozilla
+:
+:
 Move
 (
 copy
