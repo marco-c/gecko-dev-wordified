@@ -547,12 +547,6 @@ class
 nsIAtom
 ;
 class
-nsICSSLoader
-;
-class
-nsICSSStyleSheet
-;
-class
 nsIDOMWindowInternal
 ;
 class
@@ -750,9 +744,6 @@ RefreshWindow
 nsIDOMWindowInternal
 *
 aWindow
-nsICSSLoader
-*
-aCSSLoader
 )
 ;
 static
