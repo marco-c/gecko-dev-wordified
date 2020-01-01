@@ -5099,13 +5099,6 @@ cxreg
 =
 r0
 ;
-regs
-.
-take
-(
-cxreg
-)
-;
 /
 /
 Stack
