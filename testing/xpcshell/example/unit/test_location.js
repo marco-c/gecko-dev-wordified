@@ -478,15 +478,9 @@ load
 do_import_script
 (
 "
-tools
-/
-test
--
-harness
+testing
 /
 xpcshell
--
-simple
 /
 example
 /
