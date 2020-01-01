@@ -200,7 +200,7 @@ Size
 )
 ;
 case
-IonFrame_JS
+IonFrame_OptimizedJS
 :
 case
 IonFrame_Bailed_JS
@@ -523,7 +523,7 @@ type
 )
 =
 =
-IonFrame_JS
+IonFrame_OptimizedJS
 )
 ;
 IonJSFrameLayout

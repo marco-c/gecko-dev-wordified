@@ -518,7 +518,7 @@ if
 type_
 =
 =
-IonFrame_JS
+IonFrame_OptimizedJS
 )
 {
 InlineFrameIterator
@@ -2737,7 +2737,7 @@ prevType
 )
 =
 =
-IonFrame_JS
+IonFrame_OptimizedJS
 )
 ;
 frame

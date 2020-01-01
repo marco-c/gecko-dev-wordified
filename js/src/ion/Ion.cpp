@@ -9480,7 +9480,7 @@ fp
 break
 ;
 case
-IonFrame_JS
+IonFrame_OptimizedJS
 :
 {
 JS_ASSERT

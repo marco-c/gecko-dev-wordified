@@ -169,7 +169,16 @@ scripted
 functon
 activation
 .
-IonFrame_JS
+OptimizedJS
+frames
+are
+used
+by
+the
+optimizing
+compiler
+.
+IonFrame_OptimizedJS
 /
 /
 The
@@ -498,7 +507,7 @@ type
 )
 =
 =
-IonFrame_JS
+IonFrame_OptimizedJS
 )
 ;
 return
@@ -589,7 +598,7 @@ return
 type_
 =
 =
-IonFrame_JS
+IonFrame_OptimizedJS
 ;
 }
 bool
