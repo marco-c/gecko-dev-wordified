@@ -4567,15 +4567,8 @@ aSuffix
 )
 ;
 }
-/
-*
 static
-*
-/
 nsresult
-nsMemoryInfoDumper
-:
-:
 OpenTempFile
 (
 const
@@ -4618,11 +4611,6 @@ not
 .
 if
 (
-!
-*
-aFile
-)
-{
 char
 *
 env
@@ -4633,10 +4621,6 @@ PR_GetEnv
 DOWNLOADS_DIRECTORY
 "
 )
-;
-if
-(
-env
 )
 {
 NS_NewNativeLocalFile
@@ -4655,7 +4639,6 @@ true
 aFile
 )
 ;
-}
 }
 #
 endif
