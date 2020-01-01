@@ -1484,10 +1484,6 @@ yet
 create
 it
 .
-tag
-.
-id
-=
 this
 .
 _createTag
