@@ -2195,6 +2195,16 @@ appAdvance
 )
 &
 &
+charGlyphs
+[
+offs
+]
+.
+IsClusterStart
+(
+)
+&
+&
 yLocs
 [
 c
