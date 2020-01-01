@@ -233,7 +233,7 @@ nsIFile
 aProfileLocalDir
 nsIFile
 *
-aDesktop
+aTargetDir
 const
 nsAString
 &
@@ -248,9 +248,9 @@ mProfileLocalDir
 (
 aProfileLocalDir
 )
-mDesktop
+mTargetDir
 (
-aDesktop
+aTargetDir
 )
 mLeafName
 (
@@ -315,7 +315,7 @@ mProfileDir
 >
 CopyToFollowingLinks
 (
-mDesktop
+mTargetDir
 mLeafName
 )
 ;
@@ -494,7 +494,7 @@ nsCOMPtr
 <
 nsIFile
 >
-mDesktop
+mTargetDir
 ;
 nsAutoString
 mLeafName
