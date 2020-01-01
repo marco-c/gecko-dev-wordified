@@ -15769,7 +15769,7 @@ v
 )
 ;
 return
-js_HasInstance
+HasInstance
 (
 cx
 obj

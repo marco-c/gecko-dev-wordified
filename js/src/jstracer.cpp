@@ -103116,7 +103116,7 @@ ARECORD_CONTINUE
 static
 JSBool
 FASTCALL
-HasInstance
+HasInstanceOnTrace
 (
 JSContext
 *
@@ -103146,7 +103146,7 @@ JS_FALSE
 if
 (
 !
-js_HasInstance
+HasInstance
 (
 cx
 ctor
@@ -103169,7 +103169,7 @@ JS_DEFINE_CALLINFO_3
 (
 static
 BOOL_FAIL
-HasInstance
+HasInstanceOnTrace
 CONTEXT
 OBJECT
 VALUE
@@ -103287,7 +103287,7 @@ lir
 insCall
 (
 &
-HasInstance_ci
+HasInstanceOnTrace_ci
 args
 )
 )

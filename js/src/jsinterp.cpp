@@ -7187,7 +7187,7 @@ name
 ;
 }
 JSBool
-js_HasInstance
+HasInstance
 (
 JSContext
 *
@@ -40849,7 +40849,7 @@ JS_FALSE
 if
 (
 !
-js_HasInstance
+HasInstance
 (
 cx
 obj

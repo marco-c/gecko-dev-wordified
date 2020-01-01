@@ -2854,7 +2854,7 @@ argv
 }
 extern
 JSBool
-js_HasInstance
+HasInstance
 (
 JSContext
 *
