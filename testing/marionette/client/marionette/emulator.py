@@ -3219,8 +3219,26 @@ restart_b2g
 (
 )
         
+#
 if
 load_early
+:
+        
+#
+Temporarily
+enable
+this
+always
+until
+part
+2
+of
+bug
+815807
+lands
+        
+if
+True
 :
             
 #
