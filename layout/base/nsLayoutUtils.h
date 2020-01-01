@@ -559,6 +559,13 @@ h
 #
 include
 "
+nsIPrincipal
+.
+h
+"
+#
+include
+"
 gfxPattern
 .
 h

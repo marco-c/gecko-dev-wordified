@@ -787,12 +787,17 @@ gfxPlatform
 h
 "
 #
+ifdef
+MOZ_MEDIA
+#
 include
 "
 nsHTMLVideoElement
 .
 h
 "
+#
+endif
 #
 include
 "
