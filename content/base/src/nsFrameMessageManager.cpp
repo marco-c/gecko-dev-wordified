@@ -1954,6 +1954,14 @@ NS_SUCCEEDED
 (
 rv
 )
+&
+&
+!
+aJSON
+.
+IsEmpty
+(
+)
 )
 {
 JSONParser
