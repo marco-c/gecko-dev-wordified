@@ -3695,14 +3695,11 @@ child
 BuildDisplayListForStackingContext
 (
 aBuilder
-aDirtyRect
--
 child
 -
 >
-GetOffsetTo
+GetVisualOverflowRectRelativeToSelf
 (
-this
 )
 &
 content
