@@ -283,13 +283,6 @@ h
 #
 include
 "
-jsscriptinlines
-.
-h
-"
-#
-include
-"
 jit
 /
 shared
