@@ -2644,6 +2644,12 @@ MacroAssemblerARM
 {
 public
 :
+using
+MacroAssemblerARM
+:
+:
+call
+;
 /
 /
 jumps

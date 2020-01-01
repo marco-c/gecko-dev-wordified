@@ -8682,6 +8682,14 @@ label
 )
 ;
 void
+call
+(
+void
+*
+target
+)
+;
+void
 as_bkpt
 (
 )
