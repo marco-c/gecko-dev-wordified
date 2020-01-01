@@ -1487,6 +1487,9 @@ eMetric_WindowsDefaultTheme
 case
 eMetric_TouchEnabled
 :
+case
+eMetric_WindowsThemeIdentifier
+:
 aMetric
 =
 0
