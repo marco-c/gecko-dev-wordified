@@ -1659,6 +1659,7 @@ __init__
 self
 automation
 options
+scriptDir
 )
 :
         
@@ -1707,6 +1708,12 @@ httpPort
 options
 .
 httpPort
+        
+self
+.
+scriptDir
+=
+scriptDir
         
 self
 .
@@ -1852,11 +1859,15 @@ v
 -
 f
 "
-"
+os
 .
-/
-"
-+
+path
+.
+join
+(
+self
+.
+scriptDir
 "
 reftest
 /
@@ -1866,6 +1877,7 @@ httpd
 .
 js
 "
+)
                 
 "
 -
@@ -1950,16 +1962,21 @@ webServer
 -
 f
 "
-"
+os
 .
-/
-"
-+
+path
+.
+join
+(
+self
+.
+scriptDir
 "
 server
 .
 js
 "
+)
 ]
         
 xpcshell
@@ -2666,6 +2683,9 @@ ReftestServer
 (
 localAutomation
 options
+self
+.
+scriptDir
 )
         
 self
