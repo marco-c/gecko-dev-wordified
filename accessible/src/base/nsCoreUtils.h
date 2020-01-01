@@ -984,13 +984,11 @@ point
 *
 /
 static
-already_AddRefed
-<
-nsIDOMNode
->
+nsINode
+*
 GetDOMNodeFromDOMPoint
 (
-nsIDOMNode
+nsINode
 *
 aNode
 PRUint32
