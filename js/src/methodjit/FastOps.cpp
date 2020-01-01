@@ -1206,7 +1206,7 @@ masm
 ;
 frame
 .
-freeFPReg
+freeReg
 (
 fpreg
 )
@@ -4753,6 +4753,10 @@ Registers
 :
 SingleByteRegs
 )
+.
+reg
+(
+)
 ;
 if
 (
@@ -4965,6 +4969,10 @@ Registers
 :
 :
 SingleByteRegs
+)
+.
+reg
+(
 )
 ;
 if
@@ -11896,6 +11904,10 @@ Registers
 :
 SingleByteRegs
 )
+.
+reg
+(
+)
 ;
 RegisterID
 treg
@@ -12162,6 +12174,10 @@ Registers
 :
 :
 SingleByteRegs
+)
+.
+reg
+(
 )
 ;
 #
@@ -12507,6 +12523,10 @@ Registers
 :
 :
 SingleByteRegs
+)
+.
+reg
+(
 )
 ;
 Jump
