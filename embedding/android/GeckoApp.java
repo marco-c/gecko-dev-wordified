@@ -1229,6 +1229,13 @@ GeckoAppShell
 .
 loadGeckoLibs
 (
+getApplication
+(
+)
+.
+getPackageResourcePath
+(
+)
 )
 ;
 if
