@@ -636,9 +636,6 @@ window
 if
 (
 mJSMethodObject
-&
-&
-aTargetClassObject
 )
 {
 nsDependentString

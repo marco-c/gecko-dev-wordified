@@ -4652,6 +4652,9 @@ JSObject
 *
 *
 aClassObject
+bool
+*
+aNew
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -4676,6 +4679,7 @@ aScriptObject
 aClassName
 this
 aClassObject
+aNew
 )
 ;
 }

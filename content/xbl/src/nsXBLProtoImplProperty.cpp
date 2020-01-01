@@ -781,15 +781,10 @@ window
 .
 if
 (
-(
 mJSGetterObject
 |
 |
 mJSSetterObject
-)
-&
-&
-aTargetClassObject
 )
 {
 JSObject

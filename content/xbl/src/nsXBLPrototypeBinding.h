@@ -872,6 +872,9 @@ JSObject
 *
 *
 aClassObject
+bool
+*
+aNew
 )
 ;
 nsresult
