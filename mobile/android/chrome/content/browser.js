@@ -12777,9 +12777,8 @@ ownerDocument
 defaultView
 ;
 frame
-!
-=
-content
+.
+frameElement
 ;
 frame
 =
