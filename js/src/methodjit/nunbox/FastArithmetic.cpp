@@ -2477,6 +2477,16 @@ shouldAvoidTypeRemat
 (
 lhs
 )
+&
+&
+!
+frame
+.
+haveSameBacking
+(
+lhs
+rhs
+)
 )
 {
 lhsTypeRegNeedsLoad
