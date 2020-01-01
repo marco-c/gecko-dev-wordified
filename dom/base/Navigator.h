@@ -524,6 +524,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+nsIDOMBatteryManager
+.
+h
+"
 class
 nsPluginArray
 ;
@@ -822,6 +829,12 @@ nsRefPtr
 nsDesktopNotificationCenter
 >
 mNotification
+;
+nsCOMPtr
+<
+nsIDOMBatteryManager
+>
+mBatteryManager
 ;
 nsIDocShell
 *

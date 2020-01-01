@@ -1868,6 +1868,10 @@ DOMCI_CLASS
 (
 GeoPositionError
 )
+DOMCI_CLASS
+(
+BatteryManager
+)
 /
 /
 font
