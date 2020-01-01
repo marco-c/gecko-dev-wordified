@@ -206,6 +206,9 @@ aWindow
 ;
 try
 {
+let
+bridgeCc
+=
 Cc
 [
 '
@@ -220,6 +223,8 @@ bridge
 1
 '
 ]
+;
+bridgeCc
 .
 getService
 (

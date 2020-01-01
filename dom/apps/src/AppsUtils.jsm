@@ -1324,7 +1324,7 @@ debug
 (
 app
 .
-name
+basePath
 +
 "
 isCoreApp
