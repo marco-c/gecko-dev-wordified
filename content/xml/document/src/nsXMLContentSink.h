@@ -893,15 +893,6 @@ virtual
 nsresult
 FlushText
 (
-PRBool
-aCreateTextNode
-=
-PR_TRUE
-PRBool
-*
-aDidFlush
-=
-nsnull
 )
 ;
 nsresult
