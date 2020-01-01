@@ -962,6 +962,7 @@ _isAlive
 )
 )
 {
+return
 handler
 .
 apply
