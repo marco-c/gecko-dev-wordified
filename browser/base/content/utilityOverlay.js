@@ -2688,9 +2688,9 @@ if
 getBoolPref
 (
 "
-browser
-.
 bidi
+.
+browser
 .
 ui
 "
