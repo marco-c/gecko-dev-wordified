@@ -10644,11 +10644,8 @@ ValueToId
 cx
 obj
 idval_
+&
 id
-.
-address
-(
-)
 )
 )
 \
@@ -24425,11 +24422,8 @@ FetchElementId
 cx
 obj
 indexval
+&
 id
-.
-address
-(
-)
 &
 indexval
 )
