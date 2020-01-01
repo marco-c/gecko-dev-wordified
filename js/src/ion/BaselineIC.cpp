@@ -9895,7 +9895,7 @@ HandleScript
 script
 HandleObject
 obj
-jsid
+HandleId
 id
 HandleValue
 val
@@ -28110,7 +28110,10 @@ addUpdateStubForValue
 cx
 script
 obj
-JSID_VOID
+JS
+:
+:
+JSID_VOIDHANDLE
 rhs
 )
 )
@@ -28223,7 +28226,10 @@ addUpdateStubForValue
 cx
 script
 obj
-JSID_VOID
+JS
+:
+:
+JSID_VOIDHANDLE
 rhs
 )
 )

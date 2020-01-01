@@ -9402,8 +9402,7 @@ CanEnter
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 AbstractFramePtr
 fp
@@ -9564,13 +9563,6 @@ isPrimitive
 )
 )
 {
-RootedScript
-scriptRoot
-(
-cx
-script
-)
-;
 RootedObject
 callee
 (
@@ -9638,10 +9630,6 @@ setObject
 *
 obj
 )
-;
-script
-=
-scriptRoot
 ;
 }
 /
