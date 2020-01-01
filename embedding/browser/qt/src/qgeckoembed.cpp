@@ -2781,6 +2781,17 @@ height
 )
 )
 ;
+d
+-
+>
+window
+-
+>
+SetVisibility
+(
+PR_TRUE
+)
+;
 }
 nsIDOMDocument
 *
