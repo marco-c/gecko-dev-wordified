@@ -1950,6 +1950,14 @@ SUI_onStartOver
 (
 )
 {
+Weave
+.
+Notifications
+.
+removeAll
+(
+)
+;
 this
 .
 updateUI
