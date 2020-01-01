@@ -4005,7 +4005,7 @@ _bundle
 getString
 (
 "
-AtEndOfSession
+expireAtEndOfSession
 "
 )
 ;
