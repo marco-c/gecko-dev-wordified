@@ -5493,6 +5493,9 @@ backgroundNice
 10
 )
 ;
+#
+ifndef
+DEBUG
 /
 /
 Enable
@@ -5553,6 +5556,8 @@ delayMs
 1000
 )
 ;
+#
+endif
 /
 /
 Ignore
