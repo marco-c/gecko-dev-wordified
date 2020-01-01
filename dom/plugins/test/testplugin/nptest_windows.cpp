@@ -2921,7 +2921,13 @@ NPEvent
 event
 =
 {
+static_cast
+<
+uint16_t
+>
+(
 uMsg
+)
 wParam
 lParam
 }
