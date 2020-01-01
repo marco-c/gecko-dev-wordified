@@ -1023,6 +1023,13 @@ osiIndex
 )
 const
 ;
+uintptr_t
+*
+spillBase
+(
+)
+const
+;
 MachineState
 machineState
 (

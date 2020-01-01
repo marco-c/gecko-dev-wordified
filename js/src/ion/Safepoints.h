@@ -556,7 +556,7 @@ void
 writeGcRegs
 (
 GeneralRegisterSet
-actual
+gc
 GeneralRegisterSet
 spilled
 )
