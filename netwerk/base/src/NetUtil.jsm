@@ -1302,8 +1302,8 @@ pipe
 .
 init
 (
-false
-false
+true
+true
 0
 PR_UINT32_MAX
 null
@@ -1381,6 +1381,14 @@ aContext
 aStatusCode
 )
 {
+pipe
+.
+outputStream
+.
+close
+(
+)
+;
 aCallback
 (
 pipe
