@@ -14103,6 +14103,11 @@ rv
 rv
 )
 ;
+if
+(
+feedURI
+)
+{
 nsCString
 feedSpec
 ;
@@ -14189,6 +14194,7 @@ rv
 rv
 )
 ;
+}
 /
 /
 get
