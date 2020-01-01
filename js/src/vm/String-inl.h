@@ -1684,6 +1684,7 @@ runtime
 >
 updateMallocCounter
 (
+cx
 (
 length
 +

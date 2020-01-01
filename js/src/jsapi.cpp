@@ -12540,6 +12540,7 @@ runtime
 >
 updateMallocCounter
 (
+cx
 nbytes
 )
 ;
