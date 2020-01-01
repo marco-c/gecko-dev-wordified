@@ -1461,6 +1461,9 @@ nsBaseWidget
 *
 mWidget
 ;
+bool
+mPreviousTemporarilyUseBasicLayerManager
+;
 }
 ;
 friend

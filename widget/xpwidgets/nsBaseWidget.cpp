@@ -7392,6 +7392,13 @@ mWidget
 aWidget
 )
 {
+mPreviousTemporarilyUseBasicLayerManager
+=
+mWidget
+-
+>
+mTemporarilyUseBasicLayerManager
+;
 mWidget
 -
 >
@@ -7416,7 +7423,7 @@ mWidget
 >
 mTemporarilyUseBasicLayerManager
 =
-false
+mPreviousTemporarilyUseBasicLayerManager
 ;
 }
 bool
