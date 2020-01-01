@@ -4129,6 +4129,15 @@ volatile
 int32_t
 interrupt
 ;
+/
+*
+Branch
+callback
+*
+/
+JSOperationCallback
+operationCallback
+;
 #
 ifdef
 JS_THREADSAFE

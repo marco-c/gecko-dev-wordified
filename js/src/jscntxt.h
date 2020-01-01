@@ -2655,16 +2655,6 @@ errorReporter
 ;
 /
 *
-Branch
-callback
-.
-*
-/
-JSOperationCallback
-operationCallback
-;
-/
-*
 Client
 opaque
 pointers
