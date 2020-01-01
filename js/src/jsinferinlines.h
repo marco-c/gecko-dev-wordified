@@ -1089,8 +1089,7 @@ index
 return
 js_GetStringBytes
 (
-cx
-JSID_TO_STRING
+JSID_TO_ATOM
 (
 id
 )
@@ -9470,8 +9469,7 @@ baseName
 =
 js_GetStringBytes
 (
-cx
-JSID_TO_STRING
+JSID_TO_ATOM
 (
 name
 )
