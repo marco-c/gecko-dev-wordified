@@ -8067,7 +8067,16 @@ specialization
 .
 if
 (
-overflowed
+inspector
+-
+>
+expectedResultType
+(
+pc
+)
+=
+=
+MIRType_Double
 )
 setResultType
 (
