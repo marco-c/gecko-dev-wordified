@@ -267,6 +267,13 @@ DOMCI_DATA
 #
 include
 "
+nsIInlineEventHandlers
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CORSMode

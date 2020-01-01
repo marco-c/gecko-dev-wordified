@@ -499,6 +499,13 @@ h
 #
 include
 "
+nsIInlineEventHandlers
+.
+h
+"
+#
+include
+"
 nsDataHashtable
 .
 h
@@ -2655,6 +2662,8 @@ nsIApplicationCacheContainer
 public
 nsStubMutationObserver
 public
+nsIInlineEventHandlers
+public
 nsIObserver
 {
 public
@@ -4273,6 +4282,10 @@ MOZ_OVERRIDE
 /
 nsIApplicationCacheContainer
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
+/
+/
+nsIInlineEventHandlers
+NS_DECL_NSIINLINEEVENTHANDLERS
 /
 /
 nsIObserver
