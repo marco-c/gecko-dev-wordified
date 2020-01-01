@@ -1138,7 +1138,7 @@ JS_ASSERT
 (
 R0
 .
-tagReg
+typeReg
 (
 )
 =
