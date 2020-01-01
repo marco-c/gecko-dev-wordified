@@ -1761,6 +1761,7 @@ reset
 ;
 }
 }
+;
 FormsTracker
 .
 prototype
