@@ -1260,6 +1260,14 @@ type
 radio
 "
 ]
+setting
+[
+type
+=
+"
+menulist
+"
+]
 {
 display
 :
@@ -1294,7 +1302,7 @@ xml
 #
 setting
 -
-radio
+multi
 "
 )
 ;
