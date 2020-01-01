@@ -19013,9 +19013,10 @@ Step
 .
 *
 /
-Value
+RootedValue
 thisv
-=
+(
+cx
 args
 .
 length
@@ -19032,6 +19033,7 @@ args
 :
 UndefinedValue
 (
+)
 )
 ;
 /
@@ -19592,9 +19594,10 @@ Step
 .
 *
 /
-Value
+RootedValue
 thisv
-=
+(
+cx
 args
 .
 length
@@ -19611,6 +19614,7 @@ args
 :
 UndefinedValue
 (
+)
 )
 ;
 /
@@ -20078,9 +20082,10 @@ Step
 .
 *
 /
-Value
+RootedValue
 thisv
-=
+(
+cx
 args
 .
 length
@@ -20097,6 +20102,7 @@ args
 :
 UndefinedValue
 (
+)
 )
 ;
 /

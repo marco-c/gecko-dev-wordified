@@ -23857,8 +23857,7 @@ JSContext
 cx
 HandleValue
 v
-PropertyName
-*
+HandlePropertyName
 name
 MutableHandleValue
 vp

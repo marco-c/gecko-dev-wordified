@@ -12151,8 +12151,7 @@ jsbytecode
 *
 pc_
 ;
-JSScript
-*
+RootedScript
 script_
 ;
 CallArgs
@@ -12244,6 +12243,14 @@ rt
 StackSegment
 &
 seg
+)
+;
+StackIter
+(
+const
+StackIter
+&
+iter
 )
 ;
 bool
