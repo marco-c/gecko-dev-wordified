@@ -1374,7 +1374,7 @@ MacroAssembler
 masm
 Label
 fastPathRejoin
-Label
+DataLabel32
 inlineValueStore
 const
 ValueRemat
