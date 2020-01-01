@@ -631,7 +631,7 @@ equal
 toLocaleString
 (
 )
-"
+'
 ;
 if
 (
