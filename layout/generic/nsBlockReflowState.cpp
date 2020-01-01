@@ -2489,7 +2489,7 @@ result
 mFloatManager
 -
 >
-GetBand
+GetFlowArea
 (
 aY
 -
@@ -2498,6 +2498,10 @@ BorderPadding
 )
 .
 top
+nsFloatManager
+:
+:
+BAND_FROM_POINT
 aRelaxHeightConstraint
 ?
 nscoord_MAX
