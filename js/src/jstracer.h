@@ -3346,6 +3346,7 @@ jsid
 id
 )
 ;
+JS_REQUIRES_STACK
 bool
 hasIteratorMethod
 (
