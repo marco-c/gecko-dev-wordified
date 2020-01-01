@@ -308,7 +308,7 @@ current
 page
 *
 param
-aFile
+aDomFile
 file
 chosen
 by
@@ -335,9 +335,9 @@ StoreLastUsedDirectory
 nsIDocument
 *
 aDoc
-nsIFile
+nsIDOMFile
 *
-aFile
+aDomFile
 )
 ;
 }
