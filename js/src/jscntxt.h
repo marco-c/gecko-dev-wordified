@@ -5423,6 +5423,9 @@ gcDynamicHeapGrowth
 bool
 gcDynamicMarkSlice
 ;
+uint64_t
+gcDecommitThreshold
+;
 /
 *
 During
