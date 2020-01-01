@@ -934,6 +934,16 @@ PRUint32
 length
 )
 ;
+void
+SetHandshakeCompleted
+(
+)
+{
+mHandshakeCompleted
+=
+true
+;
+}
 /
 /
 XXX
@@ -1148,6 +1158,9 @@ mNegotiatedNPN
 ;
 bool
 mNPNCompleted
+;
+bool
+mHandshakeCompleted
 ;
 private
 :
