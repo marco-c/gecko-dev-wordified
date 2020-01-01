@@ -3244,6 +3244,20 @@ type
             
 template
 =
+(
+"
+XPCLazyCallContext
+lccx
+(
+JS_CALLER
+cx
+obj
+)
+;
+\
+n
+"
+                         
 "
 return
 xpc_qsVariantToJsval
@@ -3258,6 +3272,7 @@ jsvalPtr
 \
 n
 "
+)
         
 else
 :
