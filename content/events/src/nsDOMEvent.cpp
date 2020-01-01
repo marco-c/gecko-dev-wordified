@@ -3769,7 +3769,7 @@ pseudoElement
 animationEvent
 -
 >
-AssignEventData
+AssignAnimationEventData
 (
 *
 oldAnimationEvent
