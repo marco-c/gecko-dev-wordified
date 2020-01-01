@@ -34,8 +34,27 @@ offset
 *
 -
 *
-/
-/
+vim
+:
+sw
+=
+2
+ts
+=
+2
+et
+lcs
+=
+trail
+\
+:
+.
+tab
+\
+:
+>
+~
+:
 *
 *
 *
@@ -423,7 +442,7 @@ BLOCK
 #
 include
 "
-nsSVGTransformListParser
+SVGTransformListParser
 .
 h
 "
@@ -571,7 +590,7 @@ mozilla
 private
 methods
 nsresult
-nsSVGTransformListParser
+SVGTransformListParser
 :
 :
 Match
@@ -591,7 +610,7 @@ MatchTransformList
 ;
 }
 nsresult
-nsSVGTransformListParser
+SVGTransformListParser
 :
 :
 MatchTransformList
@@ -626,7 +645,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGTransformListParser
+SVGTransformListParser
 :
 :
 MatchTransforms
@@ -723,7 +742,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGTransformListParser
+SVGTransformListParser
 :
 :
 GetTransformToken
@@ -909,7 +928,7 @@ rv
 ;
 }
 nsresult
-nsSVGTransformListParser
+SVGTransformListParser
 :
 :
 MatchTransform
@@ -1076,7 +1095,7 @@ NS_OK
 ;
 }
 PRBool
-nsSVGTransformListParser
+SVGTransformListParser
 :
 :
 IsTokenTransformStarter
@@ -1178,7 +1197,7 @@ PR_FALSE
 ;
 }
 nsresult
-nsSVGTransformListParser
+SVGTransformListParser
 :
 :
 MatchNumberArguments
@@ -1311,7 +1330,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGTransformListParser
+SVGTransformListParser
 :
 :
 MatchTranslate
@@ -1416,7 +1435,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGTransformListParser
+SVGTransformListParser
 :
 :
 MatchScale
@@ -1522,7 +1541,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGTransformListParser
+SVGTransformListParser
 :
 :
 MatchRotate
@@ -1636,7 +1655,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGTransformListParser
+SVGTransformListParser
 :
 :
 MatchSkewX
@@ -1706,7 +1725,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGTransformListParser
+SVGTransformListParser
 :
 :
 MatchSkewY
@@ -1776,7 +1795,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGTransformListParser
+SVGTransformListParser
 :
 :
 MatchMatrix
