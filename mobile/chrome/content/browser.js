@@ -715,6 +715,10 @@ a
 =
 65
 ;
+/
+/
+swipe
+left
 const
 b
 =
@@ -730,6 +734,10 @@ d
 =
 68
 ;
+/
+/
+swipe
+right
 const
 e
 =
@@ -818,6 +826,10 @@ s
 =
 83
 ;
+/
+/
+swipe
+down
 const
 t
 =
@@ -838,6 +850,10 @@ w
 =
 87
 ;
+/
+/
+swipe
+up
 const
 x
 =
