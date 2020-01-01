@@ -27649,9 +27649,17 @@ if
 !
 script
 )
+{
+LAST_FRAME_CHECKS
+(
+cx
+script
+)
+;
 return
 JS_FALSE
 ;
+}
 ok
 =
 js_Execute
