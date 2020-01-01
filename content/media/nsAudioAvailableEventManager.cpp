@@ -730,7 +730,7 @@ signalBuffer
 i
 ]
 =
-MOZ_CONVERT_AUDIO_SAMPLE
+AudioSampleToFloat
 (
 audioData
 [
@@ -1063,7 +1063,7 @@ signalBuffer
 i
 ]
 =
-MOZ_CONVERT_AUDIO_SAMPLE
+AudioSampleToFloat
 (
 audioData
 [
