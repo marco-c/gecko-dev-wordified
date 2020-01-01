@@ -518,9 +518,6 @@ class
 nsIPrefBranch
 ;
 class
-nsICookieConsent
-;
-class
 nsICookiePermission
 ;
 class
@@ -1209,10 +1206,6 @@ nsDependentCString
 aCookieHeader
 PRInt64
 aServerTime
-nsCookieStatus
-aStatus
-nsCookiePolicy
-aPolicy
 )
 ;
 void
@@ -1227,10 +1220,6 @@ aChannel
 nsCookieAttributes
 &
 aAttributes
-nsCookieStatus
-aStatus
-nsCookiePolicy
-aPolicy
 const
 nsAFlatCString
 &
@@ -1353,7 +1342,7 @@ nsIURI
 aFirstURI
 )
 ;
-nsCookieStatus
+PRUint32
 CheckPrefs
 (
 nsIURI
@@ -1369,9 +1358,6 @@ const
 char
 *
 aCookieHeader
-nsCookiePolicy
-&
-aPolicy
 )
 ;
 static
@@ -1409,8 +1395,6 @@ PRInt64
 aServerTime
 PRInt64
 aCurrentTime
-nsCookieStatus
-aStatus
 )
 ;
 void
@@ -1517,12 +1501,6 @@ mObserverService
 ;
 nsCOMPtr
 <
-nsICookieConsent
->
-mP3PService
-;
-nsCOMPtr
-<
 nsICookiePermission
 >
 mPermissionService
@@ -1540,9 +1518,6 @@ mHostTable
 PRUint32
 mCookieCount
 ;
-PRPackedBool
-mCookieIconVisible
-;
 /
 /
 cached
@@ -1557,7 +1532,6 @@ BEHAVIOR_
 ACCEPT
 REJECTFOREIGN
 REJECT
-P3P
 }
 PRUint16
 mMaxNumberOfCookies
