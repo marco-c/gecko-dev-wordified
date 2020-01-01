@@ -1137,6 +1137,11 @@ GetDrawingModel
 (
 )
 ;
+PRBool
+IsRemoteDrawingCoreAnimation
+(
+)
+;
 NPEventModel
 GetEventModel
 (
