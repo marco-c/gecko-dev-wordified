@@ -33,7 +33,6 @@ offset
 -
 *
 -
-n
 *
 vim
 :
