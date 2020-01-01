@@ -5151,6 +5151,15 @@ resetDirection
 =
 true
 ;
+nsTextNodeDirectionalityMap
+:
+:
+RemoveElementFromMap
+(
+directionWasSetByTextNode
+parent
+)
+;
 break
 ;
 }
