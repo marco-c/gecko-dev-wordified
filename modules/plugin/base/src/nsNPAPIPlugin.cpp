@@ -2926,6 +2926,7 @@ new
 nsNPAPIPlugin
 (
 nsnull
+pluginLib
 aLibrary
 nsnull
 )
@@ -4136,7 +4137,7 @@ NS_TRY_SAFE_CALL_VOID
 fShutdownEntry
 (
 )
-fLibrary
+nsnull
 nsnull
 )
 ;

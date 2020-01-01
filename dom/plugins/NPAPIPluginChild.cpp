@@ -3525,7 +3525,7 @@ AnswerNP_Initialize
 (
 NPError
 *
-rv
+_retval
 )
 {
 _MOZ_LOG
@@ -3540,7 +3540,7 @@ defined
 OS_LINUX
 )
 *
-rv
+_retval
 =
 mInitializeFunc
 (
@@ -3597,7 +3597,7 @@ version
 )
 ;
 *
-rv
+_retval
 =
 mInitializeFunc
 (

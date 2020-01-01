@@ -1494,7 +1494,9 @@ reinterpret_cast
 HBRUSH
 >
 (
-COLOR_WINDOW1
+COLOR_WINDOW
++
+1
 )
 ;
 wcex
