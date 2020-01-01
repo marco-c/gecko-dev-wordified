@@ -3954,7 +3954,6 @@ js_XDRScript
 (
 xdr
 scriptp
-true
 NULL
 )
 )
@@ -3985,18 +3984,6 @@ NULL
 ;
 if
 (
-*
-scriptp
-!
-=
-JSScript
-:
-:
-emptyScript
-(
-)
-&
-&
 !
 js_NewScriptObject
 (

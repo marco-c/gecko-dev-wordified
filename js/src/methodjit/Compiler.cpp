@@ -1014,17 +1014,6 @@ compile
 (
 )
 {
-JS_ASSERT
-(
-!
-script
--
->
-isEmpty
-(
-)
-)
-;
 JS_ASSERT_IF
 (
 isConstructing

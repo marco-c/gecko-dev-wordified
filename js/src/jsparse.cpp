@@ -6141,17 +6141,6 @@ script
 &
 &
 funbox
-&
-&
-script
-!
-=
-script
--
->
-emptyScript
-(
-)
 )
 script
 -
