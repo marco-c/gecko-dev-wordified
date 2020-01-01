@@ -3200,7 +3200,7 @@ aValue
 &
 IsOnlyAttribute
 (
-priorNode
+nextNode
 *
 aAttribute
 )
