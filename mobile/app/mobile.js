@@ -3459,6 +3459,6 @@ console
 .
 showInPanel
 "
-true
+false
 )
 ;
