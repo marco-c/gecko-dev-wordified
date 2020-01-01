@@ -1535,7 +1535,7 @@ reg
 {
 gpr_
 .
-add
+addUnchecked
 (
 reg
 )
@@ -1550,7 +1550,7 @@ reg
 {
 fpu_
 .
-add
+addUnchecked
 (
 reg
 )
@@ -1577,7 +1577,7 @@ addUnchecked
 (
 any
 .
-gpr
+fpu
 (
 )
 )
@@ -1587,7 +1587,7 @@ addUnchecked
 (
 any
 .
-fpu
+gpr
 (
 )
 )
