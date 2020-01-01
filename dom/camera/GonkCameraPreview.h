@@ -165,6 +165,9 @@ public
 :
 GonkCameraPreview
 (
+nsIThread
+*
+aCameraThread
 PRUint32
 aHwHandle
 PRUint32
@@ -175,6 +178,7 @@ aHeight
 :
 CameraPreview
 (
+aCameraThread
 aWidth
 aHeight
 )
@@ -205,13 +209,13 @@ PRUint32
 aLength
 )
 ;
-void
-Start
+nsresult
+StartImpl
 (
 )
 ;
-void
-Stop
+nsresult
+StopImpl
 (
 )
 ;
