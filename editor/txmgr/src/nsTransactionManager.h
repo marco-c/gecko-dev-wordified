@@ -463,6 +463,13 @@ nsITransactionListener
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsITransaction
 ;
@@ -574,7 +581,12 @@ QueryInterface
 )
 *
 /
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+nsTransactionManager
+nsITransactionManager
+)
 /
 *
 nsITransactionManager

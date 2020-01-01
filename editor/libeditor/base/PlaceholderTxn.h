@@ -561,6 +561,11 @@ PlaceholderTxn
 (
 )
 ;
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+(
+PlaceholderTxn
+EditAggregateTxn
+)
 /
 /
 -
