@@ -285,7 +285,7 @@ nsMathMLContainerFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsMathMLFrame
+nsIMathMLFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
