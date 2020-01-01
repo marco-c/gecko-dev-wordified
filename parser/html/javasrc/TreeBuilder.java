@@ -11852,7 +11852,7 @@ AttributeName
 ACTION
 attributes
 .
-getValue
+getValueNoBoundsCheck
 (
 actionIndex
 )
@@ -11929,7 +11929,7 @@ newCharArrayFromString
 (
 attributes
 .
-getValue
+getValueNoBoundsCheck
 (
 promptIndex
 )
@@ -12028,7 +12028,7 @@ attributeQName
 =
 attributes
 .
-getAttributeName
+getAttributeNameNoBoundsCheck
 (
 i
 )
@@ -12077,7 +12077,7 @@ addAttribute
 attributeQName
 attributes
 .
-getValue
+getValueNoBoundsCheck
 (
 i
 )

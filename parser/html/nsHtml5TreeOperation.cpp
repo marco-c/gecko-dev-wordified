@@ -1811,7 +1811,7 @@ Reget
 attributes
 -
 >
-getLocalName
+getLocalNameNoBoundsCheck
 (
 i
 )
@@ -1823,7 +1823,7 @@ nsuri
 attributes
 -
 >
-getURI
+getURINoBoundsCheck
 (
 i
 )
@@ -1875,7 +1875,7 @@ localName
 attributes
 -
 >
-getPrefix
+getPrefixNoBoundsCheck
 (
 i
 )
@@ -1884,7 +1884,7 @@ i
 attributes
 -
 >
-getValue
+getValueNoBoundsCheck
 (
 i
 )
@@ -2468,7 +2468,7 @@ Reget
 attributes
 -
 >
-getLocalName
+getLocalNameNoBoundsCheck
 (
 i
 )
@@ -2525,7 +2525,7 @@ cname
 attributes
 -
 >
-getValue
+getValueNoBoundsCheck
 (
 i
 )
@@ -2553,7 +2553,7 @@ SetAttr
 attributes
 -
 >
-getURI
+getURINoBoundsCheck
 (
 i
 )
@@ -2561,7 +2561,7 @@ localName
 attributes
 -
 >
-getPrefix
+getPrefixNoBoundsCheck
 (
 i
 )
@@ -2580,7 +2580,7 @@ SetAttr
 attributes
 -
 >
-getURI
+getURINoBoundsCheck
 (
 i
 )
@@ -2588,7 +2588,7 @@ localName
 attributes
 -
 >
-getPrefix
+getPrefixNoBoundsCheck
 (
 i
 )
@@ -2597,7 +2597,7 @@ i
 attributes
 -
 >
-getValue
+getValueNoBoundsCheck
 (
 i
 )
