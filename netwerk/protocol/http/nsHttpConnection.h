@@ -212,6 +212,9 @@ nsHttpRequestHead
 class
 nsHttpResponseHead
 ;
+class
+nsHttpHandler
+;
 /
 /
 -
@@ -1426,6 +1429,17 @@ nsAHttpTransaction
 >
 mTransaction
 ;
+nsRefPtr
+<
+nsHttpHandler
+>
+mHttpHandler
+;
+/
+/
+keep
+gHttpHandler
+alive
 mozilla
 :
 :

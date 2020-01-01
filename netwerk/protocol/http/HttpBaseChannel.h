@@ -1779,6 +1779,17 @@ nsString
 >
 mContentDispositionFilename
 ;
+nsRefPtr
+<
+nsHttpHandler
+>
+mHttpHandler
+;
+/
+/
+keep
+gHttpHandler
+alive
 }
 ;
 /
