@@ -657,7 +657,7 @@ mSentRedirect1BeginFailed
 (
 false
 )
-mReceviedRedirect2Verify
+mReceivedRedirect2Verify
 (
 false
 )
@@ -2583,7 +2583,7 @@ above
 )
 if
 (
-mReceviedRedirect2Verify
+mReceivedRedirect2Verify
 )
 :
 :
@@ -2645,7 +2645,7 @@ PR_Abort
 )
 ;
 }
-mReceviedRedirect2Verify
+mReceivedRedirect2Verify
 =
 true
 ;
