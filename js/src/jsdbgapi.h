@@ -467,6 +467,13 @@ jsopcode
 .
 h
 "
+#
+include
+"
+jsprvtd
+.
+h
+"
 JS_BEGIN_EXTERN_C
 /
 *

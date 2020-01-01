@@ -2945,15 +2945,11 @@ JSFUN_HEAVYWEIGHT_TEST
 f
 )
 (
-!
-!
-(
 (
 f
 )
 &
 JSFUN_HEAVYWEIGHT
-)
 )
 #
 define
