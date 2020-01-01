@@ -13021,7 +13021,7 @@ language
 sc
 -
 >
-GetStyleVisibility
+GetStyleFont
 (
 )
 -

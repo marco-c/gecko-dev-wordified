@@ -10185,7 +10185,7 @@ mSIDs
 &
 NS_STYLE_INHERIT_BIT
 (
-Visibility
+Font
 )
 )
 {

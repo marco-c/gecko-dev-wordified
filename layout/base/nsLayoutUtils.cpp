@@ -12880,7 +12880,7 @@ font
 aStyleContext
 -
 >
-GetStyleVisibility
+GetStyleFont
 (
 )
 -

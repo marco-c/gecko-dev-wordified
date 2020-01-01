@@ -3723,10 +3723,6 @@ const
 nsStyleFont
 *
 aParentFont
-const
-nsStyleVisibility
-*
-aLanguageVisibility
 nscoord
 *
 aSize

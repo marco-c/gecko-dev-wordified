@@ -10517,7 +10517,7 @@ mFont
 sc1
 -
 >
-GetStyleVisibility
+GetStyleFont
 (
 )
 -
@@ -10528,7 +10528,7 @@ mLanguage
 sc2
 -
 >
-GetStyleVisibility
+GetStyleFont
 (
 )
 -
@@ -14942,7 +14942,7 @@ mMappedFlows
 mStartFrame
 -
 >
-GetStyleVisibility
+GetStyleFont
 (
 )
 -
@@ -17823,7 +17823,7 @@ language
 aFrame
 -
 >
-GetStyleVisibility
+GetStyleFont
 (
 )
 -
