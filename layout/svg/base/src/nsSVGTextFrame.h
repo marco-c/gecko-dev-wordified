@@ -828,6 +828,14 @@ PRBool
 aForceGlobalTransform
 )
 ;
+void
+SetWhitespaceHandling
+(
+nsISVGGlyphFragmentLeaf
+*
+fragment
+)
+;
 nsCOMPtr
 <
 nsIDOMSVGMatrix
