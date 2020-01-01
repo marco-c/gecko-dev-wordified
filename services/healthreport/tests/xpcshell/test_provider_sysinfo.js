@@ -234,6 +234,14 @@ data
 singular
 )
 ;
+do_check_eq
+(
+d
+.
+_v
+1
+)
+;
 do_check_true
 (
 d
