@@ -6141,7 +6141,7 @@ WebGLContextBoundObject
 (
 context
 )
-mName
+mGLName
 (
 name
 )
@@ -6248,7 +6248,7 @@ GLName
 const
 {
 return
-mName
+mGLName
 ;
 }
 GLuint
@@ -6737,7 +6737,7 @@ NS_DECL_NSIWEBGLBUFFER
 protected
 :
 WebGLuint
-mName
+mGLName
 ;
 bool
 mDeleted
@@ -6829,7 +6829,7 @@ mHasEverBeenBound
 (
 false
 )
-mName
+mGLName
 (
 name
 )
@@ -6927,7 +6927,7 @@ GLName
 )
 {
 return
-mName
+mGLName
 ;
 }
 NS_DECL_ISUPPORTS
@@ -6949,7 +6949,7 @@ bool
 mHasEverBeenBound
 ;
 WebGLuint
-mName
+mGLName
 ;
 /
 /
@@ -7994,7 +7994,7 @@ gl
 fBindTexture
 (
 mTarget
-mName
+mGLName
 )
 ;
 if
@@ -9631,7 +9631,7 @@ WebGLContextBoundObject
 (
 context
 )
-mName
+mGLName
 (
 name
 )
@@ -9756,7 +9756,7 @@ GLName
 )
 {
 return
-mName
+mGLName
 ;
 }
 WebGLenum
@@ -9914,7 +9914,7 @@ NS_DECL_NSIWEBGLSHADER
 protected
 :
 WebGLuint
-mName
+mGLName
 ;
 bool
 mDeleted
@@ -10003,7 +10003,7 @@ WebGLContextBoundObject
 (
 context
 )
-mName
+mGLName
 (
 name
 )
@@ -10226,7 +10226,7 @@ GLName
 )
 {
 return
-mName
+mGLName
 ;
 }
 const
@@ -10607,7 +10607,7 @@ NS_DECL_NSIWEBGLPROGRAM
 protected
 :
 WebGLuint
-mName
+mGLName
 ;
 bool
 mDeleted
@@ -10717,7 +10717,7 @@ WebGLContextBoundObject
 (
 context
 )
-mName
+mGLName
 (
 name
 )
@@ -10801,7 +10801,7 @@ GLName
 const
 {
 return
-mName
+mGLName
 ;
 }
 bool
@@ -10961,7 +10961,7 @@ NS_DECL_NSIWEBGLRENDERBUFFER
 protected
 :
 WebGLuint
-mName
+mGLName
 ;
 WebGLenum
 mInternalFormat
@@ -11432,7 +11432,7 @@ WebGLContextBoundObject
 (
 context
 )
-mName
+mGLName
 (
 name
 )
@@ -11518,7 +11518,7 @@ GLName
 )
 {
 return
-mName
+mGLName
 ;
 }
 WebGLsizei
@@ -12636,7 +12636,7 @@ true
 ;
 }
 WebGLuint
-mName
+mGLName
 ;
 bool
 mDeleted
