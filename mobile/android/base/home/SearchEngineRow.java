@@ -1013,7 +1013,7 @@ the
 row
 mIconView
 .
-updateImage
+updateAndScaleImage
 (
 mSearchEngine
 .
