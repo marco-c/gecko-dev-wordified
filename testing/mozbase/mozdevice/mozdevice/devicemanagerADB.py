@@ -1525,6 +1525,9 @@ destname
 retryLimit
 =
 None
+createDir
+=
+True
 )
 :
         
@@ -2000,6 +2003,9 @@ remoteZip
 retryLimit
 =
 retryLimit
+createDir
+=
+False
 )
                 
 os
