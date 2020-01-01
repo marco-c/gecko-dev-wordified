@@ -11090,7 +11090,7 @@ JSString
 *
 str
 =
-js_IntToString
+Int32ToString
 (
 cx
 JSID_TO_INT
@@ -16333,7 +16333,7 @@ JSString
 *
 str
 =
-js_IntToString
+Int32ToString
 (
 cx
 JSID_TO_INT

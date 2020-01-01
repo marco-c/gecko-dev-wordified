@@ -21006,7 +21006,7 @@ isInt32
 {
 str
 =
-js_IntToString
+Int32ToString
 (
 cx
 v

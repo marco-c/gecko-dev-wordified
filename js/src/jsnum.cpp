@@ -3465,10 +3465,12 @@ dbuf
 )
 ;
 }
-JSString
+JSFixedString
 *
-JS_FASTCALL
-js_IntToString
+js
+:
+:
+Int32ToString
 (
 JSContext
 *
@@ -3556,7 +3558,7 @@ compartment
 ;
 if
 (
-JSString
+JSFixedString
 *
 str
 =
