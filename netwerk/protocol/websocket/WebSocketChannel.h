@@ -42,10 +42,10 @@ vim
 set
 sw
 =
-4
+2
 ts
 =
-4
+8
 et
 tw
 =
