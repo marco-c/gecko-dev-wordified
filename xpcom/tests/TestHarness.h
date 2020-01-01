@@ -445,6 +445,7 @@ initializer
 *
 nsCOMPtr
 nsRefPtr
+do_CreateInstance
 and
 stdio
 .
@@ -466,6 +467,13 @@ TestHarness_h__
 include
 "
 nsIServiceManager
+.
+h
+"
+#
+include
+"
+nsComponentManagerUtils
 .
 h
 "
