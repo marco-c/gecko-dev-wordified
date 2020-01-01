@@ -610,7 +610,7 @@ ImageLoader
 :
 MaybeRegisterCSSImage
 (
-nsCSSValue
+ImageLoader
 :
 :
 Image
@@ -780,7 +780,7 @@ ImageLoader
 :
 DeregisterCSSImage
 (
-nsCSSValue
+ImageLoader
 :
 :
 Image
@@ -1155,7 +1155,7 @@ ClearImageHashSet
 (
 nsPtrHashKey
 <
-nsCSSValue
+ImageLoader
 :
 :
 Image
@@ -1180,7 +1180,7 @@ nsIDocument
 aClosure
 )
 ;
-nsCSSValue
+ImageLoader
 :
 :
 Image
@@ -1281,7 +1281,7 @@ aOriginPrincipal
 nsIURI
 *
 aReferrer
-nsCSSValue
+ImageLoader
 :
 :
 Image
@@ -1455,7 +1455,7 @@ ImageLoader
 :
 AddImage
 (
-nsCSSValue
+ImageLoader
 :
 :
 Image
@@ -1504,7 +1504,7 @@ ImageLoader
 :
 RemoveImage
 (
-nsCSSValue
+ImageLoader
 :
 :
 Image

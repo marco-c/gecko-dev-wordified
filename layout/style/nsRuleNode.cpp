@@ -31715,10 +31715,13 @@ GetUnit
 )
 )
 {
-nsCSSValue
+mozilla
 :
 :
-URL
+css
+:
+:
+URLValue
 *
 url
 =

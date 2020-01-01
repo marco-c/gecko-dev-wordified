@@ -9559,10 +9559,13 @@ mOriginPrincipal
 .
 nsRefPtr
 <
-nsCSSValue
+mozilla
 :
 :
-URL
+css
+:
+:
+URLValue
 >
 mBinding
 ;

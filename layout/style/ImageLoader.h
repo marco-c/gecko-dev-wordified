@@ -170,6 +170,16 @@ imgIOnloadBlocker
 {
 public
 :
+typedef
+mozilla
+:
+:
+css
+:
+:
+ImageValue
+Image
+;
 ImageLoader
 (
 nsIDocument
@@ -307,9 +317,6 @@ DropDocumentReference
 void
 MaybeRegisterCSSImage
 (
-nsCSSValue
-:
-:
 Image
 *
 aImage
@@ -318,9 +325,6 @@ aImage
 void
 DeregisterCSSImage
 (
-nsCSSValue
-:
-:
 Image
 *
 aImage
@@ -380,9 +384,6 @@ aPrincipal
 nsIURI
 *
 aReferrer
-nsCSSValue
-:
-:
 Image
 *
 aCSSValue
@@ -478,9 +479,6 @@ nsTHashtable
 <
 nsPtrHashKey
 <
-nsCSSValue
-:
-:
 Image
 >
 >
@@ -508,9 +506,6 @@ FrameToRequestMap
 void
 AddImage
 (
-nsCSSValue
-:
-:
 Image
 *
 aCSSImage
@@ -519,9 +514,6 @@ aCSSImage
 void
 RemoveImage
 (
-nsCSSValue
-:
-:
 Image
 *
 aCSSImage
