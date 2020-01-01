@@ -2606,6 +2606,7 @@ nsEmptyStyleRule
 >
 mFirstLineRule
 mFirstLetterRule
+mPlaceholderRule
 ;
 /
 /
