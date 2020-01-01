@@ -756,6 +756,10 @@ mBatchHasTransaction
 (
 PR_FALSE
 )
+mLock
+(
+nsnull
+)
 {
 NS_ASSERTION
 (
