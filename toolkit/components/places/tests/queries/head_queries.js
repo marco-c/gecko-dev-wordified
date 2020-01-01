@@ -4515,7 +4515,7 @@ test_results
 -
 as
 -
-visits
+visit
 .
 js
 "
