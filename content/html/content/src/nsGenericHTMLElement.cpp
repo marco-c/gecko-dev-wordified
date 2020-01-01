@@ -9351,7 +9351,7 @@ cssFloat
 aRuleData
 -
 >
-ValueForCssFloat
+ValueForFloat
 (
 )
 ;

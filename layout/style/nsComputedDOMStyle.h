@@ -2609,7 +2609,7 @@ dom
 :
 CSSValue
 *
-DoGetCssFloat
+DoGetFloat
 (
 )
 ;

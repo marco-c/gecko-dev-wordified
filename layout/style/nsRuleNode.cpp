@@ -32882,7 +32882,7 @@ SetDiscrete
 aRuleData
 -
 >
-ValueForCssFloat
+ValueForFloat
 (
 )
 display

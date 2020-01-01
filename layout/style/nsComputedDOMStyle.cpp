@@ -3512,7 +3512,7 @@ CSSValue
 nsComputedDOMStyle
 :
 :
-DoGetCssFloat
+DoGetFloat
 (
 )
 {
@@ -24672,7 +24672,7 @@ MOZ_FLEXBOX
 COMPUTED_STYLE_MAP_ENTRY
 (
 float
-CssFloat
+Float
 )
 /
 /
