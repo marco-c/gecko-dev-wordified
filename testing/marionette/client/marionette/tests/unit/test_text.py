@@ -125,8 +125,6 @@ me
 l
 .
 text
-(
-)
 )
     
 def
@@ -538,8 +536,6 @@ test
 box
 .
 text
-(
-)
 )
     
 def
@@ -609,8 +605,6 @@ test
 box
 .
 text
-(
-)
 )
         
 box
@@ -628,8 +622,6 @@ assertEqual
 box
 .
 text
-(
-)
 )
     
 def
@@ -699,8 +691,6 @@ test
 box
 .
 text
-(
-)
 )
         
 box
@@ -722,6 +712,4 @@ attest
 box
 .
 text
-(
-)
 )
