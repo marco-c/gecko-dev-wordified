@@ -5197,6 +5197,11 @@ literal
 1
 2
 ]
+;
+JSOP_DUP
+continuing
+destructuring
+pattern
 *
 /
 SRC_DECL
