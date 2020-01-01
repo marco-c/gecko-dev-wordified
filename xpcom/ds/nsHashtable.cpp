@@ -760,7 +760,6 @@ hashtableOps
 {
 PL_DHashAllocTable
 PL_DHashFreeTable
-PL_DHashGetKeyStub
 hashKey
 matchKeyEntry
 PL_DHashMoveEntryStub

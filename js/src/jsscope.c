@@ -3037,7 +3037,6 @@ PropertyTreeHashOps
 {
 JS_DHashAllocTable
 JS_DHashFreeTable
-JS_DHashGetKeyStub
 js_HashScopeProperty
 js_MatchScopeProperty
 JS_DHashMoveEntryStub
