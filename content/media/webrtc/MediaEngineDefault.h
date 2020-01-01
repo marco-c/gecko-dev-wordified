@@ -326,6 +326,12 @@ const
 MediaEngineVideoOptions
 mOpts
 ;
+int
+mCb
+;
+int
+mCr
+;
 }
 ;
 class
