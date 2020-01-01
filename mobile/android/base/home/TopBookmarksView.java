@@ -2482,7 +2482,7 @@ new
 Thumbnail
 (
 bitmap
-true
+false
 )
 )
 ;
