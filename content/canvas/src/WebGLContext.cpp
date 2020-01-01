@@ -1839,6 +1839,10 @@ WebGLBuffer
 )
 NS_INTERFACE_MAP_ENTRY
 (
+WebGLBuffer
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsIWebGLBuffer
 )
 NS_INTERFACE_MAP_ENTRY
@@ -1864,6 +1868,10 @@ WebGLTexture
 WebGLTexture
 )
 NS_INTERFACE_MAP_BEGIN
+(
+WebGLTexture
+)
+NS_INTERFACE_MAP_ENTRY
 (
 WebGLTexture
 )
@@ -1899,6 +1907,10 @@ WebGLProgram
 )
 NS_INTERFACE_MAP_ENTRY
 (
+WebGLProgram
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsIWebGLProgram
 )
 NS_INTERFACE_MAP_ENTRY
@@ -1924,6 +1936,10 @@ WebGLShader
 WebGLShader
 )
 NS_INTERFACE_MAP_BEGIN
+(
+WebGLShader
+)
+NS_INTERFACE_MAP_ENTRY
 (
 WebGLShader
 )
@@ -1959,6 +1975,10 @@ WebGLFramebuffer
 )
 NS_INTERFACE_MAP_ENTRY
 (
+WebGLFramebuffer
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsIWebGLFramebuffer
 )
 NS_INTERFACE_MAP_ENTRY
@@ -1984,6 +2004,10 @@ WebGLRenderbuffer
 WebGLRenderbuffer
 )
 NS_INTERFACE_MAP_BEGIN
+(
+WebGLRenderbuffer
+)
+NS_INTERFACE_MAP_ENTRY
 (
 WebGLRenderbuffer
 )
