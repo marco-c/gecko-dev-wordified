@@ -135,12 +135,6 @@ jsfriendapi
 h
 "
 #
-if
-defined
-(
-USE_ANGLE
-)
-#
 include
 "
 angle
@@ -149,8 +143,6 @@ ShaderLang
 .
 h
 "
-#
-endif
 #
 include
 <
@@ -5606,12 +5598,6 @@ shader_validator
 mShaderValidation
 )
 ;
-#
-if
-defined
-(
-USE_ANGLE
-)
 /
 /
 initialize
@@ -5646,8 +5632,6 @@ false
 ;
 }
 }
-#
-endif
 /
 /
 Mesa
