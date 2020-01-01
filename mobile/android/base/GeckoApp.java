@@ -614,17 +614,6 @@ gfx
 ImmutableViewportMetrics
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-Tab
-.
-HistoryEntry
-;
-import
 java
 .
 io
