@@ -25050,6 +25050,8 @@ GDK_ENTER_NOTIFY_MASK
 GDK_LEAVE_NOTIFY_MASK
 |
 GDK_POINTER_MOTION_MASK
+|
+GDK_POINTER_MOTION_HINT_MASK
 )
 (
 GdkWindow
@@ -28851,6 +28853,11 @@ window
 OnMotionNotifyEvent
 (
 widget
+event
+)
+;
+gdk_event_request_motions
+(
 event
 )
 ;
