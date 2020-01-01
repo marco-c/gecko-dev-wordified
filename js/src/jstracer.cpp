@@ -8705,8 +8705,6 @@ sp
 +
 =
 (
-(
-(
 double
 *
 )
@@ -8715,8 +8713,6 @@ state
 sp
 -
 entry_sp
-)
-)
 ;
 cx
 -
