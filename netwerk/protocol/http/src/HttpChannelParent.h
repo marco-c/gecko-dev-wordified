@@ -566,6 +566,14 @@ nsCString
 &
 docCharset
 const
+nsCString
+&
+referrerSpec
+const
+nsCString
+&
+referrerCharset
+const
 PRUint32
 &
 loadFlags
