@@ -456,13 +456,6 @@ nsIHashable
 .
 h
 "
-#
-include
-"
-nsIClassInfoImpl
-.
-h
-"
 class
 nsDirEnumerator
 ;
