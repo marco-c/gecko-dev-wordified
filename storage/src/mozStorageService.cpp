@@ -675,7 +675,7 @@ mSchemaDesc
 ;
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 StorageSQLiteMultiReporter
 (
 Service
@@ -1456,7 +1456,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 StorageSQLiteMultiReporter
 nsIMemoryMultiReporter
@@ -1546,7 +1546,7 @@ nsIMemoryMultiReporter
 /
 /
 Service
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 Service
 mozIStorageService

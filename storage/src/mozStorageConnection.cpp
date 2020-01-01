@@ -2876,7 +2876,7 @@ connection
 )
 ;
 }
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 Connection
 )
@@ -2911,7 +2911,7 @@ is
 identical
 to
 what
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 provides
 but
 with
@@ -2954,10 +2954,9 @@ release
 nsrefcnt
 count
 =
-NS_AtomicDecrementRefcnt
-(
+-
+-
 mRefCnt
-)
 ;
 NS_LOG_RELEASE
 (
