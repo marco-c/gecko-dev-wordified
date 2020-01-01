@@ -112,7 +112,7 @@ MPL
 #
 include
 "
-CrossOriginWrapper
+WaiveXrayWrapper
 .
 h
 "
