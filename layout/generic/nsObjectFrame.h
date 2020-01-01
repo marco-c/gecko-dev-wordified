@@ -1235,8 +1235,10 @@ LayerManager
 aManager
 )
 ;
+already_AddRefed
+<
 ImageContainer
-*
+>
 GetImageContainer
 (
 LayerManager

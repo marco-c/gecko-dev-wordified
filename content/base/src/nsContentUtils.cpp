@@ -34748,6 +34748,9 @@ nsIDocument
 aDoc
 bool
 aRequirePersistent
+bool
+*
+aAllowRetaining
 )
 {
 nsIDocument
@@ -35036,6 +35039,7 @@ nsIWidget_MOZILLA_2_0_BRANCH
 :
 :
 LAYER_MANAGER_CURRENT
+aAllowRetaining
 )
 ;
 return
@@ -35066,6 +35070,9 @@ LayerManagerForDocument
 nsIDocument
 *
 aDoc
+bool
+*
+aAllowRetaining
 )
 {
 return
@@ -35073,6 +35080,7 @@ LayerManagerForDocumentInternal
 (
 aDoc
 false
+aAllowRetaining
 )
 ;
 }
@@ -35088,6 +35096,9 @@ PersistentLayerManagerForDocument
 nsIDocument
 *
 aDoc
+bool
+*
+aAllowRetaining
 )
 {
 return
@@ -35095,6 +35106,7 @@ LayerManagerForDocumentInternal
 (
 aDoc
 true
+aAllowRetaining
 )
 ;
 }
