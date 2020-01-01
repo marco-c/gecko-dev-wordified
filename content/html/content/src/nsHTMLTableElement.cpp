@@ -716,6 +716,17 @@ nsWrapperCache
 aCache
 )
 ;
+virtual
+nsINode
+*
+GetParentObject
+(
+)
+{
+return
+mParent
+;
+}
 NS_IMETHOD
 ParentDestroyed
 (

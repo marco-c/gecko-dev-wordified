@@ -692,6 +692,13 @@ nsWrapperCache
 aCache
 )
 ;
+virtual
+nsINode
+*
+GetParentObject
+(
+)
+;
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsHTMLOptionCollection
