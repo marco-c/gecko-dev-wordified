@@ -7358,15 +7358,13 @@ probability
 for
 GC
 .
+JS_updateMallocCounter
+(
 ccx
 .
 GetJSContext
 (
 )
--
->
-updateMallocCounter
-(
 2
 *
 sizeof
