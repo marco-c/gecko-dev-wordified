@@ -1208,7 +1208,7 @@ image
 :
 tab
 .
-favEl
+favImgEl
 .
 src
 ;
