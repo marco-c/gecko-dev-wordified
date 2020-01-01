@@ -889,17 +889,6 @@ flagWorkerOrMainThread
 (
 self
 .
-dictionaries
-mainDictionaries
-                               
-workerDictionaries
-)
-;
-        
-flagWorkerOrMainThread
-(
-self
-.
 callbacks
 mainCallbacks
 workerCallbacks

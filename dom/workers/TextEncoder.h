@@ -229,7 +229,7 @@ nsAString
 &
 aString
 const
-TextEncodeOptionsWorkers
+TextEncodeOptions
 &
 aOptions
 ErrorResult

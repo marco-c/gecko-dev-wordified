@@ -6626,7 +6626,7 @@ GlobalObject
 &
 aGlobal
 const
-MozXMLHttpRequestParametersWorkers
+MozXMLHttpRequestParameters
 &
 aParams
 ErrorResult

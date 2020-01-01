@@ -369,7 +369,7 @@ GlobalObject
 &
 aGlobal
 const
-MozXMLHttpRequestParametersWorkers
+MozXMLHttpRequestParameters
 &
 aParams
 ErrorResult
@@ -410,7 +410,7 @@ up
 the
 default
 values
-MozXMLHttpRequestParametersWorkers
+MozXMLHttpRequestParameters
 params
 ;
 if
