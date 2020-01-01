@@ -1153,6 +1153,7 @@ processStsHeader
 (
 uri
 header
+0
 maxAge
 includeSubdomains
 )
