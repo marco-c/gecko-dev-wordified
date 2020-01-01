@@ -7842,7 +7842,10 @@ Bug
 767169
 MOZ_ASSERT
 (
+PRUint32
+(
 startOffset
+)
 <
 =
 startParent
@@ -7853,7 +7856,10 @@ Length
 )
 &
 &
+PRUint32
+(
 endOffset
+)
 <
 =
 endParent

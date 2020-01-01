@@ -274,9 +274,6 @@ nsWeakPtr
 mScriptHandlingObject
 ;
 bool
-mLoopingForSyncLoad
-;
-bool
 mAttemptedInit
 ;
 }

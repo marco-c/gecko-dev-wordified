@@ -4285,18 +4285,11 @@ txErrorFunctionCall
 nsIAtom
 *
 aName
-const
-PRInt32
-aID
 )
 :
 mName
 (
 aName
-)
-mID
-(
-aID
 )
 {
 }
@@ -4308,9 +4301,6 @@ nsCOMPtr
 nsIAtom
 >
 mName
-;
-PRInt32
-mID
 ;
 }
 ;
@@ -5404,7 +5394,6 @@ new
 txErrorFunctionCall
 (
 aName
-aID
 )
 ;
 rv
