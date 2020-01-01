@@ -749,17 +749,12 @@ b
       
 return
 "
-PR_TRUE
+true
 "
     
 return
 "
-PR_FALSE
-"
-  
-print
-"
-{
+false
 "
   
 for
@@ -800,7 +795,8 @@ wild
     
 print
 '
-{
+ETLD_ENTRY
+(
 "
 %
 s
@@ -809,7 +805,7 @@ s
 s
 %
 s
-}
+)
 '
 %
 (
@@ -821,20 +817,6 @@ domain
 exception
 wild
 )
-  
-print
-"
-{
-nullptr
-PR_FALSE
-PR_FALSE
-}
-"
-  
-print
-"
-}
-"
 if
 __name__
 =
