@@ -19658,6 +19658,10 @@ cx
 JSFunction
 *
 fun
+JSOp
+op
+size_t
+oplen
 )
 {
 /
@@ -19687,7 +19691,7 @@ JSObject
 *
 scopeChain
 =
-js_GetScopeChain
+js_GetScopeChainFast
 (
 cx
 cx
@@ -19696,6 +19700,8 @@ cx
 fp
 (
 )
+op
+oplen
 )
 ;
 if

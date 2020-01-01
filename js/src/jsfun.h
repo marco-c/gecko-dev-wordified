@@ -475,6 +475,13 @@ jsstr
 .
 h
 "
+#
+include
+"
+jsopcode
+.
+h
+"
 /
 *
 *
@@ -3790,6 +3797,10 @@ cx
 JSFunction
 *
 fun
+JSOp
+op
+size_t
+oplen
 )
 ;
 extern
