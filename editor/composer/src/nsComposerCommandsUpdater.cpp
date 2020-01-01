@@ -1256,15 +1256,11 @@ timer
 rv
 )
 ;
-if
-(
-NS_FAILED
+NS_ENSURE_SUCCESS
 (
 rv
-)
-)
-return
 rv
+)
 ;
 }
 const
