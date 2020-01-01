@@ -66833,6 +66833,7 @@ obj_ins
 BRANCH_EXIT
 )
 )
+{
 JS_NOT_REACHED
 (
 "
@@ -66845,6 +66846,10 @@ not
 "
 )
 ;
+return
+false
+;
+}
 }
 else
 {
