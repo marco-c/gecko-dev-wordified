@@ -2320,7 +2320,12 @@ GetNativeDataOffClipboard
 (
 pIDataSource
 0
+:
+:
+RegisterClipboardFormat
+(
 CFSTR_PREFERREDDROPEFFECT
+)
 &
 tempOutData
 &
