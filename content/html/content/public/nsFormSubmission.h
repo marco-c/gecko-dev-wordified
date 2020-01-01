@@ -482,6 +482,9 @@ nsISaveAsCharset
 class
 nsIMultiplexInputStream
 ;
+class
+nsIDOMFile
+;
 /
 *
 *
@@ -609,7 +612,7 @@ const
 nsAString
 &
 aName
-nsIFile
+nsIDOMFile
 *
 aFile
 )
@@ -1098,7 +1101,7 @@ const
 nsAString
 &
 aName
-nsIFile
+nsIDOMFile
 *
 aFile
 )

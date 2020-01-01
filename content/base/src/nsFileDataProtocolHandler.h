@@ -405,7 +405,7 @@ moz
 filedata
 "
 class
-nsIFile
+nsIDOMFile
 ;
 class
 nsIPrincipal
@@ -459,7 +459,7 @@ AddFileDataEntry
 nsACString
 &
 aUri
-nsIFile
+nsIDOMFile
 *
 aFile
 nsIPrincipal
