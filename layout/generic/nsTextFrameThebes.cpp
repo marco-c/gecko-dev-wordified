@@ -14053,10 +14053,11 @@ aOffset
 )
 &
 &
+!
 aTextRun
 -
 >
-IsLigatureGroupStart
+IsLigatureContinuation
 (
 aOffset
 +
