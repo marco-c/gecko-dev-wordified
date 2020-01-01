@@ -1239,12 +1239,11 @@ used
 .
 *
 See
-nsIPrefBran2
+nsIPrefBranch
 .
 idl
 for
-the
-detail
+details
 .
 *
 /
