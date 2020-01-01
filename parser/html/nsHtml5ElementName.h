@@ -397,6 +397,11 @@ getGroup
 (
 )
 ;
+bool
+isCustom
+(
+)
+;
 static
 nsHtml5ElementName
 *

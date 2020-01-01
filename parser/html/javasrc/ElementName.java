@@ -667,11 +667,6 @@ flags
 GROUP_MASK
 ;
 }
-/
-/
-[
-NOCPP
-[
 public
 boolean
 isCustom
@@ -689,11 +684,6 @@ CUSTOM
 0
 ;
 }
-/
-/
-]
-NOCPP
-]
 static
 ElementName
 elementNameByBuffer
