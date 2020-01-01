@@ -284,12 +284,6 @@ expectUncaughtException
 (
 )
 ;
-waitForFocus
-(
-function
-(
-)
-{
 let
 button
 =
@@ -312,10 +306,6 @@ button
 2
 2
 {
-}
-content
-)
-;
 }
 content
 )
