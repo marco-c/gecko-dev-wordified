@@ -582,6 +582,16 @@ PhysLoc_Memory
 ;
 }
 void
+setSynced
+(
+)
+{
+synced_
+=
+true
+;
+}
+void
 setConstant
 (
 )
