@@ -3763,6 +3763,9 @@ LirBufWriter
 mParent
 .
 mLirbuf
+mParent
+.
+mConfig
 )
 ;
 #
