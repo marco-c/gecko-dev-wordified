@@ -6176,8 +6176,9 @@ mozIStorageConnection
 >
 DBConn
 ;
-rv
-=
+(
+void
+)
 dlMgr
 -
 >
@@ -6187,12 +6188,6 @@ getter_AddRefs
 (
 DBConn
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 params
