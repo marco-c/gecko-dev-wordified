@@ -510,7 +510,6 @@ input
 )
 )
 )
-;
 return
 false
 ;
