@@ -387,7 +387,7 @@ savedInstanceState
 null
 )
 {
-mPaddingTop
+mTopPadding
 =
 savedInstanceState
 .
@@ -1403,7 +1403,7 @@ outState
 putInt
 (
 STATE_TOP_PADDING
-mPaddingTop
+mTopPadding
 )
 ;
 }
