@@ -915,7 +915,7 @@ called
 )
 ;
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 bool
