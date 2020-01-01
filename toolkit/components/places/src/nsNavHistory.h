@@ -2343,6 +2343,11 @@ mozIStorageConnection
 aDBConn
 )
 ;
+nsresult
+CleanUpOnQuit
+(
+)
+;
 #
 ifdef
 IN_MEMORY_LINKS
