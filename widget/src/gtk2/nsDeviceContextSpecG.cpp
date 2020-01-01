@@ -3642,6 +3642,13 @@ size
 object
 instead
 .
+See
+bug
+414314
+for
+more
+info
+.
 GtkPaperSize
 *
 geckosHackishPaperSize
