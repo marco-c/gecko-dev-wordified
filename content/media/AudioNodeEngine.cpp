@@ -762,6 +762,8 @@ aInputL
 +
 *
 aInputR
++
++
 *
 aGainL
 ;
@@ -803,6 +805,8 @@ aOutputL
 =
 *
 aInputL
++
++
 *
 aGainL
 ;
