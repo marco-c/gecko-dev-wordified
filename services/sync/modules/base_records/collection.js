@@ -683,6 +683,14 @@ this
 limit
 >
 0
+&
+&
+this
+.
+limit
+!
+=
+Infinity
 )
 args
 .
