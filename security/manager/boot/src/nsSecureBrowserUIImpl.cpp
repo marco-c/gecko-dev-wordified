@@ -6593,6 +6593,15 @@ rv
 =
 NS_OK
 ;
+/
+/
+both
+parameters
+are
+both
+input
+and
+outout
 PRBool
 flagsChanged
 =
