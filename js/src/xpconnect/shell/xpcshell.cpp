@@ -5074,10 +5074,10 @@ file
 stdin
 ;
 }
+else
 #
 ifdef
 HAVE_ISATTY
-else
 if
 (
 !
@@ -5089,6 +5089,8 @@ file
 )
 )
 )
+#
+endif
 {
 /
 *
@@ -5282,8 +5284,6 @@ cx
 return
 ;
 }
-#
-endif
 /
 *
 It
