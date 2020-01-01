@@ -1220,7 +1220,7 @@ me
 ?
 #
 ifdef
-WINCE
+XP_WIN
 #
 undef
 GetClassName
