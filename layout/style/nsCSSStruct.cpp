@@ -1412,6 +1412,11 @@ nsCSSMargin
 (
 void
 )
+:
+mBoxShadow
+(
+nsnull
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -1431,6 +1436,11 @@ void
 MOZ_COUNT_DTOR
 (
 nsCSSMargin
+)
+;
+CSS_IF_DELETE
+(
+mBoxShadow
 )
 ;
 }

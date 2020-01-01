@@ -8465,7 +8465,7 @@ if
 textStyle
 -
 >
-mShadowArray
+mTextShadow
 )
 return
 aTextAndDecorationsRect
@@ -8487,7 +8487,7 @@ i
 textStyle
 -
 >
-mShadowArray
+mTextShadow
 -
 >
 Length
@@ -8505,14 +8505,14 @@ tmpRect
 aTextAndDecorationsRect
 )
 ;
-nsTextShadowItem
+nsCSSShadowItem
 *
 shadow
 =
 textStyle
 -
 >
-mShadowArray
+mTextShadow
 -
 >
 ShadowAt

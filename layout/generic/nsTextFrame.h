@@ -2746,7 +2746,7 @@ PRUint32
 aOffset
 PRUint32
 aLength
-nsTextShadowItem
+nsCSSShadowItem
 *
 aShadowDetails
 PropertyProvider

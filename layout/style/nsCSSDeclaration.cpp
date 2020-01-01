@@ -1721,6 +1721,12 @@ aProperty
 =
 =
 eCSSProperty_text_shadow
+|
+|
+aProperty
+=
+=
+eCSSProperty_box_shadow
 #
 ifdef
 MOZ_SVG

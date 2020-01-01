@@ -1886,6 +1886,10 @@ mFloatEdge
 /
 /
 NEW
+nsCSSValueList
+*
+mBoxShadow
+;
 private
 :
 nsCSSMargin

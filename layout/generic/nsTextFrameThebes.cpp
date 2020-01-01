@@ -25643,7 +25643,7 @@ PRUint32
 aOffset
 PRUint32
 aLength
-nsTextShadowItem
+nsCSSShadowItem
 *
 aShadowDetails
 PropertyProvider
@@ -27730,7 +27730,7 @@ if
 textStyle
 -
 >
-mShadowArray
+mTextShadow
 )
 {
 /
@@ -27764,7 +27764,7 @@ i
 textStyle
 -
 >
-mShadowArray
+mTextShadow
 -
 >
 Length
@@ -27798,7 +27798,7 @@ provider
 textStyle
 -
 >
-mShadowArray
+mTextShadow
 -
 >
 ShadowAt
