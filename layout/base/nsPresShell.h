@@ -847,8 +847,6 @@ nsILayoutHistoryState
 *
 *
 aLayoutHistoryState
-bool
-aLeavingPage
 )
 ;
 virtual
