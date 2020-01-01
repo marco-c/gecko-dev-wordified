@@ -31642,6 +31642,16 @@ fromJSObject
 obj
 )
 ;
+if
+(
+!
+src
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 JSObject
 *
 newBuffer
