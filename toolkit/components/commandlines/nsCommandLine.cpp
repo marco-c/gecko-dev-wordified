@@ -2145,8 +2145,10 @@ Init
 (
 int32_t
 argc
+const
 char
 *
+const
 *
 argv
 nsIFile

@@ -2823,15 +2823,7 @@ cmdline
 Init
 (
 4
-const_cast
-<
-char
-*
-*
->
-(
 argv
-)
 nullptr
 nsICommandLine
 :
