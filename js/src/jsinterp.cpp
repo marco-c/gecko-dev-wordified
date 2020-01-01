@@ -1971,7 +1971,7 @@ typeInferenceEnabled
 )
 )
 {
-StackIter
+ScriptFrameIter
 iter
 (
 cx

@@ -2709,7 +2709,7 @@ frameobj
 return
 false
 ;
-StackIter
+ScriptFrameIter
 :
 :
 Data
@@ -3277,7 +3277,7 @@ JSTRAP_CONTINUE
 }
 static
 void
-DebuggerFrame_freeStackIterData
+DebuggerFrame_freeScriptFrameIterData
 (
 FreeOp
 *
@@ -3875,7 +3875,7 @@ frameobj
 )
 )
 ;
-DebuggerFrame_freeStackIterData
+DebuggerFrame_freeScriptFrameIterData
 (
 cx
 -
@@ -13928,7 +13928,7 @@ seg
 cx
 (
 )
-StackIter
+ScriptFrameIter
 :
 :
 GO_THROUGH_SAVED
@@ -15469,7 +15469,7 @@ global
 global
 )
 {
-DebuggerFrame_freeStackIterData
+DebuggerFrame_freeScriptFrameIterData
 (
 fop
 e
@@ -22668,13 +22668,13 @@ frame
 object
 '
 s
-StackIter
+ScriptFrameIter
 :
 :
 data
 pointer
 .
-DebuggerFrame_freeStackIterData
+DebuggerFrame_freeScriptFrameIterData
 (
 cx
 -
@@ -22688,7 +22688,7 @@ defaultFreeOp
 frameobj
 )
 ;
-StackIter
+ScriptFrameIter
 :
 :
 Data
@@ -23682,7 +23682,7 @@ Frame
 /
 static
 void
-DebuggerFrame_freeStackIterData
+DebuggerFrame_freeScriptFrameIterData
 (
 FreeOp
 *
@@ -23698,7 +23698,7 @@ fop
 delete_
 (
 (
-StackIter
+ScriptFrameIter
 :
 :
 Data
@@ -23733,7 +23733,7 @@ JSObject
 obj
 )
 {
-DebuggerFrame_freeStackIterData
+DebuggerFrame_freeScriptFrameIterData
 (
 fop
 obj
@@ -24037,7 +24037,7 @@ iter
 (
 *
 (
-StackIter
+ScriptFrameIter
 :
 :
 Data

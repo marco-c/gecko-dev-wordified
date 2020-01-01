@@ -2314,9 +2314,9 @@ tied
 to
 a
 unique
-JSStackFrame
+StackFrame
 for
-StackIter
+ScriptFrameIter
 to
 /
 /
@@ -5278,7 +5278,7 @@ within
 the
 inlined
 OSR
-StackIter
+ScriptFrameIter
 will
 know
 to

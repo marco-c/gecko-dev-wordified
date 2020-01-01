@@ -9854,7 +9854,7 @@ intrinsic
 .
 *
 /
-StackIter
+ScriptFrameIter
 frameIter
 (
 cx

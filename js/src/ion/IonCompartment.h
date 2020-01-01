@@ -1733,7 +1733,7 @@ the
 calling
 pc
 for
-StackIter
+ScriptFrameIter
 .
 jsbytecode
 *

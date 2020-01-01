@@ -18358,7 +18358,7 @@ it
 beginsIonActivation
 (
 see
-StackIter
+ScriptFrameIter
 :
 :
 interpFrame
