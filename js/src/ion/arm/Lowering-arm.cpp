@@ -122,7 +122,11 @@ include
 "
 ion
 /
-MIR
+arm
+/
+Assembler
+-
+arm
 .
 h
 "
@@ -140,11 +144,7 @@ include
 "
 ion
 /
-arm
-/
-Assembler
--
-arm
+MIR
 .
 h
 "
