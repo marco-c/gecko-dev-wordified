@@ -135,7 +135,7 @@ aCommand
 ;
 PTestShellCommandChild
 *
-AllocPTestShellCommand
+AllocPTestShellCommandChild
 (
 const
 nsString
@@ -156,7 +156,7 @@ aCommand
 )
 ;
 bool
-DeallocPTestShellCommand
+DeallocPTestShellCommandChild
 (
 PTestShellCommandChild
 *

@@ -179,7 +179,7 @@ public
 :
 PTestShellCommandParent
 *
-AllocPTestShellCommand
+AllocPTestShellCommandParent
 (
 const
 nsString
@@ -188,7 +188,7 @@ aCommand
 )
 ;
 bool
-DeallocPTestShellCommand
+DeallocPTestShellCommandParent
 (
 PTestShellCommandParent
 *

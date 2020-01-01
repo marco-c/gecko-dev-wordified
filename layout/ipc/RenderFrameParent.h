@@ -592,14 +592,14 @@ MOZ_OVERRIDE
 virtual
 PLayerTransactionParent
 *
-AllocPLayerTransaction
+AllocPLayerTransactionParent
 (
 )
 MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPLayerTransaction
+DeallocPLayerTransactionParent
 (
 PLayerTransactionParent
 *

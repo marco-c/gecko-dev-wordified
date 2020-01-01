@@ -280,7 +280,7 @@ PLayerTransactionChild
 RenderFrameChild
 :
 :
-AllocPLayerTransaction
+AllocPLayerTransactionChild
 (
 )
 {
@@ -295,7 +295,7 @@ bool
 RenderFrameChild
 :
 :
-DeallocPLayerTransaction
+DeallocPLayerTransactionChild
 (
 PLayerTransactionChild
 *

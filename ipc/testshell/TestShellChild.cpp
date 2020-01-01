@@ -162,7 +162,7 @@ PTestShellCommandChild
 TestShellChild
 :
 :
-AllocPTestShellCommand
+AllocPTestShellCommandChild
 (
 const
 nsString
@@ -181,7 +181,7 @@ bool
 TestShellChild
 :
 :
-DeallocPTestShellCommand
+DeallocPTestShellCommandChild
 (
 PTestShellCommandChild
 *
