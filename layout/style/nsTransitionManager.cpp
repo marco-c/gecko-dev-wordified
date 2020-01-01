@@ -5345,19 +5345,6 @@ Type
 aPseudoType
 )
 {
-if
-(
-!
-aData
--
->
-mContent
-)
-{
-return
-NS_OK
-;
-}
 ElementTransitions
 *
 et
@@ -5367,7 +5354,7 @@ GetElementTransitions
 aData
 -
 >
-mContent
+mElement
 aPseudoType
 PR_FALSE
 )
@@ -5483,7 +5470,7 @@ RestyleForAnimation
 aData
 -
 >
-mContent
+mElement
 )
 ;
 }
