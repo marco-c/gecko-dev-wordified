@@ -2953,7 +2953,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errProcessingInstruction
@@ -2996,7 +2996,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errLtGt
@@ -3050,7 +3050,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errBadCharAfterLt
@@ -3562,7 +3562,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errBadCharBeforeAttributeNameOrNull
@@ -3899,7 +3899,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errQuoteOrLtInAttributeNameOrNull
@@ -4142,7 +4142,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errAttributeValueMissing
@@ -4220,7 +4220,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errLtOrEqualsOrGraveInUnquotedAttributeOrNull
@@ -4637,7 +4637,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNoSpaceBetweenAttributes
@@ -4755,7 +4755,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errSlashNotFollowedByGt
@@ -5055,7 +5055,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errUnquotedAttributeValOrNull
@@ -5300,7 +5300,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errQuoteOrLtInAttributeNameOrNull
@@ -5529,7 +5529,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errBogusComment
@@ -5659,7 +5659,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errBogusComment
@@ -5776,7 +5776,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errPrematureEndOfComment
@@ -6372,7 +6372,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errHyphenHyphenBang
@@ -6693,7 +6693,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errPrematureEndOfComment
@@ -6895,7 +6895,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errBogusComment
@@ -7776,7 +7776,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNoNamedCharacterMatch
@@ -7947,7 +7947,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNoNamedCharacterMatch
@@ -8350,7 +8350,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNoNamedCharacterMatch
@@ -8549,7 +8549,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNoNamedCharacterMatch
@@ -8599,7 +8599,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errUnescapedAmpersandInterpretedAsCharacterReference
@@ -8615,7 +8615,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNotSemicolonTerminated
@@ -9033,7 +9033,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNoDigitsInNCR
@@ -9103,7 +9103,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNoDigitsInNCR
@@ -9161,7 +9161,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errCharRefLacksSemicolon
@@ -9473,7 +9473,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNoDigitsInNCR
@@ -9543,7 +9543,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNoDigitsInNCR
@@ -9601,7 +9601,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errCharRefLacksSemicolon
@@ -9802,7 +9802,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errLtSlashGt
@@ -9851,7 +9851,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errGarbageAfterLtSlash
@@ -9902,7 +9902,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errGarbageAfterLtSlash
@@ -10029,7 +10029,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errGarbageAfterLtSlash
@@ -13737,7 +13737,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errBogusComment
@@ -13947,7 +13947,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errMissingSpaceBeforeDoctypeName
@@ -14096,7 +14096,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNamelessDoctype
@@ -14921,7 +14921,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNoSpaceBetweenDoctypePublicKeywordAndQuote
@@ -14964,7 +14964,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNoSpaceBetweenDoctypePublicKeywordAndQuote
@@ -15006,7 +15006,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errExpectedPublicId
@@ -15233,7 +15233,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errExpectedPublicId
@@ -15383,7 +15383,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errGtInPublicId
@@ -15644,7 +15644,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNoSpaceBetweenPublicAndSystemIds
@@ -15687,7 +15687,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNoSpaceBetweenPublicAndSystemIds
@@ -16042,7 +16042,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errGtInSystemId
@@ -16704,7 +16704,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNoSpaceBetweenDoctypeSystemKeywordAndQuote
@@ -16747,7 +16747,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errNoSpaceBetweenDoctypeSystemKeywordAndQuote
@@ -16789,7 +16789,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errExpectedPublicId
@@ -17016,7 +17016,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errExpectedSystemId
@@ -17166,7 +17166,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errGtInSystemId
@@ -17347,7 +17347,7 @@ if
 P
 :
 :
-viewingSource
+reportErrors
 )
 {
 errGtInPublicId
