@@ -1251,7 +1251,7 @@ Pointer
 to
 token
 or
-NULL
+nullptr
 *
 /
 CToken

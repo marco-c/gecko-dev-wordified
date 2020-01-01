@@ -622,7 +622,7 @@ return
 old
 sink
 or
-NULL
+nullptr
 *
 /
 NS_IMETHOD_
@@ -671,7 +671,7 @@ return
 old
 sink
 or
-NULL
+nullptr
 *
 /
 NS_IMETHOD_
