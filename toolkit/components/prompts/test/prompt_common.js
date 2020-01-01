@@ -126,7 +126,14 @@ authentication
 dialog
 timer
 =
-Cc
+SpecialPowers
+.
+wrap
+(
+Components
+)
+.
+classes
 [
 "
 mozilla
