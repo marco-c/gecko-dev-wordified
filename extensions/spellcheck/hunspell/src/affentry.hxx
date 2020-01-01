@@ -634,7 +634,7 @@ const
 FLAG
 needflag
 =
-NULL
+FLAG_NULL
 )
 ;
 char
@@ -1042,7 +1042,7 @@ const
 FLAG
 needflag
 =
-NULL
+FLAG_NULL
 )
 ;
 char
