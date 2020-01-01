@@ -4436,6 +4436,9 @@ const
 PRUint8
 *
 aFontData
+PRBool
+&
+hasVertical
 )
 ;
 #
