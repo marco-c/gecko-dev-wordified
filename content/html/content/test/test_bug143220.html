@@ -247,12 +247,7 @@ dirSvc
 =
 SpecialPowers
 .
-wrap
-(
-Components
-)
-.
-classes
+Cc
 [
 "
 mozilla
@@ -269,9 +264,9 @@ directory_service
 .
 getService
 (
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsIProperties
 )
@@ -286,9 +281,9 @@ get
 "
 XpcomLib
 "
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsILocalFile
 )

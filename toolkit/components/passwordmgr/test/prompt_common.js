@@ -1,9 +1,9 @@
 var
 Ci
 =
-Components
+SpecialPowers
 .
-interfaces
+Ci
 ;
 ok
 (
@@ -22,12 +22,7 @@ Cc
 =
 SpecialPowers
 .
-wrap
-(
-Components
-)
-.
-classes
+Cc
 ;
 ok
 (
@@ -186,6 +181,8 @@ v
 )
 )
 throw
+SpecialPowers
+.
 Components
 .
 results

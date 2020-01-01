@@ -56,9 +56,9 @@ strict
 let
 Ci
 =
-Components
+SpecialPowers
 .
-interfaces
+Ci
 ;
 let
 whitelistedEvents

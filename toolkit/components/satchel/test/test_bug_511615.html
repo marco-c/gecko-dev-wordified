@@ -361,12 +361,7 @@ fh
 =
 SpecialPowers
 .
-wrap
-(
-Components
-)
-.
-classes
+Cc
 [
 "
 mozilla
@@ -385,9 +380,9 @@ history
 .
 getService
 (
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsIFormHistory2
 )

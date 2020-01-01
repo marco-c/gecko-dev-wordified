@@ -1161,9 +1161,9 @@ callback
 var
 Ci
 =
-Components
+SpecialPowers
 .
-interfaces
+Ci
 ;
 var
 ww
@@ -1172,6 +1172,8 @@ SpecialPowers
 .
 wrap
 (
+SpecialPowers
+.
 Components
 )
 .
