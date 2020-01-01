@@ -443,8 +443,6 @@ mozilla
 namespace
 gfx
 {
-static
-inline
 bool
 IsOperatorBoundByMask
 (
