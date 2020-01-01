@@ -19896,7 +19896,7 @@ parentText
 -
 >
 mLineHeight
-SETCOORD_LH
+SETCOORD_LEH
 |
 SETCOORD_FACTOR
 |

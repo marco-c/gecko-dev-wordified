@@ -31096,10 +31096,15 @@ ParseNonNegativeVariant
 aValue
 VARIANT_HLPN
 |
+VARIANT_KEYWORD
+|
 VARIANT_NORMAL
 |
 VARIANT_SYSFONT
-nsnull
+nsCSSProps
+:
+:
+kLineHeightKTable
 )
 ;
 case

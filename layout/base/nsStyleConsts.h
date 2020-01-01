@@ -3216,6 +3216,14 @@ See
 nsStyleText
 #
 define
+NS_STYLE_LINE_HEIGHT_BLOCK_HEIGHT
+0
+/
+/
+See
+nsStyleText
+#
+define
 NS_STYLE_UNICODE_BIDI_NORMAL
 0
 #

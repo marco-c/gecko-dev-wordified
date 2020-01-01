@@ -1639,14 +1639,14 @@ kFontWeightKTable
 static
 const
 PRInt32
-kKeyEquivalentKTable
+kIMEModeKTable
 [
 ]
 ;
 static
 const
 PRInt32
-kIMEModeKTable
+kLineHeightKTable
 [
 ]
 ;
