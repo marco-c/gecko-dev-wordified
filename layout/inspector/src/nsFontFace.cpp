@@ -448,13 +448,13 @@ mFontEntry
 (
 aFontEntry
 )
-mMatchType
-(
-aMatchType
-)
 mRule
 (
 aRule
+)
+mMatchType
+(
+aMatchType
 )
 {
 }
