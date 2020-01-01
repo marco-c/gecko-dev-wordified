@@ -6783,7 +6783,6 @@ of
 downloads
 )
 {
-yield
 publicList
 .
 remove

@@ -1772,7 +1772,6 @@ downloads
 to
 list
 .
-yield
 list
 .
 add
@@ -1780,7 +1779,6 @@ add
 download1
 )
 ;
-yield
 list
 .
 add
@@ -1788,7 +1786,6 @@ add
 download2
 )
 ;
-yield
 list
 .
 add
@@ -1838,7 +1835,6 @@ promiseAttempt2
 Clean
 up
 .
-yield
 list
 .
 remove
@@ -1846,7 +1842,6 @@ remove
 download1
 )
 ;
-yield
 list
 .
 remove
@@ -1854,7 +1849,6 @@ remove
 download2
 )
 ;
-yield
 list
 .
 remove
@@ -1973,7 +1967,6 @@ downloads
 to
 list
 .
-yield
 list
 .
 add
@@ -1981,7 +1974,6 @@ add
 download1
 )
 ;
-yield
 list
 .
 add
@@ -2015,7 +2007,6 @@ isPrivate
 Clean
 up
 .
-yield
 list
 .
 remove
@@ -2023,7 +2014,6 @@ remove
 download1
 )
 ;
-yield
 list
 .
 remove
@@ -2155,7 +2145,6 @@ downloads
 to
 lists
 .
-yield
 publicList
 .
 add
@@ -2163,7 +2152,6 @@ add
 download1
 )
 ;
-yield
 privateList
 .
 add
@@ -2201,7 +2189,6 @@ promiseAttempt2
 Clean
 up
 .
-yield
 publicList
 .
 remove
@@ -2209,7 +2196,6 @@ remove
 download1
 )
 ;
-yield
 privateList
 .
 remove
@@ -2328,7 +2314,6 @@ downloads
 to
 list
 .
-yield
 privateList
 .
 add
@@ -2336,7 +2321,6 @@ add
 download1
 )
 ;
-yield
 privateList
 .
 add
