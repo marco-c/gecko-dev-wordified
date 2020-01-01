@@ -4425,7 +4425,7 @@ canClobberCCs
 void
 asm_regarg
 (
-ArgSize
+ArgType
 LIns
 *
 Register
@@ -4435,7 +4435,7 @@ Register
 void
 asm_stkarg
 (
-ArgSize
+ArgType
 LIns
 *
 int

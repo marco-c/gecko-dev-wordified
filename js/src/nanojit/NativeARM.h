@@ -1685,7 +1685,7 @@ int32_t
 void
 asm_regarg
 (
-ArgSize
+ArgType
 LInsp
 Register
 )
@@ -1759,8 +1759,8 @@ true
 void
 asm_arg
 (
-ArgSize
-sz
+ArgType
+ty
 LInsp
 arg
 Register

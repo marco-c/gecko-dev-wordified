@@ -1964,7 +1964,7 @@ link
 void
 asm_regarg
 (
-ArgSize
+ArgType
 LIns
 *
 Register
