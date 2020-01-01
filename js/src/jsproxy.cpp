@@ -925,7 +925,7 @@ return
 ExternalGetOrSet
 (
 cx
-proxy
+receiver
 id
 CastAsObjectJsval
 (
@@ -990,7 +990,7 @@ cx
 desc
 .
 getter
-proxy
+receiver
 id
 vp
 )
@@ -1120,7 +1120,7 @@ return
 ExternalGetOrSet
 (
 cx
-proxy
+receiver
 id
 CastAsObjectJsval
 (
@@ -1159,7 +1159,7 @@ cx
 desc
 .
 setter
-proxy
+receiver
 id
 vp
 )
@@ -1256,7 +1256,7 @@ return
 ExternalGetOrSet
 (
 cx
-proxy
+receiver
 id
 CastAsObjectJsval
 (
@@ -1295,7 +1295,7 @@ cx
 desc
 .
 setter
-proxy
+receiver
 id
 vp
 )
@@ -5837,6 +5837,9 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+receiver
 jsid
 id
 Value
@@ -5852,7 +5855,7 @@ get
 (
 cx
 obj
-obj
+receiver
 id
 vp
 )
@@ -5868,6 +5871,9 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+receiver
 jsid
 id
 Value
@@ -5879,11 +5885,16 @@ strict
 {
 /
 /
-TODO
+FIXME
+(
+bug
+596351
+)
 :
 throwing
 away
 strict
+.
 return
 JSProxy
 :
@@ -5892,7 +5903,7 @@ set
 (
 cx
 obj
-obj
+receiver
 id
 vp
 )
