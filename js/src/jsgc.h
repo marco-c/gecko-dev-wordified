@@ -2310,10 +2310,7 @@ ArenaBitmap
 +
 sizeof
 (
-sizeof
-(
 MarkingDelay
-)
 )
 ;
 static
