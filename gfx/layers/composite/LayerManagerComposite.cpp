@@ -637,6 +637,10 @@ TextRenderer
 .
 h
 "
+/
+/
+for
+TextRenderer
 class
 gfxASurface
 ;
