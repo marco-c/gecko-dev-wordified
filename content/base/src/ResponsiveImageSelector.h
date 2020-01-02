@@ -449,6 +449,13 @@ double
 aDensity
 )
 ;
+void
+SetParameterAsComputedWidth
+(
+int32_t
+aWidth
+)
+;
 /
 /
 Fill
@@ -546,6 +553,7 @@ and
 default
 separately
 eCandidateType_Default
+eCandidateType_ComputedFromWidth
 }
 ;
 eCandidateType
@@ -573,6 +581,9 @@ union
 {
 double
 mDensity
+;
+int32_t
+mWidth
 ;
 }
 mValue
