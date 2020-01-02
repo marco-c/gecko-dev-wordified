@@ -4624,6 +4624,7 @@ false
 ;
 if
 (
+!
 addedPointerEventEnabled
 )
 {
