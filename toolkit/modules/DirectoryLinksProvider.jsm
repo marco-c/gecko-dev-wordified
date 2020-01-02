@@ -1642,6 +1642,12 @@ position
 {
 link
 .
+directoryIndex
+=
+position
+;
+link
+.
 frecency
 =
 DIRECTORY_FRECENCY
