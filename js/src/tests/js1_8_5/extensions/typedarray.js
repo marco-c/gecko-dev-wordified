@@ -5780,7 +5780,7 @@ byteLength
 /
 /
 test
-move
+copyWithin
 (
 )
 var
@@ -5821,7 +5821,7 @@ toString
 ;
 }
 function
-checkMove
+checkCopyWithin
 (
 offset
 start
@@ -5853,11 +5853,11 @@ offset
 ;
 view
 .
-move
+copyWithin
 (
+dest
 start
 end
-dest
 )
 ;
 check
@@ -5925,7 +5925,7 @@ view
 /
 /
 basic
-move
+copyWithin
 [
 2
 5
@@ -5933,7 +5933,7 @@ move
 -
 >
 4
-checkMove
+checkCopyWithin
 (
 0
 2
@@ -5960,7 +5960,7 @@ should
 count
 from
 end
-checkMove
+checkCopyWithin
 (
 0
 -
@@ -5980,7 +5980,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 2
@@ -6000,7 +6000,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 2
@@ -6020,7 +6020,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 -
@@ -6045,7 +6045,7 @@ checkMove
 /
 /
 offset
-checkMove
+checkCopyWithin
 (
 2
 0
@@ -6065,7 +6065,7 @@ checkMove
 /
 /
 clipping
-checkMove
+checkCopyWithin
 (
 0
 5000
@@ -6084,7 +6084,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 -
@@ -6105,7 +6105,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 -
@@ -6125,7 +6125,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 5000
@@ -6144,7 +6144,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 -
@@ -6165,7 +6165,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 5000
@@ -6184,7 +6184,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 2
 -
@@ -6203,7 +6203,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 2
 -
@@ -6221,7 +6221,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 2
 5000
@@ -6238,7 +6238,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 2
 -
@@ -6257,7 +6257,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 2
 -
@@ -6275,7 +6275,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 2
 1
@@ -6292,7 +6292,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 2
 1
