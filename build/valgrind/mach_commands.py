@@ -209,6 +209,12 @@ the
 Valgrind
 test
 job
+(
+memory
+-
+related
+errors
+)
 .
 '
 )

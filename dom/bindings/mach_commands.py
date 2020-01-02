@@ -200,6 +200,11 @@ description
 Run
 WebIDL
 tests
+(
+Interface
+Browser
+parser
+)
 .
 '
 )
