@@ -362,6 +362,15 @@ aObserver
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+EnableAudio
+(
+bool
+aAudioEnabled
+)
+MOZ_OVERRIDE
+;
 /
 *
 PFMRadioChild
