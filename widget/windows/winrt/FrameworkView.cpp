@@ -2363,7 +2363,7 @@ mShuttingDown
 mWidget
 )
 return
-E_FAIL
+S_OK
 ;
 CoreWindowActivationState
 state
