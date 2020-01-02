@@ -1039,6 +1039,13 @@ share
 -
 button
 "
+"
+social
+-
+toolbar
+-
+item
+"
 ]
 }
 )
