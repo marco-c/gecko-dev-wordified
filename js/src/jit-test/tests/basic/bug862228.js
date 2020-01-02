@@ -7,7 +7,7 @@ test
 |
 error
 :
-ReferenceError
+SyntaxError
 (
 {
 "

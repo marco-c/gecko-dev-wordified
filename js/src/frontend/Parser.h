@@ -1913,7 +1913,7 @@ etc
 .
 etc
 .
-CheckDestructuring
+checkDestructuring
 will
 do
 that
@@ -1929,7 +1929,7 @@ later
 The
 comments
 atop
-CheckDestructuring
+checkDestructuring
 explain
 the
 distinction
@@ -4137,8 +4137,6 @@ checkStrictAssignment
 (
 Node
 lhs
-AssignmentFlavor
-flavor
 )
 ;
 bool
@@ -4254,10 +4252,6 @@ ParseHandler
 data
 Node
 left
-bool
-toplevel
-=
-true
 )
 ;
 bool

@@ -7,7 +7,7 @@ test
 |
 error
 :
-SyntaxError
+TypeError
 s
 =
 newGlobal
