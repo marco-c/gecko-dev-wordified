@@ -9321,7 +9321,7 @@ newScript
 fun
 -
 >
-zone
+zoneFromAnyThread
 (
 )
 ;

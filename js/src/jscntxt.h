@@ -1418,10 +1418,12 @@ return
 thing
 -
 >
-isInsideZone
+zoneFromAnyThread
 (
-zone_
 )
+=
+=
+zone_
 ;
 }
 template
