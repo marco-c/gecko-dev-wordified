@@ -724,6 +724,14 @@ bail
 )
 ;
 bool
+visitUnreachable
+(
+MUnreachable
+*
+unreachable
+)
+;
+bool
 visitAssertFloat32
 (
 MAssertFloat32

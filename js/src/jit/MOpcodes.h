@@ -289,6 +289,11 @@ Bail
 \
 _
 (
+Unreachable
+)
+\
+_
+(
 AssertFloat32
 )
 \
