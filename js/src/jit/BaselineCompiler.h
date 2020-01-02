@@ -571,6 +571,11 @@ JSOP_ENDINIT
 \
 _
 (
+JSOP_ARRAYPUSH
+)
+\
+_
+(
 JSOP_GETELEM
 )
 \
