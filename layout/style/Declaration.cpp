@@ -7353,7 +7353,7 @@ return
 }
 const
 GridTemplateAreasValue
-&
+*
 areas
 =
 areasValue
@@ -7425,7 +7425,8 @@ nRowItems
 !
 =
 areas
-.
+-
+>
 NRows
 (
 )
@@ -7604,7 +7605,8 @@ nsStyleUtil
 AppendEscapedCSSString
 (
 areas
-.
+-
+>
 mTemplates
 [
 row

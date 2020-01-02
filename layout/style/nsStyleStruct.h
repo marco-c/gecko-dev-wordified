@@ -8133,6 +8133,15 @@ mGridTemplateColumns
 nsStyleGridTrackList
 mGridTemplateRows
 ;
+/
+/
+nullptr
+for
+'
+none
+'
+nsRefPtr
+<
 mozilla
 :
 :
@@ -8140,6 +8149,7 @@ css
 :
 :
 GridTemplateAreasValue
+>
 mGridTemplateAreas
 ;
 /
