@@ -678,13 +678,15 @@ suggestions
 length
 |
 |
-!
 suggestions
 [
 0
 ]
 .
 preLabel
+=
+=
+null
 )
 {
 private
