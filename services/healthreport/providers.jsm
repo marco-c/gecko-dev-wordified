@@ -142,14 +142,14 @@ up
 .
 *
 /
+#
+ifndef
+MERGED_COMPARTMENT
 "
 use
 strict
 "
 ;
-#
-ifndef
-MERGED_COMPARTMENT
 this
 .
 EXPORTED_SYMBOLS
