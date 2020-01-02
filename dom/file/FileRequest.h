@@ -180,8 +180,6 @@ aOwner
 LockedFile
 *
 aLockedFile
-bool
-aIsFileRequest
 )
 ;
 /
