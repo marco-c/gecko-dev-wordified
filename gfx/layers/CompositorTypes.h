@@ -1410,7 +1410,7 @@ GeckoProcessType_Default
 int32_t
 aMaxTextureSize
 =
-4096
+0
 bool
 aSupportsTextureBlitting
 =
