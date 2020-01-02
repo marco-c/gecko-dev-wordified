@@ -593,6 +593,16 @@ getBoolPref
 VERBOSE_PREF
 )
 ;
+let
+noop
+=
+(
+)
+=
+>
+{
+}
+;
 function
 dumpn
 (
@@ -2929,6 +2939,8 @@ function
 (
 aTabActor
 aOnResponse
+=
+noop
 )
 {
 if
@@ -3113,6 +3125,8 @@ DC_attachAddon
 (
 aAddonActor
 aOnResponse
+=
+noop
 )
 {
 let
@@ -3255,6 +3269,8 @@ function
 aConsoleActor
 aListeners
 aOnResponse
+=
+noop
 )
 {
 let
@@ -3432,6 +3448,8 @@ function
 (
 aThreadActor
 aOnResponse
+=
+noop
 aOptions
 =
 {
@@ -3595,6 +3613,8 @@ function
 (
 aTraceActor
 aOnResponse
+=
+noop
 )
 {
 if
@@ -8481,6 +8501,8 @@ aOptions
 {
 }
 aOnResponse
+=
+noop
 )
 {
 if
@@ -10294,6 +10316,8 @@ function
 aPauseOnExceptions
 aIgnoreCaughtExceptions
 aOnResponse
+=
+noop
 )
 {
 this
@@ -10522,6 +10546,8 @@ function
 (
 events
 onResponse
+=
+noop
 )
 {
 this
@@ -10968,6 +10994,8 @@ column
 condition
 }
 aOnResponse
+=
+noop
 )
 {
 /
@@ -11108,18 +11136,12 @@ undefined
 )
 ;
 }
-if
-(
-aOnResponse
-)
-{
 aOnResponse
 (
 aResponse
 bpClient
 )
 ;
-}
 if
 (
 aCallback
