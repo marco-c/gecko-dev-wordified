@@ -1425,7 +1425,9 @@ runtime
 >
 gc
 .
-bytesAllocated
+usage
+.
+gcBytes
 (
 )
 ;
@@ -1522,7 +1524,9 @@ runtime
 >
 gc
 .
-bytesAllocated
+usage
+.
+gcBytes
 (
 )
 )
