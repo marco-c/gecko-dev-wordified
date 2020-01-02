@@ -12731,7 +12731,7 @@ since
 StringBuffer
 uses
 a
-ContextAllocPolicy
+TempAllocPolicy
 will
 trigger
 an

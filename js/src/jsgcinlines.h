@@ -1047,6 +1047,10 @@ thingSize
 /
 /
 warnings
+limit
+(
+0
+)
 {
 }
 void

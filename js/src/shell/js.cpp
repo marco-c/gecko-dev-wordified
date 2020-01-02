@@ -2923,7 +2923,6 @@ Vector
 <
 char
 32
-ContextAllocPolicy
 >
 CharBuffer
 ;
