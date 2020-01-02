@@ -1830,6 +1830,14 @@ SimInstruction
 instr
 )
 ;
+void
+decodeVCVTBetweenFloatingPointAndIntegerFrac
+(
+SimInstruction
+*
+instr
+)
+;
 /
 /
 Executes
