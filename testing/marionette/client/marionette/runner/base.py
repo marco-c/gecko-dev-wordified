@@ -1640,6 +1640,12 @@ startswith
 t
 '
 )
+and
+line
+!
+=
+'
+'
 :
                     
 lastline
@@ -1722,7 +1728,9 @@ getInfo
 (
 error
 )
-line
+error
+.
+reason
 )
 )
     
