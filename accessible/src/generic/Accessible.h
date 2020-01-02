@@ -5519,7 +5519,7 @@ a11y
 events
 eLastStateFlag
 =
-eGroupInfoDirty
+eIgnoreDOMUIEvent
 }
 ;
 /
@@ -6394,7 +6394,7 @@ const
 uint8_t
 kStateFlagsBits
 =
-6
+7
 ;
 static
 const
