@@ -790,7 +790,7 @@ ScratchFloatReg
 FloatRegisters
 :
 :
-d1
+d15
 }
 ;
 static
@@ -802,7 +802,7 @@ NANReg
 FloatRegisters
 :
 :
-d15
+d14
 }
 ;
 static

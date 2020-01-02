@@ -355,10 +355,6 @@ equal
 to
 ReturnFloatReg
 .
-d1
-is
-ScratchFloatReg
-.
 static
 MOZ_CONSTEXPR_VAR
 FloatRegister
@@ -371,7 +367,7 @@ MOZ_CONSTEXPR_VAR
 FloatRegister
 FloatReg1
 =
-d2
+d1
 ;
 }
 /

@@ -984,9 +984,6 @@ d0
 d1
 d2
 d3
-SD0
-=
-d3
 d4
 d5
 d6
@@ -1133,6 +1130,13 @@ Total
 -
 1
 ;
+/
+/
+d15
+is
+the
+ScratchFloatReg
+.
 static
 const
 uint32_t
@@ -1186,13 +1190,6 @@ d13
 <
 d14
 )
-|
-(
-1
-<
-<
-d15
-)
 ;
 static
 const
@@ -1213,7 +1210,7 @@ VolatileMask
 ;
 /
 /
-d1
+d15
 is
 the
 ARM
@@ -1230,7 +1227,7 @@ NonAllocatableMask
 1
 <
 <
-d1
+d15
 )
 |
 (
