@@ -808,6 +808,13 @@ nsEventDispatcher
 .
 h
 "
+#
+include
+"
+nsXMLHttpRequest
+.
+h
+"
 /
 /
 paint
@@ -6093,6 +6100,9 @@ bool
 aPermitUnload
 )
 {
+AutoDontWarnAboutSyncXHR
+disableSyncXHRWarning
+;
 *
 aPermitUnload
 =
@@ -7197,6 +7207,9 @@ bool
 aIsUnload
 )
 {
+AutoDontWarnAboutSyncXHR
+disableSyncXHRWarning
+;
 mHidden
 =
 true
