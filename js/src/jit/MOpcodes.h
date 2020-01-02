@@ -754,11 +754,6 @@ TypedArrayElements
 \
 _
 (
-TypedObjectProto
-)
-\
-_
-(
 TypedObjectElements
 )
 \

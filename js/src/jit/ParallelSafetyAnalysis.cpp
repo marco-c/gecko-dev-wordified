@@ -1280,10 +1280,6 @@ TypedArrayElements
 )
 SAFE_OP
 (
-TypedObjectProto
-)
-SAFE_OP
-(
 TypedObjectElements
 )
 SAFE_OP
