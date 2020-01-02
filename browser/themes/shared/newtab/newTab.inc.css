@@ -512,7 +512,7 @@ border
 -
 radius
 :
-12px
+8px
 ;
 }
 .
@@ -536,7 +536,7 @@ outline
 -
 radius
 :
-12px
+8px
 ;
 }
 /
@@ -625,8 +625,8 @@ shadow
 :
 0
 0
-10px
-3px
+6px
+2px
 #
 4cb1ff
 ;
@@ -681,7 +681,7 @@ border
 -
 radius
 :
-10px
+6px
 ;
 }
 /
