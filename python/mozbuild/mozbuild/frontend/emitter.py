@@ -788,11 +788,6 @@ exclusions
 =
 (
 '
-gfx
-/
-skia
-'
-'
 toolkit
 /
 crashreporter
