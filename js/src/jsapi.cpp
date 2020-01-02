@@ -3916,9 +3916,7 @@ rt
 >
 gc
 .
-conservativeGC
-.
-updateForRequestEnd
+notifyRequestEnd
 (
 )
 ;

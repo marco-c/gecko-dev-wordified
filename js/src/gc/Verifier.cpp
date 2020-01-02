@@ -1547,7 +1547,12 @@ node
 .
 *
 /
-MarkRuntime
+rt
+-
+>
+gc
+.
+markRuntime
 (
 trc
 )
