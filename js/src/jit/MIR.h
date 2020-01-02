@@ -32615,6 +32615,12 @@ return
 monitoredResult_
 ;
 }
+bool
+allowDoubleResult
+(
+)
+const
+;
 TypePolicy
 *
 typePolicy

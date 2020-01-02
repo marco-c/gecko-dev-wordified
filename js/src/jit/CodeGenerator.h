@@ -2621,6 +2621,8 @@ TypedOrValueRegister
 output
 bool
 monitoredResult
+bool
+allowDoubleResult
 )
 ;
 bool
