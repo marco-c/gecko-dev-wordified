@@ -1330,16 +1330,8 @@ id
 &
 id
 .
-substring
+endsWith
 (
-id
-.
-length
--
-18
-)
-=
-=
 "
 tests
 .
@@ -1347,6 +1339,7 @@ mozilla
 .
 org
 "
+)
 )
 order
 .
