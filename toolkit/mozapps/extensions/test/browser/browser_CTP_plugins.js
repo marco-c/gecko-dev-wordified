@@ -1844,12 +1844,9 @@ menulist
 "
 )
 ;
-is
+is_element_hidden
 (
 menu
-.
-disabled
-true
 "
 part12
 :
@@ -1857,7 +1854,7 @@ state
 menu
 should
 be
-disabled
+hidden
 "
 )
 ;
@@ -1921,12 +1918,9 @@ menulist
 "
 )
 ;
-is
+is_element_hidden
 (
 menu
-.
-disabled
-true
 "
 part13
 :
@@ -1935,7 +1929,7 @@ state
 menu
 should
 be
-disabled
+hidden
 "
 )
 ;
