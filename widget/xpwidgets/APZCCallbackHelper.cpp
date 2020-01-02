@@ -702,9 +702,7 @@ aFrame
 )
 {
 return
-CSSPoint
-(
-)
+aPoint
 ;
 }
 /
