@@ -9944,6 +9944,7 @@ this
 .
 _starButtonOverflowedLabel
 ;
+return
 this
 .
 _starButtonOverflowedLabel
@@ -9970,6 +9971,7 @@ this
 .
 _starButtonOverflowedStarredLabel
 ;
+return
 this
 .
 _starButtonOverflowedStarredLabel
