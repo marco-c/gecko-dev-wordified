@@ -15353,7 +15353,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 nullptr
-JSMSG_CCW_REQUIRED
+JSMSG_DEBUG_CCW_REQUIRED
 "
 Debugger
 "

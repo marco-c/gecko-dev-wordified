@@ -10546,7 +10546,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 nullptr
-JSMSG_BAD_CLONE_VERSION
+JSMSG_SC_BAD_CLONE_VERSION
 )
 ;
 return
