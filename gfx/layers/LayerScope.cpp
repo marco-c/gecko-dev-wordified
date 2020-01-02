@@ -222,6 +222,13 @@ h
 #
 include
 "
+GLReadTexImageHelper
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h
@@ -2376,7 +2383,12 @@ img
 aGLContext
 -
 >
-ReadTextureImage
+ReadTexImageHelper
+(
+)
+-
+>
+ReadTexImage
 (
 0
 textureTarget
