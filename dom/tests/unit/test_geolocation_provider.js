@@ -490,7 +490,7 @@ prefs
 setBoolPref
 (
 "
-geo
+dom
 .
 testing
 .
