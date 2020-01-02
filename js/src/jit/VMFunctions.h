@@ -4750,6 +4750,14 @@ int32_t
 offset
 )
 ;
+bool
+Recompile
+(
+JSContext
+*
+cx
+)
+;
 }
 /
 /
