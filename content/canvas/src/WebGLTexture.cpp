@@ -1067,6 +1067,16 @@ SetCustomMipmap
 (
 )
 ;
+/
+/
+Invalidate
+framebuffer
+status
+cache
+NotifyFBsStatusChanged
+(
+)
+;
 SetFakeBlackStatus
 (
 WebGLTextureFakeBlackStatus
