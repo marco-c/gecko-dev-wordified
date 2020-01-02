@@ -519,7 +519,7 @@ BOOL
 WinLaunchChild
 (
 const
-PRUnichar
+wchar_t
 *
 exePath
 int

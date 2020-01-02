@@ -994,14 +994,14 @@ h
 #
 include
 <
-comutil
+comdef
 .
 h
 >
 #
 include
 <
-Wbemidl
+wbemidl
 .
 h
 >

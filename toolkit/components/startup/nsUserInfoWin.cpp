@@ -215,7 +215,7 @@ in
 lmcons
 .
 h
-PRUnichar
+wchar_t
 username
 [
 UNLEN
@@ -291,7 +291,7 @@ aFullname
 =
 nullptr
 ;
-PRUnichar
+wchar_t
 fullName
 [
 512
@@ -364,7 +364,7 @@ obtain
 the
 information
 .
-PRUnichar
+wchar_t
 username
 [
 UNLEN
@@ -705,7 +705,7 @@ email
 address
 is
 254
-PRUnichar
+wchar_t
 emailAddress
 [
 255

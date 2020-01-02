@@ -3147,7 +3147,7 @@ SetLocalPath
 (
 mPath
 .
-BeginWriting
+get
 (
 )
 )
@@ -3179,7 +3179,7 @@ SetSource
 (
 mOrigin
 .
-BeginWriting
+get
 (
 )
 )
