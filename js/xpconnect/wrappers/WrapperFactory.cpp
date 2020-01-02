@@ -1384,7 +1384,7 @@ obj
 ;
 key
 =
-JS_IdentifyClassPrototype
+IdentifyStandardPrototype
 (
 obj
 )

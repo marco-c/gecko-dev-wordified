@@ -3853,7 +3853,10 @@ continue
 JSProtoKey
 key
 =
-js_IdentifyClassPrototype
+JS
+:
+:
+IdentifyStandardPrototype
 (
 proto
 .
