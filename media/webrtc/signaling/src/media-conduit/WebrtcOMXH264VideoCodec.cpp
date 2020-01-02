@@ -130,6 +130,10 @@ h
 #
 include
 <
+media
+/
+stagefright
+/
 MediaCodec
 .
 h
@@ -137,6 +141,10 @@ h
 #
 include
 <
+media
+/
+stagefright
+/
 MediaDefs
 .
 h
@@ -144,6 +152,10 @@ h
 #
 include
 <
+media
+/
+stagefright
+/
 MediaErrors
 .
 h
@@ -151,6 +163,10 @@ h
 #
 include
 <
+media
+/
+stagefright
+/
 MetaData
 .
 h
