@@ -1075,10 +1075,10 @@ float
 aDisplayResolution
 bool
 aDrawingCritical
-ScreenRect
+ParentLayerRect
 &
 aCompositionBounds
-CSSToScreenScale
+CSSToParentLayerScale
 &
 aZoom
 )

@@ -664,11 +664,12 @@ aFrameMetrics
 {
 CSSRect
 compositionBounds
-=
+(
 aFrameMetrics
 .
 CalculateCompositedRectInCssPixels
 (
+)
 )
 ;
 aFrameMetrics
@@ -1300,6 +1301,8 @@ container
 CSSSize
 scrollPort
 =
+CSSSize
+(
 aMetrics
 .
 CalculateCompositedRectInCssPixels
@@ -1308,6 +1311,7 @@ CalculateCompositedRectInCssPixels
 .
 Size
 (
+)
 )
 ;
 aUtils
@@ -1663,12 +1667,6 @@ layer
 is
 painted
 .
-mozilla
-:
-:
-layers
-:
-:
 ParentLayerToLayerScale
 presShellResolution
 =
