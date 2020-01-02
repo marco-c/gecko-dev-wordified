@@ -1727,13 +1727,9 @@ this
 .
 timestamp
 =
-new
-Date
-(
 pdu
 .
 timestamp
-)
 ;
 if
 (
