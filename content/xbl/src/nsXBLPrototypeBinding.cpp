@@ -1329,7 +1329,6 @@ nsXBLPrototypeBinding
 GetAllowScripts
 (
 )
-const
 {
 return
 mXBLDocInfoWeak
