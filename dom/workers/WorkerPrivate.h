@@ -4077,11 +4077,7 @@ WorkerAvailable
 (
 JSContext
 *
-/
-*
-unused
-*
-/
+aCx
 JSObject
 *
 /
