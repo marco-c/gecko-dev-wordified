@@ -1557,7 +1557,7 @@ notification
 .
 options
 .
-centerActions
+pluginData
 .
 size
 1
@@ -6114,7 +6114,7 @@ notification
 .
 options
 .
-centerActions
+pluginData
 .
 size
 2
@@ -6147,7 +6147,7 @@ notification
 .
 options
 .
-centerActions
+pluginData
 .
 values
 (
@@ -6408,7 +6408,7 @@ notification
 .
 options
 .
-centerActions
+pluginData
 .
 size
 =
@@ -6745,7 +6745,7 @@ notification
 .
 options
 .
-centerActions
+pluginData
 .
 values
 (

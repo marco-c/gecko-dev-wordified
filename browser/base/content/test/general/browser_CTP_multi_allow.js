@@ -585,7 +585,7 @@ notification
 .
 options
 .
-centerActions
+pluginData
 .
 size
 2
