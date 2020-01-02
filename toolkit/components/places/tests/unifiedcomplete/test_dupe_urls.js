@@ -163,7 +163,6 @@ title
 mozilla
 .
 org
-/
 "
 }
 ]
