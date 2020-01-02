@@ -977,7 +977,6 @@ false
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -1035,10 +1034,11 @@ _initiateShutdown
 (
 )
 ;
-yield
 reporter
 .
-_promiseShutdown
+_waitForShutdown
+(
+)
 ;
 }
 )
@@ -1097,10 +1097,11 @@ init
 (
 )
 ;
-yield
 reporter
 .
-_promiseShutdown
+_waitForShutdown
+(
+)
 ;
 do_check_eq
 (
@@ -1208,10 +1209,11 @@ logic
 is
 busted
 .
-yield
 reporter
 .
-_promiseShutdown
+_waitForShutdown
+(
+)
 ;
 do_check_eq
 (
@@ -1319,10 +1321,11 @@ logic
 is
 busted
 .
-yield
 reporter
 .
-_promiseShutdown
+_waitForShutdown
+(
+)
 ;
 do_check_eq
 (
@@ -1636,7 +1639,6 @@ size
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -1812,7 +1814,6 @@ collectDailyCount
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -1990,7 +1991,6 @@ save
 (
 )
 ;
-yield
 reporter
 .
 _shutdown
@@ -2069,7 +2069,6 @@ path
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -2372,7 +2371,6 @@ object
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -2503,7 +2501,6 @@ _v
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -2613,7 +2610,6 @@ object
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -3017,7 +3013,6 @@ promise
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -3249,7 +3244,6 @@ days
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -3716,7 +3710,6 @@ highestVersion
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -3890,7 +3883,6 @@ size
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -4479,7 +4471,6 @@ _state
 .
 clientID
 ;
-yield
 reporter
 .
 _shutdown
@@ -4537,7 +4528,6 @@ clientID
 clientID
 )
 ;
-yield
 reporter
 .
 _shutdown
@@ -5482,7 +5472,6 @@ willUploadData
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -5643,7 +5632,6 @@ AppDataURI
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -5852,7 +5840,6 @@ geckoAppInfo
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -6005,7 +5992,6 @@ involved
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -6034,7 +6020,6 @@ failure_if_not_initialized
 "
 )
 ;
-yield
 reporter
 .
 _shutdown
@@ -6172,25 +6157,6 @@ test_upload_on_init_failure
 )
 {
 let
-MESSAGE
-=
-"
-Fake
-error
-during
-provider
-manager
-initialization
-.
-"
-+
-Math
-.
-random
-(
-)
-;
-let
 server
 =
 new
@@ -6240,7 +6206,15 @@ throw
 new
 Error
 (
-MESSAGE
+"
+Fake
+error
+during
+provider
+manager
+initialization
+.
+"
 )
 ;
 }
@@ -6475,11 +6449,17 @@ errors
 .
 contains
 (
-MESSAGE
+"
+Fake
+error
+during
+provider
+manager
+initialization
+"
 )
 )
 ;
-yield
 reporter
 .
 _shutdown
@@ -6680,7 +6660,6 @@ lastPingTime
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -6825,7 +6804,6 @@ length
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -6983,7 +6961,6 @@ length
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -7114,7 +7091,6 @@ lastSubmitID
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
@@ -7467,7 +7443,6 @@ shutdownServer
 server
 )
 ;
-yield
 reporter
 .
 _shutdown
@@ -7732,7 +7707,6 @@ getTime
 }
 finally
 {
-yield
 reporter
 .
 _shutdown

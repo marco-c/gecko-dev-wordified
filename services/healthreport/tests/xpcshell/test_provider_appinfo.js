@@ -2126,7 +2126,6 @@ measurements
 }
 finally
 {
-yield
 reporter
 .
 _shutdown
