@@ -256,6 +256,13 @@ java
 .
 util
 .
+Queue
+;
+import
+java
+.
+util
+.
 Set
 ;
 import
@@ -354,7 +361,7 @@ mHomeConfig
 ;
 private
 final
-ConcurrentLinkedQueue
+Queue
 <
 PanelConfig
 >
