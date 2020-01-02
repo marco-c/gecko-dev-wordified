@@ -1216,7 +1216,7 @@ aIsMainThread
 {
 mCxPusher
 .
-Push
+construct
 (
 aCx
 )
@@ -1375,8 +1375,16 @@ aIsMainThread
 {
 mCxPusher
 .
-PushNull
+construct
 (
+nullptr
+/
+*
+aAllowNull
+=
+*
+/
+true
 )
 ;
 }
