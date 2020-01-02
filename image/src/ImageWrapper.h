@@ -196,9 +196,6 @@ virtual
 size_t
 HeapSizeOfSourceWithComputedFallback
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -209,9 +206,6 @@ virtual
 size_t
 HeapSizeOfDecodedWithComputedFallback
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )

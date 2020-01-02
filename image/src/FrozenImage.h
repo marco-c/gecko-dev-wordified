@@ -254,9 +254,6 @@ public
 ImageWrapper
 {
 typedef
-mozilla
-:
-:
 gfx
 :
 :
@@ -386,9 +383,6 @@ void
 RequestRefresh
 (
 const
-mozilla
-:
-:
 TimeStamp
 &
 aTime

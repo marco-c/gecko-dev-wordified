@@ -373,9 +373,6 @@ RefreshResult
 RequestRefresh
 (
 const
-mozilla
-:
-:
 TimeStamp
 &
 aTime
@@ -830,9 +827,6 @@ rect
 RefreshResult
 AdvanceFrame
 (
-mozilla
-:
-:
 TimeStamp
 aTime
 )
@@ -871,9 +865,6 @@ timestamp
 .
 *
 /
-mozilla
-:
-:
 TimeStamp
 GetCurrentImgFrameEndTime
 (

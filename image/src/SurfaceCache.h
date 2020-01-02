@@ -809,9 +809,6 @@ static
 void
 Insert
 (
-mozilla
-:
-:
 gfx
 :
 :

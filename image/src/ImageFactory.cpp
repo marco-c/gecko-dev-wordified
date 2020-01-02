@@ -1479,9 +1479,6 @@ GetRef
 ref
 )
 ;
-mozilla
-:
-:
 net
 :
 :

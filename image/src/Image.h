@@ -461,9 +461,6 @@ virtual
 size_t
 HeapSizeOfSourceWithComputedFallback
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -475,9 +472,6 @@ virtual
 size_t
 HeapSizeOfDecodedWithComputedFallback
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -1183,9 +1177,6 @@ bool
 HadRecentRefresh
 (
 const
-mozilla
-:
-:
 TimeStamp
 &
 aTime

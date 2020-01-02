@@ -297,9 +297,6 @@ nullptr
 static
 *
 /
-mozilla
-:
-:
 Mutex
 *
 DiscardTracker

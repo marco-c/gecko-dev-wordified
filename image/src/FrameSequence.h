@@ -852,9 +852,6 @@ SizeOfDecodedWithComputedFallbackIfHeap
 (
 gfxMemoryLocation
 aLocation
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
