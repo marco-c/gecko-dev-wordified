@@ -287,6 +287,9 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 InfallibleTArray
 <
 nsString
@@ -395,6 +398,7 @@ true
 aData
 &
 cpows
+aPrincipal
 aJSONRetVal
 )
 ;
@@ -436,6 +440,9 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 )
 :
 mRuntime
@@ -459,6 +466,10 @@ aMessage
 mCpows
 (
 aCpows
+)
+mPrincipal
+(
+aPrincipal
 )
 mRun
 (
@@ -654,6 +665,7 @@ false
 data
 &
 cpows
+mPrincipal
 nullptr
 )
 ;
@@ -684,6 +696,12 @@ mClosure
 JSObject
 *
 mCpows
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mPrincipal
 ;
 /
 /
@@ -744,6 +762,9 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 )
 {
 nsCOMPtr
@@ -760,6 +781,7 @@ this
 aMessage
 aData
 aCpows
+aPrincipal
 )
 ;
 mASyncMessages

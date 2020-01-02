@@ -559,6 +559,13 @@ h
 #
 include
 "
+PermissionMessageUtils
+.
+h
+"
+#
+include
+"
 PCOMContentPermissionRequestChild
 .
 h
@@ -8652,6 +8659,7 @@ false
 cloneData
 nullptr
 nullptr
+nullptr
 )
 ;
 }
@@ -11762,6 +11770,13 @@ CpowEntry
 >
 &
 aCpows
+const
+IPC
+:
+:
+Principal
+&
+aPrincipal
 )
 {
 if
@@ -11850,6 +11865,7 @@ false
 cloneData
 &
 cpows
+aPrincipal
 nullptr
 )
 ;
@@ -13297,6 +13313,9 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 InfallibleTArray
 <
 nsString
@@ -13373,6 +13392,7 @@ if
 (
 aIsSync
 )
+{
 return
 SendSyncMessage
 (
@@ -13382,9 +13402,11 @@ aMessage
 )
 data
 cpows
+aPrincipal
 aJSONRetVal
 )
 ;
+}
 return
 CallRpcMessage
 (
@@ -13394,6 +13416,7 @@ aMessage
 )
 data
 cpows
+aPrincipal
 aJSONRetVal
 )
 ;
@@ -13424,6 +13447,9 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 )
 {
 ContentChild
@@ -13497,6 +13523,7 @@ aMessage
 )
 data
 cpows
+aPrincipal
 )
 ;
 }

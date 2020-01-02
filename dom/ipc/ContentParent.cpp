@@ -6446,6 +6446,7 @@ false
 nullptr
 nullptr
 nullptr
+nullptr
 )
 ;
 }
@@ -15943,6 +15944,13 @@ CpowEntry
 >
 &
 aCpows
+const
+IPC
+:
+:
+Principal
+&
+aPrincipal
 InfallibleTArray
 <
 nsString
@@ -16007,6 +16015,7 @@ true
 cloneData
 &
 cpows
+aPrincipal
 aRetvals
 )
 ;
@@ -16036,6 +16045,13 @@ CpowEntry
 >
 &
 aCpows
+const
+IPC
+:
+:
+Principal
+&
+aPrincipal
 InfallibleTArray
 <
 nsString
@@ -16100,6 +16116,7 @@ true
 cloneData
 &
 cpows
+aPrincipal
 aRetvals
 )
 ;
@@ -16129,6 +16146,13 @@ CpowEntry
 >
 &
 aCpows
+const
+IPC
+:
+:
+Principal
+&
+aPrincipal
 )
 {
 nsRefPtr
@@ -16187,6 +16211,7 @@ false
 cloneData
 &
 cpows
+aPrincipal
 nullptr
 )
 ;
@@ -17268,6 +17293,9 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 )
 {
 ClonedMessageData
@@ -17324,6 +17352,7 @@ aMessage
 )
 data
 cpows
+aPrincipal
 )
 ;
 }

@@ -963,6 +963,13 @@ CpowEntry
 >
 &
 aCpows
+const
+IPC
+:
+:
+Principal
+&
+aPrincipal
 )
 ;
 virtual
