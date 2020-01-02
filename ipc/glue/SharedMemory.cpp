@@ -305,7 +305,7 @@ mMappedSize
 static
 Atomic
 <
-uint32_t
+bool
 >
 registered
 ;
@@ -315,8 +315,8 @@ registered
 .
 compareExchange
 (
-0
-1
+false
+true
 )
 )
 {
