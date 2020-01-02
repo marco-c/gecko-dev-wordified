@@ -4502,7 +4502,10 @@ TYPE_MAX
 .
 *
 /
-int
+Scalar
+:
+:
+Type
 getTypedArrayType
 (
 )

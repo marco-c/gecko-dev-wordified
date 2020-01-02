@@ -3288,10 +3288,10 @@ uint32_t
 offset
 uint32_t
 after
-ArrayBufferView
+Scalar
 :
 :
-ViewType
+Type
 vt
 AnyRegister
 loadedReg
@@ -3337,10 +3337,10 @@ isFloat32Load_
 vt
 =
 =
-ArrayBufferView
+Scalar
 :
 :
-TYPE_FLOAT32
+Float32
 )
 loadedReg_
 (

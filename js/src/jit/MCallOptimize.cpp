@@ -1685,18 +1685,12 @@ if
 thisTypes
 )
 {
-ScalarTypeDescr
+Scalar
 :
 :
 Type
 type
 =
-(
-ScalarTypeDescr
-:
-:
-Type
-)
 thisTypes
 -
 >
@@ -1709,10 +1703,10 @@ if
 type
 !
 =
-ScalarTypeDescr
+Scalar
 :
 :
-TYPE_MAX
+TypeMax
 &
 &
 TypedArrayObject
@@ -9740,7 +9734,7 @@ typed
 object
 arrays
 .
-ScalarTypeDescr
+Scalar
 :
 :
 Type
@@ -9925,7 +9919,7 @@ InliningStatus_Error
 continue
 ;
 }
-ScalarTypeDescr
+Scalar
 :
 :
 Type
@@ -10016,7 +10010,7 @@ obj
 MDefinition
 *
 id
-ScalarTypeDescr
+Scalar
 :
 :
 Type
@@ -10328,7 +10322,7 @@ CallInfo
 callInfo
 uint32_t
 base
-ScalarTypeDescr
+Scalar
 :
 :
 Type
@@ -10440,7 +10434,7 @@ CallInfo
 callInfo
 uint32_t
 base
-ScalarTypeDescr
+Scalar
 :
 :
 Type

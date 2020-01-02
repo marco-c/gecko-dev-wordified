@@ -594,15 +594,13 @@ code
 /
 /
 prefer
-ScalarTypeRepresentation
+Scalar
 :
 :
-TYPE_INT8
+Int8
 etc
 which
 allows
-/
-/
 you
 to
 write
@@ -610,6 +608,8 @@ a
 switch
 which
 will
+/
+/
 receive
 a
 warning
@@ -617,8 +617,6 @@ if
 you
 omit
 a
-/
-/
 case
 .
 #

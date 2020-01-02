@@ -419,7 +419,7 @@ TypedArrayObject
 :
 classes
 [
-ScalarTypeDescr
+Scalar
 :
 :
 type
@@ -777,7 +777,7 @@ Int8Array
 js_InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
-TYPE_INT8
+Int8
 )
 )
 \
@@ -788,7 +788,7 @@ Uint8Array
 js_InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
-TYPE_UINT8
+Uint8
 )
 )
 \
@@ -799,7 +799,7 @@ Int16Array
 js_InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
-TYPE_INT16
+Int16
 )
 )
 \
@@ -810,7 +810,7 @@ Uint16Array
 js_InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
-TYPE_UINT16
+Uint16
 )
 )
 \
@@ -821,7 +821,7 @@ Int32Array
 js_InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
-TYPE_INT32
+Int32
 )
 )
 \
@@ -832,7 +832,7 @@ Uint32Array
 js_InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
-TYPE_UINT32
+Uint32
 )
 )
 \
@@ -843,7 +843,7 @@ Float32Array
 js_InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
-TYPE_FLOAT32
+Float32
 )
 )
 \
@@ -854,7 +854,7 @@ Float64Array
 js_InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
-TYPE_FLOAT64
+Float64
 )
 )
 \
@@ -865,7 +865,7 @@ Uint8ClampedArray
 js_InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
-TYPE_UINT8_CLAMPED
+Uint8Clamped
 )
 )
 \
