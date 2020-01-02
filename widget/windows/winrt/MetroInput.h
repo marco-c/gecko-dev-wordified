@@ -1034,10 +1034,10 @@ UnregisterInputEvents
 Hit
 testing
 for
-chrome
+apz
 content
 bool
-mChromeHitTestCacheForTouch
+mNonApzTargetForTouch
 ;
 bool
 HitTestChrome
