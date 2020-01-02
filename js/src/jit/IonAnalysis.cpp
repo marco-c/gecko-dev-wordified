@@ -16466,6 +16466,14 @@ NewCompilerConstraintList
 temp
 )
 ;
+if
+(
+!
+constraints
+)
+return
+false
+;
 BaselineInspector
 inspector
 (
