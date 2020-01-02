@@ -248,9 +248,6 @@ namespace
 layers
 {
 class
-Matrix4x4
-;
-class
 Compositor
 ;
 CompositableHost
