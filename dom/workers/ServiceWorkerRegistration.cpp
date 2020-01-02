@@ -589,7 +589,6 @@ swm
 >
 Unregister
 (
-mWindow
 mScope
 getter_AddRefs
 (
