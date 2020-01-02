@@ -2237,6 +2237,8 @@ aReflowState
 nsIFrame
 *
 aKidFrame
+nsPoint
+aKidPosition
 nsHTMLReflowMetrics
 &
 aDesiredSize
