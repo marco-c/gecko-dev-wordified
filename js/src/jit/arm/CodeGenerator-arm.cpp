@@ -2009,6 +2009,12 @@ ma_push
 ScratchRegister
 )
 ;
+/
+/
+BailoutStack
+:
+:
+padding_
 masm
 .
 ma_push
@@ -2016,6 +2022,12 @@ ma_push
 ScratchRegister
 )
 ;
+/
+/
+BailoutStack
+:
+:
+snapshotOffset_
 masm
 .
 ma_b
