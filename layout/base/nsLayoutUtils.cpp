@@ -42901,6 +42901,14 @@ wantSubAPZC
 gfxPrefs
 :
 :
+AsyncPanZoomEnabled
+(
+)
+&
+&
+gfxPrefs
+:
+:
 APZSubframeEnabled
 (
 )
