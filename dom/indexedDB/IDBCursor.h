@@ -359,6 +359,7 @@ Key
 aKey
 StructuredCloneReadInfo
 &
+&
 aCloneReadInfo
 )
 ;
@@ -495,6 +496,7 @@ Key
 &
 aObjectKey
 StructuredCloneReadInfo
+&
 &
 aCloneReadInfo
 )

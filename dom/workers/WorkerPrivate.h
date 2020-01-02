@@ -1489,6 +1489,7 @@ uint64_t
 aMessagePortSerial
 JSAutoStructuredCloneBuffer
 &
+&
 aBuffer
 nsTArray
 <
