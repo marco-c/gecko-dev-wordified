@@ -2466,6 +2466,7 @@ introducerFilename
 eval
 "
 lineno
+script
 pcOffset
 )
 ;
@@ -2898,6 +2899,7 @@ introducerFilename
 eval
 "
 lineno
+script
 pcOffset
 )
 ;
