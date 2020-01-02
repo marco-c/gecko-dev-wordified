@@ -6993,7 +6993,7 @@ JSObject
 obj
 )
 ;
-void
+bool
 MergeTypes
 (
 MIRType
@@ -21280,7 +21280,7 @@ type
 )
 ;
 }
-void
+bool
 specializeType
 (
 )
@@ -21330,7 +21330,7 @@ a
 loop
 backedge
 .
-void
+bool
 addBackedgeType
 (
 MIRType

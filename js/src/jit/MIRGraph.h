@@ -1589,7 +1589,7 @@ to
 their
 inputs
 .
-void
+bool
 specializePhis
 (
 )
