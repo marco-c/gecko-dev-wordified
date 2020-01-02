@@ -513,7 +513,7 @@ given
 time
 .
 bool
-ContainsTime
+AllContainsTime
 (
 double
 aTime

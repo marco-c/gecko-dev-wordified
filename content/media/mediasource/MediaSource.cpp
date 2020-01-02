@@ -1038,6 +1038,14 @@ Append
 sourceBuffer
 )
 ;
+mActiveSourceBuffers
+-
+>
+Append
+(
+sourceBuffer
+)
+;
 MSE_DEBUG
 (
 "

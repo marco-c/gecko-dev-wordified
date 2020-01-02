@@ -611,7 +611,7 @@ bool
 SourceBufferList
 :
 :
-ContainsTime
+AllContainsTime
 (
 double
 aTime
@@ -658,7 +658,13 @@ false
 }
 }
 return
-true
+mSourceBuffers
+.
+Length
+(
+)
+>
+0
 ;
 }
 void

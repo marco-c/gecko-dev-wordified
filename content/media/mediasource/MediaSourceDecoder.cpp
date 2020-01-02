@@ -2446,7 +2446,7 @@ if
 sbl
 -
 >
-ContainsTime
+AllContainsTime
 (
 aTime
 /
