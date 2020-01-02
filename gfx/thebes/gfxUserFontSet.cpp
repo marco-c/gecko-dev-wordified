@@ -2316,7 +2316,7 @@ const
 nsAString
 &
 aOriginalName
-nsTArray
+FallibleTArray
 <
 uint8_t
 >
@@ -2522,7 +2522,7 @@ uint8_t
 aFontData
 uint32_t
 aLength
-nsTArray
+FallibleTArray
 <
 uint8_t
 >
@@ -4347,7 +4347,7 @@ gfxUserFontData
 record
 below
 .
-nsTArray
+FallibleTArray
 <
 uint8_t
 >
