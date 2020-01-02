@@ -28322,8 +28322,7 @@ return
 }
 /
 /
-The
-explicitOriginalTarget
+triggerNode
 can
 be
 a
@@ -28337,9 +28336,9 @@ toolbaritem
 let
 toolbarItem
 =
-aEvent
+popup
 .
-explicitOriginalTarget
+triggerNode
 ;
 if
 (
