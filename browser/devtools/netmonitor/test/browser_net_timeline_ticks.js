@@ -332,7 +332,7 @@ getFormatStr
 "
 networkMenu
 .
-divisionMS
+millisecond
 "
 0
 )
@@ -382,7 +382,7 @@ getFormatStr
 "
 networkMenu
 .
-divisionMS
+millisecond
 "
 80
 )
@@ -432,7 +432,7 @@ getFormatStr
 "
 networkMenu
 .
-divisionMS
+millisecond
 "
 160
 )
