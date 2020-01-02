@@ -987,7 +987,13 @@ nsCOMPtr
 <
 nsIMemoryReporter
 >
-mStorageSQLiteReporter
+mStorageSQLiteUniReporter
+;
+nsCOMPtr
+<
+nsIMemoryReporter
+>
+mStorageSQLiteMultiReporter
 ;
 static
 Service
