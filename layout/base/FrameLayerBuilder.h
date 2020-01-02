@@ -524,7 +524,7 @@ top
 left
 of
 the
-aActiveScrolledRoot
+aAnimatedGeometryRoot
 .
 *
 It
