@@ -21007,8 +21007,10 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 XPCVARIANT_IID
 )
 static
+already_AddRefed
+<
 XPCVariant
-*
+>
 newVariant
 (
 JSContext
