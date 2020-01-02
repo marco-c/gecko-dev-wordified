@@ -160,8 +160,15 @@ member
 :
     
 return
-INSTANCE_RESERVED_SLOTS
+"
+(
+DOM_INSTANCE_RESERVED_SLOTS
 +
+%
+d
+)
+"
+%
 member
 .
 slotIndex
@@ -20200,7 +20207,7 @@ CGGeneric
 static_assert
 (
 %
-d
+s
 <
 js
 :
@@ -20628,7 +20635,7 @@ GetReservedSlot
 (
 obj
 %
-d
+s
 )
 )
 ;
@@ -20707,7 +20714,7 @@ SetReservedSlot
 (
 obj
 %
-d
+s
 oldValue
 )
 ;
@@ -20853,7 +20860,7 @@ SetReservedSlot
 (
 obj
 %
-d
+s
 JS
 :
 :
@@ -43444,7 +43451,7 @@ SetReservedSlot
 (
 reflector
 %
-d
+s
 tempVal
 )
 ;
@@ -51351,7 +51358,7 @@ GetReservedSlot
 (
 reflector
 %
-d
+s
 )
 ;
 \
@@ -53401,7 +53408,7 @@ n
                 
 "
 %
-d
+s
 /
 *
 Reserved
@@ -53719,49 +53726,31 @@ member
 )
 ;
                 
-if
-slotIndex
->
-=
-16
-:
 #
-JS
-engine
-currently
-allows
-16
-fixed
-slots
-                    
-raise
-TypeError
-(
-"
-Make
-sure
-we
-can
-actually
-have
+We
+'
+ll
+statically
+assert
+that
 this
-many
-"
-                                    
-"
-fixed
-slots
-please
-!
-"
-)
+is
+not
+too
+big
+in
+                
+#
+CGUpdateMemberSlotsMethod
             
 else
 :
                 
 slotIndex
 =
+"
 0
+"
             
 result
 =
@@ -53921,7 +53910,9 @@ AliasEverything
 "
                                              
 False
+"
 0
+"
                                              
 [
 BuiltinTypes
@@ -54278,7 +54269,9 @@ methodInfal
 False
 aliasSet
 False
+"
 0
+"
                                         
 [
 s
