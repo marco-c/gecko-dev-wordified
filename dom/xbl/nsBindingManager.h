@@ -1079,7 +1079,10 @@ XPIDL
 interface
 )
 .
+nsAutoPtr
+<
 PLDHashTable
+>
 mWrapperTable
 ;
 /
