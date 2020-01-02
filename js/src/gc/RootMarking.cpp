@@ -5422,6 +5422,11 @@ MarkAtoms
 trc
 )
 ;
+MarkWellKnownSymbols
+(
+trc
+)
+;
 #
 ifdef
 JS_ION
