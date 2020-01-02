@@ -2232,6 +2232,10 @@ channel
 fprintf
 (
 IonSpewFile
+"
+%
+s
+"
 str
 )
 ;
