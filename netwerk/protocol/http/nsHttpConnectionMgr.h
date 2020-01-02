@@ -2166,8 +2166,10 @@ nsConnectionEntry
 (
 )
 ;
+nsRefPtr
+<
 nsHttpConnectionInfo
-*
+>
 mConnInfo
 ;
 nsTArray

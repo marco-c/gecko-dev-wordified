@@ -309,6 +309,11 @@ nsHttpRequestHead
 (
 )
 ;
+~
+nsHttpRequestHead
+(
+)
+;
 void
 SetMethod
 (
