@@ -357,7 +357,7 @@ eGUIEventClass
 /
 /
 WidgetGUIEvent
-NS_INPUT_EVENT
+eInputEventClass
 /
 /
 WidgetInputEvent
@@ -7652,7 +7652,7 @@ WidgetGUIEvent
 aIsTrusted
 aMessage
 aWidget
-NS_INPUT_EVENT
+eInputEventClass
 )
 modifiers
 (
@@ -7674,7 +7674,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_INPUT_EVENT
+eInputEventClass
 "
 Duplicate
 (

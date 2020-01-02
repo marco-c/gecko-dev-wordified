@@ -2011,7 +2011,7 @@ NON_IDL_EVENT
 command
 NS_XUL_COMMAND
 EventNameType_XUL
-NS_INPUT_EVENT
+eInputEventClass
 )
 NON_IDL_EVENT
 (
