@@ -802,14 +802,6 @@ generatePrologue
 )
 ;
 bool
-generateAsmJSPrologue
-(
-Label
-*
-stackOverflowLabel
-)
-;
-bool
 generateEpilogue
 (
 )

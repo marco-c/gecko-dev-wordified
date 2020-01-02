@@ -6100,6 +6100,17 @@ activationGlobalDataOffset
 (
 )
 {
+JS_STATIC_ASSERT
+(
+jit
+:
+:
+AsmJSActivationGlobalDataOffset
+=
+=
+0
+)
+;
 return
 0
 ;

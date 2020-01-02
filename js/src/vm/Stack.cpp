@@ -9719,7 +9719,7 @@ resumePC_
 (
 nullptr
 )
-exitFP_
+fp_
 (
 nullptr
 )
@@ -9902,6 +9902,14 @@ profiler_
 >
 exitNative
 (
+)
+;
+JS_ASSERT
+(
+fp_
+=
+=
+nullptr
 )
 ;
 JS_ASSERT
