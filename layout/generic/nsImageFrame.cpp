@@ -12202,7 +12202,7 @@ NS_ASSERTION
 mContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 "
@@ -12223,7 +12223,7 @@ aCharset
 mContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 -
