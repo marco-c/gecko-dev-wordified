@@ -1725,7 +1725,7 @@ way
 "
 )
 ;
-int
+int64_t
 bufferKey
 =
 handle
@@ -1793,7 +1793,7 @@ SharedBufferManagerChild
 :
 GetGraphicBuffer
 (
-int
+int64_t
 key
 )
 {

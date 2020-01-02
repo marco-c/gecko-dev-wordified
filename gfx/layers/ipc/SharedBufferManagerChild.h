@@ -607,7 +607,7 @@ GraphicBuffer
 >
 GetGraphicBuffer
 (
-int
+int64_t
 index
 )
 ;
@@ -827,7 +827,7 @@ std
 :
 map
 <
-int
+int64_t
 android
 :
 :

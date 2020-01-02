@@ -309,7 +309,7 @@ GraphicBuffer
 >
 GetGraphicBuffer
 (
-int
+int64_t
 key
 )
 ;
@@ -633,7 +633,7 @@ std
 :
 map
 <
-int
+int64_t
 android
 :
 :
@@ -670,13 +670,7 @@ Thread
 mThread
 ;
 static
-mozilla
-:
-:
-Atomic
-<
-uint32_t
->
+uint64_t
 sBufferKey
 ;
 static
