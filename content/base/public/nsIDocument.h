@@ -12239,6 +12239,13 @@ eDeprecatedOperationCount
 #
 undef
 DEPRECATED_OPERATION
+bool
+HasWarnedAbout
+(
+DeprecatedOperations
+aOperation
+)
+;
 void
 WarnOnceAbout
 (
