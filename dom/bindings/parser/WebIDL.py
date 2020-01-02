@@ -2106,6 +2106,13 @@ name
 __content
 "
 and
+name
+!
+=
+"
+___noSuchMethod__
+"
+and
 not
 allowDoubleUnderscore
 :
@@ -22547,6 +22554,17 @@ name
 =
 "
 __
+"
+and
+self
+.
+identifier
+.
+name
+!
+=
+"
+__noSuchMethod__
 "
     
 def
