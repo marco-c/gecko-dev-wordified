@@ -247,6 +247,15 @@ that
 does
 not
 verify
+ORTSkipResponseBytes
+/
+/
+the
+response
+does
+not
+include
+responseBytes
 }
 ;
 struct
