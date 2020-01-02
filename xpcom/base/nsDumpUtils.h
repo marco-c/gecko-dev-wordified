@@ -243,6 +243,12 @@ defined
 (
 __FreeBSD__
 )
+|
+|
+defined
+(
+XP_MACOSX
+)
 /
 /
 {
