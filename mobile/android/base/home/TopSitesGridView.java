@@ -321,6 +321,8 @@ onEditPinnedSite
 (
 int
 position
+String
+searchTerm
 )
 ;
 }
@@ -791,6 +793,8 @@ mEditPinnedSiteListener
 onEditPinnedSite
 (
 position
+"
+"
 )
 ;
 }
