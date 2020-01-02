@@ -169,6 +169,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 jswatchpoint
 .
 h
