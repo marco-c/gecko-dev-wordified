@@ -121,13 +121,6 @@ mozilla_dom_SpeechGrammarList_h
 #
 include
 "
-EnableWebSpeechRecognitionCheck
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -188,8 +181,6 @@ public
 nsISupports
 public
 nsWrapperCache
-public
-EnableWebSpeechRecognitionCheck
 {
 public
 :

@@ -158,13 +158,6 @@ h
 #
 include
 "
-EnableSpeechSynthesisCheck
-.
-h
-"
-#
-include
-"
 SpeechSynthesisUtterance
 .
 h
@@ -196,8 +189,6 @@ public
 nsISupports
 public
 nsWrapperCache
-public
-EnableSpeechSynthesisCheck
 {
 public
 :
