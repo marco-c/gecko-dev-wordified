@@ -40676,7 +40676,7 @@ necessary
 .
 masm
 .
-branchTestNeedsBarrier
+branchTestNeedsIncrementalBarrier
 (
 Assembler
 :
@@ -43014,7 +43014,7 @@ noBarrier
 ;
 masm
 .
-branchTestNeedsBarrier
+branchTestNeedsIncrementalBarrier
 (
 Assembler
 :
@@ -47892,7 +47892,7 @@ zone
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

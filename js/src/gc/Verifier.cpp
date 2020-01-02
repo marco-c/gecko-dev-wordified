@@ -1690,7 +1690,7 @@ start
 rt
 -
 >
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 true
 )
@@ -1726,7 +1726,7 @@ zone
 zone
 -
 >
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 true
 Zone
@@ -2255,7 +2255,7 @@ if
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -2266,7 +2266,7 @@ true
 zone
 -
 >
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 false
 Zone
@@ -2284,7 +2284,7 @@ zone
 rt
 -
 >
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 false
 )

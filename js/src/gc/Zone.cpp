@@ -450,7 +450,7 @@ void
 Zone
 :
 :
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 bool
 needs
@@ -522,7 +522,7 @@ canCollect
 )
 )
 ;
-needsBarrier_
+needsIncrementalBarrier_
 =
 needs
 ;

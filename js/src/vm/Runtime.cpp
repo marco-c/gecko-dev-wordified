@@ -3743,7 +3743,7 @@ return
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 |

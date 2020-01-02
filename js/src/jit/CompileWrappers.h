@@ -503,7 +503,7 @@ zone
 const
 void
 *
-addressOfNeedsBarrier
+addressOfNeedsIncrementalBarrier
 (
 )
 ;

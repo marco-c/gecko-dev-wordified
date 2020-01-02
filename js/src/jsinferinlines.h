@@ -8536,7 +8536,7 @@ runtimeFromAnyThread
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -8564,7 +8564,7 @@ if
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

@@ -764,7 +764,7 @@ GC
 *
 /
 bool
-needsBarrier_
+needsIncrementalBarrier_
 ;
 #
 ifdef
@@ -804,7 +804,7 @@ storeBuffer
 endif
 )
 :
-needsBarrier_
+needsIncrementalBarrier_
 (
 false
 )
@@ -820,13 +820,13 @@ endif
 {
 }
 bool
-needsBarrier
+needsIncrementalBarrier
 (
 )
 const
 {
 return
-needsBarrier_
+needsIncrementalBarrier_
 ;
 }
 #

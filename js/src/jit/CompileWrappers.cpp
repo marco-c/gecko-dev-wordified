@@ -757,7 +757,7 @@ void
 CompileZone
 :
 :
-addressOfNeedsBarrier
+addressOfNeedsIncrementalBarrier
 (
 )
 {
@@ -767,7 +767,7 @@ zone
 )
 -
 >
-addressOfNeedsBarrier
+addressOfNeedsIncrementalBarrier
 (
 )
 ;

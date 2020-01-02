@@ -1044,7 +1044,7 @@ if
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -1436,7 +1436,7 @@ JS_ASSERT
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

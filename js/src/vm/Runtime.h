@@ -5977,13 +5977,13 @@ endif
 public
 :
 void
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 bool
 needs
 )
 {
-needsBarrier_
+needsIncrementalBarrier_
 =
 needs
 ;

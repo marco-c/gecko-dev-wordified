@@ -2161,7 +2161,7 @@ shadowZone
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

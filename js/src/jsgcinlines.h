@@ -486,7 +486,7 @@ zoneFromAnyThread
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -502,7 +502,7 @@ runtimeFromAnyThread
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
