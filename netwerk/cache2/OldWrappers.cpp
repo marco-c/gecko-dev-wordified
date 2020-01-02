@@ -831,6 +831,10 @@ nsICacheEntryInfo
 info
 )
 :
+mOldDesc
+(
+nullptr
+)
 mOldInfo
 (
 info
