@@ -91,8 +91,11 @@ MPL
 *
 /
 #
-pragma
-once
+ifndef
+_MOZILLA_GFX_SOURCESURFACESKIA_H
+#
+define
+_MOZILLA_GFX_SOURCESURFACESKIA_H
 #
 ifdef
 USE_SKIA_GPU
@@ -850,3 +853,8 @@ mSnapshot
 ;
 }
 }
+#
+endif
+/
+/
+_MOZILLA_GFX_SOURCESURFACESKIA_H
