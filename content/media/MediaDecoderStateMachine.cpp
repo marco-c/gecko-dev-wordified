@@ -7436,14 +7436,7 @@ aCloneDonor
 {
 cloneReader
 =
-static_cast
-<
-MediaDecoderStateMachine
-*
->
-(
 aCloneDonor
-)
 -
 >
 mReader
