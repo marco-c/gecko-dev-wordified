@@ -4011,7 +4011,7 @@ block
 >
 isOp
 (
-JSOP_LEAVEBLOCK
+JSOP_POPN
 )
 )
 ;
@@ -4024,7 +4024,7 @@ block
 >
 setOp
 (
-JSOP_LEAVEBLOCKEXPR
+JSOP_POPNV
 )
 ;
 block
@@ -4184,7 +4184,7 @@ pn
 >
 setOp
 (
-JSOP_LEAVEBLOCK
+JSOP_POPN
 )
 ;
 pn
