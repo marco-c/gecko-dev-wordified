@@ -275,7 +275,7 @@ AddCue
 (
 TextTrackCue
 &
-cue
+aCue
 )
 ;
 void
@@ -283,7 +283,7 @@ RemoveCue
 (
 TextTrackCue
 &
-cue
+aCue
 ErrorResult
 &
 aRv

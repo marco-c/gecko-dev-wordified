@@ -405,7 +405,7 @@ AddCue
 (
 TextTrackCue
 &
-cue
+aCue
 )
 {
 if
@@ -415,7 +415,7 @@ mList
 Contains
 (
 &
-cue
+aCue
 )
 )
 {
@@ -427,7 +427,7 @@ mList
 AppendElement
 (
 &
-cue
+aCue
 )
 ;
 }
@@ -439,7 +439,7 @@ RemoveCue
 (
 TextTrackCue
 &
-cue
+aCue
 ErrorResult
 &
 aRv
@@ -453,7 +453,7 @@ mList
 Contains
 (
 &
-cue
+aCue
 )
 )
 {
@@ -472,7 +472,7 @@ mList
 RemoveElement
 (
 &
-cue
+aCue
 )
 ;
 }
