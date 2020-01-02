@@ -545,6 +545,17 @@ mozilla
 .
 gecko
 .
+tabspanel
+.
+TabsPanel
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 toolbar
 .
 AutocompleteHandler
