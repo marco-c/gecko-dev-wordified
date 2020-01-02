@@ -4244,7 +4244,7 @@ true
 mCaret
 -
 >
-DrawAtPosition
+SetCaretPosition
 (
 parent
 offset
