@@ -10106,10 +10106,9 @@ locale
 ;
 if
 (
-mHomePager
-!
-=
-null
+isHomePagerVisible
+(
+)
 )
 {
 /
