@@ -835,7 +835,7 @@ mState
 Hold
 the
 sessions
-pointer
+reference
 and
 clean
 it
@@ -852,8 +852,10 @@ running
 .
 nsTArray
 <
+nsRefPtr
+<
 Session
-*
+>
 >
 mSessions
 ;
