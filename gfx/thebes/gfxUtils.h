@@ -339,17 +339,6 @@ aDestSurface
 nullptr
 )
 ;
-static
-void
-ConvertBGRAtoRGBA
-(
-uint8_t
-*
-aData
-uint32_t
-aLength
-)
-;
 /
 *
 *
