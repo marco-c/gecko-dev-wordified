@@ -692,9 +692,6 @@ Promise
 >
 Then
 (
-JSContext
-*
-aCx
 AnyCallback
 *
 aResolveCallback
@@ -709,9 +706,6 @@ Promise
 >
 Catch
 (
-JSContext
-*
-aCx
 AnyCallback
 *
 aRejectCallback
