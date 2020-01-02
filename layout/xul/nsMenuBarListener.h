@@ -182,6 +182,12 @@ nsMenuBarListener
 (
 )
 ;
+static
+void
+InitializeStatics
+(
+)
+;
 NS_IMETHOD
 HandleEvent
 (
