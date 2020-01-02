@@ -515,11 +515,8 @@ EVAL
 "
 Array
 "
+&
 v
-.
-address
-(
-)
 )
 ;
 JS

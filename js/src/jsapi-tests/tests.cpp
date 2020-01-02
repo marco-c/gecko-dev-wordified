@@ -305,8 +305,10 @@ char
 filename
 int
 lineno
-jsval
-*
+JS
+:
+:
+MutableHandleValue
 vp
 )
 {
@@ -344,6 +346,10 @@ bytes
 filename
 lineno
 vp
+.
+address
+(
+)
 )
 |
 |
