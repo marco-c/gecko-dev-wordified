@@ -60,7 +60,7 @@ by
 import
 By
 from
-errors
+marionette
 import
 JavascriptException
 MarionetteException

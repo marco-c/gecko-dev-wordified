@@ -1320,7 +1320,7 @@ b2g_home
         
 options
 .
-logdir
+logcat_dir
 =
 self
 .
@@ -4590,14 +4590,16 @@ busybox
 func
 )
     
-logdir
+logcatdir
 =
 CommandArgument
 (
 '
 -
 -
-logdir
+logcat
+-
+dir
 '
 default
 =
@@ -4609,14 +4611,15 @@ help
 directory
 to
 store
-log
+logcat
+dump
 files
 '
 )
     
 func
 =
-logdir
+logcatdir
 (
 func
 )

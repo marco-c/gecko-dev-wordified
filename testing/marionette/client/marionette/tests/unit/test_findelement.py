@@ -66,7 +66,7 @@ by
 import
 By
 from
-errors
+marionette
 import
 NoSuchElementException
 class

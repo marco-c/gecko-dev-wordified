@@ -58,7 +58,7 @@ marionette_test
 import
 MarionetteTestCase
 from
-errors
+marionette
 import
 JavascriptException
 MarionetteException
@@ -157,6 +157,8 @@ expected
 Hello
 World
 !
+"
+"
 "
 ]
         

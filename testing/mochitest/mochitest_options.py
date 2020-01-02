@@ -6372,7 +6372,9 @@ None
 "
 -
 -
-logdir
+logcat
+-
+dir
 "
 ]
         
@@ -6398,7 +6400,7 @@ dest
 "
 :
 "
-logdir
+logcat_dir
 "
           
 "
@@ -6409,7 +6411,8 @@ help
 directory
 to
 store
-log
+logcat
+dump
 files
 "
           
@@ -6638,6 +6641,22 @@ https
 defaults
 [
 "
+remoteTestRoot
+"
+]
+=
+"
+/
+data
+/
+local
+/
+tests
+"
+        
+defaults
+[
+"
 logFile
 "
 ]
@@ -6805,7 +6824,7 @@ path
 if
 options
 .
-logdir
+logcat_dir
 and
 not
 options
@@ -6829,7 +6848,9 @@ you
 specify
 -
 -
-logdir
+logcat
+-
+dir
 "
 )
         

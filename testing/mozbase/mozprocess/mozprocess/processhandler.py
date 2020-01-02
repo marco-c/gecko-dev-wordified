@@ -5217,13 +5217,9 @@ message
             
 if
 not
-hasattr
-(
 self
-'
+.
 proc
-'
-)
 :
                 
 print

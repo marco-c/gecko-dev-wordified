@@ -109,7 +109,9 @@ res
 "
 -
 -
-logdir
+logcat
+-
+dir
 =
 %
 (
@@ -286,7 +288,9 @@ s
 "
 -
 -
-logdir
+logcat
+-
+dir
 =
 %
 (
@@ -468,7 +472,9 @@ res
 "
 -
 -
-logdir
+logcat
+-
+dir
 =
 %
 (
@@ -634,7 +640,9 @@ res
 "
 -
 -
-logdir
+logcat
+-
+dir
 =
 %
 (
@@ -784,7 +792,9 @@ s
 "
 -
 -
-logdir
+logcat
+-
+dir
 =
 %
 (

@@ -491,7 +491,7 @@ string
 dest
 =
 "
-adb_path
+adbPath
 "
                     
 help
@@ -506,7 +506,7 @@ adb
 defaults
 [
 "
-adb_path
+adbPath
 "
 ]
 =
@@ -947,7 +947,9 @@ add_option
 "
 -
 -
-logdir
+logcat
+-
+dir
 "
 action
 =
@@ -963,7 +965,7 @@ string
 dest
 =
 "
-logdir
+logcat_dir
 "
                         
 help
@@ -972,7 +974,8 @@ help
 directory
 to
 store
-log
+logcat
+dump
 files
 "
 )
@@ -980,7 +983,7 @@ files
 defaults
 [
 "
-logdir
+logcat_dir
 "
 ]
 =
@@ -1529,7 +1532,7 @@ path
 if
 options
 .
-logdir
+logcat_dir
 and
 not
 options
@@ -1553,7 +1556,9 @@ you
 specify
 -
 -
-logdir
+logcat
+-
+dir
 "
 )
         
@@ -4301,19 +4306,19 @@ geckoPath
 if
 options
 .
-logdir
+logcat_dir
 :
             
 kwargs
 [
 '
-logdir
+logcat_dir
 '
 ]
 =
 options
 .
-logdir
+logcat_dir
         
 if
 options
@@ -4424,26 +4429,11 @@ int
 port
 )
     
-if
-options
-.
-adb_path
-:
-        
-kwargs
-[
-'
-adb_path
-'
-]
-=
-options
-.
-adb_path
-    
 marionette
 =
 Marionette
+.
+getMarionetteOrExit
 (
 *
 *
@@ -4487,7 +4477,7 @@ adbPath
 :
 options
 .
-adb_path
+adbPath
                   
 '
 deviceRoot
@@ -4529,7 +4519,7 @@ devicePort
         
 dm
 =
-DeviceManagerADB
+DeviagerADB
 (
 *
 *

@@ -123,15 +123,11 @@ RefTest
 )
 :
     
-marionette
-=
-None
-    
 def
 __init__
 (
 self
-marionette_args
+marionette
 )
 :
         
@@ -157,9 +153,9 @@ __file__
         
 self
 .
-marionette_args
+marionette
 =
-marionette_args
+marionette
         
 self
 .
@@ -203,19 +199,6 @@ run_marionette_script
 self
 )
 :
-        
-self
-.
-marionette
-=
-Marionette
-(
-*
-*
-self
-.
-marionette_args
-)
         
 assert
 (
@@ -537,15 +520,15 @@ process_class
 =
 ProcessHandler
                                     
-process_args
-=
-kp_kwargs
-                                    
 symbols_path
 =
 options
 .
 symbolsPath
+                                    
+kp_kwargs
+=
+kp_kwargs
 )
         
 status
@@ -1230,7 +1213,7 @@ args
 )
 :
     
-marionette_args
+kwargs
 =
 {
 }
@@ -1255,7 +1238,7 @@ split
 '
 )
         
-marionette_args
+kwargs
 [
 '
 host
@@ -1264,7 +1247,7 @@ host
 =
 host
         
-marionette_args
+kwargs
 [
 '
 port
@@ -1276,11 +1259,22 @@ int
 port
 )
     
+marionette
+=
+Marionette
+.
+getMarionetteOrExit
+(
+*
+*
+kwargs
+)
+    
 reftest
 =
 B2GDesktopReftest
 (
-marionette_args
+marionette
 )
     
 options
