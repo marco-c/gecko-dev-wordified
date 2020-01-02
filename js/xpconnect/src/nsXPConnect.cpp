@@ -2226,7 +2226,7 @@ compartmentPrivate
 scope
 -
 >
-TraceSelf
+TraceInside
 (
 trc
 )
