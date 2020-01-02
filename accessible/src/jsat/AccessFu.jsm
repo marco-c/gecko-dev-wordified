@@ -3452,6 +3452,11 @@ virtual_cursor_key
 .
 ogg
 '
+'
+clicked
+.
+ogg
+'
 ]
 earconBuffers
 :
