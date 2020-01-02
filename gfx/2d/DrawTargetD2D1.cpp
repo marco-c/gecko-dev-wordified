@@ -329,9 +329,6 @@ DrawOptions
 aOptions
 )
 {
-Matrix
-mat
-;
 RefPtr
 <
 ID2D1Image
@@ -341,7 +338,6 @@ image
 GetImageForSurface
 (
 aSurface
-mat
 EXTEND_CLAMP
 )
 ;
@@ -1077,9 +1073,6 @@ ID2D1Bitmap
 >
 bitmap
 ;
-Matrix
-mat
-;
 RefPtr
 <
 ID2D1Image
@@ -1089,7 +1082,6 @@ image
 GetImageForSurface
 (
 aMask
-mat
 EXTEND_CLAMP
 )
 ;

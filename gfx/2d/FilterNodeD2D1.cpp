@@ -513,9 +513,6 @@ aDT
 GetImageForSurface
 (
 aSurface
-Matrix
-(
-)
 EXTEND_CLAMP
 )
 ;
