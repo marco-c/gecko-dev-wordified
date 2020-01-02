@@ -998,13 +998,6 @@ mozilla
 WidgetCommandEvent
 nsCommandEvent
 ;
-typedef
-mozilla
-:
-:
-WidgetPluginEvent
-nsPluginEvent
-;
 #
 endif
 /

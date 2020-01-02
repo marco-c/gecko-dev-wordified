@@ -409,7 +409,10 @@ return
 false
 ;
 }
-nsPluginEvent
+mozilla
+:
+:
+WidgetPluginEvent
 pluginEvent
 (
 true

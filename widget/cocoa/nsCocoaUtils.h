@@ -2033,7 +2033,10 @@ static
 void
 InitPluginEvent
 (
-nsPluginEvent
+mozilla
+:
+:
+WidgetPluginEvent
 &
 aPluginEvent
 NPCocoaEvent
