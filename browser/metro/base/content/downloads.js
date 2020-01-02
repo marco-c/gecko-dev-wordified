@@ -1721,7 +1721,7 @@ browser
 GetStringFromName
 (
 "
-downloadOpen
+downloadRun
 "
 )
 ;
@@ -1997,7 +1997,7 @@ browser
 GetStringFromName
 (
 "
-downloadOpenNow
+downloadRunNow
 "
 )
 ;
