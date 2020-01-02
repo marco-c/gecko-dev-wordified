@@ -2774,9 +2774,9 @@ acceleration
 /
 transform
 :
-translateZ
+translateX
 (
-1px
+0px
 )
 ;
 }
@@ -4103,6 +4103,13 @@ variables
 view
 -
 container
+:
+not
+(
+[
+empty
+]
+)
 {
 /
 *
@@ -4115,7 +4122,7 @@ acceleration
 /
 transform
 :
-translateZ
+translateX
 (
 1px
 )
