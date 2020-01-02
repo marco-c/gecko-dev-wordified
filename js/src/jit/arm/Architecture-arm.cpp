@@ -271,7 +271,7 @@ namespace
 jit
 {
 uint32_t
-GetARMFlags
+getFlags
 (
 )
 {
@@ -714,7 +714,7 @@ js
 jit
 :
 :
-GetARMFlags
+getFlags
 (
 )
 &
@@ -733,7 +733,7 @@ js
 jit
 :
 :
-GetARMFlags
+getFlags
 (
 )
 &
@@ -752,7 +752,7 @@ js
 jit
 :
 :
-GetARMFlags
+getFlags
 (
 )
 &
@@ -773,7 +773,7 @@ js
 jit
 :
 :
-GetARMFlags
+getFlags
 (
 )
 &
@@ -788,7 +788,7 @@ js
 jit
 :
 :
-GetARMFlags
+getFlags
 (
 )
 &
@@ -824,7 +824,7 @@ js
 jit
 :
 :
-GetARMFlags
+getFlags
 (
 )
 &
