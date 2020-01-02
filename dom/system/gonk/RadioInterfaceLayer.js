@@ -6061,7 +6061,7 @@ Ci
 .
 nsINetworkInterface
 .
-NETWORK_STATE_UNKNOWN
+NETWORK_STATE_DISCONNECTED
 )
 {
 let
@@ -9527,7 +9527,7 @@ state
 =
 RIL
 .
-GECKO_NETWORK_STATE_UNKNOWN
+GECKO_NETWORK_STATE_DISCONNECTED
 &
 &
 this
@@ -28354,6 +28354,14 @@ gateways
 =
 [
 ]
+;
+this
+.
+state
+=
+RIL
+.
+GECKO_NETWORK_STATE_UNKNOWN
 ;
 }
 /
