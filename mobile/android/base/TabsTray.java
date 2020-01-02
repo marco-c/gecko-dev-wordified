@@ -1205,6 +1205,11 @@ getSelectedTab
 )
 )
 ;
+updateSelectedStyle
+(
+selected
+)
+;
 if
 (
 selected
@@ -1224,11 +1229,6 @@ selected
 )
 ;
 }
-updateSelectedStyle
-(
-selected
-)
-;
 }
 /
 *
