@@ -250,13 +250,6 @@ h
 #
 include
 "
-nsIPrincipal
-.
-h
-"
-#
-include
-"
 nsIPropertyBag2
 .
 h
@@ -3185,9 +3178,6 @@ aSelfURI
 nsIURI
 *
 aReferrer
-nsIPrincipal
-*
-aDocumentPrincipal
 nsIChannel
 *
 aChannel

@@ -704,12 +704,6 @@ nullptr
 nsIURI
 *
 aReferrer
-nullptr
-/
-/
-nsIPrincipal
-*
-aDocumentPrincipal
 dummyChannel
 )
 ;
