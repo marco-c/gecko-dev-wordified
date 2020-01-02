@@ -6840,6 +6840,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+MemoryReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -6864,6 +6870,12 @@ MOZ_FINAL
 public
 nsIObserver
 {
+~
+Observer
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

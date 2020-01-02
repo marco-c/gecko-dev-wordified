@@ -356,6 +356,8 @@ ObserverToDestroyFeaturesAlreadyReported
 )
 {
 }
+private
+:
 virtual
 ~
 ObserverToDestroyFeaturesAlreadyReported

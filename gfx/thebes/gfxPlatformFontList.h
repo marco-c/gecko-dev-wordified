@@ -1138,6 +1138,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+MemoryReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

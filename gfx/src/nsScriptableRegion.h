@@ -150,6 +150,12 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSISCRIPTABLEREGION
 private
 :
+~
+nsScriptableRegion
+(
+)
+{
+}
 nsIntRegion
 mRegion
 ;
