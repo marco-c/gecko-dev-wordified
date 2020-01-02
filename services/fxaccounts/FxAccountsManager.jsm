@@ -1472,7 +1472,12 @@ reason
 ;
 }
 return
-rejection
+Promise
+.
+reject
+(
+reason
+)
 ;
 }
 _getAssertion
