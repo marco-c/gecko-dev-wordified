@@ -18181,7 +18181,7 @@ the
 script
 with
 a
-JSOP_STOP
+JSOP_RETRVAL
 .
 Some
 other
@@ -18208,7 +18208,7 @@ Emit1
 (
 cx
 bce
-JSOP_STOP
+JSOP_RETRVAL
 )
 <
 0
@@ -21339,7 +21339,7 @@ JSOP_POP
 pop
 =
 =
-JSOP_POPV
+JSOP_SETRVAL
 )
 ;
 ParseNode
@@ -21637,7 +21637,7 @@ JSOP_POP
 pop
 =
 =
-JSOP_POPV
+JSOP_SETRVAL
 )
 ;
 ParseNode
@@ -36761,7 +36761,7 @@ JS_Compile
 *
 to
 suppress
-JSOP_POPV
+JSOP_SETRVAL
 .
 *
 /
@@ -36950,7 +36950,7 @@ op
 =
 wantval
 ?
-JSOP_POPV
+JSOP_SETRVAL
 :
 JSOP_POP
 ;

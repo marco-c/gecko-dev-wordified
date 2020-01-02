@@ -6470,7 +6470,7 @@ pc
 )
 =
 =
-JSOP_STOP
+JSOP_RETRVAL
 ;
 }
 bool

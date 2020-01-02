@@ -2753,7 +2753,8 @@ threaded
 interpreter
 needs
 a
-stop
+last
+return
 instruction
 so
 we
@@ -2774,7 +2775,7 @@ Emit1
 cx
 &
 bce
-JSOP_STOP
+JSOP_RETRVAL
 )
 <
 0

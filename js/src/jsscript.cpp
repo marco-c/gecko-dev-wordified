@@ -11842,7 +11842,7 @@ data
 0
 ]
 =
-JSOP_STOP
+JSOP_RETRVAL
 ;
 ssd
 -
