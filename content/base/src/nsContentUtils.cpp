@@ -607,7 +607,11 @@ h
 #
 include
 "
-nsDOMDataTransfer
+mozilla
+/
+dom
+/
+DataTransfer
 .
 h
 "
@@ -27880,7 +27884,7 @@ data
 initialDataTransfer
 =
 new
-nsDOMDataTransfer
+DataTransfer
 (
 aDragEvent
 -
