@@ -5176,6 +5176,11 @@ aBuilder
 this
 &
 content
+content
+.
+GetVisibleRect
+(
+)
 :
 :
 ComputePageSequenceTransform
