@@ -176,6 +176,11 @@ class
 nsViewManager
 MOZ_FINAL
 {
+~
+nsViewManager
+(
+)
+;
 public
 :
 friend
@@ -187,11 +192,6 @@ NS_INLINE_DECL_REFCOUNTING
 (
 nsViewManager
 )
-nsViewManager
-(
-)
-;
-~
 nsViewManager
 (
 )
