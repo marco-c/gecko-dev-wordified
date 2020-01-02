@@ -900,6 +900,15 @@ Unmap
 (
 )
 {
+MOZ_ASSERT
+(
+mIsMapped
+)
+;
+mIsMapped
+=
+false
+;
 mBitmap
 -
 >
