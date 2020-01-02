@@ -11474,9 +11474,10 @@ lock
 mMonitor
 )
 ;
-CSSPoint
+LayerPoint
 scrollChange
 =
+(
 mLastContentPaintMetrics
 .
 mScrollOffset
@@ -11484,6 +11485,13 @@ mScrollOffset
 mLastDispatchedPaintMetrics
 .
 mScrollOffset
+)
+*
+mLastContentPaintMetrics
+.
+LayersPixelsPerCSSPixel
+(
+)
 ;
 float
 zoomChange
