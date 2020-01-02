@@ -713,6 +713,9 @@ MIN
 count
 -
 i
+(
+int
+)
 sizeof
 (
 uint32_t
