@@ -742,7 +742,7 @@ code
 ]
 !
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -764,7 +764,7 @@ code
 ]
 !
 =
-NULL
+nullptr
 ;
 }
 uintptr_t

@@ -1242,7 +1242,7 @@ MDefinition
 *
 val
 =
-NULL
+nullptr
 ;
 JSOp
 jsop
@@ -1411,13 +1411,13 @@ MDefinition
 *
 smaller
 =
-NULL
+nullptr
 ;
 MDefinition
 *
 greater
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2320,7 +2320,7 @@ lhs
 rhs
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2501,7 +2501,7 @@ emptyRange
 true
 ;
 return
-NULL
+nullptr
 ;
 }
 Range
@@ -2686,11 +2686,11 @@ def
 :
 symbolicLower_
 (
-NULL
+nullptr
 )
 symbolicUpper_
 (
-NULL
+nullptr
 )
 {
 const
@@ -2761,7 +2761,7 @@ symbolicLower_
 =
 symbolicUpper_
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -2776,7 +2776,7 @@ symbolicLower_
 =
 symbolicUpper_
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5972,7 +5972,7 @@ Range
 *
 range
 =
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -6090,7 +6090,7 @@ input
 {
 range
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -8437,7 +8437,7 @@ break
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 void
@@ -9170,7 +9170,7 @@ LoopIterationBound
 *
 iterationBound
 =
-NULL
+nullptr
 ;
 MBasicBlock
 *
@@ -9737,7 +9737,7 @@ direction
 SimpleLinearSum
 lhs
 (
-NULL
+nullptr
 0
 )
 ;
@@ -9764,7 +9764,7 @@ lessEqual
 )
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -9817,7 +9817,7 @@ isMarked
 )
 )
 return
-NULL
+nullptr
 ;
 MDefinition
 *
@@ -9853,7 +9853,7 @@ constant
 )
 )
 return
-NULL
+nullptr
 ;
 lessEqual
 =
@@ -9927,7 +9927,7 @@ block
 header
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -10003,7 +10003,7 @@ numOperands
 2
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -10083,7 +10083,7 @@ isMarked
 )
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -10179,7 +10179,7 @@ isSub
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -10197,7 +10197,7 @@ isMarked
 )
 )
 return
-NULL
+nullptr
 ;
 MBasicBlock
 *
@@ -10253,7 +10253,7 @@ block
 )
 )
 return
-NULL
+nullptr
 ;
 SimpleLinearSum
 lhsModified
@@ -10394,7 +10394,7 @@ lhs
 term
 )
 return
-NULL
+nullptr
 ;
 LinearSum
 bound
@@ -10507,7 +10507,7 @@ rhs
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -10523,7 +10523,7 @@ lhsInitial
 )
 )
 return
-NULL
+nullptr
 ;
 int32_t
 lhsConstant
@@ -10542,7 +10542,7 @@ lhsConstant
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -10555,7 +10555,7 @@ lhsConstant
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -10647,7 +10647,7 @@ lhsInitial
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -10667,7 +10667,7 @@ rhs
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -10683,13 +10683,13 @@ constant
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -11340,7 +11340,7 @@ setSymbolicLower
 new
 SymbolicBound
 (
-NULL
+nullptr
 initialSum
 )
 )
@@ -11409,7 +11409,7 @@ setSymbolicUpper
 new
 SymbolicBound
 (
-NULL
+nullptr
 initialSum
 )
 )
@@ -11641,7 +11641,7 @@ MDefinition
 *
 def
 =
-NULL
+nullptr
 ;
 for
 (

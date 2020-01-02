@@ -346,7 +346,7 @@ FILE
 *
 PerfFilePtr
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -476,7 +476,7 @@ if
 env
 =
 =
-NULL
+nullptr
 )
 {
 PerfMode

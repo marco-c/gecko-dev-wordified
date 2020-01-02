@@ -253,7 +253,7 @@ push
 /
 /
 Returns
-NULL
+nullptr
 on
 failure
 or
@@ -292,7 +292,7 @@ new
 holes
 .
 Returns
-NULL
+nullptr
 on
 /
 /

@@ -393,7 +393,7 @@ moves
 found
 .
 return
-NULL
+nullptr
 ;
 }
 bool

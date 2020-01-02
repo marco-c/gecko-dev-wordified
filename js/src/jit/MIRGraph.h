@@ -514,7 +514,7 @@ pred
 |
 is
 not
-NULL
+nullptr
 /
 /
 its
@@ -1111,9 +1111,9 @@ ins
 |
 may
 be
-NULL
 /
 /
+nullptr
 to
 simplify
 OOM
@@ -3286,7 +3286,7 @@ alloc
 )
 exitAccumulator_
 (
-NULL
+nullptr
 )
 blockIdGen_
 (
@@ -3298,11 +3298,11 @@ idGen_
 )
 osrBlock_
 (
-NULL
+nullptr
 )
 osrStart_
 (
-NULL
+nullptr
 )
 numBlocks_
 (

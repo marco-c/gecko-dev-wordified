@@ -791,7 +791,7 @@ runtime
 .
 Otherwise
 returns
-NULL
+nullptr
 .
 MControlInstruction
 *
@@ -815,7 +815,7 @@ isTest
 )
 )
 return
-NULL
+nullptr
 ;
 MTest
 *
@@ -851,7 +851,7 @@ isConstant
 )
 )
 return
-NULL
+nullptr
 ;
 const
 Value
@@ -1435,7 +1435,7 @@ block
 >
 setSuccessorWithPhis
 (
-NULL
+nullptr
 0
 )
 ;
@@ -1886,7 +1886,7 @@ i
 >
 setSuccessorWithPhis
 (
-NULL
+nullptr
 0
 )
 ;

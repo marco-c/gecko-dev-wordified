@@ -233,7 +233,7 @@ LInstruction
 *
 ins
 =
-NULL
+nullptr
 bool
 dirty
 =
