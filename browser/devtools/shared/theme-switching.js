@@ -567,7 +567,9 @@ theme
 ;
 switchTheme
 (
-theme
+"
+light
+"
 )
 ;
 gDevTools
