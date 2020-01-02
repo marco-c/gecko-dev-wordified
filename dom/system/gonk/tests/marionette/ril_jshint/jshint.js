@@ -2976,9 +2976,6 @@ false
 XPathExpression
 :
 false
-XPathNamespace
-:
-false
 XPathNSResolver
 :
 false
