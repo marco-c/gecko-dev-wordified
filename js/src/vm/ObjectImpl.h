@@ -4734,6 +4734,10 @@ ArrayBufferObject
 ;
 friend
 class
+ArrayBufferViewObject
+;
+friend
+class
 TypedArrayObject
 ;
 friend
