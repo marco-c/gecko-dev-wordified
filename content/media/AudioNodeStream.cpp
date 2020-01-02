@@ -3323,7 +3323,10 @@ aSeconds
 StreamTime
 streamTime
 =
-SecondsToMediaTime
+aDestination
+-
+>
+SecondsToStreamTimeRoundDown
 (
 destinationSeconds
 )
@@ -3343,7 +3346,10 @@ offset
 =
 destinationSeconds
 -
-MediaTimeToSeconds
+aDestination
+-
+>
+StreamTimeToSeconds
 (
 streamTime
 )
@@ -3370,7 +3376,7 @@ graphTime
 double
 thisSeconds
 =
-MediaTimeToSeconds
+StreamTimeToSeconds
 (
 thisStreamTime
 )
@@ -3510,7 +3516,7 @@ graphTime
 )
 ;
 return
-MediaTimeToSeconds
+StreamTimeToSeconds
 (
 destinationTime
 )
