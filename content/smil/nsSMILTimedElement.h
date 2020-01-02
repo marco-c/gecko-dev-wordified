@@ -3369,6 +3369,12 @@ IsEmpty
 ;
 }
 bool
+HasClientInFillRange
+(
+)
+const
+;
+bool
 EndHasEventConditions
 (
 )
