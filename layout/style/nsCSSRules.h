@@ -393,10 +393,7 @@ virtual
 void
 SetStyleSheet
 (
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )

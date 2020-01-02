@@ -328,6 +328,9 @@ class
 nsBindingManager
 ;
 class
+nsCSSStyleSheet
+;
+class
 nsIDocShell
 ;
 class
@@ -483,9 +486,6 @@ nsCSSSelectorList
 namespace
 mozilla
 {
-class
-CSSStyleSheet
-;
 class
 ErrorResult
 ;
@@ -4310,10 +4310,7 @@ virtual
 void
 EnsureOnDemandBuiltInUASheet
 (
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -11086,10 +11083,7 @@ nsIURI
 aURI
 bool
 aIsAgentSheet
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet

@@ -1255,7 +1255,7 @@ nsContentSink
 :
 StyleSheetLoaded
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 bool

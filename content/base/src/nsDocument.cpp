@@ -4329,7 +4329,7 @@ return
 mLength
 ;
 }
-CSSStyleSheet
+nsCSSStyleSheet
 *
 nsDOMStyleSheetList
 :
@@ -4401,7 +4401,7 @@ sheet
 return
 static_cast
 <
-CSSStyleSheet
+nsCSSStyleSheet
 *
 >
 (
@@ -21645,7 +21645,7 @@ nsDocument
 :
 EnsureOnDemandBuiltInUASheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -21707,7 +21707,7 @@ nsDocument
 :
 AddOnDemandBuiltInUASheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -23257,7 +23257,7 @@ Loader
 ;
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -50785,7 +50785,7 @@ public
 NS_IMETHOD
 StyleSheetLoaded
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 bool
 nsresult
@@ -50891,7 +50891,7 @@ nsIURI
 uri
 bool
 isAgentSheet
-CSSStyleSheet
+nsCSSStyleSheet
 *
 *
 sheet
@@ -52554,7 +52554,7 @@ i
 {
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 =
@@ -52583,7 +52583,7 @@ IsApplicable
 {
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 clonedSheet
 =
@@ -52669,7 +52669,7 @@ i
 {
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 =
@@ -52701,7 +52701,7 @@ IsApplicable
 {
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 clonedSheet
 =

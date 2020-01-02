@@ -264,9 +264,7 @@ h
 #
 include
 "
-mozilla
-/
-CSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -763,7 +761,7 @@ CSSParserImpl
 nsresult
 SetStyleSheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -1707,7 +1705,7 @@ aBaseURL
 nsIPrincipal
 *
 aDocPrincipal
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 uint32_t
@@ -5911,7 +5909,7 @@ parsing
 into
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 mSheet
 ;
@@ -5993,7 +5991,7 @@ various
 /
 places
 in
-CSSStyleSheet
+nsCSSStyleSheet
 .
 cpp
 (
@@ -6831,7 +6829,7 @@ CSSParserImpl
 :
 SetStyleSheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -13224,7 +13222,7 @@ aBaseURL
 nsIPrincipal
 *
 aDocPrincipal
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 uint32_t
@@ -84521,7 +84519,7 @@ css
 Loader
 *
 aLoader
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -84712,7 +84710,7 @@ nsCSSParser
 :
 SetStyleSheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -85558,7 +85556,7 @@ aBaseURL
 nsIPrincipal
 *
 aDocPrincipal
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 uint32_t

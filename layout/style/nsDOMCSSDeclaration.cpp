@@ -127,9 +127,7 @@ h
 #
 include
 "
-mozilla
-/
-CSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -1460,7 +1458,7 @@ nullptr
 ;
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 cssSheet
 (

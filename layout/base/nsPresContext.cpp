@@ -12849,7 +12849,7 @@ EnsureSafeToHandOutCSSRules
 (
 )
 {
-CSSStyleSheet
+nsCSSStyleSheet
 :
 :
 EnsureUniqueInnerResult
@@ -12872,7 +12872,7 @@ if
 res
 =
 =
-CSSStyleSheet
+nsCSSStyleSheet
 :
 :
 eUniqueInner_AlreadyUnique
@@ -12892,7 +12892,7 @@ MOZ_ASSERT
 res
 =
 =
-CSSStyleSheet
+nsCSSStyleSheet
 :
 :
 eUniqueInner_ClonedInner

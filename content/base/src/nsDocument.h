@@ -2579,10 +2579,7 @@ Length
 MOZ_OVERRIDE
 ;
 virtual
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 IndexedGetter
 (
@@ -4218,10 +4215,7 @@ virtual
 void
 EnsureOnDemandBuiltInUASheet
 (
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -5202,10 +5196,7 @@ private
 void
 AddOnDemandBuiltInUASheet
 (
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -5808,10 +5799,7 @@ nsIURI
 uri
 bool
 isAgentSheet
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 *
 sheet

@@ -4513,7 +4513,7 @@ GetKey
 ;
 nsTArray
 <
-CSSStyleSheet
+nsCSSStyleSheet
 *
 >
 *
@@ -4523,7 +4523,7 @@ static_cast
 <
 nsTArray
 <
-CSSStyleSheet
+nsCSSStyleSheet
 *
 >
 *
@@ -4584,7 +4584,7 @@ AppendAllSheets
 (
 nsTArray
 <
-CSSStyleSheet
+nsCSSStyleSheet
 *
 >
 &

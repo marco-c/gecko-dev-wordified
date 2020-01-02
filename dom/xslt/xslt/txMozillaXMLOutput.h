@@ -224,10 +224,7 @@ nsICSSLoaderObserver
 NS_IMETHOD
 StyleSheetLoaded
 (
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 bool

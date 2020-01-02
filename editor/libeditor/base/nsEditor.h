@@ -377,6 +377,9 @@ class
 SplitElementTxn
 ;
 class
+nsCSSStyleSheet
+;
+class
 nsIAtom
 ;
 class
@@ -457,9 +460,6 @@ nsTransactionManager
 namespace
 mozilla
 {
-class
-CSSStyleSheet
-;
 class
 ErrorResult
 ;
@@ -1737,10 +1737,7 @@ sheet
 NS_IMETHOD
 CreateTxnForAddStyleSheet
 (
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 AddStyleSheetTxn
@@ -1765,10 +1762,7 @@ sheet
 NS_IMETHOD
 CreateTxnForRemoveStyleSheet
 (
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 RemoveStyleSheetTxn

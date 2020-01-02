@@ -117,6 +117,13 @@ h
 #
 include
 "
+nsCSSStyleSheet
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h
@@ -197,15 +204,6 @@ include
 js
 /
 TracingAPI
-.
-h
-"
-#
-include
-"
-mozilla
-/
-CSSStyleSheet
 .
 h
 "
@@ -1109,7 +1107,7 @@ nsXULPrototypeCache
 :
 PutStyleSheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aStyleSheet
 )
@@ -1392,7 +1390,7 @@ nsIURI
 aKey
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 &
 aSheet
