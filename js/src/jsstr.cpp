@@ -26500,6 +26500,10 @@ length
 return
 base
 ;
+{
+AutoCheckCannotGC
+nogc
+;
 const
 jschar
 *
@@ -26508,8 +26512,9 @@ chars
 base
 -
 >
-chars
+twoByteChars
 (
+nogc
 )
 +
 start
@@ -26536,6 +26541,7 @@ length
 return
 staticStr
 ;
+}
 return
 JSDependentString
 :
@@ -26544,7 +26550,7 @@ new_
 (
 cx
 base
-chars
+start
 length
 )
 ;
