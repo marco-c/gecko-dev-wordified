@@ -1752,7 +1752,7 @@ unsigned
 *
 flagsp
 =
-NULL
+nullptr
 )
 ;
 /
