@@ -10948,6 +10948,7 @@ getObjectMetadata
 JS_ASSERT_IF
 (
 metadata
+!
 gc
 :
 :
