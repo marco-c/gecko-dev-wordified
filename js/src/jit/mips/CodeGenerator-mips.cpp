@@ -372,7 +372,7 @@ comment
 in
 Assembler
 -
-mips
+shared
 .
 h
 about
