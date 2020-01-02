@@ -1590,6 +1590,13 @@ true
 ;
 static
 const
+uint32_t
+SimdStackAlignment
+=
+16
+;
+static
+const
 Scale
 ScalePointer
 =

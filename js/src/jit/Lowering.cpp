@@ -15549,7 +15549,7 @@ ins
 gen
 -
 >
-setPerformsAsmJSCall
+setPerformsCall
 (
 )
 ;
@@ -25538,7 +25538,7 @@ ins
 gen
 -
 >
-setPerformsAsmJSCall
+setPerformsCall
 (
 )
 ;
