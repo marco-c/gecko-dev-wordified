@@ -1611,14 +1611,6 @@ care
 anymore
 .
 return
-promise
-.
-reject
-(
-"
-unused
-"
-)
 ;
 }
 /
