@@ -905,7 +905,7 @@ ShutdownNSS
 )
 ;
 void
-InstallLoadableRoots
+LoadLoadableRoots
 (
 )
 ;
@@ -919,6 +919,13 @@ setValidationOptions
 (
 bool
 isInitialSetting
+const
+mozilla
+:
+:
+MutexAutoLock
+&
+lock
 )
 ;
 nsresult
