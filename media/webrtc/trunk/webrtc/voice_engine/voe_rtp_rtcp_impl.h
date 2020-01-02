@@ -427,6 +427,10 @@ unsigned
 int
 &
 discardedPackets
+unsigned
+int
+&
+cumulativeLost
 )
 ;
 virtual

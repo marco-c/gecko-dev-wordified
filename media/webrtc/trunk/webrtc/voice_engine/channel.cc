@@ -19751,6 +19751,10 @@ unsigned
 int
 &
 discardedPackets
+unsigned
+int
+&
+cumulativeLost
 )
 {
 /
@@ -19902,6 +19906,12 @@ playoutFrequency
 /
 1000
 )
+;
+cumulativeLost
+=
+statistics
+.
+cumulative_lost
 ;
 }
 discardedPackets
