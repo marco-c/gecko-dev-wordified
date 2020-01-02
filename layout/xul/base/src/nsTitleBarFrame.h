@@ -111,6 +111,15 @@ h
 #
 include
 "
+mozilla
+/
+EventForwards
+.
+h
+"
+#
+include
+"
 nsBoxFrame
 .
 h
@@ -193,7 +202,7 @@ aPresContext
 mozilla
 :
 :
-WidgetGUIEvent
+WidgetMouseEvent
 *
 aEvent
 )
