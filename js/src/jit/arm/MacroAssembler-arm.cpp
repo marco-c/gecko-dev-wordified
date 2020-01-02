@@ -9068,19 +9068,6 @@ r
 PostIndex
 )
 ;
-if
-(
-r
-=
-=
-pc
-)
-m_buffer
-.
-markGuard
-(
-)
-;
 }
 void
 MacroAssemblerARM
@@ -9220,8 +9207,6 @@ Assembler
 :
 Condition
 c
-bool
-isPatchable
 )
 {
 return
@@ -9229,7 +9214,6 @@ as_b
 (
 dest
 c
-isPatchable
 )
 ;
 }
@@ -9441,19 +9425,6 @@ as_Imm32Pool
 pc
 trg
 c
-)
-;
-if
-(
-c
-=
-=
-Always
-)
-m_buffer
-.
-markGuard
-(
 )
 ;
 break
@@ -11871,6 +11842,7 @@ descriptor
 descriptor_
 enterNoPool
 (
+2
 )
 ;
 DebugOnly
@@ -13652,11 +13624,7 @@ AsmJSAbsoluteLink
 (
 CodeOffsetLabel
 (
-nextOffset
-(
-)
-.
-getOffset
+currentOffset
 (
 )
 )
@@ -14643,6 +14611,7 @@ the
 offset
 like
 normal
+.
 Register
 base
 =
@@ -14786,6 +14755,7 @@ the
 offset
 like
 normal
+.
 Register
 base
 =
@@ -14936,6 +14906,7 @@ the
 offset
 like
 normal
+.
 Register
 base
 =
@@ -16040,7 +16011,7 @@ input
 ;
 /
 /
-Ddo
+Do
 the
 conversion
 to
@@ -23098,6 +23069,7 @@ AutoForbidPools
 afp
 (
 this
+2
 )
 ;
 as_dtr
@@ -23168,6 +23140,7 @@ AutoForbidPools
 afp
 (
 this
+2
 )
 ;
 as_dtr
@@ -23252,6 +23225,7 @@ AutoForbidPools
 afp
 (
 this
+2
 )
 ;
 ma_push
@@ -28157,7 +28131,6 @@ ma_b
 (
 label
 Always
-true
 )
 ;
 CodeOffsetLabel
@@ -29471,7 +29444,7 @@ getOffset
 )
 pe
 .
-encode
+index
 (
 )
 )
