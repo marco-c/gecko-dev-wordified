@@ -707,6 +707,9 @@ endif
 CAIRO_HAS_DWRITE_FONT
 *
 /
+struct
+IDirect3DSurface9
+;
 cairo_public
 cairo_surface_t
 *
