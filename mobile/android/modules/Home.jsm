@@ -1402,7 +1402,7 @@ if
 !
 options
 .
-authHandler
+auth
 )
 {
 throw
@@ -1412,7 +1412,7 @@ Home
 panels
 :
 Invalid
-authHandler
+auth
 for
 panel
 .
@@ -1428,7 +1428,7 @@ if
 !
 options
 .
-authHandler
+auth
 .
 authenticate
 |
@@ -1436,7 +1436,7 @@ authenticate
 typeof
 options
 .
-authHandler
+auth
 .
 authenticate
 !
@@ -1454,7 +1454,7 @@ Home
 panels
 :
 Invalid
-authHandler
+auth
 authenticate
 function
 :
@@ -1471,7 +1471,7 @@ id
 }
 options
 .
-authHandler
+auth
 .
 authenticate
 (
@@ -2250,7 +2250,7 @@ if
 (
 options
 .
-authHandler
+auth
 )
 {
 if
@@ -2258,7 +2258,7 @@ if
 !
 options
 .
-authHandler
+auth
 .
 messageText
 )
@@ -2270,7 +2270,7 @@ Home
 panels
 :
 Invalid
-authHandler
+auth
 messageText
 :
 panel
@@ -2289,7 +2289,7 @@ if
 !
 options
 .
-authHandler
+auth
 .
 buttonText
 )
@@ -2301,7 +2301,7 @@ Home
 panels
 :
 Invalid
-authHandler
+auth
 buttonText
 :
 panel
@@ -2324,14 +2324,14 @@ messageText
 :
 options
 .
-authHandler
+auth
 .
 messageText
 buttonText
 :
 options
 .
-authHandler
+auth
 .
 buttonText
 }
@@ -2351,7 +2351,7 @@ if
 (
 options
 .
-authHandler
+auth
 .
 imageUrl
 )
@@ -2364,7 +2364,7 @@ imageUrl
 =
 options
 .
-authHandler
+auth
 .
 imageUrl
 ;
