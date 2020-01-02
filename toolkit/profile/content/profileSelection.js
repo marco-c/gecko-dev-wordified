@@ -771,6 +771,16 @@ KeyEvent
 .
 DOM_VK_DELETE
 :
+#
+ifdef
+XP_MACOSX
+case
+KeyEvent
+.
+DOM_VK_BACK_SPACE
+:
+#
+endif
 ConfirmDelete
 (
 )
