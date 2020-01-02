@@ -1292,7 +1292,6 @@ authInfo
 realm
 '
 \
-\
 "
 foo_bar
 '
@@ -1656,7 +1655,7 @@ test_returnfalse2
 test_wrongpw2
 test_prompt2
 test_ntlm
-test_auth
+test_basicrealm
 test_digest_noauth
 test_digest
 test_digest_bogus_user
@@ -2178,7 +2177,7 @@ do_test_pending
 ;
 }
 function
-test_auth
+test_basicrealm
 (
 )
 {
@@ -2716,7 +2715,10 @@ realm
 \
 \
 "
-foo_bar
+f
+\
+\
+oo_bar
 "
 '
 false
