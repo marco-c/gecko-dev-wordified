@@ -4311,6 +4311,7 @@ function
 {
 if
 (
+!
 _timer
 )
 {
