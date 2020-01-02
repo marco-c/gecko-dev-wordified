@@ -831,6 +831,8 @@ stub
 (
 loop
 .
+shared
+.
 Client
 .
 prototype
