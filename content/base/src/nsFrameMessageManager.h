@@ -270,6 +270,9 @@ StructuredCloneData
 class
 ClonedMessageData
 ;
+class
+MessageManagerReporter
+;
 namespace
 ipc
 {
@@ -654,6 +657,16 @@ nsIFrameScriptLoader
 public
 nsIProcessChecker
 {
+friend
+class
+mozilla
+:
+:
+dom
+:
+:
+MessageManagerReporter
+;
 typedef
 mozilla
 :
