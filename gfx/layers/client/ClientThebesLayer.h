@@ -469,7 +469,6 @@ ReadbackProcessor
 *
 aReadback
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
