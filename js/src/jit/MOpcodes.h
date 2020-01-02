@@ -1004,16 +1004,6 @@ AsmJSNeg
 \
 _
 (
-AsmJSUDiv
-)
-\
-_
-(
-AsmJSUMod
-)
-\
-_
-(
 AsmJSUnsignedToDouble
 )
 \
