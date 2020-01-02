@@ -34804,7 +34804,7 @@ true
 /
 XXX
 the
-IS_DIRTY
+TEXT_OFFSETS_NEED_FIXING
 check
 is
 a
@@ -34833,7 +34833,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_DIRTY
+TEXT_OFFSETS_NEED_FIXING
 )
 )
 {
