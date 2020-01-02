@@ -1708,9 +1708,6 @@ true
 "
 )
 ;
-let
-remote
-;
 /
 /
 for
@@ -1772,20 +1769,6 @@ Services
 .
 prefs
 .
-prefHasUserValue
-(
-"
-social
-.
-allowMultipleWorkers
-"
-)
-&
-&
-Services
-.
-prefs
-.
 getBoolPref
 (
 "
@@ -1795,7 +1778,6 @@ allowMultipleWorkers
 "
 )
 )
-{
 browser
 .
 setAttribute
@@ -1808,7 +1790,6 @@ true
 "
 )
 ;
-}
 iframe
 .
 contentDocument
