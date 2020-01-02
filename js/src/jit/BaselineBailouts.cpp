@@ -2675,7 +2675,7 @@ jitCompartment
 )
 -
 >
-baselineGetPropReturnFromIonAddr
+baselineGetPropReturnAddr
 (
 )
 ;
@@ -2700,7 +2700,7 @@ jitCompartment
 )
 -
 >
-baselineSetPropReturnFromIonAddr
+baselineSetPropReturnAddr
 (
 )
 ;
@@ -2739,7 +2739,7 @@ jitCompartment
 )
 -
 >
-baselineCallReturnFromIonAddr
+baselineCallReturnAddr
 (
 )
 ;
