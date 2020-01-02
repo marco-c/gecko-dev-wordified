@@ -163,7 +163,7 @@ kStartURI
 "
 about
 :
-start
+newtab
 "
 ;
 /
