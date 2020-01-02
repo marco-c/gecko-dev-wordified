@@ -759,6 +759,9 @@ mWithVideoChildIDs
 bool
 mActiveContentChildIDsFrozen
 ;
+bool
+mDisabled
+;
 nsCOMPtr
 <
 nsITimer
