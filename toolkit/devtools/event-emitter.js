@@ -267,6 +267,16 @@ Services
 "
 )
 ;
+const
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
 /
 *
 *

@@ -194,6 +194,16 @@ helper
 "
 )
 ;
+const
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
 /
 *
 *

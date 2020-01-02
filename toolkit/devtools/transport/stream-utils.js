@@ -124,6 +124,16 @@ emitter
 "
 )
 ;
+const
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
 DevToolsUtils
 .
 defineLazyGetter

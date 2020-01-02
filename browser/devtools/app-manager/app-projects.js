@@ -174,11 +174,6 @@ object
 *
 /
 const
-global
-=
-this
-;
-const
 IDB
 =
 {
@@ -203,8 +198,6 @@ defer
 let
 request
 =
-global
-.
 indexedDB
 .
 open

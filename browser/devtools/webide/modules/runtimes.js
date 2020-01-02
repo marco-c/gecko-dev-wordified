@@ -206,6 +206,16 @@ discovery
 )
 ;
 const
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
+const
 Strings
 =
 Services

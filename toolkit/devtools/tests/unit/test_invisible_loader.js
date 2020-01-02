@@ -156,10 +156,7 @@ _provider
 .
 loader
 .
-sandboxes
-[
-COLOR_URI
-]
+sharedGlobalSandbox
 ;
 try
 {
@@ -244,10 +241,7 @@ _provider
 .
 loader
 .
-sandboxes
-[
-COLOR_URI
-]
+sharedGlobalSandbox
 ;
 try
 {
