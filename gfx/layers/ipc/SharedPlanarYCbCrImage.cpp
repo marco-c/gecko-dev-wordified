@@ -538,7 +538,7 @@ gfxASurface
 SharedPlanarYCbCrImage
 :
 :
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 {
@@ -573,7 +573,7 @@ return
 PlanarYCbCrImage
 :
 :
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 ;

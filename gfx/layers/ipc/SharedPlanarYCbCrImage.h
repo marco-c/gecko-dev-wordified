@@ -267,7 +267,7 @@ already_AddRefed
 <
 gfxASurface
 >
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 MOZ_OVERRIDE
@@ -298,7 +298,7 @@ return
 PlanarYCbCrImage
 :
 :
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 ;
@@ -585,7 +585,7 @@ already_AddRefed
 <
 gfxASurface
 >
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 MOZ_OVERRIDE

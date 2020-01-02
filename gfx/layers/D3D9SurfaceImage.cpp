@@ -734,7 +734,7 @@ gfxASurface
 D3D9SurfaceImage
 :
 :
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 {

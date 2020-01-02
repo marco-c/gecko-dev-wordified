@@ -818,7 +818,7 @@ gfxASurface
 DeprecatedSharedRGBImage
 :
 :
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 {
@@ -1251,7 +1251,7 @@ gfxASurface
 SharedRGBImage
 :
 :
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 {

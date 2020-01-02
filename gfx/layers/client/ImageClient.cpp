@@ -1476,7 +1476,7 @@ surface
 image
 -
 >
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 ;
@@ -2610,7 +2610,7 @@ surface
 image
 -
 >
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 ;

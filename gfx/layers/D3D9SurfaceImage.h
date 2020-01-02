@@ -366,7 +366,7 @@ already_AddRefed
 <
 gfxASurface
 >
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 MOZ_OVERRIDE

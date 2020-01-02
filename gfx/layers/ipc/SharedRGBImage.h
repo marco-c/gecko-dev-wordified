@@ -332,7 +332,7 @@ already_AddRefed
 <
 gfxASurface
 >
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 ;
@@ -601,7 +601,7 @@ already_AddRefed
 <
 gfxASurface
 >
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 ;
