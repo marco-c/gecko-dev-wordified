@@ -241,9 +241,6 @@ namespace
 layers
 {
 class
-AutoMaskData
-;
-class
 AutoMoz2DMaskData
 ;
 class
@@ -493,17 +490,6 @@ in
 aMaskData
 *
 /
-bool
-GetMaskData
-(
-Layer
-*
-aMaskLayer
-AutoMaskData
-*
-aMaskData
-)
-;
 bool
 GetMaskData
 (
