@@ -4074,7 +4074,7 @@ NS_OK
 static
 *
 /
-void
+nsresult
 nsPrefBranch
 :
 :
@@ -4146,6 +4146,7 @@ pCallback
 )
 ;
 return
+NS_OK
 ;
 }
 /
@@ -4230,6 +4231,9 @@ get
 (
 )
 )
+;
+return
+NS_OK
 ;
 }
 PLDHashOperator

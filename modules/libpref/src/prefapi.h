@@ -1090,7 +1090,7 @@ definitions
 ifndef
 have_PrefChangedFunc_typedef
 typedef
-void
+nsresult
 (
 *
 PrefChangedFunc
