@@ -288,9 +288,6 @@ LoadMonitor
 mLoadMonitor
 ;
 float
-mLastSystemLoad
-;
-float
 mLoadSum
 ;
 int
