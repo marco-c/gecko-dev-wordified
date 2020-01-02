@@ -8403,6 +8403,12 @@ nsIDOMCSSStyleDeclaration
 aReturn
 )
 ;
+/
+/
+Outer
+windows
+only
+.
 void
 PreloadLocalStorage
 (
