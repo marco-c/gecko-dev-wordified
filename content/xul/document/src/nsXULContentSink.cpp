@@ -3270,7 +3270,6 @@ script
 >
 mLineNo
 doc
-mPrototype
 )
 ;
 }

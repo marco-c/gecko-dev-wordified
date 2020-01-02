@@ -16466,9 +16466,6 @@ aLineNo
 nsIDocument
 *
 aDocument
-nsXULPrototypeDocument
-*
-aProtoDoc
 nsIOffThreadScriptReceiver
 *
 aOffThreadReceiver
@@ -16493,11 +16490,6 @@ the
 compilation
 scope
 .
-NS_ENSURE_STATE
-(
-aProtoDoc
-)
-;
 NS_ENSURE_TRUE
 (
 xpc
@@ -16810,9 +16802,6 @@ aLineNo
 nsIDocument
 *
 aDocument
-nsXULPrototypeDocument
-*
-aProtoDoc
 nsIOffThreadScriptReceiver
 *
 aOffThreadReceiver
@@ -16848,7 +16837,6 @@ srcBuf
 aURI
 aLineNo
 aDocument
-aProtoDoc
 aOffThreadReceiver
 )
 ;
