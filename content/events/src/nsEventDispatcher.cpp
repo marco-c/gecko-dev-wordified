@@ -4165,7 +4165,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsFocusEvent
+InternalFocusEvent
 *
 >
 (

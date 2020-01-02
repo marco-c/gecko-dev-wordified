@@ -12098,7 +12098,7 @@ NS_FOCUS_EVENT
 !
 static_cast
 <
-nsFocusEvent
+InternalFocusEvent
 *
 >
 (

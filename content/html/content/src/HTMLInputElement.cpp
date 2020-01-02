@@ -18267,7 +18267,7 @@ false
 (
 static_cast
 <
-nsFocusEvent
+InternalFocusEvent
 *
 >
 (

@@ -184,7 +184,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsFocusEvent
+mozilla
+:
+:
+InternalFocusEvent
 *
 aEvent
 )
