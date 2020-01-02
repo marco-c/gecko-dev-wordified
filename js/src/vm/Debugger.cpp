@@ -36362,7 +36362,7 @@ false
 ;
 desc
 .
-clearPd
+clearDescriptorObject
 (
 )
 ;
