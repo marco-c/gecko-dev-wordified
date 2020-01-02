@@ -399,6 +399,16 @@ GetImage
 ;
 private
 :
+uint8_t
+*
+CreateI420Image
+(
+size_t
+aWidth
+size_t
+aHeight
+)
+;
 mozilla
 :
 :
