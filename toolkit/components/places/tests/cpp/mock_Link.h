@@ -900,6 +900,7 @@ nsAString
 &
 aValue
 )
+const
 {
 NS_NOTREACHED
 (

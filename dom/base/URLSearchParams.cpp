@@ -1773,6 +1773,7 @@ nsAString
 &
 aValue
 )
+const
 {
 MOZ_ASSERT
 (
