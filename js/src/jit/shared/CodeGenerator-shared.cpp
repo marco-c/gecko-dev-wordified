@@ -1834,7 +1834,7 @@ if
 !
 recovers_
 .
-writeFrame
+writeInstruction
 (
 *
 it

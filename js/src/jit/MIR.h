@@ -1209,6 +1209,16 @@ toResumePoint
 (
 )
 ;
+virtual
+bool
+writeRecoverData
+(
+CompactBufferWriter
+&
+writer
+)
+const
+;
 protected
 :
 /
