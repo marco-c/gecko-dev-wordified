@@ -2965,7 +2965,7 @@ MarkDirty
 endif
 }
 void
-ReadPixelsIntoDataSourceSurface
+ReadPixelsIntoDataSurface
 (
 GLContext
 *
@@ -5072,7 +5072,7 @@ draw
 results
 *
 /
-ReadPixelsIntoDataSourceSurface
+ReadPixelsIntoDataSurface
 (
 mGL
 isurf

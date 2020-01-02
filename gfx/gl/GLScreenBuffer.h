@@ -1341,17 +1341,6 @@ DataSourceSurface
 dest
 )
 ;
-void
-DeprecatedReadback
-(
-SharedSurface_GL
-*
-src
-gfxImageSurface
-*
-dest
-)
-;
 protected
 :
 void
