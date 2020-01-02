@@ -6487,7 +6487,7 @@ showSoftInput
 )
 ;
 }
-private
+public
 void
 setTitle
 (
