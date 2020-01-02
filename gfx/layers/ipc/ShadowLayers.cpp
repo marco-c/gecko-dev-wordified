@@ -3331,17 +3331,6 @@ PlatformSyncBeforeUpdate
 (
 )
 ;
-profiler_tracing
-(
-"
-Paint
-"
-"
-Rasterize
-"
-TRACING_INTERVAL_END
-)
-;
 if
 (
 mTxn
