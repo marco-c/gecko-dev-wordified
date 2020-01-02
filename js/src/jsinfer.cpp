@@ -1503,6 +1503,8 @@ null
 >
 "
 lineno
+(
+)
 )
 ;
 }
@@ -6219,6 +6221,8 @@ script
 -
 >
 nTypeSets
+(
+)
 ;
 i
 +
@@ -11845,6 +11849,8 @@ script
 -
 >
 mainOffset
+(
+)
 +
 tn
 -
@@ -12928,6 +12934,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 co
@@ -22372,6 +22380,8 @@ nonLazyScript
 -
 >
 sourceStart
+(
+)
 ;
 end
 =
@@ -22384,6 +22394,8 @@ nonLazyScript
 -
 >
 sourceEnd
+(
+)
 ;
 }
 else
@@ -22787,6 +22799,8 @@ i
 i
 <
 nTypeSets
+(
+)
 ;
 i
 +
@@ -28998,10 +29012,15 @@ script
 filename
 (
 )
+(
+int
+)
 script
 -
 >
 lineno
+(
+)
 )
 ;
 if

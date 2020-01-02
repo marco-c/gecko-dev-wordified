@@ -739,6 +739,8 @@ script
 -
 >
 nslots
+(
+)
 )
 ;
 /
@@ -1308,6 +1310,8 @@ script
 -
 >
 nfixed
+(
+)
 )
 )
 return
@@ -1350,6 +1354,8 @@ script
 -
 >
 nfixed
+(
+)
 )
 ;
 return
@@ -3605,6 +3611,8 @@ script
 -
 >
 nslots
+(
+)
 ;
 uint8_t
 *
@@ -7161,6 +7169,8 @@ script
 -
 >
 nfixed
+(
+)
 ;
 jit
 :
@@ -7195,6 +7205,8 @@ script
 -
 >
 nfixed
+(
+)
 ;
 #
 else
@@ -7319,6 +7331,8 @@ script
 -
 >
 nfixed
+(
+)
 ;
 return
 si
@@ -7342,6 +7356,8 @@ script
 -
 >
 nfixed
+(
+)
 ;
 return
 *
@@ -7679,6 +7695,8 @@ script
 -
 >
 nslots
+(
+)
 )
 ;
 if
@@ -7689,6 +7707,8 @@ script
 -
 >
 nfixed
+(
+)
 )
 {
 JS_ASSERT
@@ -7715,6 +7735,8 @@ script
 -
 >
 nfixed
+(
+)
 ;
 for
 (

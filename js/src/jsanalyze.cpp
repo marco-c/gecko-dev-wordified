@@ -1986,6 +1986,8 @@ script_
 -
 >
 mainOffset
+(
+)
 +
 tn
 -
@@ -2184,6 +2186,8 @@ script_
 -
 >
 nfixed
+(
+)
 )
 {
 localsAliasStack_
@@ -2221,6 +2225,8 @@ script_
 -
 >
 nfixed
+(
+)
 )
 {
 localsAliasStack_
@@ -3185,6 +3191,8 @@ script_
 -
 >
 mainOffset
+(
+)
 +
 tn
 -
@@ -5870,11 +5878,15 @@ script_
 -
 >
 nslots
+(
+)
 -
 script_
 -
 >
 nfixed
+(
+)
 ;
 /
 *
@@ -8391,6 +8403,8 @@ script_
 -
 >
 mainOffset
+(
+)
 +
 tn
 -

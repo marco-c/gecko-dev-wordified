@@ -434,6 +434,8 @@ script
 >
 lineno
 (
+)
+(
 int
 )
 script
@@ -597,6 +599,8 @@ script
 -
 >
 lineno
+(
+)
 (
 int
 )
@@ -7182,6 +7186,8 @@ script
 >
 lineno
 (
+)
+(
 int
 )
 script
@@ -8125,6 +8131,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 /
@@ -25105,6 +25113,8 @@ nonLazyScript
 -
 >
 lineno
+(
+)
 obj
 .
 get
@@ -40575,6 +40585,8 @@ nonLazyScript
 -
 >
 lineno
+(
+)
 )
 ;
 ICGetProp_CallScripted
@@ -47144,6 +47156,8 @@ nonLazyScript
 -
 >
 lineno
+(
+)
 )
 ;
 ICSetProp_CallScripted
@@ -52620,6 +52634,8 @@ nonLazyScript
 -
 >
 lineno
+(
+)
 constructing
 ?
 "

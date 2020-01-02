@@ -2570,6 +2570,8 @@ script_
 -
 >
 lineno
+(
+)
 script_
 -
 >
@@ -11297,6 +11299,8 @@ topScript
 -
 >
 lineno
+(
+)
 )
 ;
 topScript

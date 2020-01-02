@@ -491,6 +491,8 @@ script
 -
 >
 lineno
+(
+)
 script
 .
 get
@@ -524,6 +526,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 if
@@ -1143,6 +1147,8 @@ script
 -
 >
 nTypeSets
+(
+)
 +
 1
 :
@@ -1268,6 +1274,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 #
@@ -1661,6 +1669,8 @@ script
 -
 >
 nTypeSets
+(
+)
 )
 break
 ;
@@ -1675,6 +1685,8 @@ script
 -
 >
 nTypeSets
+(
+)
 )
 ;
 /
@@ -1713,6 +1725,8 @@ script
 -
 >
 nTypeSets
+(
+)
 ]
 =
 0
@@ -3084,6 +3098,8 @@ script
 -
 >
 nslots
+(
+)
 *
 sizeof
 (

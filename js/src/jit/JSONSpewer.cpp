@@ -824,6 +824,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 else

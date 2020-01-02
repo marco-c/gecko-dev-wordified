@@ -335,6 +335,8 @@ function
 -
 >
 lineno
+(
+)
 ;
 const
 size_t
@@ -604,6 +606,8 @@ func
 -
 >
 lineno
+(
+)
 )
 ;
 }

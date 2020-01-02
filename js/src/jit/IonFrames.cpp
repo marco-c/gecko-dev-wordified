@@ -1887,6 +1887,8 @@ script
 -
 >
 nfixed
+(
+)
 ;
 uint32_t
 skipSlots
@@ -2869,6 +2871,8 @@ script
 -
 >
 nfixed
+(
+)
 )
 ;
 size_t
@@ -2889,6 +2893,8 @@ script
 -
 >
 nfixed
+(
+)
 ;
 if
 (
@@ -2982,6 +2988,8 @@ script
 -
 >
 nfixed
+(
+)
 +
 tn
 -
@@ -10757,6 +10765,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 JSContext
@@ -11089,6 +11099,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 fprintf

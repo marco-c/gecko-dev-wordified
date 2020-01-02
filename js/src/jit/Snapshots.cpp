@@ -2241,6 +2241,8 @@ script
 -
 >
 nfixed
+(
+)
 +
 exprStack
 ;
@@ -2276,6 +2278,8 @@ script
 -
 >
 nfixed
+(
+)
 exprStack
 )
 ;

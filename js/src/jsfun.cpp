@@ -2181,6 +2181,8 @@ nonLazyScript
 -
 >
 funLength
+(
+)
 :
 fun
 -
@@ -4805,6 +4807,8 @@ script
 -
 >
 sourceStart
+(
+)
 =
 =
 0
@@ -4814,6 +4818,8 @@ script
 -
 >
 sourceEnd
+(
+)
 =
 =
 script
@@ -8298,13 +8304,14 @@ determined
 script
 -
 >
-column
-=
+setColumn
+(
 lazy
 -
 >
 column
 (
+)
 )
 ;
 LazyScriptCache

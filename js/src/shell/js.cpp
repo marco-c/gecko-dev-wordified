@@ -9138,6 +9138,8 @@ script
 -
 >
 lineno
+(
+)
 &
 rval
 )
@@ -10216,6 +10218,8 @@ script
 -
 >
 lineno
+(
+)
 ;
 jssrcnote
 *

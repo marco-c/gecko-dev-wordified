@@ -476,6 +476,8 @@ script
 -
 >
 nfixed
+(
+)
 ;
 nstack_
 =
@@ -483,11 +485,15 @@ script
 -
 >
 nslots
+(
+)
 -
 script
 -
 >
 nfixed
+(
+)
 ;
 nslots_
 =
@@ -694,6 +700,8 @@ script_
 -
 >
 lineno
+(
+)
 ;
 }
 unsigned

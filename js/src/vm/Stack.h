@@ -2799,6 +2799,8 @@ script
 -
 >
 nfixed
+(
+)
 ;
 }
 Value
@@ -3463,6 +3465,8 @@ script
 -
 >
 staticLevel
+(
+)
 >
 0
 ;
@@ -6647,6 +6651,8 @@ script
 -
 >
 nfixed
+(
+)
 +
 depth
 <
@@ -6660,6 +6666,8 @@ script
 -
 >
 nslots
+(
+)
 )
 ;
 return
@@ -6811,6 +6819,8 @@ script
 -
 >
 nfixed
+(
+)
 ;
 fp_
 =

@@ -9104,6 +9104,8 @@ script
 -
 >
 nslots
+(
+)
 )
 ;
 /
@@ -19949,6 +19951,8 @@ script
 -
 >
 nslots
+(
+)
 )
 ;
 Value
@@ -20467,6 +20471,8 @@ script
 -
 >
 nfixed
+(
+)
 <
 =
 slot
@@ -20480,6 +20486,8 @@ script
 -
 >
 nslots
+(
+)
 )
 ;
 RootedObject

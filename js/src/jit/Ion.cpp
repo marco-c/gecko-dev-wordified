@@ -11318,6 +11318,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 return
@@ -11364,6 +11366,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 return
@@ -13031,6 +13035,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 return
@@ -14490,6 +14496,8 @@ script
 -
 >
 lineno
+(
+)
 it
 .
 maybeCallee
@@ -15766,6 +15774,8 @@ script
 -
 >
 lineno
+(
+)
 co
 .
 ion
@@ -16851,6 +16861,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 CancelOffThreadIonCompile

@@ -2953,6 +2953,8 @@ outermostScript
 -
 >
 lineno
+(
+)
 currentScript
 currentScript
 -
@@ -2964,6 +2966,8 @@ currentScript
 -
 >
 lineno
+(
+)
 (
 currentScript
 ?
@@ -3102,6 +3106,8 @@ outermostScript
 -
 >
 lineno
+(
+)
 currentScript
 currentScript
 -
@@ -3113,6 +3119,8 @@ currentScript
 -
 >
 lineno
+(
+)
 )
 ;
 JS_ASSERT
@@ -3294,6 +3302,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 }
@@ -3467,6 +3477,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 }

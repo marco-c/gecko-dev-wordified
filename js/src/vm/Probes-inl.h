@@ -500,6 +500,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 #
@@ -561,6 +563,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 #

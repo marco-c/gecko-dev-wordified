@@ -1682,6 +1682,8 @@ script
 -
 >
 lineno
+(
+)
 )
 buf
 )
