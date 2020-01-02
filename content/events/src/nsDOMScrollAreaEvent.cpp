@@ -134,6 +134,10 @@ nsClientRect
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsDOMScrollAreaEvent
 :
 :
@@ -151,7 +155,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsScrollAreaEvent
+InternalScrollAreaEvent
 *
 aEvent
 )
@@ -214,7 +218,7 @@ NS_SCROLLAREA_EVENT
 delete
 static_cast
 <
-nsScrollAreaEvent
+InternalScrollAreaEvent
 *
 >
 (
@@ -594,7 +598,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsScrollAreaEvent
+InternalScrollAreaEvent
 *
 aEvent
 )

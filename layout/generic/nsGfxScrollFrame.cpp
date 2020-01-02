@@ -26839,7 +26839,7 @@ Forget
 (
 )
 ;
-nsScrollAreaEvent
+InternalScrollAreaEvent
 event
 (
 true

@@ -596,13 +596,6 @@ mozilla
 InternalScrollPortEvent
 nsScrollPortEvent
 ;
-typedef
-mozilla
-:
-:
-InternalScrollAreaEvent
-nsScrollAreaEvent
-;
 #
 endif
 /

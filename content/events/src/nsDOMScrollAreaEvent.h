@@ -173,7 +173,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsScrollAreaEvent
+mozilla
+:
+:
+InternalScrollAreaEvent
 *
 aEvent
 )

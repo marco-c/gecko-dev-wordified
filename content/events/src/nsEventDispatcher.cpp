@@ -4089,7 +4089,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsScrollAreaEvent
+InternalScrollAreaEvent
 *
 >
 (
