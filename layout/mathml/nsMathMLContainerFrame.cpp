@@ -5948,7 +5948,7 @@ ascent
 WritingMode
 wm
 =
-aReflowState
+aDesiredSize
 .
 GetWritingMode
 (
