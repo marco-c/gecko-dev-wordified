@@ -754,9 +754,9 @@ textContent
 indexOf
 (
 "
-[
-object
-HTMLHeadingElement
+<
+h1
+>
 "
 )
 -

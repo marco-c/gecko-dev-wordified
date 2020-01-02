@@ -189,6 +189,9 @@ a
 "
 "
 Array
+[
+1
+]
 "
 )
 )
@@ -295,7 +298,9 @@ new
 Function
 "
 "
-Function
+anonymous
+(
+)
 "
 )
 )
@@ -356,6 +361,9 @@ keys
 "
 "
 Array
+[
+0
+]
 "
 )
 )

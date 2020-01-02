@@ -708,7 +708,9 @@ value
 "
 )
 "
-HTMLButtonElement
+<
+button
+>
 "
 "
 Should

@@ -497,6 +497,13 @@ value
 )
 "
 Window
+\
+u2192
+doc_with
+-
+frame
+.
+html
 "
 "
 Should
@@ -1497,7 +1504,9 @@ value
 "
 )
 "
-Function
+random
+(
+)
 "
 "
 Should
