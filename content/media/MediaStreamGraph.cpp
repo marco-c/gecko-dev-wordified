@@ -286,12 +286,17 @@ speex_resampler
 h
 "
 #
+ifdef
+MOZ_WEBRTC
+#
 include
 "
 AudioOutputObserver
 .
 h
 "
+#
+endif
 using
 namespace
 mozilla
@@ -4333,6 +4338,9 @@ mixer
 callbacks
 bug
 989921
+#
+ifdef
+MOZ_WEBRTC
 if
 (
 aFrames
@@ -4377,6 +4385,8 @@ aFormat
 ;
 }
 }
+#
+endif
 }
 void
 MediaStreamGraphImpl
