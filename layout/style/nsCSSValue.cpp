@@ -10253,7 +10253,7 @@ for
 )
 {
 bool
-addSpaceSpearator
+addSpaceSeparator
 =
 true
 ;
@@ -10292,7 +10292,7 @@ Serializes
 to
 nothing
 .
-addSpaceSpearator
+addSpaceSeparator
 =
 false
 ;
@@ -10403,7 +10403,7 @@ break
 }
 if
 (
-addSpaceSpearator
+addSpaceSeparator
 )
 {
 aResult
