@@ -541,12 +541,7 @@ TestTagTable
 #
 endif
 return
-nsParser
-:
-:
-Init
-(
-)
+rv
 ;
 }
 static
@@ -566,13 +561,6 @@ nsHTMLEntities
 :
 :
 ReleaseTable
-(
-)
-;
-nsParser
-:
-:
-Shutdown
 (
 )
 ;
