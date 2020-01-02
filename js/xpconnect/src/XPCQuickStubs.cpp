@@ -935,7 +935,6 @@ newBindingProperties
 -
 >
 regular
-false
 )
 ;
 }
@@ -985,7 +984,6 @@ newBindingProperties
 -
 >
 chromeOnly
-false
 )
 ;
 }
