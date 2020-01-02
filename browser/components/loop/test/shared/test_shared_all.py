@@ -66,24 +66,7 @@ self
 set_server_prefix
 (
 "
-build
-/
-tests
-/
-marionette
-/
-tests
-/
-browser
-/
-components
-/
-loop
-/
-test
-/
-shared
-/
+.
 "
 )
     
