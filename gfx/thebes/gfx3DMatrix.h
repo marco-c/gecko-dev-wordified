@@ -124,7 +124,7 @@ gfxQuad
 .
 h
 >
-struct
+class
 gfxMatrix
 ;
 /
