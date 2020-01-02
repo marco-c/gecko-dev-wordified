@@ -3672,6 +3672,11 @@ GetSkiaGLGlue
 )
 ;
 void
+DestroySkiaGLGlue
+(
+)
+;
+void
 PurgeSkiaCache
 (
 )
