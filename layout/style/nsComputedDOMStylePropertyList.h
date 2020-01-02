@@ -969,11 +969,6 @@ FontSynthesis
 )
 COMPUTED_STYLE_PROP
 (
-font_variant
-FontVariant
-)
-COMPUTED_STYLE_PROP
-(
 font_variant_alternates
 FontVariantAlternates
 )
