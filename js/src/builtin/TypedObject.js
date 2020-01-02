@@ -3340,9 +3340,9 @@ fromValue
 }
 /
 /
-Assigns
+Writes
 fromValue
-to
+into
 the
 memory
 pointed
@@ -3350,9 +3350,9 @@ at
 by
 this
 adapting
+/
+/
 it
-/
-/
 to
 typeRepr
 as
@@ -3365,9 +3365,9 @@ most
 general
 entry
 point
+/
+/
 and
-/
-/
 works
 for
 any
@@ -3462,7 +3462,9 @@ descr
 if
 (
 !
-typeRepr
+this
+.
+descr
 .
 variable
 &
