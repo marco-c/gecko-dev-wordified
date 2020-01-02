@@ -3943,6 +3943,13 @@ SetPreliminaryHandshakeDone
 (
 )
 ;
+infoObject
+-
+>
+SetFirstServerHelloReceived
+(
+)
+;
 /
 /
 Get
@@ -5169,7 +5176,7 @@ secret
 certificate
 validation
 sets
-IsFullHandshake
+FirstServerHelloReceived
 so
 if
 that
@@ -5207,11 +5214,13 @@ bool
 isResumedSession
 =
 !
+(
 infoObject
 -
 >
-IsFullHandshake
+GetFirstServerHelloReceived
 (
+)
 )
 ;
 /
