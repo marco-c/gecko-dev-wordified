@@ -193,9 +193,6 @@ mTex2DBlit_Program
 GLuint
 mTex2DRectBlit_Program
 ;
-bool
-mTexBlit_UseDrawNotCopy
-;
 void
 UseBlitProgram
 (
