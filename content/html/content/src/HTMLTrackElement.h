@@ -670,6 +670,11 @@ nsAString
 aName
 )
 ;
+void
+DropChannel
+(
+)
+;
 protected
 :
 virtual
