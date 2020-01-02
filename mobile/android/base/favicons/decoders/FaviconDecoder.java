@@ -683,19 +683,19 @@ LoadFaviconResult
 ;
 result
 .
-mOffset
+offset
 =
 offset
 ;
 result
 .
-mLength
+length
 =
 length
 ;
 result
 .
-mIsICO
+isICO
 =
 false
 ;
@@ -735,7 +735,7 @@ size
 .
 result
 .
-mBitmapsDecoded
+bitmapsDecoded
 =
 new
 SingleBitmapIterator
@@ -752,7 +752,7 @@ length
 ;
 result
 .
-mFaviconBytes
+faviconBytes
 =
 buffer
 ;
@@ -1362,7 +1362,7 @@ Bitmap
 {
 private
 Bitmap
-mBitmap
+bitmap
 ;
 public
 SingleBitmapIterator
@@ -1371,7 +1371,7 @@ Bitmap
 b
 )
 {
-mBitmap
+bitmap
 =
 b
 ;
@@ -1435,7 +1435,7 @@ peek
 )
 {
 return
-mBitmap
+bitmap
 ;
 }
 Override
@@ -1446,7 +1446,7 @@ hasNext
 )
 {
 return
-mBitmap
+bitmap
 !
 =
 null
@@ -1461,7 +1461,7 @@ next
 {
 if
 (
-mBitmap
+bitmap
 =
 =
 null
@@ -1485,9 +1485,9 @@ SingleBitmapIterator
 Bitmap
 ret
 =
-mBitmap
+bitmap
 ;
-mBitmap
+bitmap
 =
 null
 ;

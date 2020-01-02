@@ -833,7 +833,7 @@ else
 {
 /
 /
-sLargestFaviconSize
+largestFaviconSize
 is
 initialized
 when
@@ -874,7 +874,7 @@ if
 (
 Favicons
 .
-sLargestFaviconSize
+largestFaviconSize
 =
 =
 0
@@ -891,7 +891,7 @@ desiredWidth
 =
 Favicons
 .
-sLargestFaviconSize
+largestFaviconSize
 ;
 }
 }
