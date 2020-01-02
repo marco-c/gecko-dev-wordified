@@ -234,7 +234,7 @@ constants
 const
 GRAPH_RESIZE_EVENTS_DRAIN
 =
-20
+100
 ;
 /
 /
