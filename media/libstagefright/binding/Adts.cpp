@@ -241,11 +241,6 @@ newSize
 |
 |
 aChannelCount
-<
-0
-|
-|
-aChannelCount
 >
 15
 |
