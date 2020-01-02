@@ -2458,9 +2458,6 @@ prog
 WebGLUniformLocation
 *
 location
-ErrorResult
-&
-rv
 )
 ;
 already_AddRefed
