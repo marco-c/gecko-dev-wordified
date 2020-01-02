@@ -9702,8 +9702,13 @@ contains
 '
 arguments
 '
+or
+'
+eval
+'
+.
 class
-MFilterArguments
+MFilterArgumentsOrEval
 :
 public
 MAryInstruction
@@ -9718,7 +9723,7 @@ StringPolicy
 {
 protected
 :
-MFilterArguments
+MFilterArgumentsOrEval
 (
 MDefinition
 *
@@ -9745,10 +9750,10 @@ public
 :
 INSTRUCTION_HEADER
 (
-FilterArguments
+FilterArgumentsOrEval
 )
 static
-MFilterArguments
+MFilterArgumentsOrEval
 *
 New
 (
@@ -9759,7 +9764,7 @@ string
 {
 return
 new
-MFilterArguments
+MFilterArgumentsOrEval
 (
 string
 )

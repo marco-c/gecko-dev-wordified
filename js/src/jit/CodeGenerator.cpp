@@ -15687,9 +15687,9 @@ bool
 CodeGenerator
 :
 :
-visitFilterArguments
+visitFilterArgumentsOrEval
 (
-LFilterArguments
+LFilterArgumentsOrEval
 *
 lir
 )
@@ -15770,7 +15770,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-FilterArguments
+FilterArgumentsOrEval
 )
 )
 ;

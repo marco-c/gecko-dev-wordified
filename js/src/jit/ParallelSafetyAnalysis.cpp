@@ -862,7 +862,7 @@ GetDynamicName
 )
 UNSAFE_OP
 (
-FilterArguments
+FilterArgumentsOrEval
 )
 UNSAFE_OP
 (

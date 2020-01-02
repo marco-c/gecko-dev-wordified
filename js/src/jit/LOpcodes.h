@@ -323,7 +323,7 @@ GetDynamicName
 \
 _
 (
-FilterArguments
+FilterArgumentsOrEval
 )
 \
 _
