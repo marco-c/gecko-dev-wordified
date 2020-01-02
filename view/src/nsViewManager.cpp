@@ -269,6 +269,13 @@ gfxPlatform
 .
 h
 "
+#
+include
+"
+nsIDocument
+.
+h
+"
 /
 *
 *

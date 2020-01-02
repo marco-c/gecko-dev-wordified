@@ -42431,7 +42431,7 @@ true
 ;
 }
 }
-nsAutoHandlingUserInputStatePusher
+AutoHandlingUserInputStatePusher
 userInpStatePusher
 (
 isHandlingUserInput
