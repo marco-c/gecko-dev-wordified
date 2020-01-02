@@ -594,13 +594,9 @@ message
 {
 identity
 :
-{
-name
-:
 payload
 .
 username
-}
 contents
 :
 payload
