@@ -15643,6 +15643,12 @@ hint
 nsChangeHint_AllReflowHints
 )
 ;
+NS_UpdateHint
+(
+hint
+nsChangeHint_RepaintFrame
+)
+;
 }
 if
 (
