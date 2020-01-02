@@ -493,6 +493,15 @@ LayersBackend
 :
 :
 LAYERS_D3D10
+&
+&
+mLayersBackend
+!
+=
+LayersBackend
+:
+:
+LAYERS_D3D11
 )
 )
 {

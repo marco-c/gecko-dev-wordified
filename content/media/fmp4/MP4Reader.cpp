@@ -903,7 +903,7 @@ mLayersBackendType
 layerManager
 -
 >
-GetBackendType
+GetCompositorBackendType
 (
 )
 ;
