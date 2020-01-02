@@ -1670,9 +1670,6 @@ context
 =
 context
 ;
-#
-ifdef
-ENABLE_SPS_LEAF_DATA
 /
 /
 If
@@ -1707,8 +1704,6 @@ context
 )
 ;
 }
-#
-endif
 sample
 -
 >

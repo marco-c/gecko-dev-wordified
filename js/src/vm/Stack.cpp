@@ -9819,7 +9819,7 @@ spsProfiler
 profiler_
 -
 >
-enterNative
+enterAsmJS
 (
 "
 asm
@@ -9911,7 +9911,7 @@ profiler_
 profiler_
 -
 >
-exitNative
+exitAsmJS
 (
 )
 ;
