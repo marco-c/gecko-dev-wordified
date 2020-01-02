@@ -433,6 +433,10 @@ mCompositorMightResample
 (
 false
 )
+mNeedsComposite
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -1705,6 +1709,9 @@ changeset
 to
 our
 LayerManagerComposite
+bool
+sent
+;
 AutoInfallibleTArray
 <
 EditReply
@@ -1726,6 +1733,8 @@ EndTransaction
 (
 &
 replies
+&
+sent
 )
 )
 {
@@ -2060,6 +2069,16 @@ reached
 )
 ;
 }
+}
+if
+(
+sent
+)
+{
+mNeedsComposite
+=
+false
+;
 }
 }
 else

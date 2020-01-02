@@ -2260,6 +2260,9 @@ EditReply
 >
 *
 aReplies
+bool
+*
+aSent
 )
 ;
 /
