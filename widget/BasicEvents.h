@@ -427,10 +427,6 @@ WidgetTouchEvent
 ContentEvents
 .
 h
-NS_SCRIPT_ERROR_EVENT
-/
-/
-InternalScriptErrorEvent
 NS_SCROLLPORT_EVENT
 /
 /
