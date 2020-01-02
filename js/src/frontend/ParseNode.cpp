@@ -2927,16 +2927,6 @@ pn_kid
 )
 )
 ;
-pn
--
->
-pn_hidden
-=
-opn
--
->
-pn_hidden
-;
 break
 ;
 case
