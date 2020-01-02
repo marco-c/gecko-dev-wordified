@@ -456,6 +456,16 @@ kNativeHTMLMime
 =
 =
 0
+|
+|
+strcmp
+(
+aFlavor
+kHTMLMime
+)
+=
+=
+0
 )
 {
 nsCOMPtr
