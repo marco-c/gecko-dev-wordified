@@ -405,7 +405,7 @@ need
 to
 re
 -
-NULL
+null
 terminate
 }
 /

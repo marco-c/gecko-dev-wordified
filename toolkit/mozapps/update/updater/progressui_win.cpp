@@ -361,7 +361,7 @@ if
 !
 GetModuleFileNameW
 (
-NULL
+nullptr
 filename
 MAX_PATH
 )
@@ -798,7 +798,7 @@ LoadIcon
 (
 GetModuleHandle
 (
-NULL
+nullptr
 )
 MAKEINTRESOURCE
 (
@@ -1225,7 +1225,7 @@ SetTimer
 hDlg
 TIMER_ID
 TIMER_INTERVAL
-NULL
+nullptr
 )
 ;
 }
@@ -1568,13 +1568,13 @@ DialogBox
 (
 GetModuleHandle
 (
-NULL
+nullptr
 )
 MAKEINTRESOURCE
 (
 IDD_DIALOG
 )
-NULL
+nullptr
 (
 DLGPROC
 )
