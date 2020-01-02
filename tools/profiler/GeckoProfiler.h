@@ -892,6 +892,9 @@ TRACING_DEFAULT
 )
 {
 }
+class
+ProfilerBacktrace
+;
 static
 inline
 void
@@ -1266,9 +1269,6 @@ profiler_resume
 )
 {
 }
-class
-ProfilerBacktrace
-;
 /
 /
 Immediately
