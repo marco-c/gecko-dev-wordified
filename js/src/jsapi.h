@@ -30819,9 +30819,6 @@ uint32_t
 length
 JSPrincipals
 *
-principals
-JSPrincipals
-*
 originPrincipals
 )
 ;
@@ -30842,9 +30839,6 @@ void
 data
 uint32_t
 length
-JSPrincipals
-*
-principals
 JSPrincipals
 *
 originPrincipals
