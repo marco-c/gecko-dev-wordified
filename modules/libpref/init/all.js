@@ -4916,8 +4916,6 @@ pref
 "
 apz
 .
-apz
-.
 x_skate_size_multiplier
 "
 "
@@ -4930,8 +4928,6 @@ x_skate_size_multiplier
 pref
 (
 "
-apz
-.
 apz
 .
 y_skate_size_multiplier
