@@ -6151,12 +6151,7 @@ nsDocShell
 &
 aContainer
 )
-{
-mForwardingContainer
-=
-aContainer
 ;
-}
 /
 *
 *
