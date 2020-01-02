@@ -8,10 +8,6 @@ test
 dump
 -
 bytecode
-;
-error
-:
-SyntaxError
 (
 function
 (
