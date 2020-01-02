@@ -3857,6 +3857,8 @@ the
 worker
 message
 .
+json
+.
 sessionId
 =
 this
