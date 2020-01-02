@@ -93,6 +93,11 @@ Command
 '
 throw
 '
+category
+=
+'
+testing
+'
 )
     
 CommandArgument
@@ -132,6 +137,11 @@ Command
 (
 '
 throw_deep
+'
+category
+=
+'
+testing
 '
 )
     

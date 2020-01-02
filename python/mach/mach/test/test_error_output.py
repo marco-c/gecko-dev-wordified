@@ -161,10 +161,6 @@ self
 .
 assertIn
 (
-mach
-.
-main
-.
 COMMAND_ERROR
 stdout
 )
@@ -213,10 +209,6 @@ self
 .
 assertIn
 (
-mach
-.
-main
-.
 MODULE_ERROR
 stdout
 )
