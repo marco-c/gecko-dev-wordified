@@ -481,7 +481,7 @@ aReadyState
 ;
 TextTrack
 *
-Track
+GetTrack
 (
 )
 ;
