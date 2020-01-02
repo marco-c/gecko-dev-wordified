@@ -1321,7 +1321,10 @@ message
 "
 ]
 =
+unicode
+(
 message
+)
         
 if
 expected
@@ -1621,7 +1624,10 @@ message
 "
 ]
 =
+unicode
+(
 message
+)
         
 if
 expected
@@ -1835,7 +1841,10 @@ level_name
 message
 "
 :
+unicode
+(
 message
+)
 }
         
 self
