@@ -12397,7 +12397,7 @@ duration
 "
 :
 %
-llu
+lu
 "
 )
 MOZ_UTF16
@@ -12410,7 +12410,7 @@ max_slice_pause
 "
 :
 %
-llu
+lu
 "
 )
 MOZ_UTF16
@@ -12423,7 +12423,7 @@ total_slice_pause
 "
 :
 %
-llu
+lu
 "
 )
 MOZ_UTF16
@@ -12436,7 +12436,7 @@ max_finish_gc_duration
 "
 :
 %
-llu
+lu
 "
 )
 MOZ_UTF16
@@ -12449,7 +12449,7 @@ max_sync_skippable_duration
 "
 :
 %
-llu
+lu
 "
 )
 MOZ_UTF16
