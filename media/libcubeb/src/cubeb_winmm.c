@@ -3778,5 +3778,13 @@ stream_output_device_destroy
 *
 /
 NULL
+/
+*
+.
+stream_register_device_changed_callback
+=
+*
+/
+NULL
 }
 ;
