@@ -52,8 +52,6 @@ require
 (
 "
 acorn
-/
-acorn
 "
 )
 ;
