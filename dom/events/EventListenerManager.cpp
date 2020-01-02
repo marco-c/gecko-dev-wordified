@@ -4674,7 +4674,7 @@ the
 right
 place
 .
-AutoPushJSContext
+AutoPushJSContextForErrorReporting
 cx
 (
 context
