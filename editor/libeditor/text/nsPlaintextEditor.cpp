@@ -116,6 +116,8 @@ include
 "
 mozilla
 /
+dom
+/
 Selection
 .
 h
@@ -503,6 +505,13 @@ nsISupportsArray
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 nsPlaintextEditor
 :

@@ -167,6 +167,8 @@ include
 "
 mozilla
 /
+dom
+/
 Selection
 .
 h
@@ -192,6 +194,15 @@ mozilla
 :
 :
 a11y
+;
+using
+mozilla
+:
+:
+dom
+:
+:
+Selection
 ;
 struct
 mozilla

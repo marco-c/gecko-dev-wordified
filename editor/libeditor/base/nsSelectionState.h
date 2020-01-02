@@ -152,9 +152,13 @@ nsRange
 namespace
 mozilla
 {
+namespace
+dom
+{
 class
 Selection
 ;
+}
 }
 /
 *
@@ -400,6 +404,9 @@ void
 SaveSelection
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection

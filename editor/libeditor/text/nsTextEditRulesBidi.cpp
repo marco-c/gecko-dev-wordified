@@ -161,6 +161,8 @@ include
 "
 mozilla
 /
+dom
+/
 Selection
 .
 h
@@ -210,6 +212,13 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 /
 /

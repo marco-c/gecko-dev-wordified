@@ -129,6 +129,8 @@ include
 "
 mozilla
 /
+dom
+/
 Selection
 .
 h
@@ -552,6 +554,13 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 /
 /
@@ -16182,9 +16191,6 @@ NS_OK
 }
 nsRefPtr
 <
-mozilla
-:
-:
 Selection
 >
 selection
@@ -16506,6 +16512,9 @@ endif
 /
 /
 mozilla
+:
+:
+dom
 :
 :
 Selection

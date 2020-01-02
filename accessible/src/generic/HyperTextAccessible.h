@@ -2987,6 +2987,9 @@ FrameSelection
 )
 const
 ;
+dom
+:
+:
 Selection
 *
 DOMSelection

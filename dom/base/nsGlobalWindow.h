@@ -596,9 +596,6 @@ mozilla
 class
 DOMEventTargetHelper
 ;
-class
-Selection
-;
 namespace
 dom
 {
@@ -625,6 +622,9 @@ Navigator
 ;
 class
 OwningExternalOrWindowProxy
+;
+class
+Selection
 ;
 class
 SpeechSynthesis
@@ -5274,6 +5274,9 @@ aError
 )
 ;
 mozilla
+:
+:
+dom
 :
 :
 Selection

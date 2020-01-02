@@ -500,9 +500,6 @@ mozilla
 class
 EventStates
 ;
-class
-Selection
-;
 namespace
 dom
 {
@@ -511,6 +508,9 @@ Element
 ;
 class
 Touch
+;
+class
+Selection
 ;
 class
 ShadowRoot
@@ -4997,6 +4997,9 @@ mSelectionFlags
 }
 virtual
 mozilla
+:
+:
+dom
 :
 :
 Selection

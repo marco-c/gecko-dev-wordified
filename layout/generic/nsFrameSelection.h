@@ -85,6 +85,8 @@ include
 "
 mozilla
 /
+dom
+/
 Selection
 .
 h
@@ -1074,9 +1076,13 @@ mLevelAfter
 namespace
 mozilla
 {
+namespace
+dom
+{
 class
 Selection
 ;
+}
 }
 class
 nsIScrollableFrame
@@ -2402,6 +2408,9 @@ want
 *
 /
 mozilla
+:
+:
+dom
 :
 :
 Selection
@@ -4182,6 +4191,9 @@ class
 mozilla
 :
 :
+dom
+:
+:
 Selection
 ;
 #
@@ -4384,6 +4396,9 @@ etc
 nsRefPtr
 <
 mozilla
+:
+:
+dom
 :
 :
 Selection

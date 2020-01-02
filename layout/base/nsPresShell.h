@@ -461,6 +461,9 @@ virtual
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 GetCurrentSelection

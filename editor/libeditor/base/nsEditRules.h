@@ -440,6 +440,9 @@ WillDoAction
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 aSelection

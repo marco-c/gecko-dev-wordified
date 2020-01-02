@@ -1428,6 +1428,9 @@ Deprecated
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 GetSelection

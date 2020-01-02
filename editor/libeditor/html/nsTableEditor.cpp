@@ -114,6 +114,8 @@ include
 "
 mozilla
 /
+dom
+/
 Selection
 .
 h
@@ -362,6 +364,13 @@ algorithm
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 /
 *

@@ -601,6 +601,9 @@ nsRefPtr
 mozilla
 :
 :
+dom
+:
+:
 Selection
 >
 mSel
@@ -637,6 +640,9 @@ aSel
 nsAutoSelectionReset
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection

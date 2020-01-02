@@ -150,6 +150,8 @@ include
 "
 mozilla
 /
+dom
+/
 Selection
 .
 h
@@ -489,6 +491,13 @@ nsRulesInfo
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 /
 /

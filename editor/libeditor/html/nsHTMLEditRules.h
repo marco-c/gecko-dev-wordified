@@ -225,14 +225,14 @@ nsRulesInfo
 namespace
 mozilla
 {
-class
-Selection
-;
 namespace
 dom
 {
 class
 Element
+;
+class
+Selection
 ;
 }
 /
@@ -397,6 +397,9 @@ NS_IMETHOD
 WillDoAction
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection
@@ -759,6 +762,9 @@ aAction
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 aSelection
@@ -794,6 +800,9 @@ nsresult
 WillInsertBreak
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection
@@ -847,6 +856,9 @@ nsresult
 WillDeleteSelection
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection
@@ -986,6 +998,9 @@ WillMakeList
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 aSelection
@@ -1019,6 +1034,9 @@ WillRemoveList
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 aSelection
@@ -1038,6 +1056,9 @@ WillIndent
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 aSelection
@@ -1053,6 +1074,9 @@ nsresult
 WillCSSIndent
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection
@@ -1072,6 +1096,9 @@ WillHTMLIndent
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 aSelection
@@ -1089,6 +1116,9 @@ WillOutdent
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 aSelection
@@ -1104,6 +1134,9 @@ nsresult
 WillAlign
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection
@@ -1127,6 +1160,9 @@ WillAbsolutePosition
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 aSelection
@@ -1142,6 +1178,9 @@ nsresult
 WillRemoveAbsolutePosition
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection
@@ -1161,6 +1200,9 @@ WillRelativeChangeZIndex
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 aSelection
@@ -1178,6 +1220,9 @@ nsresult
 WillMakeDefListItem
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection
@@ -1201,6 +1246,9 @@ nsresult
 WillMakeBasicBlock
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection

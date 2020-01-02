@@ -284,6 +284,8 @@ include
 "
 mozilla
 /
+dom
+/
 Selection
 .
 h
@@ -8211,6 +8213,9 @@ nullptr
 return
 static_cast
 <
+dom
+:
+:
 Selection
 *
 >

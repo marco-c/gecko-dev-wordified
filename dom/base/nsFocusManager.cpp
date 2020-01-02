@@ -256,6 +256,8 @@ include
 "
 mozilla
 /
+dom
+/
 Selection
 .
 h

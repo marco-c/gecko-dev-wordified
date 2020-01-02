@@ -315,6 +315,8 @@ include
 "
 mozilla
 /
+dom
+/
 Selection
 .
 h
@@ -7391,6 +7393,9 @@ TakeFocus
 (
 )
 ;
+dom
+:
+:
 Selection
 *
 domSel
@@ -7716,6 +7721,9 @@ hypretext
 /
 offset
 .
+dom
+:
+:
 Selection
 *
 domSel
@@ -7896,6 +7904,9 @@ return
 -
 1
 ;
+dom
+:
+:
 Selection
 *
 domSel
@@ -8682,6 +8693,9 @@ SELECTION_HIDDEN
 )
 return
 ;
+dom
+:
+:
 Selection
 *
 domSel
@@ -9138,6 +9152,9 @@ ConvertMagicOffset
 aEndOffset
 )
 ;
+dom
+:
+:
 Selection
 *
 domSel
@@ -9290,6 +9307,9 @@ int32_t
 aSelectionNum
 )
 {
+dom
+:
+:
 Selection
 *
 domSel
@@ -9861,6 +9881,9 @@ empty
 "
 )
 ;
+dom
+:
+:
 Selection
 *
 sel
@@ -11938,6 +11961,9 @@ fs
 return
 NS_OK
 ;
+dom
+:
+:
 Selection
 *
 domSel

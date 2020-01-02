@@ -486,9 +486,6 @@ ErrorResult
 class
 EventListenerManager
 ;
-class
-Selection
-;
 namespace
 dom
 {
@@ -500,6 +497,9 @@ Element
 ;
 class
 EventTarget
+;
+class
+Selection
 ;
 }
 /
@@ -13289,6 +13289,9 @@ void
 GetSelectionInTextControl
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection
