@@ -17326,15 +17326,6 @@ sc
 isFunctionBox
 (
 )
-&
-&
-!
-pc
--
->
-isGenerator
-(
-)
 )
 return
 asmJS
