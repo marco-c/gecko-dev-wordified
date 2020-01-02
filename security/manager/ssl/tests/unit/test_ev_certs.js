@@ -951,7 +951,7 @@ run_next_test
 function
 add_tests_in_mode
 (
-useInsanity
+useMozillaPKIX
 )
 {
 add_test
@@ -969,9 +969,9 @@ setBoolPref
 "
 security
 .
-use_insanity_verification
+use_mozillapkix_verification
 "
-useInsanity
+useMozillaPKIX
 )
 ;
 run_next_test
@@ -1231,7 +1231,7 @@ ev
 -
 valid
 "
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 :
@@ -1383,7 +1383,7 @@ ev
 -
 valid
 "
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_POLICY_VALIDATION_FAILED
 :
@@ -1414,7 +1414,7 @@ ev
 -
 root
 "
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_POLICY_VALIDATION_FAILED
 :
@@ -1447,7 +1447,7 @@ url
 -
 cert
 "
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_POLICY_VALIDATION_FAILED
 :
@@ -1626,7 +1626,7 @@ isDebugBuild
 0
 :
 (
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_POLICY_VALIDATION_FAILED
 :

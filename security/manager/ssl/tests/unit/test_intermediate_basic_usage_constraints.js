@@ -302,7 +302,7 @@ value
 function
 run_test_in_mode
 (
-useInsanity
+useMozillaPKIX
 )
 {
 Services
@@ -314,14 +314,14 @@ setBoolPref
 "
 security
 .
-use_insanity_verification
+use_mozillapkix_verification
 "
-useInsanity
+useMozillaPKIX
 )
 ;
 /
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -344,7 +344,7 @@ does
 let
 ee_usage1
 =
-useInsanity
+useMozillaPKIX
 ?
 '
 Client
@@ -363,7 +363,7 @@ Encrypt
 '
 /
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -387,7 +387,7 @@ does
 let
 ca_usage1
 =
-useInsanity
+useMozillaPKIX
 ?
 "
 SSL
@@ -753,13 +753,13 @@ we
 re
 validating
 but
-insanity
+mozilla
 :
 :
 pkix
 does
 .
-insanity
+mozilla
 :
 :
 pkix
@@ -791,7 +791,7 @@ limited
 depth
 "
 ]
-useInsanity
+useMozillaPKIX
 ?
 "
 "
@@ -934,7 +934,7 @@ keyCertSign
 .
 Note
 that
-insanity
+mozilla
 :
 :
 pkix
@@ -978,7 +978,7 @@ no
 eku
 "
 ]
-useInsanity
+useMozillaPKIX
 ?
 "
 "

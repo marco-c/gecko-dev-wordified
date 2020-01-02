@@ -300,7 +300,7 @@ test_ca_distrust
 ee_cert
 cert_to_modify_trust
 isRootCA
-useInsanity
+useMozillaPKIX
 )
 {
 /
@@ -328,7 +328,7 @@ certificateUsageSSLClient
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
@@ -358,7 +358,7 @@ certificateUsageEmailRecipient
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 0
 :
@@ -372,7 +372,7 @@ expected
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
@@ -434,7 +434,7 @@ certificateUsageSSLClient
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
@@ -459,7 +459,7 @@ certificateUsageEmailRecipient
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNTRUSTED_ISSUER
 :
@@ -470,7 +470,7 @@ certificateUsageObjectSigner
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
@@ -521,7 +521,7 @@ check_cert_err_generic
 ee_cert
 isRootCA
 ?
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 :
@@ -536,7 +536,7 @@ check_cert_err_generic
 ee_cert
 isRootCA
 ?
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 /
@@ -554,7 +554,7 @@ certificateUsageSSLClient
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
@@ -567,7 +567,7 @@ check_cert_err_generic
 ee_cert
 isRootCA
 ?
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 :
@@ -582,7 +582,7 @@ check_cert_err_generic
 ee_cert
 isRootCA
 ?
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 :
@@ -597,13 +597,13 @@ check_cert_err_generic
 ee_cert
 isRootCA
 ?
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 :
 SEC_ERROR_INADEQUATE_CERT_TYPE
 :
-useInsanity
+useMozillaPKIX
 ?
 0
 :
@@ -614,7 +614,7 @@ certificateUsageObjectSigner
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
@@ -658,7 +658,7 @@ certificateUsageSSLServer
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 0
 /
@@ -674,7 +674,7 @@ certificateUsageSSLClient
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
@@ -699,7 +699,7 @@ certificateUsageEmailRecipient
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 0
 :
@@ -710,7 +710,7 @@ certificateUsageObjectSigner
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
@@ -744,7 +744,7 @@ check_cert_err_generic
 ee_cert
 isRootCA
 ?
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 :
@@ -759,7 +759,7 @@ check_cert_err_generic
 ee_cert
 isRootCA
 ?
-useInsanity
+useMozillaPKIX
 ?
 0
 /
@@ -777,7 +777,7 @@ certificateUsageSSLClient
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
@@ -802,7 +802,7 @@ certificateUsageEmailRecipient
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 0
 :
@@ -813,7 +813,7 @@ certificateUsageObjectSigner
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
@@ -861,7 +861,7 @@ isRootCA
 ?
 SEC_ERROR_UNTRUSTED_ISSUER
 :
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNTRUSTED_ISSUER
 :
@@ -879,7 +879,7 @@ certificateUsageSSLClient
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
@@ -904,7 +904,7 @@ certificateUsageEmailRecipient
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 0
 :
@@ -915,7 +915,7 @@ certificateUsageObjectSigner
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
@@ -956,7 +956,7 @@ check_cert_err_generic
 ee_cert
 isRootCA
 ?
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 :
@@ -969,7 +969,7 @@ certificateUsageSSLClient
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
@@ -982,7 +982,7 @@ check_cert_err_generic
 ee_cert
 isRootCA
 ?
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 :
@@ -997,7 +997,7 @@ check_cert_err_generic
 ee_cert
 isRootCA
 ?
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 :
@@ -1010,7 +1010,7 @@ certificateUsageEmailRecipient
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 0
 :
@@ -1021,7 +1021,7 @@ certificateUsageObjectSigner
 check_cert_err_generic
 (
 ee_cert
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
@@ -1040,7 +1040,7 @@ certificateUsageStatusResponder
 function
 run_test_in_mode
 (
-useInsanity
+useMozillaPKIX
 )
 {
 Services
@@ -1052,9 +1052,9 @@ setBoolPref
 "
 security
 .
-use_insanity_verification
+use_mozillapkix_verification
 "
-useInsanity
+useMozillaPKIX
 )
 ;
 let
@@ -1123,7 +1123,7 @@ test_ca_distrust
 ee_cert
 ca_cert
 true
-useInsanity
+useMozillaPKIX
 )
 ;
 setup_basic_trusts
@@ -1137,7 +1137,7 @@ test_ca_distrust
 ee_cert
 int_cert
 false
-useInsanity
+useMozillaPKIX
 )
 ;
 }

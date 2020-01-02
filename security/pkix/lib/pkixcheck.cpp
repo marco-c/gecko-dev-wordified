@@ -185,7 +185,7 @@ License
 #
 include
 "
-insanity
+pkix
 /
 pkix
 .
@@ -220,7 +220,7 @@ secder
 h
 "
 namespace
-insanity
+mozilla
 {
 namespace
 pkix
@@ -3036,7 +3036,7 @@ Success
 /
 /
 namespace
-insanity
+mozilla
 :
 :
 pkix

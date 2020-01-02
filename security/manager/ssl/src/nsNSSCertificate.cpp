@@ -138,7 +138,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -4384,7 +4384,7 @@ nickname
 ;
 :
 :
-insanity
+mozilla
 :
 :
 pkix
@@ -8099,7 +8099,7 @@ nsNSSCertList
 :
 nsNSSCertList
 (
-insanity
+mozilla
 :
 :
 pkix

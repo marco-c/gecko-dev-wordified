@@ -142,7 +142,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -706,7 +706,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-insanity
+mozilla
 :
 :
 pkix
@@ -967,7 +967,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-insanity
+mozilla
 :
 :
 pkix
@@ -1268,7 +1268,7 @@ from
 NSS
 *
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -2230,7 +2230,7 @@ n
 )
 )
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -2571,7 +2571,7 @@ a
 CertList
 for
 filtering
-insanity
+mozilla
 :
 :
 pkix
@@ -3069,7 +3069,7 @@ SECStatus
 ImportCertsIntoPermanentStorage
 (
 const
-insanity
+mozilla
 :
 :
 pkix
@@ -3311,7 +3311,7 @@ certArray
 =
 nullptr
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -3656,7 +3656,7 @@ cert
 continue
 ;
 }
-insanity
+mozilla
 :
 :
 pkix
@@ -3824,7 +3824,7 @@ nsrv
 =
 NS_OK
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -4460,7 +4460,7 @@ node
 )
 )
 {
-insanity
+mozilla
 :
 :
 pkix
@@ -4827,7 +4827,7 @@ PLArenaPool
 *
 arena
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -5221,7 +5221,7 @@ do_QueryInterface
 aCert
 )
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -5541,7 +5541,7 @@ return
 rv
 ;
 }
-insanity
+mozilla
 :
 :
 pkix
@@ -5864,7 +5864,7 @@ do_QueryInterface
 cert
 )
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -7215,7 +7215,7 @@ s
 database
 *
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -7346,7 +7346,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-insanity
+mozilla
 :
 :
 pkix
@@ -8061,7 +8061,7 @@ len
 =
 lengthDER
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -8543,7 +8543,7 @@ tmp
 )
 ;
 }
-insanity
+mozilla
 :
 :
 pkix
@@ -8894,7 +8894,7 @@ CERT_GetDefaultCertDB
 (
 )
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -9202,7 +9202,7 @@ SECFailure
 )
 ;
 }
-insanity
+mozilla
 :
 :
 pkix
@@ -9307,7 +9307,7 @@ nsIX509CertList
 >
 nssCertList
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -9600,7 +9600,7 @@ certVerifier
 NS_ERROR_FAILURE
 )
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -9790,7 +9790,7 @@ mImplementation
 CertVerifier
 :
 :
-insanity
+mozillapkix
 )
 {
 certVerifier

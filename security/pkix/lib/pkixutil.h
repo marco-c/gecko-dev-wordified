@@ -184,14 +184,14 @@ License
 /
 #
 ifndef
-insanity_pkix__pkixutil_h
+mozilla_pkix__pkixutil_h
 #
 define
-insanity_pkix__pkixutil_h
+mozilla_pkix__pkixutil_h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -219,7 +219,7 @@ secerr
 h
 "
 namespace
-insanity
+mozilla
 {
 namespace
 pkix
@@ -943,7 +943,7 @@ delete
 /
 /
 namespace
-insanity
+mozilla
 :
 :
 pkix
@@ -951,4 +951,4 @@ pkix
 endif
 /
 /
-insanity_pkix__pkixutil_h
+mozilla_pkix__pkixutil_h

@@ -547,7 +547,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -5850,7 +5850,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-insanity
+mozilla
 :
 :
 pkix
@@ -10300,7 +10300,7 @@ return
 nullptr
 ;
 }
-insanity
+mozilla
 :
 :
 pkix
@@ -11877,7 +11877,7 @@ retVal
 =
 false
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -12843,7 +12843,7 @@ cert
 db
 .
 {
-insanity
+mozilla
 :
 :
 pkix

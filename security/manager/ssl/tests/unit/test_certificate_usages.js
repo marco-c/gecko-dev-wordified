@@ -311,7 +311,7 @@ false
 function
 run_test_in_mode
 (
-useInsanity
+useMozillaPKIX
 )
 {
 Services
@@ -323,9 +323,9 @@ setBoolPref
 "
 security
 .
-use_insanity_verification
+use_mozillapkix_verification
 "
-useInsanity
+useMozillaPKIX
 )
 ;
 clearOCSPCache
@@ -338,7 +338,7 @@ clearSessionCache
 ;
 /
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -359,7 +359,7 @@ usages
 var
 allCAUsages
 =
-useInsanity
+useMozillaPKIX
 ?
 '
 SSL
@@ -379,7 +379,7 @@ Responder
 ;
 /
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -408,7 +408,7 @@ SSL
 CA
 '
 allCAUsages
-useInsanity
+useMozillaPKIX
 ?
 '
 '
@@ -425,7 +425,7 @@ Responder
 ;
 /
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -442,7 +442,7 @@ restriction
 var
 basicEndEntityUsages
 =
-useInsanity
+useMozillaPKIX
 ?
 '
 Client
@@ -471,7 +471,7 @@ Signer
 "
 /
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -501,7 +501,7 @@ var
 statusResponderUsages
 =
 (
-useInsanity
+useMozillaPKIX
 ?
 "
 "
@@ -519,7 +519,7 @@ Responder
 var
 statusResponderUsagesFull
 =
-useInsanity
+useMozillaPKIX
 ?
 statusResponderUsages
 :
@@ -634,7 +634,7 @@ CA
 .
 /
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -657,19 +657,19 @@ a
 CA
 .
 [
-useInsanity
+useMozillaPKIX
 ?
 '
 '
 :
 basicEndEntityUsages
-useInsanity
+useMozillaPKIX
 ?
 '
 '
 :
 basicEndEntityUsages
-useInsanity
+useMozillaPKIX
 ?
 '
 '
@@ -677,13 +677,13 @@ useInsanity
 basicEndEntityUsages
 '
 '
-useInsanity
+useMozillaPKIX
 ?
 '
 '
 :
 statusResponderUsagesFull
-useInsanity
+useMozillaPKIX
 ?
 '
 '
@@ -692,7 +692,7 @@ useInsanity
 Client
 Server
 '
-useInsanity
+useMozillaPKIX
 ?
 '
 '
@@ -703,7 +703,7 @@ Encrypt
 Object
 Signer
 '
-useInsanity
+useMozillaPKIX
 ?
 '
 '

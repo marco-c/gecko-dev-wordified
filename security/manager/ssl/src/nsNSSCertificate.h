@@ -193,7 +193,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -309,7 +309,7 @@ derLen
 ;
 private
 :
-insanity
+mozilla
 :
 :
 pkix
@@ -443,7 +443,7 @@ is
 adopted
 nsNSSCertList
 (
-insanity
+mozilla
 :
 :
 pkix
@@ -495,7 +495,7 @@ destructorSafeDestroyNSSReference
 (
 )
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -566,7 +566,7 @@ destructorSafeDestroyNSSReference
 (
 )
 ;
-insanity
+mozilla
 :
 :
 pkix

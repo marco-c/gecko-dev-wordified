@@ -192,7 +192,7 @@ aStaplingEnabled
 function
 add_tests_in_mode
 (
-useInsanity
+useMozillaPKIX
 certDB
 otherTestCA
 )
@@ -212,9 +212,9 @@ setBoolPref
 "
 security
 .
-use_insanity_verification
+use_mozillapkix_verification
 "
-useInsanity
+useMozillaPKIX
 )
 ;
 run_next_test
@@ -611,7 +611,7 @@ the
 classic
 implementation
 -
-insanity
+mozilla
 :
 :
 pkix
@@ -1108,7 +1108,7 @@ yet
 .
 if
 (
-useInsanity
+useMozillaPKIX
 )
 {
 add_ocsp_test

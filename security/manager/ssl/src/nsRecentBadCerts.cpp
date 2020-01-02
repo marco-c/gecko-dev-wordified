@@ -101,7 +101,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -438,7 +438,7 @@ CERT_GetDefaultCertDB
 (
 )
 ;
-insanity
+mozilla
 :
 :
 pkix

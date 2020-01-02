@@ -101,7 +101,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -2273,7 +2273,7 @@ cert2
 return
 NS_ERROR_FAILURE
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -2442,7 +2442,7 @@ cert2
 return
 NS_ERROR_FAILURE
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -2546,7 +2546,7 @@ cert2
 return
 NS_ERROR_FAILURE
 ;
-insanity
+mozilla
 :
 :
 pkix

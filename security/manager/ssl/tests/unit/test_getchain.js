@@ -591,7 +591,7 @@ ee_cert
 function
 run_test_in_mode
 (
-useInsanity
+useMozillaPKIX
 )
 {
 Services
@@ -603,9 +603,9 @@ setBoolPref
 "
 security
 .
-use_insanity_verification
+use_mozillapkix_verification
 "
-useInsanity
+useMozillaPKIX
 )
 ;
 clearOCSPCache

@@ -130,7 +130,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkix
 .
@@ -280,7 +280,7 @@ h
 "
 using
 namespace
-insanity
+mozilla
 :
 :
 pkix
@@ -3402,7 +3402,7 @@ detachedDigest
 out
 *
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -3413,7 +3413,7 @@ ScopedCERTCertList
 builtChain
 )
 {
-insanity
+mozilla
 :
 :
 pkix
@@ -3600,7 +3600,7 @@ during
 path
 building
 .
-insanity
+mozilla
 :
 :
 pkix
@@ -3652,7 +3652,7 @@ i
 i
 )
 {
-insanity
+mozilla
 :
 :
 pkix
@@ -4138,7 +4138,7 @@ type
 =
 siBuffer
 ;
-insanity
+mozilla
 :
 :
 pkix

@@ -185,7 +185,7 @@ License
 #
 include
 "
-insanity
+pkix
 /
 pkix
 .
@@ -232,7 +232,7 @@ secerr
 h
 "
 namespace
-insanity
+mozilla
 {
 namespace
 pkix
@@ -656,7 +656,7 @@ SECSuccess
 /
 /
 namespace
-insanity
+mozilla
 :
 :
 pkix

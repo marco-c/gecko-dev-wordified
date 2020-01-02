@@ -145,7 +145,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkix
 .
@@ -218,7 +218,7 @@ h
 "
 using
 namespace
-insanity
+mozilla
 :
 :
 pkix
@@ -332,7 +332,7 @@ time
 out
 *
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -785,7 +785,7 @@ cert
 return
 :
 :
-insanity
+mozilla
 :
 :
 pkix
@@ -805,7 +805,7 @@ NSSCertDBTrustDomain
 :
 CheckRevocation
 (
-insanity
+mozilla
 :
 :
 pkix
@@ -878,7 +878,7 @@ fact
 is
 documented
 in
-insanity
+mozillapkix
 .
 PR_LOG
 (

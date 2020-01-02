@@ -239,7 +239,10 @@ secder
 h
 "
 namespace
-insanity
+mozilla
+{
+namespace
+pkix
 {
 namespace
 test
@@ -3521,10 +3524,14 @@ nullptr
 }
 }
 }
+}
 /
 /
 namespace
-insanity
+mozilla
+:
+:
+pkix
 :
 :
 test

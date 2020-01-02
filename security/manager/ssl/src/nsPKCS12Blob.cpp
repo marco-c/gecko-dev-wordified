@@ -95,7 +95,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -1585,7 +1585,7 @@ as
 a
 CERTCertificate
 XXX
-insanity
+mozilla
 :
 :
 pkix

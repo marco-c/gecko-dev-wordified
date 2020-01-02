@@ -185,7 +185,7 @@ License
 #
 include
 "
-insanity
+pkix
 /
 pkix
 .
@@ -211,7 +211,7 @@ pkixder
 h
 "
 namespace
-insanity
+mozilla
 {
 namespace
 pkix
@@ -1322,7 +1322,7 @@ documentation
 in
 /
 /
-insanity
+pkix
 /
 pkix
 .
@@ -2273,7 +2273,7 @@ Success
 /
 /
 namespace
-insanity
+mozilla
 :
 :
 pkix

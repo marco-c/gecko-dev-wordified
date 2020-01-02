@@ -190,7 +190,7 @@ limits
 #
 include
 "
-insanity
+pkix
 /
 bind
 .
@@ -199,7 +199,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkix
 .
@@ -300,7 +300,7 @@ return
 SEC_ERROR_OCSP_UNAUTHORIZED_RESPONSE
 ?
 namespace
-insanity
+mozilla
 {
 namespace
 pkix
@@ -6890,7 +6890,7 @@ encodedRequest
 /
 /
 namespace
-insanity
+mozilla
 :
 :
 pkix

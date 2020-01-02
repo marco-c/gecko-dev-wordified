@@ -123,7 +123,7 @@ mozilla_psm__CertVerifier_h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -246,7 +246,7 @@ optional
 out
 *
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -320,7 +320,7 @@ optional
 out
 *
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -358,7 +358,7 @@ libpkix
 1
 #
 endif
-insanity
+mozillapkix
 =
 2
 }
@@ -490,7 +490,7 @@ mOCSPGETEnabled
 private
 :
 SECStatus
-InsanityVerifyCert
+MozillaPKIXVerifyCert
 (
 CERTCertificate
 *
@@ -522,7 +522,7 @@ optional
 out
 *
 /
-insanity
+mozilla
 :
 :
 pkix

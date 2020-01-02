@@ -190,7 +190,10 @@ pkixder
 h
 "
 namespace
-insanity
+mozilla
+{
+namespace
+pkix
 {
 namespace
 der
@@ -516,10 +519,14 @@ Success
 }
 }
 }
+}
 /
 /
 namespace
-insanity
+mozilla
+:
+:
+pkix
 :
 :
 der

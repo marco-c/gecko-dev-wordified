@@ -5188,7 +5188,7 @@ classic
 /
 /
 The
-insanity
+mozilla
 :
 :
 pkix
@@ -5207,7 +5207,7 @@ GetBool
 "
 security
 .
-use_insanity_verification
+use_mozillapkix_verification
 "
 false
 )
@@ -5218,7 +5218,7 @@ certVerifierImplementation
 CertVerifier
 :
 :
-insanity
+mozillapkix
 ;
 }
 else
@@ -5322,7 +5322,7 @@ ogc
 ;
 /
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -5349,7 +5349,7 @@ certVerifierImplementation
 CertVerifier
 :
 :
-insanity
+mozillapkix
 )
 {
 /
@@ -9002,7 +9002,7 @@ Equals
 "
 security
 .
-use_insanity_verification
+use_mozillapkix_verification
 "
 )
 |

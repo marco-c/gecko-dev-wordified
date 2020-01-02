@@ -131,7 +131,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkix
 .
@@ -193,7 +193,7 @@ in
 this
 file
 are
-insanity
+mozilla
 :
 :
 pkix
@@ -210,7 +210,7 @@ ScopedXXX
 .
 using
 namespace
-insanity
+mozilla
 :
 :
 pkix
@@ -378,7 +378,7 @@ Once
 we
 migrate
 to
-insanity
+mozilla
 :
 :
 pkix
@@ -1154,7 +1154,7 @@ SECStatus
 CertVerifier
 :
 :
-InsanityVerifyCert
+MozillaPKIXVerifyCert
 (
 CERTCertificate
 *
@@ -1186,7 +1186,7 @@ optional
 out
 *
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -1214,7 +1214,7 @@ PR_LOG_DEBUG
 "
 Top
 of
-InsanityVerifyCert
+MozillaPKIXVerifyCert
 \
 n
 "
@@ -1426,7 +1426,7 @@ to
 /
 BuildCertChain
 .
-insanity
+mozilla
 :
 :
 pkix
@@ -1978,7 +1978,7 @@ try
 them
 all
 .
-insanity
+mozilla
 :
 :
 pkix
@@ -1987,7 +1987,7 @@ pkix
 EndEntityOrCA
 endEntityOrCA
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -2240,11 +2240,11 @@ if
 mImplementation
 =
 =
-insanity
+mozillapkix
 )
 {
 return
-InsanityVerifyCert
+MozillaPKIXVerifyCert
 (
 cert
 usage
@@ -4233,7 +4233,7 @@ optional
 out
 *
 /
-insanity
+mozilla
 :
 :
 pkix

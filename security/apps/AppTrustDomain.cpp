@@ -140,7 +140,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkix
 .
@@ -236,7 +236,7 @@ inc
 "
 using
 namespace
-insanity
+mozilla
 :
 :
 pkix
@@ -535,7 +535,7 @@ time
 out
 *
 /
-insanity
+mozilla
 :
 :
 pkix
@@ -970,7 +970,7 @@ cert
 return
 :
 :
-insanity
+mozilla
 :
 :
 pkix
