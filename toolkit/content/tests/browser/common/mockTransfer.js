@@ -380,6 +380,13 @@ function
 )
 {
 }
+setSignatureInfo
+:
+function
+(
+)
+{
+}
 }
 ;
 /
