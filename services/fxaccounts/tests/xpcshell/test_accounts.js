@@ -3096,7 +3096,7 @@ do_check_eq
 exp
 now
 +
-TWO_MINUTES_MS
+ASSERTION_LIFETIME
 )
 ;
 /
@@ -3207,6 +3207,8 @@ an
 hour
 ;
 assertion
+use
+period
 expires
 but
 not
@@ -3474,7 +3476,7 @@ do_check_eq
 exp
 now
 +
-TWO_MINUTES_MS
+ASSERTION_LIFETIME
 )
 ;
 /
@@ -3717,7 +3719,7 @@ do_check_eq
 exp
 now
 +
-TWO_MINUTES_MS
+ASSERTION_LIFETIME
 )
 ;
 _
