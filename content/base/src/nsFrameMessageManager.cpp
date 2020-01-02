@@ -4006,7 +4006,7 @@ listener
 .
 nsCOMPtr
 <
-nsIMessageListener
+nsISupports
 >
 weakListener
 ;
