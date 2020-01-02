@@ -6056,10 +6056,7 @@ compartment
 typedef
 HashSet
 <
-ReadBarriered
-<
-UnownedBaseShape
->
+ReadBarrieredUnownedBaseShape
 StackBaseShape
 SystemAllocPolicy
 >
@@ -9607,10 +9604,7 @@ properties
 .
 *
 /
-ReadBarriered
-<
-Shape
->
+ReadBarrieredShape
 shape
 ;
 /
@@ -9872,10 +9866,7 @@ inline
 InitialShapeEntry
 (
 const
-ReadBarriered
-<
-Shape
->
+ReadBarrieredShape
 &
 shape
 TaggedProto

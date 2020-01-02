@@ -2077,10 +2077,7 @@ faster
 .
 *
 /
-ReadBarriered
-<
-JSObject
->
+ReadBarrieredObject
 matchResultTemplateObject_
 ;
 JSObject

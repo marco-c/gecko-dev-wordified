@@ -10354,10 +10354,7 @@ InitialShapeEntry
 InitialShapeEntry
 (
 const
-ReadBarriered
-<
-Shape
->
+ReadBarrieredShape
 &
 shape
 TaggedProto
