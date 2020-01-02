@@ -6116,7 +6116,7 @@ click_hold_context_menus
 .
 delay
 "
-750
+400
 )
 ;
 /
