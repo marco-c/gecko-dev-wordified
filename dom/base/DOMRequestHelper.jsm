@@ -1272,12 +1272,6 @@ _requests
 =
 null
 ;
-this
-.
-_window
-=
-null
-;
 /
 /
 Objects
@@ -1304,6 +1298,12 @@ uninit
 )
 ;
 }
+this
+.
+_window
+=
+null
+;
 }
 observe
 :
