@@ -225,6 +225,13 @@ h
 #
 include
 "
+nsIEffectiveTLDService
+.
+h
+"
+#
+include
+"
 nsIStringEnumerator
 .
 h
