@@ -2852,7 +2852,7 @@ NS_WARN_IF
 (
 jsapi
 .
-InitUsingWin
+Init
 (
 GetOwner
 (
@@ -3039,7 +3039,7 @@ NS_WARN_IF
 (
 jsapi
 .
-InitUsingWin
+Init
 (
 GetOwner
 (
@@ -3226,7 +3226,7 @@ NS_WARN_IF
 (
 jsapi
 .
-InitUsingWin
+Init
 (
 GetOwner
 (
@@ -3413,7 +3413,7 @@ NS_WARN_IF
 (
 jsapi
 .
-InitUsingWin
+Init
 (
 GetOwner
 (
