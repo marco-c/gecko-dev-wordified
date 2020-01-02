@@ -5725,7 +5725,6 @@ idl
 "
 )
 ;
-{
 MutexAutoLock
 lock
 (
@@ -5948,6 +5947,7 @@ if
 (
 profilePathWin
 )
+{
 rv
 =
 profilePathWin
@@ -5958,6 +5958,7 @@ GetNativeCanonicalPath
 profileStr
 )
 ;
+}
 #
 else
 rv
@@ -6240,15 +6241,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 }
 }
-/
-/
-have
-profile
-dir
 }
-/
-/
-lock
 /
 /
 init
@@ -6586,7 +6579,6 @@ n
 )
 )
 ;
-}
 return
 NS_OK
 ;
