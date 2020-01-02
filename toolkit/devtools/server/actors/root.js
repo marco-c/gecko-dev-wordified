@@ -1104,6 +1104,9 @@ BoxModelHighlighter
 "
 CssTransformHighlighter
 "
+"
+SelectorHighlighter
+"
 ]
 /
 /
