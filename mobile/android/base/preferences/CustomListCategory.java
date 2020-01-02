@@ -190,7 +190,7 @@ disabled
 .
 *
 /
-private
+protected
 void
 setFallbackDefault
 (
@@ -353,6 +353,14 @@ CustomListPreference
 item
 )
 {
+if
+(
+mDefaultReference
+!
+=
+null
+)
+{
 mDefaultReference
 .
 setIsDefault
@@ -360,6 +368,7 @@ setIsDefault
 false
 )
 ;
+}
 item
 .
 setIsDefault
