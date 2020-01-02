@@ -511,6 +511,9 @@ mCompositor
 >
 GetTemporaryTexture
 (
+GetTextureTarget
+(
+)
 aTextureUnit
 )
 ;
