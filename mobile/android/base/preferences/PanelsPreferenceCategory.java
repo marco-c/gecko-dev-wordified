@@ -571,6 +571,16 @@ panelConfig
 configState
 )
 {
+final
+boolean
+isRemovable
+=
+panelConfig
+.
+isDynamic
+(
+)
+;
 /
 /
 Create
@@ -614,6 +624,7 @@ getContext
 PanelsPreferenceCategory
 .
 this
+isRemovable
 index
 animate
 )
