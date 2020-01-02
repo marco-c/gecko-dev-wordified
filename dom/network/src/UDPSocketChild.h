@@ -224,6 +224,9 @@ mLocalPort
 nsCString
 mLocalAddress
 ;
+nsCString
+mFilterName
+;
 }
 ;
 }
