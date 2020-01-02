@@ -16565,6 +16565,13 @@ inspector
 script
 )
 ;
+const
+JitCompileOptions
+options
+(
+cx
+)
+;
 IonBuilder
 builder
 (
@@ -16581,6 +16588,7 @@ compartment
 (
 )
 )
+options
 &
 temp
 &

@@ -10245,6 +10245,13 @@ get
 optimizationLevel
 )
 ;
+const
+JitCompileOptions
+options
+(
+cx
+)
+;
 IonBuilder
 *
 builder
@@ -10274,6 +10281,7 @@ compartment
 (
 )
 )
+options
 temp
 graph
 constraints

@@ -419,6 +419,14 @@ the
 cpp
 .
 bool
+visitCloneLiteral
+(
+MCloneLiteral
+*
+ins
+)
+;
+bool
 visitParameter
 (
 MParameter

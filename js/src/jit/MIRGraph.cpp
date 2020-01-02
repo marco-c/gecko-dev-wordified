@@ -190,6 +190,10 @@ MIRGenerator
 CompileCompartment
 *
 compartment
+const
+JitCompileOptions
+&
+options
 TempAllocator
 *
 alloc
@@ -258,6 +262,10 @@ AsmJSAllocationGranularity
 modifiesFrameArguments_
 (
 false
+)
+options
+(
+options
 )
 {
 }

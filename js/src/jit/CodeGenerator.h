@@ -373,6 +373,14 @@ ins
 )
 ;
 bool
+visitCloneLiteral
+(
+LCloneLiteral
+*
+lir
+)
+;
+bool
 visitParameter
 (
 LParameter
