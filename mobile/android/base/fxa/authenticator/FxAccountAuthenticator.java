@@ -113,7 +113,7 @@ fxa
 .
 activities
 .
-FxAccountSetupActivity
+FxAccountGetStartedActivity
 ;
 import
 android
@@ -608,7 +608,7 @@ new
 Intent
 (
 context
-FxAccountSetupActivity
+FxAccountGetStartedActivity
 .
 class
 )
