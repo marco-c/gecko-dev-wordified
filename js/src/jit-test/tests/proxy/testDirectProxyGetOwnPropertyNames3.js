@@ -38,7 +38,7 @@ Proxy
 {
 }
 {
-getOwnPropertyNames
+ownKeys
 :
 function
 (

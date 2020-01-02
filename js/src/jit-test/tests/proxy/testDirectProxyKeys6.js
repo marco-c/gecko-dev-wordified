@@ -56,14 +56,14 @@ function
 {
 Object
 .
-getOwnPropertyNames
+keys
 (
 new
 Proxy
 (
 target
 {
-getOwnPropertyNames
+ownKeys
 :
 function
 (

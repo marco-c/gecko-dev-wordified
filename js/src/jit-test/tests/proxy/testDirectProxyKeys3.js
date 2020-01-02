@@ -38,7 +38,7 @@ Proxy
 {
 }
 {
-keys
+ownKeys
 :
 function
 (
