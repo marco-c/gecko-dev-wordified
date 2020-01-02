@@ -1547,6 +1547,12 @@ sWifiFailChain
 ;
 static
 CommandFunc
+sWifiRetryChain
+[
+]
+;
+static
+CommandFunc
 sWifiOperationModeChain
 [
 ]
@@ -1701,6 +1707,13 @@ PARAMS
 static
 void
 stopSoftAP
+(
+PARAMS
+)
+;
+static
+void
+clearWifiTetherParms
 (
 PARAMS
 )
