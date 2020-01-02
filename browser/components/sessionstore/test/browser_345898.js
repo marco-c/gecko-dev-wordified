@@ -101,6 +101,16 @@ name
 "
 NS_ERROR_ILLEGAL_VALUE
 "
+|
+|
+ex
+.
+name
+=
+=
+"
+NS_ERROR_FAILURE
+"
 ;
 }
 }
