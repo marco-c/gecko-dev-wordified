@@ -600,6 +600,15 @@ aY
 MOZ_OVERRIDE
 ;
 virtual
+bool
+RecvGetAPZTestData
+(
+APZTestData
+*
+aOutData
+)
+;
+virtual
 PLayerParent
 *
 AllocPLayerParent
