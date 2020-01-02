@@ -1138,6 +1138,12 @@ hidden
 =
 true
 ;
+command
+.
+selected
+=
+false
+;
 }
 let
 optionsAvailable
