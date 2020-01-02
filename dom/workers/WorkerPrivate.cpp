@@ -14858,7 +14858,7 @@ aLineNumber
 ;
 errorInit
 .
-mColumn
+mColno
 =
 aColumnNumber
 ;

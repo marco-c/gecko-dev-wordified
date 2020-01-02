@@ -2864,7 +2864,7 @@ mLineNumber
 ;
 init
 .
-mColumn
+mColno
 =
 mColumn
 ;
