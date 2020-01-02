@@ -144,13 +144,6 @@ h
 #
 include
 "
-EnableWebAudioCheck
-.
-h
-"
-#
-include
-"
 AudioContext
 .
 h
@@ -181,8 +174,6 @@ MOZ_FINAL
 :
 public
 nsWrapperCache
-public
-EnableWebAudioCheck
 {
 public
 :

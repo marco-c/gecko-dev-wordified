@@ -146,13 +146,6 @@ h
 #
 include
 "
-EnableWebAudioCheck
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -581,8 +574,6 @@ AudioNode
 :
 public
 nsDOMEventTargetHelper
-public
-EnableWebAudioCheck
 {
 protected
 :
