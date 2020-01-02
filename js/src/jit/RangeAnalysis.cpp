@@ -15686,6 +15686,17 @@ block
 *
 iter
 ;
+if
+(
+block
+-
+>
+unreachable
+(
+)
+)
+continue
+;
 for
 (
 MDefinitionIterator
