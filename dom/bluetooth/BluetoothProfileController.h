@@ -959,12 +959,6 @@ nsITimer
 >
 mTimer
 ;
-nsCOMPtr
-<
-nsITimerCallback
->
-mCheckProfileStatusCallback
-;
 }
 ;
 END_BLUETOOTH_NAMESPACE
