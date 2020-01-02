@@ -672,12 +672,6 @@ foundation
 in
 here
 ?
-std
-:
-:
-string
-codeword
-;
 }
 ;
 /
