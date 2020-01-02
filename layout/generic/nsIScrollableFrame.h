@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsIScrollbarOwner
-.
-h
-"
-#
-include
-"
 nsIScrollbarMediator
 .
 h
@@ -223,8 +216,6 @@ scrolling
 class
 nsIScrollableFrame
 :
-public
-nsIScrollbarOwner
 public
 nsIScrollbarMediator
 {
