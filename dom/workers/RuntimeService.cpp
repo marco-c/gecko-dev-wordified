@@ -11299,6 +11299,10 @@ shrinking
 true
 )
 ;
+CycleCollectAllWorkers
+(
+)
+;
 return
 NS_OK
 ;
