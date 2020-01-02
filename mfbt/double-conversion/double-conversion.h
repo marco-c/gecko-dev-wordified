@@ -2521,6 +2521,9 @@ double
 value
 int
 precision
+bool
+*
+used_exponential_notation
 StringBuilder
 *
 result_builder
