@@ -2856,6 +2856,13 @@ compositionupdate
 bool
 mIncomplete
 ;
+/
+/
+For
+compositionstart
+bool
+mAdjustSelection
+;
 }
 ;
 /
@@ -3342,8 +3349,6 @@ const
 PendingAction
 &
 aCompStart
-bool
-aPreserveSelection
 )
 ;
 void
