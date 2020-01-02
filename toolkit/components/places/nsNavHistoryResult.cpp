@@ -208,6 +208,17 @@ nsCycleCollectionParticipant
 .
 h
 "
+/
+/
+Thanks
+Windows
+.
+h
+:
+(
+#
+undef
+CompareString
 #
 define
 TO_ICONTAINER
