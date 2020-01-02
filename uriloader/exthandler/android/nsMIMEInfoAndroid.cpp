@@ -1793,10 +1793,13 @@ aName
 .
 AssignLiteral
 (
+MOZ_UTF16
+(
 "
 Android
 chooser
 "
+)
 )
 ;
 return
@@ -1839,6 +1842,8 @@ aDesc
 .
 AssignLiteral
 (
+MOZ_UTF16
+(
 "
 Android
 '
@@ -1848,6 +1853,7 @@ handler
 application
 chooser
 "
+)
 )
 ;
 return
