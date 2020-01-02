@@ -145,10 +145,6 @@ NS_tstrrchr
 wcsrchr
 #
 define
-NS_tsnprintf
-_snwprintf
-#
-define
 NS_T
 (
 str
@@ -203,10 +199,6 @@ main
 define
 NS_tstrrchr
 strrchr
-#
-define
-NS_tsnprintf
-snprintf
 #
 define
 NS_T
