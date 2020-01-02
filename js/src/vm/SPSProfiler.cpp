@@ -2234,14 +2234,9 @@ js
 :
 RunScript
 "
+this
 nullptr
-script
-script
--
->
-code
-(
-)
+nullptr
 /
 *
 copy
