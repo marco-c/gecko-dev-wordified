@@ -8271,7 +8271,6 @@ parseMapPool_
 }
 private
 :
-const
 JSPrincipals
 *
 trustedPrincipals_
@@ -8281,7 +8280,6 @@ public
 void
 setTrustedPrincipals
 (
-const
 JSPrincipals
 *
 p
@@ -8292,7 +8290,6 @@ trustedPrincipals_
 p
 ;
 }
-const
 JSPrincipals
 *
 trustedPrincipals

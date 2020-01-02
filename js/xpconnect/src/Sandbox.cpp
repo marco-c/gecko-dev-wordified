@@ -2298,7 +2298,6 @@ return
 false
 ;
 }
-const
 JSStructuredCloneCallbacks
 gForwarderStructuredCloneCallbacks
 =

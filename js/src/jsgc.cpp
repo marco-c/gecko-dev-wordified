@@ -29778,7 +29778,6 @@ setGCLastBytes
 GC_NORMAL
 )
 ;
-const
 JSPrincipals
 *
 trusted

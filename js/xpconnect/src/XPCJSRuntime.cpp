@@ -484,7 +484,6 @@ PerThreadAtomCache
 const
 char
 *
-const
 XPCJSRuntime
 :
 :
