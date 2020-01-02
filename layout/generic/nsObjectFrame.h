@@ -196,6 +196,9 @@ GetBinaryType
 undef
 RemoveDirectory
 #
+undef
+SetProp
+#
 endif
 class
 nsPresContext
