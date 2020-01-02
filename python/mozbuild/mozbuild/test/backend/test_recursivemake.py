@@ -2085,13 +2085,6 @@ lines
 [
             
 '
-MOZBUILD_DERIVED
-:
-=
-1
-'
-            
-'
 DIRS
 :
 =
@@ -2358,13 +2351,6 @@ assertEqual
 (
 lines
 [
-            
-'
-MOZBUILD_DERIVED
-:
-=
-1
-'
             
 '
 DIRS

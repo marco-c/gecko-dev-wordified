@@ -561,22 +561,6 @@ write
 n
 '
 )
-        
-self
-.
-fh
-.
-write
-(
-'
-MOZBUILD_DERIVED
-:
-=
-1
-\
-n
-'
-)
     
 def
 write
