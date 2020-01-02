@@ -287,15 +287,6 @@ uint32_t
 aBrightness
 )
 {
-mozilla
-:
-:
-widget
-:
-:
-android
-:
-:
 GeckoAppShell
 :
 :

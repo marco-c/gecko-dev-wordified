@@ -494,15 +494,6 @@ Close
 (
 )
 {
-mozilla
-:
-:
-widget
-:
-:
-android
-:
-:
 GeckoAppShell
 :
 :

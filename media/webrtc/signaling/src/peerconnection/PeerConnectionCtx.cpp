@@ -968,9 +968,6 @@ PeerConnectionCtx
 :
 gMainThread
 ;
-mozilla
-:
-:
 StaticRefPtr
 <
 mozilla
@@ -1055,9 +1052,6 @@ gMainThread
 >
 Dispatch
 (
-mozilla
-:
-:
 WrapRunnableNM
 (
 func
@@ -1312,9 +1306,6 @@ PeerConnectionCtx
 gPeerConnectionCtxShutdown
 =
 new
-mozilla
-:
-:
 PeerConnectionCtxShutdown
 (
 )
@@ -1713,17 +1704,11 @@ mConnectionCounter
 #
 ifdef
 MOZILLA_INTERNAL_API
-mozilla
-:
-:
 Telemetry
 :
 :
 GetHistogramById
 (
-mozilla
-:
-:
 Telemetry
 :
 :
@@ -2168,9 +2153,6 @@ gMainThread
 >
 Dispatch
 (
-mozilla
-:
-:
 WrapRunnableNM
 (
 &
