@@ -285,17 +285,6 @@ mLookupAppCache
 ;
 public
 :
-nsIApplicationCache
-*
-AppCache
-(
-)
-const
-{
-return
-nullptr
-;
-}
 nsILoadContextInfo
 *
 LoadInfo
