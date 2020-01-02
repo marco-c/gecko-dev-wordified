@@ -2072,8 +2072,8 @@ data
 -
 >
 callee
-.
-setMagic
+=
+MagicValue
 (
 JS_OVERWRITTEN_CALLEE
 )
