@@ -286,7 +286,7 @@ panelWin
 Test
 internal
 storage
-ok
+is
 (
 panelWin
 .
