@@ -1458,7 +1458,10 @@ direction
 nsFrameState
 frameState
 =
+nsFrameState
+(
 0
+)
 ;
 GetFrameState
 (
@@ -4607,7 +4610,10 @@ NS_INTRINSICSIZE
 nsFrameState
 frameState
 =
+nsFrameState
+(
 0
+)
 ;
 GetFrameState
 (
@@ -5847,7 +5853,10 @@ set
 nsFrameState
 frameState
 =
+nsFrameState
+(
 0
+)
 ;
 GetFrameState
 (
@@ -5947,7 +5956,10 @@ aState
 nsFrameState
 frameState
 =
+nsFrameState
+(
 0
+)
 ;
 GetFrameState
 (
@@ -8152,7 +8164,10 @@ GetChildBox
 nsFrameState
 frameState
 =
+nsFrameState
+(
 0
+)
 ;
 GetFrameState
 (
@@ -8396,7 +8411,10 @@ GetChildBox
 nsFrameState
 frameState
 =
+nsFrameState
+(
 0
+)
 ;
 GetFrameState
 (
@@ -8712,7 +8730,10 @@ GetChildBox
 nsFrameState
 frameState
 =
+nsFrameState
+(
 0
+)
 ;
 GetFrameState
 (

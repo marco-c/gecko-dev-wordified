@@ -131,7 +131,7 @@ aShell
 nsStyleContext
 *
 aContext
-uint32_t
+nsFrameState
 aFlags
 )
 {
