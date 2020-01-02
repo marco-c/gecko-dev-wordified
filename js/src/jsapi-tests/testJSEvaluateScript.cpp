@@ -100,7 +100,7 @@ CHECK
 JS
 :
 :
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )
@@ -215,7 +215,7 @@ JSOPTION_VAROBJFIX
 JS
 :
 :
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )
