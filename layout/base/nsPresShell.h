@@ -4540,7 +4540,7 @@ mViewportOverridden
 1
 ;
 bool
-mLastRootReflowHadUnconstrainedHeight
+mLastRootReflowHadUnconstrainedBSize
 :
 1
 ;

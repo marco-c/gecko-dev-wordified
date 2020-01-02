@@ -4983,7 +4983,16 @@ reflowState
 aPresContext
 aReflowState
 aChild
+LogicalSize
+(
+aChild
+-
+>
+GetWritingMode
+(
+)
 aSize
+)
 )
 ;
 reflowState

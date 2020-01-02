@@ -1494,7 +1494,16 @@ kidReflowState
 aPresContext
 aReflowState
 kidFrame
+LogicalSize
+(
+kidFrame
+-
+>
+GetWritingMode
+(
+)
 pageSize
+)
 )
 ;
 nsReflowStatus
