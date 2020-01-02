@@ -1418,6 +1418,16 @@ jitRuntime
 >
 getGenericBailoutHandler
 (
+gen
+-
+>
+info
+(
+)
+.
+executionMode
+(
+)
 )
 ;
 masm
