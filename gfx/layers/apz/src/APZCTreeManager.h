@@ -2631,6 +2631,11 @@ FlushRepaintsForOverscrollHandoffChain
 (
 )
 ;
+bool
+CancelAnimationsForOverscrollHandoffChain
+(
+)
+;
 /
 *
 *
