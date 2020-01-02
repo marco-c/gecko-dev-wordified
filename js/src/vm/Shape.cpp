@@ -2553,7 +2553,12 @@ child
 if
 (
 !
-shape
+obj
+-
+>
+inDictionaryMode
+(
+)
 )
 {
 shape
@@ -2706,7 +2711,12 @@ child
 if
 (
 !
-shape
+obj
+-
+>
+inDictionaryMode
+(
+)
 )
 {
 shape
