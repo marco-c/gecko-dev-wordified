@@ -182,8 +182,6 @@ h
 #
 include
 "
-mtransport
-/
 runnable_utils
 .
 h
@@ -1761,8 +1759,6 @@ notes
 )
 ;
 }
-#
-endif
 static
 void
 GMPNotifyObservers
@@ -1821,6 +1817,8 @@ get
 ;
 }
 }
+#
+endif
 void
 GMPParent
 :
