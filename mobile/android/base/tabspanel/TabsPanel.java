@@ -712,7 +712,7 @@ R
 .
 id
 .
-private_tabs
+private_tabs_panel
 )
 ;
 mPanelPrivate
