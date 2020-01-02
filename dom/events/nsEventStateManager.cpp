@@ -438,7 +438,7 @@ h
 #
 include
 "
-nsDOMDragEvent
+nsDOMUIEvent
 .
 h
 "
@@ -22140,7 +22140,7 @@ which
 is
 done
 in
-nsDOMDragEvent
+DragEvent
 :
 :
 GetDataTransfer
