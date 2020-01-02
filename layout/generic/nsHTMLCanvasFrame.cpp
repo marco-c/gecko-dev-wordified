@@ -109,14 +109,14 @@ element
 #
 include
 "
-nsGkAtoms
+nsHTMLCanvasFrame
 .
 h
 "
 #
 include
 "
-nsHTMLCanvasFrame
+nsGkAtoms
 .
 h
 "

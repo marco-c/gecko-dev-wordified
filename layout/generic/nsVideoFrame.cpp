@@ -128,6 +128,13 @@ element
 #
 include
 "
+nsVideoFrame
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -136,13 +143,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsVideoFrame
 .
 h
 "

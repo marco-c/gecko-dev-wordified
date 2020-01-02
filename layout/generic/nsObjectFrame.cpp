@@ -124,6 +124,13 @@ plugin
 *
 /
 #
+include
+"
+nsObjectFrame
+.
+h
+"
+#
 ifdef
 XP_WIN
 /
@@ -313,13 +320,6 @@ include
 <
 algorithm
 >
-#
-include
-"
-nsObjectFrame
-.
-h
-"
 #
 include
 "

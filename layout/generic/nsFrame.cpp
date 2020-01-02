@@ -122,6 +122,13 @@ objects
 #
 include
 "
+nsFrame
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -141,13 +148,6 @@ h
 include
 "
 nsCOMPtr
-.
-h
-"
-#
-include
-"
-nsFrame
 .
 h
 "

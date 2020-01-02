@@ -96,14 +96,14 @@ MPL
 #
 include
 "
-nsCOMPtr
+nsSimplePageSequence
 .
 h
 "
 #
 include
 "
-nsSimplePageSequence
+nsCOMPtr
 .
 h
 "

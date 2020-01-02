@@ -107,14 +107,14 @@ bullets
 #
 include
 "
-nsCOMPtr
+nsBulletFrame
 .
 h
 "
 #
 include
 "
-nsBulletFrame
+nsCOMPtr
 .
 h
 "

@@ -108,6 +108,13 @@ elements
 #
 include
 "
+nsFrameSetFrame
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -120,13 +127,6 @@ include
 mozilla
 /
 Likely
-.
-h
-"
-#
-include
-"
-nsFrameSetFrame
 .
 h
 "
