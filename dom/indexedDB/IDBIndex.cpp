@@ -179,13 +179,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

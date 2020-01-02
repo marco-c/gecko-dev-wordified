@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
@@ -139,6 +132,15 @@ h
 include
 "
 ScriptSettings
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventDispatcher
 .
 h
 "
@@ -1229,7 +1231,7 @@ nsEventStatus_eIgnore
 nsresult
 rv
 =
-nsEventDispatcher
+EventDispatcher
 :
 :
 DispatchDOMEvent
@@ -1568,7 +1570,7 @@ aEventStatus
 )
 {
 return
-nsEventDispatcher
+EventDispatcher
 :
 :
 DispatchDOMEvent

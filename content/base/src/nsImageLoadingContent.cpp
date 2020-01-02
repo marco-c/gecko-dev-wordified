@@ -334,13 +334,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsSVGEffects
 .
 h

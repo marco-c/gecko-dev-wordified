@@ -748,7 +748,9 @@ h
 #
 include
 "
-nsEventDispatcher
+mozilla
+/
+EventDispatcher
 .
 h
 "
@@ -10030,7 +10032,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -10064,7 +10066,7 @@ nsEventStatus_eIgnore
 /
 reset
 status
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -10098,7 +10100,7 @@ nsEventStatus_eIgnore
 /
 reset
 status
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch

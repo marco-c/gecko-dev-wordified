@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+EventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MathAlgorithms
 .
 h
@@ -435,13 +444,6 @@ h
 include
 "
 nsIScrollableFrame
-.
-h
-"
-#
-include
-"
-nsEventDispatcher
 .
 h
 "
@@ -4889,7 +4891,7 @@ InternalScrollPortEvent
 :
 vertical
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -4927,7 +4929,7 @@ InternalScrollPortEvent
 :
 horizontal
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -27461,7 +27463,7 @@ mBubbles
 =
 false
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch

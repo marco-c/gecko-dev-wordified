@@ -987,7 +987,9 @@ h
 #
 include
 "
-nsEventDispatcher
+mozilla
+/
+EventDispatcher
 .
 h
 "
@@ -18794,7 +18796,7 @@ the
 time
 here
 .
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -18835,7 +18837,7 @@ aEventStatus
 )
 {
 return
-nsEventDispatcher
+EventDispatcher
 :
 :
 DispatchDOMEvent
@@ -42259,7 +42261,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -49725,7 +49727,7 @@ nsEventStatus_eIgnore
 nsresult
 rv
 =
-nsEventDispatcher
+EventDispatcher
 :
 :
 DispatchDOMEvent
@@ -53029,7 +53031,7 @@ domEvent
 nsresult
 rv
 =
-nsEventDispatcher
+EventDispatcher
 :
 :
 CreateEvent
@@ -53347,7 +53349,7 @@ domEvent
 ;
 rv
 =
-nsEventDispatcher
+EventDispatcher
 :
 :
 CreateEvent

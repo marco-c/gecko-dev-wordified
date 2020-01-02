@@ -357,13 +357,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsJSUtils
 .
 h

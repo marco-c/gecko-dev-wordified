@@ -419,6 +419,15 @@ include
 "
 mozilla
 /
+EventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventListenerManager
 .
 h
@@ -662,13 +671,6 @@ h
 include
 "
 nsError
-.
-h
-"
-#
-include
-"
-nsEventDispatcher
 .
 h
 "
@@ -20051,7 +20053,7 @@ can
 t
 rely
 on
-nsEventDispatcher
+EventDispatcher
 to
 assert
 /
@@ -20332,7 +20334,7 @@ aOwnerDoc
 aParent
 )
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch

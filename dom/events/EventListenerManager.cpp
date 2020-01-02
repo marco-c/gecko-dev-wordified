@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+EventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventListenerManager
 .
 h
@@ -241,13 +250,6 @@ h
 include
 "
 nsError
-.
-h
-"
-#
-include
-"
-nsEventDispatcher
 .
 h
 "
@@ -5876,7 +5878,7 @@ currentTarget
 is
 set
 in
-nsEventDispatcher
+EventDispatcher
 .
 if
 (
@@ -6218,7 +6220,7 @@ aEvent
 originalTarget
 )
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 CreateEvent

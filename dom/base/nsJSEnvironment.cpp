@@ -313,7 +313,9 @@ h
 #
 include
 "
-nsEventDispatcher
+mozilla
+/
+EventDispatcher
 .
 h
 "
@@ -2162,7 +2164,7 @@ SetTrusted
 true
 )
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 DispatchDOMEvent
@@ -2914,7 +2916,7 @@ SetTrusted
 true
 )
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 DispatchDOMEvent

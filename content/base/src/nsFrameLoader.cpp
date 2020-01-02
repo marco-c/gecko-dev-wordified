@@ -382,13 +382,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsISHistory
 .
 h

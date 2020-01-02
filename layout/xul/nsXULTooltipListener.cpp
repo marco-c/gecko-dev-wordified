@@ -225,13 +225,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences

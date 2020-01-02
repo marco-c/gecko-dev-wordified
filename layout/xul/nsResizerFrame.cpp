@@ -217,13 +217,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

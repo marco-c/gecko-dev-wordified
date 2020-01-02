@@ -776,6 +776,15 @@ h
 #
 include
 "
+mozilla
+/
+EventDispatcher
+.
+h
+"
+#
+include
+"
 nsISHEntry
 .
 h
@@ -798,13 +807,6 @@ h
 include
 "
 nsIWebNavigation
-.
-h
-"
-#
-include
-"
-nsEventDispatcher
 .
 h
 "
@@ -5745,7 +5747,7 @@ loaded
 nullptr
 )
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -6497,7 +6499,7 @@ mInPermitUnload
 =
 true
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 DispatchDOMEvent
@@ -7473,7 +7475,7 @@ openAbused
 true
 )
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch

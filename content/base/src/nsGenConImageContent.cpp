@@ -142,7 +142,9 @@ h
 #
 include
 "
-nsEventDispatcher
+mozilla
+/
+BasicEvents
 .
 h
 "
@@ -151,7 +153,7 @@ include
 "
 mozilla
 /
-BasicEvents
+EventDispatcher
 .
 h
 "

@@ -250,13 +250,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsXPIDLString
 .
 h
@@ -330,6 +323,15 @@ include
 mozilla
 /
 Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventDispatcher
 .
 h
 "
@@ -625,7 +627,7 @@ if
 (
 NS_SUCCEEDED
 (
-nsEventDispatcher
+EventDispatcher
 :
 :
 CreateEvent
@@ -665,7 +667,7 @@ SetTrusted
 true
 )
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 DispatchDOMEvent

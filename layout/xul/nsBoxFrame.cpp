@@ -631,13 +631,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsIDOMEvent
 .
 h

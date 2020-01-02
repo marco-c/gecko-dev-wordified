@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+EventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IMEStateManager
 .
 h
@@ -512,13 +521,6 @@ h
 include
 "
 nsISupportsPrimitives
-.
-h
-"
-#
-include
-"
-nsEventDispatcher
 .
 h
 "
@@ -11784,7 +11786,7 @@ doc
 dispatch
 to
 DOM
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -13144,7 +13146,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -13177,7 +13179,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -16458,7 +16460,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -16694,7 +16696,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -25226,7 +25228,7 @@ callback
 aTargetContent
 )
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -28410,7 +28412,8 @@ if
 (
 aTargetContent
 )
-nsEventDispatcher
+{
+EventDispatcher
 :
 :
 Dispatch
@@ -28424,6 +28427,7 @@ nullptr
 status
 )
 ;
+}
 /
 /
 adjust

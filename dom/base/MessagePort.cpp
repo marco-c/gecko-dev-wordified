@@ -161,13 +161,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h
