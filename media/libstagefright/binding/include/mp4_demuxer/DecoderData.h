@@ -606,6 +606,9 @@ MediaBuffer
 mMediaBuffer
 ;
 Microseconds
+decode_timestamp
+;
+Microseconds
 composition_timestamp
 ;
 Microseconds

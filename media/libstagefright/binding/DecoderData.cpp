@@ -1151,6 +1151,10 @@ mMediaBuffer
 (
 nullptr
 )
+decode_timestamp
+(
+0
+)
 composition_timestamp
 (
 0
@@ -1218,6 +1222,14 @@ mMediaBuffer
 >
 meta_data
 (
+)
+;
+decode_timestamp
+=
+FindInt64
+(
+m
+kKeyDecodingTime
 )
 ;
 composition_timestamp

@@ -220,6 +220,16 @@ mCurrentSampleTime
 ;
 }
 uint32_t
+getSampleDecodeTime
+(
+)
+const
+{
+return
+mCurrentSampleDecodeTime
+;
+}
+uint32_t
 getSampleDuration
 (
 )
@@ -307,6 +317,9 @@ mCurrentSampleSize
 ;
 uint32_t
 mCurrentSampleTime
+;
+uint32_t
+mCurrentSampleDecodeTime
 ;
 uint32_t
 mCurrentSampleDuration
