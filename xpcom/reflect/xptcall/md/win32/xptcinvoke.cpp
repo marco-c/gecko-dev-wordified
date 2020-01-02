@@ -752,9 +752,6 @@ stack
 mov
 esp
 ebp
-#
-ifdef
-__clang__
 /
 /
 clang
@@ -832,8 +829,6 @@ id
 pop
 ebp
 ret
-#
-endif
 }
 }
 #
