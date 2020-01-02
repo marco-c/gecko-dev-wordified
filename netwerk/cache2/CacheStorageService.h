@@ -570,10 +570,6 @@ friend
 class
 CacheStorage
 ;
-friend
-class
-CacheFileIOManager
-;
 /
 *
 *
@@ -721,6 +717,12 @@ nsICacheStorageVisitor
 aVisitor
 )
 ;
+private
+:
+friend
+class
+CacheFileIOManager
+;
 /
 *
 *
@@ -757,7 +759,7 @@ CacheStorageService
 .
 *
 /
-nsresult
+void
 CacheFileDoomed
 (
 nsILoadContextInfo
@@ -766,7 +768,11 @@ aLoadContextInfo
 const
 nsACString
 &
-aURL
+aIdExtension
+const
+nsACString
+&
+aURISpec
 )
 ;
 private
