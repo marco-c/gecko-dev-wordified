@@ -1654,6 +1654,7 @@ MOZ_ASSERT
 (
 textId
 <
+uint32_t
 (
 1
 <
@@ -1884,6 +1885,7 @@ MOZ_ASSERT
 (
 textId
 <
+uint32_t
 (
 1
 <
