@@ -11174,7 +11174,9 @@ key
 rt
 -
 >
-gcStoreBuffer
+gc
+.
+storeBuffer
 .
 putGeneric
 (
@@ -11373,7 +11375,9 @@ enclosingScope
 rt
 -
 >
-gcStoreBuffer
+gc
+.
+storeBuffer
 .
 putGeneric
 (
@@ -11472,7 +11476,9 @@ key
 rt
 -
 >
-gcStoreBuffer
+gc
+.
+storeBuffer
 .
 putGeneric
 (

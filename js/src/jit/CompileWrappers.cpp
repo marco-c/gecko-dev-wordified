@@ -356,7 +356,9 @@ runtime
 )
 -
 >
-gcZeal_
+gc
+.
+zealMode
 ;
 }
 #
@@ -684,7 +686,9 @@ runtime
 )
 -
 >
-gcNursery
+gc
+.
+nursery
 ;
 }
 #

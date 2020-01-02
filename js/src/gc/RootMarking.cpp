@@ -1191,7 +1191,9 @@ if
 rt
 -
 >
-gcChunkSet
+gc
+.
+chunkSet
 .
 has
 (
@@ -1714,7 +1716,9 @@ runtime
 )
 -
 >
-gcIncrementalState
+gc
+.
+incrementalState
 =
 =
 MARK_ROOTS
@@ -2189,7 +2193,9 @@ if
 rt
 -
 >
-gcIncrementalState
+gc
+.
+incrementalState
 =
 =
 MARK_ROOTS
@@ -2215,6 +2221,8 @@ cgcd
 rt
 -
 >
+gc
+.
 conservativeGC
 ;
 if
@@ -4975,7 +4983,9 @@ r
 rt
 -
 >
-gcRootsHash
+gc
+.
+rootsHash
 .
 all
 (
@@ -5186,6 +5196,8 @@ if
 rt
 -
 >
+gc
+.
 scriptAndCountsVector
 )
 {
@@ -5197,6 +5209,8 @@ vec
 rt
 -
 >
+gc
+.
 scriptAndCountsVector
 ;
 for
@@ -5815,7 +5829,9 @@ i
 rt
 -
 >
-gcBlackRootTracers
+gc
+.
+blackRootTracers
 .
 length
 (
@@ -5827,9 +5843,6 @@ i
 )
 {
 const
-JSRuntime
-:
-:
 ExtraTracer
 &
 e
@@ -5837,7 +5850,9 @@ e
 rt
 -
 >
-gcBlackRootTracers
+gc
+.
+blackRootTracers
 [
 i
 ]
@@ -5881,7 +5896,9 @@ op
 rt
 -
 >
-gcGrayRootTracer
+gc
+.
+grayRootTracer
 .
 op
 )
@@ -5903,7 +5920,9 @@ trc
 rt
 -
 >
-gcGrayRootTracer
+gc
+.
+grayRootTracer
 .
 data
 )
@@ -5951,7 +5970,9 @@ op
 rt
 -
 >
-gcGrayRootTracer
+gc
+.
+grayRootTracer
 .
 op
 )
@@ -5964,7 +5985,9 @@ gcmarker
 rt
 -
 >
-gcGrayRootTracer
+gc
+.
+grayRootTracer
 .
 data
 )
