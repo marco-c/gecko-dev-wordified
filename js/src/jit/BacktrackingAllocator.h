@@ -1178,7 +1178,7 @@ LiveInterval
 interval
 )
 ;
-bool
+void
 distributeUses
 (
 LiveInterval
