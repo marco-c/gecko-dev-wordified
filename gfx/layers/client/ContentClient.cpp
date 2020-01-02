@@ -560,7 +560,7 @@ UseDeprecatedTextures
 {
 return
 new
-ContentClientDoubleBuffered
+DeprecatedContentClientDoubleBuffered
 (
 aForwarder
 )
@@ -570,7 +570,7 @@ else
 {
 return
 new
-ContentClientDoubleBufferedNew
+ContentClientDoubleBuffered
 (
 aForwarder
 )
@@ -615,7 +615,7 @@ UseDeprecatedTextures
 {
 return
 new
-ContentClientSingleBuffered
+DeprecatedContentClientSingleBuffered
 (
 aForwarder
 )
@@ -625,7 +625,7 @@ else
 {
 return
 new
-ContentClientSingleBufferedNew
+ContentClientSingleBuffered
 (
 aForwarder
 )
@@ -782,7 +782,7 @@ format
 ;
 }
 void
-ContentClientRemoteBufferNew
+ContentClientRemoteBuffer
 :
 :
 DestroyBuffers
@@ -848,7 +848,7 @@ DestroyFrontBuffer
 ;
 }
 void
-ContentClientRemoteBufferNew
+ContentClientRemoteBuffer
 :
 :
 BeginPaint
@@ -913,7 +913,7 @@ mTextureClientOnWhite
 }
 }
 void
-ContentClientRemoteBufferNew
+ContentClientRemoteBuffer
 :
 :
 EndPaint
@@ -1025,7 +1025,7 @@ Unlock
 }
 }
 bool
-ContentClientRemoteBufferNew
+ContentClientRemoteBuffer
 :
 :
 CreateAndAllocateTextureClient
@@ -1162,7 +1162,7 @@ true
 ;
 }
 void
-ContentClientRemoteBufferNew
+ContentClientRemoteBuffer
 :
 :
 BuildTextureClients
@@ -1391,7 +1391,7 @@ aRect
 ;
 }
 void
-ContentClientRemoteBufferNew
+ContentClientRemoteBuffer
 :
 :
 CreateBuffer
@@ -1491,7 +1491,7 @@ GetAsDrawTarget
 }
 }
 nsIntRegion
-ContentClientRemoteBufferNew
+ContentClientRemoteBuffer
 :
 :
 GetUpdatedRegion
@@ -1683,7 +1683,7 @@ updatedRegion
 ;
 }
 void
-ContentClientRemoteBufferNew
+ContentClientRemoteBuffer
 :
 :
 Updated
@@ -1776,7 +1776,7 @@ updatedRegion
 ;
 }
 void
-ContentClientRemoteBufferNew
+ContentClientRemoteBuffer
 :
 :
 SwapBuffers
@@ -1862,7 +1862,7 @@ ACCESS_READ_WRITE
 }
 }
 void
-ContentClientRemoteBuffer
+DeprecatedContentClientRemoteBuffer
 :
 :
 DestroyBuffers
@@ -1916,7 +1916,7 @@ this
 ;
 }
 void
-ContentClientRemoteBuffer
+DeprecatedContentClientRemoteBuffer
 :
 :
 BeginPaint
@@ -1981,7 +1981,7 @@ mDeprecatedTextureClientOnWhite
 }
 }
 void
-ContentClientRemoteBuffer
+DeprecatedContentClientRemoteBuffer
 :
 :
 EndPaint
@@ -2064,7 +2064,7 @@ Unlock
 }
 }
 bool
-ContentClientRemoteBuffer
+DeprecatedContentClientRemoteBuffer
 :
 :
 CreateAndAllocateDeprecatedTextureClient
@@ -2190,7 +2190,7 @@ true
 ;
 }
 void
-ContentClientRemoteBuffer
+DeprecatedContentClientRemoteBuffer
 :
 :
 BuildDeprecatedTextureClients
@@ -2344,7 +2344,7 @@ true
 ;
 }
 void
-ContentClientRemoteBuffer
+DeprecatedContentClientRemoteBuffer
 :
 :
 CreateBuffer
@@ -2444,7 +2444,7 @@ LockDrawTarget
 }
 }
 nsIntRegion
-ContentClientRemoteBuffer
+DeprecatedContentClientRemoteBuffer
 :
 :
 GetUpdatedRegion
@@ -2636,7 +2636,7 @@ updatedRegion
 ;
 }
 void
-ContentClientRemoteBuffer
+DeprecatedContentClientRemoteBuffer
 :
 :
 Updated
@@ -2720,7 +2720,7 @@ updatedRegion
 ;
 }
 void
-ContentClientRemoteBuffer
+DeprecatedContentClientRemoteBuffer
 :
 :
 SwapBuffers
@@ -2806,7 +2806,7 @@ ACCESS_READ_WRITE
 }
 }
 void
-ContentClientRemoteBuffer
+DeprecatedContentClientRemoteBuffer
 :
 :
 OnActorDestroy
@@ -2872,7 +2872,7 @@ OnActorDestroy
 }
 }
 void
-ContentClientDoubleBufferedNew
+ContentClientDoubleBuffered
 :
 :
 CreateFrontBuffer
@@ -2953,7 +2953,7 @@ nsIntPoint
 ;
 }
 void
-ContentClientDoubleBufferedNew
+ContentClientDoubleBuffered
 :
 :
 DestroyFrontBuffer
@@ -3011,7 +3011,7 @@ nullptr
 }
 }
 void
-ContentClientDoubleBufferedNew
+ContentClientDoubleBuffered
 :
 :
 LockFrontBuffer
@@ -3053,7 +3053,7 @@ ACCESS_NONE
 }
 }
 void
-ContentClientDoubleBufferedNew
+ContentClientDoubleBuffered
 :
 :
 SwapBuffers
@@ -3155,7 +3155,7 @@ ACCESS_READ_ONLY
 )
 ;
 }
-ContentClientRemoteBufferNew
+ContentClientRemoteBuffer
 :
 :
 SwapBuffers
@@ -3165,7 +3165,7 @@ aFrontUpdatedRegion
 ;
 }
 void
-ContentClientDoubleBufferedNew
+ContentClientDoubleBuffered
 :
 :
 SyncFrontBufferToBackBuffer
@@ -3619,7 +3619,7 @@ Unlock
 }
 }
 void
-ContentClientDoubleBufferedNew
+ContentClientDoubleBuffered
 :
 :
 UpdateDestinationFrom
@@ -3788,11 +3788,11 @@ OP_SOURCE
 ;
 }
 }
-ContentClientDoubleBuffered
+DeprecatedContentClientDoubleBuffered
 :
 :
 ~
-ContentClientDoubleBuffered
+DeprecatedContentClientDoubleBuffered
 (
 )
 {
@@ -3860,7 +3860,7 @@ SurfaceDescriptor
 }
 }
 void
-ContentClientDoubleBuffered
+DeprecatedContentClientDoubleBuffered
 :
 :
 CreateFrontBufferAndNotify
@@ -4026,7 +4026,7 @@ nullptr
 ;
 }
 void
-ContentClientDoubleBuffered
+DeprecatedContentClientDoubleBuffered
 :
 :
 DestroyFrontBuffer
@@ -4064,7 +4064,7 @@ nullptr
 ;
 }
 void
-ContentClientDoubleBuffered
+DeprecatedContentClientDoubleBuffered
 :
 :
 LockFrontBuffer
@@ -4106,7 +4106,7 @@ ACCESS_NONE
 }
 }
 void
-ContentClientDoubleBuffered
+DeprecatedContentClientDoubleBuffered
 :
 :
 SwapBuffers
@@ -4208,7 +4208,7 @@ ACCESS_READ_ONLY
 )
 ;
 }
-ContentClientRemoteBuffer
+DeprecatedContentClientRemoteBuffer
 :
 :
 SwapBuffers
@@ -4218,7 +4218,7 @@ aFrontUpdatedRegion
 ;
 }
 void
-ContentClientDoubleBuffered
+DeprecatedContentClientDoubleBuffered
 :
 :
 OnActorDestroy
@@ -4387,7 +4387,7 @@ mTexture
 }
 ;
 void
-ContentClientDoubleBuffered
+DeprecatedContentClientDoubleBuffered
 :
 :
 SyncFrontBufferToBackBuffer
@@ -4769,7 +4769,7 @@ false
 ;
 }
 void
-ContentClientDoubleBuffered
+DeprecatedContentClientDoubleBuffered
 :
 :
 UpdateDestinationFrom
@@ -4948,7 +4948,7 @@ OP_SOURCE
 }
 }
 void
-ContentClientSingleBufferedNew
+ContentClientSingleBuffered
 :
 :
 SyncFrontBufferToBackBuffer
@@ -5059,11 +5059,11 @@ mFrontAndBackBufferDiffer
 false
 ;
 }
-ContentClientSingleBuffered
+DeprecatedContentClientSingleBuffered
 :
 :
 ~
-ContentClientSingleBuffered
+DeprecatedContentClientSingleBuffered
 (
 )
 {
@@ -5101,7 +5101,7 @@ SurfaceDescriptor
 }
 }
 void
-ContentClientSingleBuffered
+DeprecatedContentClientSingleBuffered
 :
 :
 CreateFrontBufferAndNotify
@@ -5140,7 +5140,7 @@ nullptr
 ;
 }
 void
-ContentClientSingleBuffered
+DeprecatedContentClientSingleBuffered
 :
 :
 SyncFrontBufferToBackBuffer

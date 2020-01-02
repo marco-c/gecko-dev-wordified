@@ -862,13 +862,13 @@ compositableParent
 )
 )
 ;
-ContentHostBase
+DeprecatedContentHostBase
 *
 content
 =
 static_cast
 <
-ContentHostBase
+DeprecatedContentHostBase
 *
 >
 (
