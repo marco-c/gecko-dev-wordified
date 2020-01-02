@@ -12473,16 +12473,6 @@ append
 tfDefn
 )
         
-typedefs
-=
-self
-.
-protocol
-.
-decl
-.
-cxxtypedefs
-        
 for
 md
 in
@@ -12510,7 +12500,6 @@ msgId
 (
 )
                                       
-typedefs
 md
 .
 prettyMsgName
@@ -12568,7 +12557,6 @@ replyId
 (
 )
                         
-typedefs
 md
 .
 prettyReplyName
@@ -14061,7 +14049,6 @@ _generateMessageClass
 (
 clsname
 msgid
-typedefs
 prettyName
 compress
 )
@@ -14090,31 +14077,6 @@ Message
 )
 )
 ]
-)
-    
-cls
-.
-addstmt
-(
-Label
-.
-PRIVATE
-)
-    
-cls
-.
-addstmts
-(
-typedefs
-)
-    
-cls
-.
-addstmt
-(
-Whitespace
-.
-NL
 )
     
 cls
