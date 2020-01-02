@@ -1200,6 +1200,8 @@ RestyleTracker
 aRestyleTracker
 nsChangeHint
 aExtraHint
+nsRestyleHint
+aRestyleHint
 )
 ;
 /
