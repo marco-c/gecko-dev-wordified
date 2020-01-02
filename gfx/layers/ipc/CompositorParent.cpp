@@ -1892,7 +1892,10 @@ OPEN_READ_WRITE
 aInSnapshot
 )
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 size
 =
 opener
@@ -1945,15 +1948,7 @@ opener
 Get
 (
 )
-IntSize
-(
 size
-.
-width
-size
-.
-height
-)
 )
 ;
 ComposeToTarget

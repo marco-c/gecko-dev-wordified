@@ -2841,7 +2841,10 @@ OPEN_READ_ONLY
 aImage
 )
 ;
-nsIntSize
+gfx
+:
+:
+IntSize
 size
 =
 surf

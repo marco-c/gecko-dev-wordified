@@ -4745,7 +4745,10 @@ mSurface
 )
 ;
 }
-gfxIntSize
+gfx
+:
+:
+IntSize
 AutoOpenSurface
 :
 :

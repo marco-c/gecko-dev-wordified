@@ -278,7 +278,10 @@ ImageFormat
 (
 )
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 Size
 (
 )
