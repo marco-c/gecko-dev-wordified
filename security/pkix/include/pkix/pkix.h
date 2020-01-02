@@ -1242,6 +1242,8 @@ CERTCertificate
 issuerCert
 PRTime
 time
+uint16_t
+maxLifetimeInDays
 const
 SECItem
 *
