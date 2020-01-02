@@ -312,6 +312,11 @@ h
 NS_EVENT_CLASS
 (
 Internal
+ScriptErrorEvent
+)
+NS_EVENT_CLASS
+(
+Internal
 ScrollPortEvent
 )
 NS_EVENT_CLASS

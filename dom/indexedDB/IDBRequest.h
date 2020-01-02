@@ -221,9 +221,6 @@ dom
 class
 OwningIDBObjectStoreOrIDBIndexOrIDBCursor
 ;
-class
-ErrorEventInit
-;
 }
 }
 BEGIN_INDEXEDDB_NAMESPACE
@@ -450,9 +447,12 @@ CaptureCaller
 void
 FillScriptErrorEvent
 (
-ErrorEventInit
-&
-aEventInit
+mozilla
+:
+:
+InternalScriptErrorEvent
+*
+aEvent
 )
 const
 ;
