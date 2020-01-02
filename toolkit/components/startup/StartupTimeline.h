@@ -148,6 +148,13 @@ firstPaint
 )
 mozilla_StartupTimeline_Event
 (
+SESSION_RESTORE_INIT
+"
+sessionRestoreInit
+"
+)
+mozilla_StartupTimeline_Event
+(
 SESSION_RESTORED
 "
 sessionRestored
