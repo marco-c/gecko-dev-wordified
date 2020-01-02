@@ -310,6 +310,17 @@ useAudioChannelService
 "
 true
 )
+pref
+(
+"
+dom
+.
+mozTCPSocket
+.
+enabled
+"
+true
+)
 ]
 init
 :
