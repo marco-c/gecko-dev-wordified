@@ -954,9 +954,12 @@ stealContents
 JSContext
 *
 cx
-JSObject
+Handle
+<
+ArrayBufferObject
 *
-obj
+>
+buffer
 void
 *
 *
