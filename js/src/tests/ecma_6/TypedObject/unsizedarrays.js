@@ -120,7 +120,6 @@ objects2
 new
 Objects
 (
-2
 [
 {
 f
@@ -285,7 +284,6 @@ uints
 new
 Uints
 (
-3
 [
 0
 1
