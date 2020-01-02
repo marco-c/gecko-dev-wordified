@@ -105,6 +105,15 @@ mozilla
 .
 gecko
 .
+GeckoAppShell
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 Telemetry
 ;
 import
