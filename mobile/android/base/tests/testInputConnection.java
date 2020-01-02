@@ -619,7 +619,7 @@ foobar
 /
 Test
 getTextBeforeCursor
-assertEquals
+fAssertEquals
 (
 "
 Can
@@ -644,7 +644,7 @@ getTextBeforeCursor
 /
 Test
 getTextAfterCursor
-assertEquals
+fAssertEquals
 (
 "
 Can
