@@ -148,13 +148,6 @@ h
 #
 include
 "
-nsMimeTypeArray
-.
-h
-"
-#
-include
-"
 nsPluginTags
 .
 h
@@ -721,8 +714,7 @@ protected
 nsPluginElement
 (
 )
-{
-}
+;
 void
 EnsurePluginMimeTypes
 (

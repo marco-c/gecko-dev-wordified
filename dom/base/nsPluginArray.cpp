@@ -1782,6 +1782,15 @@ SetIsDOMBinding
 )
 ;
 }
+nsPluginElement
+:
+:
+~
+nsPluginElement
+(
+)
+{
+}
 nsPIDOMWindow
 *
 nsPluginElement
