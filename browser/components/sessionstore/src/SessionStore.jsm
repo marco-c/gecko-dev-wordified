@@ -612,16 +612,11 @@ MS_PER_DAY
 0
 ;
 #
-ifdef
-XP_UNIX
-#
 ifndef
-XP_MACOSX
+XP_WIN
 #
 define
 BROKEN_WM_Z_ORDER
-#
-endif
 #
 endif
 Cu
