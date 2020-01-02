@@ -140,13 +140,6 @@ mozilla
 namespace
 gl
 {
-typedef
-GLXLibrary
-:
-:
-LibraryType
-LibType
-;
 class
 GLContextGLX
 :
@@ -180,13 +173,6 @@ GLXFBConfig
 cfg
 bool
 deleteDrawable
-LibType
-libType
-=
-GLXLibrary
-:
-:
-OPENGL_LIB
 gfxXlibSurface
 *
 pixmap
@@ -315,8 +301,6 @@ aDoubleBuffered
 gfxXlibSurface
 *
 aPixmap
-LibType
-libType
 )
 ;
 GLXContext

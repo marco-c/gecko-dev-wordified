@@ -607,7 +607,7 @@ mGLXPixmap
 gl
 :
 :
-sDefGLXLib
+sGLXLibrary
 .
 DestroyPixmap
 (
@@ -1669,7 +1669,7 @@ mGLXPixmap
 gl
 :
 :
-sDefGLXLib
+sGLXLibrary
 .
 DestroyPixmap
 (
@@ -3471,7 +3471,7 @@ mGLXPixmap
 gl
 :
 :
-sDefGLXLib
+sGLXLibrary
 .
 CreatePixmap
 (
