@@ -4407,6 +4407,7 @@ if
 (
 aStart
 <
+=
 aEnd
 )
 {

@@ -28975,6 +28975,7 @@ if
 (
 aStart
 <
+=
 aEnd
 )
 {
