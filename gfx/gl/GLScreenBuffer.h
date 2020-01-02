@@ -744,8 +744,12 @@ caps
 SurfaceFactory
 *
 factory
+const
+RefPtr
+<
 SurfaceStream
-*
+>
+&
 stream
 )
 :
