@@ -18522,6 +18522,9 @@ drawBackgroundColor
 ;
 NS_ASSERTION
 (
+drawBackgroundImage
+|
+|
 drawBackgroundColor
 "
 Should
@@ -18532,7 +18535,6 @@ to
 paint
 a
 background
-color
 if
 we
 don
@@ -18543,6 +18545,15 @@ one
 "
 )
 ;
+if
+(
+!
+drawBackgroundColor
+)
+{
+return
+;
+}
 /
 /
 Compute
