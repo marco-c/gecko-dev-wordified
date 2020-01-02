@@ -29680,7 +29680,10 @@ RootedString
 url_str
 (
 cx
-JS_ValueToString
+ToString
+<
+CanGC
+>
 (
 cx
 v

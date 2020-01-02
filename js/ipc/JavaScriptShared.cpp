@@ -737,7 +737,7 @@ RootedString
 str
 (
 cx
-JS_ValueToString
+ToString
 (
 cx
 idval

@@ -47066,7 +47066,7 @@ else
 {
 strMessage
 =
-JS_ValueToString
+ToString
 (
 cx
 value
