@@ -426,7 +426,7 @@ to
 /
 public
 String
-getServerURI
+getAccountServerURI
 (
 )
 ;

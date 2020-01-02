@@ -1209,6 +1209,14 @@ Constants
 .
 DEFAULT_PROFILE
 ;
+final
+String
+tokenServerURI
+=
+FxAccountConstants
+.
+DEFAULT_TOKEN_SERVER_URI
+;
 account
 =
 AndroidFxAccount
@@ -1220,6 +1228,7 @@ email
 password
 profile
 serverURI
+tokenServerURI
 null
 null
 false
