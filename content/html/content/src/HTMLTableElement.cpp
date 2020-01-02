@@ -1569,6 +1569,10 @@ mTableInheritedAttributes
 TABLE_ATTRS_DIRTY
 )
 {
+SetHasWeirdParserInsertionMode
+(
+)
+;
 }
 HTMLTableElement
 :

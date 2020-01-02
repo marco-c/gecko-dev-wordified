@@ -817,6 +817,10 @@ mSelectedIndex
 1
 )
 {
+SetHasWeirdParserInsertionMode
+(
+)
+;
 /
 /
 DoneAddingChildren

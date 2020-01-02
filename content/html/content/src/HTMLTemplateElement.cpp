@@ -225,6 +225,10 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
+SetHasWeirdParserInsertionMode
+(
+)
+;
 }
 nsresult
 HTMLTemplateElement
