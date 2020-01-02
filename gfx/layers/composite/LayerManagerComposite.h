@@ -1332,12 +1332,6 @@ SurfaceDescriptor
 aSurface
 )
 ;
-RefPtr
-<
-Compositor
->
-mCompositor
-;
 private
 :
 /
@@ -1502,6 +1496,12 @@ nsIntRect
 &
 aRect
 )
+;
+RefPtr
+<
+Compositor
+>
+mCompositor
 ;
 /
 *

@@ -8460,7 +8460,7 @@ GetIPCChannel
 (
 )
 ;
-LayerManager
+ClientLayerManager
 *
 lm
 =
