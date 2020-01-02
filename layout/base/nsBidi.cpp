@@ -10176,7 +10176,7 @@ length
 mLength
 limit
 =
-length
+mTrailingWSStart
 ;
 /
 *
@@ -10288,10 +10288,6 @@ so
 .
 *
 /
-limit
-=
-mTrailingWSStart
-;
 if
 (
 limit
