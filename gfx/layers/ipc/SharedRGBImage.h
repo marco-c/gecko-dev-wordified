@@ -605,6 +605,17 @@ DeprecatedGetAsSurface
 (
 )
 ;
+TemporaryRef
+<
+gfx
+:
+:
+SourceSurface
+>
+GetAsSourceSurface
+(
+)
+;
 bool
 Allocate
 (
