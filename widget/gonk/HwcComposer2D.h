@@ -416,6 +416,16 @@ gfxMatrix
 aGLWorldTransform
 )
 ;
+void
+setCrop
+(
+HwcLayer
+*
+layer
+hwc_rect_t
+srcCrop
+)
+;
 HwcDevice
 *
 mHwc
