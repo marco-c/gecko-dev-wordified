@@ -912,9 +912,7 @@ mCanLoadHint
 /
 /
 Only
-ListPanel
-'
-s
+DynamicPanels
 need
 the
 PanelConfig
@@ -930,7 +928,7 @@ getType
 =
 PanelType
 .
-LIST
+DYNAMIC
 )
 {
 args
