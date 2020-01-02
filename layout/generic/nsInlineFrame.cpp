@@ -5232,8 +5232,9 @@ SetBlockStartAscent
 (
 aMetrics
 .
-Height
+BSize
 (
+lineWM
 )
 =
 0
