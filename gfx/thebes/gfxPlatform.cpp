@@ -5251,7 +5251,7 @@ GetGrContext
 )
 -
 >
-setTextureCacheLimits
+setResourceCacheLimits
 (
 cacheItemLimit
 cacheSizeLimit
