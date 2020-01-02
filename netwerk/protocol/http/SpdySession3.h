@@ -226,11 +226,8 @@ NS_DECL_NSAHTTPSEGMENTREADER
 NS_DECL_NSAHTTPSEGMENTWRITER
 SpdySession3
 (
-nsAHttpTransaction
-*
 nsISocketTransport
 *
-int32_t
 )
 ;
 ~
