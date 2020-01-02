@@ -316,6 +316,13 @@ nsDOMEvent
 .
 h
 "
+#
+include
+"
+nsILoadContext
+.
+h
+"
 using
 namespace
 mozilla

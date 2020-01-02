@@ -797,6 +797,13 @@ nsContentList
 .
 h
 "
+#
+include
+"
+nsIChannel
+.
+h
+"
 using
 namespace
 mozilla

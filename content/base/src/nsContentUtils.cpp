@@ -781,6 +781,13 @@ h
 #
 include
 "
+nsIDocumentEncoder
+.
+h
+"
+#
+include
+"
 nsIDOMDocument
 .
 h

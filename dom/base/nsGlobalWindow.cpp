@@ -1060,6 +1060,13 @@ h
 #
 include
 "
+nsIFrameRequestCallback
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h

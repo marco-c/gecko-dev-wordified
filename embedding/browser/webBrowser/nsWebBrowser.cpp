@@ -294,6 +294,13 @@ gfxContext
 .
 h
 "
+#
+include
+"
+nsILoadContext
+.
+h
+"
 /
 /
 for

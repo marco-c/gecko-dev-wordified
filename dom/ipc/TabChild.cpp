@@ -590,6 +590,13 @@ APZCCallbackHelper
 h
 "
 #
+include
+"
+nsILoadContext
+.
+h
+"
+#
 define
 BROWSER_ELEMENT_CHILD_SCRIPT
 \
