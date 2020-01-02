@@ -1225,6 +1225,14 @@ endif
 /
 /
 MOZILLA_INTERNAL_API
+mSamples
+(
+0
+)
+mLastSyncLog
+(
+0
+)
 {
 }
 virtual
@@ -1877,6 +1885,12 @@ endif
 /
 /
 MOZILLA_INTERNAL_API
+uint32_t
+mSamples
+;
+uint32_t
+mLastSyncLog
+;
 }
 ;
 }
