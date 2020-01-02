@@ -843,11 +843,6 @@ last
 ;
 public
 :
-FreeSpan
-(
-)
-{
-}
 /
 /
 This
@@ -1329,6 +1324,8 @@ return
 false
 ;
 }
+private
+:
 /
 /
 Some
