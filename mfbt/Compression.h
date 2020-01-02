@@ -793,7 +793,7 @@ scenario
 *
 /
 static
-MFBT_API
+inline
 size_t
 maxCompressedSize
 (
