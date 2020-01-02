@@ -1064,12 +1064,6 @@ hasSecurityPolicy
 false
 )
 ;
-virtual
-~
-BaseProxyHandler
-(
-)
-;
 bool
 hasPrototype
 (

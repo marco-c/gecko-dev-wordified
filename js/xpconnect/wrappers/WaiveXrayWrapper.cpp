@@ -307,15 +307,6 @@ flags
 )
 {
 }
-WaiveXrayWrapper
-:
-:
-~
-WaiveXrayWrapper
-(
-)
-{
-}
 bool
 WaiveXrayWrapper
 :

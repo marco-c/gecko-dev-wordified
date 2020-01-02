@@ -323,13 +323,6 @@ family
 {
 }
 virtual
-~
-CPOWProxyHandler
-(
-)
-{
-}
-virtual
 bool
 finalizeInBackground
 (
