@@ -1109,7 +1109,7 @@ browser
 .
 style
 .
-MozTransformOrigin
+transformOrigin
 =
 '
 top
@@ -1120,7 +1120,7 @@ browser
 .
 style
 .
-MozTransform
+transform
 =
 '
 scale
