@@ -203,6 +203,13 @@ gfx2DGlue
 h
 "
 #
+include
+"
+MediaStreamSource
+.
+h
+"
+#
 ifdef
 MOZ_AUDIO_OFFLOAD
 #
@@ -675,7 +682,6 @@ mDecoder
 GetResource
 (
 )
-mDecoder
 )
 ;
 dataSource
