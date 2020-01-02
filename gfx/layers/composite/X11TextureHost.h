@@ -125,7 +125,7 @@ mozilla
 /
 gfx
 /
-Types
+2D
 .
 h
 "
@@ -140,7 +140,7 @@ layers
 {
 /
 /
-TextureHost
+TextureSource
 for
 Xlib
 -
