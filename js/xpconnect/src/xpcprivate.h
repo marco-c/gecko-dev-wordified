@@ -2832,8 +2832,10 @@ XPCJSRuntime
 *
 mRuntime
 ;
+nsRefPtr
+<
 nsIXPCSecurityManager
-*
+>
 mDefaultSecurityManager
 ;
 bool
