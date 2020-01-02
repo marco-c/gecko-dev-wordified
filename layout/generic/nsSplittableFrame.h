@@ -332,7 +332,7 @@ frame
 virtual
 nsIFrame
 *
-GetFirstContinuation
+FirstContinuation
 (
 )
 const
@@ -341,7 +341,7 @@ MOZ_OVERRIDE
 virtual
 nsIFrame
 *
-GetLastContinuation
+LastContinuation
 (
 )
 const
@@ -499,7 +499,7 @@ flow
 virtual
 nsIFrame
 *
-GetFirstInFlow
+FirstInFlow
 (
 )
 const
@@ -508,7 +508,7 @@ MOZ_OVERRIDE
 virtual
 nsIFrame
 *
-GetLastInFlow
+LastInFlow
 (
 )
 const

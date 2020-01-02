@@ -23933,7 +23933,7 @@ currFrame
 aFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -30060,7 +30060,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-GetFirstContinuationOrSpecialSibling
+FirstContinuationOrSpecialSibling
 (
 mFrame
 )
@@ -30426,7 +30426,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-GetFirstContinuationOrSpecialSibling
+FirstContinuationOrSpecialSibling
 (
 mFrame
 )

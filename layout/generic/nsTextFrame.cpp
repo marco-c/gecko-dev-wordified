@@ -4252,7 +4252,7 @@ nsTextFrame
 *
 >
 (
-GetLastInFlow
+LastInFlow
 (
 )
 -
@@ -26301,7 +26301,7 @@ NS_OK
 virtual
 nsIFrame
 *
-GetFirstInFlow
+FirstInFlow
 (
 )
 const
@@ -26309,7 +26309,7 @@ const
 virtual
 nsIFrame
 *
-GetFirstContinuation
+FirstContinuation
 (
 )
 const
@@ -27264,7 +27264,7 @@ nsIFrame
 nsContinuingTextFrame
 :
 :
-GetFirstInFlow
+FirstInFlow
 (
 )
 const
@@ -27341,7 +27341,7 @@ nsIFrame
 nsContinuingTextFrame
 :
 :
-GetFirstContinuation
+FirstContinuation
 (
 )
 const
@@ -28155,7 +28155,7 @@ nsIFrame
 nsTextFrame
 :
 :
-GetLastInFlow
+LastInFlow
 (
 )
 const
@@ -28222,7 +28222,7 @@ nsIFrame
 nsTextFrame
 :
 :
-GetLastContinuation
+LastContinuation
 (
 )
 const

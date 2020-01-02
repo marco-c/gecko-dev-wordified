@@ -584,7 +584,7 @@ NS_OK
 virtual
 nsIFrame
 *
-GetLastInFlow
+LastInFlow
 (
 )
 const
@@ -593,7 +593,7 @@ MOZ_OVERRIDE
 virtual
 nsIFrame
 *
-GetLastContinuation
+LastContinuation
 (
 )
 const

@@ -433,7 +433,7 @@ nsIFrame
 nsSplittableFrame
 :
 :
-GetFirstContinuation
+FirstContinuation
 (
 )
 const
@@ -496,7 +496,7 @@ nsIFrame
 nsSplittableFrame
 :
 :
-GetLastContinuation
+LastContinuation
 (
 )
 const
@@ -921,7 +921,7 @@ nsIFrame
 nsSplittableFrame
 :
 :
-GetFirstInFlow
+FirstInFlow
 (
 )
 const
@@ -987,7 +987,7 @@ nsIFrame
 nsSplittableFrame
 :
 :
-GetLastInFlow
+LastInFlow
 (
 )
 const

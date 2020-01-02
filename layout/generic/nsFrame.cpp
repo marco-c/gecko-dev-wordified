@@ -43130,7 +43130,7 @@ thisBlock
 thisBlock
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 ;
@@ -47565,7 +47565,7 @@ aFrame
 aFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -48574,7 +48574,7 @@ oofFrame
 oofFrame
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 ;

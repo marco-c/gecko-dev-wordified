@@ -8408,7 +8408,7 @@ firstContinuation
 aFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;

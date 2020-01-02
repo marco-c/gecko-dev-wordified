@@ -3814,7 +3814,7 @@ mSpecialHeightReflow
 frame
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 -

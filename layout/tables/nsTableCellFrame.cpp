@@ -1158,7 +1158,7 @@ return
 nsTableCellFrame
 *
 )
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -4802,7 +4802,7 @@ nsTableCellFrame
 )
 aCellFrame
 .
-GetFirstInFlow
+FirstInFlow
 (
 )
 ;
@@ -4816,7 +4816,7 @@ nsTableFrame
 )
 aTableFrame
 .
-GetFirstInFlow
+FirstInFlow
 (
 )
 ;
@@ -5021,7 +5021,7 @@ mFlags
 mSpecialHeightReflow
 )
 {
-GetFirstInFlow
+FirstInFlow
 (
 )
 -
@@ -5506,7 +5506,7 @@ mSpecialHeightReflow
 |
 |
 (
-GetFirstInFlow
+FirstInFlow
 (
 )
 -

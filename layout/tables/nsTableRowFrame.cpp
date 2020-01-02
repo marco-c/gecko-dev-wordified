@@ -4576,7 +4576,7 @@ nsTableRowFrame
 (
 aRow
 .
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -7077,7 +7077,7 @@ this
 )
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -8502,7 +8502,7 @@ aPresContext
 FrameProperties
 props
 =
-GetFirstInFlow
+FirstInFlow
 (
 )
 -

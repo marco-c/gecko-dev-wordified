@@ -636,7 +636,7 @@ nsTableFrame
 )
 aTableFrame
 .
-GetFirstInFlow
+FirstInFlow
 (
 )
 ;
@@ -3898,7 +3898,7 @@ firstInFlow
 nsTableFrame
 *
 )
-GetFirstInFlow
+FirstInFlow
 (
 )
 ;
@@ -13377,7 +13377,7 @@ nsTableFrame
 *
 >
 (
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -15902,7 +15902,7 @@ damageArea
 nsTableFrame
 *
 )
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -22352,7 +22352,7 @@ nsTableFrame
 *
 >
 (
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -40687,7 +40687,7 @@ nsTableFrame
 mTable
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 ;
@@ -41053,7 +41053,7 @@ nsTableRowFrame
 rowFrame
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -41115,7 +41115,7 @@ nsTableRowFrame
 rowFrame
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -42314,7 +42314,7 @@ nsTableRowGroupFrame
 mRg
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 )

@@ -2679,7 +2679,7 @@ nsIFrame
 aFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 -
@@ -2765,7 +2765,7 @@ nsIFrame
 aFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 -
@@ -6469,7 +6469,7 @@ return
 aContainingBlockIn
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -35030,7 +35030,7 @@ absPosCBCandidate
 frame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -35732,7 +35732,7 @@ aParentFrame
 aParentFrame
 -
 >
-GetLastContinuation
+LastContinuation
 (
 )
 ;
@@ -36381,7 +36381,7 @@ firstContinuation
 aParentFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -36472,7 +36472,7 @@ firstContinuation
 )
 -
 >
-GetLastContinuation
+LastContinuation
 (
 )
 ;
@@ -38598,7 +38598,7 @@ aParentFrame
 nsLayoutUtils
 :
 :
-GetLastContinuationWithChild
+LastContinuationWithChild
 (
 aParentFrame
 )
@@ -41855,7 +41855,7 @@ parentFrame
 nsLayoutUtils
 :
 :
-GetLastContinuationWithChild
+LastContinuationWithChild
 (
 parentFrame
 )
@@ -53778,7 +53778,7 @@ aFrame
 aFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 "
@@ -54033,7 +54033,7 @@ inFlowFrame
 inFlowFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 "
@@ -54084,7 +54084,7 @@ FindNextNonWhitespaceSibling
 inFlowFrame
 -
 >
-GetLastContinuation
+LastContinuation
 (
 )
 )
@@ -54307,7 +54307,7 @@ FindNextNonWhitespaceSibling
 inFlowFrame
 -
 >
-GetLastContinuation
+LastContinuation
 (
 )
 )
@@ -55187,7 +55187,7 @@ GetFirstPrincipalChild
 inFlowFrame
 -
 >
-GetLastContinuation
+LastContinuation
 (
 )
 -
@@ -55260,7 +55260,7 @@ parentFirstContinuation
 parent
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -65246,7 +65246,7 @@ frameToDelete
 textFrame
 -
 >
-GetLastContinuation
+LastContinuation
 (
 )
 ;
@@ -65839,7 +65839,7 @@ aBlockFrame
 aBlockFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -65949,7 +65949,7 @@ aBlockFrame
 aBlockFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -68085,7 +68085,7 @@ lastNewInline
 aInitialInline
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;

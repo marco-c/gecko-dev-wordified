@@ -1260,7 +1260,7 @@ nsTableFrame
 (
 mTableFrame
 .
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -1492,7 +1492,7 @@ nsTableRowGroupFrame
 rgFrame
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 map
@@ -2968,7 +2968,7 @@ aCellFrame
 =
 aCellFrame
 .
-GetFirstInFlow
+FirstInFlow
 (
 )
 "
@@ -3281,7 +3281,7 @@ nsTableCellFrame
 aCellFrame
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 "

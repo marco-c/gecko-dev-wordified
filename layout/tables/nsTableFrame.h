@@ -3342,7 +3342,7 @@ nsTableFrame
 *
 >
 (
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -4848,7 +4848,7 @@ nsTableFrame
 *
 >
 (
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -4884,7 +4884,7 @@ nsTableFrame
 *
 >
 (
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -4992,7 +4992,7 @@ nsTableFrame
 *
 >
 (
-GetFirstInFlow
+FirstInFlow
 (
 )
 )

@@ -3508,7 +3508,7 @@ nsBlockFrame
 *
 >
 (
-GetFirstContinuation
+FirstContinuation
 (
 )
 )
@@ -3682,7 +3682,7 @@ nsIFrame
 *
 firstInFlow
 =
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -4235,7 +4235,7 @@ nsIFrame
 *
 firstInFlow
 =
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -6122,7 +6122,7 @@ nsBlockFrame
 *
 >
 (
-GetFirstContinuation
+FirstContinuation
 (
 )
 )
@@ -27874,7 +27874,7 @@ aFC
 mFloat
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -45538,7 +45538,7 @@ nsIFrame
 *
 thisFC
 =
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -45626,7 +45626,7 @@ mContent
 parent
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 =
@@ -47278,7 +47278,7 @@ block
 nsBlockFrame
 *
 )
-GetFirstInFlow
+FirstInFlow
 (
 )
 ;
@@ -50935,7 +50935,7 @@ nsBlockFrame
 *
 >
 (
-GetFirstInFlow
+FirstInFlow
 (
 )
 )

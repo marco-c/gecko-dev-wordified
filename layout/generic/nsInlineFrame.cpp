@@ -864,7 +864,7 @@ nsIFrame
 *
 firstCont
 =
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -4475,7 +4475,7 @@ aStatus
 &
 &
 !
-GetLastInFlow
+LastInFlow
 (
 )
 -
@@ -6289,7 +6289,7 @@ nsIFrame
 *
 firstContinuation
 =
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -6672,7 +6672,7 @@ firstLine
 {
 MOZ_ASSERT
 (
-GetFirstInFlow
+FirstInFlow
 (
 )
 =
@@ -6778,7 +6778,7 @@ else
 {
 MOZ_ASSERT
 (
-GetFirstInFlow
+FirstInFlow
 (
 )
 !
