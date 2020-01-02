@@ -166,6 +166,16 @@ aCodecSpecificInfo
 =
 0
 ;
+virtual
+void
+Error
+(
+GMPErr
+aError
+)
+=
+0
+;
 }
 ;
 /
