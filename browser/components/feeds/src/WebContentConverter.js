@@ -3036,9 +3036,6 @@ handlerInfo
 }
 ;
 var
-buttons
-;
-var
 browserElement
 =
 this
@@ -3073,7 +3070,9 @@ notificationIcon
 notificationBox
 .
 PRIORITY_INFO_LOW
-buttons
+[
+addButton
+]
 )
 ;
 }
