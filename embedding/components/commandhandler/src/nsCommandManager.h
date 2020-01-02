@@ -159,10 +159,6 @@ public
 nsICommandManager
 public
 nsPICommandUpdater
-/
-/
-public
-nsISecurityCheckedComponent
 public
 nsSupportsWeakReference
 {
