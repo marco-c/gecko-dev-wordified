@@ -733,6 +733,11 @@ owner
 this
 .
 _owner
+innerWindowID
+:
+this
+.
+_innerWindowID
 }
 )
 ;
@@ -811,6 +816,13 @@ DataStore
 :
 UnregisterForMessages
 "
+{
+innerWindowID
+:
+this
+.
+_innerWindowID
+}
 )
 ;
 this
