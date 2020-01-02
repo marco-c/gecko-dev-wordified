@@ -86,6 +86,7 @@ Actor
 ActorType
 ProcessGraph
 TypeVisitor
+builtinHeaderIncludes
 #
 FIXME
 /
@@ -11023,6 +11024,19 @@ addthing
 Whitespace
 .
 NL
+)
+        
+for
+inc
+in
+builtinHeaderIncludes
+:
+            
+self
+.
+visitCxxInclude
+(
+inc
 )
         
 ipdl
