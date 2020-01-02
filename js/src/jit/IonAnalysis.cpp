@@ -2103,10 +2103,10 @@ if
 first
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -7651,7 +7651,7 @@ flow
 .
 /
 /
-NULL
+nullptr
 is
 returned
 in
@@ -7717,7 +7717,7 @@ idom
 finger1
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -7765,7 +7765,7 @@ idom
 finger2
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -8021,7 +8021,7 @@ immediateDominator
 )
 =
 =
-NULL
+nullptr
 )
 continue
 ;
@@ -8052,7 +8052,7 @@ if
 newIdom
 =
 =
-NULL
+nullptr
 )
 {
 block
@@ -8152,7 +8152,7 @@ immediateDominator
 )
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -10214,7 +10214,7 @@ successorWithPhis
 )
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -10245,7 +10245,7 @@ flag
 to
 non
 -
-NULL
+nullptr
 just
 because
 a
@@ -10281,7 +10281,7 @@ successorWithPhis
 )
 =
 =
-NULL
+nullptr
 )
 ;
 }
@@ -10500,7 +10500,7 @@ info
 )
 )
 return
-NULL
+nullptr
 ;
 return
 check
@@ -10625,7 +10625,7 @@ isInt32
 return
 SimpleLinearSum
 (
-NULL
+nullptr
 v
 .
 toInt32
@@ -11486,7 +11486,7 @@ Both
 terms
 should
 be
-NULL
+nullptr
 or
 the
 same
@@ -13045,7 +13045,7 @@ the
 goto
 .
 Return
-NULL
+nullptr
 otherwise
 .
 static
@@ -13171,7 +13171,7 @@ break
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -14796,8 +14796,8 @@ cx
 baseobj
 id
 value
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 0
 0
@@ -15669,7 +15669,7 @@ osrPc
 =
 *
 /
-NULL
+nullptr
 /
 *
 constructing
@@ -15718,7 +15718,7 @@ baselineFrame
 =
 *
 /
-NULL
+nullptr
 )
 ;
 if

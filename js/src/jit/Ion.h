@@ -1186,7 +1186,7 @@ of
 which
 may
 be
-NULL
+nullptr
 and
 the
 active
@@ -1197,7 +1197,7 @@ which
 will
 not
 be
-NULL
+nullptr
 .
 class
 IonContext
@@ -1743,7 +1743,7 @@ MacroAssembler
 *
 maybeMasm
 =
-NULL
+nullptr
 )
 ;
 CodeGenerator
@@ -1757,7 +1757,7 @@ MacroAssembler
 *
 maybeMasm
 =
-NULL
+nullptr
 )
 ;
 void
