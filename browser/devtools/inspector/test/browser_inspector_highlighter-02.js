@@ -124,7 +124,7 @@ TEST_URI
 TEST_URL_ROOT
 +
 "
-browser_inspector_highlighter
+doc_inspector_highlighter
 .
 html
 "

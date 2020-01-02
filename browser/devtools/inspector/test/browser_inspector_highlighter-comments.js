@@ -141,7 +141,9 @@ TEST_PAGE
 TEST_URL_ROOT
 +
 "
-browser_inspector_bug_958456_highlight_comments
+doc_inspector_highlighter
+-
+comments
 .
 html
 "
