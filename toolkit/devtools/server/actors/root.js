@@ -1244,6 +1244,10 @@ get
 window
 (
 )
+isWorker
+?
+null
+:
 Services
 .
 wm

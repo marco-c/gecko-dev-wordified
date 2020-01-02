@@ -345,6 +345,12 @@ the
 associated
 globals
 cache
+if
+(
+!
+isWorker
+)
+{
 Services
 .
 obs
@@ -390,3 +396,4 @@ destroyed
 false
 )
 ;
+}
