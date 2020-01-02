@@ -266,6 +266,17 @@ browser
 "
 setBrowserContext
 "
+"
+sp
+-
+menu
+-
+pprint
+"
+:
+"
+prettyPrint
+"
 }
 ;
 let
