@@ -274,7 +274,7 @@ rv
 ;
 #
 ifdef
-MOZ_RTSP
+NECKO_PROTOCOL_rtsp
 if
 (
 scheme
