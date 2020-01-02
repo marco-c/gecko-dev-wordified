@@ -15,7 +15,7 @@ basic
 -
 offset
 :
-2
+4
 ;
 indent
 -
@@ -1750,8 +1750,6 @@ const
 nsAString
 &
 aURL
-bool
-aRunInGlobalScope
 )
 :
 mTabChild
@@ -1761,10 +1759,6 @@ aTabChild
 mURL
 (
 aURL
-)
-mRunInGlobalScope
-(
-aRunInGlobalScope
 )
 {
 }
@@ -1779,7 +1773,6 @@ mTabChild
 LoadFrameScript
 (
 mURL
-mRunInGlobalScope
 )
 ;
 return
@@ -1795,9 +1788,6 @@ mTabChild
 nsString
 mURL
 ;
-bool
-mRunInGlobalScope
-;
 }
 ;
 void
@@ -1810,8 +1800,6 @@ const
 nsAString
 &
 aURL
-bool
-aRunInGlobalScope
 )
 {
 if
@@ -1835,7 +1823,6 @@ nsAsyncScriptLoad
 (
 this
 aURL
-aRunInGlobalScope
 )
 )
 ;
@@ -1869,7 +1856,6 @@ true
 LoadFrameScriptInternal
 (
 aURL
-aRunInGlobalScope
 )
 ;
 mLoadingScript
