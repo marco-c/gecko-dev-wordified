@@ -374,6 +374,11 @@ const
 int64_t
 kSelectTimeoutUs
 ;
+static
+const
+int64_t
+kSelectTimeoutRetries
+;
 bool
 mUIDValid
 ;
@@ -404,6 +409,9 @@ mNextCSeq
 ;
 bool
 mReceiveResponseEventPending
+;
+int64_t
+mNumSelectTimeoutRetries
 ;
 KeyedVector
 <
