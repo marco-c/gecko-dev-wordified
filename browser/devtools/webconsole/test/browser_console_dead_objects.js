@@ -223,6 +223,12 @@ chromeWindow
 content
 .
 document
+;
+"
++
+"
+delete
+chromeWindow
 "
 onAddVariable
 )

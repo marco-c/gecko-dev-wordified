@@ -470,7 +470,7 @@ text
 indexOf
 (
 "
-webconsole
+browser
 .
 xul
 "
