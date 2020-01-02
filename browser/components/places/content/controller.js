@@ -1496,7 +1496,9 @@ undo
 then
 (
 null
-Cu
+Components
+.
+utils
 .
 reportError
 )
@@ -1536,7 +1538,9 @@ redo
 then
 (
 null
-Cu
+Components
+.
+utils
 .
 reportError
 )
@@ -1832,7 +1836,9 @@ newSeparator
 then
 (
 null
-Cu
+Components
+.
+utils
 .
 reportError
 )
@@ -1896,7 +1902,9 @@ sortFolderByName
 then
 (
 null
-Cu
+Components
+.
+utils
 .
 reportError
 )
