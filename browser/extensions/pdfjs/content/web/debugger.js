@@ -456,8 +456,10 @@ toUpperCase
 DIV
 '
 )
+{
 return
 ;
+}
 var
 fontName
 =
@@ -518,8 +520,10 @@ fontName
 =
 fontName
 )
+{
 continue
 ;
+}
 select
 .
 checked
@@ -1202,10 +1206,12 @@ this
 .
 active
 )
+{
 resetSelection
 (
 )
 ;
+}
 }
 .
 bind
@@ -1416,6 +1422,7 @@ pdfjsBreakPoints
 '
 )
 )
+{
 breakPoints
 =
 JSON
@@ -1432,6 +1439,7 @@ pdfjsBreakPoints
 )
 )
 ;
+}
 }
 enabled
 :
@@ -1579,6 +1587,7 @@ length
 =
 1
 )
+{
 this
 .
 selectStepper
@@ -1587,6 +1596,7 @@ pageIndex
 false
 )
 ;
+}
 return
 stepper
 ;
@@ -1604,6 +1614,7 @@ if
 (
 selectPanel
 )
+{
 this
 .
 manager
@@ -1613,6 +1624,7 @@ selectPanel
 1
 )
 ;
+}
 for
 (
 var
@@ -1648,6 +1660,7 @@ pageIndex
 =
 pageIndex
 )
+{
 stepper
 .
 panel
@@ -1659,7 +1672,9 @@ hidden
 '
 )
 ;
+}
 else
+{
 stepper
 .
 panel
@@ -1672,6 +1687,7 @@ hidden
 true
 )
 ;
+}
 }
 var
 options
@@ -1811,12 +1827,14 @@ if
 (
 textContent
 )
+{
 d
 .
 textContent
 =
 textContent
 ;
+}
 return
 d
 ;
@@ -2330,6 +2348,7 @@ this
 .
 checked
 )
+{
 self
 .
 breakPoints
@@ -2339,7 +2358,9 @@ push
 x
 )
 ;
+}
 else
+{
 self
 .
 breakPoints
@@ -2357,6 +2378,7 @@ x
 1
 )
 ;
+}
 StepperManager
 .
 saveBreakPoints
@@ -2650,6 +2672,7 @@ this
 .
 currentIdx
 )
+{
 return
 this
 .
@@ -2658,6 +2681,7 @@ breakPoints
 i
 ]
 ;
+}
 }
 return
 null
@@ -2959,6 +2983,7 @@ hasChildNodes
 (
 )
 )
+{
 node
 .
 removeChild
@@ -2968,6 +2993,7 @@ node
 lastChild
 )
 ;
+}
 }
 function
 getStatIndex
@@ -2995,6 +3021,7 @@ ii
 +
 i
 )
+{
 if
 (
 stats
@@ -3008,9 +3035,12 @@ pageNumber
 =
 pageNumber
 )
+{
 return
 i
 ;
+}
+}
 return
 false
 ;
@@ -3098,8 +3128,10 @@ if
 !
 stat
 )
+{
 return
 ;
+}
 var
 statsIndex
 =
@@ -3295,6 +3327,7 @@ ii
 +
 i
 )
+{
 this
 .
 panel
@@ -3309,6 +3342,7 @@ i
 div
 )
 ;
+}
 }
 }
 ;
@@ -3398,10 +3432,12 @@ ids
 all
 '
 )
+{
 all
 =
 true
 ;
+}
 for
 (
 var
@@ -3447,12 +3483,14 @@ id
 -
 1
 )
+{
 tool
 .
 enabled
 =
 true
 ;
+}
 }
 if
 (
@@ -3833,13 +3871,16 @@ tool
 .
 enabled
 )
+{
 tool
 .
 init
 (
 )
 ;
+}
 else
+{
 panel
 .
 textContent
@@ -3885,6 +3926,7 @@ commas
 .
 '
 ;
+}
 buttons
 .
 push
@@ -3917,8 +3959,10 @@ index
 =
 activePanel
 )
+{
 return
 ;
+}
 activePanel
 =
 index
