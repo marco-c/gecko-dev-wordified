@@ -199,6 +199,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 EventDispatcher
@@ -2580,6 +2591,7 @@ use
 !
 *
 /
+RobocopTarget
 public
 IntBuffer
 getPixels
