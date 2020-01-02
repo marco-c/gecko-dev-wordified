@@ -3343,6 +3343,15 @@ startup
 finished
 "
 :
+/
+/
+Add
+snippets
+to
+be
+cycled
+through
+.
 if
 (
 Services
@@ -3368,7 +3377,6 @@ loadHomePanelsBanner
 )
 ;
 }
-else
 if
 (
 Services
