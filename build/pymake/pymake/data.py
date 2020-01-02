@@ -5048,6 +5048,8 @@ currunning
 =
 True
         
+rule
+=
 self
 .
 rlist
@@ -5056,9 +5058,18 @@ pop
 (
 0
 )
+        
+self
+.
+makefile
+.
+context
+.
+defer
+(
+rule
 .
 runcommands
-(
 self
 .
 indent
