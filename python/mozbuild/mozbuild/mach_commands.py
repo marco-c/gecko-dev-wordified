@@ -3128,12 +3128,12 @@ complete
                     
 except
 (
+ImportError
 dbus
 .
 exceptions
 .
 DBusException
-ImportError
 )
 :
                         
