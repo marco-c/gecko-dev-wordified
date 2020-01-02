@@ -1205,6 +1205,12 @@ MOZ_FINAL
 public
 nsIThreadPoolListener
 {
+~
+MSCOMInitThreadPoolListener
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
