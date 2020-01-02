@@ -1891,13 +1891,6 @@ Shutdown
 (
 )
 ;
-nsEditorEventListener
-:
-:
-ShutDown
-(
-)
-;
 nsXBLService
 :
 :

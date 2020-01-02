@@ -330,15 +330,6 @@ SpellCheckIfNeeded
 (
 )
 ;
-static
-NS_HIDDEN_
-(
-void
-)
-ShutDown
-(
-)
-;
 protected
 :
 nsresult
