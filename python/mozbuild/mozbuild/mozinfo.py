@@ -649,6 +649,8 @@ crashreporter
 '
 ]
 =
+bool
+(
 substs
 .
 get
@@ -657,11 +659,7 @@ get
 MOZ_CRASHREPORTER
 '
 )
-=
-=
-'
-1
-'
+)
     
 d
 [
