@@ -1063,7 +1063,7 @@ p
 {
 PLHashEntry
 *
-e
+he
 =
 PL_HashTableAdd
 (
@@ -1075,7 +1075,7 @@ cur_node
 if
 (
 !
-e
+he
 )
 {
 fprintf
