@@ -3346,9 +3346,14 @@ nsIServiceWorkerManager
 >
 swm
 =
-do_GetService
+mozilla
+:
+:
+services
+:
+:
+GetServiceWorkerManager
 (
-SERVICEWORKERMANAGER_CONTRACTID
 )
 ;
 nsRefPtr

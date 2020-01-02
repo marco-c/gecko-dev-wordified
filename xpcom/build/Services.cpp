@@ -225,6 +225,13 @@ nsIPermissionManager
 .
 h
 "
+#
+include
+"
+nsIServiceWorkerManager
+.
+h
+"
 using
 namespace
 mozilla
