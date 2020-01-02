@@ -7354,7 +7354,7 @@ if
 ActiveLayerTracker
 :
 :
-IsOffsetStyleAnimated
+IsOffsetOrMarginStyleAnimated
 (
 f
 )
