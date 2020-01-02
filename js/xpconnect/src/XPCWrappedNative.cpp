@@ -378,7 +378,10 @@ NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 XPCWrappedNative
 )
-NS_IMETHODIMP
+NS_IMETHODIMP_
+(
+void
+)
 NS_CYCLE_COLLECTION_CLASSNAME
 (
 XPCWrappedNative
@@ -411,9 +414,6 @@ tmp
 ExpireWrapper
 (
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

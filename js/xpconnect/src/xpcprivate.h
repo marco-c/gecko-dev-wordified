@@ -14550,7 +14550,10 @@ NS_DECL_CYCLE_COLLECTION_CLASS_BODY
 XPCWrappedNative
 XPCWrappedNative
 )
-NS_IMETHOD
+NS_IMETHOD_
+(
+void
+)
 Root
 (
 void
@@ -14558,11 +14561,11 @@ void
 p
 )
 {
-return
-NS_OK
-;
 }
-NS_IMETHOD
+NS_IMETHOD_
+(
+void
+)
 Unroot
 (
 void
@@ -14570,9 +14573,6 @@ void
 p
 )
 {
-return
-NS_OK
-;
 }
 NS_IMPL_GET_XPCOM_CYCLE_COLLECTION_PARTICIPANT
 (

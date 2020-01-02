@@ -522,7 +522,10 @@ nsXPCOMCycleCollectionParticipant
 public
 :
 \
-NS_IMETHOD
+NS_IMETHOD_
+(
+void
+)
 Unlink
 (
 void
