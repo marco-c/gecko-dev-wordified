@@ -6477,6 +6477,7 @@ AsLayerManagerComposite
 )
 this
 0
+0
 )
 ;
 result
