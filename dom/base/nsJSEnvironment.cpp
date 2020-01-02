@@ -9605,7 +9605,7 @@ n
 dmd
 :
 :
-RunReporters
+RunReportersForThisProcess
 (
 )
 ;
