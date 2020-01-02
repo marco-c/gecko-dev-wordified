@@ -2835,6 +2835,10 @@ OS_LIBS
 '
             
 '
+PYTHON_UNIT_TESTS
+'
+            
+'
 RCFILE
 '
             
