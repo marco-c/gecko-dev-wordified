@@ -851,12 +851,6 @@ case
 SurfaceDescriptor
 :
 :
-TSurfaceDescriptorGralloc
-:
-case
-SurfaceDescriptor
-:
-:
 TNewSurfaceDescriptorGralloc
 :
 case
