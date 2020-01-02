@@ -60,12 +60,9 @@ const
 OPENH264_PLUGIN_ID
 =
 "
-openh264
+gmp
 -
-plugin
-cisco
-.
-com
+gmpopenh264
 "
 ;
 const
@@ -74,7 +71,11 @@ OPENH264_PREF_BRANCH
 "
 media
 .
-openh264
+"
++
+OPENH264_PLUGIN_ID
++
+"
 .
 "
 ;
