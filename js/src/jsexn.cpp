@@ -412,25 +412,25 @@ JSResolveOp
 exn_resolve
 JS_ConvertStub
 exn_finalize
-NULL
+nullptr
 /
 *
 checkAccess
 *
 /
-NULL
+nullptr
 /
 *
 call
 *
 /
-NULL
+nullptr
 /
 *
 hasInstance
 *
 /
-NULL
+nullptr
 /
 *
 construct
@@ -964,7 +964,7 @@ if
 cursor
 )
 return
-NULL
+nullptr
 ;
 copy
 =
@@ -1092,7 +1092,7 @@ messageArgs
 i
 ]
 =
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -1465,7 +1465,7 @@ prevReporter
 JS_SetErrorReporter
 (
 cx
-NULL
+nullptr
 )
 )
 prevState
@@ -1739,7 +1739,7 @@ if
 atom
 =
 =
-NULL
+nullptr
 )
 atom
 =
@@ -1766,7 +1766,7 @@ frame
 .
 funName
 =
-NULL
+nullptr
 ;
 }
 RootedScript
@@ -2018,7 +2018,7 @@ priv
 >
 errorReport
 =
-NULL
+nullptr
 ;
 }
 priv
@@ -2564,7 +2564,7 @@ objp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 priv
@@ -2893,8 +2893,8 @@ cx
 obj
 prop
 v
-NULL
-NULL
+nullptr
+nullptr
 attrs
 )
 )
@@ -2928,7 +2928,7 @@ exn
 )
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -3040,7 +3040,7 @@ ErrorObject
 )
 )
 return
-NULL
+nullptr
 ;
 JSExnPrivate
 *
@@ -3066,7 +3066,7 @@ if
 priv
 )
 return
-NULL
+nullptr
 ;
 return
 priv
@@ -3263,7 +3263,7 @@ funName
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3278,7 +3278,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3309,7 +3309,7 @@ filename
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3353,7 +3353,7 @@ n
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -3558,7 +3558,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_PROTOTYPE
 "
 Error
@@ -3587,7 +3587,7 @@ protov
 toObject
 (
 )
-NULL
+nullptr
 )
 )
 ;
@@ -3663,7 +3663,7 @@ else
 {
 message
 =
-NULL
+nullptr
 ;
 }
 /
@@ -3702,7 +3702,7 @@ done
 (
 )
 ?
-NULL
+nullptr
 :
 iter
 .
@@ -3926,7 +3926,7 @@ message
 filename
 lineno
 column
-NULL
+nullptr
 exnType
 )
 )
@@ -4024,7 +4024,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_PROTOTYPE
 "
 Error
@@ -5140,7 +5140,7 @@ if
 errorProto
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 nameValue
@@ -5343,7 +5343,7 @@ JSPROP_ENUMERATE
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -5381,7 +5381,7 @@ if
 ctor
 )
 return
-NULL
+nullptr
 ;
 ctor
 -
@@ -5409,7 +5409,7 @@ errorProto
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -5424,7 +5424,7 @@ errorProto
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -5514,7 +5514,7 @@ if
 objectProto
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -5546,7 +5546,7 @@ if
 errorProto
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -5569,12 +5569,12 @@ DefinePropertiesAndBrand
 (
 cx
 errorProto
-NULL
+nullptr
 exception_methods
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -5617,7 +5617,7 @@ errorProto
 )
 )
 return
-NULL
+nullptr
 ;
 }
 return
@@ -5649,7 +5649,7 @@ JSErrorFormatString
 *
 errorString
 =
-NULL
+nullptr
 ;
 /
 /
@@ -5690,7 +5690,7 @@ localeGetErrorMessage
 |
 will
 be
-NULL
+nullptr
 anyways
 .
 if
@@ -5851,7 +5851,7 @@ JSEXN_INTERNALERR
 )
 {
 return
-NULL
+nullptr
 ;
 }
 JSProtoKey
@@ -6074,8 +6074,8 @@ errorString
 js_GetLocalizedErrorMessage
 (
 cx
-NULL
-NULL
+nullptr
+nullptr
 errorNumber
 )
 ;
@@ -6085,7 +6085,7 @@ errorString
 callback
 (
 userRef
-NULL
+nullptr
 errorNumber
 )
 ;
@@ -6354,7 +6354,7 @@ ErrorObject
 :
 class_
 errProto
-NULL
+nullptr
 )
 )
 ;
@@ -6771,7 +6771,7 @@ exn
 {
 exnObject
 =
-NULL
+nullptr
 ;
 }
 else
@@ -7285,7 +7285,7 @@ char
 *
 bytes
 =
-NULL
+nullptr
 ;
 if
 (
@@ -7330,7 +7330,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNCAUGHT_EXCEPTION
 bytes
 )
@@ -7474,7 +7474,7 @@ if
 copy
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7507,7 +7507,7 @@ copy
 errorReport
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -7517,7 +7517,7 @@ copy
 >
 errorReport
 =
-NULL
+nullptr
 ;
 }
 ScopedJSFreePtr
@@ -7567,7 +7567,7 @@ message
 )
 )
 return
-NULL
+nullptr
 ;
 JS
 :
@@ -7620,7 +7620,7 @@ filename
 )
 )
 return
-NULL
+nullptr
 ;
 JS
 :
@@ -7709,7 +7709,7 @@ if
 proto
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 copyobj
@@ -7724,7 +7724,7 @@ ErrorObject
 :
 class_
 proto
-NULL
+nullptr
 )
 )
 ;
@@ -7734,7 +7734,7 @@ if
 copyobj
 )
 return
-NULL
+nullptr
 ;
 SetExnPrivate
 (

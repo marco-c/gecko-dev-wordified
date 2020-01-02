@@ -523,7 +523,7 @@ getPrivate
 must
 not
 be
-NULL
+nullptr
 )
 .
 *

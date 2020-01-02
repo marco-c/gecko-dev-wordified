@@ -610,7 +610,7 @@ lazily
 compiled
 script
 or
-NULL
+nullptr
 *
 /
 }
@@ -1457,7 +1457,7 @@ hasGuessedAtom
 (
 )
 ?
-NULL
+nullptr
 :
 atom_
 .
@@ -1485,7 +1485,7 @@ hasGuessedAtom
 !
 atom_
 ?
-NULL
+nullptr
 :
 atom_
 -
@@ -1535,7 +1535,7 @@ JS_ASSERT
 atom_
 =
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -1543,7 +1543,7 @@ JS_ASSERT
 atom
 !
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -1827,7 +1827,7 @@ parsed
 /
 source
 or
-NULL
+nullptr
 if
 the
 function
@@ -2006,7 +2006,7 @@ self
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -2519,7 +2519,7 @@ isInterpreted
 (
 )
 ?
-NULL
+nullptr
 :
 native
 (
@@ -2563,7 +2563,7 @@ parallelNative
 (
 )
 :
-NULL
+nullptr
 ;
 }
 void
@@ -3270,7 +3270,7 @@ GenericObject
 If
 proto
 is
-NULL
+nullptr
 Function
 .
 prototype
