@@ -255,6 +255,16 @@ return
 LOCAL_GL_CLAMP_TO_EDGE
 ;
 }
+virtual
+void
+SetCompositableBackendSpecificData
+(
+CompositableBackendSpecificData
+*
+aBackendData
+)
+MOZ_OVERRIDE
+;
 void
 DeallocateDeviceData
 (
@@ -340,6 +350,9 @@ gfx
 :
 SurfaceFormat
 mFormat
+;
+bool
+mNeedsReset
 ;
 }
 ;
