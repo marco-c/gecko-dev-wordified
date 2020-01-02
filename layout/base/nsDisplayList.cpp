@@ -29533,8 +29533,8 @@ return
 nullptr
 ;
 }
-uint32_t
-flags
+bool
+prerender
 =
 ShouldPrerenderTransformedContent
 (
@@ -29542,6 +29542,11 @@ aBuilder
 mFrame
 false
 )
+;
+uint32_t
+flags
+=
+prerender
 ?
 FrameLayerBuilder
 :
@@ -29691,12 +29696,7 @@ eCSSProperty_transform
 ;
 if
 (
-ShouldPrerenderTransformedContent
-(
-aBuilder
-mFrame
-false
-)
+prerender
 )
 {
 container
