@@ -725,12 +725,12 @@ return
 mSelectedFrame
 ;
 }
-GetAttribute
-(
 mContent
-mPresentationData
-.
-mstyle
+-
+>
+GetAttr
+(
+kNameSpaceID_None
 nsGkAtoms
 :
 :
