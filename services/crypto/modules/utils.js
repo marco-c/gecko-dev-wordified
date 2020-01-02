@@ -3476,6 +3476,11 @@ hasOwnProperty
 payload
 "
 )
+&
+&
+options
+.
+payload
 )
 {
 let
