@@ -226,7 +226,7 @@ chrome
 /
 webide
 /
-locale
+content
 /
 webide
 .
