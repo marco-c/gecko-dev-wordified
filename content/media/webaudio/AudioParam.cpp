@@ -827,6 +827,13 @@ mChannelData
 aCounter
 ]
 ;
+audioNodeInputValue
+*
+=
+lastAudioNodeChunk
+.
+mVolume
+;
 }
 return
 audioNodeInputValue
