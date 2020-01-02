@@ -38875,9 +38875,7 @@ MDefinition
 *
 dynamic_
 ;
-const
-void
-*
+AsmJSImmKind
 builtin_
 ;
 }
@@ -38930,9 +38928,7 @@ callee
 }
 Callee
 (
-const
-void
-*
+AsmJSImmKind
 callee
 )
 :
@@ -39000,9 +38996,7 @@ u
 dynamic_
 ;
 }
-const
-void
-*
+AsmJSImmKind
 builtin
 (
 )
