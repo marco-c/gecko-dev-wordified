@@ -5183,7 +5183,6 @@ scope
 mResponseBlob
 &
 result
-true
 )
 ;
 return
@@ -5260,7 +5259,6 @@ scope
 mResponseXML
 &
 result
-true
 )
 ;
 return

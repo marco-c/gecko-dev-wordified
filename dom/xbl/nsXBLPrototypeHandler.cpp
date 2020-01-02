@@ -2061,13 +2061,6 @@ scopeObject
 scriptTarget
 &
 targetV
-/
-*
-aAllowWrapping
-=
-*
-/
-true
 )
 ;
 NS_ENSURE_SUCCESS

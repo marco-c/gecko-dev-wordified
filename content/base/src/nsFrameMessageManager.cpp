@@ -4926,7 +4926,6 @@ global
 aTarget
 &
 targetv
-true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5661,7 +5660,6 @@ global
 defaultThisValue
 &
 thisValue
-true
 )
 ;
 NS_ENSURE_SUCCESS

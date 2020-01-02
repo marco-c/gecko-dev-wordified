@@ -1482,6 +1482,13 @@ global
 aBoundElement
 &
 v
+/
+*
+aAllowWrapping
+=
+*
+/
+false
 )
 ;
 NS_ENSURE_SUCCESS
