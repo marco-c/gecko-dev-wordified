@@ -8073,6 +8073,9 @@ function
 (
 path
 options
+=
+{
+}
 )
 {
 /

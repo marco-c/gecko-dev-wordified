@@ -8037,6 +8037,9 @@ function
 (
 path
 options
+=
+{
+}
 )
 {
 let
