@@ -2224,16 +2224,6 @@ OnDestroy
 ;
 virtual
 bool
-OnMove
-(
-int32_t
-aX
-int32_t
-aY
-)
-;
-virtual
-bool
 OnResize
 (
 nsIntRect
@@ -2283,9 +2273,6 @@ OnWindowPosChanged
 WINDOWPOS
 *
 wp
-bool
-&
-aResult
 )
 ;
 void
