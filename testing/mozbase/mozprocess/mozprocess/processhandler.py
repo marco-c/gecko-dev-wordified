@@ -6133,7 +6133,10 @@ timeout
 return
 None
         
-return
+self
+.
+returncode
+=
 self
 .
 proc
@@ -6141,6 +6144,11 @@ proc
 wait
 (
 )
+        
+return
+self
+.
+returncode
     
 #
 TODO
