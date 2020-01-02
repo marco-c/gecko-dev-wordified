@@ -5585,7 +5585,7 @@ bitmap
 )
 {
 return
-nullptr
+data
 ;
 }
 return
