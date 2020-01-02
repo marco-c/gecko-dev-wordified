@@ -11855,7 +11855,7 @@ rt
 >
 gcMarker
 .
-setSizeLimit
+setMaxCapacity
 (
 limit
 )
