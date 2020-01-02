@@ -2053,6 +2053,10 @@ int32_t
 aOldEnd
 int16_t
 aReason
+EIsFromUserInput
+aIsFromUserInput
+=
+eFromUserInput
 )
 ;
 virtual
