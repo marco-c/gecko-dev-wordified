@@ -77,15 +77,6 @@ jsm
 )
 ;
 const
-FILE_MANIFEST
-=
-"
-experiments
-.
-manifest
-"
-;
-const
 MANIFEST_HANDLER
 =
 "
