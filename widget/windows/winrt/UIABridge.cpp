@@ -123,6 +123,13 @@ h
 "
 #
 include
+"
+WinUtils
+.
+h
+"
+#
+include
 <
 wrl
 .
@@ -158,6 +165,13 @@ a11y
 ;
 #
 endif
+using
+namespace
+mozilla
+:
+:
+widget
+;
 using
 namespace
 Microsoft
@@ -237,9 +251,6 @@ LogThread
 undef
 LogFunction
 #
-undef
-Log
-#
 define
 LogThread
 (
@@ -251,11 +262,28 @@ LogFunction
 )
 #
 define
-Log
+BridgeLog
 (
 .
 .
 .
+)
+#
+else
+#
+define
+BridgeLog
+(
+.
+.
+.
+)
+WinUtils
+:
+:
+Log
+(
+__VA_ARGS__
 )
 #
 endif
@@ -362,10 +390,6 @@ IInspectable
 retVal
 )
 {
-LogFunction
-(
-)
-;
 HRESULT
 hr
 =
@@ -740,6 +764,10 @@ LONG_PTR
 aAccessible
 )
 {
+LogFunction
+(
+)
+;
 return
 S_OK
 ;
@@ -752,6 +780,10 @@ ClearFocus
 (
 )
 {
+LogFunction
+(
+)
+;
 return
 S_OK
 ;
@@ -791,7 +823,7 @@ GetName
 str
 )
 ;
-Log
+BridgeLog
 (
 "
 name
@@ -814,7 +846,7 @@ GetDescription
 str
 )
 ;
-Log
+BridgeLog
 (
 "
 description
@@ -858,7 +890,7 @@ get
 (
 )
 ;
-Log
+BridgeLog
 (
 "
 Focus
@@ -1185,7 +1217,7 @@ here
 before
 accessible
 sends
-up
+us
 any
 observer
 events
@@ -1255,7 +1287,7 @@ if
 child
 )
 {
-Log
+BridgeLog
 (
 "
 mAccessible
@@ -1296,7 +1328,7 @@ if
 element
 )
 {
-Log
+BridgeLog
 (
 "
 gElement
@@ -1411,7 +1443,7 @@ direction
 case
 NavigateDirection_Parent
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -1427,7 +1459,7 @@ break
 case
 NavigateDirection_NextSibling
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -1443,7 +1475,7 @@ break
 case
 NavigateDirection_PreviousSibling
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -1459,7 +1491,7 @@ break
 case
 NavigateDirection_FirstChild
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -1490,7 +1522,7 @@ break
 case
 NavigateDirection_LastChild
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -1939,7 +1971,7 @@ LogFunction
 (
 )
 ;
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -2002,7 +2034,7 @@ idProp
 case
 UIA_AutomationIdPropertyId
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -2021,7 +2053,7 @@ break
 case
 UIA_ControlTypePropertyId
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -2040,7 +2072,7 @@ break
 case
 UIA_IsKeyboardFocusablePropertyId
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -2059,7 +2091,7 @@ break
 case
 UIA_IsContentElementPropertyId
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -2078,7 +2110,7 @@ break
 case
 UIA_IsControlElementPropertyId
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -2097,7 +2129,7 @@ break
 case
 UIA_IsEnabledPropertyId
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -2116,7 +2148,7 @@ break
 case
 UIA_HasKeyboardFocusPropertyId
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -2135,7 +2167,7 @@ break
 case
 UIA_NamePropertyId
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -2154,7 +2186,7 @@ break
 case
 UIA_IsPasswordPropertyId
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -2173,7 +2205,7 @@ break
 case
 UIA_NativeWindowHandlePropertyId
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -2191,7 +2223,7 @@ break
 ;
 default
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -2391,7 +2423,7 @@ break
 ;
 default
 :
-Log
+BridgeLog
 (
 "
 UIABridge
@@ -2927,7 +2959,7 @@ float
 )
 docHeight
 ;
-Log
+BridgeLog
 (
 "
 get_BoundingRectangle
@@ -3074,7 +3106,7 @@ LogFunction
 (
 )
 ;
-Log
+BridgeLog
 (
 "
 UIATextElement
@@ -3116,7 +3148,7 @@ patternId
 UIA_TextPatternId
 )
 {
-Log
+BridgeLog
 (
 "
 *
@@ -3158,7 +3190,7 @@ patternId
 UIA_ValuePatternId
 )
 {
-Log
+BridgeLog
 (
 "
 *
@@ -3247,7 +3279,7 @@ idProp
 case
 UIA_AutomationIdPropertyId
 :
-Log
+BridgeLog
 (
 "
 UIATextElement
@@ -3266,7 +3298,7 @@ break
 case
 UIA_ControlTypePropertyId
 :
-Log
+BridgeLog
 (
 "
 UIATextElement
@@ -3285,7 +3317,7 @@ break
 case
 UIA_IsKeyboardFocusablePropertyId
 :
-Log
+BridgeLog
 (
 "
 UIATextElement
@@ -3304,7 +3336,7 @@ break
 case
 UIA_IsContentElementPropertyId
 :
-Log
+BridgeLog
 (
 "
 UIATextElement
@@ -3323,7 +3355,7 @@ break
 case
 UIA_IsControlElementPropertyId
 :
-Log
+BridgeLog
 (
 "
 UIATextElement
@@ -3342,7 +3374,7 @@ break
 case
 UIA_IsEnabledPropertyId
 :
-Log
+BridgeLog
 (
 "
 UIATextElement
@@ -3361,7 +3393,7 @@ break
 case
 UIA_HasKeyboardFocusPropertyId
 :
-Log
+BridgeLog
 (
 "
 UIATextElement
@@ -3380,7 +3412,7 @@ break
 case
 UIA_NamePropertyId
 :
-Log
+BridgeLog
 (
 "
 UIATextElement
@@ -3399,7 +3431,7 @@ break
 case
 UIA_IsPasswordPropertyId
 :
-Log
+BridgeLog
 (
 "
 UIATextElement
@@ -3417,7 +3449,7 @@ break
 ;
 default
 :
-Log
+BridgeLog
 (
 "
 UIATextElement
@@ -3646,7 +3678,7 @@ break
 ;
 default
 :
-Log
+BridgeLog
 (
 "
 UIATextElement
