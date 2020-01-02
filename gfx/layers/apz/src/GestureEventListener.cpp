@@ -483,6 +483,14 @@ TimeStamp
 )
 0
 )
+mLongTapTimeoutTask
+(
+nullptr
+)
+mMaxTapTimeoutTask
+(
+nullptr
+)
 {
 }
 GestureEventListener
