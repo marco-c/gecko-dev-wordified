@@ -2824,7 +2824,7 @@ int
 aVolume
 -
 >
-IsMediaPresent
+MediaPresent
 (
 )
 (
