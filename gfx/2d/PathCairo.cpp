@@ -1448,7 +1448,7 @@ if
 aTransform
 )
 {
-int
+size_t
 i
 =
 0
@@ -1497,7 +1497,7 @@ i
 ;
 for
 (
-int
+uint32_t
 c
 =
 0
@@ -1581,7 +1581,7 @@ else
 {
 for
 (
-int
+size_t
 i
 =
 0
