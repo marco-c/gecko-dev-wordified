@@ -228,11 +228,9 @@ MakeCurrent
 GLuint
 prodTex
 =
-prodGL
--
->
 CreateTextureForOffscreen
 (
+prodGL
 formats
 size
 )
@@ -656,11 +654,9 @@ out_image
 GLuint
 tex
 =
-gl
--
->
 CreateTextureForOffscreen
 (
+gl
 formats
 size
 )
