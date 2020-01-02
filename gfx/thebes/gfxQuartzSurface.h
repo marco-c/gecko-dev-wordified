@@ -187,6 +187,10 @@ gfxQuartzSurface
 cairo_surface_t
 *
 csurf
+const
+gfxIntSize
+&
+aSize
 bool
 aForPrinting
 =

@@ -815,6 +815,10 @@ Wrap
 cairo_surface_t
 *
 csurf
+const
+gfxIntSize
+&
+aSize
 )
 {
 nsRefPtr
@@ -1012,6 +1016,7 @@ new
 gfxQuartzSurface
 (
 csurf
+aSize
 )
 ;
 }
@@ -1075,6 +1080,7 @@ new
 gfxUnknownSurface
 (
 csurf
+aSize
 )
 ;
 }
@@ -1618,6 +1624,7 @@ result
 Wrap
 (
 surface
+aSize
 )
 ;
 cairo_surface_destroy
