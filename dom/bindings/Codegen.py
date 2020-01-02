@@ -2819,14 +2819,7 @@ setGenericAttributes
 nullptr
 /
 *
-deleteProperty
-*
-/
-  
-nullptr
-/
-*
-deleteElement
+deleteGeneric
 *
 /
   

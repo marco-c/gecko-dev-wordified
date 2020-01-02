@@ -4529,11 +4529,7 @@ setGenericAttributes
 nullptr
 /
 /
-deleteProperty
-nullptr
-/
-/
-deleteElement
+deleteGeneric
 nullptr
 nullptr
 /
