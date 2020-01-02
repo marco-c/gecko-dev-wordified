@@ -280,9 +280,6 @@ class
 GestureEventListener
 ;
 class
-ContainerLayer
-;
-class
 PCompositorParent
 ;
 struct

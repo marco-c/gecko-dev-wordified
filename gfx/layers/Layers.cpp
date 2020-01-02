@@ -3161,7 +3161,7 @@ Mutated
 ;
 }
 void
-ContainerLayer
+Layer
 :
 :
 SetAsyncPanZoomController
@@ -3178,7 +3178,7 @@ controller
 }
 AsyncPanZoomController
 *
-ContainerLayer
+Layer
 :
 :
 GetAsyncPanZoomController

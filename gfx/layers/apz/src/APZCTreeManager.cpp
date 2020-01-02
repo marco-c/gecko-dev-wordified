@@ -145,7 +145,6 @@ h
 /
 /
 for
-ContainerLayer
 Layer
 etc
 #
@@ -1285,17 +1284,6 @@ GetTransform
 (
 )
 ;
-ContainerLayer
-*
-container
-=
-aLayer
--
->
-AsContainerLayer
-(
-)
-;
 AsyncPanZoomController
 *
 apzc
@@ -1318,11 +1306,6 @@ Name
 t
 '
 ;
-if
-(
-container
-)
-{
 const
 FrameMetrics
 &
@@ -1385,7 +1368,6 @@ aLayer
 is
 a
 scrollable
-container
 layer
 and
 somebody
@@ -1416,7 +1398,7 @@ scrolling
 .
 apzc
 =
-container
+aLayer
 -
 >
 GetAsyncPanZoomController
@@ -1431,7 +1413,7 @@ content
 represented
 by
 the
-container
+scrollable
 layer
 has
 changed
@@ -1517,7 +1499,7 @@ nullptr
 /
 If
 the
-container
+layer
 doesn
 '
 t
@@ -2672,7 +2654,7 @@ GetZoomConstraints
 }
 }
 }
-container
+aLayer
 -
 >
 SetAsyncPanZoomController
@@ -2680,7 +2662,6 @@ SetAsyncPanZoomController
 apzc
 )
 ;
-}
 mApzcTreeLog
 <
 <
