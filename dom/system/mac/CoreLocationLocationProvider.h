@@ -234,12 +234,6 @@ CoreLocationLocationProvider
 (
 )
 ;
-static
-bool
-IsCoreLocationAvailable
-(
-)
-;
 void
 NotifyError
 (

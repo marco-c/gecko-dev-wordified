@@ -3257,15 +3257,7 @@ provider
 .
 use_corelocation
 "
-true
-)
-&
-&
-CoreLocationLocationProvider
-:
-:
-IsCoreLocationAvailable
-(
+false
 )
 )
 {
