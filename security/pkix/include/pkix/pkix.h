@@ -1028,12 +1028,7 @@ optional
 /
 KeyUsages
 requiredKeyUsagesIfPresent
-/
-*
-optional
-*
-/
-SECOidTag
+KeyPurposeId
 requiredEKUIfPresent
 /
 *

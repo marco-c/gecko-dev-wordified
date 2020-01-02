@@ -272,6 +272,15 @@ mozilla_pkix__pkixcheck_h
 #
 include
 "
+pkix
+/
+pkixtypes
+.
+h
+"
+#
+include
+"
 pkixutil
 .
 h
@@ -304,7 +313,7 @@ EndEntityOrCA
 endEntityOrCA
 KeyUsages
 requiredKeyUsagesIfPresent
-SECOidTag
+KeyPurposeId
 requiredEKUIfPresent
 SECOidTag
 requiredPolicy
