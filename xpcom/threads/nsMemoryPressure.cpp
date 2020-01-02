@@ -200,7 +200,7 @@ void
 NS_DispatchEventualMemoryPressure
 (
 MemoryPressureState
-state
+aState
 )
 {
 /
@@ -243,7 +243,7 @@ event
 /
 switch
 (
-state
+aState
 )
 {
 case
@@ -283,12 +283,12 @@ nsresult
 NS_DispatchMemoryPressure
 (
 MemoryPressureState
-state
+aState
 )
 {
 NS_DispatchEventualMemoryPressure
 (
-state
+aState
 )
 ;
 nsCOMPtr

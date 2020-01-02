@@ -243,7 +243,7 @@ RegisterCurrentThread
 (
 nsThread
 *
-thread
+aThread
 )
 ;
 /
@@ -281,7 +281,7 @@ UnregisterCurrentThread
 (
 nsThread
 *
-thread
+aThread
 )
 ;
 /

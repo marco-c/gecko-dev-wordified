@@ -214,7 +214,7 @@ PutEvent
 (
 nsIRunnable
 *
-event
+aEvent
 )
 ;
 /
@@ -311,11 +311,11 @@ bool
 GetEvent
 (
 bool
-mayWait
+aMayWait
 nsIRunnable
 *
 *
-event
+aEvent
 )
 ;
 /
@@ -530,12 +530,12 @@ FreePage
 (
 Page
 *
-p
+aPage
 )
 {
 free
 (
-p
+aPage
 )
 ;
 }
