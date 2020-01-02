@@ -21692,6 +21692,12 @@ ContentRemoved
 (
 presShell
 content
+-
+>
+GetParent
+(
+)
+content
 )
 ;
 /
