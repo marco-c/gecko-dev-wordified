@@ -271,6 +271,11 @@ gfx
 :
 IntSize
 aSize
+gfx
+:
+:
+BackendType
+aMoz2DMackend
 TextureFlags
 aFlags
 =
@@ -287,6 +292,11 @@ gfx
 :
 SurfaceFormat
 aFormat
+gfx
+:
+:
+BackendType
+aMoz2DMackend
 TextureFlags
 aFlags
 =
@@ -303,6 +313,11 @@ gfx
 :
 SurfaceFormat
 aFormat
+gfx
+:
+:
+BackendType
+aMoz2DMackend
 TextureFlags
 aFlags
 =

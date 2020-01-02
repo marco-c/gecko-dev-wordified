@@ -1726,6 +1726,7 @@ GrallocTextureClientOGL
 (
 this
 aFormat
+aMoz2DBackend
 aTextureFlags
 )
 ;

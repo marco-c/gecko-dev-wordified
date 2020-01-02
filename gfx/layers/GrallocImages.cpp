@@ -2490,6 +2490,13 @@ GrallocTextureClientOGL
 (
 actor
 mSize
+gfx
+:
+:
+BackendType
+:
+:
+NONE
 flags
 )
 ;
