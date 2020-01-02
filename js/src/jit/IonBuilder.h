@@ -4197,9 +4197,6 @@ opType
 bool
 annotateGetPropertyCache
 (
-JSContext
-*
-cx
 MDefinition
 *
 obj
@@ -4679,10 +4676,8 @@ baselineFrame_
 AbortReason
 abortReason_
 ;
-ScopedJSDeletePtr
-<
 TypeRepresentationSetHash
->
+*
 reprSetHash_
 ;
 /

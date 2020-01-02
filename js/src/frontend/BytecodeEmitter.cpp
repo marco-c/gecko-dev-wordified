@@ -309,6 +309,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+ScopeObject
+-
+inl
+.
+h
+"
 using
 namespace
 js
@@ -7872,6 +7883,9 @@ enclosingStaticScope
 for
 (
 StaticScopeIter
+<
+CanGC
+>
 ssi
 (
 bce
@@ -7906,6 +7920,9 @@ type
 !
 =
 StaticScopeIter
+<
+CanGC
+>
 :
 :
 FUNCTION
@@ -7921,6 +7938,9 @@ type
 =
 =
 StaticScopeIter
+<
+CanGC
+>
 :
 :
 BLOCK
