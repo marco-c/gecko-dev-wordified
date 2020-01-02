@@ -516,6 +516,11 @@ MemorySize
 const
 {
 return
+sizeof
+(
+CacheFileChunk
+)
++
 mRWBufSize
 +
 mBufSize

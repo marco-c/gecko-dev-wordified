@@ -351,6 +351,8 @@ aKey
 ;
 CacheFileMetadata
 (
+bool
+aMemoryOnly
 const
 nsACString
 &
@@ -580,6 +582,11 @@ MemoryUsage
 )
 {
 return
+sizeof
+(
+CacheFileMetadata
+)
++
 mHashArraySize
 +
 mBufSize

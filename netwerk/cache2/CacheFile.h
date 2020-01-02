@@ -526,6 +526,11 @@ IsDoomed
 (
 )
 ;
+bool
+IsWriteInProgress
+(
+)
+;
 /
 /
 Memory
@@ -829,6 +834,9 @@ mReady
 ;
 bool
 mMemoryOnly
+;
+bool
+mOpenAsMemoryOnly
 ;
 bool
 mDataAccessed
