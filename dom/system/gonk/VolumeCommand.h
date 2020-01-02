@@ -367,7 +367,7 @@ VolumeResponseCallback
 }
 public
 :
-NS_INLINE_DECL_REFCOUNTED
+NS_INLINE_DECL_REFCOUNTING
 (
 VolumeResponseCallback
 )
