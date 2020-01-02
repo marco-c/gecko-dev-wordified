@@ -626,6 +626,11 @@ FlexItem
 >
 &
 aFlexItems
+nscoord
+aAvailableHeightForContent
+nsReflowStatus
+&
+aStatus
 )
 ;
 void
