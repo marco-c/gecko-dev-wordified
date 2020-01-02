@@ -1188,7 +1188,7 @@ On
 Android
 4
 .
-2
+3
 and
 up
 certain
@@ -1255,7 +1255,7 @@ MOZ_WIDGET_GONK
 ANDROID_VERSION
 >
 =
-17
+18
 MOZ_RELEASE_ASSERT
 (
 mSymbols
