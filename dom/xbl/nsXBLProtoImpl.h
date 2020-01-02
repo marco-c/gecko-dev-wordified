@@ -150,7 +150,7 @@ nsXBLProtoImpl
 (
 )
 :
-mClassObject
+mPrecompiledMemberHolder
 (
 nullptr
 )
@@ -452,7 +452,7 @@ CompiledMembers
 const
 {
 return
-mClassObject
+mPrecompiledMemberHolder
 !
 =
 nullptr
@@ -546,7 +546,7 @@ protected
 :
 JSObject
 *
-mClassObject
+mPrecompiledMemberHolder
 ;
 /
 /
