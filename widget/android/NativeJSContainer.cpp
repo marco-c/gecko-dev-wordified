@@ -4038,6 +4038,13 @@ val
 isUndefined
 (
 )
+|
+|
+val
+.
+isNull
+(
+)
 )
 {
 if
