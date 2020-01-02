@@ -5423,16 +5423,13 @@ GetSize
 gfxImageFormat
 format
 =
-OptimalFormatForContent
-(
-ContentForFormat
+SurfaceFormatToImageFormat
 (
 data
 -
 >
 GetFormat
 (
-)
 )
 )
 ;
