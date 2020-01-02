@@ -422,7 +422,10 @@ context
 struct
 JSContentChromeSettings
 {
-uint32_t
+JS
+:
+:
+ContextOptions
 options
 ;
 int32_t
@@ -434,7 +437,6 @@ JSContentChromeSettings
 :
 options
 (
-0
 )
 maxScriptRuntime
 (
