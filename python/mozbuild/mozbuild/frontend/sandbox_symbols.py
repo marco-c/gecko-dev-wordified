@@ -291,6 +291,8 @@ HierarchicalStringList
     
 HierarchicalStringListWithFlagsFactory
     
+List
+    
 StrictOrderingOnAppendList
     
 StrictOrderingOnAppendListWithFlagsFactory
@@ -592,7 +594,7 @@ ANDROID_RES_DIRS
 '
 :
 (
-list
+List
 list
         
 "
@@ -711,7 +713,7 @@ bool
 flags
 '
 :
-list
+List
 }
 )
 list
@@ -1260,7 +1262,7 @@ DELAYLOAD_DLLS
 '
 :
 (
-list
+List
 list
         
 "
@@ -1312,7 +1314,7 @@ DIRS
 '
 :
 (
-list
+List
 list
         
 "
@@ -2626,7 +2628,7 @@ OS_LIBS
 '
 :
 (
-list
+List
 list
         
 "
@@ -3350,7 +3352,7 @@ TEST_DIRS
 '
 :
 (
-list
+List
 list
         
 "
@@ -5459,7 +5461,7 @@ CFLAGS
 '
 :
 (
-list
+List
 list
         
 "
@@ -5533,7 +5535,7 @@ CXXFLAGS
 '
 :
 (
-list
+List
 list
         
 "
@@ -5612,7 +5614,7 @@ CMFLAGS
 '
 :
 (
-list
+List
 list
         
 "
@@ -5691,7 +5693,7 @@ CMMFLAGS
 '
 :
 (
-list
+List
 list
         
 "
@@ -5774,7 +5776,7 @@ LDFLAGS
 '
 :
 (
-list
+List
 list
         
 "
@@ -5851,7 +5853,7 @@ EXTRA_DSO_LDOPTS
 '
 :
 (
-list
+List
 list
         
 "
@@ -5919,7 +5921,7 @@ WIN32_EXE_LDFLAGS
 '
 :
 (
-list
+List
 list
         
 "
@@ -5999,6 +6001,74 @@ libs
 '
 )
 }
+#
+Sanity
+check
+:
+we
+don
+'
+t
+want
+any
+variable
+above
+to
+have
+a
+list
+as
+storage
+type
+.
+for
+name
+(
+storage_type
+input_types
+docs
+tier
+)
+in
+VARIABLES
+.
+items
+(
+)
+:
+    
+if
+storage_type
+=
+=
+list
+:
+        
+raise
+RuntimeError
+(
+'
+%
+s
+has
+a
+"
+list
+"
+storage
+type
+.
+Use
+"
+List
+"
+instead
+.
+'
+            
+%
+name
+)
 #
 The
 set
