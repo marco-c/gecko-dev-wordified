@@ -11565,7 +11565,7 @@ old
 {
 m_buffer
 .
-bail
+fail_bail
 (
 )
 ;
@@ -11959,7 +11959,7 @@ old
 {
 m_buffer
 .
-bail
+fail_bail
 (
 )
 ;
