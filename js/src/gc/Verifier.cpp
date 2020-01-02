@@ -3248,12 +3248,6 @@ gcreason
 API
 )
 ;
-AutoLockForExclusiveAccess
-lock
-(
-rt
-)
-;
 AutoPrepareForTracing
 prep
 (

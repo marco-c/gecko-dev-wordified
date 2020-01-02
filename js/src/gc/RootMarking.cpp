@@ -5121,8 +5121,9 @@ runtime
 isHeapMinorCollecting
 (
 )
-&
-&
+)
+{
+if
 (
 !
 IS_GC_MARKING_TRACER
@@ -5146,7 +5147,6 @@ zone
 >
 isCollecting
 (
-)
 )
 )
 {
@@ -5181,6 +5181,7 @@ trc
 ;
 #
 endif
+}
 }
 for
 (

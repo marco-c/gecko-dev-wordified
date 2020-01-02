@@ -117,6 +117,13 @@ gc_GCInternals_h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 jsworkers
 .
 h
@@ -267,6 +274,9 @@ AutoTraceSession
 ;
 protected
 :
+AutoLockForExclusiveAccess
+lock
+;
 JSRuntime
 *
 runtime
@@ -291,9 +301,6 @@ AutoTraceSession
 )
 MOZ_DELETE
 ;
-js
-:
-:
 HeapState
 prevState
 ;
@@ -304,9 +311,6 @@ AutoPrepareForTracing
 {
 AutoFinishGC
 finish
-;
-AutoPauseWorkersForTracing
-pause
 ;
 AutoTraceSession
 session

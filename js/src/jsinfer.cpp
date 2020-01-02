@@ -24677,6 +24677,11 @@ poisoned
 uint64_t
 originalGcNumber
 =
+zone
+(
+)
+-
+>
 gcNumber
 (
 )
@@ -25016,6 +25021,11 @@ moved
 bool
 gcHappened
 =
+zone
+(
+)
+-
+>
 gcNumber
 (
 )

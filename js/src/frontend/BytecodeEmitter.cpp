@@ -32741,13 +32741,6 @@ ParseNode
 pn
 )
 {
-cx
--
->
-maybePause
-(
-)
-;
 FunctionBox
 *
 funbox

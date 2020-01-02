@@ -156,6 +156,15 @@ Marking
 h
 "
 #
+include
+"
+gc
+/
+Zone
+.
+h
+"
+#
 if
 ENABLE_YARR_JIT
 #
@@ -1230,6 +1239,11 @@ cx
 gcNumberWhenUsed
 =
 cx
+-
+>
+zone
+(
+)
 -
 >
 gcNumber
