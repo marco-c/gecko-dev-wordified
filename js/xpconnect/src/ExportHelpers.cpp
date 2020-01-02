@@ -1839,7 +1839,7 @@ toObject
 )
 )
 ;
-ExportOptions
+ExportFunctionOptions
 options
 (
 cx
