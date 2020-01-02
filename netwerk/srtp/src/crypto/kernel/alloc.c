@@ -486,6 +486,7 @@ ptr
 ;
 }
 else
+{
 debug_print
 (
 mod_alloc
@@ -505,6 +506,7 @@ n
 size
 )
 ;
+}
 return
 ptr
 ;
@@ -585,6 +587,7 @@ ptr
 ;
 }
 else
+{
 debug_print
 (
 mod_alloc
@@ -604,6 +607,7 @@ n
 size
 )
 ;
+}
 return
 ptr
 ;
