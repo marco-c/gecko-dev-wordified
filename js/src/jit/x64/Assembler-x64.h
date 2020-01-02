@@ -2575,12 +2575,9 @@ masm
 .
 movq_i64r
 (
-uintptr_t
-(
 ptr
 .
 value
-)
 dest
 .
 code

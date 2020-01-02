@@ -341,6 +341,7 @@ if
 !
 IsInsideNursery
 (
+runtime_
 thing
 )
 &
@@ -559,6 +560,12 @@ if
 (
 IsInsideNursery
 (
+cell
+-
+>
+runtimeFromAnyThread
+(
+)
 cell
 )
 )

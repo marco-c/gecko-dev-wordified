@@ -4607,6 +4607,7 @@ JS_ASSERT
 !
 IsInsideNursery
 (
+rt
 obj
 )
 )

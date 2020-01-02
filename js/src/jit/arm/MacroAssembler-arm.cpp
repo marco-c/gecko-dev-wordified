@@ -3681,12 +3681,9 @@ ma_movPatchable
 (
 Imm32
 (
-uintptr_t
-(
 ptr
 .
 value
-)
 )
 dest
 Always

@@ -246,6 +246,7 @@ gc
 :
 IsInsideNursery
 (
+rt
 obj
 .
 get
@@ -275,6 +276,7 @@ gc
 :
 IsInsideNursery
 (
+rt
 obj
 .
 get
