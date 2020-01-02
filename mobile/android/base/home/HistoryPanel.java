@@ -598,7 +598,7 @@ setTag
 (
 HomePager
 .
-LIST_TAG_MOST_RECENT
+LIST_TAG_HISTORY
 )
 ;
 mList
