@@ -292,6 +292,8 @@ nsAString
 aLanguage
 TextTrackMode
 aMode
+TextTrackReadyState
+aReadyState
 TextTrackSource
 aTextTrackSource
 const

@@ -243,6 +243,8 @@ nsAString
 aLanguage
 TextTrackMode
 aMode
+TextTrackReadyState
+aReadyState
 TextTrackSource
 aTextTrackSource
 )
@@ -267,6 +269,8 @@ nsAString
 aLanguage
 TextTrackMode
 aMode
+TextTrackReadyState
+aReadyState
 TextTrackSource
 aTextTrackSource
 )
