@@ -6497,7 +6497,7 @@ Shape
 *
 replaceWithNewEquivalentShape
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 Shape
@@ -7199,7 +7199,7 @@ shape_
 bool
 generateOwnShape
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 js

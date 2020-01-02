@@ -4795,7 +4795,7 @@ js
 :
 WouldDefinePastNonwritableLength
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 HandleObject

@@ -533,7 +533,7 @@ extern
 bool
 WouldDefinePastNonwritableLength
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 HandleObject
