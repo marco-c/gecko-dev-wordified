@@ -2144,7 +2144,7 @@ aDebugFile
 ok
 to
 be
-NULL
+nullptr
 return
 NS_OK
 ;
@@ -4056,7 +4056,7 @@ windows
 it
 will
 be
-NULL
+nullptr
 mPrt
 -
 >
@@ -21061,7 +21061,7 @@ these
 should
 NEVER
 be
-NULL
+nullptr
 /
 /
 This
@@ -21352,7 +21352,7 @@ these
 should
 NEVER
 be
-NULL
+nullptr
 /
 /
 This
@@ -23801,7 +23801,7 @@ aArray
 ;
 aArray
 =
-NULL
+nullptr
 ;
 aCount
 =

@@ -5007,7 +5007,7 @@ or
 <
 code
 >
-NULL
+nullptr
 <
 /
 code
@@ -5194,7 +5194,7 @@ be
 <
 code
 >
-NULL
+nullptr
 <
 /
 code
@@ -5227,7 +5227,7 @@ be
 <
 code
 >
-NULL
+nullptr
 <
 /
 code
@@ -5485,7 +5485,7 @@ be
 <
 code
 >
-NULL
+nullptr
 <
 /
 code
@@ -5523,7 +5523,7 @@ be
 <
 code
 >
-NULL
+nullptr
 <
 /
 code

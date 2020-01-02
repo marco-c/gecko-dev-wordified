@@ -3935,7 +3935,7 @@ ctx
 >
 InitializeWithSurface
 (
-NULL
+nullptr
 printSurface
 size
 .

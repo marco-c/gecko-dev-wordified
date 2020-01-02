@@ -804,7 +804,7 @@ ChildrenHashMatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-NULL
+nullptr
 }
 ;
 /

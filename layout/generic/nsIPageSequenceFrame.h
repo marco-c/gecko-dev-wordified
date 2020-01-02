@@ -196,7 +196,7 @@ notifications
 .
 Can
 be
-NULL
+nullptr
 *
 return
 NS_OK

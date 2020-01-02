@@ -509,7 +509,7 @@ mOrigDCScale
 )
 mPPEventListeners
 (
-NULL
+nullptr
 )
 mBrandName
 (

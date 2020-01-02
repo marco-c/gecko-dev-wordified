@@ -30280,7 +30280,7 @@ designMode
 we
 should
 return
-NULL
+nullptr
 .
 if
 (

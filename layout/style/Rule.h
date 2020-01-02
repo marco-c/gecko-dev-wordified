@@ -504,7 +504,7 @@ this
 .
 Never
 returns
-NULL
+nullptr
 .
 *
 /

@@ -789,7 +789,7 @@ cTable
 *
 can
 be
-NULL
+nullptr
 *
 /
 GDHandle
@@ -798,7 +798,7 @@ aGDevice
 *
 can
 be
-NULL
+nullptr
 *
 /
 GWorldFlags
@@ -7936,8 +7936,8 @@ gWorld
 k32ARGBPixelFormat
 &
 gwBounds
-NULL
-NULL
+nullptr
+nullptr
 0
 buffer
 .
@@ -10686,7 +10686,7 @@ mInstanceOwner
 Paint
 (
 tmpRect
-NULL
+nullptr
 )
 ;
 }

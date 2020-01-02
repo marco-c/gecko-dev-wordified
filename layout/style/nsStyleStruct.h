@@ -3952,7 +3952,7 @@ mNext
 both
 should
 be
-NULL
+nullptr
 if
 these
 are
@@ -5853,7 +5853,7 @@ mBoxShadow
 [
 reset
 ]
-NULL
+nullptr
 for
 '
 none
@@ -8352,7 +8352,7 @@ mTextShadow
 [
 inherited
 ]
-NULL
+nullptr
 in
 case
 of

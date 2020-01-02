@@ -802,7 +802,7 @@ nsIFrame
 *
 sDestroyedFrame
 =
-NULL
+nullptr
 ;
 FrameLayerBuilder
 :
@@ -5799,7 +5799,7 @@ array
 ;
 sDestroyedFrame
 =
-NULL
+nullptr
 ;
 }
 void
@@ -14758,13 +14758,13 @@ nsDisplayItemGeometry
 *
 oldGeometry
 =
-NULL
+nullptr
 ;
 DisplayItemClip
 *
 oldClip
 =
-NULL
+nullptr
 ;
 nsAutoTArray
 <

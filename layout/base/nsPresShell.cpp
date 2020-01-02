@@ -3484,7 +3484,7 @@ first
 -
 paint
 "
-NULL
+nullptr
 )
 ;
 }
@@ -6500,7 +6500,7 @@ its
 pres
 shell
 to
-NULL
+nullptr
 mPresContext
 -
 >
@@ -34679,8 +34679,8 @@ layerManager
 >
 EndTransaction
 (
-NULL
-NULL
+nullptr
+nullptr
 (
 aFlags
 &
@@ -44624,7 +44624,7 @@ nullptr
 /
 may
 be
-NULL
+nullptr
 nsCOMPtr
 <
 nsIDOMNode

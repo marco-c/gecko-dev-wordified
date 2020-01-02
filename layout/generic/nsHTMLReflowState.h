@@ -1383,7 +1383,7 @@ reflow
 ;
 set
 to
-NULL
+nullptr
 otherwise
 )
 nsLineLayout

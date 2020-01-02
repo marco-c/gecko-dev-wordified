@@ -3374,7 +3374,7 @@ handling
 method
 .
 A
-NULL
+nullptr
 value
 can
 be
@@ -3445,7 +3445,7 @@ processing
 It
 can
 be
-NULL
+nullptr
 *
 if
 the

@@ -14526,7 +14526,7 @@ CSS
 /
 /
 Return
-NULL
+nullptr
 in
 such
 cases

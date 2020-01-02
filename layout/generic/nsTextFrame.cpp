@@ -19985,12 +19985,12 @@ this
 is
 ONLY
 valid
-/
-/
 when
+/
+/
 mTabWidths
 is
-NULL
+nullptr
 (
 otherwise
 rely

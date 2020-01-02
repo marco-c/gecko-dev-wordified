@@ -33898,7 +33898,7 @@ spreadRadius
 blurRadius
 &
 dirtyRect
-NULL
+nullptr
 )
 ;
 }
@@ -33928,7 +33928,7 @@ and
 mContext
 will
 be
-NULL
+nullptr
 mContext
 -
 >

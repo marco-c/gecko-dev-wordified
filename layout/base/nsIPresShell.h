@@ -2618,7 +2618,7 @@ hierarchy
 .
 *
 Returns
-NULL
+nullptr
 if
 not
 a

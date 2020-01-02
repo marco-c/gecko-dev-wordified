@@ -9451,7 +9451,7 @@ context
 >
 mRenderingContext
 font
-NULL
+nullptr
 kNullGlyph
 aFamily
 )

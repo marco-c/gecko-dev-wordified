@@ -15414,10 +15414,8 @@ frame
 .
 May
 return
-a
-NULL
-atom
-pointer
+nullptr
+.
 *
 *
 see

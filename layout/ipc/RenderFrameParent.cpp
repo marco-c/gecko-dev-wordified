@@ -732,7 +732,7 @@ given
 ID
 in
 aArray
-NULL
+nullptr
 if
 not
 found
@@ -778,7 +778,7 @@ iter
 >
 second
 :
-NULL
+nullptr
 ;
 }
 static
@@ -814,7 +814,7 @@ GetFrameMetrics
 (
 )
 :
-NULL
+nullptr
 ;
 }
 /
@@ -4934,7 +4934,7 @@ flag
 it
 .
 Returning
-NULL
+nullptr
 /
 /
 here
@@ -6010,7 +6010,7 @@ we
 set
 mContentView
 to
-NULL
+nullptr
 .
 /
 /
@@ -6069,7 +6069,7 @@ second
 >
 mFrameLoader
 =
-NULL
+nullptr
 ;
 }
 mozilla

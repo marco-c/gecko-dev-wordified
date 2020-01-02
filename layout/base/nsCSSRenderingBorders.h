@@ -403,9 +403,11 @@ composite
 color
 structs
 or
-NULL
+*
+nullptr
 if
 none
+.
 *
 *
 skipSides
