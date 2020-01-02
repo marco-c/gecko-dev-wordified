@@ -1473,11 +1473,6 @@ mSize
 =
 size
 ;
-ImageFormat
-cairoFormat
-=
-CAIRO_SURFACE
-;
 nsRefPtr
 <
 layers
