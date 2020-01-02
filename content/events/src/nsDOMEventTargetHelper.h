@@ -299,7 +299,13 @@ const
 nsAString
 &
 aType
-nsIDOMEventListener
+mozilla
+:
+:
+dom
+:
+:
+EventListener
 *
 aListener
 bool

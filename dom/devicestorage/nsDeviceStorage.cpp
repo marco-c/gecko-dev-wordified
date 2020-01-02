@@ -15830,7 +15830,7 @@ const
 nsAString
 &
 aType
-nsIDOMEventListener
+EventListener
 *
 aListener
 bool
@@ -16103,7 +16103,7 @@ const
 nsAString
 &
 aType
-nsIDOMEventListener
+EventListener
 *
 aListener
 bool

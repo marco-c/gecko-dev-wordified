@@ -226,7 +226,7 @@ const
 nsAString
 &
 aType
-nsIDOMEventListener
+EventListener
 *
 aCallback
 bool
@@ -253,7 +253,7 @@ const
 nsAString
 &
 aType
-nsIDOMEventListener
+EventListener
 *
 aCallback
 bool
