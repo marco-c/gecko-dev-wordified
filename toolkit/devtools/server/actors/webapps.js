@@ -483,7 +483,6 @@ function
 aRequest
 )
 {
-return
 this
 .
 _file
@@ -491,6 +490,10 @@ _file
 close
 (
 )
+;
+return
+{
+}
 ;
 }
 /
