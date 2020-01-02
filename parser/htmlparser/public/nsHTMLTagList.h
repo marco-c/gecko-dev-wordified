@@ -298,8 +298,6 @@ editor
 /
 libeditor
 /
-html
-/
 nsHTMLEditUtils
 .
 cpp

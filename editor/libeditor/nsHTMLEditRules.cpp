@@ -62388,8 +62388,6 @@ editor
 /
 libeditor
 /
-html
-/
 tests
 /
 browserscope

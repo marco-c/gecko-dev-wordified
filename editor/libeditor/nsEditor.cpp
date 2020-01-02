@@ -27094,8 +27094,6 @@ editor
 /
 libeditor
 /
-html
-/
 tests
 /
 test_htmleditor_keyevent_handling
