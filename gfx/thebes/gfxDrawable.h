@@ -664,8 +664,7 @@ virtual
 gfxPatternDrawable
 (
 )
-{
-}
+;
 virtual
 bool
 Draw
