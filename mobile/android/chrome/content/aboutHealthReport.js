@@ -285,8 +285,9 @@ SharedPreferences
 let
 sharedPrefs
 =
-new
 SharedPreferences
+.
+forApp
 (
 )
 ;
