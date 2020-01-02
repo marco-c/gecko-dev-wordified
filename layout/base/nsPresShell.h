@@ -316,6 +316,15 @@ MouseEvents
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
 class
 nsRange
 ;

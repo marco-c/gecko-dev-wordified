@@ -245,6 +245,15 @@ nsUTF8Utils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
 /
 /
 /

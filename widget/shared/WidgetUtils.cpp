@@ -101,7 +101,9 @@ h
 #
 include
 "
-nsGUIEvent
+mozilla
+/
+TextEvents
 .
 h
 "

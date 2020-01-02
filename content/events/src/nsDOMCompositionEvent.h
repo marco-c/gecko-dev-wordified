@@ -142,6 +142,15 @@ CompositionEventBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
 class
 nsDOMCompositionEvent
 :

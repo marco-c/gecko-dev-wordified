@@ -199,6 +199,15 @@ Preferences
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
 using
 namespace
 mozilla

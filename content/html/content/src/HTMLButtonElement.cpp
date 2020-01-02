@@ -246,6 +246,15 @@ h
 #
 include
 "
+mozilla
+/
+TextEvents
+.
+h
+"
+#
+include
+"
 nsUnicharUtils
 .
 h

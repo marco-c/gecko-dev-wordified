@@ -127,15 +127,6 @@ MiscEvents
 h
 "
 #
-include
-"
-mozilla
-/
-TextEvents
-.
-h
-"
-#
 endif
 /
 /

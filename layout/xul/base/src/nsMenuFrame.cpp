@@ -390,6 +390,15 @@ include
 "
 mozilla
 /
+TextEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element

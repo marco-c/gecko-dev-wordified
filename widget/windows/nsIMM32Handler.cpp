@@ -180,6 +180,15 @@ include
 <
 algorithm
 >
+#
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
 using
 namespace
 mozilla

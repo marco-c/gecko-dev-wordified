@@ -132,6 +132,15 @@ prtime
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
 nsDOMTextEvent
 :
 :

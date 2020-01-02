@@ -132,6 +132,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+EventForwards
+.
+h
+"
+#
+include
 <
 gtk
 /

@@ -127,6 +127,15 @@ h
 #
 include
 "
+mozilla
+/
+EventForwards
+.
+h
+"
+#
+include
+"
 nsDataHashtable
 .
 h

@@ -149,6 +149,15 @@ nsView
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
 namespace
 mozilla
 {

@@ -185,6 +185,15 @@ Preferences
 h
 "
 #
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
+#
 define
 INPUTSCOPE_INIT_GUID
 #
