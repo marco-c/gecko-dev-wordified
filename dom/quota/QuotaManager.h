@@ -1177,13 +1177,7 @@ GetGroupLimit
 (
 )
 const
-{
-return
-mTemporaryStorageLimit
-/
-5
 ;
-}
 static
 uint32_t
 GetStorageQuotaMB
