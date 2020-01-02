@@ -2059,7 +2059,7 @@ mozilla
 :
 AlignedStorage
 <
-2
+4
 *
 sizeof
 (
@@ -2069,7 +2069,7 @@ uint32_t
 RInstructionStorage
 ;
 class
-RResumePoint
+RInstruction
 ;
 class
 RecoverReader
@@ -2186,9 +2186,9 @@ frameCount_
 ;
 }
 const
-RResumePoint
+RInstruction
 *
-resumePoint
+instruction
 (
 )
 const
@@ -2197,7 +2197,7 @@ return
 reinterpret_cast
 <
 const
-RResumePoint
+RInstruction
 *
 >
 (
