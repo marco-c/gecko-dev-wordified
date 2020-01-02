@@ -476,7 +476,7 @@ GetForwarder
 )
 -
 >
-AddForceRemovingTexture
+HoldUntilTransaction
 (
 mBuffer
 )

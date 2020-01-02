@@ -2166,7 +2166,7 @@ transaction
 mForwarder
 -
 >
-ForceRemoveTexturesIfNecessary
+RemoveTexturesIfNecessary
 (
 )
 ;
