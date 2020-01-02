@@ -2055,7 +2055,7 @@ aConnectArgs
 #
 else
 return
-nullptr
+false
 ;
 #
 endif

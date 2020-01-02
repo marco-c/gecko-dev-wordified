@@ -4344,7 +4344,7 @@ if
 stringRepr
 )
 return
-nullptr
+false
 ;
 /
 /
@@ -4369,7 +4369,7 @@ if
 arrayTypePrototype
 )
 return
-nullptr
+false
 ;
 /
 /
@@ -4450,7 +4450,7 @@ JSPROP_PERMANENT
 )
 )
 return
-nullptr
+false
 ;
 args
 .
@@ -4704,7 +4704,7 @@ JSMSG_TYPEDOBJECT_TOO_BIG
 )
 ;
 return
-nullptr
+false
 ;
 }
 /
@@ -4810,7 +4810,7 @@ if
 stringRepr
 )
 return
-nullptr
+false
 ;
 /
 /
@@ -4914,7 +4914,7 @@ JSPROP_PERMANENT
 )
 )
 return
-nullptr
+false
 ;
 /
 /
@@ -4974,7 +4974,7 @@ JSPROP_PERMANENT
 )
 )
 return
-nullptr
+false
 ;
 args
 .
@@ -7799,7 +7799,7 @@ if
 proto
 )
 return
-nullptr
+false
 ;
 proto
 -
@@ -8435,7 +8435,7 @@ name_
 )
 \
 return
-nullptr
+false
 ;
 JS_FOR_EACH_SCALAR_TYPE_REPR
 (
@@ -8478,7 +8478,7 @@ name_
 )
 \
 return
-nullptr
+false
 ;
 JS_FOR_EACH_REFERENCE_TYPE_REPR
 (
@@ -8519,7 +8519,7 @@ if
 arrayType
 )
 return
-nullptr
+false
 ;
 RootedValue
 arrayTypeValue
@@ -8559,7 +8559,7 @@ JSPROP_PERMANENT
 )
 )
 return
-nullptr
+false
 ;
 /
 /
@@ -8593,7 +8593,7 @@ if
 structType
 )
 return
-nullptr
+false
 ;
 RootedValue
 structTypeValue
@@ -8633,7 +8633,7 @@ JSPROP_PERMANENT
 )
 )
 return
-nullptr
+false
 ;
 /
 /
@@ -8693,7 +8693,7 @@ nullptr
 )
 {
 return
-nullptr
+false
 ;
 }
 return
@@ -14578,7 +14578,7 @@ JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
 return
-nullptr
+false
 ;
 }
 Rooted
