@@ -2023,6 +2023,14 @@ MGetDOMMember
 ins
 )
 ;
+bool
+visitRecompileCheck
+(
+MRecompileCheck
+*
+ins
+)
+;
 }
 ;
 }

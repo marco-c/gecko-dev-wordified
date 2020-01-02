@@ -2552,6 +2552,14 @@ LAssertRangeV
 ins
 )
 ;
+bool
+visitRecompileCheck
+(
+LRecompileCheck
+*
+ins
+)
+;
 IonScriptCounts
 *
 extractUnassociatedScriptCounts
