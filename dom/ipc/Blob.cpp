@@ -3954,6 +3954,16 @@ MOZ_ASSERT
 mDone
 )
 ;
+NS_ENSURE_TRUE_VOID
+(
+mActor
+-
+>
+Manager
+(
+)
+)
+;
 NormalBlobConstructorParams
 normalParams
 ;
@@ -5801,6 +5811,10 @@ Release
 )
 ;
 }
+mManager
+=
+nullptr
+;
 }
 template
 <
