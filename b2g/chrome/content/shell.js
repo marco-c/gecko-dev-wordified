@@ -1525,7 +1525,7 @@ topic
 "
 network
 -
-interface
+connection
 -
 state
 -
