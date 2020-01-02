@@ -5929,6 +5929,17 @@ if
 output
 )
 {
+if
+(
+powerType
+=
+=
+MIRType_Float32
+)
+powerType
+=
+MIRType_Double
+;
 MPow
 *
 pow
