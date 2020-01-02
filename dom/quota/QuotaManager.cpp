@@ -2465,11 +2465,11 @@ mozilla
 :
 Atomic
 <
-uint32_t
+bool
 >
 gShutdown
 (
-0
+false
 )
 ;
 int32_t
@@ -4973,8 +4973,6 @@ IsShuttingDown
 )
 {
 return
-!
-!
 gShutdown
 ;
 }
@@ -12220,7 +12218,7 @@ gShutdown
 .
 exchange
 (
-1
+true
 )
 )
 {
@@ -19796,7 +19794,7 @@ mCanceled
 .
 exchange
 (
-1
+true
 )
 )
 {
