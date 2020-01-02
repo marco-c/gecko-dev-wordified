@@ -4433,6 +4433,9 @@ CreateJSContextForWorker
 .
 WorkerJSRuntime
 (
+JSRuntime
+*
+aParentRuntime
 WorkerPrivate
 *
 aWorkerPrivate
@@ -4440,6 +4443,7 @@ aWorkerPrivate
 :
 CycleCollectedJSRuntime
 (
+aParentRuntime
 WORKER_DEFAULT_RUNTIME_HEAPSIZE
 JS_NO_HELPER_THREADS
 )
@@ -4708,6 +4712,10 @@ WorkerThread
 >
 mThread
 ;
+JSRuntime
+*
+mParentRuntime
+;
 class
 FinishedRunnable
 MOZ_FINAL
@@ -4774,6 +4782,9 @@ RuntimeService
 WorkerThread
 *
 aThread
+JSRuntime
+*
+aParentRuntime
 )
 :
 mWorkerPrivate
@@ -4783,6 +4794,10 @@ aWorkerPrivate
 mThread
 (
 aThread
+)
+mParentRuntime
+(
+aParentRuntime
 )
 {
 MOZ_ASSERT
@@ -7469,6 +7484,10 @@ WorkerThreadPrimaryRunnable
 (
 aWorkerPrivate
 thread
+JS_GetParentRuntime
+(
+aCx
+)
 )
 ;
 if
@@ -12445,6 +12464,7 @@ nsCycleCollector_startup
 WorkerJSRuntime
 runtime
 (
+mParentRuntime
 mWorkerPrivate
 )
 ;

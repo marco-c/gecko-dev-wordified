@@ -420,6 +420,9 @@ protected
 :
 CycleCollectedJSRuntime
 (
+JSRuntime
+*
+aParentRuntime
 uint32_t
 aMaxbytes
 JSUseHelperThreads

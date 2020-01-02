@@ -559,7 +559,7 @@ IsInsideNursery
 cell
 -
 >
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 )
 cell
