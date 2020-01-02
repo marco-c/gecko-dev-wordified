@@ -6163,6 +6163,9 @@ trc
 Value
 *
 sp
+jsbytecode
+*
+pc
 )
 ;
 /
