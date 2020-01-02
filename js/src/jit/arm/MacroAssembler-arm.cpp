@@ -3056,7 +3056,6 @@ dest
 imm
 .
 value
-nullptr
 c
 )
 ;
@@ -3093,7 +3092,6 @@ ScratchRegister
 imm
 .
 value
-nullptr
 c
 )
 ;
@@ -3449,7 +3447,6 @@ as_Imm32Pool
 (
 dest
 imm
-nullptr
 c
 )
 ;
@@ -9369,7 +9366,6 @@ as_Imm32Pool
 (
 ScratchRegister
 trg
-nullptr
 c
 )
 ;
@@ -9391,7 +9387,6 @@ as_Imm32Pool
 (
 pc
 trg
-nullptr
 c
 )
 ;
@@ -10216,7 +10211,6 @@ as_FImm64Pool
 (
 dest
 value
-nullptr
 cc
 )
 ;
@@ -10471,7 +10465,6 @@ as_FImm32Pool
 (
 vd
 value
-nullptr
 cc
 )
 ;

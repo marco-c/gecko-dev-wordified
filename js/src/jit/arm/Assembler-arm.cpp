@@ -10149,12 +10149,6 @@ Register
 dest
 uint32_t
 value
-ARMBuffer
-:
-:
-PoolEntry
-*
-pe
 Condition
 c
 )
@@ -10198,7 +10192,6 @@ uint8_t
 )
 &
 value
-pe
 )
 ;
 }
@@ -10474,12 +10467,6 @@ VFPRegister
 dest
 double
 value
-ARMBuffer
-:
-:
-PoolEntry
-*
-pe
 Condition
 c
 )
@@ -10532,7 +10519,6 @@ uint8_t
 )
 &
 value
-pe
 )
 ;
 }
@@ -10571,12 +10557,6 @@ VFPRegister
 dest
 float
 value
-ARMBuffer
-:
-:
-PoolEntry
-*
-pe
 Condition
 c
 )
@@ -10680,7 +10660,6 @@ uint8_t
 )
 &
 pf
-pe
 )
 ;
 }
