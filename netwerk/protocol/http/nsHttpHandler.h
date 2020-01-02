@@ -2359,6 +2359,9 @@ hint
 bool
 mSafeHintEnabled
 ;
+bool
+mParentalControlEnabled
+;
 /
 /
 Whether
