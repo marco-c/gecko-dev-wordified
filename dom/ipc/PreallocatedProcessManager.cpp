@@ -1155,6 +1155,9 @@ mPreallocatedAppProcess
 &
 !
 mShutdown
+&
+&
+mEnabled
 )
 {
 mPreallocatedAppProcess
