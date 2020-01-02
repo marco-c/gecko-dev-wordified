@@ -273,6 +273,13 @@ h
 >
 #
 include
+<
+stdio
+.
+h
+>
+#
+include
 "
 cpuacct
 .
