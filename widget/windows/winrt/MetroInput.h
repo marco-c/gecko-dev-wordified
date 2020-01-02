@@ -1352,9 +1352,6 @@ bool
 mContentConsumingTouch
 ;
 bool
-mIsFirstTouchMove
-;
-bool
 mCancelable
 ;
 bool
