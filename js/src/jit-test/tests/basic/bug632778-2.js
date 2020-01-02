@@ -1,13 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
-error
-:
-TypeError
 obj
 =
 wrap

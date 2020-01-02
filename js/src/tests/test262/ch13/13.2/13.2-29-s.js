@@ -145,7 +145,6 @@ strict
 ;
 }
 return
-!
 Object
 .
 getOwnPropertyDescriptor
@@ -155,8 +154,10 @@ foo
 caller
 "
 )
-.
-configurable
+=
+=
+=
+undefined
 ;
 }
 runTestCase
