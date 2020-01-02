@@ -398,6 +398,9 @@ uint8_t
 new_length
 ]
 ;
+std
+:
+:
 memcpy
 (
 new_buf

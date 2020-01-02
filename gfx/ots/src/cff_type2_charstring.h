@@ -462,6 +462,12 @@ kVHCurveTo
 kHVCurveTo
 =
 31
+kDotSection
+=
+12
+<
+<
+8
 kAnd
 =
 (
@@ -707,8 +713,6 @@ kFlex1
 Operators
 that
 are
-obsoleted
-or
 undocumented
 such
 as
@@ -717,8 +721,6 @@ blend
 '
 will
 be
-/
-/
 rejected
 .
 }
