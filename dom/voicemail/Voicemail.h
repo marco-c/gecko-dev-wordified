@@ -175,6 +175,8 @@ MOZ_FINAL
 :
 public
 DOMEventTargetHelper
+private
+nsIVoicemailListener
 {
 /
 *
@@ -186,7 +188,7 @@ doesn
 '
 t
 actually
-inherit
+expose
 nsIVoicemailListener
 .
 Instead
@@ -236,8 +238,15 @@ comment
 class
 Listener
 ;
+virtual
+~
+Voicemail
+(
+)
+;
 public
 :
+NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIVOICEMAILLISTENER
 NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (
@@ -251,12 +260,6 @@ aWindow
 nsIVoicemailProvider
 *
 aProvider
-)
-;
-virtual
-~
-Voicemail
-(
 )
 ;
 nsPIDOMWindow

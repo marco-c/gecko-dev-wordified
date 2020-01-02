@@ -438,6 +438,11 @@ mListener
 )
 ;
 }
+NS_IMPL_ISUPPORTS_INHERITED0
+(
+CellBroadcast
+DOMEventTargetHelper
+)
 JSObject
 *
 CellBroadcast

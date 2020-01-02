@@ -140,6 +140,8 @@ MOZ_FINAL
 :
 public
 DOMEventTargetHelper
+private
+nsIMobileConnectionListener
 {
 /
 *
@@ -151,7 +153,7 @@ doesn
 '
 t
 actually
-inherit
+expose
 *
 nsIMobileConnectionListener
 .

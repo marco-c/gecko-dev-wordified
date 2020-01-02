@@ -211,6 +211,8 @@ MOZ_FINAL
 :
 public
 DOMEventTargetHelper
+private
+nsITelephonyListener
 {
 /
 *
@@ -222,7 +224,7 @@ doesn
 '
 t
 actually
-inherit
+expose
 nsITelephonyListener
 .
 *
