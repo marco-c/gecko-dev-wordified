@@ -2267,7 +2267,7 @@ stream_params
 .
 rate
 >
-48000
+88200
 |
 |
 stream_params
