@@ -5310,6 +5310,16 @@ where
 op_
 ;
 }
+#
+ifdef
+DEBUG
+bool
+canOptimizeOutIfUnused
+(
+)
+;
+#
+endif
 }
 ;
 }
