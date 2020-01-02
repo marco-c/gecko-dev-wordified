@@ -4513,6 +4513,14 @@ autoStates
 mGL
 )
 ;
+mGL
+-
+>
+BindDrawFB
+(
+destFB
+)
+;
 /
 /
 Does
