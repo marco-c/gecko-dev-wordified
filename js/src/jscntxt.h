@@ -2114,6 +2114,12 @@ c
 ;
 inline
 void
+enterNullCompartment
+(
+)
+;
+inline
+void
 leaveCompartment
 (
 JSCompartment
