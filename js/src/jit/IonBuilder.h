@@ -2240,6 +2240,14 @@ BailoutKind
 bailoutKind
 )
 ;
+JSObject
+*
+getNewArrayTemplateObject
+(
+uint32_t
+count
+)
+;
 MDefinition
 *
 convertShiftToMaskForStaticTypedArray
@@ -3290,6 +3298,9 @@ count
 bool
 jsop_newobject
 (
+JSObject
+*
+baseObj
 )
 ;
 bool
