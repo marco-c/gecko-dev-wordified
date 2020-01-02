@@ -1875,8 +1875,10 @@ mFlags
 aFlags
 ;
 }
+RefPtr
+<
 TextureChild
-*
+>
 mActor
 ;
 TextureFlags
