@@ -3220,6 +3220,13 @@ scope
 .
 addItem
 (
+"
+"
+{
+enumerable
+:
+true
+}
 )
 ;
 let

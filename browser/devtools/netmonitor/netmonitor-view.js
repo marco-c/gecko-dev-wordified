@@ -10265,6 +10265,9 @@ extend
 (
 GENERIC_VARIABLES_VIEW_SETTINGS
 {
+onlyEnumVisible
+:
+true
 searchPlaceholder
 :
 L10N
@@ -12848,7 +12851,7 @@ Make
 sure
 this
 is
-an
+a
 valid
 JSON
 object
