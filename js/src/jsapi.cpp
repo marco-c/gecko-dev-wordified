@@ -24791,7 +24791,7 @@ elementRoot
 (
 cx
 )
-elementPropertyRoot
+elementAttributeNameRoot
 (
 cx
 )
@@ -25174,7 +25174,7 @@ false
 ;
 if
 (
-elementPropertyRoot
+elementAttributeNameRoot
 )
 {
 if
@@ -25186,7 +25186,7 @@ compartment
 wrap
 (
 cx
-elementPropertyRoot
+elementAttributeNameRoot
 .
 address
 (
@@ -25223,7 +25223,7 @@ elementRoot
 (
 cx
 )
-elementPropertyRoot
+elementAttributeNameRoot
 (
 cx
 )
@@ -25354,7 +25354,7 @@ false
 ;
 if
 (
-elementPropertyRoot
+elementAttributeNameRoot
 )
 {
 if
@@ -25366,7 +25366,7 @@ compartment
 wrap
 (
 cx
-elementPropertyRoot
+elementAttributeNameRoot
 .
 address
 (

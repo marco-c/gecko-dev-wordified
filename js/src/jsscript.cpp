@@ -3836,7 +3836,7 @@ are
 (
 element
 ;
-elementProperty
+elementAttributeName
 )
 *
 aren
@@ -6785,7 +6785,7 @@ Value
 ScriptSourceObject
 :
 :
-elementProperty
+elementAttributeName
 (
 )
 const
@@ -7015,7 +7015,7 @@ if
 (
 options
 .
-elementProperty
+elementAttributeName
 (
 )
 )
@@ -7029,7 +7029,7 @@ StringValue
 (
 options
 .
-elementProperty
+elementAttributeName
 (
 )
 )

@@ -4,7 +4,7 @@ Source
 .
 prototype
 .
-elementProperty
+elementAttributeName
 can
 be
 a
@@ -59,7 +59,7 @@ x
 }
 "
 {
-elementProperty
+elementAttributeName
 :
 "
 src
@@ -89,7 +89,7 @@ script
 .
 source
 .
-elementProperty
+elementAttributeName
 "
 src
 "
@@ -137,7 +137,7 @@ script
 .
 source
 .
-elementProperty
+elementAttributeName
 undefined
 )
 ;

@@ -26404,7 +26404,7 @@ vp
 "
 (
 get
-elementProperty
+elementAttributeName
 )
 "
 args
@@ -26423,7 +26423,7 @@ set
 sourceObject
 -
 >
-elementProperty
+elementAttributeName
 (
 )
 )
@@ -26492,7 +26492,7 @@ DebuggerSource_getDisplayURL
 JS_PSG
 (
 "
-elementProperty
+elementAttributeName
 "
 DebuggerSource_getElementProperty
 0
