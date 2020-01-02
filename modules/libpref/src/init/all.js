@@ -7368,7 +7368,7 @@ cycle_collector
 .
 incremental
 "
-false
+true
 )
 ;
 /
