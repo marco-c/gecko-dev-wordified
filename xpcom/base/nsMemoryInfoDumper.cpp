@@ -865,7 +865,7 @@ doMemoryReport
 (
 const
 uint8_t
-recvSig
+aRecvSig
 )
 {
 /
@@ -888,7 +888,7 @@ thread
 bool
 doMMUFirst
 =
-recvSig
+aRecvSig
 =
 =
 sDumpAboutMemoryAfterMMUSignum
@@ -908,7 +908,7 @@ report
 runnable
 .
 "
-recvSig
+aRecvSig
 )
 ;
 nsRefPtr
@@ -943,7 +943,7 @@ doGCCCDump
 (
 const
 uint8_t
-recvSig
+aRecvSig
 )
 {
 LOG
@@ -963,7 +963,7 @@ log
 runnable
 .
 "
-recvSig
+aRecvSig
 )
 ;
 /

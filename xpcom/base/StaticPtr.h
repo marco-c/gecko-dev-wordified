@@ -569,7 +569,7 @@ StaticAutoPtr
 T
 >
 &
-other
+aOther
 )
 ;
 #

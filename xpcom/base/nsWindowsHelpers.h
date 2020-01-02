@@ -687,7 +687,7 @@ IsImmersiveProcessFunc
 )
 (
 HANDLE
-process
+aProcess
 )
 ;
 IsImmersiveProcessFunc

@@ -391,7 +391,7 @@ StaticMutex
 (
 StaticMutex
 &
-other
+aOther
 )
 ;
 #
