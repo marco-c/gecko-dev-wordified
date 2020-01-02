@@ -3689,7 +3689,7 @@ available
 ;
 }
 function
-confirmNextInstall
+confirmNextPopup
 (
 )
 {
