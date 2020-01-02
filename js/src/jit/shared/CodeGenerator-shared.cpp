@@ -5026,11 +5026,6 @@ storeCallResult
 dest
 )
 ;
-restoreVolatile
-(
-dest
-)
-;
 if
 (
 ool
@@ -5045,6 +5040,11 @@ masm
 pop
 (
 src
+)
+;
+restoreVolatile
+(
+dest
 )
 ;
 masm
