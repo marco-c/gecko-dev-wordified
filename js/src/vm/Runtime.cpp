@@ -912,6 +912,10 @@ profilingScripts
 (
 false
 )
+suppressProfilerSampling
+(
+false
+)
 hadOutOfMemory
 (
 false
