@@ -2591,6 +2591,13 @@ KeyEvent
 KEYCODE_BACK
 )
 {
+/
+/
+Drop
+the
+virtual
+keyboard
+.
 clearFocus
 (
 )
