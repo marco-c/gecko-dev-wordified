@@ -311,6 +311,7 @@ GetConfiguration
 ;
 class
 nsScreenManagerGonk
+MOZ_FINAL
 :
 public
 nsIScreenManager
