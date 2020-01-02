@@ -689,6 +689,11 @@ nsString
 aOutOrigin
 )
 ;
+void
+Shutdown
+(
+)
+;
 private
 :
 /
