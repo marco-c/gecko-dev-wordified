@@ -22906,6 +22906,8 @@ get
 naturalWidth
 +
 =
+mLetterSpacing
++
 hyphenTextRun
 -
 >
