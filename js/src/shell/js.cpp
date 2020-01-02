@@ -21013,6 +21013,9 @@ js
 cache
 "
 )
+&
+&
+jsCacheDir
 )
 {
 char
