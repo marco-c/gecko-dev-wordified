@@ -724,6 +724,12 @@ MOZ_FINAL
 public
 IUnknown
 {
+~
+ReadRequest
+(
+)
+{
+}
 public
 :
 ReadRequest
@@ -2319,8 +2325,14 @@ mon
 mReentrantMonitor
 )
 ;
+nsRefPtr
+<
 ReadRequest
+>
 request
+=
+new
+ReadRequest
 (
 mOffset
 aBuffer
@@ -2333,7 +2345,6 @@ NS_FAILED
 (
 Read
 (
-&
 request
 )
 )
@@ -2376,7 +2387,8 @@ aOutBytesRead
 aOutBytesRead
 =
 request
-.
+-
+>
 mBytesRead
 ;
 }
@@ -2410,7 +2422,8 @@ this
 mOffset
 aBufferLength
 request
-.
+-
+>
 mBytesRead
 )
 ;
@@ -2418,7 +2431,8 @@ mOffset
 +
 =
 request
-.
+-
+>
 mBytesRead
 ;
 return

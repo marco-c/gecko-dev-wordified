@@ -246,6 +246,12 @@ MOZ_FINAL
 public
 IMFSourceReaderCallback
 {
+~
+WMFSourceReaderCallback
+(
+)
+{
+}
 public
 :
 WMFSourceReaderCallback
