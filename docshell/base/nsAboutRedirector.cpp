@@ -142,6 +142,13 @@ ArrayUtils
 .
 h
 "
+#
+include
+"
+nsDOMString
+.
+h
+"
 NS_IMPL_ISUPPORTS
 (
 nsAboutRedirector
