@@ -747,7 +747,7 @@ OpenMode
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :

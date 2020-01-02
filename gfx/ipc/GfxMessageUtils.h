@@ -1869,7 +1869,7 @@ gfxContentType
 >
 :
 public
-TypedEnumSerializer
+ContiguousTypedEnumSerializer
 <
 gfxContentType
 gfxContentType
@@ -1894,7 +1894,7 @@ gfxSurfaceType
 >
 :
 public
-TypedEnumSerializer
+ContiguousTypedEnumSerializer
 <
 gfxSurfaceType
 gfxSurfaceType
@@ -1922,7 +1922,7 @@ GraphicsFilterType
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1956,7 +1956,7 @@ LayersBackend
 >
 :
 public
-TypedEnumSerializer
+ContiguousTypedEnumSerializer
 <
 mozilla
 :
@@ -2005,7 +2005,7 @@ ScaleMode
 >
 :
 public
-TypedEnumSerializer
+ContiguousTypedEnumSerializer
 <
 mozilla
 :
@@ -2048,7 +2048,7 @@ gfxImageFormat
 >
 :
 public
-TypedEnumSerializer
+ContiguousTypedEnumSerializer
 <
 gfxImageFormat
 gfxImageFormat
@@ -2079,7 +2079,7 @@ AttributeName
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -2122,7 +2122,7 @@ AttributeType
 >
 :
 public
-TypedEnumSerializer
+ContiguousTypedEnumSerializer
 <
 mozilla
 :
@@ -2171,7 +2171,7 @@ PrimitiveType
 >
 :
 public
-TypedEnumSerializer
+ContiguousTypedEnumSerializer
 <
 mozilla
 :
@@ -2220,7 +2220,7 @@ ColorSpace
 >
 :
 public
-TypedEnumSerializer
+ContiguousTypedEnumSerializer
 <
 mozilla
 :
@@ -5270,7 +5270,7 @@ CompositableType
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -5313,7 +5313,7 @@ SurfaceFormat
 >
 :
 public
-TypedEnumSerializer
+ContiguousTypedEnumSerializer
 <
 mozilla
 :

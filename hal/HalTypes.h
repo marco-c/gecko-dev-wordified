@@ -893,7 +893,7 @@ LightType
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -946,7 +946,7 @@ LightMode
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -999,7 +999,7 @@ FlashMode
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1052,7 +1052,7 @@ ShutdownMode
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1104,7 +1104,7 @@ WakeLockControl
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1156,7 +1156,7 @@ SwitchState
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1208,7 +1208,7 @@ SwitchDevice
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1251,7 +1251,7 @@ ProcessPriority
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1303,7 +1303,7 @@ FMRadioOperation
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1355,7 +1355,7 @@ FMRadioOperationStatus
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1407,7 +1407,7 @@ FMRadioSeekDirection
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1460,7 +1460,7 @@ FMRadioCountry
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :

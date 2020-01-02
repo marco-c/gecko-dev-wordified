@@ -161,7 +161,7 @@ BluetoothObjectType
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :

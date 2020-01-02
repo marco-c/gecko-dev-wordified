@@ -158,7 +158,7 @@ PersistenceType
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -326,7 +326,7 @@ KeyPathType
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -523,7 +523,7 @@ Direction
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -590,7 +590,7 @@ Mode
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
