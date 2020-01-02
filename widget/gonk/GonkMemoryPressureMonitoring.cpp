@@ -2010,8 +2010,11 @@ nsIThread
 >
 thread
 ;
-NS_NewThread
+NS_NewNamedThread
 (
+"
+MemoryPressure
+"
 getter_AddRefs
 (
 thread
