@@ -2831,7 +2831,7 @@ hasSecurityPolicy
 AccessCheck
 :
 :
-subsumes
+subsumesConsideringDomain
 (
 target
 origin
@@ -3291,7 +3291,7 @@ originSubsumesTarget
 AccessCheck
 :
 :
-subsumes
+subsumesConsideringDomain
 (
 origin
 target
@@ -3303,7 +3303,7 @@ targetSubsumesOrigin
 AccessCheck
 :
 :
-subsumes
+subsumesConsideringDomain
 (
 target
 origin
