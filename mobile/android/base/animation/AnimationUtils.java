@@ -114,6 +114,9 @@ private
 static
 long
 mShortDuration
+=
+-
+1
 ;
 public
 static
