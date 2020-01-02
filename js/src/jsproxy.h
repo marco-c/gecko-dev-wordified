@@ -1013,6 +1013,7 @@ void
 family
 )
 ;
+virtual
 ~
 BaseProxyHandler
 (
