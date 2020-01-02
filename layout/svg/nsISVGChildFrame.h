@@ -687,7 +687,6 @@ RequestingCanvasTMFor
 FOR_PAINTING
 =
 1
-FOR_HIT_TESTING
 FOR_OUTERSVG_TM
 }
 ;
