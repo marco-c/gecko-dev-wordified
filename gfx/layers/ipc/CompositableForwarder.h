@@ -1122,17 +1122,6 @@ return
 false
 ;
 }
-virtual
-bool
-IsImageBridgeChild
-(
-)
-const
-{
-return
-false
-;
-}
 /
 *
 *
