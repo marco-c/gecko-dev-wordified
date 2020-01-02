@@ -11209,15 +11209,13 @@ deliveryStatus
 ;
 gMobileMessageDatabaseService
 .
-setMessageDeliveryByEnvelopeId
+setMessageDeliveryStatusByEnvelopeId
 (
 envelopeId
 address
-null
 deliveryStatus
 (
 function
-notifySetDeliveryResult
 (
 aRv
 aDomMessage
