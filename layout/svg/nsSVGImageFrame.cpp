@@ -1388,10 +1388,9 @@ gfx
 :
 :
 Matrix
-(
-)
-.
-Translate
+:
+:
+Translation
 (
 x
 y
@@ -1515,10 +1514,9 @@ gfx
 :
 :
 Matrix
-(
-)
-.
-Translate
+:
+:
+Translation
 (
 x
 y

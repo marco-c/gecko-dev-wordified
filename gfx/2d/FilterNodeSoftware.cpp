@@ -6734,10 +6734,9 @@ Matrix
 transform
 =
 Matrix
-(
-)
-.
-Translate
+:
+:
+Translation
 (
 srcRect
 .
@@ -6750,10 +6749,9 @@ y
 mMatrix
 *
 Matrix
-(
-)
-.
-Translate
+:
+:
+Translation
 (
 -
 aRect
