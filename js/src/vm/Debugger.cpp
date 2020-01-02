@@ -722,6 +722,9 @@ JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 val
+js
+:
+:
 NullPtr
 (
 )
@@ -28163,6 +28166,9 @@ getobj
 NewFunction
 (
 cx
+js
+:
+:
 NullPtr
 (
 )
@@ -28173,6 +28179,9 @@ JSFunction
 :
 NATIVE_FUN
 global
+js
+:
+:
 NullPtr
 (
 )
@@ -30524,6 +30533,9 @@ rval
 (
 )
 dbg
+js
+:
+:
 NullPtr
 (
 )
@@ -30620,6 +30632,9 @@ rval
 (
 )
 dbg
+js
+:
+:
 NullPtr
 (
 )
@@ -35624,6 +35639,9 @@ JSREPORT_ERROR
 JSMSG_DEBUG_WRAPPER_IN_WAY
 JSDVG_SEARCH_STACK
 dbgobj
+js
+:
+:
 NullPtr
 (
 )
@@ -35641,6 +35659,9 @@ JSREPORT_ERROR
 JSMSG_DEBUG_BAD_REFERENT
 JSDVG_SEARCH_STACK
 dbgobj
+js
+:
+:
 NullPtr
 (
 )

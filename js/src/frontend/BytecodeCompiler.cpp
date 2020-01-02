@@ -4010,6 +4010,9 @@ JSScript
 Create
 (
 cx
+js
+:
+:
 NullPtr
 (
 )
@@ -4142,6 +4145,9 @@ evalCaller
 =
 *
 /
+js
+:
+:
 NullPtr
 (
 )
