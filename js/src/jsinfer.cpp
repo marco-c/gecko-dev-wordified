@@ -9893,7 +9893,9 @@ false
 ;
 }
 return
-true
+count
+>
+0
 ;
 }
 bool
