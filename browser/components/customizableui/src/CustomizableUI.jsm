@@ -5043,7 +5043,7 @@ if
 widgetNode
 )
 {
-ERROR
+INFO
 (
 "
 Widget
