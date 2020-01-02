@@ -1601,12 +1601,6 @@ asm
 '
 vpx_config
 .
-c
-'
-    
-'
-vpx_config
-.
 h
 '
     
