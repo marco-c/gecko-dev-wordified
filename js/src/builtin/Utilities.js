@@ -1149,11 +1149,13 @@ pow
 =
 0x1fffffffffffff
 return
-std_Math_min
-(
 v
+<
 0x1fffffffffffff
-)
+?
+v
+:
+0x1fffffffffffff
 ;
 }
 /
