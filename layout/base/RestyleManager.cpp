@@ -20001,6 +20001,7 @@ Clear
 #
 endif
 }
+static
 inline
 nsIFrame
 *
