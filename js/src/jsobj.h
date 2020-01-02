@@ -5637,6 +5637,12 @@ setShouldConvertDoubleElements
 (
 )
 ;
+inline
+void
+clearShouldConvertDoubleElements
+(
+)
+;
 /
 *
 Packed
