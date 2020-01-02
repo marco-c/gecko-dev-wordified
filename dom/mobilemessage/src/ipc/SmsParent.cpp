@@ -3736,6 +3736,9 @@ NotifySendMessageFailed
 (
 int32_t
 aError
+nsISupports
+*
+aMessage
 )
 {
 return
