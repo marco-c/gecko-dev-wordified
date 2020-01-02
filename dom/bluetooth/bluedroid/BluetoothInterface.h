@@ -1167,7 +1167,7 @@ aRes
 Authentication
 *
 /
-int
+void
 PinReply
 (
 const
@@ -1181,9 +1181,12 @@ aPinLen
 bt_pin_code_t
 *
 aPinCode
+BluetoothResultHandler
+*
+aRes
 )
 ;
-int
+void
 SspReply
 (
 const
@@ -1196,6 +1199,9 @@ uint8_t
 aAccept
 uint32_t
 aPasskey
+BluetoothResultHandler
+*
+aRes
 )
 ;
 /
