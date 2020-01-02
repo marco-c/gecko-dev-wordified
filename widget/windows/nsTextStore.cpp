@@ -569,6 +569,12 @@ MOZ_FINAL
 public
 ITfInputScope
 {
+~
+InputScopeImpl
+(
+)
+{
+}
 public
 :
 InputScopeImpl
