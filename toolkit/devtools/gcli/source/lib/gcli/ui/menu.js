@@ -495,6 +495,9 @@ bind
 (
 this
 )
+console
+.
+error
 )
 ;
 this
@@ -568,6 +571,9 @@ bind
 (
 this
 )
+console
+.
+error
 )
 ;
 /
