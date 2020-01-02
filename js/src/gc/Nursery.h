@@ -1902,17 +1902,6 @@ uint32_t
 nelems
 )
 ;
-void
-setTypedArrayElementsForwardingPointer
-(
-void
-*
-oldData
-void
-*
-newData
-)
-;
 /
 *
 Free
