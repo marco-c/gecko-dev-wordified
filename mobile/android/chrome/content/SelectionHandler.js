@@ -2827,7 +2827,7 @@ ClipboardHelper
 selectAllContext
 order
 :
-1
+5
 }
 CUT
 :
@@ -2936,7 +2936,7 @@ aElement
 }
 order
 :
-1
+4
 selector
 :
 ClipboardHelper
@@ -2989,7 +2989,7 @@ copySelection
 }
 order
 :
-1
+3
 selector
 :
 ClipboardHelper
@@ -3059,7 +3059,7 @@ _updateMenu
 }
 order
 :
-1
+2
 selector
 :
 ClipboardHelper
@@ -3183,6 +3183,9 @@ _closeSelection
 )
 ;
 }
+order
+:
+1
 selector
 :
 ClipboardHelper
