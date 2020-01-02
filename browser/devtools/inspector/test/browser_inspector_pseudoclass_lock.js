@@ -195,10 +195,6 @@ body
 >
 '
 ;
-waitForExplicitFinish
-(
-)
-;
 function
 test
 (

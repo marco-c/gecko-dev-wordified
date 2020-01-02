@@ -39,10 +39,6 @@ contentTab
 contentDoc
 inspector
 ;
-waitForExplicitFinish
-(
-)
-;
 /
 /
 Create

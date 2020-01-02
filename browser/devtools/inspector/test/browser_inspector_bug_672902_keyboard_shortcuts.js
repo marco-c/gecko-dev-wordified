@@ -48,10 +48,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 let
 doc
 ;

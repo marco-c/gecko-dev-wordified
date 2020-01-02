@@ -81,10 +81,6 @@ over
 /
 those
 nodes
-waitForExplicitFinish
-(
-)
-;
 let
 test
 =

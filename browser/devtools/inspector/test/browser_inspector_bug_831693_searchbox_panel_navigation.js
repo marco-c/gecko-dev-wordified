@@ -32,10 +32,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 requestLongerTimeout
 (
 2

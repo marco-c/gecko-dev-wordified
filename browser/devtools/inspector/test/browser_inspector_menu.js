@@ -44,10 +44,6 @@ clipboard
 "
 )
 ;
-waitForExplicitFinish
-(
-)
-;
 let
 doc
 ;

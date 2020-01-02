@@ -32,10 +32,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 let
 inspector
 searchBox

@@ -32,10 +32,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 ignoreAllUncaughtExceptions
 (
 )

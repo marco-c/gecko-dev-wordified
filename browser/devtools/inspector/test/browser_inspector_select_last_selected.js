@@ -176,10 +176,6 @@ browser_inspector_select_last_selected2
 html
 "
 ;
-waitForExplicitFinish
-(
-)
-;
 /
 /
 Create
