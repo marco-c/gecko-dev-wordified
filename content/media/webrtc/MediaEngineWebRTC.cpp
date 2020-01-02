@@ -659,7 +659,7 @@ new
 MediaEngineWebRTCVideoSource
 (
 i
-mediaSourceType
+aMediaSource
 )
 ;
 mVideoSources
