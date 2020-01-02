@@ -979,9 +979,7 @@ NS_OK
 mResources
 -
 >
-mStyleSheetList
-.
-AppendElement
+AppendStyleSheet
 (
 aSheet
 )
