@@ -3990,6 +3990,7 @@ bool
 DidHistoryRestore
 (
 )
+const
 MOZ_OVERRIDE
 {
 return
@@ -5704,6 +5705,7 @@ bool
 DidHistoryRestore
 (
 )
+const
 MOZ_OVERRIDE
 {
 return
