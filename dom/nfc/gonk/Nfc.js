@@ -710,7 +710,7 @@ this
 for
 (
 let
-msgname
+message
 of
 NFC_IPC_MSG_NAMES
 )
@@ -719,7 +719,7 @@ ppmm
 .
 addMessageListener
 (
-msgname
+message
 this
 )
 ;
@@ -727,7 +727,7 @@ this
 for
 (
 let
-msgname
+message
 of
 NFC_IPC_READ_PERM_MSG_NAMES
 )
@@ -736,7 +736,7 @@ ppmm
 .
 addMessageListener
 (
-msgname
+message
 this
 )
 ;
@@ -744,7 +744,7 @@ this
 for
 (
 let
-msgname
+message
 of
 NFC_IPC_WRITE_PERM_MSG_NAMES
 )
@@ -753,7 +753,7 @@ ppmm
 .
 addMessageListener
 (
-msgname
+message
 this
 )
 ;
@@ -761,7 +761,7 @@ this
 for
 (
 let
-msgname
+message
 of
 NFC_IPC_MANAGER_PERM_MSG_NAMES
 )
@@ -770,7 +770,7 @@ ppmm
 .
 addMessageListener
 (
-msgname
+message
 this
 )
 ;
@@ -800,7 +800,7 @@ this
 for
 (
 let
-msgname
+message
 of
 NFC_IPC_MSG_NAMES
 )
@@ -809,7 +809,7 @@ ppmm
 .
 removeMessageListener
 (
-msgname
+message
 this
 )
 ;
@@ -817,7 +817,7 @@ this
 for
 (
 let
-msgname
+message
 of
 NFC_IPC_READ_PERM_MSG_NAMES
 )
@@ -826,7 +826,7 @@ ppmm
 .
 removeMessageListener
 (
-msgname
+message
 this
 )
 ;
@@ -834,7 +834,7 @@ this
 for
 (
 let
-msgname
+message
 of
 NFC_IPC_WRITE_PERM_MSG_NAMES
 )
@@ -843,7 +843,7 @@ ppmm
 .
 removeMessageListener
 (
-msgname
+message
 this
 )
 ;
@@ -851,7 +851,7 @@ this
 for
 (
 let
-msgname
+message
 of
 NFC_IPC_MANAGER_PERM_MSG_NAMES
 )
@@ -860,7 +860,7 @@ ppmm
 .
 removeMessageListener
 (
-msgname
+message
 this
 )
 ;
@@ -875,13 +875,13 @@ registerPeerReadyTarget
 function
 registerPeerReadyTarget
 (
-msg
+message
 )
 {
 let
 appInfo
 =
-msg
+message
 .
 json
 ;
@@ -937,7 +937,7 @@ newTargetInfo
 {
 target
 :
-msg
+message
 .
 target
 isPeerReadyCalled
@@ -960,13 +960,13 @@ unregisterPeerReadyTarget
 function
 unregisterPeerReadyTarget
 (
-msg
+message
 )
 {
 let
 appInfo
 =
-msg
+message
 .
 json
 ;
@@ -1186,7 +1186,7 @@ checkP2PRegistration
 function
 checkP2PRegistration
 (
-msg
+message
 )
 {
 /
@@ -1235,7 +1235,7 @@ this
 .
 isPeerReadyTarget
 (
-msg
+message
 .
 json
 .
@@ -1259,7 +1259,7 @@ currentPeerAppId
 isValid
 )
 ?
-msg
+message
 .
 json
 .
@@ -1273,7 +1273,7 @@ respMsg
 {
 requestId
 :
-msg
+message
 .
 json
 .
@@ -1312,13 +1312,13 @@ immediately
 of
 the
 status
-msg
+message
 .
 target
 .
 sendAsyncMessage
 (
-msg
+message
 .
 name
 +
@@ -1419,7 +1419,7 @@ receiveMessage
 function
 receiveMessage
 (
-msg
+message
 )
 {
 debug
@@ -1433,7 +1433,7 @@ JSON
 .
 stringify
 (
-msg
+message
 )
 +
 "
@@ -1447,7 +1447,7 @@ process
 ;
 if
 (
-msg
+message
 .
 name
 =
@@ -1465,7 +1465,7 @@ this
 .
 removePeerTarget
 (
-msg
+message
 .
 target
 )
@@ -1480,7 +1480,7 @@ NFC_IPC_MSG_NAMES
 .
 indexOf
 (
-msg
+message
 .
 name
 )
@@ -1503,7 +1503,7 @@ NFC_IPC_READ_PERM_MSG_NAMES
 .
 indexOf
 (
-msg
+message
 .
 name
 )
@@ -1516,7 +1516,7 @@ name
 if
 (
 !
-msg
+message
 .
 target
 .
@@ -1537,7 +1537,7 @@ Nfc
 message
 "
 +
-msg
+message
 .
 name
 +
@@ -1570,7 +1570,7 @@ NFC_IPC_WRITE_PERM_MSG_NAMES
 .
 indexOf
 (
-msg
+message
 .
 name
 )
@@ -1583,7 +1583,7 @@ name
 if
 (
 !
-msg
+message
 .
 target
 .
@@ -1605,7 +1605,7 @@ Peer
 message
 "
 +
-msg
+message
 .
 name
 +
@@ -1638,7 +1638,7 @@ NFC_IPC_MANAGER_PERM_MSG_NAMES
 .
 indexOf
 (
-msg
+message
 .
 name
 )
@@ -1651,7 +1651,7 @@ name
 if
 (
 !
-msg
+message
 .
 target
 .
@@ -1710,7 +1710,7 @@ type
 :
 "
 +
-msg
+message
 .
 name
 )
@@ -1721,7 +1721,7 @@ null
 }
 switch
 (
-msg
+message
 .
 name
 )
@@ -1735,7 +1735,7 @@ CheckSessionToken
 :
 if
 (
-msg
+message
 .
 json
 .
@@ -1767,7 +1767,7 @@ Token
 :
 "
 +
-msg
+message
 .
 json
 .
@@ -1815,7 +1815,7 @@ this
 .
 registerPeerReadyTarget
 (
-msg
+message
 )
 ;
 return
@@ -1832,7 +1832,7 @@ this
 .
 unregisterPeerReadyTarget
 (
-msg
+message
 )
 ;
 return
@@ -1849,7 +1849,7 @@ this
 .
 checkP2PRegistration
 (
-msg
+message
 )
 ;
 return
@@ -1880,7 +1880,7 @@ this
 .
 isPeerReadyTarget
 (
-msg
+message
 .
 json
 .
@@ -1896,7 +1896,7 @@ ID
 :
 "
 +
-msg
+message
 .
 json
 .
@@ -1922,7 +1922,7 @@ this
 .
 peerTargetsMap
 [
-msg
+message
 .
 json
 .
@@ -1955,7 +1955,7 @@ this
 .
 notifyPeerEvent
 (
-msg
+message
 .
 json
 .
@@ -1995,7 +1995,7 @@ appropriate
 content
 process
 .
-msg
+message
 .
 json
 .
@@ -2007,7 +2007,7 @@ NotifySendFileStatus
 ;
 if
 (
-msg
+message
 .
 json
 .
@@ -2020,7 +2020,7 @@ NFC
 NFC_SUCCESS
 )
 {
-msg
+message
 .
 json
 .
@@ -2044,7 +2044,7 @@ nfc
 .
 sendNfcResponse
 (
-msg
+message
 .
 json
 )
@@ -2061,7 +2061,7 @@ nfc
 .
 receiveMessage
 (
-msg
+message
 )
 ;
 }
