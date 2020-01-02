@@ -1702,6 +1702,8 @@ enable
 see
 *
 nsTraceRefcnt
+and
+nsISupportsImpl
 .
 h
 for

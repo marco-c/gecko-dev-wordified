@@ -283,17 +283,6 @@ nsTArray
 #
 include
 "
-nsTraceRefcnt
-.
-h
-"
-/
-/
-for
-MOZ_COUNT_CTOR
-#
-include
-"
 nscore
 .
 h

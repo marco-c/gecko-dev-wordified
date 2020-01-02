@@ -104,7 +104,7 @@ NS_ASSERTION
 #
 include
 "
-nsTraceRefcnt
+nsISupportsImpl
 .
 h
 "

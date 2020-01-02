@@ -311,7 +311,7 @@ etc
 #
 include
 "
-nsTraceRefcnt
+nsISupportsImpl
 .
 h
 "

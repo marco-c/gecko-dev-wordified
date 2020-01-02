@@ -255,7 +255,7 @@ nsRefPtr
 #
 include
 "
-nsTraceRefcnt
+nsISupportsImpl
 .
 h
 "

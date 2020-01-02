@@ -221,7 +221,7 @@ NS_WARNING
 #
 include
 "
-nsTraceRefcnt
+nsISupportsImpl
 .
 h
 "

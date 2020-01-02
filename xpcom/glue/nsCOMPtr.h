@@ -580,7 +580,7 @@ g
 .
 in
 "
-nsTraceRefcnt
+nsISupportsImpl
 .
 h
 "

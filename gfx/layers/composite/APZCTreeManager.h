@@ -227,13 +227,6 @@ nsISupportsImpl
 .
 h
 "
-#
-include
-"
-nsTraceRefcnt
-.
-h
-"
 /
 /
 for

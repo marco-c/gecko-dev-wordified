@@ -216,7 +216,7 @@ LayersBackend
 #
 include
 "
-nsTraceRefcnt
+nsISupportsImpl
 .
 h
 "

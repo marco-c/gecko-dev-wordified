@@ -211,7 +211,7 @@ PCompositableChild
 #
 include
 "
-nsTraceRefcnt
+nsISupportsImpl
 .
 h
 "

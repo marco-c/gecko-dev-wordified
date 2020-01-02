@@ -123,6 +123,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsNPAPIPluginInstance
 .
 h
@@ -138,13 +145,6 @@ h
 include
 "
 nsIWidget
-.
-h
-"
-#
-include
-"
-nsTraceRefcnt
 .
 h
 "

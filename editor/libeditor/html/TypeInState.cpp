@@ -175,6 +175,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsReadableUtils
 .
 h
@@ -183,13 +190,6 @@ h
 include
 "
 nsStringFwd
-.
-h
-"
-#
-include
-"
-nsTraceRefcnt
 .
 h
 "

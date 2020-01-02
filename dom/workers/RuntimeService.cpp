@@ -394,6 +394,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsLayoutStatics
 .
 h
@@ -423,13 +430,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-nsTraceRefcnt
 .
 h
 "
