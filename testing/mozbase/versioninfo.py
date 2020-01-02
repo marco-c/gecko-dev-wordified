@@ -99,6 +99,23 @@ import
 sys
 import
 setup_development
+here
+=
+os
+.
+path
+.
+abspath
+(
+os
+.
+path
+.
+dirname
+(
+__file__
+)
+)
 def
 run_hg
 (
@@ -150,6 +167,9 @@ subprocess
 check_output
 (
 command
+cwd
+=
+here
 )
     
 except
