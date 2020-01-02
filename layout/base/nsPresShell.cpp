@@ -20914,6 +20914,17 @@ status
 ;
 if
 (
+MOZ_UNLIKELY
+(
+mIsDestroying
+)
+)
+{
+return
+;
+}
+if
+(
 aFlushOnHoverChange
 &
 &
