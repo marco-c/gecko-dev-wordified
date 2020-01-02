@@ -1609,7 +1609,13 @@ aItemType
 nsresult
 ConvertListType
 (
-nsINode
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 aList
 mozilla
