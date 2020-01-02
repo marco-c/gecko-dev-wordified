@@ -1277,7 +1277,7 @@ state
 js
 :
 :
-FrameRegs
+InterpreterRegs
 regs
 ;
 JSGenerator
@@ -1314,7 +1314,7 @@ const
 js
 :
 :
-FrameRegs
+InterpreterRegs
 &
 regs
 )

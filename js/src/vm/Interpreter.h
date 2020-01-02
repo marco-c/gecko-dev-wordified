@@ -2113,7 +2113,7 @@ JSContext
 *
 cx
 const
-FrameRegs
+InterpreterRegs
 &
 regs
 )
@@ -2137,7 +2137,7 @@ class
 TryNoteIter
 {
 const
-FrameRegs
+InterpreterRegs
 &
 regs
 ;
@@ -2177,7 +2177,7 @@ JSContext
 *
 cx
 const
-FrameRegs
+InterpreterRegs
 &
 regs
 )
