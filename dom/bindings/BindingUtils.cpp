@@ -11598,9 +11598,6 @@ unwrapped
 jsipc
 :
 :
-JavaScriptParent
-:
-:
 IsCPOW
 (
 unwrapped
@@ -11616,9 +11613,6 @@ if
 (
 !
 jsipc
-:
-:
-JavaScriptParent
 :
 :
 DOMInstanceOf

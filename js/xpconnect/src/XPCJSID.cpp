@@ -2702,9 +2702,6 @@ mozilla
 jsipc
 :
 :
-JavaScriptParent
-:
-:
 IsCPOW
 (
 obj
@@ -2820,9 +2817,6 @@ mozilla
 jsipc
 :
 :
-JavaScriptParent
-:
-:
 IsCPOW
 (
 obj
@@ -2833,9 +2827,6 @@ mozilla
 :
 :
 jsipc
-:
-:
-JavaScriptParent
 :
 :
 InstanceOf
