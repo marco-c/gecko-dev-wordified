@@ -6641,7 +6641,12 @@ IdealAudioRate
 )
 {
 return
-48000
+AudioStream
+:
+:
+PreferredSampleRate
+(
+)
 ;
 }
 /
