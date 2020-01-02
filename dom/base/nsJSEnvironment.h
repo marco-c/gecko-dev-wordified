@@ -1134,9 +1134,8 @@ const
 char
 *
 aFallbackMessage
-nsIPrincipal
-*
-aGlobalPrincipal
+bool
+aIsChromeError
 /
 /
 To
