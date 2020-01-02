@@ -239,6 +239,10 @@ XPath
 objects
 DOMCI_CLASS
 (
+XPathExpression
+)
+DOMCI_CLASS
+(
 XPathNSResolver
 )
 /
