@@ -1169,11 +1169,6 @@ RelativeLayout
 .
 LayoutParams
 (
-(
-ViewGroup
-.
-MarginLayoutParams
-)
 sValidationTextLayoutNormal
 )
 ;
