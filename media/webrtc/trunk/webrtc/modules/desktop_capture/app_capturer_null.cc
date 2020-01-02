@@ -271,6 +271,9 @@ false
 ;
 }
 bool
+AppCapturerNull
+:
+:
 SelectApp
 (
 ProcessId
@@ -291,6 +294,9 @@ false
 ;
 }
 bool
+AppCapturerNull
+:
+:
 BringAppToFront
 (
 )
