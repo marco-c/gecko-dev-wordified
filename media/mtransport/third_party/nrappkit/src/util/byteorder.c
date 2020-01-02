@@ -424,7 +424,7 @@ y
 =
 tmp
 UINT8
-htonll
+nr_htonll
 (
 UINT8
 hostlonglong
@@ -478,14 +478,14 @@ netlonglong
 ;
 }
 UINT8
-ntohll
+nr_ntohll
 (
 UINT8
 netlonglong
 )
 {
 return
-htonll
+nr_htonll
 (
 netlonglong
 )
