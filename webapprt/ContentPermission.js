@@ -500,11 +500,7 @@ name
 =
 WebappRT
 .
-config
-.
-app
-.
-manifest
+localeManifest
 ;
 let
 requestingWindow
