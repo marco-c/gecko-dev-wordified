@@ -424,11 +424,6 @@ nsAString
 aName
 )
 ;
-uint32_t
-Size
-(
-)
-;
 void
 Stringify
 (
