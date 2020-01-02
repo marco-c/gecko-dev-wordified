@@ -19658,6 +19658,16 @@ ClearHeader
 nsHttp
 :
 :
+If_None_Match
+)
+;
+mRequestHead
+.
+ClearHeader
+(
+nsHttp
+:
+:
 ETag
 )
 ;
