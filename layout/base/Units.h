@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsDeviceContext
-.
-h
-"
-#
-include
-"
 nsRect
 .
 h

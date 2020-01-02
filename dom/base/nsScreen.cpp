@@ -169,6 +169,13 @@ ScreenBinding
 .
 h
 "
+#
+include
+"
+nsDeviceContext
+.
+h
+"
 using
 namespace
 mozilla

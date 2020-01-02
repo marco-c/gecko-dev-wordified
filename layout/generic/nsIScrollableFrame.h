@@ -175,6 +175,9 @@ nsPresContext
 class
 nsIContent
 ;
+class
+nsRenderingContext
+;
 /
 *
 *

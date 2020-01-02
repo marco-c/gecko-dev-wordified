@@ -127,6 +127,13 @@ h
 "
 #
 include
+"
+nsDeviceContext
+.
+h
+"
+#
+include
 <
 algorithm
 >

@@ -184,6 +184,15 @@ nsView
 .
 h
 "
+#
+include
+"
+mozilla
+/
+AppUnits
+.
+h
+"
 class
 nsPopupBoxObject
 :
@@ -1756,7 +1765,7 @@ NS_OK
 int32_t
 pp
 =
-nsDeviceContext
+mozilla
 :
 :
 AppUnitsPerCSSPixel

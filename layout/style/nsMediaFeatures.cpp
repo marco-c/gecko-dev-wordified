@@ -147,6 +147,13 @@ nsCSSRuleProcessor
 .
 h
 "
+#
+include
+"
+nsDeviceContext
+.
+h
+"
 using
 namespace
 mozilla
