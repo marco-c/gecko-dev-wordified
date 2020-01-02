@@ -235,6 +235,12 @@ endif
 if
 defined
 (
+MOZ_SANDBOX
+)
+&
+&
+defined
+(
 XP_WIN
 )
 #
@@ -1330,6 +1336,12 @@ true
 endif
 #
 if
+defined
+(
+MOZ_SANDBOX
+)
+&
+&
 defined
 (
 XP_WIN

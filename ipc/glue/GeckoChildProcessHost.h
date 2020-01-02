@@ -178,6 +178,12 @@ defined
 (
 XP_WIN
 )
+&
+&
+defined
+(
+MOZ_SANDBOX
+)
 #
 include
 "
@@ -1026,9 +1032,14 @@ InitWindowsGroupID
 nsString
 mGroupId
 ;
+#
+ifdef
+MOZ_SANDBOX
 SandboxBroker
 mSandboxBroker
 ;
+#
+endif
 #
 endif
 /
