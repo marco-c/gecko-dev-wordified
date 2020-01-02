@@ -156,6 +156,12 @@ cd
 )
 :
         
+if
+cd
+.
+rest
+:
+            
 self
 .
 println
@@ -175,6 +181,26 @@ directive
 cd
 .
 rest
+)
+)
+        
+else
+:
+            
+self
+.
+println
+(
+'
+#
+%
+s
+'
+%
+(
+cd
+.
+directive
 )
 )
     
