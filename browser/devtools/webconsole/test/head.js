@@ -4940,16 +4940,6 @@ lazyEmpty
 =
 false
 ;
-panel
-.
-_view
-.
-Variables
-.
-lazyAppend
-=
-false
-;
 let
 resolveObject
 =

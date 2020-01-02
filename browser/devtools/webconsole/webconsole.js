@@ -20493,14 +20493,6 @@ this
 .
 _lazyVariablesView
 ;
-view
-.
-lazyAppend
-=
-this
-.
-_lazyVariablesView
-;
 VariablesViewController
 .
 attach
