@@ -572,7 +572,7 @@ modules
 /
 accessibility
 /
-TouchAdapter
+PointerAdapter
 .
 jsm
 '
@@ -799,7 +799,7 @@ start
 (
 )
 ;
-TouchAdapter
+PointerAdapter
 .
 start
 (
@@ -1156,7 +1156,7 @@ stop
 (
 )
 ;
-TouchAdapter
+PointerAdapter
 .
 stop
 (
@@ -5237,8 +5237,18 @@ Simple
 '
 aGesture
 .
+touches
+[
+0
+]
+.
 x
 aGesture
+.
+touches
+[
+0
+]
 .
 y
 )
