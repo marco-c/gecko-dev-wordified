@@ -435,6 +435,16 @@ MOZ_OVERRIDE
 ;
 virtual
 void
+SetCompositor
+(
+Compositor
+*
+aCompositor
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 SetPictureRect
 (
 const
