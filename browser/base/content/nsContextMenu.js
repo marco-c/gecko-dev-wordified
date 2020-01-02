@@ -7595,6 +7595,13 @@ this
 browser
 .
 docShell
+&
+&
+this
+.
+browser
+.
+docShell
 .
 mixedContentChannel
 )
