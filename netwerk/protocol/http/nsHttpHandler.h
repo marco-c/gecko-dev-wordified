@@ -1728,7 +1728,7 @@ nsCString
 host
 int32_t
 port
-nsCString
+nsACString
 &
 hostLine
 )
