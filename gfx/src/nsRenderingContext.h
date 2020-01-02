@@ -385,6 +385,17 @@ gfxContext
 aThebesContext
 )
 ;
+void
+Init
+(
+nsDeviceContext
+*
+aContext
+DrawTarget
+*
+aDrawTarget
+)
+;
 /
 /
 These
