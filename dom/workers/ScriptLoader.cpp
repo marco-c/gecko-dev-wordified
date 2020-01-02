@@ -3961,7 +3961,12 @@ false
 )
 ;
 return
-NS_OK
+MainThreadWorkerSyncRunnable
+:
+:
+Cancel
+(
+)
 ;
 }
 void
