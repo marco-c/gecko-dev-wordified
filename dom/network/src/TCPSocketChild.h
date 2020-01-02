@@ -57,6 +57,12 @@ MPL
 *
 /
 #
+ifndef
+mozilla_dom_TCPSocketChild_h
+#
+define
+mozilla_dom_TCPSocketChild_h
+#
 include
 "
 mozilla
@@ -265,3 +271,5 @@ dom
 /
 namespace
 mozilla
+#
+endif
