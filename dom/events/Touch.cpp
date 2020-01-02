@@ -410,7 +410,7 @@ EventTarget
 Touch
 :
 :
-GetTarget
+Target
 (
 )
 const
