@@ -483,7 +483,11 @@ nsThread
 for
 this
 PRThread
-mXPCOMThread
+nsCOMPtr
+<
+nsIThread
+>
+xpcomThread
 =
 NS_GetCurrentThread
 (
@@ -493,7 +497,7 @@ threadInternal
 =
 do_QueryInterface
 (
-mXPCOMThread
+xpcomThread
 )
 ;
 if
@@ -506,6 +510,13 @@ threadInternal
 SetObserver
 (
 this
+)
+;
+mXPCOMThread
+.
+swap
+(
+xpcomThread
 )
 ;
 lock
