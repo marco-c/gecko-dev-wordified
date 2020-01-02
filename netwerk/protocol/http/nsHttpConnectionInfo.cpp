@@ -178,10 +178,6 @@ bool
 usingSSL
 )
 :
-mRef
-(
-0
-)
 mProxyInfo
 (
 proxyInfo
