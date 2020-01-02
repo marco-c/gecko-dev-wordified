@@ -363,15 +363,9 @@ waitForExplicitFinish
 (
 )
 ;
-SpecialPowers
-.
-pushPrefEnv
+setMediaTestsPrefs
 (
-{
-"
-set
-"
-:
+beginTest
 [
 [
 "
@@ -382,8 +376,6 @@ cache_size
 40000
 ]
 ]
-}
-beginTest
 )
 ;
 function
