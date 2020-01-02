@@ -1076,6 +1076,12 @@ mediaSource
 "
 browser
 "
+browserWindow
+:
+windowId
+scrollWithPage
+:
+true
 advanced
 :
 [
