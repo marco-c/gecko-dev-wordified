@@ -1083,17 +1083,6 @@ mainThread
 )
 ;
 }
-CSF
-:
-:
-VcmSIPCCBinding
-:
-:
-setSTSThread
-(
-stsThread
-)
-;
 nsresult
 res
 ;
