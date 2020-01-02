@@ -283,11 +283,11 @@ false
 )
 mExtraField
 (
-NULL
+nullptr
 )
 mLocalExtraField
 (
-NULL
+nullptr
 )
 {
 }
@@ -298,11 +298,11 @@ nsZipHeader
 {
 mExtraField
 =
-NULL
+nullptr
 ;
 mLocalExtraField
 =
-NULL
+nullptr
 ;
 }
 uint32_t

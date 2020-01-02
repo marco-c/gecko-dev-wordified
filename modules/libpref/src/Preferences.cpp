@@ -2226,9 +2226,9 @@ Don
 '
 t
 set
-NULL
-to
 sPreferences
+to
+nullptr
 here
 .
 The
@@ -3517,7 +3517,7 @@ PREF_InitParseState
 &
 ps
 PREF_ReaderCallback
-NULL
+nullptr
 )
 ;
 while
@@ -4901,7 +4901,7 @@ char
 *
 )
 pref_CompareStrings
-NULL
+nullptr
 )
 ;
 /
@@ -5206,7 +5206,7 @@ PREF_InitParseState
 &
 ps
 PREF_ReaderCallback
-NULL
+nullptr
 )
 ;
 /
@@ -6230,7 +6230,7 @@ PREF_InitParseState
 &
 ps
 PREF_ReaderCallback
-NULL
+nullptr
 )
 ;
 PREF_ParseBuf

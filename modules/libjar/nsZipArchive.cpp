@@ -707,10 +707,10 @@ get
 )
 FILE_APPEND_DATA
 FILE_SHARE_WRITE
-NULL
+nullptr
 OPEN_ALWAYS
 0
-NULL
+nullptr
 )
 ;
 if
@@ -873,7 +873,7 @@ fd
 ;
 fd
 =
-NULL
+nullptr
 ;
 }
 }
@@ -2403,7 +2403,7 @@ mArena
 ;
 mFd
 =
-NULL
+nullptr
 ;
 }
 /
@@ -3338,7 +3338,7 @@ happens
 *
 aFind
 =
-NULL
+nullptr
 ;
 bool
 regExp
@@ -5465,7 +5465,7 @@ hash
 zi
 !
 =
-NULL
+nullptr
 ;
 zi
 =
@@ -5694,7 +5694,7 @@ if
 mFd
 )
 return
-NULL
+nullptr
 ;
 return
 mFd
@@ -6323,7 +6323,7 @@ initialize
 the
 table
 to
-NULL
+nullptr
 memset
 (
 mFiles

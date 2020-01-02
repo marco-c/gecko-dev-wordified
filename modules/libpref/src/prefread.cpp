@@ -1197,7 +1197,7 @@ ps
 >
 vb
 =
-NULL
+nullptr
 ;
 ps
 -
@@ -4109,7 +4109,7 @@ PREF_InitParseState
 &
 ps
 pref_reader
-NULL
+nullptr
 )
 ;
 while

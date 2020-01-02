@@ -988,7 +988,7 @@ for
 (
 may
 be
-NULL
+nullptr
 to
 find
 all
@@ -1024,7 +1024,7 @@ will
 be
 set
 to
-NULL
+nullptr
 .
 *
 return
@@ -1492,7 +1492,7 @@ uint8_t
 *
 aBuf
 =
-NULL
+nullptr
 uint32_t
 aBufSize
 =
@@ -1555,7 +1555,7 @@ return
 data
 read
 or
-NULL
+nullptr
 if
 item
 is
@@ -1614,7 +1614,7 @@ return
 data
 read
 or
-NULL
+nullptr
 if
 item
 is
@@ -1873,7 +1873,7 @@ whole
 zip
 member
 or
-NULL
+nullptr
 on
 error
 .
@@ -1976,7 +1976,7 @@ if
 mReturnBuf
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -2001,7 +2001,7 @@ mReturnBuf
 {
 mReturnBuf
 =
-NULL
+nullptr
 ;
 return
 (
@@ -2041,7 +2041,7 @@ Length
 ;
 mReturnBuf
 =
-NULL
+nullptr
 ;
 return
 ret

@@ -1407,7 +1407,7 @@ handler
 ;
 /
 /
-NULL
+nullptr
 parameter
 }
 NS_IMPL_ISUPPORTS_INHERITED7
