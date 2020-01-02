@@ -238,6 +238,12 @@ jsm
 .
 Promise
 ;
+exports
+.
+require
+=
+require
+;
 let
 math
 =

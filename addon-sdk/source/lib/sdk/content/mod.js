@@ -88,7 +88,9 @@ chrome
 )
 ;
 const
-method
+{
+dispatcher
+}
 =
 require
 (
@@ -96,12 +98,9 @@ require
 .
 .
 /
-.
-.
+util
 /
-method
-/
-core
+dispatcher
 "
 )
 ;
@@ -129,7 +128,7 @@ set
 let
 getTargetWindow
 =
-method
+dispatcher
 (
 "
 getTargetWindow
@@ -187,7 +186,7 @@ getTargetWindow
 let
 attachTo
 =
-method
+dispatcher
 (
 "
 attachTo
@@ -203,7 +202,7 @@ attachTo
 let
 detachFrom
 =
-method
+dispatcher
 (
 "
 detatchFrom

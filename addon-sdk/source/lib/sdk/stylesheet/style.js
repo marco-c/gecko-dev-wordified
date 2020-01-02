@@ -173,7 +173,6 @@ const
 {
 attachTo
 detachFrom
-getTargetWindow
 }
 =
 require
