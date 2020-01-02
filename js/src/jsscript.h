@@ -11143,6 +11143,12 @@ return
 column_
 ;
 }
+bool
+hasUncompiledEnclosingScript
+(
+)
+const
+;
 uint32_t
 staticLevel
 (
