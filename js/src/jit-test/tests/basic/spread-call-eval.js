@@ -207,8 +207,9 @@ a
 b
 "
 ]
-.
-iterator
+[
+std_iterator
+]
 (
 )
 )

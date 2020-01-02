@@ -818,7 +818,7 @@ ins
 static
 const
 unsigned
-ELEMENT_ITERATOR_PROTO
+ARRAY_ITERATOR_PROTO
 =
 FROM_BUFFER_UINT8CLAMPED
 +
@@ -829,7 +829,7 @@ const
 unsigned
 LEGACY_GENERATOR_OBJECT_PROTO
 =
-ELEMENT_ITERATOR_PROTO
+ARRAY_ITERATOR_PROTO
 +
 1
 ;
@@ -3181,7 +3181,7 @@ initIteratorClasses
 }
 JSObject
 *
-getOrCreateElementIteratorPrototype
+getOrCreateArrayIteratorPrototype
 (
 JSContext
 *
@@ -3192,7 +3192,7 @@ return
 getOrCreateObject
 (
 cx
-ELEMENT_ITERATOR_PROTO
+ARRAY_ITERATOR_PROTO
 initIteratorClasses
 )
 ;
