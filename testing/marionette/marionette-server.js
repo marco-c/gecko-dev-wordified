@@ -14361,11 +14361,11 @@ frame
 .
 if
 (
+(
 !
 listenerWindow
 |
 |
-(
 listenerWindow
 .
 location
