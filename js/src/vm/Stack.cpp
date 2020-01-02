@@ -1769,6 +1769,7 @@ flags_
 HAS_CALL_OBJ
 ;
 }
+return
 probes
 :
 :
@@ -1779,9 +1780,6 @@ script
 nullptr
 this
 )
-;
-return
-true
 ;
 }
 if
@@ -1790,7 +1788,7 @@ isGlobalFrame
 (
 )
 )
-{
+return
 probes
 :
 :
@@ -1802,10 +1800,6 @@ nullptr
 this
 )
 ;
-return
-true
-;
-}
 JS_ASSERT
 (
 isNonEvalFunctionFrame
@@ -1899,6 +1893,7 @@ obj
 )
 ;
 }
+return
 probes
 :
 :
@@ -1914,9 +1909,6 @@ functionNonDelazifying
 )
 this
 )
-;
-return
-true
 ;
 }
 void

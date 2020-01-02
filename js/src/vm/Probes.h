@@ -562,7 +562,7 @@ JS
 function
 *
 /
-bool
+void
 ExitScript
 (
 JSContext
