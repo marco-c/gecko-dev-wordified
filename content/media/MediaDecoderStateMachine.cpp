@@ -10637,6 +10637,12 @@ IsLogicallyPlaying
 )
 &
 &
+mState
+!
+=
+DECODER_STATE_SEEKING
+&
+&
 !
 needToDecodeAudio
 &
