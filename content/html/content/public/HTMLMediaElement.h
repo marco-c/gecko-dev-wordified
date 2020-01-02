@@ -2786,7 +2786,11 @@ MozAudioChannelType
 (
 )
 const
+{
+return
+mAudioChannel
 ;
+}
 void
 SetMozAudioChannelType
 (
@@ -6821,10 +6825,9 @@ mDownloadSuspendedByCache
 /
 Audio
 Channel
-Type
 .
-AudioChannelType
-mAudioChannelType
+AudioChannel
+mAudioChannel
 ;
 /
 /

@@ -200,7 +200,7 @@ h
 #
 include
 "
-AudioChannelCommon
+AudioChannelService
 .
 h
 "
@@ -5960,7 +5960,10 @@ tracks
 GetRate
 (
 )
-AUDIO_CHANNEL_NORMAL
+AudioChannel
+:
+:
+Normal
 AudioStream
 :
 :

@@ -2877,9 +2877,9 @@ bool
 RecvAudioChannelGetState
 (
 const
-AudioChannelType
+AudioChannel
 &
-aType
+aChannel
 const
 bool
 &
@@ -2899,9 +2899,9 @@ bool
 RecvAudioChannelRegisterType
 (
 const
-AudioChannelType
+AudioChannel
 &
-aType
+aChannel
 const
 bool
 &
@@ -2914,9 +2914,9 @@ bool
 RecvAudioChannelUnregisterType
 (
 const
-AudioChannelType
+AudioChannel
 &
-aType
+aChannel
 const
 bool
 &
@@ -2940,9 +2940,9 @@ bool
 RecvAudioChannelChangeDefVolChannel
 (
 const
-AudioChannelType
+int32_t
 &
-aType
+aChannel
 const
 bool
 &

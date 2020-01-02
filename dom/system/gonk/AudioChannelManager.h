@@ -318,7 +318,7 @@ hal
 SwitchState
 mState
 ;
-AudioChannelType
+int32_t
 mVolumeChannel
 ;
 }

@@ -209,8 +209,8 @@ RegisterAudioChannelAgent
 AudioChannelAgent
 *
 aAgent
-AudioChannelType
-aType
+AudioChannel
+aChannel
 bool
 aWithVideo
 )
@@ -262,8 +262,8 @@ virtual
 void
 SetDefaultVolumeControlChannel
 (
-AudioChannelType
-aType
+int32_t
+aChannel
 bool
 aHidden
 )
