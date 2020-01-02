@@ -5952,6 +5952,12 @@ TrackID
 aID
 )
 {
+mMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 for
 (
 uint32_t

@@ -14757,6 +14757,9 @@ err
 =
 VCM_ERROR
 ;
+bool
+is_video
+;
 if
 (
 CC_IS_AUDIO
@@ -14781,6 +14784,10 @@ pc
 attrs
 conduit
 )
+;
+is_video
+=
+false
 ;
 }
 else
@@ -14808,6 +14815,10 @@ pc
 attrs
 conduit
 )
+;
+is_video
+=
+true
 ;
 }
 else
@@ -14925,6 +14936,7 @@ GetMediaStream
 )
 pc_track_id
 level
+is_video
 conduit
 rtp_flow
 rtcp_flow
