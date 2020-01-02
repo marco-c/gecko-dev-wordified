@@ -672,6 +672,17 @@ ErrorResult
 aRv
 )
 ;
+IDBFactory
+*
+Factory
+(
+)
+const
+{
+return
+mFactory
+;
+}
 /
 /
 nsWrapperCache

@@ -700,6 +700,17 @@ return
 mASCIIOrigin
 ;
 }
+bool
+FromIPC
+(
+)
+{
+return
+!
+!
+mContentParent
+;
+}
 /
 /
 nsWrapperCache
