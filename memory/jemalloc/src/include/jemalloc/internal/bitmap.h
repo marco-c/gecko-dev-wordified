@@ -1118,7 +1118,7 @@ group_offset
 ;
 bit
 =
-ffsl
+jemalloc_ffsl
 (
 g
 )
@@ -1163,7 +1163,7 @@ LG_BITMAP_GROUP_NBITS
 )
 +
 (
-ffsl
+jemalloc_ffsl
 (
 g
 )

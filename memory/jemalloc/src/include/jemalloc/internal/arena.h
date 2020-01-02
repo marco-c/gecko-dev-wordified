@@ -5255,7 +5255,7 @@ reg_interval
 ;
 shift
 =
-ffs
+jemalloc_ffs
 (
 interval
 )
