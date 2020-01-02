@@ -144,15 +144,6 @@ mozilla
 .
 gecko
 .
-TestConstants
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 tests
 .
 components
