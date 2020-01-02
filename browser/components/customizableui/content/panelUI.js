@@ -1334,9 +1334,8 @@ break
 ;
 }
 }
+get
 isReady
-:
-function
 (
 )
 {
