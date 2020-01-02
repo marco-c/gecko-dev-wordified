@@ -15734,6 +15734,9 @@ script
 (
 )
 ;
+if
+(
+!
 types
 :
 :
@@ -15753,6 +15756,9 @@ script
 (
 )
 )
+)
+return
+true
 ;
 if
 (

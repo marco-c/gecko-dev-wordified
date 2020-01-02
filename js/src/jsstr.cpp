@@ -21208,11 +21208,11 @@ far
 .
 *
 /
-AddTypeProperty
+AddTypePropertyId
 (
 cx
 type
-nullptr
+JSID_VOID
 UndefinedValue
 (
 )
@@ -22026,11 +22026,11 @@ type
 return
 false
 ;
-AddTypeProperty
+AddTypePropertyId
 (
 cx
 type
-nullptr
+JSID_VOID
 Type
 :
 :
