@@ -163,6 +163,11 @@ Float32
 \
 _
 (
+SimdValueX4
+)
+\
+_
+(
 SimdExtractElementI
 )
 \
