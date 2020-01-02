@@ -246,12 +246,6 @@ aOther
 .
 mGateways
 ;
-mHostnames
-=
-aOther
-.
-mHostnames
-;
 mId
 =
 aOther
@@ -706,11 +700,6 @@ COPY_SEQUENCE_FIELD
 mGateways
 nsString
 )
-COPY_SEQUENCE_FIELD
-(
-mHostnames
-nsString
-)
 COPY_OPT_STRING_FIELD
 (
 mIfname
@@ -964,12 +953,6 @@ nsTArray
 nsString
 >
 mGateways
-;
-nsTArray
-<
-nsString
->
-mHostnames
 ;
 nsString
 mIfname
