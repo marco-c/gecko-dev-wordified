@@ -1578,6 +1578,11 @@ function
 let
 result
 ;
+let
+noFilesFound
+=
+true
+;
 /
 /
 Attempt
@@ -1769,6 +1774,10 @@ if
 exists
 )
 {
+noFilesFound
+=
+false
+;
 Telemetry
 .
 getHistogramById
@@ -1821,6 +1830,12 @@ null
 }
 ;
 }
+result
+.
+noFilesFound
+=
+noFilesFound
+;
 /
 /
 Initialize
