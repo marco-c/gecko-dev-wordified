@@ -8357,17 +8357,6 @@ apiWindowPrefix
 Length
 (
 )
-aName
-.
-Length
-(
-)
--
-apiWindowPrefix
-.
-Length
-(
-)
 )
 ;
 if
