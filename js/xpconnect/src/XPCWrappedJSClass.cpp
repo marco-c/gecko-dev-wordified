@@ -865,11 +865,6 @@ mDescriptors
 nullptr
 )
 {
-NS_ADDREF
-(
-mInfo
-)
-;
 NS_ADDREF_THIS
 (
 )
@@ -1097,11 +1092,6 @@ nsMemory
 Free
 (
 mName
-)
-;
-NS_IF_RELEASE
-(
-mInfo
 )
 ;
 }
@@ -10236,6 +10226,10 @@ InterfaceInfo
 x
 "
 mInfo
+.
+get
+(
+)
 )
 )
 ;

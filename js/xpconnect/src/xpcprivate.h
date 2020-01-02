@@ -15413,8 +15413,10 @@ XPCJSRuntime
 *
 mRuntime
 ;
+nsCOMPtr
+<
 nsIInterfaceInfo
-*
+>
 mInfo
 ;
 char
