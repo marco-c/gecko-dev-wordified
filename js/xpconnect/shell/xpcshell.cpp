@@ -127,15 +127,6 @@ include
 "
 mozilla
 /
-Util
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WindowsDllBlocklist
 .
 h

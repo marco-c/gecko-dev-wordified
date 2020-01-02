@@ -94,15 +94,6 @@ MPL
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsFormSubmission
 .
 h

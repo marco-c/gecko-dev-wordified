@@ -236,15 +236,6 @@ include
 "
 mozilla
 /
-Util
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 ContentParent

@@ -96,15 +96,6 @@ include
 "
 mozilla
 /
-Util
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 CompositorChild

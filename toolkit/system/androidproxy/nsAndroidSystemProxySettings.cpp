@@ -110,15 +110,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsISystemProxySettings
 .
 h

@@ -118,15 +118,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsAttrValueInlines
 .
 h

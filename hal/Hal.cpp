@@ -135,15 +135,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

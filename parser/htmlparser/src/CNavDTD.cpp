@@ -114,15 +114,6 @@ MPL
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h

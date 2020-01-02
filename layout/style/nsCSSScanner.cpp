@@ -157,12 +157,6 @@ include
 <
 algorithm
 >
-using
-mozilla
-:
-:
-ArrayLength
-;
 /
 *
 Character
