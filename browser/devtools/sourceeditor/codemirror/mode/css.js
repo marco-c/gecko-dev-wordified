@@ -5778,6 +5778,9 @@ powderblue
 purple
 "
 "
+rebeccapurple
+"
+"
 red
 "
 "
