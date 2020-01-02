@@ -502,6 +502,9 @@ point
 /
 class
 AutoEntryScript
+:
+protected
+ScriptSettingsStackEntry
 {
 public
 :
@@ -549,12 +552,6 @@ dom
 ScriptSettingsStack
 &
 mStack
-;
-dom
-:
-:
-ScriptSettingsStackEntry
-mEntry
 ;
 mozilla
 :
@@ -615,6 +612,9 @@ stack
 /
 class
 AutoIncumbentScript
+:
+protected
+ScriptSettingsStackEntry
 {
 public
 :
@@ -638,12 +638,6 @@ dom
 ScriptSettingsStack
 &
 mStack
-;
-dom
-:
-:
-ScriptSettingsStackEntry
-mEntry
 ;
 JS
 :
