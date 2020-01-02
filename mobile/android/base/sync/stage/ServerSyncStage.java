@@ -1259,6 +1259,11 @@ session
 getAuthHeaderProvider
 (
 )
+session
+.
+config
+.
+infoCollections
 )
 ;
 }

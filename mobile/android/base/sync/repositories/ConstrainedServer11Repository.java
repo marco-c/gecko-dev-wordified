@@ -83,6 +83,17 @@ gecko
 .
 sync
 .
+InfoCollections
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+sync
+.
 net
 .
 AuthHeaderProvider
@@ -141,6 +152,8 @@ String
 storageURL
 AuthHeaderProvider
 authHeaderProvider
+InfoCollections
+infoCollections
 long
 limit
 String
@@ -154,6 +167,7 @@ super
 collection
 storageURL
 authHeaderProvider
+infoCollections
 )
 ;
 this
