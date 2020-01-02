@@ -169,9 +169,6 @@ TelephonyCallGroup
 >
 mGroup
 ;
-uint32_t
-mServiceId
-;
 nsString
 mNumber
 ;
@@ -426,8 +423,6 @@ Create
 Telephony
 *
 aTelephony
-uint32_t
-aServiceId
 const
 nsAString
 &
@@ -463,16 +458,6 @@ ChangeStateInternal
 aCallState
 true
 )
-;
-}
-uint32_t
-ServiceId
-(
-)
-const
-{
-return
-mServiceId
 ;
 }
 uint32_t

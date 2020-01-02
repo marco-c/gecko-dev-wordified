@@ -202,10 +202,6 @@ bool
 RecvNotifyCallError
 (
 const
-uint32_t
-&
-aClientId
-const
 int32_t
 &
 aCallIndex
@@ -221,10 +217,6 @@ bool
 RecvNotifyCallStateChanged
 (
 const
-uint32_t
-&
-aClientId
-const
 IPCCallStateData
 &
 aData
@@ -235,10 +227,6 @@ virtual
 bool
 RecvNotifyCdmaCallWaiting
 (
-const
-uint32_t
-&
-aClientId
 const
 nsString
 &
@@ -261,10 +249,6 @@ virtual
 bool
 RecvNotifySupplementaryService
 (
-const
-uint32_t
-&
-aClientId
 const
 int32_t
 &
@@ -330,10 +314,6 @@ virtual
 bool
 RecvNotifyEnumerateCallState
 (
-const
-uint32_t
-&
-aClientId
 const
 IPCCallStateData
 &

@@ -355,8 +355,6 @@ TelephonyCall
 GetCall
 (
 uint32_t
-aServiceId
-uint32_t
 aCallIndex
 )
 ;

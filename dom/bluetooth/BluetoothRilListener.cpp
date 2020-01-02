@@ -451,20 +451,6 @@ NS_OK
 TelephonyListener
 Implementation
 *
-*
-TODO
-:
-Bug
-921991
--
-B2G
-BT
-:
-support
-multiple
-sim
-cards
-*
 /
 class
 TelephonyListener
@@ -494,8 +480,6 @@ TelephonyListener
 :
 CallStateChanged
 (
-uint32_t
-aServiceId
 uint32_t
 aCallIndex
 uint16_t
@@ -551,8 +535,6 @@ TelephonyListener
 EnumerateCallState
 (
 uint32_t
-aServiceId
-uint32_t
 aCallIndex
 uint16_t
 aCallState
@@ -606,8 +588,6 @@ TelephonyListener
 :
 NotifyError
 (
-uint32_t
-aServiceId
 int32_t
 aCallIndex
 const
@@ -780,8 +760,6 @@ TelephonyListener
 :
 SupplementaryServiceNotification
 (
-uint32_t
-aServiceId
 int32_t
 aCallIndex
 uint16_t
@@ -798,8 +776,6 @@ TelephonyListener
 :
 NotifyCdmaCallWaiting
 (
-uint32_t
-aServiceId
 const
 nsAString
 &

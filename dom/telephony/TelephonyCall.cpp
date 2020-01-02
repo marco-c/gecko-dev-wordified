@@ -201,8 +201,6 @@ Create
 Telephony
 *
 aTelephony
-uint32_t
-aServiceId
 const
 nsAString
 &
@@ -286,13 +284,6 @@ call
 mTelephony
 =
 aTelephony
-;
-call
--
->
-mServiceId
-=
-aServiceId
 ;
 call
 -
@@ -1185,7 +1176,6 @@ Provider
 >
 AnswerCall
 (
-mServiceId
 mCallIndex
 )
 ;
@@ -1285,7 +1275,6 @@ Provider
 >
 RejectCall
 (
-mServiceId
 mCallIndex
 )
 :
@@ -1299,7 +1288,6 @@ Provider
 >
 HangUp
 (
-mServiceId
 mCallIndex
 )
 ;
@@ -1403,7 +1391,6 @@ Provider
 >
 HoldCall
 (
-mServiceId
 mCallIndex
 )
 ;
@@ -1556,7 +1543,6 @@ Provider
 >
 ResumeCall
 (
-mServiceId
 mCallIndex
 )
 ;
