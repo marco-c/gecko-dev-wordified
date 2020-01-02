@@ -4335,7 +4335,7 @@ msg
 =
 JS_sprintf_append
 (
-NULL
+nullptr
 "
 unknown
 option
@@ -7414,7 +7414,7 @@ JS_ExecuteScript
 cx
 thisobj
 script
-NULL
+nullptr
 )
 )
 return

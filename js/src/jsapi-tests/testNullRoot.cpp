@@ -190,7 +190,7 @@ crash
 because
 obj
 was
-NULL
+nullptr
 .
 JS_GC
 (

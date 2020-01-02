@@ -2108,7 +2108,7 @@ hasBaselineScript
 )
 )
 return
-NULL
+nullptr
 ;
 const
 ICEntry
@@ -2228,7 +2228,7 @@ break
 }
 }
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -2253,7 +2253,7 @@ hasBaselineScript
 )
 )
 return
-NULL
+nullptr
 ;
 const
 ICEntry
@@ -2334,7 +2334,7 @@ templateObject
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 DeclEnvObject

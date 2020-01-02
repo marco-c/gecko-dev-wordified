@@ -4062,7 +4062,7 @@ IonAlloc
 )
 )
 :
-NULL
+nullptr
 )
 {
 }
@@ -4648,7 +4648,7 @@ existing
 )
 )
 :
-NULL
+nullptr
 ;
 *
 pBytecodeTypes
@@ -5249,7 +5249,7 @@ hasLazyType
 )
 )
 return
-NULL
+nullptr
 ;
 return
 asSingleObject
@@ -5306,7 +5306,7 @@ maybecx
 /
 *
 =
-NULL
+nullptr
 *
 /
 )
@@ -5597,7 +5597,7 @@ return
 maybeTypes_
 !
 =
-NULL
+nullptr
 ;
 }
 static
