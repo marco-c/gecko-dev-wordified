@@ -251,6 +251,7 @@ super
 (
 context
 cursor
+0
 )
 ;
 if
