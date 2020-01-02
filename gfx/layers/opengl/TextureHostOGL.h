@@ -1396,10 +1396,6 @@ gfx
 :
 IntSize
 aSize
-const
-gfx3DMatrix
-&
-aTexTransform
 )
 ;
 virtual
@@ -1466,11 +1462,7 @@ GetTextureTransform
 (
 )
 MOZ_OVERRIDE
-{
-return
-mTextureTransform
 ;
-}
 virtual
 GLenum
 GetTextureTarget
@@ -1544,9 +1536,6 @@ const
 ;
 protected
 :
-gfx3DMatrix
-mTextureTransform
-;
 gfx
 :
 :

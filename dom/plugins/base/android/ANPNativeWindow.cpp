@@ -270,6 +270,13 @@ SetInverted
 isContentInverted
 )
 ;
+pinst
+-
+>
+RedrawPlugin
+(
+)
+;
 }
 void
 InitNativeWindowInterface
