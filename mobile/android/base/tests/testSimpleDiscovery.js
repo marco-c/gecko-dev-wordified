@@ -181,7 +181,7 @@ service
 =
 SimpleServiceDiscovery
 .
-findServiceForLocation
+findServiceForID
 (
 data
 )
