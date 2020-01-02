@@ -104,6 +104,8 @@ config
 import
 (
     
+HgIncludeException
+    
 HOST_FINGERPRINTS
     
 MercurialConfig
@@ -1341,6 +1343,22 @@ errors
 print
 (
 error
+.
+message
+)
+            
+return
+1
+        
+except
+HgIncludeException
+as
+e
+:
+            
+print
+(
+e
 .
 message
 )
