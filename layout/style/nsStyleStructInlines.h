@@ -778,6 +778,11 @@ HasTransform
 (
 aContextFrame
 )
+|
+|
+HasPerspectiveStyle
+(
+)
 )
 &
 &
