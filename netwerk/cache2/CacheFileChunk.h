@@ -337,7 +337,7 @@ CacheFileHandle
 aHandle
 uint32_t
 aLen
-CacheHashUtils
+CacheHash
 :
 :
 Hash16_t
@@ -384,7 +384,7 @@ Index
 (
 )
 ;
-CacheHashUtils
+CacheHash
 :
 :
 Hash16_t
@@ -457,6 +457,16 @@ aResult
 ;
 NS_IMETHOD
 OnEOFSet
+(
+CacheFileHandle
+*
+aHandle
+nsresult
+aResult
+)
+;
+NS_IMETHOD
+OnFileRenamed
 (
 CacheFileHandle
 *
@@ -575,7 +585,7 @@ mRWBuf
 uint32_t
 mRWBufSize
 ;
-CacheHashUtils
+CacheHash
 :
 :
 Hash16_t
