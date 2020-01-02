@@ -156,12 +156,6 @@ defined
 (
 WIN32
 )
-&
-&
-defined
-(
-USE_SKIA
-)
 #
 include
 "
