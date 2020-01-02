@@ -6942,6 +6942,8 @@ if
 (
 this
 .
+_dompc
+.
 localDescription
 )
 {
