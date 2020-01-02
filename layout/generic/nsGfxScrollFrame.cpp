@@ -17587,7 +17587,7 @@ newVerticalOverflow
 =
 newHorizontalOverflow
 ;
-nsScrollPortEvent
+InternalScrollPortEvent
 :
 :
 orientType
@@ -17600,7 +17600,7 @@ both
 {
 orient
 =
-nsScrollPortEvent
+InternalScrollPortEvent
 :
 :
 both
@@ -17622,7 +17622,7 @@ vertChanged
 {
 orient
 =
-nsScrollPortEvent
+InternalScrollPortEvent
 :
 :
 vertical
@@ -17679,7 +17679,7 @@ else
 {
 orient
 =
-nsScrollPortEvent
+InternalScrollPortEvent
 :
 :
 horizontal
@@ -17689,7 +17689,7 @@ mHorizontalOverflow
 newHorizontalOverflow
 ;
 }
-nsScrollPortEvent
+InternalScrollPortEvent
 event
 (
 true
@@ -17697,7 +17697,7 @@ true
 orient
 =
 =
-nsScrollPortEvent
+InternalScrollPortEvent
 :
 :
 horizontal
