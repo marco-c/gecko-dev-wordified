@@ -227,7 +227,7 @@ example
 .
 com
 "
-OSRTGood
+ORTGood
 }
 {
 "
@@ -241,7 +241,7 @@ example
 .
 com
 "
-OSRTRevoked
+ORTRevoked
 }
 {
 "
@@ -255,7 +255,7 @@ example
 .
 com
 "
-OSRTUnknown
+ORTUnknown
 }
 {
 "
@@ -271,7 +271,7 @@ example
 .
 com
 "
-OSRTGoodOtherCert
+ORTGoodOtherCert
 }
 {
 "
@@ -289,7 +289,7 @@ example
 .
 com
 "
-OSRTGoodOtherCA
+ORTGoodOtherCA
 }
 {
 "
@@ -303,7 +303,7 @@ example
 .
 com
 "
-OSRTExpired
+ORTExpired
 }
 {
 "
@@ -321,7 +321,7 @@ example
 .
 com
 "
-OSRTExpiredFreshCA
+ORTExpiredFreshCA
 }
 {
 "
@@ -335,7 +335,7 @@ example
 .
 com
 "
-OSRTNone
+ORTNone
 }
 {
 "
@@ -349,7 +349,7 @@ example
 .
 com
 "
-OSRTEmpty
+ORTEmpty
 }
 {
 "
@@ -363,7 +363,7 @@ example
 .
 com
 "
-OSRTMalformed
+ORTMalformed
 }
 {
 "
@@ -377,7 +377,7 @@ example
 .
 com
 "
-OSRTSrverr
+ORTSrverr
 }
 {
 "
@@ -391,7 +391,7 @@ example
 .
 com
 "
-OSRTTryLater
+ORTTryLater
 }
 {
 "
@@ -405,7 +405,7 @@ example
 .
 com
 "
-OSRTNeedsSig
+ORTNeedsSig
 }
 {
 "
@@ -419,11 +419,11 @@ example
 .
 com
 "
-OSRTUnauthorized
+ORTUnauthorized
 }
 {
 nullptr
-OSRTNull
+ORTNull
 }
 }
 ;
@@ -546,10 +546,10 @@ if
 host
 -
 >
-mOSRT
+mORT
 =
 =
-OSRTNone
+ORTNone
 )
 {
 return
@@ -607,7 +607,7 @@ GetOCSPResponseForType
 host
 -
 >
-mOSRT
+mORT
 cert
 arena
 )
