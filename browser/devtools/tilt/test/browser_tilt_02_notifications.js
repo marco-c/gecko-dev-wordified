@@ -705,6 +705,16 @@ tab_HIDDEN
 HIDDEN
 )
 ;
+Services
+.
+obs
+.
+removeObserver
+(
+tab_STARTUP
+STARTUP
+)
+;
 gBrowser
 .
 tabContainer
