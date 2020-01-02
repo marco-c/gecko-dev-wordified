@@ -311,10 +311,6 @@ PanelViewAdapter
 (
 context
 viewConfig
-.
-getItemType
-(
-)
 )
 ;
 setAdapter
