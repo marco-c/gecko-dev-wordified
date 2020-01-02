@@ -3357,7 +3357,7 @@ the
 GPS
 device
 for
-1s
+10s
 /
 /
 use
@@ -3366,6 +3366,12 @@ network
 derived
 location
 .
+const
+int
+kMaxGPSDelayBeforeConsideringMLS
+=
+10000
+;
 int64_t
 diff
 =
@@ -3388,7 +3394,7 @@ mLocationCallback
 &
 diff
 >
-kDefaultPeriod
+kMaxGPSDelayBeforeConsideringMLS
 &
 &
 delta
