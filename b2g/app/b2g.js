@@ -1188,7 +1188,8 @@ X
 so
 progressive
 paint
-cannot
+can
+not
 be
 enabled
 for
@@ -1226,7 +1227,7 @@ progressive
 -
 paint
 "
-true
+false
 )
 ;
 #
