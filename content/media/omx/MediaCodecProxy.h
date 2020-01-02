@@ -708,6 +708,17 @@ AMessage
 aNotify
 )
 ;
+/
+/
+If
+aData
+is
+null
+will
+notify
+decoder
+input
+EOS
 status_t
 Input
 (
