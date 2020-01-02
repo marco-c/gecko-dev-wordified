@@ -1743,7 +1743,11 @@ return
 runtime_
 -
 >
-gcSystemPageSize
+pageAllocator
+.
+systemPageSize
+(
+)
 ;
 }
 bool

@@ -3604,7 +3604,7 @@ reason
 PRMJ_Now
 (
 )
-gc
+SystemPageAllocator
 :
 :
 GetPageFaultCount
@@ -3749,7 +3749,7 @@ back
 .
 endFaults
 =
-gc
+SystemPageAllocator
 :
 :
 GetPageFaultCount
