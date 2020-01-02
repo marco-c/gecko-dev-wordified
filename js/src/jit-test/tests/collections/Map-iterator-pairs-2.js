@@ -117,12 +117,8 @@ std_iterator
 ]
 (
 )
-.
-next
-(
-)
 ;
-assertIteratorResult
+assertIteratorNext
 (
 a1
 [
@@ -131,7 +127,6 @@ a
 '
 1
 ]
-false
 )
 ;
 assertEq

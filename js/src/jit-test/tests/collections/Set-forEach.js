@@ -152,15 +152,10 @@ v
 true
 )
 ;
-assertIteratorResult
+assertIteratorNext
 (
 iterator
-.
-next
-(
-)
 v
-false
 )
 ;
 count

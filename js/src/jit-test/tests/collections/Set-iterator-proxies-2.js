@@ -121,7 +121,7 @@ y
 "
 )
 ;
-assertIteratorResult
+assertIteratorNext
 (
 iterator_fn
 .
@@ -129,14 +129,9 @@ call
 (
 setw
 )
-.
-next
-(
-)
 "
 x
 "
-false
 )
 ;
 var

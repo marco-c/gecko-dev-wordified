@@ -124,15 +124,10 @@ std_iterator
 proto
 )
 ;
-assertIteratorResult
+assertIteratorDone
 (
 proto
-.
-next
-(
-)
 undefined
-true
 )
 ;
 }
