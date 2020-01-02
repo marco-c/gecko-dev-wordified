@@ -6795,7 +6795,7 @@ OOM_SCORE_ADJ_MIN
 1
 ;
 int32_t
-lowerBoundOfNextKillUnderMB
+lowerBoundOfNextKillUnderKB
 =
 0
 ;
@@ -6904,7 +6904,7 @@ MOZ_CRASH
 ;
 }
 int32_t
-killUnderMB
+killUnderKB
 ;
 if
 (
@@ -6928,7 +6928,7 @@ gonk
 %
 s
 .
-KillUnderMB
+KillUnderKB
 "
 ProcessPriorityToString
 (
@@ -6940,7 +6940,7 @@ get
 (
 )
 &
-killUnderMB
+killUnderKB
 )
 )
 )
@@ -6988,9 +6988,9 @@ lowerBoundOfNextOomScoreAdj
 ;
 MOZ_ASSERT
 (
-killUnderMB
+killUnderKB
 >
-lowerBoundOfNextKillUnderMB
+lowerBoundOfNextKillUnderKB
 )
 ;
 /
@@ -7055,9 +7055,7 @@ AppendPrintf
 %
 d
 "
-killUnderMB
-*
-1024
+killUnderKB
 *
 1024
 /
@@ -7068,9 +7066,9 @@ lowerBoundOfNextOomScoreAdj
 =
 oomScoreAdj
 ;
-lowerBoundOfNextKillUnderMB
+lowerBoundOfNextKillUnderKB
 =
-killUnderMB
+killUnderKB
 ;
 countOfLowmemorykillerParametersSets
 +
@@ -7185,7 +7183,7 @@ notification
 threshold
 .
 int32_t
-lowMemNotifyThresholdMB
+lowMemNotifyThresholdKB
 ;
 if
 (
@@ -7203,10 +7201,10 @@ processPriorityManager
 .
 gonk
 .
-notifyLowMemUnderMB
+notifyLowMemUnderKB
 "
 &
-lowMemNotifyThresholdMB
+lowMemNotifyThresholdKB
 )
 )
 )
@@ -7238,9 +7236,7 @@ nsPrintfCString
 %
 d
 "
-lowMemNotifyThresholdMB
-*
-1024
+lowMemNotifyThresholdKB
 *
 1024
 /
