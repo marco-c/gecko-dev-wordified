@@ -2034,7 +2034,7 @@ StackPointer
 movsd
 (
 src
-Operand
+Address
 (
 StackPointer
 0
@@ -2080,7 +2080,7 @@ src
 {
 movsd
 (
-Operand
+Address
 (
 StackPointer
 0
