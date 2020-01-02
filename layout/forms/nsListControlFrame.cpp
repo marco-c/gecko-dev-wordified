@@ -15530,6 +15530,15 @@ if
 (
 !
 optionElement
+|
+|
+!
+optionElement
+-
+>
+GetPrimaryFrame
+(
+)
 )
 {
 continue
