@@ -2043,6 +2043,11 @@ KEY_STR_NUM
 __LINE__
 )
 )
+/
+sizeof
+(
+char16_t
+)
 #
 include
 "
