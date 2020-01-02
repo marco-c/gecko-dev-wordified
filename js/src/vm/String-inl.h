@@ -566,6 +566,8 @@ length
 {
 d
 .
+u0
+.
 lengthAndFlags
 =
 buildLengthAndFlags
@@ -822,6 +824,8 @@ base
 )
 ;
 d
+.
+u0
 .
 lengthAndFlags
 =
@@ -1282,6 +1286,8 @@ length
 {
 d
 .
+u0
+.
 lengthAndFlags
 =
 buildLengthAndFlags
@@ -1523,6 +1529,8 @@ length
 {
 d
 .
+u0
+.
 lengthAndFlags
 =
 buildLengthAndFlags
@@ -1583,6 +1591,8 @@ length
 )
 {
 d
+.
+u0
 .
 lengthAndFlags
 =
@@ -1684,6 +1694,8 @@ finalize
 )
 ;
 d
+.
+u0
 .
 lengthAndFlags
 =
