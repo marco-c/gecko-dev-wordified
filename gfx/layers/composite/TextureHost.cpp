@@ -1062,10 +1062,6 @@ TextureFlags
 aFlags
 )
 :
-mRefCount
-(
-0
-)
 mFlags
 (
 aFlags
