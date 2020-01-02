@@ -2222,7 +2222,6 @@ implicit
 StartArgSlot
 (
 script
-fun
 )
 ;
 uint32_t

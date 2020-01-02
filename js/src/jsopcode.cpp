@@ -908,7 +908,7 @@ StaticBlockObject
 (
 )
 .
-slotCount
+propertyCountForCompilation
 (
 )
 ;
