@@ -750,15 +750,9 @@ addEventListener
 "
 error
 "
-error
-=
->
 deferred
 .
 reject
-(
-error
-)
 )
 ;
 xhr
