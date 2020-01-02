@@ -1086,6 +1086,9 @@ aIsVersionChangeTransactionChild
 ;
 IDBTransaction
 (
+IDBDatabase
+*
+aDatabase
 )
 ;
 ~

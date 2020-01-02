@@ -579,6 +579,16 @@ protected
 :
 IDBRequest
 (
+IDBDatabase
+*
+aDatabase
+)
+;
+IDBRequest
+(
+nsPIDOMWindow
+*
+aOwner
 )
 ;
 ~
@@ -833,6 +843,9 @@ protected
 :
 IDBOpenDBRequest
 (
+nsPIDOMWindow
+*
+aOwner
 )
 ;
 ~

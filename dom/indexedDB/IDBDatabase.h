@@ -932,6 +932,9 @@ private
 :
 IDBDatabase
 (
+IDBWrapperCache
+*
+aOwnerCache
 )
 ;
 ~
