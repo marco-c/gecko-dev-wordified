@@ -199,6 +199,8 @@ XP_WIN
 #
 include
 "
+windows
+/
 nsCollationWin
 .
 h
@@ -206,6 +208,8 @@ h
 #
 include
 "
+windows
+/
 nsDateTimeFormatWin
 .
 h
@@ -218,6 +222,8 @@ XP_OS2
 #
 include
 "
+os2
+/
 nsOS2Locale
 .
 h
@@ -225,6 +231,8 @@ h
 #
 include
 "
+os2
+/
 nsCollationOS2
 .
 h
@@ -232,6 +240,8 @@ h
 #
 include
 "
+os2
+/
 nsDateTimeFormatOS2
 .
 h
@@ -244,6 +254,8 @@ USE_MAC_LOCALE
 #
 include
 "
+mac
+/
 nsCollationMacUC
 .
 h
@@ -251,6 +263,8 @@ h
 #
 include
 "
+mac
+/
 nsDateTimeFormatMac
 .
 h
@@ -263,6 +277,8 @@ USE_UNIX_LOCALE
 #
 include
 "
+unix
+/
 nsCollationUnix
 .
 h
@@ -270,6 +286,8 @@ h
 #
 include
 "
+unix
+/
 nsDateTimeFormatUnix
 .
 h
