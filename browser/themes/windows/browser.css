@@ -2662,6 +2662,8 @@ shared
 toolbarbuttons
 .
 inc
+.
+css
 %
 include
 .
@@ -2672,6 +2674,8 @@ shared
 menupanel
 .
 inc
+.
+css
 %
 ifndef
 WINDOWS_AERO
