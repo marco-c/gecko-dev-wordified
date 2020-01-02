@@ -1732,7 +1732,7 @@ context
 stack
 so
 the
-EvalInSandboxObject
+JS_ValueToString
 call
 (
 and

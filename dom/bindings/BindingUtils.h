@@ -6063,13 +6063,7 @@ cx
 JS
 :
 :
-Handle
-<
-JS
-:
-:
 Value
->
 v
 const
 EnumEntry
@@ -6107,10 +6101,7 @@ JSString
 *
 str
 =
-JS
-:
-:
-ToString
+JS_ValueToString
 (
 cx
 v
@@ -9991,10 +9982,7 @@ true
 }
 s
 =
-JS
-:
-:
-ToString
+JS_ValueToString
 (
 cx
 v
