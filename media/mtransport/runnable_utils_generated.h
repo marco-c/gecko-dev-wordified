@@ -84,6 +84,7 @@ NoResult
 {
 public
 :
+explicit
 runnable_args_nm_0
 (
 M

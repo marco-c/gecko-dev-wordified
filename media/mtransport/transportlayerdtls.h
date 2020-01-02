@@ -223,6 +223,7 @@ TransportLayerNSPRAdapter
 {
 public
 :
+explicit
 TransportLayerNSPRAdapter
 (
 TransportLayer

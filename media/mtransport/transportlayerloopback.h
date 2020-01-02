@@ -553,6 +553,7 @@ nsITimerCallback
 {
 public
 :
+explicit
 Deliverer
 (
 TransportLayerLoopback
