@@ -1605,10 +1605,6 @@ RenderLayerBuffer
 TiledLayerBufferComposite
 &
 aLayerBuffer
-const
-nsIntRegion
-&
-aValidRegion
 EffectChain
 &
 aEffectChain
@@ -1628,12 +1624,8 @@ gfx
 Rect
 &
 aClipRect
-const
 nsIntRegion
-&
 aMaskRegion
-nsIntRect
-aVisibleRect
 gfx
 :
 :
