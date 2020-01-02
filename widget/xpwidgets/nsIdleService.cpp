@@ -3902,7 +3902,7 @@ NS_OK
 Now
 send
 "
-back
+active
 "
 events
 to
@@ -3913,10 +3913,10 @@ should
 have
 timed
 out
-allready
+already
+/
+/
 then
-/
-/
 they
 will
 be
