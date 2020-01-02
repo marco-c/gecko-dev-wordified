@@ -532,8 +532,8 @@ mStride
 ;
 }
 #
-ifdef
-MOZ_WIDGET_GONK
+if
+0
 static
 bool
 IsYV12Format
@@ -1560,8 +1560,8 @@ PLANAR_YCBCR
 format
 .
 #
-ifdef
-MOZ_WIDGET_GONK
+if
+0
 if
 (
 IsYV12Format
