@@ -736,9 +736,15 @@ addPackaged
 :
 function
 (
+folder
 )
 {
-let
+if
+(
+!
+folder
+)
+{
 folder
 =
 this
@@ -747,6 +753,7 @@ _selectFolder
 (
 )
 ;
+}
 if
 (
 !
@@ -754,6 +761,7 @@ folder
 )
 return
 ;
+return
 AppProjects
 .
 addPackaged
@@ -812,6 +820,7 @@ project
 wrapper
 "
 )
+;
 if
 (
 !
