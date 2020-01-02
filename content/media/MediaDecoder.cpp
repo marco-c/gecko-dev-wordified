@@ -3174,6 +3174,9 @@ static
 bool
 IsInRanges
 (
+dom
+:
+:
 TimeRanges
 &
 aRanges
@@ -3321,6 +3324,9 @@ value
 "
 )
 ;
+dom
+:
+:
 TimeRanges
 seekable
 ;
@@ -5352,11 +5358,6 @@ NS_IsMainThread
 OnStateMachineThread
 (
 )
-|
-|
-OnDecodeThread
-(
-)
 )
 ;
 int64_t
@@ -7095,6 +7096,9 @@ MediaDecoder
 :
 GetSeekable
 (
+dom
+:
+:
 TimeRanges
 *
 aSeekable
@@ -7888,6 +7892,9 @@ MediaDecoder
 :
 GetBuffered
 (
+dom
+:
+:
 TimeRanges
 *
 aBuffered

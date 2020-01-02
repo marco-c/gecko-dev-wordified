@@ -3380,6 +3380,9 @@ owner
 NS_ERROR_FAILURE
 )
 ;
+dom
+:
+:
 HTMLMediaElement
 *
 element
@@ -3549,6 +3552,9 @@ NS_ENSURE_TRUE_VOID
 owner
 )
 ;
+dom
+:
+:
 HTMLMediaElement
 *
 element
@@ -3622,6 +3628,9 @@ NS_ENSURE_TRUE_VOID
 owner
 )
 ;
+dom
+:
+:
 HTMLMediaElement
 *
 element

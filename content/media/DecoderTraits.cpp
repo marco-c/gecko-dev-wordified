@@ -2335,6 +2335,9 @@ amr
 )
 )
 {
+dom
+:
+:
 HTMLMediaElement
 *
 element
