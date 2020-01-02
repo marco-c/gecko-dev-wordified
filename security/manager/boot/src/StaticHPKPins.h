@@ -716,9 +716,12 @@ kEnd_Entity_Test_CertFingerprint
 ]
 =
 "
-a08RrXscTn7kKTSPR8uZVrmc0o3ryPd
+w3a2zMuMdmP9ed7H9HLExM
 +
-o3menqJHJBw
+i
++
+/
+0UxqHlKszZ5GQpHYM
 =
 "
 ;
@@ -8129,6 +8132,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1413832295312000
+1413940883162000
 )
 ;
