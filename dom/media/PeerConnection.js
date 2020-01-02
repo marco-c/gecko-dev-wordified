@@ -6977,7 +6977,7 @@ handleIceConnectionStateChange
 :
 function
 (
-iceState
+iceConnectionState
 )
 {
 var
@@ -6996,7 +6996,7 @@ WEBRTC_ICE_SUCCESS_RATE
 ;
 if
 (
-iceState
+iceConnectionState
 =
 =
 =
@@ -7029,7 +7029,7 @@ checking
 &
 &
 (
-iceState
+iceConnectionState
 =
 =
 =
@@ -7038,7 +7038,7 @@ completed
 '
 |
 |
-iceState
+iceConnectionState
 =
 =
 =
@@ -7062,7 +7062,7 @@ _dompc
 .
 changeIceConnectionState
 (
-iceState
+iceConnectionState
 )
 ;
 }
@@ -7369,7 +7369,7 @@ _dompc
 .
 _pc
 .
-iceState
+iceConnectionState
 )
 ;
 break
