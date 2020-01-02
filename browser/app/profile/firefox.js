@@ -10574,7 +10574,7 @@ pref
 "
 urlclassifier
 .
-downloadBlockTable
+download_block_table
 "
 "
 goog
@@ -10630,7 +10630,7 @@ pref
 "
 urlclassifier
 .
-downloadAllowTable
+download_allow_table
 "
 "
 goog

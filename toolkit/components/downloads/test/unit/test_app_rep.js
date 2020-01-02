@@ -644,7 +644,7 @@ setCharPref
 "
 urlclassifier
 .
-downloadBlockTable
+download_block_table
 "
 "
 goog
@@ -670,7 +670,7 @@ clearUserPref
 "
 urlclassifier
 .
-downloadBlockTable
+download_block_table
 "
 )
 ;
