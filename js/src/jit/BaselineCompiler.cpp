@@ -2488,10 +2488,6 @@ TraceLogCreateTextId
 (
 logger
 script
-.
-get
-(
-)
 )
 )
 ;
