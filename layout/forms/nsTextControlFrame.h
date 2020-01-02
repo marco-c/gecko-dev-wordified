@@ -1558,7 +1558,7 @@ saving
 4
 bytes
 bool
-mUseEditor
+mEditorHasBeenInitialized
 ;
 bool
 mIsProcessing
