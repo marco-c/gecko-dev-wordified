@@ -2874,10 +2874,6 @@ dumper
 "
 )
 ;
-nsString
-gcLogPath
-ccLogPath
-;
 dumper
 -
 >
@@ -2886,8 +2882,6 @@ DumpGCAndCCLogsToFile
 aIdentifier
 aDumpAllTraces
 aDumpChildProcesses
-gcLogPath
-ccLogPath
 )
 ;
 return
