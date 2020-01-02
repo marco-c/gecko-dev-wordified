@@ -135,14 +135,14 @@ etc
 #
 include
 "
-gfxPlatform
+gfxPrefs
 .
 h
 "
 /
 /
 for
-gfxPlatform
+gfxPrefs
 #
 include
 "
@@ -393,7 +393,7 @@ HasNonIntegerTranslation
 {
 SetSupportsComponentAlphaChildren
 (
-gfxPlatform
+gfxPrefs
 :
 :
 ComponentAlphaEnabled

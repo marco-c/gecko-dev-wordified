@@ -149,6 +149,17 @@ gfxPlatform
 #
 include
 "
+gfxPrefs
+.
+h
+"
+/
+/
+for
+gfxPrefs
+#
+include
+"
 gfxPoint
 .
 h
@@ -5882,7 +5893,7 @@ SURFACE_COMPONENT_ALPHA
 if
 (
 !
-gfxPlatform
+gfxPrefs
 :
 :
 ComponentAlphaEnabled

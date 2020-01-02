@@ -166,6 +166,13 @@ nsWindowsHelpers
 h
 "
 #
+include
+"
+gfxPrefs
+.
+h
+"
+#
 ifdef
 MOZ_METRO
 #
@@ -1263,7 +1270,7 @@ false
 }
 if
 (
-gfxPlatform
+gfxPrefs
 :
 :
 ComponentAlphaEnabled
@@ -3810,7 +3817,7 @@ EFFECT_COMPONENT_ALPHA
 {
 MOZ_ASSERT
 (
-gfxPlatform
+gfxPrefs
 :
 :
 ComponentAlphaEnabled
@@ -5229,7 +5236,7 @@ YCbCrShader
 ;
 if
 (
-gfxPlatform
+gfxPrefs
 :
 :
 ComponentAlphaEnabled
