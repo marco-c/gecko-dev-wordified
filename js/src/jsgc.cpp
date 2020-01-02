@@ -3630,17 +3630,6 @@ thingKind
 ;
 JS_POISON
 (
-&
-aheader
-JS_SWEPT_TENURED_PATTERN
-sizeof
-(
-ArenaHeader
-)
-)
-;
-JS_EXTRA_POISON
-(
 data
 JS_SWEPT_TENURED_PATTERN
 sizeof
