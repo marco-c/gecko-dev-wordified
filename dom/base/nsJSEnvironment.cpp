@@ -1694,10 +1694,6 @@ NonIncrementalGC
 nsJSContext
 :
 :
-NonCompartmentGC
-nsJSContext
-:
-:
 ShrinkingGC
 )
 ;
@@ -1731,10 +1727,6 @@ nsJSContext
 :
 :
 NonIncrementalGC
-nsJSContext
-:
-:
-NonCompartmentGC
 nsJSContext
 :
 :
@@ -9467,8 +9459,6 @@ Reason
 aReason
 IsIncremental
 aIncremental
-IsCompartment
-aCompartment
 IsShrinking
 aShrinking
 int64_t
@@ -12173,10 +12163,6 @@ IncrementalGC
 nsJSContext
 :
 :
-CompartmentGC
-nsJSContext
-:
-:
 NonShrinkingGC
 NS_INTERSLICE_GC_BUDGET
 )
@@ -12236,10 +12222,6 @@ nsJSContext
 :
 :
 IncrementalGC
-nsJSContext
-:
-:
-CompartmentGC
 )
 ;
 }
