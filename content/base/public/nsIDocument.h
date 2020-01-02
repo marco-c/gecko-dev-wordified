@@ -4301,10 +4301,9 @@ virtual
 void
 EnsureOnDemandBuiltInUASheet
 (
-const
-char
+nsCSSStyleSheet
 *
-aStyleSheetURI
+aSheet
 )
 =
 0

@@ -4222,10 +4222,9 @@ virtual
 void
 EnsureOnDemandBuiltInUASheet
 (
-const
-char
+nsCSSStyleSheet
 *
-aStyleSheetURI
+aSheet
 )
 MOZ_OVERRIDE
 ;
