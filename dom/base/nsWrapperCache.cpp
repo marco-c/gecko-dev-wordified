@@ -368,6 +368,8 @@ const
 char
 *
 aObjName
+uint64_t
+aCompartmentAddress
 )
 {
 }
