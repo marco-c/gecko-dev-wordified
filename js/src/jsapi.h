@@ -450,6 +450,13 @@ len
 )
 {
 }
+using
+CharPtr
+:
+:
+operator
+=
+;
 }
 ;
 #
