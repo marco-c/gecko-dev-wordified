@@ -1062,6 +1062,15 @@ aLoadUnblocked
 )
 ;
 NS_IMETHOD
+GetApiRedirectToURI
+(
+nsIURI
+*
+*
+aApiRedirectToURI
+)
+;
+NS_IMETHOD
 AddSecurityMessage
 (
 const
