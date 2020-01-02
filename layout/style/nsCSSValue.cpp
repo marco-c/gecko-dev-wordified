@@ -8043,6 +8043,12 @@ PropHasFlags
 shorthand
 CSS_PROPERTY_IS_ALIAS
 )
+|
+|
+aProperty
+=
+=
+eCSSProperty__x_system_font
 )
 {
 /
