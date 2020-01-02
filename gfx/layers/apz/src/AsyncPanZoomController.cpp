@@ -9164,7 +9164,7 @@ call
 APZCTreeManager
 :
 :
-HandleFlingOverscroll
+HandOffFling
 (
 )
 /
@@ -9246,7 +9246,7 @@ not
 null
 before
 calling
-HandleFlingOverscroll
+HandOffFling
 (
 )
 .
@@ -9290,7 +9290,7 @@ mMonitor
 so
 directly
 calling
-HandleFlingOverscroll
+HandOffFling
 (
 )
 /
@@ -9313,7 +9313,7 @@ Instead
 /
 we
 schedule
-HandleFlingOverscroll
+HandOffFling
 (
 )
 to
