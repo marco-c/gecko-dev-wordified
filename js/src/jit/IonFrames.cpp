@@ -782,10 +782,6 @@ kind_
 Kind_FrameIterator
 )
 {
-verifyReturnAddressUsingNativeToBytecodeMap
-(
-)
-;
 }
 IonBailoutIterator
 *
@@ -1994,10 +1990,6 @@ returnAddress
 current_
 =
 prev
-;
-verifyReturnAddressUsingNativeToBytecodeMap
-(
-)
 ;
 return
 *
