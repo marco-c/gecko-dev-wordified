@@ -1467,6 +1467,11 @@ ATTR_REPEAT
 static
 nsHtml5AttributeName
 *
+ATTR_SRCSET
+;
+static
+nsHtml5AttributeName
+*
 ATTR_RSPACE
 ;
 static
