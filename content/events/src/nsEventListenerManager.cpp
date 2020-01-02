@@ -1318,7 +1318,7 @@ return
 }
 mNoListenerForEvent
 =
-NS_EVENT_TYPE_NULL
+NS_EVENT_NULL
 ;
 mNoListenerForEventAtom
 =
@@ -2691,7 +2691,7 @@ count
 ;
 mNoListenerForEvent
 =
-NS_EVENT_TYPE_NULL
+NS_EVENT_NULL
 ;
 mNoListenerForEventAtom
 =
@@ -4454,7 +4454,7 @@ ElementAt
 ;
 mNoListenerForEvent
 =
-NS_EVENT_TYPE_NULL
+NS_EVENT_NULL
 ;
 mNoListenerForEventAtom
 =
@@ -6437,7 +6437,7 @@ aListener
 AddEventListenerInternal
 (
 holder
-NS_EVENT_TYPE_ALL
+NS_EVENT_ALL
 nullptr
 EmptyString
 (
@@ -6487,7 +6487,7 @@ aListener
 RemoveEventListenerInternal
 (
 holder
-NS_EVENT_TYPE_ALL
+NS_EVENT_ALL
 nullptr
 EmptyString
 (
