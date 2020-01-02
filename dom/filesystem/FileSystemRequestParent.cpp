@@ -133,13 +133,6 @@ h
 #
 include
 "
-CreateFileTask
-.
-h
-"
-#
-include
-"
 GetFileOrDirectoryTask
 .
 h
@@ -308,10 +301,6 @@ type
 FILESYSTEM_REQUEST_PARENT_DISPATCH_ENTRY
 (
 CreateDirectory
-)
-FILESYSTEM_REQUEST_PARENT_DISPATCH_ENTRY
-(
-CreateFile
 )
 FILESYSTEM_REQUEST_PARENT_DISPATCH_ENTRY
 (
