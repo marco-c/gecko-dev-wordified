@@ -3237,6 +3237,12 @@ OK
 :
 this
 .
+destroyDOMRequestHelper
+(
+)
+;
+this
+.
 _successCb
 (
 aMessage
@@ -3259,6 +3265,12 @@ Return
 KO
 '
 :
+this
+.
+destroyDOMRequestHelper
+(
+)
+;
 this
 .
 _errorCb
