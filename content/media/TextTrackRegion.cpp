@@ -139,11 +139,10 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_2
+NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_1
 (
 TextTrackRegion
 mParent
-mTrack
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
@@ -309,14 +308,6 @@ mViewportAnchorY
 100
 )
 {
-mTrack
-=
-new
-TextTrack
-(
-aGlobal
-)
-;
 SetIsDOMBinding
 (
 )
