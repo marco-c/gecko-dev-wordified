@@ -13198,13 +13198,29 @@ accessor
 genericCrossOriginMethod
 "
                     
-else
+elif
+self
+.
+descriptor
+.
+needsSpecialGenericOps
+(
+)
 :
                         
 accessor
 =
 "
 genericMethod
+"
+                    
+else
+:
+                        
+accessor
+=
+"
+GenericBindingMethod
 "
                 
 else
@@ -13649,13 +13665,29 @@ accessor
 genericCrossOriginGetter
 "
                 
-else
+elif
+self
+.
+descriptor
+.
+needsSpecialGenericOps
+(
+)
 :
                     
 accessor
 =
 "
 genericGetter
+"
+                
+else
+:
+                    
+accessor
+=
+"
+GenericBindingGetter
 "
                 
 jitinfo
@@ -13795,13 +13827,29 @@ accessor
 genericCrossOriginSetter
 "
                 
-else
+elif
+self
+.
+descriptor
+.
+needsSpecialGenericOps
+(
+)
 :
                     
 accessor
 =
 "
 genericSetter
+"
+                
+else
+:
+                    
+accessor
+=
+"
+GenericBindingSetter
 "
                 
 jitinfo
@@ -74934,7 +74982,11 @@ True
                 
 hasMethod
 =
-True
+descriptor
+.
+needsSpecialGenericOps
+(
+)
                 
 jsonifierMethod
 =
@@ -75052,7 +75104,12 @@ identifier
 name
 )
                     
-else
+elif
+descriptor
+.
+needsSpecialGenericOps
+(
+)
 :
                         
 hasMethod
@@ -75148,7 +75205,12 @@ identifier
 name
 )
                     
-else
+elif
+descriptor
+.
+needsSpecialGenericOps
+(
+)
 :
                         
 hasGetter
@@ -75243,7 +75305,12 @@ identifier
 name
 )
                         
-else
+elif
+descriptor
+.
+needsSpecialGenericOps
+(
+)
 :
                             
 hasSetter
@@ -75294,7 +75361,12 @@ identifier
 name
 )
                     
-else
+elif
+descriptor
+.
+needsSpecialGenericOps
+(
+)
 :
                         
 hasSetter
@@ -75323,6 +75395,14 @@ m
 )
 )
                     
+if
+descriptor
+.
+needsSpecialGenericOps
+(
+)
+:
+                        
 hasSetter
 =
 True
