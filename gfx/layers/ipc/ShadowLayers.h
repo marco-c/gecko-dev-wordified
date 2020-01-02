@@ -333,9 +333,6 @@ class
 ShadowableLayer
 ;
 class
-Shmem
-;
-class
 ShmemTextureClient
 ;
 class
@@ -1098,10 +1095,6 @@ ShadowLayerForwarder
 public
 CompositableForwarder
 {
-friend
-class
-AutoOpenSurface
-;
 friend
 class
 ContentClientIncremental

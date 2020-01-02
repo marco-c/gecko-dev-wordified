@@ -329,10 +329,6 @@ CompositableForwarder
 public
 ISurfaceAllocator
 {
-friend
-class
-AutoOpenSurface
-;
 public
 :
 CompositableForwarder
