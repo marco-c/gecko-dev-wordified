@@ -2612,10 +2612,9 @@ lhs
 )
 temp
 (
-LDefinition
-:
-:
-GENERAL
+)
+temp
+(
 )
 shift
 +
