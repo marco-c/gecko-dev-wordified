@@ -2583,8 +2583,7 @@ lastModifiedTime
 =
 mtime
 -
-(
-14
+8
 *
 24
 *
@@ -2593,15 +2592,12 @@ mtime
 60
 *
 1000
-+
-60000
-)
 ;
 /
 /
-14
+8
 days
-1m
+.
 TelemetryPing
 .
 testLoadHistograms
