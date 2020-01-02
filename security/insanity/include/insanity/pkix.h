@@ -221,6 +221,13 @@ PRTime
 time
 /
 *
+optional
+*
+/
+KeyUsages
+requiredKeyUsagesIfPresent
+/
+*
 out
 *
 /
