@@ -337,9 +337,6 @@ implements
 OnClickListener
 OnCancelListener
 OnItemClickListener
-PromptInput
-.
-OnChangeListener
 {
 private
 static
