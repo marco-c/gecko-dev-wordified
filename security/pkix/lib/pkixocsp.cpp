@@ -1107,7 +1107,10 @@ KeyPurposeId
 :
 :
 id_kp_OCSPSigning
-SEC_OID_X509_ANY_POLICY
+CertPolicyId
+:
+:
+anyPolicy
 0
 )
 ;

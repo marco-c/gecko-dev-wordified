@@ -189,7 +189,15 @@ pkix
 :
 EndEntityOrCA
 endEntityOrCA
-SECOidTag
+const
+mozilla
+:
+:
+pkix
+:
+:
+CertPolicyId
+&
 policy
 const
 CERTCertificate

@@ -3877,7 +3877,10 @@ KeyPurposeId
 :
 :
 id_kp_codeSigning
-SEC_OID_X509_ANY_POLICY
+CertPolicyId
+:
+:
+anyPolicy
 nullptr
 builtChain
 )

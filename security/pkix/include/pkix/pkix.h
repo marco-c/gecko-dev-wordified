@@ -1030,12 +1030,9 @@ KeyUsages
 requiredKeyUsagesIfPresent
 KeyPurposeId
 requiredEKUIfPresent
-/
-*
-optional
-*
-/
-SECOidTag
+const
+CertPolicyId
+&
 requiredPolicy
 /
 *
