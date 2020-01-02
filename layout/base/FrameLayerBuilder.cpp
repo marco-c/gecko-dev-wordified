@@ -18806,12 +18806,7 @@ item
 .
 if
 (
-item
--
->
-GetType
-(
-)
+itemType
 =
 =
 nsDisplayItem
