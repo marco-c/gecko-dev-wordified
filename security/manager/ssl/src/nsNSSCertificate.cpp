@@ -4336,7 +4336,7 @@ nullptr
 ;
 RefPtr
 <
-CertVerifier
+SharedCertVerifier
 >
 certVerifier
 (

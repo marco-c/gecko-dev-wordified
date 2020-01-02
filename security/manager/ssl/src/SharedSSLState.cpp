@@ -831,10 +831,6 @@ mOCSPStaplingEnabled
 (
 false
 )
-mOCSPFetchingEnabled
-(
-false
-)
 {
 mIOLayerHelpers
 .

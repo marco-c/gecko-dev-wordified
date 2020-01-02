@@ -9769,7 +9769,7 @@ mozilla
 psm
 :
 :
-CertVerifier
+SharedCertVerifier
 >
 certVerifier
 (

@@ -980,7 +980,7 @@ nsigners
 ;
 RefPtr
 <
-CertVerifier
+SharedCertVerifier
 >
 certVerifier
 ;
