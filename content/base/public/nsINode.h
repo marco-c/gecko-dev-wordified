@@ -578,8 +578,15 @@ NODE_FLAG_BIT
 (
 n_
 )
+\
+(
+nsWrapperCache
+:
+:
+FlagsType
 (
 1U
+)
 <
 <
 (
