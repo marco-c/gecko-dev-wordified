@@ -9438,7 +9438,7 @@ hasRegister
 (
 alloc
 .
-reg
+reg2
 (
 )
 )
