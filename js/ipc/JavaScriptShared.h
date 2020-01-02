@@ -730,7 +730,7 @@ objId
 )
 {
 return
-objects_
+cpows_
 .
 find
 (
@@ -759,6 +759,9 @@ protected
 :
 IdToObjectMap
 objects_
+;
+IdToObjectMap
+cpows_
 ;
 }
 ;

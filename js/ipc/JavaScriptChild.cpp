@@ -266,6 +266,13 @@ trace
 trc
 )
 ;
+cpows_
+.
+trace
+(
+trc
+)
+;
 ids_
 .
 trace
