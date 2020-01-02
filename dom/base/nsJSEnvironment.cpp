@@ -2245,12 +2245,7 @@ mColumn
 aErrorReport
 -
 >
-uctokenptr
--
-aErrorReport
--
->
-uclinebuf
+column
 )
 mFlags
 (
@@ -2873,6 +2868,12 @@ init
 mLineno
 =
 mLineNumber
+;
+init
+.
+mColumn
+=
+mColumn
 ;
 init
 .
