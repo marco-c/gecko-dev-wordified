@@ -169,6 +169,13 @@ GLContext
 #
 include
 "
+GLUploadHelpers
+.
+h
+"
+#
+include
+"
 Layers
 .
 h
@@ -9281,11 +9288,9 @@ SupportsPartialTextureUpdate
 )
 {
 return
-mGLContext
--
->
 CanUploadSubTextures
 (
+mGLContext
 )
 ;
 }

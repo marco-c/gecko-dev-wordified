@@ -12243,11 +12243,6 @@ GLContextEGL
 ;
 }
 bool
-CanUploadSubTextures
-(
-)
-;
-bool
 CanReadSRGBFromFBOTexture
 (
 )
@@ -12278,11 +12273,6 @@ public
 :
 bool
 CanUploadNonPowerOfTwo
-(
-)
-;
-bool
-WantsSmallTiles
 (
 )
 ;
