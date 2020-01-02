@@ -2848,6 +2848,16 @@ RootLayer
 )
 -
 >
+Prepare
+(
+clipRect
+)
+;
+RootLayer
+(
+)
+-
+>
 RenderLayer
 (
 clipRect
