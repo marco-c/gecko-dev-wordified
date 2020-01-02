@@ -218,7 +218,7 @@ info
 (
 "
 debugger
-openeed
+opened
 "
 )
 ;
