@@ -113,15 +113,6 @@ h
 #
 include
 "
-nspr
-/
-prtypes
-.
-h
-"
-#
-include
-"
 base
 /
 message_loop

@@ -118,13 +118,6 @@ _PAPERPS_H_
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
