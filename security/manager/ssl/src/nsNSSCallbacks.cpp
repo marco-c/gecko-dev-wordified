@@ -7093,16 +7093,6 @@ cipherInfo
 symCipher
 )
 ;
-infoObject
--
->
-SetSymmetricCipherUsed
-(
-cipherInfo
-.
-symCipher
-)
-;
 }
 }
 infoObject

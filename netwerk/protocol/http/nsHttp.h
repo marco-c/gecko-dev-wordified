@@ -659,15 +659,6 @@ NS_HTTP_ALLOW_RSA_FALSESTART
 <
 9
 )
-#
-define
-NS_HTTP_ALLOW_RC4_FALSESTART
-(
-1
-<
-<
-10
-)
 /
 /
 -
