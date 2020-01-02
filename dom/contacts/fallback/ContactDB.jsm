@@ -209,6 +209,17 @@ jsm
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+indexedDB
+"
+]
+)
+;
 const
 DB_NAME
 =
