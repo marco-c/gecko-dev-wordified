@@ -295,6 +295,7 @@ VARIANT_INHERIT
 H
 eCSSUnit_Initial
 eCSSUnit_Inherit
+eCSSUnit_Unset
 #
 define
 VARIANT_NONE
