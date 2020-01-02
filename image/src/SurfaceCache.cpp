@@ -1570,6 +1570,8 @@ false
 )
 ;
 }
+private
+:
 virtual
 ~
 SurfaceCacheImpl
@@ -1615,6 +1617,8 @@ this
 )
 ;
 }
+public
+:
 void
 InitMemoryReporter
 (
@@ -2707,13 +2711,6 @@ public
 nsIObserver
 {
 NS_DECL_ISUPPORTS
-virtual
-~
-MemoryPressureObserver
-(
-)
-{
-}
 NS_IMETHOD
 Observe
 (
@@ -2758,6 +2755,15 @@ DiscardAll
 return
 NS_OK
 ;
+}
+private
+:
+virtual
+~
+MemoryPressureObserver
+(
+)
+{
 }
 }
 ;

@@ -183,12 +183,6 @@ constructor
 use
 ImageFactory
 )
-virtual
-~
-VectorImage
-(
-)
-;
 /
 /
 Methods
@@ -426,6 +420,12 @@ ImageURL
 aURI
 =
 nullptr
+)
+;
+virtual
+~
+VectorImage
+(
 )
 ;
 virtual

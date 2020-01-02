@@ -195,11 +195,6 @@ nsICOEncoder
 (
 )
 ;
-~
-nsICOEncoder
-(
-)
-;
 /
 /
 Obtains
@@ -264,6 +259,11 @@ mHeight
 }
 protected
 :
+~
+nsICOEncoder
+(
+)
+;
 nsresult
 ParseOptions
 (

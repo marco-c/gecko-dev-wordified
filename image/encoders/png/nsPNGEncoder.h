@@ -216,13 +216,13 @@ nsPNGEncoder
 (
 )
 ;
+protected
+:
 ~
 nsPNGEncoder
 (
 )
 ;
-protected
-:
 nsresult
 ParseOptions
 (

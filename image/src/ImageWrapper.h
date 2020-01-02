@@ -146,13 +146,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_IMGICONTAINER
-virtual
-~
-ImageWrapper
-(
-)
-{
-}
 /
 /
 Inherited
@@ -399,6 +392,13 @@ image
 "
 )
 ;
+}
+virtual
+~
+ImageWrapper
+(
+)
+{
 }
 /
 *

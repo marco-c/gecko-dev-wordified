@@ -182,13 +182,13 @@ nsBMPEncoder
 (
 )
 ;
+protected
+:
 ~
 nsBMPEncoder
 (
 )
 ;
-protected
-:
 enum
 Version
 {

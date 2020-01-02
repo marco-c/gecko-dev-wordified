@@ -267,13 +267,6 @@ public
 :
 NS_DECL_ISUPPORTS
 virtual
-~
-FrozenImage
-(
-)
-{
-}
-virtual
 nsIntRect
 FrameRect
 (
@@ -448,6 +441,13 @@ aImage
 ImageWrapper
 (
 aImage
+)
+{
+}
+virtual
+~
+FrozenImage
+(
 )
 {
 }

@@ -158,14 +158,14 @@ nsMozIconURI
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsMozIconURI
 (
 )
 ;
-protected
-:
 nsCOMPtr
 <
 nsIURL

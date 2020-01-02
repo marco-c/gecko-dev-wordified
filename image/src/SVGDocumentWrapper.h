@@ -239,11 +239,6 @@ SVGDocumentWrapper
 (
 )
 ;
-~
-SVGDocumentWrapper
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIREQUESTOBSERVER
@@ -849,6 +844,11 @@ FlushLayout
 ;
 private
 :
+~
+SVGDocumentWrapper
+(
+)
+;
 nsresult
 SetupViewer
 (

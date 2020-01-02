@@ -722,6 +722,8 @@ this
 )
 ;
 }
+private
+:
 ~
 SVGParseCompleteListener
 (
@@ -771,6 +773,8 @@ Cancel
 ;
 }
 }
+public
+:
 void
 EndLoad
 (
@@ -1000,6 +1004,8 @@ false
 )
 ;
 }
+private
+:
 ~
 SVGLoadEventListener
 (
@@ -1049,6 +1055,8 @@ Cancel
 ;
 }
 }
+public
+:
 NS_IMETHOD
 HandleEvent
 (

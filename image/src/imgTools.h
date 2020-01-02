@@ -149,6 +149,8 @@ imgTools
 (
 )
 ;
+private
+:
 virtual
 ~
 imgTools

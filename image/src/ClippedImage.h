@@ -225,12 +225,6 @@ public
 :
 NS_DECL_ISUPPORTS
 virtual
-~
-ClippedImage
-(
-)
-;
-virtual
 nsIntRect
 FrameRect
 (
@@ -378,6 +372,12 @@ Image
 aImage
 nsIntRect
 aClip
+)
+;
+virtual
+~
+ClippedImage
+(
 )
 ;
 private

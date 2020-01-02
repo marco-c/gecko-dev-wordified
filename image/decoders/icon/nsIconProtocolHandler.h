@@ -134,14 +134,14 @@ nsIconProtocolHandler
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsIconProtocolHandler
 (
 )
 ;
-protected
-:
 }
 ;
 #
