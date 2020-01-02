@@ -729,7 +729,7 @@ getusermedia
 .
 screensharing
 .
-allow_domains
+allowed_domains
 "
 )
 ;
