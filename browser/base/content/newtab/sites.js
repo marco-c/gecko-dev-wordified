@@ -902,9 +902,10 @@ Site_captureIfMissing
 {
 if
 (
-gPage
+!
+document
 .
-allowBackgroundCaptures
+hidden
 &
 &
 !
