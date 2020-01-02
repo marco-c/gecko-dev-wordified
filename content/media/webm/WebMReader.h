@@ -1302,7 +1302,7 @@ mAudioFrames
 /
 Number
 of
-nanoseconds
+microseconds
 that
 must
 be
