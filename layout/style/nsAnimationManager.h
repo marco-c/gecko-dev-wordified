@@ -161,7 +161,10 @@ Element
 >
 mElement
 ;
-nsAnimationEvent
+mozilla
+:
+:
+InternalAnimationEvent
 mEvent
 ;
 AnimationEventInfo
@@ -212,7 +215,7 @@ aPseudoElement
 }
 /
 /
-nsAnimationEvent
+InternalAnimationEvent
 doesn
 '
 t

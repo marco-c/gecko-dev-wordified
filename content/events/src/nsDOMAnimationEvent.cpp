@@ -96,6 +96,10 @@ ContentEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsDOMAnimationEvent
 :
 :
@@ -113,7 +117,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsAnimationEvent
+InternalAnimationEvent
 *
 aEvent
 )
@@ -127,7 +131,7 @@ aEvent
 aEvent
 :
 new
-nsAnimationEvent
+InternalAnimationEvent
 (
 false
 0
@@ -469,7 +473,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsAnimationEvent
+InternalAnimationEvent
 *
 aEvent
 )

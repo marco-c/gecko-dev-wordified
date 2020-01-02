@@ -2209,13 +2209,6 @@ mozilla
 InternalTransitionEvent
 nsTransitionEvent
 ;
-typedef
-mozilla
-:
-:
-InternalAnimationEvent
-nsAnimationEvent
-;
 #
 endif
 /
