@@ -565,12 +565,8 @@ shared
 RegExpCompileData
 *
 data
-const
-jschar
-*
-sampleChars
-size_t
-sampleLength
+HandleLinearString
+sample
 bool
 is_global
 bool
