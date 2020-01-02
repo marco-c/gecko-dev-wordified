@@ -280,6 +280,12 @@ mStreamStateIndication
 unsigned
 mAuxiliaryDataSizeLength
 ;
+unsigned
+mConstantDuration
+;
+unsigned
+mPreviousAUCount
+;
 bool
 mHasAUHeader
 ;
