@@ -17059,7 +17059,7 @@ nsEventStateManager
 :
 DecideGestureEvent
 (
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 *
 aEvent
 nsIFrame
@@ -17219,13 +17219,13 @@ usable
 behavior
 *
 /
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 :
 :
 ePanDirection
 panDirection
 =
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 :
 :
 ePanNone
@@ -17287,7 +17287,7 @@ scrollbarFrame
 {
 panDirection
 =
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 :
 :
 ePanNone
@@ -17330,7 +17330,7 @@ GetHorizontalOverflow
 {
 panDirection
 =
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 :
 :
 ePanHorizontal
@@ -17348,7 +17348,7 @@ GetVerticalOverflow
 {
 panDirection
 =
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 :
 :
 ePanVertical
@@ -17490,7 +17490,7 @@ height
 {
 panDirection
 =
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 :
 :
 ePanVertical
@@ -17505,7 +17505,7 @@ canScrollHorizontally
 {
 panDirection
 =
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 :
 :
 ePanHorizontal
@@ -17554,7 +17554,7 @@ VERTICAL
 {
 panDirection
 =
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 :
 :
 ePanVertical
@@ -17578,7 +17578,7 @@ HORIZONTAL
 {
 panDirection
 =
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 :
 :
 ePanHorizontal
@@ -19797,7 +19797,7 @@ DecideGestureEvent
 (
 static_cast
 <
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 *
 >
 (

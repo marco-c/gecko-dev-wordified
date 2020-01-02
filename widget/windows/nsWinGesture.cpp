@@ -807,7 +807,7 @@ SetWinGestureSupport
 (
 HWND
 hWnd
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 :
 :
 ePanDirection
@@ -936,7 +936,7 @@ if
 aDirection
 =
 =
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 :
 :
 ePanVertical
@@ -945,7 +945,7 @@ ePanVertical
 aDirection
 =
 =
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 :
 :
 ePanBoth
@@ -977,7 +977,7 @@ if
 aDirection
 =
 =
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 :
 :
 ePanHorizontal
@@ -986,7 +986,7 @@ ePanHorizontal
 aDirection
 =
 =
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 :
 :
 ePanBoth

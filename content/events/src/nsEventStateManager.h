@@ -3892,7 +3892,10 @@ aEvent
 void
 DecideGestureEvent
 (
-nsGestureNotifyEvent
+mozilla
+:
+:
+WidgetGestureNotifyEvent
 *
 aEvent
 nsIFrame

@@ -35820,7 +35820,7 @@ ScreenToClient
 mWnd
 )
 ;
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 gestureNotifyEvent
 (
 true
