@@ -38889,17 +38889,6 @@ vt
 false
 )
 {
-/
-/
-Disabled
-due
-to
-errors
-see
-bug
-919958
-/
-/
 setMovable
 (
 )
