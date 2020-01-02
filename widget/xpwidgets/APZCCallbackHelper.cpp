@@ -1785,6 +1785,7 @@ mDisplayPort
 .
 height
 element
+0
 )
 ;
 }
@@ -1969,6 +1970,7 @@ mDisplayPort
 .
 height
 element
+0
 )
 ;
 }
