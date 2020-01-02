@@ -1723,7 +1723,6 @@ menu
 contents
 "
 )
-false
 )
 ;
 this
