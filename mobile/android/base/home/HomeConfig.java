@@ -6946,6 +6946,10 @@ destIndex
 panelId
 )
 ;
+mHasChanged
+=
+true
+;
 return
 true
 ;
