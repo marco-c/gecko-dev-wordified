@@ -124,13 +124,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 pldhash
 .
 h

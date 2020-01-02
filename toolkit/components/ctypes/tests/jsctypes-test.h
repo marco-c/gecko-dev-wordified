@@ -104,13 +104,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 jspubtd
 .
 h

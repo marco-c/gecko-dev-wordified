@@ -102,13 +102,6 @@ nscore
 h
 "
 #
-include
-"
-prtypes
-.
-h
-"
-#
 define
 EXPORT_CDECL
 (

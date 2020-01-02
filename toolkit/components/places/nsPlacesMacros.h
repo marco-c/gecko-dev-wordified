@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsIConsoleService
 .
 h
