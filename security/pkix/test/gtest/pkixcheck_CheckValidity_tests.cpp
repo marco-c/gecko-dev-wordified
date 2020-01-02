@@ -322,17 +322,6 @@ mozilla
 pkix
 static
 const
-SECItem
-empty_null
-=
-{
-siBuffer
-nullptr
-0
-}
-;
-static
-const
 PRTime
 PAST_TIME
 (
