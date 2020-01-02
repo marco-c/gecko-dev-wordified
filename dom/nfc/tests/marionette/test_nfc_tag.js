@@ -482,6 +482,10 @@ NDEF
 toggleNFC
 (
 false
+)
+.
+then
+(
 runNextTest
 )
 ;
@@ -491,10 +495,14 @@ runNextTest
 toggleNFC
 (
 true
-function
+)
+.
+then
+(
 (
 )
-{
+=
+>
 setTagData
 (
 T2T_RE_INDEX
@@ -509,6 +517,7 @@ btoa
 payload
 )
 )
+)
 .
 then
 (
@@ -520,9 +529,6 @@ activateRE
 (
 T2T_RE_INDEX
 )
-)
-;
-}
 )
 ;
 }
