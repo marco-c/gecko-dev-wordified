@@ -2451,9 +2451,6 @@ nsIntRect
 aBounds
 ContextSource
 aSource
-DrawIterator
-*
-aIter
 )
 ;
 static
