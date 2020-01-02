@@ -595,6 +595,14 @@ ensureRegistered
 (
 )
 ;
+this
+.
+panel
+.
+hidden
+=
+false
+;
 let
 anchor
 =
