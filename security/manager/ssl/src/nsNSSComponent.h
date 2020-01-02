@@ -895,8 +895,6 @@ private
 nsresult
 InitializeNSS
 (
-bool
-showWarningBox
 )
 ;
 void
