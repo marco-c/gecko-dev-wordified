@@ -459,6 +459,17 @@ init
 context
 )
 ;
+GeckoNetworkManager
+.
+getInstance
+(
+)
+.
+init
+(
+context
+)
+;
 GeckoLoader
 .
 loadMozGlue
