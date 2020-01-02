@@ -1156,6 +1156,12 @@ native
 =
 =
 intrinsic_ShouldForceSequential
+|
+|
+native
+=
+=
+intrinsic_InParallelSection
 )
 return
 inlineForceSequentialOrInParallelSection
