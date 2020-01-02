@@ -25706,7 +25706,7 @@ i
 do
 {
 const
-nsTransition
+StyleTransition
 *
 transition
 =
@@ -25824,7 +25824,7 @@ i
 do
 {
 const
-nsTransition
+StyleTransition
 *
 transition
 =
@@ -25942,7 +25942,7 @@ i
 do
 {
 const
-nsTransition
+StyleTransition
 *
 transition
 =
