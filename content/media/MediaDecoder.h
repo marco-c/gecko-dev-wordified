@@ -7121,6 +7121,11 @@ MediaDecoder
 (
 )
 ;
+void
+SetStateMachineParameters
+(
+)
+;
 /
 *
 *
