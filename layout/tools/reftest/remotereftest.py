@@ -215,6 +215,15 @@ utilityPath
 "
 "
         
+defaults
+[
+"
+runTestsInParallel
+"
+]
+=
+False
+        
 self
 .
 add_option
@@ -1008,6 +1017,25 @@ self
 options
 )
 :
+        
+if
+options
+.
+runTestsInParallel
+:
+            
+self
+.
+error
+(
+"
+Cannot
+run
+parallel
+tests
+here
+"
+)
         
 #
 Ensure

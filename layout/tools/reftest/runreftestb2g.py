@@ -1133,6 +1133,15 @@ testPath
 "
 "
         
+defaults
+[
+"
+runTestsInParallel
+"
+]
+=
+False
+        
 self
 .
 set_defaults
@@ -1149,6 +1158,25 @@ self
 options
 )
 :
+        
+if
+options
+.
+runTestsInParallel
+:
+            
+self
+.
+error
+(
+"
+Cannot
+run
+parallel
+tests
+here
+"
+)
         
 if
 not
