@@ -1901,7 +1901,7 @@ EdgeGestureKind_Touch
 :
 UpdateInputLevel
 (
-LEVEL_PRECISE
+LEVEL_IMPRECISE
 )
 ;
 return
@@ -1946,7 +1946,7 @@ EdgeGestureKind_Mouse
 :
 UpdateInputLevel
 (
-LEVEL_IMPRECISE
+LEVEL_PRECISE
 )
 ;
 return
