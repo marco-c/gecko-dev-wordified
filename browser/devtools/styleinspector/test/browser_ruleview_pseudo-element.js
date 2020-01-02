@@ -71,7 +71,7 @@ TEST_URI
 TEST_URL_ROOT
 +
 "
-browser_ruleview_pseudoelement
+doc_pseudoelement
 .
 html
 "

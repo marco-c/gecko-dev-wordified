@@ -68,7 +68,7 @@ TEST_URI_HTML
 TEST_URL_ROOT
 +
 "
-browser_bug705707_is_content_stylesheet
+doc_content_stylesheet
 .
 html
 "
@@ -79,7 +79,7 @@ TEST_URI_XUL
 TEST_URL_ROOT
 +
 "
-browser_bug705707_is_content_stylesheet
+doc_content_stylesheet
 .
 xul
 "
@@ -499,7 +499,7 @@ href
 |
 |
 /
-browser_bug705707_is_content_stylesheet_
+doc_content_stylesheet_
 /
 .
 test
