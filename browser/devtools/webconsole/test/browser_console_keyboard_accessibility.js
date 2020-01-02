@@ -207,7 +207,7 @@ info
 try
 ctrl
 -
-k
+l
 to
 clear
 output
@@ -219,10 +219,10 @@ EventUtils
 synthesizeKey
 (
 "
-K
+l
 "
 {
-accelKey
+ctrlKey
 :
 true
 }
