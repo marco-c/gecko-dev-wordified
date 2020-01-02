@@ -3509,8 +3509,8 @@ mozJSComponentLoader
 :
 PrepareObjectForLocation
 (
-JSCLContextHelper
-&
+JSContext
+*
 aCx
 nsIFile
 *
