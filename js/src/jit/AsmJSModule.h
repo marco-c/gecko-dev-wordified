@@ -4535,7 +4535,7 @@ using
 AsmJSCacheOps
 .
 extern
-void
+bool
 StoreAsmJSModuleInCache
 (
 AsmJSParser
