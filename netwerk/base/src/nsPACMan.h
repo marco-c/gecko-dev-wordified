@@ -224,6 +224,9 @@ nsISystemProxySettings
 class
 nsIThread
 ;
+class
+WaitForThreadShutdown
+;
 /
 *
 *
@@ -1002,6 +1005,10 @@ PACLoadComplete
 friend
 class
 ExecutePACThreadAction
+;
+friend
+class
+WaitForThreadShutdown
 ;
 ~
 nsPACMan
