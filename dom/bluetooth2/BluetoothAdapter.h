@@ -564,6 +564,16 @@ already_AddRefed
 <
 Promise
 >
+EnableDisable
+(
+bool
+aEnable
+)
+;
+already_AddRefed
+<
+Promise
+>
 Enable
 (
 )

@@ -289,6 +289,9 @@ virtual
 nsresult
 StartInternal
 (
+BluetoothReplyRunnable
+*
+aRunnable
 )
 MOZ_OVERRIDE
 ;
@@ -296,6 +299,9 @@ virtual
 nsresult
 StopInternal
 (
+BluetoothReplyRunnable
+*
+aRunnable
 )
 MOZ_OVERRIDE
 ;
