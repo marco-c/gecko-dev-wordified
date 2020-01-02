@@ -16422,6 +16422,14 @@ B2G
 .
 if
 (
+aBuilder
+-
+>
+IsPaintingToWindow
+(
+)
+&
+&
 WantSubAPZC
 (
 )
