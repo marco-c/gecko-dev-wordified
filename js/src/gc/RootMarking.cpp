@@ -1273,9 +1273,7 @@ rt
 >
 gc
 .
-chunkSet
-.
-has
+hasChunk
 (
 chunk
 )

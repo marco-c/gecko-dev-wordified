@@ -1425,7 +1425,9 @@ runtime
 >
 gc
 .
-bytes
+bytesAllocated
+(
+)
 ;
 #
 endif
@@ -1520,7 +1522,9 @@ runtime
 >
 gc
 .
-bytes
+bytesAllocated
+(
+)
 )
 ;
 #

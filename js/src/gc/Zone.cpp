@@ -364,7 +364,9 @@ rt
 >
 gc
 .
-maxMallocBytes
+maxMallocBytesAllocated
+(
+)
 *
 0
 .
