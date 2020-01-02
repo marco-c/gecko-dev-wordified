@@ -169,6 +169,9 @@ const
 nsAString
 &
 srcdoc
+nsIURI
+*
+baseURI
 nsIChannel
 *
 *
