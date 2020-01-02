@@ -524,12 +524,6 @@ XULDocument
 (
 )
 ;
-virtual
-~
-XULDocument
-(
-)
-;
 /
 /
 nsISupports
@@ -1156,6 +1150,12 @@ aObserver
 }
 protected
 :
+virtual
+~
+XULDocument
+(
+)
+;
 /
 /
 Implementation

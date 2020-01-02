@@ -1140,6 +1140,15 @@ NS_EVENT_STATE_MOZ_READONLY
 nsXULElement
 :
 :
+~
+nsXULElement
+(
+)
+{
+}
+nsXULElement
+:
+:
 nsXULSlots
 :
 :

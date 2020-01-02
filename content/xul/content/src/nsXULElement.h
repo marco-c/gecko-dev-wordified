@@ -3453,6 +3453,11 @@ GetParentObject
 }
 protected
 :
+~
+nsXULElement
+(
+)
+;
 /
 /
 This
