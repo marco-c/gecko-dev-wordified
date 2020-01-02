@@ -117,12 +117,6 @@ nsFontFaceList
 (
 )
 ;
-virtual
-~
-nsFontFaceList
-(
-)
-;
 nsresult
 AddFontsFromTextRun
 (
@@ -137,6 +131,12 @@ aLength
 ;
 protected
 :
+virtual
+~
+nsFontFaceList
+(
+)
+;
 nsInterfaceHashtable
 <
 nsPtrHashKey

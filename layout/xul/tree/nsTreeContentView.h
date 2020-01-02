@@ -204,12 +204,6 @@ nsTreeContentView
 void
 )
 ;
-~
-nsTreeContentView
-(
-void
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
@@ -256,6 +250,12 @@ aValue
 ;
 protected
 :
+~
+nsTreeContentView
+(
+void
+)
+;
 /
 /
 Recursive

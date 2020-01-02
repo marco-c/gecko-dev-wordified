@@ -303,6 +303,12 @@ aRequest
 ;
 private
 :
+~
+ImageLoader
+(
+)
+{
+}
 /
 /
 We

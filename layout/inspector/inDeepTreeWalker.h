@@ -254,14 +254,14 @@ inDeepTreeWalker
 (
 )
 ;
+protected
+:
 virtual
 ~
 inDeepTreeWalker
 (
 )
 ;
-protected
-:
 void
 PushNode
 (

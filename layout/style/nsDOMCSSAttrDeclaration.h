@@ -171,11 +171,6 @@ bool
 aIsSMILOverride
 )
 ;
-~
-nsDOMCSSAttributeDeclaration
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
@@ -263,6 +258,11 @@ MOZ_OVERRIDE
 ;
 protected
 :
+~
+nsDOMCSSAttributeDeclaration
+(
+)
+;
 virtual
 nsresult
 SetCSSDeclaration

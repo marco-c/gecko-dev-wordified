@@ -116,14 +116,14 @@ inFlasher
 (
 )
 ;
+protected
+:
 virtual
 ~
 inFlasher
 (
 )
 ;
-protected
-:
 void
 DrawOutline
 (

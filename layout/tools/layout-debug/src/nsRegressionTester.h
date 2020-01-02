@@ -300,14 +300,14 @@ nsRegressionTester
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsRegressionTester
 (
 )
 ;
-protected
-:
 nsresult
 GetDocShellFromWindow
 (

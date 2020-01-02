@@ -643,12 +643,6 @@ nsIChannel
 aChannel
 )
 ;
-virtual
-~
-nsFontFaceLoader
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISTREAMLOADEROBSERVER
 /
@@ -720,6 +714,14 @@ aTargetURI
 nsISupports
 *
 aContext
+)
+;
+protected
+:
+virtual
+~
+nsFontFaceLoader
+(
 )
 ;
 private

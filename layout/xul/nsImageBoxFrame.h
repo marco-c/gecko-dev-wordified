@@ -173,12 +173,6 @@ nsImageBoxListener
 (
 )
 ;
-virtual
-~
-nsImageBoxListener
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_IMGINOTIFICATIONOBSERVER
 NS_DECL_IMGIONLOADBLOCKER
@@ -197,6 +191,12 @@ frame
 }
 private
 :
+virtual
+~
+nsImageBoxListener
+(
+)
+;
 nsImageBoxFrame
 *
 mFrame

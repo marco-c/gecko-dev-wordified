@@ -164,13 +164,6 @@ bool
 aHasAlpha
 )
 ;
-virtual
-~
-nsDOMCSSRGBColor
-(
-void
-)
-;
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
 nsDOMCSSRGBColor
@@ -263,6 +256,13 @@ MOZ_FINAL
 ;
 private
 :
+virtual
+~
+nsDOMCSSRGBColor
+(
+void
+)
+;
 nsRefPtr
 <
 nsROCSSPrimitiveValue

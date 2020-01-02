@@ -138,14 +138,14 @@ inCSSValueSearch
 (
 )
 ;
+protected
+:
 virtual
 ~
 inCSSValueSearch
 (
 )
 ;
-protected
-:
 nsCOMPtr
 <
 inISearchObserver

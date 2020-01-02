@@ -161,11 +161,6 @@ nsTreeBodyFrame
 aTreeFrame
 )
 ;
-~
-nsTreeImageListener
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_IMGINOTIFICATIONOBSERVER
 NS_IMETHOD
@@ -179,6 +174,11 @@ nsTreeBodyFrame
 ;
 protected
 :
+~
+nsTreeImageListener
+(
+)
+;
 void
 UnsuppressInvalidation
 (

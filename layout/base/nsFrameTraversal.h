@@ -162,12 +162,6 @@ nsFrameTraversal
 (
 )
 ;
-virtual
-~
-nsFrameTraversal
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_IMETHOD
 NewFrameTraversal
@@ -192,6 +186,14 @@ bool
 aFollowOOFs
 )
 MOZ_OVERRIDE
+;
+protected
+:
+virtual
+~
+nsFrameTraversal
+(
+)
 ;
 }
 ;

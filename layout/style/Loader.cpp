@@ -856,7 +856,7 @@ nsIUnicharStreamLoaderObserver
 public
 nsIThreadObserver
 {
-public
+protected
 :
 virtual
 ~
@@ -865,6 +865,8 @@ SheetLoadData
 void
 )
 ;
+public
+:
 /
 /
 Data

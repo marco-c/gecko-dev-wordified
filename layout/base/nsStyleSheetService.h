@@ -247,11 +247,6 @@ nsStyleSheetService
 (
 )
 ;
-~
-nsStyleSheetService
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISTYLESHEETSERVICE
 NS_DECL_NSIMEMORYREPORTER
@@ -336,6 +331,11 @@ gInstance
 ;
 private
 :
+~
+nsStyleSheetService
+(
+)
+;
 void
 RegisterFromEnumerator
 (

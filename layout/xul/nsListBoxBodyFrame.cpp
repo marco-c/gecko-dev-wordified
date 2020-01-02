@@ -547,6 +547,14 @@ nsListScrollSmoother
 public
 nsITimerCallback
 {
+private
+:
+virtual
+~
+nsListScrollSmoother
+(
+)
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -555,12 +563,6 @@ nsListScrollSmoother
 nsListBoxBodyFrame
 *
 aOuter
-)
-;
-virtual
-~
-nsListScrollSmoother
-(
 )
 ;
 /

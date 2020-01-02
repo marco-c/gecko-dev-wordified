@@ -397,13 +397,6 @@ aFrame
 )
 {
 }
-virtual
-~
-MouseListener
-(
-)
-{
-}
 void
 ForgetFrame
 (
@@ -416,6 +409,13 @@ nullptr
 }
 protected
 :
+virtual
+~
+MouseListener
+(
+)
+{
+}
 nsFileControlFrame
 *
 mFrame

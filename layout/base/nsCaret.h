@@ -271,12 +271,16 @@ nsCaret
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsCaret
 (
 )
 ;
+public
+:
 enum
 EViewCoordinates
 {
@@ -285,8 +289,6 @@ eRenderingViewCoordinates
 eClosestViewCoordinates
 }
 ;
-public
-:
 NS_DECL_ISUPPORTS
 nsresult
 Init

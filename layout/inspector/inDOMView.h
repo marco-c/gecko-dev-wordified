@@ -157,12 +157,6 @@ inDOMView
 (
 )
 ;
-virtual
-~
-inDOMView
-(
-)
-;
 /
 /
 nsIMutationObserver
@@ -173,6 +167,12 @@ NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
 NS_DECL_NSIMUTATIONOBSERVER_NODEWILLBEDESTROYED
 protected
 :
+virtual
+~
+inDOMView
+(
+)
+;
 nsCOMPtr
 <
 nsITreeBoxObject

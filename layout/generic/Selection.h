@@ -311,6 +311,14 @@ nsWrapperCache
 public
 nsSupportsWeakReference
 {
+protected
+:
+virtual
+~
+Selection
+(
+)
+;
 public
 :
 Selection
@@ -322,12 +330,6 @@ Selection
 nsFrameSelection
 *
 aList
-)
-;
-virtual
-~
-Selection
-(
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

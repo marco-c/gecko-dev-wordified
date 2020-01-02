@@ -562,11 +562,6 @@ nsPrintEngine
 (
 )
 ;
-~
-nsPrintEngine
-(
-)
-;
 void
 Destroy
 (
@@ -1463,6 +1458,11 @@ aNoMarginBoxes
 }
 protected
 :
+~
+nsPrintEngine
+(
+)
+;
 nsresult
 CommonPrint
 (

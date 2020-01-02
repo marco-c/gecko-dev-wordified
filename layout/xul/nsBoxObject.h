@@ -194,12 +194,6 @@ nsBoxObject
 (
 )
 ;
-virtual
-~
-nsBoxObject
-(
-)
-;
 /
 /
 nsPIBoxObject
@@ -304,6 +298,12 @@ aResult
 ;
 protected
 :
+virtual
+~
+nsBoxObject
+(
+)
+;
 nsAutoPtr
 <
 nsInterfaceHashtable

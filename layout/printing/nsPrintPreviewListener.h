@@ -222,11 +222,6 @@ EventTarget
 aTarget
 )
 ;
-~
-nsPrintPreviewListener
-(
-)
-;
 /
 /
 Add
@@ -258,6 +253,11 @@ RemoveListeners
 ;
 private
 :
+~
+nsPrintPreviewListener
+(
+)
+;
 nsCOMPtr
 <
 mozilla

@@ -296,6 +296,12 @@ frame
 }
 private
 :
+~
+nsSVGImageListener
+(
+)
+{
+}
 nsSVGImageFrame
 *
 mFrame

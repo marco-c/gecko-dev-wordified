@@ -239,6 +239,13 @@ MOZ_FINAL
 public
 nsISelectionListener
 {
+private
+:
+~
+TouchCaret
+(
+)
+;
 public
 :
 explicit
@@ -247,11 +254,6 @@ TouchCaret
 nsIPresShell
 *
 aPresShell
-)
-;
-~
-TouchCaret
-(
 )
 ;
 NS_DECL_ISUPPORTS

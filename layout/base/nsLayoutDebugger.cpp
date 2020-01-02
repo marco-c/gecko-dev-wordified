@@ -182,12 +182,6 @@ nsLayoutDebugger
 (
 )
 ;
-virtual
-~
-nsLayoutDebugger
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_IMETHOD
 SetShowFrameBorders
@@ -258,6 +252,14 @@ int32_t
 aSizeInBytesResult
 )
 MOZ_OVERRIDE
+;
+protected
+:
+virtual
+~
+nsLayoutDebugger
+(
+)
 ;
 }
 ;

@@ -506,13 +506,6 @@ QueryLookAndFeelVals
 }
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMEVENTLISTENER
-virtual
-~
-ScrollbarActivity
-(
-)
-{
-}
 void
 Destroy
 (
@@ -580,6 +573,13 @@ BeginFade
 }
 protected
 :
+virtual
+~
+ScrollbarActivity
+(
+)
+{
+}
 bool
 IsActivityOngoing
 (

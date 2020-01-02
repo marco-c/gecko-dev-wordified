@@ -111,14 +111,14 @@ inDOMUtils
 (
 )
 ;
+private
+:
 virtual
 ~
 inDOMUtils
 (
 )
 ;
-private
-:
 /
 /
 aStyleContext

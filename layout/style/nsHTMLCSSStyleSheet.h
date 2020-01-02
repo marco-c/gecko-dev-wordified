@@ -161,11 +161,6 @@ nsHTMLCSSStyleSheet
 (
 )
 ;
-~
-nsHTMLCSSStyleSheet
-(
-)
-;
 NS_DECL_ISUPPORTS
 /
 /
@@ -329,6 +324,11 @@ aSerialized
 ;
 private
 :
+~
+nsHTMLCSSStyleSheet
+(
+)
+;
 nsHTMLCSSStyleSheet
 (
 const
