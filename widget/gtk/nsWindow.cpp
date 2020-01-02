@@ -12393,9 +12393,16 @@ drawTarget
 >
 FillRect
 (
-ToRect
+Rect
 (
+0
+0
 aBoundsRect
+.
+width
+aBoundsRect
+.
+height
 )
 *
 aPattern
