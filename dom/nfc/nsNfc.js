@@ -1358,6 +1358,16 @@ if
 this
 .
 nfcObject
+|
+|
+this
+.
+nfcObject
+.
+token
+!
+=
+sessionToken
 )
 {
 let
