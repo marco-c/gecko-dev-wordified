@@ -1435,13 +1435,15 @@ Length
 aNewCount
 )
 ;
-return
 mArray
 .
 SetLength
 (
 aNewCount
 )
+;
+return
+true
 ;
 }
 size_t

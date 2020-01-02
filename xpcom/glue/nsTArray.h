@@ -9942,7 +9942,11 @@ than
 the
 old
 .
-bool
+typename
+Alloc
+:
+:
+ResultType
 SetLength
 (
 size_type
@@ -9964,6 +9968,11 @@ oldLen
 )
 {
 return
+Alloc
+:
+:
+ConvertBoolToResultType
+(
 InsertElementsAt
 (
 oldLen
@@ -9974,6 +9983,7 @@ oldLen
 !
 =
 nullptr
+)
 ;
 }
 TruncateLength
@@ -9982,7 +9992,13 @@ newLen
 )
 ;
 return
+Alloc
+:
+:
+ConvertBoolToResultType
+(
 true
+)
 ;
 }
 /
