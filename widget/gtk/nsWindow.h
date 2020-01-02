@@ -2236,7 +2236,10 @@ stuff
 void
 InitDragEvent
 (
-nsDragEvent
+mozilla
+:
+:
+WidgetDragEvent
 &
 aEvent
 )

@@ -11436,7 +11436,7 @@ from
 the
 target
 frame
-nsDragEvent
+WidgetDragEvent
 startEvent
 (
 aEvent
@@ -11455,7 +11455,7 @@ FillInEventFromGestureDown
 startEvent
 )
 ;
-nsDragEvent
+WidgetDragEvent
 gestureEvent
 (
 aEvent
@@ -11714,7 +11714,7 @@ nullptr
 status
 )
 ;
-nsDragEvent
+WidgetDragEvent
 *
 event
 =
@@ -12512,7 +12512,7 @@ DoDefaultDragStart
 nsPresContext
 *
 aPresContext
-nsDragEvent
+WidgetDragEvent
 *
 aDragEvent
 nsDOMDataTransfer
@@ -19955,15 +19955,18 @@ initialDataTransfer
 )
 )
 ;
-nsDragEvent
+WidgetDragEvent
 *
 dragEvent
 =
-(
-nsDragEvent
+static_cast
+<
+WidgetDragEvent
 *
-)
+>
+(
 aEvent
+)
 ;
 /
 /
@@ -20759,7 +20762,7 @@ GetNearestWidget
 (
 )
 ;
-nsDragEvent
+WidgetDragEvent
 event
 (
 aEvent
@@ -26011,7 +26014,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsDragEvent
+WidgetDragEvent
 event
 (
 aEvent
@@ -26253,7 +26256,7 @@ nsEventStateManager
 :
 UpdateDragDataTransfer
 (
-nsDragEvent
+WidgetDragEvent
 *
 dragEvent
 )

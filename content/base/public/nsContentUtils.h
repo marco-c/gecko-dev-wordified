@@ -8771,7 +8771,7 @@ dataTransfer
 field
 of
 an
-nsDragEvent
+WidgetDragEvent
 .
 *
 /
@@ -8779,7 +8779,10 @@ static
 nsresult
 SetDataTransferInEvent
 (
-nsDragEvent
+mozilla
+:
+:
+WidgetDragEvent
 *
 aDragEvent
 )
@@ -8854,7 +8857,10 @@ CheckForSubFrameDrop
 nsIDragSession
 *
 aDragSession
-nsDragEvent
+mozilla
+:
+:
+WidgetDragEvent
 *
 aDropEvent
 )

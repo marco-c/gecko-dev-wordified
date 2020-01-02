@@ -4236,7 +4236,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsDragEvent
+WidgetDragEvent
 *
 >
 (

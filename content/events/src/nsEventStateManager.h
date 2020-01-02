@@ -1793,7 +1793,10 @@ events
 void
 UpdateDragDataTransfer
 (
-nsDragEvent
+mozilla
+:
+:
+WidgetDragEvent
 *
 dragEvent
 )
@@ -4146,7 +4149,10 @@ DoDefaultDragStart
 nsPresContext
 *
 aPresContext
-nsDragEvent
+mozilla
+:
+:
+WidgetDragEvent
 *
 aDragEvent
 nsDOMDataTransfer

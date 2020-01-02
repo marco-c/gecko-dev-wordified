@@ -459,13 +459,6 @@ typedef
 mozilla
 :
 :
-WidgetDragEvent
-nsDragEvent
-;
-typedef
-mozilla
-:
-:
 WidgetMouseScrollEvent
 nsMouseScrollEvent
 ;
