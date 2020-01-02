@@ -1908,6 +1908,13 @@ type
 )
 GK_ATOM
 (
+consumeanchor
+"
+consumeanchor
+"
+)
+GK_ATOM
+(
 context
 "
 context
@@ -15139,13 +15146,6 @@ GK_ATOM
 DisplayPortBase
 "
 _displayportbase
-"
-)
-GK_ATOM
-(
-AsyncScrollLayerCreationFailed
-"
-_asyncscrolllayercreationfailed
 "
 )
 /
