@@ -4804,7 +4804,7 @@ fullPath
 =
 CFURLCreateFromFileSystemRepresentation
 (
-NULL
+nullptr
 (
 const
 UInt8
