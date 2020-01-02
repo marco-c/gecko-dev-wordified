@@ -414,7 +414,7 @@ operator
 (
 void
 *
-aObject
+anObject
 )
 {
 delete
@@ -424,7 +424,7 @@ NesteggPacketHolder
 *
 >
 (
-aObject
+anObject
 )
 ;
 return

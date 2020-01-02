@@ -194,7 +194,7 @@ operator
 (
 void
 *
-aObject
+anObject
 )
 {
 delete
@@ -204,7 +204,7 @@ T
 *
 >
 (
-aObject
+anObject
 )
 ;
 return
