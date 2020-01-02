@@ -13907,6 +13907,8 @@ Address
 (
 GlobalReg
 AsmJSNaN32GlobalDataOffset
+-
+AsmJSGlobalRegBias
 )
 ToFloatRegister
 (
@@ -13923,6 +13925,8 @@ Address
 (
 GlobalReg
 AsmJSNaN64GlobalDataOffset
+-
+AsmJSGlobalRegBias
 )
 ToFloatRegister
 (
@@ -15326,6 +15330,8 @@ mir
 globalDataOffset
 (
 )
+-
+AsmJSGlobalRegBias
 ;
 if
 (
@@ -15472,6 +15478,8 @@ mir
 globalDataOffset
 (
 )
+-
+AsmJSGlobalRegBias
 ;
 if
 (
@@ -15644,6 +15652,8 @@ mir
 globalDataOffset
 (
 )
+-
+AsmJSGlobalRegBias
 ;
 BaseIndex
 source
@@ -15702,6 +15712,8 @@ mir
 globalDataOffset
 (
 )
+-
+AsmJSGlobalRegBias
 )
 ToRegister
 (
