@@ -129,6 +129,8 @@ nsSemanticUnitScanner
 (
 )
 ;
+private
+:
 virtual
 ~
 nsSemanticUnitScanner

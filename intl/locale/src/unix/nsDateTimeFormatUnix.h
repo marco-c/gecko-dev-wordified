@@ -284,6 +284,8 @@ Truncate
 )
 ;
 }
+private
+:
 virtual
 ~
 nsDateTimeFormatUnix
@@ -291,8 +293,6 @@ nsDateTimeFormatUnix
 )
 {
 }
-private
-:
 /
 /
 init

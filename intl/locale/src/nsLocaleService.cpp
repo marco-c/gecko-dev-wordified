@@ -352,13 +352,6 @@ nsLocaleService
 void
 )
 ;
-virtual
-~
-nsLocaleService
-(
-void
-)
-;
 protected
 :
 nsresult
@@ -384,6 +377,13 @@ nsCOMPtr
 nsILocale
 >
 mApplicationLocale
+;
+virtual
+~
+nsLocaleService
+(
+void
+)
 ;
 }
 ;

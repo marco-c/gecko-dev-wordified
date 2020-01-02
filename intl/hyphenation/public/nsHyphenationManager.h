@@ -194,6 +194,12 @@ MOZ_FINAL
 public
 nsIObserver
 {
+~
+MemoryPressureObserver
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

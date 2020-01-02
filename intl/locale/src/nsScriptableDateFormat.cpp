@@ -266,6 +266,11 @@ nsScriptableDateFormat
 )
 {
 }
+private
+:
+nsString
+mStringOut
+;
 virtual
 ~
 nsScriptableDateFormat
@@ -273,11 +278,6 @@ nsScriptableDateFormat
 )
 {
 }
-private
-:
-nsString
-mStringOut
-;
 }
 ;
 NS_IMPL_ISUPPORTS

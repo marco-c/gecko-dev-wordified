@@ -143,6 +143,12 @@ MOZ_FINAL
 public
 nsICollationFactory
 {
+~
+nsCollationFactory
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

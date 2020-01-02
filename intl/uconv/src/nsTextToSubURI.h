@@ -189,14 +189,14 @@ nsTextToSubURI
 (
 )
 ;
+private
+:
 virtual
 ~
 nsTextToSubURI
 (
 )
 ;
-private
-:
 /
 /
 IRI

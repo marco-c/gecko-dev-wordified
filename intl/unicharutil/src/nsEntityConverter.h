@@ -173,12 +173,6 @@ nsEntityConverter
 (
 )
 ;
-virtual
-~
-nsEntityConverter
-(
-)
-;
 /
 /
 /
@@ -333,6 +327,12 @@ number
 of
 supported
 versions
+virtual
+~
+nsEntityConverter
+(
+)
+;
 }
 ;
 #

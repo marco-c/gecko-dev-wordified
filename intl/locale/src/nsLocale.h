@@ -209,13 +209,6 @@ nsLocale
 void
 )
 ;
-virtual
-~
-nsLocale
-(
-void
-)
-;
 /
 *
 Declare
@@ -284,6 +277,13 @@ fHashtable
 ;
 uint32_t
 fCategoryCount
+;
+virtual
+~
+nsLocale
+(
+void
+)
 ;
 }
 ;

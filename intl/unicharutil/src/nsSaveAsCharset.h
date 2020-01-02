@@ -232,12 +232,6 @@ nsSaveAsCharset
 (
 )
 ;
-virtual
-~
-nsSaveAsCharset
-(
-)
-;
 /
 /
 /
@@ -290,6 +284,12 @@ aCharset
 ;
 protected
 :
+virtual
+~
+nsSaveAsCharset
+(
+)
+;
 NS_IMETHOD
 DoCharsetConversion
 (
