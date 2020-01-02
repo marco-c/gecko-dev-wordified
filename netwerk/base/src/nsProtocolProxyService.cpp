@@ -4447,16 +4447,6 @@ kProxyType_DIRECT
 direct
 "
 ;
-const
-char
-kProxyType_UNKNOWN
-[
-]
-=
-"
-unknown
-"
-;
 }
 const
 char
