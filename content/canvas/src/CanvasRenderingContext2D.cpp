@@ -21157,7 +21157,7 @@ DrawOptions
 CompositionOp
 :
 :
-OP_SOURCE
+OP_OVER
 AntialiasMode
 :
 :
