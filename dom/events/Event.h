@@ -221,6 +221,9 @@ EventTarget
 class
 ErrorEvent
 ;
+class
+ProgressEvent
+;
 /
 /
 Dummy
@@ -490,6 +493,17 @@ virtual
 ErrorEvent
 *
 AsErrorEvent
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+ProgressEvent
+*
+AsProgressEvent
 (
 )
 {
