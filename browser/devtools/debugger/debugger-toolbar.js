@@ -1118,6 +1118,14 @@ else
 {
 DebuggerController
 .
+ThreadState
+.
+interruptedByResumeButton
+=
+true
+;
+DebuggerController
+.
 activeThread
 .
 interrupt
