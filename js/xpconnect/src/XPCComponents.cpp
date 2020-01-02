@@ -17540,7 +17540,7 @@ jsval
 vscope
 in
 jsval
-vname
+voptions
 )
 ;
 *
