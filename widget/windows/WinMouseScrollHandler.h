@@ -1744,7 +1744,7 @@ SynthesizingEvent
 :
 mWnd
 (
-NULL
+nullptr
 )
 mMessage
 (

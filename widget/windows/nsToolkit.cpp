@@ -448,7 +448,7 @@ Startup
 (
 GetModuleHandle
 (
-NULL
+nullptr
 )
 )
 ;
@@ -492,7 +492,7 @@ InitWithFuncCallback
 :
 :
 StartAllowingD3D9
-NULL
+nullptr
 kD3DUsageDelay
 nsITimer
 :

@@ -331,7 +331,7 @@ if
 ImmAssociateContextEx
 (
 mWnd
-NULL
+nullptr
 IACE_DEFAULT
 )
 )
@@ -354,7 +354,7 @@ return
 mIMC
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -381,7 +381,7 @@ if
 ImmAssociateContextEx
 (
 mWnd
-NULL
+nullptr
 0
 )
 )
@@ -400,7 +400,7 @@ mIMC
 ;
 mIMC
 =
-NULL
+nullptr
 ;
 return
 true

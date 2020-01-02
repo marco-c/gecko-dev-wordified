@@ -1858,7 +1858,7 @@ L
 "
 Shell_TrayWnd
 "
-NULL
+nullptr
 )
 ;
 if
@@ -1866,7 +1866,7 @@ if
 shellWindow
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -2244,7 +2244,7 @@ LOGFONTW
 *
 ptrLogFont
 =
-NULL
+nullptr
 ;
 LOGFONTW
 logFont
@@ -3022,7 +3022,7 @@ tdc
 =
 GetDC
 (
-NULL
+nullptr
 )
 ;
 bool
@@ -3038,7 +3038,7 @@ aFontStyle
 ;
 ReleaseDC
 (
-NULL
+nullptr
 tdc
 )
 ;

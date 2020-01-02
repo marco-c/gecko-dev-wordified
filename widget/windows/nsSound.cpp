@@ -416,7 +416,7 @@ mSoundName
 get
 (
 )
-NULL
+nullptr
 SND_NODEFAULT
 |
 SND_ALIAS

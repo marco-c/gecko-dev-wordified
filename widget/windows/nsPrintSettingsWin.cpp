@@ -730,7 +730,7 @@ mDevMode
 ;
 mDevMode
 =
-NULL
+nullptr
 ;
 }
 if

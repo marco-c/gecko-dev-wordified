@@ -377,7 +377,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -399,7 +399,7 @@ this
 ;
 if
 (
-NULL
+nullptr
 !
 =
 *
@@ -923,7 +923,7 @@ if
 mHWnd
 !
 =
-NULL
+nullptr
 )
 {
 :
@@ -2567,7 +2567,7 @@ mDropTargetHelper
 CoCreateInstance
 (
 CLSID_DragDropHelper
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_IDropTargetHelper
 (

@@ -318,7 +318,7 @@ mMaxValue
 )
 mOverlayIcon
 (
-NULL
+nullptr
 )
 {
 /
@@ -448,7 +448,7 @@ mOverlayIcon
 ;
 mOverlayIcon
 =
-NULL
+nullptr
 ;
 }
 if
@@ -467,7 +467,7 @@ else
 {
 mWnd
 =
-NULL
+nullptr
 ;
 }
 }
@@ -493,7 +493,7 @@ active
 ?
 mWnd
 :
-NULL
+nullptr
 )
 )
 ?
@@ -956,7 +956,7 @@ NS_ERROR_INVALID_ARG
 HICON
 hIcon
 =
-NULL
+nullptr
 ;
 if
 (

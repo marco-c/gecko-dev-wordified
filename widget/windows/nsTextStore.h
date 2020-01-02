@@ -1633,7 +1633,7 @@ public
 :
 /
 /
-NULL
+nullptr
 if
 no
 composition

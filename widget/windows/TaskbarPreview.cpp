@@ -340,7 +340,7 @@ CanvasRenderingContext2D
 *
 gCtx
 =
-NULL
+nullptr
 ;
 /
 /
@@ -631,7 +631,7 @@ it
 :
 CoInitialize
 (
-NULL
+nullptr
 )
 ;
 gInstCount
@@ -719,7 +719,7 @@ uninitializing
 COM
 mTaskbar
 =
-NULL
+nullptr
 ;
 if
 (
@@ -986,7 +986,7 @@ this
 )
 sActivePreview
 =
-NULL
+nullptr
 ;
 return
 CanMakeTaskbarCalls
@@ -1362,7 +1362,7 @@ this
 ;
 mWnd
 =
-NULL
+nullptr
 ;
 }
 LRESULT
@@ -2198,7 +2198,7 @@ preview
 >
 mWnd
 =
-NULL
+nullptr
 ;
 }
 else

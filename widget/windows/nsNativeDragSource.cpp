@@ -220,7 +220,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -242,7 +242,7 @@ this
 ;
 if
 (
-NULL
+nullptr
 !
 =
 *

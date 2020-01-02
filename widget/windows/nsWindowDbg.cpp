@@ -192,7 +192,7 @@ MSGF_MAX
 MSGF_USER
 "
 4096
-NULL
+nullptr
 0
 }
 ;
@@ -2203,7 +2203,7 @@ WM_GETTITLEBARINFOEX
 0x033F
 }
 {
-NULL
+nullptr
 0x0
 }
 }
@@ -2260,7 +2260,7 @@ inx
 mStr
 !
 =
-NULL
+nullptr
 )
 {
 inx
