@@ -1237,6 +1237,12 @@ STATE_MIXED
 role
 !
 =
+ROLE_TOGGLE_BUTTON
+&
+&
+role
+!
+=
 ROLE_PROGRESSBAR
 )
 isState

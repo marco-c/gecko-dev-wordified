@@ -1469,6 +1469,11 @@ aContent
 aDoc
 )
 {
+mGenericTypes
+|
+=
+eButton
+;
 }
 uint8_t
 HTMLButtonAccessible

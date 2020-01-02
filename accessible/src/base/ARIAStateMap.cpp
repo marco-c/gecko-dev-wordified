@@ -1262,10 +1262,7 @@ nsGkAtoms
 :
 aria_pressed
 eMixedType
-states
-:
-:
-CHECKABLE
+0
 states
 :
 :
