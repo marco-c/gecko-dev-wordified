@@ -7979,11 +7979,10 @@ mWidget
 >
 ApzReceiveInputEvent
 (
-aEvent
-&
-mTargetAPZCGuid
 &
 transformedEvent
+&
+mTargetAPZCGuid
 )
 ;
 if
@@ -8341,11 +8340,10 @@ mWidget
 >
 ApzReceiveInputEvent
 (
-aEvent
-&
-mTargetAPZCGuid
 &
 transformedEvent
+&
+mTargetAPZCGuid
 )
 ;
 /

@@ -6171,16 +6171,12 @@ RenderFrameParent
 :
 NotifyInputEvent
 (
-const
 WidgetInputEvent
 &
 aEvent
 ScrollableLayerGuid
 *
 aOutTargetGuid
-WidgetInputEvent
-*
-aOutEvent
 )
 {
 if
@@ -6199,7 +6195,6 @@ ReceiveInputEvent
 (
 aEvent
 aOutTargetGuid
-aOutEvent
 )
 ;
 }
