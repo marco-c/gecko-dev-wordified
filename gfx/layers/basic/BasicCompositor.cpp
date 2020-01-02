@@ -1579,6 +1579,11 @@ gfx
 Rect
 &
 aTextureCoords
+gfx
+:
+:
+Filter
+aFilter
 float
 aOpacity
 SourceSurface
@@ -1780,6 +1785,7 @@ ExtendMode
 :
 REPEAT
 patternMatrix
+aFilter
 )
 aMask
 Point
@@ -1823,6 +1829,7 @@ ExtendMode
 :
 REPEAT
 matrix
+aFilter
 )
 DrawOptions
 (
@@ -2804,6 +2811,10 @@ texturedEffect
 -
 >
 mTextureCoords
+texturedEffect
+-
+>
+mFilter
 aOpacity
 sourceMask
 maskTransform
@@ -2907,6 +2918,10 @@ effectRenderTarget
 -
 >
 mTextureCoords
+effectRenderTarget
+-
+>
+mFilter
 aOpacity
 sourceMask
 maskTransform
