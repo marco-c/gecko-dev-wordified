@@ -3496,7 +3496,7 @@ aFlags
 }
 }
 }
-NS_IMETHODIMP
+nsresult
 nsSubDocumentFrame
 :
 :
@@ -3904,7 +3904,7 @@ aFlags
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSubDocumentFrame
 :
 :
@@ -4459,7 +4459,7 @@ mPostedReflowCallback
 false
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSubDocumentFrame
 :
 :

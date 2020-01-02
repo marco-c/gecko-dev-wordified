@@ -5189,7 +5189,7 @@ frame
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLContainerFrame
 :
 :
@@ -5232,7 +5232,7 @@ ADDITION
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLContainerFrame
 :
 :
@@ -5285,7 +5285,7 @@ ADDITION
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLContainerFrame
 :
 :
@@ -5333,7 +5333,7 @@ REMOVAL
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLContainerFrame
 :
 :
@@ -6164,7 +6164,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLContainerFrame
 :
 :

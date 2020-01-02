@@ -204,7 +204,8 @@ aDestructRoot
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 HandleEvent
 (
 nsPresContext
@@ -234,7 +235,8 @@ MOZ_OVERRIDE
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -286,7 +288,8 @@ aContent
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t

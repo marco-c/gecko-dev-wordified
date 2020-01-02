@@ -939,7 +939,7 @@ aPadding
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLCanvasFrame
 :
 :
@@ -1980,7 +1980,7 @@ endif
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsHTMLCanvasFrame
 :
 :

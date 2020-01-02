@@ -230,7 +230,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmfencedFrame
 :
 :
@@ -366,7 +366,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmfencedFrame
 :
 :
@@ -1101,7 +1101,7 @@ count
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmfencedFrame
 :
 :

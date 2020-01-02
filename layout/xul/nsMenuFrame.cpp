@@ -1767,7 +1767,7 @@ break
 }
 }
 }
-NS_IMETHODIMP
+nsresult
 nsMenuFrame
 :
 :
@@ -2116,7 +2116,7 @@ aLists
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMenuFrame
 :
 :
@@ -3930,7 +3930,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMenuFrame
 :
 :
@@ -4481,7 +4481,7 @@ rv
 #
 ifdef
 DEBUG_LAYOUT
-NS_IMETHODIMP
+nsresult
 nsMenuFrame
 :
 :
@@ -7509,7 +7509,7 @@ mDelayedMenuCommandEvent
 nullptr
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMenuFrame
 :
 :
@@ -7599,7 +7599,7 @@ aOldFrame
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMenuFrame
 :
 :
@@ -7737,7 +7737,7 @@ aFrameList
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMenuFrame
 :
 :

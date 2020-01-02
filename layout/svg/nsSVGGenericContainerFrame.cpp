@@ -292,7 +292,7 @@ nsSVGGenericContainerFrame
 /
 nsIFrame
 methods
-NS_IMETHODIMP
+nsresult
 nsSVGGenericContainerFrame
 :
 :

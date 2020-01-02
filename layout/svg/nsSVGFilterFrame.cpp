@@ -1027,7 +1027,7 @@ return
 referenced
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGFilterFrame
 :
 :

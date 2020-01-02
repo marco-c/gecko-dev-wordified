@@ -1049,7 +1049,8 @@ aOldStyleContext
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 AppendFrames
 (
 ChildListID
@@ -1060,7 +1061,8 @@ aFrameList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 InsertFrames
 (
 ChildListID
@@ -1074,7 +1076,8 @@ aFrameList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 RemoveFrame
 (
 ChildListID
@@ -1432,7 +1435,8 @@ nsIFrame
 SetInitialChildList
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 SetInitialChildList
 (
 ChildListID
@@ -2095,7 +2099,8 @@ nsIFrame
 Reflow
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -2224,7 +2229,8 @@ nsIFrame
 GetFrameName
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString

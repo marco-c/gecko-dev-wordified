@@ -1882,7 +1882,7 @@ amount
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmpaddedFrame
 :
 :

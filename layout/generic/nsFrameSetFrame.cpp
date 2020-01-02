@@ -765,7 +765,8 @@ NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -776,7 +777,8 @@ const
 ;
 #
 endif
-NS_IMETHOD
+virtual
+nsresult
 HandleEvent
 (
 nsPresContext
@@ -790,7 +792,8 @@ nsEventStatus
 aEventStatus
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetCursor
 (
 const
@@ -823,7 +826,8 @@ aLists
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -1150,7 +1154,8 @@ NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -1192,7 +1197,8 @@ aLists
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -2832,7 +2838,7 @@ mNonBorderChildCount
 mChildCount
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLFramesetFrame
 :
 :
@@ -4716,7 +4722,7 @@ height
 0
 ;
 }
-NS_METHOD
+nsresult
 nsHTMLFramesetFrame
 :
 :
@@ -4818,7 +4824,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLFramesetFrame
 :
 :
@@ -5477,7 +5483,7 @@ GetBorderColor
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLFramesetFrame
 :
 :
@@ -7594,7 +7600,7 @@ frameSetFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsHTMLFramesetFrame
 :
 :
@@ -9322,7 +9328,7 @@ mColor
 aColor
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLFramesetBorderFrame
 :
 :
@@ -10146,7 +10152,7 @@ end
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLFramesetBorderFrame
 :
 :
@@ -10263,7 +10269,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLFramesetBorderFrame
 :
 :
@@ -10316,7 +10322,7 @@ NS_OK
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsHTMLFramesetBorderFrame
 :
 :
@@ -10578,7 +10584,7 @@ return
 0
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLFramesetBlankFrame
 :
 :

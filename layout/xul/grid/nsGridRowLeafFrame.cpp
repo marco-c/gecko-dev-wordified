@@ -225,7 +225,7 @@ out
 .
 *
 /
-NS_IMETHODIMP
+nsresult
 nsGridRowLeafFrame
 :
 :

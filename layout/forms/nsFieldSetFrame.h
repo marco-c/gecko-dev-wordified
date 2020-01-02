@@ -236,7 +236,8 @@ VisualBorderRectRelativeToSelf
 const
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -288,7 +289,8 @@ uint32_t
 aBGFlags
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 AppendFrames
 (
 ChildListID
@@ -298,7 +300,8 @@ nsFrameList
 aFrameList
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 InsertFrames
 (
 ChildListID
@@ -311,7 +314,8 @@ nsFrameList
 aFrameList
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 RemoveFrame
 (
 ChildListID
@@ -392,7 +396,8 @@ endif
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+nsresult
 SetInitialChildList
 (
 ChildListID
@@ -407,7 +412,8 @@ endif
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString

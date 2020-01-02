@@ -1801,7 +1801,7 @@ list
 bug
 343048
 .
-NS_IMETHODIMP
+nsresult
 nsTableFrame
 :
 :
@@ -11511,7 +11511,7 @@ table
 .
 *
 /
-NS_METHOD
+nsresult
 nsTableFrame
 :
 :
@@ -13960,7 +13960,7 @@ temp
 }
 }
 }
-NS_IMETHODIMP
+nsresult
 nsTableFrame
 :
 :
@@ -14360,7 +14360,7 @@ mList
 ;
 }
 ;
-NS_IMETHODIMP
+nsresult
 nsTableFrame
 :
 :
@@ -15967,7 +15967,7 @@ cellMap
 }
 }
 }
-NS_IMETHODIMP
+nsresult
 nsTableFrame
 :
 :
@@ -23229,7 +23229,7 @@ NS_STYLE_WIDTH_MAX_CONTENT
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsTableFrame
 :
 :

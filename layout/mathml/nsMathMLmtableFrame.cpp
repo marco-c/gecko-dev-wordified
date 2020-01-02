@@ -2709,7 +2709,7 @@ nsMathMLmtableOuterFrame
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmtableOuterFrame
 :
 :
@@ -3471,7 +3471,7 @@ return
 nullptr
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmtableOuterFrame
 :
 :
@@ -4259,7 +4259,7 @@ nsMathMLmtableFrame
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmtableFrame
 :
 :
@@ -4421,7 +4421,7 @@ nsMathMLmtrFrame
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmtrFrame
 :
 :
@@ -4896,7 +4896,7 @@ return
 colspan
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmtdFrame
 :
 :
@@ -5362,7 +5362,7 @@ PresContext
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmtdInnerFrame
 :
 :

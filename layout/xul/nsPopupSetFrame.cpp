@@ -293,7 +293,7 @@ nsGkAtoms
 popupSetFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPopupSetFrame
 :
 :
@@ -334,7 +334,7 @@ aFrameList
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPopupSetFrame
 :
 :
@@ -375,7 +375,7 @@ aOldFrame
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPopupSetFrame
 :
 :
@@ -420,7 +420,7 @@ aFrameList
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPopupSetFrame
 :
 :

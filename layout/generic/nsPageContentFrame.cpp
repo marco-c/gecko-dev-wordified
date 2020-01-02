@@ -162,7 +162,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsPageContentFrame
 )
-NS_IMETHODIMP
+nsresult
 nsPageContentFrame
 :
 :
@@ -862,7 +862,7 @@ pageContentFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsPageContentFrame
 :
 :

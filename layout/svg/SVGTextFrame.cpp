@@ -19111,7 +19111,7 @@ this
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 SVGTextFrame
 :
 :

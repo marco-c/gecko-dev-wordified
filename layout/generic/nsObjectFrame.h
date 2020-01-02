@@ -322,7 +322,8 @@ nsRenderingContext
 aRenderingContext
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -340,7 +341,8 @@ nsReflowStatus
 aStatus
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 DidReflow
 (
 nsPresContext
@@ -372,7 +374,8 @@ aLists
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 HandleEvent
 (
 nsPresContext
@@ -437,7 +440,8 @@ true
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -485,7 +489,8 @@ aIsActive
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetCursor
 (
 const

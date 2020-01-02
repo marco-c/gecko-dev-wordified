@@ -220,7 +220,8 @@ endif
 /
 nsIFrame
 :
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t
@@ -264,7 +265,8 @@ const
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -581,7 +583,7 @@ endif
 DEBUG
 *
 /
-NS_IMETHODIMP
+nsresult
 nsSVGAFrame
 :
 :

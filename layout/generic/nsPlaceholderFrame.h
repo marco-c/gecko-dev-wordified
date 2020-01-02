@@ -682,7 +682,8 @@ aBoxLayoutState
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -788,7 +789,8 @@ aFlags
 const
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString

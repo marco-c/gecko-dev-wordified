@@ -1208,7 +1208,7 @@ aDestructRoot
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :

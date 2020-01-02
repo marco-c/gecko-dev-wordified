@@ -2230,7 +2230,7 @@ mPresContext
 ;
 }
 ;
-NS_IMETHODIMP
+nsresult
 nsMenuPopupFrame
 :
 :
@@ -11979,7 +11979,7 @@ helpers
 /
 /
 /
-NS_IMETHODIMP
+nsresult
 nsMenuPopupFrame
 :
 :

@@ -192,7 +192,8 @@ MOZ_OVERRIDE
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -235,7 +236,8 @@ MOZ_OVERRIDE
 /
 /
 nsIFrame
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t

@@ -3198,7 +3198,7 @@ false
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -3272,7 +3272,7 @@ NS_OK
 #
 endif
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -3299,7 +3299,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -3329,7 +3329,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -4107,7 +4107,7 @@ this
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -15527,7 +15527,7 @@ aDirtyRect
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -15643,7 +15643,7 @@ nsAsyncDOMEvent
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -16617,7 +16617,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -24079,7 +24079,7 @@ this
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -27196,7 +27196,7 @@ return
 result
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -27263,7 +27263,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -27720,7 +27720,7 @@ return
 false
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -27779,7 +27779,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -27807,7 +27807,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -34915,7 +34915,7 @@ get
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -35210,10 +35210,7 @@ endif
 #
 ifdef
 DEBUG
-NS_IMETHODIMP_
-(
 nsFrameState
-)
 nsFrame
 :
 :
@@ -35888,7 +35885,7 @@ return
 false
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -36114,7 +36111,7 @@ ConstFrameSelection
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -36723,7 +36720,7 @@ GetChildCount
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -36859,7 +36856,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :
@@ -39810,7 +39807,7 @@ eDirNext
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsIFrame
 :
 :
@@ -42751,7 +42748,7 @@ aState
 mSeenNonPunctuationSinceWhitespace
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFrame
 :
 :

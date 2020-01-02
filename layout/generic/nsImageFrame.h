@@ -403,7 +403,8 @@ GetIntrinsicRatio
 (
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -421,7 +422,8 @@ nsReflowStatus
 aStatus
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetContentForEvent
 (
 mozilla
@@ -436,7 +438,8 @@ nsIContent
 aContent
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 HandleEvent
 (
 nsPresContext
@@ -453,7 +456,8 @@ nsEventStatus
 aEventStatus
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetCursor
 (
 const
@@ -468,7 +472,8 @@ Cursor
 aCursor
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t
@@ -536,7 +541,8 @@ eReplaced
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString

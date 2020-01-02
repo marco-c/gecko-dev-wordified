@@ -192,7 +192,8 @@ aPrevInFlow
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetInitialChildList
 (
 ChildListID
@@ -206,7 +207,8 @@ MOZ_OVERRIDE
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -356,7 +358,8 @@ aFlags
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -411,7 +414,8 @@ override
 of
 nsFrame
 method
-NS_IMETHOD
+virtual
+nsresult
 GetChildFrameContainingOffset
 (
 int32_t

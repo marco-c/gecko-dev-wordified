@@ -214,7 +214,7 @@ nsMathMLmunderoverFrame
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmunderoverFrame
 :
 :

@@ -1030,7 +1030,7 @@ this
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsSelectsAreaFrame
 :
 :

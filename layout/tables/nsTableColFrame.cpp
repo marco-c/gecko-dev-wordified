@@ -498,7 +498,7 @@ arg
 ;
 }
 }
-NS_METHOD
+nsresult
 nsTableColFrame
 :
 :
@@ -1014,7 +1014,7 @@ tableColFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsTableColFrame
 :
 :

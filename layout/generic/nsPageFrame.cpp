@@ -295,7 +295,7 @@ nsPageFrame
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsPageFrame
 :
 :
@@ -1223,7 +1223,7 @@ pageFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsPageFrame
 :
 :
@@ -4934,7 +4934,7 @@ pageBreakFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsPageBreakFrame
 :
 :

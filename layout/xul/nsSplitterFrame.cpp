@@ -1077,7 +1077,7 @@ aDestructRoot
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSplitterFrame
 :
 :
@@ -1128,7 +1128,7 @@ NS_OK
 *
 /
 }
-NS_IMETHODIMP
+nsresult
 nsSplitterFrame
 :
 :
@@ -1815,7 +1815,7 @@ return
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsSplitterFrame
 :
 :

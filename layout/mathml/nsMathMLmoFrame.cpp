@@ -6957,7 +6957,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmoFrame
 :
 :
@@ -7010,7 +7010,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmoFrame
 :
 :
@@ -7572,7 +7572,7 @@ leadingSpace
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmoFrame
 :
 :

@@ -174,7 +174,8 @@ aLists
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 HandleEvent
 (
 nsPresContext

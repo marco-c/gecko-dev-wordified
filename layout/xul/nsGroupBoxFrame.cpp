@@ -164,7 +164,8 @@ aContext
 )
 {
 }
-NS_IMETHOD
+virtual
+nsresult
 GetBorderAndPadding
 (
 nsMargin
@@ -193,7 +194,8 @@ MOZ_OVERRIDE
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -1289,7 +1291,7 @@ return
 child
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsGroupBoxFrame
 :
 :

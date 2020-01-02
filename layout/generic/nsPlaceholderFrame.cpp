@@ -587,7 +587,7 @@ floatWidth
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsPlaceholderFrame
 :
 :
@@ -1486,7 +1486,7 @@ MOZ_REFLOW_PERF
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsPlaceholderFrame
 :
 :

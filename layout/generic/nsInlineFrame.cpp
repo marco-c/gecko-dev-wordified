@@ -334,7 +334,7 @@ nsContainerFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsInlineFrame
 :
 :
@@ -1837,7 +1837,7 @@ get
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsInlineFrame
 :
 :
@@ -7038,7 +7038,7 @@ mozLineFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsFirstLineFrame
 :
 :
@@ -7185,7 +7185,7 @@ return
 frame
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFirstLineFrame
 :
 :

@@ -299,7 +299,8 @@ aDesiredSize
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t

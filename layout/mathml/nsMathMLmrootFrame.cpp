@@ -889,7 +889,7 @@ aSqrOffset
 dxSqr
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmrootFrame
 :
 :

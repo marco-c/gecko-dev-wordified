@@ -392,7 +392,7 @@ aDestructRoot
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNumberControlFrame
 :
 :
@@ -960,7 +960,7 @@ true
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsNumberControlFrame
 :
 :

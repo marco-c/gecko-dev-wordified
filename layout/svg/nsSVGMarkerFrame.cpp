@@ -282,7 +282,7 @@ nsSVGMarkerFrame
 nsIFrame
 methods
 :
-NS_IMETHODIMP
+nsresult
 nsSVGMarkerFrame
 :
 :

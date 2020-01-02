@@ -1496,7 +1496,7 @@ true
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsFileControlFrame
 :
 :
@@ -1627,7 +1627,7 @@ this
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsFileControlFrame
 :
 :

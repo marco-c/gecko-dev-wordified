@@ -997,7 +997,8 @@ asPrevInFlow
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetInitialChildList
 (
 ChildListID
@@ -1008,7 +1009,8 @@ aChildList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 AppendFrames
 (
 ChildListID
@@ -1019,7 +1021,8 @@ aFrameList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 InsertFrames
 (
 ChildListID
@@ -1033,7 +1036,8 @@ aFrameList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 RemoveFrame
 (
 ChildListID
@@ -1121,7 +1125,8 @@ aLists
 const
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 HandleEvent
 (
 nsPresContext
@@ -1139,7 +1144,8 @@ aEventStatus
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetContentForEvent
 (
 mozilla
@@ -1155,7 +1161,8 @@ aContent
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetCursor
 (
 const
@@ -1171,7 +1178,8 @@ aCursor
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetPointFromOffset
 (
 int32_t
@@ -1182,7 +1190,8 @@ outPoint
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetChildFrameContainingOffset
 (
 int32_t
@@ -1218,7 +1227,8 @@ int8_t
 aOutSideLimit
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 CharacterDataChanged
 (
 CharacterDataChangeInfo
@@ -1227,7 +1237,8 @@ aInfo
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t
@@ -1329,7 +1340,8 @@ GetType
 const
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 IsSelectable
 (
 bool
@@ -1342,7 +1354,8 @@ aSelectStyle
 const
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetSelectionController
 (
 nsPresContext
@@ -1499,7 +1512,8 @@ bool
 aIsKeyboardSelect
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 CheckVisibility
 (
 nsPresContext
@@ -1520,7 +1534,8 @@ _retval
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetOffsets
 (
 int32_t
@@ -2009,7 +2024,8 @@ nscoord
 aWidthInCB
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 WillReflow
 (
 nsPresContext
@@ -2269,7 +2285,8 @@ Reflow
 .
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -2288,7 +2305,8 @@ aStatus
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 DidReflow
 (
 nsPresContext
@@ -4433,7 +4451,8 @@ instead
 .
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -4539,10 +4558,8 @@ they
 differ
 *
 /
-NS_IMETHOD_
-(
+virtual
 nsFrameState
-)
 GetDebugStateBits
 (
 )
@@ -4625,7 +4642,8 @@ XXX
 .
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 DumpRegressionData
 (
 nsPresContext

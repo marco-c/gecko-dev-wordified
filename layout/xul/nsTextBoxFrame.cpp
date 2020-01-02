@@ -412,7 +412,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsTextBoxFrameSuper
 )
-NS_IMETHODIMP
+nsresult
 nsTextBoxFrame
 :
 :
@@ -5663,7 +5663,7 @@ ascent
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsTextBoxFrame
 :
 :

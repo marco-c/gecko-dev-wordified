@@ -512,7 +512,7 @@ aResult
 }
 }
 }
-NS_IMETHODIMP
+nsresult
 nsBox
 :
 :
@@ -1034,7 +1034,7 @@ gTheme
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBox
 :
 :
@@ -1428,7 +1428,7 @@ aFlags
 0
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsIFrame
 :
 :
@@ -1496,7 +1496,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBox
 :
 :
@@ -1676,7 +1676,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBox
 :
 :
@@ -1866,7 +1866,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBox
 :
 :
@@ -5200,7 +5200,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBox
 :
 :

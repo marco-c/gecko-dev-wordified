@@ -259,7 +259,8 @@ nsIFrame
 HandleEvent
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 HandleEvent
 (
 nsPresContext
@@ -307,7 +308,8 @@ nsIFrame
 Reflow
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext

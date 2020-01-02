@@ -1842,7 +1842,7 @@ forget
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGMaskFrame
 :
 :

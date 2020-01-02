@@ -366,7 +366,7 @@ aDestructRoot
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsBulletFrame
 :
 :
@@ -8962,7 +8962,7 @@ break
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsBulletFrame
 :
 :

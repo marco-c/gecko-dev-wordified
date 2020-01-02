@@ -318,7 +318,8 @@ return
 mLayoutManager
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 RelayoutChildAtOrdinal
 (
 nsBoxLayoutState
@@ -383,7 +384,8 @@ MOZ_OVERRIDE
 #
 ifdef
 DEBUG_LAYOUT
-NS_IMETHOD
+virtual
+nsresult
 SetDebug
 (
 nsBoxLayoutState
@@ -394,7 +396,8 @@ aDebug
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetDebug
 (
 bool
@@ -495,7 +498,8 @@ asPrevInFlow
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t
@@ -535,7 +539,8 @@ aRenderingContext
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -554,7 +559,8 @@ aStatus
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 AppendFrames
 (
 ChildListID
@@ -565,7 +571,8 @@ aFrameList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 InsertFrames
 (
 ChildListID
@@ -579,7 +586,8 @@ aFrameList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 RemoveFrame
 (
 ChildListID
@@ -598,7 +606,8 @@ GetContentInsertionFrame
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetInitialChildList
 (
 ChildListID
@@ -794,7 +803,8 @@ eExcludesIgnorableWhitespace
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -806,7 +816,8 @@ MOZ_OVERRIDE
 ;
 #
 endif
-NS_IMETHOD
+virtual
+nsresult
 DidReflow
 (
 nsPresContext

@@ -281,7 +281,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsSVGDisplayContainerFrame
 )
-NS_IMETHODIMP
+nsresult
 nsSVGContainerFrame
 :
 :
@@ -307,7 +307,7 @@ aFrameList
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGContainerFrame
 :
 :
@@ -375,7 +375,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGContainerFrame
 :
 :
@@ -998,7 +998,7 @@ aLists
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGDisplayContainerFrame
 :
 :
@@ -1308,7 +1308,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGDisplayContainerFrame
 :
 :

@@ -361,7 +361,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmsqrtFrame
 :
 :

@@ -199,7 +199,8 @@ IsLeaf
 const
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext

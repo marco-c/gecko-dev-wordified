@@ -366,7 +366,7 @@ aModType
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLSelectedFrame
 :
 :
@@ -616,7 +616,7 @@ child
 .
 .
 .
-NS_IMETHODIMP
+nsresult
 nsMathMLSelectedFrame
 :
 :

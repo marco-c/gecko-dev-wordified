@@ -162,7 +162,8 @@ nsPageFrame
 /
 /
 nsIFrame
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -271,7 +272,8 @@ DEBUG_FRAME_DUMP
 /
 /
 Debugging
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString

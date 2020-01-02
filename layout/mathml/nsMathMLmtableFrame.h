@@ -187,7 +187,8 @@ NS_DECL_FRAMEARENA_HELPERS
 overloaded
 nsTableOuterFrame
 methods
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -206,7 +207,8 @@ aStatus
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t
@@ -390,7 +392,8 @@ aContext
 Overloaded
 nsTableFrame
 methods
-NS_IMETHOD
+virtual
+nsresult
 SetInitialChildList
 (
 ChildListID
@@ -401,7 +404,8 @@ aChildList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 AppendFrames
 (
 ChildListID
@@ -432,7 +436,8 @@ return
 rv
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 InsertFrames
 (
 ChildListID
@@ -467,7 +472,8 @@ return
 rv
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 RemoveFrame
 (
 ChildListID
@@ -651,7 +657,8 @@ aContext
 overloaded
 nsTableRowFrame
 methods
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t
@@ -664,7 +671,8 @@ aModType
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 AppendFrames
 (
 ChildListID
@@ -695,7 +703,8 @@ return
 rv
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 InsertFrames
 (
 ChildListID
@@ -730,7 +739,8 @@ return
 rv
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 RemoveFrame
 (
 ChildListID
@@ -927,7 +937,8 @@ aContext
 overloaded
 nsTableCellFrame
 methods
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t
@@ -1108,7 +1119,8 @@ return
 NS_OK
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext

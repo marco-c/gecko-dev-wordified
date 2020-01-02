@@ -953,7 +953,8 @@ aDestructRoot
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetCursor
 (
 const
@@ -969,7 +970,8 @@ aCursor
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 HandleEvent
 (
 nsPresContext

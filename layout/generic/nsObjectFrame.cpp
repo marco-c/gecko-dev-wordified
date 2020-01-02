@@ -1496,7 +1496,7 @@ objectFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsObjectFrame
 :
 :
@@ -3015,7 +3015,7 @@ all
 cases
 .
 }
-NS_IMETHODIMP
+nsresult
 nsObjectFrame
 :
 :
@@ -4869,7 +4869,7 @@ y
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsObjectFrame
 :
 :
@@ -11418,7 +11418,7 @@ currentMatrix
 #
 endif
 }
-NS_IMETHODIMP
+nsresult
 nsObjectFrame
 :
 :
@@ -11950,7 +11950,7 @@ aPluginInstance
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsObjectFrame
 :
 :

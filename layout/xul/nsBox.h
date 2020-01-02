@@ -221,7 +221,8 @@ false
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetBorder
 (
 nsMargin
@@ -230,7 +231,8 @@ aBorderAndPadding
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetPadding
 (
 nsMargin
@@ -239,7 +241,8 @@ aBorderAndPadding
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetMargin
 (
 nsMargin
@@ -272,7 +275,8 @@ return
 hAlign_Left
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 RelayoutChildAtOrdinal
 (
 nsBoxLayoutState
@@ -300,7 +304,8 @@ nsIFrame
 aBox
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetDebug
 (
 bool
@@ -309,7 +314,8 @@ aDebug
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetDebug
 (
 nsBoxLayoutState
@@ -320,7 +326,8 @@ aDebug
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 DumpBox
 (
 FILE

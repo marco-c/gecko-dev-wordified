@@ -906,7 +906,8 @@ aPrevInFlow
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetInitialChildList
 (
 ChildListID
@@ -917,7 +918,8 @@ aChildList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 AppendFrames
 (
 ChildListID
@@ -928,7 +930,8 @@ aFrameList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 InsertFrames
 (
 ChildListID
@@ -942,7 +945,8 @@ aFrameList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 RemoveFrame
 (
 ChildListID
@@ -1133,7 +1137,8 @@ aFlags
 const
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -1148,10 +1153,8 @@ endif
 #
 ifdef
 DEBUG
-NS_IMETHOD_
-(
+virtual
 nsFrameState
-)
 GetDebugStateBits
 (
 )
@@ -2016,7 +2019,8 @@ nscoord
 aConsumed
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -2035,7 +2039,8 @@ aStatus
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t

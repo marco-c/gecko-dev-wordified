@@ -438,7 +438,7 @@ NS_FRAME_HAS_CHILD_WITH_VIEW
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsContainerFrame
 :
 :
@@ -562,7 +562,7 @@ return
 result
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsContainerFrame
 :
 :
@@ -676,7 +676,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsContainerFrame
 :
 :
@@ -816,7 +816,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsContainerFrame
 :
 :

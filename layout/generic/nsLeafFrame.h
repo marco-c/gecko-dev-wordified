@@ -365,7 +365,8 @@ to
 .
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -405,7 +406,8 @@ done
 .
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 DoReflow
 (
 nsPresContext

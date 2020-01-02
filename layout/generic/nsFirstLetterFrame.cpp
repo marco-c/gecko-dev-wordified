@@ -245,7 +245,7 @@ nsContainerFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsFirstLetterFrame
 :
 :
@@ -437,7 +437,7 @@ aPrevInFlow
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFirstLetterFrame
 :
 :
@@ -533,7 +533,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFirstLetterFrame
 :
 :
@@ -874,7 +874,7 @@ aFlags
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFirstLetterFrame
 :
 :

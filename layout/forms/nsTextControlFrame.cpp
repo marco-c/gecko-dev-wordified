@@ -2778,7 +2778,7 @@ return
 autoSize
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTextControlFrame
 :
 :
@@ -5981,7 +5981,7 @@ IMPLEMENTATIONS
 /
 /
 NSIFRAME
-NS_IMETHODIMP
+nsresult
 nsTextControlFrame
 :
 :
@@ -6839,7 +6839,7 @@ false
 END
 IMPLEMENTING
 NS_IFORMCONTROLFRAME
-NS_IMETHODIMP
+nsresult
 nsTextControlFrame
 :
 :
@@ -7919,7 +7919,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTextControlFrame
 :
 :

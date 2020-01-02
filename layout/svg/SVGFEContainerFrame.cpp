@@ -252,7 +252,8 @@ eSVGContainer
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -326,7 +327,8 @@ GetType
 )
 const
 ;
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t
@@ -478,7 +480,7 @@ nsGkAtoms
 svgFEContainerFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 SVGFEContainerFrame
 :
 :

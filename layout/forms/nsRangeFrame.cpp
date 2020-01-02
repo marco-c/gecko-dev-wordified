@@ -1498,7 +1498,7 @@ this
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsRangeFrame
 :
 :
@@ -4471,7 +4471,7 @@ progRect
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsRangeFrame
 :
 :

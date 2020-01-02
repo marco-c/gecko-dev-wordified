@@ -2377,7 +2377,7 @@ aPrefix
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBlockFrame
 :
 :
@@ -2407,10 +2407,7 @@ endif
 #
 ifdef
 DEBUG
-NS_IMETHODIMP_
-(
 nsFrameState
-)
 nsBlockFrame
 :
 :
@@ -6036,7 +6033,7 @@ return
 cbSize
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBlockFrame
 :
 :
@@ -19696,7 +19693,7 @@ GetNextSibling
 }
 }
 }
-NS_IMETHODIMP
+nsresult
 nsBlockFrame
 :
 :
@@ -34281,7 +34278,7 @@ Frame
 list
 manipulation
 routines
-NS_IMETHODIMP
+nsresult
 nsBlockFrame
 :
 :
@@ -34532,7 +34529,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBlockFrame
 :
 :
@@ -36447,7 +36444,7 @@ return
 false
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBlockFrame
 :
 :
@@ -46416,7 +46413,7 @@ NS_FRAME_FONT_INFLATION_FLOW_ROOT
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsBlockFrame
 :
 :

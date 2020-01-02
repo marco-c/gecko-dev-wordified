@@ -258,7 +258,7 @@ gfxButtonControlFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsGfxButtonControlFrame
 :
 :
@@ -1235,7 +1235,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsGfxButtonControlFrame
 :
 :
@@ -1372,7 +1372,7 @@ return
 this
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsGfxButtonControlFrame
 :
 :

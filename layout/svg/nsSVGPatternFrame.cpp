@@ -619,7 +619,7 @@ nsSVGPatternFrame
 nsIFrame
 methods
 :
-NS_IMETHODIMP
+nsresult
 nsSVGPatternFrame
 :
 :

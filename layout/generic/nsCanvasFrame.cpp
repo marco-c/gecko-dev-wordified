@@ -460,7 +460,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsCanvasFrame
 :
 :
@@ -519,7 +519,7 @@ aChildList
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsCanvasFrame
 :
 :
@@ -698,7 +698,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsCanvasFrame
 :
 :
@@ -759,7 +759,7 @@ aFrameList
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsCanvasFrame
 :
 :
@@ -2807,7 +2807,7 @@ return
 result
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsCanvasFrame
 :
 :
@@ -3890,7 +3890,7 @@ nsGkAtoms
 canvasFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsCanvasFrame
 :
 :
@@ -3970,7 +3970,7 @@ rv
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsCanvasFrame
 :
 :

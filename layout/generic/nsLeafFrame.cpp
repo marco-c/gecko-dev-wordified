@@ -245,7 +245,7 @@ GetIntrinsicHeight
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsLeafFrame
 :
 :
@@ -336,7 +336,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsLeafFrame
 :
 :

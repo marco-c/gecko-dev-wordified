@@ -292,7 +292,7 @@ colorControlFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsColorControlFrame
 :
 :
@@ -651,7 +651,7 @@ true
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsColorControlFrame
 :
 :

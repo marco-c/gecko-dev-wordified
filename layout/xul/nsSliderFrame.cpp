@@ -528,7 +528,7 @@ aContent
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSliderFrame
 :
 :
@@ -569,7 +569,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSliderFrame
 :
 :
@@ -619,7 +619,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSliderFrame
 :
 :
@@ -997,7 +997,7 @@ mDragBeginning
 ;
 }
 ;
-NS_IMETHODIMP
+nsresult
 nsSliderFrame
 :
 :
@@ -2160,7 +2160,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSliderFrame
 :
 :
@@ -4468,7 +4468,7 @@ nsGkAtoms
 sliderFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSliderFrame
 :
 :

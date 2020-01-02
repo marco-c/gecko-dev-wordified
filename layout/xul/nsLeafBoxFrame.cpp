@@ -367,7 +367,7 @@ UpdateMouseThrough
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsLeafBoxFrame
 :
 :
@@ -942,7 +942,7 @@ aShrinkWrap
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsLeafBoxFrame
 :
 :
@@ -1915,7 +1915,7 @@ NS_OK
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsLeafBoxFrame
 :
 :
@@ -1959,7 +1959,7 @@ nsGkAtoms
 leafBoxFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsLeafBoxFrame
 :
 :

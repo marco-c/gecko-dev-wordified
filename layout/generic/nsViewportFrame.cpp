@@ -272,7 +272,7 @@ NS_FRAME_IN_POPUP
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 ViewportFrame
 :
 :
@@ -413,7 +413,7 @@ aLists
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 ViewportFrame
 :
 :
@@ -487,7 +487,7 @@ aFrameList
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 ViewportFrame
 :
 :
@@ -565,7 +565,7 @@ aFrameList
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 ViewportFrame
 :
 :
@@ -1045,7 +1045,7 @@ return
 rect
 ;
 }
-NS_IMETHODIMP
+nsresult
 ViewportFrame
 :
 :
@@ -1910,7 +1910,7 @@ viewportFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 ViewportFrame
 :
 :

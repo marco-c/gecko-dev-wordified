@@ -493,7 +493,8 @@ MOZ_OVERRIDE
 #
 ifdef
 DEBUG_LAYOUT
-NS_IMETHOD
+virtual
+nsresult
 SetDebug
 (
 nsBoxLayoutState
@@ -571,7 +572,8 @@ aLists
 const
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetInitialChildList
 (
 ChildListID
@@ -632,7 +634,8 @@ can
 destroy
 the
 frame
-NS_IMETHOD
+virtual
+nsresult
 HandleEvent
 (
 nsPresContext
@@ -650,7 +653,8 @@ aEventStatus
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 AppendFrames
 (
 ChildListID
@@ -661,7 +665,8 @@ aFrameList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 InsertFrames
 (
 ChildListID
@@ -675,7 +680,8 @@ aFrameList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 RemoveFrame
 (
 ChildListID
@@ -1238,7 +1244,8 @@ aIsMenu
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -1552,7 +1559,8 @@ can
 destroy
 the
 frame
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t

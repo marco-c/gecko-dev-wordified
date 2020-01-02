@@ -186,7 +186,8 @@ nsIFrame
 aDestructRoot
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t
@@ -198,7 +199,8 @@ int32_t
 aModType
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 HandleEvent
 (
 nsPresContext
@@ -400,7 +402,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsAutoRepeatBoxFrame
 )
-NS_IMETHODIMP
+nsresult
 nsAutoRepeatBoxFrame
 :
 :
@@ -688,7 +690,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAutoRepeatBoxFrame
 :
 :
