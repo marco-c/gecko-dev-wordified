@@ -277,12 +277,6 @@ aClosure
 )
 {
 }
-~
-ProfileSaveEvent
-(
-)
-{
-}
 NS_IMETHOD
 AddSubProfile
 (
@@ -294,6 +288,12 @@ aProfile
 ;
 private
 :
+~
+ProfileSaveEvent
+(
+)
+{
+}
 AddSubProfileFunc
 mFunc
 ;

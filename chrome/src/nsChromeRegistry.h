@@ -372,12 +372,6 @@ false
 {
 }
 virtual
-~
-nsChromeRegistry
-(
-)
-;
-virtual
 nsresult
 Init
 (
@@ -408,6 +402,12 @@ aChromeURL
 ;
 protected
 :
+virtual
+~
+nsChromeRegistry
+(
+)
+;
 void
 FlushSkinCaches
 (

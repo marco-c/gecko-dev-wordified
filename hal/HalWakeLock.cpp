@@ -598,6 +598,12 @@ MOZ_FINAL
 public
 nsIObserver
 {
+~
+ClearHashtableOnShutdown
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -661,6 +667,12 @@ MOZ_FINAL
 public
 nsIObserver
 {
+~
+CleanupOnContentShutdown
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

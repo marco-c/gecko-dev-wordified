@@ -126,6 +126,8 @@ nsSyncJPAKE
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsSyncJPAKE

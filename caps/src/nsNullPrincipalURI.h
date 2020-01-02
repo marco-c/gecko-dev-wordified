@@ -260,6 +260,12 @@ aSpec
 ;
 private
 :
+~
+nsNullPrincipalURI
+(
+)
+{
+}
 nsCString
 mScheme
 ;

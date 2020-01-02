@@ -162,6 +162,12 @@ writeCount
 ;
 protected
 :
+~
+nsFeedSniffer
+(
+)
+{
+}
 nsresult
 ConvertEncodedData
 (
