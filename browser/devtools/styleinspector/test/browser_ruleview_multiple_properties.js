@@ -186,6 +186,9 @@ selection
 setNode
 (
 newElement
+"
+test
+"
 )
 ;
 let
