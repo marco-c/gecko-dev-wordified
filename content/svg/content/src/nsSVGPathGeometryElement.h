@@ -117,9 +117,6 @@ SVGGraphicsElement
 .
 h
 "
-class
-gfxPath
-;
 struct
 gfxMatrix
 ;
