@@ -120,6 +120,9 @@ namespace
 dom
 {
 class
+Console
+;
+class
 Function
 ;
 }
@@ -137,9 +140,6 @@ class
 WorkerPrivate
 ;
 class
-WorkerConsole
-;
-class
 WorkerLocation
 ;
 class
@@ -155,7 +155,7 @@ nsIGlobalObject
 {
 nsRefPtr
 <
-WorkerConsole
+Console
 >
 mConsole
 ;
@@ -267,9 +267,11 @@ forget
 )
 ;
 }
-WorkerConsole
-*
+already_AddRefed
+<
 Console
+>
+GetConsole
 (
 )
 ;
