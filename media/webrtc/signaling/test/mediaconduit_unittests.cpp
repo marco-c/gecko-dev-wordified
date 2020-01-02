@@ -2176,6 +2176,13 @@ uint32_t
 time_stamp
 int64_t
 render_time
+const
+mozilla
+:
+:
+ImageHandle
+&
+handle
 )
 {
 /
