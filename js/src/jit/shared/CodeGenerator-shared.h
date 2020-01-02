@@ -1422,13 +1422,14 @@ endif
 public
 :
 MIRGenerator
-*
+&
 mirGen
 (
 )
 const
 {
 return
+*
 gen
 ;
 }
