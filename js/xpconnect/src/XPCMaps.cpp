@@ -750,6 +750,8 @@ front
 )
 .
 value
+(
+)
 ;
 MOZ_ASSERT
 (
@@ -868,6 +870,8 @@ front
 )
 .
 value
+(
+)
 ;
 MOZ_ASSERT
 (

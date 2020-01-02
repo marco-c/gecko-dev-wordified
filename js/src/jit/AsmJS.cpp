@@ -9013,6 +9013,8 @@ p
 -
 >
 value
+(
+)
 ;
 return
 nullptr
@@ -9043,11 +9045,19 @@ name
 )
 )
 {
-if
-(
+Global
+*
+value
+=
 p
 -
 >
+value
+(
+)
+;
+if
+(
 value
 -
 >
@@ -9064,9 +9074,6 @@ Function
 return
 functions_
 [
-p
--
->
 value
 -
 >
@@ -9174,6 +9181,8 @@ p
 -
 >
 value
+(
+)
 ;
 return
 true
@@ -10318,6 +10327,8 @@ p
 -
 >
 value
+(
+)
 ;
 return
 true
@@ -13646,6 +13657,8 @@ p
 -
 >
 value
+(
+)
 ;
 return
 nullptr
@@ -17388,6 +17401,8 @@ p
 -
 >
 value
+(
+)
 &
 createdJoinBlock
 pn
@@ -18542,6 +18557,8 @@ p
 -
 >
 value
+(
+)
 createdJoinBlock
 pn
 )
@@ -18648,6 +18665,8 @@ p
 -
 >
 value
+(
+)
 .
 append
 (
@@ -18704,6 +18723,8 @@ p
 -
 >
 value
+(
+)
 &
 createdJoinBlock
 pn
@@ -44487,6 +44508,8 @@ front
 )
 .
 key
+(
+)
 r
 .
 front
@@ -44494,6 +44517,8 @@ front
 )
 .
 value
+(
+)
 &
 throwLabel
 )

@@ -19965,6 +19965,8 @@ front
 )
 .
 value
+(
+)
 .
 mIndex
 ]
@@ -20022,6 +20024,8 @@ entry
 -
 >
 key
+(
+)
 )
 ;
 AppendString
@@ -20041,6 +20045,8 @@ entry
 -
 >
 value
+(
+)
 .
 mType
 true
@@ -21113,6 +21119,8 @@ front
 )
 .
 value
+(
+)
 .
 mIndex
 ]
@@ -21174,6 +21182,8 @@ entry
 -
 >
 key
+(
+)
 )
 ;
 AppendString
@@ -21204,6 +21214,8 @@ entry
 -
 >
 value
+(
+)
 .
 mOffset
 ;
@@ -21215,6 +21227,8 @@ entry
 -
 >
 value
+(
+)
 .
 mType
 )
@@ -23138,6 +23152,8 @@ front
 )
 .
 key
+(
+)
 ;
 JS_CallStringTracer
 (
@@ -23161,6 +23177,8 @@ front
 )
 .
 key
+(
+)
 )
 e
 .
@@ -23183,6 +23201,8 @@ front
 )
 .
 value
+(
+)
 .
 mType
 "
@@ -34142,6 +34162,8 @@ cx
 entry
 .
 value
+(
+)
 .
 mType
 )
@@ -34159,6 +34181,8 @@ elements
 entry
 .
 value
+(
+)
 .
 mIndex
 ]
@@ -35152,6 +35176,8 @@ front
 )
 .
 value
+(
+)
 ;
 STATIC_ASSUME
 (
@@ -35378,6 +35404,8 @@ ptr
 -
 >
 value
+(
+)
 ;
 JSAutoByteString
 bytes
@@ -35591,15 +35619,21 @@ fieldsVec
 entry
 .
 value
+(
+)
 .
 mIndex
 ]
 entry
 .
 key
+(
+)
 entry
 .
 value
+(
+)
 .
 mType
 )

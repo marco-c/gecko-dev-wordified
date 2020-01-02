@@ -268,6 +268,8 @@ front
 )
 .
 value
+(
+)
 )
 )
 ;
@@ -530,6 +532,8 @@ s
 -
 >
 value
+(
+)
 ;
 const
 char
@@ -699,6 +703,8 @@ entry
 -
 >
 value
+(
+)
 ;
 strings
 .

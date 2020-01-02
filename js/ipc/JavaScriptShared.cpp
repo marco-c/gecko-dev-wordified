@@ -243,6 +243,8 @@ front
 )
 .
 value
+(
+)
 .
 get
 (
@@ -259,6 +261,8 @@ front
 )
 .
 value
+(
+)
 "
 ipc
 -
@@ -275,6 +279,8 @@ front
 )
 .
 value
+(
+)
 =
 =
 prior
@@ -319,6 +325,8 @@ p
 -
 >
 value
+(
+)
 ;
 }
 bool
@@ -495,6 +503,8 @@ front
 )
 .
 key
+(
+)
 ;
 JS_CallObjectTracer
 (
@@ -520,6 +530,8 @@ front
 )
 .
 key
+(
+)
 )
 ;
 }
@@ -562,6 +574,8 @@ p
 -
 >
 value
+(
+)
 ;
 }
 bool

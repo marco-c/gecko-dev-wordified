@@ -1957,6 +1957,8 @@ p
 -
 >
 value
+(
+)
 .
 add
 (
@@ -2667,6 +2669,8 @@ front
 )
 .
 key
+(
+)
 ;
 StringInfo
 &
@@ -2679,6 +2683,8 @@ front
 )
 .
 value
+(
+)
 ;
 /
 /

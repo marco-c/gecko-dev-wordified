@@ -970,6 +970,8 @@ front
 )
 .
 key
+(
+)
 ;
 jsatomid
 index
@@ -981,6 +983,8 @@ front
 )
 .
 value
+(
+)
 ;
 JS_ASSERT
 (

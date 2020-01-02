@@ -1237,6 +1237,8 @@ ptr
 -
 >
 value
+(
+)
 .
 get
 (
@@ -1255,6 +1257,8 @@ ptr
 -
 >
 value
+(
+)
 )
 ;
 return
@@ -2310,6 +2314,8 @@ front
 )
 .
 key
+(
+)
 )
 ;
 if

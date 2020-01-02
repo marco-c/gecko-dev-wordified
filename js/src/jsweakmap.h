@@ -1301,6 +1301,8 @@ front
 )
 .
 key
+(
+)
 )
 ;
 gc
@@ -1330,6 +1332,8 @@ front
 )
 .
 key
+(
+)
 )
 entryMoved
 (
@@ -1386,6 +1390,8 @@ front
 )
 .
 value
+(
+)
 "
 WeakMap
 entry
@@ -1560,6 +1566,8 @@ front
 )
 .
 key
+(
+)
 )
 ;
 if
@@ -1594,6 +1602,8 @@ front
 )
 .
 value
+(
+)
 )
 )
 markedAny
@@ -1609,6 +1619,8 @@ front
 )
 .
 key
+(
+)
 !
 =
 key
@@ -1635,15 +1647,8 @@ gc
 Mark
 (
 trc
-const_cast
-<
-Key
-*
->
-(
 &
 key
-)
 "
 proxy
 -
@@ -1663,6 +1668,8 @@ front
 )
 .
 key
+(
+)
 !
 =
 key
@@ -1687,6 +1694,8 @@ front
 )
 .
 value
+(
+)
 "
 WeakMap
 entry
@@ -1761,6 +1770,8 @@ front
 )
 .
 key
+(
+)
 )
 ;
 if
@@ -1793,6 +1804,8 @@ front
 )
 .
 key
+(
+)
 )
 entryMoved
 (
@@ -1905,6 +1918,8 @@ front
 )
 .
 key
+(
+)
 )
 ;
 gc
@@ -1926,6 +1941,8 @@ front
 )
 .
 value
+(
+)
 )
 ;
 if
@@ -1956,6 +1973,8 @@ front
 )
 .
 key
+(
+)
 )
 value
 gc
@@ -1970,6 +1989,8 @@ front
 )
 .
 value
+(
+)
 )
 )
 ;
@@ -2121,6 +2142,8 @@ front
 )
 .
 key
+(
+)
 )
 ;
 JS_ASSERT
@@ -2152,6 +2175,8 @@ front
 )
 .
 value
+(
+)
 )
 )
 ;
@@ -2167,6 +2192,8 @@ front
 )
 .
 key
+(
+)
 )
 ;
 }

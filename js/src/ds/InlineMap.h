@@ -767,6 +767,8 @@ mapPtr
 -
 >
 key
+(
+)
 ;
 }
 V
@@ -794,6 +796,8 @@ mapPtr
 -
 >
 value
+(
+)
 ;
 }
 }
@@ -978,6 +982,8 @@ mapAddPtr
 -
 >
 value
+(
+)
 ;
 }
 }
@@ -1942,6 +1948,8 @@ front
 )
 .
 key
+(
+)
 mapRange
 .
 front
@@ -1949,6 +1957,8 @@ front
 )
 .
 value
+(
+)
 )
 ;
 }

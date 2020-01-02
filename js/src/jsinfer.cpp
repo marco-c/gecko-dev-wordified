@@ -11011,6 +11011,8 @@ p
 -
 >
 value
+(
+)
 ;
 }
 if
@@ -14384,6 +14386,8 @@ p
 -
 >
 value
+(
+)
 )
 ;
 }
@@ -15621,6 +15625,8 @@ p
 -
 >
 value
+(
+)
 .
 object
 -
@@ -15642,6 +15648,8 @@ p
 -
 >
 value
+(
+)
 .
 shape
 )
@@ -15653,6 +15661,8 @@ p
 -
 >
 value
+(
+)
 properties
 .
 begin
@@ -15674,6 +15684,8 @@ p
 -
 >
 value
+(
+)
 .
 object
 )
@@ -16394,6 +16406,8 @@ p
 -
 >
 value
+(
+)
 .
 object
 -
@@ -16409,6 +16423,8 @@ p
 -
 >
 value
+(
+)
 .
 shape
 )
@@ -16445,6 +16461,8 @@ p
 -
 >
 value
+(
+)
 properties
 nproperties
 )
@@ -16487,6 +16505,8 @@ p
 -
 >
 value
+(
+)
 .
 object
 )
@@ -26701,6 +26721,8 @@ front
 )
 .
 key
+(
+)
 ;
 JS_ASSERT
 (
@@ -26789,6 +26811,8 @@ front
 )
 .
 value
+(
+)
 .
 unsafeGet
 (
@@ -26905,6 +26929,8 @@ front
 )
 .
 key
+(
+)
 ;
 ObjectTableEntry
 &
@@ -26917,6 +26943,8 @@ front
 )
 .
 value
+(
+)
 ;
 bool
 remove
@@ -27202,6 +27230,8 @@ front
 )
 .
 key
+(
+)
 ;
 bool
 keyDying
@@ -27226,6 +27256,8 @@ front
 )
 .
 value
+(
+)
 .
 unsafeGet
 (
@@ -27260,6 +27292,8 @@ front
 )
 .
 key
+(
+)
 .
 script
 )
@@ -27405,6 +27439,8 @@ front
 )
 .
 key
+(
+)
 ;
 ObjectTableEntry
 &
@@ -27417,6 +27453,8 @@ front
 )
 .
 value
+(
+)
 ;
 if
 (
@@ -28060,6 +28098,8 @@ front
 )
 .
 key
+(
+)
 ;
 const
 ObjectTableEntry
@@ -28073,6 +28113,8 @@ front
 )
 .
 value
+(
+)
 ;
 /
 *
