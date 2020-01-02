@@ -3244,7 +3244,7 @@ mEvent
 mClass
 !
 =
-NS_EVENT
+eBasicEventClass
 )
 {
 if

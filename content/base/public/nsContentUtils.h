@@ -6324,7 +6324,7 @@ on
 prefix
 .
 Returns
-NS_EVENT
+eBasicEventClass
 if
 the
 event

@@ -349,7 +349,7 @@ EventClassIDType
 BasicEvents
 .
 h
-NS_EVENT
+eBasicEventClass
 /
 /
 WidgetEvent
@@ -4813,7 +4813,7 @@ aMessage
 :
 mClass
 (
-NS_EVENT
+eBasicEventClass
 )
 message
 (
@@ -4921,7 +4921,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_EVENT
+eBasicEventClass
 "
 Duplicate
 (
