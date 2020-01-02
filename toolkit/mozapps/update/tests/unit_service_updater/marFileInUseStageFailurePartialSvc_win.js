@@ -40,7 +40,6 @@ staged
 patch
 apply
 failure
-fallback
 test
 *
 /
@@ -83,7 +82,7 @@ setTestFilesAndDirsForFailure
 setupUpdaterTest
 (
 FILE_PARTIAL_MAR
-false
+true
 false
 )
 ;
@@ -247,10 +246,14 @@ gSwitchApp
 =
 true
 ;
+gDisableReplaceFallback
+=
+true
+;
 runUpdate
 (
 1
-STATE_PENDING
+STATE_FAILED_WRITE_ERROR
 )
 ;
 }
