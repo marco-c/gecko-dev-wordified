@@ -359,7 +359,7 @@ mClass
 )
 {
 case
-NS_UI_EVENT
+eUIEventClass
 :
 {
 mDetail

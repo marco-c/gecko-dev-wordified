@@ -361,7 +361,7 @@ eInputEventClass
 /
 /
 WidgetInputEvent
-NS_UI_EVENT
+eUIEventClass
 /
 /
 InternalUIEvent
@@ -8533,7 +8533,7 @@ WidgetGUIEvent
 aIsTrusted
 aMessage
 nullptr
-NS_UI_EVENT
+eUIEventClass
 )
 detail
 (
@@ -8555,7 +8555,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_UI_EVENT
+eUIEventClass
 "
 Duplicate
 (
