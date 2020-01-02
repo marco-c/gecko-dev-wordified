@@ -874,6 +874,15 @@ ins
 ;
 virtual
 bool
+visitDivOrModConstantI
+(
+LDivOrModConstantI
+*
+ins
+)
+;
+virtual
+bool
 visitModI
 (
 LModI

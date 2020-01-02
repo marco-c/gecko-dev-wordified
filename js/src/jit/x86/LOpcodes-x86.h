@@ -153,6 +153,11 @@ DivPowTwoI
 \
 _
 (
+DivOrModConstantI
+)
+\
+_
+(
 ModI
 )
 \
