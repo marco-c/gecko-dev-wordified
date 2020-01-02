@@ -1017,10 +1017,10 @@ GetPrincipal
 bool
 system
 =
-XPCWrapper
+nsXPConnect
 :
 :
-GetSecurityManager
+SecurityManager
 (
 )
 -
