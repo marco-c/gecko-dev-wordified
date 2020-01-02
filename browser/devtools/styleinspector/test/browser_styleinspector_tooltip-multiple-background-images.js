@@ -242,6 +242,12 @@ data
 text
 /
 html
+;
+charset
+=
+utf
+-
+8
 background
 image
 tooltip

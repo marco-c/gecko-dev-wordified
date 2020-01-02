@@ -151,6 +151,12 @@ data
 text
 /
 html
+;
+charset
+=
+utf
+-
+8
 rule
 view
 color

@@ -106,6 +106,12 @@ data
 text
 /
 html
+;
+charset
+=
+utf
+-
+8
 inline
 editor
 tests

@@ -82,6 +82,12 @@ data
 text
 /
 html
+;
+charset
+=
+utf
+-
+8
 default
 styles
 test
