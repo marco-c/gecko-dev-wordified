@@ -56,6 +56,17 @@ MPL
 .
 *
 /
+inline
+nsHtml5HtmlAttributes
+*
+GetAttributes
+(
+)
+{
+return
+attributes
+;
+}
 nsAutoPtr
 <
 nsHtml5Highlighter
