@@ -245,7 +245,6 @@ closebuttons
 "
 )
 "
-alltabs
 "
 "
 Show

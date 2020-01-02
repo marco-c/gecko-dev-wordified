@@ -9275,9 +9275,9 @@ header
 >
 toolbarbutton
 .
-tabs
+close
 -
-closebutton
+icon
 '
 )
 ;
