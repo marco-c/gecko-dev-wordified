@@ -1705,6 +1705,9 @@ viewsHead
 void
 neuter
 (
+JSContext
+*
+cx
 )
 ;
 static
@@ -2199,6 +2202,9 @@ vp
 void
 neuter
 (
+JSContext
+*
+cx
 )
 ;
 static

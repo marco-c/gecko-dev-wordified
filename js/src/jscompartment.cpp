@@ -2132,7 +2132,7 @@ RootedObject
 proto
 (
 cx
-Proxy
+TaggedProto
 :
 :
 LazyProto

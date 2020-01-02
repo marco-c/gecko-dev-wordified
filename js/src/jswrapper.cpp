@@ -385,7 +385,7 @@ NewProxyObject
 cx
 handler
 priv
-Proxy
+TaggedProto
 :
 :
 LazyProto
@@ -962,7 +962,7 @@ JS_ASSERT
 wrappedProto
 =
 =
-Proxy
+TaggedProto
 :
 :
 LazyProto

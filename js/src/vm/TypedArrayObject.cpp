@@ -2149,6 +2149,7 @@ view
 >
 neuter
 (
+cx
 )
 ;
 /
@@ -7423,8 +7424,17 @@ TypedArrayObject
 :
 neuter
 (
+JSContext
+*
+cx
 )
 {
+AutoLockForCompilation
+lock
+(
+cx
+)
+;
 setSlot
 (
 LENGTH_SLOT
@@ -16916,6 +16926,9 @@ ArrayBufferViewObject
 :
 neuter
 (
+JSContext
+*
+cx
 )
 {
 if
@@ -16948,6 +16961,7 @@ TypedArrayObject
 .
 neuter
 (
+cx
 )
 ;
 }

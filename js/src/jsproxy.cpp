@@ -17723,7 +17723,7 @@ vp
 JSObject
 *
 const
-Proxy
+TaggedProto
 :
 :
 LazyProto

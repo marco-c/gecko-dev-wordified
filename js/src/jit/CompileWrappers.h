@@ -394,6 +394,9 @@ positiveInfinityValue
 (
 )
 ;
+#
+ifdef
+DEBUG
 bool
 isInsideNursery
 (
@@ -405,6 +408,8 @@ Cell
 cell
 )
 ;
+#
+endif
 /
 /
 DOM
@@ -521,6 +526,13 @@ JSCompartment
 compartment
 (
 )
+;
+friend
+class
+js
+:
+:
+AutoLockForCompilation
 ;
 public
 :

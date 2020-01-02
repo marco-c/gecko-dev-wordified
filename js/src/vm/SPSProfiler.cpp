@@ -361,10 +361,6 @@ enabled
 )
 return
 ;
-enabled_
-=
-enabled
-;
 /
 *
 *
@@ -396,6 +392,10 @@ defaultFreeOp
 (
 )
 )
+;
+enabled_
+=
+enabled
 ;
 #
 ifdef

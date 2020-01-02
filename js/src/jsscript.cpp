@@ -20378,6 +20378,13 @@ isGenerator
 )
 )
 ;
+{
+AutoLockForCompilation
+lock
+(
+cx
+)
+;
 script
 -
 >
@@ -20385,6 +20392,7 @@ needsArgsObj_
 =
 true
 ;
+}
 #
 ifdef
 JS_ION

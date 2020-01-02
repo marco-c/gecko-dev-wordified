@@ -354,7 +354,7 @@ THING_ROOT_OBJECT
 addr
 =
 =
-Proxy
+TaggedProto
 :
 :
 LazyProto

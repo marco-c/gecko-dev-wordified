@@ -1669,6 +1669,7 @@ script
 >
 setBaselineScript
 (
+cx
 BASELINE_DISABLED_SCRIPT
 )
 ;
@@ -4380,8 +4381,14 @@ PCMappingSlotInfo
 slotInfo
 )
 {
-JS_ASSERT
+JS_ASSERT_IF
 (
+script
+-
+>
+hasBaselineScript
+(
+)
 script
 -
 >
@@ -5909,6 +5916,7 @@ script
 >
 setBaselineScript
 (
+nullptr
 nullptr
 )
 ;
