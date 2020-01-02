@@ -17443,6 +17443,11 @@ nsLayoutUtils
 :
 IGNORE_PAINT_SUPPRESSION
 |
+nsLayoutUtils
+:
+:
+IGNORE_CROSS_DOC
+|
 (
 aIgnoreRootScrollFrame
 ?
@@ -17792,6 +17797,11 @@ nsLayoutUtils
 :
 :
 IGNORE_PAINT_SUPPRESSION
+|
+nsLayoutUtils
+:
+:
+IGNORE_CROSS_DOC
 |
 (
 aIgnoreRootScrollFrame
@@ -50680,6 +50690,11 @@ nsLayoutUtils
 :
 :
 IGNORE_PAINT_SUPPRESSION
+|
+nsLayoutUtils
+:
+:
+IGNORE_CROSS_DOC
 )
 ;
 if
