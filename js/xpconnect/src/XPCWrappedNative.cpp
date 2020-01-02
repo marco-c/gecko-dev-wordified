@@ -14629,12 +14629,6 @@ dp
 val
 src
 type
-!
-paramInfo
-.
-IsStringClass
-(
-)
 &
 param_iid
 &
@@ -15425,7 +15419,6 @@ dp
 val
 src
 type
-true
 &
 param_iid
 &
