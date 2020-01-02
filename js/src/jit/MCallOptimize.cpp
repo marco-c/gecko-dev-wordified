@@ -7708,6 +7708,9 @@ executionMode
 case
 SequentialExecution
 :
+case
+DefinitePropertiesAnalysis
+:
 /
 /
 In
@@ -7815,9 +7818,6 @@ return
 InliningStatus_Inlined
 ;
 }
-default
-:
-;
 }
 MOZ_ASSUME_UNREACHABLE
 (
@@ -8968,6 +8968,9 @@ executionMode
 case
 SequentialExecution
 :
+case
+DefinitePropertiesAnalysis
+:
 return
 inlineNewDenseArrayForSequentialExecution
 (
@@ -8982,9 +8985,6 @@ inlineNewDenseArrayForParallelExecution
 (
 callInfo
 )
-;
-default
-:
 ;
 }
 MOZ_ASSUME_UNREACHABLE
