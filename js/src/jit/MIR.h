@@ -40042,7 +40042,7 @@ name
 types
 :
 :
-TemporaryTypeSet
+StackTypeSet
 *
 observed
 bool
@@ -40073,7 +40073,7 @@ name
 types
 :
 :
-TemporaryTypeSet
+StackTypeSet
 *
 observed
 )
@@ -40124,6 +40124,9 @@ name
 bool
 AddObjectsForPropertyRead
 (
+JSContext
+*
+cx
 MDefinition
 *
 obj
@@ -40133,7 +40136,7 @@ name
 types
 :
 :
-TemporaryTypeSet
+StackTypeSet
 *
 observed
 )
