@@ -412,12 +412,11 @@ commandline
 .
 setup_logging
 (
+        
 options
 .
 logger_name
-                                                  
 options
-                                                  
 {
 }
 )
@@ -490,7 +489,18 @@ logger
 .
 add_handler
 (
+structured
+.
+handlers
+.
+LogLevelFilter
+(
+            
 handler
+'
+info
+'
+)
 )
     
 options
