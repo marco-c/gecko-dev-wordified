@@ -193,7 +193,7 @@ caret
 according
 to
 caret
-postion
+position
 when
 the
 *
@@ -239,13 +239,6 @@ MOZ_FINAL
 public
 nsISelectionListener
 {
-private
-:
-~
-TouchCaret
-(
-)
-;
 public
 :
 explicit
@@ -430,6 +423,11 @@ TouchCaret
 (
 )
 MOZ_DELETE
+;
+~
+TouchCaret
+(
+)
 ;
 /
 *
@@ -1488,8 +1486,6 @@ return
 sTouchCaretExpirationTime
 ;
 }
-protected
-:
 nsWeakPtr
 mPresShell
 ;

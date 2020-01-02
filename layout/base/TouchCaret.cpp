@@ -812,7 +812,7 @@ CancelExpirationTimer
 We
 must
 call
-SetHasTouchCaret
+SetMayHaveTouchCaret
 (
 )
 in
