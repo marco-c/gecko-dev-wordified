@@ -658,7 +658,6 @@ GfxInfo
 OperatingSystemVersion
 (
 )
-const
 {
 return
 0
