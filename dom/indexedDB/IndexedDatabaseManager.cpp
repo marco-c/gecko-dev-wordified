@@ -643,7 +643,7 @@ StaticRefPtr
 <
 IndexedDatabaseManager
 >
-gInstance
+gDBManager
 ;
 mozilla
 :
@@ -1013,7 +1013,7 @@ nullptr
 if
 (
 !
-gInstance
+gDBManager
 )
 {
 sIsMainProcess
@@ -1169,19 +1169,19 @@ once
 )
 ;
 }
-gInstance
+gDBManager
 =
 instance
 ;
 ClearOnShutdown
 (
 &
-gInstance
+gDBManager
 )
 ;
 }
 return
-gInstance
+gDBManager
 ;
 }
 /
@@ -1206,7 +1206,7 @@ owning
 reference
 .
 return
-gInstance
+gDBManager
 ;
 }
 /
@@ -2344,7 +2344,7 @@ IsMainProcess
 {
 NS_ASSERTION
 (
-gInstance
+gDBManager
 "
 IsMainProcess
 (
@@ -2398,7 +2398,7 @@ InLowDiskSpaceMode
 {
 NS_ASSERTION
 (
-gInstance
+gDBManager
 "
 InLowDiskSpaceMode
 (
