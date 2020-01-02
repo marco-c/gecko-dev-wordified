@@ -219,13 +219,13 @@ TextureFlags
 aFlags
 )
 :
+TextureClient
+(
+aFlags
+)
 mFormat
 (
 aFormat
-)
-mTextureFlags
-(
-aFlags
 )
 {
 MOZ_COUNT_CTOR

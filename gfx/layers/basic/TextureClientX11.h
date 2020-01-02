@@ -336,9 +336,6 @@ gfx
 SurfaceFormat
 mFormat
 ;
-TextureFlags
-mTextureFlags
-;
 gfx
 :
 :
