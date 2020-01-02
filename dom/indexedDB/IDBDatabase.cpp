@@ -1949,6 +1949,9 @@ Get
 ;
 if
 (
+mRegistered
+&
+&
 quotaManager
 )
 {
