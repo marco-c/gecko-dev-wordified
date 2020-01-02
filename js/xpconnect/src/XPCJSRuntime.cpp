@@ -20703,7 +20703,7 @@ and
 give
 trusted
 script
-140k
+180k
 extra
 .
 The
@@ -20728,7 +20728,7 @@ const
 size_t
 kTrustedScriptBuffer
 =
-140
+180
 *
 1024
 ;
