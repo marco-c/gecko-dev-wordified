@@ -192,6 +192,15 @@ include
 "
 js
 /
+DebugAPI
+.
+h
+"
+#
+include
+"
+js
+/
 GCAPI
 .
 h
