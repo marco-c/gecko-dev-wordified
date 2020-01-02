@@ -284,7 +284,7 @@ fileStorages
 let
 request
 =
-getFileHandle
+getMutableFile
 (
 fileStorage
 .
@@ -315,7 +315,7 @@ yield
 undefined
 ;
 let
-fileHandle
+mutableFile
 =
 event
 .
@@ -323,7 +323,7 @@ target
 .
 result
 ;
-fileHandle
+mutableFile
 .
 onerror
 =
@@ -335,9 +335,9 @@ location
 0
 ;
 let
-lockedFile
-=
 fileHandle
+=
+mutableFile
 .
 open
 (
@@ -348,7 +348,7 @@ readwrite
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 location
@@ -360,7 +360,7 @@ location
 ;
 request
 =
-lockedFile
+fileHandle
 .
 append
 (
@@ -369,7 +369,7 @@ testString
 ;
 ok
 (
-lockedFile
+fileHandle
 .
 location
 =
@@ -393,7 +393,7 @@ event
 yield
 undefined
 ;
-lockedFile
+fileHandle
 .
 location
 =
@@ -401,7 +401,7 @@ location
 ;
 request
 =
-lockedFile
+fileHandle
 .
 readAsText
 (
@@ -418,7 +418,7 @@ testString
 length
 is
 (
-lockedFile
+fileHandle
 .
 location
 location
@@ -463,7 +463,7 @@ data
 ;
 request
 =
-lockedFile
+fileHandle
 .
 append
 (
@@ -472,7 +472,7 @@ testBuffer
 ;
 ok
 (
-lockedFile
+fileHandle
 .
 location
 =
@@ -496,7 +496,7 @@ event
 yield
 undefined
 ;
-lockedFile
+fileHandle
 .
 location
 =
@@ -504,7 +504,7 @@ location
 ;
 request
 =
-lockedFile
+fileHandle
 .
 readAsArrayBuffer
 (
@@ -522,7 +522,7 @@ byteLength
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 location
@@ -569,7 +569,7 @@ data
 ;
 request
 =
-lockedFile
+fileHandle
 .
 append
 (
@@ -578,7 +578,7 @@ testBlob
 ;
 ok
 (
-lockedFile
+fileHandle
 .
 location
 =
@@ -602,7 +602,7 @@ event
 yield
 undefined
 ;
-lockedFile
+fileHandle
 .
 location
 =
@@ -610,7 +610,7 @@ location
 ;
 request
 =
-lockedFile
+fileHandle
 .
 readAsArrayBuffer
 (
@@ -628,7 +628,7 @@ size
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 location
@@ -673,7 +673,7 @@ data
 ;
 request
 =
-lockedFile
+fileHandle
 .
 getMetadata
 (

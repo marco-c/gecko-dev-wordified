@@ -141,7 +141,7 @@ fileStorages
 let
 request
 =
-getFileHandle
+getMutableFile
 (
 fileStorage
 .
@@ -172,7 +172,7 @@ yield
 undefined
 ;
 let
-fileHandle
+mutableFile
 =
 event
 .
@@ -180,16 +180,16 @@ target
 .
 result
 ;
-fileHandle
+mutableFile
 .
 onerror
 =
 errorHandler
 ;
 let
-lockedFile
-=
 fileHandle
+=
+mutableFile
 .
 open
 (
@@ -205,7 +205,7 @@ sum
 ;
 request
 =
-lockedFile
+fileHandle
 .
 write
 (
@@ -306,7 +306,7 @@ sum
 =
 0
 ;
-lockedFile
+fileHandle
 .
 location
 =
@@ -314,7 +314,7 @@ location
 ;
 request
 =
-lockedFile
+fileHandle
 .
 readAsArrayBuffer
 (

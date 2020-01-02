@@ -520,7 +520,7 @@ API
 errors
 *
 /
-LockedFileInactiveError
+FileHandleInactiveError
 =
 0
 /

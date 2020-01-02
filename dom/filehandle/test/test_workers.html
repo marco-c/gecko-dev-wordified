@@ -141,7 +141,7 @@ fileStorages
 let
 request
 =
-getFileHandle
+getMutableFile
 (
 fileStorage
 .
@@ -172,7 +172,7 @@ yield
 undefined
 ;
 let
-fileHandle
+mutableFile
 =
 event
 .
@@ -180,16 +180,16 @@ target
 .
 result
 ;
-fileHandle
+mutableFile
 .
 onerror
 =
 errorHandler
 ;
 let
-lockedFile
-=
 fileHandle
+=
+mutableFile
 .
 open
 (
@@ -200,7 +200,7 @@ readwrite
 ;
 request
 =
-lockedFile
+fileHandle
 .
 write
 (
@@ -220,7 +220,7 @@ undefined
 ;
 request
 =
-fileHandle
+mutableFile
 .
 getFile
 (

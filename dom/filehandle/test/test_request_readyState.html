@@ -133,7 +133,7 @@ fileStorages
 let
 request
 =
-getFileHandle
+getMutableFile
 (
 fileStorage
 .
@@ -192,7 +192,7 @@ readyState
 )
 ;
 let
-fileHandle
+mutableFile
 =
 event
 .
@@ -200,16 +200,16 @@ target
 .
 result
 ;
-fileHandle
+mutableFile
 .
 onerror
 =
 errorHandler
 ;
 let
-lockedFile
-=
 fileHandle
+=
+mutableFile
 .
 open
 (
@@ -220,7 +220,7 @@ readwrite
 ;
 request
 =
-lockedFile
+fileHandle
 .
 write
 (
@@ -268,7 +268,7 @@ readyState
 "
 )
 ;
-lockedFile
+fileHandle
 .
 location
 =
@@ -276,7 +276,7 @@ location
 ;
 request
 =
-lockedFile
+fileHandle
 .
 readAsText
 (

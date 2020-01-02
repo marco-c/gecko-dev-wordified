@@ -161,7 +161,7 @@ namespace
 dom
 {
 class
-LockedFile
+FileHandle
 ;
 class
 File
@@ -198,9 +198,9 @@ aLength
 nsIFile
 *
 aFile
-LockedFile
+FileHandle
 *
-aLockedFile
+aFileHandle
 )
 ;
 /
@@ -225,9 +225,9 @@ aLength
 nsIFile
 *
 aFile
-LockedFile
+FileHandle
 *
-aLockedFile
+aFileHandle
 FileInfo
 *
 aFileInfo
@@ -347,9 +347,9 @@ mFile
 ;
 nsRefPtr
 <
-LockedFile
+FileHandle
 >
-mLockedFile
+mFileHandle
 ;
 bool
 mWholeFile

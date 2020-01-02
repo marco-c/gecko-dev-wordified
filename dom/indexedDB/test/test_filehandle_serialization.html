@@ -315,7 +315,7 @@ request
 =
 db1
 .
-mozCreateFileHandle
+createMutableFile
 (
 "
 random
@@ -341,7 +341,7 @@ yield
 undefined
 ;
 let
-fileHandle
+mutableFile
 =
 event
 .
@@ -353,7 +353,7 @@ is
 (
 getFileId
 (
-fileHandle
+mutableFile
 )
 1
 "
@@ -365,7 +365,7 @@ id
 ;
 is
 (
-fileHandle
+mutableFile
 .
 name
 "
@@ -381,7 +381,7 @@ name
 ;
 is
 (
-fileHandle
+mutableFile
 .
 type
 "
@@ -424,7 +424,7 @@ objectStore
 .
 add
 (
-fileHandle
+mutableFile
 42
 )
 ;
@@ -487,7 +487,7 @@ is
 result
 .
 name
-fileHandle
+mutableFile
 .
 name
 "
@@ -501,7 +501,7 @@ is
 result
 .
 type
-fileHandle
+mutableFile
 .
 type
 "
@@ -545,7 +545,7 @@ objectStore
 .
 add
 (
-fileHandle
+mutableFile
 42
 )
 ;

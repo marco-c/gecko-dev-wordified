@@ -261,7 +261,7 @@ request
 =
 db
 .
-mozCreateFileHandle
+createMutableFile
 (
 "
 random
@@ -287,7 +287,7 @@ yield
 undefined
 ;
 let
-fileHandle
+mutableFile
 =
 event
 .
@@ -295,16 +295,16 @@ target
 .
 result
 ;
-fileHandle
+mutableFile
 .
 onerror
 =
 errorHandler
 ;
 let
-lockedFile
-=
 fileHandle
+=
+mutableFile
 .
 open
 (
@@ -317,7 +317,7 @@ is
 (
 getFileId
 (
-fileHandle
+mutableFile
 )
 1
 "
@@ -329,7 +329,7 @@ id
 ;
 request
 =
-lockedFile
+fileHandle
 .
 write
 (
@@ -349,7 +349,7 @@ undefined
 ;
 request
 =
-fileHandle
+mutableFile
 .
 getFile
 (
@@ -484,7 +484,7 @@ e
 .
 name
 "
-LockedFileInactiveError
+FileHandleInactiveError
 "
 "
 Good

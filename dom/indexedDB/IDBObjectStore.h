@@ -286,7 +286,7 @@ struct
 ObjectStoreInfo
 ;
 struct
-FileHandleData
+MutableFileData
 ;
 struct
 BlobOrFileData
@@ -1684,12 +1684,12 @@ aBuffer
 ;
 static
 bool
-ReadFileHandle
+ReadMutableFile
 (
 JSStructuredCloneReader
 *
 aReader
-FileHandleData
+MutableFileData
 *
 aRetval
 )

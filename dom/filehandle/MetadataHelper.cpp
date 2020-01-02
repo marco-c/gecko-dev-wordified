@@ -121,6 +121,13 @@ h
 #
 include
 "
+FileHandle
+.
+h
+"
+#
+include
+"
 js
 /
 Value
@@ -140,13 +147,6 @@ h
 include
 "
 jsapi
-.
-h
-"
-#
-include
-"
-LockedFile
 .
 h
 "
@@ -202,7 +202,7 @@ aStream
 bool
 readWrite
 =
-mLockedFile
+mFileHandle
 -
 >
 mMode
