@@ -41077,6 +41077,7 @@ AddKeywordForSearchField
 (
 )
 {
+let
 bookmarkData
 =
 GetSearchFieldBookmarkData
