@@ -3522,6 +3522,9 @@ TestReferenceDeleter
 return
 1
 ;
+#
+if
+SHOULD_TEST_FUNCTION_REFERENCE_DELETER
 if
 (
 !
@@ -3532,6 +3535,8 @@ TestFunctionReferenceDeleter
 return
 1
 ;
+#
+endif
 if
 (
 !
