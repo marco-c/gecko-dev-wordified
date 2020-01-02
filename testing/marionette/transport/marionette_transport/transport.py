@@ -159,6 +159,11 @@ __init__
 self
 addr
 port
+socket_timeout
+=
+360
+.
+0
 )
 :
         
@@ -173,6 +178,12 @@ self
 port
 =
 port
+        
+self
+.
+socket_timeout
+=
+socket_timeout
         
 self
 .
@@ -447,11 +458,6 @@ def
 connect
 (
 self
-timeout
-=
-360
-.
-0
 )
 :
         
@@ -502,7 +508,9 @@ sock
 .
 settimeout
 (
-timeout
+self
+.
+socket_timeout
 )
         
 try
