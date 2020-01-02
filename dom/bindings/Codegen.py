@@ -82599,7 +82599,7 @@ aNameSpaceManager
 >
 RegisterDefineDOMInterface
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 #
 _dom_class
@@ -82630,7 +82630,7 @@ aNameSpaceManager
 >
 RegisterDefineDOMInterface
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 #
 _dom_constructor
@@ -82661,7 +82661,7 @@ aNameSpaceManager
 >
 RegisterNavigatorDOMConstructor
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 _prop
 )
