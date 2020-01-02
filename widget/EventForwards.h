@@ -221,7 +221,9 @@ KeyNameIndex
 #
 include
 "
-nsDOMKeyNameList
+mozilla
+/
+KeyNameList
 .
 h
 "

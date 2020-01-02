@@ -1986,7 +1986,9 @@ name
 #
 include
 "
-nsDOMKeyNameList
+mozilla
+/
+KeyNameList
 .
 h
 "
@@ -2019,7 +2021,9 @@ aDOMKeyName
 #
 include
 "
-nsDOMKeyNameList
+mozilla
+/
+KeyNameList
 .
 h
 "
@@ -2048,7 +2052,9 @@ aDOMKeyName
 #
 include
 "
-nsDOMKeyNameList
+mozilla
+/
+KeyNameList
 .
 h
 "
@@ -2090,7 +2096,9 @@ char16_t
 #
 include
 "
-nsDOMKeyNameList
+mozilla
+/
+KeyNameList
 .
 h
 "
