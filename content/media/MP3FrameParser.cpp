@@ -2333,6 +2333,10 @@ if
 (
 !
 mNumFrames
+|
+|
+!
+mSampleRate
 )
 {
 return
