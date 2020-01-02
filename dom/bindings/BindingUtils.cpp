@@ -11452,6 +11452,13 @@ js
 UncheckedUnwrap
 (
 instance
+/
+*
+stopAtOuter
+=
+*
+/
+false
 )
 )
 ;
