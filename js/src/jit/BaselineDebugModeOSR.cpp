@@ -2787,6 +2787,17 @@ OFF
 "
 )
 ;
+CancelOffThreadIonCompile
+(
+cx
+-
+>
+compartment
+(
+)
+script
+)
+;
 if
 (
 script
