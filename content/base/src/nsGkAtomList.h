@@ -2440,6 +2440,13 @@ drawintitlebar
 )
 GK_ATOM
 (
+drawtitle
+"
+drawtitle
+"
+)
+GK_ATOM
+(
 drop
 "
 drop
