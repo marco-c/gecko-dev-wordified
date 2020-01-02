@@ -33577,8 +33577,6 @@ static
 void
 ShellCloseAsmJSCacheEntryForRead
 (
-HandleObject
-global
 size_t
 serializedSize
 const
@@ -34080,8 +34078,6 @@ static
 void
 ShellCloseAsmJSCacheEntryForWrite
 (
-HandleObject
-global
 size_t
 serializedSize
 uint8_t
