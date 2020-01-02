@@ -1856,6 +1856,14 @@ states
 :
 OFFSCREEN
 ;
+state
+^
+=
+states
+:
+:
+INVISIBLE
+;
 }
 else
 {
