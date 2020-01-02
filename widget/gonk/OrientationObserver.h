@@ -213,7 +213,7 @@ include
 "
 mozilla
 /
-Scoped
+UniquePtr
 .
 h
 "
@@ -396,7 +396,7 @@ mAllowedOrientations
 mozilla
 :
 :
-ScopedDeletePtr
+UniquePtr
 <
 mozilla
 :
