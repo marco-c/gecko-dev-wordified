@@ -141,17 +141,6 @@ InitPlatformAPI
 GMPPlatformAPI
 &
 aPlatformAPI
-GMPChild
-*
-aChild
-)
-;
-GMPErr
-RunOnMainThread
-(
-GMPTask
-*
-aTask
 )
 ;
 class
