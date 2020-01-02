@@ -78,6 +78,8 @@ traceback
 import
 random
 import
+re
+import
 mozinfo
 import
 moznetwork
@@ -1634,6 +1636,15 @@ fail_present
 =
 None
             
+test_name
+=
+self
+.
+getInfo
+(
+error
+)
+            
 for
 line
 in
@@ -1695,12 +1706,45 @@ fail_present
 :
                     
 if
+re
+.
+match
+(
+'
+.
+*
+\
+.
+js
+'
+test_name
+)
+:
+                        
+if
 error
 .
 reason
 !
 =
 TIMEOUT_MESSAGE
+:
+                            
+self
+.
+stream
+.
+writeln
+(
+"
+%
+s
+"
+%
+line
+)
+                    
+else
 :
                         
 self
@@ -1742,12 +1786,7 @@ s
 %
                                         
 (
-self
-.
-getInfo
-(
-error
-)
+test_name
 error
 .
 reason
