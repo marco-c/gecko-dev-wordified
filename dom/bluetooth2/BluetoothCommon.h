@@ -522,7 +522,11 @@ NS_LITERAL_STRING
 (
 name
 )
+\
+BluetoothValue
+(
 value
+)
 )
 )
 /
