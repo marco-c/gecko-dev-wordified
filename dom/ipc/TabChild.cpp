@@ -12920,6 +12920,8 @@ aModifiers
 aIgnoreRootScrollFrame
 0
 aInputSourceArg
+false
+4
 &
 defaultPrevented
 )
