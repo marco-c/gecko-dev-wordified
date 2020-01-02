@@ -622,16 +622,6 @@ interface
 ;
 const
 char
-js_let_str
-[
-]
-=
-"
-let
-"
-;
-const
-char
 js_new_str
 [
 ]
