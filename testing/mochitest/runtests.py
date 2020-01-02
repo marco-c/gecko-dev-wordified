@@ -8741,10 +8741,6 @@ mediaDevices
 =
 None
   
-structured_logger
-=
-None
-  
 #
 XXX
 use
@@ -8793,21 +8789,21 @@ self
 )
 :
     
+super
+(
+Mochitest
+self
+)
+.
+__init__
+(
+)
+    
 #
 Structured
 logger
     
-if
-self
-.
-structured_logger
-is
-None
-:
-        
-self
-.
-structured_logger
+structured_log
 =
 StructuredLogger
 (
@@ -8815,7 +8811,7 @@ StructuredLogger
 mochitest
 '
 )
-        
+    
 stream_handler
 =
 StreamHandler
@@ -8831,32 +8827,12 @@ MochitestFormatter
 (
 )
 )
-        
-self
-.
-structured_logger
+    
+structured_log
 .
 add_handler
 (
 stream_handler
-)
-        
-Mochitest
-.
-structured_logger
-=
-self
-.
-structured_logger
-    
-super
-(
-Mochitest
-self
-)
-.
-__init__
-(
 )
     
 #
@@ -8872,9 +8848,7 @@ MessageLogger
 (
 logger
 =
-self
-.
-structured_logger
+structured_log
 )
     
 #
@@ -16678,7 +16652,9 @@ message
 encode
 (
 '
-ascii
+utf
+-
+8
 '
 '
 replace
