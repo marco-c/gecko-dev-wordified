@@ -4440,6 +4440,12 @@ let
 page
 =
 {
+observe
+:
+_
+=
+>
+_
 update
 :
 function
