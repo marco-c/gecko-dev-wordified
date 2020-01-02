@@ -185,13 +185,6 @@ GetSingleton
 (
 )
 ;
-private
-:
-static
-CookieServiceChild
-*
-sCookieServiceChild
-;
 protected
 :
 void
