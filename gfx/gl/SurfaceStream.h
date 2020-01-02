@@ -1162,14 +1162,11 @@ false
 if
 not
 virtual
-bool
+void
 WaitForCompositor
 (
 )
 {
-return
-false
-;
 }
 /
 /
@@ -1297,7 +1294,7 @@ SurfaceStream_TripleBuffer
 protected
 :
 virtual
-bool
+void
 WaitForCompositor
 (
 )
