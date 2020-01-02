@@ -696,7 +696,7 @@ Optimization_Normal
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown
