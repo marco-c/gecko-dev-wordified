@@ -10716,7 +10716,7 @@ branchPtr
 Assembler
 :
 :
-Below
+AboveOrEqual
 objreg
 ImmWord
 (
@@ -10729,7 +10729,7 @@ heapEnd
 ool
 -
 >
-rejoin
+entry
 (
 )
 )
