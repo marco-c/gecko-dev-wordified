@@ -3761,6 +3761,14 @@ Floor
 "
 ;
 case
+Ceil
+:
+return
+"
+Ceil
+"
+;
+case
 Round
 :
 return
