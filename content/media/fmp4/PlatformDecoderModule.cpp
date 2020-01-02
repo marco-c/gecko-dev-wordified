@@ -677,6 +677,7 @@ CreateDecoderModule
 (
 )
 ;
+}
 #
 endif
 #
