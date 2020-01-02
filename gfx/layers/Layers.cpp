@@ -5564,6 +5564,13 @@ next
 )
 ;
 }
+else
+{
+mFirstChild
+=
+next
+;
+}
 if
 (
 next
@@ -5576,6 +5583,13 @@ SetPrevSibling
 (
 prev
 )
+;
+}
+else
+{
+mLastChild
+=
+prev
 ;
 }
 if
