@@ -5499,7 +5499,7 @@ transformToApzc
 )
 ;
 }
-void
+bool
 APZCTreeManager
 :
 :
@@ -5626,6 +5626,7 @@ pan
 gesture
 .
 return
+false
 ;
 }
 next
@@ -5643,8 +5644,11 @@ next
 =
 nullptr
 )
+{
 return
+false
 ;
+}
 /
 /
 Convert
@@ -5770,6 +5774,7 @@ an
 incremented
 index
 .
+return
 next
 -
 >
