@@ -2358,8 +2358,10 @@ aYSide
 )
 const
 ;
+RefPtr
+<
 ISurfaceAllocator
-*
+>
 mDeAllocator
 ;
 TextureIdentifier
@@ -2388,8 +2390,10 @@ Request
 >
 mUpdateList
 ;
+RefPtr
+<
 ISurfaceAllocator
-*
+>
 mDeAllocator
 ;
 }
