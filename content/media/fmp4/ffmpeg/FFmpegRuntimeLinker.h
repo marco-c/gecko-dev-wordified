@@ -172,6 +172,8 @@ const
 char
 *
 aLibName
+uint32_t
+Version
 )
 ;
 static

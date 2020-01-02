@@ -198,6 +198,7 @@ define
 AV_FUNC
 (
 func
+ver
 )
 extern
 typeof
