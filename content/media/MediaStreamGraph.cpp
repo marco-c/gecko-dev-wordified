@@ -11013,6 +11013,9 @@ event
 }
 if
 (
+mForceShutDown
+&
+&
 mLifecycleState
 =
 =
