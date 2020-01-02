@@ -141,6 +141,17 @@ BrowserDB
 URLColumns
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+StringUtils
+;
+import
 android
 .
 content
@@ -752,7 +763,7 @@ final
 String
 url
 =
-TopSitesPanel
+StringUtils
 .
 encodeUserEnteredUrl
 (
