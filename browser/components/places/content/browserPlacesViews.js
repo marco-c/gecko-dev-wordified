@@ -10467,6 +10467,14 @@ this
 .
 _dropIndicator
 ;
+ind
+.
+parentNode
+.
+collapsed
+=
+false
+;
 let
 halfInd
 =
