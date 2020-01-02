@@ -3604,6 +3604,7 @@ ac
 ;
 public
 :
+explicit
 ErrorCopier
 (
 mozilla
