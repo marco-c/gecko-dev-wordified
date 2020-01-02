@@ -772,6 +772,11 @@ Size
 aSize
 )
 ;
+nsresult
+PausePreview
+(
+)
+;
 friend
 class
 SetPictureSize
