@@ -958,6 +958,8 @@ const
 nsACString
 &
 scheme
+bool
+connectForm
 nsACString
 &
 output
