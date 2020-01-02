@@ -177,7 +177,7 @@ h
 #
 include
 "
-nsIDOMApplicationRegistry
+mozIApplication
 .
 h
 "
@@ -2057,7 +2057,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-mozIDOMApplication
+mozIApplication
 >
 app
 ;
