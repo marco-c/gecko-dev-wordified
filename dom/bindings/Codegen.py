@@ -51824,22 +51824,31 @@ method
 assert
 (
 not
-constant
+movable
 or
-pure
+aliasSet
+!
+=
+"
+AliasEverything
+"
 )
 #
-constants
-are
-always
-pure
+Can
+'
+t
+move
+write
+-
+aliasing
+things
         
 assert
 (
 not
 hasSlot
 or
-pure
+movable
 )
 #
 Things
@@ -51848,7 +51857,7 @@ slots
 had
 better
 be
-pure
+movable
         
 protoID
 =
