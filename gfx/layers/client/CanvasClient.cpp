@@ -937,7 +937,10 @@ GetForwarder
 )
 aFormat
 aSize
-backend
+BackendType
+:
+:
+CAIRO
 mTextureInfo
 .
 mTextureFlags
