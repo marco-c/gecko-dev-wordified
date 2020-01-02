@@ -279,6 +279,15 @@ ShutdownVolumeServiceIOThread
 (
 )
 ;
+void
+FormatVolume
+(
+const
+nsCString
+&
+aVolume
+)
+;
 }
 /
 /
