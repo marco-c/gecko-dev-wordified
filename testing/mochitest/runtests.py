@@ -14043,6 +14043,20 @@ runMochitests
 options
 onLaunch
 )
+      
+#
+Dump
+the
+logging
+buffer
+      
+self
+.
+message_logger
+.
+dump_buffered
+(
+)
     
 #
 printing
