@@ -3876,16 +3876,6 @@ function
 msg
 )
 {
-console
-.
-log
-(
-"
-Saw
-"
-+
-msg
-)
 switch
 (
 msg
