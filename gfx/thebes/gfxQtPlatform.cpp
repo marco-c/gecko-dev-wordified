@@ -977,7 +977,7 @@ gfxQtPlatform
 CreateOffscreenSurface
 (
 const
-gfxIntSize
+IntSize
 &
 size
 gfxContentType
@@ -1016,7 +1016,10 @@ newSurface
 new
 gfxQPainterSurface
 (
+ThebesIntSize
+(
 size
+)
 imageFormat
 )
 ;
@@ -1060,7 +1063,10 @@ newSurface
 new
 gfxImageSurface
 (
+ThebesIntSize
+(
 size
+)
 imageFormat
 )
 ;
@@ -1107,7 +1113,10 @@ Create
 (
 screen
 xrenderFormat
+ThebesIntSize
+(
 size
+)
 )
 ;
 #

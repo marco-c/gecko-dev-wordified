@@ -208,7 +208,7 @@ gfxASurface
 CreateOffscreenSurface
 (
 const
-gfxIntSize
+IntSize
 &
 size
 gfxContentType

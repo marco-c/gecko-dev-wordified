@@ -1248,6 +1248,10 @@ GetPlatform
 CreateOffscreenSurface
 (
 mSize
+.
+ToIntSize
+(
+)
 gfxContentType
 :
 :

@@ -32662,7 +32662,7 @@ GetPlatform
 >
 CreateOffscreenSurface
 (
-gfxIntSize
+IntSize
 (
 srcRect
 .

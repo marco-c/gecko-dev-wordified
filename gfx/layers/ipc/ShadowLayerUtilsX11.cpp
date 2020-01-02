@@ -1004,13 +1004,7 @@ platform
 >
 CreateOffscreenSurface
 (
-gfx
-:
-:
-ThebesIntSize
-(
 aSize
-)
 aContent
 )
 ;

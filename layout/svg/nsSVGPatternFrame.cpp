@@ -2505,7 +2505,7 @@ bbox
 bool
 resultOverflows
 ;
-gfxIntSize
+IntSize
 surfaceSize
 =
 nsSVGUtils
@@ -2520,6 +2520,10 @@ Size
 )
 &
 resultOverflows
+)
+.
+ToIntSize
+(
 )
 ;
 /

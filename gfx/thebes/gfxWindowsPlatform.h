@@ -656,6 +656,7 @@ CreatePlatformFontList
 (
 )
 ;
+virtual
 already_AddRefed
 <
 gfxASurface
@@ -663,12 +664,13 @@ gfxASurface
 CreateOffscreenSurface
 (
 const
-gfxIntSize
+IntSize
 &
 size
 gfxContentType
 contentType
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed

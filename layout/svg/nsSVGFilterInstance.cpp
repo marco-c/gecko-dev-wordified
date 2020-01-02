@@ -3444,6 +3444,10 @@ neededRect
 Size
 (
 )
+.
+ToIntSize
+(
+)
 gfxContentType
 :
 :
@@ -3922,6 +3926,10 @@ CreateOffscreenSurface
 neededRect
 .
 Size
+(
+)
+.
+ToIntSize
 (
 )
 gfxContentType
@@ -4443,6 +4451,10 @@ CreateOffscreenSurface
 filterRect
 .
 Size
+(
+)
+.
+ToIntSize
 (
 )
 gfxContentType
