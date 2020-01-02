@@ -2180,6 +2180,15 @@ utils
 .
 isMozAfterPaintPending
 ;
+if
+(
+win
+.
+document
+.
+documentElement
+)
+{
 try
 {
 /
@@ -2224,6 +2233,7 @@ n
 "
 )
 ;
+}
 }
 if
 (
