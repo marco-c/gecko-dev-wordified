@@ -24508,9 +24508,7 @@ endif
 uint32_t
 alignmentAtPrologue
 =
-(
 callFromAsmJS
-)
 ?
 AlignmentAtAsmJSPrologue
 :
