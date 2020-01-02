@@ -94,6 +94,12 @@ MPL
 *
 /
 #
+ifndef
+__NS_SVGINNERSVGFRAME_H__
+#
+define
+__NS_SVGINNERSVGFRAME_H__
+#
 include
 "
 mozilla
@@ -373,3 +379,5 @@ mCanvasTM
 ;
 }
 ;
+#
+endif
