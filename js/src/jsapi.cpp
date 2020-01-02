@@ -26356,7 +26356,7 @@ token
 }
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Off

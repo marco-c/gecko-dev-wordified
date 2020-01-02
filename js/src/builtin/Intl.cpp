@@ -599,7 +599,7 @@ UChar
 s
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 u_strlen
@@ -626,7 +626,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 uenum_count
@@ -655,7 +655,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 uenum_next
@@ -676,7 +676,7 @@ UEnumeration
 en
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 uenum_close
@@ -757,7 +757,7 @@ ucol_countAvailable
 void
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 ucol_countAvailable
@@ -779,7 +779,7 @@ int32_t
 localeIndex
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 ucol_getAvailable
@@ -805,7 +805,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 ucol_open
@@ -833,7 +833,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 ucol_setAttribute
@@ -867,7 +867,7 @@ int32_t
 targetLength
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 ucol_strcoll
@@ -888,7 +888,7 @@ UCollator
 coll
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 ucol_close
@@ -920,7 +920,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 ucol_getKeywordValuesForLocale
@@ -987,7 +987,7 @@ unum_countAvailable
 void
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unum_countAvailable
@@ -1009,7 +1009,7 @@ int32_t
 localeIndex
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unum_getAvailable
@@ -1046,7 +1046,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unum_open
@@ -1071,7 +1071,7 @@ int32_t
 newValue
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unum_setAttribute
@@ -1106,7 +1106,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unum_formatDouble
@@ -1127,7 +1127,7 @@ UNumberFormat
 fmt
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unum_close
@@ -1159,7 +1159,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unum_setTextAttribute
@@ -1227,7 +1227,7 @@ char
 keywordsAndValues
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Locale
@@ -1286,7 +1286,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NumberingSystem
@@ -1311,7 +1311,7 @@ getName
 (
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NumberingSystem
@@ -1363,7 +1363,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 ucal_open
@@ -1390,7 +1390,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 ucal_getType
@@ -1422,7 +1422,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 ucal_getKeywordValuesForLocale
@@ -1443,7 +1443,7 @@ UCalendar
 cal
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 ucal_close
@@ -1474,7 +1474,7 @@ UErrorCode
 pErrorCode
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 udatpg_open
@@ -1509,7 +1509,7 @@ UErrorCode
 pErrorCode
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 udatpg_getBestPattern
@@ -1530,7 +1530,7 @@ UDateTimePatternGenerator
 dtpg
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 udatpg_close
@@ -1571,7 +1571,7 @@ udat_countAvailable
 void
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 udat_countAvailable
@@ -1593,7 +1593,7 @@ int32_t
 localeIndex
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 udat_getAvailable
@@ -1635,7 +1635,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 udat_open
@@ -1659,7 +1659,7 @@ UDateFormat
 fmt
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 udat_getCalendar
@@ -1685,7 +1685,7 @@ UErrorCode
 pErrorCode
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 ucal_setGregorianChange
@@ -1720,7 +1720,7 @@ UErrorCode
 status
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 udat_format
@@ -1741,7 +1741,7 @@ UDateFormat
 format
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 udat_close
@@ -5655,7 +5655,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 ucol_strcoll

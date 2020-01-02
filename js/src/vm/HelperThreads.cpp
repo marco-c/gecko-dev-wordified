@@ -3396,7 +3396,7 @@ getUseCount
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Cannot
@@ -7801,7 +7801,7 @@ handleGCHelperWorkload
 )
 ;
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No
@@ -7841,7 +7841,7 @@ AsmJSParallelTask
 asmData
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Off
@@ -7875,7 +7875,7 @@ IonBuilder
 builder
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Off
@@ -7953,7 +7953,7 @@ void
 callbackData
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Off
@@ -7984,7 +7984,7 @@ SourceCompressionTask
 task
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Off
@@ -8026,7 +8026,7 @@ addPendingCompileError
 (
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Off
@@ -8047,7 +8047,7 @@ addPendingOverRecursed
 (
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Off
@@ -8068,7 +8068,7 @@ PauseCurrentHelperThread
 (
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Off

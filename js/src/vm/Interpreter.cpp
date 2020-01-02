@@ -6337,7 +6337,7 @@ SuccessfulReturnContinuation
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -9973,7 +9973,7 @@ error
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 bad
@@ -16407,7 +16407,7 @@ error
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 bad
@@ -20817,7 +20817,7 @@ interpreter
 loop
 *
 /
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Interpreter
@@ -20941,7 +20941,7 @@ ADVANCE_AND_DISPATCH
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -23970,7 +23970,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 bad

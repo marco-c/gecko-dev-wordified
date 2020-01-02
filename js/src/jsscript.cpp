@@ -3268,7 +3268,7 @@ return
 i
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Scope
@@ -5825,7 +5825,7 @@ classk
 CK_JSObject
 ;
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Cannot

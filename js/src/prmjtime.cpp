@@ -1671,17 +1671,6 @@ needsCalibration
 true
 ;
 }
-MOZ_ASSUME_UNREACHABLE
-(
-"
-Shouldn
-'
-t
-get
-here
-"
-)
-;
 }
 #
 endif

@@ -3054,7 +3054,7 @@ bool
 not_at_start
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -5048,7 +5048,7 @@ never
 get
 here
 .
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -5085,7 +5085,7 @@ never
 get
 here
 .
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad

@@ -1030,7 +1030,7 @@ return
 true
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 fun_getProperty
@@ -14135,16 +14135,6 @@ return
 true
 ;
 }
-MOZ_ASSUME_UNREACHABLE
-(
-"
-Should
-not
-get
-here
-"
-)
-;
 }
 namespace
 JS

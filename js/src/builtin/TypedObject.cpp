@@ -1710,7 +1710,7 @@ MOZ_CRASH
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -2289,7 +2289,7 @@ NUMERIC_TYPE_TO_STRING
 undef
 NUMERIC_TYPE_TO_STRING
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -2528,7 +2528,7 @@ true
 ;
 }
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unhandled
@@ -8832,7 +8832,7 @@ mechanism
 .
 *
 /
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 shouldn
@@ -9471,7 +9471,7 @@ type
 :
 UnsizedArray
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 TypedObjLengthFromType
@@ -9485,7 +9485,7 @@ type
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -9986,7 +9986,7 @@ obj
 ;
 }
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -13531,7 +13531,7 @@ return
 0
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -19424,7 +19424,7 @@ type
 UnsizedArray
 :
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Only
@@ -19510,7 +19510,7 @@ return
 ;
 }
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -19789,7 +19789,7 @@ return
 ;
 }
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -20196,7 +20196,7 @@ return
 ;
 }
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid

@@ -470,8 +470,8 @@ return
 ion
 ;
 #
-endif
-MOZ_ASSUME_UNREACHABLE
+else
+MOZ_CRASH
 (
 "
 Invalid
@@ -481,6 +481,8 @@ CompilerOutput
 "
 )
 ;
+#
+endif
 }
 inline
 CompilerOutput

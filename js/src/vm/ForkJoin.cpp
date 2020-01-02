@@ -606,7 +606,7 @@ runtime
 (
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Not
@@ -624,7 +624,7 @@ check
 (
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Not
@@ -650,7 +650,7 @@ Reason
 reason
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Not
@@ -682,7 +682,7 @@ Reason
 reason
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Not
@@ -702,7 +702,7 @@ ParallelBailoutCause
 cause
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Not
@@ -710,9 +710,6 @@ THREADSAFE
 build
 "
 )
-;
-return
-false
 ;
 }
 void
@@ -729,7 +726,7 @@ JitFrameIterator
 frameIter
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Not
@@ -753,7 +750,7 @@ IonBailoutIterator
 frameIter
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Not
@@ -4551,7 +4548,7 @@ break
 case
 NumForkJoinModes
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -7385,7 +7382,7 @@ heap
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -7805,7 +7802,7 @@ execution
 .
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid

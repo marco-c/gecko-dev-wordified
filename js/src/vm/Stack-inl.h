@@ -2242,7 +2242,7 @@ break
 #
 endif
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -2293,7 +2293,7 @@ maybeHookData
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -2352,7 +2352,7 @@ data
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -2404,7 +2404,7 @@ returnValue
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -2464,7 +2464,7 @@ rval
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -2533,7 +2533,7 @@ scopeChain
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -2591,7 +2591,7 @@ scope
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -2660,7 +2660,7 @@ callObj
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -2716,7 +2716,7 @@ cx
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -2806,7 +2806,7 @@ numActualArgs
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -2874,7 +2874,7 @@ numActualArgs
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -2952,7 +2952,7 @@ checkAliasing
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3030,7 +3030,7 @@ checkAliasing
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3108,7 +3108,7 @@ checkAliasing
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3186,7 +3186,7 @@ checkAliasing
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3254,7 +3254,7 @@ hasCallObj
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3412,7 +3412,7 @@ isFunctionFrame
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3480,7 +3480,7 @@ isGlobalFrame
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3548,7 +3548,7 @@ false
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3637,7 +3637,7 @@ false
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3722,7 +3722,7 @@ script
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3791,7 +3791,7 @@ fun
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3860,7 +3860,7 @@ maybeFun
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3930,7 +3930,7 @@ callee
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3998,7 +3998,7 @@ calleev
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4066,7 +4066,7 @@ isNonEvalFunctionFrame
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4134,7 +4134,7 @@ false
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4202,7 +4202,7 @@ false
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4271,7 +4271,7 @@ argv
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4339,7 +4339,7 @@ hasArgsObj
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4408,7 +4408,7 @@ argsObj
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4467,7 +4467,7 @@ argsobj
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4524,7 +4524,7 @@ vec
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4592,7 +4592,7 @@ prevUpToDate
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4665,7 +4665,7 @@ setPrevUpToDate
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4734,7 +4734,7 @@ thisValue
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4793,7 +4793,7 @@ cx
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4852,7 +4852,7 @@ cx
 ;
 #
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid

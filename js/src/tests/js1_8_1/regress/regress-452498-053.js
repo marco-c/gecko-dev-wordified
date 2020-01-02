@@ -468,7 +468,7 @@ we
 hit
 /
 /
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 RecycleUseDefKids

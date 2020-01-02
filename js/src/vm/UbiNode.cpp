@@ -264,7 +264,7 @@ ubi
 :
 :
 Nodes
-assert
+crash
 .
 const
 jschar
@@ -280,7 +280,7 @@ typeName
 )
 const
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 null
@@ -304,7 +304,7 @@ size
 )
 const
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 null
@@ -331,7 +331,7 @@ JSContext
 )
 const
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 null
@@ -519,7 +519,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 bad

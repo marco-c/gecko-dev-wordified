@@ -8953,8 +8953,6 @@ data
 vp
 )
 ;
-break
-;
 default
 :
 {

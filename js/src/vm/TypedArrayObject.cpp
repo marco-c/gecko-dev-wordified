@@ -7057,7 +7057,7 @@ break
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 copyFrom
@@ -7670,7 +7670,7 @@ break
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 copyFromWithOverlap
@@ -12989,7 +12989,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown
@@ -12997,8 +12997,6 @@ TypedArray
 type
 "
 )
-;
-break
 ;
 }
 }
@@ -13228,7 +13226,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown
@@ -13236,8 +13234,6 @@ TypedArray
 type
 "
 )
-;
-break
 ;
 }
 }
@@ -15278,7 +15274,7 @@ Float64Array_lengthGetter
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown
@@ -15286,9 +15282,6 @@ TypedArray
 type
 "
 )
-;
-return
-false
 ;
 }
 }
@@ -16419,7 +16412,7 @@ class_constructor
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -17043,7 +17036,7 @@ Scalar
 :
 TypeMax
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 invalid
