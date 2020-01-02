@@ -153,19 +153,12 @@ sys
 stderr
 )
     
-#
 sys
 .
 exit
 (
 1
 )
-#
-uncomment
-when
-all
-opcodes
-documented
 def
 get_xdr_version
 (
