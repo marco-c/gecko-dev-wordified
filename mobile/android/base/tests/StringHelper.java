@@ -1165,6 +1165,17 @@ public
 static
 final
 String
+PAINT_FLASHING_LABEL
+=
+"
+Paint
+flashing
+"
+;
+public
+static
+final
+String
 REMOTE_DEBUGGING_LABEL
 =
 "
