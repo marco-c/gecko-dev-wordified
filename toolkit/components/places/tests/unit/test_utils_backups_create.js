@@ -118,9 +118,8 @@ for
 correct
 functionality
 of
-PlacesUtils
-.
-archiveBookmarksFile
+bookmarks
+backups
 *
 /
 const
