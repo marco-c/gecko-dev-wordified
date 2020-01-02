@@ -3292,6 +3292,9 @@ adapterVendorID
 adapterDeviceID
 "
 "
+adapterSubsysID
+"
+"
 adapterRAM
 "
 "
@@ -3311,6 +3314,9 @@ adapterVendorID2
 "
 "
 adapterDeviceID2
+"
+"
+adapterSubsysID2
 "
 "
 adapterRAM2
