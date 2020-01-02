@@ -437,10 +437,6 @@ void
 *
 aUserRef
 const
-char
-*
-aLocale
-const
 unsigned
 aErrorNumber
 )
@@ -907,7 +903,6 @@ dom
 :
 GetErrorMessage
 (
-nullptr
 nullptr
 errorNumber
 )

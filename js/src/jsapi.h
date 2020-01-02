@@ -3986,10 +3986,6 @@ void
 *
 userRef
 const
-char
-*
-locale
-const
 unsigned
 errorNumber
 )
@@ -29396,9 +29392,6 @@ if
 EXPOSE_INTL_API
 JSLocaleToUnicode
 localeToUnicode
-;
-JSErrorCallback
-localeGetErrorMessage
 ;
 }
 ;

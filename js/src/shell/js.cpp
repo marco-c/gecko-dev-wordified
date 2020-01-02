@@ -1128,10 +1128,6 @@ void
 *
 userRef
 const
-char
-*
-locale
-const
 unsigned
 errorNumber
 )
@@ -31773,10 +31769,6 @@ my_GetErrorMessage
 void
 *
 userRef
-const
-char
-*
-locale
 const
 unsigned
 errorNumber
