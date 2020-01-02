@@ -172,7 +172,7 @@ or
 later
 check
 #
-ifdef
+if
 MOZ_GCC_VERSION_AT_LEAST
 (
 4
