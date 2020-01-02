@@ -1611,6 +1611,9 @@ on
 the
 current
 thread
+#
+ifndef
+XPCOM_GLUE_AVOID_NSPR
 PR_SetCurrentThreadName
 (
 name
@@ -1620,6 +1623,8 @@ BeginReading
 )
 )
 ;
+#
+endif
 }
 }
 /
