@@ -1451,6 +1451,19 @@ the
 TestResolver
 .
             
+relpath
+=
+self
+.
+_wrap_path_argument
+(
+entry
+)
+.
+relpath
+(
+)
+            
 tests
 =
 list
@@ -1462,16 +1475,8 @@ resolve_tests
 paths
 =
 [
-entry
+relpath
 ]
-                
-cwd
-=
-self
-.
-_mach_context
-.
-cwd
 )
 )
             
