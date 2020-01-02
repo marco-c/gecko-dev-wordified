@@ -120,6 +120,19 @@ background
 .
 fxa
 .
+FxAccountClient
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+background
+.
+fxa
+.
 FxAccountClient10
 .
 RequestDelegate
@@ -627,7 +640,7 @@ byte
 [
 ]
 sessionToken
-FxAccountClient20
+FxAccountClient
 client
 RequestDelegate
 <
@@ -863,7 +876,7 @@ newSingleThreadExecutor
 (
 )
 ;
-FxAccountClient20
+FxAccountClient
 client
 =
 new

@@ -121,7 +121,6 @@ public
 enum
 StateLabel
 {
-Promised
 Engaged
 Cohabiting
 Married
