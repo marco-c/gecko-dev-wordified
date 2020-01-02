@@ -20389,7 +20389,7 @@ HTMLInputElement
 :
 MaybeInitPickers
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )
@@ -20598,7 +20598,7 @@ HTMLInputElement
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )
@@ -23976,7 +23976,7 @@ HTMLInputElement
 :
 PostHandleEventForRangeThumb
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

@@ -1336,7 +1336,7 @@ HTMLMenuItemElement
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

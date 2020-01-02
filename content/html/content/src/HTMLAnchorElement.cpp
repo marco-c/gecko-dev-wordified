@@ -1228,7 +1228,7 @@ HTMLAnchorElement
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

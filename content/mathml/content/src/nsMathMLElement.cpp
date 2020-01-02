@@ -6532,7 +6532,7 @@ nsMathMLElement
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

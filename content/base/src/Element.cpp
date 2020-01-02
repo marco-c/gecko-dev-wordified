@@ -13666,7 +13666,7 @@ Element
 :
 PostHandleEventForLinks
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

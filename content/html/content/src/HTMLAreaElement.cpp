@@ -445,7 +445,7 @@ HTMLAreaElement
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

@@ -6703,7 +6703,7 @@ nsINode
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 /
 *

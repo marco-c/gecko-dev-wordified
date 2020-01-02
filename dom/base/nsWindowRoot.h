@@ -106,12 +106,12 @@ nsIDOMEventListener
 class
 nsIDOMEvent
 ;
-class
-nsEventChainPostVisitor
-;
 namespace
 mozilla
 {
+class
+EventChainPostVisitor
+;
 class
 EventChainPreVisitor
 ;

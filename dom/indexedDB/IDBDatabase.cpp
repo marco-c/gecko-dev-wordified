@@ -207,6 +207,13 @@ h
 #
 include
 "
+nsEventDispatcher
+.
+h
+"
+#
+include
+"
 nsJSUtils
 .
 h
@@ -389,6 +396,10 @@ mozilla
 :
 :
 ErrorResult
+;
+using
+namespace
+mozilla
 ;
 using
 namespace
@@ -3859,7 +3870,7 @@ IDBDatabase
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

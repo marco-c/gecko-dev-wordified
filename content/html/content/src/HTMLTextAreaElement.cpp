@@ -2380,7 +2380,7 @@ HTMLTextAreaElement
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

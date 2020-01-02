@@ -208,7 +208,7 @@ virtual
 nsresult
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

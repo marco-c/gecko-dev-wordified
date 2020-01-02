@@ -216,6 +216,9 @@ namespace
 mozilla
 {
 class
+EventChainPostVisitor
+;
+class
 EventChainPreVisitor
 ;
 namespace
@@ -770,7 +773,7 @@ virtual
 nsresult
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

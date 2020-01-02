@@ -20359,7 +20359,7 @@ nsDOMDeviceStorage
 :
 WillHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )
@@ -20380,7 +20380,7 @@ nsDOMDeviceStorage
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

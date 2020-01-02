@@ -241,6 +241,9 @@ namespace
 mozilla
 {
 class
+EventChainPostVisitor
+;
+class
 EventChainPreVisitor
 ;
 namespace
@@ -784,7 +787,7 @@ virtual
 nsresult
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )
@@ -793,7 +796,7 @@ MOZ_OVERRIDE
 void
 PostHandleEventForRangeThumb
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )
@@ -6940,7 +6943,7 @@ picker
 nsresult
 MaybeInitPickers
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

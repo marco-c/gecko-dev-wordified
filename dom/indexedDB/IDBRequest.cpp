@@ -2195,7 +2195,7 @@ IDBOpenDBRequest
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

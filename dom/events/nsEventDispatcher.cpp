@@ -791,7 +791,7 @@ nsEventTargetChainItem
 >
 &
 aChain
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 nsDispatchingCallback
@@ -867,7 +867,7 @@ HandleEvent
 void
 HandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 ELMCreationDetector
@@ -1031,7 +1031,7 @@ PostHandleEvent
 void
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )
@@ -1200,7 +1200,7 @@ nsEventTargetChainItem
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )
@@ -1238,7 +1238,7 @@ nsEventTargetChainItem
 >
 &
 aChain
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 nsDispatchingCallback
@@ -3563,7 +3563,7 @@ Handle
 the
 chain
 .
-nsEventChainPostVisitor
+EventChainPostVisitor
 postVisitor
 (
 preVisitor
