@@ -23815,14 +23815,14 @@ ParseGlobalProperties
 ;
 class
 MOZ_STACK_CLASS
-CreateObjectOptions
+CreateObjectInOptions
 :
 public
 OptionsBase
 {
 public
 :
-CreateObjectOptions
+CreateObjectInOptions
 (
 JSContext
 *
@@ -24281,7 +24281,7 @@ JS
 :
 HandleValue
 vobj
-CreateObjectOptions
+CreateObjectInOptions
 &
 options
 JS
