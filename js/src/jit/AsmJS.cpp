@@ -47664,7 +47664,7 @@ JS_ASSERT
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 AsmJSModule
 :

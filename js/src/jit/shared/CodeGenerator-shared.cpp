@@ -2818,7 +2818,7 @@ lastOsiPointOffset_
 Assembler
 :
 :
-patchWrite_NearCallSize
+PatchWrite_NearCallSize
 (
 )
 )
@@ -2829,7 +2829,7 @@ paddingSize
 Assembler
 :
 :
-patchWrite_NearCallSize
+PatchWrite_NearCallSize
 (
 )
 ;
@@ -2880,7 +2880,7 @@ lastOsiPointOffset_
 Assembler
 :
 :
-patchWrite_NearCallSize
+PatchWrite_NearCallSize
 (
 )
 )

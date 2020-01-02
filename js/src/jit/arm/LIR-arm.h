@@ -1374,6 +1374,7 @@ an
 integer
 to
 decide
+.
 class
 LTableSwitch
 :
@@ -1504,6 +1505,7 @@ an
 integer
 to
 decide
+.
 class
 LTableSwitchV
 :

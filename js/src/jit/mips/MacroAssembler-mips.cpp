@@ -1547,7 +1547,7 @@ if
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 imm
 .
@@ -1571,7 +1571,7 @@ if
 Imm16
 :
 :
-isInUnsignedRange
+IsInUnsignedRange
 (
 imm
 .
@@ -1586,7 +1586,7 @@ zero
 Imm16
 :
 :
-lower
+Lower
 (
 imm
 )
@@ -1603,7 +1603,7 @@ if
 Imm16
 :
 :
-lower
+Lower
 (
 imm
 )
@@ -1622,7 +1622,7 @@ dest
 Imm16
 :
 :
-upper
+Upper
 (
 imm
 )
@@ -1641,7 +1641,7 @@ dest
 Imm16
 :
 :
-upper
+Upper
 (
 imm
 )
@@ -1658,7 +1658,7 @@ dest
 Imm16
 :
 :
-lower
+Lower
 (
 imm
 )
@@ -1687,7 +1687,7 @@ modified
 by
 /
 /
-updateLuiOriValue
+UpdateLuiOriValue
 either
 during
 compilation
@@ -1743,7 +1743,7 @@ dest
 Imm16
 :
 :
-upper
+Upper
 (
 imm
 )
@@ -1760,7 +1760,7 @@ dest
 Imm16
 :
 :
-lower
+Lower
 (
 imm
 )
@@ -2177,7 +2177,7 @@ if
 Imm16
 :
 :
-isInUnsignedRange
+IsInUnsignedRange
 (
 imm
 .
@@ -2297,7 +2297,7 @@ if
 Imm16
 :
 :
-isInUnsignedRange
+IsInUnsignedRange
 (
 imm
 .
@@ -2416,7 +2416,7 @@ if
 Imm16
 :
 :
-isInUnsignedRange
+IsInUnsignedRange
 (
 imm
 .
@@ -2481,7 +2481,7 @@ if
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 imm
 .
@@ -2688,7 +2688,7 @@ if
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 imm
 .
@@ -2699,7 +2699,7 @@ value
 Imm16
 :
 :
-isInUnsignedRange
+IsInUnsignedRange
 (
 imm
 .
@@ -2849,7 +2849,7 @@ if
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 -
 imm
@@ -3990,7 +3990,7 @@ if
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 address
 .
@@ -4210,7 +4210,7 @@ if
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 address
 .
@@ -4631,7 +4631,7 @@ if
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 address
 .
@@ -5233,7 +5233,7 @@ if
 BOffImm16
 :
 :
-isInRange
+IsInRange
 (
 offset
 )
@@ -5255,7 +5255,7 @@ MOZ_ASSERT
 BOffImm16
 :
 :
-isInRange
+IsInRange
 (
 offset
 )
@@ -7417,7 +7417,7 @@ if
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 address
 .
@@ -7531,7 +7531,7 @@ if
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 address
 .
@@ -7542,7 +7542,7 @@ offset
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 off2
 )
@@ -7653,7 +7653,7 @@ if
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 address
 .
@@ -7664,7 +7664,7 @@ offset
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 off2
 )
@@ -7797,7 +7797,7 @@ if
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 address
 .
@@ -15421,7 +15421,7 @@ if
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 offset
 )
@@ -15703,7 +15703,7 @@ if
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 offset
 )

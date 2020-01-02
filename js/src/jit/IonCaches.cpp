@@ -1613,7 +1613,7 @@ masm
 Assembler
 :
 :
-patchDataWithValueCheck
+PatchDataWithValueCheck
 (
 CodeLocationLabel
 (
@@ -2310,7 +2310,7 @@ masm
 Assembler
 :
 :
-patchDataWithValueCheck
+PatchDataWithValueCheck
 (
 CodeLocationLabel
 (

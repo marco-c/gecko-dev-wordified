@@ -16431,7 +16431,7 @@ raw
 Assembler
 :
 :
-patchWrite_Imm32
+PatchWrite_Imm32
 (
 dataLabelToMunge
 Imm32
@@ -16509,7 +16509,7 @@ raw
 Assembler
 :
 :
-patchWrite_NearCall
+PatchWrite_NearCall
 (
 osiPatchPoint
 invalidateEpilogue

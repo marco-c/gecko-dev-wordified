@@ -1128,11 +1128,11 @@ could
 look
 in
 /
-/
-/
 proc
 /
 cpuinfo
+/
+/
 as
 well
 but
@@ -1142,11 +1142,11 @@ that
 it
 will
 be
-/
-/
 different
 from
 this
+/
+/
 are
 low
 .
@@ -1934,11 +1934,12 @@ isSingle
 {
 /
 /
-add
+Add
 in
 just
 this
 float
+.
 mod
 .
 addUnchecked
@@ -1965,7 +1966,7 @@ id
 {
 /
 /
-a
+A
 double
 with
 an
@@ -1974,6 +1975,7 @@ add
 in
 both
 floats
+.
 mod
 .
 addUnchecked
@@ -2009,7 +2011,7 @@ else
 {
 /
 /
-add
+Add
 in
 the
 lone
@@ -2020,6 +2022,7 @@ range
 16
 -
 31
+.
 mod
 .
 addUnchecked

@@ -1478,7 +1478,7 @@ icEntry
 Assembler
 :
 :
-patchDataWithValueCheck
+PatchDataWithValueCheck
 (
 CodeLocationLabel
 (

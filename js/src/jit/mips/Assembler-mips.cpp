@@ -938,7 +938,7 @@ next
 Assembler
 :
 :
-updateLuiOriValue
+UpdateLuiOriValue
 (
 inst1
 inst2
@@ -1060,7 +1060,7 @@ i
 uint32_t
 value
 =
-extractLuiOriValue
+ExtractLuiOriValue
 (
 inst1
 inst1
@@ -1071,7 +1071,7 @@ next
 )
 )
 ;
-updateLuiOriValue
+UpdateLuiOriValue
 (
 inst1
 inst1
@@ -1235,7 +1235,7 @@ uintptr_t
 Assembler
 :
 :
-getPointer
+GetPointer
 (
 uint8_t
 *
@@ -1256,7 +1256,7 @@ return
 Assembler
 :
 :
-extractLuiOriValue
+ExtractLuiOriValue
 (
 inst
 inst
@@ -1289,7 +1289,7 @@ uint8_t
 Assembler
 :
 :
-extractLuiOriValue
+ExtractLuiOriValue
 (
 jump
 jump
@@ -1438,7 +1438,7 @@ void
 Assembler
 :
 :
-extractLuiOriValue
+ExtractLuiOriValue
 (
 inst
 inst
@@ -1541,7 +1541,7 @@ void
 Assembler
 :
 :
-extractLuiOriValue
+ExtractLuiOriValue
 (
 iter
 .
@@ -1929,7 +1929,7 @@ int32_t
 Assembler
 :
 :
-extractCodeLabelOffset
+ExtractCodeLabelOffset
 (
 uint8_t
 *
@@ -1950,7 +1950,7 @@ return
 Assembler
 :
 :
-extractLuiOriValue
+ExtractLuiOriValue
 (
 inst
 inst
@@ -2022,7 +2022,7 @@ next
 Assembler
 :
 :
-extractLuiOriValue
+ExtractLuiOriValue
 (
 inst
 inst
@@ -2036,7 +2036,7 @@ next
 Assembler
 :
 :
-updateLuiOriValue
+UpdateLuiOriValue
 (
 inst
 inst
@@ -2560,7 +2560,7 @@ putInt
 x
 )
 ;
-writeInstStatic
+WriteInstStatic
 (
 x
 dest
@@ -2576,7 +2576,7 @@ void
 Assembler
 :
 :
-writeInstStatic
+WriteInstStatic
 (
 uint32_t
 x
@@ -2889,7 +2889,7 @@ MOZ_ASSERT
 Imm16
 :
 :
-isInUnsignedRange
+IsInUnsignedRange
 (
 j
 )
@@ -2934,7 +2934,7 @@ MOZ_ASSERT
 Imm16
 :
 :
-isInUnsignedRange
+IsInUnsignedRange
 (
 j
 )
@@ -2979,7 +2979,7 @@ MOZ_ASSERT
 Imm16
 :
 :
-isInUnsignedRange
+IsInUnsignedRange
 (
 j
 )
@@ -3560,7 +3560,7 @@ MOZ_ASSERT
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 j
 )
@@ -3783,7 +3783,7 @@ MOZ_ASSERT
 Imm16
 :
 :
-isInUnsignedRange
+IsInUnsignedRange
 (
 j
 )
@@ -4667,7 +4667,7 @@ MOZ_ASSERT
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 j
 )
@@ -4712,7 +4712,7 @@ MOZ_ASSERT
 Imm16
 :
 :
-isInUnsignedRange
+IsInUnsignedRange
 (
 j
 )
@@ -5147,7 +5147,7 @@ MOZ_ASSERT
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 off
 )
@@ -5192,7 +5192,7 @@ MOZ_ASSERT
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 off
 )
@@ -5237,7 +5237,7 @@ MOZ_ASSERT
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 off
 )
@@ -5282,7 +5282,7 @@ MOZ_ASSERT
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 off
 )
@@ -6998,7 +6998,7 @@ MOZ_ASSERT
 BOffImm16
 :
 :
-isInRange
+IsInRange
 (
 offset
 )
@@ -7079,7 +7079,7 @@ branch
 )
 )
 ;
-writeLuiOriInstructions
+WriteLuiOriInstructions
 (
 inst
 &
@@ -7126,7 +7126,7 @@ if
 BOffImm16
 :
 :
-isInRange
+IsInRange
 (
 offset
 )
@@ -7279,7 +7279,7 @@ branch
 )
 )
 ;
-writeLuiOriInstructions
+WriteLuiOriInstructions
 (
 inst
 &
@@ -7381,7 +7381,7 @@ void
 )
 )
 ;
-writeLuiOriInstructions
+WriteLuiOriInstructions
 (
 &
 inst
@@ -7506,7 +7506,7 @@ next
 (
 )
 ;
-updateLuiOriValue
+UpdateLuiOriValue
 (
 inst1
 inst2
@@ -7875,7 +7875,7 @@ uint32_t
 Assembler
 :
 :
-patchWrite_NearCallSize
+PatchWrite_NearCallSize
 (
 )
 {
@@ -7892,7 +7892,7 @@ void
 Assembler
 :
 :
-patchWrite_NearCall
+PatchWrite_NearCall
 (
 CodeLocationLabel
 start
@@ -7959,7 +7959,7 @@ same
 size
 because
 of
-patchWrite_NearCallSize
+PatchWrite_NearCallSize
 .
 /
 /
@@ -7987,7 +7987,7 @@ be
 more
 efficient
 .
-writeLuiOriInstructions
+WriteLuiOriInstructions
 (
 inst
 &
@@ -8048,7 +8048,7 @@ uintptr_t
 (
 inst
 )
-patchWrite_NearCallSize
+PatchWrite_NearCallSize
 (
 )
 )
@@ -8058,7 +8058,7 @@ uint32_t
 Assembler
 :
 :
-extractLuiOriValue
+ExtractLuiOriValue
 (
 Instruction
 *
@@ -8162,7 +8162,7 @@ void
 Assembler
 :
 :
-updateLuiOriValue
+UpdateLuiOriValue
 (
 Instruction
 *
@@ -8230,7 +8230,7 @@ setImm16
 Imm16
 :
 :
-upper
+Upper
 (
 Imm32
 (
@@ -8253,7 +8253,7 @@ setImm16
 Imm16
 :
 :
-lower
+Lower
 (
 Imm32
 (
@@ -8267,7 +8267,7 @@ void
 Assembler
 :
 :
-writeLuiOriInstructions
+WriteLuiOriInstructions
 (
 Instruction
 *
@@ -8292,7 +8292,7 @@ reg
 Imm16
 :
 :
-upper
+Upper
 (
 Imm32
 (
@@ -8312,7 +8312,7 @@ reg
 Imm16
 :
 :
-lower
+Lower
 (
 Imm32
 (
@@ -8326,7 +8326,7 @@ void
 Assembler
 :
 :
-patchDataWithValueCheck
+PatchDataWithValueCheck
 (
 CodeLocationLabel
 label
@@ -8364,7 +8364,7 @@ value
 Assembler
 :
 :
-extractLuiOriValue
+ExtractLuiOriValue
 (
 &
 inst
@@ -8400,7 +8400,7 @@ value
 Assembler
 :
 :
-updateLuiOriValue
+UpdateLuiOriValue
 (
 inst
 inst
@@ -8434,7 +8434,7 @@ void
 Assembler
 :
 :
-patchDataWithValueCheck
+PatchDataWithValueCheck
 (
 CodeLocationLabel
 label
@@ -8444,7 +8444,7 @@ ImmPtr
 expectedValue
 )
 {
-patchDataWithValueCheck
+PatchDataWithValueCheck
 (
 label
 PatchedImmPtr
@@ -8541,7 +8541,7 @@ void
 Assembler
 :
 :
-patchWrite_Imm32
+PatchWrite_Imm32
 (
 CodeLocationLabel
 label
@@ -8611,7 +8611,7 @@ void
 Assembler
 :
 :
-patchInstructionImmediate
+PatchInstructionImmediate
 (
 uint8_t
 *
@@ -8633,7 +8633,7 @@ code
 Assembler
 :
 :
-updateLuiOriValue
+UpdateLuiOriValue
 (
 inst
 inst
@@ -8656,7 +8656,7 @@ uint8_t
 Assembler
 :
 :
-nextInstruction
+NextInstruction
 (
 uint8_t
 *
@@ -9368,7 +9368,7 @@ void
 Assembler
 :
 :
-updateBoundsCheck
+UpdateBoundsCheck
 (
 uint32_t
 heapSize
@@ -9411,7 +9411,7 @@ value
 Assembler
 :
 :
-updateLuiOriValue
+UpdateLuiOriValue
 (
 i0
 i1

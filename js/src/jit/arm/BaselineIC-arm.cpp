@@ -349,6 +349,7 @@ jump
 to
 next
 stub
+.
 masm
 .
 bind
@@ -493,6 +494,7 @@ jump
 to
 next
 stub
+.
 masm
 .
 bind
@@ -711,11 +713,11 @@ preserved
 so
 we
 can
+/
+/
 just
 jump
 to
-/
-/
 the
 next
 stub
@@ -750,9 +752,9 @@ typeReg
 already
 contains
 the
+/
+/
 integer
-/
-/
 tag
 so
 we
@@ -1058,6 +1060,8 @@ R0
 and
 the
 link
+/
+/
 register
 .
 JS_ASSERT
@@ -1757,6 +1761,7 @@ jump
 to
 next
 stub
+.
 masm
 .
 bind

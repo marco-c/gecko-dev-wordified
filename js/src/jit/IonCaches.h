@@ -2782,7 +2782,7 @@ ptr
 Assembler
 :
 :
-nextInstruction
+NextInstruction
 (
 ptr
 &

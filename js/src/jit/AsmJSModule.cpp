@@ -2589,7 +2589,7 @@ labelOffset
 Assembler
 :
 :
-extractCodeLabelOffset
+ExtractCodeLabelOffset
 (
 code_
 +
@@ -2822,7 +2822,7 @@ targetOffset
 Assembler
 :
 :
-extractLuiOriValue
+ExtractLuiOriValue
 (
 inst
 inst
@@ -4035,7 +4035,7 @@ else
 Assembler
 :
 :
-patchInstructionImmediate
+PatchInstructionImmediate
 (
 patchAt
 PatchedImmPtr
@@ -4080,7 +4080,7 @@ i
 Assembler
 :
 :
-patchDataWithValueCheck
+PatchDataWithValueCheck
 (
 CodeLocationLabel
 (
@@ -4429,7 +4429,7 @@ jit
 Assembler
 :
 :
-updateBoundsCheck
+UpdateBoundsCheck
 (
 heapLength
 (
@@ -4485,7 +4485,7 @@ to
 -
 1
 so
-patchDataWithValueCheck
+PatchDataWithValueCheck
 assertions
 /
 /
@@ -4529,7 +4529,7 @@ i
 Assembler
 :
 :
-patchDataWithValueCheck
+PatchDataWithValueCheck
 (
 CodeLocationLabel
 (

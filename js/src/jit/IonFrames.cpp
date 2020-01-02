@@ -1009,7 +1009,7 @@ IonScript
 Assembler
 :
 :
-getPointer
+GetPointer
 (
 ionScriptDataOffset
 )
@@ -10038,7 +10038,7 @@ callPointDisplacement_
 Assembler
 :
 :
-patchWrite_NearCallSize
+PatchWrite_NearCallSize
 (
 )
 ;
