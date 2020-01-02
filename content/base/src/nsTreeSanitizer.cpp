@@ -2570,14 +2570,6 @@ filter
 nsGkAtoms
 :
 :
-filterRes
-/
-/
-filterRes
-&
-nsGkAtoms
-:
-:
 filterUnits
 /
 /
