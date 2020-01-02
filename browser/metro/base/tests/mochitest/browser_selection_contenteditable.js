@@ -352,7 +352,7 @@ sendElementTap
 (
 gWindow
 div
-287
+284
 )
 ;
 /
