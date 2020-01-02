@@ -2588,6 +2588,16 @@ ClearSdpParseErrorMessages
 (
 )
 ;
+void
+OnAddIceCandidateError
+(
+)
+{
++
++
+mAddCandidateErrorCount
+;
+}
 /
 /
 Called
@@ -3661,6 +3671,10 @@ std
 string
 >
 mSDPParseErrorMessages
+;
+unsigned
+int
+mAddCandidateErrorCount
 ;
 bool
 mTrickle
