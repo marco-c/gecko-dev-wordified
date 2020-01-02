@@ -635,6 +635,12 @@ case
 LDefinition
 :
 :
+FLOAT32X4
+:
+case
+LDefinition
+:
+:
 INT32X4
 :
 return
@@ -777,6 +783,12 @@ allocateDoubleSlot
 (
 )
 ;
+case
+LDefinition
+:
+:
+FLOAT32X4
+:
 case
 LDefinition
 :
