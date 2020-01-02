@@ -1879,7 +1879,6 @@ cx
 obj
 id
 foundp
-0
 )
 )
 return
