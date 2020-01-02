@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_ExecutionModeInlines_h
+jit_ExecutionMode_inl_h
 #
 define
-jit_ExecutionModeInlines_h
+jit_ExecutionMode_inl_h
 #
 ifdef
 JS_ION
@@ -549,6 +549,6 @@ JS_ION
 endif
 /
 *
-jit_ExecutionModeInlines_h
+jit_ExecutionMode_inl_h
 *
 /
