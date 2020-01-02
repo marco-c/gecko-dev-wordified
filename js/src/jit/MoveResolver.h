@@ -659,6 +659,7 @@ enum
 Kind
 {
 GENERAL
+FLOAT32
 DOUBLE
 }
 ;
