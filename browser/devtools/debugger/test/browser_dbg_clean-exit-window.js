@@ -125,7 +125,6 @@ aWindow
 return
 testCleanExit
 (
-gWindow
 )
 ;
 }
@@ -169,7 +168,6 @@ stack
 function
 testCleanExit
 (
-aWindow
 )
 {
 let
@@ -180,10 +178,6 @@ promise
 defer
 (
 )
-;
-gWindow
-=
-aWindow
 ;
 ok
 (
@@ -204,9 +198,8 @@ focus
 (
 )
 ;
-let
-topWindow
-=
+is
+(
 Services
 .
 wm
@@ -219,10 +212,6 @@ navigator
 browser
 "
 )
-;
-is
-(
-topWindow
 gWindow
 "
 The
@@ -445,9 +434,8 @@ resolve
 )
 ;
 }
-let
-contentLocation
-=
+if
+(
 gWindow
 .
 content
@@ -455,10 +443,6 @@ content
 location
 .
 href
-;
-if
-(
-contentLocation
 !
 =
 TAB_URL
