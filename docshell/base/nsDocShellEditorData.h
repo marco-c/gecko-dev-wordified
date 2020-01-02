@@ -130,6 +130,7 @@ nsDocShellEditorData
 {
 public
 :
+explicit
 nsDocShellEditorData
 (
 nsIDocShell

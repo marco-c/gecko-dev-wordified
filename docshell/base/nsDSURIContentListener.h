@@ -153,6 +153,7 @@ Init
 ;
 protected
 :
+explicit
 nsDSURIContentListener
 (
 nsDocShell
