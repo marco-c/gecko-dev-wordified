@@ -1659,7 +1659,7 @@ TRUE
 *
 *
 Process
-constraints
+options
 only
 related
 to
@@ -1675,19 +1675,19 @@ OfferToReceiveVideo
 *
 /
 void
-gsmsdp_process_cap_constraints
+gsmsdp_process_cap_options
 (
 fsmdef_dcb_t
 *
 dcb
-cc_media_constraints_t
+cc_media_options_t
 *
-constraints
+options
 )
 {
 if
 (
-constraints
+options
 -
 >
 offer_to_receive_audio
@@ -1708,7 +1708,7 @@ cap
 [
 CC_AUDIO_1
 ]
-constraints
+options
 -
 >
 offer_to_receive_audio
@@ -1719,7 +1719,7 @@ value
 }
 if
 (
-constraints
+options
 -
 >
 offer_to_receive_video
@@ -1740,7 +1740,7 @@ cap
 [
 CC_VIDEO_1
 ]
-constraints
+options
 -
 >
 offer_to_receive_video
@@ -1751,7 +1751,7 @@ value
 }
 if
 (
-constraints
+options
 -
 >
 moz_dont_offer_datachannel
@@ -1770,7 +1770,7 @@ channel
 /
 if
 (
-constraints
+options
 -
 >
 moz_dont_offer_datachannel

@@ -700,9 +700,9 @@ virtual
 void
 createOffer
 (
-cc_media_constraints_t
+cc_media_options_t
 *
-constraints
+options
 Timecard
 *
 )
@@ -711,9 +711,6 @@ virtual
 void
 createAnswer
 (
-cc_media_constraints_t
-*
-constraints
 Timecard
 *
 )
@@ -787,9 +784,6 @@ cc_media_track_id_t
 track_id
 cc_media_type_t
 media_type
-cc_media_constraints_t
-*
-constraints
 )
 ;
 virtual
