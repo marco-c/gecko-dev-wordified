@@ -957,11 +957,9 @@ width
 .
 1px
 ;
-opacity
+visibility
 :
-0
-!
-important
+hidden
 ;
 transition
 :
