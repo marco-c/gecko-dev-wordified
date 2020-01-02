@@ -4623,7 +4623,6 @@ hasValue
 (
 )
 )
-{
 return
 extractTag
 (
@@ -4635,12 +4634,11 @@ valueReg
 scratch
 )
 ;
-}
 mov
 (
 ImmWord
 (
-ValueTypeFromMIRType
+MIRTypeToTag
 (
 reg
 .
