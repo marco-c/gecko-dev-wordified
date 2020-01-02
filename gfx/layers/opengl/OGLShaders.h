@@ -3,7 +3,7 @@
 AUTOMATICALLY
 GENERATED
 from
-LayerManagerOGLShaders
+OGLShaders
 .
 txt
 *

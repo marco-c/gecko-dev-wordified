@@ -1466,10 +1466,6 @@ mSharedContext
 (
 sharedContext
 )
-mFlipped
-(
-false
-)
 mCaps
 (
 caps
