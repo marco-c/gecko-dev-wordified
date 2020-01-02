@@ -284,6 +284,10 @@ DumpAppender
 )
 )
 ;
+ensureLegacyIdentityManager
+(
+)
+;
 /
 /
 This

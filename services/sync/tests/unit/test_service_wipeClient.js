@@ -561,6 +561,10 @@ wipeClient
 (
 )
 .
+ensureLegacyIdentityManager
+(
+)
+;
 Service
 .
 identity

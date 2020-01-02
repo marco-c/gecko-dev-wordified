@@ -98,6 +98,10 @@ do_test_pending
 (
 )
 ;
+ensureLegacyIdentityManager
+(
+)
+;
 let
 server
 =
