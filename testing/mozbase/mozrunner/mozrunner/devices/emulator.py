@@ -1717,6 +1717,24 @@ homescreen
 =
 -
 1
+|
+|
+aEvent
+.
+target
+.
+src
+.
+indexOf
+(
+'
+verticalhome
+'
+)
+!
+=
+-
+1
 )
 {
     
@@ -1745,7 +1763,7 @@ marionetteScriptFinished
 "
 script_timeout
 =
-120000
+300000
 )
         
 print
