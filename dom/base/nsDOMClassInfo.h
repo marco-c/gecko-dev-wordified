@@ -1847,8 +1847,14 @@ wrapper
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 obj
 uint32_t
 *

@@ -14785,14 +14785,6 @@ char
 string
 )
 {
-MOZ_ASSERT
-(
-id
-=
-=
-JSID_VOID
-)
-;
 JSString
 *
 str
