@@ -108,6 +108,17 @@ animation
 Rotate3DAnimation
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+widget
+.
+GeckoTextSwitcher
+;
+import
 android
 .
 content

@@ -97,6 +97,17 @@ mozilla
 gecko
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+widget
+.
+GeckoEditText
+;
+import
 android
 .
 content

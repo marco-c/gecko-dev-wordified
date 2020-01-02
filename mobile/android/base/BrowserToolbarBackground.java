@@ -64,6 +64,17 @@ mozilla
 gecko
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+widget
+.
+GeckoLinearLayout
+;
+import
 android
 .
 content
