@@ -1971,6 +1971,15 @@ filtered
                 
 obj
 .
+tests
+.
+append
+(
+test
+)
+                
+obj
+.
 installs
 [
 mozpath

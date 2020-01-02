@@ -8323,6 +8323,21 @@ backend_file
 )
 :
         
+#
+Much
+of
+the
+logic
+in
+this
+function
+could
+be
+moved
+to
+CommonBackend
+.
+        
 self
 .
 backend_input_files

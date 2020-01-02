@@ -1848,6 +1848,24 @@ manifest
 '
         
 #
+List
+of
+tests
+.
+Each
+element
+is
+a
+dict
+of
+metadata
+.
+        
+'
+tests
+'
+        
+#
 The
 relative
 path
@@ -1980,6 +1998,13 @@ installs
 =
 {
 }
+        
+self
+.
+tests
+=
+[
+]
         
 self
 .
