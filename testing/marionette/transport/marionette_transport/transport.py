@@ -353,6 +353,13 @@ recv
 10
 )
         
+initial_size
+=
+len
+(
+response
+)
+        
 sep
 =
 response
@@ -391,13 +398,8 @@ sep
 :
 ]
             
-response
-+
+remaining_size
 =
-self
-.
-_recv_n_bytes
-(
 int
 (
 length
@@ -410,7 +412,16 @@ len
 length
 )
 -
-10
+initial_size
+            
+response
++
+=
+self
+.
+_recv_n_bytes
+(
+remaining_size
 )
             
 return

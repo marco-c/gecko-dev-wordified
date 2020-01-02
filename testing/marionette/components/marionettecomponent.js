@@ -88,6 +88,14 @@ Components
 .
 utils
 ;
+this
+.
+Cr
+=
+Components
+.
+results
+;
 const
 MARIONETTE_CONTRACTID
 =
