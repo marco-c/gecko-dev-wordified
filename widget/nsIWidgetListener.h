@@ -761,6 +761,12 @@ DidPaintWindow
 (
 )
 ;
+virtual
+void
+DidCompositeWindow
+(
+)
+;
 /
 *
 *
