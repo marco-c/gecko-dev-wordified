@@ -2194,10 +2194,6 @@ UsingStmt
 :
 USING
 CxxType
-                 
-|
-USING
-CxxType
 FROM
 STRING
                  
