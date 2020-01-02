@@ -3319,6 +3319,11 @@ path
 deflater
 .
 deflater
+mode
+=
+file
+.
+mode
 )
             
 if
