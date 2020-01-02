@@ -657,7 +657,7 @@ gzipCompressString
 in
 TelemetryPing
 .
-js
+jsm
 .
 const
 TEST_DATA_SHORT_GZIP_ENCODED_FIRST
