@@ -782,7 +782,10 @@ if
 script_
 )
 {
-CallDestroyScriptHook
+script_
+-
+>
+clearTraps
 (
 cx_
 -
@@ -795,7 +798,6 @@ runtime
 defaultFreeOp
 (
 )
-script_
 )
 ;
 script_
@@ -944,15 +946,6 @@ evalCache
 remove
 (
 p_
-)
-;
-CallNewScriptHook
-(
-cx_
-script_
-NullPtr
-(
-)
 )
 ;
 script_
