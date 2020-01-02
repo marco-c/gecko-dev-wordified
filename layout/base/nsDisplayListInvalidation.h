@@ -112,6 +112,13 @@ nsRect
 .
 h
 "
+#
+include
+"
+nsColor
+.
+h
+"
 class
 nsDisplayItem
 ;
