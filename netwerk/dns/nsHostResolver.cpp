@@ -243,6 +243,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 HashFunctions
 .
 h
@@ -2425,8 +2434,11 @@ null
 "
 )
 ;
+DebugOnly
+<
 nsHostRecord
 *
+>
 hr
 =
 he
