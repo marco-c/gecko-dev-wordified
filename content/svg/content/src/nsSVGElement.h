@@ -1471,6 +1471,8 @@ DidAnimatePathSegList
 void
 DidAnimateTransformList
 (
+int32_t
+aModType
 )
 ;
 void
