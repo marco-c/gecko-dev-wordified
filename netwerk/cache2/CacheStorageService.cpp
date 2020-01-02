@@ -5433,7 +5433,7 @@ PurgeOverMemoryLimit
 ;
 #
 ifdef
-MOZ_LOGGING
+PR_LOG
 TimeStamp
 start
 (
