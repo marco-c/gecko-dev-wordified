@@ -653,7 +653,11 @@ findElement
 getActivity
 (
 )
-URL_EDIT_TEXT_ID
+R
+.
+id
+.
+url_edit_text
 )
 ;
 final

@@ -89,7 +89,11 @@ findElement
 getActivity
 (
 )
-URL_BAR_TITLE_ID
+R
+.
+id
+.
+url_bar_title
 )
 ;
 mAsserter

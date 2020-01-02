@@ -190,9 +190,11 @@ findElement
 getActivity
 (
 )
-"
+R
+.
+id
+.
 tabs_counter
-"
 )
 ;
 final

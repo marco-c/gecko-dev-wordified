@@ -106,9 +106,10 @@ belongs
 to
 *
 param
-name
+id
 The
-name
+resource
+id
 of
 the
 element
@@ -135,8 +136,8 @@ findElement
 (
 Activity
 activity
-String
-name
+int
+id
 )
 ;
 /
