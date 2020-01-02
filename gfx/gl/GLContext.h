@@ -12431,7 +12431,10 @@ true
 *
 /
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 OffscreenSize
 (
