@@ -4722,6 +4722,10 @@ mOutputDrain
 nullptr
 ;
 }
+mOMXConfigured
+=
+false
+;
 mOMX
 =
 nullptr
