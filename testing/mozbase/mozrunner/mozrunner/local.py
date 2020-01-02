@@ -546,9 +546,6 @@ True
 process_class
 =
 None
-*
-*
-kwargs
 )
 :
         
@@ -591,9 +588,6 @@ clean_profile
 process_class
 =
 process_class
-*
-*
-kwargs
 )
     
 def
@@ -618,9 +612,6 @@ None
 process_class
 =
 None
-*
-*
-kwargs
 )
 :
         
@@ -639,16 +630,13 @@ clean_profile
 kp_kwargs
 =
 kp_kwargs
-                                          
+                                               
 process_class
 =
 process_class
 env
 =
 env
-*
-*
-kwargs
 )
         
 #
