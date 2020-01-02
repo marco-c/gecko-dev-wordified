@@ -385,6 +385,7 @@ Kind
 {
 Function
 AsmJSTrampoline
+CppFunction
 }
 ;
 Kind
