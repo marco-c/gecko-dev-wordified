@@ -675,6 +675,15 @@ ins
 ;
 virtual
 bool
+visitModSelfI
+(
+LModSelfI
+*
+ins
+)
+;
+virtual
+bool
 visitBitNotI
 (
 LBitNotI
