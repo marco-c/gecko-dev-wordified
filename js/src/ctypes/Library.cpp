@@ -658,7 +658,7 @@ JSString
 *
 str
 =
-NULL
+nullptr
 ;
 if
 (
@@ -790,8 +790,8 @@ JS_NewObject
 cx
 &
 sLibraryClass
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -801,7 +801,7 @@ if
 libraryObj
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -814,7 +814,7 @@ libraryObj
 SLOT_LIBRARY
 PRIVATE_TO_JSVAL
 (
-NULL
+nullptr
 )
 )
 ;
@@ -834,7 +834,7 @@ sLibraryFunctions
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -858,7 +858,7 @@ argument
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 PRLibSpec
@@ -884,7 +884,7 @@ if
 pathStr
 )
 return
-NULL
+nullptr
 ;
 #
 ifdef
@@ -929,7 +929,7 @@ if
 pathChars
 )
 return
-NULL
+nullptr
 ;
 libSpec
 .
@@ -1007,7 +1007,7 @@ if
 pathBytes
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -1072,7 +1072,7 @@ size_t
 1
 )
 return
-NULL
+nullptr
 ;
 pathBytes
 =
@@ -1097,7 +1097,7 @@ if
 pathBytes
 )
 return
-NULL
+nullptr
 ;
 ASSERT_OK
 (
@@ -1206,7 +1206,7 @@ pathBytes
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 #
@@ -1593,7 +1593,7 @@ obj
 SLOT_LIBRARY
 PRIVATE_TO_JSVAL
 (
-NULL
+nullptr
 )
 )
 ;
@@ -1894,7 +1894,7 @@ RootedObject
 fnObj
 (
 cx
-NULL
+nullptr
 )
 ;
 RootedObject
