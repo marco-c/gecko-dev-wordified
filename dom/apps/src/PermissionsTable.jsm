@@ -239,7 +239,7 @@ app
 DENY_ACTION
 privileged
 :
-DENY_ACTION
+PROMPT_ACTION
 certified
 :
 ALLOW_ACTION
