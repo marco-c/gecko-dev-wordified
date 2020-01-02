@@ -865,7 +865,7 @@ DoubleParameter
 }
 virtual
 void
-ProduceAudioBlock
+ProcessBlock
 (
 AudioNodeStream
 *

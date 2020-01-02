@@ -367,7 +367,7 @@ NS_IsMainThread
 }
 virtual
 void
-ProduceAudioBlock
+ProcessBlock
 (
 AudioNodeStream
 *

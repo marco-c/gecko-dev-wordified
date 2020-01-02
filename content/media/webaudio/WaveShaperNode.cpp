@@ -973,7 +973,7 @@ indexHigher
 }
 virtual
 void
-ProduceAudioBlock
+ProcessBlock
 (
 AudioNodeStream
 *

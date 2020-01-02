@@ -2468,7 +2468,7 @@ WEBAUDIO_BLOCK_SIZE
 }
 virtual
 void
-ProduceAudioBlock
+ProcessBlock
 (
 AudioNodeStream
 *

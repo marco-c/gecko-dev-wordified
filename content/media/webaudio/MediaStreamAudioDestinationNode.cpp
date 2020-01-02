@@ -264,7 +264,7 @@ mOutputStream
 }
 virtual
 void
-ProduceAudioBlock
+ProcessBlock
 (
 AudioNodeStream
 *

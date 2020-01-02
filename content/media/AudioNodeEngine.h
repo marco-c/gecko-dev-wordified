@@ -1490,7 +1490,7 @@ again
 /
 virtual
 void
-ProduceAudioBlock
+ProcessBlock
 (
 AudioNodeStream
 *
@@ -1544,7 +1544,7 @@ is
 provided
 .
 *
-ProduceAudioBlock
+ProcessBlock
 (
 )
 will
@@ -1640,14 +1640,14 @@ input
 output
 version
 of
-ProduceAudioBlock
+ProcessBlock
 .
 Only
 one
 kind
 *
 of
-ProduceAudioBlock
+ProcessBlock
 is
 called
 on
@@ -1759,7 +1759,7 @@ silence
 /
 virtual
 void
-ProduceAudioBlocksOnPorts
+ProcessBlocksOnPorts
 (
 AudioNodeStream
 *

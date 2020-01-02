@@ -590,7 +590,7 @@ mSampleRate
 }
 virtual
 void
-ProduceAudioBlock
+ProcessBlock
 (
 AudioNodeStream
 *

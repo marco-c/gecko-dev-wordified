@@ -189,7 +189,7 @@ NS_IsMainThread
 }
 virtual
 void
-ProduceAudioBlocksOnPorts
+ProcessBlocksOnPorts
 (
 AudioNodeStream
 *
