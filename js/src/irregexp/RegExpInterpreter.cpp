@@ -1146,6 +1146,17 @@ BYTECODE
 (
 POP_BT
 )
+if
+(
+!
+CheckForInterrupt
+(
+cx
+)
+)
+return
+RegExpRunStatus_Error
+;
 pc
 =
 byteCode
