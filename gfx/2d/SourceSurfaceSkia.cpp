@@ -415,7 +415,11 @@ getPixels
 )
 )
 aSize
-aStride
+mBitmap
+.
+rowBytes
+(
+)
 )
 ;
 mBitmap
@@ -448,7 +452,11 @@ aFormat
 ;
 mStride
 =
-aStride
+mBitmap
+.
+rowBytes
+(
+)
 ;
 return
 true
