@@ -21104,6 +21104,11 @@ gfxTextRunFactory
 :
 :
 TEXT_DISABLE_OPTIONAL_LIGATURES
+|
+gfxTextRunFactory
+:
+:
+TEXT_USE_MATH_SCRIPT
 )
 ;
 if
