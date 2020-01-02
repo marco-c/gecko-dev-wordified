@@ -265,13 +265,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsISimpleEnumerator
 .
 h
