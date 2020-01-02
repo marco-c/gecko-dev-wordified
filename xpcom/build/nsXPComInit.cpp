@@ -831,6 +831,15 @@ include
 "
 mozilla
 /
+CountingAllocatorBase
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SystemMemoryReporter
 .
 h

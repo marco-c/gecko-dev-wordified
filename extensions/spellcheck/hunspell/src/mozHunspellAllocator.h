@@ -123,7 +123,9 @@ mozHunspellAllocator_h__
 #
 include
 "
-nsIMemoryReporter
+mozilla
+/
+CountingAllocatorBase
 .
 h
 "
