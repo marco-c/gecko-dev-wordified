@@ -135,7 +135,7 @@ h
 #
 include
 <
-Xinput
+xinput
 .
 h
 >
@@ -4482,6 +4482,9 @@ std
 :
 :
 min
+<
+size_t
+>
 (
 axes
 .
