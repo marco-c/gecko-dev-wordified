@@ -18,6 +18,12 @@ fail
 etc
 .
 #
+if
+defined
+(
+OS_POSIX
+)
+#
 include
 <
 unistd
@@ -25,12 +31,7 @@ unistd
 h
 >
 #
-if
-!
-defined
-(
-OS_POSIX
-)
+else
 #
 include
 <
