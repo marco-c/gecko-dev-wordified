@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsJSPrincipals
 .
 h

@@ -6284,7 +6284,11 @@ the
 elements
 in
 the
-VoidArray
+nsTArray
+<
+nsMenuEntry
+*
+>
 FreeMenuItemArray
 (
 &

@@ -225,12 +225,11 @@ group
 /
 Entries
 are
-nsVoidArrays
-of
-pointers
-to
-char16_t
+nsTArray
+<
+char
 *
+>
 /
 /
 This
