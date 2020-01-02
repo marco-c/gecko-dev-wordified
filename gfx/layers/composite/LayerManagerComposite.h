@@ -1908,6 +1908,16 @@ EffectChain
 aEffectChain
 )
 ;
+virtual
+void
+GenEffectChain
+(
+EffectChain
+&
+aEffect
+)
+{
+}
 /
 *
 *
