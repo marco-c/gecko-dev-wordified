@@ -1863,6 +1863,10 @@ Object
 keys
 (
 object
+|
+|
+{
+}
 )
 .
 reduce
