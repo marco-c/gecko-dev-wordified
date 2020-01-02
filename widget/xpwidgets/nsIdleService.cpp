@@ -383,7 +383,7 @@ PRLogModuleInfo
 *
 sLog
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -2796,7 +2796,7 @@ if
 sLog
 =
 =
-NULL
+nullptr
 )
 sLog
 =

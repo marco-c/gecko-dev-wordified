@@ -2235,7 +2235,7 @@ dataValue
 get
 (
 )
-NULL
+nullptr
 10
 )
 ;

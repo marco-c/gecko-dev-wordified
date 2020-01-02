@@ -2063,7 +2063,7 @@ aResult
 >
 mNativeKeyEvent
 =
-NULL
+nullptr
 ;
 return
 true

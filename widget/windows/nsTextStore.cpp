@@ -11827,7 +11827,7 @@ TS_E_INVALIDPOS
 Making
 sure
 to
-NULL
+null
 -
 terminate
 string

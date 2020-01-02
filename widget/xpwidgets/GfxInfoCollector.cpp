@@ -168,8 +168,8 @@ INT_TO_JSVAL
 (
 value
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -260,8 +260,8 @@ STRING_TO_JSVAL
 (
 string
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -325,9 +325,9 @@ mObj
 JS_NewObject
 (
 mCx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 if

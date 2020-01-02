@@ -712,7 +712,7 @@ Clearing
 it
 by
 passing
-NULL
+nullptr
 is
 not
 allowed

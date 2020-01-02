@@ -313,7 +313,7 @@ that
 must
 not
 be
-NULL
+nullptr
 .
 *
 param
@@ -349,7 +349,7 @@ that
 must
 not
 be
-NULL
+nullptr
 .
 *
 /
