@@ -1902,6 +1902,8 @@ desiredSize
 wm
 )
 ;
+desiredSize
+.
 SetSize
 (
 wm
