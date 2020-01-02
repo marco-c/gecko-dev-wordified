@@ -1645,6 +1645,12 @@ a
 dictionary
 object
 .
+let
+res
+=
+{
+}
+;
 for
 (
 let
@@ -1653,7 +1659,7 @@ in
 aObject
 )
 {
-aObject
+res
 [
 prop
 ]
@@ -1670,7 +1676,7 @@ prop
 ;
 }
 return
-aObject
+res
 ;
 }
 init
