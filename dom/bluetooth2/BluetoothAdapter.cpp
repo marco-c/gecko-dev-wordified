@@ -5382,7 +5382,7 @@ init
 mDevice
 =
 pairedDevice
-.
+;
 DispatchDeviceEvent
 (
 NS_LITERAL_STRING

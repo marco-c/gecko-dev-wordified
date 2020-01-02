@@ -3942,7 +3942,7 @@ BT_APPEND_NAMED_VALUE
 (
 props
 "
-paired
+Paired
 "
 bonded
 )
