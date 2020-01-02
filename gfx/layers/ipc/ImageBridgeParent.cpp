@@ -1709,6 +1709,7 @@ ImageBridgeParent
 GetMessageLoop
 (
 )
+const
 {
 return
 mMessageLoop
