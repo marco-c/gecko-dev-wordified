@@ -14491,7 +14491,7 @@ dirtyRect
 ;
 }
 nsDisplayListCollection
-set
+scrolledContent
 ;
 {
 DisplayListClipState
@@ -14643,7 +14643,7 @@ BuildDisplayListForChild
 aBuilder
 mScrolledFrame
 dirtyRect
-aLists
+scrolledContent
 )
 ;
 }
@@ -14915,7 +14915,7 @@ WrapListsInPlace
 (
 aBuilder
 mOuter
-aLists
+scrolledContent
 )
 ;
 }
@@ -14971,7 +14971,7 @@ mScrolledFrame
 mOuter
 )
 ;
-aLists
+scrolledContent
 .
 BorderBackground
 (
@@ -14984,6 +14984,13 @@ layerItem
 )
 ;
 }
+scrolledContent
+.
+MoveTo
+(
+aLists
+)
+;
 /
 /
 Now
