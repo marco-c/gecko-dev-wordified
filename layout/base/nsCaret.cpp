@@ -1458,7 +1458,7 @@ GetLength
 return
 false
 ;
-PRUnichar
+char16_t
 ch
 =
 frag

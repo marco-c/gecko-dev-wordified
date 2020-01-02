@@ -2370,7 +2370,7 @@ ncm
 HGDIOBJ
 hGDI
 ;
-PRUnichar
+char16_t
 name
 [
 LF_FACESIZE
@@ -3102,7 +3102,7 @@ LF_FACESIZE
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -3188,7 +3188,7 @@ status
 virtual
 *
 /
-PRUnichar
+char16_t
 nsLookAndFeel
 :
 :

@@ -1153,7 +1153,7 @@ eCSSUnit_String
 /
 /
 (
-PRUnichar
+char16_t
 *
 )
 a
@@ -1165,7 +1165,7 @@ eCSSUnit_Ident
 /
 /
 (
-PRUnichar
+char16_t
 *
 )
 a
@@ -1177,7 +1177,7 @@ eCSSUnit_Families
 /
 /
 (
-PRUnichar
+char16_t
 *
 )
 a
@@ -1189,7 +1189,7 @@ eCSSUnit_Attr
 /
 /
 (
-PRUnichar
+char16_t
 *
 )
 a
@@ -1204,7 +1204,7 @@ eCSSUnit_Local_Font
 /
 /
 (
-PRUnichar
+char16_t
 *
 )
 a
@@ -1217,7 +1217,7 @@ eCSSUnit_Font_Format
 /
 /
 (
-PRUnichar
+char16_t
 *
 )
 a
@@ -1230,7 +1230,7 @@ eCSSUnit_Element
 /
 /
 (
-PRUnichar
+char16_t
 *
 )
 an
@@ -3423,7 +3423,7 @@ aBuffer
 ;
 }
 const
-PRUnichar
+char16_t
 *
 GetStringBufferValue
 (
@@ -3809,7 +3809,7 @@ mImage
 ;
 }
 const
-PRUnichar
+char16_t
 *
 GetOriginalURLValue
 (
@@ -4346,7 +4346,7 @@ private
 :
 static
 const
-PRUnichar
+char16_t
 *
 GetBufferValue
 (
@@ -4358,7 +4358,7 @@ aBuffer
 return
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (

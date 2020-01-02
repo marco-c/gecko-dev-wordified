@@ -405,7 +405,7 @@ strlen
 aStr
 )
 ;
-PRUnichar
+char16_t
 *
 buf
 =
@@ -468,7 +468,7 @@ Length
 (
 )
 ;
-PRUnichar
+char16_t
 *
 begin
 *
@@ -685,7 +685,7 @@ Trim
 )
 ;
 const
-PRUnichar
+char16_t
 *
 start
 *
@@ -1281,7 +1281,7 @@ aASCIIString
 const
 {
 const
-PRUnichar
+char16_t
 *
 begin
 *
@@ -1366,7 +1366,7 @@ aASCIIString
 const
 {
 const
-PRUnichar
+char16_t
 *
 begin
 *
@@ -1580,7 +1580,7 @@ bool
 ns_strnmatch
 (
 const
-PRUnichar
+char16_t
 *
 aStr
 const
@@ -1644,7 +1644,7 @@ bool
 ns_strnimatch
 (
 const
-PRUnichar
+char16_t
 *
 aStr
 const
@@ -1733,7 +1733,7 @@ match
 )
 (
 const
-PRUnichar
+char16_t
 *
 const
 char
@@ -2013,7 +2013,7 @@ match
 )
 (
 const
-PRUnichar
+char16_t
 *
 const
 char
@@ -2228,7 +2228,7 @@ aChar
 const
 {
 const
-PRUnichar
+char16_t
 *
 start
 *
@@ -4678,7 +4678,7 @@ aStartPos
 )
 {
 const
-PRUnichar
+char16_t
 *
 data
 ;
@@ -4734,7 +4734,7 @@ aLength
 )
 {
 const
-PRUnichar
+char16_t
 *
 data
 ;
@@ -4945,7 +4945,7 @@ nsAString
 aString
 )
 {
-PRUnichar
+char16_t
 *
 start
 ;
@@ -4960,7 +4960,7 @@ UINT32_MAX
 start
 )
 ;
-PRUnichar
+char16_t
 *
 end
 =
@@ -4968,7 +4968,7 @@ start
 +
 len
 ;
-PRUnichar
+char16_t
 *
 from
 =
@@ -5008,7 +5008,7 @@ from
 end
 )
 {
-PRUnichar
+char16_t
 theChar
 =
 *

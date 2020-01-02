@@ -229,7 +229,7 @@ bool
 IsSpace
 (
 const
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -281,7 +281,7 @@ mozTXTToHTMLConv
 EscapeChar
 (
 const
-PRUnichar
+char16_t
 ch
 nsString
 &
@@ -722,7 +722,7 @@ mozTXTToHTMLConv
 UnescapeStr
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -735,7 +735,7 @@ aOutString
 )
 {
 const
-PRUnichar
+char16_t
 *
 subString
 =
@@ -818,7 +818,7 @@ aOutString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 <
@@ -864,7 +864,7 @@ aOutString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 >
@@ -910,7 +910,7 @@ aOutString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 &
@@ -956,7 +956,7 @@ aOutString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 "
@@ -1010,7 +1010,7 @@ mozTXTToHTMLConv
 CompleteAbbreviatedURL
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -1264,7 +1264,7 @@ mozTXTToHTMLConv
 FindURLStart
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -1634,7 +1634,7 @@ pos
 =
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -1933,7 +1933,7 @@ mozTXTToHTMLConv
 FindURLEnd
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -2092,7 +2092,7 @@ pos
 =
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -2615,7 +2615,7 @@ mozTXTToHTMLConv
 CalculateURLBoundaries
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -3360,7 +3360,7 @@ mozTXTToHTMLConv
 FindURLInPlaintext
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -3433,7 +3433,7 @@ mozTXTToHTMLConv
 FindURL
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -3944,13 +3944,13 @@ mozTXTToHTMLConv
 ItMatchesDelimited
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
 aInLength
 const
-PRUnichar
+char16_t
 *
 rep
 int32_t
@@ -4113,7 +4113,7 @@ aRepLen
 return
 false
 ;
-PRUnichar
+char16_t
 text0
 =
 aInString
@@ -4121,7 +4121,7 @@ aInString
 0
 ]
 ;
-PRUnichar
+char16_t
 textAfterPos
 =
 aInString
@@ -4335,13 +4335,13 @@ mozTXTToHTMLConv
 NumberOfMatches
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
 aInStringLength
 const
-PRUnichar
+char16_t
 *
 rep
 int32_t
@@ -4374,7 +4374,7 @@ i
 )
 {
 const
-PRUnichar
+char16_t
 *
 indexIntoString
 =
@@ -4442,7 +4442,7 @@ mozTXTToHTMLConv
 StructPhraseHit
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -4450,7 +4450,7 @@ aInStringLength
 bool
 col0
 const
-PRUnichar
+char16_t
 *
 tagTXT
 int32_t
@@ -4540,7 +4540,7 @@ choose
 *
 /
 const
-PRUnichar
+char16_t
 *
 newOffset
 =
@@ -4649,7 +4649,7 @@ aOutString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -4790,7 +4790,7 @@ aOutString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 >
@@ -4813,7 +4813,7 @@ mozTXTToHTMLConv
 SmilyHit
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -5060,7 +5060,7 @@ outputHTML
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -5234,7 +5234,7 @@ mozTXTToHTMLConv
 GlyphHit
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -5249,7 +5249,7 @@ int32_t
 glyphTextLen
 )
 {
-PRUnichar
+char16_t
 text0
 =
 aInString
@@ -5257,7 +5257,7 @@ aInString
 0
 ]
 ;
-PRUnichar
+char16_t
 text1
 =
 aInString
@@ -5265,7 +5265,7 @@ aInString
 1
 ]
 ;
-PRUnichar
+char16_t
 firstChar
 =
 (
@@ -6903,7 +6903,7 @@ mozTXTToHTMLConv
 CiteLevelTXT
 (
 const
-PRUnichar
+char16_t
 *
 line
 uint32_t
@@ -7157,7 +7157,7 @@ for
 performance
 increase
 const
-PRUnichar
+char16_t
 *
 indexString
 =
@@ -7256,7 +7256,7 @@ mozTXTToHTMLConv
 ScanTXT
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -7401,7 +7401,7 @@ doStructPhrase
 )
 {
 const
-PRUnichar
+char16_t
 *
 newOffset
 =
@@ -7939,7 +7939,7 @@ Length
 )
 ;
 const
-PRUnichar
+char16_t
 *
 uniBuffer
 =
@@ -8712,7 +8712,7 @@ mozTXTToHTMLConv
 CiteLevelTXT
 (
 const
-PRUnichar
+char16_t
 *
 line
 uint32_t
@@ -8760,12 +8760,12 @@ mozTXTToHTMLConv
 ScanTXT
 (
 const
-PRUnichar
+char16_t
 *
 text
 uint32_t
 whattodo
-PRUnichar
+char16_t
 *
 *
 _retval
@@ -8913,12 +8913,12 @@ mozTXTToHTMLConv
 ScanHTML
 (
 const
-PRUnichar
+char16_t
 *
 text
 uint32_t
 whattodo
-PRUnichar
+char16_t
 *
 *
 _retval

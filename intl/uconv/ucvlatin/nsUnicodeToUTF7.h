@@ -283,7 +283,7 @@ nsresult
 EncodeDirect
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -301,7 +301,7 @@ nsresult
 EncodeBase64
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -326,7 +326,7 @@ virtual
 bool
 DirectEncodable
 (
-PRUnichar
+char16_t
 aChar
 )
 ;
@@ -413,7 +413,7 @@ NS_IMETHOD
 ConvertNoBuffNoErr
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -583,7 +583,7 @@ virtual
 bool
 DirectEncodable
 (
-PRUnichar
+char16_t
 aChar
 )
 ;

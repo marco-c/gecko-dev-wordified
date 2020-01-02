@@ -2248,7 +2248,7 @@ len
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -3239,7 +3239,7 @@ l
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -3556,7 +3556,7 @@ aName
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -3764,7 +3764,7 @@ nsAutoString
 substituteName
 (
 (
-PRUnichar
+char16_t
 *
 )
 aliasName
@@ -3774,7 +3774,7 @@ nsAutoString
 actualFontName
 (
 (
-PRUnichar
+char16_t
 *
 )
 actualName

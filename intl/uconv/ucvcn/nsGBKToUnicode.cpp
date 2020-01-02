@@ -988,7 +988,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -1412,7 +1412,7 @@ aDest
 /
 surrogte
 two
-PRUnichar
+char16_t
 iDestlen
 +
 +
@@ -1785,7 +1785,7 @@ const
 char
 *
 aSrc
-PRUnichar
+char16_t
 *
 aOut
 )
@@ -2065,7 +2065,7 @@ const
 char
 *
 aSrc
-PRUnichar
+char16_t
 *
 aOut
 )
@@ -2225,7 +2225,7 @@ const
 char
 *
 aSrc
-PRUnichar
+char16_t
 *
 aOut
 )
@@ -2244,7 +2244,7 @@ const
 char
 *
 aSrc
-PRUnichar
+char16_t
 *
 aOut
 )

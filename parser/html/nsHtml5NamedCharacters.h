@@ -268,7 +268,7 @@ length
 )
 const
 ;
-PRUnichar
+char16_t
 charAt
 (
 int32_t
@@ -292,7 +292,7 @@ NAMES
 ;
 static
 const
-PRUnichar
+char16_t
 VALUES
 [
 ]
@@ -301,7 +301,7 @@ VALUES
 ]
 ;
 static
-PRUnichar
+char16_t
 *
 *
 WINDOWS_1252

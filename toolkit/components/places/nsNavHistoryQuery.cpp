@@ -6643,7 +6643,7 @@ its
 elements
 .
 const
-PRUnichar
+char16_t
 *
 *
 array
@@ -6651,7 +6651,7 @@ array
 reinterpret_cast
 <
 const
-PRUnichar
+char16_t
 *
 *
 >
@@ -6662,7 +6662,7 @@ arrayLen
 *
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 )
@@ -7080,14 +7080,14 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
-PRUnichar
+char16_t
 *
 *
 tags
 =
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 *
 >

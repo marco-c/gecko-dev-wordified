@@ -610,7 +610,7 @@ spec
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -3903,7 +3903,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aSomeData
 )
@@ -4667,7 +4667,7 @@ basespec
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [

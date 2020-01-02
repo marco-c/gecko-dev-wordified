@@ -753,7 +753,7 @@ nsDependentString
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -2881,7 +2881,7 @@ gfxContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -3056,7 +3056,7 @@ gfxFT2Font
 AddRange
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -3172,7 +3172,7 @@ aOffset
 +
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aText
@@ -3325,7 +3325,7 @@ face
 to
 compute
 kerning
-PRUnichar
+char16_t
 chNext
 =
 0

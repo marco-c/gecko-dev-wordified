@@ -7732,7 +7732,7 @@ path
 .
 RFindChar
 (
-PRUnichar
+char16_t
 (
 '
 .
@@ -7756,7 +7756,7 @@ to
 lower
 case
 .
-PRUnichar
+char16_t
 *
 p
 =

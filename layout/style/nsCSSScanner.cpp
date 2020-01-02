@@ -1662,7 +1662,7 @@ if
 mSymbol
 !
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -1701,7 +1701,7 @@ aBuffer
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 )
@@ -1759,7 +1759,7 @@ aBuffer
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 %
@@ -5938,7 +5938,7 @@ aToken
 .
 mSymbol
 =
-PRUnichar
+char16_t
 (
 aStop
 )
@@ -6881,7 +6881,7 @@ aEOFCharacters
 }
 static
 const
-PRUnichar
+char16_t
 kImpliedEOFCharacters
 [
 ]
@@ -6967,7 +6967,7 @@ appending
 for
 (
 const
-PRUnichar
+char16_t
 *
 p
 =
@@ -7248,7 +7248,7 @@ aToken
 .
 mSymbol
 =
-PRUnichar
+char16_t
 (
 0
 )

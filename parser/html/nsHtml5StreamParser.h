@@ -905,7 +905,7 @@ void
 SetEncodingFromExpat
 (
 const
-PRUnichar
+char16_t
 *
 aEncoding
 )

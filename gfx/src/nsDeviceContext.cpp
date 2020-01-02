@@ -829,7 +829,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 )
 {
@@ -2873,7 +2873,7 @@ const
 nsAString
 &
 aTitle
-PRUnichar
+char16_t
 *
 aPrintToFileName
 int32_t
@@ -2884,7 +2884,7 @@ aEndPage
 {
 static
 const
-PRUnichar
+char16_t
 kEmpty
 [
 ]

@@ -206,7 +206,7 @@ nsUnicodeToGB2312V2
 ConvertNoBuff
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -421,7 +421,7 @@ count
 as
 one
 in
-PRUnichar
+char16_t
 *
 string
 aSrc

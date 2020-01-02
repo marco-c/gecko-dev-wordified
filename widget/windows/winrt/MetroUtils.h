@@ -607,7 +607,7 @@ char
 *
 aMessage
 const
-PRUnichar
+char16_t
 *
 aData
 =
@@ -700,7 +700,7 @@ nsresult
 GetMostRecentWindow
 (
 const
-PRUnichar
+char16_t
 *
 aType
 nsIDOMWindow

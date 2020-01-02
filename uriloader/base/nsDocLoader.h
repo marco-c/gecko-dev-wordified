@@ -932,7 +932,7 @@ aRequest
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMessage
 )

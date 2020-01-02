@@ -873,7 +873,7 @@ void
 StartSpan
 (
 const
-PRUnichar
+char16_t
 *
 aClass
 )
@@ -1100,7 +1100,7 @@ void
 AddClass
 (
 const
-PRUnichar
+char16_t
 *
 aClass
 )
@@ -1381,7 +1381,7 @@ void
 AppendCharacters
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 int32_t
@@ -1814,7 +1814,7 @@ comment
 *
 /
 static
-PRUnichar
+char16_t
 sComment
 [
 ]
@@ -1831,7 +1831,7 @@ cdata
 *
 /
 static
-PRUnichar
+char16_t
 sCdata
 [
 ]
@@ -1850,7 +1850,7 @@ tag
 *
 /
 static
-PRUnichar
+char16_t
 sStartTag
 [
 ]
@@ -1869,7 +1869,7 @@ name
 *
 /
 static
-PRUnichar
+char16_t
 sAttributeName
 [
 ]
@@ -1888,7 +1888,7 @@ value
 *
 /
 static
-PRUnichar
+char16_t
 sAttributeValue
 [
 ]
@@ -1907,7 +1907,7 @@ tag
 *
 /
 static
-PRUnichar
+char16_t
 sEndTag
 [
 ]
@@ -1924,7 +1924,7 @@ doctype
 *
 /
 static
-PRUnichar
+char16_t
 sDoctype
 [
 ]
@@ -1941,7 +1941,7 @@ entity
 *
 /
 static
-PRUnichar
+char16_t
 sEntity
 [
 ]
@@ -1958,7 +1958,7 @@ pi
 *
 /
 static
-PRUnichar
+char16_t
 sPi
 [
 ]

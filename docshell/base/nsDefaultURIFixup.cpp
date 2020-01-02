@@ -4193,7 +4193,7 @@ and
 cast
 up
 to
-PRUnichar
+char16_t
 /
 /
 while
@@ -5194,13 +5194,13 @@ to
 86948
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 iter
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 iterEnd
 ;

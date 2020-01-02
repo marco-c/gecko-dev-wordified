@@ -851,7 +851,7 @@ aString
 >
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -957,7 +957,7 @@ aString
 >
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2028,7 +2028,7 @@ aString
 >
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2064,7 +2064,7 @@ aString
 >
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '

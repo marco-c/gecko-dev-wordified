@@ -2728,7 +2728,7 @@ xpcProperty
 xpcProperty
 (
 const
-PRUnichar
+char16_t
 *
 aName
 uint32_t
@@ -3530,7 +3530,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 methodName
 char
@@ -3569,7 +3569,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 propertyName
 char
@@ -3608,7 +3608,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 propertyName
 char

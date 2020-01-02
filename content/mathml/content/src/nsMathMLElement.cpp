@@ -328,11 +328,11 @@ nsresult
 WarnDeprecated
 (
 const
-PRUnichar
+char16_t
 *
 aDeprecatedAttribute
 const
-PRUnichar
+char16_t
 *
 aFavoredAttribute
 nsIDocument
@@ -341,7 +341,7 @@ aDocument
 )
 {
 const
-PRUnichar
+char16_t
 *
 argv
 [
@@ -395,7 +395,7 @@ aDocument
 )
 {
 const
-PRUnichar
+char16_t
 *
 arg
 =
@@ -452,7 +452,7 @@ aDocument
 )
 {
 const
-PRUnichar
+char16_t
 *
 argv
 [
@@ -2494,7 +2494,7 @@ i
 =
 0
 ;
-PRUnichar
+char16_t
 c
 =
 str
@@ -3835,7 +3835,7 @@ scriptlevel
 is
 absolute
 .
-PRUnichar
+char16_t
 ch
 =
 str

@@ -204,7 +204,7 @@ NS_IMETHOD
 Convert
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -222,7 +222,7 @@ NS_IMETHOD
 GetMaxLength
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -256,13 +256,13 @@ aBehavior
 nsIUnicharEncoder
 *
 aEncoder
-PRUnichar
+char16_t
 aChar
 )
 ;
 protected
 :
-PRUnichar
+char16_t
 mBOM
 ;
 NS_IMETHOD
@@ -272,7 +272,7 @@ char
 *
 aDest
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -307,7 +307,7 @@ char
 *
 aDest
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t

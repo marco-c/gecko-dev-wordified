@@ -155,7 +155,7 @@ e
 .
 nsIStringEnumerator
 for
-PRUnichar
+char16_t
 *
 strings
 and

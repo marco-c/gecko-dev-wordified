@@ -330,7 +330,7 @@ NS_IMETHOD
 ConvertNoBuff
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -359,7 +359,7 @@ NS_IMETHOD
 ConvertNoBuffNoErr
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t

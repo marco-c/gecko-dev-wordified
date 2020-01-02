@@ -543,7 +543,7 @@ aDestLength
 int32_t
 anOffset
 const
-PRUnichar
+char16_t
 aChar
 int32_t
 aCount
@@ -857,7 +857,7 @@ int32_t
 FindChar2
 (
 const
-PRUnichar
+char16_t
 *
 aDest
 uint32_t
@@ -865,7 +865,7 @@ aDestLength
 int32_t
 anOffset
 const
-PRUnichar
+char16_t
 aChar
 int32_t
 aCount
@@ -921,14 +921,14 @@ aCount
 )
 {
 const
-PRUnichar
+char16_t
 *
 root
 =
 aDest
 ;
 const
-PRUnichar
+char16_t
 *
 left
 =
@@ -937,7 +937,7 @@ root
 anOffset
 ;
 const
-PRUnichar
+char16_t
 *
 last
 =
@@ -946,7 +946,7 @@ left
 aCount
 ;
 const
-PRUnichar
+char16_t
 *
 max
 =
@@ -955,7 +955,7 @@ root
 aDestLength
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -1132,7 +1132,7 @@ aDestLength
 int32_t
 anOffset
 const
-PRUnichar
+char16_t
 aChar
 int32_t
 aCount
@@ -1426,7 +1426,7 @@ int32_t
 RFindChar2
 (
 const
-PRUnichar
+char16_t
 *
 aDest
 uint32_t
@@ -1434,7 +1434,7 @@ aDestLength
 int32_t
 anOffset
 const
-PRUnichar
+char16_t
 aChar
 int32_t
 aCount
@@ -1495,14 +1495,14 @@ aCount
 )
 {
 const
-PRUnichar
+char16_t
 *
 root
 =
 aDest
 ;
 const
-PRUnichar
+char16_t
 *
 rightmost
 =
@@ -1511,7 +1511,7 @@ root
 anOffset
 ;
 const
-PRUnichar
+char16_t
 *
 min
 =
@@ -1522,7 +1522,7 @@ aCount
 1
 ;
 const
-PRUnichar
+char16_t
 *
 leftmost
 =
@@ -2017,11 +2017,11 @@ int32_t
 Compare2To2
 (
 const
-PRUnichar
+char16_t
 *
 aStr1
 const
-PRUnichar
+char16_t
 *
 aStr2
 uint32_t
@@ -2042,7 +2042,7 @@ result
 =
 nsCharTraits
 <
-PRUnichar
+char16_t
 >
 :
 :
@@ -2268,7 +2268,7 @@ int32_t
 Compare2To1
 (
 const
-PRUnichar
+char16_t
 *
 aStr1
 const
@@ -2282,7 +2282,7 @@ aIgnoreCase
 )
 {
 const
-PRUnichar
+char16_t
 *
 s1
 =
@@ -2313,7 +2313,7 @@ aCount
 {
 do
 {
-PRUnichar
+char16_t
 c1
 =
 *
@@ -2321,10 +2321,10 @@ s1
 +
 +
 ;
-PRUnichar
+char16_t
 c2
 =
-PRUnichar
+char16_t
 (
 (
 unsigned
@@ -2625,7 +2625,7 @@ char
 *
 aStr1
 const
-PRUnichar
+char16_t
 *
 aStr2
 uint32_t
@@ -3147,7 +3147,7 @@ static
 int32_t
 CompressChars2
 (
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -3158,13 +3158,13 @@ char
 aSet
 )
 {
-PRUnichar
+char16_t
 *
 from
 =
 aString
 ;
-PRUnichar
+char16_t
 *
 end
 =
@@ -3172,7 +3172,7 @@ from
 +
 aLength
 ;
-PRUnichar
+char16_t
 *
 to
 =
@@ -3241,7 +3241,7 @@ from
 end
 )
 {
-PRUnichar
+char16_t
 theChar
 =
 *
@@ -3350,7 +3350,7 @@ return
 to
 -
 (
-PRUnichar
+char16_t
 *
 )
 aString
@@ -3682,7 +3682,7 @@ static
 int32_t
 StripChars2
 (
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -3708,13 +3708,13 @@ writing
 until
 necessary
 .
-PRUnichar
+char16_t
 *
 to
 =
 aString
 ;
-PRUnichar
+char16_t
 *
 from
 =
@@ -3722,7 +3722,7 @@ aString
 -
 1
 ;
-PRUnichar
+char16_t
 *
 end
 =
@@ -3762,7 +3762,7 @@ from
 end
 )
 {
-PRUnichar
+char16_t
 theChar
 =
 *
@@ -3866,7 +3866,7 @@ return
 to
 -
 (
-PRUnichar
+char16_t
 *
 )
 aString
@@ -4055,7 +4055,7 @@ char
 *
 a
 const
-PRUnichar
+char16_t
 *
 b
 uint32_t
@@ -4087,7 +4087,7 @@ max
 int32_t
 offset
 const
-PRUnichar
+char16_t
 c
 int32_t
 count
@@ -4117,7 +4117,7 @@ max
 int32_t
 offset
 const
-PRUnichar
+char16_t
 c
 int32_t
 count
@@ -4207,7 +4207,7 @@ template
 struct
 nsBufferRoutines
 <
-PRUnichar
+char16_t
 >
 {
 static
@@ -4215,11 +4215,11 @@ int32_t
 compare
 (
 const
-PRUnichar
+char16_t
 *
 a
 const
-PRUnichar
+char16_t
 *
 b
 uint32_t
@@ -4256,7 +4256,7 @@ int32_t
 compare
 (
 const
-PRUnichar
+char16_t
 *
 a
 const
@@ -4284,7 +4284,7 @@ int32_t
 find_char
 (
 const
-PRUnichar
+char16_t
 *
 s
 uint32_t
@@ -4292,7 +4292,7 @@ max
 int32_t
 offset
 const
-PRUnichar
+char16_t
 c
 int32_t
 count
@@ -4314,7 +4314,7 @@ int32_t
 rfind_char
 (
 const
-PRUnichar
+char16_t
 *
 s
 uint32_t
@@ -4322,7 +4322,7 @@ max
 int32_t
 offset
 const
-PRUnichar
+char16_t
 c
 int32_t
 count
@@ -4340,11 +4340,11 @@ count
 ;
 }
 static
-PRUnichar
+char16_t
 get_find_in_set_filter
 (
 const
-PRUnichar
+char16_t
 *
 set
 )
@@ -4357,7 +4357,7 @@ set
 ;
 }
 static
-PRUnichar
+char16_t
 get_find_in_set_filter
 (
 const
@@ -4369,7 +4369,7 @@ set
 return
 (
 ~
-PRUnichar
+char16_t
 (
 0
 )
@@ -4391,7 +4391,7 @@ static
 int32_t
 strip_chars
 (
-PRUnichar
+char16_t
 *
 s
 uint32_t
@@ -4415,7 +4415,7 @@ static
 int32_t
 compress_chars
 (
-PRUnichar
+char16_t
 *
 s
 uint32_t
@@ -5783,7 +5783,7 @@ nsString
 Find
 (
 const
-PRUnichar
+char16_t
 *
 aString
 int32_t
@@ -5899,7 +5899,7 @@ nsString
 RFind
 (
 const
-PRUnichar
+char16_t
 *
 aString
 int32_t
@@ -5928,7 +5928,7 @@ nsString
 FindCharInSet
 (
 const
-PRUnichar
+char16_t
 *
 aSet
 int32_t
@@ -6248,7 +6248,7 @@ result
 =
 nsBufferRoutines
 <
-PRUnichar
+char16_t
 >
 :
 :

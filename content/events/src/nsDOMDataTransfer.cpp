@@ -4310,7 +4310,7 @@ return
 true
 ;
 }
-PRUnichar
+char16_t
 *
 chrs
 ;

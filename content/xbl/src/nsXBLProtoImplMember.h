@@ -155,7 +155,7 @@ nsIObjectOutputStream
 struct
 nsXBLTextWithLineNumber
 {
-PRUnichar
+char16_t
 *
 mText
 ;
@@ -220,7 +220,7 @@ if
 mText
 )
 {
-PRUnichar
+char16_t
 *
 temp
 =
@@ -258,7 +258,7 @@ aText
 ;
 }
 }
-PRUnichar
+char16_t
 *
 GetText
 (
@@ -299,7 +299,7 @@ public
 nsXBLProtoImplMember
 (
 const
-PRUnichar
+char16_t
 *
 aName
 )
@@ -391,7 +391,7 @@ aExpose
 ;
 }
 const
-PRUnichar
+char16_t
 *
 GetName
 (
@@ -486,7 +486,7 @@ implementation
 are
 chained
 .
-PRUnichar
+char16_t
 *
 mName
 ;

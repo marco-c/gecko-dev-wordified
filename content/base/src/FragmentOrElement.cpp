@@ -10417,14 +10417,14 @@ classString
 .
 ReplaceChar
 (
-PRUnichar
+char16_t
 (
 '
 \
 n
 '
 )
-PRUnichar
+char16_t
 (
 '
 '
@@ -11283,7 +11283,7 @@ FragmentOrElement
 SetText
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -11314,7 +11314,7 @@ FragmentOrElement
 AppendText
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -12442,7 +12442,7 @@ aOut
 )
 {
 const
-PRUnichar
+char16_t
 *
 c
 =
@@ -12453,7 +12453,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -12580,7 +12580,7 @@ Is2b
 )
 {
 const
-PRUnichar
+char16_t
 *
 data
 =
@@ -12608,7 +12608,7 @@ i
 )
 {
 const
-PRUnichar
+char16_t
 c
 =
 data
@@ -12917,7 +12917,7 @@ Is2b
 )
 {
 const
-PRUnichar
+char16_t
 *
 data
 =
@@ -12945,7 +12945,7 @@ i
 )
 {
 const
-PRUnichar
+char16_t
 c
 =
 data
@@ -13221,7 +13221,7 @@ aBuilder
 )
 {
 const
-PRUnichar
+char16_t
 *
 c
 =
@@ -13233,7 +13233,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -14030,7 +14030,7 @@ CharAt
 )
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -15588,7 +15588,7 @@ search
 for
 .
 const
-PRUnichar
+char16_t
 *
 start
 =
@@ -15599,7 +15599,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -15617,7 +15617,7 @@ start
 end
 )
 {
-PRUnichar
+char16_t
 c
 =
 *
@@ -15628,7 +15628,7 @@ if
 c
 =
 =
-PRUnichar
+char16_t
 (
 '
 <
@@ -15639,7 +15639,7 @@ PRUnichar
 c
 =
 =
-PRUnichar
+char16_t
 (
 '
 &
@@ -15650,7 +15650,7 @@ PRUnichar
 c
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -15662,7 +15662,7 @@ r
 c
 =
 =
-PRUnichar
+char16_t
 (
 '
 \

@@ -424,7 +424,7 @@ xff
 "
 }
 ;
-PRUnichar
+char16_t
 cLatin1_d0
 [
 ]
@@ -817,7 +817,7 @@ aSrc
 int32_t
 aSrcLength
 const
-PRUnichar
+char16_t
 *
 aRes
 int32_t
@@ -841,7 +841,7 @@ srcLen
 =
 aSrcLength
 ;
-PRUnichar
+char16_t
 dest
 [
 GENERAL_BUFFER
@@ -1078,7 +1078,7 @@ nsIUnicodeEncoder
 *
 aEnc
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -1463,7 +1463,7 @@ aSrc
 int32_t
 aSrcLength
 const
-PRUnichar
+char16_t
 *
 aRes
 int32_t
@@ -1561,7 +1561,7 @@ srcOff
 =
 0
 ;
-PRUnichar
+char16_t
 dest
 [
 1024
@@ -2023,7 +2023,7 @@ nsIUnicodeEncoder
 *
 aEnc
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -2805,7 +2805,7 @@ char
 aSrc
 int32_t
 aSrcLen
-PRUnichar
+char16_t
 *
 aRes
 int32_t
@@ -3073,7 +3073,7 @@ loadUnicodeFile
 char
 *
 aFile
-PRUnichar
+char16_t
 *
 aBuff
 int32_t
@@ -3168,7 +3168,7 @@ GENERAL_BUFFER
 /
 2
 ;
-PRUnichar
+char16_t
 exp
 [
 GENERAL_BUFFER
@@ -3498,7 +3498,7 @@ xcc
 "
 }
 ;
-PRUnichar
+char16_t
 exp
 [
 ]
@@ -3706,7 +3706,7 @@ x45
 "
 }
 ;
-PRUnichar
+char16_t
 exp
 [
 ]
@@ -3944,7 +3944,7 @@ xff
 "
 }
 ;
-PRUnichar
+char16_t
 exp
 [
 ]
@@ -4255,7 +4255,7 @@ width
 /
 }
 ;
-PRUnichar
+char16_t
 exp
 [
 ]
@@ -4487,7 +4487,7 @@ src
 {
 }
 ;
-PRUnichar
+char16_t
 exp
 [
 ]
@@ -4710,7 +4710,7 @@ AAA
 "
 }
 ;
-PRUnichar
+char16_t
 exp
 [
 ]
@@ -4924,7 +4924,7 @@ DOC
 "
 }
 ;
-PRUnichar
+char16_t
 exp
 [
 ]
@@ -5218,7 +5218,7 @@ nullptr
 /
 test
 data
-PRUnichar
+char16_t
 src
 [
 ]
@@ -5440,7 +5440,7 @@ nullptr
 /
 test
 data
-PRUnichar
+char16_t
 src
 [
 ]
@@ -5776,7 +5776,7 @@ nullptr
 /
 test
 data
-PRUnichar
+char16_t
 src
 [
 ]
@@ -5998,7 +5998,7 @@ nullptr
 /
 test
 data
-PRUnichar
+char16_t
 src
 [
 ]
@@ -6254,7 +6254,7 @@ nullptr
 /
 test
 data
-PRUnichar
+char16_t
 src
 [
 ]
@@ -6495,7 +6495,7 @@ nullptr
 /
 test
 data
-PRUnichar
+char16_t
 src
 [
 ]

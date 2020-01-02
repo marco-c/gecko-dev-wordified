@@ -655,7 +655,7 @@ rv
 )
 ;
 const
-PRUnichar
+char16_t
 *
 colon
 ;
@@ -1218,7 +1218,7 @@ mValue
 .
 Insert
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -3012,7 +3012,7 @@ NCName
 and
 PITarget
 const
-PRUnichar
+char16_t
 *
 colon
 ;
@@ -4076,7 +4076,7 @@ lnameStart
 0
 ;
 const
-PRUnichar
+char16_t
 *
 colon
 ;

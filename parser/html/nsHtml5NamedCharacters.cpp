@@ -250,7 +250,7 @@ nsHtml5NamedCharacters
 h
 "
 const
-PRUnichar
+char16_t
 nsHtml5NamedCharacters
 :
 :
@@ -292,7 +292,7 @@ NAMED_CHARACTER_REFERENCE
 }
 }
 ;
-PRUnichar
+char16_t
 *
 *
 nsHtml5NamedCharacters
@@ -301,7 +301,7 @@ nsHtml5NamedCharacters
 WINDOWS_1252
 ;
 static
-PRUnichar
+char16_t
 const
 WINDOWS_1252_DATA
 [
@@ -656,7 +656,7 @@ return
 nameLen
 ;
 }
-PRUnichar
+char16_t
 nsHtml5CharacterName
 :
 :
@@ -670,7 +670,7 @@ const
 return
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 ALL_NAMES
@@ -693,7 +693,7 @@ initializeStatics
 WINDOWS_1252
 =
 new
-PRUnichar
+char16_t
 *
 [
 32
@@ -721,7 +721,7 @@ i
 ]
 =
 (
-PRUnichar
+char16_t
 *
 )
 &

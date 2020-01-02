@@ -199,7 +199,7 @@ Truncate
 (
 )
 ;
-PRUnichar
+char16_t
 buf
 [
 50
@@ -477,7 +477,7 @@ nextToken
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 iter
 =
@@ -493,7 +493,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 end
 =

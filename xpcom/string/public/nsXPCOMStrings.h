@@ -453,7 +453,7 @@ rv
 {
 *
 const
-PRUnichar
+char16_t
 *
 data
 ;
@@ -584,7 +584,7 @@ rv
 *
 *
 const
-PRUnichar
+char16_t
 kData
 [
 ]
@@ -1133,7 +1133,7 @@ nsStringContainer
 &
 aContainer
 const
-PRUnichar
+char16_t
 *
 aData
 =
@@ -1379,7 +1379,7 @@ nsAString
 &
 aStr
 const
-PRUnichar
+char16_t
 *
 *
 aData
@@ -1648,7 +1648,7 @@ nsAString
 aStr
 uint32_t
 aDataLength
-PRUnichar
+char16_t
 *
 *
 aData
@@ -1717,7 +1717,7 @@ Free
 /
 XPCOM_API
 (
-PRUnichar
+char16_t
 *
 )
 NS_StringCloneData
@@ -1852,7 +1852,7 @@ nsAString
 &
 aStr
 const
-PRUnichar
+char16_t
 *
 aData
 uint32_t
@@ -2094,7 +2094,7 @@ aCutOffset
 uint32_t
 aCutLength
 const
-PRUnichar
+char16_t
 *
 aData
 uint32_t
@@ -2346,7 +2346,7 @@ nsAString
 &
 aStr
 const
-PRUnichar
+char16_t
 *
 aData
 uint32_t
@@ -2507,7 +2507,7 @@ aStr
 uint32_t
 aOffset
 const
-PRUnichar
+char16_t
 *
 aData
 uint32_t

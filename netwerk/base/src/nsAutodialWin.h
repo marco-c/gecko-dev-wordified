@@ -829,7 +829,7 @@ nsresult
 DialDefault
 (
 const
-PRUnichar
+char16_t
 *
 hostName
 )

@@ -6678,7 +6678,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -8371,7 +8371,7 @@ XPCJSRuntime
 NewStringWrapper
 (
 const
-PRUnichar
+char16_t
 *
 str
 uint32_t

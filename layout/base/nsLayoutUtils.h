@@ -5794,7 +5794,7 @@ nsRenderingContext
 *
 acx
 const
-PRUnichar
+char16_t
 *
 aText
 int32_t
@@ -7951,7 +7951,7 @@ nsRenderingContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aString
 int32_t
@@ -7977,7 +7977,7 @@ nsRenderingContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aString
 int32_t

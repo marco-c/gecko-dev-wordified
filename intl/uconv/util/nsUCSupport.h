@@ -144,10 +144,10 @@ inline
 bool
 WillOverrun
 (
-PRUnichar
+char16_t
 *
 aDest
-PRUnichar
+char16_t
 *
 aDestEnd
 uint32_t
@@ -608,7 +608,7 @@ aBehavior
 )
 ;
 virtual
-PRUnichar
+char16_t
 GetCharacterForUnMapped
 (
 )
@@ -798,7 +798,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -939,7 +939,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -1228,7 +1228,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -1509,7 +1509,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -1674,7 +1674,7 @@ uMappingTable
 *
 mMappingTable
 ;
-PRUnichar
+char16_t
 mFastTable
 [
 ONE_BYTE_TABLE_SIZE
@@ -1778,7 +1778,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -2114,7 +2114,7 @@ nsIUnicharEncoder
 >
 mErrEncoder
 ;
-PRUnichar
+char16_t
 mErrChar
 ;
 uint32_t
@@ -2149,7 +2149,7 @@ NS_IMETHOD
 ConvertNoBuff
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -2192,7 +2192,7 @@ NS_IMETHOD
 ConvertNoBuffNoErr
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -2381,7 +2381,7 @@ NS_IMETHOD
 Convert
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -2419,7 +2419,7 @@ aBehavior
 nsIUnicharEncoder
 *
 aEncoder
-PRUnichar
+char16_t
 aChar
 )
 ;
@@ -2427,7 +2427,7 @@ NS_IMETHOD
 GetMaxLength
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -2704,7 +2704,7 @@ NS_IMETHOD
 ConvertNoBuffNoErr
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -2985,7 +2985,7 @@ NS_IMETHOD
 ConvertNoBuffNoErr
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t

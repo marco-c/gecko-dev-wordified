@@ -377,11 +377,11 @@ char
 *
 prefName
 const
-PRUnichar
+char16_t
 *
 messageName
 const
-PRUnichar
+char16_t
 *
 showAgainName
 const
@@ -696,7 +696,7 @@ out
 the
 dialog
 .
-PRUnichar
+char16_t
 *
 msgchars
 =

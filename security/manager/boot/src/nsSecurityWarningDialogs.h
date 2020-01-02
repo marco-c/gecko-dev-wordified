@@ -163,11 +163,11 @@ char
 *
 prefName
 const
-PRUnichar
+char16_t
 *
 messageName
 const
-PRUnichar
+char16_t
 *
 showAgainName
 bool
@@ -188,11 +188,11 @@ char
 *
 prefName
 const
-PRUnichar
+char16_t
 *
 messageName
 const
-PRUnichar
+char16_t
 *
 showAgainName
 const

@@ -463,7 +463,7 @@ for
 *
 return
 const
-PRUnichar
+char16_t
 *
 The
 tag
@@ -502,7 +502,7 @@ eHTMLTag_text
 /
 virtual
 const
-PRUnichar
+char16_t
 *
 HTMLIdToStringTag
 (

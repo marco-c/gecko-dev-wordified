@@ -288,7 +288,7 @@ c
 )
 (
 (
-PRUnichar
+char16_t
 )
 (
 const
@@ -316,7 +316,7 @@ define
 CH_QUOTE
 (
 (
-PRUnichar
+char16_t
 )
 0x22
 )
@@ -325,7 +325,7 @@ define
 CH_APOSTROPHE
 (
 (
-PRUnichar
+char16_t
 )
 0x27
 )
@@ -334,7 +334,7 @@ define
 CH_LEFT_SINGLE_QUOTE
 (
 (
-PRUnichar
+char16_t
 )
 0x2018
 )
@@ -343,7 +343,7 @@ define
 CH_RIGHT_SINGLE_QUOTE
 (
 (
-PRUnichar
+char16_t
 )
 0x2019
 )
@@ -352,7 +352,7 @@ define
 CH_LEFT_DOUBLE_QUOTE
 (
 (
-PRUnichar
+char16_t
 )
 0x201C
 )
@@ -361,7 +361,7 @@ define
 CH_RIGHT_DOUBLE_QUOTE
 (
 (
-PRUnichar
+char16_t
 )
 0x201D
 )
@@ -370,7 +370,7 @@ define
 CH_SHY
 (
 (
-PRUnichar
+char16_t
 )
 0xAD
 )
@@ -5245,7 +5245,7 @@ nsFind
 Find
 (
 const
-PRUnichar
+char16_t
 *
 aPatText
 nsIDOMRange
@@ -5428,7 +5428,7 @@ kShy
 )
 ;
 const
-PRUnichar
+char16_t
 *
 patStr
 =
@@ -5535,7 +5535,7 @@ current
 fragment
 :
 const
-PRUnichar
+char16_t
 *
 t2b
 =
@@ -5646,7 +5646,7 @@ GetEndOffset
 endOffset
 )
 ;
-PRUnichar
+char16_t
 prevChar
 =
 0
@@ -6602,7 +6602,7 @@ ll
 be
 comparing
 :
-PRUnichar
+char16_t
 c
 =
 (
@@ -6622,7 +6622,7 @@ findex
 )
 )
 ;
-PRUnichar
+char16_t
 patc
 =
 patStr

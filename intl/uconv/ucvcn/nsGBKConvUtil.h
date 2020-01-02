@@ -122,7 +122,7 @@ nsGBKConvUtil
 )
 {
 }
-PRUnichar
+char16_t
 GBKCharToUnicode
 (
 char
@@ -134,7 +134,7 @@ aByte2
 bool
 UnicodeToGBKChar
 (
-PRUnichar
+char16_t
 aChar
 bool
 aToGL

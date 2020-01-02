@@ -542,7 +542,7 @@ dest
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 [
@@ -565,7 +565,7 @@ dest
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 ]

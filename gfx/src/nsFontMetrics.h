@@ -224,7 +224,7 @@ h
 /
 /
 for
-PRUnichar
+char16_t
 class
 gfxUserFontSet
 ;
@@ -1162,7 +1162,7 @@ nscoord
 GetWidth
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -1209,7 +1209,7 @@ void
 DrawString
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -1230,7 +1230,7 @@ nsBoundingMetrics
 GetBoundingMetrics
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -1264,7 +1264,7 @@ nsBoundingMetrics
 GetInkBoundsForVisualOverflow
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t

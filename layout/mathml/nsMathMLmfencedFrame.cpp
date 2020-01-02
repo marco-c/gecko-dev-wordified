@@ -539,7 +539,7 @@ value
 {
 value
 =
-PRUnichar
+char16_t
 (
 '
 (
@@ -653,7 +653,7 @@ value
 {
 value
 =
-PRUnichar
+char16_t
 (
 '
 )
@@ -765,7 +765,7 @@ value
 {
 value
 =
-PRUnichar
+char16_t
 (
 '
 '

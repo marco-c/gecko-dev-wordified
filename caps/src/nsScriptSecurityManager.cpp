@@ -745,7 +745,7 @@ freed
 static
 inline
 const
-PRUnichar
+char16_t
 *
 IDToString
 (
@@ -1181,7 +1181,7 @@ JSContext
 *
 cx
 const
-PRUnichar
+char16_t
 *
 aMsg
 )
@@ -4157,7 +4157,7 @@ nsXPIDLString
 errorMsg
 ;
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [
@@ -6884,7 +6884,7 @@ targetScheme
 )
 ;
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [
@@ -7081,7 +7081,7 @@ targetSpec
 )
 ;
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [
@@ -8821,7 +8821,7 @@ GetName
 )
 ;
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [
@@ -9862,7 +9862,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aMessage
 )

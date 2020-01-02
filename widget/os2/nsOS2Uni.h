@@ -143,7 +143,7 @@ nsAutoCharBuffer
 typedef
 nsAutoTArray
 <
-PRUnichar
+char16_t
 CHAR_BUFFER_SIZE
 >
 nsAutoChar16Buffer
@@ -154,7 +154,7 @@ WideCharToMultiByte
 int
 aCodePage
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t

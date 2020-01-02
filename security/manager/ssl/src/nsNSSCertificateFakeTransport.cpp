@@ -346,7 +346,7 @@ GetEmailAddresses
 uint32_t
 *
 aLength
-PRUnichar
+char16_t
 *
 *
 *
@@ -836,7 +836,7 @@ _verified
 uint32_t
 *
 _count
-PRUnichar
+char16_t
 *
 *
 *

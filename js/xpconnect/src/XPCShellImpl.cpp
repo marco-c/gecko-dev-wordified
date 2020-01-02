@@ -894,7 +894,7 @@ nsLocalFileWin
 chokes
 on
 them
-PRUnichar
+char16_t
 *
 start
 =
@@ -904,7 +904,7 @@ BeginWriting
 (
 )
 ;
-PRUnichar
+char16_t
 *
 end
 =

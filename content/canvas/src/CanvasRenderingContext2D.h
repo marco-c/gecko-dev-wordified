@@ -2283,7 +2283,7 @@ char
 *
 aMimeType
 const
-PRUnichar
+char16_t
 *
 aEncoderOptions
 nsIInputStream

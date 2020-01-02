@@ -15156,14 +15156,14 @@ the
 search
 string
 .
-PRUnichar
+char16_t
 uniChar
 =
 ToLowerCase
 (
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 keyEvent

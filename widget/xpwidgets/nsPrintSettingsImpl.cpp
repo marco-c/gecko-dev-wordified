@@ -1078,7 +1078,7 @@ nsPrintSettings
 :
 GetColorspace
 (
-PRUnichar
+char16_t
 *
 *
 aColorspace
@@ -1127,7 +1127,7 @@ nsPrintSettings
 SetColorspace
 (
 const
-PRUnichar
+char16_t
 *
 aColorspace
 )
@@ -1170,7 +1170,7 @@ nsPrintSettings
 :
 GetResolutionName
 (
-PRUnichar
+char16_t
 *
 *
 aResolutionName
@@ -1219,7 +1219,7 @@ nsPrintSettings
 SetResolutionName
 (
 const
-PRUnichar
+char16_t
 *
 aResolutionName
 )
@@ -1419,7 +1419,7 @@ nsPrintSettings
 :
 GetPrinterName
 (
-PRUnichar
+char16_t
 *
 *
 aPrinter
@@ -1456,7 +1456,7 @@ nsPrintSettings
 SetPrinterName
 (
 const
-PRUnichar
+char16_t
 *
 aPrinter
 )
@@ -1561,7 +1561,7 @@ nsPrintSettings
 :
 GetPrintCommand
 (
-PRUnichar
+char16_t
 *
 *
 aPrintCommand
@@ -1593,7 +1593,7 @@ nsPrintSettings
 SetPrintCommand
 (
 const
-PRUnichar
+char16_t
 *
 aPrintCommand
 )
@@ -1689,7 +1689,7 @@ nsPrintSettings
 :
 GetToFileName
 (
-PRUnichar
+char16_t
 *
 *
 aToFileName
@@ -1721,7 +1721,7 @@ nsPrintSettings
 SetToFileName
 (
 const
-PRUnichar
+char16_t
 *
 aToFileName
 )
@@ -3030,7 +3030,7 @@ nsPrintSettings
 :
 GetTitle
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -3079,7 +3079,7 @@ nsPrintSettings
 SetTitle
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )
@@ -3122,7 +3122,7 @@ nsPrintSettings
 :
 GetDocURL
 (
-PRUnichar
+char16_t
 *
 *
 aDocURL
@@ -3171,7 +3171,7 @@ nsPrintSettings
 SetDocURL
 (
 const
-PRUnichar
+char16_t
 *
 aDocURL
 )
@@ -3521,7 +3521,7 @@ nsPrintSettings
 :
 GetMarginStrs
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -3678,7 +3678,7 @@ nsPrintSettings
 SetMarginStrs
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 nsHeaderFooterEnum
@@ -3813,7 +3813,7 @@ nsPrintSettings
 :
 GetHeaderStrLeft
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -3835,7 +3835,7 @@ nsPrintSettings
 SetHeaderStrLeft
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )
@@ -3864,7 +3864,7 @@ nsPrintSettings
 :
 GetHeaderStrCenter
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -3886,7 +3886,7 @@ nsPrintSettings
 SetHeaderStrCenter
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )
@@ -3915,7 +3915,7 @@ nsPrintSettings
 :
 GetHeaderStrRight
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -3937,7 +3937,7 @@ nsPrintSettings
 SetHeaderStrRight
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )
@@ -3966,7 +3966,7 @@ nsPrintSettings
 :
 GetFooterStrLeft
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -3988,7 +3988,7 @@ nsPrintSettings
 SetFooterStrLeft
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )
@@ -4017,7 +4017,7 @@ nsPrintSettings
 :
 GetFooterStrCenter
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -4039,7 +4039,7 @@ nsPrintSettings
 SetFooterStrCenter
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )
@@ -4068,7 +4068,7 @@ nsPrintSettings
 :
 GetFooterStrRight
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -4090,7 +4090,7 @@ nsPrintSettings
 SetFooterStrRight
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )
@@ -4376,7 +4376,7 @@ nsPrintSettings
 :
 GetPaperName
 (
-PRUnichar
+char16_t
 *
 *
 aPaperName
@@ -4425,7 +4425,7 @@ nsPrintSettings
 SetPaperName
 (
 const
-PRUnichar
+char16_t
 *
 aPaperName
 )
@@ -4468,7 +4468,7 @@ nsPrintSettings
 :
 GetPlexName
 (
-PRUnichar
+char16_t
 *
 *
 aPlexName
@@ -4517,7 +4517,7 @@ nsPrintSettings
 SetPlexName
 (
 const
-PRUnichar
+char16_t
 *
 aPlexName
 )

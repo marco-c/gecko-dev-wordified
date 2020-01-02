@@ -853,7 +853,7 @@ Is2b
 )
 {
 const
-PRUnichar
+char16_t
 *
 strStart
 =
@@ -1374,7 +1374,7 @@ IsEmpty
 {
 AppendToString
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -1801,7 +1801,7 @@ name
 aStr
 )
 ;
-PRUnichar
+char16_t
 quote
 ;
 if
@@ -1831,7 +1831,7 @@ publicId
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 "
@@ -1846,7 +1846,7 @@ PRUnichar
 {
 quote
 =
-PRUnichar
+char16_t
 (
 '
 "
@@ -1858,7 +1858,7 @@ else
 {
 quote
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -1897,7 +1897,7 @@ IsEmpty
 {
 AppendToString
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -1911,7 +1911,7 @@ systemId
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 "
@@ -1926,7 +1926,7 @@ PRUnichar
 {
 quote
 =
-PRUnichar
+char16_t
 (
 '
 "
@@ -1938,7 +1938,7 @@ else
 {
 quote
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -1984,7 +1984,7 @@ systemId
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 "
@@ -1999,7 +1999,7 @@ PRUnichar
 {
 quote
 =
-PRUnichar
+char16_t
 (
 '
 "
@@ -2011,7 +2011,7 @@ else
 {
 quote
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -2079,7 +2079,7 @@ aStr
 ;
 AppendToString
 (
-PRUnichar
+char16_t
 (
 '
 ]
@@ -3575,7 +3575,7 @@ attrString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -3603,7 +3603,7 @@ attrString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 :
@@ -3677,7 +3677,7 @@ attrString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 "
@@ -3846,7 +3846,7 @@ uiSize
 )
 {
 const
-PRUnichar
+char16_t
 *
 buf
 =
@@ -3888,7 +3888,7 @@ if
 buf
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -3915,7 +3915,7 @@ if
 buf
 =
 =
-PRUnichar
+char16_t
 (
 '
 "
@@ -4003,7 +4003,7 @@ TRUE
 TRUE
 "
 TRUE
-PRUnichar
+char16_t
 cDelimiter
 =
 (
@@ -4014,7 +4014,7 @@ bIncludesDouble
 bIncludesSingle
 )
 ?
-PRUnichar
+char16_t
 (
 '
 \
@@ -4022,7 +4022,7 @@ PRUnichar
 '
 )
 :
-PRUnichar
+char16_t
 (
 '
 "
@@ -4033,7 +4033,7 @@ attrString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 =
@@ -5378,7 +5378,7 @@ mAddSpace
 {
 AppendToString
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -5400,7 +5400,7 @@ mAddSpace
 {
 AppendToString
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -5910,7 +5910,7 @@ mAddSpace
 {
 AppendToString
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -5932,7 +5932,7 @@ mAddSpace
 {
 AppendToString
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -6340,7 +6340,7 @@ nsXMLContentSerializer
 AppendToString
 (
 const
-PRUnichar
+char16_t
 aChar
 nsAString
 &
@@ -6735,7 +6735,7 @@ aOutputStr
 {
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 done_reading
 ;
@@ -6765,7 +6765,7 @@ advanceLength
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 iter
 ;
@@ -6816,7 +6816,7 @@ size_forward
 )
 ;
 const
-PRUnichar
+char16_t
 *
 c
 =
@@ -6827,14 +6827,14 @@ get
 )
 ;
 const
-PRUnichar
+char16_t
 *
 fragmentStart
 =
 c
 ;
 const
-PRUnichar
+char16_t
 *
 fragmentEnd
 =
@@ -6885,7 +6885,7 @@ advanceLength
 +
 )
 {
-PRUnichar
+char16_t
 val
 =
 *
@@ -8385,7 +8385,7 @@ aOutputStr
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -8697,7 +8697,7 @@ aOutputStr
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -8859,7 +8859,7 @@ aOutputStr
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '

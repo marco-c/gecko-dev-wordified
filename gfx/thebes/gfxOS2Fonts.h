@@ -381,7 +381,7 @@ gfxTextRun
 MakeTextRun
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t

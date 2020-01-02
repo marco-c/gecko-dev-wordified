@@ -336,7 +336,7 @@ str
 strlen
 "
 for
-PRUnichar
+char16_t
 strings
 *
 /
@@ -345,7 +345,7 @@ uint32_t
 NS_strlen
 (
 const
-PRUnichar
+char16_t
 *
 aString
 )
@@ -358,7 +358,7 @@ aString
 strcmp
 "
 for
-PRUnichar
+char16_t
 strings
 *
 /
@@ -367,11 +367,11 @@ int
 NS_strcmp
 (
 const
-PRUnichar
+char16_t
 *
 a
 const
-PRUnichar
+char16_t
 *
 b
 )
@@ -384,7 +384,7 @@ b
 strdup
 "
 for
-PRUnichar
+char16_t
 strings
 uses
 the
@@ -394,12 +394,12 @@ allocator
 *
 /
 NS_COM_GLUE
-PRUnichar
+char16_t
 *
 NS_strdup
 (
 const
-PRUnichar
+char16_t
 *
 aString
 )
@@ -436,7 +436,7 @@ aString
 *
 strndup
 for
-PRUnichar
+char16_t
 strings
 .
 .
@@ -463,12 +463,12 @@ allocator
 *
 /
 NS_COM_GLUE
-PRUnichar
+char16_t
 *
 NS_strndup
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -611,7 +611,7 @@ NS_COM_GLUE
 bool
 NS_IsAscii
 (
-PRUnichar
+char16_t
 aChar
 )
 ;
@@ -620,7 +620,7 @@ bool
 NS_IsAscii
 (
 const
-PRUnichar
+char16_t
 *
 aString
 )
@@ -629,7 +629,7 @@ NS_COM_GLUE
 bool
 NS_IsAsciiAlpha
 (
-PRUnichar
+char16_t
 aChar
 )
 ;
@@ -637,7 +637,7 @@ NS_COM_GLUE
 bool
 NS_IsAsciiDigit
 (
-PRUnichar
+char16_t
 aChar
 )
 ;
@@ -645,7 +645,7 @@ NS_COM_GLUE
 bool
 NS_IsAsciiWhitespace
 (
-PRUnichar
+char16_t
 aChar
 )
 ;

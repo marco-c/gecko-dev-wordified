@@ -555,7 +555,7 @@ name
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -579,7 +579,7 @@ resetBackupDirectoryName
 ;
 static
 const
-PRUnichar
+char16_t
 *
 kResetBackupDirectory
 =

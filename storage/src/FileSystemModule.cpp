@@ -1082,7 +1082,7 @@ path
 reinterpret_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -1264,7 +1264,7 @@ Length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 SQLITE_TRANSIENT
 )
@@ -1307,7 +1307,7 @@ Length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 SQLITE_TRANSIENT
 )

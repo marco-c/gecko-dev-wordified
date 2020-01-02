@@ -412,7 +412,7 @@ c1
 nsDependentString
 (
 (
-PRUnichar
+char16_t
 *
 )
 testLine
@@ -426,7 +426,7 @@ c2
 nsDependentString
 (
 (
-PRUnichar
+char16_t
 *
 )
 testLine
@@ -440,7 +440,7 @@ c3
 nsDependentString
 (
 (
-PRUnichar
+char16_t
 *
 )
 testLine
@@ -454,7 +454,7 @@ c4
 nsDependentString
 (
 (
-PRUnichar
+char16_t
 *
 )
 testLine
@@ -468,7 +468,7 @@ c5
 nsDependentString
 (
 (
-PRUnichar
+char16_t
 *
 )
 testLine
@@ -1002,7 +1002,7 @@ rv
 =
 true
 ;
-PRUnichar
+char16_t
 unicharArray
 [
 3

@@ -162,7 +162,7 @@ NS_IMETHOD
 FormatDateTime
 (
 const
-PRUnichar
+char16_t
 *
 locale
 nsDateFormatSelector
@@ -181,7 +181,7 @@ int32_t
 minute
 int32_t
 second
-PRUnichar
+char16_t
 *
 *
 dateTimeString
@@ -191,7 +191,7 @@ NS_IMETHOD
 FormatDate
 (
 const
-PRUnichar
+char16_t
 *
 locale
 nsDateFormatSelector
@@ -202,7 +202,7 @@ int32_t
 month
 int32_t
 day
-PRUnichar
+char16_t
 *
 *
 dateString
@@ -228,7 +228,7 @@ NS_IMETHOD
 FormatTime
 (
 const
-PRUnichar
+char16_t
 *
 locale
 nsTimeFormatSelector
@@ -239,7 +239,7 @@ int32_t
 minute
 int32_t
 second
-PRUnichar
+char16_t
 *
 *
 timeString
@@ -292,7 +292,7 @@ nsScriptableDateFormat
 FormatDateTime
 (
 const
-PRUnichar
+char16_t
 *
 aLocale
 nsDateFormatSelector
@@ -311,7 +311,7 @@ int32_t
 minute
 int32_t
 second
-PRUnichar
+char16_t
 *
 *
 dateTimeString

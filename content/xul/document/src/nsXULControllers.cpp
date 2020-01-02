@@ -1438,7 +1438,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 methodName
 char
@@ -1483,7 +1483,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 propertyName
 char
@@ -1528,7 +1528,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 propertyName
 char

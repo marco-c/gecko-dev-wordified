@@ -301,12 +301,12 @@ rv
 ;
 nsAutoArrayPtr
 <
-PRUnichar
+char16_t
 >
 ustr
 (
 new
-PRUnichar
+char16_t
 [
 dstLen
 ]

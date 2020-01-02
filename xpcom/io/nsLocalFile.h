@@ -198,7 +198,7 @@ nsresult
 AppendUnicode
 (
 const
-PRUnichar
+char16_t
 *
 aNode
 )
@@ -207,7 +207,7 @@ aNode
 nsresult
 GetUnicodeLeafName
 (
-PRUnichar
+char16_t
 *
 *
 aLeafName
@@ -218,7 +218,7 @@ nsresult
 SetUnicodeLeafName
 (
 const
-PRUnichar
+char16_t
 *
 aLeafName
 )
@@ -231,7 +231,7 @@ nsIFile
 *
 aNewParentDir
 const
-PRUnichar
+char16_t
 *
 aNewLeafName
 )
@@ -244,7 +244,7 @@ nsIFile
 *
 aNewParentDir
 const
-PRUnichar
+char16_t
 *
 aNewLeafName
 )
@@ -257,7 +257,7 @@ nsIFile
 *
 aNewParentDir
 const
-PRUnichar
+char16_t
 *
 aNewLeafName
 )
@@ -266,7 +266,7 @@ aNewLeafName
 nsresult
 GetUnicodeTarget
 (
-PRUnichar
+char16_t
 *
 *
 aTarget
@@ -276,7 +276,7 @@ aTarget
 nsresult
 GetUnicodePath
 (
-PRUnichar
+char16_t
 *
 *
 aPath
@@ -287,7 +287,7 @@ nsresult
 InitWithUnicodePath
 (
 const
-PRUnichar
+char16_t
 *
 aPath
 )
@@ -297,7 +297,7 @@ nsresult
 AppendRelativeUnicodePath
 (
 const
-PRUnichar
+char16_t
 *
 aRelativePath
 )

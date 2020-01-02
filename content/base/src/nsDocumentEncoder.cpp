@@ -2650,7 +2650,7 @@ aString
 )
 ;
 const
-PRUnichar
+char16_t
 *
 unicodeBuf
 =
@@ -5200,7 +5200,7 @@ buffer
 ;
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -5215,7 +5215,7 @@ Data
 0
 ]
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -7969,7 +7969,7 @@ infoString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '

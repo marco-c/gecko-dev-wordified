@@ -603,7 +603,7 @@ int
 dateLen
 timeLen
 ;
-PRUnichar
+char16_t
 dateBuffer
 [
 NSDATETIMEFORMAT_BUFFER_LEN
@@ -1061,7 +1061,7 @@ stringOut
 Append
 (
 (
-PRUnichar
+char16_t
 *
 )
 (
@@ -1351,7 +1351,7 @@ const
 char
 *
 format
-PRUnichar
+char16_t
 *
 timeStr
 int
@@ -1409,7 +1409,7 @@ const
 char
 *
 format
-PRUnichar
+char16_t
 *
 dateStr
 int

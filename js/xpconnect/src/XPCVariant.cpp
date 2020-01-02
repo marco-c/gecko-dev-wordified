@@ -2949,7 +2949,7 @@ nsIDataType
 VTYPE_WCHAR
 :
 {
-PRUnichar
+char16_t
 wc
 ;
 if
@@ -3393,7 +3393,7 @@ nsIDataType
 VTYPE_WCHAR_STR
 :
 {
-PRUnichar
+char16_t
 *
 pwc
 ;
@@ -3455,7 +3455,7 @@ nsIDataType
 VTYPE_WSTRING_SIZE_IS
 :
 {
-PRUnichar
+char16_t
 *
 pwc
 ;
@@ -4724,7 +4724,7 @@ XPCVariant
 :
 GetAsWChar
 (
-PRUnichar
+char16_t
 *
 _retval
 )
@@ -4971,7 +4971,7 @@ XPCVariant
 :
 GetAsWString
 (
-PRUnichar
+char16_t
 *
 *
 _retval
@@ -5212,7 +5212,7 @@ GetAsWStringWithSize
 uint32_t
 *
 size
-PRUnichar
+char16_t
 *
 *
 str

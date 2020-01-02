@@ -167,14 +167,14 @@ char
 mKey
 ;
 const
-PRUnichar
+char16_t
 *
 mValue
 ;
 }
 ;
 static
-PRUnichar
+char16_t
 *
 ArenaStrdup
 (
@@ -215,7 +215,7 @@ Length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 PL_ARENA_ALLOCATE
@@ -260,7 +260,7 @@ len
 return
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -491,7 +491,7 @@ it
 should
 be
 fast
-PRUnichar
+char16_t
 backup_char
 ;
 uint32_t
@@ -591,7 +591,7 @@ void
 *
 aClosure
 const
-PRUnichar
+char16_t
 *
 aFromSegment
 uint32_t
@@ -607,7 +607,7 @@ nsresult
 ParseBuffer
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -619,7 +619,7 @@ private
 bool
 ParseValueCharacter
 (
-PRUnichar
+char16_t
 c
 /
 /
@@ -630,7 +630,7 @@ just
 being
 parsed
 const
-PRUnichar
+char16_t
 *
 cur
 /
@@ -643,7 +643,7 @@ in
 the
 buffer
 const
-PRUnichar
+char16_t
 *
 &
 tokenStart
@@ -787,7 +787,7 @@ should
 be
 4
 !
-PRUnichar
+char16_t
 mUnicodeValue
 ;
 /
@@ -928,7 +928,7 @@ inline
 bool
 IsWhiteSpace
 (
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -979,7 +979,7 @@ inline
 bool
 IsEOL
 (
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -1012,14 +1012,14 @@ nsPropertiesParser
 :
 ParseValueCharacter
 (
-PRUnichar
+char16_t
 c
 const
-PRUnichar
+char16_t
 *
 cur
 const
-PRUnichar
+char16_t
 *
 &
 tokenStart
@@ -1484,7 +1484,7 @@ t
 mValue
 +
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -1510,7 +1510,7 @@ n
 mValue
 +
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -1536,7 +1536,7 @@ r
 mValue
 +
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -1563,7 +1563,7 @@ case
 mValue
 +
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -1939,7 +1939,7 @@ void
 *
 aClosure
 const
-PRUnichar
+char16_t
 *
 aFromSegment
 uint32_t
@@ -1989,7 +1989,7 @@ nsPropertiesParser
 ParseBuffer
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -1997,14 +1997,14 @@ aBufferLength
 )
 {
 const
-PRUnichar
+char16_t
 *
 cur
 =
 aBuffer
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -2027,7 +2027,7 @@ key
 or
 value
 const
-PRUnichar
+char16_t
 *
 tokenStart
 =
@@ -2093,7 +2093,7 @@ cur
 end
 )
 {
-PRUnichar
+char16_t
 c
 =
 *

@@ -151,13 +151,13 @@ define
 UNICODE_BYTE_ORDER_MARK
 0xFEFF
 static
-PRUnichar
+char16_t
 *
 EmitSurrogatePair
 (
 uint32_t
 ucs4
-PRUnichar
+char16_t
 *
 aDest
 )
@@ -951,7 +951,7 @@ char
 *
 &
 src
-PRUnichar
+char16_t
 *
 &
 dst
@@ -1104,7 +1104,7 @@ dst
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -1250,7 +1250,7 @@ src32
 dst
 =
 (
-PRUnichar
+char16_t
 *
 )
 dst32
@@ -1283,7 +1283,7 @@ dst
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -1311,7 +1311,7 @@ char
 *
 &
 src
-PRUnichar
+char16_t
 *
 &
 dst
@@ -1333,7 +1333,7 @@ char
 *
 &
 src
-PRUnichar
+char16_t
 *
 &
 dst
@@ -1398,7 +1398,7 @@ dst
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -1422,7 +1422,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -1465,7 +1465,7 @@ aSrc
 +
 aSrcLen
 ;
-PRUnichar
+char16_t
 *
 out
 *

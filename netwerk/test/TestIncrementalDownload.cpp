@@ -388,7 +388,7 @@ context
 nsresult
 status
 const
-PRUnichar
+char16_t
 *
 statusText
 )

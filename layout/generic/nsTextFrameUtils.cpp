@@ -141,7 +141,7 @@ static
 bool
 IsDiscardable
 (
-PRUnichar
+char16_t
 ch
 uint32_t
 *
@@ -256,7 +256,7 @@ return
 false
 ;
 }
-PRUnichar
+char16_t
 *
 nsTextFrameUtils
 :
@@ -264,12 +264,12 @@ nsTextFrameUtils
 TransformText
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
 aLength
-PRUnichar
+char16_t
 *
 aOutput
 CompressionMode
@@ -290,7 +290,7 @@ flags
 =
 0
 ;
-PRUnichar
+char16_t
 *
 outputStart
 =
@@ -338,7 +338,7 @@ aLength
 i
 )
 {
-PRUnichar
+char16_t
 ch
 =
 *
@@ -496,7 +496,7 @@ aLength
 i
 )
 {
-PRUnichar
+char16_t
 ch
 =
 *
@@ -1309,7 +1309,7 @@ char
 s1b
 ;
 const
-PRUnichar
+char16_t
 *
 s2b
 ;
@@ -1400,7 +1400,7 @@ i_end
 i
 )
 {
-PRUnichar
+char16_t
 c
 =
 is2b

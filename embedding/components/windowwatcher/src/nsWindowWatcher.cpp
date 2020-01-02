@@ -8054,7 +8054,7 @@ nsWindowWatcher
 GetWindowByName
 (
 const
-PRUnichar
+char16_t
 *
 aTargetName
 nsIDOMWindow
@@ -10295,7 +10295,7 @@ nsWindowWatcher
 FindItemWithName
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsIDocShellTreeItem

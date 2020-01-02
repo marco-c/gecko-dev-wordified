@@ -582,7 +582,7 @@ nsMemoryImpl
 FlushMemory
 (
 const
-PRUnichar
+char16_t
 *
 aReason
 bool
@@ -795,7 +795,7 @@ nsMemoryImpl
 RunFlushers
 (
 const
-PRUnichar
+char16_t
 *
 aReason
 )

@@ -273,7 +273,7 @@ u
 parsing
 *
 /
-PRUnichar
+char16_t
 utf16
 [
 2

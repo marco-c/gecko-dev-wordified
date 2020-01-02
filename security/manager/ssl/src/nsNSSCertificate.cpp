@@ -1902,7 +1902,7 @@ details
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -1940,7 +1940,7 @@ details
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -2038,7 +2038,7 @@ nickWithSerial
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 ]
@@ -2050,7 +2050,7 @@ details
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -2146,7 +2146,7 @@ details
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2181,7 +2181,7 @@ details
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2223,7 +2223,7 @@ details
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2258,7 +2258,7 @@ details
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2278,7 +2278,7 @@ details
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -2362,7 +2362,7 @@ details
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -2605,7 +2605,7 @@ details
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -2643,7 +2643,7 @@ details
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2681,7 +2681,7 @@ details
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -2719,7 +2719,7 @@ details
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -3442,7 +3442,7 @@ GetEmailAddresses
 uint32_t
 *
 aLength
-PRUnichar
+char16_t
 *
 *
 *
@@ -3513,7 +3513,7 @@ aLength
 aAddresses
 =
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -3524,7 +3524,7 @@ Alloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 *
@@ -4909,7 +4909,7 @@ GetAllTokenNames
 uint32_t
 *
 aLength
-PRUnichar
+char16_t
 *
 *
 *
@@ -5071,7 +5071,7 @@ aLength
 aTokenNames
 =
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -5082,7 +5082,7 @@ Alloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 *
@@ -6760,7 +6760,7 @@ _verified
 uint32_t
 *
 _count
-PRUnichar
+char16_t
 *
 *
 *
@@ -6788,7 +6788,7 @@ max_usages
 =
 13
 ;
-PRUnichar
+char16_t
 *
 tmpUsages
 [
@@ -6844,7 +6844,7 @@ tmpCount
 _usages
 =
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -6855,7 +6855,7 @@ Alloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 *
@@ -6914,7 +6914,7 @@ NS_OK
 _usages
 =
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -6925,7 +6925,7 @@ Alloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 )
@@ -7065,7 +7065,7 @@ max_usages
 =
 13
 ;
-PRUnichar
+char16_t
 *
 tmpUsages
 [

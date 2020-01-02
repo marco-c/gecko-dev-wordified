@@ -631,7 +631,7 @@ CANON_CLASS_BITS_2
 5
 static
 const
-PRUnichar
+char16_t
 canon_class_imap
 [
 ]
@@ -3975,7 +3975,7 @@ CANON_COMPOSE_BITS_2
 5
 static
 const
-PRUnichar
+char16_t
 compose_imap
 [
 ]
@@ -10891,7 +10891,7 @@ DECOMP_COMPAT
 32768
 static
 const
-PRUnichar
+char16_t
 decompose_imap
 [
 ]
@@ -12199,7 +12199,7 @@ static
 const
 struct
 {
-PRUnichar
+char16_t
 tbl
 [
 32

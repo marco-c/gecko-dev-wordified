@@ -604,7 +604,7 @@ nsPK11Token
 :
 GetTokenName
 (
-PRUnichar
+char16_t
 *
 *
 aTokenName
@@ -668,7 +668,7 @@ nsPK11Token
 :
 GetTokenLabel
 (
-PRUnichar
+char16_t
 *
 *
 aTokLabel
@@ -732,7 +732,7 @@ nsPK11Token
 :
 GetTokenManID
 (
-PRUnichar
+char16_t
 *
 *
 aTokManID
@@ -796,7 +796,7 @@ nsPK11Token
 :
 GetTokenHWVersion
 (
-PRUnichar
+char16_t
 *
 *
 aTokHWVersion
@@ -860,7 +860,7 @@ nsPK11Token
 :
 GetTokenFWVersion
 (
-PRUnichar
+char16_t
 *
 *
 aTokFWVersion
@@ -924,7 +924,7 @@ nsPK11Token
 :
 GetTokenSerialNumber
 (
-PRUnichar
+char16_t
 *
 *
 aTokSerialNum
@@ -1420,7 +1420,7 @@ nsPK11Token
 CheckPassword
 (
 const
-PRUnichar
+char16_t
 *
 password
 bool
@@ -1546,7 +1546,7 @@ nsPK11Token
 InitPassword
 (
 const
-PRUnichar
+char16_t
 *
 initialPassword
 )
@@ -1805,11 +1805,11 @@ nsPK11Token
 ChangePassword
 (
 const
-PRUnichar
+char16_t
 *
 oldPassword
 const
-PRUnichar
+char16_t
 *
 newPassword
 )
@@ -2256,7 +2256,7 @@ nsPK11TokenDB
 FindTokenByName
 (
 const
-PRUnichar
+char16_t
 *
 tokenName
 nsIPK11Token

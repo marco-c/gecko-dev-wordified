@@ -264,7 +264,7 @@ mBoolValue
 char
 mCharValue
 ;
-PRUnichar
+char16_t
 mWCharValue
 ;
 nsIID
@@ -326,7 +326,7 @@ str
 ;
 struct
 {
-PRUnichar
+char16_t
 *
 mWStringValue
 ;
@@ -632,7 +632,7 @@ const
 nsDiscriminatedUnion
 &
 data
-PRUnichar
+char16_t
 *
 _retval
 )
@@ -711,7 +711,7 @@ const
 nsDiscriminatedUnion
 &
 data
-PRUnichar
+char16_t
 *
 *
 _retval
@@ -800,7 +800,7 @@ data
 uint32_t
 *
 size
-PRUnichar
+char16_t
 *
 *
 str
@@ -957,7 +957,7 @@ SetFromWChar
 nsDiscriminatedUnion
 *
 data
-PRUnichar
+char16_t
 aValue
 )
 ;
@@ -1034,7 +1034,7 @@ nsDiscriminatedUnion
 *
 data
 const
-PRUnichar
+char16_t
 *
 aValue
 )
@@ -1112,7 +1112,7 @@ data
 uint32_t
 size
 const
-PRUnichar
+char16_t
 *
 aValue
 )

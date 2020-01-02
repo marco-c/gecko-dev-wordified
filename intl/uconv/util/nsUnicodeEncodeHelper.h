@@ -307,7 +307,7 @@ nsresult
 ConvertByTable
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -353,7 +353,7 @@ nsresult
 ConvertByMultiTable
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t

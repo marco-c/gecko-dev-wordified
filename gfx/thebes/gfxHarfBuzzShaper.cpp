@@ -3731,7 +3731,7 @@ presForm
 encoded
 static
 const
-PRUnichar
+char16_t
 sDageshForms
 [
 0x05EA
@@ -4482,7 +4482,7 @@ gfxContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -5538,7 +5538,7 @@ aOffset
 uint32_t
 aLength
 const
-PRUnichar
+char16_t
 *
 aText
 hb_buffer_t

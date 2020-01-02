@@ -1082,7 +1082,7 @@ SetStatus
 uint32_t
 aStatusType
 const
-PRUnichar
+char16_t
 *
 aStatus
 )
@@ -4506,7 +4506,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

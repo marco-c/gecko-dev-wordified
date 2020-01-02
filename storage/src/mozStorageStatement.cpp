@@ -4613,14 +4613,14 @@ true
 else
 {
 const
-PRUnichar
+char16_t
 *
 value
 =
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -4828,7 +4828,7 @@ uint32_t
 *
 _length
 const
-PRUnichar
+char16_t
 *
 *
 _value
@@ -4855,7 +4855,7 @@ _value
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (

@@ -231,7 +231,7 @@ this
 character
 .
 static
-PRUnichar
+char16_t
 sInvalid
 =
 UCS2_REPLACEMENT_CHAR
@@ -242,7 +242,7 @@ nsReadEndCondition
 nsReadEndCondition
 (
 const
-PRUnichar
+char16_t
 *
 aTerminateChars
 )
@@ -253,7 +253,7 @@ aTerminateChars
 )
 mFilter
 (
-PRUnichar
+char16_t
 (
 ~
 0
@@ -334,13 +334,13 @@ set
 Calculate
 filter
 const
-PRUnichar
+char16_t
 *
 current
 =
 aTerminateChars
 ;
-PRUnichar
+char16_t
 terminalChar
 =
 *
@@ -526,7 +526,7 @@ false
 ;
 mReplacementCharacter
 =
-PRUnichar
+char16_t
 (
 0x0
 )
@@ -733,7 +733,7 @@ false
 ;
 mReplacementCharacter
 =
-PRUnichar
+char16_t
 (
 0x0
 )
@@ -1424,7 +1424,7 @@ buffer
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRUnichar
+char16_t
 *
 unichars
 =
@@ -1821,7 +1821,7 @@ nsScanner
 :
 GetChar
 (
-PRUnichar
+char16_t
 &
 aChar
 )
@@ -1900,7 +1900,7 @@ nsScanner
 :
 Peek
 (
-PRUnichar
+char16_t
 &
 aChar
 uint32_t
@@ -2133,7 +2133,7 @@ return
 kEOF
 ;
 }
-PRUnichar
+char16_t
 theChar
 =
 0
@@ -2221,7 +2221,7 @@ skipped
 =
 true
 ;
-PRUnichar
+char16_t
 thePrevChar
 =
 theChar
@@ -2394,7 +2394,7 @@ nsScanner
 :
 SkipOver
 (
-PRUnichar
+char16_t
 aSkipChar
 )
 {
@@ -2408,7 +2408,7 @@ return
 kEOF
 ;
 }
-PRUnichar
+char16_t
 ch
 =
 0
@@ -2620,7 +2620,7 @@ return
 kEOF
 ;
 }
-PRUnichar
+char16_t
 theChar
 =
 0
@@ -2889,7 +2889,7 @@ return
 kEOF
 ;
 }
-PRUnichar
+char16_t
 theChar
 =
 0
@@ -3168,7 +3168,7 @@ supported
 "
 )
 ;
-PRUnichar
+char16_t
 theChar
 =
 0
@@ -3414,7 +3414,7 @@ return
 kEOF
 ;
 }
-PRUnichar
+char16_t
 theChar
 =
 0
@@ -3500,7 +3500,7 @@ r
 +
 aNewlinesSkipped
 ;
-PRUnichar
+char16_t
 thePrevChar
 =
 theChar
@@ -3640,7 +3640,7 @@ writable
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -3808,7 +3808,7 @@ return
 kEOF
 ;
 }
-PRUnichar
+char16_t
 theChar
 =
 0
@@ -3899,7 +3899,7 @@ t
 '
 :
 {
-PRUnichar
+char16_t
 thePrevChar
 =
 theChar
@@ -4134,7 +4134,7 @@ origin
 current
 ;
 const
-PRUnichar
+char16_t
 *
 setstart
 =
@@ -4143,7 +4143,7 @@ aEndCondition
 mChars
 ;
 const
-PRUnichar
+char16_t
 *
 setcurrent
 ;
@@ -4155,7 +4155,7 @@ current
 =
 origin
 ;
-PRUnichar
+char16_t
 theChar
 =
 0
@@ -4386,7 +4386,7 @@ origin
 current
 ;
 const
-PRUnichar
+char16_t
 *
 setstart
 =
@@ -4395,7 +4395,7 @@ aEndCondition
 mChars
 ;
 const
-PRUnichar
+char16_t
 *
 setcurrent
 ;
@@ -4407,7 +4407,7 @@ current
 =
 origin
 ;
-PRUnichar
+char16_t
 theChar
 =
 0
@@ -4641,7 +4641,7 @@ origin
 current
 ;
 const
-PRUnichar
+char16_t
 *
 setstart
 =
@@ -4650,7 +4650,7 @@ aEndCondition
 mChars
 ;
 const
-PRUnichar
+char16_t
 *
 setcurrent
 ;
@@ -4662,7 +4662,7 @@ current
 =
 origin
 ;
-PRUnichar
+char16_t
 theChar
 =
 0
@@ -4900,7 +4900,7 @@ ReadUntil
 nsAString
 &
 aString
-PRUnichar
+char16_t
 aTerminalChar
 bool
 addTerminal
@@ -4928,7 +4928,7 @@ current
 =
 origin
 ;
-PRUnichar
+char16_t
 theChar
 ;
 nsresult
@@ -5270,7 +5270,7 @@ ReplaceCharacter
 nsScannerIterator
 &
 aPosition
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -5727,7 +5727,7 @@ nsScanner
 :
 OverrideReplacementCharacter
 (
-PRUnichar
+char16_t
 aReplacementCharacter
 )
 {

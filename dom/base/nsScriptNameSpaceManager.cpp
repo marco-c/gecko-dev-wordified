@@ -888,7 +888,7 @@ nsAString
 *
 aKey
 const
-PRUnichar
+char16_t
 *
 *
 aClassName
@@ -2158,7 +2158,7 @@ nsAString
 &
 aName
 const
-PRUnichar
+char16_t
 *
 *
 aClassName
@@ -2330,7 +2330,7 @@ aXBLAllowed
 bool
 aDisabled
 const
-PRUnichar
+char16_t
 *
 *
 aResult
@@ -2813,7 +2813,7 @@ aConstructorCID
 )
 {
 const
-PRUnichar
+char16_t
 *
 className
 ;
@@ -4087,7 +4087,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

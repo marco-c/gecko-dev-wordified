@@ -867,7 +867,7 @@ ctx
 nsresult
 status
 const
-PRUnichar
+char16_t
 *
 statusArg
 )

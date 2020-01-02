@@ -141,7 +141,7 @@ gfxContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -177,7 +177,7 @@ aOffset
 uint32_t
 aLength
 const
-PRUnichar
+char16_t
 *
 aText
 gr_segment

@@ -455,7 +455,7 @@ int
 ComponentValue
 (
 const
-PRUnichar
+char16_t
 *
 aColorSpec
 int
@@ -502,7 +502,7 @@ dpc
 0
 )
 {
-PRUnichar
+char16_t
 ch
 =
 (
@@ -682,7 +682,7 @@ aResult
 )
 {
 const
-PRUnichar
+char16_t
 *
 buffer
 =
@@ -743,7 +743,7 @@ i
 +
 )
 {
-PRUnichar
+char16_t
 ch
 =
 buffer
@@ -1154,7 +1154,7 @@ Length
 )
 ;
 const
-PRUnichar
+char16_t
 *
 colorSpec
 =
@@ -1340,7 +1340,7 @@ newdpc
 "
 )
 ;
-PRUnichar
+char16_t
 ch
 =
 colorSpec

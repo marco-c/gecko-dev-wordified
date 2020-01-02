@@ -851,7 +851,7 @@ aRequest
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMessage
 )
@@ -9389,7 +9389,7 @@ STRING_LENGTH
 =
 2
 ;
-PRUnichar
+char16_t
 string
 [
 3
@@ -10485,7 +10485,7 @@ succeeded
 true
 continueTest
 ;
-PRUnichar
+char16_t
 buffer
 [
 BUFFER_SIZE
@@ -12863,7 +12863,7 @@ runInfoSize
 =
 0x10
 ;
-PRUnichar
+char16_t
 buffer
 [
 bufferSize

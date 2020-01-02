@@ -189,7 +189,7 @@ user
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 \

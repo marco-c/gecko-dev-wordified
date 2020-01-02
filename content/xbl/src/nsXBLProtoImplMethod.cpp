@@ -222,7 +222,7 @@ nsXBLProtoImplMethod
 nsXBLProtoImplMethod
 (
 const
-PRUnichar
+char16_t
 *
 aName
 )
@@ -980,7 +980,7 @@ body
 nsDependentString
 body
 ;
-PRUnichar
+char16_t
 *
 bodyText
 =

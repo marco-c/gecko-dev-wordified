@@ -2075,7 +2075,7 @@ aKey
 nsStringKey
 (
 const
-PRUnichar
+char16_t
 *
 str
 int32_t
@@ -2185,7 +2185,7 @@ be
 careful
 .
 const
-PRUnichar
+char16_t
 *
 GetString
 (
@@ -2208,7 +2208,7 @@ mStrLen
 }
 protected
 :
-PRUnichar
+char16_t
 *
 mStr
 ;

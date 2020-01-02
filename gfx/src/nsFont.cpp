@@ -203,7 +203,7 @@ h
 /
 /
 for
-PRUnichar
+char16_t
 #
 include
 "
@@ -1091,10 +1091,10 @@ kGenericFont_NONE
 ;
 }
 const
-PRUnichar
+char16_t
 kSingleQuote
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -1103,10 +1103,10 @@ PRUnichar
 )
 ;
 const
-PRUnichar
+char16_t
 kDoubleQuote
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -1115,10 +1115,10 @@ PRUnichar
 )
 ;
 const
-PRUnichar
+char16_t
 kComma
 =
-PRUnichar
+char16_t
 (
 '
 '
@@ -1139,7 +1139,7 @@ aData
 const
 {
 const
-PRUnichar
+char16_t
 *
 p
 *
@@ -1216,7 +1216,7 @@ kDoubleQuote
 quoted
 font
 family
-PRUnichar
+char16_t
 quoteMark
 =
 *
@@ -1235,7 +1235,7 @@ return
 true
 ;
 const
-PRUnichar
+char16_t
 *
 nameStart
 =
@@ -1313,7 +1313,7 @@ unquoted
 font
 family
 const
-PRUnichar
+char16_t
 *
 nameStart
 =

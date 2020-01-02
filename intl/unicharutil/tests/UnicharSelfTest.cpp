@@ -211,7 +211,7 @@ data
 for
 ToUpper
 static
-PRUnichar
+char16_t
 t2data
 [
 T2LEN
@@ -358,7 +358,7 @@ result
 for
 ToUpper
 static
-PRUnichar
+char16_t
 t2result
 [
 T2LEN
@@ -505,7 +505,7 @@ data
 for
 ToLower
 static
-PRUnichar
+char16_t
 t3data
 [
 T3LEN
@@ -652,7 +652,7 @@ result
 for
 ToLower
 static
-PRUnichar
+char16_t
 t3result
 [
 T3LEN
@@ -799,7 +799,7 @@ data
 for
 ToTitle
 static
-PRUnichar
+char16_t
 t4data
 [
 T4LEN
@@ -954,7 +954,7 @@ result
 for
 ToTitle
 static
-PRUnichar
+char16_t
 t4result
 [
 T4LEN
@@ -1708,7 +1708,7 @@ n
 int
 i
 ;
-PRUnichar
+char16_t
 buf
 [
 256
@@ -1722,8 +1722,8 @@ Test
 -
 ToUpper
 (
-PRUnichar
-PRUnichar
+char16_t
+char16_t
 *
 )
 :
@@ -1747,7 +1747,7 @@ i
 +
 )
 {
-PRUnichar
+char16_t
 ch
 =
 ToUpperCase
@@ -1794,8 +1794,8 @@ Test
 -
 ToLower
 (
-PRUnichar
-PRUnichar
+char16_t
+char16_t
 *
 )
 :
@@ -1819,7 +1819,7 @@ i
 +
 )
 {
-PRUnichar
+char16_t
 ch
 =
 ToLowerCase
@@ -1866,8 +1866,8 @@ Test
 -
 ToTitle
 (
-PRUnichar
-PRUnichar
+char16_t
+char16_t
 *
 )
 :
@@ -1891,7 +1891,7 @@ i
 +
 )
 {
-PRUnichar
+char16_t
 ch
 =
 ToTitleCase
@@ -1938,9 +1938,9 @@ Test
 -
 ToUpper
 (
-PRUnichar
+char16_t
 *
-PRUnichar
+char16_t
 *
 uint32_t
 )
@@ -2015,9 +2015,9 @@ Test
 -
 ToLower
 (
-PRUnichar
+char16_t
 *
-PRUnichar
+char16_t
 *
 uint32_t
 )
@@ -3161,7 +3161,7 @@ i
 nsString
 inString
 ;
-PRUnichar
+char16_t
 uChar
 ;
 nsresult
@@ -3189,7 +3189,7 @@ xA3
 uChar
 =
 (
-PRUnichar
+char16_t
 )
 8364
 ;
@@ -3208,7 +3208,7 @@ uChar
 uChar
 =
 (
-PRUnichar
+char16_t
 )
 9830
 ;
@@ -3266,7 +3266,7 @@ return
 ;
 }
 const
-PRUnichar
+char16_t
 *
 data
 ;
@@ -3369,7 +3369,7 @@ once
 as
 a
 string
-PRUnichar
+char16_t
 *
 entities
 ;
@@ -3403,7 +3403,7 @@ entities
 {
 for
 (
-PRUnichar
+char16_t
 *
 centity
 =
@@ -3676,7 +3676,7 @@ char
 outString
 ;
 const
-PRUnichar
+char16_t
 *
 data
 ;
@@ -4848,7 +4848,7 @@ n
 ;
 }
 static
-PRUnichar
+char16_t
 normStr
 [
 ]
@@ -4864,7 +4864,7 @@ normStr
 }
 ;
 static
-PRUnichar
+char16_t
 nfdForm
 [
 ]

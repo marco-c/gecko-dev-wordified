@@ -17236,7 +17236,7 @@ string
 offset
 .
 const
-PRUnichar
+char16_t
 *
 str
 =

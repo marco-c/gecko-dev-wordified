@@ -143,7 +143,7 @@ nsPrintProgressParams
 :
 GetDocTitle
 (
-PRUnichar
+char16_t
 *
 *
 aDocTitle
@@ -173,7 +173,7 @@ nsPrintProgressParams
 SetDocTitle
 (
 const
-PRUnichar
+char16_t
 *
 aDocTitle
 )
@@ -200,7 +200,7 @@ nsPrintProgressParams
 :
 GetDocURL
 (
-PRUnichar
+char16_t
 *
 *
 aDocURL
@@ -230,7 +230,7 @@ nsPrintProgressParams
 SetDocURL
 (
 const
-PRUnichar
+char16_t
 *
 aDocURL
 )

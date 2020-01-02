@@ -687,7 +687,7 @@ TransportSecurityInfo
 :
 GetErrorMessage
 (
-PRUnichar
+char16_t
 *
 *
 aText
@@ -2633,7 +2633,7 @@ NS_NSSCOMPONENT_CID
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -3671,7 +3671,7 @@ returnedMessage
 )
 {
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -4005,7 +4005,7 @@ nameCount
 )
 {
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -4360,7 +4360,7 @@ trueExpired_falseNotYetValid
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -4517,7 +4517,7 @@ error_id
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -4703,7 +4703,7 @@ NS_NSSCOMPONENT_CID
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [

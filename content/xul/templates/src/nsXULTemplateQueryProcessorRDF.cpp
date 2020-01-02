@@ -3585,7 +3585,7 @@ r
 )
 {
 const
-PRUnichar
+char16_t
 *
 lstr
 *
@@ -7266,7 +7266,7 @@ subject
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 ?
@@ -7333,7 +7333,7 @@ predicate
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 ?
@@ -7425,7 +7425,7 @@ object
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 ?
@@ -7798,7 +7798,7 @@ container
 ]
 !
 =
-PRUnichar
+char16_t
 (
 '
 ?
@@ -7864,7 +7864,7 @@ child
 ]
 !
 =
-PRUnichar
+char16_t
 (
 '
 ?

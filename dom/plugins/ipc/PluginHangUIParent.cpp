@@ -783,7 +783,7 @@ nsXPIDLString
 localizedStr
 ;
 const
-PRUnichar
+char16_t
 *
 formatParams
 [

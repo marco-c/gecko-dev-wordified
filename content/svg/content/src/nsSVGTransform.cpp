@@ -176,7 +176,7 @@ aValue
 )
 const
 {
-PRUnichar
+char16_t
 buf
 [
 256
@@ -230,7 +230,7 @@ buf
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 MOZ_UTF16
 (
@@ -266,7 +266,7 @@ buf
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 MOZ_UTF16
 (
@@ -318,7 +318,7 @@ buf
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 MOZ_UTF16
 (
@@ -353,7 +353,7 @@ buf
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 MOZ_UTF16
 (
@@ -397,7 +397,7 @@ buf
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 MOZ_UTF16
 (
@@ -433,7 +433,7 @@ buf
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 MOZ_UTF16
 (
@@ -468,7 +468,7 @@ buf
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 MOZ_UTF16
 (
@@ -501,7 +501,7 @@ buf
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 MOZ_UTF16
 (
@@ -534,7 +534,7 @@ buf
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 MOZ_UTF16
 (

@@ -234,7 +234,7 @@ mozEnglishWordUtils
 :
 GetLanguage
 (
-PRUnichar
+char16_t
 *
 *
 aLanguage
@@ -316,12 +316,12 @@ mozEnglishWordUtils
 GetRootForm
 (
 const
-PRUnichar
+char16_t
 *
 aWord
 uint32_t
 type
-PRUnichar
+char16_t
 *
 *
 *
@@ -337,7 +337,7 @@ word
 aWord
 )
 ;
-PRUnichar
+char16_t
 *
 *
 tmpPtr
@@ -381,7 +381,7 @@ NoCap
 tmpPtr
 =
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -392,7 +392,7 @@ Alloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 )
@@ -452,7 +452,7 @@ AllCap
 tmpPtr
 =
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -463,7 +463,7 @@ Alloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 *
@@ -622,7 +622,7 @@ InitCap
 tmpPtr
 =
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -633,7 +633,7 @@ Alloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 *
@@ -760,7 +760,7 @@ mozEnglishWordUtils
 :
 ucIsAlpha
 (
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -828,7 +828,7 @@ mozEnglishWordUtils
 FindNextWord
 (
 const
-PRUnichar
+char16_t
 *
 word
 uint32_t
@@ -844,7 +844,7 @@ end
 )
 {
 const
-PRUnichar
+char16_t
 *
 p
 =
@@ -853,7 +853,7 @@ word
 offset
 ;
 const
-PRUnichar
+char16_t
 *
 endbuf
 =
@@ -862,7 +862,7 @@ word
 length
 ;
 const
-PRUnichar
+char16_t
 *
 startWord
 =
@@ -1403,7 +1403,7 @@ nsString
 word
 )
 {
-PRUnichar
+char16_t
 *
 lword
 =
@@ -1559,17 +1559,17 @@ mozEnglishWordUtils
 FromRootForm
 (
 const
-PRUnichar
+char16_t
 *
 aWord
 const
-PRUnichar
+char16_t
 *
 *
 iwords
 uint32_t
 icount
-PRUnichar
+char16_t
 *
 *
 *
@@ -1593,13 +1593,13 @@ NS_OK
 int32_t
 length
 ;
-PRUnichar
+char16_t
 *
 *
 tmpPtr
 =
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -1610,7 +1610,7 @@ Alloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 *
@@ -1668,7 +1668,7 @@ i
 ]
 =
 (
-PRUnichar
+char16_t
 *
 )
 nsMemory
@@ -1678,7 +1678,7 @@ Alloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 )
 *
 (
@@ -1728,7 +1728,7 @@ length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;

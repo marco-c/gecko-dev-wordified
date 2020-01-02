@@ -5993,7 +5993,7 @@ Truncate
 )
 ;
 const
-PRUnichar
+char16_t
 *
 colID
 ;
@@ -7630,7 +7630,7 @@ nsCertTree
 PerformAction
 (
 const
-PRUnichar
+char16_t
 *
 action
 )
@@ -7661,7 +7661,7 @@ nsCertTree
 PerformActionOnRow
 (
 const
-PRUnichar
+char16_t
 *
 action
 int32_t
@@ -7698,7 +7698,7 @@ nsCertTree
 PerformActionOnCell
 (
 const
-PRUnichar
+char16_t
 *
 action
 int32_t
@@ -7921,7 +7921,7 @@ if
 ct
 )
 {
-PRUnichar
+char16_t
 *
 goo
 ;

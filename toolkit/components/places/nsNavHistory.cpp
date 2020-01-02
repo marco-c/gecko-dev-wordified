@@ -19018,7 +19018,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -22089,7 +22089,7 @@ revDomain
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 /
@@ -26509,7 +26509,7 @@ GetAgeInDaysString
 int32_t
 aInt
 const
-PRUnichar
+char16_t
 *
 aName
 nsACString
@@ -26541,7 +26541,7 @@ aInt
 )
 ;
 const
-PRUnichar
+char16_t
 *
 strings
 [
@@ -26611,7 +26611,7 @@ nsNavHistory
 GetStringFromName
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsACString
@@ -26825,7 +26825,7 @@ aYear
 )
 ;
 const
-PRUnichar
+char16_t
 *
 strings
 [
@@ -27343,7 +27343,7 @@ inline
 bool
 isQueryWhitespace
 (
-PRUnichar
+char16_t
 ch
 )
 {

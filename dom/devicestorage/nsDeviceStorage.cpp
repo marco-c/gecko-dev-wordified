@@ -1565,7 +1565,7 @@ path
 .
 RFindChar
 (
-PRUnichar
+char16_t
 (
 '
 .
@@ -1754,7 +1754,7 @@ fileName
 .
 RFindChar
 (
-PRUnichar
+char16_t
 (
 '
 .
@@ -2253,7 +2253,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -4697,7 +4697,7 @@ defined
 (
 XP_WIN
 )
-PRUnichar
+char16_t
 *
 cur
 =
@@ -4707,7 +4707,7 @@ BeginWriting
 (
 )
 ;
-PRUnichar
+char16_t
 *
 end
 =
@@ -4731,7 +4731,7 @@ cur
 {
 if
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -4746,7 +4746,7 @@ cur
 *
 cur
 =
-PRUnichar
+char16_t
 (
 '
 /
@@ -4808,7 +4808,7 @@ Assign
 aPath
 )
 ;
-PRUnichar
+char16_t
 *
 cur
 =
@@ -4818,7 +4818,7 @@ BeginWriting
 (
 )
 ;
-PRUnichar
+char16_t
 *
 end
 =
@@ -4842,7 +4842,7 @@ cur
 {
 if
 (
-PRUnichar
+char16_t
 (
 '
 /
@@ -4856,7 +4856,7 @@ cur
 *
 cur
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -15756,7 +15756,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

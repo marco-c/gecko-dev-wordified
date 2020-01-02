@@ -213,7 +213,7 @@ absUrl
 .
 RFindChar
 (
-PRUnichar
+char16_t
 (
 '
 #

@@ -7868,7 +7868,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRUnichar
+char16_t
 *
 ustr
 =

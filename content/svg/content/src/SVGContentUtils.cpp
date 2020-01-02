@@ -812,7 +812,7 @@ char
 *
 aWarning
 const
-PRUnichar
+char16_t
 *
 *
 aParams
@@ -2439,7 +2439,7 @@ ParseNumber
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -2447,7 +2447,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd
@@ -2758,7 +2758,7 @@ E
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 expIter
 (
@@ -2974,7 +2974,7 @@ ParseNumber
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -2982,7 +2982,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd
@@ -2994,7 +2994,7 @@ aValue
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 iter
 (
@@ -3067,7 +3067,7 @@ float
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -3075,7 +3075,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd
@@ -3097,7 +3097,7 @@ double
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -3105,7 +3105,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd
@@ -3117,7 +3117,7 @@ aValue
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 SVGContentUtils
 :
@@ -3134,7 +3134,7 @@ return
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 (
 aString
@@ -3153,7 +3153,7 @@ Length
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 SVGContentUtils
 :
@@ -3170,7 +3170,7 @@ return
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 (
 aString
@@ -3220,7 +3220,7 @@ aValue
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 iter
 =
@@ -3233,7 +3233,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 end
 =
@@ -3309,7 +3309,7 @@ ParseInteger
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -3317,7 +3317,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd
@@ -3329,7 +3329,7 @@ aValue
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 iter
 (
@@ -3500,7 +3500,7 @@ aValue
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 iter
 =
@@ -3513,7 +3513,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 end
 =

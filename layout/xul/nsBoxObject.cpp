@@ -1545,7 +1545,7 @@ nsBoxObject
 GetPropertyAsSupports
 (
 const
-PRUnichar
+char16_t
 *
 aPropertyName
 nsISupports
@@ -1609,7 +1609,7 @@ nsBoxObject
 SetPropertyAsSupports
 (
 const
-PRUnichar
+char16_t
 *
 aPropertyName
 nsISupports
@@ -1671,10 +1671,10 @@ nsBoxObject
 GetProperty
 (
 const
-PRUnichar
+char16_t
 *
 aPropertyName
-PRUnichar
+char16_t
 *
 *
 aResult
@@ -1755,11 +1755,11 @@ nsBoxObject
 SetProperty
 (
 const
-PRUnichar
+char16_t
 *
 aPropertyName
 const
-PRUnichar
+char16_t
 *
 aPropertyValue
 )
@@ -1846,7 +1846,7 @@ nsBoxObject
 RemoveProperty
 (
 const
-PRUnichar
+char16_t
 *
 aPropertyName
 )

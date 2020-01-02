@@ -300,7 +300,7 @@ void
 ScanTXT
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -358,7 +358,7 @@ int32_t
 CiteLevelTXT
 (
 const
-PRUnichar
+char16_t
 *
 line
 uint32_t
@@ -653,7 +653,7 @@ void
 CompleteAbbreviatedURL
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -955,13 +955,13 @@ bool
 ItMatchesDelimited
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
 aInLength
 const
-PRUnichar
+char16_t
 *
 rep
 int32_t
@@ -990,13 +990,13 @@ uint32_t
 NumberOfMatches
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
 aInStringLength
 const
-PRUnichar
+char16_t
 *
 rep
 int32_t
@@ -1096,7 +1096,7 @@ void
 EscapeChar
 (
 const
-PRUnichar
+char16_t
 ch
 nsString
 &
@@ -1195,7 +1195,7 @@ void
 UnescapeStr
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -1480,7 +1480,7 @@ bool
 FindURL
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -1818,7 +1818,7 @@ bool
 FindURLStart
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -1905,7 +1905,7 @@ bool
 FindURLEnd
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -2038,7 +2038,7 @@ void
 CalculateURLBoundaries
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -2308,7 +2308,7 @@ bool
 StructPhraseHit
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -2316,7 +2316,7 @@ aInStringLength
 bool
 col0
 const
-PRUnichar
+char16_t
 *
 tagTXT
 int32_t
@@ -2408,7 +2408,7 @@ bool
 SmilyHit
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t
@@ -2564,7 +2564,7 @@ bool
 GlyphHit
 (
 const
-PRUnichar
+char16_t
 *
 aInString
 int32_t

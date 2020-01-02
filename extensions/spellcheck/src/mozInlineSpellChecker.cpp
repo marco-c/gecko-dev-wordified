@@ -5885,7 +5885,7 @@ mozInlineSpellChecker
 IgnoreWords
 (
 const
-PRUnichar
+char16_t
 *
 *
 aWordsToIgnore

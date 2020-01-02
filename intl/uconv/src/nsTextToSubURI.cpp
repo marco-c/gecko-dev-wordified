@@ -189,7 +189,7 @@ char
 *
 charset
 const
-PRUnichar
+char16_t
 *
 text
 char
@@ -289,7 +289,7 @@ nsIUnicodeEncoder
 kOnError_Replace
 nullptr
 (
-PRUnichar
+char16_t
 )
 '
 ?
@@ -553,7 +553,7 @@ const
 char
 *
 text
-PRUnichar
+char16_t
 *
 *
 _retval
@@ -708,7 +708,7 @@ rv
 )
 )
 {
-PRUnichar
+char16_t
 *
 pBuf
 =
@@ -749,7 +749,7 @@ outlen
 pBuf
 =
 (
-PRUnichar
+char16_t
 *
 )
 NS_Alloc
@@ -762,7 +762,7 @@ outlen
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -1144,12 +1144,12 @@ rv
 rv
 )
 ;
-PRUnichar
+char16_t
 *
 ustr
 =
 (
-PRUnichar
+char16_t
 *
 )
 NS_Alloc
@@ -1158,7 +1158,7 @@ dstLen
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;

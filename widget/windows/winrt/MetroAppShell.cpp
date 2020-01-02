@@ -439,7 +439,7 @@ nullptr
 )
 ;
 const
-PRUnichar
+char16_t
 *
 const
 kWindowClass
@@ -2568,7 +2568,7 @@ char
 *
 topic
 const
-PRUnichar
+char16_t
 *
 data
 )

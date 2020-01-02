@@ -1456,7 +1456,7 @@ nsChromeTreeOwner
 FindItemWithName
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsIDocShellTreeItem
@@ -3402,7 +3402,7 @@ nsChromeTreeOwner
 :
 GetTitle
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -3430,7 +3430,7 @@ nsChromeTreeOwner
 SetTitle
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )
@@ -3805,7 +3805,7 @@ aRequest
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMessage
 )

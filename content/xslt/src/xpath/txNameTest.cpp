@@ -541,7 +541,7 @@ aDest
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 :

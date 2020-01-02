@@ -798,7 +798,7 @@ int32_t
 Find
 (
 const
-PRUnichar
+char16_t
 *
 aString
 int32_t
@@ -1019,7 +1019,7 @@ int32_t
 RFind
 (
 const
-PRUnichar
+char16_t
 *
 aString
 int32_t
@@ -1109,7 +1109,7 @@ kNotFound
 int32_t
 FindChar
 (
-PRUnichar
+char16_t
 aChar
 int32_t
 aOffset
@@ -1126,7 +1126,7 @@ const
 int32_t
 RFindChar
 (
-PRUnichar
+char16_t
 aChar
 int32_t
 aOffset
@@ -1246,7 +1246,7 @@ int32_t
 FindCharInSet
 (
 const
-PRUnichar
+char16_t
 *
 aString
 int32_t
@@ -2047,7 +2047,7 @@ successful
 bool
 SetCharAt
 (
-PRUnichar
+char16_t
 aChar
 uint32_t
 aIndex

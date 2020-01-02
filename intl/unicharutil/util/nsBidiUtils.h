@@ -446,10 +446,10 @@ converted
 Unichar
 *
 /
-PRUnichar
+char16_t
 HandleNumberInChar
 (
-PRUnichar
+char16_t
 aChar
 bool
 aPrevCharArabic
@@ -550,7 +550,7 @@ Arabic
 nsresult
 HandleNumbers
 (
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t

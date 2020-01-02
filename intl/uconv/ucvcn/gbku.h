@@ -602,7 +602,7 @@ define
 UCS2_NO_MAPPING
 (
 (
-PRUnichar
+char16_t
 )
 0xfffd
 )
@@ -663,7 +663,7 @@ c
 (
 (
 (
-PRUnichar
+char16_t
 )
 (
 a
@@ -671,7 +671,7 @@ a
 <
 =
 (
-PRUnichar
+char16_t
 )
 (
 b
@@ -681,7 +681,7 @@ b
 &
 (
 (
-PRUnichar
+char16_t
 )
 (
 b
@@ -689,7 +689,7 @@ b
 <
 =
 (
-PRUnichar
+char16_t
 )
 (
 c
@@ -704,7 +704,7 @@ a
 )
 (
 (
-PRUnichar
+char16_t
 )
 (
 (
@@ -768,7 +768,7 @@ define
 UCS2_EURO
 (
 (
-PRUnichar
+char16_t
 )
 0x20ac
 )

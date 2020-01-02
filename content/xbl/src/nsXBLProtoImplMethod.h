@@ -395,7 +395,7 @@ public
 nsXBLProtoImplMethod
 (
 const
-PRUnichar
+char16_t
 *
 aName
 )
@@ -620,7 +620,7 @@ public
 nsXBLProtoImplAnonymousMethod
 (
 const
-PRUnichar
+char16_t
 *
 aName
 )

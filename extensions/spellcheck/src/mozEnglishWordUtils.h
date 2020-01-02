@@ -204,7 +204,7 @@ word
 bool
 ucIsAlpha
 (
-PRUnichar
+char16_t
 aChar
 )
 ;

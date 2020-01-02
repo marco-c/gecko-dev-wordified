@@ -2761,7 +2761,7 @@ char
 const
 *
 aTopic
-PRUnichar
+char16_t
 const
 *
 aData

@@ -787,7 +787,7 @@ fooBar
 )
 .
 const
-PRUnichar
+char16_t
 *
 name
 =
@@ -801,7 +801,7 @@ GetUTF16String
 nsAutoCString
 methodName
 ;
-PRUnichar
+char16_t
 letter
 ;
 bool

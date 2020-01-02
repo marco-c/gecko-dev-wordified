@@ -310,7 +310,7 @@ nsHTMLTag
 CaseSensitiveLookupTag
 (
 const
-PRUnichar
+char16_t
 *
 aTagName
 )
@@ -430,7 +430,7 @@ or
 atom
 static
 const
-PRUnichar
+char16_t
 *
 GetStringValue
 (
@@ -514,7 +514,7 @@ eHTMLTag_userdefined
 ;
 static
 const
-PRUnichar
+char16_t
 *
 const
 sTagUnicodeTable

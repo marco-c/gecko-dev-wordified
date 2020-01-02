@@ -797,7 +797,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 someData
 )
@@ -997,7 +997,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 someData
 )
@@ -1096,7 +1096,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 someData
 )
@@ -1187,7 +1187,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 someData
 )
@@ -10195,7 +10195,7 @@ gfxTextRun
 *
 aTextRun
 const
-PRUnichar
+char16_t
 *
 aString
 )

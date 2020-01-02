@@ -6367,7 +6367,7 @@ MAX_PATH
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUnichar
+char16_t
 *
 resolvedPath
 =
@@ -7380,13 +7380,13 @@ end
 return
 NS_ERROR_FAILURE
 ;
-PRUnichar
+char16_t
 firstChar
 =
 *
 begin
 ;
-PRUnichar
+char16_t
 secondChar
 =
 *
@@ -7870,7 +7870,7 @@ the
 second
 form
 .
-PRUnichar
+char16_t
 *
 path
 =
@@ -9566,7 +9566,7 @@ assign
 the
 root
 const
-PRUnichar
+char16_t
 *
 pathBuffer
 =
@@ -10691,7 +10691,7 @@ Assign
 (
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -10742,11 +10742,11 @@ nsIFile
 *
 workingDir
 const
-PRUnichar
+char16_t
 *
 args
 const
-PRUnichar
+char16_t
 *
 description
 nsIFile
@@ -14092,7 +14092,7 @@ SetModDate
 PRTime
 aLastModifiedTime
 const
-PRUnichar
+char16_t
 *
 filePath
 )
@@ -15483,7 +15483,7 @@ mWorkingPath
 .
 RFindChar
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -16369,7 +16369,7 @@ path
 .
 RFindChar
 (
-PRUnichar
+char16_t
 (
 '
 .
@@ -16393,7 +16393,7 @@ to
 lower
 case
 .
-PRUnichar
+char16_t
 *
 p
 =

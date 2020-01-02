@@ -603,7 +603,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -8835,7 +8835,7 @@ mKeyValue
 =
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 keyValue

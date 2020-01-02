@@ -2236,7 +2236,7 @@ entry
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -3259,7 +3259,7 @@ entry
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -4962,7 +4962,7 @@ aExtensions
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -5571,7 +5571,7 @@ entry
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -7790,7 +7790,7 @@ nsresult
 GetNLSString
 (
 const
-PRUnichar
+char16_t
 *
 aKey
 nsAString

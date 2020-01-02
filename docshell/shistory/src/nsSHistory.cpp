@@ -1224,7 +1224,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -8975,7 +8975,7 @@ nsSHistory
 LoadURI
 (
 const
-PRUnichar
+char16_t
 *
 aURI
 uint32_t

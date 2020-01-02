@@ -381,7 +381,7 @@ nsHeaderFooterEnum
 nsresult
 GetMarginStrs
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -395,7 +395,7 @@ nsresult
 SetMarginStrs
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 nsHeaderFooterEnum

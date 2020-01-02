@@ -2077,7 +2077,7 @@ entry
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -3100,7 +3100,7 @@ entry
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -4803,7 +4803,7 @@ aExtensions
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -5579,7 +5579,7 @@ entry
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -6769,7 +6769,7 @@ nsOSHelperAppService
 GetFileTokenForPath
 (
 const
-PRUnichar
+char16_t
 *
 platformAppPath
 nsIFile
@@ -6941,7 +6941,7 @@ NS_ASSERTION
 platformAppPath
 !
 =
-PRUnichar
+char16_t
 (
 '
 /

@@ -199,7 +199,7 @@ aValue
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 iter
 =
@@ -215,7 +215,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 end
 =

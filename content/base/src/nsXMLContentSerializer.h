@@ -398,7 +398,7 @@ protected
 *
 Appends
 a
-PRUnichar
+char16_t
 character
 and
 increments
@@ -411,7 +411,7 @@ void
 AppendToString
 (
 const
-PRUnichar
+char16_t
 aChar
 nsAString
 &

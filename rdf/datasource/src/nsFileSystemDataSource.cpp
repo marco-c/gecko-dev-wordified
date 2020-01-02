@@ -944,7 +944,7 @@ mRDF_type
 ;
 static
 const
-PRUnichar
+char16_t
 kTrue
 [
 ]
@@ -970,7 +970,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 kFalse
 [
 ]
@@ -1872,7 +1872,7 @@ rv
 )
 ;
 const
-PRUnichar
+char16_t
 *
 uni
 =
@@ -4185,7 +4185,7 @@ c
 volNum
 +
 (
-PRUnichar
+char16_t
 )
 '
 A
@@ -4652,7 +4652,7 @@ nameLiteral
 break
 ;
 const
-PRUnichar
+char16_t
 *
 uniName
 ;
@@ -6202,7 +6202,7 @@ return
 rv
 ;
 const
-PRUnichar
+char16_t
 *
 unicodeLeafName
 ;

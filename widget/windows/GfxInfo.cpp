@@ -3134,7 +3134,7 @@ void
 8
 ;
 const
-PRUnichar
+char16_t
 *
 dllFileName
 =
@@ -3190,7 +3190,7 @@ gfxWindowsPlatform
 GetDLLVersion
 (
 (
-PRUnichar
+char16_t
 *
 )
 dllFileName
@@ -3203,7 +3203,7 @@ gfxWindowsPlatform
 GetDLLVersion
 (
 (
-PRUnichar
+char16_t
 *
 )
 dllFileName2

@@ -61,7 +61,7 @@ nsHtml5UTF16Buffer
 :
 nsHtml5UTF16Buffer
 (
-PRUnichar
+char16_t
 *
 aBuffer
 int32_t
@@ -126,7 +126,7 @@ nsHtml5UTF16Buffer
 aOther
 )
 {
-PRUnichar
+char16_t
 *
 tempBuffer
 =

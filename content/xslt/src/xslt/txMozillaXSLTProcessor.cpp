@@ -4560,11 +4560,11 @@ reportError
 nsresult
 aResult
 const
-PRUnichar
+char16_t
 *
 aErrorText
 const
-PRUnichar
+char16_t
 *
 aSourceText
 )
@@ -4667,7 +4667,7 @@ bundle
 )
 {
 const
-PRUnichar
+char16_t
 *
 error
 [

@@ -316,7 +316,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -619,7 +619,7 @@ return
 ;
 }
 const
-PRUnichar
+char16_t
 stateFull
 [
 ]
@@ -641,7 +641,7 @@ l
 }
 ;
 const
-PRUnichar
+char16_t
 stateFree
 [
 ]

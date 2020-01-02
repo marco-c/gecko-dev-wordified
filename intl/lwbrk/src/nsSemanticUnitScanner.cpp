@@ -210,7 +210,7 @@ nsSemanticUnitScanner
 Next
 (
 const
-PRUnichar
+char16_t
 *
 text
 int32_t

@@ -170,14 +170,14 @@ Distance
 const
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 &
 start
 const
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 &
 end
@@ -259,7 +259,7 @@ void
 LossyCopyUTF16toASCII
 (
 const
-PRUnichar
+char16_t
 *
 aSource
 nsACString
@@ -307,7 +307,7 @@ void
 CopyUTF16toUTF8
 (
 const
-PRUnichar
+char16_t
 *
 aSource
 nsACString
@@ -355,7 +355,7 @@ void
 LossyAppendUTF16toASCII
 (
 const
-PRUnichar
+char16_t
 *
 aSource
 nsACString
@@ -422,7 +422,7 @@ void
 AppendUTF16toUTF8
 (
 const
-PRUnichar
+char16_t
 *
 aSource
 nsACString
@@ -842,7 +842,7 @@ string
 (
 made
 of
-PRUnichar
+char16_t
 '
 s
 )
@@ -903,7 +903,7 @@ Returns
 a
 new
 |
-PRUnichar
+char16_t
 |
 buffer
 containing
@@ -926,7 +926,7 @@ returns
 a
 new
 |
-PRUnichar
+char16_t
 |
 buffer
 which
@@ -979,7 +979,7 @@ return
 a
 new
 |
-PRUnichar
+char16_t
 |
 buffer
 you
@@ -995,7 +995,7 @@ Free
 .
 *
 /
-PRUnichar
+char16_t
 *
 ToNewUnicode
 (
@@ -1013,7 +1013,7 @@ Returns
 a
 new
 |
-PRUnichar
+char16_t
 |
 buffer
 containing
@@ -1035,7 +1035,7 @@ returns
 a
 new
 |
-PRUnichar
+char16_t
 |
 buffer
 which
@@ -1142,7 +1142,7 @@ return
 a
 new
 |
-PRUnichar
+char16_t
 |
 buffer
 you
@@ -1158,7 +1158,7 @@ Free
 .
 *
 /
-PRUnichar
+char16_t
 *
 ToNewUnicode
 (
@@ -1178,7 +1178,7 @@ required
 length
 for
 a
-PRUnichar
+char16_t
 buffer
 holding
 *
@@ -1327,7 +1327,7 @@ string
 copy
 plus
 one
-PRUnichar
+char16_t
 for
 *
 zero
@@ -1401,7 +1401,7 @@ for
 convenience
 *
 /
-PRUnichar
+char16_t
 *
 UTF8ToUnicodeBuffer
 (
@@ -1409,7 +1409,7 @@ const
 nsACString
 &
 aSource
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -1427,7 +1427,7 @@ Returns
 a
 new
 |
-PRUnichar
+char16_t
 |
 buffer
 containing
@@ -1557,7 +1557,7 @@ return
 a
 new
 |
-PRUnichar
+char16_t
 |
 buffer
 you
@@ -1580,7 +1580,7 @@ encoded
 )
 *
 /
-PRUnichar
+char16_t
 *
 UTF8ToNewUnicode
 (
@@ -1619,7 +1619,7 @@ to
 the
 *
 |
-PRUnichar
+char16_t
 |
 buffer
 |
@@ -1662,7 +1662,7 @@ param
 aDest
 a
 |
-PRUnichar
+char16_t
 |
 buffer
 *
@@ -1692,7 +1692,7 @@ aDest
 |
 *
 /
-PRUnichar
+char16_t
 *
 CopyUnicodeTo
 (
@@ -1702,7 +1702,7 @@ nsAString
 aSource
 uint32_t
 aSrcOffset
-PRUnichar
+char16_t
 *
 aDest
 uint32_t
@@ -2882,7 +2882,7 @@ aSearchEnd
 bool
 FindCharInReadable
 (
-PRUnichar
+char16_t
 aChar
 nsAString
 :
@@ -2947,7 +2947,7 @@ const
 nsAString
 &
 aStr
-PRUnichar
+char16_t
 aChar
 )
 ;

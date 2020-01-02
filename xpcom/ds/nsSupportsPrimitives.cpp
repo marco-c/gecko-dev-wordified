@@ -948,7 +948,7 @@ nsSupportsStringImpl
 :
 ToString
 (
-PRUnichar
+char16_t
 *
 *
 _retval

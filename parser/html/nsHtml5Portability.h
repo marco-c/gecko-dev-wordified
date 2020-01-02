@@ -364,7 +364,7 @@ nsIAtom
 *
 newLocalNameFromBuffer
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -381,7 +381,7 @@ nsString
 *
 newStringFromBuffer
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -421,7 +421,7 @@ string
 static
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 newCharArrayFromLocal
@@ -434,7 +434,7 @@ local
 static
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 newCharArrayFromString
@@ -473,7 +473,7 @@ localEqualsBuffer
 nsIAtom
 *
 local
-PRUnichar
+char16_t
 *
 buf
 int32_t

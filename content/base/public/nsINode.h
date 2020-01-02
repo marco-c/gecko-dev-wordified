@@ -417,7 +417,7 @@ inline
 bool
 IsSpaceCharacter
 (
-PRUnichar
+char16_t
 aChar
 )
 {

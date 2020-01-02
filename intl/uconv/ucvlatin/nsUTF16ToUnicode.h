@@ -153,7 +153,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -294,7 +294,7 @@ left
 over
 between
 runs
-PRUnichar
+char16_t
 mOddHighSurrogate
 ;
 /
@@ -309,7 +309,7 @@ left
 over
 between
 runs
-PRUnichar
+char16_t
 mOddLowSurrogate
 ;
 }
@@ -339,7 +339,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -374,7 +374,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -418,7 +418,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t

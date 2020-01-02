@@ -4227,7 +4227,7 @@ temp
 else
 {
 const
-PRUnichar
+char16_t
 *
 uri
 ;

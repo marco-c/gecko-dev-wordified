@@ -5685,11 +5685,11 @@ ParseCFHTML
 nsCString
 &
 aCfhtml
-PRUnichar
+char16_t
 *
 *
 aStuffToPaste
-PRUnichar
+char16_t
 *
 *
 aCfcontext
@@ -10192,7 +10192,7 @@ non
 .
 static
 const
-PRUnichar
+char16_t
 cite
 (
 '
@@ -12810,7 +12810,7 @@ aInfoStr
 FindChar
 (
 (
-PRUnichar
+char16_t
 )
 '
 '

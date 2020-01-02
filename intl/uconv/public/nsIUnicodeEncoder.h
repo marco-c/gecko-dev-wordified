@@ -289,7 +289,7 @@ Charset
 NS_IMETHOD
 Convert
 (
-PRUnichar
+char16_t
 aChar
 char
 *
@@ -363,7 +363,7 @@ s
 =
 string
 (
-PRUnichar
+char16_t
 *
 )
 /
@@ -998,7 +998,7 @@ NS_IMETHOD
 Convert
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -1219,7 +1219,7 @@ NS_IMETHOD
 GetMaxLength
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -1306,7 +1306,7 @@ aBehavior
 nsIUnicharEncoder
 *
 aEncoder
-PRUnichar
+char16_t
 aChar
 )
 =

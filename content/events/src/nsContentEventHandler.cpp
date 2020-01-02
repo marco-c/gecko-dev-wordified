@@ -2658,7 +2658,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \

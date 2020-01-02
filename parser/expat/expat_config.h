@@ -184,7 +184,7 @@ XMLIMPORT
 define
 XML_UNICODE
 typedef
-PRUnichar
+char16_t
 XML_Char
 ;
 typedef
@@ -198,7 +198,7 @@ XML_T
 x
 )
 (
-PRUnichar
+char16_t
 )
 x
 #

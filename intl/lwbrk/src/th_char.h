@@ -111,7 +111,7 @@ tis_char
 ifdef
 TH_UNICODE
 typedef
-PRUnichar
+char16_t
 th_char
 ;
 #

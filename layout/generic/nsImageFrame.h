@@ -1019,7 +1019,7 @@ nscoord
 MeasureString
 (
 const
-PRUnichar
+char16_t
 *
 aString
 int32_t

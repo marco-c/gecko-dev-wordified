@@ -85,7 +85,7 @@ nsLocalHandlerAppMac
 nsLocalHandlerAppMac
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsIFile

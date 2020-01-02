@@ -229,7 +229,7 @@ nsVoidArrays
 of
 pointers
 to
-PRUnichar
+char16_t
 *
 /
 /

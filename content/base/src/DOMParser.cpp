@@ -356,7 +356,7 @@ DOMParser
 ParseFromString
 (
 const
-PRUnichar
+char16_t
 *
 str
 const

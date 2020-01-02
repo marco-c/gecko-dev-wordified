@@ -231,7 +231,7 @@ void
 SetupCapitalization
 (
 const
-PRUnichar
+char16_t
 *
 aWord
 uint32_t
@@ -1034,7 +1034,7 @@ nsIAtom
 *
 aHyphenationLanguage
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -1475,7 +1475,7 @@ for
 ;
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aText
@@ -1772,7 +1772,7 @@ offset
 -
 wordStart
 ;
-PRUnichar
+char16_t
 *
 elems
 =
@@ -1799,7 +1799,7 @@ aText
 wordStart
 sizeof
 (
-PRUnichar
+char16_t
 )
 *
 len
@@ -1920,11 +1920,11 @@ nsHyphenator
 *
 aHyphenator
 const
-PRUnichar
+char16_t
 *
 aTextStart
 const
-PRUnichar
+char16_t
 *
 aTextLimit
 uint8_t
@@ -2730,7 +2730,7 @@ offset
 -
 wordStart
 ;
-PRUnichar
+char16_t
 *
 elems
 =

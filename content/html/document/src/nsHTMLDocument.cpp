@@ -17668,7 +17668,7 @@ cmd_paragraphState
 )
 {
 const
-PRUnichar
+char16_t
 *
 start
 =
@@ -17679,7 +17679,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =

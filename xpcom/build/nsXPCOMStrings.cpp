@@ -243,7 +243,7 @@ nsStringContainer
 &
 aContainer
 const
-PRUnichar
+char16_t
 *
 aData
 uint32_t
@@ -315,7 +315,7 @@ aDataLength
 =
 nsCharTraits
 <
-PRUnichar
+char16_t
 >
 :
 :
@@ -383,7 +383,7 @@ nsSubstring
 (
 const_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -535,7 +535,7 @@ nsAString
 &
 aStr
 const
-PRUnichar
+char16_t
 *
 *
 aData
@@ -598,7 +598,7 @@ nsAString
 aStr
 uint32_t
 aDataLength
-PRUnichar
+char16_t
 *
 *
 aData
@@ -673,7 +673,7 @@ size_forward
 }
 XPCOM_API
 (
-PRUnichar
+char16_t
 *
 )
 NS_StringCloneData
@@ -701,7 +701,7 @@ nsAString
 &
 aStr
 const
-PRUnichar
+char16_t
 *
 aData
 uint32_t
@@ -739,7 +739,7 @@ aCutOffset
 uint32_t
 aCutLength
 const
-PRUnichar
+char16_t
 *
 aData
 uint32_t

@@ -1169,7 +1169,7 @@ nsIDOMWindow
 *
 parent
 const
-PRUnichar
+char16_t
 *
 printerName
 nsIPrintSettings
@@ -2014,7 +2014,7 @@ aRequest
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMessage
 )

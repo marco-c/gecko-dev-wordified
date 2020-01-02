@@ -2924,7 +2924,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -31562,7 +31562,7 @@ prepath
 )
 ;
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [
@@ -33217,7 +33217,7 @@ value
 if
 any
 .
-PRUnichar
+char16_t
 *
 inoutValue
 =
@@ -56968,7 +56968,7 @@ filename
 )
 ;
 const
-PRUnichar
+char16_t
 *
 formatParams
 [
@@ -58245,7 +58245,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -63727,7 +63727,7 @@ timeout
 expression
 .
 const
-PRUnichar
+char16_t
 *
 script
 =

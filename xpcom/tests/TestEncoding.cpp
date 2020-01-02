@@ -135,7 +135,7 @@ indexes
 onward
 .
 const
-PRUnichar
+char16_t
 goodPairData
 [
 ]
@@ -392,7 +392,7 @@ U
 FFFD
 .
 const
-PRUnichar
+char16_t
 backwardsPairData
 [
 ]
@@ -656,7 +656,7 @@ indexes
 onward
 .
 const
-PRUnichar
+char16_t
 highSurrogateData
 [
 ]
@@ -920,7 +920,7 @@ indexes
 onward
 .
 const
-PRUnichar
+char16_t
 lowSurrogateData
 [
 ]

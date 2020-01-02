@@ -530,12 +530,12 @@ null
 *
 /
 static
-PRUnichar
+char16_t
 *
 ConvertUnicharLineBreaks
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 ELinebreakType
@@ -1078,7 +1078,7 @@ static
 nsresult
 ConvertUnicharLineBreaksInSitu
 (
-PRUnichar
+char16_t
 *
 *
 ioBuffer

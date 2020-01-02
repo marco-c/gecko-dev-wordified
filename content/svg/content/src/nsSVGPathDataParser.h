@@ -340,7 +340,7 @@ ParseSubPathElements
 bool
 ParseSubPathElement
 (
-PRUnichar
+char16_t
 aCommandType
 bool
 aAbsCoords

@@ -301,7 +301,7 @@ aSrc
 int32_t
 *
 aSrcLen
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -765,7 +765,7 @@ char
 )
 aSrc
 ;
-PRUnichar
+char16_t
 *
 destEnd
 =
@@ -774,7 +774,7 @@ aDest
 *
 aDestLen
 ;
-PRUnichar
+char16_t
 *
 dest
 =
@@ -813,7 +813,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -1032,7 +1032,7 @@ UNICODE_REPLACEMENT_CHARACTER
 }
 else
 {
-PRUnichar
+char16_t
 ch
 =
 gJapaneseMap
@@ -1279,7 +1279,7 @@ return
 NS_OK_UDEC_MOREOUTPUT
 ;
 }
-PRUnichar
+char16_t
 nsShiftJISToUnicode
 :
 :
@@ -1288,7 +1288,7 @@ GetCharacterForUnMapped
 )
 {
 return
-PRUnichar
+char16_t
 (
 SJIS_UNMAPPED
 )
@@ -1307,7 +1307,7 @@ aSrc
 int32_t
 *
 aSrcLen
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -1691,7 +1691,7 @@ char
 )
 aSrc
 ;
-PRUnichar
+char16_t
 *
 destEnd
 =
@@ -1700,7 +1700,7 @@ aDest
 *
 aDestLen
 ;
-PRUnichar
+char16_t
 *
 dest
 =
@@ -1861,7 +1861,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -2510,7 +2510,7 @@ aSrc
 int32_t
 *
 aSrcLen
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -3264,7 +3264,7 @@ char
 )
 aSrc
 ;
-PRUnichar
+char16_t
 *
 destEnd
 =
@@ -3273,7 +3273,7 @@ aDest
 *
 aDestLen
 ;
-PRUnichar
+char16_t
 *
 dest
 =
@@ -3373,7 +3373,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -3490,7 +3490,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 0x1b
 ;
@@ -3528,7 +3528,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -3702,7 +3702,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 0x1b
 ;
@@ -3712,7 +3712,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 (
@@ -3752,7 +3752,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -3869,7 +3869,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 0x1b
 ;
@@ -3879,7 +3879,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -3918,7 +3918,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -3999,7 +3999,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 0x1b
 ;
@@ -4009,7 +4009,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -4020,7 +4020,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 (
@@ -4060,7 +4060,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -4197,7 +4197,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -4964,7 +4964,7 @@ gb
 2
 ]
 ;
-PRUnichar
+char16_t
 uni
 ;
 int32_t
@@ -5307,7 +5307,7 @@ ksc
 2
 ]
 ;
-PRUnichar
+char16_t
 uni
 ;
 int32_t
@@ -5594,7 +5594,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 0x1b
 ;
@@ -5604,7 +5604,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 .
@@ -5644,7 +5644,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -5868,7 +5868,7 @@ src
 |
 0x80
 ;
-PRUnichar
+char16_t
 uni
 ;
 int32_t
@@ -5974,7 +5974,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 0x1b
 ;
@@ -5984,7 +5984,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 N
@@ -6024,7 +6024,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src

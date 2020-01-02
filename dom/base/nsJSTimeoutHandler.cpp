@@ -344,7 +344,7 @@ nsJSScriptTimeoutHandler
 ;
 virtual
 const
-PRUnichar
+char16_t
 *
 GetHandlerText
 (
@@ -2264,7 +2264,7 @@ NS_OK
 ;
 }
 const
-PRUnichar
+char16_t
 *
 nsJSScriptTimeoutHandler
 :

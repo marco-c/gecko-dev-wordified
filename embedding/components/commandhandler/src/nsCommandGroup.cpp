@@ -228,7 +228,7 @@ array
 of
 pointers
 to
-PRUnichar
+char16_t
 *
 in
 the
@@ -857,12 +857,12 @@ Length
 return
 NS_ERROR_FAILURE
 ;
-PRUnichar
+char16_t
 *
 thisGroupName
 =
 (
-PRUnichar
+char16_t
 *
 )
 mGroupArray
@@ -1133,7 +1133,7 @@ aCommand
 we
 store
 allocated
-PRUnichar
+char16_t
 *
 in
 the

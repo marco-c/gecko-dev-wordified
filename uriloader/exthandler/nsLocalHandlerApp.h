@@ -158,7 +158,7 @@ nsLocalHandlerApp
 nsLocalHandlerApp
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsIFile

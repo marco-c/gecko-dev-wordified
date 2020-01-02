@@ -640,7 +640,7 @@ GetIntValue
 )
 ;
 const
-PRUnichar
+char16_t
 *
 separator
 ;

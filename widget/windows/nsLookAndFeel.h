@@ -219,7 +219,7 @@ aDevPixPerCSSPixel
 )
 ;
 virtual
-PRUnichar
+char16_t
 GetPasswordCharacterImpl
 (
 )

@@ -1285,7 +1285,7 @@ return
 ;
 /
 /
-PRUnichar
+char16_t
 is
 unsigned
 short

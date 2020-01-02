@@ -974,7 +974,7 @@ nsIRDFLiteral
 mLiteral
 ;
 const
-PRUnichar
+char16_t
 *
 mKey
 ;
@@ -997,7 +997,7 @@ HashString
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -1050,7 +1050,7 @@ strcmp
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -2242,7 +2242,7 @@ nsresult
 Create
 (
 const
-PRUnichar
+char16_t
 *
 aValue
 nsIRDFLiteral
@@ -2268,7 +2268,7 @@ protected
 LiteralImpl
 (
 const
-PRUnichar
+char16_t
 *
 s
 )
@@ -2280,7 +2280,7 @@ LiteralImpl
 )
 ;
 const
-PRUnichar
+char16_t
 *
 GetValue
 (
@@ -2299,7 +2299,7 @@ LiteralImpl
 +
 sizeof
 (
-PRUnichar
+char16_t
 )
 -
 1
@@ -2307,20 +2307,20 @@ PRUnichar
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 return
 reinterpret_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -2348,7 +2348,7 @@ LiteralImpl
 Create
 (
 const
-PRUnichar
+char16_t
 *
 aValue
 nsIRDFLiteral
@@ -2384,7 +2384,7 @@ LiteralImpl
 +
 sizeof
 (
-PRUnichar
+char16_t
 )
 -
 1
@@ -2392,13 +2392,13 @@ PRUnichar
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 size_t
@@ -2406,7 +2406,7 @@ stringLen
 =
 nsCharTraits
 <
-PRUnichar
+char16_t
 >
 :
 :
@@ -2426,7 +2426,7 @@ stringLen
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 void
@@ -2449,13 +2449,13 @@ objectPtr
 return
 NS_ERROR_NULL_POINTER
 ;
-PRUnichar
+char16_t
 *
 buf
 =
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -2474,7 +2474,7 @@ objectSize
 ;
 nsCharTraits
 <
-PRUnichar
+char16_t
 >
 :
 :
@@ -2512,7 +2512,7 @@ LiteralImpl
 LiteralImpl
 (
 const
-PRUnichar
+char16_t
 *
 s
 )
@@ -2795,7 +2795,7 @@ LiteralImpl
 :
 GetValue
 (
-PRUnichar
+char16_t
 *
 *
 value
@@ -2819,7 +2819,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 const
-PRUnichar
+char16_t
 *
 temp
 =
@@ -2850,7 +2850,7 @@ LiteralImpl
 GetValueConst
 (
 const
-PRUnichar
+char16_t
 *
 *
 aValue
@@ -5782,7 +5782,7 @@ RDFServiceImpl
 GetLiteral
 (
 const
-PRUnichar
+char16_t
 *
 aValue
 nsIRDFLiteral
@@ -7773,7 +7773,7 @@ contractID
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 &
@@ -8074,7 +8074,7 @@ aLiteral
 )
 {
 const
-PRUnichar
+char16_t
 *
 value
 ;
@@ -8226,7 +8226,7 @@ s
 aLiteral
 (
 const
-PRUnichar
+char16_t
 *
 )
 value
@@ -8249,7 +8249,7 @@ aLiteral
 )
 {
 const
-PRUnichar
+char16_t
 *
 value
 ;
@@ -8339,7 +8339,7 @@ s
 aLiteral
 (
 const
-PRUnichar
+char16_t
 *
 )
 value

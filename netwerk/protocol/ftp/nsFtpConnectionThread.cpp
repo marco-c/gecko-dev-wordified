@@ -4830,7 +4830,7 @@ rv
 return
 FTP_ERROR
 ;
-PRUnichar
+char16_t
 *
 ucs2Response
 =
@@ -4840,7 +4840,7 @@ mResponseMsg
 )
 ;
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [

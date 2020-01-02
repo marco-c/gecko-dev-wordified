@@ -1045,7 +1045,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aTargetSpec
 const
@@ -1072,7 +1072,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aTargetSpec
 const
@@ -1113,7 +1113,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aTargetSpec
 )
@@ -3144,7 +3144,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aURL
 const
@@ -3152,11 +3152,11 @@ char
 *
 aErrorPage
 const
-PRUnichar
+char16_t
 *
 aErrorType
 const
-PRUnichar
+char16_t
 *
 aDescription
 const
@@ -5618,7 +5618,7 @@ nsresult
 DoFindItemWithName
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsISupports

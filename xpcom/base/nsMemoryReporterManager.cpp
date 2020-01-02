@@ -5758,7 +5758,7 @@ generation
 to
 |
 const
-PRUnichar
+char16_t
 *
 |
 is
@@ -5794,7 +5794,7 @@ request
 "
 (
 const
-PRUnichar
+char16_t
 *
 )
 (

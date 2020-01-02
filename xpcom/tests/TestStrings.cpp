@@ -6175,11 +6175,11 @@ bool
 test_strip_chars_helper
 (
 const
-PRUnichar
+char16_t
 *
 str
 const
-PRUnichar
+char16_t
 *
 strip
 const

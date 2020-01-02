@@ -10484,7 +10484,7 @@ char
 *
 errorMsgId
 const
-PRUnichar
+char16_t
 *
 *
 aParams
@@ -10531,17 +10531,17 @@ nsMathMLContainerFrame
 ReportParseError
 (
 const
-PRUnichar
+char16_t
 *
 aAttribute
 const
-PRUnichar
+char16_t
 *
 aValue
 )
 {
 const
-PRUnichar
+char16_t
 *
 argv
 [
@@ -10583,7 +10583,7 @@ ReportChildCountError
 )
 {
 const
-PRUnichar
+char16_t
 *
 arg
 =
@@ -10623,7 +10623,7 @@ aChildTag
 )
 {
 const
-PRUnichar
+char16_t
 *
 argv
 [

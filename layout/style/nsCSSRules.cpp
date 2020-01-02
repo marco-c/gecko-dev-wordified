@@ -11963,7 +11963,7 @@ aKeyText
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 %

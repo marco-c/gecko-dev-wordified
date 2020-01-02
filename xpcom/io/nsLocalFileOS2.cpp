@@ -6189,7 +6189,7 @@ nsAutoString
 normal
 ;
 const
-PRUnichar
+char16_t
 *
 pathBuffer
 =

@@ -3702,11 +3702,11 @@ void
 SetXMLDeclaration
 (
 const
-PRUnichar
+char16_t
 *
 aVersion
 const
-PRUnichar
+char16_t
 *
 aEncoding
 const

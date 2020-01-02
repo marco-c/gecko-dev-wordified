@@ -1005,7 +1005,7 @@ imgIEncoder
 *
 aEncoder
 const
-PRUnichar
+char16_t
 *
 aEncoderOptions
 nsIInputStream

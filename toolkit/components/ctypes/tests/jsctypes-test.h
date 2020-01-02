@@ -532,7 +532,7 @@ int32_t
 test_wide_len
 (
 const
-PRUnichar
+char16_t
 *
 )
 ;
@@ -546,7 +546,7 @@ test_ansi_ret
 ;
 NS_EXPORT
 const
-PRUnichar
+char16_t
 *
 test_wide_ret
 (

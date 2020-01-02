@@ -3339,7 +3339,7 @@ IsEmpty
 )
 )
 {
-PRUnichar
+char16_t
 last
 =
 path

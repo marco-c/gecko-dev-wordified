@@ -253,7 +253,7 @@ inline
 bool
 IsSVGWhitespace
 (
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -261,7 +261,7 @@ return
 aChar
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -273,7 +273,7 @@ x20
 aChar
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -285,7 +285,7 @@ x9
 aChar
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -297,7 +297,7 @@ xD
 aChar
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -660,7 +660,7 @@ char
 *
 aWarning
 const
-PRUnichar
+char16_t
 *
 *
 aParams
@@ -887,7 +887,7 @@ mozilla
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 GetStartRangedPtr
 (
@@ -904,7 +904,7 @@ mozilla
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 GetEndRangedPtr
 (
@@ -935,7 +935,7 @@ inline
 bool
 IsDigit
 (
-PRUnichar
+char16_t
 aCh
 )
 {
@@ -981,7 +981,7 @@ inline
 uint32_t
 DecimalDigitValue
 (
-PRUnichar
+char16_t
 aCh
 )
 {
@@ -1097,7 +1097,7 @@ mozilla
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -1108,7 +1108,7 @@ mozilla
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd
@@ -1150,7 +1150,7 @@ mozilla
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 iter
 (
@@ -1310,7 +1310,7 @@ mozilla
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -1321,7 +1321,7 @@ mozilla
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd
@@ -1504,7 +1504,7 @@ mozilla
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -1515,7 +1515,7 @@ mozilla
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd

@@ -1223,7 +1223,7 @@ resource
 nsresult
 rv
 ;
-PRUnichar
+char16_t
 buf
 [
 128
@@ -1461,7 +1461,7 @@ literal
 )
 {
 const
-PRUnichar
+char16_t
 *
 p
 ;
@@ -2231,7 +2231,7 @@ NS_ERROR_UNEXPECTED
 nsresult
 rv
 ;
-PRUnichar
+char16_t
 buf
 [
 256
@@ -2363,7 +2363,7 @@ uri
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 #

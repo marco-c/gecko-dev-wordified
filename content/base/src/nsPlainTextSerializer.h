@@ -433,7 +433,7 @@ void
 AddToLine
 (
 const
-PRUnichar
+char16_t
 *
 aStringToAdd
 int32_t

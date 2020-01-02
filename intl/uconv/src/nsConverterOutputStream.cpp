@@ -149,7 +149,7 @@ aBufferSize
 ignored
 *
 /
-PRUnichar
+char16_t
 aReplacementChar
 )
 {
@@ -267,7 +267,7 @@ Write
 uint32_t
 aCount
 const
-PRUnichar
+char16_t
 *
 aChars
 bool

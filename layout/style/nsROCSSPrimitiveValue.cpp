@@ -718,7 +718,7 @@ tmpStr
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 )
@@ -750,7 +750,7 @@ tmpStr
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 %

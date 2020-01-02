@@ -490,7 +490,7 @@ nsPKCS11Slot
 :
 GetName
 (
-PRUnichar
+char16_t
 *
 *
 aName
@@ -664,7 +664,7 @@ nsPKCS11Slot
 :
 GetDesc
 (
-PRUnichar
+char16_t
 *
 *
 aDesc
@@ -734,7 +734,7 @@ nsPKCS11Slot
 :
 GetManID
 (
-PRUnichar
+char16_t
 *
 *
 aManID
@@ -792,7 +792,7 @@ nsPKCS11Slot
 :
 GetHWVersion
 (
-PRUnichar
+char16_t
 *
 *
 aHWVersion
@@ -850,7 +850,7 @@ nsPKCS11Slot
 :
 GetFWVersion
 (
-PRUnichar
+char16_t
 *
 *
 aFWVersion
@@ -968,7 +968,7 @@ nsPKCS11Slot
 :
 GetTokenName
 (
-PRUnichar
+char16_t
 *
 *
 aName
@@ -1284,7 +1284,7 @@ nsPKCS11Module
 :
 GetName
 (
-PRUnichar
+char16_t
 *
 *
 aName
@@ -1335,7 +1335,7 @@ nsPKCS11Module
 :
 GetLibName
 (
-PRUnichar
+char16_t
 *
 *
 aName
@@ -1407,7 +1407,7 @@ nsPKCS11Module
 FindSlotByName
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsIPKCS11Slot
@@ -2087,7 +2087,7 @@ nsPKCS11ModuleDB
 FindModuleByName
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsIPKCS11Module
@@ -2210,7 +2210,7 @@ nsPKCS11ModuleDB
 FindSlotByName
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsIPKCS11Slot

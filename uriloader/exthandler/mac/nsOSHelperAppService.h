@@ -355,7 +355,7 @@ nsresult
 GetFileTokenForPath
 (
 const
-PRUnichar
+char16_t
 *
 platformAppPath
 nsIFile

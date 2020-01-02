@@ -669,7 +669,7 @@ aOutputString
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 %
@@ -4330,7 +4330,7 @@ Length
 (
 )
 ;
-PRUnichar
+char16_t
 c
 ;
 bool
@@ -4345,7 +4345,7 @@ iter
 ;
 if
 (
-PRUnichar
+char16_t
 (
 '
 -
@@ -4373,7 +4373,7 @@ i
 else
 if
 (
-PRUnichar
+char16_t
 (
 '
 +
@@ -4408,7 +4408,7 @@ iter
 if
 (
 (
-PRUnichar
+char16_t
 (
 '
 0
@@ -4421,7 +4421,7 @@ c
 |
 |
 (
-PRUnichar
+char16_t
 (
 '
 1
@@ -4434,7 +4434,7 @@ c
 |
 |
 (
-PRUnichar
+char16_t
 (
 '
 2
@@ -4447,7 +4447,7 @@ c
 |
 |
 (
-PRUnichar
+char16_t
 (
 '
 3
@@ -4460,7 +4460,7 @@ c
 |
 |
 (
-PRUnichar
+char16_t
 (
 '
 4
@@ -4473,7 +4473,7 @@ c
 |
 |
 (
-PRUnichar
+char16_t
 (
 '
 5
@@ -4486,7 +4486,7 @@ c
 |
 |
 (
-PRUnichar
+char16_t
 (
 '
 6
@@ -4499,7 +4499,7 @@ c
 |
 |
 (
-PRUnichar
+char16_t
 (
 '
 7
@@ -4512,7 +4512,7 @@ c
 |
 |
 (
-PRUnichar
+char16_t
 (
 '
 8
@@ -4525,7 +4525,7 @@ c
 |
 |
 (
-PRUnichar
+char16_t
 (
 '
 9
@@ -4551,7 +4551,7 @@ b
 (
 c
 -
-PRUnichar
+char16_t
 (
 '
 0
@@ -4577,7 +4577,7 @@ floatingPointFound
 &
 &
 (
-PRUnichar
+char16_t
 (
 '
 .
@@ -6642,7 +6642,7 @@ aValueString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -7490,7 +7490,7 @@ htmlColor
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 )
@@ -7592,18 +7592,18 @@ IsEmpty
 )
 {
 const
-PRUnichar
+char16_t
 commaSpace
 [
 ]
 =
 {
-PRUnichar
+char16_t
 (
 '
 '
 )
-PRUnichar
+char16_t
 (
 '
 '
@@ -7612,13 +7612,13 @@ PRUnichar
 }
 ;
 const
-PRUnichar
+char16_t
 comma
 [
 ]
 =
 {
-PRUnichar
+char16_t
 (
 '
 '

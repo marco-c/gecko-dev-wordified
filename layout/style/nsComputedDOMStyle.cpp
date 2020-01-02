@@ -1354,7 +1354,7 @@ First
 )
 =
 =
-PRUnichar
+char16_t
 (
 '
 :
@@ -1429,7 +1429,7 @@ end
 start
 !
 =
-PRUnichar
+char16_t
 (
 '
 :
@@ -5858,7 +5858,7 @@ str
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 )

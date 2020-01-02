@@ -548,7 +548,7 @@ ucs4Char
 0xFF
 )
 {
-PRUnichar
+char16_t
 chr
 [
 2

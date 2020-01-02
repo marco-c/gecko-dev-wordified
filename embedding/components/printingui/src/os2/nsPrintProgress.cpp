@@ -1072,7 +1072,7 @@ aRequest
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMessage
 )
@@ -1213,7 +1213,7 @@ nsPrintProgress
 ShowStatusString
 (
 const
-PRUnichar
+char16_t
 *
 status
 )

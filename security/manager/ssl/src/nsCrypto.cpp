@@ -13979,13 +13979,13 @@ numberOfCerts
 ;
 nsAutoArrayPtr
 <
-PRUnichar
+char16_t
 *
 >
 certNicknameList
 (
 new
-PRUnichar
+char16_t
 *
 [
 nicknames
@@ -14013,7 +14013,7 @@ internalError
 return
 ;
 }
-PRUnichar
+char16_t
 *
 *
 certDetailsList
@@ -14261,7 +14261,7 @@ aStringToSign
 const_cast
 <
 const
-PRUnichar
+char16_t
 *
 *
 >
@@ -14275,7 +14275,7 @@ get
 const_cast
 <
 const
-PRUnichar
+char16_t
 *
 *
 >

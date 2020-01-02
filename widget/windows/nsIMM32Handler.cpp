@@ -8753,7 +8753,7 @@ NS_ConvertUTF16toUTF8
 nsAutoString
 (
 (
-PRUnichar
+char16_t
 *
 )
 (

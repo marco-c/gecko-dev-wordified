@@ -438,7 +438,7 @@ nsHtml5Tokenizer
 .
 h
 "
-PRUnichar
+char16_t
 nsHtml5Tokenizer
 :
 :
@@ -455,7 +455,7 @@ LT_GT
 '
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Tokenizer
 :
 :
@@ -472,7 +472,7 @@ LT_SOLIDUS
 '
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Tokenizer
 :
 :
@@ -489,7 +489,7 @@ RSQB_RSQB
 '
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Tokenizer
 :
 :
@@ -501,7 +501,7 @@ REPLACEMENT_CHARACTER
 0xfffd
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Tokenizer
 :
 :
@@ -516,7 +516,7 @@ n
 '
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Tokenizer
 :
 :
@@ -545,7 +545,7 @@ A
 '
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Tokenizer
 :
 :
@@ -574,7 +574,7 @@ e
 '
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Tokenizer
 :
 :
@@ -600,7 +600,7 @@ c
 '
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Tokenizer
 :
 :
@@ -627,7 +627,7 @@ m
 }
 ;
 static
-PRUnichar
+char16_t
 const
 TITLE_ARR_DATA
 [
@@ -653,7 +653,7 @@ e
 ;
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5Tokenizer
@@ -670,7 +670,7 @@ TITLE_ARR_DATA
 }
 ;
 static
-PRUnichar
+char16_t
 const
 SCRIPT_ARR_DATA
 [
@@ -699,7 +699,7 @@ t
 ;
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5Tokenizer
@@ -716,7 +716,7 @@ SCRIPT_ARR_DATA
 }
 ;
 static
-PRUnichar
+char16_t
 const
 STYLE_ARR_DATA
 [
@@ -742,7 +742,7 @@ e
 ;
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5Tokenizer
@@ -759,7 +759,7 @@ STYLE_ARR_DATA
 }
 ;
 static
-PRUnichar
+char16_t
 const
 PLAINTEXT_ARR_DATA
 [
@@ -797,7 +797,7 @@ t
 ;
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5Tokenizer
@@ -814,7 +814,7 @@ PLAINTEXT_ARR_DATA
 }
 ;
 static
-PRUnichar
+char16_t
 const
 XMP_ARR_DATA
 [
@@ -834,7 +834,7 @@ p
 ;
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5Tokenizer
@@ -851,7 +851,7 @@ XMP_ARR_DATA
 }
 ;
 static
-PRUnichar
+char16_t
 const
 TEXTAREA_ARR_DATA
 [
@@ -886,7 +886,7 @@ a
 ;
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5Tokenizer
@@ -903,7 +903,7 @@ TEXTAREA_ARR_DATA
 }
 ;
 static
-PRUnichar
+char16_t
 const
 IFRAME_ARR_DATA
 [
@@ -932,7 +932,7 @@ e
 ;
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5Tokenizer
@@ -949,7 +949,7 @@ IFRAME_ARR_DATA
 }
 ;
 static
-PRUnichar
+char16_t
 const
 NOEMBED_ARR_DATA
 [
@@ -981,7 +981,7 @@ d
 ;
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5Tokenizer
@@ -998,7 +998,7 @@ NOEMBED_ARR_DATA
 }
 ;
 static
-PRUnichar
+char16_t
 const
 NOSCRIPT_ARR_DATA
 [
@@ -1033,7 +1033,7 @@ t
 ;
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5Tokenizer
@@ -1050,7 +1050,7 @@ NOSCRIPT_ARR_DATA
 }
 ;
 static
-PRUnichar
+char16_t
 const
 NOFRAMES_ARR_DATA
 [
@@ -1085,7 +1085,7 @@ s
 ;
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5Tokenizer
@@ -1125,7 +1125,7 @@ bmpChar
 (
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 :
@@ -1139,7 +1139,7 @@ astralChar
 (
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 :
@@ -1277,7 +1277,7 @@ return
 }
 autoJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 asArray
@@ -1533,7 +1533,7 @@ nsHtml5Tokenizer
 :
 appendStrBuf
 (
-PRUnichar
+char16_t
 c
 )
 {
@@ -1549,14 +1549,14 @@ length
 {
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 newBuf
 =
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 :
@@ -1673,7 +1673,7 @@ nsHtml5Tokenizer
 :
 appendLongStrBuf
 (
-PRUnichar
+char16_t
 c
 )
 {
@@ -1689,14 +1689,14 @@ length
 {
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 newBuf
 =
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 :
@@ -1746,7 +1746,7 @@ nsHtml5Tokenizer
 :
 appendLongStrBuf
 (
-PRUnichar
+char16_t
 *
 buffer
 int32_t
@@ -1773,14 +1773,14 @@ reqLen
 {
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 newBuf
 =
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 :
@@ -1889,7 +1889,7 @@ nsHtml5Tokenizer
 :
 flushChars
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -2262,7 +2262,7 @@ returnState
 =
 returnStateSave
 ;
-PRUnichar
+char16_t
 c
 =
 '
@@ -2515,11 +2515,11 @@ stateLoop
 (
 int32_t
 state
-PRUnichar
+char16_t
 c
 int32_t
 pos
-PRUnichar
+char16_t
 *
 buf
 bool
@@ -2792,7 +2792,7 @@ false
 clearStrBufAndAppend
 (
 (
-PRUnichar
+char16_t
 )
 (
 c
@@ -8533,7 +8533,7 @@ NS_HTML5TOKENIZER_DATA_AND_RCDATA_MASK
 )
 )
 {
-PRUnichar
+char16_t
 ch
 ;
 if
@@ -8713,7 +8713,7 @@ mViewSource
 )
 ;
 const
-PRUnichar
+char16_t
 *
 val
 =
@@ -10668,7 +10668,7 @@ endTagExpectationAsArray
 length
 )
 {
-PRUnichar
+char16_t
 e
 =
 endTagExpectationAsArray
@@ -10676,7 +10676,7 @@ endTagExpectationAsArray
 index
 ]
 ;
-PRUnichar
+char16_t
 folded
 =
 c
@@ -12657,7 +12657,7 @@ index
 6
 )
 {
-PRUnichar
+char16_t
 folded
 =
 c
@@ -13554,7 +13554,7 @@ index
 6
 )
 {
-PRUnichar
+char16_t
 folded
 =
 c
@@ -13792,7 +13792,7 @@ index
 6
 )
 {
-PRUnichar
+char16_t
 folded
 =
 c
@@ -14783,7 +14783,7 @@ index
 5
 )
 {
-PRUnichar
+char16_t
 folded
 =
 c
@@ -16563,7 +16563,7 @@ index
 5
 )
 {
-PRUnichar
+char16_t
 folded
 =
 c
@@ -17801,7 +17801,7 @@ nsHtml5Tokenizer
 :
 emitCarriageReturn
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -17842,7 +17842,7 @@ nsHtml5Tokenizer
 :
 emitReplacementCharacter
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -17875,7 +17875,7 @@ nsHtml5Tokenizer
 :
 emitPlaintextReplacementCharacter
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -17911,7 +17911,7 @@ nsHtml5Tokenizer
 :
 setAdditionalAndRememberAmpersandLocation
 (
-PRUnichar
+char16_t
 add
 )
 {
@@ -18022,7 +18022,7 @@ errNcrInC1Range
 (
 )
 ;
-PRUnichar
+char16_t
 *
 val
 =
@@ -18095,11 +18095,11 @@ returnState
 }
 else
 {
-PRUnichar
+char16_t
 ch
 =
 (
-PRUnichar
+char16_t
 )
 value
 ;
@@ -18133,7 +18133,7 @@ astralChar
 ]
 =
 (
-PRUnichar
+char16_t
 )
 (
 NS_HTML5TOKENIZER_LEAD_OFFSET
@@ -18152,7 +18152,7 @@ astralChar
 ]
 =
 (
-PRUnichar
+char16_t
 )
 (
 0xDC00
@@ -18956,7 +18956,7 @@ for
 ;
 )
 {
-PRUnichar
+char16_t
 c
 =
 '
@@ -19282,7 +19282,7 @@ NS_HTML5TOKENIZER_DATA_AND_RCDATA_MASK
 )
 )
 {
-PRUnichar
+char16_t
 ch
 ;
 if
@@ -19409,7 +19409,7 @@ errNotSemicolonTerminated
 }
 }
 const
-PRUnichar
+char16_t
 *
 val
 =
@@ -19732,7 +19732,7 @@ nsHtml5Tokenizer
 emitOrAppendTwo
 (
 const
-PRUnichar
+char16_t
 *
 val
 int32_t
@@ -19786,7 +19786,7 @@ nsHtml5Tokenizer
 emitOrAppendOne
 (
 const
-PRUnichar
+char16_t
 *
 val
 int32_t
@@ -20144,7 +20144,7 @@ strBuf
 =
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 :
@@ -20188,7 +20188,7 @@ longStrBuf
 =
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 :
@@ -20585,7 +20585,7 @@ strBuf
 =
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 :
@@ -20599,7 +20599,7 @@ longStrBuf
 =
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 :

@@ -208,11 +208,11 @@ path
 .
 ReplaceChar
 (
-PRUnichar
+char16_t
 (
 0x5Cu
 )
-PRUnichar
+char16_t
 (
 0x2Fu
 )

@@ -654,7 +654,7 @@ nsDOMCSSRect
 *
 mRect
 ;
-PRUnichar
+char16_t
 *
 mString
 ;

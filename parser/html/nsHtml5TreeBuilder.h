@@ -463,7 +463,7 @@ nsAHtml5TreeBuilderState
 private
 :
 static
-PRUnichar
+char16_t
 REPLACEMENT_CHARACTER
 [
 ]
@@ -567,7 +567,7 @@ protected
 :
 autoJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 charBuffer
@@ -612,7 +612,7 @@ forceQuirks
 void
 comment
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -625,7 +625,7 @@ void
 characters
 (
 const
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -1348,7 +1348,7 @@ void
 accumulateCharacters
 (
 const
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -1470,7 +1470,7 @@ stackParent
 void
 insertFosterParentedCharacters
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -1494,7 +1494,7 @@ nsIContent
 *
 *
 parent
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -1519,7 +1519,7 @@ nsIContent
 *
 *
 parent
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -1531,7 +1531,7 @@ length
 void
 appendCommentToDocument
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t

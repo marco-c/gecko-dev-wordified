@@ -635,7 +635,7 @@ First
 )
 =
 =
-PRUnichar
+char16_t
 (
 '
 -
@@ -2460,7 +2460,7 @@ void
 LogConsoleMessage
 (
 const
-PRUnichar
+char16_t
 *
 fmt
 .
@@ -2477,7 +2477,7 @@ args
 fmt
 )
 ;
-PRUnichar
+char16_t
 *
 msg
 =

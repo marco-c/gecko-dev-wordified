@@ -338,7 +338,7 @@ GetValueString
 HKEY
 hKey
 const
-PRUnichar
+char16_t
 *
 pValueName
 nsAString
@@ -471,7 +471,7 @@ bool
 typeFromExtEquals
 (
 const
-PRUnichar
+char16_t
 *
 aExt
 const

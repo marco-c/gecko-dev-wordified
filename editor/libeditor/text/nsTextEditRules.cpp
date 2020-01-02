@@ -7627,7 +7627,7 @@ the
 platform
 password
 character
-PRUnichar
+char16_t
 passwordChar
 =
 LookAndFeel

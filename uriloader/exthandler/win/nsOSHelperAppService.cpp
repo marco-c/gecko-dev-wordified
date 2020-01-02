@@ -701,7 +701,7 @@ aFileExtension
 .
 Insert
 (
-PRUnichar
+char16_t
 (
 '
 .
@@ -743,7 +743,7 @@ aFileExtension
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -1758,7 +1758,7 @@ nsOSHelperAppService
 typeFromExtEquals
 (
 const
-PRUnichar
+char16_t
 *
 aExt
 const
@@ -1786,7 +1786,7 @@ aExt
 ]
 !
 =
-PRUnichar
+char16_t
 (
 '
 .
@@ -1795,7 +1795,7 @@ PRUnichar
 )
 fileExtToUse
 =
-PRUnichar
+char16_t
 (
 '
 .
@@ -3562,7 +3562,7 @@ First
 )
 !
 =
-PRUnichar
+char16_t
 (
 '
 .
@@ -3571,7 +3571,7 @@ PRUnichar
 )
 fileExtToUse
 =
-PRUnichar
+char16_t
 (
 '
 .

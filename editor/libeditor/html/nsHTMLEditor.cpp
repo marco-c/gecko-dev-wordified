@@ -4987,7 +4987,7 @@ forget
 }
 static
 const
-PRUnichar
+char16_t
 nbsp
 =
 160
@@ -5208,7 +5208,7 @@ Length
 )
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aContent
@@ -5485,7 +5485,7 @@ aOffset
 0
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aContent
@@ -7838,13 +7838,13 @@ starts
 .
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 beginbody
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 endbody
 ;
@@ -7880,13 +7880,13 @@ endbody
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 beginhead
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 endhead
 ;
@@ -7952,13 +7952,13 @@ false
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 beginclosehead
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 endclosehead
 ;
@@ -8084,7 +8084,7 @@ this
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 endtotal
 ;
@@ -8188,7 +8188,7 @@ else
 {
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 begintotal
 ;
@@ -8547,7 +8547,7 @@ body
 begins
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 beginclosebody
 =
@@ -8555,7 +8555,7 @@ beginbody
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 endclosebody
 ;
@@ -20333,7 +20333,7 @@ terminate
 there
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 findIter
 endFindIter
@@ -20383,7 +20383,7 @@ endFindIter
 {
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 beginIter
 ;
@@ -20410,7 +20410,7 @@ the
 distance
 nsWritingIterator
 <
-PRUnichar
+char16_t
 >
 writeIter
 ;
@@ -20430,7 +20430,7 @@ ends
 in
 a
 newline
-PRUnichar
+char16_t
 newline
 (
 '

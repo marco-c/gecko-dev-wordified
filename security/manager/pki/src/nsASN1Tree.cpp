@@ -1856,7 +1856,7 @@ nsNSSASN1Tree
 PerformAction
 (
 const
-PRUnichar
+char16_t
 *
 action
 )
@@ -1887,7 +1887,7 @@ nsNSSASN1Tree
 PerformActionOnRow
 (
 const
-PRUnichar
+char16_t
 *
 action
 int32_t
@@ -1923,7 +1923,7 @@ nsNSSASN1Tree
 PerformActionOnCell
 (
 const
-PRUnichar
+char16_t
 *
 action
 int32_t

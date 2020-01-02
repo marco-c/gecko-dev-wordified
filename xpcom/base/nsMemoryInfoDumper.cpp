@@ -1474,7 +1474,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

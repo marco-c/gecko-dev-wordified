@@ -112,7 +112,7 @@ mString
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -142,7 +142,7 @@ mLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -150,7 +150,7 @@ mString
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -175,7 +175,7 @@ mString
 mLength
 ]
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -189,7 +189,7 @@ mLength
 ]
 =
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -220,7 +220,7 @@ mLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 "
 enough

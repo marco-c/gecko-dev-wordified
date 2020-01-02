@@ -1536,7 +1536,7 @@ aRequired
 txStylesheetCompilerState
 &
 aState
-PRUnichar
+char16_t
 &
 aChar
 )
@@ -4455,7 +4455,7 @@ Length
 )
 ;
 const
-PRUnichar
+char16_t
 *
 c
 ;

@@ -1048,7 +1048,7 @@ int32_t
 test_wide_len
 (
 const
-PRUnichar
+char16_t
 *
 string
 )
@@ -1074,7 +1074,7 @@ success
 ;
 }
 const
-PRUnichar
+char16_t
 *
 test_wide_ret
 (
@@ -1082,7 +1082,7 @@ test_wide_ret
 {
 static
 const
-PRUnichar
+char16_t
 kSuccess
 [
 ]

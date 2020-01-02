@@ -229,11 +229,11 @@ nsresult
 aStatus
 uint32_t
 argCount
-PRUnichar
+char16_t
 *
 *
 argArray
-PRUnichar
+char16_t
 *
 *
 result

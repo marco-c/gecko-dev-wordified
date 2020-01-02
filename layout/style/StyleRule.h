@@ -326,7 +326,7 @@ nsCSSPseudoClasses
 Type
 aType
 const
-PRUnichar
+char16_t
 *
 aString
 )
@@ -559,7 +559,7 @@ use
 NS_Alloc
 /
 NS_Free
-PRUnichar
+char16_t
 *
 mString
 ;
@@ -1005,7 +1005,7 @@ nsCSSPseudoClasses
 Type
 aType
 const
-PRUnichar
+char16_t
 *
 aString
 )
@@ -1076,7 +1076,7 @@ aCaseSensitive
 void
 SetOperator
 (
-PRUnichar
+char16_t
 aOperator
 )
 ;
@@ -1464,7 +1464,7 @@ mNext
 int32_t
 mNameSpace
 ;
-PRUnichar
+char16_t
 mOperator
 ;
 private
@@ -1655,7 +1655,7 @@ aOperator
 *
 must
 be
-PRUnichar
+char16_t
 (
 0
 )
@@ -1691,7 +1691,7 @@ nsCSSSelector
 *
 AddSelector
 (
-PRUnichar
+char16_t
 aOperator
 )
 ;

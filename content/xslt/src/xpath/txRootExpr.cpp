@@ -270,7 +270,7 @@ dest
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 /

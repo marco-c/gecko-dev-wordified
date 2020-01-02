@@ -1129,7 +1129,7 @@ NS_OK
 }
 static
 const
-PRUnichar
+char16_t
 sAster
 (
 '
@@ -1139,7 +1139,7 @@ sAster
 ;
 static
 const
-PRUnichar
+char16_t
 sPercent
 (
 '
@@ -1149,7 +1149,7 @@ sPercent
 ;
 static
 const
-PRUnichar
+char16_t
 sComma
 (
 '
@@ -1540,7 +1540,7 @@ numberEnd
 =
 end
 ;
-PRUnichar
+char16_t
 ch
 =
 spec

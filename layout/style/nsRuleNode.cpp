@@ -21957,7 +21957,7 @@ name
 Append
 (
 (
-PRUnichar
+char16_t
 )
 '
 '

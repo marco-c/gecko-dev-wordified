@@ -741,7 +741,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -3419,7 +3419,7 @@ GetAllOverrideHostsWithPorts
 uint32_t
 *
 aCount
-PRUnichar
+char16_t
 *
 *
 *

@@ -403,7 +403,7 @@ nsHtml5MetaScanner
 h
 "
 static
-PRUnichar
+char16_t
 const
 CHARSET_DATA
 [
@@ -432,7 +432,7 @@ t
 ;
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5MetaScanner
@@ -449,7 +449,7 @@ CHARSET_DATA
 }
 ;
 static
-PRUnichar
+char16_t
 const
 CONTENT_DATA
 [
@@ -478,7 +478,7 @@ t
 ;
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5MetaScanner
@@ -495,7 +495,7 @@ CONTENT_DATA
 }
 ;
 static
-PRUnichar
+char16_t
 const
 HTTP_EQUIV_DATA
 [
@@ -533,7 +533,7 @@ v
 ;
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5MetaScanner
@@ -550,7 +550,7 @@ HTTP_EQUIV_DATA
 }
 ;
 static
-PRUnichar
+char16_t
 const
 CONTENT_TYPE_DATA
 [
@@ -597,7 +597,7 @@ e
 ;
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5MetaScanner
@@ -656,7 +656,7 @@ strBuf
 (
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 :
@@ -3238,14 +3238,14 @@ length
 {
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 newBuf
 =
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 :
@@ -3291,7 +3291,7 @@ strBufLen
 ]
 =
 (
-PRUnichar
+char16_t
 )
 c
 ;

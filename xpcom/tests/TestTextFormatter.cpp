@@ -161,7 +161,7 @@ utf8
 Hello
 "
 ;
-PRUnichar
+char16_t
 ucs2
 [
 ]
@@ -194,7 +194,7 @@ d
 =
 3
 ;
-PRUnichar
+char16_t
 buf
 [
 256
@@ -247,7 +247,7 @@ test_ok
 false
 ;
 const
-PRUnichar
+char16_t
 *
 uout
 =
@@ -258,7 +258,7 @@ get
 )
 ;
 const
-PRUnichar
+char16_t
 expected
 [
 ]

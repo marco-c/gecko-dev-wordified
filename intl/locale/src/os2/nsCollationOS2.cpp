@@ -847,7 +847,7 @@ uint8_t
 NS_strdup
 (
 (
-PRUnichar
+char16_t
 *
 )
 pLocalBuffer

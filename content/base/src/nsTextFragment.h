@@ -100,7 +100,7 @@ is
 stored
 as
 a
-PRUnichar
+char16_t
 *
 *
 /
@@ -380,7 +380,7 @@ fragment
 is
 represented
 by
-PRUnichar
+char16_t
 data
 *
 /
@@ -458,13 +458,13 @@ a
 pointer
 to
 constant
-PRUnichar
+char16_t
 data
 .
 *
 /
 const
-PRUnichar
+char16_t
 *
 Get2b
 (
@@ -661,7 +661,7 @@ bool
 SetTo
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 int32_t
@@ -717,7 +717,7 @@ bool
 Append
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -918,7 +918,7 @@ necessary
 void
 CopyTo
 (
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -949,11 +949,11 @@ This
 always
 returns
 a
-PRUnichar
+char16_t
 .
 *
 /
-PRUnichar
+char16_t
 CharAt
 (
 int32_t
@@ -1128,7 +1128,7 @@ void
 UpdateBidiFlag
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -1137,7 +1137,7 @@ aLength
 ;
 union
 {
-PRUnichar
+char16_t
 *
 m2b
 ;

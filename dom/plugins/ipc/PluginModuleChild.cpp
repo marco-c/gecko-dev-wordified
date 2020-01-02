@@ -11675,7 +11675,7 @@ szClass
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 &

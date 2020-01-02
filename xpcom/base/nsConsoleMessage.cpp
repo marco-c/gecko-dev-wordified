@@ -145,7 +145,7 @@ nsConsoleMessage
 nsConsoleMessage
 (
 const
-PRUnichar
+char16_t
 *
 message
 )
@@ -172,7 +172,7 @@ nsConsoleMessage
 :
 GetMessageMoz
 (
-PRUnichar
+char16_t
 *
 *
 result

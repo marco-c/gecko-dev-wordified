@@ -1577,7 +1577,7 @@ IsEmpty
 )
 {
 const
-PRUnichar
+char16_t
 *
 strings
 [
@@ -1619,7 +1619,7 @@ message
 else
 {
 const
-PRUnichar
+char16_t
 *
 strings
 [
@@ -1679,7 +1679,7 @@ retval
 =
 false
 ;
-PRUnichar
+char16_t
 *
 user
 =
@@ -5656,7 +5656,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

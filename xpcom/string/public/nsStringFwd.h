@@ -153,7 +153,7 @@ double
 -
 byte
 (
-PRUnichar
+char16_t
 )
 string
 types

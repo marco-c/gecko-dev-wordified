@@ -2022,7 +2022,7 @@ i
 ]
 =
 (
-PRUnichar
+char16_t
 )
 (
 c
@@ -2045,7 +2045,7 @@ i
 ]
 =
 (
-PRUnichar
+char16_t
 )
 (
 (
@@ -2071,7 +2071,7 @@ i
 ]
 =
 (
-PRUnichar
+char16_t
 )
 (
 c
@@ -2137,7 +2137,7 @@ i
 ]
 =
 (
-PRUnichar
+char16_t
 )
 (
 c
@@ -2186,7 +2186,7 @@ i
 ]
 =
 (
-PRUnichar
+char16_t
 )
 (
 (
@@ -2212,7 +2212,7 @@ i
 ]
 =
 (
-PRUnichar
+char16_t
 )
 (
 c
@@ -2607,7 +2607,7 @@ c
 )
 {
 \
-PRUnichar
+char16_t
 __c2
 ;
 \
@@ -4349,7 +4349,7 @@ nsresult
 SetPara
 (
 const
-PRUnichar
+char16_t
 *
 aText
 int32_t
@@ -7181,12 +7181,12 @@ nsresult
 WriteReverse
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 uint16_t
@@ -7451,7 +7451,7 @@ void
 GetDirProps
 (
 const
-PRUnichar
+char16_t
 *
 aText
 )
@@ -7545,12 +7545,12 @@ int32_t
 doWriteReverse
 (
 const
-PRUnichar
+char16_t
 *
 src
 int32_t
 srcLength
-PRUnichar
+char16_t
 *
 dest
 uint16_t

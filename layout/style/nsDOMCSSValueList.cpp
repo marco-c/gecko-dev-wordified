@@ -281,7 +281,7 @@ separator
 .
 Assign
 (
-PRUnichar
+char16_t
 (
 '
 '

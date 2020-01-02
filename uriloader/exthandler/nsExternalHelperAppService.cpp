@@ -1956,7 +1956,7 @@ fileNameStr
 .
 RFindChar
 (
-PRUnichar
+char16_t
 (
 '
 .
@@ -5742,7 +5742,7 @@ nsExternalHelperAppService
 GetFileTokenForPath
 (
 const
-PRUnichar
+char16_t
 *
 aPlatformAppPath
 nsIFile
@@ -7925,7 +7925,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 someData
 )
@@ -8360,7 +8360,7 @@ First
 )
 mTempFileExtension
 =
-PRUnichar
+char16_t
 (
 '
 .
@@ -8426,13 +8426,13 @@ bug
 )
 .
 const
-PRUnichar
+char16_t
 unsafeBidiCharacters
 [
 ]
 =
 {
-PRUnichar
+char16_t
 (
 0x061c
 )
@@ -8441,7 +8441,7 @@ PRUnichar
 Arabic
 Letter
 Mark
-PRUnichar
+char16_t
 (
 0x200e
 )
@@ -8453,7 +8453,7 @@ to
 -
 Right
 Mark
-PRUnichar
+char16_t
 (
 0x200f
 )
@@ -8465,7 +8465,7 @@ to
 -
 Left
 Mark
-PRUnichar
+char16_t
 (
 0x202a
 )
@@ -8477,7 +8477,7 @@ to
 -
 Right
 Embedding
-PRUnichar
+char16_t
 (
 0x202b
 )
@@ -8489,7 +8489,7 @@ to
 -
 Left
 Embedding
-PRUnichar
+char16_t
 (
 0x202c
 )
@@ -8498,7 +8498,7 @@ PRUnichar
 Pop
 Directional
 Formatting
-PRUnichar
+char16_t
 (
 0x202d
 )
@@ -8510,7 +8510,7 @@ to
 -
 Right
 Override
-PRUnichar
+char16_t
 (
 0x202e
 )
@@ -8522,7 +8522,7 @@ to
 -
 Left
 Override
-PRUnichar
+char16_t
 (
 0x2066
 )
@@ -8534,7 +8534,7 @@ to
 -
 Right
 Isolate
-PRUnichar
+char16_t
 (
 0x2067
 )
@@ -8546,7 +8546,7 @@ to
 -
 Left
 Isolate
-PRUnichar
+char16_t
 (
 0x2068
 )
@@ -8555,7 +8555,7 @@ PRUnichar
 First
 Strong
 Isolate
-PRUnichar
+char16_t
 (
 0x2069
 )
@@ -12540,7 +12540,7 @@ nsXPIDLString
 msgText
 ;
 const
-PRUnichar
+char16_t
 *
 strings
 [
@@ -18566,7 +18566,7 @@ i
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 .

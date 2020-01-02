@@ -601,7 +601,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -746,7 +746,7 @@ nsIXULWindow
 *
 window
 const
-PRUnichar
+char16_t
 *
 newTitle
 )

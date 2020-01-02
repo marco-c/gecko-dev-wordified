@@ -195,7 +195,7 @@ aValue
 )
 const
 {
-PRUnichar
+char16_t
 buf
 [
 24
@@ -214,7 +214,7 @@ buf
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 MOZ_UTF16
 (
@@ -268,7 +268,7 @@ aString
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 iter
 =
@@ -284,7 +284,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 end
 =

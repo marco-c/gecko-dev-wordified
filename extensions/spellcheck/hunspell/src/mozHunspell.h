@@ -717,7 +717,7 @@ nsresult
 ConvertCharset
 (
 const
-PRUnichar
+char16_t
 *
 aStr
 char

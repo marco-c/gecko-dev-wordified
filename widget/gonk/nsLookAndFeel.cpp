@@ -214,7 +214,7 @@ h
 "
 static
 const
-PRUnichar
+char16_t
 UNICODE_BULLET
 =
 0x2022
@@ -1779,7 +1779,7 @@ return
 virtual
 *
 /
-PRUnichar
+char16_t
 nsLookAndFeel
 :
 :

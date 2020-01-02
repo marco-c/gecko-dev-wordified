@@ -573,7 +573,7 @@ nsAString
 &
 aName
 const
-PRUnichar
+char16_t
 *
 *
 aClassName
@@ -662,7 +662,7 @@ aXBLAllowed
 bool
 aDisabled
 const
-PRUnichar
+char16_t
 *
 *
 aResult
@@ -923,7 +923,7 @@ nsAString
 *
 aKey
 const
-PRUnichar
+char16_t
 *
 *
 aClassName
@@ -943,7 +943,7 @@ char
 *
 aKey
 const
-PRUnichar
+char16_t
 *
 *
 aClassName
@@ -1210,7 +1210,7 @@ nsAString
 &
 aName
 const
-PRUnichar
+char16_t
 *
 *
 aClassName

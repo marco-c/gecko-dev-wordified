@@ -1841,7 +1841,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -1888,7 +1888,7 @@ char
 *
 aMsg
 const
-PRUnichar
+char16_t
 *
 *
 aParams
@@ -2216,7 +2216,7 @@ src
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -4687,7 +4687,7 @@ return
 else
 {
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -5189,7 +5189,7 @@ child
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -5316,7 +5316,7 @@ child
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -5431,7 +5431,7 @@ child
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -6702,7 +6702,7 @@ specUTF8
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -6803,7 +6803,7 @@ specUTF8
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -14169,7 +14169,7 @@ mimeType
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -16335,7 +16335,7 @@ src
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -19457,7 +19457,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

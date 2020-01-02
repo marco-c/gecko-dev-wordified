@@ -1819,7 +1819,7 @@ JNIEnv
 *
 env
 const
-PRUnichar
+char16_t
 *
 string
 uint32_t
@@ -1873,7 +1873,7 @@ AutoLocalJNIFrame
 *
 frame
 const
-PRUnichar
+char16_t
 *
 string
 uint32_t

@@ -1574,7 +1574,7 @@ colorStr
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 #
@@ -1881,7 +1881,7 @@ colorStr
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 #
@@ -3818,7 +3818,7 @@ aDevPixPerCSSPixel
 /
 /
 static
-PRUnichar
+char16_t
 LookAndFeel
 :
 :

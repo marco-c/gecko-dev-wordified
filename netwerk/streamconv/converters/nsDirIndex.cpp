@@ -275,7 +275,7 @@ nsDirIndex
 :
 GetDescription
 (
-PRUnichar
+char16_t
 *
 *
 aDescription
@@ -309,7 +309,7 @@ nsDirIndex
 SetDescription
 (
 const
-PRUnichar
+char16_t
 *
 aDescription
 )

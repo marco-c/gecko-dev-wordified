@@ -1488,7 +1488,7 @@ length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -1561,7 +1561,7 @@ length
 )
 {
 const
-PRUnichar
+char16_t
 *
 buf
 ;
@@ -1588,7 +1588,7 @@ length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 )

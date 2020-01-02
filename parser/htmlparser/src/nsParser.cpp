@@ -2224,7 +2224,7 @@ for
 ;
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aBuffer
@@ -2240,7 +2240,7 @@ if
 ch
 =
 =
-PRUnichar
+char16_t
 (
 '
 '
@@ -2252,7 +2252,7 @@ PRUnichar
 ch
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -2266,7 +2266,7 @@ t
 ch
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -2280,7 +2280,7 @@ n
 ch
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -2301,7 +2301,7 @@ if
 ch
 =
 =
-PRUnichar
+char16_t
 (
 '
 -
@@ -2324,7 +2324,7 @@ aIndex
 )
 =
 =
-PRUnichar
+char16_t
 (
 '
 -
@@ -2507,7 +2507,7 @@ kNotFound
 )
 break
 ;
-PRUnichar
+char16_t
 nextChar
 =
 aBuffer
@@ -2524,7 +2524,7 @@ if
 nextChar
 =
 =
-PRUnichar
+char16_t
 (
 '
 !
@@ -2606,7 +2606,7 @@ if
 nextChar
 =
 =
-PRUnichar
+char16_t
 (
 '
 ?
@@ -2781,7 +2781,7 @@ if
 present
 )
 .
-PRUnichar
+char16_t
 lit
 =
 aBuffer
@@ -2797,7 +2797,7 @@ if
 lit
 !
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -2811,7 +2811,7 @@ PRUnichar
 lit
 !
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -2889,7 +2889,7 @@ PublicIDEnd
 1
 )
 ;
-PRUnichar
+char16_t
 next
 =
 aBuffer
@@ -2904,7 +2904,7 @@ if
 next
 =
 =
-PRUnichar
+char16_t
 (
 '
 >
@@ -2963,7 +2963,7 @@ if
 next
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -2977,7 +2977,7 @@ PRUnichar
 next
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -3047,7 +3047,7 @@ if
 next
 =
 =
-PRUnichar
+char16_t
 (
 '
 [
@@ -3177,7 +3177,7 @@ tmpIndex
 6
 )
 ;
-PRUnichar
+char16_t
 next
 =
 aBuffer
@@ -3192,7 +3192,7 @@ if
 next
 !
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -3204,7 +3204,7 @@ PRUnichar
 next
 !
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -3265,7 +3265,7 @@ SystemIDEnd
 )
 ;
 }
-PRUnichar
+char16_t
 nextChar
 =
 aBuffer
@@ -3280,7 +3280,7 @@ if
 nextChar
 =
 =
-PRUnichar
+char16_t
 (
 '
 [
@@ -3299,7 +3299,7 @@ if
 nextChar
 !
 =
-PRUnichar
+char16_t
 (
 '
 >
@@ -8777,7 +8777,7 @@ mParserContext
 mDTDMode
 )
 {
-PRUnichar
+char16_t
 buf
 [
 1025
@@ -12049,7 +12049,7 @@ thisTag
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 '

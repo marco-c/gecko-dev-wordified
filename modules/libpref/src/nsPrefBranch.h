@@ -1101,7 +1101,7 @@ const
 char
 *
 aPrefName
-PRUnichar
+char16_t
 *
 *
 return_buf
@@ -1298,7 +1298,7 @@ private
 NS_IMETHOD
 GetData
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -1307,7 +1307,7 @@ NS_IMETHOD
 SetData
 (
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -1318,7 +1318,7 @@ SetDataWithLength
 uint32_t
 aLength
 const
-PRUnichar
+char16_t
 *
 aData
 )

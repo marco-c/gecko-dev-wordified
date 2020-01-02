@@ -3471,7 +3471,7 @@ First
 )
 fileExtToUse
 =
-PRUnichar
+char16_t
 (
 '
 .

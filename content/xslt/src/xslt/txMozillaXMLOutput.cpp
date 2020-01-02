@@ -4594,7 +4594,7 @@ versions
 .
 static
 const
-PRUnichar
+char16_t
 kOneDotZero
 [
 ]

@@ -488,7 +488,7 @@ nsresult
 GetMostRecentWindow
 (
 const
-PRUnichar
+char16_t
 *
 aType
 nsIDOMWindow
@@ -5687,7 +5687,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -6351,7 +6351,7 @@ aString
 .
 Insert
 (
-PRUnichar
+char16_t
 (
 '
 \

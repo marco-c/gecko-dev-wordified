@@ -221,7 +221,7 @@ char
 mName
 ;
 const
-PRUnichar
+char16_t
 *
 mNameUTF16
 ;

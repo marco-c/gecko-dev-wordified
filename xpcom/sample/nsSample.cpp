@@ -902,7 +902,7 @@ foopy
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 f
@@ -914,7 +914,7 @@ foopy
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 o
@@ -926,7 +926,7 @@ foopy
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 o
@@ -938,7 +938,7 @@ foopy
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 p
@@ -950,7 +950,7 @@ foopy
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 y
@@ -959,7 +959,7 @@ y
 )
 ;
 const
-PRUnichar
+char16_t
 *
 f
 =

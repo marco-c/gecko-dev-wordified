@@ -784,7 +784,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -836,7 +836,7 @@ nsIPrefBranch
 *
 prefBranch
 const
-PRUnichar
+char16_t
 *
 pref
 )
@@ -1461,7 +1461,7 @@ start
 =
 =
 (
-PRUnichar
+char16_t
 )
 '
 .
@@ -2144,7 +2144,7 @@ start
 +
 =
 =
-PRUnichar
+char16_t
 (
 '
 .
@@ -2185,7 +2185,7 @@ outUTF16
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 .
@@ -2890,7 +2890,7 @@ start
 end
 )
 {
-PRUnichar
+char16_t
 curChar
 ;
 curChar
@@ -3017,7 +3017,7 @@ out
 Append
 (
 (
-PRUnichar
+char16_t
 )
 H_SURROGATE
 (
@@ -3031,7 +3031,7 @@ out
 Append
 (
 (
-PRUnichar
+char16_t
 )
 L_SURROGATE
 (
@@ -3047,7 +3047,7 @@ out
 Append
 (
 (
-PRUnichar
+char16_t
 )
 *
 in
@@ -3268,7 +3268,7 @@ buffer
 for
 RACE
 encoder
-PRUnichar
+char16_t
 temp
 [
 kMaxDNSNodeLen
@@ -3308,7 +3308,7 @@ Length
 ]
 =
 (
-PRUnichar
+char16_t
 )
 '
 \

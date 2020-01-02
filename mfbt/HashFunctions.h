@@ -1986,7 +1986,7 @@ On
 Windows
 wchar_t
 (
-PRUnichar
+char16_t
 )
 is
 not

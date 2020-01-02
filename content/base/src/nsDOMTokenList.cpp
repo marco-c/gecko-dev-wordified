@@ -1180,7 +1180,7 @@ output
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '

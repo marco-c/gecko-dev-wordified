@@ -2445,7 +2445,7 @@ mTextNode
 uint32_t
 mOffset
 ;
-PRUnichar
+char16_t
 mChar
 ;
 WSPoint
@@ -2473,7 +2473,7 @@ nsIDOMNode
 aNode
 int32_t
 aOffset
-PRUnichar
+char16_t
 aChar
 )
 :
@@ -2539,7 +2539,7 @@ nsIContent
 aTextNode
 int32_t
 aOffset
-PRUnichar
+char16_t
 aChar
 )
 :
@@ -2959,7 +2959,7 @@ bool
 after
 )
 ;
-PRUnichar
+char16_t
 GetCharAt
 (
 nsIContent

@@ -263,7 +263,7 @@ NS_IMETHOD
 Convert
 (
 const
-PRUnichar
+char16_t
 *
 inString
 char
@@ -287,7 +287,7 @@ NS_IMETHOD
 DoCharsetConversion
 (
 const
-PRUnichar
+char16_t
 *
 inString
 char

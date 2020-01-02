@@ -4571,7 +4571,7 @@ aString
 {
 static
 const
-PRUnichar
+char16_t
 overrides
 [
 2
@@ -4626,7 +4626,7 @@ gfxOS2FontGroup
 MakeTextRun
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -4742,7 +4742,7 @@ x
 :
 MakeTextRun
 (
-PRUnichar
+char16_t
 %
 s
 %

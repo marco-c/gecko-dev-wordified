@@ -330,7 +330,7 @@ const
 nsAFlatString
 &
 aProp
-PRUnichar
+char16_t
 *
 *
 aResult
@@ -449,7 +449,7 @@ char
 *
 aCharset
 const
-PRUnichar
+char16_t
 *
 aProp
 nsAString
@@ -1600,7 +1600,7 @@ char
 *
 aCharset
 const
-PRUnichar
+char16_t
 *
 aProp
 nsAString

@@ -233,7 +233,7 @@ aTag
 ;
 }
 const
-PRUnichar
+char16_t
 *
 nsParserService
 :

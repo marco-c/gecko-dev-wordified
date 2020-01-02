@@ -2348,7 +2348,7 @@ aRequest
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMessage
 )
@@ -2411,7 +2411,7 @@ char
 *
 topic
 const
-PRUnichar
+char16_t
 *
 data
 )

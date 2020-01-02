@@ -4609,7 +4609,7 @@ const
 uint8_t
 *
 aBuf
-PRUnichar
+char16_t
 aCh
 )
 ;
@@ -5202,7 +5202,7 @@ inline
 bool
 PotentialRTLChar
 (
-PRUnichar
+char16_t
 aCh
 )
 {

@@ -469,7 +469,7 @@ len
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -560,7 +560,7 @@ nullptr
 )
 ;
 const
-PRUnichar
+char16_t
 *
 versionName
 =
@@ -646,7 +646,7 @@ forget
 ;
 }
 const
-PRUnichar
+char16_t
 *
 nsEntityConverter
 :
@@ -873,7 +873,7 @@ nsEntityConverter
 :
 ConvertToEntity
 (
-PRUnichar
+char16_t
 character
 uint32_t
 entityVersion
@@ -1099,12 +1099,12 @@ nsEntityConverter
 ConvertToEntities
 (
 const
-PRUnichar
+char16_t
 *
 inString
 uint32_t
 entityVersion
-PRUnichar
+char16_t
 *
 *
 _retval
@@ -1244,7 +1244,7 @@ nsXPIDLString
 value
 ;
 const
-PRUnichar
+char16_t
 *
 entity
 =

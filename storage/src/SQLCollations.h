@@ -1190,7 +1190,7 @@ non
 null
 -
 terminated
-PRUnichar
+char16_t
 *
 buffer
 .
@@ -1236,7 +1236,7 @@ non
 null
 -
 terminated
-PRUnichar
+char16_t
 *
 buffer
 .
@@ -1395,7 +1395,7 @@ non
 null
 -
 terminated
-PRUnichar
+char16_t
 *
 buffer
 .
@@ -1441,7 +1441,7 @@ non
 null
 -
 terminated
-PRUnichar
+char16_t
 *
 buffer
 .
@@ -1600,7 +1600,7 @@ non
 null
 -
 terminated
-PRUnichar
+char16_t
 *
 buffer
 .
@@ -1646,7 +1646,7 @@ non
 null
 -
 terminated
-PRUnichar
+char16_t
 *
 buffer
 .
@@ -1803,7 +1803,7 @@ non
 null
 -
 terminated
-PRUnichar
+char16_t
 *
 buffer
 .
@@ -1849,7 +1849,7 @@ non
 null
 -
 terminated
-PRUnichar
+char16_t
 *
 buffer
 .

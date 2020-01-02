@@ -236,7 +236,7 @@ h
 /
 /
 for
-PRUnichar
+char16_t
 NS_IMETHODIMP
 NS_IMPL_ISUPPORTS1
 (
@@ -260,7 +260,7 @@ EnumerateAllFonts
 uint32_t
 *
 aCount
-PRUnichar
+char16_t
 *
 *
 *
@@ -294,7 +294,7 @@ aGeneric
 uint32_t
 *
 aCount
-PRUnichar
+char16_t
 *
 *
 *
@@ -430,14 +430,14 @@ return
 NS_OK
 ;
 }
-PRUnichar
+char16_t
 *
 *
 fs
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 *
 >
@@ -455,7 +455,7 @@ Length
 *
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 )
@@ -556,7 +556,7 @@ const
 char
 *
 aGeneric
-PRUnichar
+char16_t
 *
 *
 aResult
@@ -622,10 +622,10 @@ nsThebesFontEnumerator
 GetStandardFamilyName
 (
 const
-PRUnichar
+char16_t
 *
 aName
-PRUnichar
+char16_t
 *
 *
 aResult

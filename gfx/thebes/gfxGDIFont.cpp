@@ -571,7 +571,7 @@ gfxContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -2095,7 +2095,7 @@ dc
 GetDC
 (
 )
-PRUnichar
+char16_t
 (
 '
 x

@@ -751,7 +751,7 @@ nsString
 mUnicodeFile
 ;
 static
-PRUnichar
+char16_t
 *
 mLastUsedUnicodeDirectory
 ;

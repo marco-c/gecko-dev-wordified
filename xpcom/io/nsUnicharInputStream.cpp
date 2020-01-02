@@ -262,7 +262,7 @@ StringUnicharInputStream
 :
 Read
 (
-PRUnichar
+char16_t
 *
 aBuf
 uint32_t
@@ -303,7 +303,7 @@ iter
 )
 ;
 const
-PRUnichar
+char16_t
 *
 us
 =
@@ -340,7 +340,7 @@ us
 mPos
 sizeof
 (
-PRUnichar
+char16_t
 )
 *
 amount
@@ -726,7 +726,7 @@ mByteData
 ;
 FallibleTArray
 <
-PRUnichar
+char16_t
 >
 mUnicharData
 ;
@@ -857,7 +857,7 @@ UTF8InputStream
 :
 Read
 (
-PRUnichar
+char16_t
 *
 aBuf
 uint32_t
@@ -960,7 +960,7 @@ readCount
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -1249,7 +1249,7 @@ aCount
 ;
 }
 const
-PRUnichar
+char16_t
 *
 buf
 =

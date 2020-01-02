@@ -6269,7 +6269,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -8710,7 +8710,7 @@ if
 iter
 =
 =
-PRUnichar
+char16_t
 (
 '
 ?
@@ -8741,7 +8741,7 @@ if
 iter
 =
 =
-PRUnichar
+char16_t
 (
 '
 r
@@ -8765,7 +8765,7 @@ done_parsing
 iter
 =
 =
-PRUnichar
+char16_t
 (
 '
 d
@@ -8789,7 +8789,7 @@ done_parsing
 iter
 =
 =
-PRUnichar
+char16_t
 (
 '
 f
@@ -8813,7 +8813,7 @@ done_parsing
 iter
 =
 =
-PRUnichar
+char16_t
 (
 '
 :
@@ -8968,7 +8968,7 @@ if
 iter
 =
 =
-PRUnichar
+char16_t
 (
 '
 ?
@@ -9070,7 +9070,7 @@ first
 backup
 )
 ;
-PRUnichar
+char16_t
 c
 =
 0
@@ -9094,7 +9094,7 @@ if
 c
 =
 =
-PRUnichar
+char16_t
 (
 '
 '
@@ -9106,7 +9106,7 @@ PRUnichar
 c
 =
 =
-PRUnichar
+char16_t
 (
 '
 ^
@@ -9174,7 +9174,7 @@ if
 c
 !
 =
-PRUnichar
+char16_t
 (
 '
 ^
@@ -12162,7 +12162,7 @@ uri
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 ?
@@ -12976,7 +12976,7 @@ subject
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 ?
@@ -13109,7 +13109,7 @@ value
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 ?
@@ -13548,7 +13548,7 @@ subject
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 ?
@@ -13672,7 +13672,7 @@ object
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 ?

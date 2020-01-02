@@ -4945,7 +4945,7 @@ IsEmpty
 )
 {
 const
-PRUnichar
+char16_t
 *
 strings
 [
@@ -4987,7 +4987,7 @@ nsmessage
 else
 {
 const
-PRUnichar
+char16_t
 *
 strings
 [
@@ -5031,7 +5031,7 @@ default_user
 )
 ;
 const
-PRUnichar
+char16_t
 *
 strings
 [
@@ -5125,7 +5125,7 @@ retval
 =
 false
 ;
-PRUnichar
+char16_t
 *
 user
 =
@@ -6343,7 +6343,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

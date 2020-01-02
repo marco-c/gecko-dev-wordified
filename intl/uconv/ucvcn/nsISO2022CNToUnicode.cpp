@@ -138,7 +138,7 @@ char
 aSrc
 int32_t
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -264,7 +264,7 @@ char
 aSrc
 int32_t
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -401,7 +401,7 @@ aSrc
 int32_t
 *
 aSrcLen
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -438,7 +438,7 @@ char
 )
 aSrc
 ;
-PRUnichar
+char16_t
 *
 destEnd
 =
@@ -447,7 +447,7 @@ aDest
 *
 aDestLen
 ;
-PRUnichar
+char16_t
 *
 dest
 =
@@ -519,7 +519,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -572,7 +572,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 ESC
 ;
@@ -591,7 +591,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -679,7 +679,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 ESC
 ;
@@ -689,7 +689,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -709,7 +709,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -781,7 +781,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 ESC
 ;
@@ -791,7 +791,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -802,7 +802,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 )
@@ -823,7 +823,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -881,7 +881,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 ESC
 ;
@@ -891,7 +891,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -902,7 +902,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 )
@@ -914,7 +914,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 A
@@ -935,7 +935,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -1080,7 +1080,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -1215,7 +1215,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 mData
 ;
@@ -1234,7 +1234,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -1318,7 +1318,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -1376,7 +1376,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 ESC
 ;
@@ -1386,7 +1386,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -1397,7 +1397,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 )
@@ -1409,7 +1409,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 G
@@ -1430,7 +1430,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -1575,7 +1575,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -1710,7 +1710,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 mData
 ;
@@ -1729,7 +1729,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -1813,7 +1813,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -1868,7 +1868,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 ESC
 ;
@@ -1878,7 +1878,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -1889,7 +1889,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 *
@@ -1910,7 +1910,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -1964,7 +1964,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 ESC
 ;
@@ -1974,7 +1974,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -1985,7 +1985,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 *
@@ -1997,7 +1997,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 H
@@ -2018,7 +2018,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -2093,7 +2093,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 ESC
 ;
@@ -2103,7 +2103,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -2114,7 +2114,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 *
@@ -2126,7 +2126,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 H
@@ -2138,7 +2138,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 ESC
 ;
@@ -2157,7 +2157,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -2303,7 +2303,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -2465,7 +2465,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 mData
 ;
@@ -2484,7 +2484,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -2550,7 +2550,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -2637,7 +2637,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -2712,7 +2712,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 ESC
 ;
@@ -2722,7 +2722,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -2733,7 +2733,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 +
@@ -2754,7 +2754,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -2808,7 +2808,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 ESC
 ;
@@ -2818,7 +2818,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -2829,7 +2829,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 +
@@ -2841,7 +2841,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 I
@@ -2866,7 +2866,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -2941,7 +2941,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 ESC
 ;
@@ -2951,7 +2951,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -2962,7 +2962,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 +
@@ -2974,7 +2974,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 I
@@ -2990,7 +2990,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 ESC
 ;
@@ -3009,7 +3009,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -3155,7 +3155,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -3317,7 +3317,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 mData
 ;
@@ -3336,7 +3336,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -3402,7 +3402,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -3489,7 +3489,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src

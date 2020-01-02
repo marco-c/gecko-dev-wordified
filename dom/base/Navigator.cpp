@@ -1939,7 +1939,7 @@ aLanguage
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 _
@@ -1953,7 +1953,7 @@ Replace
 (
 2
 1
-PRUnichar
+char16_t
 (
 '
 -
@@ -10499,7 +10499,7 @@ aAppVersion
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 )

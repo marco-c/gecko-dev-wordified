@@ -283,7 +283,7 @@ mByteData
 ;
 FallibleTArray
 <
-PRUnichar
+char16_t
 >
 mUnicharData
 ;
@@ -305,14 +305,14 @@ mUnicharDataOffset
 uint32_t
 mUnicharDataLength
 ;
-PRUnichar
+char16_t
 mReplacementChar
 ;
 nsAutoPtr
 <
 nsLineBuffer
 <
-PRUnichar
+char16_t
 >
 >
 mLineBuffer

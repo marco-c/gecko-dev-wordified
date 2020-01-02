@@ -334,7 +334,7 @@ protected
 pseudo
 -
 constants
-PRUnichar
+char16_t
 *
 mText
 ;
@@ -351,7 +351,7 @@ nsresult
 AddAttributes
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAttributes
@@ -367,7 +367,7 @@ nsresult
 OpenRoot
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAttributes
@@ -383,7 +383,7 @@ nsresult
 OpenTag
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAttributes
@@ -480,7 +480,7 @@ nsresult
 OpenScript
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAttributes
@@ -493,7 +493,7 @@ static
 bool
 IsDataInBuffer
 (
-PRUnichar
+char16_t
 *
 aBuffer
 int32_t
@@ -517,7 +517,7 @@ nsresult
 AddText
 (
 const
-PRUnichar
+char16_t
 *
 aText
 int32_t
@@ -534,7 +534,7 @@ nsresult
 NormalizeAttributeString
 (
 const
-PRUnichar
+char16_t
 *
 aExpatName
 nsAttrName

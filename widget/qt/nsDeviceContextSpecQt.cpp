@@ -900,7 +900,7 @@ const
 nsAString
 &
 aTitle
-PRUnichar
+char16_t
 *
 aPrintToFileName
 int32_t
@@ -1259,7 +1259,7 @@ nsDependentString
 (
 (
 const
-PRUnichar
+char16_t
 *
 )
 qprinters
@@ -1292,7 +1292,7 @@ nsPrinterEnumeratorQt
 :
 GetDefaultPrinterName
 (
-PRUnichar
+char16_t
 *
 *
 aDefaultPrinterName
@@ -1342,7 +1342,7 @@ nsDependentString
 (
 (
 const
-PRUnichar
+char16_t
 *
 )
 defprinter
@@ -1395,7 +1395,7 @@ nsPrinterEnumeratorQt
 InitPrintSettingsFromPrinter
 (
 const
-PRUnichar
+char16_t
 *
 aPrinterName
 nsIPrintSettings
@@ -1441,7 +1441,7 @@ nsPrinterEnumeratorQt
 DisplayPropertiesDlg
 (
 const
-PRUnichar
+char16_t
 *
 aPrinter
 nsIPrintSettings

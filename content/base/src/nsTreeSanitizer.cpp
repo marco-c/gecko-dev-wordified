@@ -8608,7 +8608,7 @@ continue
 ;
 }
 const
-PRUnichar
+char16_t
 *
 localStr
 =

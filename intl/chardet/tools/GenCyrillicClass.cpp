@@ -815,7 +815,7 @@ uint8_t
 byte
 )
 {
-PRUnichar
+char16_t
 ubuf
 [
 2

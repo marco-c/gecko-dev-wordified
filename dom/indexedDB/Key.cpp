@@ -1790,7 +1790,7 @@ Length
 2
 ;
 const
-PRUnichar
+char16_t
 *
 start
 =
@@ -1801,7 +1801,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -1814,7 +1814,7 @@ EndReading
 for
 (
 const
-PRUnichar
+char16_t
 *
 iter
 =
@@ -1918,7 +1918,7 @@ string
 for
 (
 const
-PRUnichar
+char16_t
 *
 iter
 =
@@ -1965,10 +1965,10 @@ iter
 TWO_BYTE_LIMIT
 )
 {
-PRUnichar
+char16_t
 c
 =
-PRUnichar
+char16_t
 (
 *
 iter
@@ -2273,7 +2273,7 @@ aEnd
 iter
 ;
 }
-PRUnichar
+char16_t
 *
 out
 ;
@@ -2344,11 +2344,11 @@ iter
 )
 )
 {
-PRUnichar
+char16_t
 c
 =
 (
-PRUnichar
+char16_t
 (
 *
 (
@@ -2465,7 +2465,7 @@ THREE_BYTE_SHIFT
 out
 =
 (
-PRUnichar
+char16_t
 )
 c
 ;

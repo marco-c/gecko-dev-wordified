@@ -4886,7 +4886,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 data
 )
@@ -11525,7 +11525,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -13391,7 +13391,7 @@ nsISupports
 *
 aSubject
 const
-PRUnichar
+char16_t
 *
 aData
 )

@@ -212,18 +212,18 @@ nsReadEndCondition
 public
 :
 const
-PRUnichar
+char16_t
 *
 mChars
 ;
-PRUnichar
+char16_t
 mFilter
 ;
 explicit
 nsReadEndCondition
 (
 const
-PRUnichar
+char16_t
 *
 aTerminateChars
 )
@@ -379,7 +379,7 @@ status
 nsresult
 GetChar
 (
-PRUnichar
+char16_t
 &
 ch
 )
@@ -433,7 +433,7 @@ status
 nsresult
 Peek
 (
-PRUnichar
+char16_t
 &
 ch
 uint32_t
@@ -494,7 +494,7 @@ code
 nsresult
 SkipOver
 (
-PRUnichar
+char16_t
 aSkipChar
 )
 ;
@@ -722,7 +722,7 @@ ReadUntil
 nsAString
 &
 aString
-PRUnichar
+char16_t
 aTerminal
 bool
 addTerminal
@@ -1292,7 +1292,7 @@ ReplaceCharacter
 nsScannerIterator
 &
 aPosition
-PRUnichar
+char16_t
 aChar
 )
 ;
@@ -1430,7 +1430,7 @@ uses
 void
 OverrideReplacementCharacter
 (
-PRUnichar
+char16_t
 aReplacementCharacter
 )
 ;
@@ -1587,7 +1587,7 @@ mIncremental
 bool
 mHasInvalidCharacter
 ;
-PRUnichar
+char16_t
 mReplacementCharacter
 ;
 int32_t

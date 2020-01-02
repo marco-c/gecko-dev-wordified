@@ -11007,14 +11007,14 @@ nullptr
 }
 else
 {
-PRUnichar
+char16_t
 uniChar
 =
 ToLowerCase
 (
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 charCode

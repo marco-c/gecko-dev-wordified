@@ -661,7 +661,7 @@ nsTextNode
 AppendTextForNormalize
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t

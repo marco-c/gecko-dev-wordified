@@ -2001,7 +2001,7 @@ colnum
 bool
 ExpectSymbol
 (
-PRUnichar
+char16_t
 aSymbol
 bool
 aSkipWS
@@ -2040,7 +2040,7 @@ EOF
 bool
 SkipUntil
 (
-PRUnichar
+char16_t
 aStopSymbol
 )
 ;
@@ -2048,7 +2048,7 @@ void
 SkipUntilOneOf
 (
 const
-PRUnichar
+char16_t
 *
 aStopSymbolChars
 )
@@ -2080,7 +2080,7 @@ character
 typedef
 nsAutoTArray
 <
-PRUnichar
+char16_t
 16
 >
 StopSymbolCharStack
@@ -2145,7 +2145,7 @@ content
 bool
 SkipBalancedContentUntil
 (
-PRUnichar
+char16_t
 aStopSymbol
 )
 ;
@@ -2902,7 +2902,7 @@ nsCSSSelectorList
 *
 &
 aListHead
-PRUnichar
+char16_t
 aStopChar
 )
 ;
@@ -2921,7 +2921,7 @@ ParseSelector
 nsCSSSelectorList
 *
 aList
-PRUnichar
+char16_t
 aPrevCombinator
 )
 ;
@@ -6553,7 +6553,7 @@ First
 )
 =
 =
-PRUnichar
+char16_t
 (
 '
 -
@@ -6584,7 +6584,7 @@ First
 )
 =
 =
-PRUnichar
+char16_t
 (
 '
 _
@@ -8422,7 +8422,7 @@ ParseSelectorList
 (
 *
 aSelectorList
-PRUnichar
+char16_t
 (
 0
 )
@@ -10047,7 +10047,7 @@ constructs
 .
 nsAutoTArray
 <
-PRUnichar
+char16_t
 16
 >
 stack
@@ -12629,7 +12629,7 @@ CSSParserImpl
 :
 ExpectSymbol
 (
-PRUnichar
+char16_t
 aSymbol
 bool
 aSkipWS
@@ -13260,7 +13260,7 @@ mToken
 mType
 )
 {
-PRUnichar
+char16_t
 symbol
 =
 mToken
@@ -14925,36 +14925,36 @@ aInAtRule
 )
 {
 const
-PRUnichar
+char16_t
 stopChars
 [
 ]
 =
 {
-PRUnichar
+char16_t
 (
 '
 '
 )
-PRUnichar
+char16_t
 (
 '
 {
 '
 )
-PRUnichar
+char16_t
 (
 '
 ;
 '
 )
-PRUnichar
+char16_t
 (
 '
 }
 '
 )
-PRUnichar
+char16_t
 (
 0
 )
@@ -15184,7 +15184,7 @@ mIdent
 )
 ;
 const
-PRUnichar
+char16_t
 *
 featureString
 ;
@@ -21165,7 +21165,7 @@ CSSParserImpl
 :
 SkipUntil
 (
-PRUnichar
+char16_t
 aStopSymbol
 )
 {
@@ -21178,7 +21178,7 @@ mToken
 ;
 nsAutoTArray
 <
-PRUnichar
+char16_t
 16
 >
 stack
@@ -21220,7 +21220,7 @@ tk
 mType
 )
 {
-PRUnichar
+char16_t
 symbol
 =
 tk
@@ -21408,7 +21408,7 @@ CSSParserImpl
 :
 SkipBalancedContentUntil
 (
-PRUnichar
+char16_t
 aStopSymbol
 )
 {
@@ -21421,7 +21421,7 @@ mToken
 ;
 nsAutoTArray
 <
-PRUnichar
+char16_t
 16
 >
 stack
@@ -21463,7 +21463,7 @@ tk
 mType
 )
 {
-PRUnichar
+char16_t
 symbol
 =
 tk
@@ -21687,7 +21687,7 @@ CSSParserImpl
 SkipUntilOneOf
 (
 const
-PRUnichar
+char16_t
 *
 aStopSymbolChars
 )
@@ -21734,7 +21734,7 @@ tk
 mType
 )
 {
-PRUnichar
+char16_t
 symbol
 =
 tk
@@ -21944,7 +21944,7 @@ tk
 mType
 )
 {
-PRUnichar
+char16_t
 symbol
 =
 tk
@@ -22130,7 +22130,7 @@ tk
 mType
 )
 {
-PRUnichar
+char16_t
 symbol
 =
 tk
@@ -22427,7 +22427,7 @@ colnum
 ParseSelectorList
 (
 slist
-PRUnichar
+char16_t
 (
 '
 {
@@ -22614,7 +22614,7 @@ nsCSSSelectorList
 *
 &
 aListHead
-PRUnichar
+char16_t
 aStopChar
 )
 {
@@ -22720,7 +22720,7 @@ if
 aStopChar
 =
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -22827,7 +22827,7 @@ mSymbol
 aStopChar
 !
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -22961,7 +22961,7 @@ nsCSSSelectorList
 aList
 )
 {
-PRUnichar
+char16_t
 combinator
 =
 0
@@ -23024,7 +23024,7 @@ here
 }
 combinator
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -23058,7 +23058,7 @@ here
 }
 combinator
 =
-PRUnichar
+char16_t
 (
 '
 '
@@ -23087,7 +23087,7 @@ combinator
 }
 else
 {
-PRUnichar
+char16_t
 symbol
 =
 mToken
@@ -25441,7 +25441,7 @@ buffer
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 :
@@ -29015,7 +29015,7 @@ getter_Transfers
 (
 slist
 )
-PRUnichar
+char16_t
 (
 '
 )
@@ -29225,7 +29225,7 @@ ParseSelector
 nsCSSSelectorList
 *
 aList
-PRUnichar
+char16_t
 aPrevCombinator
 )
 {
@@ -36782,7 +36782,7 @@ attr
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 |
@@ -43816,7 +43816,7 @@ stateAtError
 )
 ;
 const
-PRUnichar
+char16_t
 stopChars
 [
 ]
@@ -59970,7 +59970,7 @@ aFamily
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -60304,7 +60304,7 @@ family
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -72973,7 +72973,7 @@ return
 true
 ;
 }
-PRUnichar
+char16_t
 c
 =
 stack

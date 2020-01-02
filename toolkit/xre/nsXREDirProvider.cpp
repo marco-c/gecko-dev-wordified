@@ -4469,7 +4469,7 @@ NS_OK
 }
 static
 const
-PRUnichar
+char16_t
 kStartup
 [
 ]
@@ -4673,7 +4673,7 @@ safeModeNecessary
 {
 static
 const
-PRUnichar
+char16_t
 kCrashed
 [
 ]
@@ -4846,7 +4846,7 @@ obsSvc
 {
 static
 const
-PRUnichar
+char16_t
 kShutdownPersist
 [
 ]

@@ -122,7 +122,7 @@ char
 *
 &
 src
-PRUnichar
+char16_t
 *
 &
 dst
@@ -193,7 +193,7 @@ dst
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -629,7 +629,7 @@ dst
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src

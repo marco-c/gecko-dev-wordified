@@ -908,11 +908,11 @@ char
 *
 aBundleURI
 const
-PRUnichar
+char16_t
 *
 aError
 const
-PRUnichar
+char16_t
 *
 *
 aFormatStrings

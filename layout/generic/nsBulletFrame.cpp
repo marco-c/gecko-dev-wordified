@@ -2520,19 +2520,19 @@ OtherDecimalToText
 (
 int32_t
 ordinal
-PRUnichar
+char16_t
 zeroChar
 nsString
 &
 result
 )
 {
-PRUnichar
+char16_t
 diff
 =
 zeroChar
 -
-PRUnichar
+char16_t
 (
 '
 0
@@ -2608,7 +2608,7 @@ ordinal
 result
 )
 ;
-PRUnichar
+char16_t
 *
 p
 =
@@ -2704,12 +2704,12 @@ return
 false
 ;
 }
-PRUnichar
+char16_t
 diff
 =
 0x0BE6
 -
-PRUnichar
+char16_t
 (
 '
 0
@@ -2785,7 +2785,7 @@ ordinal
 result
 )
 ;
-PRUnichar
+char16_t
 *
 p
 =
@@ -2819,7 +2819,7 @@ if
 p
 !
 =
-PRUnichar
+char16_t
 (
 '
 0
@@ -2937,7 +2937,7 @@ Length
 )
 ;
 const
-PRUnichar
+char16_t
 *
 dp
 =
@@ -2948,7 +2948,7 @@ get
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -3002,7 +3002,7 @@ addOn
 .
 Append
 (
-PRUnichar
+char16_t
 (
 achars
 [
@@ -3023,7 +3023,7 @@ addOn
 .
 Append
 (
-PRUnichar
+char16_t
 (
 achars
 [
@@ -3044,7 +3044,7 @@ addOn
 .
 Append
 (
-PRUnichar
+char16_t
 (
 achars
 [
@@ -3064,7 +3064,7 @@ addOn
 .
 Append
 (
-PRUnichar
+char16_t
 (
 achars
 [
@@ -3100,7 +3100,7 @@ addOn
 .
 Append
 (
-PRUnichar
+char16_t
 (
 bchars
 [
@@ -3133,7 +3133,7 @@ addOn
 .
 Append
 (
-PRUnichar
+char16_t
 (
 achars
 [
@@ -3154,7 +3154,7 @@ addOn
 .
 Append
 (
-PRUnichar
+char16_t
 (
 achars
 [
@@ -3167,7 +3167,7 @@ addOn
 .
 Append
 (
-PRUnichar
+char16_t
 (
 achars
 [
@@ -3203,7 +3203,7 @@ ALPHA_SIZE
 26
 static
 const
-PRUnichar
+char16_t
 gLowerAlphaChars
 [
 ALPHA_SIZE
@@ -3278,7 +3278,7 @@ Z
 ;
 static
 const
-PRUnichar
+char16_t
 gUpperAlphaChars
 [
 ALPHA_SIZE
@@ -3372,7 +3372,7 @@ by
 momoi
 static
 const
-PRUnichar
+char16_t
 gKatakanaChars
 [
 KATAKANA_CHARS_SIZE
@@ -3514,7 +3514,7 @@ HIRAGANA_CHARS_SIZE
 48
 static
 const
-PRUnichar
+char16_t
 gHiraganaChars
 [
 HIRAGANA_CHARS_SIZE
@@ -3665,7 +3665,7 @@ The
 World
 static
 const
-PRUnichar
+char16_t
 gHiraganaIrohaChars
 [
 HIRAGANA_IROHA_CHARS_SIZE
@@ -3803,7 +3803,7 @@ KATAKANA_IROHA_CHARS_SIZE
 47
 static
 const
-PRUnichar
+char16_t
 gKatakanaIrohaChars
 [
 KATAKANA_IROHA_CHARS_SIZE
@@ -3958,7 +3958,7 @@ here
 .
 static
 const
-PRUnichar
+char16_t
 gLowerGreekChars
 [
 LOWER_GREEK_CHARS_SIZE
@@ -4031,7 +4031,7 @@ CJK_HEAVENLY_STEM_CHARS_SIZE
 10
 static
 const
-PRUnichar
+char16_t
 gCJKHeavenlyStemChars
 [
 CJK_HEAVENLY_STEM_CHARS_SIZE
@@ -4056,7 +4056,7 @@ CJK_EARTHLY_BRANCH_CHARS_SIZE
 12
 static
 const
-PRUnichar
+char16_t
 gCJKEarthlyBranchChars
 [
 CJK_EARTHLY_BRANCH_CHARS_SIZE
@@ -4083,7 +4083,7 @@ HANGUL_CHARS_SIZE
 14
 static
 const
-PRUnichar
+char16_t
 gHangulChars
 [
 HANGUL_CHARS_SIZE
@@ -4112,7 +4112,7 @@ HANGUL_CONSONANT_CHARS_SIZE
 14
 static
 const
-PRUnichar
+char16_t
 gHangulConsonantChars
 [
 HANGUL_CONSONANT_CHARS_SIZE
@@ -4210,7 +4210,7 @@ ETHIOPIC_HALEHAME_CHARS_SIZE
 26
 static
 const
-PRUnichar
+char16_t
 gEthiopicHalehameChars
 [
 ETHIOPIC_HALEHAME_CHARS_SIZE
@@ -4251,7 +4251,7 @@ ETHIOPIC_HALEHAME_AM_CHARS_SIZE
 33
 static
 const
-PRUnichar
+char16_t
 gEthiopicHalehameAmChars
 [
 ETHIOPIC_HALEHAME_AM_CHARS_SIZE
@@ -4299,7 +4299,7 @@ ETHIOPIC_HALEHAME_TI_ER_CHARS_SIZE
 31
 static
 const
-PRUnichar
+char16_t
 gEthiopicHalehameTiErChars
 [
 ETHIOPIC_HALEHAME_TI_ER_CHARS_SIZE
@@ -4345,7 +4345,7 @@ ETHIOPIC_HALEHAME_TI_ET_CHARS_SIZE
 34
 static
 const
-PRUnichar
+char16_t
 gEthiopicHalehameTiEtChars
 [
 ETHIOPIC_HALEHAME_TI_ET_CHARS_SIZE
@@ -4443,14 +4443,14 @@ nsString
 &
 result
 const
-PRUnichar
+char16_t
 *
 chars
 int32_t
 aBase
 )
 {
-PRUnichar
+char16_t
 buf
 [
 NUM_BUF_SIZE
@@ -4534,7 +4534,7 @@ true
 }
 static
 const
-PRUnichar
+char16_t
 gCJKDecimalChars
 [
 10
@@ -4563,7 +4563,7 @@ nsString
 &
 result
 const
-PRUnichar
+char16_t
 *
 chars
 )
@@ -4579,7 +4579,7 @@ return
 false
 ;
 }
-PRUnichar
+char16_t
 buf
 [
 NUM_BUF_SIZE
@@ -4647,23 +4647,23 @@ struct
 CJKIdeographicData
 {
 const
-PRUnichar
+char16_t
 *
 negative
 ;
-PRUnichar
+char16_t
 digit
 [
 10
 ]
 ;
-PRUnichar
+char16_t
 unit
 [
 3
 ]
 ;
-PRUnichar
+char16_t
 unit10K
 [
 2
@@ -4679,7 +4679,7 @@ informal
 ;
 static
 const
-PRUnichar
+char16_t
 gJapaneseNegative
 [
 ]
@@ -4794,7 +4794,7 @@ informal
 ;
 static
 const
-PRUnichar
+char16_t
 gKoreanNegative
 [
 ]
@@ -4960,7 +4960,7 @@ informal
 ;
 static
 const
-PRUnichar
+char16_t
 gSimpChineseNegative
 [
 ]
@@ -5072,7 +5072,7 @@ informal
 ;
 static
 const
-PRUnichar
+char16_t
 gTradChineseNegative
 [
 ]
@@ -5198,7 +5198,7 @@ CJKIdeographicData
 data
 )
 {
-PRUnichar
+char16_t
 buf
 [
 NUM_BUF_SIZE
@@ -5644,7 +5644,7 @@ HEBREW_GERESH
 0x05F3
 static
 const
-PRUnichar
+char16_t
 gHebrewDigit
 [
 22
@@ -5998,7 +5998,7 @@ thousandsGroup
 Append
 (
 (
-PRUnichar
+char16_t
 )
 HEBREW_GERESH
 )
@@ -6089,7 +6089,7 @@ return
 false
 ;
 }
-PRUnichar
+char16_t
 buf
 [
 NUM_BUF_SIZE
@@ -6121,7 +6121,7 @@ cur
 0
 )
 {
-PRUnichar
+char16_t
 u
 =
 0x0530
@@ -6179,7 +6179,7 @@ true
 }
 static
 const
-PRUnichar
+char16_t
 gGeorgianValue
 [
 37
@@ -6319,7 +6319,7 @@ return
 false
 ;
 }
-PRUnichar
+char16_t
 buf
 [
 NUM_BUF_SIZE
@@ -6351,7 +6351,7 @@ cur
 0
 )
 {
-PRUnichar
+char16_t
 u
 =
 gGeorgianValue
@@ -6836,7 +6836,7 @@ result
 Append
 (
 (
-PRUnichar
+char16_t
 )
 (
 tensValue
@@ -6867,7 +6867,7 @@ result
 Append
 (
 (
-PRUnichar
+char16_t
 )
 (
 unitsValue
@@ -6918,7 +6918,7 @@ result
 Append
 (
 (
-PRUnichar
+char16_t
 )
 ETHIOPIC_HUNDRED
 )
@@ -6937,7 +6937,7 @@ result
 Append
 (
 (
-PRUnichar
+char16_t
 )
 ETHIOPIC_TEN_THOUSAND
 )
@@ -7034,7 +7034,7 @@ result
 .
 Append
 (
-PRUnichar
+char16_t
 (
 0x2022
 )
@@ -7073,7 +7073,7 @@ result
 .
 Append
 (
-PRUnichar
+char16_t
 (
 0x25E6
 )
@@ -7112,7 +7112,7 @@ result
 .
 Append
 (
-PRUnichar
+char16_t
 (
 0x25FE
 )

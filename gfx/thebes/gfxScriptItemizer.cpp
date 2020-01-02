@@ -915,7 +915,7 @@ gfxScriptItemizer
 gfxScriptItemizer
 (
 const
-PRUnichar
+char16_t
 *
 src
 uint32_t
@@ -943,7 +943,7 @@ gfxScriptItemizer
 SetText
 (
 const
-PRUnichar
+char16_t
 *
 src
 uint32_t

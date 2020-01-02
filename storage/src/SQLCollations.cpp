@@ -534,7 +534,7 @@ non
 null
 -
 terminated
-PRUnichar
+char16_t
 *
 buffer
 .
@@ -579,7 +579,7 @@ non
 null
 -
 terminated
-PRUnichar
+char16_t
 *
 buffer
 .
@@ -657,14 +657,14 @@ aComparisonStrength
 )
 {
 const
-PRUnichar
+char16_t
 *
 buf1
 =
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -672,14 +672,14 @@ aStr1
 )
 ;
 const
-PRUnichar
+char16_t
 *
 buf2
 =
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -704,7 +704,7 @@ It
 points
 to
 the
-PRUnichar
+char16_t
 immediately
 following
 the
@@ -728,7 +728,7 @@ divide
 by
 sizeof
 (
-PRUnichar
+char16_t
 )
 /
 /
@@ -751,7 +751,7 @@ aLen1
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 )
@@ -767,7 +767,7 @@ aLen2
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 )

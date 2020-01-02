@@ -1381,7 +1381,7 @@ nsSHEntry
 :
 GetTitle
 (
-PRUnichar
+char16_t
 *
 *
 aTitle

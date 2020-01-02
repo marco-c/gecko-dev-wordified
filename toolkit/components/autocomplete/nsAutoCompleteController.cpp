@@ -4309,7 +4309,7 @@ _retval
 )
 {
 const
-PRUnichar
+char16_t
 *
 colID
 ;
@@ -4427,7 +4427,7 @@ _retval
 )
 {
 const
-PRUnichar
+char16_t
 *
 colID
 ;
@@ -4933,7 +4933,7 @@ nsAutoCompleteController
 PerformAction
 (
 const
-PRUnichar
+char16_t
 *
 action
 )
@@ -4949,7 +4949,7 @@ nsAutoCompleteController
 PerformActionOnRow
 (
 const
-PRUnichar
+char16_t
 *
 action
 int32_t
@@ -4967,7 +4967,7 @@ nsAutoCompleteController
 PerformActionOnCell
 (
 const
-PRUnichar
+char16_t
 *
 action
 int32_t

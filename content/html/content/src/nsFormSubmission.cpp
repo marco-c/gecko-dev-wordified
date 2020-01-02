@@ -344,7 +344,7 @@ char
 *
 aWarningName
 const
-PRUnichar
+char16_t
 *
 *
 aWarningArgs
@@ -1350,7 +1350,7 @@ rv
 return
 ;
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [
@@ -2048,7 +2048,7 @@ convert
 to
 CRLF
 breaks
-PRUnichar
+char16_t
 *
 convertedBuf
 =
@@ -4355,7 +4355,7 @@ charset
 )
 ;
 const
-PRUnichar
+char16_t
 *
 charsetPtr
 =
@@ -4758,7 +4758,7 @@ acceptCharsetValue
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -5339,7 +5339,7 @@ enctypeStr
 ;
 }
 const
-PRUnichar
+char16_t
 *
 enctypeStrPtr
 =

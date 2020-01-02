@@ -250,7 +250,7 @@ outbuffer
 OUTBUFSIZE
 ]
 ;
-PRUnichar
+char16_t
 medbuffer
 [
 MEDBUFSIZE
@@ -335,7 +335,7 @@ char
 src
 int32_t
 srclen
-PRUnichar
+char16_t
 *
 dest
 int32_t
@@ -364,7 +364,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -381,7 +381,7 @@ void
 NarrowEncode
 (
 const
-PRUnichar
+char16_t
 *
 src
 int32_t
@@ -395,7 +395,7 @@ destLen
 )
 {
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -439,7 +439,7 @@ char
 src
 int32_t
 srclen
-PRUnichar
+char16_t
 *
 dest
 int32_t
@@ -495,7 +495,7 @@ msEncode
 UINT
 cp
 const
-PRUnichar
+char16_t
 *
 src
 int32_t

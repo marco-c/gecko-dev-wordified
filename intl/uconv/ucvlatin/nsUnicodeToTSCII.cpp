@@ -738,7 +738,7 @@ nsUnicodeToTSCII
 Convert
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -753,14 +753,14 @@ aDestLength
 )
 {
 const
-PRUnichar
+char16_t
 *
 src
 =
 aSrc
 ;
 const
-PRUnichar
+char16_t
 *
 srcEnd
 =
@@ -801,7 +801,7 @@ dest
 destEnd
 )
 {
-PRUnichar
+char16_t
 ch
 =
 *
@@ -2248,7 +2248,7 @@ nsUnicodeToTSCII
 GetMaxLength
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -2294,7 +2294,7 @@ aBehavior
 nsIUnicharEncoder
 *
 aEncoder
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -2325,7 +2325,7 @@ to
 Unicode
 const
 static
-PRUnichar
+char16_t
 gTSCIIToTTF
 [
 ]
@@ -2458,7 +2458,7 @@ nsUnicodeToTamilTTF
 Convert
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -2668,7 +2668,7 @@ they
 re
 CP1251
 .
-PRUnichar
+char16_t
 ucs2
 =
 (
@@ -2809,7 +2809,7 @@ nsUnicodeToTamilTTF
 GetMaxLength
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -2880,7 +2880,7 @@ aBehavior
 nsIUnicharEncoder
 *
 aEncoder
-PRUnichar
+char16_t
 aChar
 )
 {

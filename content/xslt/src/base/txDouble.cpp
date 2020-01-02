@@ -202,11 +202,11 @@ txStringToDouble
 public
 :
 typedef
-PRUnichar
+char16_t
 input_type
 ;
 typedef
-PRUnichar
+char16_t
 value_type
 ;
 txStringToDouble
@@ -250,7 +250,7 @@ i
 =
 0
 ;
-PRUnichar
+char16_t
 c
 ;
 for
@@ -794,7 +794,7 @@ aDest
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 -

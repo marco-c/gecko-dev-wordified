@@ -232,7 +232,7 @@ mozilla
 :
 widget
 ;
-PRUnichar
+char16_t
 *
 nsFilePicker
 :
@@ -1169,12 +1169,12 @@ uMsg
 BFFM_INITIALIZED
 )
 {
-PRUnichar
+char16_t
 *
 filePath
 =
 (
-PRUnichar
+char16_t
 *
 )
 lpData
@@ -4708,7 +4708,7 @@ dirName
 Append
 (
 (
-PRUnichar
+char16_t
 )
 '
 \
@@ -7000,7 +7000,7 @@ mFilterList
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -7084,7 +7084,7 @@ mFilterList
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \

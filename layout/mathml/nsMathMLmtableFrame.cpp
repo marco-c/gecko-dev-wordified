@@ -429,7 +429,7 @@ styleArray
 nullptr
 ;
 const
-PRUnichar
+char16_t
 *
 start
 =
@@ -440,7 +440,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -671,11 +671,11 @@ nsIFrame
 *
 aFrame
 const
-PRUnichar
+char16_t
 *
 aAttribute
 const
-PRUnichar
+char16_t
 *
 aValue
 )
@@ -692,7 +692,7 @@ GetContent
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [

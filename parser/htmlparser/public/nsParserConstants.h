@@ -118,7 +118,7 @@ nsParserConstants_h_
 define
 nsParserConstants_h_
 const
-PRUnichar
+char16_t
 kNewLine
 =
 '
@@ -127,7 +127,7 @@ n
 '
 ;
 const
-PRUnichar
+char16_t
 kCR
 =
 '
@@ -136,7 +136,7 @@ r
 '
 ;
 const
-PRUnichar
+char16_t
 kLF
 =
 '
@@ -145,7 +145,7 @@ n
 '
 ;
 const
-PRUnichar
+char16_t
 kTab
 =
 '
@@ -154,14 +154,14 @@ t
 '
 ;
 const
-PRUnichar
+char16_t
 kSpace
 =
 '
 '
 ;
 const
-PRUnichar
+char16_t
 kQuote
 =
 '
@@ -169,7 +169,7 @@ kQuote
 '
 ;
 const
-PRUnichar
+char16_t
 kApostrophe
 =
 '
@@ -178,7 +178,7 @@ kApostrophe
 '
 ;
 const
-PRUnichar
+char16_t
 kLessThan
 =
 '
@@ -186,7 +186,7 @@ kLessThan
 '
 ;
 const
-PRUnichar
+char16_t
 kGreaterThan
 =
 '
@@ -194,7 +194,7 @@ kGreaterThan
 '
 ;
 const
-PRUnichar
+char16_t
 kAmpersand
 =
 '
@@ -202,7 +202,7 @@ kAmpersand
 '
 ;
 const
-PRUnichar
+char16_t
 kForwardSlash
 =
 '
@@ -210,7 +210,7 @@ kForwardSlash
 '
 ;
 const
-PRUnichar
+char16_t
 kBackSlash
 =
 '
@@ -219,7 +219,7 @@ kBackSlash
 '
 ;
 const
-PRUnichar
+char16_t
 kEqual
 =
 '
@@ -227,7 +227,7 @@ kEqual
 '
 ;
 const
-PRUnichar
+char16_t
 kMinus
 =
 '
@@ -235,7 +235,7 @@ kMinus
 '
 ;
 const
-PRUnichar
+char16_t
 kPlus
 =
 '
@@ -243,7 +243,7 @@ kPlus
 '
 ;
 const
-PRUnichar
+char16_t
 kExclamation
 =
 '
@@ -251,7 +251,7 @@ kExclamation
 '
 ;
 const
-PRUnichar
+char16_t
 kSemicolon
 =
 '
@@ -259,7 +259,7 @@ kSemicolon
 '
 ;
 const
-PRUnichar
+char16_t
 kHashsign
 =
 '
@@ -267,7 +267,7 @@ kHashsign
 '
 ;
 const
-PRUnichar
+char16_t
 kAsterisk
 =
 '
@@ -275,7 +275,7 @@ kAsterisk
 '
 ;
 const
-PRUnichar
+char16_t
 kUnderbar
 =
 '
@@ -283,14 +283,14 @@ _
 '
 ;
 const
-PRUnichar
+char16_t
 kComma
 =
 '
 '
 ;
 const
-PRUnichar
+char16_t
 kLeftParen
 =
 '
@@ -298,7 +298,7 @@ kLeftParen
 '
 ;
 const
-PRUnichar
+char16_t
 kRightParen
 =
 '
@@ -306,7 +306,7 @@ kRightParen
 '
 ;
 const
-PRUnichar
+char16_t
 kLeftBrace
 =
 '
@@ -314,7 +314,7 @@ kLeftBrace
 '
 ;
 const
-PRUnichar
+char16_t
 kRightBrace
 =
 '
@@ -322,7 +322,7 @@ kRightBrace
 '
 ;
 const
-PRUnichar
+char16_t
 kQuestionMark
 =
 '
@@ -330,7 +330,7 @@ kQuestionMark
 '
 ;
 const
-PRUnichar
+char16_t
 kLeftSquareBracket
 =
 '
@@ -338,7 +338,7 @@ kLeftSquareBracket
 '
 ;
 const
-PRUnichar
+char16_t
 kRightSquareBracket
 =
 '
@@ -346,7 +346,7 @@ kRightSquareBracket
 '
 ;
 const
-PRUnichar
+char16_t
 kNullCh
 =
 '

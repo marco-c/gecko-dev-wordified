@@ -900,7 +900,7 @@ path
 directly
 .
 const
-PRUnichar
+char16_t
 *
 pathChars
 =

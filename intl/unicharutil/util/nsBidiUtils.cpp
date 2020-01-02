@@ -368,10 +368,10 @@ c
 )
 )
 )
-PRUnichar
+char16_t
 HandleNumberInChar
 (
-PRUnichar
+char16_t
 aChar
 bool
 aPrevCharArabic
@@ -501,7 +501,7 @@ aChar
 nsresult
 HandleNumbers
 (
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -697,7 +697,7 @@ i
 +
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aString

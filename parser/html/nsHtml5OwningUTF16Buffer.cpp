@@ -68,7 +68,7 @@ nsHtml5OwningUTF16Buffer
 :
 nsHtml5OwningUTF16Buffer
 (
-PRUnichar
+char16_t
 *
 aBuffer
 )
@@ -237,7 +237,7 @@ fallible_t
 (
 )
 ;
-PRUnichar
+char16_t
 *
 newBuf
 =
@@ -245,7 +245,7 @@ new
 (
 fallible
 )
-PRUnichar
+char16_t
 [
 aLength
 ]

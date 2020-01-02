@@ -594,7 +594,7 @@ const
 nsACString
 &
 inString
-PRUnichar
+char16_t
 *
 *
 outText
@@ -5395,12 +5395,12 @@ MAXTITLELTH
 *
 2
 ;
-PRUnichar
+char16_t
 *
 buffer
 =
 (
-PRUnichar
+char16_t
 *
 )
 nsMemory
@@ -13140,7 +13140,7 @@ const
 nsACString
 &
 aString
-PRUnichar
+char16_t
 *
 *
 aResult

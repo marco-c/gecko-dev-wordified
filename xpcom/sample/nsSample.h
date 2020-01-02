@@ -724,7 +724,7 @@ would
 appear
 as
 *
-PRUnichar
+char16_t
 *
 in
 C

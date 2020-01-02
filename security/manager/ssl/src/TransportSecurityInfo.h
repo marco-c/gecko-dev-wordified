@@ -258,7 +258,7 @@ nsresult
 SetShortSecurityDescription
 (
 const
-PRUnichar
+char16_t
 *
 aText
 )

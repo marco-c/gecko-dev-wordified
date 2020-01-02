@@ -241,7 +241,7 @@ nsresult
 LoadCerts
 (
 const
-PRUnichar
+char16_t
 *
 *
 certNames
@@ -328,7 +328,7 @@ void
 unicodeToItem
 (
 const
-PRUnichar
+char16_t
 *
 SECItem
 *

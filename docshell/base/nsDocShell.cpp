@@ -2485,7 +2485,7 @@ U
 0020
 )
 const
-PRUnichar
+char16_t
 *
 start
 =
@@ -2496,7 +2496,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -2507,7 +2507,7 @@ EndReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 iter
 =
@@ -15920,7 +15920,7 @@ nsDocShell
 NameEquals
 (
 const
-PRUnichar
+char16_t
 *
 aName
 bool
@@ -17978,7 +17978,7 @@ nsDocShell
 FindItemWithName
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsISupports
@@ -18606,7 +18606,7 @@ nsDocShell
 DoFindItemWithName
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsISupports
@@ -21258,7 +21258,7 @@ nsDocShell
 FindChildWithName
 (
 const
-PRUnichar
+char16_t
 *
 aName
 bool
@@ -23868,7 +23868,7 @@ nsDocShell
 LoadURI
 (
 const
-PRUnichar
+char16_t
 *
 aURI
 uint32_t
@@ -24535,7 +24535,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aURL
 nsIChannel
@@ -26356,7 +26356,7 @@ NS_OK
 formatStrCount
 ;
 const
-PRUnichar
+char16_t
 *
 strs
 [
@@ -26592,7 +26592,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aURL
 const
@@ -26600,11 +26600,11 @@ char
 *
 aErrorPage
 const
-PRUnichar
+char16_t
 *
 aErrorType
 const
-PRUnichar
+char16_t
 *
 aDescription
 const
@@ -32234,7 +32234,7 @@ nsDocShell
 :
 GetTitle
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -32264,7 +32264,7 @@ nsDocShell
 SetTitle
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )
@@ -39464,7 +39464,7 @@ aRequest
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMessage
 )
@@ -51861,7 +51861,7 @@ aOwner
 uint32_t
 aFlags
 const
-PRUnichar
+char16_t
 *
 aWindowTarget
 const
@@ -70270,7 +70270,7 @@ generic
 version
 .
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [
@@ -73967,7 +73967,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aTargetSpec
 const
@@ -74096,7 +74096,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aTargetSpec
 const
@@ -74214,7 +74214,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aTargetSpec
 const
@@ -74460,7 +74460,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aTargetSpec
 const
@@ -75247,7 +75247,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aTargetSpec
 )

@@ -449,7 +449,7 @@ nsresult
 FindItemWithNameAcrossWindows
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsIDocShellTreeItem

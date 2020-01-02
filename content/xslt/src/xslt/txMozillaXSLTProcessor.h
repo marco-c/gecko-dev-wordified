@@ -460,11 +460,11 @@ reportError
 nsresult
 aResult
 const
-PRUnichar
+char16_t
 *
 aErrorText
 const
-PRUnichar
+char16_t
 *
 aSourceText
 )

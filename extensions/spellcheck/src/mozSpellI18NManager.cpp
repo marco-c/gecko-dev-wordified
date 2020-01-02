@@ -177,7 +177,7 @@ mozSpellI18NManager
 GetUtil
 (
 const
-PRUnichar
+char16_t
 *
 aLanguage
 mozISpellI18NUtil

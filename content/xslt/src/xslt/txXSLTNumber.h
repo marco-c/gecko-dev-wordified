@@ -285,7 +285,7 @@ static
 bool
 isAlphaNumeric
 (
-PRUnichar
+char16_t
 ch
 )
 ;

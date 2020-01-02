@@ -119,7 +119,7 @@ so
 we
 can
 use
-PRUnichar
+char16_t
 here
 .
 Unused
@@ -137,10 +137,10 @@ to
 struct
 MultiCharMapping
 {
-PRUnichar
+char16_t
 mOriginalChar
 ;
-PRUnichar
+char16_t
 mMappedChars
 [
 3

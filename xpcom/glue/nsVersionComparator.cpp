@@ -1370,11 +1370,11 @@ int32_t
 CompareVersions
 (
 const
-PRUnichar
+char16_t
 *
 A
 const
-PRUnichar
+char16_t
 *
 B
 )

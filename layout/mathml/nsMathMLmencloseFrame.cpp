@@ -205,7 +205,7 @@ support
 .
 static
 const
-PRUnichar
+char16_t
 kLongDivChar
 =
 '
@@ -222,7 +222,7 @@ ROOT
 '
 static
 const
-PRUnichar
+char16_t
 kRadicalChar
 =
 0x221A
@@ -1949,7 +1949,7 @@ fm
 mEmHeight
 )
 ;
-PRUnichar
+char16_t
 one
 =
 '

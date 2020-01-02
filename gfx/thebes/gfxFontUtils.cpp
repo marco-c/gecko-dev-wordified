@@ -3108,7 +3108,7 @@ const
 uint8_t
 *
 aBuf
-PRUnichar
+char16_t
 aCh
 )
 {
@@ -4130,7 +4130,7 @@ MapCharToGlyphFormat4
 aCmapBuf
 +
 offset
-PRUnichar
+char16_t
 (
 aUnicode
 )
@@ -4254,10 +4254,10 @@ aFontList
 )
 {
 const
-PRUnichar
+char16_t
 kComma
 =
-PRUnichar
+char16_t
 (
 '
 '
@@ -4313,7 +4313,7 @@ nsAutoString
 fontname
 ;
 const
-PRUnichar
+char16_t
 *
 p
 *
@@ -4341,7 +4341,7 @@ p_end
 )
 {
 const
-PRUnichar
+char16_t
 *
 nameStart
 =
@@ -5190,7 +5190,7 @@ Length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 /
@@ -5542,13 +5542,13 @@ big
 -
 endian
 form
-PRUnichar
+char16_t
 *
 strData
 =
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -7954,7 +7954,7 @@ Assign
 reinterpret_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -8721,7 +8721,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 someData
 )

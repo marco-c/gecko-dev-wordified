@@ -261,7 +261,7 @@ inline
 bool
 IsIgnorableCharacter
 (
-PRUnichar
+char16_t
 ch
 )
 {
@@ -325,7 +325,7 @@ inline
 bool
 IsConditionalPunctuation
 (
-PRUnichar
+char16_t
 ch
 )
 {
@@ -1590,7 +1590,7 @@ i
 +
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aInput
@@ -2111,7 +2111,7 @@ static
 bool
 IsDOMWordSeparator
 (
-PRUnichar
+char16_t
 ch
 )
 {

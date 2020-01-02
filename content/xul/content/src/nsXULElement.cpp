@@ -15670,7 +15670,7 @@ nsXULPrototypeScript
 Compile
 (
 const
-PRUnichar
+char16_t
 *
 aText
 int32_t

@@ -65,7 +65,7 @@ utfstrings_h__
 struct
 UTFStringsStringPair
 {
-PRUnichar
+char16_t
 m16
 [
 16

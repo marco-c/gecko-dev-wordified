@@ -2735,7 +2735,7 @@ GetLength
 )
 ;
 const
-PRUnichar
+char16_t
 *
 str
 =

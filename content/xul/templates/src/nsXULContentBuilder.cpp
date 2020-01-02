@@ -3942,7 +3942,7 @@ both
 when
 changing
 this
-PRUnichar
+char16_t
 attrbuf
 [
 128
@@ -4912,7 +4912,7 @@ is
 usually
 longish
 .
-PRUnichar
+char16_t
 attrbuf
 [
 128
@@ -5362,7 +5362,7 @@ value
 continue
 ;
 const
-PRUnichar
+char16_t
 *
 valueStr
 ;
@@ -5580,7 +5580,7 @@ kNameSpaceID_XUL
 )
 )
 {
-PRUnichar
+char16_t
 attrbuf
 [
 128

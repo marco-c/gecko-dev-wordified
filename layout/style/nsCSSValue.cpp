@@ -4471,7 +4471,7 @@ length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -4494,13 +4494,13 @@ memory
 )
 ;
 }
-PRUnichar
+char16_t
 *
 data
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -4514,7 +4514,7 @@ Data
 ;
 nsCharTraits
 <
-PRUnichar
+char16_t
 >
 :
 :
@@ -5500,7 +5500,7 @@ Length
 -
 1
 1
-PRUnichar
+char16_t
 (
 '
 X
@@ -5534,7 +5534,7 @@ Length
 -
 1
 1
-PRUnichar
+char16_t
 (
 '
 Y
@@ -5565,7 +5565,7 @@ Length
 -
 1
 1
-PRUnichar
+char16_t
 (
 '
 Z
@@ -6458,7 +6458,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 )
@@ -8551,7 +8551,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 )
@@ -8668,7 +8668,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 %
@@ -9034,7 +9034,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 s
@@ -9894,7 +9894,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -9905,7 +9905,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -10624,7 +10624,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 )
@@ -10885,7 +10885,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -11059,7 +11059,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -11091,7 +11091,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -11405,7 +11405,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -11454,7 +11454,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -11465,7 +11465,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '

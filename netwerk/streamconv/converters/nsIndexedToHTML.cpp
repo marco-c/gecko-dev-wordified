@@ -350,7 +350,7 @@ out
 Append
 (
 (
-PRUnichar
+char16_t
 )
 '
 ;
@@ -4663,7 +4663,7 @@ nsXPIDLString
 title
 ;
 const
-PRUnichar
+char16_t
 *
 formatTitle
 [
@@ -4698,7 +4698,7 @@ formatTitle
 /
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 getter_Copies
@@ -5094,7 +5094,7 @@ h1
 )
 ;
 const
-PRUnichar
+char16_t
 *
 formatHeading
 [
@@ -5129,7 +5129,7 @@ formatHeading
 /
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 getter_Copies
@@ -5867,7 +5867,7 @@ nsIUnicodeEncoder
 kOnError_Replace
 nullptr
 (
-PRUnichar
+char16_t
 )
 '
 ?
@@ -6268,7 +6268,7 @@ First
 )
 =
 =
-PRUnichar
+char16_t
 (
 '
 .
@@ -6406,7 +6406,7 @@ AppendInt
 break
 ;
 }
-PRUnichar
+char16_t
 *
 escaped
 =
@@ -7311,12 +7311,12 @@ rv
 }
 nsAutoArrayPtr
 <
-PRUnichar
+char16_t
 >
 outbuf
 (
 new
-PRUnichar
+char16_t
 [
 outlen
 ]
@@ -7997,7 +7997,7 @@ aInfo
 nsAutoString
 pushBuffer
 ;
-PRUnichar
+char16_t
 *
 escaped
 =

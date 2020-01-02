@@ -736,12 +736,12 @@ rv
 )
 )
 {
-PRUnichar
+char16_t
 *
 buf
 =
 (
-PRUnichar
+char16_t
 *
 )
 moz_malloc
@@ -754,7 +754,7 @@ outLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -1374,7 +1374,7 @@ nsIUnicodeEncoder
 kOnError_Replace
 nullptr
 (
-PRUnichar
+char16_t
 )
 '
 ?

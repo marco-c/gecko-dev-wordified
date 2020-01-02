@@ -1835,11 +1835,11 @@ nsresult
 ReportParseError
 (
 const
-PRUnichar
+char16_t
 *
 aAttribute
 const
-PRUnichar
+char16_t
 *
 aValue
 )
@@ -1937,7 +1937,7 @@ char
 *
 aErrorMsgId
 const
-PRUnichar
+char16_t
 *
 *
 aParams

@@ -224,7 +224,7 @@ unicode
 reinterpret_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (

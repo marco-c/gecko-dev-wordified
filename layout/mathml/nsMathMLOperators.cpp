@@ -235,10 +235,10 @@ false
 ;
 static
 const
-PRUnichar
+char16_t
 kDashCh
 =
-PRUnichar
+char16_t
 (
 '
 #
@@ -247,10 +247,10 @@ PRUnichar
 ;
 static
 const
-PRUnichar
+char16_t
 kColonCh
 =
-PRUnichar
+char16_t
 (
 '
 :
@@ -726,10 +726,10 @@ aAttributes
 {
 static
 const
-PRUnichar
+char16_t
 kNullCh
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -782,7 +782,7 @@ Length
 (
 )
 ;
-PRUnichar
+char16_t
 c
 =
 aOperator
@@ -797,7 +797,7 @@ state
 =
 0
 ;
-PRUnichar
+char16_t
 uchar
 =
 0
@@ -1228,7 +1228,7 @@ null
 at
 the
 end
-PRUnichar
+char16_t
 *
 start
 =
@@ -1238,7 +1238,7 @@ BeginWriting
 (
 )
 ;
-PRUnichar
+char16_t
 *
 end
 =

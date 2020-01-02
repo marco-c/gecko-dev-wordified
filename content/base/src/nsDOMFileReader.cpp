@@ -1434,13 +1434,13 @@ uint32_t
 writeCount
 )
 {
-PRUnichar
+char16_t
 *
 dest
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -1449,7 +1449,7 @@ closure
 +
 toOffset
 ;
-PRUnichar
+char16_t
 *
 end
 =
@@ -1583,7 +1583,7 @@ UINT32_MAX
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUnichar
+char16_t
 *
 buf
 =

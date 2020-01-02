@@ -290,7 +290,7 @@ nsWindowInfo
 MostRecentWindowInfo
 (
 const
-PRUnichar
+char16_t
 *
 inType
 )

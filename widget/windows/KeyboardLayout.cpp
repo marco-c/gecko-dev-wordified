@@ -340,10 +340,10 @@ sUniqueKeyEventId
 struct
 DeadKeyEntry
 {
-PRUnichar
+char16_t
 BaseChar
 ;
-PRUnichar
+char16_t
 CompositeChar
 ;
 }
@@ -491,10 +491,10 @@ DeadKeyEntry
 )
 ;
 }
-PRUnichar
+char16_t
 GetCompositeChar
 (
-PRUnichar
+char16_t
 aBaseChar
 )
 const
@@ -1656,7 +1656,7 @@ UniCharsAndModifiers
 :
 Append
 (
-PRUnichar
+char16_t
 aUniChar
 Modifiers
 aModifiers
@@ -1762,7 +1762,7 @@ mLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -1866,7 +1866,7 @@ copyCount
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -2270,7 +2270,7 @@ modifiers
 ;
 }
 inline
-PRUnichar
+char16_t
 VirtualKey
 :
 :
@@ -2278,7 +2278,7 @@ GetCompositeChar
 (
 ShiftState
 aShiftState
-PRUnichar
+char16_t
 aBaseChar
 )
 const
@@ -2402,7 +2402,7 @@ SetNormalChars
 ShiftState
 aShiftState
 const
-PRUnichar
+char16_t
 *
 aChars
 uint32_t
@@ -2539,7 +2539,7 @@ SetDeadChar
 (
 ShiftState
 aShiftState
-PRUnichar
+char16_t
 aDeadChar
 )
 {
@@ -5459,7 +5459,7 @@ mKeyboardLayout
 )
 ;
 }
-PRUnichar
+char16_t
 NativeKey
 :
 :
@@ -5471,7 +5471,7 @@ const
 return
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 :
@@ -6820,14 +6820,14 @@ operation
 .
 static
 const
-PRUnichar
+char16_t
 U_SPACE
 =
 0x20
 ;
 static
 const
-PRUnichar
+char16_t
 U_EQUAL
 =
 0x3D
@@ -7091,7 +7091,7 @@ for
 shortcut
 keys
 .
-PRUnichar
+char16_t
 uniChar
 ;
 /
@@ -7375,7 +7375,7 @@ GetInstance
 (
 )
 ;
-PRUnichar
+char16_t
 unshiftedCharCode
 =
 (
@@ -9534,7 +9534,7 @@ key
 is
 pressed
 .
-PRUnichar
+char16_t
 charForOEMKeyCode
 =
 0
@@ -11144,7 +11144,7 @@ GetKeyIndex
 mActiveDeadKey
 )
 ;
-PRUnichar
+char16_t
 compositeChar
 =
 (
@@ -11583,7 +11583,7 @@ index
 "
 )
 ;
-PRUnichar
+char16_t
 uniChars
 [
 5
@@ -11650,7 +11650,7 @@ character
 /
 representation
 .
-PRUnichar
+char16_t
 deadChar
 [
 2
@@ -13074,7 +13074,7 @@ ret
 ;
 do
 {
-PRUnichar
+char16_t
 dummyChars
 [
 5
@@ -13265,9 +13265,9 @@ KeyboardLayout
 :
 AddDeadKeyEntry
 (
-PRUnichar
+char16_t
 aBaseChar
-PRUnichar
+char16_t
 aCompositeChar
 DeadKeyEntry
 *
@@ -13566,7 +13566,7 @@ a
 second
 character
 .
-PRUnichar
+char16_t
 compositeChars
 [
 5
@@ -13664,7 +13664,7 @@ the
 base
 character
 .
-PRUnichar
+char16_t
 baseChars
 [
 5
@@ -16656,13 +16656,13 @@ DeadKeyTable
 *
 *
 /
-PRUnichar
+char16_t
 DeadKeyTable
 :
 :
 GetCompositeChar
 (
-PRUnichar
+char16_t
 aBaseChar
 )
 const

@@ -35198,7 +35198,7 @@ i
 +
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aString

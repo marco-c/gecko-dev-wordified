@@ -4333,7 +4333,7 @@ nullptr
 -
 -
 -
-PRUnichar
+char16_t
 *
 nsFilePicker
 :
@@ -4346,7 +4346,7 @@ char
 inString
 )
 {
-PRUnichar
+char16_t
 *
 outString
 =
@@ -4477,7 +4477,7 @@ outString
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -4494,7 +4494,7 @@ outLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 )

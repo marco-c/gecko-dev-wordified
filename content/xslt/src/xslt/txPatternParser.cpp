@@ -1391,7 +1391,7 @@ return
 NS_ERROR_XPATH_PARSE_FAILURE
 ;
 const
-PRUnichar
+char16_t
 *
 colon
 ;

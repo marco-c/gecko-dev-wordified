@@ -1318,7 +1318,7 @@ nsAString
 &
 aValue
 const
-PRUnichar
+char16_t
 aEscapeChar
 nsAString
 &
@@ -1326,7 +1326,7 @@ _escapedString
 )
 {
 const
-PRUnichar
+char16_t
 MATCH_ALL
 (
 '
@@ -1335,7 +1335,7 @@ MATCH_ALL
 )
 ;
 const
-PRUnichar
+char16_t
 MATCH_ONE
 (
 '

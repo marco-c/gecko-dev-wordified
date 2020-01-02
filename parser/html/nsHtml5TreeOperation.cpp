@@ -690,7 +690,7 @@ nsHtml5TreeOperation
 AppendTextToTextNode
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -834,7 +834,7 @@ nsHtml5TreeOperation
 AppendText
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -2993,7 +2993,7 @@ mOne
 .
 node
 ;
-PRUnichar
+char16_t
 *
 buffer
 =
@@ -3124,7 +3124,7 @@ mOne
 .
 node
 ;
-PRUnichar
+char16_t
 *
 buffer
 =
@@ -3341,7 +3341,7 @@ mOne
 .
 node
 ;
-PRUnichar
+char16_t
 *
 buffer
 =
@@ -3421,7 +3421,7 @@ case
 eTreeOpAppendCommentToDocument
 :
 {
-PRUnichar
+char16_t
 *
 buffer
 =
@@ -4025,7 +4025,7 @@ case
 eTreeOpProcessOfflineManifest
 :
 {
-PRUnichar
+char16_t
 *
 str
 =
@@ -4403,7 +4403,7 @@ mOne
 node
 )
 ;
-PRUnichar
+char16_t
 *
 str
 =
@@ -4575,7 +4575,7 @@ mOne
 .
 node
 ;
-PRUnichar
+char16_t
 *
 buffer
 =
@@ -5047,7 +5047,7 @@ otherAtom
 )
 {
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -5098,7 +5098,7 @@ atom
 )
 {
 const
-PRUnichar
+char16_t
 *
 params
 [

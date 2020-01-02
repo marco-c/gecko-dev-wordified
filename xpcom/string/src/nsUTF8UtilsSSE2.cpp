@@ -91,7 +91,7 @@ LossyConvertEncoding16to8
 write_sse2
 (
 const
-PRUnichar
+char16_t
 *
 aSource
 uint32_t
@@ -142,7 +142,7 @@ aSource
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -513,7 +513,7 @@ uint32_t
 aSourceLength
 )
 {
-PRUnichar
+char16_t
 *
 dest
 =

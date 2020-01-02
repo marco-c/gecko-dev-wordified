@@ -430,7 +430,7 @@ nsPrintSettingsWin
 SetDeviceName
 (
 const
-PRUnichar
+char16_t
 *
 aDeviceName
 )
@@ -473,7 +473,7 @@ nsPrintSettingsWin
 :
 GetDeviceName
 (
-PRUnichar
+char16_t
 *
 *
 aDeviceName
@@ -491,7 +491,7 @@ mDeviceName
 ?
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -525,7 +525,7 @@ nsPrintSettingsWin
 SetDriverName
 (
 const
-PRUnichar
+char16_t
 *
 aDriverName
 )
@@ -568,7 +568,7 @@ nsPrintSettingsWin
 :
 GetDriverName
 (
-PRUnichar
+char16_t
 *
 *
 aDriverName
@@ -586,7 +586,7 @@ mDriverName
 ?
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (

@@ -114,7 +114,7 @@ void
 NS_GetComplexLineBreaks
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t

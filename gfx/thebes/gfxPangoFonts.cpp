@@ -3957,7 +3957,7 @@ gfxContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -3977,7 +3977,7 @@ bool
 InitGlyphRunWithPango
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -9968,7 +9968,7 @@ gfxContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t

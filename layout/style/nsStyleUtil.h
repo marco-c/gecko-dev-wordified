@@ -224,7 +224,7 @@ aString
 nsAString
 &
 aResult
-PRUnichar
+char16_t
 quoteChar
 =
 '

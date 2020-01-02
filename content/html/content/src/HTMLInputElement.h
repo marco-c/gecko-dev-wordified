@@ -6981,7 +6981,7 @@ the
 default
 *
 /
-PRUnichar
+char16_t
 *
 mValue
 ;

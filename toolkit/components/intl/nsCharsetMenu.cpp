@@ -1586,7 +1586,7 @@ char
 *
 aStaticKey
 const
-PRUnichar
+char16_t
 *
 aCharset
 )
@@ -1854,7 +1854,7 @@ NS_IMETHOD
 SetCurrentCharset
 (
 const
-PRUnichar
+char16_t
 *
 aCharset
 )
@@ -1863,7 +1863,7 @@ NS_IMETHOD
 SetCurrentMailCharset
 (
 const
-PRUnichar
+char16_t
 *
 aCharset
 )
@@ -1872,7 +1872,7 @@ NS_IMETHOD
 SetCurrentComposerCharset
 (
 const
-PRUnichar
+char16_t
 *
 aCharset
 )
@@ -2525,7 +2525,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 someData
 )
@@ -7012,7 +7012,7 @@ return
 res
 ;
 const
-PRUnichar
+char16_t
 *
 title
 =
@@ -8360,7 +8360,7 @@ char
 *
 aStaticKey
 const
-PRUnichar
+char16_t
 *
 aCharset
 )
@@ -9628,7 +9628,7 @@ nsCharsetMenu
 SetCurrentCharset
 (
 const
-PRUnichar
+char16_t
 *
 aCharset
 )
@@ -9644,7 +9644,7 @@ nsCharsetMenu
 SetCurrentMailCharset
 (
 const
-PRUnichar
+char16_t
 *
 aCharset
 )
@@ -9720,7 +9720,7 @@ nsCharsetMenu
 SetCurrentComposerCharset
 (
 const
-PRUnichar
+char16_t
 *
 aCharset
 )

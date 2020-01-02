@@ -274,7 +274,7 @@ h
 /
 /
 for
-PRUnichar
+char16_t
 class
 gfxASurface
 ;
@@ -735,7 +735,7 @@ aC
 nscoord
 GetWidth
 (
-PRUnichar
+char16_t
 aC
 )
 ;
@@ -772,7 +772,7 @@ nscoord
 GetWidth
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -783,7 +783,7 @@ nsBoundingMetrics
 GetBoundingMetrics
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -822,7 +822,7 @@ void
 DrawString
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t

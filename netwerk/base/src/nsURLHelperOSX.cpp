@@ -357,14 +357,14 @@ volNameStr
 Substring
 (
 (
-PRUnichar
+char16_t
 *
 )
 volName
 .
 unicode
 (
-PRUnichar
+char16_t
 *
 )
 volName

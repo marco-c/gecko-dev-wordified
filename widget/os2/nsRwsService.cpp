@@ -775,7 +775,7 @@ void
 AssignNLSString
 (
 const
-PRUnichar
+char16_t
 *
 aKey
 nsAString
@@ -1289,7 +1289,7 @@ mini
 uint32_t
 handler
 ;
-PRUnichar
+char16_t
 *
 title
 ;
@@ -5263,7 +5263,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aSomeData
 )
@@ -6032,7 +6032,7 @@ void
 AssignNLSString
 (
 const
-PRUnichar
+char16_t
 *
 aKey
 nsAString
@@ -6352,11 +6352,11 @@ bufLength
 return
 NS_ERROR_FAILURE
 ;
-PRUnichar
+char16_t
 *
 pSrc
 ;
-PRUnichar
+char16_t
 *
 pDst
 ;

@@ -502,7 +502,7 @@ public
 gfxScriptItemizer
 (
 const
-PRUnichar
+char16_t
 *
 src
 uint32_t
@@ -513,7 +513,7 @@ void
 SetText
 (
 const
-PRUnichar
+char16_t
 *
 src
 uint32_t
@@ -600,7 +600,7 @@ scriptCode
 }
 ;
 const
-PRUnichar
+char16_t
 *
 textPtr
 ;

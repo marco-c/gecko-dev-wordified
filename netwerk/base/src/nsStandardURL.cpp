@@ -1029,7 +1029,7 @@ char
 *
 topic
 const
-PRUnichar
+char16_t
 *
 data
 )

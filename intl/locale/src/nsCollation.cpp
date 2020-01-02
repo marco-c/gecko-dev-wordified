@@ -442,7 +442,7 @@ aLength
 64
 )
 {
-PRUnichar
+char16_t
 conversionBuffer
 [
 64
@@ -473,14 +473,14 @@ aLength
 }
 else
 {
-PRUnichar
+char16_t
 *
 conversionBuffer
 ;
 conversionBuffer
 =
 new
-PRUnichar
+char16_t
 [
 aLength
 ]
@@ -650,7 +650,7 @@ aSrc
 )
 ;
 const
-PRUnichar
+char16_t
 *
 unichars
 =

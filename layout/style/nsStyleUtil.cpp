@@ -414,7 +414,7 @@ selectorLen
 )
 !
 =
-PRUnichar
+char16_t
 (
 '
 -
@@ -492,7 +492,7 @@ aString
 nsAString
 &
 aReturn
-PRUnichar
+char16_t
 quoteChar
 )
 {
@@ -535,7 +535,7 @@ quoteChar
 )
 ;
 const
-PRUnichar
+char16_t
 *
 in
 =
@@ -546,7 +546,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 const
 end
@@ -712,7 +712,7 @@ aReturn
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -910,7 +910,7 @@ html
 #
 tokenization
 const
-PRUnichar
+char16_t
 *
 in
 =
@@ -921,7 +921,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 const
 end
@@ -992,7 +992,7 @@ aReturn
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 -
@@ -1123,7 +1123,7 @@ aReturn
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -1136,7 +1136,7 @@ aReturn
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 -
@@ -1180,7 +1180,7 @@ end
 in
 )
 {
-PRUnichar
+char16_t
 ch
 =
 *
@@ -1335,7 +1335,7 @@ aReturn
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -1437,7 +1437,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2436,7 +2436,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2462,7 +2462,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 (
@@ -2481,7 +2481,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 )
@@ -2610,7 +2610,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2629,7 +2629,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 (
@@ -2648,7 +2648,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 )

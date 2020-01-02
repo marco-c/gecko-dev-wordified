@@ -369,7 +369,7 @@ StorageSize
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 -
 1
@@ -2854,7 +2854,7 @@ StorageSize
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 -
 1
@@ -3915,7 +3915,7 @@ StorageSize
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 -
 1
@@ -3925,7 +3925,7 @@ HashString
 (
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -5019,7 +5019,7 @@ dep
 (
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -5039,7 +5039,7 @@ StorageSize
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 -
 1
@@ -5251,7 +5251,7 @@ dep
 (
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -5271,7 +5271,7 @@ StorageSize
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 -
 1
@@ -9199,7 +9199,7 @@ StorageSize
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 -
 1
@@ -9232,7 +9232,7 @@ len
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -9246,13 +9246,13 @@ return
 nullptr
 ;
 }
-PRUnichar
+char16_t
 *
 data
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -9277,7 +9277,7 @@ data
 len
 ]
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -9407,7 +9407,7 @@ if
 iter
 =
 =
-PRUnichar
+char16_t
 (
 '
 -
@@ -9431,7 +9431,7 @@ if
 iter
 =
 =
-PRUnichar
+char16_t
 (
 '
 +
@@ -9482,7 +9482,7 @@ if
 iter
 >
 =
-PRUnichar
+char16_t
 (
 '
 0
@@ -9494,7 +9494,7 @@ PRUnichar
 iter
 <
 =
-PRUnichar
+char16_t
 (
 '
 9
@@ -9514,7 +9514,7 @@ value
 *
 iter
 -
-PRUnichar
+char16_t
 (
 '
 0
@@ -9576,7 +9576,7 @@ aCanBePercent
 iter
 =
 =
-PRUnichar
+char16_t
 (
 '
 %

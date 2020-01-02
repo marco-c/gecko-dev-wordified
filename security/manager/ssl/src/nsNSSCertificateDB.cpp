@@ -1027,7 +1027,7 @@ aType
 uint32_t
 *
 _count
-PRUnichar
+char16_t
 *
 *
 *
@@ -6252,7 +6252,7 @@ certs
 /
 /
 const
-PRUnichar
+char16_t
 *
 *
 aCertNames
@@ -6432,7 +6432,7 @@ type
 uint32_t
 *
 _count
-PRUnichar
+char16_t
 *
 *
 *
@@ -6459,7 +6459,7 @@ i
 =
 0
 ;
-PRUnichar
+char16_t
 *
 *
 tmpArray
@@ -6564,7 +6564,7 @@ numcerts
 tmpArray
 =
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -6575,7 +6575,7 @@ Alloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 *
@@ -6754,7 +6754,7 @@ certstr
 .
 Append
 (
-PRUnichar
+char16_t
 (
 DELIM
 )
@@ -6769,7 +6769,7 @@ certstr
 .
 Append
 (
-PRUnichar
+char16_t
 (
 DELIM
 )

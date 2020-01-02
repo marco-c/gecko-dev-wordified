@@ -341,7 +341,7 @@ iter
 end
 )
 {
-PRUnichar
+char16_t
 q
 =
 *
@@ -674,7 +674,7 @@ iter
 '
 )
 {
-PRUnichar
+char16_t
 q
 =
 *

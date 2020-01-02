@@ -217,7 +217,7 @@ h
 /
 /
 for
-PRUnichar
+char16_t
 nsAString
 #
 include
@@ -1228,7 +1228,7 @@ const
 nsAString
 &
 aTitle
-PRUnichar
+char16_t
 *
 aPrintToFileName
 int32_t

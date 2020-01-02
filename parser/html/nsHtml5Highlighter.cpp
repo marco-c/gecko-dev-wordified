@@ -153,7 +153,7 @@ com
 define
 NS_HTML5_HIGHLIGHTER_PRE_BREAK_THRESHOLD
 1300
-PRUnichar
+char16_t
 nsHtml5Highlighter
 :
 :
@@ -186,7 +186,7 @@ t
 0
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Highlighter
 :
 :
@@ -213,7 +213,7 @@ a
 0
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Highlighter
 :
 :
@@ -243,7 +243,7 @@ y
 0
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Highlighter
 :
 :
@@ -276,7 +276,7 @@ g
 0
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Highlighter
 :
 :
@@ -315,7 +315,7 @@ g
 0
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Highlighter
 :
 :
@@ -369,7 +369,7 @@ e
 0
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Highlighter
 :
 :
@@ -426,7 +426,7 @@ e
 0
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Highlighter
 :
 :
@@ -459,7 +459,7 @@ e
 0
 }
 ;
-PRUnichar
+char16_t
 nsHtml5Highlighter
 :
 :
@@ -2346,7 +2346,7 @@ nsHtml5Highlighter
 StartSpan
 (
 const
-PRUnichar
+char16_t
 *
 aClass
 )
@@ -2573,7 +2573,7 @@ mCStart
 mPos
 )
 {
-PRUnichar
+char16_t
 *
 buf
 =
@@ -2596,7 +2596,7 @@ i
 mPos
 )
 {
-PRUnichar
+char16_t
 c
 =
 buf
@@ -3294,7 +3294,7 @@ nsHtml5Highlighter
 AppendCharacters
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 int32_t
@@ -3312,12 +3312,12 @@ buffer
 "
 )
 ;
-PRUnichar
+char16_t
 *
 bufferCopy
 =
 new
-PRUnichar
+char16_t
 [
 aLength
 ]
@@ -3332,7 +3332,7 @@ aLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -3361,7 +3361,7 @@ nsHtml5Highlighter
 AddClass
 (
 const
-PRUnichar
+char16_t
 *
 aClass
 )
@@ -3403,12 +3403,12 @@ nsString
 aValue
 )
 {
-PRUnichar
+char16_t
 *
 bufferCopy
 =
 new
-PRUnichar
+char16_t
 [
 aValue
 .
@@ -3435,7 +3435,7 @@ Length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;

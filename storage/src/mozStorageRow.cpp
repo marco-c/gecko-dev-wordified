@@ -362,7 +362,7 @@ str
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -1287,7 +1287,7 @@ uint32_t
 uint32_t
 *
 const
-PRUnichar
+char16_t
 *
 *
 )

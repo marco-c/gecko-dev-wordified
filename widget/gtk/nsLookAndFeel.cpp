@@ -6029,7 +6029,7 @@ nullptr
 ;
 sInvisibleCharacter
 =
-PRUnichar
+char16_t
 (
 value
 )
@@ -6062,7 +6062,7 @@ window
 /
 /
 virtual
-PRUnichar
+char16_t
 nsLookAndFeel
 :
 :

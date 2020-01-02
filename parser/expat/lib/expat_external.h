@@ -491,7 +491,7 @@ CHANGE
 typedef
 XML_Char
 to
-PRUnichar
+char16_t
 )
 *
 /

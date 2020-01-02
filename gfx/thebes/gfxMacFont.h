@@ -343,7 +343,7 @@ gfxContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -402,7 +402,7 @@ GetCharWidth
 (
 CFDataRef
 aCmap
-PRUnichar
+char16_t
 aUniChar
 uint32_t
 *

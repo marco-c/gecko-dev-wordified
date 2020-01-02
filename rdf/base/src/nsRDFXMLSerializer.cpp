@@ -2358,7 +2358,7 @@ return
 rv
 ;
 const
-PRUnichar
+char16_t
 *
 value
 ;
@@ -2665,7 +2665,7 @@ nullptr
 )
 {
 const
-PRUnichar
+char16_t
 *
 value
 ;
@@ -3194,7 +3194,7 @@ needsChild
 )
 {
 const
-PRUnichar
+char16_t
 *
 literalVal
 =
@@ -3231,7 +3231,7 @@ if
 literalVal
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -3244,7 +3244,7 @@ n
 literalVal
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -3618,7 +3618,7 @@ uri
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 #
@@ -4652,7 +4652,7 @@ nullptr
 )
 {
 const
-PRUnichar
+char16_t
 *
 value
 ;

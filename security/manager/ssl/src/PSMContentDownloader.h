@@ -670,7 +670,7 @@ char
 *
 name
 const
-PRUnichar
+char16_t
 *
 *
 params
@@ -705,7 +705,7 @@ char
 *
 name
 const
-PRUnichar
+char16_t
 *
 *
 params
@@ -995,7 +995,7 @@ char
 *
 name
 const
-PRUnichar
+char16_t
 *
 *
 params
@@ -1026,7 +1026,7 @@ char
 *
 name
 const
-PRUnichar
+char16_t
 *
 *
 params

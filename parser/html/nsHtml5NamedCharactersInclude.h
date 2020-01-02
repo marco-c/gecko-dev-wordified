@@ -204,7 +204,7 @@ comma
 separated
 sequence
 of
-PRUnichar
+char16_t
 literals
 corresponding
 *

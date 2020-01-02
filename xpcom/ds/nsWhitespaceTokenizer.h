@@ -127,7 +127,7 @@ template
 bool
 IsWhitespace
 (
-PRUnichar
+char16_t
 )
 =
 NS_IsAsciiWhitespace
@@ -333,7 +333,7 @@ mozilla
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 tokenStart
 =
@@ -366,7 +366,7 @@ mozilla
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 tokenEnd
 =
@@ -423,7 +423,7 @@ mozilla
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 mIter
 ;
@@ -434,7 +434,7 @@ mozilla
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 mEnd
 ;
@@ -479,7 +479,7 @@ template
 bool
 IsWhitespace
 (
-PRUnichar
+char16_t
 )
 =
 NS_IsAsciiWhitespace

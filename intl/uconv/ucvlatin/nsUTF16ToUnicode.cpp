@@ -141,7 +141,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -168,13 +168,13 @@ aSrc
 *
 aSrcLength
 ;
-PRUnichar
+char16_t
 *
 dest
 =
 aDest
 ;
-PRUnichar
+char16_t
 *
 destEnd
 =
@@ -183,7 +183,7 @@ aDest
 *
 aDestLength
 ;
-PRUnichar
+char16_t
 oddHighSurrogate
 ;
 switch
@@ -337,7 +337,7 @@ char
 *
 srcEvenEnd
 ;
-PRUnichar
+char16_t
 u
 ;
 if
@@ -555,7 +555,7 @@ u
 *
 (
 const
-PRUnichar
+char16_t
 *
 )
 src
@@ -1027,7 +1027,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -1120,7 +1120,7 @@ if
 *
 (
 (
-PRUnichar
+char16_t
 *
 )
 aSrc
@@ -1142,7 +1142,7 @@ if
 *
 (
 (
-PRUnichar
+char16_t
 *
 )
 aSrc
@@ -1239,7 +1239,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -1332,7 +1332,7 @@ if
 *
 (
 (
-PRUnichar
+char16_t
 *
 )
 aSrc
@@ -1354,7 +1354,7 @@ if
 *
 (
 (
-PRUnichar
+char16_t
 *
 )
 aSrc
@@ -1476,7 +1476,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t

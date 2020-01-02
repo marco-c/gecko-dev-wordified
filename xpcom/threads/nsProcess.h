@@ -295,7 +295,7 @@ CopyArgsAndRunProcessw
 bool
 blocking
 const
-PRUnichar
+char16_t
 *
 *
 args

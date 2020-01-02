@@ -289,7 +289,7 @@ nsIEditor
 define
 kNullCh
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -387,7 +387,7 @@ null
 at
 the
 end
-PRUnichar
+char16_t
 *
 value
 =
@@ -396,7 +396,7 @@ ToNewUnicode
 aValue
 )
 ;
-PRUnichar
+char16_t
 *
 start
 =
@@ -406,7 +406,7 @@ BeginWriting
 (
 )
 ;
-PRUnichar
+char16_t
 *
 end
 =
@@ -652,7 +652,7 @@ null
 at
 the
 end
-PRUnichar
+char16_t
 *
 start
 =
@@ -662,7 +662,7 @@ BeginWriting
 (
 )
 ;
-PRUnichar
+char16_t
 *
 end
 =
@@ -789,7 +789,7 @@ outString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -1931,7 +1931,7 @@ aValues
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '

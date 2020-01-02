@@ -355,7 +355,7 @@ belongs
 struct
 nsGlyphCode
 {
-PRUnichar
+char16_t
 code
 [
 2
@@ -377,7 +377,7 @@ code
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -737,7 +737,7 @@ to
 avoid
 copying
 const
-PRUnichar
+char16_t
 *
 get
 (

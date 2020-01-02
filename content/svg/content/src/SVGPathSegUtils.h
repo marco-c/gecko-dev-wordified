@@ -973,7 +973,7 @@ type
 ;
 }
 static
-PRUnichar
+char16_t
 GetPathSegTypeAsLetter
 (
 uint32_t
@@ -996,13 +996,13 @@ recognized
 ;
 static
 const
-PRUnichar
+char16_t
 table
 [
 ]
 =
 {
-PRUnichar
+char16_t
 (
 '
 x
@@ -1014,7 +1014,7 @@ x
 =
 =
 PATHSEG_UNKNOWN
-PRUnichar
+char16_t
 (
 '
 z
@@ -1026,7 +1026,7 @@ z
 =
 =
 PATHSEG_CLOSEPATH
-PRUnichar
+char16_t
 (
 '
 M
@@ -1038,7 +1038,7 @@ M
 =
 =
 PATHSEG_MOVETO_ABS
-PRUnichar
+char16_t
 (
 '
 m
@@ -1050,7 +1050,7 @@ m
 =
 =
 PATHSEG_MOVETO_REL
-PRUnichar
+char16_t
 (
 '
 L
@@ -1062,7 +1062,7 @@ L
 =
 =
 PATHSEG_LINETO_ABS
-PRUnichar
+char16_t
 (
 '
 l
@@ -1074,7 +1074,7 @@ l
 =
 =
 PATHSEG_LINETO_REL
-PRUnichar
+char16_t
 (
 '
 C
@@ -1086,7 +1086,7 @@ C
 =
 =
 PATHSEG_CURVETO_CUBIC_ABS
-PRUnichar
+char16_t
 (
 '
 c
@@ -1098,7 +1098,7 @@ c
 =
 =
 PATHSEG_CURVETO_CUBIC_REL
-PRUnichar
+char16_t
 (
 '
 Q
@@ -1110,7 +1110,7 @@ Q
 =
 =
 PATHSEG_CURVETO_QUADRATIC_ABS
-PRUnichar
+char16_t
 (
 '
 q
@@ -1122,7 +1122,7 @@ q
 =
 =
 PATHSEG_CURVETO_QUADRATIC_REL
-PRUnichar
+char16_t
 (
 '
 A
@@ -1134,7 +1134,7 @@ A
 =
 =
 PATHSEG_ARC_ABS
-PRUnichar
+char16_t
 (
 '
 a
@@ -1146,7 +1146,7 @@ a
 =
 =
 PATHSEG_ARC_REL
-PRUnichar
+char16_t
 (
 '
 H
@@ -1158,7 +1158,7 @@ H
 =
 =
 PATHSEG_LINETO_HORIZONTAL_ABS
-PRUnichar
+char16_t
 (
 '
 h
@@ -1170,7 +1170,7 @@ h
 =
 =
 PATHSEG_LINETO_HORIZONTAL_REL
-PRUnichar
+char16_t
 (
 '
 V
@@ -1182,7 +1182,7 @@ V
 =
 =
 PATHSEG_LINETO_VERTICAL_ABS
-PRUnichar
+char16_t
 (
 '
 v
@@ -1194,7 +1194,7 @@ v
 =
 =
 PATHSEG_LINETO_VERTICAL_REL
-PRUnichar
+char16_t
 (
 '
 S
@@ -1206,7 +1206,7 @@ S
 =
 =
 PATHSEG_CURVETO_CUBIC_SMOOTH_ABS
-PRUnichar
+char16_t
 (
 '
 s
@@ -1218,7 +1218,7 @@ s
 =
 =
 PATHSEG_CURVETO_CUBIC_SMOOTH_REL
-PRUnichar
+char16_t
 (
 '
 T
@@ -1230,7 +1230,7 @@ T
 =
 =
 PATHSEG_CURVETO_QUADRATIC_SMOOTH_ABS
-PRUnichar
+char16_t
 (
 '
 t

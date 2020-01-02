@@ -495,7 +495,7 @@ nullptr
 )
 {
 const
-PRUnichar
+char16_t
 *
 value
 ;

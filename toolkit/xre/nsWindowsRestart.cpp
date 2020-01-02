@@ -884,7 +884,7 @@ exe
 *
 /
 static
-PRUnichar
+char16_t
 *
 AllocConvertUTF8toUTF16
 (
@@ -914,12 +914,12 @@ strlen
 arg
 )
 ;
-PRUnichar
+char16_t
 *
 s
 =
 new
-PRUnichar
+char16_t
 [
 (
 len
@@ -929,7 +929,7 @@ len
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ]
 ;

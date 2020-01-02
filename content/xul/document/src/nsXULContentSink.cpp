@@ -1959,7 +1959,7 @@ XULContentSinkImpl
 :
 IsDataInBuffer
 (
-PRUnichar
+char16_t
 *
 buffer
 int32_t
@@ -2464,7 +2464,7 @@ XULContentSinkImpl
 NormalizeAttributeString
 (
 const
-PRUnichar
+char16_t
 *
 aExpatName
 nsAttrName
@@ -2620,11 +2620,11 @@ XULContentSinkImpl
 HandleStartElement
 (
 const
-PRUnichar
+char16_t
 *
 aName
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -2955,7 +2955,7 @@ XULContentSinkImpl
 HandleEndElement
 (
 const
-PRUnichar
+char16_t
 *
 aName
 )
@@ -3485,7 +3485,7 @@ XULContentSinkImpl
 HandleComment
 (
 const
-PRUnichar
+char16_t
 *
 aName
 )
@@ -3505,7 +3505,7 @@ XULContentSinkImpl
 HandleCDataSection
 (
 const
-PRUnichar
+char16_t
 *
 aData
 uint32_t
@@ -3562,7 +3562,7 @@ XULContentSinkImpl
 HandleCharacterData
 (
 const
-PRUnichar
+char16_t
 *
 aData
 uint32_t
@@ -3605,11 +3605,11 @@ XULContentSinkImpl
 HandleProcessingInstruction
 (
 const
-PRUnichar
+char16_t
 *
 aTarget
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -3762,11 +3762,11 @@ XULContentSinkImpl
 HandleXMLDeclaration
 (
 const
-PRUnichar
+char16_t
 *
 aVersion
 const
-PRUnichar
+char16_t
 *
 aEncoding
 int32_t
@@ -3784,11 +3784,11 @@ XULContentSinkImpl
 ReportError
 (
 const
-PRUnichar
+char16_t
 *
 aErrorText
 const
-PRUnichar
+char16_t
 *
 aSourceText
 nsIScriptError
@@ -3971,7 +3971,7 @@ NS_OK
 ;
 }
 const
-PRUnichar
+char16_t
 *
 noAtts
 [
@@ -4017,7 +4017,7 @@ parsererror
 Append
 (
 (
-PRUnichar
+char16_t
 )
 0xFFFF
 )
@@ -4081,7 +4081,7 @@ sourcetext
 Append
 (
 (
-PRUnichar
+char16_t
 )
 0xFFFF
 )
@@ -4179,7 +4179,7 @@ XULContentSinkImpl
 OpenRoot
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAttributes
@@ -4462,7 +4462,7 @@ XULContentSinkImpl
 OpenTag
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAttributes
@@ -4797,7 +4797,7 @@ XULContentSinkImpl
 OpenScript
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAttributes
@@ -5720,7 +5720,7 @@ XULContentSinkImpl
 AddAttributes
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAttributes
@@ -6008,7 +6008,7 @@ XULContentSinkImpl
 AddText
 (
 const
-PRUnichar
+char16_t
 *
 aText
 int32_t
@@ -6035,14 +6035,14 @@ mTextSize
 mText
 =
 (
-PRUnichar
+char16_t
 *
 )
 moz_malloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 )
 *
 4096
@@ -6156,7 +6156,7 @@ aLength
 mText
 =
 (
-PRUnichar
+char16_t
 *
 )
 moz_realloc
@@ -6164,7 +6164,7 @@ moz_realloc
 mText
 sizeof
 (
-PRUnichar
+char16_t
 )
 *
 mTextSize
@@ -6196,7 +6196,7 @@ aText
 offset
 sizeof
 (
-PRUnichar
+char16_t
 )
 *
 amount

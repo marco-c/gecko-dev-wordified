@@ -967,7 +967,7 @@ runTimeInSeconds
 )
 ;
 const
-PRUnichar
+char16_t
 *
 runTime
 =
