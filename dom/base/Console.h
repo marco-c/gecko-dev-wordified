@@ -617,9 +617,8 @@ aData
 void
 AppendCallData
 (
-const
 ConsoleCallData
-&
+*
 aData
 )
 ;
@@ -627,7 +626,7 @@ void
 ProcessCallData
 (
 ConsoleCallData
-&
+*
 aData
 )
 ;
@@ -1020,6 +1019,11 @@ Value
 aArguments
 )
 ;
+void
+ClearConsoleData
+(
+)
+;
 nsCOMPtr
 <
 nsPIDOMWindow
@@ -1038,7 +1042,7 @@ nsIConsoleAPIStorage
 >
 mStorage
 ;
-nsTArray
+LinkedList
 <
 ConsoleCallData
 >
