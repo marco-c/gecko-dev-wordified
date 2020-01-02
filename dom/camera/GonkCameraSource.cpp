@@ -1040,6 +1040,10 @@ bool
 storeMetaDataInVideoBuffers
 )
 :
+mCameraHw
+(
+aCameraHw
+)
 mCameraFlags
 (
 0
@@ -1092,10 +1096,6 @@ mGlitchDurationThresholdUs
 mCollectStats
 (
 false
-)
-mCameraHw
-(
-aCameraHw
 )
 {
 mVideoSize

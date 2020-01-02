@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-DOMCameraCapabilities
+nsDOMClassInfoID
 .
 h
 "
@@ -67,6 +67,13 @@ h
 include
 "
 DOMCameraControl
+.
+h
+"
+#
+include
+"
+DOMCameraCapabilities
 .
 h
 "
