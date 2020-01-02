@@ -11801,10 +11801,7 @@ aFlags
 =
 CycleCollectionEdgeNameArrayFlag
 ;
-nsTArray
-:
-:
-size_type
+size_t
 length
 =
 aField
@@ -11815,10 +11812,7 @@ Length
 ;
 for
 (
-nsTArray
-:
-:
-size_type
+size_t
 i
 =
 0
