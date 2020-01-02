@@ -1111,7 +1111,7 @@ defer
 ;
 aDebuggee
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 deferred
 .

@@ -12560,6 +12560,12 @@ if
 contentWin
 )
 {
+mozilla
+:
+:
+ErrorResult
+rv
+;
 nsRefPtr
 <
 nsGlobalWindow
@@ -12596,6 +12602,7 @@ window
 >
 GetScrollbars
 (
+rv
 )
 ;
 if
@@ -12603,12 +12610,6 @@ if
 scrollbars
 )
 {
-mozilla
-:
-:
-ErrorResult
-rv
-;
 scrollbars
 -
 >

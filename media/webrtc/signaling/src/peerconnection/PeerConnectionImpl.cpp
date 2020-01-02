@@ -267,13 +267,6 @@ h
 #
 include
 "
-nsPIDOMWindow
-.
-h
-"
-#
-include
-"
 nsDOMDataChannelDeclarations
 .
 h
@@ -292,6 +285,13 @@ MOZILLA_INTERNAL_API
 include
 "
 nsPerformance
+.
+h
+"
+#
+include
+"
+nsGlobalWindow
 .
 h
 "
@@ -3904,7 +3904,7 @@ Initialize
 PeerConnectionObserver
 &
 aObserver
-nsIDOMWindow
+nsGlobalWindow
 *
 aWindow
 const
@@ -4072,10 +4072,7 @@ aWindow
 ;
 mWindow
 =
-do_QueryInterface
-(
 aWindow
-)
 ;
 NS_ENSURE_STATE
 (

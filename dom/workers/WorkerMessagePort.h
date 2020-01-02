@@ -210,7 +210,7 @@ aFop
 MOZ_OVERRIDE
 ;
 void
-PostMessage
+PostMessageMoz
 (
 JSContext
 *

@@ -573,7 +573,7 @@ void
 WorkerMessagePort
 :
 :
-PostMessage
+PostMessageMoz
 (
 JSContext
 *
