@@ -4726,7 +4726,7 @@ msaaType
 \
 xpRelation
 .
-construct
+emplace
 (
 RelationType
 :
@@ -4867,12 +4867,7 @@ VT_EMPTY
 ;
 if
 (
-!
 xpRelation
-.
-empty
-(
-)
 )
 {
 Relation
@@ -4880,11 +4875,8 @@ rel
 =
 RelationByType
 (
+*
 xpRelation
-.
-ref
-(
-)
 )
 ;
 navAccessible
