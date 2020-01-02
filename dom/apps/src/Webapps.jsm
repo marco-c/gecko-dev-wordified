@@ -14660,6 +14660,7 @@ function
 onInstallSuccessAck
 (
 aManifestURL
+aDontNeedNetwork
 )
 {
 /
@@ -14680,11 +14681,17 @@ online
 .
 if
 (
+(
 Services
 .
 io
 .
 offline
+)
+&
+&
+!
+aDontNeedNetwork
 )
 {
 let
@@ -14727,6 +14734,7 @@ aManifestURL
 ;
 }
 }
+;
 Services
 .
 obs
@@ -16109,6 +16117,11 @@ manifest
 ;
 }
 }
+let
+dontNeedNetwork
+=
+false
+;
 if
 (
 manifest
@@ -16155,6 +16168,10 @@ app
 localInstallPath
 )
 {
+dontNeedNetwork
+=
+true
+;
 jsonManifest
 .
 package_path
@@ -16274,6 +16291,7 @@ onInstallSuccessAck
 app
 .
 manifestURL
+dontNeedNetwork
 )
 ;
 }
