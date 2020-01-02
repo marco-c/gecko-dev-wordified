@@ -1202,11 +1202,6 @@ RegisterAllocation
 \
 _
 (
-UnsplitEdges
-)
-\
-_
-(
 GenerateCode
 )
 \
