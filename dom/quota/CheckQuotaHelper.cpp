@@ -219,14 +219,6 @@ h
 "
 #
 define
-PERMISSION_INDEXEDDB_UNLIMITED
-"
-indexedDB
--
-unlimited
-"
-#
-define
 TOPIC_QUOTA_PROMPT
 "
 indexedDB
@@ -800,7 +792,7 @@ pm
 TestPermissionFromPrincipal
 (
 aPrincipal
-PERMISSION_INDEXEDDB_UNLIMITED
+PERMISSION_STORAGE_UNLIMITED
 &
 permission
 )
@@ -997,7 +989,7 @@ sop
 GetPrincipal
 (
 )
-PERMISSION_INDEXEDDB_UNLIMITED
+PERMISSION_STORAGE_UNLIMITED
 mPromptResult
 nsIPermissionManager
 :

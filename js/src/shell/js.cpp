@@ -32446,6 +32446,8 @@ ShellOpenAsmJSCacheEntryForWrite
 (
 HandleObject
 global
+bool
+installed
 const
 jschar
 *

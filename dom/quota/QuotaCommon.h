@@ -211,6 +211,14 @@ DSSTORE_FILE_NAME
 .
 DS_Store
 "
+#
+define
+PERMISSION_STORAGE_UNLIMITED
+"
+indexedDB
+-
+unlimited
+"
 BEGIN_QUOTA_NAMESPACE
 void
 AssertIsOnIOThread
