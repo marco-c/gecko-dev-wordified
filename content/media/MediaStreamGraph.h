@@ -7303,6 +7303,7 @@ MediaStreamGraph
 )
 ;
 }
+virtual
 ~
 MediaStreamGraph
 (
