@@ -31151,6 +31151,8 @@ menubar
 Reset
 the
 margins
+and
+padding
 that
 _update
 modifies
@@ -31159,9 +31161,9 @@ that
 we
 can
 take
+/
+/
 accurate
-/
-/
 measurements
 .
 titlebarContent
@@ -31186,7 +31188,7 @@ menubar
 .
 style
 .
-marginBottom
+paddingBottom
 =
 "
 "
@@ -31374,7 +31376,7 @@ menubar
 .
 style
 .
-marginBottom
+paddingBottom
 =
 menuTitlebarDelta
 +
