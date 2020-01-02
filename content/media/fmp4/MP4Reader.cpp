@@ -4597,6 +4597,13 @@ NS_IsMainThread
 )
 )
 {
+if
+(
+GetTaskQueue
+(
+)
+)
+{
 GetTaskQueue
 (
 )
@@ -4615,6 +4622,7 @@ UpdateIndex
 )
 )
 ;
+}
 }
 else
 {
