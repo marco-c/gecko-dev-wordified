@@ -12556,6 +12556,7 @@ get_default_nickname
 currCert
 ctx
 localNick
+locker
 )
 ;
 }
@@ -12922,6 +12923,7 @@ ImportValidCACerts
 numCAs
 derCerts
 ctx
+locker
 )
 ;
 nsMemory
