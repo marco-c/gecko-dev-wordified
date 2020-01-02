@@ -183,9 +183,6 @@ const
 nsRect
 &
 aDirtyRect
-nsIntRegion
-*
-aRegionToClear
 )
 ;
 NS_IMETHOD
