@@ -117,7 +117,7 @@ namespace
 dom
 {
 class
-MediaStreamConstraintsInternal
+MediaStreamConstraints
 ;
 class
 GetUserMediaRequest
@@ -139,7 +139,7 @@ nsAString
 &
 aCallID
 const
-MediaStreamConstraintsInternal
+MediaStreamConstraints
 &
 aConstraints
 bool
@@ -202,7 +202,7 @@ retval
 void
 GetConstraints
 (
-MediaStreamConstraintsInternal
+MediaStreamConstraints
 &
 result
 )
@@ -219,7 +219,7 @@ mCallID
 ;
 nsAutoPtr
 <
-MediaStreamConstraintsInternal
+MediaStreamConstraints
 >
 mConstraints
 ;
