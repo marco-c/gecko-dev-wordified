@@ -967,7 +967,9 @@ GetMetrics
 (
 )
 .
-superscriptOffset
+emHeight
+*
+NS_FONT_SUPERSCRIPT_OFFSET_RATIO
 )
 ;
 }
@@ -986,7 +988,9 @@ GetMetrics
 (
 )
 .
-subscriptOffset
+emHeight
+*
+NS_FONT_SUBSCRIPT_OFFSET_RATIO
 )
 ;
 }
