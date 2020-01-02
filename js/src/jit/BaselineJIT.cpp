@@ -748,13 +748,6 @@ pcc
 cx
 )
 ;
-IonContext
-ictx
-(
-cx
-nullptr
-)
-;
 JitActivation
 activation
 (

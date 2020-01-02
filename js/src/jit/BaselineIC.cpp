@@ -4562,6 +4562,13 @@ Compile
 new
 stubcode
 .
+IonContext
+ictx
+(
+cx
+nullptr
+)
+;
 MacroAssembler
 masm
 ;

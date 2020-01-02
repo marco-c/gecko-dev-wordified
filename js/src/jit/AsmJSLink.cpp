@@ -3034,16 +3034,6 @@ avoid
 doing
 so
 .
-jit
-:
-:
-IonContext
-ictx
-(
-cx
-nullptr
-)
-;
 JitActivation
 jitActivation
 (
