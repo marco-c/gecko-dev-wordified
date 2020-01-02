@@ -5983,11 +5983,8 @@ void
 endif
 private
 :
-mozilla
-:
-:
-AutoPushJSContext
-mPusher
+JSAutoRequest
+mAr
 ;
 State
 mState
