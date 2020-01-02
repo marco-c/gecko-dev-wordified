@@ -1833,6 +1833,15 @@ DelayedInitFontList
 (
 )
 ;
+virtual
+already_AddRefed
+<
+FontInfoData
+>
+CreateFontInfoData
+(
+)
+;
 gfxFloat
 mForceGDIClassicMaxFontSize
 ;
