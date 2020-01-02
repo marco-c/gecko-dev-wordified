@@ -3952,13 +3952,6 @@ typedef
 mozilla
 :
 :
-WidgetQueryContentEvent
-nsQueryContentEvent
-;
-typedef
-mozilla
-:
-:
 WidgetSelectionEvent
 nsSelectionEvent
 ;

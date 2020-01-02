@@ -5603,7 +5603,7 @@ So
 you
 cannot
 use
-nsQueryContentEvent
+WidgetQueryContentEvent
 or
 something
 .

@@ -123,6 +123,10 @@ TextEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_INTERFACE_MAP_BEGIN
 (
 nsQueryContentEventResult
@@ -540,7 +544,7 @@ aNotFound
 mOffset
 =
 =
-nsQueryContentEvent
+WidgetQueryContentEvent
 :
 :
 NOT_FOUND
@@ -560,7 +564,7 @@ nsIWidget
 *
 aWidget
 const
-nsQueryContentEvent
+WidgetQueryContentEvent
 &
 aEvent
 )

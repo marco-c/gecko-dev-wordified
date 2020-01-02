@@ -5024,7 +5024,7 @@ false
 nsEventStatus
 status
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 selection
 (
 true
@@ -5904,7 +5904,7 @@ this
 text
 event
 .
-nsQueryContentEvent
+WidgetQueryContentEvent
 querySelectedTextEvent
 (
 true
@@ -6903,7 +6903,7 @@ context
 return
 ;
 }
-nsQueryContentEvent
+WidgetQueryContentEvent
 charRect
 (
 true
@@ -7232,7 +7232,7 @@ cursor
 position
 &
 selection
-nsQueryContentEvent
+WidgetQueryContentEvent
 querySelectedTextEvent
 (
 true
@@ -7384,7 +7384,7 @@ of
 the
 focused
 editor
-nsQueryContentEvent
+WidgetQueryContentEvent
 queryTextContentEvent
 (
 true
@@ -7909,7 +7909,7 @@ cursor
 position
 &
 selection
-nsQueryContentEvent
+WidgetQueryContentEvent
 querySelectedTextEvent
 (
 true
@@ -7954,7 +7954,7 @@ of
 the
 focused
 editor
-nsQueryContentEvent
+WidgetQueryContentEvent
 queryTextContentEvent
 (
 true

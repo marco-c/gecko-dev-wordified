@@ -1398,7 +1398,10 @@ mIMETabParent
 bool
 HandleQueryContentEvent
 (
-nsQueryContentEvent
+mozilla
+:
+:
+WidgetQueryContentEvent
 &
 aEvent
 )

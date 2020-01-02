@@ -8013,7 +8013,7 @@ Destroyed
 )
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 queryText
 (
 true
@@ -8180,7 +8180,7 @@ MOZ_CRASH
 )
 ;
 }
-nsQueryContentEvent
+WidgetQueryContentEvent
 querySelection
 (
 true
@@ -15056,7 +15056,7 @@ in
 system
 screen
 coordinates
-nsQueryContentEvent
+WidgetQueryContentEvent
 event
 (
 true
@@ -15831,7 +15831,7 @@ in
 system
 screen
 coordinates
-nsQueryContentEvent
+WidgetQueryContentEvent
 event
 (
 true

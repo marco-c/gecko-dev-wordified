@@ -9539,7 +9539,7 @@ at
 the
 point
 .
-nsQueryContentEvent
+WidgetQueryContentEvent
 dummyEvent
 (
 true
@@ -9698,7 +9698,7 @@ WidgetToScreenOffset
 )
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 queryEvent
 (
 true
