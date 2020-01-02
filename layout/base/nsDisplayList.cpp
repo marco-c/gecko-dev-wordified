@@ -21445,9 +21445,6 @@ aBuilder
 nsIFrame
 *
 aFrame
-nsIFrame
-*
-aStickyPosFrame
 nsDisplayList
 *
 aList
@@ -21458,10 +21455,6 @@ nsDisplayOwnLayer
 aBuilder
 aFrame
 aList
-)
-mStickyPosFrame
-(
-aStickyPosFrame
 )
 {
 MOZ_COUNT_CTOR
@@ -21682,7 +21675,7 @@ ReferenceFrame
 )
 scrollFrameSize
 )
-mStickyPosFrame
+mFrame
 presContext
 aContainerParameters
 )
@@ -21917,10 +21910,10 @@ if
 other
 -
 >
-mStickyPosFrame
+mFrame
 !
 =
-mStickyPosFrame
+mFrame
 )
 return
 false

@@ -12956,7 +12956,6 @@ nsDisplayStickyPosition
 (
 aBuilder
 this
-this
 &
 resultList
 )
