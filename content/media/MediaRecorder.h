@@ -805,8 +805,10 @@ Current
 recording
 session
 .
+nsRefPtr
+<
 Session
-*
+>
 mSession
 ;
 /
