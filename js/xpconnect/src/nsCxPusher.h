@@ -191,6 +191,7 @@ AutoCxPusher
 {
 public
 :
+explicit
 AutoCxPusher
 (
 JSContext
@@ -646,6 +647,7 @@ AutoJSContext
 {
 public
 :
+explicit
 AutoJSContext
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
@@ -660,6 +662,7 @@ const
 ;
 protected
 :
+explicit
 AutoJSContext
 (
 bool
@@ -769,6 +772,7 @@ ThreadsafeAutoJSContext
 {
 public
 :
+explicit
 ThreadsafeAutoJSContext
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
@@ -867,6 +871,7 @@ AutoJSContext
 {
 public
 :
+explicit
 AutoSafeJSContext
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
@@ -902,6 +907,7 @@ ThreadsafeAutoSafeJSContext
 {
 public
 :
+explicit
 ThreadsafeAutoSafeJSContext
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
@@ -1115,6 +1121,7 @@ mCx
 ;
 public
 :
+explicit
 AutoPushJSContext
 (
 JSContext
