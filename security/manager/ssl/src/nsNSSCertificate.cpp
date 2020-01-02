@@ -4530,7 +4530,7 @@ certVerifier
 VerifyCert
 (
 mCert
-certificateUsageSSLClient
+usage
 PR_Now
 (
 )
