@@ -3890,7 +3890,7 @@ mHTMLEditor
 >
 RemoveContainer
 (
-aNode
+element
 )
 ;
 }

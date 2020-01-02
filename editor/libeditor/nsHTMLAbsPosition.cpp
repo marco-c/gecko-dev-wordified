@@ -3019,7 +3019,7 @@ res
 =
 RemoveContainer
 (
-aElement
+element
 )
 ;
 NS_ENSURE_SUCCESS
