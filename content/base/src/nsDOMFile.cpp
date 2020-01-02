@@ -3514,7 +3514,7 @@ DataOwner
 :
 sMemoryReporterRegistered
 ;
-NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
+MOZ_DEFINE_MALLOC_SIZE_OF
 (
 DOMMemoryFileDataOwnerMallocSizeOf
 )

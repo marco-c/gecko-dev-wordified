@@ -197,11 +197,11 @@ moz_malloc_size_of
 |
 rather
 than
-an
+a
 /
 /
 |
-NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
+MOZ_DEFINE_MALLOC_SIZE_OF
 |
 .
 return
