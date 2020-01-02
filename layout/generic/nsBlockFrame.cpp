@@ -48920,6 +48920,7 @@ aMetrics
 .
 ISize
 (
+wm
 )
 ;
 /
@@ -48994,11 +48995,13 @@ aMetrics
 .
 ISize
 (
+wm
 )
 aMetrics
 .
 BSize
 (
+wm
 )
 )
 )
