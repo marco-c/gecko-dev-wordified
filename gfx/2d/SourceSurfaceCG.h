@@ -307,7 +307,7 @@ GetFormat
 const
 {
 return
-FORMAT_B8G8R8A8
+mFormat
 ;
 }
 CGImageRef
@@ -364,6 +364,9 @@ mCg
 ;
 CGImageRef
 mImage
+;
+SurfaceFormat
+mFormat
 ;
 /
 /
@@ -498,7 +501,7 @@ GetFormat
 const
 {
 return
-FORMAT_B8G8R8A8
+mFormat
 ;
 }
 CGImageRef
@@ -601,6 +604,9 @@ mDrawTarget
 CGContextRef
 mCg
 ;
+SurfaceFormat
+mFormat
+;
 mutable
 CGImageRef
 mImage
@@ -679,7 +685,7 @@ GetFormat
 const
 {
 return
-FORMAT_B8G8R8A8
+mFormat
 ;
 }
 CGImageRef
@@ -742,6 +748,9 @@ EnsureImage
 (
 )
 const
+;
+SurfaceFormat
+mFormat
 ;
 mutable
 CGImageRef
