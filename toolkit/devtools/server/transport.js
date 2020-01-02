@@ -2014,10 +2014,11 @@ this
 .
 other
 ;
-delete
 this
 .
 other
+=
+null
 ;
 other
 .

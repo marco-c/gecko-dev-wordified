@@ -2046,10 +2046,11 @@ tabActorFactories
 {
 }
 ;
-delete
 this
 .
 _allowConnection
+=
+null
 ;
 this
 .
@@ -7005,10 +7006,11 @@ e
 }
 finally
 {
-delete
 this
 .
 currentPacket
+=
+undefined
 ;
 }
 }
