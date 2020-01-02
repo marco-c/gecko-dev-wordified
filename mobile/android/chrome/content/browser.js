@@ -54140,9 +54140,6 @@ function
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -54150,7 +54147,6 @@ Reader
 :
 Click
 "
-}
 }
 )
 ;
@@ -54164,9 +54160,6 @@ function
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -54174,7 +54167,6 @@ Reader
 :
 LongClick
 "
-}
 }
 )
 ;
