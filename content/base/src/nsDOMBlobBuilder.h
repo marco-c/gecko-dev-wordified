@@ -250,6 +250,10 @@ mIsFromNsiFile
 false
 )
 {
+SetLengthAndModifiedDate
+(
+)
+;
 }
 /
 /
@@ -288,6 +292,10 @@ mIsFromNsiFile
 false
 )
 {
+SetLengthAndModifiedDate
+(
+)
+;
 }
 /
 /
@@ -646,6 +654,11 @@ UnwrapFuncPtr
 aUnwrapFunc
 )
 ;
+void
+SetLengthAndModifiedDate
+(
+)
+;
 nsTArray
 <
 nsCOMPtr
@@ -983,9 +996,6 @@ nsDOMMemoryFile
 (
 mData
 mDataLen
-EmptyString
-(
-)
 EmptyString
 (
 )
