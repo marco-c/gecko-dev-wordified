@@ -124,7 +124,7 @@ MOZ_WIDGET_QT
 #
 include
 <
-QWidget
+QWindow
 >
 #
 endif
@@ -1152,7 +1152,7 @@ nsShmImage
 :
 Put
 (
-QWidget
+QWindow
 *
 aWindow
 QRect
@@ -1210,7 +1210,7 @@ intersected
 aWindow
 -
 >
-rect
+geometry
 (
 )
 )

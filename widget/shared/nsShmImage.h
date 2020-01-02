@@ -216,7 +216,7 @@ class
 QRect
 ;
 class
-QWidget
+QWindow
 ;
 class
 gfxASurface
@@ -394,7 +394,7 @@ MOZ_WIDGET_QT
 void
 Put
 (
-QWidget
+QWindow
 *
 aWindow
 QRect
