@@ -2185,6 +2185,11 @@ NudgeToIntegers
 void
 )
 ;
+void
+NudgeToIntegersFixedEpsilon
+(
+)
+;
 private
 :
 gfxFloat
