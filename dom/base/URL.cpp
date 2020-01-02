@@ -1223,15 +1223,9 @@ label
 return
 ;
 }
-aRv
-=
 mURI
--
->
-SetSpec
-(
-href
-)
+=
+uri
 ;
 UpdateURLSearchParams
 (
