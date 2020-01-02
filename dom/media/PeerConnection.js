@@ -7215,14 +7215,6 @@ appendStats
 (
 dict
 .
-iceCandidatePairStats
-report
-)
-;
-appendStats
-(
-dict
-.
 iceCandidateStats
 report
 )
