@@ -419,6 +419,9 @@ name
 "
 )
 ;
+return
+null
+;
 }
 }
 ;
@@ -4241,6 +4244,9 @@ return
 true
 ;
 }
+return
+false
+;
 }
 )
 ;
@@ -6131,6 +6137,7 @@ isLocalTab
 )
 {
 return
+null
 ;
 }
 let
@@ -7095,11 +7102,16 @@ complete
 .
 if
 (
+!
 this
 .
 _target
 )
 {
+return
+null
+;
+}
 let
 target
 =
@@ -7132,7 +7144,6 @@ destroy
 (
 )
 ;
-}
 }
 )
 .

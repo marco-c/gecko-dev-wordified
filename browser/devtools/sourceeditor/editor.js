@@ -1363,7 +1363,7 @@ k
 extraKeys
 "
 )
-return
+{
 this
 .
 config
@@ -1376,6 +1376,9 @@ config
 k
 ]
 ;
+return
+;
+}
 if
 (
 !
@@ -1493,8 +1496,7 @@ somethingSelected
 (
 )
 )
-return
-void
+{
 cm
 .
 indentSelection
@@ -1504,6 +1506,9 @@ add
 "
 )
 ;
+return
+;
+}
 if
 (
 this
@@ -1512,8 +1517,7 @@ config
 .
 indentWithTabs
 )
-return
-void
+{
 cm
 .
 replaceSelection
@@ -1531,6 +1535,9 @@ input
 "
 )
 ;
+return
+;
+}
 var
 num
 =
@@ -2207,8 +2214,7 @@ ev
 .
 shiftKey
 )
-return
-void
+{
 cm
 .
 setSelection
@@ -2217,6 +2223,9 @@ head
 tail
 )
 ;
+return
+;
+}
 this
 .
 emit
@@ -2673,8 +2682,7 @@ if
 !
 from
 )
-return
-void
+{
 this
 .
 setText
@@ -2682,6 +2690,9 @@ setText
 value
 )
 ;
+return
+;
+}
 if
 (
 !
@@ -2706,8 +2717,6 @@ ch
 from
 )
 ;
-return
-void
 this
 .
 setText
@@ -2716,6 +2725,8 @@ text
 +
 value
 )
+;
+return
 ;
 }
 cm
@@ -5848,8 +5859,7 @@ name
 initialize
 "
 )
-return
-void
+{
 funcs
 [
 name
@@ -5858,6 +5868,9 @@ name
 ctx
 )
 ;
+return
+;
+}
 this
 [
 name
@@ -6741,8 +6754,7 @@ map
 cmd
 ]
 )
-return
-void
+{
 cm
 .
 execCommand
@@ -6753,6 +6765,9 @@ cmd
 ]
 )
 ;
+return
+;
+}
 if
 (
 cmd
