@@ -259,7 +259,7 @@ gPreloadListExpirationTime
 =
 INT64_C
 (
-1394273230288000
+1394881586089000
 )
 ;
 class
@@ -683,6 +683,14 @@ forum
 quantifiedself
 .
 com
+"
+true
+}
+{
+"
+getlantern
+.
+org
 "
 true
 }
