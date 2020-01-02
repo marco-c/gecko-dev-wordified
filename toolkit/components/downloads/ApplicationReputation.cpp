@@ -3975,6 +3975,17 @@ of
 local
 lookups
 .
+The
+most
+recent
+redirect
+is
+/
+/
+the
+last
+element
+.
 nsCString
 spec
 ;
