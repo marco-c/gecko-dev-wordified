@@ -1086,15 +1086,12 @@ true
 )
 ;
 bool
-EscapeIPv6
+ValidIPv6orHostname
 (
 const
 char
 *
 host
-nsCString
-&
-result
 )
 ;
 bool
