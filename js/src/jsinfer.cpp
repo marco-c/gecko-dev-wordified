@@ -14309,10 +14309,10 @@ next
 )
 )
 {
-RootedScript
+JSScript
+*
 script
-(
-cx
+=
 i
 .
 get
@@ -14320,7 +14320,6 @@ get
 JSScript
 >
 (
-)
 )
 ;
 if
@@ -27573,7 +27572,7 @@ key
 .
 type
 .
-typeObject
+typeObjectNoBarrier
 (
 )
 ;
@@ -27638,7 +27637,7 @@ key
 .
 type
 .
-typeObject
+typeObjectNoBarrier
 (
 )
 )
@@ -27901,7 +27900,7 @@ types
 i
 ]
 .
-typeObject
+typeObjectNoBarrier
 (
 )
 ;
@@ -27930,7 +27929,7 @@ types
 i
 ]
 .
-typeObject
+typeObjectNoBarrier
 (
 )
 )
@@ -28234,6 +28233,10 @@ if
 entry
 .
 object
+.
+unbarrieredGet
+(
+)
 !
 =
 e
@@ -28243,6 +28246,10 @@ front
 )
 .
 object
+.
+unbarrieredGet
+(
+)
 )
 {
 TypeObjectWithNewScriptSet
