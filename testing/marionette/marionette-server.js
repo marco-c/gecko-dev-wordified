@@ -16922,6 +16922,9 @@ MarionetteServerConnection
 prototype
 .
 getElementSize
+/
+/
+deprecated
 "
 getElementRect
 "
@@ -16967,6 +16970,9 @@ MarionetteServerConnection
 prototype
 .
 getElementLocation
+/
+/
+deprecated
 "
 getElementPosition
 "

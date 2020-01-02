@@ -1513,6 +1513,9 @@ getElementLocation
 getElementLocation
 )
 ;
+/
+/
+deprecated
 addMessageListenerId
 (
 "
@@ -2241,6 +2244,9 @@ getElementSize
 getElementSize
 )
 ;
+/
+/
+deprecated
 removeMessageListenerId
 (
 "
