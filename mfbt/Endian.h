@@ -973,6 +973,8 @@ defined
 (
 __AARCH64EB__
 )
+|
+|
 \
 (
 defined
@@ -1056,6 +1058,8 @@ defined
 (
 __AARCH64EL__
 )
+|
+|
 \
 (
 defined
