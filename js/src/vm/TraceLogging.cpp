@@ -3328,7 +3328,7 @@ if
 !
 tree
 .
-ensureSpaceBeforeAdd
+hasSpaceForAdd
 (
 )
 )
@@ -3344,6 +3344,16 @@ traceLoggers
 .
 startupTime
 ;
+if
+(
+!
+tree
+.
+ensureSpaceBeforeAdd
+(
+)
+)
+{
 if
 (
 !
@@ -3382,6 +3392,7 @@ true
 ;
 return
 ;
+}
 }
 /
 /
