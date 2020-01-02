@@ -506,6 +506,8 @@ processOutputLine
 '
 :
 [
+self
+.
 on_output
 ]
                 
