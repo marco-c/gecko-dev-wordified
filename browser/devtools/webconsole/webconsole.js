@@ -5673,7 +5673,7 @@ text
 =
 node
 .
-clipboardText
+textContent
 ;
 /
 /
