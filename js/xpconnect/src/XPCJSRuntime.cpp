@@ -19485,7 +19485,9 @@ mWatchdogManager
 new
 WatchdogManager
 (
-this
+MOZ_THIS_IN_INITIALIZER_LIST
+(
+)
 )
 )
 mJunkScope
