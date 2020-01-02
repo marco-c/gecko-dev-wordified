@@ -186,15 +186,6 @@ types
 .
 h
 >
-#
-include
-<
-sys
-/
-socket
-.
-h
->
 PRLogModuleInfo
 *
 gRtspLog
