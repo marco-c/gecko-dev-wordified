@@ -39922,6 +39922,12 @@ considered
 full
 browser
 windows
+;
+we
+also
+ignore
+private
+windows
 .
 let
 isPBWindow
@@ -39932,6 +39938,12 @@ isWindowPrivate
 (
 window
 )
+&
+&
+!
+PrivateBrowsingUtils
+.
+permanentPrivateBrowsing
 ;
 if
 (
