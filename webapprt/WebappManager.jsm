@@ -632,13 +632,19 @@ confirmInstall
 (
 data
 localDir
+Task
+.
+async
+(
 function
+*
 (
 aApp
 aManifest
 aZipPath
 )
 {
+yield
 nativeApp
 .
 install
@@ -649,6 +655,7 @@ aZipPath
 )
 ;
 }
+)
 )
 ;
 }
