@@ -94,6 +94,12 @@ MPL
 *
 /
 #
+ifndef
+nsEmbedStream_h__
+#
+define
+nsEmbedStream_h__
+#
 include
 "
 nsCOMPtr
@@ -197,3 +203,8 @@ mOutputStream
 ;
 }
 ;
+#
+endif
+/
+/
+nsEmbedStream_h__
