@@ -208,6 +208,12 @@ log
 *
 /
 #
+ifndef
+VisualEventTracer_h___
+#
+define
+VisualEventTracer_h___
+#
 include
 <
 stdint
@@ -1783,3 +1789,10 @@ eventtracer
 /
 /
 mozilla
+#
+endif
+/
+*
+VisualEventTracer_h___
+*
+/
