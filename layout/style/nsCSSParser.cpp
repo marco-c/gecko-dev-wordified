@@ -4444,7 +4444,7 @@ aValue
 )
 ;
 bool
-ParseTextCombineHorizontal
+ParseTextCombineUpright
 (
 nsCSSValue
 &
@@ -54774,10 +54774,10 @@ aValue
 )
 ;
 case
-eCSSProperty_text_combine_horizontal
+eCSSProperty_text_combine_upright
 :
 return
-ParseTextCombineHorizontal
+ParseTextCombineUpright
 (
 aValue
 )
@@ -72856,7 +72856,7 @@ bool
 CSSParserImpl
 :
 :
-ParseTextCombineHorizontal
+ParseTextCombineUpright
 (
 nsCSSValue
 &
@@ -72873,7 +72873,7 @@ VARIANT_HK
 nsCSSProps
 :
 :
-kTextCombineHorizontalKTable
+kTextCombineUprightKTable
 )
 )
 {
@@ -72918,7 +72918,7 @@ GetIntValue
 )
 =
 =
-NS_STYLE_TEXT_COMBINE_HORIZ_DIGITS_2
+NS_STYLE_TEXT_COMBINE_UPRIGHT_DIGITS_2
 )
 {
 if
@@ -72975,7 +72975,7 @@ aValue
 .
 SetIntValue
 (
-NS_STYLE_TEXT_COMBINE_HORIZ_DIGITS_3
+NS_STYLE_TEXT_COMBINE_UPRIGHT_DIGITS_3
 eCSSUnit_Enumerated
 )
 ;
@@ -72988,7 +72988,7 @@ aValue
 .
 SetIntValue
 (
-NS_STYLE_TEXT_COMBINE_HORIZ_DIGITS_4
+NS_STYLE_TEXT_COMBINE_UPRIGHT_DIGITS_4
 eCSSUnit_Enumerated
 )
 ;

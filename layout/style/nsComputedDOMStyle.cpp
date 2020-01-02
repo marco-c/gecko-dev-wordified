@@ -16125,7 +16125,7 @@ CSSValue
 nsComputedDOMStyle
 :
 :
-DoGetTextCombineHorizontal
+DoGetTextCombineUpright
 (
 )
 {
@@ -16144,14 +16144,14 @@ StyleText
 )
 -
 >
-mTextCombineHorizontal
+mTextCombineUpright
 ;
 if
 (
 tch
 <
 =
-NS_STYLE_TEXT_COMBINE_HORIZ_ALL
+NS_STYLE_TEXT_COMBINE_UPRIGHT_ALL
 )
 {
 val
@@ -16168,7 +16168,7 @@ tch
 nsCSSProps
 :
 :
-kTextCombineHorizontalKTable
+kTextCombineUprightKTable
 )
 )
 ;
@@ -16179,7 +16179,7 @@ if
 tch
 <
 =
-NS_STYLE_TEXT_COMBINE_HORIZ_DIGITS_2
+NS_STYLE_TEXT_COMBINE_UPRIGHT_DIGITS_2
 )
 {
 val
@@ -16203,7 +16203,7 @@ if
 tch
 <
 =
-NS_STYLE_TEXT_COMBINE_HORIZ_DIGITS_3
+NS_STYLE_TEXT_COMBINE_UPRIGHT_DIGITS_3
 )
 {
 val

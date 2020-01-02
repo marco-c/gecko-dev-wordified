@@ -5958,14 +5958,14 @@ aProperty
 )
 {
 case
-eCSSProperty_text_combine_horizontal
+eCSSProperty_text_combine_upright
 :
 if
 (
 intValue
 <
 =
-NS_STYLE_TEXT_COMBINE_HORIZ_ALL
+NS_STYLE_TEXT_COMBINE_UPRIGHT_ALL
 )
 {
 AppendASCIItoUTF16
@@ -5988,7 +5988,7 @@ if
 intValue
 =
 =
-NS_STYLE_TEXT_COMBINE_HORIZ_DIGITS_2
+NS_STYLE_TEXT_COMBINE_UPRIGHT_DIGITS_2
 )
 {
 aResult
@@ -6008,7 +6008,7 @@ if
 intValue
 =
 =
-NS_STYLE_TEXT_COMBINE_HORIZ_DIGITS_3
+NS_STYLE_TEXT_COMBINE_UPRIGHT_DIGITS_3
 )
 {
 aResult

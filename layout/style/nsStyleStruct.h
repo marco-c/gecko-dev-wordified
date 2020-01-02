@@ -9488,7 +9488,7 @@ nsStyleConsts
 .
 h
 uint8_t
-mTextCombineHorizontal
+mTextCombineUpright
 ;
 /
 /

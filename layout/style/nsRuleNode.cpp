@@ -28710,7 +28710,7 @@ text
 -
 combine
 -
-horizontal
+upright
 :
 enum
 inherit
@@ -28721,13 +28721,13 @@ SetDiscrete
 aRuleData
 -
 >
-ValueForTextCombineHorizontal
+ValueForTextCombineUpright
 (
 )
 text
 -
 >
-mTextCombineHorizontal
+mTextCombineUpright
 canStoreInRuleTree
 SETDSC_ENUMERATED
 |
@@ -28735,8 +28735,8 @@ SETDSC_UNSET_INHERIT
 parentText
 -
 >
-mTextCombineHorizontal
-NS_STYLE_TEXT_COMBINE_HORIZ_NONE
+mTextCombineUpright
+NS_STYLE_TEXT_COMBINE_UPRIGHT_NONE
 0
 0
 0

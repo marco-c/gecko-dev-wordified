@@ -1355,8 +1355,8 @@ TextAlign
 )
 COMPUTED_STYLE_PROP
 (
-text_combine_horizontal
-TextCombineHorizontal
+text_combine_upright
+TextCombineUpright
 )
 COMPUTED_STYLE_PROP
 (
