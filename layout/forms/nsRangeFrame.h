@@ -355,7 +355,11 @@ virtual
 void
 AppendAnonymousContentTo
 (
-nsBaseContentList
+nsTArray
+<
+nsIContent
+*
+>
 &
 aElements
 uint32_t
