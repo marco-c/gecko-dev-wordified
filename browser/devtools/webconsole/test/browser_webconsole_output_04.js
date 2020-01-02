@@ -175,8 +175,6 @@ DocumentFragment
 div
 #
 foo1
-.
-bar
 >
 <
 div
