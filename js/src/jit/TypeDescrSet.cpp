@@ -2096,7 +2096,8 @@ found
 *
 offset
 =
-SIZE_MAX
+-
+1
 ;
 *
 index
