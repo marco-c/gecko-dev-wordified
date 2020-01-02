@@ -19677,6 +19677,7 @@ lteSignalStrength
 )
 {
 return
+null
 ;
 }
 let
