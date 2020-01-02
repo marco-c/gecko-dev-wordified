@@ -3087,6 +3087,9 @@ aScreenShare
 bool
 *
 aWindowShare
+bool
+*
+aAppShare
 )
 ;
 void
