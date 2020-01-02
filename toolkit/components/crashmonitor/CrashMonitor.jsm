@@ -1206,7 +1206,9 @@ profile
 before
 -
 change
-AsyncShutdown
+OS
+.
+File
 .
 profileBeforeChange
 .
@@ -1232,6 +1234,13 @@ CrashMonitorInternal
 profileBeforeChangeDeferred
 .
 promise
+(
+)
+=
+>
+this
+.
+checkpoints
 )
 ;
 CrashMonitorInternal
