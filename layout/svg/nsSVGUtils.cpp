@@ -4040,9 +4040,14 @@ maskFrame
 maskFrame
 -
 >
-ComputeMaskAlpha
+GetMaskForMaskedFrame
 (
 aContext
+-
+>
+ThebesContext
+(
+)
 aFrame
 matrix
 opacity

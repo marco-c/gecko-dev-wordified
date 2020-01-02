@@ -4259,9 +4259,14 @@ maskFrame
 maskFrame
 -
 >
-ComputeMaskAlpha
+GetMaskForMaskedFrame
 (
 aCtx
+-
+>
+ThebesContext
+(
+)
 aFrame
 cssPxToDevPxMatrix
 opacity
