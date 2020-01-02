@@ -165,6 +165,15 @@ h
 #
 include
 "
+jit
+/
+JitCommon
+.
+h
+"
+#
+include
+"
 vm
 /
 Interpreter
@@ -815,8 +824,9 @@ Interpreter
 to
 Baseline
 .
-enter
+CALL_GENERATED_CODE
 (
+enter
 data
 .
 jitcode
@@ -835,6 +845,10 @@ calleeToken
 data
 .
 scopeChain
+.
+get
+(
+)
 data
 .
 osrNumStackValues

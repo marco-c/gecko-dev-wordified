@@ -1427,6 +1427,14 @@ OutOfLineCodeBase
 CodeGeneratorARM
 >
 {
+protected
+:
+/
+/
+Silence
+Clang
+warning
+.
 LSnapshot
 *
 snapshot_

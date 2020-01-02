@@ -1808,6 +1808,7 @@ NULL_ID
 #
 endif
 static
+inline
 void
 spewEntry
 (

@@ -3745,6 +3745,9 @@ correct
 uint32_t
 passedArgs_
 ;
+uint32_t
+passedArgTypes_
+;
 #
 ifdef
 JS_CODEGEN_ARM_HARDFP
