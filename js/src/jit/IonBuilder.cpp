@@ -49249,6 +49249,17 @@ get
 tarr
 )
 ;
+if
+(
+!
+tarrType
+-
+>
+unknownProperties
+(
+)
+)
+{
 tarrType
 -
 >
@@ -49278,6 +49289,7 @@ alloc
 data
 )
 ;
+}
 }
 }
 return
