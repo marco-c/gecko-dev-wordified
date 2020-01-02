@@ -2190,7 +2190,7 @@ WSFragment
 {
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mStartNode
 ;
@@ -2203,7 +2203,7 @@ run
 starts
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mEndNode
 ;
