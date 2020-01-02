@@ -1231,6 +1231,13 @@ MutableHandleScript
 scriptp
 )
 ;
+bool
+codeConstValue
+(
+MutableHandleValue
+vp
+)
+;
 }
 ;
 class
