@@ -17378,7 +17378,7 @@ op
 ins
 -
 >
-operand
+input
 (
 )
 ;

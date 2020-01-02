@@ -1757,7 +1757,7 @@ toNot
 )
 -
 >
-operand
+input
 (
 )
 ifFalse
@@ -17020,7 +17020,7 @@ is
 constant
 if
 (
-operand
+input
 (
 )
 -
@@ -17033,7 +17033,7 @@ isConstant
 bool
 result
 =
-operand
+input
 (
 )
 -
@@ -17113,7 +17113,7 @@ always
 true
 if
 (
-operand
+input
 (
 )
 -
@@ -17126,7 +17126,7 @@ type
 MIRType_Undefined
 |
 |
-operand
+input
 (
 )
 -
@@ -17169,7 +17169,7 @@ false
 .
 if
 (
-operand
+input
 (
 )
 -
