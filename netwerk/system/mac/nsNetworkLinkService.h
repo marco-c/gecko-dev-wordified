@@ -102,12 +102,6 @@ nsNetworkLinkService
 (
 )
 ;
-virtual
-~
-nsNetworkLinkService
-(
-)
-;
 nsresult
 Init
 (
@@ -115,6 +109,14 @@ Init
 ;
 nsresult
 Shutdown
+(
+)
+;
+protected
+:
+virtual
+~
+nsNetworkLinkService
 (
 )
 ;

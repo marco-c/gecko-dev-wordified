@@ -1208,6 +1208,12 @@ mWindow
 bool
 mAborted
 ;
+~
+ServiceWorkerUpdateInstance
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

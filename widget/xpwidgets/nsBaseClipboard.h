@@ -161,12 +161,6 @@ nsBaseClipboard
 (
 )
 ;
-virtual
-~
-nsBaseClipboard
-(
-)
-;
 /
 /
 nsISupports
@@ -177,6 +171,12 @@ nsIClipboard
 NS_DECL_NSICLIPBOARD
 protected
 :
+virtual
+~
+nsBaseClipboard
+(
+)
+;
 NS_IMETHOD
 SetNativeClipboardData
 (

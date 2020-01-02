@@ -9064,11 +9064,6 @@ WebGLContext
 aContext
 )
 ;
-~
-WebGLObserver
-(
-)
-;
 void
 Destroy
 (
@@ -9096,6 +9091,11 @@ UnregisterMemoryPressureEvent
 ;
 private
 :
+~
+WebGLObserver
+(
+)
+;
 WebGLContext
 *
 mContext

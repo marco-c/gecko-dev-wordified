@@ -444,6 +444,12 @@ IDBDatabase
 *
 mDatabase
 ;
+~
+VersionChangeListener
+(
+)
+{
+}
 }
 ;
 NS_IMPL_ISUPPORTS
