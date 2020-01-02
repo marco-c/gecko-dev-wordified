@@ -1501,6 +1501,13 @@ mTarget
 (
 nullptr
 )
+mMode
+(
+Layer
+:
+:
+SURFACE_NONE
+)
 mDidSelfCopy
 (
 false
@@ -1519,6 +1526,12 @@ mRegionToDraw
 ;
 nsIntRegion
 mRegionToInvalidate
+;
+Layer
+:
+:
+SurfaceMode
+mMode
 ;
 DrawRegionClip
 mClip

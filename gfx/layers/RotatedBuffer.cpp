@@ -4655,6 +4655,12 @@ invalidate
 ;
 result
 .
+mMode
+=
+mode
+;
+result
+.
 mTarget
 =
 BorrowDrawTargetForQuadrantUpdate
