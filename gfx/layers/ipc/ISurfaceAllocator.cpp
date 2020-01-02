@@ -301,8 +301,9 @@ GfxMemoryImageReporter
 :
 :
 sAmount
-=
+(
 0
+)
 ;
 SharedMemory
 :
