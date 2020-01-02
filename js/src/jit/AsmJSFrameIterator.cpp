@@ -1555,7 +1555,7 @@ masm
 .
 pop
 (
-Operand
+Address
 (
 scratch
 AsmJSActivation
