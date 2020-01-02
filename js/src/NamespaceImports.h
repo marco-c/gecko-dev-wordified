@@ -257,7 +257,10 @@ class
 AutoIdArray
 ;
 class
+JS_PUBLIC_API
+(
 AutoGCRooter
+)
 ;
 template
 <
@@ -286,6 +289,7 @@ class
 AutoHashSetRooter
 ;
 class
+MOZ_STACK_CLASS
 SourceBufferHolder
 ;
 class
