@@ -177,12 +177,12 @@ mEvent
 mClass
 =
 =
-NS_POINTER_EVENT
+ePointerEventClass
 "
 event
 type
 mismatch
-NS_POINTER_EVENT
+ePointerEventClass
 "
 )
 ;

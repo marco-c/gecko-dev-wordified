@@ -689,7 +689,7 @@ mEvent
 mClass
 !
 =
-NS_POINTER_EVENT
+ePointerEventClass
 &
 &
 mEvent
@@ -1400,7 +1400,7 @@ mEvent
 mClass
 !
 =
-NS_POINTER_EVENT
+ePointerEventClass
 &
 &
 mEvent

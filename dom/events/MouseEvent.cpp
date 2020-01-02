@@ -425,7 +425,7 @@ case
 eDragEventClass
 :
 case
-NS_POINTER_EVENT
+ePointerEventClass
 :
 case
 NS_SIMPLE_GESTURE_EVENT
@@ -656,7 +656,7 @@ case
 eDragEventClass
 :
 case
-NS_POINTER_EVENT
+ePointerEventClass
 :
 case
 NS_SIMPLE_GESTURE_EVENT
@@ -843,7 +843,7 @@ case
 eDragEventClass
 :
 case
-NS_POINTER_EVENT
+ePointerEventClass
 :
 case
 NS_SIMPLE_GESTURE_EVENT
@@ -1042,7 +1042,7 @@ case
 eDragEventClass
 :
 case
-NS_POINTER_EVENT
+ePointerEventClass
 :
 case
 NS_SIMPLE_GESTURE_EVENT
@@ -1141,7 +1141,7 @@ case
 eDragEventClass
 :
 case
-NS_POINTER_EVENT
+ePointerEventClass
 :
 case
 NS_SIMPLE_GESTURE_EVENT
@@ -1248,7 +1248,7 @@ case
 eDragEventClass
 :
 case
-NS_POINTER_EVENT
+ePointerEventClass
 :
 case
 NS_SIMPLE_GESTURE_EVENT

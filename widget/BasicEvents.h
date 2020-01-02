@@ -415,7 +415,7 @@ eWheelEventClass
 /
 /
 WidgetWheelEvent
-NS_POINTER_EVENT
+ePointerEventClass
 /
 /
 PointerEvent

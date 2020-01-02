@@ -23264,7 +23264,7 @@ aMouseEvent
 mClass
 =
 =
-NS_POINTER_EVENT
+ePointerEventClass
 ;
 if
 (
@@ -23659,7 +23659,7 @@ aMouseEvent
 mClass
 =
 =
-NS_POINTER_EVENT
+ePointerEventClass
 ;
 Maybe
 <

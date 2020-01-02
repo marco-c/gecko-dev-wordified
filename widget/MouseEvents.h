@@ -4032,7 +4032,7 @@ WidgetMouseEvent
 aIsTrusted
 aMsg
 w
-NS_POINTER_EVENT
+ePointerEventClass
 eReal
 )
 width
@@ -4080,7 +4080,7 @@ true
 {
 mClass
 =
-NS_POINTER_EVENT
+ePointerEventClass
 ;
 UpdateFlags
 (
@@ -4154,7 +4154,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_POINTER_EVENT
+ePointerEventClass
 "
 Duplicate
 (

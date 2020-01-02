@@ -853,7 +853,7 @@ case
 NS_SIMPLE_GESTURE_EVENT
 :
 case
-NS_POINTER_EVENT
+ePointerEventClass
 :
 tmp
 -
@@ -1047,7 +1047,7 @@ case
 NS_SIMPLE_GESTURE_EVENT
 :
 case
-NS_POINTER_EVENT
+ePointerEventClass
 :
 NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
 (
@@ -4226,7 +4226,7 @@ aEvent
 mClass
 !
 =
-NS_POINTER_EVENT
+ePointerEventClass
 &
 &
 aEvent
@@ -4564,7 +4564,7 @@ aEvent
 mClass
 !
 =
-NS_POINTER_EVENT
+ePointerEventClass
 &
 &
 aEvent
