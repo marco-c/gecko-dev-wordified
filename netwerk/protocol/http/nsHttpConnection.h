@@ -887,6 +887,10 @@ return
 IsKeepAlive
 (
 )
+&
+&
+!
+mDontReuse
 ;
 }
 bool
