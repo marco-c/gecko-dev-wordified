@@ -1519,7 +1519,7 @@ CSS_PROPERTY_VALUE_AT_LEAST_ONE
 Does
 this
 property
-suppor
+support
 the
 hashless
 hex
@@ -1543,7 +1543,7 @@ CSS_PROPERTY_HASHLESS_COLOR_QUIRK
 Does
 this
 property
-suppor
+support
 the
 unitless
 length
