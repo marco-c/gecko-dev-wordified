@@ -2855,6 +2855,13 @@ DestroySingleton
 (
 )
 ;
+gfxFont
+:
+:
+DestroySingletons
+(
+)
+;
 delete
 gPlatform
 ;
