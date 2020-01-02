@@ -113,10 +113,6 @@ time
 import
 localtime
 from
-optparse
-import
-OptionParser
-from
 MozZipFile
 import
 ZipFile
@@ -124,10 +120,6 @@ from
 cStringIO
 import
 StringIO
-from
-datetime
-import
-datetime
 from
 utils
 import
@@ -138,6 +130,10 @@ Preprocessor
 import
 Preprocessor
 from
+mozbuild
+.
+action
+.
 buildlist
 import
 addEntriesToListFile
