@@ -2124,7 +2124,6 @@ of
 strings
 *
 /
-register
 register_t
 n
 ;
@@ -2668,7 +2667,6 @@ nlist_type
 )
 ]
 ;
-register
 register_t
 m
 =

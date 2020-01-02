@@ -4755,7 +4755,13 @@ buffer
 ;
 XP_TTOA
 (
+static_cast
+<
+time_t
+>
+(
 eventloopNestingLevel
+)
 buffer
 10
 )

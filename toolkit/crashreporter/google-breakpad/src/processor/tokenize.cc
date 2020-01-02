@@ -472,14 +472,12 @@ token
 .
 if
 (
-!
 remaining
->
+=
+=
 0
-)
-{
-if
-(
+&
+&
 (
 token
 =
@@ -506,7 +504,6 @@ push_back
 token
 )
 ;
-}
 }
 return
 tokens
