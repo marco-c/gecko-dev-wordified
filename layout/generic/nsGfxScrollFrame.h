@@ -239,13 +239,6 @@ nsIReflowCallback
 public
 :
 typedef
-nsIFrame
-:
-:
-Sides
-Sides
-;
-typedef
 mozilla
 :
 :
@@ -412,7 +405,7 @@ const
 nsSize
 &
 aBorderArea
-Sides
+int
 aSkipSides
 nscoord
 aRadii
@@ -2976,7 +2969,7 @@ const
 nsSize
 &
 aBorderArea
-Sides
+int
 aSkipSides
 nscoord
 aRadii
@@ -4892,7 +4885,7 @@ const
 nsSize
 &
 aBorderArea
-Sides
+int
 aSkipSides
 nscoord
 aRadii

@@ -3262,10 +3262,7 @@ aLists
 )
 ;
 }
-nsIFrame
-:
-:
-LogicalSides
+int
 nsTableCellFrame
 :
 :
@@ -3295,13 +3292,13 @@ NS_STYLE_BOX_DECORATION_BREAK_CLONE
 )
 {
 return
-LogicalSides
-(
-)
+0
 ;
 }
-LogicalSides
+int
 skip
+=
+0
 ;
 if
 (
@@ -3316,7 +3313,7 @@ GetPrevInFlow
 skip
 |
 =
-eLogicalSideBitsBStart
+LOGICAL_SIDE_B_START
 ;
 }
 if
@@ -3332,7 +3329,7 @@ GetNextInFlow
 skip
 |
 =
-eLogicalSideBitsBEnd
+LOGICAL_SIDE_B_END
 ;
 }
 return
@@ -6644,7 +6641,7 @@ const
 nsSize
 &
 aBorderArea
-Sides
+int
 aSkipSides
 nscoord
 aRadii

@@ -196,6 +196,9 @@ aValue
 {
 Margin
 (
+css
+:
+:
 eSideLeft
 aValue
 )
@@ -211,6 +214,9 @@ aValue
 {
 Margin
 (
+css
+:
+:
 eSideRight
 aValue
 )
@@ -226,6 +232,9 @@ aValue
 {
 Margin
 (
+css
+:
+:
 eSideTop
 aValue
 )
@@ -241,6 +250,9 @@ aValue
 {
 Margin
 (
+css
+:
+:
 eSideBottom
 aValue
 )
@@ -312,6 +324,9 @@ MOZ_DELETE
 void
 Margin
 (
+css
+:
+:
 Side
 aSide
 nsAString

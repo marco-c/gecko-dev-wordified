@@ -6270,10 +6270,7 @@ SetDirtyNextLine
 /
 /
 /
-nsIFrame
-:
-:
-LogicalSides
+int
 nsInlineFrame
 :
 :
@@ -6303,13 +6300,13 @@ NS_STYLE_BOX_DECORATION_BREAK_CLONE
 )
 {
 return
-LogicalSides
-(
-)
+0
 ;
 }
-LogicalSides
+int
 skip
+=
+0
 ;
 if
 (
@@ -6388,7 +6385,7 @@ edge
 skip
 |
 =
-eLogicalSideBitsIStart
+LOGICAL_SIDE_I_START
 ;
 }
 else
@@ -6493,7 +6490,7 @@ edge
 skip
 |
 =
-eLogicalSideBitsIEnd
+LOGICAL_SIDE_I_END
 ;
 }
 else
@@ -6625,10 +6622,7 @@ if
 skip
 !
 =
-LogicalSides
-(
-eLogicalSideBitsIBoth
-)
+LOGICAL_SIDES_I_BOTH
 )
 {
 /
@@ -6684,7 +6678,7 @@ FrameIsNonLastInIBSplit
 skip
 |
 =
-eLogicalSideBitsIEnd
+LOGICAL_SIDE_I_END
 ;
 }
 if
@@ -6700,7 +6694,7 @@ FrameIsNonFirstInIBSplit
 skip
 |
 =
-eLogicalSideBitsIStart
+LOGICAL_SIDE_I_START
 ;
 }
 }

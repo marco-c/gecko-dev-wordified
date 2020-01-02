@@ -691,8 +691,10 @@ nsRect
 aDirtyRect
 )
 {
-Sides
+int
 skipSides
+=
+0
 ;
 const
 nsStyleBorder

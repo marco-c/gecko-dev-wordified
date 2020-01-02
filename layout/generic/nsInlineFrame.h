@@ -737,7 +737,7 @@ aContext
 {
 }
 virtual
-LogicalSides
+int
 GetLogicalSkipSides
 (
 const

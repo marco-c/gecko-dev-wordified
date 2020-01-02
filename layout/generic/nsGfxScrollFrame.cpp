@@ -28545,7 +28545,7 @@ const
 nsSize
 &
 aBorderArea
-Sides
+int
 aSkipSides
 nscoord
 aRadii

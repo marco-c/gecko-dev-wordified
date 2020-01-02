@@ -712,7 +712,7 @@ GetLogicalSkipSides
 *
 /
 virtual
-LogicalSides
+int
 GetLogicalSkipSides
 (
 const

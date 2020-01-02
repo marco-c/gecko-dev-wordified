@@ -1074,6 +1074,9 @@ SetBCBorderEdge
 mozilla
 :
 :
+css
+:
+:
 Side
 aEdge
 nsCellMap
@@ -1112,6 +1115,9 @@ aYPos
 uint32_t
 aXPos
 mozilla
+:
+:
+css
 :
 :
 Side

@@ -13526,8 +13526,10 @@ aCtx
 for
 visual
 debug
-Sides
+int
 skipSides
+=
+0
 ;
 nsPresContext
 *
