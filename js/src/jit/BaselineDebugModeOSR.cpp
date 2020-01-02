@@ -551,7 +551,6 @@ needsRecompileInfo
 const
 {
 return
-(
 frameKind
 =
 =
@@ -586,7 +585,6 @@ ICEntry
 :
 :
 Kind_DebugEpilogue
-)
 ;
 }
 bool
@@ -5279,7 +5277,6 @@ return
 nullptr
 ;
 return
-(
 popFrameReg
 ?
 baselineDebugModeOSRHandler_
@@ -5290,7 +5287,6 @@ raw
 )
 :
 baselineDebugModeOSRHandlerNoFrameRegPopAddr_
-)
 ;
 }
 JitCode

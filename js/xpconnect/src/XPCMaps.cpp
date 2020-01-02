@@ -2704,7 +2704,6 @@ nsISupports
 .
 return
 (
-(
 SetInTable
 -
 >
@@ -2751,7 +2750,6 @@ GetInterfaceAt
 =
 =
 Addition
-)
 )
 ;
 }

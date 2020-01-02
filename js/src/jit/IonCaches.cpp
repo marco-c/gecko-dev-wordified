@@ -19313,7 +19313,6 @@ uint32_t
 dummy
 ;
 return
-(
 obj
 -
 >
@@ -19346,7 +19345,6 @@ isIndex
 (
 &
 dummy
-)
 )
 ;
 }
@@ -23496,7 +23494,6 @@ and
 objects
 .
 return
-(
 obj
 -
 >
@@ -23528,7 +23525,6 @@ value
 .
 isObject
 (
-)
 )
 ;
 }

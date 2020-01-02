@@ -953,7 +953,6 @@ JSID_TYPE_VOID
 ;
 return
 (
-(
 size_t
 )
 JSID_BITS
@@ -963,7 +962,6 @@ id
 =
 =
 JSID_TYPE_VOID
-)
 ;
 }
 static
@@ -978,7 +976,6 @@ id
 {
 return
 (
-(
 size_t
 )
 JSID_BITS
@@ -988,7 +985,6 @@ id
 =
 =
 JSID_TYPE_SYMBOL
-)
 ;
 }
 extern

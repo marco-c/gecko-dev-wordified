@@ -62911,7 +62911,6 @@ type
 barrier
 .
 return
-(
 info
 (
 )
@@ -62938,7 +62937,6 @@ Type
 :
 UndefinedType
 (
-)
 )
 )
 ;

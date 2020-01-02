@@ -12905,7 +12905,6 @@ getKey
 const
 {
 return
-(
 static_cast
 <
 int32_t
@@ -12938,7 +12937,6 @@ lhsIsInt32_
 <
 <
 24
-)
 )
 ;
 }
@@ -14321,7 +14319,6 @@ getKey
 const
 {
 return
-(
 static_cast
 <
 int32_t
@@ -14354,7 +14351,6 @@ allowDouble_
 <
 <
 24
-)
 )
 ;
 }
