@@ -308,6 +308,12 @@ h
 "
 #
 endif
+namespace
+mozilla
+{
+namespace
+gl
+{
 using
 namespace
 mozilla
@@ -315,12 +321,6 @@ mozilla
 :
 gfx
 ;
-namespace
-mozilla
-{
-namespace
-gl
-{
 GLXLibrary
 sGLXLibrary
 ;

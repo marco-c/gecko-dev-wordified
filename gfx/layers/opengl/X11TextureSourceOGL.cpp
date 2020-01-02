@@ -125,17 +125,12 @@ gfx2DGlue
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 layers
-;
+{
 using
 namespace
 mozilla
@@ -580,3 +575,5 @@ UNKNOWN
 }
 #
 endif
+}
+}

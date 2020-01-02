@@ -329,6 +329,12 @@ h
 "
 #
 endif
+namespace
+mozilla
+{
+namespace
+gl
+{
 using
 namespace
 mozilla
@@ -343,12 +349,6 @@ mozilla
 :
 layers
 ;
-namespace
-mozilla
-{
-namespace
-gl
-{
 #
 ifdef
 DEBUG

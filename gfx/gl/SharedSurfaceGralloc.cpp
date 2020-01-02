@@ -256,10 +256,12 @@ while
 )
 #
 endif
-using
 namespace
 mozilla
-;
+{
+namespace
+gl
+{
 using
 namespace
 mozilla
@@ -269,10 +271,9 @@ gfx
 ;
 using
 namespace
-gl
-;
-using
-namespace
+mozilla
+:
+:
 layers
 ;
 using
@@ -1180,4 +1181,6 @@ WaitReleaseFence
 (
 )
 ;
+}
+}
 }

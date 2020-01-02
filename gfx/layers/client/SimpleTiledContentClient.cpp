@@ -399,6 +399,12 @@ SimpleTiles
 "
 __VA_ARGS__
 )
+namespace
+mozilla
+{
+namespace
+layers
+{
 using
 namespace
 mozilla
@@ -406,12 +412,6 @@ mozilla
 :
 gfx
 ;
-namespace
-mozilla
-{
-namespace
-layers
-{
 void
 SimpleTiledLayerBuffer
 :

@@ -289,17 +289,12 @@ h
 /
 for
 nsAutoCString
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 layers
-;
+{
 using
 namespace
 mozilla
@@ -828,4 +823,6 @@ get
 return
 aTo
 ;
+}
+}
 }

@@ -477,6 +477,12 @@ nsThreadUtils
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+layers
+{
 using
 namespace
 mozilla
@@ -491,12 +497,6 @@ mozilla
 :
 gfx
 ;
-namespace
-mozilla
-{
-namespace
-layers
-{
 ImageBridgeParent
 :
 :

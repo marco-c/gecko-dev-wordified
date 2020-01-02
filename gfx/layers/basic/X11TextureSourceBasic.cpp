@@ -122,17 +122,12 @@ gfx2DGlue
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 layers
-;
+{
 using
 namespace
 mozilla
@@ -389,5 +384,7 @@ SurfaceFormat
 :
 UNKNOWN
 ;
+}
+}
 }
 }
