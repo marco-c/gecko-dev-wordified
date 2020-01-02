@@ -34,6 +34,12 @@ file
 *
 /
 #
+ifndef
+SkLineParameters_DEFINED
+#
+define
+SkLineParameters_DEFINED
+#
 include
 "
 SkPathOpsCubic
@@ -1295,3 +1301,5 @@ c
 ;
 }
 ;
+#
+endif
