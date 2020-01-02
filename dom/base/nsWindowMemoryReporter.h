@@ -1689,6 +1689,12 @@ nsITimer
 >
 mCheckTimer
 ;
+bool
+mCycleCollectorIsRunning
+;
+bool
+mCheckTimerWaitingForCCEnd
+;
 }
 ;
 #
