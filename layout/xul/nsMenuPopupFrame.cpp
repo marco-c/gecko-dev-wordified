@@ -730,7 +730,7 @@ Init
 nsIContent
 *
 aContent
-nsIFrame
+nsContainerFrame
 *
 aParent
 nsIFrame
@@ -2574,8 +2574,12 @@ scrollframe
 =
 do_QueryFrame
 (
+nsBox
+:
+:
 GetChildBox
 (
+this
 )
 )
 ;
@@ -10730,7 +10734,7 @@ list
 of
 frames
 .
-nsIFrame
+nsContainerFrame
 *
 immediateParent
 =

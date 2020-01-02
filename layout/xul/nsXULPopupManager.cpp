@@ -14085,7 +14085,7 @@ nsXULPopupManager
 :
 GetNextMenuItem
 (
-nsIFrame
+nsContainerFrame
 *
 aParent
 nsMenuFrame
@@ -14106,7 +14106,7 @@ PresContext
 (
 )
 ;
-nsIFrame
+nsContainerFrame
 *
 immediateParent
 =
@@ -14521,7 +14521,7 @@ nsXULPopupManager
 :
 GetPreviousMenuItem
 (
-nsIFrame
+nsContainerFrame
 *
 aParent
 nsMenuFrame
@@ -14542,7 +14542,7 @@ PresContext
 (
 )
 ;
-nsIFrame
+nsContainerFrame
 *
 immediateParent
 =
