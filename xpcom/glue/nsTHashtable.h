@@ -2272,6 +2272,7 @@ them
 .
 MOZ_MAKE_MEM_UNDEFINED
 (
+&
 aOther
 .
 mTable
