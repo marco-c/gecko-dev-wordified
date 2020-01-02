@@ -415,14 +415,6 @@ nsIFrame
 aRight
 )
 ;
-bool
-IsWindowSheet
-(
-nsIFrame
-*
-aFrame
-)
-;
 /
 /
 HITheme
