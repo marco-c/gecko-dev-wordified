@@ -425,6 +425,14 @@ nsIDOMKeyEvent
 aKeyEvent
 )
 ;
+nsresult
+HandleMiddleClickPaste
+(
+nsIDOMMouseEvent
+*
+aMouseEvent
+)
+;
 nsEditor
 *
 mEditor
