@@ -4367,7 +4367,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsTransitionEvent
+InternalTransitionEvent
 *
 >
 (

@@ -6675,7 +6675,7 @@ nsIContent
 >
 mElement
 ;
-nsTransitionEvent
+InternalTransitionEvent
 mEvent
 ;
 TransitionEventInfo
@@ -6722,7 +6722,7 @@ aPseudoElement
 }
 /
 /
-nsTransitionEvent
+InternalTransitionEvent
 doesn
 '
 t
