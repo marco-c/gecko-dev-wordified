@@ -257,6 +257,15 @@ mozilla
 namespace
 layers
 {
+static
+const
+float
+EPSILON
+=
+0
+.
+0001f
+;
 /
 *
 *

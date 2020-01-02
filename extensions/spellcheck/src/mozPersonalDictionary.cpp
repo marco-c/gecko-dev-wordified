@@ -199,6 +199,12 @@ persdict
 .
 dat
 "
+const
+int
+kMaxWordLen
+=
+256
+;
 /
 *
 *

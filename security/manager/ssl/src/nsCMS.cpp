@@ -209,6 +209,13 @@ using
 namespace
 mozilla
 ;
+static
+NS_DEFINE_CID
+(
+kNSSComponentCID
+NS_NSSCOMPONENT_CID
+)
+;
 NS_IMPL_ISUPPORTS2
 (
 nsCMSMessage
