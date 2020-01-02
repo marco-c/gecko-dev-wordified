@@ -858,14 +858,6 @@ UNSAFE_OP
 (
 ComputeThis
 )
-SAFE_OP
-(
-PrepareCall
-)
-SAFE_OP
-(
-PassArg
-)
 CUSTOM_OP
 (
 Call
