@@ -14856,6 +14856,7 @@ aGraph
 Blocking
 aBlocked
 )
+MOZ_OVERRIDE
 {
 nsCOMPtr
 <
@@ -14920,6 +14921,7 @@ MediaStreamGraph
 *
 aGraph
 )
+MOZ_OVERRIDE
 {
 nsCOMPtr
 <
@@ -14958,6 +14960,7 @@ MediaStreamGraph
 *
 aGraph
 )
+MOZ_OVERRIDE
 {
 MutexAutoLock
 lock
@@ -15002,6 +15005,7 @@ MediaStreamGraph
 *
 aGraph
 )
+MOZ_OVERRIDE
 {
 MutexAutoLock
 lock
