@@ -1454,6 +1454,10 @@ const
 bool
 HasStepMismatch
 (
+bool
+aUseZeroIfValueNaN
+=
+false
 )
 const
 ;
