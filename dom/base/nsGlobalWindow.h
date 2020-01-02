@@ -3703,6 +3703,12 @@ UnmarkGrayTimers
 (
 )
 ;
+/
+/
+Inner
+windows
+only
+.
 void
 AddEventTargetObject
 (
