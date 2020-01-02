@@ -1988,6 +1988,10 @@ virtual
 bool
 IsBlackForCC
 (
+bool
+aTracingNeeded
+=
+true
 )
 ;
 /

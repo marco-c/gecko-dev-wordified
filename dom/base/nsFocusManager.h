@@ -718,6 +718,14 @@ static
 bool
 sMouseFocusesFormControl
 ;
+static
+void
+MarkUncollectableForCCGeneration
+(
+uint32_t
+aGeneration
+)
+;
 protected
 :
 nsFocusManager

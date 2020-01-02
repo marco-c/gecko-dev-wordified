@@ -1009,6 +1009,14 @@ nsISupports
 aThis
 )
 ;
+bool
+HasNothingToTrace
+(
+nsISupports
+*
+aThis
+)
+;
 /
 /
 Only
