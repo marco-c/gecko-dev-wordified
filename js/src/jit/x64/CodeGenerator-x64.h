@@ -368,6 +368,14 @@ ins
 )
 ;
 bool
+visitTruncateFToInt32
+(
+LTruncateFToInt32
+*
+ins
+)
+;
+bool
 visitLoadTypedArrayElementStatic
 (
 LLoadTypedArrayElementStatic

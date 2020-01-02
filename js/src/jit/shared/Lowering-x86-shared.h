@@ -428,6 +428,14 @@ MTruncateToInt32
 ins
 )
 ;
+bool
+lowerTruncateFToInt32
+(
+MTruncateToInt32
+*
+ins
+)
+;
 }
 ;
 }
