@@ -7691,6 +7691,9 @@ actor
 {
 #
 ifdef
+MOZ_CRASHREPORTER
+#
+ifdef
 XP_WIN
 mozilla
 :
@@ -7721,6 +7724,8 @@ mCrashReporter
 nullptr
 ;
 }
+#
+endif
 #
 endif
 delete
