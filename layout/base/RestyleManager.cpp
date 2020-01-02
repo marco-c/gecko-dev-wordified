@@ -17215,8 +17215,8 @@ subtrees
 TreeMatchContext
 :
 :
-AutoFlexItemStyleFixupSkipper
-flexFixupSkipper
+AutoFlexOrGridItemStyleFixupSkipper
+flexOrGridFixupSkipper
 (
 mTreeMatchContext
 element

@@ -501,7 +501,7 @@ nsIStyleRule
 .
 *
 param
-aSkipFlexItemStyleFixup
+aSkipFlexOrGridItemStyleFixup
 *
 If
 set
@@ -523,6 +523,8 @@ that
 modifies
 flex
 *
+and
+grid
 items
 '
 display
@@ -547,7 +549,7 @@ nsRuleNode
 *
 aRuleNode
 bool
-aSkipFlexItemStyleFixup
+aSkipFlexOrGridItemStyleFixup
 )
 ;
 ~
@@ -2664,7 +2666,7 @@ void
 ApplyStyleFixups
 (
 bool
-aSkipFlexItemStyleFixup
+aSkipFlexOrGridItemStyleFixup
 )
 ;
 void
@@ -3428,7 +3430,7 @@ nsRuleNode
 *
 aRuleNode
 bool
-aSkipFlexItemStyleFixup
+aSkipFlexOrGridItemStyleFixup
 )
 ;
 #

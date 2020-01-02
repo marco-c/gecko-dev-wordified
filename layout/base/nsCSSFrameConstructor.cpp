@@ -24867,8 +24867,8 @@ call
 TreeMatchContext
 :
 :
-AutoFlexItemStyleFixupSkipper
-flexItemStyleFixupSkipper
+AutoFlexOrGridItemStyleFixupSkipper
+flexOrGridItemStyleFixupSkipper
 (
 aState
 .
@@ -61223,8 +61223,8 @@ styleContext
 TreeMatchContext
 :
 :
-AutoFlexItemStyleFixupSkipper
-flexItemStyleFixupSkipper
+AutoFlexOrGridItemStyleFixupSkipper
+flexOrGridItemStyleFixupSkipper
 (
 aState
 .
