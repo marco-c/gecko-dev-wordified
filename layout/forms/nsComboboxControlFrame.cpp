@@ -417,9 +417,7 @@ the
 combo
 box
 or
-it
-'
-s
+its
 arrow
 button
 is
@@ -436,9 +434,7 @@ displayed
 /
 If
 mouse
-exit
-'
-s
+exits
 the
 combo
 box
@@ -3090,9 +3086,7 @@ width
 and
 height
 to
-it
-'
-s
+its
 desired
 size
 FinishReflowChild
@@ -7990,9 +7984,7 @@ anonymous
 /
 content
 because
-it
-'
-s
+its
 frame
 is
 initialized
