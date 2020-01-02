@@ -371,10 +371,10 @@ NS_CopyNativeToUnicode
 const
 nsACString
 &
-input
+aInput
 nsAString
 &
-output
+aOutput
 )
 ;
 nsresult
@@ -383,10 +383,10 @@ NS_CopyUnicodeToNative
 const
 nsAString
 &
-input
+aInput
 nsACString
 &
-output
+aOutput
 )
 ;
 /

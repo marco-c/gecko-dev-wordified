@@ -176,12 +176,12 @@ release
 (
 void
 *
-ptr
+aPtr
 )
 {
 UnmapViewOfFile
 (
-ptr
+aPtr
 )
 ;
 }

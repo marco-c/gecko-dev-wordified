@@ -137,7 +137,7 @@ nsIInputStream
 aStream
 bool
 *
-_retval
+aResult
 )
 {
 if
@@ -148,11 +148,13 @@ NS_WARN_IF
 aStream
 )
 )
+{
 return
 NS_ERROR_INVALID_ARG
 ;
+}
 *
-_retval
+aResult
 =
 NS_InputStreamIsBuffered
 (
@@ -174,7 +176,7 @@ nsIOutputStream
 aStream
 bool
 *
-_retval
+aResult
 )
 {
 if
@@ -185,11 +187,13 @@ NS_WARN_IF
 aStream
 )
 )
+{
 return
 NS_ERROR_INVALID_ARG
 ;
+}
 *
-_retval
+aResult
 =
 NS_OutputStreamIsBuffered
 (

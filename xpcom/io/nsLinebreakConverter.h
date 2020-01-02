@@ -666,7 +666,7 @@ ConvertStringLineBreaks
 (
 nsString
 &
-ioString
+aIoString
 ELinebreakType
 aSrcBreaks
 ELinebreakType
@@ -876,7 +876,7 @@ ConvertLineBreaksInSitu
 char
 *
 *
-ioBuffer
+aIoBuffer
 ELinebreakType
 aSrcBreaks
 ELinebreakType
@@ -1081,7 +1081,7 @@ ConvertUnicharLineBreaksInSitu
 char16_t
 *
 *
-ioBuffer
+aIoBuffer
 ELinebreakType
 aSrcBreaks
 ELinebreakType
