@@ -758,6 +758,14 @@ lir
 )
 ;
 bool
+visitLoadSlotV
+(
+LLoadSlotV
+*
+lir
+)
+;
+bool
 visitStoreSlotV
 (
 LStoreSlotV

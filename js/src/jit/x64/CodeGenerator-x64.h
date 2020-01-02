@@ -270,14 +270,6 @@ unbox
 )
 ;
 bool
-visitLoadSlotV
-(
-LLoadSlotV
-*
-ins
-)
-;
-bool
 visitLoadSlotT
 (
 LLoadSlotT

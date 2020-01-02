@@ -1744,14 +1744,6 @@ ins
 )
 ;
 bool
-visitLoadSlotV
-(
-LLoadSlotV
-*
-load
-)
-;
-bool
 visitLoadSlotT
 (
 LLoadSlotT
