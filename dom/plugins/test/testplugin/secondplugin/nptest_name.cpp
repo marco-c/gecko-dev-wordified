@@ -95,9 +95,9 @@ application
 /
 x
 -
-Second
+second
 -
-Test
+test
 :
 ts2
 :
