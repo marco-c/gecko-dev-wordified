@@ -1466,6 +1466,15 @@ jumpToLine
 =
 false
 ;
+extraKeys
+[
+"
+Esc
+"
+]
+=
+false
+;
 function
 bindKey
 (
