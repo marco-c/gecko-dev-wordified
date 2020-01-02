@@ -104,6 +104,13 @@ include
 .
 h
 "
+#
+include
+<
+string
+.
+h
+>
 using
 namespace
 mozilla
