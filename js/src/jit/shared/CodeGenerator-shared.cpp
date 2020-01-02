@@ -393,6 +393,17 @@ skipArgCheckEntryOffset_
 (
 0
 )
+#
+ifdef
+CHECK_OSIPOINT_REGISTERS
+checkOsiPointRegisters
+(
+js_JitOptions
+.
+checkOsiPointRegisters
+)
+#
+endif
 frameDepth_
 (
 graph
@@ -6734,8 +6745,6 @@ safepoint
 if
 (
 !
-js_JitOptions
-.
 checkOsiPointRegisters
 )
 return
