@@ -918,6 +918,10 @@ static
 bool
 sUseBlankDecoder
 ;
+static
+bool
+sFFmpegDecoderEnabled
+;
 }
 ;
 /
