@@ -495,12 +495,6 @@ created
 "
 )
 ;
-this
-.
-wrappedJSObject
-=
-this
-;
 }
 DataStore
 .
