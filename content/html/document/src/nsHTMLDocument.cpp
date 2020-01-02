@@ -12713,8 +12713,6 @@ nsHTMLDocument
 :
 CaptureEvents
 (
-int32_t
-aEventFlags
 )
 {
 WarnOnceAbout
@@ -12735,8 +12733,6 @@ nsHTMLDocument
 :
 ReleaseEvents
 (
-int32_t
-aEventFlags
 )
 {
 WarnOnceAbout
