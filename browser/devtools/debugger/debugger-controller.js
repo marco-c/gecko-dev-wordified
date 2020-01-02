@@ -7847,8 +7847,6 @@ isBlackBoxed
 }
 DebuggerView
 .
-Sources
-.
 maybeShowBlackBoxMessage
 (
 )
