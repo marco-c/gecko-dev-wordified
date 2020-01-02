@@ -735,9 +735,9 @@ return
 }
 NS_InitXPCOM2
 (
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 ADLog
@@ -3119,7 +3119,7 @@ nodes
 ;
 NS_ShutdownXPCOM
 (
-NULL
+nullptr
 )
 ;
 return

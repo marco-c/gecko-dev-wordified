@@ -1202,7 +1202,7 @@ r_map
 ;
 while
 (
-NULL
+nullptr
 !
 =
 map
@@ -2754,7 +2754,7 @@ setitimer
 ITIMER_REAL
 &
 tvalue
-NULL
+nullptr
 )
 ;
 }
@@ -2765,7 +2765,7 @@ setitimer
 ITIMER_PROF
 &
 tvalue
-NULL
+nullptr
 )
 ;
 }
@@ -2850,7 +2850,7 @@ sigaction
 (
 SIGIO
 sap
-NULL
+nullptr
 )
 =
 =
@@ -3826,7 +3826,7 @@ JP_PERIOD
 =
 "
 )
-NULL
+nullptr
 )
 ;
 if
@@ -4435,7 +4435,7 @@ action
 .
 sa_handler
 =
-NULL
+nullptr
 ;
 action
 .
@@ -4525,7 +4525,7 @@ sigaction
 SIGALRM
 &
 action
-NULL
+nullptr
 )
 ;
 }
@@ -4549,7 +4549,7 @@ sigaction
 SIGPROF
 &
 action
-NULL
+nullptr
 )
 ;
 /
@@ -4620,7 +4620,7 @@ sigaction
 SIGUSR1
 &
 stop_action
-NULL
+nullptr
 )
 ;
 /
@@ -4658,7 +4658,7 @@ sigaction
 SIGUSR2
 &
 stop_action
-NULL
+nullptr
 )
 ;
 printf
