@@ -5218,6 +5218,14 @@ ghostEnumData
 )
 ;
 }
+NS_IMPL_ISUPPORTS1
+(
+nsWindowMemoryReporter
+:
+:
+GhostWindowsReporter
+nsIMemoryReporter
+)
 /
 *
 static

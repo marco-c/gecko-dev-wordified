@@ -279,10 +279,6 @@ RECENTLY_VISITED_URI_SIZE
 class
 History
 :
-mozilla
-:
-:
-MemoryUniReporter
 public
 IHistory
 public
@@ -291,6 +287,8 @@ public
 mozIAsyncHistory
 public
 nsIObserver
+public
+nsIMemoryReporter
 {
 public
 :
@@ -299,6 +297,7 @@ NS_DECL_IHISTORY
 NS_DECL_NSIDOWNLOADHISTORY
 NS_DECL_MOZIASYNCHISTORY
 NS_DECL_NSIOBSERVER
+NS_DECL_NSIMEMORYREPORTER
 History
 (
 )
@@ -506,12 +505,6 @@ this
 )
 *
 /
-int64_t
-Amount
-(
-)
-MOZ_OVERRIDE
-;
 size_t
 SizeOfIncludingThis
 (

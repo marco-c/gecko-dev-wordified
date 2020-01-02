@@ -139,6 +139,11 @@ mozilla
 :
 gl
 ;
+NS_IMPL_ISUPPORTS1
+(
+GfxTexturesReporter
+nsIMemoryReporter
+)
 int64_t
 GfxTexturesReporter
 :
