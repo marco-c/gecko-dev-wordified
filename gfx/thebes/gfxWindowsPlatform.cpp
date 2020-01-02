@@ -5452,7 +5452,7 @@ return
 #
 if
 _MSC_VER
-__try
+MOZ_SEH_TRY
 {
 res
 =
@@ -5469,7 +5469,7 @@ str
 )
 ;
 }
-__except
+MOZ_SEH_EXCEPT
 (
 GetExceptionCode
 (
