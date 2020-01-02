@@ -1063,14 +1063,6 @@ start
 )
 ;
 bool
-visitPcOffset
-(
-MPcOffset
-*
-pcOffset
-)
-;
-bool
 visitOsrEntry
 (
 MOsrEntry

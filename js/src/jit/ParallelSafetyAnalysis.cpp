@@ -1130,10 +1130,6 @@ SAFE_OP
 (
 Start
 )
-SAFE_OP
-(
-PcOffset
-)
 UNSAFE_OP
 (
 OsrEntry
