@@ -250,6 +250,9 @@ ArrayBufferViewOrBlobOrStringOrFormData
 struct
 MobileIdOptions
 ;
+class
+ServiceWorkerContainer
+;
 }
 }
 #
@@ -584,17 +587,6 @@ endif
 /
 namespace
 system
-namespace
-workers
-{
-class
-ServiceWorkerContainer
-;
-}
-/
-/
-namespace
-workers
 class
 Navigator
 :
@@ -1422,9 +1414,6 @@ endif
 MOZ_MEDIA_NAVIGATOR
 already_AddRefed
 <
-workers
-:
-:
 ServiceWorkerContainer
 >
 ServiceWorker
@@ -1909,9 +1898,6 @@ mTimeManager
 ;
 nsRefPtr
 <
-workers
-:
-:
 ServiceWorkerContainer
 >
 mServiceWorkerContainer
