@@ -2376,6 +2376,11 @@ SetSyncPointForMediaStream
 (
 )
 ;
+int64_t
+GetCurrentTimeViaMediaStreamSync
+(
+)
+;
 /
 /
 Called
