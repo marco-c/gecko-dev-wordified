@@ -602,6 +602,13 @@ ScratchRegister
 =
 at
 ;
+static
+MOZ_CONSTEXPR_VAR
+Register
+SecondScratchReg
+=
+t8
+;
 /
 /
 Use
