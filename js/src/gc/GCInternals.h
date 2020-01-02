@@ -644,6 +644,15 @@ endif
 JS_GC_ZEAL
 *
 /
+void
+CrashAtUnhandlableOOM
+(
+const
+char
+*
+reason
+)
+;
 }
 /
 *

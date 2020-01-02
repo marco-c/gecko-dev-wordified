@@ -6578,6 +6578,9 @@ observed
 /
 returned
 typeset
+if
+(
+!
 returned
 -
 >
@@ -6599,6 +6602,9 @@ lifoAlloc
 (
 )
 )
+)
+return
+InliningStatus_Error
 ;
 }
 else

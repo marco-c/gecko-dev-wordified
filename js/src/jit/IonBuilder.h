@@ -2100,7 +2100,7 @@ insertRecompileCheck
 (
 )
 ;
-void
+bool
 initParameters
 (
 )
