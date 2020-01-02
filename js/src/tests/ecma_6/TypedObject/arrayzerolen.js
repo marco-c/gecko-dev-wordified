@@ -86,12 +86,10 @@ uint8
 var
 Rainbow
 =
-new
-T
-.
-ArrayType
-(
 Color
+.
+array
+(
 0
 )
 ;

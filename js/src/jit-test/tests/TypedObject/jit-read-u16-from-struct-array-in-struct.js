@@ -71,12 +71,10 @@ uint16
 var
 VecPointType
 =
-new
-TypedObject
-.
-ArrayType
-(
 PointType
+.
+array
+(
 3
 )
 ;

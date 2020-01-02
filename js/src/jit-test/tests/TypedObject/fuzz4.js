@@ -30,14 +30,12 @@ Error
 var
 A
 =
-new
-TypedObject
-.
-ArrayType
-(
 TypedObject
 .
 uint8
+.
+array
+(
 10
 )
 ;
