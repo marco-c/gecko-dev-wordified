@@ -331,7 +331,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 This
@@ -340,8 +340,6 @@ not
 happen
 "
 )
-;
-break
 ;
 }
 JS
@@ -510,7 +508,7 @@ success
 )
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 This
@@ -519,9 +517,6 @@ not
 happen
 "
 )
-;
-return
-NS_ERROR_FAILURE
 ;
 }
 mRequest

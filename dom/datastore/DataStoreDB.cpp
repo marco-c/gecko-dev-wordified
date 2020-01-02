@@ -656,7 +656,7 @@ return
 NS_OK
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 This
@@ -665,9 +665,6 @@ not
 happen
 "
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
