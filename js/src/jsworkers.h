@@ -2040,6 +2040,9 @@ compartments
 PersistentRootedObject
 optionsElement
 ;
+PersistentRootedScript
+optionsIntroductionScript
+;
 /
 /
 Callback
