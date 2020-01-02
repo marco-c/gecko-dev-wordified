@@ -177,6 +177,9 @@ DEBUG_FRAME_DUMP
 #
 endif
 class
+nsContainerFrame
+;
+class
 nsIFrame
 ;
 class
@@ -610,7 +613,7 @@ frames
 Slice
 AppendFrames
 (
-nsIFrame
+nsContainerFrame
 *
 aParent
 nsFrameList
@@ -656,7 +659,7 @@ frame
 void
 AppendFrame
 (
-nsIFrame
+nsContainerFrame
 *
 aParent
 nsIFrame
@@ -1167,7 +1170,7 @@ pointer
 void
 InsertFrame
 (
-nsIFrame
+nsContainerFrame
 *
 aParent
 nsIFrame
@@ -1248,7 +1251,7 @@ frames
 Slice
 InsertFrames
 (
-nsIFrame
+nsContainerFrame
 *
 aParent
 nsIFrame
@@ -1546,7 +1549,7 @@ null
 void
 ApplySetParent
 (
-nsIFrame
+nsContainerFrame
 *
 aParent
 )
