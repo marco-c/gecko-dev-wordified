@@ -620,8 +620,10 @@ G_Protocol4Parser
 (
 )
 ;
-function
+let
 isEmpty
+=
+function
 (
 map
 )

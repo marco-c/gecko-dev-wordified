@@ -4535,8 +4535,10 @@ using
 it
 .
 )
-function
+let
 wrap
+=
+function
 (
 meth
 objName

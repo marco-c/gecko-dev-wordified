@@ -11407,8 +11407,10 @@ newChannelFromURI
 uri
 )
 ;
-function
+let
 iconLoadCallback
+=
+function
 (
 aByteArray
 aEngine
@@ -33352,8 +33354,10 @@ writer
 "
 )
 ;
-function
+let
 writeCommit
+=
+function
 (
 )
 {

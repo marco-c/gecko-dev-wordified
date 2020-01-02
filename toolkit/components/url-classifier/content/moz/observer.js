@@ -658,8 +658,10 @@ observerServiceObserverRan
 =
 0
 ;
-function
+let
 regularObserver
+=
+function
 (
 )
 {
@@ -669,8 +671,10 @@ regularObserverRan
 ;
 }
 ;
-function
+let
 observerServiceObserver
+=
+function
 (
 )
 {
