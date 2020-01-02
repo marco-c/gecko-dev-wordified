@@ -4929,10 +4929,12 @@ NS_ERROR_NOT_AVAILABLE
 NS_ConvertUTF16toUTF8
 familyName
 (
-aProxy
+aFamily
 -
 >
-mFamilyName
+Name
+(
+)
 )
 ;
 nsAutoCString
