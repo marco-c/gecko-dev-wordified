@@ -350,8 +350,6 @@ devtools
 /
 debugger
 /
-debugger
--
 panel
 "
 )
