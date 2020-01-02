@@ -1385,6 +1385,9 @@ _recError
 =
 0
 ;
+#
+ifdef
+USE_X11
 /
 /
 Get
@@ -1427,6 +1430,8 @@ work
 )
 ;
 }
+#
+endif
 /
 /
 RECORDING
@@ -1862,6 +1867,9 @@ return
 1
 ;
 }
+#
+ifdef
+USE_X11
 if
 (
 _XDisplay
@@ -1877,6 +1885,8 @@ _XDisplay
 NULL
 ;
 }
+#
+endif
 _initialized
 =
 false
@@ -13577,6 +13587,9 @@ state
 =
 0
 ;
+#
+ifdef
+USE_X11
 if
 (
 !
@@ -13597,6 +13610,8 @@ _XDisplay
 szKey
 )
 ;
+#
+endif
 /
 /
 A

@@ -1189,6 +1189,9 @@ return
 0
 ;
 }
+#
+ifdef
+USE_X11
 /
 /
 Get
@@ -1231,6 +1234,8 @@ work
 )
 ;
 }
+#
+endif
 _playWarning
 =
 0
@@ -1430,6 +1435,9 @@ Enter
 )
 ;
 }
+#
+ifdef
+USE_X11
 if
 (
 _XDisplay
@@ -1445,6 +1453,8 @@ _XDisplay
 NULL
 ;
 }
+#
+endif
 _initialized
 =
 false
@@ -11159,6 +11169,9 @@ state
 =
 0
 ;
+#
+ifdef
+USE_X11
 if
 (
 !
@@ -11179,6 +11192,8 @@ _XDisplay
 szKey
 )
 ;
+#
+endif
 /
 /
 A
