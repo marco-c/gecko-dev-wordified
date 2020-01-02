@@ -140,13 +140,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 GonkCameraControl
 .
 h

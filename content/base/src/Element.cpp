@@ -652,13 +652,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsNodeInfoManager
 .
 h

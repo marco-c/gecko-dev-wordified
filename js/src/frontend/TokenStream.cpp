@@ -163,13 +163,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsatom
 .
 h

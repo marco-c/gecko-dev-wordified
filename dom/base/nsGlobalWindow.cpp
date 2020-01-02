@@ -383,17 +383,6 @@ JS_ClearWatchPointsForObject
 #
 include
 "
-jsfriendapi
-.
-h
-"
-/
-/
-for
-JS_GetGlobalForFrame
-#
-include
-"
 jswrapper
 .
 h

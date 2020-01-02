@@ -154,13 +154,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsscript
 .
 h

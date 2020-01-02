@@ -251,13 +251,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h

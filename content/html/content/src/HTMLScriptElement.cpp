@@ -169,13 +169,6 @@ nsCaseInsensitiveStringComparator
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h

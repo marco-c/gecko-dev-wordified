@@ -214,13 +214,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsThread
 .
 h

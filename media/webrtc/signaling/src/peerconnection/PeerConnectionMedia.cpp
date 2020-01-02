@@ -158,13 +158,6 @@ Preferences
 h
 "
 #
-include
-"
-jsapi
-.
-h
-"
-#
 endif
 using
 namespace

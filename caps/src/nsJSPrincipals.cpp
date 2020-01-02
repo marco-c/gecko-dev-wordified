@@ -152,13 +152,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsIJSRuntimeService
 .
 h

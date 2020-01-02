@@ -111,13 +111,6 @@ MPL
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jscompartment
 .
 h

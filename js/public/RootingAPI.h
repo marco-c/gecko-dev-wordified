@@ -2959,6 +2959,9 @@ T
 {
 friend
 class
+JS
+:
+:
 MutableHandle
 <
 T

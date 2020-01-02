@@ -115,13 +115,6 @@ this
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jscpucfg
 .
 h

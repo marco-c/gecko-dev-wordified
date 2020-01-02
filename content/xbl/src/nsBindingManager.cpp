@@ -304,13 +304,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsIXPConnect
 .
 h
