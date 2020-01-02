@@ -434,6 +434,7 @@ extern
 SECStatus
 RSA_PrivateKeyCheck
 (
+const
 RSAPrivateKey
 *
 key
