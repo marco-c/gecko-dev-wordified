@@ -362,7 +362,6 @@ New
 (
 cx
 obj
-proto
 parent
 &
 js
@@ -397,12 +396,6 @@ New
 (
 cx
 global
-global
--
->
-getProto
-(
-)
 global
 &
 OuterWrapper
@@ -645,12 +638,6 @@ New
 (
 cx
 compartment2
-compartment2
--
->
-getProto
-(
-)
 compartment2
 &
 OuterWrapper
