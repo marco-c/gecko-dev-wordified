@@ -435,14 +435,6 @@ compartmentStats
 (
 nullptr
 )
-scheduledForDestruction
-(
-false
-)
-maybeAlive
-(
-true
-)
 #
 ifdef
 JS_ION
