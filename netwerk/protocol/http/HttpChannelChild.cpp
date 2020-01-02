@@ -7436,6 +7436,14 @@ mAllowPipelining
 ;
 openArgs
 .
+allowSTS
+(
+)
+=
+mAllowSTS
+;
+openArgs
+.
 forceAllowThirdPartyCookie
 (
 )

@@ -1900,6 +1900,9 @@ rv
 ;
 if
 (
+mAllowSTS
+&
+&
 !
 usingSSL
 )

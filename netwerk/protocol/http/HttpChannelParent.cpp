@@ -604,6 +604,11 @@ allowPipelining
 )
 a
 .
+allowSTS
+(
+)
+a
+.
 forceAllowThirdPartyCookie
 (
 )
@@ -1370,6 +1375,10 @@ allowPipelining
 const
 bool
 &
+allowSTS
+const
+bool
+&
 forceAllowThirdPartyCookie
 const
 bool
@@ -1929,6 +1938,14 @@ mChannel
 SetAllowPipelining
 (
 allowPipelining
+)
+;
+mChannel
+-
+>
+SetAllowSTS
+(
+allowSTS
 )
 ;
 mChannel
