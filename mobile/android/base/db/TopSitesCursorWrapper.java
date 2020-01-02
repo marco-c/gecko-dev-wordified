@@ -225,9 +225,6 @@ TopSites
 HISTORY_ID
 TopSites
 .
-DISPLAY
-TopSites
-.
 TYPE
 }
 ;
