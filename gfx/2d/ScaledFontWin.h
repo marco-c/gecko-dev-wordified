@@ -141,7 +141,10 @@ GetType
 const
 {
 return
-FONT_GDI
+FontType
+:
+:
+GDI
 ;
 }
 #

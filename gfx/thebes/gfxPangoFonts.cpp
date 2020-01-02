@@ -13436,7 +13436,10 @@ mozilla
 gfx
 :
 :
-FONT_HINTING_NONE
+FontHinting
+:
+:
+NONE
 ;
 break
 ;
@@ -13451,7 +13454,10 @@ mozilla
 gfx
 :
 :
-FONT_HINTING_LIGHT
+FontHinting
+:
+:
+LIGHT
 ;
 break
 ;
@@ -13466,7 +13472,10 @@ mozilla
 gfx
 :
 :
-FONT_HINTING_FULL
+FontHinting
+:
+:
+FULL
 ;
 break
 ;
@@ -13480,7 +13489,10 @@ mozilla
 gfx
 :
 :
-FONT_HINTING_NORMAL
+FontHinting
+:
+:
+NORMAL
 ;
 break
 ;

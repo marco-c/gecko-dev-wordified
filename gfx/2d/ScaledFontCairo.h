@@ -239,7 +239,10 @@ GlyphRenderingOptionsCairo
 :
 mHinting
 (
-FONT_HINTING_NORMAL
+FontHinting
+:
+:
+NORMAL
 )
 mAutoHinting
 (
@@ -299,7 +302,10 @@ GetType
 const
 {
 return
-FONT_CAIRO
+FontType
+:
+:
+CAIRO
 ;
 }
 private

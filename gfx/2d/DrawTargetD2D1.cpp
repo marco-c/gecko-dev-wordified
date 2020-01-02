@@ -1942,7 +1942,10 @@ GetType
 )
 !
 =
-FONT_DWRITE
+FontType
+:
+:
+DWRITE
 )
 {
 gfxDebug
@@ -2002,7 +2005,10 @@ GetType
 )
 !
 =
-FONT_DWRITE
+FontType
+:
+:
+DWRITE
 )
 {
 gfxDebug

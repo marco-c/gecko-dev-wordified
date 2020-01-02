@@ -168,7 +168,10 @@ GetType
 const
 {
 return
-FONT_DWRITE
+FontType
+:
+:
+DWRITE
 ;
 }
 virtual
@@ -302,7 +305,10 @@ GetType
 const
 {
 return
-FONT_DWRITE
+FontType
+:
+:
+DWRITE
 ;
 }
 private

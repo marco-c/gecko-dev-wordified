@@ -2695,7 +2695,10 @@ nativeFont
 .
 mType
 =
-NATIVE_FONT_MAC_FONT_FACE
+NativeFontType
+:
+:
+MAC_FONT_FACE
 ;
 nativeFont
 .

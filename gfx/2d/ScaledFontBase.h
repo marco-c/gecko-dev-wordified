@@ -276,7 +276,10 @@ GetType
 const
 {
 return
-FONT_SKIA
+FontType
+:
+:
+SKIA
 ;
 }
 #
