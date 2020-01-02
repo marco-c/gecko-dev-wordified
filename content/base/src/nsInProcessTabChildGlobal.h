@@ -900,9 +900,6 @@ mInitialized
 bool
 mLoadingScript
 ;
-bool
-mDelayedDisconnect
-;
 /
 /
 Is
