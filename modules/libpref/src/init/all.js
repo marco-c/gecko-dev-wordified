@@ -47560,6 +47560,6 @@ face_detection
 .
 enabled
 "
-false
+true
 )
 ;
