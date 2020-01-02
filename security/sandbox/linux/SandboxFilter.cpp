@@ -1647,8 +1647,11 @@ SYSCALL_WITH_ARG
 (
 tgkill
 0
+uint32_t
+(
 getpid
 (
+)
 )
 )
 )
