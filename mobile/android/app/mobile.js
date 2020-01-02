@@ -8157,7 +8157,7 @@ scrolling
 .
 gamepad_dead_zone
 "
-10
+115
 )
 ;
 /
