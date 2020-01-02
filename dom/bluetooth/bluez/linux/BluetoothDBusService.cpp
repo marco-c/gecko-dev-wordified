@@ -12398,6 +12398,11 @@ void
 *
 val
 ;
+const
+char
+*
+tempStr
+;
 nsCString
 str
 ;
@@ -12477,9 +12482,6 @@ get_nsString
 )
 )
 ;
-const
-char
-*
 tempStr
 =
 str
