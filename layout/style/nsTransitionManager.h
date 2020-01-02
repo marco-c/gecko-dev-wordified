@@ -651,16 +651,6 @@ TimeStamp
 aNow
 )
 ;
-virtual
-bool
-HasAnimationOfProperty
-(
-nsCSSProperty
-aProperty
-)
-const
-MOZ_OVERRIDE
-;
 /
 /
 If

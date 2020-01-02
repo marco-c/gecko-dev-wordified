@@ -2626,7 +2626,6 @@ const
 =
 0
 ;
-virtual
 bool
 HasAnimationOfProperty
 (
@@ -2634,8 +2633,6 @@ nsCSSProperty
 aProperty
 )
 const
-=
-0
 ;
 static
 void

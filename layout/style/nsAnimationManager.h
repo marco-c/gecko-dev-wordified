@@ -656,16 +656,6 @@ aFlags
 const
 MOZ_OVERRIDE
 ;
-virtual
-bool
-HasAnimationOfProperty
-(
-nsCSSProperty
-aProperty
-)
-const
-MOZ_OVERRIDE
-;
 }
 ;
 class
