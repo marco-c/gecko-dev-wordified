@@ -9447,7 +9447,7 @@ vp
 )
 ;
 RootedObject
-arg0
+obj
 (
 cx
 )
@@ -9462,7 +9462,7 @@ args
 "
 o
 "
-arg0
+obj
 .
 address
 (
@@ -9474,7 +9474,7 @@ false
 ;
 js_DumpObject
 (
-arg0
+obj
 )
 ;
 args
