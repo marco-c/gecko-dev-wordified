@@ -644,6 +644,9 @@ button
 toolbarbutton
 -
 1
+toolbarbutton
+-
+combined
 "
 ;
 let
@@ -2745,6 +2748,9 @@ button
 toolbarbutton
 -
 1
+toolbarbutton
+-
+combined
 "
 ;
 if
@@ -3968,6 +3974,9 @@ button
 toolbarbutton
 -
 1
+toolbarbutton
+-
+combined
 "
 ;
 if
