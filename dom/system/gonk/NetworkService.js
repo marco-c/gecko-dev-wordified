@@ -1849,7 +1849,7 @@ removeDefaultRoute
 :
 function
 (
-ifname
+network
 )
 {
 if
@@ -1865,7 +1865,9 @@ route
 for
 "
 +
-ifname
+network
+.
+name
 )
 ;
 let
@@ -1879,7 +1881,14 @@ removeDefaultRoute
 "
 ifname
 :
-ifname
+network
+.
+name
+gateway
+:
+network
+.
+gateway
 }
 ;
 this
