@@ -244,9 +244,10 @@ called
 ;
 CHECK
 (
-JSVAL_IS_INT
-(
 retval
+.
+isInt32
+(
 )
 )
 ;

@@ -699,9 +699,10 @@ sufficient
 to
 check
 for
-JSVAL_IS_INT
-(
 id
+.
+isInt32
+(
 )
 *
 except

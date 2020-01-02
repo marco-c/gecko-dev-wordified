@@ -1102,9 +1102,10 @@ JSTYPE_NUMBER
 :
 if
 (
-JSVAL_IS_INT
-(
 from
+.
+isInt32
+(
 )
 )
 *

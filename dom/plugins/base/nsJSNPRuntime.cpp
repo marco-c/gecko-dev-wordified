@@ -2131,9 +2131,10 @@ variant
 else
 if
 (
-JSVAL_IS_INT
-(
 val
+.
+isInt32
+(
 )
 )
 {
@@ -4795,9 +4796,10 @@ else
 {
 NS_ASSERTION
 (
-JSVAL_IS_INT
-(
 v
+.
+isInt32
+(
 )
 "
 The

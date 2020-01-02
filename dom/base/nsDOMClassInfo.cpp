@@ -19560,9 +19560,10 @@ NS_ERROR_UNEXPECTED
 if
 (
 !
-JSVAL_IS_INT
-(
 lenval
+.
+isInt32
+(
 )
 )
 {
@@ -19746,9 +19747,10 @@ if
 ok
 &
 &
-JSVAL_IS_INT
-(
 len_val
+.
+isInt32
+(
 )
 )
 {

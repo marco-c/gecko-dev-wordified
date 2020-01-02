@@ -5168,12 +5168,13 @@ rv
 if
 (
 !
-JSVAL_IS_INT
-(
 argv
 [
 0
 ]
+.
+isInt32
+(
 )
 )
 {
