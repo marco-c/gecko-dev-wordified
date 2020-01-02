@@ -3703,9 +3703,6 @@ aPrincipal
 )
 {
 return
-nsContentPermissionUtils
-:
-:
 CreateContentPermissionRequestParent
 (
 aRequests
