@@ -1703,6 +1703,11 @@ handlePanelsInstalled
 id
 )
 {
+_assertPanelExists
+(
+id
+)
+;
 let
 options
 =
@@ -1778,6 +1783,11 @@ handlePanelsUninstalled
 id
 )
 {
+_assertPanelExists
+(
+id
+)
+;
 let
 options
 =
