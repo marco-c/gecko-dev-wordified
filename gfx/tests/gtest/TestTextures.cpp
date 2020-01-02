@@ -2104,7 +2104,10 @@ BackendType
 :
 :
 CAIRO
-TEXTURE_DEALLOCATE_CLIENT
+TextureFlags
+:
+:
+DEALLOCATE_CLIENT
 )
 ;
 TestTextureClientSurface
@@ -2393,7 +2396,10 @@ BackendType
 :
 :
 CAIRO
-TEXTURE_DEALLOCATE_CLIENT
+TextureFlags
+:
+:
+DEALLOCATE_CLIENT
 )
 ;
 TestTextureClientYCbCr

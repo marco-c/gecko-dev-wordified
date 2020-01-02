@@ -551,7 +551,7 @@ OptimalFormatForContent
 contentType
 )
 ;
-uint32_t
+TextureFlags
 flags
 =
 TextureFlags

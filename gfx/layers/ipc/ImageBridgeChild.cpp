@@ -3848,7 +3848,10 @@ CreateImageClient
 (
 aType
 this
-0
+TextureFlags
+:
+:
+NO_FLAGS
 )
 ;
 MOZ_ASSERT

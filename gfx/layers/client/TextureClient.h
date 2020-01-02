@@ -1976,12 +1976,16 @@ IsImmutable
 const
 {
 return
+!
+!
+(
 mFlags
 &
 TextureFlags
 :
 :
 IMMUTABLE
+)
 ;
 }
 void
