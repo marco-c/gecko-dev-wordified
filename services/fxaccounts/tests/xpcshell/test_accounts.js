@@ -1203,11 +1203,17 @@ kB
 /
 sign
 out
+let
+localOnly
+=
+true
+;
 yield
 account
 .
 signOut
 (
+localOnly
 )
 ;
 /
