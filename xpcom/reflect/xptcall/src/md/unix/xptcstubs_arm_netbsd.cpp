@@ -108,6 +108,7 @@ xptcprivate
 h
 "
 nsresult
+ATTRIBUTE_USED
 PrepareAndDispatch
 (
 nsXPTCStubBase
