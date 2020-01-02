@@ -67,6 +67,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 UITourTest
 (
 )
