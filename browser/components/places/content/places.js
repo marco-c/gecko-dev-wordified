@@ -2780,6 +2780,8 @@ exportToFile
 fp
 .
 file
+.
+path
 )
 .
 then

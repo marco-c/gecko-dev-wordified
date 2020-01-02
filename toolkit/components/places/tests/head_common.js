@@ -109,13 +109,6 @@ NS_APP_PROFILE_DIR_STARTUP
 ProfDS
 "
 ;
-const
-NS_APP_BOOKMARKS_50_FILE
-=
-"
-BMarks
-"
-;
 /
 /
 Shortcuts
