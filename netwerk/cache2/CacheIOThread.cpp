@@ -731,7 +731,8 @@ EventsPending
 (
 )
 )
-continue
+goto
+loopStart
 ;
 lock
 .
@@ -746,7 +747,8 @@ EventsPending
 (
 )
 )
-continue
+goto
+loopStart
 ;
 }
 while
