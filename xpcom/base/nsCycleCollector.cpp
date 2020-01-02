@@ -2011,7 +2011,7 @@ variables
 /
 /
 /
-XPCOM_CC_LOG_ALL
+MOZ_CC_LOG_ALL
 :
 If
 defined
@@ -2025,7 +2025,7 @@ heaps
 /
 /
 /
-XPCOM_CC_LOG_SHUTDOWN
+MOZ_CC_LOG_SHUTDOWN
 :
 If
 defined
@@ -2040,7 +2040,7 @@ shutdown
 /
 /
 /
-XPCOM_CC_ALL_TRACES_AT_SHUTDOWN
+MOZ_CC_ALL_TRACES_AT_SHUTDOWN
 :
 If
 defined
@@ -2079,7 +2079,7 @@ heap
 /
 /
 /
-XPCOM_CC_RUN_DURING_SHUTDOWN
+MOZ_CC_RUN_DURING_SHUTDOWN
 :
 In
 non
@@ -2119,9 +2119,9 @@ as
 /
 logs
 from
-XPCOM_CC_LOG_ALL
+MOZ_CC_LOG_ALL
 and
-XPCOM_CC_LOG_SHUTDOWN
+MOZ_CC_LOG_SHUTDOWN
 or
 other
 uses
@@ -2186,7 +2186,7 @@ mLogAll
 PR_GetEnv
 (
 "
-XPCOM_CC_LOG_ALL
+MOZ_CC_LOG_ALL
 "
 )
 !
@@ -2198,7 +2198,7 @@ mLogShutdown
 PR_GetEnv
 (
 "
-XPCOM_CC_LOG_SHUTDOWN
+MOZ_CC_LOG_SHUTDOWN
 "
 )
 !
@@ -2210,7 +2210,7 @@ mAllTracesAtShutdown
 PR_GetEnv
 (
 "
-XPCOM_CC_ALL_TRACES_AT_SHUTDOWN
+MOZ_CC_ALL_TRACES_AT_SHUTDOWN
 "
 )
 !
@@ -19668,7 +19668,7 @@ if
 PR_GetEnv
 (
 "
-XPCOM_CC_RUN_DURING_SHUTDOWN
+MOZ_CC_RUN_DURING_SHUTDOWN
 "
 )
 )
