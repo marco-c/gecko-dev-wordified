@@ -1255,7 +1255,15 @@ js
 ThreadSafeContext
 *
 cx
-TwoByteChars
+const
+mozilla
+:
+:
+Range
+<
+const
+jschar
+>
 tbchars
 )
 ;

@@ -4905,7 +4905,14 @@ uclinebuf
 return
 false
 ;
-TwoByteChars
+mozilla
+:
+:
+Range
+<
+const
+jschar
+>
 tbchars
 (
 err
@@ -4922,6 +4929,9 @@ report
 .
 linebuf
 =
+JS
+:
+:
 LossyTwoByteCharsToNewLatin1CharsZ
 (
 cx
