@@ -1534,6 +1534,17 @@ CheckTracksAvailable
 (
 )
 {
+if
+(
+mTrackTypesAvailable
+=
+=
+0
+)
+{
+return
+;
+}
 nsTArray
 <
 nsAutoPtr
