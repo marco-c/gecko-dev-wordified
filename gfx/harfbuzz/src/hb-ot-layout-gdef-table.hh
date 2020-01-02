@@ -1765,7 +1765,7 @@ GDEF
 static
 const
 hb_tag_t
-Tag
+tableTag
 =
 HB_OT_TAG_GDEF
 ;
