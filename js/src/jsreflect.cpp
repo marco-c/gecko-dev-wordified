@@ -19246,7 +19246,6 @@ AutoStableStringChars
 flatChars
 (
 cx
-flat
 )
 ;
 if
@@ -19257,6 +19256,7 @@ flatChars
 initTwoByte
 (
 cx
+flat
 )
 )
 return

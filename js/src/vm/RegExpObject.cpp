@@ -3769,7 +3769,6 @@ AutoStableStringChars
 inputChars
 (
 cx
-input
 )
 ;
 if
@@ -3779,6 +3778,8 @@ inputChars
 .
 init
 (
+cx
+input
 )
 )
 return
