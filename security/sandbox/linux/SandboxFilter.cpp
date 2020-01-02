@@ -727,9 +727,6 @@ and
 *
 2
 )
-with
-MOZ_CONTENT_SANDBOX_REPORTER
-set
 the
 child
 will
@@ -737,7 +734,6 @@ report
 which
 system
 call
-*
 has
 been
 denied
@@ -745,11 +741,15 @@ by
 seccomp
 -
 bpf
+*
 just
 before
 exiting
 via
 NSPR
+or
+Android
+logging
 .
 *
 System
