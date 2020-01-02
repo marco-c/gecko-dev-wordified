@@ -1518,6 +1518,9 @@ false
 if
 (
 mAGpsRilInterface
+&
+&
+mAGpsRilInterface
 -
 >
 size
@@ -1970,6 +1973,10 @@ if
 (
 !
 mRadioInterface
+|
+|
+!
+mAGpsInterface
 )
 {
 return
@@ -2125,6 +2132,10 @@ if
 (
 !
 mRadioInterface
+|
+|
+!
+mAGpsRilInterface
 )
 {
 return
@@ -2489,11 +2500,6 @@ cid
 }
 }
 }
-if
-(
-mAGpsRilInterface
-)
-{
 mAGpsRilInterface
 -
 >
@@ -2507,7 +2513,6 @@ location
 )
 )
 ;
-}
 }
 }
 #
