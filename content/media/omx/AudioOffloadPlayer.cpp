@@ -235,6 +235,13 @@ h
 "
 #
 include
+"
+VideoUtils
+.
+h
+"
+#
+include
 <
 binder
 /
@@ -419,7 +426,7 @@ AudioOffloadPlayer
 :
 AudioOffloadPlayer
 (
-MediaOmxDecoder
+MediaOmxCommonDecoder
 *
 aObserver
 )
@@ -1195,7 +1202,9 @@ will
 be
 freed
 by
-MediaOmxDecoder
+/
+/
+MediaOmxCommonDecoder
 Pause
 (
 )
@@ -2237,7 +2246,7 @@ NS_NewRunnableMethod
 (
 mObserver
 &
-MediaOmxDecoder
+MediaOmxCommonDecoder
 :
 :
 PlaybackPositionChanged
@@ -2267,7 +2276,7 @@ NS_NewRunnableMethod
 (
 mObserver
 &
-MediaOmxDecoder
+MediaOmxCommonDecoder
 :
 :
 AudioOffloadTearDown
