@@ -408,24 +408,6 @@ nullptr
 ;
 /
 /
-TODO
-:
-Bug
-814629
--
-WebMobileConnection
-API
-:
-support
-multiple
-sim
-cards
-mClientId
-=
-0
-;
-/
-/
 Not
 being
 able
@@ -529,7 +511,6 @@ mProvider
 >
 RegisterMobileConnectionMsg
 (
-mClientId
 mListener
 )
 ;
@@ -588,7 +569,6 @@ mProvider
 >
 UnregisterMobileConnectionMsg
 (
-mClientId
 mListener
 )
 ;
@@ -842,7 +822,6 @@ mProvider
 >
 GetVoiceConnectionInfo
 (
-mClientId
 voice
 )
 ;
@@ -889,7 +868,6 @@ mProvider
 >
 GetDataConnectionInfo
 (
-mClientId
 data
 )
 ;
@@ -937,7 +915,6 @@ mProvider
 >
 GetNetworkSelectionMode
 (
-mClientId
 networkSelectionMode
 )
 ;
@@ -990,7 +967,6 @@ mProvider
 >
 GetNetworks
 (
-mClientId
 GetOwner
 (
 )
@@ -1049,7 +1025,6 @@ mProvider
 >
 SelectNetwork
 (
-mClientId
 GetOwner
 (
 )
@@ -1106,7 +1081,6 @@ mProvider
 >
 SelectNetworkAutomatically
 (
-mClientId
 GetOwner
 (
 )
@@ -1166,7 +1140,6 @@ mProvider
 >
 SetRoamingPreference
 (
-mClientId
 GetOwner
 (
 )
@@ -1223,7 +1196,6 @@ mProvider
 >
 GetRoamingPreference
 (
-mClientId
 GetOwner
 (
 )
@@ -1281,7 +1253,6 @@ mProvider
 >
 SetVoicePrivacyMode
 (
-mClientId
 GetOwner
 (
 )
@@ -1338,7 +1309,6 @@ mProvider
 >
 GetVoicePrivacyMode
 (
-mClientId
 GetOwner
 (
 )
@@ -1393,7 +1363,6 @@ mProvider
 >
 SendMMI
 (
-mClientId
 GetOwner
 (
 )
@@ -1445,7 +1414,6 @@ mProvider
 >
 CancelMMI
 (
-mClientId
 GetOwner
 (
 )
@@ -1503,7 +1471,6 @@ mProvider
 >
 GetCallForwardingOption
 (
-mClientId
 GetOwner
 (
 )
@@ -1563,7 +1530,6 @@ mProvider
 >
 SetCallForwardingOption
 (
-mClientId
 GetOwner
 (
 )
@@ -1627,7 +1593,6 @@ mProvider
 >
 GetCallBarringOption
 (
-mClientId
 GetOwner
 (
 )
@@ -1691,7 +1656,6 @@ mProvider
 >
 SetCallBarringOption
 (
-mClientId
 GetOwner
 (
 )
@@ -1755,7 +1719,6 @@ mProvider
 >
 ChangeCallBarringPassword
 (
-mClientId
 GetOwner
 (
 )
@@ -1812,7 +1775,6 @@ mProvider
 >
 GetCallWaitingOption
 (
-mClientId
 GetOwner
 (
 )
@@ -1870,7 +1832,6 @@ mProvider
 >
 SetCallWaitingOption
 (
-mClientId
 GetOwner
 (
 )
@@ -1927,7 +1888,6 @@ mProvider
 >
 GetCallingLineIdRestriction
 (
-mClientId
 GetOwner
 (
 )
@@ -1986,7 +1946,6 @@ mProvider
 >
 SetCallingLineIdRestriction
 (
-mClientId
 GetOwner
 (
 )
@@ -2043,7 +2002,6 @@ mProvider
 >
 ExitEmergencyCbMode
 (
-mClientId
 GetOwner
 (
 )
