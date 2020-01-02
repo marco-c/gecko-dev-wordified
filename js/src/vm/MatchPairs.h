@@ -436,7 +436,7 @@ pairCount_
 )
 pairs_
 (
-NULL
+nullptr
 )
 {
 }
@@ -505,7 +505,7 @@ forgetArray
 {
 pairs_
 =
-NULL
+nullptr
 ;
 }
 void

@@ -165,7 +165,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 NumberObject
 &

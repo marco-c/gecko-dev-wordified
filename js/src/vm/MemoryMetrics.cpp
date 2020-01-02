@@ -363,7 +363,7 @@ copyNonPureChars
 tcx
 *
 /
-NULL
+nullptr
 ownedChars
 )
 )
@@ -501,7 +501,7 @@ copyNonPureChars
 tcx
 *
 /
-NULL
+nullptr
 ownedChars1
 )
 )
@@ -563,7 +563,7 @@ copyNonPureChars
 tcx
 *
 /
-NULL
+nullptr
 ownedChars2
 )
 )
@@ -725,7 +725,7 @@ copyNonPureChars
 tcx
 *
 /
-NULL
+nullptr
 ownedChars
 )
 )
@@ -887,7 +887,7 @@ info
 >
 buffer
 =
-NULL
+nullptr
 ;
 }
 NotableStringInfo
@@ -3285,7 +3285,7 @@ comp
 >
 compartmentStats
 =
-NULL
+nullptr
 ;
 size_t
 numDirtyChunks

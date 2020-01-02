@@ -356,7 +356,7 @@ JS_ReportErrorFlagsAndNumber
 cx
 JSREPORT_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_THROW_TYPE_ERROR
 )
 ;
@@ -894,7 +894,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 Object
@@ -1216,7 +1216,7 @@ JSObject
 :
 :
 class_
-NULL
+nullptr
 self
 SingletonObject
 )
@@ -1227,7 +1227,7 @@ if
 objectProto
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -1286,7 +1286,7 @@ objectProto
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -1336,7 +1336,7 @@ if
 functionProto_
 )
 return
-NULL
+nullptr
 ;
 functionProto
 =
@@ -1386,7 +1386,7 @@ NewFunction
 (
 cx
 functionProto
-NULL
+nullptr
 0
 JSFunction
 :
@@ -1404,7 +1404,7 @@ if
 proto
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -1462,7 +1462,7 @@ if
 source
 )
 return
-NULL
+nullptr
 ;
 ScriptSource
 *
@@ -1486,7 +1486,7 @@ originPrincipals
 JSPrincipals
 *
 )
-NULL
+nullptr
 )
 ;
 if
@@ -1501,7 +1501,7 @@ source
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 RootedScriptSource
@@ -1524,7 +1524,7 @@ if
 sourceObject
 )
 return
-NULL
+nullptr
 ;
 ss
 -
@@ -1615,7 +1615,7 @@ script
 )
 )
 return
-NULL
+nullptr
 ;
 functionProto
 -
@@ -1646,7 +1646,7 @@ if
 protoType
 )
 return
-NULL
+nullptr
 ;
 protoType
 -
@@ -1714,7 +1714,7 @@ functionProto
 )
 )
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1769,7 +1769,7 @@ if
 ctor
 )
 return
-NULL
+nullptr
 ;
 RootedAtom
 objectAtom
@@ -1807,7 +1807,7 @@ if
 objectCtor
 )
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1911,7 +1911,7 @@ if
 ctor
 )
 return
-NULL
+nullptr
 ;
 RootedAtom
 functionAtom
@@ -1949,7 +1949,7 @@ if
 functionCtor
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -2040,13 +2040,13 @@ DefinePropertiesAndBrand
 (
 cx
 objectProto
-NULL
+nullptr
 object_methods
 )
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -2132,7 +2132,7 @@ if
 getter
 )
 return
-NULL
+nullptr
 ;
 #
 if
@@ -2166,7 +2166,7 @@ if
 setter
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 undefinedValue
@@ -2223,7 +2223,7 @@ JSPROP_SHARED
 )
 {
 return
-NULL
+nullptr
 ;
 }
 #
@@ -2248,7 +2248,7 @@ DefinePropertiesAndBrand
 (
 cx
 objectCtor
-NULL
+nullptr
 object_static_methods
 )
 |
@@ -2267,7 +2267,7 @@ DefinePropertiesAndBrand
 (
 cx
 functionProto
-NULL
+nullptr
 function_methods
 )
 |
@@ -2277,13 +2277,13 @@ DefinePropertiesAndBrand
 (
 cx
 functionCtor
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -2325,7 +2325,7 @@ JSProto_LIMIT
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2353,7 +2353,7 @@ JSProto_LIMIT
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -2417,7 +2417,7 @@ if
 evalobj
 )
 return
-NULL
+nullptr
 ;
 self
 -
@@ -2478,7 +2478,7 @@ if
 throwTypeError
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2493,7 +2493,7 @@ throwTypeError
 )
 )
 return
-NULL
+nullptr
 ;
 self
 -
@@ -2542,7 +2542,7 @@ JSObject
 :
 :
 class_
-NULL
+nullptr
 self
 TenuredObject
 )
@@ -2553,7 +2553,7 @@ if
 intrinsicsHolder
 )
 return
-NULL
+nullptr
 ;
 }
 self
@@ -2621,7 +2621,7 @@ JSPROP_READONLY
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -2768,7 +2768,7 @@ tagged
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -2856,8 +2856,8 @@ NewObjectWithGivenProto
 (
 cx
 clasp
-NULL
-NULL
+nullptr
+nullptr
 SingletonObject
 )
 ;
@@ -2867,7 +2867,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 Rooted
 <
@@ -2915,7 +2915,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2929,7 +2929,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -2964,7 +2964,7 @@ if
 res
 )
 return
-NULL
+nullptr
 ;
 global
 -
@@ -3482,7 +3482,7 @@ if
 blankProto
 )
 return
-NULL
+nullptr
 ;
 return
 blankProto
@@ -3530,7 +3530,7 @@ if
 objectProto
 )
 return
-NULL
+nullptr
 ;
 return
 CreateBlankProto
@@ -3823,7 +3823,7 @@ isUndefined
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -3917,7 +3917,7 @@ NewObjectWithGivenProto
 cx
 &
 GlobalDebuggees_class
-NULL
+nullptr
 global
 )
 ;
@@ -3927,7 +3927,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 debuggers
 =
@@ -3947,7 +3947,7 @@ if
 debuggers
 )
 return
-NULL
+nullptr
 ;
 obj
 -
@@ -4237,7 +4237,7 @@ cx
 NullPtr
 (
 )
-NULL
+nullptr
 nargs
 JSFunction
 :
@@ -4297,8 +4297,8 @@ cx
 holder
 shId
 funVal
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 ;

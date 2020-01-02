@@ -265,7 +265,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_GET_SET_FIELD
 js_getter_str
 )
@@ -316,7 +316,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_GET_SET_FIELD
 js_setter_str
 )
@@ -384,7 +384,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEBUG_COMPARTMENT_MISMATCH
 methodname
 propname
@@ -1180,7 +1180,7 @@ Shape
 *
 prev
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3252,8 +3252,8 @@ val
 NullPtr
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -3532,7 +3532,7 @@ obj
 getProto
 (
 )
-NULL
+nullptr
 )
 ;
 obj
@@ -3630,8 +3630,8 @@ val
 NullPtr
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 return
@@ -3910,7 +3910,7 @@ JSObject
 obj2
 (
 cx
-NULL
+nullptr
 )
 ;
 JSNewResolveOp

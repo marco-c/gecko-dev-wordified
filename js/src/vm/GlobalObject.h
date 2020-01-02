@@ -1865,7 +1865,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -1928,7 +1928,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -1992,7 +1992,7 @@ self
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -2056,7 +2056,7 @@ self
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -2120,7 +2120,7 @@ self
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -2184,7 +2184,7 @@ self
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -2248,7 +2248,7 @@ self
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -2312,7 +2312,7 @@ self
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -2386,7 +2386,7 @@ self
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -2625,7 +2625,7 @@ self
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -2839,7 +2839,7 @@ self
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -2963,8 +2963,8 @@ cx
 holder
 id
 value
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 ;
@@ -3455,7 +3455,7 @@ debuggee
 this
 returns
 either
-NULL
+nullptr
 or
 an
 empty
@@ -3488,7 +3488,7 @@ already
 exist
 .
 Returns
-NULL
+nullptr
 only
 on
 OOM
