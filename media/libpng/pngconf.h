@@ -17,10 +17,10 @@ version
 .
 6
 .
-10
+13
 -
-March
-6
+August
+21
 2014
 *
 *
@@ -30,7 +30,7 @@ c
 )
 1998
 -
-2013
+2014
 Glenn
 Randers
 -
@@ -2753,6 +2753,12 @@ if
 defined
 (
 __clang__
+)
+&
+&
+defined
+(
+__has_attribute
 )
 /
 *

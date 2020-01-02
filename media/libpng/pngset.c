@@ -21,11 +21,11 @@ libpng
 .
 6
 .
-8
+11
 [
-December
-19
-2013
+June
+5
+2014
 ]
 *
 Copyright
@@ -34,7 +34,7 @@ c
 )
 1998
 -
-2013
+2014
 Glenn
 Randers
 -
@@ -3685,8 +3685,10 @@ inconsistent
 /
 if
 (
-!
 result
+=
+=
+0
 )
 return
 ;
@@ -3901,6 +3903,9 @@ num_text
 if
 (
 ret
+!
+=
+0
 )
 png_error
 (
@@ -4869,6 +4874,9 @@ key_len
 if
 (
 text_length
+!
+=
+0
 )
 memcpy
 (
@@ -8597,6 +8605,9 @@ default
 if
 (
 keep
+!
+=
+0
 )
 {
 new_list
@@ -9071,6 +9082,9 @@ row_pointers
 if
 (
 row_pointers
+!
+=
+NULL
 )
 info_ptr
 -
@@ -9468,6 +9482,9 @@ user_chunk_cache_max
 if
 (
 png_ptr
+!
+=
+NULL
 )
 png_ptr
 -
@@ -9505,6 +9522,9 @@ user_chunk_malloc_max
 if
 (
 png_ptr
+!
+=
+NULL
 )
 png_ptr
 -
@@ -9594,6 +9614,9 @@ called
 if
 (
 allowed
+!
+=
+0
 )
 png_ptr
 -
