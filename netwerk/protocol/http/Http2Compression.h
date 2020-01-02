@@ -374,6 +374,12 @@ amount
 =
 0
 ;
+virtual
+void
+DumpState
+(
+)
+;
 nsAutoTArray
 <
 uint32_t
@@ -1026,6 +1032,13 @@ MakeRoom
 (
 uint32_t
 amount
+)
+MOZ_OVERRIDE
+;
+virtual
+void
+DumpState
+(
 )
 MOZ_OVERRIDE
 ;
