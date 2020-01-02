@@ -5419,6 +5419,8 @@ aOnSuccess
 NavigatorUserMediaErrorCallback
 &
 aOnError
+uint64_t
+aInnerWindowID
 ErrorResult
 &
 aRv
@@ -5533,6 +5535,7 @@ mWindow
 aConstraints
 onsuccess
 onerror
+aInnerWindowID
 )
 ;
 }
