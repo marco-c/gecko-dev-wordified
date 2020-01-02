@@ -20092,8 +20092,8 @@ f
 nsIPresShell
 :
 :
-eResize
-NS_FRAME_HAS_DIRTY_CHILDREN
+eStyleChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }

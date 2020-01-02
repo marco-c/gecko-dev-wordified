@@ -7817,6 +7817,15 @@ aCoord
 )
 ;
 }
+static
+void
+MarkDescendantsDirty
+(
+nsIFrame
+*
+aSubtreeRoot
+)
+;
 /
 *
 *
