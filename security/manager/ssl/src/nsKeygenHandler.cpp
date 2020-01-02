@@ -420,13 +420,6 @@ base
 }
 ;
 static
-NS_DEFINE_IID
-(
-kIDOMHTMLSelectElementIID
-NS_IDOMHTMLSELECTELEMENT_IID
-)
-;
-static
 PQGParams
 *
 decode_pqg_params
