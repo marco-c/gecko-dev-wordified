@@ -184,6 +184,10 @@ mFragmentNumber
 (
 0
 )
+mLastFrameTimeOfLastFragment
+(
+0
+)
 mEOS
 (
 false

@@ -136,6 +136,13 @@ MediaEncoder
 h
 "
 #
+include
+"
+VideoUtils
+.
+h
+"
+#
 undef
 LOG
 #
@@ -191,7 +198,9 @@ static
 uint32_t
 FRAG_DURATION
 =
-2000000
+2
+*
+USECS_PER_S
 ;
 /
 /
