@@ -208,6 +208,16 @@ BluetoothA2dpManager
 (
 )
 ;
+void
+OnConnectError
+(
+)
+;
+void
+OnDisconnectError
+(
+)
+;
 /
 /
 A2DP
