@@ -240,7 +240,7 @@ menu
 let
 shownContextPromise
 =
-contextMenuShown
+popupShown
 (
 contextMenu
 )
@@ -428,7 +428,7 @@ expectedEntries
 let
 hiddenContextPromise
 =
-contextMenuHidden
+popupHidden
 (
 contextMenu
 )
