@@ -3393,6 +3393,7 @@ js
 :
 AsmJSActivation
 *
+volatile
 asmJSActivationStack_
 ;
 /

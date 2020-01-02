@@ -327,9 +327,9 @@ generate
 bool
 generateAsmJS
 (
-Label
+AsmJSFunctionLabels
 *
-stackOverflowLabel
+labels
 )
 ;
 bool

@@ -4706,6 +4706,16 @@ ma_nop
 ;
 }
 void
+shortJumpSizedNop
+(
+)
+{
+ma_nop
+(
+)
+;
+}
+void
 ret
 (
 )
