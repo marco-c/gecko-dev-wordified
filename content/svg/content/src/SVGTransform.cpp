@@ -173,15 +173,6 @@ nsSVGAttrTearoffTable
 .
 h
 "
-#
-include
-"
-mozilla
-/
-DebugOnly
-.
-h
-"
 namespace
 {
 const

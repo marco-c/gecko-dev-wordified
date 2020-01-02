@@ -273,13 +273,6 @@ member
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

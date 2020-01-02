@@ -168,13 +168,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h
