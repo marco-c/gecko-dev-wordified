@@ -23744,6 +23744,10 @@ DEBUG
 if
 (
 !
+counts
+&
+&
+!
 emitDebugResultChecks
 (
 *
