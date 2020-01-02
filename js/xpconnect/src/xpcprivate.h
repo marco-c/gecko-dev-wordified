@@ -14679,10 +14679,6 @@ JSContext
 cx
 REFNSIID
 aIID
-bool
-allowNonScriptable
-=
-false
 )
 ;
 REFNSIID
