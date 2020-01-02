@@ -1297,9 +1297,11 @@ constructor
 names
 .
 {
+static
 const
 char
 *
+const
 ctorStrs
 [
 NumCtors

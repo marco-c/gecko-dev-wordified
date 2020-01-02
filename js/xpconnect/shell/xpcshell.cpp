@@ -6133,6 +6133,7 @@ JSShellErr_Limit
 }
 JSShellErrNum
 ;
+const
 JSErrorFormatString
 jsShell_ErrorFormatString
 [

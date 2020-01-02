@@ -5475,6 +5475,7 @@ static
 const
 char
 *
+const
 mStrings
 [
 IDX_TOTAL_COUNT
