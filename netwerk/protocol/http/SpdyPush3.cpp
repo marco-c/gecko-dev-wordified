@@ -1302,6 +1302,15 @@ return
 0
 ;
 }
+void
+SpdyPush3TransactionBuffer
+:
+:
+SetDNSWasRefreshed
+(
+)
+{
+}
 uint64_t
 SpdyPush3TransactionBuffer
 :
