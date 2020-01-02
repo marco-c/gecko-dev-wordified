@@ -762,9 +762,6 @@ ImageLayer
 bool
 mImageSizeChanged
 ;
-bool
-mNeedInvalidation
-;
 }
 ;
 }
