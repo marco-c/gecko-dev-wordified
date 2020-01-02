@@ -100,17 +100,12 @@ nsPrintfCString_h___
 define
 nsPrintfCString_h___
 #
-ifndef
-nsString_h___
-#
 include
 "
 nsString
 .
 h
 "
-#
-endif
 /
 *
 *

@@ -100,9 +100,6 @@ nsAlgorithm_h___
 define
 nsAlgorithm_h___
 #
-ifndef
-nsCharTraits_h___
-#
 include
 "
 nsCharTraits
@@ -118,8 +115,6 @@ nsCharSourceTraits
 |
 nsCharSinkTraits
 |
-#
-endif
 template
 <
 class

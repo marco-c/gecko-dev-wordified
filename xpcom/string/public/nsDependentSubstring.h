@@ -119,17 +119,12 @@ nsDependentSubstring_h___
 define
 nsDependentSubstring_h___
 #
-ifndef
-nsSubstring_h___
-#
 include
 "
 nsSubstring
 .
 h
 "
-#
-endif
 /
 /
 declare

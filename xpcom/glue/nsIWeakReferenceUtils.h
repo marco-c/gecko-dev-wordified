@@ -98,17 +98,12 @@ nsIWeakReferenceUtils_h__
 define
 nsIWeakReferenceUtils_h__
 #
-ifndef
-nsCOMPtr_h__
-#
 include
 "
 nsCOMPtr
 .
 h
 "
-#
-endif
 #
 include
 "

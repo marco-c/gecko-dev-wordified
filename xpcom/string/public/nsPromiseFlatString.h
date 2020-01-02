@@ -119,17 +119,12 @@ nsPromiseFlatString_h___
 define
 nsPromiseFlatString_h___
 #
-ifndef
-nsString_h___
-#
 include
 "
 nsString
 .
 h
 "
-#
-endif
 /
 /
 declare

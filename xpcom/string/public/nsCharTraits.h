@@ -131,9 +131,6 @@ memcpy
 et
 al
 #
-ifndef
-nscore_h___
-#
 include
 "
 nscore
@@ -146,8 +143,6 @@ for
 |
 char16_t
 |
-#
-endif
 /
 /
 This
@@ -221,9 +216,6 @@ msg
 #
 else
 #
-ifndef
-nsDebug_h__
-#
 include
 "
 nsDebug
@@ -234,8 +226,6 @@ h
 /
 for
 NS_ASSERTION
-#
-endif
 #
 endif
 /
