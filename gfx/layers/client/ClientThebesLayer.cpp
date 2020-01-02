@@ -747,6 +747,11 @@ CreateContentClient
 ClientManager
 (
 )
+-
+>
+AsShadowForwarder
+(
+)
 )
 ;
 if
@@ -766,6 +771,11 @@ Connect
 )
 ;
 ClientManager
+(
+)
+-
+>
+AsShadowForwarder
 (
 )
 -
@@ -1121,6 +1131,11 @@ tiles
 )
 &
 &
+AsShadowForwarder
+(
+)
+-
+>
 GetCompositorBackendType
 (
 )
