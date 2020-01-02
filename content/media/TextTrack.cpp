@@ -413,6 +413,11 @@ double
 aTime
 )
 {
+if
+(
+mCueList
+)
+{
 mCueList
 -
 >
@@ -421,6 +426,7 @@ Update
 aTime
 )
 ;
+}
 }
 JSObject
 *
