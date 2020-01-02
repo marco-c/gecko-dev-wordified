@@ -9921,7 +9921,7 @@ else
 {
 #
 ifdef
-JS_THREADSAFE
+JS_WORKER_THREADS
 /
 *
 *
@@ -26122,7 +26122,7 @@ refillFreeList
 .
 #
 ifdef
-JS_THREADSAFE
+JS_WORKER_THREADS
 AutoLockWorkerThreadState
 lock
 (
@@ -26190,7 +26190,7 @@ exclusiveThreadsPresent
 {
 #
 ifdef
-JS_THREADSAFE
+JS_WORKER_THREADS
 AutoLockWorkerThreadState
 lock
 (

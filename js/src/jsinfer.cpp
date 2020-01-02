@@ -4192,6 +4192,13 @@ TempAllocator
 alloc
 )
 :
+failed_
+(
+false
+)
+#
+ifdef
+JS_ION
 constraints
 (
 alloc
@@ -4200,10 +4207,8 @@ frozenScripts
 (
 alloc
 )
-failed_
-(
-false
-)
+#
+endif
 {
 }
 void

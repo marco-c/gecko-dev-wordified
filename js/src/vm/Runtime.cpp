@@ -4186,7 +4186,7 @@ which
 {
 #
 ifdef
-JS_THREADSAFE
+JS_WORKER_THREADS
 /
 /
 In
