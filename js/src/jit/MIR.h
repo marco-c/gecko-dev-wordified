@@ -34464,6 +34464,15 @@ ObjectFields
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+;
 }
 ;
 class
