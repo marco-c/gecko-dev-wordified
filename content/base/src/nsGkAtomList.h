@@ -5145,13 +5145,6 @@ ondisconnecting
 )
 GK_ATOM
 (
-ondiscoverystatechanged
-"
-ondiscoverystatechanged
-"
-)
-GK_ATOM
-(
 ondownloading
 "
 ondownloading
