@@ -201,14 +201,8 @@ MOZ_FALSE
 '
         
 }
-)
-        
-self
-.
-substs
-.
-update
-(
+*
+*
 extra_substs
 )
         
