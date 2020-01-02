@@ -480,9 +480,6 @@ uint32_t
 segmentSize
 uint32_t
 maxSize
-nsIMemory
-*
-segmentAllocator
 )
 {
 mSegmentedBuffer
@@ -550,7 +547,6 @@ Init
 (
 segmentSize
 maxSize
-segmentAllocator
 )
 ;
 }
@@ -2786,7 +2782,6 @@ Init
 (
 segmentSize
 maxSize
-nullptr
 )
 ;
 if

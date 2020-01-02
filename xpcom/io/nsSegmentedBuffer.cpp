@@ -117,9 +117,6 @@ uint32_t
 segmentSize
 uint32_t
 maxSize
-nsIMemory
-*
-allocator
 )
 {
 if
