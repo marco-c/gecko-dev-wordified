@@ -170,6 +170,10 @@ AudioAvailableEventManager
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+AudioAvailableEventManager
+)
 AudioAvailableEventManager
 (
 MediaDecoder
