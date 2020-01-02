@@ -1758,7 +1758,6 @@ nullptr
 :
 ImageResource
 (
-aStatusTracker
 aURI
 )
 /
@@ -1789,6 +1788,15 @@ mHasPendingInvalidation
 false
 )
 {
+mStatusTrackerInit
+=
+new
+imgStatusTrackerInit
+(
+this
+aStatusTracker
+)
+;
 }
 VectorImage
 :

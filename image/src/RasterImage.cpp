@@ -2309,7 +2309,6 @@ nullptr
 :
 ImageResource
 (
-aStatusTracker
 aURI
 )
 /
@@ -2424,6 +2423,15 @@ mScaleRequest
 nullptr
 )
 {
+mStatusTrackerInit
+=
+new
+imgStatusTrackerInit
+(
+this
+aStatusTracker
+)
+;
 /
 /
 Set
@@ -2771,6 +2779,10 @@ UnlockImageData
 }
 delete
 mAnim
+;
+mAnim
+=
+nullptr
 ;
 delete
 mMultipartDecodedFrame
