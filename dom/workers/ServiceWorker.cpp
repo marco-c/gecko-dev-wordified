@@ -157,6 +157,13 @@ DOMEventTargetHelper
 (
 aWindow
 )
+mState
+(
+ServiceWorkerState
+:
+:
+Installing
+)
 mSharedWorker
 (
 aSharedWorker
