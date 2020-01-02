@@ -7025,7 +7025,7 @@ receivers
 }
 self
 .
-findThreadRecordByParticipants
+findThreadRecordByPlmnAddresses
 (
 threadStore
 participantStore
@@ -10355,7 +10355,7 @@ this
 )
 ;
 }
-findParticipantIdsByAddresses
+findParticipantIdsByPlmnAddresses
 :
 function
 (
@@ -10374,7 +10374,7 @@ DEBUG
 debug
 (
 "
-findParticipantIdsByAddresses
+findParticipantIdsByPlmnAddresses
 (
 "
 +
@@ -10420,7 +10420,7 @@ DEBUG
 debug
 (
 "
-findParticipantIdsByAddresses
+findParticipantIdsByPlmnAddresses
 :
 returning
 null
@@ -10488,7 +10488,7 @@ DEBUG
 debug
 (
 "
-findParticipantIdsByAddresses
+findParticipantIdsByPlmnAddresses
 :
 returning
 "
@@ -10540,7 +10540,7 @@ DEBUG
 debug
 (
 "
-findParticipantIdsByAddresses
+findParticipantIdsByPlmnAddresses
 :
 returning
 null
@@ -10599,7 +10599,7 @@ result
 )
 ;
 }
-findThreadRecordByParticipants
+findThreadRecordByPlmnAddresses
 :
 function
 (
@@ -10618,7 +10618,7 @@ DEBUG
 debug
 (
 "
-findThreadRecordByParticipants
+findThreadRecordByPlmnAddresses
 (
 "
 +
@@ -10642,7 +10642,7 @@ aCreateParticipants
 }
 this
 .
-findParticipantIdsByAddresses
+findParticipantIdsByPlmnAddresses
 (
 aParticipantStore
 aAddresses
@@ -10666,7 +10666,7 @@ DEBUG
 debug
 (
 "
-findThreadRecordByParticipants
+findThreadRecordByPlmnAddresses
 :
 returning
 null
@@ -10733,7 +10733,7 @@ DEBUG
 debug
 (
 "
-findThreadRecordByParticipants
+findThreadRecordByPlmnAddresses
 :
 return
 "
@@ -11579,7 +11579,7 @@ this
 ;
 this
 .
-findThreadRecordByParticipants
+findThreadRecordByPlmnAddresses
 (
 aThreadStore
 aParticipantStore
@@ -19185,7 +19185,7 @@ PARTICIPANT_STORE_NAME
 ;
 mmdb
 .
-findParticipantIdsByAddresses
+findParticipantIdsByPlmnAddresses
 (
 participantStore
 filter
