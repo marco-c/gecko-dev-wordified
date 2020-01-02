@@ -204,6 +204,12 @@ top
 "
 ]
 {
+background
+-
+image
+:
+none
+;
 box
 -
 shadow
@@ -211,7 +217,7 @@ shadow
 0
 -
 1px
-1px
+0
 rgba
 (
 0

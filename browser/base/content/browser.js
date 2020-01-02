@@ -5361,6 +5361,17 @@ gBrowser
 addEventListener
 (
 "
+PluginRemoved
+"
+gPluginHandler
+true
+)
+;
+gBrowser
+.
+addEventListener
+(
+"
 NewPluginInstalled
 "
 gPluginHandler
@@ -15881,8 +15892,10 @@ AboutHomeUtils
 snippetsVersion
 )
 ;
-function
+let
 updateSearchEngine
+=
+function
 (
 )
 {
@@ -15918,6 +15931,7 @@ searchURL
 )
 ;
 }
+;
 updateSearchEngine
 (
 )
