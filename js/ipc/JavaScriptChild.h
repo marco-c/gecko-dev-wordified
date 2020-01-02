@@ -570,7 +570,7 @@ JSRuntime
 *
 rt_
 ;
-ObjectIdCache
+ObjectToIdMap
 ids_
 ;
 }
