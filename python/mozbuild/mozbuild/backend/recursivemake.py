@@ -132,6 +132,8 @@ InstallationTarget
     
 IPDLFile
     
+JARManifest
+    
 JavaJarData
     
 LibraryDefinition
@@ -2832,6 +2834,33 @@ obj
 .
 exports
 backend_file
+)
+        
+elif
+isinstance
+(
+obj
+JARManifest
+)
+:
+            
+backend_file
+.
+write
+(
+'
+JAR_MANIFEST
+:
+=
+%
+s
+\
+n
+'
+%
+obj
+.
+path
 )
         
 elif
