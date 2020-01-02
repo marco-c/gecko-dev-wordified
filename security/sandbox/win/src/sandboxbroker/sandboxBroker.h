@@ -183,12 +183,13 @@ SandboxBroker
 ;
 private
 :
+static
 sandbox
 :
 :
 BrokerServices
 *
-mBrokerService
+sBrokerService
 ;
 }
 ;
