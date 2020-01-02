@@ -1021,6 +1021,10 @@ const
 uint32_t
 &
 aValue
+const
+bool
+&
+aForce
 )
 MOZ_OVERRIDE
 ;

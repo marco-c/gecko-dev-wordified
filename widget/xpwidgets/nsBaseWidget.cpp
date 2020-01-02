@@ -816,6 +816,10 @@ mCursor
 (
 eCursor_standard
 )
+mUpdateCursor
+(
+true
+)
 mBorderStyle
 (
 eBorderStyle_none
