@@ -226,7 +226,7 @@ aPastEnd
 may
 point
 to
-NULL
+null
 terminator
 )
 /

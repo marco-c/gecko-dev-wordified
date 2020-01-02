@@ -564,11 +564,11 @@ kRemoteCIDs
 &
 kNS_REMOTESERVICE_CID
 false
-NULL
+nullptr
 nsQtRemoteServiceConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -604,7 +604,7 @@ service
 kNS_REMOTESERVICE_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

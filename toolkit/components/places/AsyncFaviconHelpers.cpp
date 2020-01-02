@@ -670,7 +670,7 @@ rv
 favicon_id
 can
 be
-NULL
+nullptr
 .
 if
 (
@@ -1565,7 +1565,7 @@ rv
 Expiration
 can
 be
-NULL
+nullptr
 .
 bool
 isNull
@@ -1627,7 +1627,7 @@ rv
 Data
 can
 be
-NULL
+nullptr
 .
 rv
 =

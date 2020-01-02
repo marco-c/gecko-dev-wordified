@@ -443,7 +443,7 @@ gFaviconService
 NS_IMPL_CLASSINFO
 (
 nsFaviconService
-NULL
+nullptr
 0
 NS_FAVICONSERVICE_CID
 )

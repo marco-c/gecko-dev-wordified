@@ -1167,7 +1167,7 @@ set
 aside
 space
 for
-NULL
+null
 termination
 .
 PL_Base64Encode
@@ -1175,13 +1175,13 @@ PL_Base64Encode
 /
 will
 not
-NULL
+null
 terminate
 however
 nsCStrings
 must
 be
-NULL
+null
 terminated
 .
 As

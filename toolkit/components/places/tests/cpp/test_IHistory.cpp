@@ -3267,7 +3267,7 @@ history
 VisitURI
 (
 visitedURI
-NULL
+nullptr
 mozilla
 :
 :
@@ -3452,7 +3452,7 @@ we
 have
 had
 two
-NULL
+nullptr
 Links
 passed
 to
@@ -3507,7 +3507,7 @@ history
 RegisterVisitedCallback
 (
 testURI
-NULL
+nullptr
 )
 ;
 do_check_success
@@ -3523,7 +3523,7 @@ history
 RegisterVisitedCallback
 (
 testURI
-NULL
+nullptr
 )
 ;
 do_check_success
@@ -3539,7 +3539,7 @@ history
 VisitURI
 (
 testURI
-NULL
+nullptr
 mozilla
 :
 :

@@ -531,7 +531,7 @@ creates
 one
 .
 Returns
-NULL
+nullptr
 on
 error
 .
@@ -627,7 +627,7 @@ if
 it
 exists
 *
-NULL
+nullptr
 otherwise
 .
 *
@@ -2358,7 +2358,7 @@ note
 If
 mPrefBranch
 is
-NULL
+nullptr
 this
 does
 nothing

@@ -719,7 +719,7 @@ nsIURI
 *
 aReferrer
 =
-NULL
+nullptr
 )
 :
 placeId
@@ -4506,7 +4506,7 @@ mozIVisitInfoCallback
 *
 aCallback
 =
-NULL
+nullptr
 )
 {
 nsNavHistory
@@ -4791,7 +4791,7 @@ mozIVisitInfoCallback
 *
 aCallback
 =
-NULL
+nullptr
 )
 {
 MOZ_ASSERT
@@ -4989,7 +4989,7 @@ VisitData
 *
 lastPlace
 =
-NULL
+nullptr
 ;
 for
 (
@@ -10890,7 +10890,7 @@ mozIVisitInfoCallback
 *
 aCallback
 =
-NULL
+nullptr
 )
 {
 MOZ_ASSERT
@@ -11302,7 +11302,7 @@ History
 :
 gService
 =
-NULL
+nullptr
 ;
 History
 :
@@ -14768,7 +14768,7 @@ we
 are
 passed
 a
-NULL
+nullptr
 Link
 from
 /
@@ -14786,9 +14786,9 @@ t
 be
 adding
 a
-NULL
 /
 /
+nullptr
 entry
 to
 our
@@ -14801,15 +14801,15 @@ code
 after
 this
 point
+/
+/
 assumes
-/
-/
 that
 aLink
 is
 non
 -
-NULL
+nullptr
 we
 will
 need
@@ -14867,7 +14867,7 @@ we
 are
 passed
 a
-NULL
+nullptr
 Link
 from
 /
@@ -14891,7 +14891,7 @@ aLink
 is
 non
 -
-NULL
+nullptr
 so
 we
 have

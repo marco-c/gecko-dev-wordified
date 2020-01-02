@@ -199,7 +199,7 @@ nsGTKRemoteService
 :
 mServerWindow
 (
-NULL
+nullptr
 )
 {
 }
