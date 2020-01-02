@@ -4275,13 +4275,6 @@ sBackgroundColorAttributeMap
 [
 ]
 ;
-static
-const
-MappedAttributeEntry
-sScrollingAttributeMap
-[
-]
-;
 /
 *
 *
