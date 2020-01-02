@@ -1635,7 +1635,13 @@ id
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 idval
 (
 cx

@@ -361,7 +361,11 @@ aCx
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aTarget
 JS
 :

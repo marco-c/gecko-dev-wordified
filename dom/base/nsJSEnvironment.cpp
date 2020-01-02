@@ -3002,7 +3002,11 @@ XPConnect
 JS
 :
 :
-RootedScript
+Rooted
+<
+JSScript
+*
+>
 script
 (
 cx

@@ -368,7 +368,11 @@ aCx
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aScope
 )
 {

@@ -55992,7 +55992,11 @@ debug
 JS
 :
 :
-RootedScript
+Rooted
+<
+JSScript
+*
+>
 script
 (
 cx

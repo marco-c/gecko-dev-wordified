@@ -6093,7 +6093,13 @@ else
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 idval
 (
 cx
@@ -17786,7 +17792,10 @@ obj_
 JS
 :
 :
-RootedId
+Rooted
+<
+jsid
+>
 id
 (
 cx

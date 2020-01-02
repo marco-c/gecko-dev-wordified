@@ -3825,7 +3825,11 @@ lineNum
 JS
 :
 :
-RootedScript
+Rooted
+<
+JSScript
+*
+>
 script
 (
 aCx

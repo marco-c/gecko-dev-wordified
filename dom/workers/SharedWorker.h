@@ -324,7 +324,11 @@ aCx
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aScope
 )
 MOZ_OVERRIDE
@@ -412,7 +416,13 @@ aCx
 JS
 :
 :
-HandleValue
+Handle
+<
+JS
+:
+:
+Value
+>
 aMessage
 const
 Optional

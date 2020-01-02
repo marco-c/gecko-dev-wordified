@@ -773,7 +773,11 @@ pending
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 obj
 (
 cx

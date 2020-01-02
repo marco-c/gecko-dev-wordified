@@ -243,7 +243,11 @@ with
 JS
 :
 :
-RootedString
+Rooted
+<
+JSString
+*
+>
 str
 (
 cx

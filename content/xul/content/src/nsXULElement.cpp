@@ -15891,7 +15891,11 @@ SAVE_SOURCE
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 scope
 (
 cx

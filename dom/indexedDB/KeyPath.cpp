@@ -306,7 +306,11 @@ happen
 JS
 :
 :
-RootedString
+Rooted
+<
+JSString
+*
+>
 str
 (
 aCx
@@ -2031,7 +2035,11 @@ Length
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 arrayObj
 (
 aCx

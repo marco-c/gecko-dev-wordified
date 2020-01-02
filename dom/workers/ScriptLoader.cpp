@@ -3644,7 +3644,11 @@ true
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 global
 (
 aCx

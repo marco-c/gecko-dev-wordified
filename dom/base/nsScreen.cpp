@@ -1318,7 +1318,11 @@ NS_ERROR_FAILURE
 JS
 :
 :
-RootedString
+Rooted
+<
+JSString
+*
+>
 jsString
 (
 aCx
@@ -1392,7 +1396,11 @@ ErrorCode
 JS
 :
 :
-RootedString
+Rooted
+<
+JSString
+*
+>
 jsString
 (
 aCx

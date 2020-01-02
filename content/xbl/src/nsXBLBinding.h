@@ -567,7 +567,10 @@ aCx
 JS
 :
 :
-HandleId
+Handle
+<
+jsid
+>
 aId
 JS
 :
@@ -635,7 +638,10 @@ aName
 JS
 :
 :
-HandleId
+Handle
+<
+jsid
+>
 aNameAsId
 JS
 :

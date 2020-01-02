@@ -515,7 +515,11 @@ protected
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 mGlobalJSObject
 ;
 JSContext

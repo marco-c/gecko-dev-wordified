@@ -836,7 +836,11 @@ scope
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 propertyHolder
 (
 cx
@@ -1933,7 +1937,10 @@ aName
 JS
 :
 :
-HandleId
+Handle
+<
+jsid
+>
 aNameAsId
 JS
 :
