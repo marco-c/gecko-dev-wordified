@@ -115,9 +115,6 @@ vm_Compression_h
 define
 vm_Compression_h
 #
-ifdef
-USE_ZLIB
-#
 include
 <
 zlib
@@ -313,13 +310,6 @@ outlen
 *
 namespace
 js
-*
-/
-#
-endif
-/
-*
-USE_ZLIB
 *
 /
 #

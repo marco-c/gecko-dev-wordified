@@ -130,9 +130,6 @@ using
 namespace
 js
 ;
-#
-if
-USE_ZLIB
 static
 void
 *
@@ -780,10 +777,3 @@ return
 true
 ;
 }
-#
-endif
-/
-*
-USE_ZLIB
-*
-/
