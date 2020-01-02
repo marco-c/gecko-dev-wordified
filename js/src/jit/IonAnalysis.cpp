@@ -392,6 +392,14 @@ info
 block
 )
 ;
+if
+(
+!
+split
+)
+return
+false
+;
 split
 -
 >
