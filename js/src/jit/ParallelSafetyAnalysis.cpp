@@ -902,7 +902,7 @@ UNSAFE_OP
 (
 TypeOf
 )
-SAFE_OP
+UNSAFE_OP
 (
 ToId
 )
