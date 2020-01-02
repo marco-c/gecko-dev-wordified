@@ -287,13 +287,6 @@ attrs
 defStyle
 )
 ;
-setWeightSum
-(
-3
-.
-0f
-)
-;
 Resources
 res
 =
