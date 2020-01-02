@@ -11345,16 +11345,9 @@ scheduleEventListenersFetch
 msg
 )
 ;
-deferred
-.
-reject
-(
-msg
-)
-;
-return
-;
 }
+else
+{
 aListener
 .
 function
@@ -11365,6 +11358,7 @@ aResponse
 .
 url
 ;
+}
 deferred
 .
 resolve
