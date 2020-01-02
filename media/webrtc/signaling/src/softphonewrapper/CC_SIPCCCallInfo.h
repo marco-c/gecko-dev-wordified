@@ -487,6 +487,15 @@ getSDP
 )
 ;
 virtual
+std
+:
+:
+string
+getCandidate
+(
+)
+;
+virtual
 cc_int32_t
 getStatusCode
 (
