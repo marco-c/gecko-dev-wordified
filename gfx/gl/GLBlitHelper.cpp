@@ -4571,7 +4571,7 @@ Screen
 )
 -
 >
-BindDrawFB_Internal
+BindFB_Internal
 (
 destFB
 )
@@ -4582,7 +4582,7 @@ else
 mGL
 -
 >
-BindDrawFB
+BindFB
 (
 destFB
 )
@@ -4812,7 +4812,7 @@ Screen
 )
 -
 >
-BindReadFB_Internal
+BindFB_Internal
 (
 srcFB
 )
@@ -4823,7 +4823,7 @@ else
 mGL
 -
 >
-BindReadFB
+BindFB
 (
 srcFB
 )

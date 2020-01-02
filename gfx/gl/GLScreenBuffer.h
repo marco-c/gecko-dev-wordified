@@ -1398,6 +1398,13 @@ default
 framebuffer
 .
 void
+BindFB_Internal
+(
+GLuint
+fb
+)
+;
+void
 BindDrawFB_Internal
 (
 GLuint
