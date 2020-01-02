@@ -656,17 +656,6 @@ nsReflowStatus
 aStatus
 )
 ;
-void
-PositionItemInMainAxis
-(
-MainAxisPositionTracker
-&
-aMainAxisPosnTracker
-FlexItem
-&
-aItem
-)
-;
 nsresult
 SizeItemInCrossAxis
 (
