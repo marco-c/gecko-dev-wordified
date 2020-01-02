@@ -400,6 +400,8 @@ sError
 false
 ;
 }
+private
+:
 ~
 UnownedCallback
 (
@@ -415,6 +417,8 @@ mDBConn
 )
 ;
 }
+public
+:
 NS_IMETHOD
 HandleResult
 (

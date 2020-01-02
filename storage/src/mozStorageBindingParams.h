@@ -331,6 +331,8 @@ Statement
 aOwningStatement
 )
 ;
+protected
+:
 virtual
 ~
 BindingParams
@@ -338,8 +340,6 @@ BindingParams
 )
 {
 }
-protected
-:
 BindingParams
 (
 mozIStorageBindingParamsArray

@@ -173,6 +173,12 @@ aStatement
 ;
 protected
 :
+~
+StatementRow
+(
+)
+{
+}
 Statement
 *
 mStatement

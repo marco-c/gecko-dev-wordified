@@ -165,11 +165,6 @@ ResultSet
 (
 )
 ;
-~
-ResultSet
-(
-)
-;
 /
 *
 *
@@ -224,6 +219,11 @@ Count
 }
 private
 :
+~
+ResultSet
+(
+)
+;
 /
 *
 *

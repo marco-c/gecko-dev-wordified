@@ -170,6 +170,12 @@ NS_DECL_ISUPPORTS
 NS_DECL_MOZISTORAGEVALUEARRAY
 private
 :
+~
+ArgValueArray
+(
+)
+{
+}
 uint32_t
 mArgc
 ;
