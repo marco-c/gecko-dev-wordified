@@ -262,6 +262,8 @@ MetaData
 getMetaData
 (
 )
+=
+0
 ;
 enum
 Flags
@@ -331,6 +333,8 @@ flags
 (
 )
 const
+=
+0
 ;
 /
 /
