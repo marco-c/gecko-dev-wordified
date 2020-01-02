@@ -444,6 +444,15 @@ return
 NS_OK
 ;
 }
+NS_IMETHODIMP
+WindowVolumeChanged
+(
+)
+{
+return
+NS_OK
+;
+}
 nsresult
 GetCanPlay
 (
