@@ -3154,12 +3154,6 @@ splitTagForTest
 value
 )
 ;
-Assembler
-:
-:
-Condition
-cond
-;
 /
 /
 Eventually
