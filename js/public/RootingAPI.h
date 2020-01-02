@@ -1035,9 +1035,6 @@ pointers
 namespace
 js
 {
-class
-ScriptSourceObject
-;
 template
 <
 typename

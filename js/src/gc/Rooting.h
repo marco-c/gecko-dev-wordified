@@ -136,6 +136,9 @@ class
 PropertyName
 ;
 class
+ScriptSourceObject
+;
+class
 Shape
 ;
 namespace
@@ -223,9 +226,6 @@ JS
 :
 Handle
 <
-js
-:
-:
 ScriptSourceObject
 *
 >
@@ -317,9 +317,6 @@ JS
 :
 Rooted
 <
-js
-:
-:
 ScriptSourceObject
 *
 >

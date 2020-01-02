@@ -5354,10 +5354,9 @@ objp
 JS
 :
 :
-ExposeGCThingToActiveJS
+ExposeObjectToActiveJS
 (
 objp
-JSTRACE_OBJECT
 )
 ;
 return

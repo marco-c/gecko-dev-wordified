@@ -136,6 +136,9 @@ LazyScript
 class
 LifoAlloc
 ;
+class
+ScriptSourceObject
+;
 struct
 SourceCompressionTask
 ;

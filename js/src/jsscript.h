@@ -1804,17 +1804,10 @@ bindings
 return
 IsPoisonedPtr
 (
-static_cast
-<
-Shape
-*
->
-(
 bindings
 .
 callObjShape
 (
-)
 )
 )
 ;
