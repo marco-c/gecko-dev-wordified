@@ -5084,6 +5084,14 @@ nsChangeHint_RecomputePosition
 didReflowThisFrame
 )
 {
+ActiveLayerTracker
+:
+:
+NotifyOffsetRestyle
+(
+frame
+)
+;
 /
 /
 It
