@@ -170,6 +170,9 @@ nsIInputStream
 ;
 BEGIN_FILE_NAMESPACE
 class
+DOMFileRequest
+;
+class
 FileHandle
 ;
 class
@@ -352,7 +355,7 @@ OnRequestFinished
 inline
 already_AddRefed
 <
-FileRequest
+DOMFileRequest
 >
 GenerateFileRequest
 (
