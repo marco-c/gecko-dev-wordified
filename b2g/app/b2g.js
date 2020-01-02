@@ -10343,7 +10343,7 @@ true
 ;
 /
 /
-Enable
+Disable
 touch
 caret
 by
@@ -10355,7 +10355,7 @@ touchcaret
 .
 enabled
 "
-true
+false
 )
 ;
 /
