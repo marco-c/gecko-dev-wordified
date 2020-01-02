@@ -58,7 +58,7 @@ marionette_test
 import
 MarionetteTestCase
 from
-marionette
+errors
 import
 NoSuchElementException
 class

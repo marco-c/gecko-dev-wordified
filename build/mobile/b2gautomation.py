@@ -1486,6 +1486,11 @@ emulator
 .
 wait_for_port
 (
+self
+.
+marionette
+.
+port
 )
     
 def
@@ -2153,6 +2158,11 @@ emulator
 .
 wait_for_port
 (
+self
+.
+marionette
+.
+port
 )
         
 else

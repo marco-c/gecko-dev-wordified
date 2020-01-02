@@ -62,7 +62,7 @@ keys
 import
 Keys
 from
-marionette
+errors
 import
 ElementNotVisibleException
 class

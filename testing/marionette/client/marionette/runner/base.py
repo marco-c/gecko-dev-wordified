@@ -2817,7 +2817,7 @@ store
 dest
 =
 '
-emulatorBinary
+emulator_binary
 '
                         
 help
@@ -2860,7 +2860,7 @@ store
 dest
 =
 '
-emulatorImg
+emulator_img
 '
                         
 help
@@ -2987,7 +2987,7 @@ store_true
 dest
 =
 '
-noWindow
+no_window
 '
                         
 default
@@ -3029,7 +3029,7 @@ dir
 dest
 =
 '
-logcat_dir
+logdir
 '
                         
 action
@@ -3538,50 +3538,6 @@ help
 '
 xml
 output
-'
-)
-        
-self
-.
-add_option
-(
-'
--
--
-gecko
--
-path
-'
-                        
-dest
-=
-'
-gecko_path
-'
-                        
-action
-=
-'
-store
-'
-                        
-help
-=
-'
-path
-to
-b2g
-gecko
-binaries
-that
-should
-be
-installed
-on
-the
-device
-or
-emulator
 '
 )
         
@@ -4369,12 +4325,12 @@ and
 not
 options
 .
-logcat_dir
+logdir
 :
             
 options
 .
-logcat_dir
+logdir
 =
 '
 logcat
@@ -4666,11 +4622,11 @@ None
 emulator
 =
 None
-emulatorBinary
+emulator_binary
 =
 None
                  
-emulatorImg
+emulator_img
 =
 None
 emulator_res
@@ -4709,11 +4665,11 @@ testgroup
 "
 marionette
 "
-noWindow
+no_window
 =
 False
                  
-logcat_dir
+logdir
 =
 None
 xml_output
@@ -4722,9 +4678,6 @@ None
 repeat
 =
 0
-gecko_path
-=
-None
                  
 testvars
 =
@@ -4804,15 +4757,15 @@ emulator
         
 self
 .
-emulatorBinary
+emulator_binary
 =
-emulatorBinary
+emulator_binary
         
 self
 .
-emulatorImg
+emulator_img
 =
-emulatorImg
+emulator_img
         
 self
 .
@@ -4879,9 +4832,9 @@ logger
         
 self
 .
-noWindow
+no_window
 =
-noWindow
+no_window
         
 self
 .
@@ -4897,9 +4850,9 @@ None
         
 self
 .
-logcat_dir
+logdir
 =
-logcat_dir
+logdir
         
 self
 .
@@ -4912,12 +4865,6 @@ self
 repeat
 =
 repeat
-        
-self
-.
-gecko_path
-=
-gecko_path
         
 self
 .
@@ -5229,7 +5176,7 @@ StreamHandler
 if
 self
 .
-logcat_dir
+logdir
 :
             
 if
@@ -5240,7 +5187,7 @@ access
 (
 self
 .
-logcat_dir
+logdir
 os
 .
 F_OK
@@ -5253,7 +5200,7 @@ mkdir
 (
 self
 .
-logcat_dir
+logdir
 )
         
 #
@@ -5755,20 +5702,12 @@ self
 homedir
                 
 '
-logcat_dir
+logdir
 '
 :
 self
 .
-logcat_dir
-                
-'
-gecko_path
-'
-:
-self
-.
-gecko_path
+logdir
             
 }
 )
@@ -5942,20 +5881,20 @@ self
 emulator
                 
 '
-emulatorBinary
+emulator_binary
 '
 :
 self
 .
-emulatorBinary
+emulator_binary
                 
 '
-emulatorImg
+emulator_img
 '
 :
 self
 .
-emulatorImg
+emulator_img
                 
 '
 emulator_res
@@ -5966,12 +5905,12 @@ self
 emulator_res
                 
 '
-noWindow
+no_window
 '
 :
 self
 .
-noWindow
+no_window
                 
 '
 sdcard
@@ -6057,7 +5996,7 @@ abspath
 (
 self
 .
-logcat_dir
+logdir
 )
                                     
 "
