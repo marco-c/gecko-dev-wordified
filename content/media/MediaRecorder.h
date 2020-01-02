@@ -172,6 +172,9 @@ ProcessedMediaStream
 class
 MediaInputPort
 ;
+struct
+MediaRecorderOptions
+;
 namespace
 dom
 {
@@ -626,6 +629,10 @@ aGlobal
 DOMMediaStream
 &
 aStream
+const
+MediaRecorderOptions
+&
+aInitDict
 ErrorResult
 &
 aRv
