@@ -1570,6 +1570,11 @@ JSObject
 aGlobal
 )
 ;
+#
+endif
+/
+/
+MOZ_B2G_RIL
 static
 bool
 HasWifiManagerSupport
@@ -1586,11 +1591,6 @@ JSObject
 aGlobal
 )
 ;
-#
-endif
-/
-/
-MOZ_B2G_RIL
 #
 ifdef
 MOZ_B2G_BT

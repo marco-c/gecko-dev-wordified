@@ -9468,6 +9468,11 @@ mobileconnection
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_B2G_RIL
 /
 *
 static
@@ -9591,11 +9596,6 @@ ALLOW_ACTION
 permission
 ;
 }
-#
-endif
-/
-/
-MOZ_B2G_RIL
 #
 ifdef
 MOZ_B2G_BT
