@@ -4062,6 +4062,11 @@ ObjectImpl
 DeclMarkerImpl
 (
 Object
+SavedFrame
+)
+DeclMarkerImpl
+(
+Object
 ScopeObject
 )
 DeclMarkerImpl
