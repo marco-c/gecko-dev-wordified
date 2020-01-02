@@ -1304,11 +1304,6 @@ false
 ;
 mChromeOnlyContent
 =
-IsChrome
-(
-)
-&
-&
 mBinding
 -
 >
