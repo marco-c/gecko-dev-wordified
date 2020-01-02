@@ -1382,7 +1382,7 @@ as
 needed
 Maybe
 <
-nsString
+nsAutoString
 >
 mString
 ;
