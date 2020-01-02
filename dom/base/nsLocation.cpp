@@ -472,11 +472,6 @@ nsLocation
 )
 {
 }
-DOMCI_DATA
-(
-Location
-nsLocation
-)
 /
 /
 QueryInterface
@@ -495,10 +490,6 @@ nsIDOMLocation
 NS_INTERFACE_MAP_ENTRY
 (
 nsISupports
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-Location
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
