@@ -559,6 +559,14 @@ msg
 true
 )
 ;
+msg
+.
+originalTarget
+=
+msg
+.
+target
+;
 this
 .
 _eventQueue
@@ -774,7 +782,7 @@ data
 ;
 msg
 .
-target
+originalTarget
 .
 removeEventListener
 (
