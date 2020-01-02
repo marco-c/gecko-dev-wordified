@@ -2210,13 +2210,6 @@ InlineBackgroundData
 (
 )
 ;
-nsCSSBorderRenderer
-:
-:
-Init
-(
-)
-;
 }
 /
 /
@@ -2243,13 +2236,6 @@ gInlineBGData
 gInlineBGData
 =
 nullptr
-;
-nsCSSBorderRenderer
-:
-:
-Shutdown
-(
-)
 ;
 }
 /
