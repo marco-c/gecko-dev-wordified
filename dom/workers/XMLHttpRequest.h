@@ -921,6 +921,8 @@ const
 StateData
 &
 aStateData
+bool
+aUseCachedArrayBufferResponse
 )
 ;
 void
