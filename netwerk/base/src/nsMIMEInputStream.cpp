@@ -1498,7 +1498,7 @@ stream
 =
 do_QueryInterface
 (
-mStream
+mData
 )
 ;
 MOZ_ASSERT
