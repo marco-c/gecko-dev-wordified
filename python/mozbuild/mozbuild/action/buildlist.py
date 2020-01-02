@@ -104,9 +104,11 @@ sys
 import
 os
 from
-utils
+mozbuild
+.
+util
 import
-lockFile
+lock_file
 def
 addEntriesToListFile
 (
@@ -153,7 +155,7 @@ present
   
 lock
 =
-lockFile
+lock_file
 (
 listFile
 +
