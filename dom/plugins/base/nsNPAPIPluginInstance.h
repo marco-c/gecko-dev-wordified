@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsIPluginTagInfo
+nsIPluginInstanceOwner
 .
 h
 "
