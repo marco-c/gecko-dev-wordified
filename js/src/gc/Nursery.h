@@ -746,9 +746,6 @@ HeapSlot
 *
 allocateSlots
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -773,9 +770,6 @@ ObjectElements
 *
 allocateElements
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -797,9 +791,6 @@ HeapSlot
 *
 reallocateSlots
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -826,9 +817,6 @@ ObjectElements
 *
 reallocateElements
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -853,9 +841,6 @@ array
 void
 freeSlots
 (
-JSContext
-*
-cx
 HeapSlot
 *
 slots
@@ -1826,9 +1811,12 @@ HeapSlot
 *
 allocateHugeSlots
 (
-JSContext
+JS
+:
+:
+Zone
 *
-cx
+zone
 size_t
 nslots
 )
