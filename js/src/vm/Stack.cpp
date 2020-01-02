@@ -7944,7 +7944,7 @@ snapshotIterator
 (
 )
 .
-numAllocations
+allocations
 (
 )
 -
