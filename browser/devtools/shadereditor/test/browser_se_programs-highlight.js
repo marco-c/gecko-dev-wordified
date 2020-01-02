@@ -398,7 +398,7 @@ canvas2
 ;
 ShadersListView
 .
-_onProgramMouseEnter
+_onShaderMouseEnter
 (
 {
 target
@@ -559,7 +559,7 @@ highlighted
 ;
 ShadersListView
 .
-_onProgramMouseLeave
+_onShaderMouseLeave
 (
 {
 target
@@ -574,7 +574,7 @@ panel
 ;
 ShadersListView
 .
-_onProgramMouseEnter
+_onShaderMouseEnter
 (
 {
 target
@@ -735,7 +735,7 @@ highlighted
 ;
 ShadersListView
 .
-_onProgramMouseLeave
+_onShaderMouseLeave
 (
 {
 target
@@ -896,7 +896,7 @@ unhighlighted
 ;
 ShadersListView
 .
-_onProgramMouseEnter
+_onShaderMouseEnter
 (
 {
 target
@@ -1062,7 +1062,7 @@ checkbox
 ;
 ShadersListView
 .
-_onProgramMouseLeave
+_onShaderMouseLeave
 (
 {
 target
