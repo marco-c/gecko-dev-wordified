@@ -444,6 +444,15 @@ include
 "
 mozilla
 /
+NullPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IntentionalCrash
 .
 h

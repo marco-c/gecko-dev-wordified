@@ -311,6 +311,15 @@ assert
 .
 h
 >
+#
+include
+"
+mozilla
+/
+NullPtr
+.
+h
+"
 NPUTF8
 *
 createCStringFromNPVariant
