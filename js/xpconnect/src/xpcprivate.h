@@ -23426,6 +23426,9 @@ obj
 )
 ;
 bool
+indexedDB
+;
+bool
 XMLHttpRequest
 ;
 bool

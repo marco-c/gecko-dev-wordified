@@ -190,7 +190,6 @@ AlarmDB
 function
 AlarmDB
 (
-aGlobal
 )
 {
 debug
@@ -201,12 +200,6 @@ AlarmDB
 )
 "
 )
-;
-this
-.
-_global
-=
-aGlobal
 ;
 }
 AlarmDB
@@ -224,7 +217,6 @@ init
 function
 init
 (
-aGlobal
 )
 {
 debug
@@ -245,7 +237,6 @@ ALARMDB_VERSION
 [
 ALARMSTORE_NAME
 ]
-aGlobal
 )
 ;
 }

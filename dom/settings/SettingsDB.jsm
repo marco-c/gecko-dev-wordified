@@ -1678,7 +1678,6 @@ init
 function
 init
 (
-aGlobal
 )
 {
 this
@@ -1690,7 +1689,6 @@ SETTINGSDB_VERSION
 [
 SETTINGSSTORE_NAME
 ]
-aGlobal
 )
 ;
 }

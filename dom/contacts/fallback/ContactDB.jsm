@@ -8481,10 +8481,6 @@ lowerCase
 let
 range
 =
-this
-.
-dbGlobal
-.
 IDBKeyRange
 .
 bound
@@ -8922,7 +8918,6 @@ init
 function
 init
 (
-aGlobal
 )
 {
 this
@@ -8936,7 +8931,6 @@ STORE_NAME
 SAVED_GETALL_STORE_NAME
 REVISION_STORE
 ]
-aGlobal
 )
 ;
 }
