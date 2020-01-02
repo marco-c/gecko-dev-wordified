@@ -973,6 +973,15 @@ return
 mSize
 ;
 }
+virtual
+void
+SetPermitSubpixelAA
+(
+bool
+aPermitSubpixelAA
+)
+MOZ_OVERRIDE
+;
 /
 *
 This
