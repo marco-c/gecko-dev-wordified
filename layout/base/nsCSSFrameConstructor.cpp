@@ -2865,7 +2865,7 @@ nullptr
 }
 static
 void
-SetFrameIsSpecial
+SetFrameIsIBSplit
 (
 nsIFrame
 *
@@ -42465,7 +42465,7 @@ frame
 itself
 .
 bool
-parentSpecial
+parentIBSplit
 =
 IsFramePartOfIBSplit
 (
@@ -42474,7 +42474,7 @@ parentFrame
 ;
 if
 (
-parentSpecial
+parentIBSplit
 )
 {
 #
@@ -43219,7 +43219,7 @@ haveFirstLineStyle
 &
 &
 !
-parentSpecial
+parentIBSplit
 )
 {
 items
@@ -69581,7 +69581,7 @@ blockFrame
 blockKids
 )
 ;
-SetFrameIsSpecial
+SetFrameIsIBSplit
 (
 lastNewInline
 blockFrame
@@ -69698,7 +69698,7 @@ inlineKids
 )
 ;
 }
-SetFrameIsSpecial
+SetFrameIsIBSplit
 (
 blockFrame
 inlineFrame
@@ -69725,7 +69725,7 @@ NotEmpty
 )
 )
 ;
-SetFrameIsSpecial
+SetFrameIsIBSplit
 (
 lastNewInline
 nullptr
@@ -70503,7 +70503,7 @@ inline
 .
 static
 bool
-IsSafeToAppendToSpecialInline
+IsSafeToAppendToIBSplitInline
 (
 nsIFrame
 *
@@ -73011,7 +73011,7 @@ if
 aIsAppend
 &
 &
-IsSafeToAppendToSpecialInline
+IsSafeToAppendToIBSplitInline
 (
 aFrame
 nextSibling

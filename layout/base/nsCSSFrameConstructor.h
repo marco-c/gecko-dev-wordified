@@ -10514,7 +10514,7 @@ responsible
 for
 making
 any
-SetFrameIsSpecial
+SetFrameIsIBSplit
 calls
 that
 are

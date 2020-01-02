@@ -47636,7 +47636,7 @@ property
 /
 nsIFrame
 *
-specialSibling
+ibSplitSibling
 =
 static_cast
 <
@@ -47664,7 +47664,7 @@ IBSplitPrevSibling
 ;
 NS_ASSERTION
 (
-specialSibling
+ibSplitSibling
 "
 Broken
 frame
@@ -47674,7 +47674,7 @@ tree
 )
 ;
 return
-specialSibling
+ibSplitSibling
 ;
 }
 /
@@ -48473,7 +48473,7 @@ NS_FRAME_PART_OF_IBSPLIT
 {
 nsIFrame
 *
-specialSibling
+ibSplitSibling
 =
 GetIBSplitSiblingForAnonymousBlock
 (
@@ -48482,11 +48482,11 @@ this
 ;
 if
 (
-specialSibling
+ibSplitSibling
 )
 {
 return
-specialSibling
+ibSplitSibling
 ;
 }
 }
