@@ -210,6 +210,17 @@ GetRootName
 const
 MOZ_OVERRIDE
 ;
+virtual
+bool
+IsSafeFile
+(
+nsIFile
+*
+aFile
+)
+const
+MOZ_OVERRIDE
+;
 private
 :
 virtual
@@ -261,6 +272,9 @@ empty
 .
 nsString
 mLocalRootPath
+;
+nsString
+mNormalizedLocalRootPath
 ;
 nsDOMDeviceStorage
 *
