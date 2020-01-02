@@ -352,7 +352,7 @@ size
 #
 define
 BUFFER_SLOT_NUM
-8192
+512
 #
 define
 BUFFER_SLOT_DEFAULT_SIZE
