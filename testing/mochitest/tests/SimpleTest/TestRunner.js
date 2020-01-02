@@ -1014,10 +1014,6 @@ status
 if
 (
 message
-!
-=
-=
-null
 )
 {
 data
