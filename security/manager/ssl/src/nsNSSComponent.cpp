@@ -5347,7 +5347,7 @@ pinningEnforcementLevel
 CertVerifier
 :
 :
-pinningAllowUserCAMITM
+pinningDisabled
 ;
 int
 prefPinningEnforcementLevel
@@ -5415,7 +5415,7 @@ pinningEnforcementLevel
 CertVerifier
 :
 :
-pinningAllowUserCAMITM
+pinningDisabled
 ;
 }
 CertVerifier
