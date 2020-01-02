@@ -342,6 +342,12 @@ aToCopy
 .
 mUsePrivateBrowsing
 )
+mUseRemoteTabs
+(
+aToCopy
+.
+mUseRemoteTabs
+)
 mIsInBrowserElement
 (
 aInBrowser
@@ -374,6 +380,8 @@ aIsContent
 bool
 aUsePrivateBrowsing
 bool
+aUseRemoteTabs
+bool
 aIsInBrowserElement
 )
 :
@@ -395,6 +403,10 @@ aIsContent
 mUsePrivateBrowsing
 (
 aUsePrivateBrowsing
+)
+mUseRemoteTabs
+(
+aUseRemoteTabs
 )
 mIsInBrowserElement
 (
@@ -444,6 +456,10 @@ mUsePrivateBrowsing
 (
 false
 )
+mUseRemoteTabs
+(
+false
+)
 mIsInBrowserElement
 (
 false
@@ -472,6 +488,9 @@ mIsContent
 ;
 bool
 mUsePrivateBrowsing
+;
+bool
+mUseRemoteTabs
 ;
 bool
 mIsInBrowserElement
