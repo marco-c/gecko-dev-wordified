@@ -1004,6 +1004,11 @@ FontWeight
 )
 COMPUTED_STYLE_PROP
 (
+grid_template_areas
+GridTemplateAreas
+)
+COMPUTED_STYLE_PROP
+(
 grid_template_columns
 GridTemplateColumns
 )
