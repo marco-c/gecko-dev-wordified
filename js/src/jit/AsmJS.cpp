@@ -48674,7 +48674,7 @@ debugMode
 cx
 -
 >
-runtime
+compartment
 (
 )
 -
@@ -48685,6 +48685,7 @@ options
 .
 asmJS
 (
+cx
 )
 ;
 args
