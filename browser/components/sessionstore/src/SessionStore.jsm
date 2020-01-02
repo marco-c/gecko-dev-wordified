@@ -8987,7 +8987,7 @@ yet
 .
 Explicitly
 call
-restoreTab
+restoreTabContent
 to
 kick
 off
@@ -9014,7 +9014,7 @@ TAB_STATE_NEEDS_RESTORE
 )
 this
 .
-restoreTab
+restoreTabContent
 (
 tab
 )
@@ -18669,7 +18669,7 @@ browser
 {
 this
 .
-restoreTab
+restoreTabContent
 (
 tab
 )
@@ -18875,10 +18875,9 @@ actually
 happened
 *
 /
-restoreTab
+restoreTabContent
 :
 function
-ssi_restoreTab
 (
 aTab
 )
@@ -19703,7 +19702,7 @@ didStartLoad
 =
 this
 .
-restoreTab
+restoreTabContent
 (
 tab
 )
@@ -26689,7 +26688,7 @@ normally
 /
 done
 in
-restoreTab
+restoreTabContent
 but
 this
 tab
@@ -26733,7 +26732,7 @@ is
 normally
 done
 in
-restoreTab
+restoreTabContent
 but
 that
 isn
@@ -28600,7 +28599,7 @@ we
 will
 juet
 call
-restoreTab
+restoreTabContent
 .
 That
 will
@@ -28618,7 +28617,7 @@ URI
 .
 SessionStoreInternal
 .
-restoreTab
+restoreTabContent
 (
 this
 .
