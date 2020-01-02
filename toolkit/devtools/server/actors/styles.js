@@ -1700,11 +1700,6 @@ selectorInfo
 selector
 .
 text
-name
-:
-selectorInfo
-.
-property
 value
 :
 selectorInfo
@@ -1749,7 +1744,6 @@ sheets
 sheets
 ]
 }
-;
 }
 {
 request
