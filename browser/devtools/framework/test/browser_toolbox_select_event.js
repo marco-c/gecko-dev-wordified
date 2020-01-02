@@ -43,6 +43,10 @@ about
 :
 blank
 "
+)
+.
+then
+(
 function
 (
 )

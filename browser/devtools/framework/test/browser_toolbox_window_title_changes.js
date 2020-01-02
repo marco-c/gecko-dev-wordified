@@ -77,10 +77,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 const
 URL_1
 =
@@ -151,6 +147,10 @@ toolbox
 addTab
 (
 URL_1
+)
+.
+then
+(
 function
 (
 )

@@ -2959,11 +2959,11 @@ let
 cachedResponse
 =
 {
-cacheEnabled
+cacheDisabled
 :
 cachedTab
 .
-cacheEnabled
+cacheDisabled
 javascriptEnabled
 :
 cachedTab
@@ -8346,11 +8346,11 @@ javascriptEnabled
 ;
 this
 .
-cacheEnabled
+cacheDisabled
 =
 aForm
 .
-cacheEnabled
+cacheDisabled
 ;
 this
 .

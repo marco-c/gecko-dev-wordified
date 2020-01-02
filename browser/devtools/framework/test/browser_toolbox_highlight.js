@@ -82,10 +82,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 const
 URL
 =
@@ -126,6 +122,10 @@ webconsole
 addTab
 (
 URL
+)
+.
+then
+(
 (
 )
 =

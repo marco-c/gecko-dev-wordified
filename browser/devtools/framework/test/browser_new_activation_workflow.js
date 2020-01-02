@@ -62,9 +62,12 @@ about
 :
 blank
 "
+)
+.
+then
+(
 function
 (
-aBrowser
 aTab
 )
 {

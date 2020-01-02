@@ -49,10 +49,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 if
 (
 window
@@ -132,6 +128,10 @@ about
 :
 blank
 "
+)
+.
+then
+(
 function
 (
 )
