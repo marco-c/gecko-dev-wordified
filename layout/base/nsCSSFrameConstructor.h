@@ -12011,10 +12011,12 @@ needed
 .
 *
 /
-static
 void
 SetAsUndisplayedContent
 (
+nsFrameConstructorState
+&
+aState
 FrameConstructionItemList
 &
 aList
