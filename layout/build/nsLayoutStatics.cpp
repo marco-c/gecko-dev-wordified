@@ -202,6 +202,13 @@ h
 #
 include
 "
+nsEditorEventListener
+.
+h
+"
+#
+include
+"
 nsEventListenerManager
 .
 h
@@ -301,13 +308,6 @@ h
 include
 "
 nsTextControlFrame
-.
-h
-"
-#
-include
-"
-nsXBLWindowKeyHandler
 .
 h
 "
@@ -1888,7 +1888,7 @@ Shutdown
 (
 )
 ;
-nsXBLWindowKeyHandler
+nsEditorEventListener
 :
 :
 ShutDown
