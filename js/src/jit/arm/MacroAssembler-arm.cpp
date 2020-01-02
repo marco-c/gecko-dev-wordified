@@ -22908,7 +22908,10 @@ NumIntArgRegs
 0
 )
 *
-STACK_SLOT_SIZE
+sizeof
+(
+intptr_t
+)
 ;
 *
 stackAdjust
@@ -22930,7 +22933,10 @@ NumFloatArgRegs
 0
 )
 *
-STACK_SLOT_SIZE
+sizeof
+(
+intptr_t
+)
 ;
 #
 else
@@ -22951,7 +22957,10 @@ NumIntArgRegs
 0
 )
 *
-STACK_SLOT_SIZE
+sizeof
+(
+intptr_t
+)
 ;
 #
 endif
