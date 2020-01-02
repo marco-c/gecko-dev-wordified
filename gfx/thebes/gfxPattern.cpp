@@ -353,6 +353,13 @@ mExtend
 (
 EXTEND_NONE
 )
+mFilter
+(
+Filter
+:
+:
+GOOD
+)
 {
 }
 gfxPattern
