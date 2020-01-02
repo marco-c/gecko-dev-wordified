@@ -663,6 +663,12 @@ operationCallbackOwner
 nullptr
 )
 #
+else
+operationCallbackLockTaken
+(
+false
+)
+#
 endif
 #
 ifdef
