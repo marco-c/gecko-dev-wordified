@@ -650,6 +650,15 @@ return
 false
 ;
 }
+mFeatureLevel
+=
+mDevice
+-
+>
+GetFeatureLevel
+(
+)
+;
 mHwnd
 =
 (
