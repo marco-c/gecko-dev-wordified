@@ -122,6 +122,11 @@ ResourceManager
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 gl
 {

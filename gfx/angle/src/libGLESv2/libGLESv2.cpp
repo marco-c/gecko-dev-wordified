@@ -80,6 +80,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 libGLESv2
 /
