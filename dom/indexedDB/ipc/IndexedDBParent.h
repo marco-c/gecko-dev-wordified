@@ -677,7 +677,7 @@ NoteDyingActor
 {
 mActor
 =
-NULL
+nullptr
 ;
 }
 NS_IMETHOD

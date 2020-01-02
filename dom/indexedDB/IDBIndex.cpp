@@ -7551,7 +7551,7 @@ JS_NewArrayObject
 (
 aCx
 0
-NULL
+nullptr
 )
 )
 ;

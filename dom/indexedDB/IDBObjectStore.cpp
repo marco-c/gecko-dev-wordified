@@ -2435,15 +2435,15 @@ ThreadLocalJSRuntime
 :
 mRuntime
 (
-NULL
+nullptr
 )
 mContext
 (
-NULL
+nullptr
 )
 mGlobal
 (
-NULL
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -2527,7 +2527,7 @@ JS_NewGlobalObject
 mContext
 &
 sGlobalClass
-NULL
+nullptr
 JS
 :
 :
@@ -25600,7 +25600,7 @@ JS_NewArrayObject
 (
 aCx
 0
-NULL
+nullptr
 )
 )
 ;
