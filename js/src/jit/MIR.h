@@ -15333,16 +15333,6 @@ None
 )
 ;
 }
-bool
-canConsumeFloat32
-(
-)
-const
-{
-return
-true
-;
-}
 }
 ;
 class
