@@ -339,8 +339,10 @@ PreserveBuffer
 )
 )
 ;
+UniquePtr
+<
 SurfaceFactory
-*
+>
 factory
 =
 nullptr
@@ -392,7 +394,10 @@ screen
 >
 Morph
 (
+Move
+(
 factory
+)
 streamType
 )
 ;
