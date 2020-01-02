@@ -130,6 +130,9 @@ class
 LayerTransactionParent
 ;
 class
+AsyncCompositionManager
+;
+class
 ShadowLayersManager
 {
 public
@@ -153,6 +156,17 @@ aScheduleComposite
 =
 0
 ;
+virtual
+AsyncCompositionManager
+*
+GetCompositionManager
+(
+)
+{
+return
+nullptr
+;
+}
 }
 ;
 }

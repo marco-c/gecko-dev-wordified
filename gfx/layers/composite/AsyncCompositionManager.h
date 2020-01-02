@@ -1363,6 +1363,11 @@ mManager
 aManager
 )
 {
+if
+(
+mManager
+)
+{
 mManager
 -
 >
@@ -1371,9 +1376,15 @@ ResolveRefLayers
 )
 ;
 }
+}
 ~
 AutoResolveRefLayers
 (
+)
+{
+if
+(
+mManager
 )
 {
 mManager
@@ -1383,6 +1394,7 @@ DetachRefLayers
 (
 )
 ;
+}
 }
 private
 :
