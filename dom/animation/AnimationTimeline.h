@@ -190,6 +190,15 @@ aCx
 )
 MOZ_OVERRIDE
 ;
+Nullable
+<
+double
+>
+GetCurrentTime
+(
+)
+const
+;
 protected
 :
 nsCOMPtr
