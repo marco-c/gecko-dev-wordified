@@ -142,13 +142,6 @@ nsHashPropertyBag
 )
 {
 }
-virtual
-~
-nsHashPropertyBag
-(
-)
-{
-}
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIPROPERTYBAG
 NS_DECL_NSIPROPERTYBAG2
@@ -173,6 +166,13 @@ nsIVariant
 >
 mPropertyHash
 ;
+virtual
+~
+nsHashPropertyBag
+(
+)
+{
+}
 }
 ;
 /
