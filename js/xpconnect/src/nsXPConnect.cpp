@@ -3592,7 +3592,7 @@ aCOMObj
 nullptr
 &
 aIID
-false
+true
 &
 v
 aHolder
