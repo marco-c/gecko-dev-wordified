@@ -747,6 +747,9 @@ SkTypes
 .
 h
 #
+ifdef
+USE_SKIA
+#
 include
 "
 SkiaGLGlue
@@ -767,6 +770,8 @@ SurfaceTypes
 .
 h
 "
+#
+endif
 using
 mozilla
 :
@@ -5022,6 +5027,9 @@ GetSkiaGLGlue
 (
 )
 ;
+#
+if
+USE_SKIA
 if
 (
 glue
@@ -5115,6 +5123,8 @@ n
 ;
 }
 }
+#
+endif
 if
 (
 !
@@ -24583,6 +24593,9 @@ if
 mStream
 )
 {
+#
+ifdef
+USE_SKIA
 SkiaGLGlue
 *
 glue
@@ -24626,6 +24639,8 @@ get
 )
 ;
 }
+#
+endif
 }
 else
 {
@@ -24938,6 +24953,9 @@ PreTransactionCallback
 userData
 )
 ;
+#
+if
+USE_SKIA
 data
 .
 mGLContext
@@ -24949,6 +24967,8 @@ GetGLContext
 (
 )
 ;
+#
+endif
 data
 .
 mStream
