@@ -1965,6 +1965,7 @@ settings
 >
 CreateLock
 (
+nullptr
 getter_AddRefs
 (
 settingsLock

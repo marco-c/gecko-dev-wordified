@@ -659,6 +659,7 @@ settingsService
 >
 CreateLock
 (
+nullptr
 getter_AddRefs
 (
 lock
@@ -949,6 +950,7 @@ settingsService
 >
 CreateLock
 (
+nullptr
 getter_AddRefs
 (
 lock
