@@ -2204,10 +2204,6 @@ Rect
 &
 aRect
 const
-gfx3DMatrix
-&
-aTextureTransform
-const
 gfx
 :
 :
