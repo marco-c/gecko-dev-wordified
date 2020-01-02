@@ -321,7 +321,7 @@ h
 endif
 #
 ifdef
-MOZ_RTSP
+NECKO_PROTOCOL_rtsp
 #
 include
 "
@@ -1255,7 +1255,7 @@ nullptr
 endif
 #
 ifdef
-MOZ_RTSP
+NECKO_PROTOCOL_rtsp
 static
 const
 char
@@ -1320,7 +1320,7 @@ aMimeType
 {
 #
 ifdef
-MOZ_RTSP
+NECKO_PROTOCOL_rtsp
 return
 CodecListContains
 (
@@ -2387,7 +2387,7 @@ MediaOmxDecoder
 endif
 #
 ifdef
-MOZ_RTSP
+NECKO_PROTOCOL_rtsp
 if
 (
 IsRtspSupportedType

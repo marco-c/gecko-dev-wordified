@@ -114,6 +114,15 @@ MPL
 #
 include
 "
+necko
+-
+config
+.
+h
+"
+#
+include
+"
 nsHttp
 .
 h
@@ -186,7 +195,7 @@ h
 "
 #
 ifdef
-MOZ_RTSP
+NECKO_PROTOCOL_rtsp
 #
 include
 "
@@ -1818,7 +1827,7 @@ AllocPRtspControllerParent
 {
 #
 ifdef
-MOZ_RTSP
+NECKO_PROTOCOL_rtsp
 RtspControllerParent
 *
 p
@@ -1859,7 +1868,7 @@ actor
 {
 #
 ifdef
-MOZ_RTSP
+NECKO_PROTOCOL_rtsp
 RtspControllerParent
 *
 p
