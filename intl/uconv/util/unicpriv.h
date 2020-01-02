@@ -99,11 +99,11 @@ define
 __UNIPRIV__
 #
 include
-"
-ubase
+<
+stdint
 .
 h
-"
+>
 #
 include
 "
@@ -128,7 +128,7 @@ C
 {
 #
 endif
-PRBool
+int
 uMapCode
 (
 const
@@ -142,7 +142,7 @@ uint16_t
 out
 )
 ;
-PRBool
+int
 uGenerate
 (
 uScanClassID
@@ -163,7 +163,7 @@ uint32_t
 outlen
 )
 ;
-PRBool
+int
 uScan
 (
 uScanClassID
@@ -185,7 +185,7 @@ uint32_t
 inscanlen
 )
 ;
-PRBool
+int
 uGenerateShift
 (
 uShiftOutTable
@@ -207,7 +207,7 @@ uint32_t
 outlen
 )
 ;
-PRBool
+int
 uScanShift
 (
 uShiftInTable

@@ -129,7 +129,7 @@ cell
 )
 ;
 typedef
-PRBool
+int
 (
 *
 HitFormateFunc
@@ -163,8 +163,7 @@ uint32_t
 info
 )
 ;
-PRIVATE
-PRBool
+int
 uHitFormate0
 (
 uint16_t
@@ -175,8 +174,7 @@ uMapCell
 cell
 )
 ;
-PRIVATE
-PRBool
+int
 uHitFormate2
 (
 uint16_t
@@ -187,7 +185,6 @@ uMapCell
 cell
 )
 ;
-PRIVATE
 uint16_t
 uMapFormate0
 (
@@ -203,7 +200,6 @@ uMapCell
 cell
 )
 ;
-PRIVATE
 uint16_t
 uMapFormate1
 (
@@ -219,7 +215,6 @@ uMapCell
 cell
 )
 ;
-PRIVATE
 uint16_t
 uMapFormate2
 (
@@ -235,7 +230,6 @@ uMapCell
 cell
 )
 ;
-PRIVATE
 void
 uFillInfoFormate0
 (
@@ -252,7 +246,6 @@ uint32_t
 aInfo
 )
 ;
-PRIVATE
 void
 uFillInfoFormate1
 (
@@ -269,7 +262,6 @@ uint32_t
 aInfo
 )
 ;
-PRIVATE
 void
 uFillInfoFormate2
 (
@@ -286,7 +278,6 @@ uint32_t
 aInfo
 )
 ;
-PRIVATE
 const
 uMapCell
 *
@@ -300,7 +291,6 @@ int16_t
 item
 )
 ;
-PRIVATE
 char
 uGetFormat
 (
@@ -478,7 +468,6 @@ item
 =
 *
 /
-PRIVATE
 const
 MapFormatFunc
 m_map
@@ -658,7 +647,6 @@ uMapFormate2
 =
 *
 /
-PRIVATE
 const
 FillInfoFormateFunc
 m_fillinfo
@@ -838,7 +826,6 @@ uFillInfoFormate2
 =
 *
 /
-PRIVATE
 const
 HitFormateFunc
 m_hit
@@ -1165,8 +1152,7 @@ item
 =
 *
 /
-MODULE_PRIVATE
-PRBool
+int
 uMapCode
 (
 const
@@ -1180,10 +1166,10 @@ uint16_t
 out
 )
 {
-PRBool
+int
 done
 =
-PR_FALSE
+0
 ;
 uint16_t
 itemOfList
@@ -1261,7 +1247,7 @@ uCell
 ;
 done
 =
-PR_TRUE
+1
 ;
 break
 ;
@@ -1454,8 +1440,7 @@ function
 =
 *
 /
-PRIVATE
-PRBool
+int
 uHitFormate0
 (
 uint16_t
@@ -1665,8 +1650,7 @@ srcEnd
 =
 *
 /
-PRIVATE
-PRBool
+int
 uHitFormate2
 (
 uint16_t
@@ -1859,7 +1843,6 @@ srcBegin
 =
 *
 /
-PRIVATE
 uint16_t
 uMapFormate0
 (
@@ -2067,7 +2050,6 @@ destBegin
 =
 *
 /
-PRIVATE
 uint16_t
 uMapFormate1
 (
@@ -2289,7 +2271,6 @@ srcBegin
 =
 *
 /
-PRIVATE
 uint16_t
 uMapFormate2
 (
@@ -2516,7 +2497,6 @@ c
 =
 *
 /
-PRIVATE
 void
 uFillInfoFormate0
 (
@@ -2860,7 +2840,6 @@ b
 =
 *
 /
-PRIVATE
 void
 uFillInfoFormate1
 (
@@ -3143,7 +3122,6 @@ i
 =
 *
 /
-PRIVATE
 void
 uFillInfoFormate2
 (

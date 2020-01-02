@@ -316,7 +316,7 @@ b2
 *
 /
 typedef
-PRBool
+int
 (
 *
 uSubScannerFunc
@@ -498,7 +498,7 @@ out
 *
 /
 typedef
-PRBool
+int
 (
 *
 uScannerFunc
@@ -521,8 +521,7 @@ uint32_t
 inscanlen
 )
 ;
-MODULE_PRIVATE
-PRBool
+int
 uScan
 (
 uScanClassID
@@ -567,8 +566,7 @@ in
 out
 )
 )
-PRIVATE
-PRBool
+int
 uCheckAndScanAlways1Byte
 (
 int32_t
@@ -588,8 +586,7 @@ uint32_t
 inscanlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndScanAlways2Byte
 (
 int32_t
@@ -609,8 +606,7 @@ uint32_t
 inscanlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndScanAlways2ByteShiftGR
 (
 int32_t
@@ -630,8 +626,7 @@ uint32_t
 inscanlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndScanAlways2ByteGR128
 (
 int32_t
@@ -651,8 +646,7 @@ uint32_t
 inscanlen
 )
 ;
-MODULE_PRIVATE
-PRBool
+int
 uScanShift
 (
 uShiftInTable
@@ -675,8 +669,7 @@ uint32_t
 inscanlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndScan2ByteGRPrefix8F
 (
 int32_t
@@ -696,8 +689,7 @@ uint32_t
 inscanlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndScan2ByteGRPrefix8EA2
 (
 int32_t
@@ -717,8 +709,7 @@ uint32_t
 inscanlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndScan2ByteGRPrefix8EA3
 (
 int32_t
@@ -738,8 +729,7 @@ uint32_t
 inscanlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndScan2ByteGRPrefix8EA4
 (
 int32_t
@@ -759,8 +749,7 @@ uint32_t
 inscanlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndScan2ByteGRPrefix8EA5
 (
 int32_t
@@ -780,8 +769,7 @@ uint32_t
 inscanlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndScan2ByteGRPrefix8EA6
 (
 int32_t
@@ -801,8 +789,7 @@ uint32_t
 inscanlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndScan2ByteGRPrefix8EA7
 (
 int32_t
@@ -822,8 +809,7 @@ uint32_t
 inscanlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCnSAlways8BytesDecomposedHangul
 (
 int32_t
@@ -843,8 +829,7 @@ uint32_t
 inscanlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndScanJohabHangul
 (
 int32_t
@@ -864,8 +849,7 @@ uint32_t
 inscanlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndScanJohabSymbol
 (
 int32_t
@@ -885,8 +869,7 @@ uint32_t
 inscanlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndScan4BytesGB18030
 (
 int32_t
@@ -906,8 +889,7 @@ uint32_t
 inscanlen
 )
 ;
-PRIVATE
-PRBool
+int
 uScanAlways2Byte
 (
 unsigned
@@ -919,8 +901,7 @@ uint16_t
 out
 )
 ;
-PRIVATE
-PRBool
+int
 uScanAlways2ByteShiftGR
 (
 unsigned
@@ -932,8 +913,7 @@ uint16_t
 out
 )
 ;
-PRIVATE
-PRBool
+int
 uScanAlways1Byte
 (
 unsigned
@@ -945,8 +925,7 @@ uint16_t
 out
 )
 ;
-PRIVATE
-PRBool
+int
 uScanAlways1BytePrefix8E
 (
 unsigned
@@ -1124,7 +1103,6 @@ out
 =
 *
 /
-PRIVATE
 const
 uScannerFunc
 m_scanner
@@ -1316,7 +1294,6 @@ uCheckAndScanAlways2ByteGR128
 =
 *
 /
-PRIVATE
 const
 uSubScannerFunc
 m_subscanner
@@ -1497,8 +1474,7 @@ uScanAlways1BytePrefix8E
 =
 *
 /
-MODULE_PRIVATE
-PRBool
+int
 uScan
 (
 uScanClassID
@@ -1703,8 +1679,7 @@ inscanlen
 =
 *
 /
-PRIVATE
-PRBool
+int
 uScanAlways1Byte
 (
 unsigned
@@ -1728,7 +1703,7 @@ in
 ]
 ;
 return
-PR_TRUE
+1
 ;
 }
 /
@@ -1897,8 +1872,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uScanAlways2Byte
 (
 unsigned
@@ -1936,7 +1910,7 @@ in
 )
 ;
 return
-PR_TRUE
+1
 ;
 }
 /
@@ -2105,8 +2079,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uScanAlways2ByteShiftGR
 (
 unsigned
@@ -2148,7 +2121,7 @@ in
 )
 ;
 return
-PR_TRUE
+1
 ;
 }
 /
@@ -2317,8 +2290,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uScanAlways1BytePrefix8E
 (
 unsigned
@@ -2342,7 +2314,7 @@ in
 ]
 ;
 return
-PR_TRUE
+1
 ;
 }
 /
@@ -2511,8 +2483,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndScanAlways1Byte
 (
 int32_t
@@ -2568,7 +2539,7 @@ in
 ]
 ;
 return
-PR_TRUE
+1
 ;
 }
 /
@@ -2737,8 +2708,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndScanAlways2Byte
 (
 int32_t
@@ -2765,7 +2735,7 @@ inbuflen
 2
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -2797,7 +2767,7 @@ in
 )
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
@@ -2967,8 +2937,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndScanAlways2ByteShiftGR
 (
 int32_t
@@ -3062,7 +3031,7 @@ NS_OK_UDEC_MOREINPUT
 *
 /
 return
-PR_FALSE
+0
 ;
 else
 if
@@ -3107,7 +3076,7 @@ for
 *
 /
 return
-PR_TRUE
+1
 ;
 }
 else
@@ -3144,7 +3113,7 @@ in
 )
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
@@ -3314,8 +3283,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndScanAlways2ByteGR128
 (
 int32_t
@@ -3406,7 +3374,7 @@ NS_OK_UDEC_MOREINPUT
 *
 /
 return
-PR_FALSE
+0
 ;
 else
 if
@@ -3457,7 +3425,7 @@ for
 *
 /
 return
-PR_TRUE
+1
 ;
 }
 else
@@ -3486,7 +3454,7 @@ in
 ]
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
@@ -3656,8 +3624,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uScanShift
 (
 uShiftInTable
@@ -3768,7 +3735,7 @@ i
 reserveLen
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -3801,7 +3768,7 @@ out
 }
 }
 return
-PR_FALSE
+0
 ;
 }
 /
@@ -3970,8 +3937,7 @@ PR_FALSE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndScan2ByteGRPrefix8F
 (
 int32_t
@@ -4011,7 +3977,7 @@ in
 )
 )
 return
-PR_FALSE
+0
 ;
 else
 if
@@ -4064,7 +4030,7 @@ for
 *
 /
 return
-PR_TRUE
+1
 ;
 }
 else
@@ -4118,7 +4084,7 @@ for
 *
 /
 return
-PR_TRUE
+1
 ;
 }
 else
@@ -4155,7 +4121,7 @@ in
 )
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
@@ -4375,7 +4341,7 @@ in
 )
 \
 return
-PR_FALSE
+0
 ;
 \
 else
@@ -4409,7 +4375,7 @@ out
 ;
 \
 return
-PR_TRUE
+1
 ;
 \
 }
@@ -4442,7 +4408,7 @@ out
 ;
 \
 return
-PR_TRUE
+1
 ;
 \
 }
@@ -4475,7 +4441,7 @@ out
 ;
 \
 return
-PR_TRUE
+1
 ;
 \
 }
@@ -4518,12 +4484,11 @@ in
 ;
 \
 return
-PR_TRUE
+1
 ;
 \
 }
-PRIVATE
-PRBool
+int
 uCheckAndScan2ByteGRPrefix8EA2
 (
 int32_t
@@ -4714,8 +4679,7 @@ CNS_8EAX_4BYTE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndScan2ByteGRPrefix8EA3
 (
 int32_t
@@ -4906,8 +4870,7 @@ CNS_8EAX_4BYTE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndScan2ByteGRPrefix8EA4
 (
 int32_t
@@ -5098,8 +5061,7 @@ CNS_8EAX_4BYTE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndScan2ByteGRPrefix8EA5
 (
 int32_t
@@ -5290,8 +5252,7 @@ CNS_8EAX_4BYTE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndScan2ByteGRPrefix8EA6
 (
 int32_t
@@ -5482,8 +5443,7 @@ CNS_8EAX_4BYTE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndScan2ByteGRPrefix8EA7
 (
 int32_t
@@ -5702,8 +5662,7 @@ VCount
 *
 TCount
 )
-PRIVATE
-PRBool
+int
 uCnSAlways8BytesDecomposedHangul
 (
 int32_t
@@ -5811,7 +5770,7 @@ in
 )
 )
 return
-PR_FALSE
+0
 ;
 /
 *
@@ -5849,7 +5808,7 @@ consonant
 *
 /
 return
-PR_FALSE
+0
 ;
 }
 else
@@ -5964,7 +5923,7 @@ LIndex
 )
 )
 return
-PR_FALSE
+0
 ;
 }
 /
@@ -6003,7 +5962,7 @@ vowel
 *
 /
 return
-PR_FALSE
+0
 ;
 }
 else
@@ -6071,7 +6030,7 @@ consonant
 *
 /
 return
-PR_FALSE
+0
 ;
 }
 else
@@ -6186,7 +6145,7 @@ TIndex
 )
 )
 return
-PR_FALSE
+0
 ;
 }
 *
@@ -6231,7 +6190,7 @@ TIndex
 SBase
 ;
 return
-PR_TRUE
+1
 ;
 }
 /
@@ -6400,8 +6359,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndScanJohabHangul
 (
 int32_t
@@ -6464,7 +6422,7 @@ inbuflen
 2
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -6765,7 +6723,7 @@ ch
 )
 )
 return
-PR_FALSE
+0
 ;
 LIndex
 =
@@ -6841,7 +6799,7 @@ TIndex
 )
 )
 return
-PR_FALSE
+0
 ;
 /
 *
@@ -6885,12 +6843,11 @@ inscanlen
 2
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
-PRIVATE
-PRBool
+int
 uCheckAndScanJohabSymbol
 (
 int32_t
@@ -6917,7 +6874,7 @@ inbuflen
 2
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -7372,12 +7329,11 @@ inscanlen
 2
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
-PRIVATE
-PRBool
+int
 uCheckAndScan4BytesGB18030
 (
 int32_t
@@ -7407,7 +7363,7 @@ inbuflen
 4
 )
 return
-PR_FALSE
+0
 ;
 if
 (
@@ -7431,7 +7387,7 @@ in
 )
 )
 return
-PR_FALSE
+0
 ;
 if
 (
@@ -7455,7 +7411,7 @@ in
 )
 )
 return
-PR_FALSE
+0
 ;
 if
 (
@@ -7479,7 +7435,7 @@ in
 )
 )
 return
-PR_FALSE
+0
 ;
 if
 (
@@ -7503,7 +7459,7 @@ in
 )
 )
 return
-PR_FALSE
+0
 ;
 data
 =
@@ -7576,6 +7532,6 @@ data
 0xFFFD
 ;
 return
-PR_TRUE
+1
 ;
 }

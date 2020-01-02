@@ -265,7 +265,7 @@ h
 *
 /
 typedef
-PRBool
+int
 (
 *
 uSubGeneratorFunc
@@ -446,7 +446,7 @@ out
 *
 /
 typedef
-PRBool
+int
 (
 *
 uGeneratorFunc
@@ -468,8 +468,7 @@ uint32_t
 outlen
 )
 ;
-MODULE_PRIVATE
-PRBool
+int
 uGenerate
 (
 uScanClassID
@@ -513,8 +512,7 @@ in
 out
 )
 )
-PRIVATE
-PRBool
+int
 uCheckAndGenAlways1Byte
 (
 int32_t
@@ -533,8 +531,7 @@ uint32_t
 outlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndGenAlways2Byte
 (
 int32_t
@@ -553,8 +550,7 @@ uint32_t
 outlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndGenAlways2ByteShiftGR
 (
 int32_t
@@ -573,8 +569,7 @@ uint32_t
 outlen
 )
 ;
-MODULE_PRIVATE
-PRBool
+int
 uGenerateShift
 (
 uShiftOutTable
@@ -596,8 +591,7 @@ uint32_t
 outlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndGen2ByteGRPrefix8F
 (
 int32_t
@@ -616,8 +610,7 @@ uint32_t
 outlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndGen2ByteGRPrefix8EA2
 (
 int32_t
@@ -636,8 +629,7 @@ uint32_t
 outlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndGen2ByteGRPrefix8EA3
 (
 int32_t
@@ -656,8 +648,7 @@ uint32_t
 outlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndGen2ByteGRPrefix8EA4
 (
 int32_t
@@ -676,8 +667,7 @@ uint32_t
 outlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndGen2ByteGRPrefix8EA5
 (
 int32_t
@@ -696,8 +686,7 @@ uint32_t
 outlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndGen2ByteGRPrefix8EA6
 (
 int32_t
@@ -716,8 +705,7 @@ uint32_t
 outlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndGen2ByteGRPrefix8EA7
 (
 int32_t
@@ -736,8 +724,7 @@ uint32_t
 outlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCnGAlways8BytesDecomposedHangul
 (
 int32_t
@@ -756,8 +743,7 @@ uint32_t
 outlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndGenJohabHangul
 (
 int32_t
@@ -776,8 +762,7 @@ uint32_t
 outlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndGenJohabSymbol
 (
 int32_t
@@ -796,8 +781,7 @@ uint32_t
 outlen
 )
 ;
-PRIVATE
-PRBool
+int
 uCheckAndGen4BytesGB18030
 (
 int32_t
@@ -816,8 +800,7 @@ uint32_t
 outlen
 )
 ;
-PRIVATE
-PRBool
+int
 uGenAlways2Byte
 (
 uint16_t
@@ -828,8 +811,7 @@ char
 out
 )
 ;
-PRIVATE
-PRBool
+int
 uGenAlways2ByteShiftGR
 (
 uint16_t
@@ -840,8 +822,7 @@ char
 out
 )
 ;
-PRIVATE
-PRBool
+int
 uGenAlways1Byte
 (
 uint16_t
@@ -852,8 +833,7 @@ char
 out
 )
 ;
-PRIVATE
-PRBool
+int
 uGenAlways1BytePrefix8E
 (
 uint16_t
@@ -1030,7 +1010,6 @@ out
 =
 *
 /
-PRIVATE
 const
 uGeneratorFunc
 m_generator
@@ -1231,7 +1210,6 @@ GR128
 =
 *
 /
-PRIVATE
 const
 uSubGeneratorFunc
 m_subgenerator
@@ -1412,8 +1390,7 @@ uGenAlways1BytePrefix8E
 =
 *
 /
-MODULE_PRIVATE
-PRBool
+int
 uGenerate
 (
 uScanClassID
@@ -1617,8 +1594,7 @@ outlen
 =
 *
 /
-PRIVATE
-PRBool
+int
 uGenAlways1Byte
 (
 uint16_t
@@ -1641,7 +1617,7 @@ char
 in
 ;
 return
-PR_TRUE
+1
 ;
 }
 /
@@ -1810,8 +1786,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uGenAlways2Byte
 (
 uint16_t
@@ -1858,7 +1833,7 @@ in
 )
 ;
 return
-PR_TRUE
+1
 ;
 }
 /
@@ -2027,8 +2002,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uGenAlways2ByteShiftGR
 (
 uint16_t
@@ -2083,7 +2057,7 @@ in
 )
 ;
 return
-PR_TRUE
+1
 ;
 }
 /
@@ -2252,8 +2226,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uGenAlways1BytePrefix8E
 (
 uint16_t
@@ -2287,7 +2260,7 @@ in
 )
 ;
 return
-PR_TRUE
+1
 ;
 }
 /
@@ -2456,8 +2429,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndGenAlways1Byte
 (
 int32_t
@@ -2523,7 +2495,7 @@ outbuflen
 1
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -2542,7 +2514,7 @@ in
 0xff
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
@@ -2712,8 +2684,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndGenAlways2Byte
 (
 int32_t
@@ -2739,7 +2710,7 @@ outbuflen
 2
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -2774,7 +2745,7 @@ in
 0xff
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
@@ -2944,8 +2915,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndGenAlways2ByteShiftGR
 (
 int32_t
@@ -2971,7 +2941,7 @@ outbuflen
 2
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -3012,7 +2982,7 @@ in
 0x80
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
@@ -3182,8 +3152,7 @@ PR_TRUE
 =
 *
 /
-MODULE_PRIVATE
-PRBool
+int
 uGenerateShift
 (
 uShiftOutTable
@@ -3338,7 +3307,7 @@ reserveLen
 )
 {
 return
-PR_FALSE
+0
 ;
 }
 else
@@ -3372,7 +3341,7 @@ out
 }
 }
 return
-PR_FALSE
+0
 ;
 }
 /
@@ -3541,8 +3510,7 @@ PR_FALSE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndGen2ByteGRPrefix8F
 (
 int32_t
@@ -3568,7 +3536,7 @@ outbuflen
 3
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -3616,7 +3584,7 @@ in
 0x80
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
@@ -3786,8 +3754,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndGen2ByteGRPrefix8EA2
 (
 int32_t
@@ -3813,7 +3780,7 @@ outbuflen
 4
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -3868,7 +3835,7 @@ in
 0x80
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
@@ -4038,8 +4005,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndGen2ByteGRPrefix8EA3
 (
 int32_t
@@ -4065,7 +4031,7 @@ outbuflen
 4
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -4120,7 +4086,7 @@ in
 0x80
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
@@ -4290,8 +4256,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndGen2ByteGRPrefix8EA4
 (
 int32_t
@@ -4317,7 +4282,7 @@ outbuflen
 4
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -4372,7 +4337,7 @@ in
 0x80
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
@@ -4542,8 +4507,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndGen2ByteGRPrefix8EA5
 (
 int32_t
@@ -4569,7 +4533,7 @@ outbuflen
 4
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -4624,7 +4588,7 @@ in
 0x80
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
@@ -4794,8 +4758,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndGen2ByteGRPrefix8EA6
 (
 int32_t
@@ -4821,7 +4784,7 @@ outbuflen
 4
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -4876,7 +4839,7 @@ in
 0x80
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
@@ -5046,8 +5009,7 @@ PR_TRUE
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCheckAndGen2ByteGRPrefix8EA7
 (
 int32_t
@@ -5073,7 +5035,7 @@ outbuflen
 4
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -5128,7 +5090,7 @@ in
 0x80
 ;
 return
-PR_TRUE
+1
 ;
 }
 }
@@ -5488,8 +5450,7 @@ TCount
 =
 *
 /
-PRIVATE
-PRBool
+int
 uCnGAlways8BytesDecomposedHangul
 (
 int32_t
@@ -5590,7 +5551,7 @@ outbuflen
 8
 )
 return
-PR_FALSE
+0
 ;
 /
 *
@@ -5824,11 +5785,10 @@ TIndex
 ]
 ;
 return
-PR_TRUE
+1
 ;
 }
-PRIVATE
-PRBool
+int
 uCheckAndGenJohabHangul
 (
 int32_t
@@ -5854,7 +5814,7 @@ outbuflen
 2
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -6232,12 +6192,11 @@ TIndex
 #
 endif
 return
-PR_TRUE
+1
 ;
 }
 }
-PRIVATE
-PRBool
+int
 uCheckAndGenJohabSymbol
 (
 int32_t
@@ -6263,7 +6222,7 @@ outbuflen
 2
 )
 return
-PR_FALSE
+0
 ;
 else
 {
@@ -6701,12 +6660,11 @@ in
 #
 endif
 return
-PR_TRUE
+1
 ;
 }
 }
-PRIVATE
-PRBool
+int
 uCheckAndGen4BytesGB18030
 (
 int32_t
@@ -6732,7 +6690,7 @@ outbuflen
 4
 )
 return
-PR_FALSE
+0
 ;
 out
 [
@@ -6824,6 +6782,6 @@ outlen
 4
 ;
 return
-PR_TRUE
+1
 ;
 }
