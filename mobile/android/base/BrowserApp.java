@@ -1062,7 +1062,6 @@ widget
 .
 ViewFlipper
 ;
-abstract
 public
 class
 BrowserApp
