@@ -242,6 +242,7 @@ MediaTaskQueue
 mTaskQueue
 ;
 AVCodecContext
+*
 mCodecContext
 ;
 Vector
