@@ -6856,11 +6856,6 @@ mDoScaledTwips
 1
 ;
 unsigned
-mEnableJapaneseTransform
-:
-1
-;
-unsigned
 mIsRootPaginatedDocument
 :
 1
