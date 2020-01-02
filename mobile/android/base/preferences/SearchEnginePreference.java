@@ -1349,6 +1349,13 @@ getBitmap
 )
 ;
 }
+builder
+.
+setIcon
+(
+mPromptIcon
+)
+;
 /
 /
 Icons
