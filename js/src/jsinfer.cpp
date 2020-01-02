@@ -692,6 +692,9 @@ Logging
 /
 /
 /
+#
+ifdef
+DEBUG
 static
 bool
 InferSpewActive
@@ -824,9 +827,6 @@ channel
 ]
 ;
 }
-#
-ifdef
-DEBUG
 static
 bool
 InferSpewColorable

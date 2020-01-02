@@ -16611,6 +16611,8 @@ ATanH
 Sign
 Trunc
 Cbrt
+Floor
+Round
 }
 ;
 private
