@@ -337,16 +337,14 @@ delete
 #
 include
 "
-mozilla
-/
-UniquePtr
+nsAutoPtr
 .
 h
 "
 /
 /
 for
-UniquePtr
+nsAutoPtr
 #
 include
 "
@@ -1890,7 +1888,7 @@ mBufferRotation
 ;
 nsTArray
 <
-UniquePtr
+nsAutoPtr
 <
 Request
 >
