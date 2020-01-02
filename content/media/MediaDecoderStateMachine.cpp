@@ -7774,6 +7774,10 @@ Init
 channels
 rate
 audioChannelType
+AudioStream
+:
+:
+HighLatency
 )
 ;
 audioStream

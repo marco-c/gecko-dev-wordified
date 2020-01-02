@@ -763,6 +763,13 @@ AudioStream
 {
 public
 :
+enum
+LatencyRequest
+{
+HighLatency
+LowLatency
+}
+;
 AudioStream
 (
 )
@@ -949,6 +956,8 @@ dom
 :
 AudioChannelType
 aAudioStreamType
+LatencyRequest
+aLatencyRequest
 )
 =
 0

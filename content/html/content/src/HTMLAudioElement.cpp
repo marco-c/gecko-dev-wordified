@@ -648,6 +648,10 @@ Init
 aChannels
 aRate
 mAudioChannelType
+AudioStream
+:
+:
+HighLatency
 )
 ;
 if
