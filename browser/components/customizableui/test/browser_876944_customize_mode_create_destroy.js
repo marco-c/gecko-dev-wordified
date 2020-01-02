@@ -337,6 +337,12 @@ placeholder
 )
 .
 length
+isInWin8
+(
+)
+?
+2
+:
 3
 "
 The
@@ -476,6 +482,12 @@ placeholder
 )
 .
 length
+isInWin8
+(
+)
+?
+1
+:
 2
 "
 The
