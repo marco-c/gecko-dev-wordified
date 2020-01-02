@@ -198,12 +198,6 @@ using
 mozilla
 :
 :
-Range
-;
-using
-mozilla
-:
-:
 RangedPtr
 ;
 using
@@ -1055,6 +1049,9 @@ bool
 EvalStringMightBeJSON
 (
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -1376,6 +1373,9 @@ JSContext
 *
 cx
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -1465,6 +1465,9 @@ chars
 )
 ?
 chars
+:
+mozilla
+:
 :
 Range
 <

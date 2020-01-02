@@ -192,12 +192,6 @@ using
 mozilla
 :
 :
-Range
-;
-using
-mozilla
-:
-:
 RangedPtr
 ;
 JSONParserBase
@@ -2011,6 +2005,9 @@ E
 )
 )
 {
+mozilla
+:
+:
 Range
 <
 const

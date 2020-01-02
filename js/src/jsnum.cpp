@@ -332,12 +332,6 @@ using
 mozilla
 :
 :
-Range
-;
-using
-mozilla
-:
-:
 RangedPtr
 ;
 using
@@ -1322,6 +1316,9 @@ js
 ParseDecimalNumber
 (
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -1462,6 +1459,9 @@ js
 ParseDecimalNumber
 (
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -1478,6 +1478,9 @@ js
 ParseDecimalNumber
 (
 const
+mozilla
+:
+:
 Range
 <
 const
