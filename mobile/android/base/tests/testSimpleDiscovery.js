@@ -372,7 +372,7 @@ to
 happen
 SimpleServiceDiscovery
 .
-_found
+_processService
 (
 service
 )
