@@ -1580,8 +1580,6 @@ const
 TypeSet
 *
 types
-BarrierKind
-kind
 Register
 scratch
 Label

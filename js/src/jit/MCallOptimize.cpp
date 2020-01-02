@@ -2826,7 +2826,7 @@ UndefinedType
 )
 )
 ;
-BarrierKind
+bool
 barrier
 =
 PropertyReadNeedsTypeBarrier
@@ -2847,12 +2847,6 @@ returnTypes
 if
 (
 barrier
-!
-=
-BarrierKind
-:
-:
-NoBarrier
 )
 returnType
 =
@@ -8580,10 +8574,7 @@ exec
 getInlineReturnTypeSet
 (
 )
-BarrierKind
-:
-:
-TypeSet
+true
 )
 )
 return
@@ -12311,10 +12302,7 @@ load
 getInlineReturnTypeSet
 (
 )
-BarrierKind
-:
-:
-TypeSet
+true
 )
 )
 return
