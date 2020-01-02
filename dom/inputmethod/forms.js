@@ -3150,6 +3150,13 @@ endComposition
 '
 )
 ;
+let
+flags
+=
+domWindowUtils
+.
+KEY_FLAG_NOT_SYNTHESIZED_FOR_TESTS
+;
 this
 .
 _editing
@@ -3175,6 +3182,7 @@ charCode
 json
 .
 modifiers
+flags
 )
 ;
 if
@@ -3198,6 +3206,7 @@ charCode
 json
 .
 modifiers
+flags
 )
 ;
 }
@@ -3225,6 +3234,7 @@ charCode
 json
 .
 modifiers
+flags
 )
 ;
 }
