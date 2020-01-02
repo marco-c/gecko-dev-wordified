@@ -227,6 +227,10 @@ mFormat
 (
 aFormat
 )
+mLocked
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
