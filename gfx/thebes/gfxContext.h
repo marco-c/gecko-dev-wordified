@@ -772,7 +772,6 @@ gfxPath
 CopyPath
 (
 )
-const
 ;
 /
 *
@@ -790,7 +789,7 @@ path
 *
 /
 void
-AppendPath
+SetPath
 (
 gfxPath
 *
@@ -4945,14 +4944,7 @@ mPath
 mContext
 -
 >
-NewPath
-(
-)
-;
-mContext
--
->
-AppendPath
+SetPath
 (
 mPath
 )
