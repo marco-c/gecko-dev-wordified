@@ -5101,6 +5101,17 @@ arg2
 ;
 if
 (
+argc
+<
+0
+)
+{
+continue
+;
+}
+else
+if
+(
 (
 strcmp
 (
