@@ -41474,9 +41474,8 @@ BytecodeIsPopped
 pc
 )
 )
-needsBarrier
-=
-false
+return
+true
 ;
 /
 /
