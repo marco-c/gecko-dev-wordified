@@ -532,8 +532,10 @@ isAlreadyShutDown
 (
 )
 )
+{
 return
 ;
+}
 destructorSafeDestroyNSSReference
 (
 )
@@ -565,14 +567,6 @@ destructorSafeDestroyNSSReference
 (
 )
 {
-if
-(
-isAlreadyShutDown
-(
-)
-)
-return
-;
 if
 (
 mSlot

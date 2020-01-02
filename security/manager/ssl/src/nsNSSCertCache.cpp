@@ -145,8 +145,10 @@ isAlreadyShutDown
 (
 )
 )
+{
 return
 ;
+}
 destructorSafeDestroyNSSReference
 (
 )
@@ -178,13 +180,9 @@ destructorSafeDestroyNSSReference
 (
 )
 {
-if
-(
-isAlreadyShutDown
-(
-)
-)
-return
+mCertList
+=
+nullptr
 ;
 }
 NS_IMETHODIMP

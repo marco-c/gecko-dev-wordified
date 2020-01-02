@@ -2589,6 +2589,11 @@ virtualDestroyNSSReference
 )
 MOZ_FINAL
 ;
+void
+destructorSafeDestroyNSSReference
+(
+)
+;
 nsresult
 GetTimeSinceEpoch
 (
