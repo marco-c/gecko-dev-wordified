@@ -3686,7 +3686,7 @@ gContextMenu
 .
 browser
 .
-contentDocument
+contentDocumentAsCPOW
 )
 ;
 "
