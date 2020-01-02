@@ -116,7 +116,7 @@ match
 yield
 PriorityUrlProvider
 .
-getMatch
+getMatchingSpec
 (
 token
 .
@@ -192,7 +192,7 @@ null
 yield
 PriorityUrlProvider
 .
-getMatch
+getMatchingSpec
 (
 "
 test
@@ -265,7 +265,7 @@ null
 yield
 PriorityUrlProvider
 .
-getMatch
+getMatchingSpec
 (
 token
 .
@@ -306,7 +306,7 @@ null
 yield
 PriorityUrlProvider
 .
-getMatch
+getMatchingSpec
 (
 "
 bacon
@@ -364,7 +364,7 @@ match
 yield
 PriorityUrlProvider
 .
-getMatch
+getMatchingSpec
 (
 "
 bacon
@@ -472,7 +472,7 @@ null
 yield
 PriorityUrlProvider
 .
-getMatch
+getMatchingSpec
 (
 "
 bacon
