@@ -1588,7 +1588,8 @@ appendGrayRoot
 (
 void
 *
-thing
+*
+thingp
 JSGCTraceKind
 kind
 )

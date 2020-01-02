@@ -154,7 +154,9 @@ be
 moved
 by
 generational
-collection
+or
+compacting
+GC
 between
 the
 call
