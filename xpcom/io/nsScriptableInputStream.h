@@ -209,6 +209,16 @@ nsScriptableInputStream
 )
 {
 }
+nsresult
+ReadHelper
+(
+char
+*
+aBuffer
+uint32_t
+aCount
+)
+;
 nsCOMPtr
 <
 nsIInputStream
