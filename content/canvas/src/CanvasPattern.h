@@ -236,7 +236,6 @@ CanvasPatternBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

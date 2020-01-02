@@ -2093,7 +2093,6 @@ HTMLObjectElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 )

@@ -2959,7 +2959,6 @@ HTMLButtonElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -168,7 +168,6 @@ MozActivityBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

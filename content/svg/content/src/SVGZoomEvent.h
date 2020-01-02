@@ -218,7 +218,6 @@ SVGZoomEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

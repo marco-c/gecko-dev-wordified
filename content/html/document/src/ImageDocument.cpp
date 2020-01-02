@@ -998,7 +998,6 @@ ImageDocumentBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

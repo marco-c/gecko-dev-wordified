@@ -169,7 +169,6 @@ SVGForeignObjectElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -1263,7 +1263,6 @@ HTMLAreaElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

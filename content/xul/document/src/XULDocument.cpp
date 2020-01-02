@@ -29024,7 +29024,6 @@ XULDocumentBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -202,7 +202,6 @@ HTMLTimeElementBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

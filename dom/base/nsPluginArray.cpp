@@ -344,7 +344,6 @@ PluginArrayBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -1816,7 +1815,6 @@ PluginBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

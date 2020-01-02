@@ -199,7 +199,6 @@ MessagePortListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

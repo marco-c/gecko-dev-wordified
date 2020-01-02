@@ -243,7 +243,6 @@ SVGAnimatedNumberListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

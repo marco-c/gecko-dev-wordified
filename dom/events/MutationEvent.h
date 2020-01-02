@@ -209,7 +209,6 @@ MutationEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -11681,7 +11681,6 @@ XULElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

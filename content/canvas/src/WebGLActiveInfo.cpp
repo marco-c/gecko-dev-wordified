@@ -153,7 +153,6 @@ WebGLActiveInfoBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

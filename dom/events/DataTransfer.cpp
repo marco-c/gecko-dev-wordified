@@ -993,7 +993,6 @@ DataTransferBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

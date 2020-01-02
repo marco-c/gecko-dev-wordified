@@ -3710,7 +3710,6 @@ XMLDocumentBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

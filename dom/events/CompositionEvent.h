@@ -214,7 +214,6 @@ CompositionEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

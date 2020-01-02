@@ -1876,7 +1876,6 @@ TreeColumnsBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

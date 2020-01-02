@@ -172,7 +172,6 @@ DOMSettableTokenListBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

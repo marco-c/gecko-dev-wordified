@@ -199,7 +199,6 @@ TextMetricsBinding
 Wrap
 (
 aCx
-aScope
 this
 aTookOwnership
 )

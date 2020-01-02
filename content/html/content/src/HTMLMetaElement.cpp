@@ -461,7 +461,6 @@ HTMLMetaElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

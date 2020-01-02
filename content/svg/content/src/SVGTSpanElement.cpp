@@ -153,7 +153,6 @@ SVGTSpanElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

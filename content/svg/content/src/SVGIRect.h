@@ -210,7 +210,6 @@ SVGRectBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

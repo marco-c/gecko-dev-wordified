@@ -272,7 +272,6 @@ CallsListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -2347,7 +2347,6 @@ HTMLLinkElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

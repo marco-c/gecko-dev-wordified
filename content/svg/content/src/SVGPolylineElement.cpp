@@ -153,7 +153,6 @@ SVGPolylineElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

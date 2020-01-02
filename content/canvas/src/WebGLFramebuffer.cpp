@@ -209,7 +209,6 @@ WebGLFramebufferBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

@@ -219,7 +219,6 @@ SVGUseElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

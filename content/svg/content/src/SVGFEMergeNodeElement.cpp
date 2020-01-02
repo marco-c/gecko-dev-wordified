@@ -153,7 +153,6 @@ SVGFEMergeNodeElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -153,7 +153,6 @@ SVGStopElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

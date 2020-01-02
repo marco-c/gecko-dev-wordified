@@ -1649,7 +1649,6 @@ HTMLAppletElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -1678,7 +1677,6 @@ HTMLEmbedElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

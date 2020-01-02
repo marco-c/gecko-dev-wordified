@@ -352,7 +352,6 @@ FileReaderSyncBinding_workers
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

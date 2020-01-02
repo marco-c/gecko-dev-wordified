@@ -440,7 +440,6 @@ ProcessingInstructionBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

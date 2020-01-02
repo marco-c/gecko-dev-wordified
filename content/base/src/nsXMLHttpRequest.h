@@ -979,7 +979,6 @@ XMLHttpRequestBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

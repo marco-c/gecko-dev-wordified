@@ -192,7 +192,6 @@ HTMLDivElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

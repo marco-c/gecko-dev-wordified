@@ -333,7 +333,6 @@ HTMLMapElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -434,7 +434,6 @@ SpeechSynthesisBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

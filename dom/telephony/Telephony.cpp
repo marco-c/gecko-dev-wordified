@@ -741,7 +741,6 @@ TelephonyBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

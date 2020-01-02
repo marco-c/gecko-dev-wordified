@@ -320,7 +320,6 @@ MozWakeLockBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

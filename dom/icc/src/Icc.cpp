@@ -441,7 +441,6 @@ MozIccBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

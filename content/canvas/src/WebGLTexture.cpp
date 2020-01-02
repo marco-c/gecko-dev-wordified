@@ -179,7 +179,6 @@ WebGLTextureBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

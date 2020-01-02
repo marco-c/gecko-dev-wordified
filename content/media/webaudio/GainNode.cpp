@@ -819,7 +819,6 @@ GainNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

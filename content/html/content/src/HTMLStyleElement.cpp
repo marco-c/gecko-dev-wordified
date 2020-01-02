@@ -1237,7 +1237,6 @@ HTMLStyleElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

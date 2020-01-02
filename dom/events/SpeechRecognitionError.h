@@ -217,7 +217,6 @@ SpeechRecognitionErrorBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

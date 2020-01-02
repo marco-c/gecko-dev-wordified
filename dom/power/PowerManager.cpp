@@ -261,7 +261,6 @@ MozPowerManagerBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

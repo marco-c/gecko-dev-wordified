@@ -671,7 +671,6 @@ SVGElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

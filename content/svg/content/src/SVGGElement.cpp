@@ -153,7 +153,6 @@ SVGGElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

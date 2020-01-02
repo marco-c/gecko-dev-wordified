@@ -241,7 +241,6 @@ RGBColorBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

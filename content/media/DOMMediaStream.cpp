@@ -756,7 +756,6 @@ MediaStreamBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -1711,7 +1710,6 @@ LocalMediaStreamBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

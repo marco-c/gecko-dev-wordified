@@ -2576,7 +2576,6 @@ IDBCursorWithValueBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -2593,7 +2592,6 @@ IDBCursorBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

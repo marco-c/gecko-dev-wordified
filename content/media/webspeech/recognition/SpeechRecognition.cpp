@@ -652,7 +652,6 @@ SpeechRecognitionBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

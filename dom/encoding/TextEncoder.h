@@ -226,7 +226,6 @@ TextEncoderBinding
 Wrap
 (
 aCx
-aScope
 this
 aTookOwnership
 )

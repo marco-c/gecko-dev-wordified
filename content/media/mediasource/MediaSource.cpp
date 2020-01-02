@@ -2078,7 +2078,6 @@ MediaSourceBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

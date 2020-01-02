@@ -454,7 +454,6 @@ MozCellBroadcastBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

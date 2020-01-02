@@ -2327,7 +2327,6 @@ HTMLOptionElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

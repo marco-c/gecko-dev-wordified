@@ -571,7 +571,6 @@ SVGDocumentBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

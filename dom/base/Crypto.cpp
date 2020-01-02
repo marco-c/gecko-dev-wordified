@@ -271,7 +271,6 @@ CryptoBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

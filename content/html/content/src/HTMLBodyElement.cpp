@@ -1730,7 +1730,6 @@ HTMLBodyElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

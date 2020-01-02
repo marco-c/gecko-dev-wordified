@@ -2014,7 +2014,6 @@ CameraManagerBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

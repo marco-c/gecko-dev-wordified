@@ -403,7 +403,6 @@ MozVoicemailBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

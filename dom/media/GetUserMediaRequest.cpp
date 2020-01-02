@@ -230,7 +230,6 @@ GetUserMediaRequestBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -468,7 +468,6 @@ WebGLBufferBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

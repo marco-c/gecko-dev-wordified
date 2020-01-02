@@ -332,7 +332,6 @@ MessageChannelBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

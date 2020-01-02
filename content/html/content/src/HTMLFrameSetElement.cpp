@@ -176,7 +176,6 @@ HTMLFrameSetElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

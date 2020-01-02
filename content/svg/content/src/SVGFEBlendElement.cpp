@@ -167,7 +167,6 @@ SVGFEBlendElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

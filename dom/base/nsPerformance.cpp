@@ -805,7 +805,6 @@ PerformanceTimingBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;
@@ -898,7 +897,6 @@ PerformanceNavigationBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;
@@ -1106,7 +1104,6 @@ PerformanceBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

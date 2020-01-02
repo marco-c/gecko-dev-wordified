@@ -242,7 +242,6 @@ WorkerNavigatorBinding_workers
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

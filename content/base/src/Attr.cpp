@@ -1868,7 +1868,6 @@ AttrBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -451,7 +451,6 @@ DataChannelBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

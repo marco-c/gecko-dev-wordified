@@ -1942,7 +1942,6 @@ HTMLFieldSetElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

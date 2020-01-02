@@ -167,7 +167,6 @@ SVGFESpotLightElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

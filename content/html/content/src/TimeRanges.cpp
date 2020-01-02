@@ -650,7 +650,6 @@ TimeRangesBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

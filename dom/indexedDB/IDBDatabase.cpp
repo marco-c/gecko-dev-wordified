@@ -2433,7 +2433,6 @@ IDBDatabaseBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

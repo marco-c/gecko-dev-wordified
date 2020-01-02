@@ -247,7 +247,6 @@ RectBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

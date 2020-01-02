@@ -661,7 +661,6 @@ UIEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

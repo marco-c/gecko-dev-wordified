@@ -803,7 +803,6 @@ MediaQueryListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

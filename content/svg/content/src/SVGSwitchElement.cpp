@@ -179,7 +179,6 @@ SVGSwitchElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

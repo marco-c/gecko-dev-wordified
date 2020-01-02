@@ -311,7 +311,6 @@ HTMLContentElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -1557,7 +1556,6 @@ NodeListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -222,7 +222,6 @@ SVGFEImageElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

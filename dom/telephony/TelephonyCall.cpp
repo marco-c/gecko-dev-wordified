@@ -434,7 +434,6 @@ TelephonyCallBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

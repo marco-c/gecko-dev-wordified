@@ -332,7 +332,6 @@ IDBVersionChangeEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

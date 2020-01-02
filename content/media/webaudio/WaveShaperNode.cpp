@@ -1432,7 +1432,6 @@ WaveShaperNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -145,7 +145,6 @@ VideoStreamTrackBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

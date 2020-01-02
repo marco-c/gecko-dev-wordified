@@ -1304,7 +1304,6 @@ PositionErrorBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -7125,7 +7124,6 @@ GeolocationBinding
 Wrap
 (
 aCtx
-aScope
 this
 )
 ;

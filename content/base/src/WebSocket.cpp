@@ -3179,7 +3179,6 @@ WebSocketBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

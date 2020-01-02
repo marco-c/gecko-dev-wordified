@@ -184,7 +184,6 @@ MediaElementAudioSourceNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

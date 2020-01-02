@@ -187,7 +187,6 @@ DOMStringListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

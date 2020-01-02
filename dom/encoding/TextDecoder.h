@@ -247,7 +247,6 @@ TextDecoderBinding
 Wrap
 (
 aCx
-aScope
 this
 aTookOwnership
 )

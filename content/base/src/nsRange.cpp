@@ -350,7 +350,6 @@ RangeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

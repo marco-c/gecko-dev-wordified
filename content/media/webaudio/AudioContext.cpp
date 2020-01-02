@@ -687,7 +687,6 @@ OfflineAudioContextBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -701,7 +700,6 @@ AudioContextBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

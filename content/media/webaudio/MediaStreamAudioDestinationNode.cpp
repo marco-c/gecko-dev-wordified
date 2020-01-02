@@ -606,7 +606,6 @@ MediaStreamAudioDestinationNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

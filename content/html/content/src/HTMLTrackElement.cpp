@@ -776,7 +776,6 @@ HTMLTrackElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

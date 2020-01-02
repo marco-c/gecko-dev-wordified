@@ -3019,7 +3019,6 @@ ConsoleBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

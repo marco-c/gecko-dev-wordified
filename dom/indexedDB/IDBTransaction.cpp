@@ -3412,7 +3412,6 @@ IDBTransactionBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

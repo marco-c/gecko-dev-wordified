@@ -174,7 +174,6 @@ SVGFEDiffuseLightingElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

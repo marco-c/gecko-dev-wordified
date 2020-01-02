@@ -192,7 +192,6 @@ HTMLModElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

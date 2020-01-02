@@ -288,7 +288,6 @@ CanvasGradientBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

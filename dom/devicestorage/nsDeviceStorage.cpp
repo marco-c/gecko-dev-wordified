@@ -14526,7 +14526,6 @@ DeviceStorageBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

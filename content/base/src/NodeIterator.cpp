@@ -1327,7 +1327,6 @@ NodeIteratorBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

@@ -1448,7 +1448,6 @@ SourceBufferBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

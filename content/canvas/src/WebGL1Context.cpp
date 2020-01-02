@@ -343,7 +343,6 @@ WebGLRenderingContextBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

@@ -207,7 +207,6 @@ HTMLHeadingElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

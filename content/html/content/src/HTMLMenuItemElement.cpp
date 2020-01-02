@@ -2251,7 +2251,6 @@ HTMLMenuItemElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

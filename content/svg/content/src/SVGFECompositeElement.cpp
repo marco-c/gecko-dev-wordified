@@ -160,7 +160,6 @@ SVGFECompositeElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

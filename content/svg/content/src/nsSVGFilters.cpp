@@ -2481,7 +2481,6 @@ SVGFEFuncRElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -2543,7 +2542,6 @@ SVGFEFuncGElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -2605,7 +2603,6 @@ SVGFEFuncBElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -2667,7 +2664,6 @@ SVGFEFuncAElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

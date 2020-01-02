@@ -299,7 +299,6 @@ DOMPointBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

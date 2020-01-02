@@ -898,7 +898,6 @@ SharedWorkerBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

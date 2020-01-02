@@ -13429,7 +13429,6 @@ IDBObjectStoreBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

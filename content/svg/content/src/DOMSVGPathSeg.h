@@ -433,7 +433,6 @@ Binding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

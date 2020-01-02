@@ -1139,7 +1139,6 @@ DelayNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

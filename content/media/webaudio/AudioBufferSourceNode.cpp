@@ -3398,7 +3398,6 @@ AudioBufferSourceNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

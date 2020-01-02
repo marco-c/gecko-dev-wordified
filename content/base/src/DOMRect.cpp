@@ -200,7 +200,6 @@ DOMRectReadOnlyBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -387,7 +386,6 @@ DOMRectBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -693,7 +691,6 @@ DOMRectListBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

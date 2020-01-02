@@ -215,7 +215,6 @@ SVGAElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

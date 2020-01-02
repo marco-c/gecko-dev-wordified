@@ -601,7 +601,6 @@ HTMLAudioElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

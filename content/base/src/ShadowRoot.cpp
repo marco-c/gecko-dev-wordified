@@ -613,7 +613,6 @@ ShadowRootBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -225,7 +225,6 @@ SVGMatrixBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

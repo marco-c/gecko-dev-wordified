@@ -635,7 +635,6 @@ MozNDEFRecordBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

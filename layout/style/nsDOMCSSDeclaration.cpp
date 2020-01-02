@@ -259,7 +259,6 @@ CSS2PropertiesBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

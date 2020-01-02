@@ -200,7 +200,6 @@ XMLHttpRequestUploadBinding_workers
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

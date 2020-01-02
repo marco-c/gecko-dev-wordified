@@ -203,7 +203,6 @@ AnimationEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

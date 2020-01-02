@@ -252,7 +252,6 @@ AudioListenerBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

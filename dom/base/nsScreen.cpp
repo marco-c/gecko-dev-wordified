@@ -1728,7 +1728,6 @@ ScreenBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

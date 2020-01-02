@@ -246,7 +246,6 @@ DocumentFragmentBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

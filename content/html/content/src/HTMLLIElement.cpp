@@ -606,7 +606,6 @@ HTMLLIElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

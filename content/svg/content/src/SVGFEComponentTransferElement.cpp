@@ -190,7 +190,6 @@ SVGFEComponentTransferElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

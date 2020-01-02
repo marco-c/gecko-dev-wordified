@@ -201,7 +201,6 @@ SVGFETurbulenceElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

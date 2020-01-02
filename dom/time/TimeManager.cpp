@@ -159,7 +159,6 @@ MozTimeManagerBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

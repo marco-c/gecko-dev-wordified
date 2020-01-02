@@ -737,7 +737,6 @@ VTTCueBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

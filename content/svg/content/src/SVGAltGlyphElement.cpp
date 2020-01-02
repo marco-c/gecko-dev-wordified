@@ -153,7 +153,6 @@ SVGAltGlyphElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

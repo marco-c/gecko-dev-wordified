@@ -346,7 +346,6 @@ DOMErrorBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

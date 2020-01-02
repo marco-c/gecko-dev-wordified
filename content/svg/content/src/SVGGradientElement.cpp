@@ -873,7 +873,6 @@ SVGLinearGradientElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -1516,7 +1515,6 @@ SVGRadialGradientElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

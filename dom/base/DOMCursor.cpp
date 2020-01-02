@@ -417,7 +417,6 @@ DOMCursorBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

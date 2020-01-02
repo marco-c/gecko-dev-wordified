@@ -289,7 +289,6 @@ HTMLScriptElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

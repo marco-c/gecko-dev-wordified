@@ -444,7 +444,6 @@ ChannelSplitterNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -219,7 +219,6 @@ HTMLTableCellElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

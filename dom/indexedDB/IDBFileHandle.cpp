@@ -669,7 +669,6 @@ IDBFileHandleBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -209,7 +209,6 @@ TimeEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

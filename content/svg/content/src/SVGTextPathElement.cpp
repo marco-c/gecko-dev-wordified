@@ -177,7 +177,6 @@ SVGTextPathElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

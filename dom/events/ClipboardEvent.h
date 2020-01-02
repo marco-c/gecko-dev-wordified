@@ -205,7 +205,6 @@ ClipboardEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

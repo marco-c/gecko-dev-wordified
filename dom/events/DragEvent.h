@@ -199,7 +199,6 @@ DragEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

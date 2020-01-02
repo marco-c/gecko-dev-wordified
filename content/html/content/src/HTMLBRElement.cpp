@@ -510,7 +510,6 @@ HTMLBRElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

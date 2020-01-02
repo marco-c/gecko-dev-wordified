@@ -197,7 +197,6 @@ MouseScrollEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

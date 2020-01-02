@@ -1504,7 +1504,6 @@ HTMLMeterElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

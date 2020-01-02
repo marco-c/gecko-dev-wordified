@@ -832,7 +832,6 @@ HTMLOListElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -858,7 +857,6 @@ HTMLDListElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -884,7 +882,6 @@ HTMLUListElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

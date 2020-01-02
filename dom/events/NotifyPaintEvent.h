@@ -275,7 +275,6 @@ NotifyPaintEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

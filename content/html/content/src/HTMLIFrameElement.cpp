@@ -1503,7 +1503,6 @@ HTMLIFrameElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

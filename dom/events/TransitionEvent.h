@@ -203,7 +203,6 @@ TransitionEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -347,7 +347,6 @@ BatteryManagerBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

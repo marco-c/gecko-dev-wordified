@@ -158,7 +158,6 @@ HTMLDataListElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

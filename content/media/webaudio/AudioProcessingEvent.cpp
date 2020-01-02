@@ -235,7 +235,6 @@ AudioProcessingEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

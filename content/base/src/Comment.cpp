@@ -484,7 +484,6 @@ CommentBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

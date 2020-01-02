@@ -5546,7 +5546,6 @@ BluetoothAdapterBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

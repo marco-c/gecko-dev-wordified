@@ -465,7 +465,6 @@ AudioBufferBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

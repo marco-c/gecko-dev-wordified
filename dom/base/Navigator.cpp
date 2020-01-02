@@ -10516,7 +10516,6 @@ NavigatorBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

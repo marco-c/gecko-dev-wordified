@@ -151,7 +151,6 @@ PointerEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

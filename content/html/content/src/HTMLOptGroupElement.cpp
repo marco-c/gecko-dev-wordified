@@ -800,7 +800,6 @@ HTMLOptGroupElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

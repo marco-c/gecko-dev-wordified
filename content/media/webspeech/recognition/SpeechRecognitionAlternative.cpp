@@ -235,7 +235,6 @@ SpeechRecognitionAlternativeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

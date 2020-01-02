@@ -249,7 +249,6 @@ VideoPlaybackQualityBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

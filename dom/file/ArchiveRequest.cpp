@@ -393,7 +393,6 @@ ArchiveRequestBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

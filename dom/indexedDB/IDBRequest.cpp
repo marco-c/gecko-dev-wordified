@@ -1661,7 +1661,6 @@ IDBRequestBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -2243,7 +2242,6 @@ IDBOpenDBRequestBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

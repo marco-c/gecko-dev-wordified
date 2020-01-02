@@ -275,7 +275,6 @@ MimeTypeArrayBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -1177,7 +1176,6 @@ MimeTypeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -167,7 +167,6 @@ WebGLQueryBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

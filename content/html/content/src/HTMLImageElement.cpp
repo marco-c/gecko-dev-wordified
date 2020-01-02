@@ -3255,7 +3255,6 @@ HTMLImageElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

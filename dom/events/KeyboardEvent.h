@@ -206,7 +206,6 @@ KeyboardEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -1601,7 +1601,6 @@ EventSourceBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

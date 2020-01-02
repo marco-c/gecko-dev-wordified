@@ -167,7 +167,6 @@ WebGLUniformLocationBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

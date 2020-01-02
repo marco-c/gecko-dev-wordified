@@ -2685,7 +2685,6 @@ PeerConnectionImplBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

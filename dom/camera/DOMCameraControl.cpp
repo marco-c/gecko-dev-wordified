@@ -998,7 +998,6 @@ CameraControlBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

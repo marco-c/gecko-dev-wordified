@@ -508,7 +508,6 @@ ChannelMergerNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

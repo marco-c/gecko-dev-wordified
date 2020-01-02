@@ -169,7 +169,6 @@ SVGClipPathElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

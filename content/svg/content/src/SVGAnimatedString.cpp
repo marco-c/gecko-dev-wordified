@@ -149,7 +149,6 @@ SVGAnimatedStringBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

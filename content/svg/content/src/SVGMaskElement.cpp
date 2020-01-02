@@ -176,7 +176,6 @@ SVGMaskElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

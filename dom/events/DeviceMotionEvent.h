@@ -213,7 +213,6 @@ DeviceRotationRateBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -396,7 +395,6 @@ DeviceAccelerationBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -534,7 +532,6 @@ DeviceMotionEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

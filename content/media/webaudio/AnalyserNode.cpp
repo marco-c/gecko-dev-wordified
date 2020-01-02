@@ -543,7 +543,6 @@ AnalyserNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

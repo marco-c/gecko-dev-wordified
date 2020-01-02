@@ -726,7 +726,6 @@ HTMLLegendElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

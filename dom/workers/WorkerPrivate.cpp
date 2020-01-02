@@ -10167,7 +10167,6 @@ WorkerBinding
 Wrap
 (
 aCx
-aScope
 ParentAsWorkerPrivate
 (
 )

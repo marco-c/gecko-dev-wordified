@@ -491,7 +491,6 @@ EventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

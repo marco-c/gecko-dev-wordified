@@ -168,7 +168,6 @@ SimpleGestureEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

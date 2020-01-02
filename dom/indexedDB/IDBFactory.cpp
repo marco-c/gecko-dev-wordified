@@ -3919,7 +3919,6 @@ IDBFactoryBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

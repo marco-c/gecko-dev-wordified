@@ -291,7 +291,6 @@ HTMLShadowElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

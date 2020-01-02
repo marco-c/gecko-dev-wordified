@@ -347,7 +347,6 @@ AudioParamBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
