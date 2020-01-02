@@ -2448,6 +2448,11 @@ syncnow
 -
 state
 "
+hidden
+=
+"
+true
+"
 /
 >
 <
@@ -2460,6 +2465,11 @@ sync
 reauth
 -
 state
+"
+hidden
+=
+"
+true
 "
 /
 >
