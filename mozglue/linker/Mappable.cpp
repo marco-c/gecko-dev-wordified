@@ -372,11 +372,9 @@ cachePath
 cachePath
 )
 {
-LOG
+WARN
 (
 "
-Warning
-:
 MOZ_LINKER_EXTRACT
 is
 set
@@ -555,7 +553,7 @@ fd
 1
 )
 {
-LOG
+ERROR
 (
 "
 Couldn
@@ -627,7 +625,7 @@ GetUncompressedSize
 1
 )
 {
-LOG
+ERROR
 (
 "
 Couldn
@@ -694,7 +692,7 @@ buffer
 MAP_FAILED
 )
 {
-LOG
+ERROR
 (
 "
 Couldn
@@ -748,7 +746,7 @@ MAX_WBITS
 Z_OK
 )
 {
-LOG
+ERROR
 (
 "
 inflateInit
@@ -779,7 +777,7 @@ Z_FINISH
 Z_STREAM_END
 )
 {
-LOG
+ERROR
 (
 "
 inflate
@@ -809,7 +807,7 @@ zStream
 Z_OK
 )
 {
-LOG
+ERROR
 (
 "
 inflateEnd
@@ -842,7 +840,7 @@ GetUncompressedSize
 )
 )
 {
-LOG
+ERROR
 (
 "
 File
@@ -924,7 +922,7 @@ GetSize
 )
 )
 {
-LOG
+ERROR
 (
 "
 Couldn
@@ -960,7 +958,7 @@ GetUncompressedSize
 1
 )
 {
-LOG
+ERROR
 (
 "
 Couldn
@@ -1013,7 +1011,7 @@ buffer
 MAP_FAILED
 )
 {
-LOG
+ERROR
 (
 "
 Couldn
@@ -1054,7 +1052,7 @@ GetUncompressedSize
 )
 )
 {
-LOG
+ERROR
 (
 "
 %
@@ -2334,7 +2332,7 @@ Z_OK
 )
 )
 {
-LOG
+ERROR
 (
 "
 inflateInit
@@ -2373,7 +2371,7 @@ ret
 0
 )
 {
-LOG
+ERROR
 (
 "
 inflate
@@ -2403,7 +2401,7 @@ ret
 Z_NEED_DICT
 )
 {
-LOG
+ERROR
 (
 "
 zstream
@@ -2459,7 +2457,7 @@ zStream
 Z_OK
 )
 {
-LOG
+ERROR
 (
 "
 inflateEnd
@@ -2496,7 +2494,7 @@ GetLength
 )
 )
 {
-LOG
+ERROR
 (
 "
 File
@@ -4339,7 +4337,7 @@ return
 true
 ;
 }
-LOG
+ERROR
 (
 "
 mprotect
@@ -4366,14 +4364,6 @@ map
 >
 prot
 errno
-)
-;
-LOG
-(
-"
-mprotect
-failed
-"
 )
 ;
 return

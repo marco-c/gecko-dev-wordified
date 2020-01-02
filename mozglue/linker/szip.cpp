@@ -1234,7 +1234,7 @@ SeekableZStreamHeader
 )
 )
 {
-LOG
+ERROR
 (
 "
 %
@@ -1298,7 +1298,7 @@ size
 )
 )
 {
-LOG
+ERROR
 (
 "
 Error
@@ -1388,7 +1388,7 @@ origSize
 0
 )
 {
-LOG
+ERROR
 (
 "
 Won
@@ -1421,7 +1421,7 @@ origBuf
 )
 )
 {
-LOG
+WARN
 (
 "
 Skipping
@@ -1497,7 +1497,7 @@ origSize
 )
 )
 {
-LOG
+ERROR
 (
 "
 Couldn
@@ -2099,7 +2099,7 @@ size
 origSize
 )
 {
-LOG
+ERROR
 (
 "
 Compression
@@ -2146,7 +2146,7 @@ size
 )
 )
 {
-LOG
+ERROR
 (
 "
 Compression
@@ -2320,7 +2320,7 @@ origSize
 )
 )
 {
-LOG
+ERROR
 (
 "
 Couldn
@@ -2750,7 +2750,7 @@ offset
 )
 )
 {
-LOG
+ERROR
 (
 "
 Error
@@ -3022,7 +3022,7 @@ maxChunkSize
 )
 )
 {
-LOG
+ERROR
 (
 "
 Invalid
@@ -3149,7 +3149,7 @@ if
 matched
 )
 {
-LOG
+ERROR
 (
 "
 Invalid
@@ -3248,7 +3248,7 @@ dictSize
 )
 )
 {
-LOG
+ERROR
 (
 "
 Invalid
@@ -3339,7 +3339,7 @@ if
 chunkSize
 )
 {
-LOG
+ERROR
 (
 "
 -
@@ -3361,7 +3361,7 @@ if
 dictSize
 )
 {
-LOG
+ERROR
 (
 "
 -
@@ -3450,7 +3450,7 @@ firstArg
 )
 )
 {
-LOG
+ERROR
 (
 "
 Couldn
@@ -3499,7 +3499,7 @@ ret
 1
 )
 {
-LOG
+ERROR
 (
 "
 Couldn
@@ -3552,7 +3552,7 @@ origSize
 )
 )
 {
-LOG
+ERROR
 (
 "
 Couldn
@@ -3606,7 +3606,7 @@ true
 )
 )
 {
-LOG
+ERROR
 (
 "
 Couldn

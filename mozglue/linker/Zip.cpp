@@ -167,7 +167,7 @@ fd
 1
 )
 {
-LOG
+ERROR
 (
 "
 Error
@@ -207,7 +207,7 @@ st
 1
 )
 {
-LOG
+ERROR
 (
 "
 Error
@@ -247,7 +247,7 @@ CentralDirectoryEnd
 )
 )
 {
-LOG
+ERROR
 (
 "
 Error
@@ -287,7 +287,7 @@ mapped
 MAP_FAILED
 )
 {
-LOG
+ERROR
 (
 "
 Error
@@ -410,7 +410,7 @@ zip
 entries
 )
 {
-LOG
+ERROR
 (
 "
 %
@@ -1168,7 +1168,7 @@ if
 nextFile
 )
 {
-LOG
+ERROR
 (
 "
 %
@@ -1391,7 +1391,7 @@ if
 end
 )
 {
-LOG
+ERROR
 (
 "
 %
@@ -1443,7 +1443,7 @@ if
 entries
 )
 {
-LOG
+ERROR
 (
 "
 %

@@ -108,7 +108,7 @@ if
 header
 )
 {
-LOG
+ERROR
 (
 "
 Not
@@ -279,7 +279,7 @@ totalSize
 )
 )
 {
-LOG
+ERROR
 (
 "
 Malformed
@@ -404,7 +404,7 @@ numElements
 )
 )
 {
-LOG
+ERROR
 (
 "
 DecompressChunk
@@ -610,7 +610,7 @@ windowBits
 Z_OK
 )
 {
-LOG
+ERROR
 (
 "
 inflateInit
@@ -649,7 +649,7 @@ numElements
 Z_OK
 )
 {
-LOG
+ERROR
 (
 "
 inflateSetDictionary
@@ -698,7 +698,7 @@ Z_STREAM_END
 Z_OK
 )
 {
-LOG
+ERROR
 (
 "
 inflate
@@ -728,7 +728,7 @@ zStream
 Z_OK
 )
 {
-LOG
+ERROR
 (
 "
 inflateEnd
