@@ -167,6 +167,9 @@ h
 class
 nsPresContext
 ;
+class
+nsIFrame
+;
 namespace
 mozilla
 {
@@ -838,6 +841,15 @@ nsCSSProperty
 aProperty
 CanAnimateFlags
 aFlags
+)
+;
+static
+bool
+IsCompositorAnimationDisabledForFrame
+(
+nsIFrame
+*
+aFrame
 )
 ;
 /
