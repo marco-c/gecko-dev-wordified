@@ -3487,6 +3487,17 @@ enter
 mMonitor
 )
 ;
+if
+(
+mState
+=
+=
+kStopped
+)
+{
+return
+;
+}
 mImage
 =
 aImage
