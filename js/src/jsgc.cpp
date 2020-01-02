@@ -17114,14 +17114,8 @@ isEmpty
 )
 )
 ;
-mozilla
-:
-:
-DebugOnly
-<
 JSRuntime
 *
->
 rt
 =
 zone
