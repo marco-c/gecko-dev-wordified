@@ -1203,7 +1203,7 @@ prompt
 char
 line
 [
-256
+4096
 ]
 =
 {
