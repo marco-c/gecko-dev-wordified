@@ -2003,12 +2003,6 @@ StateData
 *
 mStateData
 ;
-js
-:
-:
-SkipRoot
-mSkip
-;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
@@ -2034,11 +2028,6 @@ aCx
 mStateData
 (
 aData
-)
-mSkip
-(
-aCx
-mStateData
 )
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
