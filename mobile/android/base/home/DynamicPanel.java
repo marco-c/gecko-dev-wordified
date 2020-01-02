@@ -571,7 +571,7 @@ this
 panel
 private
 PanelLayout
-mLayout
+mPanelLayout
 ;
 /
 /
@@ -785,7 +785,7 @@ PanelDatasetHandler
 (
 )
 ;
-mLayout
+mPanelLayout
 =
 new
 FramePanelLayout
@@ -837,7 +837,7 @@ getLayoutType
 )
 ;
 return
-mLayout
+mPanelLayout
 ;
 }
 Override
@@ -885,7 +885,7 @@ onDestroyView
 (
 )
 ;
-mLayout
+mPanelLayout
 =
 null
 ;
@@ -1018,7 +1018,7 @@ layout
 "
 )
 ;
-mLayout
+mPanelLayout
 .
 load
 (
@@ -1925,7 +1925,7 @@ request
 request
 )
 ;
-mLayout
+mPanelLayout
 .
 deliverDataset
 (
@@ -1973,13 +1973,13 @@ request
 ;
 if
 (
-mLayout
+mPanelLayout
 !
 =
 null
 )
 {
-mLayout
+mPanelLayout
 .
 releaseDataset
 (
