@@ -529,7 +529,10 @@ mFrameHeight
 ;
 mPicture
 =
-nsIntRect
+gfx
+:
+:
+IntRect
 (
 0
 0
@@ -896,7 +899,10 @@ private
 VideoInfo
 mInfo
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 mPicture
 ;
 uint32_t

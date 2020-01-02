@@ -135,6 +135,13 @@ nsISeekableStream
 .
 h
 "
+#
+include
+"
+gfx2DGlue
+.
+h
+"
 using
 namespace
 mozilla
@@ -1451,7 +1458,10 @@ a
 keyframe
 -
 1
+ToIntRect
+(
 mPicture
+)
 )
 ;
 if
