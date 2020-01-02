@@ -29150,11 +29150,13 @@ which
 case
 /
 /
-nsChangeHint_UpdateTransformLayer
-will
+the
+ActiveLayerManager
+may
 not
-be
-present
+have
+been
+notified
 yet
 .
 if
