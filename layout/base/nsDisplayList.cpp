@@ -5016,10 +5016,9 @@ this
 /
 in
 the
-frame
-metrics
+FrameMetrics
 so
-APZC
+APZ
 knows
 to
 provide
