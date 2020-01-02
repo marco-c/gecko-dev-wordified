@@ -394,7 +394,11 @@ substs
 }
     
 '
-xpcshell_manifests
+test
+-
+manifests
+-
+written
 '
 :
 {
@@ -418,16 +422,6 @@ substs
 '
 :
 [
-            
-(
-'
-XPCSHELL_TESTS_MANIFESTS
-'
-'
-XPCSHELL_TESTS
-'
-)
-            
 ]
     
 }

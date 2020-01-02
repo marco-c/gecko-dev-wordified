@@ -128,6 +128,14 @@ ext
 .
 graphviz
 '
+    
+'
+sphinx
+.
+ext
+.
+todo
+'
 ]
 templates_path
 =
