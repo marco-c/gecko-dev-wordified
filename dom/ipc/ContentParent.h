@@ -695,6 +695,12 @@ ContentParent
 aArray
 )
 ;
+static
+bool
+IgnoreIPCPrincipal
+(
+)
+;
 virtual
 bool
 RecvCreateChildProcess
