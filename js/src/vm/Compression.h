@@ -177,6 +177,9 @@ inplen
 size_t
 outbytes
 ;
+bool
+initialized
+;
 public
 :
 enum
