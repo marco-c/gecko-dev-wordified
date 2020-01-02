@@ -65,30 +65,22 @@ harness
 "
 "
 "
-from
-optparse
-import
-OptionParser
-import
-collections
-import
-json
-import
-mozprofile
-import
-multiprocessing
-import
-os
 import
 re
 import
+sys
+import
 shutil
+import
+os
+import
+threading
 import
 subprocess
 import
-sys
+collections
 import
-threading
+multiprocessing
 SCRIPT_DIRECTORY
 =
 os
@@ -134,16 +126,17 @@ Automation
 from
 automationutils
 import
-(
-        
-addCommonOptions
-        
-getDebuggerInfo
-        
-isURL
-        
-processLeakLog
-)
+*
+from
+optparse
+import
+OptionParser
+from
+tempfile
+import
+mkdtemp
+import
+mozprofile
 def
 categoriesToRegex
 (
@@ -1102,9 +1095,6 @@ localhost
 special_powers
 =
 True
-profile_to_clone
-=
-None
 )
 :
     
@@ -1659,58 +1649,27 @@ f
 )
 )
     
-kwargs
+profile
 =
-{
-'
+mozprofile
+.
+profile
+.
+Profile
+(
+        
 addons
-'
-:
+=
 addons
-               
-'
+        
 preferences
-'
-:
+=
 prefs
-               
-'
-locations
-'
-:
-locations
-}
-    
-if
-profile_to_clone
-:
         
-profile
+locations
 =
-mozprofile
-.
-Profile
-.
-clone
-(
-profile_to_clone
-*
-*
-kwargs
-)
+locations
     
-else
-:
-        
-profile
-=
-mozprofile
-.
-Profile
-(
-*
-*
-kwargs
 )
     
 self
@@ -3063,20 +3022,14 @@ __init__
 (
 self
 automation
-=
-None
 )
 :
     
 self
 .
-automation
+_automation
 =
 automation
-or
-Automation
-(
-)
     
 OptionParser
 .
@@ -3114,7 +3067,7 @@ zip
 (
 self
 .
-automation
+_automation
 .
 __all__
                             
@@ -3123,7 +3076,7 @@ getattr
 (
 self
 .
-automation
+_automation
 x
 )
 for
@@ -3131,7 +3084,7 @@ x
 in
 self
 .
-automation
+_automation
 .
 __all__
 ]
@@ -3141,7 +3094,7 @@ __all__
     
 self
 .
-automation
+_automation
 .
 addCommonOptions
 (
@@ -3409,7 +3362,7 @@ default
 =
 self
 .
-automation
+_automation
 .
 DIST_BIN
                     
@@ -3443,7 +3396,7 @@ utilityPath
 =
 self
 .
-automation
+_automation
 .
 DIST_BIN
     
