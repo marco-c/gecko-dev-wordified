@@ -227,6 +227,14 @@ FireDone
 (
 )
 ;
+protected
+:
+~
+DOMCursor
+(
+)
+{
+}
 private
 :
 DOMCursor

@@ -118,11 +118,6 @@ nsPIDOMWindow
 aWindow
 )
 ;
-~
-DataStore
-(
-)
-;
 /
 /
 WebIDL
@@ -448,6 +443,11 @@ aRv
 ;
 private
 :
+~
+DataStore
+(
+)
+;
 nsRefPtr
 <
 DataStoreImpl

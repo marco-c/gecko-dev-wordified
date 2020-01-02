@@ -283,12 +283,6 @@ break
 ;
 }
 }
-~
-HmacKeyAlgorithm
-(
-)
-{
-}
 virtual
 JSObject
 *
@@ -347,6 +341,12 @@ aReader
 ;
 protected
 :
+~
+HmacKeyAlgorithm
+(
+)
+{
+}
 nsRefPtr
 <
 KeyAlgorithm

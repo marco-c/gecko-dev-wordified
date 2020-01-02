@@ -193,6 +193,12 @@ EventTarget
 aOwner
 )
 ;
+~
+InstallPhaseEvent
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
@@ -435,6 +441,12 @@ EventTarget
 aOwner
 )
 ;
+~
+InstallEvent
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS_INHERITED

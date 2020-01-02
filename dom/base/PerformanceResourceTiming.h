@@ -200,12 +200,6 @@ aPerformance
 )
 ;
 virtual
-~
-PerformanceResourceTiming
-(
-)
-;
-virtual
 JSObject
 *
 WrapObject
@@ -613,6 +607,12 @@ return
 }
 protected
 :
+virtual
+~
+PerformanceResourceTiming
+(
+)
+;
 nsString
 mInitiatorType
 ;

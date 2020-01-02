@@ -251,6 +251,12 @@ typechange
 )
 private
 :
+~
+Connection
+(
+)
+{
+}
 /
 *
 *

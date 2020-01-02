@@ -309,12 +309,6 @@ nsPIDOMWindow
 aWindow
 )
 ;
-virtual
-~
-nsDOMOfflineResourceList
-(
-)
-;
 void
 FirePendingEvents
 (
@@ -636,6 +630,14 @@ aURI
 )
 ;
 }
+protected
+:
+virtual
+~
+nsDOMOfflineResourceList
+(
+)
+;
 private
 :
 nsresult

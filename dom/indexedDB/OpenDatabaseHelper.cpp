@@ -8061,6 +8061,13 @@ MOZ_OVERRIDE
 protected
 :
 virtual
+~
+SetVersionHelper
+(
+)
+{
+}
+virtual
 nsresult
 Init
 (
@@ -8359,6 +8366,13 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+DeleteDatabaseHelper
+(
+)
+{
+}
 nsresult
 DoDatabaseWork
 (

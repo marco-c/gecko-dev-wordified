@@ -214,11 +214,6 @@ aNodeInfo
 )
 {
 }
-~
-XBLChildrenElement
-(
-)
-;
 /
 /
 nsISupports
@@ -715,6 +710,13 @@ aIndex
 ]
 ;
 }
+protected
+:
+~
+XBLChildrenElement
+(
+)
+;
 private
 :
 nsTArray

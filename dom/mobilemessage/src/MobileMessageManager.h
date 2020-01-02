@@ -521,6 +521,12 @@ readerror
 )
 private
 :
+~
+MobileMessageManager
+(
+)
+{
+}
 /
 *
 *

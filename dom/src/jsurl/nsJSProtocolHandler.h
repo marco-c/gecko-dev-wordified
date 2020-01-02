@@ -446,6 +446,13 @@ aInstancePtr
 protected
 :
 virtual
+~
+nsJSURI
+(
+)
+{
+}
+virtual
 nsresult
 EqualsInternal
 (

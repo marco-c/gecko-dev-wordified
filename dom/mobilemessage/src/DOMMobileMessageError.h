@@ -208,6 +208,12 @@ const
 ;
 private
 :
+~
+DOMMobileMessageError
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIDOMMozSmsMessage

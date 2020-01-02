@@ -331,11 +331,6 @@ nsPIDOMWindow
 aWindow
 )
 ;
-~
-MessagePort
-(
-)
-;
 virtual
 JSObject
 *
@@ -473,6 +468,11 @@ MOZ_OVERRIDE
 ;
 private
 :
+~
+MessagePort
+(
+)
+;
 /
 /
 Dispatch

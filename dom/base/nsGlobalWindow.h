@@ -10345,6 +10345,8 @@ return
 PL_DHASH_NEXT
 ;
 }
+protected
+:
 ~
 nsGlobalChromeWindow
 (
@@ -10408,6 +10410,8 @@ mCleanMessageManager
 false
 ;
 }
+public
+:
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 nsGlobalChromeWindow
@@ -10570,6 +10574,14 @@ true
 }
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMMODALCONTENTWINDOW
+protected
+:
+~
+nsGlobalModalWindow
+(
+)
+{
+}
 }
 ;
 /

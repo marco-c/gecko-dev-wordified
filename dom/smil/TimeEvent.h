@@ -254,6 +254,12 @@ aDetail
 }
 private
 :
+~
+TimeEvent
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIDOMWindow
