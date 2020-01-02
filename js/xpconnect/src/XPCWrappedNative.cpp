@@ -2304,7 +2304,7 @@ GetRuntime
 )
 -
 >
-GetThreadRunningGC
+GCIsRunning
 (
 )
 "
