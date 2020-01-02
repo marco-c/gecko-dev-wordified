@@ -469,9 +469,11 @@ aSize
 )
 )
 {
-RemoveTextureClient
-(
 mBuffer
+-
+>
+ForceRemove
+(
 )
 ;
 mBuffer
