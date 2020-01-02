@@ -1098,13 +1098,6 @@ MOZ_WEBSPEECH
 #
 include
 "
-nsIDOMStorageEvent
-.
-h
-"
-#
-include
-"
 nsIDOMStyleSheet
 .
 h
@@ -3730,10 +3723,6 @@ endif
 /
 /
 MOZ_WEBSPEECH
-DEFINE_SHIM
-(
-StorageEvent
-)
 DEFINE_SHIM
 (
 StyleSheet
