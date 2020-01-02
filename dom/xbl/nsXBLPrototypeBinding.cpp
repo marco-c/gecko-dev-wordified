@@ -1108,7 +1108,7 @@ void
 nsXBLPrototypeBinding
 :
 :
-UnlinkJSObjects
+Unlink
 (
 )
 {
@@ -1116,6 +1116,7 @@ if
 (
 mImplementation
 )
+{
 mImplementation
 -
 >
@@ -1123,6 +1124,20 @@ UnlinkJSObjects
 (
 )
 ;
+}
+if
+(
+mResources
+)
+{
+mResources
+-
+>
+Unlink
+(
+)
+;
+}
 }
 void
 nsXBLPrototypeBinding
