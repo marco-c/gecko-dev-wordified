@@ -410,7 +410,6 @@ mTextTracks
 >
 AddTextTrack
 (
-mMediaElement
 aKind
 aLabel
 aLanguage

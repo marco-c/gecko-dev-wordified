@@ -395,9 +395,6 @@ TextTrackList
 :
 AddTextTrack
 (
-HTMLMediaElement
-*
-aMediaElement
 TextTrackKind
 aKind
 const
@@ -420,7 +417,7 @@ new
 TextTrack
 (
 mGlobal
-aMediaElement
+this
 aKind
 aLabel
 aLanguage
@@ -445,14 +442,6 @@ NS_LITERAL_STRING
 addtrack
 "
 )
-)
-;
-track
--
->
-SetTextTrackList
-(
-this
 )
 ;
 }

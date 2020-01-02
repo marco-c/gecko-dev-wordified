@@ -277,9 +277,6 @@ TextTrack
 >
 AddTextTrack
 (
-HTMLMediaElement
-*
-aMediaElement
 TextTrackKind
 aKind
 const
