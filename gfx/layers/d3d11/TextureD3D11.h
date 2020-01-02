@@ -959,6 +959,11 @@ GetDevice
 (
 )
 ;
+bool
+OpenSharedHandle
+(
+)
+;
 RefPtr
 <
 ID3D11Texture2D
