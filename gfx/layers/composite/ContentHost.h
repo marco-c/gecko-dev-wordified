@@ -847,16 +847,6 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-RemoveTextureHost
-(
-TextureHost
-*
-aTexture
-)
-MOZ_OVERRIDE
-;
-virtual
-void
 SetPaintWillResample
 (
 bool
