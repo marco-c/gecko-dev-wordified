@@ -408,6 +408,7 @@ const
 MOZ_OVERRIDE
 ;
 static
+const
 AddonWrapper
 singleton
 ;
