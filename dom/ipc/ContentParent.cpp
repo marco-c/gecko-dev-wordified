@@ -853,7 +853,7 @@ h
 #
 include
 "
-gfxPlatform
+gfxPrefs
 .
 h
 "
@@ -8799,7 +8799,7 @@ opened
 ;
 if
 (
-gfxPlatform
+gfxPrefs
 :
 :
 AsyncVideoEnabled
