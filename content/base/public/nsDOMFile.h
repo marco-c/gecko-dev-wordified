@@ -314,9 +314,6 @@ nsCycleCollectionParticipant
 h
 "
 class
-nsDOMMultipartFile
-;
-class
 nsIFile
 ;
 class
@@ -335,10 +332,6 @@ nsIXHRSendable
 public
 nsIMutable
 {
-friend
-class
-nsDOMMultipartFile
-;
 public
 :
 typedef
@@ -1935,8 +1928,6 @@ const
 nsAString
 &
 aContentType
-uint64_t
-aLastModifiedDate
 )
 :
 nsDOMFile
@@ -1944,7 +1935,7 @@ nsDOMFile
 aName
 aContentType
 aLength
-aLastModifiedDate
+UINT64_MAX
 )
 mDataOwner
 (

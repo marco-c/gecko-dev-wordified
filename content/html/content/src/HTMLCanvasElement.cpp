@@ -3178,9 +3178,6 @@ uint32_t
 imgSize
 aName
 type
-PR_Now
-(
-)
 )
 ;
 file
