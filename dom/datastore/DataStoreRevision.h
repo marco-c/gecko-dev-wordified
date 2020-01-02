@@ -120,7 +120,7 @@ mozilla_dom_DataStoreRevision_h
 #
 include
 "
-nsIDOMEventListener
+jsapi
 .
 h
 "
@@ -134,14 +134,14 @@ h
 #
 include
 "
-nsString
+nsIDOMEventListener
 .
 h
 "
 #
 include
 "
-jsapi
+nsString
 .
 h
 "
