@@ -112,12 +112,8 @@ layers
 class
 TransactionIdAllocator
 {
-public
+protected
 :
-NS_INLINE_DECL_REFCOUNTING
-(
-TransactionIdAllocator
-)
 virtual
 ~
 TransactionIdAllocator
@@ -125,6 +121,12 @@ TransactionIdAllocator
 )
 {
 }
+public
+:
+NS_INLINE_DECL_REFCOUNTING
+(
+TransactionIdAllocator
+)
 /
 *
 *

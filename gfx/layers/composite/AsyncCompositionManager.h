@@ -554,6 +554,12 @@ friend
 class
 AutoResolveRefLayers
 ;
+~
+AsyncCompositionManager
+(
+)
+{
+}
 public
 :
 NS_INLINE_DECL_REFCOUNTING
@@ -582,12 +588,6 @@ false
 mReadyForCompose
 (
 true
-)
-{
-}
-~
-AsyncCompositionManager
-(
 )
 {
 }
