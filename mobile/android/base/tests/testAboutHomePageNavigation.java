@@ -126,7 +126,7 @@ testAboutHomePageNavigation
 {
 GeckoHelper
 .
-blockForReady
+blockForDelayedStartup
 (
 )
 ;
