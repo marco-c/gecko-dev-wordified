@@ -687,7 +687,7 @@ if
 info5
 =
 =
-NULL
+nullptr
 )
 {
 fprintf

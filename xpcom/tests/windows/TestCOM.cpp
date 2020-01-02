@@ -493,7 +493,7 @@ if
 aOuter
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -514,7 +514,7 @@ if
 t
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -640,7 +640,7 @@ iFactory
 >
 CreateInstance
 (
-NULL
+nullptr
 IID_IUnknown
 (
 void

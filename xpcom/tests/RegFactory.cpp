@@ -794,7 +794,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-NULL
+nullptr
 )
 ;
 NS_ASSERTION

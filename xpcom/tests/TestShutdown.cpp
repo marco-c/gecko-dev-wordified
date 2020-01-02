@@ -143,8 +143,8 @@ NS_InitXPCOM2
 (
 &
 servMgr
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 NS_ASSERTION

@@ -9091,7 +9091,7 @@ aInstancePtr
 {
 if
 (
-NULL
+nullptr
 =
 =
 aInstancePtr
@@ -9104,7 +9104,7 @@ NS_ERROR_NULL_POINTER
 *
 aInstancePtr
 =
-NULL
+nullptr
 ;
 if
 (
@@ -10279,7 +10279,7 @@ aInstancePtr
 {
 if
 (
-NULL
+nullptr
 =
 =
 aInstancePtr
@@ -10292,7 +10292,7 @@ NS_ERROR_NULL_POINTER
 *
 aInstancePtr
 =
-NULL
+nullptr
 ;
 if
 (

@@ -1087,7 +1087,7 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1512,7 +1512,7 @@ codePage
 cmdLine
 -
 1
-NULL
+nullptr
 0
 )
 ;
@@ -1691,7 +1691,7 @@ process
 >
 mProcess
 =
-NULL
+nullptr
 ;
 process
 -
@@ -2194,7 +2194,7 @@ name
 and
 one
 for
-NULL
+null
 termination
 .
 char
@@ -2202,7 +2202,7 @@ char
 *
 my_argv
 =
-NULL
+nullptr
 ;
 my_argv
 =
@@ -2289,7 +2289,7 @@ count
 1
 ]
 =
-NULL
+nullptr
 ;
 nsresult
 rv
@@ -2439,7 +2439,7 @@ name
 and
 one
 for
-NULL
+null
 termination
 .
 char
@@ -2447,7 +2447,7 @@ char
 *
 my_argv
 =
-NULL
+nullptr
 ;
 my_argv
 =
@@ -2533,7 +2533,7 @@ count
 1
 ]
 =
-NULL
+nullptr
 ;
 nsresult
 rv
@@ -2672,7 +2672,7 @@ PRUnichar
 *
 cmdLine
 =
-NULL
+nullptr
 ;
 /
 /
@@ -2717,7 +2717,7 @@ my_argv
 ]
 !
 =
-NULL
+nullptr
 &
 &
 assembleCmdLine
@@ -2834,7 +2834,7 @@ sinfo
 .
 hwnd
 =
-NULL
+nullptr
 ;
 sinfo
 .
@@ -3030,7 +3030,7 @@ my_argv
 [
 0
 ]
-NULL
+nullptr
 &
 spawnattr
 my_argv
@@ -3079,8 +3079,8 @@ my_argv
 0
 ]
 my_argv
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if

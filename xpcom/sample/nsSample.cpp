@@ -400,7 +400,7 @@ flattening
 NS_IMPL_CLASSINFO
 (
 nsSampleImpl
-NULL
+nullptr
 0
 NS_SAMPLE_CID
 )

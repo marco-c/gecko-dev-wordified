@@ -177,11 +177,11 @@ kTestCIDs
 &
 kNS_TESTING_CID
 false
-NULL
+nullptr
 DummyConstructorFunc
 }
 {
-NULL
+nullptr
 }
 }
 ;

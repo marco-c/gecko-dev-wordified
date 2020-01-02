@@ -3099,7 +3099,7 @@ allow
 /
 for
 a
-NULL
+nullptr
 input
 buffer
 :

@@ -794,7 +794,7 @@ nsCID
 *
 cid
 =
-NULL
+nullptr
 ;
 nsresult
 rv
@@ -1200,7 +1200,7 @@ extension2
 .
 jar
 "
-NULL
+nullptr
 )
 )
 )

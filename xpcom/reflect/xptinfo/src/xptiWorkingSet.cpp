@@ -238,7 +238,7 @@ mNameTable
 EnumerateRead
 (
 xpti_Invalidator
-NULL
+nullptr
 )
 ;
 }

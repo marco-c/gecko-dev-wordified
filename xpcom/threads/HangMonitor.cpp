@@ -406,7 +406,7 @@ static
 HANDLE
 winMainThreadHandle
 =
-NULL
+nullptr
 ;
 /
 /
@@ -1241,13 +1241,13 @@ RegisterCallback
 (
 PrefChanged
 kHangMonitorPrefName
-NULL
+nullptr
 )
 ;
 PrefChanged
 (
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 #
@@ -1260,7 +1260,7 @@ RegisterCallback
 (
 PrefChanged
 kTelemetryPrefName
-NULL
+nullptr
 )
 ;
 winMainThreadHandle
@@ -1350,7 +1350,7 @@ PR_CreateThread
 (
 PR_USER_THREAD
 ThreadMain
-NULL
+nullptr
 PR_PRIORITY_LOW
 PR_GLOBAL_THREAD
 PR_JOINABLE_THREAD
@@ -1435,7 +1435,7 @@ gThread
 ;
 gThread
 =
-NULL
+nullptr
 ;
 }
 delete
@@ -1443,7 +1443,7 @@ gMonitor
 ;
 gMonitor
 =
-NULL
+nullptr
 ;
 }
 static
@@ -1485,7 +1485,7 @@ PeekMessageW
 (
 &
 msg
-NULL
+nullptr
 WM_KEYFIRST
 WM_IME_KEYLAST
 PM_NOREMOVE
@@ -1500,7 +1500,7 @@ PeekMessageW
 (
 &
 msg
-NULL
+nullptr
 NS_WM_IMEFIRST
 NS_WM_IMELAST
 PM_NOREMOVE
@@ -1515,7 +1515,7 @@ PeekMessageW
 (
 &
 msg
-NULL
+nullptr
 WM_MOUSEFIRST
 WM_MOUSELAST
 PM_NOREMOVE

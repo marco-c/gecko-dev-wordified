@@ -518,7 +518,7 @@ where
 factoryproc
 is
 usually
-NULL
+nullptr
 .
 static
 const
@@ -538,11 +538,11 @@ kSampleCIDs
 &
 kNS_SAMPLE_CID
 false
-NULL
+nullptr
 nsSampleImplConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -619,7 +619,7 @@ NS_SAMPLE_CONTRACTID
 kNS_SAMPLE_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -720,7 +720,7 @@ key
 NS_SAMPLE_CONTRACTID
 }
 {
-NULL
+nullptr
 }
 }
 ;

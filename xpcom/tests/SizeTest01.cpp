@@ -326,7 +326,7 @@ of
 them
 is
 |
-NULL
+nullptr
 |
 .
 Similarly
@@ -399,7 +399,7 @@ _do_
 just
 return
 |
-NULL
+nullptr
 |
 at
 the

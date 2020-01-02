@@ -320,10 +320,10 @@ returns
 a
 non
 -
-NULL
+nullptr
+*
 value
 .
-*
 An
 environment
 variable
@@ -337,7 +337,8 @@ getenv
 )
 |
 returns
-NULL
+*
+nullptr
 .
 *
 /
