@@ -68,15 +68,11 @@ pkg_resources
 import
 sys
 from
-py
-.
-xml
+xmlgen
 import
 html
 from
-py
-.
-xml
+xmlgen
 import
 raw
 class
