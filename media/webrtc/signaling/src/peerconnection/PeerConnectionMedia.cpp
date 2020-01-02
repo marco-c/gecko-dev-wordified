@@ -3420,6 +3420,11 @@ ID
 )
 )
 ;
+if
+(
+dtls
+)
+{
 dtls
 -
 >
@@ -3435,6 +3440,7 @@ PeerConnectionMedia
 DtlsConnected
 )
 ;
+}
 }
 #
 ifdef
