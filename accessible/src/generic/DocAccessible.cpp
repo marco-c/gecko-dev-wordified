@@ -268,13 +268,6 @@ h
 #
 include
 "
-nsEventStateManager
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

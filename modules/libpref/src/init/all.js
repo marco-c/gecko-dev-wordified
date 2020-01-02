@@ -48887,7 +48887,7 @@ limit
 in
 milliseconds
 for
-nsEventStateManager
+EventStateManager
 :
 :
 IsHandlingUserInput

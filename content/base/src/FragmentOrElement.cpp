@@ -367,13 +367,6 @@ h
 #
 include
 "
-nsEventStateManager
-.
-h
-"
-#
-include
-"
 nsIDOMEvent
 .
 h

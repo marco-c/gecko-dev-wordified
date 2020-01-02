@@ -188,13 +188,6 @@ h
 #
 include
 "
-nsEventStateManager
-.
-h
-"
-#
-include
-"
 nsFrameManager
 .
 h
@@ -288,6 +281,15 @@ h
 include
 "
 nsJSUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventStateManager
 .
 h
 "
@@ -13499,7 +13501,7 @@ do
 {
 if
 (
-nsEventStateManager
+EventStateManager
 :
 :
 sMouseOverDocument
@@ -17374,7 +17376,7 @@ NS_ERROR_DOM_SECURITY_ERR
 *
 aHandlingUserInput
 =
-nsEventStateManager
+EventStateManager
 :
 :
 IsHandlingUserInput

@@ -233,6 +233,15 @@ include
 "
 mozilla
 /
+EventStateManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IMEStateManager
 .
 h
@@ -596,13 +605,6 @@ h
 include
 "
 nsFrameManager
-.
-h
-"
-#
-include
-"
-nsEventStateManager
 .
 h
 "
@@ -3332,7 +3334,7 @@ group
 .
 nsRefPtr
 <
-nsEventStateManager
+EventStateManager
 >
 esm
 =
@@ -17382,7 +17384,7 @@ down
 .
 nsRefPtr
 <
-nsEventStateManager
+EventStateManager
 >
 esm
 =
@@ -41643,11 +41645,11 @@ over
 some
 subdocument
 .
-nsEventStateManager
+EventStateManager
 *
 activeESM
 =
-nsEventStateManager
+EventStateManager
 :
 :
 GetActiveEventStateManager
@@ -41685,7 +41687,7 @@ EventStateManager
 &
 static_cast
 <
-nsEventStateManager
+EventStateManager
 *
 >
 (
@@ -41704,7 +41706,7 @@ activeShell
 =
 static_cast
 <
-nsEventStateManager
+EventStateManager
 *
 >
 (
@@ -43232,7 +43234,7 @@ aStatus
 {
 nsRefPtr
 <
-nsEventStateManager
+EventStateManager
 >
 manager
 =
@@ -43565,7 +43567,7 @@ pointerLockedDoc
 =
 do_QueryReferent
 (
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedDoc
@@ -44561,7 +44563,7 @@ nsIPresShell
 :
 AllowMouseCapture
 (
-nsEventStateManager
+EventStateManager
 :
 :
 GetActiveEventStateManager
@@ -52514,7 +52516,7 @@ if
 mPresContext
 )
 {
-nsEventStateManager
+EventStateManager
 :
 :
 ClearGlobalActiveContent

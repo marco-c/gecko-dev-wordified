@@ -256,7 +256,9 @@ h
 #
 include
 "
-nsEventStateManager
+mozilla
+/
+EventStateManager
 .
 h
 "
@@ -4128,7 +4130,7 @@ aElement
 ;
 nsRefPtr
 <
-nsEventStateManager
+EventStateManager
 >
 esm
 =

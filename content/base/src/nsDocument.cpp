@@ -360,6 +360,15 @@ h
 #
 include
 "
+mozilla
+/
+EventStateManager
+.
+h
+"
+#
+include
+"
 nsIDOMNodeFilter
 .
 h
@@ -1105,13 +1114,6 @@ h
 include
 "
 nsDOMNavigationTiming
-.
-h
-"
-#
-include
-"
-nsEventStateManager
 .
 h
 "
@@ -57418,7 +57420,7 @@ pointerLockedElement
 =
 do_QueryReferent
 (
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedElement
@@ -57803,7 +57805,7 @@ pointerLockedElement
 =
 do_QueryReferent
 (
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedElement
@@ -59148,7 +59150,7 @@ if
 top
 )
 {
-nsEventStateManager
+EventStateManager
 :
 :
 SetFullScreenState
@@ -59273,7 +59275,7 @@ the
 /
 stack
 .
-nsEventStateManager
+EventStateManager
 :
 :
 SetFullScreenState
@@ -59283,7 +59285,7 @@ false
 )
 ;
 }
-nsEventStateManager
+EventStateManager
 :
 :
 SetFullScreenState
@@ -59362,7 +59364,7 @@ FullScreenStackTop
 (
 )
 ;
-nsEventStateManager
+EventStateManager
 :
 :
 SetFullScreenState
@@ -59584,7 +59586,7 @@ styles
 and
 return
 .
-nsEventStateManager
+EventStateManager
 :
 :
 SetFullScreenState
@@ -60747,7 +60749,7 @@ pointerLockedElement
 =
 do_QueryReferent
 (
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedElement
@@ -63128,7 +63130,7 @@ pointerLockedElement
 =
 do_QueryReferent
 (
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedElement
@@ -63226,7 +63228,7 @@ SetPointerLock
 (
 )
 ;
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedElement
@@ -63236,7 +63238,7 @@ do_GetWeakReference
 e
 )
 ;
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedDoc
@@ -63248,13 +63250,13 @@ doc
 ;
 NS_ASSERTION
 (
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedElement
 &
 &
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedDoc
@@ -63533,7 +63535,7 @@ pointerLockedElement
 =
 do_QueryReferent
 (
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedElement
@@ -63576,7 +63578,7 @@ return
 bool
 userInputOrChromeCaller
 =
-nsEventStateManager
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -64357,7 +64359,7 @@ mouse
 events
 nsRefPtr
 <
-nsEventStateManager
+EventStateManager
 >
 esm
 =
@@ -64413,7 +64415,7 @@ aDoc
 if
 (
 !
-nsEventStateManager
+EventStateManager
 :
 :
 sIsPointerLocked
@@ -64430,7 +64432,7 @@ pointerLockedDoc
 =
 do_QueryReferent
 (
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedDoc
@@ -64497,7 +64499,7 @@ pointerLockedElement
 =
 do_QueryReferent
 (
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedElement
@@ -64516,14 +64518,14 @@ ClearPointerLock
 )
 ;
 }
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedElement
 =
 nullptr
 ;
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedDoc
@@ -64661,7 +64663,7 @@ pointerLockedElement
 =
 do_QueryReferent
 (
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedElement
@@ -64698,7 +64700,7 @@ pointerLockedDoc
 =
 do_QueryReferent
 (
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedDoc

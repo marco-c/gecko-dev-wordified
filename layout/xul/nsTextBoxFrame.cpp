@@ -201,7 +201,9 @@ h
 #
 include
 "
-nsEventStateManager
+mozilla
+/
+EventStateManager
 .
 h
 "
@@ -5942,7 +5944,7 @@ register
 the
 access
 key
-nsEventStateManager
+EventStateManager
 *
 esm
 =

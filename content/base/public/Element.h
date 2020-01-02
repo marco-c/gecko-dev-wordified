@@ -388,9 +388,6 @@ struct
 nsRect
 ;
 class
-nsEventStateManager
-;
-class
 nsFocusManager
 ;
 class
@@ -638,6 +635,9 @@ EventChainVisitor
 ;
 class
 EventListenerManager
+;
+class
+EventStateManager
 ;
 namespace
 dom
@@ -2135,9 +2135,10 @@ our
 state
 friend
 class
+mozilla
 :
 :
-nsEventStateManager
+EventStateManager
 ;
 friend
 class

@@ -149,7 +149,7 @@ preferences
 /
 /
 From
-nsEventStateManager
+EventStateManager
 .
 h
 .
@@ -755,7 +755,7 @@ event
 /
 Based
 on
-nsEventStateManager
+EventStateManager
 :
 :
 WheelPrefs
@@ -1045,7 +1045,7 @@ zoom
 /
 /
 during
-nsEventStateManager
+EventStateManager
 :
 :
 PostHandleEvent

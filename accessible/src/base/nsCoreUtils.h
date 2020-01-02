@@ -537,7 +537,7 @@ given
 element
 by
 *
-nsEventStateManager
+EventStateManager
 or
 0
 if

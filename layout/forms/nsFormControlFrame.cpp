@@ -124,7 +124,9 @@ h
 #
 include
 "
-nsEventStateManager
+mozilla
+/
+EventStateManager
 .
 h
 "
@@ -693,7 +695,7 @@ IsEmpty
 )
 )
 {
-nsEventStateManager
+EventStateManager
 *
 stateManager
 =

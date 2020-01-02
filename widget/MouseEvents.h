@@ -3162,7 +3162,7 @@ applied
 by
 /
 /
-nsEventStateManager
+EventStateManager
 .
 So
 after
@@ -3324,7 +3324,7 @@ If
 widget
 sets
 lineOrPageDelta
-nsEventStateManager
+EventStateManager
 will
 dispatch
 /
@@ -3501,7 +3501,7 @@ is
 SCROLL_DEFAULT
 which
 means
-nsEventStateManager
+EventStateManager
 will
 /
 /
@@ -3585,7 +3585,7 @@ may
 be
 modified
 by
-nsEventStateManager
+EventStateManager
 .
 /
 /

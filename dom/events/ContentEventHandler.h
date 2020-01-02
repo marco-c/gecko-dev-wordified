@@ -152,7 +152,7 @@ a
 helper
 class
 for
-nsEventStateManager
+EventStateManager
 .
 *
 The

@@ -1486,7 +1486,7 @@ mouseout
 DOM
 events
 (
-nsEventStateManager
+EventStateManager
 :
 :
 PreHandleEvent

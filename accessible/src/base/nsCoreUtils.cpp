@@ -194,13 +194,6 @@ h
 #
 include
 "
-nsEventStateManager
-.
-h
-"
-#
-include
-"
 nsISelectionPrivate
 .
 h
@@ -229,6 +222,15 @@ include
 mozilla
 /
 EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventStateManager
 .
 h
 "
@@ -1191,7 +1193,7 @@ the
 slow
 /
 /
-nsEventStateManager
+EventStateManager
 :
 :
 GetRegisteredAccessKey
@@ -1260,7 +1262,7 @@ presContext
 return
 0
 ;
-nsEventStateManager
+EventStateManager
 *
 esm
 =

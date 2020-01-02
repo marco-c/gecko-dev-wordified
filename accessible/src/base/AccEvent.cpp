@@ -149,7 +149,9 @@ h
 #
 include
 "
-nsEventStateManager
+mozilla
+/
+EventStateManager
 .
 h
 "
@@ -492,7 +494,7 @@ eAutoDetect
 )
 mIsFromUserInput
 =
-nsEventStateManager
+EventStateManager
 :
 :
 IsHandlingUserInput

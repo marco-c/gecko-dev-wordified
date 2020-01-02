@@ -150,9 +150,6 @@ nsIFrame
 h
 "
 class
-nsEventStateManager
-;
-class
 nsIScrollableFrame
 ;
 class
@@ -164,6 +161,9 @@ nsIntPoint
 namespace
 mozilla
 {
+class
+EventStateManager
+;
 /
 *
 *
@@ -398,7 +398,7 @@ static
 void
 PrepareToScrollText
 (
-nsEventStateManager
+EventStateManager
 *
 aESM
 nsIFrame
@@ -523,7 +523,7 @@ static
 void
 TemporarilyActivateAllPossibleScrollTargets
 (
-nsEventStateManager
+EventStateManager
 *
 aESM
 nsIFrame

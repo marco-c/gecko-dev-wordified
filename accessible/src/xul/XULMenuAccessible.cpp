@@ -1121,7 +1121,7 @@ are
 t
 registered
 by
-nsEventStateManager
+EventStateManager
 .
 nsAutoString
 accesskey

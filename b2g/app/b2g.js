@@ -2846,7 +2846,7 @@ be
 in
 sync
 with
-nsEventStateManager
+EventStateManager
 .
 cpp
 pref

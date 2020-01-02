@@ -1357,7 +1357,7 @@ kbd
 /
 used
 by
-nsEventStateManager
+EventStateManager
 :
 :
 sTextfieldSelectModel

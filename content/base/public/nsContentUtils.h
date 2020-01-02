@@ -12013,7 +12013,7 @@ user
 input
 before
 *
-nsEventStateManager
+EventStateManager
 :
 :
 IsHandlingUserInput
