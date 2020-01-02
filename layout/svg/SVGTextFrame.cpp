@@ -23095,7 +23095,10 @@ SVGTextFrame
 GetBBoxContribution
 (
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 aToBBoxUserspace
 uint32_t
@@ -23170,6 +23173,14 @@ run
 aFlags
 )
 ;
+gfxMatrix
+m
+=
+ThebesMatrix
+(
+aToBBoxUserspace
+)
+;
 SVGBBox
 bboxForRun
 =
@@ -23180,7 +23191,7 @@ GetUserSpaceRect
 presContext
 flags
 &
-aToBBoxUserspace
+m
 )
 ;
 bbox

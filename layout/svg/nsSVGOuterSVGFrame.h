@@ -111,13 +111,6 @@ h
 #
 include
 "
-gfxMatrix
-.
-h
-"
-#
-include
-"
 nsISVGSVGFrame
 .
 h
@@ -681,7 +674,7 @@ SVGBBox
 GetBBoxContribution
 (
 const
-gfxMatrix
+Matrix
 &
 aToBBoxUserspace
 uint32_t

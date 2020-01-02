@@ -153,6 +153,13 @@ h
 class
 nsRenderingContext
 ;
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 typedef
 nsSVGGFrame
 nsSVGSwitchFrameBase
@@ -342,7 +349,7 @@ SVGBBox
 GetBBoxContribution
 (
 const
-gfxMatrix
+Matrix
 &
 aToBBoxUserspace
 uint32_t
@@ -1236,7 +1243,7 @@ nsSVGSwitchFrame
 GetBBoxContribution
 (
 const
-gfxMatrix
+Matrix
 &
 aToBBoxUserspace
 uint32_t
@@ -1284,7 +1291,10 @@ GetContent
 gfxMatrix
 transform
 =
+ThebesMatrix
+(
 aToBBoxUserspace
+)
 ;
 if
 (
@@ -1310,7 +1320,7 @@ content
 >
 PrependLocalTransformsTo
 (
-aToBBoxUserspace
+transform
 )
 ;
 }
@@ -1320,7 +1330,10 @@ svgKid
 >
 GetBBoxContribution
 (
+ToMatrix
+(
 transform
+)
 aFlags
 )
 ;

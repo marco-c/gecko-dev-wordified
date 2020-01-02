@@ -121,13 +121,6 @@ order
 #
 include
 "
-gfxMatrix
-.
-h
-"
-#
-include
-"
 nsDisplayList
 .
 h
@@ -6010,7 +6003,10 @@ nsSVGOuterSVGFrame
 GetBBoxContribution
 (
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 aToBBoxUserspace
 uint32_t

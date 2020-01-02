@@ -7703,7 +7703,10 @@ svg
 >
 GetBBoxContribution
 (
+ToMatrix
+(
 matrix
+)
 aFlags
 )
 .
@@ -11264,7 +11267,13 @@ svgFrame
 >
 GetBBoxContribution
 (
+gfx
+:
+:
+ToMatrix
+(
 transform
+)
 nsSVGUtils
 :
 :
