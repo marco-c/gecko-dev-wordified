@@ -1113,6 +1113,10 @@ returns
 '
         
 '
+rpc
+'
+        
+'
 send
 '
         
@@ -4943,6 +4947,9 @@ ASYNC
 INTR
                          
 |
+RPC
+                         
+|
 URGENT
                          
 |
@@ -5017,6 +5024,21 @@ p
 ]
 =
 URGENT
+    
+elif
+'
+rpc
+'
+=
+=
+s
+:
+p
+[
+0
+]
+=
+RPC
     
 else
 :
