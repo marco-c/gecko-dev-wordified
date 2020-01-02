@@ -2392,6 +2392,13 @@ document
 SVGImageContext
 context
 (
+nsIntSize
+(
+width
+height
+)
+Some
+(
 imgElem
 -
 >
@@ -2399,6 +2406,7 @@ mPreserveAspectRatio
 .
 GetAnimValue
 (
+)
 )
 )
 ;
