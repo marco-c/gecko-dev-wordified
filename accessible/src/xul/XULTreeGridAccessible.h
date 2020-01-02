@@ -806,9 +806,10 @@ virtual
 Relation
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
+MOZ_OVERRIDE
 ;
 virtual
 a11y

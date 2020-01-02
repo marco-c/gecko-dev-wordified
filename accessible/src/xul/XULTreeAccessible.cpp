@@ -2890,7 +2890,7 @@ XULTreeAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
@@ -2899,10 +2899,10 @@ if
 aType
 =
 =
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_NODE_PARENT_OF
+NODE_PARENT_OF
 )
 {
 if
@@ -5186,7 +5186,7 @@ XULTreeItemAccessibleBase
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
@@ -5196,10 +5196,10 @@ aType
 )
 {
 case
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_NODE_CHILD_OF
+NODE_CHILD_OF
 :
 {
 int32_t
@@ -5268,10 +5268,10 @@ parentIndex
 ;
 }
 case
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_NODE_PARENT_OF
+NODE_PARENT_OF
 :
 {
 bool

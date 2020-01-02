@@ -3367,7 +3367,7 @@ RootAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
@@ -3380,10 +3380,10 @@ mDocumentNode
 aType
 !
 =
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_EMBEDS
+EMBEDS
 )
 return
 DocAccessibleWrap

@@ -460,9 +460,10 @@ virtual
 Relation
 RelationByType
 (
-uint32_t
-aRelType
+RelationType
+aType
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible

@@ -4630,7 +4630,7 @@ HTMLGroupboxAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
@@ -4666,10 +4666,10 @@ if
 aType
 =
 =
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_LABELLED_BY
+LABELLED_BY
 )
 rel
 .
@@ -4874,7 +4874,7 @@ HTMLLegendAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
@@ -4894,10 +4894,10 @@ if
 aType
 !
 =
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_LABEL_FOR
+LABEL_FOR
 )
 return
 rel
@@ -5277,7 +5277,7 @@ HTMLFigureAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
@@ -5297,10 +5297,10 @@ if
 aType
 =
 =
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_LABELLED_BY
+LABELLED_BY
 )
 rel
 .
@@ -5589,7 +5589,7 @@ HTMLFigcaptionAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
@@ -5609,10 +5609,10 @@ if
 aType
 !
 =
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_LABEL_FOR
+LABEL_FOR
 )
 return
 rel
