@@ -2724,6 +2724,16 @@ markuploaded
 =
 >
 {
+if
+(
+this
+.
+_destroyPromise
+)
+{
+return
+;
+}
 this
 .
 markup
