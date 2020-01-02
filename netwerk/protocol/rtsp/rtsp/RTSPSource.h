@@ -248,6 +248,10 @@ const
 char
 *
 url
+const
+char
+*
+userAgent
 bool
 uidValid
 =
@@ -475,6 +479,9 @@ mLatestPausedUnit
 ;
 AString
 mURL
+;
+AString
+mUserAgent
 ;
 bool
 mUIDValid

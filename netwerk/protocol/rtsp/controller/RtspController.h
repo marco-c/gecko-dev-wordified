@@ -237,6 +237,14 @@ mSpec
 ;
 /
 /
+UserAgent
+string
+.
+nsCString
+mUserAgent
+;
+/
+/
 Indicate
 the
 connection
