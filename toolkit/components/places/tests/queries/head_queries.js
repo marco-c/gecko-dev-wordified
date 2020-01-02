@@ -1142,6 +1142,12 @@ uri
 )
 }
 )
+.
+then
+(
+null
+do_throw
+)
 ;
 }
 if

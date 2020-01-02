@@ -4972,6 +4972,14 @@ frame
 previousLink
 }
 )
+.
+then
+(
+null
+Cu
+.
+reportError
+)
 ;
 }
 else
