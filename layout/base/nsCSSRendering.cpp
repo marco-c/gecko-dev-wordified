@@ -17708,13 +17708,6 @@ Intersect
 areaToFill
 )
 ;
-ctx
--
->
-NewPath
-(
-)
-;
 /
 /
 Try
@@ -17938,6 +17931,13 @@ transform
 )
 ;
 }
+ctx
+-
+>
+NewPath
+(
+)
+;
 ctx
 -
 >
