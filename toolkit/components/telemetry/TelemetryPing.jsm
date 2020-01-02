@@ -4478,6 +4478,11 @@ slowSQL
 Telemetry
 .
 slowSQL
+fileIOReports
+:
+Telemetry
+.
+fileIOReports
 chromeHangs
 :
 Telemetry
