@@ -8075,13 +8075,7 @@ font
 cache
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
-nsIMemoryReporter
-:
-:
 UNITS_BYTES
 sizes
 .
@@ -8123,13 +8117,7 @@ shaped
 words
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
-nsIMemoryReporter
-:
-:
 UNITS_BYTES
 sizes
 .
