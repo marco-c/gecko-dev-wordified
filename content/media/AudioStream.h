@@ -2143,6 +2143,12 @@ GetVolumeScale
 )
 ;
 static
+bool
+GetFirstStream
+(
+)
+;
+static
 cubeb
 *
 GetCubebContext
@@ -2951,6 +2957,9 @@ before
 cubeb
 is
 open
+bool
+mIsFirst
+;
 /
 /
 This
