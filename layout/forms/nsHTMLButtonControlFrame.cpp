@@ -1652,10 +1652,6 @@ nsHTMLReflowMetrics
 contentsDesiredSize
 (
 aButtonReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 ReflowChild
