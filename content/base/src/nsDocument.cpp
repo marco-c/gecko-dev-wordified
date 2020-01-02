@@ -6984,7 +6984,7 @@ make
 this
 inherit
 from
-nsDOMStringList
+DOMStringList
 instead
 of
 /

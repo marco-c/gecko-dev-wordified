@@ -173,7 +173,11 @@ h
 #
 include
 "
-nsDOMLists
+mozilla
+/
+dom
+/
+DOMStringList
 .
 h
 "
@@ -3587,12 +3591,12 @@ thread
 ;
 nsRefPtr
 <
-nsDOMStringList
+DOMStringList
 >
 list
 (
 new
-nsDOMStringList
+DOMStringList
 (
 )
 )
