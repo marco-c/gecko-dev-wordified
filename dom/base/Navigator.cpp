@@ -701,7 +701,7 @@ mWindow
 aWindow
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aWindow
 -
