@@ -6582,7 +6582,7 @@ i
 +
 )
 {
-PatChar
+jschar
 c
 =
 pat
@@ -6686,7 +6686,7 @@ size
 *
 /
 }
-TextChar
+jschar
 c
 =
 text
