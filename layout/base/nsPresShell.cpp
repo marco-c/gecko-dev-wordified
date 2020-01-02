@@ -38892,7 +38892,7 @@ target
 aData
 -
 >
-Target
+GetTarget
 (
 )
 ;
@@ -42437,7 +42437,7 @@ do_QueryInterface
 oldTouch
 -
 >
-Target
+GetTarget
 (
 )
 )
