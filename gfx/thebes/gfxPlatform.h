@@ -3296,6 +3296,12 @@ GetPrefLayoutFrameRate
 )
 ;
 static
+int
+GetPrefLayersCompositionFrameRate
+(
+)
+;
+static
 bool
 GetPrefLayersDump
 (
