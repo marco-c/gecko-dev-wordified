@@ -1665,13 +1665,6 @@ Invalidate
 (
 )
 ;
-aFrame
--
->
-SchedulePaint
-(
-)
-;
 /
 /
 Update
@@ -1884,6 +1877,13 @@ IterateRetainedDataFor
 (
 frame
 InvalidateImagesCallback
+)
+;
+frame
+-
+>
+SchedulePaint
+(
 )
 ;
 }
