@@ -364,7 +364,13 @@ friend
 nsresult
 NS_NewSVGElement
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 *
 aResult
