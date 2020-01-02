@@ -160,12 +160,17 @@ h
 #
 endif
 #
+ifdef
+MOZ_WEBRTC
+#
 include
 "
 YuvStamper
 .
 h
 "
+#
+endif
 #
 define
 VIDEO_RATE
@@ -1304,6 +1309,9 @@ mCb
 mCr
 )
 ;
+#
+ifdef
+MOZ_WEBRTC
 uint64_t
 timestamp
 =
@@ -1346,6 +1354,8 @@ timestamp
 0
 )
 ;
+#
+endif
 ycbcr_image
 -
 >
