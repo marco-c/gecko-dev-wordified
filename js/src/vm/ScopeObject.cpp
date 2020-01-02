@@ -1128,6 +1128,8 @@ script
 -
 >
 treatAsRunOnce
+(
+)
 ?
 gc
 :
@@ -1170,6 +1172,8 @@ script
 -
 >
 treatAsRunOnce
+(
+)
 )
 {
 RootedObject
@@ -1493,6 +1497,8 @@ script
 -
 >
 treatAsRunOnce
+(
+)
 ?
 gc
 :
@@ -1559,6 +1565,8 @@ script
 -
 >
 treatAsRunOnce
+(
+)
 )
 {
 Rooted

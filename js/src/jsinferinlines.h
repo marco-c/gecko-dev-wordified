@@ -4778,6 +4778,8 @@ script
 -
 >
 compileAndGo
+(
+)
 |
 |
 offset

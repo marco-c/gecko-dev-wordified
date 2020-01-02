@@ -5661,6 +5661,8 @@ rootedScript
 -
 >
 shouldCloneAtCallsite
+(
+)
 )
 {
 rootedFun

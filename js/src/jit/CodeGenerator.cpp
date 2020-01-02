@@ -18814,6 +18814,8 @@ script
 -
 >
 hasScriptCounts
+(
+)
 &
 &
 !
@@ -46588,6 +46590,8 @@ script
 -
 >
 strict
+(
+)
 )
 return
 callVM
@@ -46711,6 +46715,8 @@ script
 -
 >
 strict
+(
+)
 )
 return
 callVM

@@ -1746,9 +1746,9 @@ propv
 funScript
 -
 >
-shouldCloneAtCallsite
-=
-true
+setShouldCloneAtCallsite
+(
+)
 ;
 id
 =
@@ -1798,9 +1798,9 @@ propv
 funScript
 -
 >
-shouldInline
-=
-true
+setShouldInline
+(
+)
 ;
 args
 .

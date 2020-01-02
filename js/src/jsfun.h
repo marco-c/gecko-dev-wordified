@@ -749,6 +749,8 @@ nonLazyScript
 -
 >
 funHasExtensibleScope
+(
+)
 |
 |
 nonLazyScript
@@ -757,6 +759,8 @@ nonLazyScript
 -
 >
 funNeedsDeclEnvObject
+(
+)
 ;
 }
 /
@@ -1300,6 +1304,8 @@ nonLazyScript
 -
 >
 strict
+(
+)
 ;
 }
 /

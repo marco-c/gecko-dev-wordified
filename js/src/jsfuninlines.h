@@ -315,6 +315,8 @@ script
 -
 >
 hasBeenCloned
+(
+)
 )
 return
 false
@@ -322,9 +324,9 @@ false
 script
 -
 >
-hasBeenCloned
-=
-true
+setHasBeenCloned
+(
+)
 ;
 }
 return

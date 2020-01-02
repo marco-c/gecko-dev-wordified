@@ -5377,6 +5377,8 @@ script
 -
 >
 hasScriptCounts
+(
+)
 )
 {
 MarkScriptRoot

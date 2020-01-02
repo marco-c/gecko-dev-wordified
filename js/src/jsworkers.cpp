@@ -4066,6 +4066,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 compileAndGoGlobal
 =

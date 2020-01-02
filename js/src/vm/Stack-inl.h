@@ -865,6 +865,8 @@ script
 -
 >
 funHasAnyAliasedFormal
+(
+)
 )
 ;
 JS_ASSERT
@@ -4638,6 +4640,8 @@ script
 -
 >
 isActiveEval
+(
+)
 )
 ;
 }

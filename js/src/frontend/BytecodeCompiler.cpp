@@ -557,6 +557,8 @@ script
 -
 >
 isGeneratorExp
+(
+)
 &
 &
 script
@@ -1663,6 +1665,8 @@ evalCaller
 -
 >
 savedCallerFun
+(
+)
 )
 ;
 Rooted
@@ -2018,6 +2022,8 @@ evalCaller
 -
 >
 strict
+(
+)
 )
 globalsc
 .
@@ -3190,9 +3196,9 @@ directlyInsideEval
 script
 -
 >
-directlyInsideEval
-=
-true
+setDirectlyInsideEval
+(
+)
 ;
 if
 (
@@ -3206,9 +3212,9 @@ usesArgumentsAndApply
 script
 -
 >
-usesArgumentsAndApply
-=
-true
+setUsesArgumentsAndApply
+(
+)
 ;
 if
 (
@@ -3222,9 +3228,9 @@ hasBeenCloned
 script
 -
 >
-hasBeenCloned
-=
-true
+setHasBeenCloned
+(
+)
 ;
 BytecodeEmitter
 bce

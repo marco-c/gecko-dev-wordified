@@ -498,6 +498,8 @@ nonLazyScript
 -
 >
 shouldCloneAtCallsite
+(
+)
 )
 {
 jsbytecode

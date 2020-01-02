@@ -1887,6 +1887,8 @@ script
 -
 >
 strict
+(
+)
 )
 {
 CallObject

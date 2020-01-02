@@ -8047,6 +8047,8 @@ script
 -
 >
 directlyInsideEval
+(
+)
 )
 return
 false
@@ -8321,12 +8323,16 @@ script
 -
 >
 funHasExtensibleScope
+(
+)
 |
 |
 script
 -
 >
 directlyInsideEval
+(
+)
 )
 return
 false
@@ -8369,6 +8375,8 @@ script
 -
 >
 compileAndGo
+(
+)
 |
 |
 !
@@ -9394,6 +9402,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 ;
 /
@@ -12164,6 +12174,8 @@ script
 -
 >
 compileAndGo
+(
+)
 |
 |
 sc
@@ -12204,6 +12216,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 return
 true
@@ -12446,6 +12460,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 compileAndGoGlobal
 =
@@ -12846,6 +12862,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 ;
 RootedObject
@@ -13034,6 +13052,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 {
 unsigned
@@ -18569,9 +18589,9 @@ bce
 script
 -
 >
-treatAsRunOnce
-=
-true
+setTreatAsRunOnce
+(
+)
 ;
 JS_ASSERT
 (
@@ -18583,6 +18603,8 @@ script
 -
 >
 hasRunOnce
+(
+)
 )
 ;
 }
@@ -32704,6 +32726,8 @@ script
 -
 >
 compileAndGo
+(
+)
 &
 &
 fun
@@ -33013,6 +33037,8 @@ parent
 -
 >
 compileAndGo
+(
+)
 )
 .
 setSelfHostingMode
@@ -33021,6 +33047,8 @@ parent
 -
 >
 selfHosted
+(
+)
 )
 .
 setNoScriptRval
@@ -33244,9 +33272,9 @@ usesApply
 script
 -
 >
-usesArgumentsAndApply
-=
-true
+setUsesArgumentsAndApply
+(
+)
 ;
 }
 }
@@ -36863,6 +36891,8 @@ script
 -
 >
 noScriptRval
+(
+)
 )
 ;
 }
@@ -36880,6 +36910,8 @@ script
 -
 >
 noScriptRval
+(
+)
 ;
 }
 /
@@ -40462,6 +40494,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 {
 gc

@@ -8695,6 +8695,8 @@ nonLazyScript
 -
 >
 shouldCloneAtCallsite
+(
+)
 )
 {
 if
@@ -8845,6 +8847,8 @@ nonLazyScript
 -
 >
 shouldCloneAtCallsite
+(
+)
 )
 ;
 if

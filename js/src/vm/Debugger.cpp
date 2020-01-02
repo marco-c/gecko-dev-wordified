@@ -7173,6 +7173,8 @@ script
 -
 >
 selfHosted
+(
+)
 )
 return
 ;
@@ -7193,6 +7195,8 @@ script
 -
 >
 compileAndGo
+(
+)
 =
 =
 !
@@ -7277,6 +7281,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 {
 if
@@ -8510,6 +8516,8 @@ trappingScript
 -
 >
 compileAndGo
+(
+)
 )
 JS_ASSERT
 (
@@ -17835,6 +17843,8 @@ script
 -
 >
 selfHosted
+(
+)
 )
 return
 ;
@@ -23523,6 +23533,8 @@ script
 -
 >
 selfHosted
+(
+)
 ;
 }
 /
@@ -29758,9 +29770,9 @@ false
 script
 -
 >
-isActiveEval
-=
-true
+setActiveEval
+(
+)
 ;
 ExecuteType
 type

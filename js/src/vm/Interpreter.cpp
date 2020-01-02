@@ -2196,6 +2196,8 @@ script
 -
 >
 strict
+(
+)
 )
 )
 {
@@ -2224,6 +2226,8 @@ script
 -
 >
 strict
+(
+)
 )
 )
 return
@@ -8748,6 +8752,8 @@ script
 -
 >
 hasScriptCounts
+(
+)
 )
 \
 activation
@@ -8784,6 +8790,8 @@ script
 -
 >
 hasScriptCounts
+(
+)
 \
 activation
 .
@@ -9405,6 +9413,8 @@ script
 -
 >
 hasScriptCounts
+(
+)
 )
 script
 -
@@ -9425,6 +9435,8 @@ script
 -
 >
 hasScriptCounts
+(
+)
 )
 {
 PCCounts
@@ -13660,6 +13672,8 @@ script
 -
 >
 strict
+(
+)
 )
 ;
 RootedPropertyName
@@ -13802,6 +13816,8 @@ script
 -
 >
 strict
+(
+)
 )
 {
 obj
@@ -13927,6 +13943,8 @@ script
 -
 >
 strict
+(
+)
 )
 {
 /
@@ -14707,6 +14725,8 @@ script
 -
 >
 strict
+(
+)
 )
 )
 goto
@@ -14819,6 +14839,8 @@ script
 -
 >
 strict
+(
+)
 )
 )
 goto
@@ -15548,6 +15570,8 @@ funScript
 -
 >
 shouldCloneAtCallsite
+(
+)
 )
 {
 fun
@@ -18756,6 +18780,8 @@ script
 -
 >
 strict
+(
+)
 )
 :
 !
@@ -22225,6 +22251,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 ;
 JS_ASSERT
@@ -22409,6 +22437,8 @@ script
 -
 >
 isActiveEval
+(
+)
 ?
 JSPROP_ENUMERATE
 :
@@ -22648,6 +22678,8 @@ script
 -
 >
 strict
+(
+)
 )
 ;
 }
@@ -23704,6 +23736,8 @@ script
 -
 >
 treatAsRunOnce
+(
+)
 )
 ;
 if
@@ -23713,14 +23747,16 @@ script
 -
 >
 hasRunOnce
+(
+)
 )
 {
 script
 -
 >
-hasRunOnce
-=
-true
+setHasRunOnce
+(
+)
 ;
 return
 true

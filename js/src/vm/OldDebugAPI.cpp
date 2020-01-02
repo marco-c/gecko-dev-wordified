@@ -468,6 +468,8 @@ script
 -
 >
 selfHosted
+(
+)
 )
 {
 if
@@ -3684,6 +3686,8 @@ script
 -
 >
 selfHosted
+(
+)
 ;
 }
 /
@@ -5584,6 +5588,8 @@ script
 -
 >
 hasScriptCounts
+(
+)
 )
 ;
 Sprinter
@@ -5901,6 +5907,8 @@ script
 -
 >
 hasScriptCounts
+(
+)
 &
 &
 script

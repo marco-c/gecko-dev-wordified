@@ -2939,6 +2939,8 @@ script
 -
 >
 strict
+(
+)
 ;
 }
 void

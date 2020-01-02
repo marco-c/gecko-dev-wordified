@@ -7695,6 +7695,8 @@ script
 -
 >
 hadFrequentBailouts
+(
+)
 )
 {
 LICM
@@ -10642,6 +10644,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 {
 IonSpew

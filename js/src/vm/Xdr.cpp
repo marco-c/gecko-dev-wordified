@@ -662,6 +662,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 ;
 CallNewScriptHook

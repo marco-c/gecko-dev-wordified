@@ -33999,6 +33999,8 @@ script
 -
 >
 hasScriptCounts
+(
+)
 &
 &
 script

@@ -32815,6 +32815,8 @@ script
 -
 >
 strict
+(
+)
 script
 pc
 )
@@ -48030,6 +48032,8 @@ script
 -
 >
 strict
+(
+)
 )
 {
 if
@@ -52644,6 +52648,8 @@ calleeScript
 -
 >
 shouldCloneAtCallsite
+(
+)
 )
 return
 true
@@ -53415,6 +53421,8 @@ nonLazyScript
 -
 >
 shouldCloneAtCallsite
+(
+)
 )
 return
 true

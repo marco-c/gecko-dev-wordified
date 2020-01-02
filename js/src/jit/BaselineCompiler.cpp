@@ -3889,6 +3889,8 @@ script
 -
 >
 strict
+(
+)
 )
 {
 /
@@ -6556,6 +6558,8 @@ script
 -
 >
 strict
+(
+)
 |
 |
 (
@@ -9596,6 +9600,8 @@ script
 -
 >
 strict
+(
+)
 ?
 DeleteElementStrictInfo
 :
@@ -10272,6 +10278,8 @@ script
 -
 >
 strict
+(
+)
 ?
 DeletePropertyStrictInfo
 :
@@ -10612,6 +10620,8 @@ outerScript
 -
 >
 treatAsRunOnce
+(
+)
 )
 {
 /
@@ -12374,6 +12384,8 @@ script
 -
 >
 strict
+(
+)
 )
 {
 if
@@ -12815,9 +12827,9 @@ argumentsAliasesFormals
 script
 -
 >
-uninlineable
-=
-true
+setUninlineable
+(
+)
 ;
 modifiesArguments_
 =
@@ -13391,9 +13403,9 @@ JSOP_TRY
 script
 -
 >
-uninlineable
-=
-true
+setUninlineable
+(
+)
 ;
 return
 true
@@ -14600,6 +14612,8 @@ script
 -
 >
 noScriptRval
+(
+)
 )
 {
 /

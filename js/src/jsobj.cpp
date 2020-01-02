@@ -27981,6 +27981,8 @@ script
 -
 >
 warnedAboutUndefinedProp
+(
+)
 )
 return
 true
@@ -28083,9 +28085,9 @@ JSREPORT_STRICT
 script
 -
 >
-warnedAboutUndefinedProp
-=
-true
+setWarnedAboutUndefinedProp
+(
+)
 ;
 /
 *
@@ -29608,6 +29610,8 @@ script
 -
 >
 strict
+(
+)
 &
 &
 !
@@ -29733,6 +29737,8 @@ script
 -
 >
 strict
+(
+)
 &
 &
 !

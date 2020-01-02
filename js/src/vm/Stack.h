@@ -3424,6 +3424,8 @@ script
 -
 >
 strict
+(
+)
 ;
 }
 bool
@@ -3445,6 +3447,8 @@ script
 -
 >
 strict
+(
+)
 ;
 }
 bool
@@ -9793,6 +9797,8 @@ script
 -
 >
 selfHosted
+(
+)
 )
 ScriptFrameIter
 :
