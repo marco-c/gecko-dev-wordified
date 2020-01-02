@@ -493,6 +493,18 @@ false
 will
 always
 complete
+uint32_t
+numSlices
+=
+args
+[
+2
+]
+.
+toInt32
+(
+)
+;
 return
 ExecuteSequentially
 (
@@ -500,6 +512,8 @@ cx
 argZero
 &
 complete
+0
+numSlices
 )
 ;
 }
