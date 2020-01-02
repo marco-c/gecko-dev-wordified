@@ -10835,20 +10835,20 @@ be
     
 exposed
 .
-Either
+Any
+of
 pref
-or
 func
-or
-both
+and
+available
 can
 be
 None
 .
 If
 not
-None
     
+None
 they
 should
 be
@@ -10858,9 +10858,26 @@ have
 the
 pref
 name
+(
+for
+"
+pref
+"
+)
+    
 or
 function
 name
+(
+for
+"
+func
+"
+and
+"
+available
+"
+)
 .
     
 "
@@ -10873,6 +10890,9 @@ __init__
 self
 pref
 func
+available
+=
+None
 )
 :
         
@@ -10898,38 +10918,65 @@ func
 str
 )
         
+assert
+available
+is
+None
+or
+isinstance
+(
+available
+str
+)
+        
 self
 .
 pref
 =
 pref
         
-if
-func
-is
-None
+def
+toFuncPtr
+(
+val
+)
 :
             
-self
-.
-func
-=
+if
+val
+is
+None
+:
+                
+return
 "
 nullptr
 "
-        
-else
-:
             
-self
-.
-func
-=
+return
 "
 &
 "
 +
+val
+        
+self
+.
 func
+=
+toFuncPtr
+(
+func
+)
+        
+self
+.
+available
+=
+toFuncPtr
+(
+available
+)
     
 def
 __eq__
@@ -10940,6 +10987,7 @@ other
 :
         
 return
+(
 self
 .
 pref
@@ -10957,6 +11005,17 @@ func
 other
 .
 func
+and
+                
+self
+.
+available
+=
+=
+other
+.
+available
+)
     
 def
 __ne__
@@ -11407,6 +11466,11 @@ interfaceMember
 Func
 "
 )
+                               
+getAvailableInTestFunc
+(
+interfaceMember
+)
 )
     
 def
@@ -11688,6 +11752,8 @@ prefableTemplate
 true
 %
 s
+%
+s
 &
 %
 s
@@ -11794,6 +11860,11 @@ prefableTemplate
 condition
 .
 func
+                                  
+condition
+.
+available
+                                  
 name
 +
 "
