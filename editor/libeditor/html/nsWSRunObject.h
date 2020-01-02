@@ -2759,12 +2759,12 @@ PrepareToSplitAcrossBlocksPriv
 nsresult
 DeleteChars
 (
-nsINode
+nsIDOMNode
 *
 aStartNode
 int32_t
 aStartOffset
-nsINode
+nsIDOMNode
 *
 aEndNode
 int32_t
