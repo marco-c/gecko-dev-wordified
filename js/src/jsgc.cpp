@@ -13241,6 +13241,13 @@ isHeapBusy
 )
 )
 ;
+AutoStopVerifyingBarriers
+pauseVerification
+(
+rt
+false
+)
+;
 rt
 -
 >
