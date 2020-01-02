@@ -13857,6 +13857,12 @@ endif
 AutoJSAPI
 jsapi
 ;
+jsapi
+.
+Init
+(
+)
+;
 JSContext
 *
 cx
@@ -42910,6 +42916,12 @@ window
 ;
 AutoJSAPI
 jsapi
+;
+jsapi
+.
+Init
+(
+)
 ;
 JSContext
 *
