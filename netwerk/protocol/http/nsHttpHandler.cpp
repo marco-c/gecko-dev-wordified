@@ -12897,6 +12897,14 @@ nsIInterfaceRequestor
 aCallbacks
 )
 {
+if
+(
+!
+mHandlerActive
+)
+return
+NS_OK
+;
 nsISiteSecurityService
 *
 sss
