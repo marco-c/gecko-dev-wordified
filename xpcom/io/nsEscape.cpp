@@ -817,7 +817,6 @@ hexChars
 0123456789ABCDEF
 "
 ;
-register
 const
 unsigned
 char
@@ -1020,7 +1019,6 @@ result
 return
 0
 ;
-register
 unsigned
 char
 *
@@ -1883,14 +1881,12 @@ str
 -
 -
 {
-register
 char
 *
 src
 =
 str
 ;
-register
 char
 *
 dst
@@ -3659,7 +3655,6 @@ flags
 esc_Colon
 )
 ;
-register
 const
 unsigned
 char

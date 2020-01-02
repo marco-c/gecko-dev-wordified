@@ -1422,13 +1422,11 @@ gcc
 *
 *
 /
-register
 vtable_func
 *
 vtable
 func
 ;
-register
 int
 base_size
 =

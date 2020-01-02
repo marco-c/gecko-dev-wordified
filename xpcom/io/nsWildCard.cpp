@@ -518,7 +518,6 @@ T
 stop2
 )
 {
-register
 int
 x
 ;
@@ -1351,7 +1350,6 @@ T
 dest
 )
 {
-register
 int
 sx
 ;
@@ -1361,7 +1359,6 @@ source
 index
 *
 /
-register
 T
 cc
 ;
@@ -1679,7 +1676,6 @@ int
 level
 )
 {
-register
 int
 sx
 ;
@@ -2147,7 +2143,6 @@ int
 level
 )
 {
-register
 int
 x
 ;
@@ -2158,7 +2153,6 @@ string
 index
 *
 /
-register
 int
 y
 ;
