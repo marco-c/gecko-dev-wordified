@@ -160,9 +160,6 @@ nsRegion
 .
 h
 "
-class
-gfxASurface
-;
 namespace
 mozilla
 {
@@ -1616,9 +1613,9 @@ IntRect
 aStrokePaintRect
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
-gfxASurface
+SourceSurface
 >
 >
 &

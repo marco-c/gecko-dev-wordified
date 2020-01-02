@@ -2203,9 +2203,12 @@ mTransformRoot
 ;
 nsTArray
 <
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
-gfxASurface
+SourceSurface
 >
 >
 mInputImages

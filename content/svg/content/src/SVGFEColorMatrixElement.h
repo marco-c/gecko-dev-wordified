@@ -221,9 +221,12 @@ IntRect
 aFilterSubregion
 nsTArray
 <
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
-gfxASurface
+SourceSurface
 >
 >
 &
