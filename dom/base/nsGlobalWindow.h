@@ -538,9 +538,6 @@ class
 nsIDOMOfflineResourceList
 ;
 class
-nsIDOMMozWakeLock
-;
-class
 nsIScrollableFrame
 ;
 class
@@ -617,6 +614,9 @@ Navigator
 ;
 class
 SpeechSynthesis
+;
+class
+WakeLock
 ;
 namespace
 indexedDB
@@ -5938,9 +5938,15 @@ nsIIdleService
 >
 mIdleService
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMMozWakeLock
+mozilla
+:
+:
+dom
+:
+:
+WakeLock
 >
 mWakeLock
 ;

@@ -336,10 +336,6 @@ ModalContentWindow
 )
 DOMCI_CLASS
 (
-MozWakeLock
-)
-DOMCI_CLASS
-(
 MozMobileMessageManager
 )
 DOMCI_CLASS
