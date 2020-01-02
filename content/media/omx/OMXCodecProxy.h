@@ -242,7 +242,7 @@ char
 *
 matchComponentName
 =
-NULL
+nullptr
 uint32_t
 flags
 =
@@ -255,7 +255,7 @@ ANativeWindow
 &
 nativeWindow
 =
-NULL
+nullptr
 )
 ;
 MediaResourceManagerClient
@@ -313,7 +313,7 @@ MetaData
 *
 params
 =
-NULL
+nullptr
 )
 ;
 virtual
@@ -344,7 +344,7 @@ ReadOptions
 *
 options
 =
-NULL
+nullptr
 )
 ;
 virtual

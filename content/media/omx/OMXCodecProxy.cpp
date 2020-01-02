@@ -280,7 +280,7 @@ mime
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -377,7 +377,7 @@ source
 )
 mComponentName
 (
-NULL
+nullptr
 )
 mFlags
 (
@@ -443,7 +443,7 @@ promote
 )
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -522,7 +522,7 @@ mComponentName
 ;
 mComponentName
 =
-NULL
+nullptr
 ;
 }
 MediaResourceManagerClient
@@ -594,7 +594,7 @@ if
 mEventListener
 !
 =
-NULL
+nullptr
 )
 {
 sp
@@ -614,7 +614,7 @@ if
 listener
 !
 =
-NULL
+nullptr
 )
 {
 listener
@@ -696,7 +696,7 @@ get
 {
 mClient
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -879,7 +879,7 @@ if
 mOMXCodec
 =
 =
-NULL
+nullptr
 )
 {
 mState
@@ -1211,7 +1211,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -1264,7 +1264,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -1329,7 +1329,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -1390,7 +1390,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -1445,7 +1445,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 return

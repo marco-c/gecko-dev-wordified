@@ -1027,7 +1027,7 @@ NS_CStringGetData
 aMIMEType
 &
 type
-NULL
+nullptr
 )
 ;
 GstCaps

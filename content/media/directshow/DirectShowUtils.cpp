@@ -1701,7 +1701,7 @@ E_POINTER
 ;
 /
 /
-NULL
+Null
 pointer
 argument
 .
@@ -1822,7 +1822,7 @@ hr
 CoCreateInstance
 (
 aFilterClsId
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_IBaseFilter
 getter_AddRefs
@@ -1929,7 +1929,7 @@ hr
 CoCreateInstance
 (
 CLSID_DMOWrapperFilter
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_IBaseFilter
 getter_AddRefs
@@ -2314,7 +2314,7 @@ byRef
 (
 pin
 )
-NULL
+nullptr
 )
 )
 {

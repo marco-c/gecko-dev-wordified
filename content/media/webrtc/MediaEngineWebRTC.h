@@ -754,7 +754,7 @@ false
 )
 mSnapshotPath
 (
-NULL
+nullptr
 )
 {
 MOZ_ASSERT

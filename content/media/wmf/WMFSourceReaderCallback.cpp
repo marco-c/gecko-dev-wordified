@@ -254,7 +254,7 @@ aInterface
 *
 aInterface
 =
-NULL
+nullptr
 ;
 return
 E_NOINTERFACE
@@ -350,7 +350,7 @@ Note
 aSample
 can
 be
-NULL
+nullptr
 on
 success
 if

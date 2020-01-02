@@ -1473,7 +1473,7 @@ VoEBase
 *
 ptrVoEBase
 =
-NULL
+nullptr
 ;
 webrtc
 :
@@ -1482,7 +1482,7 @@ VoEHardware
 *
 ptrVoEHw
 =
-NULL
+nullptr
 ;
 /
 /
@@ -1562,7 +1562,7 @@ AttachCurrentThread
 (
 &
 env
-NULL
+nullptr
 )
 ;
 if
@@ -2179,11 +2179,11 @@ mVoiceEngine
 }
 mVideoEngine
 =
-NULL
+nullptr
 ;
 mVoiceEngine
 =
-NULL
+nullptr
 ;
 }
 }

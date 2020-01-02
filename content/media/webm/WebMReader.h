@@ -1411,7 +1411,7 @@ nestegg
 file
 .
 Returns
-NULL
+nullptr
 if
 all
 packets
@@ -1467,7 +1467,7 @@ nestegg
 file
 .
 Returns
-NULL
+nullptr
 if
 all
 packets

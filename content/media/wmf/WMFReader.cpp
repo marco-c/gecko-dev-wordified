@@ -1491,7 +1491,7 @@ aReader
 SetCurrentMediaType
 (
 aStreamIndex
-NULL
+nullptr
 type
 )
 ;
@@ -2021,7 +2021,7 @@ sizeof
 (
 MFVideoArea
 )
-NULL
+nullptr
 )
 ;
 }
@@ -2089,7 +2089,7 @@ sizeof
 (
 MFVideoArea
 )
-NULL
+nullptr
 )
 ;
 }
@@ -2143,7 +2143,7 @@ sizeof
 (
 MFVideoArea
 )
-NULL
+nullptr
 )
 ;
 }
@@ -4846,8 +4846,8 @@ Lock
 (
 &
 data
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_TRUE

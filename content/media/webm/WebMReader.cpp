@@ -1168,7 +1168,7 @@ mVP8
 vpx_codec_vp8_dx
 (
 )
-NULL
+nullptr
 0
 )
 )
@@ -5216,7 +5216,7 @@ vpx_codec_decode
 mVP8
 data
 length
-NULL
+nullptr
 0
 )
 )
@@ -5286,7 +5286,7 @@ continue
 vpx_codec_iter_t
 iter
 =
-NULL
+nullptr
 ;
 vpx_image_t
 *

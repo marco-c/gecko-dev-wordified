@@ -2037,7 +2037,7 @@ if
 aStitchInfo
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2378,14 +2378,14 @@ StitchInfo
 *
 stitchInfo
 =
-NULL
+nullptr
 ;
 /
 /
 Not
 stitching
 when
-NULL
+nullptr
 .
 /
 /
@@ -2745,7 +2745,7 @@ if
 stitchInfo
 !
 =
-NULL
+nullptr
 )
 {
 /

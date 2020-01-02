@@ -747,7 +747,7 @@ Cancel
 ;
 mTimer
 =
-NULL
+nullptr
 ;
 aSource
 -
@@ -1212,7 +1212,7 @@ delta
 {
 /
 /
-NULL
+nullptr
 images
 are
 allowed
@@ -1924,7 +1924,7 @@ Cancel
 ;
 mTimer
 =
-NULL
+nullptr
 ;
 aSource
 -

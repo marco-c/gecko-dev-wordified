@@ -577,12 +577,11 @@ PNG
 encoder
 .
 A
+null
 return
 value
-of
 /
 /
-NULL
 should
 be
 interpreted

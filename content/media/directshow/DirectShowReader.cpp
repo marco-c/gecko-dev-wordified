@@ -484,7 +484,7 @@ hr
 CoCreateInstance
 (
 CLSID_FilterGraph
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_IGraphBuilder
 reinterpret_cast
@@ -1464,7 +1464,7 @@ Notify
 (
 EC_COMPLETE
 aStatus
-NULL
+0
 )
 ;
 }

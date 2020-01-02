@@ -338,7 +338,7 @@ mVideoSource
 >
 mTimer
 =
-NULL
+nullptr
 ;
 }
 return
@@ -857,7 +857,7 @@ delta
 {
 /
 /
-NULL
+nullptr
 images
 are
 allowed
