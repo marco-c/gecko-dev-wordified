@@ -4856,11 +4856,6 @@ ok
 false
 )
 ;
-bool
-promise
-=
-Promise
-;
 for
 (
 uint32_t
@@ -4945,7 +4940,7 @@ false
 ;
 if
 (
-promise
+Promise
 &
 &
 !
