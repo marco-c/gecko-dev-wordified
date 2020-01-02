@@ -3157,13 +3157,13 @@ t
 ;
 if
 (
-uceFault_bitnot_object
+uceFault_pow_object
 (
 i
 )
 |
 |
-uceFault_bitnot_object
+uceFault_pow_object
 (
 i
 )
