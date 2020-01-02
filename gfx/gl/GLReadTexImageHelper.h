@@ -240,13 +240,13 @@ GLContext
 *
 mGL
 ;
-GLProgram
+GLuint
 mPrograms
 [
 4
 ]
 ;
-GLProgram
+GLuint
 TextureImageProgramFor
 (
 GLenum

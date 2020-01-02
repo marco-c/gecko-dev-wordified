@@ -184,10 +184,8 @@ lazy
 -
 initialized
 things
-GLProgram
-mBlitProgram
-;
 GLuint
+mBlitProgram
 mBlitFramebuffer
 ;
 void
