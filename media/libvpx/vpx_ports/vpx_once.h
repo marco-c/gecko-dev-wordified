@@ -86,6 +86,12 @@ tree
 *
 /
 #
+ifndef
+VPX_ONCE_H
+#
+define
+VPX_ONCE_H
+#
 include
 "
 vpx_config
@@ -500,5 +506,7 @@ done
 ;
 }
 }
+#
+endif
 #
 endif

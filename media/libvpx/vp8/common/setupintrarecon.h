@@ -86,6 +86,12 @@ tree
 *
 /
 #
+ifndef
+SETUPINTRARECON_H
+#
+define
+SETUPINTRARECON_H
+#
 include
 "
 vpx_scale
@@ -219,3 +225,5 @@ char
 129
 ;
 }
+#
+endif
