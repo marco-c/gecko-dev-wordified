@@ -468,6 +468,8 @@ mozilla
 class
 NrIceResolver
 {
+private
+:
 ~
 NrIceResolver
 (

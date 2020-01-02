@@ -185,6 +185,8 @@ mozilla
 class
 DtlsIdentity
 {
+private
+:
 ~
 DtlsIdentity
 (
