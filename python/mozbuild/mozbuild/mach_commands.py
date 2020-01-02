@@ -6605,6 +6605,13 @@ debugger
 extra_env
 =
 {
+'
+MOZ_CRASHREPORTER_DISABLE
+'
+:
+'
+1
+'
 }
         
 if
