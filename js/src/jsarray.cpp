@@ -7433,7 +7433,6 @@ getProperty
 (
 cx
 JSID_VOID
-true
 )
 ;
 if

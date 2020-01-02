@@ -1553,7 +1553,6 @@ getProperty
 (
 cx
 JSID_VOID
-false
 )
 ;
 if
@@ -3383,7 +3382,6 @@ getProperty
 (
 cx
 JSID_VOID
-false
 )
 ;
 if
@@ -3510,7 +3508,6 @@ getProperty
 (
 cx
 JSID_VOID
-false
 )
 ;
 if
