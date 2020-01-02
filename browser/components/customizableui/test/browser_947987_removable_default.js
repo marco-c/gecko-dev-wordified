@@ -542,6 +542,15 @@ window
 ;
 }
 }
+CustomizableUI
+.
+destroyWidget
+(
+spec
+.
+id
+)
+;
 yield
 promiseWindowClosed
 (
