@@ -2456,8 +2456,13 @@ traceClient
 {
 DevToolsUtils
 .
-reportError
+reportException
 (
+"
+DebuggerController
+.
+_startTracingTab
+"
 new
 Error
 (
