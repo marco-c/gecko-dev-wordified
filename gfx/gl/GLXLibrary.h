@@ -181,6 +181,9 @@ h
 struct
 PRLibrary
 ;
+class
+gfxASurface
+;
 namespace
 mozilla
 {
