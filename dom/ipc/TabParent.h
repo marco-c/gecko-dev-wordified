@@ -665,6 +665,7 @@ bool
 &
 aForward
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -675,6 +676,7 @@ RemoteDOMEvent
 &
 aEvent
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -684,6 +686,7 @@ PRenderFrameParent
 *
 actor
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -705,6 +708,7 @@ bool
 *
 aSuccess
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -729,6 +733,7 @@ bool
 *
 aOutWindowOpened
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -739,6 +744,7 @@ PBrowserParent
 *
 retval
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -773,6 +779,7 @@ nsString
 *
 aJSONRetVal
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -807,6 +814,7 @@ nsString
 *
 aJSONRetVal
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -835,6 +843,7 @@ Principal
 &
 aPrincipal
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -851,6 +860,7 @@ uint32_t
 *
 aSeqno
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -869,6 +879,7 @@ uint32_t
 &
 aNewEnd
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -906,6 +917,7 @@ uint32_t
 &
 aFocus
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -916,6 +928,7 @@ nsString
 &
 aText
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -929,6 +942,7 @@ nsString
 *
 aComposition
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -944,6 +958,7 @@ intptr_t
 *
 aNativeIMEContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -978,6 +993,7 @@ int32_t
 &
 aFocusChange
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -988,6 +1004,7 @@ bool
 &
 aCanRaise
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -998,6 +1015,7 @@ uint32_t
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1008,6 +1026,7 @@ nscolor
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1022,6 +1041,7 @@ nsString
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1031,6 +1051,7 @@ float
 *
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1040,6 +1061,7 @@ double
 *
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1049,6 +1071,7 @@ WindowsHandle
 *
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1067,6 +1090,7 @@ CSSRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1089,6 +1113,7 @@ ZoomConstraints
 &
 aConstraints
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1103,6 +1128,7 @@ bool
 &
 aPreventDefault
 )
+MOZ_OVERRIDE
 ;
 virtual
 PContentDialogParent
@@ -1136,6 +1162,7 @@ nsString
 &
 aStringParams
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1145,6 +1172,7 @@ PContentDialogParent
 *
 aDialog
 )
+MOZ_OVERRIDE
 {
 delete
 aDialog
@@ -1472,6 +1500,7 @@ nsIntSize
 &
 renderSize
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1481,6 +1510,7 @@ PDocumentRendererParent
 *
 actor
 )
+MOZ_OVERRIDE
 ;
 virtual
 PContentPermissionRequestParent
@@ -1503,6 +1533,7 @@ Principal
 &
 aPrincipal
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1512,6 +1543,7 @@ PContentPermissionRequestParent
 *
 actor
 )
+MOZ_OVERRIDE
 ;
 virtual
 POfflineCacheUpdateParent
@@ -1577,6 +1609,7 @@ Principal
 &
 principal
 )
+MOZ_OVERRIDE
 ;
 bool
 GetGlobalJSObject
@@ -1794,6 +1827,7 @@ aAllowed
 *
 /
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1803,6 +1837,7 @@ PIndexedDBParent
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1823,6 +1858,7 @@ bool
 *
 aAllowed
 )
+MOZ_OVERRIDE
 ;
 Element
 *

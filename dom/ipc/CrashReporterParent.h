@@ -455,6 +455,7 @@ nsCString
 &
 data
 )
+MOZ_OVERRIDE
 {
 AnnotateCrashReport
 (
@@ -475,6 +476,7 @@ nsCString
 &
 data
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla

@@ -1034,6 +1034,7 @@ nsCString
 &
 uri
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1059,6 +1060,7 @@ nsIntSize
 &
 size
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1077,6 +1079,7 @@ ScreenOrientation
 &
 orientation
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1093,6 +1096,7 @@ FrameMetrics
 &
 aFrameMetrics
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1103,6 +1107,7 @@ CSSIntPoint
 &
 aPoint
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1113,6 +1118,7 @@ CSSIntPoint
 &
 aPoint
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1123,6 +1129,7 @@ CSSIntPoint
 &
 aPoint
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1133,6 +1140,7 @@ CSSIntPoint
 &
 aPoint
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1143,6 +1151,7 @@ ViewID
 &
 aViewId
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1153,18 +1162,21 @@ ViewID
 &
 aViewId
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvActivate
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvDeactivate
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1199,6 +1211,7 @@ bool
 &
 aIgnoreRootScrollFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1212,6 +1225,7 @@ WidgetMouseEvent
 &
 event
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1225,6 +1239,7 @@ WidgetKeyboardEvent
 &
 event
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1238,6 +1253,7 @@ WidgetWheelEvent
 &
 event
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1252,6 +1268,7 @@ ScrollableLayerGuid
 &
 aGuid
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1266,6 +1283,7 @@ ScrollableLayerGuid
 &
 aGuid
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1292,6 +1310,7 @@ bool
 &
 aPreventDefault
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1305,6 +1324,7 @@ WidgetCompositionEvent
 &
 event
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1318,6 +1338,7 @@ WidgetTextEvent
 &
 event
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1331,6 +1352,7 @@ WidgetSelectionEvent
 &
 event
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1345,6 +1367,7 @@ bool
 &
 capture
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1359,6 +1382,7 @@ bool
 &
 aRunInGlobalScope
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1422,6 +1446,7 @@ nsIntSize
 &
 renderSize
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1431,6 +1456,7 @@ PDocumentRendererChild
 *
 actor
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1467,6 +1493,7 @@ nsIntSize
 &
 renderSize
 )
+MOZ_OVERRIDE
 ;
 virtual
 PContentDialogChild
@@ -1495,6 +1522,7 @@ nsString
 >
 &
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1504,6 +1532,7 @@ PContentDialogChild
 *
 aDialog
 )
+MOZ_OVERRIDE
 ;
 static
 void
@@ -1605,6 +1634,7 @@ Principal
 &
 aPrincipal
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1614,6 +1644,7 @@ PContentPermissionRequestChild
 *
 actor
 )
+MOZ_OVERRIDE
 ;
 virtual
 POfflineCacheUpdateChild
@@ -1633,6 +1664,7 @@ bool
 &
 stickDocument
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1642,6 +1674,7 @@ POfflineCacheUpdateChild
 *
 offlineCacheUpdate
 )
+MOZ_OVERRIDE
 ;
 nsIWebNavigation
 *
@@ -2044,6 +2077,7 @@ aAllowed
 *
 /
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -2053,6 +2087,7 @@ PIndexedDBChild
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -2210,6 +2245,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 ;
 enum
 FrameScriptLoading
