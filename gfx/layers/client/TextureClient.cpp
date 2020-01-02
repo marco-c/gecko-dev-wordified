@@ -3770,6 +3770,9 @@ if
 (
 mOpenMode
 &
+OpenMode
+:
+:
 OPEN_READ
 )
 {
@@ -3995,6 +3998,9 @@ mUsingFallbackDrawTarget
 (
 mOpenMode
 &
+OpenMode
+:
+:
 OPEN_WRITE
 )
 )

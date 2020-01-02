@@ -294,7 +294,10 @@ h
 /
 /
 for
-DIAGNOSTIC_CONTAINER
+DiagnosticFlags
+:
+:
+CONTAINER
 #
 include
 "
@@ -3305,7 +3308,10 @@ GetCompositor
 >
 DrawDiagnostics
 (
-DIAGNOSTIC_CONTAINER
+DiagnosticFlags
+:
+:
+CONTAINER
 rect
 clipRect
 aContainer

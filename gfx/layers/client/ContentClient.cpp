@@ -1714,6 +1714,9 @@ mTextureClient
 >
 Lock
 (
+OpenMode
+:
+:
 OPEN_READ_WRITE
 )
 ;
@@ -1753,6 +1756,9 @@ mTextureClientOnWhite
 >
 Lock
 (
+OpenMode
+:
+:
 OPEN_READ_WRITE
 )
 ;
@@ -2514,6 +2520,9 @@ mTextureClient
 >
 Lock
 (
+OpenMode
+:
+:
 OPEN_READ_WRITE
 )
 ;
@@ -2539,6 +2548,9 @@ mTextureClientOnWhite
 >
 Lock
 (
+OpenMode
+:
+:
 OPEN_READ_WRITE
 )
 ;
@@ -2763,6 +2775,9 @@ mFrontClient
 >
 Lock
 (
+OpenMode
+:
+:
 OPEN_READ_ONLY
 )
 )
@@ -2781,6 +2796,9 @@ mFrontClientOnWhite
 >
 Lock
 (
+OpenMode
+:
+:
 OPEN_READ_ONLY
 )
 )
@@ -3167,6 +3185,9 @@ mTextureClient
 >
 Lock
 (
+OpenMode
+:
+:
 OPEN_READ_WRITE
 )
 ;
@@ -3192,6 +3213,9 @@ mTextureClientOnWhite
 >
 Lock
 (
+OpenMode
+:
+:
 OPEN_READ_WRITE
 )
 ;
@@ -4649,7 +4673,10 @@ mTextureInfo
 .
 mDeprecatedTextureHostFlags
 =
-TEXTURE_HOST_COPY_PREVIOUS
+DeprecatedTextureHostFlags
+:
+:
+COPY_PREVIOUS
 ;
 }
 mHasBuffer
@@ -5327,7 +5354,10 @@ mForwarder
 UpdateTextureIncremental
 (
 this
-TextureFront
+TextureIdentifier
+:
+:
+Front
 mUpdateDescriptor
 aRegionToDraw
 mBufferRect
@@ -5355,7 +5385,10 @@ mForwarder
 UpdateTextureIncremental
 (
 this
-TextureOnWhiteFront
+TextureIdentifier
+:
+:
+OnWhiteFront
 mUpdateDescriptorOnWhite
 aRegionToDraw
 mBufferRect

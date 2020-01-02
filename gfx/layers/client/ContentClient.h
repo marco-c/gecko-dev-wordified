@@ -2084,7 +2084,10 @@ mTextureInfo
 .
 mCompositableType
 =
-COMPOSITABLE_CONTENT_DOUBLE
+CompositableType
+:
+:
+CONTENT_DOUBLE
 ;
 }
 virtual
@@ -2334,7 +2337,10 @@ mTextureInfo
 .
 mCompositableType
 =
-COMPOSITABLE_CONTENT_SINGLE
+CompositableType
+:
+:
+CONTENT_SINGLE
 ;
 }
 virtual
@@ -2464,6 +2470,9 @@ mTextureInfo
 .
 mCompositableType
 =
+CompositableType
+:
+:
 BUFFER_CONTENT_INC
 ;
 }

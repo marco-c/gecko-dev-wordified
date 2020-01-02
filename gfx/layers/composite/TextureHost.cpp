@@ -1845,7 +1845,10 @@ mCompositor
 >
 SupportsEffect
 (
-EFFECT_YCBCR
+EffectTypes
+:
+:
+YCBCR
 )
 )
 {
@@ -2139,7 +2142,10 @@ mCompositor
 >
 SupportsEffect
 (
-EFFECT_YCBCR
+EffectTypes
+:
+:
+YCBCR
 )
 )
 {
