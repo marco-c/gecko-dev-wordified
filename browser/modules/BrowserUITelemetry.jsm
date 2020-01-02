@@ -611,7 +611,7 @@ function
 (
 aCategory
 aAction
-aMouseUpEvent
+aButton
 )
 {
 const
@@ -634,9 +634,7 @@ buttonKey
 =
 BUTTONS
 [
-aMouseUpEvent
-.
-button
+aButton
 ]
 ;
 if
@@ -931,6 +929,8 @@ item
 .
 id
 aEvent
+.
+button
 )
 ;
 }
