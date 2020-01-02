@@ -7088,14 +7088,10 @@ info
 "
 Logging
 in
+the
 user
+.
 "
-+
-this
-.
-identity
-.
-username
 )
 ;
 this
