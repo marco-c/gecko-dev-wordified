@@ -657,9 +657,10 @@ nullptr
 ;
 if
 (
-JSVAL_IS_STRING
-(
 arg
+.
+isString
+(
 )
 )
 {
@@ -839,9 +840,10 @@ nullptr
 if
 (
 !
-JSVAL_IS_STRING
-(
 path
+.
+isString
+(
 )
 )
 {

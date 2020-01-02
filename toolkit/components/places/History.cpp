@@ -2109,9 +2109,10 @@ isNull
 )
 |
 |
-JSVAL_IS_STRING
-(
 aValue
+.
+isString
+(
 )
 )
 )

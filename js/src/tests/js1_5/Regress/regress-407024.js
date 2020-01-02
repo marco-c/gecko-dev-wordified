@@ -193,12 +193,13 @@ pn_val
 )
 |
 |
-JSVAL_IS_STRING
-(
 pn3
 -
 >
 pn_val
+.
+isString
+(
 )
 |
 |

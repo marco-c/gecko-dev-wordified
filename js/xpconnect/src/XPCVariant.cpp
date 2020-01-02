@@ -512,9 +512,10 @@ good
 if
 (
 !
-JSVAL_IS_STRING
-(
 val
+.
+isString
+(
 )
 )
 nsVariant

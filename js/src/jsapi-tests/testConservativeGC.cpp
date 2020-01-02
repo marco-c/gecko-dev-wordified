@@ -180,9 +180,10 @@ v3
 ;
 CHECK
 (
-JSVAL_IS_STRING
-(
 v3
+.
+isString
+(
 )
 )
 ;
@@ -298,9 +299,10 @@ tmp
 ;
 CHECK
 (
-JSVAL_IS_STRING
-(
 tmp
+.
+isString
+(
 )
 )
 ;

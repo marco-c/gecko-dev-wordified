@@ -99,9 +99,10 @@ Do
 not
 assert
 :
-JSVAL_IS_STRING
-(
 v
+.
+isString
+(
 )
 '
 ;

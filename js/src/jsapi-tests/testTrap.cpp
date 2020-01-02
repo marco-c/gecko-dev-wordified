@@ -177,9 +177,10 @@ cx
 ;
 if
 (
-JSVAL_IS_STRING
-(
 closure
+.
+isString
+(
 )
 )
 +
