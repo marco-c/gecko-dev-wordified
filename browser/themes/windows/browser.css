@@ -12142,6 +12142,14 @@ areatype
 toolbar
 "
 ]
+:
+not
+(
+.
+bookmark
+-
+item
+)
 >
 .
 toolbarbutton
