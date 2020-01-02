@@ -988,6 +988,7 @@ ToExtendMode
 mExtend
 )
 mTransform
+mFilter
 )
 ;
 return
