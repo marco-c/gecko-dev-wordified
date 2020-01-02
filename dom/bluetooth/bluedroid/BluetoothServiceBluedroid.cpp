@@ -688,7 +688,7 @@ public
 void
 OnError
 (
-int
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -4468,7 +4468,7 @@ public
 void
 OnError
 (
-int
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -4804,7 +4804,7 @@ res
 void
 OnError
 (
-int
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -5003,7 +5003,7 @@ public
 void
 OnError
 (
-int
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -5192,7 +5192,7 @@ ReplyStatusError
 BluetoothReplyRunnable
 *
 aBluetoothReplyRunnable
-int
+BluetoothStatus
 aStatusCode
 const
 nsAString
@@ -5239,7 +5239,7 @@ if
 aStatusCode
 =
 =
-BT_STATUS_BUSY
+STATUS_BUSY
 )
 {
 replyError
@@ -5259,7 +5259,7 @@ if
 aStatusCode
 =
 =
-BT_STATUS_NOT_READY
+STATUS_NOT_READY
 )
 {
 replyError
@@ -5279,7 +5279,7 @@ if
 aStatusCode
 =
 =
-BT_STATUS_DONE
+STATUS_DONE
 )
 {
 replyError
@@ -5299,7 +5299,7 @@ if
 aStatusCode
 =
 =
-BT_STATUS_AUTH_FAILURE
+STATUS_AUTH_FAILURE
 )
 {
 replyError
@@ -5319,7 +5319,7 @@ if
 aStatusCode
 =
 =
-BT_STATUS_RMT_DEV_DOWN
+STATUS_RMT_DEV_DOWN
 )
 {
 replyError
@@ -5339,7 +5339,7 @@ if
 aStatusCode
 =
 =
-BT_STATUS_FAIL
+STATUS_FAIL
 )
 {
 replyError
@@ -5743,7 +5743,7 @@ aDeviceAddress
 void
 OnError
 (
-int
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -6226,7 +6226,7 @@ EmptyString
 void
 OnError
 (
-int
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -6347,7 +6347,7 @@ EmptyString
 void
 OnError
 (
-int
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -6445,7 +6445,7 @@ aRunnable
 void
 OnError
 (
-int
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -6599,7 +6599,7 @@ aRunnable
 void
 OnError
 (
-int
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -6711,7 +6711,7 @@ aRunnable
 void
 OnError
 (
-int
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -6840,7 +6840,7 @@ EmptyString
 void
 OnError
 (
-int
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -6982,7 +6982,7 @@ EmptyString
 void
 OnError
 (
-int
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
