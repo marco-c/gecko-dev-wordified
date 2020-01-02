@@ -8543,8 +8543,10 @@ JS_DONT_PRETTY_PRINT
 )
 ;
 }
-static
 bool
+js
+:
+:
 fun_toString
 (
 JSContext
