@@ -9332,10 +9332,14 @@ textbox
 accessible
 =
 new
-XULTextFieldAccessible
+EnumRoleAccessible
 (
 aContent
 aDoc
+roles
+:
+:
+SECTION
 )
 ;
 }
