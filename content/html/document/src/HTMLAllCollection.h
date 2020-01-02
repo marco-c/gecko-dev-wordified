@@ -150,6 +150,13 @@ nsISupportsImpl
 .
 h
 "
+#
+include
+<
+stdint
+.
+h
+>
 class
 nsContentList
 ;
@@ -190,6 +197,11 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 HTMLAllCollection
 )
+uint32_t
+Length
+(
+)
+;
 JSObject
 *
 GetObject
