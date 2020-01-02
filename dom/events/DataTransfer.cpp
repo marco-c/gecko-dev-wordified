@@ -1562,12 +1562,14 @@ continue
 ;
 nsRefPtr
 <
-nsDOMFileFile
+DOMFile
 >
 domFile
 =
-new
-nsDOMFileFile
+DOMFile
+:
+:
+CreateFromFile
 (
 file
 )

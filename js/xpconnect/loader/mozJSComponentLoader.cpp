@@ -996,7 +996,7 @@ native
 nsresult
 rv
 =
-nsDOMMultipartFile
+DOMMultipartFileImpl
 :
 :
 NewFile
@@ -1185,7 +1185,7 @@ native
 nsresult
 rv
 =
-nsDOMMultipartFile
+DOMMultipartFileImpl
 :
 :
 NewBlob

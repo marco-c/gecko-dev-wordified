@@ -1271,7 +1271,7 @@ ICameraControl
 >
 mCameraControl
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIDOMFile
 >

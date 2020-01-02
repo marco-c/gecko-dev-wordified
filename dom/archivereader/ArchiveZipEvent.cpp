@@ -405,7 +405,10 @@ nullptr
 }
 return
 new
-ArchiveZipFile
+DOMFileCC
+(
+new
+ArchiveZipFileImpl
 (
 filename
 NS_ConvertUTF8toUTF16
@@ -422,6 +425,7 @@ orglen
 )
 mCentralStruct
 aArchiveReader
+)
 )
 ;
 }

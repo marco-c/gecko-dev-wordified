@@ -2408,7 +2408,10 @@ nsIDOMBlob
 blob
 =
 new
-nsDOMFileFile
+DOMFile
+(
+new
+DOMFileImplFile
 (
 fullPath
 mime
@@ -2418,6 +2421,7 @@ mFile
 >
 mFile
 mLastModificationDate
+)
 )
 ;
 ContentParent

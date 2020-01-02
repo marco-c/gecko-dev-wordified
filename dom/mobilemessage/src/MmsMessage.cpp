@@ -2270,13 +2270,13 @@ to
 be
 initialized
 .
-nsDOMFileBase
+DOMFile
 *
 file
 =
 static_cast
 <
-nsDOMFileBase
+DOMFile
 *
 >
 (

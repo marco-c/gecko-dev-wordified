@@ -742,7 +742,10 @@ nsIDOMFile
 file
 =
 new
-File
+DOMFileCC
+(
+new
+FileImpl
 (
 mName
 mType
@@ -750,6 +753,7 @@ aFileSize
 mFile
 aFileHandle
 mFileInfo
+)
 )
 ;
 return

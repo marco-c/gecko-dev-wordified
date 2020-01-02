@@ -10044,8 +10044,10 @@ contentType
 ;
 mDOMFile
 =
-new
-nsDOMFileFile
+DOMFile
+:
+:
+CreateFromFile
 (
 file
 EmptyString

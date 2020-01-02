@@ -3348,12 +3348,14 @@ the
 buffer
 nsRefPtr
 <
-nsDOMMemoryFile
+DOMFile
 >
 file
 =
-new
-nsDOMMemoryFile
+DOMFile
+:
+:
+CreateMemoryFile
 (
 imgData
 (

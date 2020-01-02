@@ -1107,8 +1107,13 @@ nsIDOMFile
 >
 domFile
 =
-new
-nsDOMFileFile
+dom
+:
+:
+DOMFile
+:
+:
+CreateFromFile
 (
 localFile
 )
