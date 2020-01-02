@@ -368,17 +368,6 @@ ins
 )
 ;
 bool
-precreatePhi
-(
-LBlock
-*
-block
-MPhi
-*
-phi
-)
-;
-bool
 definePhis
 (
 )
