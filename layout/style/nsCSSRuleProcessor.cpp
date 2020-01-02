@@ -20941,6 +20941,15 @@ IsEmpty
 )
 )
 ;
+MOZ_ASSERT
+(
+mStyleScopes
+.
+IsEmpty
+(
+)
+)
+;
 mAncestorFilter
 .
 mFilter
