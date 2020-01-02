@@ -658,6 +658,17 @@ gecko
 .
 util
 .
+GeckoEventListener
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
 HardwareUtils
 ;
 import
@@ -3588,6 +3599,9 @@ getInstance
 .
 registerGeckoThreadListener
 (
+(
+GeckoEventListener
+)
 this
 "
 CharEncoding
@@ -4021,6 +4035,9 @@ getInstance
 .
 unregisterGeckoThreadListener
 (
+(
+GeckoEventListener
+)
 this
 "
 Prompt
@@ -4071,6 +4088,9 @@ getInstance
 .
 registerGeckoThreadListener
 (
+(
+GeckoEventListener
+)
 this
 "
 Prompt
@@ -5553,6 +5573,9 @@ getInstance
 .
 unregisterGeckoThreadListener
 (
+(
+GeckoEventListener
+)
 this
 "
 CharEncoding
