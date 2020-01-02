@@ -131,11 +131,11 @@ h
 >
 #
 include
-<
-pthread
+"
+jslock
 .
 h
->
+"
 #
 endif
 namespace
@@ -292,7 +292,8 @@ AsmJSMachExceptionHandler
 bool
 installed_
 ;
-pthread_t
+PRThread
+*
 thread_
 ;
 mach_port_t
