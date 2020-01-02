@@ -1087,8 +1087,6 @@ return
 nullptr
 ;
 }
-else
-{
 nsRefPtr
 <
 MediaDataDecoder
@@ -1128,7 +1126,6 @@ mTaskQueue
 mProxy
 )
 ;
-}
 }
 MediaDataDecoder
 *
@@ -1173,8 +1170,6 @@ return
 nullptr
 ;
 }
-else
-{
 nsRefPtr
 <
 MediaDataDecoder
@@ -1212,7 +1207,6 @@ mTaskQueue
 mProxy
 )
 ;
-}
 }
 }
 /
