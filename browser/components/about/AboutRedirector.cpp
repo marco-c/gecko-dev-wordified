@@ -846,7 +846,7 @@ customizableui
 /
 aboutCustomizing
 .
-xhtml
+xul
 "
 nsIAboutModule
 :
