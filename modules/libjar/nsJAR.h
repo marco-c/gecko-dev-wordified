@@ -887,6 +887,9 @@ mLastModTime
 uint16_t
 mCompression
 ;
+uint32_t
+mPermissions
+;
 bool
 mIsDirectory
 ;
