@@ -29580,17 +29580,6 @@ false
 break
 ;
 }
-function
-(
-id
-)
-document
-.
-getElementById
-(
-id
-)
-;
 let
 titlebar
 =
