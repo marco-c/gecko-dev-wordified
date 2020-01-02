@@ -2160,6 +2160,17 @@ aEnabled
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+RecvSetIsDocShellActive
+(
+const
+bool
+&
+aIsActive
+)
+MOZ_OVERRIDE
+;
 nsEventStatus
 DispatchWidgetEvent
 (
