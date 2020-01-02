@@ -34917,7 +34917,7 @@ nsDisplayListBuilder
 :
 :
 IMAGE_VISIBILITY
-true
+false
 )
 ;
 nsRect
