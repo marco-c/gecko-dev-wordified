@@ -4741,23 +4741,6 @@ name
 )
     
 def
-getGMPPluginPath
-(
-self
-options
-)
-:
-        
-#
-TODO
-:
-bug
-1043403
-        
-return
-None
-    
-def
 buildBrowserEnv
 (
 self
