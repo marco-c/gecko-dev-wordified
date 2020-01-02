@@ -3476,7 +3476,7 @@ type
 "
 history
 "
-imageURISpec
+imageURI
 :
 null
 }

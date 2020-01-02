@@ -912,7 +912,7 @@ this
 .
 link
 .
-imageURISpec
+imageURI
 )
 {
 BackgroundPageThumbs
@@ -990,7 +990,7 @@ this
 .
 link
 .
-imageURISpec
+imageURI
 |
 |
 PageThumbs
