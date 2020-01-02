@@ -20049,6 +20049,11 @@ bs
 isAddonBlocklisted
 (
 addon
+.
+id
+install
+.
+version
 gUpdates
 .
 update
