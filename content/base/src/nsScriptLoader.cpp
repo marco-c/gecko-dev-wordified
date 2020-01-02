@@ -5693,14 +5693,6 @@ CanCompileOffThread
 (
 cx
 options
-aRequest
--
->
-mScriptText
-.
-Length
-(
-)
 )
 )
 {

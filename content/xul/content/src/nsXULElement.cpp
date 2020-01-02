@@ -16042,7 +16042,6 @@ CanCompileOffThread
 (
 cx
 options
-aTextLength
 )
 )
 {
