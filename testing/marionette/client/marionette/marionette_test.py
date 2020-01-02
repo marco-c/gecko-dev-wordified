@@ -1920,6 +1920,7 @@ socket
 .
 error
 MarionetteException
+IOError
 )
 :
                     
