@@ -12658,7 +12658,11 @@ aCx
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aObj
 )
 ;
