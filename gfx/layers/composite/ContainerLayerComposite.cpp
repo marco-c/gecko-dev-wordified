@@ -820,6 +820,9 @@ scrollY
 TimeStamp
 mFrameTime
 ;
+gfx
+:
+:
 Point
 mPoint
 ;
@@ -1497,6 +1500,9 @@ i
 )
 {
 const
+gfx
+:
+:
 Point
 &
 p1
@@ -1514,6 +1520,9 @@ i
 mPoint
 ;
 const
+gfx
+:
+:
 Point
 &
 p2
