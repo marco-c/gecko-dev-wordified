@@ -793,7 +793,7 @@ bool
 DoRequest
 (
 const
-DefaultAdapterPathRequest
+GetAdaptersRequest
 &
 aRequest
 )

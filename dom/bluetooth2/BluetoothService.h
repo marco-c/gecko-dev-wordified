@@ -580,12 +580,14 @@ forget
 *
 *
 Returns
-the
-path
+an
+array
 of
-the
-default
+each
 adapter
+'
+s
+properties
 implemented
 via
 a
@@ -606,7 +608,7 @@ otherwise
 /
 virtual
 nsresult
-GetDefaultAdapterPathInternal
+GetAdaptersInternal
 (
 BluetoothReplyRunnable
 *

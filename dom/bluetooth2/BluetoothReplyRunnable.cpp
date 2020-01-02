@@ -228,6 +228,12 @@ Value
 aVal
 )
 {
+NS_ENSURE_TRUE
+(
+mDOMRequest
+NS_OK
+)
+;
 nsCOMPtr
 <
 nsIDOMRequestService
@@ -295,6 +301,12 @@ FireErrorString
 (
 )
 {
+NS_ENSURE_TRUE
+(
+mDOMRequest
+NS_OK
+)
+;
 nsCOMPtr
 <
 nsIDOMRequestService
@@ -350,11 +362,6 @@ MOZ_ASSERT
 NS_IsMainThread
 (
 )
-)
-;
-MOZ_ASSERT
-(
-mDOMRequest
 )
 ;
 MOZ_ASSERT
