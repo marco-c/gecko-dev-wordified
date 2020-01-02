@@ -338,9 +338,6 @@ Dir
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -351,8 +348,6 @@ JS
 :
 Value
 >
->
-&
 aValue
 )
 ;
@@ -416,9 +411,6 @@ Time
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -429,8 +421,6 @@ JS
 :
 Value
 >
->
-&
 aTimer
 )
 ;
@@ -440,9 +430,6 @@ TimeEnd
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -453,8 +440,6 @@ JS
 :
 Value
 >
->
-&
 aTimer
 )
 ;

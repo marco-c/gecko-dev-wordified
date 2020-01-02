@@ -754,9 +754,6 @@ Continue
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -767,8 +764,6 @@ JS
 :
 Value
 >
->
-&
 aKey
 ErrorResult
 &

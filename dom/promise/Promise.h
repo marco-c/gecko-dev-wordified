@@ -381,9 +381,6 @@ aGlobal
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -394,8 +391,6 @@ JS
 :
 Value
 >
->
-&
 aValue
 ErrorResult
 &
@@ -445,9 +440,6 @@ aGlobal
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -458,8 +450,6 @@ JS
 :
 Value
 >
->
-&
 aValue
 ErrorResult
 &

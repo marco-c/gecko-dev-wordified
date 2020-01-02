@@ -2377,9 +2377,6 @@ Dir
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -2390,8 +2387,6 @@ JS
 :
 Value
 >
->
-&
 aValue
 )
 {
@@ -2420,9 +2415,10 @@ data
 ;
 if
 (
+!
 aValue
 .
-WasPassed
+isUndefined
 (
 )
 )
@@ -2432,10 +2428,6 @@ data
 AppendElement
 (
 aValue
-.
-Value
-(
-)
 )
 ;
 }
@@ -2480,9 +2472,6 @@ Time
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -2493,8 +2482,6 @@ JS
 :
 Value
 >
->
-&
 aTimer
 )
 {
@@ -2523,9 +2510,10 @@ data
 ;
 if
 (
+!
 aTimer
 .
-WasPassed
+isUndefined
 (
 )
 )
@@ -2535,10 +2523,6 @@ data
 AppendElement
 (
 aTimer
-.
-Value
-(
-)
 )
 ;
 }
@@ -2562,9 +2546,6 @@ TimeEnd
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -2575,8 +2556,6 @@ JS
 :
 Value
 >
->
-&
 aTimer
 )
 {
@@ -2605,9 +2584,10 @@ data
 ;
 if
 (
+!
 aTimer
 .
-WasPassed
+isUndefined
 (
 )
 )
@@ -2617,10 +2597,6 @@ data
 AppendElement
 (
 aTimer
-.
-Value
-(
-)
 )
 ;
 }

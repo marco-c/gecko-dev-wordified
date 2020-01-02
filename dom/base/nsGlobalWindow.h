@@ -4688,15 +4688,6 @@ const
 nsAString
 &
 aUrl
-const
-mozilla
-:
-:
-dom
-:
-:
-Optional
-<
 JS
 :
 :
@@ -4707,8 +4698,6 @@ JS
 :
 Value
 >
->
-&
 aArgument
 const
 nsAString
