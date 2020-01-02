@@ -899,10 +899,9 @@ accessible
 for
 the
 element
-implementing
-nsIAccessibleProvider
-*
-interface
+having
+XBL
+bindings
 .
 *
 /
