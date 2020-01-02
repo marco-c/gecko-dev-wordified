@@ -174,6 +174,13 @@ clearHistory
 )
 ;
 yield
+addVisitsAndRepopulateNewTabLinks
+(
+URL
+next
+)
+;
+yield
 createThumbnail
 (
 )
@@ -336,6 +343,13 @@ clearHistory
 )
 ;
 }
+yield
+addVisitsAndRepopulateNewTabLinks
+(
+URL
+next
+)
+;
 yield
 createThumbnail
 (
