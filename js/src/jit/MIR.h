@@ -1996,6 +1996,12 @@ fp
 )
 const
 ;
+void
+dump
+(
+)
+const
+;
 /
 /
 For

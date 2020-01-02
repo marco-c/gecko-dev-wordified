@@ -463,6 +463,12 @@ sp
 )
 const
 ;
+void
+dump
+(
+)
+const
+;
 }
 ;
 class
@@ -2702,6 +2708,12 @@ dump
 FILE
 *
 fp
+)
+const
+;
+void
+dump
+(
 )
 const
 ;

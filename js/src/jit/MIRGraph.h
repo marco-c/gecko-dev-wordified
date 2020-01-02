@@ -2962,6 +2962,11 @@ FILE
 fp
 )
 ;
+void
+dump
+(
+)
+;
 /
 /
 Track
@@ -3920,6 +3925,11 @@ dump
 FILE
 *
 fp
+)
+;
+void
+dump
+(
 )
 ;
 }
