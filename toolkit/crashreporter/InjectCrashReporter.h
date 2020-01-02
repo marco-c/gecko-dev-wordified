@@ -94,6 +94,12 @@ MPL
 *
 /
 #
+ifndef
+InjectCrashReporter_h
+#
+define
+InjectCrashReporter_h
+#
 include
 "
 nsThreadUtils
@@ -144,3 +150,5 @@ mInjectorPath
 /
 Namespace
 mozilla
+#
+endif
