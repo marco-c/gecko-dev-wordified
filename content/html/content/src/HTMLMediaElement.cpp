@@ -150,7 +150,7 @@ include
 "
 mozilla
 /
-MathAlgorithms
+ArrayUtils
 .
 h
 "
@@ -159,7 +159,7 @@ include
 "
 mozilla
 /
-Util
+MathAlgorithms
 .
 h
 "
