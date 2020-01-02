@@ -6275,10 +6275,6 @@ nsHTMLReflowMetrics
 childDesiredSize
 (
 aReflowState
-.
-GetWritingMode
-(
-)
 /
 /
 ?
@@ -6617,10 +6613,6 @@ nsHTMLReflowMetrics
 childDesiredSize
 (
 aReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 GetReflowAndBoundingMetricsFor
