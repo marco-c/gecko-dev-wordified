@@ -2937,9 +2937,13 @@ jsInitState
 =
 Uninitialized
 ;
-bool
-jsIsShutDown
+JS_PUBLIC_API
 (
+bool
+)
+JS_IsShutDown
+(
+void
 )
 {
 return
