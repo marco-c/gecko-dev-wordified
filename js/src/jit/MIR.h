@@ -30913,6 +30913,9 @@ idempotent_
 bool
 allowGetters_
 ;
+bool
+monitoredResult_
+;
 CacheLocationList
 location_
 ;
@@ -30928,6 +30931,8 @@ obj
 PropertyName
 *
 name
+bool
+monitoredResult
 )
 :
 MUnaryInstruction
@@ -30945,6 +30950,10 @@ false
 allowGetters_
 (
 false
+)
+monitoredResult_
+(
+monitoredResult
 )
 location_
 (
@@ -31020,6 +31029,8 @@ obj
 PropertyName
 *
 name
+bool
+monitoredResult
 )
 {
 return
@@ -31031,6 +31042,7 @@ MGetPropertyCache
 (
 obj
 name
+monitoredResult
 )
 ;
 }
@@ -31148,6 +31160,16 @@ const
 {
 return
 allowGetters_
+;
+}
+bool
+monitoredResult
+(
+)
+const
+{
+return
+monitoredResult_
 ;
 }
 void
