@@ -12629,6 +12629,7 @@ result
 }
 if
 (
+(
 !
 test_passed
 &
@@ -12637,6 +12638,18 @@ expected
 =
 =
 EXPECTED_PASS
+)
+|
+|
+(
+test_passed
+&
+&
+expected
+=
+=
+EXPECTED_FAIL
+)
 )
 {
 FlushTestLog
