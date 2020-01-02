@@ -1131,6 +1131,11 @@ _
 (
 CheckInterruptPar
 )
+\
+_
+(
+RecompileCheck
+)
 /
 /
 Forward
