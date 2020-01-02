@@ -2572,6 +2572,11 @@ message
 )
 )
 ;
+SendResponse
+(
+BTHF_AT_RESPONSE_OK
+)
+;
 }
 void
 BluetoothHfpManager
@@ -3021,6 +3026,11 @@ mCdmaSecondCall
 )
 ;
 }
+SendResponse
+(
+BTHF_AT_RESPONSE_OK
+)
+;
 }
 void
 BluetoothHfpManager
