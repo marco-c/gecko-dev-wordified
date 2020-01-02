@@ -13252,9 +13252,6 @@ end
 )
 ;
 }
-mozilla
-:
-:
 gfx
 :
 :
@@ -13845,9 +13842,6 @@ aFont
 gfxContext
 *
 aThebesContext
-mozilla
-:
-:
 gfx
 :
 :
