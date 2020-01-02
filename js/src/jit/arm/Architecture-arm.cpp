@@ -177,7 +177,7 @@ HWCAP_ARMv7
 1
 <
 <
-29
+31
 )
 #
 include
