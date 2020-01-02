@@ -6044,7 +6044,7 @@ owner
 >
 is
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -6072,7 +6072,7 @@ SizedTypeDescr
 ;
 Rooted
 <
-TypedDatum
+TypedObject
 *
 >
 owner1
@@ -6084,14 +6084,14 @@ owner
 >
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
 )
 ;
 return
-TypedDatum
+TypedObject
 :
 :
 createDerived

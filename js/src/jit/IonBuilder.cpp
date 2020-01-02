@@ -45571,7 +45571,7 @@ alloc
 (
 )
 obj
-JS_DATUM_SLOT_LENGTH
+JS_TYPEDOBJ_SLOT_LENGTH
 )
 ;
 current
@@ -46291,7 +46291,8 @@ ownerOffset
 Create
 the
 derived
-datum
+typed
+object
 .
 MInstruction
 *
@@ -66449,7 +66450,7 @@ alloc
 (
 )
 typedObj
-JS_DATUM_SLOT_TYPE_DESCR
+JS_TYPEDOBJ_SLOT_TYPE_DESCR
 )
 ;
 current

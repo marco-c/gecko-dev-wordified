@@ -136,7 +136,7 @@ namespace
 js
 {
 class
-TypedDatum
+TypedObject
 ;
 /
 /
@@ -191,7 +191,7 @@ IsInTargetRegion
 ForkJoinContext
 *
 cx
-TypedDatum
+TypedObject
 *
 object
 )
