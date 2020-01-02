@@ -10585,9 +10585,6 @@ GraphicBufferLocked
 aBuffer
 )
 {
-if
-(
-!
 gc
 -
 >
@@ -10600,16 +10597,7 @@ ImageFormat
 GRALLOC_PLANAR_YCBCR
 GonkFrameBuilder
 )
-)
-{
-aBuffer
--
->
-Unlock
-(
-)
 ;
-}
 }
 void
 OnShutter

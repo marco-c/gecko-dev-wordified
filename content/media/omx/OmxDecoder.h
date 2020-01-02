@@ -216,6 +216,8 @@ VideoGraphicBuffer
 (
 )
 ;
+protected
+:
 void
 Unlock
 (
