@@ -7639,7 +7639,7 @@ too
 .
 masterScriptUpdater
 .
-construct
+emplace
 (
 master
 -
