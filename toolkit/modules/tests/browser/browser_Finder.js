@@ -279,7 +279,9 @@ onFindResult
 =
 function
 (
+{
 result
+}
 )
 {
 ok
@@ -305,7 +307,9 @@ onFindResult
 =
 function
 (
+{
 result
+}
 )
 {
 ok
@@ -337,7 +341,9 @@ onFindResult
 =
 function
 (
+{
 result
+}
 )
 {
 ok
