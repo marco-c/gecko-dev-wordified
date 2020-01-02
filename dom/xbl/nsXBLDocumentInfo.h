@@ -129,12 +129,6 @@ nsIDocument
 aDocument
 )
 ;
-virtual
-~
-nsXBLDocumentInfo
-(
-)
-;
 already_AddRefed
 <
 nsIDocument
@@ -277,6 +271,12 @@ nsXBLDocumentInfo
 )
 private
 :
+virtual
+~
+nsXBLDocumentInfo
+(
+)
+;
 nsCOMPtr
 <
 nsIDocument

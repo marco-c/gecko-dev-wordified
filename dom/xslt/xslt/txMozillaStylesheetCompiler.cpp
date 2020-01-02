@@ -573,6 +573,12 @@ mCheckedForXML
 ;
 protected
 :
+~
+txStylesheetSink
+(
+)
+{
+}
 /
 /
 This

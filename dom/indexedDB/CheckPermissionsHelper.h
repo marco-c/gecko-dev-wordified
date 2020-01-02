@@ -284,6 +284,12 @@ databases
 }
 private
 :
+~
+CheckPermissionsHelper
+(
+)
+{
+}
 nsRefPtr
 <
 OpenDatabaseHelper

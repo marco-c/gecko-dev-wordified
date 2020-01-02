@@ -196,6 +196,12 @@ nsIDOMScriptObjectFactory
 public
 nsIObserver
 {
+~
+nsDOMScriptObjectFactory
+(
+)
+{
+}
 public
 :
 nsDOMScriptObjectFactory

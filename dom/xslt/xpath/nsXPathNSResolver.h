@@ -157,6 +157,12 @@ MOZ_FINAL
 public
 nsIDOMXPathNSResolver
 {
+~
+nsXPathNSResolver
+(
+)
+{
+}
 public
 :
 nsXPathNSResolver

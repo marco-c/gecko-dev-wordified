@@ -3023,6 +3023,12 @@ callback
 }
 private
 :
+~
+FirstRevisionIdCallback
+(
+)
+{
+}
 nsRefPtr
 <
 IDBRequest

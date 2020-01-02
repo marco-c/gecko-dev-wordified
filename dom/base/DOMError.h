@@ -206,6 +206,14 @@ mName
 nsString
 mMessage
 ;
+protected
+:
+virtual
+~
+DOMError
+(
+)
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -276,12 +284,6 @@ const
 nsAString
 &
 aMessage
-)
-;
-virtual
-~
-DOMError
-(
 )
 ;
 nsPIDOMWindow

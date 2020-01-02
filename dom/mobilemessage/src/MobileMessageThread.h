@@ -251,6 +251,12 @@ mData
 }
 private
 :
+~
+MobileMessageThread
+(
+)
+{
+}
 /
 /
 Don

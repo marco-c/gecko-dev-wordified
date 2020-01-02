@@ -220,6 +220,12 @@ interface
 NS_DECL_NSIDOMNSXPATHEXPRESSION
 private
 :
+~
+nsXPathExpression
+(
+)
+{
+}
 nsAutoPtr
 <
 Expr

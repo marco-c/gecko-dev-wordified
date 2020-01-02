@@ -3855,6 +3855,8 @@ aObserver
 )
 {
 }
+private
+:
 virtual
 ~
 ParentIdleListener
@@ -3862,8 +3864,6 @@ ParentIdleListener
 )
 {
 }
-private
-:
 nsRefPtr
 <
 mozilla

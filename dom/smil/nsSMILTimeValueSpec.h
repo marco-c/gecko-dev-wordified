@@ -747,6 +747,12 @@ MOZ_FINAL
 public
 nsIDOMEventListener
 {
+~
+EventListener
+(
+)
+{
+}
 public
 :
 EventListener

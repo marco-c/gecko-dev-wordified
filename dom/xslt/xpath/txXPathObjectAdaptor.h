@@ -185,13 +185,6 @@ txAExprResult
 )
 ;
 }
-virtual
-~
-txXPathObjectAdaptor
-(
-)
-{
-}
 NS_DECL_ISUPPORTS
 NS_IMETHODIMP_
 (
@@ -215,6 +208,13 @@ txXPathObjectAdaptor
 mValue
 (
 nullptr
+)
+{
+}
+virtual
+~
+txXPathObjectAdaptor
+(
 )
 {
 }

@@ -860,12 +860,6 @@ TypedEventHandler
 aTypedHandler
 )
 ;
-virtual
-~
-JSEventHandler
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 /
 /
@@ -1120,6 +1114,12 @@ IsBlackForCC
 ;
 protected
 :
+virtual
+~
+JSEventHandler
+(
+)
+;
 nsISupports
 *
 mTarget

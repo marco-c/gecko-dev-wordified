@@ -198,6 +198,11 @@ nsIObserver
 public
 nsWrapperCache
 {
+~
+Console
+(
+)
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -213,11 +218,6 @@ Console
 nsPIDOMWindow
 *
 aWindow
-)
-;
-~
-Console
-(
 )
 ;
 /

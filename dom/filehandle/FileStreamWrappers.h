@@ -179,12 +179,6 @@ uint32_t
 aFlags
 )
 ;
-virtual
-~
-FileStreamWrapper
-(
-)
-;
 enum
 {
 NOTIFY_PROGRESS
@@ -209,6 +203,12 @@ NOTIFY_DESTROY
 ;
 protected
 :
+virtual
+~
+FileStreamWrapper
+(
+)
+;
 nsCOMPtr
 <
 nsISupports

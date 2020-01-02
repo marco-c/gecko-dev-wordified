@@ -397,6 +397,12 @@ const
 ;
 private
 :
+~
+IMEContentObserver
+(
+)
+{
+}
 void
 NotifyContentAdded
 (

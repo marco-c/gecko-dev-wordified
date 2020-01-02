@@ -118,6 +118,12 @@ GetInstance
 ;
 private
 :
+~
+MobileMessageService
+(
+)
+{
+}
 static
 StaticRefPtr
 <

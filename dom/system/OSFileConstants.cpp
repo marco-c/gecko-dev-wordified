@@ -1182,6 +1182,12 @@ MOZ_FINAL
 public
 nsIObserver
 {
+~
+DelayedPathSetter
+(
+)
+{
+}
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
 DelayedPathSetter

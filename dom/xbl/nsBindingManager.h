@@ -238,6 +238,11 @@ MOZ_FINAL
 public
 nsStubMutationObserver
 {
+~
+nsBindingManager
+(
+)
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -249,11 +254,6 @@ nsBindingManager
 nsIDocument
 *
 aDocument
-)
-;
-~
-nsBindingManager
-(
 )
 ;
 nsXBLBinding

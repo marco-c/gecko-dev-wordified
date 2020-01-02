@@ -309,11 +309,6 @@ nsAString
 aPath
 )
 ;
-~
-Directory
-(
-)
-;
 /
 /
 =
@@ -469,6 +464,11 @@ const
 ;
 private
 :
+~
+Directory
+(
+)
+;
 static
 bool
 IsValidRelativePath

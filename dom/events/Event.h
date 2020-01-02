@@ -290,6 +290,8 @@ nsPIDOMWindow
 aWindow
 )
 ;
+protected
+:
 virtual
 ~
 Event

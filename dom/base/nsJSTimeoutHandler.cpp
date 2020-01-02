@@ -337,11 +337,6 @@ ErrorResult
 aError
 )
 ;
-~
-nsJSScriptTimeoutHandler
-(
-)
-;
 virtual
 const
 char16_t
@@ -432,6 +427,11 @@ ReleaseJSObjects
 ;
 private
 :
+~
+nsJSScriptTimeoutHandler
+(
+)
+;
 /
 /
 filename

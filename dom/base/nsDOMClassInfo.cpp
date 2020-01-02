@@ -9672,6 +9672,12 @@ aOwner
 )
 {
 }
+~
+nsDOMConstructor
+(
+)
+{
+}
 public
 :
 static

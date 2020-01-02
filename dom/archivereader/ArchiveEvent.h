@@ -196,12 +196,6 @@ ArchiveItem
 (
 )
 ;
-virtual
-~
-ArchiveItem
-(
-)
-;
 /
 /
 Getter
@@ -260,6 +254,12 @@ aArchiveReader
 ;
 protected
 :
+virtual
+~
+ArchiveItem
+(
+)
+;
 nsCString
 mType
 ;

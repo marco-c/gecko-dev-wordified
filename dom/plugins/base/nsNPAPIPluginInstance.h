@@ -1211,12 +1211,6 @@ nsNPAPIPluginInstance
 (
 )
 ;
-virtual
-~
-nsNPAPIPluginInstance
-(
-)
-;
 /
 /
 To
@@ -1633,6 +1627,12 @@ gInUnsafePluginCalls
 }
 protected
 :
+virtual
+~
+nsNPAPIPluginInstance
+(
+)
+;
 nsresult
 GetTagType
 (

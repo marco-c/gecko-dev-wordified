@@ -196,12 +196,6 @@ nsDeviceSensors
 (
 )
 ;
-virtual
-~
-nsDeviceSensors
-(
-)
-;
 void
 Notify
 (
@@ -219,6 +213,12 @@ aSensorData
 ;
 private
 :
+virtual
+~
+nsDeviceSensors
+(
+)
+;
 /
 /
 sensor

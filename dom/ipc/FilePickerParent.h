@@ -285,13 +285,6 @@ aFilePickerParent
 )
 {
 }
-virtual
-~
-FilePickerShownCallback
-(
-)
-{
-}
 NS_DECL_ISUPPORTS
 NS_DECL_NSIFILEPICKERSHOWNCALLBACK
 void
@@ -301,6 +294,13 @@ Destroy
 ;
 private
 :
+virtual
+~
+FilePickerShownCallback
+(
+)
+{
+}
 FilePickerParent
 *
 mFilePickerParent

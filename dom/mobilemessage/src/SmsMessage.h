@@ -289,6 +289,12 @@ const
 ;
 private
 :
+~
+SmsMessage
+(
+)
+{
+}
 /
 /
 Don

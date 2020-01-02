@@ -11669,6 +11669,12 @@ undef
 NO_IMPL
 protected
 :
+~
+FakeChannel
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIURI

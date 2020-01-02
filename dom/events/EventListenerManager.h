@@ -673,6 +673,11 @@ class
 EventListenerManager
 MOZ_FINAL
 {
+~
+EventListenerManager
+(
+)
+;
 public
 :
 struct
@@ -957,12 +962,6 @@ dom
 EventTarget
 *
 aTarget
-)
-;
-virtual
-~
-EventListenerManager
-(
 )
 ;
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING

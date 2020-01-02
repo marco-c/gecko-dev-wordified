@@ -248,12 +248,6 @@ WakeLock
 (
 )
 ;
-virtual
-~
-WakeLock
-(
-)
-;
 /
 /
 Initialize
@@ -389,6 +383,12 @@ aRv
 ;
 private
 :
+virtual
+~
+WakeLock
+(
+)
+;
 void
 DoUnlock
 (

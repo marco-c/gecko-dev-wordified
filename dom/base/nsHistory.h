@@ -235,12 +235,6 @@ nsPIDOMWindow
 aInnerWindow
 )
 ;
-virtual
-~
-nsHistory
-(
-)
-;
 nsPIDOMWindow
 *
 GetParentObject
@@ -400,6 +394,12 @@ aRv
 ;
 protected
 :
+virtual
+~
+nsHistory
+(
+)
+;
 nsIDocShell
 *
 GetDocShell

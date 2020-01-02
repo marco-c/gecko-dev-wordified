@@ -225,13 +225,6 @@ Release
 void
 )
 ;
-virtual
-~
-DOMStorageCacheBridge
-(
-)
-{
-}
 /
 /
 The
@@ -397,6 +390,13 @@ LoadWait
 ;
 protected
 :
+virtual
+~
+DOMStorageCacheBridge
+(
+)
+{
+}
 ThreadSafeAutoRefCnt
 mRefCnt
 ;

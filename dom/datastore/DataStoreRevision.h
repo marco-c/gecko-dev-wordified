@@ -214,6 +214,12 @@ aEvent
 ;
 private
 :
+~
+DataStoreRevision
+(
+)
+{
+}
 nsRefPtr
 <
 DataStoreRevisionCallback

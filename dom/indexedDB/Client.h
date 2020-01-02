@@ -353,6 +353,12 @@ MOZ_OVERRIDE
 ;
 private
 :
+~
+Client
+(
+)
+{
+}
 nsresult
 GetDirectory
 (

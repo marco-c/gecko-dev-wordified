@@ -148,12 +148,6 @@ nsIDocShell
 aDocShell
 )
 ;
-virtual
-~
-nsDOMWindowList
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMWINDOWCOLLECTION
 uint32_t
@@ -234,6 +228,12 @@ forget
 }
 protected
 :
+virtual
+~
+nsDOMWindowList
+(
+)
+;
 /
 /
 Note

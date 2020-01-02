@@ -6754,6 +6754,12 @@ MOZ_FINAL
 public
 nsIEventTarget
 {
+~
+TimerThreadEventTarget
+(
+)
+{
+}
 WorkerPrivate
 *
 mWorkerPrivate

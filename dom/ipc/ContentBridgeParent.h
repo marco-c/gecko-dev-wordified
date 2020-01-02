@@ -164,12 +164,6 @@ aTransport
 ;
 NS_DECL_ISUPPORTS
 virtual
-~
-ContentBridgeParent
-(
-)
-;
-virtual
 void
 ActorDestroy
 (
@@ -285,6 +279,12 @@ mIsForBrowser
 }
 protected
 :
+virtual
+~
+ContentBridgeParent
+(
+)
+;
 void
 SetChildID
 (

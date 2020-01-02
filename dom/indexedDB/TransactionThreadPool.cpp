@@ -267,6 +267,12 @@ aFinishRunnable
 ;
 private
 :
+~
+FinishTransactionRunnable
+(
+)
+{
+}
 IDBTransaction
 *
 mTransaction

@@ -282,6 +282,11 @@ aDocument
 ;
 private
 :
+~
+txTransformNotifier
+(
+)
+;
 void
 SignalTransformEnd
 (

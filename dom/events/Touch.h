@@ -207,11 +207,6 @@ float
 aForce
 )
 ;
-~
-Touch
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
@@ -435,6 +430,11 @@ mForce
 ;
 protected
 :
+~
+Touch
+(
+)
+;
 bool
 mPointsInitialized
 ;

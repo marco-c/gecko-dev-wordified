@@ -242,12 +242,6 @@ nsNPAPIPlugin
 (
 )
 ;
-virtual
-~
-nsNPAPIPlugin
-(
-)
-;
 NS_DECL_ISUPPORTS
 /
 /
@@ -424,6 +418,12 @@ aRetainedPeer
 ;
 protected
 :
+virtual
+~
+nsNPAPIPlugin
+(
+)
+;
 NPPluginFuncs
 mPluginFuncs
 ;

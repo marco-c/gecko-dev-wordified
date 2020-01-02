@@ -3141,6 +3141,12 @@ NS_NOINTERFACE
 }
 private
 :
+~
+nsGlobalWindowObserver
+(
+)
+{
+}
 nsGlobalWindow
 *
 mWindow

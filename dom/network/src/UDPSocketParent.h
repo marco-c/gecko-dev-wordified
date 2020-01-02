@@ -193,12 +193,6 @@ filter
 )
 {
 }
-virtual
-~
-UDPSocketParent
-(
-)
-;
 bool
 Init
 (
@@ -272,6 +266,12 @@ MOZ_OVERRIDE
 ;
 private
 :
+virtual
+~
+UDPSocketParent
+(
+)
+;
 virtual
 void
 ActorDestroy

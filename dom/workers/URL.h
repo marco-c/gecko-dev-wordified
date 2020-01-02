@@ -193,6 +193,11 @@ dom
 URLSearchParams
 URLSearchParams
 ;
+~
+URL
+(
+)
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -208,11 +213,6 @@ aWorkerPrivate
 URLProxy
 *
 aURLProxy
-)
-;
-~
-URL
-(
 )
 ;
 nsISupports

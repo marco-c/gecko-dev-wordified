@@ -354,12 +354,6 @@ nsIDocShell
 aDocShell
 )
 ;
-virtual
-~
-nsLocation
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
@@ -385,6 +379,12 @@ nsIDOMLocation
 NS_DECL_NSIDOMLOCATION
 protected
 :
+virtual
+~
+nsLocation
+(
+)
+;
 /
 /
 In

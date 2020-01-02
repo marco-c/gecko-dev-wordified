@@ -213,6 +213,12 @@ nsRunnable
 public
 PCOMContentPermissionRequestChild
 {
+~
+DesktopNotificationRequest
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -264,12 +270,6 @@ this
 return
 NS_OK
 ;
-}
-~
-DesktopNotificationRequest
-(
-)
-{
 }
 virtual
 bool

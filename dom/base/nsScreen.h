@@ -658,6 +658,12 @@ MOZ_FINAL
 public
 nsIDOMEventListener
 {
+~
+FullScreenEventListener
+(
+)
+{
+}
 public
 :
 FullScreenEventListener
@@ -665,7 +671,6 @@ FullScreenEventListener
 )
 {
 }
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMEVENTLISTENER
 }

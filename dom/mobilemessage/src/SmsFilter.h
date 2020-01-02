@@ -183,6 +183,12 @@ aSmsFilter
 ;
 private
 :
+~
+SmsFilter
+(
+)
+{
+}
 mobilemessage
 :
 :

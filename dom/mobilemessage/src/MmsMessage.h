@@ -392,6 +392,12 @@ aData
 ;
 private
 :
+~
+MmsMessage
+(
+)
+{
+}
 int32_t
 mId
 ;

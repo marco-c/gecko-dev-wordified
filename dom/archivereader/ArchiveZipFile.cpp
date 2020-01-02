@@ -251,6 +251,11 @@ inputStream
 aInputStream
 ;
 }
+NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_NSIINPUTSTREAM
+NS_DECL_NSISEEKABLESTREAM
+private
+:
 virtual
 ~
 ArchiveInputStream
@@ -267,11 +272,6 @@ Close
 )
 ;
 }
-NS_DECL_THREADSAFE_ISUPPORTS
-NS_DECL_NSIINPUTSTREAM
-NS_DECL_NSISEEKABLESTREAM
-private
-:
 nsresult
 Init
 (

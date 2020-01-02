@@ -221,6 +221,11 @@ aPrincipal
 ;
 private
 :
+~
+CheckQuotaHelper
+(
+)
+;
 nsPIDOMWindow
 *
 mWindow

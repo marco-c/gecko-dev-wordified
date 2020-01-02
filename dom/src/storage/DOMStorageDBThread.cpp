@@ -1859,6 +1859,12 @@ MOZ_FINAL
 public
 mozIStorageFunction
 {
+~
+nsReverseStringSQLFunction
+(
+)
+{
+}
 NS_DECL_ISUPPORTS
 NS_DECL_MOZISTORAGEFUNCTION
 }

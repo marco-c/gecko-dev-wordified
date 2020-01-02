@@ -795,6 +795,7 @@ cruft
 /
 struct
 nsTimeout
+MOZ_FINAL
 :
 mozilla
 :
@@ -804,11 +805,15 @@ LinkedListElement
 nsTimeout
 >
 {
+private
+:
+~
 nsTimeout
 (
 )
 ;
-~
+public
+:
 nsTimeout
 (
 )
@@ -1514,6 +1519,8 @@ setUndefined
 ;
 }
 }
+private
+:
 virtual
 ~
 DialogValueHolder
@@ -1521,8 +1528,6 @@ DialogValueHolder
 )
 {
 }
-private
-:
 nsCOMPtr
 <
 nsIPrincipal

@@ -204,6 +204,12 @@ ReleaseIPDLReference
 ;
 private
 :
+~
+TCPServerSocketParent
+(
+)
+{
+}
 virtual
 void
 ActorDestroy

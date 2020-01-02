@@ -397,11 +397,6 @@ nsIDocument
 aDoc
 )
 ;
-~
-nsSMILAnimationController
-(
-)
-;
 /
 /
 Clears
@@ -740,6 +735,11 @@ Count
 }
 protected
 :
+~
+nsSMILAnimationController
+(
+)
+;
 /
 /
 Typedefs

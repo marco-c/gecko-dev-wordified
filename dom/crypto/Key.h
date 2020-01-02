@@ -657,11 +657,6 @@ nsIGlobalObject
 aWindow
 )
 ;
-~
-Key
-(
-)
-;
 nsIGlobalObject
 *
 GetParentObject
@@ -1090,6 +1085,11 @@ aReader
 ;
 private
 :
+~
+Key
+(
+)
+;
 nsRefPtr
 <
 nsIGlobalObject

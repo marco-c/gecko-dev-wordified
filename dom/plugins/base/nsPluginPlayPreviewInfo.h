@@ -119,6 +119,12 @@ nsPluginPlayPreviewInfo
 public
 nsIPluginPlayPreviewInfo
 {
+virtual
+~
+nsPluginPlayPreviewInfo
+(
+)
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -143,12 +149,6 @@ const
 nsPluginPlayPreviewInfo
 *
 aSource
-)
-;
-virtual
-~
-nsPluginPlayPreviewInfo
-(
 )
 ;
 nsCString

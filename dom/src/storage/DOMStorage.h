@@ -268,11 +268,6 @@ bool
 aIsPrivate
 )
 ;
-~
-DOMStorage
-(
-)
-;
 /
 /
 The
@@ -392,6 +387,11 @@ mIsSessionOnly
 }
 private
 :
+~
+DOMStorage
+(
+)
+;
 friend
 class
 DOMStorageManager

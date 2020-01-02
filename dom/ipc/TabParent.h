@@ -316,6 +316,12 @@ layout
 ScrollingBehavior
 ScrollingBehavior
 ;
+virtual
+~
+TabParent
+(
+)
+;
 public
 :
 /
@@ -333,12 +339,6 @@ TabContext
 aContext
 uint32_t
 aChromeFlags
-)
-;
-virtual
-~
-TabParent
-(
 )
 ;
 Element

@@ -173,12 +173,6 @@ Init
 (
 )
 ;
-virtual
-~
-AlarmHalService
-(
-)
-;
 static
 already_AddRefed
 <
@@ -225,6 +219,12 @@ aSystemTimezoneChangeInfo
 ;
 private
 :
+virtual
+~
+AlarmHalService
+(
+)
+;
 bool
 mAlarmEnabled
 ;

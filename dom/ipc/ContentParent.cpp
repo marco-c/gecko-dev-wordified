@@ -2478,6 +2478,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+ContentParentsMemoryReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -6353,6 +6359,12 @@ NS_OK
 }
 private
 :
+~
+SystemMessageHandledListener
+(
+)
+{
+}
 static
 StaticAutoPtr
 <

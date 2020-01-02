@@ -387,6 +387,15 @@ aDocument
 )
 {
 }
+XPathEvaluator
+:
+:
+~
+XPathEvaluator
+(
+)
+{
+}
 NS_IMETHODIMP
 XPathEvaluator
 :

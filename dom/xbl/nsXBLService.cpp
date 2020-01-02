@@ -1036,11 +1036,6 @@ nsIDocument
 aBindingDocument
 )
 ;
-~
-nsXBLStreamListener
-(
-)
-;
 void
 AddRequest
 (
@@ -1070,6 +1065,11 @@ aBoundElement
 ;
 private
 :
+~
+nsXBLStreamListener
+(
+)
+;
 nsCOMPtr
 <
 nsIStreamListener

@@ -198,11 +198,6 @@ nsPIDOMWindow
 aWindow
 )
 ;
-~
-MessageChannel
-(
-)
-;
 nsPIDOMWindow
 *
 GetParentObject
@@ -265,6 +260,11 @@ mPort2
 }
 private
 :
+~
+MessageChannel
+(
+)
+;
 nsCOMPtr
 <
 nsPIDOMWindow

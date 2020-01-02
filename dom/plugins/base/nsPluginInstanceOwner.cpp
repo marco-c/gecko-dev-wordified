@@ -639,6 +639,12 @@ nsPluginDOMContextMenuListener
 public
 nsIDOMEventListener
 {
+virtual
+~
+nsPluginDOMContextMenuListener
+(
+)
+;
 public
 :
 nsPluginDOMContextMenuListener
@@ -646,12 +652,6 @@ nsPluginDOMContextMenuListener
 nsIContent
 *
 aContent
-)
-;
-virtual
-~
-nsPluginDOMContextMenuListener
-(
 )
 ;
 NS_DECL_ISUPPORTS

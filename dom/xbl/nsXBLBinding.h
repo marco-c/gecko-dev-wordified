@@ -317,11 +317,6 @@ nsXBLPrototypeBinding
 aProtoBinding
 )
 ;
-~
-nsXBLBinding
-(
-)
-;
 /
 *
 *
@@ -615,6 +610,11 @@ aName
 ;
 protected
 :
+~
+nsXBLBinding
+(
+)
+;
 /
 *
 *

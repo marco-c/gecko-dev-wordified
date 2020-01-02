@@ -392,6 +392,15 @@ AssertCurrentThreadOwns
 )
 ;
 }
+CheckQuotaHelper
+:
+:
+~
+CheckQuotaHelper
+(
+)
+{
+}
 bool
 CheckQuotaHelper
 :
