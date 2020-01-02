@@ -5881,7 +5881,6 @@ transaction
 1
 ]
 ;
-var
 lastPermission
 =
 pendingActions
