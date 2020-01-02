@@ -226,11 +226,11 @@ _create_zip
 (
 self
 revision
+=
+None
 date
 =
-'
-date
-'
+None
 )
 :
         
@@ -296,6 +296,12 @@ w
 '
 )
         
+if
+revision
+or
+date
+:
+            
 app_zip
 .
 writestr
@@ -307,14 +313,20 @@ gaia_commit
 .
 txt
 '
-revision
-+
+                             
 '
+%
+s
 \
 n
+%
+s
 '
-+
+%
+(
+revision
 date
+)
 )
         
 app_zip
@@ -330,9 +342,9 @@ self
 )
 :
         
-self
-.
-_create_zip
+revision
+date
+=
 (
 '
 a
@@ -342,6 +354,14 @@ a
 '
 date
 '
+)
+        
+self
+.
+_create_zip
+(
+revision
+date
 )
         
 v
@@ -365,11 +385,7 @@ get
 gaia_changeset
 '
 )
-'
-a
-'
-*
-40
+revision
 )
         
 self
@@ -384,9 +400,7 @@ get
 gaia_date
 '
 )
-'
 date
-'
 )
     
 def
@@ -396,15 +410,26 @@ self
 )
 :
         
-self
-.
-_create_zip
+revision
+date
+=
 (
 '
 a
 '
 *
 41
+'
+date
+'
+)
+        
+self
+.
+_create_zip
+(
+revision
+date
 )
         
 v
@@ -429,6 +454,65 @@ gaia_changeset
 '
 )
 )
+        
+self
+.
+assertEqual
+(
+v
+.
+get
+(
+'
+gaia_date
+'
+)
+date
+)
+    
+def
+test_missing_zip_file
+(
+self
+)
+:
+        
+v
+=
+get_version
+(
+self
+.
+binary
+)
+        
+self
+.
+assertIsNone
+(
+v
+.
+get
+(
+'
+gaia_changeset
+'
+)
+)
+        
+self
+.
+assertIsNone
+(
+v
+.
+get
+(
+'
+gaia_date
+'
+)
+)
     
 def
 test_missing_gaia_commit
@@ -436,6 +520,12 @@ test_missing_gaia_commit
 self
 )
 :
+        
+self
+.
+_create_zip
+(
+)
         
 v
 =
