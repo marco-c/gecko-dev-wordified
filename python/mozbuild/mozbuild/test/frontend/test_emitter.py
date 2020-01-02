@@ -1361,21 +1361,6 @@ sdk
 '
 ]
             
-SHARED_LIBRARY_LIBS
-=
-[
-'
-fans
-.
-sll
-'
-'
-tans
-.
-sll
-'
-]
-            
 SSRCS
 =
 [
