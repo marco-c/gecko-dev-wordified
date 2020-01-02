@@ -107,11 +107,6 @@ import
 ConfigEnvironment
 from
 .
-config
-import
-BuildConfig
-from
-.
 mozconfig
 import
 (
@@ -526,15 +521,6 @@ self
 settings
 =
 settings
-        
-self
-.
-config
-=
-BuildConfig
-(
-settings
-)
         
 self
 .
