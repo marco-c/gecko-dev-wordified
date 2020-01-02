@@ -328,6 +328,14 @@ prevType
 =
 =
 JitFrame_Unwound_BaselineStub
+|
+|
+prevType
+(
+)
+=
+=
+JitFrame_Entry
 )
 ;
 JS_ASSERT_IF
