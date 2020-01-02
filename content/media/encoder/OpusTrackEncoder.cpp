@@ -1429,7 +1429,9 @@ mLookahead
 (
 kOpusSamplingRate
 /
-mSamplingRate
+GetOutputSampleRate
+(
+)
 )
 mSamplingRate
 &
