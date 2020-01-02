@@ -132,6 +132,12 @@ MOZ_FINAL
 public
 nsIGIOService
 {
+~
+nsGIOService
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

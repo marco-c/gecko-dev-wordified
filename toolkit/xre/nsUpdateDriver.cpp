@@ -6444,6 +6444,15 @@ mUpdaterPID
 )
 {
 }
+nsUpdateProcessor
+:
+:
+~
+nsUpdateProcessor
+(
+)
+{
+}
 NS_IMETHODIMP
 nsUpdateProcessor
 :

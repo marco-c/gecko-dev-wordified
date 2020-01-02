@@ -631,11 +631,6 @@ nsIApplicationReputationCallback
 aCallback
 )
 ;
-~
-PendingLookup
-(
-)
-;
 /
 /
 Start
@@ -710,6 +705,11 @@ StartLookup
 ;
 private
 :
+~
+PendingLookup
+(
+)
+;
 friend
 class
 PendingDBLookup
@@ -1485,11 +1485,6 @@ PendingLookup
 aPendingLookup
 )
 ;
-~
-PendingDBLookup
-(
-)
-;
 /
 /
 Look
@@ -1546,6 +1541,11 @@ aAllowlistOnly
 ;
 private
 :
+~
+PendingDBLookup
+(
+)
+;
 /
 /
 The

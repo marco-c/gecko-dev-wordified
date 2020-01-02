@@ -385,6 +385,12 @@ MOZ_FINAL
 public
 nsIObserver
 {
+~
+VisitURIObserver
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -1909,6 +1915,12 @@ MOZ_FINAL
 public
 nsIObserver
 {
+~
+statusObserver
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

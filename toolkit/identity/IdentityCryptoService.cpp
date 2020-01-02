@@ -993,6 +993,12 @@ NS_OK
 }
 private
 :
+~
+IdentityCryptoService
+(
+)
+{
+}
 IdentityCryptoService
 (
 const

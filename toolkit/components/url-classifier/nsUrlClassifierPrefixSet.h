@@ -224,12 +224,6 @@ nsUrlClassifierPrefixSet
 (
 )
 ;
-virtual
-~
-nsUrlClassifierPrefixSet
-(
-)
-;
 NS_IMETHOD
 Init
 (
@@ -327,6 +321,12 @@ mallocSizeOf
 ;
 protected
 :
+virtual
+~
+nsUrlClassifierPrefixSet
+(
+)
+;
 static
 const
 uint32_t

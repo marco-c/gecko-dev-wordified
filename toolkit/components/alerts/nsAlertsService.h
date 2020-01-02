@@ -1,4 +1,6 @@
 /
+/
+/
 *
 -
 *
@@ -204,14 +206,14 @@ nsAlertsService
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsAlertsService
 (
 )
 ;
-protected
-:
 bool
 ShouldShowAlert
 (

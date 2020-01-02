@@ -6146,14 +6146,14 @@ nsISupports
 aSingleton
 )
 ;
+private
+:
 ~
 nsSingletonFactory
 (
 )
 {
 }
-private
-:
 nsCOMPtr
 <
 nsISupports

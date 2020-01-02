@@ -361,6 +361,8 @@ shouldn
 t
 matter
 }
+protected
+:
 ~
 mock_Link
 (

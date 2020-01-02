@@ -3350,11 +3350,6 @@ NS_DECL_NSITELEMETRY
 NS_DECL_NSIMEMORYREPORTER
 public
 :
-~
-TelemetryImpl
-(
-)
-;
 void
 InitMemoryReporter
 (
@@ -3495,6 +3490,11 @@ SlowSQLEntryType
 ;
 private
 :
+TelemetryImpl
+(
+)
+;
+~
 TelemetryImpl
 (
 )

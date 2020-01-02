@@ -308,12 +308,6 @@ nsUrlClassifierUtils
 (
 )
 ;
-~
-nsUrlClassifierUtils
-(
-)
-{
-}
 NS_DECL_ISUPPORTS
 NS_DECL_NSIURLCLASSIFIERUTILS
 nsresult
@@ -481,6 +475,12 @@ _retval
 ;
 private
 :
+~
+nsUrlClassifierUtils
+(
+)
+{
+}
 /
 /
 Disallow

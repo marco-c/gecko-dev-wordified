@@ -355,6 +355,14 @@ mSearchString
 uint16_t
 mSearchResult
 ;
+private
+:
+~
+nsFileResult
+(
+)
+{
+}
 }
 ;
 NS_IMPL_ISUPPORTS
@@ -1054,6 +1062,12 @@ MOZ_FINAL
 public
 nsIAutoCompleteSearch
 {
+~
+nsFileComplete
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

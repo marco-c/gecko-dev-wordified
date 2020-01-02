@@ -777,6 +777,12 @@ aResult
 ;
 private
 :
+~
+nsNavHistoryQueryOptions
+(
+)
+{
+}
 nsNavHistoryQueryOptions
 (
 const

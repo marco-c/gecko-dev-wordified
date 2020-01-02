@@ -278,14 +278,14 @@ nsFormFillController
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsFormFillController
 (
 )
 ;
-protected
-:
 void
 AddWindowListeners
 (

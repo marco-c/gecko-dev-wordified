@@ -1351,6 +1351,12 @@ aTopic
 ;
 protected
 :
+~
+PlacesEvent
+(
+)
+{
+}
 void
 Notify
 (

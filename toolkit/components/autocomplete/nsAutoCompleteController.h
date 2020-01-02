@@ -181,14 +181,14 @@ nsAutoCompleteController
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsAutoCompleteController
 (
 )
 ;
-protected
-:
 nsresult
 OpenPopup
 (

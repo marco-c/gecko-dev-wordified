@@ -627,13 +627,13 @@ nullptr
 )
 {
 }
+private
+:
 ~
 nsGSettingsCollection
 (
 )
 ;
-private
-:
 bool
 KeyExists
 (
