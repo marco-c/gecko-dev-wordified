@@ -1387,7 +1387,7 @@ size_t
 compartmentObject
 size_t
 *
-compartmentTables
+shapesCompartmentTables
 size_t
 *
 crossCompartmentWrappers
