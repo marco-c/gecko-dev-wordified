@@ -832,6 +832,11 @@ uint32_t
 aDuration
 )
 ;
+uint32_t
+MaxTouchPoints
+(
+)
+;
 void
 GetAppCodeName
 (
