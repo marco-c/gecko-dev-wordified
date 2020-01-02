@@ -2580,6 +2580,7 @@ new
 SharedPreferencesClientsDataDelegate
 (
 accountSharedPreferences
+mContext
 )
 ;
 self

@@ -2558,6 +2558,9 @@ new
 SharedPreferencesClientsDataDelegate
 (
 sharedPrefs
+getContext
+(
+)
 )
 ;
 if

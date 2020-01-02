@@ -2114,6 +2114,13 @@ fxAccount
 getSyncPrefs
 (
 )
+getActivity
+(
+)
+.
+getApplicationContext
+(
+)
 )
 ;
 }
