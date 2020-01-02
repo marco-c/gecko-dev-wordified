@@ -470,10 +470,6 @@ reset
 class
 ArrayBufferBuilder
 {
-void
-*
-mRawContents
-;
 uint8_t
 *
 mDataPtr
