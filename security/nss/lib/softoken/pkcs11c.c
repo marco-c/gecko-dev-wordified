@@ -22308,6 +22308,8 @@ crv
 =
 CKR_TEMPLATE_INCONSISTENT
 ;
+break
+;
 }
 crv
 =

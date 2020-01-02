@@ -1061,11 +1061,6 @@ state
 NULL
 ;
 PKIX_UInt32
-reasonCode
-=
-0
-;
-PKIX_UInt32
 crlStoreIndex
 =
 0
@@ -1234,8 +1229,7 @@ done
 *
 /
 PKIX_FALSE
-&
-reasonCode
+pReasonCode
 &
 revStatus
 plContext
@@ -1531,11 +1525,6 @@ pkix_CrlChecker
 state
 =
 NULL
-;
-PKIX_UInt32
-reasonCode
-=
-0
 ;
 PKIX_UInt32
 crlStoreIndex
@@ -1972,8 +1961,7 @@ downloading
 *
 /
 PKIX_TRUE
-&
-reasonCode
+pReasonCode
 &
 revStatus
 plContext

@@ -7948,6 +7948,7 @@ sftk_hasAttribute
 (
 object
 CKA_PRIME
+)
 |
 |
 !
@@ -7963,7 +7964,6 @@ sftk_hasAttribute
 (
 object
 CKA_BASE
-)
 )
 )
 {
