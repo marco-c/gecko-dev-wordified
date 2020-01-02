@@ -4477,11 +4477,9 @@ Configurability
 configurable
 )
 :
-pd_
+descObj_
 (
-UndefinedValue
-(
-)
+nullptr
 )
 value_
 (
