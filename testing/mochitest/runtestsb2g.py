@@ -68,6 +68,8 @@ tempfile
 import
 threading
 import
+time
+import
 traceback
 here
 =
@@ -1049,6 +1051,18 @@ status
 except
 :
             
+#
+XXX
+Bug
+937684
+            
+time
+.
+sleep
+(
+5
+)
+            
 traceback
 .
 print_exc
@@ -1085,6 +1099,18 @@ check_for_crashes
 status
 =
 1
+        
+#
+XXX
+Bug
+937684
+        
+time
+.
+sleep
+(
+5
+)
         
 self
 .
