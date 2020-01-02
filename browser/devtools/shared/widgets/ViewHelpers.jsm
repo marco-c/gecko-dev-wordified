@@ -3743,7 +3743,7 @@ can
 be
 any
 object
-interfacing
+implementing
 the
 following
 methods
@@ -3875,7 +3875,7 @@ methods
 that
 can
 be
-interfaced
+implemented
 by
 the
 widget
@@ -4036,7 +4036,7 @@ use
 a
 WeakMap
 for
-itemsByValue
+_itemsByValue
 because
 keys
 are
@@ -4044,7 +4044,16 @@ strings
 and
 /
 /
-itemsByElement
+can
+'
+t
+use
+one
+for
+_itemsByElement
+either
+since
+it
 needs
 to
 be
@@ -4541,10 +4550,11 @@ keep
 it
 around
 .
-delete
 aOptions
 .
 index
+=
+undefined
 ;
 return
 void
