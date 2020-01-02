@@ -122,10 +122,14 @@ jsm
 "
 )
 ;
-Cu
+XPCOMUtils
 .
-import
+defineLazyModuleGetter
 (
+this
+"
+Prompt
+"
 "
 resource
 :
