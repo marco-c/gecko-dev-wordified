@@ -6315,11 +6315,11 @@ IsEmpty
 {
 filePath
 .
-AssignLiteral
+Assign
 (
-"
+'
 /
-"
+'
 )
 ;
 }

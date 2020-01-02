@@ -2994,10 +2994,10 @@ SPLIT
 {
 pattern
 .
-AssignLiteral
+Assign
 (
-"
-"
+'
+'
 )
 ;
 }

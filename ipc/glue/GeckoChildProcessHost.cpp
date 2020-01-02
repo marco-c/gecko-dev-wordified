@@ -1627,11 +1627,11 @@ else
 {
 mGroupId
 .
-AssignLiteral
+Assign
 (
-"
+'
 -
-"
+'
 )
 ;
 }

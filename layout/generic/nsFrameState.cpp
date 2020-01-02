@@ -272,11 +272,11 @@ nsFrameState
 {
 result
 .
-AssignLiteral
+Assign
 (
-"
+'
 0
-"
+'
 )
 ;
 return

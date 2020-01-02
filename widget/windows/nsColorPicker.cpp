@@ -473,11 +473,11 @@ color
 ;
 aResult
 .
-AssignLiteral
+Assign
 (
-"
+'
 #
-"
+'
 )
 ;
 aResult

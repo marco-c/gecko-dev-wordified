@@ -577,11 +577,11 @@ platform
 format
 localeStr
 .
-AssignLiteral
+Assign
 (
-"
+'
 C
-"
+'
 )
 ;
 }

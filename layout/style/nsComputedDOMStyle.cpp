@@ -12381,11 +12381,11 @@ Length
 ;
 lineNamesString
 .
-AssignLiteral
+Assign
 (
-"
+'
 (
-"
+'
 )
 ;
 if
