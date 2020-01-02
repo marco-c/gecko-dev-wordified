@@ -9106,9 +9106,6 @@ tracking
 URL
 .
 *
-(
-Safebrowinsg
-)
 We
 make
 a
@@ -9120,10 +9117,10 @@ node
 by
 including
 it
-*
 in
 a
 dedicated
+*
 array
 of
 blocked
@@ -9132,7 +9129,6 @@ nodes
 under
 its
 parent
-*
 document
 .
 *
