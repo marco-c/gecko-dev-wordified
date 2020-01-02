@@ -129,6 +129,13 @@ h
 #
 include
 "
+jsprf
+.
+h
+"
+#
+include
+"
 jit
 /
 BacktrackingAllocator
@@ -150,13 +157,6 @@ include
 jit
 /
 LinearScan
-.
-h
-"
-#
-include
-"
-jsprf
 .
 h
 "
