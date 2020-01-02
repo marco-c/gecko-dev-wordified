@@ -15255,10 +15255,11 @@ status
 else
 if
 (
+!
 mForm
 -
 >
-HasSingleTextControl
+ImplicitSubmissionIsDisabled
 (
 )
 &
@@ -19546,6 +19547,12 @@ IsSingleLineTextControl
 false
 mType
 )
+|
+|
+mType
+=
+=
+NS_FORM_INPUT_NUMBER
 |
 |
 IsExperimentalMobileType
