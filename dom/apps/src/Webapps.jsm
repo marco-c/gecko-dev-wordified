@@ -14647,7 +14647,7 @@ type
 sendError
 (
 "
-INVALID_MANIFEST
+INVALID_MANIFEST_CONTENT_TYPE
 "
 )
 ;
@@ -15296,7 +15296,7 @@ type
 sendError
 (
 "
-INVALID_MANIFEST
+INVALID_MANIFEST_CONTENT_TYPE
 "
 )
 ;
@@ -17449,6 +17449,7 @@ aInstallSuccessCallback
 aInstallSuccessCallback
 (
 app
+app
 .
 manifest
 )
@@ -18029,6 +18030,7 @@ aInstallSuccessCallback
 {
 aInstallSuccessCallback
 (
+aNewApp
 aManifest
 zipFile
 .
