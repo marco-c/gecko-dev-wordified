@@ -224,3 +224,7 @@ DEPRECATED_OPERATION
 (
 SendAsBinary
 )
+DEPRECATED_OPERATION
+(
+Window_Controllers
+)
