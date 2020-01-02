@@ -2396,7 +2396,7 @@ mozilla
 dom
 :
 :
-BeforeUnloadEventHandlerNonNull
+OnBeforeUnloadEventHandlerNonNull
 *
 aHandler
 )
@@ -2566,7 +2566,7 @@ mozilla
 dom
 :
 :
-BeforeUnloadEventHandlerNonNull
+OnBeforeUnloadEventHandlerNonNull
 *
 GetOnBeforeUnloadEventHandler
 (
@@ -2594,7 +2594,7 @@ handler
 handler
 -
 >
-BeforeUnloadEventHandler
+OnBeforeUnloadEventHandler
 (
 )
 :

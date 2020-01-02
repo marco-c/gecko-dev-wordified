@@ -67738,7 +67738,7 @@ elm
 )
 {
 \
-BeforeUnloadEventHandlerNonNull
+OnBeforeUnloadEventHandlerNonNull
 *
 h
 =
@@ -67843,7 +67843,7 @@ NS_ERROR_OUT_OF_MEMORY
 \
 nsRefPtr
 <
-BeforeUnloadEventHandlerNonNull
+OnBeforeUnloadEventHandlerNonNull
 >
 handler
 ;
@@ -67881,7 +67881,7 @@ toObject
 handler
 =
 new
-BeforeUnloadEventHandlerNonNull
+OnBeforeUnloadEventHandlerNonNull
 (
 callable
 )
