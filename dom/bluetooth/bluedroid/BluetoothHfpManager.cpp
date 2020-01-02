@@ -2228,10 +2228,6 @@ BLUETOOTH_HFP_STATUS_CHANGED_ID
 )
 )
 ;
-Reset
-(
-)
-;
 }
 }
 void
@@ -3296,6 +3292,10 @@ OnDisconnect
 EmptyString
 (
 )
+)
+;
+Reset
+(
 )
 ;
 }
