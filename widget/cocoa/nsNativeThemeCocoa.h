@@ -566,6 +566,8 @@ HIRect
 inBoxRect
 nsEventStates
 inState
+uint8_t
+aWidgetType
 nsIFrame
 *
 aFrame
@@ -771,6 +773,10 @@ aFrame
 ;
 private
 :
+NSButtonCell
+*
+mHelpButtonCell
+;
 NSButtonCell
 *
 mPushButtonCell

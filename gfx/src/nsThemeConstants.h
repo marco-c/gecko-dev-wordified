@@ -1150,6 +1150,15 @@ NS_THEME_MOZ_MAC_FULLSCREEN_BUTTON
 226
 /
 /
+Mac
+help
+button
+#
+define
+NS_THEME_MOZ_MAC_HELP_BUTTON
+227
+/
+/
 Vista
 glass
 #
