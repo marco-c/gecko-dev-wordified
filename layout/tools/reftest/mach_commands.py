@@ -2949,6 +2949,10 @@ dest
 totalChunks
 '
         
+type
+=
+int
+        
 help
 =
 '
@@ -2988,6 +2992,10 @@ dest
 '
 thisChunk
 '
+        
+type
+=
+int
         
 help
 =
