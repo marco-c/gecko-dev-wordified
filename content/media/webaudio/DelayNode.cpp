@@ -161,7 +161,7 @@ h
 #
 include
 "
-DelayProcessor
+DelayBuffer
 .
 h
 "
@@ -282,7 +282,7 @@ smoothing
 range
 of
 20ms
-mProcessor
+mBuffer
 (
 aMaxDelayFrames
 WebAudioUtils
@@ -456,9 +456,9 @@ IsNull
 (
 )
 ?
-mProcessor
+mBuffer
 .
-BufferChannelCount
+ChannelCount
 (
 )
 :
@@ -524,7 +524,7 @@ forget
 }
 mLeftOverData
 =
-mProcessor
+mBuffer
 .
 MaxDelayFrames
 (
@@ -571,7 +571,7 @@ no
 longer
 need
 it
-mProcessor
+mBuffer
 .
 Reset
 (
@@ -894,7 +894,7 @@ delayFrames
 :
 delayFrames
 ;
-mProcessor
+mBuffer
 .
 Process
 (
@@ -1018,7 +1018,7 @@ counter
 delayAtTickClamped
 ;
 }
-mProcessor
+mBuffer
 .
 Process
 (
@@ -1042,8 +1042,8 @@ mDestination
 AudioParamTimeline
 mDelay
 ;
-DelayProcessor
-mProcessor
+DelayBuffer
+mBuffer
 ;
 /
 /

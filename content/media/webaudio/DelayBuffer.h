@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-DelayProcessor_h_
+DelayBuffer_h_
 #
 define
-DelayProcessor_h_
+DelayBuffer_h_
 #
 include
 "
@@ -129,7 +129,7 @@ namespace
 mozilla
 {
 class
-DelayProcessor
+DelayBuffer
 {
 public
 :
@@ -154,7 +154,7 @@ smoothingRate
 |
 multiplier
 .
-DelayProcessor
+DelayBuffer
 (
 int
 aMaxDelayFrames
@@ -283,7 +283,7 @@ mMaxDelayFrames
 ;
 }
 int
-BufferChannelCount
+ChannelCount
 (
 )
 const
@@ -384,4 +384,4 @@ mozilla
 endif
 /
 /
-DelayProcessor_h_
+DelayBuffer_h_

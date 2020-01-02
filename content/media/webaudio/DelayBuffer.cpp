@@ -115,7 +115,7 @@ MPL
 #
 include
 "
-DelayProcessor
+DelayBuffer
 .
 h
 "
@@ -139,7 +139,7 @@ namespace
 mozilla
 {
 void
-DelayProcessor
+DelayBuffer
 :
 :
 Process
@@ -675,7 +675,7 @@ writeIndex
 }
 }
 void
-DelayProcessor
+DelayBuffer
 :
 :
 Process
@@ -793,7 +793,7 @@ aFramesToProcess
 ;
 }
 bool
-DelayProcessor
+DelayBuffer
 :
 :
 EnsureBuffer

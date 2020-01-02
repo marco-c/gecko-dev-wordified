@@ -255,7 +255,7 @@ h
 #
 include
 "
-DelayProcessor
+DelayBuffer
 .
 h
 "
@@ -660,13 +660,13 @@ m_convolverR2
 mozilla
 :
 :
-DelayProcessor
+DelayBuffer
 m_delayLineL
 ;
 mozilla
 :
 :
-DelayProcessor
+DelayBuffer
 m_delayLineR
 ;
 AudioFloatArray
