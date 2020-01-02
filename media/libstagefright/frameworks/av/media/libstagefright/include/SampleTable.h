@@ -410,6 +410,11 @@ size
 uint32_t
 *
 compositionTime
+uint32_t
+*
+duration
+=
+NULL
 bool
 *
 isSyncSample
