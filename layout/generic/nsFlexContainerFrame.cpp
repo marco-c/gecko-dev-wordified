@@ -151,6 +151,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
