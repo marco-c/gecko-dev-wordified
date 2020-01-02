@@ -1982,12 +1982,6 @@ GetIonContext
 cx
 )
 {
-AutoUnprotectCell
-unprotect
-(
-script
-)
-;
 uint32_t
 stackDepth
 ;

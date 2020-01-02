@@ -150,9 +150,7 @@ offset
 script
 -
 >
-getLength
-(
-)
+length
 )
 ;
 jsbytecode
@@ -162,9 +160,7 @@ pc
 script
 -
 >
-getCode
-(
-)
+code
 +
 offset
 ;
@@ -336,9 +332,7 @@ offset
 script
 -
 >
-getLength
-(
-)
+length
 )
 ;
 jsbytecode
@@ -348,9 +342,7 @@ pc
 script
 -
 >
-getCode
-(
-)
+code
 +
 offset
 ;

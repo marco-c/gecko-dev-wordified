@@ -316,9 +316,7 @@ pc
 script_
 -
 >
-getCode
-(
-)
+code
 ]
 .
 initialized
@@ -332,9 +330,7 @@ pc
 script_
 -
 >
-getCode
-(
-)
+code
 ]
 ;
 }
@@ -356,9 +352,7 @@ pc
 script_
 -
 >
-getCode
-(
-)
+code
 ]
 .
 initialized
@@ -372,9 +366,7 @@ pc
 script_
 -
 >
-getCode
-(
-)
+code
 ]
 ;
 return

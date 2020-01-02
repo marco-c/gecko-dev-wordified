@@ -223,12 +223,6 @@ JSAtom
 atom
 )
 {
-AutoUnprotectCell
-unprotect
-(
-atom
-)
-;
 JS_STATIC_ASSERT
 (
 JSID_INT_MIN

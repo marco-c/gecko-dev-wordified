@@ -6344,12 +6344,10 @@ bool
 )
 ToBooleanSlow
 (
-const
 JS
 :
 :
-Value
-&
+HandleValue
 v
 )
 ;
@@ -6488,9 +6486,7 @@ JS_ALWAYS_INLINE
 bool
 ToBoolean
 (
-const
-Value
-&
+HandleValue
 v
 )
 {

@@ -2943,9 +2943,7 @@ script
 )
 -
 >
-getStrict
-(
-)
+strict
 ;
 }
 void
