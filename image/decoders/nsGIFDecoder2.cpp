@@ -668,7 +668,7 @@ mOldColor
 (
 0
 )
-mCurrentFrame
+mCurrentFrameIndex
 (
 -
 1
@@ -830,7 +830,7 @@ mGIFOpen
 {
 if
 (
-mCurrentFrame
+mCurrentFrameIndex
 =
 =
 mGIFStruct
@@ -1642,7 +1642,7 @@ SetHasNoAlpha
 ;
 }
 }
-mCurrentFrame
+mCurrentFrameIndex
 =
 mGIFStruct
 .
@@ -2103,7 +2103,7 @@ mOldColor
 0
 ;
 }
-mCurrentFrame
+mCurrentFrameIndex
 =
 -
 1
