@@ -132,7 +132,11 @@ h
 #
 include
 "
-GrallocImages
+mozilla
+/
+layers
+/
+TextureClient
 .
 h
 "
@@ -230,7 +234,10 @@ Cb
 VideoPlane
 Cr
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :
@@ -238,7 +245,7 @@ mozilla
 layers
 :
 :
-GraphicBufferLocked
+TextureClient
 >
 mGraphicBuffer
 ;

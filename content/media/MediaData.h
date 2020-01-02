@@ -498,7 +498,7 @@ namespace
 layers
 {
 class
-GraphicBufferLocked
+TextureClient
 ;
 class
 PlanarYCbCrImage
@@ -899,7 +899,7 @@ aDuration
 layers
 :
 :
-GraphicBufferLocked
+TextureClient
 *
 aBuffer
 bool
