@@ -2242,7 +2242,7 @@ ReflowChild
 )
 *
 /
-nsresult
+void
 ReflowOverflowContainerChildren
 (
 nsPresContext
