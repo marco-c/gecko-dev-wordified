@@ -3043,12 +3043,6 @@ diff
 invalidRect
 )
 ;
-mInvalidRect
-.
-SetEmpty
-(
-)
-;
 SyncNotifyState
 (
 mConsumers
@@ -3060,6 +3054,12 @@ diff
 diffState
 invalidRect
 mHadLastPart
+)
+;
+mInvalidRect
+.
+SetEmpty
+(
 )
 ;
 if
