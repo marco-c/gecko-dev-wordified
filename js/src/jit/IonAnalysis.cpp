@@ -16616,6 +16616,15 @@ return
 true
 ;
 }
+types
+:
+:
+FinishDefinitePropertiesAnalysis
+(
+cx
+constraints
+)
+;
 if
 (
 !
