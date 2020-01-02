@@ -10428,6 +10428,11 @@ OpenKeyCursorHelper
 "
 "
 PackArgumentsForParentProcess
+[
+IDBIndex
+.
+cpp
+]
 "
 )
 ;
