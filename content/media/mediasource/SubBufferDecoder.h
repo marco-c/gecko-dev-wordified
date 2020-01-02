@@ -221,6 +221,7 @@ mReader
 aReader
 ;
 }
+virtual
 ReentrantMonitor
 &
 GetReentrantMonitor
@@ -228,6 +229,7 @@ GetReentrantMonitor
 )
 MOZ_OVERRIDE
 ;
+virtual
 bool
 OnStateMachineThread
 (
@@ -235,6 +237,7 @@ OnStateMachineThread
 const
 MOZ_OVERRIDE
 ;
+virtual
 bool
 OnDecodeThread
 (
@@ -242,6 +245,7 @@ OnDecodeThread
 const
 MOZ_OVERRIDE
 ;
+virtual
 SourceBufferResource
 *
 GetResource
@@ -250,6 +254,7 @@ GetResource
 const
 MOZ_OVERRIDE
 ;
+virtual
 void
 SetMediaDuration
 (
@@ -258,6 +263,7 @@ aDuration
 )
 MOZ_OVERRIDE
 ;
+virtual
 void
 UpdateEstimatedMediaDuration
 (
@@ -266,6 +272,7 @@ aDuration
 )
 MOZ_OVERRIDE
 ;
+virtual
 void
 SetMediaSeekable
 (
@@ -274,6 +281,7 @@ aMediaSeekable
 )
 MOZ_OVERRIDE
 ;
+virtual
 void
 SetTransportSeekable
 (
@@ -282,6 +290,7 @@ aTransportSeekable
 )
 MOZ_OVERRIDE
 ;
+virtual
 layers
 :
 :
