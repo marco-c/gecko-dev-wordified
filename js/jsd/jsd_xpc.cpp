@@ -9340,6 +9340,8 @@ privateIsNSISupports
 )
 !
 =
+!
+!
 (
 options
 &
