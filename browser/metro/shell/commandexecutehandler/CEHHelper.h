@@ -149,6 +149,8 @@ shlobj
 .
 h
 >
+/
+/
 #
 define
 SHOW_CONSOLE
