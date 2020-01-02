@@ -397,6 +397,16 @@ return
 emptyCount
 ;
 }
+inline
+bool
+wantBackgroundAllocation
+(
+JSRuntime
+*
+rt
+)
+const
+;
 /
 *
 Must

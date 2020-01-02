@@ -10750,7 +10750,7 @@ rt
 >
 gc
 .
-gcCallback
+callback
 =
 cb
 ;
@@ -10759,7 +10759,7 @@ rt
 >
 gc
 .
-gcCallbackData
+callbackData
 =
 data
 ;
