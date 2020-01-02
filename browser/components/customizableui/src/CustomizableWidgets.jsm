@@ -4730,6 +4730,18 @@ label
 ;
 elem
 .
+setAttribute
+(
+"
+type
+"
+"
+checkbox
+"
+)
+;
+elem
+.
 section
 =
 aSection
@@ -5093,7 +5105,7 @@ elem
 setAttribute
 (
 "
-current
+checked
 "
 "
 true
@@ -5108,7 +5120,7 @@ elem
 removeAttribute
 (
 "
-current
+checked
 "
 )
 ;
