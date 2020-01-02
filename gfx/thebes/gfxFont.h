@@ -1803,6 +1803,14 @@ IsSymbolFont
 (
 )
 ;
+virtual
+bool
+HasFontTable
+(
+uint32_t
+aTableTag
+)
+;
 inline
 bool
 HasGraphiteTables
