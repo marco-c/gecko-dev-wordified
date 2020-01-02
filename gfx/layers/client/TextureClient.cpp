@@ -459,13 +459,6 @@ gfxReusableImageSurfaceWrapper
 h
 "
 #
-include
-"
-gfxImageSurface
-.
-h
-"
-#
 else
 #
 include

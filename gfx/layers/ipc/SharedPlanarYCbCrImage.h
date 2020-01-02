@@ -188,9 +188,6 @@ h
 /
 for
 MOZ_COUNT_CTOR
-class
-gfxASurface
-;
 #
 ifndef
 MOZILLA_LAYERS_SHAREDPLANARYCBCRIMAGE_H

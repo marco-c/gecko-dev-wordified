@@ -137,17 +137,6 @@ ToIntSize
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-/
-/
-for
-gfxImageSurface
-#
-include
-"
 mozilla
 /
 gfx

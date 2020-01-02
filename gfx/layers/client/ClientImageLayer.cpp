@@ -128,17 +128,6 @@ ImageLayer
 #
 include
 "
-gfxASurface
-.
-h
-"
-/
-/
-for
-gfxASurface
-#
-include
-"
 mozilla
 /
 Attributes

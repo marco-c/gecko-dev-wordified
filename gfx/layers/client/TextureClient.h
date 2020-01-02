@@ -388,9 +388,6 @@ class
 gfxReusableSurfaceWrapper
 ;
 class
-gfxASurface
-;
-class
 gfxImageSurface
 ;
 namespace

@@ -155,17 +155,6 @@ gfx3DMatrix
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-/
-/
-for
-gfxImageSurface
-#
-include
-"
 gfxPrefs
 .
 h

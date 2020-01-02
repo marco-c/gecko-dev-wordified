@@ -420,9 +420,6 @@ endif
 #
 endif
 class
-gfxImageSurface
-;
-class
 gfxReusableSurfaceWrapper
 ;
 class

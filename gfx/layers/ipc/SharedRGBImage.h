@@ -171,9 +171,6 @@ h
 /
 for
 already_AddRefed
-class
-gfxASurface
-;
 namespace
 mozilla
 {

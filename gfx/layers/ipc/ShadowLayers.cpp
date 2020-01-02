@@ -201,17 +201,6 @@ helpers
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-/
-/
-for
-gfxImageSurface
-#
-include
-"
 gfxPlatform
 .
 h

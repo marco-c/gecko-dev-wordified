@@ -112,13 +112,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 gfxWindowsSurface
 .
 h

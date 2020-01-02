@@ -200,13 +200,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 gfx3DMatrix
 .
 h

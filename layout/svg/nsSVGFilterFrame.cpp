@@ -121,13 +121,6 @@ order
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 gfxUtils
 .
 h

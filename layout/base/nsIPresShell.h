@@ -419,9 +419,6 @@ class
 nsIScrollableFrame
 ;
 class
-gfxASurface
-;
-class
 gfxContext
 ;
 class

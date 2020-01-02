@@ -167,9 +167,6 @@ queue
 /
 Forwards
 :
-class
-gfxImageSurface
-;
 namespace
 mozilla
 {

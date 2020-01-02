@@ -113,13 +113,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 ReadbackProcessor
 .
 h

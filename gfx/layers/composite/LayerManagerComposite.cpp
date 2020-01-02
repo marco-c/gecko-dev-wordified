@@ -642,9 +642,6 @@ h
 for
 TextRenderer
 class
-gfxASurface
-;
-class
 gfxContext
 ;
 struct

@@ -111,17 +111,6 @@ SurfaceFormatToImageFormat
 #
 include
 "
-gfxASurface
-.
-h
-"
-/
-/
-for
-gfxASurface
-#
-include
-"
 gfxImageSurface
 .
 h

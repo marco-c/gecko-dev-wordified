@@ -99,13 +99,6 @@ GFX_AUTOMASKDATA_H_
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers
@@ -147,8 +140,7 @@ helper
 class
 manages
 the
-gfxASurface
-*
+SourceSurface
 logic
 .
 *

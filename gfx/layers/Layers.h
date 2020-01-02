@@ -579,9 +579,6 @@ gfx2DGlue
 h
 "
 class
-gfxASurface
-;
-class
 gfxContext
 ;
 extern

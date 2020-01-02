@@ -202,17 +202,6 @@ etc
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-/
-/
-for
-gfxImageSurface
-#
-include
-"
 gfxReusableSurfaceWrapper
 .
 h

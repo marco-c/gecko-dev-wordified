@@ -136,13 +136,6 @@ TextureClient
 .
 h
 "
-#
-include
-"
-gfxImageSurface
-.
-h
-"
 namespace
 mozilla
 {

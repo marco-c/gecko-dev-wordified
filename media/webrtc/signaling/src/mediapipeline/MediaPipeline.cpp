@@ -278,13 +278,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 libyuv
 /
 convert

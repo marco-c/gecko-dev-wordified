@@ -355,9 +355,6 @@ RefPtr
 .
 h
 "
-class
-gfxASurface
-;
 struct
 _CGLContextObject
 ;

@@ -347,9 +347,6 @@ nsTArray
 class
 gfxContext
 ;
-class
-gfxASurface
-;
 namespace
 mozilla
 {

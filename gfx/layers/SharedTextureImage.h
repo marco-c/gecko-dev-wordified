@@ -158,9 +158,6 @@ h
 /
 for
 IntSize
-class
-gfxASurface
-;
 /
 /
 Split

@@ -181,17 +181,6 @@ operator
 delete
 etc
 #
-include
-"
-gfxASurface
-.
-h
-"
-/
-/
-for
-gfxContentType
-#
 ifdef
 XP_WIN
 #

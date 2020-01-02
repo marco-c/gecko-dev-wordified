@@ -294,9 +294,6 @@ h
 /
 for
 nsAutoCString
-class
-gfxImageSurface
-;
 namespace
 mozilla
 {

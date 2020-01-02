@@ -147,9 +147,6 @@ GLDefs
 .
 h
 "
-class
-gfxASurface
-;
 namespace
 mozilla
 {

@@ -160,9 +160,6 @@ EventForwards
 h
 "
 class
-gfxASurface
-;
-class
 gfxContext
 ;
 class

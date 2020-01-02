@@ -132,17 +132,6 @@ ReadbackLayer
 #
 include
 "
-gfxASurface
-.
-h
-"
-/
-/
-for
-gfxASurface
-#
-include
-"
 gfxContext
 .
 h
