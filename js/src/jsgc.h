@@ -168,6 +168,15 @@ include
 "
 js
 /
+SliceBudget
+.
+h
+"
+#
+include
+"
+js
+/
 Tracer
 .
 h
@@ -234,9 +243,6 @@ Shape
 ;
 class
 UnownedBaseShape
-;
-struct
-SliceBudget
 ;
 unsigned
 GetCPUCount
