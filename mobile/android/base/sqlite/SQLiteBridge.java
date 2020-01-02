@@ -371,6 +371,7 @@ want
 to
 access
 .
+RobocopTarget
 public
 SQLiteBridge
 (
