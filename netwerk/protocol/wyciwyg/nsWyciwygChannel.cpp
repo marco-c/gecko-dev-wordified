@@ -3828,15 +3828,8 @@ NS_SUCCEEDED
 (
 rv
 )
-&
-&
-!
-(
-mLoadFlags
-&
-LOAD_BACKGROUND
 )
-)
+{
 mProgressSink
 -
 >
@@ -3853,6 +3846,7 @@ mContentLength
 )
 )
 ;
+}
 return
 rv
 ;
