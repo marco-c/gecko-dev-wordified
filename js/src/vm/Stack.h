@@ -10912,7 +10912,7 @@ data_
 .
 ionFrames_
 .
-isOptimizedJS
+isIonJS
 (
 )
 )
@@ -10963,7 +10963,7 @@ data_
 .
 ionFrames_
 .
-isOptimizedJS
+isIonJS
 (
 )
 ;

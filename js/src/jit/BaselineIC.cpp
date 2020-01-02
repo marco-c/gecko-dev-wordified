@@ -5721,7 +5721,7 @@ type
 )
 =
 =
-IonFrame_Exit
+JitFrame_Exit
 )
 ;
 +
@@ -5737,7 +5737,7 @@ type
 )
 =
 =
-IonFrame_BaselineStub
+JitFrame_BaselineStub
 )
 ;
 +

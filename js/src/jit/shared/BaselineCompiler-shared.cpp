@@ -489,7 +489,7 @@ MakeFrameDescriptor
 frameFullSize
 +
 argSize
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 )
 ;
 masm
@@ -531,7 +531,7 @@ MakeFrameDescriptor
 frameBaseSize
 +
 argSize
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 )
 ;
 masm
@@ -671,7 +671,7 @@ masm
 makeFrameDescriptor
 (
 BaselineTailCallReg
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 )
 ;
 masm

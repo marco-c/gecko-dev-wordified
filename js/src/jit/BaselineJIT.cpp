@@ -6198,7 +6198,7 @@ type
 )
 {
 case
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 :
 iter
 .
@@ -6219,7 +6219,7 @@ setActive
 break
 ;
 case
-IonFrame_OptimizedJS
+JitFrame_IonJS
 :
 {
 /

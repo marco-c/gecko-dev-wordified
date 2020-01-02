@@ -45605,7 +45605,7 @@ framePushed
 )
 +
 extraBytes
-IonFrame_Entry
+JitFrame_Entry
 )
 ;
 masm

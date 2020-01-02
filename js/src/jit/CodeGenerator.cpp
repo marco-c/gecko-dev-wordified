@@ -14374,7 +14374,7 @@ masm
 framePushed
 (
 )
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 ;
 masm
@@ -15246,7 +15246,7 @@ masm
 framePushed
 (
 )
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 ;
 masm
@@ -16663,7 +16663,7 @@ masm
 makeFrameDescriptor
 (
 copyreg
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 ;
 masm

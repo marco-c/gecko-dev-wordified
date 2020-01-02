@@ -541,7 +541,7 @@ ionTop
 )
 type_
 (
-IonFrame_Exit
+JitFrame_Exit
 )
 returnAddressToFp_
 (
@@ -586,7 +586,7 @@ jitTop
 )
 type_
 (
-IonFrame_Exit
+JitFrame_Exit
 )
 returnAddressToFp_
 (
@@ -641,7 +641,7 @@ fp
 )
 type_
 (
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 returnAddressToFp_
 (
@@ -973,7 +973,7 @@ if
 type_
 !
 =
-IonFrame_Exit
+JitFrame_Exit
 |
 |
 isFakeExitFrame
@@ -1016,7 +1016,7 @@ if
 type_
 !
 =
-IonFrame_Exit
+JitFrame_Exit
 )
 return
 false
@@ -1054,7 +1054,7 @@ if
 type_
 !
 =
-IonFrame_Exit
+JitFrame_Exit
 )
 return
 false
@@ -1092,7 +1092,7 @@ if
 type_
 !
 =
-IonFrame_Exit
+JitFrame_Exit
 )
 return
 false
@@ -1130,7 +1130,7 @@ if
 type_
 !
 =
-IonFrame_Exit
+JitFrame_Exit
 )
 return
 false
@@ -1468,7 +1468,7 @@ type
 )
 {
 case
-IonFrame_Entry
+JitFrame_Entry
 :
 return
 IonEntryFrameLayout
@@ -1479,13 +1479,13 @@ Size
 )
 ;
 case
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 :
 case
-IonFrame_OptimizedJS
+JitFrame_IonJS
 :
 case
-IonFrame_Unwound_OptimizedJS
+JitFrame_Unwound_IonJS
 :
 return
 IonJSFrameLayout
@@ -1496,7 +1496,7 @@ Size
 )
 ;
 case
-IonFrame_BaselineStub
+JitFrame_BaselineStub
 :
 return
 IonBaselineStubFrameLayout
@@ -1507,7 +1507,7 @@ Size
 )
 ;
 case
-IonFrame_Rectifier
+JitFrame_Rectifier
 :
 return
 IonRectifierFrameLayout
@@ -1518,7 +1518,7 @@ Size
 )
 ;
 case
-IonFrame_Unwound_Rectifier
+JitFrame_Unwound_Rectifier
 :
 return
 IonUnwoundRectifierFrameLayout
@@ -1529,7 +1529,7 @@ Size
 )
 ;
 case
-IonFrame_Exit
+JitFrame_Exit
 :
 return
 IonExitFrameLayout
@@ -1630,13 +1630,13 @@ JS_ASSERT
 (
 SizeOfFramePrefix
 (
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 )
 =
 =
 SizeOfFramePrefix
 (
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 )
 ;
@@ -1644,7 +1644,7 @@ currentSize
 =
 SizeOfFramePrefix
 (
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 ;
 }
@@ -1682,7 +1682,7 @@ JS_ASSERT
 type_
 !
 =
-IonFrame_Entry
+JitFrame_Entry
 )
 ;
 frameSize_
@@ -1735,12 +1735,12 @@ prevType
 )
 =
 =
-IonFrame_Entry
+JitFrame_Entry
 )
 {
 type_
 =
-IonFrame_Entry
+JitFrame_Entry
 ;
 return
 *
@@ -1793,11 +1793,11 @@ if
 type_
 =
 =
-IonFrame_Unwound_OptimizedJS
+JitFrame_Unwound_IonJS
 )
 type_
 =
-IonFrame_OptimizedJS
+JitFrame_IonJS
 ;
 else
 if
@@ -1805,11 +1805,11 @@ if
 type_
 =
 =
-IonFrame_Unwound_BaselineStub
+JitFrame_Unwound_BaselineStub
 )
 type_
 =
-IonFrame_BaselineStub
+JitFrame_BaselineStub
 ;
 returnAddressToFp_
 =
@@ -3684,7 +3684,7 @@ if
 (
 iter
 .
-isOptimizedJS
+isIonJS
 (
 )
 )
@@ -4659,7 +4659,7 @@ prevType
 )
 =
 =
-IonFrame_Unwound_OptimizedJS
+JitFrame_Unwound_IonJS
 |
 |
 frame
@@ -4670,7 +4670,7 @@ prevType
 )
 =
 =
-IonFrame_Unwound_BaselineStub
+JitFrame_Unwound_BaselineStub
 |
 |
 frame
@@ -4681,7 +4681,7 @@ prevType
 )
 =
 =
-IonFrame_Unwound_Rectifier
+JitFrame_Unwound_Rectifier
 )
 {
 /
@@ -4707,7 +4707,7 @@ prevType
 )
 =
 =
-IonFrame_Entry
+JitFrame_Entry
 )
 {
 /
@@ -4747,7 +4747,7 @@ prevType
 )
 =
 =
-IonFrame_Rectifier
+JitFrame_Rectifier
 )
 {
 /
@@ -4810,7 +4810,7 @@ frame
 >
 changePrevType
 (
-IonFrame_Unwound_Rectifier
+JitFrame_Unwound_Rectifier
 )
 ;
 return
@@ -4826,7 +4826,7 @@ prevType
 )
 =
 =
-IonFrame_BaselineStub
+JitFrame_BaselineStub
 )
 {
 frame
@@ -4834,7 +4834,7 @@ frame
 >
 changePrevType
 (
-IonFrame_Unwound_BaselineStub
+JitFrame_Unwound_BaselineStub
 )
 ;
 return
@@ -4850,7 +4850,7 @@ prevType
 )
 =
 =
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 ;
 frame
@@ -4858,7 +4858,7 @@ frame
 >
 changePrevType
 (
-IonFrame_Unwound_OptimizedJS
+JitFrame_Unwound_IonJS
 )
 ;
 }
@@ -6376,7 +6376,7 @@ type
 )
 =
 =
-IonFrame_BaselineStub
+JitFrame_BaselineStub
 )
 ;
 IonBaselineStubFrameLayout
@@ -8220,7 +8220,7 @@ type
 )
 {
 case
-IonFrame_Exit
+JitFrame_Exit
 :
 MarkJitExitFrame
 (
@@ -8231,7 +8231,7 @@ frames
 break
 ;
 case
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 :
 frames
 .
@@ -8249,7 +8249,7 @@ frames
 break
 ;
 case
-IonFrame_BaselineStub
+JitFrame_BaselineStub
 :
 MarkBaselineStubFrame
 (
@@ -8260,7 +8260,7 @@ frames
 break
 ;
 case
-IonFrame_OptimizedJS
+JitFrame_IonJS
 :
 MarkIonJSFrame
 (
@@ -8271,7 +8271,7 @@ frames
 break
 ;
 case
-IonFrame_Unwound_OptimizedJS
+JitFrame_Unwound_IonJS
 :
 MOZ_ASSUME_UNREACHABLE
 (
@@ -8281,7 +8281,7 @@ invalid
 )
 ;
 case
-IonFrame_Rectifier
+JitFrame_Rectifier
 :
 MarkRectifierFrame
 (
@@ -8292,7 +8292,7 @@ frames
 break
 ;
 case
-IonFrame_Unwound_Rectifier
+JitFrame_Unwound_Rectifier
 :
 break
 ;
@@ -8423,7 +8423,7 @@ type
 )
 =
 =
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 UpdateIonJSFrameForMinorGC
 (
@@ -8585,7 +8585,7 @@ prevType
 )
 =
 =
-IonFrame_Rectifier
+JitFrame_Rectifier
 |
 |
 it
@@ -8595,7 +8595,7 @@ prevType
 )
 =
 =
-IonFrame_Unwound_Rectifier
+JitFrame_Unwound_Rectifier
 )
 {
 +
@@ -8611,7 +8611,7 @@ prevType
 )
 =
 =
-IonFrame_BaselineStub
+JitFrame_BaselineStub
 |
 |
 it
@@ -8621,7 +8621,7 @@ prevType
 )
 =
 =
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 |
 |
 it
@@ -8631,7 +8631,7 @@ prevType
 )
 =
 =
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 ;
 }
@@ -8675,7 +8675,7 @@ prevType
 )
 =
 =
-IonFrame_BaselineStub
+JitFrame_BaselineStub
 |
 |
 it
@@ -8685,7 +8685,7 @@ prevType
 )
 =
 =
-IonFrame_Unwound_BaselineStub
+JitFrame_Unwound_BaselineStub
 )
 {
 +
@@ -8701,7 +8701,7 @@ prevType
 )
 =
 =
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 )
 ;
 }
@@ -8874,7 +8874,7 @@ if
 (
 it
 .
-isOptimizedJS
+isIonJS
 (
 )
 )
@@ -10162,7 +10162,7 @@ type
 )
 =
 =
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 ;
 IonScript
@@ -11209,7 +11209,7 @@ if
 (
 parent
 .
-isOptimizedJS
+isIonJS
 (
 )
 )
@@ -12385,7 +12385,7 @@ type_
 )
 {
 case
-IonFrame_Entry
+JitFrame_Entry
 :
 fprintf
 (
@@ -12426,7 +12426,7 @@ prevFrameLocalSize
 break
 ;
 case
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 :
 dumpBaseline
 (
@@ -12435,10 +12435,10 @@ dumpBaseline
 break
 ;
 case
-IonFrame_BaselineStub
+JitFrame_BaselineStub
 :
 case
-IonFrame_Unwound_BaselineStub
+JitFrame_Unwound_BaselineStub
 :
 fprintf
 (
@@ -12480,7 +12480,7 @@ prevFrameLocalSize
 break
 ;
 case
-IonFrame_OptimizedJS
+JitFrame_IonJS
 :
 {
 InlineFrameIterator
@@ -12524,10 +12524,10 @@ break
 ;
 }
 case
-IonFrame_Rectifier
+JitFrame_Rectifier
 :
 case
-IonFrame_Unwound_Rectifier
+JitFrame_Unwound_Rectifier
 :
 fprintf
 (
@@ -12568,7 +12568,7 @@ prevFrameLocalSize
 break
 ;
 case
-IonFrame_Unwound_OptimizedJS
+JitFrame_Unwound_IonJS
 :
 fprintf
 (
@@ -12591,7 +12591,7 @@ n
 break
 ;
 case
-IonFrame_Exit
+JitFrame_Exit
 :
 break
 ;

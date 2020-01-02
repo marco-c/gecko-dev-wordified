@@ -194,7 +194,7 @@ scripted
 functon
 activation
 .
-OptimizedJS
+IonJS
 frames
 are
 used
@@ -203,7 +203,7 @@ the
 optimizing
 compiler
 .
-IonFrame_OptimizedJS
+JitFrame_IonJS
 /
 /
 JS
@@ -214,7 +214,7 @@ the
 baseline
 JIT
 .
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 /
 /
 Frame
@@ -242,7 +242,7 @@ ICEntry
 mapping
 works
 .
-IonFrame_BaselineStub
+JitFrame_BaselineStub
 /
 /
 The
@@ -264,7 +264,7 @@ the
 Ion
 world
 .
-IonFrame_Entry
+JitFrame_Entry
 /
 /
 A
@@ -287,7 +287,7 @@ mismatches
 in
 calls
 .
-IonFrame_Rectifier
+JitFrame_Rectifier
 /
 /
 An
@@ -328,11 +328,11 @@ Baseline
 exception
 unwinding
 .
-IonFrame_Unwound_OptimizedJS
+JitFrame_Unwound_IonJS
 /
 /
 Like
-Unwound_OptimizedJS
+Unwound_IonJS
 but
 the
 caller
@@ -342,7 +342,7 @@ baseline
 stub
 frame
 .
-IonFrame_Unwound_BaselineStub
+JitFrame_Unwound_BaselineStub
 /
 /
 An
@@ -372,7 +372,7 @@ see
 EnsureExitFrame
 )
 .
-IonFrame_Unwound_Rectifier
+JitFrame_Unwound_Rectifier
 /
 /
 An
@@ -412,7 +412,7 @@ any
 /
 JitActivation
 .
-IonFrame_Exit
+JitFrame_Exit
 }
 ;
 enum
@@ -564,7 +564,7 @@ top
 )
 type_
 (
-IonFrame_Exit
+JitFrame_Exit
 )
 returnAddressToFp_
 (
@@ -768,13 +768,13 @@ return
 type_
 =
 =
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 |
 |
 type_
 =
 =
-IonFrame_OptimizedJS
+JitFrame_IonJS
 ;
 }
 bool
@@ -787,11 +787,11 @@ return
 type_
 =
 =
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 ;
 }
 bool
-isOptimizedJS
+isIonJS
 (
 )
 const
@@ -800,7 +800,7 @@ return
 type_
 =
 =
-IonFrame_OptimizedJS
+JitFrame_IonJS
 ;
 }
 bool
@@ -813,7 +813,7 @@ return
 type_
 =
 =
-IonFrame_BaselineStub
+JitFrame_BaselineStub
 ;
 }
 bool
@@ -856,7 +856,7 @@ return
 type_
 =
 =
-IonFrame_Entry
+JitFrame_Entry
 ;
 }
 bool
@@ -1036,7 +1036,7 @@ JS_ASSERT
 type_
 !
 =
-IonFrame_Exit
+JitFrame_Exit
 )
 ;
 return
@@ -1055,7 +1055,7 @@ frames
 When
 prevType
 is
-IonFrame_Entry
+JitFrame_Entry
 /
 /
 the
@@ -1077,7 +1077,7 @@ return
 type_
 =
 =
-IonFrame_Entry
+JitFrame_Entry
 ;
 }
 IonFrameIterator

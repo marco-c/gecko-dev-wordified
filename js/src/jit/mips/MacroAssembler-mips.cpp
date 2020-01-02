@@ -8088,7 +8088,7 @@ MakeFrameDescriptor
 framePushed
 (
 )
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 ;
 Push
@@ -8173,7 +8173,7 @@ MakeFrameDescriptor
 framePushed
 (
 )
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 ;
 Push
@@ -8218,7 +8218,7 @@ MakeFrameDescriptor
 framePushed
 (
 )
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 ;
 Push
@@ -8302,7 +8302,7 @@ framePushed
 makeFrameDescriptor
 (
 dynStack
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 ;
 Push

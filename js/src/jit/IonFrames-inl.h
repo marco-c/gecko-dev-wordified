@@ -311,7 +311,7 @@ prevType
 )
 =
 =
-IonFrame_Unwound_Rectifier
+JitFrame_Unwound_Rectifier
 |
 |
 prevType
@@ -319,7 +319,7 @@ prevType
 )
 =
 =
-IonFrame_Unwound_OptimizedJS
+JitFrame_Unwound_IonJS
 |
 |
 prevType
@@ -327,7 +327,7 @@ prevType
 )
 =
 =
-IonFrame_Unwound_BaselineStub
+JitFrame_Unwound_BaselineStub
 )
 ;
 JS_ASSERT_IF
@@ -338,7 +338,7 @@ type
 )
 =
 =
-IonFrame_Exit
+JitFrame_Exit
 |
 |
 type
@@ -346,7 +346,7 @@ type
 )
 =
 =
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 )
 ;
 return
@@ -371,7 +371,7 @@ type
 )
 =
 =
-IonFrame_Exit
+JitFrame_Exit
 )
 ;
 JS_ASSERT
@@ -417,7 +417,7 @@ type
 )
 =
 =
-IonFrame_Exit
+JitFrame_Exit
 )
 ;
 +

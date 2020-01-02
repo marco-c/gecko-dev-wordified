@@ -7220,7 +7220,7 @@ temp
 makeFrameDescriptor
 (
 temp
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 )
 ;
 push

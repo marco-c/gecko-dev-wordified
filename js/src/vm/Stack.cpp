@@ -4740,7 +4740,7 @@ data_
 .
 ionFrames_
 .
-isOptimizedJS
+isIonJS
 (
 )
 ?
@@ -4779,7 +4779,7 @@ data_
 .
 ionFrames_
 .
-isOptimizedJS
+isIonJS
 (
 )
 )
@@ -4857,7 +4857,7 @@ data_
 .
 ionFrames_
 .
-isOptimizedJS
+isIonJS
 (
 )
 &
@@ -5293,7 +5293,7 @@ type
 jit
 :
 :
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 ;
 #
@@ -6373,7 +6373,7 @@ data_
 .
 ionFrames_
 .
-isOptimizedJS
+isIonJS
 (
 )
 )
@@ -6920,7 +6920,7 @@ data_
 .
 ionFrames_
 .
-isOptimizedJS
+isIonJS
 (
 )
 )
@@ -7079,7 +7079,7 @@ data_
 .
 ionFrames_
 .
-isOptimizedJS
+isIonJS
 (
 )
 )
@@ -7280,7 +7280,7 @@ data_
 .
 ionFrames_
 .
-isOptimizedJS
+isIonJS
 (
 )
 )
@@ -7666,7 +7666,7 @@ data_
 .
 ionFrames_
 .
-isOptimizedJS
+isIonJS
 (
 )
 )
@@ -7932,7 +7932,7 @@ data_
 .
 ionFrames_
 .
-isOptimizedJS
+isIonJS
 (
 )
 )
@@ -8093,7 +8093,7 @@ data_
 .
 ionFrames_
 .
-isOptimizedJS
+isIonJS
 (
 )
 )

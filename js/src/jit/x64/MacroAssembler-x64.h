@@ -8878,7 +8878,7 @@ dynStack
 makeFrameDescriptor
 (
 dynStack
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 ;
 Push
