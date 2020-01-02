@@ -4423,7 +4423,7 @@ is
 an
 attribute
 const
-nsIAttribute
+Attr
 *
 attr1
 =
@@ -4448,7 +4448,7 @@ attr1
 static_cast
 <
 const
-nsIAttribute
+Attr
 *
 >
 (
@@ -4463,7 +4463,7 @@ elem
 attr1
 -
 >
-GetContent
+GetElement
 (
 )
 ;
@@ -4522,14 +4522,14 @@ eATTRIBUTE
 )
 {
 const
-nsIAttribute
+Attr
 *
 attr2
 =
 static_cast
 <
 const
-nsIAttribute
+Attr
 *
 >
 (
@@ -4544,7 +4544,7 @@ elem
 attr2
 -
 >
-GetContent
+GetElement
 (
 )
 ;
