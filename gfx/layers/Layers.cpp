@@ -202,13 +202,6 @@ ReadbackLayer
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h
