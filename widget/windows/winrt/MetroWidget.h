@@ -13,7 +13,7 @@ tab
 -
 width
 :
-4
+2
 ;
 indent
 -
@@ -299,6 +299,9 @@ Activation
 .
 h
 >
+class
+nsNativeDragTarget
+;
 namespace
 mozilla
 {
@@ -675,6 +678,13 @@ nullptr
 NS_IMETHOD
 Destroy
 (
+)
+;
+NS_IMETHOD
+EnableDragDrop
+(
+bool
+aEnable
 )
 ;
 NS_IMETHOD
@@ -1663,6 +1673,12 @@ nsRefPtr
 APZController
 >
 mController
+;
+nsRefPtr
+<
+nsNativeDragTarget
+>
+mNativeDragTarget
 ;
 }
 ;
