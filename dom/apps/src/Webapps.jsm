@@ -9388,7 +9388,7 @@ ManifestHelper
 json
 app
 .
-installOrigin
+manifestURL
 )
 ;
 let
@@ -11496,6 +11496,9 @@ new
 ManifestHelper
 (
 manifest
+aData
+.
+manifestURL
 )
 ;
 debug
