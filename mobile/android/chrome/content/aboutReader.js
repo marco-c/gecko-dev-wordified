@@ -3197,7 +3197,6 @@ _toggleToolbarVisibility
 function
 Reader_toggleToolbarVisibility
 (
-visible
 )
 {
 this
