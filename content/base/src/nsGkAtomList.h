@@ -13209,6 +13209,13 @@ BulletFrame
 )
 GK_ATOM
 (
+colorControlFrame
+"
+colorControlFrame
+"
+)
+GK_ATOM
+(
 columnSetFrame
 "
 ColumnSetFrame

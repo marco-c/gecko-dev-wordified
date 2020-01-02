@@ -8241,6 +8241,9 @@ aType
 nsStyleContext
 *
 aParentContext
+Element
+*
+aPseudoElement
 )
 {
 NS_ENSURE_FALSE
@@ -8317,6 +8320,7 @@ aParentElement
 ruleWalker
 aType
 treeContext
+aPseudoElement
 )
 ;
 WalkRestrictionRule
@@ -8619,6 +8623,9 @@ aParentContext
 TreeMatchContext
 &
 aTreeMatchContext
+Element
+*
+aPseudoElement
 )
 {
 NS_ENSURE_FALSE
@@ -8692,6 +8699,7 @@ aParentElement
 ruleWalker
 aType
 aTreeMatchContext
+aPseudoElement
 )
 ;
 WalkRestrictionRule
