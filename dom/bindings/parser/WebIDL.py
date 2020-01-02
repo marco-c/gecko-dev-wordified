@@ -24863,6 +24863,27 @@ attr
 )
     
 def
+returnsPromise
+(
+self
+)
+:
+        
+return
+self
+.
+_overloads
+[
+0
+]
+.
+returnType
+.
+isPromise
+(
+)
+    
+def
 _getDependentObjects
 (
 self
