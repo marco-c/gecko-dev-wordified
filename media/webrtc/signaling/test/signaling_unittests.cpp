@@ -390,7 +390,7 @@ static
 int
 kDefaultTimeout
 =
-5000
+7000
 ;
 static
 bool
@@ -6095,7 +6095,7 @@ PCImplIceGatheringState
 :
 :
 Complete
-5000
+kDefaultTimeout
 )
 ;
 std
@@ -6147,7 +6147,7 @@ PCImplIceConnectionState
 :
 :
 Failed
-5000
+kDefaultTimeout
 )
 ;
 if
