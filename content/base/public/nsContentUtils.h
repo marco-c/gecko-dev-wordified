@@ -4290,8 +4290,10 @@ and
 because
 onerror
 *
+on
+window
 takes
-3
+5
 args
 .
 *
@@ -4305,6 +4307,8 @@ aNameSpaceID
 nsIAtom
 *
 aEventName
+bool
+aIsForWindow
 uint32_t
 *
 aArgCount

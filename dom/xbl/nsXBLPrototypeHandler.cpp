@@ -2451,6 +2451,7 @@ GetEventArgNames
 (
 kNameSpaceID_XBL
 aName
+false
 &
 argCount
 &
