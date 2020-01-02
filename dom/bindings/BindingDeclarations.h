@@ -1776,15 +1776,15 @@ can
 t
 pull
 in
-FakeDependentString
+FakeString
 here
 because
 it
 depends
 on
-/
-/
 internal
+/
+/
 strings
 .
 So
@@ -1807,7 +1807,7 @@ namespace
 binding_detail
 {
 struct
-FakeDependentString
+FakeString
 ;
 }
 /
@@ -1887,7 +1887,7 @@ in
 the
 /
 /
-FakeDependentString
+FakeString
 class
 in
 BindingUtils
@@ -1902,7 +1902,7 @@ const
 binding_detail
 :
 :
-FakeDependentString
+FakeString
 *
 str
 )
@@ -1917,7 +1917,7 @@ mStr
 reinterpret_cast
 <
 const
-nsDependentString
+nsString
 *
 >
 (
