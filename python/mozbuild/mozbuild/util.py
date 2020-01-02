@@ -1047,13 +1047,6 @@ self
 .
 diff
 =
-'
-\
-n
-'
-.
-join
-(
 difflib
 .
 unified_diff
@@ -1074,7 +1067,6 @@ lineterm
 =
 '
 '
-)
 )
             
 #
