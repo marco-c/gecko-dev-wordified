@@ -125,7 +125,7 @@ DirectShowReader_h_
 #
 include
 "
-Windows
+windows
 .
 h
 "
