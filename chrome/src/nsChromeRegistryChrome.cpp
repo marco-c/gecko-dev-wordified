@@ -3226,7 +3226,7 @@ MatchType
 aType
 )
 {
-int32_t
+size_t
 i
 =
 mArray
@@ -3264,6 +3264,8 @@ locale
 ProviderEntry
 *
 entry
+=
+nullptr
 ;
 while
 (
