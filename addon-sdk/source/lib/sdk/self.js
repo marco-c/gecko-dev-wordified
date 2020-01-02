@@ -96,6 +96,7 @@ rootURI
 metadata
 version
 loadReason
+preferencesBranch
 }
 =
 require
@@ -223,6 +224,15 @@ id
 ;
 exports
 .
+preferencesBranch
+=
+preferencesBranch
+|
+|
+id
+;
+exports
+.
 name
 =
 name
@@ -266,7 +276,13 @@ exports
 .
 packed
 =
+(
 rootURI
+|
+|
+'
+'
+)
 .
 indexOf
 (
@@ -279,6 +295,7 @@ jar
 =
 =
 0
+;
 exports
 .
 data
@@ -319,6 +336,11 @@ isPrivateBrowsingSupported
 (
 (
 metadata
+|
+|
+{
+}
+)
 .
 permissions
 |
@@ -337,9 +359,4 @@ browsing
 =
 =
 true
-)
-?
-true
-:
-false
 ;

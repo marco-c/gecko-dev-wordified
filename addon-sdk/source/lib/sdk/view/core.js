@@ -93,6 +93,12 @@ method
 require
 (
 "
+.
+.
+/
+.
+.
+/
 method
 /
 core
