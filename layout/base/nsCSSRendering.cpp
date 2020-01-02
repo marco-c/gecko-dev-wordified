@@ -1442,7 +1442,7 @@ Get
 nsIFrame
 :
 :
-IBSplitSpecialPrevSibling
+IBSplitPrevSibling
 (
 )
 )
@@ -1479,7 +1479,7 @@ GetPrevContinuation
 Incorrect
 value
 for
-IBSplitSpecialPrevSibling
+IBSplitPrevSibling
 "
 )
 ;
@@ -1503,7 +1503,7 @@ Get
 nsIFrame
 :
 :
-IBSplitSpecialPrevSibling
+IBSplitPrevSibling
 (
 )
 )

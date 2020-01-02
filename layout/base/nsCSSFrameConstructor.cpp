@@ -2753,7 +2753,7 @@ Get
 nsIFrame
 :
 :
-IBSplitSpecialPrevSibling
+IBSplitPrevSibling
 (
 )
 )
@@ -3061,7 +3061,7 @@ aIBSplitSibling
 nsIFrame
 :
 :
-IBSplitSpecialPrevSibling
+IBSplitPrevSibling
 (
 )
 aFrame
@@ -68518,7 +68518,7 @@ the
 nsIFrame
 :
 :
-IBSplitSpecialPrevSibling
+IBSplitPrevSibling
 /
 /
 property
