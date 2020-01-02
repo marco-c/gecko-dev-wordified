@@ -2919,14 +2919,9 @@ GetEntryGlobal
 (
 )
 ;
-if
+MOZ_ASSERT
 (
-!
 sgo
-)
-{
-MOZ_CRASH
-(
 "
 Register
 (
@@ -2945,10 +2940,6 @@ object
 "
 )
 ;
-return
-NS_ERROR_FAILURE
-;
-}
 ErrorResult
 result
 ;
