@@ -1631,9 +1631,13 @@ bug
 .
 Allow
 (
-SYSCALL
+SYSCALL_WITH_ARG
 (
 tgkill
+0
+getpid
+(
+)
 )
 )
 ;
