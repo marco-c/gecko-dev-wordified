@@ -754,6 +754,8 @@ private
 volatile
 long
 lastSyncRealtimeMillis
+=
+0L
 ;
 protected
 final
