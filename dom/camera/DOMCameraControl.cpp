@@ -4342,6 +4342,11 @@ forget
 (
 )
 ;
+if
+(
+ecb
+)
+{
 ErrorResult
 ignored
 ;
@@ -4359,6 +4364,7 @@ Interrupted
 ignored
 )
 ;
+}
 cancel
 =
 true
