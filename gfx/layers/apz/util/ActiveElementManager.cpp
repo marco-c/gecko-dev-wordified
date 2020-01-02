@@ -287,9 +287,17 @@ clears
 mTarget
 )
 .
+CancelTask
+(
+)
+;
 ResetActive
 (
 )
+;
+mTarget
+=
+nullptr
 ;
 return
 ;
