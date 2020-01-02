@@ -595,6 +595,9 @@ mutable
 AccessibleHashtable
 mAccessibleCache
 ;
+nsString
+mCachedName
+;
 }
 ;
 /
