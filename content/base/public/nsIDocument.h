@@ -8411,9 +8411,9 @@ window
 .
 See
 *
-nsIDOMPageTransitionEvent
+PageTransitionEvent
 .
-idl
+webidl
 for
 a
 description
@@ -8555,9 +8555,9 @@ content
 window
 .
 See
-nsIDOMPageTransitionEvent
+PageTransitionEvent
 .
-idl
+webidl
 for
 a
 description
