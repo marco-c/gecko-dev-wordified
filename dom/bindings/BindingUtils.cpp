@@ -1277,7 +1277,6 @@ rv
 UNWRAP_OBJECT
 (
 DOMError
-aCx
 &
 mJSException
 .
@@ -11019,7 +11018,6 @@ rv
 UNWRAP_OBJECT
 (
 HTMLObjectElement
-aCx
 aObj
 htmlobject
 )

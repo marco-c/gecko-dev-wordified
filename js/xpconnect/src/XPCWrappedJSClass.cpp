@@ -1751,7 +1751,6 @@ nullptr
 UNWRAP_OBJECT
 (
 Exception
-cx
 &
 jsexception
 .

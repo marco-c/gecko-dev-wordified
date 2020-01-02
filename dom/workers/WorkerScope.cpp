@@ -219,7 +219,6 @@ define
 UNWRAP_WORKER_OBJECT
 (
 Interface
-cx
 obj
 value
 )
@@ -1263,7 +1262,6 @@ rv
 UNWRAP_WORKER_OBJECT
 (
 DedicatedWorkerGlobalScope
-aCx
 aObj
 self
 )
@@ -1471,7 +1469,6 @@ rv
 UNWRAP_WORKER_OBJECT
 (
 SharedWorkerGlobalScope
-aCx
 aObj
 self
 )

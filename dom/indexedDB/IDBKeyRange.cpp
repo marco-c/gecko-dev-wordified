@@ -507,7 +507,6 @@ NS_FAILED
 UNWRAP_OBJECT
 (
 IDBKeyRange
-aCx
 obj
 keyRange
 )

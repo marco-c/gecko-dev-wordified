@@ -1246,7 +1246,6 @@ NS_FAILED
 UNWRAP_OBJECT
 (
 Promise
-aCx
 &
 v
 .
@@ -2733,7 +2732,6 @@ rv
 UNWRAP_OBJECT
 (
 Promise
-aCx
 valueObj
 nextPromise
 )

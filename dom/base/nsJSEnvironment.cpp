@@ -15149,7 +15149,6 @@ rv
 UNWRAP_OBJECT
 (
 ImageData
-cx
 obj
 imageData
 )
