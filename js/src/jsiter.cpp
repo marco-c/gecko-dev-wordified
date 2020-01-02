@@ -299,6 +299,13 @@ h
 #
 include
 "
+jsscriptinlines
+.
+h
+"
+#
+include
+"
 vm
 /
 Stack
