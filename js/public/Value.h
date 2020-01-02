@@ -7145,12 +7145,6 @@ isMarkable
 (
 )
 )
-js
-:
-:
-gc
-:
-:
 ExposeGCThingToActiveJS
 (
 v
