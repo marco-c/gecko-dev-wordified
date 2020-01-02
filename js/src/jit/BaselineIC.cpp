@@ -61388,6 +61388,14 @@ cx
 )
 )
 ;
+if
+(
+!
+objType
+)
+return
+nullptr
+;
 Rooted
 <
 IonCode
