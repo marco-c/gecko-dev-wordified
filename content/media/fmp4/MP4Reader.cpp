@@ -309,6 +309,9 @@ logging
 define
 LOG_SAMPLE_DECODE
 1
+#
+ifdef
+PR_LOGGING
 static
 const
 char
@@ -363,6 +366,8 @@ Unknown
 ;
 }
 }
+#
+endif
 class
 MP4Stream
 :
