@@ -264,7 +264,7 @@ of
 ESCAPE
 "
 "
-ENTER
+RETURN
 "
 ]
 )

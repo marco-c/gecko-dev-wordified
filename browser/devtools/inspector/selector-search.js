@@ -2286,11 +2286,6 @@ keyCode
 case
 aEvent
 .
-DOM_VK_ENTER
-:
-case
-aEvent
-.
 DOM_VK_RETURN
 :
 if
@@ -2866,11 +2861,6 @@ aEvent
 button
 )
 {
-case
-aEvent
-.
-DOM_VK_ENTER
-:
 case
 aEvent
 .

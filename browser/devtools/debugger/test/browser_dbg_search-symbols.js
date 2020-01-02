@@ -4022,7 +4022,6 @@ Either
 by
 pressing
 RETURN
-ENTER
 or
 clicking
 on
@@ -4090,7 +4089,7 @@ EventUtils
 sendKey
 (
 "
-ENTER
+RETURN
 "
 gDebugger
 )

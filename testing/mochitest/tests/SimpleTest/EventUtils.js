@@ -3515,7 +3515,7 @@ VK_
 such
 as
 *
-VK_ENTER
+VK_RETURN
 .
 *
 *

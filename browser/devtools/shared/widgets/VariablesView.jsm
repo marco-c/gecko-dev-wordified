@@ -3482,11 +3482,6 @@ e
 .
 DOM_VK_RETURN
 :
-case
-e
-.
-DOM_VK_ENTER
-:
 this
 .
 _onSearchboxInput
@@ -5478,11 +5473,6 @@ case
 e
 .
 DOM_VK_RETURN
-:
-case
-e
-.
-DOM_VK_ENTER
 :
 /
 /
@@ -24855,11 +24845,6 @@ case
 e
 .
 DOM_VK_RETURN
-:
-case
-e
-.
-DOM_VK_ENTER
 :
 this
 .

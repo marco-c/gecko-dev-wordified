@@ -806,7 +806,7 @@ aWindow
 synthesizeKey
 (
 "
-VK_ENTER
+VK_RETURN
 "
 {
 type
@@ -1191,7 +1191,7 @@ aWindow
 synthesizeKey
 (
 "
-VK_ENTER
+VK_RETURN
 "
 {
 type
@@ -4371,7 +4371,7 @@ aWindow
 synthesizeKey
 (
 "
-VK_ENTER
+VK_RETURN
 "
 {
 type

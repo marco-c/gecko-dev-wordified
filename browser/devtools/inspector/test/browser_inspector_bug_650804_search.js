@@ -141,7 +141,7 @@ true
 ]
 [
 "
-VK_ENTER
+VK_RETURN
 "
 "
 d1

@@ -10622,14 +10622,6 @@ case
 uE006
 '
 :
-keyCode
-=
-"
-VK_RETURN
-"
-;
-break
-;
 case
 '
 \
@@ -10639,7 +10631,7 @@ uE007
 keyCode
 =
 "
-VK_ENTER
+VK_RETURN
 "
 ;
 break

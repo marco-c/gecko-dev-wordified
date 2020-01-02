@@ -1367,7 +1367,7 @@ border
 was
 kept
 after
-ENTER
+RETURN
 "
 )
 ;
@@ -1399,7 +1399,7 @@ background
 was
 kept
 after
-ENTER
+RETURN
 "
 )
 ;
@@ -1439,7 +1439,7 @@ property
 was
 kept
 after
-ENTER
+RETURN
 "
 )
 ;

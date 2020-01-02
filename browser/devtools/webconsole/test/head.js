@@ -4714,7 +4714,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ENTER
+VK_RETURN
 "
 {
 shiftKey
@@ -4738,7 +4738,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ENTER
+VK_RETURN
 "
 {
 }
@@ -4845,7 +4845,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ENTER
+VK_RETURN
 "
 {
 }

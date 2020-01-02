@@ -22163,7 +22163,6 @@ message
 NS_KEY_PRESS
 &
 &
-(
 keyEvent
 -
 >
@@ -22171,16 +22170,6 @@ keyCode
 =
 =
 NS_VK_RETURN
-|
-|
-keyEvent
--
->
-keyCode
-=
-=
-NS_VK_ENTER
-)
 &
 &
 (

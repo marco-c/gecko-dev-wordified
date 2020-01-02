@@ -13203,12 +13203,6 @@ case
 nsIDOMKeyEvent
 :
 :
-DOM_VK_ENTER
-:
-case
-nsIDOMKeyEvent
-:
-:
 DOM_VK_RETURN
 :
 {

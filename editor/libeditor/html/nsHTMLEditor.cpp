@@ -3692,12 +3692,6 @@ nsIDOMKeyEvent
 :
 DOM_VK_RETURN
 :
-case
-nsIDOMKeyEvent
-:
-:
-DOM_VK_ENTER
-:
 if
 (
 nativeKeyEvent
