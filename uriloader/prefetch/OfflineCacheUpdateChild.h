@@ -243,11 +243,6 @@ nsIDOMWindow
 aWindow
 )
 ;
-~
-OfflineCacheUpdateChild
-(
-)
-;
 void
 SetDocument
 (
@@ -258,6 +253,11 @@ aDocument
 ;
 private
 :
+~
+OfflineCacheUpdateChild
+(
+)
+;
 nsresult
 AssociateDocument
 (

@@ -168,12 +168,6 @@ ExternalHelperAppChild
 (
 )
 ;
-virtual
-~
-ExternalHelperAppChild
-(
-)
-;
 /
 /
 Give
@@ -217,6 +211,12 @@ MOZ_OVERRIDE
 ;
 private
 :
+virtual
+~
+ExternalHelperAppChild
+(
+)
+;
 nsresult
 DivertToParent
 (

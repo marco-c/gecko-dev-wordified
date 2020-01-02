@@ -181,13 +181,13 @@ nsExternalProtocolHandler
 (
 )
 ;
+protected
+:
 ~
 nsExternalProtocolHandler
 (
 )
 ;
-protected
-:
 /
 /
 helper

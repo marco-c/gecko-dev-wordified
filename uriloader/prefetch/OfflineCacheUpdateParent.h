@@ -215,11 +215,6 @@ bool
 aIsInBrowser
 )
 ;
-~
-OfflineCacheUpdateParent
-(
-)
-;
 virtual
 void
 ActorDestroy
@@ -231,6 +226,11 @@ MOZ_OVERRIDE
 ;
 private
 :
+~
+OfflineCacheUpdateParent
+(
+)
+;
 bool
 mIPCClosed
 ;

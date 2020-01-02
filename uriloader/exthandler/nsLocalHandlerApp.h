@@ -197,6 +197,8 @@ aExecutable
 )
 {
 }
+protected
+:
 virtual
 ~
 nsLocalHandlerApp
@@ -204,8 +206,6 @@ nsLocalHandlerApp
 )
 {
 }
-protected
-:
 nsString
 mName
 ;

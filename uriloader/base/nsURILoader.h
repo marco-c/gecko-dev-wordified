@@ -212,13 +212,13 @@ nsURILoader
 (
 )
 ;
+protected
+:
 ~
 nsURILoader
 (
 )
 ;
-protected
-:
 /
 *
 *

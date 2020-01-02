@@ -564,11 +564,6 @@ OfflineCacheUpdateGlue
 (
 )
 ;
-~
-OfflineCacheUpdateGlue
-(
-)
-;
 void
 SetDocument
 (
@@ -579,6 +574,11 @@ aDocument
 ;
 private
 :
+~
+OfflineCacheUpdateGlue
+(
+)
+;
 nsRefPtr
 <
 nsOfflineCacheUpdate

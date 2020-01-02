@@ -421,12 +421,6 @@ nsExtProtocolChannel
 (
 )
 ;
-virtual
-~
-nsExtProtocolChannel
-(
-)
-;
 nsresult
 SetURI
 (
@@ -436,6 +430,12 @@ nsIURI
 ;
 private
 :
+virtual
+~
+nsExtProtocolChannel
+(
+)
+;
 nsresult
 OpenURL
 (
