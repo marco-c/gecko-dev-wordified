@@ -324,7 +324,7 @@ NS_IMPL_ISUPPORTS3
 nsWindowMemoryReporter
 nsIMemoryReporter
 nsIObserver
-nsSupportsWeakReference
+nsISupportsWeakReference
 )
 static
 nsresult

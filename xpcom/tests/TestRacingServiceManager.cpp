@@ -575,10 +575,6 @@ Component1
 )
 NS_INTERFACE_MAP_ENTRY
 (
-Component1
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsISupports
 )
 NS_INTERFACE_MAP_END
@@ -650,10 +646,6 @@ NS_IMPL_RELEASE
 Component2
 )
 NS_INTERFACE_MAP_BEGIN
-(
-Component2
-)
-NS_INTERFACE_MAP_ENTRY
 (
 Component2
 )

@@ -6003,7 +6003,7 @@ nsIObserver
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsSupportsWeakReference
+nsISupportsWeakReference
 )
 NS_INTERFACE_MAP_ENTRY
 (
