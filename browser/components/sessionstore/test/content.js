@@ -417,6 +417,7 @@ MozStorageChanged
 )
 ;
 }
+true
 )
 ;
 addMessageListener

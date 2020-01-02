@@ -3162,6 +3162,7 @@ addEventListener
 MozStorageChanged
 "
 this
+true
 )
 ;
 Services
