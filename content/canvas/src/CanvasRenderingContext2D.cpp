@@ -7470,7 +7470,7 @@ whichStyle
 return
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid

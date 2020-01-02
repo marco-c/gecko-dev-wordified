@@ -1721,7 +1721,7 @@ AsElement
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Should
@@ -1734,6 +1734,9 @@ here
 .
 "
 )
+;
+return
+nullptr
 ;
 }
 void
@@ -1842,9 +1845,8 @@ nodelist
 return
 ;
 }
-MOZ_ASSERT
+MOZ_ASSERT_UNREACHABLE
 (
-false
 "
 Should
 only
