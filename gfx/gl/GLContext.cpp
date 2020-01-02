@@ -8800,7 +8800,7 @@ CacheCanUploadNPOT
 (
 )
 ;
-NS_RegisterMemoryReporter
+RegisterStrongMemoryReporter
 (
 new
 GfxTexturesReporter

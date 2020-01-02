@@ -3182,7 +3182,7 @@ s
 memory
 usage
 .
-NS_RegisterMemoryReporter
+RegisterStrongMemoryReporter
 (
 new
 ICUReporter

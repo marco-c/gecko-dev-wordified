@@ -3147,7 +3147,7 @@ NetworkDiskCacheReporter
 this
 )
 ;
-NS_RegisterMemoryReporter
+RegisterWeakMemoryReporter
 (
 mReporter
 )
@@ -3161,7 +3161,7 @@ nsDiskCacheDevice
 (
 )
 {
-NS_UnregisterMemoryReporter
+UnregisterWeakMemoryReporter
 (
 mReporter
 )

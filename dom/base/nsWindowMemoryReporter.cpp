@@ -601,7 +601,7 @@ ClearOnShutdown
 sWindowReporter
 )
 ;
-NS_RegisterMemoryReporter
+RegisterStrongMemoryReporter
 (
 sWindowReporter
 )
@@ -694,7 +694,7 @@ true
 )
 ;
 }
-NS_RegisterMemoryReporter
+RegisterStrongMemoryReporter
 (
 new
 GhostWindowsReporter

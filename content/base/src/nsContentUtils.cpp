@@ -2456,10 +2456,12 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-NS_RegisterMemoryReporter
+RegisterStrongMemoryReporter
 (
 new
 DOMEventListenerManagersHashReporter
+(
+)
 )
 ;
 }
