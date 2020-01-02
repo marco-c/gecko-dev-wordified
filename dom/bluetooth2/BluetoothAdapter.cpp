@@ -256,18 +256,6 @@ BluetoothUtils
 .
 h
 "
-#
-define
-ERR_INVALID_ADAPTER_STATE
-"
-InvalidAdapterStateError
-"
-#
-define
-ERR_CHANGE_ADAPTER_STATE
-"
-ChangeAdapterStateError
-"
 using
 namespace
 mozilla
@@ -4064,7 +4052,7 @@ promise
 >
 MaybeReject
 (
-ERR_CHANGE_ADAPTER_STATE
+NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
@@ -4096,7 +4084,7 @@ promise
 >
 MaybeReject
 (
-ERR_INVALID_ADAPTER_STATE
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
@@ -4133,7 +4121,7 @@ promise
 >
 MaybeReject
 (
-ERR_INVALID_ADAPTER_STATE
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
@@ -4196,7 +4184,7 @@ promise
 >
 MaybeReject
 (
-ERR_CHANGE_ADAPTER_STATE
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
