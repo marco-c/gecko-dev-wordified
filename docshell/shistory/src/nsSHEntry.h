@@ -314,6 +314,12 @@ mIsSrcdocEntry
 nsString
 mSrcdocData
 ;
+nsCOMPtr
+<
+nsIURI
+>
+mBaseURI
+;
 }
 ;
 #
