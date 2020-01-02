@@ -6133,10 +6133,10 @@ Init
 IdealAudioRate
 (
 )
-AudioChannel
-:
-:
-Normal
+aStream
+-
+>
+mAudioChannelType
 AudioStream
 :
 :
