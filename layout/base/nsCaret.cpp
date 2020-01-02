@@ -2838,9 +2838,6 @@ aSelection
 nsRect
 *
 aRect
-nscoord
-*
-aBidiIndicatorSize
 )
 {
 nsCOMPtr
@@ -2994,7 +2991,7 @@ GetGeometryForFrame
 frame
 frameOffset
 aRect
-aBidiIndicatorSize
+nullptr
 )
 ;
 return
