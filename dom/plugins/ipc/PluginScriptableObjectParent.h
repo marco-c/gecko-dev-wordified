@@ -122,6 +122,17 @@ h
 #
 include
 "
+mozilla
+/
+plugins
+/
+PluginMessageUtils
+.
+h
+"
+#
+include
+"
 npfunctions
 .
 h

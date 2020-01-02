@@ -307,6 +307,17 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+mozilla
+/
+net
+/
+NeckoMessageUtils
+.
+h
+"
 static
 nsPermissionManager
 *

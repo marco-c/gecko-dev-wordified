@@ -170,6 +170,17 @@ h
 #
 include
 "
+mozilla
+/
+plugins
+/
+PluginMessageUtils
+.
+h
+"
+#
+include
+"
 npapi
 .
 h

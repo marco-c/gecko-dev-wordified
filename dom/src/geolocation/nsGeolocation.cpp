@@ -205,6 +205,17 @@ PCOMContentPermissionRequestChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+PermissionMessageUtils
+.
+h
+"
 class
 nsIPrincipal
 ;

@@ -606,6 +606,15 @@ nsILoadContext
 h
 "
 #
+include
+"
+ipc
+/
+nsGUIEventIPC
+.
+h
+"
+#
 define
 BROWSER_ELEMENT_CHILD_SCRIPT
 \

@@ -255,6 +255,13 @@ URIUtils
 .
 h
 "
+#
+include
+"
+SerializedLoadContext
+.
+h
+"
 using
 namespace
 mozilla

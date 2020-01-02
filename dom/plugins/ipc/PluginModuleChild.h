@@ -230,6 +230,17 @@ PluginIdentifierChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+plugins
+/
+PluginMessageUtils
+.
+h
+"
 /
 /
 NOTE

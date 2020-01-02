@@ -323,6 +323,13 @@ RemoteOpenFileParent
 .
 h
 "
+#
+include
+"
+SerializedLoadContext
+.
+h
+"
 using
 mozilla
 :

@@ -435,6 +435,13 @@ h
 #
 include
 "
+nsIDOMEvent
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
