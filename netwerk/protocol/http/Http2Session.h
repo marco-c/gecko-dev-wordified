@@ -217,6 +217,9 @@ AddStream
 nsAHttpTransaction
 *
 int32_t
+bool
+nsIInterfaceRequestor
+*
 )
 ;
 bool

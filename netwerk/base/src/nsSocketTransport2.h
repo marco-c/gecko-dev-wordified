@@ -1021,6 +1021,11 @@ nsSocketTransport
 (
 )
 ;
+void
+CleanupTypes
+(
+)
+;
 private
 :
 /
@@ -1643,6 +1648,9 @@ mProxyTransparent
 ;
 bool
 mProxyTransparentResolvesHost
+;
+bool
+mHttpsProxy
 ;
 uint32_t
 mConnectionFlags
