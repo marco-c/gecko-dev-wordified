@@ -7397,7 +7397,7 @@ InitStyleScopes
 aElement
 -
 >
-GetParentElement
+GetParentElementCrossingShadowRoot
 (
 )
 )
