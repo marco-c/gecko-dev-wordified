@@ -1695,6 +1695,10 @@ const
 {
 return
 _deviceUniqueId
+.
+c_str
+(
+)
 ;
 }
 int32_t
@@ -1997,6 +2001,10 @@ pMouseCursorMonitor
 )
 ;
 }
+_deviceUniqueId
+=
+uniqueId
+;
 return
 0
 ;
@@ -2296,7 +2304,8 @@ id
 )
 _deviceUniqueId
 (
-NULL
+"
+"
 )
 _apiCs
 (
@@ -2501,11 +2510,6 @@ _callBackCs
 delete
 &
 _apiCs
-;
-delete
-[
-]
-_deviceUniqueId
 ;
 }
 void
