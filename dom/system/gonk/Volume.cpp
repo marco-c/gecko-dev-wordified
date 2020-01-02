@@ -487,6 +487,12 @@ sMountGeneration
 =
 0
 ;
+static
+uint32_t
+sNextId
+=
+1
+;
 /
 /
 We
@@ -595,6 +601,12 @@ false
 mIsFormatting
 (
 false
+)
+mId
+(
+sNextId
++
++
 )
 {
 DBG
@@ -1179,6 +1191,13 @@ int
 mCanBeShared
 )
 ;
+mEventObserverList
+.
+Broadcast
+(
+this
+)
+;
 }
 void
 Volume
@@ -1390,6 +1409,10 @@ LOG
 Volume
 %
 s
+(
+%
+u
+)
 :
 changing
 state
@@ -1422,6 +1445,7 @@ d
 NameStr
 (
 )
+mId
 StateStr
 (
 mState
@@ -1456,6 +1480,10 @@ LOG
 Volume
 %
 s
+(
+%
+u
+)
 :
 changing
 state
@@ -1474,6 +1502,7 @@ observers
 NameStr
 (
 )
+mId
 StateStr
 (
 mState
