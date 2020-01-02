@@ -6362,6 +6362,17 @@ DeprecatedGetAsSurface
 (
 )
 ;
+TemporaryRef
+<
+gfx
+:
+:
+SourceSurface
+>
+GetAsSourceSurface
+(
+)
+;
 gfx
 :
 :
