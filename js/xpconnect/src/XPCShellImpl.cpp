@@ -3027,7 +3027,7 @@ strict_mode
 =
 0
 )
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )
@@ -3172,7 +3172,7 @@ if
 names
 &
 &
-oldContextOptions
+oldRuntimeOptions
 .
 strictMode
 (
