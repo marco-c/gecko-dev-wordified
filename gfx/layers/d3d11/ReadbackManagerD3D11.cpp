@@ -482,9 +482,11 @@ NS_IMPL_ISUPPORTS
 ReadbackResultWriterD3D11
 nsIRunnable
 )
-static
 DWORD
 WINAPI
+ReadbackManagerD3D11
+:
+:
 StartTaskThread
 (
 void
