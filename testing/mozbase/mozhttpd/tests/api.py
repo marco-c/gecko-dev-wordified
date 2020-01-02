@@ -71,8 +71,6 @@ os
 import
 unittest
 import
-re
-import
 json
 import
 tempfile
@@ -975,10 +973,6 @@ define
 an
 API
         
-f
-=
-None
-        
 exception_thrown
 =
 False
@@ -986,8 +980,6 @@ False
 try
 :
             
-f
-=
 urllib2
 .
 urlopen
@@ -1100,10 +1092,6 @@ non
 existent
 endpoint
         
-f
-=
-None
-        
 exception_thrown
 =
 False
@@ -1111,8 +1099,6 @@ False
 try
 :
             
-f
-=
 urllib2
 .
 urlopen
@@ -1170,10 +1156,6 @@ also
 return
 404
         
-f
-=
-None
-        
 exception_thrown
 =
 False
@@ -1181,8 +1163,6 @@ False
 try
 :
             
-f
-=
 urllib2
 .
 urlopen
@@ -1250,10 +1230,6 @@ also
 return
 404
         
-f
-=
-None
-        
 exception_thrown
 =
 False
@@ -1305,8 +1281,6 @@ lambda
 DEL
 '
             
-f
-=
 opener
 .
 open
@@ -1318,7 +1292,6 @@ except
 urllib2
 .
 HTTPError
-e
 :
             
 self

@@ -6901,17 +6901,6 @@ manifest_dict
 {
 }
         
-seen
-=
-[
-]
-#
-top
--
-level
-directories
-seen
-        
 if
 os
 .

@@ -501,7 +501,6 @@ addon
             
 except
 IOError
-e
 :
                 
 pass
@@ -1137,8 +1136,6 @@ XPI
 try
 :
             
-details
-=
 self
 .
 addon_details
@@ -1151,7 +1148,6 @@ True
         
 except
 AddonFormatError
-e
 :
             
 return

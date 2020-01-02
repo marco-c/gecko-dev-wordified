@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-argparse
-import
 sys
 import
 optparse

@@ -59,7 +59,6 @@ import
 sizeof
 windll
 addressof
-c_wchar
 create_unicode_buffer
 from
 ctypes

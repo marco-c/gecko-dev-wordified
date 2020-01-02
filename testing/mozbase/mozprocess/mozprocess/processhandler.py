@@ -77,7 +77,6 @@ from
 datetime
 import
 datetime
-timedelta
 __all__
 =
 [
@@ -168,7 +167,6 @@ sizeof
 addressof
 c_ulong
 byref
-POINTER
 WinError
 c_longlong
     
@@ -771,7 +769,6 @@ creationflags
             
 except
 OSError
-e
 :
                 
 print
@@ -6825,8 +6822,6 @@ n
         
 except
 UnicodeDecodeError
-as
-err
 :
             
 #

@@ -786,7 +786,6 @@ install_dir
     
 except
 Exception
-e
 :
         
 cls
@@ -1446,7 +1445,6 @@ folder
             
 except
 Exception
-e
 :
                 
 cls

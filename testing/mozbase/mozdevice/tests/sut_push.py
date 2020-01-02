@@ -221,7 +221,6 @@ except
 mozdevice
 .
 DMError
-e
 :
                     
 exceptionThrown
@@ -637,7 +636,6 @@ except
 mozdevice
 .
 DMError
-e
 :
                 
 exceptionThrown

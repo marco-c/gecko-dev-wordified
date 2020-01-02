@@ -71,13 +71,9 @@ mozfile
 import
 os
 import
-tarfile
-import
 tempfile
 import
 unittest
-import
-zipfile
 #
 Store
 file

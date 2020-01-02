@@ -78,10 +78,6 @@ from
 manifestparser
 import
 ManifestParser
-from
-StringIO
-import
-StringIO
 here
 =
 os

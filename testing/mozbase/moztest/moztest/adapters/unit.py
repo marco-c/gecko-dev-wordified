@@ -989,11 +989,5 @@ stopTime
 -
 startTime
         
-run
-=
-result
-.
-testsRun
-        
 return
 result

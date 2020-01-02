@@ -116,10 +116,6 @@ printed
 import
 sys
 from
-addons
-import
-AddonManager
-from
 optparse
 import
 OptionParser
