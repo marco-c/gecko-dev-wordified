@@ -7080,10 +7080,6 @@ fd
 ;
 }
 }
-CleanupTypes
-(
-)
-;
 return
 rv
 ;
