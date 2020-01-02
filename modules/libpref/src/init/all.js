@@ -51560,3 +51560,17 @@ enabled
 false
 )
 ;
+pref
+(
+"
+camera
+.
+control
+.
+face_detection
+.
+enabled
+"
+false
+)
+;
