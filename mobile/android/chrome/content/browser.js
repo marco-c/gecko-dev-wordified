@@ -1356,6 +1356,16 @@ HomePanels
 :
 Authenticate
 "
+"
+HomePanels
+:
+Installed
+"
+"
+HomePanels
+:
+Uninstalled
+"
 ]
 "
 resource
