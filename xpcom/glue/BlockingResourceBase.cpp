@@ -562,10 +562,6 @@ BlockingResourceBase
 :
 CheckAcquire
 (
-const
-CallStack
-&
-aCallContext
 )
 {
 if
@@ -632,7 +628,6 @@ mDDEntry
 :
 0
 mDDEntry
-aCallContext
 )
 )
 ;
@@ -843,10 +838,6 @@ BlockingResourceBase
 :
 Acquire
 (
-const
-CallStack
-&
-aCallContext
 )
 {
 if
@@ -1460,16 +1451,8 @@ Lock
 (
 )
 {
-CallStack
-callContext
-=
-CallStack
-(
-)
-;
 CheckAcquire
 (
-callContext
 )
 ;
 PR_Lock
@@ -1479,7 +1462,6 @@ mLock
 ;
 Acquire
 (
-callContext
 )
 ;
 /
@@ -1594,13 +1576,6 @@ mEntryCount
 return
 ;
 }
-CallStack
-callContext
-=
-CallStack
-(
-)
-;
 /
 /
 this
@@ -1699,7 +1674,6 @@ potentially
 bad
 CheckAcquire
 (
-callContext
 )
 ;
 PR_EnterMonitor
@@ -1718,7 +1692,6 @@ return
 }
 CheckAcquire
 (
-callContext
 )
 ;
 PR_EnterMonitor
@@ -1744,7 +1717,6 @@ free
 ;
 Acquire
 (
-callContext
 )
 ;
 /

@@ -496,16 +496,8 @@ them
 as
 such
 .
-CallStack
-callContext
-=
-CallStack
-(
-)
-;
 CheckAcquire
 (
-callContext
 )
 ;
 sqlite3_mutex_enter
@@ -515,7 +507,6 @@ mMutex
 ;
 Acquire
 (
-callContext
 )
 ;
 /
