@@ -4450,11 +4450,6 @@ Node
 list
 )
 ;
-void
-accumulateTelemetry
-(
-)
-;
 friend
 class
 LegacyCompExprTransplanter
