@@ -3580,7 +3580,7 @@ IsEmpty
 )
 ;
 }
-nsresult
+void
 nsMediaList
 :
 :
@@ -3620,9 +3620,6 @@ list
 mStyleSheet
 =
 aSheet
-;
-return
-NS_OK
 ;
 }
 already_AddRefed

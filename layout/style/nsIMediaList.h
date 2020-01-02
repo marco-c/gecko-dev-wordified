@@ -1019,7 +1019,7 @@ nsMediaQueryResultCacheKey
 aKey
 )
 ;
-nsresult
+void
 SetStyleSheet
 (
 mozilla
