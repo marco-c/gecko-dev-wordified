@@ -2256,6 +2256,8 @@ char
 hostname
 bool
 saveIntermediatesInPermanentDatabase
+Flags
+flags
 /
 *
 optional
@@ -2375,7 +2377,7 @@ certificateUsageSSLServer
 time
 pinarg
 hostname
-0
+flags
 stapledOCSPResponse
 &
 builtChainTemp

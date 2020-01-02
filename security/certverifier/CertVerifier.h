@@ -323,6 +323,10 @@ bool
 saveIntermediatesInPermanentDatabase
 =
 false
+Flags
+flags
+=
+0
 /
 *
 optional
