@@ -116,6 +116,11 @@ test
 "
 "
 hostname
+should
+be
+mochi
+.
+test
 "
 )
 ;
