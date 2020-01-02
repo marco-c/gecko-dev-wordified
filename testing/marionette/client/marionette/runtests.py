@@ -3813,6 +3813,11 @@ run_test
 (
 self
 test
+expected
+=
+'
+pass
+'
 )
 :
         
@@ -4339,6 +4344,12 @@ i
 path
 "
 ]
+i
+[
+"
+expected
+"
+]
 )
                 
 if
@@ -4378,6 +4389,17 @@ basename
 test
 )
 )
+        
+self
+.
+test_kwargs
+[
+'
+expected
+'
+]
+=
+expected
         
 for
 handler
