@@ -38770,8 +38770,37 @@ extendedAttributes
                     
 isWrapperCached
 considerTypes
+isMember
 )
 :
+    
+"
+"
+"
+    
+isMember
+should
+be
+true
+if
+we
+'
+re
+dealing
+with
+an
+attribute
+    
+annotated
+as
+[
+StoreInSlot
+]
+.
+    
+"
+"
+"
     
 return
 (
@@ -38782,10 +38811,15 @@ isWrapperCached
 and
             
 (
+(
+not
+isMember
+and
 typeNeedsScopeObject
 (
 returnType
 True
+)
 )
 or
              
@@ -41320,6 +41354,15 @@ descriptor
 .
 wrapperCache
 True
+                             
+idlNode
+.
+getExtendedAttribute
+(
+"
+StoreInSlot
+"
+)
 )
 :
             
@@ -81502,10 +81545,23 @@ extendedAttrs
 self
 .
 descriptorProvider
+.
+wrapperCache
                                
 self
 .
 passJSBitsAsNeeded
+                               
+self
+.
+member
+.
+getExtendedAttribute
+(
+"
+StoreInSlot
+"
+)
 )
 :
                 
