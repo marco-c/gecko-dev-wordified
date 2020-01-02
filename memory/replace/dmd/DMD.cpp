@@ -4761,6 +4761,7 @@ for
 unknown
 functions
 .
+const
 char
 *
 entryFunction
