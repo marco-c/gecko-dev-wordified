@@ -208,10 +208,12 @@ then
 )
 =
 >
-gSetupConferenceTwoCalls
+gSetupConference
 (
+[
 outNumber
 inNumber
+]
 )
 )
 .
