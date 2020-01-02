@@ -1030,7 +1030,7 @@ forget
 (
 )
 delta
-gfxIntSize
+IntSize
 (
 mWidth
 mHeight
@@ -1046,7 +1046,7 @@ AppendFrame
 (
 nullptr
 delta
-gfxIntSize
+IntSize
 (
 0
 0

@@ -543,6 +543,16 @@ layers
 Image
 Image
 ;
+typedef
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
+IntSize
+;
 VideoSegment
 (
 )
@@ -563,7 +573,7 @@ aImage
 TrackTicks
 aDuration
 const
-gfxIntSize
+IntSize
 &
 aIntrinsicSize
 )

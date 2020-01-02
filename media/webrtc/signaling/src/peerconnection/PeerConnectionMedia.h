@@ -1096,7 +1096,7 @@ mozilla
 USECS_PER_S
 /
 10
-gfxIntSize
+IntSize
 (
 WIDTH
 HEIGHT

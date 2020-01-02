@@ -4468,10 +4468,7 @@ forget
 (
 )
 aDuration
-ThebesIntSize
-(
 aIntrinsicSize
-)
 )
 ;
 }

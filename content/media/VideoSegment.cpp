@@ -103,6 +103,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 ImageContainer
 .
 h
@@ -262,7 +269,7 @@ aImage
 TrackTicks
 aDuration
 const
-gfxIntSize
+IntSize
 &
 aIntrinsicSize
 )
@@ -280,7 +287,10 @@ VideoFrame
 frame
 (
 aImage
+ThebesIntSize
+(
 aIntrinsicSize
+)
 )
 ;
 chunk
