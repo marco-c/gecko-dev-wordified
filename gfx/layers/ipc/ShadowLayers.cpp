@@ -1102,6 +1102,13 @@ SetForwarder
 nullptr
 )
 ;
+mShadowManager
+-
+>
+Destroy
+(
+)
+;
 }
 }
 void
