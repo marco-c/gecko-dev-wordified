@@ -168,6 +168,9 @@ namespace
 dom
 {
 class
+URLSearchParams
+;
+class
 URLSearchParamsObserver
 :
 public
@@ -186,6 +189,9 @@ virtual
 void
 URLSearchParamsUpdated
 (
+URLSearchParams
+*
+aFromThis
 )
 =
 0
@@ -308,6 +314,11 @@ RemoveObserver
 URLSearchParamsObserver
 *
 aObserver
+)
+;
+void
+RemoveObservers
+(
 )
 ;
 void
