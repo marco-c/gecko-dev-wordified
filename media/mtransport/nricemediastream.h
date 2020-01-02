@@ -520,6 +520,12 @@ port
 Type
 type
 ;
+std
+:
+:
+string
+codeword
+;
 }
 ;
 struct

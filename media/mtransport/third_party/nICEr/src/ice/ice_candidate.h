@@ -292,6 +292,12 @@ char
 *
 label
 ;
+char
+codeword
+[
+5
+]
+;
 int
 state
 ;
@@ -647,6 +653,14 @@ ready_cb
 void
 *
 cb_arg
+)
+;
+void
+nr_ice_candidate_compute_codeword
+(
+nr_ice_candidate
+*
+cand
 )
 ;
 int
