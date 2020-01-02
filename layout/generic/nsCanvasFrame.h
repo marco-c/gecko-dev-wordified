@@ -845,10 +845,6 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
-const
-nsRect
-&
-aAllowVisibleRegionExpansion
 )
 MOZ_OVERRIDE
 {
