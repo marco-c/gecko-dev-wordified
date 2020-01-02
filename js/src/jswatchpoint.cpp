@@ -1089,7 +1089,7 @@ IsObjectMarked
 (
 const_cast
 <
-EncapsulatedPtrObject
+PreBarrieredObject
 *
 >
 (
@@ -1129,7 +1129,7 @@ MarkObject
 trc
 const_cast
 <
-EncapsulatedPtrObject
+PreBarrieredObject
 *
 >
 (
@@ -1173,7 +1173,7 @@ MarkId
 trc
 const_cast
 <
-EncapsulatedId
+PreBarrieredId
 *
 >
 (
@@ -1398,7 +1398,7 @@ MarkObject
 trc
 const_cast
 <
-EncapsulatedPtrObject
+PreBarrieredObject
 *
 >
 (
@@ -1419,7 +1419,7 @@ MarkId
 trc
 const_cast
 <
-EncapsulatedId
+PreBarrieredId
 *
 >
 (

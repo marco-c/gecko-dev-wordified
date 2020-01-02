@@ -631,11 +631,11 @@ template_pretty_printer
 js
 :
 :
-EncapsulatedPtr
+PreBarriered
 "
 )
 class
-EncapsulatedPtr
+PreBarriered
 (
 Common
 )
@@ -652,11 +652,11 @@ pretty_printer
 js
 :
 :
-EncapsulatedValue
+PreBarrieredValue
 "
 )
 class
-EncapsulatedValue
+PreBarrieredValue
 (
 Common
 )

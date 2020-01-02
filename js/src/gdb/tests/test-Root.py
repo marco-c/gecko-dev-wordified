@@ -64,7 +64,7 @@ of
 js
 :
 :
-EncapsulatedPtr
+PreBarriered
 '
 )
 assert_subprinter_registered
@@ -76,7 +76,7 @@ SpiderMonkey
 js
 :
 :
-EncapsulatedValue
+PreBarrieredValue
 '
 )
 run_fragment

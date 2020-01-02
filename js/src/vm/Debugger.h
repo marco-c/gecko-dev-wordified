@@ -1512,7 +1512,7 @@ instances
 typedef
 DebuggerWeakMap
 <
-EncapsulatedPtrScript
+PreBarrieredScript
 RelocatablePtrObject
 >
 ScriptWeakMap
@@ -1541,7 +1541,7 @@ instances
 typedef
 DebuggerWeakMap
 <
-EncapsulatedPtrObject
+PreBarrieredObject
 RelocatablePtrObject
 true
 >
@@ -1569,7 +1569,7 @@ instances
 typedef
 DebuggerWeakMap
 <
-EncapsulatedPtrObject
+PreBarrieredObject
 RelocatablePtrObject
 >
 ObjectWeakMap
@@ -5031,7 +5031,7 @@ GC
 js
 :
 :
-EncapsulatedPtrObject
+PreBarrieredObject
 handler
 ;
 JSCList
@@ -5096,7 +5096,7 @@ nextInSite
 )
 ;
 const
-EncapsulatedPtrObject
+PreBarrieredObject
 &
 getHandler
 (
@@ -5107,7 +5107,7 @@ return
 handler
 ;
 }
-EncapsulatedPtrObject
+PreBarrieredObject
 &
 getHandlerRef
 (

@@ -5622,7 +5622,7 @@ scopes
 typedef
 WeakMap
 <
-EncapsulatedPtrObject
+PreBarrieredObject
 RelocatablePtrObject
 >
 ObjectWeakMap
@@ -5642,7 +5642,7 @@ ObjectWeakMap
 *
 map
 const
-EncapsulatedPtrObject
+PreBarrieredObject
 &
 key
 )

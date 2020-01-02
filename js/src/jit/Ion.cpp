@@ -3731,7 +3731,7 @@ MarkScript
 trc
 const_cast
 <
-EncapsulatedPtrScript
+PreBarrieredScript
 *
 >
 (

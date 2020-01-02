@@ -6143,7 +6143,7 @@ protected
 HeapPtrBaseShape
 base_
 ;
-EncapsulatedId
+PreBarrieredId
 propid_
 ;
 JS_ENUM_HEADER
@@ -8316,7 +8316,7 @@ LINEAR_SEARCHES_SHIFT
 ;
 }
 const
-EncapsulatedId
+PreBarrieredId
 &
 propid
 (
@@ -8344,7 +8344,7 @@ return
 propid_
 ;
 }
-EncapsulatedId
+PreBarrieredId
 &
 propidRef
 (

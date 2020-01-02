@@ -205,7 +205,7 @@ is
 class
 HashableValue
 {
-EncapsulatedValue
+PreBarrieredValue
 value
 ;
 public

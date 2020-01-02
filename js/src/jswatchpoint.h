@@ -211,10 +211,10 @@ get
 )
 {
 }
-EncapsulatedPtrObject
+PreBarrieredObject
 object
 ;
-EncapsulatedId
+PreBarrieredId
 id
 ;
 bool
@@ -254,7 +254,7 @@ Watchpoint
 JSWatchPointHandler
 handler
 ;
-EncapsulatedPtrObject
+PreBarrieredObject
 closure
 ;
 /

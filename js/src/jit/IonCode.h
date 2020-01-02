@@ -961,7 +961,7 @@ the
 actual
 method
 .
-EncapsulatedPtrJitCode
+PreBarrieredJitCode
 method_
 ;
 /
@@ -973,7 +973,7 @@ by
 this
 method
 .
-EncapsulatedPtrJitCode
+PreBarrieredJitCode
 deoptTable_
 ;
 /
@@ -1747,7 +1747,7 @@ bailoutTable_
 ]
 ;
 }
-EncapsulatedValue
+PreBarrieredValue
 *
 constants
 (
@@ -1755,7 +1755,7 @@ constants
 {
 return
 (
-EncapsulatedValue
+PreBarrieredValue
 *
 )
 &
@@ -2775,7 +2775,7 @@ this
 )
 ;
 }
-EncapsulatedValue
+PreBarrieredValue
 &
 getConstant
 (

@@ -2024,7 +2024,7 @@ parallelAge_
 typedef
 HashSet
 <
-EncapsulatedPtrScript
+PreBarrieredScript
 >
 ScriptSet
 ;
