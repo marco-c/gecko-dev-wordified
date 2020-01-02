@@ -1251,7 +1251,7 @@ case
 :
 /
 /
-Untow
+Unstow
 R0
 and
 R1
