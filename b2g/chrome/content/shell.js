@@ -7939,11 +7939,13 @@ ifdef
 MOZ_WIDGET_GONK
 DebuggerServer
 .
-onConnectionChange
-=
+on
+(
+"
+connectionchange
+"
 function
 (
-what
 )
 {
 AdbController
@@ -7953,6 +7955,8 @@ updateState
 )
 ;
 }
+)
+;
 #
 endif
 }
