@@ -668,14 +668,11 @@ this
 .
 _notifier
 .
-error
-(
-__
+errorL10n
 (
 "
 cannot_start_call_session_not_ready
 "
-)
 )
 ;
 return
