@@ -4087,6 +4087,13 @@ button
 -
 eyedropper
 "
+"
+command
+-
+button
+-
+screenshot
+"
 ]
 .
 map
