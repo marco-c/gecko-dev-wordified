@@ -99,6 +99,13 @@ SCOPEDGLHELPERS_H_
 #
 define
 SCOPEDGLHELPERS_H_
+#
+include
+"
+GLContext
+.
+h
+"
 namespace
 mozilla
 {
