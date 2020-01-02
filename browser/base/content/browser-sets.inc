@@ -3527,15 +3527,6 @@ id
 "
 key_devToolboxMenuItem
 "
-keycode
-=
-"
-&
-devToolboxMenuItem
-.
-keycode
-;
-"
 keytext
 =
 "
