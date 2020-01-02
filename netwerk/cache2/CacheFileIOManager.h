@@ -2206,6 +2206,8 @@ loop
 nsresult
 UpdateSmartCacheSize
 (
+int64_t
+aFreeSpace
 )
 ;
 /
