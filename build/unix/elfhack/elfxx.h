@@ -58,6 +58,15 @@ MPL
 /
 #
 include
+"
+mozilla
+/
+NullPtr
+.
+h
+"
+#
+include
 <
 stdexcept
 >
@@ -584,7 +593,7 @@ getSection
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -656,7 +665,7 @@ ElfLocation
 :
 section
 (
-NULL
+nullptr
 )
 offset
 (
@@ -1636,7 +1645,7 @@ ElfSegment
 *
 last
 =
-NULL
+nullptr
 )
 ;
 ElfDynamic_Section
@@ -2169,7 +2178,7 @@ if
 previous
 !
 =
-NULL
+nullptr
 )
 previous
 -
@@ -2183,7 +2192,7 @@ if
 next
 !
 =
-NULL
+nullptr
 )
 next
 -
@@ -2201,7 +2210,7 @@ if
 section
 !
 =
-NULL
+nullptr
 )
 {
 next
@@ -2222,14 +2231,14 @@ this
 else
 next
 =
-NULL
+nullptr
 ;
 if
 (
 next
 !
 =
-NULL
+nullptr
 )
 next
 -
@@ -2272,7 +2281,7 @@ if
 previous
 !
 =
-NULL
+nullptr
 )
 previous
 -
@@ -2286,7 +2295,7 @@ if
 next
 !
 =
-NULL
+nullptr
 )
 next
 -
@@ -2304,7 +2313,7 @@ if
 section
 !
 =
-NULL
+nullptr
 )
 {
 previous
@@ -2325,14 +2334,14 @@ this
 else
 previous
 =
-NULL
+nullptr
 ;
 if
 (
 previous
 !
 =
-NULL
+nullptr
 )
 previous
 -
@@ -2368,7 +2377,7 @@ if
 link
 !
 =
-NULL
+nullptr
 )
 shdr
 .
@@ -2664,7 +2673,7 @@ empty
 (
 )
 ?
-NULL
+nullptr
 :
 sections
 .
@@ -4014,7 +4023,7 @@ getNext
 )
 !
 =
-NULL
+nullptr
 ;
 section
 =
@@ -4109,7 +4118,7 @@ return
 seg
 ;
 return
-NULL
+nullptr
 ;
 }
 inline
@@ -4322,7 +4331,7 @@ getData
 +
 offset
 :
-NULL
+nullptr
 ;
 }
 inline

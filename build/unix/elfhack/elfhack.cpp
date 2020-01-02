@@ -158,7 +158,7 @@ char
 *
 rundir
 =
-NULL
+nullptr
 ;
 template
 <
@@ -329,8 +329,8 @@ s
 ElfSection
 (
 s
-NULL
-NULL
+nullptr
+nullptr
 )
 {
 name
@@ -476,8 +476,8 @@ init
 ElfSection
 (
 s
-NULL
-NULL
+nullptr
+nullptr
 )
 parent
 (
@@ -679,7 +679,7 @@ ElfSymtab_Section
 *
 symtab
 =
-NULL
+nullptr
 ;
 /
 /
@@ -705,7 +705,7 @@ getSection
 section
 !
 =
-NULL
+nullptr
 ;
 section
 =
@@ -743,7 +743,7 @@ if
 symtab
 =
 =
-NULL
+nullptr
 )
 throw
 std
@@ -1299,7 +1299,7 @@ getSection
 rel
 !
 =
-NULL
+nullptr
 ;
 rel
 =
@@ -1504,7 +1504,7 @@ getSection
 s
 !
 =
-NULL
+nullptr
 ;
 s
 =
@@ -1709,7 +1709,7 @@ getSection
 s
 !
 =
-NULL
+nullptr
 ;
 s
 =
@@ -1730,7 +1730,7 @@ s
 )
 section
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -2825,7 +2825,7 @@ getSection
 )
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -4288,7 +4288,7 @@ if
 dyn
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -4672,7 +4672,7 @@ ElfSection
 *
 init_array
 =
-NULL
+nullptr
 ;
 if
 (
@@ -4928,7 +4928,7 @@ would
 jumping
 to
 the
-NULL
+null
 address
 instead
 of
@@ -4956,7 +4956,7 @@ the
 __cxa_pure_virtual
 symbol
 and
-NULL
+null
 out
 the
 /
@@ -5476,7 +5476,7 @@ Last
 entry
 must
 be
-NULL
+nullptr
 relhack_entry
 .
 r_offset
@@ -6220,7 +6220,7 @@ getSection
 section
 !
 =
-NULL
+nullptr
 ;
 section
 =
@@ -6591,11 +6591,11 @@ ElfSection
 *
 data
 =
-NULL
+nullptr
 *
 text
 =
-NULL
+nullptr
 ;
 for
 (
@@ -6613,7 +6613,7 @@ getSection
 section
 !
 =
-NULL
+nullptr
 ;
 section
 =
@@ -6773,7 +6773,7 @@ ElfSegment
 *
 filler
 =
-NULL
+nullptr
 ;
 /
 /
@@ -7090,7 +7090,7 @@ if
 lastSlash
 !
 =
-NULL
+nullptr
 )
 rundir
 =

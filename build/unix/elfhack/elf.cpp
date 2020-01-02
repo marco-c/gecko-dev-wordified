@@ -1053,8 +1053,8 @@ ei_data
 ElfSection
 (
 null_section
-NULL
-NULL
+nullptr
+nullptr
 )
 {
 shdr
@@ -1907,7 +1907,7 @@ sections
 i
 ]
 =
-NULL
+nullptr
 ;
 for
 (
@@ -1936,7 +1936,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 )
 continue
 ;
@@ -2046,8 +2046,8 @@ new
 ElfSection
 (
 s
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 /
@@ -2109,8 +2109,8 @@ new
 ElfSection
 (
 s
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 phdr_section
@@ -2176,7 +2176,7 @@ getPrevious
 )
 =
 =
-NULL
+nullptr
 )
 &
 &
@@ -2252,7 +2252,7 @@ getPrevious
 )
 =
 =
-NULL
+nullptr
 )
 shdr_section
 -
@@ -2273,11 +2273,11 @@ false
 ;
 tmp_file
 =
-NULL
+nullptr
 ;
 tmp_shdr
 =
-NULL
+nullptr
 ;
 for
 (
@@ -2888,7 +2888,7 @@ while
 section
 !
 =
-NULL
+nullptr
 )
 {
 ElfSection
@@ -3017,7 +3017,7 @@ index
 0
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -3039,7 +3039,7 @@ ElfSection
 this
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3049,7 +3049,7 @@ index
 ]
 =
 =
-NULL
+nullptr
 )
 {
 sections
@@ -3267,7 +3267,7 @@ if
 section
 !
 =
-NULL
+nullptr
 )
 &
 &
@@ -3332,7 +3332,7 @@ section
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 ElfSegment
@@ -3438,7 +3438,7 @@ return
 seg
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -3593,7 +3593,7 @@ getFirstSection
 )
 !
 =
-NULL
+nullptr
 )
 &
 &
@@ -3631,7 +3631,7 @@ getFirstSection
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -3671,7 +3671,7 @@ ehdr
 section
 !
 =
-NULL
+nullptr
 ;
 section
 =
@@ -4117,7 +4117,7 @@ ehdr
 section
 !
 =
-NULL
+nullptr
 ;
 section
 =
@@ -4367,7 +4367,7 @@ ehdr
 sec
 !
 =
-NULL
+nullptr
 ;
 sec
 =
@@ -4476,7 +4476,7 @@ sh_link
 =
 SHN_UNDEF
 ?
-NULL
+nullptr
 :
 parent
 -
@@ -4490,11 +4490,11 @@ sh_link
 )
 next
 (
-NULL
+nullptr
 )
 previous
 (
-NULL
+nullptr
 )
 index
 (
@@ -4508,7 +4508,7 @@ if
 file
 =
 =
-NULL
+nullptr
 )
 |
 |
@@ -4533,7 +4533,7 @@ SHT_NOBITS
 )
 data
 =
-NULL
+nullptr
 ;
 else
 {
@@ -4598,7 +4598,7 @@ sh_name
 )
 name
 =
-NULL
+nullptr
 ;
 else
 {
@@ -4633,7 +4633,7 @@ cpp
 if
 strtab
 is
-NULL
+nullptr
 the
 /
 /
@@ -4649,7 +4649,7 @@ if
 strtab
 =
 =
-NULL
+nullptr
 )
 name
 =
@@ -4731,7 +4731,7 @@ shdr
 sh_info
 )
 :
-NULL
+nullptr
 ;
 else
 info
@@ -4797,7 +4797,7 @@ if
 previous
 !
 =
-NULL
+nullptr
 )
 &
 &
@@ -4915,7 +4915,7 @@ if
 previous
 =
 =
-NULL
+nullptr
 )
 return
 (
@@ -5396,7 +5396,7 @@ previous
 reference
 !
 =
-NULL
+nullptr
 )
 &
 &
@@ -5427,7 +5427,7 @@ if
 reference
 =
 =
-NULL
+nullptr
 )
 return
 (
@@ -6342,7 +6342,7 @@ i
 value
 ;
 return
-NULL
+nullptr
 ;
 }
 ElfSection
@@ -6376,7 +6376,7 @@ getSection
 (
 )
 :
-NULL
+nullptr
 ;
 }
 bool
@@ -6853,7 +6853,7 @@ i
 .
 value
 =
-NULL
+nullptr
 ;
 }
 }
@@ -7206,7 +7206,7 @@ i
 value
 !
 =
-NULL
+nullptr
 )
 ?
 dyns
@@ -7399,7 +7399,7 @@ st_shndx
 SHN_ABS
 )
 ?
-NULL
+nullptr
 :
 parent
 -
@@ -7741,7 +7741,7 @@ sym
 }
 }
 return
-NULL
+nullptr
 ;
 }
 const
@@ -7826,7 +7826,7 @@ assert
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 const
@@ -7848,10 +7848,10 @@ if
 string
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -8069,7 +8069,7 @@ if
 string
 =
 =
-NULL
+nullptr
 )
 return
 0

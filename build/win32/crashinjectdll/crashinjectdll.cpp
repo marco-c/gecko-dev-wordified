@@ -170,7 +170,7 @@ calling
 process
 CreateThread
 (
-NULL
+nullptr
 /
 /
 default
@@ -189,7 +189,7 @@ CrashingThread
 thread
 function
 name
-NULL
+nullptr
 /
 /
 argument
