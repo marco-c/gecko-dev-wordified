@@ -9087,7 +9087,7 @@ true
 }
 static
 bool
-IdToValue
+IdToExposableValue
 (
 JSContext
 *
@@ -9397,7 +9397,7 @@ cx
 if
 (
 !
-IdToValue
+IdToExposableValue
 (
 cx
 id
@@ -9990,7 +9990,7 @@ cx
 if
 (
 !
-IdToValue
+IdToExposableValue
 (
 cx
 id
@@ -11755,7 +11755,7 @@ cx
 if
 (
 !
-IdToValue
+IdToExposableValue
 (
 cx
 id
@@ -12332,7 +12332,7 @@ cx
 if
 (
 !
-IdToValue
+IdToExposableValue
 (
 cx
 id
@@ -12660,7 +12660,7 @@ cx
 if
 (
 !
-IdToValue
+IdToExposableValue
 (
 cx
 id
@@ -13060,7 +13060,7 @@ cx
 if
 (
 !
-IdToValue
+IdToExposableValue
 (
 cx
 id
@@ -13431,7 +13431,7 @@ cx
 if
 (
 !
-IdToValue
+IdToExposableValue
 (
 cx
 id
