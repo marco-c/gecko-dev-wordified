@@ -7309,7 +7309,7 @@ kNothingSelected
 return
 GetOption
 (
-SafeCast
+AssertedCast
 <
 uint32_t
 >
@@ -12680,7 +12680,7 @@ option
 =
 GetOption
 (
-SafeCast
+AssertedCast
 <
 uint32_t
 >

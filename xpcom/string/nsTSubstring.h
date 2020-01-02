@@ -1953,7 +1953,7 @@ aData
 mozilla
 :
 :
-SafeCast
+AssertedCast
 <
 size_type
 size_t
@@ -1988,7 +1988,7 @@ aData
 mozilla
 :
 :
-SafeCast
+AssertedCast
 <
 size_type
 size_t

@@ -1148,7 +1148,7 @@ From
 >
 inline
 To
-SafeCast
+AssertedCast
 (
 const
 From

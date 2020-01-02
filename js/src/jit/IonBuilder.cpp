@@ -308,6 +308,12 @@ using
 mozilla
 :
 :
+AssertedCast
+;
+using
+mozilla
+:
+:
 DebugOnly
 ;
 using
@@ -315,12 +321,6 @@ mozilla
 :
 :
 Maybe
-;
-using
-mozilla
-:
-:
-SafeCast
 ;
 class
 jit
@@ -52022,7 +52022,7 @@ setImplicitlyUsedUnchecked
 int32_t
 len
 =
-SafeCast
+AssertedCast
 <
 int32_t
 >

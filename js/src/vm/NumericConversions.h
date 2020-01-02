@@ -474,7 +474,7 @@ exponent
 mozilla
 :
 :
-SafeCast
+AssertedCast
 <
 uint_fast16_t
 >

@@ -3362,7 +3362,7 @@ Telemetry
 :
 :
 SSL_BYTES_BEFORE_CERT_CALLBACK
-SafeCast
+AssertedCast
 <
 uint32_t
 >

@@ -481,7 +481,7 @@ nsMemory
 :
 Alloc
 (
-SafeCast
+AssertedCast
 <
 size_t
 >

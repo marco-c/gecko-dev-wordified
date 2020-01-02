@@ -9876,7 +9876,7 @@ aOffset
 aOffset
 &
 &
-SafeCast
+AssertedCast
 <
 uint32_t
 >
@@ -9946,7 +9946,7 @@ aParent
 "
 aOffset
 =
-SafeCast
+AssertedCast
 <
 int32_t
 >
@@ -16461,7 +16461,7 @@ selection
 Collapse
 (
 aNodeToKeep
-SafeCast
+AssertedCast
 <
 int32_t
 >
