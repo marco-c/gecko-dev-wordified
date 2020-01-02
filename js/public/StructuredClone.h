@@ -433,11 +433,7 @@ w
 JS
 :
 :
-Handle
-<
-JSObject
-*
->
+HandleObject
 obj
 void
 *

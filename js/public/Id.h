@@ -897,10 +897,7 @@ const
 JS
 :
 :
-Handle
-<
-jsid
->
+HandleId
 )
 JSID_VOIDHANDLE
 ;
@@ -911,10 +908,7 @@ const
 JS
 :
 :
-Handle
-<
-jsid
->
+HandleId
 )
 JSID_EMPTYHANDLE
 ;
