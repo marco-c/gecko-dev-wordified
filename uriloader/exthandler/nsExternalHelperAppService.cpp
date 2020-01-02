@@ -4637,9 +4637,6 @@ aStreamListener
 )
 ;
 }
-nsresult
-rv
-;
 nsAutoString
 fileName
 ;
@@ -4904,6 +4901,9 @@ HTTP
 and
 HTTPS
 URLs
+nsresult
+rv
+;
 bool
 isHTTP
 isHTTPS
@@ -4929,10 +4929,12 @@ NS_FAILED
 rv
 )
 )
+{
 isHTTP
 =
 false
 ;
+}
 rv
 =
 uri
@@ -4954,10 +4956,12 @@ NS_FAILED
 rv
 )
 )
+{
 isHTTPS
 =
 false
 ;
+}
 if
 (
 isHTTP
@@ -4965,6 +4969,7 @@ isHTTP
 |
 isHTTPS
 )
+{
 url
 -
 >
@@ -4973,6 +4978,7 @@ GetQuery
 query
 )
 ;
+}
 /
 /
 Only
@@ -5078,6 +5084,7 @@ if
 (
 isAttachment
 )
+{
 reason
 =
 nsIHelperAppLauncherDialog
@@ -5085,6 +5092,7 @@ nsIHelperAppLauncherDialog
 :
 REASON_SERVERREQUEST
 ;
+}
 }
 LOG
 (
@@ -5126,7 +5134,7 @@ get
 ;
 /
 /
-we
+We
 get
 the
 mime
@@ -5140,10 +5148,10 @@ re
 the
 default
 implementation
+/
+/
 of
 it
-/
-/
 so
 it
 '
@@ -5159,16 +5167,17 @@ and
 not
 need
 to
+/
+/
 reimplement
 the
-/
-/
 whole
 external
 helper
 app
 service
 itself
+.
 nsCOMPtr
 <
 nsIMIMEService
@@ -5353,6 +5362,7 @@ if
 (
 channel
 )
+{
 channel
 -
 >
@@ -5361,6 +5371,7 @@ SetContentType
 mimeType
 )
 ;
+}
 /
 /
 Don
@@ -5378,6 +5389,7 @@ nsIHelperAppLauncherDialog
 :
 REASON_CANTHANDLE
 )
+{
 reason
 =
 nsIHelperAppLauncherDialog
@@ -5385,6 +5397,7 @@ nsIHelperAppLauncherDialog
 :
 REASON_TYPESNIFFED
 ;
+}
 }
 else
 {
@@ -5445,9 +5458,11 @@ if
 !
 mimeInfo
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 *
 aStreamListener
 =
@@ -5502,9 +5517,11 @@ if
 !
 handler
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 NS_ADDREF
 (
 *
