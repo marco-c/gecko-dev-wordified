@@ -567,15 +567,6 @@ PreallocatedProcessReady
 (
 )
 ;
-static
-void
-RunAfterPreallocatedProcessReady
-(
-nsIRunnable
-*
-aRequest
-)
-;
 /
 *
 *
