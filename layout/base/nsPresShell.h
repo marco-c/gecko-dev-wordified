@@ -3848,11 +3848,6 @@ nsDisplayList
 aList
 )
 ;
-void
-EvictTouches
-(
-)
-;
 /
 /
 A
