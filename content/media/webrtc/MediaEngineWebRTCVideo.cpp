@@ -3698,11 +3698,11 @@ void
 MediaEngineWebRTCVideoSource
 :
 :
-OnUserError
+OnError
 (
-UserContext
+CameraErrorContext
 aContext
-nsresult
+CameraError
 aError
 )
 {
