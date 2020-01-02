@@ -576,7 +576,7 @@ mainThread
 .
 ionTop
 =
-NULL
+nullptr
 ;
 JitActivationIterator
 jitActivations
@@ -642,7 +642,7 @@ cx
 *
 bailoutInfo
 =
-NULL
+nullptr
 ;
 uint32_t
 retval
@@ -686,7 +686,7 @@ BAILOUT_RETURN_OK
 bailoutInfo
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -765,7 +765,7 @@ mainThread
 .
 ionTop
 =
-NULL
+nullptr
 ;
 JitActivationIterator
 jitActivations
@@ -858,7 +858,7 @@ cx
 *
 bailoutInfo
 =
-NULL
+nullptr
 ;
 uint32_t
 retval
@@ -902,7 +902,7 @@ BAILOUT_RETURN_OK
 bailoutInfo
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -1001,7 +1001,7 @@ frame
 >
 replaceCalleeToken
 (
-NULL
+nullptr
 )
 ;
 EnsureExitFrame
@@ -1229,7 +1229,7 @@ mainThread
 .
 ionTop
 =
-NULL
+nullptr
 ;
 JitActivationIterator
 jitActivations
@@ -1271,7 +1271,7 @@ asJit
 *
 bailoutInfo
 =
-NULL
+nullptr
 ;
 uint32_t
 retval
@@ -1322,7 +1322,7 @@ BAILOUT_RETURN_OK
 bailoutInfo
 !
 =
-NULL
+nullptr
 )
 )
 ;

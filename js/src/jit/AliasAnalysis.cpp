@@ -364,7 +364,7 @@ graph
 )
 loop_
 (
-NULL
+nullptr
 )
 {
 }
@@ -1835,7 +1835,7 @@ JS_ASSERT
 loop_
 =
 =
-NULL
+nullptr
 )
 ;
 return

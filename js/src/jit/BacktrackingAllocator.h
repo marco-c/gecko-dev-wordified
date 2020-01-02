@@ -571,7 +571,7 @@ isUse
 (
 )
 ?
-NULL
+nullptr
 :
 &
 canonicalSpill_
@@ -703,7 +703,7 @@ interval
 )
 group
 (
-NULL
+nullptr
 )
 priority_
 (
@@ -722,7 +722,7 @@ priority
 :
 interval
 (
-NULL
+nullptr
 )
 group
 (
@@ -799,11 +799,11 @@ AllocatedRange
 :
 interval
 (
-NULL
+nullptr
 )
 range
 (
-NULL
+nullptr
 )
 {
 }
@@ -1338,7 +1338,7 @@ bool
 *
 pfixed
 =
-NULL
+nullptr
 )
 ;
 /

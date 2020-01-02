@@ -1555,7 +1555,7 @@ in
 /
 the
 callee
-NULL
+nullptr
 is
 stored
 for
@@ -1567,9 +1567,9 @@ doesn
 '
 t
 choke
+/
+/
 on
-/
-/
 a
 bogus
 ScopeChain
@@ -1590,7 +1590,7 @@ storePtr
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 frame
 .
@@ -9570,7 +9570,7 @@ cx
 ICMonitoredFallbackStub
 *
 )
-NULL
+nullptr
 )
 ;
 if
@@ -14676,7 +14676,7 @@ NewDenseCopiedArray
 cx
 numRest
 rest
-NULL
+nullptr
 )
 ;
 if
