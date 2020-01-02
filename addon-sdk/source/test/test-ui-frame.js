@@ -483,7 +483,7 @@ Frame
 url
 :
 url
-id
+name
 :
 "
 4you
@@ -494,7 +494,7 @@ id
 The
 option
 .
-id
+name
 must
 be
 a
@@ -505,9 +505,7 @@ can
 only
 take
 valid
-ID
-'
-s
+names
 "
 )
 ;
@@ -637,7 +635,7 @@ new
 Frame
 (
 {
-id
+name
 :
 "
 frame
@@ -663,7 +661,7 @@ same
 url
 but
 diff
-id
+name
 "
 )
 ;
@@ -1337,7 +1335,7 @@ new
 Frame
 (
 {
-id
+name
 :
 "
 mailbox
@@ -1552,7 +1550,7 @@ new
 Frame
 (
 {
-id
+name
 :
 "
 inbox
@@ -1802,7 +1800,7 @@ Frame
 url
 :
 url
-id
+name
 :
 "
 mail

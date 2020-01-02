@@ -210,7 +210,7 @@ const
 {
 windows
 isInteractive
-getMostRecentBrowserWindow
+getFocusedBrowser
 }
 =
 require
@@ -537,7 +537,7 @@ _
 >
 getActiveTab
 (
-getMostRecentBrowserWindow
+getFocusedBrowser
 (
 )
 )
@@ -1237,7 +1237,7 @@ target
 window
 '
 ?
-getMostRecentBrowserWindow
+getFocusedBrowser
 (
 )
 :
