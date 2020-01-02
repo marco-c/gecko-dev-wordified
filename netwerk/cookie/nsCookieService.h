@@ -345,7 +345,6 @@ inBrowser
 }
 nsCookieKey
 (
-const
 KeyTypePointer
 other
 )
@@ -375,7 +374,6 @@ mInBrowserElement
 }
 nsCookieKey
 (
-const
 KeyType
 other
 )
