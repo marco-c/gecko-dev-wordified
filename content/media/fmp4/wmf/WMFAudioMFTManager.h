@@ -265,6 +265,11 @@ MOZ_OVERRIDE
 ;
 private
 :
+HRESULT
+UpdateOutputType
+(
+)
+;
 /
 /
 IMFTransform
@@ -280,7 +285,6 @@ MFTDecoder
 >
 mDecoder
 ;
-const
 uint32_t
 mAudioChannels
 ;
@@ -288,7 +292,6 @@ const
 uint32_t
 mAudioBytesPerSample
 ;
-const
 uint32_t
 mAudioRate
 ;
