@@ -3033,9 +3033,6 @@ set
 style
 =
 "
--
-moz
--
 font
 -
 feature
