@@ -336,7 +336,6 @@ loadFrameScript
 (
 CHILD_SCRIPT
 true
-true
 )
 ;
 }
