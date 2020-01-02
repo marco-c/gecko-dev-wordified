@@ -1388,9 +1388,14 @@ Handle
 jsid
 >
 id
-bool
-*
-did_resolve
+JS
+:
+:
+MutableHandle
+<
+JSPropertyDescriptor
+>
+desc
 )
 ;
 public
