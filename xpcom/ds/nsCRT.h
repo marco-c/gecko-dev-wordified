@@ -843,7 +843,7 @@ while
 token
 !
 =
-NULL
+nullptr
 )
 {
 /

@@ -376,7 +376,7 @@ entry
 should
 be
 {
-NULL
+nullptr
 }
 .
 *
@@ -406,7 +406,7 @@ should
 *
 be
 {
-NULL
+nullptr
 }
 .
 *
@@ -434,7 +434,7 @@ should
 be
 *
 {
-NULL
+nullptr
 }
 .
 *
@@ -491,7 +491,7 @@ that
 is
 *
 also
-NULL
+nullptr
 a
 generic
 factory
@@ -500,15 +500,15 @@ generated
 using
 the
 CIDEntry
-constructor
 *
+constructor
 callback
 which
 must
 be
 non
 -
-NULL
+nullptr
 .
 *
 /

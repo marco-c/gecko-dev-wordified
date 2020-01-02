@@ -414,7 +414,7 @@ mPtr
 *
 mPtr
 =
-NULL
+nullptr
 ;
 }
 }

@@ -593,7 +593,7 @@ threadSafe
 :
 mLock
 (
-NULL
+nullptr
 )
 mEnumerating
 (
@@ -668,7 +668,7 @@ if
 mLock
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -697,7 +697,7 @@ PR_ASSERT
 mLock
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -831,7 +831,7 @@ void
 *
 res
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1510,7 +1510,7 @@ Reset
 {
 Reset
 (
-NULL
+nullptr
 )
 ;
 }
@@ -2884,10 +2884,10 @@ if
 str
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 memcpy
 (
@@ -3687,10 +3687,10 @@ if
 str
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 memcpy
 (

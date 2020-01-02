@@ -320,7 +320,7 @@ file
 /
 gzdopen
 returns
-NULL
+nullptr
 on
 error
 .

@@ -663,7 +663,7 @@ str
 =
 result
 ?
-NULL
+nullptr
 :
 result
 ;
@@ -782,7 +782,7 @@ search
 upon
 encountering
 a
-NULL
+nullptr
 *
 *
 update
@@ -986,7 +986,7 @@ the
 search
 upon
 encountering
-NULL
+nullptr
 '
 s
 before
@@ -1170,7 +1170,7 @@ haystackLen
 )
 )
 return
-NULL
+nullptr
 ;
 #
 ifdef
@@ -1279,7 +1279,7 @@ i
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 /

@@ -939,7 +939,7 @@ island
 .
 Can
 be
-NULL
+nullptr
 .
 result
 <

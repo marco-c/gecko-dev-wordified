@@ -230,7 +230,7 @@ nsConsoleService
 NS_IMPL_CLASSINFO
 (
 nsConsoleService
-NULL
+nullptr
 nsIClassInfo
 :
 :

@@ -182,8 +182,8 @@ wide_path
 1
 aResult
 MAXPATHLEN
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 return
@@ -714,7 +714,7 @@ token
 =
 strtok
 (
-NULL
+nullptr
 "
 :
 "

@@ -982,7 +982,7 @@ int
 *
 foo
 =
-NULL
+nullptr
 ;
 *
 foo

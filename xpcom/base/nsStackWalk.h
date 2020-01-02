@@ -188,7 +188,7 @@ made
 it
 will
 be
-NULL
+nullptr
 .
 typedef
 void
@@ -369,7 +369,7 @@ stack
 this
 should
 be
-NULL
+nullptr
 unless
 you
 really

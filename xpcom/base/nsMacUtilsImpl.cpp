@@ -737,7 +737,7 @@ proc_native
 sIsNative
 &
 sz
-NULL
+nullptr
 0
 )
 ;

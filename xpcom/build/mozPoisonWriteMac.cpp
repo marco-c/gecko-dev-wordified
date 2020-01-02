@@ -1309,7 +1309,7 @@ For
 writev
 we
 pass
-NULL
+nullptr
 in
 wbuf
 .

@@ -301,7 +301,7 @@ char
 *
 path
 =
-NULL
+nullptr
 )
 ;
 /

@@ -2787,7 +2787,7 @@ PL_CompareStrings
 PL_CompareValues
 &
 bloatViewHashAllocOps
-NULL
+nullptr
 )
 ;
 }
@@ -2819,7 +2819,7 @@ BloatEntry
 *
 entry
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2843,7 +2843,7 @@ if
 entry
 =
 =
-NULL
+nullptr
 &
 &
 aInstanceSize
@@ -2876,7 +2876,7 @@ if
 e
 =
 =
-NULL
+nullptr
 )
 {
 delete
@@ -2884,7 +2884,7 @@ entry
 ;
 entry
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4164,7 +4164,7 @@ if
 stream
 !
 =
-NULL
+nullptr
 )
 {
 MozillaRegisterDebugFD
@@ -4250,7 +4250,7 @@ return
 stream
 !
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4728,7 +4728,7 @@ PL_CompareStrings
 PL_CompareValues
 &
 typesToLogHashAllocOps
-NULL
+nullptr
 )
 ;
 if
@@ -4895,7 +4895,7 @@ PL_CompareValues
 PL_CompareValues
 &
 serialNumberHashAllocOps
-NULL
+nullptr
 )
 ;
 }
@@ -4924,8 +4924,8 @@ PL_NewHashTable
 HashNumber
 PL_CompareValues
 PL_CompareValues
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if

@@ -1041,7 +1041,7 @@ gettimeofday
 (
 &
 tv
-NULL
+nullptr
 )
 ;
 if
@@ -1109,7 +1109,7 @@ mibLen
 proc
 &
 bufferSize
-NULL
+nullptr
 0
 )
 ;

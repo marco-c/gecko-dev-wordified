@@ -291,7 +291,7 @@ aKey
 )
 value
 (
-NULL
+nullptr
 )
 {
 }
@@ -617,7 +617,7 @@ char
 *
 aOldValue
 =
-NULL
+nullptr
 )
 ;
 static

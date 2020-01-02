@@ -3476,7 +3476,7 @@ nsSupportsArray
 :
 Create
 (
-NULL
+nullptr
 NS_GET_IID
 (
 nsISupportsArray

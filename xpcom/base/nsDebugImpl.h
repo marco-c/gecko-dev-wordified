@@ -122,7 +122,7 @@ If
 aDesc
 is
 not
-NULL
+nullptr
 the
 string
 it

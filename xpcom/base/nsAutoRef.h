@@ -3267,8 +3267,7 @@ RawRef
 /
 /
 A
-NULL
-pointer
+nullptr
 does
 not
 have
