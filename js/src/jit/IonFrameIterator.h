@@ -1301,9 +1301,6 @@ bool
 hasLocation
 (
 const
-SnapshotReader
-:
-:
 Location
 &
 loc
@@ -1313,9 +1310,6 @@ uintptr_t
 fromLocation
 (
 const
-SnapshotReader
-:
-:
 Location
 &
 loc

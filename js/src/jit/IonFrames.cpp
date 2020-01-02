@@ -9229,9 +9229,6 @@ SnapshotIterator
 hasLocation
 (
 const
-SnapshotReader
-:
-:
 Location
 &
 loc
@@ -9264,9 +9261,6 @@ SnapshotIterator
 fromLocation
 (
 const
-SnapshotReader
-:
-:
 Location
 &
 loc
@@ -9439,7 +9433,7 @@ mode
 )
 {
 case
-SnapshotReader
+Slot
 :
 :
 DOUBLE_REG
@@ -9457,7 +9451,7 @@ floatReg
 )
 ;
 case
-SnapshotReader
+Slot
 :
 :
 TYPED_REG
@@ -9475,7 +9469,7 @@ reg
 )
 ;
 case
-SnapshotReader
+Slot
 :
 :
 UNTYPED
@@ -9553,7 +9547,7 @@ mode
 )
 {
 case
-SnapshotReader
+Slot
 :
 :
 DOUBLE_REG
@@ -9574,7 +9568,7 @@ floatReg
 )
 ;
 case
-SnapshotReader
+Slot
 :
 :
 FLOAT32_REG
@@ -9639,7 +9633,7 @@ f
 ;
 }
 case
-SnapshotReader
+Slot
 :
 :
 FLOAT32_STACK
@@ -9659,7 +9653,7 @@ stackSlot
 )
 ;
 case
-SnapshotReader
+Slot
 :
 :
 TYPED_REG
@@ -9685,7 +9679,7 @@ reg
 )
 ;
 case
-SnapshotReader
+Slot
 :
 :
 TYPED_STACK
@@ -9798,7 +9792,7 @@ type
 }
 }
 case
-SnapshotReader
+Slot
 :
 :
 UNTYPED
@@ -9877,7 +9871,7 @@ layout
 ;
 }
 case
-SnapshotReader
+Slot
 :
 :
 JS_UNDEFINED
@@ -9888,7 +9882,7 @@ UndefinedValue
 )
 ;
 case
-SnapshotReader
+Slot
 :
 :
 JS_NULL
@@ -9899,7 +9893,7 @@ NullValue
 )
 ;
 case
-SnapshotReader
+Slot
 :
 :
 JS_INT32
@@ -9915,7 +9909,7 @@ int32Value
 )
 ;
 case
-SnapshotReader
+Slot
 :
 :
 CONSTANT
