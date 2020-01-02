@@ -5748,15 +5748,6 @@ enable
 tiles
 '
 :
-true
-'
-layers
-.
-simple
--
-tiles
-'
-:
 false
 '
 layers
