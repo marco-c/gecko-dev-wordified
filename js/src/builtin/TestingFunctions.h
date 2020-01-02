@@ -132,8 +132,6 @@ JSContext
 cx
 HandleObject
 obj
-bool
-fuzzingSafe
 )
 ;
 bool
