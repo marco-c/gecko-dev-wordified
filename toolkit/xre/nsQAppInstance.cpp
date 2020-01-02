@@ -159,7 +159,7 @@ nsQAppInstance
 :
 sQAppInstance
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -171,7 +171,7 @@ nsQAppInstance
 :
 sMComponentData
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -298,7 +298,7 @@ sMComponentData
 ;
 sMComponentData
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -307,7 +307,7 @@ sQAppInstance
 ;
 sQAppInstance
 =
-NULL
+nullptr
 ;
 }
 }

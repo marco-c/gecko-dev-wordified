@@ -141,7 +141,7 @@ char
 *
 sArgs
 =
-NULL
+nullptr
 ;
 static
 int
@@ -268,7 +268,7 @@ sArgs
 sArgsUsed
 ]
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -325,7 +325,7 @@ sArgs
 0
 ]
 =
-NULL
+nullptr
 ;
 sArgsUsed
 =

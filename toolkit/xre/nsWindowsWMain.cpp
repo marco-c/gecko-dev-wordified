@@ -342,7 +342,7 @@ if
 s
 )
 return
-NULL
+nullptr
 ;
 ConvertUTF16toUTF8
 convert
@@ -504,7 +504,7 @@ argvConverted
 argc
 ]
 =
-NULL
+nullptr
 ;
 /
 /

@@ -457,7 +457,7 @@ arg
 =
 strtok
 (
-NULL
+nullptr
 "
 "
 )

@@ -3698,7 +3698,7 @@ argv
 argc
 ]
 =
-NULL
+nullptr
 ;
 }
 else
@@ -3712,7 +3712,7 @@ argv
 4
 ]
 =
-NULL
+nullptr
 ;
 }
 if
@@ -3945,8 +3945,8 @@ get
 (
 )
 argv
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 exit
@@ -5418,7 +5418,7 @@ argv
 argc
 ]
 =
-NULL
+nullptr
 ;
 }
 else
@@ -5432,7 +5432,7 @@ argv
 4
 ]
 =
-NULL
+nullptr
 ;
 }
 if
@@ -5661,8 +5661,8 @@ get
 (
 )
 argv
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -5693,7 +5693,7 @@ get
 )
 argc
 argv
-NULL
+nullptr
 outpid
 )
 )
@@ -5812,8 +5812,8 @@ get
 (
 )
 argv
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if

@@ -707,7 +707,7 @@ mConnection
 dbus_bus_get
 (
 DBUS_BUS_SYSTEM
-NULL
+nullptr
 )
 ;
 if
@@ -727,7 +727,7 @@ false
 dbus_connection_setup_with_g_main
 (
 mConnection
-NULL
+nullptr
 )
 ;
 if
@@ -738,7 +738,7 @@ dbus_connection_add_filter
 mConnection
 dbus_filter
 this
-NULL
+nullptr
 )
 )
 return

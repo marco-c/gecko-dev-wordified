@@ -275,7 +275,7 @@ result
 .
 strB
 =
-NULL
+nullptr
 ;
 result
 .
@@ -293,7 +293,7 @@ result
 .
 extraD
 =
-NULL
+nullptr
 ;
 if
 (
@@ -402,7 +402,7 @@ result
 .
 strB
 =
-NULL
+nullptr
 ;
 result
 .
@@ -538,7 +538,7 @@ result
 .
 extraD
 =
-NULL
+nullptr
 ;
 }
 }
@@ -560,7 +560,7 @@ dot
 )
 dot
 =
-NULL
+nullptr
 ;
 }
 return
@@ -1128,7 +1128,7 @@ mib
 release
 &
 len
-NULL
+nullptr
 0
 )
 ;

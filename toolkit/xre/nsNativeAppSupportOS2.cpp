@@ -2433,7 +2433,7 @@ pass
 in
 (
 hsz
-NULL
+nullptr
 0L
 0
 )
@@ -2583,12 +2583,12 @@ do
 PTIB
 pTIB
 =
-NULL
+nullptr
 ;
 PPIB
 pPIB
 =
-NULL
+nullptr
 ;
 APIRET
 rc
@@ -2599,7 +2599,7 @@ char
 *
 pchParam
 =
-NULL
+nullptr
 ;
 rc
 =
@@ -2628,7 +2628,7 @@ char
 *
 pchTemp
 =
-NULL
+nullptr
 ;
 pchParam
 =
@@ -3040,7 +3040,7 @@ WinDdeUninitialize
 PFN
 *
 )
-NULL
+nullptr
 0
 }
 }
@@ -3114,7 +3114,7 @@ rc
 =
 DosLoadModule
 (
-NULL
+nullptr
 0
 "
 PMDDEML
@@ -3188,7 +3188,7 @@ i
 ]
 .
 ord
-NULL
+nullptr
 ddemlfnTable
 [
 i
@@ -3634,7 +3634,7 @@ WinCreateWindow
 (
 HWND_OBJECT
 pszClassName
-NULL
+nullptr
 /
 /
 name
@@ -3669,11 +3669,11 @@ mMsgWindowAtom
 /
 /
 id
-NULL
+nullptr
 /
 /
 pCtlData
-NULL
+nullptr
 )
 ;
 /
@@ -3780,7 +3780,7 @@ desRes
 {
 mHandle
 =
-NULL
+nullptr
 ;
 }
 else
@@ -3910,7 +3910,7 @@ pcds
 PVOID
 pvData
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3947,7 +3947,7 @@ DosAllocSharedMem
 (
 &
 pvData
-NULL
+nullptr
 ulSize
 PAG_COMMIT
 |
@@ -4028,7 +4028,7 @@ DosAllocSharedMem
 (
 &
 pvData
-NULL
+nullptr
 ulSize
 PAG_COMMIT
 |
@@ -4060,7 +4060,7 @@ DosAllocSharedMem
 (
 &
 pvData
-NULL
+nullptr
 ulSize
 PAG_COMMIT
 |
@@ -6215,8 +6215,8 @@ len
 WinDdeQueryString
 (
 hsz
-NULL
-NULL
+nullptr
+nullptr
 CP_WINANSI
 )
 ;
@@ -8740,8 +8740,8 @@ argLen
 WinDdeQueryString
 (
 args
-NULL
-NULL
+nullptr
+nullptr
 CP_WINANSI
 )
 ;

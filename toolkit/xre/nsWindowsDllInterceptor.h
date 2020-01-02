@@ -804,7 +804,7 @@ GetCurrentProcess
 ignored
 *
 /
-NULL
+nullptr
 /
 *
 ignored
@@ -829,7 +829,7 @@ mModule
 LoadLibraryExA
 (
 modulename
-NULL
+nullptr
 0
 )
 ;
@@ -1469,7 +1469,7 @@ GetCurrentProcess
 ignored
 *
 /
-NULL
+nullptr
 /
 *
 ignored
@@ -1842,7 +1842,7 @@ mModule
 LoadLibraryExA
 (
 modulename
-NULL
+nullptr
 0
 )
 ;
@@ -1911,7 +1911,7 @@ VirtualAllocEx
 GetCurrentProcess
 (
 )
-NULL
+nullptr
 mMaxHooks
 *
 kHookSize
@@ -2118,7 +2118,7 @@ outTramp
 *
 outTramp
 =
-NULL
+nullptr
 ;
 byteptr_t
 tramp
@@ -4389,7 +4389,7 @@ WindowsDllInterceptor
 :
 mModuleName
 (
-NULL
+nullptr
 )
 mNHooks
 (

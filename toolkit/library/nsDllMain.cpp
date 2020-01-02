@@ -904,7 +904,7 @@ __abi_MozFailFast
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 ExternC

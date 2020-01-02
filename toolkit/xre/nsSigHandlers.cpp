@@ -660,7 +660,7 @@ static
 GLogFunc
 orig_log_func
 =
-NULL
+nullptr
 ;
 extern
 "
@@ -764,7 +764,7 @@ orig_log_func
 log_domain
 log_level
 message
-NULL
+nullptr
 )
 ;
 }
@@ -2045,7 +2045,7 @@ orig_log_func
 g_log_set_default_handler
 (
 my_glib_log_func
-NULL
+nullptr
 )
 ;
 }

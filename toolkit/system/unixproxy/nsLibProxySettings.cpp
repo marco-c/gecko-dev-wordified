@@ -467,7 +467,7 @@ c
 ]
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -688,11 +688,11 @@ kUnixProxyCIDs
 &
 kNS_UNIXSYSTEMPROXYSERVICE_CID
 false
-NULL
+nullptr
 nsUnixSystemProxySettingsConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -716,7 +716,7 @@ NS_SYSTEMPROXYSETTINGS_CONTRACTID
 kNS_UNIXSYSTEMPROXYSERVICE_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

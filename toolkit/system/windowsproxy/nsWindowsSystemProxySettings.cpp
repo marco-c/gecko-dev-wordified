@@ -447,7 +447,7 @@ INTERNET_CONNECTION_MODEM
 ?
 connName
 :
-NULL
+nullptr
 ;
 list
 .
@@ -487,7 +487,7 @@ if
 !
 InternetQueryOptionW
 (
-NULL
+nullptr
 INTERNET_OPTION_PER_CONNECTION_OPTION
 &
 list
@@ -533,7 +533,7 @@ if
 !
 InternetQueryOptionW
 (
-NULL
+nullptr
 INTERNET_OPTION_PER_CONNECTION_OPTION
 &
 list
@@ -1780,11 +1780,11 @@ kSysProxyCIDs
 &
 kNS_WINDOWSSYSTEMPROXYSERVICE_CID
 false
-NULL
+nullptr
 nsWindowsSystemProxySettingsConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -1808,7 +1808,7 @@ NS_SYSTEMPROXYSETTINGS_CONTRACTID
 kNS_WINDOWSSYSTEMPROXYSERVICE_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

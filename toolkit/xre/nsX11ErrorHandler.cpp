@@ -340,7 +340,7 @@ tmpDisplay
 =
 XOpenDisplay
 (
-NULL
+nullptr
 )
 ;
 if

@@ -2267,7 +2267,7 @@ crashReporterArg
 !
 XRE_SetRemoteExceptionHandler
 (
-NULL
+nullptr
 )
 )
 {
@@ -2336,7 +2336,7 @@ MOZ_WIDGET_GTK
 )
 g_thread_init
 (
-NULL
+nullptr
 )
 ;
 #
