@@ -17477,6 +17477,20 @@ hasNullableType
 and
             
 not
+(
+type
+.
+isUnion
+(
+)
+and
+type
+.
+hasDictionaryType
+)
+and
+            
+not
 type
 .
 isDictionary
@@ -20145,6 +20159,8 @@ type
 type
         
 if
+(
+(
 self
 .
 type
@@ -20152,7 +20168,28 @@ type
 isDictionary
 (
 )
+or
+             
+self
+.
+type
+.
+isUnion
+(
+)
 and
+self
+.
+type
+.
+unroll
+(
+)
+.
+hasDictionaryType
+)
+and
+            
 self
 .
 optional
@@ -20161,6 +20198,7 @@ not
 self
 .
 defaultValue
+)
 :
             
 #
