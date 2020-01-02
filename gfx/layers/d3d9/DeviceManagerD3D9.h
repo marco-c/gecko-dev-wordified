@@ -1192,9 +1192,6 @@ for
 assertions
 .
 bool
-DeviceManagerD3D9
-:
-:
 IsInTextureHostList
 (
 TextureSourceD3D9
