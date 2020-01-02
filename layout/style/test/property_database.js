@@ -38240,9 +38240,7 @@ moz
 -
 pre
 -
-discard
--
-newlines
+space
 "
 ]
 invalid_values

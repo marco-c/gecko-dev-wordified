@@ -1158,10 +1158,8 @@ moz
 -
 pre
 -
-discard
--
-newlines
-_moz_pre_discard_newlines
+space
+_moz_pre_space
 )
 CSS_KEY
 (
