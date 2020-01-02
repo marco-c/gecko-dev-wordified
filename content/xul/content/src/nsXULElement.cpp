@@ -14301,6 +14301,12 @@ nsINodeInfo
 aNodeInfos
 )
 {
+NS_ENSURE_TRUE
+(
+aProtoDoc
+NS_ERROR_UNEXPECTED
+)
+;
 AutoSafeJSContext
 cx
 ;
