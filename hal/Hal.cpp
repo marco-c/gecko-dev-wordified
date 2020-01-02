@@ -5126,6 +5126,15 @@ settings
 void
 FactoryReset
 (
+mozilla
+:
+:
+dom
+:
+:
+FactoryResetReason
+&
+aReason
 )
 {
 AssertMainThread
@@ -5136,6 +5145,7 @@ PROXY_IF_SANDBOXED
 (
 FactoryReset
 (
+aReason
 )
 )
 ;
