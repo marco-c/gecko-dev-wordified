@@ -473,7 +473,7 @@ we
 need
 the
 actual
-ElementAnimation
+StyleAnimation
 *
 in
 order
@@ -599,10 +599,7 @@ aDirection
 mozilla
 :
 :
-css
-:
-:
-ElementAnimation
+StyleAnimation
 *
 aAnimation
 =
@@ -966,10 +963,7 @@ InfallibleTArray
 mozilla
 :
 :
-css
-:
-:
-ElementAnimation
+StyleAnimation
 >
 mAnimations
 ;
@@ -1575,10 +1569,7 @@ InfallibleTArray
 mozilla
 :
 :
-css
-:
-:
-ElementAnimation
+StyleAnimation
 >
 &
 aAnimations
@@ -1590,9 +1581,6 @@ BuildSegment
 InfallibleTArray
 <
 mozilla
-:
-:
-css
 :
 :
 AnimationPropertySegment
