@@ -528,7 +528,6 @@ detail
 #
 ifdef
 DEBUG
-static
 const
 MozRefCountType
 DEAD
