@@ -333,7 +333,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0666
+0o666
 )
 ;
 gFileB
@@ -363,7 +363,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0666
+0o666
 )
 ;
 /
@@ -419,7 +419,7 @@ nsILocalFile
 0x08
 |
 0x20
-0644
+0o644
 foutA
 .
 DEFER_OPEN
@@ -471,7 +471,7 @@ nsILocalFile
 0x08
 |
 0x20
-0644
+0o644
 foutB
 .
 DEFER_OPEN
