@@ -989,11 +989,7 @@ this
 .
 notifyObservers
 (
-"
-fxaccounts
-:
-onlogout
-"
+ONLOGOUT_NOTIFICATION
 )
 ;
 }
@@ -1604,11 +1600,7 @@ internal
 .
 notifyObservers
 (
-"
-fxaccounts
-:
-onlogin
-"
+ONLOGIN_NOTIFICATION
 )
 ;
 return
@@ -2605,9 +2597,9 @@ debug
 Notifying
 observers
 of
-user
-login
 "
++
+topic
 )
 ;
 Services
