@@ -731,7 +731,11 @@ ArcToBezier
 (
 this
 aOrigin
+Size
+(
 aRadius
+aRadius
+)
 aStartAngle
 aEndAngle
 aAntiClockwise
