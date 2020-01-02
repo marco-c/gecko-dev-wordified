@@ -142,7 +142,7 @@ dom
 nsresult
 NS_NewXMLElement
 (
-nsIContent
+Element
 *
 *
 aInstancePtrResult

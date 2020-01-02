@@ -213,7 +213,13 @@ aFromParser
 nsresult
 NS_NewXMLElement
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 *
 aResult
