@@ -34,14 +34,6 @@ strict
 "
 ;
 const
-ROOT
-=
-getRootDirectory
-(
-gTestPath
-)
-;
-const
 URL
 =
 ROOT
