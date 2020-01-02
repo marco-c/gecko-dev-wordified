@@ -2075,6 +2075,11 @@ allowDefaultAction
 {
 if
 (
+allowDefaultAction
+)
+{
+if
+(
 mGestureDetector
 .
 onTouchEvent
@@ -2104,6 +2109,7 @@ isInProgress
 {
 return
 ;
+}
 }
 mPanZoomController
 .
