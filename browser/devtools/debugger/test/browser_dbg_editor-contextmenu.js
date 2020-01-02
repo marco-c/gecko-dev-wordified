@@ -311,8 +311,11 @@ ok
 (
 gEditor
 .
-isReadOnly
+getOption
 (
+"
+readOnly
+"
 )
 "
 The
