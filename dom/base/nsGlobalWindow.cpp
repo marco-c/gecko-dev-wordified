@@ -19964,6 +19964,13 @@ aArguments
 {
 MOZ_ASSERT
 (
+IsInnerWindow
+(
+)
+)
+;
+MOZ_ASSERT
+(
 !
 mIsModalContentWindow
 )

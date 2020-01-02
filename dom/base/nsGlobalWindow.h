@@ -6741,6 +6741,12 @@ nsIDocument
 aDocument
 )
 ;
+/
+/
+Inner
+windows
+only
+.
 nsresult
 DefineArgumentsProperty
 (
