@@ -328,7 +328,7 @@ test
 ;
 gVariablesView
 .
-pageSize
+scrollPageSize
 =
 5
 ;
