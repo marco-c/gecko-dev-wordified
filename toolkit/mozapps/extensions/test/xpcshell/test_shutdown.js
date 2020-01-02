@@ -129,6 +129,9 @@ recordTimestamp
 recordSimpleMeasure
 "
 "
+recordException
+"
+"
 getSimpleMeasures
 "
 "
