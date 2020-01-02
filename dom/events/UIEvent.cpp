@@ -698,7 +698,7 @@ mEvent
 mClass
 !
 =
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 )
 |
 |
@@ -1427,7 +1427,7 @@ mEvent
 mClass
 !
 =
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 )
 |
 |

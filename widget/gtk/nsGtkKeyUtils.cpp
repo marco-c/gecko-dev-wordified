@@ -3872,7 +3872,7 @@ case
 eDragEventClass
 :
 case
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 :
 break
 ;

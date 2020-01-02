@@ -428,7 +428,7 @@ case
 ePointerEventClass
 :
 case
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 :
 {
 WidgetMouseEventBase
@@ -659,7 +659,7 @@ case
 ePointerEventClass
 :
 case
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 :
 mEvent
 -
@@ -846,7 +846,7 @@ case
 ePointerEventClass
 :
 case
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 :
 e
 -
@@ -1045,7 +1045,7 @@ case
 ePointerEventClass
 :
 case
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 :
 return
 mEvent
@@ -1144,7 +1144,7 @@ case
 ePointerEventClass
 :
 case
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 :
 return
 mEvent
@@ -1251,7 +1251,7 @@ case
 ePointerEventClass
 :
 case
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 :
 relatedTarget
 =

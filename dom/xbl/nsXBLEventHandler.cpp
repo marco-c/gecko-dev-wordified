@@ -869,7 +869,7 @@ case
 eWheelEventClass
 :
 case
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 :
 *
 aResult

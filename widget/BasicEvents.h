@@ -428,7 +428,7 @@ eGestureNotifyEventClass
 /
 /
 WidgetGestureNotifyEvent
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 /
 /
 WidgetSimpleGestureEvent
