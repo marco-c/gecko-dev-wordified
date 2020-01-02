@@ -308,8 +308,15 @@ aSearchString
 aResult
 aFindBackwards
 aDrawOutline
+aStoreResult
+=
+true
 )
 {
+if
+(
+aStoreResult
+)
 this
 .
 _searchString
@@ -439,6 +446,9 @@ searchString
 this
 .
 _searchString
+storeResult
+:
+aStoreResult
 }
 ;
 for
@@ -735,6 +745,7 @@ _notify
 (
 aWord
 result
+false
 false
 false
 )
