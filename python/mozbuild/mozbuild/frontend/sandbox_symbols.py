@@ -457,24 +457,6 @@ export
 #
 -
 '
-binaries
-'
-:
-everything
-in
-relation
-with
-linking
-objects
-producing
-#
-programs
-and
-libraries
-.
-#
--
-'
 libs
 '
 :
@@ -482,7 +464,16 @@ everything
 that
 is
 not
-binaries
+built
+from
+C
+/
+C
++
++
+/
+ObjC
+source
 and
 that
 has
@@ -494,11 +485,6 @@ the
 libs
 tier
 .
-#
--
-'
-tools
-'
 #
 A
 value
@@ -1318,9 +1304,7 @@ MSVC
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -1478,9 +1462,7 @@ disabled
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -1836,9 +1818,7 @@ linked
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -1923,9 +1903,7 @@ unchanged
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -2220,9 +2198,7 @@ compiling
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -2269,7 +2245,7 @@ add_java_jar
 "
 "
 '
-binaries
+libs
 '
 )
     
@@ -2417,9 +2393,7 @@ Windows
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -3308,9 +3282,7 @@ unchanged
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -3376,9 +3348,7 @@ platforms
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -3461,9 +3431,7 @@ unchanged
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -4051,9 +4019,7 @@ unchanged
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -4106,9 +4072,7 @@ unchanged
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -5650,9 +5614,7 @@ file
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -5731,9 +5693,7 @@ file
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -5812,9 +5772,7 @@ file
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -5897,9 +5855,7 @@ file
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
