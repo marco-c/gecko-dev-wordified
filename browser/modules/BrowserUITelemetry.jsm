@@ -381,13 +381,6 @@ search
 container
 "
 "
-webrtc
--
-status
--
-button
-"
-"
 bookmarks
 -
 menu
