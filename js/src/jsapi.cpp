@@ -27274,7 +27274,7 @@ if
 chars
 )
 return
-nullptr
+false
 ;
 return
 CompileFunction

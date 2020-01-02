@@ -511,7 +511,7 @@ sLinkStatus
 LinkStatus_FAILED
 ;
 return
-nullptr
+false
 ;
 }
 /
