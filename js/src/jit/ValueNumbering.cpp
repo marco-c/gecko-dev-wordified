@@ -2258,6 +2258,7 @@ p
 |
 index
 >
+=
 p
 -
 >
@@ -2265,7 +2266,7 @@ value
 (
 )
 .
-validUntil
+validEnd
 )
 {
 DominatingValue
@@ -2342,7 +2343,6 @@ if
 /
 index
 <
-=
 index
 +
 ins
@@ -2364,7 +2364,7 @@ that
 .
 value
 .
-validUntil
+validEnd
 =
 index
 +

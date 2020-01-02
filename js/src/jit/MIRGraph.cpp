@@ -5542,7 +5542,6 @@ domIndex
 (
 )
 <
-=
 high
 ;
 }
