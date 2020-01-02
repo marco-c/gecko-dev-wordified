@@ -966,7 +966,7 @@ EventUtils
 synthesizeKey
 (
 "
-foo
+f
 "
 {
 }
@@ -1174,6 +1174,7 @@ onPopupShow
 (
 menu
 )
+;
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -1198,6 +1199,7 @@ onPopupHidden
 (
 menu
 )
+;
 EventUtils
 .
 synthesizeMouseAtCenter
