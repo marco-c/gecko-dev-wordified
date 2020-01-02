@@ -2287,9 +2287,6 @@ thread
 "
 )
 ;
-nsresult
-rv
-;
 if
 (
 mVideoSource
