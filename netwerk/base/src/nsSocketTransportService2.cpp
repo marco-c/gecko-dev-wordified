@@ -3219,6 +3219,15 @@ mOffline
 false
 ;
 }
+if
+(
+mThreadEvent
+)
+PR_SetPollableEvent
+(
+mThreadEvent
+)
+;
 return
 NS_OK
 ;
