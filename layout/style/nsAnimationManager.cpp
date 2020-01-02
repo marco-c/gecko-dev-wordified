@@ -1391,6 +1391,13 @@ changing
 .
 if
 (
+!
+anim
+.
+mIsRunningOnCompositor
+|
+|
+(
 anim
 .
 mLastNotification
@@ -1399,7 +1406,6 @@ mLastNotification
 oldLastNotification
 &
 &
-(
 anim
 .
 mLastNotification
@@ -1409,14 +1415,6 @@ ElementAnimation
 :
 :
 LAST_NOTIFICATION_END
-|
-|
-anim
-.
-mLastNotification
-=
-=
-0
 )
 )
 {
