@@ -7538,7 +7538,7 @@ aMappedAttrName
 nsCSSProps
 :
 :
-eEnabled
+eEnabledForAllContent
 )
 ;
 if
@@ -14694,7 +14694,7 @@ aName
 nsCSSProps
 :
 :
-eEnabled
+eEnabledForAllContent
 )
 ;
 /

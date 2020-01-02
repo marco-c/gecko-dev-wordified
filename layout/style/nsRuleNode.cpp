@@ -32956,7 +32956,7 @@ propertyStr
 nsCSSProps
 :
 :
-eEnabled
+eEnabledForAllContent
 )
 ;
 if
@@ -37804,7 +37804,7 @@ buffer
 nsCSSProps
 :
 :
-eEnabled
+eEnabledForAllContent
 )
 ;
 if
