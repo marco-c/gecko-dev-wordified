@@ -284,13 +284,6 @@ nsPrintSession
 *
 *
 *
-#
-undef
-IMETHOD_VISIBILITY
-#
-define
-IMETHOD_VISIBILITY
-NS_VISIBILITY_DEFAULT
 class
 nsPrintSession
 :
@@ -321,13 +314,6 @@ Init
 ;
 }
 ;
-#
-undef
-IMETHOD_VISIBILITY
-#
-define
-IMETHOD_VISIBILITY
-NS_VISIBILITY_HIDDEN
 #
 endif
 /
