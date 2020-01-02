@@ -189,7 +189,7 @@ Test
 mozGetUserMedia
 Constraints
 (
-desktop
+mobile
 )
 <
 /
@@ -279,7 +279,7 @@ Bug
 *
 /
 var
-desktop_tests
+mobile_tests
 =
 [
 {
@@ -288,9 +288,10 @@ message
 "
 legacy
 facingMode
-ignored
+overconstrains
+video
 (
-desktop
+mobile
 )
 "
 constraints
@@ -315,7 +316,9 @@ true
 }
 error
 :
-null
+"
+NO_DEVICES_FOUND
+"
 }
 ]
 ;
@@ -331,7 +334,7 @@ common_tests
 .
 concat
 (
-desktop_tests
+mobile_tests
 )
 )
 ;
