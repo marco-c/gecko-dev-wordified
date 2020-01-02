@@ -125,6 +125,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -5021,6 +5030,7 @@ NONWRITABLE_ARRAY_LENGTH
 }
 public
 :
+MOZ_CONSTEXPR
 ObjectElements
 (
 uint32_t
