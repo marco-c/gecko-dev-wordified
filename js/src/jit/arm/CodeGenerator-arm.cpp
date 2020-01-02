@@ -1461,6 +1461,17 @@ LSnapshot
 snapshot
 )
 {
+if
+(
+masm
+.
+bailed
+(
+)
+)
+return
+false
+;
 JS_ASSERT
 (
 label
