@@ -317,10 +317,14 @@ found
 "
 )
 ;
-button
+EventUtils
 .
-click
+synthesizeMouseAtCenter
 (
+button
+{
+}
+content
 )
 ;
 return
@@ -461,6 +465,7 @@ gWebConsole
 .
 iframeWindow
 )
+;
 }
 function
 onGetNameFetch
@@ -574,9 +579,6 @@ VK_ESCAPE
 "
 {
 }
-gVariablesView
-.
-window
 )
 ;
 }
