@@ -188,8 +188,6 @@ uint64_t
 aDroppedFrames
 uint64_t
 aCorruptedFrames
-double
-aTotalFrameDelay
 )
 ;
 HTMLMediaElement
@@ -255,15 +253,6 @@ return
 mCorruptedFrames
 ;
 }
-double
-TotalFrameDelay
-(
-)
-{
-return
-mTotalFrameDelay
-;
-}
 private
 :
 nsRefPtr
@@ -283,9 +272,6 @@ mDroppedFrames
 ;
 uint64_t
 mCorruptedFrames
-;
-double
-mTotalFrameDelay
 ;
 }
 ;

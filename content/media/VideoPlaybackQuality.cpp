@@ -179,8 +179,6 @@ uint64_t
 aDroppedFrames
 uint64_t
 aCorruptedFrames
-double
-aTotalFrameDelay
 )
 :
 mElement
@@ -202,10 +200,6 @@ aDroppedFrames
 mCorruptedFrames
 (
 aCorruptedFrames
-)
-mTotalFrameDelay
-(
-aTotalFrameDelay
 )
 {
 SetIsDOMBinding
