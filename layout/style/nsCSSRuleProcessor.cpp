@@ -19277,6 +19277,9 @@ sizeof
 RuleByWeightEntry
 )
 64
+fallible_t
+(
+)
 )
 )
 mRulesByWeight

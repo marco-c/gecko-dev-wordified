@@ -1985,6 +1985,9 @@ sizeof
 nsCacheEntryHashTableEntry
 )
 512
+fallible_t
+(
+)
 )
 ;
 if

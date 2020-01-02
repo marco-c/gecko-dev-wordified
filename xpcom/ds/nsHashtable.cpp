@@ -588,7 +588,7 @@ nsHashtable
 uint32_t
 aInitSize
 bool
-threadSafe
+aThreadSafe
 )
 :
 mLock
@@ -620,6 +620,9 @@ sizeof
 HTEntry
 )
 aInitSize
+fallible_t
+(
+)
 )
 ;
 NS_ASSERTION
@@ -654,7 +657,7 @@ nullptr
 ;
 if
 (
-threadSafe
+aThreadSafe
 )
 {
 mLock
@@ -1705,6 +1708,9 @@ sizeof
 HTEntry
 )
 count
+fallible_t
+(
+)
 )
 ;
 if

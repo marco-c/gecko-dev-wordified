@@ -935,6 +935,9 @@ sizeof
 CompareCacheHashEntryPtr
 )
 128
+fallible_t
+(
+)
 )
 )
 {

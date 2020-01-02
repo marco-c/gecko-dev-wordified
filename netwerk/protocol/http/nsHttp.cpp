@@ -689,6 +689,9 @@ PLDHashEntryStub
 NUM_HTTP_ATOMS
 +
 10
+fallible_t
+(
+)
 )
 )
 {

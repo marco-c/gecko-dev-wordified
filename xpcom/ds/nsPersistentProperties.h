@@ -159,7 +159,7 @@ nsPersistentProperties
 (
 )
 ;
-nsresult
+void
 Init
 (
 )

@@ -215,9 +215,6 @@ Init
 (
 )
 {
-if
-(
-!
 PL_DHashTableInit
 (
 &
@@ -235,9 +232,6 @@ HashEntry
 )
 4
 )
-)
-return
-NS_ERROR_FAILURE
 ;
 return
 NS_OK

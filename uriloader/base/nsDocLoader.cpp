@@ -627,9 +627,6 @@ PL_DHashFinalizeStub
 RequestInfoHashInitEntry
 }
 ;
-if
-(
-!
 PL_DHashTableInit
 (
 &
@@ -643,15 +640,7 @@ nsRequestInfo
 )
 16
 )
-)
-{
-mRequestInfoHash
-.
-ops
-=
-nullptr
 ;
-}
 ClearInternalProgress
 (
 )

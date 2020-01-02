@@ -4818,9 +4818,6 @@ Clear
 "
 )
 ;
-if
-(
-!
 PL_DHashTableInit
 (
 &
@@ -4834,13 +4831,7 @@ PtrToNodeEntry
 )
 32768
 )
-)
-{
-MOZ_CRASH
-(
-)
 ;
-}
 }
 void
 Clear
