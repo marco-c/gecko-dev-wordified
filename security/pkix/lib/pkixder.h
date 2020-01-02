@@ -514,7 +514,7 @@ const
 uint8_t
 *
 expected
-size_t
+uint16_t
 expectedLen
 )
 {
@@ -2316,7 +2316,7 @@ NULLTag
 }
 template
 <
-size_t
+uint16_t
 Len
 >
 Result
