@@ -121,14 +121,6 @@ DOMCI_CLASS
 (
 DOMConstructor
 )
-DOMCI_CLASS
-(
-DeviceAcceleration
-)
-DOMCI_CLASS
-(
-DeviceRotationRate
-)
 /
 /
 CSS
