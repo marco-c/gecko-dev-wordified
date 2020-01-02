@@ -364,7 +364,6 @@ session
 new
 GlobalSession
 (
-null
 TEST_USERNAME
 new
 BasicAuthHeaderProvider
@@ -383,6 +382,7 @@ callback
 context
 null
 delegate
+callback
 )
 ;
 SyncClientsEngineStage

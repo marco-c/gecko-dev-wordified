@@ -206,8 +206,6 @@ public
 MockPrefsGlobalSession
 (
 String
-serverURL
-String
 username
 String
 password
@@ -233,7 +231,6 @@ NonObjectJSONException
 {
 this
 (
-serverURL
 username
 new
 BasicAuthHeaderProvider
@@ -253,8 +250,6 @@ clientsDelegate
 public
 MockPrefsGlobalSession
 (
-String
-serverURL
 String
 username
 AuthHeaderProvider
@@ -281,7 +276,6 @@ NonObjectJSONException
 {
 super
 (
-serverURL
 username
 authHeaderProvider
 prefsPath
@@ -290,6 +284,7 @@ callback
 context
 extras
 clientsDelegate
+callback
 )
 ;
 }

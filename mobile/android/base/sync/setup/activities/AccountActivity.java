@@ -383,9 +383,9 @@ private
 String
 server
 =
-Constants
+SyncConstants
 .
-AUTH_NODE_DEFAULT
+DEFAULT_AUTH_SERVER
 ;
 /
 /
@@ -1107,9 +1107,9 @@ toString
 ;
 server
 =
-Constants
+SyncConstants
 .
-AUTH_NODE_DEFAULT
+DEFAULT_AUTH_SERVER
 ;
 if
 (

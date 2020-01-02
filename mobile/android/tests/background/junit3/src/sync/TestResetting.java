@@ -1116,7 +1116,6 @@ return
 new
 GlobalSession
 (
-null
 TEST_USERNAME
 new
 BasicAuthHeaderProvider
@@ -1137,6 +1136,7 @@ getApplicationContext
 )
 null
 null
+callback
 )
 {
 Override

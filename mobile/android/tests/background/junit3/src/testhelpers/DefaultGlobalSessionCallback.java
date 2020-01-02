@@ -216,4 +216,15 @@ return
 false
 ;
 }
+Override
+public
+String
+nodeWeaveURL
+(
+)
+{
+return
+null
+;
+}
 }
