@@ -1498,6 +1498,16 @@ return
 true
 ;
 }
+virtual
+bool
+IsInactiveLayerManager
+(
+)
+{
+return
+false
+;
+}
 /
 *
 *

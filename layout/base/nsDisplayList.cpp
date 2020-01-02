@@ -8953,6 +8953,10 @@ layerManager
 new
 BasicLayerManager
 (
+BasicLayerManager
+:
+:
+BLM_OFFSCREEN
 )
 ;
 }
