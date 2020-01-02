@@ -464,7 +464,7 @@ h
 #
 include
 "
-nsTraceRefcntImpl
+nsTraceRefcnt
 .
 h
 "
@@ -9380,7 +9380,7 @@ NS_ERROR_INVALID_ARG
 #
 ifdef
 NS_BUILD_REFCNT_LOGGING
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 SetActivityIsLegal
@@ -9405,7 +9405,7 @@ get
 #
 ifdef
 NS_BUILD_REFCNT_LOGGING
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 SetActivityIsLegal

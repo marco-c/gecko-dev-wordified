@@ -342,7 +342,7 @@ h
 #
 include
 "
-nsTraceRefcntImpl
+nsTraceRefcnt
 .
 h
 "
@@ -13454,7 +13454,7 @@ NS_ERROR_FILE_IS_DIRECTORY
 #
 ifdef
 NS_BUILD_REFCNT_LOGGING
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 SetActivityIsLegal
@@ -13497,7 +13497,7 @@ libSpec
 #
 ifdef
 NS_BUILD_REFCNT_LOGGING
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 SetActivityIsLegal

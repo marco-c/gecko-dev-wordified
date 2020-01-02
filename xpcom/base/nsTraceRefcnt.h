@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsTraceRefcntImpl_h___
+nsTraceRefcnt_h___
 #
 define
-nsTraceRefcntImpl_h___
+nsTraceRefcnt_h___
 #
 include
 <
@@ -118,7 +118,7 @@ nscore
 h
 "
 class
-nsTraceRefcntImpl
+nsTraceRefcnt
 {
 public
 :

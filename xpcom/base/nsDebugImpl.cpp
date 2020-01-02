@@ -233,7 +233,7 @@ endif
 #
 include
 "
-nsTraceRefcntImpl
+nsTraceRefcnt
 .
 h
 "
@@ -1826,7 +1826,7 @@ endif
 #
 ifdef
 DEBUG
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack
@@ -1915,7 +1915,7 @@ return
 case
 NS_ASSERT_STACK
 :
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack
@@ -1928,7 +1928,7 @@ return
 case
 NS_ASSERT_STACK_AND_ABORT
 :
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack
