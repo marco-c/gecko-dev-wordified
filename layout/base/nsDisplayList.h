@@ -19276,7 +19276,7 @@ aOutRect
 ;
 static
 gfxPoint3D
-GetDeltaToMozTransformOrigin
+GetDeltaToTransformOrigin
 (
 const
 nsIFrame
@@ -19292,7 +19292,7 @@ aBoundsOverride
 ;
 static
 gfxPoint3D
-GetDeltaToMozPerspectiveOrigin
+GetDeltaToPerspectiveOrigin
 (
 const
 nsIFrame
