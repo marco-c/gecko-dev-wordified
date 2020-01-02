@@ -1964,6 +1964,14 @@ PeerConnectionImpl
 ;
 this
 .
+__DOM_IMPL__
+.
+_innerObject
+=
+this
+;
+this
+.
 _observer
 =
 new
@@ -1974,6 +1982,8 @@ _win
 PeerConnectionObserver
 (
 this
+.
+__DOM_IMPL__
 )
 ;
 this
@@ -5726,6 +5736,8 @@ this
 _dompc
 =
 dompc
+.
+_innerObject
 ;
 }
 dispatchEvent
