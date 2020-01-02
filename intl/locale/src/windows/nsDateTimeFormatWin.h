@@ -128,6 +128,13 @@ nsDateTimeFormatWin
 public
 nsIDateTimeFormat
 {
+virtual
+~
+nsDateTimeFormatWin
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -285,13 +292,6 @@ SetLength
 0
 )
 ;
-}
-virtual
-~
-nsDateTimeFormatWin
-(
-)
-{
 }
 private
 :
