@@ -3174,6 +3174,13 @@ GetCurrentInnerWindowInternal
 )
 const
 {
+MOZ_ASSERT
+(
+IsOuterWindow
+(
+)
+)
+;
 return
 static_cast
 <

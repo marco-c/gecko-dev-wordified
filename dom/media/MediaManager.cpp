@@ -13283,7 +13283,7 @@ if
 piWin
 -
 >
-GetCurrentInnerWindow
+IsInnerWindow
 (
 )
 |
@@ -13291,7 +13291,7 @@ GetCurrentInnerWindow
 piWin
 -
 >
-IsInnerWindow
+GetCurrentInnerWindow
 (
 )
 )
@@ -13304,7 +13304,7 @@ if
 piWin
 -
 >
-GetCurrentInnerWindow
+IsInnerWindow
 (
 )
 )
@@ -13312,11 +13312,6 @@ GetCurrentInnerWindow
 windowID
 =
 piWin
--
->
-GetCurrentInnerWindow
-(
-)
 -
 >
 WindowID
@@ -13329,6 +13324,11 @@ else
 windowID
 =
 piWin
+-
+>
+GetCurrentInnerWindow
+(
+)
 -
 >
 WindowID

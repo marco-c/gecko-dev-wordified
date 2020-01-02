@@ -9058,6 +9058,13 @@ mParentTarget
 =
 nullptr
 ;
+if
+(
+IsOuterWindow
+(
+)
+)
+{
 nsGlobalWindow
 *
 inner
@@ -9078,6 +9085,7 @@ CleanUp
 (
 )
 ;
+}
 }
 if
 (
