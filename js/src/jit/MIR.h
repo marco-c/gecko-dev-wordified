@@ -42207,6 +42207,14 @@ ins
 )
 ;
 }
+void
+computeRange
+(
+TempAllocator
+&
+alloc
+)
+;
 }
 ;
 /
