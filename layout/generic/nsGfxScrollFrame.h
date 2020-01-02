@@ -389,7 +389,6 @@ nsDisplayListSet
 &
 aLists
 bool
-&
 aCreateLayer
 bool
 aPositioned
