@@ -3607,6 +3607,13 @@ kMaskTypeKTable
 static
 const
 int32_t
+kMathVariantKTable
+[
+]
+;
+static
+const
+int32_t
 kContextOpacityKTable
 [
 ]

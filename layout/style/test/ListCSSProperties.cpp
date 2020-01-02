@@ -933,6 +933,14 @@ min
 -
 size
 "
+"
+-
+moz
+-
+math
+-
+variant
+"
 }
 ;
 inline
