@@ -1487,6 +1487,9 @@ listener
 >
 mListenerType
 =
+Listener
+:
+:
 eJSEventListener
 ;
 }
@@ -1505,6 +1508,9 @@ listener
 >
 mListenerType
 =
+Listener
+:
+:
 eWebIDLListener
 ;
 }
@@ -1530,6 +1536,9 @@ listener
 >
 mListenerType
 =
+Listener
+:
+:
 eWrappedJSListener
 ;
 }
@@ -1540,6 +1549,9 @@ listener
 >
 mListenerType
 =
+Listener
+:
+:
 eNativeListener
 ;
 }
@@ -5806,6 +5818,9 @@ aListener
 mListenerType
 =
 =
+Listener
+:
+:
 eJSEventListener
 )
 &
@@ -7000,6 +7015,9 @@ listener
 mListenerType
 =
 =
+Listener
+:
+:
 eJSEventListener
 &
 &
@@ -7825,6 +7843,9 @@ listener
 mListenerType
 =
 =
+Listener
+:
+:
 eWrappedJSListener
 )
 {
@@ -7848,6 +7869,9 @@ listener
 mListenerType
 =
 =
+Listener
+:
+:
 eWebIDLListener
 )
 {
