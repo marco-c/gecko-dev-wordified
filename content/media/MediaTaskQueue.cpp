@@ -209,8 +209,10 @@ MediaTaskQueue
 :
 Dispatch
 (
+TemporaryRef
+<
 nsIRunnable
-*
+>
 aRunnable
 )
 {

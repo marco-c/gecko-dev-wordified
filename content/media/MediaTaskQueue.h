@@ -259,8 +259,10 @@ aPool
 nsresult
 Dispatch
 (
+TemporaryRef
+<
 nsIRunnable
-*
+>
 aRunnable
 )
 ;
