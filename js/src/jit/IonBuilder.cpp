@@ -1720,7 +1720,7 @@ if
 target
 -
 >
-isInterpretedLazy
+isInterpreted
 (
 )
 &
