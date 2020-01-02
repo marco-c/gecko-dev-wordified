@@ -535,6 +535,7 @@ Hash
 *
 KeyTypePointer
 ;
+explicit
 CacheIndexEntry
 (
 KeyTypePointer
@@ -6781,6 +6782,7 @@ this
 }
 private
 :
+explicit
 DiskConsumptionObserver
 (
 nsWeakPtr
@@ -6880,6 +6882,7 @@ CacheIndexAutoLock
 {
 public
 :
+explicit
 CacheIndexAutoLock
 (
 CacheIndex
@@ -6986,6 +6989,7 @@ CacheIndexAutoUnlock
 {
 public
 :
+explicit
 CacheIndexAutoUnlock
 (
 CacheIndex

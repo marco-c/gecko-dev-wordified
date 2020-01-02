@@ -652,6 +652,7 @@ Hash
 *
 KeyTypePointer
 ;
+explicit
 HandleHashKey
 (
 KeyTypePointer

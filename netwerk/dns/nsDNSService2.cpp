@@ -558,6 +558,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIDNSRECORD
+explicit
 nsDNSRecord
 (
 nsHostRecord
@@ -2078,6 +2079,7 @@ nsResolveHostCallback
 {
 public
 :
+explicit
 nsDNSSyncRequest
 (
 PRMonitor

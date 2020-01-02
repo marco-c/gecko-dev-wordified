@@ -2804,6 +2804,7 @@ ServerSocketListenerProxy
 }
 public
 :
+explicit
 ServerSocketListenerProxy
 (
 nsIServerSocketListener

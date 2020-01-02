@@ -452,6 +452,7 @@ aMallocSizeOf
 )
 const
 ;
+explicit
 nsStandardURL
 (
 bool
@@ -730,6 +731,7 @@ nsSegmentEncoder
 {
 public
 :
+explicit
 nsSegmentEncoder
 (
 const

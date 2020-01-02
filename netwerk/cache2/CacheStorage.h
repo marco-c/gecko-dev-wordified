@@ -191,6 +191,7 @@ MEMORY_ONLY
 ALL_ENTRIES
 }
 ;
+explicit
 CacheEntryTable
 (
 EType

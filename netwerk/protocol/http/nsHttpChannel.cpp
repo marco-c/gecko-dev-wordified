@@ -1001,6 +1001,7 @@ AutoRedirectVetoNotifier
 {
 public
 :
+explicit
 AutoRedirectVetoNotifier
 (
 nsHttpChannel

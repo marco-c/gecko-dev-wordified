@@ -208,6 +208,7 @@ mConnection
 )
 NS_DECL_NSAHTTPSEGMENTREADER
 NS_DECL_NSAHTTPSEGMENTWRITER
+explicit
 Http2Session
 (
 nsISocketTransport

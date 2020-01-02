@@ -604,6 +604,7 @@ NS_DECL_NSISUPPORTSPRIORITY
 nsLoadGroup
 methods
 :
+explicit
 nsLoadGroup
 (
 nsISupports

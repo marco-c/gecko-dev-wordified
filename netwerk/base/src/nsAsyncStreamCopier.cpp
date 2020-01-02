@@ -191,6 +191,7 @@ information
 .
 *
 /
+explicit
 AsyncApplyBufferingPolicyEvent
 (
 nsAsyncStreamCopier

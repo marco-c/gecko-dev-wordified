@@ -5330,6 +5330,7 @@ nsRunnable
 {
 public
 :
+explicit
 ReleaseNSPRHandleEvent
 (
 CacheFileHandle

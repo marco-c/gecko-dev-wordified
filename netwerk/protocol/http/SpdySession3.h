@@ -232,6 +232,7 @@ mConnection
 )
 NS_DECL_NSAHTTPSEGMENTREADER
 NS_DECL_NSAHTTPSEGMENTWRITER
+explicit
 SpdySession3
 (
 nsISocketTransport

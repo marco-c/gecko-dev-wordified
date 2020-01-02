@@ -338,6 +338,7 @@ DONT_REPORT
 1
 }
 ;
+explicit
 CacheMemoryConsumer
 (
 uint32_t
@@ -1605,6 +1606,7 @@ MEMORY
 }
 mType
 ;
+explicit
 MemoryPool
 (
 EType

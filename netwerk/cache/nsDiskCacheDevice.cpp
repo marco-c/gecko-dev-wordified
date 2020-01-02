@@ -464,6 +464,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsEvictDiskCacheEntriesEvent
 (
 nsDiskCacheDevice
@@ -1256,6 +1257,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSICACHEDEVICEINFO
+explicit
 nsDiskCacheDeviceInfo
 (
 nsDiskCacheDevice

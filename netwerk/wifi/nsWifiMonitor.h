@@ -225,6 +225,7 @@ nsWifiListener
 {
 public
 :
+explicit
 nsWifiListener
 (
 nsMainThreadPtrHolder

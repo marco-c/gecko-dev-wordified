@@ -304,6 +304,7 @@ operator
 new
 |
 .
+explicit
 nsSimpleNestedURI
 (
 nsIURI

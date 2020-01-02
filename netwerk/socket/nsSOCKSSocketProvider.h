@@ -135,6 +135,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSISOCKETPROVIDER
+explicit
 nsSOCKSSocketProvider
 (
 uint32_t

@@ -615,6 +615,7 @@ AutoResetStatement
 {
 public
 :
+explicit
 AutoResetStatement
 (
 mozIStorageStatement
@@ -1705,6 +1706,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSICACHEDEVICEINFO
+explicit
 nsOfflineCacheDeviceInfo
 (
 nsOfflineCacheDevice
@@ -4566,6 +4568,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsCloseDBEvent
 (
 mozIStorageConnection

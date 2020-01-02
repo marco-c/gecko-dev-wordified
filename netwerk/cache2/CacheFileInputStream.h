@@ -122,6 +122,7 @@ NS_DECL_NSIASYNCINPUTSTREAM
 NS_DECL_NSISEEKABLESTREAM
 public
 :
+explicit
 CacheFileInputStream
 (
 CacheFile

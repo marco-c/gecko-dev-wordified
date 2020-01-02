@@ -2933,6 +2933,7 @@ AutoIncrement
 {
 public
 :
+explicit
 AutoIncrement
 (
 uint32_t

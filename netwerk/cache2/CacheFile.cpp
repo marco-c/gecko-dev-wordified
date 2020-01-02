@@ -540,6 +540,7 @@ CacheFileIOListener
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
+explicit
 DoomFileHelper
 (
 CacheFileListener
@@ -2166,6 +2167,7 @@ AutoFailDoomListener
 {
 public
 :
+explicit
 AutoFailDoomListener
 (
 CacheFileHandle

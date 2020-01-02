@@ -216,6 +216,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsARequestObserverEvent
 (
 nsIRequest

@@ -137,6 +137,7 @@ nsIThreadRetargetableStreamListener
 {
 public
 :
+explicit
 nsStreamListenerWrapper
 (
 nsIStreamListener

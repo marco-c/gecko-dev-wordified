@@ -1036,6 +1036,7 @@ CacheFileAutoLock
 {
 public
 :
+explicit
 CacheFileAutoLock
 (
 CacheFile

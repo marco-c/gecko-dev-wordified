@@ -2234,6 +2234,7 @@ nsCacheServiceAutoLock
 {
 public
 :
+explicit
 nsCacheServiceAutoLock
 (
 mozilla

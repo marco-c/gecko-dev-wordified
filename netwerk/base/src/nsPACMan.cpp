@@ -777,6 +777,7 @@ nsRunnable
 {
 public
 :
+explicit
 ShutdownThread
 (
 nsIThread
@@ -953,6 +954,7 @@ nsRunnable
 {
 public
 :
+explicit
 PACLoadComplete
 (
 nsPACMan
@@ -1149,6 +1151,7 @@ just
 process
 the
 queue
+explicit
 ExecutePACThreadAction
 (
 nsPACMan

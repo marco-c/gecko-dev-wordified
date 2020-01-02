@@ -177,6 +177,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsShutdownThread
 (
 nsIThread

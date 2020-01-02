@@ -1025,6 +1025,7 @@ CacheFileIOListener
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
+explicit
 FileOpenHelper
 (
 CacheIndex
@@ -10251,6 +10252,7 @@ WriteLogHelper
 {
 public
 :
+explicit
 WriteLogHelper
 (
 PRFileDesc

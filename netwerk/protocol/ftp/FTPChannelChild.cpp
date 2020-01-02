@@ -3019,6 +3019,7 @@ ChannelEvent
 {
 public
 :
+explicit
 FTPFlushedForDiversionEvent
 (
 FTPChannelChild
@@ -3247,6 +3248,7 @@ ChannelEvent
 {
 public
 :
+explicit
 FTPDeleteSelfEvent
 (
 FTPChannelChild

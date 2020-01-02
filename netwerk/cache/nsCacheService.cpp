@@ -1401,6 +1401,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsSetSmartSizeEvent
 (
 int32_t
@@ -6159,6 +6160,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsProcessRequestEvent
 (
 nsCacheRequest
@@ -8136,6 +8138,7 @@ nsRunnable
 {
 public
 :
+explicit
 EvictionNotifierRunnable
 (
 nsISupports

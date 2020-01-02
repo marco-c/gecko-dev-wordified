@@ -343,6 +343,7 @@ inBrowser
 )
 {
 }
+explicit
 nsCookieKey
 (
 KeyTypePointer
@@ -619,6 +620,7 @@ ArrayType
 index_type
 IndexType
 ;
+explicit
 nsCookieEntry
 (
 KeyTypePointer

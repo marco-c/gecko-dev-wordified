@@ -288,6 +288,7 @@ the
 provided
 URI
 .
+explicit
 nsMediaFragmentURIParser
 (
 nsIURI
@@ -307,6 +308,7 @@ URI
 reference
 portion
 .
+explicit
 nsMediaFragmentURIParser
 (
 nsCString

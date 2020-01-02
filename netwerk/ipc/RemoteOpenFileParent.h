@@ -160,6 +160,7 @@ PRemoteOpenFileParent
 {
 public
 :
+explicit
 RemoteOpenFileParent
 (
 nsIFileURL

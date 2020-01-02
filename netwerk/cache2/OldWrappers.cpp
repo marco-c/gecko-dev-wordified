@@ -216,6 +216,7 @@ nsRunnable
 {
 public
 :
+explicit
 DoomCallbackSynchronizer
 (
 nsICacheEntryDoomCallback
@@ -402,6 +403,7 @@ nsICacheListener
 {
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSICACHELISTENER
+explicit
 DoomCallbackWrapper
 (
 nsICacheEntryDoomCallback
@@ -2355,6 +2357,7 @@ MetaDataVisitorWrapper
 }
 NS_DECL_ISUPPORTS
 NS_DECL_NSICACHEMETADATAVISITOR
+explicit
 MetaDataVisitorWrapper
 (
 nsICacheEntryMetaDataVisitor

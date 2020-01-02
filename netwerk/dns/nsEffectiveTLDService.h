@@ -224,6 +224,7 @@ char
 *
 KeyTypePointer
 ;
+explicit
 nsDomainEntry
 (
 KeyTypePointer

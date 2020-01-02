@@ -275,6 +275,7 @@ aInitval
 0
 )
 ;
+explicit
 CacheHash
 (
 uint32_t

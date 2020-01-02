@@ -800,6 +800,7 @@ nsCString
 >
 mBlacklistedItems
 ;
+explicit
 nsHostRecord
 (
 const
@@ -1580,6 +1581,7 @@ const
 ;
 private
 :
+explicit
 nsHostResolver
 (
 uint32_t

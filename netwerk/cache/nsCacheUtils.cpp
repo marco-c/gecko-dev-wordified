@@ -145,6 +145,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsDestroyThreadEvent
 (
 nsIThread
