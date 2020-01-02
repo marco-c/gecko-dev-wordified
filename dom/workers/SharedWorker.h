@@ -145,6 +145,17 @@ nsIDOMEvent
 class
 nsPIDOMWindow
 ;
+namespace
+mozilla
+{
+class
+EventChainPreVisitor
+;
+}
+/
+/
+namespace
+mozilla
 BEGIN_WORKERS_NAMESPACE
 class
 MessagePort
@@ -331,7 +342,7 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

@@ -155,6 +155,10 @@ BasicEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsGenConImageContent
 MOZ_FINAL
@@ -274,7 +278,7 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

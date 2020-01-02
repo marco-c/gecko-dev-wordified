@@ -285,6 +285,9 @@ namespace
 mozilla
 {
 class
+EventChainPreVisitor
+;
+class
 EventChainVisitor
 ;
 class
@@ -3335,7 +3338,10 @@ aVisitor
 nsresult
 PreHandleEventForAnchors
 (
-nsEventChainPreVisitor
+mozilla
+:
+:
+EventChainPreVisitor
 &
 aVisitor
 )
@@ -7723,7 +7729,10 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+mozilla
+:
+:
+EventChainPreVisitor
 &
 aVisitor
 )

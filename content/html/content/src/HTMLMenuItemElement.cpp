@@ -1190,7 +1190,7 @@ HTMLMenuItemElement
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

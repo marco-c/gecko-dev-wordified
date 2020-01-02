@@ -178,6 +178,10 @@ LockedFile
 .
 h
 "
+using
+namespace
+mozilla
+;
 USING_FILE_NAMESPACE
 FileRequest
 :
@@ -306,7 +310,7 @@ FileRequest
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

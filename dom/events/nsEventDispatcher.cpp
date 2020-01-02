@@ -828,7 +828,7 @@ nsEventTargetChainItem
 void
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )
@@ -1138,7 +1138,7 @@ nsEventTargetChainItem
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )
@@ -3067,7 +3067,7 @@ aEventStatus
 :
 nsEventStatus_eIgnore
 ;
-nsEventChainPreVisitor
+EventChainPreVisitor
 preVisitor
 (
 aPresContext

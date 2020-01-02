@@ -255,6 +255,10 @@ dom
 :
 StructuredCloneClosure
 ;
+using
+namespace
+mozilla
+;
 bool
 nsInProcessTabChildGlobal
 :
@@ -269,9 +273,6 @@ nsAString
 &
 aMessage
 const
-mozilla
-:
-:
 dom
 :
 :
@@ -832,9 +833,6 @@ nsFrameMessageManager
 (
 this
 nullptr
-mozilla
-:
-:
 dom
 :
 :
@@ -1282,7 +1280,7 @@ nsInProcessTabChildGlobal
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

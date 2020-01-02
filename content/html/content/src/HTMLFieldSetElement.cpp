@@ -348,7 +348,7 @@ HTMLFieldSetElement
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

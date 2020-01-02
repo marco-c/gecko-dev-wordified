@@ -2489,7 +2489,7 @@ HTMLFormElement
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

@@ -17053,7 +17053,7 @@ HTMLInputElement
 :
 NeedToInitializeEditorForEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )
@@ -17217,7 +17217,7 @@ HTMLInputElement
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

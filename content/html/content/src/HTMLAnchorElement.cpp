@@ -162,6 +162,13 @@ h
 #
 include
 "
+nsEventDispatcher
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -1203,7 +1210,7 @@ HTMLAnchorElement
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

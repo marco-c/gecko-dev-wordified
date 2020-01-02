@@ -3543,7 +3543,7 @@ SVGSVGElement
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

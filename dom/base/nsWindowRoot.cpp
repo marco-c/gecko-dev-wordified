@@ -803,7 +803,7 @@ nsWindowRoot
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

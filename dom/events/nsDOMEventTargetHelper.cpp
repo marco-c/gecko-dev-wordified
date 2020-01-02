@@ -1511,7 +1511,7 @@ nsDOMEventTargetHelper
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

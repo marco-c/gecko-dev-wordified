@@ -535,6 +535,13 @@ h
 #
 include
 "
+nsEventDispatcher
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -20331,7 +20338,7 @@ nsDOMDeviceStorage
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

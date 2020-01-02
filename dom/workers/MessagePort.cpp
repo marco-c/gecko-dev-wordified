@@ -182,6 +182,10 @@ dom
 :
 Sequence
 ;
+using
+namespace
+mozilla
+;
 USING_WORKERS_NAMESPACE
 namespace
 {
@@ -1045,7 +1049,7 @@ MessagePort
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

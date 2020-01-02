@@ -4506,7 +4506,7 @@ nsGenericHTMLElement
 :
 PreHandleEventForAnchors
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )
@@ -13662,7 +13662,7 @@ nsGenericHTMLFormElement
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

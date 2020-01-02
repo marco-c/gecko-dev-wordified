@@ -4045,7 +4045,7 @@ ignored
 when
 /
 /
-nsEventChainPreVisitor
+EventChainPreVisitor
 :
 :
 mForceContentDispatch

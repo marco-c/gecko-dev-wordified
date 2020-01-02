@@ -304,6 +304,10 @@ savepoint
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 dom
@@ -3805,7 +3809,7 @@ IDBTransaction
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

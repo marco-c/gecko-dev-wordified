@@ -264,7 +264,7 @@ HTMLOptGroupElement
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

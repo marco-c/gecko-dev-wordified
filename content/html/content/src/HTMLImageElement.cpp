@@ -1630,7 +1630,7 @@ HTMLImageElement
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

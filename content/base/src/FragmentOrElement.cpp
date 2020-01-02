@@ -4309,7 +4309,7 @@ nsIContent
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

@@ -1449,7 +1449,7 @@ LockedFile
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

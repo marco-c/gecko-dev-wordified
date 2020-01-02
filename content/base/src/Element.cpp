@@ -13324,7 +13324,7 @@ Element
 :
 PreHandleEventForLinks
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

@@ -125,6 +125,9 @@ h
 namespace
 mozilla
 {
+class
+EventChainPreVisitor
+;
 namespace
 dom
 {
@@ -195,7 +198,7 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

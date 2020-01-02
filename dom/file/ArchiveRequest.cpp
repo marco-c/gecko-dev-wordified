@@ -150,6 +150,10 @@ nsEventDispatcher
 .
 h
 "
+using
+namespace
+mozilla
+;
 USING_FILE_NAMESPACE
 /
 *
@@ -333,7 +337,7 @@ ArchiveRequest
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

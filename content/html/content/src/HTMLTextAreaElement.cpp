@@ -2083,7 +2083,7 @@ HTMLTextAreaElement
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

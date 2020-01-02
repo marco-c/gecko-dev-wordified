@@ -1908,7 +1908,7 @@ IDBRequest
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

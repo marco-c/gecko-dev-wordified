@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsEventDispatcher
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -1709,7 +1716,7 @@ HTMLLinkElement
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

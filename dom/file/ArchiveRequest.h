@@ -147,6 +147,17 @@ FileCommon
 .
 h
 "
+namespace
+mozilla
+{
+class
+EventChainPreVisitor
+;
+}
+/
+/
+namespace
+mozilla
 BEGIN_FILE_NAMESPACE
 /
 *
@@ -230,7 +241,7 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )
