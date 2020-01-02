@@ -9341,6 +9341,16 @@ endif
 #
 ifdef
 MOZ_DMD
+if
+(
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
+)
+{
 /
 /
 Attempt
@@ -9357,6 +9367,7 @@ aGlobalObj
 DMDFunctions
 )
 ;
+}
 #
 endif
 #
