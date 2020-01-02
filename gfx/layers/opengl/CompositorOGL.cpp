@@ -5667,9 +5667,8 @@ break
 ;
 default
 :
-MOZ_ASSERT
+MOZ_ASSERT_UNREACHABLE
 (
-0
 "
 Unsupported
 blend
@@ -5677,6 +5676,9 @@ mode
 !
 "
 )
+;
+return
+false
 ;
 }
 aGL
