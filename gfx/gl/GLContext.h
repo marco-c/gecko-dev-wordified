@@ -485,6 +485,7 @@ Tegra
 AndroidEmulator
 GalliumLlvmpipe
 IntelHD3000
+MicrosoftBasicRenderDriver
 Other
 MOZ_END_ENUM_CLASS
 (
