@@ -1279,7 +1279,7 @@ private
 :
 JSContext
 *
-cx
+cx_
 ;
 RootedObject
 iterator
@@ -1312,7 +1312,7 @@ JSContext
 cx
 )
 :
-cx
+cx_
 (
 cx
 )

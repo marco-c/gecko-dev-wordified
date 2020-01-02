@@ -8203,6 +8203,12 @@ HandleValue
 iterable
 )
 {
+JSContext
+*
+cx
+=
+cx_
+;
 RootedObject
 iterableObj
 (
@@ -8475,6 +8481,12 @@ JS_ASSERT
 (
 iterator
 )
+;
+JSContext
+*
+cx
+=
+cx_
 ;
 RootedValue
 method
