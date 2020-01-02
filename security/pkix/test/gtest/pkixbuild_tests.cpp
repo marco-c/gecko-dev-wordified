@@ -933,6 +933,12 @@ cert
 -
 >
 derCert
+nullptr
+/
+*
+additionalNameConstraints
+*
+/
 keepGoing
 )
 ;

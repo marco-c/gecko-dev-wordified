@@ -338,9 +338,13 @@ Result
 CheckNameConstraints
 (
 const
+SECItem
+&
+encodedNameConstraints
+const
 BackCert
 &
-cert
+firstChild
 KeyPurposeId
 requiredEKUIfPresent
 )
