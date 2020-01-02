@@ -2210,14 +2210,14 @@ one
 should
 define
 the
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 to
 set
+/
+/
 the
-/
-/
 right
 set
 of
@@ -2378,12 +2378,14 @@ Collect
 information
 from
 the
+pre
+-
 truncated
 ranges
 .
 virtual
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 {
@@ -11286,7 +11288,7 @@ fp
 const
 ;
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 ;
@@ -18212,7 +18214,7 @@ None
 ;
 }
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 ;
@@ -19885,7 +19887,7 @@ truncate
 )
 ;
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 ;
@@ -25340,7 +25342,7 @@ this
 ;
 }
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 ;
@@ -25878,7 +25880,7 @@ fallible_
 ;
 }
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 ;
@@ -26388,7 +26390,7 @@ Element
 ;
 }
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 ;
@@ -37668,7 +37670,7 @@ needsNegativeIntCheck_
 ;
 }
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 ;
