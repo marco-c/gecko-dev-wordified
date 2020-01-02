@@ -2426,6 +2426,9 @@ resetBranch
 function
 (
 prefBranch
+=
+"
+"
 )
 {
 try
