@@ -965,10 +965,6 @@ active
 n
 "
 root
-.
-get
-(
-)
 )
 ;
 SetActive
