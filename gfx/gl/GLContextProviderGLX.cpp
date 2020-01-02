@@ -4558,6 +4558,7 @@ GLContextGLX
 IsDoubleBuffered
 (
 )
+const
 {
 return
 mDoubleBuffered
@@ -4570,6 +4571,7 @@ GLContextGLX
 SupportsRobustness
 (
 )
+const
 {
 return
 mGLX
