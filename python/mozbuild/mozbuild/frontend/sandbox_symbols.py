@@ -1515,7 +1515,7 @@ EXTRA_JS_MODULES
 '
 :
 (
-StrictOrderingOnAppendList
+HierarchicalStringList
 list
         
 "
@@ -1570,7 +1570,7 @@ EXTRA_PP_JS_MODULES
 '
 :
 (
-StrictOrderingOnAppendList
+HierarchicalStringList
 list
         
 "
