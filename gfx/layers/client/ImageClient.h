@@ -516,8 +516,10 @@ client
 /
 virtual
 void
-FlushImage
+FlushAllImages
 (
+bool
+aExceptFront
 )
 {
 }
@@ -651,8 +653,10 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-FlushImage
+FlushAllImages
 (
+bool
+aExceptFront
 )
 MOZ_OVERRIDE
 ;
@@ -744,8 +748,10 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-FlushImage
+FlushAllImages
 (
+bool
+aExceptFront
 )
 MOZ_OVERRIDE
 ;

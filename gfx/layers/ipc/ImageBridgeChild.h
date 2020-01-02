@@ -1529,7 +1529,7 @@ CompositableHost
 /
 static
 void
-FlushImage
+FlushAllImages
 (
 ImageClient
 *
@@ -1537,6 +1537,8 @@ aClient
 ImageContainer
 *
 aContainer
+bool
+aExceptFront
 )
 ;
 /
@@ -1557,7 +1559,7 @@ thread
 /
 static
 void
-FlushImageNow
+FlushAllImagesNow
 (
 ImageClient
 *
@@ -1565,6 +1567,8 @@ aClient
 ImageContainer
 *
 aContainer
+bool
+aExceptFront
 )
 ;
 /

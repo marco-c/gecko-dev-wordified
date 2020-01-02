@@ -584,9 +584,8 @@ UnlockCurrentImage
 mImageContainer
 -
 >
-SetCurrentImage
+ClearAllImages
 (
-nullptr
 )
 ;
 mImageSizeChanged

@@ -2203,7 +2203,7 @@ aContainer
 }
 static
 void
-FlushImageSync
+FlushAllImagesSync
 (
 ImageClient
 *
@@ -2211,6 +2211,8 @@ aClient
 ImageContainer
 *
 aContainer
+bool
+aExceptFront
 ReentrantMonitor
 *
 aBarrier
@@ -2222,10 +2224,11 @@ aDone
 ImageBridgeChild
 :
 :
-FlushImageNow
+FlushAllImagesNow
 (
 aClient
 aContainer
+aExceptFront
 )
 ;
 ReentrantMonitorAutoEnter
@@ -2255,7 +2258,7 @@ void
 ImageBridgeChild
 :
 :
-FlushImage
+FlushAllImages
 (
 ImageClient
 *
@@ -2263,6 +2266,8 @@ aClient
 ImageContainer
 *
 aContainer
+bool
+aExceptFront
 )
 {
 if
@@ -2272,10 +2277,11 @@ InImageBridgeChildThread
 )
 )
 {
-FlushImageNow
+FlushAllImagesNow
 (
 aClient
 aContainer
+aExceptFront
 )
 ;
 return
@@ -2315,9 +2321,10 @@ FROM_HERE
 NewRunnableFunction
 (
 &
-FlushImageSync
+FlushAllImagesSync
 aClient
 aContainer
+aExceptFront
 &
 barrier
 &
@@ -2364,7 +2371,7 @@ void
 ImageBridgeChild
 :
 :
-FlushImageNow
+FlushAllImagesNow
 (
 ImageClient
 *
@@ -2372,6 +2379,8 @@ aClient
 ImageContainer
 *
 aContainer
+bool
+aExceptFront
 )
 {
 MOZ_ASSERT
@@ -2389,6 +2398,10 @@ BeginTransaction
 if
 (
 aContainer
+&
+&
+!
+aExceptFront
 )
 {
 aContainer
@@ -2402,8 +2415,9 @@ ClearCurrentImage
 aClient
 -
 >
-FlushImage
+FlushAllImages
 (
+aExceptFront
 )
 ;
 aClient

@@ -571,6 +571,13 @@ aCompositor
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+ClearData
+(
+)
+MOZ_OVERRIDE
+;
 GLuint
 GetTexture
 (
