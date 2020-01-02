@@ -193,8 +193,6 @@ import
 os
 import
 shutil
-import
-mozfile
 #
 from
 http
@@ -1463,9 +1461,20 @@ name
 ]
 )
             
-mozfile
+if
+os
 .
-remove
+path
+.
+isdir
+(
+manifest_dir
+)
+:
+                
+shutil
+.
+rmtree
 (
 manifest_dir
 )
@@ -1920,11 +1929,22 @@ if
 self
 .
 _installed_apps
+and
+os
+.
+path
+.
+isdir
+(
+self
+.
+webapps_dir
+)
 :
             
-mozfile
+shutil
 .
-remove
+rmtree
 (
 self
 .
@@ -1956,9 +1976,9 @@ self
 webapps_dir
 )
             
-mozfile
+shutil
 .
-remove
+rmtree
 (
 self
 .

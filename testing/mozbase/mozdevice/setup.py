@@ -57,40 +57,20 @@ from
 setuptools
 import
 setup
-PACKAGE_NAME
-=
-'
-mozdevice
-'
 PACKAGE_VERSION
 =
 '
 0
 .
-33
+29
 '
-deps
-=
-[
-'
-mozfile
->
-=
-1
-.
-0
-'
-        
-'
-mozlog
-'
-       
-]
 setup
 (
 name
 =
-PACKAGE_NAME
+'
+mozdevice
+'
       
 version
 =
@@ -219,7 +199,11 @@ False
       
 install_requires
 =
-deps
+[
+'
+mozlog
+'
+]
       
 entry_points
 =

@@ -65,7 +65,7 @@ MPL
 "
 "
 "
-Utility
+utility
 functions
 for
 mozrunner
