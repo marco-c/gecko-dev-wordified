@@ -439,11 +439,12 @@ pointer
 .
 *
 /
-cx
--
->
-minorGC
+js
+:
+:
+MinorGC
 (
+cx
 JS
 :
 :

@@ -1901,10 +1901,9 @@ PrepareForFullGC
 this
 )
 ;
-gc
-.
-gc
+GC
 (
+this
 GC_NORMAL
 JS
 :
