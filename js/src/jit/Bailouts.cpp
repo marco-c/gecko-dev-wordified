@@ -485,6 +485,10 @@ ionScript
 (
 )
 )
+instructionResults_
+(
+nullptr
+)
 {
 }
 void
