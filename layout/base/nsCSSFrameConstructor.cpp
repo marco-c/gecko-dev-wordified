@@ -61875,14 +61875,7 @@ aState
 .
 PushFloatContainingBlock
 (
-static_cast
-<
-nsContainerFrame
-*
->
-(
 aFrame
-)
 floatSaveState
 )
 ;
