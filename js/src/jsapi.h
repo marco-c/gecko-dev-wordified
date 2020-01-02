@@ -21743,7 +21743,7 @@ sourcePolicy
 (
 SAVE_SOURCE
 )
-introducer
+introductionType
 (
 nullptr
 )
@@ -21964,7 +21964,7 @@ sourcePolicy
 /
 /
 |
-introducer
+introductionType
 |
 is
 a
@@ -21991,7 +21991,7 @@ GeneratorFunction
 const
 char
 *
-introducer
+introductionType
 ;
 unsigned
 introductionLineno
@@ -22736,7 +22736,7 @@ introducerFn
 return
 false
 ;
-introducer
+introductionType
 =
 intro
 ;
@@ -23306,7 +23306,7 @@ introducerFilename_
 =
 introducerFn
 ;
-introducer
+introductionType
 =
 intro
 ;
