@@ -401,7 +401,7 @@ aOffset
 MOZ_OVERRIDE
 {
 return
-true
+false
 ;
 }
 virtual
