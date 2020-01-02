@@ -388,10 +388,14 @@ jsm
 '
 )
 ;
-Cu
+XPCOMUtils
 .
-import
+defineLazyModuleGetter
 (
+this
+'
+NetworkManager
+'
 '
 resource
 :
