@@ -2112,6 +2112,7 @@ PropertyListUtils
 .
 _readFromArrayBufferSync
 (
+new
 Uint8Array
 (
 bytes

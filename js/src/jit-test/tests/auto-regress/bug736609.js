@@ -23,6 +23,7 @@ try
 {
 a
 =
+new
 ArrayBuffer
 (
 76
@@ -30,6 +31,7 @@ ArrayBuffer
 ;
 b
 =
+new
 Uint32Array
 (
 a
@@ -40,6 +42,7 @@ uneval
 )
 c
 =
+new
 Uint8Array
 (
 a

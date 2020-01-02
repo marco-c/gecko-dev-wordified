@@ -276,6 +276,7 @@ arg
 )
 (
 f
+new
 Int32Array
 (
 [

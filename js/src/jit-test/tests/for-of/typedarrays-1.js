@@ -12,6 +12,7 @@ arrays
 var
 a
 =
+new
 Int8Array
 (
 [

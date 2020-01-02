@@ -1836,6 +1836,7 @@ doTypedArrayMismatchTest
 "
 testShortArray
 "
+new
 Int16Array
 (
 [
@@ -1846,6 +1847,7 @@ Int16Array
 ]
 )
 4
+new
 Int16Array
 (
 [
@@ -1881,6 +1883,7 @@ doTypedArrayMismatchTest
 "
 testShortArray
 "
+new
 Uint16Array
 (
 [
@@ -1891,6 +1894,7 @@ Uint16Array
 ]
 )
 4
+new
 Uint16Array
 (
 [

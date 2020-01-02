@@ -458,6 +458,7 @@ input
 let
 data
 =
+new
 Uint8Array
 (
 EXTRACTION_BUFFER

@@ -22,6 +22,7 @@ g
 ;
 x
 =
+new
 Float32Array
 (
 )
@@ -263,6 +264,7 @@ y
 ;
 z
 =
+new
 Float32Array
 (
 6
@@ -283,6 +285,7 @@ unshift
 call
 (
 x
+new
 ArrayBuffer
 (
 )

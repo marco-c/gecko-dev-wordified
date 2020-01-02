@@ -55,6 +55,7 @@ try
 {
 v
 =
+new
 ArrayBuffer
 (
 )

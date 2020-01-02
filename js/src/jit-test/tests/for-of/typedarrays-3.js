@@ -26,6 +26,7 @@ x
 ]
 ]
 of
+new
 Int32Array
 (
 0

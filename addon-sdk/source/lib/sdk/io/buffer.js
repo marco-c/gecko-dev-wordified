@@ -339,6 +339,7 @@ try
 let
 buffer
 =
+new
 Uint8Array
 (
 subject
@@ -472,6 +473,7 @@ utf8
 '
 ;
 return
+new
 Uint8Array
 (
 new
@@ -506,6 +508,7 @@ form
 of
 /
 /
+new
 Uint8Array
 (
 buffer
@@ -562,6 +565,7 @@ length
 3
 )
 return
+new
 Uint8Array
 (
 subject
@@ -590,6 +594,7 @@ prototype
 .
 else
 return
+new
 Uint8Array
 (
 subject
@@ -1148,6 +1153,7 @@ view
 ;
 view
 =
+new
 DataView
 (
 this
@@ -1667,6 +1673,7 @@ This
 instantiation
 uses
 the
+new
 Uint8Array
 (
 buffer

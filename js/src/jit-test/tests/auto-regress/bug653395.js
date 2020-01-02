@@ -42,6 +42,7 @@ function
 {
 __proto__
 =
+new
 Uint32Array
 (
 )

@@ -28,8 +28,10 @@ f
 x
 )
 {
+new
 Float64Array
 (
+new
 ArrayBuffer
 (
 )

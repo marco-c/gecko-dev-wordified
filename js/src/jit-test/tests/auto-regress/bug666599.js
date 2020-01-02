@@ -31,6 +31,7 @@ Flags
 /
 o1
 =
+new
 Float32Array
 (
 )
@@ -43,6 +44,7 @@ ArrayBuffer
 prototype
 o3
 =
+new
 Uint32Array
 (
 )

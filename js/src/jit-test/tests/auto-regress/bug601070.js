@@ -22,6 +22,7 @@ Flags
 var
 x
 =
+new
 Int32Array
 (
 )
