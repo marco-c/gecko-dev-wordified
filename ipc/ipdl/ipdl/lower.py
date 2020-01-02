@@ -43597,14 +43597,6 @@ md
 .
 decl
 .
-pure
-=
-0
-    
-md
-.
-decl
-.
 only_for_definition
 =
 True
