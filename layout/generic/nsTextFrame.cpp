@@ -52035,7 +52035,7 @@ TEXT_HAS_TAB
 (
 aLineLayout
 .
-GetCurrentFrameXDistanceFromBlock
+GetCurrentFrameInlineDistanceFromBlock
 (
 )
 -

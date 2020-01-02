@@ -1909,7 +1909,7 @@ aFrameReflowStatus
 {
 if
 (
-CRAZY_WIDTH
+CRAZY_SIZE
 (
 mMetrics
 .
@@ -1919,7 +1919,7 @@ Width
 )
 |
 |
-CRAZY_HEIGHT
+CRAZY_SIZE
 (
 mMetrics
 .
