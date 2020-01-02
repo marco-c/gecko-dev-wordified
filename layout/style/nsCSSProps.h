@@ -4114,6 +4114,13 @@ kFontWeightKTable
 static
 const
 KTableValue
+kGridAutoFlowKTable
+[
+]
+;
+static
+const
+KTableValue
 kGridTrackBreadthKTable
 [
 ]

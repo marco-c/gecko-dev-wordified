@@ -7258,6 +7258,10 @@ NS_STYLE_GRID_TRACK_BREADTH_MAX_CONTENT
 eStyleUnit_Enumerated
 )
 ;
+mGridAutoFlow
+=
+NS_STYLE_GRID_AUTO_FLOW_NONE
+;
 mBoxSizing
 =
 NS_STYLE_BOX_SIZING_CONTENT
@@ -7928,6 +7932,14 @@ mGridAutoRowsMax
 aOther
 .
 mGridAutoRowsMax
+|
+|
+mGridAutoFlow
+!
+=
+aOther
+.
+mGridAutoFlow
 )
 {
 return

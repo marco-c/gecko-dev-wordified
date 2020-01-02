@@ -1009,6 +1009,11 @@ GridAutoColumns
 )
 COMPUTED_STYLE_PROP
 (
+grid_auto_flow
+GridAutoFlow
+)
+COMPUTED_STYLE_PROP
+(
 grid_auto_rows
 GridAutoRows
 )
