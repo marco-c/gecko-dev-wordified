@@ -195,7 +195,7 @@ data
 {
 aParentSide
 .
-sendCallback
+sendEvent
 (
 p
 data
@@ -592,7 +592,7 @@ return
 serverSocket
 ;
 }
-sendString
+onRecvSendString
 :
 function
 (
@@ -610,7 +610,7 @@ aData
 )
 ;
 }
-sendArrayBuffer
+onRecvSendArrayBuffer
 :
 function
 (

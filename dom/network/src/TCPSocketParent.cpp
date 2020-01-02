@@ -916,7 +916,7 @@ rv
 mIntermediary
 -
 >
-SendArrayBuffer
+OnRecvSendArrayBuffer
 (
 val
 )
@@ -941,7 +941,7 @@ rv
 mIntermediary
 -
 >
-SendString
+OnRecvSendString
 (
 aData
 .
@@ -1012,7 +1012,7 @@ NS_IMETHODIMP
 TCPSocketParent
 :
 :
-SendCallback
+SendEvent
 (
 const
 nsAString
@@ -1029,8 +1029,6 @@ const
 nsAString
 &
 aReadyState
-uint32_t
-aBuffered
 JSContext
 *
 aCx

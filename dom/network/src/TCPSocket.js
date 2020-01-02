@@ -3066,7 +3066,7 @@ that
 .
 _socketBridge
 .
-open
+sendOpen
 (
 that
 host
@@ -3278,7 +3278,7 @@ this
 .
 _socketBridge
 .
-startTLS
+sendStartTLS
 (
 )
 ;
@@ -3492,7 +3492,7 @@ this
 .
 _socketBridge
 .
-close
+sendClose
 (
 )
 ;
@@ -3595,7 +3595,7 @@ this
 .
 _socketBridge
 .
-send
+sendSend
 (
 data
 byteOffset
@@ -3886,7 +3886,7 @@ this
 .
 _socketBridge
 .
-suspend
+sendSuspend
 (
 )
 ;
@@ -3937,7 +3937,7 @@ this
 .
 _socketBridge
 .
-resume
+sendResume
 (
 )
 ;
