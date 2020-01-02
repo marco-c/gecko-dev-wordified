@@ -857,7 +857,10 @@ mozilla
 dom
 :
 :
-NoMapping
+GamepadMappingType
+:
+:
+_empty
 gamepad
 .
 numButtons

@@ -2558,7 +2558,10 @@ AddGamepad
 "
 xinput
 "
-StandardMapping
+GamepadMappingType
+:
+:
+Standard
 kStandardGamepadButtons
 kStandardGamepadAxes
 )
@@ -4590,7 +4593,10 @@ gamepadsvc
 AddGamepad
 (
 gamepad_id
-NoMapping
+GamepadMappingType
+:
+:
+_empty
 gamepad
 .
 numButtons

@@ -1092,7 +1092,10 @@ mozilla
 dom
 :
 :
-NoMapping
+GamepadMappingType
+:
+:
+_empty
 (
 int
 )
