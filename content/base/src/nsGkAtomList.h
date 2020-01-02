@@ -13512,6 +13512,13 @@ MenuPopupFrame
 )
 GK_ATOM
 (
+numberControlFrame
+"
+NumberControlFrame
+"
+)
+GK_ATOM
+(
 objectFrame
 "
 ObjectFrame
