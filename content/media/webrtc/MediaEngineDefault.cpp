@@ -2425,10 +2425,7 @@ MediaEngineDefault
 :
 EnumerateVideoDevices
 (
-dom
-:
-:
-MediaSourceEnum
+MediaSourceType
 aMediaSource
 nsTArray
 <
@@ -2466,10 +2463,7 @@ if
 aMediaSource
 !
 =
-dom
-:
-:
-MediaSourceEnum
+MediaSourceType
 :
 :
 Camera
@@ -2552,10 +2546,7 @@ MediaEngineDefault
 :
 EnumerateAudioDevices
 (
-dom
-:
-:
-MediaSourceEnum
+MediaSourceType
 aMediaSource
 nsTArray
 <
