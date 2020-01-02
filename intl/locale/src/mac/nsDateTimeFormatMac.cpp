@@ -1144,9 +1144,9 @@ newFormat
 NS_ASSERTION
 (
 replaceCount
+<
 =
-=
-1
+2
 "
 Unexpected
 number
@@ -1190,7 +1190,7 @@ newFormat
 NS_ASSERTION
 (
 replaceCount
-=
+<
 =
 1
 "
