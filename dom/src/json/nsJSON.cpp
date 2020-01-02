@@ -1108,7 +1108,7 @@ toObject
 ;
 ac
 .
-construct
+emplace
 (
 cx
 obj

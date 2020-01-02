@@ -4148,7 +4148,7 @@ proxy
                 
 ac
 .
-construct
+emplace
 (
 cx
 global
@@ -33616,7 +33616,7 @@ CGGeneric
 holderName
 }
 .
-construct
+emplace
 (
 %
 s
@@ -39559,7 +39559,7 @@ CGGeneric
 %
 s
 .
-construct
+emplace
 (
 %
 s
@@ -49664,18 +49664,11 @@ js
 GetObjectCompartment
 (
 unwrappedObj
-.
-empty
-(
-)
 ?
-obj
-:
+*
 unwrappedObj
-.
-ref
-(
-)
+:
+obj
 )
 "
 )
@@ -49719,18 +49712,11 @@ append
 (
 "
 unwrappedObj
-.
-empty
-(
-)
 ?
-obj
-:
+*
 unwrappedObj
-.
-ref
-(
-)
+:
+obj
 "
 )
         
@@ -50049,7 +50035,7 @@ CGGeneric
 "
 unwrappedObj
 .
-construct
+emplace
 (
 cx
 obj
@@ -50375,7 +50361,7 @@ CGGeneric
 "
 ac
 .
-construct
+emplace
 (
 cx
 obj
@@ -65948,7 +65934,7 @@ destroyHolder
 %
 s
 .
-destroy
+reset
 (
 )
 ;
@@ -66211,7 +66197,7 @@ initHolder
 %
 s
 .
-construct
+emplace
 (
 %
 s
@@ -87410,7 +87396,7 @@ isNull
                   
 object
 .
-construct
+emplace
 (
 cx
 &
@@ -87424,7 +87410,7 @@ toObject
                   
 temp
 .
-construct
+emplace
 (
 cx
 )
@@ -89401,11 +89387,8 @@ isNull
 &
 !
 temp
-.
-ref
-(
-)
-.
+-
+>
 isUndefined
 (
 )
@@ -89431,20 +89414,16 @@ propGet
 JS_GetPropertyById
 (
 cx
+*
 object
-.
-ref
-(
-)
 atomsCache
 -
 >
 %
 s
-&
 temp
 .
-ref
+ptr
 (
 )
 )
@@ -89566,11 +89545,8 @@ isNull
 &
 !
 temp
-.
-ref
-(
-)
-.
+-
+>
 isUndefined
 (
 )

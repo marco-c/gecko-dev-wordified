@@ -5891,7 +5891,7 @@ mIsMainThreadELM
 {
 popupStatePusher
 .
-construct
+emplace
 (
 Event
 :

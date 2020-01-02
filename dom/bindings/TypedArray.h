@@ -831,7 +831,7 @@ GetWrapperPreserveColor
 {
 ac
 .
-construct
+emplace
 (
 cx
 creatorWrapper

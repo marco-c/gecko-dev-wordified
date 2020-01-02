@@ -1471,7 +1471,7 @@ exceptions
 .
 dontReport
 .
-construct
+emplace
 (
 aCx
 )

@@ -17293,7 +17293,7 @@ aLoadInfo
 {
 stackLoadInfo
 .
-construct
+emplace
 (
 )
 ;
@@ -17309,7 +17309,7 @@ aScriptURL
 aIsChromeWorker
 stackLoadInfo
 .
-addr
+ptr
 (
 )
 )
@@ -17349,7 +17349,7 @@ aLoadInfo
 =
 stackLoadInfo
 .
-addr
+ptr
 (
 )
 ;
@@ -19192,11 +19192,8 @@ created
 .
 if
 (
+!
 workerCompartment
-.
-empty
-(
-)
 )
 {
 if
@@ -19216,7 +19213,7 @@ aCx
 {
 workerCompartment
 .
-construct
+emplace
 (
 aCx
 global
@@ -19616,12 +19613,7 @@ decision
 .
 if
 (
-!
 workerCompartment
-.
-empty
-(
-)
 )
 {
 JS_MaybeGC
