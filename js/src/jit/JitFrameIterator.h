@@ -1708,6 +1708,12 @@ numAllocations
 )
 ;
 }
+int32_t
+readOuterNumActualArgs
+(
+)
+const
+;
 public
 :
 /
