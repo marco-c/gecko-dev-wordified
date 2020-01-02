@@ -430,7 +430,6 @@ systemApp_sendCustomEvent
 type
 details
 noPending
-target
 )
 {
 let
@@ -583,12 +582,7 @@ false
 payload
 )
 ;
-(
-target
-|
-|
 content
-)
 .
 dispatchEvent
 (
@@ -616,7 +610,6 @@ function
 systemApp_sendChromeEvent
 (
 details
-target
 )
 {
 return
@@ -628,8 +621,6 @@ _sendCustomEvent
 mozChromeEvent
 '
 details
-false
-target
 )
 ;
 }
