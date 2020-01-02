@@ -459,7 +459,7 @@ editableNameTooltip
 :
 "
 "
-preventDisableOnChage
+preventDisableOnChange
 :
 true
 preventDescriptorModifiers
