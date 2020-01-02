@@ -3265,6 +3265,14 @@ remoteLog
         
 options
 .
+fileLevel
+=
+'
+INFO
+'
+        
+options
+.
 profilePath
 =
 self
