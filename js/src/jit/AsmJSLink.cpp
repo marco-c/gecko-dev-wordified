@@ -4844,6 +4844,8 @@ origFun
 -
 >
 nargs
+(
+)
 JSFunction
 :
 :

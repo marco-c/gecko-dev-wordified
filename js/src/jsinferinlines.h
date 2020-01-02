@@ -4070,6 +4070,8 @@ function
 -
 >
 nargs
+(
+)
 )
 ;
 return

@@ -1613,6 +1613,8 @@ fun
 -
 >
 nargs
+(
+)
 ;
 unsigned
 nvals

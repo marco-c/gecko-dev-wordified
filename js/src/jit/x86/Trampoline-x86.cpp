@@ -3150,10 +3150,11 @@ movzwl
 Operand
 (
 eax
-offsetof
-(
 JSFunction
-nargs
+:
+:
+offsetOfNargs
+(
 )
 )
 ecx

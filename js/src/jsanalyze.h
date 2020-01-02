@@ -1321,6 +1321,8 @@ function
 -
 >
 nargs
+(
+)
 :
 0
 )

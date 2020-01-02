@@ -3892,6 +3892,8 @@ fun
 -
 >
 nargs
+(
+)
 ;
 }
 unsigned
@@ -9464,6 +9466,8 @@ function
 -
 >
 nargs
+(
+)
 ;
 }
 Value

@@ -4414,6 +4414,8 @@ function
 -
 >
 nargs
+(
+)
 ;
 i
 +

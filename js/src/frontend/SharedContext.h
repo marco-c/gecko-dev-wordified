@@ -2245,6 +2245,8 @@ function
 -
 >
 nargs
+(
+)
 -
 function
 (

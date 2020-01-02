@@ -4575,6 +4575,8 @@ function
 -
 >
 nargs
+(
+)
 )
 ?
 (
@@ -6277,6 +6279,8 @@ function
 -
 >
 nargs
+(
+)
 :
 0
 ;
@@ -21705,6 +21709,8 @@ JSFunction
 )
 .
 nargs
+(
+)
 ;
 JSScript
 *
@@ -22921,6 +22927,8 @@ function
 -
 >
 nargs
+(
+)
 :
 0
 ;
@@ -29181,6 +29189,8 @@ function
 -
 >
 nargs
+(
+)
 ;
 i
 +

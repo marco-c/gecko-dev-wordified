@@ -22176,13 +22176,9 @@ JSFunction
 (
 )
 .
-flags
-|
-=
-JSFunction
-:
-:
-ARROW
+setArrow
+(
+)
 ;
 }
 JS_ASSERT

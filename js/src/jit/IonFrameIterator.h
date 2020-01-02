@@ -2160,6 +2160,8 @@ callee
 -
 >
 nargs
+(
+)
 ;
 JS_ASSERT
 (

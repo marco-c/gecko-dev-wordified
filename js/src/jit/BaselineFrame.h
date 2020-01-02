@@ -1233,6 +1233,8 @@ function
 -
 >
 nargs
+(
+)
 ;
 }
 Value

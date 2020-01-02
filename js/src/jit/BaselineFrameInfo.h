@@ -993,6 +993,8 @@ function
 -
 >
 nargs
+(
+)
 ;
 }
 private

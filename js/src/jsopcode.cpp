@@ -2756,6 +2756,8 @@ function
 -
 >
 nargs
+(
+)
 :
 0
 )
@@ -10483,6 +10485,8 @@ fun
 -
 >
 nargs
+(
+)
 ;
 JS_ASSERT
 (
