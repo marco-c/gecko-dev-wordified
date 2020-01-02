@@ -373,7 +373,9 @@ gecko
 .
 mozglue
 .
-GeneratableAndroidBridgeTarget
+generatorannotations
+.
+WrapElementForJNI
 "
 )
 )
@@ -553,7 +555,7 @@ find
 expected
 field
 on
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 annotation
 .
 Did
@@ -598,7 +600,7 @@ IllegalAccessException
 reading
 fields
 on
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 annotation
 .
 Seems
@@ -648,7 +650,7 @@ InvocationTargetException
 reading
 fields
 on
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 annotation
 .
 This
