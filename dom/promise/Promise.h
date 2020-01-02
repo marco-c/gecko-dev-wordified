@@ -336,6 +336,14 @@ PromiseReportRejectFeature
 ;
 friend
 class
+PromiseWorkerProxy
+;
+friend
+class
+PromiseWorkerProxyRunnable
+;
+friend
+class
 RejectPromiseCallback
 ;
 friend

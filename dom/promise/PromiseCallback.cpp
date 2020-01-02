@@ -1665,6 +1665,7 @@ mHandler
 >
 ResolvedCallback
 (
+aCx
 aValue
 )
 ;
@@ -1687,6 +1688,7 @@ mHandler
 >
 RejectedCallback
 (
+aCx
 aValue
 )
 ;
