@@ -1583,7 +1583,7 @@ MOZ_ASSERT
 mFrontBuffer
 -
 >
-AsTextureClientDrawTarget
+CanExposeDrawTarget
 (
 )
 )
@@ -1592,11 +1592,6 @@ if
 (
 !
 mFrontBuffer
--
->
-AsTextureClientDrawTarget
-(
-)
 -
 >
 AllocateForSurface
@@ -1659,11 +1654,6 @@ DrawTarget
 dt
 =
 mFrontBuffer
--
->
-AsTextureClientDrawTarget
-(
-)
 -
 >
 GetAsDrawTarget

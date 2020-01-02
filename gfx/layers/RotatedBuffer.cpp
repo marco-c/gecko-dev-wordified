@@ -2321,11 +2321,6 @@ format
 mBufferProvider
 -
 >
-AsTextureClientDrawTarget
-(
-)
--
->
 GetFormat
 (
 )
@@ -2441,11 +2436,6 @@ mDTBuffer
 mBufferProvider
 -
 >
-AsTextureClientDrawTarget
-(
-)
--
->
 GetAsDrawTarget
 (
 )
@@ -2503,11 +2493,6 @@ mBufferProviderOnWhite
 mDTBufferOnWhite
 =
 mBufferProviderOnWhite
--
->
-AsTextureClientDrawTarget
-(
-)
 -
 >
 GetAsDrawTarget

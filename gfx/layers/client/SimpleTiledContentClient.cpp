@@ -1097,11 +1097,6 @@ drawTarget
 textureClient
 -
 >
-AsTextureClientDrawTarget
-(
-)
--
->
 GetAsDrawTarget
 (
 )

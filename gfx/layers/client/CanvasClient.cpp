@@ -674,11 +674,6 @@ target
 mBuffer
 -
 >
-AsTextureClientDrawTarget
-(
-)
--
->
 GetAsDrawTarget
 (
 )

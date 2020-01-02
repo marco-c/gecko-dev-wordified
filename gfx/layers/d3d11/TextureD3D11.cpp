@@ -977,7 +977,7 @@ see
 the
 comment
 on
-TextureClientDrawTarget
+TextureClient
 :
 :
 GetAsDrawTarget
