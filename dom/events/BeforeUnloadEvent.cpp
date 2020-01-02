@@ -113,12 +113,12 @@ dom
 NS_IMPL_ADDREF_INHERITED
 (
 BeforeUnloadEvent
-nsDOMEvent
+Event
 )
 NS_IMPL_RELEASE_INHERITED
 (
 BeforeUnloadEvent
-nsDOMEvent
+Event
 )
 NS_INTERFACE_MAP_BEGIN
 (
@@ -130,7 +130,7 @@ nsIDOMBeforeUnloadEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEvent
+Event
 )
 NS_IMETHODIMP
 BeforeUnloadEvent

@@ -128,7 +128,7 @@ WidgetEvent
 aEvent
 )
 :
-nsDOMEvent
+Event
 (
 aOwner
 aPresContext
@@ -284,7 +284,7 @@ aRv
 {
 aRv
 =
-nsDOMEvent
+Event
 :
 :
 InitEvent

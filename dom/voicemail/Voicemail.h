@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsDOMEvent
-.
-h
-"
-#
-include
-"
 nsDOMEventTargetHelper
 .
 h

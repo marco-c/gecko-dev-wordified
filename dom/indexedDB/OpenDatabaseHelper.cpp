@@ -8821,7 +8821,7 @@ event
 .
 nsRefPtr
 <
-nsDOMEvent
+Event
 >
 event
 =
@@ -8914,7 +8914,7 @@ IsClosed
 {
 nsRefPtr
 <
-nsDOMEvent
+Event
 >
 event
 =

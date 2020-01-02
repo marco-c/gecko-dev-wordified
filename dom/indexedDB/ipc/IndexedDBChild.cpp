@@ -653,7 +653,7 @@ NS_OK
 }
 nsRefPtr
 <
-nsDOMEvent
+Event
 >
 event
 =

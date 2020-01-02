@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsDOMEvent
-.
-h
-"
-#
-include
-"
 Constants
 .
 h

@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsDOMEvent
-.
-h
-"
-#
-include
-"
 nsIAlertsService
 .
 h

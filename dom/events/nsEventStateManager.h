@@ -1292,7 +1292,10 @@ This
 is
 used
 by
-nsDOMEvent
+dom
+:
+:
+Event
 :
 :
 GetScreenCoords
@@ -1344,7 +1347,10 @@ Used
 by
 /
 /
-nsDOMEvent
+dom
+:
+:
+Event
 :
 :
 GetClientCoords

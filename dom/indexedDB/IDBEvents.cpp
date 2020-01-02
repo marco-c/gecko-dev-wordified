@@ -456,7 +456,7 @@ aNewVersion
 {
 nsRefPtr
 <
-nsDOMEvent
+Event
 >
 event
 =
@@ -499,12 +499,12 @@ forget
 NS_IMPL_ADDREF_INHERITED
 (
 IDBVersionChangeEvent
-nsDOMEvent
+Event
 )
 NS_IMPL_RELEASE_INHERITED
 (
 IDBVersionChangeEvent
-nsDOMEvent
+Event
 )
 NS_INTERFACE_MAP_BEGIN
 (
@@ -516,5 +516,5 @@ IDBVersionChangeEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEvent
+Event
 )

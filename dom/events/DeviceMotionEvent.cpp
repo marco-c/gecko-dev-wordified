@@ -300,7 +300,7 @@ DeviceMotionEvent
 NS_IMPL_CYCLE_COLLECTION_INHERITED_3
 (
 DeviceMotionEvent
-nsDOMEvent
+Event
 mAcceleration
 mAccelerationIncludingGravity
 mRotationRate
@@ -308,12 +308,12 @@ mRotationRate
 NS_IMPL_ADDREF_INHERITED
 (
 DeviceMotionEvent
-nsDOMEvent
+Event
 )
 NS_IMPL_RELEASE_INHERITED
 (
 DeviceMotionEvent
-nsDOMEvent
+Event
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
@@ -321,7 +321,7 @@ DeviceMotionEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEvent
+Event
 )
 void
 DeviceMotionEvent
@@ -361,7 +361,7 @@ aRv
 {
 aRv
 =
-nsDOMEvent
+Event
 :
 :
 InitEvent

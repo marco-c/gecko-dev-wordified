@@ -162,7 +162,11 @@ h
 #
 include
 "
-nsDOMEvent
+mozilla
+/
+dom
+/
+Event
 .
 h
 "
@@ -449,7 +453,13 @@ SVGElement
 ;
 NEW_BINDING
 (
-nsDOMEvent
+mozilla
+:
+:
+dom
+:
+:
+Event
 Event
 )
 ;

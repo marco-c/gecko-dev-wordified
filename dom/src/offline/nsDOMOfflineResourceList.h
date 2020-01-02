@@ -193,13 +193,6 @@ h
 #
 include
 "
-nsDOMEvent
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h

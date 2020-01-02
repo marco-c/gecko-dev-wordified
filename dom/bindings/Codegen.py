@@ -104665,7 +104665,7 @@ parentType
 =
 =
 "
-nsDOMEvent
+Event
 "
                  
 else

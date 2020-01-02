@@ -265,7 +265,7 @@ MetaKey
 ;
 already_AddRefed
 <
-nsDOMEvent
+Event
 >
 GetSourceEvent
 (
@@ -273,7 +273,7 @@ GetSourceEvent
 {
 nsRefPtr
 <
-nsDOMEvent
+Event
 >
 e
 =
@@ -320,7 +320,7 @@ bool
 aShiftKey
 bool
 aMetaKey
-nsDOMEvent
+Event
 *
 aSourceEvent
 ErrorResult

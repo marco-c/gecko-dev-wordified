@@ -103,7 +103,11 @@ h
 #
 include
 "
-nsDOMEvent
+mozilla
+/
+dom
+/
+Event
 .
 h
 "
@@ -518,7 +522,7 @@ rv
 ;
 nsRefPtr
 <
-nsDOMEvent
+Event
 >
 event
 =

@@ -102,7 +102,11 @@ SpeechRecognitionError_h__
 #
 include
 "
-nsDOMEvent
+mozilla
+/
+dom
+/
+Event
 .
 h
 "
@@ -127,7 +131,7 @@ class
 SpeechRecognitionError
 :
 public
-nsDOMEvent
+Event
 {
 public
 :

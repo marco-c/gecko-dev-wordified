@@ -183,7 +183,7 @@ nsInvalidateRequestList
 aInvalidateRequests
 )
 :
-nsDOMEvent
+Event
 (
 aOwner
 aPresContext
@@ -230,17 +230,17 @@ nsIDOMNotifyPaintEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEvent
+Event
 )
 NS_IMPL_ADDREF_INHERITED
 (
 NotifyPaintEvent
-nsDOMEvent
+Event
 )
 NS_IMPL_RELEASE_INHERITED
 (
 NotifyPaintEvent
-nsDOMEvent
+Event
 )
 nsRegion
 NotifyPaintEvent
@@ -572,7 +572,7 @@ PaintRequests
 (
 )
 {
-nsDOMEvent
+Event
 *
 parent
 =
@@ -700,7 +700,7 @@ notifypaintevent
 )
 ;
 }
-nsDOMEvent
+Event
 :
 :
 Serialize
@@ -797,7 +797,7 @@ aIter
 {
 NS_ENSURE_TRUE
 (
-nsDOMEvent
+Event
 :
 :
 Deserialize

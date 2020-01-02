@@ -243,7 +243,7 @@ WidgetGUIEvent
 aEvent
 )
 :
-nsDOMEvent
+Event
 (
 aOwner
 aPresContext
@@ -565,18 +565,18 @@ forget
 NS_IMPL_CYCLE_COLLECTION_INHERITED_1
 (
 UIEvent
-nsDOMEvent
+Event
 mView
 )
 NS_IMPL_ADDREF_INHERITED
 (
 UIEvent
-nsDOMEvent
+Event
 )
 NS_IMPL_RELEASE_INHERITED
 (
 UIEvent
-nsDOMEvent
+Event
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
@@ -588,7 +588,7 @@ nsIDOMUIEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEvent
+Event
 )
 static
 nsIntPoint
@@ -865,7 +865,7 @@ NS_ERROR_INVALID_ARG
 nsresult
 rv
 =
-nsDOMEvent
+Event
 :
 :
 InitEvent
@@ -941,7 +941,7 @@ x
 ;
 }
 return
-nsDOMEvent
+Event
 :
 :
 GetPageCoords
@@ -1006,7 +1006,7 @@ y
 ;
 }
 return
-nsDOMEvent
+Event
 :
 :
 GetPageCoords
@@ -1683,7 +1683,7 @@ DuplicatePrivateData
 {
 mClientPoint
 =
-nsDOMEvent
+Event
 :
 :
 GetClientCoords
@@ -1711,7 +1711,7 @@ GetLayerPoint
 ;
 mPagePoint
 =
-nsDOMEvent
+Event
 :
 :
 GetPageCoords
@@ -1740,7 +1740,7 @@ coordinates
 nsIntPoint
 screenPoint
 =
-nsDOMEvent
+Event
 :
 :
 GetScreenCoords
@@ -1756,7 +1756,7 @@ refPoint
 nsresult
 rv
 =
-nsDOMEvent
+Event
 :
 :
 DuplicatePrivateData
@@ -1828,7 +1828,7 @@ uievent
 )
 ;
 }
-nsDOMEvent
+Event
 :
 :
 Serialize
@@ -1882,7 +1882,7 @@ aIter
 {
 NS_ENSURE_TRUE
 (
-nsDOMEvent
+Event
 :
 :
 Deserialize

@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsDOMEvent
-.
-h
-"
-#
-include
-"
 nsIDOMClassInfo
 .
 h

@@ -3673,7 +3673,10 @@ mDOMEvent
 /
 /
 An
-nsDOMEvent
+dom
+:
+:
+Event
 was
 created
 while

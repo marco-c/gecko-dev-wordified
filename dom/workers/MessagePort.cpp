@@ -114,14 +114,14 @@ h
 #
 include
 "
-nsDOMEvent
+nsEventDispatcher
 .
 h
 "
 #
 include
 "
-nsEventDispatcher
+nsIDOMEvent
 .
 h
 "

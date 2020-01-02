@@ -207,13 +207,6 @@ HTMLSharedElement
 .
 h
 "
-#
-include
-"
-nsDOMEvent
-.
-h
-"
 class
 nsIEditor
 ;
