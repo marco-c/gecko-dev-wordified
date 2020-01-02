@@ -1411,9 +1411,6 @@ home
 -
 button
 "
-#
-ifdef
-MOZ_LOOP
 "
 loop
 -
@@ -1421,8 +1418,6 @@ call
 -
 button
 "
-#
-endif
 "
 social
 -
