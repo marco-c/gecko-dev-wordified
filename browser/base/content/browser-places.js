@@ -5371,8 +5371,7 @@ target
 return
 ;
 /
-*
-*
+/
 If
 we
 re
@@ -5389,7 +5388,8 @@ close
 timer
 runs
 out
-*
+/
+/
 we
 should
 ensure
@@ -5399,8 +5399,6 @@ do
 not
 close
 :
-*
-/
 if
 (
 this
