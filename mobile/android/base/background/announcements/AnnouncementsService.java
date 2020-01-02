@@ -1117,6 +1117,7 @@ commit
 )
 ;
 }
+Override
 public
 long
 getLastFetch
@@ -1522,7 +1523,7 @@ getUserAgent
 return
 AnnouncementsConstants
 .
-ANNOUNCE_USER_AGENT
+USER_AGENT
 ;
 }
 protected

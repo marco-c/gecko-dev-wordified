@@ -117,4 +117,10 @@ int
 backoffSeconds
 )
 ;
+public
+String
+getUserAgent
+(
+)
+;
 }
