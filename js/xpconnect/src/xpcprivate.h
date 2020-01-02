@@ -18032,7 +18032,14 @@ set
 ;
 mName
 =
+const_cast
+<
+char
+*
+>
+(
 gNoString
+)
 ;
 }
 bool
@@ -18130,6 +18137,7 @@ nsJSID
 )
 ;
 static
+const
 char
 gNoString
 [
