@@ -156,16 +156,6 @@ nsIProfileSaveEvent
 h
 "
 #
-include
-<
-ostream
->
-#
-include
-<
-fstream
->
-#
 ifdef
 XP_WIN
 #
