@@ -1245,7 +1245,6 @@ should
 be
 shared
 .
-static
 void
 printf_stderr
 (
@@ -2366,7 +2365,7 @@ structured
 exception
 handler
 .
-__try
+MOZ_SEH_TRY
 {
 for
 (
@@ -2589,7 +2588,7 @@ nullptr
 ;
 }
 }
-__except
+MOZ_SEH_EXCEPT
 (
 EXCEPTION_EXECUTE_HANDLER
 )
