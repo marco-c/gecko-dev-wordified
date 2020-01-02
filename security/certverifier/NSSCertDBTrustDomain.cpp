@@ -2855,7 +2855,7 @@ newString
 =
 0
 ;
-int
+size_t
 escapes
 =
 0
@@ -2931,7 +2931,7 @@ escapes
 +
 size
 +
-1
+1u
 )
 ;
 if
@@ -3511,10 +3511,10 @@ CertVerifier
 ocsp_get_enabled
 )
 ;
-int
+uint32_t
 OCSPTimeoutSeconds
 =
-3
+3u
 ;
 if
 (
@@ -3529,7 +3529,7 @@ ocsp_strict
 {
 OCSPTimeoutSeconds
 =
-10
+10u
 ;
 }
 CERT_SetOCSPTimeout

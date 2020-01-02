@@ -6760,6 +6760,11 @@ cert
 derCert
 .
 data
+static_cast
+<
+int32_t
+>
+(
 entry
 .
 cert
@@ -6768,6 +6773,7 @@ cert
 derCert
 .
 len
+)
 )
 ;
 PR_ASSERT
