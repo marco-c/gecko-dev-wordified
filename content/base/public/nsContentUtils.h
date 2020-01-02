@@ -10370,6 +10370,10 @@ JS
 Value
 >
 vp
+bool
+aAllowWrapping
+=
+true
 )
 {
 return
@@ -10380,7 +10384,7 @@ native
 nullptr
 aIID
 vp
-true
+aAllowWrapping
 )
 ;
 }
