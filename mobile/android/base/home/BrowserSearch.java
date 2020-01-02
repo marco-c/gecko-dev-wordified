@@ -663,6 +663,7 @@ in
 the
 query
 private
+volatile
 String
 mSearchTerm
 ;
