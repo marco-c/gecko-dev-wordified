@@ -434,6 +434,11 @@ GetPresShell
 (
 )
 ;
+void
+ReleaseStrongMemberVariables
+(
+)
+;
 /
 /
 Current
@@ -474,6 +479,9 @@ mStartLinksOnlyPref
 ;
 bool
 mCaretBrowsingOn
+;
+bool
+mDidAddObservers
 ;
 nsCOMPtr
 <
