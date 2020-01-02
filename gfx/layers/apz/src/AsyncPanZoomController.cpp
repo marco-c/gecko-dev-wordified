@@ -14682,9 +14682,13 @@ height
 aVelocity
 .
 x
+.
+value
 aVelocity
 .
 y
+.
+value
 (
 float
 )
@@ -18200,6 +18204,8 @@ GetScrollOffset
 )
 .
 x
+.
+value
 mFrameMetrics
 .
 GetScrollOffset
@@ -18207,6 +18213,8 @@ GetScrollOffset
 )
 .
 y
+.
+value
 aLayerMetrics
 .
 GetScrollOffset
@@ -18214,6 +18222,8 @@ GetScrollOffset
 )
 .
 x
+.
+value
 aLayerMetrics
 .
 GetScrollOffset
@@ -18221,6 +18231,8 @@ GetScrollOffset
 )
 .
 y
+.
+value
 )
 ;
 mFrameMetrics
