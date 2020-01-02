@@ -373,6 +373,13 @@ nullptr
 ;
 #
 endif
+static
+NS_DEFINE_IID
+(
+kISupportsIID
+NS_ISUPPORTS_IID
+)
+;
 /
 /
 -
