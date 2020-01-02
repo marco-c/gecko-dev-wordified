@@ -525,6 +525,10 @@ UpdateUrlbarSearchSplitterState
 (
 )
 ;
+setUrlAndSearchBarWidthForConditionalForwardButton
+(
+)
+;
 /
 /
 Update
