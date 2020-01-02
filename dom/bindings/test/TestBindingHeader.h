@@ -6379,6 +6379,16 @@ UnforgeableAttr2
 (
 )
 ;
+uint32_t
+UnforgeableMethod
+(
+)
+;
+uint32_t
+UnforgeableMethod2
+(
+)
+;
 void
 Stringify
 (
