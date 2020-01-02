@@ -4267,6 +4267,12 @@ profile
 if
 defined
 (
+HAVE_NATIVE_UNWIND
+)
+#
+if
+defined
+(
 XP_WIN
 )
 |
@@ -4299,6 +4305,8 @@ PopulateContext
 nullptr
 )
 ;
+#
+endif
 #
 endif
 sample
