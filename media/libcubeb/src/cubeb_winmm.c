@@ -1556,7 +1556,7 @@ HANDLE
 _beginthreadex
 (
 NULL
-64
+256
 *
 1024
 winmm_buffer_thread
