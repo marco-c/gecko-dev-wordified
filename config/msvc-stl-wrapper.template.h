@@ -385,7 +385,7 @@ new
 endif
 #
 ifdef
-DEBUG
+_DEBUG
 /
 /
 From
@@ -474,7 +474,10 @@ is
 implied
 by
 -
-DDEBUG
+MDd
+or
+-
+MTd
 )
 and
 /
