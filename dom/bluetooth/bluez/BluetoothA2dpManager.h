@@ -250,9 +250,9 @@ const
 nsAString
 &
 aAlbum
-uint32_t
+uint64_t
 aMediaNumber
-uint32_t
+uint64_t
 aTotalMediaCount
 uint32_t
 aDuration
@@ -292,7 +292,7 @@ GetPosition
 (
 )
 ;
-uint32_t
+uint64_t
 GetMediaNumber
 (
 )
@@ -366,10 +366,10 @@ mTitle
 uint32_t
 mDuration
 ;
-uint32_t
+uint64_t
 mMediaNumber
 ;
-uint32_t
+uint64_t
 mTotalMediaCount
 ;
 uint32_t
