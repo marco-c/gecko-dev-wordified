@@ -2204,9 +2204,6 @@ RDFXMLDataSourceImpl
 void
 )
 {
-nsresult
-rv
-;
 /
 /
 Unregister
@@ -2220,8 +2217,9 @@ to
 get
 us
 .
-rv
-=
+(
+void
+)
 gRDFService
 -
 >
@@ -2235,8 +2233,9 @@ this
 Now
 flush
 contents
-rv
-=
+(
+void
+)
 Flush
 (
 )
