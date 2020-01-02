@@ -2250,6 +2250,9 @@ open
 navigateaway
 "
 "
+nodeselected
+"
+"
 test
 "
 ]
