@@ -415,6 +415,8 @@ pkix
 :
 EndEntityOrCA
 endEntityOrCA
+SECOidTag
+policy
 const
 CERTCertificate
 *

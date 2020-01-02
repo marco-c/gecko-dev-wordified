@@ -638,6 +638,10 @@ encodedBasicConstraints
 (
 nullptr
 )
+encodedCertificatePolicies
+(
+nullptr
+)
 encodedExtendedKeyUsage
 (
 nullptr
@@ -677,6 +681,11 @@ const
 SECItem
 *
 encodedBasicConstraints
+;
+const
+SECItem
+*
+encodedCertificatePolicies
 ;
 const
 SECItem

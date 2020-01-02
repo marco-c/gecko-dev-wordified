@@ -225,6 +225,8 @@ KeyUsages
 requiredKeyUsagesIfPresent
 SECOidTag
 requiredEKUIfPresent
+SECOidTag
+requiredPolicy
 unsigned
 int
 subCACount
