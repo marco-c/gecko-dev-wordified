@@ -9454,7 +9454,7 @@ expressions
 *
 (
 see
-CompExprTransplanter
+LegacyCompExprTransplanter
 :
 :
 transplant
@@ -36663,6 +36663,7 @@ helper
 for
 transplanting
 the
+legacy
 comprehension
 expression
 E
@@ -36680,6 +36681,7 @@ I
 ]
 /
 /
+legacy
 array
 comprehension
 *
@@ -36694,6 +36696,7 @@ I
 )
 /
 /
+legacy
 generator
 expression
 *
@@ -36750,6 +36753,7 @@ parsed
 *
 *
 A
+legacy
 generator
 expression
 desugars
@@ -36864,7 +36868,7 @@ created
 *
 /
 class
-CompExprTransplanter
+LegacyCompExprTransplanter
 {
 ParseNode
 *
@@ -36899,7 +36903,7 @@ visitedImplicitArguments
 ;
 public
 :
-CompExprTransplanter
+LegacyCompExprTransplanter
 (
 ParseNode
 *
@@ -36982,12 +36986,13 @@ definitions
 nested
 within
 the
+legacy
 comprehension
 expression
 of
 a
-generator
 *
+generator
 expression
 must
 move
@@ -37000,9 +37005,9 @@ level
 which
 of
 course
+*
 increases
 the
-*
 upvar
 -
 frame
@@ -37219,7 +37224,7 @@ true
 ;
 }
 bool
-CompExprTransplanter
+LegacyCompExprTransplanter
 :
 :
 transplant
@@ -37594,6 +37599,7 @@ visited
 *
 in
 the
+legacy
 comprehension
 expression
 (
@@ -37601,8 +37607,8 @@ to
 avoid
 adjusting
 the
-blockid
 *
+blockid
 multiple
 times
 )
@@ -37615,9 +37621,10 @@ placeholder
 definitions
 within
 the
+legacy
 comprehension
-expression
 *
+expression
 will
 be
 visited
@@ -37817,11 +37824,12 @@ is
 scoped
 within
 the
+legacy
 comprehension
+*
 tail
 '
 s
-*
 clauses
 .
 Make
@@ -37833,8 +37841,8 @@ any
 other
 uses
 within
-the
 *
+the
 generator
 )
 a
@@ -37845,10 +37853,10 @@ new
 placeholder
 in
 the
+*
 generator
 '
 s
-*
 lexdeps
 .
 *
@@ -38351,11 +38359,14 @@ true
 /
 /
 Parsing
+legacy
+(
 JS1
 .
 7
 -
 style
+)
 comprehensions
 is
 terrible
@@ -38364,9 +38375,9 @@ we
 parse
 the
 head
+/
+/
 expression
-/
-/
 as
 if
 it
@@ -38385,9 +38396,9 @@ the
 "
 for
 "
+/
+/
 we
-/
-/
 transplant
 the
 parsed
@@ -38425,7 +38436,7 @@ is
 tricky
 but
 the
-CompExprTransplanter
+LegacyCompExprTransplanter
 handles
 most
 of
@@ -38585,7 +38596,7 @@ ParseHandler
 >
 static
 unsigned
-ComprehensionHeadBlockScopeDepth
+LegacyComprehensionHeadBlockScopeDepth
 (
 ParseContext
 <
@@ -38719,7 +38730,7 @@ FullParseHandler
 >
 :
 :
-comprehensionTail
+legacyComprehensionTail
 (
 ParseNode
 *
@@ -39159,7 +39170,7 @@ pn
 >
 pn_expr
 ;
-CompExprTransplanter
+LegacyCompExprTransplanter
 transplanter
 (
 bodyStmt
@@ -40155,7 +40166,7 @@ FullParseHandler
 >
 :
 :
-arrayComprehension
+legacyArrayComprehension
 (
 ParseNode
 *
@@ -40277,7 +40288,7 @@ ParseNode
 *
 comp
 =
-comprehensionTail
+legacyComprehensionTail
 (
 arrayPush
 array
@@ -40286,7 +40297,7 @@ array
 pn_blockid
 NotGenerator
 nullptr
-ComprehensionHeadBlockScopeDepth
+LegacyComprehensionHeadBlockScopeDepth
 (
 pc
 )
@@ -40355,7 +40366,7 @@ SyntaxParseHandler
 >
 :
 :
-arrayComprehension
+legacyArrayComprehension
 (
 Node
 array
@@ -40424,6 +40435,7 @@ the
 value
 of
 this
+legacy
 generator
 expression
 .
@@ -40546,7 +40558,7 @@ FullParseHandler
 >
 :
 :
-generatorExpr
+legacyGeneratorExpr
 (
 ParseNode
 *
@@ -40999,7 +41011,7 @@ ParseNode
 *
 body
 =
-comprehensionTail
+legacyComprehensionTail
 (
 yieldStmt
 outerpc
@@ -41010,7 +41022,7 @@ blockid
 )
 LegacyGenerator
 outerpc
-ComprehensionHeadBlockScopeDepth
+LegacyComprehensionHeadBlockScopeDepth
 (
 outerpc
 )
@@ -41176,7 +41188,7 @@ SyntaxParseHandler
 >
 :
 :
-generatorExpr
+legacyGeneratorExpr
 (
 Node
 kid
@@ -41518,7 +41530,7 @@ false
 }
 argNode
 =
-generatorExpr
+legacyGeneratorExpr
 (
 argNode
 )
@@ -43141,7 +43153,8 @@ parsed
 .
 *
 *
-An
+A
+legacy
 array
 comprehension
 of
@@ -43251,8 +43264,8 @@ The
 "
 roughly
 "
-*
 means
+*
 that
 an
 implementation
@@ -43264,8 +43277,9 @@ array
 .
 push
 .
+A
+legacy
 *
-An
 array
 comprehension
 opens
@@ -43275,9 +43289,9 @@ block
 scope
 no
 matter
-*
 how
 many
+*
 for
 heads
 it
@@ -43474,6 +43488,7 @@ spbase
 *
 *
 The
+legacy
 array
 comprehension
 iteration
@@ -43504,8 +43519,8 @@ JSOP_ARRAYPUSH
 <
 array
 >
-*
 where
+*
 <
 array
 >
@@ -43544,7 +43559,7 @@ TOK_FOR
 missingTrailingComma
 )
 return
-arrayComprehension
+legacyArrayComprehension
 (
 literal
 )
@@ -45780,7 +45795,7 @@ null
 }
 pn
 =
-generatorExpr
+legacyGeneratorExpr
 (
 pn
 )
