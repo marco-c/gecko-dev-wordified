@@ -117,6 +117,17 @@ util
 Log
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
+import
 java
 .
 io
@@ -337,6 +348,7 @@ Robocop
 .
 *
 /
+RobocopTarget
 public
 SuggestClient
 (

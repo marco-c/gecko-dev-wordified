@@ -551,16 +551,6 @@ private
 long
 mProfileOutputTime
 ;
-/
-*
-Used
-by
-robocop
-for
-testing
-purposes
-*
-/
 private
 IntBuffer
 mPixelBuffer

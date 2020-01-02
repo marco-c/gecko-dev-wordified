@@ -285,6 +285,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 sync
 .
 Utils
@@ -17748,6 +17759,7 @@ return
 dbHelper
 ;
 }
+RobocopTarget
 public
 String
 getDatabasePath

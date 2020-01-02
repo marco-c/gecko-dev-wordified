@@ -114,6 +114,18 @@ net
 .
 Uri
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
+RobocopTarget
 public
 class
 BrowserContract
@@ -499,6 +511,7 @@ toString
 )
 ;
 }
+RobocopTarget
 public
 interface
 CommonColumns
@@ -514,6 +527,7 @@ _id
 "
 ;
 }
+RobocopTarget
 public
 interface
 DateSyncColumns
@@ -539,6 +553,7 @@ modified
 "
 ;
 }
+RobocopTarget
 public
 interface
 SyncColumns
@@ -566,6 +581,7 @@ deleted
 "
 ;
 }
+RobocopTarget
 public
 interface
 URLColumns
@@ -591,6 +607,7 @@ title
 "
 ;
 }
+RobocopTarget
 public
 interface
 FaviconColumns
@@ -626,6 +643,7 @@ favicon_url
 "
 ;
 }
+RobocopTarget
 public
 interface
 HistoryColumns
@@ -686,6 +704,7 @@ timeDeleted
 "
 ;
 }
+RobocopTarget
 public
 static
 final
@@ -748,6 +767,7 @@ page_url
 "
 ;
 }
+RobocopTarget
 public
 static
 final
@@ -799,6 +819,7 @@ data
 "
 ;
 }
+RobocopTarget
 public
 static
 final
@@ -1149,6 +1170,7 @@ keyword
 "
 ;
 }
+RobocopTarget
 public
 static
 final
@@ -1248,6 +1270,7 @@ Combined
 bookmarks
 and
 history
+RobocopTarget
 public
 static
 final

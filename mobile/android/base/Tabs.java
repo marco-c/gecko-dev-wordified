@@ -147,6 +147,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 sync
 .
 setup
@@ -2387,6 +2398,7 @@ Tabs
 )
 ;
 }
+RobocopTarget
 public
 static
 Tabs
@@ -4318,6 +4330,7 @@ is
 given
 *
 /
+RobocopTarget
 public
 Tab
 loadUrl
