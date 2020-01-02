@@ -14216,9 +14216,8 @@ to
 give
 out
 return
-a
-sentinel
-value
+-
+1
 .
 masm
 .
@@ -14234,10 +14233,8 @@ move32
 (
 Imm32
 (
-ThreadPool
-:
-:
-MAX_SLICE_ID
+-
+1
 )
 output
 )
