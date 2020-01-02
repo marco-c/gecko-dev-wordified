@@ -1243,6 +1243,11 @@ propName
 )
 ;
 \
+InvalidateCachedList
+(
+)
+;
+\
 }
 else
 {
