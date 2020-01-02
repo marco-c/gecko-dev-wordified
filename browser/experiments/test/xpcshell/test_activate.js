@@ -973,7 +973,7 @@ enabled
 )
 ;
 let
-shouldStop
+result
 =
 yield
 experiment
@@ -986,6 +986,8 @@ Assert
 .
 equal
 (
+result
+.
 shouldStop
 false
 "
@@ -1051,7 +1053,7 @@ MS_IN_ONE_DAY
 )
 )
 ;
-shouldStop
+result
 =
 yield
 experiment
@@ -1064,6 +1066,8 @@ Assert
 .
 equal
 (
+result
+.
 shouldStop
 true
 "
