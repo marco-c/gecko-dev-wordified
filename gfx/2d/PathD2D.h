@@ -469,13 +469,7 @@ PathSink
 aSink
 )
 const
-{
-MOZ_ASSERT
-(
-false
-)
 ;
-}
 virtual
 FillRule
 GetFillRule
