@@ -819,14 +819,6 @@ UpdateChannel
 get
 (
 )
-MOZILLA_API_KEY
-:
-function
-(
-)
-"
-MOZ_MOZILLA_API_KEY
-"
 GOOGLE_API_KEY
 :
 function
