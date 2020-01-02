@@ -175,6 +175,19 @@ gecko
 sqlite
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+generatorannotations
+.
+WrapElementForJNI
+;
+import
 android
 .
 database
@@ -383,6 +396,7 @@ in
 rows
 *
 /
+WrapElementForJNI
 public
 MatrixBlobCursor
 (
@@ -464,6 +478,7 @@ this
 cursor
 *
 /
+WrapElementForJNI
 public
 MatrixBlobCursor
 (
@@ -738,6 +753,7 @@ construction
 time
 *
 /
+WrapElementForJNI
 public
 void
 addRow
@@ -875,6 +891,7 @@ construction
 time
 *
 /
+WrapElementForJNI
 public
 void
 addRow
@@ -1058,6 +1075,7 @@ ArrayList
 .
 *
 /
+WrapElementForJNI
 private
 void
 addRow
