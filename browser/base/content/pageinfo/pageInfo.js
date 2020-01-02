@@ -1294,6 +1294,14 @@ index
 =
 =
 COL_IMAGE_SIZE
+|
+|
+treecol
+.
+index
+=
+=
+COL_IMAGE_COUNT
 )
 {
 comparator
