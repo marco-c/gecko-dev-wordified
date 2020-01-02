@@ -658,7 +658,8 @@ stackIndex
 +
 )
 {
-NSUInteger
+unsigned
+long
 address
 =
 [
@@ -668,7 +669,7 @@ objectAtIndex
 :
 stackIndex
 ]
-unsignedIntegerValue
+unsignedLongValue
 ]
 ;
 [
