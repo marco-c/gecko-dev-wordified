@@ -9451,6 +9451,12 @@ JSOP_NAME
 case
 JSOP_CALLNAME
 :
+case
+JSOP_GETINTRINSIC
+:
+case
+JSOP_CALLINTRINSIC
+:
 return
 write
 (
