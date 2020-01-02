@@ -979,6 +979,8 @@ outputTimeout
 timeout
 )
             
+status
+=
 self
 .
 runner
@@ -986,6 +988,23 @@ runner
 wait
 (
 )
+            
+if
+status
+is
+None
+:
+                
+#
+the
+runner
+has
+timed
+out
+                
+status
+=
+124
         
 except
 KeyboardInterrupt
