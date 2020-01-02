@@ -77,6 +77,9 @@ var
 gClient
 ;
 var
+gTabClient
+;
+var
 gDebuggee
 ;
 function
@@ -147,6 +150,10 @@ aReply
 aTabClient
 )
 {
+gTabClient
+=
+aTabClient
+;
 test_threadAttach
 (
 aReply
@@ -184,11 +191,12 @@ thread
 aThreadActorID
 )
 ;
-gClient
+gTabClient
 .
 attachThread
 (
-aThreadActorID
+{
+}
 function
 (
 aResponse

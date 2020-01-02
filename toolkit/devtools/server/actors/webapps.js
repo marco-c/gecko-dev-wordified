@@ -4590,7 +4590,7 @@ iconURL
 doesn
 '
 t
-exists
+exist
 "
 }
 )

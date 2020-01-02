@@ -1888,8 +1888,6 @@ executeSoon
 >
 aTarget
 .
-client
-.
 activeTab
 .
 navigateTo
@@ -1924,8 +1922,6 @@ executeSoon
 =
 >
 aTarget
-.
-client
 .
 activeTab
 .

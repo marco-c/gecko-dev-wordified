@@ -274,7 +274,9 @@ waitForSourcesAfterReload
 ;
 gDebugger
 .
-gClient
+DebuggerController
+.
+_target
 .
 activeTab
 .
