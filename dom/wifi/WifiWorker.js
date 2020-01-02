@@ -1458,6 +1458,7 @@ status
 function
 unloadDriver
 (
+type
 callback
 )
 {
@@ -1501,6 +1502,15 @@ down
 the
 interface
 .
+if
+(
+type
+=
+=
+=
+WIFI_FIRMWARE_STATION
+)
+{
 notify
 (
 "
@@ -1513,6 +1523,7 @@ true
 }
 )
 ;
+}
 callback
 (
 0
@@ -1538,6 +1549,15 @@ status
 0
 )
 ;
+if
+(
+type
+=
+=
+=
+WIFI_FIRMWARE_STATION
+)
+{
 notify
 (
 "
@@ -1550,6 +1570,7 @@ true
 }
 )
 ;
+}
 callback
 (
 status
@@ -6189,6 +6210,7 @@ status
 {
 unloadDriver
 (
+WIFI_FIRMWARE_STATION
 function
 (
 )
@@ -6417,6 +6439,7 @@ ok
 {
 unloadDriver
 (
+WIFI_FIRMWARE_STATION
 callback
 )
 ;
@@ -6718,6 +6741,7 @@ tethering
 .
 unloadDriver
 (
+WIFI_FIRMWARE_AP
 function
 (
 status
