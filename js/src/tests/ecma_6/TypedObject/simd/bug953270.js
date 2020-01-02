@@ -103,9 +103,9 @@ c
 =
 SIMD
 .
-int32x4
+float32x4
 .
-bitsToFloat32x4
+fromInt32x4Bits
 (
 a
 )
@@ -153,9 +153,9 @@ d
 =
 SIMD
 .
-float32x4
+int32x4
 .
-bitsToInt32x4
+fromFloat32x4Bits
 (
 c
 )

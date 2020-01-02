@@ -40,8 +40,8 @@ var
 summary
 =
 '
-float32x4
-toInt32x4
+int32x4
+fromFloat32x4
 '
 ;
 function
@@ -101,9 +101,9 @@ c
 =
 SIMD
 .
-float32x4
+int32x4
 .
-toInt32x4
+fromFloat32x4
 (
 a
 )
