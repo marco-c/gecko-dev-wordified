@@ -1203,9 +1203,6 @@ function
 doc
 data
 installCallback
-aBypassUserEnable
-=
-false
 )
 {
 SocialService
@@ -1215,7 +1212,6 @@ installProvider
 doc
 data
 installCallback
-aBypassUserEnable
 )
 ;
 }
