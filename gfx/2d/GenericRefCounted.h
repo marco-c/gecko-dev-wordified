@@ -386,14 +386,6 @@ AddRef
 (
 )
 {
-MOZ_ASSERT
-(
-refCnt
->
-=
-0
-)
-;
 +
 +
 refCnt
@@ -439,7 +431,7 @@ this
 ;
 }
 }
-int
+MozRefCountType
 refCount
 (
 )
@@ -480,9 +472,9 @@ Atomicity
 AtomicRefCount
 Atomic
 <
-int
+MozRefCountType
 >
-int
+MozRefCountType
 >
 :
 :

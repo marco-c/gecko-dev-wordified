@@ -892,7 +892,7 @@ direct
 references
 *
 /
-int
+MozRefCountType
 DirectRefCount
 (
 )
@@ -1121,7 +1121,7 @@ false
 }
 private
 :
-int
+MozRefCountType
 directRefCnt
 ;
 char
