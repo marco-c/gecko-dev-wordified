@@ -106,13 +106,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-nsPIDOMWindow
-.
-h
-"
 /
 *
 *
@@ -132,7 +125,7 @@ windows
 *
 /
 class
-nsPIDOMWindow
+nsIDOMWindow
 ;
 class
 nsAutoWindowStateHelper
@@ -141,7 +134,7 @@ public
 :
 nsAutoWindowStateHelper
 (
-nsPIDOMWindow
+nsIDOMWindow
 *
 aWindow
 )
@@ -171,10 +164,8 @@ char
 aEventName
 )
 ;
-nsCOMPtr
-<
-nsPIDOMWindow
->
+nsIDOMWindow
+*
 mWindow
 ;
 bool
