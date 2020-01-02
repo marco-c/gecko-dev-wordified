@@ -957,6 +957,14 @@ end
 )
 )
 {
+nsMemory
+:
+:
+Free
+(
+prefixArray
+)
+;
 return
 NS_ERROR_FILE_CORRUPTED
 ;
