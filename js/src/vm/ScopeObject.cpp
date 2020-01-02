@@ -363,9 +363,11 @@ StaticBlockObject
 *
 block
 =
-GetBlockChainAtPC
-(
 script
+-
+>
+getBlockScope
+(
 pc
 )
 ;
