@@ -10031,7 +10031,7 @@ CompareSubStringValues
 cx
 sb
 .
-begin
+rawTwoByteBegin
 (
 )
 +
@@ -10047,7 +10047,7 @@ a
 charsBegin
 sb
 .
-begin
+rawTwoByteBegin
 (
 )
 +

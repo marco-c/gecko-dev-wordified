@@ -32928,7 +32928,7 @@ callback
 (
 sb
 .
-begin
+rawTwoByteBegin
 (
 )
 sb

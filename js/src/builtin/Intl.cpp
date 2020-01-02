@@ -8441,7 +8441,7 @@ JSCharToUChar
 (
 chars
 .
-begin
+rawTwoByteBegin
 (
 )
 )
@@ -8484,7 +8484,7 @@ JSCharToUChar
 (
 chars
 .
-begin
+rawTwoByteBegin
 (
 )
 )
@@ -11591,7 +11591,7 @@ JSCharToUChar
 (
 chars
 .
-begin
+rawTwoByteBegin
 (
 )
 )
@@ -11634,7 +11634,7 @@ JSCharToUChar
 (
 chars
 .
-begin
+rawTwoByteBegin
 (
 )
 )

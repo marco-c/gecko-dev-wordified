@@ -9206,7 +9206,7 @@ sbufSize
 return
 sb
 .
-appendInflated
+append
 (
 cstr
 cstrlen
