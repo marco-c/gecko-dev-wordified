@@ -344,6 +344,16 @@ the
 the
 argument
 fragment
+or
+to
+"
+"
+if
+unable
+to
+allocate
+enough
+memory
 .
 *
 /
@@ -647,7 +657,7 @@ characters
 .
 *
 /
-void
+bool
 SetTo
 (
 const
@@ -703,7 +713,7 @@ characters
 .
 *
 /
-void
+bool
 Append
 (
 const
