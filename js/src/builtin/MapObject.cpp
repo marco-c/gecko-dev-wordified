@@ -198,7 +198,7 @@ using
 mozilla
 :
 :
-NumberEqualsInt32
+ArrayLength
 ;
 using
 mozilla
@@ -222,7 +222,7 @@ using
 mozilla
 :
 :
-ArrayLength
+NumberEqualsInt32
 ;
 using
 JS
