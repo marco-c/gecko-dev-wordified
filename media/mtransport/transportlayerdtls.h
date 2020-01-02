@@ -655,15 +655,6 @@ Setup
 (
 )
 ;
-bool
-SetupCipherSuites
-(
-PRFileDesc
-*
-ssl_fd
-)
-const
-;
 void
 Handshake
 (

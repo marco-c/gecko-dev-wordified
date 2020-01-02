@@ -214,7 +214,6 @@ string
 id
 (
 )
-const
 {
 return
 name
@@ -577,7 +576,6 @@ string
 id
 (
 )
-const
 =
 0
 ;
@@ -597,7 +595,6 @@ string
 flow_id
 (
 )
-const
 {
 return
 flow_id_
