@@ -4909,6 +4909,10 @@ cx
 JSObject
 *
 parent
+const
+ProxyOptions
+&
+options
 )
 {
 return
@@ -4926,6 +4930,7 @@ JS
 NullHandleValue
 NULL
 parent
+options
 )
 ;
 }
