@@ -440,6 +440,11 @@ SVG_TAG
 g
 G
 )
+SVG_FROM_PARSER_TAG
+(
+iframe
+IFrame
+)
 SVG_TAG
 (
 image
