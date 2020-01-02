@@ -490,7 +490,7 @@ eContentCommandEventClass
 /
 /
 WidgetContentCommandEvent
-NS_PLUGIN_EVENT
+ePluginEventClass
 /
 /
 WidgetPluginEvent

@@ -660,7 +660,7 @@ return
 mClass
 =
 =
-NS_PLUGIN_EVENT
+ePluginEventClass
 ;
 }
 /

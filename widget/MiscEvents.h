@@ -1145,7 +1145,7 @@ WidgetGUIEvent
 aIsTrusted
 aMessage
 aWidget
-NS_PLUGIN_EVENT
+ePluginEventClass
 )
 retargetToFocusedDocument
 (
@@ -1196,7 +1196,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_PLUGIN_EVENT
+ePluginEventClass
 "
 Duplicate
 (
