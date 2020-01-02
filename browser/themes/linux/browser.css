@@ -6111,7 +6111,7 @@ disabled
 #
 characterencoding
 -
-panelmenu
+button
 [
 customizableui
 -
@@ -6160,7 +6160,7 @@ png
 #
 characterencoding
 -
-panelmenu
+button
 [
 customizableui
 -
@@ -6202,7 +6202,7 @@ height
 #
 characterencoding
 -
-panelmenu
+button
 [
 customizableui
 -
@@ -6223,9 +6223,9 @@ region
 rect
 (
 0px
-216px
-24px
-192px
+480px
+32px
+448px
 )
 ;
 }
