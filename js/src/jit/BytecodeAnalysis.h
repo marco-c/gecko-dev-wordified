@@ -361,7 +361,7 @@ code
 ]
 ;
 return
-NULL
+nullptr
 ;
 }
 bool

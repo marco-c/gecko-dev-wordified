@@ -278,7 +278,7 @@ return
 list_
 !
 =
-NULL
+nullptr
 ;
 }
 size_t

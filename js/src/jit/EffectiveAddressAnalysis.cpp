@@ -280,7 +280,7 @@ MDefinition
 *
 base
 =
-NULL
+nullptr
 ;
 while
 (

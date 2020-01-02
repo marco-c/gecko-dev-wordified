@@ -624,7 +624,7 @@ JS_ASSERT
 currentStub_
 !
 =
-NULL
+nullptr
 )
 ;
 currentStub_
@@ -668,7 +668,7 @@ fallbackStub
 )
 previousStub_
 (
-NULL
+nullptr
 )
 currentStub_
 (
@@ -710,7 +710,7 @@ next
 )
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -761,7 +761,7 @@ next
 )
 !
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -1026,7 +1026,7 @@ next
 )
 =
 =
-NULL
+nullptr
 *
 iter
 =
@@ -1096,7 +1096,7 @@ next
 )
 =
 =
-NULL
+nullptr
 iter
 -
 >
@@ -3972,7 +3972,7 @@ hasFallbackStub_
 {
 lastMonitorStubPtrAddr_
 =
-NULL
+nullptr
 ;
 /
 /
@@ -4155,7 +4155,7 @@ JS_ASSERT
 fallbackMonitorStub_
 =
 =
-NULL
+nullptr
 )
 ;
 ICTypeMonitor_Fallback
@@ -4241,7 +4241,7 @@ JS_ASSERT
 firstUpdateStub_
 =
 =
-NULL
+nullptr
 )
 ;
 ICTypeUpdate_Fallback
@@ -4391,7 +4391,7 @@ masm
 )
 )
 return
-NULL
+nullptr
 ;
 Linker
 linker
@@ -4425,7 +4425,7 @@ if
 newStubCode
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -4446,7 +4446,7 @@ newStubCode
 )
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -4506,7 +4506,7 @@ newStubCode
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -6431,7 +6431,7 @@ if
 info
 )
 return
-NULL
+nullptr
 ;
 memset
 (
@@ -6927,7 +6927,7 @@ infoPtr
 *
 infoPtr
 =
-NULL
+nullptr
 ;
 /
 /
@@ -7281,7 +7281,7 @@ void
 *
 jitcode
 =
-NULL
+nullptr
 ;
 if
 (
@@ -7655,7 +7655,7 @@ scratchReg
 )
 ImmPtr
 (
-NULL
+nullptr
 )
 &
 noCompiledCode
@@ -8176,7 +8176,7 @@ if
 string
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -8568,7 +8568,7 @@ wasDetachedMonitorChain
 lastMonitorStubPtrAddr_
 =
 =
-NULL
+nullptr
 ;
 JS_ASSERT_IF
 (
@@ -8665,7 +8665,7 @@ ICTypeMonitor_PrimitiveSet
 *
 existingStub
 =
-NULL
+nullptr
 ;
 for
 (
@@ -10245,7 +10245,7 @@ ICTypeUpdate_PrimitiveSet
 *
 existingStub
 =
-NULL
+nullptr
 ;
 for
 (
@@ -18615,7 +18615,7 @@ rootedObj
 )
 )
 return
-NULL
+nullptr
 ;
 return
 ToString
@@ -18649,13 +18649,13 @@ JSString
 *
 lstr
 =
-NULL
+nullptr
 ;
 JSString
 *
 rstr
 =
-NULL
+nullptr
 ;
 if
 (
@@ -21323,7 +21323,7 @@ Equal
 scratch
 ImmPtr
 (
-NULL
+nullptr
 )
 &
 failDOMProxyCheck
@@ -21523,31 +21523,31 @@ bool
 *
 checkDOMProxy
 =
-NULL
+nullptr
 DOMProxyShadowsResult
 *
 shadowsResult
 =
-NULL
+nullptr
 bool
 *
 domProxyHasGeneration
 =
-NULL
+nullptr
 )
 {
 shape
 .
 set
 (
-NULL
+nullptr
 )
 ;
 holder
 .
 set
 (
-NULL
+nullptr
 )
 ;
 bool
@@ -26850,7 +26850,7 @@ loadBaselineOrIonRaw
 code
 code
 SequentialExecution
-NULL
+nullptr
 )
 ;
 Register
@@ -29842,7 +29842,7 @@ NotEqual
 scratchReg
 ImmPtr
 (
-NULL
+nullptr
 )
 &
 failureReconstructInputs
@@ -33296,7 +33296,7 @@ lastProperty
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -33310,7 +33310,7 @@ shapes
 )
 )
 return
-NULL
+nullptr
 ;
 JS_STATIC_ASSERT
 (
@@ -33327,7 +33327,7 @@ ICUpdatedStub
 *
 stub
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -33449,7 +33449,7 @@ space
 )
 )
 return
-NULL
+nullptr
 ;
 return
 stub
@@ -35828,7 +35828,7 @@ Shape
 *
 shape
 =
-NULL
+nullptr
 ;
 while
 (
@@ -39035,7 +39035,7 @@ ICStub
 *
 newStub
 =
-NULL
+nullptr
 ;
 if
 (
@@ -43148,8 +43148,8 @@ return
 generateStubCode
 (
 masm
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 Address
@@ -43240,7 +43240,7 @@ RootedShape
 expandoShape
 (
 cx
-NULL
+nullptr
 )
 ;
 ExpandoAndGeneration
@@ -43738,21 +43738,21 @@ expandoShapeAddr
 =
 *
 /
-NULL
+nullptr
 /
 *
 expandoAndGenerationAddr
 =
 *
 /
-NULL
+nullptr
 /
 *
 generationAddr
 =
 *
 /
-NULL
+nullptr
 scratch
 domProxyRegSet
 &
@@ -45392,8 +45392,8 @@ cx
 obj
 id
 rhs
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 0
 0
@@ -46426,7 +46426,7 @@ oldShape_
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -46440,7 +46440,7 @@ shapes
 )
 )
 return
-NULL
+nullptr
 ;
 JS_STATIC_ASSERT
 (
@@ -46457,7 +46457,7 @@ ICUpdatedStub
 *
 stub
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -46579,7 +46579,7 @@ space
 )
 )
 return
-NULL
+nullptr
 ;
 return
 stub
@@ -53295,7 +53295,7 @@ Equal
 scriptCode
 ImmPtr
 (
-NULL
+nullptr
 )
 &
 failure
@@ -55914,7 +55914,7 @@ loadBaselineOrIonRaw
 target
 target
 SequentialExecution
-NULL
+nullptr
 )
 ;
 /
@@ -56665,7 +56665,7 @@ loadBaselineOrIonRaw
 target
 target
 SequentialExecution
-NULL
+nullptr
 )
 ;
 /
@@ -57410,7 +57410,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 jsbytecode
 *
@@ -57488,7 +57488,7 @@ if
 table
 )
 return
-NULL
+nullptr
 ;
 jsbytecode
 *
@@ -61215,7 +61215,7 @@ space
 )
 )
 return
-NULL
+nullptr
 ;
 return
 stub

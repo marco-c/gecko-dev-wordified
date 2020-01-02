@@ -1380,7 +1380,7 @@ PCMappingSlotInfo
 *
 slotInfo
 =
-NULL
+nullptr
 )
 ;
 jsbytecode
@@ -1430,7 +1430,7 @@ If
 pc
 |
 is
-NULL
+nullptr
 toggle
 traps
 for
@@ -1883,7 +1883,7 @@ ExceptionBailoutInfo
 *
 exceptionInfo
 =
-NULL
+nullptr
 )
 ;
 /

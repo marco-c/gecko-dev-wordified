@@ -333,7 +333,7 @@ spsPushToggleOffset
 :
 method_
 (
-NULL
+nullptr
 )
 fallbackStubSpace_
 (
@@ -739,7 +739,7 @@ IonContext
 ictx
 (
 cx
-NULL
+nullptr
 )
 ;
 JitActivation
@@ -1326,7 +1326,7 @@ data
 .
 scopeChain
 =
-NULL
+nullptr
 ;
 data
 .
@@ -2631,7 +2631,7 @@ if
 buffer
 )
 return
-NULL
+nullptr
 ;
 BaselineScript
 *
@@ -3179,7 +3179,7 @@ numICEntries
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3204,7 +3204,7 @@ offset
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -4943,7 +4943,7 @@ script
 compartment
 (
 )
-NULL
+nullptr
 )
 ;
 AutoFlushCache
@@ -5378,7 +5378,7 @@ ICStub
 *
 prev
 =
-NULL
+nullptr
 ;
 while
 (
@@ -5773,7 +5773,7 @@ script
 >
 setBaselineScript
 (
-NULL
+nullptr
 )
 ;
 BaselineScript

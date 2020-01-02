@@ -226,7 +226,7 @@ max
 )
 bits_
 (
-NULL
+nullptr
 )
 {
 }
