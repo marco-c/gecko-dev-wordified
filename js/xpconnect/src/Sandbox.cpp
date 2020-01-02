@@ -9557,7 +9557,7 @@ if
 frame
 )
 {
-nsCString
+nsString
 location
 ;
 int32_t
@@ -9597,7 +9597,10 @@ sandboxName
 .
 Append
 (
+NS_ConvertUTF16toUTF8
+(
 location
+)
 )
 ;
 sandboxName
