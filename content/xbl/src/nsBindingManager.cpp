@@ -6029,7 +6029,7 @@ aContent
 )
 -
 >
-ClearInsertedChildrenAndInsertionParents
+ClearInsertedChildren
 (
 )
 ;
