@@ -3058,7 +3058,7 @@ LoadError
 {
 tab
 .
-handleLoaded
+handleContentLoaded
 (
 )
 ;
@@ -3112,7 +3112,7 @@ DOMContentLoaded
 {
 tab
 .
-handleLoaded
+handleContentLoaded
 (
 )
 ;

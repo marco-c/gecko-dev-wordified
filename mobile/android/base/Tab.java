@@ -3554,7 +3554,7 @@ tab
 ;
 }
 void
-handleLoaded
+handleContentLoaded
 (
 )
 {
