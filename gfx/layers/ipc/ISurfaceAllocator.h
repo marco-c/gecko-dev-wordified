@@ -436,6 +436,11 @@ const
 SurfaceDescriptor
 &
 aDescriptor
+gfx
+:
+:
+BackendType
+aBackend
 )
 ;
 TemporaryRef
