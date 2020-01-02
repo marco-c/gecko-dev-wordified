@@ -29298,7 +29298,7 @@ case
 of
 error
 void
-nsFrame
+nsIFrame
 :
 :
 GetOffsetFromView
@@ -29333,7 +29333,7 @@ frame
 =
 const_cast
 <
-nsFrame
+nsIFrame
 *
 >
 (

@@ -15258,7 +15258,6 @@ of
 error
 *
 /
-virtual
 void
 GetOffsetFromView
 (
@@ -15271,8 +15270,6 @@ nsView
 aView
 )
 const
-=
-0
 ;
 /
 *
