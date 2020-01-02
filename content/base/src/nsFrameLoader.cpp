@@ -10019,12 +10019,6 @@ allowDelayedLoad
 *
 /
 true
-/
-*
-aRunInGlobalScope
-*
-/
-true
 )
 ;
 }
@@ -12420,8 +12414,6 @@ const
 nsAString
 &
 aURL
-bool
-aRunInGlobalScope
 )
 {
 mozilla
@@ -12453,7 +12445,6 @@ nsString
 (
 aURL
 )
-aRunInGlobalScope
 )
 ;
 }
@@ -12485,7 +12476,6 @@ tabChild
 LoadFrameScript
 (
 aURL
-aRunInGlobalScope
 )
 ;
 }

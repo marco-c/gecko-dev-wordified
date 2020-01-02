@@ -938,8 +938,6 @@ const
 nsAString
 &
 aURL
-bool
-aRunInGlobalScope
 )
 MOZ_OVERRIDE
 ;
