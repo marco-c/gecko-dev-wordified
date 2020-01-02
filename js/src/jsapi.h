@@ -7799,6 +7799,13 @@ JS_NewRuntime
 (
 uint32_t
 maxbytes
+uint32_t
+maxNurseryBytes
+=
+JS
+:
+:
+DefaultNurseryBytes
 JSRuntime
 *
 parentRuntime

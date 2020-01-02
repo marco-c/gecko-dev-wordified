@@ -29432,10 +29432,11 @@ AboveOrEqual
 secondScratchReg_
 Imm32
 (
-Nursery
-:
-:
-NumNurseryChunks
+nursery
+.
+numChunks
+(
+)
 )
 label
 )

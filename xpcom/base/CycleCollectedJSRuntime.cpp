@@ -3113,6 +3113,10 @@ mJSRuntime
 JS_NewRuntime
 (
 aMaxbytes
+JS
+:
+:
+DefaultNurseryBytes
 aParentRuntime
 )
 ;
