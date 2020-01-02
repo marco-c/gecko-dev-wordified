@@ -324,6 +324,10 @@ ScrollingBehavior
 ;
 public
 :
+/
+/
+nsITabParent
+NS_DECL_NSITABPARENT
 TabParent
 (
 ContentParent
