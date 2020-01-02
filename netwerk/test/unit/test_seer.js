@@ -1450,7 +1450,7 @@ ProfD
 "
 [
 "
-seer
+netpredictions
 .
 sqlite
 "

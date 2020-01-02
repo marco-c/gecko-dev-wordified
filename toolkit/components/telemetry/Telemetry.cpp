@@ -5712,6 +5712,11 @@ healthreport
 sqlite
 "
 "
+netpredictions
+.
+sqlite
+"
+"
 permissions
 .
 sqlite
@@ -5723,11 +5728,6 @@ sqlite
 "
 "
 search
-.
-sqlite
-"
-"
-seer
 .
 sqlite
 "

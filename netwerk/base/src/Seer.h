@@ -276,6 +276,11 @@ friend
 class
 SeerDBShutdownRunner
 ;
+void
+CheckForAndDeleteOldDBFile
+(
+)
+;
 nsresult
 EnsureInitStorage
 (
