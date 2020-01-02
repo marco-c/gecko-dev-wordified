@@ -193,9 +193,6 @@ mBuffers
 class
 AudioStream
 ;
-class
-AudioMixer
-;
 /
 *
 *
@@ -1535,11 +1532,6 @@ aID
 AudioStream
 *
 aOutput
-AudioMixer
-*
-aMixer
-=
-nullptr
 )
 ;
 int
