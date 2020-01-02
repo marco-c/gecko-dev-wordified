@@ -1201,6 +1201,16 @@ EnsureOnDemandBuiltInUASheet
 nsLayoutStylesheetCache
 :
 :
+CounterStylesSheet
+(
+)
+)
+;
+EnsureOnDemandBuiltInUASheet
+(
+nsLayoutStylesheetCache
+:
+:
 HTMLSheet
 (
 )
