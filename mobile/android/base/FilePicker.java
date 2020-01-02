@@ -255,7 +255,7 @@ sFilePicker
 private
 final
 Context
-mContext
+context
 ;
 public
 interface
@@ -308,7 +308,9 @@ Context
 context
 )
 {
-mContext
+this
+.
+context
 =
 context
 ;
@@ -364,6 +366,7 @@ mimeType
 *
 "
 ;
+final
 String
 mode
 =
@@ -374,6 +377,21 @@ optString
 "
 mode
 "
+)
+;
+final
+int
+tabId
+=
+message
+.
+optInt
+(
+"
+tabId
+"
+-
+1
 )
 ;
 if
@@ -503,6 +521,7 @@ toString
 ;
 }
 }
+tabId
 )
 ;
 }
@@ -530,7 +549,7 @@ filters
 PackageManager
 pm
 =
-mContext
+context
 .
 getPackageManager
 (
@@ -1205,7 +1224,7 @@ audio
 )
 {
 return
-mContext
+context
 .
 getString
 (
@@ -1233,7 +1252,7 @@ image
 )
 {
 return
-mContext
+context
 .
 getString
 (
@@ -1261,7 +1280,7 @@ video
 )
 {
 return
-mContext
+context
 .
 getString
 (
@@ -1276,7 +1295,7 @@ filepicker_video_title
 else
 {
 return
-mContext
+context
 .
 getString
 (
@@ -1575,6 +1594,9 @@ mimeType
 final
 ResultHandler
 handler
+final
+int
+tabId
 )
 {
 final
@@ -1585,7 +1607,8 @@ new
 FilePickerResultHandler
 (
 handler
-mContext
+context
+tabId
 )
 ;
 getFilePickerIntentAsync
