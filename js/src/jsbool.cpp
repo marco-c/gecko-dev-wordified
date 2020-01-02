@@ -965,7 +965,7 @@ nullptr
 if
 (
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 booleanProto

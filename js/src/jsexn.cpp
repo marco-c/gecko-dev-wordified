@@ -3852,7 +3852,7 @@ properties
 if
 (
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 errorProto
