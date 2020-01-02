@@ -411,7 +411,7 @@ eMouseScrollEventClass
 /
 /
 WidgetMouseScrollEvent
-NS_WHEEL_EVENT
+eWheelEventClass
 /
 /
 WidgetWheelEvent

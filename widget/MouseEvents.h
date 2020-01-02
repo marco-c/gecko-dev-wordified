@@ -3008,7 +3008,7 @@ WidgetMouseEventBase
 aIsTrusted
 aMessage
 aWidget
-NS_WHEEL_EVENT
+eWheelEventClass
 )
 deltaX
 (
@@ -3091,7 +3091,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_WHEEL_EVENT
+eWheelEventClass
 "
 Duplicate
 (

@@ -1896,7 +1896,7 @@ case
 eMouseScrollEventClass
 :
 case
-NS_WHEEL_EVENT
+eWheelEventClass
 :
 case
 eDragEventClass
@@ -1944,7 +1944,7 @@ aMouseEvent
 mClass
 =
 =
-NS_WHEEL_EVENT
+eWheelEventClass
 |
 |
 aMouseEvent

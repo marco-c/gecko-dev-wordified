@@ -3002,7 +3002,7 @@ aEvent
 mClass
 =
 =
-NS_WHEEL_EVENT
+eWheelEventClass
 )
 &
 &
@@ -3112,7 +3112,7 @@ aEvent
 mClass
 =
 =
-NS_WHEEL_EVENT
+eWheelEventClass
 |
 |
 aEvent
@@ -6547,7 +6547,7 @@ AsKeyboardEvent
 ;
 }
 case
-NS_WHEEL_EVENT
+eWheelEventClass
 :
 {
 return
@@ -6927,7 +6927,7 @@ case
 eKeyboardEventClass
 :
 case
-NS_WHEEL_EVENT
+eWheelEventClass
 :
 return
 true

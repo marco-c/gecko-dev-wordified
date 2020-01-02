@@ -3719,7 +3719,7 @@ event
 mClass
 =
 =
-NS_WHEEL_EVENT
+eWheelEventClass
 )
 &
 &
