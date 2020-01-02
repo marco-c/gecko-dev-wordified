@@ -20742,7 +20742,7 @@ get
 )
 -
 >
-asmJSActivationStackFromOwnerThread
+asmJSActivationStack
 (
 )
 ;
