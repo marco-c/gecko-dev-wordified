@@ -1069,7 +1069,7 @@ aRequest
 dom
 :
 :
-MediaStreamConstraints
+MediaStreamConstraintsInternal
 constraints
 ;
 mRequest
@@ -3140,7 +3140,7 @@ callID
 dom
 :
 :
-MediaStreamConstraints
+MediaStreamConstraintsInternal
 constraints
 ;
 req

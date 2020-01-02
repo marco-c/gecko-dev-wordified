@@ -2556,6 +2556,9 @@ aListener
 nsresult
 GetUserMedia
 (
+JSContext
+*
+aCx
 bool
 aPrivileged
 nsPIDOMWindow
@@ -2586,7 +2589,7 @@ const
 dom
 :
 :
-MediaStreamConstraints
+MediaStreamConstraintsInternal
 &
 aConstraints
 nsIGetUserMediaDevicesSuccessCallback
