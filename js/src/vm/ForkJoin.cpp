@@ -14158,7 +14158,7 @@ cx
 jit
 :
 :
-js_JitOptions
+js_IonOptions
 .
 eagerCompilation
 &
@@ -14166,7 +14166,7 @@ eagerCompilation
 jit
 :
 :
-js_JitOptions
+js_IonOptions
 .
 baselineUsesBeforeCompile
 !

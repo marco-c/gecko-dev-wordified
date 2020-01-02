@@ -5355,7 +5355,7 @@ CHECK_OSIPOINT_REGISTERS
 jit
 :
 :
-js_JitOptions
+js_IonOptions
 .
 checkOsiPointRegisters
 =
@@ -6391,7 +6391,7 @@ JS_ION
 jit
 :
 :
-js_JitOptions
+js_IonOptions
 .
 checkGraphConsistency
 =

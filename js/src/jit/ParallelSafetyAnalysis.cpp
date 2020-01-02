@@ -1635,10 +1635,6 @@ UNSAFE_OP
 (
 AsmJSCheckOverRecursed
 )
-DROP_OP
-(
-RecompileCheck
-)
 /
 /
 It

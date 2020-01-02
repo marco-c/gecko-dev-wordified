@@ -199,10 +199,6 @@ graph
 CompileInfo
 *
 info
-const
-OptimizationInfo
-*
-optimizationInfo
 )
 :
 compartment
@@ -212,10 +208,6 @@ compartment
 info_
 (
 info
-)
-optimizationInfo_
-(
-optimizationInfo
 )
 alloc_
 (

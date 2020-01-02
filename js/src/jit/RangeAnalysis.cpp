@@ -16064,7 +16064,7 @@ addRangeAssertions
 if
 (
 !
-js_JitOptions
+js_IonOptions
 .
 checkRangeAnalysis
 )
