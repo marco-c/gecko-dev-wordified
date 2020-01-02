@@ -134,6 +134,8 @@ mozilla
 /
 dom
 /
+network
+/
 MobileConnection
 .
 h
@@ -146,6 +148,9 @@ mozilla
 {
 namespace
 dom
+{
+namespace
+network
 {
 class
 MobileConnectionArray
@@ -265,6 +270,11 @@ mMobileConnections
 ;
 }
 ;
+}
+/
+/
+namespace
+network
 }
 /
 /
