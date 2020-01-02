@@ -1139,6 +1139,7 @@ else
 {
 MOZ_ASSERT
 (
+false
 "
 audio
 codec
