@@ -101,6 +101,11 @@ com
 "
 ]
 ;
+dontExpireThumbnailURLs
+(
+urls
+)
+;
 urls
 .
 forEach
