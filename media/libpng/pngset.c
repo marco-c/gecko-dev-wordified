@@ -21,10 +21,10 @@ libpng
 .
 6
 .
-3
+8
 [
-July
-18
+December
+19
 2013
 ]
 *
@@ -3036,7 +3036,7 @@ endif
 )
 )
 {
-png_chunk_error
+png_error
 (
 png_ptr
 "
