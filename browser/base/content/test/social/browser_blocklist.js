@@ -117,9 +117,9 @@ http
 :
 /
 /
-test
-:
-80
+example
+.
+org
 /
 browser
 /
