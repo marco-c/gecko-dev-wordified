@@ -1008,7 +1008,7 @@ firstIns
 *
 graph_
 .
-begin
+entryBlock
 (
 )
 -

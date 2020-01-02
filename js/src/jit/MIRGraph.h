@@ -3666,9 +3666,7 @@ entryResumePoint
 )
 {
 return
-blocks_
-.
-begin
+entryBlock
 (
 )
 -
