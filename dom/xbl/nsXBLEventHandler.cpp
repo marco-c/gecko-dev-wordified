@@ -847,7 +847,7 @@ switch
 nsContentUtils
 :
 :
-GetEventCategory
+GetEventClassID
 (
 nsDependentAtomString
 (
