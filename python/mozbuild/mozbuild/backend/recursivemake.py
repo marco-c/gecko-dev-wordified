@@ -2239,7 +2239,7 @@ return
 if
 obj
 .
-srcdir
+objdir
 not
 in
 self
@@ -2253,7 +2253,7 @@ _backend_files
 [
 obj
 .
-srcdir
+objdir
 ]
 =
 \
@@ -2282,7 +2282,7 @@ _backend_files
 [
 obj
 .
-srcdir
+objdir
 ]
         
 if
@@ -5326,7 +5326,8 @@ self
 )
         
 for
-srcdir
+objdir
+backend_file
 in
 sorted
 (
@@ -5334,11 +5335,17 @@ self
 .
 _backend_files
 .
-keys
+items
 (
 )
 )
 :
+            
+srcdir
+=
+backend_file
+.
+srcdir
             
 with
 self
@@ -5347,12 +5354,7 @@ _write_file
 (
 fh
 =
-self
-.
-_backend_files
-[
-srcdir
-]
+backend_file
 )
 as
 bf
@@ -5382,8 +5384,6 @@ path
 .
 join
 (
-bf
-.
 objdir
 '
 Makefile
