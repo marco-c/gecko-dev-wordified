@@ -783,6 +783,8 @@ const
 nsAString
 &
 aNumber
+uint32_t
+aCallIndex
 )
 ;
 nsresult
