@@ -143,6 +143,15 @@ mozrunner
 .
 35
 '
+        
+'
+mozversion
+=
+=
+0
+.
+6
+'
        
 ]
 #
