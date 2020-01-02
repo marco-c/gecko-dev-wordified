@@ -123,7 +123,11 @@ h
 #
 include
 "
-nsCxPusher
+mozilla
+/
+dom
+/
+ScriptSettings
 .
 h
 "
