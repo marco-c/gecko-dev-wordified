@@ -26866,13 +26866,6 @@ clearAnalysis
 (
 )
 ;
-script
--
->
-clearPropertyReadTypes
-(
-)
-;
 }
 }
 {
