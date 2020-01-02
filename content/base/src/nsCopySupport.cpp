@@ -4383,6 +4383,8 @@ NS_LITERAL_STRING
 clipboard
 "
 )
+nullptr
+0
 )
 ;
 }
