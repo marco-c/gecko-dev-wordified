@@ -1724,6 +1724,7 @@ ifdef
 JS_THREADSAFE
 public
 :
+explicit
 AutoLockHelperThreadState
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
@@ -1776,6 +1777,7 @@ AutoUnlockHelperThreadState
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
+explicit
 AutoUnlockHelperThreadState
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM

@@ -10812,6 +10812,7 @@ JSRuntime
 *
 runtime
 ;
+explicit
 AutoCheckCompartment
 (
 JSRuntime

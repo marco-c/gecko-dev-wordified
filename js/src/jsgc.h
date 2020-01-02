@@ -7669,6 +7669,7 @@ count
 ;
 public
 :
+explicit
 AutoDisableProxyCheck
 (
 JSRuntime

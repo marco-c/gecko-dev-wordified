@@ -383,6 +383,7 @@ cx
 ;
 public
 :
+explicit
 AutoCheckRequestDepth
 (
 JSContext
@@ -390,6 +391,7 @@ JSContext
 cx
 )
 ;
+explicit
 AutoCheckRequestDepth
 (
 js
@@ -27978,6 +27980,7 @@ cx
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
+explicit
 JSAutoByteString
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM

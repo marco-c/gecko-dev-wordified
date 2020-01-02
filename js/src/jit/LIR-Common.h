@@ -21337,6 +21337,7 @@ LIR_HEADER
 (
 Ceil
 )
+explicit
 LCeil
 (
 const
@@ -21389,6 +21390,7 @@ LIR_HEADER
 (
 CeilF
 )
+explicit
 LCeilF
 (
 const
