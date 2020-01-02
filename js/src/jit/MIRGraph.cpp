@@ -229,6 +229,10 @@ graph_
 (
 graph
 )
+abortReason_
+(
+AbortReason_NoAbort
+)
 error_
 (
 false

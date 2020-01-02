@@ -2190,6 +2190,13 @@ MIR
 "
 )
 ;
+mir_
+-
+>
+disable
+(
+)
+;
 return
 false
 ;
