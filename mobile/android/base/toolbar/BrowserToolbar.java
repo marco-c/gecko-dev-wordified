@@ -1865,6 +1865,13 @@ setToolbarPrefs
 prefs
 )
 ;
+urlEditLayout
+.
+setToolbarPrefs
+(
+prefs
+)
+;
 }
 public
 ArrayList
