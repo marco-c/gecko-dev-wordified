@@ -663,6 +663,11 @@ return
 mStackTop
 ;
 }
+void
+DuplicateLastSample
+(
+)
+;
 private
 :
 /

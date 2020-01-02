@@ -194,6 +194,13 @@ unused
 .
 h
 "
+#
+include
+"
+GeckoProfiler
+.
+h
+"
 using
 mozilla
 :
@@ -275,6 +282,10 @@ Suspend
 (
 )
 ;
+profiler_sleep_start
+(
+)
+;
 gint
 result
 =
@@ -286,6 +297,10 @@ sPollFunc
 ufds
 nfsd
 timeout_
+)
+;
+profiler_sleep_end
+(
 )
 ;
 mozilla
