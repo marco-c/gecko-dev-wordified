@@ -276,6 +276,13 @@ const
 CompositingRenderTarget
 *
 aSource
+const
+gfx
+:
+:
+IntPoint
+&
+aSourcePoint
 )
 MOZ_OVERRIDE
 ;
