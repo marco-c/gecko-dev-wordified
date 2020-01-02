@@ -619,6 +619,8 @@ return
 byte2Hex
 (
 b
+2
+*
 b
 .
 length
@@ -646,11 +648,17 @@ hs
 new
 StringBuilder
 (
+Math
+.
+max
+(
+2
+*
 b
 .
 length
-*
-2
+hexLength
+)
 )
 ;
 String
@@ -667,6 +675,8 @@ n
 <
 hexLength
 -
+2
+*
 b
 .
 length
