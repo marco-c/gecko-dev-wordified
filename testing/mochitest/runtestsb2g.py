@@ -1498,7 +1498,6 @@ server
 =
 MochitestServer
 (
-None
 d
 )
         

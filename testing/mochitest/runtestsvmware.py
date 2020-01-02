@@ -147,12 +147,21 @@ defaults
 {
 }
     
+self
+.
+_automation
+=
+automation
+or
+Automation
+(
+)
+    
 MochitestOptions
 .
 __init__
 (
 self
-automation
 mochitest
 .
 SCRIPT_DIRECTORY
