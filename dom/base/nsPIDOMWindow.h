@@ -2420,6 +2420,12 @@ for
 write
 .
 *
+*
+Outer
+windows
+only
+.
+*
 /
 virtual
 nsresult

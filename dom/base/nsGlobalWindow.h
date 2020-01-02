@@ -2595,6 +2595,12 @@ RefreshCompartmentPrincipal
 (
 )
 ;
+/
+/
+Outer
+windows
+only
+.
 virtual
 nsresult
 SetFullScreenInternal
@@ -2605,12 +2611,6 @@ bool
 aRequireTrust
 )
 ;
-/
-/
-Outer
-windows
-only
-.
 bool
 FullScreen
 (
