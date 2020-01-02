@@ -3611,7 +3611,6 @@ family
 "
 )
 {
-return
 this
 .
 tooltip
@@ -3622,6 +3621,9 @@ propValue
 .
 textContent
 )
+;
+return
+true
 ;
 }
 }
