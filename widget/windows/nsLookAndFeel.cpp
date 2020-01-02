@@ -1823,6 +1823,9 @@ break
 case
 WIN8_VERSION
 :
+case
+WIN8_1_VERSION
+:
 aResult
 =
 LookAndFeel
