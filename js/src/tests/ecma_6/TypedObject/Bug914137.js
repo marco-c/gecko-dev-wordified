@@ -16,6 +16,11 @@ hasOwnProperty
 TypedObject
 "
 )
+|
+|
+(
+Android
+)
 )
 var
 BUGNUMBER
