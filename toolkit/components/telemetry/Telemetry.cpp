@@ -3835,7 +3835,7 @@ conversions
 typedef
 nsBaseHashtableET
 <
-nsCharPtrHashKey
+nsDepCharHashKey
 Telemetry
 :
 :
