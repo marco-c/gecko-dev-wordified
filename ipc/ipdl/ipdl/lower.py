@@ -31973,7 +31973,7 @@ idvar
 ExprVar
 (
 '
-aId
+id
 '
 )
         
@@ -32037,12 +32037,12 @@ Alloc
 Shmem
 (
 size_t
-size
+aSize
 Type
-type
+aType
 Shmem
 *
-outmem
+aOutMem
 )
 :
             
@@ -32052,14 +32052,15 @@ id
 ;
             
 #
-nsAutoPtr
-<
 SharedMemory
->
-mem
+*
+rawmem
 (
 CreateSharedMemory
 (
+aSize
+aType
+false
 &
 id
 )
@@ -32070,7 +32071,7 @@ id
 if
 (
 !
-mem
+rawmem
 )
             
 #
@@ -32080,11 +32081,11 @@ false
             
 #
 *
-outmem
+aOutMem
 =
 Shmem
 (
-mem
+rawmem
 id
 )
             
@@ -32133,7 +32134,7 @@ ptr
 =
 1
 )
-memvar
+outmemvar
 .
 name
 )
@@ -32208,11 +32209,11 @@ StmtDecl
 (
 Decl
 (
-_autoptr
-(
 _rawShmemType
 (
-)
+ptr
+=
+1
 )
 rawvar
 .
@@ -32261,14 +32262,11 @@ ExprAssn
                     
 ExprDeref
 (
-memvar
+outmemvar
 )
 _shmemCtor
 (
-_autoptrForget
-(
 rawvar
-)
 idvar
 )
 )
@@ -32336,36 +32334,37 @@ True
 bool
 AdoptShmem
 (
-const
 Shmem
 &
-mem
+aMem
 Shmem
 *
-outmem
+aOutmem
 )
 :
         
 #
 SharedMemory
 *
-raw
+rawmem
 =
-mem
+aMem
 .
-mSegment
+Segment
+(
+)
 ;
         
 #
 if
 (
 !
-raw
+rawmem
 |
 |
 IsTrackingSharedMemory
 (
-raw
+rawmem
 )
 )
 {
@@ -32405,7 +32404,7 @@ if
 !
 AdoptSharedMemory
 (
-raw
+rawmem
 &
 id
 )
@@ -32417,11 +32416,11 @@ false
         
 #
 *
-outmem
+aOutmem
 =
 Shmem
 (
-raw
+rawmem
 id
 )
 ;
