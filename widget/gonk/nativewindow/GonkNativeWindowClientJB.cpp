@@ -1284,6 +1284,13 @@ result
 if
 (
 fence
+.
+get
+(
+)
+&
+&
+fence
 -
 >
 isValid
