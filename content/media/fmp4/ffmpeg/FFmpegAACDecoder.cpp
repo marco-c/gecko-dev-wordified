@@ -148,6 +148,9 @@ namespace
 mozilla
 {
 FFmpegAACDecoder
+<
+LIBAV_VER
+>
 :
 :
 FFmpegAACDecoder
@@ -185,6 +188,9 @@ FFmpegAACDecoder
 }
 nsresult
 FFmpegAACDecoder
+<
+LIBAV_VER
+>
 :
 :
 Init
@@ -443,6 +449,9 @@ forget
 }
 void
 FFmpegAACDecoder
+<
+LIBAV_VER
+>
 :
 :
 DecodePacket
@@ -678,6 +687,9 @@ InputExhausted
 }
 nsresult
 FFmpegAACDecoder
+<
+LIBAV_VER
+>
 :
 :
 Input
@@ -722,6 +734,9 @@ NS_OK
 }
 nsresult
 FFmpegAACDecoder
+<
+LIBAV_VER
+>
 :
 :
 Drain
@@ -745,6 +760,9 @@ NS_OK
 ;
 }
 FFmpegAACDecoder
+<
+LIBAV_VER
+>
 :
 :
 ~

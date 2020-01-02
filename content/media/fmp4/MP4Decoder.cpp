@@ -162,7 +162,7 @@ MOZ_FFMPEG
 #
 include
 "
-FFmpegDecoderModule
+FFmpegRuntimeLinker
 .
 h
 "
@@ -546,7 +546,7 @@ with
 it
 .
 return
-FFmpegDecoderModule
+FFmpegRuntimeLinker
 :
 :
 Link

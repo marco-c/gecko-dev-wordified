@@ -137,7 +137,7 @@ MOZ_FFMPEG
 #
 include
 "
-FFmpegDecoderModule
+FFmpegRuntimeLinker
 .
 h
 "
@@ -344,8 +344,10 @@ sFFmpegDecoderEnabled
 )
 {
 return
-new
-FFmpegDecoderModule
+FFmpegRuntimeLinker
+:
+:
+CreateDecoderModule
 (
 )
 ;
