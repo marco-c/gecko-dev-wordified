@@ -356,7 +356,7 @@ Register
 ToRegisterOrInvalid
 (
 const
-LAllocation
+LDefinition
 *
 a
 )
@@ -366,7 +366,6 @@ a
 ?
 ToRegister
 (
-*
 a
 )
 :
