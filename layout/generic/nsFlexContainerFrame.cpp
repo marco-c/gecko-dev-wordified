@@ -7683,7 +7683,7 @@ return
 item
 ;
 }
-nsresult
+void
 nsFlexContainerFrame
 :
 :
@@ -7741,7 +7741,6 @@ flex
 container
 .
 return
-NS_OK
 ;
 }
 if
@@ -7821,7 +7820,6 @@ function
 too
 .
 return
-NS_OK
 ;
 }
 /
@@ -8441,9 +8439,6 @@ aFlexItem
 SetHadMeasuringReflow
 (
 )
-;
-return
-NS_OK
 ;
 }
 FlexItem
@@ -19429,7 +19424,7 @@ return
 newLine
 ;
 }
-nsresult
+void
 nsFlexContainerFrame
 :
 :
@@ -20067,9 +20062,6 @@ aReflowState
 aAxisTracker
 )
 ;
-nsresult
-rv
-=
 ResolveFlexItemMaxContentSizing
 (
 aPresContext
@@ -20077,12 +20069,6 @@ aPresContext
 item
 aReflowState
 aAxisTracker
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 }
@@ -20304,9 +20290,6 @@ itemIdxInContainer
 +
 ;
 }
-return
-NS_OK
-;
 }
 /
 /
@@ -21755,7 +21738,7 @@ GetCrossAxis
 )
 ;
 }
-nsresult
+void
 nsFlexContainerFrame
 :
 :
@@ -21964,7 +21947,6 @@ ComputedWidth
 )
 ;
 return
-NS_OK
 ;
 }
 MOZ_ASSERT
@@ -22629,9 +22611,6 @@ BlockStartAscent
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 FlexLine
@@ -23393,9 +23372,6 @@ StrutInfo
 >
 struts
 ;
-nsresult
-rv
-=
 DoFlexLayout
 (
 aPresContext
@@ -23410,12 +23386,6 @@ axisTracker
 ;
 if
 (
-NS_SUCCEEDED
-(
-rv
-)
-&
-&
 !
 struts
 .
@@ -23569,7 +23539,7 @@ mLines
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
-nsresult
+void
 nsFlexContainerFrame
 :
 :
@@ -23620,9 +23590,6 @@ cleanupLines
 lines
 )
 ;
-nsresult
-rv
-=
 GenerateFlexLines
 (
 aPresContext
@@ -23632,12 +23599,6 @@ aAvailableHeightForContent
 aStruts
 aAxisTracker
 lines
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 aContentBoxMainSize
@@ -23945,9 +23906,6 @@ GetMainSize
 )
 ;
 }
-nsresult
-rv
-=
 SizeItemInCrossAxis
 (
 aPresContext
@@ -23955,12 +23913,6 @@ aAxisTracker
 childReflowState
 *
 item
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 }
@@ -24172,7 +24124,6 @@ our
 struts
 .
 return
-NS_OK
 ;
 }
 }
@@ -26181,9 +26132,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-return
-NS_OK
-;
 }
 /
 *
