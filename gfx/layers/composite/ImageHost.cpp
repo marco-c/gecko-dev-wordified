@@ -290,8 +290,9 @@ ImageHost
 :
 RemoveTextureHost
 (
-uint64_t
-aTextureID
+TextureHost
+*
+aTexture
 )
 {
 CompositableHost
@@ -299,7 +300,7 @@ CompositableHost
 :
 RemoveTextureHost
 (
-aTextureID
+aTexture
 )
 ;
 if
@@ -315,7 +316,12 @@ GetID
 )
 =
 =
-aTextureID
+aTexture
+-
+>
+GetID
+(
+)
 )
 {
 mFrontBuffer
