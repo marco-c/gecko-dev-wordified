@@ -144,6 +144,13 @@ methods
 ;
 static
 const
+JSPropertySpec
+properties
+[
+]
+;
+static
+const
 uint32_t
 NumFixedSlots
 =
