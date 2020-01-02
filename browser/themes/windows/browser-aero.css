@@ -2215,17 +2215,6 @@ bug
 *
 /
 #
-main
--
-window
-:
-not
-(
-[
-customizing
-]
-)
-#
 navigator
 -
 toolbox
