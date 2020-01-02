@@ -913,7 +913,7 @@ frameType
 EncodedFrame
 :
 :
-P_FRAME
+VP8_P_FRAME
 ;
 nsTArray
 <
@@ -1049,7 +1049,7 @@ frameType
 EncodedFrame
 :
 :
-I_FRAME
+VP8_I_FRAME
 ;
 }
 break

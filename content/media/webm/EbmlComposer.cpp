@@ -626,7 +626,7 @@ EncodedFrame
 FrameType
 :
 :
-I_FRAME
+VP8_I_FRAME
 &
 &
 mClusterHeaderIndex
@@ -697,7 +697,7 @@ EncodedFrame
 FrameType
 :
 :
-I_FRAME
+VP8_I_FRAME
 )
 {
 EbmlLoc
@@ -751,7 +751,7 @@ EncodedFrame
 FrameType
 :
 :
-AUDIO_FRAME
+VORBIS_AUDIO_FRAME
 )
 {
 mClusterTimecode
@@ -791,7 +791,7 @@ EncodedFrame
 FrameType
 :
 :
-AUDIO_FRAME
+VORBIS_AUDIO_FRAME
 )
 {
 short
@@ -828,7 +828,7 @@ EncodedFrame
 FrameType
 :
 :
-I_FRAME
+VP8_I_FRAME
 0
 0
 (

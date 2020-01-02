@@ -879,7 +879,7 @@ GetFrameType
 EncodedFrame
 :
 :
-I_FRAME
+AVC_I_FRAME
 )
 )
 ;

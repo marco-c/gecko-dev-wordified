@@ -855,12 +855,12 @@ BUFFER_SYNC_FRAME
 EncodedFrame
 :
 :
-I_FRAME
+AVC_I_FRAME
 :
 EncodedFrame
 :
 :
-P_FRAME
+AVC_P_FRAME
 )
 ;
 }
@@ -1249,7 +1249,7 @@ AAC_CSD
 EncodedFrame
 :
 :
-AUDIO_FRAME
+AAC_AUDIO_FRAME
 )
 ;
 audiodata
