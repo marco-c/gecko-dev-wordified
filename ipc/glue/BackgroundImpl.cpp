@@ -124,6 +124,15 @@ include
 "
 mozilla
 /
+unused
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ContentChild
@@ -3364,6 +3373,9 @@ transport
 "
 )
 ;
+unused
+<
+<
 mTransport
 .
 forget
@@ -8010,6 +8022,9 @@ actor
 "
 )
 ;
+unused
+<
+<
 mActor
 .
 forget
@@ -8644,6 +8659,9 @@ actors
 to
 IPDL
 .
+unused
+<
+<
 parentActor
 .
 forget

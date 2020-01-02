@@ -272,6 +272,15 @@ ChaosMode
 .
 h
 "
+#
+include
+"
+mozilla
+/
+unused
+.
+h
+"
 /
 /
 defined
@@ -2131,6 +2140,9 @@ NS_SUCCEEDED
 rv
 )
 )
+unused
+<
+<
 connInfo
 .
 forget
@@ -2537,6 +2549,9 @@ NS_SUCCEEDED
 rv
 )
 )
+unused
+<
+<
 args
 .
 forget
@@ -3036,6 +3051,9 @@ NS_SUCCEEDED
 rv
 )
 )
+unused
+<
+<
 bucket
 .
 forget

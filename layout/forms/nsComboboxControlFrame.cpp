@@ -349,6 +349,15 @@ MouseEvents
 .
 h
 "
+#
+include
+"
+mozilla
+/
+unused
+.
+h
+"
 using
 namespace
 mozilla
@@ -5676,6 +5685,9 @@ ReflowFinished
 /
 ReflowCallbackCanceled
 .
+unused
+<
+<
 resize
 .
 forget
