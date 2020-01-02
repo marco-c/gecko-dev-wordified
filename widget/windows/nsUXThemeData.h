@@ -375,6 +375,10 @@ bool
 sIsDefaultWindowsTheme
 ;
 static
+bool
+sIsHighContrastOn
+;
+static
 void
 Initialize
 (
@@ -451,6 +455,12 @@ GetNativeThemeId
 static
 bool
 IsDefaultWindowTheme
+(
+)
+;
+static
+bool
+IsHighContrastOn
 (
 )
 ;
