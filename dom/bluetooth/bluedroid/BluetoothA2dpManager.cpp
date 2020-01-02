@@ -2639,7 +2639,7 @@ sInShutdown
 aController
 -
 >
-OnConnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -2658,7 +2658,7 @@ mA2dpConnected
 aController
 -
 >
-OnConnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -2695,7 +2695,7 @@ null
 aController
 -
 >
-OnConnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -2752,7 +2752,7 @@ result
 aController
 -
 >
-OnConnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -2813,7 +2813,7 @@ aController
 aController
 -
 >
-OnDisconnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -2839,7 +2839,7 @@ aController
 aController
 -
 >
-OnDisconnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -2883,7 +2883,7 @@ null
 aController
 -
 >
-OnDisconnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -2940,7 +2940,7 @@ result
 aController
 -
 >
-OnDisconnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -3025,7 +3025,7 @@ forget
 controller
 -
 >
-OnConnect
+NotifyCompletion
 (
 aErrorStr
 )
@@ -3104,7 +3104,7 @@ forget
 controller
 -
 >
-OnDisconnect
+NotifyCompletion
 (
 aErrorStr
 )

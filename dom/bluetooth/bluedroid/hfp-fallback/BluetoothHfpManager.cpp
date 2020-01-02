@@ -284,7 +284,7 @@ aController
 aController
 -
 >
-OnConnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -312,7 +312,7 @@ aController
 aController
 -
 >
-OnDisconnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
