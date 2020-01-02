@@ -189,6 +189,10 @@ numArgs_
 (
 0
 )
+numBlockScoped_
+(
+0
+)
 numVars_
 (
 0
