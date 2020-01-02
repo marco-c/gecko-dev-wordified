@@ -4379,7 +4379,12 @@ nsLayoutUtils
 :
 LogTestDataForPaint
 (
-presShell
+aRoot
+-
+>
+Manager
+(
+)
 scrollId
 "
 displayport
