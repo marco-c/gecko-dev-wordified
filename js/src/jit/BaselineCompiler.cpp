@@ -7257,7 +7257,6 @@ types
 :
 UseNewTypeForInitializer
 (
-cx
 script
 pc
 JSProto_Array
@@ -7522,7 +7521,6 @@ types
 :
 UseNewTypeForInitializer
 (
-cx
 script
 pc
 JSProto_Object
@@ -7719,7 +7717,6 @@ types
 :
 UseNewTypeForInitializer
 (
-cx
 script
 pc
 key

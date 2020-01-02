@@ -10237,7 +10237,6 @@ script
 ?
 UseNewTypeForInitializer
 (
-cx
 script
 pc
 fastClass
@@ -17162,7 +17161,6 @@ types
 :
 UseNewTypeForInitializer
 (
-cx
 script
 pc
 &

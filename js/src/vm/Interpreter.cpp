@@ -17842,7 +17842,6 @@ newKind
 =
 UseNewTypeForInitializer
 (
-cx
 script
 regs
 .
@@ -17881,7 +17880,6 @@ newKind
 =
 UseNewTypeForInitializer
 (
-cx
 script
 regs
 .
@@ -17985,7 +17983,6 @@ newKind
 =
 UseNewTypeForInitializer
 (
-cx
 script
 regs
 .
@@ -18092,7 +18089,6 @@ newKind
 =
 UseNewTypeForInitializer
 (
-cx
 script
 regs
 .
