@@ -309,7 +309,7 @@ MediaDataDecoder
 GonkDecoderModule
 :
 :
-CreateAACDecoder
+CreateAudioDecoder
 (
 const
 mp4_demuxer
