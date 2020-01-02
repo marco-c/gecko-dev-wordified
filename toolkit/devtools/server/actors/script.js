@@ -6807,6 +6807,16 @@ function
 aFrame
 )
 {
+if
+(
+aFrame
+&
+&
+aFrame
+.
+live
+)
+{
 while
 (
 aFrame
@@ -6830,6 +6840,7 @@ aFrame
 .
 older
 ;
+}
 }
 }
 /
