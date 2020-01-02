@@ -1622,6 +1622,14 @@ failure
 bool
 encode
 (
+LRecoverInfo
+*
+recover
+)
+;
+bool
+encode
+(
 LSnapshot
 *
 snapshot
