@@ -499,7 +499,7 @@ JS_GetArrayBufferByteLength
 (
 obj
 )
-0
+0u
 )
 ;
 CHECK
@@ -600,7 +600,7 @@ JS_GetArrayBufferByteLength
 (
 obj
 )
-0
+0u
 )
 ;
 v

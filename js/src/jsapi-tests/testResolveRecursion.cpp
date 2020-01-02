@@ -444,10 +444,10 @@ JSObject
 >
 obj2
 ;
-unsigned
+int
 resolveEntryCount
 ;
-unsigned
+int
 resolveExitCount
 ;
 struct

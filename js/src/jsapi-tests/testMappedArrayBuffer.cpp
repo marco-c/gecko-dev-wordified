@@ -435,11 +435,9 @@ JS
 :
 HandleObject
 obj
-const
-int
+uint32_t
 offset
-const
-int
+uint32_t
 length
 const
 bool
@@ -535,11 +533,9 @@ true
 bool
 TestCreateObject
 (
-const
-int
+uint32_t
 offset
-const
-int
+uint32_t
 length
 )
 {

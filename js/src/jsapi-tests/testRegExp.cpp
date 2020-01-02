@@ -200,7 +200,7 @@ JS_GetRegExpFlags
 cx
 obj
 )
-0
+0u
 )
 ;
 EVAL

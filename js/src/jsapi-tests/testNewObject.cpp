@@ -610,7 +610,7 @@ len
 CHECK_EQUAL
 (
 len
-0
+0u
 )
 ;
 /
@@ -684,7 +684,7 @@ len
 CHECK_EQUAL
 (
 len
-4
+4u
 )
 ;
 /
