@@ -6864,21 +6864,6 @@ isEnum
 )
 :
                     
-#
-Need
-to
-see
-the
-actual
-definition
-of
-the
-enum
-                    
-#
-unfortunately
-.
-                    
 headers
 .
 add
@@ -6888,8 +6873,6 @@ CGHeaders
 getDeclarationFilename
 (
 f
-.
-inner
 )
 )
     
