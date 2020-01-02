@@ -2599,7 +2599,7 @@ if
 curEvent
 -
 >
-Characters
+Data
 (
 )
 .
