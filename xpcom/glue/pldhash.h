@@ -310,7 +310,7 @@ uint32_t
 #
 define
 PL_DHASH_MIN_CAPACITY
-16
+8
 /
 *
 *
@@ -359,14 +359,14 @@ default
 initial
 capacity
 of
-16
+8
 .
 *
 /
 #
 define
 PL_DHASH_DEFAULT_INITIAL_LENGTH
-8
+4
 /
 *
 *
