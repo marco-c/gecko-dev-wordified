@@ -16277,15 +16277,12 @@ set
 return
 ;
 }
-NS_ADDREF
-(
 mRoot
 -
 >
 mOuter
 =
 aNative
-)
 ;
 }
 void
@@ -16381,8 +16378,10 @@ nsXPCWrappedJS
 *
 mNext
 ;
+nsCOMPtr
+<
 nsISupports
-*
+>
 mOuter
 ;
 /
