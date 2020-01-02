@@ -10204,11 +10204,8 @@ call
 .
 mLayerView
 .
-setVisibility
+hide
 (
-View
-.
-INVISIBLE
 )
 ;
 }
@@ -10383,11 +10380,8 @@ access
 .
 mLayerView
 .
-setVisibility
+show
 (
-View
-.
-VISIBLE
 )
 ;
 if
