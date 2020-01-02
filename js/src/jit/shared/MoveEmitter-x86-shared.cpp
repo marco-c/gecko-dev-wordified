@@ -253,7 +253,7 @@ j
 )
 {
 const
-Move
+MoveOp
 &
 move
 =
@@ -484,7 +484,7 @@ first
 move
 .
 const
-Move
+MoveOp
 &
 move
 =
@@ -837,7 +837,7 @@ i
 )
 {
 const
-Move
+MoveOp
 &
 move
 =
@@ -1028,7 +1028,7 @@ kind
 )
 =
 =
-Move
+MoveOp
 :
 :
 DOUBLE
@@ -1525,7 +1525,7 @@ const
 MoveOperand
 &
 to
-Move
+MoveOp
 :
 :
 Kind
@@ -1591,7 +1591,7 @@ if
 kind
 =
 =
-Move
+MoveOp
 :
 :
 DOUBLE
@@ -1670,7 +1670,7 @@ const
 MoveOperand
 &
 to
-Move
+MoveOp
 :
 :
 Kind
@@ -1738,7 +1738,7 @@ if
 kind
 =
 =
-Move
+MoveOp
 :
 :
 DOUBLE
