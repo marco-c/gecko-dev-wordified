@@ -3699,6 +3699,12 @@ isSelectedTab
 (
 tab
 )
+&
+&
+mLayerClient
+!
+=
+null
 )
 {
 setZoomConstraints
