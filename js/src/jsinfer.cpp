@@ -11523,13 +11523,6 @@ JS_ASSERT
 script
 )
 ;
-if
-(
-!
-constrainedOutputs
-)
-return
-;
 #
 ifdef
 JS_ION
