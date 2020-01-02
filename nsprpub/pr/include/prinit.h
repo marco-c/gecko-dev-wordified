@@ -447,7 +447,8 @@ PR_VERSION
 .
 10
 .
-4
+5
+Beta
 "
 #
 define
@@ -460,11 +461,11 @@ PR_VMINOR
 #
 define
 PR_VPATCH
-4
+5
 #
 define
 PR_BETA
-PR_FALSE
+PR_TRUE
 /
 *
 *
