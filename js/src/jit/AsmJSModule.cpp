@@ -6408,10 +6408,6 @@ init
 AsmJSParser
 &
 parser
-const
-AsmJSModule
-&
-module
 )
 {
 JS_ASSERT
@@ -7456,7 +7452,6 @@ moduleChars
 init
 (
 parser
-module
 )
 )
 return

@@ -311,7 +311,7 @@ purpose
 These
 allocators
 must
-ony
+only
 be
 used
 *
