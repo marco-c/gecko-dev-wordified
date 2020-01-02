@@ -597,6 +597,10 @@ const
 NetAddr
 &
 peerAddr
+const
+int16_t
+&
+redirectCount
 )
 MOZ_OVERRIDE
 ;
