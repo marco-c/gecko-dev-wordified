@@ -8180,7 +8180,7 @@ IsEmpty
 return
 ;
 }
-nsIFrame
+nsContainerFrame
 *
 containingBlock
 =
