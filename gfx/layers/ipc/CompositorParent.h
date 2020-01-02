@@ -472,7 +472,6 @@ mLayersId
 ;
 class
 CompositorParent
-MOZ_FINAL
 :
 public
 PCompositorParent
@@ -1493,11 +1492,11 @@ IsInCompositorThread
 (
 )
 ;
-private
+protected
 :
 /
 /
-Private
+Protected
 destructor
 to
 discourage
