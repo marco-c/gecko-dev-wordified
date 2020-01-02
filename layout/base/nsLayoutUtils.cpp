@@ -9693,6 +9693,9 @@ GetType
 (
 )
 ;
+#
+ifdef
+ANDROID
 /
 /
 Treat
@@ -9708,6 +9711,8 @@ scrolled
 root
 /
 /
+on
+mobile
 so
 that
 it
@@ -9728,6 +9733,8 @@ sliderFrame
 )
 break
 ;
+#
+endif
 /
 /
 Sticky
