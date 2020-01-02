@@ -1921,7 +1921,7 @@ raw
 form
 mCharsetSource
 =
-kCharsetFromWeakDocTypeDefault
+kCharsetFromFallback
 ;
 rv
 =
@@ -3951,7 +3951,7 @@ windows
 ;
 mCharsetSource
 =
-kCharsetFromWeakDocTypeDefault
+kCharsetFromFallback
 ;
 mTreeBuilder
 -
@@ -3975,7 +3975,7 @@ LOAD_AS_DATA
 mCharsetSource
 =
 =
-kCharsetFromWeakDocTypeDefault
+kCharsetFromFallback
 )
 {
 NS_ASSERTION
@@ -4767,7 +4767,7 @@ used
 .
 mCharsetSource
 =
-kCharsetFromWeakDocTypeDefault
+kCharsetFromFallback
 ;
 }
 }
@@ -6355,7 +6355,7 @@ rv
 {
 mCharsetSource
 =
-kCharsetFromWeakDocTypeDefault
+kCharsetFromFallback
 ;
 }
 return
