@@ -6892,7 +6892,10 @@ nsSVGOuterSVGAnonChildFrame
 :
 HasChildrenOnlyTransform
 (
-gfxMatrix
+gfx
+:
+:
+Matrix
 *
 aTransform
 )
@@ -6987,6 +6990,11 @@ identity
 *
 aTransform
 =
+gfx
+:
+:
+ToMatrix
+(
 content
 -
 >
@@ -6997,6 +7005,7 @@ nsSVGElement
 :
 :
 eChildToUserSpace
+)
 )
 ;
 }
