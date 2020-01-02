@@ -2104,12 +2104,6 @@ messages
 (
 dict
 )
-or
-None
-depending
-on
-the
-log
                 
 parsed_messages
 =

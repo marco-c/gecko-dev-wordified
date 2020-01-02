@@ -15159,14 +15159,6 @@ end
 "
 )
     
-self
-.
-message_logger
-.
-finish
-(
-)
-    
 if
 self
 .
@@ -17645,16 +17637,28 @@ options
 symbolsPath
 )
   
-sys
-.
-exit
-(
+return_code
+=
 mochitest
 .
 runTests
 (
 options
 )
+  
+mochitest
+.
+message_logger
+.
+finish
+(
+)
+  
+sys
+.
+exit
+(
+return_code
 )
 if
 __name__
