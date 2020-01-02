@@ -5327,6 +5327,13 @@ onfrequencychange
 )
 GK_ATOM
 (
+onspeakerforcedchange
+"
+onspeakerforcedchange
+"
+)
+GK_ATOM
+(
 onget
 "
 onget

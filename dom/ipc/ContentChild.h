@@ -891,6 +891,12 @@ offline
 ;
 virtual
 bool
+RecvSpeakerManagerNotify
+(
+)
+;
+virtual
+bool
 RecvNotifyVisited
 (
 const

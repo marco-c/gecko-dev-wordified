@@ -1981,6 +1981,13 @@ NS_MEDIARECORDER_WARNING
 EventNameType_None
 NS_EVENT
 )
+NON_IDL_EVENT
+(
+speakerforcedchange
+NS_SPEAKERMANAGER_SPEAKERFORCEDCHANGE
+EventNameType_None
+NS_EVENT
+)
 /
 /
 Events
