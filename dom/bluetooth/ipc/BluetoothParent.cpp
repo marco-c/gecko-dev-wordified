@@ -1479,6 +1479,9 @@ get_IsScoConnectedRequest
 )
 )
 ;
+#
+ifdef
+MOZ_B2G_RIL
 case
 Request
 :
@@ -1536,6 +1539,8 @@ get_ToggleCallsRequest
 )
 )
 ;
+#
+endif
 case
 Request
 :
@@ -3104,6 +3109,9 @@ return
 true
 ;
 }
+#
+ifdef
+MOZ_B2G_RIL
 bool
 BluetoothRequestParent
 :
@@ -3236,6 +3244,11 @@ return
 true
 ;
 }
+#
+endif
+/
+/
+MOZ_B2G_RIL
 bool
 BluetoothRequestParent
 :
