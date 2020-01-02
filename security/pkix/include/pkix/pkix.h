@@ -1027,7 +1027,7 @@ TrustDomain
 trustDomain
 Input
 cert
-PRTime
+Time
 time
 EndEntityOrCA
 endEntityOrCA
@@ -1246,7 +1246,7 @@ const
 CertID
 &
 certID
-PRTime
+Time
 time
 uint16_t
 maxLifetimeInDays
@@ -1266,7 +1266,7 @@ optional
 out
 *
 /
-PRTime
+Time
 *
 thisUpdate
 =
@@ -1277,7 +1277,7 @@ optional
 out
 *
 /
-PRTime
+Time
 *
 validThrough
 =

@@ -600,7 +600,7 @@ IssuerChecker
 checker
 *
 /
-PRTime
+Time
 /
 *
 time
@@ -627,7 +627,7 @@ EndEntityOrCA
 const
 CertID
 &
-PRTime
+Time
 /
 *
 optional

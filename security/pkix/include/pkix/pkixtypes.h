@@ -281,7 +281,9 @@ h
 #
 include
 "
-prtime
+pkix
+/
+Time
 .
 h
 "
@@ -2025,7 +2027,7 @@ encodedIssuerName
 IssuerChecker
 &
 checker
-PRTime
+Time
 time
 )
 =
@@ -2317,7 +2319,7 @@ const
 CertID
 &
 certID
-PRTime
+Time
 time
 /
 *

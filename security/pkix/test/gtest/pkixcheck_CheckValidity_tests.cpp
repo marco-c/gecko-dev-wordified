@@ -317,7 +317,7 @@ CheckValidity
 const
 Input
 encodedValidity
-PRTime
+Time
 time
 )
 ;
@@ -332,7 +332,7 @@ mozilla
 pkix
 static
 const
-PRTime
+Time
 PAST_TIME
 (
 YMDHMS
@@ -499,7 +499,7 @@ Z
 /
 static
 const
-PRTime
+Time
 NOW
 (
 YMDHMS
@@ -663,7 +663,7 @@ Z
 /
 static
 const
-PRTime
+Time
 FUTURE_TIME
 (
 YMDHMS

@@ -412,13 +412,6 @@ pkixtypes
 .
 h
 "
-#
-include
-"
-prtime
-.
-h
-"
 namespace
 mozilla
 {
@@ -1936,7 +1929,7 @@ tag
 out
 *
 /
-PRTime
+Time
 &
 time
 )
@@ -2001,7 +1994,7 @@ input
 out
 *
 /
-PRTime
+Time
 &
 time
 )
@@ -2073,7 +2066,7 @@ input
 out
 *
 /
-PRTime
+Time
 &
 time
 )

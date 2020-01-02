@@ -370,7 +370,7 @@ FindIssuer
 Input
 IssuerChecker
 &
-PRTime
+Time
 )
 {
 ADD_FAILURE
@@ -392,7 +392,7 @@ EndEntityOrCA
 const
 CertID
 &
-PRTime
+Time
 const
 Input
 *

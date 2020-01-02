@@ -557,7 +557,13 @@ YMDHMS
 (
 GMT
 )
-PRTime
+mozilla
+:
+:
+pkix
+:
+:
+Time
 YMDHMS
 (
 int16_t
