@@ -29628,7 +29628,7 @@ doc
 startParent
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 ;
