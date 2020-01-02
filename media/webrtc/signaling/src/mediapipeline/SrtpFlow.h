@@ -276,7 +276,7 @@ SrtpFlow
 :
 session_
 (
-NULL
+nullptr
 )
 {
 }

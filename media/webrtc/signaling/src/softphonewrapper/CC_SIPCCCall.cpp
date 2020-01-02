@@ -188,7 +188,7 @@ pMediaData
 new
 CC_SIPCCCallMediaData
 (
-NULL
+nullptr
 false
 false
 -
@@ -2318,7 +2318,7 @@ pMediaData
 remoteWindow
 !
 =
-NULL
+nullptr
 )
 {
 pVideo
@@ -2357,7 +2357,7 @@ pMediaData
 extRenderer
 !
 =
-NULL
+nullptr
 )
 {
 pVideo

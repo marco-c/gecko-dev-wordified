@@ -199,7 +199,7 @@ CC_SIPCCCallMediaData
 :
 remoteWindow
 (
-NULL
+nullptr
 )
 streamMapMutex
 (

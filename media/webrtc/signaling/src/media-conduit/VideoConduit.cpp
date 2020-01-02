@@ -643,7 +643,7 @@ mOtherDirection
 >
 mOtherDirection
 =
-NULL
+nullptr
 ;
 /
 /
@@ -885,7 +885,7 @@ below
 function
 calls
 return
-NULL
+nullptr
 on
 failure
 if

@@ -332,7 +332,7 @@ if
 observer
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -420,7 +420,7 @@ if
 observer
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -774,7 +774,7 @@ if
 phone
 !
 =
-NULL
+nullptr
 )
 {
 setConnectionState
@@ -938,7 +938,7 @@ if
 phone
 !
 =
-NULL
+nullptr
 )
 {
 setConnectionState
@@ -1092,7 +1092,7 @@ if
 phone
 !
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -1211,7 +1211,7 @@ if
 phone
 =
 =
-NULL
+nullptr
 )
 return
 true
@@ -1336,7 +1336,7 @@ if
 phone
 !
 =
-NULL
+nullptr
 )
 return
 phone
@@ -1503,7 +1503,7 @@ if
 phone
 !
 =
-NULL
+nullptr
 )
 return
 phone
@@ -1532,7 +1532,7 @@ if
 phone
 !
 =
-NULL
+nullptr
 )
 return
 phone

@@ -414,7 +414,7 @@ VcmSIPCCBinding
 :
 gSelf
 =
-NULL
+nullptr
 ;
 int
 VcmSIPCCBinding
@@ -439,7 +439,7 @@ VcmSIPCCBinding
 :
 gMainThread
 =
-NULL
+nullptr
 ;
 nsIEventTarget
 *
@@ -448,7 +448,7 @@ VcmSIPCCBinding
 :
 gSTSThread
 =
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -459,7 +459,7 @@ VcmSIPCCBinding
 :
 gBranch
 =
-NULL
+nullptr
 ;
 static
 mozilla
@@ -614,31 +614,12 @@ VcmSIPCCBinding
 :
 streamObserver
 (
-NULL
+nullptr
 )
 {
 delete
 gSelf
 ;
-/
-/
-delete
-is
-NULL
-safe
-so
-I
-don
-'
-t
-need
-to
-check
-if
-it
-'
-s
-NULL
 gSelf
 =
 this
@@ -751,7 +732,7 @@ gSelf
 ;
 gSelf
 =
-NULL
+nullptr
 ;
 /
 /
@@ -818,7 +799,7 @@ true
 ;
 gBranch
 =
-NULL
+nullptr
 ;
 }
 void
@@ -961,12 +942,12 @@ vcm_opaque
 >
 call_handle_
 candidate_tmp
-NULL
+nullptr
 vcm_opaque
 -
 >
 level_
-NULL
+nullptr
 )
 ;
 }
@@ -1005,7 +986,7 @@ if
 gSelf
 !
 =
-NULL
+nullptr
 )
 return
 gSelf
@@ -1014,7 +995,7 @@ gSelf
 streamObserver
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -1047,7 +1028,7 @@ if
 gSelf
 !
 =
-NULL
+nullptr
 )
 return
 gSelf
@@ -1056,7 +1037,7 @@ gSelf
 mediaProviderObserver
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -1275,7 +1256,7 @@ media
 provider
 removal
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1302,7 +1283,7 @@ media
 provider
 removal
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1329,7 +1310,7 @@ media
 provider
 removal
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1356,7 +1337,7 @@ media
 provider
 removal
 return
-NULL
+nullptr
 ;
 }
 /
@@ -2317,7 +2298,7 @@ getAudioTermination
 )
 !
 =
-NULL
+nullptr
 )
 port
 =
@@ -2360,7 +2341,7 @@ getVideoTermination
 )
 !
 =
-NULL
+nullptr
 )
 port
 =
@@ -2396,7 +2377,7 @@ if
 obs
 !
 =
-NULL
+nullptr
 )
 obs
 -
@@ -2987,7 +2968,7 @@ stream_in
 *
 default_addrp
 =
-NULL
+nullptr
 ;
 *
 default_portp
@@ -2998,7 +2979,7 @@ default_portp
 *
 candidatesp
 =
-NULL
+nullptr
 ;
 *
 candidate_ctp
@@ -3826,7 +3807,7 @@ ufragp
 *
 pwdp
 =
-NULL
+nullptr
 ;
 /
 /
@@ -3936,13 +3917,13 @@ char
 *
 ufrag
 =
-NULL
+nullptr
 ;
 char
 *
 pwd
 =
-NULL
+nullptr
 ;
 for
 (
@@ -7452,7 +7433,7 @@ getAudioTermination
 )
 !
 =
-NULL
+nullptr
 )
 *
 port_allocated
@@ -7516,7 +7497,7 @@ getVideoTermination
 )
 !
 =
-NULL
+nullptr
 )
 *
 port_allocated
@@ -7921,7 +7902,7 @@ if
 rx_key
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -8012,7 +7993,7 @@ data
 to
 avoid
 passing
-NULL
+nullptr
 for
 key
 /
@@ -8066,7 +8047,7 @@ getAudioTermination
 )
 !
 =
-NULL
+nullptr
 )
 return
 VcmSIPCCBinding
@@ -8135,7 +8116,7 @@ getVideoTermination
 )
 !
 =
-NULL
+nullptr
 )
 return
 VcmSIPCCBinding
@@ -10021,7 +10002,7 @@ getAudioTermination
 )
 !
 =
-NULL
+nullptr
 )
 VcmSIPCCBinding
 :
@@ -10052,7 +10033,7 @@ getVideoTermination
 )
 !
 =
-NULL
+nullptr
 )
 VcmSIPCCBinding
 :
@@ -10210,7 +10191,7 @@ getAudioTermination
 )
 !
 =
-NULL
+nullptr
 )
 VcmSIPCCBinding
 :
@@ -10247,7 +10228,7 @@ getVideoTermination
 )
 !
 =
-NULL
+nullptr
 )
 VcmSIPCCBinding
 :
@@ -10281,7 +10262,7 @@ if
 obs
 !
 =
-NULL
+nullptr
 )
 obs
 -
@@ -11774,7 +11755,7 @@ if
 tx_key
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -11865,7 +11846,7 @@ data
 to
 avoid
 passing
-NULL
+nullptr
 for
 key
 /
@@ -11919,7 +11900,7 @@ getAudioTermination
 )
 !
 =
-NULL
+nullptr
 )
 return
 VcmSIPCCBinding
@@ -12001,7 +11982,7 @@ getVideoTermination
 )
 !
 =
-NULL
+nullptr
 )
 return
 VcmSIPCCBinding
@@ -13770,7 +13751,7 @@ getAudioTermination
 )
 !
 =
-NULL
+nullptr
 )
 VcmSIPCCBinding
 :
@@ -13801,7 +13782,7 @@ getVideoTermination
 )
 !
 =
-NULL
+nullptr
 )
 VcmSIPCCBinding
 :
@@ -14608,7 +14589,7 @@ if
 obs
 !
 =
-NULL
+nullptr
 )
 {
 obs
@@ -15269,7 +15250,7 @@ rcap
 *
 rcapptr
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -15309,7 +15290,7 @@ if
 rcap
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogDebug
@@ -15357,7 +15338,7 @@ level
 )
 !
 =
-NULL
+nullptr
 )
 {
 memset
@@ -15432,7 +15413,7 @@ level
 )
 !
 =
-NULL
+nullptr
 )
 {
 #
@@ -16329,7 +16310,7 @@ if
 obs
 !
 =
-NULL
+nullptr
 )
 obs
 -
@@ -16975,7 +16956,7 @@ fingerprint
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 std
@@ -17057,7 +17038,7 @@ digest
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 std
@@ -17116,7 +17097,7 @@ ciphers
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 nsAutoPtr
@@ -17244,7 +17225,7 @@ rv
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /

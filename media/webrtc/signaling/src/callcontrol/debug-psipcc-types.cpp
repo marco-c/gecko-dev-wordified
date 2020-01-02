@@ -160,7 +160,7 @@ ename
 name
 =
 =
-NULL
+nullptr
 )
 ;
 ename
@@ -283,7 +283,7 @@ __VA_ARGS__
 \
 {
 0
-NULL
+nullptr
 }
 \
 }

@@ -867,7 +867,7 @@ mLocalSourceStreamsLock
 )
 mIceCtx
 (
-NULL
+nullptr
 )
 mDNSResolver
 (
@@ -2359,7 +2359,7 @@ clear
 ;
 mIceCtx
 =
-NULL
+nullptr
 ;
 mMainThread
 -
@@ -2411,7 +2411,7 @@ Length
 )
 {
 return
-NULL
+nullptr
 ;
 }
 MOZ_ASSERT
@@ -2461,7 +2461,7 @@ Length
 )
 {
 return
-NULL
+nullptr
 ;
 }
 MOZ_ASSERT
@@ -2741,7 +2741,7 @@ flows
 /
 It
 returns
-NULL
+nullptr
 if
 no
 pipeline
@@ -2812,7 +2812,7 @@ end
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return

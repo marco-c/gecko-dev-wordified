@@ -136,7 +136,7 @@ Codec
 kMediaConduitInvalidRenderer
 /
 /
-NULL
+Null
 or
 Wrong
 Renderer
@@ -164,7 +164,7 @@ receiving
 kMediaConduitTransportRegistrationFail
 /
 /
-NULL
+Null
 or
 wrong
 transport
@@ -172,7 +172,7 @@ interface
 kMediaConduitInvalidTransport
 /
 /
-NULL
+Null
 or
 wrong
 transport

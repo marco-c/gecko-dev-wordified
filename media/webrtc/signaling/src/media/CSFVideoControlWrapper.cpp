@@ -98,7 +98,7 @@ if
 _realVideoControl
 !
 =
-NULL
+nullptr
 )
 {
 _realVideoControl
@@ -165,7 +165,7 @@ if
 _realVideoControl
 !
 =
-NULL
+nullptr
 )
 {
 _realVideoControl
@@ -215,7 +215,7 @@ if
 _realVideoControl
 !
 =
-NULL
+nullptr
 )
 {
 _realVideoControl
@@ -280,7 +280,7 @@ if
 _realVideoControl
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -341,7 +341,7 @@ if
 _realVideoControl
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -395,7 +395,7 @@ if
 _realVideoControl
 !
 =
-NULL
+nullptr
 )
 {
 return

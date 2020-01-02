@@ -475,7 +475,7 @@ if
 pPhone
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -1126,7 +1126,7 @@ if
 pPhone
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -1807,7 +1807,7 @@ CC_SIPCCService
 :
 _self
 =
-NULL
+nullptr
 ;
 CC_SIPCCService
 :
@@ -1851,7 +1851,7 @@ assert
 _self
 =
 =
-NULL
+nullptr
 )
 ;
 _self
@@ -1903,7 +1903,7 @@ destroy
 ;
 _self
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -2114,7 +2114,7 @@ if
 audioControlWrapper
 !
 =
-NULL
+nullptr
 )
 {
 audioControlWrapper
@@ -2122,7 +2122,7 @@ audioControlWrapper
 >
 setAudioControl
 (
-NULL
+nullptr
 )
 ;
 }
@@ -2131,7 +2131,7 @@ if
 videoControlWrapper
 !
 =
-NULL
+nullptr
 )
 {
 videoControlWrapper
@@ -2139,7 +2139,7 @@ videoControlWrapper
 >
 setVideoControl
 (
-NULL
+nullptr
 )
 ;
 }
@@ -2260,7 +2260,7 @@ if
 audio
 !
 =
-NULL
+nullptr
 )
 {
 audio
@@ -2292,7 +2292,7 @@ if
 video
 !
 =
-NULL
+nullptr
 )
 {
 video
@@ -2360,7 +2360,7 @@ if
 pAudio
 !
 =
-NULL
+nullptr
 )
 {
 pAudio
@@ -2394,7 +2394,7 @@ if
 pVideo
 !
 =
-NULL
+nullptr
 )
 {
 pVideo
@@ -2460,7 +2460,7 @@ if
 devicePtr
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogWarn
@@ -2706,7 +2706,7 @@ if
 pDevice
 !
 =
-NULL
+nullptr
 )
 {
 devices
@@ -2776,7 +2776,7 @@ if
 audioControlWrapper
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -2865,7 +2865,7 @@ if
 videoControlWrapper
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -3077,7 +3077,7 @@ if
 device
 !
 =
-NULL
+nullptr
 )
 {
 CC_DeviceInfoPtr
@@ -3440,7 +3440,7 @@ if
 _self
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -3496,7 +3496,7 @@ if
 devicePtr
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -3543,7 +3543,7 @@ if
 infoPtr
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -3658,7 +3658,7 @@ if
 _self
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -3725,7 +3725,7 @@ if
 devicePtr
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -3776,7 +3776,7 @@ if
 infoPtr
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -3880,7 +3880,7 @@ if
 _self
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -3940,7 +3940,7 @@ if
 linePtr
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -3991,7 +3991,7 @@ if
 infoPtr
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -4112,7 +4112,7 @@ if
 _self
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -4168,7 +4168,7 @@ if
 callPtr
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -4215,7 +4215,7 @@ if
 infoPtr
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -4486,7 +4486,7 @@ if
 observer
 =
 =
-NULL
+nullptr
 )
 {
 CSFLogError
@@ -4997,7 +4997,7 @@ if
 callPtr
 !
 =
-NULL
+nullptr
 )
 {
 callPtr
@@ -5120,7 +5120,7 @@ if
 callPtr
 !
 =
-NULL
+nullptr
 )
 {
 callPtr
@@ -5610,7 +5610,7 @@ if
 pMediaData
 !
 =
-NULL
+nullptr
 )
 {
 for

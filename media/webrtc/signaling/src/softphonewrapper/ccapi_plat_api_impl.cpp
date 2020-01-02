@@ -1247,7 +1247,7 @@ if
 image_a
 !
 =
-NULL
+nullptr
 )
 {
 sstrncpy
@@ -1265,7 +1265,7 @@ if
 image_b
 !
 =
-NULL
+nullptr
 )
 {
 sstrncpy
@@ -1423,7 +1423,7 @@ if
 phrase
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2127,14 +2127,14 @@ pre
 (
 hostAndPort
 not_eq
-NULL
+nullptr
 )
 *
 pre
 (
 localPort
 not_eq
-NULL
+nullptr
 )
 *
 *
@@ -3275,7 +3275,7 @@ if
 a
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3289,7 +3289,7 @@ if
 b
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3303,7 +3303,7 @@ if
 c
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3317,7 +3317,7 @@ if
 name
 !
 =
-NULL
+nullptr
 )
 {
 sstrncpy

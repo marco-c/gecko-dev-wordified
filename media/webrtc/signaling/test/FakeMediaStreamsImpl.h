@@ -319,7 +319,7 @@ it
 >
 NotifyPull
 (
-NULL
+nullptr
 mozilla
 :
 :
@@ -662,7 +662,7 @@ it
 >
 NotifyQueuedTrackChanges
 (
-NULL
+nullptr
 /
 /
 Graph

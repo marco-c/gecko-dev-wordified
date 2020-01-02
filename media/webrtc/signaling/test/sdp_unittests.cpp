@@ -5592,7 +5592,7 @@ MtransportTestUtils
 ;
 NSS_NoDB_Init
 (
-NULL
+nullptr
 )
 ;
 NSS_SetDomesticPolicy

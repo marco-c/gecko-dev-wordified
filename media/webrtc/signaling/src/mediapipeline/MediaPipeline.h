@@ -626,7 +626,7 @@ mux
 rtcp_transport
 should
 be
-NULL
+nullptr
 .
 /
 /
@@ -902,7 +902,7 @@ Detach
 {
 pipeline_
 =
-NULL
+nullptr
 ;
 }
 MediaPipeline
@@ -1669,7 +1669,7 @@ public
 Set
 rtcp_transport
 to
-NULL
+nullptr
 to
 use
 rtcp
@@ -2284,7 +2284,7 @@ public
 Set
 rtcp_transport
 to
-NULL
+nullptr
 to
 use
 rtcp
@@ -2907,7 +2907,7 @@ Detach
 {
 pipeline_
 =
-NULL
+nullptr
 ;
 }
 /

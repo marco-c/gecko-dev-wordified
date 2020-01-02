@@ -448,7 +448,7 @@ video
 control
 .
 Return
-NULL
+nullptr
 if
 Media
 control
@@ -461,7 +461,7 @@ this
 implementation
 .
 Return
-NULL
+nullptr
 in
 any
 case

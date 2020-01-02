@@ -2745,7 +2745,7 @@ AudioSessionConduit
 :
 Create
 (
-NULL
+nullptr
 )
 ;
 if
@@ -2760,7 +2760,7 @@ mAudioSession
 void
 *
 )
-NULL
+nullptr
 )
 ;
 mAudioSession2
@@ -2773,7 +2773,7 @@ AudioSessionConduit
 :
 Create
 (
-NULL
+nullptr
 )
 ;
 if
@@ -2788,7 +2788,7 @@ mAudioSession2
 void
 *
 )
-NULL
+nullptr
 )
 ;
 FakeMediaTransport
@@ -2807,7 +2807,7 @@ xport
 void
 *
 )
-NULL
+nullptr
 )
 ;
 xport
@@ -3416,7 +3416,7 @@ VideoSessionConduit
 :
 Create
 (
-NULL
+nullptr
 )
 ;
 if
@@ -3431,7 +3431,7 @@ mVideoSession
 void
 *
 )
-NULL
+nullptr
 )
 ;
 /
@@ -3452,7 +3452,7 @@ VideoSessionConduit
 :
 Create
 (
-NULL
+nullptr
 )
 ;
 if
@@ -3467,7 +3467,7 @@ mVideoSession2
 void
 *
 )
-NULL
+nullptr
 )
 ;
 mVideoRenderer
@@ -3484,7 +3484,7 @@ mVideoRenderer
 void
 *
 )
-NULL
+nullptr
 )
 ;
 FakeMediaTransport
@@ -3503,7 +3503,7 @@ xport
 void
 *
 )
-NULL
+nullptr
 )
 ;
 xport
@@ -4145,7 +4145,7 @@ VideoSessionConduit
 :
 Create
 (
-NULL
+nullptr
 )
 ;
 if
@@ -4160,7 +4160,7 @@ mVideoSession
 void
 *
 )
-NULL
+nullptr
 )
 ;
 /
@@ -5555,7 +5555,7 @@ mVideoSession
 >
 ConfigureSendMediaCodec
 (
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -5701,7 +5701,7 @@ VideoSessionConduit
 :
 Create
 (
-NULL
+nullptr
 )
 ;
 if
@@ -5716,7 +5716,7 @@ mVideoSession
 void
 *
 )
-NULL
+nullptr
 )
 ;
 /

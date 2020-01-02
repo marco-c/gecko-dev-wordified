@@ -879,7 +879,7 @@ below
 function
 calls
 return
-NULL
+nullptr
 on
 failure
 if

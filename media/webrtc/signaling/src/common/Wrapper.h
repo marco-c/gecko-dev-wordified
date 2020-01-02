@@ -519,7 +519,7 @@ LockNSPR
 :
 lock_
 (
-NULL
+nullptr
 )
 {
 lock_
