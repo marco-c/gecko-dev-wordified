@@ -5789,9 +5789,7 @@ rt
 >
 gc
 .
-tunables
-.
-gcMaxBytes
+maxBytesAllocated
 (
 )
 )
