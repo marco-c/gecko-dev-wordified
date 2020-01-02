@@ -328,6 +328,11 @@ ErrorResult
 aRv
 )
 ;
+~
+MediaSource
+(
+)
+;
 SourceBufferList
 *
 SourceBuffers
