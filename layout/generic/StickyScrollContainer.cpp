@@ -595,6 +595,11 @@ RemoveFrame
 f
 )
 ;
+if
+(
+newSSC
+)
+{
 newSSC
 -
 >
@@ -603,6 +608,7 @@ AddFrame
 f
 )
 ;
+}
 }
 }
 }
