@@ -5735,9 +5735,10 @@ GetContent
 {
 metrics
 .
-mHasScrollgrab
-=
+SetHasScrollgrab
+(
 true
+)
 ;
 }
 aRoot
