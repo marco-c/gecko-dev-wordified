@@ -1399,6 +1399,11 @@ DetermineCurrentDirection
 (
 )
 ;
+void
+FireInputEvent
+(
+)
+;
 /
 *
 *
