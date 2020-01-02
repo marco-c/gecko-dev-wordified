@@ -3558,6 +3558,9 @@ hash
 let
 sigInfo
 ;
+let
+channelRedirects
+;
 try
 {
 hash
@@ -3580,6 +3583,16 @@ getSignatureInfo
 (
 )
 ;
+channelRedirects
+=
+aDownload
+.
+saver
+.
+getRedirects
+(
+)
+;
 }
 catch
 (
@@ -3597,6 +3610,9 @@ t
 have
 a
 hash
+or
+signature
+info
 .
 return
 Promise
@@ -3694,6 +3710,9 @@ hash
 signatureInfo
 :
 sigInfo
+redirects
+:
+channelRedirects
 }
 function
 onComplete
