@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -2698,15 +2698,6 @@ locked
 .
 .
 MMP
-static
-int32_t
-mVMCount
-;
-/
-/
-number
-of
-viewmanagers
 /
 /
 list
@@ -2714,7 +2705,11 @@ of
 view
 managers
 static
-nsVoidArray
+nsTArray
+<
+nsViewManager
+*
+>
 *
 gViewManagers
 ;
