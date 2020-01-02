@@ -1851,7 +1851,7 @@ first
 .
 *
 /
-private
+public
 File
 getDistributionFile
 (
