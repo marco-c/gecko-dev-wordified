@@ -980,17 +980,11 @@ cx
 void
 join
 (
-AutoLockMonitor
-&
-lock
 )
 ;
 void
 waitForWorkers
 (
-AutoLockMonitor
-&
-lock
 )
 ;
 public
