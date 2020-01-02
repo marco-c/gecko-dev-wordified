@@ -3416,6 +3416,7 @@ VideoSessionConduit
 :
 Create
 (
+NULL
 )
 ;
 if
@@ -3451,6 +3452,7 @@ VideoSessionConduit
 :
 Create
 (
+NULL
 )
 ;
 if
@@ -4143,6 +4145,7 @@ VideoSessionConduit
 :
 Create
 (
+NULL
 )
 ;
 if
@@ -5698,6 +5701,7 @@ VideoSessionConduit
 :
 Create
 (
+NULL
 )
 ;
 if
