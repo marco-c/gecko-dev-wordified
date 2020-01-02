@@ -1465,7 +1465,7 @@ HeapSlot
 *
 extantSlots
 =
-NULL
+nullptr
 )
 ;
 /
@@ -2298,7 +2298,7 @@ return
 slots
 !
 =
-NULL
+nullptr
 ;
 }
 protected
@@ -2883,7 +2883,7 @@ proto
 is
 an
 object
-NULL
+nullptr
 or
 lazily
 computed
@@ -3264,7 +3264,7 @@ accessible
 objects
 with
 a
-NULL
+nullptr
 parent
 are
 global
@@ -3276,14 +3276,14 @@ global
 objects
 have
 a
-NULL
+nullptr
 parent
 .
 Some
 builtin
 objects
-which
 *
+which
 are
 not
 script
@@ -3292,12 +3292,12 @@ accessible
 also
 have
 a
-NULL
+nullptr
 parent
 such
 as
-parser
 *
+parser
 created
 functions
 for
@@ -9129,7 +9129,7 @@ Class
 *
 clasp
 =
-NULL
+nullptr
 )
 ;
 /
@@ -9680,7 +9680,7 @@ or
 changed
 shape
 or
-NULL
+nullptr
 on
 error
 .
@@ -10750,7 +10750,7 @@ Class
 *
 clasp
 =
-NULL
+nullptr
 )
 ;
 namespace

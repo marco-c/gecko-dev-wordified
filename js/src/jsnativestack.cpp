@@ -863,7 +863,7 @@ fs
 )
 !
 =
-NULL
+nullptr
 )
 {
 unsigned
