@@ -40668,6 +40668,13 @@ nsIDOMWindow
 _retval
 )
 {
+MOZ_ASSERT
+(
+IsOuterWindow
+(
+)
+)
+;
 return
 OpenInternal
 (

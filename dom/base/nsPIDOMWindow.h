@@ -3621,6 +3621,12 @@ given
 URL
 .
 *
+*
+Outer
+windows
+only
+.
+*
 /
 virtual
 nsresult

@@ -6906,6 +6906,12 @@ aPopup
 Window
 Control
 Functions
+/
+/
+Outer
+windows
+only
+.
 virtual
 nsresult
 OpenNoNavigate
