@@ -34230,7 +34230,7 @@ uint32_t
 jit
 :
 :
-IonOptions
+JitOptions
 defaultValues
 ;
 value
@@ -34243,7 +34243,7 @@ baselineUsesBeforeCompile
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 baselineUsesBeforeCompile
 =
@@ -34269,7 +34269,7 @@ uint32_t
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 resetUsesBeforeCompile
 (
@@ -34281,7 +34281,7 @@ break
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 setUsesBeforeCompile
 (
@@ -34298,7 +34298,7 @@ value
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 setEagerCompilation
 (

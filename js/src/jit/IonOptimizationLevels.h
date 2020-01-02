@@ -133,7 +133,7 @@ include
 "
 jit
 /
-IonOptions
+JitOptions
 .
 h
 "
@@ -504,7 +504,7 @@ inlineInterpreted_
 &
 &
 !
-js_IonOptions
+js_JitOptions
 .
 disableInlining
 ;
@@ -520,7 +520,7 @@ inlineNative_
 &
 &
 !
-js_IonOptions
+js_JitOptions
 .
 disableInlining
 ;
@@ -533,12 +533,12 @@ const
 {
 if
 (
-js_IonOptions
+js_JitOptions
 .
 forceDefaultIonUsesBeforeCompile
 )
 return
-js_IonOptions
+js_JitOptions
 .
 forcedDefaultIonUsesBeforeCompile
 ;
@@ -557,7 +557,7 @@ gvn_
 &
 &
 !
-js_IonOptions
+js_JitOptions
 .
 disableGvn
 ;
@@ -573,7 +573,7 @@ licm_
 &
 &
 !
-js_IonOptions
+js_JitOptions
 .
 disableLicm
 ;
@@ -589,7 +589,7 @@ uce_
 &
 &
 !
-js_IonOptions
+js_JitOptions
 .
 disableUce
 ;
@@ -605,7 +605,7 @@ rangeAnalysis_
 &
 &
 !
-js_IonOptions
+js_JitOptions
 .
 disableRangeAnalysis
 ;
@@ -621,7 +621,7 @@ eaa_
 &
 &
 !
-js_IonOptions
+js_JitOptions
 .
 disableEaa
 ;
@@ -637,7 +637,7 @@ edgeCaseAnalysis_
 &
 &
 !
-js_IonOptions
+js_JitOptions
 .
 disableEdgeCaseAnalysis
 ;
@@ -661,7 +661,7 @@ const
 if
 (
 !
-js_IonOptions
+js_JitOptions
 .
 forceGvnKind
 )
@@ -669,7 +669,7 @@ return
 gvnKind_
 ;
 return
-js_IonOptions
+js_JitOptions
 .
 forcedGvnKind
 ;
@@ -683,7 +683,7 @@ const
 if
 (
 !
-js_IonOptions
+js_JitOptions
 .
 forceRegisterAllocator
 )
@@ -691,7 +691,7 @@ return
 registerAllocator_
 ;
 return
-js_IonOptions
+js_JitOptions
 .
 forcedRegisterAllocator
 ;

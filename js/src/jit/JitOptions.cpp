@@ -113,7 +113,14 @@ include
 "
 jit
 /
-IonOptions
+JitOptions
+.
+h
+"
+#
+include
+"
+jsscript
 .
 h
 "
@@ -134,13 +141,13 @@ js
 namespace
 jit
 {
-IonOptions
-js_IonOptions
+JitOptions
+js_JitOptions
 ;
-IonOptions
+JitOptions
 :
 :
-IonOptions
+JitOptions
 (
 )
 {
@@ -708,7 +715,7 @@ usesBeforeCompilePar
 ;
 }
 bool
-IonOptions
+JitOptions
 :
 :
 isSmallFunction
@@ -732,7 +739,7 @@ smallFunctionMaxBytecodeLength_
 ;
 }
 void
-IonOptions
+JitOptions
 :
 :
 setEagerCompilation
@@ -757,7 +764,7 @@ forcedDefaultIonUsesBeforeCompile
 ;
 }
 void
-IonOptions
+JitOptions
 :
 :
 setUsesBeforeCompile
@@ -793,7 +800,7 @@ useCount
 jit
 :
 :
-IonOptions
+JitOptions
 defaultValues
 ;
 eagerCompilation
@@ -809,7 +816,7 @@ baselineUsesBeforeCompile
 }
 }
 void
-IonOptions
+JitOptions
 :
 :
 resetUsesBeforeCompile
@@ -833,7 +840,7 @@ eagerCompilation
 jit
 :
 :
-IonOptions
+JitOptions
 defaultValues
 ;
 eagerCompilation

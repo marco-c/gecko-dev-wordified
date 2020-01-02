@@ -32806,7 +32806,7 @@ off
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 disableGvn
 =
@@ -32831,7 +32831,7 @@ pessimistic
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 forceGvnKind
 =
@@ -32840,7 +32840,7 @@ true
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 forcedGvnKind
 =
@@ -32868,7 +32868,7 @@ optimistic
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 forceGvnKind
 =
@@ -32877,7 +32877,7 @@ true
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 forcedGvnKind
 =
@@ -32938,7 +32938,7 @@ on
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 disableLicm
 =
@@ -32961,7 +32961,7 @@ off
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 disableLicm
 =
@@ -33018,7 +33018,7 @@ on
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 disableEdgeCaseAnalysis
 =
@@ -33041,7 +33041,7 @@ off
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 disableEdgeCaseAnalysis
 =
@@ -33100,7 +33100,7 @@ on
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 disableRangeAnalysis
 =
@@ -33123,7 +33123,7 @@ off
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 disableRangeAnalysis
 =
@@ -33165,7 +33165,7 @@ analysis
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 checkRangeAnalysis
 =
@@ -33192,7 +33192,7 @@ safety
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 checkThreadSafety
 =
@@ -33234,7 +33234,7 @@ on
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 disableInlining
 =
@@ -33257,7 +33257,7 @@ off
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 disableInlining
 =
@@ -33312,7 +33312,7 @@ on
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 osr
 =
@@ -33335,7 +33335,7 @@ off
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 osr
 =
@@ -33394,7 +33394,7 @@ on
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 limitScriptSize
 =
@@ -33417,7 +33417,7 @@ off
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 limitScriptSize
 =
@@ -33469,7 +33469,7 @@ useCount
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 setUsesBeforeCompile
 (
@@ -33504,7 +33504,7 @@ useCount
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 baselineUsesBeforeCompile
 =
@@ -33527,7 +33527,7 @@ eager
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 baselineUsesBeforeCompile
 =
@@ -33570,7 +33570,7 @@ lsra
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 forceRegisterAllocator
 =
@@ -33579,7 +33579,7 @@ true
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 forcedRegisterAllocator
 =
@@ -33607,7 +33607,7 @@ backtracking
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 forceRegisterAllocator
 =
@@ -33616,7 +33616,7 @@ true
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 forcedRegisterAllocator
 =
@@ -33644,7 +33644,7 @@ stupid
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 forceRegisterAllocator
 =
@@ -33653,7 +33653,7 @@ true
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 forcedRegisterAllocator
 =
@@ -33695,7 +33695,7 @@ eager
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 setEagerCompilation
 (
@@ -33722,7 +33722,7 @@ catch
 jit
 :
 :
-js_IonOptions
+js_JitOptions
 .
 compileTryCatch
 =

@@ -1964,7 +1964,7 @@ incUseCount
 )
 <
 =
-js_IonOptions
+js_JitOptions
 .
 baselineUsesBeforeCompile
 )
