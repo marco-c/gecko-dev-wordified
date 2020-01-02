@@ -282,6 +282,13 @@ IDBTransaction
 .
 h
 "
+#
+include
+"
+ReportInternalError
+.
+h
+"
 namespace
 {
 #
@@ -1010,7 +1017,7 @@ if
 cx
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed

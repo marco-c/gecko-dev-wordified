@@ -271,6 +271,13 @@ h
 #
 include
 "
+ReportInternalError
+.
+h
+"
+#
+include
+"
 TransactionThreadPool
 .
 h
@@ -3636,7 +3643,7 @@ index
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -3787,7 +3794,7 @@ if
 objectStore
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -4422,7 +4429,7 @@ eNotCancelable
 )
 ;
 }
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 event
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -4573,6 +4580,10 @@ IsInvalidated
 )
 )
 {
+IDB_REPORT_INTERNAL_ERR
+(
+)
+;
 mAbortCode
 =
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -4619,6 +4630,10 @@ mConnection
 )
 )
 {
+IDB_REPORT_INTERNAL_ERR
+(
+)
+;
 mAbortCode
 =
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -4640,6 +4655,10 @@ WriteAutoIncrementCounts
 )
 )
 {
+IDB_REPORT_INTERNAL_ERR
+(
+)
+;
 mAbortCode
 =
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -4731,6 +4750,10 @@ NS_ERROR_DOM_INDEXEDDB_QUOTA_ERR
 }
 else
 {
+IDB_REPORT_INTERNAL_ERR
+(
+)
+;
 mAbortCode
 =
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
