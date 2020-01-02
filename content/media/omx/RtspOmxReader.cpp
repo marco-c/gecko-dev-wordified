@@ -1900,6 +1900,10 @@ MetadataTags
 aTags
 )
 {
+SetActive
+(
+)
+;
 nsresult
 rv
 =
@@ -1916,10 +1920,6 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
-)
-;
-SetActive
-(
 )
 ;
 return
