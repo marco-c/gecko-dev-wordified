@@ -11401,7 +11401,13 @@ mIterationCount
 ;
 /
 /
-NS_IEEEPositiveInfinity
+mozilla
+:
+:
+PositiveInfinity
+<
+float
+>
 (
 )
 means

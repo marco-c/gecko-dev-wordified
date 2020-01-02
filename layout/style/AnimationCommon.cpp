@@ -2067,7 +2067,13 @@ ComputedTiming
 :
 kNullTimeFraction
 =
-NS_IEEEPositiveInfinity
+mozilla
+:
+:
+PositiveInfinity
+<
+double
+>
 (
 )
 ;

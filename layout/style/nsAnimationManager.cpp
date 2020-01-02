@@ -1835,11 +1835,15 @@ AnimationPhase_After
 TimeDuration
 activeDuration
 =
+ElementAnimation
+:
+:
+ActiveDuration
+(
 anim
 -
 >
-ActiveDuration
-(
+mTiming
 )
 ;
 /
