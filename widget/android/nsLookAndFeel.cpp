@@ -1943,6 +1943,15 @@ GeckoProcessType_Default
 {
 mShowPassword
 =
+mozilla
+:
+:
+widget
+:
+:
+android
+:
+:
 GeckoAppShell
 :
 :

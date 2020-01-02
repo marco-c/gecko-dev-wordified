@@ -1885,6 +1885,15 @@ str
 bool
 isTablet
 =
+mozilla
+:
+:
+widget
+:
+:
+android
+:
+:
 GeckoAppShell
 :
 :

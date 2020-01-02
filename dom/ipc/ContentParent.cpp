@@ -10722,6 +10722,15 @@ available
 *
 showPassword
 =
+mozilla
+:
+:
+widget
+:
+:
+android
+:
+:
 GeckoAppShell
 :
 :
