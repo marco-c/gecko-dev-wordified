@@ -138,9 +138,6 @@ define
 LOG_NDEBUG
 0
 #
-undef
-LOG_TAG
-#
 define
 LOG_TAG
 "
@@ -4942,6 +4939,3 @@ true
 /
 namespace
 android
-#
-undef
-LOG_TAG

@@ -429,9 +429,6 @@ mpNext
 ptr
 ;
 }
-#
-ifndef
-_MSC_VER
 private
 :
 friend
@@ -442,8 +439,6 @@ friend
 class
 _ListIterator
 ;
-#
-endif
 T
 mVal
 ;
