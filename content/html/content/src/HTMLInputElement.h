@@ -6465,6 +6465,13 @@ GetDefaultStep
 )
 const
 ;
+enum
+StepCallerType
+{
+CALLED_FOR_USER_EVENT
+CALLED_FOR_SCRIPT
+}
+;
 /
 *
 *
@@ -6589,7 +6596,9 @@ nsresult
 GetValueIfStepped
 (
 int32_t
-aStep
+aStepCount
+StepCallerType
+aCallerType
 Decimal
 *
 aNextStep
