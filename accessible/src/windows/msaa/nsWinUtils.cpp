@@ -177,7 +177,7 @@ h
 #
 include
 "
-nsIXULRuntime
+nsXULAppAPI
 .
 h
 "
@@ -433,9 +433,12 @@ IsDolphin
 )
 |
 |
-BrowserTabsRemote
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Content
 )
 {
 RegisterNativeWindow

@@ -1634,6 +1634,8 @@ browser
 tabs
 .
 remote
+.
+autostart
 "
 )
 ;
