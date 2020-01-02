@@ -171,6 +171,8 @@ gfx
 :
 SurfaceFormat
 aFormat
+TextureFlags
+aFlags
 )
 ;
 virtual
@@ -353,6 +355,9 @@ mFormat
 ;
 bool
 mNeedsReset
+;
+TextureFlags
+mFlags
 ;
 }
 ;
