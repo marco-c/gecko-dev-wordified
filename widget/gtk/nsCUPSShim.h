@@ -239,7 +239,7 @@ Local
 instance
 name
 or
-NULL
+nullptr
 *
 /
 int

@@ -862,7 +862,7 @@ a
 modifier
 key
 returns
-NULL
+nullptr
 .
 *
 /
@@ -1113,7 +1113,7 @@ event
 must
 not
 be
-NULL
+nullptr
 .
 *
 param
@@ -1205,7 +1205,7 @@ event
 must
 not
 be
-NULL
+nullptr
 .
 *
 return
@@ -1498,7 +1498,7 @@ event
 must
 not
 be
-NULL
+nullptr
 .
 *
 The

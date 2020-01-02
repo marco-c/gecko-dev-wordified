@@ -673,7 +673,7 @@ name
 "
 &
 sound_theme_name
-NULL
+nullptr
 )
 ;
 if
@@ -694,7 +694,7 @@ theme
 name
 "
 sound_theme_name
-NULL
+nullptr
 )
 ;
 g_free
@@ -803,7 +803,7 @@ brand
 get
 (
 )
-NULL
+nullptr
 )
 ;
 }
@@ -860,7 +860,7 @@ version
 get
 (
 )
-NULL
+nullptr
 )
 ;
 }
@@ -873,7 +873,7 @@ application
 icon_name
 "
 MOZ_APP_NAME
-NULL
+nullptr
 )
 ;
 return
@@ -1853,8 +1853,8 @@ spec
 get
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -1877,7 +1877,7 @@ media
 filename
 "
 path
-NULL
+nullptr
 )
 ;
 g_free
@@ -1994,7 +1994,7 @@ sounds
 "
 &
 enable_sounds
-NULL
+nullptr
 )
 ;
 if
@@ -2048,7 +2048,7 @@ dialog
 -
 warning
 "
-NULL
+nullptr
 )
 ;
 break
@@ -2070,7 +2070,7 @@ dialog
 -
 question
 "
-NULL
+nullptr
 )
 ;
 break
@@ -2094,7 +2094,7 @@ new
 -
 email
 "
-NULL
+nullptr
 )
 ;
 break
@@ -2116,7 +2116,7 @@ menu
 -
 click
 "
-NULL
+nullptr
 )
 ;
 break
@@ -2138,7 +2138,7 @@ menu
 -
 popup
 "
-NULL
+nullptr
 )
 ;
 break

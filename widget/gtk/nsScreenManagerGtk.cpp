@@ -628,7 +628,7 @@ XineramaScreenInfo
 *
 screenInfo
 =
-NULL
+nullptr
 ;
 int
 numScreens
@@ -753,7 +753,7 @@ numScreens
 screenInfo
 =
 =
-NULL
+nullptr
 if
 either
 Xinerama

@@ -3997,7 +3997,7 @@ moz_none_bits
 moz_none_mask_bits
 0
 0
-NULL
+nullptr
 }
 }
 ;

@@ -706,7 +706,7 @@ mPendingDragContext
 /
 will
 be
-NULL
+nullptr
 if
 the
 scheduled

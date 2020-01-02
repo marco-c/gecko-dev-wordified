@@ -1038,7 +1038,7 @@ GTK
 -
 mGTKPrinter
 is
-NULL
+nullptr
 !
 !
 !
