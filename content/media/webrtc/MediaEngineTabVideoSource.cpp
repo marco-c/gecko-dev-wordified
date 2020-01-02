@@ -721,8 +721,6 @@ aName
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 &
 getUserMedia
@@ -732,7 +730,6 @@ videoDevice
 tabShare
 ;
 "
-)
 )
 ;
 }
@@ -751,12 +748,9 @@ aUuid
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 uuid
 "
-)
 )
 ;
 }

@@ -279,14 +279,11 @@ aName
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 Default
 Video
 Device
 "
-)
 )
 ;
 return
@@ -307,8 +304,6 @@ aUUID
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 1041FCBD
 -
@@ -320,7 +315,6 @@ MOZ_UTF16
 -
 1EC556DD5676
 "
-)
 )
 ;
 return
@@ -1901,14 +1895,11 @@ aName
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 Default
 Audio
 Device
 "
-)
 )
 ;
 return
@@ -1929,8 +1920,6 @@ aUUID
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 B7CBD7C1
 -
@@ -1942,7 +1931,6 @@ B7CBD7C1
 -
 73F61C70C092
 "
-)
 )
 ;
 return

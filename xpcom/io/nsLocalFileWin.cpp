@@ -1373,15 +1373,12 @@ shellArg
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 shell32
 .
 dll
 OpenAs_RunDLL
 "
-)
 )
 ;
 shellArg
