@@ -151,9 +151,8 @@ text
 /
 /
 data
-cookies
 and
-POSTDATA
+cookies
 .
 /
 /
