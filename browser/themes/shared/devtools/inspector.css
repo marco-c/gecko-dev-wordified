@@ -75,16 +75,8 @@ MPL
 *
 /
 %
-include
-.
-.
-/
-shared
-.
-inc
-%
-filter
-substitution
+ifdef
+XP_MACOSX
 #
 inspector
 -
@@ -195,6 +187,8 @@ fixed
 *
 /
 }
+%
+endif
 #
 inspector
 -
