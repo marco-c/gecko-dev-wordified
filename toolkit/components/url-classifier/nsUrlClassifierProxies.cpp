@@ -167,6 +167,10 @@ Lookup
 nsIPrincipal
 *
 aPrincipal
+const
+nsACString
+&
+aTables
 nsIUrlClassifierCallback
 *
 aCB
@@ -183,6 +187,7 @@ LookupRunnable
 (
 mTarget
 aPrincipal
+aTables
 aCB
 )
 ;
@@ -213,6 +218,7 @@ mTarget
 Lookup
 (
 mPrincipal
+mLookupTables
 mCB
 )
 ;

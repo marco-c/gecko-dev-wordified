@@ -1067,6 +1067,13 @@ gDbService
 lookup
 (
 principal
+"
+goog
+-
+downloadwhite
+-
+digest256
+"
 function
 handleEvent
 (
@@ -1157,6 +1164,13 @@ gDbService
 lookup
 (
 principal
+"
+goog
+-
+downloadwhite
+-
+digest256
+"
 function
 handleEvent
 (

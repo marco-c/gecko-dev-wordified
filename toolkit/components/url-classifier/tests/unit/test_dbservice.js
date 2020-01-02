@@ -732,6 +732,7 @@ dbservice
 lookup
 (
 principal
+allTables
 )
 ;
 exception
@@ -823,7 +824,7 @@ n
 )
 "
 \
-ntesting
+ntest
 -
 malware
 -
@@ -833,7 +834,7 @@ a
 :
 1
 \
-ntesting
+ntest
 -
 phish
 -
@@ -928,7 +929,7 @@ n
 )
 "
 \
-ntesting
+ntest
 -
 malware
 -
@@ -938,7 +939,7 @@ a
 :
 1
 \
-ntesting
+ntest
 -
 phish
 -
@@ -982,7 +983,7 @@ n
 "
 i
 :
-testing
+test
 -
 phish
 -
@@ -1064,7 +1065,7 @@ result
 indexOf
 (
 "
-testing
+test
 -
 phish
 -
@@ -1111,7 +1112,7 @@ result
 indexOf
 (
 "
-testing
+test
 -
 phish
 -
@@ -1158,7 +1159,7 @@ result
 indexOf
 (
 "
-testing
+test
 -
 malware
 -
@@ -1226,6 +1227,7 @@ dbservice
 lookup
 (
 principal
+allTables
 phishExists
 true
 )
@@ -1272,6 +1274,7 @@ dbservice
 lookup
 (
 principal
+allTables
 phishDoesntExist
 true
 )
@@ -1318,6 +1321,7 @@ dbservice
 lookup
 (
 principal
+allTables
 malwareExists
 true
 )
@@ -1366,7 +1370,7 @@ n
 "
 i
 :
-testing
+test
 -
 phish
 -
@@ -1517,7 +1521,7 @@ n
 "
 i
 :
-testing
+test
 -
 phish
 -
@@ -1654,7 +1658,7 @@ n
 "
 i
 :
-testing
+test
 -
 malware
 -

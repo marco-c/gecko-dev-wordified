@@ -201,6 +201,10 @@ aTarget
 nsIPrincipal
 *
 aPrincipal
+const
+nsACString
+&
+aTables
 nsIUrlClassifierCallback
 *
 aCB
@@ -213,6 +217,10 @@ aTarget
 mPrincipal
 (
 aPrincipal
+)
+mLookupTables
+(
+aTables
 )
 mCB
 (
@@ -234,6 +242,9 @@ nsCOMPtr
 nsIPrincipal
 >
 mPrincipal
+;
+nsCString
+mLookupTables
 ;
 nsCOMPtr
 <
