@@ -1840,7 +1840,7 @@ mIsTesting
 ifdef
 COMPOSITOR_PERFORMANCE_WARNING
 TimeStamp
-mExpectedComposeTime
+mExpectedComposeStartTime
 ;
 #
 endif
