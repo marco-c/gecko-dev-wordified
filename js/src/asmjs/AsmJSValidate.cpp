@@ -8562,6 +8562,15 @@ module_
 addGlobalVarInit
 (
 lit
+.
+value
+(
+)
+type
+.
+toCoercion
+(
+)
 &
 index
 )
