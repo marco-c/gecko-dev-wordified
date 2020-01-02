@@ -321,6 +321,7 @@ unused
 *
 *
 /
+explicit
 CrossProcessMutex
 (
 const
@@ -353,6 +354,7 @@ opened
 .
 *
 /
+explicit
 CrossProcessMutex
 (
 CrossProcessMutexHandle

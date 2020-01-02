@@ -607,6 +607,7 @@ type
 we
 are
 .
+explicit
 ChildProcessInfo
 (
 ProcessType

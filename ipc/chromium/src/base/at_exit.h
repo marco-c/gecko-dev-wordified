@@ -269,6 +269,7 @@ shadow
 another
 AtExitManager
 .
+explicit
 AtExitManager
 (
 bool

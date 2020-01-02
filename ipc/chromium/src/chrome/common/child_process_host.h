@@ -278,6 +278,7 @@ Iterator
 (
 )
 ;
+explicit
 Iterator
 (
 ProcessType
@@ -679,6 +680,7 @@ Listener
 {
 public
 :
+explicit
 ListenerHook
 (
 ChildProcessHost
