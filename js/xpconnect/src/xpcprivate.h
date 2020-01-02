@@ -21448,6 +21448,8 @@ GlobalProperties
 {
 GlobalProperties
 (
+bool
+aPromise
 )
 {
 mozilla
@@ -21457,6 +21459,10 @@ PodZero
 (
 this
 )
+;
+Promise
+=
+true
 ;
 }
 bool
@@ -21484,6 +21490,11 @@ JS
 HandleObject
 obj
 )
+;
+bool
+Promise
+:
+1
 ;
 bool
 indexedDB
@@ -21746,6 +21757,10 @@ cx
 invisibleToDebugger
 (
 false
+)
+globalProperties
+(
+true
 )
 metadata
 (
