@@ -5559,6 +5559,14 @@ aFunc
 0
 )
 ;
+return
+null
+;
+/
+/
+Avoid
+warning
+.
 }
 ;
 SimpleTest
