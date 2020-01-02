@@ -246,7 +246,7 @@ nsPIDOMWindow
 *
 aWindow
 const
-nsString
+nsACString
 &
 aEncoding
 )
@@ -567,7 +567,7 @@ status
 }
 mData
 ;
-nsString
+nsCString
 mEncoding
 ;
 }

@@ -47549,7 +47549,7 @@ rv
 nsContentUtils
 :
 :
-ConvertStringFromCharset
+ConvertStringFromEncoding
 (
 docCharset
 unescapedRef

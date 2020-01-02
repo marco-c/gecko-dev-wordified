@@ -185,7 +185,7 @@ ZipCentral
 &
 aCentralStruct
 const
-nsAString
+nsACString
 &
 aEncoding
 )
@@ -271,7 +271,7 @@ mFilenameU
 ZipCentral
 mCentralStruct
 ;
-nsString
+nsCString
 mEncoding
 ;
 }
@@ -304,7 +304,7 @@ ArchiveReader
 *
 aArchiveReader
 const
-nsAString
+nsACString
 &
 aEncoding
 )
@@ -317,7 +317,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-nsString
+nsCString
 mEncoding
 ;
 }
