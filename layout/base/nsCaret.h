@@ -1087,7 +1087,7 @@ aCaretHeight
 )
 ;
 static
-nsresult
+nsRect
 GetGeometryForFrame
 (
 nsIFrame
@@ -1095,9 +1095,6 @@ nsIFrame
 aFrame
 int32_t
 aFrameOffset
-nsRect
-*
-aRect
 nscoord
 *
 aBidiIndicatorSize
