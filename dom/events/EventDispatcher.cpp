@@ -4330,7 +4330,7 @@ AsSMILTimeEvent
 )
 ;
 case
-NS_COMMAND_EVENT
+eCommandEventClass
 :
 return
 NS_NewDOMCommandEvent

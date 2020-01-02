@@ -482,7 +482,7 @@ InternalSMILTimeEvent
 MiscEvents
 .
 h
-NS_COMMAND_EVENT
+eCommandEventClass
 /
 /
 WidgetCommandEvent
