@@ -2789,7 +2789,13 @@ bool
 HitTestRect
 (
 const
-gfxMatrix
+mozilla
+:
+:
+gfx
+:
+:
+Matrix
 &
 aMatrix
 float
