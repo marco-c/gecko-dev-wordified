@@ -6326,8 +6326,6 @@ CAIRO_SURFACE
 )
 {
 }
-private
-:
 nsCountedRef
 <
 nsMainThreadSurfaceRef
