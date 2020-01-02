@@ -99,6 +99,13 @@ MOZILLA_GFX_COMPOSITOROGL_H
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 GLContextTypes
 .
 h
