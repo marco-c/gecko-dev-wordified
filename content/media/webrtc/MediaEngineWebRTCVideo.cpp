@@ -103,6 +103,13 @@ h
 namespace
 mozilla
 {
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 #
 ifdef
 PR_LOGGING
@@ -490,7 +497,7 @@ data
 .
 mYSize
 =
-gfxIntSize
+IntSize
 (
 mWidth
 mHeight
@@ -548,7 +555,7 @@ data
 .
 mCbCrSize
 =
-gfxIntSize
+IntSize
 (
 mWidth
 /
@@ -574,7 +581,7 @@ data
 .
 mPicSize
 =
-gfxIntSize
+IntSize
 (
 mWidth
 mHeight

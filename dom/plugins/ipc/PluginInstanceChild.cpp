@@ -307,6 +307,13 @@ layers
 ;
 using
 namespace
+mozilla
+:
+:
+gfx
+;
+using
+namespace
 std
 ;
 #
@@ -13821,7 +13828,7 @@ data
 >
 mSize
 =
-gfxIntSize
+IntSize
 (
 0
 0
@@ -13890,7 +13897,7 @@ data
 >
 mSize
 =
-gfxIntSize
+IntSize
 (
 0
 0
@@ -13982,7 +13989,7 @@ data
 >
 mSize
 =
-gfxIntSize
+IntSize
 (
 0
 0
@@ -14056,7 +14063,7 @@ data
 >
 mSize
 =
-gfxIntSize
+IntSize
 (
 surface
 -
@@ -14148,7 +14155,7 @@ data
 >
 mSize
 =
-gfxIntSize
+IntSize
 (
 surface
 -

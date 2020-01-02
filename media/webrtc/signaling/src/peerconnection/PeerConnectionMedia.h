@@ -567,6 +567,16 @@ mozilla
 DOMMediaStream
 DOMMediaStream
 ;
+typedef
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
+IntSize
+;
 Fake_VideoGenerator
 (
 DOMMediaStream
@@ -910,7 +920,7 @@ data
 .
 mYSize
 =
-gfxIntSize
+IntSize
 (
 WIDTH
 HEIGHT
@@ -982,7 +992,7 @@ data
 .
 mCbCrSize
 =
-gfxIntSize
+IntSize
 (
 WIDTH
 /
@@ -1008,7 +1018,7 @@ data
 .
 mPicSize
 =
-gfxIntSize
+IntSize
 (
 WIDTH
 HEIGHT

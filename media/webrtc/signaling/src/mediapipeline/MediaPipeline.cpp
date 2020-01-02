@@ -295,6 +295,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 /
 /
 Logging
@@ -8011,7 +8018,7 @@ data
 .
 mYSize
 =
-gfxIntSize
+IntSize
 (
 width_
 height_
@@ -8069,7 +8076,7 @@ data
 .
 mCbCrSize
 =
-gfxIntSize
+IntSize
 (
 width_
 /
@@ -8095,7 +8102,7 @@ data
 .
 mPicSize
 =
-gfxIntSize
+IntSize
 (
 width_
 height_

@@ -25487,10 +25487,8 @@ if
 container
 )
 {
-nsIntSize
+IntSize
 surfaceSizeInt
-=
-nsIntSize
 (
 NSToIntCeil
 (

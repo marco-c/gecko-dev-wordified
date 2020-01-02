@@ -2811,17 +2811,11 @@ nullptr
 *
 aSize
 =
-gfx
-:
-:
-ThebesIntSize
-(
 image
 -
 >
 GetSize
 (
-)
 )
 ;
 bool

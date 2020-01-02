@@ -278,6 +278,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 nsIFrame
 *
 NS_NewHTMLVideoFrame
@@ -1351,7 +1358,7 @@ return
 nullptr
 ;
 }
-gfxIntSize
+IntSize
 scaleHint
 (
 static_cast

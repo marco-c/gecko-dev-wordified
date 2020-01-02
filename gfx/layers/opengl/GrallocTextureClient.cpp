@@ -172,6 +172,13 @@ layers
 {
 using
 namespace
+mozilla
+:
+:
+gfx
+;
+using
+namespace
 android
 ;
 class
@@ -357,7 +364,7 @@ SurfaceDescriptorGralloc
 (
 nullptr
 mGrallocActor
-nsIntSize
+IntSize
 (
 0
 0
@@ -650,7 +657,7 @@ SurfaceDescriptorGralloc
 (
 nullptr
 mGrallocActor
-nsIntSize
+IntSize
 (
 0
 0

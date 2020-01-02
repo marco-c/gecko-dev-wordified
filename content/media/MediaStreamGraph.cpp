@@ -249,6 +249,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 namespace
 mozilla
 {
@@ -6658,7 +6665,7 @@ data
 .
 mCbCrSize
 =
-gfxIntSize
+IntSize
 (
 1
 1

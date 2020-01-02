@@ -311,7 +311,6 @@ aAppUnitsPerPixel
 )
 const
 ;
-operator
 mozilla
 :
 :
@@ -319,6 +318,7 @@ gfx
 :
 :
 IntSize
+ToIntSize
 (
 )
 const

@@ -663,6 +663,10 @@ aSurf
 GetSize
 (
 )
+.
+ToIntSize
+(
+)
 )
 {
 const

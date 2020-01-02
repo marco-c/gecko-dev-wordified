@@ -358,6 +358,13 @@ layers
 ;
 using
 namespace
+mozilla
+:
+:
+gfx
+;
+using
+namespace
 android
 ;
 /
@@ -10547,7 +10554,7 @@ data
 .
 mPicSize
 =
-gfxIntSize
+IntSize
 (
 aWidth
 aHeight

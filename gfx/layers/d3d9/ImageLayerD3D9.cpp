@@ -3623,17 +3623,11 @@ dontCare
 *
 aSize
 =
-gfx
-:
-:
-ThebesIntSize
-(
 image
 -
 >
 GetSize
 (
-)
 )
 ;
 nsRefPtr

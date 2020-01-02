@@ -3189,6 +3189,10 @@ surface
 GetSize
 (
 )
+.
+ToIntSize
+(
+)
 ;
 cairoImage
 -
