@@ -1299,6 +1299,8 @@ _listeners
 [
 aName
 ]
+.
+weakRef
 ?
 cpmm
 .
