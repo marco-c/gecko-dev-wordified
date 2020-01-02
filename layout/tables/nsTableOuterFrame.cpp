@@ -2587,7 +2587,7 @@ default
 nsLayoutUtils
 :
 :
-IntrinsicWidthType
+IntrinsicISizeType
 iwt
 ;
 if

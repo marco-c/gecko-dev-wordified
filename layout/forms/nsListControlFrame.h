@@ -1892,7 +1892,7 @@ aFontSizeInflation
 ;
 /
 /
-CalcIntrinsicHeight
+CalcIntrinsicBSize
 computes
 our
 intrinsic
@@ -1922,7 +1922,7 @@ dropdown
 mode
 .
 nscoord
-CalcIntrinsicHeight
+CalcIntrinsicBSize
 (
 nscoord
 aHeightOfARow

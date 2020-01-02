@@ -205,7 +205,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-IntrinsicWidthsDirty
+IntrinsicISizesDirty
 (
 nsIFrame
 *

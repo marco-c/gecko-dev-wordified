@@ -5279,7 +5279,7 @@ aData
 nsLayoutUtils
 :
 :
-IntrinsicWidthType
+IntrinsicISizeType
 aType
 )
 {

@@ -844,7 +844,7 @@ mFireEventOnDecode
 false
 )
 {
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;
@@ -867,7 +867,7 @@ void
 nsImageBoxFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 {
@@ -879,7 +879,7 @@ mImageSize
 nsLeafBoxFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;

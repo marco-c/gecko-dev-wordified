@@ -239,7 +239,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-GetIntrinsicWidthMetrics
+GetIntrinsicISizeMetrics
 (
 nsRenderingContext
 *

@@ -1684,7 +1684,7 @@ during
 BasicTableLayoutStrategy
 :
 :
-ComputeColumnIntrinsicWidths
+ComputeColumnIntrinsicISizes
 (
 and
 only

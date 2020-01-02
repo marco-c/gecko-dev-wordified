@@ -844,14 +844,14 @@ mIsInline
 }
 virtual
 nscoord
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 )
 MOZ_OVERRIDE
 ;
 virtual
 nscoord
-GetIntrinsicHeight
+GetIntrinsicBSize
 (
 )
 MOZ_OVERRIDE

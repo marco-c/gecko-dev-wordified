@@ -2818,7 +2818,7 @@ be
 nscoord
 computedHeight
 =
-CalcIntrinsicHeight
+CalcIntrinsicBSize
 (
 oldHeightOfARow
 length
@@ -2990,7 +2990,7 @@ already
 set
 mNumDisplayRows
 in
-CalcIntrinsicHeight
+CalcIntrinsicBSize
 .
 Also
 note
@@ -3254,7 +3254,7 @@ have
 nscoord
 computedHeight
 =
-CalcIntrinsicHeight
+CalcIntrinsicBSize
 (
 HeightOfARow
 (
@@ -10141,7 +10141,7 @@ nscoord
 nsListControlFrame
 :
 :
-CalcIntrinsicHeight
+CalcIntrinsicBSize
 (
 nscoord
 aHeightOfARow

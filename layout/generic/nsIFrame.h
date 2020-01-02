@@ -10245,7 +10245,7 @@ instead
 /
 virtual
 void
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 =
@@ -10399,7 +10399,7 @@ function
 call
 *
 unless
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 is
 called
 .
@@ -11376,7 +11376,7 @@ parent
 *
 /
 struct
-IntrinsicWidthOffsetData
+IntrinsicISizeOffsetData
 {
 nscoord
 hPadding
@@ -11387,7 +11387,7 @@ float
 hPctPadding
 hPctMargin
 ;
-IntrinsicWidthOffsetData
+IntrinsicISizeOffsetData
 (
 )
 :
@@ -11420,8 +11420,8 @@ hPctMargin
 }
 ;
 virtual
-IntrinsicWidthOffsetData
-IntrinsicWidthOffsets
+IntrinsicISizeOffsetData
+IntrinsicISizeOffsets
 (
 nsRenderingContext
 *

@@ -361,7 +361,7 @@ width
 frame
 -
 >
-ComputeIntrinsicWidth
+ComputeIntrinsicISize
 (
 aBoxLayoutState
 )
@@ -550,7 +550,7 @@ width
 frame
 -
 >
-ComputeIntrinsicWidth
+ComputeIntrinsicISize
 (
 aBoxLayoutState
 )

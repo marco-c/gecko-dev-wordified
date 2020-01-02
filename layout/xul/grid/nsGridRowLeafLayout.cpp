@@ -1760,7 +1760,7 @@ chain
 /
 /
 calling
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 for
 every
 row

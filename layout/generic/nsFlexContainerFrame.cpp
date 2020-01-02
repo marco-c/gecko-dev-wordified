@@ -29241,7 +29241,7 @@ like
 nsBlockFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 /
 /
 does

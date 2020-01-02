@@ -1411,7 +1411,7 @@ is
 0
 .
 .
-mIntrinsicWidth
+mIntrinsicISize
 ]
 .
 nscoord
@@ -1427,7 +1427,7 @@ the
 marker
 .
 nscoord
-mIntrinsicWidth
+mIntrinsicISize
 ;
 /
 /

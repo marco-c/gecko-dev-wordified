@@ -3569,7 +3569,7 @@ nscoord
 nsSubDocumentFrame
 :
 :
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 )
 {
@@ -3691,7 +3691,7 @@ nscoord
 nsSubDocumentFrame
 :
 :
-GetIntrinsicHeight
+GetIntrinsicBSize
 (
 )
 {
@@ -3994,7 +3994,7 @@ else
 {
 result
 =
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 )
 ;
@@ -4056,7 +4056,7 @@ else
 {
 result
 =
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 )
 ;

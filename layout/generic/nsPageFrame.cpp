@@ -4772,7 +4772,7 @@ nscoord
 nsPageBreakFrame
 :
 :
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 )
 {
@@ -4790,7 +4790,7 @@ nscoord
 nsPageBreakFrame
 :
 :
-GetIntrinsicHeight
+GetIntrinsicBSize
 (
 )
 {
@@ -4869,7 +4869,7 @@ LogicalSize
 finalSize
 (
 wm
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 )
 aReflowState

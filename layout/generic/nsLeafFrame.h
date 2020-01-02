@@ -246,7 +246,7 @@ GetPrefISize
 will
 return
 whatever
-GetIntrinsicWidth
+GetIntrinsicISize
 *
 returns
 .
@@ -338,7 +338,7 @@ the
 return
 value
 of
-GetIntrinsicHeight
+GetIntrinsicBSize
 plus
 *
 borderpadding
@@ -542,7 +542,7 @@ styles
 /
 virtual
 nscoord
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 )
 =
@@ -614,7 +614,7 @@ method
 /
 virtual
 nscoord
-GetIntrinsicHeight
+GetIntrinsicBSize
 (
 )
 ;

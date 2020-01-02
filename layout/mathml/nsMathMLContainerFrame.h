@@ -797,7 +797,7 @@ area
 /
 virtual
 void
-GetIntrinsicWidthMetrics
+GetIntrinsicISizeMetrics
 (
 nsRenderingContext
 *
@@ -1543,7 +1543,7 @@ by
 nsMathMLContainerFrame
 :
 :
-GetIntrinsicWidth
+GetIntrinsicISize
 to
 get
 the
@@ -1587,7 +1587,7 @@ use
 nsMathMLContainerFrame
 :
 :
-GetIntrinsicWidth
+GetIntrinsicISize
 to
 measure
 the

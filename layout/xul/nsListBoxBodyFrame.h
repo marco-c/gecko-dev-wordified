@@ -414,7 +414,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 MOZ_OVERRIDE
@@ -480,7 +480,7 @@ GetAvailableHeight
 )
 ;
 nscoord
-ComputeIntrinsicWidth
+ComputeIntrinsicISize
 (
 nsBoxLayoutState
 &

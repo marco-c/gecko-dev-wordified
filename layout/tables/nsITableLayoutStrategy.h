@@ -222,7 +222,7 @@ Implement
 nsIFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 for
 the
 table
@@ -230,7 +230,7 @@ table
 /
 virtual
 void
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 =

@@ -349,7 +349,7 @@ void
 nsGridLayout2
 :
 :
-IntrinsicWidthsDirty
+IntrinsicISizesDirty
 (
 nsIFrame
 *
@@ -362,7 +362,7 @@ aBoxLayoutState
 nsStackLayout
 :
 :
-IntrinsicWidthsDirty
+IntrinsicISizesDirty
 (
 aBox
 aBoxLayoutState

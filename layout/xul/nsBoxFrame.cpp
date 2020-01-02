@@ -1112,7 +1112,7 @@ NS_FRAME_FONT_INFLATION_FLOW_ROOT
 )
 ;
 }
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;
@@ -5499,7 +5499,7 @@ mFirstChild
 aDebug
 )
 ;
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;
@@ -5519,7 +5519,7 @@ void
 nsBoxFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 {
@@ -5564,7 +5564,7 @@ PresContext
 mLayoutManager
 -
 >
-IntrinsicWidthsDirty
+IntrinsicISizesDirty
 (
 this
 state

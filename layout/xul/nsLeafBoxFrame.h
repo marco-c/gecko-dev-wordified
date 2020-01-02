@@ -291,7 +291,7 @@ nsIHTMLReflow
 overrides
 virtual
 void
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 MOZ_OVERRIDE
@@ -467,7 +467,7 @@ MOZ_OVERRIDE
 endif
 virtual
 nscoord
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 )
 MOZ_OVERRIDE

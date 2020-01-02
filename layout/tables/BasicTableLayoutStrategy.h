@@ -212,7 +212,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 MOZ_OVERRIDE
@@ -252,7 +252,7 @@ of
 nsLayoutUtils
 :
 :
-IntrinsicWidthType
+IntrinsicISizeType
 enum
 BtlsWidthType
 {
@@ -273,7 +273,7 @@ the
 columns
 .
 void
-ComputeColumnIntrinsicWidths
+ComputeColumnIntrinsicISizes
 (
 nsRenderingContext
 *
@@ -516,7 +516,7 @@ the
 columns
 .
 void
-ComputeIntrinsicWidths
+ComputeIntrinsicISizes
 (
 nsRenderingContext
 *

@@ -180,7 +180,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 MOZ_OVERRIDE

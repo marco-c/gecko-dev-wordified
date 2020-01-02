@@ -229,7 +229,7 @@ mTableFrame
 aTableFrame
 )
 {
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;
@@ -277,7 +277,7 @@ mMinWidth
 =
 NS_INTRINSIC_WIDTH_UNKNOWN
 )
-ComputeIntrinsicWidths
+ComputeIntrinsicISizes
 (
 aRenderingContext
 )
@@ -341,7 +341,7 @@ mPrefWidth
 =
 NS_INTRINSIC_WIDTH_UNKNOWN
 )
-ComputeIntrinsicWidths
+ComputeIntrinsicISizes
 (
 aRenderingContext
 )
@@ -622,13 +622,13 @@ padding
 nsIFrame
 :
 :
-IntrinsicWidthOffsetData
+IntrinsicISizeOffsetData
 offsets
 =
 aFrame
 -
 >
-IntrinsicWidthOffsets
+IntrinsicISizeOffsets
 (
 aRenderingContext
 )
@@ -1773,7 +1773,7 @@ void
 BasicTableLayoutStrategy
 :
 :
-ComputeColumnIntrinsicWidths
+ComputeColumnIntrinsicISizes
 (
 nsRenderingContext
 *
@@ -2274,7 +2274,7 @@ DEBUG_TABLE_STRATEGY
 printf
 (
 "
-ComputeColumnIntrinsicWidths
+ComputeColumnIntrinsicISizes
 single
 \
 n
@@ -3005,7 +3005,7 @@ DEBUG_TABLE_STRATEGY
 printf
 (
 "
-ComputeColumnIntrinsicWidths
+ComputeColumnIntrinsicISizes
 spanning
 \
 n
@@ -3029,14 +3029,14 @@ void
 BasicTableLayoutStrategy
 :
 :
-ComputeIntrinsicWidths
+ComputeIntrinsicISizes
 (
 nsRenderingContext
 *
 aRenderingContext
 )
 {
-ComputeColumnIntrinsicWidths
+ComputeColumnIntrinsicISizes
 (
 aRenderingContext
 )
@@ -3596,7 +3596,7 @@ void
 BasicTableLayoutStrategy
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 {
@@ -3718,7 +3718,7 @@ mMinWidth
 =
 NS_INTRINSIC_WIDTH_UNKNOWN
 )
-ComputeIntrinsicWidths
+ComputeIntrinsicISizes
 (
 aReflowState
 .

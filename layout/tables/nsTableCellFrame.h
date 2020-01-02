@@ -594,8 +594,8 @@ aRenderingContext
 MOZ_OVERRIDE
 ;
 virtual
-IntrinsicWidthOffsetData
-IntrinsicWidthOffsets
+IntrinsicISizeOffsetData
+IntrinsicISizeOffsets
 (
 nsRenderingContext
 *

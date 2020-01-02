@@ -1760,7 +1760,7 @@ GetInsideBullet
 }
 virtual
 void
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 MOZ_OVERRIDE

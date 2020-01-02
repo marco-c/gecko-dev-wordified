@@ -892,7 +892,7 @@ aFrame
 nsFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;
@@ -24993,7 +24993,7 @@ void
 nsFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 {
@@ -26156,18 +26156,18 @@ virtual
 nsIFrame
 :
 :
-IntrinsicWidthOffsetData
+IntrinsicISizeOffsetData
 nsFrame
 :
 :
-IntrinsicWidthOffsets
+IntrinsicISizeOffsets
 (
 nsRenderingContext
 *
 aRenderingContext
 )
 {
-IntrinsicWidthOffsetData
+IntrinsicISizeOffsetData
 result
 ;
 const
@@ -57866,7 +57866,7 @@ mValue
 nsFrame
 :
 :
-DisplayIntrinsicWidthEnter
+DisplayIntrinsicISizeEnter
 (
 mFrame
 mType
@@ -57889,7 +57889,7 @@ DR_intrinsic_width_cookie
 nsFrame
 :
 :
-DisplayIntrinsicWidthExit
+DisplayIntrinsicISizeExit
 (
 mFrame
 mType
@@ -62216,7 +62216,7 @@ void
 nsFrame
 :
 :
-DisplayIntrinsicWidthEnter
+DisplayIntrinsicISizeEnter
 (
 nsIFrame
 *
@@ -63110,7 +63110,7 @@ void
 nsFrame
 :
 :
-DisplayIntrinsicWidthExit
+DisplayIntrinsicISizeExit
 (
 nsIFrame
 *

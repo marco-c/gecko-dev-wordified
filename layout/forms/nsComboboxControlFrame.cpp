@@ -5030,7 +5030,7 @@ nscoord
 nsComboboxControlFrame
 :
 :
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 nsRenderingContext
 *
@@ -5038,7 +5038,7 @@ aRenderingContext
 nsLayoutUtils
 :
 :
-IntrinsicWidthType
+IntrinsicISizeType
 aType
 )
 {
@@ -5313,7 +5313,7 @@ minWidth
 ;
 minWidth
 =
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 aRenderingContext
 nsLayoutUtils
@@ -5348,7 +5348,7 @@ prefWidth
 ;
 prefWidth
 =
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 aRenderingContext
 nsLayoutUtils

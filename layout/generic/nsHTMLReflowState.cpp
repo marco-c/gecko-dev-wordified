@@ -4037,7 +4037,7 @@ get
 kid
 -
 >
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;

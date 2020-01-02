@@ -879,7 +879,7 @@ nscoord
 nsLeafBoxFrame
 :
 :
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 )
 {
@@ -1967,7 +1967,7 @@ CharacterDataChangeInfo
 aInfo
 )
 {
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;
@@ -2120,7 +2120,7 @@ void
 nsLeafBoxFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 {

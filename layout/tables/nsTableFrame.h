@@ -1960,7 +1960,7 @@ aDirtyRect
 ;
 virtual
 void
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 MOZ_OVERRIDE
@@ -2010,8 +2010,8 @@ aRenderingContext
 MOZ_OVERRIDE
 ;
 virtual
-IntrinsicWidthOffsetData
-IntrinsicWidthOffsets
+IntrinsicISizeOffsetData
+IntrinsicISizeOffsets
 (
 nsRenderingContext
 *
