@@ -8316,6 +8316,9 @@ GetBufferEnd
 TrackTicks
 current_ticks
 =
+mStream
+-
+>
 TimeToTicksRoundUp
 (
 track_rate_
@@ -8384,7 +8387,10 @@ current_end
 "
 <
 <
-MediaTimeToSeconds
+mStream
+-
+>
+StreamTimeToSeconds
 (
 current_end
 )
@@ -8784,6 +8790,9 @@ errors
 .
 while
 (
+source_
+-
+>
 TicksToTimeRoundDown
 (
 track_rate_
@@ -9011,7 +9020,10 @@ desired_time
 "
 <
 <
-MediaTimeToSeconds
+source_
+-
+>
+StreamTimeToSeconds
 (
 desired_time
 )
@@ -9771,6 +9783,9 @@ image_
 TrackTicks
 target
 =
+source_
+-
+>
 TimeToTicksRoundUp
 (
 USECS_PER_S
