@@ -171,13 +171,6 @@ nsServiceManagerUtils
 h
 "
 #
-include
-"
-nsCxPusher
-.
-h
-"
-#
 ifdef
 MOZ_NUWA_PROCESS
 #
