@@ -80,6 +80,8 @@ from
 automationutils
 import
 replaceBackSlashes
+from
+mozdevice
 import
 devicemanagerADB
 devicemanagerSUT
