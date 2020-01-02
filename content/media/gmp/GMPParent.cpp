@@ -163,6 +163,15 @@ mozIGeckoMediaPluginService
 .
 h
 "
+#
+include
+"
+mozilla
+/
+unused
+.
+h
+"
 namespace
 mozilla
 {
@@ -679,6 +688,9 @@ it
 '
 s
 added
+unused
+<
+<
 NS_WARN_IF
 (
 !
