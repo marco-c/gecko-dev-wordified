@@ -1381,9 +1381,11 @@ if
 !
 result
 )
+{
 return
 nullptr
 ;
+}
 nsAString
 :
 :
@@ -1466,6 +1468,7 @@ if
 (
 aUTF8Count
 )
+{
 *
 aUTF8Count
 =
@@ -1475,6 +1478,7 @@ Size
 (
 )
 ;
+}
 char
 *
 result
@@ -1505,9 +1509,11 @@ if
 !
 result
 )
+{
 return
 nullptr
 ;
+}
 ConvertUTF16toUTF8
 converter
 (
@@ -1605,9 +1611,11 @@ if
 !
 result
 )
+{
 return
 nullptr
 ;
+}
 nsACString
 :
 :
@@ -1694,9 +1702,11 @@ if
 !
 result
 )
+{
 return
 nullptr
 ;
+}
 nsAString
 :
 :
@@ -1766,9 +1776,11 @@ if
 !
 result
 )
+{
 return
 nullptr
 ;
+}
 nsACString
 :
 :
@@ -1905,6 +1917,7 @@ if
 (
 aUTF16Count
 )
+{
 *
 aUTF16Count
 =
@@ -1914,6 +1927,7 @@ Length
 (
 )
 ;
+}
 return
 aBuffer
 ;
@@ -1979,9 +1993,11 @@ if
 !
 buffer
 )
+{
 return
 nullptr
 ;
+}
 uint32_t
 copied
 ;
@@ -2009,11 +2025,13 @@ if
 (
 aUTF16Count
 )
+{
 *
 aUTF16Count
 =
 copied
 ;
+}
 return
 buffer
 ;
@@ -2333,9 +2351,11 @@ c
 &
 NOT_ASCII
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -2445,9 +2465,11 @@ c
 &
 NOT_ASCII
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -2591,8 +2613,10 @@ isASCII
 c
 )
 )
+{
 continue
 ;
+}
 if
 (
 c
@@ -2600,6 +2624,7 @@ c
 =
 0xC1
 )
+{
 /
 /
 [
@@ -2621,6 +2646,7 @@ overlong
 return
 false
 ;
+}
 else
 if
 (
@@ -2632,10 +2658,12 @@ is2byte
 c
 )
 )
+{
 state
 =
 1
 ;
+}
 else
 if
 (
@@ -2659,6 +2687,7 @@ c
 =
 0xE0
 )
+{
 /
 /
 to
@@ -2674,7 +2703,6 @@ E0
 -
 BF
 ]
-{
 overlong
 =
 true
@@ -2692,6 +2720,7 @@ c
 =
 0xED
 )
+{
 /
 /
 ED
@@ -2708,7 +2737,6 @@ BF
 :
 surrogate
 codepoint
-{
 surrogate
 =
 true
@@ -2726,6 +2754,7 @@ c
 =
 0xEF
 )
+{
 /
 /
 EF
@@ -2744,6 +2773,7 @@ nonchar
 true
 ;
 }
+}
 else
 if
 (
@@ -2752,6 +2782,7 @@ c
 =
 0xF4
 )
+{
 /
 /
 XXX
@@ -2779,7 +2810,6 @@ F7
 bug
 199090
 )
-{
 state
 =
 3
@@ -2795,6 +2825,7 @@ c
 =
 0xF0
 )
+{
 /
 /
 to
@@ -2813,7 +2844,6 @@ BF
 {
 2
 }
-{
 overlong
 =
 true
@@ -2831,6 +2861,7 @@ c
 =
 0xF4
 )
+{
 /
 /
 to
@@ -2846,7 +2877,6 @@ BF
 -
 BF
 ]
-{
 /
 /
 actually
@@ -2867,6 +2897,7 @@ slower
 }
 }
 else
+{
 return
 false
 ;
@@ -2878,6 +2909,7 @@ UTF
 8
 string
 }
+}
 if
 (
 nonchar
@@ -2886,10 +2918,12 @@ nonchar
 !
 aRejectNonChar
 )
+{
 nonchar
 =
 false
 ;
+}
 while
 (
 ptr
@@ -2990,10 +3024,12 @@ c
 )
 )
 )
+{
 nonchar
 =
 false
 ;
+}
 if
 (
 !
@@ -3036,6 +3072,7 @@ nonchar
 state
 )
 )
+{
 return
 false
 ;
@@ -3046,6 +3083,7 @@ UTF
 -
 8
 string
+}
 overlong
 =
 surrogate
@@ -3150,17 +3188,14 @@ cp
 ;
 if
 (
-(
 ch
 >
 =
 '
 a
 '
-)
 &
 &
-(
 ch
 <
 =
@@ -3168,7 +3203,7 @@ ch
 z
 '
 )
-)
+{
 *
 cp
 =
@@ -3184,6 +3219,7 @@ A
 '
 )
 ;
+}
 +
 +
 cp
@@ -3350,6 +3386,7 @@ z
 '
 )
 )
+{
 *
 cp
 =
@@ -3365,12 +3402,15 @@ A
 '
 )
 ;
+}
 else
+{
 *
 cp
 =
 ch
 ;
+}
 +
 +
 aSource
@@ -3557,6 +3597,7 @@ Z
 '
 )
 )
+{
 *
 cp
 =
@@ -3572,6 +3613,7 @@ A
 '
 )
 ;
+}
 +
 +
 cp
@@ -3738,6 +3780,7 @@ Z
 '
 )
 )
+{
 *
 cp
 =
@@ -3753,12 +3796,15 @@ A
 '
 )
 ;
+}
 else
+{
 *
 cp
 =
 ch
 ;
+}
 +
 +
 aSource
@@ -3972,8 +4018,10 @@ delimiter
 =
 end
 )
+{
 break
 ;
+}
 start
 =
 +
@@ -3987,8 +4035,10 @@ start
 =
 end
 )
+{
 break
 ;
+}
 }
 return
 true
@@ -4019,7 +4069,7 @@ aSearchEnd
 const
 Comparator
 &
-compare
+aCompare
 )
 {
 bool
@@ -4127,7 +4177,7 @@ aSearchStart
 aSearchEnd
 &
 &
-compare
+aCompare
 (
 aPatternStart
 .
@@ -4143,10 +4193,12 @@ get
 1
 )
 )
+{
 +
 +
 aSearchStart
 ;
+}
 /
 /
 if
@@ -4182,8 +4234,10 @@ aSearchStart
 =
 aSearchEnd
 )
+{
 break
 ;
+}
 /
 /
 otherwise
@@ -4403,7 +4457,7 @@ fast
 loop
 if
 (
-compare
+aCompare
 (
 testPattern
 .
@@ -4483,7 +4537,7 @@ aSearchEnd
 const
 Comparator
 &
-compare
+aCompare
 )
 {
 IteratorT
@@ -4573,7 +4627,7 @@ from
 here
 if
 (
-compare
+aCompare
 (
 patternEnd
 .
@@ -4762,7 +4816,7 @@ testSearch
 }
 while
 (
-compare
+aCompare
 (
 testPattern
 .
@@ -5323,9 +5377,11 @@ sub_len
 >
 src_len
 )
+{
 return
 false
 ;
+}
 return
 Substring
 (
@@ -5383,9 +5439,11 @@ sub_len
 >
 src_len
 )
+{
 return
 false
 ;
+}
 return
 Substring
 (
@@ -5443,9 +5501,11 @@ sub_len
 >
 src_len
 )
+{
 return
 false
 ;
+}
 return
 Substring
 (
@@ -5505,9 +5565,11 @@ sub_len
 >
 src_len
 )
+{
 return
 false
 ;
+}
 return
 Substring
 (
@@ -5643,6 +5705,9 @@ const
 char
 *
 u8
+;
+const
+char
 *
 u8end
 ;
@@ -5664,6 +5729,9 @@ const
 char16_t
 *
 u16
+;
+const
+char16_t
 *
 u16end
 ;
@@ -5750,9 +5818,11 @@ if
 (
 err
 )
+{
 return
 INT32_MIN
 ;
+}
 uint32_t
 c16_32
 =
@@ -5906,6 +5976,7 @@ c8_32
 =
 c16_32
 )
+{
 return
 c8_32
 <
@@ -5917,6 +5988,7 @@ c16_32
 1
 ;
 }
+}
 else
 {
 if
@@ -5927,6 +5999,7 @@ c8_32
 *
 u16
 )
+{
 return
 c8_32
 >
@@ -5938,6 +6011,7 @@ u16
 -
 1
 ;
+}
 +
 +
 u8

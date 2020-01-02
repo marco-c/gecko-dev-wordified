@@ -706,7 +706,7 @@ nsTPromiseFlatString_CharT
 const
 string_type
 &
-str
+aStr
 )
 MOZ_DELETE
 ;
@@ -718,7 +718,7 @@ nsTPromiseFlatString_CharT
 const
 substring_type
 &
-str
+aStr
 )
 :
 string_type
@@ -727,7 +727,7 @@ string_type
 {
 Init
 (
-str
+aStr
 )
 ;
 }
@@ -737,7 +737,7 @@ nsTPromiseFlatString_CharT
 const
 substring_tuple_type
 &
-tuple
+aTuple
 )
 :
 string_type
@@ -765,7 +765,7 @@ ourselves
 .
 Assign
 (
-tuple
+aTuple
 )
 ;
 }
@@ -817,13 +817,13 @@ TPromiseFlatString_CharT
 const
 T
 &
-string
+aString
 )
 {
 return
 nsTPromiseFlatString_CharT
 (
-string
+aString
 )
 ;
 }

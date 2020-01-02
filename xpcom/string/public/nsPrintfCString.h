@@ -227,7 +227,7 @@ nsPrintfCString
 const
 char_type
 *
-format
+aFormat
 .
 .
 .
@@ -246,12 +246,12 @@ ap
 va_start
 (
 ap
-format
+aFormat
 )
 ;
 AppendPrintf
 (
-format
+aFormat
 ap
 )
 ;

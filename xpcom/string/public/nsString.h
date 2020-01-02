@@ -867,7 +867,7 @@ wwc
 (
 wchar_t
 *
-str
+aStr
 )
 {
 return
@@ -877,7 +877,7 @@ char16_t
 *
 >
 (
-str
+aStr
 )
 ;
 }
@@ -888,7 +888,7 @@ wwc
 (
 char16_t
 *
-str
+aStr
 )
 {
 return
@@ -898,7 +898,7 @@ wchar_t
 *
 >
 (
-str
+aStr
 )
 ;
 }
@@ -911,11 +911,11 @@ wwc
 (
 char16_t
 *
-str
+aStr
 )
 {
 return
-str
+aStr
 ;
 }
 #

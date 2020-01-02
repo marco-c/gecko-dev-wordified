@@ -399,7 +399,7 @@ nsStringBuffer
 Alloc
 (
 size_t
-storageSize
+aStorageSize
 )
 ;
 /
@@ -488,9 +488,9 @@ Realloc
 (
 nsStringBuffer
 *
-buf
+aBuf
 size_t
-storageSize
+aStorageSize
 )
 ;
 /
@@ -596,7 +596,7 @@ FromData
 (
 void
 *
-data
+aData
 )
 {
 return
@@ -606,7 +606,7 @@ nsStringBuffer
 *
 >
 (
-data
+aData
 )
 -
 1
@@ -883,7 +883,7 @@ FromString
 const
 nsAString
 &
-str
+aStr
 )
 ;
 static
@@ -894,7 +894,7 @@ FromString
 const
 nsACString
 &
-str
+aStr
 )
 ;
 /
@@ -1051,10 +1051,10 @@ void
 ToString
 (
 uint32_t
-len
+aLen
 nsAString
 &
-str
+aStr
 bool
 aMoveOwnership
 =
@@ -1065,10 +1065,10 @@ void
 ToString
 (
 uint32_t
-len
+aLen
 nsACString
 &
-str
+aStr
 bool
 aMoveOwnership
 =
