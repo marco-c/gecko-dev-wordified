@@ -172,12 +172,13 @@ mUpdatePending
 false
 )
 {
+mWindowType
+=
 mReceiver
 -
 >
-GetWindowType
+WindowType
 (
-mWindowType
 )
 ;
 }
