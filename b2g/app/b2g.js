@@ -552,7 +552,7 @@ expose
 .
 rtsp
 "
-false
+true
 )
 ;
 /
