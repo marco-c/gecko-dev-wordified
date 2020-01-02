@@ -5006,6 +5006,9 @@ dbg
 )
 )
 {
+(
+void
+)
 global
 -
 >
@@ -5017,16 +5020,6 @@ compartment
 removeDebuggee
 (
 cx
--
->
-runtime
-(
-)
--
->
-defaultFreeOp
-(
-)
 global
 )
 ;
