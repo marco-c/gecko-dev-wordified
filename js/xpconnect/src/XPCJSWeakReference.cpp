@@ -450,16 +450,6 @@ pass
 it
 out
 .
-RootedObject
-global
-(
-aCx
-CurrentGlobalOrNull
-(
-aCx
-)
-)
-;
 return
 nsContentUtils
 :
@@ -467,7 +457,6 @@ nsContentUtils
 WrapNative
 (
 aCx
-global
 supports
 &
 NS_GET_IID

@@ -6737,6 +6737,13 @@ as
 /
 well
 .
+JSAutoCompartment
+ac
+(
+cx
+aScopeChain
+)
+;
 if
 (
 NS_SUCCEEDED
@@ -6747,7 +6754,6 @@ nsContentUtils
 WrapNative
 (
 cx
-aScopeChain
 aRequest
 -
 >

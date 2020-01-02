@@ -1653,7 +1653,6 @@ nsContentUtils
 WrapNative
 (
 cx
-globalObject
 aBoundElement
 &
 v

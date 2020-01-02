@@ -20271,21 +20271,6 @@ supports
 )
 )
 {
-RootedObject
-global
-(
-cx
-CurrentGlobalOrNull
-(
-cx
-)
-)
-;
-if
-(
-global
-)
-{
 RootedValue
 val
 (
@@ -20302,7 +20287,6 @@ nsContentUtils
 WrapNative
 (
 cx
-global
 supports
 &
 val
@@ -20316,7 +20300,6 @@ toObjectOrNull
 (
 )
 ;
-}
 }
 }
 if
