@@ -272,6 +272,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
@@ -2786,7 +2793,7 @@ on
 screen
 if
 (
-gfxPlatform
+gfxPrefs
 :
 :
 DrawFrameCounter

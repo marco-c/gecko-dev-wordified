@@ -339,6 +339,17 @@ gfxPlatform
 #
 include
 "
+gfxPrefs
+.
+h
+"
+/
+/
+for
+gfxPrefs
+#
+include
+"
 gfxPoint
 .
 h
@@ -3726,7 +3737,7 @@ RenderDebugOverlay
 if
 (
 !
-gfxPlatform
+gfxPrefs
 :
 :
 DrawFrameCounter
