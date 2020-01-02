@@ -6886,6 +6886,10 @@ mFocusByKeyOccurred
 (
 false
 )
+mInnerObjectsFreed
+(
+false
+)
 mHasGamepad
 (
 false
@@ -9095,6 +9099,10 @@ NotifyDOMWindowDestroyed
 (
 this
 )
+;
+mInnerObjectsFreed
+=
+true
 ;
 /
 /
@@ -69684,6 +69692,10 @@ mTimeoutsSuspendDepth
 =
 0
 )
+&
+&
+!
+mInnerObjectsFreed
 ;
 nsresult
 rv
