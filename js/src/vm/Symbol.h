@@ -555,11 +555,7 @@ Sandwich
 typedef
 HashSet
 <
-JS
-:
-:
-Symbol
-*
+ReadBarrieredSymbol
 HashSymbolsByDescription
 SystemAllocPolicy
 >
