@@ -54097,12 +54097,7 @@ ourSize
 =
 GetLogicalSize
 (
-)
-.
-ConvertTo
-(
 outerWM
-ourWM
 )
 ;
 if
@@ -54408,12 +54403,7 @@ size
 (
 GetLogicalSize
 (
-)
-.
-ConvertTo
-(
 outerWM
-ourWM
 )
 )
 ;
@@ -54487,11 +54477,8 @@ GetRenderingContext
 LogicalSize
 (
 ourWM
-size
-.
 ISize
 (
-ourWM
 )
 NS_UNCONSTRAINEDSIZE
 )
