@@ -36,13 +36,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-log4moz
+modules
+/
+Log
 .
-js
+jsm
 "
 )
 ;
@@ -150,7 +150,7 @@ run_test
 (
 )
 {
-Log4Moz
+Log
 .
 repository
 .
@@ -165,7 +165,7 @@ RESTRequest
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 .

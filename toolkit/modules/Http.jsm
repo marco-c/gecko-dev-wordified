@@ -285,7 +285,9 @@ e
 .
 g
 .
-log4moz
+log
+.
+jsm
 )
 .
 *

@@ -168,13 +168,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-log4moz
+modules
+/
+Log
 .
-js
+jsm
 "
 )
 ;
@@ -710,7 +710,7 @@ e
 let
 log
 =
-Log4Moz
+Log
 .
 repository
 .
@@ -3254,7 +3254,7 @@ param
 log
 *
 (
-Log4Moz
+Log
 .
 Logger
 )
@@ -3509,7 +3509,7 @@ param
 log
 *
 (
-Log4Moz
+Log
 .
 Logger
 )

@@ -318,13 +318,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-log4moz
+modules
+/
+Log
 .
-js
+jsm
 "
 )
 ;
@@ -3365,7 +3365,7 @@ this
 .
 _log
 =
-Log4Moz
+Log
 .
 repository
 .
@@ -3386,7 +3386,7 @@ _log
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 [
@@ -9960,7 +9960,7 @@ this
 .
 _log
 =
-Log4Moz
+Log
 .
 repository
 .
@@ -9981,7 +9981,7 @@ _log
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 [

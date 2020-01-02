@@ -156,7 +156,7 @@ return
 old
 ;
 }
-Log4Moz
+Log
 .
 repository
 .
@@ -165,7 +165,7 @@ rootLogger
 addAppender
 (
 new
-Log4Moz
+Log
 .
 DumpAppender
 (
