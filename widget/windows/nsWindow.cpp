@@ -1770,7 +1770,7 @@ nsWindow
 :
 sHCursor
 =
-NULL
+nullptr
 ;
 imgIContainer
 *
@@ -1861,7 +1861,7 @@ nsWindow
 :
 sMsgFilterHook
 =
-NULL
+nullptr
 ;
 HHOOK
 nsWindow
@@ -1869,7 +1869,7 @@ nsWindow
 :
 sCallProcHook
 =
-NULL
+nullptr
 ;
 HHOOK
 nsWindow
@@ -1877,7 +1877,7 @@ nsWindow
 :
 sCallMouseHook
 =
-NULL
+nullptr
 ;
 bool
 nsWindow
@@ -1901,7 +1901,7 @@ nsWindow
 :
 sRollupMsgWnd
 =
-NULL
+nullptr
 ;
 UINT
 nsWindow
@@ -3287,7 +3287,7 @@ SUCCEEDED
 :
 OleInitialize
 (
-NULL
+nullptr
 )
 )
 )
@@ -3436,7 +3436,7 @@ happen
 ?
 if
 (
-NULL
+nullptr
 !
 =
 mWnd
@@ -3881,7 +3881,7 @@ GetNativeData
 NS_NATIVE_WINDOW
 )
 :
-NULL
+nullptr
 ;
 mParent
 =
@@ -3958,7 +3958,7 @@ aParent
 {
 parent
 =
-NULL
+nullptr
 ;
 }
 if
@@ -4228,12 +4228,12 @@ aRect
 height
 )
 parent
-NULL
+nullptr
 nsToolkit
 :
 :
 mDllInstance
-NULL
+nullptr
 )
 ;
 if
@@ -4517,12 +4517,12 @@ WS_VISIBLE
 0
 0
 mWnd
-NULL
+nullptr
 nsToolkit
 :
 :
 mDllInstance
-NULL
+nullptr
 )
 ;
 HWND
@@ -4555,12 +4555,12 @@ WS_TABSTOP
 0
 0
 scrollContainerWnd
-NULL
+nullptr
 nsToolkit
 :
 :
 mDllInstance
-NULL
+nullptr
 )
 ;
 /
@@ -5065,7 +5065,7 @@ HWND
 intact
 so
 we
-NULL
+nullptr
 it
 here
 .
@@ -5565,18 +5565,18 @@ LoadIconW
 :
 GetModuleHandleW
 (
-NULL
+nullptr
 )
 aIconID
 )
 :
-NULL
+nullptr
 ;
 wc
 .
 hCursor
 =
-NULL
+nullptr
 ;
 wc
 .
@@ -5588,7 +5588,7 @@ wc
 .
 lpszMenuName
 =
-NULL
+nullptr
 ;
 wc
 .
@@ -6810,12 +6810,12 @@ WinUtils
 SetNSWindowBasePtr
 (
 mWnd
-NULL
+nullptr
 )
 ;
 mPrevWndProc
 =
-NULL
+nullptr
 ;
 }
 }
@@ -9057,7 +9057,7 @@ ePopupTypePanel
 SetWindowRgn
 (
 mWnd
-NULL
+nullptr
 false
 )
 ;
@@ -10420,7 +10420,7 @@ VERIFY
 SetWindowPos
 (
 mWnd
-NULL
+nullptr
 x
 y
 0
@@ -10697,7 +10697,7 @@ VERIFY
 SetWindowPos
 (
 mWnd
-NULL
+nullptr
 0
 0
 width
@@ -11039,7 +11039,7 @@ VERIFY
 SetWindowPos
 (
 mWnd
-NULL
+nullptr
 x
 y
 width
@@ -14544,7 +14544,7 @@ static
 GetWindowInfoPtr
 sGetWindowInfoPtrStub
 =
-NULL
+nullptr
 ;
 BOOL
 WINAPI
@@ -15677,7 +15677,7 @@ L
 "
 Shell_TrayWnd
 "
-NULL
+nullptr
 )
 ;
 if
@@ -16567,7 +16567,7 @@ rect
 ;
 MapWindowPoints
 (
-NULL
+nullptr
 mWnd
 (
 LPPOINT
@@ -16651,7 +16651,7 @@ mVertResizeMargin
 ;
 MapWindowPoints
 (
-NULL
+nullptr
 mWnd
 (
 LPPOINT
@@ -16697,7 +16697,7 @@ areas
 RedrawWindow
 (
 mWnd
-NULL
+nullptr
 winRgn
 RDW_FRAME
 |
@@ -16726,7 +16726,7 @@ rect
 HRGN
 rgn
 =
-NULL
+nullptr
 ;
 if
 (
@@ -16780,7 +16780,7 @@ rect
 MapWindowPoints
 (
 mWnd
-NULL
+nullptr
 (
 LPPOINT
 )
@@ -17007,7 +17007,7 @@ if
 mWnd
 !
 =
-NULL
+nullptr
 )
 {
 :
@@ -17246,7 +17246,7 @@ mCursor
 HCURSOR
 newCursor
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -17262,7 +17262,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_IBEAM
 )
 ;
@@ -17277,7 +17277,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_WAIT
 )
 ;
@@ -17293,7 +17293,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_HAND
 )
 ;
@@ -17319,7 +17319,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_ARROW
 )
 ;
@@ -17337,7 +17337,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_SIZENS
 )
 ;
@@ -17355,7 +17355,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_SIZEWE
 )
 ;
@@ -17373,7 +17373,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_SIZENWSE
 )
 ;
@@ -17391,7 +17391,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_SIZENESW
 )
 ;
@@ -17406,7 +17406,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_CROSS
 )
 ;
@@ -17421,7 +17421,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_SIZEALL
 )
 ;
@@ -17436,7 +17436,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_HELP
 )
 ;
@@ -17559,7 +17559,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_APPSTARTING
 )
 ;
@@ -17619,7 +17619,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_NO
 )
 ;
@@ -17705,7 +17705,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_SIZEALL
 )
 ;
@@ -17720,7 +17720,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_SIZENESW
 )
 ;
@@ -17735,7 +17735,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_SIZENWSE
 )
 ;
@@ -17750,7 +17750,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_SIZENS
 )
 ;
@@ -17765,7 +17765,7 @@ newCursor
 :
 LoadCursor
 (
-NULL
+nullptr
 IDC_SIZEWE
 )
 ;
@@ -17808,7 +17808,7 @@ break
 }
 if
 (
-NULL
+nullptr
 !
 =
 newCursor
@@ -17846,7 +17846,7 @@ if
 sHCursor
 !
 =
-NULL
+nullptr
 )
 :
 :
@@ -17857,7 +17857,7 @@ sHCursor
 ;
 sHCursor
 =
-NULL
+nullptr
 ;
 }
 }
@@ -18077,7 +18077,7 @@ if
 sHCursor
 !
 =
-NULL
+nullptr
 )
 :
 :
@@ -19507,8 +19507,8 @@ VERIFY
 RedrawWindow
 (
 mWnd
-NULL
-NULL
+nullptr
+nullptr
 flags
 )
 )
@@ -19643,7 +19643,7 @@ aFullScreen
 taskbarInfo
 will
 be
-NULL
+nullptr
 pre
 Windows
 7
@@ -20078,12 +20078,12 @@ CW_USEDEFAULT
 CW_USEDEFAULT
 CW_USEDEFAULT
 mWnd
-NULL
+nullptr
 nsToolkit
 :
 :
 mDllInstance
-NULL
+nullptr
 )
 ;
 case
@@ -20190,7 +20190,7 @@ break
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -20721,7 +20721,7 @@ HICON
 :
 LoadImageW
 (
-NULL
+nullptr
 (
 LPCWSTR
 )
@@ -20756,7 +20756,7 @@ HICON
 :
 LoadImageW
 (
-NULL
+nullptr
 (
 LPCWSTR
 )
@@ -21481,7 +21481,7 @@ this
 ;
 if
 (
-NULL
+nullptr
 !
 =
 mNativeDragTarget
@@ -21548,7 +21548,7 @@ nullptr
 mWnd
 &
 &
-NULL
+nullptr
 !
 =
 mNativeDragTarget
@@ -21817,7 +21817,7 @@ gMouseTrailer
 >
 SetCaptureWindow
 (
-NULL
+nullptr
 )
 ;
 :
@@ -25693,7 +25693,7 @@ if
 mWnd
 !
 =
-NULL
+nullptr
 )
 {
 DWORD
@@ -26638,7 +26638,7 @@ if
 GetUpdateRect
 (
 aWnd
-NULL
+nullptr
 FALSE
 )
 )
@@ -28085,7 +28085,7 @@ if
 sCurrentWindow
 =
 =
-NULL
+nullptr
 |
 |
 sCurrentWindow
@@ -28314,7 +28314,7 @@ mWnd
 HWND
 toplevelWnd
 =
-NULL
+nullptr
 ;
 while
 (
@@ -29121,7 +29121,7 @@ IsSpinLoopActive
 (
 InSendMessageEx
 (
-NULL
+nullptr
 )
 &
 (
@@ -29270,7 +29270,7 @@ if
 (
 InSendMessageEx
 (
-NULL
+nullptr
 )
 &
 (
@@ -29445,7 +29445,7 @@ handled
 (
 InSendMessageEx
 (
-NULL
+nullptr
 )
 &
 (
@@ -30118,7 +30118,7 @@ x
 y
 0
 hWnd
-NULL
+nullptr
 )
 ;
 if
@@ -32924,7 +32924,7 @@ int
 )
 OnPaint
 (
-NULL
+nullptr
 0
 )
 ;
@@ -35211,7 +35211,7 @@ IAccessible
 *
 msaaAccessible
 =
-NULL
+nullptr
 ;
 rootAccessible
 -
@@ -39575,7 +39575,7 @@ RedrawWindow
 mWnd
 &
 drect
-NULL
+nullptr
 RDW_INVALIDATE
 |
 RDW_NOERASE
@@ -39659,7 +39659,7 @@ RedrawWindow
 mWnd
 &
 drect
-NULL
+nullptr
 RDW_INVALIDATE
 |
 RDW_NOERASE
@@ -42205,7 +42205,7 @@ size
 )
 )
 return
-NULL
+nullptr
 ;
 RGNDATA
 *
@@ -42380,7 +42380,7 @@ return
 :
 ExtCreateRegion
 (
-NULL
+nullptr
 buf
 .
 Length
@@ -43306,7 +43306,7 @@ mBrush
 ;
 mBrush
 =
-NULL
+nullptr
 ;
 }
 /
@@ -43378,7 +43378,7 @@ HWND
 .
 mWnd
 =
-NULL
+nullptr
 ;
 }
 /
@@ -43411,7 +43411,7 @@ mD2DWindowSurface
 {
 mD2DWindowSurface
 =
-NULL
+nullptr
 ;
 Invalidate
 (
@@ -43570,7 +43570,7 @@ aWindow
 >
 mLayerManager
 =
-NULL
+nullptr
 ;
 }
 }
@@ -43617,7 +43617,7 @@ aWindow
 >
 mLayerManager
 =
-NULL
+nullptr
 ;
 (
 void
@@ -45913,7 +45913,7 @@ nullptr
 ;
 mMemoryDC
 =
-NULL
+nullptr
 ;
 }
 }
@@ -46107,7 +46107,7 @@ updateSuccesful
 UpdateLayeredWindow
 (
 hWnd
-NULL
+nullptr
 (
 POINT
 *
@@ -46577,7 +46577,7 @@ sHookTimerId
 :
 SetTimer
 (
-NULL
+nullptr
 0
 0
 (
@@ -46688,7 +46688,7 @@ inx
 mStr
 !
 =
-NULL
+nullptr
 )
 {
 inx
@@ -47331,7 +47331,7 @@ SetWindowsHookEx
 (
 WH_MSGFILTER
 MozSpecialMsgFilter
-NULL
+nullptr
 GetCurrentThreadId
 (
 )
@@ -47409,7 +47409,7 @@ SetWindowsHookEx
 (
 WH_CALLWNDPROC
 MozSpecialWndProc
-NULL
+nullptr
 GetCurrentThreadId
 (
 )
@@ -47488,7 +47488,7 @@ SetWindowsHookEx
 (
 WH_MOUSE
 MozSpecialMouseProc
-NULL
+nullptr
 GetCurrentThreadId
 (
 )
@@ -47647,7 +47647,7 @@ n
 }
 sCallProcHook
 =
-NULL
+nullptr
 ;
 }
 if
@@ -47703,7 +47703,7 @@ n
 }
 sMsgFilterHook
 =
-NULL
+nullptr
 ;
 }
 if
@@ -47759,7 +47759,7 @@ n
 }
 sCallMouseHook
 =
-NULL
+nullptr
 ;
 }
 }
@@ -47884,7 +47884,7 @@ if
 the
 window
 is
-NULL
+nullptr
 then
 we
 need
@@ -47903,7 +47903,7 @@ status
 :
 KillTimer
 (
-NULL
+nullptr
 sHookTimerId
 )
 ;
@@ -47973,7 +47973,7 @@ sRollupMsgId
 ;
 sRollupMsgWnd
 =
-NULL
+nullptr
 ;
 }
 }
@@ -48094,7 +48094,7 @@ GetCurrentThreadId
 GetWindowThreadProcessId
 (
 aWnd
-NULL
+nullptr
 )
 ;
 }
@@ -48912,7 +48912,7 @@ sRollupMsgId
 ;
 sRollupMsgWnd
 =
-NULL
+nullptr
 ;
 /
 /

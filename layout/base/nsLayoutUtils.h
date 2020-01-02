@@ -10304,7 +10304,7 @@ surface
 or
 will
 be
-NULL
+nullptr
 on
 error
 *
@@ -10587,7 +10587,7 @@ Be
 aware
 this
 returns
-NULL
+nullptr
 if
 it
 '
@@ -10718,7 +10718,7 @@ body
 >
 *
 returns
-NULL
+nullptr
 because
 <
 body
