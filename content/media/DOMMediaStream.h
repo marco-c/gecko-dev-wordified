@@ -550,6 +550,14 @@ bool
 aEnabled
 )
 ;
+virtual
+void
+StopTrack
+(
+TrackID
+aTrackID
+)
+;
 bool
 IsFinished
 (
