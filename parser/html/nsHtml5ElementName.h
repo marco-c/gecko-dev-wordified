@@ -660,6 +660,11 @@ ELT_PI
 static
 nsHtml5ElementName
 *
+ELT_RB
+;
+static
+nsHtml5ElementName
+*
 ELT_RP
 ;
 static
@@ -851,6 +856,11 @@ static
 nsHtml5ElementName
 *
 ELT_PRE
+;
+static
+nsHtml5ElementName
+*
+ELT_RTC
 ;
 static
 nsHtml5ElementName
