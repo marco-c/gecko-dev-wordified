@@ -285,18 +285,8 @@ CheckedInt
 h
 "
 #
-if
-defined
-(
-DEBUG
-)
-|
-|
-defined
-(
+ifdef
 PR_LOGGING
-)
-GFX2D_API
 PRLogModuleInfo
 *
 GetGFX2DLog
@@ -961,7 +951,6 @@ to
 set
 this
 .
-GFX2D_API
 int
 sGfxLogLevel
 =
