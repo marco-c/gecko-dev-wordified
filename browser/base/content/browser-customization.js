@@ -645,12 +645,6 @@ asyncUpdateUI
 (
 )
 ;
-BookmarkingUI
-.
-updateStarState
-(
-)
-;
 }
 /
 /
