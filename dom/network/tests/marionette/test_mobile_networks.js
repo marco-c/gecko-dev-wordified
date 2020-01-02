@@ -58,7 +58,10 @@ connection
 =
 navigator
 .
-mozMobileConnection
+mozMobileConnections
+[
+0
+]
 ;
 ok
 (

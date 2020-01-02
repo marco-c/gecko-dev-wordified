@@ -3046,7 +3046,10 @@ function
 return
 navigator
 .
-mozMobileConnection
+mozMobileConnections
+[
+0
+]
 .
 voice
 .
