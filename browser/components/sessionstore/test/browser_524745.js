@@ -86,6 +86,10 @@ Date
 now
 (
 )
+.
+toString
+(
+)
 ;
 waitForExplicitFinish
 (
