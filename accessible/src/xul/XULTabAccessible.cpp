@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDOMXULSelectCntrlEl
 .
 h
