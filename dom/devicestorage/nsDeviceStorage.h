@@ -941,6 +941,13 @@ const
 bool
 &
 allow
+const
+InfallibleTArray
+<
+PermissionChoice
+>
+&
+choices
 )
 MOZ_OVERRIDE
 ;
