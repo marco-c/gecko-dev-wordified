@@ -12110,12 +12110,7 @@ ifdef
 MOZ_HAVE_SHMIMAGE
 if
 (
-nsShmImage
-:
-:
-UseShm
-(
-)
+mShmImage
 &
 &
 MOZ_LIKELY
