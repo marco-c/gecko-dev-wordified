@@ -343,6 +343,14 @@ TOTAL_TIME
 =
 5000
 ;
+if
+(
+!
+DebuggerServer
+.
+initialized
+)
+{
 DebuggerServer
 .
 init
@@ -363,6 +371,7 @@ addBrowserActors
 (
 )
 ;
+}
 var
 client
 =
