@@ -794,7 +794,7 @@ aChain
 EventChainPostVisitor
 &
 aVisitor
-nsDispatchingCallback
+EventDispatchingCallback
 *
 aCallback
 ELMCreationDetector
@@ -1241,7 +1241,7 @@ aChain
 EventChainPostVisitor
 &
 aVisitor
-nsDispatchingCallback
+EventDispatchingCallback
 *
 aCallback
 ELMCreationDetector
@@ -2125,7 +2125,7 @@ aDOMEvent
 nsEventStatus
 *
 aEventStatus
-nsDispatchingCallback
+EventDispatchingCallback
 *
 aCallback
 nsCOMArray

@@ -116,9 +116,6 @@ nsIWidget
 h
 "
 class
-nsDispatchingCallback
-;
-class
 nsIContent
 ;
 class
@@ -139,6 +136,9 @@ nsISelection
 namespace
 mozilla
 {
+class
+EventDispatchingCallback
+;
 class
 IMEContentObserver
 ;
@@ -667,7 +667,7 @@ aEvent
 nsEventStatus
 *
 aStatus
-nsDispatchingCallback
+EventDispatchingCallback
 *
 aCallBack
 )

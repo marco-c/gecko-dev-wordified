@@ -279,6 +279,13 @@ nsPresContext
 .
 h
 "
+#
+include
+"
+nsEventDispatcher
+.
+h
+"
 namespace
 mozilla
 {
@@ -2901,7 +2908,7 @@ aEvent
 nsEventStatus
 *
 aStatus
-nsDispatchingCallback
+EventDispatchingCallback
 *
 aCallBack
 )

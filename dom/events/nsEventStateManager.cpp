@@ -24634,7 +24634,7 @@ MOZ_STACK_CLASS
 nsESMEventCB
 :
 public
-nsDispatchingCallback
+EventDispatchingCallback
 {
 public
 :
