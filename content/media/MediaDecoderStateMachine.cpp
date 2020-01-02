@@ -3306,6 +3306,9 @@ std
 max
 (
 endPosition
+mediaStream
+-
+>
 TicksToTimeRoundDown
 (
 mInfo
@@ -3713,6 +3716,9 @@ std
 max
 (
 endPosition
+mediaStream
+-
+>
 TicksToTimeRoundDown
 (
 RATE_VIDEO
