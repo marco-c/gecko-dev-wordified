@@ -1218,7 +1218,7 @@ void
 nsPresArena
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 mozilla
 :
@@ -1419,6 +1419,7 @@ aArenaStats
 -
 >
 mOther
++
 =
 mallocSize
 -

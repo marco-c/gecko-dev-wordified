@@ -61909,7 +61909,7 @@ void
 PresShell
 :
 :
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -61932,7 +61932,7 @@ aPresContextSize
 {
 mFrameArena
 .
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aArenaObjectsSize
@@ -61940,6 +61940,7 @@ aArenaObjectsSize
 ;
 *
 aPresShellSize
++
 =
 aMallocSizeOf
 (
@@ -61957,6 +61958,7 @@ mOther
 ;
 *
 aStyleSetsSize
++
 =
 StyleSet
 (
@@ -61970,6 +61972,7 @@ aMallocSizeOf
 ;
 *
 aTextRunsSize
++
 =
 SizeOfTextRuns
 (
@@ -61978,6 +61981,7 @@ aMallocSizeOf
 ;
 *
 aPresContextSize
++
 =
 mPresContext
 -

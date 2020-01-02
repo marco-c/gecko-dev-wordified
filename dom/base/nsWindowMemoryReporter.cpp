@@ -1297,7 +1297,7 @@ WindowsMallocSizeOf
 aWindow
 -
 >
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 &
 windowSizes

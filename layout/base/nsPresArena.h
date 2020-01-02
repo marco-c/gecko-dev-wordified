@@ -542,7 +542,7 @@ aPtr
 *
 *
 *
-Fill
+Increment
 aArenaStats
 with
 sizes
@@ -551,8 +551,8 @@ interesting
 objects
 allocated
 in
-*
 this
+*
 arena
 and
 its
@@ -568,7 +568,7 @@ else
 *
 /
 void
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 mozilla
 :

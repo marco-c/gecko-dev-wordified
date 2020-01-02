@@ -5760,7 +5760,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-DocSizeOfExcludingThis
+DocAddSizeOfExcludingThis
 (
 nsWindowSizes
 *
@@ -5771,7 +5771,7 @@ MOZ_OVERRIDE
 ;
 /
 /
-DocSizeOfIncludingThis
+DocAddSizeOfIncludingThis
 is
 inherited
 from

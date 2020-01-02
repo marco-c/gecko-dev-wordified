@@ -11588,7 +11588,7 @@ sizes
 .
 virtual
 void
-DocSizeOfExcludingThis
+DocAddSizeOfExcludingThis
 (
 nsWindowSizes
 *
@@ -11598,7 +11598,7 @@ const
 ;
 /
 /
-DocSizeOfIncludingThis
+DocAddSizeOfIncludingThis
 doesn
 '
 t
@@ -11634,7 +11634,7 @@ SizeOfIncludingThis
 .
 virtual
 void
-DocSizeOfIncludingThis
+DocAddSizeOfIncludingThis
 (
 nsWindowSizes
 *

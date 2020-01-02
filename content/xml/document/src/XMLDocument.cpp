@@ -3619,7 +3619,7 @@ void
 XMLDocument
 :
 :
-DocSizeOfExcludingThis
+DocAddSizeOfExcludingThis
 (
 nsWindowSizes
 *
@@ -3630,7 +3630,7 @@ const
 nsDocument
 :
 :
-DocSizeOfExcludingThis
+DocAddSizeOfExcludingThis
 (
 aWindowSizes
 )

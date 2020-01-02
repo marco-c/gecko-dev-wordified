@@ -60183,7 +60183,7 @@ void
 nsIDocument
 :
 :
-DocSizeOfExcludingThis
+DocAddSizeOfExcludingThis
 (
 nsWindowSizes
 *
@@ -60216,7 +60216,7 @@ mPresShell
 mPresShell
 -
 >
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 aWindowSizes
 -
@@ -60340,7 +60340,7 @@ void
 nsIDocument
 :
 :
-DocSizeOfIncludingThis
+DocAddSizeOfIncludingThis
 (
 nsWindowSizes
 *
@@ -60362,7 +60362,7 @@ mMallocSizeOf
 this
 )
 ;
-DocSizeOfExcludingThis
+DocAddSizeOfExcludingThis
 (
 aWindowSizes
 )
@@ -60436,7 +60436,7 @@ the
 /
 /
 specialized
-DocSizeOfExcludingThis
+DocAddSizeOfExcludingThis
 (
 )
 in
@@ -60461,7 +60461,7 @@ void
 nsDocument
 :
 :
-DocSizeOfExcludingThis
+DocAddSizeOfExcludingThis
 (
 nsWindowSizes
 *
@@ -60472,7 +60472,7 @@ const
 nsIDocument
 :
 :
-DocSizeOfExcludingThis
+DocAddSizeOfExcludingThis
 (
 aWindowSizes
 )

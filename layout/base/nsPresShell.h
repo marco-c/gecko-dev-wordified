@@ -1838,7 +1838,7 @@ this
 ;
 }
 void
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 mozilla
 :
