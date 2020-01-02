@@ -132,9 +132,6 @@ jsm
 "
 )
 ;
-#
-ifndef
-RELEASE_BUILD
 Cu
 .
 import
@@ -154,8 +151,6 @@ jsm
 "
 )
 ;
-#
-endif
 Cu
 .
 import
