@@ -934,7 +934,7 @@ input
 )
 ;
 }
-void
+bool
 GetSECItem
 (
 SECItemType
@@ -987,8 +987,12 @@ mMark
 /
 TODO
 :
+Return
+false
+if
 bounds
 check
+fails
 item
 .
 len
@@ -998,6 +1002,9 @@ input
 mark
 .
 mMark
+;
+return
+true
 ;
 }
 private
