@@ -379,11 +379,11 @@ getType
 context
 )
 .
-isSelection
+hasPredictions
 ?
 Field
 .
-MATCH
+DEFAULT
 :
 Field
 .
