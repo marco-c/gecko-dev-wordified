@@ -203,6 +203,10 @@ mozilla
 ScreenIntSize
 &
 aDisplaySize
+bool
+aAllowZoom
+=
+true
 )
 :
 mDefaultZoom
@@ -217,7 +221,7 @@ true
 )
 mAllowZoom
 (
-true
+aAllowZoom
 )
 {
 mSize

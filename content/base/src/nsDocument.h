@@ -8091,6 +8091,7 @@ enum
 ViewportType
 {
 DisplayWidthHeight
+DisplayWidthHeightNoZoom
 Specified
 Unknown
 }
