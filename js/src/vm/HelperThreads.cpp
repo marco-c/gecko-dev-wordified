@@ -111,7 +111,9 @@ MPL
 #
 include
 "
-jsworkers
+vm
+/
+HelperThreads
 .
 h
 "

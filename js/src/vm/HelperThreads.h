@@ -155,10 +155,10 @@ workers
 /
 #
 ifndef
-jsworkers_h
+vm_HelperThreads_h
 #
 define
-jsworkers_h
+vm_HelperThreads_h
 #
 include
 "
@@ -2558,6 +2558,6 @@ js
 endif
 /
 *
-jsworkers_h
+vm_HelperThreads_h
 *
 /
