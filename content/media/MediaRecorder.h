@@ -355,6 +355,9 @@ MediaRecorder
 (
 DOMMediaStream
 &
+nsPIDOMWindow
+*
+aOwnerWindow
 )
 ;
 virtual
@@ -645,14 +648,6 @@ warning
 )
 protected
 :
-void
-Init
-(
-nsPIDOMWindow
-*
-aOwnerWindow
-)
-;
 MediaRecorder
 &
 operator

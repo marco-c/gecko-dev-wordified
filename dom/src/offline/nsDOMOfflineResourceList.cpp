@@ -466,6 +466,10 @@ nsPIDOMWindow
 aWindow
 )
 :
+nsDOMEventTargetHelper
+(
+aWindow
+)
 mInitialized
 (
 false
@@ -498,15 +502,6 @@ mCachedKeysCount
 0
 )
 {
-BindToOwner
-(
-aWindow
-)
-;
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMOfflineResourceList
 :

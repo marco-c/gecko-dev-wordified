@@ -1030,6 +1030,10 @@ nsIPrincipal
 principal
 )
 :
+nsDOMEventTargetHelper
+(
+aWindow
+)
 mTitle
 (
 title
@@ -1055,11 +1059,6 @@ mShowHasBeenCalled
 false
 )
 {
-BindToOwner
-(
-aWindow
-)
-;
 if
 (
 Preferences
@@ -1150,10 +1149,6 @@ mAllow
 true
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 void
 DesktopNotification

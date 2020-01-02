@@ -584,6 +584,9 @@ private
 :
 TelephonyCall
 (
+nsPIDOMWindow
+*
+aOwner
 )
 ;
 ~

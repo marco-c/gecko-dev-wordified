@@ -680,6 +680,9 @@ private
 :
 Telephony
 (
+nsPIDOMWindow
+*
+aOwner
 )
 ;
 ~

@@ -416,6 +416,9 @@ private
 :
 TelephonyCallGroup
 (
+nsPIDOMWindow
+*
+aOwner
 )
 ;
 ~

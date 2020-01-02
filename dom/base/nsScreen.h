@@ -673,6 +673,9 @@ NS_DECL_NSIDOMEVENTLISTENER
 ;
 nsScreen
 (
+nsPIDOMWindow
+*
+aWindow
 )
 ;
 virtual

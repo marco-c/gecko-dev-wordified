@@ -1670,10 +1670,6 @@ mMessageQueueEnabled
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 MessagePort
 :

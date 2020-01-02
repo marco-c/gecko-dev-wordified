@@ -174,14 +174,14 @@ public
 :
 BatteryManager
 (
+nsPIDOMWindow
+*
+aWindow
 )
 ;
 void
 Init
 (
-nsPIDOMWindow
-*
-aWindow
 )
 ;
 void

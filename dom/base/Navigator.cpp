@@ -5683,6 +5683,7 @@ battery
 :
 BatteryManager
 (
+mWindow
 )
 ;
 mBatteryManager
@@ -5690,7 +5691,6 @@ mBatteryManager
 >
 Init
 (
-mWindow
 )
 ;
 }

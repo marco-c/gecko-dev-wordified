@@ -197,14 +197,9 @@ newFile
 (
 new
 DOMFileHandle
-)
-;
-newFile
--
->
-BindToOwner
 (
 aWindow
+)
 )
 ;
 newFile
