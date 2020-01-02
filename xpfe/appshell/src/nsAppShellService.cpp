@@ -338,12 +338,17 @@ nsIDocShell
 h
 "
 #
+ifdef
+MOZ_INSTRUMENT_EVENT_LOOP
+#
 include
 "
 EventTracer
 .
 h
 "
+#
+endif
 using
 namespace
 mozilla
@@ -4629,6 +4634,9 @@ bool
 aResult
 )
 {
+#
+ifdef
+MOZ_INSTRUMENT_EVENT_LOOP
 *
 aResult
 =
@@ -4640,6 +4648,8 @@ InitEventTracing
 true
 )
 ;
+#
+endif
 return
 NS_OK
 ;
@@ -4652,6 +4662,9 @@ StopEventLoopLagTracking
 (
 )
 {
+#
+ifdef
+MOZ_INSTRUMENT_EVENT_LOOP
 mozilla
 :
 :
@@ -4659,6 +4672,8 @@ ShutdownEventTracing
 (
 )
 ;
+#
+endif
 return
 NS_OK
 ;
