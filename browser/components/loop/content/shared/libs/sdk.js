@@ -212,7 +212,7 @@ logging
 loggingURL
 :
 '
-http
+https
 :
 /
 /
@@ -233,7 +233,7 @@ URL
 apiURL
 :
 '
-http
+https
 :
 /
 /
