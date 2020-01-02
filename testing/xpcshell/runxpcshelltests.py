@@ -1936,6 +1936,9 @@ stdout
 stderr
 env
 cwd
+timeout
+=
+None
 )
 :
         
@@ -1971,6 +1974,36 @@ function
 "
 "
 "
+        
+#
+timeout
+is
+needed
+by
+remote
+and
+b2g
+xpcshell
+to
+extend
+the
+        
+#
+devicemanager
+.
+shell
+(
+)
+timeout
+.
+It
+is
+not
+used
+in
+this
+function
+.
         
 if
 HAVE_PSUTIL
@@ -5417,6 +5450,9 @@ env
 cwd
 =
 test_dir
+timeout
+=
+testTimeoutInterval
 )
             
 if
