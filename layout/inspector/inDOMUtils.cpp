@@ -2296,7 +2296,7 @@ aPropertyName
 nsCSSProps
 :
 :
-eAny
+eIgnoreEnabledState
 )
 ;
 if
@@ -3357,7 +3357,7 @@ aProperty
 nsCSSProps
 :
 :
-eEnabled
+eEnabledForAllContent
 )
 ;
 if

@@ -13408,7 +13408,7 @@ aUnknownProperty
 nsCSSProps
 :
 :
-eEnabled
+eEnabledForAllContent
 )
 =
 =
