@@ -356,6 +356,9 @@ btoa
 console
 :
 console
+hasChrome
+:
+true
 promise
 :
 promise
