@@ -1379,6 +1379,16 @@ Create
 the
 global
 .
+aOptions
+.
+setTrace
+(
+XPCWrappedNative
+:
+:
+Trace
+)
+;
 RootedObject
 global
 (

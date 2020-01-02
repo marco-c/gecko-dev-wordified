@@ -1758,13 +1758,7 @@ JSCLASS_IMPLEMENTS_BARRIERS
 traceHook
 =
 "
-mozilla
-:
-:
-dom
-:
-:
-TraceGlobal
+JS_GlobalObjectTraceHook
 "
         
 else

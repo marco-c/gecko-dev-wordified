@@ -942,7 +942,7 @@ SafeFinalize
 nullptr
 nullptr
 nullptr
-TraceXPCGlobal
+JS_GlobalObjectTraceHook
 }
 ;
 JSContext
@@ -1151,6 +1151,11 @@ JS
 :
 :
 SystemZone
+)
+.
+setTrace
+(
+TraceXPCGlobal
 )
 ;
 mSafeJSContextGlobal

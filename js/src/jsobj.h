@@ -3812,6 +3812,13 @@ global
 )
 const
 ;
+inline
+bool
+isOwnGlobal
+(
+)
+const
+;
 /
 *
 Remove

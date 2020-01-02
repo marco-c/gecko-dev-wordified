@@ -15441,6 +15441,13 @@ NS_IsMainThread
 )
 )
 ;
+aOptions
+.
+setTrace
+(
+TraceGlobal
+)
+;
 JS
 :
 :
