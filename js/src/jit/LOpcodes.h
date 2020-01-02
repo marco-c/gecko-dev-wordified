@@ -1493,6 +1493,11 @@ IsCallable
 \
 _
 (
+IsObject
+)
+\
+_
+(
 HaveSameClass
 )
 \

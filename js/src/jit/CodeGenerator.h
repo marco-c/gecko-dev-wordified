@@ -2269,6 +2269,14 @@ lir
 )
 ;
 bool
+visitIsObject
+(
+LIsObject
+*
+lir
+)
+;
+bool
 visitHaveSameClass
 (
 LHaveSameClass

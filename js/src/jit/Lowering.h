@@ -1892,6 +1892,14 @@ ins
 )
 ;
 bool
+visitIsObject
+(
+MIsObject
+*
+ins
+)
+;
+bool
 visitHaveSameClass
 (
 MHaveSameClass
