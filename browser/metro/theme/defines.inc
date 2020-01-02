@@ -174,6 +174,10 @@ grid_double_row_height
 172px
 %
 define
+grid_search_width
+86px
+%
+define
 compactgrid_column_width
 62px
 %
