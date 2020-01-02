@@ -9,7 +9,7 @@ Javasript
 ;
 indent
 -
-tab
+tabs
 -
 mode
 :

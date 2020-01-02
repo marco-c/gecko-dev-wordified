@@ -6,11 +6,13 @@
 Mode
 :
 javascript
+;
 tab
 -
 width
 :
 2
+;
 indent
 -
 tabs
@@ -18,6 +20,7 @@ tabs
 mode
 :
 nil
+;
 c
 -
 basic
