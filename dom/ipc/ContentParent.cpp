@@ -10621,7 +10621,7 @@ aFds
 base
 :
 :
-PRIVILEGES_DEFAULT
+PRIVILEGES_INHERIT
 )
 ;
 content
