@@ -2327,6 +2327,11 @@ aProxy
 ots
 :
 :
+OTSContext
+otsContext
+;
+otsContext
+.
 SetTableActionCallback
 (
 &
@@ -2334,9 +2339,8 @@ OTSTableAction
 nullptr
 )
 ;
-ots
-:
-:
+otsContext
+.
 SetMessageCallback
 (
 &
@@ -2350,9 +2354,8 @@ userData
 ;
 if
 (
-ots
-:
-:
+otsContext
+.
 Process
 (
 &

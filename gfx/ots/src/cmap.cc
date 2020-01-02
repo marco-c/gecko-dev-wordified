@@ -3175,7 +3175,7 @@ length
 )
 ;
 }
-uint16_t
+uint32_t
 language
 =
 0
@@ -3185,7 +3185,7 @@ if
 !
 subtable
 .
-ReadU16
+ReadU32
 (
 &
 language
@@ -7994,6 +7994,14 @@ have_314
 &
 !
 have_034
+&
+&
+!
+have_31012
+&
+&
+!
+have_31013
 )
 {
 return
@@ -8983,7 +8991,7 @@ WriteU16
 out
 -
 >
-WriteU16
+WriteU32
 (
 0
 )
@@ -9558,3 +9566,6 @@ cmap
 /
 namespace
 ots
+#
+undef
+TABLE_NAME

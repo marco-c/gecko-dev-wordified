@@ -2541,3 +2541,6 @@ os2
 /
 namespace
 ots
+#
+undef
+TABLE_NAME

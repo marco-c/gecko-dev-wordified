@@ -1044,3 +1044,6 @@ maxp
 /
 namespace
 ots
+#
+undef
+TABLE_NAME

@@ -691,3 +691,9 @@ vorg
 /
 namespace
 ots
+#
+undef
+TABLE_NAME
+#
+undef
+DROP_THIS_TABLE

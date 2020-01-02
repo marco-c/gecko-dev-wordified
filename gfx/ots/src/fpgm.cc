@@ -308,3 +308,6 @@ fpgm
 /
 namespace
 ots
+#
+undef
+TABLE_NAME

@@ -1287,3 +1287,6 @@ head
 /
 /
 namespace
+#
+undef
+TABLE_NAME

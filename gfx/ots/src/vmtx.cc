@@ -339,3 +339,6 @@ vmtx
 /
 namespace
 ots
+#
+undef
+TABLE_NAME
