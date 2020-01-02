@@ -575,6 +575,15 @@ suppressGC
 (
 0
 )
+#
+ifdef
+DEBUG
+ionCompiling
+(
+false
+)
+#
+endif
 activeCompilations
 (
 0

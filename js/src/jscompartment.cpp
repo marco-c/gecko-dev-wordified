@@ -3977,6 +3977,7 @@ jitCompartment_
 sweep
 (
 fop
+this
 )
 ;
 #
