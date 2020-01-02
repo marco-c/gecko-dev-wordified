@@ -1967,14 +1967,6 @@ SetState
 GESTURE_NONE
 )
 ;
-CancelMaxTapTimeoutTask
-(
-)
-;
-CancelLongTapTimeoutTask
-(
-)
-;
 return
 nsEventStatus_eIgnore
 ;
