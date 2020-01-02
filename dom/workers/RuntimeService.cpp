@@ -1101,7 +1101,12 @@ ID_COUNT
 ]
 =
 {
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 }
 ;
 const
@@ -5325,7 +5330,12 @@ gStringIDs
 i
 ]
 =
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 ;
 }
 return

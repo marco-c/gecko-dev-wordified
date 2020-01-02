@@ -199,7 +199,12 @@ name
 /
 *
 =
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 *
 /
 unsigned

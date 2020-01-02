@@ -6306,8 +6306,12 @@ object
 valued
 *
 jsids
-JSID_EMPTY
-JSID_VOID
+EmptyId
+(
+)
+VoidId
+(
+)
 and
 maybe
 in

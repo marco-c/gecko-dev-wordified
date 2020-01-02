@@ -387,7 +387,12 @@ SpecialId
 is
 used
 for
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 which
 *
 does

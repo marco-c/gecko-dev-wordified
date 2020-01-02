@@ -3930,7 +3930,12 @@ else
 {
 id
 =
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 ;
 }
 if

@@ -8618,7 +8618,12 @@ SCTAG_NULL
 *
 idp
 =
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 ;
 return
 true

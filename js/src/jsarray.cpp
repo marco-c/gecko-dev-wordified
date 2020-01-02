@@ -7880,7 +7880,12 @@ type
 getProperty
 (
 cx
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 )
 ;
 if
