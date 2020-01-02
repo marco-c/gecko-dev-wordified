@@ -951,6 +951,10 @@ mResampler
 =
 nullptr
 ;
+mRemainingResamplerTail
+=
+0
+;
 mBeginProcessing
 =
 mStart
