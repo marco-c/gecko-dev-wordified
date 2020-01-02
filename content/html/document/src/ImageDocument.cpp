@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsIDocumentInlines
 .
 h
@@ -4079,8 +4086,6 @@ nsCOMPtr
 nsIDocShell
 >
 docShell
-=
-do_QueryReferent
 (
 mDocumentContainer
 )
@@ -4166,8 +4171,6 @@ nsCOMPtr
 nsIDocShell
 >
 docShell
-=
-do_QueryReferent
 (
 mDocumentContainer
 )
