@@ -2381,7 +2381,6 @@ script_
 /
 /
 Returns
-the
 non
 -
 callsited
@@ -2390,14 +2389,12 @@ clone
 version
 of
 this
-function
 .
 Use
-/
-/
 when
 return
--
+/
+/
 value
 can
 flow
@@ -2448,7 +2445,7 @@ nonLazyScript
 )
 -
 >
-originalFunction
+donorFunction
 (
 )
 ;
