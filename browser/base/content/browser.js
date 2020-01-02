@@ -5318,17 +5318,6 @@ gBrowser
 addEventListener
 (
 "
-PluginRemoved
-"
-gPluginHandler
-true
-)
-;
-gBrowser
-.
-addEventListener
-(
-"
 NewPluginInstalled
 "
 gPluginHandler

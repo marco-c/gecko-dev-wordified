@@ -396,7 +396,7 @@ options
 .
 centerActions
 .
-length
+size
 1
 "
 should
@@ -533,7 +533,7 @@ options
 .
 centerActions
 .
-length
+size
 2
 "
 should
