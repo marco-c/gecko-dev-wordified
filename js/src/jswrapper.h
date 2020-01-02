@@ -527,10 +527,6 @@ bool
 hasPrototype
 =
 false
-bool
-hasSecurityPolicy
-=
-false
 )
 ;
 virtual
@@ -624,10 +620,6 @@ unsigned
 flags
 bool
 hasPrototype
-=
-false
-bool
-hasSecurityPolicy
 =
 false
 )
@@ -1162,10 +1154,6 @@ SecurityWrapper
 (
 unsigned
 flags
-bool
-hasPrototype
-=
-false
 )
 ;
 virtual

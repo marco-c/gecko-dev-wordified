@@ -271,10 +271,6 @@ const
 void
 *
 aProxyFamily
-bool
-aHasPrototype
-=
-false
 )
 :
 js
@@ -283,7 +279,6 @@ js
 BaseProxyHandler
 (
 aProxyFamily
-aHasPrototype
 )
 {
 }
