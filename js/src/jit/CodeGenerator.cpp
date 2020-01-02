@@ -2153,6 +2153,8 @@ isDouble
 /
 /
 ARM
+and
+MIPS
 may
 not
 have
@@ -2164,6 +2166,8 @@ if
 we
 '
 ve
+/
+/
 allocated
 output
 as
@@ -2171,8 +2175,17 @@ a
 float32
 .
 #
-ifdef
+if
+defined
+(
 JS_CODEGEN_ARM
+)
+|
+|
+defined
+(
+JS_CODEGEN_MIPS
+)
 masm
 .
 unboxDouble
