@@ -783,7 +783,7 @@ mLatency
 0
 &
 &
-abs
+fabs
 (
 latency
 -
