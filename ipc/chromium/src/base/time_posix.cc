@@ -402,6 +402,8 @@ nearly
 centuries
 .
 return
+Time
+(
 tv
 .
 tv_sec
@@ -411,6 +413,7 @@ kMicrosecondsPerSecond
 tv
 .
 tv_usec
+)
 ;
 }
 /

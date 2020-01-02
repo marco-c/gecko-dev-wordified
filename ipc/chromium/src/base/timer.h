@@ -705,6 +705,7 @@ Task
 {
 public
 :
+explicit
 TimerTask
 (
 TimeDelta

@@ -607,6 +607,7 @@ NOTIFY_ALL
 )
 {
 }
+explicit
 ObserverList
 (
 NotificationType
@@ -863,6 +864,7 @@ Iterator
 {
 public
 :
+explicit
 Iterator
 (
 const
