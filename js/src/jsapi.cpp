@@ -6066,6 +6066,7 @@ compartment
 >
 putWrapper
 (
+cx
 ObjectValue
 (
 *

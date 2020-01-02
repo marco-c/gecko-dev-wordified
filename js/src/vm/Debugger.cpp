@@ -4472,6 +4472,7 @@ compartment
 >
 putWrapper
 (
+cx
 key
 ObjectValue
 (
@@ -4766,6 +4767,7 @@ compartment
 >
 putWrapper
 (
+cx
 key
 ObjectValue
 (
@@ -19407,6 +19409,7 @@ cx
 DebuggerScript_class
 proto
 nullptr
+TenuredObject
 )
 ;
 if
@@ -19566,6 +19569,7 @@ compartment
 >
 putWrapper
 (
+cx
 key
 ObjectValue
 (
@@ -25175,6 +25179,7 @@ cx
 DebuggerSource_class
 proto
 nullptr
+TenuredObject
 )
 ;
 if
@@ -25334,6 +25339,7 @@ compartment
 >
 putWrapper
 (
+cx
 key
 ObjectValue
 (

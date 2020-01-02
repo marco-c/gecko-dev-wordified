@@ -6173,6 +6173,7 @@ wcompartment
 >
 putWrapper
 (
+cx
 ObjectValue
 (
 *

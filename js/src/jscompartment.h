@@ -1524,6 +1524,11 @@ checkInitialShapesTableAfterMovingGC
 (
 )
 ;
+void
+checkWrapperMapAfterMovingGC
+(
+)
+;
 #
 endif
 /
@@ -1796,14 +1801,6 @@ JSTracer
 trc
 )
 ;
-void
-markAllCrossCompartmentWrappers
-(
-JSTracer
-*
-trc
-)
-;
 inline
 bool
 wrap
@@ -1956,6 +1953,9 @@ props
 bool
 putWrapper
 (
+JSContext
+*
+cx
 const
 js
 :
