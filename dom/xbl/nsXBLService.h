@@ -284,6 +284,7 @@ EventTarget
 }
 class
 nsXBLService
+MOZ_FINAL
 :
 public
 nsIObserver

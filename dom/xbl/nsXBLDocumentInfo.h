@@ -114,6 +114,7 @@ nsXBLDocGlobalObject
 ;
 class
 nsXBLDocumentInfo
+MOZ_FINAL
 :
 public
 nsSupportsWeakReference

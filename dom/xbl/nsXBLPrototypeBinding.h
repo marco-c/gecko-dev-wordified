@@ -305,6 +305,7 @@ that
 .
 class
 nsXBLPrototypeBinding
+MOZ_FINAL
 {
 public
 :
