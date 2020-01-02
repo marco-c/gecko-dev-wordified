@@ -269,7 +269,7 @@ class
 SourceBufferResource
 ;
 class
-SubBufferDecoder
+SourceBufferDecoder
 ;
 template
 <
@@ -723,7 +723,7 @@ mParser
 ;
 nsRefPtr
 <
-SubBufferDecoder
+SourceBufferDecoder
 >
 mDecoder
 ;
@@ -731,7 +731,7 @@ nsTArray
 <
 nsRefPtr
 <
-SubBufferDecoder
+SourceBufferDecoder
 >
 >
 mDecoders

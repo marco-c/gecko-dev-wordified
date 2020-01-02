@@ -213,7 +213,7 @@ h
 #
 include
 "
-SubBufferDecoder
+SourceBufferDecoder
 .
 h
 "
@@ -2583,7 +2583,7 @@ GetDecoder
 ;
 nsRefPtr
 <
-SubBufferDecoder
+SourceBufferDecoder
 >
 decoder
 =

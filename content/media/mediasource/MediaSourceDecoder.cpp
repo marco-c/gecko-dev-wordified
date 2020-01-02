@@ -124,6 +124,13 @@ h
 #
 include
 "
+prlog
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -283,7 +290,7 @@ namespace
 mozilla
 {
 class
-SubBufferDecoder
+SourceBufferDecoder
 ;
 MediaSourceDecoder
 :
@@ -650,7 +657,7 @@ nullptr
 }
 already_AddRefed
 <
-SubBufferDecoder
+SourceBufferDecoder
 >
 MediaSourceDecoder
 :
