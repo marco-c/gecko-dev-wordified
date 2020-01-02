@@ -6667,9 +6667,11 @@ HasTransform
 this
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 If
@@ -6705,9 +6707,11 @@ nsGkAtoms
 :
 scrollFrame
 )
+{
 return
 false
 ;
+}
 nsRect
 temp
 ;
