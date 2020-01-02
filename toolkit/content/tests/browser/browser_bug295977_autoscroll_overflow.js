@@ -2074,7 +2074,7 @@ frame
 /
 /
 After
-20ms
+100ms
 '
 s
 worth
@@ -2133,7 +2133,7 @@ if
 (
 timeCompensation
 <
-1
+5
 )
 {
 window
