@@ -12195,8 +12195,7 @@ theme
 >
 GetMinimumWidgetSize
 (
-&
-aRenderingContext
+aPresContext
 this
 twistyDisplayData
 -

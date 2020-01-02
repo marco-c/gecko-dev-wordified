@@ -5698,9 +5698,9 @@ nsNativeThemeGTK
 :
 GetMinimumWidgetSize
 (
-nsRenderingContext
+nsPresContext
 *
-aContext
+aPresContext
 nsIFrame
 *
 aFrame

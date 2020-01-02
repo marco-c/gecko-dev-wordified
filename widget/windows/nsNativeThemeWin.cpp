@@ -13708,9 +13708,9 @@ nsNativeThemeWin
 :
 GetMinimumWidgetSize
 (
-nsRenderingContext
+nsPresContext
 *
-aContext
+aPresContext
 nsIFrame
 *
 aFrame
@@ -13761,7 +13761,7 @@ theme
 return
 ClassicGetMinimumWidgetSize
 (
-aContext
+aPresContext
 aFrame
 aWidgetType
 aResult
@@ -13950,7 +13950,7 @@ NS_THEME_DROPDOWN_BUTTON
 return
 ClassicGetMinimumWidgetSize
 (
-aContext
+aPresContext
 aFrame
 aWidgetType
 aResult
@@ -17082,9 +17082,9 @@ nsNativeThemeWin
 :
 ClassicGetMinimumWidgetSize
 (
-nsRenderingContext
+nsPresContext
 *
-aContext
+aPresContext
 nsIFrame
 *
 aFrame

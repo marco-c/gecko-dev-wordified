@@ -24696,7 +24696,7 @@ GetTheme
 >
 GetMinimumWidgetSize
 (
-aRenderingContext
+presContext
 aFrame
 disp
 -
