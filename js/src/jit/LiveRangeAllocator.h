@@ -2106,6 +2106,9 @@ public
 bool
 init
 (
+TempAllocator
+&
+alloc
 LBlock
 *
 block
@@ -2149,6 +2152,9 @@ LiveInterval
 initial
 =
 new
+(
+alloc
+)
 LiveInterval
 (
 def
