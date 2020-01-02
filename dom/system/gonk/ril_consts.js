@@ -3029,6 +3029,12 @@ ICC_EF_SMS
 ;
 this
 .
+ICC_EF_GID1
+=
+0x6f3e
+;
+this
+.
 ICC_EF_MSISDN
 =
 0x6f40
@@ -7473,6 +7479,9 @@ MSISDN
 CBMI
 :
 14
+GID1
+:
+15
 SPN
 :
 17
@@ -7525,6 +7534,9 @@ CBMI
 CBMIR
 :
 16
+GID1
+:
+17
 SPN
 :
 19
