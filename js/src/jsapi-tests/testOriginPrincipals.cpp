@@ -754,10 +754,6 @@ len
 "
 0
 rval
-.
-address
-(
-)
 JSVERSION_DEFAULT
 )
 ;
