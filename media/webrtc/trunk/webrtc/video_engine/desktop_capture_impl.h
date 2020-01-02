@@ -309,6 +309,11 @@ Init
 (
 )
 ;
+int32_t
+Refresh
+(
+)
+;
 virtual
 uint32_t
 NumberOfDevices
@@ -458,6 +463,11 @@ Init
 (
 )
 ;
+int32_t
+Refresh
+(
+)
+;
 virtual
 uint32_t
 NumberOfDevices
@@ -613,6 +623,11 @@ void
 ;
 int32_t
 Init
+(
+)
+;
+int32_t
+Refresh
 (
 )
 ;
