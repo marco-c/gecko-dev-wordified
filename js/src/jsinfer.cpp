@@ -383,7 +383,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 )
 ;
 }

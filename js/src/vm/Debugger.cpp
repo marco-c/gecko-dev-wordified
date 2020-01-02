@@ -14490,7 +14490,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 &
 v
 )

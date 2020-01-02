@@ -1056,7 +1056,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 args
 [
 1

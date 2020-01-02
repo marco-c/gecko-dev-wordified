@@ -2555,7 +2555,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 &
 complexTypePrototypeVal
 )
@@ -2606,7 +2606,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 &
 complexTypePrototypePrototypeVal
 )
@@ -7633,7 +7633,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 &
 DataProtoVal
 )
@@ -7894,7 +7894,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 &
 protoVal
 )
@@ -9160,7 +9160,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 &
 protoVal
 )

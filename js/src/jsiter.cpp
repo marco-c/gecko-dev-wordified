@@ -10319,7 +10319,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 &
 pval
 )

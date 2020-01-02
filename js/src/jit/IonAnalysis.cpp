@@ -14567,7 +14567,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 |
 |
 setprop
