@@ -4096,10 +4096,6 @@ numBailouts_
 (
 0
 )
-numExceptionBailouts_
-(
-0
-)
 hasUncompiledCallTarget_
 (
 false
