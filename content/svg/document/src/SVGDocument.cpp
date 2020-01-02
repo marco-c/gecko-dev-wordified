@@ -1123,7 +1123,7 @@ uri
 {
 nsRefPtr
 <
-nsCSSStyleSheet
+CSSStyleSheet
 >
 cssSheet
 ;
@@ -1158,7 +1158,7 @@ cssSheet
 }
 }
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =

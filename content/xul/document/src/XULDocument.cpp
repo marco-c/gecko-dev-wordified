@@ -556,7 +556,9 @@ h
 #
 include
 "
-nsCSSStyleSheet
+mozilla
+/
+CSSStyleSheet
 .
 h
 "
@@ -19798,7 +19800,7 @@ XULDocument
 :
 StyleSheetLoaded
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 bool
@@ -23851,7 +23853,7 @@ i
 ;
 nsRefPtr
 <
-nsCSSStyleSheet
+CSSStyleSheet
 >
 incompleteSheet
 ;

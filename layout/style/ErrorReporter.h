@@ -133,9 +133,6 @@ struct
 nsCSSToken
 ;
 class
-nsCSSStyleSheet
-;
-class
 nsCSSScanner
 ;
 class
@@ -144,6 +141,9 @@ nsIURI
 namespace
 mozilla
 {
+class
+CSSStyleSheet
+;
 namespace
 css
 {
@@ -183,7 +183,7 @@ nsCSSScanner
 &
 aScanner
 const
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 const
@@ -411,7 +411,7 @@ nsCSSScanner
 mScanner
 ;
 const
-nsCSSStyleSheet
+CSSStyleSheet
 *
 mSheet
 ;
@@ -453,7 +453,7 @@ const
 nsCSSScanner
 &
 const
-nsCSSStyleSheet
+CSSStyleSheet
 *
 const
 Loader

@@ -263,7 +263,7 @@ QueryInterface
 |
 d
 to
-nsCSSStyleSheet
+CSSStyleSheet
 with
 which
 the

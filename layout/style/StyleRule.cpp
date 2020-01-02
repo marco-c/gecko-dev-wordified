@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+CSSStyleSheet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -160,13 +169,6 @@ mozilla
 css
 /
 Declaration
-.
-h
-"
-#
-include
-"
-nsCSSStyleSheet
 .
 h
 "
@@ -3009,7 +3011,7 @@ ToString
 nsAString
 &
 aString
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 bool
@@ -3286,7 +3288,7 @@ AppendToStringWithoutCombinators
 nsAString
 &
 aString
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 )
@@ -3362,7 +3364,7 @@ AppendToStringWithoutCombinatorsOrNegations
 nsAString
 &
 aString
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 bool
@@ -5582,7 +5584,7 @@ ToString
 nsAString
 &
 aResult
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 )
@@ -8142,7 +8144,7 @@ if
 aHandleContainer
 )
 {
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =

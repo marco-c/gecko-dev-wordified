@@ -224,6 +224,15 @@ include
 "
 mozilla
 /
+CSSStyleSheet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventDispatcher
 .
 h
@@ -406,13 +415,6 @@ h
 include
 "
 nsIDocument
-.
-h
-"
-#
-include
-"
-nsCSSStyleSheet
 .
 h
 "
@@ -8421,7 +8423,7 @@ exists
 mPrefStyleSheet
 =
 new
-nsCSSStyleSheet
+CSSStyleSheet
 (
 CORS_NONE
 )
@@ -27388,7 +27390,7 @@ return
 ;
 nsRefPtr
 <
-nsCSSStyleSheet
+CSSStyleSheet
 >
 cssStyleSheet
 =
