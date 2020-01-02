@@ -960,6 +960,14 @@ AbstractFramePtr
 frame
 )
 ;
+void
+check
+(
+SavedStacks
+*
+stacks
+)
+;
 }
 ;
 #
