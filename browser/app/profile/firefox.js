@@ -14502,13 +14502,9 @@ devtools
 .
 styleeditor
 .
-source
--
-maps
--
-enabled
+transitions
 "
-false
+true
 )
 ;
 /
