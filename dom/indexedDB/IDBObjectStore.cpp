@@ -6241,6 +6241,9 @@ MainThreadDeserializationTraits
 >
 nullptr
 nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 return
@@ -6327,6 +6330,9 @@ callbacks
 {
 nullptr
 StructuredCloneWriteCallback
+nullptr
+nullptr
+nullptr
 nullptr
 }
 ;
@@ -23326,6 +23332,9 @@ StructuredCloneReadCallback
 <
 CreateIndexDeserializationTraits
 >
+nullptr
+nullptr
+nullptr
 nullptr
 nullptr
 }

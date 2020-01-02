@@ -928,6 +928,9 @@ gCallbacks
 Read
 Write
 Error
+nullptr
+nullptr
+nullptr
 }
 ;
 }

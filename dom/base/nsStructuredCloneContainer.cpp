@@ -401,6 +401,8 @@ JS_ClearStructuredClone
 (
 jsBytes
 mSize
+nullptr
+nullptr
 )
 ;
 return
@@ -425,6 +427,8 @@ JS_ClearStructuredClone
 (
 jsBytes
 mSize
+nullptr
+nullptr
 )
 ;
 return

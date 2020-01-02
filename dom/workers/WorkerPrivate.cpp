@@ -2513,6 +2513,9 @@ WorkerStructuredCloneCallbacks
 :
 :
 Error
+nullptr
+nullptr
+nullptr
 }
 ;
 struct
@@ -3432,6 +3435,9 @@ MainThreadWorkerStructuredCloneCallbacks
 :
 :
 Error
+nullptr
+nullptr
+nullptr
 }
 ;
 struct
@@ -3548,6 +3554,9 @@ ChromeWorkerStructuredCloneCallbacks
 :
 :
 Error
+nullptr
+nullptr
+nullptr
 }
 ;
 struct
@@ -3752,6 +3761,9 @@ MainThreadChromeWorkerStructuredCloneCallbacks
 :
 :
 Error
+nullptr
+nullptr
+nullptr
 }
 ;
 class

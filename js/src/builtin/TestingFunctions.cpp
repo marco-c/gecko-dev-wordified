@@ -7480,6 +7480,8 @@ data
 nbytes
 (
 )
+nullptr
+nullptr
 )
 ;
 setReservedSlot
