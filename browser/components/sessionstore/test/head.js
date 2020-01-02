@@ -1482,7 +1482,7 @@ within
 buffering
 interval
 +
-100
+1000
 ms
 the
 callback
@@ -1511,7 +1511,7 @@ aCallback
 let
 timeout
 =
-100
+1000
 +
 Services
 .
