@@ -3684,6 +3684,9 @@ ITEM_KIND_KEY
 )
 ;
 }
+#
+ifdef
+ENABLE_PARALLEL_JS
 /
 *
 *
@@ -4348,9 +4351,6 @@ return
 info
 ;
 }
-#
-ifdef
-ENABLE_PARALLEL_JS
 /
 *
 *

@@ -509,11 +509,6 @@ NewSlots
 \
 _
 (
-NewParallelArray
-)
-\
-_
-(
 NewArray
 )
 \

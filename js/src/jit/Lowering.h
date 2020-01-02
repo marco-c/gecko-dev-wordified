@@ -592,14 +592,6 @@ ins
 )
 ;
 bool
-visitNewParallelArray
-(
-MNewParallelArray
-*
-ins
-)
-;
-bool
 visitNewArray
 (
 MNewArray

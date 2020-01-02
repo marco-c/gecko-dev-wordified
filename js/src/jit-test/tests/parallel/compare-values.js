@@ -154,7 +154,7 @@ doubles
 "
 )
 ;
-compareAgainstArray
+assertArraySeqParResultsEq
 (
 doubles
 "
@@ -162,6 +162,7 @@ map
 "
 looselyCompareToDoubles
 )
+;
 print
 (
 "
@@ -169,7 +170,7 @@ bools
 "
 )
 ;
-compareAgainstArray
+assertArraySeqParResultsEq
 (
 bools
 "
@@ -177,6 +178,7 @@ map
 "
 looselyCompareToDoubles
 )
+;
 /
 /
 ion
@@ -212,13 +214,9 @@ function
 mode
 )
 {
-new
-ParallelArray
-(
 strings
-)
 .
-map
+mapPar
 (
 looselyCompareToDoubles
 mode
@@ -233,7 +231,7 @@ ints
 "
 )
 ;
-compareAgainstArray
+assertArraySeqParResultsEq
 (
 ints
 "
@@ -241,6 +239,7 @@ map
 "
 looselyCompareToDoubles
 )
+;
 function
 strictlyCompareToDoubles
 (
@@ -267,7 +266,7 @@ strict
 "
 )
 ;
-compareAgainstArray
+assertArraySeqParResultsEq
 (
 doubles
 "
@@ -275,6 +274,7 @@ map
 "
 strictlyCompareToDoubles
 )
+;
 print
 (
 "
@@ -283,7 +283,7 @@ strict
 "
 )
 ;
-compareAgainstArray
+assertArraySeqParResultsEq
 (
 bools
 "
@@ -291,6 +291,7 @@ map
 "
 strictlyCompareToDoubles
 )
+;
 print
 (
 "
@@ -299,7 +300,7 @@ strict
 "
 )
 ;
-compareAgainstArray
+assertArraySeqParResultsEq
 (
 strings
 "
@@ -307,6 +308,7 @@ map
 "
 strictlyCompareToDoubles
 )
+;
 print
 (
 "
@@ -315,7 +317,7 @@ strict
 "
 )
 ;
-compareAgainstArray
+assertArraySeqParResultsEq
 (
 ints
 "
@@ -323,6 +325,7 @@ map
 "
 strictlyCompareToDoubles
 )
+;
 }
 if
 (
