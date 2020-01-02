@@ -1217,9 +1217,6 @@ and
 parse
 it
 .
-Orientation
-orientation
-;
 if
 (
 !
