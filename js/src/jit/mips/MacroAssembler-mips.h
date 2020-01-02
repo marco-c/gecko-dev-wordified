@@ -6579,6 +6579,15 @@ dest
 )
 ;
 void
+subPtr
+(
+Register
+src
+Register
+dest
+)
+;
+void
 addPtr
 (
 const
