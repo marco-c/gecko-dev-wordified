@@ -2033,6 +2033,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+LowEventsReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
