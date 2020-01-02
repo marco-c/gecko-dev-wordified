@@ -173,9 +173,6 @@ unused
 h
 "
 #
-ifdef
-MOZ_CRASHREPORTER
-#
 include
 "
 mozilla
@@ -195,6 +192,9 @@ dom
 :
 CrashReporterParent
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 using
 CrashReporter
 :
