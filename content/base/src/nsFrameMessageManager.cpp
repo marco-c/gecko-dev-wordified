@@ -4610,7 +4610,7 @@ aJSONRetVal
 )
 {
 AutoSafeJSContext
-ctx
+cx
 ;
 nsAutoTObserverArray
 <
@@ -4777,7 +4777,7 @@ JSObject
 >
 object
 (
-ctx
+cx
 wrappedJS
 -
 >
@@ -4798,7 +4798,7 @@ continue
 JSAutoCompartment
 ac
 (
-ctx
+cx
 object
 )
 ;
@@ -4821,10 +4821,10 @@ JSObject
 >
 param
 (
-ctx
+cx
 JS_NewObject
 (
-ctx
+cx
 nullptr
 nullptr
 nullptr
@@ -4849,7 +4849,7 @@ Value
 >
 targetv
 (
-ctx
+cx
 )
 ;
 JS
@@ -4862,10 +4862,10 @@ JSObject
 >
 global
 (
-ctx
+cx
 JS_GetGlobalForObject
 (
-ctx
+cx
 object
 )
 )
@@ -4878,7 +4878,7 @@ nsContentUtils
 :
 WrapNative
 (
-ctx
+cx
 global
 aTarget
 &
@@ -4902,7 +4902,7 @@ JSObject
 >
 cpows
 (
-ctx
+cx
 )
 ;
 if
@@ -4918,7 +4918,7 @@ aCpows
 >
 ToObject
 (
-ctx
+cx
 &
 cpows
 )
@@ -4939,7 +4939,7 @@ cpows
 =
 JS_NewObject
 (
-ctx
+cx
 nullptr
 nullptr
 nullptr
@@ -4968,7 +4968,7 @@ Value
 >
 cpowsv
 (
-ctx
+cx
 JS
 :
 :
@@ -4991,7 +4991,7 @@ Value
 >
 json
 (
-ctx
+cx
 JS
 :
 :
@@ -5014,7 +5014,7 @@ mDataLength
 !
 ReadStructuredClone
 (
-ctx
+cx
 *
 aCloneData
 &
@@ -5024,7 +5024,7 @@ json
 {
 JS_ClearPendingException
 (
-ctx
+cx
 )
 ;
 return
@@ -5041,10 +5041,10 @@ JSString
 >
 jsMessage
 (
-ctx
+cx
 JS_NewUCStringCopyN
 (
-ctx
+cx
 static_cast
 <
 const
@@ -5074,7 +5074,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 JS_DefineProperty
 (
-ctx
+cx
 param
 "
 target
@@ -5087,7 +5087,7 @@ JSPROP_ENUMERATE
 ;
 JS_DefineProperty
 (
-ctx
+cx
 param
 "
 name
@@ -5103,7 +5103,7 @@ JSPROP_ENUMERATE
 ;
 JS_DefineProperty
 (
-ctx
+cx
 param
 "
 sync
@@ -5119,7 +5119,7 @@ JSPROP_ENUMERATE
 ;
 JS_DefineProperty
 (
-ctx
+cx
 param
 "
 json
@@ -5135,7 +5135,7 @@ JSPROP_ENUMERATE
 deprecated
 JS_DefineProperty
 (
-ctx
+cx
 param
 "
 data
@@ -5148,7 +5148,7 @@ JSPROP_ENUMERATE
 ;
 JS_DefineProperty
 (
-ctx
+cx
 param
 "
 objects
@@ -5185,12 +5185,12 @@ Value
 >
 nullValue
 (
-ctx
+cx
 )
 ;
 JS_DefineProperty
 (
-ctx
+cx
 param
 "
 principal
@@ -5237,10 +5237,10 @@ JSObject
 >
 principalObj
 (
-ctx
+cx
 JS_NewObject
 (
-ctx
+cx
 nullptr
 nullptr
 nullptr
@@ -5280,7 +5280,7 @@ Value
 >
 appIdValue
 (
-ctx
+cx
 INT_TO_JSVAL
 (
 appId
@@ -5289,7 +5289,7 @@ appId
 ;
 JS_DefineProperty
 (
-ctx
+cx
 principalObj
 "
 appId
@@ -5332,10 +5332,10 @@ JSString
 >
 originValue
 (
-ctx
+cx
 JS_InternString
 (
-ctx
+cx
 origin
 .
 get
@@ -5346,7 +5346,7 @@ get
 ;
 JS_DefineProperty
 (
-ctx
+cx
 principalObj
 "
 origin
@@ -5392,7 +5392,7 @@ Value
 >
 browserValue
 (
-ctx
+cx
 BOOLEAN_TO_JSVAL
 (
 browser
@@ -5401,7 +5401,7 @@ browser
 ;
 JS_DefineProperty
 (
-ctx
+cx
 principalObj
 "
 isInBrowserElement
@@ -5424,7 +5424,7 @@ Value
 >
 principalValue
 (
-ctx
+cx
 JS
 :
 :
@@ -5437,7 +5437,7 @@ principalObj
 ;
 JS_DefineProperty
 (
-ctx
+cx
 param
 "
 principal
@@ -5461,7 +5461,7 @@ Value
 >
 thisValue
 (
-ctx
+cx
 JS
 :
 :
@@ -5482,14 +5482,14 @@ Value
 >
 funval
 (
-ctx
+cx
 )
 ;
 if
 (
 JS_ObjectIsCallable
 (
-ctx
+cx
 object
 )
 )
@@ -5572,10 +5572,10 @@ JSObject
 >
 global
 (
-ctx
+cx
 JS_GetGlobalForObject
 (
-ctx
+cx
 object
 )
 )
@@ -5588,7 +5588,7 @@ nsContentUtils
 :
 WrapNative
 (
-ctx
+cx
 global
 defaultThisValue
 &
@@ -5624,7 +5624,7 @@ if
 !
 JS_GetProperty
 (
-ctx
+cx
 object
 "
 receiveMessage
@@ -5658,7 +5658,7 @@ NS_ENSURE_STATE
 (
 JS_ObjectIsCallable
 (
-ctx
+cx
 &
 funval
 .
@@ -5689,7 +5689,7 @@ Value
 >
 rval
 (
-ctx
+cx
 JSVAL_VOID
 )
 ;
@@ -5705,7 +5705,7 @@ Value
 >
 argv
 (
-ctx
+cx
 JS
 :
 :
@@ -5727,7 +5727,7 @@ JSObject
 >
 thisObject
 (
-ctx
+cx
 thisValue
 .
 toObjectOrNull
@@ -5738,7 +5738,7 @@ toObjectOrNull
 JSAutoCompartment
 tac
 (
-ctx
+cx
 thisObject
 )
 ;
@@ -5747,7 +5747,7 @@ if
 !
 JS_WrapValue
 (
-ctx
+cx
 &
 argv
 )
@@ -5759,7 +5759,7 @@ NS_ERROR_UNEXPECTED
 }
 JS_CallFunctionValue
 (
-ctx
+cx
 thisObject
 funval
 1
@@ -5787,7 +5787,7 @@ if
 (
 JS_Stringify
 (
-ctx
+cx
 &
 rval
 JS
