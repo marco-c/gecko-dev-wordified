@@ -662,6 +662,12 @@ controllers
 /
 /
 IDX_CONTROLLERS
+"
+realFrameElement
+"
+/
+/
+IDX_REALFRAMEELEMENT
 }
 ;
 /
