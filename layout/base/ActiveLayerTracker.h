@@ -454,7 +454,7 @@ layers
 /
 static
 bool
-IsOffsetOrMarginStyleAnimated
+IsOffsetStyleAnimated
 (
 nsIFrame
 *
