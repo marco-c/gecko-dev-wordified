@@ -513,6 +513,10 @@ stop
 )
 )
 ;
+disableCertificateChecks
+(
+)
+;
 Services
 .
 prefs
