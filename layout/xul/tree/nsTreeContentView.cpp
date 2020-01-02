@@ -202,13 +202,9 @@ nsServiceManagerUtils
 .
 h
 "
+using
 namespace
-dom
-=
 mozilla
-:
-:
-dom
 ;
 #
 define

@@ -149,13 +149,9 @@ nsINodeInfo
 .
 h
 "
+using
 namespace
-dom
-=
 mozilla
-:
-:
-dom
 ;
 nsresult
 nsTreeUtils
