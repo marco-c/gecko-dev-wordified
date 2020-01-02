@@ -139,14 +139,14 @@ new
 pref
 values
 (
-9
+24
 is
 the
 default
 value
 -
 >
-3
+8
 x
 3
 )
@@ -154,7 +154,7 @@ let
 previousValues
 =
 [
-9
+24
 1
 1
 1
