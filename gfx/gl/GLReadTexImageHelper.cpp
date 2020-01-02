@@ -3071,6 +3071,7 @@ false
 )
 ;
 ScopedViewportRect
+scopedViewportRect
 (
 mGL
 0
