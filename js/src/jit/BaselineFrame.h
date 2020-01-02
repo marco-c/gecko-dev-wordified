@@ -1752,7 +1752,7 @@ trace
 JSTracer
 *
 trc
-IonFrameIterator
+JitFrameIterator
 &
 frame
 )

@@ -15731,7 +15731,7 @@ frameno
 ;
 for
 (
-IonFrameIterator
+JitFrameIterator
 it
 (
 ionTop
@@ -18472,7 +18472,7 @@ currently
 /
 running
 because
-IonFrameIterator
+JitFrameIterator
 needs
 to
 tell

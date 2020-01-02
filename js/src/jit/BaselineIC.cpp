@@ -5822,7 +5822,7 @@ runtime
 )
 )
 ;
-IonFrameIterator
+JitFrameIterator
 iter
 (
 activations

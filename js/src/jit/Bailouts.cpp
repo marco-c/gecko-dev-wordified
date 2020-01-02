@@ -183,7 +183,7 @@ include
 "
 jit
 /
-IonFrameIterator
+JitFrameIterator
 -
 inl
 .
@@ -260,8 +260,8 @@ as
 IonInlineIterator
 is
 using
-an
-IonFrameIterator
+a
+JitFrameIterator
 reference
 .
 /
@@ -295,7 +295,7 @@ functions
 will
 use
 the
-IonFrameIterator
+JitFrameIterator
 reference
 /
 /
@@ -338,7 +338,7 @@ of
 the
 /
 /
-IonFrameIterator
+JitFrameIterator
 within
 InlineFrameIterator
 is
@@ -544,7 +544,7 @@ frames
 }
 else
 {
-IonFrameIterator
+JitFrameIterator
 :
 :
 dump
@@ -1176,12 +1176,12 @@ JitActivationIterator
 &
 activations
 const
-IonFrameIterator
+JitFrameIterator
 &
 frame
 )
 :
-IonFrameIterator
+JitFrameIterator
 (
 activations
 )

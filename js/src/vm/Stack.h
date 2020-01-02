@@ -142,7 +142,7 @@ include
 "
 jit
 /
-IonFrameIterator
+JitFrameIterator
 .
 h
 "
@@ -9336,7 +9336,7 @@ JS_ION
 jit
 :
 :
-IonFrameIterator
+JitFrameIterator
 ionFrames_
 ;
 #

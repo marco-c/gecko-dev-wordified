@@ -289,7 +289,7 @@ include
 "
 jit
 /
-IonFrameIterator
+JitFrameIterator
 -
 inl
 .
@@ -527,10 +527,10 @@ slot
 )
 ;
 }
-IonFrameIterator
+JitFrameIterator
 :
 :
-IonFrameIterator
+JitFrameIterator
 (
 JSContext
 *
@@ -574,10 +574,10 @@ SequentialExecution
 )
 {
 }
-IonFrameIterator
+JitFrameIterator
 :
 :
-IonFrameIterator
+JitFrameIterator
 (
 const
 ActivationIterator
@@ -628,10 +628,10 @@ SequentialExecution
 )
 {
 }
-IonFrameIterator
+JitFrameIterator
 :
 :
-IonFrameIterator
+JitFrameIterator
 (
 IonJSFrameLayout
 *
@@ -677,7 +677,7 @@ mode
 {
 }
 bool
-IonFrameIterator
+JitFrameIterator
 :
 :
 checkInvalidation
@@ -698,7 +698,7 @@ dummy
 ;
 }
 bool
-IonFrameIterator
+JitFrameIterator
 :
 :
 checkInvalidation
@@ -880,7 +880,7 @@ true
 ;
 }
 CalleeToken
-IonFrameIterator
+JitFrameIterator
 :
 :
 calleeToken
@@ -905,7 +905,7 @@ calleeToken
 }
 JSFunction
 *
-IonFrameIterator
+JitFrameIterator
 :
 :
 callee
@@ -938,7 +938,7 @@ calleeToken
 }
 JSFunction
 *
-IonFrameIterator
+JitFrameIterator
 :
 :
 maybeCallee
@@ -969,7 +969,7 @@ nullptr
 ;
 }
 bool
-IonFrameIterator
+JitFrameIterator
 :
 :
 isNative
@@ -1012,7 +1012,7 @@ nullptr
 ;
 }
 bool
-IonFrameIterator
+JitFrameIterator
 :
 :
 isOOLNative
@@ -1050,7 +1050,7 @@ ION_FRAME_OOL_NATIVE
 ;
 }
 bool
-IonFrameIterator
+JitFrameIterator
 :
 :
 isOOLPropertyOp
@@ -1088,7 +1088,7 @@ ION_FRAME_OOL_PROPERTY_OP
 ;
 }
 bool
-IonFrameIterator
+JitFrameIterator
 :
 :
 isOOLProxy
@@ -1126,7 +1126,7 @@ ION_FRAME_OOL_PROXY
 ;
 }
 bool
-IonFrameIterator
+JitFrameIterator
 :
 :
 isDOMExit
@@ -1156,7 +1156,7 @@ isDomExit
 ;
 }
 bool
-IonFrameIterator
+JitFrameIterator
 :
 :
 isFunctionFrame
@@ -1175,7 +1175,7 @@ calleeToken
 }
 JSScript
 *
-IonFrameIterator
+JitFrameIterator
 :
 :
 script
@@ -1227,7 +1227,7 @@ script
 ;
 }
 void
-IonFrameIterator
+JitFrameIterator
 :
 :
 baselineScriptAndPc
@@ -1441,7 +1441,7 @@ retAddr
 }
 Value
 *
-IonFrameIterator
+JitFrameIterator
 :
 :
 actualArgs
@@ -1563,7 +1563,7 @@ type
 }
 uint8_t
 *
-IonFrameIterator
+JitFrameIterator
 :
 :
 prevFp
@@ -1675,9 +1675,9 @@ current_
 currentSize
 ;
 }
-IonFrameIterator
+JitFrameIterator
 &
-IonFrameIterator
+JitFrameIterator
 :
 :
 operator
@@ -1842,7 +1842,7 @@ this
 }
 uintptr_t
 *
-IonFrameIterator
+JitFrameIterator
 :
 :
 spillBase
@@ -1926,7 +1926,7 @@ frameSize
 ;
 }
 MachineState
-IonFrameIterator
+JitFrameIterator
 :
 :
 machineState
@@ -2695,7 +2695,7 @@ JSContext
 *
 cx
 const
-IonFrameIterator
+JitFrameIterator
 &
 frame
 ResumeFromException
@@ -3668,7 +3668,7 @@ takeIonReturnOverride
 (
 )
 ;
-IonFrameIterator
+JitFrameIterator
 iter
 (
 cx
@@ -4512,7 +4512,7 @@ current
 (
 )
 ;
-IonFrameIterator
+JitFrameIterator
 iter
 (
 cx
@@ -4976,7 +4976,7 @@ uintptr_t
 ReadAllocation
 (
 const
-IonFrameIterator
+JitFrameIterator
 &
 frame
 const
@@ -5124,7 +5124,7 @@ JSTracer
 *
 trc
 const
-IonFrameIterator
+JitFrameIterator
 &
 frame
 )
@@ -5229,7 +5229,7 @@ void
 WriteAllocation
 (
 const
-IonFrameIterator
+JitFrameIterator
 &
 frame
 const
@@ -5385,7 +5385,7 @@ JSTracer
 *
 trc
 const
-IonFrameIterator
+JitFrameIterator
 &
 frame
 )
@@ -5965,7 +5965,7 @@ JSTracer
 *
 trc
 const
-IonFrameIterator
+JitFrameIterator
 &
 frame
 )
@@ -6343,7 +6343,7 @@ JSTracer
 *
 trc
 const
-IonFrameIterator
+JitFrameIterator
 &
 frame
 )
@@ -6462,7 +6462,7 @@ uintptr_t
 end
 )
 {
-IonFrameIterator
+JitFrameIterator
 frames
 (
 jitTop
@@ -6719,7 +6719,7 @@ JSTracer
 *
 trc
 const
-IonFrameIterator
+JitFrameIterator
 &
 frame
 )
@@ -8041,7 +8041,7 @@ JSTracer
 *
 trc
 const
-IonFrameIterator
+JitFrameIterator
 &
 frame
 )
@@ -8205,7 +8205,7 @@ false
 endif
 for
 (
-IonFrameIterator
+JitFrameIterator
 frames
 (
 activations
@@ -8411,7 +8411,7 @@ activations
 {
 for
 (
-IonFrameIterator
+JitFrameIterator
 frames
 (
 activations
@@ -8559,7 +8559,7 @@ the
 return
 address
 .
-IonFrameIterator
+JitFrameIterator
 it
 (
 rt
@@ -9143,7 +9143,7 @@ SnapshotIterator
 SnapshotIterator
 (
 const
-IonFrameIterator
+JitFrameIterator
 &
 iter
 )
@@ -10355,7 +10355,7 @@ skipInstruction
 }
 IonScript
 *
-IonFrameIterator
+JitFrameIterator
 :
 :
 ionScript
@@ -10447,7 +10447,7 @@ type
 const
 SafepointIndex
 *
-IonFrameIterator
+JitFrameIterator
 :
 :
 safepoint
@@ -10481,7 +10481,7 @@ cachedSafepointIndex_
 const
 OsiIndex
 *
-IonFrameIterator
+JitFrameIterator
 :
 :
 osiIndex
@@ -10531,7 +10531,7 @@ allowGC
 resetOn
 (
 const
-IonFrameIterator
+JitFrameIterator
 *
 iter
 )
@@ -10578,7 +10578,7 @@ NoGC
 resetOn
 (
 const
-IonFrameIterator
+JitFrameIterator
 *
 iter
 )
@@ -10594,7 +10594,7 @@ CanGC
 resetOn
 (
 const
-IonFrameIterator
+JitFrameIterator
 *
 iter
 )
@@ -11577,7 +11577,7 @@ isConstructing
 const
 ;
 bool
-IonFrameIterator
+JitFrameIterator
 :
 :
 isConstructing
@@ -11585,7 +11585,7 @@ isConstructing
 )
 const
 {
-IonFrameIterator
+JitFrameIterator
 parent
 (
 *
@@ -11848,7 +11848,7 @@ firstFrameIsConstructing
 ;
 }
 unsigned
-IonFrameIterator
+JitFrameIterator
 :
 :
 numActualArgs
@@ -12004,7 +12004,7 @@ i_
 }
 ;
 void
-IonFrameIterator
+JitFrameIterator
 :
 :
 dumpBaseline
@@ -12797,7 +12797,7 @@ dump
 const
 ;
 void
-IonFrameIterator
+JitFrameIterator
 :
 :
 dump

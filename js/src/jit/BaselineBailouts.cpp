@@ -12956,7 +12956,7 @@ currentlyRunningInJit
 )
 )
 ;
-IonFrameIterator
+JitFrameIterator
 iter
 (
 cx

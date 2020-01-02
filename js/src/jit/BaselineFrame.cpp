@@ -259,7 +259,7 @@ trace
 JSTracer
 *
 trc
-IonFrameIterator
+JitFrameIterator
 &
 frameIterator
 )
@@ -1444,7 +1444,7 @@ epilogue
 calls
 )
 .
-IonFrameIterator
+JitFrameIterator
 iter
 (
 cx
