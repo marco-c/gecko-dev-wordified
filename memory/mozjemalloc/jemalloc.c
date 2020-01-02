@@ -42460,7 +42460,6 @@ NULL
 size_t
 _msize
 (
-const
 void
 *
 ptr
