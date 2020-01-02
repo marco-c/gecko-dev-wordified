@@ -436,7 +436,7 @@ enterwith
 NULL
 5
 1
-1
+0
 JOF_OBJECT
 )
 \
@@ -449,7 +449,7 @@ leavewith
 "
 NULL
 1
-1
+0
 0
 JOF_BYTE
 )
