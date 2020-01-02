@@ -883,7 +883,7 @@ appInfo
 =
 message
 .
-json
+data
 ;
 let
 targets
@@ -968,7 +968,7 @@ appInfo
 =
 message
 .
-json
+data
 ;
 let
 targets
@@ -1237,7 +1237,7 @@ isPeerReadyTarget
 (
 message
 .
-json
+data
 .
 appId
 )
@@ -1261,7 +1261,7 @@ isValid
 ?
 message
 .
-json
+data
 .
 appId
 :
@@ -1275,7 +1275,7 @@ requestId
 :
 message
 .
-json
+data
 .
 requestId
 }
@@ -1737,7 +1737,7 @@ if
 (
 message
 .
-json
+data
 .
 sessionToken
 !
@@ -1769,7 +1769,7 @@ Token
 +
 message
 .
-json
+data
 .
 sessionToken
 +
@@ -1882,7 +1882,7 @@ isPeerReadyTarget
 (
 message
 .
-json
+data
 .
 appId
 )
@@ -1898,7 +1898,7 @@ ID
 +
 message
 .
-json
+data
 .
 appId
 +
@@ -1924,7 +1924,7 @@ peerTargetsMap
 [
 message
 .
-json
+data
 .
 appId
 ]
@@ -1957,7 +1957,7 @@ notifyPeerEvent
 (
 message
 .
-json
+data
 .
 appId
 NFC
@@ -1997,7 +1997,7 @@ process
 .
 message
 .
-json
+data
 .
 type
 =
@@ -2009,7 +2009,7 @@ if
 (
 message
 .
-json
+data
 .
 status
 !
@@ -2022,7 +2022,7 @@ NFC_SUCCESS
 {
 message
 .
-json
+data
 .
 errorMsg
 =
@@ -2046,7 +2046,7 @@ sendNfcResponse
 (
 message
 .
-json
+data
 )
 ;
 return
@@ -2496,7 +2496,7 @@ Response
 ;
 message
 .
-json
+data
 .
 errorMsg
 =
@@ -2516,7 +2516,7 @@ sendAsyncMessage
 nfcMsgType
 message
 .
-json
+data
 )
 ;
 }
@@ -3337,7 +3337,7 @@ service
 .
 message
 .
-json
+data
 .
 sessionId
 =
@@ -3368,7 +3368,7 @@ if
 (
 message
 .
-json
+data
 .
 sessionToken
 &
@@ -3376,7 +3376,7 @@ sessionToken
 (
 message
 .
-json
+data
 .
 sessionToken
 !
@@ -3397,7 +3397,7 @@ Token
 +
 message
 .
-json
+data
 .
 sessionToken
 +
@@ -3453,7 +3453,7 @@ requestId
 :
 message
 .
-json
+data
 .
 requestId
 }
@@ -3482,7 +3482,7 @@ requestId
 :
 message
 .
-json
+data
 .
 requestId
 }
@@ -3511,7 +3511,7 @@ requestId
 :
 message
 .
-json
+data
 .
 requestId
 }
@@ -3535,7 +3535,7 @@ getDetailsNDEF
 "
 message
 .
-json
+data
 )
 ;
 break
@@ -3556,7 +3556,7 @@ readNDEF
 "
 message
 .
-json
+data
 )
 ;
 break
@@ -3577,7 +3577,7 @@ writeNDEF
 "
 message
 .
-json
+data
 )
 ;
 break
@@ -3598,7 +3598,7 @@ makeReadOnlyNDEF
 "
 message
 .
-json
+data
 )
 ;
 break
@@ -3619,7 +3619,7 @@ connect
 "
 message
 .
-json
+data
 )
 ;
 break
@@ -3640,7 +3640,7 @@ close
 "
 message
 .
-json
+data
 )
 ;
 break
@@ -3751,7 +3751,7 @@ file
 "
 message
 .
-json
+data
 )
 ;
 break
@@ -3782,7 +3782,7 @@ targetsByRequestId
 [
 message
 .
-json
+data
 .
 requestId
 ]
