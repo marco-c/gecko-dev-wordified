@@ -54,6 +54,12 @@ MPL
 /
 .
 from
+mozbuild
+.
+util
+import
+ensureParentDir
+from
 mozpack
 .
 unify
@@ -74,12 +80,6 @@ test
 test_files
 import
 TestWithTmpDir
-from
-mozpack
-.
-copier
-import
-ensure_parent_dir
 from
 mozpack
 .
@@ -155,7 +155,7 @@ path
 )
 )
         
-ensure_parent_dir
+ensureParentDir
 (
 file
 )
