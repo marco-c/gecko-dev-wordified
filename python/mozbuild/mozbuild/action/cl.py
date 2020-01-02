@@ -409,8 +409,7 @@ break
     
 if
 target
-=
-=
+is
 None
 :
         
@@ -425,13 +424,9 @@ No
 target
 set
 "
-and
-sys
-.
-exit
-(
+        
+return
 1
-)
     
 #
 Assume
@@ -795,12 +790,8 @@ target
 "
 :
         
-sys
-.
-exit
-(
+return
 ret
-)
     
 depsdir
 =
@@ -931,6 +922,21 @@ dump
 (
 f
 )
+    
+return
+0
+def
+main
+(
+args
+)
+:
+    
+return
+InvokeClWithDependencyGeneration
+(
+args
+)
 if
 __name__
 =
@@ -940,7 +946,11 @@ __main__
 "
 :
     
-InvokeClWithDependencyGeneration
+sys
+.
+exit
+(
+main
 (
 sys
 .
@@ -949,4 +959,5 @@ argv
 1
 :
 ]
+)
 )
