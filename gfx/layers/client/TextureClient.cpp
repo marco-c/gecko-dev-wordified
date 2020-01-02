@@ -1832,18 +1832,6 @@ aTextureFlags
 #
 ifdef
 GL_PROVIDER_GLX
-#
-if
-0
-/
-/
-Bug
-977963
-:
-Disabled
-for
-black
-layers
 if
 (
 parentBackend
@@ -1901,8 +1889,6 @@ aTextureFlags
 )
 ;
 }
-#
-endif
 #
 endif
 #
