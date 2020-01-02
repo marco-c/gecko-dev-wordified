@@ -222,7 +222,7 @@ if
 ANDROID_VERSION
 >
 =
-18
+17
 typedef
 hwc_composer_device_1_t
 HwcDevice
