@@ -388,15 +388,6 @@ if
 dumpID
 )
 return
-let
-contentProcessType
-=
-Services
-.
-crashmanager
-.
-PROCESS_TYPE_CONTENT
-;
 if
 (
 CrashSubmit
@@ -405,9 +396,9 @@ submit
 (
 dumpID
 {
-processType
+recordSubmission
 :
-contentProcessType
+true
 }
 )
 )
