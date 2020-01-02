@@ -1708,6 +1708,11 @@ clip
 )
 CSS_KEY
 (
+clone
+clone
+)
+CSS_KEY
+(
 close
 -
 quote
@@ -3394,6 +3399,11 @@ slashed
 -
 zero
 slashed_zero
+)
+CSS_KEY
+(
+slice
+slice
 )
 CSS_KEY
 (
