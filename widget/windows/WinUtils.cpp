@@ -267,6 +267,13 @@ nsIThread
 h
 "
 #
+include
+"
+MainThreadUtils
+.
+h
+"
+#
 ifdef
 NS_ENABLE_TSF
 #
