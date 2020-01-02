@@ -2118,6 +2118,15 @@ if
 this
 .
 panning
+&
+&
+docShell
+.
+asyncPanZoomEnabled
+=
+=
+=
+false
 )
 {
 /

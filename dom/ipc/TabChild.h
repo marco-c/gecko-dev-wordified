@@ -2823,6 +2823,9 @@ mUpdateHitRegion
 bool
 mContextMenuHandled
 ;
+bool
+mWaitingTouchListeners
+;
 DISALLOW_EVIL_CONSTRUCTORS
 (
 TabChild
