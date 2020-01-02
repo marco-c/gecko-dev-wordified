@@ -2815,7 +2815,10 @@ LoadAsTexture
 (
 GLuint
 aTextureUnit
-gfxIntSize
+gfx
+:
+:
+IntSize
 *
 aSize
 )

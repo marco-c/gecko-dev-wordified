@@ -737,7 +737,10 @@ LoadAsTexture
 (
 GLuint
 aTextureUnit
-gfxIntSize
+gfx
+:
+:
+IntSize
 *
 aSize
 )
@@ -934,7 +937,10 @@ mTexture
 ShaderProgramType
 mLayerProgram
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 mTextureSize
 ;
 }

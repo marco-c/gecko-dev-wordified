@@ -681,7 +681,10 @@ mImageFormat
 )
 ;
 }
-gfxIntSize
+gfx
+:
+:
+IntSize
 DeprecatedSharedRGBImage
 :
 :
@@ -1141,7 +1144,10 @@ GetBuffer
 nullptr
 ;
 }
-gfxIntSize
+gfx
+:
+:
+IntSize
 SharedRGBImage
 :
 :
@@ -1150,10 +1156,7 @@ GetSize
 )
 {
 return
-ThebesIntSize
-(
 mSize
-)
 ;
 }
 size_t

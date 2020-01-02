@@ -318,7 +318,10 @@ GetBuffer
 )
 MOZ_OVERRIDE
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 GetSize
 (
 )
@@ -491,7 +494,10 @@ nullptr
 }
 protected
 :
-gfxIntSize
+gfx
+:
+:
+IntSize
 mSize
 ;
 gfxImageFormat
@@ -587,7 +593,10 @@ GetBuffer
 )
 MOZ_OVERRIDE
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 GetSize
 (
 )

@@ -104,6 +104,13 @@ gfxImageSurface
 .
 h
 "
+#
+include
+"
+gfx2DGlue
+.
+h
+"
 namespace
 mozilla
 {
@@ -702,7 +709,10 @@ return
 mDesc
 ;
 }
-gfxIntSize
+gfx
+:
+:
+IntSize
 D3D9SurfaceImage
 :
 :
@@ -743,7 +753,10 @@ surface
 new
 gfxImageSurface
 (
+ThebesIntSize
+(
 mSize
+)
 gfxImageFormatRGB24
 )
 ;

@@ -283,7 +283,10 @@ mIntrinsicSizeChanged
 true
 ;
 }
-gfxIntSize
+gfx
+:
+:
+IntSize
 oldFrameSize
 =
 mImageContainer
@@ -445,7 +448,10 @@ SetCurrentImage
 aImage
 )
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 newFrameSize
 =
 mImageContainer
