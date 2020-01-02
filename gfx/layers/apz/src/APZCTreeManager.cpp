@@ -347,7 +347,7 @@ std
 stable_sort
 #
 define
-APZC_LOG
+APZCTM_LOG
 (
 .
 .
@@ -357,7 +357,7 @@ APZC_LOG
 /
 #
 define
-APZC_LOG
+APZCTM_LOG
 (
 .
 .
@@ -366,7 +366,7 @@ APZC_LOG
 printf_stderr
 (
 "
-APZC
+APZCTM
 :
 "
 __VA_ARGS__
@@ -1205,7 +1205,7 @@ i
 +
 )
 {
-APZC_LOG
+APZCTM_LOG
 (
 "
 Destroying
@@ -1913,7 +1913,7 @@ nullptr
 )
 ;
 }
-APZC_LOG
+APZCTM_LOG
 (
 "
 Using
@@ -2129,7 +2129,7 @@ aTransform
 transform
 )
 ;
-APZC_LOG
+APZCTM_LOG
 (
 "
 Setting
@@ -3329,7 +3329,7 @@ get
 )
 )
 ;
-APZC_LOG
+APZCTM_LOG
 (
 "
 Using
@@ -3398,7 +3398,7 @@ RootAPZCForLayersId
 mApzcForInputBlock
 )
 ;
-APZC_LOG
+APZCTM_LOG
 (
 "
 Using
@@ -3480,7 +3480,7 @@ if
 mApzcForInputBlock
 )
 {
-APZC_LOG
+APZCTM_LOG
 (
 "
 Re
@@ -4167,7 +4167,7 @@ get
 )
 )
 ;
-APZC_LOG
+APZCTM_LOG
 (
 "
 Using
@@ -4236,7 +4236,7 @@ RootAPZCForLayersId
 apzc
 )
 ;
-APZC_LOG
+APZCTM_LOG
 (
 "
 Using
@@ -8063,7 +8063,7 @@ ProjectPoint
 aHitTestPoint
 )
 ;
-APZC_LOG
+APZCTM_LOG
 (
 "
 Untransformed
@@ -8243,7 +8243,7 @@ ProjectPoint
 aHitTestPoint
 )
 ;
-APZC_LOG
+APZCTM_LOG
 (
 "
 Untransformed
@@ -8384,7 +8384,7 @@ hitTestPointForThisLayer
 )
 )
 {
-APZC_LOG
+APZCTM_LOG
 (
 "
 Successfully
