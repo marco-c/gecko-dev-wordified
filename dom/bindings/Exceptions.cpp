@@ -385,6 +385,16 @@ if
 glob
 )
 {
+/
+/
+XXXbz
+Can
+this
+really
+be
+null
+here
+?
 return
 false
 ;
@@ -410,7 +420,6 @@ if
 WrapObject
 (
 aCx
-glob
 aException
 &
 NS_GET_IID
