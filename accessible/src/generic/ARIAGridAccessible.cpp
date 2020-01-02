@@ -2266,7 +2266,7 @@ nullptr
 ;
 for
 (
-int32_t
+uint32_t
 rowIdx
 =
 0
