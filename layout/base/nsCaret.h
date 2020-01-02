@@ -1405,17 +1405,6 @@ off
 )
 in
 milliseconds
-float
-mCaretAspectRatio
-;
-/
-/
-caret
-width
-/
-height
-aspect
-ratio
 bool
 mVisible
 ;
