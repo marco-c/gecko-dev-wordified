@@ -3416,6 +3416,42 @@ all_subdirs
 ]
         
 #
+build
+everything
+in
+parallel
+including
+static
+dirs
+        
+def
+compile_filter
+(
+current
+subdirs
+)
+:
+            
+current
+parallel
+sequential
+=
+parallel_filter
+(
+current
+subdirs
+)
+            
+return
+current
+subdirs
+.
+static
++
+parallel
+sequential
+        
+#
 Skip
 static
 dirs
@@ -3539,10 +3575,6 @@ parallel
                 
 subdirs
 .
-static
-+
-subdirs
-.
 dirs
 +
 subdirs
@@ -3603,10 +3635,6 @@ parallel
                 
 subdirs
 .
-static
-+
-subdirs
-.
 dirs
 +
 subdirs
@@ -3644,7 +3672,7 @@ export_filter
 compile
 '
 :
-parallel_filter
+compile_filter
             
 '
 binaries
