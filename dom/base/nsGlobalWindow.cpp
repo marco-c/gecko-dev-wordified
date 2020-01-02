@@ -32800,6 +32800,9 @@ embedder
 if
 (
 mDocShell
+&
+&
+mDocShell
 -
 >
 GetIsBrowserOrApp
@@ -33006,6 +33009,9 @@ parent
 /
 if
 (
+mDocShell
+&
+&
 mDocShell
 -
 >
