@@ -1359,7 +1359,7 @@ esp
 )
 )
 ;
-movsd
+loadDouble
 (
 Operand
 (

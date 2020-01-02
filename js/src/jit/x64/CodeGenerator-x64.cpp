@@ -1121,7 +1121,7 @@ MIRType_Double
 {
 masm
 .
-movsd
+storeDouble
 (
 ToFloatRegister
 (
@@ -2733,7 +2733,7 @@ size
 ;
 masm
 .
-movss
+loadFloat
 (
 srcAddr
 dest
@@ -2931,7 +2931,7 @@ TYPE_FLOAT64
 :
 masm
 .
-movsd
+loadDouble
 (
 srcAddr
 ToFloatRegister
@@ -3201,7 +3201,7 @@ size
 ;
 masm
 .
-movss
+storeFloat
 (
 ScratchFloatReg
 dstAddr
@@ -3479,7 +3479,7 @@ TYPE_FLOAT64
 :
 masm
 .
-movsd
+storeDouble
 (
 ToFloatRegister
 (

@@ -5838,7 +5838,7 @@ FloatRegister
 dest
 )
 {
-movsd
+loadDouble
 (
 Operand
 (
@@ -6906,7 +6906,7 @@ bind
 notInt32
 )
 ;
-movsd
+loadDouble
 (
 operand
 dest
