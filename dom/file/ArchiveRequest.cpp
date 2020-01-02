@@ -256,7 +256,7 @@ ArchiveRequest
 :
 ArchiveRequest
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 ArchiveReader
@@ -1299,7 +1299,7 @@ ArchiveRequest
 :
 Create
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aOwner
 ArchiveReader

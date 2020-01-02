@@ -426,7 +426,7 @@ the
 requests
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindow
 >
 mWindow
 ;

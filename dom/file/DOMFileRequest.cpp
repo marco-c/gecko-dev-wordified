@@ -142,7 +142,7 @@ DOMFileRequest
 :
 DOMFileRequest
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 )
