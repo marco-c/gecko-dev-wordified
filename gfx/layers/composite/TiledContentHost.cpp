@@ -1406,7 +1406,10 @@ GetResolution
 (
 )
 ;
-gfxSize
+gfx
+:
+:
+Size
 layerScale
 (
 1

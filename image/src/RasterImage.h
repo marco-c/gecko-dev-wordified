@@ -4051,7 +4051,10 @@ bool
 CanQualityScale
 (
 const
-gfxSize
+gfx
+:
+:
+Size
 &
 scale
 )
@@ -4062,7 +4065,10 @@ CanScale
 (
 GraphicsFilter
 aFilter
-gfxSize
+gfx
+:
+:
+Size
 aScale
 uint32_t
 aFlags
@@ -4081,7 +4087,10 @@ SCALE_INVALID
 )
 {
 }
-gfxSize
+gfx
+:
+:
+Size
 scale
 ;
 nsAutoPtr
