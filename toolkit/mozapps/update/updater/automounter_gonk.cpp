@@ -309,7 +309,7 @@ GonkAutoMounter
 :
 mDevice
 (
-nullptr
+NULL
 )
 mAccess
 (
@@ -492,7 +492,7 @@ android_reboot
 (
 ANDROID_RB_RESTART
 0
-nullptr
+NULL
 )
 !
 =
@@ -757,7 +757,7 @@ if
 mountsFile
 =
 =
-nullptr
+NULL
 )
 {
 LOGE
@@ -913,7 +913,7 @@ token
 =
 strtok_r
 (
-nullptr
+NULL
 "
 \
 n
@@ -1144,7 +1144,7 @@ option
 =
 strtok_r
 (
-nullptr
+NULL
 "
 "
 &
@@ -1267,7 +1267,7 @@ kGonkSystemPath
 none
 "
 flags
-nullptr
+NULL
 )
 ;
 if

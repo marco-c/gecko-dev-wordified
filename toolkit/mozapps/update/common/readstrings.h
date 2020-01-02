@@ -119,15 +119,6 @@ READSTRINGS_H__
 define
 READSTRINGS_H__
 #
-include
-"
-mozilla
-/
-NullPtr
-.
-h
-"
-#
 define
 MAX_TEXT_LEN
 600
@@ -254,7 +245,7 @@ char
 *
 section
 =
-nullptr
+NULL
 )
 ;
 #

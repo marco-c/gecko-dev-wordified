@@ -240,14 +240,14 @@ char
 *
 inbuf
 =
-nullptr
+NULL
 ;
 static
 char
 *
 outbuf
 =
-nullptr
+NULL
 ;
 #
 ifdef
@@ -354,7 +354,7 @@ handle
 =
 GetModuleHandle
 (
-nullptr
+NULL
 )
 ;
 if
@@ -545,7 +545,7 @@ uint8_t
 *
 data
 =
-nullptr
+NULL
 ;
 if
 (
@@ -1141,7 +1141,7 @@ channel
 =
 strtok
 (
-nullptr
+NULL
 delimiter
 )
 ;
@@ -1488,7 +1488,7 @@ mArchive
 ;
 mArchive
 =
-nullptr
+NULL
 ;
 }
 if
@@ -1503,7 +1503,7 @@ inbuf
 ;
 inbuf
 =
-nullptr
+NULL
 ;
 }
 if
@@ -1518,7 +1518,7 @@ outbuf
 ;
 outbuf
 =
-nullptr
+NULL
 ;
 }
 }
