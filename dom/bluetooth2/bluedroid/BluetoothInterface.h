@@ -244,6 +244,12 @@ Connect
 (
 int
 aSockFd
+const
+nsAString
+&
+aBdAddress
+int
+aConnectionState
 )
 {
 }
