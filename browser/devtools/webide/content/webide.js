@@ -4625,7 +4625,7 @@ document
 querySelector
 (
 "
-window
+notificationbox
 "
 )
 .
