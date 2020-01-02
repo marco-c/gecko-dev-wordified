@@ -1313,15 +1313,7 @@ StartNewRepaintRequest
 SequenceNumber
 aSequenceNumber
 )
-{
-mApzTestData
-.
-StartNewRepaintRequest
-(
-aSequenceNumber
-)
 ;
-}
 /
 /
 TODO
