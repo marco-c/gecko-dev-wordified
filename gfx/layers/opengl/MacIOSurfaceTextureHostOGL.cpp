@@ -310,7 +310,7 @@ gfx
 SurfaceFormat
 :
 :
-B8G8R8X8
+R8G8B8X8
 ;
 }
 gfx
@@ -460,7 +460,7 @@ gfx
 SurfaceFormat
 :
 :
-B8G8R8X8
+R8G8B8X8
 ;
 }
 void
