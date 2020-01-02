@@ -2228,12 +2228,6 @@ nsIMEUpdatePreference
 :
 NOTIFY_NOTHING
 ;
-mIMEPreference
-.
-mWantHints
-=
-false
-;
 if
 (
 !
@@ -2259,7 +2253,6 @@ aFocus
 {
 if
 (
-(
 mIMEPreference
 .
 mWantUpdates
@@ -2268,12 +2261,6 @@ nsIMEUpdatePreference
 :
 :
 NOTIFY_SELECTION_CHANGE
-)
-&
-&
-mIMEPreference
-.
-mWantHints
 )
 {
 NotifyIMEOfSelectionChange
@@ -2489,13 +2476,6 @@ mTabChild
 return
 NS_ERROR_FAILURE
 ;
-if
-(
-mIMEPreference
-.
-mWantHints
-)
-{
 nsEventStatus
 status
 ;
@@ -2547,7 +2527,6 @@ mReply
 mString
 )
 ;
-}
 }
 if
 (

@@ -20624,7 +20624,6 @@ return
 nsIMEUpdatePreference
 (
 notifications
-false
 )
 ;
 }
