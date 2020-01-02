@@ -294,6 +294,16 @@ this
 .
 panelWin
 .
+gToolbox
+=
+this
+.
+_toolbox
+;
+this
+.
+panelWin
+.
 gTarget
 =
 this
