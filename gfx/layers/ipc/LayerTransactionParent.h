@@ -604,7 +604,7 @@ actor
 )
 MOZ_OVERRIDE
 ;
-void
+bool
 Attach
 (
 ShadowLayerParent
