@@ -3366,6 +3366,8 @@ const
 PendingAction
 &
 aCompStart
+bool
+aPreserveSelection
 )
 ;
 void
