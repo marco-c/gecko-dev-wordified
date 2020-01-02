@@ -635,6 +635,10 @@ get_modules_under
 (
 uri
 )
+.
+sort
+(
+)
 ;
 /
 /
