@@ -3538,12 +3538,12 @@ MAYBE_APPROXIMATE_ZERO_LENGTH_SUBPATH_SQUARE_CAPS
 }
 already_AddRefed
 <
-gfxFlattenedPath
+gfxPath
 >
 SVGPathData
 :
 :
-ToFlattenedPath
+ToPath
 (
 const
 gfxMatrix
@@ -3598,7 +3598,7 @@ return
 tmpCtx
 -
 >
-GetFlattenedPath
+CopyPath
 (
 )
 ;

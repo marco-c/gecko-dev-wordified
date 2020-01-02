@@ -109,7 +109,7 @@ h
 /
 /
 for
-gfxFlattenedPath
+gfxPath
 #
 include
 "
@@ -586,7 +586,7 @@ aContextElem
 bool
 GenerateValuesForPathAndPoints
 (
-gfxFlattenedPath
+gfxPath
 *
 aPath
 bool
@@ -663,11 +663,11 @@ mPathSourceType
 source
 of
 our
-gfxFlattenedPath
+gfxPath
 .
 nsRefPtr
 <
-gfxFlattenedPath
+gfxPath
 >
 mPath
 ;

@@ -4994,14 +4994,14 @@ textPath
 {
 nsRefPtr
 <
-gfxFlattenedPath
+gfxPath
 >
 data
 =
 textPath
 -
 >
-GetFlattenedPath
+GetPath
 (
 )
 ;

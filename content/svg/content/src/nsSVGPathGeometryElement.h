@@ -107,7 +107,7 @@ SVGGraphicsElement
 h
 "
 class
-gfxFlattenedPath
+gfxPath
 ;
 struct
 gfxMatrix
@@ -347,9 +347,9 @@ aCtx
 virtual
 already_AddRefed
 <
-gfxFlattenedPath
+gfxPath
 >
-GetFlattenedPath
+GetPath
 (
 const
 gfxMatrix

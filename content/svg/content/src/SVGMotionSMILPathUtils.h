@@ -172,7 +172,7 @@ nsTArray
 h
 "
 class
-gfxFlattenedPath
+gfxPath
 ;
 class
 nsAString
@@ -196,7 +196,7 @@ assist
 in
 generating
 a
-gfxFlattenedPath
+gfxPath
 based
 on
 /
@@ -403,7 +403,7 @@ finalized
 path
 already_AddRefed
 <
-gfxFlattenedPath
+gfxPath
 >
 GetResultingPath
 (
@@ -479,7 +479,7 @@ for
 generating
 a
 corresponding
-gfxFlattenedPath
+gfxPath
 .
 class
 MotionValueParser

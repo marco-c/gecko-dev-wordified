@@ -246,7 +246,7 @@ Point
 along
 a
 path
-gfxFlattenedPath
+gfxPath
 *
 mPath
 ;
@@ -539,7 +539,7 @@ s
 )
 MotionSegment
 (
-gfxFlattenedPath
+gfxPath
 *
 aPath
 float
@@ -1559,7 +1559,7 @@ static
 void
 GetAngleAndPointAtDistance
 (
-gfxFlattenedPath
+gfxPath
 *
 aPath
 float
@@ -2057,7 +2057,7 @@ mismatch
 "
 )
 ;
-gfxFlattenedPath
+gfxPath
 *
 path
 =
@@ -3000,7 +3000,7 @@ to
 '
 animation
 )
-gfxFlattenedPath
+gfxPath
 *
 path
 =
@@ -3427,7 +3427,7 @@ SVGMotionSMILType
 :
 ConstructSMILValue
 (
-gfxFlattenedPath
+gfxPath
 *
 aPath
 float

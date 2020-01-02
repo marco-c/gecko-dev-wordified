@@ -536,7 +536,7 @@ true
 }
 already_AddRefed
 <
-gfxFlattenedPath
+gfxPath
 >
 SVGMotionSMILPathUtils
 :
@@ -551,7 +551,7 @@ GetResultingPath
 return
 mGfxContext
 .
-GetFlattenedPath
+CopyPath
 (
 )
 ;

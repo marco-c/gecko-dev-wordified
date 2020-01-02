@@ -375,12 +375,12 @@ aMarks
 }
 already_AddRefed
 <
-gfxFlattenedPath
+gfxPath
 >
 nsSVGPathGeometryElement
 :
 :
-GetFlattenedPath
+GetPath
 (
 const
 gfxMatrix

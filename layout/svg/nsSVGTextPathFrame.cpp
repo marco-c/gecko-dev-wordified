@@ -807,12 +807,12 @@ nullptr
 }
 already_AddRefed
 <
-gfxFlattenedPath
+gfxPath
 >
 nsSVGTextPathFrame
 :
 :
-GetFlattenedPath
+GetPath
 (
 )
 {
@@ -851,7 +851,7 @@ return
 element
 -
 >
-GetFlattenedPath
+GetPath
 (
 element
 -
@@ -918,11 +918,11 @@ IsPercentage
 {
 nsRefPtr
 <
-gfxFlattenedPath
+gfxPath
 >
 data
 =
-GetFlattenedPath
+GetPath
 (
 )
 ;
