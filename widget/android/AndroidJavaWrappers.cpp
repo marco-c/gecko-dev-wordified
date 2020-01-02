@@ -3475,16 +3475,6 @@ jRangeLineColorField
 break
 ;
 case
-DRAW
-:
-ReadRectField
-(
-jenv
-)
-;
-break
-;
-case
 SENSOR_EVENT
 :
 mX
