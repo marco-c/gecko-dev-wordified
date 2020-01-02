@@ -5801,6 +5801,9 @@ rects
 if
 (
 shouldSnapshotWholePage
+(
+contentRootElement
+)
 )
 {
 /
