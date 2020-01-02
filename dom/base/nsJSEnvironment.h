@@ -867,15 +867,6 @@ mModalStateTime
 uint32_t
 mModalStateDepth
 ;
-nsJSContext
-*
-mNext
-;
-nsJSContext
-*
-*
-mPrev
-;
 /
 /
 mGlobalObjectRef
