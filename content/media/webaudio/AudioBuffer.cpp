@@ -755,6 +755,12 @@ ErrorResult
 aRv
 )
 {
+aDestination
+.
+ComputeLengthAndData
+(
+)
+;
 uint32_t
 length
 =
@@ -908,6 +914,12 @@ ErrorResult
 aRv
 )
 {
+aSource
+.
+ComputeLengthAndData
+(
+)
+;
 uint32_t
 length
 =
