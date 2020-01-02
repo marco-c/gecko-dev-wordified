@@ -191,6 +191,13 @@ nsStyleSet
 .
 h
 "
+#
+include
+"
+nsIDOMMutationEvent
+.
+h
+"
 using
 namespace
 mozilla
