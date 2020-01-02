@@ -24581,6 +24581,10 @@ GetPresContext
 ;
 if
 (
+!
+presContext
+|
+|
 presContext
 -
 >
@@ -25800,6 +25804,10 @@ GetPresContext
 ;
 if
 (
+!
+presContext
+|
+|
 presContext
 -
 >
