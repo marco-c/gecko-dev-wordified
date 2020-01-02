@@ -19196,12 +19196,7 @@ GetDirtyRect
 (
 )
 +
-aBuilder
--
->
-GetCurrentFrameOffsetToReferenceFrame
-(
-)
+mToReferenceFrame
 ;
 }
 nsDisplayWrapList
@@ -19354,12 +19349,7 @@ GetDirtyRect
 (
 )
 +
-aBuilder
--
->
-GetCurrentFrameOffsetToReferenceFrame
-(
-)
+mToReferenceFrame
 ;
 }
 nsDisplayWrapList
