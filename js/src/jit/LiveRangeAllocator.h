@@ -3145,6 +3145,15 @@ validateVirtualRegisters
 #
 ifdef
 DEBUG
+if
+(
+!
+js_IonOptions
+.
+assertGraphConsistency
+)
+return
+;
 for
 (
 size_t
