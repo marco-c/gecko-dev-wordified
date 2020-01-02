@@ -38561,7 +38561,7 @@ mCurrentEventContent
 mCurrentEventContent
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 !
@@ -38788,7 +38788,7 @@ content
 content
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 =
@@ -38947,7 +38947,7 @@ mCurrentEventContent
 mCurrentEventContent
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 !
@@ -41960,7 +41960,7 @@ retargetEventDoc
 capturingContent
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 ;
@@ -42637,7 +42637,7 @@ NS_ASSERTION
 capturingContent
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 =
@@ -43749,7 +43749,7 @@ NS_ASSERTION
 capturingContent
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 =
@@ -45851,7 +45851,7 @@ doc
 aContent
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 ;
@@ -45905,7 +45905,7 @@ aContent
 aContent
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 =
