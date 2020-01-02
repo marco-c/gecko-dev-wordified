@@ -224,6 +224,13 @@ RefPtr
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 namespace
 mozilla
 {
@@ -881,6 +888,13 @@ GetConnectionStatus
 )
 const
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 return
 mConnectionStatus
 ;
