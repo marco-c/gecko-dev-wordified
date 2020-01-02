@@ -5809,6 +5809,8 @@ if
 (
 aRequest
 .
+parameters
+.
 async
 )
 {
