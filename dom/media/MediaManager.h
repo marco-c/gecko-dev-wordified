@@ -2528,10 +2528,6 @@ onSuccess
 nsIDOMGetUserMediaErrorCallback
 *
 onError
-uint64_t
-aInnerWindowID
-=
-0
 )
 ;
 void
