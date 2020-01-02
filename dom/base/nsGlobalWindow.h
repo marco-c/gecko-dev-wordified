@@ -2560,6 +2560,12 @@ LeaveModalState
 (
 )
 ;
+/
+/
+Outer
+windows
+only
+.
 virtual
 NS_HIDDEN_
 (
@@ -2572,7 +2578,7 @@ CanClose
 virtual
 NS_HIDDEN_
 (
-nsresult
+void
 )
 ForceClose
 (
@@ -6585,7 +6591,13 @@ ClearControllers
 (
 )
 ;
-nsresult
+/
+/
+Outer
+windows
+only
+.
+void
 FinalClose
 (
 )

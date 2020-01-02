@@ -2140,6 +2140,12 @@ LeaveModalState
 =
 0
 ;
+/
+/
+Outer
+windows
+only
+.
 virtual
 bool
 CanClose
@@ -2149,7 +2155,7 @@ CanClose
 0
 ;
 virtual
-nsresult
+void
 ForceClose
 (
 )
