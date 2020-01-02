@@ -345,7 +345,7 @@ class
 nsILineBreaker
 ;
 class
-nsINameSpaceManager
+nsNameSpaceManager
 ;
 class
 nsINodeInfo
@@ -2564,7 +2564,7 @@ GetParserService
 )
 ;
 static
-nsINameSpaceManager
+nsNameSpaceManager
 *
 NameSpaceManager
 (
@@ -13721,7 +13721,7 @@ nsIParserService
 sParserService
 ;
 static
-nsINameSpaceManager
+nsNameSpaceManager
 *
 sNameSpaceManager
 ;

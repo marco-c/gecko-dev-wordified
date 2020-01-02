@@ -1864,10 +1864,6 @@ Shutdown
 (
 )
 ;
-NS_NameSpaceManagerShutdown
-(
-)
-;
 ShutdownJSEnvironment
 (
 )
