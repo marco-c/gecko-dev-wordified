@@ -1118,11 +1118,6 @@ setDontReportUncaught
 (
 true
 )
-.
-setNoScriptRval
-(
-true
-)
 ;
 uint32_t
 gMaxWorkersPerDomain

@@ -27060,6 +27060,11 @@ info
 >
 mLineNumber
 )
+.
+setNoScriptRval
+(
+true
+)
 ;
 if
 (
