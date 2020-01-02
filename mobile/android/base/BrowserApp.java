@@ -9390,7 +9390,7 @@ null
 &
 mHomePager
 .
-isLoaded
+isVisible
 (
 )
 &

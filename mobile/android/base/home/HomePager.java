@@ -342,7 +342,7 @@ mContext
 private
 volatile
 boolean
-mLoaded
+mVisible
 ;
 private
 Decor
@@ -972,7 +972,7 @@ PropertyAnimator
 animator
 )
 {
-mLoaded
+mVisible
 =
 true
 ;
@@ -1241,7 +1241,7 @@ unload
 (
 )
 {
-mLoaded
+mVisible
 =
 false
 ;
@@ -1282,7 +1282,7 @@ whether
 the
 pager
 is
-loaded
+visible
 .
 *
 *
@@ -1319,12 +1319,12 @@ loaded
 /
 public
 boolean
-isLoaded
+isVisible
 (
 )
 {
 return
-mLoaded
+mVisible
 ;
 }
 Override
@@ -1582,7 +1582,7 @@ activity
 if
 (
 !
-mLoaded
+mVisible
 )
 {
 return
