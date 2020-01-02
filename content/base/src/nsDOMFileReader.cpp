@@ -2638,7 +2638,7 @@ rv
 charsetConverter
 -
 >
-GetUnicodeDecoder
+GetUnicodeDecoderRaw
 (
 aCharset
 getter_AddRefs

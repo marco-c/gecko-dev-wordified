@@ -170,6 +170,8 @@ If
 encoding
 is
 failure
+or
+replacement
 throw
 a
 TypeError
@@ -184,6 +186,16 @@ FindEncodingForLabel
 (
 label
 mEncoding
+)
+|
+|
+mEncoding
+.
+EqualsLiteral
+(
+"
+replacement
+"
 )
 )
 {
