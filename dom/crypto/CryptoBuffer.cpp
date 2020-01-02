@@ -920,9 +920,13 @@ SECItem
 *
 item
 =
-new
-SECItem
+:
+:
+SECITEM_AllocItem
 (
+nullptr
+nullptr
+0
 )
 ;
 item
