@@ -156,7 +156,7 @@ http
 /
 www
 .
-mozilla
+itisatrap
 .
 org
 /
@@ -297,7 +297,7 @@ http
 /
 www
 .
-mozilla
+itisatrap
 .
 org
 /
