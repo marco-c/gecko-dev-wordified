@@ -2637,6 +2637,11 @@ sawDeprecatedForEach
 :
 1
 ;
+bool
+sawDeprecatedDestructuringForIn
+:
+1
+;
 typedef
 typename
 ParseHandler
