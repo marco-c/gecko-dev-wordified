@@ -942,12 +942,8 @@ maskSurface
 =
 nullptr
 ;
-const
-gfxMatrix
-*
+Matrix
 maskTransform
-=
-nullptr
 ;
 if
 (
@@ -969,11 +965,13 @@ GetSurface
 ;
 maskTransform
 =
-&
+ToMatrix
+(
 mask
 .
 GetTransform
 (
+)
 )
 ;
 }
@@ -1013,6 +1011,7 @@ GetOperator
 )
 )
 maskSurface
+&
 maskTransform
 )
 ;
@@ -1153,6 +1152,7 @@ CurrentOperator
 )
 )
 maskSurface
+&
 maskTransform
 )
 ;

@@ -347,9 +347,6 @@ nsTArray
 class
 gfxContext
 ;
-struct
-gfxMatrix
-;
 class
 gfxASurface
 ;
@@ -1176,7 +1173,10 @@ gfxASurface
 *
 aMask
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 *
 aMaskTransform
 )
