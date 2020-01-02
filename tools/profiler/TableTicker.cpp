@@ -762,7 +762,7 @@ startTime
 "
 static_cast
 <
-float
+double
 >
 (
 PR_Now
