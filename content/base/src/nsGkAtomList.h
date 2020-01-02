@@ -1147,6 +1147,13 @@ bindings
 )
 GK_ATOM
 (
+bindToUntrustedContent
+"
+bindToUntrustedContent
+"
+)
+GK_ATOM
+(
 blankrow
 "
 blankrow
