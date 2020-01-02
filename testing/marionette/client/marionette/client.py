@@ -408,7 +408,6 @@ not
 successfully
 complete
 "
-\
                                            
 "
 transport
@@ -600,7 +599,7 @@ to
 root
 '
 '
-type
+name
 '
 :
 '
