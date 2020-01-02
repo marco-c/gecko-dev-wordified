@@ -802,8 +802,6 @@ cx
 Shape
 *
 parent_
-uint32_t
-nfixed
 const
 StackShape
 &
@@ -1227,7 +1225,11 @@ shape
 Shape
 (
 child
-nfixed
+child
+.
+numFixedSlots
+(
+)
 )
 ;
 if

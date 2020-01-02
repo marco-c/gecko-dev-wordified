@@ -587,8 +587,6 @@ cx
 Shape
 *
 parent
-uint32_t
-nfixed
 const
 StackShape
 &
