@@ -4863,7 +4863,10 @@ BrowserToolboxProcess
 init
 (
 aOnClose
+(
+aEvent
 aProcess
+)
 =
 >
 {
