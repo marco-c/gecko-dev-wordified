@@ -197,6 +197,11 @@ bool
 stickDocument
 )
 ;
+void
+Kill
+(
+)
+;
 OfflineCacheUpdateParent
 (
 uint32_t
