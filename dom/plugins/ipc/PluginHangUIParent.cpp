@@ -1216,7 +1216,7 @@ showEvent
 (
 :
 :
-CreateEvent
+CreateEventW
 (
 nullptr
 FALSE
@@ -1652,7 +1652,7 @@ Set
 (
 :
 :
-CreateEvent
+CreateEventW
 (
 nullptr
 FALSE
