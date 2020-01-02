@@ -125,7 +125,7 @@ menu
 let
 shownPromise
 =
-contextMenuShown
+popupShown
 (
 contextMenu
 )
@@ -259,7 +259,7 @@ expectedEntries
 let
 hiddenPromise
 =
-contextMenuHidden
+popupHidden
 (
 contextMenu
 )
@@ -334,7 +334,7 @@ menu
 let
 shownPromise
 =
-contextMenuShown
+popupShown
 (
 contextMenu
 )
@@ -503,7 +503,7 @@ expectedEntries
 let
 hiddenPromise
 =
-contextMenuHidden
+popupHidden
 (
 contextMenu
 )
@@ -573,7 +573,7 @@ menu
 let
 shownPromise
 =
-contextMenuShown
+popupShown
 (
 contextMenu
 )
@@ -734,7 +734,7 @@ expectedEntries
 let
 hiddenPromise
 =
-contextMenuHidden
+popupHidden
 (
 contextMenu
 )
@@ -1056,7 +1056,7 @@ customizationPanelItemContextMenu
 let
 shownContextPromise
 =
-contextMenuShown
+popupShown
 (
 contextMenu
 )
@@ -1185,7 +1185,7 @@ expectedEntries
 let
 hiddenContextPromise
 =
-contextMenuHidden
+popupHidden
 (
 contextMenu
 )
@@ -1282,7 +1282,7 @@ menu
 let
 shownPromise
 =
-contextMenuShown
+popupShown
 (
 contextMenu
 )
@@ -1418,7 +1418,7 @@ expectedEntries
 let
 hiddenContextPromise
 =
-contextMenuHidden
+popupHidden
 (
 contextMenu
 )
@@ -1480,7 +1480,7 @@ customizationPaletteItemContextMenu
 let
 shownPromise
 =
-contextMenuShown
+popupShown
 (
 contextMenu
 )
@@ -1562,7 +1562,7 @@ expectedEntries
 let
 hiddenContextPromise
 =
-contextMenuHidden
+popupHidden
 (
 contextMenu
 )
@@ -1628,7 +1628,7 @@ customizationPanelItemContextMenu
 let
 shownPromise
 =
-contextMenuShown
+popupShown
 (
 contextMenu
 )
@@ -1724,7 +1724,7 @@ expectedEntries
 let
 hiddenContextPromise
 =
-contextMenuHidden
+popupHidden
 (
 contextMenu
 )
@@ -1810,7 +1810,7 @@ customizationPanelItemContextMenu
 let
 shownPromise
 =
-contextMenuShown
+popupShown
 (
 contextMenu
 )
@@ -1916,7 +1916,7 @@ otherWin
 let
 hiddenContextPromise
 =
-contextMenuHidden
+popupHidden
 (
 contextMenu
 )
@@ -2002,7 +2002,7 @@ customizationPanelItemContextMenu
 let
 shownPromise
 =
-contextMenuShown
+popupShown
 (
 contextMenu
 )
@@ -2075,7 +2075,7 @@ doCommand
 let
 hiddenPromise
 =
-contextMenuHidden
+popupHidden
 (
 contextMenu
 )
@@ -2154,7 +2154,7 @@ menu
 ;
 shownPromise
 =
-contextMenuShown
+popupShown
 (
 contextMenu
 )
@@ -2273,7 +2273,7 @@ expectedEntries
 ;
 hiddenPromise
 =
-contextMenuHidden
+popupHidden
 (
 contextMenu
 )
@@ -2347,7 +2347,7 @@ customizationPanelItemContextMenu
 let
 shownContextPromise
 =
-contextMenuShown
+popupShown
 (
 contextMenu
 )
@@ -2476,7 +2476,7 @@ expectedEntries
 let
 hiddenContextPromise
 =
-contextMenuHidden
+popupHidden
 (
 contextMenu
 )
