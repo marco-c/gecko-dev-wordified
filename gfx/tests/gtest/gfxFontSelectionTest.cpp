@@ -1524,7 +1524,7 @@ gfxPoint
 0
 0
 )
-gfxFont
+DrawMode
 :
 :
 GLYPH_FILL

@@ -121,6 +121,13 @@ order
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 nsSVGElement
 .
 h

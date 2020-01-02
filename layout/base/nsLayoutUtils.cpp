@@ -309,13 +309,6 @@ h
 #
 include
 "
-gfxFont
-.
-h
-"
-#
-include
-"
 nsRenderingContext
 .
 h

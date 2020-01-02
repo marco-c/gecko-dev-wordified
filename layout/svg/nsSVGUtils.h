@@ -131,7 +131,7 @@ h
 #
 include
 "
-gfxFont
+DrawMode
 .
 h
 "
@@ -4124,9 +4124,6 @@ or
 both
 (
 see
-gfxFont
-:
-:
 DrawMode
 )
 *
@@ -4147,9 +4144,6 @@ aElement
 gfxContext
 *
 aContext
-gfxFont
-:
-:
 DrawMode
 aDrawMode
 gfxTextContextPaint

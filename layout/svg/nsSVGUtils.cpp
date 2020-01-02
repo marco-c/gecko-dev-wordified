@@ -11457,9 +11457,6 @@ aElement
 gfxContext
 *
 aContext
-gfxFont
-:
-:
 DrawMode
 aDrawMode
 gfxTextContextPaint

@@ -1424,9 +1424,6 @@ both
 (
 see
 |
-gfxFont
-:
-:
 DrawMode
 |
 )
@@ -1461,7 +1458,7 @@ if
 aDrawMode
 =
 =
-gfxFont
+DrawMode
 :
 :
 GLYPH_PATH

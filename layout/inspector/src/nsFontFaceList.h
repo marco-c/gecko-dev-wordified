@@ -97,13 +97,9 @@ nsHashKeys
 .
 h
 "
-#
-include
-"
-gfxFont
-.
-h
-"
+class
+gfxFontEntry
+;
 class
 gfxTextRun
 ;

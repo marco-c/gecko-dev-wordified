@@ -111,13 +111,6 @@ h
 #
 include
 "
-gfxFont
-.
-h
-"
-#
-include
-"
 gfxMatrix
 .
 h
@@ -2989,9 +2982,6 @@ nsIFrame
 aTextPathFrame
 )
 ;
-gfxFont
-:
-:
 DrawMode
 SetupCairoState
 (

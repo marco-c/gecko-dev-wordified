@@ -121,6 +121,13 @@ order
 #
 include
 "
+gfxPath
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

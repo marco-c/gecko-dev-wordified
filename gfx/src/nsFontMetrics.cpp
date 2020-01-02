@@ -1689,7 +1689,7 @@ ThebesContext
 (
 )
 pt
-gfxFont
+DrawMode
 :
 :
 GLYPH_FILL
@@ -1801,7 +1801,7 @@ ThebesContext
 (
 )
 pt
-gfxFont
+DrawMode
 :
 :
 GLYPH_FILL

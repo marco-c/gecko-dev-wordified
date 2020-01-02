@@ -80,6 +80,13 @@ h
 #
 include
 "
+gfxFont
+.
+h
+"
+#
+include
+"
 gfxUserFontSet
 .
 h
