@@ -1683,6 +1683,7 @@ AssignLiteral
 "
 Fira
 Sans
+OT
 \
 "
 "
