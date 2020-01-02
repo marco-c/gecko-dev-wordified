@@ -822,15 +822,6 @@ SetContentType
 (
 )
 ;
-nsresult
-ConvertUTF8PathToCharset
-(
-const
-nsACString
-&
-aCharset
-)
-;
 /
 *
 *
