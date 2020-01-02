@@ -893,7 +893,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 return
 str

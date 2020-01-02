@@ -899,7 +899,7 @@ if
 booleanProto
 )
 return
-NULL
+nullptr
 ;
 booleanProto
 -
@@ -945,7 +945,7 @@ if
 ctor
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -958,7 +958,7 @@ booleanProto
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -967,12 +967,12 @@ DefinePropertiesAndBrand
 (
 cx
 booleanProto
-NULL
+nullptr
 boolean_methods
 )
 )
 return
-NULL
+nullptr
 ;
 Handle
 <
@@ -1017,7 +1017,7 @@ if
 valueOf
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 value
@@ -1049,7 +1049,7 @@ JS_StrictPropertyStub
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1065,7 +1065,7 @@ booleanProto
 )
 )
 return
-NULL
+nullptr
 ;
 return
 booleanProto

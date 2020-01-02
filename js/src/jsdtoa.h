@@ -207,7 +207,7 @@ If
 se
 is
 not
-NULL
+nullptr
 *
 se
 receives
@@ -217,8 +217,8 @@ to
 the
 character
 terminating
-the
 *
+the
 scan
 .
 If
@@ -775,7 +775,7 @@ macros
 *
 *
 Return
-NULL
+nullptr
 if
 out
 of
@@ -988,7 +988,7 @@ itself
 *
 *
 Return
-NULL
+nullptr
 if
 out
 of
@@ -999,7 +999,7 @@ the
 result
 is
 not
-NULL
+nullptr
 it
 must
 be

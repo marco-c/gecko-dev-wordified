@@ -276,7 +276,7 @@ if
 s
 =
 =
-NULL
+nullptr
 d
 and
 base
@@ -291,7 +291,7 @@ DtoaCache
 :
 s
 (
-NULL
+nullptr
 )
 {
 }
@@ -302,7 +302,7 @@ purge
 {
 s
 =
-NULL
+nullptr
 ;
 }
 JSFlatString
@@ -344,7 +344,7 @@ this
 >
 s
 :
-NULL
+nullptr
 ;
 }
 void
@@ -447,11 +447,11 @@ ObjectWrapper
 )
 debugger
 (
-NULL
+nullptr
 )
 wrapped
 (
-NULL
+nullptr
 )
 {
 }
@@ -468,7 +468,7 @@ ObjectWrapper
 )
 debugger
 (
-NULL
+nullptr
 )
 wrapped
 (
@@ -489,7 +489,7 @@ StringWrapper
 )
 debugger
 (
-NULL
+nullptr
 )
 wrapped
 (
@@ -517,7 +517,7 @@ ObjectWrapper
 )
 debugger
 (
-NULL
+nullptr
 )
 wrapped
 (
@@ -565,7 +565,7 @@ ObjectWrapper
 )
 debugger
 (
-NULL
+nullptr
 )
 wrapped
 (
@@ -1001,7 +1001,7 @@ Nb
 global_
 might
 be
-NULL
+nullptr
 if
 (
 a
@@ -1013,11 +1013,11 @@ the
 atoms
 compartment
 or
+*
 (
 b
 )
 the
-*
 compartment
 '
 s
@@ -1030,12 +1030,12 @@ The
 latter
 can
 happen
+*
 if
 e
 .
 g
 .
-*
 a
 string
 in
@@ -1049,9 +1049,9 @@ object
 is
 and
 thus
+*
 the
 global
-*
 isn
 '
 t
@@ -1065,8 +1065,8 @@ be
 finalized
 while
 the
-compartment
 *
+compartment
 lives
 on
 .
@@ -2367,7 +2367,7 @@ Enum
 *
 debuggeesEnum
 =
-NULL
+nullptr
 )
 ;
 void
@@ -2401,7 +2401,7 @@ Enum
 *
 debuggeesEnum
 =
-NULL
+nullptr
 )
 ;
 bool

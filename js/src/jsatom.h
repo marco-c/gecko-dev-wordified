@@ -540,7 +540,7 @@ length
 )
 atom
 (
-NULL
+nullptr
 )
 {
 }

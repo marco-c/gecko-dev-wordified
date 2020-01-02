@@ -849,7 +849,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 uint32_t
 offset
@@ -966,7 +966,7 @@ if
 clone
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -1097,7 +1097,7 @@ get
 )
 )
 return
-NULL
+nullptr
 ;
 return
 clone
@@ -1140,7 +1140,7 @@ if
 cx
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1161,7 +1161,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1345,7 +1345,7 @@ DCM_NEW_FAILED
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 rt
@@ -1388,7 +1388,7 @@ DCM_NEW_FAILED
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1489,7 +1489,7 @@ i
 ]
 =
 =
-NULL
+nullptr
 )
 ;
 #
@@ -2397,8 +2397,8 @@ efs
 js_GetLocalizedErrorMessage
 (
 cx
-NULL
-NULL
+nullptr
+nullptr
 JSMSG_OUT_OF_MEMORY
 )
 ;
@@ -2691,7 +2691,7 @@ JS_ReportErrorNumber
 (
 maybecx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_OVER_RECURSED
 )
 ;
@@ -2760,7 +2760,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_ALLOC_OVERFLOW
 )
 ;
@@ -3130,8 +3130,8 @@ cx
 message
 &
 report
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 js_free
@@ -3454,7 +3454,7 @@ char
 *
 prefix
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3937,7 +3937,7 @@ if
 p
 )
 return
-NULL
+nullptr
 ;
 return
 (
@@ -4105,7 +4105,7 @@ messageArgs
 *
 messagep
 =
-NULL
+nullptr
 ;
 /
 *
@@ -4119,7 +4119,7 @@ this
 is
 so
 assume
-NULL
+nullptr
 .
 *
 /
@@ -4140,7 +4140,7 @@ js_GetLocalizedErrorMessage
 (
 cx
 userRef
-NULL
+nullptr
 errorNumber
 )
 ;
@@ -4150,7 +4150,7 @@ efs
 callback
 (
 userRef
-NULL
+nullptr
 errorNumber
 )
 ;
@@ -4309,7 +4309,7 @@ false
 ;
 /
 *
-NULL
+nullptr
 -
 terminate
 for
@@ -4326,7 +4326,7 @@ messageArgs
 argCount
 ]
 =
-NULL
+nullptr
 ;
 }
 for
@@ -4924,7 +4924,7 @@ if
 messagep
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -5088,7 +5088,7 @@ reportp
 >
 messageArgs
 =
-NULL
+nullptr
 ;
 }
 if
@@ -5116,7 +5116,7 @@ reportp
 >
 ucmessage
 =
-NULL
+nullptr
 ;
 }
 if
@@ -5138,7 +5138,7 @@ messagep
 *
 messagep
 =
-NULL
+nullptr
 ;
 }
 return
@@ -5603,7 +5603,7 @@ debugErrorHookData
 )
 onError
 =
-NULL
+nullptr
 ;
 }
 if
@@ -5634,7 +5634,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_DEFINED
 name
 )
@@ -5708,11 +5708,11 @@ JS_ReportErrorFlagsAndNumber
 cx
 JSREPORT_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NO_PROPERTIES
 bytes
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -5733,11 +5733,11 @@ JS_ReportErrorFlagsAndNumber
 cx
 JSREPORT_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNEXPECTED_TYPE
 bytes
 js_undefined_str
-NULL
+nullptr
 )
 ;
 }
@@ -5759,11 +5759,11 @@ JS_ReportErrorFlagsAndNumber
 cx
 JSREPORT_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNEXPECTED_TYPE
 bytes
 js_null_str
-NULL
+nullptr
 )
 ;
 }
@@ -5818,7 +5818,7 @@ arg
 ;
 bytes
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5869,7 +5869,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MISSING_FUN_ARG
 argbuf
 bytes
@@ -5971,7 +5971,7 @@ JS_ReportErrorFlagsAndNumber
 cx
 flags
 js_GetErrorMessage
-NULL
+nullptr
 errorNumber
 bytes
 arg1
@@ -6066,7 +6066,7 @@ errorNumber
 ]
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -6380,7 +6380,7 @@ pt
 )
 allocator_
 (
-NULL
+nullptr
 )
 {
 }
@@ -6467,7 +6467,7 @@ JS_DEFAULT_JITREPORT_GRANULARITY
 )
 resolvingList
 (
-NULL
+nullptr
 )
 generatingError
 (
@@ -6478,7 +6478,7 @@ savedFrameChains_
 )
 defaultCompartmentObject_
 (
-NULL
+nullptr
 )
 cycleDetectorSet
 (
@@ -6488,15 +6488,15 @@ MOZ_THIS_IN_INITIALIZER_LIST
 )
 errorReporter
 (
-NULL
+nullptr
 )
 data
 (
-NULL
+nullptr
 )
 data2
 (
-NULL
+nullptr
 )
 #
 ifdef
@@ -6527,13 +6527,13 @@ ifdef
 MOZ_TRACE_JSCALLS
 functionCallback
 (
-NULL
+nullptr
 )
 #
 endif
 innermostGenerator_
 (
-NULL
+nullptr
 )
 {
 #
@@ -6757,7 +6757,7 @@ gen
 >
 prevGenerator
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -6844,7 +6844,7 @@ saveFrameChain
 ;
 setCompartment
 (
-NULL
+nullptr
 )
 ;
 enterCompartmentDepth_
@@ -7299,7 +7299,7 @@ UK
 /
 Europe
 device
-NULL
+nullptr
 }
 ;
 for
@@ -7656,7 +7656,7 @@ script
 =
 currentScript
 (
-NULL
+nullptr
 ALLOW_CROSS_COMPARTMENT
 )
 )

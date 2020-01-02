@@ -15765,7 +15765,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INVALID_DATE
 )
 ;
@@ -16054,7 +16054,7 @@ JS_ReportErrorFlagsAndNumber
 cx
 JSREPORT_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_TOISOSTRING_PROP
 )
 ;
@@ -19826,7 +19826,7 @@ if
 dateProto
 )
 return
-NULL
+nullptr
 ;
 dateProto
 -
@@ -19877,7 +19877,7 @@ if
 ctor
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -19890,7 +19890,7 @@ dateProto
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -19899,12 +19899,12 @@ DefinePropertiesAndBrand
 (
 cx
 ctor
-NULL
+nullptr
 date_static_methods
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -19957,7 +19957,7 @@ date_methods
 )
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 toUTCStringFun
@@ -20032,7 +20032,7 @@ JS_StrictPropertyStub
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -20048,7 +20048,7 @@ dateProto
 )
 )
 return
-NULL
+nullptr
 ;
 return
 dateProto
@@ -20088,7 +20088,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 obj
 -

@@ -913,7 +913,7 @@ JSContext
 this
 ;
 return
-NULL
+nullptr
 ;
 }
 JSContext
@@ -963,7 +963,7 @@ the
 main
 thread
 will
-NULL
+nullptr
 crash
 /
 /
@@ -1139,7 +1139,7 @@ ExclusiveContext
 this
 ;
 return
-NULL
+nullptr
 ;
 }
 ExclusiveContext
@@ -1828,7 +1828,7 @@ kind
 )
 workerThread_
 (
-NULL
+nullptr
 )
 enterCompartmentDepth_
 (
@@ -2226,7 +2226,7 @@ JSFunction
 *
 fun
 =
-NULL
+nullptr
 )
 ;
 types
@@ -3263,7 +3263,7 @@ current
 compartment
 returning
 *
-NULL
+nullptr
 if
 the
 current
@@ -3275,8 +3275,8 @@ different
 compartment
 .
 This
-behavior
 *
+behavior
 can
 be
 overridden
@@ -3307,7 +3307,7 @@ jsbytecode
 *
 pc
 =
-NULL
+nullptr
 MaybeAllowCrossCompartment
 =
 DONT_ALLOW_CROSS_COMPARTMENT
@@ -4244,9 +4244,9 @@ report
 is
 non
 -
-NULL
-and
+nullptr
 *
+and
 the
 report
 doesn
@@ -4259,8 +4259,8 @@ flag
 set
 or
 reportWarnings
-is
 *
+is
 true
 .
 *
@@ -4275,7 +4275,7 @@ if
 the
 report
 is
-NULL
+nullptr
 .
 *
 /
@@ -4520,8 +4520,8 @@ errorNumber
 spindex
 v
 fallback
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 #
@@ -4550,7 +4550,7 @@ spindex
 v
 fallback
 arg1
-NULL
+nullptr
 )
 )
 #

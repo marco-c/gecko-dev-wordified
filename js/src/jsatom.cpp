@@ -285,7 +285,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 return
 bytes
@@ -1233,7 +1233,7 @@ rt
 >
 emptyString
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -1890,7 +1890,7 @@ tbchars
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSAtom
@@ -1947,7 +1947,7 @@ OOM
 *
 /
 return
-NULL
+nullptr
 ;
 }
 return
@@ -2195,7 +2195,7 @@ if
 flat
 )
 return
-NULL
+nullptr
 ;
 JSAtom
 *
@@ -2255,7 +2255,7 @@ OOM
 *
 /
 return
-NULL
+nullptr
 ;
 }
 return
@@ -2464,7 +2464,7 @@ if
 chars
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2506,7 +2506,7 @@ isJSContext
 allowGC
 )
 return
-NULL
+nullptr
 ;
 JSLinearString
 *
@@ -2531,7 +2531,7 @@ if
 linear
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -2657,7 +2657,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 static
 const
@@ -2793,7 +2793,7 @@ if
 tbcharsZ
 )
 return
-NULL
+nullptr
 ;
 return
 AtomizeAndTakeOwnership
@@ -2932,7 +2932,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 return
 AtomizeAndCopyChars
@@ -3216,7 +3216,7 @@ shouldBeJSContext
 allowGC
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 v2
@@ -3242,7 +3242,7 @@ v2
 )
 )
 return
-NULL
+nullptr
 ;
 v
 =
