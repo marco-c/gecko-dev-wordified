@@ -33,6 +33,17 @@ json
 JSONObject
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
+import
 android
 .
 util
@@ -169,6 +180,7 @@ Object
 .
 *
 /
+RobocopTarget
 public
 GeckoRequest
 (
@@ -368,6 +380,7 @@ from
 Gecko
 *
 /
+RobocopTarget
 public
 abstract
 void
@@ -464,6 +477,7 @@ throws
 RuntimeException
 *
 /
+RobocopTarget
 public
 void
 onError
