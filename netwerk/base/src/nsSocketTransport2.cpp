@@ -7306,6 +7306,9 @@ fprintf_stderr
 (
 stderr
 "
+FATAL
+ERROR
+:
 Non
 -
 local
@@ -7329,6 +7332,8 @@ s
 was
 made
 .
+\
+n
 You
 should
 only
