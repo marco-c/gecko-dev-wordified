@@ -275,7 +275,7 @@ the
 aNextPromise
 -
 >
-ResolveFunction
+resolveFunction
 (
 )
 or
