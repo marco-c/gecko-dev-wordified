@@ -1253,10 +1253,6 @@ FAIL_ON_WARNINGS
 =
 True
             
-FORCE_SHARED_LIB
-=
-True
-            
 HOST_CPPSRCS
 =
 [
@@ -1292,10 +1288,6 @@ HOST_LIBRARY_NAME
 '
 host_fans
 '
-            
-IS_COMPONENT
-=
-True
             
 LIBS
 =
@@ -1336,21 +1328,6 @@ l123
 aaa
 .
 a
-'
-]
-            
-SDK_LIBRARY
-=
-[
-'
-fans
-.
-sdk
-'
-'
-tans
-.
-sdk
 '
 ]
             

@@ -110,7 +110,7 @@ import
     
 Defines
     
-LibraryDefinition
+Library
     
 LocalInclude
     
@@ -704,7 +704,7 @@ elif
 isinstance
 (
 obj
-LibraryDefinition
+Library
 )
 :
             
