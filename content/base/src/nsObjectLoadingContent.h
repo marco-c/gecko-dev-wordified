@@ -1008,12 +1008,9 @@ JS
 :
 MutableHandle
 <
-JS
-:
-:
-Value
+JSPropertyDescriptor
 >
-aValue
+aDesc
 )
 ;
 /
