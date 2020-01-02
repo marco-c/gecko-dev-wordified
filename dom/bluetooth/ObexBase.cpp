@@ -561,7 +561,8 @@ case
 :
 /
 /
-NULL
+Null
+-
 terminated
 Unicode
 text

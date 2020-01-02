@@ -7049,7 +7049,7 @@ WrapObject
 cx
 scope
 p
-NULL
+nullptr
 rval
 )
 ;
@@ -7189,7 +7189,7 @@ WrapObject
 cx
 scope
 p
-NULL
+nullptr
 rval
 )
 ;
@@ -7329,7 +7329,7 @@ WrapObject
 cx
 scope
 p
-NULL
+nullptr
 rval
 )
 ;

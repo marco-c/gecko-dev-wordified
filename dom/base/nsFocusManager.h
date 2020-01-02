@@ -3418,7 +3418,7 @@ this
 isn
 '
 t
-NULL
+nullptr
 and
 the
 caller

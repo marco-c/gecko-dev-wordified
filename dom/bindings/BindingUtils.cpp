@@ -1686,8 +1686,8 @@ cs
 -
 >
 value
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -2086,7 +2086,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_CONVERT_TO
 "
 null
@@ -2203,7 +2203,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 NS_ConvertUTF16toUTF8
 (
@@ -2701,7 +2701,7 @@ constructor
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2768,7 +2768,7 @@ toString
 )
 {
 return
-NULL
+nullptr
 ;
 }
 JSString
@@ -2790,7 +2790,7 @@ str
 )
 {
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -2861,7 +2861,7 @@ JSPROP_PERMANENT
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -3036,7 +3036,7 @@ proto
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3328,7 +3328,7 @@ ourProto
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -4149,10 +4149,10 @@ XPCConvert
 NativeInterface2JSObject
 (
 aRetval
-NULL
+nullptr
 aHelper
 aIID
-NULL
+nullptr
 aAllowNativeWrapper
 &
 rv

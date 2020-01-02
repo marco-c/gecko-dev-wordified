@@ -939,7 +939,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_CHANGE_EXTENSIBILITY
 )
 ;
@@ -1141,7 +1141,7 @@ JSREPORT_STRICT
 |
 JSREPORT_STRICT_MODE_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_GETTER_ONLY
 )
 ;

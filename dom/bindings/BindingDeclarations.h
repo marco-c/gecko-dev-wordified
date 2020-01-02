@@ -2470,7 +2470,7 @@ p
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /

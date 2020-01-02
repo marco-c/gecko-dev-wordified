@@ -6261,7 +6261,7 @@ else
 {
 funobj
 =
-NULL
+nullptr
 ;
 }
 aBoundHandler
@@ -6862,8 +6862,8 @@ mContext
 aTarget
 aPropName
 vargs
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 ?
@@ -13732,7 +13732,7 @@ sInterSliceGCTimer
 InitWithFuncCallback
 (
 InterSliceGCTimerFired
-NULL
+nullptr
 NS_INTERSLICE_GC_DELAY
 nsITimer
 :

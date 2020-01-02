@@ -6015,7 +6015,7 @@ sAppContentParents
 ;
 sAppContentParents
 =
-NULL
+nullptr
 ;
 }
 }
@@ -6050,7 +6050,7 @@ sNonAppContentParents
 ;
 sNonAppContentParents
 =
-NULL
+nullptr
 ;
 }
 }
@@ -6083,7 +6083,7 @@ sPrivateContent
 ;
 sPrivateContent
 =
-NULL
+nullptr
 ;
 }
 }
@@ -7253,7 +7253,7 @@ crashReporter
 GenerateCrashReport
 (
 this
-NULL
+nullptr
 )
 ;
 nsAutoString
@@ -7373,7 +7373,7 @@ mSubprocess
 ;
 mSubprocess
 =
-NULL
+nullptr
 ;
 /
 /
@@ -9450,7 +9450,7 @@ to
 be
 /
 /
-NULL
+nullptr
 .
 But
 it
@@ -9462,9 +9462,9 @@ created
 another
 ContentParent
 for
+/
+/
 this
-/
-/
 app
 after
 we
@@ -9480,9 +9480,9 @@ the
 right
 check
 is
+/
+/
 that
-/
-/
 sAppContentParents
 -
 >
@@ -10116,7 +10116,7 @@ clipboard
 SetData
 (
 trans
-NULL
+nullptr
 whichClipboard
 )
 ;
@@ -12258,7 +12258,7 @@ delete
 parent
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -17545,7 +17545,7 @@ sPrivateContent
 ;
 sPrivateContent
 =
-NULL
+nullptr
 ;
 }
 }

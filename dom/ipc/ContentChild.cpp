@@ -1687,8 +1687,8 @@ MOZ_WIDGET_GTK
 sigh
 gtk_init
 (
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 #
@@ -2959,7 +2959,7 @@ RuntimeService
 NS_ENSURE_TRUE
 (
 svc
-NULL
+nullptr
 )
 ;
 JSRuntime
@@ -2978,7 +2978,7 @@ rt
 NS_ENSURE_TRUE
 (
 svc
-NULL
+nullptr
 )
 ;
 mozilla
@@ -3018,7 +3018,7 @@ delete
 child
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -4354,7 +4354,7 @@ here
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool

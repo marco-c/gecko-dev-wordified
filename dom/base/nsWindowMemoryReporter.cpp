@@ -651,7 +651,7 @@ docshell
 is
 set
 to
-NULL
+nullptr
 .
 os
 -
@@ -1157,7 +1157,7 @@ nsGlobalWindow
 *
 top
 =
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -3145,7 +3145,7 @@ usage
 nsWindowSizes
 windowTotalSizes
 (
-NULL
+nullptr
 )
 ;
 nsCOMPtr
@@ -5102,7 +5102,7 @@ aOutGhostIDs
 /
 *
 =
-NULL
+nullptr
 *
 /
 )

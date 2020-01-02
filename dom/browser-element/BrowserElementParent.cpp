@@ -1382,7 +1382,7 @@ aReturnWindow
 *
 aReturnWindow
 =
-NULL
+nullptr
 ;
 /
 /

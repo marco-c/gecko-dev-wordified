@@ -620,7 +620,7 @@ size
 +
 JS_PutEscapedFlatString
 (
-NULL
+nullptr
 0
 funId
 0
