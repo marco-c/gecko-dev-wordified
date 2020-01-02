@@ -424,6 +424,9 @@ mPwd
 uint32_t
 mSessionId
 ;
+bool
+mUseUTF8
+;
 private
 :
 nsCString
