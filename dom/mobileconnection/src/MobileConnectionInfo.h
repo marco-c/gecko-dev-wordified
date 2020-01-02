@@ -333,6 +333,14 @@ mCellInfo
 }
 private
 :
+~
+MobileConnectionInfo
+(
+)
+{
+}
+private
+:
 bool
 mConnected
 ;

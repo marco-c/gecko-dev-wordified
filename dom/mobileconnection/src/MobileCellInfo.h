@@ -276,6 +276,14 @@ mCdmaNetworkId
 }
 private
 :
+~
+MobileCellInfo
+(
+)
+{
+}
+private
+:
 nsCOMPtr
 <
 nsPIDOMWindow

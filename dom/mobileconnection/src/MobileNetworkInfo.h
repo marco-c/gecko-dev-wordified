@@ -335,6 +335,14 @@ MobileNetworkState
 }
 private
 :
+~
+MobileNetworkInfo
+(
+)
+{
+}
+private
+:
 nsCOMPtr
 <
 nsPIDOMWindow

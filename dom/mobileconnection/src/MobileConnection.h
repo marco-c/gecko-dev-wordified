@@ -654,6 +654,13 @@ clirmodechange
 )
 private
 :
+~
+MobileConnection
+(
+)
+;
+private
+:
 uint32_t
 mClientId
 ;

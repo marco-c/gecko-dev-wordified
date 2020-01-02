@@ -108,11 +108,6 @@ uint32_t
 aClientId
 )
 ;
-~
-IccListener
-(
-)
-;
 void
 Shutdown
 (
@@ -128,6 +123,13 @@ return
 mIcc
 ;
 }
+private
+:
+~
+IccListener
+(
+)
+;
 private
 :
 uint32_t
