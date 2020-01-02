@@ -1196,7 +1196,13 @@ buffer
 byteLength
 (
 )
+BufferContents
+:
+:
+createUnowned
+(
 nullptr
+)
 DoesntOwnData
 )
 ;
