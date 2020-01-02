@@ -863,6 +863,9 @@ gBrowser
 .
 getNotificationBox
 (
+this
+.
+browser
 )
 showTranslationInfoBar
 :
