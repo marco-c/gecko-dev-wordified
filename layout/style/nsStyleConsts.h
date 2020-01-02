@@ -2766,7 +2766,7 @@ NS_STYLE_WIDTH_AVAILABLE
 /
 /
 See
-nsStylePosition
+nsStyleDisplay
 .
 mPosition
 #
@@ -2792,7 +2792,7 @@ NS_STYLE_POSITION_STICKY
 /
 /
 See
-nsStylePosition
+nsStyleDisplay
 .
 mClip
 #
@@ -2901,7 +2901,7 @@ NS_STYLE_FRAME_NOSCROLL
 /
 /
 See
-nsStylePosition
+nsStyleDisplay
 .
 mOverflow
 #
@@ -2932,6 +2932,20 @@ NS_STYLE_OVERFLOW_SCROLLBARS_HORIZONTAL
 define
 NS_STYLE_OVERFLOW_SCROLLBARS_VERTICAL
 6
+/
+/
+See
+nsStyleDisplay
+.
+mOverflowClipBox
+#
+define
+NS_STYLE_OVERFLOW_CLIP_BOX_PADDING_BOX
+0
+#
+define
+NS_STYLE_OVERFLOW_CLIP_BOX_CONTENT_BOX
+1
 /
 /
 See
