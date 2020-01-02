@@ -2925,7 +2925,7 @@ if
 sgo
 )
 {
-MOZ_ASSERT
+MOZ_CRASH
 (
 "
 Register
