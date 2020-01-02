@@ -1156,6 +1156,12 @@ aARIARole
 )
 const
 ;
+bool
+HasStrongARIARole
+(
+)
+const
+;
 /
 *
 *
