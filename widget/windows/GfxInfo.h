@@ -132,6 +132,12 @@ GfxInfo
 public
 GfxInfoBase
 {
+~
+GfxInfo
+(
+)
+{
+}
 public
 :
 GfxInfo
