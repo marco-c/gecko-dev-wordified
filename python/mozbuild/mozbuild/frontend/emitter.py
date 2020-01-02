@@ -1604,6 +1604,10 @@ RESFILE
 '
             
 '
+DEFFILE
+'
+            
+'
 SDK_LIBRARY
 '
         

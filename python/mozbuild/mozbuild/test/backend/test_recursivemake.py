@@ -2949,6 +2949,23 @@ res
 ]
             
 '
+DEFFILE
+'
+:
+[
+                
+'
+DEFFILE
+:
+=
+baz
+.
+def
+'
+            
+]
+            
+'
 USE_STATIC_LIBS
 '
 :
