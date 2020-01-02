@@ -730,8 +730,6 @@ TimeDuration
 :
 FromTicks
 (
-int64_t
-(
 (
 aMilliseconds
 *
@@ -739,7 +737,6 @@ kNsPerMsd
 )
 /
 sNsPerTick
-)
 )
 ;
 }
