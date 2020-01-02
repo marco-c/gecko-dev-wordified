@@ -2610,7 +2610,7 @@ IsForImageVisibility
 /
 /
 The
-ExpandRect
+ExpandRectToNearlyVisible
 that
 the
 root
@@ -2620,9 +2620,9 @@ would
 do
 gets
 short
+/
+/
 circuited
-/
-/
 due
 to
 us
@@ -2651,7 +2651,7 @@ dirty
 rootScrollableFrame
 -
 >
-ExpandRect
+ExpandRectToNearlyVisible
 (
 dirty
 )

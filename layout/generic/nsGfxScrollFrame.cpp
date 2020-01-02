@@ -14529,7 +14529,7 @@ nsRect
 ScrollFrameHelper
 :
 :
-ExpandRect
+ExpandRectToNearlyVisible
 (
 const
 nsRect
@@ -16486,7 +16486,7 @@ ports
 .
 dirtyRect
 =
-ExpandRect
+ExpandRectToNearlyVisible
 (
 dirtyRect
 )
@@ -17685,7 +17685,7 @@ aRect
 .
 Intersects
 (
-ExpandRect
+ExpandRectToNearlyVisible
 (
 usingDisplayport
 ?

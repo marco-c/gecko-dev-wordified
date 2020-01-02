@@ -35142,7 +35142,7 @@ rect
 scrollFrame
 -
 >
-ExpandRect
+ExpandRectToNearlyVisible
 (
 rect
 )
@@ -35805,7 +35805,7 @@ rootScroll
 /
 /
 The
-ExpandRect
+ExpandRectToNearlyVisible
 that
 the
 root
@@ -35815,9 +35815,9 @@ would
 do
 gets
 short
+/
+/
 circuited
-/
-/
 due
 to
 us
@@ -35846,7 +35846,7 @@ updateRect
 rootScrollable
 -
 >
-ExpandRect
+ExpandRectToNearlyVisible
 (
 updateRect
 )

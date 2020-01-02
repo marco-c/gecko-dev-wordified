@@ -2200,7 +2200,7 @@ purposes
 /
 virtual
 nsRect
-ExpandRect
+ExpandRectToNearlyVisible
 (
 const
 nsRect
