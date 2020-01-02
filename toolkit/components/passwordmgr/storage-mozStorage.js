@@ -1399,10 +1399,6 @@ function
 login
 )
 {
-let
-encUsername
-encPassword
-;
 /
 /
 Throws
@@ -1419,6 +1415,7 @@ checkLoginValues
 login
 )
 ;
+let
 [
 encUsername
 encPassword
