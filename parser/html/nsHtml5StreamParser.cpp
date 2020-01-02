@@ -2066,10 +2066,6 @@ SetupDecodingFromBom
 const
 char
 *
-aCharsetName
-const
-char
-*
 aDecoderCharsetName
 )
 {
@@ -2133,7 +2129,7 @@ mCharset
 .
 Assign
 (
-aCharsetName
+aDecoderCharsetName
 )
 ;
 mCharsetSource
@@ -4273,11 +4269,6 @@ SetupDecodingFromBom
 "
 UTF
 -
-16
-"
-"
-UTF
--
 16LE
 "
 )
@@ -4368,11 +4359,6 @@ rv
 =
 SetupDecodingFromBom
 (
-"
-UTF
--
-16
-"
 "
 UTF
 -
@@ -4494,11 +4480,6 @@ rv
 =
 SetupDecodingFromBom
 (
-"
-UTF
--
-8
-"
 "
 UTF
 -
