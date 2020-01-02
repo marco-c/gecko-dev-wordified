@@ -460,7 +460,7 @@ v
 updateImage
 (
 favicon
-url
+faviconURL
 )
 ;
 }
