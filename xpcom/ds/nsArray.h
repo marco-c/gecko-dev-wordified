@@ -349,6 +349,12 @@ aBaseArray
 )
 {
 }
+~
+nsArray
+(
+)
+{
+}
 }
 ;
 class
@@ -399,6 +405,12 @@ aBaseArray
 nsArrayBase
 (
 aBaseArray
+)
+{
+}
+~
+nsArrayCC
+(
 )
 {
 }

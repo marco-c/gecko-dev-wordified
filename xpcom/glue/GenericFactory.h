@@ -183,6 +183,12 @@ MOZ_FINAL
 public
 nsIFactory
 {
+~
+GenericFactory
+(
+)
+{
+}
 public
 :
 typedef
