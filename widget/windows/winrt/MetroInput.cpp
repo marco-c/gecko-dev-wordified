@@ -5085,6 +5085,9 @@ DispatchAsyncEventIgnoreStatus
 event
 )
 ;
+return
+S_OK
+;
 }
 UpdateInputLevel
 (
@@ -5311,6 +5314,9 @@ DispatchAsyncEventIgnoreStatus
 (
 event
 )
+;
+return
+S_OK
 ;
 }
 UpdateInputLevel
