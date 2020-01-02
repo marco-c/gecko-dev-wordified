@@ -10500,9 +10500,6 @@ accept_
 int
 next_register_
 ;
-js
-:
-:
 Vector
 <
 RegExpNode
@@ -20793,9 +20790,6 @@ out_of_range
 }
 }
 typedef
-js
-:
-:
 Vector
 <
 int
@@ -27316,9 +27310,6 @@ kAFew
 =
 10
 ;
-js
-:
-:
 Vector
 <
 AlternativeGeneration

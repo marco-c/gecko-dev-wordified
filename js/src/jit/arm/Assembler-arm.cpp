@@ -4487,12 +4487,6 @@ uint32_t
 *
 >
 (
-js
-:
-:
-jit
-:
-:
 Assembler
 :
 :
@@ -4550,9 +4544,6 @@ trc
 ARMBuffer
 *
 buffer
-js
-:
-:
 Vector
 <
 BufferOffset

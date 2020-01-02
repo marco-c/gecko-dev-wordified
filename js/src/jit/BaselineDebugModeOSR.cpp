@@ -168,10 +168,6 @@ h
 "
 using
 namespace
-mozilla
-;
-using
-namespace
 js
 ;
 using
@@ -773,9 +769,6 @@ fallbackStub
 }
 ;
 typedef
-js
-:
-:
 Vector
 <
 DebugModeOSREntry
