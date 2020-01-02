@@ -16,7 +16,7 @@ this
 hasOwnProperty
 (
 "
-Type
+TypedObject
 "
 )
 )
@@ -30,8 +30,12 @@ var
 Vec3
 =
 new
+TypedObject
+.
 ArrayType
 (
+TypedObject
+.
 float32
 3
 )
@@ -40,6 +44,8 @@ var
 Sprite
 =
 new
+TypedObject
+.
 ArrayType
 (
 Vec3
