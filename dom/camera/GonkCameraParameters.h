@@ -486,6 +486,12 @@ mExposureCompensationMin
 double
 mExposureCompensationStep
 ;
+nsTArray
+<
+int
+>
+mZoomRatios
+;
 /
 /
 This
