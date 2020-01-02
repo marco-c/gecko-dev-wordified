@@ -154,7 +154,7 @@ MozLoopService
 getStrings
 (
 "
-get_link_to_share
+share_link_header_text
 "
 )
 '
@@ -164,14 +164,15 @@ textContent
 "
 :
 "
-Get
-a
+Share
+this
 link
-and
+to
 invite
 someone
 to
 talk
+:
 "
 }
 '
