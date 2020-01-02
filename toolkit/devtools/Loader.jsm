@@ -1282,6 +1282,15 @@ cssLogicURI
 "
 devtools
 /
+css
+-
+color
+"
+:
+cssColorURI
+"
+devtools
+/
 touch
 -
 events
