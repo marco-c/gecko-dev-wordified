@@ -1705,6 +1705,11 @@ moved
 into
 menu
 .
+bool
+tryOwnsParent
+=
+true
+;
 Accessible
 *
 ARIAMenubar
@@ -1822,6 +1827,10 @@ Parent
 (
 )
 ;
+tryOwnsParent
+=
+true
+;
 continue
 ;
 }
@@ -1840,6 +1849,13 @@ aria
 owns
 relation
 .
+if
+(
+!
+tryOwnsParent
+)
+break
+;
 RelatedAccIterator
 iter
 (
@@ -1868,6 +1884,10 @@ iter
 Next
 (
 )
+;
+tryOwnsParent
+=
+false
 ;
 }
 if
