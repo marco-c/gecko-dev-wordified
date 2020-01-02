@@ -387,6 +387,18 @@ clearNativeTouchSequence
 }
 )
 ;
+/
+*
+Double
+-
+tap
+is
+disabled
+(
+bug
+950832
+)
+.
 gTests
 .
 push
@@ -525,6 +537,8 @@ clearNativeTouchSequence
 }
 )
 ;
+*
+/
 gTests
 .
 push
