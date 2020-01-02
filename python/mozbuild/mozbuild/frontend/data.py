@@ -1925,7 +1925,6 @@ __init__
 self
 sandbox
 program
-bin_suffix
 )
 :
         
@@ -1939,10 +1938,21 @@ sandbox
         
 bin_suffix
 =
-bin_suffix
-or
+sandbox
+[
+'
+CONFIG
+'
+]
+.
+get
+(
+self
+.
+SUFFIX_VAR
 '
 '
+)
         
 if
 not
@@ -1982,6 +1992,12 @@ PROGRAM
 "
 "
 "
+    
+SUFFIX_VAR
+=
+'
+BIN_SUFFIX
+'
 class
 HostProgram
 (
@@ -2000,6 +2016,12 @@ HOST_PROGRAM
 "
 "
 "
+    
+SUFFIX_VAR
+=
+'
+HOST_BIN_SUFFIX
+'
 class
 SimpleProgram
 (
@@ -2021,6 +2043,12 @@ SIMPLE_PROGRAMS
 "
 "
 "
+    
+SUFFIX_VAR
+=
+'
+BIN_SUFFIX
+'
 class
 HostSimpleProgram
 (
@@ -2042,6 +2070,12 @@ HOST_SIMPLE_PROGRAMS
 "
 "
 "
+    
+SUFFIX_VAR
+=
+'
+HOST_BIN_SUFFIX
+'
 class
 BaseLibrary
 (
