@@ -9503,7 +9503,7 @@ TF_LS_NONE
 :
 aTextRangeLineStyle
 =
-nsTextRangeStyle
+TextRangeStyle
 :
 :
 LINESTYLE_NONE
@@ -9516,7 +9516,7 @@ TF_LS_SOLID
 :
 aTextRangeLineStyle
 =
-nsTextRangeStyle
+TextRangeStyle
 :
 :
 LINESTYLE_SOLID
@@ -9529,7 +9529,7 @@ TF_LS_DOT
 :
 aTextRangeLineStyle
 =
-nsTextRangeStyle
+TextRangeStyle
 :
 :
 LINESTYLE_DOTTED
@@ -9542,7 +9542,7 @@ TF_LS_DASH
 :
 aTextRangeLineStyle
 =
-nsTextRangeStyle
+TextRangeStyle
 :
 :
 LINESTYLE_DASHED
@@ -9555,7 +9555,7 @@ TF_LS_SQUIGGLE
 :
 aTextRangeLineStyle
 =
-nsTextRangeStyle
+TextRangeStyle
 :
 :
 LINESTYLE_WAVY
@@ -10347,7 +10347,7 @@ mRangeStyle
 mDefinedStyles
 |
 =
-nsTextRangeStyle
+TextRangeStyle
 :
 :
 DEFINED_FOREGROUND_COLOR
@@ -10375,7 +10375,7 @@ mRangeStyle
 mDefinedStyles
 |
 =
-nsTextRangeStyle
+TextRangeStyle
 :
 :
 DEFINED_BACKGROUND_COLOR
@@ -10403,7 +10403,7 @@ mRangeStyle
 mDefinedStyles
 |
 =
-nsTextRangeStyle
+TextRangeStyle
 :
 :
 DEFINED_UNDERLINE_COLOR
@@ -10431,7 +10431,7 @@ mRangeStyle
 mDefinedStyles
 |
 =
-nsTextRangeStyle
+TextRangeStyle
 :
 :
 DEFINED_LINESTYLE

@@ -126,7 +126,7 @@ h
 /
 /
 for
-nsTextRangeStyle
+TextRangeStyle
 #
 include
 "
@@ -343,6 +343,10 @@ h
 /
 for
 nsString
+using
+namespace
+mozilla
+;
 /
 /
 #
@@ -2204,7 +2208,7 @@ if
 imeSelPriv
 )
 {
-nsTextRangeStyle
+TextRangeStyle
 textRangeStyle
 ;
 result

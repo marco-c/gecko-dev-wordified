@@ -33509,7 +33509,7 @@ nsTextPaintStyle
 &
 aTextPaintStyle
 const
-nsTextRangeStyle
+TextRangeStyle
 &
 aRangeStyle
 const
@@ -33869,7 +33869,7 @@ aRangeStyle
 mLineStyle
 =
 =
-nsTextRangeStyle
+TextRangeStyle
 :
 :
 LINESTYLE_NONE
@@ -34159,7 +34159,7 @@ nsTextPaintStyle
 &
 aTextPaintStyle
 const
-nsTextRangeStyle
+TextRangeStyle
 &
 aRangeStyle
 nscolor
@@ -34801,7 +34801,7 @@ aHyphenWidth
 SelectionType
 *
 aType
-nsTextRangeStyle
+TextRangeStyle
 *
 aStyle
 )
@@ -34942,7 +34942,7 @@ aHyphenWidth
 SelectionType
 *
 aType
-nsTextRangeStyle
+TextRangeStyle
 *
 aStyle
 )
@@ -35013,7 +35013,7 @@ nsISelectionController
 :
 SELECTION_NONE
 ;
-nsTextRangeStyle
+TextRangeStyle
 style
 ;
 if
@@ -36131,7 +36131,7 @@ string
 SelectionType
 type
 ;
-nsTextRangeStyle
+TextRangeStyle
 rangeStyle
 ;
 /
@@ -36993,7 +36993,7 @@ app
 SelectionType
 type
 ;
-nsTextRangeStyle
+TextRangeStyle
 selectedStyle
 ;
 while
@@ -41118,7 +41118,7 @@ else
 /
 IME
 selections
-nsTextRangeStyle
+TextRangeStyle
 &
 rangeStyle
 =
@@ -41151,7 +41151,7 @@ rangeStyle
 mLineStyle
 =
 =
-nsTextRangeStyle
+TextRangeStyle
 :
 :
 LINESTYLE_NONE

@@ -208,7 +208,10 @@ nsRange
 >
 mRange
 ;
-nsTextRangeStyle
+mozilla
+:
+:
+TextRangeStyle
 mTextRangeStyle
 ;
 }

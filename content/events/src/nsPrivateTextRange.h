@@ -193,7 +193,10 @@ MOZ_OVERRIDE
 NS_IMETHOD
 GetRangeStyle
 (
-nsTextRangeStyle
+mozilla
+:
+:
+TextRangeStyle
 *
 aRangeStyle
 )
@@ -210,7 +213,10 @@ mRangeEnd
 uint16_t
 mRangeType
 ;
-nsTextRangeStyle
+mozilla
+:
+:
+TextRangeStyle
 mRangeStyle
 ;
 }

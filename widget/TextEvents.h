@@ -1652,7 +1652,7 @@ bool
 Equals
 (
 const
-nsTextRangeStyle
+TextRangeStyle
 &
 aOther
 )
@@ -3948,13 +3948,6 @@ TODO
 Remove
 following
 typedefs
-typedef
-mozilla
-:
-:
-TextRangeStyle
-nsTextRangeStyle
-;
 typedef
 mozilla
 :
