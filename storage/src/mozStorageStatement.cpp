@@ -730,8 +730,11 @@ initialized
 "
 )
 ;
+DebugOnly
+<
 sqlite3
 *
+>
 db
 =
 aDBConnection
