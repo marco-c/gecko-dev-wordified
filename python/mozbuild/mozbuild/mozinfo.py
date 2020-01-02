@@ -913,21 +913,6 @@ config
 env
 )
     
-args
-=
-{
-'
-indent
-'
-:
-2
-'
-sort_keys
-'
-:
-True
-}
-    
 if
 isinstance
 (
@@ -954,9 +939,6 @@ dump
 (
 build_conf
 f
-*
-*
-args
 )
     
 else
@@ -968,7 +950,4 @@ dump
 (
 build_conf
 file
-*
-*
-args
 )
