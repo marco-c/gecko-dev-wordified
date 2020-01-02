@@ -993,7 +993,7 @@ GetStringFromName
 "
 validator
 .
-missIconMarketplace
+missIconMarketplace2
 "
 )
 )
