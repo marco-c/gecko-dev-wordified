@@ -520,6 +520,12 @@ Ci
 .
 nsIRequest
 .
+LOAD_BYPASS_CACHE
+|
+Ci
+.
+nsIRequest
+.
 INHIBIT_CACHING
 ;
 req
