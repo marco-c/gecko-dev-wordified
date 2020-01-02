@@ -772,7 +772,7 @@ kMaxStopCode
 Utility
 functions
 typedef
-int32_t
+uint32_t
 Instr
 ;
 class

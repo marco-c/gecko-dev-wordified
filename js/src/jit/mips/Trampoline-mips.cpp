@@ -2700,11 +2700,6 @@ stack
 is
 alligned
 .
-uint32_t
-increment
-=
-2
-;
 for
 (
 uint32_t
