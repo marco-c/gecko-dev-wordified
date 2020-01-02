@@ -6965,10 +6965,10 @@ runtimeFromMainThread
 gcAllocationThreshold
 )
 ;
-float
+double
 trigger
 =
-float
+double
 (
 base
 )
@@ -6983,7 +6983,7 @@ size_t
 (
 Min
 (
-float
+double
 (
 maxBytes
 )
