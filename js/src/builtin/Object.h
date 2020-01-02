@@ -125,6 +125,9 @@ namespace
 JS
 {
 class
+CallArgs
+;
+class
 Value
 ;
 }
@@ -212,6 +215,9 @@ JSContext
 *
 cx
 const
+JS
+:
+:
 CallArgs
 &
 args
