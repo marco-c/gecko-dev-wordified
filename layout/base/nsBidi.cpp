@@ -90,9 +90,6 @@ MPL
 *
 /
 #
-ifdef
-IBMBIDI
-#
 include
 "
 nsBidi
@@ -15160,8 +15157,3 @@ endif
 /
 /
 FULL_BIDI_ENGINE
-#
-endif
-/
-/
-IBMBIDI

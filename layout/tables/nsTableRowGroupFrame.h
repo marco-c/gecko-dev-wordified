@@ -1475,9 +1475,6 @@ aXIsAfterLastFrame
 )
 MOZ_OVERRIDE
 ;
-#
-ifdef
-IBMBIDI
 /
 *
 *
@@ -1574,8 +1571,6 @@ aLastVisual
 )
 MOZ_OVERRIDE
 ;
-#
-endif
 /
 *
 *

@@ -1435,9 +1435,6 @@ Generic
 16
 NS_FRAME_MAY_BE_TRANSFORMED
 )
-#
-ifdef
-IBMBIDI
 /
 /
 If
@@ -1472,8 +1469,6 @@ Generic
 17
 NS_FRAME_IS_BIDI
 )
-#
-endif
 /
 /
 If

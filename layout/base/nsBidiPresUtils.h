@@ -98,9 +98,6 @@ nsBidiPresUtils_h___
 define
 nsBidiPresUtils_h___
 #
-ifdef
-IBMBIDI
-#
 include
 "
 nsBidi
@@ -3283,11 +3280,6 @@ aDest
 ;
 }
 ;
-#
-endif
-/
-/
-IBMBIDI
 #
 endif
 /

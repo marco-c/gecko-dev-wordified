@@ -507,17 +507,12 @@ h
 #
 endif
 #
-ifdef
-IBMBIDI
-#
 include
 "
 nsBidiUtils
 .
 h
 "
-#
-endif
 using
 namespace
 mozilla

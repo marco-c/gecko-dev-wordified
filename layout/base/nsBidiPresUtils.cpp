@@ -94,9 +94,6 @@ MPL
 *
 /
 #
-ifdef
-IBMBIDI
-#
 include
 "
 nsBidiPresUtils
@@ -13714,8 +13711,3 @@ return
 NSBIDI_LTR
 ;
 }
-#
-endif
-/
-/
-IBMBIDI

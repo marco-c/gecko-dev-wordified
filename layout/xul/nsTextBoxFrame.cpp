@@ -301,9 +301,6 @@ h
 #
 endif
 #
-ifdef
-IBMBIDI
-#
 include
 "
 nsBidiUtils
@@ -317,11 +314,6 @@ nsBidiPresUtils
 .
 h
 "
-#
-endif
-/
-/
-IBMBIDI
 using
 namespace
 mozilla
@@ -2537,9 +2529,6 @@ StyleColor
 mColor
 )
 ;
-#
-ifdef
-IBMBIDI
 nsresult
 rv
 =
@@ -2706,11 +2695,6 @@ NS_FAILED
 rv
 )
 )
-#
-endif
-/
-/
-IBMBIDI
 {
 aRenderingContext
 .
@@ -3233,9 +3217,6 @@ mCroppedTitle
 =
 mTitle
 ;
-#
-ifdef
-IBMBIDI
 if
 (
 HasRTLChars
@@ -3250,11 +3231,6 @@ mState
 NS_FRAME_IS_BIDI
 ;
 }
-#
-endif
-/
-/
-IBMBIDI
 return
 titleWidth
 ;
@@ -3495,9 +3471,6 @@ twidth
 =
 cwidth
 ;
-#
-ifdef
-IBMBIDI
 if
 (
 UCS2_CHAR_IS_BIDI
@@ -3512,11 +3485,6 @@ mState
 NS_FRAME_IS_BIDI
 ;
 }
-#
-endif
-/
-/
-IBMBIDI
 }
 if
 (
@@ -3637,9 +3605,6 @@ twidth
 =
 cwidth
 ;
-#
-ifdef
-IBMBIDI
 if
 (
 UCS2_CHAR_IS_BIDI
@@ -3654,11 +3619,6 @@ mState
 NS_FRAME_IS_BIDI
 ;
 }
-#
-endif
-/
-/
-IBMBIDI
 }
 if
 (
@@ -3878,9 +3838,6 @@ Length
 )
 )
 ;
-#
-ifdef
-IBMBIDI
 if
 (
 UCS2_CHAR_IS_BIDI
@@ -3893,8 +3850,6 @@ mState
 =
 NS_FRAME_IS_BIDI
 ;
-#
-endif
 /
 /
 look
@@ -3969,9 +3924,6 @@ ch
 0
 )
 ;
-#
-ifdef
-IBMBIDI
 if
 (
 UCS2_CHAR_IS_BIDI
@@ -3984,8 +3936,6 @@ mState
 =
 NS_FRAME_IS_BIDI
 ;
-#
-endif
 }
 /
 /

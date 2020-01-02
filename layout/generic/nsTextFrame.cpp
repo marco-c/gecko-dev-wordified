@@ -26373,9 +26373,6 @@ aParent
 aPrevInFlow
 )
 ;
-#
-ifdef
-IBMBIDI
 nsTextFrame
 *
 nextContinuation
@@ -26394,11 +26391,6 @@ GetNextContinuation
 )
 )
 ;
-#
-endif
-/
-/
-IBMBIDI
 /
 /
 Hook
@@ -26615,9 +26607,6 @@ eNotInflated
 }
 }
 }
-#
-ifdef
-IBMBIDI
 if
 (
 aPrevInFlow
@@ -26893,11 +26882,6 @@ prev
 frame
 is
 bidi
-#
-endif
-/
-/
-IBMBIDI
 }
 void
 nsContinuingTextFrame

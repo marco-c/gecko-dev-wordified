@@ -1619,9 +1619,6 @@ aListID
 )
 const
 ;
-#
-ifdef
-IBMBIDI
 /
 *
 *
@@ -1710,11 +1707,6 @@ aFrame
 )
 const
 ;
-#
-endif
-/
-/
-IBMBIDI
 #
 ifdef
 DEBUG_FRAME_DUMP

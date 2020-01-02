@@ -180,17 +180,12 @@ number
 localization
 formatting
 #
-ifdef
-IBMBIDI
-#
 include
 "
 nsBidiUtils
 .
 h
 "
-#
-endif
 #
 include
 "

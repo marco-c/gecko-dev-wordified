@@ -418,9 +418,6 @@ intValue
 =
 NS_STYLE_TEXT_ALIGN_LEFT
 ;
-#
-ifdef
-IBMBIDI
 if
 (
 mParent
@@ -445,11 +442,6 @@ intValue
 NS_STYLE_TEXT_ALIGN_RIGHT
 ;
 }
-#
-endif
-/
-/
-IBMBIDI
 nsGenericHTMLElement
 *
 content

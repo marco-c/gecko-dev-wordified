@@ -340,9 +340,6 @@ kMinBidiIndicatorPixels
 2
 ;
 #
-ifdef
-IBMBIDI
-#
 include
 "
 nsIBidiKeyboard
@@ -356,11 +353,6 @@ nsContentUtils
 .
 h
 "
-#
-endif
-/
-/
-IBMBIDI
 using
 namespace
 mozilla
@@ -908,9 +900,6 @@ mIgnoreUserModify
 (
 true
 )
-#
-ifdef
-IBMBIDI
 mKeyboardRTL
 (
 false
@@ -919,8 +908,6 @@ mLastBidiLevel
 (
 0
 )
-#
-endif
 mLastContentOffset
 (
 0
@@ -1368,9 +1355,6 @@ StartBlinking
 )
 ;
 }
-#
-ifdef
-IBMBIDI
 mBidiUI
 =
 Preferences
@@ -1387,8 +1371,6 @@ ui
 "
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -7668,9 +7650,6 @@ mCaretRect
 .
 width
 ;
-#
-ifdef
-IBMBIDI
 mHookRect
 .
 SetEmpty
@@ -7991,11 +7970,6 @@ width
 )
 ;
 }
-#
-endif
-/
-/
-IBMBIDI
 return
 true
 ;

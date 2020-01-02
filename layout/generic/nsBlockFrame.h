@@ -3008,9 +3008,6 @@ nsIFrame
 aPrevSibling
 )
 ;
-#
-ifdef
-IBMBIDI
 /
 *
 *
@@ -3106,8 +3103,6 @@ nsPresContext
 aPresContext
 )
 ;
-#
-endif
 public
 :
 /

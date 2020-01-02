@@ -652,9 +652,6 @@ aLineNumber
 =
 0
 ;
-#
-ifdef
-IBMBIDI
 /
 /
 Check
@@ -702,8 +699,6 @@ aLastVisual
 =
 0
 ;
-#
-endif
 }
 ;
 class
