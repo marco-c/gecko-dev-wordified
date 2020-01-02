@@ -400,7 +400,7 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-int
+LogicalSides
 GetLogicalSkipSides
 (
 const

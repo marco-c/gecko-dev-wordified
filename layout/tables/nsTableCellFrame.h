@@ -1380,7 +1380,7 @@ InvalidateFrameSubtree
 protected
 :
 virtual
-int
+LogicalSides
 GetLogicalSkipSides
 (
 const
@@ -1740,7 +1740,7 @@ const
 nsSize
 &
 aBorderArea
-int
+Sides
 aSkipSides
 nscoord
 aRadii

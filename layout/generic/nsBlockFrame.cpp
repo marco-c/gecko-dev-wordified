@@ -6736,9 +6736,9 @@ if
 GetLogicalSkipSides
 (
 )
-&
+.
+BStart
 (
-LOGICAL_SIDE_B_START
 )
 )
 {
