@@ -1008,6 +1008,11 @@ TriggerSingleTapConfirmedEvent
 (
 )
 ;
+bool
+MoveDistanceIsLarge
+(
+)
+;
 /
 *
 *
