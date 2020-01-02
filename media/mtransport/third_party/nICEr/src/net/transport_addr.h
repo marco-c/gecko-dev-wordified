@@ -393,7 +393,7 @@ A
 string
 version
 .
-56
+52
 =
 5
 (
@@ -423,12 +423,6 @@ address
 port
 )
 +
-4
-(
-/
-UDP
-)
-+
 1
 (
 null
@@ -438,7 +432,7 @@ null
 char
 as_string
 [
-56
+52
 ]
 ;
 }
