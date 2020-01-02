@@ -1191,6 +1191,12 @@ ScrollableLayerGuid
 aGuid
 )
 {
+ContentReceivedTouch
+(
+aGuid
+false
+)
+;
 }
 void
 APZController
