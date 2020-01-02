@@ -2956,7 +2956,7 @@ CheckTrailingNBSP
 WSFragment
 *
 aRun
-nsIDOMNode
+nsINode
 *
 aNode
 int32_t
@@ -2969,7 +2969,7 @@ CheckLeadingNBSP
 WSFragment
 *
 aRun
-nsIDOMNode
+nsINode
 *
 aNode
 int32_t
