@@ -2271,6 +2271,15 @@ get
 legacy
 "
 )
+&
+&
+!
+gPlacements
+.
+has
+(
+aName
+)
 )
 {
 /
