@@ -733,7 +733,7 @@ calls
 ;
 this
 .
-_lastDrawCallScreenshot
+_animationFrameEndScreenshot
 =
 screenshot
 ;
@@ -800,7 +800,7 @@ screenshot
 :
 this
 .
-_lastDrawCallScreenshot
+_animationFrameEndScreenshot
 }
 ;
 }
@@ -1176,7 +1176,7 @@ form
 ;
 this
 .
-_lastDrawCallScreenshot
+_animationFrameEndScreenshot
 =
 null
 ;
@@ -1198,9 +1198,9 @@ This
 implementation
 caches
 the
-last
-draw
-call
+animation
+frame
+end
 screenshot
 to
 optimize
@@ -1235,7 +1235,7 @@ data
 {
 this
 .
-_lastDrawCallScreenshot
+_animationFrameEndScreenshot
 =
 data
 .
@@ -1311,7 +1311,7 @@ resolve
 (
 this
 .
-_lastDrawCallScreenshot
+_animationFrameEndScreenshot
 )
 ;
 }
@@ -2285,7 +2285,7 @@ getPixelStorage
 ]
 ;
 let
-lastDrawCallScreenshot
+animationFrameEndScreenshot
 =
 {
 index
@@ -2356,7 +2356,7 @@ calls
 functionCalls
 screenshot
 :
-lastDrawCallScreenshot
+animationFrameEndScreenshot
 }
 )
 ;
