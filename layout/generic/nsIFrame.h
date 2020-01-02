@@ -24272,6 +24272,11 @@ DumpFrameTree
 (
 )
 ;
+void
+DumpFrameTreeLimited
+(
+)
+;
 NS_IMETHOD
 GetFrameName
 (
