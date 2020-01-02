@@ -116,7 +116,7 @@ h
 #
 include
 "
-pldhash
+nsHashKeys
 .
 h
 "
@@ -1079,9 +1079,17 @@ XPIDL
 interface
 )
 .
+typedef
+nsInterfaceHashtable
+<
+nsISupportsHashKey
+nsIXPConnectWrappedJS
+>
+WrapperHashtable
+;
 nsAutoPtr
 <
-PLDHashTable
+WrapperHashtable
 >
 mWrapperTable
 ;
