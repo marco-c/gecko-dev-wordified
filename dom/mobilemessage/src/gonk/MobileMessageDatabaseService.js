@@ -11172,6 +11172,9 @@ aCallback
 let
 typedAddress
 =
+{
+type
+:
 MMS
 .
 Address
@@ -11180,6 +11183,10 @@ resolveType
 (
 aNeedle
 )
+address
+:
+aNeedle
+}
 ;
 let
 normalizedAddress
@@ -11229,6 +11236,9 @@ aDeliveryInfo
 let
 typedStoredAddress
 =
+{
+type
+:
 MMS
 .
 Address
@@ -11239,6 +11249,12 @@ element
 .
 receiver
 )
+address
+:
+element
+.
+receiver
+}
 ;
 if
 (
