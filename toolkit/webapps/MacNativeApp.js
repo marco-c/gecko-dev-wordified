@@ -1714,7 +1714,7 @@ Name
 "
 this
 .
-appName
+appLocalizedName
 )
 ;
 writer
@@ -1888,7 +1888,7 @@ escapeXML
 (
 this
 .
-appName
+appLocalizedName
 )
 +
 '
@@ -2018,7 +2018,7 @@ escapeXML
 (
 this
 .
-appName
+appLocalizedName
 )
 +
 '

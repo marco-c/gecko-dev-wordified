@@ -6716,7 +6716,7 @@ app
 .
 name
 =
-localeManifest
+manifest
 .
 name
 ;
@@ -13395,7 +13395,7 @@ aApp
 .
 name
 =
-manifest
+aNewManifest
 .
 name
 ;
@@ -15675,6 +15675,7 @@ function
 (
 aData
 aNewApp
+aLocaleManifest
 aManifest
 aId
 aLocalId
@@ -15707,7 +15708,7 @@ APP_STATUS_INSTALLED
 ;
 if
 (
-aManifest
+aLocaleManifest
 .
 appcache_path
 )
@@ -15748,7 +15749,7 @@ false
 else
 if
 (
-aManifest
+aLocaleManifest
 .
 package_path
 )
@@ -15777,7 +15778,7 @@ appObject
 .
 downloadSize
 =
-aManifest
+aLocaleManifest
 .
 size
 ;
@@ -15850,7 +15851,7 @@ appObject
 .
 csp
 =
-aManifest
+aLocaleManifest
 .
 csp
 |
@@ -15862,13 +15863,9 @@ appObject
 .
 role
 =
-aManifest
+aLocaleManifest
 .
 role
-|
-|
-"
-"
 ;
 appObject
 .
@@ -16655,6 +16652,7 @@ _cloneApp
 aData
 app
 manifest
+jsonManifest
 id
 localId
 )

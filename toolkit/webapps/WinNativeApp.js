@@ -2161,7 +2161,7 @@ Name
 "
 this
 .
-appName
+appLocalizedName
 )
 ;
 writer
@@ -2554,7 +2554,7 @@ DisplayName
 "
 this
 .
-appName
+appLocalizedName
 )
 ;
 let

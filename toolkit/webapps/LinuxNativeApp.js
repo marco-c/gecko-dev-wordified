@@ -1767,7 +1767,7 @@ Name
 "
 this
 .
-appName
+appLocalizedName
 )
 ;
 writer
@@ -1807,7 +1807,7 @@ notification
 [
 this
 .
-appName
+appLocalizedName
 ]
 1
 )
@@ -1990,7 +1990,7 @@ Name
 "
 this
 .
-appName
+appLocalizedName
 )
 ;
 writer
