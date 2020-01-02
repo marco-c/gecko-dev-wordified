@@ -2336,7 +2336,7 @@ const
 ScreenPoint
 &
 aEndPoint
-int
+uint32_t
 aOverscrollHandoffChainIndex
 =
 0
