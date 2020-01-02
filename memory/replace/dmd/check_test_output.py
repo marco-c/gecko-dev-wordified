@@ -424,8 +424,8 @@ output
     
 #
 In
-stack
-trace
+heap
+block
 records
 we
 filter
@@ -568,8 +568,8 @@ It
 '
 s
 a
-stack
-trace
+heap
+block
 record
 .
                 
