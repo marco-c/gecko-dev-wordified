@@ -110,6 +110,9 @@ class
 nsXBLPrototypeBinding
 ;
 class
+nsObjectHashtable
+;
+class
 nsXBLDocGlobalObject
 ;
 class
@@ -307,14 +310,8 @@ table
 owns
 each
 nsXBLPrototypeBinding
-nsAutoPtr
-<
-nsClassHashtable
-<
-nsCStringHashKey
-nsXBLPrototypeBinding
->
->
+nsObjectHashtable
+*
 mBindingTable
 ;
 /
