@@ -528,6 +528,11 @@ mutex
 )
 )
 ;
+if
+(
+mutex
+)
+{
 mutex
 -
 >
@@ -537,6 +542,7 @@ AcquireSync
 INFINITE
 )
 ;
+}
 }
 template
 <
@@ -584,6 +590,11 @@ mutex
 )
 )
 ;
+if
+(
+mutex
+)
+{
 mutex
 -
 >
@@ -592,6 +603,7 @@ ReleaseSync
 0
 )
 ;
+}
 }
 TemporaryRef
 <
