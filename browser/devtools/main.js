@@ -926,6 +926,7 @@ devtools
 tool
 -
 options
+2x
 .
 png
 "
@@ -1061,6 +1062,7 @@ devtools
 tool
 -
 webconsole
+2x
 .
 png
 "
@@ -1225,6 +1227,7 @@ devtools
 tool
 -
 inspector
+2x
 .
 png
 "
@@ -1407,6 +1410,7 @@ devtools
 tool
 -
 debugger
+2x
 .
 png
 "
@@ -1428,6 +1432,7 @@ tool
 debugger
 -
 paused
+2x
 .
 png
 "
@@ -1568,6 +1573,7 @@ devtools
 tool
 -
 styleeditor
+2x
 .
 png
 "
@@ -1690,6 +1696,7 @@ devtools
 tool
 -
 styleeditor
+2x
 .
 png
 "
@@ -1836,6 +1843,7 @@ devtools
 tool
 -
 profiler
+2x
 .
 png
 "
@@ -1998,6 +2006,7 @@ devtools
 tool
 -
 network
+2x
 .
 png
 "
@@ -2123,6 +2132,7 @@ devtools
 tool
 -
 scratchpad
+2x
 .
 png
 "
