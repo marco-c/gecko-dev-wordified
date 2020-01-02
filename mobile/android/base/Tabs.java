@@ -5351,7 +5351,7 @@ if
 (
 AboutPages
 .
-isDefaultIconPage
+isBuiltinIconPage
 (
 url
 )
