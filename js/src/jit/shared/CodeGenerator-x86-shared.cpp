@@ -1521,9 +1521,9 @@ isConstant
 {
 masm
 .
-store32
+storePtr
 (
-Imm32
+ImmWord
 (
 ToInt32
 (
