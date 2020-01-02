@@ -1173,17 +1173,6 @@ drawable
 /
 icon
 "
-selected
-:
-true
-/
-/
-Default
-to
-download
-for
-all
-files
 launch
 :
 function
