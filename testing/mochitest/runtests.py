@@ -1199,6 +1199,17 @@ XPCOM_DEBUG_BREAK
 warn
 "
     
+env
+[
+"
+LD_LIBRARY_PATH
+"
+]
+=
+self
+.
+_xrePath
+    
 #
 When
 running
@@ -6990,6 +7001,17 @@ self
 xrePath
 )
     
+env
+[
+"
+LD_LIBRARY_PATH
+"
+]
+=
+self
+.
+xrePath
+    
 self
 .
 process
@@ -8283,6 +8305,17 @@ options
 .
 xrePath
 )
+    
+env
+[
+"
+LD_LIBRARY_PATH
+"
+]
+=
+options
+.
+xrePath
     
 bin_suffix
 =
