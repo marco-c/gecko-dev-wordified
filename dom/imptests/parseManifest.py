@@ -5,7 +5,7 @@ C
 )
 2011
 -
-2012
+2013
 Ms2ger
 #
 #
@@ -22,8 +22,8 @@ person
 obtaining
 a
 copy
-of
 #
+of
 this
 software
 and
@@ -38,8 +38,8 @@ Software
 )
 to
 deal
-in
 #
+in
 the
 Software
 without
@@ -49,8 +49,8 @@ without
 limitation
 the
 rights
-to
 #
+to
 use
 copy
 modify
@@ -62,8 +62,8 @@ and
 /
 or
 sell
-copies
 #
+copies
 of
 the
 Software
@@ -76,10 +76,10 @@ whom
 the
 Software
 is
+#
 furnished
 to
 do
-#
 so
 subject
 to
@@ -101,8 +101,8 @@ shall
 be
 included
 in
-all
 #
+all
 copies
 or
 substantial
@@ -195,8 +195,8 @@ OR
 OTHER
 DEALINGS
 IN
-THE
 #
+THE
 SOFTWARE
 .
 def
@@ -390,8 +390,19 @@ chunks
 "
 dir
 "
-or
+:
+            
+dirs
+.
+append
 (
+chunks
+[
+1
+]
+)
+        
+elif
 chunks
 [
 0
@@ -411,7 +422,6 @@ chunks
 "
 dir
 "
-)
 :
             
 dirs
@@ -423,7 +433,6 @@ chunks
 1
 ]
 )
-;
         
 elif
 chunks
@@ -504,6 +513,9 @@ manual
 "
 parser
 "
+"
+http
+"
 ]
 :
             
@@ -519,6 +531,7 @@ chunks
         
 else
 :
+            
 #
 automated
             
