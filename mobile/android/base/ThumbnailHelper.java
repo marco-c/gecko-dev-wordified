@@ -149,7 +149,9 @@ gecko
 .
 mozglue
 .
-GeneratableAndroidBridgeTarget
+generatorannotations
+.
+WrapElementForJNI
 ;
 import
 android
@@ -1084,7 +1086,7 @@ ready
 .
 *
 /
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
