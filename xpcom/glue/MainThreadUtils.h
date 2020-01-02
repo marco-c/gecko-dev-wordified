@@ -250,12 +250,14 @@ see
 bug
 895845
 MOZ_ASAN_BLACKLIST
-static
+bool
+NS_IsMainThread
+(
+)
+;
 #
 else
 inline
-#
-endif
 bool
 NS_IsMainThread
 (
@@ -274,6 +276,8 @@ threads
 Main
 ;
 }
+#
+endif
 #
 else
 /
