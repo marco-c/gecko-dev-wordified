@@ -1042,14 +1042,6 @@ stSize
 :
 %
 f
-suOff
-:
-%
-f
-suSize
-:
-%
-f
 \
 n
 "
@@ -1065,12 +1057,6 @@ strikeoutOffset
 mMetrics
 .
 strikeoutSize
-mMetrics
-.
-superscriptOffset
-mMetrics
-.
-subscriptOffset
 )
 ;
 #
