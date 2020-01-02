@@ -447,6 +447,13 @@ ReleaseMediaResources
 )
 ;
 virtual
+void
+ReleaseDecoder
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 nsresult
 ReadMetadata
 (
@@ -476,13 +483,6 @@ aCurrentTime
 virtual
 void
 SetIdle
-(
-)
-MOZ_OVERRIDE
-;
-virtual
-void
-Shutdown
 (
 )
 MOZ_OVERRIDE
