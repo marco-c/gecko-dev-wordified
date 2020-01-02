@@ -18624,32 +18624,6 @@ interfaceCache
 nullptr
 "
         
-if
-self
-.
-descriptor
-.
-concrete
-:
-            
-domClass
-=
-"
-&
-Class
-.
-mClass
-"
-        
-else
-:
-            
-domClass
-=
-"
-nullptr
-"
-        
 isGlobal
 =
 self
@@ -18835,10 +18809,6 @@ interfaceCache
 }
                                         
 {
-domClass
-}
-                                        
-{
 properties
 }
                                         
@@ -18884,10 +18854,6 @@ namedConstructors
 interfaceCache
 =
 interfaceCache
-            
-domClass
-=
-domClass
             
 properties
 =
