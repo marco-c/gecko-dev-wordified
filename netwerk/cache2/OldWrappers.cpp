@@ -3384,6 +3384,12 @@ failed
 }
 if
 (
+NS_FAILED
+(
+rv
+)
+|
+|
 result
 =
 =
