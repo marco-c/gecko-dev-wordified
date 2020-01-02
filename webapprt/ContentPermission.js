@@ -260,7 +260,7 @@ allow
 exactly
 one
 permission
-rquest
+request
 here
 .
 let
