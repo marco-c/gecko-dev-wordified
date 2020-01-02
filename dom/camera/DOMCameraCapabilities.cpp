@@ -1038,8 +1038,9 @@ objectify
 profile
 manager
 (
+0x
 %
-d
+x
 )
 \
 n
@@ -1047,10 +1048,9 @@ n
 rv
 )
 ;
-return
-rv
-;
 }
+else
+{
 mRecorderProfiles
 =
 JS
@@ -1062,6 +1062,7 @@ ObjectValue
 o
 )
 ;
+}
 }
 /
 /
