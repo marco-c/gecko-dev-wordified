@@ -3187,7 +3187,7 @@ document
 .
 virtual
 void
-RestyleShadowRoot
+RecordShadowStyleChange
 (
 mozilla
 :

@@ -12410,7 +12410,7 @@ full
 content
 -
 >
-GetCurrentDoc
+OwnerDoc
 (
 )
 -

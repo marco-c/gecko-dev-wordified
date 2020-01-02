@@ -767,13 +767,13 @@ ErrorResult
 aError
 )
 ;
-protected
-:
 void
-Restyle
+StyleSheetChanged
 (
 )
 ;
+protected
+:
 /
 /
 The

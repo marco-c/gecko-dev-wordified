@@ -307,7 +307,7 @@ if
 element
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 =
@@ -484,7 +484,7 @@ if
 element
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 !
@@ -873,7 +873,7 @@ NS_PRECONDITION
 aElement
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 =
@@ -1430,7 +1430,7 @@ if
 element
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 !
@@ -1703,7 +1703,7 @@ NS_PRECONDITION
 aElement
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 =

@@ -1274,7 +1274,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 ;
