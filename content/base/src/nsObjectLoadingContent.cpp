@@ -15364,8 +15364,7 @@ false
 ;
 if
 (
-!
-mInstanceOwner
+mIsStopping
 )
 {
 /
