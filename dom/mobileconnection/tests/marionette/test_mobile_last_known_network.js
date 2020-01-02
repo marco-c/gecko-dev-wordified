@@ -109,5 +109,10 @@ Android
 )
 ;
 }
+[
+"
+mobilenetwork
+"
+]
 )
 ;
