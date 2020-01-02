@@ -1411,8 +1411,9 @@ frame
 frame
 )
 {
-JS_ASSERT
+JS_ASSERT_IF
 (
+frame
 UncheckedUnwrap
 (
 frame
@@ -5901,13 +5902,14 @@ DebuggerVector
 *
 dbgs
 =
-frame
+cx
 -
 >
 global
 (
 )
-.
+-
+>
 getDebuggers
 (
 )
