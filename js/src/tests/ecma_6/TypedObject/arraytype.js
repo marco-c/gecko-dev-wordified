@@ -272,9 +272,13 @@ toSource
 (
 )
 "
+new
+ArrayType
+(
 uint8
+)
 .
-array
+dimension
 (
 10
 )
