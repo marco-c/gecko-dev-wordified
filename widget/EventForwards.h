@@ -610,13 +610,6 @@ mozilla
 InternalFormEvent
 nsFormEvent
 ;
-typedef
-mozilla
-:
-:
-InternalClipboardEvent
-nsClipboardEvent
-;
 #
 endif
 /

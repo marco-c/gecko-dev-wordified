@@ -157,7 +157,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsClipboardEvent
+mozilla
+:
+:
+InternalClipboardEvent
 *
 aEvent
 )

@@ -4260,7 +4260,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsClipboardEvent
+InternalClipboardEvent
 *
 >
 (
