@@ -980,18 +980,15 @@ TILING_PRLOG
 (
 "
 TILING
-0x
 %
 p
 :
 Found
 scrollAncestor
-0x
 %
 p
 and
 displayPortAncestor
-0x
 %
 p
 \
@@ -1210,7 +1207,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -1281,7 +1277,6 @@ TILING_PRLOG
 (
 "
 TILING
-0x
 %
 p
 :
@@ -1351,7 +1346,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -1405,7 +1399,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -1595,6 +1588,30 @@ the
 resolution
 is
 unchanged
+and
+we
+'
+re
+not
+/
+/
+in
+a
+reftest
+scenario
+(
+that
+'
+s
+what
+the
+HasShadowManager
+(
+)
+check
+is
+for
+)
 .
 if
 (
@@ -1729,7 +1746,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -1819,7 +1835,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -1849,7 +1864,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -2155,7 +2169,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -2188,7 +2201,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -2251,7 +2263,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -2299,7 +2310,6 @@ TILING_PRLOG
 (
 "
 TILING
-0x
 %
 p
 :
@@ -2426,7 +2436,6 @@ TILING_PRLOG
 (
 "
 TILING
-0x
 %
 p
 :
@@ -2569,7 +2578,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -2596,7 +2604,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -2623,7 +2630,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -2750,7 +2756,6 @@ TILING_PRLOG
 (
 "
 TILING
-0x
 %
 p
 :
@@ -2761,6 +2766,7 @@ path
 \
 n
 "
+this
 )
 )
 ;
@@ -2947,7 +2953,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -2976,7 +2981,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -3037,7 +3041,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -3131,7 +3134,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -3345,7 +3347,6 @@ TILING_PRLOG
 (
 "
 TILING
-0x
 %
 p
 :
