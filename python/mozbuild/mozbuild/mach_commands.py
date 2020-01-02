@@ -4156,6 +4156,9 @@ RecursiveMake
 '
 AndroidEclipse
 '
+'
+VisualStudio
+'
 ]
         
 default
