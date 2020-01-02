@@ -244,7 +244,7 @@ final
 int
 DEFAULT_COLOR
 =
-0x46ECF0F3
+0xFFECF0F3
 ;
 /
 /
