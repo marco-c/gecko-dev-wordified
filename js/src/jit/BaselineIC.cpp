@@ -27392,7 +27392,10 @@ ExtractTemp1
 ;
 JS_ASSERT
 (
+Register
+(
 strExtract2
+)
 =
 =
 strExtract
