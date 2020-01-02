@@ -58,7 +58,12 @@ mozbuild
 .
 util
 import
+(
+    
 FileAvoidWrite
+    
+shell_quote
+)
 generator_wants_sorted_dependencies
 =
 True
@@ -2320,6 +2325,8 @@ configname
 ]
 =
 [
+shell_quote
+(
 "
 -
 D
@@ -2328,6 +2335,7 @@ s
 "
 %
 d
+)
 for
 d
 in
