@@ -1491,6 +1491,17 @@ mozilla
 /
 dom
 /
+MediaQueryList
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ScriptSettings
 .
 h
@@ -27153,7 +27164,7 @@ ErrorCode
 }
 already_AddRefed
 <
-nsIDOMMediaQueryList
+MediaQueryList
 >
 nsGlobalWindow
 :

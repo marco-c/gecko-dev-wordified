@@ -607,6 +607,9 @@ class
 Gamepad
 ;
 class
+MediaQueryList
+;
+class
 Navigator
 ;
 class
@@ -5019,7 +5022,13 @@ aError
 ;
 already_AddRefed
 <
-nsIDOMMediaQueryList
+mozilla
+:
+:
+dom
+:
+:
+MediaQueryList
 >
 MatchMedia
 (

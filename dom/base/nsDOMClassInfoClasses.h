@@ -434,10 +434,6 @@ DOMCI_CLASS
 (
 CSSPageRule
 )
-DOMCI_CLASS
-(
-MediaQueryList
-)
 #
 ifdef
 MOZ_B2G_RIL
