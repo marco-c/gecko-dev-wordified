@@ -98,14 +98,14 @@ int
 *
 gFinalizerTestResources
 =
-NULL
+nullptr
 ;
 char
 *
 *
 gFinalizerTestNames
 =
-NULL
+nullptr
 ;
 size_t
 gFinalizerTestSize
@@ -166,7 +166,7 @@ gFinalizerTestNames
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -737,7 +737,7 @@ b
 Resource
 type
 :
-NULL
+nullptr
 /
 /
 Acquire
@@ -764,7 +764,7 @@ Always
 index
 0
 return
-NULL
+nullptr
 ;
 }
 /
@@ -785,7 +785,7 @@ if
 i
 !
 =
-NULL
+nullptr
 )
 {
 MOZ_CRASH
@@ -1174,7 +1174,7 @@ checking
 that
 we
 reject
-NULL
+nullptr
 finalizer
 afun
 *
@@ -1183,7 +1183,7 @@ test_finalizer_rel_null_function
 )
 {
 return
-NULL
+nullptr
 ;
 }
 void

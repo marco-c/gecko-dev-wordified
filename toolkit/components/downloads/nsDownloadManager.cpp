@@ -15438,7 +15438,7 @@ nsDownload
 NS_IMPL_CLASSINFO
 (
 nsDownload
-NULL
+nullptr
 0
 NS_DOWNLOAD_CID
 )
@@ -15598,7 +15598,7 @@ GError
 *
 err
 =
-NULL
+nullptr
 ;
 g_file_set_attributes_finish
 (
@@ -15607,7 +15607,7 @@ G_FILE
 source_obj
 )
 res
-NULL
+nullptr
 &
 err
 )
@@ -16558,8 +16558,8 @@ path
 get
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -16661,9 +16661,9 @@ gio_file
 file_info
 G_FILE_QUERY_INFO_NONE
 G_PRIORITY_DEFAULT
-NULL
+nullptr
 gio_set_metadata_done
-NULL
+nullptr
 )
 ;
 g_object_unref
@@ -16739,7 +16739,7 @@ DownloadFileFinished
 "
 )
 observedObject
-NULL
+nullptr
 TRUE
 )
 ;

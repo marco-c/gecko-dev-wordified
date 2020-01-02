@@ -169,10 +169,10 @@ CreateFileW
 file1Path
 GENERIC_READ
 FILE_SHARE_READ
-NULL
+nullptr
 OPEN_EXISTING
 0
-NULL
+nullptr
 )
 )
 ;
@@ -196,10 +196,10 @@ CreateFileW
 file2Path
 GENERIC_READ
 FILE_SHARE_READ
-NULL
+nullptr
 OPEN_EXISTING
 0
-NULL
+nullptr
 )
 )
 ;
@@ -221,7 +221,7 @@ fileSize1
 GetFileSize
 (
 file1
-NULL
+nullptr
 )
 ;
 DWORD
@@ -230,7 +230,7 @@ fileSize2
 GetFileSize
 (
 file2
-NULL
+nullptr
 )
 ;
 if
@@ -326,7 +326,7 @@ buf1
 COMPARE_BLOCKSIZE
 &
 readAmount
-NULL
+nullptr
 )
 |
 |
@@ -350,7 +350,7 @@ buf2
 COMPARE_BLOCKSIZE
 &
 readAmount
-NULL
+nullptr
 )
 |
 |
@@ -402,7 +402,7 @@ buf1
 leftOver
 &
 readAmount
-NULL
+nullptr
 )
 |
 |
@@ -426,7 +426,7 @@ buf2
 leftOver
 &
 readAmount
-NULL
+nullptr
 )
 |
 |

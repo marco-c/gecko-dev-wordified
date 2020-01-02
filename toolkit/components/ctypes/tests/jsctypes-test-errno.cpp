@@ -169,7 +169,7 @@ __LINE__
 int
 *
 )
-NULL
+nullptr
 )
 +
 +
