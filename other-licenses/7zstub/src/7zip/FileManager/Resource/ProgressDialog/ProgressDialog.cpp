@@ -760,7 +760,7 @@ cancel
 ?
 "
 _title
-MB_YESNOCANCEL
+MB_YESNO
 )
 ;
 ProgressSynch
@@ -772,12 +772,6 @@ paused
 ;
 if
 (
-res
-=
-=
-IDCANCEL
-|
-|
 res
 =
 =
