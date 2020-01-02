@@ -6604,7 +6604,7 @@ transform
 scale
 (
 .
-1
+7
 )
 ;
 opacity
@@ -6624,7 +6624,7 @@ duration
 :
 0
 .
-25s
+15s
 ;
 transition
 -
@@ -6632,21 +6632,6 @@ timing
 -
 function
 :
-cubic
--
-bezier
-(
-.
-6
-1
-.
-0
-.
-65
-1
-.
-0
-)
 ease
 ;
 /
@@ -6821,7 +6806,7 @@ transform
 scale
 (
 .
-1
+7
 )
 skew
 (
@@ -6868,7 +6853,7 @@ transform
 scale
 (
 .
-1
+7
 )
 skew
 (
