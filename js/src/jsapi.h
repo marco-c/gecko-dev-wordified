@@ -6553,6 +6553,17 @@ d
 0
 ;
 }
+if
+(
+v
+.
+isSymbol
+(
+)
+)
+return
+true
+;
 /
 *
 The
