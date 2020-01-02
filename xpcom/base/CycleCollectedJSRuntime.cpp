@@ -3647,6 +3647,9 @@ Object
 String
 "
 "
+Symbol
+"
+"
 Script
 "
 "

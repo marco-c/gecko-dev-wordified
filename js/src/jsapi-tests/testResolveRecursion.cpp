@@ -525,9 +525,11 @@ incr
 this
 )
 ;
-CHECK_EQUAL
+CHECK
 (
 obj
+=
+=
 obj1
 |
 |

@@ -4563,6 +4563,12 @@ string
 "
 JSTRACE_STRING
 }
+{
+"
+symbol
+"
+JSTRACE_SYMBOL
+}
 }
 ;
 static

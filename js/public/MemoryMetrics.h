@@ -2319,6 +2319,13 @@ macro
 macro
 (
 Other
+IsLiveGCThing
+symbolsGCHeap
+)
+\
+macro
+(
+Other
 NotLiveGCThing
 gcHeapArenaAdmin
 )

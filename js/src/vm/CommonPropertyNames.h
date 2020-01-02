@@ -1964,6 +1964,15 @@ null
 null
 "
 )
+\
+macro
+(
+symbol
+symbol
+"
+symbol
+"
+)
 #
 endif
 /
