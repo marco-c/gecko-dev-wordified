@@ -7453,6 +7453,15 @@ ins
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+;
 }
 ;
 /
