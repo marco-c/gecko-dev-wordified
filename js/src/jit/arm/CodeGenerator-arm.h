@@ -507,6 +507,15 @@ ins
 ;
 virtual
 bool
+visitAbsF
+(
+LAbsF
+*
+ins
+)
+;
+virtual
+bool
 visitSqrtD
 (
 LSqrtD
