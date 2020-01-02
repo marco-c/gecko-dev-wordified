@@ -981,6 +981,9 @@ rejection
 .
 *
 /
+#
+ifndef
+JSGC_USE_EXACT_ROOTING
 static
 inline
 ConservativeGCTest
@@ -1753,9 +1756,6 @@ return
 CGCT_VALID
 ;
 }
-#
-ifndef
-JSGC_USE_EXACT_ROOTING
 static
 void
 MarkWordConservatively
