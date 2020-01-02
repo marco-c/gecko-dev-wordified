@@ -30633,7 +30633,7 @@ _restoreZoom
 &
 cwu
 .
-isHistoryRestored
+isResolutionSet
 )
 {
 return
