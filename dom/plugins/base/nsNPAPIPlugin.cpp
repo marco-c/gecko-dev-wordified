@@ -590,7 +590,9 @@ h
 #
 include
 "
-nsWindowsHelpers
+mozilla
+/
+WindowsVersion
 .
 h
 "
