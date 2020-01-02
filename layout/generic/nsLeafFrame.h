@@ -407,7 +407,7 @@ done
 *
 /
 virtual
-nsresult
+void
 DoReflow
 (
 nsPresContext

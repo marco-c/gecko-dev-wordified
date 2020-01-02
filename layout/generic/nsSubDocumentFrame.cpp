@@ -4383,9 +4383,6 @@ or
 <
 embed
 >
-nsresult
-rv
-=
 nsLeafFrame
 :
 :
@@ -4397,17 +4394,6 @@ aReflowState
 aStatus
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-return
-;
-}
 /
 /
 "
