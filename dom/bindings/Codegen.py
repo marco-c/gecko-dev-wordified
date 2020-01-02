@@ -20706,23 +20706,6 @@ aCx
                 
 Argument
 (
-'
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-'
-'
-aScope
-'
-)
-                
-Argument
-(
 descriptor
 .
 nativeType

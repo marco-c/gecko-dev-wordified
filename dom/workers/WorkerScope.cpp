@@ -1478,7 +1478,6 @@ DedicatedWorkerGlobalScopeBinding_workers
 Wrap
 (
 aCx
-scope
 this
 this
 options
@@ -1691,7 +1690,6 @@ SharedWorkerGlobalScopeBinding_workers
 Wrap
 (
 aCx
-scope
 this
 this
 options
