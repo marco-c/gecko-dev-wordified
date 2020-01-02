@@ -3194,10 +3194,6 @@ uninitPanel
 true
 )
 ;
-gEditItemOverlay
-=
-null
-;
 this
 .
 _endBatch
@@ -3270,10 +3266,6 @@ uninitPanel
 (
 true
 )
-;
-gEditItemOverlay
-=
-null
 ;
 this
 .
