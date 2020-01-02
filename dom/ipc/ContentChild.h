@@ -793,9 +793,9 @@ bool
 &
 aMinimizeMemoryUsage
 const
-nsString
+FileDescriptor
 &
-aDMDDumpIdent
+aDMDFile
 )
 MOZ_OVERRIDE
 ;
@@ -829,9 +829,9 @@ bool
 &
 aMinimizeMemoryUsage
 const
-nsString
+FileDescriptor
 &
-aDMDDumpIdent
+aDMDFile
 )
 MOZ_OVERRIDE
 ;
