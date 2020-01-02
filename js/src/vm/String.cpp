@@ -461,6 +461,9 @@ jschar
 s
 size_t
 n
+FILE
+*
+fp
 )
 {
 if
@@ -492,7 +495,7 @@ fputc
 '
 "
 '
-stderr
+fp
 )
 ;
 for
@@ -526,7 +529,7 @@ n
 )
 fprintf
 (
-stderr
+fp
 "
 \
 \
@@ -550,7 +553,7 @@ t
 )
 fprintf
 (
-stderr
+fp
 "
 \
 \
@@ -583,7 +586,7 @@ s
 [
 i
 ]
-stderr
+fp
 )
 ;
 else
@@ -599,7 +602,7 @@ i
 )
 fprintf
 (
-stderr
+fp
 "
 \
 \
@@ -620,7 +623,7 @@ i
 else
 fprintf
 (
-stderr
+fp
 "
 \
 \
@@ -644,7 +647,7 @@ fputc
 '
 "
 '
-stderr
+fp
 )
 ;
 }

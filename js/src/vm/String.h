@@ -3508,6 +3508,11 @@ jschar
 s
 size_t
 len
+FILE
+*
+fp
+=
+stderr
 )
 ;
 bool
