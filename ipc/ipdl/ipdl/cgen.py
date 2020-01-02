@@ -73,7 +73,6 @@ INOUT
 ASYNC
 SYNC
 INTR
-URGENT
 class
 CodePrinter
 :
