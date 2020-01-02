@@ -4885,10 +4885,7 @@ null
 aScriptSample
 )
 ?
-decodeURIComponent
-(
 aScriptSample
-)
 :
 null
 (
