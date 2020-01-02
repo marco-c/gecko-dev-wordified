@@ -7823,16 +7823,6 @@ actualOffset
 osiCallPointOffset_
 )
 ;
-safepointOffset_
-=
-masm
--
->
-actualOffset
-(
-safepointOffset_
-)
-;
 }
 }
 ;
