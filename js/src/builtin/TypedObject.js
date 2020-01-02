@@ -1105,7 +1105,10 @@ of
 -
 bounds
 index
+:
 "
++
+index
 )
 ;
 var
@@ -2089,6 +2092,13 @@ Adapt
 each
 element
 .
+if
+(
+length
+>
+0
+)
+{
 var
 tempPtr
 =
@@ -2146,6 +2156,7 @@ offset
 =
 size
 ;
+}
 }
 return
 ;
