@@ -357,6 +357,9 @@ other
 )
 const
 {
+#
+ifdef
+JS_THREADSAFE
 return
 monitor
 .
@@ -367,6 +370,13 @@ other
 .
 lock_
 ;
+#
+else
+return
+true
+;
+#
+endif
 }
 void
 wait
@@ -607,6 +617,9 @@ other
 )
 const
 {
+#
+ifdef
+JS_THREADSAFE
 return
 monitor
 .
@@ -617,6 +630,13 @@ other
 .
 lock_
 ;
+#
+else
+return
+true
+;
+#
+endif
 }
 }
 ;
