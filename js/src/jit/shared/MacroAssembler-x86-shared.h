@@ -4172,7 +4172,7 @@ cl
 void
 callWithExitFrame
 (
-IonCode
+JitCode
 *
 target
 )

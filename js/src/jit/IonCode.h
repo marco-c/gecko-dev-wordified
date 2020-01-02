@@ -267,7 +267,7 @@ class
 PatchableBackedge
 ;
 class
-IonCode
+JitCode
 :
 public
 gc
@@ -275,7 +275,7 @@ gc
 :
 BarrieredCell
 <
-IonCode
+JitCode
 >
 {
 protected
@@ -390,7 +390,7 @@ JS_BITS_PER_WORD
 /
 /
 Ensure
-IonCode
+JitCode
 is
 gc
 :
@@ -403,7 +403,7 @@ padding_
 ;
 #
 endif
-IonCode
+JitCode
 (
 )
 :
@@ -417,7 +417,7 @@ nullptr
 )
 {
 }
-IonCode
+JitCode
 (
 uint8_t
 *
@@ -582,7 +582,7 @@ enabled
 /
 If
 this
-IonCode
+JitCode
 object
 has
 been
@@ -660,7 +660,7 @@ masm
 )
 ;
 static
-IonCode
+JitCode
 *
 FromExecutable
 (
@@ -669,13 +669,13 @@ uint8_t
 buffer
 )
 {
-IonCode
+JitCode
 *
 code
 =
 *
 (
-IonCode
+JitCode
 *
 *
 )
@@ -684,7 +684,7 @@ buffer
 -
 sizeof
 (
-IonCode
+JitCode
 *
 )
 )
@@ -715,7 +715,7 @@ offsetOfCode
 return
 offsetof
 (
-IonCode
+JitCode
 code_
 )
 ;
@@ -739,7 +739,7 @@ jumpRelocTableOffset
 Allocates
 a
 new
-IonCode
+JitCode
 object
 which
 will
@@ -784,7 +784,7 @@ AllowGC
 allowGC
 >
 static
-IonCode
+JitCode
 *
 New
 (
@@ -814,7 +814,7 @@ rootKind
 )
 {
 return
-THING_ROOT_ION_CODE
+THING_ROOT_JIT_CODE
 ;
 }
 }
@@ -927,7 +927,7 @@ method
 .
 EncapsulatedPtr
 <
-IonCode
+JitCode
 >
 method_
 ;
@@ -942,7 +942,7 @@ method
 .
 EncapsulatedPtr
 <
-IonCode
+JitCode
 >
 deoptTable_
 ;
@@ -2056,7 +2056,7 @@ refcount_
 }
 public
 :
-IonCode
+JitCode
 *
 method
 (
@@ -2070,7 +2070,7 @@ method_
 void
 setMethod
 (
-IonCode
+JitCode
 *
 code
 )
@@ -2091,7 +2091,7 @@ code
 void
 setDeoptTable
 (
-IonCode
+JitCode
 *
 code
 )
@@ -2935,7 +2935,7 @@ copyPatchableBackedges
 JSContext
 *
 cx
-IonCode
+JitCode
 *
 code
 PatchableBackedgeInfo

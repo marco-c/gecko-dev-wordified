@@ -1076,7 +1076,7 @@ frameSize
 lr
 )
 ;
-IonCode
+JitCode
 *
 handler
 =
@@ -14446,7 +14446,7 @@ uintptr_t
 )
 )
 ;
-IonCode
+JitCode
 *
 thunk
 =

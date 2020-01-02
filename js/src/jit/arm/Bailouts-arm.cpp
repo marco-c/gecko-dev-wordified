@@ -302,7 +302,7 @@ the
 bailout
 ID
 .
-IonCode
+JitCode
 *
 code
 =
@@ -886,7 +886,7 @@ runtimeFromMainThread
 (
 )
 ;
-IonCode
+JitCode
 *
 code
 =

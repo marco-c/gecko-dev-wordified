@@ -4641,7 +4641,7 @@ the
 VM
 function
 .
-IonCode
+JitCode
 *
 wrapper
 =

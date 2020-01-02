@@ -11586,7 +11586,7 @@ c
 .
 f
 .
-IonCode
+JitCode
 :
 :
 copyFrom
@@ -36947,7 +36947,7 @@ and
 generates
 a
 new
-IonCode
+JitCode
 for
 /
 /

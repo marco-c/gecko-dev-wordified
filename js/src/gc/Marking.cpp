@@ -785,7 +785,7 @@ trc
 jit
 :
 :
-IonCode
+JitCode
 *
 code
 )
@@ -2567,11 +2567,11 @@ UnownedBaseShape
 )
 DeclMarkerImpl
 (
-IonCode
+JitCode
 jit
 :
 :
-IonCode
+JitCode
 )
 DeclMarkerImpl
 (
@@ -2903,7 +2903,7 @@ thingp
 break
 ;
 case
-JSTRACE_IONCODE
+JSTRACE_JITCODE
 :
 MarkInternal
 (
@@ -2913,7 +2913,7 @@ reinterpret_cast
 jit
 :
 :
-IonCode
+JitCode
 *
 *
 >
@@ -5500,7 +5500,7 @@ gcmarker
 jit
 :
 :
-IonCode
+JitCode
 *
 thing
 )
@@ -5545,7 +5545,7 @@ getMarkColor
 gcmarker
 -
 >
-pushIonCode
+pushJitCode
 (
 thing
 )
@@ -7730,7 +7730,7 @@ trc
 jit
 :
 :
-IonCode
+JitCode
 *
 code
 )
@@ -7939,7 +7939,7 @@ aheader
 break
 ;
 case
-JSTRACE_IONCODE
+JSTRACE_JITCODE
 :
 PushArenaTyped
 <
@@ -7949,7 +7949,7 @@ js
 jit
 :
 :
-IonCode
+JitCode
 >
 (
 gcmarker
@@ -8872,7 +8872,7 @@ if
 tag
 =
 =
-IonCodeTag
+JitCodeTag
 )
 {
 MarkChildren
@@ -8883,7 +8883,7 @@ reinterpret_cast
 jit
 :
 :
-IonCode
+JitCode
 *
 >
 (
@@ -9894,7 +9894,7 @@ thing
 break
 ;
 case
-JSTRACE_IONCODE
+JSTRACE_JITCODE
 :
 MarkChildren
 (
@@ -9906,7 +9906,7 @@ js
 jit
 :
 :
-IonCode
+JitCode
 *
 )
 thing

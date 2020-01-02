@@ -1717,7 +1717,7 @@ callWithABI
 handler
 )
 ;
-IonCode
+JitCode
 *
 excTail
 =

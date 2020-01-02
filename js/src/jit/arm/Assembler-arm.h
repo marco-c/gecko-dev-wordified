@@ -7091,7 +7091,7 @@ uint8_t
 *
 PatchableJumpAddress
 (
-IonCode
+JitCode
 *
 code
 uint32_t
@@ -10271,7 +10271,7 @@ TraceJumpRelocations
 JSTracer
 *
 trc
-IonCode
+JitCode
 *
 code
 CompactBufferReader
@@ -10286,7 +10286,7 @@ TraceDataRelocations
 JSTracer
 *
 trc
-IonCode
+JitCode
 *
 code
 CompactBufferReader
@@ -10335,7 +10335,7 @@ kind
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 writeRelocation
 (

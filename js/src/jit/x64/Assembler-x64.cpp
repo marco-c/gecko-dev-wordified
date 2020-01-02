@@ -544,7 +544,7 @@ reloc
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 {
 jumpRelocations_
@@ -634,7 +634,7 @@ reloc
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 writeRelocation
 (
@@ -752,7 +752,7 @@ Assembler
 :
 PatchableJumpAddress
 (
-IonCode
+JitCode
 *
 code
 size_t
@@ -950,7 +950,7 @@ relocation
 buffer
 if
 any
-IonCode
+JitCode
 references
 exist
 and
@@ -1523,14 +1523,14 @@ extOffset_
 }
 }
 ;
-IonCode
+JitCode
 *
 Assembler
 :
 :
 CodeFromJump
 (
-IonCode
+JitCode
 *
 code
 uint8_t
@@ -1652,7 +1652,7 @@ SizeOfExtendedJump
 ;
 }
 return
-IonCode
+JitCode
 :
 :
 FromExecutable
@@ -1670,7 +1670,7 @@ TraceJumpRelocations
 JSTracer
 *
 trc
-IonCode
+JitCode
 *
 code
 CompactBufferReader
@@ -1693,7 +1693,7 @@ read
 )
 )
 {
-IonCode
+JitCode
 *
 child
 =
@@ -1714,7 +1714,7 @@ offset
 )
 )
 ;
-MarkIonCodeUnbarriered
+MarkJitCodeUnbarriered
 (
 trc
 &

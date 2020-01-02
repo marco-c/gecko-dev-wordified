@@ -1418,7 +1418,7 @@ virtual
 void
 updateBaseAddress
 (
-IonCode
+JitCode
 *
 code
 MacroAssembler
@@ -1587,7 +1587,7 @@ masm
 IonScript
 *
 ion
-IonCode
+JitCode
 *
 *
 code
@@ -1627,7 +1627,7 @@ StubAttacher
 attacher
 Handle
 <
-IonCode
+JitCode
 *
 >
 code
@@ -2793,7 +2793,7 @@ finalized
 void
 updateBaseAddress
 (
-IonCode
+JitCode
 *
 code
 MacroAssembler
@@ -3995,7 +3995,7 @@ finalized
 void
 updateBaseAddress
 (
-IonCode
+JitCode
 *
 code
 MacroAssembler

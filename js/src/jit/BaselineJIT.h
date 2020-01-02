@@ -653,7 +653,7 @@ method
 .
 HeapPtr
 <
-IonCode
+JitCode
 >
 method_
 ;
@@ -1297,7 +1297,7 @@ return
 fallbackStubSpace_
 ;
 }
-IonCode
+JitCode
 *
 method
 (
@@ -1311,7 +1311,7 @@ method_
 void
 setMethod
 (
-IonCode
+JitCode
 *
 code
 )

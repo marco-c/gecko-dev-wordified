@@ -11915,7 +11915,7 @@ MacroAssemblerARMCompat
 :
 callWithExitFrame
 (
-IonCode
+JitCode
 *
 target
 )
@@ -11961,7 +11961,7 @@ raw
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 ;
 RelocStyle
@@ -12010,7 +12010,7 @@ MacroAssemblerARMCompat
 :
 callWithExitFrame
 (
-IonCode
+JitCode
 *
 target
 Register
@@ -12061,7 +12061,7 @@ raw
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 ;
 RelocStyle
@@ -23750,7 +23750,7 @@ callWithABI
 handler
 )
 ;
-IonCode
+JitCode
 *
 excTail
 =
@@ -25471,7 +25471,7 @@ MacroAssemblerARMCompat
 :
 toggledCall
 (
-IonCode
+JitCode
 *
 target
 bool
@@ -25510,7 +25510,7 @@ raw
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 ;
 ma_movPatchable

@@ -478,7 +478,7 @@ JS_ASSERT
 kind
 =
 =
-JSTRACE_IONCODE
+JSTRACE_JITCODE
 )
 ;
 static_cast
@@ -486,7 +486,7 @@ static_cast
 jit
 :
 :
-IonCode
+JitCode
 *
 >
 (

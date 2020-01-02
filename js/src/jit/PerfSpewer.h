@@ -362,7 +362,7 @@ writeProfile
 JSScript
 *
 script
-IonCode
+JitCode
 *
 code
 MacroAssembler
@@ -378,15 +378,15 @@ writePerfSpewerBaselineProfile
 JSScript
 *
 script
-IonCode
+JitCode
 *
 code
 )
 ;
 void
-writePerfSpewerIonCodeProfile
+writePerfSpewerJitCodeProfile
 (
-IonCode
+JitCode
 *
 code
 const

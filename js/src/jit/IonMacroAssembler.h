@@ -4065,7 +4065,7 @@ jitRuntime
 (
 )
 ;
-IonCode
+JitCode
 *
 preBarrier
 =
@@ -5093,7 +5093,7 @@ fail
 /
 If
 the
-IonCode
+JitCode
 that
 created
 this
@@ -5111,7 +5111,7 @@ want
 to
 store
 the
-IonCode
+JitCode
 on
 the
 stack
@@ -5136,7 +5136,7 @@ patch
 location
 where
 the
-IonCode
+JitCode
 *
 will
 be
@@ -5208,7 +5208,7 @@ f
 void
 enterFakeExitFrame
 (
-IonCode
+JitCode
 *
 codeVal
 =
@@ -5291,7 +5291,7 @@ Register
 slice
 Register
 scratch
-IonCode
+JitCode
 *
 codeVal
 =
@@ -5307,7 +5307,7 @@ Register
 scratch
 ExecutionMode
 executionMode
-IonCode
+JitCode
 *
 codeVal
 =
@@ -5350,7 +5350,7 @@ offset
 void
 link
 (
-IonCode
+JitCode
 *
 code
 )
@@ -5387,7 +5387,7 @@ store
 /
 /
 the
-IonCode
+JitCode
 onto
 the
 stack
@@ -5412,7 +5412,7 @@ needed
 to
 push
 its
-IonCode
+JitCode
 *
 .
 if
@@ -5679,7 +5679,7 @@ returned
 uint32_t
 callWithExitFrame
 (
-IonCode
+JitCode
 *
 target
 )
@@ -5723,7 +5723,7 @@ returned
 uint32_t
 callWithExitFrame
 (
-IonCode
+JitCode
 *
 target
 Register

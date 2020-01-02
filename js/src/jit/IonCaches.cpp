@@ -300,7 +300,7 @@ CodeLocationJump
 :
 repoint
 (
-IonCode
+JitCode
 *
 code
 MacroAssembler
@@ -434,7 +434,7 @@ CodeLocationLabel
 :
 repoint
 (
-IonCode
+JitCode
 *
 code
 MacroAssembler
@@ -650,7 +650,7 @@ masm
 IonScript
 *
 ion
-IonCode
+JitCode
 *
 *
 code
@@ -1122,7 +1122,7 @@ used
 instead
 of
 the
-IonCode
+JitCode
 self
 -
 reference
@@ -1161,7 +1161,7 @@ allocation
 /
 of
 the
-IonCode
+JitCode
 .
 The
 self
@@ -1390,7 +1390,7 @@ masm
 /
 Push
 the
-IonCode
+JitCode
 pointer
 for
 the
@@ -1409,7 +1409,7 @@ WARNING
 WARNING
 :
 If
-IonCode
+JitCode
 ever
 becomes
 relocatable
@@ -1556,7 +1556,7 @@ patchRejoinJump
 MacroAssembler
 &
 masm
-IonCode
+JitCode
 *
 code
 )
@@ -1589,7 +1589,7 @@ patchStubCodePointer
 MacroAssembler
 &
 masm
-IonCode
+JitCode
 *
 code
 )
@@ -1633,7 +1633,7 @@ patchNextStubJump
 MacroAssembler
 &
 masm
-IonCode
+JitCode
 *
 code
 )
@@ -1706,7 +1706,7 @@ patchNextStubJump
 MacroAssembler
 &
 masm
-IonCode
+JitCode
 *
 code
 )
@@ -1941,7 +1941,7 @@ RepatchIonCache
 :
 updateBaseAddress
 (
-IonCode
+JitCode
 *
 code
 MacroAssembler
@@ -2020,7 +2020,7 @@ patchNextStubJump
 MacroAssembler
 &
 masm
-IonCode
+JitCode
 *
 code
 )
@@ -2249,7 +2249,7 @@ DispatchIonCache
 :
 updateBaseAddress
 (
-IonCode
+JitCode
 *
 code
 MacroAssembler
@@ -2360,7 +2360,7 @@ StubAttacher
 attacher
 Handle
 <
-IonCode
+JitCode
 *
 >
 code
@@ -2484,7 +2484,7 @@ attachKind
 {
 Rooted
 <
-IonCode
+JitCode
 *
 >
 code
@@ -2634,7 +2634,7 @@ raw
 #
 ifdef
 JS_ION_PERF
-writePerfSpewerIonCodeProfile
+writePerfSpewerJitCodeProfile
 (
 code
 "
@@ -2654,7 +2654,7 @@ IonCache
 :
 updateBaseAddress
 (
-IonCode
+JitCode
 *
 code
 MacroAssembler

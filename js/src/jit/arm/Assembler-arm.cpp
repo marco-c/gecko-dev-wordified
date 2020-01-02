@@ -3193,7 +3193,7 @@ Assembler
 :
 PatchableJumpAddress
 (
-IonCode
+JitCode
 *
 code
 uint32_t
@@ -4363,7 +4363,7 @@ relocation
 ;
 }
 static
-IonCode
+JitCode
 *
 CodeFromJump
 (
@@ -4389,7 +4389,7 @@ jump
 )
 ;
 return
-IonCode
+JitCode
 :
 :
 FromExecutable
@@ -4407,7 +4407,7 @@ TraceJumpRelocations
 JSTracer
 *
 trc
-IonCode
+JitCode
 *
 code
 CompactBufferReader
@@ -4453,7 +4453,7 @@ offset
 )
 )
 ;
-IonCode
+JitCode
 *
 child
 =
@@ -4463,7 +4463,7 @@ CodeFromJump
 institer
 )
 ;
-MarkIonCodeUnbarriered
+MarkJitCodeUnbarriered
 (
 trc
 &
@@ -4720,7 +4720,7 @@ TraceDataRelocations
 JSTracer
 *
 trc
-IonCode
+JitCode
 *
 code
 CompactBufferReader
@@ -4898,14 +4898,14 @@ kind
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 {
-IonCode
+JitCode
 *
 code
 =
-IonCode
+JitCode
 :
 :
 FromExecutable
@@ -4919,7 +4919,7 @@ rp
 target
 )
 ;
-MarkIonCodeUnbarriered
+MarkJitCodeUnbarriered
 (
 trc
 &
@@ -4934,7 +4934,7 @@ JS_ASSERT
 code
 =
 =
-IonCode
+JitCode
 :
 :
 FromExecutable

@@ -10632,7 +10632,7 @@ pathPrefix
 NS_LITERAL_CSTRING
 (
 "
-ion
+jit
 -
 codes
 -
@@ -10643,7 +10643,7 @@ heap
 )
 zStats
 .
-ionCodesGCHeap
+jitCodesGCHeap
 "
 Memory
 on
@@ -10667,8 +10667,7 @@ pools
 used
 by
 the
-IonMonkey
-JIT
+JITs
 .
 "
 )

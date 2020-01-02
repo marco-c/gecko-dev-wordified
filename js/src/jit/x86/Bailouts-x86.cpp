@@ -556,7 +556,7 @@ runtimeFromMainThread
 (
 )
 ;
-IonCode
+JitCode
 *
 code
 =

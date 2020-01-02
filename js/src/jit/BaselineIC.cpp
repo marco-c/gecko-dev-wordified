@@ -906,19 +906,19 @@ char
 name
 )
 {
-IonCode
+JitCode
 *
-stubIonCode
+stubJitCode
 =
-ionCode
+jitCode
 (
 )
 ;
-MarkIonCodeUnbarriered
+MarkJitCodeUnbarriered
 (
 trc
 &
-stubIonCode
+stubJitCode
 name
 )
 ;
@@ -929,7 +929,7 @@ ICStub
 :
 updateCode
 (
-IonCode
+JitCode
 *
 code
 )
@@ -946,12 +946,12 @@ code
 #
 ifdef
 JSGC_INCREMENTAL
-IonCode
+JitCode
 :
 :
 writeBarrierPre
 (
-ionCode
+jitCode
 (
 )
 )
@@ -992,7 +992,7 @@ baseline
 -
 stub
 -
-ioncode
+jitcode
 "
 )
 ;
@@ -4114,7 +4114,7 @@ stubs
 to
 gcthings
 (
-IonCode
+JitCode
 )
 .
 /
@@ -4285,7 +4285,7 @@ ICMonitoredStub
 (
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -4502,7 +4502,7 @@ return
 true
 ;
 }
-IonCode
+JitCode
 *
 ICStubCompiler
 :
@@ -4542,7 +4542,7 @@ getKey
 (
 )
 ;
-IonCode
+JitCode
 *
 stubCode
 =
@@ -4623,7 +4623,7 @@ masm
 ;
 Rooted
 <
-IonCode
+JitCode
 *
 >
 newStubCode
@@ -4750,7 +4750,7 @@ kind
 #
 ifdef
 JS_ION_PERF
-writePerfSpewerIonCodeProfile
+writePerfSpewerJitCodeProfile
 (
 newStubCode
 "
@@ -4779,7 +4779,7 @@ MacroAssembler
 masm
 )
 {
-IonCode
+JitCode
 *
 code
 =
@@ -4850,7 +4850,7 @@ MacroAssembler
 masm
 )
 {
-IonCode
+JitCode
 *
 code
 =
@@ -4903,7 +4903,7 @@ uint32_t
 objectOffset
 )
 {
-IonCode
+JitCode
 *
 code
 =
@@ -7553,7 +7553,7 @@ masm
 /
 If
 no
-IonCode
+JitCode
 was
 found
 then
@@ -27505,7 +27505,7 @@ ArgumentsRectifierReg
 code
 )
 ;
-IonCode
+JitCode
 *
 argumentsRectifier
 =
@@ -27545,7 +27545,7 @@ loadPtr
 Address
 (
 code
-IonCode
+JitCode
 :
 :
 offsetOfCode
@@ -42616,7 +42616,7 @@ MacroAssembler
 masm
 Handle
 <
-IonCode
+JitCode
 *
 >
 code
@@ -44513,7 +44513,7 @@ ArgumentsRectifierReg
 code
 )
 ;
-IonCode
+JitCode
 *
 argumentsRectifier
 =
@@ -44553,7 +44553,7 @@ loadPtr
 Address
 (
 code
-IonCode
+JitCode
 :
 :
 offsetOfCode
@@ -48555,7 +48555,7 @@ MacroAssembler
 masm
 Handle
 <
-IonCode
+JitCode
 *
 >
 code
@@ -50494,7 +50494,7 @@ ArgumentsRectifierReg
 code
 )
 ;
-IonCode
+JitCode
 *
 argumentsRectifier
 =
@@ -50534,7 +50534,7 @@ loadPtr
 Address
 (
 code
-IonCode
+JitCode
 :
 :
 offsetOfCode
@@ -56179,7 +56179,7 @@ MacroAssembler
 masm
 Handle
 <
-IonCode
+JitCode
 *
 >
 code
@@ -56611,7 +56611,7 @@ start
 of
 the
 target
-IonCode
+JitCode
 .
 Register
 code
@@ -57470,7 +57470,7 @@ ArgumentsRectifierReg
 argcReg
 )
 ;
-IonCode
+JitCode
 *
 argumentsRectifier
 =
@@ -57510,7 +57510,7 @@ loadPtr
 Address
 (
 code
-IonCode
+JitCode
 :
 :
 offsetOfCode
@@ -59360,7 +59360,7 @@ ArgumentsRectifierReg
 argcReg
 )
 ;
-IonCode
+JitCode
 *
 argumentsRectifier
 =
@@ -59400,7 +59400,7 @@ loadPtr
 Address
 (
 target
-IonCode
+JitCode
 :
 :
 offsetOfCode
@@ -60112,7 +60112,7 @@ ArgumentsRectifierReg
 argcReg
 )
 ;
-IonCode
+JitCode
 *
 argumentsRectifier
 =
@@ -60152,7 +60152,7 @@ loadPtr
 Address
 (
 target
-IonCode
+JitCode
 :
 :
 offsetOfCode
@@ -60793,7 +60793,7 @@ ICStubSpace
 space
 )
 {
-IonCode
+JitCode
 *
 code
 =
@@ -63600,7 +63600,7 @@ ICProfiler_PushFunction
 :
 ICProfiler_PushFunction
 (
-IonCode
+JitCode
 *
 stubCode
 const
@@ -63634,7 +63634,7 @@ ICTypeMonitor_SingleObject
 :
 ICTypeMonitor_SingleObject
 (
-IonCode
+JitCode
 *
 stubCode
 HandleObject
@@ -63657,7 +63657,7 @@ ICTypeMonitor_TypeObject
 :
 ICTypeMonitor_TypeObject
 (
-IonCode
+JitCode
 *
 stubCode
 HandleTypeObject
@@ -63680,7 +63680,7 @@ ICTypeUpdate_SingleObject
 :
 ICTypeUpdate_SingleObject
 (
-IonCode
+JitCode
 *
 stubCode
 HandleObject
@@ -63703,7 +63703,7 @@ ICTypeUpdate_TypeObject
 :
 ICTypeUpdate_TypeObject
 (
-IonCode
+JitCode
 *
 stubCode
 HandleTypeObject
@@ -63731,7 +63731,7 @@ ICStub
 :
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -63810,7 +63810,7 @@ ICStub
 :
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -63883,7 +63883,7 @@ ICGetElem_NativePrototypeSlot
 :
 ICGetElem_NativePrototypeSlot
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -63939,7 +63939,7 @@ ICStub
 :
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -63990,7 +63990,7 @@ ICGetElem_Dense
 :
 ICGetElem_Dense
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -64017,7 +64017,7 @@ ICGetElem_TypedArray
 :
 ICGetElem_TypedArray
 (
-IonCode
+JitCode
 *
 stubCode
 HandleShape
@@ -64057,7 +64057,7 @@ ICSetElem_Dense
 :
 ICSetElem_Dense
 (
-IonCode
+JitCode
 *
 stubCode
 HandleShape
@@ -64086,7 +64086,7 @@ ICSetElem_DenseAdd
 :
 ICSetElem_DenseAdd
 (
-IonCode
+JitCode
 *
 stubCode
 types
@@ -64166,7 +64166,7 @@ nullptr
 ;
 Rooted
 <
-IonCode
+JitCode
 *
 >
 stubCode
@@ -64198,7 +64198,7 @@ ICSetElem_TypedArray
 :
 ICSetElem_TypedArray
 (
-IonCode
+JitCode
 *
 stubCode
 HandleShape
@@ -64256,7 +64256,7 @@ ICGetName_Global
 :
 ICGetName_Global
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -64297,7 +64297,7 @@ NumHops
 :
 ICGetName_Scope
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -64385,7 +64385,7 @@ ICGetIntrinsic_Constant
 :
 ICGetIntrinsic_Constant
 (
-IonCode
+JitCode
 *
 stubCode
 HandleValue
@@ -64417,7 +64417,7 @@ ICGetProp_Primitive
 :
 ICGetProp_Primitive
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -64455,7 +64455,7 @@ ICStub
 :
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -64488,7 +64488,7 @@ ICGetProp_NativePrototype
 :
 ICGetProp_NativePrototype
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -64529,7 +64529,7 @@ ICGetPropCallGetter
 (
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -64600,7 +64600,7 @@ ICSetProp_Native
 :
 ICSetProp_Native
 (
-IonCode
+JitCode
 *
 stubCode
 HandleTypeObject
@@ -64724,7 +64724,7 @@ ICSetProp_NativeAdd
 :
 ICSetProp_NativeAdd
 (
-IonCode
+JitCode
 *
 stubCode
 HandleTypeObject
@@ -64781,7 +64781,7 @@ ProtoChainDepth
 :
 ICSetProp_NativeAddImpl
 (
-IonCode
+JitCode
 *
 stubCode
 HandleTypeObject
@@ -64920,7 +64920,7 @@ ICSetPropCallSetter
 (
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 HandleShape
@@ -64987,7 +64987,7 @@ ICCall_Scripted
 :
 ICCall_Scripted
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -65029,7 +65029,7 @@ ICCall_Native
 :
 ICCall_Native
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -65073,7 +65073,7 @@ ICGetPropCallDOMProxyNativeStub
 (
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -65237,7 +65237,7 @@ ICGetProp_DOMProxyShadowed
 :
 ICGetProp_DOMProxyShadowed
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub

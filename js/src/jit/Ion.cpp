@@ -444,7 +444,7 @@ Maybe
 /
 Assert
 that
-IonCode
+JitCode
 is
 gc
 :
@@ -456,7 +456,7 @@ JS_STATIC_ASSERT
 (
 sizeof
 (
-IonCode
+JitCode
 )
 %
 gc
@@ -1303,7 +1303,7 @@ bailoutTables_
 infallibleAppend
 (
 (
-IonCode
+JitCode
 *
 )
 nullptr
@@ -1611,7 +1611,7 @@ return
 true
 ;
 }
-IonCode
+JitCode
 *
 JitRuntime
 :
@@ -3137,7 +3137,7 @@ zone
 gc
 :
 :
-FINALIZE_IONCODE
+FINALIZE_JITCODE
 )
 ;
 !
@@ -3154,7 +3154,7 @@ next
 )
 )
 {
-IonCode
+JitCode
 *
 code
 =
@@ -3162,12 +3162,12 @@ i
 .
 get
 <
-IonCode
+JitCode
 >
 (
 )
 ;
-MarkIonCodeRoot
+MarkJitCodeRoot
 (
 trc
 &
@@ -3391,7 +3391,7 @@ stringConcatStub_
 &
 &
 !
-IsIonCodeMarked
+IsJitCodeMarked
 (
 stringConcatStub_
 .
@@ -3410,7 +3410,7 @@ parallelStringConcatStub_
 &
 &
 !
-IsIonCodeMarked
+IsJitCodeMarked
 (
 parallelStringConcatStub_
 .
@@ -3424,7 +3424,7 @@ parallelStringConcatStub_
 nullptr
 ;
 }
-IonCode
+JitCode
 *
 JitRuntime
 :
@@ -3462,7 +3462,7 @@ classId
 ]
 ;
 }
-IonCode
+JitCode
 *
 JitRuntime
 :
@@ -3528,9 +3528,9 @@ template
 AllowGC
 allowGC
 >
-IonCode
+JitCode
 *
-IonCode
+JitCode
 :
 :
 New
@@ -3551,7 +3551,7 @@ ExecutablePool
 pool
 )
 {
-IonCode
+JitCode
 *
 codeObj
 =
@@ -3560,7 +3560,7 @@ gc
 :
 NewGCThing
 <
-IonCode
+JitCode
 allowGC
 >
 (
@@ -3568,10 +3568,10 @@ cx
 gc
 :
 :
-FINALIZE_IONCODE
+FINALIZE_JITCODE
 sizeof
 (
-IonCode
+JitCode
 )
 gc
 :
@@ -3600,7 +3600,7 @@ new
 (
 codeObj
 )
-IonCode
+JitCode
 (
 code
 bufferSize
@@ -3612,9 +3612,9 @@ codeObj
 ;
 }
 template
-IonCode
+JitCode
 *
-IonCode
+JitCode
 :
 :
 New
@@ -3639,9 +3639,9 @@ pool
 )
 ;
 template
-IonCode
+JitCode
 *
-IonCode
+JitCode
 :
 :
 New
@@ -3666,7 +3666,7 @@ pool
 )
 ;
 void
-IonCode
+JitCode
 :
 :
 copyFrom
@@ -3680,7 +3680,7 @@ masm
 /
 Store
 the
-IonCode
+JitCode
 pointer
 right
 before
@@ -3701,7 +3701,7 @@ tables
 .
 *
 (
-IonCode
+JitCode
 *
 *
 )
@@ -3710,7 +3710,7 @@ code_
 -
 sizeof
 (
-IonCode
+JitCode
 *
 )
 )
@@ -3798,7 +3798,7 @@ code_
 ;
 }
 void
-IonCode
+JitCode
 :
 :
 trace
@@ -3912,7 +3912,7 @@ reader
 }
 }
 void
-IonCode
+JitCode
 :
 :
 finalize
@@ -4135,7 +4135,7 @@ release
 ;
 }
 void
-IonCode
+JitCode
 :
 :
 togglePreBarriers
@@ -4930,7 +4930,7 @@ if
 (
 method_
 )
-MarkIonCode
+MarkJitCode
 (
 trc
 &
@@ -4944,7 +4944,7 @@ if
 (
 deoptTable_
 )
-MarkIonCode
+MarkJitCode
 (
 trc
 &
@@ -5304,7 +5304,7 @@ copyPatchableBackedges
 JSContext
 *
 cx
-IonCode
+JitCode
 *
 code
 PatchableBackedgeInfo
@@ -13548,7 +13548,7 @@ data
 osrFrame
 )
 ;
-EnterIonCode
+EnterJitCode
 enter
 =
 cx
@@ -14367,7 +14367,7 @@ ionScript
 (
 )
 ;
-IonCode
+JitCode
 *
 code
 =
@@ -14424,7 +14424,7 @@ firstFrameIsConstructing
 false
 )
 ;
-EnterIonCode
+EnterJitCode
 enter
 =
 cx
@@ -15368,7 +15368,7 @@ returnAddressToFp
 )
 )
 ;
-IonCode
+JitCode
 *
 ionCode
 =
@@ -15422,7 +15422,7 @@ gcthings
 embedded
 in
 the
-IonCode
+JitCode
 .
 Perform
 one
@@ -15432,7 +15432,7 @@ of
 the
 /
 /
-IonCode
+JitCode
 for
 the
 incremental

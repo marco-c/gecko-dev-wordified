@@ -2594,7 +2594,7 @@ break
 ;
 }
 case
-JSTRACE_IONCODE
+JSTRACE_JITCODE
 :
 {
 #
@@ -2603,7 +2603,7 @@ JS_ION
 zStats
 -
 >
-ionCodesGCHeap
+jitCodesGCHeap
 +
 =
 thingSize

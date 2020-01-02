@@ -272,7 +272,7 @@ typedef
 void
 (
 *
-EnterIonCode
+EnterJitCode
 )
 (
 void
@@ -805,7 +805,7 @@ exception
 -
 handler
 tail
-IonCode
+JitCode
 *
 exceptionTail_
 ;
@@ -819,7 +819,7 @@ bailout
 handler
 tail
 .
-IonCode
+JitCode
 *
 bailoutTail_
 ;
@@ -835,7 +835,7 @@ Contains
 OSR
 prologue
 .
-IonCode
+JitCode
 *
 enterJIT_
 ;
@@ -848,7 +848,7 @@ baseline
 JIT
 code
 .
-IonCode
+JitCode
 *
 enterBaselineJIT_
 ;
@@ -865,7 +865,7 @@ tables
 .
 Vector
 <
-IonCode
+JitCode
 *
 4
 SystemAllocPolicy
@@ -885,7 +885,7 @@ bailout
 table
 overflows
 .
-IonCode
+JitCode
 *
 bailoutHandler_
 ;
@@ -910,7 +910,7 @@ function
 call
 site
 .
-IonCode
+JitCode
 *
 argumentsRectifier_
 ;
@@ -935,7 +935,7 @@ of
 ion
 |
 .
-IonCode
+JitCode
 *
 parallelArgumentsRectifier_
 ;
@@ -955,7 +955,7 @@ the
 Ion
 stack
 .
-IonCode
+JitCode
 *
 invalidator_
 ;
@@ -969,11 +969,11 @@ GC
 pre
 barrier
 .
-IonCode
+JitCode
 *
 valuePreBarrier_
 ;
-IonCode
+JitCode
 *
 shapePreBarrier_
 ;
@@ -990,7 +990,7 @@ and
 step
 mode
 .
-IonCode
+JitCode
 *
 debugTrapHandler_
 ;
@@ -1001,7 +1001,7 @@ VMFunction
 addresses
 to
 the
-IonCode
+JitCode
 of
 the
 wrapper
@@ -1012,7 +1012,7 @@ WeakCache
 const
 VMFunction
 *
-IonCode
+JitCode
 *
 >
 VMWrapperMap
@@ -1138,7 +1138,7 @@ backedgeList_
 ;
 private
 :
-IonCode
+JitCode
 *
 generateExceptionTailStub
 (
@@ -1147,7 +1147,7 @@ JSContext
 cx
 )
 ;
-IonCode
+JitCode
 *
 generateBailoutTailStub
 (
@@ -1156,7 +1156,7 @@ JSContext
 cx
 )
 ;
-IonCode
+JitCode
 *
 generateEnterJIT
 (
@@ -1167,7 +1167,7 @@ EnterJitType
 type
 )
 ;
-IonCode
+JitCode
 *
 generateArgumentsRectifier
 (
@@ -1182,7 +1182,7 @@ void
 returnAddrOut
 )
 ;
-IonCode
+JitCode
 *
 generateBailoutTable
 (
@@ -1193,7 +1193,7 @@ uint32_t
 frameClass
 )
 ;
-IonCode
+JitCode
 *
 generateBailoutHandler
 (
@@ -1202,7 +1202,7 @@ JSContext
 cx
 )
 ;
-IonCode
+JitCode
 *
 generateInvalidator
 (
@@ -1211,7 +1211,7 @@ JSContext
 cx
 )
 ;
-IonCode
+JitCode
 *
 generatePreBarrier
 (
@@ -1222,7 +1222,7 @@ MIRType
 type
 )
 ;
-IonCode
+JitCode
 *
 generateDebugTrapHandler
 (
@@ -1231,7 +1231,7 @@ JSContext
 cx
 )
 ;
-IonCode
+JitCode
 *
 generateVMWrapper
 (
@@ -1478,7 +1478,7 @@ void
 faultingAddress
 )
 ;
-IonCode
+JitCode
 *
 getVMWrapper
 (
@@ -1489,7 +1489,7 @@ f
 )
 const
 ;
-IonCode
+JitCode
 *
 debugTrapHandler
 (
@@ -1498,7 +1498,7 @@ JSContext
 cx
 )
 ;
-IonCode
+JitCode
 *
 getGenericBailoutHandler
 (
@@ -1509,7 +1509,7 @@ return
 bailoutHandler_
 ;
 }
-IonCode
+JitCode
 *
 getExceptionTail
 (
@@ -1520,7 +1520,7 @@ return
 exceptionTail_
 ;
 }
-IonCode
+JitCode
 *
 getBailoutTail
 (
@@ -1531,7 +1531,7 @@ return
 bailoutTail_
 ;
 }
-IonCode
+JitCode
 *
 getBailoutTable
 (
@@ -1542,7 +1542,7 @@ frameClass
 )
 const
 ;
-IonCode
+JitCode
 *
 getArgumentsRectifier
 (
@@ -1593,7 +1593,7 @@ return
 argumentsRectifierReturnAddr_
 ;
 }
-IonCode
+JitCode
 *
 getInvalidationThunk
 (
@@ -1604,7 +1604,7 @@ return
 invalidator_
 ;
 }
-EnterIonCode
+EnterJitCode
 enterIon
 (
 )
@@ -1616,13 +1616,13 @@ enterJIT_
 >
 as
 <
-EnterIonCode
+EnterJitCode
 >
 (
 )
 ;
 }
-EnterIonCode
+EnterJitCode
 enterBaseline
 (
 )
@@ -1634,13 +1634,13 @@ enterBaselineJIT_
 >
 as
 <
-EnterIonCode
+EnterJitCode
 >
 (
 )
 ;
 }
-IonCode
+JitCode
 *
 valuePreBarrier
 (
@@ -1651,7 +1651,7 @@ return
 valuePreBarrier_
 ;
 }
-IonCode
+JitCode
 *
 shapePreBarrier
 (
@@ -1753,7 +1753,7 @@ WeakValueCache
 uint32_t
 ReadBarriered
 <
-IonCode
+JitCode
 >
 >
 ICStubCodeMap
@@ -1860,17 +1860,17 @@ alive
 .
 ReadBarriered
 <
-IonCode
+JitCode
 >
 stringConcatStub_
 ;
 ReadBarriered
 <
-IonCode
+JitCode
 >
 parallelStringConcatStub_
 ;
-IonCode
+JitCode
 *
 generateStringConcatStub
 (
@@ -1893,7 +1893,7 @@ return
 finishedOffThreadCompilations_
 ;
 }
-IonCode
+JitCode
 *
 getStubCode
 (
@@ -1938,7 +1938,7 @@ uint32_t
 key
 Handle
 <
-IonCode
+JitCode
 *
 >
 stubCode
@@ -2239,7 +2239,7 @@ rt
 execAlloc_
 ;
 }
-IonCode
+JitCode
 *
 stringConcatStub
 (

@@ -7384,7 +7384,7 @@ loadPtr
 Address
 (
 dest
-IonCode
+JitCode
 :
 :
 offsetOfCode
@@ -7580,7 +7580,7 @@ loadPtr
 Address
 (
 dest
-IonCode
+JitCode
 :
 :
 offsetOfCode
@@ -7890,7 +7890,7 @@ Register
 slice
 Register
 scratch
-IonCode
+JitCode
 *
 codeVal
 )
@@ -8029,7 +8029,7 @@ Register
 scratch
 ExecutionMode
 executionMode
-IonCode
+JitCode
 *
 codeVal
 )

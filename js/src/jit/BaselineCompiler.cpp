@@ -696,7 +696,7 @@ linker
 masm
 )
 ;
-IonCode
+JitCode
 *
 code
 =
@@ -4539,7 +4539,7 @@ debug
 trap
 handler
 .
-IonCode
+JitCode
 *
 handler
 =

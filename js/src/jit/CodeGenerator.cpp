@@ -13068,7 +13068,7 @@ Generate
 an
 ArgumentsRectifier
 .
-IonCode
+JitCode
 *
 argumentsRectifier
 =
@@ -13426,7 +13426,7 @@ loadPtr
 Address
 (
 objreg
-IonCode
+JitCode
 :
 :
 offsetOfCode
@@ -15748,7 +15748,7 @@ the
 argumentsRectifier
 code
 .
-IonCode
+JitCode
 *
 argumentsRectifier
 =
@@ -15798,7 +15798,7 @@ loadPtr
 Address
 (
 objreg
-IonCode
+JitCode
 :
 :
 offsetOfCode
@@ -31105,7 +31105,7 @@ executionMode
 (
 )
 ;
-IonCode
+JitCode
 *
 stringConcatStub
 =
@@ -31705,7 +31705,7 @@ start
 )
 ;
 }
-IonCode
+JitCode
 *
 JitCompartment
 :
@@ -32700,7 +32700,7 @@ linker
 masm
 )
 ;
-IonCode
+JitCode
 *
 code
 =
@@ -32721,7 +32721,7 @@ OTHER_CODE
 #
 ifdef
 JS_ION_PERF
-writePerfSpewerIonCodeProfile
+writePerfSpewerJitCodeProfile
 (
 code
 "
@@ -42412,7 +42412,7 @@ linker
 masm
 )
 ;
-IonCode
+JitCode
 *
 code
 =

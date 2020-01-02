@@ -659,7 +659,7 @@ compartment
 Type
 objects
 and
-IonCode
+JitCode
 objects
 belong
 to

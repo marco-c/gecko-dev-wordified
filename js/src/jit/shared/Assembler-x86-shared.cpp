@@ -503,7 +503,7 @@ TraceDataRelocations
 JSTracer
 *
 trc
-IonCode
+JitCode
 *
 code
 CompactBufferReader
@@ -576,14 +576,14 @@ kind
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 {
-IonCode
+JitCode
 *
 code
 =
-IonCode
+JitCode
 :
 :
 FromExecutable
@@ -597,7 +597,7 @@ rp
 target
 )
 ;
-MarkIonCodeUnbarriered
+MarkJitCodeUnbarriered
 (
 trc
 &
@@ -612,7 +612,7 @@ JS_ASSERT
 code
 =
 =
-IonCode
+JitCode
 :
 :
 FromExecutable

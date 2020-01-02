@@ -397,7 +397,7 @@ offset_
 ;
 static
 inline
-IonCode
+JitCode
 *
 CodeFromJump
 (
@@ -426,7 +426,7 @@ jump
 )
 ;
 return
-IonCode
+JitCode
 :
 :
 FromExecutable
@@ -444,7 +444,7 @@ TraceJumpRelocations
 JSTracer
 *
 trc
-IonCode
+JitCode
 *
 code
 CompactBufferReader
@@ -467,7 +467,7 @@ read
 )
 )
 {
-IonCode
+JitCode
 *
 child
 =
@@ -487,7 +487,7 @@ offset
 )
 )
 ;
-MarkIonCodeUnbarriered
+MarkJitCodeUnbarriered
 (
 trc
 &

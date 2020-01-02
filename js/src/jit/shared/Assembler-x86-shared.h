@@ -1507,7 +1507,7 @@ TraceDataRelocations
 JSTracer
 *
 trc
-IonCode
+JitCode
 *
 code
 CompactBufferReader

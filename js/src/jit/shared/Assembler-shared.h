@@ -1456,8 +1456,8 @@ is
 the
 start
 of
-an
-IonCode
+a
+JitCode
 buffer
 which
 must
@@ -1476,7 +1476,7 @@ may
 be
 needed
 .
-IONCODE
+JITCODE
 }
 ;
 }
@@ -2482,7 +2482,7 @@ label
 in
 a
 generated
-IonCode
+JitCode
 block
 relative
 to
@@ -2653,7 +2653,7 @@ label
 in
 some
 generated
-IonCode
+JitCode
 block
 .
 /
@@ -2686,7 +2686,7 @@ in
 after
 the
 final
-IonCode
+JitCode
 is
 /
 /
@@ -2807,7 +2807,7 @@ endif
 }
 CodeLocationJump
 (
-IonCode
+JitCode
 *
 code
 CodeOffsetJump
@@ -2870,7 +2870,7 @@ endif
 void
 repoint
 (
-IonCode
+JitCode
 *
 code
 MacroAssembler
@@ -3037,7 +3037,7 @@ setUninitialized
 }
 CodeLocationLabel
 (
-IonCode
+JitCode
 *
 code
 CodeOffsetLabel
@@ -3057,7 +3057,7 @@ code
 }
 CodeLocationLabel
 (
-IonCode
+JitCode
 *
 code
 )
@@ -3138,7 +3138,7 @@ raw_
 void
 repoint
 (
-IonCode
+JitCode
 *
 code
 MacroAssembler
