@@ -21790,6 +21790,10 @@ invisibleToDebugger
 (
 false
 )
+discardSource
+(
+false
+)
 globalProperties
 (
 true
@@ -21832,6 +21836,9 @@ sameZoneAs
 ;
 bool
 invisibleToDebugger
+;
+bool
+discardSource
 ;
 GlobalProperties
 globalProperties
