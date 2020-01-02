@@ -942,6 +942,12 @@ moz
 .
 build
             
+ANDROID_RESFILES
+=
+'
+ANDROID_RESFILES
+'
+            
 ASFILES
 =
 '
