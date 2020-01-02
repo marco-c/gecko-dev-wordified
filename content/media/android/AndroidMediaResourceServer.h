@@ -117,11 +117,11 @@ if
 !
 defined
 (
-MediaResourceServer_h_
+AndroidMediaResourceServer_h_
 )
 #
 define
-MediaResourceServer_h_
+AndroidMediaResourceServer_h_
 #
 include
 <
@@ -149,7 +149,7 @@ MediaResource
 ;
 /
 *
-MediaResourceServer
+AndroidMediaResourceServer
 instantiates
 a
 socket
@@ -286,7 +286,7 @@ cache
 usage
 .
 The
-MediaResourceServer
+AndroidMediaResourceServer
 can
 be
 instantiated
@@ -340,7 +340,7 @@ thread
 *
 /
 class
-MediaResourceServer
+AndroidMediaResourceServer
 :
 public
 nsRunnable
@@ -354,7 +354,7 @@ protecting
 private
 members
 of
-MediaResourceServer
+AndroidMediaResourceServer
 .
 /
 /
@@ -442,7 +442,7 @@ mResources
 /
 Create
 a
-MediaResourceServer
+AndroidMediaResourceServer
 that
 will
 listen
@@ -476,7 +476,7 @@ Start
 '
 method
 .
-MediaResourceServer
+AndroidMediaResourceServer
 (
 )
 ;
@@ -549,7 +549,7 @@ public
 /
 Create
 a
-MediaResourceServer
+AndroidMediaResourceServer
 and
 start
 it
@@ -572,7 +572,7 @@ thread
 static
 already_AddRefed
 <
-MediaResourceServer
+AndroidMediaResourceServer
 >
 Start
 (

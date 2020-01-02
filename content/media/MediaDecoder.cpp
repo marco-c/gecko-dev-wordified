@@ -8732,12 +8732,12 @@ false
 endif
 #
 ifdef
-MOZ_MEDIA_PLUGINS
+MOZ_ANDROID_OMX
 bool
 MediaDecoder
 :
 :
-IsMediaPluginsEnabled
+IsAndroidMediaEnabled
 (
 )
 {

@@ -6322,10 +6322,10 @@ IsOmxEnabled
 endif
 #
 ifdef
-MOZ_MEDIA_PLUGINS
+MOZ_ANDROID_OMX
 static
 bool
-IsMediaPluginsEnabled
+IsAndroidMediaEnabled
 (
 )
 ;

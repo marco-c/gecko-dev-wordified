@@ -115,7 +115,7 @@ MPL
 #
 include
 "
-MediaPluginReader
+AndroidMediaReader
 .
 h
 "
@@ -167,14 +167,14 @@ h
 #
 include
 "
-MediaPluginDecoder
+AndroidMediaDecoder
 .
 h
 "
 #
 include
 "
-MediaPluginHost
+AndroidMediaPluginHost
 .
 h
 "
@@ -236,10 +236,10 @@ layers
 PlanarYCbCrImage
 PlanarYCbCrImage
 ;
-MediaPluginReader
+AndroidMediaReader
 :
 :
-MediaPluginReader
+AndroidMediaReader
 (
 AbstractMediaDecoder
 *
@@ -283,7 +283,7 @@ mAudioSeekTimeUs
 {
 }
 nsresult
-MediaPluginReader
+AndroidMediaReader
 :
 :
 Init
@@ -298,7 +298,7 @@ NS_OK
 ;
 }
 nsresult
-MediaPluginReader
+AndroidMediaReader
 :
 :
 ReadMetadata
@@ -338,7 +338,7 @@ mPlugin
 {
 mPlugin
 =
-GetMediaPluginHost
+GetAndroidMediaPluginHost
 (
 )
 -
@@ -668,7 +668,7 @@ NS_OK
 ;
 }
 void
-MediaPluginReader
+AndroidMediaReader
 :
 :
 Shutdown
@@ -684,7 +684,7 @@ if
 mPlugin
 )
 {
-GetMediaPluginHost
+GetAndroidMediaPluginHost
 (
 )
 -
@@ -714,7 +714,7 @@ buffers
 etc
 .
 nsresult
-MediaPluginReader
+AndroidMediaReader
 :
 :
 ResetDecode
@@ -741,7 +741,7 @@ ResetDecode
 ;
 }
 bool
-MediaPluginReader
+AndroidMediaReader
 :
 :
 DecodeVideoFrame
@@ -1826,7 +1826,7 @@ frames
 than
 parsed
 in
-MediaPlugin
+AndroidMedia
 .
 .
 .
@@ -1855,7 +1855,7 @@ frame
 /
 buffered
 in
-MediaPluginReader
+AndroidMediaReader
 and
 push
 it
@@ -2066,7 +2066,7 @@ true
 ;
 }
 bool
-MediaPluginReader
+AndroidMediaReader
 :
 :
 DecodeAudioData
@@ -2241,7 +2241,7 @@ mAudioChannels
 ;
 }
 nsresult
-MediaPluginReader
+AndroidMediaReader
 :
 :
 Seek
@@ -2443,7 +2443,7 @@ return
 NS_OK
 ;
 }
-MediaPluginReader
+AndroidMediaReader
 :
 :
 ImageBufferCallback
@@ -2470,7 +2470,7 @@ aImageContainer
 }
 void
 *
-MediaPluginReader
+AndroidMediaReader
 :
 :
 ImageBufferCallback
@@ -2623,7 +2623,7 @@ nullptr
 }
 uint8_t
 *
-MediaPluginReader
+AndroidMediaReader
 :
 :
 ImageBufferCallback
@@ -2861,7 +2861,7 @@ already_AddRefed
 <
 Image
 >
-MediaPluginReader
+AndroidMediaReader
 :
 :
 ImageBufferCallback

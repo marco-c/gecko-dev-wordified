@@ -117,11 +117,11 @@ if
 !
 defined
 (
-MediaPluginDecoder_h_
+AndroidMediaDecoder_h_
 )
 #
 define
-MediaPluginDecoder_h_
+AndroidMediaDecoder_h_
 #
 include
 "
@@ -132,7 +132,7 @@ h
 #
 include
 "
-MediaPluginDecoder
+AndroidMediaDecoder
 .
 h
 "
@@ -140,7 +140,7 @@ namespace
 mozilla
 {
 class
-MediaPluginDecoder
+AndroidMediaDecoder
 :
 public
 MediaDecoder
@@ -150,7 +150,7 @@ mType
 ;
 public
 :
-MediaPluginDecoder
+AndroidMediaDecoder
 (
 const
 nsACString
@@ -185,7 +185,7 @@ Clone
 {
 return
 new
-MediaPluginDecoder
+AndroidMediaDecoder
 (
 mType
 )
