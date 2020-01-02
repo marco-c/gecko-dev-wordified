@@ -808,13 +808,6 @@ fun
 )
 )
 ;
-JS_ASSERT
-(
-CurrentThreadCanReadCompilationData
-(
-)
-)
-;
 /
 *
 *
@@ -1019,12 +1012,6 @@ Key
 typedef
 CallsiteCloneTable
 Table
-;
-AutoLockForCompilation
-lock
-(
-cx
-)
 ;
 Table
 &

@@ -19589,13 +19589,6 @@ isInterpretedLazy
 (
 )
 )
-{
-AutoLockForCompilation
-lock
-(
-cx
-)
-;
 fun
 -
 >
@@ -19607,9 +19600,7 @@ bce
 script
 )
 ;
-}
 else
-{
 fun
 -
 >
@@ -19621,7 +19612,6 @@ bce
 script
 )
 ;
-}
 bce
 -
 >

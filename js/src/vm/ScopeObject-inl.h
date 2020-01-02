@@ -610,16 +610,6 @@ type
 =
 BLOCK
 )
-{
-AutoThreadSafeAccess
-ts
-(
-&
-block
-(
-)
-)
-;
 return
 block
 (
@@ -629,7 +619,6 @@ lastProperty
 (
 )
 ;
-}
 return
 funScript
 (

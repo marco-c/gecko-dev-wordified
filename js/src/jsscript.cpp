@@ -21225,13 +21225,6 @@ isGenerator
 )
 )
 ;
-{
-AutoLockForCompilation
-lock
-(
-cx
-)
-;
 script
 -
 >
@@ -21239,7 +21232,6 @@ needsArgsObj_
 =
 true
 ;
-}
 #
 ifdef
 JS_ION
@@ -21698,12 +21690,6 @@ uint32_t
 varSlot
 )
 {
-AutoThreadSafeAccess
-ts
-(
-this
-)
-;
 return
 bindings
 .
@@ -21729,12 +21715,6 @@ unsigned
 argSlot
 )
 {
-AutoThreadSafeAccess
-ts
-(
-this
-)
-;
 return
 bindings
 .

@@ -849,13 +849,6 @@ JS_ASSERT
 unlinked_
 )
 ;
-{
-AutoLockForCompilation
-lock
-(
-cx
-)
-;
 fallbackStub_
 -
 >
@@ -871,7 +864,6 @@ previousStub_
 currentStub_
 )
 ;
-}
 /
 /
 Mark
@@ -8181,7 +8173,6 @@ stub
 >
 addNewStub
 (
-cx
 optStub
 )
 ;
@@ -12755,7 +12746,6 @@ stub
 >
 addNewStub
 (
-cx
 int32Stub
 )
 ;
@@ -12897,7 +12887,6 @@ stub
 >
 addNewStub
 (
-cx
 doubleStub
 )
 ;
@@ -13030,7 +13019,6 @@ stub
 >
 addNewStub
 (
-cx
 doubleStub
 )
 ;
@@ -13112,7 +13100,6 @@ stub
 >
 addNewStub
 (
-cx
 booleanStub
 )
 ;
@@ -13245,7 +13232,6 @@ stub
 >
 addNewStub
 (
-cx
 optStub
 )
 ;
@@ -13348,7 +13334,6 @@ stub
 >
 addNewStub
 (
-cx
 stringStub
 )
 ;
@@ -13445,7 +13430,6 @@ stub
 >
 addNewStub
 (
-cx
 objectStub
 )
 ;
@@ -13614,7 +13598,6 @@ stub
 >
 addNewStub
 (
-cx
 objectStub
 )
 ;
@@ -15360,7 +15343,6 @@ stub
 >
 addNewStub
 (
-cx
 int32Stub
 )
 ;
@@ -15440,7 +15422,6 @@ stub
 >
 addNewStub
 (
-cx
 doubleStub
 )
 ;
@@ -15508,7 +15489,6 @@ stub
 >
 addNewStub
 (
-cx
 stringStub
 )
 ;
@@ -15570,7 +15550,6 @@ stub
 >
 addNewStub
 (
-cx
 nilStub
 )
 ;
@@ -15639,7 +15618,6 @@ stub
 >
 addNewStub
 (
-cx
 objStub
 )
 ;
@@ -17180,7 +17158,6 @@ stub
 >
 setSawDoubleResult
 (
-cx
 )
 ;
 /
@@ -17217,7 +17194,6 @@ stub
 >
 noteUnoptimizableOperands
 (
-cx
 )
 ;
 return
@@ -17320,7 +17296,6 @@ stub
 >
 addNewStub
 (
-cx
 strcatStub
 )
 ;
@@ -17461,7 +17436,6 @@ stub
 >
 addNewStub
 (
-cx
 strcatStub
 )
 ;
@@ -17652,7 +17626,6 @@ stub
 >
 addNewStub
 (
-cx
 arithStub
 )
 ;
@@ -17691,7 +17664,6 @@ stub
 >
 noteUnoptimizableOperands
 (
-cx
 )
 ;
 return
@@ -17853,7 +17825,6 @@ stub
 >
 addNewStub
 (
-cx
 doubleStub
 )
 ;
@@ -17979,7 +17950,6 @@ stub
 >
 addNewStub
 (
-cx
 int32Stub
 )
 ;
@@ -18152,7 +18122,6 @@ stub
 >
 addNewStub
 (
-cx
 optStub
 )
 ;
@@ -18171,7 +18140,6 @@ stub
 >
 noteUnoptimizableOperands
 (
-cx
 )
 ;
 return
@@ -20406,7 +20374,6 @@ stub
 >
 addNewStub
 (
-cx
 int32Stub
 )
 ;
@@ -20530,7 +20497,6 @@ stub
 >
 addNewStub
 (
-cx
 doubleStub
 )
 ;
@@ -24897,7 +24863,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -25356,7 +25321,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -25570,7 +25534,6 @@ stub
 >
 addNewStub
 (
-cx
 stringStub
 )
 ;
@@ -25706,7 +25669,6 @@ stub
 >
 addNewStub
 (
-cx
 argsStub
 )
 ;
@@ -25884,7 +25846,6 @@ stub
 >
 addNewStub
 (
-cx
 argsStub
 )
 ;
@@ -26006,7 +25967,6 @@ stub
 >
 addNewStub
 (
-cx
 denseStub
 )
 ;
@@ -26257,7 +26217,6 @@ stub
 >
 addNewStub
 (
-cx
 typedArrayStub
 )
 ;
@@ -26335,7 +26294,6 @@ stub
 >
 noteNonNativeAccess
 (
-cx
 )
 ;
 /
@@ -26401,7 +26359,6 @@ stub
 >
 noteNegativeIndex
 (
-cx
 )
 ;
 return
@@ -33236,7 +33193,6 @@ stub
 >
 addNewStub
 (
-cx
 denseStub
 )
 ;
@@ -33350,7 +33306,6 @@ stub
 >
 addNewStub
 (
-cx
 denseStub
 )
 ;
@@ -33611,7 +33566,6 @@ stub
 >
 addNewStub
 (
-cx
 typedArrayStub
 )
 ;
@@ -33960,9 +33914,6 @@ BaselineScript
 :
 noteArrayWriteHole
 (
-JSContext
-*
-cx
 uint32_t
 pcOffset
 )
@@ -34005,7 +33956,6 @@ toSetElem_Fallback
 >
 noteArrayWriteHole
 (
-cx
 )
 ;
 }
@@ -37717,7 +37667,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -38269,7 +38218,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -39575,7 +39523,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -39810,7 +39757,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -39897,7 +39843,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -40007,7 +39952,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -40095,7 +40039,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -40231,7 +40174,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -40754,7 +40696,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -40996,7 +40937,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -41325,7 +41265,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -41471,7 +41410,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -41815,7 +41753,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -42402,7 +42339,6 @@ stub
 >
 noteUnoptimizableAccess
 (
-cx
 )
 ;
 return
@@ -47151,9 +47087,6 @@ BaselineScript
 :
 noteAccessedGetter
 (
-JSContext
-*
-cx
 uint32_t
 pcOffset
 )
@@ -47196,7 +47129,6 @@ toGetProp_Fallback
 >
 noteAccessedGetter
 (
-cx
 )
 ;
 }
@@ -47450,7 +47382,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -47569,7 +47500,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -47744,7 +47674,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -47883,7 +47812,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -48387,7 +48315,6 @@ stub
 >
 noteUnoptimizableAccess
 (
-cx
 )
 ;
 return
@@ -51866,7 +51793,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -51998,7 +51924,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -53031,7 +52956,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -53260,7 +53184,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -53556,7 +53479,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -61579,7 +61501,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -61966,7 +61887,6 @@ stub
 >
 setHasNonStringResult
 (
-cx
 )
 ;
 if
@@ -62038,7 +61958,6 @@ stub
 >
 addNewStub
 (
-cx
 newStub
 )
 ;
@@ -62904,7 +62823,6 @@ stub
 >
 addNewStub
 (
-cx
 typeOfStub
 )
 ;
@@ -63373,7 +63291,6 @@ stub
 >
 addNewStub
 (
-cx
 optStub
 )
 ;
