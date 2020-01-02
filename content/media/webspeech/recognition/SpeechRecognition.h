@@ -578,6 +578,16 @@ aRv
 void
 Start
 (
+const
+Optional
+<
+NonNull
+<
+DOMMediaStream
+>
+>
+&
+aStream
 ErrorResult
 &
 aRv
