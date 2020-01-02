@@ -419,7 +419,7 @@ RecvPlay
 NS_ENSURE_TRUE
 (
 mController
-NS_ERROR_NOT_INITIALIZED
+true
 )
 ;
 nsresult
@@ -435,7 +435,7 @@ Play
 NS_ENSURE_SUCCESS
 (
 rv
-false
+true
 )
 ;
 return
@@ -467,7 +467,7 @@ RecvPause
 NS_ENSURE_TRUE
 (
 mController
-NS_ERROR_NOT_INITIALIZED
+true
 )
 ;
 nsresult
@@ -483,7 +483,7 @@ Pause
 NS_ENSURE_SUCCESS
 (
 rv
-false
+true
 )
 ;
 return
@@ -515,7 +515,7 @@ RecvResume
 NS_ENSURE_TRUE
 (
 mController
-NS_ERROR_NOT_INITIALIZED
+true
 )
 ;
 nsresult
@@ -531,7 +531,7 @@ Resume
 NS_ENSURE_SUCCESS
 (
 rv
-false
+true
 )
 ;
 return
@@ -563,7 +563,7 @@ RecvSuspend
 NS_ENSURE_TRUE
 (
 mController
-NS_ERROR_NOT_INITIALIZED
+true
 )
 ;
 nsresult
@@ -579,7 +579,7 @@ Suspend
 NS_ENSURE_SUCCESS
 (
 rv
-false
+true
 )
 ;
 return
@@ -615,7 +615,7 @@ RecvSeek
 NS_ENSURE_TRUE
 (
 mController
-NS_ERROR_NOT_INITIALIZED
+true
 )
 ;
 nsresult
@@ -632,7 +632,7 @@ offset
 NS_ENSURE_SUCCESS
 (
 rv
-false
+true
 )
 ;
 return
@@ -664,7 +664,7 @@ RecvStop
 NS_ENSURE_TRUE
 (
 mController
-NS_ERROR_NOT_INITIALIZED
+true
 )
 ;
 nsresult
@@ -680,7 +680,7 @@ Stop
 NS_ENSURE_SUCCESS
 (
 rv
-false
+true
 )
 ;
 return
@@ -1325,7 +1325,7 @@ OnDisconnected
 (
 uint8_t
 index
-uint32_t
+nsresult
 reason
 )
 {
@@ -1339,7 +1339,18 @@ RtspControllerParent
 OnDisconnected
 (
 )
+for
+track
+%
+d
+reason
+=
+0x
+%
+x
 "
+index
+reason
 )
 )
 ;

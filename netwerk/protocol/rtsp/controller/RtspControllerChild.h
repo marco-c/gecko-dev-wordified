@@ -248,7 +248,7 @@ uint8_t
 &
 index
 const
-uint32_t
+nsresult
 &
 reason
 )
@@ -257,7 +257,7 @@ bool
 RecvAsyncOpenFailed
 (
 const
-uint8_t
+nsresult
 &
 reason
 )
