@@ -1288,7 +1288,7 @@ position
 /
 /
 Only
-SearchEnginePreference
+CustomListPreference
 handles
 long
 clicks
@@ -1297,7 +1297,7 @@ if
 (
 listItem
 instanceof
-SearchEnginePreference
+CustomListPreference
 &
 &
 listItem
