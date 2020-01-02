@@ -402,10 +402,6 @@ class
 struct
 SCTableData
 {
-nsCStringKey
-*
-key
-;
 union
 _data
 {
@@ -425,14 +421,6 @@ data
 ;
 SCTableData
 (
-nsCStringKey
-*
-aKey
-)
-:
-key
-(
-aKey
 )
 {
 data
@@ -775,12 +763,6 @@ NS_ASSERTION
 entry
 -
 >
-key
-&
-&
-entry
--
->
 data
 .
 edges
@@ -791,12 +773,6 @@ list
 entry
 "
 )
-;
-delete
-entry
--
->
-key
 ;
 delete
 entry
@@ -1419,7 +1395,6 @@ data
 new
 SCTableData
 (
-newFromKey
 )
 ;
 nsCOMArray
@@ -1516,7 +1491,6 @@ data
 new
 SCTableData
 (
-newToKey
 )
 ;
 nsCOMArray
