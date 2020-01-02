@@ -6848,11 +6848,11 @@ true
 pref
 (
 "
-content
-.
 image
 .
-allow_locking
+mem
+.
+allow_locking_in_content_processes
 "
 false
 )
