@@ -846,6 +846,14 @@ lir
 )
 ;
 bool
+visitFloat32ToInt32
+(
+LFloat32ToInt32
+*
+lir
+)
+;
+bool
 visitNewSlots
 (
 LNewSlots
