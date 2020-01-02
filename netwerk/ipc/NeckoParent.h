@@ -519,10 +519,6 @@ PRemoteOpenFileParent
 AllocPRemoteOpenFileParent
 (
 const
-SerializedLoadContext
-&
-aSerialized
-const
 URIParams
 &
 aFileURI
@@ -540,10 +536,6 @@ RecvPRemoteOpenFileConstructor
 PRemoteOpenFileParent
 *
 aActor
-const
-SerializedLoadContext
-&
-aSerialized
 const
 URIParams
 &
