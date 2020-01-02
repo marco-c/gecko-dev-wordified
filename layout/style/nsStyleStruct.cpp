@@ -14922,7 +14922,7 @@ NS_UpdateHint
 hint
 NS_CombineHint
 (
-nsChangeHint_UpdatePostTransformOverflow
+nsChangeHint_UpdateOverflow
 nsChangeHint_UpdateTransformLayer
 )
 )
