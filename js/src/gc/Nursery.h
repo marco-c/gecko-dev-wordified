@@ -745,6 +745,12 @@ enterZealMode
 (
 )
 {
+if
+(
+isEnabled
+(
+)
+)
 numActiveChunks_
 =
 NumNurseryChunks
