@@ -8006,7 +8006,6 @@ aOperations
 return
 ;
 }
-{
 mozilla
 :
 :
@@ -8353,10 +8352,6 @@ this
 )
 ;
 }
-}
-/
-/
-unlock
 if
 (
 aOperations
@@ -8385,6 +8380,15 @@ p
 "
 this
 )
+)
+;
+mozilla
+:
+:
+MutexAutoLock
+lock
+(
+mLock
 )
 ;
 InvokeCallbacks
