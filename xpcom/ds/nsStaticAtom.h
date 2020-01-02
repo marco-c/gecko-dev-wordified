@@ -294,7 +294,7 @@ const
 nsStaticAtom
 (
 &
-atoms
+aAtoms
 )
 [
 N
@@ -315,7 +315,7 @@ aAtomCount
 return
 RegisterStaticAtoms
 (
-atoms
+aAtoms
 N
 )
 ;

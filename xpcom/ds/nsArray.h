@@ -274,7 +274,7 @@ nsArrayBase
 const
 nsArrayBase
 &
-other
+aOther
 )
 ;
 nsArrayBase
@@ -332,7 +332,7 @@ nsArray
 const
 nsArray
 &
-other
+aOther
 )
 ;
 nsArray
@@ -391,7 +391,7 @@ nsArrayCC
 const
 nsArrayCC
 &
-other
+aOther
 )
 ;
 nsArrayCC

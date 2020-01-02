@@ -280,7 +280,7 @@ NS_NewWindowsRegKey
 nsIWindowsRegKey
 *
 *
-result
+aResult
 )
 ;
 /
@@ -402,15 +402,15 @@ nsWindowsRegKeyConstructor
 (
 nsISupports
 *
-outer
+aOuter
 const
 nsIID
 &
-iid
+aIID
 void
 *
 *
-result
+aResult
 )
 ;
 #

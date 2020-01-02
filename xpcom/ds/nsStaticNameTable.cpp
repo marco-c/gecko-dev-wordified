@@ -249,7 +249,7 @@ aHdr
 const
 void
 *
-key
+aKey
 )
 {
 const
@@ -279,7 +279,7 @@ NameTableKey
 *
 >
 (
-key
+aKey
 )
 ;
 const
@@ -446,11 +446,11 @@ caseInsensitiveStringHashKey
 (
 PLDHashTable
 *
-table
+aTable
 const
 void
 *
-key
+aKey
 )
 {
 PLDHashNumber
@@ -470,7 +470,7 @@ NameTableKey
 *
 >
 (
-key
+aKey
 )
 ;
 if
@@ -513,6 +513,7 @@ s
 +
 +
 )
+{
 h
 =
 AddToHash
@@ -525,6 +526,7 @@ s
 0x20
 )
 ;
+}
 }
 else
 {
@@ -570,6 +572,7 @@ s
 +
 +
 )
+{
 h
 =
 AddToHash
@@ -582,6 +585,7 @@ s
 0x20
 )
 ;
+}
 }
 return
 h
@@ -707,12 +711,14 @@ mNameTable
 .
 ops
 )
+{
 PL_DHashTableFinish
 (
 &
 mNameTable
 )
 ;
+}
 MOZ_COUNT_DTOR
 (
 nsStaticCaseInsensitiveNameTable
@@ -733,7 +739,7 @@ aNames
 [
 ]
 int32_t
-Count
+aCount
 )
 {
 NS_ASSERTION
@@ -770,7 +776,7 @@ table
 ;
 NS_ASSERTION
 (
-Count
+aCount
 "
 0
 count
@@ -788,7 +794,7 @@ nsMemory
 :
 Alloc
 (
-Count
+aCount
 *
 sizeof
 (
@@ -801,9 +807,11 @@ if
 !
 mNameArray
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -818,7 +826,7 @@ sizeof
 (
 NameTableEntry
 )
-Count
+aCount
 fallible_t
 (
 )
@@ -844,7 +852,7 @@ index
 ;
 index
 <
-Count
+aCount
 ;
 +
 +
@@ -1001,8 +1009,10 @@ if
 !
 entry
 )
+{
 continue
 ;
+}
 NS_ASSERTION
 (
 entry
@@ -1131,12 +1141,14 @@ PL_DHASH_ENTRY_IS_FREE
 entry
 )
 )
+{
 return
 nsStaticCaseInsensitiveNameTable
 :
 :
 NOT_FOUND
 ;
+}
 return
 entry
 -
@@ -1220,12 +1232,14 @@ PL_DHASH_ENTRY_IS_FREE
 entry
 )
 )
+{
 return
 nsStaticCaseInsensitiveNameTable
 :
 :
 NOT_FOUND
 ;
+}
 return
 entry
 -
@@ -1242,7 +1256,7 @@ nsStaticCaseInsensitiveNameTable
 GetStringValue
 (
 int32_t
-index
+aIndex
 )
 {
 NS_ASSERTION
@@ -1270,7 +1284,7 @@ if
 (
 NOT_FOUND
 <
-index
+aIndex
 )
 &
 &
@@ -1278,7 +1292,7 @@ index
 (
 uint32_t
 )
-index
+aIndex
 <
 mNameTable
 .
@@ -1289,7 +1303,7 @@ entryCount
 return
 mNameArray
 [
-index
+aIndex
 ]
 ;
 }

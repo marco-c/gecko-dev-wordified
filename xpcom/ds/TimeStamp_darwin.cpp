@@ -551,10 +551,12 @@ candidate
 <
 minres
 )
+{
 minres
 =
 candidate
 ;
+}
 }
 if
 (
@@ -784,9 +786,11 @@ if
 (
 gInitialized
 )
+{
 return
 NS_OK
 ;
+}
 mach_timebase_info_data_t
 timebaseInfo
 ;
@@ -840,6 +844,7 @@ kr
 =
 KERN_SUCCESS
 )
+{
 NS_RUNTIMEABORT
 (
 "
@@ -848,6 +853,7 @@ failed
 "
 )
 ;
+}
 sNsPerTick
 =
 double
@@ -1069,9 +1075,11 @@ rv
 -
 1
 )
+{
 return
 0
 ;
+}
 uint64_t
 startTime
 =
@@ -1123,9 +1131,11 @@ startTime
 >
 now
 )
+{
 return
 0
 ;
+}
 return
 now
 -

@@ -132,7 +132,7 @@ nsSupportsArrayEnumerator
 (
 nsISupportsArray
 *
-array
+aArray
 )
 ;
 /
