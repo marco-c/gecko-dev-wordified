@@ -1779,9 +1779,6 @@ mallocSizeOf
 )
 ;
 }
-#
-ifdef
-DEBUG
 /
 *
 *
@@ -1844,8 +1841,6 @@ mTable
 )
 ;
 }
-#
-endif
 protected
 :
 PLDHashTable
