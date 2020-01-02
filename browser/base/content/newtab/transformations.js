@@ -985,6 +985,17 @@ rearrange
 .
 *
 param
+aDraggedSite
+The
+currently
+dragged
+site
+may
+be
+null
+.
+*
+param
 aOptions
 Set
 of
@@ -1009,6 +1020,7 @@ rearrangeSites
 function
 (
 aSites
+aDraggedSite
 aOptions
 )
 {
@@ -1062,9 +1074,7 @@ site
 !
 =
 =
-gDrag
-.
-draggedSite
+aDraggedSite
 )
 {
 if
