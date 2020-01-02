@@ -472,7 +472,7 @@ or
 dictionaries
 add
 an
-ArgumentToJSVal
+ArgumentToJSValue
 overload
 below
 .
@@ -1155,9 +1155,6 @@ aArgument
 JSContext
 *
 aCx
-JSObject
-*
-aScope
 JS
 :
 :
@@ -1184,9 +1181,6 @@ aArgument
 JSContext
 *
 aCx
-JSObject
-*
-aScope
 JS
 :
 :
@@ -1261,9 +1255,6 @@ aArgument
 JSContext
 *
 aCx
-JSObject
-*
-aScope
 JS
 :
 :
@@ -1329,9 +1320,6 @@ aArgument
 JSContext
 *
 aCx
-JSObject
-*
-aScope
 JS
 :
 :
@@ -1345,16 +1333,6 @@ Value
 aValue
 )
 {
-JS
-:
-:
-RootedObject
-scope
-(
-aCx
-aScope
-)
-;
 JSObject
 *
 abv
@@ -1364,7 +1342,6 @@ aArgument
 Create
 (
 aCx
-scope
 )
 ;
 if
@@ -1450,9 +1427,6 @@ aArgument
 JSContext
 *
 aCx
-JSObject
-*
-aScope
 JS
 :
 :
@@ -1477,7 +1451,13 @@ JSObject
 scope
 (
 aCx
-aScope
+JS
+:
+:
+CurrentGlobalOrNull
+(
+aCx
+)
 )
 ;
 nsresult
@@ -1526,9 +1506,6 @@ aArgument
 JSContext
 *
 aCx
-JSObject
-*
-aScope
 JS
 :
 :
@@ -1552,7 +1529,6 @@ get
 (
 )
 aCx
-aScope
 aValue
 )
 ;
@@ -1627,7 +1603,6 @@ ArgumentToJSValue
 (
 aArgument
 cx
-wrapper
 &
 val
 )
