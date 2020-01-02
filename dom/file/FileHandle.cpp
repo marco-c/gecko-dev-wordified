@@ -826,6 +826,12 @@ GetOwner
 (
 )
 lockedFile
+/
+*
+aWrapAsDOMRequest
+*
+/
+true
 )
 ;
 nsRefPtr
