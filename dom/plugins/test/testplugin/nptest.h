@@ -507,6 +507,9 @@ throwOnNextInvoke
 bool
 runScriptOnPaint
 ;
+bool
+dontTouchElement
+;
 uint32_t
 timerID
 [
