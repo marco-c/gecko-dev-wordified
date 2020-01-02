@@ -102,13 +102,6 @@ MOZILLA_SVGPATHSEGUTILS_H__
 #
 include
 "
-gfxPoint
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ArrayUtils

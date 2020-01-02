@@ -122,13 +122,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-#
-include
-"
 nsSVGDataParser
 .
 h
