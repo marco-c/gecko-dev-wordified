@@ -1720,7 +1720,7 @@ an
 implementation
 detail
 of
-TextureHost
+TextureClient
 that
 is
 not
@@ -1743,7 +1743,7 @@ for
 use
 with
 the
-maging
+managing
 IPDL
 protocols
 only
