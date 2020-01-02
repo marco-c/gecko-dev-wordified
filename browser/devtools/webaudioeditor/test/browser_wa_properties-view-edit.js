@@ -221,11 +221,7 @@ type
 "
 :
 "
-\
-"
 sine
-\
-"
 "
 "
 frequency
@@ -318,11 +314,7 @@ type
 square
 "
 "
-\
-"
 square
-\
-"
 "
 "
 sets
