@@ -531,6 +531,7 @@ controls
 /
 class
 HTMLTextFieldAccessible
+MOZ_FINAL
 :
 public
 HyperTextAccessibleWrap

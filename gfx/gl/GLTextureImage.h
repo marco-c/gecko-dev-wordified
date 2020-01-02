@@ -1925,6 +1925,7 @@ thing
 /
 class
 TiledTextureImage
+MOZ_FINAL
 :
 public
 TextureImage

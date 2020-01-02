@@ -975,6 +975,7 @@ FrameAnimator
 ;
 class
 RasterImage
+MOZ_FINAL
 :
 public
 ImageResource

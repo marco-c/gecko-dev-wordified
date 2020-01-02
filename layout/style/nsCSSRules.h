@@ -831,6 +831,7 @@ nsCSSFontFaceRule
 ;
 class
 nsCSSFontFaceStyleDecl
+MOZ_FINAL
 :
 public
 nsICSSDeclaration

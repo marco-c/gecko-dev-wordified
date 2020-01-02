@@ -175,6 +175,7 @@ Element
 }
 class
 nsTextControlFrame
+MOZ_FINAL
 :
 public
 nsContainerFrame

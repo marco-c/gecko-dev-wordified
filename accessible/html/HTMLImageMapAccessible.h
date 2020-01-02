@@ -140,6 +140,7 @@ maps
 /
 class
 HTMLImageMapAccessible
+MOZ_FINAL
 :
 public
 ImageAccessibleWrap
@@ -290,6 +291,7 @@ image
 /
 class
 HTMLAreaAccessible
+MOZ_FINAL
 :
 public
 HTMLLinkAccessible

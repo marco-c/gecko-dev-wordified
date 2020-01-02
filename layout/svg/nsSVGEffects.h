@@ -1096,6 +1096,7 @@ nsSVGFilterReferences
 /
 class
 nsSVGFilterReference
+MOZ_FINAL
 :
 public
 nsSVGIDRenderingObserver

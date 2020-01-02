@@ -373,6 +373,7 @@ PAINTLOCK_EVENT_DELAY
 250
 class
 PresShell
+MOZ_FINAL
 :
 public
 nsIPresShell

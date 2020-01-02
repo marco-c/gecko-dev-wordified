@@ -221,6 +221,7 @@ nullprincipal
 "
 class
 nsNullPrincipal
+MOZ_FINAL
 :
 public
 nsJSPrincipals

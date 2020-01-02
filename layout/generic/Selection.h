@@ -304,6 +304,7 @@ dom
 {
 class
 Selection
+MOZ_FINAL
 :
 public
 nsISelectionPrivate

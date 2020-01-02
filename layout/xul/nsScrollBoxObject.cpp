@@ -162,6 +162,7 @@ mozilla
 ;
 class
 nsScrollBoxObject
+MOZ_FINAL
 :
 public
 nsIScrollBoxObject

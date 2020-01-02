@@ -135,6 +135,7 @@ fences
 /
 class
 nsMathMLmfencedFrame
+MOZ_FINAL
 :
 public
 nsMathMLContainerFrame

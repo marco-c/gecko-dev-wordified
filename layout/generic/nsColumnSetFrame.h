@@ -137,6 +137,7 @@ by
 IS_TRUE_OVERFLOW_CONTAINER
 class
 nsColumnSetFrame
+MOZ_FINAL
 :
 public
 nsContainerFrame

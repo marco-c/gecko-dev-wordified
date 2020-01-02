@@ -172,6 +172,7 @@ h
 "
 class
 nsListBoxObject
+MOZ_FINAL
 :
 public
 nsPIListBoxObject

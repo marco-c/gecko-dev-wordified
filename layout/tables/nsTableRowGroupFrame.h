@@ -315,6 +315,7 @@ nsTableRowFrame
 /
 class
 nsTableRowGroupFrame
+MOZ_FINAL
 :
 public
 nsContainerFrame

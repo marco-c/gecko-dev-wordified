@@ -241,6 +241,7 @@ nsIScrollableFrame
 ;
 class
 nsComboboxControlFrame
+MOZ_FINAL
 :
 public
 nsBlockFrame

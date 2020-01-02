@@ -689,6 +689,7 @@ CanvasRenderingContext2D
 /
 class
 CanvasRenderingContext2D
+MOZ_FINAL
 :
 public
 nsICanvasRenderingContextInternal

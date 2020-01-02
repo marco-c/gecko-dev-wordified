@@ -189,6 +189,7 @@ nsISHTransaction
 ;
 class
 nsSHistory
+MOZ_FINAL
 :
 public
 PRCList

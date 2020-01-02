@@ -225,6 +225,7 @@ namespace
 mozilla
 class
 nsAccessibilityService
+MOZ_FINAL
 :
 public
 mozilla

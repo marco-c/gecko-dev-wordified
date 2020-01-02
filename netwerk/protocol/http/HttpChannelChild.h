@@ -281,6 +281,7 @@ net
 {
 class
 HttpChannelChild
+MOZ_FINAL
 :
 public
 PHttpChannelChild

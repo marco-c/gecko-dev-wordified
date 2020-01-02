@@ -186,6 +186,7 @@ object
 /
 class
 nsTransactionManager
+MOZ_FINAL
 :
 public
 nsITransactionManager

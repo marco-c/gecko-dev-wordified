@@ -439,6 +439,7 @@ ActivityStarted
 /
 class
 ScrollbarActivity
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

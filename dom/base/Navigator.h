@@ -589,6 +589,7 @@ namespace
 system
 class
 Navigator
+MOZ_FINAL
 :
 public
 nsIDOMNavigator

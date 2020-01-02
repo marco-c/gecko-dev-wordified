@@ -230,6 +230,7 @@ DOM
 /
 class
 HTMLOptionsCollection
+MOZ_FINAL
 :
 public
 nsIHTMLCollection

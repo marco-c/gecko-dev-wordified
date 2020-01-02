@@ -114,6 +114,7 @@ gl
 {
 class
 TextureImageEGL
+MOZ_FINAL
 :
 public
 TextureImage

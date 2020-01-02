@@ -155,6 +155,7 @@ h
 "
 class
 nsAutoCompleteController
+MOZ_FINAL
 :
 public
 nsIAutoCompleteController

@@ -423,6 +423,7 @@ accessible
 /
 class
 NotificationController
+MOZ_FINAL
 :
 public
 EventQueue

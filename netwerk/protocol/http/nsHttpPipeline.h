@@ -141,6 +141,7 @@ net
 {
 class
 nsHttpPipeline
+MOZ_FINAL
 :
 public
 nsAHttpConnection

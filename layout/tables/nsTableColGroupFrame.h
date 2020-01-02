@@ -200,6 +200,7 @@ sclark
 /
 class
 nsTableColGroupFrame
+MOZ_FINAL
 :
 public
 nsContainerFrame

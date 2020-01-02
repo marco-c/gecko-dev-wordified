@@ -2591,6 +2591,7 @@ IsAlive
 }
 class
 nsResizeDropdownAtFinalPosition
+MOZ_FINAL
 :
 public
 nsIReflowCallback

@@ -158,6 +158,7 @@ interface
 /
 class
 nsMenuBarListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

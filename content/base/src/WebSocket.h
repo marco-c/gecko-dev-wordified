@@ -277,6 +277,7 @@ dom
 {
 class
 WebSocket
+MOZ_FINAL
 :
 public
 DOMEventTargetHelper

@@ -415,6 +415,7 @@ NS_WEBBROWSER_CID
 }
 class
 nsWebBrowser
+MOZ_FINAL
 :
 public
 nsIWebBrowser

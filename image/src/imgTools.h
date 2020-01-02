@@ -137,6 +137,7 @@ bdef
 }
 class
 imgTools
+MOZ_FINAL
 :
 public
 imgITools

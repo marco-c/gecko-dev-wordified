@@ -128,6 +128,7 @@ widget
 {
 class
 GfxInfo
+MOZ_FINAL
 :
 public
 GfxInfoBase

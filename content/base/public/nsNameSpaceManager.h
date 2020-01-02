@@ -355,6 +355,7 @@ needed
 /
 class
 nsNameSpaceManager
+MOZ_FINAL
 {
 public
 :

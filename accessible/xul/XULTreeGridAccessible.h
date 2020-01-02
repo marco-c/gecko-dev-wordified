@@ -454,6 +454,7 @@ columns
 /
 class
 XULTreeGridRowAccessible
+MOZ_FINAL
 :
 public
 XULTreeItemAccessibleBase

@@ -923,6 +923,7 @@ EndBatchChanges
 ;
 class
 nsAutoScrollTimer
+MOZ_FINAL
 :
 public
 nsITimerCallback

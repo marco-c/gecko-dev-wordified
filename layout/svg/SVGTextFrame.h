@@ -1317,6 +1317,7 @@ servers
 /
 class
 SVGTextFrame
+MOZ_FINAL
 :
 public
 SVGTextFrameBase

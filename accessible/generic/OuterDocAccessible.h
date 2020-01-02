@@ -187,6 +187,7 @@ root
 /
 class
 OuterDocAccessible
+MOZ_FINAL
 :
 public
 AccessibleWrap

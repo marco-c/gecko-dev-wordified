@@ -1039,6 +1039,7 @@ on
 mtc
 class
 ContentClientBasic
+MOZ_FINAL
 :
 public
 ContentClient

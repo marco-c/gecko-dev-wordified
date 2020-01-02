@@ -544,6 +544,7 @@ interface
 .
 class
 nsNSSComponent
+MOZ_FINAL
 :
 public
 nsIEntropyCollector

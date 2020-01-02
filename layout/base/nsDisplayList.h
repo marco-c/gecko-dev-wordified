@@ -15107,6 +15107,7 @@ frame
 /
 class
 nsDisplayBoxShadowOuter
+MOZ_FINAL
 :
 public
 nsDisplayItem

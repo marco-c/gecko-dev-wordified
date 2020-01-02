@@ -397,6 +397,7 @@ HTTPS
 -
 class
 nsHttpHandler
+MOZ_FINAL
 :
 public
 nsIHttpProtocolHandler

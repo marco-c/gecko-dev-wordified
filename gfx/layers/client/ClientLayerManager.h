@@ -359,6 +359,7 @@ SimpleTextureClientPool
 ;
 class
 ClientLayerManager
+MOZ_FINAL
 :
 public
 LayerManager

@@ -166,6 +166,7 @@ nsRect
 ;
 class
 nsImageMap
+MOZ_FINAL
 :
 public
 nsStubMutationObserver

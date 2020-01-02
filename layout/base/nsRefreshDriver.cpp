@@ -3034,6 +3034,7 @@ often
 /
 class
 InactiveRefreshDriverTimer
+MOZ_FINAL
 :
 public
 RefreshDriverTimer

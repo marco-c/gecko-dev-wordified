@@ -413,6 +413,7 @@ nsHttpChannel
 -
 class
 nsHttpChannel
+MOZ_FINAL
 :
 public
 HttpBaseChannel

@@ -449,6 +449,7 @@ FPSState
 ;
 class
 LayerManagerComposite
+MOZ_FINAL
 :
 public
 LayerManager

@@ -5807,6 +5807,7 @@ image
 /
 class
 CairoImage
+MOZ_FINAL
 :
 public
 Image

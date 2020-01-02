@@ -915,6 +915,7 @@ widget
 /
 class
 HTMLComboboxAccessible
+MOZ_FINAL
 :
 public
 AccessibleWrap

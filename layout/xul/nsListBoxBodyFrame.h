@@ -184,6 +184,7 @@ aContext
 ;
 class
 nsListBoxBodyFrame
+MOZ_FINAL
 :
 public
 nsBoxFrame

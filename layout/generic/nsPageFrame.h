@@ -139,6 +139,7 @@ sequence
 frame
 class
 nsPageFrame
+MOZ_FINAL
 :
 public
 nsContainerFrame

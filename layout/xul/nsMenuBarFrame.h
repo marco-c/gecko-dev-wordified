@@ -174,6 +174,7 @@ aContext
 ;
 class
 nsMenuBarFrame
+MOZ_FINAL
 :
 public
 nsBoxFrame

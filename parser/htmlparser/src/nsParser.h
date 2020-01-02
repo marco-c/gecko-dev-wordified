@@ -484,6 +484,7 @@ disable
 endif
 class
 nsParser
+MOZ_FINAL
 :
 public
 nsIParser

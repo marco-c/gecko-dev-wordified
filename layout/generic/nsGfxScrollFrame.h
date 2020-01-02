@@ -4579,6 +4579,7 @@ frame
 /
 class
 nsXULScrollFrame
+MOZ_FINAL
 :
 public
 nsBoxFrame

@@ -214,6 +214,7 @@ nsSVGOuterSVGFrameBase
 ;
 class
 nsSVGOuterSVGFrame
+MOZ_FINAL
 :
 public
 nsSVGOuterSVGFrameBase

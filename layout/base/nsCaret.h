@@ -304,6 +304,7 @@ Selection
 -
 class
 nsCaret
+MOZ_FINAL
 :
 public
 nsISelectionListener

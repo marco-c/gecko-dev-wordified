@@ -343,6 +343,7 @@ versa
 /
 class
 EmbeddedObjCollector
+MOZ_FINAL
 :
 public
 AccCollector

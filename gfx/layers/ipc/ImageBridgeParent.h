@@ -288,6 +288,7 @@ ImageContainerParent
 /
 class
 ImageBridgeParent
+MOZ_FINAL
 :
 public
 PImageBridgeParent
