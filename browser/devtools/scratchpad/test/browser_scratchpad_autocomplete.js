@@ -428,6 +428,9 @@ information
 "
 "
 {
+ctrlKey
+:
+true
 shiftKey
 :
 true
