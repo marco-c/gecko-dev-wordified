@@ -406,6 +406,33 @@ MOZ_APP_NAME
 ]
     
 #
+Build
+app
+name
+    
+if
+'
+MOZ_BUILD_APP
+'
+in
+substs
+:
+        
+d
+[
+"
+buildapp
+"
+]
+=
+substs
+[
+"
+MOZ_BUILD_APP
+"
+]
+    
+#
 processor
     
 p
