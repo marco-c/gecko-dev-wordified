@@ -335,9 +335,6 @@ PRTime
 time
 )
 {
-der
-:
-:
 Input
 validity
 ;
@@ -686,9 +683,6 @@ return
 Success
 ;
 }
-der
-:
-:
 Input
 input
 ;
@@ -720,9 +714,6 @@ SEC_ERROR_INADEQUATE_KEY_USAGE
 )
 ;
 }
-der
-:
-:
 Input
 value
 ;
@@ -1645,9 +1636,6 @@ inline
 Result
 CheckPolicyInformation
 (
-der
-:
-:
 Input
 &
 input
@@ -2090,9 +2078,6 @@ found
 =
 false
 ;
-der
-:
-:
 Input
 input
 ;
@@ -2257,9 +2242,6 @@ static
 Result
 DecodeBasicConstraints
 (
-der
-:
-:
 Input
 &
 input
@@ -2382,9 +2364,6 @@ Success
 )
 {
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_EXTENSION_VALUE_INVALID
@@ -2441,6 +2420,9 @@ now
 .
 if
 (
+der
+:
+:
 OptionalInteger
 (
 input
@@ -2453,9 +2435,6 @@ Success
 )
 {
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_EXTENSION_VALUE_INVALID
@@ -2523,9 +2502,6 @@ if
 encodedBasicConstraints
 )
 {
-der
-:
-:
 Input
 input
 ;
@@ -3355,9 +3331,6 @@ static
 Result
 MatchEKU
 (
-der
-:
-:
 Input
 &
 value
@@ -3978,9 +3951,6 @@ true
 )
 ;
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_LIBRARY_FAILURE
@@ -3997,9 +3967,6 @@ EKU
 )
 ;
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_LIBRARY_FAILURE
@@ -4148,9 +4115,6 @@ KeyPurposeId
 :
 anyExtendedKeyUsage
 ;
-der
-:
-:
 Input
 input
 ;

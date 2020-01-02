@@ -318,9 +318,6 @@ signatureValue
 BIT
 STRING
 }
-der
-:
-:
 Input
 tbsCertificate
 ;
@@ -356,9 +353,6 @@ tbsCertificate
 later
 .
 {
-der
-:
-:
 Input
 input
 ;
@@ -388,9 +382,6 @@ return
 rv
 ;
 }
-der
-:
-:
 Input
 certificate
 ;
@@ -1242,9 +1233,6 @@ BackCert
 :
 RememberExtension
 (
-der
-:
-:
 Input
 &
 extnID
@@ -1878,9 +1866,6 @@ len
 )
 {
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_EXTENSION_VALUE_INVALID
@@ -1903,9 +1888,6 @@ len
 Duplicate
 extension
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_EXTENSION_VALUE_INVALID

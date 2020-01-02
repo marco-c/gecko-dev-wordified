@@ -1159,9 +1159,6 @@ inline
 Result
 OCSPResponse
 (
-der
-:
-:
 Input
 &
 Context
@@ -1173,9 +1170,6 @@ inline
 Result
 ResponseBytes
 (
-der
-:
-:
 Input
 &
 Context
@@ -1187,9 +1181,6 @@ inline
 Result
 BasicResponse
 (
-der
-:
-:
 Input
 &
 Context
@@ -1201,9 +1192,6 @@ inline
 Result
 ResponseData
 (
-der
-:
-:
 Input
 &
 tbsResponseData
@@ -1231,9 +1219,6 @@ inline
 Result
 SingleResponse
 (
-der
-:
-:
 Input
 &
 input
@@ -1246,9 +1231,6 @@ static
 Result
 ExtensionNotUnderstood
 (
-der
-:
-:
 Input
 &
 extnID
@@ -1271,9 +1253,6 @@ inline
 Result
 CertID
 (
-der
-:
-:
 Input
 &
 input
@@ -1429,9 +1408,6 @@ ResponderIDType
 byKey
 :
 {
-der
-:
-:
 Input
 responderID
 ;
@@ -2005,9 +1981,6 @@ expired
 =
 false
 ;
-der
-:
-:
 Input
 input
 ;
@@ -2220,9 +2193,6 @@ inline
 Result
 OCSPResponse
 (
-der
-:
-:
 Input
 &
 input
@@ -2364,9 +2334,6 @@ case
 1
 :
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_OCSP_MALFORMED_REQUEST
@@ -2376,9 +2343,6 @@ case
 2
 :
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_OCSP_SERVER_ERROR
@@ -2388,9 +2352,6 @@ case
 3
 :
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_OCSP_TRY_SERVER_LATER
@@ -2400,9 +2361,6 @@ case
 5
 :
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_OCSP_REQUEST_NEEDS_SIG
@@ -2412,9 +2370,6 @@ case
 6
 :
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_OCSP_UNAUTHORIZED_REQUEST
@@ -2423,9 +2378,6 @@ SEC_ERROR_OCSP_UNAUTHORIZED_REQUEST
 default
 :
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_OCSP_UNKNOWN_RESPONSE_STATUS
@@ -2490,9 +2442,6 @@ inline
 Result
 ResponseBytes
 (
-der
-:
-:
 Input
 &
 input
@@ -2607,9 +2556,6 @@ OPTIONAL
 Result
 BasicResponse
 (
-der
-:
-:
 Input
 &
 input
@@ -2618,9 +2564,6 @@ Context
 context
 )
 {
-der
-:
-:
 Input
 tbsResponseData
 ;
@@ -2850,9 +2793,6 @@ certs
 )
 {
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_BAD_DER
@@ -2953,9 +2893,6 @@ inline
 Result
 ResponseData
 (
-der
-:
-:
 Input
 &
 input
@@ -3035,9 +2972,6 @@ bad
 version
 ?
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_BAD_DER
@@ -3101,6 +3035,9 @@ byKey
 ;
 rv
 =
+der
+:
+:
 ExpectTagAndGetValue
 (
 input
@@ -3413,9 +3350,6 @@ inline
 Result
 SingleResponse
 (
-der
-:
-:
 Input
 &
 input
@@ -3627,6 +3561,9 @@ Good
 {
 rv
 =
+der
+:
+:
 ExpectTagAndLength
 (
 input
@@ -3798,6 +3735,9 @@ else
 {
 rv
 =
+der
+:
+:
 ExpectTagAndLength
 (
 input
@@ -3959,9 +3899,6 @@ SLOP
 )
 {
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_OCSP_FUTURE_RESPONSE
@@ -4044,9 +3981,6 @@ thisUpdate
 )
 {
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_OCSP_MALFORMED_RESPONSE
@@ -4122,9 +4056,6 @@ SLOP
 prevent
 underflow
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_INVALID_ARGS
@@ -4266,9 +4197,6 @@ inline
 Result
 CertID
 (
-der
-:
-:
 Input
 &
 input
@@ -4557,9 +4485,6 @@ DIGEST_LENGTH
 )
 {
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_OCSP_MALFORMED_RESPONSE
@@ -5052,9 +4977,6 @@ subjectPublicKey
 BIT
 STRING
 }
-der
-:
-:
 Input
 spki
 ;
@@ -5088,9 +5010,6 @@ using
 spki
 below
 .
-der
-:
-:
 Input
 input
 ;
@@ -5334,9 +5253,6 @@ Success
 Result
 ExtensionNotUnderstood
 (
-der
-:
-:
 Input
 &
 /
