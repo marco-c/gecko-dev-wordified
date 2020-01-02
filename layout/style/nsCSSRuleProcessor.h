@@ -376,7 +376,11 @@ nsCSSRuleProcessor
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+nsCSSRuleProcessor
+)
 public
 :
 nsresult
@@ -1060,6 +1064,11 @@ mozilla
 :
 EventStates
 aStateMask
+)
+;
+void
+ClearSheets
+(
 )
 ;
 /
