@@ -428,7 +428,7 @@ for
 each
 index
 .
-FallibleTArray
+nsTArray
 <
 uint32_t
 >
@@ -458,7 +458,7 @@ _deltas
 for
 the
 index
-FallibleTArray
+nsTArray
 <
 uint32_t
 >
@@ -472,7 +472,7 @@ deltas
 from
 indices
 .
-FallibleTArray
+nsTArray
 <
 uint16_t
 >
