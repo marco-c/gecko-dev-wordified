@@ -4065,7 +4065,7 @@ self
 .
 _logger
 .
-warn
+warning
 (
 "
 process
@@ -4352,7 +4352,7 @@ self
 .
 _logger
 .
-warn
+warning
 (
 "
 launchProcess
@@ -4671,7 +4671,7 @@ self
 .
 _logger
 .
-warn
+warning
 (
 "
 unable
@@ -4719,7 +4719,7 @@ self
 .
 _logger
 .
-warn
+warning
 (
 "
 unable
@@ -4806,7 +4806,7 @@ self
 .
 _logger
 .
-warn
+warning
 (
 "
 try
@@ -7873,7 +7873,7 @@ self
 .
 _logger
 .
-warn
+warning
 (
 "
 unable
