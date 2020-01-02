@@ -184,12 +184,13 @@ summary
 Do
 not
 assert
-JSVAL_IS_NUMBER
-(
 pn3
 -
 >
 pn_val
+.
+isNumber
+(
 )
 |
 |

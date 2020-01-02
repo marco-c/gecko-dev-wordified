@@ -2501,9 +2501,10 @@ value
 ;
 NS_ENSURE_ARG
 (
-JSVAL_IS_NUMBER
-(
 value
+.
+isNumber
+(
 )
 )
 ;
