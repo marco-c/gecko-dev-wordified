@@ -4466,6 +4466,10 @@ autoLock
 mSeekLock
 )
 ;
+ReleaseAllPendingVideoBuffersLocked
+(
+)
+;
 mIsVideoSeeking
 =
 true
