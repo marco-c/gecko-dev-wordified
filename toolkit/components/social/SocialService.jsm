@@ -1557,7 +1557,7 @@ this
 .
 _deferredTask
 .
-arm
+start
 (
 )
 ;
@@ -1581,7 +1581,7 @@ this
 .
 _deferredTask
 .
-arm
+start
 (
 )
 ;
@@ -1596,13 +1596,7 @@ this
 .
 _deferredTask
 .
-disarm
-(
-)
-;
-this
-.
-_persist
+flush
 (
 )
 ;
