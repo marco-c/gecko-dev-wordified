@@ -4291,10 +4291,6 @@ CERTRDN
 *
 lastRdn
 ;
-lastRdn
-=
-rdns
-;
 /
 *
 find
