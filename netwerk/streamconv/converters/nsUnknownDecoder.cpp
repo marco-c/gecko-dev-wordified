@@ -173,7 +173,7 @@ h
 #
 include
 "
-nsIHttpChannelInternal
+nsIForcePendingChannel
 .
 h
 "
@@ -1030,9 +1030,9 @@ OnStopRequest
 .
 nsCOMPtr
 <
-nsIHttpChannelInternal
+nsIForcePendingChannel
 >
-httpChannel
+forcePendingChannel
 =
 do_QueryInterface
 (
@@ -1041,10 +1041,10 @@ request
 ;
 if
 (
-httpChannel
+forcePendingChannel
 )
 {
-httpChannel
+forcePendingChannel
 -
 >
 ForcePending
@@ -1090,10 +1090,10 @@ calling
 OnStopRequest
 if
 (
-httpChannel
+forcePendingChannel
 )
 {
-httpChannel
+forcePendingChannel
 -
 >
 ForcePending

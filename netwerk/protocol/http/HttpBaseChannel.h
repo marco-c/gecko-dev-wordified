@@ -197,6 +197,13 @@ h
 #
 include
 "
+nsIForcePendingChannel
+.
+h
+"
+#
+include
+"
 nsIRedirectHistory
 .
 h
@@ -438,6 +445,8 @@ HttpBaseChannel
 >
 public
 nsITimedChannel
+public
+nsIForcePendingChannel
 {
 protected
 :
@@ -1183,6 +1192,14 @@ ForcePending
 (
 bool
 aForcePending
+)
+;
+NS_IMETHOD
+GetLastModifiedTime
+(
+PRTime
+*
+lastModifiedTime
 )
 ;
 inline
