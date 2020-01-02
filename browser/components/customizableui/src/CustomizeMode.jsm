@@ -4272,6 +4272,7 @@ _getDragOverNode
 aEvent
 .
 target
+targetArea
 )
 ;
 let
@@ -4646,6 +4647,7 @@ _getDragOverNode
 aEvent
 .
 target
+targetArea
 )
 ;
 /
