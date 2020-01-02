@@ -6828,6 +6828,12 @@ childDesiredSize
 nsReflowStatus
 childReflowStatus
 ;
+const
+uint32_t
+flags
+=
+NS_FRAME_NO_MOVE_FRAME
+;
 nsresult
 rv
 =
@@ -6843,7 +6849,7 @@ childDesiredSize
 childRSForMeasuringHeight
 0
 0
-NS_FRAME_NO_MOVE_FRAME
+flags
 childReflowStatus
 )
 ;
@@ -6892,7 +6898,7 @@ childRSForMeasuringHeight
 childDesiredSize
 0
 0
-0
+flags
 )
 ;
 NS_ENSURE_SUCCESS
@@ -18285,6 +18291,12 @@ childDesiredSize
 nsReflowStatus
 childReflowStatus
 ;
+const
+uint32_t
+flags
+=
+NS_FRAME_NO_MOVE_FRAME
+;
 nsresult
 rv
 =
@@ -18300,7 +18312,7 @@ childDesiredSize
 aChildReflowState
 0
 0
-NS_FRAME_NO_MOVE_FRAME
+flags
 childReflowStatus
 )
 ;
@@ -18429,7 +18441,7 @@ aChildReflowState
 childDesiredSize
 0
 0
-0
+flags
 )
 ;
 NS_ENSURE_SUCCESS
