@@ -2787,8 +2787,7 @@ mir
 shouldCancel
 (
 "
-LSRA
-create
+Create
 data
 structures
 (
@@ -3438,7 +3437,6 @@ mir
 shouldCancel
 (
 "
-LSRA
 Build
 Liveness
 Info
