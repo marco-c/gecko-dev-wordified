@@ -4513,6 +4513,17 @@ Size
 (
 fosWM
 )
+-
+aFloatOffsetState
+.
+ComputedLogicalPadding
+(
+)
+.
+Size
+(
+fosWM
+)
 aFloatOffsetState
 .
 ComputedLogicalPadding
