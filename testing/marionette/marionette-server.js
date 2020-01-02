@@ -4032,6 +4032,15 @@ browserName
 :
 appName
 "
+browserVersion
+"
+:
+Services
+.
+appinfo
+.
+version
+"
 platformName
 "
 :
