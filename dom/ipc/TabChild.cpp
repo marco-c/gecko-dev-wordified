@@ -6956,9 +6956,8 @@ elm
 mTabChildGlobal
 -
 >
-GetListenerManager
+GetExistingListenerManager
 (
-false
 )
 ;
 if
