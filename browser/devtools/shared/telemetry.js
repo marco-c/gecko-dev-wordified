@@ -502,6 +502,16 @@ _histograms
 toolbox
 :
 {
+histogram
+:
+"
+DEVTOOLS_TOOLBOX_OPENED_BOOLEAN
+"
+userHistogram
+:
+"
+DEVTOOLS_TOOLBOX_OPENED_PER_USER_FLAG
+"
 timerHistogram
 :
 "
@@ -1150,9 +1160,6 @@ if
 histogramId
 )
 {
-let
-histogram
-;
 try
 {
 let
