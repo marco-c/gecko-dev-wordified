@@ -16533,6 +16533,15 @@ getWindowHandle
 /
 deprecated
 "
+getWindowHandles
+"
+:
+MarionetteServerConnection
+.
+prototype
+.
+getWindowHandles
+"
 getCurrentWindowHandles
 "
 :
@@ -16541,6 +16550,11 @@ MarionetteServerConnection
 prototype
 .
 getWindowHandles
+/
+/
+Selenium
+2
+compat
 "
 getWindows
 "
