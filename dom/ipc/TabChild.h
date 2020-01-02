@@ -2315,16 +2315,10 @@ SetProcessNameToAppName
 (
 )
 ;
-bool
+FrameMetrics
 ProcessUpdateFrame
 (
 const
-mozilla
-:
-:
-layers
-:
-:
 FrameMetrics
 &
 aFrameMetrics
