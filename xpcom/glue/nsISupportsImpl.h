@@ -6349,6 +6349,11 @@ void
 \
 {
 \
+MOZ_ASSERT_TYPE_OK_FOR_REFCOUNTING
+(
+Class
+)
+\
 nsrefcnt
 r
 =
@@ -6473,6 +6478,11 @@ void
 )
 \
 {
+\
+MOZ_ASSERT_TYPE_OK_FOR_REFCOUNTING
+(
+Class
+)
 \
 return
 Super
