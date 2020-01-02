@@ -859,6 +859,7 @@ mKey
 }
 ;
 static
+const
 PLDHashTableOps
 gResourceTableOps
 =
@@ -1065,6 +1066,7 @@ mKey
 }
 ;
 static
+const
 PLDHashTableOps
 gLiteralTableOps
 =
@@ -1264,6 +1266,7 @@ mKey
 }
 ;
 static
+const
 PLDHashTableOps
 gIntTableOps
 =
@@ -1504,6 +1507,7 @@ mKey
 }
 ;
 static
+const
 PLDHashTableOps
 gDateTableOps
 =
@@ -2084,6 +2088,7 @@ mLength
 }
 ;
 static
+const
 PLDHashTableOps
 gBlobTableOps
 =

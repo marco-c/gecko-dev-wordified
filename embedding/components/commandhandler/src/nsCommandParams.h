@@ -739,6 +739,7 @@ not
 known
 )
 static
+const
 PLDHashTableOps
 sHashOps
 ;
