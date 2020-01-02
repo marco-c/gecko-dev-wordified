@@ -1757,7 +1757,7 @@ mallocSizeOf
 )
 ;
 }
-unsigned
+uint32_t
 generation
 (
 )
@@ -2329,7 +2329,7 @@ mallocSizeOf
 )
 ;
 }
-unsigned
+uint32_t
 generation
 (
 )
