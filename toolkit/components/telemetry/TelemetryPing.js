@@ -3142,16 +3142,6 @@ vsize
 b
 (
 "
-MEMORY_VSIZE_MAX_CONTIGUOUS
-"
-"
-vsizeMaxContiguous
-"
-)
-;
-b
-(
-"
 MEMORY_RESIDENT
 "
 "
