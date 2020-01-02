@@ -87694,7 +87694,7 @@ cx
 xpc
 :
 :
-GetSafeJSContextGlobal
+UnprivilegedJunkScope
 (
 )
 )
@@ -94328,7 +94328,7 @@ dictionaries
 xpc
 :
 :
-GetSafeJSContextGlobal
+UnprivilegedJunkScope
         
 #
 Do

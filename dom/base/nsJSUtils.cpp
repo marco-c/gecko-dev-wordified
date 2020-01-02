@@ -826,10 +826,16 @@ scope
 xpc
 :
 :
-GetSafeJSContextGlobal
+UnprivilegedJunkScope
 (
 )
 ;
+/
+/
+Usage
+approved
+by
+bholley
 }
 JSAutoCompartment
 ac
