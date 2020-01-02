@@ -1275,11 +1275,14 @@ LAsmJSCall
 lir
 )
 {
-#
-ifndef
-JS_CODEGEN_ARM_HARDFP
 if
 (
+!
+useHardFpABI
+(
+)
+&
+&
 lir
 -
 >
@@ -1366,8 +1369,6 @@ break
 ;
 }
 }
-#
-endif
 }
 bool
 visitEffectiveAddress
