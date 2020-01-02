@@ -1012,7 +1012,7 @@ mozilla
 :
 Atomic
 <
-int32_t
+size_t
 >
 sAmount
 ;
