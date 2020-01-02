@@ -3531,7 +3531,7 @@ runtime
 >
 gc
 .
-isIncrementalGCEnabled
+isIncrementalGCAllowed
 (
 )
 )

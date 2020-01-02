@@ -1899,9 +1899,9 @@ rt
 >
 gc
 .
-number
-+
-+
+incGcNumber
+(
+)
 ;
 /
 *

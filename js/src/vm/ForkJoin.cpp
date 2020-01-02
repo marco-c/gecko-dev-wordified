@@ -11516,7 +11516,9 @@ runtime
 >
 gc
 .
-isNeeded
+isGcNeeded
+(
+)
 )
 ;
 if

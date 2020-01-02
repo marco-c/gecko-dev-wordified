@@ -1130,11 +1130,6 @@ liveRuntimesCount
 +
 +
 ;
-setGCMode
-(
-JSGC_MODE_GLOBAL
-)
-;
 /
 *
 Initialize

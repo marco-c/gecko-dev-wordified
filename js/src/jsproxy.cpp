@@ -17828,7 +17828,6 @@ ifdef
 DEBUG
 if
 (
-!
 trc
 -
 >
@@ -17839,7 +17838,9 @@ runtime
 >
 gc
 .
-disableStrictProxyCheckingCount
+isStrictProxyCheckingEnabled
+(
+)
 &
 &
 proxy

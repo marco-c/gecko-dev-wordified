@@ -1461,7 +1461,9 @@ runtimeFromMainThread
 >
 gc
 .
-number
+gcNumber
+(
+)
 ;
 }
 #

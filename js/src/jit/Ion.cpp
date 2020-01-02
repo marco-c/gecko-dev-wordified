@@ -3690,6 +3690,8 @@ runtime
 gc
 .
 shouldCleanUpEverything
+(
+)
 )
 {
 e
