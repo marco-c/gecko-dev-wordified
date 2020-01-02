@@ -3752,9 +3752,13 @@ profile
 self
 .
 profile
+                                           
 app_args
 =
 app_args
+symbols_path
+=
+symbols_path
 )
             
 self
@@ -5450,24 +5454,19 @@ self
 instance
 :
             
-#
-In
-the
-future
-a
-check
-for
-crashed
-Firefox
-processes
-            
-#
-should
-be
-here
+if
+self
 .
-            
-pass
+instance
+.
+check_for_crashes
+(
+)
+:
+                
+crashed
+=
+True
         
 if
 returncode
