@@ -28897,7 +28897,12 @@ aCx
 CustomElementConstructor
 0
 JSFUN_CONSTRUCTOR
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 NS_ConvertUTF16toUTF8
 (
 lcName

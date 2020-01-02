@@ -741,8 +741,10 @@ JS_DecompileScript
 JSContext
 *
 cx
-JSScript
-*
+JS
+:
+:
+HandleScript
 script
 const
 char
