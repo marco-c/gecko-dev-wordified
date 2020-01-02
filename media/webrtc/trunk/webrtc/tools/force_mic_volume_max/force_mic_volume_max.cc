@@ -104,7 +104,9 @@ max
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include

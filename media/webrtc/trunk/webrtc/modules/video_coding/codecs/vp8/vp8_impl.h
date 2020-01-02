@@ -100,6 +100,8 @@ WEBRTC_MODULES_VIDEO_CODING_CODECS_VP8_IMPL_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -1256,10 +1258,10 @@ int
 propagation_cnt_
 ;
 bool
-latest_keyframe_complete_
+mfqe_enabled_
 ;
 bool
-mfqe_enabled_
+key_frame_required_
 ;
 }
 ;

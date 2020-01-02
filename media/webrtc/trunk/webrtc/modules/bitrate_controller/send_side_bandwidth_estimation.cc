@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 bitrate_controller
@@ -111,6 +113,8 @@ sqrt
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface

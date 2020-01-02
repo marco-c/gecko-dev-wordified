@@ -132,7 +132,7 @@ audio_coding
 /
 main
 /
-source
+acm2
 /
 acm_common_defs
 .
@@ -208,6 +208,9 @@ Codec
 interface
 namespace
 webrtc
+{
+namespace
+acm1
 {
 ACMPCMA
 :
@@ -841,6 +844,11 @@ right_byte
 ;
 }
 }
+}
+/
+/
+namespace
+acm1
 }
 /
 /

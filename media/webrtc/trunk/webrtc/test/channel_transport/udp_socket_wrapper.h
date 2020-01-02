@@ -309,7 +309,6 @@ StartReceiving
 )
 ;
 virtual
-inline
 bool
 StartReceiving
 (
@@ -321,13 +320,7 @@ receiveBuffers
 *
 /
 )
-{
-return
-StartReceiving
-(
-)
 ;
-}
 /
 /
 Stop
@@ -422,12 +415,7 @@ pcp
 *
 /
 )
-{
-return
--
-1
 ;
-}
 /
 /
 Send
@@ -533,11 +521,6 @@ uint32_t
 ReceiveBuffers
 (
 )
-{
-return
-0
-;
-}
 ;
 protected
 :

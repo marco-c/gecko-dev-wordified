@@ -121,6 +121,9 @@ G729_decinst_t_
 namespace
 webrtc
 {
+namespace
+acm1
+{
 class
 ACMG729
 :
@@ -276,6 +279,11 @@ decoder_inst_ptr_
 ;
 }
 ;
+}
+/
+/
+namespace
+acm1
 }
 /
 /

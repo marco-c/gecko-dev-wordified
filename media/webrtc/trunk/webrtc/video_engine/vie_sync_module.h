@@ -227,6 +227,9 @@ voe_sync_interface
 RtpRtcp
 *
 video_rtcp_module
+RtpReceiver
+*
+video_receiver
 )
 ;
 int
@@ -290,6 +293,10 @@ vcm_
 ViEChannel
 *
 vie_channel_
+;
+RtpReceiver
+*
+video_receiver_
 ;
 RtpRtcp
 *

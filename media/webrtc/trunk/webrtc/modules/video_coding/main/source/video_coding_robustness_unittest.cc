@@ -147,7 +147,9 @@ main
 /
 interface
 /
-video_coding
+mock
+/
+mock_vcm_callbacks
 .
 h
 "
@@ -164,9 +166,7 @@ main
 /
 interface
 /
-mock
-/
-mock_vcm_callbacks
+video_coding
 .
 h
 "
@@ -557,7 +557,7 @@ Video
 .
 codec
 =
-kRTPVideoVP8
+kRtpVideoVp8
 ;
 rtp_info
 .
@@ -759,10 +759,7 @@ VideoCodingModule
 :
 :
 kHardNack
-VideoCodingModule
-:
-:
-kNoDecodeErrors
+kNoErrors
 )
 )
 ;
@@ -1043,10 +1040,7 @@ VideoCodingModule
 :
 :
 kHardNack
-VideoCodingModule
-:
-:
-kNoDecodeErrors
+kNoErrors
 )
 )
 ;
@@ -1490,10 +1484,7 @@ VideoCodingModule
 :
 :
 kDualDecoder
-VideoCodingModule
-:
-:
-kAllowDecodeErrors
+kWithErrors
 )
 )
 ;
@@ -1564,6 +1555,7 @@ kVideoFrameDelta
 Packet
 4
 missing
+.
 InsertPacket
 (
 3000
@@ -2145,10 +2137,7 @@ VideoCodingModule
 :
 :
 kNone
-VideoCodingModule
-:
-:
-kAllowDecodeErrors
+kWithErrors
 )
 )
 ;

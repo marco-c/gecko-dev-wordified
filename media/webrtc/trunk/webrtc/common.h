@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_COMMON_H
+WEBRTC_COMMON_H_
 #
 define
-WEBRTC_COMMON_H
+WEBRTC_COMMON_H_
 #
 include
 <
@@ -295,7 +295,7 @@ Callers
 that
 access
 options
-to
+too
 often
 are
 encouraged
@@ -360,7 +360,7 @@ ownership
 of
 the
 newly
-setted
+set
 value
 .
 template
@@ -775,4 +775,4 @@ webrtc
 endif
 /
 /
-WEBRTC_COMMON_H
+WEBRTC_COMMON_H_

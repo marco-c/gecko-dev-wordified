@@ -122,7 +122,9 @@ h
 #
 include
 <
-cmath
+math
+.
+h
 >
 namespace
 webrtc
@@ -198,11 +200,11 @@ SinusoidalLinearChirpSource
 :
 Run
 (
+int
+frames
 float
 *
 destination
-int
-frames
 )
 {
 for

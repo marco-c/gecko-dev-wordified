@@ -96,7 +96,11 @@ include
 "
 webrtc
 /
-typedefs
+common_video
+/
+interface
+/
+i420_video_frame
 .
 h
 "
@@ -118,11 +122,7 @@ include
 "
 webrtc
 /
-common_video
-/
-interface
-/
-i420_video_frame
+typedefs
 .
 h
 "

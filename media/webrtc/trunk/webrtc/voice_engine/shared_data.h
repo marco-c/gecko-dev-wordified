@@ -189,6 +189,9 @@ namespace
 webrtc
 {
 class
+Config
+;
+class
 CriticalSectionWrapper
 ;
 namespace
@@ -495,6 +498,10 @@ _audioDeviceLayer
 ;
 SharedData
 (
+const
+Config
+&
+config
 )
 ;
 virtual

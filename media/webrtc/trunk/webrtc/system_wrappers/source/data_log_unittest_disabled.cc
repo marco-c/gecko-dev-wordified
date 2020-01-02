@@ -101,7 +101,9 @@ h
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include
@@ -372,9 +374,6 @@ data
 files
 on
 disk
-:
-std
-:
 :
 remove
 (

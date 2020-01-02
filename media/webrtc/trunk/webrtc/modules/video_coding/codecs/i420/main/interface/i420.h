@@ -249,6 +249,7 @@ maxPayloadSize
 *
 /
 )
+OVERRIDE
 ;
 /
 /
@@ -376,6 +377,7 @@ frame_types
 *
 /
 )
+OVERRIDE
 ;
 /
 /
@@ -426,6 +428,7 @@ EncodedImageCallback
 *
 callback
 )
+OVERRIDE
 ;
 /
 /
@@ -452,6 +455,7 @@ int
 Release
 (
 )
+OVERRIDE
 ;
 virtual
 int
@@ -470,6 +474,7 @@ frameRate
 *
 /
 )
+OVERRIDE
 {
 return
 WEBRTC_VIDEO_CODEC_OK
@@ -492,6 +497,7 @@ rtt
 *
 /
 )
+OVERRIDE
 {
 return
 WEBRTC_VIDEO_CODEC_OK
@@ -515,6 +521,7 @@ size
 *
 /
 )
+OVERRIDE
 {
 return
 WEBRTC_VIDEO_CODEC_OK
@@ -620,6 +627,7 @@ numberOfCores
 *
 /
 )
+OVERRIDE
 ;
 virtual
 int
@@ -640,6 +648,7 @@ size
 *
 /
 )
+OVERRIDE
 {
 return
 WEBRTC_VIDEO_CODEC_OK
@@ -783,6 +792,7 @@ renderTimeMs
 *
 /
 )
+OVERRIDE
 ;
 /
 /
@@ -833,6 +843,7 @@ DecodedImageCallback
 *
 callback
 )
+OVERRIDE
 ;
 /
 /
@@ -862,6 +873,7 @@ int
 Release
 (
 )
+OVERRIDE
 ;
 /
 /
@@ -895,6 +907,7 @@ int
 Reset
 (
 )
+OVERRIDE
 ;
 private
 :

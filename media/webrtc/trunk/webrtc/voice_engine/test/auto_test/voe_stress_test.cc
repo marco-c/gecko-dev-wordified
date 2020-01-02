@@ -1967,12 +1967,7 @@ const
 int
 maxChannels
 =
-base
--
->
-MaxNumOfChannels
-(
-)
+100
 ;
 VALIDATE_STRESS
 (

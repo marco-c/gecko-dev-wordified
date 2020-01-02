@@ -88,7 +88,9 @@ tree
 #
 include
 <
-cstring
+string
+.
+h
 >
 #
 include

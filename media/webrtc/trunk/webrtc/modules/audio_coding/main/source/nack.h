@@ -510,6 +510,9 @@ threads
 namespace
 webrtc
 {
+namespace
+acm1
+{
 class
 Nack
 {
@@ -1660,6 +1663,12 @@ max_nack_list_size_
 }
 /
 /
+namespace
+acm1
+}
+/
+/
+namespace
 webrtc
 #
 endif

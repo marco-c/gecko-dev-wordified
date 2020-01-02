@@ -593,11 +593,7 @@ unsigned
 int
 amount_of_processors
 )
-{
-return
-false
 ;
-}
 /
 /
 Stops

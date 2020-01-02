@@ -145,6 +145,12 @@ scSampRate
 /
 sampFreq
 short
+autoOnOff
+;
+short
+activity
+;
+short
 skewMode
 ;
 int
@@ -212,7 +218,7 @@ int
 timeForDelayChange
 ;
 int
-startup_phase
+ECstartup
 ;
 int
 checkBuffSize
@@ -303,9 +309,6 @@ buffer
 .
 int
 lastError
-;
-int
-farend_started
 ;
 AecCore
 *

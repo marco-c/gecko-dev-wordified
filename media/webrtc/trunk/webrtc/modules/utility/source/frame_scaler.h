@@ -112,6 +112,8 @@ WEBRTC_MODULE_UTILITY_VIDEO
 #
 include
 "
+webrtc
+/
 common_video
 /
 interface
@@ -123,6 +125,8 @@ h
 #
 include
 "
+webrtc
+/
 engine_configurations
 .
 h
@@ -130,6 +134,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 interface
@@ -141,6 +147,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface

@@ -172,6 +172,7 @@ is_enabled
 (
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -183,6 +184,7 @@ int
 Initialize
 (
 )
+OVERRIDE
 ;
 private
 :
@@ -198,6 +200,7 @@ Enable
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 int
@@ -206,6 +209,7 @@ set_stream_has_voice
 bool
 has_voice
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -213,6 +217,7 @@ stream_has_voice
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -221,6 +226,7 @@ set_likelihood
 Likelihood
 likelihood
 )
+OVERRIDE
 ;
 virtual
 Likelihood
@@ -228,6 +234,7 @@ likelihood
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -236,6 +243,7 @@ set_frame_size_ms
 int
 size
 )
+OVERRIDE
 ;
 virtual
 int
@@ -243,6 +251,7 @@ frame_size_ms
 (
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -256,6 +265,7 @@ CreateHandle
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -266,6 +276,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -276,6 +287,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -286,6 +298,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -293,6 +306,7 @@ num_handles_required
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -303,6 +317,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 const
 AudioProcessingImpl

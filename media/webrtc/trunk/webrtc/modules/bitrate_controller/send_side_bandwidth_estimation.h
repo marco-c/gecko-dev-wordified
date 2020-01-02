@@ -105,6 +105,8 @@ WEBRTC_MODULES_BITRATE_CONTROLLER_SEND_SIDE_BANDWIDTH_ESTIMATION_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -118,6 +120,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface

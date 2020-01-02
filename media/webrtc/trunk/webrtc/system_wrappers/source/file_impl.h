@@ -159,6 +159,7 @@ size_t
 size
 )
 const
+OVERRIDE
 ;
 virtual
 bool
@@ -166,6 +167,7 @@ Open
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -186,12 +188,14 @@ text
 =
 false
 )
+OVERRIDE
 ;
 virtual
 int
 CloseFile
 (
 )
+OVERRIDE
 ;
 virtual
 int
@@ -200,12 +204,14 @@ SetMaxFileSize
 size_t
 bytes
 )
+OVERRIDE
 ;
 virtual
 int
 Flush
 (
 )
+OVERRIDE
 ;
 virtual
 int
@@ -217,6 +223,7 @@ buf
 int
 length
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -229,6 +236,7 @@ buf
 int
 length
 )
+OVERRIDE
 ;
 virtual
 int
@@ -242,12 +250,14 @@ format
 .
 .
 )
+OVERRIDE
 ;
 virtual
 int
 Rewind
 (
 )
+OVERRIDE
 ;
 private
 :

@@ -159,6 +159,7 @@ int
 *
 bytes_out
 )
+OVERRIDE
 {
 GenerateRandomData
 (
@@ -188,6 +189,7 @@ int
 *
 bytes_out
 )
+OVERRIDE
 {
 GenerateRandomData
 (
@@ -217,6 +219,7 @@ int
 *
 bytes_out
 )
+OVERRIDE
 {
 GenerateRandomData
 (
@@ -246,6 +249,7 @@ int
 *
 bytes_out
 )
+OVERRIDE
 {
 GenerateRandomData
 (

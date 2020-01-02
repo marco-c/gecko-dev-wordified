@@ -3307,6 +3307,7 @@ vie_encoder
 >
 UpdateProtectionMethod
 (
+enable
 )
 ;
 return
@@ -3583,6 +3584,7 @@ vie_encoder
 >
 UpdateProtectionMethod
 (
+false
 )
 ;
 return
@@ -3871,6 +3873,7 @@ vie_encoder
 >
 UpdateProtectionMethod
 (
+enable
 )
 ;
 return

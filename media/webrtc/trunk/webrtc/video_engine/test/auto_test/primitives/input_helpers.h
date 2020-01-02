@@ -94,7 +94,9 @@ WEBRTC_VIDEO_ENGINE_TEST_AUTO_TEST_PRIMITIVES_
 #
 include
 <
-cstdlib
+stdlib
+.
+h
 >
 #
 include

@@ -88,12 +88,16 @@ tree
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include
 <
-cstdlib
+stdlib
+.
+h
 >
 #
 include
@@ -142,7 +146,7 @@ test
 /
 unit_test
 /
-unit_test
+video_processing_unittest
 .
 h
 "

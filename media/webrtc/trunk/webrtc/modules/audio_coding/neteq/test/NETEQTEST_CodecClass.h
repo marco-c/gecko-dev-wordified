@@ -304,6 +304,7 @@ decoder_iSAC
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -311,6 +312,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -336,6 +338,7 @@ decoder_iSACSWB
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -343,6 +346,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -368,6 +372,7 @@ decoder_iSACFB
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -375,6 +380,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -402,6 +408,7 @@ decoder_PCMU
 {
 }
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -409,6 +416,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -436,6 +444,7 @@ decoder_PCMA
 {
 }
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -443,6 +452,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -491,6 +501,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -539,6 +550,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -587,6 +599,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -635,6 +648,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -660,6 +674,7 @@ decoder_ILBC
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -667,6 +682,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -692,6 +708,7 @@ decoder_G729
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -699,6 +716,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -724,6 +742,7 @@ decoder_G729_1
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -731,6 +750,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -756,6 +776,7 @@ decoder_G722
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -763,6 +784,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -788,6 +810,7 @@ decoder_G722_1_16
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -795,6 +818,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -820,6 +844,7 @@ decoder_G722_1_24
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -827,6 +852,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -852,6 +878,7 @@ decoder_G722_1_32
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -859,6 +886,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -884,6 +912,7 @@ decoder_G722_1C_24
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -891,6 +920,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -916,6 +946,7 @@ decoder_G722_1C_32
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -923,6 +954,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -948,6 +980,7 @@ decoder_G722_1C_48
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -955,6 +988,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -980,6 +1014,7 @@ decoder_AMR
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -987,6 +1022,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -1012,6 +1048,7 @@ decoder_AMRWB
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -1019,6 +1056,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -1044,6 +1082,7 @@ decoder_GSMFR
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -1051,6 +1090,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -1142,6 +1182,7 @@ pt
 {
 }
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -1149,6 +1190,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -1185,6 +1227,7 @@ pt
 {
 }
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -1192,6 +1235,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -1228,6 +1272,7 @@ pt
 {
 }
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -1235,6 +1280,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -1271,6 +1317,7 @@ pt
 {
 }
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -1278,6 +1325,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -1307,6 +1355,7 @@ decoder_SPEEX
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -1314,6 +1363,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -1343,6 +1393,7 @@ decoder_CELT
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -1350,6 +1401,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -1379,6 +1431,7 @@ decoder_CELTslave
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -1386,6 +1439,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -1425,6 +1479,7 @@ decoder_RED
 {
 }
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -1432,6 +1487,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -1471,6 +1527,7 @@ decoder_AVT
 {
 }
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -1478,6 +1535,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;
@@ -1507,6 +1565,7 @@ decoder_CNG
 (
 )
 ;
+virtual
 int
 loadToNetEQ
 (
@@ -1514,6 +1573,7 @@ NETEQTEST_NetEQClass
 &
 neteq
 )
+OVERRIDE
 ;
 }
 ;

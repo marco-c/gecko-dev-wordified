@@ -99,6 +99,16 @@ list
 #
 include
 "
+webrtc
+/
+modules
+/
+video_coding
+/
+codecs
+/
+test_framework
+/
 normal_async_test
 .
 h

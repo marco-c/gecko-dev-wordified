@@ -119,6 +119,8 @@ h
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -126,6 +128,14 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+media_file
+/
+interface
+/
 media_file_defines
 .
 h

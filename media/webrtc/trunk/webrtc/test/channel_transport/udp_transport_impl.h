@@ -266,6 +266,7 @@ rtcpPort
 =
 0
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -296,6 +297,7 @@ rtcpPort
 =
 0
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -310,6 +312,7 @@ rtcpPort
 =
 0
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -323,6 +326,7 @@ uint16_t
 rtcpPort
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -346,6 +350,7 @@ kIpAddressVersion6Length
 ]
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -364,6 +369,7 @@ uint16_t
 rtcpPort
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -382,6 +388,7 @@ uint16_t
 rtcpPort
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -409,6 +416,7 @@ audio
 =
 false
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -425,6 +433,7 @@ int32_t
 overrideDSCP
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -439,6 +448,7 @@ useSetSockOpt
 =
 false
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -452,6 +462,7 @@ bool
 useSetSockOpt
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -461,6 +472,7 @@ const
 int32_t
 PCP
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -471,12 +483,14 @@ int32_t
 PCP
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
 EnableIpV6
 (
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -484,6 +498,7 @@ IpV6Enabled
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -496,6 +511,7 @@ filterIPAddress
 kIpAddressVersion6Length
 ]
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -508,6 +524,7 @@ kIpAddressVersion6Length
 ]
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -520,6 +537,7 @@ const
 uint16_t
 rtcpFilterPort
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -533,6 +551,7 @@ uint16_t
 rtcpFilterPort
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -542,12 +561,14 @@ const
 uint32_t
 numberOfSocketBuffers
 )
+OVERRIDE
 ;
 virtual
 int32_t
 StopReceiving
 (
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -555,6 +576,7 @@ Receiving
 (
 )
 const
+OVERRIDE
 ;
 virtual
 bool
@@ -562,6 +584,7 @@ SendSocketsInitialized
 (
 )
 const
+OVERRIDE
 ;
 virtual
 bool
@@ -569,6 +592,7 @@ SourcePortsInitialized
 (
 )
 const
+OVERRIDE
 ;
 virtual
 bool
@@ -576,6 +600,7 @@ ReceiveSocketsInitialized
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -600,6 +625,7 @@ ip
 =
 NULL
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -616,6 +642,7 @@ SocketAddress
 &
 to
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -632,6 +659,7 @@ SocketAddress
 &
 to
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -646,6 +674,7 @@ length
 uint16_t
 rtpPort
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -660,6 +689,7 @@ length
 uint16_t
 rtcpPort
 )
+OVERRIDE
 ;
 /
 /
@@ -678,6 +708,7 @@ data
 int
 length
 )
+OVERRIDE
 ;
 virtual
 int
@@ -692,6 +723,7 @@ data
 int
 length
 )
+OVERRIDE
 ;
 /
 /
@@ -708,6 +740,7 @@ char
 *
 ipaddr
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -722,6 +755,7 @@ rtcpPort
 =
 0
 )
+OVERRIDE
 ;
 virtual
 ErrorCode
@@ -729,6 +763,7 @@ LastError
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -748,6 +783,7 @@ uint16_t
 &
 sourcePort
 )
+OVERRIDE
 ;
 int32_t
 Id

@@ -306,12 +306,7 @@ SetTimeSeconds
 float
 time
 )
-{
-time_seconds_
-=
-time
 ;
-}
 /
 /
 Implements
@@ -330,6 +325,7 @@ msg_array
 int
 length
 )
+OVERRIDE
 ;
 private
 :

@@ -231,6 +231,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm1
+{
 class
 AcmNetEqTest
 :
@@ -1047,3 +1050,9 @@ medianWaitingTimeMs
 /
 /
 namespace
+acm1
+}
+/
+/
+namespace
+webrtc

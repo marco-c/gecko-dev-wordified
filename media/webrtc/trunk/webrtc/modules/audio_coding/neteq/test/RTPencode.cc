@@ -108,14 +108,14 @@ includes
 #
 include
 "
-typedefs
+stdio
 .
 h
 "
 #
 include
 "
-stdio
+typedefs
 .
 h
 "
@@ -135,7 +135,7 @@ WebRtcNetEQDecoder
 #
 include
 <
-string
+assert
 .
 h
 >
@@ -149,7 +149,9 @@ h
 #
 include
 <
-cassert
+string
+.
+h
 >
 #
 ifdef

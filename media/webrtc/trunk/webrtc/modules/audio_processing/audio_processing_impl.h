@@ -139,7 +139,7 @@ class
 CriticalSectionWrapper
 ;
 class
-EchoCancellationImpl
+EchoCancellationImplWrapper
 ;
 class
 EchoControlMobileImpl
@@ -244,6 +244,7 @@ int
 Initialize
 (
 )
+OVERRIDE
 ;
 virtual
 int
@@ -252,12 +253,24 @@ InitializeLocked
 )
 ;
 virtual
+void
+SetExtraOptions
+(
+const
+Config
+&
+config
+)
+OVERRIDE
+;
+virtual
 int
 set_sample_rate_hz
 (
 int
 rate
 )
+OVERRIDE
 ;
 virtual
 int
@@ -265,6 +278,7 @@ sample_rate_hz
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -275,6 +289,7 @@ input_channels
 int
 output_channels
 )
+OVERRIDE
 ;
 virtual
 int
@@ -282,6 +297,7 @@ num_input_channels
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -289,6 +305,7 @@ num_output_channels
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -297,6 +314,7 @@ set_num_reverse_channels
 int
 channels
 )
+OVERRIDE
 ;
 virtual
 int
@@ -304,6 +322,7 @@ num_reverse_channels
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -313,6 +332,7 @@ AudioFrame
 *
 frame
 )
+OVERRIDE
 ;
 virtual
 int
@@ -322,6 +342,7 @@ AudioFrame
 *
 frame
 )
+OVERRIDE
 ;
 virtual
 int
@@ -330,6 +351,7 @@ set_stream_delay_ms
 int
 delay
 )
+OVERRIDE
 ;
 virtual
 int
@@ -337,6 +359,7 @@ stream_delay_ms
 (
 )
 const
+OVERRIDE
 ;
 virtual
 void
@@ -345,6 +368,7 @@ set_delay_offset_ms
 int
 offset
 )
+OVERRIDE
 ;
 virtual
 int
@@ -352,6 +376,7 @@ delay_offset_ms
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -364,12 +389,14 @@ filename
 kMaxFilenameSize
 ]
 )
+OVERRIDE
 ;
 virtual
 int
 StopDebugRecording
 (
 )
+OVERRIDE
 ;
 virtual
 EchoCancellation
@@ -378,6 +405,7 @@ echo_cancellation
 (
 )
 const
+OVERRIDE
 ;
 virtual
 EchoControlMobile
@@ -386,6 +414,7 @@ echo_control_mobile
 (
 )
 const
+OVERRIDE
 ;
 virtual
 GainControl
@@ -394,6 +423,7 @@ gain_control
 (
 )
 const
+OVERRIDE
 ;
 virtual
 HighPassFilter
@@ -402,6 +432,7 @@ high_pass_filter
 (
 )
 const
+OVERRIDE
 ;
 virtual
 LevelEstimator
@@ -410,6 +441,7 @@ level_estimator
 (
 )
 const
+OVERRIDE
 ;
 virtual
 NoiseSuppression
@@ -418,6 +450,7 @@ noise_suppression
 (
 )
 const
+OVERRIDE
 ;
 virtual
 VoiceDetection
@@ -426,6 +459,7 @@ voice_detection
 (
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -440,6 +474,7 @@ const
 int32_t
 id
 )
+OVERRIDE
 ;
 private
 :
@@ -476,7 +511,7 @@ const
 int
 id_
 ;
-EchoCancellationImpl
+EchoCancellationImplWrapper
 *
 echo_cancellation_
 ;

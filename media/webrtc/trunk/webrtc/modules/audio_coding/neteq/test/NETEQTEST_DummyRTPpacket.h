@@ -114,6 +114,7 @@ FILE
 *
 fp
 )
+OVERRIDE
 ;
 virtual
 int
@@ -123,6 +124,7 @@ FILE
 *
 fp
 )
+OVERRIDE
 ;
 }
 ;

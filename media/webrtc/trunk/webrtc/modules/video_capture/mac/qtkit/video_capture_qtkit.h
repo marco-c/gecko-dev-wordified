@@ -116,7 +116,7 @@ modules
 /
 video_capture
 /
-video_capture_impl
+device_info_impl
 .
 h
 "
@@ -146,7 +146,7 @@ modules
 /
 video_capture
 /
-device_info_impl
+video_capture_impl
 .
 h
 "

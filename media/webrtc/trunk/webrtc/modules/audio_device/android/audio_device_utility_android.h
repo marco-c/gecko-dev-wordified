@@ -104,6 +104,12 @@ WEBRTC_AUDIO_DEVICE_AUDIO_DEVICE_UTILITY_ANDROID_H
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_device
+/
 audio_device_utility
 .
 h
@@ -111,6 +117,14 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_device
+/
+include
+/
 audio_device
 .
 h

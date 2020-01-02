@@ -94,6 +94,8 @@ WEBRTC_MODULES_VIDEO_CODING_TEST_VIDEO_SOURCE_H_
 #
 include
 "
+webrtc
+/
 common_video
 /
 libyuv
@@ -107,6 +109,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

@@ -699,7 +699,7 @@ frame
 RTPPayloadParser
 rtpPayloadParser
 (
-kRtpVp8Video
+kRtpVideoVp8
 payload
 4
 0
@@ -731,7 +731,7 @@ frameType
 ;
 EXPECT_EQ
 (
-kRtpVp8Video
+kRtpVideoVp8
 parsedPacket
 .
 type
@@ -866,7 +866,7 @@ payload
 RTPPayloadParser
 rtpPayloadParser
 (
-kRtpVp8Video
+kRtpVideoVp8
 payload
 10
 0
@@ -898,7 +898,7 @@ frameType
 ;
 EXPECT_EQ
 (
-kRtpVp8Video
+kRtpVideoVp8
 parsedPacket
 .
 type
@@ -1035,7 +1035,7 @@ payload
 RTPPayloadParser
 rtpPayloadParser2
 (
-kRtpVp8Video
+kRtpVideoVp8
 payload
 10
 0
@@ -1199,7 +1199,7 @@ payload
 RTPPayloadParser
 rtpPayloadParser
 (
-kRtpVp8Video
+kRtpVideoVp8
 payload
 13
 0
@@ -1231,7 +1231,7 @@ frameType
 ;
 EXPECT_EQ
 (
-kRtpVp8Video
+kRtpVideoVp8
 parsedPacket
 .
 type
@@ -1389,7 +1389,7 @@ false
 RTPPayloadParser
 rtpPayloadParser
 (
-kRtpVp8Video
+kRtpVideoVp8
 payload
 10
 0
@@ -1421,7 +1421,7 @@ frameType
 ;
 EXPECT_EQ
 (
-kRtpVp8Video
+kRtpVideoVp8
 parsedPacket
 .
 type
@@ -1592,7 +1592,7 @@ decimal
 RTPPayloadParser
 rtpPayloadParser
 (
-kRtpVp8Video
+kRtpVideoVp8
 payload
 10
 0
@@ -1624,7 +1624,7 @@ frameType
 ;
 EXPECT_EQ
 (
-kRtpVp8Video
+kRtpVideoVp8
 parsedPacket
 .
 type
@@ -1839,7 +1839,7 @@ KEYIDX
 RTPPayloadParser
 rtpPayloadParser
 (
-kRtpVp8Video
+kRtpVideoVp8
 payload
 10
 0
@@ -1871,7 +1871,7 @@ frameType
 ;
 EXPECT_EQ
 (
-kRtpVp8Video
+kRtpVideoVp8
 parsedPacket
 .
 type
@@ -2105,7 +2105,7 @@ bits
 RTPPayloadParser
 rtpPayloadParser
 (
-kRtpVp8Video
+kRtpVideoVp8
 payload
 4
 0
@@ -2232,7 +2232,7 @@ last
 RTPPayloadParser
 rtpPayloadParser
 (
-kRtpVp8Video
+kRtpVideoVp8
 packet
 send_bytes
 0
@@ -2264,7 +2264,7 @@ frameType
 ;
 EXPECT_EQ
 (
-kRtpVp8Video
+kRtpVideoVp8
 parsedPacket
 .
 type

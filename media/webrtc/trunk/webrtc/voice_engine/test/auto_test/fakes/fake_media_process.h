@@ -94,7 +94,9 @@ VOICE_ENGINE_MAIN_TEST_AUTO_TEST_FAKE_MEDIA_PROCESS_H_
 #
 include
 <
-cmath
+math
+.
+h
 >
 class
 FakeMediaProcess
@@ -107,6 +109,16 @@ VoEMediaProcess
 {
 public
 :
+FakeMediaProcess
+(
+)
+:
+frequency
+(
+0
+)
+{
+}
 virtual
 void
 Process

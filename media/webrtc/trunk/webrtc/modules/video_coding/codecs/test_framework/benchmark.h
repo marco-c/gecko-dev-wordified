@@ -94,6 +94,16 @@ WEBRTC_MODULES_VIDEO_CODING_CODECS_TEST_FRAWEWORK_BENCHMARK_H_
 #
 include
 "
+webrtc
+/
+modules
+/
+video_coding
+/
+codecs
+/
+test_framework
+/
 normal_async_test
 .
 h

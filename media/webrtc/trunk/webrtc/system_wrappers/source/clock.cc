@@ -822,6 +822,7 @@ int64_t
 TimeInMilliseconds
 (
 )
+OVERRIDE
 {
 return
 TickTime
@@ -860,6 +861,7 @@ int64_t
 TimeInMicroseconds
 (
 )
+OVERRIDE
 {
 return
 TickTime
@@ -896,6 +898,7 @@ uint32_t
 &
 fractions
 )
+OVERRIDE
 {
 timeval
 tv
@@ -948,6 +951,7 @@ int64_t
 CurrentNtpInMilliseconds
 (
 )
+OVERRIDE
 {
 timeval
 tv
@@ -1126,11 +1130,13 @@ WindowsRealTimeClock
 }
 protected
 :
+virtual
 timeval
 CurrentTimeVal
 (
 )
 const
+OVERRIDE
 {
 const
 uint64_t
@@ -1298,11 +1304,13 @@ UnixRealTimeClock
 }
 protected
 :
+virtual
 timeval
 CurrentTimeVal
 (
 )
 const
+OVERRIDE
 {
 struct
 timeval

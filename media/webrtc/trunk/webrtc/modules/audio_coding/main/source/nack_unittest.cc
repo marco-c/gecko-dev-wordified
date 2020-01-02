@@ -116,6 +116,11 @@ algorithm
 >
 #
 include
+<
+vector
+>
+#
+include
 "
 gtest
 /
@@ -164,6 +169,9 @@ h
 "
 namespace
 webrtc
+{
+namespace
+acm1
 {
 namespace
 {
@@ -3435,4 +3443,10 @@ nack_list
 }
 /
 /
+namespace
+acm1
+}
+/
+/
+namespace
 webrtc

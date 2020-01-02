@@ -149,7 +149,7 @@ system_wrappers
 /
 interface
 /
-event_wrapper
+constructor_magic
 .
 h
 "
@@ -162,7 +162,7 @@ system_wrappers
 /
 interface
 /
-constructor_magic
+event_wrapper
 .
 h
 "
@@ -505,7 +505,7 @@ conversion
 webrtc
 :
 :
-RTPVideoCodecTypes
+RtpVideoCodecTypes
 ConvertCodecType
 (
 const

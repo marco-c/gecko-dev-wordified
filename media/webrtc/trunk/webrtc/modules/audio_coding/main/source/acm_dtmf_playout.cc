@@ -113,7 +113,7 @@ audio_coding
 /
 main
 /
-source
+acm2
 /
 acm_common_defs
 .
@@ -185,6 +185,9 @@ h
 "
 namespace
 webrtc
+{
+namespace
+acm1
 {
 #
 ifndef
@@ -835,6 +838,11 @@ return
 }
 #
 endif
+}
+/
+/
+namespace
+acm1
 }
 /
 /

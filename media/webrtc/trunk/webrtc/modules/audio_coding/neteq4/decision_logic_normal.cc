@@ -1067,6 +1067,11 @@ const
 int
 samples_left
 =
+static_cast
+<
+int
+>
+(
 sync_buffer
 .
 FutureLength
@@ -1077,6 +1082,7 @@ expand
 .
 overlap_length
 (
+)
 )
 ;
 const

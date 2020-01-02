@@ -88,6 +88,14 @@ tree
 #
 include
 "
+webrtc
+/
+modules
+/
+video_capture
+/
+include
+/
 video_capture_factory
 .
 h
@@ -95,6 +103,12 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+video_capture
+/
 video_capture_impl
 .
 h

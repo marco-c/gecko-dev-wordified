@@ -339,7 +339,7 @@ pw16_decoded
 int
 len
 int
-oldDataLen
+old_data_len
 AudioMultiVector
 <
 int16_t
@@ -382,7 +382,7 @@ virtual
 void
 SetParametersForPassiveSpeech
 (
-int
+size_t
 len
 int16_t
 *
@@ -424,7 +424,7 @@ const
 int16_t
 *
 pw16_decoded
-int
+size_t
 len
 size_t
 w16_bestIndex

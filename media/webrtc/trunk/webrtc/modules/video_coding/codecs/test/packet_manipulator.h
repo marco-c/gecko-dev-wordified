@@ -94,11 +94,15 @@ WEBRTC_MODULES_VIDEO_CODING_CODECS_TEST_PACKET_MANIPULATOR_H_
 #
 include
 <
-cstdlib
+stdlib
+.
+h
 >
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -114,6 +118,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -125,6 +131,10 @@ h
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 packet_reader
@@ -674,6 +684,7 @@ EncodedImage
 *
 encoded_image
 )
+OVERRIDE
 ;
 virtual
 void

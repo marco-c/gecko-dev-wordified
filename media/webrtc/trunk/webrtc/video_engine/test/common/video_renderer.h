@@ -121,7 +121,7 @@ class
 VideoRenderer
 :
 public
-newapi
+webrtc
 :
 :
 VideoRenderer
@@ -256,10 +256,12 @@ VideoRenderer
 }
 /
 /
+namespace
 test
 }
 /
 /
+namespace
 webrtc
 #
 endif

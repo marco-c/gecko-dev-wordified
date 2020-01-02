@@ -155,6 +155,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm1
+{
 /
 /
 TODO
@@ -366,7 +369,12 @@ endif
 kCNNB
 kCNWB
 kCNSWB
+#
+ifdef
+ENABLE_48000_HZ
 kCNFB
+#
+endif
 #
 ifdef
 WEBRTC_CODEC_AVT
@@ -2008,6 +2016,11 @@ kMaxNumCodecs
 ;
 }
 ;
+}
+/
+/
+namespace
+acm1
 }
 /
 /

@@ -118,6 +118,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm1
+{
 class
 ACMResampler
 {
@@ -159,6 +162,11 @@ resampler_
 ;
 }
 ;
+}
+/
+/
+namespace
+acm1
 }
 /
 /

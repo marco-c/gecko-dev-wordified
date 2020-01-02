@@ -88,7 +88,9 @@ tree
 #
 include
 <
-cassert
+assert
+.
+h
 >
 #
 include

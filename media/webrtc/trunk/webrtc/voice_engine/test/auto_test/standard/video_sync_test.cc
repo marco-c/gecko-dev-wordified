@@ -88,7 +88,9 @@ tree
 #
 include
 <
-cmath
+math
+.
+h
 >
 #
 include
@@ -481,9 +483,6 @@ num_elements
 ;
 }
 return
-std
-:
-:
 sqrt
 (
 variance

@@ -2521,7 +2521,10 @@ inst
 .
 funcDecodePLC
 =
-NULL
+(
+WebRtcNetEQ_FuncDecodePLC
+)
+WebRtcOpus_DecodePlcMaster
 ;
 \
 inst
@@ -2606,7 +2609,10 @@ inst
 .
 funcDecodePLC
 =
-NULL
+(
+WebRtcNetEQ_FuncDecodePLC
+)
+WebRtcOpus_DecodePlcSlave
 ;
 \
 inst

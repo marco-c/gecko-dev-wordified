@@ -94,6 +94,12 @@ WEBRTC_AUDIO_DEVICE_AUDIO_DEVICE_PULSE_LINUX_H
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_device
+/
 audio_device_generic
 .
 h
@@ -101,6 +107,14 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_device
+/
+linux
+/
 audio_mixer_manager_pulse_linux
 .
 h
@@ -108,6 +122,12 @@ h
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+interface
+/
 critical_section_wrapper
 .
 h
@@ -115,18 +135,18 @@ h
 #
 include
 <
-pulse
+X11
 /
-pulseaudio
+Xlib
 .
 h
 >
 #
 include
 <
-X11
+pulse
 /
-Xlib
+pulseaudio
 .
 h
 >
@@ -747,6 +767,7 @@ int32_t
 id
 )
 ;
+virtual
 ~
 AudioDeviceLinuxPulse
 (
@@ -778,6 +799,7 @@ AudioLayer
 audioLayer
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -790,12 +812,14 @@ int32_t
 Init
 (
 )
+OVERRIDE
 ;
 virtual
 int32_t
 Terminate
 (
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -803,6 +827,7 @@ Initialized
 (
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -813,12 +838,14 @@ int16_t
 PlayoutDevices
 (
 )
+OVERRIDE
 ;
 virtual
 int16_t
 RecordingDevices
 (
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -837,6 +864,7 @@ guid
 kAdmMaxGuidSize
 ]
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -855,6 +883,7 @@ guid
 kAdmMaxGuidSize
 ]
 )
+OVERRIDE
 ;
 /
 /
@@ -867,6 +896,7 @@ SetPlayoutDevice
 uint16_t
 index
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -878,6 +908,7 @@ AudioDeviceModule
 WindowsDeviceType
 device
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -886,6 +917,7 @@ SetRecordingDevice
 uint16_t
 index
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -897,6 +929,7 @@ AudioDeviceModule
 WindowsDeviceType
 device
 )
+OVERRIDE
 ;
 /
 /
@@ -911,12 +944,14 @@ bool
 &
 available
 )
+OVERRIDE
 ;
 virtual
 int32_t
 InitPlayout
 (
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -924,6 +959,7 @@ PlayoutIsInitialized
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -933,12 +969,14 @@ bool
 &
 available
 )
+OVERRIDE
 ;
 virtual
 int32_t
 InitRecording
 (
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -946,6 +984,7 @@ RecordingIsInitialized
 (
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -957,12 +996,14 @@ int32_t
 StartPlayout
 (
 )
+OVERRIDE
 ;
 virtual
 int32_t
 StopPlayout
 (
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -970,18 +1011,21 @@ Playing
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
 StartRecording
 (
 )
+OVERRIDE
 ;
 virtual
 int32_t
 StopRecording
 (
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -989,6 +1033,7 @@ Recording
 (
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -1006,6 +1051,7 @@ SetAGC
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -1013,6 +1059,7 @@ AGC
 (
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -1037,6 +1084,7 @@ volumeLeft
 uint16_t
 volumeRight
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1050,6 +1098,7 @@ uint16_t
 volumeRight
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -1064,12 +1113,14 @@ bool
 &
 available
 )
+OVERRIDE
 ;
 virtual
 int32_t
 InitSpeaker
 (
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -1077,6 +1128,7 @@ SpeakerIsInitialized
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1086,12 +1138,14 @@ bool
 &
 available
 )
+OVERRIDE
 ;
 virtual
 int32_t
 InitMicrophone
 (
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -1099,6 +1153,7 @@ MicrophoneIsInitialized
 (
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -1113,6 +1168,7 @@ bool
 &
 available
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1121,6 +1177,7 @@ SetSpeakerVolume
 uint32_t
 volume
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1131,6 +1188,7 @@ uint32_t
 volume
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1141,6 +1199,7 @@ uint32_t
 maxVolume
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1151,6 +1210,7 @@ uint32_t
 minVolume
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1161,6 +1221,7 @@ uint16_t
 stepSize
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -1175,6 +1236,7 @@ bool
 &
 available
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1183,6 +1245,7 @@ SetMicrophoneVolume
 uint32_t
 volume
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1193,6 +1256,7 @@ uint32_t
 volume
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1203,6 +1267,7 @@ uint32_t
 maxVolume
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1213,6 +1278,7 @@ uint32_t
 minVolume
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1223,6 +1289,7 @@ uint16_t
 stepSize
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -1237,6 +1304,7 @@ bool
 &
 available
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1245,6 +1313,7 @@ SetSpeakerMute
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1255,6 +1324,7 @@ bool
 enabled
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -1269,6 +1339,7 @@ bool
 &
 available
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1277,6 +1348,7 @@ SetMicrophoneMute
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1287,6 +1359,7 @@ bool
 enabled
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -1301,6 +1374,7 @@ bool
 &
 available
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1309,6 +1383,7 @@ SetMicrophoneBoost
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1319,6 +1394,7 @@ bool
 enabled
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -1332,6 +1408,7 @@ bool
 &
 available
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1340,6 +1417,7 @@ SetStereoPlayout
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1350,6 +1428,7 @@ bool
 enabled
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1359,6 +1438,7 @@ bool
 &
 available
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1367,6 +1447,7 @@ SetStereoRecording
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1377,6 +1458,7 @@ bool
 enabled
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -1397,6 +1479,7 @@ type
 uint16_t
 sizeMS
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1413,6 +1496,7 @@ uint16_t
 sizeMS
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1423,6 +1507,7 @@ uint16_t
 delayMS
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -1433,6 +1518,7 @@ uint16_t
 delayMS
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -1447,6 +1533,7 @@ uint16_t
 load
 )
 const
+OVERRIDE
 ;
 public
 :
@@ -1456,6 +1543,7 @@ PlayoutWarning
 (
 )
 const
+OVERRIDE
 ;
 virtual
 bool
@@ -1463,6 +1551,7 @@ PlayoutError
 (
 )
 const
+OVERRIDE
 ;
 virtual
 bool
@@ -1470,6 +1559,7 @@ RecordingWarning
 (
 )
 const
+OVERRIDE
 ;
 virtual
 bool
@@ -1477,30 +1567,35 @@ RecordingError
 (
 )
 const
+OVERRIDE
 ;
 virtual
 void
 ClearPlayoutWarning
 (
 )
+OVERRIDE
 ;
 virtual
 void
 ClearPlayoutError
 (
 )
+OVERRIDE
 ;
 virtual
 void
 ClearRecordingWarning
 (
 )
+OVERRIDE
 ;
 virtual
 void
 ClearRecordingError
 (
 )
+OVERRIDE
 ;
 public
 :
@@ -1512,6 +1607,7 @@ AudioDeviceBuffer
 *
 audioBuffer
 )
+OVERRIDE
 ;
 private
 :

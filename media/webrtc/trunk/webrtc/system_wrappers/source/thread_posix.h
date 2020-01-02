@@ -170,6 +170,7 @@ char
 thread_name
 )
 ;
+virtual
 ~
 ThreadPosix
 (
@@ -185,6 +186,7 @@ void
 SetNotAlive
 (
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -195,6 +197,7 @@ int
 &
 id
 )
+OVERRIDE
 ;
 /
 /
@@ -215,12 +218,14 @@ unsigned
 int
 amount_of_processors
 )
+OVERRIDE
 ;
 virtual
 bool
 Stop
 (
 )
+OVERRIDE
 ;
 void
 Run

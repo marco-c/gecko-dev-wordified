@@ -101,7 +101,9 @@ h
 #
 include
 <
-cassert
+assert
+.
+h
 >
 #
 include

@@ -94,7 +94,9 @@ WEBRTC_MODULES_AUDIO_CODING_NETEQ4_RANDOM_VECTOR_H_
 #
 include
 <
-cstring
+string
+.
+h
 >
 /
 /

@@ -103,6 +103,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm1
+{
 #
 ifdef
 WEBRTC_CODEC_ISAC
@@ -329,6 +332,12 @@ endif
 /
 /
 namespace
+acm1
+}
+/
+/
+namespace
+webrtc
 #
 endif
 /

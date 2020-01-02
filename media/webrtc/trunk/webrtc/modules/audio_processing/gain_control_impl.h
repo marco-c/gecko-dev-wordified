@@ -192,6 +192,7 @@ int
 Initialize
 (
 )
+OVERRIDE
 ;
 /
 /
@@ -204,12 +205,14 @@ is_enabled
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
 stream_analog_level
 (
 )
+OVERRIDE
 ;
 private
 :
@@ -225,6 +228,7 @@ Enable
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 int
@@ -233,6 +237,7 @@ set_stream_analog_level
 int
 level
 )
+OVERRIDE
 ;
 virtual
 int
@@ -241,6 +246,7 @@ set_mode
 Mode
 mode
 )
+OVERRIDE
 ;
 virtual
 Mode
@@ -248,6 +254,7 @@ mode
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -256,6 +263,7 @@ set_target_level_dbfs
 int
 level
 )
+OVERRIDE
 ;
 virtual
 int
@@ -263,6 +271,7 @@ target_level_dbfs
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -271,6 +280,7 @@ set_compression_gain_db
 int
 gain
 )
+OVERRIDE
 ;
 virtual
 int
@@ -278,6 +288,7 @@ compression_gain_db
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -286,6 +297,7 @@ enable_limiter
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -293,6 +305,7 @@ is_limiter_enabled
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -303,6 +316,7 @@ minimum
 int
 maximum
 )
+OVERRIDE
 ;
 virtual
 int
@@ -310,6 +324,7 @@ analog_level_minimum
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -317,6 +332,7 @@ analog_level_maximum
 (
 )
 const
+OVERRIDE
 ;
 virtual
 bool
@@ -324,6 +340,7 @@ stream_is_saturated
 (
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -337,6 +354,7 @@ CreateHandle
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -347,6 +365,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -357,6 +376,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -367,6 +387,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -374,6 +395,7 @@ num_handles_required
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -384,6 +406,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 const
 AudioProcessingImpl

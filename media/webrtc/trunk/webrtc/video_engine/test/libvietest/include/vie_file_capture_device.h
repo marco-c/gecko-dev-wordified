@@ -94,7 +94,9 @@ SRC_VIDEO_ENGINE_MAIN_TEST_AUTOTEST_HELPERS_VIE_FILE_CAPTURE_DEVICE_H_
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include
@@ -310,9 +312,6 @@ ViEExternalCapture
 *
 input_sink_
 ;
-std
-:
-:
 FILE
 *
 input_file_

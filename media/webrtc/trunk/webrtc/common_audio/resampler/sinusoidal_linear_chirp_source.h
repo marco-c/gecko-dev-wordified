@@ -254,12 +254,13 @@ virtual
 void
 Run
 (
+int
+frames
 float
 *
 destination
-int
-frames
 )
+OVERRIDE
 ;
 double
 Frequency

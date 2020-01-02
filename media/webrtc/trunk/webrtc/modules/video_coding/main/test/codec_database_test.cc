@@ -1169,7 +1169,7 @@ _encodeCompleteCallback
 >
 SetCodecType
 (
-kRTPVideoVP8
+kRtpVideoVp8
 )
 ;
 _vcm
@@ -1553,7 +1553,7 @@ _encodeCallback
 >
 SetCodecType
 (
-kRTPVideoVP8
+kRtpVideoVp8
 )
 ;
 TEST
@@ -1993,7 +1993,7 @@ _encodeCallback
 >
 SetCodecType
 (
-kRTPVideoVP8
+kRtpVideoVp8
 )
 ;
 TEST

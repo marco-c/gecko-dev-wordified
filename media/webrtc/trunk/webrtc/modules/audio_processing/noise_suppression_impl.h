@@ -172,12 +172,15 @@ is_enabled
 (
 )
 const
+OVERRIDE
 ;
+virtual
 float
 speech_probability
 (
 )
 const
+OVERRIDE
 ;
 private
 :
@@ -193,6 +196,7 @@ Enable
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 int
@@ -201,6 +205,7 @@ set_level
 Level
 level
 )
+OVERRIDE
 ;
 virtual
 Level
@@ -208,6 +213,7 @@ level
 (
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -221,6 +227,7 @@ CreateHandle
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -231,6 +238,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -241,6 +249,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -251,6 +260,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -258,6 +268,7 @@ num_handles_required
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -268,6 +279,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 const
 AudioProcessingImpl

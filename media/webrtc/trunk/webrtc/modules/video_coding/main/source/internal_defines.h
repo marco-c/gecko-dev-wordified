@@ -94,6 +94,8 @@ WEBRTC_MODULES_VIDEO_CODING_SOURCE_INTERNAL_DEFINES_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

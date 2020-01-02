@@ -94,7 +94,9 @@ WEBRTC_MODULES_AUDIO_CODING_NETEQ4_DELAY_PEAK_DETECTOR_H_
 #
 include
 <
-cstring
+string
+.
+h
 >
 /
 /

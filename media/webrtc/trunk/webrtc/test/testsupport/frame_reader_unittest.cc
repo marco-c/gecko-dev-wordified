@@ -226,9 +226,6 @@ dummy
 input
 file
 .
-std
-:
-:
 remove
 (
 kInputFilename
@@ -317,9 +314,6 @@ dummy
 input
 file
 .
-std
-:
-:
 remove
 (
 kInputFilename

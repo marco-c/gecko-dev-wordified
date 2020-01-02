@@ -181,6 +181,7 @@ is_enabled
 (
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -192,6 +193,7 @@ int
 Initialize
 (
 )
+OVERRIDE
 ;
 private
 :
@@ -207,6 +209,7 @@ Enable
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 int
@@ -215,6 +218,7 @@ set_routing_mode
 RoutingMode
 mode
 )
+OVERRIDE
 ;
 virtual
 RoutingMode
@@ -222,6 +226,7 @@ routing_mode
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -230,6 +235,7 @@ enable_comfort_noise
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -237,6 +243,7 @@ is_comfort_noise_enabled
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -249,6 +256,7 @@ echo_path
 size_t
 size_bytes
 )
+OVERRIDE
 ;
 virtual
 int
@@ -261,6 +269,7 @@ size_t
 size_bytes
 )
 const
+OVERRIDE
 ;
 /
 /
@@ -274,6 +283,7 @@ CreateHandle
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -284,6 +294,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -294,6 +305,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -304,6 +316,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -311,6 +324,7 @@ num_handles_required
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -321,6 +335,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 const
 AudioProcessingImpl

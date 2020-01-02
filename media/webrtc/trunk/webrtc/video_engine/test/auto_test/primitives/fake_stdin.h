@@ -94,7 +94,9 @@ FAKE_STDIN_H_
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include

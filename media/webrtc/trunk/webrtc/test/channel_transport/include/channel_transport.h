@@ -154,6 +154,7 @@ implementation
 of
 UdpTransportData
 .
+virtual
 void
 IncomingRTPPacket
 (
@@ -180,7 +181,9 @@ from_port
 *
 /
 )
+OVERRIDE
 ;
+virtual
 void
 IncomingRTCPPacket
 (
@@ -207,6 +210,7 @@ from_port
 *
 /
 )
+OVERRIDE
 ;
 /
 /
@@ -311,6 +315,7 @@ implementation
 of
 UdpTransportData
 .
+virtual
 void
 IncomingRTPPacket
 (
@@ -337,7 +342,9 @@ from_port
 *
 /
 )
+OVERRIDE
 ;
+virtual
 void
 IncomingRTCPPacket
 (
@@ -364,6 +371,7 @@ from_port
 *
 /
 )
+OVERRIDE
 ;
 /
 /

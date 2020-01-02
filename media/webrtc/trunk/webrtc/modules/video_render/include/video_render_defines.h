@@ -97,6 +97,8 @@ Includes
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -104,6 +106,8 @@ h
 #
 include
 "
+webrtc
+/
 common_video
 /
 interface
@@ -115,6 +119,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 interface
@@ -165,7 +171,7 @@ Mac
 kRenderCarbon
 =
 3
-kRenderiPhone
+kRenderiOS
 =
 4
 /

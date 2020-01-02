@@ -200,8 +200,6 @@ uint32_t
 render_delay_ms
 uint32_t
 min_playout_delay_ms
-bool
-use_frame_storage
 )
 ;
 virtual
@@ -292,9 +290,6 @@ render_delay_ms_
 ;
 uint32_t
 min_playout_delay_ms_
-;
-bool
-use_frame_storage_
 ;
 scoped_ptr
 <

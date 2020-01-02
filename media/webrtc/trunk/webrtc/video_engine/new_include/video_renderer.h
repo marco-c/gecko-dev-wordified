@@ -97,9 +97,6 @@ webrtc
 class
 I420VideoFrame
 ;
-namespace
-newapi
-{
 class
 VideoRenderer
 {
@@ -168,11 +165,6 @@ VideoRenderer
 }
 }
 ;
-}
-/
-/
-namespace
-newapi
 }
 /
 /

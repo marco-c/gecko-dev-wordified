@@ -165,7 +165,7 @@ audio_coding
 /
 main
 /
-source
+acm2
 /
 acm_common_defs
 .

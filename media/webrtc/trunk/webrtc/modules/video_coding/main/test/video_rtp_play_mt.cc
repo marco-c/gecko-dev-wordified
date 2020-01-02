@@ -88,7 +88,9 @@ tree
 #
 include
 <
-cassert
+assert
+.
+h
 >
 #
 include
@@ -497,7 +499,7 @@ webrtc
 Trace
 :
 :
-SetLevelFilter
+set_level_filter
 (
 webrtc
 :
@@ -602,7 +604,6 @@ kConfigProtectionMethod
 kConfigRttMs
 kConfigRenderDelayMs
 kConfigMinPlayoutDelayMs
-false
 )
 ;
 webrtc

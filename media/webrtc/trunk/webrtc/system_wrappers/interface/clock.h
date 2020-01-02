@@ -363,6 +363,7 @@ int64_t
 TimeInMilliseconds
 (
 )
+OVERRIDE
 ;
 /
 /
@@ -392,6 +393,7 @@ int64_t
 TimeInMicroseconds
 (
 )
+OVERRIDE
 ;
 /
 /
@@ -414,6 +416,7 @@ uint32_t
 &
 fractions
 )
+OVERRIDE
 ;
 /
 /
@@ -431,6 +434,7 @@ int64_t
 CurrentNtpInMilliseconds
 (
 )
+OVERRIDE
 ;
 /
 /

@@ -187,6 +187,17 @@ voice_engine
 ;
 virtual
 int
+RegisterCpuOveruseObserver
+(
+int
+channel
+CpuOveruseObserver
+*
+observer
+)
+;
+virtual
+int
 CreateChannel
 (
 int
@@ -310,6 +321,7 @@ LastError
 ;
 protected
 :
+explicit
 ViEBaseImpl
 (
 const

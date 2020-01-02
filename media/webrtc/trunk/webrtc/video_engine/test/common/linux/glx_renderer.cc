@@ -105,6 +105,13 @@ h
 #
 include
 <
+assert
+.
+h
+>
+#
+include
+<
 X11
 /
 Xatom
@@ -119,11 +126,6 @@ X11
 Xlib
 .
 h
->
-#
-include
-<
-cassert
 >
 #
 include

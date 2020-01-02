@@ -94,6 +94,8 @@ WEBRTC_MODULES_VIDEO_CAPTURE_WINDOWS_DEVICE_INFO_MF_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 video_capture

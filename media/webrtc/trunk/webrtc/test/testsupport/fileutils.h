@@ -88,7 +88,9 @@ tree
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 /
 /

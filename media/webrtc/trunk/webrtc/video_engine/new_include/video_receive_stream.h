@@ -168,9 +168,6 @@ webrtc
 class
 VideoDecoder
 ;
-namespace
-newapi
-{
 /
 /
 TODO
@@ -486,6 +483,9 @@ Codecs
 the
 receive
 stream
+can
+receive
+.
 std
 :
 :
@@ -939,11 +939,6 @@ VideoReceiveStream
 }
 }
 ;
-}
-/
-/
-namespace
-newapi
 }
 /
 /

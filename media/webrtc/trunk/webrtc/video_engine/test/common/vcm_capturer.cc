@@ -142,9 +142,6 @@ VcmCapturer
 webrtc
 :
 :
-newapi
-:
-:
 VideoSendStreamInput
 *
 input
@@ -377,9 +374,6 @@ VcmCapturer
 :
 Create
 (
-newapi
-:
-:
 VideoSendStreamInput
 *
 input

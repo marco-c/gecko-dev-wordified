@@ -187,9 +187,6 @@ previous
 output
 file
 .
-std
-:
-:
 remove
 (
 kOutputFilename
@@ -234,9 +231,6 @@ the
 temporary
 file
 .
-std
-:
-:
 remove
 (
 kOutputFilename

@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -108,13 +110,6 @@ algorithm
 #
 include
 <
-math
-.
-h
->
-#
-include
-<
 float
 .
 h
@@ -128,7 +123,16 @@ h
 >
 #
 include
+<
+math
+.
+h
+>
+#
+include
 "
+webrtc
+/
 modules
 /
 interface
@@ -140,6 +144,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -157,6 +163,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -172,6 +180,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -187,6 +197,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -202,6 +214,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
