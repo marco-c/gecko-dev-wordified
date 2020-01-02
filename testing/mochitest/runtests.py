@@ -7818,10 +7818,6 @@ False
 hide_subtests
 =
 False
-             
-screenshotOnFail
-=
-False
 )
 :
     
@@ -8543,10 +8539,6 @@ dump_screen_on_timeout
 =
 not
 debuggerInfo
-                                         
-dump_screen_on_fail
-=
-screenshotOnFail
                                          
 hide_subtests
 =
@@ -9830,12 +9822,6 @@ options
 .
 browserArgs
                                
-screenshotOnFail
-=
-options
-.
-screenshotOnFail
-                               
 utilityPath
 =
 options
@@ -10294,9 +10280,6 @@ None
 dump_screen_on_timeout
 =
 True
-dump_screen_on_fail
-=
-False
                  
 hide_subtests
 =
@@ -10368,12 +10351,6 @@ self
 dump_screen_on_timeout
 =
 dump_screen_on_timeout
-      
-self
-.
-dump_screen_on_fail
-=
-dump_screen_on_fail
       
 self
 .
@@ -10568,10 +10545,6 @@ format
 self
 .
 dumpScreenOnTimeout
-              
-self
-.
-dumpScreenOnFail
               
 self
 .
@@ -11137,11 +11110,6 @@ line
 :
       
 if
-not
-self
-.
-dump_screen_on_fail
-and
 self
 .
 dump_screen_on_timeout
@@ -11160,50 +11128,6 @@ and
 Test
 timed
 out
-"
-in
-line
-:
-        
-self
-.
-log_output_buffer
-(
-)
-        
-self
-.
-harness
-.
-dumpScreen
-(
-self
-.
-utilityPath
-)
-      
-return
-line
-    
-def
-dumpScreenOnFail
-(
-self
-line
-)
-:
-      
-if
-self
-.
-dump_screen_on_fail
-and
-"
-TEST
--
-UNEXPECTED
--
-FAIL
 "
 in
 line
