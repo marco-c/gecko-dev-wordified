@@ -1352,6 +1352,18 @@ getInstallPath
 aApp
 )
 ;
+/
+/
+Only
+for
+Firefox
+on
+Mac
+OS
+X
+#
+ifndef
+MOZ_B2G
 #
 ifdef
 XP_MACOSX
@@ -1372,6 +1384,8 @@ Resources
 "
 )
 ;
+#
+endif
 #
 endif
 return
