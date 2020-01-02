@@ -28621,6 +28621,13 @@ DevToolsUtils
 .
 reportException
 (
+"
+ThreadSources
+.
+prototype
+.
+getOriginalLocation
+"
 error
 )
 ;
