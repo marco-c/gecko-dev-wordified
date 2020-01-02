@@ -722,6 +722,7 @@ removeEventListener
 load
 "
 onLoad
+true
 )
 ;
 gContentWindow
