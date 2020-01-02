@@ -149,6 +149,9 @@ h
 namespace
 js
 {
+class
+ScopeIter
+;
 /
 *
 *
@@ -299,6 +302,9 @@ JSContext
 cx
 AbstractFramePtr
 frame
+jsbytecode
+*
+pc
 )
 ;
 /
@@ -479,6 +485,9 @@ JSContext
 cx
 AbstractFramePtr
 frame
+jsbytecode
+*
+pc
 bool
 ok
 )
@@ -2058,8 +2067,9 @@ UnwindScope
 JSContext
 *
 cx
-AbstractFramePtr
-frame
+ScopeIter
+&
+si
 uint32_t
 stackDepth
 )
