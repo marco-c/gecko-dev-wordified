@@ -62,7 +62,7 @@ length
 assertEq
 (
 argc
-7
+8
 )
 ;
 assertEq
@@ -170,6 +170,12 @@ NaN
 \
 uffff
 '
+Symbol
+(
+'
+alpha
+'
+)
 Array
 .
 prototype
