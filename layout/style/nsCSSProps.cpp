@@ -2390,6 +2390,8 @@ don
 t
 support
 eEnabledInUASheets
+or
+eEnabledInChromeOrCertifiedApp
 /
 /
 for
