@@ -9481,12 +9481,6 @@ nsIDOMStorage
 >
 mSessionStorage
 ;
-nsCOMPtr
-<
-nsIXPConnectJSObjectHolder
->
-mInnerWindowHolder
-;
 /
 /
 These
