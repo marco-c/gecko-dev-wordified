@@ -491,10 +491,6 @@ mGateway_str
 )
 COPY_FIELD
 (
-mBroadcast_str
-)
-COPY_FIELD
-(
 mDns1_str
 )
 COPY_FIELD
@@ -1362,6 +1358,12 @@ aOptions
 ToObject
 (
 cx
+JS
+:
+:
+NullPtr
+(
+)
 &
 val
 )
