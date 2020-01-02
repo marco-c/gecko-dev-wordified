@@ -138,10 +138,14 @@ jsm
 "
 )
 ;
-Cu
+XPCOMUtils
 .
-import
+defineLazyModuleGetter
 (
+this
+"
+ActivitiesServiceFilter
+"
 "
 resource
 :
