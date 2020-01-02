@@ -2398,15 +2398,6 @@ SpeechEvent
 aEvent
 )
 {
-bool
-stopRecording
-=
-StateBetween
-(
-STATE_ESTIMATING
-STATE_RECOGNIZING
-)
-;
 if
 (
 mRecognitionService
@@ -2422,7 +2413,7 @@ Abort
 }
 if
 (
-stopRecording
+mDOMStream
 )
 {
 StopRecording
