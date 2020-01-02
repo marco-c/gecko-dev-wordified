@@ -6206,15 +6206,6 @@ reason
 ;
 extern
 void
-MaybeGC
-(
-JSContext
-*
-cx
-)
-;
-extern
-void
 ReleaseAllJITCode
 (
 FreeOp
