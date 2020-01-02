@@ -16068,6 +16068,9 @@ alwaysAskBeforeHandling
 false
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 /
 /
 Shumway
@@ -16096,6 +16099,8 @@ disabled
 true
 )
 ;
+#
+endif
 /
 /
 The
