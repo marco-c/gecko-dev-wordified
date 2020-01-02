@@ -7254,7 +7254,7 @@ currentPtr
 if
 (
 eltPos
-!
+=
 =
 NS_HTML5TREE_BUILDER_NOT_FOUND_ON_STACK
 )
@@ -7343,7 +7343,7 @@ rtc
 if
 (
 eltPos
-!
+=
 =
 NS_HTML5TREE_BUILDER_NOT_FOUND_ON_STACK
 )

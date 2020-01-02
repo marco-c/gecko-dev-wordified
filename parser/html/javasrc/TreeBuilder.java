@@ -13386,7 +13386,7 @@ currentPtr
 if
 (
 eltPos
-!
+=
 =
 NOT_FOUND_ON_STACK
 )
@@ -13471,7 +13471,7 @@ rtc
 if
 (
 eltPos
-!
+=
 =
 NOT_FOUND_ON_STACK
 )
