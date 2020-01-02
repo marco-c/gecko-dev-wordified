@@ -124,7 +124,7 @@ h
 #
 include
 "
-vpx_rtcd
+vp8_rtcd
 .
 h
 "
@@ -1209,12 +1209,6 @@ mode_info_context
 -
 >
 mbmi
-;
-int
-mv_col
-;
-int
-mv_row
 ;
 int
 sse_diff

@@ -95,7 +95,7 @@ h
 #
 include
 "
-vpx_rtcd
+vp8_rtcd
 .
 h
 "
@@ -214,9 +214,6 @@ DC_PRED
 {
 int
 expected_dc
-;
-int
-i
 ;
 int
 shift
@@ -793,9 +790,6 @@ int
 expected_vdc
 ;
 int
-i
-;
-int
 shift
 ;
 int
@@ -1041,9 +1035,6 @@ case
 V_PRED
 :
 {
-int
-i
-;
 for
 (
 i
@@ -1091,9 +1082,6 @@ case
 H_PRED
 :
 {
-int
-i
-;
 for
 (
 i
@@ -1147,9 +1135,6 @@ case
 TM_PRED
 :
 {
-int
-i
-;
 for
 (
 i

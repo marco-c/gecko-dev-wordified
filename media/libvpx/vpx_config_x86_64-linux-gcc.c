@@ -136,6 +136,11 @@ docs
 enable
 -
 pic
+-
+-
+disable
+-
+avx2
 "
 ;
 const

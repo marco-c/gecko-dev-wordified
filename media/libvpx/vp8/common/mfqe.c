@@ -178,7 +178,7 @@ h
 #
 include
 "
-vpx_rtcd
+vp8_rtcd
 .
 h
 "
@@ -1878,7 +1878,7 @@ mode_info_context
 cm
 -
 >
-mi
+show_frame_mi
 ;
 int
 mb_row

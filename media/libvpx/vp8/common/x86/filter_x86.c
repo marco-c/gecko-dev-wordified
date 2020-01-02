@@ -88,9 +88,13 @@ tree
 #
 include
 "
-vpx_ports
+vp8
 /
-mem
+common
+/
+x86
+/
+filter_x86
 .
 h
 "

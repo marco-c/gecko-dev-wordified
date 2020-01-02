@@ -110,7 +110,7 @@ h
 #
 include
 "
-vpx_rtcd
+vp8_rtcd
 .
 h
 "

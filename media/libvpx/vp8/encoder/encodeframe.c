@@ -95,6 +95,13 @@ h
 #
 include
 "
+vp8_rtcd
+.
+h
+"
+#
+include
+"
 encodemb
 .
 h
@@ -5684,7 +5691,6 @@ segmentation_enabled
 )
 {
 int
-i
 j
 ;
 if
@@ -8498,6 +8504,7 @@ x
 Experimental
 code
 .
+*
 Special
 case
 for
@@ -8506,6 +8513,10 @@ and
 arf
 zeromv
 modes
+for
+1
+temporal
+layer
 .
 *
 Increase
@@ -8514,6 +8525,7 @@ size
 to
 supress
 noise
+.
 *
 /
 x
@@ -8577,6 +8589,17 @@ ref_frame
 !
 =
 LAST_FRAME
+&
+&
+cpi
+-
+>
+oxcf
+.
+number_of_layers
+=
+=
+1
 )
 x
 -

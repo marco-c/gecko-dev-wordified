@@ -511,7 +511,7 @@ shift
 ;
 #
 ifdef
-ENTROPY_STATS
+VP8_ENTROPY_STATS
 #
 if
 defined

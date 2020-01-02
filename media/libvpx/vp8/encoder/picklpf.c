@@ -88,6 +88,15 @@ tree
 #
 include
 "
+.
+/
+vpx_scale_rtcd
+.
+h
+"
+#
+include
+"
 vp8
 /
 common
@@ -124,7 +133,7 @@ include
 "
 vpx_scale
 /
-vpxscale
+vpx_scale
 .
 h
 "
@@ -1940,7 +1949,7 @@ new
 buffer
 *
 /
-vp8_yv12_copy_y
+vpx_yv12_copy_y
 (
 saved_frame
 cm
@@ -2118,7 +2127,7 @@ error
 score
 *
 /
-vp8_yv12_copy_y
+vpx_yv12_copy_y
 (
 saved_frame
 cm
@@ -2273,7 +2282,7 @@ filt_high
 0
 )
 {
-vp8_yv12_copy_y
+vpx_yv12_copy_y
 (
 saved_frame
 cm

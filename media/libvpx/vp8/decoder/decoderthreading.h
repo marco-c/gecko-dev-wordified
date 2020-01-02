@@ -87,14 +87,13 @@ tree
 /
 #
 ifndef
-_DECODER_THREADING_H
+DECODERTHREADING_H_
 #
 define
-_DECODER_THREADING_H
+DECODERTHREADING_H_
 #
 if
 CONFIG_MULTITHREAD
-extern
 void
 vp8mt_decode_mb_rows
 (
@@ -106,7 +105,6 @@ MACROBLOCKD
 xd
 )
 ;
-extern
 void
 vp8_decoder_remove_threads
 (
@@ -115,7 +113,6 @@ VP8D_COMP
 pbi
 )
 ;
-extern
 void
 vp8_decoder_create_threads
 (
@@ -124,7 +121,6 @@ VP8D_COMP
 pbi
 )
 ;
-extern
 void
 vp8mt_alloc_temp_buffers
 (
@@ -137,7 +133,6 @@ int
 prev_mb_rows
 )
 ;
-extern
 void
 vp8mt_de_alloc_temp_buffers
 (
@@ -152,3 +147,6 @@ mb_rows
 endif
 #
 endif
+/
+/
+DECODERTHREADING_H_

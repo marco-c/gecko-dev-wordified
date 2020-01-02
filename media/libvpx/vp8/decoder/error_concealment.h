@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-ERROR_CONCEALMENT_H
+ERROR_CONCEALMENT_H_
 #
 define
-ERROR_CONCEALMENT_H
+ERROR_CONCEALMENT_H_
 #
 include
 "
@@ -235,3 +235,6 @@ xd
 ;
 #
 endif
+/
+/
+ERROR_CONCEALMENT_H_

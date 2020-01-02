@@ -1068,13 +1068,6 @@ ONE_PARTITION
 oci
 -
 >
-clr_type
-=
-REG_YUV
-;
-oci
--
->
 clamp_type
 =
 RECON_CLAMP_REQUIRED

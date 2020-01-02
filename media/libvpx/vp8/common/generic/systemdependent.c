@@ -95,7 +95,7 @@ h
 #
 include
 "
-vpx_rtcd
+vp8_rtcd
 .
 h
 "
@@ -409,6 +409,13 @@ core_count
 }
 #
 endif
+void
+vp8_clear_system_state_c
+(
+)
+{
+}
+;
 void
 vp8_machine_specific_config
 (

@@ -123,7 +123,7 @@ vp8_clear_system_state
 #
 define
 MAX_PSNR
-60
+100
 double
 vp8_mse2psnr
 (

@@ -448,10 +448,10 @@ xxsum0
 -
 (
 (
+(
 unsigned
 int
 )
-(
 xsum0
 *
 xsum0
@@ -613,10 +613,10 @@ xxsum0
 -
 (
 (
+(
 unsigned
 int
 )
-(
 xsum0
 *
 xsum0

@@ -95,7 +95,7 @@ h
 #
 include
 "
-vpx_rtcd
+vp8_rtcd
 .
 h
 "
@@ -119,8 +119,8 @@ char
 yleft
 int
 left_stride
-B_PREDICTION_MODE
-b_mode
+int
+_b_mode
 unsigned
 char
 *
@@ -136,6 +136,14 @@ int
 i
 r
 c
+;
+B_PREDICTION_MODE
+b_mode
+=
+(
+B_PREDICTION_MODE
+)
+_b_mode
 ;
 unsigned
 char

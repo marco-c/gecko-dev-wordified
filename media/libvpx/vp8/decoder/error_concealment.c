@@ -87,6 +87,13 @@ tree
 /
 #
 include
+<
+assert
+.
+h
+>
+#
+include
 "
 error_concealment
 .
@@ -126,13 +133,6 @@ findnearmv
 .
 h
 "
-#
-include
-<
-assert
-.
-h
->
 #
 define
 MIN

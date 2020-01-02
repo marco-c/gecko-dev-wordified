@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-DETOKENIZE_H
+DETOKENIZE_H_
 #
 define
-DETOKENIZE_H
+DETOKENIZE_H_
 #
 include
 "
@@ -118,7 +118,5 @@ MACROBLOCKD
 #
 endif
 /
-*
-DETOKENIZE_H
-*
 /
+DETOKENIZE_H

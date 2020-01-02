@@ -145,6 +145,7 @@ android
 ndk
 -
 r9b
+/
 "
 ;
 const

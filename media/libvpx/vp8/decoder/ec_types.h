@@ -260,7 +260,5 @@ EC_BLOCK
 #
 endif
 /
-*
-VP8_DEC_EC_TYPES_H
-*
 /
+VP8_DEC_EC_TYPES_H

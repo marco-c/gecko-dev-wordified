@@ -109,7 +109,7 @@ Sectionbits
 endif
 #
 ifdef
-ENTROPY_STATS
+VP8_ENTROPY_STATS
 unsigned
 int
 active_section
