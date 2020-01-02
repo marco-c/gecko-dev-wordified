@@ -2560,6 +2560,16 @@ LAST_MODIFIED
 last_modified
 "
 ;
+public
+static
+final
+String
+DEVICE_TYPE
+=
+"
+device_type
+"
+;
 }
 /
 /
