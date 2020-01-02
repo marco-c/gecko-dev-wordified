@@ -245,10 +245,6 @@ DOMCI_CLASS
 (
 XPathNSResolver
 )
-DOMCI_CLASS
-(
-XPathResult
-)
 /
 /
 WhatWG
