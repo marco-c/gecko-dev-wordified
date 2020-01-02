@@ -143,7 +143,9 @@ h
 #
 include
 "
-jsobjinlines
+vm
+/
+ProxyObject
 .
 h
 "

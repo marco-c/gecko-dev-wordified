@@ -115,6 +115,9 @@ jit_PerfSpewer_h
 define
 jit_PerfSpewer_h
 #
+ifdef
+JS_ION_PERF
+#
 include
 <
 stdio
@@ -130,6 +133,8 @@ IonMacroAssembler
 .
 h
 "
+#
+endif
 namespace
 js
 {

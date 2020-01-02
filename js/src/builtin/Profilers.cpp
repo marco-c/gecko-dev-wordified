@@ -150,6 +150,9 @@ endif
 ifdef
 __APPLE__
 #
+ifdef
+MOZ_INSTRUMENTS
+#
 include
 "
 devtools
@@ -159,6 +162,11 @@ Instruments
 h
 "
 #
+endif
+#
+ifdef
+MOZ_SHARK
+#
 include
 "
 devtools
@@ -167,6 +175,8 @@ sharkctl
 .
 h
 "
+#
+endif
 #
 endif
 #

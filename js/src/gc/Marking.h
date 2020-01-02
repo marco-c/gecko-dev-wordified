@@ -123,15 +123,6 @@ Barrier
 .
 h
 "
-#
-include
-"
-js
-/
-TypeDecls
-.
-h
-"
 class
 JSAtom
 ;

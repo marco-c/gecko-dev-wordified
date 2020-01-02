@@ -141,7 +141,7 @@ include
 "
 jit
 /
-MIRGraph
+MIRGenerator
 .
 h
 "

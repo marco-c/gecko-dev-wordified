@@ -117,7 +117,16 @@ builtin_Object_h
 #
 include
 "
-jsobj
+jsapi
+.
+h
+"
+#
+include
+"
+js
+/
+Value
 .
 h
 "
@@ -162,7 +171,7 @@ JSContext
 cx
 unsigned
 argc
-js
+JS
 :
 :
 Value
@@ -198,6 +207,9 @@ ObjectToSource
 JSContext
 *
 cx
+JS
+:
+:
 HandleObject
 obj
 )

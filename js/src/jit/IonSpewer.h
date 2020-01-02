@@ -148,6 +148,15 @@ JSONSpewer
 .
 h
 "
+#
+include
+"
+js
+/
+RootingAPI
+.
+h
+"
 namespace
 js
 {
@@ -617,6 +626,9 @@ MIRGraph
 *
 graph
 ;
+JS
+:
+:
 HandleScript
 function
 ;
@@ -677,6 +689,9 @@ beginFunction
 MIRGraph
 *
 graph
+JS
+:
+:
 HandleScript
 )
 ;
@@ -720,6 +735,9 @@ IonSpewNewFunction
 MIRGraph
 *
 graph
+JS
+:
+:
 HandleScript
 function
 )
@@ -891,6 +909,9 @@ IonSpewNewFunction
 MIRGraph
 *
 graph
+JS
+:
+:
 HandleScript
 function
 )

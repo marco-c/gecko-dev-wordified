@@ -129,13 +129,6 @@ h
 #
 include
 "
-jsobj
-.
-h
-"
-#
-include
-"
 js
 /
 RootingAPI

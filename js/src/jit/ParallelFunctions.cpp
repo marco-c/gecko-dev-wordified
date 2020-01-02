@@ -120,15 +120,6 @@ h
 #
 include
 "
-jit
-/
-IonSpewer
-.
-h
-"
-#
-include
-"
 vm
 /
 ArrayObject

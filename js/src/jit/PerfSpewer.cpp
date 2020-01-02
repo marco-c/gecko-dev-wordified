@@ -133,6 +133,9 @@ h
 #
 endif
 #
+ifdef
+JS_ION_PERF
+#
 include
 "
 jit
@@ -177,6 +180,8 @@ MIRGraph
 .
 h
 "
+#
+endif
 /
 /
 perf

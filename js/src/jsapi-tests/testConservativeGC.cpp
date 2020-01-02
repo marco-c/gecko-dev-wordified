@@ -97,13 +97,6 @@ String
 .
 h
 "
-#
-include
-"
-jsobjinlines
-.
-h
-"
 BEGIN_TEST
 (
 testConservativeGC

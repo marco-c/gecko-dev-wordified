@@ -124,6 +124,15 @@ jsprf
 .
 h
 "
+#
+include
+"
+jit
+/
+BitSet
+.
+h
+"
 using
 namespace
 js

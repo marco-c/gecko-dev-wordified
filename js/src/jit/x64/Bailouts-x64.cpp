@@ -117,15 +117,6 @@ Bailouts
 .
 h
 "
-#
-include
-"
-jit
-/
-IonCompartment
-.
-h
-"
 using
 namespace
 js

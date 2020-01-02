@@ -178,6 +178,15 @@ RegisterSets
 .
 h
 "
+#
+include
+"
+vm
+/
+TypedArrayObject
+.
+h
+"
 namespace
 js
 {
@@ -2207,6 +2216,9 @@ if
 (
 maybeHeap_
 )
+gc
+:
+:
 MarkObject
 (
 trc

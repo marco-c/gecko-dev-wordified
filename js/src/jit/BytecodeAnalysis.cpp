@@ -127,6 +127,15 @@ h
 #
 include
 "
+jit
+/
+IonSpewer
+.
+h
+"
+#
+include
+"
 jsopcodeinlines
 .
 h

@@ -125,15 +125,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-GuardObjects
-.
-h
-"
-#
-include
 <
 stdint
 .

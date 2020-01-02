@@ -122,15 +122,6 @@ tests
 .
 h
 "
-#
-include
-"
-vm
-/
-String
-.
-h
-"
 BEGIN_TEST
 (
 testIntString_bug515273

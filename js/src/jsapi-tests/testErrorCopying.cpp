@@ -141,13 +141,6 @@ MPL
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 jsapi
 -
 tests

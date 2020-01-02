@@ -164,13 +164,6 @@ h
 #
 include
 "
-jsfun
-.
-h
-"
-#
-include
-"
 jsobj
 .
 h
@@ -179,13 +172,6 @@ h
 include
 "
 jsprf
-.
-h
-"
-#
-include
-"
-jsutil
 .
 h
 "

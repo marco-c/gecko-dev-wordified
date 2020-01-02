@@ -114,13 +114,6 @@ MPL
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 jsapi
 -
 tests

@@ -117,15 +117,6 @@ vm_GlobalObject_h
 #
 include
 "
-mozilla
-/
-DebugOnly
-.
-h
-"
-#
-include
-"
 jsarray
 .
 h

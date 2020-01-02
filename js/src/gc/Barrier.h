@@ -131,6 +131,9 @@ Heap
 h
 "
 #
+ifdef
+JSGC_GENERATIONAL
+#
 include
 "
 gc
@@ -139,6 +142,8 @@ StoreBuffer
 .
 h
 "
+#
+endif
 #
 include
 "

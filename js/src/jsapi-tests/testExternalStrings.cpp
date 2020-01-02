@@ -77,13 +77,6 @@ h
 #
 include
 "
-jsutil
-.
-h
-"
-#
-include
-"
 jsapi
 -
 tests

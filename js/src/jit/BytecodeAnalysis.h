@@ -117,6 +117,13 @@ jit_BytecodeAnalysis_h
 #
 include
 "
+jsscript
+.
+h
+"
+#
+include
+"
 jit
 /
 IonAllocPolicy
