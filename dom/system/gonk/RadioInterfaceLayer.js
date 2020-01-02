@@ -8398,7 +8398,9 @@ return
 }
 if
 (
-defaultDataCallConnected
+networkInterface
+.
+enabled
 &
 &
 wifi_active
@@ -8445,9 +8447,7 @@ dataCallSettings
 enabled
 |
 |
-networkInterface
-.
-enabled
+defaultDataCallConnected
 )
 {
 if
