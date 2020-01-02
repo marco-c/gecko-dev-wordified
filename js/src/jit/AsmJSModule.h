@@ -7911,6 +7911,9 @@ setProfilingEnabled
 (
 bool
 enabled
+JSContext
+*
+cx
 )
 ;
 /
