@@ -338,17 +338,6 @@ nsCharSeparatedTokenizer
 SEPARATOR_OPTIONAL
 )
 ;
-nsAutoCString
-str
-;
-/
-/
-outside
-loop
-to
-minimize
-memory
-churn
 while
 (
 tokenizer
