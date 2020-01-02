@@ -8377,11 +8377,8 @@ if
 JS_WrapObject
 (
 cx
+&
 thisObj
-.
-address
-(
-)
 )
 )
 goto

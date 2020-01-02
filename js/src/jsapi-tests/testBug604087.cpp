@@ -247,11 +247,8 @@ if
 JS_WrapObject
 (
 cx
+&
 wrapper
-.
-address
-(
-)
 )
 )
 return

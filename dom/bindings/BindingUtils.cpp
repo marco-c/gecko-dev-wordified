@@ -4069,11 +4069,8 @@ aAllowNativeWrapper
 JS_WrapObject
 (
 aCx
+&
 obj
-.
-address
-(
-)
 )
 )
 {

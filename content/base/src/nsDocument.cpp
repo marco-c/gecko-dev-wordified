@@ -27794,11 +27794,8 @@ if
 JS_WrapObject
 (
 aCx
+&
 protoObject
-.
-address
-(
-)
 )
 )
 {

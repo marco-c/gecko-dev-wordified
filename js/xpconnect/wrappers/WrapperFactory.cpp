@@ -642,11 +642,8 @@ if
 JS_WrapObject
 (
 cx
+&
 proto
-.
-address
-(
-)
 )
 )
 return

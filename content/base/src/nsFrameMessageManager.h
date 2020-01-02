@@ -576,9 +576,10 @@ ToObject
 JSContext
 *
 cx
-JSObject
-*
-*
+JS
+:
+:
+MutableHandleObject
 objp
 )
 =
@@ -624,9 +625,10 @@ ToObject
 JSContext
 *
 aCx
-JSObject
-*
-*
+JS
+:
+:
+MutableHandleObject
 aObjp
 )
 ;

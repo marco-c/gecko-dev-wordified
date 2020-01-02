@@ -7940,11 +7940,8 @@ if
 JS_WrapObject
 (
 aCx
+&
 domObject
-.
-address
-(
-)
 )
 )
 {

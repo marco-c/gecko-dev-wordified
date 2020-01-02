@@ -19237,11 +19237,8 @@ if
 JS_WrapObject
 (
 aCx
+&
 obj
-.
-address
-(
-)
 )
 )
 {

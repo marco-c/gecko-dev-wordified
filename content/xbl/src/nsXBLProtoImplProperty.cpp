@@ -910,11 +910,8 @@ if
 JS_WrapObject
 (
 aCx
+&
 getter
-.
-address
-(
-)
 )
 |
 |
@@ -922,11 +919,8 @@ address
 JS_WrapObject
 (
 aCx
+&
 setter
-.
-address
-(
-)
 )
 |
 |

@@ -10132,9 +10132,10 @@ JS_WrapObject
 JSContext
 *
 cx
-JSObject
-*
-*
+JS
+:
+:
+MutableHandleObject
 objp
 )
 ;

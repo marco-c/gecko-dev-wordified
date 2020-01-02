@@ -199,9 +199,10 @@ ToObject
 JSContext
 *
 cx
-JSObject
-*
-*
+JS
+:
+:
+MutableHandleObject
 objp
 )
 ;
@@ -466,9 +467,10 @@ CpowEntry
 >
 &
 aCpows
-JSObject
-*
-*
+JS
+:
+:
+MutableHandleObject
 objp
 )
 ;
