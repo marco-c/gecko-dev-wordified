@@ -289,6 +289,14 @@ view
 "
 )
 ;
+launchActivityOnClick
+(
+connectionStatusSignInView
+FxAccountUpdateCredentialsActivity
+.
+class
+)
+;
 }
 Override
 public
