@@ -411,9 +411,9 @@ content
 "
 mozContentEvent
 "
-ObjectWrapper
+Cu
 .
-wrap
+cloneInto
 (
 detail
 content
