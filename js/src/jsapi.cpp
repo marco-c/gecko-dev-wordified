@@ -11793,7 +11793,7 @@ thread
 s
 /
 /
-ionStackLimit
+jitStackLimit
 then
 update
 it
@@ -11886,7 +11886,7 @@ rt
 >
 mainThread
 .
-ionStackLimit
+jitStackLimit
 !
 =
 uintptr_t
@@ -11901,7 +11901,7 @@ rt
 >
 mainThread
 .
-ionStackLimit
+jitStackLimit
 =
 rt
 -
@@ -11921,7 +11921,7 @@ rt
 >
 mainThread
 .
-ionStackLimit
+jitStackLimit
 =
 jit
 :

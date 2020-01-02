@@ -248,12 +248,12 @@ rt
 >
 mainThread
 .
-ionStackLimit
+jitStackLimit
 ;
 const
 void
 *
-addressOfIonStackLimit
+addressOfJitStackLimit
 (
 )
 ;

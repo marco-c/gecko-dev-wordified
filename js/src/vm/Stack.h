@@ -8175,7 +8175,7 @@ prevIonTop_
 ;
 JSContext
 *
-prevIonJSContext_
+prevJitJSContext_
 ;
 bool
 firstFrameIsConstructing_

@@ -823,7 +823,7 @@ callback
 we
 set
 the
-ionStackLimit
+jitStackLimit
 to
 nullptr
 /
@@ -901,7 +901,7 @@ can
 reach
 here
 if
-ionStackLimit
+jitStackLimit
 is
 MAXADDR
 but

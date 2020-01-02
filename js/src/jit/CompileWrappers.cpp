@@ -224,7 +224,7 @@ void
 CompileRuntime
 :
 :
-addressOfIonStackLimit
+addressOfJitStackLimit
 (
 )
 {
@@ -237,7 +237,7 @@ runtime
 >
 mainThread
 .
-ionStackLimit
+jitStackLimit
 ;
 }
 const
@@ -259,7 +259,7 @@ runtime
 >
 mainThread
 .
-ionJSContext
+jitJSContext
 ;
 }
 const

@@ -498,11 +498,11 @@ ionTop
 (
 nullptr
 )
-ionJSContext
+jitJSContext
 (
 nullptr
 )
-ionStackLimit
+jitStackLimit
 (
 0
 )
@@ -2741,7 +2741,7 @@ void
 JSRuntime
 :
 :
-resetIonStackLimit
+resetJitStackLimit
 (
 )
 {
@@ -2753,7 +2753,7 @@ this
 ;
 mainThread
 .
-setIonStackLimit
+setJitStackLimit
 (
 mainThread
 .
@@ -2771,7 +2771,7 @@ ifdef
 JS_ARM_SIMULATOR
 mainThread
 .
-setIonStackLimit
+setJitStackLimit
 (
 js
 :
@@ -3287,7 +3287,7 @@ stuck
 at
 0
 but
-ionStackLimit
+jitStackLimit
 is
 *
 MAXADDR
@@ -3296,7 +3296,7 @@ MAXADDR
 /
 mainThread
 .
-setIonStackLimit
+setJitStackLimit
 (
 -
 1

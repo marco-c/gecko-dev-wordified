@@ -1533,7 +1533,7 @@ cx
 perThreadData
 -
 >
-ionStackLimit
+jitStackLimit
 ;
 if
 (

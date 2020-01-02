@@ -3085,7 +3085,7 @@ runtime
 >
 mainThread
 .
-ionStackLimit
+jitStackLimit
 ;
 uint32_t
 slotsSize

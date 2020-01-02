@@ -6347,7 +6347,7 @@ callbacks
 rt
 -
 >
-resetIonStackLimit
+resetJitStackLimit
 (
 )
 ;

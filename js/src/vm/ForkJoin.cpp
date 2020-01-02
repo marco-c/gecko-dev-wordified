@@ -9669,7 +9669,7 @@ cases
 .
 thisThread
 .
-ionStackLimit
+jitStackLimit
 =
 stackLimit
 ;
