@@ -5973,6 +5973,10 @@ private
 :
 friend
 class
+OverscrollableAnimation
+;
+friend
+class
 FlingAnimation
 ;
 friend
