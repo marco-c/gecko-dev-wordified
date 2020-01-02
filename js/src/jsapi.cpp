@@ -3473,6 +3473,9 @@ n
 }
 #
 endif
+#
+ifdef
+JS_THREADSAFE
 WorkerThreadState
 (
 )
@@ -3481,6 +3484,8 @@ finish
 (
 )
 ;
+#
+endif
 PRMJ_NowShutdown
 (
 )
