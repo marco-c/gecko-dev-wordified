@@ -206,7 +206,7 @@ is
 (
 DebuggerServer
 .
-_socketConnections
+listeningSockets
 0
 )
 ;
@@ -221,7 +221,7 @@ is
 (
 DebuggerServer
 .
-_socketConnections
+listeningSockets
 1
 )
 ;
