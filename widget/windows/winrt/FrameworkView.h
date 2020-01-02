@@ -1598,9 +1598,6 @@ mWinVisible
 bool
 mWinActiveState
 ;
-ApplicationViewState
-mViewState
-;
 }
 ;
 }
