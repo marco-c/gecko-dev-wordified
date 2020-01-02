@@ -1528,6 +1528,14 @@ JSCompartment
 compartment
 )
 ;
+bool
+IsInXBLScope
+(
+JSObject
+*
+obj
+)
+;
 void
 SetLocationForGlobal
 (
