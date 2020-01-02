@@ -3915,7 +3915,7 @@ aObj
 else
 {
 const
-DOMClass
+DOMJSClass
 *
 domClass
 =

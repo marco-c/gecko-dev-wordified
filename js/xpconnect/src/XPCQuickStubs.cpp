@@ -3655,7 +3655,7 @@ mozilla
 dom
 :
 :
-DOMClass
+DOMJSClass
 *
 domClass
 =

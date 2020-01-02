@@ -4494,7 +4494,7 @@ return
 false
 .
 const
-DOMClass
+DOMJSClass
 *
 domClass
 =
@@ -4542,8 +4542,8 @@ depth
 )
 {
 const
-DOMClass
-&
+DOMJSClass
+*
 domClass
 =
 DOMJSClass
@@ -4553,9 +4553,6 @@ FromJSClass
 (
 clasp
 )
--
->
-mClass
 ;
 return
 static_cast
@@ -4564,7 +4561,8 @@ uint32_t
 >
 (
 domClass
-.
+-
+>
 mInterfaceChain
 [
 depth
@@ -5404,7 +5402,7 @@ type
 )
 {
 const
-DOMClass
+DOMJSClass
 *
 domClass
 =
@@ -10131,7 +10129,7 @@ aObjArg
 )
 ;
 const
-DOMClass
+DOMJSClass
 *
 domClass
 =
@@ -11419,7 +11417,7 @@ obj
 )
 ;
 const
-DOMClass
+DOMJSClass
 *
 domClass
 =
@@ -11860,7 +11858,7 @@ bp
 )
 {
 const
-DOMClass
+DOMJSClass
 *
 domClass
 =

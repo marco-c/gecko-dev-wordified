@@ -2409,8 +2409,6 @@ fill
 "
 "
 "
-        
-{
           
 {
 {
@@ -2456,8 +2454,6 @@ nativeType
 Get
 (
 )
-        
-}
         
 "
 "
@@ -12888,7 +12884,7 @@ dedent
 "
             
 const
-DOMClass
+DOMJSClass
 *
 domClass
 =
