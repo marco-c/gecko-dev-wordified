@@ -844,7 +844,7 @@ String
 .
 fromCharCode
 (
-0x25aa
+0x25fe
 )
 +
 "
