@@ -4324,7 +4324,7 @@ download
 .
 useJSTransfer
 "
-false
+true
 )
 ;
 /
