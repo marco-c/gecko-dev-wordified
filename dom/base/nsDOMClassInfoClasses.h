@@ -147,10 +147,6 @@ CSSNameSpaceRule
 )
 DOMCI_CLASS
 (
-CSSRuleList
-)
-DOMCI_CLASS
-(
 CSSStyleSheet
 )
 /

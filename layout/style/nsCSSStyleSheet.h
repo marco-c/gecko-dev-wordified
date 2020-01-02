@@ -636,6 +636,9 @@ Sheet
 class
 CSSRuleListImpl
 ;
+class
+nsICSSRuleList
+;
 /
 /
 CID
@@ -1908,7 +1911,7 @@ GetDOMOwnerRule
 )
 const
 ;
-nsIDOMCSSRuleList
+nsICSSRuleList
 *
 GetCssRules
 (
