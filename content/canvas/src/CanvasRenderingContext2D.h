@@ -242,6 +242,9 @@ gfx
 class
 SourceSurface
 ;
+class
+SurfaceStream
+;
 }
 namespace
 dom
@@ -3424,9 +3427,6 @@ CurrentState
 font
 ;
 }
-#
-if
-USE_SKIA_GPU
 static
 std
 :
@@ -3474,8 +3474,6 @@ GL
 bool
 mForceSoftware
 ;
-#
-endif
 /
 /
 Member
@@ -3631,6 +3629,15 @@ gfx
 DrawTarget
 >
 mTarget
+;
+RefPtr
+<
+gfx
+:
+:
+SurfaceStream
+>
+mStream
 ;
 /
 *
