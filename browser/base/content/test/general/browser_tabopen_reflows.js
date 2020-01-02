@@ -508,6 +508,9 @@ jsm
 "
 +
 "
+ssi_updateWindowFeatures
+/
+<
 resource
 :
 /
