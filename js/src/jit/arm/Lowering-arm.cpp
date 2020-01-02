@@ -2153,6 +2153,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return
@@ -2218,6 +2219,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return
@@ -2231,8 +2233,6 @@ div
 )
 ;
 }
-else
-{
 LSoftDivI
 *
 lir
@@ -2284,6 +2284,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return
@@ -2303,7 +2304,6 @@ r0
 )
 )
 ;
-}
 }
 bool
 LIRGeneratorARM
@@ -2343,6 +2343,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return
@@ -2480,6 +2481,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return
@@ -2560,6 +2562,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return
@@ -2625,6 +2628,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return
@@ -2638,8 +2642,6 @@ mod
 )
 ;
 }
-else
-{
 LSoftModI
 *
 lir
@@ -2698,6 +2700,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return
@@ -2717,7 +2720,6 @@ r1
 )
 )
 ;
-}
 }
 bool
 LIRGeneratorARM

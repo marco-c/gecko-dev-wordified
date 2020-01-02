@@ -625,6 +625,14 @@ jsbytecode
 pc
 )
 ;
+bool
+hasSeenNonStringIterNext
+(
+jsbytecode
+*
+pc
+)
+;
 }
 ;
 }

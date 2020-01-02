@@ -1012,15 +1012,6 @@ js
 :
 :
 NotLiveGCThing
-typeResults
-)
-\
-macro
-(
-js
-:
-:
-NotLiveGCThing
 pendingArrays
 )
 \

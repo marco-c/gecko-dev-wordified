@@ -855,6 +855,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return
@@ -1090,6 +1091,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return
@@ -1288,6 +1290,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return
@@ -1347,6 +1350,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return
@@ -1489,6 +1493,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return
@@ -1549,6 +1554,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return

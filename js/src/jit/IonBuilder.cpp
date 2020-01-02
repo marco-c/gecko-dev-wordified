@@ -24479,7 +24479,6 @@ cloneTypeSet
 (
 types
 )
-Bailout_Normal
 )
 ;
 current
@@ -57122,7 +57121,7 @@ addShapeGuard
 (
 obj
 objShape
-Bailout_CachedShapeGuard
+Bailout_ShapeGuard
 )
 ;
 Shape
@@ -59623,7 +59622,7 @@ addShapeGuard
 (
 obj
 objShape
-Bailout_CachedShapeGuard
+Bailout_ShapeGuard
 )
 ;
 Shape
@@ -61422,14 +61421,13 @@ if
 nonStringIteration_
 &
 &
-types
-:
-:
-IterationValuesMustBeStrings
+!
+inspector
+-
+>
+hasSeenNonStringIterNext
 (
-script
-(
-)
+pc
 )
 )
 {
@@ -61445,7 +61443,8 @@ MIRType_String
 MUnbox
 :
 :
-Infallible
+Fallible
+Bailout_BaselineInfo
 )
 ;
 current
