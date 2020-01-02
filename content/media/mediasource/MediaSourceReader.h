@@ -400,9 +400,6 @@ aType
 MediaSourceDecoder
 *
 aParentDecoder
-MediaTaskQueue
-*
-aTaskQueue
 )
 ;
 void
