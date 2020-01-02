@@ -205,6 +205,8 @@ aMessageClass
 uint64_t
 aTimestamp
 uint64_t
+aSentTimestamp
+uint64_t
 aDeliveryTimestamp
 bool
 aRead
@@ -264,6 +266,13 @@ JS
 Value
 &
 aTimestamp
+const
+JS
+:
+:
+Value
+&
+aSentTimestamp
 const
 JS
 :

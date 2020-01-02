@@ -226,6 +226,13 @@ JS
 :
 Value
 &
+aSentTimestamp
+const
+JS
+:
+:
+Value
+&
 aDeliveryTimestamp
 const
 bool
@@ -255,6 +262,7 @@ aReceiver
 aBody
 aMessageClass
 aTimestamp
+aSentTimestamp
 aDeliveryTimestamp
 aRead
 aCx
@@ -305,6 +313,13 @@ JS
 Value
 &
 aTimestamp
+const
+JS
+:
+:
+Value
+&
+aSentTimestamp
 bool
 aRead
 const
@@ -354,6 +369,7 @@ aDeliveryInfo
 aSender
 aReceivers
 aTimestamp
+aSentTimestamp
 aRead
 aSubject
 aSmil

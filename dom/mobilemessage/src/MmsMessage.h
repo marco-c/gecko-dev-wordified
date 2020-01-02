@@ -211,6 +211,8 @@ nsString
 aReceivers
 uint64_t
 aTimestamp
+uint64_t
+aSentTimestamp
 bool
 aRead
 const
@@ -289,6 +291,13 @@ JS
 Value
 &
 aTimestamp
+const
+JS
+:
+:
+Value
+&
+aSentTimestamp
 bool
 aRead
 const
@@ -375,6 +384,9 @@ mReceivers
 ;
 uint64_t
 mTimestamp
+;
+uint64_t
+mSentTimestamp
 ;
 bool
 mRead
