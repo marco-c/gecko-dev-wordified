@@ -608,11 +608,6 @@ nsScriptSecurityManager
 (
 )
 ;
-bool
-SubjectIsPrivileged
-(
-)
-;
 /
 /
 Decides
