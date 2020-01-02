@@ -2949,7 +2949,7 @@ rv
 )
 checkResult
 =
-ENTRY_WANTED
+ENTRY_NOT_WANTED
 ;
 }
 switch
