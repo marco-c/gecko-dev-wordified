@@ -620,6 +620,13 @@ class
 CounterStyleManager
 MOZ_FINAL
 {
+private
+:
+~
+CounterStyleManager
+(
+)
+;
 public
 :
 CounterStyleManager
@@ -627,11 +634,6 @@ CounterStyleManager
 nsPresContext
 *
 aPresContext
-)
-;
-~
-CounterStyleManager
-(
 )
 ;
 static
