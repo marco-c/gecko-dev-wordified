@@ -337,6 +337,7 @@ if
 !
 sLog
 )
+{
 sLog
 =
 PR_NewLogModule
@@ -346,6 +347,7 @@ nsNativeModuleLoader
 "
 )
 ;
+}
 return
 sLog
 ;
@@ -780,11 +782,13 @@ sizeof
 errorMsg
 )
 )
+{
 PR_GetErrorText
 (
 errorMsg
 )
 ;
+}
 LogMessage
 (
 "
