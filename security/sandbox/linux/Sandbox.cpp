@@ -188,12 +188,17 @@ NullPtr
 h
 "
 #
+ifdef
+MOZ_CRASHREPORTER
+#
 include
 "
 nsExceptionHandler
 .
 h
 "
+#
+endif
 #
 if
 defined
@@ -646,6 +651,9 @@ args
 ]
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 bool
 dumped
 =
@@ -676,6 +684,8 @@ minidump
 )
 ;
 }
+#
+endif
 /
 /
 Try
