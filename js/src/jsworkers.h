@@ -1723,8 +1723,7 @@ the
 main
 thread
 .
-JSObject
-*
+PersistentRootedObject
 scopeChain
 ;
 /
@@ -1741,8 +1740,7 @@ by
 cx
 '
 .
-JSObject
-*
+PersistentRootedObject
 exclusiveContextGlobal
 ;
 /
