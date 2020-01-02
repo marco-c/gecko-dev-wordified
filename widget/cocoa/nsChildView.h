@@ -1375,6 +1375,7 @@ mozAccessible
 endif
 mozView
 NSTextInput
+NSTextInputClient
 >
 {
 private
@@ -3156,6 +3157,13 @@ InputContext
 GetInputContext
 (
 )
+;
+virtual
+nsIMEUpdatePreference
+GetIMEUpdatePreference
+(
+)
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetToggledKeyState
