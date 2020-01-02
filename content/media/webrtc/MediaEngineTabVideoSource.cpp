@@ -1694,6 +1694,7 @@ bool
 uint32_t
 bool
 uint32_t
+int32_t
 )
 {
 return
