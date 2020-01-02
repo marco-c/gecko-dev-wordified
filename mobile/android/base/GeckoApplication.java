@@ -773,6 +773,15 @@ getApplicationContext
 )
 )
 ;
+FilePicker
+.
+init
+(
+getApplicationContext
+(
+)
+)
+;
 GeckoLoader
 .
 loadMozGlue
