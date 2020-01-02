@@ -3011,6 +3011,16 @@ return
 nullptr
 ;
 }
+virtual
+const
+nsIntSize
+&
+GetWidgetSize
+(
+)
+=
+0
+;
 /
 /
 Call
