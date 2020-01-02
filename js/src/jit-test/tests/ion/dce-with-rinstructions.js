@@ -1156,6 +1156,16 @@ rbitor_object
 i
 )
 ;
+rbitxor_number
+(
+i
+)
+;
+rbitxor_object
+(
+i
+)
+;
 rursh_number
 (
 i
