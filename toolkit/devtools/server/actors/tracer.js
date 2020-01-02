@@ -1893,7 +1893,7 @@ param
 aFrame
 Debugger
 .
-frame
+Frame
 *
 The
 stack
