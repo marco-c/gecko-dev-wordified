@@ -92,6 +92,9 @@ obj
 ;
 CHECK
 (
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -207,6 +210,9 @@ thing
 but
 without
 JSOPTION_VAROBJFIX
+JS
+:
+:
 ContextOptionsRef
 (
 cx
