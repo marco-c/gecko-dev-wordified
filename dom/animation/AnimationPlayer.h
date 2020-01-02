@@ -731,7 +731,7 @@ GetSource
 const
 {
 return
-nullptr
+mSource
 ;
 }
 AnimationTimeline
@@ -756,6 +756,14 @@ CurrentTime
 (
 )
 const
+;
+void
+SetSource
+(
+Animation
+*
+aSource
+)
 ;
 /
 /
@@ -1521,6 +1529,12 @@ nsRefPtr
 AnimationTimeline
 >
 mTimeline
+;
+nsRefPtr
+<
+Animation
+>
+mSource
 ;
 }
 ;
