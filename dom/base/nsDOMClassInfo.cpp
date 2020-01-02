@@ -16112,9 +16112,10 @@ prop_val
 &
 &
 !
-JSVAL_IS_NULL
-(
 prop_val
+.
+isNull
+(
 )
 )
 {

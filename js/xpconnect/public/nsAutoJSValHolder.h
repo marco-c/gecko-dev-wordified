@@ -655,9 +655,10 @@ aOther
 &
 &
 !
-JSVAL_IS_NULL
-(
 aOther
+.
+isNull
+(
 )
 )
 {

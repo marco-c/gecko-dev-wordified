@@ -827,9 +827,10 @@ v
 ;
 CHECK
 (
-JSVAL_IS_NULL
-(
 v
+.
+isNull
+(
 )
 )
 ;

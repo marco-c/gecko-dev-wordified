@@ -5417,9 +5417,10 @@ mResponse
 )
 |
 |
-JSVAL_IS_NULL
-(
 mResponse
+.
+isNull
+(
 )
 )
 ;

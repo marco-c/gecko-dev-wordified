@@ -947,9 +947,10 @@ patternArray
 )
 |
 |
-JSVAL_IS_NULL
-(
 patternArray
+.
+isNull
+(
 )
 )
 )

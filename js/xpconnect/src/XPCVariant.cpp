@@ -529,9 +529,10 @@ mData
 if
 (
 !
-JSVAL_IS_NULL
-(
 val
+.
+isNull
+(
 )
 )
 RemoveFromRootSet

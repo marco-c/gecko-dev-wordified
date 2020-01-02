@@ -2101,9 +2101,10 @@ aValue
 |
 !
 (
-JSVAL_IS_NULL
-(
 aValue
+.
+isNull
+(
 )
 |
 |
@@ -2139,9 +2140,10 @@ string
 .
 if
 (
-JSVAL_IS_NULL
-(
 aValue
+.
+isNull
+(
 )
 )
 {

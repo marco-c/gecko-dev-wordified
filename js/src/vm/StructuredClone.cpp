@@ -4056,9 +4056,10 @@ data
 ;
 if
 (
-JSVAL_IS_NULL
-(
 transferable
+.
+isNull
+(
 )
 |
 |

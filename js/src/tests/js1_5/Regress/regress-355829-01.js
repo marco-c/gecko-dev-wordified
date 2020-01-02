@@ -189,12 +189,13 @@ assert
 argc
 |
 |
-JSVAL_IS_NULL
-(
 argv
 [
 0
 ]
+.
+isNull
+(
 )
 |
 |

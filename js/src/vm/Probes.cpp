@@ -146,9 +146,10 @@ cx
 v
 )
 (
-JSVAL_IS_NULL
-(
 v
+.
+isNull
+(
 )
 ?
 JSTYPE_NULL
