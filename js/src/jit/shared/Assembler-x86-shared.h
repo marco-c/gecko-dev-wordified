@@ -126,6 +126,17 @@ assembler
 /
 assembler
 /
+MacroAssemblerX86Common
+.
+h
+"
+#
+include
+"
+assembler
+/
+assembler
+/
 X86Assembler
 .
 h
@@ -6404,7 +6415,7 @@ return
 JSC
 :
 :
-MacroAssembler
+MacroAssemblerX86Common
 :
 :
 isSSE2Present
@@ -6424,7 +6435,7 @@ return
 JSC
 :
 :
-MacroAssembler
+MacroAssemblerX86Common
 :
 :
 isSSE3Present
@@ -6442,7 +6453,7 @@ return
 JSC
 :
 :
-MacroAssembler
+MacroAssemblerX86Common
 :
 :
 isSSE41Present

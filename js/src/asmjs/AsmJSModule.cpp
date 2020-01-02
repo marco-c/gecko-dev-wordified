@@ -12054,7 +12054,7 @@ uint32_t
 JSC
 :
 :
-MacroAssembler
+MacroAssemblerX86Common
 :
 :
 getSSEState
@@ -12080,7 +12080,7 @@ X86
 JSC
 :
 :
-MacroAssembler
+MacroAssemblerX86Common
 :
 :
 getSSEState
@@ -12107,7 +12107,7 @@ uint32_t
 JSC
 :
 :
-MacroAssembler
+MacroAssemblerX86Common
 :
 :
 getSSEState
@@ -12133,7 +12133,7 @@ X64
 JSC
 :
 :
-MacroAssembler
+MacroAssemblerX86Common
 :
 :
 getSSEState

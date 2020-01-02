@@ -1203,6 +1203,11 @@ AutoDebugModeInvalidation
 invalidate
 )
 ;
+bool
+JitSupportsFloatingPoint
+(
+)
+;
 }
 /
 /
