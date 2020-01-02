@@ -162,7 +162,10 @@ testid
 yield
 selectNode
 (
-element
+"
+#
+testid
+"
 inspector
 )
 ;

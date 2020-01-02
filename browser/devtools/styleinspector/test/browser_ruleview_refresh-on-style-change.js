@@ -199,7 +199,10 @@ openRuleView
 yield
 selectNode
 (
-div
+"
+#
+testdiv
+"
 inspector
 )
 ;

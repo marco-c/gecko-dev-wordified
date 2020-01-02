@@ -180,7 +180,10 @@ openRuleView
 yield
 selectNode
 (
-testElement
+"
+#
+testid
+"
 inspector
 )
 ;

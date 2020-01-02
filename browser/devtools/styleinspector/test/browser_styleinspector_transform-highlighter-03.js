@@ -541,11 +541,9 @@ passed
 yield
 selectNode
 (
-content
-.
-document
-.
-documentElement
+"
+html
+"
 inspector
 )
 ;

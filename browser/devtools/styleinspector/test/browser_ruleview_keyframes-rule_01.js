@@ -464,7 +464,7 @@ selector
 yield
 selectNode
 (
-element
+selector
 inspector
 )
 ;
