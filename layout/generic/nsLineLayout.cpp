@@ -18818,7 +18818,7 @@ dw
 WritingMode
 lineWM
 =
-aPSD
+mRootSpan
 -
 >
 mWritingMode
