@@ -8386,7 +8386,7 @@ font
 .
 whitelist
 .
-skip_space_lookup_check
+skip_default_features_space_check
 "
 skiplist
 )
