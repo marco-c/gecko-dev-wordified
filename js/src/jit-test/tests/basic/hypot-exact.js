@@ -560,12 +560,3 @@ length
 2
 )
 ;
-reportCompare
-(
-0
-0
-"
-ok
-"
-)
-;
