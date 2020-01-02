@@ -98,6 +98,17 @@ shobjidl
 h
 >
 #
+pragma
+comment
+(
+lib
+"
+ole32
+.
+lib
+"
+)
+#
 endif
 #
 include
