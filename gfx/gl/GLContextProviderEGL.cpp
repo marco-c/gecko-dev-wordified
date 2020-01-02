@@ -1224,6 +1224,7 @@ EGL_DISPLAY
 (
 )
 mSurface
+this
 )
 )
 {
