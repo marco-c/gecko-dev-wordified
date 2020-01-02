@@ -2809,10 +2809,6 @@ toolbarbutton
 -
 1
 .
-customizationmode
--
-button
-.
 panelUI
 -
 grid
@@ -3204,10 +3200,6 @@ toolbarbutton
 -
 1
 buttonStateHover
-.
-customizationmode
--
-button
 #
 edit
 -
@@ -3293,11 +3285,6 @@ toolbarbutton
 buttonStateActive
 .
 subviewbutton
-buttonStateActive
-.
-customizationmode
--
-button
 buttonStateActive
 .
 widget
