@@ -459,6 +459,8 @@ length
 )
 {
 aCallback
+.
+handleEvent
 (
 Ci
 .
