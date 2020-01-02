@@ -11299,9 +11299,10 @@ getResultByIndex
 }
 handleCompletion
 :
+function
+(
 aReason
-=
->
+)
 {
 if
 (
@@ -11493,9 +11494,10 @@ getResultByIndex
 }
 handleCompletion
 :
+function
+(
 aReason
-=
->
+)
 {
 if
 (
