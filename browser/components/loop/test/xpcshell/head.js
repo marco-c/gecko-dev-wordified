@@ -407,6 +407,9 @@ success
 registrationResult
 :
 null
+registrationPushURL
+:
+undefined
 /
 *
 *
@@ -428,6 +431,9 @@ registerCallback
 this
 .
 registrationResult
+this
+.
+registrationPushURL
 )
 ;
 this
