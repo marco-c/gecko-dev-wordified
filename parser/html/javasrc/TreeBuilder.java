@@ -25523,10 +25523,6 @@ headPointer
 null
 ;
 assert
-!
-fragment
-;
-assert
 mode
 =
 =
