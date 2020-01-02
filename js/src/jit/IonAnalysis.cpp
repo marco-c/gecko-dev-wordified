@@ -120,6 +120,13 @@ h
 #
 include
 "
+jsanalyze
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineInspector

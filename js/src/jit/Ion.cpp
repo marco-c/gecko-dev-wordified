@@ -11972,7 +11972,10 @@ Method_CantCompile
 uint32_t
 numLocalsAndArgs
 =
-NumLocalsAndArgs
+analyze
+:
+:
+TotalSlots
 (
 script
 )
