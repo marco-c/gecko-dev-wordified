@@ -15061,10 +15061,9 @@ Below
 ;
 }
 return
-gen
--
->
-noteHeapAccess
+masm
+.
+append
 (
 AsmJSHeapAccess
 (
@@ -15602,10 +15601,9 @@ Below
 ;
 }
 return
-gen
--
->
-noteHeapAccess
+masm
+.
+append
 (
 AsmJSHeapAccess
 (

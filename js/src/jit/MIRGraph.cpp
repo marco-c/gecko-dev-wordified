@@ -249,16 +249,6 @@ performsAsmJSCall_
 (
 false
 )
-asmJSHeapAccesses_
-(
-*
-alloc
-)
-asmJSGlobalAccesses_
-(
-*
-alloc
-)
 minAsmJSHeapLength_
 (
 AsmJSAllocationGranularity
