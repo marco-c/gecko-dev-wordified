@@ -21,6 +21,15 @@ mozilla
 .
 gecko
 .
+AppConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 Assert
 ;
 import
@@ -202,7 +211,7 @@ content
 /
 "
 +
-TestConstants
+AppConstants
 .
 ANDROID_PACKAGE_NAME
 +

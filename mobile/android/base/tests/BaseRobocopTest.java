@@ -79,15 +79,6 @@ mozilla
 .
 gecko
 .
-AppConstants
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 Assert
 ;
 import
@@ -287,7 +278,7 @@ Class
 Activity
 >
 )
-AppConstants
+TestConstants
 .
 BROWSER_INTENT_CLASS
 )
