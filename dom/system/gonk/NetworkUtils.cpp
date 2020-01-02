@@ -187,7 +187,7 @@ __android_log_print
 (
 ANDROID_LOG_WARN
 "
-NetworlUtils
+NetworkUtils
 "
 #
 #
@@ -502,8 +502,6 @@ char
 INTERFACE_DELIMIT
 =
 "
-\
-0
 "
 ;
 static
@@ -5846,14 +5844,6 @@ mResultReason
 =
 NS_ConvertUTF8toUTF16
 (
-buf
-)
-;
-join
-(
-gReason
-INTERFACE_DELIMIT
-BUF_SIZE
 buf
 )
 ;
