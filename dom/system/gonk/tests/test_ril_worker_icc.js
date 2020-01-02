@@ -9937,6 +9937,18 @@ ANR0_RECORD_ID
 )
 ;
 }
+if
+(
+Array
+.
+isArray
+(
+aContact
+.
+anr
+)
+)
+{
 do_check_eq
 (
 number
@@ -9948,6 +9960,7 @@ anr
 ]
 )
 ;
+}
 onsuccess
 (
 )
