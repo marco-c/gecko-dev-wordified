@@ -4474,7 +4474,7 @@ apzIntersect
 mWidget
 -
 >
-HitTestAPZC
+ApzHitTest
 (
 mozilla
 :
@@ -4537,6 +4537,7 @@ ApzReceiveInputEvent
 (
 &
 event
+nullptr
 )
 ;
 aRefPointOut
@@ -7422,7 +7423,7 @@ apzIntersect
 mWidget
 -
 >
-HitTestAPZC
+ApzHitTest
 (
 mozilla
 :
@@ -7585,6 +7586,8 @@ ApzReceiveInputEvent
 (
 event
 &
+mTargetAPZCGuid
+&
 transformedEvent
 )
 ;
@@ -7740,6 +7743,7 @@ mWidget
 >
 ApzContentConsumingTouch
 (
+mTargetAPZCGuid
 )
 ;
 DispatchTouchCancel
@@ -7755,6 +7759,7 @@ mWidget
 >
 ApzContentIgnoringTouch
 (
+mTargetAPZCGuid
 )
 ;
 }
@@ -7866,6 +7871,7 @@ mWidget
 ApzReceiveInputEvent
 (
 event
+nullptr
 )
 ;
 /
@@ -8179,6 +8185,7 @@ ApzReceiveInputEvent
 (
 &
 touchEvent
+nullptr
 )
 ;
 }
