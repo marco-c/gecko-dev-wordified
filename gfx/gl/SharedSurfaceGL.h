@@ -604,9 +604,6 @@ gfxIntSize
 size
 bool
 hasAlpha
-gfxASurface
-:
-:
 gfxImageFormat
 format
 GLuint

@@ -3574,10 +3574,7 @@ gfxIntSize
 mWidth
 mHeight
 )
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 if
@@ -4466,10 +4463,7 @@ gfxIntSize
 mWidth
 mHeight
 )
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 if

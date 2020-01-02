@@ -435,9 +435,6 @@ gfx
 :
 IntSize
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aType
 )
@@ -449,9 +446,6 @@ ReleaseResources
 )
 ;
 virtual
-gfxASurface
-:
-:
 gfxContentType
 GetContentType
 (
@@ -459,10 +453,7 @@ GetContentType
 MOZ_OVERRIDE
 {
 return
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 ;
 }
 protected
@@ -614,9 +605,6 @@ gfx
 :
 IntSize
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aType
 )
@@ -639,9 +627,6 @@ SurfaceDescriptor
 ;
 }
 virtual
-gfxASurface
-:
-:
 gfxContentType
 GetContentType
 (
@@ -649,10 +634,7 @@ GetContentType
 MOZ_OVERRIDE
 {
 return
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 ;
 }
 }

@@ -589,9 +589,6 @@ UNINITIALIZED_VALUE
 1
 )
 typedef
-gfxASurface
-:
-:
 gfxImageFormat
 gfxImageFormat
 ;
@@ -849,9 +846,6 @@ const
 gfxIntSize
 &
 size
-gfxASurface
-:
-:
 gfxContentType
 contentType
 )
@@ -936,9 +930,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aContentType
 )
@@ -953,9 +944,6 @@ OptimizeImage
 gfxImageSurface
 *
 aSurface
-gfxASurface
-:
-:
 gfxImageFormat
 format
 )
@@ -3660,9 +3648,6 @@ gfx
 SurfaceFormat
 Optimal2DFormatForContent
 (
-gfxASurface
-:
-:
 gfxContentType
 aContent
 )
@@ -3671,9 +3656,6 @@ virtual
 gfxImageFormat
 OptimalFormatForContent
 (
-gfxASurface
-:
-:
 gfxContentType
 aContent
 )
@@ -3685,10 +3667,7 @@ GetOffscreenFormat
 )
 {
 return
-gfxASurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 ;
 }
 /

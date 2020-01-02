@@ -758,15 +758,9 @@ GetContentFlags
 CONTENT_OPAQUE
 )
 ?
-gfxASurface
+gfxImageFormatRGB24
 :
-:
-ImageFormatRGB24
-:
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 ;
 if
 (

@@ -1516,10 +1516,7 @@ width
 mSize
 .
 height
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 if
@@ -2624,10 +2621,7 @@ width
 mSize
 .
 height
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 if
@@ -4158,10 +4152,7 @@ FrameBlender
 :
 SizeOfDecodedWithComputedFallbackIfHeap
 (
-gfxASurface
-:
-:
-MemoryLocation
+gfxMemoryLocation
 aLocation
 MallocSizeOf
 aMallocSizeOf

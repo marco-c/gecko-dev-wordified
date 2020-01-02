@@ -121,9 +121,6 @@ GetReadOnlyData
 const
 MOZ_OVERRIDE
 ;
-gfxASurface
-:
-:
 gfxImageFormat
 Format
 (

@@ -1360,10 +1360,7 @@ destSurf
 >
 CreateSimilarSurface
 (
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 gfxIntSize
 (
 ceil
@@ -1526,10 +1523,7 @@ destRect
 height
 )
 )
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 ;
 }

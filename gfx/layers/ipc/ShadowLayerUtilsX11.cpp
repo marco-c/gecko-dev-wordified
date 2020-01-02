@@ -475,10 +475,7 @@ false
 }
 return
 (
-gfxASurface
-:
-:
-SurfaceTypeXlib
+gfxSurfaceTypeXlib
 =
 =
 gfxPlatform
@@ -852,9 +849,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aContent
 uint32_t
@@ -986,10 +980,7 @@ GetType
 )
 !
 =
-gfxASurface
-:
-:
-SurfaceTypeXlib
+gfxSurfaceTypeXlib
 )
 {
 NS_ERROR

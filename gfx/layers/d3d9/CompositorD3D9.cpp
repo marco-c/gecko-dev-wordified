@@ -3184,10 +3184,7 @@ Height
 rect
 .
 Pitch
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 mTarget

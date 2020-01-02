@@ -550,9 +550,6 @@ QImage
 Format
 _gfximage_to_qformat
 (
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 )
@@ -563,10 +560,7 @@ aFormat
 )
 {
 case
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 :
 return
 QImage
@@ -575,10 +569,7 @@ QImage
 Format_ARGB32_Premultiplied
 ;
 case
-gfxASurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 :
 return
 QImage
@@ -587,10 +578,7 @@ QImage
 Format_ARGB32
 ;
 case
-gfxASurface
-:
-:
-ImageFormatRGB16_565
+gfxImageFormatRGB16_565
 :
 return
 QImage

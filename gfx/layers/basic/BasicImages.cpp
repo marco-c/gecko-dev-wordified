@@ -641,9 +641,6 @@ height
 return
 ;
 }
-gfxASurface
-:
-:
 gfxImageFormat
 format
 =
@@ -854,9 +851,6 @@ GetAsSurface
 )
 ;
 }
-gfxASurface
-:
-:
 gfxImageFormat
 format
 =

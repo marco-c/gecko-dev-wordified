@@ -185,9 +185,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aContent
 uint32_t
@@ -279,17 +276,11 @@ get_MemoryImage
 (
 )
 ;
-gfxASurface
-:
-:
 gfxImageFormat
 format
 =
 static_cast
 <
-gfxASurface
-:
-:
 gfxImageFormat
 >
 (

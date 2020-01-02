@@ -603,10 +603,7 @@ main
 application
 .
 virtual
-gfxASurface
-:
-:
-MemoryLocation
+gfxMemoryLocation
 GetMemoryLocation
 (
 )

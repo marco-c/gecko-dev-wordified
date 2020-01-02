@@ -813,9 +813,6 @@ if
 mPixels
 )
 {
-gfxASurface
-:
-:
 gfxImageFormat
 format
 =
@@ -823,15 +820,9 @@ HasAlpha
 (
 )
 ?
-gfxASurface
+gfxImageFormatARGB32
 :
-:
-ImageFormatARGB32
-:
-gfxASurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 ;
 mPixels
 =

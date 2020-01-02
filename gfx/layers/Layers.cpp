@@ -849,9 +849,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 )
@@ -897,10 +894,7 @@ return
 CreateOptimalSurface
 (
 aSize
-gfxASurface
-:
-:
-ImageFormatA8
+gfxImageFormatA8
 )
 ;
 }

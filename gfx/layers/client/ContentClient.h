@@ -1438,10 +1438,7 @@ false
 )
 mContentType
 (
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 {
 }
@@ -2341,10 +2338,7 @@ aFwd
 )
 mContentType
 (
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 mHasBuffer
 (

@@ -419,9 +419,6 @@ Data
 )
 ;
 }
-gfxASurface
-:
-:
 gfxImageFormat
 gfxReusableSharedImageSurfaceWrapper
 :

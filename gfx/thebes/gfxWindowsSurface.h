@@ -245,7 +245,7 @@ size
 gfxImageFormat
 imageFormat
 =
-ImageFormatRGB24
+gfxImageFormatRGB24
 )
 ;
 /
@@ -275,7 +275,7 @@ size
 gfxImageFormat
 imageFormat
 =
-ImageFormatRGB24
+gfxImageFormatRGB24
 )
 ;
 gfxWindowsSurface
@@ -441,10 +441,7 @@ the
 heap
 .
 virtual
-gfxASurface
-:
-:
-MemoryLocation
+gfxMemoryLocation
 GetMemoryLocation
 (
 )

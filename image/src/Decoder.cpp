@@ -2298,9 +2298,6 @@ uint32_t
 width
 uint32_t
 height
-gfxASurface
-:
-:
 gfxImageFormat
 format
 uint8_t

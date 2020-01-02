@@ -523,9 +523,6 @@ mCachedTempSurface
 gfxIntSize
 mCachedSize
 ;
-gfxASurface
-:
-:
 gfxImageFormat
 mCachedFormat
 ;
@@ -538,9 +535,6 @@ gfxIntSize
 &
 aSize
 const
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 )

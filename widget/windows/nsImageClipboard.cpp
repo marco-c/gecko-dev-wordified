@@ -738,10 +738,7 @@ Format
 )
 {
 case
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 :
 format
 =
@@ -760,10 +757,7 @@ AppendInt
 break
 ;
 case
-gfxASurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 :
 format
 =

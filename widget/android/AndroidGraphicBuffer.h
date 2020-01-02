@@ -247,9 +247,6 @@ uint32_t
 height
 uint32_t
 usage
-gfxASurface
-:
-:
 gfxImageFormat
 format
 )
@@ -300,9 +297,6 @@ uint32_t
 aWidth
 uint32_t
 aHeight
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 )
@@ -347,9 +341,6 @@ mHeight
 uint32_t
 mUsage
 ;
-gfxASurface
-:
-:
 gfxImageFormat
 mFormat
 ;
@@ -383,9 +374,6 @@ aUsage
 uint32_t
 GetAndroidFormat
 (
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 )

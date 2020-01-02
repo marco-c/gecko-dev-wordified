@@ -510,9 +510,6 @@ RotatedBuffer
 public
 :
 typedef
-gfxASurface
-:
-:
 gfxContentType
 ContentType
 ;
@@ -1174,9 +1171,6 @@ RotatedBuffer
 public
 :
 typedef
-gfxASurface
-:
-:
 gfxContentType
 ContentType
 ;
@@ -2548,9 +2542,6 @@ provider
 .
 *
 /
-gfxASurface
-:
-:
 gfxContentType
 BufferContentType
 (

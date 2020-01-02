@@ -1952,9 +1952,6 @@ aHeight
 HBITMAP
 CreateTransparencyMask
 (
-gfxASurface
-:
-:
 gfxImageFormat
 format
 uint8_t

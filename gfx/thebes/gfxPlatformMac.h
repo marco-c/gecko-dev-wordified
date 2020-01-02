@@ -187,9 +187,6 @@ const
 gfxIntSize
 &
 size
-gfxASurface
-:
-:
 gfxContentType
 contentType
 )
@@ -205,9 +202,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aContentType
 )
@@ -221,9 +215,6 @@ OptimizeImage
 gfxImageSurface
 *
 aSurface
-gfxASurface
-:
-:
 gfxImageFormat
 format
 )

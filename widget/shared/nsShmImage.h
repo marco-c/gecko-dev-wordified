@@ -238,9 +238,6 @@ SharedMemorySysV
 public
 :
 typedef
-gfxASurface
-:
-:
 gfxImageFormat
 Format
 ;

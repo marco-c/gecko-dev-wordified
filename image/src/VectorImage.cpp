@@ -4423,10 +4423,7 @@ new
 gfxImageSurface
 (
 surfaceSize
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 nsRefPtr
@@ -5298,10 +5295,7 @@ drawableSubimage
 drawableSourceRect
 drawableImageRect
 aFill
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 aFilter
 aFlags
 )

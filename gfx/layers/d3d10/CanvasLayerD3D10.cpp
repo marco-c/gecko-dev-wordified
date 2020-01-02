@@ -643,10 +643,7 @@ GetType
 )
 =
 =
-gfxASurface
-:
-:
-SurfaceTypeD2D
+gfxSurfaceTypeD2D
 )
 {
 void
@@ -707,10 +704,7 @@ GetContentType
 )
 =
 =
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 ;
 return
 ;
@@ -1048,10 +1042,7 @@ Size
 map
 .
 RowPitch
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 nsRefPtr
@@ -1237,10 +1228,7 @@ height
 map
 .
 RowPitch
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 nsRefPtr

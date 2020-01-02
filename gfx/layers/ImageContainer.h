@@ -5586,9 +5586,6 @@ GetAsSurface
 void
 SetOffscreenFormat
 (
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 )
@@ -5598,9 +5595,6 @@ mOffscreenFormat
 aFormat
 ;
 }
-gfxASurface
-:
-:
 gfxImageFormat
 GetOffscreenFormat
 (
@@ -5621,9 +5615,6 @@ mData
 gfxIntSize
 mSize
 ;
-gfxASurface
-:
-:
 gfxImageFormat
 mOffscreenFormat
 ;

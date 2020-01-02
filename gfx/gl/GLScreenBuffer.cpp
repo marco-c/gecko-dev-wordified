@@ -2331,15 +2331,9 @@ HasAlpha
 (
 )
 ?
-gfxImageSurface
+gfxImageFormatARGB32
 :
-:
-ImageFormatARGB32
-:
-gfxImageSurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 )
 )
 ;

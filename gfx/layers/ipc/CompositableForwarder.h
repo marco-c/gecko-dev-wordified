@@ -333,9 +333,6 @@ DeprecatedTextureClientShmem
 public
 :
 typedef
-gfxASurface
-:
-:
 gfxContentType
 gfxContentType
 ;

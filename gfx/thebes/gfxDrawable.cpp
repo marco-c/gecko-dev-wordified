@@ -365,10 +365,7 @@ GetType
 ifdef
 MOZ_X11
 case
-gfxASurface
-:
-:
-SurfaceTypeXlib
+gfxSurfaceTypeXlib
 :
 {
 /
@@ -997,10 +994,7 @@ GetPlatform
 CreateOffscreenSurface
 (
 mSize
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 ;
 if

@@ -408,9 +408,6 @@ gfx
 :
 IntSize
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aType
 )
@@ -471,9 +468,6 @@ aDescriptor
 MOZ_OVERRIDE
 ;
 virtual
-gfxASurface
-:
-:
 gfxContentType
 GetContentType
 (

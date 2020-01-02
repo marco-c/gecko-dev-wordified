@@ -204,7 +204,7 @@ the
 source
 is
 not
-ImageFormatARGB32
+gfxImageFormatARGB32
 no
 operation
 is
@@ -424,9 +424,6 @@ gfxRect
 &
 aFill
 const
-gfxImageSurface
-:
-:
 gfxImageFormat
 aFormat
 gfxPattern
@@ -643,9 +640,6 @@ static
 int
 ImageFormatToDepth
 (
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 )
@@ -828,7 +822,7 @@ will
 be
 set
 to
-ImageFormatRGB24
+gfxImageFormatRGB24
 *
 if
 the
@@ -890,9 +884,6 @@ PlanarYCbCrImage
 Data
 &
 aData
-gfxASurface
-:
-:
 gfxImageFormat
 &
 aSuggestedFormat
@@ -942,9 +933,6 @@ Data
 &
 aData
 const
-gfxASurface
-:
-:
 gfxImageFormat
 &
 aDestFormat

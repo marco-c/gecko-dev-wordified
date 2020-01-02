@@ -490,10 +490,7 @@ FrameSequence
 :
 SizeOfDecodedWithComputedFallbackIfHeap
 (
-gfxASurface
-:
-:
-MemoryLocation
+gfxMemoryLocation
 aLocation
 MallocSizeOf
 aMallocSizeOf

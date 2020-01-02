@@ -119,9 +119,6 @@ nsRect
 h
 "
 typedef
-gfxASurface
-:
-:
 gfxImageFormat
 gfxImageFormat
 ;
@@ -490,9 +487,6 @@ uint32_t
 aWidth
 uint32_t
 aHeight
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 )

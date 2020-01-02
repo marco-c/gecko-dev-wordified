@@ -1506,10 +1506,7 @@ gfxImageSurface
 GetSize
 (
 )
-gfxASurface
-:
-:
-ImageFormatRGB16_565
+gfxImageFormatRGB16_565
 )
 ;
 uint32_t

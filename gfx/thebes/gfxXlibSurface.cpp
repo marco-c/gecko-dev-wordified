@@ -1098,7 +1098,7 @@ if
 aContent
 =
 =
-CONTENT_COLOR
+GFX_CONTENT_COLOR
 )
 {
 /
@@ -2649,7 +2649,7 @@ format
 )
 {
 case
-ImageFormatARGB32
+gfxImageFormatARGB32
 :
 depth
 =
@@ -2670,7 +2670,7 @@ blue_mask
 break
 ;
 case
-ImageFormatRGB24
+gfxImageFormatRGB24
 :
 depth
 =
@@ -2691,7 +2691,7 @@ blue_mask
 break
 ;
 case
-ImageFormatRGB16_565
+gfxImageFormatRGB16_565
 :
 depth
 =
@@ -2712,10 +2712,10 @@ blue_mask
 break
 ;
 case
-ImageFormatA8
+gfxImageFormatA8
 :
 case
-ImageFormatA1
+gfxImageFormatA1
 :
 default
 :
@@ -2867,7 +2867,7 @@ format
 )
 {
 case
-ImageFormatARGB32
+gfxImageFormatARGB32
 :
 return
 XRenderFindStandardFormat
@@ -2877,7 +2877,7 @@ PictStandardARGB32
 )
 ;
 case
-ImageFormatRGB24
+gfxImageFormatRGB24
 :
 return
 XRenderFindStandardFormat
@@ -2887,7 +2887,7 @@ PictStandardRGB24
 )
 ;
 case
-ImageFormatRGB16_565
+gfxImageFormatRGB16_565
 :
 {
 /
@@ -2945,7 +2945,7 @@ visual
 ;
 }
 case
-ImageFormatA8
+gfxImageFormatA8
 :
 return
 XRenderFindStandardFormat
@@ -2955,7 +2955,7 @@ PictStandardA8
 )
 ;
 case
-ImageFormatA1
+gfxImageFormatA1
 :
 return
 XRenderFindStandardFormat
@@ -3106,10 +3106,7 @@ mGLXPixmap
 }
 #
 endif
-gfxASurface
-:
-:
-MemoryLocation
+gfxMemoryLocation
 gfxXlibSurface
 :
 :
@@ -3119,6 +3116,6 @@ GetMemoryLocation
 const
 {
 return
-MEMORY_OUT_OF_PROCESS
+GFX_MEMORY_OUT_OF_PROCESS
 ;
 }

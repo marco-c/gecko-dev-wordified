@@ -739,16 +739,10 @@ coded
 numbers
 here
 .
-gfxASurface
-:
-:
 gfxImageFormat
 format
 =
-gfxASurface
-:
-:
-ImageFormatRGB16_565
+gfxImageFormatRGB16_565
 ;
 int
 bytesPerPixel

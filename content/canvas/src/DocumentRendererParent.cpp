@@ -204,10 +204,7 @@ aSize
 width
 *
 4
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 nsRefPtr

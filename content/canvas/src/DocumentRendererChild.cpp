@@ -408,10 +408,7 @@ height
 renderSize
 .
 width
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 nsRefPtr

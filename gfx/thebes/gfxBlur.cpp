@@ -438,10 +438,7 @@ size
 .
 height
 )
-gfxASurface
-:
-:
-ImageFormatA8
+gfxImageFormatA8
 mBlur
 -
 >

@@ -565,10 +565,7 @@ Height
 mappedTex
 .
 RowPitch
-gfxASurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 )
 ;
 nsRefPtr

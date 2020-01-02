@@ -297,9 +297,6 @@ format
 *
 /
 virtual
-gfxASurface
-:
-:
 gfxImageFormat
 Format
 (

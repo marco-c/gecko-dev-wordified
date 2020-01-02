@@ -645,10 +645,7 @@ gfx
 >
 PushGroup
 (
-gfxASurface
-:
-:
-CONTENT_ALPHA
+GFX_CONTENT_ALPHA
 )
 ;
 }
@@ -794,10 +791,7 @@ gfx
 >
 PushGroup
 (
-gfxASurface
-:
-:
-CONTENT_ALPHA
+GFX_CONTENT_ALPHA
 )
 ;
 }
@@ -840,10 +834,7 @@ gfx
 >
 PushGroup
 (
-gfxASurface
-:
-:
-CONTENT_ALPHA
+GFX_CONTENT_ALPHA
 )
 ;
 clipPathFrame
@@ -919,10 +910,7 @@ gfx
 >
 PushGroup
 (
-gfxASurface
-:
-:
-CONTENT_ALPHA
+GFX_CONTENT_ALPHA
 )
 ;
 clipPathFrame

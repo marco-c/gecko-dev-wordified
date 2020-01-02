@@ -195,9 +195,6 @@ PlatformAllocSurfaceDescriptor
 const
 gfxIntSize
 &
-gfxASurface
-:
-:
 gfxContentType
 uint32_t
 SurfaceDescriptor

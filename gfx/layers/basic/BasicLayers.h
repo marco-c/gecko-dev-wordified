@@ -1073,9 +1073,6 @@ PushGroupWithCachedSurface
 gfxContext
 *
 aTarget
-gfxASurface
-:
-:
 gfxContentType
 aContent
 )

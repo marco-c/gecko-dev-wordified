@@ -5841,10 +5841,7 @@ mHeight
 mWidth
 *
 4
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 if
@@ -18570,10 +18567,7 @@ ceil
 sh
 )
 )
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 ;
 if
@@ -21078,10 +21072,7 @@ gfxIntSize
 w
 h
 )
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 false
 )
 ;

@@ -444,9 +444,6 @@ Data
 (
 )
 ;
-gfxASurface
-:
-:
 gfxImageFormat
 format
 =
@@ -531,10 +528,7 @@ if
 format
 =
 =
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 {
 const
@@ -641,10 +635,7 @@ NS_ASSERTION
 format
 =
 =
-gfxASurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 "
 unexpected
 format
@@ -785,10 +776,7 @@ GetType
 )
 =
 =
-gfxASurface
-:
-:
-SurfaceTypeImage
+gfxSurfaceTypeImage
 )
 {
 imgSurface
@@ -822,10 +810,7 @@ gfxIntSize
 aWidth
 aHeight
 )
-gfxImageSurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 if

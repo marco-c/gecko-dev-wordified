@@ -1121,9 +1121,6 @@ class
 ContentClientIncremental
 ;
 typedef
-gfxASurface
-:
-:
 gfxImageFormat
 gfxImageFormat
 ;
@@ -2994,7 +2991,7 @@ This
 function
 will
 return
-ImageFormatUnknown
+gfxImageFormatUnknown
 only
 if
 |

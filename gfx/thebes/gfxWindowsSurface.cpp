@@ -516,10 +516,7 @@ bytesPerPixel
 imageFormat
 =
 =
-gfxASurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 )
 ?
 3
@@ -716,7 +713,7 @@ GetContentType
 )
 =
 =
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 {
 /
@@ -751,7 +748,7 @@ a
 DIB
 for
 a
-CONTENT_COLOR
+GFX_CONTENT_COLOR
 surface
 if
 this
@@ -808,7 +805,7 @@ result
 of
 create_similar
 (
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 /
 /
@@ -1170,7 +1167,7 @@ if
 format
 !
 =
-ImageFormatRGB24
+gfxImageFormatRGB24
 )
 return
 nullptr
@@ -1740,10 +1737,7 @@ mSurface
 )
 ;
 }
-gfxASurface
-:
-:
-MemoryLocation
+gfxMemoryLocation
 gfxWindowsSurface
 :
 :
@@ -1753,6 +1747,6 @@ GetMemoryLocation
 const
 {
 return
-MEMORY_IN_PROCESS_NONHEAP
+GFX_MEMORY_IN_PROCESS_NONHEAP
 ;
 }

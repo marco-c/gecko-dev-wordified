@@ -1952,9 +1952,6 @@ gfx
 :
 IntSize
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aContentType
 )
@@ -2031,10 +2028,7 @@ if
 mContentType
 =
 =
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 {
 gfxASurface
@@ -2658,9 +2652,6 @@ gfx
 :
 IntSize
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aType
 )
@@ -2734,9 +2725,6 @@ gfx
 :
 IntSize
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aType
 )
@@ -2838,10 +2826,7 @@ aType
 aType
 !
 =
-gfxASurface
-:
-:
-CONTENT_COLOR
+GFX_CONTENT_COLOR
 )
 ;
 mSurface
@@ -3043,9 +3028,6 @@ GetSize
 (
 )
 ;
-gfxASurface
-:
-:
 gfxContentType
 contentType
 =
@@ -3073,10 +3055,7 @@ if
 contentType
 !
 =
-gfxASurface
-:
-:
-CONTENT_ALPHA
+GFX_CONTENT_ALPHA
 &
 &
 isOpaque
@@ -3084,10 +3063,7 @@ isOpaque
 {
 contentType
 =
-gfxASurface
-:
-:
-CONTENT_COLOR
+GFX_CONTENT_COLOR
 ;
 }
 mDeprecatedTextureClient

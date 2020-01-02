@@ -2477,10 +2477,7 @@ GetPlatform
 CreateOffscreenSurface
 (
 surfaceSize
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 ;
 if
@@ -2587,10 +2584,7 @@ gfx
 >
 PushGroup
 (
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 ;
 }

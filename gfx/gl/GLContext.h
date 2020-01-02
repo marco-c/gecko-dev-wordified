@@ -11306,9 +11306,6 @@ SharedSurfaceType
 SharedSurfaceType
 ;
 typedef
-gfxASurface
-:
-:
 gfxImageFormat
 ImageFormat
 ;
@@ -13312,10 +13309,7 @@ TextureImage
 ImageFormat
 aImageFormat
 =
-gfxASurface
-:
-:
-ImageFormatUnknown
+gfxImageFormatUnknown
 )
 ;
 /
@@ -13398,10 +13392,7 @@ TextureImage
 ImageFormat
 aImageFormat
 =
-gfxASurface
-:
-:
-ImageFormatUnknown
+gfxImageFormatUnknown
 )
 {
 return
@@ -13435,7 +13426,7 @@ as
 the
 format
 a
-ImageFormatARGB32
+gfxImageFormatARGB32
 surface
 is
 returned
@@ -13454,7 +13445,7 @@ as
 the
 format
 a
-ImageFormatRGB24
+gfxImageFormatRGB24
 surface
 is
 returned
@@ -13468,7 +13459,7 @@ as
 the
 format
 a
-ImageFormatA8
+gfxImageFormatA8
 surface
 is
 returned
@@ -14151,9 +14142,6 @@ char
 aData
 int32_t
 aStride
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 const
