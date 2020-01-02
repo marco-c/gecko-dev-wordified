@@ -1027,7 +1027,7 @@ new
 HomeConfig
 (
 new
-HomeConfigMemBackend
+HomeConfigPrefsBackend
 (
 context
 )
