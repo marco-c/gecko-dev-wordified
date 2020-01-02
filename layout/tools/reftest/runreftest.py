@@ -1498,6 +1498,21 @@ enabled
 =
 False
     
+prefs
+[
+'
+browser
+.
+snippets
+.
+firstrunHomepage
+.
+enabled
+'
+]
+=
+False
+    
 #
 And
 for
