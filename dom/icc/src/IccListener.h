@@ -90,6 +90,7 @@ Icc
 ;
 class
 IccListener
+MOZ_FINAL
 :
 public
 nsIIccListener

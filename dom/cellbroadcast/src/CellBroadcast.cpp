@@ -176,6 +176,7 @@ CellBroadcast
 :
 :
 Listener
+MOZ_FINAL
 :
 public
 nsICellBroadcastListener
