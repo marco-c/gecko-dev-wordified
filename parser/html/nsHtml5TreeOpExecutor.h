@@ -377,12 +377,16 @@ nsHtml5TreeOpExecutor
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsHtml5TreeOpExecutor
 (
 )
 ;
+public
+:
 /
 /
 nsIContentSink
