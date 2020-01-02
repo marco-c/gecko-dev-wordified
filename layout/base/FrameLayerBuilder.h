@@ -2571,6 +2571,7 @@ item
 /
 class
 DisplayItemData
+MOZ_FINAL
 {
 public
 :
@@ -2607,7 +2608,7 @@ mIsInvalid
 true
 ;
 }
-protected
+private
 :
 DisplayItemData
 (
