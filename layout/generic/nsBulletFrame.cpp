@@ -2314,7 +2314,9 @@ nsIContent
 *
 parentContent
 =
-mParent
+GetParent
+(
+)
 -
 >
 GetContent

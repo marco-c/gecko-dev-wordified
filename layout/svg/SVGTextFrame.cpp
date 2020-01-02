@@ -23598,7 +23598,9 @@ mCanvasTM
 {
 NS_ASSERTION
 (
-mParent
+GetParent
+(
+)
 "
 null
 parent
@@ -23652,7 +23654,9 @@ nsSVGContainerFrame
 *
 >
 (
-mParent
+GetParent
+(
+)
 )
 ;
 dom

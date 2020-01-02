@@ -893,7 +893,9 @@ nsSVGMarkerFrame
 *
 >
 (
-mParent
+GetParent
+(
+)
 )
 ;
 return

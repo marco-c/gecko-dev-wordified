@@ -275,7 +275,9 @@ children
 return
 ReLayoutChildren
 (
-mParent
+GetParent
+(
+)
 )
 ;
 }

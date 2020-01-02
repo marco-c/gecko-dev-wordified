@@ -1768,7 +1768,9 @@ nsSVGOuterSVGFrame
 *
 >
 (
-mParent
+GetParent
+(
+)
 )
 -
 >

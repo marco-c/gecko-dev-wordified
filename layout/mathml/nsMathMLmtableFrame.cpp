@@ -3088,7 +3088,9 @@ nsMathMLContainerFrame
 :
 RebuildAutomaticDataForChildren
 (
-mParent
+GetParent
+(
+)
 )
 ;
 /
@@ -3121,7 +3123,9 @@ PresShell
 >
 FrameNeedsReflow
 (
-mParent
+GetParent
+(
+)
 nsIPresShell
 :
 :
