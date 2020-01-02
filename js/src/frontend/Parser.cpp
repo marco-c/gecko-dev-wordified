@@ -13117,9 +13117,6 @@ return
 true
 ;
 }
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 template
 <
 typename
@@ -13435,8 +13432,6 @@ return
 nodeList
 ;
 }
-#
-endif
 template
 <
 typename
@@ -15267,9 +15262,6 @@ fun
 )
 ;
 }
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 template
 <
 typename
@@ -15353,8 +15345,6 @@ cookedNode
 )
 ;
 }
-#
-endif
 template
 <
 >
@@ -44331,9 +44321,6 @@ tt
 =
 TOK_LP
 )
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 |
 |
 tt
@@ -44346,8 +44333,6 @@ tt
 =
 =
 TOK_NO_SUBS_TEMPLATE
-#
-endif
 )
 {
 JSOp
@@ -44355,9 +44340,6 @@ op
 =
 JSOP_CALL
 ;
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 if
 (
 tt
@@ -44365,8 +44347,6 @@ tt
 =
 TOK_LP
 )
-#
-endif
 nextMember
 =
 handler
@@ -44380,9 +44360,6 @@ null
 JSOP_CALL
 )
 ;
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 else
 nextMember
 =
@@ -44397,8 +44374,6 @@ null
 JSOP_CALL
 )
 ;
-#
-endif
 if
 (
 !
@@ -44425,17 +44400,12 @@ lhs
 {
 if
 (
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 tt
 =
 =
 TOK_LP
 &
 &
-#
-endif
 atom
 =
 =
@@ -44654,9 +44624,6 @@ nextMember
 lhs
 )
 ;
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 if
 (
 tt
@@ -44665,8 +44632,6 @@ tt
 TOK_LP
 )
 {
-#
-endif
 bool
 isSpread
 =
@@ -44704,9 +44669,6 @@ JSOP_SPREADEVAL
 JSOP_SPREADCALL
 )
 ;
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 }
 else
 {
@@ -44725,8 +44687,6 @@ null
 )
 ;
 }
-#
-endif
 handler
 .
 setOp
@@ -44918,9 +44878,6 @@ pos
 )
 ;
 }
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 template
 <
 typename
@@ -44955,8 +44912,6 @@ pos
 )
 ;
 }
-#
-endif
 template
 <
 typename
@@ -47656,9 +47611,6 @@ parenExprOrGeneratorComprehension
 (
 )
 ;
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 case
 TOK_TEMPLATE_HEAD
 :
@@ -47675,8 +47627,6 @@ noSubstitutionTemplate
 (
 )
 ;
-#
-endif
 case
 TOK_STRING
 :

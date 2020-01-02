@@ -500,9 +500,6 @@ return
 NodeString
 ;
 }
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 Node
 newTemplateStringLiteral
 (
@@ -547,8 +544,6 @@ return
 true
 ;
 }
-#
-endif
 Node
 newThisLiteral
 (

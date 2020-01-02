@@ -8039,9 +8039,6 @@ propExpr
 }
 }
 ;
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 /
 *
 *
@@ -8128,8 +8125,6 @@ vp
 }
 }
 ;
-#
-endif
 #
 ifdef
 DEBUG
@@ -9571,14 +9566,9 @@ PNK_NUMBER
 case
 PNK_STRING
 :
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 case
 PNK_TEMPLATE_STRING
 :
-#
-endif
 case
 PNK_NULL
 :

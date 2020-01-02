@@ -4085,9 +4085,6 @@ MutableHandleValue
 dst
 )
 ;
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 bool
 templateLiteral
 (
@@ -4132,8 +4129,6 @@ MutableHandleValue
 dst
 )
 ;
-#
-endif
 bool
 spreadExpression
 (
@@ -7061,9 +7056,6 @@ dst
 )
 ;
 }
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 bool
 NodeBuilder
 :
@@ -7221,8 +7213,6 @@ dst
 )
 ;
 }
-#
-endif
 bool
 NodeBuilder
 :
@@ -15982,14 +15972,9 @@ endif
 case
 PNK_NEW
 :
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 case
 PNK_TAGGED_TEMPLATE
 :
-#
-endif
 case
 PNK_CALL
 :
@@ -16124,9 +16109,6 @@ arg
 )
 ;
 }
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 if
 (
 pn
@@ -16154,8 +16136,6 @@ pn_pos
 dst
 )
 ;
-#
-endif
 return
 pn
 -
@@ -16365,9 +16345,6 @@ dst
 )
 ;
 }
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 case
 PNK_CALLSITEOBJ
 :
@@ -16565,8 +16542,6 @@ dst
 )
 ;
 }
-#
-endif
 case
 PNK_ARRAY
 :
@@ -16863,9 +16838,6 @@ pn_pos
 dst
 )
 ;
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 case
 PNK_TEMPLATE_STRING_LIST
 :
@@ -16974,8 +16946,6 @@ dst
 case
 PNK_TEMPLATE_STRING
 :
-#
-endif
 case
 PNK_STRING
 :
@@ -17435,14 +17405,9 @@ getKind
 )
 )
 {
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 case
 PNK_TEMPLATE_STRING
 :
-#
-endif
 case
 PNK_STRING
 :

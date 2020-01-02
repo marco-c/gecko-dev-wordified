@@ -760,9 +760,6 @@ atom
 )
 ;
 }
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 ParseNode
 *
 newTemplateStringLiteral
@@ -959,8 +956,6 @@ return
 true
 ;
 }
-#
-endif
 ParseNode
 *
 newThisLiteral
