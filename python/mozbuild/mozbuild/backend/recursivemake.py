@@ -4592,6 +4592,14 @@ mk
 )
 )
         
+mk
+=
+mozmakeutil
+.
+Makefile
+(
+)
+        
 def
 write_var
 (
@@ -4620,9 +4628,9 @@ sources
 )
 ]
             
-webidls
+mk
 .
-write
+add_statement
 (
 '
 %
@@ -4705,6 +4713,13 @@ preprocessed_webidl_files
 self
 .
 _preprocessed_webidl_sources
+)
+        
+mk
+.
+dump
+(
+webidls
 )
         
 self
