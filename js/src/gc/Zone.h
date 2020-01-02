@@ -1797,6 +1797,11 @@ bool
 releaseTypes
 )
 ;
+bool
+hasMarkedCompartments
+(
+)
+;
 private
 :
 void

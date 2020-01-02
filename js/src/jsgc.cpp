@@ -17523,6 +17523,7 @@ wasGCStarted
 {
 if
 (
+(
 zone
 -
 >
@@ -17532,6 +17533,16 @@ arenas
 .
 arenaListsAreEmpty
 (
+)
+&
+&
+!
+zone
+-
+>
+hasMarkedCompartments
+(
+)
 )
 |
 |
