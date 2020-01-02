@@ -1803,6 +1803,9 @@ PreRender
 "
 )
 ;
+if
+(
+!
 mCompositor
 -
 >
@@ -1815,7 +1818,11 @@ PreRender
 (
 this
 )
+)
+{
+return
 ;
+}
 }
 nsIntRect
 clipRect
