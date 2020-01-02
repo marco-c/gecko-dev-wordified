@@ -1141,7 +1141,7 @@ number
 of
 channels
 .
-NS_NOTREACHED
+NS_WARNING
 (
 "
 Support
