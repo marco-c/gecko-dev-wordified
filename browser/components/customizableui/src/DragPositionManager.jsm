@@ -1000,6 +1000,7 @@ aContainer
 aBefore
 aWide
 aSize
+aIsFromThisArea
 )
 {
 let
@@ -1262,6 +1263,9 @@ true
 }
 if
 (
+aIsFromThisArea
+&
+&
 !
 this
 .
@@ -1340,6 +1344,9 @@ if
 aContainer
 .
 lastChild
+&
+&
+aIsFromThisArea
 &
 &
 !
