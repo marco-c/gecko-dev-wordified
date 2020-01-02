@@ -794,6 +794,8 @@ StyleRule
 (
 nullptr
 decl
+0
+0
 )
 ;
 /

@@ -179,6 +179,10 @@ const
 nsString
 &
 aURLSpec
+uint32_t
+aLineNumber
+uint32_t
+aColumnNumber
 )
 ;
 private
