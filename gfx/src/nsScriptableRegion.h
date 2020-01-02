@@ -90,6 +90,12 @@ MPL
 *
 /
 #
+ifndef
+nsScriptableRegion_h
+#
+define
+nsScriptableRegion_h
+#
 include
 "
 nsIScriptableRegion
@@ -149,3 +155,5 @@ mRegion
 ;
 }
 ;
+#
+endif
