@@ -463,7 +463,7 @@ macro
 (
 TypedObject
 38
-js_InitTypedObjectDummy
+js_InitTypedObjectClass
 )
 \
 macro
