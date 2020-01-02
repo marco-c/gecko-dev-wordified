@@ -5721,7 +5721,7 @@ while
 /
 initializing
 .
-nsAutoPtr
+RefPtr
 <
 AudioStream
 >
@@ -5863,6 +5863,10 @@ GetReentrantMonitor
 mAudioStream
 =
 audioStream
+.
+forget
+(
+)
 ;
 }
 }

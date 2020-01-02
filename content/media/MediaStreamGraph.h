@@ -4287,7 +4287,7 @@ output
 TrackTicks
 mLastTickWritten
 ;
-nsAutoPtr
+RefPtr
 <
 AudioStream
 >
