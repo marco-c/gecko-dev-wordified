@@ -208,7 +208,7 @@ buf
 MAP_FAILED
 )
 return
-NULL
+nullptr
 ;
 const
 Ehdr
@@ -382,7 +382,7 @@ Phdr
 )
 )
 return
-NULL
+nullptr
 ;
 return
 ehdr
@@ -586,7 +586,7 @@ mappable
 >
 mmap
 (
-NULL
+nullptr
 PageSize
 (
 )
@@ -713,7 +713,7 @@ if
 mappable
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -733,7 +733,7 @@ appropriate
 resources
 when
 returning
-NULL
+nullptr
 *
 /
 RefPtr
@@ -781,7 +781,7 @@ ehdr_raw
 MAP_FAILED
 )
 return
-NULL
+nullptr
 ;
 const
 Ehdr
@@ -802,7 +802,7 @@ if
 ehdr
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -867,7 +867,7 @@ Phdr
 *
 dyn
 =
-NULL
+nullptr
 ;
 const
 Phdr
@@ -919,7 +919,7 @@ Phdr
 *
 arm_exidx_phdr
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -1055,7 +1055,7 @@ GetPath
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 break
@@ -1099,7 +1099,7 @@ GetPath
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 break
@@ -1159,7 +1159,7 @@ GetPath
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 #
@@ -1265,7 +1265,7 @@ min_vaddr
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1294,7 +1294,7 @@ GetPath
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1429,7 +1429,7 @@ MemoryRange
 :
 mmap
 (
-NULL
+nullptr
 max_vaddr
 PROT_NONE
 MAP_SHARED
@@ -1500,7 +1500,7 @@ GetPath
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1558,7 +1558,7 @@ it
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -1673,7 +1673,7 @@ dyn
 )
 )
 return
-NULL
+nullptr
 ;
 #
 ifdef
@@ -2029,7 +2029,7 @@ void
 *
 ptr
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2781,7 +2781,7 @@ sym
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 const
@@ -2960,7 +2960,7 @@ y
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -3025,7 +3025,7 @@ pcount
 0
 ;
 return
-NULL
+nullptr
 ;
 }
 #
@@ -5185,7 +5185,7 @@ void
 *
 symptr
 =
-NULL
+nullptr
 ;
 for
 (
@@ -5378,7 +5378,7 @@ handle
 symbol
 resolving
 to
-NULL
+nullptr
 vs
 .
 being
@@ -5407,7 +5407,7 @@ if
 symptr
 =
 =
-NULL
+nullptr
 )
 LOG
 (
@@ -5744,7 +5744,7 @@ if
 symptr
 =
 =
-NULL
+nullptr
 )
 {
 LOG
@@ -6053,7 +6053,7 @@ if
 mappable
 )
 return
-NULL
+nullptr
 ;
 if
 (

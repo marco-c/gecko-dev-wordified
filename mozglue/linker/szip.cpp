@@ -218,7 +218,7 @@ sizeof
 SeekableZStreamHeader
 *
 )
-NULL
+nullptr
 )
 -
 >
@@ -231,7 +231,7 @@ sizeof
 SeekableZStreamHeader
 *
 )
-NULL
+nullptr
 )
 -
 >
@@ -270,7 +270,7 @@ buf
 =
 mmap
 (
-NULL
+nullptr
 size
 PROT_READ
 |
@@ -480,7 +480,7 @@ MemoryRange
 :
 mmap
 (
-NULL
+nullptr
 size
 PROT_READ
 |
@@ -1622,7 +1622,7 @@ FilteredBuffer
 *
 filteredTmp
 =
-NULL
+nullptr
 ;
 Buffer
 tmpBuf
@@ -1719,7 +1719,7 @@ do_compress
 *
 origData
 tmpBuf
-NULL
+nullptr
 0
 f
 )

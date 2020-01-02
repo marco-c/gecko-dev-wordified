@@ -544,11 +544,11 @@ strdup
 path
 )
 :
-NULL
+nullptr
 )
 mappable
 (
-NULL
+nullptr
 )
 {
 }
@@ -1563,7 +1563,7 @@ Forget
 {
 dlhandle
 =
-NULL
+nullptr
 ;
 }
 private
@@ -2008,7 +2008,7 @@ LibHandle
 *
 parent
 =
-NULL
+nullptr
 )
 ;
 /
@@ -3161,7 +3161,7 @@ other
 item
 =
 =
-NULL
+nullptr
 )
 return
 item
@@ -3241,7 +3241,7 @@ dbg
 >
 r_map
 :
-NULL
+nullptr
 )
 ;
 }
@@ -3254,7 +3254,7 @@ const
 return
 iterator
 (
-NULL
+nullptr
 )
 ;
 }

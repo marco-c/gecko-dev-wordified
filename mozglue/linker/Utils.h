@@ -581,7 +581,7 @@ empty
 )
 {
 return
-NULL
+nullptr
 ;
 }
 static
@@ -1678,7 +1678,7 @@ S
 *
 b
 =
-NULL
+nullptr
 ;
 b
 =
@@ -1752,7 +1752,7 @@ UnsizedArray
 :
 contents
 (
-NULL
+nullptr
 )
 {
 }
@@ -1792,7 +1792,7 @@ MOZ_ASSERT
 contents
 =
 =
-NULL
+nullptr
 )
 ;
 contents
@@ -1880,7 +1880,7 @@ return
 contents
 !
 =
-NULL
+nullptr
 ;
 }
 private
@@ -2482,7 +2482,7 @@ iterator
 :
 item
 (
-NULL
+nullptr
 )
 {
 }
@@ -2777,7 +2777,7 @@ reverse_iterator
 :
 item
 (
-NULL
+nullptr
 )
 {
 }
