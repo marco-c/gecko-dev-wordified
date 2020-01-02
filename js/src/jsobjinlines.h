@@ -317,6 +317,12 @@ return
 !
 !
 changeProperty
+<
+js
+:
+:
+SequentialExecution
+>
 (
 cx
 obj
