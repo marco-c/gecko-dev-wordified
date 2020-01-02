@@ -2251,7 +2251,7 @@ void
 AudioNodeExternalInputStream
 :
 :
-ProduceOutput
+ProcessInput
 (
 GraphTime
 aFrom

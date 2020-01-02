@@ -211,7 +211,7 @@ AudioNodeExternalInputStream
 ;
 virtual
 void
-ProduceOutput
+ProcessInput
 (
 GraphTime
 aFrom

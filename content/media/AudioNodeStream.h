@@ -605,7 +605,7 @@ aChannelInterpretation
 ;
 virtual
 void
-ProduceOutput
+ProcessInput
 (
 GraphTime
 aFrom

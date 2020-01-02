@@ -279,7 +279,7 @@ aPort
 }
 virtual
 void
-ProduceOutput
+ProcessInput
 (
 GraphTime
 aFrom

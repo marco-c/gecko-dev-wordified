@@ -6312,7 +6312,7 @@ by
 subclasses
 overriding
 the
-ProduceOutput
+ProcessInput
 method
 .
 *
@@ -6681,7 +6681,7 @@ AudioNodeStream
 )
 .
 *
-ProduceOutput
+ProcessInput
 is
 allowed
 to
@@ -6775,7 +6775,7 @@ ALLOW_FINISH
 ;
 virtual
 void
-ProduceOutput
+ProcessInput
 (
 GraphTime
 aFrom
@@ -7445,7 +7445,7 @@ during
 ProcessedMediaStream
 :
 :
-ProduceOutput
+ProcessInput
 (
 )
 .

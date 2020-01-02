@@ -2314,7 +2314,7 @@ void
 AudioNodeStream
 :
 :
-ProduceOutput
+ProcessInput
 (
 GraphTime
 aFrom
