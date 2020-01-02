@@ -2982,9 +2982,6 @@ public
 NS_DECL_ISUPPORTS
 SetupProtoChainRunner
 (
-nsIScriptContext
-*
-scriptContext
 nsObjectLoadingContent
 *
 aContent
@@ -2998,12 +2995,6 @@ MOZ_OVERRIDE
 ;
 private
 :
-nsCOMPtr
-<
-nsIScriptContext
->
-mContext
-;
 /
 /
 We
