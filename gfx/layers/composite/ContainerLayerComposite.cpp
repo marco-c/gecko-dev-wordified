@@ -3142,6 +3142,14 @@ CanDraw2D
 )
 )
 ;
+aContainer
+-
+>
+AddBlendModeEffect
+(
+effectChain
+)
+;
 effectChain
 .
 mPrimaryEffect

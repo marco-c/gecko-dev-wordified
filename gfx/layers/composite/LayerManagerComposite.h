@@ -1893,6 +1893,14 @@ DestroyFrontBuffer
 )
 {
 }
+void
+AddBlendModeEffect
+(
+EffectChain
+&
+aEffectChain
+)
+;
 /
 *
 *

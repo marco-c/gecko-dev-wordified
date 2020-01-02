@@ -1053,6 +1053,7 @@ EffectTypes
 uint8_t
 )
 MASK
+BLEND_MODE
 MAX_SECONDARY
 /
 /

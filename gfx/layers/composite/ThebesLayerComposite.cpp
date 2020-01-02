@@ -817,6 +817,11 @@ mMaskLayer
 effectChain
 )
 ;
+AddBlendModeEffect
+(
+effectChain
+)
+;
 nsIntRegion
 visibleRegion
 =
