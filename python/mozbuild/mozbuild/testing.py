@@ -73,10 +73,9 @@ base
 import
 MozbuildObject
 from
-.
-util
+collections
 import
-DefaultOnReadDict
+defaultdict
 def
 rewrite_test_base
 (
@@ -332,29 +331,18 @@ self
 .
 _tests_by_path
 =
-DefaultOnReadDict
+defaultdict
 (
-{
-}
-global_default
-=
-[
-]
+list
 )
         
 self
 .
 _tests_by_flavor
 =
-DefaultOnReadDict
+defaultdict
 (
-{
-}
-global_default
-=
 set
-(
-)
 )
         
 self
