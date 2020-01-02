@@ -163,6 +163,13 @@ h
 #
 include
 "
+nsICacheSession
+.
+h
+"
+#
+include
+"
 nsIOfflineCacheUpdate
 .
 h

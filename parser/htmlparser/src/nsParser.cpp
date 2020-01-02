@@ -177,6 +177,13 @@ h
 #
 include
 "
+nsICacheEntryDescriptor
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h

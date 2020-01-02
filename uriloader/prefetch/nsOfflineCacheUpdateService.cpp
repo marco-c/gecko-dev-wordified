@@ -268,6 +268,13 @@ h
 #
 include
 "
+nsICacheEntryDescriptor
+.
+h
+"
+#
+include
+"
 nsIPermissionManager
 .
 h
