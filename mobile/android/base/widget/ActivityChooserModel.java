@@ -172,6 +172,8 @@ mozilla
 .
 gecko
 .
+distribution
+.
 Distribution
 ;
 import

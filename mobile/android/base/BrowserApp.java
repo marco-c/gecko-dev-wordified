@@ -269,6 +269,17 @@ mozilla
 .
 gecko
 .
+distribution
+.
+Distribution
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 favicons
 .
 Favicons
