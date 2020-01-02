@@ -3988,13 +3988,10 @@ is
 0
 .
 const
-nsTArray
-<
-nsRefPtr
-<
-Touch
->
->
+WidgetTouchEvent
+:
+:
+TouchArray
 &
 touches
 =
