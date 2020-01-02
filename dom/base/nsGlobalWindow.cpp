@@ -10209,7 +10209,7 @@ name
 nsGlobalWindow
 #
 %
-ld
+llu
 %
 s
 %
