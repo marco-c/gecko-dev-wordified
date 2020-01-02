@@ -170,6 +170,8 @@ JSC
 class
 MacroAssemblerNone
 {
+public
+:
 static
 bool
 supportsFloatingPoint
