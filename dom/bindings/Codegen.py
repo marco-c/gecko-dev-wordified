@@ -44568,6 +44568,16 @@ type
 isSequence
 (
 )
+or
+self
+.
+idlNode
+.
+type
+.
+isDictionary
+(
+)
                 
 freezeValue
 =
