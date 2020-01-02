@@ -7262,6 +7262,13 @@ id
 this
 .
 id
+name
+:
+this
+.
+_addon
+.
+name
 url
 :
 this
