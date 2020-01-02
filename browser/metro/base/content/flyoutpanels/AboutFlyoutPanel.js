@@ -3128,11 +3128,6 @@ blocklist
 isAddonBlocklisted
 (
 aAddon
-.
-id
-aInstall
-.
-version
 this
 .
 update
