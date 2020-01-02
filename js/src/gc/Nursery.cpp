@@ -699,7 +699,7 @@ currentChunk_
 numActiveChunks_
 )
 return
-NULL
+nullptr
 ;
 setCurrentChunk
 (
@@ -1480,7 +1480,7 @@ next_
 *
 tail
 =
-NULL
+nullptr
 ;
 }
 MinorCollectionTracer
@@ -1511,7 +1511,7 @@ tenuredSize
 )
 head
 (
-NULL
+nullptr
 )
 tail
 (

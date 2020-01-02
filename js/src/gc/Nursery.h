@@ -390,7 +390,7 @@ GC
 thing
 .
 Returns
-NULL
+nullptr
 if
 the
 *

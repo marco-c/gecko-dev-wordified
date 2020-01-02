@@ -1654,7 +1654,7 @@ reportAllocationOverflow
 {
 js_ReportAllocationOverflow
 (
-NULL
+nullptr
 )
 ;
 }

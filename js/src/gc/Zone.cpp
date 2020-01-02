@@ -380,7 +380,7 @@ runtimeFromMainThread
 >
 systemZone
 =
-NULL
+nullptr
 ;
 }
 bool

@@ -342,7 +342,7 @@ cell
 ;
 next_
 =
-NULL
+nullptr
 ;
 }
 RelocationOverlay

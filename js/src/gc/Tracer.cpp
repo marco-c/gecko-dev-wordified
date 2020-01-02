@@ -713,7 +713,7 @@ char
 *
 name
 =
-NULL
+nullptr
 ;
 /
 *

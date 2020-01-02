@@ -902,7 +902,7 @@ if
 the
 pointer
 is
-NULL
+nullptr
 or
 if
 it
@@ -911,7 +911,8 @@ a
 tagged
 pointer
 to
-NULL
+*
+nullptr
 .
 *
 /
@@ -2113,7 +2114,7 @@ toGCThing
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 inline

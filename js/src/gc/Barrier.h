@@ -2234,7 +2234,7 @@ EncapsulatedPtr
 :
 value
 (
-NULL
+nullptr
 )
 {
 }
@@ -2317,7 +2317,7 @@ set
 the
 pointer
 to
-NULL
+nullptr
 .
 *
 /
@@ -2332,7 +2332,7 @@ pre
 ;
 value
 =
-NULL
+nullptr
 ;
 }
 EncapsulatedPtr
@@ -2604,7 +2604,7 @@ EncapsulatedPtr
 T
 >
 (
-NULL
+nullptr
 )
 {
 }
@@ -3080,7 +3080,7 @@ EncapsulatedPtr
 T
 >
 (
-NULL
+nullptr
 )
 {
 }
@@ -7124,7 +7124,7 @@ ReadBarriered
 :
 value
 (
-NULL
+nullptr
 )
 {
 }
@@ -7172,7 +7172,7 @@ if
 value
 )
 return
-NULL
+nullptr
 ;
 T
 :

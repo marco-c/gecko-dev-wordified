@@ -235,7 +235,7 @@ NullPtr
 :
 constNullValue
 =
-NULL
+nullptr
 ;
 JS_PUBLIC_DATA
 (
@@ -251,7 +251,7 @@ NullPtr
 :
 constNullValue
 =
-NULL
+nullptr
 ;
 /
 *
@@ -1493,14 +1493,14 @@ trc
 >
 debugPrinter
 =
-NULL
+nullptr
 ;
 trc
 -
 >
 debugPrintArg
 =
-NULL
+nullptr
 ;
 }
 #
@@ -6323,7 +6323,7 @@ JSRope
 *
 next
 =
-NULL
+nullptr
 ;
 JSString
 *
@@ -7255,7 +7255,7 @@ JSObject
 *
 prevParent
 =
-NULL
+nullptr
 ;
 do
 {
@@ -10383,7 +10383,7 @@ false
 )
 previousShape
 (
-NULL
+nullptr
 )
 unmarkedAny
 (
@@ -10417,7 +10417,7 @@ tracingShape
 )
 previousShape
 (
-NULL
+nullptr
 )
 unmarkedAny
 (
@@ -10465,10 +10465,10 @@ tracingShape
 shape
 child
 or
-NULL
+nullptr
 .
 Otherwise
-NULL
+nullptr
 .
 *
 /
@@ -11153,7 +11153,7 @@ childTracer
 .
 previousShape
 =
-NULL
+nullptr
 ;
 }
 while

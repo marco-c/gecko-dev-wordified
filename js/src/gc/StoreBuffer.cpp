@@ -209,7 +209,7 @@ getDenseInitializedLength
 )
 )
 return
-NULL
+nullptr
 ;
 return
 (
@@ -239,7 +239,7 @@ slotSpan
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -294,7 +294,7 @@ toGCThing
 (
 )
 :
-NULL
+nullptr
 ;
 }
 JS_ALWAYS_INLINE
