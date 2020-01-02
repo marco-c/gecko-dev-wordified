@@ -1758,6 +1758,9 @@ mTrack
 )
 {
 return
+TextTrack
+:
+:
 READY_STATE_NONE
 ;
 }
