@@ -25855,7 +25855,7 @@ if
 ins
 -
 >
-isCall
+possiblyCalls
 (
 )
 )
