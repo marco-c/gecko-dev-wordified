@@ -1410,6 +1410,7 @@ staging
 server
 .
         
+#
 account_suffix
 =
 {
@@ -1435,7 +1436,8 @@ randint
 9
 )
 )
-                                                     
+        
+#
 for
 i
 in
@@ -1448,12 +1450,13 @@ range
 )
 }
         
+#
 self
 .
 config
 [
 '
-account
+sync_account
 '
 ]
 .
