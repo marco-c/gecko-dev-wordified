@@ -721,6 +721,15 @@ globalObject
 )
 |
 |
+xpc
+:
+:
+IsInAddonScope
+(
+globalObject
+)
+|
+|
 globalObject
 =
 =

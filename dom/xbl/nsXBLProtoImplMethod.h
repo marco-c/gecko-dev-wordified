@@ -637,6 +637,9 @@ Execute
 nsIContent
 *
 aBoundElement
+JSAddonId
+*
+aAddonId
 )
 ;
 /
