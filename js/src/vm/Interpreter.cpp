@@ -14864,8 +14864,6 @@ sp
 ;
 if
 (
-IsBuiltinEvalForScope
-(
 REGS
 .
 fp
@@ -14876,6 +14874,14 @@ fp
 scopeChain
 (
 )
+-
+>
+global
+(
+)
+.
+valueIsEval
+(
 args
 .
 calleev
@@ -15185,8 +15191,6 @@ JSOP_SPREADEVAL
 :
 if
 (
-IsBuiltinEvalForScope
-(
 REGS
 .
 fp
@@ -15197,6 +15201,14 @@ fp
 scopeChain
 (
 )
+-
+>
+global
+(
+)
+.
+valueIsEval
+(
 args
 .
 calleev
