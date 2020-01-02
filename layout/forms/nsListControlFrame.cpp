@@ -4319,7 +4319,7 @@ IsInDropDownMode
 -
 -
 -
-nsIFrame
+nsContainerFrame
 *
 nsListControlFrame
 :

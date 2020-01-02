@@ -6153,7 +6153,7 @@ NS_OK
 virtual
 *
 /
-nsIFrame
+nsContainerFrame
 *
 nsBoxFrame
 :

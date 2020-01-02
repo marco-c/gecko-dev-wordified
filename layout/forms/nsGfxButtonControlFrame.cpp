@@ -1359,7 +1359,7 @@ return
 true
 ;
 }
-nsIFrame
+nsContainerFrame
 *
 nsGfxButtonControlFrame
 :

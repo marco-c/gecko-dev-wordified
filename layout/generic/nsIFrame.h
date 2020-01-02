@@ -4377,14 +4377,14 @@ reflow
 *
 /
 virtual
-nsIFrame
+nsContainerFrame
 *
 GetContentInsertionFrame
 (
 )
 {
 return
-this
+nullptr
 ;
 }
 /

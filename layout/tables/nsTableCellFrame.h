@@ -439,7 +439,7 @@ aOldFrame
 MOZ_OVERRIDE
 ;
 virtual
-nsIFrame
+nsContainerFrame
 *
 GetContentInsertionFrame
 (

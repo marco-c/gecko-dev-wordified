@@ -432,7 +432,7 @@ our
 child
 block
 virtual
-nsIFrame
+nsContainerFrame
 *
 GetContentInsertionFrame
 (

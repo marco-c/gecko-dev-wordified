@@ -373,7 +373,7 @@ aResult
 #
 endif
 virtual
-nsIFrame
+nsContainerFrame
 *
 GetContentInsertionFrame
 (

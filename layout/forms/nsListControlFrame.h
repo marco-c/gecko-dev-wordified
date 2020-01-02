@@ -412,7 +412,7 @@ aLists
 MOZ_OVERRIDE
 ;
 virtual
-nsIFrame
+nsContainerFrame
 *
 GetContentInsertionFrame
 (

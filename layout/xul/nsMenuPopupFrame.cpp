@@ -10730,7 +10730,7 @@ list
 of
 frames
 .
-nsIFrame
+nsContainerFrame
 *
 immediateParent
 =

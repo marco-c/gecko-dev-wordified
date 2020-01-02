@@ -7796,7 +7796,7 @@ aValue
 )
 ;
 }
-nsIFrame
+nsContainerFrame
 *
 nsComboboxControlFrame
 :

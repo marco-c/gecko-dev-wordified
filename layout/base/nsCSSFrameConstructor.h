@@ -212,6 +212,9 @@ struct
 nsGenConInitializer
 ;
 class
+nsContainerFrame
+;
+class
 nsFirstLineFrame
 ;
 class
@@ -616,7 +619,7 @@ with
 an
 append
 .
-nsIFrame
+nsContainerFrame
 *
 GetRangeInsertionPoint
 (
@@ -1578,7 +1581,7 @@ point
 for
 a
 child
-nsIFrame
+nsContainerFrame
 *
 GetInsertionPoint
 (
@@ -11365,7 +11368,7 @@ aContent
 nsIFrame
 *
 aBlockFrame
-nsIFrame
+nsContainerFrame
 *
 *
 aParentFrame
@@ -11768,7 +11771,7 @@ nsIFrame
 *
 GetInsertionPrevSibling
 (
-nsIFrame
+nsContainerFrame
 *
 &
 aParentFrame
