@@ -348,11 +348,15 @@ h
 "
 #
 include
-<
+"
+mozilla
+/
+dom
+/
 Navigator
 .
 h
->
+"
 #
 include
 "
