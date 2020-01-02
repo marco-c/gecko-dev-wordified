@@ -4001,7 +4001,7 @@ uint32_t
 aLength
 )
 {
-NS_ASSERTION
+if
 (
 mRequests
 .
@@ -4012,10 +4012,15 @@ GetBaseRequest
 request
 )
 )
-!
+=
 =
 -
 1
+)
+{
+MOZ_ASSERT
+(
+false
 "
 Received
 OnDataAvailable
@@ -4026,6 +4031,10 @@ request
 "
 )
 ;
+return
+NS_ERROR_UNEXPECTED
+;
+}
 if
 (
 mRequestFailed
