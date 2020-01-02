@@ -8097,10 +8097,14 @@ cx
 )
 ;
 return
-js_strdup
+DuplicateString
 (
 cx
 s
+)
+.
+release
+(
 )
 ;
 }
