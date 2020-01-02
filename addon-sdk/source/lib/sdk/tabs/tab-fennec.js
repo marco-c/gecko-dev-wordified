@@ -217,7 +217,7 @@ require
 .
 .
 /
-event
+view
 /
 core
 '
