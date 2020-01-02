@@ -1098,19 +1098,6 @@ MAX_FOTA_WAIT
 10
 minutes
     
-REMOTE_USER_JS
-=
-'
-/
-data
-/
-local
-/
-user
-.
-js
-'
-    
 def
 __init__
 (
@@ -2245,14 +2232,6 @@ only_override
 '
 False
 )
-            
-'
-remote_prefs_js
-'
-:
-self
-.
-REMOTE_USER_JS
         
 }
         
