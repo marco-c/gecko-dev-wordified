@@ -2282,6 +2282,9 @@ funcLength_
 uint32_t
 funcLengthWithRightBrace_
 ;
+bool
+strict_
+;
 uint32_t
 numGlobalVars_
 ;
@@ -2448,6 +2451,8 @@ uint32_t
 functStart
 uint32_t
 offsetToEndOfUseAsm
+bool
+strict
 )
 ;
 ~
@@ -2893,6 +2898,18 @@ funcStart_
 pod
 .
 funcLengthWithRightBrace_
+;
+}
+bool
+strict
+(
+)
+const
+{
+return
+pod
+.
+strict_
 ;
 }
 bool
