@@ -17022,7 +17022,10 @@ necessary
 .
 if
 (
-JSObjectOp
+js
+:
+:
+ObjectOp
 outerize
 =
 js

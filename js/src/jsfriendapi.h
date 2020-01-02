@@ -2384,13 +2384,8 @@ JSObject
 )
 proxy_innerObject
 (
-JSContext
+JSObject
 *
-cx
-JS
-:
-:
-HandleObject
 obj
 )
 ;
