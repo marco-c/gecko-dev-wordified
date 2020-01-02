@@ -206,14 +206,6 @@ nsServiceManagerUtils
 .
 h
 "
-DOMCI_DATA
-(
-EventListenerInfo
-mozilla
-:
-:
-EventListenerInfo
-)
 namespace
 mozilla
 {
@@ -400,10 +392,6 @@ nsIEventListenerInfo
 NS_INTERFACE_MAP_ENTRY
 (
 nsISupports
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-EventListenerInfo
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTING_ADDREF
