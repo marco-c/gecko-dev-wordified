@@ -3850,6 +3850,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 MOZ_OVERRIDE
 {
@@ -3903,6 +3907,7 @@ RemoteContentController
 HandleDoubleTap
 aPoint
 aModifiers
+aGuid
 )
 )
 ;
@@ -3939,6 +3944,7 @@ HandleDoubleTap
 (
 aPoint
 aModifiers
+aGuid
 )
 ;
 }
@@ -3953,6 +3959,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 MOZ_OVERRIDE
 {
@@ -4006,6 +4016,7 @@ RemoteContentController
 HandleSingleTap
 aPoint
 aModifiers
+aGuid
 )
 )
 ;
@@ -4042,6 +4053,7 @@ HandleSingleTap
 (
 aPoint
 aModifiers
+aGuid
 )
 ;
 }
@@ -4056,6 +4068,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 MOZ_OVERRIDE
 {
@@ -4109,6 +4125,7 @@ RemoteContentController
 HandleLongTap
 aPoint
 aModifiers
+aGuid
 )
 )
 ;
@@ -4145,6 +4162,7 @@ HandleLongTap
 (
 aPoint
 aModifiers
+aGuid
 )
 ;
 }
@@ -4159,6 +4177,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 MOZ_OVERRIDE
 {
@@ -4212,6 +4234,7 @@ RemoteContentController
 HandleLongTapUp
 aPoint
 aModifiers
+aGuid
 )
 )
 ;
@@ -4248,6 +4271,7 @@ HandleLongTapUp
 (
 aPoint
 aModifiers
+aGuid
 )
 ;
 }

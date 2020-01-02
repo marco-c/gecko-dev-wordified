@@ -9212,6 +9212,10 @@ const
 CSSIntPoint
 &
 aPoint
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 if
@@ -9309,6 +9313,10 @@ const
 CSSIntPoint
 &
 aPoint
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 if
@@ -9381,6 +9389,10 @@ const
 CSSIntPoint
 &
 aPoint
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 if
@@ -9418,6 +9430,12 @@ nsIDOMMouseEvent
 MOZ_SOURCE_TOUCH
 )
 ;
+SendContentReceivedTouch
+(
+aGuid
+mContextMenuHandled
+)
+;
 return
 true
 ;
@@ -9432,6 +9450,10 @@ const
 CSSIntPoint
 &
 aPoint
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 if
@@ -9450,6 +9472,7 @@ true
 RecvHandleSingleTap
 (
 aPoint
+aGuid
 )
 ;
 return

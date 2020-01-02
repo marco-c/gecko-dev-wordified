@@ -1318,6 +1318,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 ;
 void
@@ -1329,6 +1333,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 ;
 void
@@ -1340,6 +1348,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 ;
 void
@@ -1351,6 +1363,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 ;
 void
@@ -1489,6 +1505,10 @@ const
 CSSIntPoint
 &
 aPoint
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 ;
 bool
@@ -1498,6 +1518,10 @@ const
 CSSIntPoint
 &
 aPoint
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 ;
 bool
@@ -1507,6 +1531,10 @@ const
 CSSIntPoint
 &
 aPoint
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 ;
 bool
@@ -1516,6 +1544,10 @@ const
 CSSIntPoint
 &
 aPoint
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 ;
 virtual
