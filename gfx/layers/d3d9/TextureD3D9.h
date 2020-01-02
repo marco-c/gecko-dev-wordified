@@ -1713,6 +1713,17 @@ bug
 }
 protected
 :
+void
+OpenSharedHandle
+(
+)
+;
+IDirect3DDevice9
+*
+GetDevice
+(
+)
+;
 RefPtr
 <
 DataTextureSourceD3D9
