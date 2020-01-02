@@ -188,12 +188,6 @@ aTime
 ;
 private
 :
-mozilla
-:
-:
-Monitor
-mMonitor
-;
 nsTArray
 <
 stagefright

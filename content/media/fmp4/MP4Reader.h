@@ -1031,6 +1031,12 @@ monitor
 bool
 mIsEncrypted
 ;
+bool
+mIndexReady
+;
+Monitor
+mIndexMonitor
+;
 }
 ;
 }
