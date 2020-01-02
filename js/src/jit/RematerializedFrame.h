@@ -235,7 +235,7 @@ slots_
 ;
 RematerializedFrame
 (
-JSContext
+ThreadSafeContext
 *
 cx
 uint8_t
@@ -253,7 +253,7 @@ RematerializedFrame
 *
 New
 (
-JSContext
+ThreadSafeContext
 *
 cx
 uint8_t

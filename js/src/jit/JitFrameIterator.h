@@ -591,7 +591,7 @@ mode
 explicit
 JitFrameIterator
 (
-JSContext
+ThreadSafeContext
 *
 cx
 )
@@ -2649,7 +2649,7 @@ public
 :
 InlineFrameIteratorMaybeGC
 (
-JSContext
+ThreadSafeContext
 *
 cx
 const
@@ -2701,7 +2701,7 @@ iter
 }
 InlineFrameIteratorMaybeGC
 (
-JSContext
+ThreadSafeContext
 *
 cx
 const
@@ -2712,7 +2712,7 @@ iter
 ;
 InlineFrameIteratorMaybeGC
 (
-JSContext
+ThreadSafeContext
 *
 cx
 const
@@ -2953,7 +2953,7 @@ LocalOp
 void
 readFrameArgsAndLocals
 (
-JSContext
+ThreadSafeContext
 *
 cx
 ArgOp
@@ -3500,7 +3500,7 @@ Op
 void
 unaliasedForEachActual
 (
-JSContext
+ThreadSafeContext
 *
 cx
 Op
