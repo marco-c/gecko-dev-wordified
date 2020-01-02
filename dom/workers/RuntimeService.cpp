@@ -11233,12 +11233,6 @@ aClosure
 MOZ_ASSERT
 (
 tmp
->
-=
-0
-&
-&
-tmp
 <
 WORKERPREF_COUNT
 )
