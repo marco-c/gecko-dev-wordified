@@ -3072,11 +3072,10 @@ youngestFrame
 {
 if
 (
-!
 this
 .
 state
-=
+!
 =
 "
 paused
