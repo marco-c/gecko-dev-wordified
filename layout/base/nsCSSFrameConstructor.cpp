@@ -56821,6 +56821,7 @@ nsCSSPseudoElements
 :
 ePseudo_firstLetter
 aStyleContext
+nullptr
 )
 ;
 }
@@ -56872,6 +56873,7 @@ nsCSSPseudoElements
 :
 ePseudo_firstLine
 aStyleContext
+nullptr
 )
 ;
 }

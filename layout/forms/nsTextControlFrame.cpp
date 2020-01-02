@@ -2235,6 +2235,12 @@ pseudoType
 StyleContext
 (
 )
+placeholderNode
+-
+>
+AsElement
+(
+)
 )
 ;
 if

@@ -46863,6 +46863,7 @@ AsElement
 )
 pseudoType
 parentStyle
+nullptr
 )
 ;
 /

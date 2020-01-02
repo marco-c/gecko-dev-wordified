@@ -542,6 +542,12 @@ pseudoType
 StyleContext
 (
 )
+mBarDiv
+-
+>
+AsElement
+(
+)
 )
 ;
 if
