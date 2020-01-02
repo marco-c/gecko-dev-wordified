@@ -321,7 +321,8 @@ shared
 by
 all
 *
-script
+writing
+system
 analysis
 routines
 (
@@ -2395,7 +2396,7 @@ other_flags
 *
 free
 for
-script
+style
 -
 specific
 *
@@ -2405,7 +2406,7 @@ specific
 implementations
 *
 /
-AF_ScriptMetrics
+AF_StyleMetrics
 metrics
 ;
 FT_Pos
@@ -2656,7 +2657,7 @@ af_glyph_hints_rescale
 (
 AF_GlyphHints
 hints
-AF_ScriptMetrics
+AF_StyleMetrics
 metrics
 )
 ;

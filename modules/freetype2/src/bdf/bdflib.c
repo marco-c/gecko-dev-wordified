@@ -14,7 +14,7 @@ University
 Copyright
 2001
 -
-2013
+2014
 *
 Francesco
 Zappa
@@ -5312,10 +5312,6 @@ start
 =
 0
 ;
-end
-=
-0
-;
 avail
 =
 0
@@ -9137,7 +9133,7 @@ table
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 name
 "
@@ -9268,7 +9264,7 @@ spacing
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 name
 "
@@ -9295,7 +9291,7 @@ l
 else
 if
 (
-ft_memcmp
+ft_strncmp
 (
 name
 "
@@ -9322,7 +9318,7 @@ l
 else
 if
 (
-ft_memcmp
+ft_strncmp
 (
 name
 "
@@ -9349,7 +9345,7 @@ l
 else
 if
 (
-ft_memcmp
+ft_strncmp
 (
 name
 "
@@ -9672,7 +9668,7 @@ comment
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -9760,7 +9756,7 @@ _BDF_GLYPHS
 {
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -9992,7 +9988,7 @@ field
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -10061,7 +10057,7 @@ field
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -10168,7 +10164,7 @@ field
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -10362,7 +10358,7 @@ field
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -11701,7 +11697,7 @@ next
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -11808,7 +11804,7 @@ next
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -11996,7 +11992,7 @@ next
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -12600,7 +12596,7 @@ bitmap
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -12980,7 +12976,7 @@ properties
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -13318,7 +13314,7 @@ properties
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -13357,7 +13353,7 @@ spacing
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -13686,7 +13682,7 @@ reason
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -13807,7 +13803,7 @@ memory
 ;
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -14083,7 +14079,7 @@ properties
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -14277,7 +14273,7 @@ field
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -14555,7 +14551,7 @@ field
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -14802,7 +14798,7 @@ field
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -15210,7 +15206,7 @@ optional
 /
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -15727,6 +15723,13 @@ memory
 =
 extmemory
 ;
+/
+*
+needed
+for
+FT_NEW
+*
+/
 FT_Error
 error
 =
@@ -15864,16 +15867,6 @@ box
 .
 *
 /
-memory
-=
-p
--
->
-font
--
->
-memory
-;
 if
 (
 p

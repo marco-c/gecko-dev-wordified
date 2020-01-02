@@ -116,6 +116,7 @@ Copyright
 -
 2010
 2013
+2014
 by
 *
 /
@@ -1870,8 +1871,9 @@ unscaled
 outline
 *
 /
-error
-=
+(
+void
+)
 T1_Parse_Glyph
 (
 &

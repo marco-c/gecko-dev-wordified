@@ -116,7 +116,7 @@ Copyright
 2007
 2009
 -
-2013
+2014
 by
 *
 /
@@ -1356,15 +1356,6 @@ result
 FT_Byte
 *
 p
-=
-(
-FT_Byte
-*
-)
-name
--
->
-string
 ;
 if
 (

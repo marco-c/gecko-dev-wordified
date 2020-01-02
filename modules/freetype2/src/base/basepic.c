@@ -112,6 +112,7 @@ base
 Copyright
 2009
 2012
+2013
 by
 *
 /
@@ -361,7 +362,7 @@ modularized
 *
 /
 void
-FT_Init_Table_raccess_guess_table
+FT_Init_Table_ft_raccess_guess_table
 (
 ft_raccess_guess_rec
 *
@@ -619,7 +620,7 @@ ft_bitmap_glyph_class
 #
 ifdef
 FT_CONFIG_OPTION_MAC_FONTS
-FT_Init_Table_raccess_guess_table
+FT_Init_Table_ft_raccess_guess_table
 (
 (
 ft_raccess_guess_rec

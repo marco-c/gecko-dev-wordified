@@ -2478,6 +2478,7 @@ cidface
 -
 >
 face_flags
+|
 =
 FT_FACE_FLAG_SCALABLE
 |

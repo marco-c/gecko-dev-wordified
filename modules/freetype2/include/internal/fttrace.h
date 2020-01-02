@@ -115,7 +115,7 @@ Copyright
 2009
 2011
 -
-2013
+2014
 by
 *
 /
@@ -1186,6 +1186,14 @@ aflatin2
 FT_TRACE_DEF
 (
 afwarp
+)
+FT_TRACE_DEF
+(
+afharfbuzz
+)
+FT_TRACE_DEF
+(
+afglobal
 )
 /
 *

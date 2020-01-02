@@ -121,6 +121,7 @@ Copyright
 -
 2011
 2013
+2014
 by
 *
 /
@@ -3683,8 +3684,17 @@ hi
 *
 /
 #
-ifdef
+if
+defined
+(
 __clang__
+)
+&
+&
+defined
+(
+__thumb2__
+)
 "
 add
 .

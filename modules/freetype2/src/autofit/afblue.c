@@ -3817,7 +3817,7 @@ stringsets
 are
 specific
 to
-scripts
+styles
 *
 /
 FT_LOCAL_ARRAY_DEF

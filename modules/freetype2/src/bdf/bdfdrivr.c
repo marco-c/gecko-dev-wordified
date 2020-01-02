@@ -18,6 +18,7 @@ C
 2008
 2011
 2013
+2014
 by
 Francesco
 Zappa
@@ -1489,10 +1490,6 @@ value
 atom
 )
 ;
-len
-=
-0
-;
 for
 (
 len
@@ -2249,6 +2246,7 @@ bdfface
 -
 >
 face_flags
+|
 =
 FT_FACE_FLAG_FIXED_SIZES
 |

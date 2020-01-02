@@ -112,7 +112,8 @@ Copyright
 -
 2010
 2012
-2013
+-
+2014
 by
 *
 /
@@ -8120,10 +8121,6 @@ before
 =
 point
 ;
-after
-=
-point
-;
 do
 {
 before
@@ -11314,10 +11311,6 @@ first
 ;
 do
 {
-point
-=
-first
-;
 /
 *
 skip

@@ -111,8 +111,11 @@ specification
 *
 Copyright
 2003
-2004
+-
 2005
+2009
+2012
+2013
 by
 *
 /
@@ -378,7 +381,10 @@ FT_ModuleRec
 root
 ;
 FT_UInt
-fallback_script
+fallback_style
+;
+FT_UInt
+default_script
 ;
 AF_LoaderRec
 loader

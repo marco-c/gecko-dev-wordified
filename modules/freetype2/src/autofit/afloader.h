@@ -116,7 +116,7 @@ Copyright
 2005
 2011
 -
-2012
+2013
 by
 *
 /
@@ -416,7 +416,7 @@ gloader
 AF_GlyphHintsRec
 hints
 ;
-AF_ScriptMetrics
+AF_StyleMetrics
 metrics
 ;
 FT_Bool
