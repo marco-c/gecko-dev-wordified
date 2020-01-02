@@ -1265,7 +1265,7 @@ CompositionEventDispatcher
 *
 *
 *
-DispatchCompsotionEventRunnable
+DispatchCompositionEventRunnable
 (
 )
 dispatches
@@ -1368,7 +1368,7 @@ NS_TEXT_TEXT
 *
 /
 void
-DispatchCompsotionEventRunnable
+DispatchCompositionEventRunnable
 (
 uint32_t
 aEventMessage
