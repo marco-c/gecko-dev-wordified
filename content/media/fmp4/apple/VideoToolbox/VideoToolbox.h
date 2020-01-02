@@ -70,7 +70,6 @@ the
 Mozilla
 Public
 *
-*
 License
 v
 .
@@ -89,7 +88,6 @@ not
 distributed
 with
 this
-*
 *
 file
 You
