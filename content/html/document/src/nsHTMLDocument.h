@@ -559,9 +559,6 @@ const
 nsAString
 &
 aID
-nsresult
-*
-aResult
 )
 ;
 mozilla

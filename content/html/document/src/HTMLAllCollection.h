@@ -240,9 +240,6 @@ nsWrapperCache
 *
 *
 aCache
-nsresult
-*
-aResult
 )
 ;
 private
