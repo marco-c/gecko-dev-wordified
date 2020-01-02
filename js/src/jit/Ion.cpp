@@ -8552,6 +8552,15 @@ if
 (
 !
 lir
+|
+|
+!
+lir
+-
+>
+init
+(
+)
 )
 return
 nullptr
