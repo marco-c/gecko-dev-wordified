@@ -242,9 +242,6 @@ h
 /
 for
 nsAutoCString
-class
-gfxImageSurface
-;
 namespace
 mozilla
 {
@@ -5060,9 +5057,12 @@ result
 #
 ifdef
 MOZ_DUMP_PAINTING
-already_AddRefed
+TemporaryRef
 <
-gfxImageSurface
+gfx
+:
+:
+DataSourceSurface
 >
 ContentHostBase
 :

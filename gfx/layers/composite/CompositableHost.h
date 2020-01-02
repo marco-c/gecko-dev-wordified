@@ -339,9 +339,6 @@ h
 /
 for
 CSSToScreenScale
-class
-gfxImageSurface
-;
 struct
 nsIntPoint
 ;
@@ -356,6 +353,9 @@ gfx
 {
 class
 Matrix4x4
+;
+class
+DataSourceSurface
 ;
 }
 namespace
@@ -1819,9 +1819,12 @@ aTexture
 )
 ;
 virtual
-already_AddRefed
+TemporaryRef
 <
-gfxImageSurface
+gfx
+:
+:
+DataSourceSurface
 >
 GetAsSurface
 (

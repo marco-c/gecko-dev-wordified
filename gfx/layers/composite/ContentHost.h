@@ -434,9 +434,6 @@ h
 /
 for
 nsACString
-class
-gfxImageSurface
-;
 namespace
 mozilla
 {
@@ -806,9 +803,12 @@ MOZ_OVERRIDE
 ifdef
 MOZ_DUMP_PAINTING
 virtual
-already_AddRefed
+TemporaryRef
 <
-gfxImageSurface
+gfx
+:
+:
+DataSourceSurface
 >
 GetAsSurface
 (

@@ -428,9 +428,12 @@ mTextureSource
 ;
 }
 virtual
-already_AddRefed
+TemporaryRef
 <
-gfxImageSurface
+gfx
+:
+:
+DataSourceSurface
 >
 GetAsSurface
 (
