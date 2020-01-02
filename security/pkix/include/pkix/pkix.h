@@ -1015,8 +1015,8 @@ TrustDomain
 &
 trustDomain
 const
-CERTCertificate
-*
+SECItem
+&
 cert
 PRTime
 time
@@ -1067,7 +1067,7 @@ VerifySignedData
 (
 const
 CERTSignedData
-*
+&
 sd
 const
 SECItem

@@ -1208,7 +1208,7 @@ VerifySignedData
 (
 const
 CERTSignedData
-*
+&
 signedData
 const
 SECItem

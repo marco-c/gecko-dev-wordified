@@ -393,7 +393,7 @@ v1_ca_bc
 der
 '
 )
-SEC_ERROR_EXTENSION_VALUE_INVALID
+SEC_ERROR_BAD_DER
 )
 ;
 check_ca_err
@@ -419,7 +419,7 @@ v2_ca_bc
 der
 '
 )
-SEC_ERROR_EXTENSION_VALUE_INVALID
+SEC_ERROR_BAD_DER
 )
 ;
 check_ok_ca
@@ -686,10 +686,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -704,7 +700,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -721,7 +717,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -753,14 +749,6 @@ CA
 is
 invalid
 .
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_ca_err
 (
 cert_from_file
@@ -773,7 +761,7 @@ v1_ca
 der
 '
 )
-ca_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -790,7 +778,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -807,7 +795,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -824,7 +812,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -841,7 +829,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -858,7 +846,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -875,7 +863,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -995,10 +983,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -1013,7 +997,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1030,7 +1014,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1062,16 +1046,11 @@ constraints
 not
 allowed
 in
-insanity
+mozilla
+:
+:
+pkix
 )
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_ca_err
 (
 cert_from_file
@@ -1084,7 +1063,7 @@ v1_ca
 der
 '
 )
-ca_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1101,7 +1080,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1118,7 +1097,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1135,7 +1114,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1152,7 +1131,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1169,7 +1148,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1186,7 +1165,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1335,10 +1314,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -1353,7 +1328,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1370,7 +1345,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1483,14 +1458,6 @@ der
 )
 )
 ;
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -1505,7 +1472,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1522,7 +1489,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1675,10 +1642,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -1693,7 +1656,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1710,7 +1673,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1743,14 +1706,6 @@ extenstions
 invalid
 )
 .
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_ca_err
 (
 cert_from_file
@@ -1763,7 +1718,7 @@ v1_ca_bc
 der
 '
 )
-ca_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1780,7 +1735,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1797,7 +1752,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1814,7 +1769,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1831,7 +1786,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1848,7 +1803,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1865,7 +1820,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -1981,10 +1936,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -1999,7 +1950,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2016,7 +1967,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2048,14 +1999,6 @@ constraints
 (
 invalid
 )
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_ca_err
 (
 cert_from_file
@@ -2068,7 +2011,7 @@ v1_ca_bc
 der
 '
 )
-ca_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2085,7 +2028,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2102,7 +2045,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2119,7 +2062,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2136,7 +2079,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2153,7 +2096,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2170,7 +2113,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2295,10 +2238,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -2313,7 +2252,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2330,7 +2269,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2385,7 +2324,7 @@ v1_ca_bc
 der
 '
 )
-ca_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2402,7 +2341,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2419,7 +2358,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2436,7 +2375,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2453,7 +2392,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2470,7 +2409,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2487,7 +2426,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2641,10 +2580,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -2659,8 +2594,9 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
+;
 check_cert_err
 (
 cert_from_file
@@ -2675,7 +2611,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2707,14 +2643,6 @@ constraints
 (
 invalid
 )
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_ca_err
 (
 cert_from_file
@@ -2727,7 +2655,7 @@ v2_ca
 der
 '
 )
-ca_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2744,7 +2672,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2761,7 +2689,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2778,7 +2706,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2795,7 +2723,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2812,7 +2740,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2829,7 +2757,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2946,10 +2874,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -2964,7 +2888,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -2981,7 +2905,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3013,14 +2937,6 @@ constraints
 (
 invalid
 )
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_ca_err
 (
 cert_from_file
@@ -3033,7 +2949,7 @@ v2_ca
 der
 '
 )
-ca_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3050,7 +2966,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3067,7 +2983,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3084,7 +3000,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3101,7 +3017,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3118,7 +3034,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3135,7 +3051,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3255,10 +3171,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -3273,7 +3185,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3290,7 +3202,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3407,14 +3319,6 @@ der
 ee_error
 )
 ;
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -3429,7 +3333,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3446,7 +3350,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3563,10 +3467,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -3581,7 +3481,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3598,7 +3498,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3629,14 +3529,6 @@ bc
 (
 invalid
 )
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_ca_err
 (
 cert_from_file
@@ -3649,7 +3541,7 @@ v2_ca_bc
 der
 '
 )
-ca_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3666,7 +3558,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3683,7 +3575,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3700,7 +3592,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3717,7 +3609,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3734,7 +3626,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3751,7 +3643,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3868,10 +3760,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -3886,7 +3774,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3903,7 +3791,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3934,14 +3822,6 @@ bc
 (
 invalid
 )
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_ca_err
 (
 cert_from_file
@@ -3954,7 +3834,7 @@ v2_ca_bc
 der
 '
 )
-ca_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3971,7 +3851,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -3988,7 +3868,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4005,7 +3885,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4022,7 +3902,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4039,7 +3919,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4056,7 +3936,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4174,10 +4054,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -4192,7 +4068,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4209,8 +4085,9 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
+;
 check_cert_err
 (
 cert_from_file
@@ -4246,14 +4123,6 @@ classic
 '
 semantics
 )
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_ca_err
 (
 cert_from_file
@@ -4266,7 +4135,7 @@ v2_ca_bc
 der
 '
 )
-ca_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4283,7 +4152,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4300,7 +4169,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4317,7 +4186,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4334,7 +4203,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4351,7 +4220,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4368,7 +4237,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4522,10 +4391,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -4540,7 +4405,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4557,7 +4422,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4585,14 +4450,6 @@ intermediate
 with
 v3
 extensions
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_ca_err
 (
 cert_from_file
@@ -4605,7 +4462,7 @@ v3_ca
 der
 '
 )
-ca_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4622,7 +4479,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4639,7 +4496,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4656,7 +4513,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4673,7 +4530,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4690,7 +4547,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4707,7 +4564,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4826,10 +4683,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -4844,7 +4697,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4861,7 +4714,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4890,14 +4743,6 @@ bc
 (
 invalid
 )
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_ca_err
 (
 cert_from_file
@@ -4910,7 +4755,7 @@ v3_ca
 der
 '
 )
-ca_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4927,7 +4772,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4944,7 +4789,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4961,7 +4806,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4978,7 +4823,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -4995,7 +4840,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5012,7 +4857,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5128,10 +4973,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -5146,7 +4987,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5163,7 +5004,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5293,14 +5134,6 @@ der
 )
 )
 ;
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -5315,7 +5148,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5332,7 +5165,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5450,10 +5283,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -5468,7 +5297,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5485,7 +5314,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5521,14 +5350,6 @@ fail
 insanity
 OK
 )
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_ca_err
 (
 cert_from_file
@@ -5541,7 +5362,7 @@ v3_ca_missing_bc
 der
 '
 )
-ca_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5558,7 +5379,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5575,7 +5396,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5592,7 +5413,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5609,7 +5430,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5626,7 +5447,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5643,7 +5464,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5762,10 +5583,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -5780,7 +5597,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5797,7 +5614,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5829,14 +5646,6 @@ constraints
 )
 is
 invalid
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_ca_err
 (
 cert_from_file
@@ -5849,7 +5658,7 @@ v3_ca_missing_bc
 der
 '
 )
-ca_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5866,7 +5675,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5883,7 +5692,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5900,7 +5709,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5917,7 +5726,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5934,7 +5743,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -5951,7 +5760,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -6071,10 +5880,6 @@ der
 ee_error
 )
 ;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -6089,7 +5894,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -6106,7 +5911,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -6229,14 +6034,6 @@ der
 ee_error
 )
 ;
-ca_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
-ee_error
-=
-SEC_ERROR_EXTENSION_VALUE_INVALID
-;
 check_cert_err
 (
 cert_from_file
@@ -6251,7 +6048,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
@@ -6268,7 +6065,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 check_cert_err
