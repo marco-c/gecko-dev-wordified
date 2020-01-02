@@ -10998,17 +10998,6 @@ item
 >
 GetTransform
 (
-aFrame
--
->
-PresContext
-(
-)
--
->
-AppUnitsPerDevPixel
-(
-)
 )
 ;
 item
