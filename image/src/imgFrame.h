@@ -916,14 +916,6 @@ InformAllocation
 bool
 mInformedDiscardTracker
 ;
-#
-ifdef
-XP_WIN
-bool
-mIsDDBSurface
-;
-#
-endif
 bool
 mDirty
 ;
