@@ -8739,6 +8739,8 @@ HasSSE2
 #
 endif
 }
+public
+:
 #
 if
 WTF_CPU_X86
@@ -9104,6 +9106,8 @@ s_sseCheckState
 HasSSE4_2
 ;
 }
+private
+:
 #
 ifdef
 DEBUG
