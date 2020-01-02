@@ -8749,6 +8749,11 @@ InvalidatePresShellIfHidden
 (
 )
 ;
+void
+CancelInvalidatePresShellIfHidden
+(
+)
+;
 /
 /
 Schedule
