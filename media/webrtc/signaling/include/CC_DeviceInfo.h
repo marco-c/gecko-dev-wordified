@@ -104,8 +104,6 @@ CC_DeviceInfo
 )
 {
 }
-public
-:
 /
 /
 Base
@@ -125,6 +123,8 @@ CC_DeviceInfo
 {
 }
 ;
+public
+:
 /
 *
 *

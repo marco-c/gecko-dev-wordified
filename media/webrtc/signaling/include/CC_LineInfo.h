@@ -114,8 +114,6 @@ CC_LineInfo
 )
 {
 }
-public
-:
 /
 /
 Base
@@ -135,6 +133,8 @@ CC_LineInfo
 {
 }
 ;
+public
+:
 /
 *
 *

@@ -372,6 +372,14 @@ class
 ECC_API
 CallControlManager
 {
+protected
+:
+virtual
+~
+CallControlManager
+(
+)
+;
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -462,12 +470,6 @@ destroy
 )
 =
 0
-;
-virtual
-~
-CallControlManager
-(
-)
 ;
 /
 *

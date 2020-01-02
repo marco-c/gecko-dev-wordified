@@ -118,8 +118,6 @@ CC_Service
 )
 {
 }
-public
-:
 virtual
 ~
 CC_Service

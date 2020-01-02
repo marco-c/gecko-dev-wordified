@@ -106,6 +106,13 @@ LoadManagerFactory
 .
 h
 "
+#
+include
+"
+LoadManager
+.
+h
+"
 /
 /
 conflicts

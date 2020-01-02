@@ -99,8 +99,6 @@ CC_FeatureInfo
 )
 {
 }
-public
-:
 /
 /
 Base
@@ -120,6 +118,8 @@ CC_FeatureInfo
 {
 }
 ;
+public
+:
 /
 *
 *

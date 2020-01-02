@@ -189,7 +189,7 @@ return
 config
 ;
 }
-public
+protected
 :
 PhoneDetailsImpl
 (
@@ -201,6 +201,8 @@ PhoneDetailsImpl
 (
 )
 ;
+public
+:
 virtual
 void
 setName

@@ -153,8 +153,6 @@ CC_CallInfo
 )
 {
 }
-public
-:
 /
 /
 Base
@@ -174,6 +172,8 @@ CC_CallInfo
 {
 }
 ;
+public
+:
 /
 *
 *

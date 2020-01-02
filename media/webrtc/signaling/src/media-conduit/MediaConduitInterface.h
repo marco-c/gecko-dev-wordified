@@ -163,7 +163,7 @@ packets
 class
 TransportInterface
 {
-public
+protected
 :
 virtual
 ~
@@ -172,6 +172,8 @@ TransportInterface
 )
 {
 }
+public
+:
 /
 *
 *
@@ -442,7 +444,7 @@ video
 class
 VideoRenderer
 {
-public
+protected
 :
 virtual
 ~
@@ -451,6 +453,8 @@ VideoRenderer
 )
 {
 }
+public
+:
 /
 *
 *
@@ -793,6 +797,15 @@ recevied
 class
 MediaSessionConduit
 {
+protected
+:
+virtual
+~
+MediaSessionConduit
+(
+)
+{
+}
 public
 :
 enum
@@ -802,13 +815,6 @@ AUDIO
 VIDEO
 }
 ;
-virtual
-~
-MediaSessionConduit
-(
-)
-{
-}
 virtual
 Type
 type
