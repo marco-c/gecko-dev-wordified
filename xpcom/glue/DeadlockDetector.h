@@ -760,6 +760,7 @@ detected
 struct
 OrderingEntry
 {
+explicit
 OrderingEntry
 (
 const

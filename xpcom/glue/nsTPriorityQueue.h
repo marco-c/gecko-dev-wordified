@@ -266,6 +266,7 @@ used
 .
 *
 /
+explicit
 nsTPriorityQueue
 (
 const
