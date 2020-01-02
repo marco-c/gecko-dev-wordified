@@ -56,6 +56,17 @@ double
 dbl
 )
 {
+printf
+(
+"
+%
+f
+\
+n
+"
+dbl
+)
+;
 return
 2
 *

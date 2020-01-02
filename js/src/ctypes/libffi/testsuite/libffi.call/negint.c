@@ -41,17 +41,6 @@ run
 }
 *
 /
-/
-*
-{
-dg
--
-options
--
-O2
-}
-*
-/
 #
 include
 "

@@ -47,6 +47,7 @@ h
 "
 static
 size_t
+ABI_ATTR
 my_strlen
 (
 char
@@ -126,7 +127,7 @@ ffi_prep_cif
 (
 &
 cif
-FFI_DEFAULT_ABI
+ABI_NUM
 1
 &
 ffi_type_sint

@@ -249,6 +249,10 @@ trample6
 +
 trample2
 ;
+void
+*
+result
+;
 dummyVar
 =
 dummy_func
@@ -263,8 +267,6 @@ trample7
 trample8
 )
 ;
-void
-*
 result
 =
 (
@@ -465,6 +467,10 @@ trample6
 +
 trample2
 ;
+void
+*
+result
+;
 dummyVar
 =
 dummy_func
@@ -479,8 +485,6 @@ trample7
 trample8
 )
 ;
-void
-*
 result
 =
 (
@@ -796,10 +800,12 @@ args
 ]
 ;
 /
-/
+*
 ffi_type
 cls_pointer_type
 ;
+*
+/
 ffi_type
 *
 arg_types
@@ -967,7 +973,7 @@ res
 )
 ;
 /
-/
+*
 {
 dg
 -
@@ -980,8 +986,10 @@ n0x01234567
 0x8acf1356
 "
 }
+*
 /
 /
+*
 {
 dg
 -
@@ -994,8 +1002,10 @@ n0x8acf1356
 0x8bf258bd
 "
 }
+*
 /
 /
+*
 {
 dg
 -
@@ -1007,6 +1017,8 @@ nres
 0x8bf258bd
 "
 }
+*
+/
 CHECK
 (
 ffi_prep_closure_loc
@@ -1027,6 +1039,9 @@ res
 =
 (
 ffi_arg
+)
+(
+uintptr_t
 )
 (
 (
@@ -1070,7 +1085,7 @@ res
 )
 ;
 /
-/
+*
 {
 dg
 -
@@ -1083,8 +1098,10 @@ n0x01234567
 0x8acf1356
 "
 }
+*
 /
 /
+*
 {
 dg
 -
@@ -1097,8 +1114,10 @@ n0x8acf1356
 0x8bf258bd
 "
 }
+*
 /
 /
+*
 {
 dg
 -
@@ -1110,6 +1129,8 @@ nres
 0x8bf258bd
 "
 }
+*
+/
 exit
 (
 0

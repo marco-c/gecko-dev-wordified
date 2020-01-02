@@ -169,12 +169,13 @@ values
 ;
 CHECK
 (
+(
+signed
+char
+)
 rint
 =
 =
-(
-ffi_arg
-)
 sc
 )
 ;

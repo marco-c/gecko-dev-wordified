@@ -174,13 +174,13 @@ values
 ;
 CHECK
 (
+(
+unsigned
+char
+)
 rint
 =
 =
-(
-signed
-int
-)
 uc
 )
 ;

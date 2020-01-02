@@ -244,10 +244,12 @@ args
 ]
 ;
 /
-/
+*
 ffi_type
 cls_pointer_type
 ;
+*
+/
 ffi_type
 *
 arg_types
@@ -456,6 +458,9 @@ res
 =
 (
 ffi_arg
+)
+(
+uintptr_t
 )
 (
 (
