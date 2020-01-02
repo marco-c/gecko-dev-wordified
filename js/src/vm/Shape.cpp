@@ -242,6 +242,12 @@ using
 mozilla
 :
 :
+CeilingLog2Size
+;
+using
+mozilla
+:
+:
 DebugOnly
 ;
 using
@@ -254,7 +260,7 @@ using
 mozilla
 :
 :
-CeilingLog2Size
+RotateLeft
 ;
 bool
 ShapeTable
@@ -9563,7 +9569,7 @@ flags
 ;
 hash
 =
-JS_ROTATE_LEFT32
+RotateLeft
 (
 hash
 4
@@ -9584,7 +9590,7 @@ clasp
 ;
 hash
 =
-JS_ROTATE_LEFT32
+RotateLeft
 (
 hash
 4
@@ -9605,7 +9611,7 @@ parent
 ;
 hash
 =
-JS_ROTATE_LEFT32
+RotateLeft
 (
 hash
 4
@@ -9626,7 +9632,7 @@ metadata
 ;
 hash
 =
-JS_ROTATE_LEFT32
+RotateLeft
 (
 hash
 4
@@ -9642,7 +9648,7 @@ rawGetter
 ;
 hash
 =
-JS_ROTATE_LEFT32
+RotateLeft
 (
 hash
 4
@@ -10530,7 +10536,7 @@ clasp
 ;
 hash
 =
-JS_ROTATE_LEFT32
+RotateLeft
 (
 hash
 4
@@ -10554,7 +10560,7 @@ toWord
 ;
 hash
 =
-JS_ROTATE_LEFT32
+RotateLeft
 (
 hash
 4

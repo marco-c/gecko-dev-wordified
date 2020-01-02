@@ -174,6 +174,12 @@ mozilla
 :
 CeilingLog2Size
 ;
+using
+mozilla
+:
+:
+RotateLeft
+;
 /
 *
 Compute
@@ -2728,7 +2734,7 @@ s
 )
 h
 =
-JS_ROTATE_LEFT32
+RotateLeft
 (
 h
 4
