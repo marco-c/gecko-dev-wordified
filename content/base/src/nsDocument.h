@@ -4928,17 +4928,6 @@ aNotify
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
-AppendChildTo
-(
-nsIContent
-*
-aKid
-bool
-aNotify
-)
-;
-virtual
 void
 RemoveChildAt
 (
