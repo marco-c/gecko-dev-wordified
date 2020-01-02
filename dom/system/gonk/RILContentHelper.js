@@ -2964,6 +2964,12 @@ newInfo
 newInfo
 .
 iccType
+|
+|
+!
+newInfo
+.
+iccid
 )
 {
 if
