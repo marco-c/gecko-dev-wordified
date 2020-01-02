@@ -679,7 +679,7 @@ SECSuccess
 }
 ;
 class
-pkix_cert_extensions
+pkixcert_extension
 :
 public
 NSSTest
@@ -714,7 +714,7 @@ static
 *
 /
 TrustEverythingTrustDomain
-pkix_cert_extensions
+pkixcert_extension
 :
 :
 trustDomain
@@ -762,7 +762,7 @@ error
 .
 TEST_F
 (
-pkix_cert_extensions
+pkixcert_extension
 UnknownCriticalExtension
 )
 {
@@ -1012,7 +1012,7 @@ successfully
 .
 TEST_F
 (
-pkix_cert_extensions
+pkixcert_extension
 UnknownNonCriticalExtension
 )
 {
@@ -1259,7 +1259,7 @@ OID
 )
 TEST_F
 (
-pkix_cert_extensions
+pkixcert_extension
 WrongOIDCriticalExtension
 )
 {
@@ -1496,7 +1496,7 @@ succeeds
 .
 TEST_F
 (
-pkix_cert_extensions
+pkixcert_extension
 CriticalAIAExtension
 )
 {
@@ -1782,7 +1782,7 @@ fails
 .
 TEST_F
 (
-pkix_cert_extensions
+pkixcert_extension
 UnknownCriticalCEExtension
 )
 {
@@ -2006,7 +2006,7 @@ successfully
 .
 TEST_F
 (
-pkix_cert_extensions
+pkixcert_extension
 KnownCriticalCEExtension
 )
 {
@@ -2221,7 +2221,7 @@ error
 .
 TEST_F
 (
-pkix_cert_extensions
+pkixcert_extension
 DuplicateSubjectAltName
 )
 {

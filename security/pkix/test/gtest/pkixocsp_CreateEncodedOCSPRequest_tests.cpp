@@ -318,7 +318,7 @@ pkix
 test
 ;
 class
-pkix_ocsp_request_tests
+pkixocsp_CreateEncodedOCSPRequest
 :
 public
 NSSTest
@@ -717,7 +717,7 @@ fail
 .
 TEST_F
 (
-pkix_ocsp_request_tests
+pkixocsp_CreateEncodedOCSPRequest
 ChildCertLongSerialNumberTest
 )
 {
@@ -804,7 +804,7 @@ octets
 .
 TEST_F
 (
-pkix_ocsp_request_tests
+pkixocsp_CreateEncodedOCSPRequest
 LongestSupportedSerialNumberTest
 )
 {
