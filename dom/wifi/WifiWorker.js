@@ -7813,6 +7813,10 @@ doStartWifiTethering
 }
 else
 {
+cancelWifiHotspotStatusTimer
+(
+)
+;
 gNetworkManager
 .
 setWifiTethering
