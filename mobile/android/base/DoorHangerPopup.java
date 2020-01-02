@@ -277,14 +277,11 @@ DoorHangerPopup
 (
 GeckoApp
 activity
-View
-anchor
 )
 {
 super
 (
 activity
-anchor
 )
 ;
 mDoorHangers
