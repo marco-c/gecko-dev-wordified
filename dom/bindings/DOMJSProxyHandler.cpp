@@ -176,13 +176,6 @@ h
 #
 include
 "
-nsGlobalWindow
-.
-h
-"
-#
-include
-"
 nsWrapperCacheInlines
 .
 h

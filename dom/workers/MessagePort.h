@@ -182,7 +182,7 @@ PrefEnabled
 )
 ;
 void
-PostMessage
+PostMessageMoz
 (
 JSContext
 *

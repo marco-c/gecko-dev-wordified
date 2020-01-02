@@ -51582,9 +51582,6 @@ context
 {
 context
 =
-nsGlobalWindow
-:
-:
 ToSupports
 (
 mScriptGlobal

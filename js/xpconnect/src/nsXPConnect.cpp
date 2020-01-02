@@ -8059,7 +8059,7 @@ false
 xpc_qsACString
 :
 :
-eNull
+eStringify
 xpc_qsACString
 :
 :
@@ -8205,11 +8205,11 @@ false
 xpc_qsACString
 :
 :
-eNull
+eStringify
 xpc_qsACString
 :
 :
-eNull
+eStringify
 )
 ;
 if

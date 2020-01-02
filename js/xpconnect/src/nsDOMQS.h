@@ -264,6 +264,13 @@ XPCQuickStubs
 .
 h
 "
+#
+include
+"
+nsGlobalWindow
+.
+h
+"
 template
 <
 class

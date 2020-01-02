@@ -2461,9 +2461,6 @@ nsISupports
 >
 window
 =
-nsGlobalWindow
-:
-:
 ToSupports
 (
 aWindow
