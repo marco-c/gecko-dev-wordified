@@ -1559,6 +1559,17 @@ errors
 )
 :
         
+TIMEOUT_MESSAGE
+=
+"
+ScriptTimeoutException
+:
+ScriptTimeoutException
+:
+timed
+out
+"
+        
 for
 error
 in
@@ -1683,6 +1694,15 @@ or
 fail_present
 :
                     
+if
+error
+.
+reason
+!
+=
+TIMEOUT_MESSAGE
+:
+                        
 self
 .
 stream
