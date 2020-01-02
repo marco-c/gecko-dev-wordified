@@ -81,11 +81,15 @@ linked
 "
 )
 ;
-yield
 front
 .
 setup
 (
+{
+reload
+:
+true
+}
 )
 ;
 yield

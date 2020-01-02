@@ -66,6 +66,11 @@ front
 .
 setup
 (
+{
+reload
+:
+true
+}
 )
 ;
 let
