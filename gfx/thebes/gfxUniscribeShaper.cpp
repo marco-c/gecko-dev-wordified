@@ -533,9 +533,7 @@ shapeDC
 =
 nullptr
 ;
-const
-PRUnichar
-*
+char16ptr_t
 str
 =
 mAlternativeString
@@ -2633,9 +2631,7 @@ i
 }
 private
 :
-const
-PRUnichar
-*
+char16ptr_t
 mString
 ;
 gfxShapedText

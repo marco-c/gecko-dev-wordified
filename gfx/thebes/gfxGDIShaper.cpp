@@ -343,7 +343,10 @@ ret
 GetGlyphIndicesW
 (
 dc
+char16ptr_t
+(
 aText
+)
 length
 glyphs
 GGI_MARK_NONEXISTING_GLYPHS
