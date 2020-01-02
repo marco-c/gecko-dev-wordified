@@ -9005,6 +9005,7 @@ frame
 )
 ;
 return
+(
 sf
 &
 &
@@ -9017,6 +9018,7 @@ GetScrolledFrame
 =
 =
 aScrolledFrame
+)
 ?
 sf
 :
@@ -9907,9 +9909,11 @@ ScrollbarThumbLayerized
 )
 ;
 }
-static
 nsIFrame
 *
+nsLayoutUtils
+:
+:
 GetAnimatedGeometryRootForFrame
 (
 nsIFrame
