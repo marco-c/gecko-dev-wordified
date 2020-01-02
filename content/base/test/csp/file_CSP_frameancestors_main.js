@@ -157,7 +157,7 @@ elt
 =
 (
 '
-aa_allow
+aa_allow_spec_compliant
 '
 )
 ;
@@ -173,7 +173,7 @@ a
 ?
 testid
 =
-aa_allow
+aa_allow_spec_compliant
 &
 internalframe
 =
@@ -217,7 +217,7 @@ elt
 =
 (
 '
-aa_block
+aa_block_spec_compliant
 '
 )
 ;
@@ -233,7 +233,7 @@ a
 ?
 testid
 =
-aa_block
+aa_block_spec_compliant
 &
 internalframe
 =
@@ -273,7 +273,7 @@ elt
 =
 (
 '
-ab_allow
+ab_allow_spec_compliant
 '
 )
 ;
@@ -289,7 +289,7 @@ b
 ?
 testid
 =
-ab_allow
+ab_allow_spec_compliant
 &
 internalframe
 =
@@ -333,7 +333,7 @@ elt
 =
 (
 '
-ab_block
+ab_block_spec_compliant
 '
 )
 ;
@@ -349,7 +349,7 @@ b
 ?
 testid
 =
-ab_block
+ab_block_spec_compliant
 &
 internalframe
 =
@@ -401,7 +401,7 @@ elt
 =
 (
 '
-aba_allow
+aba_allow_spec_compliant
 '
 )
 ;
@@ -415,7 +415,7 @@ a
 ?
 testid
 =
-aba_allow
+aba_allow_spec_compliant
 &
 double
 =
@@ -506,7 +506,7 @@ elt
 =
 (
 '
-aba_block
+aba_block_spec_compliant
 '
 )
 ;
@@ -520,7 +520,7 @@ a
 ?
 testid
 =
-aba_allow
+aba_allow_spec_compliant
 &
 double
 =
@@ -604,7 +604,7 @@ elt
 =
 (
 '
-aba2_block
+aba2_block_spec_compliant
 '
 )
 ;
@@ -618,7 +618,7 @@ a
 ?
 testid
 =
-aba_allow
+aba_allow_spec_compliant
 &
 double
 =
@@ -702,7 +702,7 @@ elt
 =
 (
 '
-abb_allow
+abb_allow_spec_compliant
 '
 )
 ;
@@ -716,7 +716,7 @@ b
 ?
 testid
 =
-abb_allow
+abb_allow_spec_compliant
 &
 double
 =
@@ -807,7 +807,7 @@ elt
 =
 (
 '
-abb_block
+abb_block_spec_compliant
 '
 )
 ;
@@ -821,7 +821,7 @@ b
 ?
 testid
 =
-abb_allow
+abb_allow_spec_compliant
 &
 double
 =
@@ -905,7 +905,7 @@ elt
 =
 (
 '
-abb2_block
+abb2_block_spec_compliant
 '
 )
 ;
@@ -919,7 +919,7 @@ b
 ?
 testid
 =
-abb_allow
+abb_allow_spec_compliant
 &
 double
 =
