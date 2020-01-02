@@ -1618,6 +1618,11 @@ icon
 message
 .
 icon
+weight
+:
+message
+.
+weight
 onclick
 :
 function
