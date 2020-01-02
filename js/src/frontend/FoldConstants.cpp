@@ -371,6 +371,9 @@ pn_kid3
 case
 PN_BINARY
 :
+case
+PN_BINARY_OBJ
+:
 /
 *
 *
@@ -2014,6 +2017,9 @@ break
 ;
 case
 PN_BINARY
+:
+case
+PN_BINARY_OBJ
 :
 if
 (

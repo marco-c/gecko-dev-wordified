@@ -37841,7 +37841,7 @@ scopeChain
 >
 is
 <
-WithObject
+DynamicWithObject
 >
 (
 )
