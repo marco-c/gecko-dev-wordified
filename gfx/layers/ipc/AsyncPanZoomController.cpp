@@ -10565,6 +10565,8 @@ currentScrollOffset
 mFrameMetrics
 .
 mScrollOffset
++
+mTestAsyncScrollOffset
 ;
 /
 /
