@@ -396,7 +396,7 @@ MOZ_OVERRIDE
 ;
 virtual
 int
-GetSkipSides
+GetLogicalSkipSides
 (
 const
 nsHTMLReflowState

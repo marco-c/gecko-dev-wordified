@@ -2235,7 +2235,7 @@ int
 nsTableColGroupFrame
 :
 :
-GetSkipSides
+GetLogicalSkipSides
 (
 const
 nsHTMLReflowState
@@ -2265,7 +2265,7 @@ skip
 1
 <
 <
-NS_SIDE_TOP
+LOGICAL_SIDE_B_START
 ;
 }
 if
@@ -2284,7 +2284,7 @@ skip
 1
 <
 <
-NS_SIDE_BOTTOM
+LOGICAL_SIDE_B_END
 ;
 }
 return
