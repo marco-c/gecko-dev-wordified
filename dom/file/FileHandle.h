@@ -465,7 +465,7 @@ mType
 }
 already_AddRefed
 <
-nsIDOMLockedFile
+LockedFile
 >
 Open
 (

@@ -640,7 +640,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMLockedFile
+LockedFile
 >
 FileHandle
 :

@@ -261,7 +261,7 @@ MOZ_OVERRIDE
 /
 /
 WebIDL
-nsIDOMLockedFile
+LockedFile
 *
 GetLockedFile
 (
