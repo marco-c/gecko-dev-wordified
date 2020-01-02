@@ -646,7 +646,7 @@ AppendElement
 NS_LITERAL_CSTRING
 (
 "
-vp8
+h264
 "
 )
 )
@@ -832,7 +832,9 @@ codec
 codecSpecific
 this
 1
-256000
+1024
+*
+1024
 /
 *
 aMaxPayloadSize
@@ -2129,7 +2131,7 @@ AppendElement
 NS_LITERAL_CSTRING
 (
 "
-vp8
+h264
 "
 )
 )
