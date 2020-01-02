@@ -440,11 +440,6 @@ NS_IMPL_RELEASE_INHERITED
 nsScreen
 nsDOMEventTargetHelper
 )
-NS_IMPL_EVENT_HANDLER
-(
-nsScreen
-mozorientationchange
-)
 int32_t
 nsScreen
 :
