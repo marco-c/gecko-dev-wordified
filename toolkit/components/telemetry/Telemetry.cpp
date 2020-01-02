@@ -2468,7 +2468,7 @@ filenameStrLen
 if
 defined
 (
-XP_WIN
+_MSC_VER
 )
 if
 (
