@@ -1107,9 +1107,6 @@ master_key
 srtp_policy_t
 srtp_policy
 ;
-unsigned
-master_key_len
-;
 uint32_t
 roc
 ;
@@ -1173,10 +1170,6 @@ EKT_CIPHER_AES_128_ECB
 )
 return
 err_status_bad_param
-;
-master_key_len
-=
-16
 ;
 /
 *
