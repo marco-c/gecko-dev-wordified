@@ -275,14 +275,6 @@ testComputedViewLink
 ;
 }
 )
-.
-then
-(
-null
-console
-.
-error
-)
 ;
 }
 function

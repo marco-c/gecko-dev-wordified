@@ -309,14 +309,6 @@ testRuleViewLink
 ;
 }
 )
-.
-then
-(
-null
-console
-.
-error
-)
 ;
 }
 function
