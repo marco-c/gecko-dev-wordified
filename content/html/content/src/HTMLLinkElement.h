@@ -548,6 +548,12 @@ aRv
 )
 ;
 }
+nsDOMTokenList
+*
+RelList
+(
+)
+;
 /
 /
 XPCOM
@@ -800,6 +806,12 @@ nsAString
 text
 )
 MOZ_OVERRIDE
+;
+nsRefPtr
+<
+nsDOMTokenList
+>
+mRelList
 ;
 }
 ;
