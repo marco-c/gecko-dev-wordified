@@ -14533,6 +14533,7 @@ IsDirty
 (
 )
 )
+{
 NS_ASSERTION
 (
 line
@@ -14577,6 +14578,7 @@ GetPrevSibling
 (
 )
 ;
+}
 }
 /
 /
