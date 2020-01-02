@@ -16046,7 +16046,7 @@ similar
 and
 both
 use
-nsAutoString
+nsString
 .
 /
 /
@@ -16088,8 +16088,15 @@ val
 .
 p
 =
-new
-nsAutoString
+nsXPConnect
+:
+:
+GetRuntimeInstance
+(
+)
+-
+>
+NewShortLivedString
 (
 )
 ;
