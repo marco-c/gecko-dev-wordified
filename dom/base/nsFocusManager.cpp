@@ -13974,7 +13974,7 @@ use
 caret
 -
 >
-SetCaretDOMSelection
+SetSelection
 (
 domSelection
 )

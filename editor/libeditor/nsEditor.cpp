@@ -28102,7 +28102,7 @@ false
 caret
 -
 >
-SetCaretDOMSelection
+SetSelection
 (
 selection
 )

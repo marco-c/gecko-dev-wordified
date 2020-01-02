@@ -4788,7 +4788,7 @@ return
 caret
 -
 >
-GetCaretDOMSelection
+GetSelection
 (
 )
 ;

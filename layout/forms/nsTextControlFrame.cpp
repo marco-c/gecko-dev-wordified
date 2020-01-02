@@ -3751,7 +3751,7 @@ caretSelection
 caret
 -
 >
-GetCaretDOMSelection
+GetSelection
 (
 )
 ;
@@ -3905,7 +3905,7 @@ selection
 caret
 -
 >
-SetCaretDOMSelection
+SetSelection
 (
 ourSel
 )

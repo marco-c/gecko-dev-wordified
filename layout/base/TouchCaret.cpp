@@ -2252,7 +2252,7 @@ aSel
 caret
 -
 >
-GetCaretDOMSelection
+GetSelection
 (
 )
 )

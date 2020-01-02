@@ -21361,7 +21361,7 @@ selection
 aCaret
 -
 >
-GetCaretDOMSelection
+GetSelection
 (
 )
 ;
