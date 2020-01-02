@@ -4443,7 +4443,9 @@ Conditions
 :
 "
 +
-safeGetState
+JSON
+.
+stringify
 (
 this
 .
