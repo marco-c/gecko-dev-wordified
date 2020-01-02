@@ -3785,7 +3785,7 @@ PseudoElementContainsElements
 topWithPseudoElementData
 -
 >
-GetPseudo
+GetPseudoType
 (
 )
 )
