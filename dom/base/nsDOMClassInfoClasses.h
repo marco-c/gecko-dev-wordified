@@ -145,10 +145,6 @@ DOMCI_CLASS
 (
 CSSNameSpaceRule
 )
-DOMCI_CLASS
-(
-CSSStyleSheet
-)
 /
 /
 XUL
@@ -226,15 +222,6 @@ CSSMozDocumentRule
 DOMCI_CLASS
 (
 CSSSupportsRule
-)
-/
-/
-other
-SVG
-classes
-DOMCI_CLASS
-(
-SVGNumber
 )
 /
 /
