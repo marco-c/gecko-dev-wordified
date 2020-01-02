@@ -1530,6 +1530,10 @@ EXTRA_COMPONENTS
 '
             
 '
+EXTRA_DSO_LDOPTS
+'
+            
+'
 EXTRA_JS_MODULES
 '
             
