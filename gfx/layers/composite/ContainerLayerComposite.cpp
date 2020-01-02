@@ -2921,6 +2921,9 @@ previousTarget
 ;
 EffectChain
 effectChain
+(
+aContainer
+)
 ;
 LayerManagerComposite
 :

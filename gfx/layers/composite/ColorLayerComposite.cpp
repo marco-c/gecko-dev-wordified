@@ -288,6 +288,9 @@ aClipRect
 {
 EffectChain
 effects
+(
+this
+)
 ;
 gfxRGBA
 color

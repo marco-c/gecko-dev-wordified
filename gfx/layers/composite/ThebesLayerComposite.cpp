@@ -783,6 +783,9 @@ surf
 endif
 EffectChain
 effectChain
+(
+this
+)
 ;
 LayerManagerComposite
 :
