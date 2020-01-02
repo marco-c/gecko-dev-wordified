@@ -3647,7 +3647,7 @@ document
 .
 documentElement
 .
-mozMatchesSelector
+matches
 (
 "
 :

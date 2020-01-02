@@ -3043,12 +3043,12 @@ if
 (
 nextContainer
 .
-mozMatchesSelector
+matches
 &
 &
 nextContainer
 .
-mozMatchesSelector
+matches
 (
 PHONE_NUMBER_CONTAINERS
 )

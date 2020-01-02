@@ -29704,7 +29704,7 @@ _panel
 .
 firstChild
 .
-mozMatchesSelector
+matches
 (
 "
 :

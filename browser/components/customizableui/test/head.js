@@ -3457,7 +3457,7 @@ ok
 (
 menuitem
 .
-mozMatchesSelector
+matches
 (
 selector
 )

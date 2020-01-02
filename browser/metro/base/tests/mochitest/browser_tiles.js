@@ -5644,7 +5644,7 @@ ok
 !
 firstItem
 .
-mozMatchesSelector
+matches
 (
 "
 richgriditem
