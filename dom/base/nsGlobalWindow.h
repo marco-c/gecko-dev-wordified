@@ -7866,6 +7866,10 @@ Returns
 device
 pixels
 .
+Outer
+windows
+only
+.
 nsIntPoint
 GetScreenXY
 (
