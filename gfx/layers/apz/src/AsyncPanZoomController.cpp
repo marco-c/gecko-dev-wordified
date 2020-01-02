@@ -13981,6 +13981,13 @@ GetCurrentAsyncTransform
 (
 )
 ;
+if
+(
+IsOverscrolled
+(
+)
+)
+{
 /
 /
 GetCurrentAsyncTransform
@@ -14010,6 +14017,7 @@ ApplyOverscrollEffect
 aNewTransform
 )
 ;
+}
 LogRendertraceRect
 (
 GetGuid
