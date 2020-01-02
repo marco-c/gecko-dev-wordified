@@ -206,6 +206,8 @@ CheckResponsivenessTask
 )
 ;
 }
+protected
+:
 ~
 CheckResponsivenessTask
 (
@@ -217,6 +219,8 @@ CheckResponsivenessTask
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (
