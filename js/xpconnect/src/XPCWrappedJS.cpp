@@ -2326,6 +2326,15 @@ if
 root
 )
 {
+NS_ADDREF
+(
+root
+)
+;
+release_root
+=
+true
+;
 wrapper
 =
 root
@@ -2350,6 +2359,11 @@ wrapper
 wrapperResult
 =
 wrapper
+;
+NS_RELEASE
+(
+root
+)
 ;
 return
 NS_OK
