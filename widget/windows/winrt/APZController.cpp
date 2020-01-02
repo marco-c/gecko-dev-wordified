@@ -1400,6 +1400,13 @@ true
 aOutConstraints
 -
 >
+mAllowDoubleTapZoom
+=
+false
+;
+aOutConstraints
+-
+>
 mMinZoom
 =
 CSSToScreenScale

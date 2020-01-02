@@ -2252,6 +2252,7 @@ UpdateZoomConstraints
 ZoomConstraints
 (
 true
+true
 CSSToScreenScale
 (
 0
@@ -2993,6 +2994,7 @@ UpdateZoomConstraints
 (
 ZoomConstraints
 (
+true
 true
 CSSToScreenScale
 (
@@ -5094,6 +5096,7 @@ UpdateZoomConstraints
 ZoomConstraints
 (
 false
+false
 CSSToScreenScale
 (
 1
@@ -5289,6 +5292,7 @@ UpdateZoomConstraints
 ZoomConstraints
 (
 false
+false
 CSSToScreenScale
 (
 1
@@ -5483,6 +5487,7 @@ UpdateZoomConstraints
 (
 ZoomConstraints
 (
+false
 false
 CSSToScreenScale
 (
@@ -5936,6 +5941,7 @@ UpdateZoomConstraints
 (
 ZoomConstraints
 (
+false
 false
 CSSToScreenScale
 (

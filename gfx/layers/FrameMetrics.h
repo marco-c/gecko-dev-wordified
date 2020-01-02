@@ -2931,6 +2931,9 @@ ZoomConstraints
 bool
 mAllowZoom
 ;
+bool
+mAllowDoubleTapZoom
+;
 CSSToScreenScale
 mMinZoom
 ;
@@ -2945,6 +2948,10 @@ mAllowZoom
 (
 true
 )
+mAllowDoubleTapZoom
+(
+true
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -2956,6 +2963,8 @@ ZoomConstraints
 (
 bool
 aAllowZoom
+bool
+aAllowDoubleTapZoom
 const
 CSSToScreenScale
 &
@@ -2969,6 +2978,10 @@ aMaxZoom
 mAllowZoom
 (
 aAllowZoom
+)
+mAllowDoubleTapZoom
+(
+aAllowDoubleTapZoom
 )
 mMinZoom
 (
@@ -3015,6 +3028,14 @@ mAllowZoom
 other
 .
 mAllowZoom
+&
+&
+mAllowDoubleTapZoom
+=
+=
+other
+.
+mAllowDoubleTapZoom
 &
 &
 mMinZoom
