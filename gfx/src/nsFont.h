@@ -437,7 +437,7 @@ generic
 font
 family
 .
-uint8_t
+bool
 systemFont
 ;
 /
