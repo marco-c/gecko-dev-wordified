@@ -135,6 +135,13 @@ h
 #
 include
 "
+gfxImageSurface
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Base64
