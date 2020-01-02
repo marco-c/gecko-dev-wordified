@@ -12430,7 +12430,7 @@ nsIntPoint
 aRefPoint
 )
 {
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 mozGesture
 (
 true

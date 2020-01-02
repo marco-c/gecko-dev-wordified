@@ -7325,7 +7325,7 @@ uint64_t
 time
 )
 {
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 event
 (
 true

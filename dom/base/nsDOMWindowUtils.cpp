@@ -6329,7 +6329,7 @@ else
 return
 NS_ERROR_FAILURE
 ;
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 event
 (
 true

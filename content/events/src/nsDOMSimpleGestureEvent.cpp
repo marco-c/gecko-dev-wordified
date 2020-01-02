@@ -116,6 +116,10 @@ TouchEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsDOMSimpleGestureEvent
 :
 :
@@ -133,7 +137,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 *
 aEvent
 )
@@ -147,7 +151,7 @@ aEvent
 aEvent
 :
 new
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 (
 false
 0
@@ -251,7 +255,7 @@ mEventIsInternal
 delete
 static_cast
 <
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 *
 >
 (
@@ -316,7 +320,7 @@ aAllowedDirections
 =
 static_cast
 <
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 *
 >
 (
@@ -342,7 +346,7 @@ aAllowedDirections
 {
 static_cast
 <
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 *
 >
 (
@@ -549,13 +553,13 @@ rv
 rv
 )
 ;
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 *
 simpleGestureEvent
 =
 static_cast
 <
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 *
 >
 (
@@ -613,7 +617,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 *
 aEvent
 )

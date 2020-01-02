@@ -41292,7 +41292,7 @@ simple
 gesture
 events
 :
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 event
 (
 true
