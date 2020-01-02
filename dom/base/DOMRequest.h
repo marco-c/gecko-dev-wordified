@@ -149,6 +149,17 @@ mozilla
 /
 dom
 /
+DOMError
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DOMRequestBinding
 .
 h
@@ -188,9 +199,9 @@ Value
 >
 mResult
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsISupports
+DOMError
 >
 mError
 ;
@@ -297,7 +308,7 @@ return
 mResult
 ;
 }
-nsISupports
+DOMError
 *
 GetError
 (
@@ -368,7 +379,7 @@ aError
 void
 FireDetailedError
 (
-nsISupports
+DOMError
 *
 aError
 )
