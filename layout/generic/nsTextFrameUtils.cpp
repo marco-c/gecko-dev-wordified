@@ -277,7 +277,7 @@ aCompression
 uint8_t
 *
 aIncomingFlags
-gfxSkipCharsBuilder
+gfxSkipChars
 *
 aSkipChars
 uint32_t
@@ -842,7 +842,7 @@ aCompression
 uint8_t
 *
 aIncomingFlags
-gfxSkipCharsBuilder
+gfxSkipChars
 *
 aSkipChars
 uint32_t
