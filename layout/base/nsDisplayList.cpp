@@ -22761,9 +22761,6 @@ mFrame
 nullptr
 )
 ;
-#
-ifndef
-MOZ_WIDGET_ANDROID
 /
 /
 If
@@ -22809,10 +22806,10 @@ it
 if
 (
 !
-gfxPrefs
+nsLayoutUtils
 :
 :
-AsyncPanZoomEnabled
+UsesAsyncScrolling
 (
 )
 )
@@ -22851,8 +22848,6 @@ removed
 )
 ;
 }
-#
-endif
 return
 visible
 ;
@@ -24432,9 +24427,6 @@ mScrollFrame
 nullptr
 )
 ;
-#
-ifndef
-MOZ_WIDGET_ANDROID
 /
 /
 If
@@ -24480,10 +24472,10 @@ it
 if
 (
 !
-gfxPrefs
+nsLayoutUtils
 :
 :
-AsyncPanZoomEnabled
+UsesAsyncScrolling
 (
 )
 )
@@ -24522,8 +24514,6 @@ removed
 )
 ;
 }
-#
-endif
 return
 visible
 ;

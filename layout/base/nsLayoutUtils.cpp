@@ -5732,10 +5732,10 @@ DisplayPortMarginsPropertyData
 ;
 if
 (
-gfxPrefs
+nsLayoutUtils
 :
 :
-AsyncPanZoomEnabled
+UsesAsyncScrolling
 (
 )
 )
