@@ -13260,7 +13260,7 @@ IsFloatNaN
 (
 aConstraints
 .
-mMinZoom
+mMaxZoom
 .
 scale
 )
