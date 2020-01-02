@@ -20042,6 +20042,16 @@ nsDisplayTransform
 public
 nsDisplayItem
 {
+typedef
+mozilla
+:
+:
+gfx
+:
+:
+Matrix4x4
+Matrix4x4
+;
 public
 :
 /
@@ -20102,7 +20112,7 @@ unit
 *
 /
 typedef
-gfx3DMatrix
+Matrix4x4
 (
 *
 ComputeTransformFunction
@@ -20577,7 +20587,7 @@ TYPE_BITS
 }
 ;
 const
-gfx3DMatrix
+Matrix4x4
 &
 GetTransform
 (
@@ -21482,7 +21492,7 @@ aOffsetByOrigin
 nsDisplayWrapList
 mStoredList
 ;
-gfx3DMatrix
+Matrix4x4
 mTransform
 ;
 ComputeTransformFunction
