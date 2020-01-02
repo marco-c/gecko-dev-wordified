@@ -1276,7 +1276,7 @@ NS_ENSURE_TRUE
 res
 >
 0
-NS_OK
+false
 )
 ;
 switch
