@@ -8367,6 +8367,17 @@ IsNonTransparentColor
 )
 const
 ;
+void
+AppendToString
+(
+nsCSSUnit
+aUnit
+nsAString
+&
+aResult
+)
+const
+;
 size_t
 SizeOfIncludingThis
 (
