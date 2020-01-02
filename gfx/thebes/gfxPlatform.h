@@ -4397,6 +4397,12 @@ nsIObserver
 >
 mOrientationSyncPrefsObserver
 ;
+nsCOMPtr
+<
+nsIObserver
+>
+mMemoryPressureObserver
+;
 /
 /
 The

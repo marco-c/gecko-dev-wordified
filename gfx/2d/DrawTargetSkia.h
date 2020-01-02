@@ -730,6 +730,11 @@ int
 aSizeInBytes
 )
 ;
+void
+PurgeCache
+(
+)
+;
 static
 void
 SetGlobalCacheLimits
@@ -743,6 +748,12 @@ aSizeInBytes
 static
 void
 RebalanceCacheLimits
+(
+)
+;
+static
+void
+PurgeTextureCaches
 (
 )
 ;

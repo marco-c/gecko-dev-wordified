@@ -6006,6 +6006,12 @@ aSizeInBytes
 ;
 #
 endif
+static
+void
+PurgeTextureCaches
+(
+)
+;
 #
 if
 defined
