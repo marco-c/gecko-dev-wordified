@@ -7417,6 +7417,12 @@ defined
 (
 __powerpc64__
 )
+|
+|
+defined
+(
+__aarch64__
+)
 #
 define
 pagesize_2pow
