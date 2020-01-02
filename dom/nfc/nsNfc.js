@@ -1720,6 +1720,7 @@ _wrap
 (
 detail
 )
+)
 ;
 this
 .
