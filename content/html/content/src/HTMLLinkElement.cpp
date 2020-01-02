@@ -1485,6 +1485,9 @@ nsStyleLinkElement
 ParseLinkTypes
 (
 rel
+NodePrincipal
+(
+)
 )
 ;
 if
@@ -1535,6 +1538,9 @@ nsStyleLinkElement
 :
 IsImportEnabled
 (
+NodePrincipal
+(
+)
 )
 )
 {
@@ -1860,6 +1866,9 @@ nsStyleLinkElement
 ParseLinkTypes
 (
 aValue
+NodePrincipal
+(
+)
 )
 ;
 if
@@ -2484,6 +2493,9 @@ nsStyleLinkElement
 ParseLinkTypes
 (
 rel
+NodePrincipal
+(
+)
 )
 ;
 /

@@ -3769,6 +3769,12 @@ nsStyleLinkElement
 ParseLinkTypes
 (
 aRel
+mDocument
+-
+>
+NodePrincipal
+(
+)
 )
 ;
 /

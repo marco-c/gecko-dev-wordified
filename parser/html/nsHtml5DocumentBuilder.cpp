@@ -504,6 +504,12 @@ nsStyleLinkElement
 ParseLinkTypes
 (
 relVal
+aElement
+-
+>
+NodePrincipal
+(
+)
 )
 ;
 bool
