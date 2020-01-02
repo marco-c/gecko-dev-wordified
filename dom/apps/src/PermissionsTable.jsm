@@ -887,6 +887,16 @@ indexedDB
 unlimited
 "
 "
+offline
+-
+app
+"
+"
+pin
+-
+app
+"
+"
 default
 -
 persistent
