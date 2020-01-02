@@ -1865,7 +1865,7 @@ untrusted
 event
 .
 }
-uint16_t
+int16_t
 button
 ;
 rv

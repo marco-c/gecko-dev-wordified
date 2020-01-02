@@ -11385,7 +11385,7 @@ seeing
 this
 event
 .
-uint16_t
+int16_t
 button
 ;
 mouseEvent

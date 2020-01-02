@@ -3693,12 +3693,9 @@ ForceCompositionEnd
 (
 )
 ;
-uint16_t
+int16_t
 button
 =
-(
-uint16_t
-)
 -
 1
 ;

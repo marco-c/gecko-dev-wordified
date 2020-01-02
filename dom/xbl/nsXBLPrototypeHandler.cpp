@@ -3985,7 +3985,7 @@ It
 s
 generic
 .
-uint16_t
+int16_t
 button
 ;
 aMouseEvent

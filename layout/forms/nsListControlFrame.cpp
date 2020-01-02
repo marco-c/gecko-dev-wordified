@@ -10070,7 +10070,7 @@ if
 mouseEvent
 )
 {
-uint16_t
+int16_t
 whichButton
 ;
 if

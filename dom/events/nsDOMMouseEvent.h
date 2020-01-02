@@ -277,7 +277,7 @@ MetaKey
 (
 )
 ;
-uint16_t
+int16_t
 Button
 (
 )
@@ -572,7 +572,7 @@ int32_t
 aClientX
 int32_t
 aClientY
-uint16_t
+int16_t
 aButton
 nsIDOMEventTarget
 *
