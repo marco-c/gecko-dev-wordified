@@ -52488,6 +52488,22 @@ tag
         
 if
 tag
+=
+=
+IDLType
+.
+Tags
+.
+bool
+:
+            
+return
+"
+JSVAL_TYPE_BOOLEAN
+"
+        
+if
+tag
 in
 [
 IDLType
@@ -52517,11 +52533,6 @@ IDLType
 Tags
 .
 int32
-IDLType
-.
-Tags
-.
-bool
 ]
 :
             
