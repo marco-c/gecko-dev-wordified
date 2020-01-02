@@ -5480,6 +5480,7 @@ newSameCompartmentWrapper
 ;
 MOZ_ASSERT
 (
+!
 js
 :
 :
