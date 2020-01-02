@@ -11763,6 +11763,17 @@ aForce
 false
 )
 {
+if
+(
+IsDestroyed
+(
+)
+)
+{
+return
+false
+;
+}
 #
 ifdef
 DEBUG
@@ -12467,8 +12478,6 @@ TextureImage
 >
 CreateDirectTextureImage
 (
-:
-:
 android
 :
 :
