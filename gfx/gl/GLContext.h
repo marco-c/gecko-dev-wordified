@@ -293,6 +293,12 @@ h
 class
 nsIntRegion
 ;
+class
+nsIRunnable
+;
+class
+nsIThread
+;
 namespace
 android
 {
