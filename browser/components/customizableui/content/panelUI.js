@@ -2866,9 +2866,3 @@ promise
 }
 }
 ;
-PanelUI
-.
-init
-(
-)
-;

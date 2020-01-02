@@ -7627,6 +7627,12 @@ init
 (
 )
 ;
+PanelUI
+.
+init
+(
+)
+;
 LightweightThemeListener
 .
 init
