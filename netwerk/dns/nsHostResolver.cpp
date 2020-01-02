@@ -6324,7 +6324,7 @@ __stdcall
 DnsQueryFunc
 )
 (
-PCTSTR
+LPCSTR
 lpstrName
 WORD
 wType
@@ -6332,7 +6332,7 @@ DWORD
 Options
 PVOID
 pExtra
-PDNS_RECORD
+PDNS_RECORDA
 *
 ppQueryResultsSet
 PVOID
@@ -7148,7 +7148,7 @@ srvStatus
 DNS_RCODE_NOERROR
 )
 {
-DNS_SRV_DATA
+DNS_SRV_DATAA
 *
 srvData
 =
