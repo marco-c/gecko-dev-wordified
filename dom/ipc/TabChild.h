@@ -982,6 +982,10 @@ expensive
 bool
 HandlePossibleViewportChange
 (
+const
+ScreenIntSize
+&
+aOldScreenSize
 )
 ;
 virtual
