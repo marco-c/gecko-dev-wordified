@@ -224,8 +224,6 @@ is
 (
 call
 .
-id
-.
 number
 number
 )
@@ -395,8 +393,6 @@ accept
 "
 +
 call
-.
-id
 .
 number
 )
