@@ -683,6 +683,8 @@ gfx
 :
 SurfaceFormat
 aFormat
+TextureFlags
+aFlags
 )
 {
 return
@@ -695,6 +697,8 @@ aFormat
 mTextureInfo
 .
 mTextureFlags
+|
+aFlags
 )
 ;
 }
