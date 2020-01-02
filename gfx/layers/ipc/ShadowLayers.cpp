@@ -508,7 +508,7 @@ namespace
 layers
 {
 class
-BasicTiledLayerBuffer
+ClientTiledLayerBuffer
 ;
 typedef
 nsTArray
@@ -1112,17 +1112,6 @@ aIdentifier
 mTextureFactoryIdentifier
 =
 aIdentifier
-;
-mMultiProcess
-=
-aIdentifier
-.
-mParentProcessId
-!
-=
-XRE_GetProcessType
-(
-)
 ;
 }
 ShadowLayerForwarder
@@ -1859,7 +1848,7 @@ void
 ShadowLayerForwarder
 :
 :
-PaintedTiledLayerBuffer
+UseTiledLayerBuffer
 (
 CompositableClient
 *
@@ -1875,7 +1864,7 @@ mTxn
 >
 AddNoSwapPaint
 (
-OpPaintTiledLayerBuffer
+OpUseTiledLayerBuffer
 (
 nullptr
 aCompositable

@@ -422,6 +422,14 @@ aShmem
 ;
 }
 virtual
+LayersBackend
+GetCompositorBackendType
+(
+)
+const
+MOZ_OVERRIDE
+;
+virtual
 bool
 IsSameProcess
 (

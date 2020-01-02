@@ -266,7 +266,7 @@ namespace
 layers
 {
 class
-BasicTiledLayerBuffer
+ClientTiledLayerBuffer
 ;
 class
 ImageClient
@@ -1700,7 +1700,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-PaintedTiledLayerBuffer
+UseTiledLayerBuffer
 (
 CompositableClient
 *

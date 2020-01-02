@@ -8098,7 +8098,7 @@ symbols
 stepContains
 (
 '
-BasicTiledLayerBuffer
+ClientTiledLayerBuffer
 :
 :
 PaintThebesSingleBufferDraw
