@@ -33,7 +33,7 @@ make_outgoing_tables
 .
 py
 <
-huff_outgoing
+http2_huffman_table
 .
 txt
 >
@@ -131,12 +131,12 @@ struct
 HuffmanOutgoingEntry
 {
   
-uint8_t
-mLength
-;
-  
 uint32_t
 mValue
+;
+  
+uint8_t
+mLength
 ;
 }
 ;
@@ -281,11 +281,11 @@ write
 (
 '
 {
-%
-s
 0x
 %
 08x
+%
+s
 }
 '
 %
@@ -294,13 +294,13 @@ s
 e
 [
 '
-length
+value
 '
 ]
 e
 [
 '
-value
+length
 '
 ]
 )
