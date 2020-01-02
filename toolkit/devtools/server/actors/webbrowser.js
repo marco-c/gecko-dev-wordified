@@ -7356,6 +7356,13 @@ url
 this
 .
 url
+debuggable
+:
+this
+.
+_addon
+.
+isDebuggable
 }
 ;
 }
