@@ -2600,10 +2600,6 @@ False
 files_per_unified_file
 =
 files_per_unification
-                            
-unified_checks
-=
-True
 )
                         
 backend_file
@@ -4532,10 +4528,6 @@ poison_windows_h
 =
 False
                                  
-unified_checks
-=
-False
-                                 
 files_per_unified_file
 =
 16
@@ -5066,20 +5058,16 @@ endif
 "
 )
                 
-if
-unified_checks
-:
-                    
 includeTemplate
 +
 =
 (
-                        
+                    
 '
 \
 n
 '
-                        
+                    
 '
 #
 ifdef
@@ -5087,7 +5075,7 @@ PL_ARENA_CONST_ALIGN_MASK
 \
 n
 '
-                        
+                    
 '
 #
 error
@@ -5100,7 +5088,7 @@ s
 uses
 PL_ARENA_CONST_ALIGN_MASK
 '
-                        
+                    
 '
 so
 it
@@ -5115,7 +5103,7 @@ mode
 \
 n
 '
-                        
+                    
 '
 #
 undef
@@ -5123,14 +5111,14 @@ PL_ARENA_CONST_ALIGN_MASK
 \
 n
 '
-                        
+                    
 '
 #
 endif
 \
 n
 '
-                        
+                    
 '
 #
 ifdef
@@ -5138,7 +5126,7 @@ FORCE_PR_LOG
 \
 n
 '
-                        
+                    
 '
 #
 error
@@ -5152,7 +5140,7 @@ forces
 NSPR
 logging
 '
-                        
+                    
 '
 so
 it
@@ -5167,7 +5155,7 @@ mode
 \
 n
 '
-                        
+                    
 '
 #
 undef
@@ -5175,7 +5163,7 @@ FORCE_PR_LOG
 \
 n
 '
-                        
+                    
 '
 #
 endif
