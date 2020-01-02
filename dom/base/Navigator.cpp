@@ -4133,13 +4133,6 @@ pattern
 .
 if
 (
-pattern
-.
-IsEmpty
-(
-)
-|
-|
 !
 sVibratorEnabled
 )
