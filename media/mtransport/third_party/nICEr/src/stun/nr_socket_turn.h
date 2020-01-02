@@ -253,6 +253,13 @@ _nr_socket_turn_h
 #
 define
 _nr_socket_turn_h
+#
+include
+"
+nr_socket
+.
+h
+"
 /
 *
 This

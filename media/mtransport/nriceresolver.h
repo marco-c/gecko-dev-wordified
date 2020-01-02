@@ -618,6 +618,8 @@ thread
 uint16_t
 port
 int
+transport
+int
 (
 *
 cb
@@ -642,6 +644,10 @@ thread
 port_
 (
 port
+)
+transport_
+(
+transport
 )
 cb_
 (
@@ -700,6 +706,9 @@ thread_
 ;
 uint16_t
 port_
+;
+int
+transport_
 ;
 int
 (

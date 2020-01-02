@@ -128,6 +128,11 @@ define
 mtransport_test_utils_h__
 #
 include
+<
+iostream
+>
+#
+include
 "
 nspr
 .

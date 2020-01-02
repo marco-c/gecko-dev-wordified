@@ -632,6 +632,8 @@ hostname
 uint16_t
 port
 int
+transport
+int
 (
 *
 cb
@@ -661,6 +663,10 @@ port_
 (
 port
 )
+transport_
+(
+transport
+)
 cb_
 (
 cb
@@ -683,6 +689,9 @@ hostname_
 ;
 uint16_t
 port_
+;
+int
+transport_
 ;
 int
 (
