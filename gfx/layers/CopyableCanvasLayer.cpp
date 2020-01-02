@@ -905,7 +905,6 @@ gfxUtils
 PremultiplyDataSurface
 (
 data
-data
 )
 ;
 }
@@ -1024,7 +1023,6 @@ gfxUtils
 :
 PremultiplyDataSurface
 (
-data
 data
 )
 ;
