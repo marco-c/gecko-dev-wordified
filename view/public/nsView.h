@@ -2751,13 +2751,6 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-DidCompositeWindow
-(
-)
-MOZ_OVERRIDE
-;
-virtual
-void
 RequestRepaint
 (
 )

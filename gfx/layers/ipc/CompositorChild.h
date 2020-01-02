@@ -411,17 +411,6 @@ RecvInvalidateAll
 )
 MOZ_OVERRIDE
 ;
-virtual
-bool
-RecvDidComposite
-(
-const
-uint64_t
-&
-aId
-)
-MOZ_OVERRIDE
-;
 protected
 :
 virtual
