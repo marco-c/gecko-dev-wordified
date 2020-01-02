@@ -1522,6 +1522,14 @@ this
 .
 editor
 .
+clearHistory
+(
+)
+;
+this
+.
+editor
+.
 setClean
 (
 )
