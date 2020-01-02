@@ -1191,7 +1191,7 @@ IsLeftClickEvent
 )
 )
 {
-nsUIEvent
+InternalUIEvent
 actEvent
 (
 aVisitor

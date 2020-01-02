@@ -17624,7 +17624,7 @@ originalTarget
 )
 )
 {
-nsUIEvent
+InternalUIEvent
 actEvent
 (
 aVisitor
