@@ -367,6 +367,8 @@ int64_t
 aDuration
 )
 {
+/
+/
 mParentDecoder
 -
 >
@@ -386,6 +388,8 @@ bool
 aMediaSeekable
 )
 {
+/
+/
 mParentDecoder
 -
 >
@@ -405,6 +409,8 @@ bool
 aTransportSeekable
 )
 {
+/
+/
 mParentDecoder
 -
 >
