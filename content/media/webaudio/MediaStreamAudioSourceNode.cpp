@@ -298,7 +298,14 @@ mInputStream
 >
 AddConsumerToKeepAlive
 (
+static_cast
+<
+nsIDOMEventTarget
+*
+>
+(
 this
+)
 )
 ;
 PrincipalChanged

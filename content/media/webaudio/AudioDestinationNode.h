@@ -157,13 +157,6 @@ AudioChannelCommon
 .
 h
 "
-#
-include
-"
-nsWeakReference
-.
-h
-"
 namespace
 mozilla
 {
@@ -182,8 +175,6 @@ public
 nsIDOMEventListener
 public
 nsIAudioChannelAgentCallback
-public
-nsSupportsWeakReference
 public
 MainThreadMediaStreamListener
 {
