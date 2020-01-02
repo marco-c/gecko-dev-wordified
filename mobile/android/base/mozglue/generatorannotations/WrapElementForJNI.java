@@ -64,6 +64,8 @@ mozilla
 gecko
 .
 mozglue
+.
+generatorannotations
 ;
 import
 java
@@ -251,7 +253,7 @@ RUNTIME
 )
 public
 interface
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 {
 /
 /
