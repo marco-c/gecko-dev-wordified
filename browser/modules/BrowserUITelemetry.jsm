@@ -710,6 +710,11 @@ getElementById
 areaID
 )
 ;
+if
+(
+areaNode
+)
+{
 (
 areaNode
 .
@@ -727,6 +732,7 @@ mouseup
 this
 )
 ;
+}
 }
 }
 _unregisterWindow
@@ -773,6 +779,11 @@ getElementById
 areaID
 )
 ;
+if
+(
+areaNode
+)
+{
 (
 areaNode
 .
@@ -790,6 +801,7 @@ mouseup
 this
 )
 ;
+}
 }
 }
 handleEvent
