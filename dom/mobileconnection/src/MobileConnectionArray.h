@@ -224,11 +224,6 @@ Init
 (
 )
 ;
-void
-DropConnections
-(
-)
-;
 bool
 mInitialized
 ;
