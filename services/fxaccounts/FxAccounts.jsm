@@ -1222,6 +1222,7 @@ defer
 (
 )
 ;
+return
 this
 .
 fetchAndUnwrapKeys
