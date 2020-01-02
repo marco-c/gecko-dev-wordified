@@ -17181,6 +17181,15 @@ geckoConnected
 (
 )
 ;
+mLayerView
+.
+setOverScrollMode
+(
+View
+.
+OVER_SCROLL_NEVER
+)
+;
 }
 public
 void
