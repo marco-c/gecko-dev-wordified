@@ -758,6 +758,9 @@ GTEST_SOURCES
 '
 HOST_SOURCES
 '
+'
+UNIFIED_SOURCES
+'
 )
 :
             
@@ -1256,6 +1259,36 @@ GTEST_SOURCES
 .
 c
 '
+)
+            
+UNIFIED_CSRCS
+=
+(
+'
+UNIFIED_SOURCES
+'
+'
+.
+c
+'
+)
+            
+UNIFIED_CPPSRCS
+=
+(
+'
+UNIFIED_SOURCES
+'
+(
+'
+.
+cc
+'
+'
+.
+cpp
+'
+)
 )
         
 )
