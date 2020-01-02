@@ -483,10 +483,11 @@ frame
 .
 (
 They
-contain
-an
-AutoArrayRooter
+are
+derived
+from
 *
+CustomAutoRooter
 and
 those
 must
@@ -499,6 +500,7 @@ a
 stack
 -
 like
+*
 order
 .
 )

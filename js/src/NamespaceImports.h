@@ -259,9 +259,6 @@ AutoIdArray
 class
 AutoGCRooter
 ;
-class
-AutoArrayRooter
-;
 template
 <
 typename
@@ -453,12 +450,6 @@ JS
 :
 :
 AutoGCRooter
-;
-using
-JS
-:
-:
-AutoArrayRooter
 ;
 using
 JS
