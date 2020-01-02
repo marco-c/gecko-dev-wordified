@@ -159,6 +159,9 @@ jsm
 "
 )
 ;
+#
+ifdef
+MOZ_ANDROID_SYNTHAPKS
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -182,6 +185,8 @@ jsm
 "
 )
 ;
+#
+endif
 const
 DEFAULT_ICON
 =
@@ -396,6 +401,9 @@ ex
 {
 }
 }
+#
+ifdef
+MOZ_ANDROID_SYNTHAPKS
 function
 checkForUpdates
 (
@@ -410,6 +418,8 @@ true
 )
 ;
 }
+#
+endif
 #
 ifndef
 MOZ_ANDROID_SYNTHAPKS
@@ -719,6 +729,9 @@ false
 )
 ;
 }
+#
+ifdef
+MOZ_ANDROID_SYNTHAPKS
 document
 .
 getElementById
@@ -739,6 +752,8 @@ checkForUpdates
 false
 )
 ;
+#
+endif
 navigator
 .
 mozApps
