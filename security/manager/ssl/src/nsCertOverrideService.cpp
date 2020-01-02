@@ -117,6 +117,13 @@ h
 #
 include
 "
+NSSCertDBTrustDomain
+.
+h
+"
+#
+include
+"
 nsNSSCertificate
 .
 h
@@ -2568,10 +2575,7 @@ char
 *
 nickname
 =
-nsNSSCertificate
-:
-:
-defaultServerNickname
+DefaultServerNicknameForCert
 (
 nsscert
 .
