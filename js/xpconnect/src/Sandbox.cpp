@@ -2990,6 +2990,7 @@ above
 .
 *
 /
+const
 xpc
 :
 :
@@ -3617,6 +3618,7 @@ rval
 )
 ;
 }
+const
 xpc
 :
 :
