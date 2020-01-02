@@ -226,7 +226,6 @@ nullptr
 )
 {
 }
-;
 bool
 init
 (
@@ -247,7 +246,6 @@ ptr
 nullptr
 ;
 }
-;
 void
 destroy
 (

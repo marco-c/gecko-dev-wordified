@@ -8042,7 +8042,6 @@ return
 0
 ;
 }
-;
 static
 void
 operator
@@ -8054,7 +8053,6 @@ size_t
 )
 {
 }
-;
 #
 endif
 }
@@ -15047,7 +15045,6 @@ mode_
 ForceTrue
 ;
 }
-;
 void
 set
 (
@@ -15064,7 +15061,6 @@ ForceTrue
 ForceFalse
 ;
 }
-;
 void
 reset
 (
@@ -15522,7 +15518,6 @@ return
 singletonsAsTemplates_
 ;
 }
-;
 /
 /
 A

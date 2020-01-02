@@ -6285,7 +6285,6 @@ key
 JSProto_Null
 ;
 }
-;
 bool
 isSentinel
 (
@@ -6299,7 +6298,6 @@ key
 JSProto_LIMIT
 ;
 }
-;
 }
 JSStdName
 ;

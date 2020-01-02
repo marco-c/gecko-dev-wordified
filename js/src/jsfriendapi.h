@@ -7638,7 +7638,6 @@ false
 )
 {
 }
-;
 ~
 AutoStableStringChars
 (
@@ -14719,7 +14718,6 @@ cx
 )
 {
 }
-;
 #
 endif
 enum

@@ -433,7 +433,6 @@ offset
 INT_MIN
 ;
 }
-;
 }
 ;
 template
@@ -1820,7 +1819,6 @@ cur
 )
 ;
 }
-;
 Inst
 *
 cur

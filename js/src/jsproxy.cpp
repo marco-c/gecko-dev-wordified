@@ -12077,7 +12077,6 @@ ToBoolean
 trapResult
 )
 ;
-;
 /
 /
 step
