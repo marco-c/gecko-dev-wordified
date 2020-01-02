@@ -827,7 +827,6 @@ event
 (
 true
 mMsg
-mDetail
 )
 ;
 event
@@ -835,6 +834,12 @@ event
 eventStructType
 =
 NS_SMIL_TIME_EVENT
+;
+event
+.
+detail
+=
+mDetail
 ;
 nsPresContext
 *

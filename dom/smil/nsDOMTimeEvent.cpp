@@ -162,7 +162,6 @@ InternalUIEvent
 (
 false
 0
-0
 )
 )
 mDetail

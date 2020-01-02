@@ -13413,8 +13413,13 @@ mFlags
 .
 mIsTrusted
 NS_UI_ACTIVATE
-1
 )
+;
+actEvent
+.
+detail
+=
+1
 ;
 rv
 =

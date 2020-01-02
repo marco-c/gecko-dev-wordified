@@ -1960,7 +1960,6 @@ InternalUIEvent
 aIsTrusted
 aMessage
 NS_FOCUS_EVENT
-0
 )
 fromRaise
 (
