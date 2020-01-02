@@ -537,6 +537,13 @@ dstLen
 0
 '
 ;
+JSAutoCompartment
+ac
+(
+aCx
+aObj
+)
+;
 outView
 =
 Uint8Array
@@ -545,7 +552,6 @@ Uint8Array
 Create
 (
 aCx
-aObj
 dstLen
 reinterpret_cast
 <
