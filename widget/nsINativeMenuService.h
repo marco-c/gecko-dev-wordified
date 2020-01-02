@@ -153,6 +153,10 @@ nsISupports
 {
 public
 :
+NS_DECLARE_STATIC_IID_ACCESSOR
+(
+NS_INATIVEMENUSERVICE_IID
+)
 /
 /
 Given
@@ -204,6 +208,11 @@ aMenuBarNode
 ;
 }
 ;
+NS_DEFINE_STATIC_IID_ACCESSOR
+(
+nsINativeMenuService
+NS_INATIVEMENUSERVICE_IID
+)
 #
 endif
 /

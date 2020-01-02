@@ -954,6 +954,11 @@ sLengthInfo
 ;
 }
 ;
+NS_DEFINE_STATIC_IID_ACCESSOR
+(
+nsSVGFE
+NS_SVG_FE_CID
+)
 typedef
 nsSVGElement
 SVGFEUnstyledElementBase

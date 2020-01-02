@@ -154,11 +154,6 @@ mozilla
 :
 dom
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-IDBVersionChangeEvent
-IDBVERSIONCHANGEEVENT_IID
-)
 namespace
 {
 class

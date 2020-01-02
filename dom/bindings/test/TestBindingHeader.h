@@ -339,6 +339,11 @@ GetParentObject
 ;
 }
 ;
+NS_DEFINE_STATIC_IID_ACCESSOR
+(
+nsRenamedInterface
+NS_RENAMED_INTERFACE_IID
+)
 /
 /
 IID
@@ -416,6 +421,11 @@ IndirectlyImplementedMethod
 ;
 }
 ;
+NS_DEFINE_STATIC_IID_ACCESSOR
+(
+IndirectlyImplementedInterface
+NS_INDIRECTLY_IMPLEMENTED_INTERFACE_IID
+)
 /
 /
 IID
@@ -457,6 +467,11 @@ NS_TEST_EXTERNAL_INTERFACE_IID
 NS_DECL_ISUPPORTS
 }
 ;
+NS_DEFINE_STATIC_IID_ACCESSOR
+(
+TestExternalInterface
+NS_TEST_EXTERNAL_INTERFACE_IID
+)
 class
 TestNonWrapperCacheInterface
 :
