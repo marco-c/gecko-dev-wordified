@@ -14413,6 +14413,7 @@ nsAutoScriptBlocker
 {
 public
 :
+explicit
 nsAutoScriptBlocker
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM

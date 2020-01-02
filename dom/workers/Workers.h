@@ -906,6 +906,7 @@ created
 by
 WorkerPrivate
 .
+explicit
 WorkerCrossThreadDispatcher
 (
 WorkerPrivate

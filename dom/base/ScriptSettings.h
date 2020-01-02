@@ -1617,6 +1617,7 @@ ScriptSettingsStackEntry
 {
 public
 :
+explicit
 AutoEntryScript
 (
 nsIGlobalObject
@@ -1818,6 +1819,7 @@ ScriptSettingsStackEntry
 {
 public
 :
+explicit
 AutoIncumbentScript
 (
 nsIGlobalObject
@@ -1913,6 +1915,7 @@ ScriptSettingsStackEntry
 {
 public
 :
+explicit
 AutoNoJSAPI
 (
 bool

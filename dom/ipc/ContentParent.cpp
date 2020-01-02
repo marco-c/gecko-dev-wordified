@@ -19747,6 +19747,8 @@ false
 aFD
 =
 FileDescriptor
+(
+FileDescriptor
 :
 :
 PlatformHandleType
@@ -19754,6 +19756,7 @@ PlatformHandleType
 PR_FileDesc2NativeHandle
 (
 prfd
+)
 )
 )
 ;

@@ -6608,7 +6608,10 @@ if
 SendOnOpenCacheFile
 (
 mFileSize
+FileDescriptor
+(
 handle
+)
 )
 )
 {

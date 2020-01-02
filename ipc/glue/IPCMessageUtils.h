@@ -445,6 +445,7 @@ dataLength
 )
 {
 }
+explicit
 SerializedStructuredCloneBuffer
 (
 const

@@ -491,6 +491,7 @@ IPC
 Message
 Message
 ;
+explicit
 MessageLink
 (
 MessageChannel
@@ -649,6 +650,7 @@ thread
 }
 public
 :
+explicit
 ProcessLink
 (
 MessageChannel

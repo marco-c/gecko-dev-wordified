@@ -1017,6 +1017,7 @@ T
 )
 {
 }
+explicit
 Optional
 (
 JSContext

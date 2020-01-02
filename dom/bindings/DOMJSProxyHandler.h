@@ -265,6 +265,7 @@ BaseProxyHandler
 {
 public
 :
+explicit
 BaseDOMProxyHandler
 (
 const
