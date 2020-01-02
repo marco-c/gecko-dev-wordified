@@ -1384,6 +1384,12 @@ nsIRequest
 :
 :
 LOAD_NORMAL
+NS_LITERAL_STRING
+(
+"
+css
+"
+)
 getter_AddRefs
 (
 request

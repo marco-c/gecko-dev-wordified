@@ -1914,6 +1914,9 @@ nsIRequest
 LOAD_NORMAL
 nullptr
 channelPolicy
+EmptyString
+(
+)
 aRequest
 )
 ;

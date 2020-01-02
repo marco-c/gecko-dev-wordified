@@ -50379,6 +50379,12 @@ nullptr
 no
 observer
 loadFlags
+NS_LITERAL_STRING
+(
+"
+img
+"
+)
 getter_AddRefs
 (
 request
