@@ -309,6 +309,14 @@ aChannel
 {
 #
 ifdef
+GMP_CRASHREPORTER_READY
+/
+/
+See
+bug
+1041226
+#
+ifdef
 MOZ_CRASHREPORTER
 SendPCrashReporterConstructor
 (
@@ -320,6 +328,8 @@ CurrentThreadId
 )
 )
 ;
+#
+endif
 #
 endif
 #
