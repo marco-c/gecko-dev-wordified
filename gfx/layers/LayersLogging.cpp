@@ -848,7 +848,9 @@ AppendToString
 s
 m
 .
-mScrollOffset
+GetScrollOffset
+(
+)
 "
 viewportScroll
 =

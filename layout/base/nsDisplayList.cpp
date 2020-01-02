@@ -4708,14 +4708,15 @@ contentBounds
 ;
 metrics
 .
-mScrollOffset
-=
+SetScrollOffset
+(
 CSSPoint
 :
 :
 FromAppUnits
 (
 scrollPosition
+)
 )
 ;
 /

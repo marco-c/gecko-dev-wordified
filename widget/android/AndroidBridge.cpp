@@ -10730,7 +10730,9 @@ mDisplayPort
 +
 aFrameMetrics
 .
-mScrollOffset
+GetScrollOffset
+(
+)
 )
 *
 resolution
