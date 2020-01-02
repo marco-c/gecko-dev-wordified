@@ -1154,12 +1154,6 @@ nsWindowWatcher
 inWatcher
 )
 ;
-virtual
-~
-nsWatcherWindowEnumerator
-(
-)
-;
 NS_IMETHOD
 HasMoreElements
 (
@@ -1178,6 +1172,14 @@ retval
 )
 ;
 NS_DECL_ISUPPORTS
+protected
+:
+virtual
+~
+nsWatcherWindowEnumerator
+(
+)
+;
 private
 :
 friend

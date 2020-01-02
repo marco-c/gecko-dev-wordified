@@ -222,12 +222,6 @@ nsPrintingPromptService
 (
 )
 ;
-virtual
-~
-nsPrintingPromptService
-(
-)
-;
 nsresult
 Init
 (
@@ -236,6 +230,14 @@ Init
 NS_DECL_NSIPRINTINGPROMPTSERVICE
 NS_DECL_NSIWEBPROGRESSLISTENER
 NS_DECL_ISUPPORTS
+protected
+:
+virtual
+~
+nsPrintingPromptService
+(
+)
+;
 private
 :
 nsresult

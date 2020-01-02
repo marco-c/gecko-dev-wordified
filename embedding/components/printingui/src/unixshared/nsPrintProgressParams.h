@@ -127,6 +127,8 @@ nsPrintProgressParams
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsPrintProgressParams
