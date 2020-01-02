@@ -536,7 +536,7 @@ Layer
 aMaskLayer
 )
 {
-AutoMaskData
+AutoMoz2DMaskData
 mask
 ;
 if
