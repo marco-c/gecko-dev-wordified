@@ -238,6 +238,7 @@ Clone
 (
 )
 MOZ_OVERRIDE
+MOZ_FINAL
 ;
 virtual
 MediaDecoderStateMachine
@@ -246,6 +247,17 @@ CreateStateMachine
 (
 )
 MOZ_OVERRIDE
+MOZ_FINAL
+;
+virtual
+void
+ApplyStateToStateMachine
+(
+PlayState
+aState
+)
+MOZ_OVERRIDE
+MOZ_FINAL
 ;
 }
 ;

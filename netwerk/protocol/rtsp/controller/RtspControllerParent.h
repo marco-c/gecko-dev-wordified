@@ -247,6 +247,11 @@ RecvStop
 (
 )
 ;
+bool
+RecvPlaybackEnded
+(
+)
+;
 private
 :
 bool
