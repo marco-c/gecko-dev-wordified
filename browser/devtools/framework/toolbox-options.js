@@ -756,6 +756,17 @@ label
 )
 )
 ;
+checkbox
+.
+setAttribute
+(
+"
+unsupported
+"
+"
+"
+)
+;
 }
 checkbox
 .

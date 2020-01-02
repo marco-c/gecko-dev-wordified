@@ -612,6 +612,13 @@ tools
 box
 >
 checkbox
+:
+not
+(
+[
+unsupported
+]
+)
 "
 )
 ;
