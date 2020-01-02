@@ -777,7 +777,7 @@ h
 #
 include
 "
-nsNativeKeyBindings
+NativeKeyBindings
 .
 h
 "
@@ -32951,11 +32951,11 @@ aCallbackData
 {
 nsRefPtr
 <
-nsNativeKeyBindings
+NativeKeyBindings
 >
 keyBindings
 =
-nsNativeKeyBindings
+NativeKeyBindings
 :
 :
 GetInstance
@@ -32967,7 +32967,7 @@ return
 keyBindings
 -
 >
-KeyPress
+Execute
 (
 aEvent
 aCallback
