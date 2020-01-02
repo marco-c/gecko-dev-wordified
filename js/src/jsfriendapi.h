@@ -1475,14 +1475,6 @@ JSObject
 obj
 )
 ;
-typedef
-enum
-{
-CollectNurseryBeforeDump
-IgnoreNurseryObjects
-}
-DumpHeapNurseryBehaviour
-;
 /
 *
 *
@@ -1522,8 +1514,6 @@ rt
 FILE
 *
 fp
-DumpHeapNurseryBehaviour
-nurseryBehaviour
 )
 ;
 #
