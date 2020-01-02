@@ -3748,8 +3748,8 @@ cset
 aId
 targetConfig
 mIsFirstPaint
-aPaintSequenceNumber
 aScheduleComposite
+aPaintSequenceNumber
 aIsRepeatTransaction
 )
 )
