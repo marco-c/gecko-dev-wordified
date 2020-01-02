@@ -2423,9 +2423,13 @@ numFixedSlots
 .
 if
 (
-!
-isTenured
+IsInsideNursery
 (
+GetGCThingRuntime
+(
+this
+)
+this
 )
 )
 return
