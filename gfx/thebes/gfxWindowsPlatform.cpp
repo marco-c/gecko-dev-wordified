@@ -2358,6 +2358,17 @@ SKIA
 )
 ;
 }
+contentMask
+|
+=
+BackendTypeBit
+(
+BackendType
+:
+:
+SKIA
+)
+;
 InitBackendPrefs
 (
 canvasMask
