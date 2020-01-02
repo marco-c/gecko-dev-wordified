@@ -5793,6 +5793,13 @@ nullptr
 #
 endif
 }
+#
+endif
+/
+*
+JS_GC_ZEAL
+*
+/
 void
 js
 :
@@ -5844,10 +5851,3 @@ MOZ_CRASH
 )
 ;
 }
-#
-endif
-/
-*
-JS_GC_ZEAL
-*
-/
