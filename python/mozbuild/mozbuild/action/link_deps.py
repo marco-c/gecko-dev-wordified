@@ -913,6 +913,10 @@ group
 Grouping
 .
 NO
+                 
+abspaths
+=
+False
 )
 :
         
@@ -984,6 +988,49 @@ dist
 )
 )
 )
+        
+if
+abspaths
+:
+            
+topsrcdir_value
+=
+topsrcdir
+            
+topobjdir_value
+=
+topobjdir
+            
+dist_value
+=
+dist
+        
+else
+:
+            
+topsrcdir_value
+=
+'
+(
+topsrcdir
+)
+'
+            
+topobjdir_value
+=
+'
+(
+DEPTH
+)
+'
+            
+dist_value
+=
+'
+(
+DIST
+)
+'
         
 self
 .
@@ -993,27 +1040,15 @@ _normpaths
             
 topsrcdir
 :
-'
-(
-topsrcdir
-)
-'
+topsrcdir_value
             
 topobjdir
 :
-'
-(
-DEPTH
-)
-'
+topobjdir_value
             
 dist
 :
-'
-(
-DIST
-)
-'
+dist_value
             
 '
 (
@@ -1021,11 +1056,7 @@ topsrcdir
 )
 '
 :
-'
-(
-topsrcdir
-)
-'
+topsrcdir_value
             
 '
 (
@@ -1033,11 +1064,7 @@ DEPTH
 )
 '
 :
-'
-(
-DEPTH
-)
-'
+topobjdir_value
             
 '
 (
@@ -1045,11 +1072,7 @@ DIST
 )
 '
 :
-'
-(
-DIST
-)
-'
+dist_value
             
 '
 (
@@ -1057,11 +1080,7 @@ depth
 )
 '
 :
-'
-(
-DEPTH
-)
-'
+topobjdir_value
 #
 normcase
 may
@@ -1076,11 +1095,7 @@ dist
 )
 '
 :
-'
-(
-DIST
-)
-'
+dist_value
 #
 they
 are
@@ -1100,11 +1115,7 @@ os
 curdir
 )
 :
-'
-(
-topsrcdir
-)
-'
+topsrcdir_value
             
 mozpath
 .
@@ -1116,11 +1127,7 @@ os
 curdir
 )
 :
-'
-(
-DEPTH
-)
-'
+topobjdir_value
             
 mozpath
 .
@@ -1132,11 +1139,7 @@ os
 curdir
 )
 :
-'
-(
-DIST
-)
-'
+dist_value
         
 }
         
@@ -1966,6 +1969,37 @@ target
 '
 )
     
+parser
+.
+add_argument
+(
+'
+-
+-
+abspaths
+'
+action
+=
+'
+store_true
+'
+        
+help
+=
+'
+Use
+absolute
+paths
+instead
+of
+using
+make
+variable
+references
+.
+'
+)
+    
 opts
 =
 parser
@@ -2033,6 +2067,12 @@ dist
 group
 =
 group
+                              
+abspaths
+=
+opts
+.
+abspaths
 )
     
 for
