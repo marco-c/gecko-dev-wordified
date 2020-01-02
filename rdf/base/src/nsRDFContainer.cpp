@@ -3680,9 +3680,9 @@ nextValStr
 .
 Append
 (
-"
+'
 _
-"
+'
 )
 ;
 nextValStr

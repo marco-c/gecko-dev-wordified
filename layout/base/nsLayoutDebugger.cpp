@@ -730,9 +730,9 @@ string
 .
 Append
 (
-"
+'
 -
-"
+'
 )
 ;
 string
