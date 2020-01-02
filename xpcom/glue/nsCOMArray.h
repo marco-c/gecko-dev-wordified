@@ -182,7 +182,7 @@ nsCOMArray_base
 {
 friend
 class
-nsArray
+nsArrayBase
 ;
 protected
 :
