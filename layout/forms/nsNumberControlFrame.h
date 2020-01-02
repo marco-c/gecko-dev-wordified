@@ -555,6 +555,11 @@ nsAString
 aValue
 )
 ;
+bool
+AnonTextControlIsEmpty
+(
+)
+;
 /
 *
 *
