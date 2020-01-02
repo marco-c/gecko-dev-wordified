@@ -889,6 +889,7 @@ from
 and
 to
 bool
+MOZ_IMPLICIT
 nsTArrayFallibleResult
 (
 bool
