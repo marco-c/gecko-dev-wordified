@@ -731,6 +731,17 @@ options
 )
 ;
 }
+else
+{
+this
+.
+_boxModelHighlighter
+.
+hide
+(
+)
+;
+}
 }
 {
 request
