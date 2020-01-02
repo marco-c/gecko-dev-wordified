@@ -1161,7 +1161,7 @@ ErrorResult
 aRv
 )
 ;
-nsIDOMMozIccManager
+IccManager
 *
 GetMozIccManager
 (
