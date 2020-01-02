@@ -274,6 +274,13 @@ locale
 "
 ;
 const
+UNKNOWN_XPCOM_ABI
+=
+"
+unknownABI
+"
+;
+const
 UPDATE_REQUEST_VERSION
 =
 2
