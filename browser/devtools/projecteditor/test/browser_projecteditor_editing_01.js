@@ -77,10 +77,6 @@ addProjectEditorTabForTempDirectory
 let
 TEMP_PATH
 =
-[
-.
-.
-.
 projecteditor
 .
 project
@@ -88,7 +84,6 @@ project
 allPaths
 (
 )
-]
 [
 0
 ]

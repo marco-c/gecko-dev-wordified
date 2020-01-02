@@ -77,10 +77,6 @@ addProjectEditorTabForTempDirectory
 let
 TEMP_PATH
 =
-[
-.
-.
-.
 projecteditor
 .
 project
@@ -88,7 +84,6 @@ project
 allPaths
 (
 )
-]
 [
 0
 ]
@@ -115,10 +110,6 @@ correctly
 ;
 is
 (
-[
-.
-.
-.
 projecteditor
 .
 project
@@ -126,7 +117,6 @@ project
 allPaths
 (
 )
-]
 .
 length
 1
@@ -148,10 +138,6 @@ removeAllStores
 ;
 is
 (
-[
-.
-.
-.
 projecteditor
 .
 project
@@ -159,7 +145,6 @@ project
 allPaths
 (
 )
-]
 .
 length
 0
