@@ -545,6 +545,7 @@ AudioNodeStream
 AsAudioNodeStream
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -592,7 +593,10 @@ GraphTime
 aFrom
 GraphTime
 aTo
+uint32_t
+aFlags
 )
+MOZ_OVERRIDE
 ;
 TrackTicks
 GetCurrentPosition

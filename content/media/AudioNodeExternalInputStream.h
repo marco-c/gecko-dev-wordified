@@ -217,6 +217,8 @@ GraphTime
 aFrom
 GraphTime
 aTo
+uint32_t
+aFlags
 )
 MOZ_OVERRIDE
 ;
