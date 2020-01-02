@@ -199,7 +199,7 @@ operator
 (
 void
 *
-anObject
+aObject
 )
 {
 const
@@ -214,7 +214,7 @@ AudioData
 *
 >
 (
-anObject
+aObject
 )
 ;
 mSize
