@@ -1244,7 +1244,7 @@ Monitor
 >
 sStopBluetoothMonitor
 ;
-StaticAutoPtr
+StaticRefPtr
 <
 BluetoothProfileController
 >
