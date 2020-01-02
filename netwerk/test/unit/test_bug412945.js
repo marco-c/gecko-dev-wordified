@@ -167,7 +167,7 @@ channel
 requestMethod
 =
 "
-post
+POST
 "
 ;
 channel
