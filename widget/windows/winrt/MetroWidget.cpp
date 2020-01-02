@@ -369,6 +369,13 @@ MiscEvents
 .
 h
 "
+#
+include
+"
+gfxPrefs
+.
+h
+"
 using
 namespace
 Microsoft
