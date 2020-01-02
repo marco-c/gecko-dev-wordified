@@ -107,6 +107,9 @@ class
 CacheFile
 ;
 class
+CacheOutputCloseListener
+;
+class
 CacheFileOutputStream
 :
 public
@@ -127,6 +130,9 @@ CacheFileOutputStream
 CacheFile
 *
 aFile
+CacheOutputCloseListener
+*
+aCloseListener
 )
 ;
 NS_IMETHOD
@@ -167,6 +173,11 @@ OnChunkUpdated
 CacheFileChunk
 *
 aChunk
+)
+;
+void
+NotifyCloseListener
+(
 )
 ;
 private
@@ -210,6 +221,12 @@ nsRefPtr
 CacheFileChunk
 >
 mChunk
+;
+nsRefPtr
+<
+CacheOutputCloseListener
+>
+mCloseListener
 ;
 int64_t
 mPos

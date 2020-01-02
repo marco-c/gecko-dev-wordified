@@ -3406,15 +3406,6 @@ entry
 )
 ;
 }
-get
-mainThreadOnly
-(
-)
-{
-return
-true
-;
-}
 }
 ;
 diskStorage
