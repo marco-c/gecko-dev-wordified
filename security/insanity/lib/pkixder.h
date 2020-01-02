@@ -1274,9 +1274,6 @@ Nested
 (
 input
 outerTag
-std
-:
-:
 bind
 (
 Nested
@@ -1427,9 +1424,6 @@ NestedOf
 input
 SEQEUENCE
 SEQUENCE
-std
-:
-:
 bind
 (
 _1
