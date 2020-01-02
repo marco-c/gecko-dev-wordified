@@ -1802,6 +1802,13 @@ this
 .
 _fireEventFromMsg
 "
+metachange
+"
+:
+this
+.
+_fireEventFromMsg
+"
 close
 "
 :
