@@ -4982,7 +4982,7 @@ webapps
 .
 firstRunWithSIM
 "
-false
+true
 )
 ;
 #
