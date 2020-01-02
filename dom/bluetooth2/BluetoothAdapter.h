@@ -584,6 +584,9 @@ EnableDisable
 (
 bool
 aEnable
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -592,6 +595,9 @@ Promise
 >
 Enable
 (
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -600,6 +606,9 @@ Promise
 >
 Disable
 (
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
