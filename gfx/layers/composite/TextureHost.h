@@ -2571,6 +2571,15 @@ GetIPDLActor
 (
 )
 ;
+static
+void
+SendFenceHandleIfPresent
+(
+PTextureParent
+*
+actor
+)
+;
 /
 *
 *
