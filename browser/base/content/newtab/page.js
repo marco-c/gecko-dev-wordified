@@ -1416,6 +1416,13 @@ type
 }
 }
 }
+DirectoryLinksProvider
+.
+reportShownCount
+(
+directoryCount
+)
+;
 /
 /
 Record
