@@ -3387,11 +3387,6 @@ mRecognitionService
 Initialize
 (
 this
--
->
-asWeakPtr
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS_VOID

@@ -736,11 +736,6 @@ aTask
 mTask
 (
 aTask
--
->
-asWeakPtr
-(
-)
 )
 {
 }

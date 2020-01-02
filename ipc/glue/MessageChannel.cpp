@@ -972,11 +972,6 @@ aListener
 mListener
 (
 aListener
--
->
-asWeakPtr
-(
-)
 )
 mChannelState
 (

@@ -1121,11 +1121,6 @@ nullptr
 mListener
 =
 listener
--
->
-asWeakPtr
-(
-)
 ;
 mLocalPort
 =

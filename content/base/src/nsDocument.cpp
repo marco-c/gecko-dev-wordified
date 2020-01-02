@@ -23342,11 +23342,6 @@ aContainer
 mDocumentContainer
 =
 aContainer
--
->
-asWeakPtr
-(
-)
 ;
 }
 else

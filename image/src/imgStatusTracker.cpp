@@ -196,11 +196,6 @@ aTracker
 mTracker
 (
 aTracker
--
->
-asWeakPtr
-(
-)
 )
 {
 MOZ_ASSERT
@@ -225,11 +220,6 @@ aTracker
 mTracker
 =
 aTracker
--
->
-asWeakPtr
-(
-)
 ;
 }
 /
@@ -3351,11 +3341,6 @@ array
 AppendElement
 (
 proxy
--
->
-asWeakPtr
-(
-)
 )
 ;
 SyncNotifyState
@@ -3506,11 +3491,6 @@ mConsumers
 AppendElementUnlessExists
 (
 aConsumer
--
->
-asWeakPtr
-(
-)
 )
 ;
 }

@@ -9085,11 +9085,6 @@ nsDocShell
 (
 aDocShell
 )
--
->
-asWeakPtr
-(
-)
 ;
 }
 else

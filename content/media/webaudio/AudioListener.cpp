@@ -460,11 +460,6 @@ mPanners
 AppendElement
 (
 aPannerNode
--
->
-asWeakPtr
-(
-)
 )
 ;
 /
