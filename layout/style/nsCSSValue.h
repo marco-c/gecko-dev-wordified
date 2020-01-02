@@ -5043,6 +5043,11 @@ nsCSSValueSharedList
 nsCSSValueSharedList
 (
 )
+:
+mHead
+(
+nullptr
+)
 {
 MOZ_COUNT_CTOR
 (
