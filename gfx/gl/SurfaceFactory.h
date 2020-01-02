@@ -206,7 +206,10 @@ SharedSurface
 NewSharedSurface
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 size
 )
