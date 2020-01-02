@@ -402,17 +402,8 @@ if
 (
 !
 mDeviceManager
--
->
-Init
-(
-)
 )
 {
-mDeviceManager
-=
-nullptr
-;
 return
 false
 ;
