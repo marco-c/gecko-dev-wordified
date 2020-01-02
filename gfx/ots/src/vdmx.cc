@@ -81,6 +81,11 @@ VDMX
 #
 define
 DROP_THIS_TABLE
+(
+.
+.
+.
+)
 \
 do
 {
@@ -98,6 +103,17 @@ file
 vdmx
 =
 0
+;
+\
+OTS_FAILURE_MSG_
+(
+file
+TABLE_NAME
+"
+:
+"
+__VA_ARGS__
+)
 ;
 \
 OTS_FAILURE_MSG
@@ -220,7 +236,7 @@ version
 1
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 bad
@@ -234,8 +250,6 @@ vdmx
 >
 version
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -355,7 +369,7 @@ charset
 1
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 bad
@@ -368,8 +382,6 @@ rec
 .
 charset
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -386,7 +398,7 @@ rec
 y_end_ratio
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 bad
@@ -394,8 +406,6 @@ y
 ratio
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -491,7 +501,7 @@ more
 }
 terminators
 .
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 superfluous
@@ -499,8 +509,6 @@ terminator
 found
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -849,7 +857,7 @@ vt
 y_min
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 bad
@@ -859,8 +867,6 @@ min
 max
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -917,7 +923,7 @@ y_pel_height
 )
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 the
@@ -927,8 +933,6 @@ not
 sorted
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true

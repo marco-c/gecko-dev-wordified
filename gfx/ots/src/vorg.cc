@@ -86,6 +86,11 @@ VORG
 #
 define
 DROP_THIS_TABLE
+(
+.
+.
+.
+)
 \
 do
 {
@@ -103,6 +108,17 @@ file
 vorg
 =
 0
+;
+\
+OTS_FAILURE_MSG_
+(
+file
+TABLE_NAME
+"
+:
+"
+__VA_ARGS__
+)
 ;
 \
 OTS_FAILURE_MSG
@@ -238,7 +254,7 @@ major_version
 1
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 bad
@@ -253,8 +269,6 @@ vorg
 >
 major_version
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -271,7 +285,7 @@ minor_version
 0
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 bad
@@ -286,8 +300,6 @@ vorg
 >
 minor_version
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -418,7 +430,7 @@ last_glyph_index
 )
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 the
@@ -428,8 +440,6 @@ not
 sorted
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true

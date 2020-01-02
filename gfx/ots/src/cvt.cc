@@ -251,9 +251,6 @@ fonts
 .
 }
 return
-g_transcode_hints
-&
-&
 file
 -
 >

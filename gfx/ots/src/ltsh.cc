@@ -87,6 +87,11 @@ LTSH
 #
 define
 DROP_THIS_TABLE
+(
+.
+.
+.
+)
 \
 do
 {
@@ -104,6 +109,17 @@ file
 ltsh
 =
 0
+;
+\
+OTS_FAILURE_MSG_
+(
+file
+TABLE_NAME
+"
+:
+"
+__VA_ARGS__
+)
 ;
 \
 OTS_FAILURE_MSG
@@ -237,7 +253,7 @@ version
 0
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 bad
@@ -251,8 +267,6 @@ ltsh
 >
 version
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -272,7 +286,7 @@ maxp
 num_glyphs
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 bad
@@ -283,8 +297,6 @@ u
 "
 num_glyphs
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
