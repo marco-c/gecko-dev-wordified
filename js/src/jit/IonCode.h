@@ -1127,7 +1127,17 @@ to
 the
 worklist
 .
+mozilla
+:
+:
+Atomic
+<
 bool
+mozilla
+:
+:
+Relaxed
+>
 hasUncompiledCallTarget_
 ;
 /
