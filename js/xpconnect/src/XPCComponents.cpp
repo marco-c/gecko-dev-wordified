@@ -16381,6 +16381,7 @@ NS_OK
 void
 ccSlice
 (
+in
 long
 long
 budget
@@ -16398,7 +16399,10 @@ int64_t
 budget
 )
 {
-nsCycleCollector_collectSliceWork
+nsJSContext
+:
+:
+RunCycleCollectorWorkSlice
 (
 budget
 )
