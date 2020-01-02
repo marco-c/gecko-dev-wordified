@@ -934,9 +934,6 @@ src
 }
 assertTooltipShownOn
 (
-container
-.
-tooltip
 target
 (
 )
@@ -946,7 +943,7 @@ target
 let
 images
 =
-container
+markup
 .
 tooltip
 .
@@ -1001,7 +998,7 @@ src
 )
 ;
 }
-container
+markup
 .
 tooltip
 .
@@ -1124,7 +1121,6 @@ content
 function
 assertTooltipShownOn
 (
-tooltip
 element
 cb
 )
@@ -1149,6 +1145,8 @@ panel
 will
 be
 shown
+markup
+.
 tooltip
 .
 panel
@@ -1163,6 +1161,8 @@ shown
 (
 )
 {
+markup
+.
 tooltip
 .
 panel
@@ -1252,6 +1252,8 @@ hasImage
 )
 =
 >
+markup
+.
 tooltip
 .
 panel
@@ -1300,6 +1302,8 @@ cb
 true
 )
 ;
+markup
+.
 tooltip
 .
 _showOnHover
