@@ -256,7 +256,7 @@ l10n
 lookup
 (
 "
-csscoverageStartDesc
+csscoverageStartDesc2
 "
 )
 exec
@@ -342,7 +342,7 @@ l10n
 lookup
 (
 "
-csscoverageStopDesc
+csscoverageStopDesc2
 "
 )
 exec
@@ -434,7 +434,7 @@ l10n
 lookup
 (
 "
-csscoverageOneShotDesc
+csscoverageOneShotDesc2
 "
 )
 exec
@@ -526,7 +526,7 @@ l10n
 lookup
 (
 "
-csscoverageToggleDesc
+csscoverageToggleDesc2
 "
 )
 exec
@@ -644,7 +644,7 @@ l10n
 lookup
 (
 "
-csscoverageReportDesc
+csscoverageReportDesc2
 "
 )
 exec
