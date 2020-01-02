@@ -125,8 +125,14 @@ JSContext
 unused
 *
 /
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aObj
 )
 {
