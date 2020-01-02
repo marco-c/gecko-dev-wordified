@@ -43604,19 +43604,61 @@ value
 2
 )
 A
-boolean
-indicating
-whether
-the
-return
 value
-is
-passed
+indicating
+the
+kind
+of
+ourparam
+to
+pass
+the
+value
+as
+.
+Valid
+       
+options
+are
+None
+to
+not
+pass
+as
+an
+out
+param
+at
+all
+"
+ref
+"
+(
+to
+pass
+a
+       
+reference
+as
+an
+out
+param
+)
+and
+"
+ptr
+"
+(
+to
+pass
+a
+pointer
 as
 an
 out
        
-parameter
+param
+)
 .
     
 3
@@ -43685,7 +43727,7 @@ declare
         
 return
 None
-False
+None
 None
 None
     
@@ -43739,7 +43781,7 @@ result
         
 return
 result
-False
+None
 None
 None
     
@@ -43762,7 +43804,9 @@ CGGeneric
 nsString
 "
 )
-True
+"
+ref
+"
 None
 None
         
@@ -43773,7 +43817,9 @@ CGGeneric
 DOMString
 "
 )
-True
+"
+ref
+"
 None
 None
     
@@ -43792,7 +43838,9 @@ CGGeneric
 nsCString
 "
 )
-True
+"
+ref
+"
 None
 None
     
@@ -43841,7 +43889,7 @@ result
         
 return
 result
-False
+None
 None
 None
     
@@ -43946,7 +43994,7 @@ post
         
 return
 result
-False
+None
 None
 None
     
@@ -43983,7 +44031,7 @@ s
 %
 name
 )
-False
+None
 None
 None
     
@@ -44005,7 +44053,7 @@ JS
 Value
 "
 )
-False
+None
 None
 None
     
@@ -44031,7 +44079,7 @@ JSObject
 *
 "
 )
-False
+None
 None
 None
     
@@ -44189,7 +44237,9 @@ result
         
 return
 result
-True
+"
+ref
+"
 rooter
 None
     
@@ -44347,7 +44397,9 @@ result
         
 return
 result
-True
+"
+ref
+"
 rooter
 None
     
@@ -44455,7 +44507,9 @@ None
         
 return
 result
-True
+"
+ref
+"
 None
 resultArgs
     
@@ -44558,7 +44612,9 @@ None
         
 return
 result
-True
+"
+ref
+"
 None
 resultArgs
     
@@ -44599,7 +44655,7 @@ result
         
 return
 result
-False
+None
 None
 None
     
@@ -45293,8 +45349,19 @@ here
         
 if
 resultOutParam
+is
+not
+None
 :
             
+if
+resultOutParam
+is
+"
+ref
+"
+:
+                
 args
 .
 append
@@ -45302,6 +45369,29 @@ append
 CGGeneric
 (
 "
+result
+"
+)
+)
+            
+else
+:
+                
+assert
+resultOutParam
+is
+"
+ptr
+"
+                
+args
+.
+append
+(
+CGGeneric
+(
+"
+&
 result
 "
 )
