@@ -124,17 +124,6 @@ uint32_t
 #
 include
 "
-gfxPoint
-.
-h
-"
-/
-/
-for
-gfxIntSize
-#
-include
-"
 mozilla
 /
 Attributes
@@ -314,7 +303,7 @@ PGrallocBufferChild
 AllocPGrallocBufferChild
 (
 const
-gfxIntSize
+IntSize
 &
 const
 uint32_t
