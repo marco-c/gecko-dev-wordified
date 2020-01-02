@@ -446,15 +446,6 @@ aFilter
 )
 MOZ_OVERRIDE
 ;
-/
-/
-Utility
-methods
-to
-set
-current
-widget
-state
 virtual
 void
 SetInitialChildList
