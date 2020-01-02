@@ -182,7 +182,7 @@ run_test
 (
 )
 {
-createAppInfo
+loadAddonManager
 (
 )
 ;
