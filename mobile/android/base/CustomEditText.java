@@ -105,7 +105,7 @@ gecko
 .
 widget
 .
-GeckoEditText
+ThemedEditText
 ;
 import
 android
@@ -139,7 +139,7 @@ public
 class
 CustomEditText
 extends
-GeckoEditText
+ThemedEditText
 {
 private
 OnKeyPreImeListener

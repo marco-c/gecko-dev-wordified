@@ -216,7 +216,7 @@ gecko
 .
 widget
 .
-GeckoLinearLayout
+ThemedLinearLayout
 ;
 import
 android
@@ -338,7 +338,7 @@ public
 class
 ToolbarEditLayout
 extends
-GeckoLinearLayout
+ThemedLinearLayout
 {
 private
 final
