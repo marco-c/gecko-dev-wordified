@@ -596,6 +596,13 @@ size_t
 trackIndex
 )
 ;
+void
+onTrackEndOfStream
+(
+size_t
+trackIndex
+)
+;
 nsMainThreadPtrHandle
 <
 nsIStreamingProtocolListener
