@@ -2270,22 +2270,6 @@ f
 prolog
 ]
     
-prefix
-+
-=
-[
-'
--
--
-js
--
-cache
-'
-jittests
-.
-JS_CACHE_DIR
-]
-    
 #
 Avoid
 racing
