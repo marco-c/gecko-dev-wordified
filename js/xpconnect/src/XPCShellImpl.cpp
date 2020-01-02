@@ -4424,11 +4424,8 @@ JS_IdToValue
 (
 cx
 id
+&
 idval
-.
-address
-(
-)
 )
 )
 return
@@ -4919,11 +4916,8 @@ JS_IdToValue
 (
 cx
 id
+&
 idval
-.
-address
-(
-)
 )
 )
 return

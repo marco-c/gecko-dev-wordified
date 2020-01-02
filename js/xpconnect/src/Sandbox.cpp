@@ -985,11 +985,8 @@ StringValue
 (
 funname
 )
+&
 id
-.
-address
-(
-)
 )
 )
 return
@@ -1773,11 +1770,8 @@ JS_ValueToId
 (
 cx
 vname
+&
 id
-.
-address
-(
-)
 )
 )
 return
@@ -8964,10 +8958,6 @@ JS_ValueToId
 mCx
 value
 prop
-.
-address
-(
-)
 )
 ;
 }

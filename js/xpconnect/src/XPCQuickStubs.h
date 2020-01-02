@@ -3258,11 +3258,8 @@ JS_ValueToId
 (
 cx
 v
+&
 id
-.
-address
-(
-)
 )
 )
 return

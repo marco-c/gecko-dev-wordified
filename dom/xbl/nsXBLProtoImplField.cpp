@@ -1474,10 +1474,6 @@ JS_ValueToId
 cx
 name
 idp
-.
-address
-(
-)
 )
 )
 ;
