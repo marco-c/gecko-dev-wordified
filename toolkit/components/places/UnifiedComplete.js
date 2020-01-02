@@ -10326,9 +10326,6 @@ Ci
 nsIAutoCompleteSimpleResultListener
 Ci
 .
-nsIAutoCompleteSearchDescriptor
-Ci
-.
 mozIPlacesAutoComplete
 Ci
 .
