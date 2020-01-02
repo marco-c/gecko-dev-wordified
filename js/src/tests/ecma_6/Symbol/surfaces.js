@@ -174,6 +174,16 @@ writable
 true
 )
 ;
+assertEq
+(
+Symbol
+.
+for
+.
+length
+1
+)
+;
 if
 (
 typeof
