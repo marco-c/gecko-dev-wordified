@@ -6108,6 +6108,13 @@ void
 *
 activityCallbackArg
 ;
+void
+triggerActivityCallback
+(
+bool
+active
+)
+;
 #
 ifdef
 JS_THREADSAFE
