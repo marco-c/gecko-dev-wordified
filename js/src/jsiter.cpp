@@ -2828,7 +2828,10 @@ PropertyIteratorObject
 :
 :
 class_
+TaggedProto
+(
 nullptr
+)
 )
 )
 ;
@@ -2881,7 +2884,10 @@ getInitialShape
 (
 cx
 clasp
+TaggedProto
+(
 nullptr
+)
 nullptr
 metadata
 ITERATOR_FINALIZE_KIND
@@ -7345,6 +7351,7 @@ str
 ;
 public
 :
+explicit
 SingleStringPredicate
 (
 Handle

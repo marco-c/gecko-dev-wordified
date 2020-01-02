@@ -222,6 +222,7 @@ XDRBuffer
 {
 public
 :
+explicit
 XDRBuffer
 (
 JSContext
@@ -579,6 +580,7 @@ JSPrincipals
 *
 originPrincipals_
 ;
+explicit
 XDRState
 (
 JSContext
@@ -1382,6 +1384,7 @@ XDR_ENCODE
 {
 public
 :
+explicit
 XDREncoder
 (
 JSContext

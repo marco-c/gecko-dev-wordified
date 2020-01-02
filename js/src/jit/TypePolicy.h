@@ -588,6 +588,7 @@ specialization_
 ;
 public
 :
+explicit
 PowPolicy
 (
 MIRType

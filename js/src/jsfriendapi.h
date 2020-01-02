@@ -6017,6 +6017,7 @@ JSCompartment
 *
 ours
 ;
+explicit
 SingleCompartment
 (
 JSCompartment
@@ -6059,6 +6060,7 @@ JSPrincipals
 *
 principals
 ;
+explicit
 CompartmentsWithPrincipals
 (
 JSPrincipals

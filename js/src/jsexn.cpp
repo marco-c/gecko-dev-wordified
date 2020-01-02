@@ -1300,6 +1300,7 @@ JS
 AutoSaveExceptionState
 prevState
 ;
+explicit
 SuppressErrorsGuard
 (
 JSContext

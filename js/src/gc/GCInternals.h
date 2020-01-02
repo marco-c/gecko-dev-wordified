@@ -191,6 +191,7 @@ AutoCopyFreeListToArenas
 struct
 AutoFinishGC
 {
+explicit
 AutoFinishGC
 (
 JSRuntime
@@ -236,6 +237,7 @@ AutoTraceSession
 {
 public
 :
+explicit
 AutoTraceSession
 (
 JSRuntime
@@ -317,6 +319,7 @@ char
 *
 reason_
 ;
+explicit
 IncrementalSafety
 (
 const

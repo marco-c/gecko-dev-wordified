@@ -19653,6 +19653,7 @@ lir_
 ;
 public
 :
+explicit
 CheckOverRecursedFailure
 (
 LCheckOverRecursed
@@ -20351,6 +20352,7 @@ lir_
 ;
 public
 :
+explicit
 CheckOverRecursedFailurePar
 (
 LCheckOverRecursedPar
@@ -20866,6 +20868,7 @@ LInterruptCheckPar
 const
 lir
 ;
+explicit
 OutOfLineInterruptCheckPar
 (
 LInterruptCheckPar
@@ -23409,6 +23412,7 @@ lir_
 ;
 public
 :
+explicit
 OutOfLineNewArray
 (
 LNewArray
@@ -24246,6 +24250,7 @@ lir_
 ;
 public
 :
+explicit
 OutOfLineNewObject
 (
 LNewObject
@@ -38087,6 +38092,7 @@ rejoinStore_
 ;
 public
 :
+explicit
 OutOfLineStoreElementHole
 (
 LInstruction
@@ -47159,6 +47165,7 @@ unboxFloatingPoint_
 ;
 public
 :
+explicit
 OutOfLineUnboxFloatingPoint
 (
 LUnboxFloatingPoint
@@ -52725,6 +52732,7 @@ ins_
 ;
 public
 :
+explicit
 OutOfLineTypeOfV
 (
 LTypeOfV
@@ -59612,10 +59620,13 @@ mir
 desc
 (
 )
+AsmJSImmPtr
+(
 callee
 .
 builtin
 (
+)
 )
 )
 ;

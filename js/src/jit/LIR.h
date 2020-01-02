@@ -1585,6 +1585,7 @@ vreg
 )
 ;
 }
+explicit
 LUse
 (
 Policy
@@ -1603,6 +1604,7 @@ usedAtStart
 )
 ;
 }
+explicit
 LUse
 (
 Register
@@ -1625,6 +1627,7 @@ usedAtStart
 )
 ;
 }
+explicit
 LUse
 (
 FloatRegister
@@ -2738,6 +2741,7 @@ policy
 )
 ;
 }
+explicit
 LDefinition
 (
 Type
@@ -5096,6 +5100,7 @@ encoded
 RecoverOffset
 recoverOffset_
 ;
+explicit
 LRecoverInfo
 (
 TempAllocator
@@ -5292,6 +5297,7 @@ op_
 ;
 public
 :
+explicit
 OperandIter
 (
 MNode
@@ -6347,6 +6353,7 @@ bits
 )
 ;
 }
+explicit
 LSafepoint
 (
 TempAllocator
@@ -7967,6 +7974,7 @@ true
 }
 public
 :
+explicit
 InputIterator
 (
 LInstruction
@@ -8345,6 +8353,7 @@ mir_
 ;
 public
 :
+explicit
 LIRGraph
 (
 MIRGraph

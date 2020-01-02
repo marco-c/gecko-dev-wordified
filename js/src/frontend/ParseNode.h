@@ -7397,6 +7397,7 @@ ParseNode
 {
 public
 :
+explicit
 DebuggerStatement
 (
 const
@@ -7603,6 +7604,7 @@ ParseNode
 {
 public
 :
+explicit
 ThisLiteral
 (
 const
@@ -7630,6 +7632,7 @@ ParseNode
 {
 public
 :
+explicit
 NullLiteral
 (
 const

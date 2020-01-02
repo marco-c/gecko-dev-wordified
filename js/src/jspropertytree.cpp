@@ -305,7 +305,10 @@ hash
 >
 putNew
 (
+StackShape
+(
 kid1
+)
 kid1
 )
 )
@@ -317,7 +320,10 @@ hash
 >
 putNew
 (
+StackShape
+(
 kid2
+)
 kid2
 )
 )
@@ -542,7 +548,10 @@ toHash
 >
 putNew
 (
+StackShape
+(
 child
+)
 child
 )
 )
@@ -691,7 +700,10 @@ hash
 >
 remove
 (
+StackShape
+(
 child
+)
 )
 ;
 child
@@ -1799,7 +1811,10 @@ hash
 >
 lookup
 (
+StackShape
+(
 aKid
+)
 )
 ;
 JS_ASSERT

@@ -236,6 +236,7 @@ LInstructionHelper
 {
 public
 :
+explicit
 LUnboxBase
 (
 const
@@ -288,6 +289,7 @@ LIR_HEADER
 (
 Unbox
 )
+explicit
 LUnbox
 (
 const
@@ -418,6 +420,7 @@ LIR_HEADER
 (
 AsmJSUInt32ToDouble
 )
+explicit
 LAsmJSUInt32ToDouble
 (
 const
@@ -465,6 +468,7 @@ LIR_HEADER
 (
 AsmJSUInt32ToFloat32
 )
+explicit
 LAsmJSUInt32ToFloat32
 (
 const

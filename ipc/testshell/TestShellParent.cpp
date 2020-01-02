@@ -490,7 +490,13 @@ JS_CallFunctionValue
 mCx
 global
 callback
+JS
+:
+:
+HandleValueArray
+(
 strVal
+)
 &
 rval
 )

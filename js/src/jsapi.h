@@ -1058,6 +1058,7 @@ N
 ;
 public
 :
+explicit
 AutoValueArray
 (
 JSContext
@@ -3311,6 +3312,7 @@ elements
 }
 public
 :
+explicit
 HandleValueArray
 (
 const
@@ -3333,6 +3335,7 @@ address
 )
 {
 }
+MOZ_IMPLICIT
 HandleValueArray
 (
 const
@@ -3403,6 +3406,7 @@ stack
 .
 *
 /
+MOZ_IMPLICIT
 HandleValueArray
 (
 const
@@ -3675,6 +3679,7 @@ runtime_
 ;
 protected
 :
+explicit
 JSFreeOp
 (
 JSRuntime
@@ -8365,6 +8370,7 @@ JSAutoRequest
 {
 public
 :
+explicit
 JSAutoRequest
 (
 JSContext
@@ -8445,6 +8451,7 @@ JSAutoCheckRequest
 {
 public
 :
+explicit
 JSAutoCheckRequest
 (
 JSContext
@@ -9522,6 +9529,7 @@ AutoSaveContextOptions
 {
 public
 :
+explicit
 AutoSaveContextOptions
 (
 JSContext
@@ -10149,6 +10157,7 @@ oldCompartment_
 ;
 public
 :
+explicit
 JSAutoNullCompartment
 (
 JSContext
@@ -31852,6 +31861,7 @@ AutoHideScriptedCaller
 {
 public
 :
+explicit
 AutoHideScriptedCaller
 (
 JSContext
@@ -32740,6 +32750,7 @@ MOZ_DELETE
 ;
 public
 :
+explicit
 ForOfIterator
 (
 JSContext

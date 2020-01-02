@@ -980,6 +980,7 @@ CodePosition
 private
 :
 MOZ_CONSTEXPR
+explicit
 CodePosition
 (
 const

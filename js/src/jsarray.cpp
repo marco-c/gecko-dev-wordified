@@ -6388,6 +6388,7 @@ CharSeparatorOp
 jschar
 sep
 ;
+explicit
 CharSeparatorOp
 (
 jschar
@@ -9936,6 +9937,7 @@ JSContext
 const
 cx
 ;
+explicit
 SortComparatorStrings
 (
 JSContext
@@ -20269,10 +20271,9 @@ ArrayObject
 :
 :
 class_
-proto
-.
-get
+TaggedProto
 (
+proto
 )
 )
 )
@@ -20984,10 +20985,9 @@ ArrayObject
 :
 :
 class_
-proto
-.
-get
+TaggedProto
 (
+proto
 )
 )
 )

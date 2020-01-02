@@ -155,6 +155,7 @@ length_
 ;
 public
 :
+explicit
 AutoInflatedString
 (
 JSContext

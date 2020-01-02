@@ -640,6 +640,7 @@ the
 return
 value
 .
+explicit
 HashMap
 (
 AllocPolicy
@@ -2995,6 +2996,7 @@ the
 return
 value
 .
+explicit
 HashSet
 (
 AllocPolicy
@@ -8612,6 +8614,7 @@ oldTable
 }
 public
 :
+explicit
 HashTable
 (
 AllocPolicy

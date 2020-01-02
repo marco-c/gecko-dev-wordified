@@ -950,7 +950,10 @@ CallObject
 :
 :
 class_
+TaggedProto
+(
 nullptr
+)
 nullptr
 nullptr
 nfixed
@@ -19662,8 +19665,11 @@ compartment
 -
 >
 selfHostingScriptSource
-=
+.
+set
+(
 obj
+)
 ;
 }
 sourceObject
@@ -23229,7 +23235,10 @@ ScopeObject
 .
 aliasedVar
 (
+ScopeCoordinate
+(
 pc
+)
 )
 )
 )
@@ -23249,7 +23258,10 @@ ScopeObject
 setAliasedVar
 (
 cx
+ScopeCoordinate
+(
 pc
+)
 cx
 -
 >

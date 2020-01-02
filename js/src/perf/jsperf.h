@@ -562,6 +562,7 @@ measured
 .
 *
 /
+explicit
 PerfMeasurement
 (
 EventMask

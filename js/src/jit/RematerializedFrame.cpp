@@ -168,6 +168,7 @@ Value
 *
 slots
 ;
+explicit
 CopyValueToRematerializedFrame
 (
 Value

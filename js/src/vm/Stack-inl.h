@@ -945,6 +945,7 @@ Value
 *
 dst
 ;
+explicit
 CopyTo
 (
 Value
@@ -986,6 +987,7 @@ HeapValue
 *
 dst
 ;
+explicit
 CopyToHeap
 (
 HeapValue

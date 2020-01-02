@@ -6207,9 +6207,8 @@ compartment
 putWrapper
 (
 cx
-ObjectValue
+CrossCompartmentKey
 (
-*
 newIdentity
 )
 origv
@@ -25150,6 +25149,7 @@ attrs
 struct
 AutoLastFrameCheck
 {
+explicit
 AutoLastFrameCheck
 (
 JSContext

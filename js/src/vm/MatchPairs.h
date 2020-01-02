@@ -790,6 +790,7 @@ LifoAllocScope
 .
 *
 /
+explicit
 ScopedMatchPairs
 (
 LifoAlloc

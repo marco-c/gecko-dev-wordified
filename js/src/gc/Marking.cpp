@@ -11130,6 +11130,7 @@ runs
 .
 *
 /
+explicit
 UnmarkGrayTracer
 (
 JSRuntime

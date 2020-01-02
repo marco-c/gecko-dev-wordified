@@ -202,6 +202,7 @@ list
 ;
 public
 :
+explicit
 CGConstList
 (
 ExclusiveContext
@@ -358,6 +359,7 @@ JSTryNote
 >
 list
 ;
+explicit
 CGTryNoteList
 (
 ExclusiveContext
@@ -417,6 +419,7 @@ BlockScopeNote
 >
 list
 ;
+explicit
 CGBlockScopeList
 (
 ExclusiveContext

@@ -197,6 +197,7 @@ Kennel
 PersistentRootedObject
 obj
 ;
+explicit
 Kennel
 (
 JSContext

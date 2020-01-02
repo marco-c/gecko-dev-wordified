@@ -283,7 +283,10 @@ v
 |
 fail
 (
+JSAPITestString
+(
 bytes
+)
 filename
 lineno
 )
@@ -354,7 +357,10 @@ vp
 |
 fail
 (
+JSAPITestString
+(
 bytes
+)
 filename
 lineno
 )

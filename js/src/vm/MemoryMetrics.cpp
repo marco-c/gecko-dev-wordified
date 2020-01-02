@@ -4249,6 +4249,7 @@ RuntimeStats
 {
 public
 :
+explicit
 SimpleJSRuntimeStats
 (
 MallocSizeOf

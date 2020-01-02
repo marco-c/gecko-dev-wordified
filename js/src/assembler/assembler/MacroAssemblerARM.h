@@ -4663,6 +4663,8 @@ S1
 )
 ;
 return
+Jump
+(
 m_assembler
 .
 jmp
@@ -4670,6 +4672,7 @@ jmp
 ARMCondition
 (
 cond
+)
 )
 )
 ;

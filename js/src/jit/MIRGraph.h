@@ -3309,6 +3309,7 @@ hasTryBlock_
 ;
 public
 :
+explicit
 MIRGraph
 (
 TempAllocator
@@ -3959,6 +3960,7 @@ lastIns
 }
 public
 :
+explicit
 MDefinitionIterator
 (
 MBasicBlock

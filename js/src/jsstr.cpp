@@ -7849,6 +7849,7 @@ true
 }
 public
 :
+explicit
 StringSegmentRange
 (
 JSContext
@@ -10921,6 +10922,7 @@ StringRegExpGuard
 ;
 public
 :
+explicit
 FlatMatch
 (
 JSContext
@@ -11424,6 +11426,7 @@ finishAtom
 }
 public
 :
+explicit
 StringRegExpGuard
 (
 JSContext
@@ -14420,6 +14423,7 @@ MOZ_DELETE
 ;
 public
 :
+explicit
 RopeBuilder
 (
 JSContext
@@ -14490,6 +14494,7 @@ namespace
 struct
 ReplaceData
 {
+explicit
 ReplaceData
 (
 JSContext

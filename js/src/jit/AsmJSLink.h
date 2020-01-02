@@ -187,6 +187,7 @@ settle
 ;
 public
 :
+explicit
 AsmJSFrameIterator
 (
 const

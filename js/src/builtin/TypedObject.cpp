@@ -19755,6 +19755,7 @@ rt_
 ;
 public
 :
+explicit
 MemoryInitVisitor
 (
 const
@@ -20139,6 +20140,7 @@ trace_
 ;
 public
 :
+explicit
 MemoryTracingVisitor
 (
 JSTracer

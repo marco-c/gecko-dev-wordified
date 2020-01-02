@@ -238,6 +238,7 @@ right
 *
 parent
 ;
+explicit
 Node
 (
 const
@@ -297,6 +298,7 @@ MOZ_DELETE
 ;
 public
 :
+explicit
 SplayTree
 (
 LifoAlloc

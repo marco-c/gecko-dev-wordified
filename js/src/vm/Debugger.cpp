@@ -1140,6 +1140,7 @@ called
 .
 *
 /
+explicit
 FrameRange
 (
 AbstractFramePtr
@@ -8837,6 +8838,7 @@ savedIterValue
 ;
 public
 :
+explicit
 PreserveIterValue
 (
 JSContext
@@ -23084,6 +23086,7 @@ column_
 ;
 }
 ;
+explicit
 FlowGraphSummary
 (
 JSContext

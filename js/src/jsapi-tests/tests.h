@@ -206,6 +206,7 @@ JSAPITestString
 )
 {
 }
+explicit
 JSAPITestString
 (
 const
@@ -1394,6 +1395,8 @@ expr
 return
 fail
 (
+JSAPITestString
+(
 "
 CHECK
 failed
@@ -1401,6 +1404,7 @@ failed
 "
 #
 expr
+)
 __FILE__
 __LINE__
 )
@@ -2631,6 +2635,7 @@ JSPrincipals
 {
 public
 :
+explicit
 TestJSPrincipals
 (
 int

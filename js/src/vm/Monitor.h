@@ -301,6 +301,7 @@ monitor
 endif
 public
 :
+explicit
 AutoLockMonitor
 (
 Monitor
@@ -561,6 +562,7 @@ monitor
 endif
 public
 :
+explicit
 AutoUnlockMonitor
 (
 Monitor

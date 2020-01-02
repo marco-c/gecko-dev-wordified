@@ -1795,6 +1795,7 @@ MAX_SLICE_ID
 =
 UINT16_MAX
 ;
+explicit
 ThreadPool
 (
 JSRuntime

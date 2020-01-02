@@ -3269,6 +3269,7 @@ pointer
 .
 *
 /
+MOZ_IMPLICIT
 Handle
 (
 js
@@ -3337,6 +3338,7 @@ pointer
 .
 *
 /
+MOZ_IMPLICIT
 Handle
 (
 JS
@@ -3393,6 +3395,7 @@ constNullValue
 )
 ;
 }
+MOZ_IMPLICIT
 Handle
 (
 MutableHandle
@@ -3982,6 +3985,7 @@ T
 public
 :
 inline
+MOZ_IMPLICIT
 MutableHandle
 (
 Rooted
@@ -3993,6 +3997,7 @@ root
 )
 ;
 inline
+MOZ_IMPLICIT
 MutableHandle
 (
 PersistentRooted
@@ -4807,6 +4812,7 @@ fromMarkedLocation
 .
 *
 /
+explicit
 InternalHandle
 (
 T
@@ -5463,6 +5469,7 @@ endif
 }
 public
 :
+explicit
 Rooted
 (
 JSContext
@@ -5568,6 +5575,7 @@ cx
 )
 ;
 }
+explicit
 Rooted
 (
 js
@@ -5629,6 +5637,7 @@ cx
 )
 ;
 }
+explicit
 Rooted
 (
 js
@@ -5690,6 +5699,7 @@ pt
 )
 ;
 }
+explicit
 Rooted
 (
 JSRuntime
@@ -6442,6 +6452,7 @@ GCType
 >
 rooter
 ;
+explicit
 RootedGeneric
 (
 js
@@ -6982,6 +6993,7 @@ T
 {
 public
 :
+MOZ_IMPLICIT
 FakeMutableHandle
 (
 T
@@ -6994,6 +7006,7 @@ ptr
 t
 ;
 }
+MOZ_IMPLICIT
 FakeMutableHandle
 (
 FakeRooted
@@ -8206,6 +8219,7 @@ this
 }
 public
 :
+explicit
 PersistentRooted
 (
 JSContext
@@ -8267,6 +8281,7 @@ cx
 )
 ;
 }
+explicit
 PersistentRooted
 (
 JSRuntime
@@ -8652,6 +8667,7 @@ CompilerRootNode
 {
 protected
 :
+explicit
 CompilerRootNode
 (
 js

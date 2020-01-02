@@ -213,6 +213,7 @@ ICEntry
 Kind
 frameKind
 ;
+explicit
 DebugModeOSREntry
 (
 JSScript
@@ -4869,11 +4870,12 @@ up
 .
 CodeOffsetLabel
 noFrameRegPopOffset
-=
+(
 masm
 .
 currentOffset
 (
+)
 )
 ;
 /

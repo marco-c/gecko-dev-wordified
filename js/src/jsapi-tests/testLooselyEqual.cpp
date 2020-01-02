@@ -261,6 +261,7 @@ JS
 RootedValue
 negzero
 ;
+explicit
 LooseEqualityData
 (
 JSContext

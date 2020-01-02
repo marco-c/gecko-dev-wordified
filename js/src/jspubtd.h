@@ -775,6 +775,7 @@ gcStoreBufferPtr_
 endif
 public
 :
+explicit
 Runtime
 (
 #

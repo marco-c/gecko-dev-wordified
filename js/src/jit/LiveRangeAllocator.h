@@ -200,6 +200,7 @@ NONE
 )
 {
 }
+explicit
 Requirement
 (
 Kind
@@ -272,6 +273,7 @@ SAME_AS_OTHER
 )
 ;
 }
+explicit
 Requirement
 (
 LAllocation

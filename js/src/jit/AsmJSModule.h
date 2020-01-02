@@ -1629,6 +1629,7 @@ nullptr
 )
 {
 }
+MOZ_IMPLICIT
 Name
 (
 PropertyName

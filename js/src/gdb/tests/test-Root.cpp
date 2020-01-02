@@ -207,7 +207,13 @@ cx
 JS_NewArrayObject
 (
 cx
+JS
+:
+:
+HandleValueArray
+(
 plinth
+)
 )
 )
 ;

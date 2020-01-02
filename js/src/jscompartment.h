@@ -482,6 +482,7 @@ nullptr
 )
 {
 }
+explicit
 CrossCompartmentKey
 (
 JSObject
@@ -503,6 +504,7 @@ wrapped
 )
 {
 }
+explicit
 CrossCompartmentKey
 (
 JSString
@@ -524,6 +526,7 @@ wrapped
 )
 {
 }
+explicit
 CrossCompartmentKey
 (
 Value
@@ -566,6 +569,7 @@ toGCThing
 )
 {
 }
+explicit
 CrossCompartmentKey
 (
 const
@@ -2036,7 +2040,13 @@ crossCompartmentWrappers
 .
 lookup
 (
+js
+:
+:
+CrossCompartmentKey
+(
 wrapped
+)
 )
 ;
 }
@@ -2073,6 +2083,7 @@ WrapperMap
 :
 Enum
 {
+explicit
 WrapperEnum
 (
 JSCompartment
@@ -3367,6 +3378,7 @@ AssertCompartmentUnchanged
 {
 public
 :
+explicit
 AssertCompartmentUnchanged
 (
 JSContext

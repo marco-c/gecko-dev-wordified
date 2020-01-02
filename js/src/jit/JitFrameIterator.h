@@ -1976,6 +1976,7 @@ MachineState
 machine
 )
 ;
+explicit
 SnapshotIterator
 (
 const
@@ -1984,6 +1985,7 @@ JitFrameIterator
 iter
 )
 ;
+explicit
 SnapshotIterator
 (
 const

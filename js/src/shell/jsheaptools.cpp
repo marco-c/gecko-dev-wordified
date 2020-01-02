@@ -3757,7 +3757,10 @@ array
 JS_NewArrayObject
 (
 context
+HandleValueArray
+(
 referrer
+)
 )
 ;
 if

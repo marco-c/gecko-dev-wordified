@@ -2405,6 +2405,7 @@ to
 nullptr
 here
 .
+explicit
 ClosureInfo
 (
 JSRuntime

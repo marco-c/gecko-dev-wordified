@@ -246,6 +246,7 @@ in
 slots
 *
 /
+explicit
 StmtInfoPC
 (
 ExclusiveContext

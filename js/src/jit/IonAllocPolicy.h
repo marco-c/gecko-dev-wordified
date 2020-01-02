@@ -195,6 +195,7 @@ rootList_
 ;
 public
 :
+explicit
 TempAllocator
 (
 LifoAlloc
@@ -487,6 +488,7 @@ alloc_
 ;
 public
 :
+MOZ_IMPLICIT
 IonAllocPolicy
 (
 TempAllocator

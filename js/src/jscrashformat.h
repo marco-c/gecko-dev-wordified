@@ -250,6 +250,7 @@ above
 uint64_t
 id
 ;
+explicit
 CrashHeader
 (
 uint64_t
@@ -293,6 +294,7 @@ crash_buffer_size
 struct
 CrashStack
 {
+explicit
 CrashStack
 (
 uint64_t
@@ -385,6 +387,7 @@ stack
 struct
 CrashRing
 {
+explicit
 CrashRing
 (
 uint64_t

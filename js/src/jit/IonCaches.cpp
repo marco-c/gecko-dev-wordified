@@ -1088,6 +1088,7 @@ stubCodePatchOffset_
 ;
 public
 :
+explicit
 StubAttacher
 (
 CodeLocationLabel
@@ -1681,6 +1682,7 @@ cache_
 ;
 public
 :
+explicit
 RepatchStubAppender
 (
 RepatchIonCache
@@ -1997,6 +1999,7 @@ cache_
 ;
 public
 :
+explicit
 DispatchStubPrepender
 (
 DispatchIonCache

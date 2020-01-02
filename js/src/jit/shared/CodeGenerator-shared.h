@@ -4161,6 +4161,7 @@ out_
 ;
 public
 :
+explicit
 StoreRegisterTo
 (
 Register
@@ -4229,6 +4230,7 @@ out_
 ;
 public
 :
+explicit
 StoreFloatRegisterTo
 (
 FloatRegister
@@ -4302,6 +4304,7 @@ out_
 ;
 public
 :
+explicit
 StoreValueTo_
 (
 const
@@ -4834,6 +4837,7 @@ lir_
 ;
 public
 :
+explicit
 OutOfLinePropagateAbortPar
 (
 LInstruction

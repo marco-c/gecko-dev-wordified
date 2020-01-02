@@ -868,6 +868,7 @@ ptr_
 )
 {
 }
+MOZ_IMPLICIT
 AbstractFramePtr
 (
 InterpreterFrame
@@ -901,6 +902,7 @@ fp
 )
 ;
 }
+MOZ_IMPLICIT
 AbstractFramePtr
 (
 jit
@@ -937,6 +939,7 @@ fp
 )
 ;
 }
+MOZ_IMPLICIT
 AbstractFramePtr
 (
 jit
@@ -7233,6 +7236,7 @@ v_
 ;
 public
 :
+explicit
 InvokeArgs
 (
 JSContext
@@ -8502,6 +8506,7 @@ active
 true
 )
 ;
+explicit
 JitActivation
 (
 ForkJoinContext
@@ -9895,6 +9900,7 @@ other
 ;
 }
 ;
+MOZ_IMPLICIT
 FrameIter
 (
 ThreadSafeContext
@@ -9933,6 +9939,7 @@ FrameIter
 iter
 )
 ;
+MOZ_IMPLICIT
 FrameIter
 (
 const
@@ -9941,6 +9948,7 @@ Data
 data
 )
 ;
+MOZ_IMPLICIT
 FrameIter
 (
 AbstractFramePtr
@@ -11112,6 +11120,7 @@ operator
 }
 public
 :
+explicit
 ScriptFrameIter
 (
 ThreadSafeContext
@@ -11202,6 +11211,7 @@ settle
 )
 ;
 }
+explicit
 ScriptFrameIter
 (
 const
@@ -11223,6 +11233,7 @@ settle
 )
 ;
 }
+explicit
 ScriptFrameIter
 (
 AbstractFramePtr
@@ -11323,6 +11334,7 @@ settle
 ;
 public
 :
+explicit
 NonBuiltinFrameIter
 (
 ThreadSafeContext
@@ -11413,6 +11425,7 @@ settle
 )
 ;
 }
+explicit
 NonBuiltinFrameIter
 (
 const
@@ -11491,6 +11504,7 @@ settle
 ;
 public
 :
+explicit
 NonBuiltinScriptFrameIter
 (
 ThreadSafeContext
@@ -11581,6 +11595,7 @@ settle
 )
 ;
 }
+explicit
 NonBuiltinScriptFrameIter
 (
 const
@@ -11665,6 +11680,7 @@ ScriptFrameIter
 {
 public
 :
+explicit
 AllFramesIter
 (
 ThreadSafeContext

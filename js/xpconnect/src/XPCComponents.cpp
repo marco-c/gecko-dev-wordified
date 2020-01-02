@@ -12708,7 +12708,13 @@ cidObj
 "
 createInstance
 "
+JS
+:
+:
+HandleValueArray
+(
 arg
+)
 &
 rval
 )
@@ -19636,7 +19642,13 @@ NullPtr
 (
 )
 aCallback
+JS
+:
+:
+HandleValueArray
+(
 globalVal
+)
 &
 ignored
 )

@@ -226,6 +226,7 @@ BitsPerWord
 }
 private
 :
+explicit
 BitSet
 (
 unsigned
@@ -863,6 +864,7 @@ index_
 }
 public
 :
+explicit
 Iterator
 (
 BitSet

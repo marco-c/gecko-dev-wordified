@@ -1271,6 +1271,7 @@ pop
 ;
 public
 :
+explicit
 SPSProfiler
 (
 JSRuntime
@@ -1757,6 +1758,7 @@ public
 #
 ifdef
 JS_THREADSAFE
+explicit
 AutoSPSLock
 (
 PRLock
@@ -1800,6 +1802,7 @@ lock_
 }
 #
 else
+explicit
 AutoSPSLock
 (
 PRLock
@@ -1919,6 +1922,7 @@ SPSEntryMarker
 {
 public
 :
+explicit
 SPSEntryMarker
 (
 JSRuntime
@@ -2259,6 +2263,7 @@ fields
 .
 *
 /
+explicit
 SPSInstrumentation
 (
 SPSProfiler

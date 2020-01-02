@@ -3248,6 +3248,7 @@ _
 gcHeapGCThings
 )
 \
+explicit
 RuntimeStats
 (
 mozilla
@@ -3668,6 +3669,7 @@ iface
 GetISupportsFun
 getISupports_
 ;
+explicit
 ObjectPrivateVisitor
 (
 GetISupportsFun

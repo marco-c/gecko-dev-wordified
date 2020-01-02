@@ -27379,6 +27379,7 @@ runtime
 ;
 public
 :
+explicit
 AutoCopyFreeListToArenasForGC
 (
 JSRuntime
@@ -27874,6 +27875,7 @@ AutoGCSlice
 {
 public
 :
+explicit
 AutoGCSlice
 (
 JSRuntime
@@ -29755,6 +29757,7 @@ prior
 ;
 public
 :
+explicit
 AutoDisableStoreBuffer
 (
 GCRuntime

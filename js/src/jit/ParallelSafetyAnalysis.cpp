@@ -660,6 +660,7 @@ alloc
 }
 public
 :
+explicit
 ParallelSafetyVisitor
 (
 MIRGraph

@@ -1530,7 +1530,10 @@ JS_CallFunctionValue
 cx
 jsobj
 fun
+HandleValueArray
+(
 arg
+)
 &
 retval
 )

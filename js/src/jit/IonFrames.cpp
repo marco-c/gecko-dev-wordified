@@ -3636,6 +3636,7 @@ BaselineFrame
 *
 frame
 ;
+explicit
 AutoDeleteDebugModeOSRInfo
 (
 BaselineFrame
@@ -12636,6 +12637,7 @@ n
 struct
 DumpOp
 {
+explicit
 DumpOp
 (
 unsigned

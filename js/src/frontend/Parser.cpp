@@ -7930,6 +7930,7 @@ ParseHandler
 struct
 BindData
 {
+explicit
 BindData
 (
 ExclusiveContext
@@ -8007,6 +8008,7 @@ u
 struct
 LetData
 {
+explicit
 LetData
 (
 ExclusiveContext
@@ -21516,6 +21518,7 @@ AddLetDecl
 uint32_t
 blockid
 ;
+explicit
 AddLetDecl
 (
 uint32_t

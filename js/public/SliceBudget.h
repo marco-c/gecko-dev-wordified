@@ -266,6 +266,7 @@ n
 .
 *
 /
+explicit
 SliceBudget
 (
 int64_t

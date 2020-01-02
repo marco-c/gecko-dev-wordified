@@ -356,6 +356,7 @@ IonAllocPolicy
 >
 varTypes
 ;
+explicit
 BaselineFrameInspector
 (
 TempAllocator
@@ -57317,7 +57318,10 @@ proto
 )
 =
 =
+TaggedProto
+(
 foundProto
+)
 )
 break
 ;

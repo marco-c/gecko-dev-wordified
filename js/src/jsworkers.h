@@ -1814,6 +1814,7 @@ thread
 unsigned
 compileTime
 ;
+explicit
 AsmJSParallelTask
 (
 size_t

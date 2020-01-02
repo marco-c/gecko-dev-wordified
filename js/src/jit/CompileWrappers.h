@@ -626,6 +626,7 @@ JitCompileOptions
 (
 )
 ;
+explicit
 JitCompileOptions
 (
 JSContext

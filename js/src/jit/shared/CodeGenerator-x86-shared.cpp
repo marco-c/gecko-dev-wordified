@@ -2498,6 +2498,7 @@ cond_
 ;
 public
 :
+explicit
 BailoutJump
 (
 Assembler
@@ -2582,6 +2583,7 @@ label_
 ;
 public
 :
+explicit
 BailoutLabel
 (
 Label
@@ -4250,6 +4252,7 @@ ins_
 ;
 public
 :
+explicit
 OutOfLineUndoALUOperation
 (
 LInstruction
@@ -4899,6 +4902,7 @@ ins_
 ;
 public
 :
+explicit
 MulNegativeZeroCheck
 (
 LMulI
@@ -10121,6 +10125,7 @@ this
 }
 public
 :
+explicit
 OutOfLineTableSwitch
 (
 MTableSwitch

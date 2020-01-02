@@ -5802,8 +5802,11 @@ input
 )
 ;
 matchResultTemplateObject_
-=
+.
+set
+(
 templateObject
+)
 ;
 return
 matchResultTemplateObject_
@@ -6111,8 +6114,11 @@ unsafeGet
 )
 {
 matchResultTemplateObject_
-=
+.
+set
+(
 nullptr
+)
 ;
 }
 }

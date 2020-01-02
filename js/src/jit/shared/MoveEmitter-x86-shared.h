@@ -404,6 +404,7 @@ type
 ;
 public
 :
+explicit
 MoveEmitterX86
 (
 MacroAssemblerSpecific

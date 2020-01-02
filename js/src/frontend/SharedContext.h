@@ -3157,6 +3157,7 @@ NestedScopeObject
 >
 staticScope
 ;
+explicit
 StmtInfoBase
 (
 ExclusiveContext

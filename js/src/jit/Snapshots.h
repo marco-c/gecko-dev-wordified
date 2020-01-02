@@ -698,6 +698,7 @@ a1
 )
 {
 }
+explicit
 RValueAllocation
 (
 Mode

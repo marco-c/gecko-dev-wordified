@@ -6129,9 +6129,8 @@ wcompartment
 putWrapper
 (
 cx
-ObjectValue
+CrossCompartmentKey
 (
-*
 newTarget
 )
 ObjectValue

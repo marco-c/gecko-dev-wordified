@@ -292,6 +292,7 @@ AsText
 false
 }
 ;
+explicit
 StatisticsSerializer
 (
 Mode

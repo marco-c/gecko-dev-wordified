@@ -1041,6 +1041,7 @@ LIR_HEADER
 (
 PowHalfD
 )
+explicit
 LPowHalfD
 (
 const
@@ -1386,6 +1387,7 @@ LIR_HEADER
 (
 GuardShape
 )
+explicit
 LGuardShape
 (
 const
@@ -1437,6 +1439,7 @@ LIR_HEADER
 (
 GuardObjectType
 )
+explicit
 LGuardObjectType
 (
 const

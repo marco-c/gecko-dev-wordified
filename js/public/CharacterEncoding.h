@@ -1029,6 +1029,7 @@ s
 )
 {
 }
+MOZ_IMPLICIT
 ConstTwoByteChars
 (
 const

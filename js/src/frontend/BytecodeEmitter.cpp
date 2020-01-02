@@ -453,6 +453,7 @@ in
 BlockScopeArray
 *
 /
+explicit
 StmtInfoBCE
 (
 ExclusiveContext
@@ -635,6 +636,7 @@ stack
 bool
 canIonOsr
 ;
+explicit
 LoopStmtInfo
 (
 ExclusiveContext
@@ -26797,6 +26799,7 @@ bce
 ;
 public
 :
+explicit
 EmitLevelManager
 (
 BytecodeEmitter

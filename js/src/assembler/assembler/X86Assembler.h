@@ -1948,6 +1948,7 @@ m_offset
 )
 {
 }
+explicit
 JmpSrc
 (
 int
@@ -2053,6 +2054,7 @@ m_offset
 1
 ;
 }
+explicit
 JmpDst
 (
 int

@@ -2654,6 +2654,7 @@ end
 }
 public
 :
+explicit
 Enum
 (
 LifoAlloc
@@ -3078,6 +3079,7 @@ alloc_
 ;
 public
 :
+MOZ_IMPLICIT
 LifoAllocPolicy
 (
 LifoAlloc

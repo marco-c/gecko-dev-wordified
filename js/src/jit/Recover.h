@@ -434,6 +434,7 @@ class
 RInstruction
 ;
 \
+explicit
 R
 #
 #

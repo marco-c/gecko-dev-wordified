@@ -4067,6 +4067,7 @@ AutoFlushICache
 (
 )
 ;
+explicit
 AutoFlushICache
 (
 const

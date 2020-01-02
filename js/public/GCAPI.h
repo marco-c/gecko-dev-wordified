@@ -1492,6 +1492,7 @@ GCDescription
 bool
 isCompartment_
 ;
+explicit
 GCDescription
 (
 bool
@@ -2047,6 +2048,7 @@ restartVerifier
 endif
 public
 :
+explicit
 AutoDisableGenerationalGC
 (
 JSRuntime
@@ -2378,6 +2380,7 @@ AutoAssertNoGC
 )
 {
 }
+explicit
 AutoAssertNoGC
 (
 JSRuntime
@@ -2414,6 +2417,7 @@ nullptr
 )
 {
 }
+explicit
 ObjectPtr
 (
 JSObject

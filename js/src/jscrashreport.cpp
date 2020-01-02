@@ -919,6 +919,7 @@ CrashStack
 {
 public
 :
+explicit
 Stack
 (
 uint64_t
@@ -987,6 +988,7 @@ CrashRing
 {
 public
 :
+explicit
 Ring
 (
 uint64_t

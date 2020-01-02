@@ -2297,10 +2297,13 @@ code
 )
 ;
 return
+CodeOffsetLabel
+(
 masm
 .
 currentOffset
 (
+)
 )
 ;
 }
@@ -4124,10 +4127,13 @@ append
 (
 AsmJSAbsoluteLink
 (
+CodeOffsetLabel
+(
 masm
 .
 currentOffset
 (
+)
 )
 imm
 .

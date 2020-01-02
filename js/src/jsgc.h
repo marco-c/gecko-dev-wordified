@@ -6211,6 +6211,7 @@ doSweep
 ;
 public
 :
+explicit
 GCHelperThread
 (
 JSRuntime
@@ -7403,6 +7404,7 @@ suppressGC_
 ;
 public
 :
+explicit
 AutoSuppressGC
 (
 ExclusiveContext
@@ -7410,6 +7412,7 @@ ExclusiveContext
 cx
 )
 ;
+explicit
 AutoSuppressGC
 (
 JSCompartment
@@ -7417,6 +7420,7 @@ JSCompartment
 comp
 )
 ;
+explicit
 AutoSuppressGC
 (
 JSRuntime
@@ -7563,6 +7567,7 @@ else
 struct
 AutoDisableProxyCheck
 {
+explicit
 AutoDisableProxyCheck
 (
 JSRuntime

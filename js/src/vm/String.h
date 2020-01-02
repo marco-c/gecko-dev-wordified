@@ -6055,6 +6055,7 @@ chars_
 ;
 public
 :
+explicit
 ScopedThreadSafeStringInspector
 (
 JSString

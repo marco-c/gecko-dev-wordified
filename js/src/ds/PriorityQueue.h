@@ -244,6 +244,7 @@ MOZ_DELETE
 ;
 public
 :
+explicit
 PriorityQueue
 (
 AllocPolicy

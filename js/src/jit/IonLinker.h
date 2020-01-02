@@ -509,6 +509,7 @@ code
 }
 public
 :
+explicit
 Linker
 (
 MacroAssembler

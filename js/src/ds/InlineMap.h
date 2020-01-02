@@ -867,6 +867,7 @@ found
 )
 {
 }
+explicit
 AddPtr
 (
 const

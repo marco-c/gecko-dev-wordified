@@ -178,6 +178,7 @@ details
 struct
 AutoMarkInDeadZone
 {
+explicit
 AutoMarkInDeadZone
 (
 JS
@@ -1299,6 +1300,7 @@ ArenaCellIterImpl
 {
 public
 :
+explicit
 ArenaCellIterUnderGC
 (
 ArenaHeader
@@ -1340,6 +1342,7 @@ ArenaCellIterImpl
 {
 public
 :
+explicit
 ArenaCellIterUnderFinalize
 (
 ArenaHeader
@@ -1669,6 +1672,7 @@ nullptr
 )
 {
 }
+explicit
 AutoAssertNoAlloc
 (
 JSRuntime
@@ -1743,6 +1747,7 @@ AutoAssertNoAlloc
 )
 {
 }
+explicit
 AutoAssertNoAlloc
 (
 JSRuntime
@@ -2061,6 +2066,7 @@ zone
 ;
 public
 :
+explicit
 GCZonesIter
 (
 JSRuntime
@@ -2238,6 +2244,7 @@ current
 ;
 public
 :
+explicit
 GCZoneGroupIter
 (
 JSRuntime

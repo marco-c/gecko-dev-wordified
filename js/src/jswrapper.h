@@ -204,6 +204,7 @@ proto_
 )
 {
 }
+explicit
 WrapperOptions
 (
 JSContext
@@ -612,6 +613,7 @@ Wrapper
 {
 public
 :
+explicit
 CrossCompartmentWrapper
 (
 unsigned
@@ -1147,6 +1149,7 @@ Base
 {
 public
 :
+explicit
 SecurityWrapper
 (
 unsigned
@@ -2311,6 +2314,7 @@ for
 its
 runtime
 .
+explicit
 AutoMaybeTouchDeadZones
 (
 JSContext
@@ -2318,6 +2322,7 @@ JSContext
 cx
 )
 ;
+explicit
 AutoMaybeTouchDeadZones
 (
 JSObject

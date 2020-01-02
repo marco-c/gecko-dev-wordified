@@ -5248,6 +5248,7 @@ hadException
 endif
 public
 :
+explicit
 AutoAssertNoException
 (
 JSContext
@@ -5321,6 +5322,7 @@ cx_
 ;
 public
 :
+MOZ_IMPLICIT
 ContextAllocPolicy
 (
 ThreadSafeContext
@@ -5816,6 +5818,7 @@ true
 }
 public
 :
+explicit
 AutoLockForExclusiveAccess
 (
 ExclusiveContext
@@ -5835,6 +5838,7 @@ runtime_
 )
 ;
 }
+explicit
 AutoLockForExclusiveAccess
 (
 JSRuntime

@@ -1404,6 +1404,7 @@ mode
 struct
 VMFunctionsModal
 {
+explicit
 VMFunctionsModal
 (
 const
@@ -3341,6 +3342,7 @@ NOTHING
 \
 }
 \
+explicit
 FunctionInfo
 (
 pf
@@ -3549,6 +3551,7 @@ return
 0
 ;
 }
+explicit
 FunctionInfo
 (
 pf

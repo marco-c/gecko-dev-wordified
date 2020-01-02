@@ -523,6 +523,7 @@ Base
 ;
 public
 :
+explicit
 Vector
 (
 AllocPolicy

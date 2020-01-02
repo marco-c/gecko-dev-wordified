@@ -876,6 +876,7 @@ dataTyped
 reg
 ;
 }
+MOZ_IMPLICIT
 TypedOrValueRegister
 (
 ValueOperand
@@ -1120,6 +1121,7 @@ ConstantOrRegister
 )
 {
 }
+MOZ_IMPLICIT
 ConstantOrRegister
 (
 Value
@@ -1138,6 +1140,7 @@ dataValue
 value
 ;
 }
+MOZ_IMPLICIT
 ConstantOrRegister
 (
 TypedOrValueRegister
@@ -3387,6 +3390,7 @@ regset_
 ;
 public
 :
+explicit
 TypedRegisterIterator
 (
 TypedRegisterSet
@@ -3528,6 +3532,7 @@ regset_
 ;
 public
 :
+explicit
 TypedRegisterBackwardIterator
 (
 TypedRegisterSet
@@ -3669,6 +3674,7 @@ regset_
 ;
 public
 :
+explicit
 TypedRegisterForwardIterator
 (
 TypedRegisterSet
@@ -3880,6 +3886,7 @@ floatset
 )
 {
 }
+explicit
 AnyRegisterIterator
 (
 const
@@ -4074,6 +4081,7 @@ offset_
 1
 ;
 }
+explicit
 ABIArg
 (
 Register
@@ -4096,6 +4104,7 @@ code
 )
 ;
 }
+explicit
 ABIArg
 (
 FloatRegister
@@ -4118,6 +4127,7 @@ code
 )
 ;
 }
+explicit
 ABIArg
 (
 uint32_t

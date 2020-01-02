@@ -164,9 +164,12 @@ global_
 )
 ;
 global_
-=
+.
+set
+(
 &
 global
+)
 ;
 }
 js
@@ -670,7 +673,13 @@ crossCompartmentWrappers
 .
 lookup
 (
+js
+:
+:
+CrossCompartmentKey
+(
 v
+)
 )
 )
 {

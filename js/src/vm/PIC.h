@@ -267,6 +267,7 @@ nullptr
 )
 {
 }
+explicit
 PICStub
 (
 const
@@ -286,6 +287,7 @@ next_
 )
 ;
 }
+explicit
 PICStub
 (
 const
@@ -743,6 +745,7 @@ shape_
 ;
 public
 :
+explicit
 Stub
 (
 Shape

@@ -417,6 +417,7 @@ RegExpStackCursor
 {
 public
 :
+explicit
 RegExpStackCursor
 (
 JSContext
