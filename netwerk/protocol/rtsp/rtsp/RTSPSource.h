@@ -193,6 +193,13 @@ nsIStreamingProtocolController
 .
 h
 "
+#
+include
+"
+nsProxyRelease
+.
+h
+"
 namespace
 android
 {
@@ -576,7 +583,7 @@ size_t
 trackIndex
 )
 ;
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIStreamingProtocolListener
 >

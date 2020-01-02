@@ -1377,8 +1377,11 @@ when
 /
 /
 RtspMediaResource
+:
+:
+OnDisconnected
 is
-destroyed
+called
 .
 class
 Listener
@@ -1417,12 +1420,7 @@ void
 Revoke
 (
 )
-{
-mResource
-=
-nullptr
 ;
-}
 private
 :
 nsRefPtr
