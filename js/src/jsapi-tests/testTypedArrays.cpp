@@ -992,7 +992,6 @@ JS_SetElement
 cx
 array
 0
-&
 v
 )
 ;
@@ -1080,7 +1079,6 @@ array
 elts
 /
 2
-&
 v
 )
 ;
@@ -1163,7 +1161,6 @@ array
 elts
 -
 1
-&
 v
 )
 ;
@@ -1305,7 +1302,6 @@ JS_SetElement
 cx
 array
 0
-&
 v2
 )
 ;

@@ -2175,7 +2175,6 @@ JS_SetElement
 aCx
 arrayObj
 i
-&
 value
 )
 )
@@ -2816,7 +2815,6 @@ JS_SetElement
 aCx
 array
 i
-&
 val
 )
 )

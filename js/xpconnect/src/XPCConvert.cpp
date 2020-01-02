@@ -9010,7 +9010,6 @@ JS_SetElement
 cx
 array
 i
-&
 current
 )
 )

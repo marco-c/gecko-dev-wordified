@@ -3142,13 +3142,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-tmpJsVal
-=
-OBJECT_TO_JSVAL
-(
-infoJsObj
-)
-;
 if
 (
 !
@@ -3157,8 +3150,7 @@ JS_SetElement
 aCx
 deliveryInfo
 i
-&
-tmpJsVal
+infoJsObj
 )
 )
 {
@@ -3706,13 +3698,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-tmpJsVal
-=
-OBJECT_TO_JSVAL
-(
-attachmentObj
-)
-;
 if
 (
 !
@@ -3721,8 +3706,7 @@ JS_SetElement
 aCx
 attachments
 i
-&
-tmpJsVal
+attachmentObj
 )
 )
 {

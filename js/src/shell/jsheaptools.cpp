@@ -3836,7 +3836,6 @@ JS_SetElement
 context
 array
 length
-&
 referrer
 )
 ;

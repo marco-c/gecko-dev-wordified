@@ -1472,7 +1472,6 @@ array
 index
 +
 +
-&
 val
 )
 )
