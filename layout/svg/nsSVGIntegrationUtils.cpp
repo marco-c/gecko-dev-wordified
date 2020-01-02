@@ -2020,7 +2020,7 @@ called
 by
 /
 /
-ComputeOutlineAndEffectsRect
+ComputeEffectsRect
 when
 it
 has
@@ -2083,7 +2083,7 @@ passed
 to
 /
 /
-ComputeOutlineAndEffectsRect
+ComputeEffectsRect
 won
 '
 t

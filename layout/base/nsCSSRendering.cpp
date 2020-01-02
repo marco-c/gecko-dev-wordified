@@ -3791,7 +3791,7 @@ to
 be
 consistent
 with
-ComputeOutlineAndEffectsRect
+ComputeEffectsRect
 in
 nsFrame
 .
