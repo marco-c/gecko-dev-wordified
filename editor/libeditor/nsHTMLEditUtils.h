@@ -439,6 +439,15 @@ static
 bool
 IsMozDiv
 (
+nsINode
+*
+aNode
+)
+;
+static
+bool
+IsMozDiv
+(
 nsIDOMNode
 *
 aNode

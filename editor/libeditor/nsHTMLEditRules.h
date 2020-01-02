@@ -1388,7 +1388,13 @@ nsIDOMNode
 aNode
 )
 ;
-nsINode
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 IsInListItem
 (
