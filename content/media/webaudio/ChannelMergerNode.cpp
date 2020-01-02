@@ -532,6 +532,15 @@ INTERNAL_STREAM
 )
 ;
 }
+ChannelMergerNode
+:
+:
+~
+ChannelMergerNode
+(
+)
+{
+}
 JSObject
 *
 ChannelMergerNode

@@ -334,6 +334,14 @@ aMallocSizeOf
 const
 MOZ_OVERRIDE
 ;
+protected
+:
+virtual
+~
+ConvolverNode
+(
+)
+;
 private
 :
 nsRefPtr

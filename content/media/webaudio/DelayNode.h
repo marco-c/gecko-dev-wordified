@@ -235,6 +235,14 @@ aMallocSizeOf
 const
 MOZ_OVERRIDE
 ;
+protected
+:
+virtual
+~
+DelayNode
+(
+)
+;
 private
 :
 static

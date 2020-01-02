@@ -308,6 +308,14 @@ return
 mOutputBuffer
 ;
 }
+protected
+:
+virtual
+~
+AudioProcessingEvent
+(
+)
+;
 private
 :
 already_AddRefed

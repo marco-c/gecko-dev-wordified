@@ -438,6 +438,15 @@ INTERNAL_STREAM
 )
 ;
 }
+ChannelSplitterNode
+:
+:
+~
+ChannelSplitterNode
+(
+)
+{
+}
 JSObject
 *
 ChannelSplitterNode

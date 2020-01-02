@@ -165,12 +165,6 @@ uint32_t
 aNumberOfOutputChannels
 )
 ;
-virtual
-~
-ScriptProcessorNode
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 IMPL_EVENT_HANDLER
 (
@@ -465,6 +459,14 @@ aMallocSizeOf
 )
 const
 MOZ_OVERRIDE
+;
+protected
+:
+virtual
+~
+ScriptProcessorNode
+(
+)
 ;
 private
 :

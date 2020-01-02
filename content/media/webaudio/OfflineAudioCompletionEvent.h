@@ -220,6 +220,14 @@ return
 mRenderedBuffer
 ;
 }
+protected
+:
+virtual
+~
+OfflineAudioCompletionEvent
+(
+)
+;
 private
 :
 nsRefPtr

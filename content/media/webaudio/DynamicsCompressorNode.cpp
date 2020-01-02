@@ -1211,6 +1211,15 @@ get
 )
 ;
 }
+DynamicsCompressorNode
+:
+:
+~
+DynamicsCompressorNode
+(
+)
+{
+}
 size_t
 DynamicsCompressorNode
 :

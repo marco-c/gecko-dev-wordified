@@ -195,6 +195,15 @@ SetIsDOMBinding
 )
 ;
 }
+OfflineAudioCompletionEvent
+:
+:
+~
+OfflineAudioCompletionEvent
+(
+)
+{
+}
 JSObject
 *
 OfflineAudioCompletionEvent

@@ -218,6 +218,15 @@ SetIsDOMBinding
 )
 ;
 }
+AudioProcessingEvent
+:
+:
+~
+AudioProcessingEvent
+(
+)
+{
+}
 JSObject
 *
 AudioProcessingEvent
