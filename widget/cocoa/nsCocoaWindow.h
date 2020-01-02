@@ -465,6 +465,9 @@ NSTrackingArea
 *
 mTrackingArea
 ;
+BOOL
+mBeingShown
+;
 }
 -
 (
@@ -598,6 +601,12 @@ NSView
 *
 )
 trackingAreaView
+;
+-
+(
+BOOL
+)
+isVisibleOrBeingShown
 ;
 -
 (
