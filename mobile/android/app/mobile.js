@@ -9816,9 +9816,6 @@ enabled
 true
 )
 ;
-#
-ifdef
-MOZ_ANDROID_SYNTHAPKS
 /
 /
 The
@@ -10103,8 +10100,6 @@ app_updates
 "
 )
 ;
-#
-endif
 /
 /
 The

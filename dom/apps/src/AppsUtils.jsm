@@ -639,7 +639,7 @@ origin
 ;
 #
 ifdef
-MOZ_ANDROID_SYNTHAPKS
+MOZ_WIDGET_ANDROID
 aObj
 .
 apkPackageName

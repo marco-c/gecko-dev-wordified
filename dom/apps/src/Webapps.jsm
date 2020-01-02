@@ -7627,7 +7627,7 @@ Install
 {
 #
 ifdef
-MOZ_ANDROID_SYNTHAPKS
+MOZ_WIDGET_ANDROID
 Services
 .
 obs
@@ -7794,7 +7794,7 @@ InstallPackage
 {
 #
 ifdef
-MOZ_ANDROID_SYNTHAPKS
+MOZ_WIDGET_ANDROID
 Services
 .
 obs
@@ -16849,9 +16849,6 @@ instead
 of
 web
 .
-#
-ifdef
-MOZ_ANDROID_SYNTHAPKS
 /
 /
 In
@@ -16871,6 +16868,9 @@ update
 /
 manifest
 .
+#
+ifdef
+MOZ_WIDGET_ANDROID
 dontNeedNetwork
 =
 !

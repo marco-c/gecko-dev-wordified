@@ -992,13 +992,6 @@ uninstalls
 as
 appropiate
 .
-if
-(
-AppConstants
-.
-MOZ_ANDROID_SYNTHAPKS
-)
-{
 UninstallListener
 .
 initUninstallPackageScan
@@ -1010,7 +1003,6 @@ getApplicationContext
 )
 )
 ;
-}
 }
 }
 }
