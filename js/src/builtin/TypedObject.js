@@ -10325,6 +10325,17 @@ outArrayType
 length
 )
 ;
+if
+(
+length
+=
+=
+=
+0
+)
+return
+outArray
+;
 const
 outGrainTypeIsTransparent
 =
