@@ -2886,7 +2886,7 @@ mCount
 /
 for
 convenience
-nsTouchEvent
+WidgetTouchEvent
 MakeTouchEvent
 (
 nsIWidget

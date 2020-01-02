@@ -1121,7 +1121,7 @@ bool
 RecvRealTouchEvent
 (
 const
-nsTouchEvent
+WidgetTouchEvent
 &
 event
 )
@@ -1131,7 +1131,7 @@ bool
 RecvRealTouchMoveEvent
 (
 const
-nsTouchEvent
+WidgetTouchEvent
 &
 event
 )
@@ -2499,7 +2499,7 @@ void
 UpdateTapState
 (
 const
-nsTouchEvent
+WidgetTouchEvent
 &
 aEvent
 nsEventStatus

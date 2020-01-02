@@ -6834,7 +6834,7 @@ isDownEvent
 =
 false
 ;
-nsTouchEvent
+WidgetTouchEvent
 event
 =
 ae

@@ -1256,7 +1256,7 @@ event
 bool
 SendRealTouchEvent
 (
-nsTouchEvent
+WidgetTouchEvent
 &
 event
 )

@@ -401,7 +401,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsTouchEvent
+mozilla
+:
+:
+WidgetTouchEvent
 *
 aEvent
 )

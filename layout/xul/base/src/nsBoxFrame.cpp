@@ -12223,13 +12223,13 @@ eventStructType
 NS_TOUCH_EVENT
 )
 {
-nsTouchEvent
+WidgetTouchEvent
 *
 touchEvent
 =
 static_cast
 <
-nsTouchEvent
+WidgetTouchEvent
 *
 >
 (

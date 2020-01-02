@@ -1048,7 +1048,7 @@ may
 be
 an
 *
-nsTouchEvent
+WidgetTouchEvent
 )
 to
 have
@@ -2223,7 +2223,7 @@ AsyncPanZoomController
 GetTouchInputBlockAPZC
 (
 const
-nsTouchEvent
+WidgetTouchEvent
 &
 aEvent
 ScreenPoint
@@ -2234,10 +2234,10 @@ nsEventStatus
 ProcessTouchEvent
 (
 const
-nsTouchEvent
+WidgetTouchEvent
 &
 touchEvent
-nsTouchEvent
+WidgetTouchEvent
 *
 aOutEvent
 )

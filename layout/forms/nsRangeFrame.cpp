@@ -2958,7 +2958,7 @@ MOZ_ASSERT
 (
 static_cast
 <
-nsTouchEvent
+WidgetTouchEvent
 *
 >
 (
@@ -2991,7 +2991,7 @@ FromUntyped
 (
 static_cast
 <
-nsTouchEvent
+WidgetTouchEvent
 *
 >
 (

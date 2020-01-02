@@ -4709,7 +4709,7 @@ x
 y
 coordinates
 }
-nsTouchEvent
+WidgetTouchEvent
 AndroidGeckoEvent
 :
 :
@@ -4852,7 +4852,7 @@ break
 ;
 }
 }
-nsTouchEvent
+WidgetTouchEvent
 event
 (
 true

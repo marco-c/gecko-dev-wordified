@@ -10104,7 +10104,7 @@ Touch
 GetTouchForIdentifier
 (
 const
-nsTouchEvent
+WidgetTouchEvent
 &
 aEvent
 int32_t
@@ -10182,7 +10182,7 @@ TabChild
 UpdateTapState
 (
 const
-nsTouchEvent
+WidgetTouchEvent
 &
 aEvent
 nsEventStatus
@@ -10839,12 +10839,12 @@ TabChild
 RecvRealTouchEvent
 (
 const
-nsTouchEvent
+WidgetTouchEvent
 &
 aEvent
 )
 {
-nsTouchEvent
+WidgetTouchEvent
 localEvent
 (
 aEvent
@@ -10932,7 +10932,7 @@ TabChild
 RecvRealTouchMoveEvent
 (
 const
-nsTouchEvent
+WidgetTouchEvent
 &
 aEvent
 )

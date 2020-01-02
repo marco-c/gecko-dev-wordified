@@ -20313,13 +20313,13 @@ CancelRangeThumbDrag
 }
 else
 {
-nsTouchEvent
+WidgetTouchEvent
 *
 touchEvent
 =
 static_cast
 <
-nsTouchEvent
+WidgetTouchEvent
 *
 >
 (

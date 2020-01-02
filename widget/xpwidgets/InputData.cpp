@@ -156,7 +156,7 @@ MultiTouchInput
 MultiTouchInput
 (
 const
-nsTouchEvent
+WidgetTouchEvent
 &
 aTouchEvent
 )
@@ -179,7 +179,7 @@ Can
 only
 copy
 from
-nsTouchEvent
+WidgetTouchEvent
 on
 main
 thread

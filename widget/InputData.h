@@ -779,7 +779,7 @@ mForce
 *
 Similar
 to
-nsTouchEvent
+WidgetTouchEvent
 but
 for
 use
@@ -804,8 +804,8 @@ many
 different
 coordinate
 spaces
-nsTouchEvent
 *
+WidgetTouchEvent
 stores
 its
 touch
@@ -818,11 +818,11 @@ a
 way
 to
 initialize
+*
 itself
 from
-an
-*
-nsTouchEvent
+a
+WidgetTouchEvent
 by
 copying
 all
@@ -832,11 +832,11 @@ over
 .
 Note
 that
+*
 this
 copying
 from
-*
-nsTouchEvent
+WidgetTouchEvent
 functionality
 can
 only
@@ -845,6 +845,7 @@ used
 on
 the
 main
+*
 thread
 .
 *
@@ -903,7 +904,7 @@ MultiTouchInput
 MultiTouchInput
 (
 const
-nsTouchEvent
+WidgetTouchEvent
 &
 aTouchEvent
 )
