@@ -1296,6 +1296,16 @@ JSProtoKey
 key
 )
 ;
+bool
+initConstructor
+(
+JSContext
+*
+cx
+JSProtoKey
+key
+)
+;
 void
 setConstructor
 (
