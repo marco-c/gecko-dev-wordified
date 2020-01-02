@@ -638,7 +638,7 @@ aPacket
 nsDeque
 :
 :
-PushFront
+Push
 (
 aPacket
 )
