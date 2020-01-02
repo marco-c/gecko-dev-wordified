@@ -295,6 +295,7 @@ errors
 "
 )
 ;
+explicit
 RollingMean
 (
 size_t

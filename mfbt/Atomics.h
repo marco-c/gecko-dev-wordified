@@ -6076,6 +6076,7 @@ mValue
 )
 {
 }
+explicit
 MOZ_CONSTEXPR
 AtomicBase
 (
@@ -6357,6 +6358,7 @@ Base
 )
 {
 }
+explicit
 MOZ_CONSTEXPR
 AtomicBaseIncDec
 (
@@ -6833,6 +6835,7 @@ Base
 )
 {
 }
+explicit
 MOZ_CONSTEXPR
 Atomic
 (
@@ -7126,6 +7129,7 @@ Base
 )
 {
 }
+explicit
 MOZ_CONSTEXPR
 Atomic
 (
@@ -7315,6 +7319,7 @@ Base
 )
 {
 }
+explicit
 MOZ_CONSTEXPR
 Atomic
 (
@@ -7562,6 +7567,7 @@ Base
 )
 {
 }
+explicit
 MOZ_CONSTEXPR
 Atomic
 (

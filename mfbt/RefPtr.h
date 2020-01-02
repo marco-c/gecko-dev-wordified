@@ -1587,6 +1587,7 @@ ptr
 )
 {
 }
+MOZ_IMPLICIT
 RefPtr
 (
 const
@@ -1608,6 +1609,7 @@ drop
 )
 {
 }
+MOZ_IMPLICIT
 RefPtr
 (
 T
@@ -2052,6 +2054,7 @@ DontRef
 ;
 public
 :
+MOZ_IMPLICIT
 TemporaryRef
 (
 T
@@ -2417,6 +2420,7 @@ tmp
 }
 private
 :
+explicit
 OutParamRef
 (
 RefPtr

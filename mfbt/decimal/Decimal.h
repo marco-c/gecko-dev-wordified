@@ -774,6 +774,7 @@ m_sign
 }
 ;
 MFBT_API
+explicit
 Decimal
 (
 int32_t
@@ -1402,6 +1403,7 @@ exponent
 }
 ;
 MFBT_API
+explicit
 Decimal
 (
 double

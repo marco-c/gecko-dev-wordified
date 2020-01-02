@@ -1547,6 +1547,7 @@ NODE_KIND_NORMAL
 NODE_KIND_SENTINEL
 }
 ;
+explicit
 LinkedListElement
 (
 NodeKind

@@ -171,6 +171,7 @@ Person
 &
 v
 ;
+explicit
 GetAge
 (
 Vector

@@ -136,6 +136,7 @@ FilterChecker
 {
 public
 :
+explicit
 FilterChecker
 (
 uint32_t

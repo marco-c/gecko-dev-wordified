@@ -2284,6 +2284,7 @@ typedef
 T
 ElementType
 ;
+explicit
 VectorBase
 (
 AllocPolicy
@@ -2293,6 +2294,7 @@ AllocPolicy
 )
 )
 ;
+explicit
 VectorBase
 (
 ThisVector
@@ -7898,6 +7900,7 @@ Base
 ;
 public
 :
+explicit
 Vector
 (
 AllocPolicy
