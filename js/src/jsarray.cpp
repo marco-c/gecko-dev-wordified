@@ -19940,13 +19940,6 @@ array
 .
 *
 /
-static
-const
-uint32_t
-ArrayEagerAllocationMaxLength
-=
-2048
-;
 RootedObject
 obj
 (
@@ -19959,7 +19952,10 @@ obj
 length
 <
 =
-ArrayEagerAllocationMaxLength
+ArrayObject
+:
+:
+EagerAllocationMaxLength
 )
 ?
 NewDenseAllocatedArray
