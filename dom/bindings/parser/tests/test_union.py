@@ -481,6 +481,10 @@ DOMString
 ByteString
 "
              
+"
+ScalarValueString
+"
+             
 #
 "
 sequence
