@@ -11671,7 +11671,7 @@ aEvent
 mClass
 !
 =
-NS_GESTURENOTIFY_EVENT
+eGestureNotifyEventClass
 &
 &
 aEvent

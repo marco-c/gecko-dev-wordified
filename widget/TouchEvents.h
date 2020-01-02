@@ -429,7 +429,7 @@ WidgetGUIEvent
 aIsTrusted
 aMessage
 aWidget
-NS_GESTURENOTIFY_EVENT
+eGestureNotifyEventClass
 )
 panDirection
 (
@@ -520,7 +520,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_GESTURENOTIFY_EVENT
+eGestureNotifyEventClass
 "
 Duplicate
 (

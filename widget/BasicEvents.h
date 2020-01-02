@@ -424,7 +424,7 @@ PointerEvent
 TouchEvents
 .
 h
-NS_GESTURENOTIFY_EVENT
+eGestureNotifyEventClass
 /
 /
 WidgetGestureNotifyEvent
