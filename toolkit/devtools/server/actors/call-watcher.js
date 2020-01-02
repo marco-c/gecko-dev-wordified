@@ -4053,6 +4053,7 @@ texParameteri
 [
 0
 1
+2
 ]
 texSubImage2D
 :
