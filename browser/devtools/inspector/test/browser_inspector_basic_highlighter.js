@@ -545,7 +545,7 @@ verifyNoNodeSelected
 (
 )
 {
-ok
+is
 (
 doc
 .
@@ -563,9 +563,6 @@ highlighted
 )
 .
 length
-=
-=
-=
 0
 "
 no
