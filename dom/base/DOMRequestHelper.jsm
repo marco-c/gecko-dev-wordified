@@ -397,7 +397,7 @@ if
 the
 listener
 is
-strong
+weak
 or
 not
 .
@@ -437,24 +437,13 @@ inherits
 "
 from
 DOMRequestIpcHelper
+and
 declares
 its
 own
 *
 queryInterface
 method
-and
-adds
-at
-least
-one
-weak
-listener
-to
-the
-Message
-*
-Manager
 MUST
 implement
 Ci
@@ -510,7 +499,7 @@ name
 messageName
 "
 *
-strongRef
+weakRef
 :
 false
 *
@@ -526,7 +515,7 @@ message
 identifier
 and
 '
-strongRef
+weakRef
 '
 a
 boolean
@@ -538,7 +527,7 @@ listener
 should
 be
 a
-strong
+weak
 referred
 one
 or
@@ -565,7 +554,7 @@ be
 added
 as
 a
-weak
+strong
 reference
 by
 default
@@ -696,7 +685,7 @@ if
 !
 aMsg
 .
-strongRef
+weakRef
 =
 =
 this
@@ -721,11 +710,11 @@ NS_ERROR_FAILURE
 }
 aMsg
 .
-strongRef
+weakRef
 ?
 cpmm
 .
-addMessageListener
+addWeakMessageListener
 (
 name
 this
@@ -733,7 +722,7 @@ this
 :
 cpmm
 .
-addWeakMessageListener
+addMessageListener
 (
 name
 this
@@ -750,7 +739,7 @@ name
 !
 aMsg
 .
-strongRef
+weakRef
 ;
 }
 )
@@ -863,7 +852,7 @@ aName
 ?
 cpmm
 .
-removeMessageListener
+removeWeakMessageListener
 (
 aName
 this
@@ -871,7 +860,7 @@ this
 :
 cpmm
 .
-removeWeakMessageListener
+removeMessageListener
 (
 aName
 this
@@ -941,7 +930,7 @@ name
 messageName
 '
 *
-strongRef
+weakRef
 :
 false
 *
@@ -957,7 +946,7 @@ message
 identifier
 and
 '
-strongRef
+weakRef
 '
 a
 boolean
@@ -969,7 +958,7 @@ listener
 should
 be
 a
-strong
+weak
 referred
 one
 or
@@ -996,7 +985,7 @@ be
 added
 as
 a
-weak
+strong
 referred
 one
 by
@@ -1245,7 +1234,7 @@ aName
 ?
 cpmm
 .
-removeMessageListener
+removeWeakMessageListener
 (
 aName
 this
@@ -1253,7 +1242,7 @@ this
 :
 cpmm
 .
-removeWeakMessageListener
+removeMessageListener
 (
 aName
 this
