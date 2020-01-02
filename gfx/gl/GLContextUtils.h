@@ -171,6 +171,9 @@ GLuint
 aTexture
 bool
 aYInvert
+gfx
+:
+:
 SurfaceFormat
 aFormat
 )

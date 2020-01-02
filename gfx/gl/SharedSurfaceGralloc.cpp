@@ -173,6 +173,13 @@ ShadowLayers
 h
 "
 #
+include
+"
+ScopedGLHelpers
+.
+h
+"
+#
 define
 DEBUG_GRALLOC
 #

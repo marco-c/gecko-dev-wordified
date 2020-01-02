@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+GLContext
+.
+h
+"
+#
+include
+"
 ScopedGLHelpers
 .
 h

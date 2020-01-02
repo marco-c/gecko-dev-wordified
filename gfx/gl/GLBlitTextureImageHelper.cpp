@@ -124,6 +124,13 @@ h
 #
 include
 "
+DecomposeIntoNoRepeatTriangles
+.
+h
+"
+#
+include
+"
 GLContext
 .
 h

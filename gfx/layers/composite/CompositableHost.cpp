@@ -230,6 +230,17 @@ h
 for
 MOZ_COUNT_CTOR
 etc
+#
+include
+"
+gfxPlatform
+.
+h
+"
+/
+/
+for
+gfxPlatform
 namespace
 mozilla
 {
