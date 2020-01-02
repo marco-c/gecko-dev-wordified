@@ -6706,12 +6706,6 @@ LStackSlot
 alloc
 (
 stackSlot
-reg
--
->
-isDouble
-(
-)
 )
 ;
 interval
