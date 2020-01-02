@@ -772,7 +772,7 @@ CleanupWindowEffects
 {
 }
 virtual
-void
+bool
 PreRender
 (
 LayerManager
@@ -780,6 +780,9 @@ LayerManager
 aManager
 )
 {
+return
+true
+;
 }
 virtual
 void
