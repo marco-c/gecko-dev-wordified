@@ -1116,6 +1116,7 @@ inspector
 ;
 }
 }
+;
 function
 ComputedViewTool
 (
