@@ -506,6 +506,15 @@ jitStackLimit
 (
 0
 )
+#
+if
+JS_TRACE_LOGGING
+traceLogger
+(
+nullptr
+)
+#
+endif
 activation_
 (
 nullptr
