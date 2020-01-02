@@ -472,6 +472,9 @@ self
 )
 :
         
+import
+mozinfo
+        
 appname
 =
 '
