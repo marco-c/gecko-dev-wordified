@@ -924,6 +924,20 @@ START_ASSERT_SAME_COMPARTMENT
 \
 if
 (
+!
+cx
+-
+>
+isExclusiveContext
+(
+)
+)
+\
+return
+;
+\
+if
+(
 cx
 -
 >
@@ -939,6 +953,11 @@ CompartmentChecker
 c
 (
 cx
+-
+>
+asExclusiveContext
+(
+)
 )
 template
 <
@@ -949,7 +968,7 @@ inline
 void
 assertSameCompartment
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 const
@@ -984,7 +1003,7 @@ inline
 void
 assertSameCompartmentDebugOnly
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 const
@@ -1021,7 +1040,7 @@ inline
 void
 assertSameCompartment
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 const
@@ -1071,7 +1090,7 @@ inline
 void
 assertSameCompartment
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 const
@@ -1134,7 +1153,7 @@ inline
 void
 assertSameCompartment
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 const
@@ -1210,7 +1229,7 @@ inline
 void
 assertSameCompartment
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 const

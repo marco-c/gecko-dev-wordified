@@ -6560,7 +6560,7 @@ flag
 bool
 toDictionaryMode
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 )
