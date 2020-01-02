@@ -750,6 +750,13 @@ Count
 )
 )
 {
+MaybeStartSampling
+(
+GetRefreshDriver
+(
+)
+)
+;
 Sample
 (
 )
@@ -761,13 +768,6 @@ the
 first
 sample
 manually
-MaybeStartSampling
-(
-GetRefreshDriver
-(
-)
-)
-;
 }
 }
 nsSMILTime
