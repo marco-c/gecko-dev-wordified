@@ -488,10 +488,6 @@ Display
 mImage
 )
 ;
-mImage
-=
-0
-;
 mGL
 -
 >

@@ -244,9 +244,14 @@ mFormats
 GLuint
 mProdTex
 ;
+public
+:
+const
 EGLImage
 mImage
 ;
+protected
+:
 GLContext
 *
 mCurConsGL
