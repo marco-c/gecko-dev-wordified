@@ -166,6 +166,13 @@ h
 #
 include
 "
+nsThemeConstants
+.
+h
+"
+#
+include
+"
 mozilla
 /
 BasicEvents
