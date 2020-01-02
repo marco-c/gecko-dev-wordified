@@ -493,9 +493,7 @@ static
 void
 HandleGeckoMessageWrapper
 (
-const
-nsAString
-&
+jobject
 a0
 )
 ;
