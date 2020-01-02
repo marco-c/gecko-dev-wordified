@@ -37123,14 +37123,6 @@ failure
 ;
 if
 (
-LIRGenerator
-:
-:
-allowFloat32Optimizations
-(
-)
-&
-&
 type_
 =
 =

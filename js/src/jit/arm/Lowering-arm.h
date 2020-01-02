@@ -734,16 +734,6 @@ MForkJoinGetSlice
 ins
 )
 ;
-static
-bool
-allowFloat32Optimizations
-(
-)
-{
-return
-true
-;
-}
 }
 ;
 typedef
