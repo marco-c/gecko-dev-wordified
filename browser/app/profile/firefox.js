@@ -14787,7 +14787,7 @@ details
 -
 width
 "
-450
+550
 )
 ;
 pref
