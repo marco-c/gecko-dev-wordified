@@ -132,8 +132,6 @@ log
 msg
 )
 {
-/
-/
 Services
 .
 console
