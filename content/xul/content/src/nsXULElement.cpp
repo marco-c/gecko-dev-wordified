@@ -15739,7 +15739,7 @@ the
 compilation
 scope
 .
-MOZ_ASSERT
+NS_ENSURE_STATE
 (
 aProtoDoc
 )
