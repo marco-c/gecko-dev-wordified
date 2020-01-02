@@ -6596,8 +6596,7 @@ JSEXN_INTERNALERR
 extern
 JS_FRIEND_API
 (
-const
-jschar
+JSFlatString
 *
 )
 GetErrorTypeName
