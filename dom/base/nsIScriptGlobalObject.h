@@ -223,7 +223,10 @@ NS_HandleScriptError
 nsIScriptGlobalObject
 *
 aScriptGlobal
-nsScriptErrorEvent
+mozilla
+:
+:
+InternalScriptErrorEvent
 *
 aErrorEvent
 nsEventStatus
@@ -578,7 +581,10 @@ virtual
 nsresult
 HandleScriptError
 (
-nsScriptErrorEvent
+mozilla
+:
+:
+InternalScriptErrorEvent
 *
 aErrorEvent
 nsEventStatus

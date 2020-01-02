@@ -559,6 +559,12 @@ using
 mozilla
 :
 :
+InternalScriptErrorEvent
+;
+using
+mozilla
+:
+:
 MutexAutoLock
 ;
 using
@@ -5410,11 +5416,11 @@ have
 to
 fire
 an
-nsScriptErrorEvent
+InternalScriptErrorEvent
 .
 .
 .
-nsScriptErrorEvent
+InternalScriptErrorEvent
 event
 (
 true

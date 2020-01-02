@@ -1032,13 +1032,13 @@ eventStructType
 NS_SCRIPT_ERROR_EVENT
 )
 {
-nsScriptErrorEvent
+InternalScriptErrorEvent
 *
 scriptEvent
 =
 static_cast
 <
-nsScriptErrorEvent
+InternalScriptErrorEvent
 *
 >
 (

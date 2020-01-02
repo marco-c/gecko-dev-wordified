@@ -1752,7 +1752,10 @@ errorName
 )
 ;
 }
-nsScriptErrorEvent
+mozilla
+:
+:
+InternalScriptErrorEvent
 event
 (
 true

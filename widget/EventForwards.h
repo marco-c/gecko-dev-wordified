@@ -582,13 +582,6 @@ mozilla
 WidgetTouchEvent
 nsTouchEvent
 ;
-typedef
-mozilla
-:
-:
-InternalScriptErrorEvent
-nsScriptErrorEvent
-;
 #
 endif
 /
