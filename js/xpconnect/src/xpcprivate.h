@@ -18366,8 +18366,10 @@ GetInvalidIID
 ;
 }
 static
+already_AddRefed
+<
 nsJSID
-*
+>
 NewID
 (
 const
@@ -18377,8 +18379,10 @@ str
 )
 ;
 static
+already_AddRefed
+<
 nsJSID
-*
+>
 NewID
 (
 const
