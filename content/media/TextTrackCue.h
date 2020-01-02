@@ -800,7 +800,7 @@ CueChanged
 )
 ;
 }
-TextTrackCueAlign
+AlignSetting
 Align
 (
 )
@@ -813,7 +813,7 @@ mAlign
 void
 SetAlign
 (
-TextTrackCueAlign
+AlignSetting
 &
 aAlign
 )
@@ -1380,7 +1380,7 @@ mVertical
 int
 mLine
 ;
-TextTrackCueAlign
+AlignSetting
 mAlign
 ;
 /
