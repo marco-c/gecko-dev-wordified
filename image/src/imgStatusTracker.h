@@ -661,6 +661,12 @@ SupportsWeakPtr
 imgStatusTracker
 >
 {
+virtual
+~
+imgStatusTracker
+(
+)
+;
 public
 :
 MOZ_DECLARE_REFCOUNTED_TYPENAME
@@ -728,12 +734,6 @@ image
 Image
 *
 aImage
-)
-;
-virtual
-~
-imgStatusTracker
-(
 )
 ;
 /

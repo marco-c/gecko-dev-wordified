@@ -299,12 +299,6 @@ mRef
 }
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-mozilla
-:
-:
-image
-:
-:
 ImageURL
 )
 nsresult
@@ -535,6 +529,12 @@ mScheme
 nsAutoCString
 mRef
 ;
+~
+ImageURL
+(
+)
+{
+}
 }
 ;
 }

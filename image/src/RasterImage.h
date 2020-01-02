@@ -2248,6 +2248,14 @@ it
 bool
 mAllocatedNewFrame
 ;
+private
+:
+~
+DecodeRequest
+(
+)
+{
+}
 }
 ;
 /
