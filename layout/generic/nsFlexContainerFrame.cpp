@@ -14979,12 +14979,9 @@ FlexboxAxisTracker
 &
 aAxisTracker
 const
-nsTArray
-<
-FlexItem
->
+FlexLine
 &
-aItems
+aLine
 nscoord
 aAvailableHeightForContent
 nsReflowStatus
@@ -15256,7 +15253,9 @@ sumOfChildHeights
 SumFlexItemMarginBoxMainSizes
 (
 aAxisTracker
-aItems
+aLine
+.
+mItems
 )
 ;
 if
@@ -15354,7 +15353,9 @@ sumOfChildHeights
 SumFlexItemMarginBoxMainSizes
 (
 aAxisTracker
-aItems
+aLine
+.
+mItems
 )
 ;
 return
@@ -17702,8 +17703,6 @@ ComputeFlexContainerMainSize
 aReflowState
 axisTracker
 line
-.
-mItems
 availableHeightForContent
 aStatus
 )

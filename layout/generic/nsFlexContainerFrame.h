@@ -620,12 +620,9 @@ FlexboxAxisTracker
 &
 aAxisTracker
 const
-nsTArray
-<
-FlexItem
->
+FlexLine
 &
-aFlexItems
+aLine
 nscoord
 aAvailableHeightForContent
 nsReflowStatus
