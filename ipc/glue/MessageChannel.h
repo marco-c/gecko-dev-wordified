@@ -914,6 +914,9 @@ SyncStackFrame
 *
 mTopFrame
 ;
+bool
+mIsSyncWaitingOnNonMainThread
+;
 /
 /
 The
