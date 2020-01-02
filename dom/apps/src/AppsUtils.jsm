@@ -877,6 +877,14 @@ aApp
 .
 redirects
 ;
+aObj
+.
+kind
+=
+aApp
+.
+kind
+;
 }
 this
 .
