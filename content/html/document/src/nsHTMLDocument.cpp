@@ -8269,7 +8269,7 @@ We
 want
 to
 use
-GetDocumentFromContext
+GetEntryDocument
 here
 because
 this
@@ -8312,10 +8312,7 @@ nsIDocument
 >
 callerDoc
 =
-nsContentUtils
-:
-:
-GetDocumentFromContext
+GetEntryDocument
 (
 )
 ;
