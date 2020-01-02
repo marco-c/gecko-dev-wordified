@@ -1316,8 +1316,6 @@ app
 .
 start
 (
-"
-"
 function
 (
 )
