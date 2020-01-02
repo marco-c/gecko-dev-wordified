@@ -2445,6 +2445,13 @@ Shutdown
 (
 )
 ;
+gfxAlphaBoxBlur
+:
+:
+ShutdownBlurCache
+(
+)
+;
 gfxGraphiteShaper
 :
 :

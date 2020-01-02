@@ -148,6 +148,13 @@ h
 #
 include
 "
+gfxBlur
+.
+h
+"
+#
+include
+"
 nsRect
 .
 h
