@@ -129,6 +129,9 @@ help
 home
 "
 "
+loop
+"
+"
 pinnedTab
 "
 "
@@ -250,6 +253,9 @@ customize
 "
 "
 help
+"
+"
+loop
 "
 "
 home
@@ -430,6 +436,9 @@ help
 "
 "
 home
+"
+"
+loop
 "
 "
 pinnedTab
