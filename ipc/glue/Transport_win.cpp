@@ -371,7 +371,7 @@ aTwo
 >
 mServerPipe
 =
-0
+INVALID_HANDLE_VALUE
 ;
 return
 true
