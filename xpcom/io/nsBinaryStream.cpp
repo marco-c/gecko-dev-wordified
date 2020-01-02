@@ -3921,8 +3921,9 @@ uint8_t
 *
 data
 =
-JS_GetArrayBufferData
+JS_GetStableArrayBufferData
 (
+cx
 &
 aBuffer
 .

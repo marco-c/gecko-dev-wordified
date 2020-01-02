@@ -328,8 +328,9 @@ nbytes
 ;
 memset
 (
-JS_GetArrayBufferData
+JS_GetStableArrayBufferData
 (
+cx
 buffer
 )
 1
@@ -720,8 +721,9 @@ CHECK
 (
 bufdata
 =
-JS_GetArrayBufferData
+JS_GetStableArrayBufferData
 (
+cx
 buffer
 )
 )
@@ -827,8 +829,9 @@ CHECK
 (
 bufdata
 =
-JS_GetArrayBufferData
+JS_GetStableArrayBufferData
 (
+cx
 buffer
 )
 )
