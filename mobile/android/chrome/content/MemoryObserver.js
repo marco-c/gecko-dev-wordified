@@ -541,8 +541,13 @@ memDumper
 dumpMemoryInfoToTempDir
 (
 aLabel
+/
+*
+minimize
+=
+*
+/
 false
-true
 )
 ;
 }
