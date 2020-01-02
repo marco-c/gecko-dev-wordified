@@ -5778,7 +5778,7 @@ obj
 >
 is
 <
-FunctionProxyObject
+ProxyObject
 >
 (
 )
