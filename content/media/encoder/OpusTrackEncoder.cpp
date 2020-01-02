@@ -1313,7 +1313,7 @@ kFrameDurationMs
 1000
 ;
 }
-nsRefPtr
+already_AddRefed
 <
 TrackMetadataBase
 >
@@ -1370,8 +1370,10 @@ return
 nullptr
 ;
 }
+nsRefPtr
+<
 OpusMetadata
-*
+>
 meta
 =
 new
@@ -1489,6 +1491,10 @@ mCommentHeader
 ;
 return
 meta
+.
+forget
+(
+)
 ;
 }
 nsresult
@@ -1847,8 +1853,10 @@ Next
 )
 ;
 }
+nsRefPtr
+<
 EncodedFrame
-*
+>
 audiodata
 =
 new

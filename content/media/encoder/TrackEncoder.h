@@ -363,7 +363,7 @@ codec
 *
 /
 virtual
-nsRefPtr
+already_AddRefed
 <
 TrackMetadataBase
 >
