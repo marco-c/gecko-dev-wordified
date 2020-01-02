@@ -1083,13 +1083,6 @@ h
 #
 include
 "
-nsIXPCSecurityManager
-.
-h
-"
-#
-include
-"
 nsIJSRuntimeService
 .
 h

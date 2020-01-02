@@ -296,13 +296,6 @@ h
 #
 include
 "
-nsIXPCSecurityManager
-.
-h
-"
-#
-include
-"
 xptcall
 .
 h
