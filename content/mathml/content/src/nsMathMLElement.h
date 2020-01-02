@@ -129,6 +129,17 @@ Link
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+DOMRect
+.
+h
+"
 class
 nsCSSValue
 ;

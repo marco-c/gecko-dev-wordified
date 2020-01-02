@@ -77,7 +77,11 @@ h
 #
 include
 "
-nsClientRect
+mozilla
+/
+dom
+/
+DOMRect
 .
 h
 "
@@ -88,6 +92,13 @@ nsRange
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsDOMCaretPosition
 :
 :
@@ -143,7 +154,7 @@ mOffsetNode
 }
 already_AddRefed
 <
-nsClientRect
+DOMRect
 >
 nsDOMCaretPosition
 :
@@ -165,7 +176,7 @@ nullptr
 }
 nsRefPtr
 <
-nsClientRect
+DOMRect
 >
 rect
 ;

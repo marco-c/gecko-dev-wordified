@@ -130,7 +130,11 @@ h
 #
 include
 "
-nsClientRect
+mozilla
+/
+dom
+/
+DOMRect
 .
 h
 "

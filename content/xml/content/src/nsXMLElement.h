@@ -126,6 +126,17 @@ Element
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+DOMRect
+.
+h
+"
 class
 nsXMLElement
 :

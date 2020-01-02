@@ -125,7 +125,11 @@ h
 #
 include
 "
-nsClientRect
+mozilla
+/
+dom
+/
+DOMRect
 .
 h
 "
@@ -208,7 +212,7 @@ this
 }
 already_AddRefed
 <
-nsClientRect
+DOMRect
 >
 nsPaintRequest
 :
@@ -219,12 +223,12 @@ ClientRect
 {
 nsRefPtr
 <
-nsClientRect
+DOMRect
 >
 clientRect
 =
 new
-nsClientRect
+DOMRect
 (
 this
 )
@@ -261,7 +265,7 @@ aResult
 {
 nsRefPtr
 <
-nsClientRect
+DOMRect
 >
 clientRect
 =

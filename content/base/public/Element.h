@@ -310,7 +310,11 @@ h
 #
 include
 "
-nsClientRect
+mozilla
+/
+dom
+/
+DOMRect
 .
 h
 "
@@ -383,12 +387,6 @@ nsAttrValueOrString
 ;
 class
 ContentUnbinder
-;
-class
-nsClientRect
-;
-class
-nsClientRectList
 ;
 class
 nsContentList
@@ -647,6 +645,12 @@ Link
 ;
 class
 UndoManager
+;
+class
+DOMRect
+;
+class
+DOMRectList
 ;
 /
 /
@@ -3844,7 +3848,7 @@ aError
 ;
 already_AddRefed
 <
-nsClientRectList
+DOMRectList
 >
 GetClientRects
 (
@@ -3852,7 +3856,7 @@ GetClientRects
 ;
 already_AddRefed
 <
-nsClientRect
+DOMRect
 >
 GetBoundingClientRect
 (
