@@ -2462,7 +2462,7 @@ c
 ;
 if
 (
-JS_LIKELY
+MOZ_LIKELY
 (
 userbuf
 .
@@ -2890,7 +2890,7 @@ getCharIgnoreEOL
 {
 if
 (
-JS_LIKELY
+MOZ_LIKELY
 (
 userbuf
 .

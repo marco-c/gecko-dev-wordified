@@ -2161,7 +2161,7 @@ pc
 ;
 if
 (
-JS_LIKELY
+MOZ_LIKELY
 (
 !
 obj
@@ -7833,7 +7833,7 @@ t
 ;
 if
 (
-JS_LIKELY
+MOZ_LIKELY
 (
 SafeAdd
 (
@@ -11731,7 +11731,7 @@ frame
 /
 if
 (
-JS_LIKELY
+MOZ_LIKELY
 (
 interpReturnOK
 )

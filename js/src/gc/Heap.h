@@ -1689,7 +1689,7 @@ thingSize
 else
 if
 (
-JS_LIKELY
+MOZ_LIKELY
 (
 thing
 =
@@ -1709,7 +1709,7 @@ span
 .
 We
 use
-JS_LIKELY
+MOZ_LIKELY
 as
 without
 PGO

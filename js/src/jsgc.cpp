@@ -6181,7 +6181,7 @@ ArenaHeader
 *
 aheader
 =
-JS_LIKELY
+MOZ_LIKELY
 (
 info
 .
@@ -11164,7 +11164,7 @@ thingKind
 ;
 if
 (
-JS_LIKELY
+MOZ_LIKELY
 (
 !
 !

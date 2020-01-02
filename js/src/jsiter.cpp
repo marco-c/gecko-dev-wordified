@@ -4613,7 +4613,7 @@ JSITER_FOREACH
 {
 if
 (
-JS_LIKELY
+MOZ_LIKELY
 (
 obj
 !
@@ -4664,7 +4664,7 @@ else
 {
 if
 (
-JS_LIKELY
+MOZ_LIKELY
 (
 obj
 !

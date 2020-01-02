@@ -29146,7 +29146,7 @@ hasSlot
 &
 &
 (
-JS_LIKELY
+MOZ_LIKELY
 (
 cx
 -

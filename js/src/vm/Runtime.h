@@ -3526,7 +3526,7 @@ bytes
 )
 ;
 return
-JS_LIKELY
+MOZ_LIKELY
 (
 !
 !
@@ -3584,7 +3584,7 @@ bytes
 )
 ;
 return
-JS_LIKELY
+MOZ_LIKELY
 (
 !
 !
@@ -3683,7 +3683,7 @@ newBytes
 )
 ;
 return
-JS_LIKELY
+MOZ_LIKELY
 (
 !
 !
@@ -3770,7 +3770,7 @@ bytes
 )
 ;
 return
-JS_LIKELY
+MOZ_LIKELY
 (
 !
 !
