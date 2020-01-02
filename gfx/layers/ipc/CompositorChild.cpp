@@ -421,8 +421,7 @@ SendStop
 static
 *
 /
-PCompositorChild
-*
+bool
 CompositorChild
 :
 :
@@ -512,7 +511,7 @@ process
 )
 ;
 return
-nullptr
+false
 ;
 }
 if
@@ -551,7 +550,7 @@ channel
 )
 ;
 return
-nullptr
+false
 ;
 }
 /
@@ -565,7 +564,6 @@ ActorDestroy
 (
 )
 .
-return
 sCompositor
 =
 child
@@ -577,6 +575,9 @@ forget
 get
 (
 )
+;
+return
+true
 ;
 }
 /

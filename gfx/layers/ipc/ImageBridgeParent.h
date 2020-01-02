@@ -330,8 +330,7 @@ aWhy
 MOZ_OVERRIDE
 ;
 static
-PImageBridgeParent
-*
+bool
 Create
 (
 Transport

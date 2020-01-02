@@ -118,8 +118,7 @@ Main
 protected
 :
 virtual
-PTestOpensOpenedParent
-*
+bool
 AllocPTestOpensOpenedParent
 (
 Transport
@@ -256,8 +255,7 @@ RecvStart
 MOZ_OVERRIDE
 ;
 virtual
-PTestOpensOpenedChild
-*
+bool
 AllocPTestOpensOpenedChild
 (
 Transport

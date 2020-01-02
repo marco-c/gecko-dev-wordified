@@ -414,8 +414,7 @@ Parent
 )
 ;
 }
-PTestOpensOpenedParent
-*
+bool
 TestOpensParent
 :
 :
@@ -455,7 +454,7 @@ h
 )
 {
 return
-nullptr
+false
 ;
 }
 gParentThread
@@ -518,7 +517,7 @@ h
 )
 ;
 return
-a
+true
 ;
 }
 void
@@ -986,8 +985,7 @@ Hello
 )
 ;
 }
-PTestOpensOpenedChild
-*
+bool
 TestOpensChild
 :
 :
@@ -1027,7 +1025,7 @@ h
 )
 {
 return
-nullptr
+false
 ;
 }
 gChildThread
@@ -1090,7 +1088,7 @@ h
 )
 ;
 return
-a
+true
 ;
 }
 void

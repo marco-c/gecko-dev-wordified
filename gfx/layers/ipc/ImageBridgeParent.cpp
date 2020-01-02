@@ -780,8 +780,7 @@ Parent
 static
 *
 /
-PImageBridgeParent
-*
+bool
 ImageBridgeParent
 :
 :
@@ -812,7 +811,7 @@ processHandle
 )
 {
 return
-nullptr
+false
 ;
 }
 MessageLoop
@@ -866,11 +865,7 @@ processHandle
 )
 ;
 return
-bridge
-.
-get
-(
-)
+true
 ;
 }
 bool

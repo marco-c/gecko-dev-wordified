@@ -1061,8 +1061,7 @@ context
 *
 /
 static
-PCompositorParent
-*
+bool
 Create
 (
 Transport
