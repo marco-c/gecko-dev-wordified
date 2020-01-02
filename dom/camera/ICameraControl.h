@@ -90,6 +90,9 @@ CameraCommon
 .
 h
 "
+class
+DeviceStorageFileDescriptor
+;
 namespace
 mozilla
 {
@@ -204,13 +207,9 @@ idl
 CameraStartRecordingOptions
 *
 aOptions
-nsIFile
+DeviceStorageFileDescriptor
 *
-aFolder
-const
-nsAString
-&
-aFilename
+aFileDescriptor
 nsICameraStartRecordingCallback
 *
 onSuccess
