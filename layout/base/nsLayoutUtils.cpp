@@ -31186,13 +31186,10 @@ imageRect
 drawingParams
 .
 mFillRect
-gfx
+gfxImageFormat
 :
 :
-SurfaceFormat
-:
-:
-B8G8R8A8
+ARGB32
 aFilter
 )
 ;
