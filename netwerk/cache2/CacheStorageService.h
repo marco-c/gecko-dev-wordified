@@ -527,6 +527,10 @@ may
 be
 forced
 valid
+in
+a
+pruned
+hashtable
 .
 nsDataHashtable
 <
@@ -534,6 +538,14 @@ nsCStringHashKey
 TimeStamp
 >
 mForcedValidEntries
+;
+void
+ForcedValidEntriesPrune
+(
+TimeStamp
+&
+now
+)
 ;
 /
 /
