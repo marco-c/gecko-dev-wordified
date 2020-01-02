@@ -492,8 +492,7 @@ false
 struct
 RTPVideoHeaderH264
 {
-unsigned
-char
+uint8_t
 nalu_header
 ;
 bool

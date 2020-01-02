@@ -247,7 +247,7 @@ VIDEOCODEC_I420
 #
 define
 VCM_I420_IDX
-VIDEOCODEC_VP8
+VCM_VP8_IDX
 +
 1
 #
@@ -255,7 +255,7 @@ else
 #
 define
 VCM_I420_IDX
-VIDEOCODEC_VP8
+VCM_VP8_IDX
 #
 endif
 #

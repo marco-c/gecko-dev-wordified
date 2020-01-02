@@ -932,8 +932,7 @@ packet_size
 )
 ;
 const
-unsigned
-char
+uint8_t
 startCode
 [
 ]
@@ -2900,15 +2899,17 @@ codecHeader
 .
 H264
 ;
-unsigned
-char
+uint8_t
 nal_type
 =
 h264
 .
 nalu_header
 &
-0x1F
+RtpFormatH264
+:
+:
+kH264NAL_TypeMask
 ;
 bool
 potential_start
@@ -3060,6 +3061,8 @@ last_packet_seq_num_
 )
 )
 {
+/
+/
 LOG
 (
 LS_WARNING
@@ -3077,6 +3080,8 @@ which
 is
 out
 "
+/
+/
 "
 of
 frame
@@ -3323,6 +3328,8 @@ first_packet_seq_num_
 )
 )
 {
+/
+/
 LOG
 (
 LS_WARNING
@@ -3340,6 +3347,8 @@ which
 is
 out
 "
+/
+/
 "
 of
 frame
@@ -3463,6 +3472,8 @@ last_packet_seq_num_
 )
 )
 {
+/
+/
 LOG
 (
 LS_WARNING
@@ -3480,6 +3491,8 @@ which
 is
 out
 "
+/
+/
 "
 of
 frame
