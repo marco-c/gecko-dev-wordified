@@ -948,7 +948,7 @@ message
 .
 data
 .
-accountId
+email
 canonicalEmail
 )
 ;
@@ -1039,7 +1039,7 @@ method
 "
 signIn
 "
-accountId
+email
 :
 clientEmail
 password
