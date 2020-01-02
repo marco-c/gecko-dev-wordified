@@ -2438,7 +2438,6 @@ in
 floating
 point
 static
-const
 float
 value
 (
@@ -2486,7 +2485,6 @@ in
 a
 double
 static
-const
 double
 value
 (

@@ -1957,7 +1957,6 @@ T
 *
 type
 ;
-const
 static
 type
 empty
@@ -1968,7 +1967,6 @@ return
 nullptr
 ;
 }
-const
 static
 void
 release
