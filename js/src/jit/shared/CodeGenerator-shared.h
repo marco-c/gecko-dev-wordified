@@ -346,6 +346,9 @@ current
 SnapshotWriter
 snapshots_
 ;
+RecoverWriter
+recovers_
+;
 JitCode
 *
 deoptTable_
