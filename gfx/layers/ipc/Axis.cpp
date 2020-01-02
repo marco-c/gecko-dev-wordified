@@ -1433,7 +1433,6 @@ Axis
 GetCompositionEnd
 (
 )
-const
 {
 return
 GetOrigin
@@ -1452,7 +1451,6 @@ Axis
 GetPageEnd
 (
 )
-const
 {
 return
 GetPageStart
@@ -1471,7 +1469,6 @@ Axis
 GetOrigin
 (
 )
-const
 {
 CSSPoint
 origin
@@ -1501,7 +1498,6 @@ Axis
 GetCompositionLength
 (
 )
-const
 {
 const
 FrameMetrics
@@ -1533,7 +1529,6 @@ Axis
 GetPageStart
 (
 )
-const
 {
 CSSRect
 pageRect
@@ -1561,7 +1556,6 @@ Axis
 GetPageLength
 (
 )
-const
 {
 CSSRect
 pageRect
@@ -1668,7 +1662,6 @@ CSSPoint
 &
 aPoint
 )
-const
 {
 return
 aPoint
@@ -1687,7 +1680,6 @@ CSSRect
 &
 aRect
 )
-const
 {
 return
 aRect
@@ -1706,7 +1698,6 @@ CSSRect
 &
 aRect
 )
-const
 {
 return
 aRect
@@ -1741,7 +1732,6 @@ CSSPoint
 &
 aPoint
 )
-const
 {
 return
 aPoint
@@ -1760,7 +1750,6 @@ CSSRect
 &
 aRect
 )
-const
 {
 return
 aRect
@@ -1779,7 +1768,6 @@ CSSRect
 &
 aRect
 )
-const
 {
 return
 aRect
