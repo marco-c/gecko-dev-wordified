@@ -1801,7 +1801,6 @@ already_AddRefed
 SharedBuffer
 >
 (
-nullptr
 )
 0
 )
