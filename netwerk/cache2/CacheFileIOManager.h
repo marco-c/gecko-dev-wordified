@@ -2041,10 +2041,8 @@ mHandlesByLastUsed
 ;
 nsTArray
 <
-nsRefPtr
-<
 CacheFileHandle
->
+*
 >
 mSpecialHandles
 ;
