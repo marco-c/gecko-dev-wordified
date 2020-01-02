@@ -716,6 +716,11 @@ aLength
 ;
 protected
 :
+void
+InitFields
+(
+)
+;
 /
 /
 nsTextEditRules

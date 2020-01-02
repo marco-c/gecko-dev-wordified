@@ -740,10 +740,6 @@ DetachEditor
 (
 )
 ;
-mRules
-=
-nullptr
-;
 }
 {
 /
@@ -1774,12 +1770,12 @@ InitRules
 (
 )
 {
-MOZ_ASSERT
+if
 (
 !
 mRules
 )
-;
+{
 /
 /
 instantiate
@@ -1796,6 +1792,7 @@ nsTextEditRules
 (
 )
 ;
+}
 return
 mRules
 -

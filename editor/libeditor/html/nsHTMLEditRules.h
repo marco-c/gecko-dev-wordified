@@ -738,6 +738,11 @@ kBeforeBlock
 kBlockEnd
 }
 ;
+void
+InitFields
+(
+)
+;
 /
 /
 nsHTMLEditRules

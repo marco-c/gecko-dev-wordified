@@ -2628,12 +2628,12 @@ InitRules
 (
 )
 {
-MOZ_ASSERT
+if
 (
 !
 mRules
 )
-;
+{
 /
 /
 instantiate
@@ -2650,6 +2650,7 @@ nsHTMLEditRules
 (
 )
 ;
+}
 return
 mRules
 -
