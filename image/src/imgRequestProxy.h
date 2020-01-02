@@ -908,8 +908,10 @@ instantiated
 its
 image
 yet
+already_AddRefed
+<
 imgStatusTracker
-&
+>
 GetStatusTracker
 (
 )
