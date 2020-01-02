@@ -1208,6 +1208,10 @@ return
         
 targets
 =
+data
+.
+stripdotslashes
+(
 self
 .
 targetexp
@@ -1219,6 +1223,7 @@ makefile
 .
 variables
 )
+)
         
 rule
 =
@@ -1226,7 +1231,15 @@ data
 .
 Rule
 (
+list
+(
+data
+.
+stripdotslashes
+(
 deps
+)
+)
 self
 .
 doublecolon
