@@ -495,8 +495,108 @@ storage_type
 input_types
 default_value
 docs
+tier
 )
 #
+#
+Tier
+says
+for
+which
+specific
+tier
+the
+variable
+has
+an
+effect
+.
+#
+Valid
+tiers
+are
+:
+#
+-
+'
+export
+'
+#
+-
+'
+compile
+'
+:
+everything
+in
+relation
+with
+compiling
+objects
+.
+#
+-
+'
+binaries
+'
+:
+everything
+in
+relation
+with
+linking
+objects
+producing
+#
+programs
+and
+libraries
+.
+#
+-
+'
+libs
+'
+:
+everything
+that
+is
+not
+compile
+or
+binaries
+and
+that
+has
+#
+traditionally
+been
+in
+the
+libs
+tier
+.
+#
+-
+'
+tools
+'
+#
+A
+value
+of
+None
+means
+the
+variable
+has
+no
+direct
+effect
+on
+any
+tier
+.
 VARIABLES
 =
 {
@@ -546,6 +646,9 @@ on
 "
 "
 "
+'
+compile
+'
 )
     
 '
@@ -594,6 +697,9 @@ compile
 "
 "
 "
+'
+compile
+'
 )
     
 '
@@ -631,6 +737,9 @@ compile
 "
 "
 "
+'
+compile
+'
 )
     
 '
@@ -843,6 +952,7 @@ so
 "
 "
 "
+None
 )
     
 '
@@ -970,6 +1080,7 @@ delimiters
 "
 "
 "
+None
 )
     
 '
@@ -997,6 +1108,7 @@ folder
 "
 "
 "
+None
 )
     
 '
@@ -1040,6 +1152,9 @@ components
 "
 "
 "
+'
+libs
+'
 )
     
 '
@@ -1096,6 +1211,9 @@ undefined
 "
 "
 "
+'
+libs
+'
 )
     
 '
@@ -1154,6 +1272,9 @@ undefined
 "
 "
 "
+'
+libs
+'
 )
     
 '
@@ -1203,6 +1324,9 @@ distribution
 "
 "
 "
+'
+libs
+'
 )
     
 '
@@ -1259,6 +1383,9 @@ extensions
 "
 "
 "
+'
+binaries
+'
 )
     
 '
@@ -1284,6 +1411,7 @@ errors
 "
 "
 "
+None
 )
     
 '
@@ -1313,6 +1441,7 @@ library
 "
 "
 "
+None
 )
     
 '
@@ -1342,6 +1471,7 @@ library
 "
 "
 "
+None
 )
     
 '
@@ -1387,6 +1517,9 @@ compile
 "
 "
 "
+'
+compile
+'
 )
     
 '
@@ -1443,6 +1576,9 @@ compile
 "
 "
 "
+'
+compile
+'
 )
     
 '
@@ -1506,6 +1642,9 @@ extensions
 "
 "
 "
+'
+compile
+'
 )
     
 '
@@ -1552,6 +1691,9 @@ compile
 "
 "
 "
+'
+compile
+'
 )
     
 '
@@ -1594,6 +1736,9 @@ compile
 "
 "
 "
+'
+compile
+'
 )
     
 '
@@ -1622,6 +1767,7 @@ manifest
 "
 "
 "
+None
 )
     
 '
@@ -1694,6 +1840,7 @@ away
 "
 "
 "
+None
 )
     
 '
@@ -1722,6 +1869,9 @@ compiling
 "
 "
 "
+'
+binaries
+'
 )
     
 '
@@ -1789,6 +1939,7 @@ modules
 "
 "
 "
+None
 )
     
 '
@@ -1860,6 +2011,9 @@ Windows
 "
 "
 "
+'
+binaries
+'
 )
     
 '
@@ -1896,6 +2050,7 @@ linking
 "
 "
 "
+None
 )
     
 '
@@ -1931,6 +2086,7 @@ FORCE_STATIC_LIB
 "
 "
 "
+None
 )
     
 '
@@ -1962,6 +2118,7 @@ compiler
 "
 "
 "
+None
 )
     
 '
@@ -1991,6 +2148,7 @@ directory
 "
 "
 "
+None
 )
     
 '
@@ -2027,6 +2185,7 @@ against
 "
 "
 "
+None
 )
     
 '
@@ -2070,6 +2229,7 @@ lib
 "
 "
 "
+None
 )
     
 '
@@ -2113,6 +2273,7 @@ library
 "
 "
 "
+None
 )
     
 '
@@ -2158,6 +2319,9 @@ programs
 "
 "
 "
+'
+binaries
+'
 )
     
 '
@@ -2195,6 +2359,9 @@ on
 "
 "
 "
+'
+compile
+'
 )
     
 '
@@ -2255,6 +2422,7 @@ utilities
 "
 "
 "
+None
 )
     
 '
@@ -2315,6 +2483,7 @@ complete
 "
 "
 "
+None
 )
     
 '
@@ -2344,6 +2513,7 @@ enabled
 "
 "
 "
+None
 )
     
 '
@@ -2513,6 +2683,7 @@ add_tier_dir
 "
 "
 "
+None
 )
     
 '
@@ -2581,6 +2752,7 @@ files
 "
 "
 "
+None
 )
     
 '
@@ -2605,6 +2777,7 @@ EXTERNAL_MAKE_DIRS
 "
 "
 "
+None
 )
     
 '
@@ -2701,6 +2874,7 @@ configure
 "
 "
 "
+None
 )
     
 '
@@ -2756,6 +2930,7 @@ future
 "
 "
 "
+None
 )
     
 '
@@ -2915,6 +3090,7 @@ h
 "
 "
 "
+None
 )
     
 '
@@ -2970,6 +3146,9 @@ unchanged
 "
 "
 "
+'
+binaries
+'
 )
     
 '
@@ -3030,6 +3209,9 @@ extensions
 "
 "
 "
+'
+compile
+'
 )
     
 '
@@ -3079,6 +3261,7 @@ build
 "
 "
 "
+None
 )
     
 #
@@ -3141,6 +3324,7 @@ files
 "
 "
 "
+None
 )
     
 '
@@ -3197,6 +3381,7 @@ MODULE
 "
 "
 "
+None
 )
     
 '
@@ -3237,6 +3422,9 @@ files
 "
 "
 "
+'
+export
+'
 )
     
 '
@@ -3275,6 +3463,9 @@ files
 "
 "
 "
+'
+export
+'
 )
     
 '
@@ -3316,6 +3507,9 @@ files
 "
 "
 "
+'
+export
+'
 )
     
 '
@@ -3360,6 +3554,9 @@ enabled
 "
 "
 "
+'
+export
+'
 )
     
 '
@@ -3394,6 +3591,9 @@ files
 "
 "
 "
+'
+export
+'
 )
     
 '
@@ -3441,6 +3641,9 @@ enabled
 "
 "
 "
+'
+export
+'
 )
     
 '
@@ -3476,6 +3679,9 @@ converted
 "
 "
 "
+'
+export
+'
 )
     
 #
@@ -3508,6 +3714,7 @@ tests
 "
 "
 "
+None
 )
     
 '
@@ -3536,6 +3743,7 @@ tests
 "
 "
 "
+None
 )
     
 '
@@ -3563,6 +3771,7 @@ tests
 "
 "
 "
+None
 )
     
 '
@@ -3591,6 +3800,7 @@ tests
 "
 "
 "
+None
 )
     
 '
@@ -3619,6 +3829,7 @@ tests
 "
 "
 "
+None
 )
     
 '
@@ -3646,6 +3857,7 @@ tests
 "
 "
 "
+None
 )
 }
 #
