@@ -2916,6 +2916,14 @@ if
 mCache2Profileless
 )
 {
+nsDeleteDir
+:
+:
+RemoveOldTrashes
+(
+mCache2Profileless
+)
+;
 /
 /
 Always
