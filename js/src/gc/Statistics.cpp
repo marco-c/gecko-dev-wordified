@@ -1270,10 +1270,15 @@ gcreason
 NUM_REASONS
 )
 ;
-static
 const
 char
 *
+js
+:
+:
+gcstats
+:
+:
 ExplainReason
 (
 JS
