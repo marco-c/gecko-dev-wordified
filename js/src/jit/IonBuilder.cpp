@@ -9472,7 +9472,7 @@ false
 endif
 if
 (
-instrumentedProfiling
+isNativeToBytecodeMapEnabled
 (
 )
 )
