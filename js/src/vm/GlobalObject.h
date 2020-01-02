@@ -167,6 +167,15 @@ Vector
 .
 h
 "
+#
+include
+"
+vm
+/
+ErrorObject
+.
+h
+"
 extern
 JSObject
 *
@@ -2784,7 +2793,7 @@ getOrCreateCustomErrorPrototype
 JSContext
 *
 cx
-int
+JSExnType
 exnType
 )
 {
