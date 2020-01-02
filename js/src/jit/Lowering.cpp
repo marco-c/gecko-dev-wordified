@@ -4474,7 +4474,7 @@ LTestVAndBranch
 (
 ifTrue
 ifFalse
-tempFloat
+tempDouble
 (
 )
 temp0
@@ -7411,7 +7411,7 @@ alloc
 )
 LToIdV
 (
-tempFloat
+tempDouble
 (
 )
 )
@@ -8331,7 +8331,7 @@ num
 (
 )
 )
-tempFloat
+tempDouble
 (
 )
 )
@@ -12414,7 +12414,7 @@ alloc
 )
 LValueToInt32
 (
-tempFloat
+tempDouble
 (
 )
 temp
@@ -12663,7 +12663,7 @@ alloc
 )
 LValueToInt32
 (
-tempFloat
+tempDouble
 (
 )
 temp
@@ -14173,7 +14173,7 @@ value
 (
 )
 )
-tempFloat
+tempDouble
 (
 )
 )
@@ -16534,7 +16534,7 @@ alloc
 )
 LNotV
 (
-tempFloat
+tempDouble
 (
 )
 temp0
@@ -18573,7 +18573,7 @@ alloc
 )
 LClampVToUint8
 (
-tempFloat
+tempDouble
 (
 )
 )
@@ -20857,7 +20857,7 @@ useRegister
 (
 input
 )
-tempFloat
+tempDouble
 (
 )
 )
@@ -20881,7 +20881,7 @@ useRegister
 (
 input
 )
-tempFloat
+tempFloat32
 (
 )
 )
@@ -20904,10 +20904,10 @@ LAssertRangeV
 tempToUnbox
 (
 )
-tempFloat
+tempDouble
 (
 )
-tempFloat
+tempDouble
 (
 )
 )
@@ -21678,7 +21678,7 @@ tempToUnbox
 temp
 (
 )
-tempFloat
+tempDouble
 (
 )
 )
@@ -21762,7 +21762,7 @@ tempToUnbox
 temp
 (
 )
-tempFloat
+tempDouble
 (
 )
 )
