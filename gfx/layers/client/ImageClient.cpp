@@ -1626,6 +1626,13 @@ ImageFormatToSurfaceFormat
 format
 )
 mTextureFlags
+gfx
+:
+:
+BackendType
+:
+:
+NONE
 size
 )
 ;
