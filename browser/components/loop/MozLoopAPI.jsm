@@ -275,6 +275,9 @@ doNotDisturb
 enumerable
 :
 true
+configurable
+:
+true
 get
 :
 function
@@ -329,6 +332,9 @@ locale
 :
 {
 enumerable
+:
+true
+configurable
 :
 true
 get
@@ -400,6 +406,9 @@ getStrings
 :
 {
 enumerable
+:
+true
+configurable
 :
 true
 writable
@@ -490,6 +499,9 @@ ensureRegistered
 :
 {
 enumerable
+:
+true
+configurable
 :
 true
 writable
@@ -675,6 +687,9 @@ noteCallUrlExpiry
 enumerable
 :
 true
+configurable
+:
+true
 writable
 :
 true
@@ -766,6 +781,9 @@ setLoopCharPref
 :
 {
 enumerable
+:
+true
+configurable
 :
 true
 writable
@@ -885,6 +903,9 @@ getLoopCharPref
 enumerable
 :
 true
+configurable
+:
+true
 writable
 :
 true
@@ -923,6 +944,9 @@ startAlerting
 :
 {
 enumerable
+:
+true
+configurable
 :
 true
 writable
@@ -1049,6 +1073,9 @@ stopAlerting
 :
 {
 enumerable
+:
+true
+configurable
 :
 true
 writable
@@ -1246,6 +1273,9 @@ hawkRequest
 enumerable
 :
 true
+configurable
+:
+true
 writable
 :
 true
@@ -1337,13 +1367,6 @@ defineProperties
 (
 contentObj
 api
-)
-;
-Object
-.
-seal
-(
-contentObj
 )
 ;
 Cu
