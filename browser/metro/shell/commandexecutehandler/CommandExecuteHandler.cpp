@@ -205,8 +205,6 @@ wininet
 .
 h
 >
-/
-/
 #
 ifdef
 SHOW_CONSOLE
