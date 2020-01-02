@@ -5051,13 +5051,13 @@ metrics
 .
 mCompositionBounds
 =
-screenBounds
-.
-ClampRect
-(
 metrics
 .
 mCompositionBounds
+.
+ForceInside
+(
+screenBounds
 )
 ;
 useWidgetBounds
