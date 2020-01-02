@@ -19194,6 +19194,10 @@ masm
 passABIArg
 (
 FloatReg0
+MoveOp
+:
+:
+DOUBLE
 )
 ;
 masm
@@ -19201,6 +19205,10 @@ masm
 passABIArg
 (
 FloatReg1
+MoveOp
+:
+:
+DOUBLE
 )
 ;
 masm
@@ -19213,7 +19221,7 @@ void
 *
 NumberMod
 )
-MacroAssembler
+MoveOp
 :
 :
 DOUBLE
@@ -19916,6 +19924,10 @@ masm
 passABIArg
 (
 FloatReg0
+MoveOp
+:
+:
+DOUBLE
 )
 ;
 masm
@@ -20777,6 +20789,10 @@ masm
 passABIArg
 (
 FloatReg0
+MoveOp
+:
+:
+DOUBLE
 )
 ;
 masm
