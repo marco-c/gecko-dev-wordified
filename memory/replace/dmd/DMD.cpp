@@ -15168,6 +15168,16 @@ ClearReportsInternal
 ;
 }
 MOZ_EXPORT
+bool
+IsEnabled
+(
+)
+{
+return
+gIsDMDRunning
+;
+}
+MOZ_EXPORT
 void
 Dump
 (
