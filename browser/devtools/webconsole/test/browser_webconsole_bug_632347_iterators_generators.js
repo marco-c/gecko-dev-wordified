@@ -116,7 +116,7 @@ test
 {
 requestLongerTimeout
 (
-4
+6
 )
 ;
 addTab
