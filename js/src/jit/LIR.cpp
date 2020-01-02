@@ -833,6 +833,7 @@ LBlock
 firstId
 (
 )
+const
 {
 if
 (
@@ -912,6 +913,7 @@ LBlock
 lastId
 (
 )
+const
 {
 LInstruction
 *
