@@ -280,10 +280,6 @@ argsObj_
 &
 thisValue_
 ReadFrame_Actuals
-MagicValue
-(
-JS_OPTIMIZED_OUT
-)
 )
 ;
 }
