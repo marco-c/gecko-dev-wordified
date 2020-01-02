@@ -1482,7 +1482,7 @@ subject
 __
 (
 "
-share_email_subject
+share_email_subject2
 "
 )
 +
