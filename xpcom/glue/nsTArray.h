@@ -4688,8 +4688,9 @@ into
 the
 array
 .
-enum
-{
+static
+const
+index_type
 NoIndex
 =
 index_type
@@ -4697,7 +4698,6 @@ index_type
 -
 1
 )
-}
 ;
 using
 base_type

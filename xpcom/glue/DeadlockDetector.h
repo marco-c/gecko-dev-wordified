@@ -1488,6 +1488,11 @@ aKey
 )
 {
 return
+static_cast
+<
+PLHashNumber
+>
+(
 NS_PTR_TO_INT32
 (
 aKey
@@ -1495,6 +1500,7 @@ aKey
 >
 >
 2
+)
 ;
 }
 static
