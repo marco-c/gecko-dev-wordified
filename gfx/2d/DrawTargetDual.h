@@ -976,6 +976,7 @@ bool
 IsDualDrawTarget
 (
 )
+const
 {
 return
 true
