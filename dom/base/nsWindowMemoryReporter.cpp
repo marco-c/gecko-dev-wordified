@@ -380,6 +380,14 @@ GhostWindowsReporter
 )
 )
 ;
+RegisterGhostWindowsDistinguishedAmount
+(
+GhostWindowsReporter
+:
+:
+DistinguishedAmount
+)
+;
 }
 static
 already_AddRefed
@@ -4687,6 +4695,11 @@ ghostEnumData
 )
 ;
 }
+/
+*
+static
+*
+/
 int64_t
 nsWindowMemoryReporter
 :
@@ -4694,7 +4707,7 @@ nsWindowMemoryReporter
 GhostWindowsReporter
 :
 :
-Amount
+DistinguishedAmount
 (
 )
 {
