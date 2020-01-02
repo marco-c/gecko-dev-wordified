@@ -2403,6 +2403,10 @@ NotifyDialSuccess
 (
 uint32_t
 aCallIndex
+const
+nsAString
+&
+aNumber
 )
 {
 NS_ENSURE_TRUE
@@ -2417,6 +2421,10 @@ return
 SendNotifyDialSuccess
 (
 aCallIndex
+nsString
+(
+aNumber
+)
 )
 &
 &

@@ -364,9 +364,6 @@ mPromise
 uint32_t
 mServiceId
 ;
-nsString
-mNumber
-;
 virtual
 ~
 Callback
@@ -405,10 +402,6 @@ mServiceId
 (
 aServiceId
 )
-mNumber
-(
-aNumber
-)
 {
 MOZ_ASSERT
 (
@@ -442,6 +435,10 @@ NotifyDialSuccess
 (
 uint32_t
 aCallIndex
+const
+nsAString
+&
+aNumber
 )
 {
 nsRefPtr
@@ -455,7 +452,7 @@ mTelephony
 >
 CreateCallId
 (
-mNumber
+aNumber
 )
 ;
 nsRefPtr

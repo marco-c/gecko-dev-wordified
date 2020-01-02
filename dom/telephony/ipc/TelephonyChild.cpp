@@ -1051,6 +1051,10 @@ const
 uint32_t
 &
 aCallIndex
+const
+nsString
+&
+aNumber
 )
 {
 MOZ_ASSERT
@@ -1064,6 +1068,7 @@ mCallback
 NotifyDialSuccess
 (
 aCallIndex
+aNumber
 )
 ;
 return
