@@ -8741,7 +8741,7 @@ pos
 {
 JS_ASSERT
 (
-hasMOVWT
+HasMOVWT
 (
 )
 )
@@ -8790,7 +8790,7 @@ pos
 {
 JS_ASSERT
 (
-hasMOVWT
+HasMOVWT
 (
 )
 )

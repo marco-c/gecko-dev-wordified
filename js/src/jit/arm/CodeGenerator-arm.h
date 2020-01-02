@@ -1505,7 +1505,7 @@ lir
 if
 (
 !
-useHardFpABI
+UseHardFpABI
 (
 )
 &

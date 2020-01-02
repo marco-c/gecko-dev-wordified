@@ -2135,7 +2135,7 @@ return
 }
 if
 (
-hasMOVWT
+HasMOVWT
 (
 )
 )
@@ -2951,7 +2951,7 @@ op
 .
 if
 (
-hasMOVWT
+HasMOVWT
 (
 )
 )
@@ -3661,7 +3661,7 @@ rs
 ;
 if
 (
-hasMOVWT
+HasMOVWT
 (
 )
 )
@@ -10099,7 +10099,7 @@ cc
 {
 if
 (
-hasVFPv3
+HasVFPv3
 (
 )
 )
@@ -10263,7 +10263,7 @@ singleOverlay
 ;
 if
 (
-hasVFPv3
+HasVFPv3
 (
 )
 )
@@ -11990,7 +11990,7 @@ rs
 ;
 if
 (
-hasMOVWT
+HasMOVWT
 (
 )
 )
@@ -12090,7 +12090,7 @@ rs
 ;
 if
 (
-hasMOVWT
+HasMOVWT
 (
 )
 )
@@ -13425,7 +13425,7 @@ rs
 ;
 if
 (
-hasMOVWT
+HasMOVWT
 (
 )
 )
@@ -15537,7 +15537,7 @@ ScratchFloatReg
 ;
 if
 (
-hasVFPv3
+HasVFPv3
 (
 )
 )
@@ -23040,7 +23040,7 @@ rs
 ;
 if
 (
-hasMOVWT
+HasMOVWT
 (
 )
 )
@@ -24330,7 +24330,7 @@ JS_ARM_SIMULATOR
 )
 if
 (
-useHardFpABI
+UseHardFpABI
 (
 )
 )
@@ -24514,7 +24514,7 @@ JS_ARM_SIMULATOR
 )
 if
 (
-useHardFpABI
+UseHardFpABI
 (
 )
 )
@@ -24964,7 +24964,7 @@ DOUBLE
 if
 (
 !
-useHardFpABI
+UseHardFpABI
 (
 )
 )
@@ -25000,7 +25000,7 @@ FLOAT32
 if
 (
 !
-useHardFpABI
+UseHardFpABI
 (
 )
 )
@@ -28012,7 +28012,7 @@ raw
 )
 ScratchRegister
 Always
-hasMOVWT
+HasMOVWT
 (
 )
 ?

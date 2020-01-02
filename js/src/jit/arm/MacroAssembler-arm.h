@@ -4492,7 +4492,7 @@ rs
 ;
 if
 (
-hasMOVWT
+HasMOVWT
 (
 )
 )
@@ -4800,7 +4800,7 @@ rs
 ;
 if
 (
-hasMOVWT
+HasMOVWT
 (
 )
 )
@@ -5223,7 +5223,7 @@ ToggledCallSize
 {
 if
 (
-hasMOVWT
+HasMOVWT
 (
 )
 )
@@ -5310,7 +5310,7 @@ value
 )
 dest
 Always
-hasMOVWT
+HasMOVWT
 (
 )
 ?

@@ -2215,7 +2215,7 @@ div
 }
 if
 (
-hasIDIV
+HasIDIV
 (
 )
 )
@@ -2653,7 +2653,7 @@ mod
 }
 if
 (
-hasIDIV
+HasIDIV
 (
 )
 )
@@ -3394,7 +3394,7 @@ getOperand
 ;
 if
 (
-hasIDIV
+HasIDIV
 (
 )
 )
@@ -3574,7 +3574,7 @@ getOperand
 ;
 if
 (
-hasIDIV
+HasIDIV
 (
 )
 )

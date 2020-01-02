@@ -11194,7 +11194,7 @@ z
 {
 if
 (
-useHardFpABI
+UseHardFpABI
 (
 )
 )
@@ -11278,7 +11278,7 @@ d0
 .
 if
 (
-useHardFpABI
+UseHardFpABI
 (
 )
 )
@@ -11386,7 +11386,7 @@ result
 {
 if
 (
-useHardFpABI
+UseHardFpABI
 (
 )
 )
@@ -16206,7 +16206,7 @@ fval0
 ;
 if
 (
-useHardFpABI
+UseHardFpABI
 (
 )
 )
@@ -16448,7 +16448,7 @@ dval0
 ;
 if
 (
-useHardFpABI
+UseHardFpABI
 (
 )
 )
@@ -16523,7 +16523,7 @@ dval0
 ;
 if
 (
-useHardFpABI
+UseHardFpABI
 (
 )
 )
