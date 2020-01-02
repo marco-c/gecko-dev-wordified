@@ -457,7 +457,7 @@ aRunnable
 MOZ_OVERRIDE
 ;
 virtual
-bool
+nsresult
 SetPinCodeInternal
 (
 const
@@ -475,7 +475,7 @@ aRunnable
 MOZ_OVERRIDE
 ;
 virtual
-bool
+nsresult
 SetPasskeyInternal
 (
 const
@@ -491,7 +491,7 @@ aRunnable
 MOZ_OVERRIDE
 ;
 virtual
-bool
+nsresult
 SetPairingConfirmationInternal
 (
 const

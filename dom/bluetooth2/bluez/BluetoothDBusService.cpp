@@ -16555,7 +16555,7 @@ mRunnable
 ;
 }
 ;
-bool
+void
 BluetoothDBusService
 :
 :
@@ -16593,9 +16593,6 @@ DispatchToDBusThread
 (
 task
 )
-;
-return
-true
 ;
 }
 class
@@ -16919,7 +16916,7 @@ mRunnable
 ;
 }
 ;
-bool
+void
 BluetoothDBusService
 :
 :
@@ -16953,11 +16950,8 @@ DispatchToDBusThread
 task
 )
 ;
-return
-true
-;
 }
-bool
+void
 BluetoothDBusService
 :
 :
@@ -16997,9 +16991,6 @@ DispatchToDBusThread
 (
 task
 )
-;
-return
-true
 ;
 }
 static

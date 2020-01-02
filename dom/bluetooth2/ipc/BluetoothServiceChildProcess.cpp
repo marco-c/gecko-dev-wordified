@@ -822,7 +822,7 @@ called
 )
 ;
 }
-bool
+void
 BluetoothServiceChildProcess
 :
 :
@@ -857,11 +857,8 @@ aPinCode
 )
 )
 ;
-return
-true
-;
 }
-bool
+void
 BluetoothServiceChildProcess
 :
 :
@@ -891,11 +888,8 @@ aPasskey
 )
 )
 ;
-return
-true
-;
 }
-bool
+void
 BluetoothServiceChildProcess
 :
 :
@@ -945,9 +939,6 @@ aDeviceAddress
 )
 ;
 }
-return
-true
-;
 }
 void
 BluetoothServiceChildProcess

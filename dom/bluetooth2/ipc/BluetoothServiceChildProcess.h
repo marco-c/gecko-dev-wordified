@@ -387,7 +387,7 @@ aManager
 MOZ_OVERRIDE
 ;
 virtual
-bool
+void
 SetPinCodeInternal
 (
 const
@@ -405,7 +405,7 @@ aRunnable
 MOZ_OVERRIDE
 ;
 virtual
-bool
+void
 SetPasskeyInternal
 (
 const
@@ -421,7 +421,7 @@ aRunnable
 MOZ_OVERRIDE
 ;
 virtual
-bool
+void
 SetPairingConfirmationInternal
 (
 const
