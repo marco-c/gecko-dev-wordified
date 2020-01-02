@@ -278,12 +278,6 @@ LookupAppCache
 )
 )
 {
-MOZ_ASSERT
-(
-!
-truncate
-)
-;
 rv
 =
 ChooseApplicationCache
