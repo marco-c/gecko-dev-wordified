@@ -392,7 +392,7 @@ mEGLConfig
 ;
 private
 EGLSurface
-mEGLSurface
+mClientSurface
 ;
 private
 static
@@ -550,7 +550,7 @@ mServerSurfaceValid
 =
 false
 ;
-mEGLSurface
+mClientSurface
 =
 null
 ;
@@ -1048,7 +1048,7 @@ true
 try
 to
 create
-mEGLSurface
+mClientSurface
 .
 If
 /
@@ -1057,7 +1057,7 @@ mServerSurfaceValid
 is
 false
 leave
-mEGLSurface
+mClientSurface
 as
 null
 .
@@ -1070,7 +1070,7 @@ end
 of
 this
 block
-mEGLSurface
+mClientSurface
 will
 be
 null
@@ -1108,7 +1108,7 @@ initEGL
 )
 ;
 }
-mEGLSurface
+mClientSurface
 =
 mEGL
 .
@@ -1150,13 +1150,13 @@ e
 }
 if
 (
-mEGLSurface
+mClientSurface
 =
 =
 null
 |
 |
-mEGLSurface
+mClientSurface
 =
 =
 EGL10
@@ -1168,7 +1168,7 @@ mServerSurfaceValid
 =
 false
 ;
-mEGLSurface
+mClientSurface
 =
 null
 ;
@@ -1215,7 +1215,7 @@ mServerSurfaceValid
 is
 true
 and
-mEGLSurface
+mClientSurface
 is
 a
 valid
@@ -1434,7 +1434,7 @@ between
 .
 if
 (
-mEGLSurface
+mClientSurface
 !
 =
 null
@@ -1916,7 +1916,7 @@ provideEGLSurface
 )
 {
 return
-mEGLSurface
+mClientSurface
 ;
 }
 private
