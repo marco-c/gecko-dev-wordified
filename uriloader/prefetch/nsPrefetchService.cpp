@@ -115,13 +115,6 @@ h
 #
 include
 "
-nsICacheVisitor
-.
-h
-"
-#
-include
-"
 nsIHttpChannel
 .
 h

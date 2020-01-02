@@ -80,7 +80,7 @@ h
 #
 include
 "
-nsICacheEntryDescriptor
+nsICacheEntry
 .
 h
 "
@@ -1667,7 +1667,7 @@ return
 }
 nsCOMPtr
 <
-nsICacheEntryDescriptor
+nsICacheEntry
 >
 cacheEntry
 =
@@ -1813,7 +1813,7 @@ false
 }
 nsCOMPtr
 <
-nsICacheEntryDescriptor
+nsICacheEntry
 >
 cacheEntry
 =
