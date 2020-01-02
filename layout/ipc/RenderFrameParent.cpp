@@ -5521,6 +5521,9 @@ const
 WidgetInputEvent
 &
 aEvent
+ScrollableLayerGuid
+*
+aOutTargetGuid
 WidgetInputEvent
 *
 aOutEvent
@@ -5541,7 +5544,7 @@ GetApzcTreeManager
 ReceiveInputEvent
 (
 aEvent
-nullptr
+aOutTargetGuid
 aOutEvent
 )
 ;
@@ -6565,6 +6568,10 @@ RenderFrameParent
 :
 ContentReceivedTouch
 (
+const
+ScrollableLayerGuid
+&
+aGuid
 bool
 aPreventDefault
 )
@@ -6583,10 +6590,7 @@ GetApzcTreeManager
 >
 ContentReceivedTouch
 (
-ScrollableLayerGuid
-(
-mLayersId
-)
+aGuid
 aPreventDefault
 )
 ;

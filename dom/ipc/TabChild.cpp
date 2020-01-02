@@ -10929,6 +10929,10 @@ const
 WidgetTouchEvent
 &
 aEvent
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 WidgetTouchEvent
@@ -10991,6 +10995,7 @@ HasTouchEventListeners
 {
 SendContentReceivedTouch
 (
+aGuid
 nsIPresShell
 :
 :
@@ -11022,12 +11027,17 @@ const
 WidgetTouchEvent
 &
 aEvent
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 return
 RecvRealTouchEvent
 (
 aEvent
+aGuid
 )
 ;
 }

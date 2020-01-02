@@ -3261,6 +3261,7 @@ event
 MaybeForwardEventToRenderFrame
 (
 event
+nullptr
 &
 e
 )
@@ -3318,6 +3319,7 @@ event
 MaybeForwardEventToRenderFrame
 (
 event
+nullptr
 &
 e
 )
@@ -3375,6 +3377,7 @@ event
 MaybeForwardEventToRenderFrame
 (
 event
+nullptr
 &
 e
 )
@@ -3661,9 +3664,14 @@ i
 }
 }
 }
+ScrollableLayerGuid
+guid
+;
 MaybeForwardEventToRenderFrame
 (
 event
+&
+guid
 &
 e
 )
@@ -3691,6 +3699,7 @@ PBrowserParent
 SendRealTouchMoveEvent
 (
 e
+guid
 )
 :
 PBrowserParent
@@ -3699,6 +3708,7 @@ PBrowserParent
 SendRealTouchEvent
 (
 e
+guid
 )
 ;
 }
@@ -8330,6 +8340,9 @@ const
 WidgetInputEvent
 &
 aEvent
+ScrollableLayerGuid
+*
+aOutTargetGuid
 WidgetInputEvent
 *
 aOutEvent
@@ -8352,6 +8365,7 @@ rfp
 NotifyInputEvent
 (
 aEvent
+aOutTargetGuid
 aOutEvent
 )
 ;
@@ -8641,6 +8655,10 @@ TabParent
 RecvContentReceivedTouch
 (
 const
+ScrollableLayerGuid
+&
+aGuid
+const
 bool
 &
 aPreventDefault
@@ -8662,6 +8680,7 @@ rfp
 >
 ContentReceivedTouch
 (
+aGuid
 aPreventDefault
 )
 ;
