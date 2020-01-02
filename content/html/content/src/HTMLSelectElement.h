@@ -2138,6 +2138,11 @@ aType
 )
 MOZ_OVERRIDE
 ;
+void
+UpdateValueMissingValidityState
+(
+)
+;
 /
 *
 *
@@ -2889,11 +2894,6 @@ UpdateBarredFromConstraintValidation
 ;
 bool
 IsValueMissing
-(
-)
-;
-void
-UpdateValueMissingValidityState
 (
 )
 ;
