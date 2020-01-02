@@ -126,7 +126,7 @@ h
 /
 /
 for
-nsKeyEvent
+WidgetKeyboardEvent
 #
 include
 "
@@ -2212,7 +2212,10 @@ GetDesiredSpellCheckState
 (
 )
 ;
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 *
 GetNativeKeyEvent
 (

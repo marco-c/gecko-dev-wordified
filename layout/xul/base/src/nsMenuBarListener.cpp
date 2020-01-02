@@ -1346,13 +1346,13 @@ GetNativeEvent
 aKeyEvent
 )
 ;
-nsKeyEvent
+WidgetKeyboardEvent
 *
 nativeKeyEvent
 =
 static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (

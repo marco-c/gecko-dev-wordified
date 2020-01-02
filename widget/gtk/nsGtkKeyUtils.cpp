@@ -4637,7 +4637,7 @@ KeymapWrapper
 :
 InitKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 GdkEventKey
@@ -7124,7 +7124,7 @@ KeymapWrapper
 :
 InitKeypressEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 GdkEventKey

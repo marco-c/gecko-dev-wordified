@@ -1852,13 +1852,13 @@ controllers
 )
 ;
 }
-nsKeyEvent
+WidgetKeyboardEvent
 *
 keyEvent
 =
 static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (
@@ -1889,7 +1889,7 @@ internal
 event
 must
 be
-nsKeyEvent
+WidgetKeyboardEvent
 "
 )
 ;

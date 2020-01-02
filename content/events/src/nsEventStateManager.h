@@ -2071,7 +2071,10 @@ HandleAccessKey
 nsPresContext
 *
 aPresContext
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 *
 aEvent
 nsEventStatus

@@ -1170,7 +1170,7 @@ uint64_t
 timeMs
 )
 {
-nsKeyEvent
+WidgetKeyboardEvent
 event
 (
 true

@@ -166,7 +166,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 *
 aEvent
 )
@@ -353,7 +356,10 @@ Location
 return
 static_cast
 <
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 *
 >
 (

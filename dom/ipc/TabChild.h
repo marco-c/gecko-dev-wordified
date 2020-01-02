@@ -1098,7 +1098,10 @@ bool
 RecvRealKeyEvent
 (
 const
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 &
 event
 )

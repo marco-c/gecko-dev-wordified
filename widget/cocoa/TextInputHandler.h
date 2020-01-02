@@ -1098,7 +1098,7 @@ InitKeyEvent
 NSEvent
 *
 aNativeKeyEvent
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 const
@@ -1572,7 +1572,7 @@ NSEvent
 aNativeKeyEvent
 PRUnichar
 aInsertChar
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 UInt32
@@ -1989,7 +1989,7 @@ InitKeyEvent
 NSEvent
 *
 aNativeKeyEvent
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 const
@@ -2129,7 +2129,7 @@ to
 NS_IMETHOD
 AttachNativeKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 )
@@ -3504,7 +3504,7 @@ bool
 IsNormalCharInputtingEvent
 (
 const
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 )

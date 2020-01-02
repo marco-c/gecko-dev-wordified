@@ -2235,7 +2235,7 @@ instance
 void
 InitKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 const
@@ -2248,7 +2248,7 @@ const
 void
 InitKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 )
@@ -2287,7 +2287,7 @@ false
 bool
 DispatchKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 const

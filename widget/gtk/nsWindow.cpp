@@ -963,7 +963,7 @@ bool
 is_context_menu_key
 (
 const
-nsKeyEvent
+WidgetKeyboardEvent
 &
 inKeyEvent
 )
@@ -16398,7 +16398,7 @@ event
 nsEventStatus
 status
 ;
-nsKeyEvent
+WidgetKeyboardEvent
 downEvent
 (
 true
@@ -17040,7 +17040,7 @@ endif
 MOZ_X11
 *
 /
-nsKeyEvent
+WidgetKeyboardEvent
 event
 (
 true
@@ -17362,7 +17362,7 @@ a
 key
 up
 event
-nsKeyEvent
+WidgetKeyboardEvent
 event
 (
 true
@@ -31622,7 +31622,7 @@ bool
 is_context_menu_key
 (
 const
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 )

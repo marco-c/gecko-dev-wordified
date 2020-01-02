@@ -1936,7 +1936,7 @@ aKeyEvent
 )
 ;
 }
-nsKeyEvent
+WidgetKeyboardEvent
 *
 nativeKeyEvent
 =

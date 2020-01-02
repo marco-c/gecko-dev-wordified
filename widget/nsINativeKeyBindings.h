@@ -214,7 +214,10 @@ bool
 KeyDown
 (
 const
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 &
 aEvent
 DoCommandCallback
@@ -234,7 +237,10 @@ bool
 KeyPress
 (
 const
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 &
 aEvent
 DoCommandCallback
@@ -254,7 +260,10 @@ bool
 KeyUp
 (
 const
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 &
 aEvent
 DoCommandCallback

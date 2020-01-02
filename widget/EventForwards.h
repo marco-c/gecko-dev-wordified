@@ -466,13 +466,6 @@ typedef
 mozilla
 :
 :
-WidgetKeyboardEvent
-nsKeyEvent
-;
-typedef
-mozilla
-:
-:
 TextRangeStyle
 nsTextRangeStyle
 ;

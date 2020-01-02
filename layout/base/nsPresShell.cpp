@@ -37335,7 +37335,7 @@ nsDelayedKeyEvent
 (
 static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (
@@ -41264,7 +41264,7 @@ if
 static_cast
 <
 const
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (

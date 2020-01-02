@@ -657,7 +657,7 @@ It
 '
 s
 an
-nsKeyEvent
+WidgetKeyboardEvent
 which
 needs
 to
@@ -680,7 +680,7 @@ static
 void
 InitKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 GdkEventKey
@@ -1531,7 +1531,7 @@ aKeyEvent
 void
 InitKeypressEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 GdkEventKey

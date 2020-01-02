@@ -247,6 +247,10 @@ TextEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 /
@@ -1072,13 +1076,13 @@ GetNativeEvent
 aKeyEvent
 )
 ;
-nsKeyEvent
+WidgetKeyboardEvent
 *
 nativeKeyEvent
 =
 static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (

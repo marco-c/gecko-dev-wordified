@@ -17745,7 +17745,7 @@ content
 command
 event
 .
-nsKeyEvent
+WidgetKeyboardEvent
 event
 (
 true
@@ -21482,7 +21482,7 @@ MPARAM
 mp2
 )
 {
-nsKeyEvent
+WidgetKeyboardEvent
 pressEvent
 (
 true
@@ -21708,7 +21708,7 @@ point
 0
 )
 ;
-nsKeyEvent
+WidgetKeyboardEvent
 event
 (
 true

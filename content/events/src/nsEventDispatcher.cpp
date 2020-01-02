@@ -4122,7 +4122,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (

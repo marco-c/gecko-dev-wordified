@@ -116,6 +116,10 @@ TextEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsDOMKeyboardEvent
 :
 :
@@ -133,7 +137,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsKeyEvent
+WidgetKeyboardEvent
 *
 aEvent
 )
@@ -147,7 +151,7 @@ aEvent
 aEvent
 :
 new
-nsKeyEvent
+WidgetKeyboardEvent
 (
 false
 0
@@ -214,7 +218,7 @@ mEventIsInternal
 delete
 static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (
@@ -408,7 +412,7 @@ mEventIsInternal
 {
 static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (
@@ -484,7 +488,7 @@ NS_KEY_PRESS
 return
 static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (
@@ -554,7 +558,7 @@ NS_KEY_DOWN
 return
 static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (
@@ -634,11 +638,12 @@ BACKSPACE
 uint32_t
 keyCode
 =
-(
-(
-nsKeyEvent
+static_cast
+<
+WidgetKeyboardEvent
 *
-)
+>
+(
 mEvent
 )
 -
@@ -753,13 +758,13 @@ rv
 rv
 )
 ;
-nsKeyEvent
+WidgetKeyboardEvent
 *
 keyEvent
 =
 static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (
@@ -814,7 +819,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsKeyEvent
+WidgetKeyboardEvent
 *
 aEvent
 )

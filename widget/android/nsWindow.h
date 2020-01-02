@@ -1293,7 +1293,10 @@ private
 void
 InitKeyEvent
 (
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 &
 event
 mozilla

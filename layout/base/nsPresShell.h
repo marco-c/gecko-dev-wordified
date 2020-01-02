@@ -3145,7 +3145,10 @@ public
 :
 nsDelayedKeyEvent
 (
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 *
 aEvent
 )
@@ -3157,7 +3160,10 @@ nsDelayedInputEvent
 mEvent
 =
 new
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 (
 aEvent
 -
@@ -3177,7 +3183,10 @@ widget
 ;
 static_cast
 <
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 *
 >
 (
@@ -3202,7 +3211,10 @@ nsDelayedKeyEvent
 delete
 static_cast
 <
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 *
 >
 (
