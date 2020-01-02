@@ -4313,14 +4313,9 @@ this
 onVideo
 &
 &
-XPCNativeWrapper
-.
-unwrap
-(
 this
 .
 target
-)
 .
 mozMediaStatisticsShowing
 ;
