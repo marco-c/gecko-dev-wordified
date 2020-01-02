@@ -771,17 +771,6 @@ contentWindow
 }
 )
 ;
-aWindow
-.
-gBrowser
-.
-selectedBrowser
-.
-loadURI
-(
-testURI
-)
-;
 }
 function
 testOnWindow
