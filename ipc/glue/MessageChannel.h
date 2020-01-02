@@ -4372,6 +4372,11 @@ mAbortOnError
 ;
 }
 ;
+bool
+ProcessingUrgentMessages
+(
+)
+;
 }
 /
 /

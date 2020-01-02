@@ -6224,6 +6224,12 @@ SourceHook
 >
 sourceHook
 ;
+js
+:
+:
+AssertOnScriptEntryHook
+assertOnScriptEntryHook_
+;
 /
 *
 Per
