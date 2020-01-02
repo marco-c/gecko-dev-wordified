@@ -2122,14 +2122,6 @@ set
 )
             
 '
-binaries
-'
-:
-set
-(
-)
-            
-'
 libs
 '
 :
@@ -3728,19 +3720,6 @@ subdirs
 .
 tests
         
-#
-compile
-binaries
-and
-tools
-tiers
-use
-the
-same
-traversal
-as
-export
-        
 filters
 =
 [
@@ -3748,13 +3727,6 @@ filters
 (
 '
 export
-'
-parallel_filter
-)
-            
-(
-'
-binaries
 '
 parallel_filter
 )
@@ -5293,21 +5265,6 @@ items
 (
 )
 :
-                        
-if
-tier
-in
-(
-'
-compile
-'
-'
-binaries
-'
-)
-:
-                            
-continue
                         
 if
 bf
