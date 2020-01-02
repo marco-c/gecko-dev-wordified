@@ -1070,7 +1070,7 @@ BUFFER_CONTENT
 result
 =
 new
-ContentHostSingleBuffered
+DeprecatedContentHostSingleBuffered
 (
 aTextureInfo
 )
@@ -1083,7 +1083,7 @@ BUFFER_CONTENT_DIRECT
 result
 =
 new
-ContentHostDoubleBuffered
+DeprecatedContentHostDoubleBuffered
 (
 aTextureInfo
 )
@@ -1135,7 +1135,7 @@ COMPOSITABLE_CONTENT_SINGLE
 result
 =
 new
-ContentHostSingleBufferedNew
+ContentHostSingleBuffered
 (
 aTextureInfo
 )
@@ -1148,7 +1148,7 @@ COMPOSITABLE_CONTENT_DOUBLE
 result
 =
 new
-ContentHostDoubleBufferedNew
+ContentHostDoubleBuffered
 (
 aTextureInfo
 )
