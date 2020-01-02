@@ -703,7 +703,7 @@ see
 nsIFrame
 :
 :
-GetSkipSides
+GetLogicalSkipSides
 (
 )
 *
@@ -711,14 +711,14 @@ see
 nsIFrame
 :
 :
-ApplySkipSides
+ApplyLogicalSkipSides
 (
 )
 *
 /
 virtual
 int
-GetSkipSides
+GetLogicalSkipSides
 (
 const
 nsHTMLReflowState
