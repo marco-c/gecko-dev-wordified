@@ -1557,6 +1557,17 @@ pRangeNew
 nullptr
 )
 ;
+HRESULT
+RestartComposition
+(
+ITfCompositionView
+*
+aCompositionView
+ITfRange
+*
+aNewRange
+)
+;
 /
 /
 Following
