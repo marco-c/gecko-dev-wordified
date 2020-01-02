@@ -399,7 +399,7 @@ tiles
 aDst
 -
 >
-BeginTileIteration
+BeginBigImageIteration
 (
 )
 ;
@@ -561,7 +561,7 @@ UseBlitProgram
 aSrc
 -
 >
-BeginTileIteration
+BeginBigImageIteration
 (
 )
 ;

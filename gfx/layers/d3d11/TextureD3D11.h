@@ -542,7 +542,7 @@ DataTextureSource
 public
 TextureSourceD3D11
 public
-TileIterator
+BigImageIterator
 {
 public
 :
@@ -700,11 +700,11 @@ MOZ_OVERRIDE
 ;
 /
 /
-TileIterator
+BigImageIterator
 virtual
-TileIterator
+BigImageIterator
 *
-AsTileIterator
+AsBigImageIterator
 (
 )
 MOZ_OVERRIDE
@@ -762,7 +762,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-EndTileIteration
+EndBigImageIteration
 (
 )
 MOZ_OVERRIDE
@@ -774,7 +774,7 @@ false
 }
 virtual
 void
-BeginTileIteration
+BeginBigImageIteration
 (
 )
 MOZ_OVERRIDE

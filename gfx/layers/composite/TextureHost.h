@@ -488,13 +488,13 @@ thing
 *
 /
 class
-TileIterator
+BigImageIterator
 {
 public
 :
 virtual
 void
-BeginTileIteration
+BeginBigImageIteration
 (
 )
 =
@@ -502,7 +502,7 @@ BeginTileIteration
 ;
 virtual
 void
-EndTileIteration
+EndBigImageIteration
 (
 )
 {
@@ -858,9 +858,9 @@ internally
 *
 /
 virtual
-TileIterator
+BigImageIterator
 *
-AsTileIterator
+AsBigImageIterator
 (
 )
 {

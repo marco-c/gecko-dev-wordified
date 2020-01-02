@@ -677,14 +677,14 @@ ensure
 that
 somehow
 ?
-TileIterator
+BigImageIterator
 *
 it
 =
 source
 -
 >
-AsTileIterator
+AsBigImageIterator
 (
 )
 ;
@@ -696,7 +696,7 @@ it
 it
 -
 >
-BeginTileIteration
+BeginBigImageIteration
 (
 )
 ;
@@ -864,7 +864,7 @@ NextTile
 it
 -
 >
-EndTileIteration
+EndBigImageIteration
 (
 )
 ;

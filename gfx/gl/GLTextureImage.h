@@ -811,7 +811,7 @@ tile
 /
 virtual
 void
-BeginTileIteration
+BeginBigImageIteration
 (
 )
 {
@@ -866,7 +866,7 @@ typedef
 bool
 (
 *
-TileIterationCallback
+BigImageIterationCallback
 )
 (
 TextureImage
@@ -897,7 +897,7 @@ virtual
 void
 SetIterationCallback
 (
-TileIterationCallback
+BigImageIterationCallback
 aCallback
 void
 *
@@ -2066,7 +2066,7 @@ GetTileCount
 ;
 virtual
 void
-BeginTileIteration
+BeginBigImageIteration
 (
 )
 ;
@@ -2080,7 +2080,7 @@ virtual
 void
 SetIterationCallback
 (
-TileIterationCallback
+BigImageIterationCallback
 aCallback
 void
 *
@@ -2179,7 +2179,7 @@ unsigned
 int
 mCurrentImage
 ;
-TileIterationCallback
+BigImageIterationCallback
 mIterationCallback
 ;
 void

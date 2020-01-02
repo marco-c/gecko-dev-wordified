@@ -1952,7 +1952,7 @@ oldCurrentImage
 =
 mCurrentImage
 ;
-BeginTileIteration
+BeginBigImageIteration
 (
 )
 ;
@@ -3306,7 +3306,7 @@ void
 TiledTextureImage
 :
 :
-BeginTileIteration
+BeginBigImageIteration
 (
 )
 {
@@ -3372,7 +3372,7 @@ TiledTextureImage
 :
 SetIterationCallback
 (
-TileIterationCallback
+BigImageIterationCallback
 aCallback
 void
 *
