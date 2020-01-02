@@ -167,6 +167,8 @@ aCert
 )
 {
 }
+protected
+:
 virtual
 ~
 nsCertificatePrincipal

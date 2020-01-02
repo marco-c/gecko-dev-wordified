@@ -107,12 +107,6 @@ nsNTLMAuthModule
 )
 {
 }
-virtual
-~
-nsNTLMAuthModule
-(
-)
-;
 nsresult
 InitTest
 (
@@ -124,6 +118,14 @@ SetSendLM
 (
 bool
 sendLM
+)
+;
+protected
+:
+virtual
+~
+nsNTLMAuthModule
+(
 )
 ;
 private

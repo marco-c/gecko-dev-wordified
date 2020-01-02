@@ -333,6 +333,8 @@ nsSecretDecoderRing
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsSecretDecoderRing

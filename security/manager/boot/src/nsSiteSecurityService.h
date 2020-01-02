@@ -916,6 +916,8 @@ Init
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsSiteSecurityService

@@ -155,6 +155,8 @@ nsSSLSocketProvider
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsSSLSocketProvider

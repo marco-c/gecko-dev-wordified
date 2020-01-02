@@ -711,6 +711,8 @@ aOwner
 )
 {
 }
+protected
+:
 virtual
 ~
 PrivateBrowsingObserver

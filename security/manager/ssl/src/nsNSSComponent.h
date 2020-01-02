@@ -622,12 +622,6 @@ nsNSSComponent
 (
 )
 ;
-virtual
-~
-nsNSSComponent
-(
-)
-;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSISIGNATUREVERIFIER
 NS_DECL_NSIENTROPYCOLLECTOR
@@ -833,6 +827,14 @@ GetDefaultCertVerifier
 (
 )
 MOZ_OVERRIDE
+;
+protected
+:
+virtual
+~
+nsNSSComponent
+(
+)
 ;
 private
 :

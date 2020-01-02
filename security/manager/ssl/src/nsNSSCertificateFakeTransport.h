@@ -152,6 +152,8 @@ nsNSSCertificateFakeTransport
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsNSSCertificateFakeTransport

@@ -159,12 +159,6 @@ nsKeygenFormProcessor
 (
 )
 ;
-virtual
-~
-nsKeygenFormProcessor
-(
-)
-;
 nsresult
 Init
 (
@@ -223,6 +217,12 @@ aResult
 ;
 protected
 :
+virtual
+~
+nsKeygenFormProcessor
+(
+)
+;
 nsresult
 GetPublicKey
 (

@@ -136,12 +136,6 @@ nsNSSCertificateDB
 (
 )
 ;
-virtual
-~
-nsNSSCertificateDB
-(
-)
-;
 /
 /
 Use
@@ -202,6 +196,14 @@ const
 nsNSSShutDownPreventionLock
 &
 proofOfLock
+)
+;
+protected
+:
+virtual
+~
+nsNSSCertificateDB
+(
 )
 ;
 private

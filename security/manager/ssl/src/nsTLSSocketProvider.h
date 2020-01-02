@@ -160,6 +160,8 @@ nsTLSSocketProvider
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsTLSSocketProvider

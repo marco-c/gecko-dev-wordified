@@ -122,6 +122,8 @@ nsNSSCertCache
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsNSSCertCache

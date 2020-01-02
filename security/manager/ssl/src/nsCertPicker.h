@@ -139,14 +139,14 @@ nsCertPicker
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsCertPicker
 (
 )
 ;
-private
-:
 }
 ;
 #
