@@ -608,6 +608,9 @@ FreeOp
 fop
 bool
 releaseTypes
+bool
+*
+oom
 )
 {
 /
@@ -677,6 +680,7 @@ sweep
 (
 fop
 releaseTypes
+oom
 )
 ;
 }
