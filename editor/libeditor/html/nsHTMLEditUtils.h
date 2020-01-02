@@ -392,6 +392,15 @@ aNode
 ;
 static
 bool
+IsLink
+(
+nsINode
+*
+aNode
+)
+;
+static
+bool
 IsNamedAnchor
 (
 nsINode
