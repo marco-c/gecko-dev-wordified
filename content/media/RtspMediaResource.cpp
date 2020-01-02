@@ -3815,6 +3815,12 @@ aReason
 =
 =
 NS_ERROR_NOT_CONNECTED
+|
+|
+aReason
+=
+=
+NS_ERROR_NET_TIMEOUT
 )
 {
 RTSPMLOG
