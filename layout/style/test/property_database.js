@@ -28089,6 +28089,15 @@ foo
 none
 "
 ]
+unbalanced_values
+:
+[
+"
+foo
+1
+(
+"
+]
 }
 "
 counter
