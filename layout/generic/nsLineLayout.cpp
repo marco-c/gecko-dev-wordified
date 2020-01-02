@@ -10982,7 +10982,9 @@ n
 mLineBox
 -
 >
-mBounds
+GetBounds
+(
+)
 .
 IStart
 (
@@ -10991,7 +10993,9 @@ lineWM
 mLineBox
 -
 >
-mBounds
+GetBounds
+(
+)
 .
 BStart
 (
@@ -11000,7 +11004,9 @@ lineWM
 mLineBox
 -
 >
-mBounds
+GetBounds
+(
+)
 .
 ISize
 (
@@ -11009,7 +11015,9 @@ lineWM
 mLineBox
 -
 >
-mBounds
+GetBounds
+(
+)
 .
 BSize
 (
