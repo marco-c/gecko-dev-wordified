@@ -504,6 +504,10 @@ void
 DrawFPS
 (
 TimeStamp
+int
+offsetX
+int
+offsetY
 unsigned
 Compositor
 *
