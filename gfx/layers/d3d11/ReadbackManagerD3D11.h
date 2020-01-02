@@ -150,11 +150,6 @@ ReadbackManagerD3D11
 (
 )
 ;
-~
-ReadbackManagerD3D11
-(
-)
-;
 /
 *
 *
@@ -214,6 +209,11 @@ aSink
 ;
 private
 :
+~
+ReadbackManagerD3D11
+(
+)
+;
 friend
 DWORD
 WINAPI
