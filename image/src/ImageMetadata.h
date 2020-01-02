@@ -92,6 +92,12 @@ MPL
 *
 /
 #
+ifndef
+ImageMetadata_h___
+#
+define
+ImageMetadata_h___
+#
 include
 <
 stdint
@@ -410,3 +416,8 @@ image
 /
 namespace
 mozilla
+#
+endif
+/
+/
+ImageMetadata_h___
