@@ -1066,6 +1066,7 @@ aClient
 CreateDeprecatedTextureClient
 (
 TEXTURE_CONTENT
+mContentType
 )
 ;
 MOZ_ASSERT
@@ -1098,6 +1099,7 @@ aClient
 CreateDeprecatedTextureClient
 (
 TEXTURE_FALLBACK
+mContentType
 )
 ;
 MOZ_ASSERT
