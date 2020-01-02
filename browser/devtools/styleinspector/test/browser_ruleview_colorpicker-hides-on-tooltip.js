@@ -301,6 +301,8 @@ tooltip
 =
 view
 .
+tooltips
+.
 colorPicker
 .
 tooltip
@@ -376,6 +378,8 @@ yield
 assertHoverTooltipOn
 (
 view
+.
+tooltips
 .
 previewTooltip
 uriSpan

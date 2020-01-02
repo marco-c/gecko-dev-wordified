@@ -219,6 +219,8 @@ tooltip
 =
 ruleView
 .
+tooltips
+.
 previewTooltip
 ;
 let
@@ -314,7 +316,9 @@ tooltip
 =
 computedView
 .
-tooltip
+tooltips
+.
+previewTooltip
 ;
 let
 onShown

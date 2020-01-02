@@ -738,6 +738,8 @@ panel
 =
 view
 .
+tooltips
+.
 previewTooltip
 .
 panel
@@ -763,6 +765,8 @@ created
 ok
 (
 view
+.
+tooltips
 .
 previewTooltip
 "
@@ -831,6 +835,8 @@ yield
 assertHoverTooltipOn
 (
 view
+.
+tooltips
 .
 previewTooltip
 uriSpan
@@ -909,6 +915,8 @@ panel
 =
 view
 .
+tooltips
+.
 previewTooltip
 .
 panel
@@ -961,6 +969,8 @@ yield
 assertHoverTooltipOn
 (
 view
+.
+tooltips
 .
 previewTooltip
 uriSpan
@@ -1038,6 +1048,8 @@ let
 panel
 =
 view
+.
+tooltips
 .
 previewTooltip
 .
@@ -1118,6 +1130,8 @@ assertHoverTooltipOn
 (
 view
 .
+tooltips
+.
 previewTooltip
 uriSpan
 )
@@ -1191,7 +1205,9 @@ tooltip
 =
 view
 .
-tooltip
+tooltips
+.
+previewTooltip
 ;
 ok
 (
@@ -1266,7 +1282,9 @@ assertHoverTooltipOn
 (
 view
 .
-tooltip
+tooltips
+.
+previewTooltip
 uriSpan
 )
 ;

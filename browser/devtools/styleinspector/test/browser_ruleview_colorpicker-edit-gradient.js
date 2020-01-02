@@ -546,6 +546,8 @@ cPicker
 =
 view
 .
+tooltips
+.
 colorPicker
 ;
 let

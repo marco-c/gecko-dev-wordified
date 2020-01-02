@@ -357,6 +357,8 @@ tooltip
 =
 view
 .
+tooltips
+.
 colorPicker
 .
 tooltip
@@ -652,6 +654,8 @@ let
 tooltip
 =
 view
+.
+tooltips
 .
 colorPicker
 .

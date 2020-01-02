@@ -297,6 +297,8 @@ picker
 =
 ruleView
 .
+tooltips
+.
 colorPicker
 ;
 let
@@ -446,6 +448,8 @@ onShown
 =
 ruleView
 .
+tooltips
+.
 previewTooltip
 .
 once
@@ -463,11 +467,15 @@ isHoverTooltipTarget
 (
 ruleView
 .
+tooltips
+.
 previewTooltip
 url
 )
 ;
 ruleView
+.
+tooltips
 .
 previewTooltip
 .
