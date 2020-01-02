@@ -39778,7 +39778,7 @@ empty
 "
 )
 ;
-MessagePort
+MessagePortBase
 *
 port
 ;
@@ -40096,7 +40096,7 @@ PrefEnabled
 )
 )
 {
-MessagePort
+MessagePortBase
 *
 port
 =
@@ -40129,7 +40129,7 @@ subsumes
 {
 nsRefPtr
 <
-MessagePort
+MessagePortBase
 >
 newPort
 =
@@ -40140,6 +40140,16 @@ Clone
 (
 )
 ;
+if
+(
+!
+newPort
+)
+{
+return
+false
+;
+}
 return
 JS_WriteUint32Pair
 (
