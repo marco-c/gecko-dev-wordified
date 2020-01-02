@@ -8462,7 +8462,9 @@ status
 "
 ]
 =
-true
+MMS
+.
+MMS_PDU_READ_STATUS_READ
 ;
 this
 .
