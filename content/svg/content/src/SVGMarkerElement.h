@@ -667,7 +667,13 @@ MOZ_OVERRIDE
 /
 public
 helpers
-gfxMatrix
+mozilla
+:
+:
+gfx
+:
+:
+Matrix
 GetMarkerTransform
 (
 float

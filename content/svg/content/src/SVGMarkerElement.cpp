@@ -1879,7 +1879,10 @@ mPreserveAspectRatio
 /
 public
 helpers
-gfxMatrix
+gfx
+:
+:
+Matrix
 SVGMarkerElement
 :
 :
@@ -1984,7 +1987,10 @@ break
 ;
 }
 return
-gfxMatrix
+gfx
+:
+:
+Matrix
 (
 cos
 (

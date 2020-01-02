@@ -638,7 +638,7 @@ mInUse2
 =
 false
 ;
-gfxMatrix
+Matrix
 markerTM
 =
 content
@@ -666,7 +666,10 @@ GetViewBoxTransform
 return
 viewBoxTM
 *
+ThebesMatrix
+(
 markerTM
+)
 *
 markedTM
 ;
@@ -1209,7 +1212,7 @@ nsSVGMark
 :
 eStart
 ;
-gfxMatrix
+Matrix
 markerTM
 =
 content
@@ -1240,9 +1243,9 @@ tm
 ToMatrix
 (
 viewBoxTM
+)
 *
 markerTM
-)
 *
 aToBBoxUserspace
 ;
