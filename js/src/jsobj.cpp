@@ -8669,10 +8669,10 @@ MOZ_CRASH
 #
 endif
 }
-Probes
+probes
 :
 :
-createObject
+CreateObject
 (
 cx
 obj

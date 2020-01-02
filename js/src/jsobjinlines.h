@@ -732,10 +732,10 @@ fop
 js
 :
 :
-Probes
+probes
 :
 :
-finalizeObject
+FinalizeObject
 (
 this
 )

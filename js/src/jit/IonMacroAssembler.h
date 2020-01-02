@@ -7097,10 +7097,10 @@ does
 /
 (
 See
-Probes
+probes
 :
 :
-enterScript
+EnterScript
 which
 calls
 spsProfiler

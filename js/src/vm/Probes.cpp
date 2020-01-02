@@ -165,7 +165,7 @@ js
 ;
 const
 char
-Probes
+probes
 :
 :
 nullName
@@ -180,7 +180,7 @@ null
 ;
 const
 char
-Probes
+probes
 :
 :
 anonymousName
@@ -194,18 +194,18 @@ anonymous
 "
 ;
 bool
-Probes
+probes
 :
 :
 ProfilingActive
 =
 true
 ;
-Probes
+probes
 :
 :
 JITReportGranularity
-Probes
+probes
 :
 :
 JITGranularityRequested
@@ -249,10 +249,10 @@ batch
 *
 /
 void
-Probes
+probes
 :
 :
-discardExecutableRegion
+DiscardExecutableRegion
 (
 void
 *
@@ -305,7 +305,7 @@ if
 script
 )
 return
-Probes
+probes
 :
 :
 nullName
@@ -321,7 +321,7 @@ filename
 )
 )
 return
-Probes
+probes
 :
 :
 anonymousName
@@ -358,7 +358,7 @@ if
 fun
 )
 return
-Probes
+probes
 :
 :
 nullName
@@ -374,7 +374,7 @@ displayAtom
 )
 )
 return
-Probes
+probes
 :
 :
 anonymousName
@@ -401,7 +401,7 @@ ptr
 (
 )
 :
-Probes
+probes
 :
 :
 nullName
@@ -475,7 +475,7 @@ cause
 *
 /
 void
-Probes
+probes
 :
 :
 DTraceEnterJSFun
@@ -500,7 +500,7 @@ ScriptFilename
 (
 script
 )
-Probes
+probes
 :
 :
 nullName
@@ -515,7 +515,7 @@ funNameBytes
 ;
 }
 void
-Probes
+probes
 :
 :
 DTraceExitJSFun
@@ -540,7 +540,7 @@ ScriptFilename
 (
 script
 )
-Probes
+probes
 :
 :
 nullName

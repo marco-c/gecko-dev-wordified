@@ -3471,10 +3471,10 @@ script
 (
 )
 ;
-Probes
+probes
 :
 :
-exitScript
+ExitScript
 (
 cx
 script
@@ -3609,10 +3609,10 @@ script
 (
 )
 ;
-Probes
+probes
 :
 :
-exitScript
+ExitScript
 (
 cx
 script
