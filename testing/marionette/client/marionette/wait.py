@@ -609,6 +609,10 @@ condition
 is_true
 =
 None
+message
+=
+"
+"
 )
 :
         
@@ -763,14 +767,15 @@ true
 param
 is_true
 :
-A
+An
+optional
 predicate
 that
 will
 terminate
 and
-return
             
+return
 when
 it
 evaluates
@@ -781,9 +786,9 @@ It
 should
 be
 a
+            
 function
 that
-            
 will
 be
 passed
@@ -794,8 +799,8 @@ end
 time
 .
 The
-default
             
+default
 predicate
 will
 terminate
@@ -804,10 +809,33 @@ wait
 when
 the
 clock
+            
 elapses
 the
-            
 timeout
+.
+        
+:
+param
+message
+:
+An
+optional
+message
+to
+include
+in
+the
+            
+exception
+'
+s
+message
+if
+this
+function
+times
+out
 .
         
 "
@@ -934,6 +962,22 @@ self
 interval
 )
         
+if
+message
+:
+            
+message
+=
+"
+with
+message
+:
+%
+s
+"
+%
+message
+        
 raise
 errors
 .
@@ -947,8 +991,12 @@ after
 %
 s
 seconds
+%
+s
 "
 %
+            
+(
 (
 self
 .
@@ -957,6 +1005,8 @@ clock
 now
 -
 start
+)
+message
 )
             
 cause
