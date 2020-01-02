@@ -781,7 +781,7 @@ mInt
 else
 if
 (
-eCSSUnit_Color
+eCSSUnit_RGBAColor
 =
 =
 mUnit
@@ -1358,7 +1358,7 @@ mInt
 else
 if
 (
-eCSSUnit_Color
+eCSSUnit_RGBAColor
 =
 =
 mUnit
@@ -2473,7 +2473,7 @@ Reset
 ;
 mUnit
 =
-eCSSUnit_Color
+eCSSUnit_RGBAColor
 ;
 mValue
 .
@@ -3949,7 +3949,7 @@ return
 mUnit
 =
 =
-eCSSUnit_Color
+eCSSUnit_RGBAColor
 &
 &
 NS_GET_A
@@ -5974,7 +5974,7 @@ value
 else
 if
 (
-eCSSUnit_Color
+eCSSUnit_RGBAColor
 =
 =
 unit
@@ -8158,7 +8158,7 @@ eCSSUnit_EnumColor
 break
 ;
 case
-eCSSUnit_Color
+eCSSUnit_RGBAColor
 :
 break
 ;
@@ -9003,7 +9003,7 @@ to
 measure
 .
 case
-eCSSUnit_Color
+eCSSUnit_RGBAColor
 :
 break
 ;

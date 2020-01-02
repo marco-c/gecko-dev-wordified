@@ -5455,7 +5455,7 @@ GetUnit
 ;
 if
 (
-eCSSUnit_Color
+eCSSUnit_RGBAColor
 =
 =
 unit

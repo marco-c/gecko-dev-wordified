@@ -181,7 +181,7 @@ VARIANT_COLOR
 /
 /
 C
-eCSSUnit_Color
+eCSSUnit_RGBAColor
 eCSSUnit_Ident
 (
 e

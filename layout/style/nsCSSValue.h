@@ -1789,7 +1789,7 @@ color
 (
 kColorKTable
 )
-eCSSUnit_Color
+eCSSUnit_RGBAColor
 =
 81
 /
@@ -3097,7 +3097,7 @@ NS_ABORT_IF_FALSE
 mUnit
 =
 =
-eCSSUnit_Color
+eCSSUnit_RGBAColor
 )
 "
 not
