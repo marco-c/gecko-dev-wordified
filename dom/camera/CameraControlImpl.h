@@ -253,8 +253,6 @@ virtual
 nsresult
 AutoFocus
 (
-bool
-aCancelExistingCall
 )
 MOZ_OVERRIDE
 ;
@@ -296,6 +294,13 @@ MOZ_OVERRIDE
 virtual
 nsresult
 StopRecording
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+nsresult
+ResumeContinuousFocus
 (
 )
 MOZ_OVERRIDE
@@ -667,8 +672,6 @@ virtual
 nsresult
 AutoFocusImpl
 (
-bool
-aCancelExistingCall
 )
 =
 0
@@ -715,6 +718,14 @@ aOptions
 virtual
 nsresult
 StopRecordingImpl
+(
+)
+=
+0
+;
+virtual
+nsresult
+ResumeContinuousFocusImpl
 (
 )
 =
