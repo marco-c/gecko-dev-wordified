@@ -2242,7 +2242,16 @@ if
 mBoundVertexArray
 -
 >
-mAttribBuffers
+HasAttrib
+(
+i
+)
+&
+&
+mBoundVertexArray
+-
+>
+mAttribs
 [
 i
 ]
@@ -2255,7 +2264,7 @@ buffer
 mBoundVertexArray
 -
 >
-mAttribBuffers
+mAttribs
 [
 i
 ]

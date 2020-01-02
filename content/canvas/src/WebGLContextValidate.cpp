@@ -4183,7 +4183,7 @@ return
 mBoundVertexArray
 -
 >
-EnsureAttribIndex
+EnsureAttrib
 (
 index
 info
@@ -5675,7 +5675,7 @@ this
 mDefaultVertexArray
 -
 >
-mAttribBuffers
+mAttribs
 .
 SetLength
 (
