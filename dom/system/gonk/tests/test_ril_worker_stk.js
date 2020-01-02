@@ -5799,6 +5799,13 @@ worker
 .
 GsmPDUHelper
 ;
+let
+iccHelper
+=
+worker
+.
+ICCPDUHelper
+;
 buf
 .
 sendParcel
@@ -6052,7 +6059,7 @@ readHexOctet
 ;
 do_check_eq
 (
-pduHelper
+iccHelper
 .
 read8BitUnpackedToString
 (
