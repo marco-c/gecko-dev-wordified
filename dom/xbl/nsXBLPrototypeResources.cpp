@@ -232,11 +232,6 @@ aBinding
 this
 )
 ;
-NS_IF_ADDREF
-(
-mLoader
-)
-;
 }
 nsXBLPrototypeResources
 :
@@ -262,11 +257,6 @@ mLoader
 mResources
 =
 nullptr
-;
-NS_RELEASE
-(
-mLoader
-)
 ;
 }
 }
@@ -655,9 +645,8 @@ ClearLoader
 (
 )
 {
-NS_RELEASE
-(
 mLoader
-)
+=
+nullptr
 ;
 }

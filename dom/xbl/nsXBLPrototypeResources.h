@@ -314,8 +314,10 @@ then
 it
 dies
 .
+nsRefPtr
+<
 nsXBLResourceLoader
-*
+>
 mLoader
 ;
 public
