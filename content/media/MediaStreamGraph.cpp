@@ -268,15 +268,6 @@ unused
 h
 "
 #
-include
-"
-speex
-/
-speex_resampler
-.
-h
-"
-#
 ifdef
 MOZ_WEBRTC
 #
