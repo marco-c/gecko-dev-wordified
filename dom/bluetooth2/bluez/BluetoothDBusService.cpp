@@ -3068,6 +3068,13 @@ NS_ENSURE_TRUE_VOID
 bs
 )
 ;
+#
+if
+0
+/
+/
+for
+API_V2
 bs
 -
 >
@@ -3082,6 +3089,8 @@ TryFiringAdapterAdded
 (
 )
 ;
+#
+endif
 }
 }
 ;
