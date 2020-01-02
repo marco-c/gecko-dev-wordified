@@ -383,6 +383,14 @@ CERT_DestroyCertificate
 ScopedCERTCertificate
 ;
 typedef
+ScopedPtr
+<
+CERTCertList
+CERT_DestroyCertList
+>
+ScopedCERTCertList
+;
+typedef
 mozilla
 :
 :

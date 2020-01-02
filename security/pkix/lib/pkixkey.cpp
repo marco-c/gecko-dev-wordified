@@ -308,6 +308,15 @@ h
 #
 include
 "
+pkix
+/
+ScopedPtr
+.
+h
+"
+#
+include
+"
 prerror
 .
 h

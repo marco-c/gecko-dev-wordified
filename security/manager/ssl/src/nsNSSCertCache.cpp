@@ -212,12 +212,6 @@ PipUIContext
 (
 )
 ;
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertList
 newList
 (

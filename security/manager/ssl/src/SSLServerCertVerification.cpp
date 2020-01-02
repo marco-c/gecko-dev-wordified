@@ -4780,12 +4780,6 @@ nsISocketProvider
 NO_PERMANENT_STORAGE
 )
 ;
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertList
 certList
 ;
