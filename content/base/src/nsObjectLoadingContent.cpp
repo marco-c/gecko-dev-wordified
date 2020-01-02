@@ -19736,11 +19736,9 @@ JS_WrapValue
 (
 aCx
 args
-.
-handleAt
-(
+[
 i
-)
+]
 )
 )
 {

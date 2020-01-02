@@ -828,11 +828,14 @@ nformals
 +
 i
 ]
-=
+.
+set
+(
 *
 valueSlot
 (
 i
+)
 )
 ;
 return

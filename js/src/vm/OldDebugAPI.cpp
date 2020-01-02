@@ -4319,11 +4319,9 @@ cx
 obj
 obj
 props
-.
-handleAt
-(
+[
 i
-)
+]
 MutableHandleValue
 :
 :

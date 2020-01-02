@@ -1454,7 +1454,9 @@ ffiIndex
 (
 )
 ]
-=
+.
+set
+(
 &
 v
 .
@@ -1467,6 +1469,7 @@ as
 JSFunction
 >
 (
+)
 )
 ;
 return

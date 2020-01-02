@@ -4436,12 +4436,15 @@ slot
 (
 )
 ]
-=
+.
+set
+(
 nshape
 -
 >
 propid
 (
+)
 )
 ;
 nshape
