@@ -2153,13 +2153,13 @@ Run
 (
 )
 {
-nsMouseEvent
+WidgetMouseEvent
 event
 (
 true
 NS_XUL_POPUP_SHOWN
 nullptr
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal

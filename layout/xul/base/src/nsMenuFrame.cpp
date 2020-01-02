@@ -2407,7 +2407,7 @@ NS_MOUSE_BUTTON_DOWN
 &
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -2418,7 +2418,7 @@ aEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eLeftButton
@@ -2539,7 +2539,7 @@ NS_MOUSE_BUTTON_UP
 &
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -2550,7 +2550,7 @@ aEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eRightButton
@@ -2769,7 +2769,7 @@ NS_MOUSE_BUTTON_UP
 &
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -2780,7 +2780,7 @@ aEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eLeftButton

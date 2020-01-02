@@ -10404,7 +10404,7 @@ NS_MOUSE_BUTTON_UP
 &
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -10415,7 +10415,7 @@ aEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eLeftButton

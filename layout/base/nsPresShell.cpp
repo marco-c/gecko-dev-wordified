@@ -32053,7 +32053,7 @@ here
 "
 )
 ;
-nsMouseEvent
+WidgetMouseEvent
 event
 (
 true
@@ -32064,7 +32064,7 @@ view
 GetWidget
 (
 )
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eSynthesized
@@ -35961,7 +35961,7 @@ NS_MOUSE_MOVE
 &
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -35972,7 +35972,7 @@ aEvent
 reason
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal
@@ -37976,7 +37976,7 @@ NS_MOUSE_EXIT
 (
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -37987,7 +37987,7 @@ aEvent
 exit
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eTopLevel
@@ -38696,7 +38696,7 @@ NS_MOUSE_EVENT
 &
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -38985,7 +38985,7 @@ nsDelayedMouseEvent
 (
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -40931,7 +40931,7 @@ static
 bool
 CanHandleContextMenuEvent
 (
-nsMouseEvent
+WidgetMouseEvent
 *
 aMouseEvent
 nsIFrame
@@ -41020,7 +41020,7 @@ aMouseEvent
 context
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eContextMenuKey
@@ -42369,13 +42369,13 @@ message
 NS_CONTEXTMENU
 )
 {
-nsMouseEvent
+WidgetMouseEvent
 *
 me
 =
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -42406,7 +42406,7 @@ me
 context
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eContextMenuKey
@@ -43703,7 +43703,7 @@ PresShell
 :
 AdjustContextMenuKeyEvent
 (
-nsMouseEvent
+WidgetMouseEvent
 *
 aEvent
 )

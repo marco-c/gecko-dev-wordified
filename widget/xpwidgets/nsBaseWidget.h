@@ -1164,7 +1164,10 @@ aVertical
 NS_IMETHOD
 BeginMoveDrag
 (
-nsMouseEvent
+mozilla
+:
+:
+WidgetMouseEvent
 *
 aEvent
 )

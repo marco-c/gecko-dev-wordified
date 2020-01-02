@@ -1262,7 +1262,10 @@ aPreventDefault
 bool
 SendRealMouseEvent
 (
-nsMouseEvent
+mozilla
+:
+:
+WidgetMouseEvent
 &
 event
 )

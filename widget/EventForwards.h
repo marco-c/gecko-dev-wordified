@@ -434,13 +434,6 @@ TODO
 Remove
 following
 typedefs
-typedef
-mozilla
-:
-:
-WidgetMouseEvent
-nsMouseEvent
-;
 namespace
 mozilla
 {

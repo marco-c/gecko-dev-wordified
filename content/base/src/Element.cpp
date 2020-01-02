@@ -8111,7 +8111,7 @@ param
 "
 )
 ;
-nsMouseEvent
+WidgetMouseEvent
 event
 (
 aSourceEvent
@@ -8125,7 +8125,7 @@ aSourceEvent
 -
 >
 widget
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal
@@ -8170,7 +8170,7 @@ clickCount
 =
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -8184,7 +8184,7 @@ pressure
 =
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -8198,7 +8198,7 @@ inputSource
 =
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -12550,7 +12550,7 @@ NS_MOUSE_EVENT
 &
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -12563,7 +12563,7 @@ mEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eLeftButton

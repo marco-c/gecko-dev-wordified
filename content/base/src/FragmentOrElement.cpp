@@ -4289,7 +4289,7 @@ do_QueryInterface
 (
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (

@@ -2429,7 +2429,7 @@ mTouchOnly
 static_cast
 <
 const
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (

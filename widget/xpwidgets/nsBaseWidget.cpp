@@ -11222,7 +11222,7 @@ nsBaseWidget
 :
 BeginMoveDrag
 (
-nsMouseEvent
+WidgetMouseEvent
 *
 aEvent
 )

@@ -16081,7 +16081,7 @@ from
 chrome
 code
 .
-nsMouseEvent
+WidgetMouseEvent
 event
 (
 nsContentUtils
@@ -16092,7 +16092,7 @@ IsCallerChrome
 )
 NS_MOUSE_CLICK
 nullptr
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal
@@ -16611,13 +16611,13 @@ to
 do
 so
 .
-nsMouseEvent
+WidgetMouseEvent
 event
 (
 aIsTrustedEvent
 NS_MOUSE_CLICK
 nullptr
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal

@@ -5205,7 +5205,7 @@ button
 =
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -5220,7 +5220,7 @@ return
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eLeftButton
@@ -5231,7 +5231,7 @@ eLeftButton
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eMiddleButton
@@ -5335,13 +5335,13 @@ false
 }
 #
 endif
-nsMouseEvent
+WidgetMouseEvent
 *
 mouseEvent
 =
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -5356,7 +5356,7 @@ mouseEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eLeftButton

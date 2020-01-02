@@ -3196,7 +3196,7 @@ TabParent
 :
 SendRealMouseEvent
 (
-nsMouseEvent
+WidgetMouseEvent
 &
 event
 )
@@ -3210,7 +3210,7 @@ return
 false
 ;
 }
-nsMouseEvent
+WidgetMouseEvent
 e
 (
 event

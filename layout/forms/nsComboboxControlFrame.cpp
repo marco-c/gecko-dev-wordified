@@ -2245,7 +2245,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsMouseEvent
+WidgetMouseEvent
 event
 (
 true
@@ -2255,7 +2255,7 @@ NS_XUL_POPUP_SHOWING
 :
 NS_XUL_POPUP_HIDING
 nullptr
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal
