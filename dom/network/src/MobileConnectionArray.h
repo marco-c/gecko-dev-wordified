@@ -215,7 +215,6 @@ Item
 uint32_t
 aIndex
 )
-const
 ;
 uint32_t
 Length
@@ -233,7 +232,6 @@ bool
 &
 aFound
 )
-const
 ;
 private
 :
@@ -243,9 +241,17 @@ MobileConnectionArray
 )
 ;
 void
+Init
+(
+)
+;
+void
 DropConnections
 (
 )
+;
+bool
+mInitialized
 ;
 nsCOMPtr
 <
