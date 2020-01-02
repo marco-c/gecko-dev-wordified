@@ -949,9 +949,6 @@ class
 SharedPlanarYCbCrImage
 ;
 class
-DeprecatedSharedPlanarYCbCrImage
-;
-class
 TextureClient
 ;
 class
@@ -5779,17 +5776,6 @@ virtual
 SharedPlanarYCbCrImage
 *
 AsSharedPlanarYCbCrImage
-(
-)
-{
-return
-nullptr
-;
-}
-virtual
-DeprecatedSharedPlanarYCbCrImage
-*
-AsDeprecatedSharedPlanarYCbCrImage
 (
 )
 {
