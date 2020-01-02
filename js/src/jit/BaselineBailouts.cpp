@@ -11103,7 +11103,7 @@ ionScript
 )
 -
 >
-snapshotsSize
+snapshotsListSize
 (
 )
 )
