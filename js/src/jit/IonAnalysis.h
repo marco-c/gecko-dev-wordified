@@ -219,6 +219,14 @@ graph
 )
 ;
 bool
+MakeMRegExpHoistable
+(
+MIRGraph
+&
+graph
+)
+;
+bool
 RenumberBlocks
 (
 MIRGraph
