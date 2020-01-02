@@ -172,13 +172,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h
@@ -1124,12 +1117,12 @@ MOZ_FINAL
 public
 IFMRadioService
 public
+nsISupports
+public
 hal
 :
 :
 FMRadioObserver
-public
-nsIObserver
 {
 friend
 class
@@ -1304,7 +1297,6 @@ aInfo
 )
 MOZ_OVERRIDE
 ;
-NS_DECL_NSIOBSERVER
 protected
 :
 FMRadioService
