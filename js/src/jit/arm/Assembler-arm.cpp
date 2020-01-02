@@ -334,6 +334,9 @@ intRegIndex_
 break
 ;
 case
+MIRType_Float32
+:
+case
 MIRType_Double
 :
 if

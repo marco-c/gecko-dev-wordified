@@ -1595,7 +1595,7 @@ OP_GROUP2_EvCL
 OP_FPU6
 =
 0xDD
-OP_FLD32
+OP_FPU6_F32
 =
 0xD9
 OP_CALL_rel32
@@ -3889,7 +3889,7 @@ m_formatter
 .
 oneByteOp
 (
-OP_FLD32
+OP_FPU6_F32
 FPU6_OP_FLD
 base
 offset
@@ -4018,7 +4018,7 @@ m_formatter
 .
 oneByteOp
 (
-OP_FLD32
+OP_FPU6_F32
 FPU6_OP_FSTP
 base
 offset

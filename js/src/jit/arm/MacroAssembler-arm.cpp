@@ -564,6 +564,8 @@ const
 FloatRegister
 &
 dest
+Condition
+c
 )
 {
 as_vcvt
@@ -580,6 +582,8 @@ VFPRegister
 (
 src
 )
+false
+c
 )
 ;
 }
