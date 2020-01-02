@@ -371,8 +371,7 @@ isClosed
 =
 false
 ;
-this
-.
+let
 Debugging
 =
 {
