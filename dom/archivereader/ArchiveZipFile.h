@@ -172,6 +172,7 @@ DOMFileImplBase
 {
 public
 :
+NS_DECL_ISUPPORTS_INHERITED
 ArchiveZipFileImpl
 (
 const
@@ -329,6 +330,18 @@ aCb
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+IsCCed
+(
+)
+const
+MOZ_OVERRIDE
+{
+return
+true
+;
+}
 protected
 :
 virtual

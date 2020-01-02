@@ -178,6 +178,7 @@ File
 ;
 public
 :
+NS_DECL_ISUPPORTS_INHERITED
 /
 /
 Create
@@ -278,6 +279,18 @@ aCb
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+IsCCed
+(
+)
+const
+MOZ_OVERRIDE
+{
+return
+true
+;
+}
 protected
 :
 /
