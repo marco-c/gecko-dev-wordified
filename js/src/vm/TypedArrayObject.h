@@ -126,7 +126,7 @@ include
 "
 builtin
 /
-TypedObject
+TypedObjectSimple
 .
 h
 "
