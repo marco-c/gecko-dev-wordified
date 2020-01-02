@@ -72,6 +72,7 @@ SocialShare
 SocialMenu
 SocialToolbar
 SocialSidebar
+SocialStatus
 ;
 (
 function
