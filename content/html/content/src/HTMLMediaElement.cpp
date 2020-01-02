@@ -19556,7 +19556,6 @@ mMediaKeys
 =
 nullptr
 ;
-}
 if
 (
 mDecoder
@@ -19566,6 +19565,7 @@ ShutdownDecoder
 (
 )
 ;
+}
 }
 #
 endif
