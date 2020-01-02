@@ -757,6 +757,11 @@ nonLazyScript
 -
 >
 funNeedsDeclEnvObject
+|
+|
+isGenerator
+(
+)
 ;
 }
 /

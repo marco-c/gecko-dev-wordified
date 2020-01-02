@@ -110,17 +110,6 @@ onerror
 =
 errorHandler
 ;
-/
-/
-Bug
-943409
-.
-eval
-(
-'
-'
-)
-;
 for
 each
 (
