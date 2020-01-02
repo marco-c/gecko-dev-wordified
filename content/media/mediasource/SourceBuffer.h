@@ -478,11 +478,6 @@ nsACString
 aType
 )
 ;
-~
-SourceBuffer
-(
-)
-;
 MediaSource
 *
 GetParentObject
@@ -591,6 +586,11 @@ aTime
 ;
 private
 :
+~
+SourceBuffer
+(
+)
+;
 SourceBuffer
 (
 MediaSource

@@ -277,11 +277,6 @@ TextTrackSource
 aTextTrackSource
 )
 ;
-~
-TextTrack
-(
-)
-;
 void
 SetDefaultSettings
 (
@@ -524,6 +519,11 @@ mTextTrackSource
 }
 private
 :
+~
+TextTrack
+(
+)
+;
 nsRefPtr
 <
 TextTrackList

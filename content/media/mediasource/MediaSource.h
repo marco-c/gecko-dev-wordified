@@ -321,11 +321,6 @@ ErrorResult
 aRv
 )
 ;
-~
-MediaSource
-(
-)
-;
 SourceBufferList
 *
 SourceBuffers
@@ -600,6 +595,11 @@ NotifyGotData
 ;
 private
 :
+~
+MediaSource
+(
+)
+;
 explicit
 MediaSource
 (

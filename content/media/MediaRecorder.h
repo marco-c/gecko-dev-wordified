@@ -378,12 +378,6 @@ nsPIDOMWindow
 aOwnerWindow
 )
 ;
-virtual
-~
-MediaRecorder
-(
-)
-;
 /
 /
 nsWrapperCache
@@ -666,6 +660,12 @@ warning
 NS_DECL_NSIDOCUMENTACTIVITY
 protected
 :
+virtual
+~
+MediaRecorder
+(
+)
+;
 MediaRecorder
 &
 operator
