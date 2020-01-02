@@ -222,13 +222,5 @@ ShowModalDialog
 )
 DEPRECATED_OPERATION
 (
-UnsafeCloneNode
-)
-DEPRECATED_OPERATION
-(
-UnsafeImportNode
-)
-DEPRECATED_OPERATION
-(
 Window_Content
 )
