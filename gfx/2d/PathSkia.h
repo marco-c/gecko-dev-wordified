@@ -243,6 +243,15 @@ Finish
 (
 )
 ;
+void
+AppendPath
+(
+const
+SkPath
+&
+aPath
+)
+;
 private
 :
 void
