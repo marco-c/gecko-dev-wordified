@@ -802,7 +802,6 @@ CHECK_EQUAL
 (
 JS_GetArrayBufferViewBuffer
 (
-cx
 array
 )
 (
