@@ -114,7 +114,7 @@ h
 #
 include
 "
-nsIWifiMonitor
+nsIWifiListener
 .
 h
 "

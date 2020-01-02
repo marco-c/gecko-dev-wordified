@@ -405,6 +405,13 @@ h
 #
 include
 "
+nsIMIMEInfo
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

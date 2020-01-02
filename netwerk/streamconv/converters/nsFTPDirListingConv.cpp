@@ -173,6 +173,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 ParseFTPList
 .
 h

@@ -191,6 +191,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+nsIFile
+.
+h
+"
 using
 namespace
 mozilla

@@ -713,6 +713,13 @@ nsIController
 .
 h
 "
+#
+include
+"
+nsIMIMEInfo
+.
+h
+"
 /
 /
 input

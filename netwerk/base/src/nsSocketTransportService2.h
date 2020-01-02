@@ -167,6 +167,9 @@ h
 class
 nsASocketHandler
 ;
+struct
+PRPollDesc
+;
 /
 /
 -
