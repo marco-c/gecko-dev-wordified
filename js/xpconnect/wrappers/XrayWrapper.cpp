@@ -515,6 +515,16 @@ key
 return
 true
 ;
+if
+(
+IsErrorObjectKey
+(
+key
+)
+)
+return
+true
+;
 switch
 (
 key
