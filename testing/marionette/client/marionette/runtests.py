@@ -4716,6 +4716,7 @@ def
 _extract_xml
 (
 test
+class_name
 text
 =
 '
@@ -4727,14 +4728,6 @@ passed
 '
 )
 :
-            
-cls_name
-=
-test
-.
-__class__
-.
-__name__
             
 testcase
 =
@@ -4754,7 +4747,7 @@ setAttribute
 '
 classname
 '
-cls_name
+class_name
 )
             
 testcase
@@ -4777,6 +4770,13 @@ split
 ]
 )
             
+#
+XXX
+-
+Bug
+927606
+            
+#
 testcase
 .
 setAttribute
@@ -4790,6 +4790,18 @@ test
 .
 duration
 )
+)
+            
+testcase
+.
+setAttribute
+(
+'
+time
+'
+'
+0
+'
 )
             
 testsuite
@@ -5080,7 +5092,7 @@ results_list
 :
             
 for
-tup
+result
 in
 results
 .
@@ -5089,16 +5101,17 @@ errors
                 
 _extract_xml
 (
-tup
-[
-0
-]
+result
+.
+name
+result
+.
+test_class
 text
 =
-tup
-[
-1
-]
+result
+.
+reason
 result
 =
 '
@@ -5107,7 +5120,7 @@ error
 )
             
 for
-tup
+result
 in
 results
 .
@@ -5116,16 +5129,17 @@ failures
                 
 _extract_xml
 (
-tup
-[
-0
-]
+result
+.
+name
+result
+.
+test_class
 text
 =
-tup
-[
-1
-]
+result
+.
+reason
 result
 =
 '
@@ -5165,6 +5179,9 @@ tuples
 _extract_xml
 (
 test
+result
+.
+test_class
 text
 =
 '
@@ -5192,7 +5209,7 @@ skipped
 :
                 
 for
-tup
+result
 in
 results
 .
@@ -5201,16 +5218,17 @@ skipped
                     
 _extract_xml
 (
-tup
-[
-0
-]
+result
+.
+name
+result
+.
+test_class
 text
 =
-tup
-[
-1
-]
+result
+.
+reason
 result
 =
 '
@@ -5229,7 +5247,7 @@ expectedFailures
 :
                 
 for
-tup
+result
 in
 results
 .
@@ -5238,16 +5256,17 @@ expectedFailures
                     
 _extract_xml
 (
-tup
-[
-0
-]
+result
+.
+name
+result
+.
+test_class
 text
 =
-tup
-[
-1
-]
+result
+.
+reason
 result
 =
 '
@@ -5256,7 +5275,7 @@ skipped
 )
             
 for
-test
+result
 in
 results
 .
@@ -5265,7 +5284,12 @@ tests_passed
                 
 _extract_xml
 (
-test
+result
+.
+name
+result
+.
+test_class
 )
         
 doc
