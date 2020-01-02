@@ -1607,7 +1607,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-FirstContinuationOrSpecialSibling
+FirstContinuationOrIBSplitSibling
 (
 aNonSVGFrame
 )
@@ -1676,7 +1676,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-FirstContinuationOrSpecialSibling
+FirstContinuationOrIBSplitSibling
 (
 aNonSVGFrame
 )
@@ -1772,7 +1772,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-FirstContinuationOrSpecialSibling
+FirstContinuationOrIBSplitSibling
 (
 aNonSVGFrame
 )
@@ -2256,7 +2256,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-FirstContinuationOrSpecialSibling
+FirstContinuationOrIBSplitSibling
 (
 aFrame
 )
@@ -2508,7 +2508,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-FirstContinuationOrSpecialSibling
+FirstContinuationOrIBSplitSibling
 (
 aFrame
 )
@@ -2845,7 +2845,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-FirstContinuationOrSpecialSibling
+FirstContinuationOrIBSplitSibling
 (
 aFrame
 )
@@ -2954,7 +2954,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-FirstContinuationOrSpecialSibling
+FirstContinuationOrIBSplitSibling
 (
 aFrame
 )
@@ -3488,7 +3488,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-FirstContinuationOrSpecialSibling
+FirstContinuationOrIBSplitSibling
 (
 aFrame
 )

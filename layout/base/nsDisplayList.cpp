@@ -30945,7 +30945,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-FirstContinuationOrSpecialSibling
+FirstContinuationOrIBSplitSibling
 (
 mFrame
 )
@@ -31334,7 +31334,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-FirstContinuationOrSpecialSibling
+FirstContinuationOrIBSplitSibling
 (
 mFrame
 )

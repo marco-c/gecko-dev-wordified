@@ -2591,7 +2591,7 @@ NS_FRAME_PART_OF_IBSPLIT
 static
 nsIFrame
 *
-GetSpecialSibling
+GetIBSplitSibling
 (
 nsIFrame
 *
@@ -2763,7 +2763,7 @@ IBSplitSpecialPrevSibling
 static
 nsIFrame
 *
-GetLastSpecialSibling
+GetLastIBSplitSibling
 (
 nsIFrame
 *
@@ -2790,7 +2790,7 @@ next
 {
 next
 =
-GetSpecialSibling
+GetIBSplitSibling
 (
 frame
 )
@@ -2816,7 +2816,7 @@ GetFirstPrincipalChild
 &
 &
 !
-GetSpecialSibling
+GetIBSplitSibling
 (
 next
 )
@@ -2872,7 +2872,7 @@ nsIFrame
 aFrame
 nsIFrame
 *
-aSpecialSibling
+aIBSplitSibling
 )
 {
 NS_PRECONDITION
@@ -2967,13 +2967,13 @@ NS_FRAME_PART_OF_IBSPLIT
 ;
 if
 (
-aSpecialSibling
+aIBSplitSibling
 )
 {
 NS_ASSERTION
 (
 !
-aSpecialSibling
+aIBSplitSibling
 -
 >
 GetPrevContinuation
@@ -3049,7 +3049,7 @@ nsIFrame
 IBSplitSibling
 (
 )
-aSpecialSibling
+aIBSplitSibling
 )
 ;
 props
@@ -3057,7 +3057,7 @@ props
 >
 Set
 (
-aSpecialSibling
+aIBSplitSibling
 nsIFrame
 :
 :
@@ -36289,7 +36289,7 @@ the
 result
 of
 a
-GetLastSpecialSibling
+GetLastIBSplitSibling
 call
 so
 must
@@ -36310,7 +36310,7 @@ nsIFrame
 *
 trailingInline
 =
-GetSpecialSibling
+GetIBSplitSibling
 (
 aParentFrame
 )
@@ -36717,14 +36717,14 @@ aParentFrame
 |
 |
 !
-GetSpecialSibling
+GetIBSplitSibling
 (
 aParentFrame
 )
 |
 |
 !
-GetSpecialSibling
+GetIBSplitSibling
 (
 aParentFrame
 )
@@ -36843,7 +36843,7 @@ aParentFrame
 &
 &
 !
-GetSpecialSibling
+GetIBSplitSibling
 (
 aParentFrame
 )
@@ -38362,7 +38362,7 @@ sibling
 {
 sibling
 =
-GetLastSpecialSibling
+GetLastIBSplitSibling
 (
 sibling
 true
@@ -39230,7 +39230,7 @@ block
 .
 aParentFrame
 =
-GetLastSpecialSibling
+GetLastIBSplitSibling
 (
 aParentFrame
 false
@@ -42571,7 +42571,7 @@ block
 .
 parentFrame
 =
-GetLastSpecialSibling
+GetLastIBSplitSibling
 (
 parentFrame
 false
@@ -54215,7 +54215,7 @@ frame
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 frame
 )
@@ -56239,7 +56239,7 @@ FirstContinuation
 if
 (
 !
-GetSpecialSibling
+GetIBSplitSibling
 (
 parentFirstContinuation
 )
@@ -70560,7 +70560,7 @@ GetNextContinuation
 )
 |
 |
-GetSpecialSibling
+GetIBSplitSibling
 (
 aParentFrame
 )

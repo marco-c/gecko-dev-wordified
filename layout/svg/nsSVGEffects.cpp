@@ -1229,7 +1229,7 @@ f
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 f
 )

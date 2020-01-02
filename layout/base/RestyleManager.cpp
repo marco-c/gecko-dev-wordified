@@ -1205,7 +1205,7 @@ aFrame
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 aFrame
 )
@@ -2498,7 +2498,7 @@ cont
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 cont
 )
@@ -3590,7 +3590,7 @@ aFrame
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 aFrame
 )
@@ -4103,7 +4103,7 @@ f
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 f
 )
@@ -4612,7 +4612,7 @@ cont
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 cont
 )
@@ -5038,7 +5038,7 @@ cont
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 cont
 )
@@ -5230,7 +5230,7 @@ NS_ASSERTION
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 frame
 )
@@ -5253,7 +5253,7 @@ NS_ASSERTION
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 hintFrame
 )
@@ -5371,7 +5371,7 @@ NS_ASSERTION
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 childFrame
 )
@@ -5479,7 +5479,7 @@ cont
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 cont
 )

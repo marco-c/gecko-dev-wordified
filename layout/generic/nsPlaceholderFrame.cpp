@@ -679,7 +679,7 @@ use
 nsLayoutUtils
 :
 :
-GetPrevContinuationOrSpecialSibling
+GetPrevContinuationOrIBSplitSibling
 (
 )
 if
