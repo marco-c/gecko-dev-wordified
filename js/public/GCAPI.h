@@ -2366,7 +2366,7 @@ ObjectPtr
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 value
@@ -2639,7 +2639,7 @@ JSGCTraceKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 !

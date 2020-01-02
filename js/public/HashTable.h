@@ -5088,7 +5088,7 @@ Lookup
 l
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JS
@@ -5178,7 +5178,7 @@ Lookup
 l
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JS
@@ -5190,7 +5190,7 @@ k
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JS
@@ -6231,7 +6231,7 @@ destroy
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLive
 (
@@ -6290,7 +6290,7 @@ get
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLive
 (
@@ -6324,7 +6324,7 @@ clearLive
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLive
 (
@@ -6394,7 +6394,7 @@ removeLive
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLive
 (
@@ -6436,7 +6436,7 @@ setCollision
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLive
 (
@@ -6456,7 +6456,7 @@ HashNumber
 bit
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLive
 (
@@ -6541,7 +6541,7 @@ U
 u
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isLive
@@ -6575,7 +6575,7 @@ u
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isLive
 (
@@ -6832,7 +6832,7 @@ found
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 generation
 =
@@ -6886,7 +6886,7 @@ rhs
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 found
 (
@@ -6921,7 +6921,7 @@ rhs
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 generation
 =
@@ -6953,7 +6953,7 @@ operator
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 generation
 =
@@ -6984,7 +6984,7 @@ operator
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 generation
 =
@@ -7311,7 +7311,7 @@ empty
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 generation
 =
@@ -7324,7 +7324,7 @@ generation
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mutationCount
 =
@@ -7349,12 +7349,12 @@ front
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 validEntry
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -7362,7 +7362,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 generation
 =
@@ -7375,7 +7375,7 @@ generation
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mutationCount
 =
@@ -7400,7 +7400,7 @@ popFront
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -7408,7 +7408,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 generation
 =
@@ -7421,7 +7421,7 @@ generation
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mutationCount
 =
@@ -8686,7 +8686,7 @@ uint32_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 initialized
@@ -9255,7 +9255,7 @@ collisionBit
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLiveHash
 (
@@ -9263,7 +9263,7 @@ keyHash
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -9273,7 +9273,7 @@ sCollisionBit
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 collisionBit
 =
@@ -9287,7 +9287,7 @@ collisionBit
 sCollisionBit
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 table
 )
@@ -9651,7 +9651,7 @@ HashNumber
 keyHash
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -9661,7 +9661,7 @@ sCollisionBit
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 table
 )
@@ -9769,7 +9769,7 @@ while
 true
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 entry
@@ -10211,7 +10211,7 @@ Entry
 e
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 table
 )
@@ -10823,7 +10823,7 @@ finish
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 entered
@@ -10873,7 +10873,7 @@ all
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 table
 )
@@ -10898,7 +10898,7 @@ empty
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 table
 )
@@ -10914,7 +10914,7 @@ count
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 table
 )
@@ -10929,7 +10929,7 @@ capacity
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 table
 )
@@ -10949,7 +10949,7 @@ generation
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 table
 )
@@ -11152,12 +11152,12 @@ g
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 table
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 p
@@ -11167,7 +11167,7 @@ found
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -11396,7 +11396,7 @@ U
 u
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 table
 )
@@ -11651,7 +11651,7 @@ g
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 prepareHash
 (
@@ -11717,7 +11717,7 @@ Ptr
 p
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 table
 )
@@ -11732,7 +11732,7 @@ g
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 .
@@ -11769,7 +11769,7 @@ Key
 k
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 table
 )
@@ -11784,7 +11784,7 @@ g
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 .

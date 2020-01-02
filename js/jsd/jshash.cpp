@@ -1070,7 +1070,7 @@ NBUCKETS
 ht
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 newshift
 <
@@ -1235,7 +1235,7 @@ he
 next
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nentries
 !
@@ -2055,7 +2055,7 @@ hep
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 <
@@ -2164,7 +2164,7 @@ nentries
 nlimit
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ht
 -
@@ -2231,7 +2231,7 @@ table
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_HASH_BITS
 -
