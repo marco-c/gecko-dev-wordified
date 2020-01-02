@@ -673,6 +673,8 @@ margin
 5px
 ;
 }
+#
+root
 .
 devtools
 -
@@ -682,6 +684,14 @@ width
 :
 100
 %
+;
+border
+-
+bottom
+-
+width
+:
+0
 ;
 }
 .
