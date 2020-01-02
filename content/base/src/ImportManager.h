@@ -757,6 +757,8 @@ load
 void
 Error
 (
+bool
+aUnblockScripts
 )
 ;
 /
