@@ -782,7 +782,7 @@ void
 MetroApp
 :
 :
-ShutdownXPCOM
+Shutdown
 (
 )
 {
@@ -820,7 +820,7 @@ sFrameworkView
 sFrameworkView
 -
 >
-ShutdownXPCOM
+Shutdown
 (
 )
 ;

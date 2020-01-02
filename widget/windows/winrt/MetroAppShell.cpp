@@ -1621,7 +1621,7 @@ MessagePump
 sMetroApp
 -
 >
-ShutdownXPCOM
+Shutdown
 (
 )
 ;
