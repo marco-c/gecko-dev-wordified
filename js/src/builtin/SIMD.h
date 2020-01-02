@@ -1345,7 +1345,7 @@ Elem
 ;
 static
 const
-int32_t
+unsigned
 lanes
 =
 4
@@ -1470,7 +1470,7 @@ Elem
 ;
 static
 const
-int32_t
+unsigned
 lanes
 =
 4
