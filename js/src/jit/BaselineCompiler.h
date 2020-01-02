@@ -206,11 +206,6 @@ JSOP_LABEL
 \
 _
 (
-JSOP_NOTEARG
-)
-\
-_
-(
 JSOP_POP
 )
 \
