@@ -65,6 +65,7 @@ MPL
 import
 sys
 subprocess
+os
 def
 NMSymbolicate
 (
@@ -73,10 +74,27 @@ addresses
 )
 :
   
+target_tools_prefix
+=
+os
+.
+environ
+.
+get
+(
+"
+TARGET_TOOLS_PREFIX
+"
+"
+"
+)
+  
 args
 =
 [
     
+target_tools_prefix
++
 "
 nm
 "
