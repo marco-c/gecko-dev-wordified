@@ -858,6 +858,7 @@ instructs
 the
 inspector
 not
+*
 to
 highlight
 the
