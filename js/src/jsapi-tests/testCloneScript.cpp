@@ -688,9 +688,14 @@ B
 )
 )
 ;
-JSFunction
-*
+JS
+:
+:
+RootedFunction
 fun
+(
+cx
+)
 ;
 JS
 :

@@ -2837,10 +2837,10 @@ exclusive
 return
 false
 ;
-JSObject
-*
+RootedObject
 newHead
-=
+(
+cx
 attachExpandoObject
 (
 cx
@@ -2850,6 +2850,7 @@ GetExpandoObjectPrincipal
 oldHead
 )
 exclusive
+)
 )
 ;
 if

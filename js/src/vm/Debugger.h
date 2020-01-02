@@ -1206,8 +1206,10 @@ JS_DefineDebuggerObject
 JSContext
 *
 cx
-JSObject
-*
+JS
+:
+:
+HandleObject
 obj
 )
 ;
