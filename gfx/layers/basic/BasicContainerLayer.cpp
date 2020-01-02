@@ -469,10 +469,10 @@ GetMixBlendMode
 )
 !
 =
-gfxContext
+CompositionOp
 :
 :
-OPERATOR_OVER
+OP_OVER
 ;
 }
 /
@@ -567,10 +567,10 @@ GetMixBlendMode
 )
 !
 =
-gfxContext
+CompositionOp
 :
 :
-OPERATOR_OVER
+OP_OVER
 &
 &
 HasMultipleChildren
