@@ -10521,6 +10521,7 @@ nsPluginTag
 (
 &
 info
+fileModTime
 )
 ;
 pluginFile
@@ -10544,13 +10545,6 @@ pluginTag
 mLibrary
 =
 library
-;
-pluginTag
--
->
-mLastModifiedTime
-=
-fileModTime
 ;
 uint32_t
 state

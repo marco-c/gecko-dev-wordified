@@ -238,6 +238,8 @@ nsPluginTag
 nsPluginInfo
 *
 aPluginInfo
+int64_t
+aLastModifiedTime
 )
 ;
 nsPluginTag
@@ -284,8 +286,6 @@ int32_t
 aVariants
 int64_t
 aLastModifiedTime
-=
-0
 bool
 aArgsAreUTF8
 =
