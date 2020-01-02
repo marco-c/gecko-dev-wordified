@@ -4373,13 +4373,10 @@ uint8_t
 ;
 if
 (
-ToIntSize
-(
 serializer
 .
 GetYSize
 (
-)
 )
 !
 =
@@ -4389,13 +4386,10 @@ data
 mYSize
 |
 |
-ToIntSize
-(
 serializer
 .
 GetCbCrSize
 (
-)
 )
 !
 =
