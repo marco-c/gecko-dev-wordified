@@ -3786,6 +3786,12 @@ nsIDOMMouseEvent
 :
 MOZ_SOURCE_TOUCH
 ;
+event
+.
+ignoreRootScrollFrame
+=
+true
+;
 if
 (
 aMsg
@@ -10558,7 +10564,7 @@ aGuid
 2
 1
 0
-false
+true
 nsIDOMMouseEvent
 :
 :
@@ -11708,7 +11714,7 @@ count
 Modifiers
 *
 /
-false
+true
 /
 *
 Ignore
