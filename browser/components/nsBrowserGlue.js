@@ -6037,6 +6037,16 @@ hasMoreElements
 )
 )
 {
+/
+/
+XXXbz
+should
+we
+skip
+closed
+windows
+here
+?
 windowcount
 +
 +
