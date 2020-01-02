@@ -240,8 +240,13 @@ cx
 JS
 :
 :
+MutableHandle
+<
+JS
+:
+:
 Value
-*
+>
 retval
 )
 ;
