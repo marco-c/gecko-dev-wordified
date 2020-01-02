@@ -839,6 +839,10 @@ const
 nsAString
 &
 aName
+const
+nsAString
+&
+aOwner
 ErrorResult
 &
 aRv
@@ -854,6 +858,10 @@ const
 nsAString
 &
 aName
+const
+nsAString
+&
+aOwner
 ErrorResult
 &
 aRv

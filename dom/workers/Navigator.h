@@ -435,6 +435,10 @@ const
 nsAString
 &
 aName
+const
+nsAString
+&
+aOwner
 ErrorResult
 &
 aRv

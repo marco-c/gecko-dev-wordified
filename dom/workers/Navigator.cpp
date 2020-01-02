@@ -1107,6 +1107,10 @@ const
 nsString
 mName
 ;
+const
+nsString
+mOwner
+;
 ErrorResult
 &
 mRv
@@ -1125,6 +1129,10 @@ const
 nsAString
 &
 aName
+const
+nsAString
+&
+aOwner
 ErrorResult
 &
 aRv
@@ -1137,6 +1145,10 @@ aWorkerPrivate
 mName
 (
 aName
+)
+mOwner
+(
+aOwner
 )
 mRv
 (
@@ -1278,6 +1290,7 @@ GetDataStores
 (
 window
 mName
+mOwner
 mRv
 )
 ;
@@ -1311,6 +1324,10 @@ const
 nsAString
 &
 aName
+const
+nsAString
+&
+aOwner
 ErrorResult
 &
 aRv
@@ -1382,6 +1399,7 @@ NavigatorGetDataStoresRunnable
 workerPrivate
 promise
 aName
+aOwner
 aRv
 )
 ;
