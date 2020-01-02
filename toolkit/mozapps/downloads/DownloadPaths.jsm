@@ -355,7 +355,7 @@ is
 created
 with
 permissions
-600
+644
 .
 *
 /
@@ -608,7 +608,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0600
+0644
 )
 ;
 return
