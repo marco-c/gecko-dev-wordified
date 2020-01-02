@@ -215,12 +215,6 @@ jsm
 "
 )
 ;
-DOMApplicationRegistry
-.
-allAppsLaunchable
-=
-true
-;
 becomeWebapp
 (
 "
