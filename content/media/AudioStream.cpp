@@ -4568,6 +4568,10 @@ if
 cubeb_stream_set_volume
 (
 mCubebStream
+.
+get
+(
+)
 aVolume
 *
 CubebUtils
