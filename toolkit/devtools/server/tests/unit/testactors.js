@@ -468,7 +468,7 @@ aGlobal
 ;
 this
 .
-_threadActor
+threadActor
 =
 new
 ThreadActor
@@ -487,7 +487,7 @@ addActor
 (
 this
 .
-_threadActor
+threadActor
 )
 ;
 this
@@ -729,7 +729,7 @@ threadActor
 :
 this
 .
-_threadActor
+threadActor
 .
 actorID
 }
