@@ -93,6 +93,17 @@ io
 .
 FilenameFilter
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
 public
 class
 FileUtils
@@ -227,6 +238,7 @@ false
 ;
 }
 }
+RobocopTarget
 public
 static
 void
