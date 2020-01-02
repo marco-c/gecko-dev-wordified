@@ -5274,7 +5274,7 @@ else
 {
 obj
 =
-js_ValueToNonNullObject
+ToObject
 (
 cx
 val
