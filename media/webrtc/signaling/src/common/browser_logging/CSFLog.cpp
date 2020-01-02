@@ -204,11 +204,6 @@ gWebRTCLogModuleInfo
 =
 nullptr
 ;
-int
-gWebrtcTraceLoggingOn
-=
-0
-;
 PRLogModuleInfo
 *
 GetWebRTCLogInfo
