@@ -1735,7 +1735,7 @@ self
 addRevision
 (
 aRevisionStore
-0
+null
 REVISION_VOID
 function
 (
