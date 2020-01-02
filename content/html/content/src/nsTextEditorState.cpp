@@ -6175,8 +6175,8 @@ relevant
 security
 checks
 .
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 rv
 =
@@ -9080,12 +9080,12 @@ this
 *
 Scope
 for
-AutoSystemCaller
+AutoNoJSAPI
 .
 *
 /
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 mEditor
 -
@@ -9599,8 +9599,8 @@ will
 fail
 .
 {
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 nsCOMPtr
 <

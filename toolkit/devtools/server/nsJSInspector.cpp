@@ -438,8 +438,8 @@ mozilla
 dom
 :
 :
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 uint32_t
 nestLevel

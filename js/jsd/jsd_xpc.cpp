@@ -356,7 +356,7 @@ mozilla
 dom
 :
 :
-AutoSystemCaller
+AutoNoJSAPI
 ;
 /
 *
@@ -15160,8 +15160,8 @@ rv
 =
 NS_OK
 ;
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 uint32_t
 nestLevel

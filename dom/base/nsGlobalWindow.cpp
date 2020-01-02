@@ -62359,9 +62359,9 @@ rewritten
 (
 Maybe
 <
-AutoSystemCaller
+AutoNoJSAPI
 >
-asc
+nojsapi
 ;
 if
 (
@@ -62369,7 +62369,7 @@ if
 aContentModal
 )
 {
-asc
+nojsapi
 .
 construct
 (

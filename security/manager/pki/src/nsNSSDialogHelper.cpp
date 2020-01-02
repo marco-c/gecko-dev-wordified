@@ -344,8 +344,8 @@ mozilla
 dom
 :
 :
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 nsCOMPtr
 <

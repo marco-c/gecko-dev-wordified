@@ -12437,8 +12437,8 @@ be
 thrown
 .
 {
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 /
 /
