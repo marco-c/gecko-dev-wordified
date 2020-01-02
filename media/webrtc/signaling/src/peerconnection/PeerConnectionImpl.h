@@ -2526,6 +2526,12 @@ IsClosed
 )
 const
 ;
+bool
+HasMedia
+(
+)
+const
+;
 #
 ifdef
 MOZILLA_INTERNAL_API

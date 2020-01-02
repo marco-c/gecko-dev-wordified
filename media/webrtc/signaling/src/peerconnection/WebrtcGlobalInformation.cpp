@@ -840,14 +840,13 @@ second
 ;
 if
 (
-!
 p
 -
 >
 second
 -
 >
-IsClosed
+HasMedia
 (
 )
 )
