@@ -166,6 +166,10 @@ nsGfxRadioControlFrame
 )
 FRAME_ID
 (
+nsGridContainerFrame
+)
+FRAME_ID
+(
 nsGridRowGroupFrame
 )
 FRAME_ID

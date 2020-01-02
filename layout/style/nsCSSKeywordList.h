@@ -2214,6 +2214,11 @@ graytext
 )
 CSS_KEY
 (
+grid
+grid
+)
+CSS_KEY
+(
 groove
 groove
 )
@@ -2399,6 +2404,13 @@ inline
 -
 flex
 inline_flex
+)
+CSS_KEY
+(
+inline
+-
+grid
+inline_grid
 )
 CSS_KEY
 (

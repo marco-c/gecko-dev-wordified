@@ -13478,6 +13478,13 @@ gfxButtonControlFrame
 )
 GK_ATOM
 (
+gridContainerFrame
+"
+GridContainerFrame
+"
+)
+GK_ATOM
+(
 HTMLButtonControlFrame
 "
 HTMLButtonControlFrame

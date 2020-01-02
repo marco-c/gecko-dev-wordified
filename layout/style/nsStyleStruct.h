@@ -11416,6 +11416,12 @@ NS_STYLE_DISPLAY_FLEX
 mDisplay
 |
 |
+NS_STYLE_DISPLAY_GRID
+=
+=
+mDisplay
+|
+|
 NS_STYLE_DISPLAY_LIST_ITEM
 =
 =
@@ -11462,6 +11468,12 @@ aDisplay
 |
 |
 NS_STYLE_DISPLAY_INLINE_FLEX
+=
+=
+aDisplay
+|
+|
+NS_STYLE_DISPLAY_INLINE_GRID
 =
 =
 aDisplay
