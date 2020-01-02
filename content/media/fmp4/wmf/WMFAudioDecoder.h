@@ -125,7 +125,7 @@ WMFAudioDecoder_h_
 #
 include
 "
-wmf
+WMF
 .
 h
 "

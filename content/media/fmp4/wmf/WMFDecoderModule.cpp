@@ -115,7 +115,7 @@ MPL
 #
 include
 "
-wmf
+WMF
 .
 h
 "
