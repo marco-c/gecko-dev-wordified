@@ -4333,12 +4333,6 @@ this
 }
 }
 ;
-ContentPanning
-.
-init
-(
-)
-;
 /
 /
 Min
