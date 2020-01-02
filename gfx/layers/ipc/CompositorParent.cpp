@@ -6576,7 +6576,6 @@ aTargetConfig
 static
 *
 /
-const
 CompositorParent
 :
 :
@@ -6594,7 +6593,7 @@ aId
 LayerTreeMap
 :
 :
-const_iterator
+iterator
 cit
 =
 sIndirectLayerTrees

@@ -366,6 +366,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+APZTestData
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -1386,6 +1397,9 @@ mCrossProcessParent
 TargetConfig
 mTargetConfig
 ;
+APZTestData
+mApzTestData
+;
 }
 ;
 /
@@ -1428,7 +1442,6 @@ thread
 *
 /
 static
-const
 LayerTreeState
 *
 GetIndirectShadowTree
