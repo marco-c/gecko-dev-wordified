@@ -2190,7 +2190,7 @@ aProperty
 mozilla
 :
 :
-StyleAnimation
+ElementAnimation
 *
 ea
 Layer
@@ -2726,7 +2726,7 @@ animIdx
 mozilla
 :
 :
-StyleAnimation
+ElementAnimation
 *
 anim
 =

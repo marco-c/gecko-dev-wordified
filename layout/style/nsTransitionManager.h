@@ -307,7 +307,7 @@ public
 mozilla
 :
 :
-StyleAnimation
+ElementAnimation
 {
 /
 /
@@ -601,7 +601,7 @@ that
 mozilla
 :
 :
-StyleAnimation
+ElementAnimation
 :
 :
 IsRunningAt

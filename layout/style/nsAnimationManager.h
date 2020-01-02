@@ -473,7 +473,7 @@ we
 need
 the
 actual
-StyleAnimation
+ElementAnimation
 *
 in
 order
@@ -599,7 +599,7 @@ aDirection
 mozilla
 :
 :
-StyleAnimation
+ElementAnimation
 *
 aAnimation
 =
@@ -961,7 +961,7 @@ mNeedsRefreshes
 mozilla
 :
 :
-StyleAnimationPtrArray
+ElementAnimationPtrArray
 mAnimations
 ;
 }
@@ -1564,7 +1564,7 @@ aStyleContext
 mozilla
 :
 :
-StyleAnimationPtrArray
+ElementAnimationPtrArray
 &
 aAnimations
 )

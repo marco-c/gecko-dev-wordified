@@ -2028,7 +2028,7 @@ css
 *
 /
 bool
-StyleAnimation
+ElementAnimation
 :
 :
 IsRunningAt
@@ -2093,7 +2093,7 @@ mIterationCount
 ;
 }
 bool
-StyleAnimation
+ElementAnimation
 :
 :
 HasAnimationOfProperty
