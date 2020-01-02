@@ -912,6 +912,14 @@ HandleValue
 v
 )
 ;
+ArrayBufferObject
+&
+AsTypedArrayBuffer
+(
+HandleValue
+v
+)
+;
 static
 inline
 unsigned
