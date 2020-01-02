@@ -486,6 +486,7 @@ SGX540
 Tegra
 AndroidEmulator
 GalliumLlvmpipe
+IntelHD3000
 Other
 MOZ_END_ENUM_CLASS
 (
