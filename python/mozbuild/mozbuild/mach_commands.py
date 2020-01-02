@@ -3934,6 +3934,14 @@ to
 generate
 .
         
+python
+=
+self
+.
+virtualenv_manager
+.
+python_path
+        
 config_status
 =
 os
@@ -3960,6 +3968,7 @@ _run_command_in_objdir
 args
 =
 [
+python
 config_status
 ]
             
