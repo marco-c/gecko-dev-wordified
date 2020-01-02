@@ -261,6 +261,7 @@ bool
 Init
 (
 )
+MOZ_OVERRIDE
 ;
 NSOpenGLContext
 *

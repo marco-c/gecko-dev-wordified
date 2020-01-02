@@ -270,6 +270,7 @@ bool
 Init
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -524,6 +525,9 @@ mHwc
 ;
 #
 endif
+bool
+mOwnsContext
+;
 static
 EGLSurface
 CreatePBufferSurfaceTryingPowerOfTwo

@@ -270,6 +270,7 @@ bool
 Init
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
