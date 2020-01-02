@@ -773,6 +773,16 @@ MOZ_OVERRIDE
 ;
 virtual
 void
+SetFBAcquireFence
+(
+Layer
+*
+aLayer
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 EndFrameForExternalComposition
 (
 const

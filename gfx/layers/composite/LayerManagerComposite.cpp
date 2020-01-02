@@ -3037,6 +3037,14 @@ EndFrame
 (
 )
 ;
+mCompositor
+-
+>
+SetFBAcquireFence
+(
+mRoot
+)
+;
 }
 mCompositor
 -
