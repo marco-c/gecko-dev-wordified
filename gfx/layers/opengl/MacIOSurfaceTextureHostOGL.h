@@ -265,14 +265,6 @@ return
 LOCAL_GL_CLAMP_TO_EDGE
 ;
 }
-virtual
-void
-UnbindTexture
-(
-)
-MOZ_OVERRIDE
-{
-}
 /
 /
 MacIOSurfaceTextureSourceOGL
