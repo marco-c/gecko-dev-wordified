@@ -247,6 +247,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 AudioDestinationNode
 AudioNode
 )
+NS_DECL_NSIAUDIOCHANNELAGENTCALLBACK
 virtual
 JSObject
 *
@@ -327,16 +328,6 @@ HandleEvent
 nsIDOMEvent
 *
 aEvent
-)
-;
-/
-/
-nsIAudioChannelAgentCallback
-NS_IMETHOD
-CanPlayChanged
-(
-int32_t
-aCanPlay
 )
 ;
 AudioChannel
