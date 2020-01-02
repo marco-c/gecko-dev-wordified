@@ -336,7 +336,7 @@ Flags
 {
 xPlacement
 =
-0x0001
+0x0001u
 /
 *
 Includes
@@ -348,7 +348,7 @@ placement
 /
 yPlacement
 =
-0x0002
+0x0002u
 /
 *
 Includes
@@ -360,7 +360,7 @@ placement
 /
 xAdvance
 =
-0x0004
+0x0004u
 /
 *
 Includes
@@ -372,7 +372,7 @@ advance
 /
 yAdvance
 =
-0x0008
+0x0008u
 /
 *
 Includes
@@ -384,7 +384,7 @@ advance
 /
 xPlaDevice
 =
-0x0010
+0x0010u
 /
 *
 Includes
@@ -397,7 +397,7 @@ placement
 /
 yPlaDevice
 =
-0x0020
+0x0020u
 /
 *
 Includes
@@ -410,7 +410,7 @@ placement
 /
 xAdvDevice
 =
-0x0040
+0x0040u
 /
 *
 Includes
@@ -423,7 +423,7 @@ advance
 /
 yAdvDevice
 =
-0x0080
+0x0080u
 /
 *
 Includes
@@ -436,7 +436,7 @@ advance
 /
 ignored
 =
-0x0F00
+0x0F00u
 /
 *
 Was
@@ -451,7 +451,7 @@ fonts
 /
 reserved
 =
-0xF000
+0xF000u
 /
 *
 For
@@ -461,7 +461,7 @@ use
 /
 devices
 =
-0x00F0
+0x00F0u
 /
 *
 Mask
@@ -11079,6 +11079,11 @@ hb_buffer_t
 buffer
 )
 {
+_hb_buffer_assert_gsubgpos_vars
+(
+buffer
+)
+;
 unsigned
 int
 len
@@ -11163,11 +11168,6 @@ i
 direction
 )
 ;
-_hb_buffer_deallocate_gsubgpos_vars
-(
-buffer
-)
-;
 }
 /
 *
@@ -11187,6 +11187,11 @@ template
 typename
 context_t
 >
+/
+*
+static
+*
+/
 inline
 typename
 context_t
@@ -11246,6 +11251,11 @@ c
 )
 ;
 }
+/
+*
+static
+*
+/
 inline
 bool
 PosLookup

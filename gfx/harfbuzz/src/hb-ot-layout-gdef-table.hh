@@ -1580,9 +1580,13 @@ format
 1
 *
 /
-LongOffsetArrayOf
+ArrayOf
+<
+OffsetTo
 <
 Coverage
+ULONG
+>
 >
 coverage
 ;
@@ -2041,7 +2045,7 @@ to_int
 )
 >
 =
-0x00010002
+0x00010002u
 &
 &
 markGlyphSetsDef
@@ -2073,7 +2077,7 @@ to_int
 )
 >
 =
-0x00010002
+0x00010002u
 &
 &
 (
@@ -2171,7 +2175,7 @@ to_int
 (
 )
 <
-0x00010002
+0x00010002u
 |
 |
 markGlyphSetsDef
@@ -2376,7 +2380,7 @@ table
 -
 currently
 *
-0x00010002
+0x00010002u
 *
 /
 OffsetTo

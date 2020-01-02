@@ -1489,9 +1489,12 @@ ffuncs
 {
 if
 (
+unlikely
+(
 hb_object_is_inert
 (
 ffuncs
+)
 )
 )
 return
@@ -3960,9 +3963,12 @@ font
 {
 if
 (
+unlikely
+(
 hb_object_is_inert
 (
 font
+)
 )
 )
 return

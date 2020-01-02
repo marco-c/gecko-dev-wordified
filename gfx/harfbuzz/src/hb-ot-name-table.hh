@@ -866,6 +866,8 @@ records
 *
 /
 Offset
+<
+>
 stringOffset
 ;
 /

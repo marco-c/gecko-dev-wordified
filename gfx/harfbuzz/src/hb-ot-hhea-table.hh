@@ -293,14 +293,14 @@ major
 )
 ;
 }
-protected
+public
 :
 FixedVersion
 version
 ;
 /
 *
-0x00010000
+0x00010000u
 for
 version
 1

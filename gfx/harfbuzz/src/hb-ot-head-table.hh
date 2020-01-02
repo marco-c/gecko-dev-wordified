@@ -373,7 +373,7 @@ table
 -
 currently
 *
-0x00010000
+0x00010000u
 for
 version
 1
@@ -416,7 +416,7 @@ ULONG
 then
 store
 *
-0xB1B0AFBA
+0xB1B0AFBAu
 -
 sum
 .
@@ -429,7 +429,7 @@ magicNumber
 *
 Set
 to
-0x5F0F3CF5
+0x5F0F3CF5u
 .
 *
 /
