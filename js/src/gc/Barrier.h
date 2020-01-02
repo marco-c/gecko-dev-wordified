@@ -6548,7 +6548,11 @@ enum
 Kind
 {
 Slot
+=
+0
 Element
+=
+1
 }
 ;
 explicit
@@ -7037,12 +7041,7 @@ putSlot
 obj
 kind
 slot
-&
-target
-.
-toObject
-(
-)
+1
 )
 ;
 }
