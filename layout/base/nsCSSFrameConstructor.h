@@ -9379,15 +9379,6 @@ aPossiblyLeafFrame
 nullptr
 )
 ;
-nsIFrame
-*
-GetFrameFor
-(
-nsIContent
-*
-aContent
-)
-;
 /
 *
 *
