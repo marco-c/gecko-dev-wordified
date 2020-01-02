@@ -403,6 +403,9 @@ const
 nsString
 mScope
 ;
+bool
+mListeningForEvents
+;
 }
 ;
 }
