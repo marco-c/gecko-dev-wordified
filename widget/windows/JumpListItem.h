@@ -482,6 +482,12 @@ JumpListItem
 public
 nsIJumpListShortcut
 {
+~
+JumpListShortcut
+(
+)
+{
+}
 public
 :
 JumpListShortcut
