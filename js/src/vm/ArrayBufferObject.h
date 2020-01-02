@@ -1698,7 +1698,7 @@ gc
 .
 storeBuffer
 .
-putWholeCell
+putWholeCellFromMainThread
 (
 obj
 )

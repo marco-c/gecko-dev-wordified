@@ -3652,12 +3652,6 @@ if
 !
 IsInsideNursery
 (
-cx
--
->
-runtime
-(
-)
 obj
 )
 )
@@ -3673,7 +3667,7 @@ gc
 .
 storeBuffer
 .
-putWholeCell
+putWholeCellFromMainThread
 (
 obj
 )
@@ -3769,12 +3763,6 @@ MOZ_ASSERT
 !
 IsInsideNursery
 (
-cx
--
->
-runtime
-(
-)
 obj
 )
 "
@@ -3800,7 +3788,7 @@ gc
 .
 storeBuffer
 .
-putWholeCell
+putWholeCellFromMainThread
 (
 obj
 )
@@ -4680,7 +4668,7 @@ gc
 .
 storeBuffer
 .
-putWholeCell
+putWholeCellFromMainThread
 (
 obj
 )
