@@ -271,7 +271,7 @@ play
 SLBufferQueueItf
 bufq
 ;
-void
+uint8_t
 *
 queuebuf
 [
@@ -500,7 +500,7 @@ i
 +
 )
 {
-void
+uint8_t
 *
 buf
 =
