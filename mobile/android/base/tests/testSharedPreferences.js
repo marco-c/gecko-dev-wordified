@@ -136,15 +136,9 @@ gre
 /
 modules
 /
-commonjs
-/
-sdk
-/
-core
-/
-promise
+Promise
 .
-js
+jsm
 "
 )
 ;
