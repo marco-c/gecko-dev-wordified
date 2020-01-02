@@ -69,6 +69,8 @@ import
 tempfile
 import
 time
+import
+mozfile
 from
 .
 runner
@@ -1091,6 +1093,8 @@ pull_minidumps
 (
 )
         
+crashed
+=
 BaseRunner
 .
 check_for_crashes
@@ -1099,12 +1103,23 @@ self
 dump_directory
 =
 dump_dir
+                                               
 test_name
 =
 self
 .
 last_test
 )
+        
+mozfile
+.
+remove
+(
+dump_dir
+)
+        
+return
+crashed
     
 def
 cleanup
