@@ -7379,7 +7379,7 @@ true
 /
 If
 the
-image
+icon
 in
 question
 is
