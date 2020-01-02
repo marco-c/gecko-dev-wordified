@@ -215,8 +215,6 @@ bool
 aCanStoreInRuleTree
 nscoord
 aSize
-float
-aAppUnitsPerMatrixUnit
 )
 ;
 void
@@ -244,8 +242,6 @@ aCanStoreInRuleTree
 nsRect
 &
 aBounds
-float
-aAppUnitsPerMatrixUnit
 )
 ;
 /
