@@ -16546,6 +16546,10 @@ should
 be
 fetched
 .
+Must
+use
+HTTPS
+.
 pref
 (
 "
@@ -16556,7 +16560,7 @@ accounts
 remoteUrl
 "
 "
-http
+https
 :
 /
 /
