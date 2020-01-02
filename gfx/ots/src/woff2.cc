@@ -6885,6 +6885,8 @@ signature
 ;
 uint32_t
 flavor
+=
+0
 ;
 if
 (

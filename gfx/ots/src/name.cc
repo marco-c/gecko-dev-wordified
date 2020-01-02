@@ -618,6 +618,8 @@ rec
 uint16_t
 name_length
 name_offset
+=
+0
 ;
 if
 (
