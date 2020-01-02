@@ -627,7 +627,7 @@ if
 aType
 =
 =
-nsIDOMXPathResult
+XPathResult
 :
 :
 ANY_TYPE
@@ -656,7 +656,7 @@ NUMBER
 :
 resultType
 =
-nsIDOMXPathResult
+XPathResult
 :
 :
 NUMBER_TYPE
@@ -671,7 +671,7 @@ STRING
 :
 resultType
 =
-nsIDOMXPathResult
+XPathResult
 :
 :
 STRING_TYPE
@@ -686,7 +686,7 @@ BOOLEAN
 :
 resultType
 =
-nsIDOMXPathResult
+XPathResult
 :
 :
 BOOLEAN_TYPE
@@ -701,7 +701,7 @@ NODESET
 :
 resultType
 =
-nsIDOMXPathResult
+XPathResult
 :
 :
 UNORDERED_NODE_ITERATOR_TYPE
@@ -780,12 +780,7 @@ xpathResult
 new
 XPathResult
 (
-)
-;
-NS_ENSURE_TRUE
-(
-xpathResult
-NS_ERROR_OUT_OF_MEMORY
+context
 )
 ;
 }

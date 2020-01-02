@@ -895,15 +895,6 @@ UNORDERED_TYPE
 null
 )
 ;
-do_check_true
-(
-result
-instanceof
-C_i
-.
-nsIDOMXPathResult
-)
-;
 return
 result
 .
