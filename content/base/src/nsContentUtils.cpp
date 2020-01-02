@@ -31567,8 +31567,7 @@ aIID
 JS
 :
 :
-Value
-*
+MutableHandleValue
 vp
 nsIXPConnectJSObjectHolder
 *
@@ -31603,10 +31602,11 @@ null
 "
 )
 ;
-*
 vp
-=
-JSVAL_NULL
+.
+setNull
+(
+)
 ;
 return
 NS_OK
@@ -31676,6 +31676,10 @@ cache
 aIID
 aAllowWrapping
 vp
+.
+address
+(
+)
 aHolder
 )
 ;
@@ -31918,10 +31922,6 @@ aCx
 scope
 blob
 aBlob
-.
-address
-(
-)
 nullptr
 true
 )

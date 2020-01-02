@@ -27534,10 +27534,6 @@ args
 rval
 (
 )
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -35336,11 +35332,8 @@ cx
 global
 this
 this
+&
 v
-.
-address
-(
-)
 nullptr
 /
 *
@@ -61733,11 +61726,8 @@ NS_GET_IID
 (
 nsIDOMWindow
 )
+&
 winVal
-.
-address
-(
-)
 getter_AddRefs
 (
 holder

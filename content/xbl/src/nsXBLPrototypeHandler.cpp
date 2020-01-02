@@ -2059,11 +2059,8 @@ WrapNative
 cx
 scopeObject
 scriptTarget
+&
 targetV
-.
-address
-(
-)
 nullptr
 /
 *

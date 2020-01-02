@@ -18159,8 +18159,17 @@ string
 JS
 :
 :
+Rooted
+<
+JS
+:
+:
 Value
+>
 v
+(
+aCx
+)
 ;
 if
 (

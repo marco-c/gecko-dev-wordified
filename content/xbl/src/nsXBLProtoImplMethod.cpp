@@ -1741,11 +1741,8 @@ WrapNative
 cx
 globalObject
 aBoundElement
+&
 v
-.
-address
-(
-)
 getter_AddRefs
 (
 wrapper
