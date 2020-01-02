@@ -6851,6 +6851,17 @@ tabs
 =
 closedTabs
 .
+filter
+(
+tab
+=
+>
+!
+tab
+.
+isPrivate
+)
+.
 map
 (
 function
