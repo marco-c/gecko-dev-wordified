@@ -358,6 +358,7 @@ CharacterClassUnmatched
 CharacterClassOutOfOrder
 CharacterClassInvalidRange
 EscapeUnterminated
+RuntimeError
 NumberOfErrorCodes
 }
 ;

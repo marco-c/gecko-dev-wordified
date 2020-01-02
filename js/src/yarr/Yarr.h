@@ -431,6 +431,17 @@ unsigned
 -
 1
 ;
+static
+const
+unsigned
+offsetError
+=
+(
+unsigned
+)
+-
+2
+;
 /
 /
 The
