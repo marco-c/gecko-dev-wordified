@@ -1134,7 +1134,7 @@ gecko
 is
 ready
 call
-createCompositor
+updateCompositor
 (
 )
 to
@@ -1204,7 +1204,7 @@ getGLController
 (
 )
 .
-createCompositor
+updateCompositor
 (
 )
 ;
