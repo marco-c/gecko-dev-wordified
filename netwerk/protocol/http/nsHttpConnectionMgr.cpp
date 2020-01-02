@@ -748,7 +748,7 @@ LOG
 Creating
 nsHttpConnectionMgr
 %
-x
+p
 \
 n
 "
@@ -772,7 +772,7 @@ LOG
 Destroying
 nsHttpConnectionMgr
 %
-x
+p
 \
 n
 "
@@ -1881,7 +1881,7 @@ AddTransaction
 trans
 =
 %
-x
+p
 %
 d
 ]
@@ -1953,7 +1953,7 @@ RescheduleTransaction
 trans
 =
 %
-x
+p
 %
 d
 ]
@@ -2025,7 +2025,7 @@ CancelTransaction
 trans
 =
 %
-x
+p
 reason
 =
 %
@@ -2619,7 +2619,7 @@ ReclaimConnection
 conn
 =
 %
-x
+p
 ]
 \
 n
@@ -10789,7 +10789,7 @@ spdy
 conn
 =
 %
-x
+p
 ]
 \
 n
@@ -11372,7 +11372,7 @@ connection
 conn
 =
 %
-x
+p
 ]
 \
 n
@@ -11410,7 +11410,7 @@ connection
 conn
 =
 %
-x
+p
 ]
 \
 n
@@ -11788,7 +11788,7 @@ s
 trans
 =
 %
-x
+p
 caps
 =
 %
@@ -11796,7 +11796,7 @@ x
 conn
 =
 %
-x
+p
 priority
 =
 %
@@ -12283,7 +12283,7 @@ s
 trans
 =
 %
-x
+p
 caps
 =
 %
@@ -12291,7 +12291,7 @@ x
 conn
 =
 %
-x
+p
 ]
 \
 n

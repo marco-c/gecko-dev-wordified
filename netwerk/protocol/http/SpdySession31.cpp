@@ -2991,7 +2991,7 @@ LOG3
 (
 (
 "
-SpdyStream31
+SpdySession31
 :
 :
 ChangeDownstreamState
@@ -3039,7 +3039,7 @@ LOG3
 (
 (
 "
-SpdyStream31
+SpdySession31
 :
 :
 ResetDownstreamState
