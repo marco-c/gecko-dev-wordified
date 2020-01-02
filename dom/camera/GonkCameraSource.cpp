@@ -519,7 +519,7 @@ ext2
 )
 ;
 virtual
-void
+bool
 postData
 (
 int32_t
@@ -537,7 +537,7 @@ metadata
 )
 ;
 virtual
-void
+bool
 postDataTimestamp
 (
 nsecs_t
@@ -650,7 +650,7 @@ ext2
 )
 ;
 }
-void
+bool
 GonkCameraSourceListener
 :
 :
@@ -735,9 +735,15 @@ msgType
 dataPtr
 )
 ;
+return
+true
+;
 }
+return
+false
+;
 }
-void
+bool
 GonkCameraSourceListener
 :
 :
@@ -792,7 +798,13 @@ msgType
 dataPtr
 )
 ;
+return
+true
+;
 }
+return
+false
+;
 }
 static
 int32_t
