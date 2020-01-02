@@ -560,7 +560,7 @@ NUM_PAGE_URL_MAPPINGS_TO_STORE
 public
 static
 String
-getFaviconURLForPageURLFromCache
+getFaviconUrlForPageUrlFromCache
 (
 String
 pageURL
@@ -610,7 +610,7 @@ access
 public
 static
 void
-putFaviconURLForPageURLInCache
+putFaviconUrlForPageUrlInCache
 (
 String
 pageURL
@@ -1095,7 +1095,7 @@ null
 {
 cacheURL
 =
-guessDefaultFaviconURL
+guessDefaultFaviconUrl
 (
 pageURL
 )
@@ -1800,7 +1800,7 @@ guess
 public
 static
 String
-getFaviconURLForPageURL
+getFaviconUrlForPageUrl
 (
 String
 pageURL
@@ -1923,7 +1923,7 @@ best
 .
 targetURL
 =
-guessDefaultFaviconURL
+guessDefaultFaviconUrl
 (
 pageURL
 )
@@ -3095,7 +3095,7 @@ URL
 public
 static
 String
-guessDefaultFaviconURL
+guessDefaultFaviconUrl
 (
 String
 pageURL
