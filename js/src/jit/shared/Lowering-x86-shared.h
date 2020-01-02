@@ -420,6 +420,14 @@ MTruncateToInt32
 ins
 )
 ;
+bool
+visitForkJoinGetSlice
+(
+MForkJoinGetSlice
+*
+ins
+)
+;
 }
 ;
 }

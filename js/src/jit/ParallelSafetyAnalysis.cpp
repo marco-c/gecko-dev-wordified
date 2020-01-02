@@ -1465,6 +1465,10 @@ ForkJoinContext
 )
 SAFE_OP
 (
+ForkJoinGetSlice
+)
+SAFE_OP
+(
 NewPar
 )
 SAFE_OP
