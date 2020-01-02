@@ -263,6 +263,8 @@ MOZ_FINAL
 :
 public
 PGMPParent
+public
+GMPSharedMem
 {
 public
 :
@@ -704,6 +706,16 @@ forget
 )
 ;
 }
+/
+/
+GMPSharedMem
+virtual
+void
+CheckThread
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 ~

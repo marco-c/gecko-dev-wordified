@@ -174,9 +174,9 @@ MOZ_FINAL
 public
 PGMPVideoDecoderParent
 public
-GMPSharedMemManager
-public
 GMPVideoDecoderProxy
+public
+GMPSharedMemManager
 {
 public
 :
@@ -299,12 +299,6 @@ get
 /
 GMPSharedMemManager
 virtual
-void
-CheckThread
-(
-)
-;
-virtual
 bool
 Alloc
 (
@@ -322,6 +316,7 @@ Shmem
 *
 aMem
 )
+MOZ_OVERRIDE
 {
 #
 ifdef
@@ -355,6 +350,7 @@ Shmem
 &
 aMem
 )
+MOZ_OVERRIDE
 {
 DeallocShmem
 (
