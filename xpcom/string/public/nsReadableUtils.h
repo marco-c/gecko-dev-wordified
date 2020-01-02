@@ -101,7 +101,7 @@ pragma
 private
 include
 "
-nsStringGlue
+nsString
 .
 h
 "
