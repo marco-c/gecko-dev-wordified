@@ -473,12 +473,6 @@ D3DERR_OUTOFVIDEOMEMORY
 result
 =
 =
-E_INVALIDARG
-|
-|
-result
-=
-=
 E_OUTOFMEMORY
 )
 {
