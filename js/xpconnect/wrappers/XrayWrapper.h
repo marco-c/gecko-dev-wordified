@@ -415,12 +415,6 @@ unsigned
 flags
 )
 ;
-virtual
-~
-XrayWrapper
-(
-)
-;
 /
 *
 Fundamental
