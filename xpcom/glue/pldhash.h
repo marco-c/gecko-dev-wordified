@@ -167,6 +167,18 @@ nscore
 h
 "
 #
+ifdef
+PL_DHASHMETER
+#
+include
+<
+stdio
+.
+h
+>
+#
+endif
+#
 if
 defined
 (
@@ -278,14 +290,14 @@ if
 |
 capacity
 *
-entrySize
+mEntrySize
 |
 *
 overflows
 a
 uint32_t
 and
-entrySize
+mEntrySize
 is
 always
 at
@@ -911,7 +923,7 @@ in
 aTable
 -
 >
-entryStore
+mEntryStore
 .
 *
 *
@@ -1031,7 +1043,7 @@ PL_DHASH_REMOVE
 aTable
 -
 >
-entryStore
+mEntryStore
 may
 be
 shrunk
@@ -1142,7 +1154,7 @@ might
 grow
 or
 shrink
-entryStore
+mEntryStore
 .
 *
 *
@@ -1198,7 +1210,7 @@ you
 do
 not
 want
-entryStore
+mEntryStore
 *
 to
 be
@@ -1967,7 +1979,7 @@ sample
 aTable
 -
 >
-generation
+mGeneration
 before
 adding
 *
@@ -1988,7 +2000,7 @@ if
 aTable
 -
 >
-generation
+mGeneration
 has
 not
 changed
@@ -2094,7 +2106,7 @@ data
 private
 :
 int16_t
-hashShift
+mHashShift
 ;
 /
 *
@@ -2107,7 +2119,7 @@ shift
 *
 *
 |
-recursionLevel
+mRecursionLevel
 |
 is
 only
@@ -2162,7 +2174,7 @@ padding
 *
 /
 uint16_t
-recursionLevel
+mRecursionLevel
 ;
 /
 *
@@ -2176,7 +2188,7 @@ entry
 *
 /
 uint32_t
-entrySize
+mEntrySize
 ;
 /
 *
@@ -2189,7 +2201,7 @@ entry
 *
 /
 uint32_t
-entryCount
+mEntryCount
 ;
 /
 *
@@ -2201,7 +2213,7 @@ table
 *
 /
 uint32_t
-removedCount
+mRemovedCount
 ;
 /
 *
@@ -2213,7 +2225,7 @@ table
 *
 /
 uint32_t
-generation
+mGeneration
 ;
 /
 *
@@ -2225,7 +2237,7 @@ number
 /
 char
 *
-entryStore
+mEntryStore
 ;
 /
 *
@@ -2240,7 +2252,7 @@ struct
 PLDHashStats
 {
 uint32_t
-searches
+mSearches
 ;
 /
 *
@@ -2252,7 +2264,7 @@ searches
 *
 /
 uint32_t
-steps
+mSteps
 ;
 /
 *
@@ -2263,7 +2275,7 @@ traversed
 *
 /
 uint32_t
-hits
+mHits
 ;
 /
 *
@@ -2274,7 +2286,7 @@ key
 *
 /
 uint32_t
-misses
+mMisses
 ;
 /
 *
@@ -2288,7 +2300,7 @@ key
 *
 /
 uint32_t
-lookups
+mLookups
 ;
 /
 *
@@ -2298,7 +2310,7 @@ PL_DHASH_LOOKUPs
 *
 /
 uint32_t
-addMisses
+mAddMisses
 ;
 /
 *
@@ -2311,7 +2323,7 @@ work
 *
 /
 uint32_t
-addOverRemoved
+mAddOverRemoved
 ;
 /
 *
@@ -2324,7 +2336,7 @@ entry
 *
 /
 uint32_t
-addHits
+mAddHits
 ;
 /
 *
@@ -2337,7 +2349,7 @@ entry
 *
 /
 uint32_t
-addFailures
+mAddFailures
 ;
 /
 *
@@ -2352,7 +2364,7 @@ growth
 *
 /
 uint32_t
-removeHits
+mRemoveHits
 ;
 /
 *
@@ -2365,7 +2377,7 @@ work
 *
 /
 uint32_t
-removeMisses
+mRemoveMisses
 ;
 /
 *
@@ -2376,7 +2388,7 @@ miss
 *
 /
 uint32_t
-removeFrees
+mRemoveFrees
 ;
 /
 *
@@ -2388,7 +2400,7 @@ directly
 *
 /
 uint32_t
-removeEnums
+mRemoveEnums
 ;
 /
 *
@@ -2399,7 +2411,7 @@ Enumerate
 *
 /
 uint32_t
-grows
+mGrows
 ;
 /
 *
@@ -2408,7 +2420,7 @@ expansions
 *
 /
 uint32_t
-shrinks
+mShrinks
 ;
 /
 *
@@ -2417,7 +2429,7 @@ contractions
 *
 /
 uint32_t
-compresses
+mCompresses
 ;
 /
 *
@@ -2426,7 +2438,7 @@ compressions
 *
 /
 uint32_t
-enumShrinks
+mEnumShrinks
 ;
 /
 *
@@ -2436,7 +2448,7 @@ Enumerate
 *
 /
 }
-stats
+mStats
 ;
 #
 endif
@@ -2464,7 +2476,7 @@ table
 *
 We
 store
-hashShift
+mHashShift
 rather
 than
 sizeLog2
@@ -2474,8 +2486,8 @@ the
 collision
 -
 free
-case
 *
+case
 in
 SearchTable
 .
@@ -2498,7 +2510,7 @@ uint32_t
 (
 PL_DHASH_BITS
 -
-hashShift
+mHashShift
 )
 )
 ;
@@ -2510,7 +2522,7 @@ EntrySize
 const
 {
 return
-entrySize
+mEntrySize
 ;
 }
 uint32_t
@@ -2520,7 +2532,7 @@ EntryCount
 const
 {
 return
-entryCount
+mEntryCount
 ;
 }
 uint32_t
@@ -2530,7 +2542,7 @@ Generation
 const
 {
 return
-generation
+mGeneration
 ;
 }
 bool
@@ -2720,7 +2732,7 @@ aDeltaLog2
 Table
 space
 at
-entryStore
+mEntryStore
 is
 allocated
 and
@@ -3764,7 +3776,7 @@ at
 aTable
 -
 >
-entryStore
+mEntryStore
 will
 be
 allocated
@@ -4465,7 +4477,7 @@ It
 does
 not
 update
-stats
+mStats
 #
 ifdef
 *
@@ -4753,13 +4765,6 @@ endif
 #
 ifdef
 PL_DHASHMETER
-#
-include
-<
-stdio
-.
-h
->
 NS_COM_GLUE
 void
 PL_DHashTableDumpMeter
