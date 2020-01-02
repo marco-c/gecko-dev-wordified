@@ -218,10 +218,6 @@ nsIDirectoryServiceProvider2
 {
 public
 :
-/
-/
-nsISupports
-interface
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIPROPERTIES
 NS_DECL_NSIDIRECTORYSERVICE

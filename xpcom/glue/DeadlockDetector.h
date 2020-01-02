@@ -2009,11 +2009,7 @@ Length
 ;
 for
 (
-const
-OrderingEntry
-*
-const
-*
+auto
 it
 =
 aStart
@@ -2356,11 +2352,7 @@ Length
 ;
 for
 (
-const
-OrderingEntry
-*
-const
-*
+auto
 it
 =
 aStart
