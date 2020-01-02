@@ -18250,6 +18250,13 @@ AppendToTop
 savedItems
 )
 ;
+aList
+-
+>
+SetDidComputeVisibility
+(
+)
+;
 }
 void
 ContainerState
