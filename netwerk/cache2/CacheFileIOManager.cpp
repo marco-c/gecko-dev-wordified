@@ -12140,6 +12140,13 @@ if
 (
 !
 ioMan
+|
+|
+!
+ioMan
+-
+>
+mCacheProfilelessDirectory
 )
 {
 return
