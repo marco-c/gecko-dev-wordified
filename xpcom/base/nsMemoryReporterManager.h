@@ -247,7 +247,10 @@ get
 typedef
 nsTHashtable
 <
-nsISupportsHashKey
+nsRefPtrHashKey
+<
+nsIMemoryReporter
+>
 >
 StrongReportersTable
 ;
@@ -256,7 +259,7 @@ nsTHashtable
 <
 nsPtrHashKey
 <
-nsISupports
+nsIMemoryReporter
 >
 >
 WeakReportersTable
