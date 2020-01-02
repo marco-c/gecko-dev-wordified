@@ -9840,7 +9840,7 @@ completed
 /
 by
 |
-restoreHistoryPrecursor
+restoreTabs
 |
 .
 let
@@ -10068,7 +10068,7 @@ window
 ;
 this
 .
-restoreHistoryPrecursor
+restoreTabs
 (
 window
 [
@@ -10226,7 +10226,7 @@ addTab
 ;
 this
 .
-restoreHistoryPrecursor
+restoreTabs
 (
 aWindow
 [
@@ -10723,7 +10723,7 @@ tab
 content
 this
 .
-restoreHistoryPrecursor
+restoreTabs
 (
 aWindow
 [
@@ -15155,7 +15155,7 @@ we
 end
 up
 calling
-restoreHistoryPrecursor
+restoreTabs
 /
 /
 for
@@ -15953,7 +15953,7 @@ loading
 state
 (
 in
-restoreHistoryPrecursor
+restoreTabs
 )
 .
 /
@@ -16377,7 +16377,7 @@ _closedTabs
 }
 this
 .
-restoreHistoryPrecursor
+restoreTabs
 (
 aWindow
 tabs
@@ -17093,10 +17093,9 @@ restore_on_demand
 true
 *
 /
-restoreHistoryPrecursor
+restoreTabs
 :
 function
-ssi_restoreHistoryPrecursor
 (
 aWindow
 aTabs
@@ -24354,7 +24353,7 @@ removed
 usually
 between
 *
-restoreHistoryPrecursor
+restoreTabs
 &
 &
 restoreHistory
