@@ -493,9 +493,9 @@ CERTSignedData
 *
 signedData
 const
-CERTCertificate
-*
-cert
+SECItem
+&
+subjectPublicKeyInfo
 )
 ;
 virtual

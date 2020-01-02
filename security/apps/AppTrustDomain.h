@@ -254,9 +254,9 @@ CERTSignedData
 *
 signedData
 const
-CERTCertificate
-*
-cert
+SECItem
+&
+subjectPublicKeyInfo
 )
 MOZ_OVERRIDE
 ;
