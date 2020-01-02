@@ -4723,6 +4723,17 @@ frame
 )
 ;
 bool
+DebugLeaveBlock
+(
+JSContext
+*
+cx
+BaselineFrame
+*
+frame
+)
+;
+bool
 InitBaselineFrameForOsr
 (
 BaselineFrame
