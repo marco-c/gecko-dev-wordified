@@ -42379,7 +42379,7 @@ wrapAndSetPtr
 %
 s
 .
-ToObject
+ToObjectInternal
 (
 cx
 {
@@ -84204,7 +84204,7 @@ json
 )
     
 def
-toObjectMethod
+toObjectInternalMethod
 (
 self
 )
@@ -84335,7 +84335,7 @@ dictName
 }
 :
 :
-ToObject
+ToObjectInternal
 (
 cx
 rval
@@ -84515,7 +84515,7 @@ return
 ClassMethod
 (
 "
-ToObject
+ToObjectInternal
 "
 "
 bool
@@ -85211,7 +85211,7 @@ append
 (
 self
 .
-toObjectMethod
+toObjectInternalMethod
 (
 )
 )
@@ -85228,7 +85228,7 @@ can
 t
 have
 a
-ToObject
+ToObjectInternal
 (
 )
 because
@@ -85236,10 +85236,10 @@ one
 of
 our
 members
-can
-only
             
 #
+can
+only
 be
 returned
 from
@@ -85250,10 +85250,10 @@ methods
 then
 just
 skip
-generating
             
 #
-ToObject
+generating
+ToObjectInternal
 (
 )
 .

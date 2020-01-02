@@ -1312,7 +1312,7 @@ aValue
 return
 aArgument
 .
-ToObject
+ToObjectInternal
 (
 aCx
 aValue
