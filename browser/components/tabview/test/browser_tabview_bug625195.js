@@ -65,6 +65,7 @@ originalTab
 ;
 ok
 (
+!
 document
 .
 getElementById
@@ -84,7 +85,7 @@ tab
 menu
 item
 is
-disabled
+enabled
 "
 )
 ;
