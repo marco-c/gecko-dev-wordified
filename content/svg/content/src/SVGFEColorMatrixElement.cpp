@@ -624,10 +624,10 @@ GetAnimValue
 FilterPrimitiveDescription
 descr
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eColorMatrix
+ColorMatrix
 )
 ;
 if

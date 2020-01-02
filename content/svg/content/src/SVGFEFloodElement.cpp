@@ -324,10 +324,10 @@ aInputImages
 FilterPrimitiveDescription
 descr
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eFlood
+Flood
 )
 ;
 nsIFrame

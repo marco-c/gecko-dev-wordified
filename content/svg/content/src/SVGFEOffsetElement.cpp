@@ -493,10 +493,10 @@ aInputImages
 FilterPrimitiveDescription
 descr
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eOffset
+Offset
 )
 ;
 IntPoint

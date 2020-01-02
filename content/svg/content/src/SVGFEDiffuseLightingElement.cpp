@@ -500,10 +500,10 @@ GetAnimValue
 FilterPrimitiveDescription
 descr
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eDiffuseLighting
+DiffuseLighting
 )
 ;
 descr

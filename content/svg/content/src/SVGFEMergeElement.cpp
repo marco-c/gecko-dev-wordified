@@ -238,10 +238,10 @@ aInputImages
 return
 FilterPrimitiveDescription
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eMerge
+Merge
 )
 ;
 }

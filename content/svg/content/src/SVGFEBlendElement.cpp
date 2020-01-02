@@ -564,10 +564,10 @@ GetAnimValue
 FilterPrimitiveDescription
 descr
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eBlend
+Blend
 )
 ;
 descr

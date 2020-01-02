@@ -663,10 +663,10 @@ spec
 FilterPrimitiveDescription
 descr
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eOffset
+Offset
 )
 ;
 descr
@@ -735,10 +735,10 @@ GetAnimValue
 FilterPrimitiveDescription
 descr
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eDisplacementMap
+DisplacementMap
 )
 ;
 descr

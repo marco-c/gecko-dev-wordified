@@ -598,10 +598,10 @@ eComponentTransferFunctionA
 FilterPrimitiveDescription
 descr
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eComponentTransfer
+ComponentTransfer
 )
 ;
 for
