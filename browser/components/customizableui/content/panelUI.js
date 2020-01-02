@@ -1562,6 +1562,8 @@ beginBatchUpdate
 (
 )
 ;
+try
+{
 CustomizableUI
 .
 registerMenuPanel
@@ -1571,12 +1573,16 @@ this
 contents
 )
 ;
+}
+finally
+{
 this
 .
 endBatchUpdate
 (
 )
 ;
+}
 }
 this
 .
