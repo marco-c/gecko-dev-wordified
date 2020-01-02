@@ -1415,12 +1415,6 @@ nsCookieService
 (
 )
 ;
-virtual
-~
-nsCookieService
-(
-)
-;
 static
 nsICookieService
 *
@@ -1491,6 +1485,12 @@ AppClearDataObserverInit
 ;
 protected
 :
+virtual
+~
+nsCookieService
+(
+)
+;
 void
 PrefChanged
 (

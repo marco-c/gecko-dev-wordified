@@ -210,6 +210,14 @@ nsISizeOf
 public
 nsIIPCSerializableURI
 {
+protected
+:
+virtual
+~
+nsSimpleURI
+(
+)
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -223,12 +231,6 @@ NS_DECL_NSIIPCSERIALIZABLEURI
 nsSimpleURI
 methods
 :
-nsSimpleURI
-(
-)
-;
-virtual
-~
 nsSimpleURI
 (
 )

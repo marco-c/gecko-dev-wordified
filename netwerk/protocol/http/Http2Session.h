@@ -193,6 +193,11 @@ nsAHttpSegmentReader
 public
 nsAHttpSegmentWriter
 {
+~
+Http2Session
+(
+)
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -207,11 +212,6 @@ Http2Session
 (
 nsISocketTransport
 *
-)
-;
-~
-Http2Session
-(
 )
 ;
 bool

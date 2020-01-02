@@ -153,6 +153,12 @@ mozTXTToHTMLConv
 public
 mozITXTToHTMLConv
 {
+virtual
+~
+mozTXTToHTMLConv
+(
+)
+;
 /
 /
 /
@@ -271,12 +277,6 @@ public
 /
 /
 /
-mozTXTToHTMLConv
-(
-)
-;
-virtual
-~
 mozTXTToHTMLConv
 (
 )

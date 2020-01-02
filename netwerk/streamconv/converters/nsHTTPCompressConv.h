@@ -246,14 +246,14 @@ nsHTTPCompressConv
 (
 )
 ;
+private
+:
 virtual
 ~
 nsHTTPCompressConv
 (
 )
 ;
-private
-:
 nsIStreamListener
 *
 mListener

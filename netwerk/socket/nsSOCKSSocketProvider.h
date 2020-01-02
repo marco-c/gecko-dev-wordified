@@ -147,13 +147,6 @@ version
 )
 {
 }
-virtual
-~
-nsSOCKSSocketProvider
-(
-)
-{
-}
 static
 nsresult
 CreateV4
@@ -184,6 +177,13 @@ aResult
 ;
 private
 :
+virtual
+~
+nsSOCKSSocketProvider
+(
+)
+{
+}
 uint32_t
 mVersion
 ;

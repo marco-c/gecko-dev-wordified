@@ -140,13 +140,15 @@ MOZ_FINAL
 public
 nsIDirIndex
 {
-public
+private
 :
+~
 nsDirIndex
 (
 )
 ;
-~
+public
+:
 nsDirIndex
 (
 )

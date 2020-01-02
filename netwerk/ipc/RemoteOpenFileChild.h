@@ -415,6 +415,12 @@ ipc
 FileDescriptor
 FileDescriptor
 ;
+virtual
+~
+RemoteOpenFileChild
+(
+)
+;
 public
 :
 RemoteOpenFileChild
@@ -435,12 +441,6 @@ false
 )
 {
 }
-virtual
-~
-RemoteOpenFileChild
-(
-)
-;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIFILE
 NS_DECL_NSIHASHABLE

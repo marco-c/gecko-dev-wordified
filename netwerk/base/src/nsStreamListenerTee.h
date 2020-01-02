@@ -124,6 +124,8 @@ nsStreamListenerTee
 )
 {
 }
+private
+:
 virtual
 ~
 nsStreamListenerTee
@@ -131,8 +133,6 @@ nsStreamListenerTee
 )
 {
 }
-private
-:
 nsCOMPtr
 <
 nsIInputStreamTee

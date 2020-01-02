@@ -233,6 +233,12 @@ ADivertableParentChannel
 public
 nsIAuthPromptProvider
 {
+virtual
+~
+HttpChannelParent
+(
+)
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -254,12 +260,6 @@ nsILoadContext
 aLoadContext
 PBOverrideStatus
 aStatus
-)
-;
-virtual
-~
-HttpChannelParent
-(
 )
 ;
 bool

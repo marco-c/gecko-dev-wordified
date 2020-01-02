@@ -381,14 +381,14 @@ uint16_t
 flags
 )
 ;
+private
+:
 virtual
 ~
 ChildDNSRecord
 (
 )
 ;
-private
-:
 nsCString
 mCanonicalName
 ;

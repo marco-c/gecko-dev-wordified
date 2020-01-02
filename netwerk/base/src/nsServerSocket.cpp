@@ -2796,6 +2796,12 @@ MOZ_FINAL
 public
 nsIServerSocketListener
 {
+~
+ServerSocketListenerProxy
+(
+)
+{
+}
 public
 :
 ServerSocketListenerProxy

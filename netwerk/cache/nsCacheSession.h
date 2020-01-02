@@ -145,6 +145,12 @@ nsCacheSession
 public
 nsICacheSession
 {
+virtual
+~
+nsCacheSession
+(
+)
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -159,12 +165,6 @@ nsCacheStoragePolicy
 storagePolicy
 bool
 streamBased
-)
-;
-virtual
-~
-nsCacheSession
-(
 )
 ;
 nsCString

@@ -224,12 +224,6 @@ Predictor
 (
 )
 ;
-virtual
-~
-Predictor
-(
-)
-;
 nsresult
 Init
 (
@@ -259,6 +253,12 @@ result
 ;
 private
 :
+virtual
+~
+Predictor
+(
+)
+;
 friend
 class
 PredictionEvent

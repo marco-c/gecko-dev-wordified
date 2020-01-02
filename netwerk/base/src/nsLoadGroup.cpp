@@ -6226,6 +6226,12 @@ MOZ_FINAL
 public
 nsILoadGroupConnectionInfo
 {
+~
+nsLoadGroupConnectionInfo
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS

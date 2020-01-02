@@ -177,12 +177,6 @@ HttpChannelParent
 aInitialChannel
 )
 ;
-virtual
-~
-HttpChannelParentListener
-(
-)
-;
 /
 /
 For
@@ -208,6 +202,12 @@ SuspendForDiversion
 ;
 private
 :
+virtual
+~
+HttpChannelParentListener
+(
+)
+;
 /
 /
 Private

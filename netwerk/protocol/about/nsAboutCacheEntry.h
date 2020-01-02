@@ -194,6 +194,8 @@ mHexDumpState
 )
 {
 }
+private
+:
 virtual
 ~
 nsAboutCacheEntry
@@ -201,8 +203,6 @@ nsAboutCacheEntry
 )
 {
 }
-private
-:
 nsresult
 GetContentStream
 (

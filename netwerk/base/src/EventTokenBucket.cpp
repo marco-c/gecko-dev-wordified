@@ -291,13 +291,6 @@ ATokenBucketEvent
 event
 )
 ;
-virtual
-~
-TokenBucketCancelable
-(
-)
-{
-}
 void
 Fire
 (
@@ -305,6 +298,13 @@ Fire
 ;
 private
 :
+virtual
+~
+TokenBucketCancelable
+(
+)
+{
+}
 friend
 class
 EventTokenBucket

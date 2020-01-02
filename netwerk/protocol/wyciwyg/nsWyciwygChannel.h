@@ -298,12 +298,6 @@ nsWyciwygChannel
 (
 )
 ;
-virtual
-~
-nsWyciwygChannel
-(
-)
-;
 nsresult
 Init
 (
@@ -314,6 +308,12 @@ uri
 ;
 protected
 :
+virtual
+~
+nsWyciwygChannel
+(
+)
+;
 nsresult
 WriteToCacheEntryInternal
 (

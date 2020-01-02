@@ -849,6 +849,8 @@ device
 )
 {
 }
+private
+:
 virtual
 ~
 nsMemoryCacheDeviceInfo
@@ -856,8 +858,6 @@ nsMemoryCacheDeviceInfo
 )
 {
 }
-private
-:
 nsMemoryCacheDevice
 *
 mDevice

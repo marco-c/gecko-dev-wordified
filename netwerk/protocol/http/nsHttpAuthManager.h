@@ -127,12 +127,6 @@ nsHttpAuthManager
 (
 )
 ;
-virtual
-~
-nsHttpAuthManager
-(
-)
-;
 nsresult
 Init
 (
@@ -140,6 +134,12 @@ Init
 ;
 protected
 :
+virtual
+~
+nsHttpAuthManager
+(
+)
+;
 nsHttpAuthCache
 *
 mAuthCache

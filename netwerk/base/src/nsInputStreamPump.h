@@ -165,6 +165,11 @@ nsIInputStreamCallback
 public
 nsIThreadRetargetableRequest
 {
+~
+nsInputStreamPump
+(
+)
+;
 public
 :
 typedef
@@ -179,11 +184,6 @@ NS_DECL_NSIREQUEST
 NS_DECL_NSIINPUTSTREAMPUMP
 NS_DECL_NSIINPUTSTREAMCALLBACK
 NS_DECL_NSITHREADRETARGETABLEREQUEST
-nsInputStreamPump
-(
-)
-;
-~
 nsInputStreamPump
 (
 )

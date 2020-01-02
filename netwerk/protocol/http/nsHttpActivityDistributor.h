@@ -123,14 +123,14 @@ nsHttpActivityDistributor
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsHttpActivityDistributor
 (
 )
 ;
-protected
-:
 ObserverArray
 mObservers
 ;

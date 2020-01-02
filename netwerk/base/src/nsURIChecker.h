@@ -232,12 +232,6 @@ nsIChannelEventSink
 public
 nsIInterfaceRequestor
 {
-public
-:
-nsURIChecker
-(
-)
-;
 virtual
 ~
 nsURIChecker
@@ -245,6 +239,12 @@ nsURIChecker
 )
 {
 }
+public
+:
+nsURIChecker
+(
+)
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIURICHECKER
 NS_DECL_NSIREQUEST

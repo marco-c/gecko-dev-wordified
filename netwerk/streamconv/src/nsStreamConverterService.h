@@ -318,14 +318,14 @@ nsStreamConverterService
 (
 )
 ;
+private
+:
 virtual
 ~
 nsStreamConverterService
 (
 )
 ;
-private
-:
 /
 /
 Responsible

@@ -1269,6 +1269,8 @@ device
 )
 {
 }
+private
+:
 virtual
 ~
 nsDiskCacheDeviceInfo
@@ -1276,8 +1278,6 @@ nsDiskCacheDeviceInfo
 )
 {
 }
-private
-:
 nsDiskCacheDevice
 *
 mDevice

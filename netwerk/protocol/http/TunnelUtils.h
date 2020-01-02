@@ -885,6 +885,11 @@ nsAHttpSegmentWriter
 public
 nsITimerCallback
 {
+~
+TLSFilterTransaction
+(
+)
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -909,11 +914,6 @@ reader
 nsAHttpSegmentWriter
 *
 writer
-)
-;
-~
-TLSFilterTransaction
-(
 )
 ;
 const

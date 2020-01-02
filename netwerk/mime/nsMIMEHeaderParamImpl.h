@@ -121,6 +121,8 @@ nsMIMEHeaderParamImpl
 )
 {
 }
+private
+:
 virtual
 ~
 nsMIMEHeaderParamImpl
@@ -128,8 +130,6 @@ nsMIMEHeaderParamImpl
 )
 {
 }
-private
-:
 enum
 ParamDecoding
 {

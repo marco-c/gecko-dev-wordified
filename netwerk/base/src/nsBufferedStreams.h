@@ -249,12 +249,6 @@ nsBufferedStream
 (
 )
 ;
-virtual
-~
-nsBufferedStream
-(
-)
-;
 nsresult
 Close
 (
@@ -262,6 +256,12 @@ Close
 ;
 protected
 :
+virtual
+~
+nsBufferedStream
+(
+)
+;
 nsresult
 Init
 (

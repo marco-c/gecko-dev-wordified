@@ -2309,6 +2309,13 @@ MetaDataVisitorWrapper
 public
 nsICacheMetaDataVisitor
 {
+virtual
+~
+MetaDataVisitorWrapper
+(
+)
+{
+}
 NS_DECL_ISUPPORTS
 NS_DECL_NSICACHEMETADATAVISITOR
 MetaDataVisitorWrapper
@@ -2321,13 +2328,6 @@ cb
 mCB
 (
 cb
-)
-{
-}
-virtual
-~
-MetaDataVisitorWrapper
-(
 )
 {
 }

@@ -1804,6 +1804,12 @@ MOZ_FINAL
 public
 nsISupports
 {
+~
+nsNTLMSessionState
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

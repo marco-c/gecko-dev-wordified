@@ -130,11 +130,6 @@ nsViewSourceHandler
 (
 )
 ;
-~
-nsViewSourceHandler
-(
-)
-;
 /
 /
 Creates
@@ -187,6 +182,11 @@ GetInstance
 ;
 private
 :
+~
+nsViewSourceHandler
+(
+)
+;
 static
 nsViewSourceHandler
 *

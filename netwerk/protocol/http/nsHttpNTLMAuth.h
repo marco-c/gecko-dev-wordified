@@ -90,6 +90,8 @@ nsHttpNTLMAuth
 )
 {
 }
+private
+:
 virtual
 ~
 nsHttpNTLMAuth
@@ -97,8 +99,6 @@ nsHttpNTLMAuth
 )
 {
 }
-private
-:
 /
 /
 This

@@ -2509,11 +2509,6 @@ PK11Context
 aContext
 )
 ;
-~
-DigestOutputStream
-(
-)
-;
 /
 /
 We
@@ -2539,6 +2534,11 @@ virtualDestroyNSSReference
 }
 private
 :
+~
+DigestOutputStream
+(
+)
+;
 /
 /
 Calls

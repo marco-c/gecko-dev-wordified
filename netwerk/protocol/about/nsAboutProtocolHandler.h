@@ -150,6 +150,8 @@ nsAboutProtocolHandler
 )
 {
 }
+private
+:
 virtual
 ~
 nsAboutProtocolHandler

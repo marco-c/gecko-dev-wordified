@@ -204,12 +204,6 @@ nsResProtocolHandler
 (
 )
 ;
-virtual
-~
-nsResProtocolHandler
-(
-)
-;
 nsresult
 Init
 (
@@ -228,6 +222,12 @@ aResources
 ;
 private
 :
+virtual
+~
+nsResProtocolHandler
+(
+)
+;
 nsresult
 Init
 (

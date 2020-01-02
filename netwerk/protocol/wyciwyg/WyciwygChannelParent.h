@@ -145,14 +145,14 @@ WyciwygChannelParent
 (
 )
 ;
+protected
+:
 virtual
 ~
 WyciwygChannelParent
 (
 )
 ;
-protected
-:
 virtual
 bool
 RecvInit

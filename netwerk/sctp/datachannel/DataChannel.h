@@ -493,6 +493,12 @@ has_slots
 #
 endif
 {
+virtual
+~
+DataChannelConnection
+(
+)
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -557,12 +563,6 @@ DataChannelConnection
 DataConnectionListener
 *
 listener
-)
-;
-virtual
-~
-DataChannelConnection
-(
 )
 ;
 bool

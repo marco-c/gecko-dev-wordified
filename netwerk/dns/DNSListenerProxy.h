@@ -327,6 +327,12 @@ mStatus
 ;
 private
 :
+~
+DNSListenerProxy
+(
+)
+{
+}
 nsMainThreadPtrHandle
 <
 nsIDNSListener

@@ -197,13 +197,6 @@ index
 )
 {
 }
-virtual
-~
-myDNSListener
-(
-)
-{
-}
 NS_IMETHOD
 OnLookupComplete
 (
@@ -360,6 +353,13 @@ NS_OK
 }
 private
 :
+virtual
+~
+myDNSListener
+(
+)
+{
+}
 nsCString
 mHost
 ;

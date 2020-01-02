@@ -238,12 +238,6 @@ nsAsyncStreamCopier
 (
 )
 ;
-virtual
-~
-nsAsyncStreamCopier
-(
-)
-;
 /
 /
 -
@@ -348,6 +342,12 @@ status
 ;
 private
 :
+virtual
+~
+nsAsyncStreamCopier
+(
+)
+;
 nsresult
 InitInternal
 (

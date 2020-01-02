@@ -594,6 +594,12 @@ aResult
 }
 private
 :
+~
+nsPassErrorToWifiListeners
+(
+)
+{
+}
 nsAutoPtr
 <
 WifiListenerArray
@@ -876,6 +882,12 @@ aAccessPoints
 }
 private
 :
+~
+nsCallWifiListeners
+(
+)
+{
+}
 nsAutoPtr
 <
 WifiListenerArray

@@ -697,6 +697,12 @@ EventTokenBucket
 public
 nsITimerCallback
 {
+virtual
+~
+EventTokenBucket
+(
+)
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -717,12 +723,6 @@ uint32_t
 eventsPerSecond
 uint32_t
 burstSize
-)
-;
-virtual
-~
-EventTokenBucket
-(
 )
 ;
 /

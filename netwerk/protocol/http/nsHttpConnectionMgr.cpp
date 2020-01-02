@@ -2165,6 +2165,13 @@ rv
 class
 SpeculativeConnectArgs
 {
+virtual
+~
+SpeculativeConnectArgs
+(
+)
+{
+}
 public
 :
 SpeculativeConnectArgs
@@ -2175,13 +2182,6 @@ mOverridesOK
 =
 false
 ;
-}
-virtual
-~
-SpeculativeConnectArgs
-(
-)
-{
 }
 /
 /

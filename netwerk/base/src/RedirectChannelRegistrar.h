@@ -118,6 +118,14 @@ RedirectChannelRegistrar
 (
 )
 ;
+private
+:
+~
+RedirectChannelRegistrar
+(
+)
+{
+}
 protected
 :
 typedef

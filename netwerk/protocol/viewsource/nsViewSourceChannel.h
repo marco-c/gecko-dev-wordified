@@ -274,6 +274,12 @@ aBaseURI
 ;
 protected
 :
+~
+nsViewSourceChannel
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIChannel

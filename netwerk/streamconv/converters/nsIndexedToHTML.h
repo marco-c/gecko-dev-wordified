@@ -174,12 +174,6 @@ nsIndexedToHTML
 (
 )
 ;
-virtual
-~
-nsIndexedToHTML
-(
-)
-;
 nsresult
 Init
 (
@@ -304,6 +298,12 @@ lines
 .
 bool
 mExpectAbsLoc
+;
+virtual
+~
+nsIndexedToHTML
+(
+)
 ;
 }
 ;

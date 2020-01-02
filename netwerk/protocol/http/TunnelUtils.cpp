@@ -3738,6 +3738,8 @@ aWrapped
 {
 }
 ;
+private
+:
 virtual
 ~
 SocketTransportShim
@@ -3746,8 +3748,6 @@ SocketTransportShim
 {
 }
 ;
-private
-:
 nsCOMPtr
 <
 nsISocketTransport
@@ -3795,6 +3795,8 @@ aTrans
 )
 ;
 }
+private
+:
 virtual
 ~
 OutputStreamShim
@@ -3803,8 +3805,6 @@ OutputStreamShim
 {
 }
 ;
-private
-:
 nsWeakPtr
 mWeakTrans
 ;
@@ -3860,6 +3860,8 @@ aTrans
 )
 ;
 }
+private
+:
 virtual
 ~
 InputStreamShim
@@ -3868,8 +3870,6 @@ InputStreamShim
 {
 }
 ;
-private
-:
 nsWeakPtr
 mWeakTrans
 ;

@@ -279,6 +279,12 @@ nsIRequestObserver
 public
 nsIProgressEventSink
 {
+~
+FetchObserver
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

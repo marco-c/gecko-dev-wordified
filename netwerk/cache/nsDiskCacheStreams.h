@@ -164,12 +164,6 @@ nsDiskCacheBinding
 binding
 )
 ;
-virtual
-~
-nsDiskCacheStreamIO
-(
-)
-;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOUTPUTSTREAM
 nsresult
@@ -288,6 +282,12 @@ oops
 }
 private
 :
+virtual
+~
+nsDiskCacheStreamIO
+(
+)
+;
 nsresult
 OpenCacheFile
 (

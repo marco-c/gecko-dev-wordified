@@ -238,14 +238,14 @@ nsICacheEntryInfo
 info
 )
 ;
+private
+:
 virtual
 ~
 _OldCacheEntryWrapper
 (
 )
 ;
-private
-:
 _OldCacheEntryWrapper
 (
 )

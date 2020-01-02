@@ -400,6 +400,12 @@ MOZ_FINAL
 public
 nsIAuthPrompt2
 {
+~
+NestedFrameAuthPrompt
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

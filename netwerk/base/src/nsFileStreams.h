@@ -1,4 +1,6 @@
 /
+/
+/
 *
 -
 *
@@ -278,14 +280,14 @@ nsFileStreamBase
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsFileStreamBase
 (
 )
 ;
-protected
-:
 nsresult
 Close
 (

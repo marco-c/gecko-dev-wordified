@@ -350,6 +350,12 @@ nsISupports
 public
 PRCList
 {
+virtual
+~
+nsDiskCacheBinding
+(
+)
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -361,12 +367,6 @@ entry
 nsDiskCacheRecord
 *
 record
-)
-;
-virtual
-~
-nsDiskCacheBinding
-(
 )
 ;
 nsresult

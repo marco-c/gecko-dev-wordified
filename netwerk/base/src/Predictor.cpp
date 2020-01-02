@@ -1082,6 +1082,8 @@ PredictorDNSListener
 )
 {
 }
+private
+:
 virtual
 ~
 PredictorDNSListener

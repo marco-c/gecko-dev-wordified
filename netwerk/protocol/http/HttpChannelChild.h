@@ -343,6 +343,12 @@ nsIHttpChannelChild
 public
 nsIDivertableChannel
 {
+virtual
+~
+HttpChannelChild
+(
+)
+;
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
@@ -355,12 +361,6 @@ NS_DECL_NSIASSOCIATEDCONTENTSECURITY
 NS_DECL_NSICHILDCHANNEL
 NS_DECL_NSIHTTPCHANNELCHILD
 NS_DECL_NSIDIVERTABLECHANNEL
-HttpChannelChild
-(
-)
-;
-virtual
-~
 HttpChannelChild
 (
 )

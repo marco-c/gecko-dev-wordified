@@ -195,6 +195,12 @@ MOZ_FINAL
 public
 nsIRunnable
 {
+~
+nsQuitPumpingEvent
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS

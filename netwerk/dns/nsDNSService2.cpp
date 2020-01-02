@@ -1565,6 +1565,12 @@ nsResolveHostCallback
 public
 nsICancelable
 {
+~
+nsDNSAsyncRequest
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -1606,12 +1612,6 @@ flags
 mAF
 (
 af
-)
-{
-}
-~
-nsDNSAsyncRequest
-(
 )
 {
 }

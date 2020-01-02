@@ -237,6 +237,10 @@ uint64_t
 aEndPos
 )
 ;
+NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_NSIINPUTSTREAM
+private
+:
 virtual
 ~
 nsTemporaryFileInputStream
@@ -244,10 +248,6 @@ nsTemporaryFileInputStream
 )
 {
 }
-NS_DECL_THREADSAFE_ISUPPORTS
-NS_DECL_NSIINPUTSTREAM
-private
-:
 nsRefPtr
 <
 FileDescOwner

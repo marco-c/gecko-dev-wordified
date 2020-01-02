@@ -222,6 +222,12 @@ mItemType
 }
 private
 :
+~
+nsApplicationCacheNamespace
+(
+)
+{
+}
 uint32_t
 mItemType
 ;
@@ -276,6 +282,12 @@ Apply
 ;
 private
 :
+~
+nsOfflineCacheEvictionFunction
+(
+)
+{
+}
 nsOfflineCacheDevice
 *
 mDevice
@@ -913,6 +925,11 @@ EntryCount
 ;
 private
 :
+~
+nsOfflineCacheDevice
+(
+)
+;
 friend
 class
 nsApplicationCache

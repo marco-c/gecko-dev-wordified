@@ -106,12 +106,6 @@ nsApplicationCache
 (
 )
 ;
-virtual
-~
-nsApplicationCache
-(
-)
-;
 void
 MarkInvalid
 (
@@ -119,6 +113,12 @@ MarkInvalid
 ;
 private
 :
+virtual
+~
+nsApplicationCache
+(
+)
+;
 nsRefPtr
 <
 nsOfflineCacheDevice

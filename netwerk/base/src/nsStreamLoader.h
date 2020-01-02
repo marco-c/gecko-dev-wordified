@@ -142,11 +142,6 @@ nsStreamLoader
 (
 )
 ;
-~
-nsStreamLoader
-(
-)
-;
 static
 nsresult
 Create
@@ -164,6 +159,11 @@ aResult
 ;
 protected
 :
+~
+nsStreamLoader
+(
+)
+;
 static
 NS_METHOD
 WriteSegmentFun
