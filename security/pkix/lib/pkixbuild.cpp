@@ -1642,7 +1642,11 @@ MAX_DEPTH
 )
 {
 return
+Fail
+(
 RecoverableError
+SEC_ERROR_UNKNOWN_ISSUER
+)
 ;
 }
 Result

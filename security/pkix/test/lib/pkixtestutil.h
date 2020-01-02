@@ -813,7 +813,13 @@ PLArenaPool
 arena
 bool
 isCA
+/
+*
+optional
+*
+/
 long
+*
 pathLenConstraint
 ExtensionCriticality
 criticality
