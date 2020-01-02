@@ -2293,6 +2293,7 @@ virtual
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -2306,6 +2307,7 @@ false
 bool
 congruentIfOperandsEqual
 (
+const
 MDefinition
 *
 ins
@@ -3449,10 +3451,12 @@ virtual
 bool
 mightAlias
 (
+const
 MDefinition
 *
 store
 )
+const
 {
 /
 /
@@ -4249,6 +4253,7 @@ temp
 bool
 binaryCongruentTo
 (
+const
 MDefinition
 *
 ins
@@ -4306,6 +4311,7 @@ isEffectful
 return
 false
 ;
+const
 MDefinition
 *
 left
@@ -4315,6 +4321,7 @@ getOperand
 0
 )
 ;
+const
 MDefinition
 *
 right
@@ -4324,6 +4331,7 @@ getOperand
 1
 )
 ;
+const
 MDefinition
 *
 tmp
@@ -4363,12 +4371,14 @@ left
 tmp
 ;
 }
+const
 MBinaryInstruction
 *
 bi
 =
 static_cast
 <
+const
 MBinaryInstruction
 *
 >
@@ -4376,6 +4386,7 @@ MBinaryInstruction
 ins
 )
 ;
+const
 MDefinition
 *
 insLeft
@@ -4388,6 +4399,7 @@ getOperand
 0
 )
 ;
+const
 MDefinition
 *
 insRight
@@ -5159,6 +5171,7 @@ const
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -5455,6 +5468,7 @@ const
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -5494,6 +5508,7 @@ Callee
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -9732,6 +9747,7 @@ virtual
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -11266,6 +11282,7 @@ protected
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -11521,6 +11538,7 @@ ins
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -11984,6 +12002,7 @@ Infallible
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -13791,6 +13810,7 @@ useValueNumbers
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -14076,6 +14096,7 @@ useValueNumbers
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -14257,6 +14278,7 @@ useValueNumbers
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -14376,6 +14398,7 @@ useValueNumbers
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -14642,6 +14665,7 @@ conversion_
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -14820,6 +14844,7 @@ useValueNumbers
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -15004,6 +15029,7 @@ useValueNumbers
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -15141,6 +15167,7 @@ infer
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -15542,6 +15569,7 @@ pc
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -16652,6 +16680,7 @@ alloc
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -16859,6 +16888,7 @@ this
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -17090,6 +17120,7 @@ this
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -17296,6 +17327,7 @@ this
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -17485,6 +17517,7 @@ this
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -17655,6 +17688,7 @@ this
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -17826,6 +17860,7 @@ rhs
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -17988,6 +18023,7 @@ input
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -18331,6 +18367,7 @@ this
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -19094,6 +19131,7 @@ return
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -19113,6 +19151,7 @@ isMul
 return
 false
 ;
+const
 MMul
 *
 mul
@@ -19259,6 +19298,7 @@ Mode
 mode
 (
 )
+const
 {
 return
 mode_
@@ -20274,6 +20314,7 @@ this
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -20470,6 +20511,7 @@ getOperand
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -20591,6 +20633,7 @@ this
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -21187,6 +21230,7 @@ this
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -21756,6 +21800,7 @@ useValueNumbers
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -23765,6 +23810,7 @@ replacement
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -24696,6 +24742,7 @@ getOperand
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -24825,6 +24872,7 @@ getOperand
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -24979,6 +25027,7 @@ value_
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -25124,6 +25173,7 @@ getOperand
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -25392,6 +25442,7 @@ getOperand
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -25512,6 +25563,7 @@ getOperand
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -25784,6 +25836,7 @@ getOperand
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -26066,6 +26119,7 @@ getOperand
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -26222,6 +26276,7 @@ getOperand
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -26370,6 +26425,7 @@ getOperand
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -26527,6 +26583,7 @@ getOperand
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -27236,6 +27293,7 @@ n
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -27255,6 +27313,7 @@ isBoundsCheck
 return
 false
 ;
+const
 MBoundsCheck
 *
 other
@@ -27761,6 +27820,7 @@ needsHoleCheck
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -27780,6 +27840,7 @@ isLoadElement
 return
 false
 ;
+const
 MLoadElement
 *
 other
@@ -28101,6 +28162,7 @@ needsHoleCheck_
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -28120,6 +28182,7 @@ isLoadElementHole
 return
 false
 ;
+const
 MLoadElementHole
 *
 other
@@ -29642,6 +29705,7 @@ TypedArrayElement
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -29661,6 +29725,7 @@ isLoadTypedArrayElement
 return
 false
 ;
+const
 MLoadTypedArrayElement
 *
 other
@@ -29954,6 +30019,7 @@ getOperand
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -29973,6 +30039,7 @@ isLoadTypedArrayElementHole
 return
 false
 ;
+const
 MLoadTypedArrayElementHole
 *
 other
@@ -31604,6 +31671,7 @@ this
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -31753,6 +31821,7 @@ slot_
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -31823,10 +31892,12 @@ FixedSlot
 bool
 mightAlias
 (
+const
 MDefinition
 *
 store
 )
+const
 ;
 }
 ;
@@ -32689,6 +32760,7 @@ this
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -32975,6 +33047,7 @@ name
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -33164,10 +33237,12 @@ DynamicSlot
 bool
 mightAlias
 (
+const
 MDefinition
 *
 store
 )
+const
 ;
 }
 ;
@@ -34654,6 +34729,7 @@ bailoutKind_
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -34913,6 +34989,7 @@ bailOnEquality_
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -35159,6 +35236,7 @@ bailOnEquality_
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -35376,6 +35454,7 @@ class_
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -35586,6 +35665,7 @@ slot_
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -35671,10 +35751,12 @@ DynamicSlot
 bool
 mightAlias
 (
+const
 MDefinition
 *
 store
 )
+const
 ;
 }
 ;
@@ -38541,6 +38623,7 @@ this
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -38898,6 +38981,7 @@ getOperand
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -39980,6 +40064,7 @@ Element
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -39999,6 +40084,7 @@ isInArray
 return
 false
 ;
+const
 MInArray
 *
 other
@@ -40310,6 +40396,7 @@ MArgumentsLength
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -40479,6 +40566,7 @@ this
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -40659,6 +40747,7 @@ getOperand
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -41231,6 +41320,7 @@ Bailout_Normal
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -41370,6 +41460,7 @@ types
 bool
 congruentTo
 (
+const
 MDefinition
 *
 def
@@ -41564,6 +41655,7 @@ this
 bool
 congruentTo
 (
+const
 MDefinition
 *
 def
@@ -43910,6 +44002,7 @@ this
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -44490,6 +44583,7 @@ getOperand
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -44518,10 +44612,12 @@ AsmJSHeap
 bool
 mightAlias
 (
+const
 MDefinition
 *
 def
 )
+const
 ;
 }
 ;
@@ -44748,6 +44844,7 @@ globalDataOffset_
 bool
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -44785,10 +44882,12 @@ AsmJSGlobalVar
 bool
 mightAlias
 (
+const
 MDefinition
 *
 def
 )
+const
 ;
 }
 ;
