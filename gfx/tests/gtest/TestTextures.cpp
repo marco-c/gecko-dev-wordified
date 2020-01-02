@@ -217,6 +217,12 @@ formats
 .
 *
 /
+namespace
+mozilla
+{
+namespace
+layers
+{
 /
 /
 fills
@@ -1607,6 +1613,14 @@ Unlock
 )
 ;
 }
+}
+/
+/
+namespace
+}
+/
+/
+namespace
 TEST
 (
 Layers
