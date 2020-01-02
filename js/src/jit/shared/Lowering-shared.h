@@ -173,7 +173,7 @@ class
 LIRGeneratorShared
 :
 public
-MDefinitionVisitorWithDefaults
+MDefinitionVisitorDefaultNYI
 {
 protected
 :

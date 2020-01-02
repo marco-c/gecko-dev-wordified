@@ -1310,7 +1310,7 @@ visit
 functions
 .
 class
-MDefinitionVisitorWithDefaults
+MDefinitionVisitorDefaultNYI
 :
 public
 MDefinitionVisitor
