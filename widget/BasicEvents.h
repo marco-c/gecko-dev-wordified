@@ -465,7 +465,7 @@ eTransitionEventClass
 /
 /
 InternalTransitionEvent
-NS_ANIMATION_EVENT
+eAnimationEventClass
 /
 /
 InternalAnimationEvent

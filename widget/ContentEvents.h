@@ -2258,7 +2258,7 @@ WidgetEvent
 (
 aIsTrusted
 aMessage
-NS_ANIMATION_EVENT
+eAnimationEventClass
 )
 elapsedTime
 (
@@ -2288,7 +2288,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_ANIMATION_EVENT
+eAnimationEventClass
 "
 Duplicate
 (

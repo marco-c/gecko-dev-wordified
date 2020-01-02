@@ -4415,7 +4415,7 @@ AsTransitionEvent
 )
 ;
 case
-NS_ANIMATION_EVENT
+eAnimationEventClass
 :
 return
 NS_NewDOMAnimationEvent
