@@ -193,7 +193,7 @@ TransportLayerLogging
 PacketReceived
 )
 ;
-SetState
+TL_SET_STATE
 (
 downward_
 -
@@ -298,7 +298,7 @@ to
 state
 )
 ;
-SetState
+TL_SET_STATE
 (
 state
 )

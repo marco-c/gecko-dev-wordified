@@ -359,7 +359,7 @@ rv
 return
 ;
 }
-SetState
+TL_SET_STATE
 (
 TS_OPEN
 )
@@ -524,7 +524,7 @@ closed
 "
 )
 ;
-SetState
+TL_SET_STATE
 (
 TS_ERROR
 )
@@ -664,7 +664,7 @@ closed
 "
 )
 ;
-SetState
+TL_SET_STATE
 (
 TS_CLOSED
 )
@@ -702,7 +702,7 @@ closed
 "
 )
 ;
-SetState
+TL_SET_STATE
 (
 TS_ERROR
 )

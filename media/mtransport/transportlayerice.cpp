@@ -716,7 +716,7 @@ NrIceMediaStream
 ICE_OPEN
 )
 {
-SetState
+TL_SET_STATE
 (
 TS_OPEN
 )
@@ -864,7 +864,7 @@ CheckThread
 (
 )
 ;
-SetState
+TL_SET_STATE
 (
 TS_OPEN
 )
@@ -885,7 +885,7 @@ CheckThread
 (
 )
 ;
-SetState
+TL_SET_STATE
 (
 TS_ERROR
 )

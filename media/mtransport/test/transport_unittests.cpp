@@ -560,7 +560,7 @@ State
 state
 )
 {
-SetState
+TL_SET_STATE
 (
 state
 )
@@ -633,7 +633,7 @@ TransportLayerLossy
 StateChange
 )
 ;
-SetState
+TL_SET_STATE
 (
 downward_
 -
