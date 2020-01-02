@@ -315,7 +315,7 @@ rotation
 bool
 IsPredictedRotationAcceptable
 (
-long
+int64_t
 now
 )
 ;
@@ -327,7 +327,7 @@ ClearPredictedRotation
 void
 UpdatePredictedRotation
 (
-long
+int64_t
 now
 int
 rotation
@@ -348,7 +348,7 @@ ClearTiltHistory
 void
 AddTiltHistoryEntry
 (
-long
+int64_t
 now
 float
 tilt
@@ -357,14 +357,14 @@ tilt
 bool
 IsFlat
 (
-long
+int64_t
 now
 )
 ;
 bool
 IsSwinging
 (
-long
+int64_t
 now
 float
 tilt
@@ -380,9 +380,9 @@ index
 float
 RemainingMS
 (
-long
+int64_t
 now
-long
+int64_t
 until
 )
 ;
@@ -559,7 +559,7 @@ last
 accelerometer
 sample
 .
-long
+int64_t
 mLastFilteredTimestampNanos
 ;
 float
@@ -609,7 +609,7 @@ most
 recently
 changed
 .
-long
+int64_t
 mPredictedRotationTimestampNanos
 ;
 /
@@ -634,7 +634,7 @@ delay
 elapsed
 )
 .
-long
+int64_t
 mFlatTimestampNanos
 ;
 /
@@ -649,7 +649,7 @@ to
 be
 swinging
 .
-long
+int64_t
 mSwingTimestampNanos
 ;
 /
@@ -668,7 +668,7 @@ external
 /
 acceleration
 .
-long
+int64_t
 mAccelerationTimestampNanos
 ;
 struct
@@ -678,7 +678,7 @@ struct
 float
 tiltAngle
 ;
-long
+int64_t
 timestampNanos
 ;
 }
