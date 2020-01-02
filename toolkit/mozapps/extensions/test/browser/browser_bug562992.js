@@ -317,8 +317,9 @@ function
 (
 )
 {
-run_next_test
+executeSoon
 (
+run_next_test
 )
 ;
 }
@@ -517,8 +518,9 @@ found
 "
 )
 ;
-run_next_test
+executeSoon
 (
+run_next_test
 )
 ;
 }
