@@ -721,6 +721,15 @@ return
 }
 if
 (
+!
+mTexture
+)
+{
+return
+;
+}
+if
+(
 mGLContext
 )
 {
@@ -740,8 +749,10 @@ if
 !
 surf
 )
+{
 return
 ;
+}
 switch
 (
 surf
