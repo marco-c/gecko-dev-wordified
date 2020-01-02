@@ -3182,13 +3182,11 @@ InternalScrollPortEvent
 *
 oldScrollPortEvent
 =
-static_cast
-<
-InternalScrollPortEvent
-*
->
-(
 mEvent
+-
+>
+AsScrollPortEvent
+(
 )
 ;
 InternalScrollPortEvent
