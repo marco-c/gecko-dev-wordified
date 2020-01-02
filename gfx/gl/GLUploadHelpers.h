@@ -620,6 +620,14 @@ GLContext
 gl
 )
 ;
+bool
+CanUploadNonPowerOfTwo
+(
+GLContext
+*
+gl
+)
+;
 }
 }
 #
