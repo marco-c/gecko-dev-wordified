@@ -3234,7 +3234,7 @@ bool
 mLocked
 ;
 bool
-mPartialUpdate
+mNeedsFullUpdate
 ;
 }
 ;
