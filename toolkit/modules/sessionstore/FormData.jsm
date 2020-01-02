@@ -113,10 +113,9 @@ resource
 :
 /
 /
+gre
 /
 modules
-/
-sessionstore
 /
 XPathGenerator
 .
