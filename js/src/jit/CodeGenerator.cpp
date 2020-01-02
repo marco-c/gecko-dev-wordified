@@ -29153,7 +29153,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-roundf
+math_roundf_impl
 )
 ;
 break
