@@ -4301,9 +4301,6 @@ topsrcdir
 )
             
 "
-"
-            
-"
 CPPSRCS
 :
 =
@@ -4346,9 +4343,6 @@ cpp
 "
             
 "
-"
-            
-"
 IPDLDIRS
 :
 =
@@ -4366,17 +4360,43 @@ foo
 topsrcdir
 topsrcdir
 )
-            
-"
-"
         
+]
+        
+found
+=
+[
+str
+for
+str
+in
+lines
+if
+str
+.
+startswith
+(
+(
+'
+ALL_IPDLSRCS
+'
+                                                         
+'
+CPPSRCS
+'
+                                                         
+'
+IPDLDIRS
+'
+)
+)
 ]
         
 self
 .
 assertEqual
 (
-lines
+found
 expected
 )
     
