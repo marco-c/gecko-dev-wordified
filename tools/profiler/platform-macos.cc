@@ -398,6 +398,9 @@ sampler
 =
 NULL
 ;
+#
+ifdef
+DEBUG
 /
 /
 0
@@ -411,10 +414,8 @@ on
 MacOSX
 since
 a
-ptread_t
+pthread_t
 is
-/
-/
 a
 pointer
 .
@@ -428,6 +429,8 @@ pthread_t
 )
 0
 ;
+#
+endif
 void
 OS
 :
