@@ -225,6 +225,17 @@ GeckoAppShell
 .
 AppStateListener
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+WebRTCJNITarget
+;
 /
 /
 Wrapper
@@ -525,6 +536,7 @@ mResumeCapture
 =
 false
 ;
+WebRTCJNITarget
 public
 VideoCaptureAndroid
 (
@@ -962,6 +974,7 @@ t
 do
 that
 .
+WebRTCJNITarget
 private
 synchronized
 boolean
@@ -1625,6 +1638,7 @@ to
 be
 stopped
 .
+WebRTCJNITarget
 private
 synchronized
 boolean
@@ -1819,6 +1833,7 @@ return
 false
 ;
 }
+WebRTCJNITarget
 private
 native
 void
@@ -1836,6 +1851,7 @@ int
 rotation
 )
 ;
+WebRTCJNITarget
 public
 synchronized
 void
@@ -1876,6 +1892,7 @@ data
 ;
 }
 }
+WebRTCJNITarget
 public
 synchronized
 void
@@ -1921,6 +1938,7 @@ height
 )
 ;
 }
+WebRTCJNITarget
 public
 synchronized
 void
@@ -1977,6 +1995,7 @@ e
 ;
 }
 }
+WebRTCJNITarget
 public
 synchronized
 void
