@@ -910,6 +910,13 @@ DestroyTextures
 =
 0
 ;
+virtual
+void
+OnActorDestroy
+(
+)
+MOZ_OVERRIDE
+;
 protected
 :
 virtual
@@ -1164,6 +1171,13 @@ MOZ_OVERRIDE
 virtual
 void
 DestroyTextures
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+void
+OnActorDestroy
 (
 )
 MOZ_OVERRIDE
