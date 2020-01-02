@@ -163,6 +163,8 @@ nsFlexContainerFrame
 public
 nsFlexContainerFrameSuper
 {
+public
+:
 NS_DECL_FRAMEARENA_HELPERS
 NS_DECL_QUERYFRAME_TARGET
 (
@@ -187,8 +189,6 @@ nsStyleContext
 aContext
 )
 ;
-public
-:
 /
 /
 Forward
@@ -326,10 +326,6 @@ aContext
 nsFlexContainerFrameSuper
 (
 aContext
-)
-mChildrenHaveBeenReordered
-(
-false
 )
 {
 }
