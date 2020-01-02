@@ -194,6 +194,9 @@ virtual
 void
 Call
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -316,6 +319,9 @@ PromiseCallback
 void
 Call
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -419,6 +425,9 @@ PromiseCallback
 void
 Call
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -513,6 +522,9 @@ PromiseCallback
 void
 Call
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -593,6 +605,9 @@ PromiseCallback
 void
 Call
 (
+JSContext
+*
+aCx
 JS
 :
 :
