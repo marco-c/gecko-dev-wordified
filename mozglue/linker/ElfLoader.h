@@ -1807,6 +1807,9 @@ registeredHandler
 bool
 signalHandlingBroken
 ;
+bool
+signalHandlingSlow
+;
 }
 ;
 /
