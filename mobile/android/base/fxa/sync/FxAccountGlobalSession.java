@@ -120,13 +120,9 @@ mozilla
 .
 gecko
 .
-background
+fxa
 .
-common
-.
-log
-.
-Logger
+FxAccountConstants
 ;
 import
 org
@@ -376,9 +372,9 @@ null
 null
 )
 ;
-Logger
+FxAccountConstants
 .
-warn
+pii
 (
 LOG_TAG
 "

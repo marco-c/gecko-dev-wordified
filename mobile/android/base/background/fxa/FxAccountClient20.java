@@ -141,6 +141,8 @@ class
 FxAccountClient20
 extends
 FxAccountClient10
+implements
+FxAccountClient
 {
 protected
 static
