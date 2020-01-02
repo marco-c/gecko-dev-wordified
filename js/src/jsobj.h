@@ -9264,15 +9264,6 @@ MutableHandleObject
 objp
 )
 ;
-const
-Class
-*
-ProtoKeyToClass
-(
-JSProtoKey
-key
-)
-;
 JSObject
 *
 GetBuiltinPrototypePure
