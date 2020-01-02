@@ -1707,7 +1707,7 @@ on
 x64
 and
 for
-operation
+interrupt
 callback
 requesting
 on
@@ -1753,7 +1753,7 @@ if
 (
 module
 .
-usesSignalHandlers
+usesSignalHandlersForInterrupt
 (
 )
 &
@@ -1795,7 +1795,7 @@ cx
 heap
 module
 .
-usesSignalHandlers
+usesSignalHandlersForOOB
 (
 )
 )

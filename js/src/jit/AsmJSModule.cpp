@@ -3476,6 +3476,17 @@ runtimeAddressForJit
 )
 ;
 case
+AsmJSImm_RuntimeInterrupt
+:
+return
+cx
+-
+>
+runtimeAddressOfInterrupt
+(
+)
+;
+case
 AsmJSImm_StackLimit
 :
 return
@@ -4413,7 +4424,7 @@ byteLength
 ;
 if
 (
-usesSignalHandlers
+usesSignalHandlersForOOB
 (
 )
 )

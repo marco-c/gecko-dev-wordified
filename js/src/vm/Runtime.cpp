@@ -3114,10 +3114,10 @@ asm
 .
 js
 and
-optionally
 normal
 Ion
 code
+optionally
 use
 memory
 protection
@@ -3132,6 +3132,13 @@ code
 .
 *
 /
+if
+(
+canUseSignalHandlers
+(
+)
+)
+{
 RequestInterruptForAsmJSCode
 (
 this
@@ -3147,6 +3154,7 @@ this
 mode
 )
 ;
+}
 #
 endif
 }

@@ -2734,6 +2734,14 @@ lir
 )
 ;
 bool
+visitAsmJSInterruptCheck
+(
+LAsmJSInterruptCheck
+*
+lir
+)
+;
+bool
 visitRecompileCheck
 (
 LRecompileCheck

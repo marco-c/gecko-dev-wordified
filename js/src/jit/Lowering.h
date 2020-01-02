@@ -1284,6 +1284,14 @@ ins
 )
 ;
 bool
+visitAsmJSInterruptCheck
+(
+MAsmJSInterruptCheck
+*
+ins
+)
+;
+bool
 visitInterruptCheckPar
 (
 MInterruptCheckPar
