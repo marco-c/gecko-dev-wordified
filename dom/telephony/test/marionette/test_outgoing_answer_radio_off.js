@@ -387,7 +387,7 @@ call
 ;
 emulator
 .
-runCmdWithCallback
+runWithCallback
 (
 "
 gsm
