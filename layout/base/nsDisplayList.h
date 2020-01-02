@@ -17324,6 +17324,15 @@ return
 false
 ;
 }
+uint32_t
+GetFlags
+(
+)
+{
+return
+mFlags
+;
+}
 NS_DISPLAY_DECL_NAME
 (
 "
