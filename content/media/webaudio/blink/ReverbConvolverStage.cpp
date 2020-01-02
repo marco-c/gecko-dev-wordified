@@ -395,7 +395,7 @@ fftSize
 m_fftKernel
 -
 >
-PerformPaddedFFT
+PadAndMakeScaledDFT
 (
 impulseResponse
 +
