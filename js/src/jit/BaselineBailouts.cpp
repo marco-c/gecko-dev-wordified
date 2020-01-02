@@ -12072,13 +12072,6 @@ IonFrameIterator
 iter
 (
 cx
--
->
-mainThread
-(
-)
-.
-ionTop
 )
 ;
 uint32_t

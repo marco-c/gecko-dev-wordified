@@ -225,6 +225,17 @@ h
 #
 include
 "
+jit
+/
+IonFrames
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 Interpreter
