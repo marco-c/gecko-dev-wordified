@@ -216,6 +216,9 @@ findChromeWindowForChats
 "
 closeAllChatWindows
 "
+"
+hookWindowCloseForPanelClose
+"
 ]
 ;
 this
@@ -591,7 +594,7 @@ their
 worker
 enabled
 .
-handleWindowClose
+hookWindowCloseForPanelClose
 (
 window
 )
@@ -1530,7 +1533,7 @@ close
 }
 }
 function
-handleWindowClose
+hookWindowCloseForPanelClose
 (
 targetWindow
 )
