@@ -538,9 +538,6 @@ initialized
 void
 SetRawChannelContents
 (
-JSContext
-*
-aJSContext
 uint32_t
 aChannel
 float

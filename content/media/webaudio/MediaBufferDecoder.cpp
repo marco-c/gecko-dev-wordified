@@ -2110,7 +2110,6 @@ mOutput
 >
 SetRawChannelContents
 (
-cx
 i
 mChannelBuffers
 [
