@@ -17,7 +17,7 @@ setCharPref
 "
 urlclassifier
 .
-malware_table
+malwareTable
 "
 "
 test
@@ -37,7 +37,7 @@ setCharPref
 "
 urlclassifier
 .
-phish_table
+phishTable
 "
 "
 test
