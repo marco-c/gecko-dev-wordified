@@ -219,7 +219,7 @@ The
 nsIStreamingProtocolListener
 implementation
 .
-nsMainThreadPtrHandle
+nsCOMPtr
 <
 nsIStreamingProtocolListener
 >
