@@ -2693,8 +2693,6 @@ https
 :
 /
 /
-blocklist
-.
 addons
 .
 mozilla
