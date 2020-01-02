@@ -752,11 +752,6 @@ int
 components
 )
 ;
-~
-NrIceMediaStream
-(
-)
-;
 enum
 State
 {
@@ -1310,6 +1305,11 @@ nullptr
 )
 {
 }
+~
+NrIceMediaStream
+(
+)
+;
 DISALLOW_COPY_ASSIGN
 (
 NrIceMediaStream

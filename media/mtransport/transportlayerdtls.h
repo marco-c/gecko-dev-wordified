@@ -637,6 +637,12 @@ kMaxDigestLength
 ;
 private
 :
+~
+VerificationDigest
+(
+)
+{
+}
 DISALLOW_COPY_ASSIGN
 (
 VerificationDigest

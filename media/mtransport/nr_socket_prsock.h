@@ -1151,6 +1151,12 @@ data
 ;
 private
 :
+~
+nr_udp_message
+(
+)
+{
+}
 DISALLOW_COPY_ASSIGN
 (
 nr_udp_message

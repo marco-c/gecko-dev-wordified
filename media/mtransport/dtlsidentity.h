@@ -185,13 +185,13 @@ mozilla
 class
 DtlsIdentity
 {
-public
-:
 ~
 DtlsIdentity
 (
 )
 ;
+public
+:
 /
 /
 Generate
