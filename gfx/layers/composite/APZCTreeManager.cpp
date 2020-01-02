@@ -1928,7 +1928,7 @@ gfx3DMatrix
 transformToApzc
 ;
 gfx3DMatrix
-transformToScreen
+transformToGecko
 ;
 switch
 (
@@ -2161,7 +2161,7 @@ GetInputTransforms
 (
 mApzcForInputBlock
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 mCachedTransformToApzcForInputBlock
@@ -2428,7 +2428,7 @@ GetInputTransforms
 (
 apzc
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 PinchGestureInput
@@ -2502,7 +2502,7 @@ GetInputTransforms
 (
 apzc
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 TapGestureInput
@@ -2569,7 +2569,7 @@ aPoint
 ;
 gfx3DMatrix
 transformToApzc
-transformToScreen
+transformToGecko
 ;
 /
 /
@@ -2783,7 +2783,7 @@ GetInputTransforms
 (
 apzc
 mCachedTransformToApzcForInputBlock
-transformToScreen
+transformToGecko
 )
 ;
 }
@@ -2939,7 +2939,7 @@ ensures
 that
 transformToApzc
 and
-transformToScreen
+transformToGecko
 are
 in
 sync
@@ -2948,7 +2948,7 @@ sync
 (
 note
 that
-transformToScreen
+transformToGecko
 isn
 '
 t
@@ -2956,13 +2956,13 @@ cached
 )
 .
 gfx3DMatrix
-transformToScreen
+transformToGecko
 ;
 GetInputTransforms
 (
 mApzcForInputBlock
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 gfx3DMatrix
@@ -2970,7 +2970,7 @@ outTransform
 =
 transformToApzc
 *
-transformToScreen
+transformToGecko
 ;
 for
 (
@@ -3143,13 +3143,13 @@ gfx3DMatrix
 transformToApzc
 ;
 gfx3DMatrix
-transformToScreen
+transformToGecko
 ;
 GetInputTransforms
 (
 apzc
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 MultiTouchInput
@@ -3179,7 +3179,7 @@ outTransform
 =
 transformToApzc
 *
-transformToScreen
+transformToGecko
 ;
 ApplyTransform
 (
@@ -3258,13 +3258,13 @@ gfx3DMatrix
 transformToApzc
 ;
 gfx3DMatrix
-transformToScreen
+transformToGecko
 ;
 GetInputTransforms
 (
 apzc
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 ApplyTransform
@@ -3284,7 +3284,7 @@ outTransform
 =
 transformToApzc
 *
-transformToScreen
+transformToGecko
 ;
 ApplyTransform
 (
@@ -4033,7 +4033,7 @@ gfx3DMatrix
 transformToApzc
 ;
 gfx3DMatrix
-transformToScreen
+transformToGecko
 ;
 /
 /
@@ -4054,7 +4054,7 @@ GetInputTransforms
 (
 aChild
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 ApplyTransform
@@ -4098,7 +4098,7 @@ GetInputTransforms
 (
 parent
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 ApplyTransform
@@ -5039,7 +5039,7 @@ sets
 the
 aTransformToApzcOut
 and
-aTransformToScreenOut
+aTransformToGeckoOut
 out
 -
 parameters
@@ -5477,7 +5477,7 @@ out
 parameters
 we
 set
-aTransformToScreenOut
+aTransformToGeckoOut
 to
 the
 remaining
@@ -5659,7 +5659,7 @@ gfx3DMatrix
 aTransformToApzcOut
 gfx3DMatrix
 &
-aTransformToScreenOut
+aTransformToGeckoOut
 )
 {
 /
@@ -5844,7 +5844,7 @@ ancestorUntransform
 ;
 /
 /
-aTransformToScreenOut
+aTransformToGeckoOut
 is
 initialized
 to
@@ -5859,7 +5859,7 @@ MC
 NC
 *
 OC
-aTransformToScreenOut
+aTransformToGeckoOut
 =
 asyncUntransform
 *
@@ -6060,7 +6060,7 @@ aTransformToApzcOut
 ;
 /
 /
-aTransformToScreenOut
+aTransformToGeckoOut
 is
 LA
 .
@@ -6079,9 +6079,9 @@ PC
 QC
 *
 RC
-aTransformToScreenOut
+aTransformToGeckoOut
 =
-aTransformToScreenOut
+aTransformToGeckoOut
 *
 parent
 -
@@ -6105,7 +6105,7 @@ values
 for
 aTransformToApzcOut
 and
-aTransformToScreenOut
+aTransformToGeckoOut
 when
 parent
 =
