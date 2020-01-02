@@ -6480,21 +6480,9 @@ the
 capabilities
 offered
 .
-        
 "
 "
 "
-        
-#
-We
-are
-ignoring
-desired_capabilities
-at
-least
-for
-now
-.
         
 self
 .
@@ -6588,7 +6576,6 @@ self
 "
 "
 "
-        
 Close
 the
 current
@@ -6599,7 +6586,6 @@ from
 the
 server
 .
-        
 "
 "
 "
