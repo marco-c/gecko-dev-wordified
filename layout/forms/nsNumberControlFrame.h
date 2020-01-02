@@ -264,7 +264,7 @@ const
 MOZ_OVERRIDE
 {
 return
-false
+true
 ;
 }
 #
