@@ -218,6 +218,13 @@ inIDOMUtils
 .
 h
 "
+#
+include
+"
+nsIPermissionManager
+.
+h
+"
 using
 namespace
 mozilla
