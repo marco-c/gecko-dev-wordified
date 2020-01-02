@@ -15258,7 +15258,8 @@ of
 error
 *
 /
-NS_IMETHOD
+virtual
+void
 GetOffsetFromView
 (
 nsPoint

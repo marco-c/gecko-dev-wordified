@@ -29297,7 +29297,7 @@ in
 case
 of
 error
-NS_IMETHODIMP
+void
 nsFrame
 :
 :
@@ -29393,6 +29393,7 @@ if
 (
 frame
 )
+{
 *
 aView
 =
@@ -29403,9 +29404,7 @@ GetView
 (
 )
 ;
-return
-NS_OK
-;
+}
 }
 nsIWidget
 *
@@ -37515,8 +37514,6 @@ get
 offset
 from
 view
-result
-=
 resultFrame
 -
 >
@@ -37529,14 +37526,14 @@ view
 ;
 if
 (
-NS_FAILED
-(
-result
+!
+view
 )
-)
+{
 return
-result
+NS_ERROR_FAILURE
 ;
+}
 point
 .
 y
