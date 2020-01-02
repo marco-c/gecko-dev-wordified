@@ -935,7 +935,10 @@ IntSize
 &
 aSize
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 aWorldTransform
 )
@@ -1613,7 +1616,10 @@ void
 SetLayerProgramProjectionMatrix
 (
 const
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 &
 aMatrix
 )
