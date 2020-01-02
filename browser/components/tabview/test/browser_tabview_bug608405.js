@@ -335,7 +335,12 @@ children
 cleanup
 and
 finish
-tabItem
+targetGroup
+.
+getChild
+(
+0
+)
 .
 close
 (
