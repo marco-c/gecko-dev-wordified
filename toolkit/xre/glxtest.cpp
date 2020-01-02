@@ -698,7 +698,7 @@ n
 1
 )
 ;
-exit
+_exit
 (
 EXIT_FAILURE
 )
@@ -778,7 +778,7 @@ buf
 length
 )
 ;
-exit
+_exit
 (
 EXIT_FAILURE
 )
@@ -2106,7 +2106,7 @@ pfd
 ]
 )
 ;
-exit
+_exit
 (
 0
 )
