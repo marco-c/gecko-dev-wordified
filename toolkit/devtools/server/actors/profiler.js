@@ -866,6 +866,8 @@ unregistered
 }
 observe
 :
+DevToolsUtils
+.
 makeInfallible
 (
 function

@@ -760,6 +760,8 @@ currentThread
 }
 onOutputStreamReady
 :
+DevToolsUtils
+.
 makeInfallible
 (
 function
@@ -959,6 +961,8 @@ null
 nsIStreamListener
 onStartRequest
 :
+DevToolsUtils
+.
 makeInfallible
 (
 function
@@ -979,6 +983,8 @@ onStartRequest
 )
 onStopRequest
 :
+DevToolsUtils
+.
 makeInfallible
 (
 function
@@ -1029,6 +1035,8 @@ onStopRequest
 )
 onDataAvailable
 :
+DevToolsUtils
+.
 makeInfallible
 (
 function
@@ -1491,6 +1499,8 @@ currentThread
 .
 dispatch
 (
+DevToolsUtils
+.
 makeInfallible
 (
 function
@@ -1874,6 +1884,8 @@ currentThread
 .
 dispatch
 (
+DevToolsUtils
+.
 makeInfallible
 (
 function
