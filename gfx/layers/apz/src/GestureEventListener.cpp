@@ -1242,6 +1242,8 @@ mLastTouchInput
 modifiers
 )
 ;
+rv
+=
 mAsyncPanZoomController
 -
 >
@@ -1251,10 +1253,6 @@ pinchEvent
 )
 ;
 }
-rv
-=
-nsEventStatus_eConsumeNoDefault
-;
 mPreviousSpan
 =
 currentSpan
@@ -1346,6 +1344,8 @@ mLastTouchInput
 modifiers
 )
 ;
+rv
+=
 mAsyncPanZoomController
 -
 >
@@ -1353,10 +1353,6 @@ HandleGestureEvent
 (
 pinchEvent
 )
-;
-rv
-=
-nsEventStatus_eConsumeNoDefault
 ;
 mPreviousSpan
 =
@@ -1466,8 +1462,7 @@ mLastTouchInput
 modifiers
 )
 ;
-nsEventStatus
-tapupStatus
+rv
 =
 mAsyncPanZoomController
 -
@@ -1479,7 +1474,7 @@ tapEvent
 ;
 if
 (
-tapupStatus
+rv
 =
 =
 nsEventStatus_eIgnore
@@ -1556,6 +1551,8 @@ mLastTouchInput
 modifiers
 )
 ;
+rv
+=
 mAsyncPanZoomController
 -
 >
@@ -1617,6 +1614,8 @@ mLastTouchInput
 modifiers
 )
 ;
+rv
+=
 mAsyncPanZoomController
 -
 >
@@ -1693,6 +1692,8 @@ mLastTouchInput
 modifiers
 )
 ;
+rv
+=
 mAsyncPanZoomController
 -
 >
@@ -1702,10 +1703,6 @@ pinchEvent
 )
 ;
 }
-rv
-=
-nsEventStatus_eConsumeNoDefault
-;
 break
 ;
 default
