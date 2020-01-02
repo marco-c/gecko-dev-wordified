@@ -1469,7 +1469,7 @@ error
 "
 :
 "
-USER_ABORT
+ActivityCanceled
 "
 }
 )
@@ -2401,7 +2401,7 @@ error
 "
 :
 "
-USER_ABORT
+ActivityCanceled
 "
 }
 )
