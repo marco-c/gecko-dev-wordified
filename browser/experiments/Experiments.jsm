@@ -10159,6 +10159,7 @@ Cu
 Sandbox
 (
 nullprincipal
+options
 )
 ;
 try
