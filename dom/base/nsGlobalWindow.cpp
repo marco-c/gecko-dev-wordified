@@ -375,13 +375,6 @@ h
 #
 include
 "
-ScriptSettings
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences
@@ -26756,9 +26749,6 @@ FrameRequestCallback
 aCallback
 .
 toObject
-(
-)
-GetIncumbentGlobal
 (
 )
 )
@@ -72631,9 +72621,6 @@ new
 EventHandlerNonNull
 (
 callable
-GetIncumbentGlobal
-(
-)
 )
 ;
 \
@@ -72845,9 +72832,6 @@ new
 OnErrorEventHandlerNonNull
 (
 callable
-GetIncumbentGlobal
-(
-)
 )
 ;
 \
@@ -73060,9 +73044,6 @@ new
 OnBeforeUnloadEventHandlerNonNull
 (
 callable
-GetIncumbentGlobal
-(
-)
 )
 ;
 \
