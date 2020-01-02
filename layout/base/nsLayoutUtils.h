@@ -7353,9 +7353,6 @@ the
 rect
 chosen
 by
--
-moz
--
 box
 -
 sizing
@@ -7382,9 +7379,6 @@ the
 rect
 chosen
 by
--
-moz
--
 box
 -
 sizing

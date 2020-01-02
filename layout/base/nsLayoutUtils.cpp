@@ -18781,9 +18781,6 @@ specified
 widths
 but
 ignore
--
-moz
--
 box
 -
 sizing
