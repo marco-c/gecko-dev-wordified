@@ -32159,8 +32159,6 @@ const
 nsSize
 &
 aNewSize
-bool
-aStoreRectProperties
 )
 {
 nsRect
@@ -32235,11 +32233,6 @@ HasFilters
 )
 )
 {
-if
-(
-aStoreRectProperties
-)
-{
 aFrame
 -
 >
@@ -32262,7 +32255,6 @@ r
 )
 )
 ;
-}
 r
 =
 nsSVGUtils
@@ -32366,11 +32358,6 @@ width
 0
 )
 {
-if
-(
-aStoreRectProperties
-)
-{
 aFrame
 -
 >
@@ -32393,7 +32380,6 @@ r
 )
 )
 ;
-}
 nscoord
 offset
 =
@@ -32801,11 +32787,6 @@ aFrame
 )
 )
 {
-if
-(
-aStoreRectProperties
-)
-{
 aFrame
 -
 >
@@ -32828,7 +32809,6 @@ r
 )
 )
 ;
-}
 r
 =
 nsSVGIntegrationUtils
@@ -45642,7 +45622,6 @@ VisualOverflow
 (
 )
 aNewSize
-true
 )
 ;
 /
