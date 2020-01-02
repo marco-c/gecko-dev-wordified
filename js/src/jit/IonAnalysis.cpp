@@ -15148,7 +15148,7 @@ Vector
 types
 :
 :
-NewScriptAddendum
+TypeNewScript
 :
 :
 Initializer
@@ -15802,7 +15802,7 @@ script
 types
 :
 :
-NewScriptAddendum
+TypeNewScript
 :
 :
 Initializer
@@ -15811,7 +15811,7 @@ entry
 types
 :
 :
-NewScriptAddendum
+TypeNewScript
 :
 :
 Initializer
@@ -15870,7 +15870,7 @@ script
 types
 :
 :
-NewScriptAddendum
+TypeNewScript
 :
 :
 Initializer
@@ -15879,7 +15879,7 @@ entry
 types
 :
 :
-NewScriptAddendum
+TypeNewScript
 :
 :
 Initializer
@@ -16239,7 +16239,7 @@ Vector
 types
 :
 :
-NewScriptAddendum
+TypeNewScript
 :
 :
 Initializer

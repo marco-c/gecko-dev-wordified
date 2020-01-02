@@ -605,7 +605,7 @@ Vector
 types
 :
 :
-NewScriptAddendum
+TypeNewScript
 :
 :
 Initializer

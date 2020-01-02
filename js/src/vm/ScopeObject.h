@@ -1841,6 +1841,12 @@ isForEval
 )
 const
 {
+AutoThreadSafeAccess
+ts
+(
+this
+)
+;
 JS_ASSERT
 (
 getFixedSlot
@@ -1925,6 +1931,12 @@ callee
 )
 const
 {
+AutoThreadSafeAccess
+ts
+(
+this
+)
+;
 return
 getFixedSlot
 (
