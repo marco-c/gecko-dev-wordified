@@ -104,6 +104,13 @@ GLContext
 .
 h
 "
+#
+include
+"
+GLReadTexImageHelper
+.
+h
+"
 using
 namespace
 mozilla
@@ -480,11 +487,9 @@ aCompositor
 )
 ;
 return
-mGL
--
->
 GetTexImage
 (
+mGL
 mTextureHandle
 true
 compositorOGL

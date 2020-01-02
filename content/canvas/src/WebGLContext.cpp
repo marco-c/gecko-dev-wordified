@@ -306,6 +306,13 @@ h
 #
 include
 "
+GLReadTexImageHelper
+.
+h
+"
+#
+include
+"
 gfxCrashReporterUtils
 .
 h
@@ -3640,11 +3647,9 @@ MakeCurrent
 (
 )
 ;
-gl
--
->
 ReadScreenIntoImageSurface
 (
+gl
 surf
 )
 ;

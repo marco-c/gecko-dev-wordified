@@ -126,14 +126,10 @@ h
 #
 include
 "
-GLContextUtils
+GLReadTexImageHelper
 .
 h
 "
-/
-/
-for
-GLContextUtils
 #
 include
 "

@@ -130,6 +130,13 @@ h
 #
 include
 "
+GLReadTexImageHelper
+.
+h
+"
+#
+include
+"
 SharedSurfaceGL
 .
 h
@@ -2508,11 +2515,9 @@ FB
 )
 )
 ;
-mGL
--
->
 ReadPixelsIntoImageSurface
 (
+mGL
 dest
 )
 ;

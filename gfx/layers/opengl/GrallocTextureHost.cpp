@@ -165,7 +165,7 @@ h
 #
 include
 "
-GLContextUtils
+GLReadTexImageHelper
 .
 h
 "
