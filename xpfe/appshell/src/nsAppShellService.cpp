@@ -1035,7 +1035,7 @@ nsIInterfaceRequestor
 public
 nsSupportsWeakReference
 {
-public
+protected
 :
 virtual
 ~
@@ -1044,6 +1044,8 @@ WebBrowserChrome2Stub
 )
 {
 }
+public
+:
 NS_DECL_ISUPPORTS
 NS_DECL_NSIWEBBROWSERCHROME
 NS_DECL_NSIWEBBROWSERCHROME2
@@ -1479,6 +1481,12 @@ mInterfaceRequestor
 )
 private
 :
+~
+WindowlessBrowserStub
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIWebBrowser
