@@ -615,11 +615,11 @@ export
 )
     
 '
-ANDROID_RESFILES
+ANDROID_RES_DIRS
 '
 :
 (
-StrictOrderingOnAppendList
+list
 list
         
 "
@@ -627,7 +627,7 @@ list
 "
 Android
 resource
-files
+directories
 .
         
 This
@@ -636,6 +636,15 @@ contains
 a
 list
 of
+directories
+each
+relative
+to
+        
+the
+srcdir
+containing
+static
 files
 to
 package
