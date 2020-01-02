@@ -238,13 +238,6 @@ h
 #
 include
 "
-nsFrameManager
-.
-h
-"
-#
-include
-"
 nsINetworkLinkService
 .
 h

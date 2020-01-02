@@ -527,13 +527,6 @@ MOZ_XUL
 #
 include
 "
-nsFrameManager
-.
-h
-"
-#
-include
-"
 nsFrameSelection
 .
 h

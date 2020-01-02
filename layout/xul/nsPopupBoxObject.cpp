@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsFrameManager
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h

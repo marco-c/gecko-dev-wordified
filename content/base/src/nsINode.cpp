@@ -385,13 +385,6 @@ h
 #
 include
 "
-nsFrameManager
-.
-h
-"
-#
-include
-"
 nsFrameSelection
 .
 h

@@ -159,13 +159,6 @@ h
 #
 include
 "
-nsFrameManager
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

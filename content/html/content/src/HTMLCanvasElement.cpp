@@ -279,13 +279,6 @@ h
 #
 include
 "
-nsFrameManager
-.
-h
-"
-#
-include
-"
 nsIScriptSecurityManager
 .
 h
