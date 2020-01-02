@@ -820,6 +820,10 @@ GetRoot
 return
 ;
 }
+mReadyForCompose
+=
+true
+;
 WalkTheTree
 <
 Resolve
