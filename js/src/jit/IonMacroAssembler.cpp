@@ -3247,7 +3247,7 @@ zone
 /
 /
 Inline
-FreeSpan
+FreeList
 :
 :
 allocate
@@ -3259,7 +3259,7 @@ is
 always
 exactly
 one
-FreeSpan
+FreeList
 per
 allocKind
 per
@@ -3269,7 +3269,7 @@ JSCompartment
 /
 If
 a
-FreeSpan
+FreeList
 is
 replaced
 its
@@ -3656,7 +3656,7 @@ list
 tempReg1
 =
 (
-FreeSpan
+FreeList
 *
 )
 &
