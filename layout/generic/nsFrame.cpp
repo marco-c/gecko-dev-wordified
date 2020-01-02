@@ -34058,7 +34058,7 @@ a
 frame
 tree
 to
-stdout
+stderr
 .
 Meant
 to
@@ -34088,7 +34088,7 @@ aFrame
 >
 List
 (
-stdout
+stderr
 )
 ;
 }
@@ -35119,7 +35119,7 @@ RootFrameList
 PresContext
 (
 )
-stdout
+stderr
 )
 ;
 }
@@ -35133,7 +35133,7 @@ DumpFrameTreeLimited
 {
 List
 (
-stdout
+stderr
 )
 ;
 }
