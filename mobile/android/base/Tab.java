@@ -475,6 +475,14 @@ public
 static
 final
 int
+LOAD_PROGRESS_INIT
+=
+10
+;
+public
+static
+final
+int
 LOAD_PROGRESS_START
 =
 20
@@ -720,6 +728,10 @@ url
 STATE_SUCCESS
 :
 STATE_LOADING
+;
+mLoadProgress
+=
+LOAD_PROGRESS_INIT
 ;
 /
 /
