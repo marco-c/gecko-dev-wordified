@@ -202,6 +202,10 @@ need
 real
 crypto
 .
+ensureLegacyIdentityManager
+(
+)
+;
 setBasicCredentials
 (
 "
