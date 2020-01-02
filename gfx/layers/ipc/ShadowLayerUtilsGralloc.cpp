@@ -246,6 +246,13 @@ properties
 .
 h
 "
+#
+include
+"
+MainThreadUtils
+.
+h
+"
 using
 namespace
 android
