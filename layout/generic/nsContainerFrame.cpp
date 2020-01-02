@@ -5304,7 +5304,7 @@ aType
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 |
 |
 aType
@@ -5313,7 +5313,7 @@ aType
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 "
 bad
 type
@@ -5798,7 +5798,7 @@ aType
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 kid
 -

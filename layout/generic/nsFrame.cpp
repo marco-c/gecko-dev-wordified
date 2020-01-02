@@ -25303,7 +25303,7 @@ this
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 ;
 aData
@@ -25375,7 +25375,7 @@ this
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 )
 ;
 aData

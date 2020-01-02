@@ -2412,7 +2412,7 @@ InnerTableFrame
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 ;
 DISPLAY_MIN_WIDTH
@@ -2447,7 +2447,7 @@ FirstChild
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 ;
 if
@@ -2522,7 +2522,7 @@ InnerTableFrame
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 )
 ;
 if
@@ -2570,7 +2570,7 @@ FirstChild
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 ;
 maxWidth
@@ -2631,7 +2631,7 @@ iwt
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 ;
 }
 else
@@ -2660,7 +2660,7 @@ iwt
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 ;
 }
 nscoord

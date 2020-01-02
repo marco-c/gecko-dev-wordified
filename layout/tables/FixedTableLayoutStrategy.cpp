@@ -760,7 +760,7 @@ cellFrame
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 ;
 if
@@ -1828,11 +1828,11 @@ that
 the
 difference
 between
-MIN_WIDTH
+MIN_ISIZE
 and
 /
 /
-PREF_WIDTH
+PREF_ISIZE
 shouldn
 '
 t
@@ -1848,7 +1848,7 @@ of
 styleWidth
 ;
 use
-MIN_WIDTH
+MIN_ISIZE
 for
 symmetry
 /
@@ -1880,7 +1880,7 @@ cellFrame
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 ;
 }

@@ -2346,7 +2346,7 @@ baseFrame
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 )
 ;
 nscoord
@@ -2362,7 +2362,7 @@ indexFrame
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 )
 ;
 nscoord

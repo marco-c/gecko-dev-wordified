@@ -1597,12 +1597,12 @@ wrap
 formula
 max
 (
-MIN_WIDTH
+MIN_ISIZE
 min
 (
 avail
 width
-PREF_WIDTH
+PREF_ISIZE
 )
 )
 /
@@ -1611,7 +1611,7 @@ rather
 than
 just
 using
-MIN_WIDTH
+MIN_ISIZE
 .
 NS_ASSERTION
 (

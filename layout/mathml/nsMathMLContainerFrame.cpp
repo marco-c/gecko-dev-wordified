@@ -6971,7 +6971,7 @@ childFrame
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 )
 ;
 childDesiredSize

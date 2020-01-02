@@ -22515,7 +22515,7 @@ aType
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 )
 {
 /
@@ -23814,13 +23814,13 @@ NS_PRECONDITION
 aType
 =
 =
-MIN_WIDTH
+MIN_ISIZE
 |
 |
 aType
 =
 =
-PREF_WIDTH
+PREF_ISIZE
 "
 bad
 type
@@ -23870,7 +23870,7 @@ n
 aType
 =
 =
-MIN_WIDTH
+MIN_ISIZE
 ?
 "
 min
@@ -24461,7 +24461,7 @@ if
 aType
 =
 =
-MIN_WIDTH
+MIN_ISIZE
 )
 result
 =
@@ -24534,7 +24534,7 @@ n
 aType
 =
 =
-MIN_WIDTH
+MIN_ISIZE
 ?
 "
 min
@@ -25414,7 +25414,7 @@ if
 aType
 =
 =
-MIN_WIDTH
+MIN_ISIZE
 &
 &
 /
@@ -25844,7 +25844,7 @@ n
 aType
 =
 =
-MIN_WIDTH
+MIN_ISIZE
 ?
 "
 min

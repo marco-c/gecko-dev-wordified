@@ -7832,8 +7832,8 @@ margin
 enum
 IntrinsicISizeType
 {
-MIN_WIDTH
-PREF_WIDTH
+MIN_ISIZE
+PREF_ISIZE
 }
 ;
 enum

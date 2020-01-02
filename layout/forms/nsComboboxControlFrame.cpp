@@ -5165,7 +5165,7 @@ aType
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 {
 dropdownContentWidth
@@ -5200,7 +5200,7 @@ aType
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 "
 Unexpected
 type
@@ -5319,7 +5319,7 @@ aRenderingContext
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 ;
 return
@@ -5354,7 +5354,7 @@ aRenderingContext
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 )
 ;
 return

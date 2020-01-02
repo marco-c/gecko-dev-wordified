@@ -3442,7 +3442,7 @@ childFrame
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 )
 ;
 if

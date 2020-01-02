@@ -29054,7 +29054,7 @@ get
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 ;
 /
@@ -29294,7 +29294,7 @@ get
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 )
 ;
 if
