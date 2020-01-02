@@ -1146,14 +1146,6 @@ done
 "
 )
 ;
-Weave
-.
-Service
-.
-verifyLogin
-(
-)
-;
 }
 )
 .
