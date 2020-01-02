@@ -2855,6 +2855,9 @@ ShmemTextureHost
 uint64_t
 aID
 const
+mozilla
+:
+:
 ipc
 :
 :
@@ -2914,6 +2917,9 @@ ShmemTextureHost
 #
 endif
 protected
+:
+mozilla
+:
 :
 ipc
 :
