@@ -170,7 +170,7 @@ Init
 const
 ChannelDiverterArgs
 &
-aArgs
+aChannel
 )
 ;
 void

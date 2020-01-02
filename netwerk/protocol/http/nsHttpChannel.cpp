@@ -5982,6 +5982,12 @@ nsIStreamListener
 >
 listener
 ;
+nsISupports
+*
+ctxt
+=
+mListenerContext
+;
 rv
 =
 DoApplyContentConversions
@@ -5991,6 +5997,7 @@ getter_AddRefs
 (
 listener
 )
+ctxt
 )
 ;
 if
