@@ -9913,7 +9913,7 @@ Assembler
 Equal
 object
 scratchReg
-ObjectProxyClassPtr
+CallableProxyClassPtr
 success
 )
 ;
@@ -9927,7 +9927,7 @@ Assembler
 Equal
 object
 scratchReg
-FunctionProxyClassPtr
+UncallableProxyClassPtr
 success
 )
 ;

@@ -7907,10 +7907,11 @@ EAGER_CLASS_ATOM
 (
 Proxy
 )
-OCLASP
-(
-ObjectProxy
-)
+&
+ProxyObject
+:
+:
+uncallableClass_
 }
 #
 if

@@ -10867,7 +10867,7 @@ DeclEnvObject
 bool
 js_IsDebugScopeSlow
 (
-ObjectProxyObject
+ProxyObject
 *
 proxy
 )
@@ -10880,10 +10880,10 @@ proxy
 hasClass
 (
 &
-ObjectProxyObject
+ProxyObject
 :
 :
-class_
+uncallableClass_
 )
 )
 ;

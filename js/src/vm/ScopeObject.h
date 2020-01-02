@@ -4427,7 +4427,7 @@ class
 DebugScopeObject
 :
 public
-ObjectProxyObject
+ProxyObject
 {
 /
 *
@@ -5092,7 +5092,7 @@ js_IsDebugScopeSlow
 js
 :
 :
-ObjectProxyObject
+ProxyObject
 *
 proxy
 )
@@ -5107,7 +5107,7 @@ t
 use
 is
 <
-ObjectProxyObject
+ProxyObject
 >
 (
 )
@@ -5126,10 +5126,10 @@ hasClass
 js
 :
 :
-ObjectProxyObject
+ProxyObject
 :
 :
-class_
+uncallableClass_
 )
 &
 &
@@ -5151,7 +5151,7 @@ as
 js
 :
 :
-ObjectProxyObject
+ProxyObject
 >
 (
 )
