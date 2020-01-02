@@ -1293,9 +1293,9 @@ min
 availableInInputBuffer
 availableInOutputBuffer
 *
-den
-/
 num
+/
+den
 +
 10
 )
