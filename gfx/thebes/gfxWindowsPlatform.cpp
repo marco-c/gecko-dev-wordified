@@ -619,6 +619,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+GfxD2DVramReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
