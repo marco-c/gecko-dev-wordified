@@ -11834,7 +11834,6 @@ frameCount
 sizeof
 (
 float
-*
 )
 )
 ;
