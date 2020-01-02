@@ -1919,8 +1919,10 @@ mFPS
 {
 mFPS
 =
-new
+MakeUnique
+<
 FPSState
+>
 (
 )
 ;
