@@ -2064,6 +2064,9 @@ nsString
 >
 mBookmarkToKeywordHash
 ;
+bool
+mBookmarkToKeywordHashInitialized
+;
 /
 *
 *
