@@ -8760,6 +8760,17 @@ analysis
 return
 false
 ;
+if
+(
+!
+mir
+-
+>
+compilingAsmJS
+(
+)
+)
+{
 /
 /
 Eliminating
@@ -8818,6 +8829,7 @@ operands
 return
 false
 ;
+}
 }
 if
 (
