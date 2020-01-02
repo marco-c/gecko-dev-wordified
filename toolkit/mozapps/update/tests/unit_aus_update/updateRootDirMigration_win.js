@@ -147,7 +147,7 @@ exePath
 }
 catch
 (
-ex
+e
 )
 {
 }
@@ -241,7 +241,7 @@ hash
 }
 catch
 (
-ex
+e
 )
 {
 }
@@ -305,12 +305,6 @@ run_test
 {
 setupTestCommon
 (
-false
-)
-;
-do_register_cleanup
-(
-end_test
 )
 ;
 standardInit
@@ -1307,10 +1301,6 @@ path
 appinfo
 .
 name
-)
-;
-cleanupTestCommon
-(
 )
 ;
 }

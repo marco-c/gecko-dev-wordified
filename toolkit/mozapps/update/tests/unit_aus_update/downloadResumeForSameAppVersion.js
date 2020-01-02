@@ -63,7 +63,6 @@ run_test
 {
 setupTestCommon
 (
-true
 )
 ;
 logTestInfo
@@ -292,16 +291,6 @@ do_timeout
 (
 TEST_CHECK_TIMEOUT
 do_test_finished
-)
-;
-}
-function
-end_test
-(
-)
-{
-cleanupTestCommon
-(
 )
 ;
 }

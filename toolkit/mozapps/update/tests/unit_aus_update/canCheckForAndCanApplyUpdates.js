@@ -63,7 +63,6 @@ run_test
 {
 setupTestCommon
 (
-true
 )
 ;
 /
@@ -199,16 +198,6 @@ canApplyUpdates
 )
 ;
 do_test_finished
-(
-)
-;
-}
-function
-end_test
-(
-)
-{
-cleanupTestCommon
 (
 )
 ;

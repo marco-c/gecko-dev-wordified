@@ -63,7 +63,6 @@ run_test
 {
 setupTestCommon
 (
-true
 )
 ;
 logTestInfo
@@ -233,16 +232,6 @@ updateCount
 )
 ;
 do_test_finished
-(
-)
-;
-}
-function
-end_test
-(
-)
-{
-cleanupTestCommon
 (
 )
 ;

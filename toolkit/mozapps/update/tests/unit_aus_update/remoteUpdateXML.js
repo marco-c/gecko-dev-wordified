@@ -69,7 +69,6 @@ run_test
 {
 setupTestCommon
 (
-true
 )
 ;
 logTestInfo
@@ -114,16 +113,6 @@ standardInit
 do_execute_soon
 (
 run_test_pt01
-)
-;
-}
-function
-end_test
-(
-)
-{
-cleanupTestCommon
-(
 )
 ;
 }
@@ -681,8 +670,6 @@ PREF_APP_UPDATE_URL_DETAILS
 /
 /
 }
-/
-/
 catch
 (
 e

@@ -67,7 +67,6 @@ run_test
 {
 setupTestCommon
 (
-true
 )
 ;
 logTestInfo
@@ -447,16 +446,6 @@ WindowWatcherFactory
 )
 ;
 do_test_finished
-(
-)
-;
-}
-function
-end_test
-(
-)
-{
-cleanupTestCommon
 (
 )
 ;

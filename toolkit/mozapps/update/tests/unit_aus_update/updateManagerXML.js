@@ -63,7 +63,6 @@ run_test
 {
 setupTestCommon
 (
-true
 )
 ;
 logTestInfo
@@ -2000,16 +1999,6 @@ STATE_FAILED
 )
 ;
 do_test_finished
-(
-)
-;
-}
-function
-end_test
-(
-)
-{
-cleanupTestCommon
 (
 )
 ;
