@@ -16917,6 +16917,15 @@ GetMIMEType
 contentType
 )
 ;
+mozilla
+:
+:
+widget
+:
+:
+android
+:
+:
 GeckoAppShell
 :
 :
