@@ -1560,6 +1560,15 @@ source
 =
 >
 {
+let
+ruleCount
+=
+this
+.
+styleSheet
+.
+ruleCount
+;
 this
 .
 _state
@@ -1571,6 +1580,7 @@ CssLogic
 prettifyCSS
 (
 source
+ruleCount
 )
 ;
 this
