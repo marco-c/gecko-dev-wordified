@@ -363,7 +363,7 @@ return
 nullptr
 ;
 }
-InputBuffer
+Input
 issuer
 ;
 if
@@ -394,7 +394,7 @@ return
 nullptr
 ;
 }
-InputBuffer
+Input
 issuerPublicKey
 ;
 if
@@ -425,7 +425,7 @@ return
 nullptr
 ;
 }
-InputBuffer
+Input
 serialNumber
 ;
 if

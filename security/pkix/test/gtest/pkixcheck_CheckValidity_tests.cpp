@@ -315,7 +315,7 @@ Result
 CheckValidity
 (
 const
-InputBuffer
+Input
 encodedValidity
 PRTime
 time
@@ -732,7 +732,7 @@ length
 ;
 static
 const
-InputBuffer
+Input
 validity
 (
 DER
@@ -783,7 +783,7 @@ NEWER_UTCTIME
 ;
 static
 const
-InputBuffer
+Input
 validity
 (
 DER
@@ -834,7 +834,7 @@ length
 ;
 static
 const
-InputBuffer
+Input
 validity
 (
 DER
@@ -868,7 +868,7 @@ NEWER_UTCTIME
 ;
 static
 const
-InputBuffer
+Input
 OLDER_UTCTIME_NEWER_UTCTIME
 (
 OLDER_UTCTIME_NEWER_UTCTIME_DATA
@@ -911,7 +911,7 @@ NEWER_GENERALIZEDTIME
 ;
 static
 const
-InputBuffer
+Input
 validity
 (
 DER
@@ -948,7 +948,7 @@ NEWER_UTCTIME
 ;
 static
 const
-InputBuffer
+Input
 validity
 (
 DER
@@ -985,7 +985,7 @@ NEWER_GENERALIZEDTIME
 ;
 static
 const
-InputBuffer
+Input
 validity
 (
 DER
@@ -1062,7 +1062,7 @@ OLDER_UTCTIME
 ;
 static
 const
-InputBuffer
+Input
 validity
 (
 DER

@@ -323,7 +323,7 @@ trustLevel
 Result
 CheckNameConstraints
 (
-InputBuffer
+Input
 encodedNameConstraints
 const
 BackCert

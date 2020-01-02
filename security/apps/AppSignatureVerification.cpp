@@ -3501,7 +3501,7 @@ SECFailure
 )
 ;
 }
-InputBuffer
+Input
 certDER
 ;
 Result

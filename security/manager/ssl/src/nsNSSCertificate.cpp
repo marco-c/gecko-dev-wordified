@@ -7987,7 +7987,7 @@ i
 SECItem
 certDER
 (
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 *
 certArray

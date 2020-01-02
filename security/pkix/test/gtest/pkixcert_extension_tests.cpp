@@ -333,7 +333,7 @@ given
 extension
 .
 static
-InputBuffer
+Input
 CreateCert
 (
 PLArenaPool
@@ -459,7 +459,7 @@ EXPECT_TRUE
 cert
 )
 ;
-InputBuffer
+Input
 result
 ;
 EXPECT_EQ
@@ -498,7 +498,7 @@ given
 extension
 .
 static
-InputBuffer
+Input
 CreateCert
 (
 PLArenaPool
@@ -560,7 +560,7 @@ EndEntityOrCA
 const
 CertPolicyId
 &
-InputBuffer
+Input
 candidateCert
 /
 *
@@ -587,7 +587,7 @@ virtual
 Result
 FindIssuer
 (
-InputBuffer
+Input
 /
 *
 encodedIssuerName
@@ -634,7 +634,7 @@ optional
 *
 /
 const
-InputBuffer
+Input
 *
 /
 *
@@ -642,7 +642,7 @@ optional
 *
 /
 const
-InputBuffer
+Input
 *
 )
 {
@@ -671,7 +671,7 @@ const
 SignedDataWithSignature
 &
 signedData
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {
@@ -696,7 +696,7 @@ virtual
 Result
 DigestBuf
 (
-InputBuffer
+Input
 /
 *
 out
@@ -722,7 +722,7 @@ virtual
 Result
 CheckPublicKey
 (
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {
@@ -979,7 +979,7 @@ owned
 by
 the
 arena
-InputBuffer
+Input
 cert
 (
 CreateCert
@@ -1208,7 +1208,7 @@ owned
 by
 the
 arena
-InputBuffer
+Input
 cert
 (
 CreateCert
@@ -1455,7 +1455,7 @@ owned
 by
 the
 arena
-InputBuffer
+Input
 cert
 (
 CreateCert
@@ -1710,7 +1710,7 @@ owned
 by
 the
 arena
-InputBuffer
+Input
 cert
 (
 CreateCert
@@ -1927,7 +1927,7 @@ owned
 by
 the
 arena
-InputBuffer
+Input
 cert
 (
 CreateCert
@@ -2163,7 +2163,7 @@ owned
 by
 the
 arena
-InputBuffer
+Input
 cert
 (
 CreateCert
@@ -2409,7 +2409,7 @@ owned
 by
 the
 arena
-InputBuffer
+Input
 cert
 (
 CreateCert

@@ -341,10 +341,10 @@ namespace
 test
 {
 class
-TestInputBuffer
+TestInput
 :
 public
-InputBuffer
+Input
 {
 public
 :
@@ -354,7 +354,7 @@ size_t
 N
 >
 explicit
-TestInputBuffer
+TestInput
 (
 const
 char
@@ -367,7 +367,7 @@ N
 ]
 )
 :
-InputBuffer
+Input
 (
 reinterpret_cast
 <
@@ -725,7 +725,7 @@ toLen
 )
 ;
 Result
-InitInputBufferFromSECItem
+InitInputFromSECItem
 (
 const
 SECItem
@@ -736,9 +736,9 @@ secItem
 out
 *
 /
-InputBuffer
+Input
 &
-inputBuffer
+input
 )
 ;
 /

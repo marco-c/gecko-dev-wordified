@@ -318,7 +318,7 @@ CheckKeyUsage
 EndEntityOrCA
 endEntityOrCA
 const
-InputBuffer
+Input
 *
 encodedKeyUsage
 KeyUsage
@@ -419,7 +419,7 @@ bits
 ;
 \
 const
-InputBuffer
+Input
 name
 (
 name
@@ -430,7 +430,7 @@ _bytes
 ;
 static
 const
-InputBuffer
+Input
 empty_null
 ;
 /
@@ -467,7 +467,7 @@ EE_none
 /
 The
 input
-InputBuffer
+Input
 is
 nullptr
 .
@@ -619,7 +619,7 @@ EE_empty
 /
 The
 input
-InputBuffer
+Input
 is
 empty
 .
@@ -661,7 +661,7 @@ dummy
 =
 0x00
 ;
-InputBuffer
+Input
 empty_nonnull
 ;
 ASSERT_EQ
@@ -772,7 +772,7 @@ dummy
 =
 0x00
 ;
-InputBuffer
+Input
 empty_nonnull
 ;
 ASSERT_EQ
@@ -878,7 +878,7 @@ bits
 ;
 static
 const
-InputBuffer
+Input
 oneValueByte
 (
 oneValueByteData
@@ -936,7 +936,7 @@ bits
 ;
 static
 const
-InputBuffer
+Input
 twoValueBytes
 (
 twoValueBytesData
@@ -1000,7 +1000,7 @@ bits
 ;
 static
 const
-InputBuffer
+Input
 DER
 (
 DER_BYTES
@@ -1081,7 +1081,7 @@ bits
 ;
 static
 const
-InputBuffer
+Input
 DER
 (
 DER_BYTES
@@ -1387,7 +1387,7 @@ unusedBits
 )
 }
 ;
-InputBuffer
+Input
 twoByteNotGood
 (
 twoByteNotGoodData
@@ -1670,7 +1670,7 @@ bits
 ;
 static
 const
-InputBuffer
+Input
 twoByteNotGood
 (
 twoByteNotGoodData
@@ -1757,7 +1757,7 @@ bits
 ;
 static
 const
-InputBuffer
+Input
 controlOneValueByte
 (
 controlOneValueByteData
@@ -1842,7 +1842,7 @@ bits
 ;
 static
 const
-InputBuffer
+Input
 oneValueByte
 (
 oneValueByteData
@@ -1926,7 +1926,7 @@ bits
 ;
 static
 const
-InputBuffer
+Input
 controlTwoValueBytes
 (
 controlTwoValueBytesData
@@ -2014,7 +2014,7 @@ bits
 ;
 static
 const
-InputBuffer
+Input
 twoValueBytes
 (
 twoValueBytesData

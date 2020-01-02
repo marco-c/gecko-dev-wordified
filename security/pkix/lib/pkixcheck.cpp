@@ -336,13 +336,13 @@ pkix
 Result
 CheckValidity
 (
-InputBuffer
+Input
 encodedValidity
 PRTime
 time
 )
 {
-Input
+Reader
 validity
 (
 encodedValidity
@@ -520,7 +520,7 @@ CheckKeyUsage
 EndEntityOrCA
 endEntityOrCA
 const
-InputBuffer
+Input
 *
 encodedKeyUsage
 KeyUsage
@@ -662,14 +662,14 @@ return
 Success
 ;
 }
-Input
+Reader
 input
 (
 *
 encodedKeyUsage
 )
 ;
-Input
+Reader
 value
 ;
 if
@@ -1583,7 +1583,7 @@ inline
 Result
 CheckPolicyInformation
 (
-Input
+Reader
 &
 input
 EndEntityOrCA
@@ -1793,11 +1793,11 @@ CheckCertificatePolicies
 EndEntityOrCA
 endEntityOrCA
 const
-InputBuffer
+Input
 *
 encodedCertificatePolicies
 const
-InputBuffer
+Input
 *
 encodedInhibitAnyPolicy
 TrustLevel
@@ -2022,7 +2022,7 @@ found
 =
 false
 ;
-Input
+Reader
 input
 (
 *
@@ -2159,7 +2159,7 @@ static
 Result
 DecodeBasicConstraints
 (
-Input
+Reader
 &
 input
 /
@@ -2388,7 +2388,7 @@ CheckBasicConstraints
 EndEntityOrCA
 endEntityOrCA
 const
-InputBuffer
+Input
 *
 encodedBasicConstraints
 const
@@ -2419,7 +2419,7 @@ if
 encodedBasicConstraints
 )
 {
-Input
+Reader
 input
 (
 *
@@ -2941,7 +2941,7 @@ NSS
 Result
 CheckNameConstraints
 (
-InputBuffer
+Input
 encodedNameConstraints
 const
 BackCert
@@ -2980,7 +2980,7 @@ FATAL_ERROR_NO_MEMORY
 SECItem
 encodedNameConstraintsSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 encodedNameConstraints
 )
@@ -3044,7 +3044,7 @@ childCert
 SECItem
 childCertDER
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 child
 -
@@ -3274,7 +3274,7 @@ static
 Result
 MatchEKU
 (
-Input
+Reader
 &
 value
 KeyPurposeId
@@ -3981,7 +3981,7 @@ CheckExtendedKeyUsage
 EndEntityOrCA
 endEntityOrCA
 const
-InputBuffer
+Input
 *
 encodedExtendedKeyUsage
 KeyPurposeId
@@ -4061,7 +4061,7 @@ KeyPurposeId
 :
 anyExtendedKeyUsage
 ;
-Input
+Reader
 input
 (
 *

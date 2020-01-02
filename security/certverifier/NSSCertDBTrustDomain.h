@@ -392,7 +392,7 @@ mozilla
 pkix
 :
 :
-InputBuffer
+Input
 encodedIssuerName
 IssuerChecker
 &
@@ -430,7 +430,7 @@ mozilla
 pkix
 :
 :
-InputBuffer
+Input
 candidateCertDER
 /
 *
@@ -459,7 +459,7 @@ mozilla
 pkix
 :
 :
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 MOZ_OVERRIDE
@@ -484,7 +484,7 @@ mozilla
 pkix
 :
 :
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 MOZ_OVERRIDE
@@ -499,7 +499,7 @@ mozilla
 pkix
 :
 :
-InputBuffer
+Input
 item
 /
 *
@@ -550,7 +550,7 @@ mozilla
 pkix
 :
 :
-InputBuffer
+Input
 *
 stapledOCSPResponse
 /
@@ -565,7 +565,7 @@ mozilla
 pkix
 :
 :
-InputBuffer
+Input
 *
 aiaExtension
 )
@@ -635,7 +635,7 @@ mozilla
 pkix
 :
 :
-InputBuffer
+Input
 encodedResponse
 EncodedResponseSource
 responseSource

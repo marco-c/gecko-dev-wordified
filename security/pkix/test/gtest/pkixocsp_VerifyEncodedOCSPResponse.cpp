@@ -367,7 +367,7 @@ endEntityOrCA
 const
 CertPolicyId
 &
-InputBuffer
+Input
 /
 *
 out
@@ -401,7 +401,7 @@ Success
 Result
 FindIssuer
 (
-InputBuffer
+Input
 IssuerChecker
 &
 PRTime
@@ -435,7 +435,7 @@ optional
 *
 /
 const
-InputBuffer
+Input
 *
 /
 *
@@ -443,7 +443,7 @@ optional
 *
 /
 const
-InputBuffer
+Input
 *
 )
 {
@@ -522,7 +522,7 @@ const
 SignedDataWithSignature
 &
 signedData
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {
@@ -547,7 +547,7 @@ virtual
 Result
 DigestBuf
 (
-InputBuffer
+Input
 item
 /
 *
@@ -582,7 +582,7 @@ virtual
 Result
 CheckPublicKey
 (
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {
@@ -761,7 +761,7 @@ SetUp
 (
 )
 ;
-InputBuffer
+Input
 rootNameDER
 ;
 /
@@ -777,7 +777,7 @@ the
 arena
 if
 (
-InitInputBufferFromSECItem
+InitInputFromSECItem
 (
 ASCIIToDERName
 (
@@ -800,7 +800,7 @@ PR_Abort
 )
 ;
 }
-InputBuffer
+Input
 serialNumberDER
 ;
 /
@@ -816,7 +816,7 @@ the
 arena
 if
 (
-InitInputBufferFromSECItem
+InitInputFromSECItem
 (
 CreateEncodedSerialNumber
 (
@@ -841,12 +841,12 @@ PR_Abort
 )
 ;
 }
-InputBuffer
+Input
 rootSPKIDER
 ;
 if
 (
-InitInputBufferFromSECItem
+InitInputFromSECItem
 (
 rootSPKI
 .
@@ -1177,7 +1177,7 @@ owned
 by
 the
 arena
-InputBuffer
+Input
 CreateEncodedOCSPErrorResponse
 (
 uint8_t
@@ -1186,7 +1186,7 @@ status
 {
 static
 const
-InputBuffer
+Input
 EMPTY
 ;
 OCSPResponseContext
@@ -1232,7 +1232,35 @@ EXPECT_TRUE
 response
 )
 ;
-InputBuffer
+/
+/
+The
+result
+will
+be
+an
+empty
+Input
+on
+failure
+but
+it
+doesn
+'
+t
+/
+/
+matter
+because
+the
+test
+is
+going
+to
+fail
+anyway
+.
+Input
 result
 ;
 EXPECT_EQ
@@ -1265,7 +1293,7 @@ pkixocsp_VerifyEncodedResponse_WithoutResponseBytes
 CorrectErrorCode
 )
 {
-InputBuffer
+Input
 response
 (
 CreateEncodedOCSPErrorResponse
@@ -1471,7 +1499,7 @@ owned
 by
 the
 arena
-InputBuffer
+Input
 CreateEncodedOCSPSuccessfulResponse
 (
 OCSPResponseContext
@@ -1656,7 +1684,7 @@ EXPECT_TRUE
 response
 )
 ;
-InputBuffer
+Input
 result
 ;
 EXPECT_EQ
@@ -1689,7 +1717,7 @@ pkixocsp_VerifyEncodedResponse_successful
 good_byKey
 )
 {
-InputBuffer
+Input
 response
 (
 CreateEncodedOCSPSuccessfulResponse
@@ -1739,7 +1767,7 @@ pkixocsp_VerifyEncodedResponse_successful
 good_byName
 )
 {
-InputBuffer
+Input
 response
 (
 CreateEncodedOCSPSuccessfulResponse
@@ -1789,7 +1817,7 @@ pkixocsp_VerifyEncodedResponse_successful
 good_byKey_without_nextUpdate
 )
 {
-InputBuffer
+Input
 response
 (
 CreateEncodedOCSPSuccessfulResponse
@@ -1838,7 +1866,7 @@ pkixocsp_VerifyEncodedResponse_successful
 revoked
 )
 {
-InputBuffer
+Input
 response
 (
 CreateEncodedOCSPSuccessfulResponse
@@ -1891,7 +1919,7 @@ pkixocsp_VerifyEncodedResponse_successful
 unknown
 )
 {
-InputBuffer
+Input
 response
 (
 CreateEncodedOCSPSuccessfulResponse
@@ -2197,7 +2225,7 @@ owned
 by
 the
 arena
-InputBuffer
+Input
 CreateEncodedIndirectOCSPSuccessfulResponse
 (
 const
@@ -2223,7 +2251,7 @@ optional
 out
 *
 /
-InputBuffer
+Input
 *
 signerDEROut
 =
@@ -2549,7 +2577,7 @@ pkixocsp_VerifyEncodedResponse_DelegatedResponder
 good_byKey
 )
 {
-InputBuffer
+Input
 response
 (
 CreateEncodedIndirectOCSPSuccessfulResponse
@@ -2597,7 +2625,7 @@ pkixocsp_VerifyEncodedResponse_DelegatedResponder
 good_byName
 )
 {
-InputBuffer
+Input
 response
 (
 CreateEncodedIndirectOCSPSuccessfulResponse
@@ -2664,7 +2692,7 @@ missingSignerPrivateKey
 )
 )
 ;
-InputBuffer
+Input
 response
 (
 CreateEncodedOCSPSuccessfulResponse
@@ -2731,7 +2759,7 @@ missingSignerPrivateKey
 )
 )
 ;
-InputBuffer
+Input
 response
 (
 CreateEncodedOCSPSuccessfulResponse
@@ -2893,7 +2921,7 @@ signerDER
 nullptr
 }
 ;
-InputBuffer
+Input
 response
 (
 CreateEncodedOCSPSuccessfulResponse
@@ -3048,7 +3076,7 @@ signerDER
 nullptr
 }
 ;
-InputBuffer
+Input
 response
 (
 CreateEncodedOCSPSuccessfulResponse
@@ -3102,7 +3130,7 @@ pkixocsp_VerifyEncodedResponse_DelegatedResponder
 good_no_eku
 )
 {
-InputBuffer
+Input
 response
 (
 CreateEncodedIndirectOCSPSuccessfulResponse
@@ -3154,7 +3182,7 @@ pkixocsp_VerifyEncodedResponse_DelegatedResponder
 good_indirect_wrong_eku
 )
 {
-InputBuffer
+Input
 response
 (
 CreateEncodedIndirectOCSPSuccessfulResponse
@@ -3218,7 +3246,7 @@ pkixocsp_VerifyEncodedResponse_DelegatedResponder
 good_tampered_eku
 )
 {
-InputBuffer
+Input
 response
 (
 CreateEncodedIndirectOCSPSuccessfulResponse
@@ -3310,7 +3338,7 @@ EKU_PREFIX
 SECItem
 responseSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 response
 )
@@ -3512,7 +3540,7 @@ signerDER
 nullptr
 }
 ;
-InputBuffer
+Input
 response
 (
 CreateEncodedOCSPSuccessfulResponse
@@ -3838,7 +3866,7 @@ signerDER
 nullptr
 }
 ;
-InputBuffer
+Input
 response
 (
 CreateEncodedOCSPSuccessfulResponse
@@ -4164,7 +4192,7 @@ subCADER
 nullptr
 }
 ;
-InputBuffer
+Input
 response
 (
 CreateEncodedOCSPSuccessfulResponse
@@ -4232,7 +4260,7 @@ SetUp
 (
 )
 ;
-InputBuffer
+Input
 createdResponse
 (
 CreateEncodedIndirectOCSPSuccessfulResponse
@@ -4324,7 +4352,7 @@ InheritsTrust
 bool
 SetCertTrust
 (
-InputBuffer
+Input
 certDER
 TrustLevel
 certTrustLevel
@@ -4366,7 +4394,7 @@ endEntityOrCA
 const
 CertPolicyId
 &
-InputBuffer
+Input
 candidateCert
 /
 *
@@ -4399,7 +4427,7 @@ GetLength
 ;
 EXPECT_TRUE
 (
-InputBuffersAreEqual
+InputsAreEqual
 (
 certDER
 candidateCert
@@ -4414,7 +4442,7 @@ return
 Success
 ;
 }
-InputBuffer
+Input
 certDER
 ;
 TrustLevel
@@ -4425,7 +4453,7 @@ certTrustLevel
 TrustDomain
 trustDomain
 ;
-InputBuffer
+Input
 signerCertDER
 ;
 /
@@ -4433,7 +4461,7 @@ signerCertDER
 owned
 by
 arena
-InputBuffer
+Input
 response
 ;
 /

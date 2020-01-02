@@ -965,7 +965,7 @@ NSSCertDBTrustDomain
 :
 FindIssuer
 (
-InputBuffer
+Input
 encodedIssuerName
 IssuerChecker
 &
@@ -1009,7 +1009,7 @@ issuers
 SECItem
 encodedIssuerNameSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 encodedIssuerName
 )
@@ -1061,7 +1061,7 @@ n
 )
 )
 {
-InputBuffer
+Input
 certDER
 ;
 Result
@@ -1110,7 +1110,7 @@ big
 bool
 keepGoing
 ;
-InputBuffer
+Input
 anssiSubject
 ;
 rv
@@ -1153,14 +1153,14 @@ or
 equivalent
 if
 (
-InputBuffersAreEqual
+InputsAreEqual
 (
 encodedIssuerName
 anssiSubject
 )
 )
 {
-InputBuffer
+Input
 anssiNameConstraints
 ;
 if
@@ -1255,7 +1255,7 @@ const
 CertPolicyId
 &
 policy
-InputBuffer
+Input
 candidateCertDER
 /
 *
@@ -1375,7 +1375,7 @@ it
 SECItem
 candidateCertDERSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 candidateCertDER
 )
@@ -1732,7 +1732,7 @@ const
 SignedDataWithSignature
 &
 signedData
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {
@@ -1759,7 +1759,7 @@ NSSCertDBTrustDomain
 :
 DigestBuf
 (
-InputBuffer
+Input
 item
 /
 *
@@ -1981,7 +1981,7 @@ GetOCSPAuthorityInfoAccessLocation
 PLArenaPool
 *
 arena
-InputBuffer
+Input
 aiaExtension
 /
 *
@@ -2002,7 +2002,7 @@ nullptr
 SECItem
 aiaExtensionSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 aiaExtension
 )
@@ -2337,7 +2337,7 @@ optional
 *
 /
 const
-InputBuffer
+Input
 *
 stapledOCSPResponse
 /
@@ -2346,7 +2346,7 @@ optional
 *
 /
 const
-InputBuffer
+Input
 *
 aiaExtension
 )
@@ -3597,7 +3597,7 @@ failing
 server
 )
 .
-InputBuffer
+Input
 response
 ;
 bool
@@ -4155,7 +4155,7 @@ PRTime
 time
 uint16_t
 maxLifetimeInDays
-InputBuffer
+Input
 encodedResponse
 EncodedResponseSource
 responseSource
@@ -4600,7 +4600,7 @@ NSSCertDBTrustDomain
 :
 CheckPublicKey
 (
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {

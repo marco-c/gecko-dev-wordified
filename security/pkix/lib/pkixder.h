@@ -553,7 +553,7 @@ inline
 Result
 ExpectTagAndLength
 (
-Input
+Reader
 &
 input
 uint8_t
@@ -667,7 +667,7 @@ internal
 Result
 ExpectTagAndGetLength
 (
-Input
+Reader
 &
 input
 uint8_t
@@ -686,7 +686,7 @@ inline
 Result
 ExpectTagAndSkipValue
 (
-Input
+Reader
 &
 input
 uint8_t
@@ -734,7 +734,7 @@ inline
 Result
 ExpectTagAndGetValue
 (
-Input
+Reader
 &
 input
 uint8_t
@@ -744,7 +744,7 @@ tag
 out
 *
 /
-InputBuffer
+Input
 &
 value
 )
@@ -791,7 +791,7 @@ inline
 Result
 ExpectTagAndGetValue
 (
-Input
+Reader
 &
 input
 uint8_t
@@ -801,7 +801,7 @@ tag
 out
 *
 /
-Input
+Reader
 &
 value
 )
@@ -851,7 +851,7 @@ ExpectTagAndGetValue
 except
 the
 output
-InputBuffer
+Input
 will
 contain
 the
@@ -870,7 +870,7 @@ inline
 Result
 ExpectTagAndGetTLV
 (
-Input
+Reader
 &
 input
 uint8_t
@@ -880,12 +880,12 @@ tag
 out
 *
 /
-InputBuffer
+Input
 &
 tlv
 )
 {
-Input
+Reader
 :
 :
 Mark
@@ -950,7 +950,7 @@ rv
 return
 input
 .
-GetInputBuffer
+GetInput
 (
 mark
 tlv
@@ -961,7 +961,7 @@ inline
 Result
 End
 (
-Input
+Reader
 &
 input
 )
@@ -996,7 +996,7 @@ inline
 Result
 Nested
 (
-Input
+Reader
 &
 input
 uint8_t
@@ -1005,7 +1005,7 @@ Decoder
 decoder
 )
 {
-Input
+Reader
 nested
 ;
 Result
@@ -1065,7 +1065,7 @@ inline
 Result
 Nested
 (
-Input
+Reader
 &
 input
 uint8_t
@@ -1106,7 +1106,7 @@ decoder
 )
 )
 ;
-Input
+Reader
 nestedInput
 ;
 Result
@@ -1235,7 +1235,7 @@ Foo
 Result
 Foo
 (
-Input
+Reader
 &
 input
 )
@@ -1272,7 +1272,7 @@ inline
 Result
 NestedOf
 (
-Input
+Reader
 &
 input
 uint8_t
@@ -1285,7 +1285,7 @@ Decoder
 decoder
 )
 {
-Input
+Reader
 inner
 ;
 Result
@@ -1424,7 +1424,7 @@ inline
 Result
 IntegralValue
 (
-Input
+Reader
 &
 input
 uint8_t
@@ -1556,7 +1556,7 @@ internal
 Result
 BitStringWithNoUnusedBits
 (
-Input
+Reader
 &
 input
 /
@@ -1564,7 +1564,7 @@ input
 out
 *
 /
-InputBuffer
+Input
 &
 value
 )
@@ -1573,7 +1573,7 @@ inline
 Result
 Boolean
 (
-Input
+Reader
 &
 input
 /
@@ -1723,7 +1723,7 @@ inline
 Result
 OptionalBoolean
 (
-Input
+Reader
 &
 input
 bool
@@ -1828,7 +1828,7 @@ inline
 Result
 Enumerated
 (
-Input
+Reader
 &
 input
 uint8_t
@@ -1926,7 +1926,7 @@ at
 Result
 TimeChoice
 (
-Input
+Reader
 &
 input
 uint8_t
@@ -1993,7 +1993,7 @@ inline
 Result
 GeneralizedTime
 (
-Input
+Reader
 &
 input
 /
@@ -2065,7 +2065,7 @@ inline
 Result
 TimeChoice
 (
-Input
+Reader
 &
 input
 /
@@ -2137,7 +2137,7 @@ inline
 Result
 Integer
 (
-Input
+Reader
 &
 input
 /
@@ -2226,7 +2226,7 @@ inline
 Result
 OptionalInteger
 (
-Input
+Reader
 &
 input
 long
@@ -2338,7 +2338,7 @@ inline
 Result
 Null
 (
-Input
+Reader
 &
 input
 )
@@ -2360,7 +2360,7 @@ Len
 Result
 OID
 (
-Input
+Reader
 &
 input
 const
@@ -2374,7 +2374,7 @@ Len
 ]
 )
 {
-Input
+Reader
 value
 ;
 Result
@@ -2431,7 +2431,7 @@ inline
 Result
 CertificateSerialNumber
 (
-Input
+Reader
 &
 input
 /
@@ -2439,7 +2439,7 @@ input
 out
 *
 /
-InputBuffer
+Input
 &
 value
 )
@@ -2705,7 +2705,7 @@ GetLength
 1
 )
 {
-Input
+Reader
 valueInput
 (
 value
@@ -2883,7 +2883,7 @@ inline
 Result
 OptionalVersion
 (
-Input
+Reader
 &
 input
 /
@@ -2929,7 +2929,7 @@ return
 Success
 ;
 }
-Input
+Reader
 value
 ;
 Result
@@ -3114,7 +3114,7 @@ inline
 Result
 OptionalExtensions
 (
-Input
+Reader
 &
 input
 uint8_t
@@ -3141,11 +3141,11 @@ Success
 Result
 rv
 ;
-Input
+Reader
 extensions
 ;
 {
-Input
+Reader
 tagged
 ;
 rv
@@ -3279,7 +3279,7 @@ AtEnd
 )
 )
 {
-Input
+Reader
 extension
 ;
 rv
@@ -3330,7 +3330,7 @@ STRING
 /
 /
 }
-Input
+Reader
 extnID
 ;
 rv
@@ -3378,7 +3378,7 @@ return
 rv
 ;
 }
-InputBuffer
+Input
 extnValue
 ;
 rv
@@ -3471,7 +3471,7 @@ Success
 Result
 DigestAlgorithmIdentifier
 (
-Input
+Reader
 &
 input
 /
@@ -3487,7 +3487,7 @@ algorithm
 Result
 SignatureAlgorithmIdentifier
 (
-Input
+Reader
 &
 input
 /
@@ -3623,7 +3623,7 @@ OPTIONAL
 Result
 SignedData
 (
-Input
+Reader
 &
 input
 /
@@ -3631,7 +3631,7 @@ input
 out
 *
 /
-Input
+Reader
 &
 tbs
 /

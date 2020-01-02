@@ -580,7 +580,7 @@ AppTrustDomain
 :
 FindIssuer
 (
-InputBuffer
+Input
 encodedIssuerName
 IssuerChecker
 &
@@ -700,7 +700,7 @@ Check
 SECItem
 encodedIssuerNameSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 encodedIssuerName
 )
@@ -752,7 +752,7 @@ n
 )
 )
 {
-InputBuffer
+Input
 certDER
 ;
 Result
@@ -856,7 +856,7 @@ const
 CertPolicyId
 &
 policy
-InputBuffer
+Input
 candidateCertDER
 /
 *
@@ -968,7 +968,7 @@ fashion
 SECItem
 candidateCertDERSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 candidateCertDER
 )
@@ -1202,7 +1202,7 @@ const
 SignedDataWithSignature
 &
 signedData
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {
@@ -1229,7 +1229,7 @@ AppTrustDomain
 :
 DigestBuf
 (
-InputBuffer
+Input
 item
 /
 *
@@ -1278,7 +1278,7 @@ optional
 *
 /
 const
-InputBuffer
+Input
 *
 /
 *
@@ -1286,7 +1286,7 @@ optional
 *
 /
 const
-InputBuffer
+Input
 *
 )
 {
@@ -1371,7 +1371,7 @@ AppTrustDomain
 :
 CheckPublicKey
 (
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {

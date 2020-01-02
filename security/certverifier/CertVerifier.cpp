@@ -902,7 +902,7 @@ BuildCertChainForOneKeyUsage
 TrustDomain
 &
 trustDomain
-InputBuffer
+Input
 certDER
 PRTime
 time
@@ -919,7 +919,7 @@ CertPolicyId
 &
 requiredPolicy
 const
-InputBuffer
+Input
 *
 stapledOCSPResponse
 )
@@ -1164,7 +1164,7 @@ SECFailure
 Result
 rv
 ;
-InputBuffer
+Input
 certDER
 ;
 rv
@@ -1277,11 +1277,11 @@ ocsp_get_enabled
 :
 ocsp_get_disabled
 ;
-InputBuffer
-stapledOCSPResponseInputBuffer
+Input
+stapledOCSPResponseInput
 ;
 const
-InputBuffer
+Input
 *
 stapledOCSPResponse
 =
@@ -1294,7 +1294,7 @@ stapledOCSPResponseSECItem
 {
 rv
 =
-stapledOCSPResponseInputBuffer
+stapledOCSPResponseInput
 .
 Init
 (
@@ -1339,7 +1339,7 @@ SECFailure
 stapledOCSPResponse
 =
 &
-stapledOCSPResponseInputBuffer
+stapledOCSPResponseInput
 ;
 }
 switch

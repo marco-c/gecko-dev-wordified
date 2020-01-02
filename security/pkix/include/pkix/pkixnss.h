@@ -316,7 +316,7 @@ const
 SignedDataWithSignature
 &
 sd
-InputBuffer
+Input
 subjectPublicKeyInfo
 void
 *
@@ -458,7 +458,7 @@ interface
 Result
 DigestBuf
 (
-InputBuffer
+Input
 item
 /
 *
@@ -493,7 +493,7 @@ bits
 Result
 CheckPublicKey
 (
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 ;
@@ -697,9 +697,9 @@ RegisterErrorTable
 ;
 inline
 SECItem
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
-InputBuffer
+Input
 ib
 )
 {

@@ -308,7 +308,7 @@ inline
 Result
 ExpectTagAndGetLength
 (
-Input
+Reader
 &
 input
 uint8_t
@@ -645,7 +645,7 @@ static
 Result
 OptionalNull
 (
-Input
+Reader
 &
 input
 )
@@ -676,7 +676,7 @@ namespace
 Result
 DigestAlgorithmOIDValue
 (
-Input
+Reader
 &
 algorithmID
 /
@@ -984,7 +984,7 @@ Success
 Result
 SignatureAlgorithmOIDValue
 (
-Input
+Reader
 &
 algorithmID
 /
@@ -1874,7 +1874,7 @@ AlgorithmIdentifier
 (
 OidValueParser
 oidValueParser
-Input
+Reader
 &
 input
 /
@@ -1887,7 +1887,7 @@ Algorithm
 algorithm
 )
 {
-Input
+Reader
 value
 ;
 Result
@@ -1912,7 +1912,7 @@ return
 rv
 ;
 }
-Input
+Reader
 algorithmID
 ;
 rv
@@ -1993,7 +1993,7 @@ namespace
 Result
 SignatureAlgorithmIdentifier
 (
-Input
+Reader
 &
 input
 /
@@ -2018,7 +2018,7 @@ algorithm
 Result
 DigestAlgorithmIdentifier
 (
-Input
+Reader
 &
 input
 /
@@ -2043,7 +2043,7 @@ algorithm
 Result
 SignedData
 (
-Input
+Reader
 &
 input
 /
@@ -2051,7 +2051,7 @@ input
 out
 *
 /
-Input
+Reader
 &
 tbs
 /
@@ -2064,7 +2064,7 @@ SignedDataWithSignature
 signedData
 )
 {
-Input
+Reader
 :
 :
 Mark
@@ -2105,7 +2105,7 @@ rv
 =
 input
 .
-GetInputBuffer
+GetInput
 (
 mark
 signedData
@@ -2183,7 +2183,7 @@ rv
 Result
 BitStringWithNoUnusedBits
 (
-Input
+Reader
 &
 input
 /
@@ -2191,12 +2191,12 @@ input
 out
 *
 /
-InputBuffer
+Input
 &
 value
 )
 {
-Input
+Reader
 valueWithUnusedBits
 ;
 Result
@@ -2357,7 +2357,7 @@ Result
 ERROR_BAD_DER
 ;
 }
-Input
+Reader
 :
 :
 Mark
@@ -2379,7 +2379,7 @@ SkipToEnd
 return
 valueWithUnusedBits
 .
-GetInputBuffer
+GetInput
 (
 mark
 value
@@ -2391,7 +2391,7 @@ inline
 Result
 ReadDigit
 (
-Input
+Reader
 &
 input
 /
@@ -2467,7 +2467,7 @@ inline
 Result
 ReadTwoDigits
 (
-Input
+Reader
 &
 input
 int
@@ -2716,7 +2716,7 @@ accepted
 Result
 TimeChoice
 (
-Input
+Reader
 &
 tagged
 uint8_t
@@ -2734,7 +2734,7 @@ time
 int
 days
 ;
-Input
+Reader
 input
 ;
 Result
