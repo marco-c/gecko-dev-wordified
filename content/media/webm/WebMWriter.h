@@ -284,6 +284,12 @@ uint32_t
 aTrackTypes
 )
 ;
+virtual
+~
+WebMWriter
+(
+)
+;
 /
 /
 WriteEncodedTrack

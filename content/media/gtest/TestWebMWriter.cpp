@@ -936,11 +936,6 @@ Clear
 (
 )
 ;
-uint64_t
-timestamp
-=
-0
-;
 /
 /
 write
@@ -1183,11 +1178,6 @@ displayWidth
 displayHeight
 aTrackRate
 )
-;
-uint64_t
-timestamp
-=
-0
 ;
 /
 /
