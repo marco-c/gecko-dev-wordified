@@ -1324,6 +1324,9 @@ above
 *
 /
 static
+mozilla
+:
+:
 StaticRefPtr
 <
 nsIXPCScriptable
