@@ -438,10 +438,6 @@ test_time
 self
 .
 elapsedtime
-.
-total_seconds
-(
-)
         
 test_logs
 =
