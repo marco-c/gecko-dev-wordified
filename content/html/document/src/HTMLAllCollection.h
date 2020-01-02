@@ -151,6 +151,9 @@ nsISupportsImpl
 h
 "
 class
+nsContentList
+;
+class
 nsHTMLDocument
 ;
 namespace
@@ -199,6 +202,12 @@ ErrorResult
 aRv
 )
 ;
+nsContentList
+*
+Collection
+(
+)
+;
 private
 :
 JS
@@ -216,6 +225,12 @@ nsRefPtr
 nsHTMLDocument
 >
 mDocument
+;
+nsRefPtr
+<
+nsContentList
+>
+mCollection
 ;
 }
 ;
