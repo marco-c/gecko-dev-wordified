@@ -1137,7 +1137,11 @@ ReadAirplaneModeSettingTask
 ;
 friend
 class
-SetFrequencyRunnable
+EnableRunnable
+;
+friend
+class
+DisableRunnable
 ;
 public
 :
@@ -1388,6 +1392,12 @@ mChannelWidthInKHz
 ;
 uint32_t
 mPreemphasis
+;
+nsCOMPtr
+<
+nsIThread
+>
+mTuneThread
 ;
 nsRefPtr
 <
