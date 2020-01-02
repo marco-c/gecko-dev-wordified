@@ -883,6 +883,17 @@ return
 mDontRouteViaWildCard
 ;
 }
+void
+EnableKeepAlive
+(
+)
+{
+mCaps
+|
+=
+NS_HTTP_ALLOW_KEEPALIVE
+;
+}
 /
 /
 SetPriority

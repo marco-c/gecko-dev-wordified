@@ -165,6 +165,7 @@ net
 NS_IMPL_ISUPPORTS
 (
 NullHttpTransaction
+NullHttpTransaction
 nsISupportsWeakReference
 )
 NullHttpTransaction

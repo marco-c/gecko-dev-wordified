@@ -16409,6 +16409,13 @@ has
 DontRouteViaWildCard
 set
 .
+trans
+-
+>
+EnableKeepAlive
+(
+)
+;
 gHttpHandler
 -
 >
