@@ -210,7 +210,7 @@ set
 key
 v
 )
-undefined
+m
 )
 ;
 assertEq

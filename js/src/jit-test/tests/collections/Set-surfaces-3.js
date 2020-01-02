@@ -51,7 +51,7 @@ s
 add
 (
 )
-undefined
+s
 )
 ;
 assertEq
