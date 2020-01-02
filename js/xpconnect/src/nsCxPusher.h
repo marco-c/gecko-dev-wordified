@@ -255,6 +255,7 @@ bool
 IsStackTop
 (
 )
+const
 ;
 private
 :
