@@ -269,6 +269,13 @@ android
 .
 widget
 .
+AutoCompleteTextView
+;
+import
+android
+.
+widget
+.
 Button
 ;
 import
@@ -390,7 +397,7 @@ fxaccount_sign_in
 emailEdit
 =
 (
-EditText
+AutoCompleteTextView
 )
 ensureFindViewById
 (
