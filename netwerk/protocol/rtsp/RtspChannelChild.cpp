@@ -330,6 +330,10 @@ SetURI
 aUri
 )
 ;
+DisallowThreadRetargeting
+(
+)
+;
 }
 RtspChannelChild
 :
