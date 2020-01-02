@@ -9242,14 +9242,12 @@ parent
 s
 child
 list
-#
-ifdef
-DEBUG
+DebugOnly
+<
 nsresult
+>
 rv
 =
-#
-endif
 StealFrame
 (
 aPresContext
