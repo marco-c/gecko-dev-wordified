@@ -5979,6 +5979,11 @@ nsGlobalWindow
 )
 ;
 void
+ClearDelayedEventsAndDropDocument
+(
+)
+;
+void
 CleanUp
 (
 )
