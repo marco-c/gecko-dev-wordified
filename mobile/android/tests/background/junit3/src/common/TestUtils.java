@@ -937,7 +937,7 @@ getAbsolutePath
 }
 public
 void
-testDeleteDirectory
+testDeleteDirectoryRecursively
 (
 )
 throws

@@ -2685,8 +2685,7 @@ this
 }
 /
 /
-Forensics
-only
+Authoritative
 .
 public
 Editor
@@ -2848,8 +2847,7 @@ this
 }
 /
 /
-Forensics
-only
+Authoritative
 .
 public
 long
