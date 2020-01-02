@@ -712,6 +712,10 @@ surface
 ;
 if
 (
+!
+mForPrinting
+&
+&
 GetContentType
 (
 )
