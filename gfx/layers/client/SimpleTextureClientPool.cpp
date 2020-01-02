@@ -530,6 +530,7 @@ mFormat
 TEXTURE_FLAGS_DEFAULT
 |
 TEXTURE_RECYCLE
+mSize
 )
 ;
 }

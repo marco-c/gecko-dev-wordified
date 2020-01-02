@@ -1126,6 +1126,7 @@ mTextureInfo
 mTextureFlags
 |
 aFlags
+mSize
 )
 ;
 if
@@ -1168,6 +1169,7 @@ mTextureFlags
 TEXTURE_ALLOC_FALLBACK
 |
 aFlags
+mSize
 )
 ;
 if

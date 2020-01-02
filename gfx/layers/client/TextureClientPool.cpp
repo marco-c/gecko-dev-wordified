@@ -350,6 +350,7 @@ CreateTextureClientForDrawing
 mSurfaceAllocator
 mFormat
 TEXTURE_IMMEDIATE_UPLOAD
+mSize
 )
 ;
 }

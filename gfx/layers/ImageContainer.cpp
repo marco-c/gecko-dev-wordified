@@ -3535,6 +3535,12 @@ GetFormat
 (
 )
 TEXTURE_FLAGS_DEFAULT
+surface
+-
+>
+GetSize
+(
+)
 )
 ;
 MOZ_ASSERT

@@ -1029,6 +1029,10 @@ SurfaceFormat
 aFormat
 TextureFlags
 aTextureFlags
+const
+IntSize
+&
+aSizeHint
 )
 {
 return
@@ -1044,6 +1048,7 @@ aFormat
 aTextureFlags
 |
 mTextureFlags
+aSizeHint
 )
 ;
 }
