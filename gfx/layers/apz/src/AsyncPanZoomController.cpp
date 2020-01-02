@@ -20740,7 +20740,9 @@ isRoot
 =
 mFrameMetrics
 .
-mIsRoot
+GetIsRoot
+(
+)
 ;
 scrollableSize
 =
