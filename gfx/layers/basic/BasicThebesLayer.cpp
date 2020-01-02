@@ -733,15 +733,11 @@ if
 needsGroup
 )
 {
-BasicManager
-(
-)
+aContext
 -
 >
-PopGroupToSourceWithCachedSurface
+PopGroupToSource
 (
-aContext
-groupContext
 )
 ;
 if
