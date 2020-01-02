@@ -791,15 +791,14 @@ position
 }
 Override
 public
-String
+Object
 getValue
 (
 )
 {
 return
+new
 Integer
-.
-toString
 (
 mSelected
 )
