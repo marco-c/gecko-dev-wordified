@@ -1224,7 +1224,7 @@ IsCompiled
 )
 &
 &
-GetCompiledMethod
+GetCompiledMethodPreserveColor
 (
 )
 )
@@ -1352,7 +1352,7 @@ IsCompiled
 ;
 if
 (
-GetCompiledMethod
+GetCompiledMethodPreserveColor
 (
 )
 )
@@ -2092,7 +2092,7 @@ IsCompiled
 ;
 if
 (
-GetCompiledMethod
+GetCompiledMethodPreserveColor
 (
 )
 )
