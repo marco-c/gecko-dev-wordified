@@ -1313,16 +1313,6 @@ args
 DataConnection
 observers
 void
-NotifyConnection
-(
-)
-;
-void
-NotifyClosedConnection
-(
-)
-;
-void
 NotifyDataChannel
 (
 already_AddRefed
