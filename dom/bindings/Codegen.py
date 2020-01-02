@@ -1655,7 +1655,9 @@ trace
 *
 /
     
-JSCLASS_NO_INTERNAL_MEMBERS
+JS_NULL_CLASS_EXT
+    
+JS_NULL_OBJECT_OPS
   
 }
 %
@@ -8611,7 +8613,7 @@ finalizeHook
 (
 descriptor
 hookName
-context
+freeOp
 )
 :
     
@@ -8630,15 +8632,18 @@ self
 %
 s
 (
+CastToJSFreeOp
+(
 %
 s
+)
 )
 ;
 "
 %
 (
 hookName
-context
+freeOp
 )
     
 else
@@ -8747,13 +8752,19 @@ dom
 :
 FinalizeGlobal
 (
-fop
+CastToJSFreeOp
+(
+%
+s
+)
 obj
 )
 ;
 \
 n
 "
+%
+freeOp
         
 finalize
 +
@@ -8837,7 +8848,10 @@ args
 Argument
 (
 '
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 '
 '
@@ -17972,10 +17986,11 @@ obj
 JS_NewObject
 (
 aCx
-&
 Class
 .
-mBase
+ToJSClass
+(
+)
 proto
 %
 s
@@ -19954,10 +19969,11 @@ aObject
                                          
 aCache
                                          
-&
 Class
 .
-mBase
+ToJSClass
+(
+)
                                          
 aOptions
                                          
