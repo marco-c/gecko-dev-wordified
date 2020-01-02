@@ -244,7 +244,7 @@ js
 cache
 '
 )
-ECMA6_DIR
+JS_TESTS_DIR
 =
 posixpath
 .
@@ -253,9 +253,6 @@ join
 JS_DIR
 '
 tests
-'
-'
-ecma_6
 '
 )
 #
@@ -5443,11 +5440,30 @@ Test
 CacheDir
 )
     
+for
+path
+in
+os
+.
+listdir
+(
+JS_TESTS_DIR
+)
+:
+        
 dm
 .
 pushDir
 (
-ECMA6_DIR
+os
+.
+path
+.
+join
+(
+JS_TESTS_DIR
+path
+)
 posixpath
 .
 join
@@ -5456,13 +5472,8 @@ jit_tests_dir
 '
 tests
 '
-'
-ecma_6
-'
+path
 )
-timeout
-=
-600
 )
     
 dm
