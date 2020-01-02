@@ -1566,14 +1566,14 @@ dm
 .
 killProcess
 (
-"
+'
 /
 system
 /
 b2g
 /
 b2g
-"
+'
 sig
 =
 signal
