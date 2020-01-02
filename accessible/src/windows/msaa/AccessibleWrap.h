@@ -1368,8 +1368,11 @@ caret
 *
 /
 void
-UpdateSystemCaret
+UpdateSystemCaretFor
 (
+Accessible
+*
+aAccessible
 )
 ;
 /
