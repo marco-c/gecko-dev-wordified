@@ -1859,6 +1859,9 @@ wrapSdp
 (
 sdp
 )
+this
+.
+assertion
 )
 ;
 }
