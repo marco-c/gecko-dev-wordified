@@ -510,6 +510,11 @@ MOZ_ASSERT
 sBluetoothService
 )
 ;
+if
+(
+sBluetoothService
+)
+{
 sBluetoothService
 -
 >
@@ -518,6 +523,7 @@ DistributeSignal
 aSignal
 )
 ;
+}
 return
 true
 ;
@@ -539,6 +545,11 @@ MOZ_ASSERT
 sBluetoothService
 )
 ;
+if
+(
+sBluetoothService
+)
+{
 sBluetoothService
 -
 >
@@ -547,6 +558,7 @@ SetEnabled
 aEnabled
 )
 ;
+}
 return
 true
 ;
