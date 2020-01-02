@@ -1723,6 +1723,14 @@ slotsStart
 slotsEnd
 )
 ;
+JSRuntime
+*
+rt
+=
+runtimeFromAnyThread
+(
+)
+;
 uint32_t
 offset
 =
@@ -1749,6 +1757,7 @@ sp
 >
 init
 (
+rt
 this
 -
 >
@@ -1788,6 +1797,7 @@ sp
 >
 init
 (
+rt
 this
 -
 >
@@ -1826,6 +1836,14 @@ uint32_t
 length
 )
 {
+JSRuntime
+*
+rt
+=
+runtimeFromAnyThread
+(
+)
+;
 HeapSlot
 *
 fixedStart
@@ -1871,6 +1889,7 @@ sp
 >
 init
 (
+rt
 this
 -
 >
@@ -1911,6 +1930,7 @@ sp
 >
 init
 (
+rt
 this
 -
 >
