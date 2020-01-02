@@ -114,14 +114,14 @@ MPL
 #
 include
 "
-TextComposition
+ContentEventHandler
 .
 h
 "
 #
 include
 "
-nsContentEventHandler
+TextComposition
 .
 h
 "
@@ -1500,7 +1500,7 @@ NS_QUERY_SELECTED_TEXT
 mWidget
 )
 ;
-nsContentEventHandler
+ContentEventHandler
 handler
 (
 mPresContext

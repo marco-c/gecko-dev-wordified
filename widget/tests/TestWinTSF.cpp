@@ -10212,7 +10212,7 @@ NS_QUERY_SELECTED_TEXT
 not
 handled
 by
-nsContentEventHandler
+ContentEventHandler
 *
 Bug
 in
@@ -10231,7 +10231,7 @@ NS_SELECTION_SET
 not
 handled
 by
-nsContentEventHandler
+ContentEventHandler
 *
 Bug
 in
@@ -10538,7 +10538,7 @@ NS_QUERY_TEXT_CONTENT
 not
 handled
 by
-nsContentEventHandler
+ContentEventHandler
 *
 Bug
 in

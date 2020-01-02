@@ -114,6 +114,13 @@ MPL
 #
 include
 "
+ContentEventHandler
+.
+h
+"
+#
+include
+"
 IMEContentObserver
 .
 h
@@ -149,13 +156,6 @@ h
 include
 "
 nsAsyncDOMEvent
-.
-h
-"
-#
-include
-"
-nsContentEventHandler
 .
 h
 "
@@ -1874,7 +1874,7 @@ notification
 nsresult
 rv
 =
-nsContentEventHandler
+ContentEventHandler
 :
 :
 GetFlatTextOffsetOfRange
@@ -1982,7 +1982,7 @@ offset
 nsresult
 rv
 =
-nsContentEventHandler
+ContentEventHandler
 :
 :
 GetFlatTextOffsetOfRange
@@ -2030,7 +2030,7 @@ addingLength
 ;
 rv
 =
-nsContentEventHandler
+ContentEventHandler
 :
 :
 GetFlatTextOffsetOfRange
@@ -2193,7 +2193,7 @@ offset
 nsresult
 rv
 =
-nsContentEventHandler
+ContentEventHandler
 :
 :
 GetFlatTextOffsetOfRange
@@ -2296,7 +2296,7 @@ textLength
 ;
 rv
 =
-nsContentEventHandler
+ContentEventHandler
 :
 :
 GetFlatTextOffsetOfRange
@@ -2440,7 +2440,7 @@ mPreAttrChangeLength
 =
 content
 ?
-nsContentEventHandler
+ContentEventHandler
 :
 :
 GetNativeTextLength
@@ -2519,7 +2519,7 @@ return
 uint32_t
 postAttrChangeLength
 =
-nsContentEventHandler
+ContentEventHandler
 :
 :
 GetNativeTextLength
@@ -2544,7 +2544,7 @@ start
 nsresult
 rv
 =
-nsContentEventHandler
+ContentEventHandler
 :
 :
 GetFlatTextOffsetOfRange
