@@ -1730,9 +1730,10 @@ nsresult
 uint32_t
 )
 (
-JSVAL_TO_DOUBLE
-(
 jsexception
+.
+toDouble
+(
 )
 )
 ;

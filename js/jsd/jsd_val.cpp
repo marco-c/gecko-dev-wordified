@@ -934,12 +934,13 @@ return
 0
 ;
 return
-JSVAL_TO_DOUBLE
-(
 jsdval
 -
 >
 val
+.
+toDouble
+(
 )
 ;
 }
