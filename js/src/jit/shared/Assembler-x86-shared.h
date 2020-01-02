@@ -1929,9 +1929,7 @@ f
 void
 movl
 (
-const
 Imm32
-&
 imm32
 Register
 dest
@@ -2279,9 +2277,7 @@ kind
 void
 movl
 (
-const
 Imm32
-&
 imm32
 const
 Operand
@@ -3481,9 +3477,7 @@ kind
 void
 movb
 (
-const
 Imm32
-&
 src
 const
 Operand
@@ -3832,9 +3826,7 @@ kind
 void
 movw
 (
-const
 Imm32
-&
 src
 const
 Operand

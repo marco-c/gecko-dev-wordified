@@ -13257,9 +13257,7 @@ MacroAssemblerARMCompat
 :
 move32
 (
-const
 Imm32
-&
 imm
 Register
 dest
@@ -14797,9 +14795,7 @@ MacroAssemblerARMCompat
 :
 store8
 (
-const
 Imm32
-&
 imm
 const
 Address
@@ -14858,9 +14854,7 @@ MacroAssemblerARMCompat
 :
 store8
 (
-const
 Imm32
-&
 imm
 const
 BaseIndex
@@ -14968,9 +14962,7 @@ MacroAssemblerARMCompat
 :
 store16
 (
-const
 Imm32
-&
 imm
 const
 Address
@@ -15029,9 +15021,7 @@ MacroAssemblerARMCompat
 :
 store16
 (
-const
 Imm32
-&
 imm
 const
 BaseIndex
@@ -15207,9 +15197,7 @@ MacroAssemblerARMCompat
 :
 store32
 (
-const
 Imm32
-&
 src
 const
 Address
@@ -15236,9 +15224,7 @@ MacroAssemblerARMCompat
 :
 store32
 (
-const
 Imm32
-&
 imm
 const
 BaseIndex
@@ -15984,9 +15970,7 @@ cmp32
 (
 Register
 lhs
-const
 Imm32
-&
 rhs
 )
 {
@@ -16040,9 +16024,7 @@ const
 Operand
 &
 lhs
-const
 Imm32
-&
 rhs
 )
 {
@@ -16200,9 +16182,7 @@ cmpPtr
 (
 Register
 lhs
-const
 Imm32
-&
 rhs
 )
 {

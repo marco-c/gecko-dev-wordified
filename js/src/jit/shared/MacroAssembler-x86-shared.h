@@ -579,9 +579,7 @@ label
 void
 move32
 (
-const
 Imm32
-&
 imm
 Register
 dest
@@ -637,9 +635,7 @@ dest
 void
 move32
 (
-const
 Imm32
-&
 imm
 const
 Operand
@@ -691,9 +687,7 @@ dest
 void
 and32
 (
-const
 Imm32
-&
 imm
 Register
 dest
@@ -709,9 +703,7 @@ dest
 void
 and32
 (
-const
 Imm32
-&
 imm
 const
 Address
@@ -748,9 +740,7 @@ dest
 void
 or32
 (
-const
 Imm32
-&
 imm
 Register
 dest
@@ -766,9 +756,7 @@ dest
 void
 or32
 (
-const
 Imm32
-&
 imm
 const
 Address
@@ -841,9 +829,7 @@ test32
 (
 Register
 lhs
-const
 Imm32
-&
 rhs
 )
 {
@@ -859,9 +845,7 @@ cmp32
 (
 Register
 lhs
-const
 Imm32
-&
 rhs
 )
 {
@@ -895,9 +879,7 @@ const
 Operand
 &
 lhs
-const
 Imm32
-&
 rhs
 )
 {

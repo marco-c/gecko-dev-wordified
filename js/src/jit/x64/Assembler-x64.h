@@ -4190,9 +4190,7 @@ dest
 void
 mov
 (
-const
 Imm32
-&
 imm32
 const
 Operand

@@ -4425,9 +4425,7 @@ MacroAssemblerMIPS
 :
 ma_store
 (
-const
 Imm32
-&
 imm
 const
 BaseIndex
@@ -9588,9 +9586,7 @@ MacroAssemblerMIPSCompat
 :
 move32
 (
-const
 Imm32
-&
 imm
 Register
 dest
@@ -10329,9 +10325,7 @@ MacroAssemblerMIPSCompat
 :
 store8
 (
-const
 Imm32
-&
 imm
 const
 Address
@@ -10381,9 +10375,7 @@ MacroAssemblerMIPSCompat
 :
 store8
 (
-const
 Imm32
-&
 imm
 const
 BaseIndex
@@ -10427,9 +10419,7 @@ MacroAssemblerMIPSCompat
 :
 store16
 (
-const
 Imm32
-&
 imm
 const
 Address
@@ -10479,9 +10469,7 @@ MacroAssemblerMIPSCompat
 :
 store16
 (
-const
 Imm32
-&
 imm
 const
 BaseIndex
@@ -10567,9 +10555,7 @@ MacroAssemblerMIPSCompat
 :
 store32
 (
-const
 Imm32
-&
 src
 const
 Address
@@ -10596,9 +10582,7 @@ MacroAssemblerMIPSCompat
 :
 store32
 (
-const
 Imm32
-&
 imm
 const
 BaseIndex

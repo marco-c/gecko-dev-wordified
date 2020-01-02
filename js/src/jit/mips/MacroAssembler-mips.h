@@ -999,9 +999,7 @@ SignExtend
 void
 ma_store
 (
-const
 Imm32
-&
 imm
 const
 BaseIndex
@@ -7196,9 +7194,7 @@ reg
 void
 move32
 (
-const
 Imm32
-&
 imm
 Register
 dest
@@ -7550,9 +7546,7 @@ address
 void
 store8
 (
-const
 Imm32
-&
 imm
 const
 Address
@@ -7574,9 +7568,7 @@ address
 void
 store8
 (
-const
 Imm32
-&
 imm
 const
 BaseIndex
@@ -7598,9 +7590,7 @@ address
 void
 store16
 (
-const
 Imm32
-&
 imm
 const
 Address
@@ -7622,9 +7612,7 @@ address
 void
 store16
 (
-const
 Imm32
-&
 imm
 const
 BaseIndex
@@ -7668,9 +7656,7 @@ address
 void
 store32
 (
-const
 Imm32
-&
 src
 const
 Address
@@ -7681,9 +7667,7 @@ address
 void
 store32
 (
-const
 Imm32
-&
 src
 const
 BaseIndex
