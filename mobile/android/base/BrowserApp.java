@@ -7783,6 +7783,15 @@ tabs
 getTabIdForUrl
 (
 url
+tabs
+.
+getSelectedTab
+(
+)
+.
+isPrivate
+(
+)
 )
 ;
 if
