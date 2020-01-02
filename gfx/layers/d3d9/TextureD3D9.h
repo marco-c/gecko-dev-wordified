@@ -961,6 +961,11 @@ aID
 )
 const
 ;
+void
+Reset
+(
+)
+;
 RefPtr
 <
 CompositorD3D9
