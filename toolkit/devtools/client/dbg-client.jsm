@@ -11065,9 +11065,14 @@ a
 page
 reload
 .
+let
+bpClient
+;
 if
 (
-aOnResponse
+aResponse
+.
+actor
 )
 {
 let
@@ -11079,7 +11084,6 @@ client
 .
 mainRoot
 ;
-let
 bpClient
 =
 new
@@ -11103,6 +11107,12 @@ condition
 undefined
 )
 ;
+}
+if
+(
+aOnResponse
+)
+{
 aOnResponse
 (
 aResponse
