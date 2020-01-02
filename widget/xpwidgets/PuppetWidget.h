@@ -1041,6 +1041,10 @@ aFocus
 nsresult
 NotifyIMEOfSelectionChange
 (
+const
+IMENotification
+&
+aIMENotification
 )
 ;
 nsresult
