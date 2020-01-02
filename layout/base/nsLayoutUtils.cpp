@@ -16375,8 +16375,6 @@ metrics
 .
 mCompositionBounds
 =
-RoundedToInt
-(
 LayoutDeviceRect
 :
 :
@@ -16403,7 +16401,6 @@ AppUnitsPerDevPixel
 cumulativeResolution
 /
 resolution
-)
 )
 ;
 /
@@ -42020,15 +42017,12 @@ ViewAs
 LayerPixel
 >
 (
-ParentLayerSize
-(
 aMetrics
 .
 mCompositionBounds
 .
 Size
 (
-)
 )
 PixelCastJustification
 :

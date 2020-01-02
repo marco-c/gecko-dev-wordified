@@ -3688,12 +3688,9 @@ GetFrameMetrics
 LayerRect
 layerBounds
 =
-ParentLayerRect
-(
 frame
 .
 mCompositionBounds
-)
 *
 ParentLayerToLayerScale
 (

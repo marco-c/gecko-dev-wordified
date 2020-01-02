@@ -1121,7 +1121,7 @@ fm
 .
 mCompositionBounds
 =
-ParentLayerIntRect
+ParentLayerRect
 (
 0
 0
@@ -2780,7 +2780,7 @@ fm
 .
 mCompositionBounds
 =
-ParentLayerIntRect
+ParentLayerRect
 (
 200
 200
@@ -4119,7 +4119,7 @@ fm
 .
 mCompositionBounds
 =
-ParentLayerIntRect
+ParentLayerRect
 (
 0
 0
@@ -4819,7 +4819,7 @@ metrics
 .
 mCompositionBounds
 =
-ParentLayerIntRect
+ParentLayerRect
 (
 0
 0
@@ -9309,7 +9309,7 @@ metrics
 .
 mCompositionBounds
 =
-ParentLayerIntRect
+ParentLayerRect
 (
 layerBound
 .

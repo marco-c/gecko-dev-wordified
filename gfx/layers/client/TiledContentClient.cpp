@@ -6811,8 +6811,6 @@ transform
 Inverse
 (
 )
-ParentLayerRect
-(
 aScrollAncestor
 -
 >
@@ -6821,7 +6819,6 @@ GetFrameMetrics
 )
 .
 mCompositionBounds
-)
 )
 ;
 }

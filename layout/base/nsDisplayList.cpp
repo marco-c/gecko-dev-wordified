@@ -5035,8 +5035,6 @@ metrics
 .
 mCompositionBounds
 =
-RoundedToInt
-(
 LayoutDeviceRect
 :
 :
@@ -5047,7 +5045,6 @@ auPerDevPixel
 )
 *
 layoutToParentLayerScale
-)
 ;
 /
 /
@@ -5253,11 +5250,9 @@ GetOffsetToCrossDoc
 aReferenceFrame
 )
 ;
-ParentLayerIntRect
+ParentLayerRect
 viewBounds
 =
-RoundedToInt
-(
 LayoutDeviceRect
 :
 :
@@ -5268,7 +5263,6 @@ auPerDevPixel
 )
 *
 layoutToParentLayerScale
-)
 ;
 /
 /
@@ -5454,12 +5448,15 @@ metrics
 .
 mCompositionBounds
 =
+ParentLayerRect
+(
 ViewAs
 <
 ParentLayerPixel
 >
 (
 widgetBounds
+)
 )
 ;
 #
@@ -5561,11 +5558,9 @@ pixels
 for
 them
 .
-ParentLayerIntMargin
+ParentLayerMargin
 boundMargins
 =
-RoundedToInt
-(
 CSSMargin
 :
 :
@@ -5579,7 +5574,6 @@ CSSToParentLayerScale
 1
 .
 0f
-)
 )
 ;
 metrics

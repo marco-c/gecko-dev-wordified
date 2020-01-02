@@ -1522,11 +1522,7 @@ baseCSS
 =
 aMetrics
 .
-mCompositionBounds
-/
-aMetrics
-.
-GetZoomToParent
+CalculateCompositedRectInCssPixels
 (
 )
 ;
@@ -1839,11 +1835,7 @@ baseCSS
 =
 aMetrics
 .
-mCompositionBounds
-/
-aMetrics
-.
-GetZoomToParent
+CalculateCompositedRectInCssPixels
 (
 )
 ;
