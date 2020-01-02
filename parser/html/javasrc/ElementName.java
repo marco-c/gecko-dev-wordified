@@ -2479,13 +2479,13 @@ RUBY_OR_SPAN_OR_SUB_OR_SUP_OR_VAR
 case
 TreeBuilder
 .
-RB_OR_RP_OR_RTC
+RB_OR_RTC
 :
 /
 /
 return
 "
-RB_OR_RP_OR_RTC
+RB_OR_RTC
 "
 ;
 /
@@ -2493,13 +2493,13 @@ RB_OR_RP_OR_RTC
 case
 TreeBuilder
 .
-RT
+RT_OR_RP
 :
 /
 /
 return
 "
-RT
+RT_OR_RP
 "
 ;
 /
@@ -3777,7 +3777,7 @@ rb
 "
 TreeBuilder
 .
-RB_OR_RP_OR_RTC
+RB_OR_RTC
 |
 OPTIONAL_END_TAG
 )
@@ -3799,7 +3799,7 @@ rp
 "
 TreeBuilder
 .
-RB_OR_RP_OR_RTC
+RT_OR_RP
 |
 OPTIONAL_END_TAG
 )
@@ -3821,7 +3821,7 @@ rt
 "
 TreeBuilder
 .
-RT
+RT_OR_RP
 |
 OPTIONAL_END_TAG
 )
@@ -4615,7 +4615,7 @@ rtc
 "
 TreeBuilder
 .
-RB_OR_RP_OR_RTC
+RB_OR_RTC
 |
 OPTIONAL_END_TAG
 )

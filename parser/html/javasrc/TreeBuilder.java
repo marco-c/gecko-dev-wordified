@@ -952,7 +952,7 @@ RUBY_OR_SPAN_OR_SUB_OR_SUP_OR_VAR
 final
 static
 int
-RB_OR_RP_OR_RTC
+RB_OR_RTC
 =
 53
 ;
@@ -1057,7 +1057,7 @@ IMG
 final
 static
 int
-RT
+RT_OR_RP
 =
 69
 ;
@@ -13351,7 +13351,7 @@ break
 starttagloop
 ;
 case
-RB_OR_RP_OR_RTC
+RB_OR_RTC
 :
 eltPos
 =
@@ -13422,7 +13422,7 @@ break
 starttagloop
 ;
 case
-RT
+RT_OR_RP
 :
 eltPos
 =
@@ -18472,10 +18472,10 @@ case
 P
 :
 case
-RB_OR_RP_OR_RTC
+RB_OR_RTC
 :
 case
-RT
+RT_OR_RP
 :
 case
 TD_OR_TH
@@ -18582,10 +18582,10 @@ case
 P
 :
 case
-RB_OR_RP_OR_RTC
+RB_OR_RTC
 :
 case
-RT
+RT_OR_RP
 :
 case
 TBODY_OR_THEAD_OR_TFOOT
@@ -21705,10 +21705,10 @@ case
 OPTGROUP
 :
 case
-RB_OR_RP_OR_RTC
+RB_OR_RTC
 :
 case
-RT
+RT_OR_RP
 :
 if
 (
@@ -21800,10 +21800,10 @@ case
 OPTGROUP
 :
 case
-RB_OR_RP_OR_RTC
+RB_OR_RTC
 :
 case
-RT
+RT_OR_RP
 :
 pop
 (
