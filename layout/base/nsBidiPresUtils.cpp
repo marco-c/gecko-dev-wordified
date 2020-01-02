@@ -5372,13 +5372,6 @@ contentOffset
 fragmentLength
 )
 ;
-currentLine
--
->
-MarkDirty
-(
-)
-;
 }
 }
 /
