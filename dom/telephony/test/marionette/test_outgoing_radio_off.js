@@ -290,7 +290,7 @@ RadioNotAvailable
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm
