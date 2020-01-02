@@ -105,15 +105,6 @@ mozilla
 .
 gecko
 .
-R
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 home
 .
 HomeConfig

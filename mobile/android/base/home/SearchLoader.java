@@ -165,13 +165,6 @@ content
 .
 Loader
 ;
-import
-android
-.
-text
-.
-TextUtils
-;
 /
 *
 *
