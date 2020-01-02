@@ -4851,6 +4851,16 @@ ownerDocument
 .
 defaultView
 ;
+if
+(
+window
+.
+closed
+)
+{
+return
+;
+}
 this
 .
 registerBuildWindow
@@ -4956,7 +4966,6 @@ Set
 )
 )
 ;
-}
 aWindow
 .
 addEventListener
@@ -4978,6 +4987,7 @@ this
 true
 )
 ;
+}
 }
 unregisterBuildWindow
 :
