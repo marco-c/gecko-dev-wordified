@@ -8982,7 +8982,7 @@ regexEnd
 return
 adoptPtr
 (
-js_new
+newOrCrash
 <
 BytecodePattern
 >
@@ -10894,7 +10894,7 @@ ByteDisjunction
 *
 parenthesesDisjunction
 =
-js_new
+newOrCrash
 <
 ByteDisjunction
 >
@@ -11517,7 +11517,7 @@ m_bodyDisjunction
 =
 adoptPtr
 (
-js_new
+newOrCrash
 <
 ByteDisjunction
 >
