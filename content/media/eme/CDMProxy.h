@@ -1021,6 +1021,17 @@ aPromiseId
 ;
 /
 /
+GMP
+thread
+only
+.
+void
+gmp_Shutdown
+(
+)
+;
+/
+/
 Main
 thread
 only
