@@ -3414,7 +3414,7 @@ sessionToken
 final
 ExtendedJSONObject
 publicKey
-int
+long
 durationInSeconds
 final
 RequestDelegate
