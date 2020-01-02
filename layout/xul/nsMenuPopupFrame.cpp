@@ -5512,7 +5512,7 @@ anchorRect
 .
 height
 =
-0
+1
 ;
 break
 ;
@@ -5551,7 +5551,7 @@ anchorRect
 .
 height
 =
-0
+1
 ;
 break
 ;
@@ -5588,7 +5588,7 @@ anchorRect
 .
 width
 =
-0
+1
 ;
 break
 ;
@@ -5627,7 +5627,7 @@ anchorRect
 .
 width
 =
-0
+1
 ;
 break
 ;
