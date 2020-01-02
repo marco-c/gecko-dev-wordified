@@ -132,7 +132,7 @@ nsTObserverArray
 <
 int
 >
-Array
+IntArray
 ;
 #
 define
@@ -156,7 +156,7 @@ count
 0
 ;
 \
-Array
+IntArray
 :
 :
 _type
@@ -365,7 +365,7 @@ rv
 =
 0
 ;
-Array
+IntArray
 arr
 ;
 arr
