@@ -1316,7 +1316,7 @@ nullptr
 /
 /
 nsISupports
-NS_IMPL_ISUPPORTS_INHERITED4
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsAccessibilityService
 DocManager
@@ -1963,7 +1963,7 @@ mContent
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 PluginTimerCallBack
 nsITimerCallback

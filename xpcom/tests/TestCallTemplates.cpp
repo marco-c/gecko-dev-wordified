@@ -269,7 +269,7 @@ public
 NS_DECL_ISUPPORTS
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsTestService
 nsITestService

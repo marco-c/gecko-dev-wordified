@@ -76,7 +76,7 @@ mozilla
 namespace
 system
 {
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsVolumeStat
 nsIVolumeStat

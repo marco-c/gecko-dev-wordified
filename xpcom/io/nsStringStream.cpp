@@ -540,7 +540,7 @@ nsIClassInfo
 THREADSAFE
 NS_STRINGINPUTSTREAM_CID
 )
-NS_IMPL_QUERY_INTERFACE5_CI
+NS_IMPL_QUERY_INTERFACE_CI
 (
 nsStringInputStream
 nsIStringInputStream
@@ -549,7 +549,7 @@ nsISupportsCString
 nsISeekableStream
 nsIIPCSerializableInputStream
 )
-NS_IMPL_CI_INTERFACE_GETTER4
+NS_IMPL_CI_INTERFACE_GETTER
 (
 nsStringInputStream
 nsIStringInputStream

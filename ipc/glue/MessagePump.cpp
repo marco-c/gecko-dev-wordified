@@ -1076,7 +1076,7 @@ delayed_work_time_
 ;
 }
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 DoWorkRunnable
 nsIRunnable

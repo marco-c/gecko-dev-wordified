@@ -1914,7 +1914,7 @@ library
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ICUReporter
 nsIMemoryReporter
@@ -2004,7 +2004,7 @@ files
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 OggReporter
 nsIMemoryReporter
@@ -2094,7 +2094,7 @@ files
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 VPXReporter
 nsIMemoryReporter
@@ -2191,7 +2191,7 @@ files
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 NesteggReporter
 nsIMemoryReporter

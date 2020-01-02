@@ -435,7 +435,7 @@ mCB
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DoomCallbackWrapper
 nsICacheListener
@@ -574,7 +574,7 @@ mDeviceID
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 VisitCallbackWrapper
 nsICacheVisitor
@@ -955,7 +955,7 @@ cb
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 _OldGetDiskConsumption
 nsRunnable
@@ -1224,7 +1224,7 @@ get
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 _OldCacheEntryWrapper
 nsICacheEntry
@@ -2511,7 +2511,7 @@ NS_OK
 /
 /
 anon
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 _OldCacheLoad
 nsRunnable
@@ -3749,7 +3749,7 @@ nsICacheStorage
 old
 cache
 wrapper
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 _OldStorage
 nsICacheStorage

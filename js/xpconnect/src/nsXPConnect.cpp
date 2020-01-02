@@ -366,7 +366,7 @@ using
 namespace
 JS
 ;
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsXPConnect
 nsIXPConnect

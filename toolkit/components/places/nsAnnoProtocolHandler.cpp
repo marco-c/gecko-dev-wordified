@@ -1501,7 +1501,7 @@ mReturnDefaultIcon
 ;
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 faviconAsyncLoader
 AsyncStatementCallback
@@ -1597,7 +1597,7 @@ namespace
 /
 /
 nsAnnoProtocolHandler
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsAnnoProtocolHandler
 nsIProtocolHandler

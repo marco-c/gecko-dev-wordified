@@ -102,7 +102,7 @@ mozilla
 :
 psm
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsKeyObject
 nsIKeyObject
@@ -674,7 +674,7 @@ NS_OK
 /
 /
 nsIKeyObjectFactory
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsKeyObjectFactory
 nsIKeyObjectFactory

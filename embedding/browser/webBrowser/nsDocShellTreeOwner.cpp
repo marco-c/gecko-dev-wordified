@@ -5640,7 +5640,7 @@ mTag_window
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DefaultTooltipTextProvider
 nsITooltipTextProvider
@@ -6564,7 +6564,7 @@ NS_OK
 /
 /
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ChromeTooltipListener
 nsIDOMEventListener
@@ -8719,7 +8719,7 @@ ClosePopup
 /
 /
 sAutoHideCallback
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ChromeContextMenuListener
 nsIDOMEventListener

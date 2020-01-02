@@ -7407,7 +7407,7 @@ TestGlobal
 }
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 TestGlobal
 nsIXPCTestNoisy
@@ -7548,7 +7548,7 @@ Implementation
 file
 *
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsXPCFunctionThisTranslator
 nsIXPCFunctionThisTranslator
@@ -9844,7 +9844,7 @@ return
 1
 ;
 }
-NS_IMPL_QUERY_INTERFACE2
+NS_IMPL_QUERY_INTERFACE
 (
 XPCShellDirProvider
 nsIDirectoryServiceProvider

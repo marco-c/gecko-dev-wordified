@@ -2849,7 +2849,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-NS_INTERFACE_TABLE1
+NS_INTERFACE_TABLE
 (
 ExpirationTrackerObserver
 nsIObserver

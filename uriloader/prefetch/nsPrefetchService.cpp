@@ -1687,7 +1687,7 @@ nsISupports
 -
 -
 -
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPrefetchQueueEnumerator
 nsISimpleEnumerator
@@ -2275,7 +2275,7 @@ nsISupports
 -
 -
 -
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 nsPrefetchNode
 nsIRequestObserver
@@ -5111,7 +5111,7 @@ nsISupports
 -
 -
 -
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsPrefetchService
 nsIPrefetchService

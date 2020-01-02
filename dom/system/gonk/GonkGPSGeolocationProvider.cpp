@@ -385,7 +385,7 @@ to
 avoid
 blocking
 .
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 GonkGPSGeolocationProvider
 nsIGeolocationProvider
@@ -3038,7 +3038,7 @@ endif
 /
 /
 MOZ_B2G_RIL
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 GonkGPSGeolocationProvider
 :

@@ -882,7 +882,7 @@ owner
 .
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SVGParseCompleteListener
 nsIDocumentObserver
@@ -1273,7 +1273,7 @@ owner
 .
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SVGLoadEventListener
 nsIDOMEventListener
@@ -1703,7 +1703,7 @@ nsISupports
 -
 inherited
 methods
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 VectorImage
 imgIContainer

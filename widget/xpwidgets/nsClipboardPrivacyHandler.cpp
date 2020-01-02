@@ -214,7 +214,7 @@ private
 -
 browsing
 "
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsClipboardPrivacyHandler
 nsIObserver

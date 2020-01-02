@@ -217,7 +217,7 @@ args
 )
 #
 endif
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsAsyncRedirectVerifyHelper
 nsIAsyncVerifyRedirectCallback

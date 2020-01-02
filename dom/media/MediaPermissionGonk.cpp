@@ -1031,7 +1031,7 @@ devices
 /
 /
 MediaPermissionRequest
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MediaPermissionRequest
 nsIContentPermissionRequest
@@ -2187,7 +2187,7 @@ mRequest
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MediaDeviceSuccessCallback
 nsIGetUserMediaDevicesSuccessCallback
@@ -2688,7 +2688,7 @@ mCallID
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MediaDeviceErrorCallback
 nsIDOMGetUserMediaErrorCallback
@@ -2725,7 +2725,7 @@ anonymous
 /
 /
 MediaPermissionManager
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MediaPermissionManager
 nsIObserver

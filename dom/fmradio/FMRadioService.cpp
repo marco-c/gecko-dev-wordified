@@ -933,7 +933,7 @@ mPendingRequest
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ReadAirplaneModeSettingTask
 nsISettingsServiceCallback
@@ -3986,7 +3986,7 @@ return
 sFMRadioService
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 FMRadioService
 nsIObserver

@@ -890,7 +890,7 @@ NS_OK
 /
 /
 nsISupports
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 PlaceInfo
 mozIPlaceInfo

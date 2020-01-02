@@ -378,7 +378,7 @@ alert
 )
 ;
 }
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsAlertsIconListener
 imgINotificationObserver

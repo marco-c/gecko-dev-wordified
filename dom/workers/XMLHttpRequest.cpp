@@ -4149,7 +4149,7 @@ return
 true
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 Proxy
 nsIDOMEventListener
@@ -4570,7 +4570,7 @@ NS_IMPL_ISUPPORTS_INHERITED0
 AsyncTeardownRunnable
 nsRunnable
 )
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 LoadStartDetectionRunnable
 nsRunnable

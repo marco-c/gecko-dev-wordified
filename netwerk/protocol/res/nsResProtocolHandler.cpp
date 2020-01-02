@@ -1504,7 +1504,7 @@ nsISupports
 -
 -
 -
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsResProtocolHandler
 nsIResProtocolHandler

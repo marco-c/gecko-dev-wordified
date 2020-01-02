@@ -413,7 +413,7 @@ UrlClassifierStreamUpdater
 #
 endif
 }
-NS_IMPL_ISUPPORTS7
+NS_IMPL_ISUPPORTS
 (
 nsUrlClassifierStreamUpdater
 nsIUrlClassifierStreamUpdater

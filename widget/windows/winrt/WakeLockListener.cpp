@@ -80,7 +80,7 @@ widget
 :
 winrt
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 WakeLockListener
 nsIDOMMozWakeLockListener

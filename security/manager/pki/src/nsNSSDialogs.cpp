@@ -317,7 +317,7 @@ nsNSSDialogs
 )
 {
 }
-NS_IMPL_ISUPPORTS8
+NS_IMPL_ISUPPORTS
 (
 nsNSSDialogs
 nsITokenPasswordDialogs

@@ -1122,7 +1122,7 @@ Implementation
 file
 *
 /
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsXBLStreamListener
 nsIStreamListener
@@ -2328,7 +2328,7 @@ Implement
 our
 nsISupports
 methods
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsXBLService
 nsISupportsWeakReference

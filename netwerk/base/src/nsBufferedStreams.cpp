@@ -372,7 +372,7 @@ Close
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsBufferedStream
 nsISeekableStream
@@ -1592,7 +1592,7 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 nsBufferedStream
 )
-NS_IMPL_CI_INTERFACE_GETTER4
+NS_IMPL_CI_INTERFACE_GETTER
 (
 nsBufferedInputStream
 nsIInputStream

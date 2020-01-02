@@ -1803,7 +1803,7 @@ mLoadID
 ;
 }
 ;
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 HTMLMediaElement
 :

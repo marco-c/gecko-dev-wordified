@@ -318,7 +318,7 @@ mRemoveMagicNumber
 ;
 }
 ;
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsPluginByteRangeStreamListener
 nsIRequestObserver
@@ -1220,7 +1220,7 @@ result
 /
 /
 nsPluginStreamListenerPeer
-NS_IMPL_ISUPPORTS6
+NS_IMPL_ISUPPORTS
 (
 nsPluginStreamListenerPeer
 nsIStreamListener
@@ -6612,7 +6612,7 @@ mNewChannel
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ChannelRedirectProxyCallback
 nsIAsyncVerifyRedirectCallback

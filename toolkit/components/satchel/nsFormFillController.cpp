@@ -343,7 +343,7 @@ mozilla
 :
 dom
 ;
-NS_IMPL_ISUPPORTS6
+NS_IMPL_ISUPPORTS
 (
 nsFormFillController
 nsIFormFillController

@@ -1523,7 +1523,7 @@ HeaderVisitor
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 HeaderVisitor
 nsIHttpHeaderVisitor
@@ -2041,7 +2041,7 @@ TestChannelEventSink
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 TestChannelEventSink
 nsIChannelEventSink
@@ -2289,7 +2289,7 @@ TestAuthPrompt
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 TestAuthPrompt
 nsIAuthPrompt
@@ -3001,7 +3001,7 @@ InputTestConsumer
 )
 {
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 InputTestConsumer
 nsIStreamListener
@@ -4587,7 +4587,7 @@ rv
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 NotificationCallbacks
 nsIInterfaceRequestor

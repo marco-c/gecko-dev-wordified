@@ -550,7 +550,7 @@ sPointerIdCounter
 /
 /
 nsBaseWidget
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsBaseWidget
 nsIWidget
@@ -917,7 +917,7 @@ mShutdownObserver
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 WidgetShutdownObserver
 nsIObserver
@@ -12364,7 +12364,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 Debug_PrefObserver
 nsIObserver

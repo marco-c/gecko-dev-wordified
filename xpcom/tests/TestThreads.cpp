@@ -276,7 +276,7 @@ mNum
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsRunner
 nsIRunnable
@@ -584,7 +584,7 @@ gNum
 =
 0
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsStressRunner
 nsIRunnable

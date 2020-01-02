@@ -1096,7 +1096,7 @@ care
 about
 flattening
 everything
-NS_IMPL_CI_INTERFACE_GETTER2
+NS_IMPL_CI_INTERFACE_GETTER
 (
 nsNavHistory
 nsINavHistoryService

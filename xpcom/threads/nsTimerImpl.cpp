@@ -1099,7 +1099,7 @@ entry
 /
 anonymous
 namespace
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 nsTimerImpl
 nsITimer

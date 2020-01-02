@@ -628,7 +628,7 @@ Close
 )
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsDirEnumeratorUnix
 nsISimpleEnumerator
@@ -1091,7 +1091,7 @@ mPath
 #
 ifdef
 MOZ_WIDGET_COCOA
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsLocalFile
 nsILocalFileMac
@@ -1101,7 +1101,7 @@ nsIHashable
 )
 #
 else
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsLocalFile
 nsILocalFile

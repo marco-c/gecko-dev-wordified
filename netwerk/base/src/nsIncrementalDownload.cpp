@@ -1838,7 +1838,7 @@ NS_OK
 /
 /
 nsISupports
-NS_IMPL_ISUPPORTS9
+NS_IMPL_ISUPPORTS
 (
 nsIncrementalDownload
 nsIIncrementalDownload

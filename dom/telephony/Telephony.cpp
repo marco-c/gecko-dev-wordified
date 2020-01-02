@@ -1822,7 +1822,7 @@ NS_IMPL_RELEASE_INHERITED
 Telephony
 DOMEventTargetHelper
 )
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 Telephony
 :
@@ -1830,7 +1830,7 @@ Telephony
 Listener
 nsITelephonyListener
 )
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 Telephony
 :

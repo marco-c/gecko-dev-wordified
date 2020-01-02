@@ -168,7 +168,7 @@ USING_BLUETOOTH_NAMESPACE
 IccListener
 *
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 IccListener
 nsIIccListener
@@ -376,7 +376,7 @@ aOwner
 MobileConnectionListener
 *
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MobileConnectionListener
 nsIMobileConnectionListener
@@ -622,7 +622,7 @@ TelephonyListener
 Implementation
 *
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 TelephonyListener
 nsITelephonyListener

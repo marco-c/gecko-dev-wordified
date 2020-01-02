@@ -835,7 +835,7 @@ NS_IMPL_RELEASE
 (
 CompositeEnumeratorImpl
 )
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 CompositeEnumeratorImpl
 nsISimpleEnumerator

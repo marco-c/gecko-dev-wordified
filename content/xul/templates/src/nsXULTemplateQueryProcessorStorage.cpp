@@ -305,7 +305,7 @@ h
 nsXULTemplateResultSetStorage
 /
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsXULTemplateResultSetStorage
 nsISimpleEnumerator
@@ -891,7 +891,7 @@ value
 nsXULTemplateQueryProcessorStorage
 /
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsXULTemplateQueryProcessorStorage
 nsIXULTemplateQueryProcessor

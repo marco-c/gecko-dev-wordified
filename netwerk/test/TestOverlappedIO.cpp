@@ -482,7 +482,7 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 TestListener
 nsIRequestObserver
@@ -889,7 +889,7 @@ mRequestCount
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 TestProvider
 nsIStreamProvider

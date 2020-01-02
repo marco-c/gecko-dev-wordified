@@ -193,7 +193,7 @@ mURLLength
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 URLPropertyElement
 nsIPropertyElement
@@ -601,7 +601,7 @@ nsStringBundleTextOverride
 implementation
 /
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsStringBundleTextOverride
 nsIStringBundleOverride
@@ -1270,7 +1270,7 @@ nsPropertyEnumeratorByURL
 implementation
 /
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPropertyEnumeratorByURL
 nsISimpleEnumerator

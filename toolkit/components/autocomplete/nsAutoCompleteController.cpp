@@ -276,7 +276,7 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsAutoCompleteController
 )
-NS_INTERFACE_TABLE4
+NS_INTERFACE_TABLE
 (
 nsAutoCompleteController
 nsIAutoCompleteController

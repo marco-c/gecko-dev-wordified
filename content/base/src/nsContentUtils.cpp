@@ -1999,7 +1999,7 @@ table
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DOMEventListenerManagersHashReporter
 nsIMemoryReporter
@@ -30345,7 +30345,7 @@ return
 rv
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 SameOriginChecker
 nsIChannelEventSink

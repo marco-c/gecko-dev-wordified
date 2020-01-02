@@ -600,7 +600,7 @@ HTMLTableCellAccessible
 :
 nsISupports
 implementation
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 HTMLTableCellAccessible
 HyperTextAccessible
@@ -2938,7 +2938,7 @@ HTMLTableAccessible
 /
 /
 /
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 HTMLTableAccessible
 Accessible

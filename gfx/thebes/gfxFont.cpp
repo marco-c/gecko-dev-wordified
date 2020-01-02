@@ -9124,7 +9124,7 @@ MOZ_DEFINE_MALLOC_SIZE_OF
 (
 FontCacheMallocSizeOf
 )
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 gfxFontCache
 :
@@ -9255,7 +9255,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 gfxFontCache
 :

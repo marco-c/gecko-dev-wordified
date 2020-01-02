@@ -501,7 +501,7 @@ mClosed
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsDiskCacheInputStream
 nsIInputStream
@@ -1211,7 +1211,7 @@ nsDiskCacheStreamIO
 *
 *
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsDiskCacheStreamIO
 nsIOutputStream

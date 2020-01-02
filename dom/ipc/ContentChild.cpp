@@ -1225,7 +1225,7 @@ mDMDDumpIdent
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MemoryReportRequestChild
 nsIRunnable
@@ -1432,7 +1432,7 @@ ContentChild
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ConsoleListener
 nsIConsoleListener
@@ -1858,7 +1858,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SystemMessageHandledObserver
 nsIObserver
@@ -1934,7 +1934,7 @@ actor
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 BackgroundChildPrimer
 nsIIPCBackgroundChildCreateCallback
@@ -3117,7 +3117,7 @@ mProcess
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MemoryReportCallback
 nsIMemoryReporterCallback

@@ -575,7 +575,7 @@ mTarget
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsInputStreamReadyEvent
 nsIRunnable
@@ -982,7 +982,7 @@ mTarget
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsOutputStreamReadyEvent
 nsIRunnable
@@ -2401,7 +2401,7 @@ mCancelStatus
 ;
 }
 ;
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsAStreamCopier
 nsIInputStreamCallback

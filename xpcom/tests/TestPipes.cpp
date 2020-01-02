@@ -764,7 +764,7 @@ mCount
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsReceiver
 nsIRunnable
@@ -1428,7 +1428,7 @@ mMon
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsShortReader
 nsIRunnable
@@ -1976,7 +1976,7 @@ mCount
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPump
 nsIRunnable

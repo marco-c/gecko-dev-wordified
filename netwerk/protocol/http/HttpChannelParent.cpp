@@ -854,7 +854,7 @@ nsISupports
 -
 -
 -
-NS_IMPL_ISUPPORTS6
+NS_IMPL_ISUPPORTS
 (
 HttpChannelParent
 nsIInterfaceRequestor

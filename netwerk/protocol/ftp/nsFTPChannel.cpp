@@ -342,7 +342,7 @@ first
 -
 -
 -
-NS_IMPL_ISUPPORTS_INHERITED4
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsFtpChannel
 nsBaseChannel
@@ -1164,7 +1164,7 @@ mTargetThread
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 FTPEventSinkProxy
 nsIFTPEventSink

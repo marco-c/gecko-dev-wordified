@@ -1635,7 +1635,7 @@ sCallbackCount
 =
 0
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 BackgroundTester
 nsIIPCBackgroundChildCreateCallback
@@ -1970,7 +1970,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIMEMORYREPORTER
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ContentParentsMemoryReporter
 nsIMemoryReporter
@@ -5253,7 +5253,7 @@ SystemMessageHandledListener
 :
 sListeners
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SystemMessageHandledListener
 nsITimerCallback
@@ -18629,7 +18629,7 @@ dom
 /
 namespace
 mozilla
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ParentIdleListener
 nsIObserver

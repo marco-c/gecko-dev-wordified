@@ -1376,7 +1376,7 @@ endif
 /
 MOZ_SUPPORTS_FIFO
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsMemoryInfoDumper
 nsIMemoryInfoDumper
@@ -2512,7 +2512,7 @@ mWriter
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DumpReportCallback
 nsIHandleReportCallback
@@ -2939,7 +2939,7 @@ mIdentifier
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 TempDirMemoryFinishCallback
 nsIFinishReportingCallback
@@ -4333,7 +4333,7 @@ mFinishDumpingData
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 FinishReportingCallback
 nsIFinishReportingCallback

@@ -1957,7 +1957,7 @@ ISupports
 /
 /
 /
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsScriptSecurityManager
 nsIScriptSecurityManager

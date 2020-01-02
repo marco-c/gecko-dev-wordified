@@ -6995,7 +6995,7 @@ destroyRunnable
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ParentImpl
 :
@@ -10051,7 +10051,7 @@ aWhy
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ChildImpl
 :

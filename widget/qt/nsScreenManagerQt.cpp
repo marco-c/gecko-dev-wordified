@@ -119,7 +119,7 @@ screens
 addref
 release
 QI
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsScreenManagerQt
 nsIScreenManager

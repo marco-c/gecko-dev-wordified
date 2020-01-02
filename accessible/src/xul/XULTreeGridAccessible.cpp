@@ -284,7 +284,7 @@ XULTreeGridAccessible
 :
 nsISupports
 implementation
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 XULTreeGridAccessible
 XULTreeAccessible
@@ -3135,7 +3135,7 @@ NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 XULTreeGridCellAccessible
 )
-NS_INTERFACE_TABLE_INHERITED2
+NS_INTERFACE_TABLE_INHERITED
 (
 XULTreeGridCellAccessible
 nsIAccessibleTableCell

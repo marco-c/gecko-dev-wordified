@@ -367,7 +367,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SettingsServiceCallback
 nsISettingsServiceCallback
@@ -486,7 +486,7 @@ mVolumeName
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CheckVolumeSettingsCallback
 nsISettingsServiceCallback
@@ -825,7 +825,7 @@ MOZSETTINGS_CHANGED
 ;
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 AutoMounterSetting
 nsIObserver

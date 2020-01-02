@@ -4881,7 +4881,7 @@ Contexts
 /
 /
 *
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 jsdContext
 jsdIContext
@@ -4916,7 +4916,7 @@ NS_OK
 Objects
 *
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 jsdObject
 jsdIObject
@@ -5106,7 +5106,7 @@ NS_OK
 Properties
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 jsdProperty
 jsdIProperty
@@ -5447,7 +5447,7 @@ NS_OK
 Scripts
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 jsdScript
 jsdIScript
@@ -8724,7 +8724,7 @@ NS_OK
 Contexts
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 jsdContext
 jsdIContext
@@ -9842,7 +9842,7 @@ Stack
 Frames
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 jsdStackFrame
 jsdIStackFrame
@@ -10905,7 +10905,7 @@ NS_OK
 Values
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 jsdValue
 jsdIValue
@@ -16455,7 +16455,7 @@ jsdASObserver
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 jsdASObserver
 nsIObserver
@@ -17104,7 +17104,7 @@ Thread
 States
 *
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 jsdThreadState
 jsdIThreadState

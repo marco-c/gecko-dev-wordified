@@ -245,7 +245,7 @@ file
 :
 *
 *
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsFooBar
 nsIFoo
@@ -267,7 +267,7 @@ nullptr
 NS_FOOBAR_CID
 )
 *
-NS_IMPL_ISUPPORTS2_CI
+NS_IMPL_ISUPPORTS_CI
 (
 nsFooBar
 nsIFoo
@@ -363,7 +363,7 @@ file
 also
 defines
 the
-NS_IMPL_QUERY_INTERFACE2_CI
+NS_IMPL_QUERY_INTERFACE_CI
 macro
 which
 you
@@ -372,7 +372,7 @@ can
 use
 to
 replace
-NS_IMPL_QUERY_INTERFACE2
+NS_IMPL_QUERY_INTERFACE
 if
 you
 use
@@ -380,7 +380,7 @@ that
 instead
 of
 *
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 .
 *
 *
@@ -449,7 +449,7 @@ answer
 lies
 in
 the
-NS_IMPL_ISUPPORTS2_CI
+NS_IMPL_ISUPPORTS_CI
 macro
 .
 It

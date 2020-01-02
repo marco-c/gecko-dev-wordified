@@ -626,7 +626,7 @@ empty
 *
 /
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 mozJSSubScriptLoader
 mozIJSSubScriptLoader
@@ -2454,7 +2454,7 @@ mScriptLength
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ScriptPrecompiler
 nsIStreamLoaderObserver

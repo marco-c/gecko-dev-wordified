@@ -18771,7 +18771,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsDocViewerSelectionListener
 nsISelectionListener
@@ -19842,7 +19842,7 @@ NS_OK
 /
 /
 nsDocViewerFocusListener
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsDocViewerFocusListener
 nsIDOMEventListener

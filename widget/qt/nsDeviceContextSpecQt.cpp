@@ -349,7 +349,7 @@ n
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsDeviceContextSpecQt
 nsIDeviceContextSpec
@@ -1156,7 +1156,7 @@ nsPrinterEnumeratorQt
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPrinterEnumeratorQt
 nsIPrinterEnumerator

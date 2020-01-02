@@ -531,7 +531,7 @@ mStringCurItem
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 BaseStringEnumerator
 nsISimpleEnumerator
@@ -1796,7 +1796,7 @@ nsCategoryManager
 implementations
 /
 /
-NS_IMPL_QUERY_INTERFACE2
+NS_IMPL_QUERY_INTERFACE
 (
 nsCategoryManager
 nsICategoryManager

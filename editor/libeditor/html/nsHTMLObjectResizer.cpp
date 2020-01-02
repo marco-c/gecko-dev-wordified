@@ -535,7 +535,7 @@ DocumentResizeEventListener
 =
 =
 =
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DocumentResizeEventListener
 nsIDOMEventListener
@@ -744,7 +744,7 @@ ResizerSelectionListener
 =
 =
 =
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ResizerSelectionListener
 nsISelectionListener
@@ -1008,7 +1008,7 @@ ResizerMouseMotionListener
 =
 =
 =
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ResizerMouseMotionListener
 nsIDOMEventListener

@@ -7462,7 +7462,7 @@ CleanupAfterCollection
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsCycleCollector
 nsIMemoryReporter
@@ -10681,7 +10681,7 @@ mDescribers
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsCycleCollectorLogger
 nsICycleCollectorListener

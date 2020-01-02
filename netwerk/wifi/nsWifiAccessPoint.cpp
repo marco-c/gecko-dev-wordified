@@ -109,7 +109,7 @@ gWifiMonitorLog
 PR_LOG_DEBUG
 args
 )
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsWifiAccessPoint
 nsIWifiAccessPoint

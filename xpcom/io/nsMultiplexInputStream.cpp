@@ -327,7 +327,7 @@ nsIClassInfo
 THREADSAFE
 NS_MULTIPLEXINPUTSTREAM_CID
 )
-NS_IMPL_QUERY_INTERFACE4_CI
+NS_IMPL_QUERY_INTERFACE_CI
 (
 nsMultiplexInputStream
 nsIMultiplexInputStream
@@ -335,7 +335,7 @@ nsIInputStream
 nsISeekableStream
 nsIIPCSerializableInputStream
 )
-NS_IMPL_CI_INTERFACE_GETTER3
+NS_IMPL_CI_INTERFACE_GETTER
 (
 nsMultiplexInputStream
 nsIMultiplexInputStream

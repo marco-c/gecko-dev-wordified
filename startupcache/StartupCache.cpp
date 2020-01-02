@@ -756,7 +756,7 @@ StartupCache
 :
 IGNORE_AGE
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 StartupCache
 nsIMemoryReporter
@@ -3443,7 +3443,7 @@ to
 observerService
 instead
 .
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 StartupCacheListener
 nsIObserver
@@ -3721,7 +3721,7 @@ implementation
 #
 ifdef
 DEBUG
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 StartupCacheDebugOutputStream
 nsIObjectOutputStream
@@ -4194,7 +4194,7 @@ gStartupCacheWrapper
 =
 nullptr
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 StartupCacheWrapper
 nsIStartupCache

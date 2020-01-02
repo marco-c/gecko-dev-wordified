@@ -211,7 +211,7 @@ using
 namespace
 mozilla
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsCMSMessage
 nsICMSMessage
@@ -3839,7 +3839,7 @@ return
 rv
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsCMSDecoder
 nsICMSDecoder
@@ -4244,7 +4244,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsCMSEncoder
 nsICMSEncoder

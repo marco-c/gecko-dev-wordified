@@ -178,7 +178,7 @@ mozilla
 namespace
 system
 {
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsVolumeMountLock
 nsIVolumeMountLock

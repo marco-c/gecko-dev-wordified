@@ -2102,7 +2102,7 @@ findOnBoundary
 }
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MatchAutoCompleteFunction
 mozIStorageFunction
@@ -3037,7 +3037,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CalculateFrecencyFunction
 mozIStorageFunction
@@ -4741,7 +4741,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 GenerateGUIDFunction
 mozIStorageFunction
@@ -5103,7 +5103,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 GetUnreversedHostFunction
 mozIStorageFunction
@@ -5549,7 +5549,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 FixupURLFunction
 mozIStorageFunction
@@ -5897,7 +5897,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 FrecencyNotificationFunction
 mozIStorageFunction

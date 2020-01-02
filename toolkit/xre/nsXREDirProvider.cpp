@@ -956,7 +956,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_QUERY_INTERFACE3
+NS_IMPL_QUERY_INTERFACE
 (
 nsXREDirProvider
 nsIDirectoryServiceProvider

@@ -10990,7 +10990,7 @@ nsISupports
 -
 -
 -
-NS_IMPL_ISUPPORTS6
+NS_IMPL_ISUPPORTS
 (
 nsHttpHandler
 nsIHttpProtocolHandler
@@ -13600,7 +13600,7 @@ implementation
 -
 -
 -
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 nsHttpsHandler
 nsIHttpProtocolHandler

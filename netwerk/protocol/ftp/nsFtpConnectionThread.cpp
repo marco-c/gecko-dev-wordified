@@ -469,7 +469,7 @@ index
 ;
 }
 }
-NS_IMPL_ISUPPORTS_INHERITED5
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsFtpState
 nsBaseContentStream

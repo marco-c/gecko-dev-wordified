@@ -1627,7 +1627,7 @@ nsBaseChannel
 :
 :
 nsISupports
-NS_IMPL_ISUPPORTS_INHERITED8
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsBaseChannel
 nsHashPropertyBag

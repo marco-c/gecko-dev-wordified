@@ -142,7 +142,7 @@ algorithm
 define
 CONVERTER_BUFFER_SIZE
 8192
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsConverterInputStream
 nsIConverterInputStream

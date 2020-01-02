@@ -738,7 +738,7 @@ mGtkPrintSettings
 ;
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsDeviceContextSpecGTK
 nsIDeviceContextSpec
@@ -2629,7 +2629,7 @@ nsPrinterEnumeratorGTK
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPrinterEnumeratorGTK
 nsIPrinterEnumerator

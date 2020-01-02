@@ -456,7 +456,7 @@ RDF_NAMESPACE_URI
 /
 nsISupports
 interface
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 RDFContainerUtilsImpl
 nsIRDFContainerUtils

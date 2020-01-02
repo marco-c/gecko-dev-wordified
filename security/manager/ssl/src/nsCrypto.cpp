@@ -1273,7 +1273,7 @@ ISupports
 implementation
 for
 nsCryptoRunnable
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsCryptoRunnable
 nsIRunnable
@@ -1284,7 +1284,7 @@ ISupports
 implementation
 for
 nsP12Runnable
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsP12Runnable
 nsIRunnable

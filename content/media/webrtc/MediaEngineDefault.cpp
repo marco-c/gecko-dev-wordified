@@ -199,7 +199,7 @@ mozilla
 :
 gfx
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MediaEngineDefaultVideoSource
 nsITimerCallback
@@ -1845,7 +1845,7 @@ source
 .
 *
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MediaEngineDefaultAudioSource
 nsITimerCallback

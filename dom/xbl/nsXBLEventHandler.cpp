@@ -205,7 +205,7 @@ nsXBLEventHandler
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsXBLEventHandler
 nsIDOMEventListener
@@ -413,7 +413,7 @@ nsXBLKeyEventHandler
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsXBLKeyEventHandler
 nsIDOMEventListener

@@ -4751,7 +4751,7 @@ mPaintingIsFrozen
 false
 ;
 }
-NS_IMPL_ISUPPORTS7
+NS_IMPL_ISUPPORTS
 (
 PresShell
 nsIPresShell
@@ -21864,7 +21864,7 @@ mShell
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 PaintTimerCallBack
 nsITimerCallback

@@ -4802,7 +4802,7 @@ eTableCell
 /
 /
 nsISupports
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 XULListCellAccessible
 HyperTextAccessible

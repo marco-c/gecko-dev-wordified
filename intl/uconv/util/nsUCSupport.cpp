@@ -315,7 +315,7 @@ implementation
 #
 ifdef
 DEBUG
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsBasicDecoderSupport
 nsIUnicodeDecoder
@@ -323,7 +323,7 @@ nsIBasicDecoder
 )
 #
 else
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsBasicDecoderSupport
 nsIUnicodeDecoder
@@ -2357,7 +2357,7 @@ nsBasicEncoder
 #
 ifdef
 DEBUG
-NS_IMPL_QUERY_INTERFACE2
+NS_IMPL_QUERY_INTERFACE
 (
 nsBasicEncoder
 nsIUnicodeEncoder
@@ -2365,7 +2365,7 @@ nsIBasicEncoder
 )
 #
 else
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 nsBasicEncoder
 nsIUnicodeEncoder

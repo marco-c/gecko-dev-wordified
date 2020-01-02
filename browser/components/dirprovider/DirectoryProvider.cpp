@@ -197,7 +197,7 @@ mozilla
 namespace
 browser
 {
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 DirectoryProvider
 nsIDirectoryServiceProvider
@@ -1433,7 +1433,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DirectoryProvider
 :

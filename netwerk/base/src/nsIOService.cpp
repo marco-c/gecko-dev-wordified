@@ -1699,7 +1699,7 @@ return
 gIOService
 ;
 }
-NS_IMPL_ISUPPORTS6
+NS_IMPL_ISUPPORTS
 (
 nsIOService
 nsIIOService
@@ -6675,7 +6675,7 @@ mIOService
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 IOServiceProxyCallback
 nsIProtocolProxyCallback

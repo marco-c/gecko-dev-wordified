@@ -224,7 +224,7 @@ this
 /
 nsISupports
 methods
-NS_IMPL_ISUPPORTS_INHERITED4
+NS_IMPL_ISUPPORTS_INHERITED
 (
 SVGSymbolElement
 SVGSymbolElementBase

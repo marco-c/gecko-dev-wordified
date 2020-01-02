@@ -794,7 +794,7 @@ mStartTime
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 WaitForTopicSpinner
 nsIObserver
@@ -846,7 +846,7 @@ mCompleted
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 AsyncStatementSpinner
 mozIStorageStatementCallback
@@ -1979,7 +1979,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 WaitForConnectionClosed
 nsIObserver

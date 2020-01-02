@@ -5648,7 +5648,7 @@ mNext
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsDirEnumerator
 nsISimpleEnumerator
@@ -6093,7 +6093,7 @@ nsISupports
 -
 -
 -
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsLocalFile
 nsILocalFile
@@ -19988,7 +19988,7 @@ NS_DestroyShortcutResolver
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsDriveEnumerator
 nsISimpleEnumerator

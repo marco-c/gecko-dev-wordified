@@ -3379,7 +3379,7 @@ nsJISx4051LineBreaker
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsJISx4051LineBreaker
 nsILineBreaker

@@ -920,7 +920,7 @@ return
 true
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SmsParent
 nsIObserver
@@ -2742,7 +2742,7 @@ SmsRequestParent
 *
 *
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SmsRequestParent
 nsIMobileMessageCallback
@@ -4327,7 +4327,7 @@ MobileMessageCursorParent
 *
 *
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MobileMessageCursorParent
 nsIMobileMessageCursorCallback

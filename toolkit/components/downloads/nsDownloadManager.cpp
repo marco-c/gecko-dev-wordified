@@ -677,7 +677,7 @@ info
 /
 /
 nsDownloadManager
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsDownloadManager
 nsIDownloadManager
@@ -15571,7 +15571,7 @@ nullptr
 0
 NS_DOWNLOAD_CID
 )
-NS_IMPL_ISUPPORTS4_CI
+NS_IMPL_ISUPPORTS_CI
 (
 nsDownload
 nsIDownload

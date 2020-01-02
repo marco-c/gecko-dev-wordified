@@ -1400,7 +1400,7 @@ NS_OK
 /
 /
 Service
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 Service
 mozIStorageService

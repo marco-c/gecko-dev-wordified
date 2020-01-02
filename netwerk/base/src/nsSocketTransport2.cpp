@@ -2126,7 +2126,7 @@ this
 )
 ;
 }
-NS_IMPL_QUERY_INTERFACE2
+NS_IMPL_QUERY_INTERFACE
 (
 nsSocketInputStream
 nsIInputStream
@@ -3553,7 +3553,7 @@ this
 )
 ;
 }
-NS_IMPL_QUERY_INTERFACE2
+NS_IMPL_QUERY_INTERFACE
 (
 nsSocketOutputStream
 nsIOutputStream
@@ -12010,7 +12010,7 @@ mNetAddr
 /
 xpcom
 api
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsSocketTransport
 nsISocketTransport
@@ -12018,7 +12018,7 @@ nsITransport
 nsIDNSListener
 nsIClassInfo
 )
-NS_IMPL_CI_INTERFACE_GETTER3
+NS_IMPL_CI_INTERFACE_GETTER
 (
 nsSocketTransport
 nsISocketTransport

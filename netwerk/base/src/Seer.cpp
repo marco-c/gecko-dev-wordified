@@ -1091,7 +1091,7 @@ SeerDNSListener
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SeerDNSListener
 nsIDNSListener
@@ -1197,7 +1197,7 @@ args
 )
 #
 endif
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 Seer
 nsINetworkSeer

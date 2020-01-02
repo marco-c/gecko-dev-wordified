@@ -301,7 +301,7 @@ rss
 define
 MAX_BYTES
 512u
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsFeedSniffer
 nsIContentSniffer

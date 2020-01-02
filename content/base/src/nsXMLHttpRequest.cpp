@@ -1054,7 +1054,7 @@ NS_OK
 ;
 \
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsXHRParseEndListener
 nsIDOMEventListener
@@ -1348,7 +1348,7 @@ XMLHttpRequestAuthPrompt
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 XMLHttpRequestAuthPrompt
 nsIAuthPrompt
@@ -20867,7 +20867,7 @@ forget
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsXMLHttpRequest
 :

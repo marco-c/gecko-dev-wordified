@@ -1233,7 +1233,7 @@ mDelay
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsAutoScrollTimer
 nsITimerCallback
@@ -32532,7 +32532,7 @@ sInstance
 =
 nullptr
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsAutoCopyListener
 nsISelectionListener

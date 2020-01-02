@@ -252,7 +252,7 @@ return
 1
 ;
 }
-NS_IMPL_QUERY_INTERFACE3
+NS_IMPL_QUERY_INTERFACE
 (
 EmptyEnumeratorImpl
 nsISimpleEnumerator
@@ -553,7 +553,7 @@ mValue
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsSingletonEnumerator
 nsISimpleEnumerator
@@ -889,7 +889,7 @@ nsUnionEnumerator
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsUnionEnumerator
 nsISimpleEnumerator

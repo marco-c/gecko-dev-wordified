@@ -5464,7 +5464,7 @@ nsINavHistoryQuery
 *
 *
 *
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsNavHistoryQuery
 nsNavHistoryQuery
@@ -7726,7 +7726,7 @@ NS_OK
 /
 /
 nsNavHistoryQueryOptions
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsNavHistoryQueryOptions
 nsNavHistoryQueryOptions

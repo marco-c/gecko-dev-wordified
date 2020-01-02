@@ -342,7 +342,7 @@ mApp
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsGIOMimeApp
 nsIGIOMimeApp
@@ -594,7 +594,7 @@ mIndex
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 GIOUTF8StringEnumerator
 nsIUTF8StringEnumerator
@@ -1246,7 +1246,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsGIOService
 nsIGIOService

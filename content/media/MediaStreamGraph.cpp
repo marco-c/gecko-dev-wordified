@@ -16841,7 +16841,7 @@ mSelfRef
 nullptr
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MediaStreamGraphShutdownObserver
 nsIObserver
@@ -17147,7 +17147,7 @@ ForceShutDown
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MediaStreamGraphImpl
 nsIMemoryReporter

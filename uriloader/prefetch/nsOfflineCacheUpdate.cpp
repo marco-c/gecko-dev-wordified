@@ -1167,7 +1167,7 @@ nsISupports
 -
 -
 -
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsManifestCheck
 nsIRequestObserver
@@ -2642,7 +2642,7 @@ nsISupports
 -
 -
 -
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 nsOfflineCacheUpdateItem
 nsIRequestObserver
@@ -8228,7 +8228,7 @@ nsISupports
 -
 -
 -
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsOfflineCacheUpdate
 nsIOfflineCacheUpdateObserver

@@ -324,7 +324,7 @@ mozilla
 :
 dom
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsEmptyStyleRule
 nsIStyleRule
@@ -409,7 +409,7 @@ out
 }
 #
 endif
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsInitialStyleRule
 nsIStyleRule
@@ -743,7 +743,7 @@ out
 }
 #
 endif
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsDisableTextZoomStyleRule
 nsIStyleRule

@@ -418,7 +418,7 @@ mFlags
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ChildDNSRecord
 nsIDNSRecord
@@ -1667,7 +1667,7 @@ nsISupports
 -
 -
 -
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DNSRequestChild
 nsICancelable

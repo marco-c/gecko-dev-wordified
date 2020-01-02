@@ -75,7 +75,7 @@ h
 "
 #
 endif
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsStreamListenerWrapper
 nsIStreamListener

@@ -2729,7 +2729,7 @@ rv
 /
 xpcom
 api
-NS_IMPL_ISUPPORTS6
+NS_IMPL_ISUPPORTS
 (
 nsSocketTransportService
 nsISocketTransportService

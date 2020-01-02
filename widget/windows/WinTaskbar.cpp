@@ -1023,7 +1023,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DefaultController
 nsITaskbarPreviewController
@@ -1117,7 +1117,7 @@ widget
 /
 /
 nsIWinTaskbar
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 WinTaskbar
 nsIWinTaskbar

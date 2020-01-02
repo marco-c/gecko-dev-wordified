@@ -500,7 +500,7 @@ mStatus
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 ConnectionData
 nsITransportEventSink
@@ -874,7 +874,7 @@ mStatus
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 LookupHelper
 nsIDNSListener
@@ -1143,7 +1143,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 Dashboard
 nsIDashboard

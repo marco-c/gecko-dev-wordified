@@ -478,7 +478,7 @@ succeed
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 FileInputStreamWrapper
 FileStreamWrapper
@@ -1003,7 +1003,7 @@ succeed
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 FileOutputStreamWrapper
 FileStreamWrapper
@@ -1427,7 +1427,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ProgressRunnable
 nsIRunnable
@@ -1469,7 +1469,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CloseRunnable
 nsIRunnable
@@ -1509,7 +1509,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DestroyRunnable
 nsIRunnable

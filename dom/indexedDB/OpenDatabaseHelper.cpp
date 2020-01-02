@@ -5007,7 +5007,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CompressDataBlobsFunction
 mozIStorageFunction
@@ -6385,7 +6385,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 EncodeKeysFunction
 mozIStorageFunction
@@ -8966,7 +8966,7 @@ mNewVersion
 /
 anonymous
 namespace
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 OpenDatabaseHelper
 nsIRunnable

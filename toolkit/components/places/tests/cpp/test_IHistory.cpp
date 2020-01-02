@@ -534,7 +534,7 @@ mExpectedVisits
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 VisitURIObserver
 nsIObserver
@@ -2205,7 +2205,7 @@ mNotified
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 statusObserver
 nsIObserver

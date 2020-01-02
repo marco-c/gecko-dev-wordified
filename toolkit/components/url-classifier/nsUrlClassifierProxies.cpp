@@ -153,7 +153,7 @@ NS_DISPATCH_NORMAL
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 UrlClassifierDBServiceWorkerProxy
 nsIUrlClassifierDBServiceWorker
@@ -743,7 +743,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 UrlClassifierLookupCallbackProxy
 nsIUrlClassifierLookupCallback
@@ -802,7 +802,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 UrlClassifierCallbackProxy
 nsIUrlClassifierCallback
@@ -862,7 +862,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 UrlClassifierUpdateObserverProxy
 nsIUrlClassifierUpdateObserver

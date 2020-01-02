@@ -589,7 +589,7 @@ ISuuports
 implementation
 for
 nsTokenEventRunnable
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsTokenEventRunnable
 nsIRunnable
@@ -4597,7 +4597,7 @@ CipherSuiteChangeObserver
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CipherSuiteChangeObserver
 nsIObserver
@@ -7550,7 +7550,7 @@ Implementation
 for
 the
 class
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 nsNSSComponent
 nsISignatureVerifier
@@ -10232,7 +10232,7 @@ mozilla
 :
 :
 psm
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 PipUIContext
 nsIInterfaceRequestor

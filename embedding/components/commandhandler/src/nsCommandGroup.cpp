@@ -245,7 +245,7 @@ Implementation
 file
 *
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsGroupsEnumerator
 nsISimpleEnumerator
@@ -742,7 +742,7 @@ nsNamedGroupEnumerator
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsNamedGroupEnumerator
 nsISimpleEnumerator
@@ -944,7 +944,7 @@ Implementation
 file
 *
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsControllerCommandGroup
 nsIControllerCommandGroup

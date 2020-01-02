@@ -992,7 +992,7 @@ key
 nsOfflineCacheEvictionFunction
 *
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsOfflineCacheEvictionFunction
 mozIStorageFunction
@@ -1726,7 +1726,7 @@ mDevice
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsOfflineCacheDeviceInfo
 nsICacheDeviceInfo
@@ -3060,7 +3060,7 @@ mRec
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsOfflineCacheEntryInfo
 nsICacheEntryInfo
@@ -3378,7 +3378,7 @@ NS_OK
 nsApplicationCacheNamespace
 *
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsApplicationCacheNamespace
 nsIApplicationCacheNamespace
@@ -3558,7 +3558,7 @@ NS_OK
 nsApplicationCache
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsApplicationCache
 nsIApplicationCache

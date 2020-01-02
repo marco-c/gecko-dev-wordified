@@ -2380,7 +2380,7 @@ nsPipe
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPipe
 nsIPipe
@@ -4297,7 +4297,7 @@ methods
 -
 -
 -
-NS_IMPL_QUERY_INTERFACE5
+NS_IMPL_QUERY_INTERFACE
 (
 nsPipeInputStream
 nsIInputStream
@@ -4306,7 +4306,7 @@ nsISeekableStream
 nsISearchableInputStream
 nsIClassInfo
 )
-NS_IMPL_CI_INTERFACE_GETTER4
+NS_IMPL_CI_INTERFACE_GETTER
 (
 nsPipeInputStream
 nsIInputStream
@@ -6221,14 +6221,14 @@ methods
 -
 -
 -
-NS_IMPL_QUERY_INTERFACE3
+NS_IMPL_QUERY_INTERFACE
 (
 nsPipeOutputStream
 nsIOutputStream
 nsIAsyncOutputStream
 nsIClassInfo
 )
-NS_IMPL_CI_INTERFACE_GETTER2
+NS_IMPL_CI_INTERFACE_GETTER
 (
 nsPipeOutputStream
 nsIOutputStream

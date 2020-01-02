@@ -323,7 +323,7 @@ HTMLScriptElement
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED4
+NS_IMPL_ISUPPORTS_INHERITED
 (
 HTMLScriptElement
 nsGenericHTMLElement

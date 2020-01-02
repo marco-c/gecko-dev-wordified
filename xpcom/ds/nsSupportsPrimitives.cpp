@@ -197,7 +197,7 @@ fallible_t
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsIDImpl
 nsISupportsID
@@ -606,7 +606,7 @@ nsSupportsCStringImpl
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsCStringImpl
 nsISupportsCString
@@ -888,7 +888,7 @@ nsSupportsStringImpl
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsStringImpl
 nsISupportsString
@@ -1089,7 +1089,7 @@ NS_OK
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsPRBoolImpl
 nsISupportsPRBool
@@ -1339,7 +1339,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsPRUint8Impl
 nsISupportsPRUint8
@@ -1601,7 +1601,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsPRUint16Impl
 nsISupportsPRUint16
@@ -1863,7 +1863,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsPRUint32Impl
 nsISupportsPRUint32
@@ -2122,7 +2122,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsPRUint64Impl
 nsISupportsPRUint64
@@ -2381,7 +2381,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsPRTimeImpl
 nsISupportsPRTime
@@ -2640,7 +2640,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsCharImpl
 nsISupportsChar
@@ -2895,7 +2895,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsPRInt16Impl
 nsISupportsPRInt16
@@ -3154,7 +3154,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsPRInt32Impl
 nsISupportsPRInt32
@@ -3413,7 +3413,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsPRInt64Impl
 nsISupportsPRInt64
@@ -3672,7 +3672,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsFloatImpl
 nsISupportsFloat
@@ -3939,7 +3939,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsDoubleImpl
 nsISupportsDouble
@@ -4203,7 +4203,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsVoidImpl
 nsISupportsVoid
@@ -4445,7 +4445,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsInterfacePointerImpl
 nsISupportsInterfacePointer
@@ -4855,7 +4855,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 *
 /
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsSupportsDependentCString
 nsISupportsCString

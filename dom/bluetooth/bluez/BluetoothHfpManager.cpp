@@ -1185,7 +1185,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 BluetoothHfpManager
 :
@@ -12009,7 +12009,7 @@ aErrorStr
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 BluetoothHfpManager
 nsIObserver

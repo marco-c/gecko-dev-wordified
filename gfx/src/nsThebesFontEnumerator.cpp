@@ -238,7 +238,7 @@ h
 for
 char16_t
 NS_IMETHODIMP
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsThebesFontEnumerator
 nsIFontEnumerator

@@ -125,7 +125,7 @@ mozilla
 namespace
 net
 {
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsPreloadedStream
 nsIInputStream

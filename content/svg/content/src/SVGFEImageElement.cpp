@@ -346,7 +346,7 @@ true
 /
 nsISupports
 methods
-NS_IMPL_ISUPPORTS_INHERITED6
+NS_IMPL_ISUPPORTS_INHERITED
 (
 SVGFEImageElement
 SVGFEImageElementBase

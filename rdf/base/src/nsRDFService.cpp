@@ -1686,7 +1686,7 @@ mData
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 BlobImpl
 nsIRDFNode
@@ -4368,7 +4368,7 @@ aResult
 )
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 RDFServiceImpl
 nsIRDFService

@@ -118,7 +118,7 @@ Implementation
 file
 *
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsX509CertValidity
 nsIX509CertValidity

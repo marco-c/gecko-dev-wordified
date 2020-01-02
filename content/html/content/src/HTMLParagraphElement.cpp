@@ -155,7 +155,7 @@ HTMLParagraphElement
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 HTMLParagraphElement
 nsGenericHTMLElement

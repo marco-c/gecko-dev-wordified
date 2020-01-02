@@ -297,7 +297,7 @@ MAX_BYTES_SNIFFED_MP3
 +
 4
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsMediaSniffer
 nsIContentSniffer

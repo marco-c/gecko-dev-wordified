@@ -1812,7 +1812,7 @@ ProcessPriorityManagerImpl
 :
 sSingleton
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ProcessPriorityManagerImpl
 nsIObserver
@@ -3028,7 +3028,7 @@ ResetCPUPriorityNow
 }
 }
 }
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 ParticularProcessPriorityManager
 nsIObserver
@@ -6035,7 +6035,7 @@ return
 sSingleton
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ProcessPriorityManagerChild
 nsIObserver

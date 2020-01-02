@@ -563,7 +563,7 @@ return
 0
 ;
 }
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 CacheStorageService
 nsICacheStorageService
@@ -5669,7 +5669,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CacheEntryDoomByKeyCallback
 CacheFileIOListener

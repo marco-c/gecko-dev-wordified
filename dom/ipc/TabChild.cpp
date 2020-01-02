@@ -776,7 +776,7 @@ mozilla
 :
 jsipc
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ContentListener
 nsIDOMEventListener

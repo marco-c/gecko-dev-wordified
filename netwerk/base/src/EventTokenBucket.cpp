@@ -315,7 +315,7 @@ mEvent
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 TokenBucketCancelable
 nsICancelable
@@ -488,7 +488,7 @@ EventTokenBucket
 /
 /
 /
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 EventTokenBucket
 nsITimerCallback

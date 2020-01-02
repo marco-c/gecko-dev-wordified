@@ -1442,12 +1442,12 @@ PL_DHASH_NEXT
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 imgMemoryReporter
 nsIMemoryReporter
 )
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsProgressNotificationProxy
 nsIProgressEventSink
@@ -3866,7 +3866,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 imgCacheObserver
 nsIObserver
@@ -4173,7 +4173,7 @@ imgLoader
 :
 sMemReporter
 ;
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 imgLoader
 imgILoader
@@ -12388,7 +12388,7 @@ nsIStreamConverterService
 .
 h
 "
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 ProxyListener
 nsIStreamListener
@@ -12948,7 +12948,7 @@ a
 304
 *
 /
-NS_IMPL_ISUPPORTS6
+NS_IMPL_ISUPPORTS
 (
 imgCacheValidator
 nsIStreamListener

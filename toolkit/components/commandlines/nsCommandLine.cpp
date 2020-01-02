@@ -438,7 +438,7 @@ nullptr
 0
 NS_COMMANDLINE_CID
 )
-NS_IMPL_ISUPPORTS2_CI
+NS_IMPL_ISUPPORTS_CI
 (
 nsCommandLine
 nsICommandLine

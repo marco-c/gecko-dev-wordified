@@ -3521,7 +3521,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 InsertCookieDBListener
 mozIStorageStatementCallback
@@ -3773,7 +3773,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 UpdateCookieDBListener
 mozIStorageStatementCallback
@@ -4025,7 +4025,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 RemoveCookieDBListener
 mozIStorageStatementCallback
@@ -4621,7 +4621,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ReadCookieDBListener
 mozIStorageStatementCallback
@@ -4853,7 +4853,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CloseCookieDBListener
 mozIStorageCompletionCallback
@@ -4961,7 +4961,7 @@ browserOnly
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 AppClearDataObserver
 nsIObserver
@@ -5824,7 +5824,7 @@ methods
 *
 *
 /
-NS_IMPL_ISUPPORTS6
+NS_IMPL_ISUPPORTS
 (
 nsCookieService
 nsICookieService

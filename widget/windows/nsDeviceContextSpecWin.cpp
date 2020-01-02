@@ -1417,7 +1417,7 @@ nullptr
 -
 -
 -
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsDeviceContextSpecWin
 nsIDeviceContextSpec
@@ -5139,7 +5139,7 @@ FreeGlobalPrinters
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPrinterEnumeratorWin
 nsIPrinterEnumerator

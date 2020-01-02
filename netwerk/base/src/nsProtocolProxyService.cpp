@@ -1819,7 +1819,7 @@ mProxyInfo
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsAsyncResolveRequest
 nsICancelable
@@ -2494,14 +2494,14 @@ nsIClassInfo
 SINGLETON
 NS_PROTOCOLPROXYSERVICE_CID
 )
-NS_IMPL_QUERY_INTERFACE3_CI
+NS_IMPL_QUERY_INTERFACE_CI
 (
 nsProtocolProxyService
 nsIProtocolProxyService
 nsIProtocolProxyService2
 nsIObserver
 )
-NS_IMPL_CI_INTERFACE_GETTER2
+NS_IMPL_CI_INTERFACE_GETTER
 (
 nsProtocolProxyService
 nsIProtocolProxyService

@@ -524,7 +524,7 @@ this
 /
 /
 nsISupports
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 ARIAGridAccessible
 Accessible
@@ -3602,7 +3602,7 @@ eTableCell
 /
 /
 nsISupports
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 ARIAGridCellAccessible
 HyperTextAccessible

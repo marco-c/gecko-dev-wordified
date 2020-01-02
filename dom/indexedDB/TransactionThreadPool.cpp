@@ -2903,7 +2903,7 @@ Notify
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 TransactionThreadPool
 :
@@ -3290,7 +3290,7 @@ aFinishRunnable
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 FinishTransactionRunnable
 nsIRunnable
@@ -3380,7 +3380,7 @@ NS_OK
 #
 ifdef
 MOZ_ENABLE_PROFILER_SPS
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 TransactionThreadPoolListener
 nsIThreadPoolListener

@@ -1318,7 +1318,7 @@ nsAppStartup
 nsISupports
 /
 /
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 nsAppStartup
 nsIAppStartup

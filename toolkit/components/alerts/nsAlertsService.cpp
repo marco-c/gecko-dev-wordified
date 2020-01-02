@@ -205,7 +205,7 @@ dom
 :
 ContentChild
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsAlertsService
 nsIAlertsService

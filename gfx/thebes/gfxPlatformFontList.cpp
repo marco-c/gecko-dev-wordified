@@ -403,7 +403,7 @@ gFontListPrefObserver
 =
 nullptr
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 gfxFontListPrefObserver
 nsIObserver
@@ -505,7 +505,7 @@ MOZ_DEFINE_MALLOC_SIZE_OF
 (
 FontListMallocSizeOf
 )
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 gfxPlatformFontList
 :

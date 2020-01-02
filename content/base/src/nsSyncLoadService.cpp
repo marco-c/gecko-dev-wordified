@@ -415,7 +415,7 @@ nsForceXMLListener
 )
 {
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsForceXMLListener
 nsIStreamListener
@@ -550,7 +550,7 @@ NS_BINDING_ABORTED
 ;
 }
 }
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 nsSyncLoader
 nsIStreamListener

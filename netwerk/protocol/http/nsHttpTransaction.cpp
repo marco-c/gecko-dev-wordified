@@ -11652,7 +11652,7 @@ return
 count
 ;
 }
-NS_IMPL_QUERY_INTERFACE2
+NS_IMPL_QUERY_INTERFACE
 (
 nsHttpTransaction
 nsIInputStreamCallback

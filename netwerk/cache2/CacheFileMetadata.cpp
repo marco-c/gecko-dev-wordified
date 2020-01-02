@@ -182,7 +182,7 @@ kAlignSize
 define
 kCacheEntryVersion
 1
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CacheFileMetadata
 CacheFileIOListener
