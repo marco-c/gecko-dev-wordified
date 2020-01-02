@@ -622,6 +622,7 @@ function
 BuildCharsetMenu
 (
 event
+showAccessKeys
 )
 {
 let
@@ -755,6 +756,11 @@ encoding
 )
 ;
 }
+if
+(
+showAccessKeys
+)
+{
 try
 {
 menuItem
@@ -794,6 +800,7 @@ t
 have
 an
 accesskey
+}
 }
 menuItem
 .
