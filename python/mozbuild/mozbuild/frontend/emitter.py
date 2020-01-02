@@ -1610,6 +1610,24 @@ chrome
 True
 )
             
+MOCHITEST_WEBAPPRT_CHROME
+=
+(
+'
+webapprt
+-
+chrome
+'
+'
+testing
+/
+mochitest
+/
+webapprtChrome
+'
+True
+)
+            
 WEBRTC_SIGNALLING_TEST
 =
 (
