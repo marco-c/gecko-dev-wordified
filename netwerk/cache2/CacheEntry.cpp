@@ -2740,13 +2740,15 @@ if
 !
 aCallback
 .
-mReadOnly
-&
-&
+mRecheckAfterWrite
+)
+{
+if
+(
 !
 aCallback
 .
-mRecheckAfterWrite
+mReadOnly
 )
 {
 if
@@ -2860,6 +2862,7 @@ now
 return
 true
 ;
+}
 }
 if
 (
