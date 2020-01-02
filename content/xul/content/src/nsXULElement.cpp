@@ -5246,6 +5246,18 @@ controlElement
 ;
 nsCOMPtr
 <
+nsIDOMXULElement
+>
+xulElement
+(
+do_QueryInterface
+(
+controlElement
+)
+)
+;
+nsCOMPtr
+<
 nsIDOMElement
 >
 oldKidElem
@@ -5257,7 +5269,7 @@ oldKid
 ;
 if
 (
-controlElement
+xulElement
 &
 &
 oldKidElem
@@ -5445,7 +5457,7 @@ nsIBoxObject
 >
 box
 ;
-controlElement
+xulElement
 -
 >
 GetBoxObject
