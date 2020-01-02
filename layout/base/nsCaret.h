@@ -468,7 +468,6 @@ return
 NS_OK
 *
 /
-virtual
 nsresult
 GetCaretVisible
 (
@@ -782,7 +781,6 @@ size
 .
 *
 /
-virtual
 nsIFrame
 *
 GetGeometry
