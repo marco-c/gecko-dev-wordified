@@ -1336,9 +1336,10 @@ UNSAFE_OP
 (
 CallInitElementArray
 )
-UNSAFE_OP
+WRITE_GUARDED_OP
 (
 CallSetProperty
+object
 )
 UNSAFE_OP
 (
@@ -1348,9 +1349,10 @@ UNSAFE_OP
 (
 DeleteElement
 )
-UNSAFE_OP
+WRITE_GUARDED_OP
 (
 SetPropertyCache
+object
 )
 UNSAFE_OP
 (

@@ -14498,7 +14498,7 @@ if
 setprop
 -
 >
-obj
+object
 (
 )
 !
