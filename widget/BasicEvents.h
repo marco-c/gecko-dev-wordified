@@ -469,7 +469,7 @@ eAnimationEventClass
 /
 /
 InternalAnimationEvent
-NS_SVGZOOM_EVENT
+eSVGZoomEventClass
 /
 /
 InternalSVGZoomEvent
