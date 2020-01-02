@@ -17090,7 +17090,9 @@ browser
 .
 newtabpage
 .
-directorySource
+directory
+.
+source
 "
 "
 chrome
