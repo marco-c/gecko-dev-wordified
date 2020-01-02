@@ -572,7 +572,7 @@ NodeStack
 :
 top
 (
-NULL
+nullptr
 )
 {
 }
@@ -585,7 +585,7 @@ return
 top
 =
 =
-NULL
+nullptr
 ;
 }
 void
@@ -1030,7 +1030,7 @@ pn
 >
 pn_funbox
 =
-NULL
+nullptr
 ;
 stack
 -
@@ -1048,7 +1048,7 @@ pn
 >
 pn_body
 =
-NULL
+nullptr
 ;
 return
 false
@@ -1187,7 +1187,7 @@ pn
 >
 pn_expr
 =
-NULL
+nullptr
 ;
 }
 return
@@ -1569,7 +1569,7 @@ if
 pn
 )
 return
-NULL
+nullptr
 ;
 ParseNode
 *
@@ -1798,7 +1798,7 @@ left
 right
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -1900,7 +1900,7 @@ if
 list
 )
 return
-NULL
+nullptr
 ;
 list
 -
@@ -2109,7 +2109,7 @@ left
 right
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -2515,7 +2515,7 @@ JS_CHECK_RECURSION
 (
 context
 return
-NULL
+nullptr
 )
 ;
 ParseNode
@@ -2559,7 +2559,7 @@ if
 pn
 )
 return
-NULL
+nullptr
 ;
 pn
 -
@@ -2625,7 +2625,7 @@ e
 )
 )
 return
-NULL
+nullptr
 ;
 JS_END_MACRO
 case
@@ -3334,7 +3334,7 @@ if
 pn
 )
 return
-NULL
+nullptr
 ;
 pn
 -
@@ -3492,7 +3492,7 @@ if
 tag
 )
 return
-NULL
+nullptr
 ;
 ParseNode
 *
@@ -3512,7 +3512,7 @@ if
 target
 )
 return
-NULL
+nullptr
 ;
 pn2
 =
@@ -3581,7 +3581,7 @@ if
 pn2
 )
 return
-NULL
+nullptr
 ;
 pn
 -
@@ -3712,7 +3712,7 @@ pn
 >
 pn_expr
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3848,7 +3848,7 @@ if
 pn
 =
 =
-NULL
+nullptr
 )
 fprintf
 (
@@ -4193,7 +4193,7 @@ cstr
 =
 NumberToCString
 (
-NULL
+nullptr
 &
 cbuf
 pn_dval
@@ -4592,7 +4592,7 @@ if
 pn_head
 !
 =
-NULL
+nullptr
 )
 {
 indent
@@ -4625,7 +4625,7 @@ while
 pn
 !
 =
-NULL
+nullptr
 )
 {
 IndentNewLine
@@ -4999,7 +4999,7 @@ traceLink
 )
 emitLink
 (
-NULL
+nullptr
 )
 {
 JS_ASSERT
@@ -5040,7 +5040,7 @@ traceLink
 )
 emitLink
 (
-NULL
+nullptr
 )
 {
 JS_ASSERT
@@ -5149,7 +5149,7 @@ traceLink
 )
 emitLink
 (
-NULL
+nullptr
 )
 {
 JS_ASSERT

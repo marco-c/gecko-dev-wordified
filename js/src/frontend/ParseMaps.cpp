@@ -463,7 +463,7 @@ newAllLength
 )
 )
 return
-NULL
+nullptr
 ;
 AtomMapT
 *
@@ -482,7 +482,7 @@ if
 map
 )
 return
-NULL
+nullptr
 ;
 all
 .

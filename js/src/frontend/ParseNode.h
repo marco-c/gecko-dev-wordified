@@ -1649,7 +1649,7 @@ of
 in
 '
 or
-NULL
+nullptr
 *
 its
 pn_xflags
@@ -1711,7 +1711,7 @@ first
 ;
 '
 or
-NULL
+nullptr
 *
 pn_kid2
 :
@@ -1723,7 +1723,7 @@ second
 ;
 '
 or
-NULL
+nullptr
 *
 pn_kid3
 :
@@ -1735,7 +1735,7 @@ second
 ;
 '
 or
-NULL
+nullptr
 *
 PNK_THROW
 unary
@@ -3013,11 +3013,11 @@ pn_offset
 )
 pn_next
 (
-NULL
+nullptr
 )
 pn_link
 (
-NULL
+nullptr
 )
 {
 JS_ASSERT
@@ -3085,11 +3085,11 @@ pn_offset
 )
 pn_next
 (
-NULL
+nullptr
 )
 pn_link
 (
-NULL
+nullptr
 )
 {
 JS_ASSERT
@@ -4087,7 +4087,7 @@ pn_next
 =
 pn_link
 =
-NULL
+nullptr
 ;
 }
 static
@@ -4384,7 +4384,7 @@ maybeExpr
 return
 pn_used
 ?
-NULL
+nullptr
 :
 expr
 (
@@ -4404,7 +4404,7 @@ lexdef
 (
 )
 :
-NULL
+nullptr
 ;
 }
 Definition
@@ -5131,7 +5131,7 @@ pn_atom
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 inline
@@ -5525,7 +5525,7 @@ PN_LIST
 ;
 pn_head
 =
-NULL
+nullptr
 ;
 pn_tail
 =
@@ -6633,7 +6633,7 @@ atom
 ;
 pn_expr
 =
-NULL
+nullptr
 ;
 pn_cookie
 .
@@ -7571,7 +7571,7 @@ JS_ASSERT
 lhs
 !
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -7579,7 +7579,7 @@ JS_ASSERT
 name
 !
 =
-NULL
+nullptr
 )
 ;
 pn_u
@@ -8895,7 +8895,7 @@ alloc
 )
 freelist
 (
-NULL
+nullptr
 )
 {
 }

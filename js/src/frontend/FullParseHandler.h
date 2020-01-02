@@ -254,7 +254,7 @@ if
 node
 )
 return
-NULL
+nullptr
 ;
 mozilla
 :
@@ -350,7 +350,7 @@ public
 If
 non
 -
-NULL
+nullptr
 points
 to
 a
@@ -492,7 +492,7 @@ null
 )
 {
 return
-NULL
+nullptr
 ;
 }
 ParseNode
@@ -615,7 +615,7 @@ if
 dn
 )
 return
-NULL
+nullptr
 ;
 dn
 -
@@ -696,7 +696,7 @@ if
 pn
 )
 return
-NULL
+nullptr
 ;
 pn
 -
@@ -1064,12 +1064,12 @@ pos
 ParseNode
 *
 )
-NULL
+nullptr
 (
 ParseNode
 *
 )
-NULL
+nullptr
 )
 ;
 }
@@ -1105,7 +1105,7 @@ left
 ParseNode
 *
 )
-NULL
+nullptr
 )
 ;
 }
@@ -1917,7 +1917,7 @@ pos
 ParseNode
 *
 )
-NULL
+nullptr
 )
 ;
 }
@@ -2988,7 +2988,7 @@ ParseNode
 *
 kid
 =
-NULL
+nullptr
 JSOp
 op
 =
@@ -3014,7 +3014,7 @@ if
 pn
 )
 return
-NULL
+nullptr
 ;
 pn
 -
@@ -3278,7 +3278,7 @@ asPropertyName
 (
 )
 :
-NULL
+nullptr
 ;
 }
 bool
@@ -3334,7 +3334,7 @@ name
 (
 )
 :
-NULL
+nullptr
 ;
 }
 JSAtom
@@ -3379,7 +3379,7 @@ atom
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 inline
@@ -3702,7 +3702,7 @@ nullDefinition
 )
 {
 return
-NULL
+nullptr
 ;
 }
 void
@@ -3712,7 +3712,7 @@ disableSyntaxParser
 {
 syntaxParser
 =
-NULL
+nullptr
 ;
 }
 LazyScript
@@ -3948,21 +3948,21 @@ if
 pn
 )
 return
-NULL
+nullptr
 ;
 pn
 -
 >
 pn_body
 =
-NULL
+nullptr
 ;
 pn
 -
 >
 pn_funbox
 =
-NULL
+nullptr
 ;
 pn
 -
@@ -4016,7 +4016,7 @@ if
 pn
 )
 return
-NULL
+nullptr
 ;
 pn
 -
@@ -4206,7 +4206,7 @@ if
 lhs
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4277,7 +4277,7 @@ pn
 >
 pn_link
 =
-NULL
+nullptr
 ;
 }
 pn

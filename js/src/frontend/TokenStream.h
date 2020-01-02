@@ -1614,7 +1614,7 @@ CompileError
 :
 message
 (
-NULL
+nullptr
 )
 argumentsType
 (
@@ -3947,7 +3947,7 @@ return
 sourceURL_
 !
 =
-NULL
+nullptr
 ;
 }
 jschar
@@ -3970,7 +3970,7 @@ return
 sourceMapURL_
 !
 =
-NULL
+nullptr
 ;
 }
 jschar
@@ -4949,7 +4949,7 @@ ptr
 /
 this
 will
-NULL
+nullptr
 -
 crash
 if
@@ -4969,7 +4969,7 @@ ptr
 /
 this
 will
-NULL
+nullptr
 -
 crash
 if
@@ -4995,7 +4995,7 @@ c
 /
 this
 will
-NULL
+nullptr
 -
 crash
 if
@@ -5171,7 +5171,7 @@ poison
 {
 ptr
 =
-NULL
+nullptr
 ;
 }
 #
@@ -5649,7 +5649,7 @@ of
 previous
 line
 ;
-NULL
+nullptr
 if
 on
 the

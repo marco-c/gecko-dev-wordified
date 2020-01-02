@@ -238,7 +238,7 @@ map_
 ;
 map_
 =
-NULL
+nullptr
 ;
 }
 template

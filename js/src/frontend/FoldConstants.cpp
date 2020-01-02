@@ -233,7 +233,7 @@ if
 pn
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -392,7 +392,7 @@ JSOP_NOP
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -435,7 +435,7 @@ JSOP_NOP
 )
 )
 return
-NULL
+nullptr
 ;
 return
 ContainsVarOrConst
@@ -465,7 +465,7 @@ default
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1464,15 +1464,15 @@ ParseNode
 *
 pn1
 =
-NULL
+nullptr
 *
 pn2
 =
-NULL
+nullptr
 *
 pn3
 =
-NULL
+nullptr
 ;
 JS_CHECK_RECURSION
 (
@@ -1583,7 +1583,7 @@ Note
 :
 pn_body
 is
-NULL
+nullptr
 for
 functions
 which
@@ -1840,7 +1840,7 @@ pn_head
 ;
 pn2
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -1979,7 +1979,7 @@ pn
 >
 pn_kid2
 =
-NULL
+nullptr
 ;
 }
 }
@@ -3149,7 +3149,7 @@ pn1
 >
 pn_next
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -3218,7 +3218,7 @@ listp
 )
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -3264,7 +3264,7 @@ pn1
 >
 pn_next
 =
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -4383,7 +4383,7 @@ pn3
 )
 !
 =
-NULL
+nullptr
 )
 {
 pn3
@@ -4822,7 +4822,7 @@ PropertyName
 *
 name
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5124,14 +5124,14 @@ pn
 >
 pn_left
 =
-NULL
+nullptr
 ;
 pn
 -
 >
 pn_right
 =
-NULL
+nullptr
 ;
 handler
 .

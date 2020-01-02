@@ -358,7 +358,7 @@ lazyOuterFunction
 :
 lastAtom
 (
-NULL
+nullptr
 )
 tokenStream
 (
@@ -1479,7 +1479,7 @@ asPropertyName
 (
 )
 :
-NULL
+nullptr
 ;
 }
 PropertyName
@@ -1505,7 +1505,7 @@ asPropertyName
 (
 )
 :
-NULL
+nullptr
 ;
 }
 JSAtom
@@ -1537,7 +1537,7 @@ lastAtom
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 Node

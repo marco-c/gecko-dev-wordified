@@ -170,7 +170,7 @@ JSString
 *
 source_
 =
-NULL
+nullptr
 unsigned
 staticLevel
 =
@@ -179,7 +179,7 @@ SourceCompressionTask
 *
 extraSct
 =
-NULL
+nullptr
 )
 ;
 bool

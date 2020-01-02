@@ -854,9 +854,9 @@ returned
 node
 could
 be
-NULL
-if
+nullptr
 *
+if
 no
 assignment
 is
@@ -976,7 +976,7 @@ case
 PNK_FUNCTION
 :
 return
-NULL
+nullptr
 ;
 /
 *
@@ -1243,7 +1243,7 @@ break
 }
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1304,7 +1304,7 @@ JS_ASSERT
 pn
 !
 =
-NULL
+nullptr
 &
 &
 pn
@@ -1368,7 +1368,7 @@ displayAtom
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1376,7 +1376,7 @@ if
 prefix
 =
 =
-NULL
+nullptr
 )
 return
 fun
@@ -1422,7 +1422,7 @@ displayAtom
 )
 )
 return
-NULL
+nullptr
 ;
 return
 buf
@@ -1453,7 +1453,7 @@ if
 prefix
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -1478,7 +1478,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -1557,7 +1557,7 @@ assignment
 )
 )
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1670,7 +1670,7 @@ pn_atom
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -1697,7 +1697,7 @@ pn_dval
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1769,7 +1769,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1851,7 +1851,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1862,7 +1862,7 @@ empty
 )
 )
 return
-NULL
+nullptr
 ;
 JSAtom
 *
@@ -1880,7 +1880,7 @@ if
 atom
 )
 return
-NULL
+nullptr
 ;
 fun
 -
@@ -2001,7 +2001,7 @@ nparents
 )
 buf
 (
-NULL
+nullptr
 )
 {
 }
@@ -2034,7 +2034,7 @@ and
 should
 initially
 be
-NULL
+nullptr
 .
 *
 /
@@ -2064,7 +2064,7 @@ if
 cur
 =
 =
-NULL
+nullptr
 )
 return
 ;
