@@ -322,6 +322,12 @@ TestCase
 (
 )
 ;
+const
+nsCString
+GetExtraParameters
+(
+)
+;
 bool
 IsTestCaseInternal
 (
