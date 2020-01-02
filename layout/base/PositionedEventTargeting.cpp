@@ -1668,17 +1668,6 @@ PresContext
 (
 )
 ;
-nsIPresShell
-*
-presShell
-=
-pc
--
->
-PresShell
-(
-)
-;
 float
 result
 =
