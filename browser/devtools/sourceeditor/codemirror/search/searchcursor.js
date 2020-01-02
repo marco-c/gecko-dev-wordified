@@ -788,7 +788,6 @@ reverse
 ?
 offsetA
 >
-=
 pos
 .
 ch
@@ -803,7 +802,6 @@ length
 :
 offsetA
 <
-=
 pos
 .
 ch

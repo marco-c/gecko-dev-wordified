@@ -662,9 +662,6 @@ stream
 match
 (
 cur
-[
-0
-]
 )
 ;
 }
