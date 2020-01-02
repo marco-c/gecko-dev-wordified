@@ -64,6 +64,8 @@ mozilla
 gecko
 .
 mozglue
+.
+generatorannotations
 ;
 import
 java
