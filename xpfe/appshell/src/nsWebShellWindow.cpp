@@ -222,13 +222,6 @@ h
 #
 include
 "
-nsWidgetInitData
-.
-h
-"
-#
-include
-"
 nsWidgetsCID
 .
 h
