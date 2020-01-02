@@ -142,6 +142,9 @@ nsIFrame
 class
 nsRenderingContext
 ;
+class
+nsIntRegion
+;
 struct
 nsRect
 ;
@@ -693,13 +696,13 @@ item
 .
 *
 param
-aInvalidRect
+aInvalidRegion
 The
 pre
 -
 effects
 invalid
-rect
+region
 in
 pixels
 relative
@@ -731,7 +734,7 @@ item
 *
 /
 static
-nsIntRect
+nsIntRegion
 AdjustInvalidAreaForSVGEffects
 (
 nsIFrame
@@ -742,9 +745,9 @@ nsPoint
 &
 aToReferenceFrame
 const
-nsIntRect
+nsIntRegion
 &
-aInvalidRect
+aInvalidRegion
 )
 ;
 /
