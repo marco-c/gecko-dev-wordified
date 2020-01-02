@@ -1891,10 +1891,9 @@ Suspend
 (
 )
 ;
-WinUtils
 :
 :
-WaitForMessage
+WaitMessage
 (
 )
 ;
