@@ -513,6 +513,17 @@ EnsurePluginMimeTypes
 (
 )
 ;
+nsString
+lowerName
+(
+aName
+)
+;
+ToLowerCase
+(
+lowerName
+)
+;
 nsMimeType
 *
 mimeType
@@ -520,7 +531,7 @@ mimeType
 FindMimeType
 (
 mMimeTypes
-aName
+lowerName
 )
 ;
 if
@@ -534,7 +545,7 @@ mimeType
 FindMimeType
 (
 mHiddenMimeTypes
-aName
+lowerName
 )
 ;
 }
@@ -605,7 +616,7 @@ GetFromTypeAndExtension
 (
 NS_ConvertUTF16toUTF8
 (
-aName
+lowerName
 )
 EmptyCString
 (
@@ -824,7 +835,7 @@ new
 nsMimeType
 (
 mWindow
-aName
+lowerName
 )
 ;
 mHiddenMimeTypes
