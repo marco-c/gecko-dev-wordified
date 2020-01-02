@@ -470,6 +470,14 @@ aDescr
 )
 ;
 nsresult
+SetAttributesForContrast
+(
+FilterPrimitiveDescription
+&
+aDescr
+)
+;
+nsresult
 SetAttributesForDropShadow
 (
 FilterPrimitiveDescription
