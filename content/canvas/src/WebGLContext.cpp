@@ -5353,12 +5353,6 @@ mIsGLAlphaPremult
 IsPremultAlpha
 (
 )
-|
-|
-!
-data
-.
-mHasAlpha
 ;
 canvasLayer
 -

@@ -1197,8 +1197,6 @@ gfx
 Filter
 &
 aFilter
-bool
-isAlphaPremultiplied
 )
 {
 MOZ_ASSERT
@@ -1268,7 +1266,7 @@ new
 EffectRGB
 (
 aSource
-isAlphaPremultiplied
+true
 aFilter
 )
 ;
@@ -1360,8 +1358,6 @@ gfx
 Filter
 &
 aFilter
-bool
-isAlphaPremultiplied
 )
 {
 MOZ_ASSERT
@@ -1431,7 +1427,6 @@ GetFormat
 )
 aSource
 aFilter
-isAlphaPremultiplied
 )
 ;
 }
@@ -1486,7 +1481,6 @@ CreateTexturedEffect
 aTexture
 nullptr
 aFilter
-true
 )
 ;
 }

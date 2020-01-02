@@ -294,17 +294,6 @@ return
 LOCAL_GL_TEXTURE_RECTANGLE_ARB
 ;
 }
-MacIOSurface
-*
-GetIOSurface
-(
-)
-const
-{
-return
-mSurface
-;
-}
 private
 :
 SharedSurface_IOSurface

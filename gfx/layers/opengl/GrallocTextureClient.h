@@ -115,10 +115,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
 ISurfaceAllocator
 .
 h

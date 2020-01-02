@@ -1962,7 +1962,6 @@ Filter
 :
 :
 POINT
-true
 )
 ;
 compositor
