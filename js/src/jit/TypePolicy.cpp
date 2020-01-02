@@ -5390,9 +5390,6 @@ toInstruction
 break
 ;
 case
-MIRType_Object
-:
-case
 MIRType_Undefined
 :
 value
@@ -5436,6 +5433,9 @@ toInstruction
 ;
 break
 ;
+case
+MIRType_Object
+:
 case
 MIRType_String
 :
