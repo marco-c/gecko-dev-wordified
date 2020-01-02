@@ -941,11 +941,11 @@ sTabFocusModelAppliesToXUL
 =
 false
 ;
-uint32_t
+uint64_t
 nsMutationGuard
 :
 :
-sMutationCount
+sGeneration
 =
 0
 ;
