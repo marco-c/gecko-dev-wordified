@@ -5711,7 +5711,7 @@ true
 ;
 event
 .
-seqno
+mSeqno
 =
 +
 +
@@ -5867,7 +5867,7 @@ Length
 ;
 event
 .
-seqno
+mSeqno
 =
 +
 +
@@ -5942,7 +5942,7 @@ mLength
 ;
 event
 .
-seqno
+mSeqno
 =
 +
 +
