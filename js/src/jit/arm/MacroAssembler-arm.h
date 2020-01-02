@@ -10467,6 +10467,17 @@ address
 )
 ;
 void
+store32_NoSecondScratch
+(
+Imm32
+src
+const
+Address
+&
+address
+)
+;
+void
 storePtr
 (
 ImmWord
