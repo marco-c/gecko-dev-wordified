@@ -120,14 +120,14 @@ URIs
 #
 include
 "
-nscore
+nsNameSpaceManager
 .
 h
 "
 #
 include
 "
-nsINameSpaceManager
+nscore
 .
 h
 "

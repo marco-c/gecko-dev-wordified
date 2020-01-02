@@ -122,13 +122,6 @@ h
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -137,6 +130,13 @@ h
 include
 "
 nsGkAtoms
+.
+h
+"
+#
+include
+"
+nsNameSpaceManager
 .
 h
 "

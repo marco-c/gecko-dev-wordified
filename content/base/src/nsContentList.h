@@ -208,14 +208,14 @@ h
 #
 include
 "
-nsINameSpaceManager
+nsCycleCollectionParticipant
 .
 h
 "
 #
 include
 "
-nsCycleCollectionParticipant
+nsNameSpaceManager
 .
 h
 "

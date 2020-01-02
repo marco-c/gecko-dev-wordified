@@ -240,13 +240,6 @@ h
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsIRDFService
 .
 h
@@ -276,6 +269,13 @@ h
 include
 "
 nsLayoutCID
+.
+h
+"
+#
+include
+"
+nsNameSpaceManager
 .
 h
 "

@@ -152,9 +152,6 @@ class
 nsIRDFService
 ;
 class
-nsINameSpaceManager
-;
-class
 nsIDateTimeFormat
 ;
 class

@@ -136,7 +136,7 @@ nsIDOMNode
 #
 include
 "
-nsINameSpaceManager
+nsNameSpaceManager
 .
 h
 "

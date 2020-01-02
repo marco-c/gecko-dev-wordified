@@ -511,13 +511,6 @@ h
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsINodeInfo
 .
 h
@@ -603,6 +596,13 @@ h
 include
 "
 nsLayoutUtils
+.
+h
+"
+#
+include
+"
+nsNameSpaceManager
 .
 h
 "

@@ -282,13 +282,6 @@ h
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsIPersistentProperties2
 .
 h
@@ -346,6 +339,13 @@ h
 include
 "
 nsFocusManager
+.
+h
+"
+#
+include
+"
+nsNameSpaceManager
 .
 h
 "

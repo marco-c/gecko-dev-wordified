@@ -263,13 +263,6 @@ h
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsINodeInfo
 .
 h
@@ -278,6 +271,13 @@ h
 include
 "
 nsIServiceManager
+.
+h
+"
+#
+include
+"
+nsNameSpaceManager
 .
 h
 "

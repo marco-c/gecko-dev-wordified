@@ -904,7 +904,7 @@ nsIMEStateManager
 #
 include
 "
-nsINameSpaceManager
+nsNameSpaceManager
 .
 h
 "

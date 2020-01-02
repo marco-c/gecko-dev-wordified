@@ -216,13 +216,6 @@ h
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsIDOMNodeList
 .
 h
@@ -294,6 +287,13 @@ h
 include
 "
 nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
+nsNameSpaceManager
 .
 h
 "

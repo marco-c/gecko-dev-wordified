@@ -116,7 +116,7 @@ h
 #
 include
 "
-nsINameSpaceManager
+nsNameSpaceManager
 .
 h
 "
@@ -427,7 +427,7 @@ defined
 in
 /
 /
-nsINameSpaceManager
+nsNameSpaceManager
 .
 h
 .

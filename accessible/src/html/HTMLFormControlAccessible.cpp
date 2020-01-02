@@ -207,13 +207,6 @@ h
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsIPersistentProperties2
 .
 h
@@ -236,6 +229,13 @@ h
 include
 "
 nsITextControlFrame
+.
+h
+"
+#
+include
+"
+nsNameSpaceManager
 .
 h
 "

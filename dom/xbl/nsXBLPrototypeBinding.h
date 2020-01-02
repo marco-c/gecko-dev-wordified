@@ -1376,7 +1376,7 @@ in
 ones
 defined
 in
-nsINameSpaceManager
+nsNameSpaceManager
 .
 h
 it

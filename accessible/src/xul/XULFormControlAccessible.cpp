@@ -238,13 +238,6 @@ h
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsITextControlFrame
 .
 h
@@ -253,6 +246,13 @@ h
 include
 "
 nsMenuPopupFrame
+.
+h
+"
+#
+include
+"
+nsNameSpaceManager
 .
 h
 "

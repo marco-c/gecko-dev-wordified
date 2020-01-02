@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsINameSpaceManager
+nsNameSpaceManager
 .
 h
 "

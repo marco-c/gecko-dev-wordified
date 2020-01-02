@@ -215,13 +215,6 @@ h
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h
@@ -328,6 +321,13 @@ h
 include
 "
 nsContentCID
+.
+h
+"
+#
+include
+"
+nsNameSpaceManager
 .
 h
 "
