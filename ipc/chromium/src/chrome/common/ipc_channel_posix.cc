@@ -2261,6 +2261,17 @@ Listener
 listener
 )
 {
+DCHECK
+(
+kControlBufferSlopBytes
+>
+=
+CMSG_SPACE
+(
+0
+)
+)
+;
 mode_
 =
 mode
