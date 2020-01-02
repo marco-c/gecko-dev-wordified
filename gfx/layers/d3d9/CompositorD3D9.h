@@ -734,11 +734,7 @@ aFlags
 0
 )
 MOZ_OVERRIDE
-{
-return
-nullptr
 ;
-}
 private
 :
 /
