@@ -127,6 +127,16 @@ blockForEvent
 (
 )
 ;
+public
+void
+blockForEvent
+(
+long
+millis
+boolean
+failOnTimeout
+)
+;
 /
 *
 *

@@ -487,7 +487,7 @@ true
 )
 ;
 }
-private
+public
 void
 blockForEvent
 (
@@ -1265,7 +1265,7 @@ notifyAll
 )
 ;
 }
-private
+public
 synchronized
 void
 blockForEvent
