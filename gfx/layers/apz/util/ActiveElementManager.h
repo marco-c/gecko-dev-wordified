@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__mozilla_widget_ActiveElementManager_h__
+mozilla_layers_ActiveElementManager_h
 #
 define
-__mozilla_widget_ActiveElementManager_h__
+mozilla_layers_ActiveElementManager_h
 #
 include
 "
@@ -129,7 +129,7 @@ namespace
 mozilla
 {
 namespace
-widget
+layers
 {
 /
 *
@@ -489,6 +489,6 @@ CancelTask
 endif
 /
 *
-__mozilla_widget_ActiveElementManager_h__
+mozilla_layers_ActiveElementManager_h
 *
 /

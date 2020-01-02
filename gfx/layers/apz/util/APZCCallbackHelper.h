@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__mozilla_widget_APZCCallbackHelper_h__
+mozilla_layers_APZCCallbackHelper_h
 #
 define
-__mozilla_widget_APZCCallbackHelper_h__
+mozilla_layers_APZCCallbackHelper_h
 #
 include
 "
@@ -131,7 +131,7 @@ namespace
 mozilla
 {
 namespace
-widget
+layers
 {
 /
 *
@@ -910,6 +910,6 @@ aScale
 endif
 /
 *
-__mozilla_widget_APZCCallbackHelper_h__
+mozilla_layers_APZCCallbackHelper_h
 *
 /

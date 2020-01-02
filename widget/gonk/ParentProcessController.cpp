@@ -117,6 +117,10 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
 APZCCallbackHelper
 .
 h
@@ -203,6 +207,12 @@ if
 content
 )
 {
+mozilla
+:
+:
+layers
+:
+:
 APZCCallbackHelper
 :
 :
@@ -310,6 +320,12 @@ uint32_t
 aScrollGeneration
 )
 {
+mozilla
+:
+:
+layers
+:
+:
 APZCCallbackHelper
 :
 :

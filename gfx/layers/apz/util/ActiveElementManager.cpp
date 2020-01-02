@@ -177,7 +177,7 @@ namespace
 mozilla
 {
 namespace
-widget
+layers
 {
 static
 int32_t

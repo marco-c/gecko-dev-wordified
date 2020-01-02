@@ -158,7 +158,7 @@ namespace
 mozilla
 {
 namespace
-widget
+layers
 {
 bool
 APZCCallbackHelper
