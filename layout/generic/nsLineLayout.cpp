@@ -437,6 +437,9 @@ temporary
 /
 mLastOptionalBreakPriority
 (
+gfxBreakPriority
+:
+:
 eNoBreak
 )
 mLastOptionalBreakContentOffset
@@ -7280,6 +7283,9 @@ GetContent
 )
 INT32_MAX
 optionalBreakAfterFits
+gfxBreakPriority
+:
+:
 eNormalBreak
 )
 )
