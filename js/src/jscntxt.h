@@ -1670,14 +1670,10 @@ gcSystemPageSize
 )
 {
 return
-runtime_
--
->
 gc
-.
-pageAllocator
-.
-systemPageSize
+:
+:
+SystemPageSize
 (
 )
 ;

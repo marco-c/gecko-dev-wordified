@@ -2486,15 +2486,6 @@ gc
 ZoneVector
 zones
 ;
-js
-:
-:
-gc
-:
-:
-SystemPageAllocator
-pageAllocator
-;
 #
 ifdef
 JSGC_GENERATIONAL
