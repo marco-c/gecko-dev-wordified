@@ -1234,6 +1234,14 @@ return
 mCompositor
 ;
 }
+bool
+PlatformDestroySharedSurface
+(
+SurfaceDescriptor
+*
+aSurface
+)
+;
 /
 *
 *

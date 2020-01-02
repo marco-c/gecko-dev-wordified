@@ -133,6 +133,15 @@ h
 #
 include
 "
+ipc
+/
+AutoOpenSurface
+.
+h
+"
+#
+include
+"
 ThebesLayerD3D9
 .
 h

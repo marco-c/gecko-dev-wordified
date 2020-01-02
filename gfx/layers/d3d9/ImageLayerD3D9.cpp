@@ -93,6 +93,15 @@ MPL
 #
 include
 "
+ipc
+/
+AutoOpenSurface
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
