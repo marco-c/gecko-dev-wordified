@@ -21524,6 +21524,11 @@ obj
 )
 ;
 bool
+CSS
+:
+1
+;
+bool
 Promise
 :
 1
