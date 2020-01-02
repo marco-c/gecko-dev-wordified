@@ -6001,7 +6001,7 @@ hosting
 mode
 scripts
 emit
-JSOP_CALLINTRINSIC
+JSOP_GETINTRINSIC
 instead
 of
 *
@@ -6013,7 +6013,7 @@ access
 unbound
 variables
 .
-JSOP_CALLINTRINSIC
+JSOP_GETINTRINSIC
 *
 does
 a

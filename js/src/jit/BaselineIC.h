@@ -19336,13 +19336,7 @@ GetName
 JSOP_NAME
 /
 /
-JSOP_CALLNAME
-/
-/
 JSOP_GETGNAME
-/
-/
-JSOP_CALLGNAME
 class
 ICGetName_Fallback
 :
@@ -20271,9 +20265,6 @@ GetIntrinsic
 /
 /
 JSOP_GETINTRINSIC
-/
-/
-JSOP_CALLINTRINSIC
 class
 ICGetIntrinsic_Fallback
 :

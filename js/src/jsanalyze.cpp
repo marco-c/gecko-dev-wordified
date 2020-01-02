@@ -3231,13 +3231,7 @@ case
 JSOP_GETARG
 :
 case
-JSOP_CALLARG
-:
-case
 JSOP_GETLOCAL
-:
-case
-JSOP_CALLLOCAL
 :
 return
 true
@@ -3415,9 +3409,6 @@ case
 JSOP_GETARG
 :
 case
-JSOP_CALLARG
-:
-case
 JSOP_SETARG
 :
 return
@@ -3431,9 +3422,6 @@ pc
 ;
 case
 JSOP_GETLOCAL
-:
-case
-JSOP_CALLLOCAL
 :
 case
 JSOP_SETLOCAL
@@ -5821,9 +5809,6 @@ case
 JSOP_GETLOCAL
 :
 case
-JSOP_CALLLOCAL
-:
-case
 JSOP_SETLOCAL
 :
 JS_ASSERT
@@ -6903,13 +6888,7 @@ case
 JSOP_GETARG
 :
 case
-JSOP_CALLARG
-:
-case
 JSOP_GETLOCAL
-:
-case
-JSOP_CALLLOCAL
 :
 case
 JSOP_THIS

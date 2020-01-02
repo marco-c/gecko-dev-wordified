@@ -10137,9 +10137,6 @@ jsop_rest
 case
 JSOP_GETARG
 :
-case
-JSOP_CALLARG
-:
 if
 (
 info
@@ -10223,9 +10220,6 @@ pc
 ;
 case
 JSOP_GETLOCAL
-:
-case
-JSOP_CALLLOCAL
 :
 current
 -
@@ -10636,9 +10630,6 @@ pc
 case
 JSOP_GETGNAME
 :
-case
-JSOP_CALLGNAME
-:
 {
 PropertyName
 *
@@ -10731,9 +10722,6 @@ name
 case
 JSOP_NAME
 :
-case
-JSOP_CALLNAME
-:
 {
 PropertyName
 *
@@ -10762,9 +10750,6 @@ name
 }
 case
 JSOP_GETINTRINSIC
-:
-case
-JSOP_CALLINTRINSIC
 :
 {
 PropertyName
@@ -10872,9 +10857,6 @@ true
 ;
 case
 JSOP_GETALIASEDVAR
-:
-case
-JSOP_CALLALIASEDVAR
 :
 return
 jsop_getaliasedvar
