@@ -370,7 +370,7 @@ gc
 edge
 :
 "
-fun_callscope
+fun_environment
 "
 }
 {
