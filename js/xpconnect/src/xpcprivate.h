@@ -7300,16 +7300,10 @@ ClassInfo2WrappedNativeProtoMap
 *
 GetWrappedNativeProtoMap
 (
-bool
-aMainThreadOnly
 )
 const
 {
 return
-aMainThreadOnly
-?
-mMainThreadWrappedNativeProtoMap
-:
 mWrappedNativeProtoMap
 ;
 }
@@ -7865,10 +7859,6 @@ mWrappedNativeMap
 ClassInfo2WrappedNativeProtoMap
 *
 mWrappedNativeProtoMap
-;
-ClassInfo2WrappedNativeProtoMap
-*
-mMainThreadWrappedNativeProtoMap
 ;
 nsRefPtr
 <
