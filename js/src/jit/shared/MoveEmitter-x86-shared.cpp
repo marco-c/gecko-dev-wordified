@@ -2116,6 +2116,14 @@ offset
 in
 place
 .
+Note
+that
+/
+/
+this
+clobbers
+FLAGS
+!
 masm
 .
 Push
