@@ -13789,6 +13789,8 @@ nsIPrincipal
 principal
 bool
 initStandardClasses
+bool
+fireOnNewGlobalHook
 JS
 :
 :
