@@ -540,11 +540,13 @@ AudioChannelService
 :
 mCurrentHigherChannel
 (
-INT32_MAX
+-
+1
 )
 mCurrentVisibleHigherChannel
 (
-INT32_MAX
+-
+1
 )
 mPlayableHiddenContentChildID
 (
