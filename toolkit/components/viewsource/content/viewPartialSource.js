@@ -1777,7 +1777,7 @@ getWebNavigation
 (
 )
 .
-loadURI
+loadURIWithBase
 (
 (
 isHTML
@@ -1829,6 +1829,18 @@ loadFlags
 null
 null
 null
+Services
+.
+io
+.
+newURI
+(
+doc
+.
+baseURI
+null
+null
+)
 )
 ;
 }
