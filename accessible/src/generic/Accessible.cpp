@@ -266,6 +266,13 @@ h
 #
 include
 "
+nsIDOMKeyEvent
+.
+h
+"
+#
+include
+"
 nsIDOMTreeWalker
 .
 h
