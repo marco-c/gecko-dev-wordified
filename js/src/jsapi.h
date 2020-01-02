@@ -18537,6 +18537,16 @@ JSPropertyDescriptor
 ;
 }
 static
+ThingRootKind
+kind
+(
+)
+{
+return
+THING_ROOT_PROPERTY_DESCRIPTOR
+;
+}
+static
 bool
 poisoned
 (

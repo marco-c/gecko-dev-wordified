@@ -1015,6 +1015,16 @@ JSID_VOID
 ;
 }
 static
+ThingRootKind
+kind
+(
+)
+{
+return
+THING_ROOT_ID
+;
+}
+static
 bool
 poisoned
 (
