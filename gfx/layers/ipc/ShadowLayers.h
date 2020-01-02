@@ -2331,6 +2331,10 @@ const
 {
 return
 mShadowManager
+.
+get
+(
+)
 ;
 }
 virtual
@@ -2841,8 +2845,10 @@ const
 }
 #
 endif
+RefPtr
+<
 PLayerTransactionChild
-*
+>
 mShadowManager
 ;
 #
