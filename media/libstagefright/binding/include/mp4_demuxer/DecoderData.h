@@ -410,9 +410,6 @@ aac_profile
 )
 {
 }
-int64_t
-duration
-;
 uint32_t
 channel_count
 ;
