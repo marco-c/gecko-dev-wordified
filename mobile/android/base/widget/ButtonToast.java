@@ -945,6 +945,12 @@ onPropertyAnimationEnd
 {
 mView
 .
+clearAnimation
+(
+)
+;
+mView
+.
 setVisibility
 (
 View
