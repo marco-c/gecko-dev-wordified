@@ -731,6 +731,14 @@ MOZ_CRASHREPORTER_NO_REPORT
 '
                      
 '
+MOZ_CRASHREPORTER_SHUTDOWN
+'
+:
+'
+1
+'
+                     
+'
 MOZ_HIDE_RESULTS_TABLE
 '
 :
@@ -1130,6 +1138,14 @@ onTimeout
 self
 .
 on_timeout
+                               
+'
+onFinish
+'
+:
+self
+.
+on_finish
 }
 )
         
@@ -1695,6 +1711,19 @@ last_test
 timeout
 )
 )
+        
+self
+.
+check_for_crashes
+(
+)
+    
+def
+on_finish
+(
+self
+)
+:
         
 self
 .
