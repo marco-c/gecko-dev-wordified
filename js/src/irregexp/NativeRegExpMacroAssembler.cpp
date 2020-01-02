@@ -2986,10 +2986,10 @@ before
 calling
 C
 function
-RegisterSet
+GeneralRegisterSet
 volatileRegs
 =
-RegisterSet
+GeneralRegisterSet
 :
 :
 Volatile
@@ -5307,10 +5307,10 @@ after
 the
 call
 .
-RegisterSet
+GeneralRegisterSet
 volatileRegs
 =
-RegisterSet
+GeneralRegisterSet
 :
 :
 Volatile
