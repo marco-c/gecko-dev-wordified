@@ -15416,7 +15416,7 @@ bool
 Element
 :
 :
-MozMatchesSelector
+Matches
 (
 const
 nsAString
