@@ -1581,7 +1581,7 @@ conversion
 )
 !
 =
-MToDouble
+MToFPInstruction
 :
 :
 NumbersOnly
@@ -1631,7 +1631,7 @@ conversion
 )
 !
 =
-MToDouble
+MToFPInstruction
 :
 :
 NonNullNonStringPrimitives
@@ -1930,7 +1930,7 @@ conversion
 )
 !
 =
-MToFloat32
+MToFPInstruction
 :
 :
 NumbersOnly
@@ -1980,7 +1980,7 @@ conversion
 )
 !
 =
-MToFloat32
+MToFPInstruction
 :
 :
 NonNullNonStringPrimitives
