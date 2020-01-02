@@ -196,6 +196,7 @@ const
 endif
 protected
 :
+explicit
 IDBWrapperCache
 (
 DOMEventTargetHelper
@@ -213,6 +214,7 @@ nullptr
 )
 {
 }
+explicit
 IDBWrapperCache
 (
 nsPIDOMWindow

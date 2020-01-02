@@ -249,6 +249,7 @@ nsRange
 ;
 public
 :
+explicit
 nsRange
 (
 nsINode
@@ -1790,6 +1791,7 @@ struct
 MOZ_STACK_CLASS
 AutoInvalidateSelection
 {
+explicit
 AutoInvalidateSelection
 (
 nsRange

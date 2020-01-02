@@ -246,6 +246,7 @@ DefaultChildPrivileges
 (
 )
 ;
+explicit
 GeckoChildProcessHost
 (
 GeckoProcessType

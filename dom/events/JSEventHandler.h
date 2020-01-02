@@ -208,6 +208,7 @@ mBits
 )
 {
 }
+explicit
 TypedEventHandler
 (
 dom
@@ -225,6 +226,7 @@ eNormal
 )
 ;
 }
+explicit
 TypedEventHandler
 (
 dom
@@ -242,6 +244,7 @@ eOnError
 )
 ;
 }
+explicit
 TypedEventHandler
 (
 dom

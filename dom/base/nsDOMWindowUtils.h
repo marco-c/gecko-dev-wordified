@@ -265,6 +265,7 @@ nsSupportsWeakReference
 {
 public
 :
+explicit
 nsDOMWindowUtils
 (
 nsGlobalWindow

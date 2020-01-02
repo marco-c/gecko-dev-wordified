@@ -244,6 +244,7 @@ particular
 /
 window
 .
+explicit
 DOMError
 (
 nsPIDOMWindow

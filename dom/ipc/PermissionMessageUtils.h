@@ -147,6 +147,7 @@ nullptr
 )
 {
 }
+explicit
 Principal
 (
 nsIPrincipal

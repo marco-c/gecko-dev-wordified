@@ -3604,6 +3604,7 @@ nsDOMFileList
 }
 public
 :
+explicit
 nsDOMFileList
 (
 nsISupports

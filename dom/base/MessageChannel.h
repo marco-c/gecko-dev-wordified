@@ -191,6 +191,7 @@ aGlobal
 ;
 public
 :
+explicit
 MessageChannel
 (
 nsPIDOMWindow

@@ -195,6 +195,7 @@ nsMappedAttributeElementBase
 {
 protected
 :
+explicit
 nsMappedAttributeElement
 (
 already_AddRefed

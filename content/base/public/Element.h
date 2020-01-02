@@ -811,6 +811,7 @@ public
 #
 ifdef
 MOZILLA_INTERNAL_API
+explicit
 Element
 (
 already_AddRefed
@@ -7273,6 +7274,7 @@ nsINodeList
 {
 public
 :
+explicit
 DestinationInsertionPointList
 (
 Element

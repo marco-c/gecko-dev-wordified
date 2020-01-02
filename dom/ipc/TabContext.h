@@ -1553,6 +1553,7 @@ appropriate
 .
 *
 /
+explicit
 MaybeInvalidTabContext
 (
 const

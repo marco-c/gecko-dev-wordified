@@ -411,6 +411,7 @@ to
 this
 list
 .
+MOZ_IMPLICIT
 nsPropertyOwner
 (
 const
@@ -425,6 +426,7 @@ aObject
 )
 {
 }
+MOZ_IMPLICIT
 nsPropertyOwner
 (
 const

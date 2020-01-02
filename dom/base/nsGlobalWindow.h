@@ -2763,6 +2763,7 @@ aRv
 /
 Object
 Management
+explicit
 nsGlobalWindow
 (
 nsGlobalWindow
@@ -10328,6 +10329,7 @@ NS_DECL_ISUPPORTS_INHERITED
 nsIDOMChromeWindow
 interface
 NS_DECL_NSIDOMCHROMEWINDOW
+explicit
 nsGlobalChromeWindow
 (
 nsGlobalWindow
@@ -10603,6 +10605,7 @@ nsIDOMModalContentWindow
 {
 public
 :
+explicit
 nsGlobalModalWindow
 (
 nsGlobalWindow

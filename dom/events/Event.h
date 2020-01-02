@@ -283,6 +283,7 @@ WidgetEvent
 aEvent
 )
 ;
+explicit
 Event
 (
 nsPIDOMWindow

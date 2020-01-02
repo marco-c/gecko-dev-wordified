@@ -148,6 +148,7 @@ FileManager
 ;
 public
 :
+explicit
 FileInfo
 (
 FileManager

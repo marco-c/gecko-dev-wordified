@@ -215,6 +215,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMRectReadOnly
 )
+explicit
 DOMRectReadOnly
 (
 nsISupports
@@ -440,6 +441,7 @@ nsIDOMClientRect
 {
 public
 :
+explicit
 DOMRect
 (
 nsISupports
@@ -700,6 +702,7 @@ DOMRectList
 }
 public
 :
+explicit
 DOMRectList
 (
 nsISupports

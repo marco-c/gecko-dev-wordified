@@ -356,6 +356,7 @@ IsValid
 }
 protected
 :
+explicit
 ValidityState
 (
 nsIConstraintValidation

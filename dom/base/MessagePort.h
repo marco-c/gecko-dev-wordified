@@ -140,6 +140,7 @@ DOMEventTargetHelper
 {
 protected
 :
+explicit
 MessagePortBase
 (
 nsPIDOMWindow
@@ -324,6 +325,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 MessagePort
 DOMEventTargetHelper
 )
+explicit
 MessagePort
 (
 nsPIDOMWindow

@@ -236,6 +236,7 @@ MessagePort
 ;
 public
 :
+explicit
 DispatchEventRunnable
 (
 MessagePort

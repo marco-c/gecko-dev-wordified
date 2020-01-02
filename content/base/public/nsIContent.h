@@ -315,6 +315,7 @@ exists
 with
 an
 IID
+explicit
 nsIContent
 (
 already_AddRefed

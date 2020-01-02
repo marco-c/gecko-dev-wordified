@@ -494,6 +494,7 @@ nsString
 {
 public
 :
+explicit
 nsCheapString
 (
 nsStringBuffer

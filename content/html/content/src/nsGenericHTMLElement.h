@@ -309,6 +309,7 @@ nsIDOMHTMLElement
 {
 public
 :
+explicit
 nsGenericHTMLElement
 (
 already_AddRefed
@@ -7401,6 +7402,7 @@ nsIFormControl
 {
 public
 :
+explicit
 nsGenericHTMLFormElement
 (
 already_AddRefed
@@ -8291,6 +8293,7 @@ nsGenericHTMLFormElement
 {
 public
 :
+explicit
 nsGenericHTMLFormElementWithState
 (
 already_AddRefed
