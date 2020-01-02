@@ -4386,7 +4386,9 @@ mState
 DECODER_STATE_DECODING
 &
 &
-mIsVideoDecoding
+IsVideoDecoding
+(
+)
 &
 &
 (
@@ -4395,7 +4397,9 @@ mIsVideoDecoding
 mIsAudioPrerolling
 &
 &
-mIsAudioDecoding
+IsAudioDecoding
+(
+)
 &
 &
 GetDecodedAudioDuration
