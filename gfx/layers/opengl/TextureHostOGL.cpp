@@ -5198,7 +5198,7 @@ gfx
 :
 :
 SurfaceFormat
-SurfaceFormatForAndroidPixelFormat
+Deprecated_SurfaceFormatForAndroidPixelFormat
 (
 android
 :
@@ -5445,7 +5445,7 @@ FORMAT_UNKNOWN
 }
 static
 GLenum
-TextureTargetForAndroidPixelFormat
+Deprecated_TextureTargetForAndroidPixelFormat
 (
 android
 :
@@ -5996,7 +5996,7 @@ isRBSwapped
 ;
 mFormat
 =
-SurfaceFormatForAndroidPixelFormat
+Deprecated_SurfaceFormatForAndroidPixelFormat
 (
 mGraphicBuffer
 -
@@ -6009,7 +6009,7 @@ mIsRBSwapped
 ;
 mTextureTarget
 =
-TextureTargetForAndroidPixelFormat
+Deprecated_TextureTargetForAndroidPixelFormat
 (
 mGraphicBuffer
 -
