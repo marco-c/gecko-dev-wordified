@@ -481,14 +481,6 @@ network
 class
 Connection
 ;
-#
-ifdef
-MOZ_B2G_RIL
-class
-MobileConnectionArray
-;
-#
-endif
 }
 /
 /
@@ -522,6 +514,9 @@ CellBroadcast
 ;
 class
 IccManager
+;
+class
+MobileConnectionArray
 ;
 class
 Voicemail
@@ -1103,9 +1098,6 @@ aRv
 #
 ifdef
 MOZ_B2G_RIL
-network
-:
-:
 MobileConnectionArray
 *
 GetMozMobileConnections
@@ -1927,9 +1919,6 @@ ifdef
 MOZ_B2G_RIL
 nsRefPtr
 <
-network
-:
-:
 MobileConnectionArray
 >
 mMobileConnections

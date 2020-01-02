@@ -103,9 +103,6 @@ mozilla
 namespace
 dom
 {
-namespace
-network
-{
 class
 MobileConnection
 :
@@ -239,11 +236,6 @@ aType
 ;
 }
 ;
-}
-/
-/
-namespace
-network
 }
 /
 /
