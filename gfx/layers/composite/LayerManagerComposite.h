@@ -678,6 +678,10 @@ gfx
 DrawTarget
 *
 aTarget
+const
+nsIntRect
+&
+aRect
 )
 ;
 virtual
@@ -1535,6 +1539,9 @@ gfx
 DrawTarget
 >
 mTarget
+;
+nsIntRect
+mTargetBounds
 ;
 gfx
 :
