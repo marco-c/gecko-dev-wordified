@@ -84,6 +84,10 @@ test
 /
 Windows
 XP
+and
+8
+.
+1
 test
 slaves
 are
@@ -95,7 +99,7 @@ test
 .
 requestLongerTimeout
 (
-4
+5
 )
 ;
 initChromeDebugger
