@@ -1692,12 +1692,6 @@ profilePath
 ;
 message
 .
-autoInstall
-=
-true
-;
-message
-.
 mm
 =
 mm
