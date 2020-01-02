@@ -1682,8 +1682,9 @@ virtual
 MediaConduitErrorCode
 SetExternalSendCodec
 (
-int
-pltype
+VideoCodecConfig
+*
+config
 VideoEncoder
 *
 encoder
@@ -1719,8 +1720,9 @@ virtual
 MediaConduitErrorCode
 SetExternalRecvCodec
 (
-int
-pltype
+VideoCodecConfig
+*
+config
 VideoDecoder
 *
 decoder
