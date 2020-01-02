@@ -653,7 +653,7 @@ mEvent
 mClass
 !
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 &
 &
 mEvent
@@ -1373,7 +1373,7 @@ mEvent
 mClass
 !
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 &
 &
 mEvent

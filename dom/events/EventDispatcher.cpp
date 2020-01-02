@@ -4160,7 +4160,7 @@ AsCompositionEvent
 )
 ;
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 return
 NS_NewDOMMouseEvent

@@ -3248,7 +3248,7 @@ aEvent
 mClass
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 "
 Unexpected
 event

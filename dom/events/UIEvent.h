@@ -275,7 +275,7 @@ aEvent
 mClass
 !
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 &
 &
 aEvent
@@ -460,7 +460,7 @@ aEvent
 mClass
 !
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 &
 &
 aEvent
@@ -751,7 +751,7 @@ mEvent
 mClass
 !
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 "
 Mouse
 events

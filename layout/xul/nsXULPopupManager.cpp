@@ -3701,7 +3701,7 @@ event
 mClass
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 |
 |
 event

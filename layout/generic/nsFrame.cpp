@@ -16441,7 +16441,7 @@ aEvent
 mClass
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 &
 &
 aEvent
@@ -20219,7 +20219,7 @@ aEvent
 mClass
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 "
 HandleDrag
 can
@@ -20938,7 +20938,7 @@ aEvent
 mClass
 !
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 )
 {
 return

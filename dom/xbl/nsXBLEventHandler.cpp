@@ -176,6 +176,10 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 dom
@@ -856,7 +860,7 @@ case
 NS_DRAG_EVENT
 :
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 case
 NS_MOUSE_SCROLL_EVENT

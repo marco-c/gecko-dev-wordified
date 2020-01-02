@@ -399,7 +399,7 @@ InternalEditorInputEvent
 MouseEvents
 .
 h
-NS_MOUSE_EVENT
+eMouseEventClass
 /
 /
 WidgetMouseEvent
