@@ -17508,15 +17508,6 @@ return
 0
 ;
 }
-void
-SpdySession31
-:
-:
-SetDNSWasRefreshed
-(
-)
-{
-}
 uint64_t
 SpdySession31
 :
