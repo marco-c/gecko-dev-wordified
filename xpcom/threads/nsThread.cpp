@@ -620,7 +620,7 @@ nsThreadClassInfo
 ;
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsThreadClassInfo
 :
@@ -635,7 +635,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsThreadClassInfo
 :

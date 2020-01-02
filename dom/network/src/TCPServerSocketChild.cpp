@@ -189,7 +189,7 @@ TCPServerSocketChildBase
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 TCPServerSocketChild
 :

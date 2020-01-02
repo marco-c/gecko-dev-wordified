@@ -425,7 +425,7 @@ nsIDebug2
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsDebugImpl
 :
@@ -440,7 +440,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsDebugImpl
 :

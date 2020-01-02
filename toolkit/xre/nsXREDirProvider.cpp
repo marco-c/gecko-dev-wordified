@@ -965,7 +965,7 @@ nsIProfileStartup
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsXREDirProvider
 :
@@ -980,7 +980,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsXREDirProvider
 :

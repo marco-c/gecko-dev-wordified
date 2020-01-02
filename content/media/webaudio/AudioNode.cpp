@@ -232,7 +232,7 @@ nsDOMEventTargetHelper
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AudioNode
 :

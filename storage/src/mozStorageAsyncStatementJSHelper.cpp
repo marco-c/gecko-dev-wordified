@@ -466,7 +466,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AsyncStatementJSHelper
 :
@@ -481,7 +481,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AsyncStatementJSHelper
 :

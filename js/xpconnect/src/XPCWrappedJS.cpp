@@ -1591,7 +1591,7 @@ of
 this
 file
 .
-nsrefcnt
+MozExternalRefCountType
 nsXPCWrappedJS
 :
 :
@@ -1709,7 +1709,7 @@ return
 cnt
 ;
 }
-nsrefcnt
+MozExternalRefCountType
 nsXPCWrappedJS
 :
 :

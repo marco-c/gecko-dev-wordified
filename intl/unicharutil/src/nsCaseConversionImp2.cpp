@@ -107,7 +107,7 @@ h
 "
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsCaseConversionImp2
 :
@@ -119,14 +119,14 @@ void
 {
 return
 (
-nsrefcnt
+MozExternalRefCountType
 )
 1
 ;
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsCaseConversionImp2
 :
@@ -138,7 +138,7 @@ void
 {
 return
 (
-nsrefcnt
+MozExternalRefCountType
 )
 1
 ;

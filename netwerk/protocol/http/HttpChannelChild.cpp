@@ -766,7 +766,7 @@ HttpChannelChild
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 HttpChannelChild
 :

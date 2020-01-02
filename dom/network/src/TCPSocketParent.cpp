@@ -371,7 +371,7 @@ AddRef
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 TCPSocketParent
 :

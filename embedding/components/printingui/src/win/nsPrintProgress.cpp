@@ -157,7 +157,7 @@ nsPrintProgress
 else
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsPrintProgress
 :
@@ -213,7 +213,7 @@ count
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsPrintProgress
 :

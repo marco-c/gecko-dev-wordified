@@ -132,6 +132,15 @@ include
 "
 mozilla
 /
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Likely
 .
 h
@@ -4735,7 +4744,9 @@ widget
 p
 [
 %
-d
+"
+PRIuPTR
+"
 ]
 z
 =

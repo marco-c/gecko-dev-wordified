@@ -180,7 +180,7 @@ public
 NS_DECL_NSIUDPSOCKETCHILD
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Release
 (

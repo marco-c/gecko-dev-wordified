@@ -2791,7 +2791,7 @@ case
 .
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Connection
 :

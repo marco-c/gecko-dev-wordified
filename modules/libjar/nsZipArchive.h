@@ -1133,7 +1133,7 @@ Refcounting
 /
 NS_METHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AddRef
 (
@@ -1142,7 +1142,7 @@ void
 ;
 NS_METHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Release
 (
@@ -2086,7 +2086,7 @@ ret
 ;
 NS_METHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AddRef
 (
@@ -2095,7 +2095,7 @@ void
 ;
 NS_METHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Release
 (

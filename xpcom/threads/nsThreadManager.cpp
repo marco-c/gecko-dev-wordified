@@ -383,7 +383,7 @@ allocated
 instance
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsThreadManager
 :
@@ -398,7 +398,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsThreadManager
 :

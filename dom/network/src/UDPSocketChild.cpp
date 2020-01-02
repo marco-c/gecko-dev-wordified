@@ -169,7 +169,7 @@ AddRef
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 UDPSocketChild
 :

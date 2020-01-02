@@ -233,7 +233,7 @@ DOMStorageDBChild
 ;
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AddRef
 (
@@ -242,7 +242,7 @@ void
 ;
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Release
 (
@@ -742,7 +742,7 @@ MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AddRef
 (
@@ -751,7 +751,7 @@ void
 ;
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Release
 (

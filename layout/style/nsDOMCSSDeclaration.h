@@ -240,7 +240,7 @@ refcounting
 .
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AddRef
 (
@@ -251,7 +251,7 @@ MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Release
 (

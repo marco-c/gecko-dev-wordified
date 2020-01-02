@@ -939,6 +939,15 @@ DocumentFragment
 .
 h
 "
+#
+include
+"
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
 using
 namespace
 mozilla
@@ -12441,7 +12450,9 @@ out
 refcount
 =
 %
-d
+"
+PRIuPTR
+"
 <
 "
 mRefCnt

@@ -323,7 +323,7 @@ DOMStorageDBChild
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 DOMStorageDBChild
 :

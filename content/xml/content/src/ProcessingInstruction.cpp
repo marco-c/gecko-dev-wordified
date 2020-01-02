@@ -143,6 +143,15 @@ h
 #
 include
 "
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -615,7 +624,9 @@ instruction
 refcount
 =
 %
-d
+"
+PRIuPTR
+"
 <
 "
 mRefCnt

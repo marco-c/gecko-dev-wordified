@@ -2947,7 +2947,7 @@ dtor
 )
 ;
 }
-nsrefcnt
+MozExternalRefCountType
 xptiInterfaceInfo
 :
 :
@@ -2981,7 +2981,7 @@ return
 cnt
 ;
 }
-nsrefcnt
+MozExternalRefCountType
 xptiInterfaceInfo
 :
 :

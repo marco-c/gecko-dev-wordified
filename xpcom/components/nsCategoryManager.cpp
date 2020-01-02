@@ -1804,7 +1804,7 @@ nsIMemoryReporter
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsCategoryManager
 :
@@ -1819,7 +1819,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsCategoryManager
 :

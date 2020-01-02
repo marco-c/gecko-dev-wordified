@@ -336,7 +336,7 @@ Invalid
 ;
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsBasePrincipal
 :
@@ -401,7 +401,7 @@ count
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsBasePrincipal
 :

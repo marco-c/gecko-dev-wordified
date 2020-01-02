@@ -209,7 +209,7 @@ public
 :
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AddRef
 (

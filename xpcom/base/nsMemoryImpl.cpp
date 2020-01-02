@@ -982,7 +982,7 @@ NS_IMPL_STATIC_ADDREF
 RELEASE
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsMemoryImpl
 :
@@ -1000,7 +1000,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsMemoryImpl
 :

@@ -860,7 +860,7 @@ PermanentAtomImpl
 ;
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AddRef
 (
@@ -868,7 +868,7 @@ AddRef
 ;
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Release
 (
@@ -2408,7 +2408,7 @@ REFCNT_PERMANENT_SENTINEL
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 PermanentAtomImpl
 :
@@ -2434,7 +2434,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 PermanentAtomImpl
 :

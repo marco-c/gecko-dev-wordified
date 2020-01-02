@@ -256,7 +256,7 @@ nsISerializable
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsNullPrincipal
 :
@@ -307,7 +307,7 @@ count
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsNullPrincipal
 :

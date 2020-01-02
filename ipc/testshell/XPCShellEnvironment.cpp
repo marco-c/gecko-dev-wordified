@@ -2363,7 +2363,7 @@ n
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 XPCShellDirProvider
 :
@@ -2378,7 +2378,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 XPCShellDirProvider
 :

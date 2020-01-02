@@ -115,6 +115,15 @@ CDATASectionBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
 namespace
 mozilla
 {
@@ -305,7 +314,9 @@ CDATASection
 refcount
 =
 %
-d
+"
+PRIuPTR
+"
 <
 "
 mRefCnt

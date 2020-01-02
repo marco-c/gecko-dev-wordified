@@ -346,7 +346,7 @@ TCPSocketChildBase
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 TCPSocketChild
 :

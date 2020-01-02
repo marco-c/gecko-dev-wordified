@@ -3275,7 +3275,7 @@ GeckoProcessType_Content
 NS_INTERFACE_MAP_END
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsXULAppInfo
 :
@@ -3290,7 +3290,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsXULAppInfo
 :

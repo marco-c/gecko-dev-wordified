@@ -2649,7 +2649,7 @@ K
 >
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsExpirationTracker
 <
@@ -2717,7 +2717,7 @@ K
 >
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsExpirationTracker
 <

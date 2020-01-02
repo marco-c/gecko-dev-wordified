@@ -126,7 +126,7 @@ nsIUGenCategory
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsCategoryImp
 :
@@ -137,7 +137,7 @@ void
 )
 {
 return
-nsrefcnt
+MozExternalRefCountType
 (
 1
 )
@@ -145,7 +145,7 @@ nsrefcnt
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsCategoryImp
 :
@@ -156,7 +156,7 @@ void
 )
 {
 return
-nsrefcnt
+MozExternalRefCountType
 (
 1
 )

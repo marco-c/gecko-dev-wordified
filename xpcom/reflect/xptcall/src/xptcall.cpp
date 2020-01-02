@@ -188,7 +188,7 @@ aInstancePtr
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsXPTCStubBase
 :
@@ -208,7 +208,7 @@ AddRef
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsXPTCStubBase
 :

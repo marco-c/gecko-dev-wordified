@@ -1012,7 +1012,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 StatementJSHelper
 :
@@ -1027,7 +1027,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 StatementJSHelper
 :

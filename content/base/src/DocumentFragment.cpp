@@ -203,6 +203,15 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
 namespace
 mozilla
 {
@@ -437,7 +446,9 @@ out
 refcount
 =
 %
-d
+"
+PRIuPTR
+"
 <
 "
 mRefCnt

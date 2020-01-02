@@ -179,7 +179,7 @@ NS_IFOO_IID
 )
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 RefCnt
 (
@@ -235,7 +235,7 @@ IFoo
 implementation
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 RefCnt
 (
@@ -491,7 +491,7 @@ IBar
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Bar
 :

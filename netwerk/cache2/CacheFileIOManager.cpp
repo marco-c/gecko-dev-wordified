@@ -363,7 +363,7 @@ nsRefPtr
 nsRunnableMethod
 <
 CacheFileHandle
-nsrefcnt
+MozExternalRefCountType
 false
 >
 >
@@ -416,7 +416,7 @@ CacheFileHandle
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 CacheFileHandle
 :

@@ -758,7 +758,7 @@ nsZipReaderCache
 .
 .
 .
-nsrefcnt
+MozExternalRefCountType
 nsJAR
 :
 :

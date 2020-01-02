@@ -179,6 +179,15 @@ nsStubMutationObserver
 h
 "
 #
+include
+"
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -962,7 +971,9 @@ out
 refcount
 =
 %
-d
+"
+PRIuPTR
+"
 <
 "
 mRefCnt

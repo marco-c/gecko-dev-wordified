@@ -760,7 +760,7 @@ forget
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 SharedThreadPool
 :
@@ -824,7 +824,7 @@ count
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 SharedThreadPool
 :

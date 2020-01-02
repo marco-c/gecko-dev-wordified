@@ -229,7 +229,7 @@ WebSocketChannelChild
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 WebSocketChannelChild
 :
