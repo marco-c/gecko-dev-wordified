@@ -80753,6 +80753,7 @@ self
 getInstance
 "
 "
+const
 DOMProxyHandler
 *
 "
@@ -80778,6 +80779,7 @@ dedent
 "
             
 static
+const
 DOMProxyHandler
 instance
 ;

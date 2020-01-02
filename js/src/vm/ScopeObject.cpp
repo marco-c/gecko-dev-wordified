@@ -9307,6 +9307,7 @@ int
 family
 ;
 static
+const
 DebugScopeProxy
 singleton
 ;
@@ -10987,6 +10988,7 @@ family
 =
 0
 ;
+const
 DebugScopeProxy
 DebugScopeProxy
 :

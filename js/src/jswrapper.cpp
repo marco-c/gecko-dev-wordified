@@ -332,6 +332,7 @@ obj
 JSObject
 *
 parent
+const
 Wrapper
 *
 handler
@@ -448,6 +449,7 @@ existing
 JSObject
 *
 obj
+const
 Wrapper
 *
 handler
@@ -909,6 +911,7 @@ Wrapper
 )
 {
 }
+const
 Wrapper
 Wrapper
 :
@@ -921,6 +924,7 @@ unsigned
 0
 )
 ;
+const
 Wrapper
 Wrapper
 :
@@ -3687,6 +3691,7 @@ NOTHING
 )
 ;
 }
+const
 CrossCompartmentWrapper
 CrossCompartmentWrapper
 :
@@ -4834,6 +4839,7 @@ return
 true
 ;
 }
+const
 DeadObjectProxy
 DeadObjectProxy
 :
