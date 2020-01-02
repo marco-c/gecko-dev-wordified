@@ -29019,7 +29019,14 @@ before
 {
 height
 :
-36px
+calc
+(
+tabHeight
++
+11px
+)
+!
+important
 ;
 }
 #
