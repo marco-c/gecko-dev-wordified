@@ -9116,7 +9116,7 @@ innerObject
 JS
 :
 :
-AutoAssertNoGC
+AutoSuppressGCAnalysis
 nogc
 ;
 return

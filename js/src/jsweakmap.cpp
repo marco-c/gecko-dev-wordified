@@ -1119,7 +1119,7 @@ zone
 JS
 :
 :
-AutoAssertNoGC
+AutoSuppressGCAnalysis
 nogc
 ;
 Zone

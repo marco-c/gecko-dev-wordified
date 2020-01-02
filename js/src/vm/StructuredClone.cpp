@@ -2234,7 +2234,7 @@ GC
 JS
 :
 :
-AutoAssertNoGC
+AutoSuppressGCAnalysis
 nogc
 ;
 uint64_t
