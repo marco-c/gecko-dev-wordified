@@ -889,15 +889,6 @@ emptyString
 (
 nullptr
 )
-#
-ifdef
-NIGHTLY_BUILD
-assertOnScriptEntryHook_
-(
-nullptr
-)
-#
-endif
 debugMode
 (
 false
