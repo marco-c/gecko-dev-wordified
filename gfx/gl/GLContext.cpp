@@ -611,6 +611,9 @@ GL_EXT_framebuffer_sRGB
 "
 GL_KHR_debug
 "
+"
+GL_ARB_half_float_pixel
+"
 nullptr
 }
 ;
