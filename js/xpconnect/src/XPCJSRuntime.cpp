@@ -620,6 +620,12 @@ __exposedProps__
 /
 /
 IDX_EXPOSEDPROPS
+"
+eval
+"
+/
+/
+IDX_EVAL
 }
 ;
 /
