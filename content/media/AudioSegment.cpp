@@ -1145,6 +1145,14 @@ if
 c
 .
 mBuffer
+&
+&
+c
+.
+mBufferFormat
+!
+=
+AUDIO_FORMAT_SILENCE
 )
 {
 channelData
