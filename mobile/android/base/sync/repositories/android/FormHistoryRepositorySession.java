@@ -124,6 +124,17 @@ gecko
 db
 .
 BrowserContract
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+db
+.
+BrowserContract
 .
 DeletedFormHistory
 ;
@@ -572,9 +583,9 @@ NoContentProviderException
 Uri
 uri
 =
-FormHistory
+BrowserContract
 .
-CONTENT_URI
+FORM_HISTORY_AUTHORITY_URI
 ;
 ContentProviderClient
 client
@@ -791,6 +802,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -4658,6 +4670,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
