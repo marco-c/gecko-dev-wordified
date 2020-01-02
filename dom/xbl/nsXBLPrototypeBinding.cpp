@@ -326,7 +326,7 @@ h
 #
 include
 "
-nsIStyleRuleProcessor
+nsCSSRuleProcessor
 .
 h
 "
