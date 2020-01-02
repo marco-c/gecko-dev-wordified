@@ -16191,7 +16191,7 @@ presContext
 presContext
 -
 >
-InvalidateIsChromeCache
+UpdateIsChrome
 (
 )
 ;
