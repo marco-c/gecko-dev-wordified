@@ -18072,7 +18072,7 @@ numActualArgs
 (
 )
 directly
-and
+.
 /
 /
 arguments
@@ -18087,6 +18087,11 @@ callee
 (
 )
 directly
+in
+non
+-
+strict
+code
 .
 if
 (
@@ -18128,6 +18133,16 @@ names
 length
 |
 |
+(
+!
+script
+-
+>
+strict
+(
+)
+&
+&
 ins
 -
 >
@@ -18149,6 +18164,7 @@ names
 )
 .
 callee
+)
 )
 )
 {
