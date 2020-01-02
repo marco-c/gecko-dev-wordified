@@ -376,13 +376,6 @@ copy
 "
 )
 ;
-SelectionHelperUI
-.
-closeEditSession
-(
-true
-)
-;
 }
 }
 else
