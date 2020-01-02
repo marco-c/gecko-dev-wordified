@@ -609,6 +609,12 @@ timeout
 before
 returning
 .
+#
+if
+ANDROID_VERSION
+>
+=
+18
 status_t
 acquireBuffer
 (
@@ -621,6 +627,8 @@ waitForFence
 true
 )
 ;
+#
+endif
 /
 /
 Returns
@@ -705,6 +713,12 @@ the
 BufferItem
 itself
 .
+#
+if
+ANDROID_VERSION
+>
+=
+18
 status_t
 releaseBuffer
 (
@@ -726,6 +740,8 @@ Fence
 NO_FENCE
 )
 ;
+#
+endif
 sp
 <
 IGraphicBufferProducer

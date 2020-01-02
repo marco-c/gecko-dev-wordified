@@ -329,6 +329,12 @@ name
 )
 ;
 }
+#
+if
+ANDROID_VERSION
+>
+=
+18
 status_t
 GonkNativeWindow
 :
@@ -579,6 +585,8 @@ return
 err
 ;
 }
+#
+endif
 status_t
 GonkNativeWindow
 :

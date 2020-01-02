@@ -1035,7 +1035,7 @@ MOZ_WIDGET_GONK
 ANDROID_VERSION
 >
 =
-18
+17
 mCamera
 -
 >
