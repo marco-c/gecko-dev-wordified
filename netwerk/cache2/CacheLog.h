@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-CacheLog__h__
+Cache2Log__h__
 #
 define
-CacheLog__h__
+Cache2Log__h__
 #
 if
 defined
