@@ -382,6 +382,8 @@ to
 allow
 l10n
 /
+json
+/
 core
 to
 fetch

@@ -2831,7 +2831,7 @@ redirect
 '
 about
 :
-home
+mozilla
 '
 )
 ;
@@ -2881,7 +2881,7 @@ url
 '
 about
 :
-home
+mozilla
 '
 )
 {
@@ -3144,7 +3144,7 @@ redirect
 '
 about
 :
-home
+mozilla
 '
 )
 ;
@@ -3382,7 +3382,7 @@ contentURL
 '
 about
 :
-home
+mozilla
 '
 ;
 assert

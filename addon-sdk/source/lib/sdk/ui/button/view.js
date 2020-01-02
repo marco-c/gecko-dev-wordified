@@ -1003,6 +1003,11 @@ window
 event
 .
 view
+checked
+:
+node
+.
+checked
 }
 )
 ;

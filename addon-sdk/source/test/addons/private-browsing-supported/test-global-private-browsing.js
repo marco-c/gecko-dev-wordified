@@ -1040,6 +1040,7 @@ windows
 "
 )
 ;
+return
 close
 (
 window
@@ -1079,6 +1080,14 @@ deactivate
 )
 ;
 }
+)
+.
+then
+(
+null
+assert
+.
+fail
 )
 ;
 }
