@@ -412,7 +412,7 @@ PrivateBrowsingChannel
 <
 nsBaseChannel
 >
-private
+protected
 nsIStreamListener
 {
 public
