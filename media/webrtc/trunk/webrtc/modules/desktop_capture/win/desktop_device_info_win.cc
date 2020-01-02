@@ -215,6 +215,10 @@ pDesktopDeviceInfo
 }
 #
 endif
+initializeWindowList
+(
+)
+;
 return
 0
 ;
