@@ -17203,6 +17203,16 @@ block_active_content
 true
 )
 ;
+pref
+(
+"
+security
+.
+use_mozillapkix_verification
+"
+true
+)
+;
 /
 /
 Override
