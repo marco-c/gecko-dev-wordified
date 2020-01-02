@@ -9959,7 +9959,7 @@ return
 nullptr
 ;
 return
-NewStringCopyN
+NewStringCopyNDontDeflate
 <
 CanGC
 >
