@@ -3647,9 +3647,6 @@ pos
 mRatio
 )
 ;
-#
-ifdef
-MOZ_WIDGET_GONK
 /
 /
 avoid
@@ -3690,8 +3687,6 @@ ToAppUnits
 appUnitsPerPixel
 )
 ;
-#
-endif
 /
 /
 set
