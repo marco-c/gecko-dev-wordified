@@ -138,6 +138,9 @@ define
 LOG_NDEBUG
 0
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -992,3 +995,6 @@ OK
 /
 namespace
 android
+#
+undef
+LOG_TAG
