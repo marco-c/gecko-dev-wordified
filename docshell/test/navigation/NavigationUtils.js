@@ -1262,7 +1262,7 @@ QueryInterface
 (
 Ci
 .
-nsIDocShellTreeNode
+nsIDocShellTreeItem
 )
 ;
 var

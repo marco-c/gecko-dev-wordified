@@ -7313,13 +7313,6 @@ aChildUri
 ;
 docshellparent
 .
-QueryInterface
-(
-Ci
-.
-nsIDocShellTreeNode
-)
-.
 addChild
 (
 docshellchild

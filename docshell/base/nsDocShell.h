@@ -136,13 +136,6 @@ h
 #
 include
 "
-nsIDocShellTreeNode
-.
-h
-"
-#
-include
-"
 nsIBaseWindow
 .
 h
@@ -949,7 +942,6 @@ Init
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOCSHELL
 NS_DECL_NSIDOCSHELLTREEITEM
-NS_DECL_NSIDOCSHELLTREENODE
 NS_DECL_NSIWEBNAVIGATION
 NS_DECL_NSIBASEWINDOW
 NS_DECL_NSISCROLLABLE
@@ -1045,7 +1037,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aTargetSpec
 const
@@ -1072,7 +1064,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aTargetSpec
 const
@@ -1113,7 +1105,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aTargetSpec
 )
@@ -3144,7 +3136,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aURL
 const
@@ -3152,11 +3144,11 @@ char
 *
 aErrorPage
 const
-PRUnichar
+char16_t
 *
 aErrorType
 const
-PRUnichar
+char16_t
 *
 aDescription
 const
@@ -5637,7 +5629,7 @@ nsresult
 DoFindItemWithName
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsISupports

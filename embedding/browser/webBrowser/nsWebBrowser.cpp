@@ -996,10 +996,6 @@ nsIDocShellTreeItem
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDocShellTreeNode
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIInterfaceRequestor
 )
 NS_INTERFACE_MAP_ENTRY
@@ -2961,7 +2957,7 @@ nsWebBrowser
 NameEquals
 (
 const
-PRUnichar
+char16_t
 *
 aName
 bool
@@ -3325,7 +3321,7 @@ nsWebBrowser
 FindItemWithName
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsISupports
@@ -3717,7 +3713,7 @@ nsWebBrowser
 FindChildWithName
 (
 const
-PRUnichar
+char16_t
 *
 aName
 bool
@@ -4017,7 +4013,7 @@ nsWebBrowser
 LoadURI
 (
 const
-PRUnichar
+char16_t
 *
 aURI
 uint32_t
@@ -5406,7 +5402,7 @@ aRequest
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMessage
 )
@@ -8758,7 +8754,7 @@ nsWebBrowser
 :
 GetTitle
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -8797,7 +8793,7 @@ nsWebBrowser
 SetTitle
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )

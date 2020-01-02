@@ -242,9 +242,6 @@ class
 nsIDocShellTreeOwner
 ;
 class
-nsIDocShellTreeNode
-;
-class
 mozIApplication
 ;
 namespace
@@ -2271,7 +2268,7 @@ nsIDocShellTreeOwner
 aOwner
 int32_t
 aParentType
-nsIDocShellTreeNode
+nsIDocShell
 *
 aParentNode
 )

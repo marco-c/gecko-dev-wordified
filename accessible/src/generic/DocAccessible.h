@@ -190,13 +190,6 @@ nsIWeakReference
 .
 h
 "
-#
-include
-"
-nsIDocShellTreeNode
-.
-h
-"
 class
 nsAccessiblePivot
 ;
