@@ -11920,9 +11920,17 @@ nsRect
 )
 )
 )
+{
+mVisibleRect
+=
+nsRect
+(
+)
+;
 return
 false
 ;
+}
 nsRegion
 opaque
 =
