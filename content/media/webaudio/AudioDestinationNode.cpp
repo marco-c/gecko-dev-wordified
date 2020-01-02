@@ -2498,9 +2498,6 @@ mAudioChannelAgent
 >
 InitWithWeakCallback
 (
-GetOwner
-(
-)
 type
 this
 )

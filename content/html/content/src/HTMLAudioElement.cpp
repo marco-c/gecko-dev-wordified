@@ -1497,14 +1497,6 @@ mAudioChannelAgent
 >
 InitWithWeakCallback
 (
-OwnerDoc
-(
-)
--
->
-GetWindow
-(
-)
 mAudioChannelType
 this
 )
