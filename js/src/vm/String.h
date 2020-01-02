@@ -2164,6 +2164,16 @@ JS_BIT
 -
 1
 ;
+static
+const
+JS
+:
+:
+Latin1Char
+MAX_LATIN1_CHAR
+=
+0xff
+;
 /
 *
 *
