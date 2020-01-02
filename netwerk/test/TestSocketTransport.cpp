@@ -536,14 +536,11 @@ mWriteOffset
 {
 mBuf
 .
-Assign
-(
-NS_LITERAL_CSTRING
+AssignLiteral
 (
 "
 GET
 "
-)
 )
 ;
 mBuf

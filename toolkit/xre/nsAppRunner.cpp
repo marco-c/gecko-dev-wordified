@@ -12216,14 +12216,11 @@ aProfileName
 aProfileName
 -
 >
-Assign
-(
-NS_LITERAL_CSTRING
+AssignLiteral
 (
 "
 default
 "
-)
 )
 ;
 return

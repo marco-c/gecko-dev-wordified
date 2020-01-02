@@ -1371,9 +1371,7 @@ shellArg
 ;
 shellArg
 .
-Assign
-(
-NS_LITERAL_STRING
+AssignLiteral
 (
 "
 shell32
@@ -1382,7 +1380,11 @@ dll
 OpenAs_RunDLL
 "
 )
-+
+;
+shellArg
+.
+Append
+(
 mResolvedPath
 )
 ;

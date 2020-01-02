@@ -1791,15 +1791,12 @@ aName
 {
 aName
 .
-Assign
-(
-NS_LITERAL_STRING
+AssignLiteral
 (
 "
 Android
 chooser
 "
-)
 )
 ;
 return
@@ -1840,9 +1837,7 @@ aDesc
 {
 aDesc
 .
-Assign
-(
-NS_LITERAL_STRING
+AssignLiteral
 (
 "
 Android
@@ -1853,7 +1848,6 @@ handler
 application
 chooser
 "
-)
 )
 ;
 return

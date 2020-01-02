@@ -1940,9 +1940,7 @@ prefPrefix
 ;
 prefPrefix
 .
-Assign
-(
-NS_LITERAL_CSTRING
+AssignLiteral
 (
 "
 user_pref
@@ -1950,7 +1948,6 @@ user_pref
 \
 "
 "
-)
 )
 ;
 /
@@ -2032,9 +2029,7 @@ SAVE_ALL_AND_DEFAULTS
 {
 prefPrefix
 .
-Assign
-(
-NS_LITERAL_CSTRING
+AssignLiteral
 (
 "
 pref
@@ -2042,7 +2037,6 @@ pref
 \
 "
 "
-)
 )
 ;
 sourcePref

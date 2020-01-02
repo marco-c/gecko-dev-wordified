@@ -2630,9 +2630,7 @@ buffer
 ;
 buffer
 .
-Assign
-(
-NS_LITERAL_CSTRING
+AssignLiteral
 (
 "
 {
@@ -2657,7 +2655,6 @@ records
 \
 n
 "
-)
 )
 ;
 RecordBatch

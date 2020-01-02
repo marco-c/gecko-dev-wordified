@@ -23106,9 +23106,7 @@ rv
 ;
 aURN
 .
-Assign
-(
-NS_LITERAL_CSTRING
+AssignLiteral
 (
 "
 urn
@@ -23118,7 +23116,6 @@ places
 persist
 :
 "
-)
 )
 ;
 aURN
