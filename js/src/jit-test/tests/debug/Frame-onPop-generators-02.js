@@ -1,15 +1,5 @@
 /
 /
-|
-jit
--
-test
-|
-error
-:
-fit
-/
-/
 Throwing
 an
 exception
