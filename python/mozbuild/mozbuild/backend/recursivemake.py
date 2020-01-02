@@ -5439,7 +5439,7 @@ relpath
 (
 objdir
                                     
-bf
+self
 .
 environment
 .
@@ -9611,11 +9611,10 @@ libdef
 basename
 )
     
-staticmethod
-    
 def
 _build_target_for_obj
 (
+self
 obj
 )
 :
@@ -9630,9 +9629,20 @@ s
 '
 %
 (
+mozpath
+.
+relpath
+(
 obj
 .
-relobjdir
+objdir
+            
+self
+.
+environment
+.
+topobjdir
+)
 obj
 .
 KIND
