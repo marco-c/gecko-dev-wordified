@@ -360,6 +360,10 @@ MOZ_B2G_RIL
 #
 include
 "
+mozilla
+/
+dom
+/
 IccManager
 .
 h
@@ -6288,9 +6292,6 @@ nullptr
 mIccManager
 =
 new
-icc
-:
-:
 IccManager
 (
 )
