@@ -782,6 +782,16 @@ amr
 "
 #
 define
+AUDIO_MIDI
+"
+audio
+/
+x
+-
+midi
+"
+#
+define
 BINARY_OCTET_STREAM
 "
 binary
