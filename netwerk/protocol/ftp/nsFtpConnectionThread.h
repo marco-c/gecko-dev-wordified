@@ -184,6 +184,13 @@ nsINetworkManager
 h
 "
 #
+include
+"
+nsProxyRelease
+.
+h
+"
+#
 endif
 /
 /
@@ -1681,7 +1688,7 @@ mCountRecv
 #
 ifdef
 MOZ_WIDGET_GONK
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsINetworkInterface
 >

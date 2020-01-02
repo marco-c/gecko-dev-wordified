@@ -211,10 +211,6 @@ nsProxyRelease
 .
 h
 "
-/
-/
-for
-nsMainThreadPtrHandle
 #
 endif
 #
