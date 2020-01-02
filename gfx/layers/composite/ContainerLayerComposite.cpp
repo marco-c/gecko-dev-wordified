@@ -2973,9 +2973,8 @@ height
 compositor
 -
 >
-clearFBRect
+ClearRect
 (
-&
 fbRect
 )
 ;
