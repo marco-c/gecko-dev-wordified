@@ -593,7 +593,7 @@ this
 defineEventHandlerGetterSetter
 (
 "
-onconnectionInfoUpdate
+onconnectioninfoupdate
 "
 )
 ;
@@ -620,7 +620,7 @@ this
 defineEventHandlerGetterSetter
 (
 "
-onstationInfoUpdate
+onstationinfoupdate
 "
 )
 ;
@@ -972,7 +972,7 @@ onwpsoverlap
 "
 WifiManager
 :
-connectionInfoUpdate
+connectioninfoupdate
 "
 "
 WifiManager
@@ -987,7 +987,7 @@ onconnectingfailed
 "
 WifiManager
 :
-stationInfoUpdate
+stationinfoupdate
 "
 ]
 ;
@@ -2539,7 +2539,7 @@ case
 "
 WifiManager
 :
-connectionInfoUpdate
+connectioninfoupdate
 "
 :
 this
@@ -2632,7 +2632,7 @@ case
 "
 WifiManager
 :
-stationInfoUpdate
+stationinfoupdate
 "
 :
 this
@@ -2816,7 +2816,7 @@ _window
 MozWifiStationInfoEvent
 (
 "
-stationInfoUpdate
+stationinfoupdate
 "
 {
 station
