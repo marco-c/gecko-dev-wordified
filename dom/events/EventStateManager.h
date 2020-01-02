@@ -4505,9 +4505,6 @@ HandleCrossProcessEvent
 WidgetEvent
 *
 aEvent
-nsIFrame
-*
-aTargetFrame
 nsEventStatus
 *
 aStatus
