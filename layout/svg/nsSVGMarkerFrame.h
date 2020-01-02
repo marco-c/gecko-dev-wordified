@@ -605,6 +605,7 @@ more
 robust
 .
 class
+MOZ_STACK_CLASS
 AutoMarkerReferencer
 {
 public
@@ -617,6 +618,7 @@ aFrame
 nsSVGPathGeometryFrame
 *
 aMarkedFrame
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -630,6 +632,7 @@ nsSVGMarkerFrame
 *
 mFrame
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /

@@ -1198,6 +1198,7 @@ nsRenderingContext
 aContext
 RenderMode
 aMode
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -1246,6 +1247,7 @@ mMode
 bool
 mPaintingToWindow
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 #

@@ -278,6 +278,7 @@ dom
 Helper
 classes
 class
+MOZ_STACK_CLASS
 nsSVGGradientFrame
 :
 :
@@ -290,6 +291,7 @@ AutoGradientReferencer
 nsSVGGradientFrame
 *
 aFrame
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mFrame
@@ -297,6 +299,8 @@ mFrame
 aFrame
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 /
 /
 Reference
@@ -363,6 +367,7 @@ nsSVGGradientFrame
 *
 mFrame
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /

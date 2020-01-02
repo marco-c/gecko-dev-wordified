@@ -1163,6 +1163,7 @@ nsRenderingContext
 aContext
 RenderMode
 aMode
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 mContext
@@ -1182,6 +1183,8 @@ mPaintingToWindow
 false
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 mOriginalRenderState
 =
 aContext

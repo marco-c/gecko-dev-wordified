@@ -396,6 +396,7 @@ more
 robust
 .
 class
+MOZ_STACK_CLASS
 AutoMaskReferencer
 {
 public
@@ -405,6 +406,7 @@ AutoMaskReferencer
 nsSVGMaskFrame
 *
 aFrame
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mFrame
@@ -412,6 +414,8 @@ mFrame
 aFrame
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 NS_ASSERTION
 (
 !
@@ -453,6 +457,7 @@ nsSVGMaskFrame
 *
 mFrame
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 nsIFrame
