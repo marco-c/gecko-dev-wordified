@@ -250,12 +250,9 @@ clean
 =
 editor
 .
-editor
-.
 isClean
 (
 )
-;
 if
 (
 priv
