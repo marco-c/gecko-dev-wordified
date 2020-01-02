@@ -194,7 +194,6 @@ getElementsHeader
 length
 ;
 }
-static
 inline
 void
 setLength
@@ -202,12 +201,6 @@ setLength
 ExclusiveContext
 *
 cx
-Handle
-<
-ArrayObject
-*
->
-arr
 uint32_t
 length
 )

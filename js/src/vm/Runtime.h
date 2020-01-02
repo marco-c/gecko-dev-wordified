@@ -1876,6 +1876,11 @@ failure
 .
 *
 /
+template
+<
+AllowGC
+allowGC
+>
 inline
 JSObject
 *

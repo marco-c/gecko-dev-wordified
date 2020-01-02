@@ -7604,7 +7604,7 @@ on
 the
 template
 parameter
-Rooted
+allowGC
 .
 Used
 for
