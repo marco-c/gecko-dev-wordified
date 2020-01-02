@@ -274,12 +274,6 @@ uninit
 (
 )
 ;
-CombinedBackForward
-.
-uninit
-(
-)
-;
 PlacesToolbarHelper
 .
 customizeStart
@@ -565,12 +559,6 @@ need
 this
 ordering
 CombinedStopReload
-.
-init
-(
-)
-;
-CombinedBackForward
 .
 init
 (
