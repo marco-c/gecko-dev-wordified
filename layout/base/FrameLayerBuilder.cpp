@@ -26140,6 +26140,9 @@ const
 ImageFormat
 format
 =
+ImageFormat
+:
+:
 CAIRO_SURFACE
 ;
 nsRefPtr

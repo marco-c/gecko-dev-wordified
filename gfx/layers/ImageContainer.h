@@ -5147,7 +5147,10 @@ mPicSize
 )
 mStereoMode
 (
-STEREO_MODE_MONO
+StereoMode
+:
+:
+MONO
 )
 {
 }
@@ -6322,6 +6325,9 @@ CairoImage
 Image
 (
 nullptr
+ImageFormat
+:
+:
 CAIRO_SURFACE
 )
 {
@@ -6377,6 +6383,9 @@ RemoteBitmapImage
 Image
 (
 nullptr
+ImageFormat
+:
+:
 REMOTE_IMAGE_BITMAP
 )
 {

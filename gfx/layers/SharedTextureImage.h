@@ -303,6 +303,9 @@ SharedTextureImage
 Image
 (
 nullptr
+ImageFormat
+:
+:
 SHARED_TEXTURE
 )
 {

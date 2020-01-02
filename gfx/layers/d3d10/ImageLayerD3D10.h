@@ -317,6 +317,9 @@ RemoteDXGITextureImage
 Image
 (
 nullptr
+ImageFormat
+:
+:
 REMOTE_IMAGE_DXGI_TEXTURE
 )
 {

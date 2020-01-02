@@ -756,6 +756,9 @@ format
 mozilla
 :
 :
+ImageFormat
+:
+:
 PLANAR_YCBCR
 ;
 nsRefPtr
@@ -1031,7 +1034,10 @@ mStereoMode
 mozilla
 :
 :
-STEREO_MODE_MONO
+StereoMode
+:
+:
+MONO
 ;
 /
 /

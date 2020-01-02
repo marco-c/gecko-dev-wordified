@@ -1796,6 +1796,9 @@ if
 format
 =
 =
+ImageFormat
+:
+:
 GRALLOC_PLANAR_YCBCR
 )
 {
@@ -2046,6 +2049,9 @@ if
 format
 =
 =
+ImageFormat
+:
+:
 PLANAR_YCBCR
 )
 {

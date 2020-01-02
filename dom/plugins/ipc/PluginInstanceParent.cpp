@@ -3117,6 +3117,9 @@ GetImageContainer
 ImageFormat
 format
 =
+ImageFormat
+:
+:
 CAIRO_SURFACE
 ;
 nsRefPtr
@@ -3145,6 +3148,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 CAIRO_SURFACE
 "
 Wrong
@@ -3544,6 +3550,9 @@ ioSurface
 ImageFormat
 format
 =
+ImageFormat
+:
+:
 MAC_IOSURFACE
 ;
 nsRefPtr
@@ -3582,6 +3591,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 MAC_IOSURFACE
 "
 Wrong

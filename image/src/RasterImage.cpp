@@ -6214,6 +6214,9 @@ imageSurface
 ImageFormat
 cairoFormat
 =
+ImageFormat
+:
+:
 CAIRO_SURFACE
 ;
 nsRefPtr

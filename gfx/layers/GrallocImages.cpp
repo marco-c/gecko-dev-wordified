@@ -348,6 +348,9 @@ nullptr
 {
 mFormat
 =
+ImageFormat
+:
+:
 GRALLOC_PLANAR_YCBCR
 ;
 }

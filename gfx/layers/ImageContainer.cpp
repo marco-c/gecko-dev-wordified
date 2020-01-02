@@ -481,6 +481,9 @@ FormatInList
 (
 aFormats
 aNumFormats
+ImageFormat
+:
+:
 GRALLOC_PLANAR_YCBCR
 )
 )
@@ -508,6 +511,9 @@ FormatInList
 (
 aFormats
 aNumFormats
+ImageFormat
+:
+:
 PLANAR_YCBCR
 )
 )
@@ -534,6 +540,9 @@ FormatInList
 (
 aFormats
 aNumFormats
+ImageFormat
+:
+:
 CAIRO_SURFACE
 )
 )
@@ -559,6 +568,9 @@ FormatInList
 (
 aFormats
 aNumFormats
+ImageFormat
+:
+:
 SHARED_TEXTURE
 )
 )
@@ -587,6 +599,9 @@ FormatInList
 (
 aFormats
 aNumFormats
+ImageFormat
+:
+:
 MAC_IOSURFACE
 )
 )
@@ -617,6 +632,9 @@ FormatInList
 (
 aFormats
 aNumFormats
+ImageFormat
+:
+:
 D3D9_RGB32_TEXTURE
 )
 )
@@ -1024,10 +1042,6 @@ mImageClient
 >
 CreateImage
 (
-(
-uint32_t
-*
-)
 aFormats
 aNumFormats
 )
@@ -1656,6 +1670,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 REMOTE_IMAGE_BITMAP
 )
 {
@@ -1902,6 +1919,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 REMOTE_IMAGE_BITMAP
 )
 {
@@ -2685,6 +2705,9 @@ aRecycleBin
 Image
 (
 nullptr
+ImageFormat
+:
+:
 PLANAR_YCBCR
 )
 mBufferSize

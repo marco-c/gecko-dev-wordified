@@ -863,6 +863,9 @@ hr
 ImageFormat
 format
 =
+ImageFormat
+:
+:
 D3D9_RGB32_TEXTURE
 ;
 nsRefPtr
@@ -897,6 +900,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 D3D9_RGB32_TEXTURE
 "
 Wrong

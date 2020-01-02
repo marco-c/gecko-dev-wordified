@@ -5712,6 +5712,9 @@ if
 format
 =
 =
+ImageFormat
+:
+:
 GRALLOC_PLANAR_YCBCR
 )
 {
@@ -5870,6 +5873,9 @@ if
 format
 =
 =
+ImageFormat
+:
+:
 PLANAR_YCBCR
 )
 {
@@ -6221,6 +6227,9 @@ if
 format
 =
 =
+ImageFormat
+:
+:
 CAIRO_SURFACE
 )
 {
@@ -7952,6 +7961,9 @@ MOZ_WIDGET_GONK
 ImageFormat
 format
 =
+ImageFormat
+:
+:
 GRALLOC_PLANAR_YCBCR
 ;
 #
@@ -7959,6 +7971,9 @@ else
 ImageFormat
 format
 =
+ImageFormat
+:
+:
 PLANAR_YCBCR
 ;
 #
@@ -8148,7 +8163,10 @@ data
 .
 mStereoMode
 =
-STEREO_MODE_MONO
+StereoMode
+:
+:
+MONO
 ;
 videoImage
 -

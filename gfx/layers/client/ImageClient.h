@@ -488,7 +488,7 @@ Image
 CreateImage
 (
 const
-uint32_t
+ImageFormat
 *
 aFormats
 uint32_t
@@ -643,7 +643,7 @@ Image
 CreateImage
 (
 const
-uint32_t
+ImageFormat
 *
 aFormats
 uint32_t
@@ -937,7 +937,7 @@ Image
 CreateImage
 (
 const
-uint32_t
+ImageFormat
 *
 aFormats
 uint32_t
@@ -1096,7 +1096,7 @@ Image
 CreateImage
 (
 const
-uint32_t
+ImageFormat
 *
 aFormats
 uint32_t

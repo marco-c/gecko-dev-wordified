@@ -549,7 +549,10 @@ TEXTURE_FLAGS_DEFAULT
 StereoMode
 aStereoMode
 =
-STEREO_MODE_MONO
+StereoMode
+:
+:
+MONO
 )
 ;
 DataTextureSourceD3D9

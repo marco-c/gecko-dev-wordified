@@ -332,6 +332,9 @@ aAllocator
 Image
 (
 nullptr
+ImageFormat
+:
+:
 SHARED_RGB
 )
 mSize
@@ -478,6 +481,9 @@ nullptr
 ImageFormat
 format
 =
+ImageFormat
+:
+:
 SHARED_RGB
 ;
 nsRefPtr
@@ -1059,6 +1065,9 @@ aCompositable
 Image
 (
 nullptr
+ImageFormat
+:
+:
 SHARED_RGB
 )
 mCompositable

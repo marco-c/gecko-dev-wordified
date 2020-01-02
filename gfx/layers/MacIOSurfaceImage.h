@@ -404,6 +404,9 @@ MacIOSurfaceImage
 Image
 (
 nullptr
+ImageFormat
+:
+:
 MAC_IOSURFACE
 )
 {
