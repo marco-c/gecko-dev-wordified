@@ -114,6 +114,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 addTab
 (
 TEST_URI
