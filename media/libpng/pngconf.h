@@ -17,9 +17,9 @@ version
 .
 6
 .
-9
+10
 -
-February
+March
 6
 2014
 *
@@ -2873,6 +2873,9 @@ defined
 PNG_PRIVATE
 )
 #
+ifdef
+__has_extension
+#
 if
 __has_extension
 (
@@ -2900,6 +2903,8 @@ libpng
 )
 )
 )
+#
+endif
 #
 endif
 #

@@ -23,11 +23,11 @@ libpng
 .
 6
 .
-8
+10
 [
-December
-19
-2013
+March
+6
+2014
 ]
 *
 Copyright
@@ -36,7 +36,7 @@ c
 )
 1998
 -
-2013
+2014
 Glenn
 Randers
 -
@@ -5214,7 +5214,10 @@ void
 PRIVATE
 *
 /
+(
+PNGCBAPI
 png_safe_error
+)
 (
 png_structp
 png_nonconst_ptr
@@ -5466,6 +5469,7 @@ void
 PRIVATE
 *
 /
+PNGCBAPI
 png_safe_warning
 (
 png_structp
