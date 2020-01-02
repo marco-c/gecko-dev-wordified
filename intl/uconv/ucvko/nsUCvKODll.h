@@ -127,13 +127,6 @@ g_HangulNullMapping
 [
 ]
 ;
-extern
-const
-uint16_t
-g_ufJohabJamoMapping
-[
-]
-;
 #
 endif
 /

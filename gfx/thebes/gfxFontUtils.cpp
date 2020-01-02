@@ -7507,11 +7507,7 @@ nullptr
 ENCODING_ID_MICROSOFT_JOHAB
 *
 /
-"
-x
--
-johab
-"
+nullptr
 /
 *
 [
