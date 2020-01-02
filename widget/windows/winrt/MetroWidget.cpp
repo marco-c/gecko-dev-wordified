@@ -611,7 +611,7 @@ uia
 headers
 #
 define
-UiaRootObjectId
+MOZOBJID_UIAROOT
 -
 25
 namespace
@@ -5161,7 +5161,7 @@ if
 dwObjId
 =
 =
-UiaRootObjectId
+MOZOBJID_UIAROOT
 &
 &
 gProviderRoot
