@@ -5696,7 +5696,7 @@ pdfjs
 .
 firstRun
 "
-false
+true
 )
 ;
 /

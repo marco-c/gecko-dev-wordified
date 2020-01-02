@@ -1236,6 +1236,12 @@ init
 (
 )
 ;
+PdfJs
+.
+init
+(
+)
+;
 }
 catch
 (
