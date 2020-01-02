@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_DOMWheelEvent_h__
+mozilla_dom_WheelEvent_h_
 #
 define
-mozilla_dom_DOMWheelEvent_h__
+mozilla_dom_WheelEvent_h_
 #
 include
 "
@@ -158,7 +158,7 @@ namespace
 dom
 {
 class
-DOMWheelEvent
+WheelEvent
 :
 public
 nsDOMMouseEvent
@@ -167,14 +167,8 @@ nsIDOMWheelEvent
 {
 public
 :
-DOMWheelEvent
+WheelEvent
 (
-mozilla
-:
-:
-dom
-:
-:
 EventTarget
 *
 aOwner
@@ -202,7 +196,7 @@ NS_FORWARD_TO_NSDOMMOUSEEVENT
 static
 already_AddRefed
 <
-DOMWheelEvent
+WheelEvent
 >
 Constructor
 (
@@ -218,9 +212,6 @@ const
 WheelEventInit
 &
 aParam
-mozilla
-:
-:
 ErrorResult
 &
 aRv
@@ -247,12 +238,6 @@ aScope
 MOZ_OVERRIDE
 {
 return
-mozilla
-:
-:
-dom
-:
-:
 WheelEventBinding
 :
 :
@@ -300,4 +285,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_DOMWheelEvent_h__
+mozilla_dom_WheelEvent_h_
