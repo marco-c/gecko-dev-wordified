@@ -900,15 +900,6 @@ to
 be
 stored
 .
-FloatRegister
-src2
-=
-src
-.
-doubleOverlay
-(
-)
-;
 masm
 .
 ma_vstr
