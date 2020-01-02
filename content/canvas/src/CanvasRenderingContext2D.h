@@ -4114,6 +4114,9 @@ mElement
 ;
 }
 ;
+#
+ifdef
+ACCESSIBILITY
 static
 PLDHashOperator
 RemoveHitRegionProperty
@@ -4126,6 +4129,8 @@ void
 aData
 )
 ;
+#
+endif
 nsTHashtable
 <
 RegionInfo

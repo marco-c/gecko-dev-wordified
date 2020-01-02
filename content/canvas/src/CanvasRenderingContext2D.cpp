@@ -3504,6 +3504,9 @@ return
 true
 ;
 }
+#
+ifdef
+ACCESSIBILITY
 PLDHashOperator
 CanvasRenderingContext2D
 :
@@ -3535,6 +3538,8 @@ return
 PL_DHASH_NEXT
 ;
 }
+#
+endif
 nsresult
 CanvasRenderingContext2D
 :
@@ -3613,6 +3618,9 @@ nullptr
 reset
 hit
 regions
+#
+ifdef
+ACCESSIBILITY
 mHitRegionsOptions
 .
 EnumerateEntries
@@ -3621,6 +3629,8 @@ RemoveHitRegionProperty
 nullptr
 )
 ;
+#
+endif
 mHitRegionsOptions
 .
 Clear
@@ -13019,6 +13029,9 @@ width
 )
 ;
 }
+#
+ifdef
+ACCESSIBILITY
 /
 /
 Callback
@@ -13083,6 +13096,8 @@ delete
 valPtr
 ;
 }
+#
+endif
 void
 CanvasRenderingContext2D
 :
@@ -13307,6 +13322,9 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 return
 ;
 }
+#
+ifdef
+ACCESSIBILITY
 if
 (
 isDescendant
@@ -13381,6 +13399,8 @@ ReleaseBBoxPropertyValue
 )
 ;
 }
+#
+endif
 /
 /
 finally
@@ -13459,6 +13479,9 @@ info
 return
 ;
 }
+#
+ifdef
+ACCESSIBILITY
 info
 -
 >
@@ -13473,6 +13496,8 @@ nsGkAtoms
 hitregion
 )
 ;
+#
+endif
 mHitRegionsOptions
 .
 RemoveEntry
