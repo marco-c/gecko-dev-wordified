@@ -308,6 +308,16 @@ CurrentTime
 )
 const
 ;
+bool
+IsRunningOnCompositor
+(
+)
+const
+{
+return
+mIsRunningOnCompositor
+;
+}
 void
 SetSource
 (
