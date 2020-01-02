@@ -600,7 +600,7 @@ nr_ip4_port_to_transport_addr
 (
 INADDR_ANY
 0
-NR_IPV4
+IPPROTO_UDP
 &
 sock
 -
@@ -860,6 +860,12 @@ socket
 /
 if
 (
+sock
+-
+>
+inner
+&
+&
 !
 nr_socket_getfd
 (
