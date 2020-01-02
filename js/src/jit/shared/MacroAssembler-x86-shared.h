@@ -1621,9 +1621,7 @@ word
 CodeOffsetLabel
 PushWithPatch
 (
-const
 ImmPtr
-&
 imm
 )
 {

@@ -2170,9 +2170,7 @@ ScratchReg
 void
 push
 (
-const
 ImmPtr
-&
 imm
 )
 {
@@ -2313,9 +2311,7 @@ currentOffset
 CodeOffsetLabel
 movWithPatch
 (
-const
 ImmPtr
-&
 imm
 Register
 dest

@@ -13359,9 +13359,7 @@ MacroAssemblerARMCompat
 :
 movePtr
 (
-const
 ImmPtr
-&
 imm
 Register
 dest
@@ -16108,9 +16106,7 @@ cmpPtr
 (
 Register
 lhs
-const
 ImmPtr
-&
 rhs
 )
 {
@@ -16258,9 +16254,7 @@ const
 Address
 &
 lhs
-const
 ImmPtr
-&
 rhs
 )
 {
