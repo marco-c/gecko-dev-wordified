@@ -145,9 +145,6 @@ nsHTMLReflowMetrics
 h
 "
 class
-nsBlockFrame
-;
-class
 nsBlockReflowState
 ;
 struct
@@ -255,14 +252,13 @@ aBottomMarginResult
 out
 *
 /
-nsRect
-&
-aInFlowBounds
 nsOverflowAreas
 &
 aOverflowAreas
 nsReflowStatus
 aReflowStatus
+nscoord
+aContainerWidth
 )
 ;
 nsCollapsingMargin

@@ -28571,7 +28571,7 @@ if
 line
 -
 >
-GetHeight
+BSize
 (
 )
 !
@@ -28594,9 +28594,9 @@ top
 line
 -
 >
-mBounds
-.
-y
+BStart
+(
+)
 ;
 aResult
 -
@@ -28629,7 +28629,7 @@ top
 line
 -
 >
-GetHeight
+BSize
 (
 )
 ;
@@ -28901,7 +28901,7 @@ if
 line
 -
 >
-GetHeight
+BSize
 (
 )
 !
@@ -28924,9 +28924,9 @@ aResult
 line
 -
 >
-mBounds
-.
-y
+BStart
+(
+)
 +
 line
 -
@@ -29065,9 +29065,7 @@ contentBottom
 line
 -
 >
-mBounds
-.
-YMost
+BEnd
 (
 )
 )

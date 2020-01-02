@@ -1210,6 +1210,9 @@ occur
 nsRect
 mContentArea
 ;
+nscoord
+mContainerWidth
+;
 /
 /
 Continuation
