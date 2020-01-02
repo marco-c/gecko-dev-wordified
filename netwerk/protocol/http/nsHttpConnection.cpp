@@ -1780,6 +1780,10 @@ nsHttpConnection
 EnsureNPNComplete
 %
 p
+[
+%
+s
+]
 negotiated
 to
 '
@@ -1790,6 +1794,12 @@ s
 n
 "
 this
+mConnInfo
+-
+>
+Host
+(
+)
 negotiatedNPN
 .
 get
