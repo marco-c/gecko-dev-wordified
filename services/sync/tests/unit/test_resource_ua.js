@@ -276,10 +276,6 @@ handler
 }
 )
 ;
-ensureLegacyIdentityManager
-(
-)
-;
 setBasicCredentials
 (
 "

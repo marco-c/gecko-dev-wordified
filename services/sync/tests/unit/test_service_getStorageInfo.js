@@ -198,10 +198,6 @@ initTestLogging
 (
 )
 ;
-ensureLegacyIdentityManager
-(
-)
-;
 setBasicCredentials
 (
 "
