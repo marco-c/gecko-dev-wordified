@@ -1405,16 +1405,6 @@ off
 )
 in
 milliseconds
-nscoord
-mCaretWidthCSSPx
-;
-/
-/
-caret
-width
-in
-CSS
-pixels
 float
 mCaretAspectRatio
 ;
