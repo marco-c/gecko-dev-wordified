@@ -339,7 +339,7 @@ initially
 :
 /
 /
-Medium
+Low
 integrity
 unrestricted
 in
@@ -407,7 +407,7 @@ SetDelayedIntegrityLevel
 sandbox
 :
 :
-INTEGRITY_LEVEL_UNTRUSTED
+INTEGRITY_LEVEL_LOW
 )
 ;
 /
