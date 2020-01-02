@@ -8606,6 +8606,12 @@ PostWriteTimer
 (
 )
 {
+if
+(
+mMemoryOnly
+)
+return
+;
 LOG
 (
 (
