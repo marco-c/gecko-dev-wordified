@@ -6741,6 +6741,12 @@ toolbarLayout
 mViewFlipper
 ;
 final
+ToolbarProgressView
+progressView
+=
+mProgressView
+;
+final
 int
 marginTop
 =
@@ -6792,7 +6798,7 @@ ViewHelper
 .
 setTranslationY
 (
-mProgressView
+progressView
 translationY
 )
 ;
