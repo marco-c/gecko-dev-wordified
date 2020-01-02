@@ -1074,15 +1074,12 @@ define
 MSG_DEF
 (
 name
-number
 count
 exception
 format
 )
 \
 name
-=
-number
 #
 include
 "
@@ -30754,7 +30751,6 @@ define
 MSG_DEF
 (
 name
-number
 count
 exception
 format
