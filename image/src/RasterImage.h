@@ -223,6 +223,13 @@ h
 #
 include
 "
+DecodeStrategy
+.
+h
+"
+#
+include
+"
 DiscardTracker
 .
 h
@@ -1900,6 +1907,10 @@ eShutdownIntent_AllCount
 3
 }
 ;
+/
+/
+Decode
+strategy
 private
 :
 already_AddRefed
@@ -2349,6 +2360,8 @@ DecodeABitOf
 RasterImage
 *
 aImg
+DecodeStrategy
+aStrategy
 )
 ;
 /
@@ -2649,6 +2662,8 @@ DecodeSomeOfImage
 RasterImage
 *
 aImg
+DecodeStrategy
+aStrategy
 DecodeType
 aDecodeType
 =
@@ -4029,6 +4044,8 @@ char
 aBuffer
 uint32_t
 aCount
+DecodeStrategy
+aStrategy
 )
 ;
 nsresult
@@ -4036,6 +4053,8 @@ DecodeSomeData
 (
 uint32_t
 aMaxBytes
+DecodeStrategy
+aStrategy
 )
 ;
 bool

@@ -530,6 +530,8 @@ char
 aBuffer
 uint32_t
 aCount
+DecodeStrategy
+aStrategy
 )
 ;
 uint8_t
