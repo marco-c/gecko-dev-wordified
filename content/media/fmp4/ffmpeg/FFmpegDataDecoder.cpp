@@ -544,6 +544,8 @@ mCodecContext
 .
 thread_type
 =
+FF_THREAD_SLICE
+|
 FF_THREAD_FRAME
 ;
 mCodecContext
