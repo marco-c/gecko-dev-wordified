@@ -32698,7 +32698,7 @@ fieldName
 table
 -
 >
-rekey
+rekeyIfMoved
 (
 JS_ASSERT_STRING_IS_FLAT
 (

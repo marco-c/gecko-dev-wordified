@@ -396,7 +396,7 @@ HashKeyRef
 map
 -
 >
-rekey
+rekeyIfMoved
 (
 prior
 key

@@ -641,7 +641,7 @@ self
 >
 table_
 .
-rekey
+rekeyIfMoved
 (
 prior
 key
