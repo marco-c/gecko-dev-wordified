@@ -16351,6 +16351,12 @@ _mousedown
 =
 false
 ;
+aEvent
+.
+preventDefault
+(
+)
+;
 /
 /
 Do
@@ -16387,12 +16393,6 @@ button
 return
 ;
 }
-aEvent
-.
-preventDefault
-(
-)
-;
 /
 /
 If
