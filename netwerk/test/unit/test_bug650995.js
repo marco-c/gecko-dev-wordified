@@ -528,7 +528,11 @@ function
 (
 )
 {
-evict_cache_entries
+get_cache_service
+(
+)
+.
+clear
 (
 )
 ;
