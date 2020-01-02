@@ -1169,6 +1169,7 @@ GaussianBlur
 DropShadow
 DiffuseLighting
 SpecularLighting
+ToAlpha
 Max
 MOZ_END_ENUM_CLASS
 (
