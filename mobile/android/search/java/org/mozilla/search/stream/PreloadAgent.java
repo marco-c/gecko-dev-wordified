@@ -133,7 +133,7 @@ agent
 manager
 between
 the
-CardStreamFragment
+PreSearchFragment
 *
 and
 the
@@ -149,6 +149,7 @@ AutoCompleteFragmentManager
 .
 *
 /
+public
 class
 PreloadAgent
 {

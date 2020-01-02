@@ -62,8 +62,6 @@ org
 mozilla
 .
 search
-.
-stream
 ;
 import
 android
@@ -104,7 +102,9 @@ mozilla
 .
 search
 .
-R
+stream
+.
+PreloadAgent
 ;
 /
 *
@@ -150,7 +150,7 @@ point
 /
 public
 class
-CardStreamFragment
+PreSearchFragment
 extends
 ListFragment
 {
@@ -193,7 +193,7 @@ changes
 *
 /
 public
-CardStreamFragment
+PreSearchFragment
 (
 )
 {

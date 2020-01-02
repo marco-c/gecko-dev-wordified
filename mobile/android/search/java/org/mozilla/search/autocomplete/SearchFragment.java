@@ -262,7 +262,7 @@ dictionary
 /
 public
 class
-AutoCompleteFragment
+SearchFragment
 extends
 Fragment
 implements
@@ -335,7 +335,7 @@ mode
 .
 }
 public
-AutoCompleteFragment
+SearchFragment
 (
 )
 {
