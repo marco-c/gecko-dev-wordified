@@ -3233,6 +3233,10 @@ CERTCertificate
 *
 cert
 const
+SECItem
+*
+stapledOCSPResponse
+const
 void
 *
 fdForLogging
@@ -3481,6 +3485,24 @@ arena
 =
 log_arena
 ;
+/
+/
+XXX
+TODO
+:
+convert
+to
+VerifySSLServerCert
+/
+/
+XXX
+TODO
+:
+get
+rid
+of
+error
+log
 srv
 =
 certVerifier
@@ -3488,6 +3510,7 @@ certVerifier
 VerifyCert
 (
 cert
+stapledOCSPResponse
 certificateUsageSSLServer
 now
 infoObject
@@ -4161,6 +4184,8 @@ SECItem
 stapledOCSPResponse
 uint32_t
 providerFlags
+PRTime
+time
 )
 ;
 private
@@ -4201,6 +4226,8 @@ SECItem
 stapledOCSPResponse
 uint32_t
 providerFlags
+PRTime
+time
 )
 ;
 const
@@ -4236,6 +4263,10 @@ mCert
 const
 uint32_t
 mProviderFlags
+;
+const
+PRTime
+mTime
 ;
 const
 TimeStamp
@@ -4274,6 +4305,8 @@ SECItem
 stapledOCSPResponse
 uint32_t
 providerFlags
+PRTime
+time
 )
 :
 mCertVerifier
@@ -4298,6 +4331,10 @@ cert
 mProviderFlags
 (
 providerFlags
+)
+mTime
+(
+time
 )
 mJobStartTime
 (
@@ -4815,6 +4852,8 @@ SECItem
 stapledOCSPResponse
 uint32_t
 providerFlags
+PRTime
+time
 )
 {
 MOZ_ASSERT
@@ -5188,9 +5227,8 @@ certVerifier
 VerifySSLServerCert
 (
 cert
-PR_Now
-(
-)
+stapledOCSPResponse
+time
 infoObject
 infoObject
 -
@@ -5546,6 +5584,8 @@ SECItem
 stapledOCSPResponse
 uint32_t
 providerFlags
+PRTime
+time
 )
 {
 /
@@ -5608,6 +5648,7 @@ infoObject
 serverCert
 stapledOCSPResponse
 providerFlags
+time
 )
 )
 ;
@@ -5903,6 +5944,9 @@ mode
 }
 /
 /
+XXX
+/
+/
 Reset
 the
 error
@@ -5949,6 +5993,7 @@ get
 )
 mStapledOCSPResponse
 mProviderFlags
+mTime
 )
 ;
 if
@@ -6091,11 +6136,10 @@ mCert
 get
 (
 )
+mStapledOCSPResponse
 mFdForLogging
 mProviderFlags
-PR_Now
-(
-)
+mTime
 )
 )
 ;
@@ -6877,6 +6921,7 @@ socketInfo
 serverCert
 stapledOCSPResponse
 providerFlags
+now
 )
 ;
 return
@@ -6950,6 +6995,7 @@ socketInfo
 serverCert
 stapledOCSPResponse
 providerFlags
+now
 )
 ;
 if
@@ -6992,6 +7038,7 @@ certVerifier
 error
 socketInfo
 serverCert
+stapledOCSPResponse
 static_cast
 <
 const

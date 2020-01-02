@@ -123,6 +123,15 @@ mozilla_psm__NSSCertDBTrustDomain_h
 #
 include
 "
+insanity
+/
+pkixtypes
+.
+h
+"
+#
+include
+"
 secmodt
 .
 h

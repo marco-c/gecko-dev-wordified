@@ -3589,6 +3589,7 @@ node
 -
 >
 cert
+nullptr
 certificateUsageEmailRecipient
 now
 ctx
@@ -4392,6 +4393,7 @@ node
 -
 >
 cert
+nullptr
 certificateUsageVerifyCA
 PR_Now
 (
@@ -7514,6 +7516,7 @@ node
 -
 >
 cert
+nullptr
 certificateUsageEmailRecipient
 PR_Now
 (
@@ -9282,6 +9285,7 @@ certVerifier
 VerifyCert
 (
 nssCert
+nullptr
 aUsage
 PR_Now
 (
