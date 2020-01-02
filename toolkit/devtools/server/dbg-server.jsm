@@ -414,12 +414,6 @@ Sandbox
 systemPrincipal
 )
 ;
-gGlobal
-.
-ChromeWorker
-=
-ChromeWorker
-;
 Cu
 .
 evalInSandbox
