@@ -1359,9 +1359,6 @@ static
 bool
 MaybeEmulatesUndefined
 (
-JSContext
-*
-cx
 MDefinition
 *
 op
@@ -1416,9 +1413,6 @@ static
 bool
 MaybeCallable
 (
-JSContext
-*
-cx
 MDefinition
 *
 op
@@ -1475,9 +1469,6 @@ MTest
 :
 infer
 (
-JSContext
-*
-cx
 )
 {
 JS_ASSERT
@@ -1492,7 +1483,6 @@ if
 !
 MaybeEmulatesUndefined
 (
-cx
 getOperand
 (
 0
@@ -9700,9 +9690,6 @@ static
 bool
 CanDoValueBitwiseCmp
 (
-JSContext
-*
-cx
 MDefinition
 *
 lhs
@@ -9775,14 +9762,12 @@ if
 (
 MaybeEmulatesUndefined
 (
-cx
 lhs
 )
 |
 |
 MaybeEmulatesUndefined
 (
-cx
 rhs
 )
 )
@@ -10454,9 +10439,6 @@ MCompare
 :
 infer
 (
-JSContext
-*
-cx
 BaselineInspector
 *
 inspector
@@ -10477,7 +10459,6 @@ if
 !
 MaybeEmulatesUndefined
 (
-cx
 getOperand
 (
 0
@@ -10488,7 +10469,6 @@ getOperand
 !
 MaybeEmulatesUndefined
 (
-cx
 getOperand
 (
 1
@@ -11185,7 +11165,6 @@ relationalEq
 &
 CanDoValueBitwiseCmp
 (
-cx
 getOperand
 (
 0
@@ -11700,9 +11679,6 @@ MTypeOf
 :
 infer
 (
-JSContext
-*
-cx
 )
 {
 JS_ASSERT
@@ -11717,7 +11693,6 @@ if
 !
 MaybeEmulatesUndefined
 (
-cx
 input
 (
 )
@@ -11727,7 +11702,6 @@ input
 !
 MaybeCallable
 (
-cx
 input
 (
 )
@@ -14148,9 +14122,6 @@ MNot
 :
 infer
 (
-JSContext
-*
-cx
 )
 {
 JS_ASSERT
@@ -14165,7 +14136,6 @@ if
 !
 MaybeEmulatesUndefined
 (
-cx
 getOperand
 (
 0
