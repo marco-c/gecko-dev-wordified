@@ -2904,9 +2904,6 @@ OpenMode
 mOpenMode
 ;
 bool
-mUsingFallbackDrawTarget
-;
-bool
 mLocked
 ;
 }
