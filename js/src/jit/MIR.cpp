@@ -6779,7 +6779,7 @@ of
 which
 may
 call
-realloc_
+pod_realloc
 (
 )
 .
@@ -7822,7 +7822,7 @@ use
 lists
 in
 case
-realloc_
+pod_realloc
 (
 )
 moves

@@ -1588,7 +1588,7 @@ uint32_t
 nbytes
 )
 {
-void
+uint8_t
 *
 p
 =
@@ -1600,7 +1600,10 @@ runtime
 )
 -
 >
-callocCanGC
+pod_callocCanGC
+<
+uint8_t
+>
 (
 nbytes
 )
