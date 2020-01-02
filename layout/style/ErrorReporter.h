@@ -212,6 +212,15 @@ OutputError
 )
 ;
 void
+OutputError
+(
+uint32_t
+aLineNumber
+uint32_t
+aLineOffset
+)
+;
+void
 ClearError
 (
 )

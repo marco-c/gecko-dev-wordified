@@ -1455,6 +1455,13 @@ aBaseURL
 nsIPrincipal
 *
 aDocPrincipal
+nsCSSStyleSheet
+*
+aSheet
+uint32_t
+aLineNumber
+uint32_t
+aLineOffset
 )
 ;
 protected
