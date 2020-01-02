@@ -326,6 +326,13 @@ bool
 collecting
 )
 ;
+void
+SetEventloopNestingLevel
+(
+uint32_t
+level
+)
+;
 nsresult
 SetRestartArgs
 (
