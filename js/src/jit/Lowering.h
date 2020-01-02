@@ -1128,6 +1128,14 @@ ins
 )
 ;
 bool
+visitStringSplit
+(
+MStringSplit
+*
+ins
+)
+;
+bool
 visitStart
 (
 MStart

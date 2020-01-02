@@ -3687,6 +3687,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineStringSplit
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineStrCharCodeAt
 (
 CallInfo

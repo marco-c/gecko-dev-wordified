@@ -434,6 +434,11 @@ FromCharCode
 \
 _
 (
+StringSplit
+)
+\
+_
+(
 Return
 )
 \

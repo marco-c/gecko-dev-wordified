@@ -977,6 +977,10 @@ UNSAFE_OP
 (
 FromCharCode
 )
+UNSAFE_OP
+(
+StringSplit
+)
 SAFE_OP
 (
 Return
