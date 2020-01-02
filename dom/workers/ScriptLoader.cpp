@@ -4470,9 +4470,6 @@ Failed
 to
 load
 script
-:
-%
-s
 (
 nsresult
 =
@@ -4481,11 +4478,6 @@ nsresult
 x
 )
 "
-url
-.
-get
-(
-)
 aLoadResult
 )
 ;
