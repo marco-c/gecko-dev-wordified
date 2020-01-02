@@ -408,10 +408,6 @@ const
 bool
 mDXVAEnabled
 ;
-const
-bool
-mIsRunningOnVista
-;
 bool
 mUseHwAccel
 ;
