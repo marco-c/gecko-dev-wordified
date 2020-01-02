@@ -2353,7 +2353,7 @@ NS_ENSURE_STATE
 mQuotaObject
 )
 ;
-int
+int32_t
 openFlags
 ;
 if
