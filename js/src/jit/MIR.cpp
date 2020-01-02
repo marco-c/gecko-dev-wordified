@@ -17272,6 +17272,14 @@ shape
 shape
 -
 >
+hasSlot
+(
+)
+&
+&
+shape
+-
+>
 hasDefaultGetter
 (
 )
