@@ -580,6 +580,9 @@ return
 isMainProcess
 ;
 }
+#
+ifdef
+DEBUG
 bool
 IsChildProcess
 (
@@ -592,6 +595,8 @@ IsMainProcess
 )
 ;
 }
+#
+endif
 void
 AssertIsInMainProcess
 (
