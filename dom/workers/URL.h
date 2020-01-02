@@ -602,12 +602,6 @@ URLSearchParamsUpdated
 )
 MOZ_OVERRIDE
 ;
-void
-URLSearchParamsNeedsUpdates
-(
-)
-MOZ_OVERRIDE
-;
 private
 :
 URLProxy
@@ -633,6 +627,11 @@ const
 nsAString
 &
 aSearch
+)
+;
+void
+UpdateURLSearchParams
+(
 )
 ;
 WorkerPrivate
