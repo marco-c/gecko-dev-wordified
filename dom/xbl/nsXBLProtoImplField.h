@@ -223,9 +223,6 @@ aNext
 nsresult
 InstallField
 (
-nsIScriptContext
-*
-aContext
 JS
 :
 :
