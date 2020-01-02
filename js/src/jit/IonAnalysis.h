@@ -537,6 +537,14 @@ sp
 )
 const
 ;
+void
+dump
+(
+FILE
+*
+)
+const
+;
 private
 :
 Vector

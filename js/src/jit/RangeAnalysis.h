@@ -2295,6 +2295,15 @@ sp
 )
 const
 ;
+void
+dump
+(
+FILE
+*
+fp
+)
+const
+;
 bool
 update
 (
