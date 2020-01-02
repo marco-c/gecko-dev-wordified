@@ -285,7 +285,7 @@ retval
 protected
 :
 void
-EnsureMimeTypes
+EnsurePluginMimeTypes
 (
 )
 ;

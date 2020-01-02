@@ -585,7 +585,7 @@ MimeTypes
 protected
 :
 void
-EnsureMimeTypes
+EnsurePluginMimeTypes
 (
 )
 ;
