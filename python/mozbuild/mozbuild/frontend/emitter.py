@@ -123,6 +123,8 @@ ExampleWebIDLInterface
     
 HeaderFileSubstitution
     
+HostLibrary
+    
 HostProgram
     
 HostSimpleProgram
@@ -1561,10 +1563,6 @@ GENERATED_FILES
 '
             
 '
-HOST_LIBRARY_NAME
-'
-            
-'
 IS_GYP_DIR
 '
             
@@ -2641,6 +2639,17 @@ InstallationTarget
 sandbox
 )
         
+host_libname
+=
+sandbox
+.
+get
+(
+'
+HOST_LIBRARY_NAME
+'
+)
+        
 libname
 =
 sandbox
@@ -2650,6 +2659,59 @@ get
 '
 LIBRARY_NAME
 '
+)
+        
+if
+host_libname
+:
+            
+if
+host_libname
+=
+=
+libname
+:
+                
+raise
+SandboxValidationError
+(
+'
+LIBRARY_NAME
+and
+'
+                    
+'
+HOST_LIBRARY_NAME
+must
+have
+a
+different
+value
+'
+sandbox
+)
+            
+self
+.
+_libs
+[
+host_libname
+]
+[
+sandbox
+[
+'
+OBJDIR
+'
+]
+]
+=
+\
+                
+HostLibrary
+(
+sandbox
+host_libname
 )
         
 final_lib

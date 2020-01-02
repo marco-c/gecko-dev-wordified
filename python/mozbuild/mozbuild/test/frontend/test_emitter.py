@@ -1283,12 +1283,6 @@ c
 '
 ]
             
-HOST_LIBRARY_NAME
-=
-'
-host_fans
-'
-            
 LIBS
 =
 [

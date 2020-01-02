@@ -2738,21 +2738,6 @@ c
 ]
             
 '
-HOST_LIBRARY_NAME
-'
-:
-[
-                
-'
-HOST_LIBRARY_NAME
-:
-=
-host_bar
-'
-            
-]
-            
-'
 MSVC_ENABLE_PGO
 '
 :

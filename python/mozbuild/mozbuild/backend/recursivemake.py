@@ -130,6 +130,8 @@ Exports
     
 GeneratedInclude
     
+HostLibrary
+    
 HostProgram
     
 HostSimpleProgram
@@ -3177,6 +3179,22 @@ Library
 self
 .
 _process_library
+(
+obj
+backend_file
+)
+        
+elif
+isinstance
+(
+obj
+HostLibrary
+)
+:
+            
+self
+.
+_process_host_library
 (
 obj
 backend_file
@@ -9493,6 +9511,33 @@ n
 relpath
 basename
 )
+)
+    
+def
+_process_host_library
+(
+self
+libdef
+backend_file
+)
+:
+        
+backend_file
+.
+write
+(
+'
+HOST_LIBRARY_NAME
+=
+%
+s
+\
+n
+'
+%
+libdef
+.
+basename
 )
     
 def
