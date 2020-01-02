@@ -5442,7 +5442,6 @@ return
 mOpaqueRect
 ;
 }
-virtual
 void
 SetPermitSubpixelAA
 (
