@@ -464,7 +464,7 @@ initialized
 {
 RemoteDebugger
 .
-start
+initServer
 (
 )
 ;
