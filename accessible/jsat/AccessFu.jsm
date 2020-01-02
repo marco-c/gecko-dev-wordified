@@ -1706,7 +1706,7 @@ notifyObservers
 (
 null
 '
-accessfu
+accessibility
 -
 output
 '
@@ -3421,7 +3421,7 @@ Utils
 dispatchChromeEvent
 (
 '
-accessfu
+accessibility
 -
 output
 '
