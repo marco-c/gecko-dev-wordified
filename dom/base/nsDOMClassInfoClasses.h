@@ -225,15 +225,6 @@ CSSSupportsRule
 )
 /
 /
-other
-SVG
-classes
-DOMCI_CLASS
-(
-SVGNumber
-)
-/
-/
 WindowUtils
 DOMCI_CLASS
 (

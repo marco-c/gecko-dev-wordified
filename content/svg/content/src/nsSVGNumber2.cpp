@@ -122,13 +122,6 @@ NS_ENSURE_FINITE
 #
 include
 "
-nsIDOMSVGNumber
-.
-h
-"
-#
-include
-"
 nsSMILFloatType
 .
 h
