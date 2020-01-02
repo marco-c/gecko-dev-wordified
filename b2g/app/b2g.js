@@ -971,7 +971,7 @@ enable
 -
 tiles
 "
-false
+true
 )
 ;
 /
