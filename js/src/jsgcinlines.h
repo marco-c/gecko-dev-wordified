@@ -1651,10 +1651,6 @@ that
 no
 allocation
 occurs
-while
-it
-is
-live
 .
 *
 /
@@ -1758,6 +1754,15 @@ AutoAssertNoAlloc
 (
 JSRuntime
 *
+)
+{
+}
+void
+disallowAlloc
+(
+JSRuntime
+*
+rt
 )
 {
 }
