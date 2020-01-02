@@ -248,7 +248,7 @@ composition
 .
 *
 /
-class
+struct
 gfxMatrix
 ;
 namespace
