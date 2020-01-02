@@ -17792,7 +17792,9 @@ NS_OK
 WebIDL
 quickstubs
 handle
-location
+"
+top
+"
 for
 us
 but
