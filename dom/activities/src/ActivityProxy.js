@@ -720,6 +720,9 @@ cleanup
 ;
 if
 (
+cpmm
+&
+&
 !
 this
 .
