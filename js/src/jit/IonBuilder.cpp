@@ -283,6 +283,13 @@ h
 #
 include
 "
+jsopcodeinlines
+.
+h
+"
+#
+include
+"
 jit
 /
 CompileInfo

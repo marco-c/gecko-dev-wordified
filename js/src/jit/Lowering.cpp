@@ -186,6 +186,13 @@ h
 #
 include
 "
+jsopcodeinlines
+.
+h
+"
+#
+include
+"
 jit
 /
 shared
@@ -3953,12 +3960,6 @@ lhsp
 rhs
 ;
 return
-js
-:
-:
-analyze
-:
-:
 ReverseCompareOp
 (
 op
