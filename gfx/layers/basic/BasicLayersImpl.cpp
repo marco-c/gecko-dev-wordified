@@ -721,12 +721,12 @@ aSurfaceTransform
 {
 transform
 =
-transform
-*
 (
 *
 aSurfaceTransform
 )
+*
+transform
 ;
 }
 SurfacePattern
