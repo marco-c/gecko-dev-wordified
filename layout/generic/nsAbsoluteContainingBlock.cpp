@@ -603,7 +603,7 @@ aOldFrame
 )
 ;
 }
-nsresult
+void
 nsAbsoluteContainingBlock
 :
 :
@@ -1211,9 +1211,6 @@ NS_MergeReflowStatusInto
 aReflowStatus
 reflowStatus
 )
-;
-return
-NS_OK
 ;
 }
 static

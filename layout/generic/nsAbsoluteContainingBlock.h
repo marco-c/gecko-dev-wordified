@@ -553,7 +553,7 @@ reflows
 .
 *
 /
-nsresult
+void
 Reflow
 (
 nsContainerFrame
