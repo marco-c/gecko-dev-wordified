@@ -951,7 +951,7 @@ WebGLRefCountedObject
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mWebGLRefCnt
 =
@@ -970,7 +970,7 @@ objects
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mDeletionStatus
 =
@@ -1014,7 +1014,7 @@ WebGLRelease
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mWebGLRefCnt
 >
@@ -1471,7 +1471,7 @@ operator
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mRawPtr
 !
@@ -1510,7 +1510,7 @@ operator
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mRawPtr
 !

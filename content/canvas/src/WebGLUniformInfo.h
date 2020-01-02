@@ -235,8 +235,9 @@ return
 ;
 default
 :
-NS_ABORT
+MOZ_ASSERT
 (
+false
 )
 ;
 /

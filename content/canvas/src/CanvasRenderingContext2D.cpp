@@ -5622,7 +5622,7 @@ GetAsImageSurface
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gis
 "
@@ -20516,7 +20516,7 @@ IntSize
 FORMAT_B8G8R8A8
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 errorTarget
 "

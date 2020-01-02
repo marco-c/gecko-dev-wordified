@@ -990,8 +990,9 @@ poin
 )
 ;
 }
-NS_ABORT
+MOZ_ASSERT
 (
+false
 )
 ;
 /
@@ -1956,8 +1957,9 @@ getAttachment
 )
 )
 {
-NS_ABORT
+MOZ_ASSERT
 (
+false
 )
 ;
 return
@@ -1989,8 +1991,9 @@ Length
 )
 )
 {
-NS_ABORT
+MOZ_ASSERT
 (
+false
 )
 ;
 return

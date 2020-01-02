@@ -888,8 +888,9 @@ NO_ERROR
 ;
 default
 :
-NS_ABORT
+MOZ_ASSERT
 (
+false
 )
 ;
 return
@@ -980,8 +981,9 @@ return
 true
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT
 (
+false
 "
 Invalid
 WebGL
@@ -989,10 +991,6 @@ texture
 format
 ?
 "
-)
-;
-NS_ABORT
-(
 )
 ;
 return
