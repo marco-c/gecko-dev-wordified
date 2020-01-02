@@ -708,12 +708,7 @@ SetStereoRecording
 bool
 enable
 )
-{
-return
--
-1
 ;
-}
 int32_t
 StereoRecording
 (
