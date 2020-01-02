@@ -6419,6 +6419,16 @@ params
 selected
 :
 true
+isPrivate
+:
+closedTab
+.
+isPrivate
+desktopMode
+:
+closedTab
+.
+desktopMode
 }
 ;
 let
