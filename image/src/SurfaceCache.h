@@ -812,9 +812,9 @@ Insert
 gfx
 :
 :
-DrawTarget
+SourceSurface
 *
-aTarget
+aSurface
 const
 ImageKey
 aImageKey

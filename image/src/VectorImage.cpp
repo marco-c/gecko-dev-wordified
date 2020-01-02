@@ -6333,6 +6333,19 @@ aParams
 flags
 )
 ;
+RefPtr
+<
+SourceSurface
+>
+surface
+=
+target
+-
+>
+Snapshot
+(
+)
+;
 /
 /
 Attempt
@@ -6347,7 +6360,7 @@ SurfaceCache
 :
 Insert
 (
-target
+surface
 ImageKey
 (
 this
@@ -6428,7 +6441,7 @@ drawable
 new
 gfxSurfaceDrawable
 (
-target
+surface
 ThebesIntSize
 (
 aParams
