@@ -13951,7 +13951,7 @@ aIsSync
 return
 SendSyncMessage
 (
-nsString
+PromiseFlatString
 (
 aMessage
 )
@@ -13965,7 +13965,7 @@ aJSONRetVal
 return
 CallRpcMessage
 (
-nsString
+PromiseFlatString
 (
 aMessage
 )
@@ -14072,7 +14072,7 @@ false
 return
 SendAsyncMessage
 (
-nsString
+PromiseFlatString
 (
 aMessage
 )
