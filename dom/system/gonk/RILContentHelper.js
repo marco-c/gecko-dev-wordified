@@ -2676,7 +2676,6 @@ nsIIccProvider
 updateDebugFlag
 :
 function
-updateDebugFlag
 (
 )
 {
@@ -2718,7 +2717,6 @@ objects
 updateInfo
 :
 function
-updateInfo
 (
 srcInfo
 destInfo
@@ -2747,7 +2745,6 @@ key
 updateConnectionInfo
 :
 function
-updateConnectionInfo
 (
 srcInfo
 destInfo
@@ -2953,7 +2950,6 @@ iccType
 updateIccInfo
 :
 function
-updateIccInfo
 (
 clientId
 newInfo
@@ -3166,7 +3162,6 @@ null
 getRilContext
 :
 function
-getRilContext
 (
 clientId
 )
@@ -3395,7 +3390,6 @@ nsIIccProvider
 getIccInfo
 :
 function
-getIccInfo
 (
 clientId
 )
@@ -3422,7 +3416,6 @@ iccInfo
 getCardState
 :
 function
-getIccInfo
 (
 clientId
 )
@@ -3456,7 +3449,6 @@ nsIMobileConnectionProvider
 getLastKnownNetwork
 :
 function
-getLastKnownNetwork
 (
 clientId
 )
@@ -3485,7 +3477,6 @@ clientId
 getLastKnownHomeNetwork
 :
 function
-getLastKnownHomeNetwork
 (
 clientId
 )
@@ -3514,7 +3505,6 @@ clientId
 getVoiceConnectionInfo
 :
 function
-getVoiceConnectionInfo
 (
 clientId
 )
@@ -3541,7 +3531,6 @@ voiceConnectionInfo
 getDataConnectionInfo
 :
 function
-getDataConnectionInfo
 (
 clientId
 )
@@ -3568,7 +3557,6 @@ dataConnectionInfo
 getIccId
 :
 function
-getIccId
 (
 clientId
 )
@@ -3602,7 +3590,6 @@ iccid
 getNetworkSelectionMode
 :
 function
-getNetworkSelectionMode
 (
 clientId
 )
@@ -3629,7 +3616,6 @@ networkSelectionMode
 getRadioState
 :
 function
-getRadioState
 (
 clientId
 )
@@ -3697,7 +3683,6 @@ null
 getNetworks
 :
 function
-getNetworks
 (
 clientId
 window
@@ -3782,7 +3767,6 @@ request
 selectNetwork
 :
 function
-selectNetwork
 (
 clientId
 window
@@ -4065,7 +4049,6 @@ request
 selectNetworkAutomatically
 :
 function
-selectNetworkAutomatically
 (
 clientId
 window
@@ -4241,7 +4224,6 @@ request
 setPreferredNetworkType
 :
 function
-setPreferredNetworkType
 (
 clientId
 window
@@ -4330,7 +4312,6 @@ request
 getPreferredNetworkType
 :
 function
-getPreferredNetworkType
 (
 clientId
 window
@@ -4415,7 +4396,6 @@ request
 setRoamingPreference
 :
 function
-setRoamingPreference
 (
 clientId
 window
@@ -4524,7 +4504,6 @@ request
 getRoamingPreference
 :
 function
-getRoamingPreference
 (
 clientId
 window
@@ -4609,7 +4588,6 @@ request
 setVoicePrivacyMode
 :
 function
-setVoicePrivacyMode
 (
 clientId
 window
@@ -4698,7 +4676,6 @@ request
 getVoicePrivacyMode
 :
 function
-getVoicePrivacyMode
 (
 clientId
 window
@@ -4783,7 +4760,6 @@ request
 getCardLockState
 :
 function
-getCardLockState
 (
 clientId
 window
@@ -4881,7 +4857,6 @@ request
 unlockCardLock
 :
 function
-unlockCardLock
 (
 clientId
 window
@@ -4975,7 +4950,6 @@ request
 setCardLock
 :
 function
-setCardLock
 (
 clientId
 window
@@ -5069,7 +5043,6 @@ request
 getCardLockRetryCount
 :
 function
-getCardLockRetryCount
 (
 clientId
 window
@@ -5158,7 +5131,6 @@ request
 sendMMI
 :
 function
-sendMMI
 (
 clientId
 window
@@ -5295,7 +5267,6 @@ request
 cancelMMI
 :
 function
-cancelMMI
 (
 clientId
 window
@@ -5390,7 +5361,6 @@ request
 sendStkResponse
 :
 function
-sendStkResponse
 (
 clientId
 window
@@ -5454,7 +5424,6 @@ response
 sendStkMenuSelection
 :
 function
-sendStkMenuSelection
 (
 clientId
 window
@@ -5519,7 +5488,6 @@ helpRequested
 sendStkTimerExpiration
 :
 function
-sendStkTimerExpiration
 (
 clientId
 window
@@ -5580,7 +5548,6 @@ timer
 sendStkEventDownload
 :
 function
-sendStkEventDownload
 (
 clientId
 window
@@ -5641,7 +5608,6 @@ event
 iccOpenChannel
 :
 function
-iccOpenChannel
 (
 clientId
 window
@@ -5730,7 +5696,6 @@ request
 iccExchangeAPDU
 :
 function
-iccExchangeAPDU
 (
 clientId
 window
@@ -5838,7 +5803,6 @@ request
 iccCloseChannel
 :
 function
-iccCloseChannel
 (
 clientId
 window
@@ -5927,7 +5891,6 @@ request
 readContacts
 :
 function
-readContacts
 (
 clientId
 window
@@ -6025,7 +5988,6 @@ request
 updateContact
 :
 function
-updateContact
 (
 clientId
 window
@@ -6320,7 +6282,6 @@ request
 getCallForwardingOption
 :
 function
-getCallForwardingOption
 (
 clientId
 window
@@ -6434,7 +6395,6 @@ request
 setCallForwardingOption
 :
 function
-setCallForwardingOption
 (
 clientId
 window
@@ -6587,7 +6547,6 @@ request
 getCallBarringOption
 :
 function
-getCallBarringOption
 (
 clientId
 window
@@ -6732,7 +6691,6 @@ request
 setCallBarringOption
 :
 function
-setCallBarringOption
 (
 clientId
 window
@@ -6883,7 +6841,6 @@ request
 changeCallBarringPassword
 :
 function
-changeCallBarringPassword
 (
 clientId
 window
@@ -7078,7 +7035,6 @@ request
 getCallWaitingOption
 :
 function
-getCallWaitingOption
 (
 clientId
 window
@@ -7163,7 +7119,6 @@ request
 setCallWaitingOption
 :
 function
-setCallWaitingOption
 (
 clientId
 window
@@ -7252,7 +7207,6 @@ request
 getCallingLineIdRestriction
 :
 function
-getCallingLineIdRestriction
 (
 clientId
 window
@@ -7337,7 +7291,6 @@ request
 setCallingLineIdRestriction
 :
 function
-setCallingLineIdRestriction
 (
 clientId
 window
@@ -7426,7 +7379,6 @@ request
 exitEmergencyCbMode
 :
 function
-exitEmergencyCbMode
 (
 clientId
 window
@@ -7511,7 +7463,6 @@ request
 setRadioEnabled
 :
 function
-setRadioEnabled
 (
 clientId
 window
@@ -7621,7 +7572,6 @@ voicemailDefaultServiceId
 getVoicemailDefaultServiceId
 :
 function
-getVoicemailDefaultServiceId
 (
 )
 {
@@ -7662,7 +7612,6 @@ id
 getVoicemailInfo
 :
 function
-getVoicemailInfo
 (
 clientId
 )
@@ -7769,7 +7718,6 @@ clientId
 getVoicemailNumber
 :
 function
-getVoicemailNumber
 (
 clientId
 )
@@ -7788,7 +7736,6 @@ number
 getVoicemailDisplayName
 :
 function
-getVoicemailDisplayName
 (
 clientId
 )
@@ -7807,7 +7754,6 @@ displayName
 getVoicemailStatus
 :
 function
-getVoicemailStatus
 (
 clientId
 )
@@ -7824,7 +7770,6 @@ clientId
 registerListener
 :
 function
-registerListener
 (
 listenerType
 clientId
@@ -7933,7 +7878,6 @@ listener
 unregisterListener
 :
 function
-unregisterListener
 (
 listenerType
 clientId
@@ -8019,7 +7963,6 @@ listener
 registerMobileConnectionMsg
 :
 function
-registerMobileConnectionMsg
 (
 clientId
 listener
@@ -8067,7 +8010,6 @@ RegisterMobileConnectionMsg
 unregisterMobileConnectionMsg
 :
 function
-unregisteMobileConnectionMsg
 (
 clientId
 listener
@@ -8088,7 +8030,6 @@ listener
 registerVoicemailMsg
 :
 function
-registerVoicemailMsg
 (
 listener
 )
@@ -8171,7 +8112,6 @@ RegisterVoicemailMsg
 unregisterVoicemailMsg
 :
 function
-unregisteVoicemailMsg
 (
 listener
 )
@@ -8227,7 +8167,6 @@ listener
 registerCellBroadcastMsg
 :
 function
-registerCellBroadcastMsg
 (
 listener
 )
@@ -8288,7 +8227,6 @@ RegisterCellBroadcastMsg
 unregisterCellBroadcastMsg
 :
 function
-unregisterCellBroadcastMsg
 (
 listener
 )
@@ -8322,7 +8260,6 @@ listener
 registerIccMsg
 :
 function
-registerIccMsg
 (
 clientId
 listener
@@ -8369,7 +8306,6 @@ RegisterIccMsg
 unregisterIccMsg
 :
 function
-unregisterIccMsg
 (
 clientId
 listener
@@ -8393,7 +8329,6 @@ nsIObserver
 observe
 :
 function
-observe
 (
 subject
 topic
@@ -8474,7 +8409,6 @@ nsIMessageListener
 fireRequestSuccess
 :
 function
-fireRequestSuccess
 (
 requestId
 result
@@ -8576,7 +8510,6 @@ result
 dispatchFireRequestSuccess
 :
 function
-dispatchFireRequestSuccess
 (
 requestId
 result
@@ -8616,7 +8549,6 @@ DISPATCH_NORMAL
 fireRequestError
 :
 function
-fireRequestError
 (
 requestId
 error
@@ -8718,7 +8650,6 @@ error
 dispatchFireRequestError
 :
 function
-dispatchFireRequestError
 (
 requestId
 error
@@ -8758,7 +8689,6 @@ DISPATCH_NORMAL
 fireRequestDetailedError
 :
 function
-fireRequestDetailedError
 (
 requestId
 detailedError
@@ -8830,7 +8760,6 @@ detailedError
 receiveMessage
 :
 function
-receiveMessage
 (
 msg
 )
@@ -10124,7 +10053,6 @@ break
 handleSimpleRequest
 :
 function
-handleSimpleRequest
 (
 requestId
 errorMsg
@@ -10160,7 +10088,6 @@ result
 handleGetAvailableNetworks
 :
 function
-handleGetAvailableNetworks
 (
 message
 )
@@ -10298,7 +10225,6 @@ networks
 handleSelectNetwork
 :
 function
-handleSelectNetwork
 (
 clientId
 message
@@ -10362,7 +10288,6 @@ null
 handleIccExchangeAPDU
 :
 function
-handleIccExchangeAPDU
 (
 message
 )
@@ -10419,7 +10344,6 @@ result
 handleReadIccContacts
 :
 function
-handleReadIccContacts
 (
 message
 )
@@ -10628,7 +10552,6 @@ result
 handleUpdateIccContact
 :
 function
-handleUpdateIccContact
 (
 message
 )
@@ -10819,7 +10742,6 @@ contact
 handleVoicemailNotification
 :
 function
-handleVoicemailNotification
 (
 clientId
 message
@@ -11049,7 +10971,6 @@ voicemailStatus
 _cfRulesToMobileCfInfo
 :
 function
-_cfRulesToMobileCfInfo
 (
 rules
 )
@@ -11108,7 +11029,6 @@ info
 handleGetCallForwardingOptions
 :
 function
-handleGetCallForwardingOptions
 (
 message
 )
@@ -11160,7 +11080,6 @@ rules
 handleGetCallBarringOptions
 :
 function
-handleGetCallBarringOptions
 (
 message
 )
@@ -11212,7 +11131,6 @@ options
 handleGetCallingLineIdRestriction
 :
 function
-handleGetCallingLineIdRestriction
 (
 message
 )
@@ -11262,7 +11180,6 @@ status
 handleExitEmergencyCbMode
 :
 function
-handleExitEmergencyCbMode
 (
 message
 )
@@ -11330,7 +11247,6 @@ null
 handleSendCancelMMI
 :
 function
-handleSendCancelMMI
 (
 message
 )
@@ -11632,7 +11548,6 @@ mmiError
 _deliverEvent
 :
 function
-_deliverEvent
 (
 clientId
 listenerType
@@ -11802,7 +11717,6 @@ forwarding
 _isValidCFReason
 :
 function
-_isValidCFReason
 (
 reason
 )
@@ -11885,7 +11799,6 @@ forwarding
 _isValidCFAction
 :
 function
-_isValidCFAction
 (
 action
 )
@@ -11954,7 +11867,6 @@ barring
 _isValidCallBarringProgram
 :
 function
-_isValidCallBarringProgram
 (
 program
 )
@@ -12029,7 +11941,6 @@ barring
 _isValidCallBarringOptions
 :
 function
-_isValidCallBarringOptions
 (
 options
 usedForSetting

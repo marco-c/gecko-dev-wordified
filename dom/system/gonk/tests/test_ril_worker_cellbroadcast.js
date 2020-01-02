@@ -173,7 +173,6 @@ newWorker
 postRILMessage
 :
 function
-fakePostRILMessage
 (
 data
 )
@@ -186,7 +185,6 @@ nothing
 postMessage
 :
 function
-fakePostMessage
 (
 message
 )
@@ -806,7 +804,6 @@ newWorker
 postRILMessage
 :
 function
-fakePostRILMessage
 (
 data
 )
@@ -819,7 +816,6 @@ nothing
 postMessage
 :
 function
-fakePostMessage
 (
 message
 )
@@ -1285,7 +1281,6 @@ newWorker
 postRILMessage
 :
 function
-fakePostRILMessage
 (
 data
 )
@@ -1298,7 +1293,6 @@ nothing
 postMessage
 :
 function
-fakePostMessage
 (
 message
 )
@@ -1640,7 +1634,6 @@ newWorker
 postRILMessage
 :
 function
-fakePostRILMessage
 (
 data
 )
@@ -1653,7 +1646,6 @@ nothing
 postMessage
 :
 function
-fakePostMessage
 (
 message
 )

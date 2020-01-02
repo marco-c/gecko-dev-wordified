@@ -100,7 +100,6 @@ PDUBuilder
 toHexString
 :
 function
-toHexString
 (
 n
 length
@@ -166,7 +165,6 @@ toUpperCase
 writeUint16
 :
 function
-writeUint16
 (
 value
 )
@@ -220,7 +218,6 @@ toUpperCase
 writeHexOctet
 :
 function
-writeHexOctet
 (
 octet
 )
@@ -242,7 +239,6 @@ octet
 writeSwappedNibbleBCD
 :
 function
-writeSwappedNibbleBCD
 (
 data
 )
@@ -352,7 +348,6 @@ low
 writeStringAsSeptets
 :
 function
-writeStringAsSeptets
 (
 message
 paddingBits
@@ -606,7 +601,6 @@ data
 buildAddress
 :
 function
-buildAddress
 (
 address
 )
@@ -702,7 +696,6 @@ encoding
 buildUserData
 :
 function
-buildUserData
 (
 options
 )

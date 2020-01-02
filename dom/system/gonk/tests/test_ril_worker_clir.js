@@ -116,7 +116,6 @@ newWorker
 postRILMessage
 :
 function
-fakePostRILMessage
 (
 data
 )
@@ -125,7 +124,6 @@ data
 postMessage
 :
 function
-fakePostMessage
 (
 message
 )

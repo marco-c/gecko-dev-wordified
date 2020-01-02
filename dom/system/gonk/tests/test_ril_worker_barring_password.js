@@ -349,7 +349,6 @@ newWorker
 postMessage
 :
 function
-fakePostMessage
 (
 message
 )

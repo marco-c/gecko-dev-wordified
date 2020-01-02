@@ -1301,7 +1301,6 @@ nsIObserver
 observe
 :
 function
-observe
 (
 subject
 topic
@@ -2040,7 +2039,6 @@ break
 receiveMessage
 :
 function
-receiveMessage
 (
 aMsg
 )
@@ -2220,7 +2218,6 @@ nsINetworkManager
 registerNetworkInterface
 :
 function
-registerNetworkInterface
 (
 network
 )
@@ -2427,7 +2424,6 @@ registered
 unregisterNetworkInterface
 :
 function
-unregisterNetworkInterface
 (
 network
 )
@@ -2713,7 +2709,6 @@ null
 overrideActive
 :
 function
-overrideActive
 (
 network
 )
@@ -2776,7 +2771,6 @@ MOZ_B2G_RIL
 setExtraHostRoute
 :
 function
-setExtraHostRoute
 (
 network
 )
@@ -2924,7 +2918,6 @@ mmsHosts
 removeExtraHostRoute
 :
 function
-removeExtraHostRoute
 (
 network
 )
@@ -3091,7 +3084,6 @@ it
 setAndConfigureActive
 :
 function
-setAndConfigureActive
 (
 )
 {
@@ -3647,7 +3639,6 @@ MOZ_B2G_RIL
 resolveHostname
 :
 function
-resolveHostname
 (
 hosts
 )
@@ -3863,7 +3854,6 @@ tetheringSettings
 initTetheringSettings
 :
 function
-initTetheringSettings
 (
 )
 {
@@ -3955,7 +3945,6 @@ _requestCount
 handle
 :
 function
-handle
 (
 aName
 aResult
@@ -4180,7 +4169,6 @@ break
 handleError
 :
 function
-handleError
 (
 aErrorMessage
 )
@@ -4220,7 +4208,6 @@ false
 getNetworkInterface
 :
 function
-getNetworkInterface
 (
 type
 )
@@ -4279,7 +4266,6 @@ null
 handleLastRequest
 :
 function
-handleLastRequest
 (
 )
 {
@@ -4372,7 +4358,6 @@ null
 handleUSBTetheringToggle
 :
 function
-handleUSBTetheringToggle
 (
 enable
 )
@@ -4496,7 +4481,6 @@ this
 getUSBTetheringParameters
 :
 function
-getUSBTetheringParameters
 (
 enable
 tetheringinterface
@@ -4734,7 +4718,6 @@ NETWORK_INTERFACE_DOWN
 notifyError
 :
 function
-notifyError
 (
 resetSettings
 callback
@@ -4834,7 +4817,6 @@ netd
 setWifiTethering
 :
 function
-setWifiTethering
 (
 enable
 network
@@ -5029,7 +5011,6 @@ netd
 setUSBTethering
 :
 function
-setUSBTethering
 (
 enable
 tetheringInterface
@@ -5094,7 +5075,6 @@ callback
 getUsbInterface
 :
 function
-getUsbInterface
 (
 )
 {
@@ -5217,7 +5197,6 @@ DEFAULT_USB_INTERFACE_NAME
 enableUsbRndisResult
 :
 function
-enableUsbRndisResult
 (
 success
 enable
@@ -5300,7 +5279,6 @@ adb
 usbTetheringResultReport
 :
 function
-usbTetheringResultReport
 (
 error
 )
@@ -5391,7 +5369,6 @@ handleLastRequest
 onConnectionChangedReport
 :
 function
-onConnectionChangedReport
 (
 success
 externalIfname
@@ -5450,7 +5427,6 @@ externalIfname
 onConnectionChanged
 :
 function
-onConnectionChanged
 (
 network
 )
@@ -5806,7 +5782,6 @@ nsICaptivePortalCallback
 prepare
 :
 function
-prepare
 (
 )
 {
@@ -5821,7 +5796,6 @@ interfaceName
 complete
 :
 function
-complete
 (
 success
 )
@@ -5959,7 +5933,6 @@ EVENT_DISCONNECT
 notify
 :
 function
-notify
 (
 eventType
 network

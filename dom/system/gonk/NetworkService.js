@@ -569,7 +569,6 @@ idgen
 controlMessage
 :
 function
-controlMessage
 (
 params
 callback
@@ -618,7 +617,6 @@ params
 handleWorkerMessage
 :
 function
-handleWorkerMessage
 (
 e
 )
@@ -730,7 +728,6 @@ nsINetworkService
 getNetworkInterfaceStats
 :
 function
-getNetworkInterfaceStats
 (
 networkName
 callback
@@ -820,7 +817,6 @@ date
 setNetworkInterfaceAlarm
 :
 function
-setNetworkInterfaceAlarm
 (
 networkName
 threshold
@@ -875,7 +871,6 @@ callback
 _setNetworkInterfaceAlarm
 :
 function
-_setNetworkInterfaceAlarm
 (
 networkName
 threshold
@@ -978,7 +973,6 @@ callback
 _enableNetworkInterfaceAlarm
 :
 function
-_enableNetworkInterfaceAlarm
 (
 networkName
 threshold
@@ -1081,7 +1075,6 @@ reason
 _disableNetworkInterfaceAlarm
 :
 function
-_disableNetworkInterfaceAlarm
 (
 networkName
 callback
@@ -1170,7 +1163,6 @@ reason
 setWifiOperationMode
 :
 function
-setWifiOperationMode
 (
 interfaceName
 mode
@@ -1275,7 +1267,6 @@ null
 resetRoutingTable
 :
 function
-resetRoutingTable
 (
 network
 )
@@ -1358,7 +1349,6 @@ options
 setDNS
 :
 function
-setDNS
 (
 networkInterface
 )
@@ -1419,7 +1409,6 @@ options
 setDefaultRouteAndDNS
 :
 function
-setDefaultRouteAndDNS
 (
 network
 oldInterface
@@ -1515,7 +1504,6 @@ network
 removeDefaultRoute
 :
 function
-removeDefaultRoute
 (
 ifname
 )
@@ -1563,7 +1551,6 @@ options
 addHostRoute
 :
 function
-addHostRoute
 (
 network
 )
@@ -1635,7 +1622,6 @@ options
 removeHostRoute
 :
 function
-removeHostRoute
 (
 network
 )
@@ -1707,7 +1693,6 @@ options
 removeHostRoutes
 :
 function
-removeHostRoutes
 (
 ifname
 )
@@ -1758,7 +1743,6 @@ options
 addHostRouteWithResolve
 :
 function
-addHostRouteWithResolve
 (
 network
 hosts
@@ -1824,7 +1808,6 @@ options
 removeHostRouteWithResolve
 :
 function
-removeHostRouteWithResolve
 (
 network
 hosts
@@ -1890,7 +1873,6 @@ options
 setNetworkProxy
 :
 function
-setNetworkProxy
 (
 network
 )
@@ -2254,7 +2236,6 @@ server
 setDhcpServer
 :
 function
-setDhcpServer
 (
 enabled
 config
@@ -2357,7 +2338,6 @@ netd
 setWifiTethering
 :
 function
-setWifiTethering
 (
 enable
 config
@@ -2538,7 +2518,6 @@ netd
 setUSBTethering
 :
 function
-setUSBTethering
 (
 enable
 config
@@ -2696,7 +2675,6 @@ config
 enableUsbRndis
 :
 function
-enableUsbRndis
 (
 enable
 callback
@@ -2824,7 +2802,6 @@ enable
 updateUpStream
 :
 function
-updateUpStream
 (
 previous
 current

@@ -445,7 +445,6 @@ _forceForUse
 setForceForUse
 :
 function
-setForceForUse
 (
 usage
 force
@@ -464,7 +463,6 @@ force
 getForceForUse
 :
 function
-setForceForUse
 (
 usage
 )
@@ -912,7 +910,6 @@ null
 _acquireCallRingWakeLock
 :
 function
-_acquireCallRingWakeLock
 (
 )
 {
@@ -1057,7 +1054,6 @@ TYPE_ONE_SHOT
 _releaseCallRingWakeLock
 :
 function
-_releaseCallRingWakeLock
 (
 )
 {
@@ -1123,7 +1119,6 @@ null
 _getClient
 :
 function
-_getClient
 (
 aClientId
 )
@@ -1151,7 +1146,6 @@ null
 _notifyAllListeners
 :
 function
-_notifyAllListeners
 (
 aMethodName
 aArgs
@@ -1254,7 +1248,6 @@ e
 _matchActiveSingleCall
 :
 function
-_matchActiveSingleCall
 (
 aCall
 )
@@ -1324,7 +1317,6 @@ null
 _updateCallAudioState
 :
 function
-_updateCallAudioState
 (
 aCall
 aConferenceState
@@ -1797,7 +1789,6 @@ break
 _convertRILCallState
 :
 function
-_convertRILCallState
 (
 aState
 )
@@ -1892,7 +1883,6 @@ aState
 _convertRILSuppSvcNotification
 :
 function
-_convertRILSuppSvcNotification
 (
 aNotification
 )
@@ -1942,7 +1932,6 @@ aNotification
 _validateNumber
 :
 function
-_validateNumber
 (
 aNumber
 )
@@ -2054,7 +2043,6 @@ false
 _updateDebugFlag
 :
 function
-_updateDebugFlag
 (
 )
 {
@@ -2087,7 +2075,6 @@ e
 _getDefaultServiceId
 :
 function
-_getDefaultServiceId
 (
 )
 {
@@ -2233,7 +2220,6 @@ index
 _enumerateCallsForClient
 :
 function
-_enumerateCallsForClient
 (
 aClientId
 aListener
@@ -2779,7 +2765,6 @@ aCallIndex
 conferenceCall
 :
 function
-conferenceCall
 (
 aClientId
 )
@@ -2802,7 +2787,6 @@ conferenceCall
 separateCall
 :
 function
-separateCall
 (
 aClientId
 aCallIndex
@@ -2831,7 +2815,6 @@ aCallIndex
 holdConference
 :
 function
-holdConference
 (
 aClientId
 )
@@ -2854,7 +2837,6 @@ holdConference
 resumeConference
 :
 function
-resumeConference
 (
 aClientId
 )
@@ -3047,7 +3029,6 @@ system
 notifyCallDisconnected
 :
 function
-notifyCallDisconnected
 (
 aClientId
 aCall
@@ -3254,7 +3235,6 @@ error
 notifyCallError
 :
 function
-notifyCallError
 (
 aClientId
 aCallIndex
@@ -3317,7 +3297,6 @@ already
 notifyCallRing
 :
 function
-notifyCallRing
 (
 )
 {
@@ -3396,7 +3375,6 @@ system
 notifyCallStateChanged
 :
 function
-notifyCallStateChanged
 (
 aClientId
 aCall
@@ -3513,7 +3491,6 @@ isConference
 notifyCdmaCallWaiting
 :
 function
-notifyCdmaCallWaiting
 (
 aClientId
 aNumber
@@ -3571,7 +3548,6 @@ aNumber
 notifySupplementaryService
 :
 function
-notifySupplementaryService
 (
 aClientId
 aCallIndex
@@ -3606,7 +3582,6 @@ notification
 notifyConferenceCallStateChanged
 :
 function
-notifyConferenceCallStateChanged
 (
 aState
 )
@@ -3658,7 +3633,6 @@ aState
 notifyConferenceError
 :
 function
-notifyConferenceError
 (
 aName
 aMessage
@@ -3716,7 +3690,6 @@ interface
 observe
 :
 function
-observe
 (
 aSubject
 aTopic

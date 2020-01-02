@@ -1470,7 +1470,6 @@ false
 init
 :
 function
-init
 (
 ril
 )
@@ -1513,7 +1512,6 @@ _registerMessageListeners
 _shutdown
 :
 function
-_shutdown
 (
 )
 {
@@ -1543,7 +1541,6 @@ _unregisterMessageListeners
 _registerMessageListeners
 :
 function
-_registerMessageListeners
 (
 )
 {
@@ -1650,7 +1647,6 @@ this
 _unregisterMessageListeners
 :
 function
-_unregisterMessageListeners
 (
 )
 {
@@ -1761,7 +1757,6 @@ null
 _registerMessageTarget
 :
 function
-_registerMessageTarget
 (
 topic
 target
@@ -1888,7 +1883,6 @@ target
 _unregisterMessageTarget
 :
 function
-_unregisterMessageTarget
 (
 topic
 target
@@ -2019,7 +2013,6 @@ target
 _enqueueTargetMessage
 :
 function
-_enqueueTargetMessage
 (
 topic
 message
@@ -2151,7 +2144,6 @@ msg
 _sendTargetMessage
 :
 function
-_sendTargetMessage
 (
 topic
 message
@@ -2218,7 +2210,6 @@ options
 _resendQueuedTargetMessage
 :
 function
-_resendQueuedTargetMessage
 (
 )
 {
@@ -2328,7 +2319,6 @@ methods
 receiveMessage
 :
 function
-receiveMessage
 (
 msg
 )
@@ -2992,7 +2982,6 @@ methods
 observe
 :
 function
-observe
 (
 subject
 topic
@@ -3041,7 +3030,6 @@ break
 sendMobileConnectionMessage
 :
 function
-sendMobileConnectionMessage
 (
 message
 clientId
@@ -3070,7 +3058,6 @@ data
 sendVoicemailMessage
 :
 function
-sendVoicemailMessage
 (
 message
 clientId
@@ -3099,7 +3086,6 @@ data
 sendCellBroadcastMessage
 :
 function
-sendCellBroadcastMessage
 (
 message
 clientId
@@ -3128,7 +3114,6 @@ data
 sendIccMessage
 :
 function
-sendIccMessage
 (
 message
 clientId
@@ -3204,7 +3189,6 @@ deactivatingDeferred
 init
 :
 function
-init
 (
 ril
 )
@@ -4686,7 +4670,6 @@ methods
 observe
 :
 function
-observe
 (
 subject
 topic
@@ -4930,7 +4913,6 @@ nsISettingsServiceCallback
 handle
 :
 function
-handle
 (
 name
 result
@@ -5171,7 +5153,6 @@ break
 handleError
 :
 function
-handleError
 (
 errorMessage
 )
@@ -5203,7 +5184,6 @@ errorMessage
 handleDataClientIdChange
 :
 function
-handleDataClientIdChange
 (
 )
 {
@@ -5621,7 +5601,6 @@ methods
 getRadioInterface
 :
 function
-getRadioInterface
 (
 clientId
 )
@@ -5638,7 +5617,6 @@ clientId
 getClientIdByIccId
 :
 function
-getClientIdByIccId
 (
 iccId
 )
@@ -5711,7 +5689,6 @@ NS_ERROR_NOT_AVAILABLE
 setMicrophoneMuted
 :
 function
-setMicrophoneMuted
 (
 muted
 )
@@ -6003,7 +5980,6 @@ null
 onerror
 :
 function
-onerror
 (
 event
 )
@@ -6076,7 +6052,6 @@ worker
 onmessage
 :
 function
-onmessage
 (
 event
 )
@@ -6372,7 +6347,6 @@ mapping
 send
 :
 function
-send
 (
 rilMessageType
 message
@@ -6591,7 +6565,6 @@ RILContentHelper
 sendWithIPCMessage
 :
 function
-sendWithIPCMessage
 (
 msg
 rilMessageType
@@ -7428,7 +7401,6 @@ null
 debug
 :
 function
-debug
 (
 s
 )
@@ -7489,7 +7461,6 @@ it
 updateInfo
 :
 function
-updateInfo
 (
 srcInfo
 destInfo
@@ -7557,7 +7528,6 @@ it
 isInfoChanged
 :
 function
-isInfoChanged
 (
 srcInfo
 destInfo
@@ -7636,7 +7606,6 @@ process
 receiveMessage
 :
 function
-receiveMessage
 (
 msg
 )
@@ -8515,7 +8484,6 @@ null
 handleUnsolicitedWorkerMessage
 :
 function
-handleUnsolicitedWorkerMessage
 (
 message
 )
@@ -9276,7 +9244,6 @@ nsIDOMMozCdmaIccInfo
 getPhoneNumber
 :
 function
-getPhoneNumber
 (
 )
 {
@@ -9427,7 +9394,6 @@ installed
 getIccId
 :
 function
-getIccId
 (
 )
 {
@@ -9510,7 +9476,6 @@ iccId
 updateNetworkInfo
 :
 function
-updateNetworkInfo
 (
 message
 )
@@ -9783,7 +9748,6 @@ needed
 checkRoamingBetweenOperators
 :
 function
-checkRoamingBetweenOperators
 (
 registration
 )
@@ -9970,7 +9934,6 @@ sent
 updateVoiceConnection
 :
 function
-updateVoiceConnection
 (
 newInfo
 batch
@@ -10174,7 +10137,6 @@ sent
 updateDataConnection
 :
 function
-updateDataConnection
 (
 newInfo
 batch
@@ -10405,7 +10367,6 @@ errors
 handleDataCallError
 :
 function
-handleDataCallError
 (
 message
 )
@@ -10502,7 +10463,6 @@ null
 getPreferredNetworkType
 :
 function
-getPreferredNetworkType
 (
 target
 message
@@ -10616,7 +10576,6 @@ this
 setPreferredNetworkType
 :
 function
-setPreferredNetworkType
 (
 target
 message
@@ -10827,7 +10786,6 @@ handler
 setPreferredNetworkTypeBySetting
 :
 function
-setPreferredNetworkTypeBySetting
 (
 value
 )
@@ -11023,7 +10981,6 @@ this
 setCellBroadcastSearchList
 :
 function
-setCellBroadcastSearchList
 (
 newSearchListStr
 )
@@ -11160,7 +11117,6 @@ sent
 handleSignalStrengthChange
 :
 function
-handleSignalStrengthChange
 (
 message
 batch
@@ -11374,7 +11330,6 @@ sent
 handleOperatorChange
 :
 function
-handleOperatorChange
 (
 message
 batch
@@ -11564,7 +11519,6 @@ data
 handleOtaStatus
 :
 function
-handleOtaStatus
 (
 message
 )
@@ -11624,7 +11578,6 @@ status
 _convertRadioState
 :
 function
-_converRadioState
 (
 state
 )
@@ -11666,7 +11619,6 @@ GECKO_DETAILED_RADIOSTATE_UNKNOWN
 handleRadioStateChange
 :
 function
-handleRadioStateChange
 (
 message
 )
@@ -11731,7 +11683,6 @@ change
 handleDetailedRadioStateChanged
 :
 function
-handleDetailedRadioStateChanged
 (
 state
 )
@@ -11778,7 +11729,6 @@ state
 deactivateDataCalls
 :
 function
-deactivateDataCalls
 (
 )
 {
@@ -11978,7 +11928,6 @@ step
 updateApnSettings
 :
 function
-updateApnSettings
 (
 allApnSettings
 )
@@ -12387,7 +12336,6 @@ apnSetting
 anyDataConnected
 :
 function
-anyDataConnected
 (
 )
 {
@@ -12458,7 +12406,6 @@ data
 validateApnSetting
 :
 function
-validateApnSetting
 (
 apnSetting
 )
@@ -12489,7 +12436,6 @@ length
 setDataRegistration
 :
 function
-setDataRegistration
 (
 attach
 )
@@ -12514,7 +12460,6 @@ attach
 updateRILNetworkInterface
 :
 function
-updateRILNetworkInterface
 (
 )
 {
@@ -13243,7 +13188,6 @@ mode
 updateNetworkSelectionMode
 :
 function
-updateNetworkSelectionMode
 (
 message
 )
@@ -13310,7 +13254,6 @@ change
 handleEmergencyCbModeChange
 :
 function
-handleEmergencyCbModeChange
 (
 message
 )
@@ -13386,7 +13329,6 @@ message
 handleSmsWdpPortPush
 :
 function
-handleSmsWdpPortPush
 (
 message
 )
@@ -13551,7 +13493,6 @@ object
 broadcastSmsSystemMessage
 :
 function
-broadcastSmsSystemMessage
 (
 aName
 aDomMessage
@@ -13745,7 +13686,6 @@ null
 _releaseSmsHandledWakeLock
 :
 function
-_releaseSmsHandledWakeLock
 (
 )
 {
@@ -13815,7 +13755,6 @@ null
 handleSmsReceived
 :
 function
-handleSmsReceived
 (
 message
 )
@@ -14728,7 +14667,6 @@ changes
 handleDataCallState
 :
 function
-handleDataCallState
 (
 datacall
 )
@@ -15038,7 +14976,6 @@ list
 handleDataCallList
 :
 function
-handleDataCallList
 (
 message
 )
@@ -15089,7 +15026,6 @@ available
 setClockAutoUpdateAvailable
 :
 function
-setClockAutoUpdateAvailable
 (
 value
 )
@@ -15137,7 +15073,6 @@ available
 setTimezoneAutoUpdateAvailable
 :
 function
-setTimezoneAutoUpdateAvailable
 (
 value
 )
@@ -15175,7 +15110,6 @@ NITZ
 setClockByNitz
 :
 function
-setClockByNitz
 (
 message
 )
@@ -15252,7 +15186,6 @@ NITZ
 setTimezoneByNitz
 :
 function
-setTimezoneByNitz
 (
 message
 )
@@ -15496,7 +15429,6 @@ message
 handleNitzTime
 :
 function
-handleNitzTime
 (
 message
 )
@@ -15616,7 +15548,6 @@ SNTP
 setClockBySntp
 :
 function
-setClockBySntp
 (
 offset
 )
@@ -15685,7 +15616,6 @@ offset
 handleIccMbdn
 :
 function
-handleIccMbdn
 (
 message
 )
@@ -15732,7 +15662,6 @@ voicemailInfo
 handleIccInfoChange
 :
 function
-handleIccInfoChange
 (
 message
 )
@@ -16141,7 +16070,6 @@ data
 handleUSSDReceived
 :
 function
-handleUSSDReceived
 (
 ussd
 )
@@ -16197,7 +16125,6 @@ ussd
 handleStkProactiveCommand
 :
 function
-handleStkProactiveCommand
 (
 message
 )
@@ -16284,7 +16211,6 @@ message
 handleExitEmergencyCbMode
 :
 function
-handleExitEmergencyCbMode
 (
 message
 )
@@ -16329,7 +16255,6 @@ nsIObserver
 observe
 :
 function
-observe
 (
 subject
 topic
@@ -16860,7 +16785,6 @@ null
 handleSettingsChange
 :
 function
-handleSettingsChange
 (
 aName
 aResult
@@ -17127,7 +17051,6 @@ nsISettingsServiceCallback
 handle
 :
 function
-handle
 (
 aName
 aResult
@@ -17546,7 +17469,6 @@ break
 handleError
 :
 function
-handleError
 (
 aErrorMessage
 )
@@ -17635,7 +17557,6 @@ nsIRILContentHelper
 _sendCfStateChanged
 :
 function
-_sendCfStateChanged
 (
 message
 )
@@ -17659,7 +17580,6 @@ message
 _updateCallingLineIdRestrictionPref
 :
 function
-_updateCallingLineIdRestrictionPref
 (
 mode
 )
@@ -17717,7 +17637,6 @@ e
 sendMMI
 :
 function
-sendMMI
 (
 target
 message
@@ -17834,7 +17753,6 @@ this
 setCallForwardingOptions
 :
 function
-setCallForwardingOptions
 (
 target
 message
@@ -17929,7 +17847,6 @@ this
 setCallingLineIdRestriction
 :
 function
-setCallingLineIdRestriction
 (
 target
 message
@@ -18151,7 +18068,6 @@ message
 setRadioEnabled
 :
 function
-setRadioEnabled
 (
 target
 message
@@ -18306,7 +18222,6 @@ callback
 setRadioEnabledInternal
 :
 function
-setRadioEnabledInternal
 (
 message
 callback
@@ -18582,7 +18497,6 @@ writeStringAsSeptets
 _countGsm7BitSeptets
 :
 function
-_countGsm7BitSeptets
 (
 message
 langTable
@@ -19058,7 +18972,6 @@ _calculateUserDataLength
 _calculateUserDataLength7Bit
 :
 function
-_calculateUserDataLength7Bit
 (
 message
 strict7BitEncoding
@@ -19417,7 +19330,6 @@ _calculateUserDataLength
 _calculateUserDataLengthUCS2
 :
 function
-_calculateUserDataLengthUCS2
 (
 message
 )
@@ -19760,7 +19672,6 @@ again
 _calculateUserDataLength
 :
 function
-_calculateUserDataLength
 (
 message
 strict7BitEncoding
@@ -19917,7 +19828,6 @@ definition
 _fragmentText7Bit
 :
 function
-_fragmentText7Bit
 (
 text
 langTable
@@ -20272,7 +20182,6 @@ definition
 _fragmentTextUCS2
 :
 function
-_fragmentTextUCS2
 (
 text
 segmentChars
@@ -20451,7 +20360,6 @@ object
 _fragmentText
 :
 function
-_fragmentText
 (
 text
 options
@@ -20578,7 +20486,6 @@ options
 getSegmentInfoForText
 :
 function
-getSegmentInfoForText
 (
 text
 request
@@ -20726,7 +20633,6 @@ result
 getSmscAddress
 :
 function
-getSmscAddress
 (
 request
 )
@@ -20790,7 +20696,6 @@ this
 sendSMS
 :
 function
-sendSMS
 (
 number
 message
@@ -21974,7 +21879,6 @@ notifyResult
 registerDataCallCallback
 :
 function
-registerDataCallCallback
 (
 callback
 )
@@ -22057,7 +21961,6 @@ callback
 unregisterDataCallCallback
 :
 function
-unregisterDataCallCallback
 (
 callback
 )
@@ -22126,7 +22029,6 @@ callback
 _deliverDataCallCallback
 :
 function
-_deliverDataCallCallback
 (
 name
 args
@@ -22351,7 +22253,6 @@ e
 setupDataCallByType
 :
 function
-setupDataCallByType
 (
 apntype
 )
@@ -22632,7 +22533,6 @@ null
 deactivateDataCallByType
 :
 function
-deactivateDataCallByType
 (
 apntype
 )
@@ -22882,7 +22782,6 @@ null
 getDataCallStateByType
 :
 function
-getDataCallStateByType
 (
 apntype
 )
@@ -22941,7 +22840,6 @@ state
 setupDataCall
 :
 function
-setupDataCall
 (
 radioTech
 apn
@@ -22986,7 +22884,6 @@ pdptype
 deactivateDataCall
 :
 function
-deactivateDataCall
 (
 cid
 reason
@@ -23015,7 +22912,6 @@ reason
 sendWorkerMessage
 :
 function
-sendWorkerMessage
 (
 rilMessageType
 message
@@ -23794,7 +23690,6 @@ port
 debug
 :
 function
-debug
 (
 s
 )
@@ -23843,7 +23738,6 @@ nsIRILDataCallback
 dataCallError
 :
 function
-dataCallError
 (
 message
 )
@@ -23897,7 +23791,6 @@ reset
 dataCallStateChanged
 :
 function
-dataCallStateChanged
 (
 datacall
 )
@@ -24563,7 +24456,6 @@ connectedTypes
 receiveDataCallList
 :
 function
-receiveDataCallList
 (
 dataCalls
 length
@@ -24605,7 +24497,6 @@ null
 inConnectedTypes
 :
 function
-inConnectedTypes
 (
 type
 )
@@ -24644,7 +24535,6 @@ GECKO_NETWORK_STATE_CONNECTED
 connect
 :
 function
-connect
 (
 apntype
 )
@@ -24967,7 +24857,6 @@ true
 reset
 :
 function
-reset
 (
 )
 {
@@ -25186,7 +25075,6 @@ TYPE_ONE_SHOT
 disconnect
 :
 function
-disconnect
 (
 apntype
 )

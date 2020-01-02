@@ -207,7 +207,6 @@ _nextTaskIndex
 push
 :
 function
-push
 (
 func
 )
@@ -225,7 +224,6 @@ func
 next
 :
 function
-next
 (
 )
 {
@@ -317,7 +315,6 @@ finish
 finish
 :
 function
-finish
 (
 )
 {
@@ -340,7 +337,6 @@ length
 run
 :
 function
-run
 (
 )
 {

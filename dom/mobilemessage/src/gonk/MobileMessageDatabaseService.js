@@ -330,7 +330,6 @@ nsIObserver
 observe
 :
 function
-observe
 (
 )
 {

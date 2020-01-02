@@ -353,7 +353,6 @@ return
 property_get
 :
 function
-fake_property_get
 (
 key
 defaultValue
@@ -388,7 +387,6 @@ defaultValue
 property_set
 :
 function
-fake_property_set
 (
 key
 value
@@ -555,7 +553,6 @@ null
 property_get
 :
 function
-property_get
 (
 key
 defaultValue
@@ -623,7 +620,6 @@ to
 property_set
 :
 function
-property_set
 (
 key
 value
@@ -784,7 +780,6 @@ library
 declare
 :
 function
-fake_declare
 (
 )
 {
@@ -2713,7 +2708,6 @@ value
 swap32
 :
 function
-swap32
 (
 n
 )
@@ -2811,7 +2805,6 @@ endian
 ntohl
 :
 function
-ntohl
 (
 n
 )
@@ -2852,7 +2845,6 @@ endian
 htonl
 :
 function
-htonl
 (
 n
 )
@@ -2899,7 +2891,6 @@ format
 ipToString
 :
 function
-ipToString
 (
 ip
 )
@@ -3000,7 +2991,6 @@ address
 stringToIP
 :
 function
-stringToIP
 (
 string
 )
@@ -3135,7 +3125,6 @@ mask
 makeMask
 :
 function
-makeMask
 (
 len
 )
@@ -3197,7 +3186,6 @@ address
 getMaskLength
 :
 function
-getMaskLength
 (
 mask
 )
