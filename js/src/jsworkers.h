@@ -531,7 +531,7 @@ GlobalWorkerThreadState
 (
 )
 ;
-bool
+void
 ensureInitialized
 (
 )
@@ -1338,7 +1338,7 @@ unless
 already
 initialized
 .
-bool
+void
 EnsureWorkerThreadsInitialized
 (
 ExclusiveContext
