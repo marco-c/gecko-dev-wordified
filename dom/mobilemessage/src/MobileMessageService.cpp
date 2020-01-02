@@ -269,7 +269,7 @@ JS
 :
 Value
 &
-aDeliveryStatus
+aDeliveryInfo
 const
 nsAString
 &
@@ -330,7 +330,7 @@ Create
 aId
 aThreadId
 aDelivery
-aDeliveryStatus
+aDeliveryInfo
 aSender
 aReceivers
 aTimestamp
