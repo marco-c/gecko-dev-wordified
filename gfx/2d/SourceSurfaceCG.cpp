@@ -294,7 +294,6 @@ info
 )
 ;
 }
-static
 CGImageRef
 CreateCGImage
 (
