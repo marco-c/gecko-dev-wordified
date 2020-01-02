@@ -4186,7 +4186,7 @@ private
 const
 Class
 *
-clasp
+clasp_
 ;
 /
 *
@@ -4445,7 +4445,7 @@ this
 this
 -
 >
-clasp
+clasp_
 =
 clasp
 ;
@@ -4525,7 +4525,7 @@ this
 this
 -
 >
-clasp
+clasp_
 =
 clasp
 ;
@@ -4677,11 +4677,11 @@ BaseShape
 other
 )
 {
-clasp
+clasp_
 =
 other
 .
-clasp
+clasp_
 ;
 parent
 =
@@ -4806,6 +4806,18 @@ compartment_
 return
 *
 this
+;
+}
+const
+Class
+*
+clasp
+(
+)
+const
+{
+return
+clasp_
 ;
 }
 bool
@@ -5415,7 +5427,7 @@ JS_STATIC_ASSERT
 offsetof
 (
 BaseShape
-clasp
+clasp_
 )
 =
 =
@@ -5428,7 +5440,7 @@ shadow
 :
 :
 BaseShape
-clasp
+clasp_
 )
 )
 ;
@@ -5690,7 +5702,7 @@ clasp
 base
 -
 >
-clasp
+clasp_
 )
 parent
 (
@@ -5938,7 +5950,7 @@ this
 this
 -
 >
-clasp
+clasp_
 =
 base
 .
@@ -7122,7 +7134,7 @@ base
 )
 -
 >
-clasp
+clasp_
 ;
 }
 JSObject
@@ -10182,7 +10194,7 @@ JSSLOT_FREE
 base
 -
 >
-clasp
+clasp_
 )
 ;
 return
