@@ -160,6 +160,11 @@ bool
 readOnly
 )
 ;
+void
+DisableMD5
+(
+)
+;
 extern
 const
 char
