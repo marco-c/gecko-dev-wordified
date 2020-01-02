@@ -2064,7 +2064,8 @@ component
 )
 :
             
-return
+rv
+=
 "
 "
 .
@@ -2087,7 +2088,11 @@ message
 ]
 )
         
-return
+else
+:
+            
+rv
+=
 "
 %
 s
@@ -2097,13 +2102,36 @@ s
 %
 (
 level
+message
+)
+        
+if
+"
+stack
+"
+in
+data
+:
+            
+rv
++
+=
+"
+\
+n
+%
+s
+"
+%
 data
 [
 "
-message
+stack
 "
 ]
-)
+        
+return
+rv
     
 def
 _get_subtest_data
