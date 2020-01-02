@@ -2413,13 +2413,6 @@ macro
 (
 Other
 NotLiveGCThing
-typeInferencePendingArrays
-)
-\
-macro
-(
-Other
-NotLiveGCThing
 typeInferenceAllocationSiteTables
 )
 \
