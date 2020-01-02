@@ -398,7 +398,18 @@ self
 .
 marionette
 .
+session
+and
+\
+            
+self
+.
+marionette
+.
 session_capabilities
+or
+{
+}
         
 if
 not
@@ -406,12 +417,16 @@ self
 .
 _device_manager
 and
+\
+                
 capabilities
-[
+.
+get
+(
 '
 device
 '
-]
+)
 !
 =
 '
