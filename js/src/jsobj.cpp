@@ -27274,6 +27274,13 @@ nativeSetSlotIfHasType
 (
 shape
 value
+/
+*
+overwriting
+=
+*
+/
+false
 )
 )
 return
@@ -27295,6 +27302,13 @@ asExclusiveContext
 )
 shape
 value
+/
+*
+overwriting
+=
+*
+/
+false
 )
 ;
 }
