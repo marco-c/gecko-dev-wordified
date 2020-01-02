@@ -1702,16 +1702,6 @@ aPoint
 )
 const
 ;
-gfxRect
-ProjectRectBounds
-(
-const
-gfxRect
-&
-aRect
-)
-const
-;
 /
 *
 *
