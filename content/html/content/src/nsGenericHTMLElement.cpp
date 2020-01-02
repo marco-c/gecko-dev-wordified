@@ -18076,13 +18076,6 @@ nsDOMSettableTokenList
 aPropertyValue
 )
 ;
-list
--
->
-DropReference
-(
-)
-;
 NS_RELEASE
 (
 list
