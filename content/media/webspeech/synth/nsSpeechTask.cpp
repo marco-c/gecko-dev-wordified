@@ -835,6 +835,16 @@ mChannels
 NS_ERROR_FAILURE
 )
 ;
+NS_ENSURE_TRUE
+(
+aData
+.
+isObject
+(
+)
+NS_ERROR_INVALID_ARG
+)
+;
 if
 (
 mIndirectAudio
