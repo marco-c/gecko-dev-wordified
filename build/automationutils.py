@@ -5357,33 +5357,10 @@ def
 log
 (
 self
-message
+line
 )
 :
     
-if
-message
-[
-'
-action
-'
-]
-=
-=
-'
-log
-'
-:
-        
-line
-=
-message
-[
-'
-message
-'
-]
-        
 if
 line
 [
@@ -5397,14 +5374,14 @@ line
 DOMWINDOW
 "
 :
-          
+      
 self
 .
 _logWindow
 (
 line
 )
-        
+    
 elif
 line
 [
@@ -5418,7 +5395,7 @@ line
 DOCSHELL
 "
 :
-          
+      
 self
 .
 _logDocShell
@@ -5427,27 +5404,35 @@ line
 )
     
 elif
-message
-[
-'
-action
-'
-]
-=
-=
-'
-test_start
-'
+line
+.
+startswith
+(
+"
+TEST
+-
+START
+"
+)
 :
       
 fileName
 =
-message
+line
+.
+split
+(
+"
+"
+)
 [
-'
-test
-'
+-
+1
 ]
+.
+strip
+(
+)
 .
 replace
 (
@@ -5494,17 +5479,17 @@ set
 }
     
 elif
-message
-[
-'
-action
-'
-]
-=
-=
-'
-test_end
-'
+line
+.
+startswith
+(
+"
+INFO
+TEST
+-
+END
+"
+)
 :
       
 #
@@ -5565,17 +5550,19 @@ currentTest
 None
     
 elif
-message
-[
-'
-action
-'
-]
-=
-=
-'
-suite_end
-'
+line
+.
+startswith
+(
+"
+INFO
+TEST
+-
+START
+|
+Shutdown
+"
+)
 :
       
 self
@@ -5648,8 +5635,6 @@ url
 s
 ]
 "
-%
-(
 test
 [
 "
@@ -5658,7 +5643,6 @@ fileName
 ]
 count
 url
-)
 )
       
 if
@@ -5694,8 +5678,6 @@ s
 until
 shutdown
 "
-%
-(
 test
 [
 "
@@ -5710,7 +5692,6 @@ test
 leakedDocShells
 "
 ]
-)
 )
 )
   
@@ -5797,7 +5778,6 @@ line
 s
 >
 "
-%
 line
 )
       
@@ -5960,7 +5940,6 @@ line
 s
 >
 "
-%
 line
 )
       

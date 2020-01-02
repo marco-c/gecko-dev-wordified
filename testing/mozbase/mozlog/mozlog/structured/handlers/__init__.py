@@ -447,9 +447,6 @@ encode
 "
 utf8
 "
-"
-replace
-"
 )
 )
             
