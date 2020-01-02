@@ -381,6 +381,9 @@ bool
 mWaiting
 ;
 bool
+mNotified
+;
+bool
 mSleeping
 ;
 nsTArray
