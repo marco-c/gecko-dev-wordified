@@ -13435,15 +13435,6 @@ in
 the
 background
 .
-In
-seconds
-but
-rounded
-to
-minutes
-in
-gecko
-.
 pref
 (
 "
