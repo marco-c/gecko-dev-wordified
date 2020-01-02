@@ -343,8 +343,8 @@ id
 options
 is
 an
-ActivityOptions
-dictionary
+nsIDOMActivityOptions
+object
 .
 var
 options
