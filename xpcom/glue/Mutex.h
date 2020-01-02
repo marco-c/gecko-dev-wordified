@@ -349,6 +349,7 @@ DestroyMutex
 *
 *
 /
+explicit
 OffTheBooksMutex
 (
 const
@@ -634,6 +635,7 @@ OffTheBooksMutex
 {
 public
 :
+explicit
 Mutex
 (
 const
@@ -784,6 +786,7 @@ NewMutex
 *
 *
 /
+explicit
 BaseAutoLock
 (
 T
@@ -944,6 +947,7 @@ BaseAutoUnlock
 {
 public
 :
+explicit
 BaseAutoUnlock
 (
 T

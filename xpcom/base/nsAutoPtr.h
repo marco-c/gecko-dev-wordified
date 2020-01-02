@@ -394,6 +394,7 @@ Ptr
 {
 public
 :
+MOZ_IMPLICIT
 Ptr
 (
 T
@@ -464,6 +465,7 @@ default
 constructor
 {
 }
+MOZ_IMPLICIT
 nsAutoPtr
 (
 Ptr
@@ -2647,6 +2649,7 @@ default
 constructor
 {
 }
+MOZ_IMPLICIT
 nsAutoArrayPtr
 (
 T
@@ -4795,6 +4798,7 @@ the
 right
 type
 )
+MOZ_IMPLICIT
 nsRefPtr
 (
 T
@@ -4890,6 +4894,7 @@ forget
 |
 {
 }
+MOZ_IMPLICIT
 nsRefPtr
 (
 const
@@ -7382,6 +7387,7 @@ nsCOMPtr_helper
 {
 public
 :
+explicit
 nsQueryObject
 (
 T

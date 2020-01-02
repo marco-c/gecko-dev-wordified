@@ -820,6 +820,7 @@ cid
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSICLASSINFO
+explicit
 GenericClassInfo
 (
 const

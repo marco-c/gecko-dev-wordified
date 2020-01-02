@@ -418,6 +418,7 @@ nsRunnable
 {
 public
 :
+explicit
 AddConsolePrefWatchers
 (
 nsConsoleService

@@ -212,6 +212,7 @@ nsCOMArray_base
 )
 {
 }
+explicit
 nsCOMArray_base
 (
 int32_t

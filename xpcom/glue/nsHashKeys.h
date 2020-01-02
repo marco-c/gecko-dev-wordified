@@ -402,6 +402,7 @@ nsAString
 *
 KeyTypePointer
 ;
+explicit
 nsStringHashKey
 (
 KeyTypePointer
@@ -573,6 +574,7 @@ nsAString
 *
 KeyTypePointer
 ;
+explicit
 nsStringCaseInsensitiveHashKey
 (
 KeyTypePointer
@@ -749,6 +751,7 @@ nsACString
 *
 KeyTypePointer
 ;
+explicit
 nsCStringHashKey
 (
 const
@@ -901,6 +904,7 @@ uint32_t
 *
 KeyTypePointer
 ;
+explicit
 nsUint32HashKey
 (
 KeyTypePointer
@@ -1043,6 +1047,7 @@ uint64_t
 *
 KeyTypePointer
 ;
+explicit
 nsUint64HashKey
 (
 KeyTypePointer
@@ -1188,6 +1193,7 @@ float
 *
 KeyTypePointer
 ;
+explicit
 nsFloatHashKey
 (
 KeyTypePointer
@@ -1338,6 +1344,7 @@ nsISupports
 *
 KeyTypePointer
 ;
+explicit
 nsISupportsHashKey
 (
 const
@@ -1498,6 +1505,7 @@ T
 *
 KeyTypePointer
 ;
+explicit
 nsRefPtrHashKey
 (
 const
@@ -1699,6 +1707,7 @@ T
 *
 KeyTypePointer
 ;
+explicit
 nsPtrHashKey
 (
 const
@@ -1881,6 +1890,7 @@ T
 {
 public
 :
+explicit
 nsClearingPtrHashKey
 (
 const
@@ -1998,6 +2008,7 @@ T
 *
 KeyTypePointer
 ;
+explicit
 nsFuncPtrHashKey
 (
 const
@@ -2164,6 +2175,7 @@ nsID
 *
 KeyTypePointer
 ;
+explicit
 nsIDHashKey
 (
 const
@@ -2386,6 +2398,7 @@ char
 *
 KeyTypePointer
 ;
+explicit
 nsDepCharHashKey
 (
 const
@@ -2571,6 +2584,7 @@ char
 *
 KeyTypePointer
 ;
+explicit
 nsCharPtrHashKey
 (
 const
@@ -2794,6 +2808,7 @@ char16_t
 *
 KeyTypePointer
 ;
+explicit
 nsUnicharPtrHashKey
 (
 const
@@ -2986,6 +3001,7 @@ nsIHashable
 *
 KeyTypePointer
 ;
+explicit
 nsHashableHashKey
 (
 const
@@ -3237,6 +3253,7 @@ T
 *
 KeyTypePointer
 ;
+explicit
 nsGenericHashKey
 (
 KeyTypePointer

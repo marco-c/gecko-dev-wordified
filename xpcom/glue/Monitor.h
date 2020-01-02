@@ -219,6 +219,7 @@ Monitor
 {
 public
 :
+explicit
 Monitor
 (
 const
@@ -428,6 +429,7 @@ MonitorAutoLock
 {
 public
 :
+explicit
 MonitorAutoLock
 (
 Monitor
@@ -614,6 +616,7 @@ MonitorAutoUnlock
 {
 public
 :
+explicit
 MonitorAutoUnlock
 (
 Monitor

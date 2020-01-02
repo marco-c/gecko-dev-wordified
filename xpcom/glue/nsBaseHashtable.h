@@ -253,6 +253,7 @@ KeyClass
 KeyTypePointer
 KeyTypePointer
 ;
+explicit
 nsBaseHashtableET
 (
 KeyTypePointer

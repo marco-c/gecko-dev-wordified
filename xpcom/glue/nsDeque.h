@@ -569,6 +569,7 @@ fallible_t
 ;
 public
 :
+explicit
 nsDeque
 (
 nsDequeFunctor
@@ -1575,6 +1576,7 @@ your
 iteration
 *
 /
+explicit
 nsDequeIterator
 (
 const

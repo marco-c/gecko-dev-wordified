@@ -229,11 +229,15 @@ T
 {
 public
 :
+explicit
 nsHashKeyDisallowMemmove
 (
 const
+typename
 T
-&
+:
+:
+KeyTypePointer
 aKey
 )
 :

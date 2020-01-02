@@ -366,6 +366,7 @@ issues
 *
 /
 NS_DEADLOCK_DETECTOR_CONSTEXPR
+explicit
 CallStack
 (
 const
@@ -1101,6 +1102,7 @@ mResource
 CallStack
 mCallContext
 ;
+explicit
 ResourceAcquisition
 (
 const
@@ -2019,6 +2021,7 @@ safer
 struct
 PRAutoLock
 {
+explicit
 PRAutoLock
 (
 PRLock
@@ -2091,6 +2094,7 @@ checked
 .
 *
 /
+explicit
 DeadlockDetector
 (
 uint32_t

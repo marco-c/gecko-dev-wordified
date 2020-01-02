@@ -948,6 +948,7 @@ this
 strict
 checking
 .
+explicit
 nsMainThreadPtrHolder
 (
 T

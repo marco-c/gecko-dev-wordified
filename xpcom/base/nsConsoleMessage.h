@@ -156,6 +156,7 @@ nsConsoleMessage
 (
 )
 ;
+explicit
 nsConsoleMessage
 (
 const

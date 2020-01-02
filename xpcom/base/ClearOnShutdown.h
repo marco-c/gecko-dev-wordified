@@ -390,6 +390,7 @@ ShutdownObserver
 {
 public
 :
+explicit
 PointerClearer
 (
 SmartPtr

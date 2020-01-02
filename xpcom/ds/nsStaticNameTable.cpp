@@ -154,6 +154,7 @@ mozilla
 struct
 NameTableKey
 {
+explicit
 NameTableKey
 (
 const
@@ -174,6 +175,7 @@ m1b
 aKeyStr
 ;
 }
+explicit
 NameTableKey
 (
 const

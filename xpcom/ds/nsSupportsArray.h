@@ -766,6 +766,7 @@ constructors
 are
 not
 allowed
+explicit
 nsSupportsArray
 (
 const
