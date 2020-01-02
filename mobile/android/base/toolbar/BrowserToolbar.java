@@ -7592,6 +7592,13 @@ setPrivateMode
 isPrivate
 )
 ;
+editCancel
+.
+setPrivateMode
+(
+isPrivate
+)
+;
 urlEditLayout
 .
 setPrivateMode
