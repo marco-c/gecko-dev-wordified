@@ -2500,6 +2500,7 @@ cx
 *
 ctorPrototypePrototype
 nullptr
+TenuredObject
 )
 ;
 }
@@ -4841,6 +4842,10 @@ RootedObject
 fieldNamesVec
 (
 cx
+)
+;
+fieldNamesVec
+=
 NewDenseCopiedArray
 (
 cx
@@ -4854,7 +4859,8 @@ fieldNameValues
 begin
 (
 )
-)
+nullptr
+TenuredObject
 )
 ;
 if
@@ -4917,6 +4923,8 @@ fieldTypeObjs
 begin
 (
 )
+nullptr
+TenuredObject
 )
 ;
 if
@@ -5037,6 +5045,8 @@ fieldOffsets
 begin
 (
 )
+nullptr
+TenuredObject
 )
 ;
 if
