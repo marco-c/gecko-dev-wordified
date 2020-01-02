@@ -1581,14 +1581,14 @@ mMajorVersion
 !
 =
 NFCD_MAJOR_VERSION
-&
-&
+|
+|
 aOptions
 .
 mMinorVersion
 !
 =
-NFCD_MAJOR_VERSION
+NFCD_MINOR_VERSION
 )
 {
 CHROMIUM_LOG
