@@ -11492,7 +11492,7 @@ surf
 GetType
 (
 )
-!
+=
 =
 gfxSurfaceType
 :
