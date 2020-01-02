@@ -1,10 +1,4 @@
 /
-/
-|
-reftest
-|
-fails
-/
 *
 This
 Source
