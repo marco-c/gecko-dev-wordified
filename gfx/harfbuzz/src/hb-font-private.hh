@@ -586,6 +586,10 @@ x_scale
 )
 )
 return
+(
+hb_position_t
+)
+(
 v
 *
 (
@@ -603,6 +607,7 @@ parent
 -
 >
 x_scale
+)
 ;
 return
 v
@@ -633,6 +638,10 @@ y_scale
 )
 )
 return
+(
+hb_position_t
+)
+(
 v
 *
 (
@@ -650,6 +659,7 @@ parent
 -
 >
 y_scale
+)
 ;
 return
 v
@@ -1949,6 +1959,10 @@ scale
 )
 {
 return
+(
+hb_position_t
+)
+(
 v
 *
 (
@@ -1961,6 +1975,7 @@ face
 >
 get_upem
 (
+)
 )
 ;
 }

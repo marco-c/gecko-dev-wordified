@@ -1265,6 +1265,10 @@ size
 return
 likely
 (
+!
+size
+|
+|
 size
 <
 allocated
@@ -1299,8 +1303,12 @@ int
 count
 )
 ;
+typedef
+long
+scratch_buffer_t
+;
 HB_INTERNAL
-void
+scratch_buffer_t
 *
 get_scratch_buffer
 (
