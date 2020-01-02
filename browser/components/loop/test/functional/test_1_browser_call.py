@@ -304,7 +304,7 @@ workaround
 for
 Marionette
 bug
-YYY
+1055309
     
 def
 wait_for_element_exists
@@ -760,10 +760,11 @@ find_element
 By
 .
 CLASS_NAME
+                                                   
 "
 btn
 -
-success
+accept
 "
 )
         
@@ -948,7 +949,7 @@ CLASS_NAME
 "
 btn
 -
-success
+accept
 "
 )
         
