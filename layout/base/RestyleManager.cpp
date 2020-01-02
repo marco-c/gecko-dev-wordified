@@ -324,6 +324,10 @@ endif
 namespace
 mozilla
 {
+using
+namespace
+layers
+;
 RestyleManager
 :
 :
