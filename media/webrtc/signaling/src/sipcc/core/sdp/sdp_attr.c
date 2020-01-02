@@ -3232,7 +3232,7 @@ fmtp_p
 >
 packetization_mode
 =
-0
+SDP_DEFAULT_PACKETIZATION_MODE_VALUE
 ;
 fmtp_p
 -
