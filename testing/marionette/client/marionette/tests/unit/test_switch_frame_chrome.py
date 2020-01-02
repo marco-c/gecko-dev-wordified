@@ -228,14 +228,13 @@ self
         
 self
 .
-assertTrue
+assertIn
 (
 "
 test
 .
 xul
 "
-in
 self
 .
 marionette
@@ -243,6 +242,12 @@ marionette
 get_url
 (
 )
+"
+Initial
+navigation
+has
+failed
+"
 )
         
 self
@@ -256,14 +261,13 @@ switch_to_frame
         
 self
 .
-assertTrue
+assertIn
 (
 "
 test2
 .
 xul
 "
-in
 self
 .
 marionette
@@ -271,6 +275,12 @@ marionette
 get_url
 (
 )
+"
+Switching
+by
+index
+failed
+"
 )
         
 self
@@ -293,18 +303,23 @@ marionette
 get_active_frame
 (
 )
+"
+Switiching
+by
+null
+failed
+"
 )
         
 self
 .
-assertTrue
+assertIn
 (
 "
 test
 .
 xul
 "
-in
 self
 .
 marionette
@@ -312,6 +327,12 @@ marionette
 get_url
 (
 )
+"
+Switching
+by
+null
+failed
+"
 )
         
 self
@@ -327,14 +348,13 @@ iframe
         
 self
 .
-assertTrue
+assertIn
 (
 "
 test2
 .
 xul
 "
-in
 self
 .
 marionette
@@ -342,6 +362,12 @@ marionette
 get_url
 (
 )
+"
+Switching
+by
+name
+failed
+"
 )
         
 self
@@ -354,14 +380,13 @@ switch_to_frame
         
 self
 .
-assertTrue
+assertIn
 (
 "
 test
 .
 xul
 "
-in
 self
 .
 marionette
@@ -369,6 +394,12 @@ marionette
 get_url
 (
 )
+"
+Switching
+by
+null
+failed
+"
 )
         
 self
@@ -384,14 +415,13 @@ iframename
         
 self
 .
-assertTrue
+assertIn
 (
 "
 test2
 .
 xul
 "
-in
 self
 .
 marionette
@@ -399,6 +429,12 @@ marionette
 get_url
 (
 )
+"
+Switching
+by
+name
+failed
+"
 )
         
 iframe_element
@@ -421,14 +457,13 @@ switch_to_frame
         
 self
 .
-assertTrue
+assertIn
 (
 "
 test
 .
 xul
 "
-in
 self
 .
 marionette
@@ -436,6 +471,12 @@ marionette
 get_url
 (
 )
+"
+Switching
+by
+null
+failed
+"
 )
         
 self
@@ -449,14 +490,13 @@ iframe_element
         
 self
 .
-assertTrue
+assertIn
 (
 "
 test2
 .
 xul
 "
-in
 self
 .
 marionette
@@ -464,6 +504,12 @@ marionette
 get_url
 (
 )
+"
+Switching
+by
+element
+failed
+"
 )
     
 def
@@ -475,14 +521,13 @@ self
         
 self
 .
-assertTrue
+assertIn
 (
 "
 test
 .
 xul
 "
-in
 self
 .
 marionette
@@ -490,6 +535,12 @@ marionette
 get_url
 (
 )
+"
+Initial
+navigation
+has
+failed
+"
 )
         
 self
@@ -544,12 +595,11 @@ e
             
 self
 .
-assertTrue
+assertIn
 (
 "
 foo
 "
-in
 e
 .
 msg
