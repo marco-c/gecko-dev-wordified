@@ -1589,9 +1589,7 @@ mRealTime
 ?
 0
 :
-GetAmpleVideoFrames
-(
-)
+mAmpleVideoFrames
 /
 2
 ;
@@ -4337,9 +4335,7 @@ GetSize
 )
 )
 <
-GetAmpleVideoFrames
-(
-)
+mAmpleVideoFrames
 *
 mPlaybackRate
 )
