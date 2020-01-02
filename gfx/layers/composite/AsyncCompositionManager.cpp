@@ -774,6 +774,16 @@ DetachReferentLayer
 referent
 )
 ;
+WalkTheTree
+<
+OP
+>
+(
+referent
+aReady
+aTargetConfig
+)
+;
 }
 }
 }
