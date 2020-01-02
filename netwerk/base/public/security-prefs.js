@@ -308,7 +308,7 @@ ssl3
 .
 ecdhe_rsa_des_ede3_sha
 "
-true
+false
 )
 ;
 pref
@@ -332,7 +332,7 @@ ssl3
 .
 dhe_rsa_camellia_128_sha
 "
-true
+false
 )
 ;
 pref
@@ -356,7 +356,7 @@ ssl3
 .
 dhe_rsa_camellia_256_sha
 "
-true
+false
 )
 ;
 pref
@@ -368,7 +368,7 @@ ssl3
 .
 dhe_rsa_des_ede3_sha
 "
-true
+false
 )
 ;
 pref
@@ -392,7 +392,7 @@ ssl3
 .
 dhe_dss_aes_256_sha
 "
-true
+false
 )
 ;
 pref
@@ -440,7 +440,7 @@ ssl3
 .
 rsa_camellia_128_sha
 "
-true
+false
 )
 ;
 pref
@@ -464,7 +464,7 @@ ssl3
 .
 rsa_camellia_256_sha
 "
-true
+false
 )
 ;
 pref
