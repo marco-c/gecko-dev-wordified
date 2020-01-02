@@ -743,15 +743,6 @@ aMessage
 )
 MOZ_OVERRIDE
 ;
-BluetoothServiceBluedroid
-(
-)
-;
-~
-BluetoothServiceBluedroid
-(
-)
-;
 }
 ;
 END_BLUETOOTH_NAMESPACE
