@@ -19284,7 +19284,7 @@ GetContent
 nsLayoutUtils
 :
 :
-HasAnimationsForCompositor
+HasAnimations
 (
 mFrame
 -
