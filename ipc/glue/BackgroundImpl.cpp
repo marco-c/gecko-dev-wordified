@@ -4855,6 +4855,10 @@ nsIThread
 thread
 =
 sBackgroundThread
+.
+get
+(
+)
 ;
 sBackgroundThread
 =
