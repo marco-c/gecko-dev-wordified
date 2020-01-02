@@ -57,6 +57,12 @@ MPL
 *
 /
 #
+ifndef
+nsDebugImpl_h
+#
+define
+nsDebugImpl_h
+#
 include
 "
 nsIDebug
@@ -212,3 +218,8 @@ c27eb7a518af
 }
 \
 }
+#
+endif
+/
+/
+nsDebugImpl_h

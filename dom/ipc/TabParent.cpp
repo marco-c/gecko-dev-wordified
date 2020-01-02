@@ -838,6 +838,15 @@ swap
 tabParent
 )
 ;
+using
+mozilla
+:
+:
+ipc
+:
+:
+FileDescriptor
+;
 FileDescriptor
 :
 :

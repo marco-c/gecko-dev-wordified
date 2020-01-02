@@ -106,6 +106,12 @@ MPL
 *
 /
 #
+ifndef
+mozilla_dom_CrashReporterParent_h
+#
+define
+mozilla_dom_CrashReporterParent_h
+#
 include
 "
 mozilla
@@ -787,3 +793,8 @@ dom
 /
 namespace
 mozilla
+#
+endif
+/
+/
+mozilla_dom_CrashReporterParent_h
