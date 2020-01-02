@@ -2277,6 +2277,8 @@ Iterator
 Bitmap
 >
 images
+boolean
+permanently
 )
 {
 sFaviconsCache
@@ -2285,6 +2287,7 @@ putFavicons
 (
 pageUrl
 images
+permanently
 )
 ;
 }
@@ -2852,6 +2855,7 @@ toInsert
 iterator
 (
 )
+true
 )
 ;
 }
