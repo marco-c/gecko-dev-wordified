@@ -1490,8 +1490,6 @@ that
 content
 channels
 can
-'
-t
 be
 allow
 to
@@ -1559,7 +1557,7 @@ TEST_ENSURE_BASE
 playable
 =
 =
-AUDIO_CHANNEL_STATE_MUTED
+AUDIO_CHANNEL_STATE_NORMAL
 "
 Test3
 :
@@ -1570,9 +1568,7 @@ unvisible
 agent1
 must
 be
-muted
-while
-playing
+playable
 "
 "
 from
@@ -1603,7 +1599,7 @@ TEST_ENSURE_BASE
 playable
 =
 =
-AUDIO_CHANNEL_STATE_MUTED
+AUDIO_CHANNEL_STATE_NORMAL
 "
 Test3
 :
@@ -1614,9 +1610,7 @@ unvisible
 agent2
 must
 be
-muted
-while
-playing
+playable
 "
 "
 from
@@ -2408,7 +2402,7 @@ TEST_ENSURE_BASE
 playable
 =
 =
-AUDIO_CHANNEL_STATE_MUTED
+AUDIO_CHANNEL_STATE_NORMAL
 "
 Test5
 :
@@ -2417,10 +2411,9 @@ content
 channel
 unvisible
 agent
-agent
 must
 be
-muted
+playable
 while
 "
 "
