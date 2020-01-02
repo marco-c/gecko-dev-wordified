@@ -1933,14 +1933,6 @@ do
 {
 \
 char
-func
-[
-]
-=
-__FUNCTION__
-;
-\
-char
 file
 [
 ]
@@ -1958,7 +1950,7 @@ __internal_skip_line_no
 __asm
 _emit
 (
-__LINE__
+__COUNTER__
 &
 0xff
 )
@@ -1967,7 +1959,7 @@ __asm
 _emit
 (
 (
-__LINE__
+__COUNTER__
 >
 >
 8
@@ -1980,7 +1972,7 @@ __asm
 _emit
 (
 (
-__LINE__
+__COUNTER__
 >
 >
 16
@@ -1993,7 +1985,7 @@ __asm
 _emit
 (
 (
-__LINE__
+__COUNTER__
 >
 >
 24
@@ -2001,11 +1993,6 @@ __LINE__
 &
 0xff
 )
-\
-__asm
-lea
-eax
-func
 \
 __asm
 lea
