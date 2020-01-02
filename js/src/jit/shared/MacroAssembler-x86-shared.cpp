@@ -1107,9 +1107,7 @@ MacroAssemblerX86Shared
 :
 branchNegativeZero
 (
-const
 FloatRegister
-&
 reg
 Register
 scratch
@@ -1293,9 +1291,7 @@ MacroAssemblerX86Shared
 :
 branchNegativeZeroFloat32
 (
-const
 FloatRegister
-&
 reg
 Register
 scratch

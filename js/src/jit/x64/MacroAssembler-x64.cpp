@@ -185,9 +185,7 @@ loadConstantDouble
 (
 double
 d
-const
 FloatRegister
-&
 dest
 )
 {
@@ -446,9 +444,7 @@ loadConstantFloat32
 (
 float
 f
-const
 FloatRegister
-&
 dest
 )
 {
@@ -1188,9 +1184,7 @@ MacroAssemblerX64
 :
 passABIArg
 (
-const
 FloatRegister
-&
 reg
 MoveOp
 :

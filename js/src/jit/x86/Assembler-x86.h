@@ -1413,9 +1413,7 @@ value
 void
 push
 (
-const
 FloatRegister
-&
 src
 )
 {
@@ -1470,9 +1468,7 @@ currentOffset
 void
 pop
 (
-const
 FloatRegister
-&
 src
 )
 {

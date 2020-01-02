@@ -2191,9 +2191,7 @@ value
 void
 push
 (
-const
 FloatRegister
-&
 src
 )
 {
@@ -2248,9 +2246,7 @@ label
 void
 pop
 (
-const
 FloatRegister
-&
 src
 )
 {
@@ -3039,9 +3035,7 @@ movq
 (
 Register
 src
-const
 FloatRegister
-&
 dest
 )
 {
@@ -3065,9 +3059,7 @@ code
 void
 movq
 (
-const
 FloatRegister
-&
 src
 Register
 dest
@@ -4456,9 +4448,7 @@ offset
 CodeOffsetLabel
 loadRipRelativeDouble
 (
-const
 FloatRegister
-&
 dest
 )
 {
@@ -4512,9 +4502,7 @@ offset
 CodeOffsetLabel
 storeRipRelativeDouble
 (
-const
 FloatRegister
-&
 dest
 )
 {
@@ -5398,9 +5386,7 @@ call
 void
 cvttsd2sq
 (
-const
 FloatRegister
-&
 src
 Register
 dest
@@ -5426,9 +5412,7 @@ code
 void
 cvttss2sq
 (
-const
 FloatRegister
-&
 src
 Register
 dest
@@ -5456,9 +5440,7 @@ cvtsq2sd
 (
 Register
 src
-const
 FloatRegister
-&
 dest
 )
 {
@@ -5484,9 +5466,7 @@ cvtsq2ss
 (
 Register
 src
-const
 FloatRegister
-&
 dest
 )
 {
