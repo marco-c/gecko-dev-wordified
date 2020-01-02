@@ -908,7 +908,7 @@ break
 ;
 }
 case
-NS_CLIPBOARD_EVENT
+eClipboardEventClass
 :
 tmp
 -
@@ -1144,7 +1144,7 @@ break
 ;
 }
 case
-NS_CLIPBOARD_EVENT
+eClipboardEventClass
 :
 NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
 (

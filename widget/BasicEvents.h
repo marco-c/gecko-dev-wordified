@@ -457,7 +457,7 @@ eFocusEventClass
 /
 /
 InternalFocusEvent
-NS_CLIPBOARD_EVENT
+eClipboardEventClass
 /
 /
 InternalClipboardEvent
