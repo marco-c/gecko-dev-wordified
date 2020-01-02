@@ -533,11 +533,13 @@ return
 "
 TEST
 -
-END
 UNEXPECTED
 -
 %
 s
+TEST
+-
+END
 |
 %
 s
