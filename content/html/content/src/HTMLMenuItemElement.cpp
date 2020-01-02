@@ -1681,9 +1681,6 @@ aText
 nsAutoString
 text
 ;
-if
-(
-!
 nsContentUtils
 :
 :
@@ -1693,16 +1690,7 @@ this
 false
 text
 )
-)
-{
-NS_RUNTIMEABORT
-(
-"
-OOM
-"
-)
 ;
-}
 text
 .
 CompressWhitespace

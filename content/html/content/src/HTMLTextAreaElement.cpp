@@ -1654,9 +1654,6 @@ nsAString
 aDefaultValue
 )
 {
-if
-(
-!
 nsContentUtils
 :
 :
@@ -1666,12 +1663,7 @@ this
 false
 aDefaultValue
 )
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
-}
 return
 NS_OK
 ;
