@@ -333,6 +333,9 @@ USING_GL_RENDERING_ONLY
 class
 SurfaceDescriptor
 ;
+mozilla
+:
+:
 ipc
 :
 :
@@ -511,6 +514,9 @@ AllocShmem
 (
 size_t
 aSize
+mozilla
+:
+:
 ipc
 :
 :
@@ -519,6 +525,9 @@ SharedMemory
 :
 SharedMemoryType
 aType
+mozilla
+:
+:
 ipc
 :
 :
@@ -570,6 +579,9 @@ AllocUnsafeShmem
 (
 size_t
 aSize
+mozilla
+:
+:
 ipc
 :
 :
@@ -578,6 +590,9 @@ SharedMemory
 :
 SharedMemoryType
 aType
+mozilla
+:
+:
 ipc
 :
 :
@@ -607,6 +622,9 @@ virtual
 void
 DeallocShmem
 (
+mozilla
+:
+:
 ipc
 :
 :
