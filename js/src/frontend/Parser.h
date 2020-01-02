@@ -1277,8 +1277,7 @@ define
 TokenStream
 &
 ts
-PropertyName
-*
+HandlePropertyName
 name
 Node
 pn

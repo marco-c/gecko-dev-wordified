@@ -649,8 +649,7 @@ define
 TokenStream
 &
 ts
-PropertyName
-*
+HandlePropertyName
 name
 ParseNode
 *
@@ -1285,8 +1284,7 @@ define
 TokenStream
 &
 ts
-PropertyName
-*
+HandlePropertyName
 name
 Node
 pn
