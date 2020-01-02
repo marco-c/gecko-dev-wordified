@@ -727,7 +727,7 @@ overlapping
 ranges
 Range
 *
-j
+coalesceEnd
 =
 i
 ;
@@ -795,7 +795,7 @@ if
 i
 =
 =
-j
+coalesceEnd
 )
 return
 ranges_
@@ -820,7 +820,7 @@ erase
 i
 +
 1
-j
+coalesceEnd
 )
 ;
 return
