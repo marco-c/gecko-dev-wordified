@@ -12571,6 +12571,7 @@ isToInt32
 (
 )
 )
+{
 replaceOperand
 (
 0
@@ -12585,6 +12586,11 @@ getOperand
 )
 )
 ;
+conversion_
+=
+NonStringPrimitives
+;
+}
 return
 this
 ;
