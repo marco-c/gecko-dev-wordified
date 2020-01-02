@@ -3038,13 +3038,11 @@ WidgetCompositionEvent
 *
 oldCompositionEvent
 =
-static_cast
-<
-WidgetCompositionEvent
-*
->
-(
 mEvent
+-
+>
+AsCompositionEvent
+(
 )
 ;
 compositionEvent

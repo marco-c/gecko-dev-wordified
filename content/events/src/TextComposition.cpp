@@ -495,13 +495,11 @@ NS_COMPOSITION_UPDATE
 {
 mLastData
 =
-static_cast
-<
-WidgetCompositionEvent
-*
->
-(
 aEvent
+-
+>
+AsCompositionEvent
+(
 )
 -
 >

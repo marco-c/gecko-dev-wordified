@@ -1379,13 +1379,11 @@ NS_COMPOSITION_EVENT
 :
 mIMELastReceivedSeqno
 =
-static_cast
-<
-WidgetCompositionEvent
-*
->
-(
 event
+-
+>
+AsCompositionEvent
+(
 )
 -
 >
