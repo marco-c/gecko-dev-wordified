@@ -1120,7 +1120,6 @@ file
 int
 ln
 )
-MOZ_PRETEND_NORETURN_FOR_STATIC_ANALYSIS
 {
 #
 ifdef
@@ -1200,7 +1199,6 @@ file
 int
 ln
 )
-MOZ_PRETEND_NORETURN_FOR_STATIC_ANALYSIS
 {
 #
 ifdef
