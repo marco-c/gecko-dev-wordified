@@ -12792,7 +12792,7 @@ genObjectProto
 global
 -
 >
-setSlot
+setConstructor
 (
 JSProto_GeneratorFunction
 ObjectValue
@@ -12805,11 +12805,9 @@ genFunction
 global
 -
 >
-setSlot
+setPrototype
 (
 JSProto_GeneratorFunction
-+
-JSProto_LIMIT
 ObjectValue
 (
 *
@@ -12903,9 +12901,11 @@ proto
 return
 false
 ;
-MarkStandardClassInitializedNoProto
-(
 global
+-
+>
+markStandardClassInitializedNoProto
+(
 &
 StopIterationObject
 :

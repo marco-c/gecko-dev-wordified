@@ -4359,7 +4359,7 @@ JSCLASS_GLOBAL_FLAGS
 was
 /
 /
-prevously
+previously
 allowed
 but
 is
@@ -4377,6 +4377,8 @@ unsupported
 define
 JSCLASS_GLOBAL_SLOT_COUNT
 (
+3
++
 JSProto_LIMIT
 *
 3

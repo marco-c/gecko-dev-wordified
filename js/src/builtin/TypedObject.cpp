@@ -7318,7 +7318,7 @@ false
 global
 -
 >
-setReservedSlot
+setConstructor
 (
 JSProto_Data
 ObjectValue
@@ -7440,7 +7440,7 @@ false
 global
 -
 >
-setReservedSlot
+setConstructor
 (
 JSProto_Type
 ObjectValue
@@ -7500,7 +7500,7 @@ ArrayType
 global
 -
 >
-setReservedSlot
+setConstructor
 (
 JSProto_ArrayTypeObject
 ObjectValue
