@@ -366,6 +366,11 @@ DrainReorderedFrames
 (
 )
 ;
+void
+ClearReorderedFrames
+(
+)
+;
 }
 ;
 }
