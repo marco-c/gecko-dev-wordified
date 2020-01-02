@@ -1203,6 +1203,11 @@ NotifyAll
 )
 ;
 }
+/
+*
+static
+*
+/
 void
 VideoTrackEncoder
 :
@@ -1215,6 +1220,10 @@ uint8_t
 >
 *
 aOutputBuffer
+int
+aFrameWidth
+int
+aFrameHeight
 )
 {
 NS_ENSURE_TRUE_VOID
@@ -1233,9 +1242,9 @@ only
 int
 yPlaneLen
 =
-mFrameWidth
+aFrameWidth
 *
-mFrameHeight
+aFrameHeight
 ;
 int
 cbcrPlaneLen
