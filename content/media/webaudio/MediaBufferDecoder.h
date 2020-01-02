@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIThreadPool
 .
 h

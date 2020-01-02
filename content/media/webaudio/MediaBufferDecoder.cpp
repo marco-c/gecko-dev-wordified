@@ -209,6 +209,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIScriptObjectPrincipal
 .
 h
@@ -755,7 +762,7 @@ BufferDecoder
 >
 mBufferDecoder
 ;
-nsAutoPtr
+nsRefPtr
 <
 MediaDecoderReader
 >

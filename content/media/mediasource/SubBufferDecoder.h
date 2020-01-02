@@ -533,7 +533,7 @@ MediaSourceDecoder
 *
 mParentDecoder
 ;
-nsAutoPtr
+nsRefPtr
 <
 MediaDecoderReader
 >
