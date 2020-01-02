@@ -1097,7 +1097,6 @@ in
 gcFunctions
 )
 )
-{
 suppressedFunctions
 [
 name
@@ -1105,15 +1104,5 @@ name
 =
 true
 ;
-printErr
-(
-"
-Adding
-"
-+
-name
-)
-;
-}
 }
 }
