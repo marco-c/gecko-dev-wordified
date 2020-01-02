@@ -984,7 +984,7 @@ def
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1250,7 +1250,7 @@ index
 :
 spillInterval_
 (
-NULL
+nullptr
 )
 vreg_
 (
@@ -1278,7 +1278,7 @@ index
 :
 spillInterval_
 (
-NULL
+nullptr
 )
 vreg_
 (
@@ -2353,7 +2353,7 @@ LiveInterval
 *
 found
 =
-NULL
+nullptr
 ;
 LiveInterval
 *
@@ -2583,7 +2583,7 @@ VirtualRegisterMap
 :
 vregs_
 (
-NULL
+nullptr
 )
 numVregs_
 (
@@ -3090,11 +3090,11 @@ graph
 )
 liveIn
 (
-NULL
+nullptr
 )
 fixedIntervalsUnion
 (
-NULL
+nullptr
 )
 forLSRA
 (
@@ -3198,7 +3198,7 @@ LiveInterval
 *
 prev
 =
-NULL
+nullptr
 ;
 for
 (

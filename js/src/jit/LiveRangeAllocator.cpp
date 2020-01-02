@@ -1701,7 +1701,7 @@ UsePosition
 *
 prev
 =
-NULL
+nullptr
 ;
 for
 (
@@ -1821,7 +1821,7 @@ UsePosition
 *
 prev
 =
-NULL
+nullptr
 ;
 for
 (
@@ -1975,7 +1975,7 @@ usePos
 }
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -2242,7 +2242,7 @@ break
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 LiveInterval
@@ -6372,7 +6372,7 @@ Range
 *
 prev
 =
-NULL
+nullptr
 ;
 for
 (

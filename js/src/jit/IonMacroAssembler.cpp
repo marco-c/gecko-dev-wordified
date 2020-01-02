@@ -426,7 +426,7 @@ singleObject
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 inline
@@ -457,7 +457,7 @@ typeObject
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -3546,7 +3546,7 @@ scratchReg
 )
 )
 InvalidReg
-NULL
+nullptr
 )
 ;
 tagValue
@@ -3736,7 +3736,7 @@ dest
 scratchReg
 (
 )
-NULL
+nullptr
 )
 ;
 if
@@ -3781,7 +3781,7 @@ dest
 scratchReg
 (
 )
-NULL
+nullptr
 )
 ;
 boxDouble
@@ -5787,7 +5787,7 @@ storePtr
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 Address
 (
@@ -7470,7 +7470,7 @@ monitorStub
 )
 ImmPtr
 (
-NULL
+nullptr
 )
 &
 noMonitor
@@ -8611,7 +8611,7 @@ Push
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 )
 ;
@@ -9244,7 +9244,7 @@ line
 =
 JS_sprintf_append
 (
-NULL
+nullptr
 output
 value
 )
@@ -10299,7 +10299,7 @@ Push
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 )
 ;
@@ -11785,7 +11785,7 @@ fpu
 )
 output
 temp
-NULL
+nullptr
 fail
 behavior
 )

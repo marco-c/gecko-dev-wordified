@@ -538,7 +538,7 @@ bool
 *
 ptypeChange
 =
-NULL
+nullptr
 )
 {
 MDefinition
@@ -585,7 +585,7 @@ isConstant
 )
 )
 return
-NULL
+nullptr
 ;
 Value
 lhs
@@ -1030,7 +1030,7 @@ ptypeChange
 true
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1962,7 +1962,7 @@ JS_ASSERT
 def
 !
 =
-NULL
+nullptr
 )
 ;
 uint32_t
@@ -2079,7 +2079,7 @@ JS_ASSERT
 def
 !
 =
-NULL
+nullptr
 )
 ;
 MUse
@@ -2276,8 +2276,8 @@ use
 >
 set
 (
-NULL
-NULL
+nullptr
+nullptr
 index
 )
 ;
@@ -2300,7 +2300,7 @@ JS_ASSERT
 dom
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -3535,7 +3535,7 @@ NumNonArgumentOperands
 )
 )
 return
-NULL
+nullptr
 ;
 return
 ins
@@ -5060,7 +5060,7 @@ else
 *
 ptypeSet
 =
-NULL
+nullptr
 ;
 }
 }
@@ -12324,7 +12324,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 resume
 -
@@ -12379,7 +12379,7 @@ caller
 )
 instruction_
 (
-NULL
+nullptr
 )
 mode_
 (
@@ -15504,7 +15504,7 @@ if
 types
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -15570,7 +15570,7 @@ alloc
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -16150,7 +16150,7 @@ call
 argRegs_
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -16252,7 +16252,7 @@ call
 operands_
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -18416,7 +18416,7 @@ HeapTypeSet
 *
 aggregateProperty
 =
-NULL
+nullptr
 ;
 for
 (
@@ -19460,7 +19460,7 @@ TypeObject
 *
 excluded
 =
-NULL
+nullptr
 ;
 for
 (

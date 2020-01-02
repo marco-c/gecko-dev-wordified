@@ -1697,7 +1697,7 @@ returnAddressToFp
 )
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -1770,7 +1770,7 @@ void
 *
 returnAddrOut
 =
-NULL
+nullptr
 )
 {
 return

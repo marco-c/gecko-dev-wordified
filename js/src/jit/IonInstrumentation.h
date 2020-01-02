@@ -172,7 +172,7 @@ JS_ASSERT
 pc
 !
 =
-NULL
+nullptr
 )
 ;
 }

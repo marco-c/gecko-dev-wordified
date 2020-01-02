@@ -1954,7 +1954,7 @@ MConstant
 *
 id
 =
-NULL
+nullptr
 ;
 for
 (
@@ -2389,7 +2389,7 @@ callInfo
 thisArg
 (
 )
-NULL
+nullptr
 returnTypes
 &
 barrier
@@ -2548,7 +2548,7 @@ cx
 current
 &
 obj
-NULL
+nullptr
 &
 value
 /
@@ -4708,7 +4708,7 @@ MDefinition
 *
 output
 =
-NULL
+nullptr
 ;
 /
 /
@@ -6767,7 +6767,7 @@ TI
 can
 infer
 a
-NULL
+nullptr
 return
 type
 of
@@ -6845,7 +6845,7 @@ getKnownClass
 (
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -7144,7 +7144,7 @@ cx
 current
 &
 obj
-NULL
+nullptr
 &
 elem
 /
@@ -7957,7 +7957,7 @@ getSingleton
 (
 )
 :
-NULL
+nullptr
 ;
 RootedFunction
 target
@@ -8084,7 +8084,7 @@ target
 ctor
 target
 ?
-NULL
+nullptr
 :
 ctorTypes
 1
@@ -8216,7 +8216,7 @@ inlineParallelArrayTail
 callInfo
 target
 ctor
-NULL
+nullptr
 0
 )
 ;
@@ -9187,7 +9187,7 @@ NewDenseAllocatedArray
 (
 cx
 0
-NULL
+nullptr
 TenuredObject
 )
 ;
@@ -9992,7 +9992,7 @@ getKnownClass
 (
 )
 :
-NULL
+nullptr
 ;
 const
 Class
@@ -10008,7 +10008,7 @@ getKnownClass
 (
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -10273,7 +10273,7 @@ getKnownClass
 (
 )
 :
-NULL
+nullptr
 ;
 if
 (

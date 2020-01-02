@@ -204,11 +204,11 @@ argumentSlotCount_
 )
 entrySnapshot_
 (
-NULL
+nullptr
 )
 osrBlock_
 (
-NULL
+nullptr
 )
 mir_
 (
@@ -680,7 +680,7 @@ BOX_PIECES
 )
 slots_
 (
-NULL
+nullptr
 )
 mir_
 (
@@ -770,7 +770,7 @@ gen
 )
 )
 return
-NULL
+nullptr
 ;
 IonSpew
 (
@@ -1000,7 +1000,7 @@ gen
 )
 )
 return
-NULL
+nullptr
 ;
 return
 phi
