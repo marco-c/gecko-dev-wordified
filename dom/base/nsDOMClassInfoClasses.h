@@ -325,15 +325,6 @@ DOMCI_CLASS
 (
 MozMobileMessageThread
 )
-#
-ifdef
-MOZ_B2G_RIL
-DOMCI_CLASS
-(
-MozMobileConnection
-)
-#
-endif
 /
 /
 font
