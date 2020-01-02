@@ -7096,13 +7096,6 @@ aDocument
 )
 MOZ_OVERRIDE
 ;
-virtual
-void
-UnblockDOMContentLoaded
-(
-)
-MOZ_OVERRIDE
-;
 protected
 :
 friend
