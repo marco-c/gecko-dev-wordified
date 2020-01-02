@@ -356,7 +356,6 @@ swm
 >
 Register
 (
-mWindow
 aOptions
 .
 mScope
