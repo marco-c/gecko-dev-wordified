@@ -117,13 +117,6 @@ h
 "
 #
 endif
-namespace
-gfx
-{
-class
-Size
-;
-}
 /
 /
 -
