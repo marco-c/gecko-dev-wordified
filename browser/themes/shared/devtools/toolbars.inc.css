@@ -427,8 +427,6 @@ not
 (
 [
 checked
-=
-true
 ]
 )
 :
@@ -2227,8 +2225,6 @@ tabs
 tab
 [
 selected
-=
-true
 ]
 +
 tab
@@ -2259,8 +2255,6 @@ tabs
 tab
 [
 selected
-=
-true
 ]
 +
 tab
@@ -2311,8 +2305,6 @@ tabs
 tab
 [
 selected
-=
-true
 ]
 +
 tab
@@ -2365,8 +2357,6 @@ tabs
 tab
 [
 selected
-=
-true
 ]
 {
 color
@@ -2402,8 +2392,6 @@ tabs
 tab
 [
 selected
-=
-true
 ]
 :
 hover
@@ -2436,8 +2424,6 @@ tabs
 tab
 [
 selected
-=
-true
 ]
 :
 hover
@@ -3957,8 +3943,6 @@ devtools
 tab
 [
 selected
-=
-true
 ]
 >
 image
@@ -4036,8 +4020,6 @@ devtools
 tab
 [
 selected
-=
-true
 ]
 {
 color
@@ -4091,8 +4073,6 @@ devtools
 tab
 [
 selected
-=
-true
 ]
 :
 not
@@ -4106,8 +4086,9 @@ child
 devtools
 -
 tab
-.
+[
 highlighted
+]
 :
 not
 (
@@ -4139,8 +4120,6 @@ devtools
 tab
 [
 selected
-=
-true
 ]
 :
 last
@@ -4150,8 +4129,9 @@ child
 devtools
 -
 tab
-.
+[
 highlighted
+]
 :
 last
 -
@@ -4173,8 +4153,6 @@ devtools
 tab
 [
 selected
-=
-true
 ]
 +
 .
@@ -4185,8 +4163,9 @@ tab
 devtools
 -
 tab
-.
+[
 highlighted
+]
 +
 .
 devtools
@@ -4223,12 +4202,11 @@ not
 (
 [
 selected
-=
-true
 ]
 )
-.
+[
 highlighted
+]
 {
 color
 :
@@ -4269,8 +4247,9 @@ tab
 :
 not
 (
-.
+[
 highlighted
+]
 )
 >
 .
@@ -4283,8 +4262,6 @@ devtools
 tab
 [
 selected
-=
-true
 ]
 >
 .
@@ -4300,12 +4277,11 @@ not
 (
 [
 selected
-=
-true
 ]
 )
-.
+[
 highlighted
+]
 >
 .
 default
