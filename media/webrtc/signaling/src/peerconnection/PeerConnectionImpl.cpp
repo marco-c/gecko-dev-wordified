@@ -10899,7 +10899,7 @@ NrIceMediaStream
 for
 level
 %
-u
+zu
 "
 "
 in
@@ -10909,7 +10909,10 @@ s
 %
 s
 "
-uint32_t
+static_cast
+<
+size_t
+>
 (
 level
 )
