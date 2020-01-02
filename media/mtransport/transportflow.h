@@ -838,15 +838,6 @@ size_t
 >
 SignalPacketReceived
 ;
-bool
-Contains
-(
-TransportLayer
-*
-layer
-)
-const
-;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 TransportFlow
