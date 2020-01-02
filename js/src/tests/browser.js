@@ -399,6 +399,10 @@ var
 s
 =
 '
+TEST
+-
+INFO
+|
 '
 ;
 var
