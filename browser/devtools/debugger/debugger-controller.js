@@ -11687,7 +11687,7 @@ the
 breakpoint
 client
 has
-an
+a
 "
 requestedLocation
 "
@@ -11734,7 +11734,7 @@ DebuggerView
 .
 editor
 .
-removeBreakpoint
+moveBreakpoint
 (
 aBreakpointClient
 .
@@ -11743,14 +11743,6 @@ requestedLocation
 line
 -
 1
-)
-;
-DebuggerView
-.
-editor
-.
-addBreakpoint
-(
 aBreakpointClient
 .
 location
