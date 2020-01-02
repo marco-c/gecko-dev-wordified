@@ -175,6 +175,19 @@ symbols_path
 )
 s
 "
+"
+-
+-
+browser
+-
+arg
+=
+%
+(
+browser_arg
+)
+s
+"
         
 "
 -
@@ -221,6 +234,19 @@ s
 "
 -
 -
+browser
+-
+arg
+=
+%
+(
+browser_arg
+)
+s
+"
+"
+-
+-
 symbols
 -
 path
@@ -231,6 +257,7 @@ symbols_path
 )
 s
 "
+        
 "
 %
 (

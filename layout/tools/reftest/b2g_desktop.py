@@ -484,6 +484,12 @@ ignore_window_size
 options
 .
 ignoreWindowSize
+                            
+browser_arg
+=
+options
+.
+browser_arg
 )
         
 self
@@ -1019,6 +1025,10 @@ app
 ignore_window_size
 =
 False
+                           
+browser_arg
+=
+None
 )
 :
         
@@ -1040,6 +1050,17 @@ args
 -
 marionette
 '
+]
+        
+if
+browser_arg
+:
+            
+args
++
+=
+[
+browser_arg
 ]
         
 if
