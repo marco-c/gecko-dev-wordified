@@ -1279,7 +1279,7 @@ c_str
 char
 idStr
 [
-64
+BUFSIZ
 ]
 ;
 #
@@ -1320,7 +1320,10 @@ else
 snprintf
 (
 idStr
-BUFSIZ
+sizeof
+(
+idStr
+)
 "
 \
 \
