@@ -4245,44 +4245,6 @@ timeout
 )
 :
         
-#
-The
-server
-will
-automatically
-send
-a
-"
-hello
-"
-message
-to
-clients
-as
-        
-#
-soon
-as
-they
-connect
-.
-We
-simply
-keep
-trying
-to
-establish
-a
-connection
-        
-#
-until
-we
-get
-a
-response
-.
-        
 starttime
 =
 datetime
@@ -4313,10 +4275,6 @@ seconds
 timeout
 )
 :
-            
-sock
-=
-None
             
 try
 :
@@ -4358,6 +4316,27 @@ recv
 16
 )
                 
+sock
+.
+close
+(
+)
+                
+if
+'
+:
+'
+in
+data
+:
+                    
+time
+.
+sleep
+(
+5
+)
+                    
 return
 True
             
@@ -4369,24 +4348,10 @@ error
                 
 pass
             
-finally
-:
-                
-if
-sock
-:
-                    
-sock
-.
-close
-(
-)
-            
 time
 .
 sleep
 (
-.
 1
 )
         
