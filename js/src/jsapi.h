@@ -19719,6 +19719,9 @@ checkObjectAccess
 JSCSPEvalChecker
 contentSecurityPolicyAllows
 ;
+JSSubsumesOp
+subsumes
+;
 }
 ;
 extern
