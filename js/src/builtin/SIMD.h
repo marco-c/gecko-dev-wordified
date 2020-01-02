@@ -451,7 +451,6 @@ Float32x4
 Equal
 <
 float
-Int32x4
 >
 Int32x4
 >
@@ -471,7 +470,6 @@ Float32x4
 GreaterThan
 <
 float
-Int32x4
 >
 Int32x4
 >
@@ -491,7 +489,6 @@ Float32x4
 GreaterThanOrEqual
 <
 float
-Int32x4
 >
 Int32x4
 >
@@ -511,7 +508,6 @@ Float32x4
 LessThan
 <
 float
-Int32x4
 >
 Int32x4
 >
@@ -531,7 +527,6 @@ Float32x4
 LessThanOrEqual
 <
 float
-Int32x4
 >
 Int32x4
 >
@@ -611,7 +606,6 @@ Float32x4
 NotEqual
 <
 float
-Int32x4
 >
 Int32x4
 >
@@ -1030,7 +1024,6 @@ Int32x4
 Equal
 <
 int32_t
-Int32x4
 >
 Int32x4
 >
@@ -1050,7 +1043,6 @@ Int32x4
 GreaterThan
 <
 int32_t
-Int32x4
 >
 Int32x4
 >
@@ -1070,7 +1062,6 @@ Int32x4
 LessThan
 <
 int32_t
-Int32x4
 >
 Int32x4
 >
