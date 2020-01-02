@@ -2537,7 +2537,9 @@ runtime
 >
 gc
 .
-incrementalState
+state
+(
+)
 =
 =
 MARK

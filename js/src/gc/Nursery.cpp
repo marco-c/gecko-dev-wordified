@@ -2054,7 +2054,9 @@ rt
 >
 gc
 .
-incrementalState
+state
+(
+)
 !
 =
 NO_INCREMENTAL
@@ -2141,7 +2143,9 @@ runtime
 >
 gc
 .
-incrementalState
+state
+(
+)
 !
 =
 NO_INCREMENTAL

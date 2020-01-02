@@ -3522,7 +3522,9 @@ runtime
 >
 gc
 .
-incrementalEnabled
+isIncrementalGCEnabled
+(
+)
 )
 ;
 (
@@ -3631,7 +3633,9 @@ runtime
 >
 gc
 .
-incrementalState
+state
+(
+)
 =
 =
 gc
@@ -3860,7 +3864,9 @@ runtime
 >
 gc
 .
-incrementalState
+state
+(
+)
 =
 =
 gc

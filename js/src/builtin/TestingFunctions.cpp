@@ -3478,7 +3478,9 @@ runtime
 >
 gc
 .
-incrementalState
+state
+(
+)
 ;
 if
 (
