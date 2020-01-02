@@ -9305,6 +9305,14 @@ MIRGraph
 temp
 )
 ;
+if
+(
+!
+graph
+)
+return
+AbortReason_Alloc
+;
 CompileInfo
 *
 info
