@@ -3264,6 +3264,9 @@ arrowpanel
 )
 ;
 }
+%
+ifndef
+MOZ_WIDGET_GTK
 panel
 [
 type
@@ -3659,6 +3662,8 @@ skew
 )
 ;
 }
+%
+endif
 %
 ifdef
 XP_MACOSX
