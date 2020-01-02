@@ -28043,6 +28043,17 @@ gNavToolbox
 childNodes
 )
 ;
+toolbarNodes
+=
+toolbarNodes
+.
+concat
+(
+gNavToolbox
+.
+externalToolbars
+)
+;
 for
 (
 let
