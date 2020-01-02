@@ -4161,6 +4161,12 @@ nsString
 >
 mScratchStrings
 ;
+ShortLivedStringBuffer
+<
+nsCString
+>
+mScratchCStrings
+;
 void
 AddGCCallback
 (
