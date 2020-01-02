@@ -617,7 +617,7 @@ nullptr
 mContentClient
 -
 >
-ReturnDrawTarget
+ReturnDrawTargetToBuffer
 (
 target
 )

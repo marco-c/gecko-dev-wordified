@@ -2650,17 +2650,6 @@ ContextSource
 aSource
 )
 ;
-void
-ReturnDrawTarget
-(
-gfx
-:
-:
-DrawTarget
-*
-aReturned
-)
-;
 static
 bool
 IsClippingCheap
