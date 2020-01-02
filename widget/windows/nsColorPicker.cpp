@@ -579,7 +579,7 @@ GetNativeData
 NS_NATIVE_TMP_WINDOW
 )
 :
-NULL
+nullptr
 )
 )
 ;

@@ -1341,7 +1341,7 @@ hr
 CoCreateInstance
 (
 CLSID_ShellLink
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_IShellLinkW
 (
@@ -1640,7 +1640,7 @@ hr
 CoCreateInstance
 (
 CLSID_ShellLink
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_IShellLinkW
 (
@@ -2479,7 +2479,7 @@ LPWSTR
 &
 buf
 MAX_PATH
-NULL
+nullptr
 SLGP_UNCPRIORITY
 )
 ;
@@ -3030,7 +3030,7 @@ spec
 get
 (
 )
-NULL
+nullptr
 IID_PPV_ARGS
 (
 &
@@ -3227,7 +3227,7 @@ rv
 LPWSTR
 lpstrName
 =
-NULL
+nullptr
 ;
 if
 (

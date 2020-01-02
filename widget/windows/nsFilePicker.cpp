@@ -483,7 +483,7 @@ bufferLength
 GetCurrentDirectoryW
 (
 0
-NULL
+nullptr
 )
 ;
 mWorkingPath
@@ -508,7 +508,7 @@ mWorkingPath
 {
 mWorkingPath
 =
-NULL
+nullptr
 ;
 }
 }
@@ -544,7 +544,7 @@ return
 mWorkingPath
 !
 =
-NULL
+nullptr
 ;
 }
 private
@@ -953,7 +953,7 @@ mSelectedType
 )
 mDlgWnd
 (
-NULL
+nullptr
 )
 mFDECookie
 (
@@ -962,7 +962,7 @@ mFDECookie
 {
 CoInitialize
 (
-NULL
+nullptr
 )
 ;
 }
@@ -1040,7 +1040,7 @@ GetDocShell
 (
 )
 :
-NULL
+nullptr
 ;
 mLoadContext
 =
@@ -1078,7 +1078,7 @@ ppvResult
 *
 ppvResult
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1102,7 +1102,7 @@ this
 }
 if
 (
-NULL
+nullptr
 !
 =
 *
@@ -1234,7 +1234,7 @@ with
 the
 window
 or
-NULL
+nullptr
 if
 there
 is
@@ -1295,7 +1295,7 @@ parentRect
 SetWindowPos
 (
 hwnd
-NULL
+nullptr
 parentRect
 .
 left
@@ -1534,7 +1534,7 @@ SetTimer
 hwnd
 kDialogTimerID
 kDialogTimerTimeout
-NULL
+nullptr
 )
 ;
 }
@@ -1722,12 +1722,12 @@ GetParent
 (
 hwnd
 )
-NULL
+nullptr
 L
 "
 ComboBoxEx32
 "
-NULL
+nullptr
 )
 ;
 if
@@ -1811,7 +1811,7 @@ SetTimer
 hwnd
 kDialogTimerID
 kDialogTimerTimeout
-NULL
+nullptr
 )
 ;
 }
@@ -1910,7 +1910,7 @@ requiredBufLength
 CommDlg_OpenSave_GetSpecW
 (
 parentHWND
-NULL
+nullptr
 0
 )
 ;
@@ -1991,7 +1991,7 @@ requiredBufLength
 CommDlg_OpenSave_GetFolderPathW
 (
 parentHWND
-NULL
+nullptr
 0
 )
 ;
@@ -2389,7 +2389,7 @@ S_OK
 HWND
 hwnd
 =
-NULL
+nullptr
 ;
 win
 -
@@ -2621,7 +2621,7 @@ dlgWnd
 {
 mDlgWnd
 =
-NULL
+nullptr
 ;
 return
 true
@@ -2815,7 +2815,7 @@ GetNativeData
 NS_NATIVE_TMP_WINDOW
 )
 :
-NULL
+nullptr
 )
 )
 ;
@@ -2963,7 +2963,7 @@ browserInfo
 .
 lpfn
 =
-NULL
+nullptr
 ;
 }
 LPITEMIDLIST
@@ -3110,7 +3110,7 @@ FAILED
 CoCreateInstance
 (
 CLSID_FileOpenDialog
-NULL
+nullptr
 CLSCTX_INPROC
 IID_IFileOpenDialog
 getter_AddRefs
@@ -3211,7 +3211,7 @@ aInitialDir
 get
 (
 )
-NULL
+nullptr
 IID_IShellItem
 getter_AddRefs
 (
@@ -3252,7 +3252,7 @@ GetNativeData
 NS_NATIVE_TMP_WINDOW
 )
 :
-NULL
+nullptr
 )
 )
 ;
@@ -3361,7 +3361,7 @@ shellLib
 CoCreateInstance
 (
 CLSID_ShellLibrary
-NULL
+nullptr
 CLSCTX_INPROC
 IID_IShellLibrary
 getter_AddRefs
@@ -3660,7 +3660,7 @@ GetNativeData
 NS_NATIVE_TMP_WINDOW
 )
 :
-NULL
+nullptr
 )
 )
 ;
@@ -4625,14 +4625,20 @@ file
 name
 strings
 are
-NULL
+'
+\
+0
+'
 /
 /
 separated
 with
 an
 extra
-NULL
+'
+\
+0
+'
 character
 after
 the
@@ -5089,7 +5095,7 @@ FAILED
 CoCreateInstance
 (
 CLSID_FileOpenDialog
-NULL
+nullptr
 CLSCTX_INPROC
 IID_IFileOpenDialog
 getter_AddRefs
@@ -5118,7 +5124,7 @@ FAILED
 CoCreateInstance
 (
 CLSID_FileSaveDialog
-NULL
+nullptr
 CLSCTX_INPROC
 IID_IFileSaveDialog
 getter_AddRefs
@@ -5449,7 +5455,7 @@ aInitialDir
 get
 (
 )
-NULL
+nullptr
 IID_IShellItem
 getter_AddRefs
 (
@@ -5538,7 +5544,7 @@ GetNativeData
 NS_NATIVE_TMP_WINDOW
 )
 :
-NULL
+nullptr
 )
 )
 ;

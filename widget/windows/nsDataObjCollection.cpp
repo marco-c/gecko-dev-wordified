@@ -260,7 +260,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1332,7 +1332,7 @@ if
 buffer
 =
 =
-NULL
+nullptr
 )
 return
 E_FAIL
@@ -1411,7 +1411,7 @@ if
 hGlobalMemory
 =
 =
-NULL
+nullptr
 )
 return
 E_FAIL
@@ -1619,7 +1619,7 @@ pSTM
 >
 pUnkForRelease
 =
-NULL
+nullptr
 ;
 /
 /
@@ -1798,7 +1798,7 @@ if
 buffer
 =
 =
-NULL
+nullptr
 )
 return
 E_FAIL
@@ -1855,7 +1855,7 @@ if
 hGlobalMemory
 =
 =
-NULL
+nullptr
 )
 return
 E_FAIL
@@ -1927,7 +1927,7 @@ pSTM
 >
 pUnkForRelease
 =
-NULL
+nullptr
 ;
 /
 /
@@ -2068,7 +2068,7 @@ if
 buffer
 =
 =
-NULL
+nullptr
 )
 return
 E_FAIL
@@ -2130,7 +2130,7 @@ if
 hGlobalMemory
 =
 =
-NULL
+nullptr
 )
 return
 E_FAIL
@@ -2206,7 +2206,7 @@ pSTM
 >
 pUnkForRelease
 =
-NULL
+nullptr
 ;
 /
 /
@@ -2392,7 +2392,7 @@ if
 buffer
 =
 =
-NULL
+nullptr
 )
 return
 E_FAIL
@@ -2415,7 +2415,7 @@ if
 hGlobalMemory
 =
 =
-NULL
+nullptr
 )
 return
 E_FAIL
@@ -2512,7 +2512,7 @@ pSTM
 >
 pUnkForRelease
 =
-NULL
+nullptr
 ;
 /
 /

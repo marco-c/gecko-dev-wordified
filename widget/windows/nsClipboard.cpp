@@ -2364,7 +2364,7 @@ CreateNativeDataObject
 mTransferable
 &
 dataObj
-NULL
+nullptr
 )
 )
 )
@@ -2402,7 +2402,7 @@ clipboard
 :
 OleSetClipboard
 (
-NULL
+nullptr
 )
 ;
 }
@@ -2579,7 +2579,7 @@ if
 aHGBL
 !
 =
-NULL
+nullptr
 )
 {
 LPSTR
@@ -2725,7 +2725,7 @@ FormatMessageW
 FORMAT_MESSAGE_ALLOCATE_BUFFER
 |
 FORMAT_MESSAGE_FROM_SYSTEM
-NULL
+nullptr
 GetLastError
 (
 )
@@ -2744,7 +2744,7 @@ LPWSTR
 &
 lpMsgBuf
 0
-NULL
+nullptr
 )
 ;
 /
@@ -2755,7 +2755,7 @@ string
 .
 MessageBoxW
 (
-NULL
+nullptr
 (
 LPCWSTR
 )
@@ -4197,7 +4197,7 @@ DragQueryFileW
 (
 dropFiles
 0xFFFFFFFF
-NULL
+nullptr
 0
 )
 ;
@@ -7756,7 +7756,7 @@ mEmptyingForSetData
 {
 OleSetClipboard
 (
-NULL
+nullptr
 )
 ;
 }

@@ -614,7 +614,7 @@ AudioSession
 :
 sService
 =
-NULL
+nullptr
 ;
 AudioSession
 :
@@ -919,7 +919,7 @@ thread
 .
 CoInitialize
 (
-NULL
+nullptr
 )
 ;
 if
@@ -1093,7 +1093,7 @@ binary
 :
 GetModuleFileNameW
 (
-NULL
+nullptr
 buffer
 MAX_PATH
 )
@@ -1178,7 +1178,7 @@ hr
 CoCreateInstance
 (
 CLSID_MMDeviceEnumerator
-NULL
+nullptr
 CLSCTX_ALL
 IID_IMMDeviceEnumerator
 getter_AddRefs
@@ -1261,7 +1261,7 @@ Activate
 (
 IID_IAudioSessionManager
 CLSCTX_ALL
-NULL
+nullptr
 getter_AddRefs
 (
 manager
@@ -1285,7 +1285,7 @@ manager
 >
 GetAudioSessionControl
 (
-NULL
+nullptr
 FALSE
 getter_AddRefs
 (
@@ -1315,7 +1315,7 @@ LPCGUID
 )
 &
 mSessionGroupingParameter
-NULL
+nullptr
 )
 ;
 if
@@ -1346,7 +1346,7 @@ mDisplayName
 get
 (
 )
-NULL
+nullptr
 )
 ;
 if
@@ -1377,7 +1377,7 @@ mIconPath
 get
 (
 )
-NULL
+nullptr
 )
 ;
 if
@@ -1474,7 +1474,7 @@ LPCGUID
 )
 &
 blankId
-NULL
+nullptr
 )
 ;
 mAudioSessionControl

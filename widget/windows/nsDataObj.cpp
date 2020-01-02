@@ -778,7 +778,7 @@ ppvResult
 *
 ppvResult
 =
-NULL
+nullptr
 ;
 if
 (
@@ -802,7 +802,7 @@ this
 }
 if
 (
-NULL
+nullptr
 !
 =
 *
@@ -898,7 +898,7 @@ if
 buffer
 =
 =
-NULL
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2006,7 +2006,7 @@ if
 nNewPos
 =
 =
-NULL
+nullptr
 )
 return
 STG_E_INVALIDPOINTER
@@ -2261,7 +2261,7 @@ if
 statstg
 =
 =
-NULL
+nullptr
 )
 return
 STG_E_INVALIDPOINTER
@@ -3576,7 +3576,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3945,7 +3945,7 @@ false
 ;
 mCachedTempFile
 =
-NULL
+nullptr
 ;
 }
 delete
@@ -4412,7 +4412,7 @@ pSTM
 >
 pUnkForRelease
 =
-NULL
+nullptr
 ;
 /
 /
@@ -5412,7 +5412,7 @@ aAddorUpdate
 *
 aDataEntry
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5422,7 +5422,7 @@ aFormat
 ptd
 !
 =
-NULL
+nullptr
 )
 return
 false
@@ -5995,7 +5995,7 @@ default
 *
 ppEnum
 =
-NULL
+nullptr
 ;
 }
 /
@@ -6003,7 +6003,7 @@ NULL
 switch
 if
 (
-NULL
+nullptr
 =
 =
 *
@@ -7672,7 +7672,7 @@ aFilename
 maxUsableFilenameLen
 &
 defaultChar
-NULL
+nullptr
 )
 ;
 }
@@ -9381,12 +9381,12 @@ aSTG
 .
 pUnkForRelease
 =
-NULL
+nullptr
 ;
 HGLOBAL
 hGlobalMemory
 =
-NULL
+nullptr
 ;
 hGlobalMemory
 =
@@ -9627,7 +9627,7 @@ void
 *
 data
 =
-NULL
+nullptr
 ;
 uint32_t
 len
@@ -9756,7 +9756,7 @@ E_FAIL
 HGLOBAL
 hGlobalMemory
 =
-NULL
+nullptr
 ;
 aSTG
 .
@@ -9768,7 +9768,7 @@ aSTG
 .
 pUnkForRelease
 =
-NULL
+nullptr
 ;
 /
 /
@@ -10636,7 +10636,7 @@ aSTG
 .
 pUnkForRelease
 =
-NULL
+nullptr
 ;
 nsAutoString
 path
@@ -10675,7 +10675,7 @@ Length
 HGLOBAL
 hGlobalMemory
 =
-NULL
+nullptr
 ;
 PRUnichar
 *
@@ -11591,7 +11591,7 @@ list
 HGLOBAL
 hGlobalMemory
 =
-NULL
+nullptr
 ;
 uint32_t
 allocLen
@@ -11614,7 +11614,7 @@ aSTG
 .
 pUnkForRelease
 =
-NULL
+nullptr
 ;
 hGlobalMemory
 =
@@ -12075,7 +12075,7 @@ IStream
 *
 pStream
 =
-NULL
+nullptr
 ;
 nsDataObj
 :
@@ -12258,7 +12258,7 @@ list
 HGLOBAL
 hGlobalMemory
 =
-NULL
+nullptr
 ;
 aSTG
 .
@@ -12270,7 +12270,7 @@ aSTG
 .
 pUnkForRelease
 =
-NULL
+nullptr
 ;
 hGlobalMemory
 =
@@ -15638,7 +15638,7 @@ IStream
 *
 pStream
 =
-NULL
+nullptr
 ;
 nsDataObj
 :
@@ -15671,7 +15671,7 @@ aSTG
 .
 pUnkForRelease
 =
-NULL
+nullptr
 ;
 return
 S_OK
@@ -15728,7 +15728,7 @@ timedDataObj
 >
 mCachedTempFile
 =
-NULL
+nullptr
 ;
 }
 timedDataObj
