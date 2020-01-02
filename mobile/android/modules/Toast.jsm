@@ -314,6 +314,16 @@ var
 Toast
 =
 {
+LONG
+:
+"
+long
+"
+SHORT
+:
+"
+short
+"
 show
 :
 function
