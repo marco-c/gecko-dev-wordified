@@ -2770,6 +2770,9 @@ api_endpoint
 "
 uid
 "
+"
+duration
+"
 ]
 )
 {
@@ -2873,6 +2876,11 @@ uid
 result
 .
 uid
+duration
+:
+result
+.
+duration
 }
 )
 ;
