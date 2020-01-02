@@ -478,6 +478,16 @@ sendViewportUpdate
 }
 else
 {
+/
+/
+Disabled
+until
+bug
+1014113
+is
+fixed
+/
+/
 ZoomHelper
 .
 zoomToRect
