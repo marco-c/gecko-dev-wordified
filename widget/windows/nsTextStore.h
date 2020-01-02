@@ -861,11 +861,10 @@ aGotFocus
 nsWindowBase
 *
 aFocusedWidget
+const
 IMEState
-:
-:
-Enabled
-aIMEEnabled
+&
+aIMEState
 )
 ;
 static

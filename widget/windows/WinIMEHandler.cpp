@@ -1074,8 +1074,6 @@ GetInputContext
 )
 .
 mIMEState
-.
-mEnabled
 )
 ;
 case
@@ -1097,8 +1095,6 @@ GetInputContext
 )
 .
 mIMEState
-.
-mEnabled
 )
 ;
 case
@@ -1282,8 +1278,6 @@ GetInputContext
 )
 .
 mIMEState
-.
-mEnabled
 )
 ;
 }
