@@ -4041,7 +4041,7 @@ class
 AutoLockForExclusiveAccess
 ;
 class
-AutoPauseWorkersForGC
+AutoPauseWorkersForTracing
 ;
 class
 ThreadDataIter
@@ -4631,7 +4631,7 @@ class
 js
 :
 :
-AutoPauseWorkersForGC
+AutoPauseWorkersForTracing
 ;
 friend
 class
