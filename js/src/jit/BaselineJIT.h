@@ -1756,9 +1756,6 @@ cx
 )
 {
 return
-false
-&
-&
 cx
 -
 >
