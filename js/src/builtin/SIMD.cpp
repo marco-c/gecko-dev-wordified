@@ -5025,10 +5025,10 @@ lanes
 1
 ;
 const
-uint32_t
+int32_t
 MAX_MASK_VALUE
 =
-uint32_t
+int32_t
 (
 pow
 (
@@ -5050,6 +5050,13 @@ lanes
 )
 -
 1
+;
+JS_ASSERT
+(
+MAX_MASK_VALUE
+>
+0
+)
 ;
 Elem
 result
