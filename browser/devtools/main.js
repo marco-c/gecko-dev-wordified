@@ -2210,7 +2210,7 @@ label
 l10n
 (
 "
-ToolboxWebAudioEditor
+ToolboxWebAudioEditor1
 .
 label
 "
@@ -2221,7 +2221,7 @@ tooltip
 l10n
 (
 "
-ToolboxWebAudioEditor
+ToolboxWebAudioEditor1
 .
 tooltip
 "
