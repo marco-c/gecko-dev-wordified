@@ -997,9 +997,8 @@ rv
 ;
 aArray
 .
-setObject
+setObjectOrNull
 (
-*
 array
 )
 ;
@@ -1064,9 +1063,8 @@ rv
 ;
 aArray
 .
-setObject
+setObjectOrNull
 (
-*
 array
 )
 ;
@@ -1946,9 +1944,8 @@ rv
 ;
 aZoomRatios
 .
-setObject
+setObjectOrNull
 (
-*
 array
 )
 ;
