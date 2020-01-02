@@ -3411,6 +3411,15 @@ ownerDocument
 URL
 ;
 }
+let
+pluginProcessType
+=
+Services
+.
+crashmanager
+.
+PROCESS_TYPE_PLUGIN
+;
 this
 .
 CrashSubmit
@@ -3419,6 +3428,9 @@ submit
 (
 pluginDumpID
 {
+processType
+:
+pluginProcessType
 extraExtraKeyVals
 :
 keyVals
