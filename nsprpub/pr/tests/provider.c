@@ -4535,7 +4535,7 @@ new
 thread
 *
 /
-STACK_SIZE_PARAM_IS_A_RESERVATION
+0U
 /
 *
 DWORD
