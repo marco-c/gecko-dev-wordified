@@ -202,6 +202,9 @@ jsm
 "
 )
 ;
+#
+ifdef
+MOZ_SERVICES_HEALTHREPORT
 Components
 .
 utils
@@ -223,6 +226,8 @@ jsm
 "
 )
 ;
+#
+endif
 const
 Cc
 =
