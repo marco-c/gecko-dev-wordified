@@ -488,8 +488,11 @@ Error
 (
 )
 ;
-delete
+MOZ_ASSERT
+(
+!
 aSample
+)
 ;
 }
 else
