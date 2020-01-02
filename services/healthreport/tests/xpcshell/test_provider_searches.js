@@ -385,6 +385,17 @@ recordSearch
 (
 engine
 "
+newtab
+"
+)
+;
+yield
+provider
+.
+recordSearch
+(
+engine
+"
 searchbar
 "
 )

@@ -6893,6 +6893,9 @@ abouthome
 contextmenu
 "
 "
+newtab
+"
+"
 searchbar
 "
 "
