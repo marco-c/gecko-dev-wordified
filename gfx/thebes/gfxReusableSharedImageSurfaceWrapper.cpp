@@ -311,6 +311,10 @@ gfxSharedImageSurface
 CreateUnsafe
 (
 mAllocator
+.
+get
+(
+)
 mSurface
 -
 >
