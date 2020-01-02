@@ -1019,14 +1019,6 @@ MaybeMagicGrallocBufferHandle
 aHandle
 )
 ;
-void
-DropGrallocBuffer
-(
-MaybeMagicGrallocBufferHandle
-*
-aHandle
-)
-;
 virtual
 bool
 IPCOpen

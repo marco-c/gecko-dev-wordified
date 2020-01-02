@@ -1430,7 +1430,6 @@ is
 being
 shutdown
 .
-virtual
 void
 Detach
 (
