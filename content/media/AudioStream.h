@@ -1637,6 +1637,11 @@ bool
 aMicrophoneActive
 )
 ;
+void
+ResetStreamIfNeeded
+(
+)
+;
 /
 /
 Block
