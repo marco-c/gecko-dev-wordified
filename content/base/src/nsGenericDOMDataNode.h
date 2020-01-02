@@ -955,6 +955,13 @@ TextIsOnlyWhitespace
 MOZ_OVERRIDE
 ;
 virtual
+bool
+HasTextForTranslation
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 void
 AppendTextTo
 (
