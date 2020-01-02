@@ -1948,8 +1948,6 @@ newlines
 nsAutoString
 lowercaseFormat
 ;
-aRv
-=
 nsContentUtils
 :
 :
@@ -1959,18 +1957,6 @@ aFormat
 lowercaseFormat
 )
 ;
-if
-(
-aRv
-.
-Failed
-(
-)
-)
-{
-return
-;
-}
 if
 (
 lowercaseFormat

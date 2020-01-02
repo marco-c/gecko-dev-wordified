@@ -9889,7 +9889,7 @@ fails
 *
 /
 static
-nsresult
+void
 ASCIIToLower
 (
 nsAString
@@ -9898,7 +9898,7 @@ aStr
 )
 ;
 static
-nsresult
+void
 ASCIIToLower
 (
 const
@@ -9949,7 +9949,7 @@ fails
 *
 /
 static
-nsresult
+void
 ASCIIToUpper
 (
 nsAString
@@ -9958,7 +9958,7 @@ aStr
 )
 ;
 static
-nsresult
+void
 ASCIIToUpper
 (
 const
