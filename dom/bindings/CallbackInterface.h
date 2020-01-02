@@ -210,8 +210,14 @@ public
 explicit
 CallbackInterface
 (
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aCallback
 nsIGlobalObject
 *
