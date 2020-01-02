@@ -10832,6 +10832,15 @@ Compare_UInt32
 case
 Compare_Int32
 :
+case
+Compare_Int32MaybeCoerceBoth
+:
+case
+Compare_Int32MaybeCoerceLHS
+:
+case
+Compare_Int32MaybeCoerceRHS
+:
 return
 MIRType_Int32
 ;
@@ -11385,7 +11394,7 @@ MIRType_Boolean
 {
 compareType_
 =
-Compare_Int32
+Compare_Int32MaybeCoerceBoth
 ;
 return
 ;
@@ -11443,7 +11452,7 @@ MIRType_Boolean
 {
 compareType_
 =
-Compare_Int32
+Compare_Int32MaybeCoerceBoth
 ;
 return
 ;
