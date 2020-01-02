@@ -1415,13 +1415,11 @@ const
 /
 Deprecated
 }
-already_AddRefed
-<
 mozilla
 :
 :
 Selection
->
+*
 GetSelection
 (
 mozilla
@@ -1429,7 +1427,7 @@ mozilla
 :
 ErrorResult
 &
-rv
+aRv
 )
 ;
 /
