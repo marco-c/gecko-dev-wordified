@@ -1262,13 +1262,10 @@ function
 .
 *
 /
-/
-*
 #
-undef
+define
 _EVENT_HAVE_SENDFILE
-*
-/
+1
 /
 *
 Define
