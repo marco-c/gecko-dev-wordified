@@ -11270,7 +11270,7 @@ nsCSSFrameConstructor
 FrameConstructionItem
 :
 :
-NeedsAnonFlexItem
+NeedsAnonFlexOrGridItem
 (
 )
 return
