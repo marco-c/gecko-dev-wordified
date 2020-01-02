@@ -1843,12 +1843,6 @@ if
 js_GetClassObject
 (
 cx
-cx
--
->
-global
-(
-)
 JSProto_Function
 &
 obj
@@ -1859,12 +1853,6 @@ obj
 js_GetClassObject
 (
 cx
-cx
--
->
-global
-(
-)
 JSProto_Array
 &
 obj
@@ -1875,12 +1863,6 @@ obj
 js_GetClassObject
 (
 cx
-cx
--
->
-global
-(
-)
 JSProto_RegExp
 &
 obj
@@ -1891,12 +1873,6 @@ obj
 js_GetClassObject
 (
 cx
-cx
--
->
-global
-(
-)
 JSProto_Iterator
 &
 obj
@@ -1921,7 +1897,6 @@ if
 js_GetClassObject
 (
 cx
-global
 JSProto_Function
 &
 obj
@@ -1932,7 +1907,6 @@ obj
 js_GetClassObject
 (
 cx
-global
 JSProto_Array
 &
 obj
@@ -1943,7 +1917,6 @@ obj
 js_GetClassObject
 (
 cx
-global
 JSProto_RegExp
 &
 obj
@@ -1954,7 +1927,6 @@ obj
 js_GetClassObject
 (
 cx
-global
 JSProto_Iterator
 &
 obj

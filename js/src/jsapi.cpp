@@ -7708,8 +7708,6 @@ JS_GetClassObject
 JSContext
 *
 cx
-HandleObject
-obj
 JSProtoKey
 key
 MutableHandleObject
@@ -7726,17 +7724,10 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
-(
-cx
-obj
-)
-;
 return
 js_GetClassObject
 (
 cx
-obj
 key
 objp
 )
