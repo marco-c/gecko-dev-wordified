@@ -7025,6 +7025,17 @@ aManager
 =
 0
 ;
+virtual
+void
+PostRender
+(
+LayerManager
+*
+aManager
+)
+=
+0
+;
 /
 *
 *
