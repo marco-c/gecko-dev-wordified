@@ -1575,6 +1575,19 @@ isWindowPrivate
 win
 )
 ;
+let
+sidebarEnabled
+=
+win
+.
+SocialSidebar
+.
+provider
+?
+enabled
+:
+false
+;
 /
 /
 if
@@ -1745,7 +1758,7 @@ win
 SocialSidebar
 .
 canShow
-enabled
+sidebarEnabled
 "
 social
 sidebar
@@ -2115,7 +2128,7 @@ ToggleSidebar
 )
 .
 hidden
-enabled
+sidebarEnabled
 "
 Social
 :
