@@ -4864,7 +4864,7 @@ y
 )
 ;
 }
-nsresult
+void
 nsObjectFrame
 :
 :
@@ -4951,9 +4951,6 @@ this
 )
 ;
 }
-nsresult
-rv
-=
 nsObjectFrameSuper
 :
 :
@@ -5000,7 +4997,6 @@ nsDidReflowStatus
 FINISHED
 )
 return
-rv
 ;
 if
 (
@@ -5048,9 +5044,6 @@ nsViewVisibility_kShow
 )
 ;
 }
-return
-rv
-;
 }
 /
 *
