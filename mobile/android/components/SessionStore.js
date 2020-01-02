@@ -6243,10 +6243,10 @@ closedTabs
 length
 ;
 }
-getClosedTabData
+getClosedTabs
 :
 function
-ss_getClosedTabData
+ss_getClosedTabs
 (
 aWindow
 )
@@ -6270,10 +6270,6 @@ NS_ERROR_INVALID_ARG
 )
 ;
 return
-JSON
-.
-stringify
-(
 this
 .
 _windows
@@ -6284,7 +6280,6 @@ __SSID
 ]
 .
 closedTabs
-)
 ;
 }
 undoCloseTab
