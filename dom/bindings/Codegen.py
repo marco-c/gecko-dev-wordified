@@ -95567,9 +95567,9 @@ visibility
 public
 "
                  
-jsObjectsArePtr
+typedArraysAreStructs
 =
-False
+True
 variadicIsSequence
 =
 False
@@ -95581,22 +95581,44 @@ False
 "
         
 If
-jsObjectsArePtr
+typedArraysAreStructs
 is
-true
+false
 typed
 arrays
-and
-"
-object
-"
 will
 be
-        
 passed
 as
+        
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
+.
+If
+it
+'
+s
+true
+they
+will
+be
+passed
+as
+one
+of
+the
+        
+dom
+:
+:
+TypedArray
+subclasses
 .
         
 If
@@ -95681,9 +95703,9 @@ passJSBitsAsNeeded
         
 self
 .
-jsObjectsArePtr
+typedArraysAreStructs
 =
-jsObjectsArePtr
+typedArraysAreStructs
         
 self
 .
@@ -98354,15 +98376,22 @@ isSpiderMonkeyInterface
 :
             
 if
+not
 self
 .
-jsObjectsArePtr
+typedArraysAreStructs
 :
                 
 return
 "
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 "
 False
 False
@@ -101797,10 +101826,6 @@ visibility
 "
 public
 "
-jsObjectsArePtr
-=
-False
-                 
 variadicIsSequence
 =
 False
@@ -101829,10 +101854,6 @@ passJSBitsAsNeeded
 visibility
 =
 visibility
-                                
-jsObjectsArePtr
-=
-jsObjectsArePtr
                                 
 variadicIsSequence
 =
@@ -106381,9 +106402,9 @@ visibility
 =
 visibility
                                 
-jsObjectsArePtr
+typedArraysAreStructs
 =
-True
+False
 )
         
 #
