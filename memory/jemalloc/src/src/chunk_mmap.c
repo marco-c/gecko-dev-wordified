@@ -411,6 +411,9 @@ BUFERROR_BUF
 ;
 buferror
 (
+get_errno
+(
+)
 buf
 sizeof
 (
@@ -547,6 +550,9 @@ BUFERROR_BUF
 ;
 buferror
 (
+get_errno
+(
+)
 buf
 sizeof
 (

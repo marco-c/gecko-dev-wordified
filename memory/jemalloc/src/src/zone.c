@@ -948,9 +948,8 @@ called
 .
 *
 /
-assert
+not_reached
 (
-false
 )
 ;
 return
