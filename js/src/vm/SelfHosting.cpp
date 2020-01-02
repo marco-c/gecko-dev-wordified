@@ -6205,6 +6205,9 @@ clone
 .
 if
 (
+clone
+&
+&
 hasName
 )
 clone
