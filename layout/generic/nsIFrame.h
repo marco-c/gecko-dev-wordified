@@ -7413,6 +7413,15 @@ void
 aPropertyValue
 )
 ;
+static
+void
+DestroyDT
+(
+void
+*
+aPropertyValue
+)
+;
 #
 ifdef
 _MSC_VER
@@ -7642,6 +7651,11 @@ NS_DECLARE_FRAME_PROPERTY
 (
 CachedBackgroundImage
 DestroySurface
+)
+NS_DECLARE_FRAME_PROPERTY
+(
+CachedBackgroundImageDT
+DestroyDT
 )
 NS_DECLARE_FRAME_PROPERTY
 (
