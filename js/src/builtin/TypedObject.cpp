@@ -13504,13 +13504,13 @@ call
 nullptr
 /
 *
-construct
+hasInstance
 *
 /
 nullptr
 /
 *
-hasInstance
+construct
 *
 /
 TypedObject
