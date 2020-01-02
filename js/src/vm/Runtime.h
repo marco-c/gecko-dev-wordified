@@ -5810,6 +5810,17 @@ destroyCompartmentCallback
 ;
 /
 *
+Zone
+destroy
+callback
+.
+*
+/
+JSZoneCallback
+destroyZoneCallback
+;
+/
+*
 Call
 this
 to
