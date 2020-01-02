@@ -154,12 +154,15 @@ on
 this
 channel
 .
-bool
+nsresult
 ShouldEnableTrackingProtection
 (
 nsIChannel
 *
 aChannel
+bool
+*
+result
 )
 ;
 }
