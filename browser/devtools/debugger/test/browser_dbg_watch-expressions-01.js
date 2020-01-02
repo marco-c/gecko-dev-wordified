@@ -541,6 +541,8 @@ getItemAtIndex
 .
 attachment
 .
+view
+.
 closeNode
 gDebugger
 )
@@ -657,6 +659,8 @@ getItemAtIndex
 .
 attachment
 .
+view
+.
 closeNode
 gDebugger
 )
@@ -738,6 +742,8 @@ getItemAtIndex
 )
 .
 attachment
+.
+view
 .
 closeNode
 gDebugger
@@ -1343,6 +1349,8 @@ element
 .
 attachment
 .
+view
+.
 arrowNode
 .
 hidden
@@ -1369,6 +1377,8 @@ element
 .
 attachment
 .
+view
+.
 closeNode
 .
 hidden
@@ -1394,6 +1404,8 @@ element
 )
 .
 attachment
+.
+view
 .
 inputNode
 .

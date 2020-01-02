@@ -649,7 +649,9 @@ getItemAtIndex
 0
 )
 .
-description
+attachment
+.
+url
 .
 indexOf
 (
@@ -683,7 +685,9 @@ getItemAtIndex
 0
 )
 .
-description
+attachment
+.
+url
 .
 indexOf
 (
@@ -993,7 +997,9 @@ getItemAtIndex
 0
 )
 .
-description
+attachment
+.
+url
 .
 indexOf
 (
@@ -1026,7 +1032,9 @@ getItemAtIndex
 0
 )
 .
-description
+attachment
+.
+url
 .
 indexOf
 (
