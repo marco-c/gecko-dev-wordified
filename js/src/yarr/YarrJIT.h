@@ -557,7 +557,7 @@ const
 return
 m_ref8
 .
-size
+allocSize
 (
 )
 ;
@@ -583,7 +583,7 @@ const
 return
 m_matchOnly8
 .
-size
+allocSize
 (
 )
 ;
@@ -611,7 +611,7 @@ const
 return
 m_ref16
 .
-size
+allocSize
 (
 )
 ;
@@ -637,7 +637,7 @@ const
 return
 m_matchOnly16
 .
-size
+allocSize
 (
 )
 ;
