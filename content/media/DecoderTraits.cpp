@@ -317,7 +317,7 @@ if
 ANDROID_VERSION
 >
 =
-16
+18
 #
 include
 "
@@ -2710,7 +2710,7 @@ if
 ANDROID_VERSION
 >
 =
-16
+18
 decoder
 =
 MediaDecoder
@@ -3216,7 +3216,7 @@ if
 ANDROID_VERSION
 >
 =
-16
+18
 decoderReader
 =
 MediaDecoder
