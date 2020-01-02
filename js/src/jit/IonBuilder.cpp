@@ -4500,7 +4500,7 @@ current
 >
 add
 (
-MFunctionBoundary
+MProfilerStackOp
 :
 :
 New
@@ -4511,7 +4511,7 @@ alloc
 script
 (
 )
-MFunctionBoundary
+MProfilerStackOp
 :
 :
 Enter
@@ -5501,7 +5501,7 @@ contiguously
 have
 only
 one
-Inline_Exit
+InlineExit
 node
 .
 if
@@ -5516,7 +5516,7 @@ predecessor
 >
 add
 (
-MFunctionBoundary
+MProfilerStackOp
 :
 :
 New
@@ -5527,10 +5527,10 @@ alloc
 script
 (
 )
-MFunctionBoundary
+MProfilerStackOp
 :
 :
-Inline_Enter
+InlineEnter
 inliningDepth_
 )
 )
@@ -24169,7 +24169,7 @@ current
 >
 add
 (
-MFunctionBoundary
+MProfilerStackOp
 :
 :
 New
@@ -24180,7 +24180,7 @@ alloc
 script
 (
 )
-MFunctionBoundary
+MProfilerStackOp
 :
 :
 Exit
@@ -26194,7 +26194,7 @@ callerResumePoint_
 When
 profiling
 add
-Inline_Exit
+InlineExit
 instruction
 to
 indicate
@@ -26214,7 +26214,7 @@ returnBlock
 >
 add
 (
-MFunctionBoundary
+MProfilerStackOp
 :
 :
 New
@@ -26223,10 +26223,10 @@ alloc
 (
 )
 nullptr
-MFunctionBoundary
+MProfilerStackOp
 :
 :
-Inline_Exit
+InlineExit
 )
 )
 ;

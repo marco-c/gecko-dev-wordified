@@ -24122,14 +24122,14 @@ bool
 LIRGenerator
 :
 :
-visitFunctionBoundary
+visitProfilerStackOp
 (
-MFunctionBoundary
+MProfilerStackOp
 *
 ins
 )
 {
-LFunctionBoundary
+LProfilerStackOp
 *
 lir
 =
@@ -24139,7 +24139,7 @@ alloc
 (
 )
 )
-LFunctionBoundary
+LProfilerStackOp
 (
 temp
 (

@@ -1443,7 +1443,7 @@ InterruptCheckImplicit
 \
 _
 (
-FunctionBoundary
+ProfilerStackOp
 )
 \
 _

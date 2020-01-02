@@ -42180,7 +42180,7 @@ inline
 ones
 )
 class
-MFunctionBoundary
+MProfilerStackOp
 :
 public
 MNullaryInstruction
@@ -42215,7 +42215,7 @@ inlined
 or
 normal
 )
-Inline_Enter
+InlineEnter
 /
 /
 an
@@ -42224,7 +42224,7 @@ function
 has
 begun
 executing
-Inline_Exit
+InlineExit
 /
 /
 all
@@ -42265,7 +42265,7 @@ type_
 unsigned
 inlineLevel_
 ;
-MFunctionBoundary
+MProfilerStackOp
 (
 JSScript
 *
@@ -42294,7 +42294,7 @@ JS_ASSERT_IF
 type
 !
 =
-Inline_Exit
+InlineExit
 script
 !
 =
@@ -42306,7 +42306,7 @@ JS_ASSERT_IF
 type
 =
 =
-Inline_Enter
+InlineEnter
 inlineLevel
 !
 =
@@ -42322,10 +42322,10 @@ public
 :
 INSTRUCTION_HEADER
 (
-FunctionBoundary
+ProfilerStackOp
 )
 static
-MFunctionBoundary
+MProfilerStackOp
 *
 New
 (
@@ -42348,7 +42348,7 @@ new
 (
 alloc
 )
-MFunctionBoundary
+MProfilerStackOp
 (
 script
 type

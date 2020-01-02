@@ -25227,7 +25227,7 @@ BOX_PIECES
 }
 ;
 class
-LFunctionBoundary
+LProfilerStackOp
 :
 public
 LInstructionHelper
@@ -25241,9 +25241,9 @@ public
 :
 LIR_HEADER
 (
-FunctionBoundary
+ProfilerStackOp
 )
-LFunctionBoundary
+LProfilerStackOp
 (
 const
 LDefinition
@@ -25282,7 +25282,7 @@ return
 mir_
 -
 >
-toFunctionBoundary
+toProfilerStackOp
 (
 )
 -
@@ -25292,7 +25292,7 @@ script
 )
 ;
 }
-MFunctionBoundary
+MProfilerStackOp
 :
 :
 Type
@@ -25304,7 +25304,7 @@ return
 mir_
 -
 >
-toFunctionBoundary
+toProfilerStackOp
 (
 )
 -
@@ -25323,7 +25323,7 @@ return
 mir_
 -
 >
-toFunctionBoundary
+toProfilerStackOp
 (
 )
 -

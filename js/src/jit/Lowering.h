@@ -1835,9 +1835,9 @@ ins
 )
 ;
 bool
-visitFunctionBoundary
+visitProfilerStackOp
 (
-MFunctionBoundary
+MProfilerStackOp
 *
 ins
 )
