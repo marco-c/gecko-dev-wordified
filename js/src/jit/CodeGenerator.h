@@ -1028,6 +1028,14 @@ lir
 )
 ;
 bool
+visitNewSingletonCallObject
+(
+LNewSingletonCallObject
+*
+lir
+)
+;
+bool
 visitNewCallObjectPar
 (
 LNewCallObjectPar
