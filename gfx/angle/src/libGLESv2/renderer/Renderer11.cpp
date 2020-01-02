@@ -121,7 +121,7 @@ include
 "
 libGLESv2
 /
-RenderBuffer
+Renderbuffer
 .
 h
 "
