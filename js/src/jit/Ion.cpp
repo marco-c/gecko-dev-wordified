@@ -10426,7 +10426,7 @@ protect
 ;
 if
 (
-js_IonOptions
+js_JitOptions
 .
 checkThreadSafety
 &
@@ -10942,7 +10942,7 @@ script
 if
 (
 !
-js_IonOptions
+js_JitOptions
 .
 limitScriptSize
 )
@@ -11458,7 +11458,7 @@ osrFrame
 &
 &
 !
-osrPC
+osrPc
 )
 ;
 JS_ASSERT_IF
@@ -11730,7 +11730,7 @@ if
 count
 <
 =
-js_IonOptions
+js_JitOptions
 .
 osrPcMismatchesBeforeRecompile
 )
@@ -12075,7 +12075,7 @@ request
 if
 (
 !
-js_IonOptions
+js_JitOptions
 .
 osr
 )
@@ -12666,7 +12666,7 @@ script
 ;
 if
 (
-js_IonOptions
+js_JitOptions
 .
 eagerCompilation
 &
@@ -17538,7 +17538,7 @@ pc
 JSOP_LOOPENTRY
 |
 |
-js_IonOptions
+js_JitOptions
 .
 eagerCompilation
 )

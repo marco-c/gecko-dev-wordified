@@ -1473,7 +1473,7 @@ numBailouts
 )
 >
 =
-js_IonOptions
+js_JitOptions
 .
 frequentBailoutThreshold
 &

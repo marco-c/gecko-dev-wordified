@@ -3505,7 +3505,7 @@ MIRType_Value
 &
 &
 !
-js_IonOptions
+js_JitOptions
 .
 eagerCompilation
 )

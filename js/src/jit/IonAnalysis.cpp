@@ -10557,7 +10557,7 @@ DEBUG
 if
 (
 !
-js_IonOptions
+js_JitOptions
 .
 checkGraphConsistency
 )
@@ -10623,7 +10623,7 @@ DEBUG
 if
 (
 !
-js_IonOptions
+js_JitOptions
 .
 checkGraphConsistency
 )
