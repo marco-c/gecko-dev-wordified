@@ -101,11 +101,6 @@ h
 /
 #
 include
-<
-string
->
-#
-include
 "
 webrtc
 /
@@ -1171,10 +1166,8 @@ _id
 /
 Module
 ID
-std
-:
-:
-string
+char
+*
 _deviceUniqueId
 ;
 /
