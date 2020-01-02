@@ -15675,7 +15675,9 @@ GetRuntimeInstance
 )
 -
 >
-DeleteShortLivedString
+mScratchStrings
+.
+Destroy
 (
 (
 nsString
@@ -15917,7 +15919,9 @@ GetRuntimeInstance
 )
 -
 >
-NewShortLivedString
+mScratchStrings
+.
+Create
 (
 )
 ;
