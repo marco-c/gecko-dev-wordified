@@ -258,13 +258,6 @@ DEFAULT_AUDIO_TIMER_MS
 =
 10
 ;
-static
-const
-bool
-DEFAULT_LOAD_ADAPT
-=
-false
-;
 /
 *
 Populate
@@ -799,9 +792,6 @@ mFPS
 ;
 int32_t
 mMinFPS
-;
-bool
-mLoadAdapt
 ;
 }
 ;
