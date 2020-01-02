@@ -473,7 +473,7 @@ eSVGZoomEventClass
 /
 /
 InternalSVGZoomEvent
-NS_SMIL_TIME_EVENT
+eSMILTimeEventClass
 /
 /
 InternalSMILTimeEvent

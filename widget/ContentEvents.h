@@ -2873,7 +2873,7 @@ InternalUIEvent
 (
 aIsTrusted
 aMessage
-NS_SMIL_TIME_EVENT
+eSMILTimeEventClass
 )
 {
 mFlags
@@ -2903,7 +2903,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_SMIL_TIME_EVENT
+eSMILTimeEventClass
 "
 Duplicate
 (
