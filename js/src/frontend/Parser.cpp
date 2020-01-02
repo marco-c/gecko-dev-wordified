@@ -18998,6 +18998,7 @@ setMightAliasLocals
 (
 )
 ;
+}
 /
 *
 *
@@ -19070,14 +19071,16 @@ names
 .
 arguments
 )
-funbox
+pc
+-
+>
+sc
 -
 >
 setHasDebuggerStatement
 (
 )
 ;
-}
 return
 true
 ;
