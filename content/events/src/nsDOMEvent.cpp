@@ -3094,13 +3094,11 @@ WidgetWheelEvent
 *
 oldWheelEvent
 =
-static_cast
-<
-WidgetWheelEvent
-*
->
-(
 mEvent
+-
+>
+AsWheelEvent
+(
 )
 ;
 WidgetWheelEvent

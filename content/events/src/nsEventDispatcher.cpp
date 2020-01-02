@@ -4199,13 +4199,11 @@ NS_NewDOMWheelEvent
 aDOMEvent
 aOwner
 aPresContext
-static_cast
-<
-WidgetWheelEvent
-*
->
-(
 aEvent
+-
+>
+AsWheelEvent
+(
 )
 )
 ;
