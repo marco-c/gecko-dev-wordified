@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsISecurityCheckedComponent
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -256,8 +249,6 @@ nsXULControllers
 :
 public
 nsIControllers
-public
-nsISecurityCheckedComponent
 {
 public
 :
@@ -283,7 +274,6 @@ nsXULControllers
 nsIControllers
 )
 NS_DECL_NSICONTROLLERS
-NS_DECL_NSISECURITYCHECKEDCOMPONENT
 protected
 :
 nsXULControllers
