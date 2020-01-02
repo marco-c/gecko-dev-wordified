@@ -2371,6 +2371,12 @@ ipcfail
 cx
 )
 ;
+RootedObject
+obj
+(
+cx
+)
+;
 for
 (
 size_t
@@ -2462,8 +2468,6 @@ v
 return
 false
 ;
-JSObject
-*
 obj
 =
 &

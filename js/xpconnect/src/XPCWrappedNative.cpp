@@ -11273,6 +11273,7 @@ false
 *
 /
 class
+MOZ_STACK_CLASS
 CallMethodHelper
 {
 XPCCallContext
@@ -11340,8 +11341,7 @@ const
 uint16_t
 mVTableIndex
 ;
-const
-jsid
+HandleId
 mIdxValueId
 ;
 nsAutoTArray
@@ -13177,10 +13177,8 @@ object
 "
 )
 ;
-if
-(
-!
-JS_SetPropertyById
+RootedObject
+obj
 (
 mCallContext
 &
@@ -13192,6 +13190,15 @@ i
 toObject
 (
 )
+)
+;
+if
+(
+!
+JS_SetPropertyById
+(
+mCallContext
+obj
 mIdxValueId
 v
 )
