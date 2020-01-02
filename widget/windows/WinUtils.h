@@ -1351,8 +1351,8 @@ aWnd
 If
 aWidget
 is
-NULL
 *
+nullptr
 it
 dissociate
 any
@@ -1518,7 +1518,7 @@ top
 level
 window
 returns
-NULL
+nullptr
 .
 And
 note
@@ -1526,12 +1526,12 @@ that
 this
 is
 using
+*
 :
 :
 GetParent
 (
 )
-*
 for
 climbing
 the
@@ -1540,12 +1540,12 @@ hierarchy
 therefore
 it
 gives
+*
 up
 at
 an
 owned
 top
-*
 level
 window
 except

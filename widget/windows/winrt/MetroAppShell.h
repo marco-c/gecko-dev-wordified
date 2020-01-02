@@ -139,7 +139,7 @@ MetroAppShell
 :
 mEventWnd
 (
-NULL
+nullptr
 )
 mPowerRequestCount
 (

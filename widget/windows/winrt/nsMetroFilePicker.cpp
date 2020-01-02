@@ -598,7 +598,7 @@ S_OK
 and
 file
 is
-NULL
+nullptr
 if
 (
 FAILED

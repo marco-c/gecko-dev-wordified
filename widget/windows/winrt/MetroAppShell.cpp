@@ -371,7 +371,7 @@ module
 =
 GetModuleHandle
 (
-NULL
+nullptr
 )
 ;
 const
@@ -433,13 +433,13 @@ wc
 .
 hIcon
 =
-NULL
+nullptr
 ;
 wc
 .
 hCursor
 =
-NULL
+nullptr
 ;
 wc
 .
@@ -448,7 +448,7 @@ hbrBackground
 (
 HBRUSH
 )
-NULL
+nullptr
 ;
 wc
 .
@@ -457,7 +457,7 @@ lpszMenuName
 (
 LPCWSTR
 )
-NULL
+nullptr
 ;
 wc
 .
@@ -488,10 +488,10 @@ EventWindow
 0
 10
 10
-NULL
-NULL
+nullptr
+nullptr
 module
-NULL
+nullptr
 )
 ;
 NS_ENSURE_STATE
@@ -757,7 +757,7 @@ hr
 CoCreateInstance
 (
 CLSID_FirefoxMetroDEH
-NULL
+nullptr
 CLSCTX_LOCAL_SERVER
 IID_IExecuteCommand
 getter_AddRefs
@@ -884,7 +884,7 @@ WinUtils
 SHCreateItemFromParsingName
 (
 exePath
-NULL
+nullptr
 IID_IShellItem
 getter_AddRefs
 (
@@ -1840,7 +1840,7 @@ result
 MsgWaitForMultipleObjectsEx
 (
 0
-NULL
+nullptr
 MSG_WAIT_TIMEOUT
 MOZ_QS_ALLEVENT
 MWMO_INPUTAVAILABLE
