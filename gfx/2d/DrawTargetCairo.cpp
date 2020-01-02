@@ -3249,13 +3249,6 @@ mContext
 CAIRO_CONTENT_COLOR_ALPHA
 )
 ;
-ClearSurfaceForUnboundedSource
-(
-aOptions
-.
-mCompositionOp
-)
-;
 /
 /
 Don
@@ -3338,13 +3331,6 @@ mAlpha
 }
 else
 {
-ClearSurfaceForUnboundedSource
-(
-aOptions
-.
-mCompositionOp
-)
-;
 cairo_set_operator
 (
 mContext
