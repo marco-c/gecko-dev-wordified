@@ -787,9 +787,8 @@ s
 created
 thread
 =
-0x
 %
-x
+p
 \
 n
 "
