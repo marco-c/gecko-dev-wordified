@@ -281,7 +281,14 @@ h
 #
 include
 "
-nsIDOMMobileConnection
+nsIMobileConnectionInfo
+.
+h
+"
+#
+include
+"
+nsIMobileCellInfo
 .
 h
 "
@@ -2206,7 +2213,7 @@ mnc
 }
 nsCOMPtr
 <
-nsIDOMMozMobileConnectionInfo
+nsIMobileConnectionInfo
 >
 voice
 ;
@@ -2228,7 +2235,7 @@ voice
 {
 nsCOMPtr
 <
-nsIDOMMozMobileCellInfo
+nsIMobileCellInfo
 >
 cell
 ;
