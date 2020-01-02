@@ -12759,9 +12759,12 @@ WriteSnapshotToDumpFile
 Compositor
 *
 aCompositor
-gfxASurface
+gfx
+:
+:
+DrawTarget
 *
-aSurf
+aTarget
 )
 ;
 #
