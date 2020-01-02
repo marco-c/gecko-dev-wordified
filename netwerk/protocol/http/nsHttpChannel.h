@@ -1369,6 +1369,7 @@ StartRedirectChannelToURI
 (
 nsIURI
 *
+uint32_t
 )
 ;
 virtual
