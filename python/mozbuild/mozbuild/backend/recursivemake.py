@@ -142,6 +142,8 @@ LibraryDefinition
     
 LocalInclude
     
+PerSourceFlag
+    
 Program
     
 Resources
@@ -3076,6 +3078,22 @@ _process_generated_include
 obj
 .
 path
+backend_file
+)
+        
+elif
+isinstance
+(
+obj
+PerSourceFlag
+)
+:
+            
+self
+.
+_process_per_source_flag
+(
+obj
 backend_file
 )
         
@@ -9036,6 +9054,46 @@ n
 (
 path
 generated_include
+)
+)
+    
+def
+_process_per_source_flag
+(
+self
+per_source_flag
+backend_file
+)
+:
+        
+for
+flag
+in
+per_source_flag
+.
+flags
+:
+            
+backend_file
+.
+write
+(
+'
+%
+s_FLAGS
++
+=
+%
+s
+\
+n
+'
+%
+(
+per_source_flag
+.
+file_name
+flag
 )
 )
     
