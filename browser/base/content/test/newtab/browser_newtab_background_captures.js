@@ -156,6 +156,13 @@ exist
 yet
 .
 let
+siteName
+=
+"
+newtab_background_captures
+"
+;
+let
 url
 =
 "
@@ -167,7 +174,10 @@ example
 .
 com
 /
+#
 "
++
+siteName
 ;
 let
 path
@@ -239,10 +249,7 @@ site
 yield
 setLinks
 (
-"
--
-1
-"
+siteName
 )
 ;
 /

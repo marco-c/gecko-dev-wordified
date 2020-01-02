@@ -36,8 +36,7 @@ yield
 setLinks
 (
 "
--
-1
+0
 "
 )
 ;
