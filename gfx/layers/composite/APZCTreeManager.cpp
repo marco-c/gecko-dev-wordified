@@ -1375,6 +1375,17 @@ SetCompositorParent
 aCompositor
 )
 ;
+apzc
+-
+>
+SetCrossProcessCompositorParent
+(
+state
+-
+>
+mCrossProcessParent
+)
+;
 }
 else
 {
