@@ -853,7 +853,7 @@ mozilla
 ipc
 :
 :
-MessageListener
+IProtocol
 >
 :
 :
