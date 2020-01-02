@@ -31740,6 +31740,8 @@ Throw
 NS_ERROR_NOT_IMPLEMENTED
 )
 ;
+return
+;
 }
 else
 {
