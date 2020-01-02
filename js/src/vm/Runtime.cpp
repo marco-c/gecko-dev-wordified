@@ -1494,8 +1494,6 @@ if
 JS_STACK_GROWTH_DIRECTION
 >
 0
-mainThread
-.
 nativeStackLimit
 =
 UINTPTR_MAX
