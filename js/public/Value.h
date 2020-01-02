@@ -3272,7 +3272,7 @@ i32
 static
 inline
 bool
-JSVAL_IS_SPECIFIC_BOOLEAN
+JSVAL_IS_SPECIFIC_BOOLEAN_IMPL
 (
 jsval_layout
 l
@@ -4299,7 +4299,7 @@ JSVAL_SHIFTED_TAG_INT32
 static
 inline
 bool
-JSVAL_IS_SPECIFIC_BOOLEAN
+JSVAL_IS_SPECIFIC_BOOLEAN_IMPL
 (
 jsval_layout
 l
@@ -5619,7 +5619,7 @@ isTrue
 const
 {
 return
-JSVAL_IS_SPECIFIC_BOOLEAN
+JSVAL_IS_SPECIFIC_BOOLEAN_IMPL
 (
 data
 true
@@ -5633,7 +5633,7 @@ isFalse
 const
 {
 return
-JSVAL_IS_SPECIFIC_BOOLEAN
+JSVAL_IS_SPECIFIC_BOOLEAN_IMPL
 (
 data
 false
