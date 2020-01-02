@@ -1081,7 +1081,7 @@ NS_CheckContentLoadPolicy
 nsIContentPolicy
 :
 :
-TYPE_SCRIPT
+TYPE_SUBDOCUMENT
 mURI
 principal
 mImportParent
