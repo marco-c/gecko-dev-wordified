@@ -8347,7 +8347,7 @@ cx
 env
 thisv
 frame
-StableCharPtr
+ConstTwoByteChars
 (
 chars
 length

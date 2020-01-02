@@ -193,7 +193,7 @@ cx
 JS
 :
 :
-StableCharPtr
+ConstTwoByteChars
 chars
 size_t
 length

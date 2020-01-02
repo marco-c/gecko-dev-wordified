@@ -123,6 +123,15 @@ include
 "
 js
 /
+CharacterEncoding
+.
+h
+"
+#
+include
+"
+js
+/
 OldDebugAPI
 .
 h
@@ -2798,7 +2807,7 @@ mCx
 JS
 :
 :
-StableCharPtr
+ConstTwoByteChars
 chars
 (
 reinterpret_cast

@@ -674,13 +674,6 @@ JSTracer
 class
 JSFlatString
 ;
-class
-JSStableString
-;
-/
-/
-long
-story
 #
 ifdef
 JS_THREADSAFE
