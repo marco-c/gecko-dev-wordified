@@ -424,8 +424,14 @@ int
 compare
 (
 Constructor
+<
+?
+>
 aLhs
 Constructor
+<
+?
+>
 aRhs
 )
 {

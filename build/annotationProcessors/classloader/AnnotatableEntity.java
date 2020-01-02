@@ -318,6 +318,9 @@ mMember
 }
 public
 Constructor
+<
+?
+>
 getConstructor
 (
 )
@@ -352,6 +355,9 @@ type
 return
 (
 Constructor
+<
+?
+>
 )
 mMember
 ;
