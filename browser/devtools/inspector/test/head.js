@@ -519,10 +519,10 @@ activeSidebar
 ;
 registerCleanupFunction
 (
+function
+*
 (
 )
-=
->
 {
 let
 target
@@ -536,6 +536,7 @@ gBrowser
 selectedTab
 )
 ;
+yield
 gDevTools
 .
 closeToolbox
