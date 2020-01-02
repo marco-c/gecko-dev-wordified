@@ -3606,6 +3606,8 @@ ProcessPriority
 aPriority
 ProcessCPUPriority
 aCPUPriority
+uint32_t
+aBackgroundLRU
 )
 {
 /
@@ -3629,6 +3631,20 @@ the
 main
 process
 .
+MOZ_ASSERT
+(
+aBackgroundLRU
+=
+=
+0
+|
+|
+aPriority
+=
+=
+PROCESS_PRIORITY_BACKGROUND
+)
+;
 PROXY_IF_SANDBOXED
 (
 SetProcessPriority
@@ -3636,6 +3652,7 @@ SetProcessPriority
 aPid
 aPriority
 aCPUPriority
+aBackgroundLRU
 )
 )
 ;

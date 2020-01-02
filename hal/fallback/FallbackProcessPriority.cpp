@@ -85,6 +85,8 @@ ProcessPriority
 aPriority
 ProcessCPUPriority
 aCPUPriority
+uint32_t
+aBackgroundLRU
 )
 {
 HAL_LOG
@@ -99,6 +101,8 @@ SetProcessPriority
 d
 %
 s
+%
+u
 )
 \
 n
@@ -109,6 +113,7 @@ ProcessPriorityToString
 aPriority
 aCPUPriority
 )
+aBackgroundLRU
 )
 )
 ;

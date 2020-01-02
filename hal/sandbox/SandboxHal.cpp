@@ -1377,6 +1377,8 @@ ProcessPriority
 aPriority
 ProcessCPUPriority
 aCPUPriority
+uint32_t
+aBackgroundLRU
 )
 {
 NS_RUNTIMEABORT
