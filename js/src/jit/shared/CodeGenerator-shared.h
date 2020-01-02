@@ -870,7 +870,7 @@ compilingAsmJS
 (
 )
 ?
-AsmJSSizeOfRetAddr
+AsmJSFrameSize
 :
 sizeof
 (

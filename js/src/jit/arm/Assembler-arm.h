@@ -1206,7 +1206,7 @@ sp
 StackAlignment
 =
 (
-AsmJSSizeOfRetAddr
+AsmJSFrameSize
 +
 masm
 .
@@ -1243,7 +1243,7 @@ framePushed
 static
 const
 uint32_t
-AsmJSSizeOfRetAddr
+AsmJSFrameSize
 =
 sizeof
 (

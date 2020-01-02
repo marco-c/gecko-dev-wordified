@@ -4581,11 +4581,7 @@ currentOffset
 )
 framePushed_
 +
-sizeof
-(
-void
-*
-)
+AsmJSFrameSize
 )
 )
 ;

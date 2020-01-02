@@ -376,7 +376,7 @@ mips
 .
 h
 about
-AsmJSSizeOfRetAddr
+AsmJSFrameSize
 .
 masm
 .

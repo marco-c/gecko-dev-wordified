@@ -17474,7 +17474,7 @@ alignmentAtPrologue
 =
 callFromAsmJS
 ?
-AlignmentAtAsmJSPrologue
+AsmJSFrameSize
 :
 0
 ;

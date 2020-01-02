@@ -376,7 +376,7 @@ arm
 .
 h
 about
-AsmJSSizeOfRetAddr
+AsmJSFrameSize
 .
 masm
 .

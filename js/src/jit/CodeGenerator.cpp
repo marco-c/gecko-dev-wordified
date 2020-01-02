@@ -60164,7 +60164,7 @@ spIncrement
 JS_ASSERT
 (
 (
-AsmJSSizeOfRetAddr
+AsmJSFrameSize
 +
 masm
 .
