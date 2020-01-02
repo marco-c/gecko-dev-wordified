@@ -25688,7 +25688,10 @@ nullptr
 if
 (
 !
-DefineConstructorAndPrototype
+GlobalObject
+:
+:
+initBuiltinConstructor
 (
 cx
 global

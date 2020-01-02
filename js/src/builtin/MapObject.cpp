@@ -7800,7 +7800,10 @@ methods
 |
 |
 !
-DefineConstructorAndPrototype
+GlobalObject
+:
+:
+initBuiltinConstructor
 (
 cx
 global

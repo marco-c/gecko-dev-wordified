@@ -16859,11 +16859,9 @@ UndefinedValue
 )
 ;
 }
+static
 JSObject
 *
-js
-:
-:
 DefineConstructorAndPrototype
 (
 JSContext

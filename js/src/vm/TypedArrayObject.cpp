@@ -14227,7 +14227,10 @@ nullptr
 if
 (
 !
-DefineConstructorAndPrototype
+GlobalObject
+:
+:
+initBuiltinConstructor
 (
 cx
 global
@@ -14730,7 +14733,10 @@ nullptr
 if
 (
 !
-DefineConstructorAndPrototype
+GlobalObject
+:
+:
+initBuiltinConstructor
 (
 cx
 global
@@ -14739,9 +14745,11 @@ ctor
 arrayBufferProto
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 arrayBufferProto
 ;
@@ -15596,7 +15604,10 @@ nullptr
 if
 (
 !
-DefineConstructorAndPrototype
+GlobalObject
+:
+:
+initBuiltinConstructor
 (
 cx
 global
