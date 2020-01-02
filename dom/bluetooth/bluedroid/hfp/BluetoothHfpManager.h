@@ -734,6 +734,11 @@ uint16_t
 aState
 )
 ;
+uint16_t
+GetCallSetupState
+(
+)
+;
 bthf_call_state_t
 ConvertToBthfCallState
 (
@@ -791,13 +796,6 @@ mPrevConnectionState
 ;
 int
 mAudioState
-;
-/
-/
-Phone
-CIND
-int
-mCallSetupState
 ;
 /
 /
