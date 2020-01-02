@@ -634,6 +634,9 @@ class
 Layer
 ;
 class
+LayerMetricsWrapper
+;
+class
 ThebesLayer
 ;
 class
@@ -2394,8 +2397,7 @@ time
 .
 *
 /
-Layer
-*
+LayerMetricsWrapper
 GetPrimaryScrollableLayer
 (
 )
@@ -8055,6 +8057,12 @@ return
 mFrameMetrics
 ;
 }
+bool
+HasScrollableFrameMetrics
+(
+)
+const
+;
 const
 EventRegions
 &
