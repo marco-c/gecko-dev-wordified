@@ -99,6 +99,13 @@ CodecStatistics
 .
 h
 "
+#
+include
+"
+LoadManagerFactory
+.
+h
+"
 /
 /
 conflicts
@@ -2139,6 +2146,12 @@ nsAutoPtr
 VideoCodecStatistics
 >
 mVideoCodecStat
+;
+nsAutoPtr
+<
+LoadManager
+>
+mLoadManager
 ;
 }
 ;
