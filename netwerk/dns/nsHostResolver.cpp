@@ -4268,10 +4268,6 @@ in
 the
 grace
 period
-with
-a
-failed
-connect
 /
 /
 or
@@ -6338,7 +6334,6 @@ if
 (
 (
 (
-(
 TimeStamp
 :
 :
@@ -6350,17 +6345,6 @@ rec
 -
 >
 expiration
-)
-&
-&
-rec
--
->
-mBlacklistedItems
-.
-Length
-(
-)
 )
 |
 |
