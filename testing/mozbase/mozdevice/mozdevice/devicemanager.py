@@ -3010,7 +3010,7 @@ userId
 "
     
 def
-processExist
+processInfo
 (
 self
 processName
@@ -3022,16 +3022,44 @@ processName
 "
         
 Returns
-True
-if
+information
+on
+the
 process
 with
-name
 processName
-is
-running
+.
+        
+Information
 on
-device
+process
+is
+in
+tuple
+format
+:
+(
+pid
+process
+path
+user
+)
+        
+If
+a
+process
+with
+the
+specified
+name
+does
+not
+exist
+this
+function
+will
+return
+None
 .
         
 "
@@ -3064,7 +3092,7 @@ string
 processName
 )
         
-pid
+processInfo
 =
 None
         
@@ -3271,17 +3299,62 @@ app
 )
 :
                 
-pid
+processInfo
 =
 proc
-[
-0
-]
                 
 break
         
 return
-pid
+processInfo
+    
+def
+processExist
+(
+self
+processName
+)
+:
+        
+"
+"
+"
+        
+Returns
+True
+if
+process
+with
+name
+processName
+is
+running
+on
+device
+.
+        
+"
+"
+"
+        
+processInfo
+=
+self
+.
+processInfo
+(
+processName
+)
+        
+if
+processInfo
+:
+            
+return
+processInfo
+[
+0
+]
     
 abstractmethod
     
