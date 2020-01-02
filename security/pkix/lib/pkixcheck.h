@@ -338,6 +338,7 @@ nullptr
 Result
 CheckNameConstraints
 (
+const
 BackCert
 &
 cert
