@@ -875,8 +875,11 @@ result
 .
 PreMultiply
 (
+ThebesMatrix
+(
 *
 mAnimateMotionTransform
+)
 )
 ;
 }
@@ -907,7 +910,10 @@ result
 ;
 }
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 *
 SVGTransformableElement
 :
@@ -932,7 +938,10 @@ SVGTransformableElement
 SetAnimateMotionTransform
 (
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 *
 aMatrix
 )
@@ -973,7 +982,10 @@ mAnimateMotionTransform
 aMatrix
 ?
 new
-gfxMatrix
+gfx
+:
+:
+Matrix
 (
 *
 aMatrix
