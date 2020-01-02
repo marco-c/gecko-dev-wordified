@@ -68,10 +68,11 @@ http
 :
 /
 /
-organic
+example
 .
-localhost
+com
 /
+organic
 "
 type
 :
@@ -87,10 +88,9 @@ http
 :
 /
 /
-sponsored
-.
 localhost
 /
+sponsored
 "
 type
 :

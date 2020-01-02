@@ -938,6 +938,8 @@ null
 null
 )
 ;
+try
+{
 return
 Services
 .
@@ -947,6 +949,18 @@ getBaseDomain
 (
 linkURI
 )
+;
+}
+catch
+(
+ex
+)
+{
+}
+return
+linkURI
+.
+asciiHost
 ;
 }
 _fetchAndCacheLinks
