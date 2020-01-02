@@ -1059,6 +1059,16 @@ aDecoded
 mTimeStamp
 (
 )
+aDecoded
+.
+mChannelCount
+(
+)
+aDecoded
+.
+mSamplesPerSecond
+(
+)
 )
 ;
 return
