@@ -16205,13 +16205,6 @@ directory
 )
 GK_ATOM
 (
-droppable
-"
-droppable
-"
-)
-GK_ATOM
-(
 eventFromInput
 "
 event
