@@ -1672,9 +1672,10 @@ nsresult
 .
 if
 (
-JSVAL_IS_DOUBLE
-(
 jsexception
+.
+isDouble
+(
 )
 )
 /

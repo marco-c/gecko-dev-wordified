@@ -391,9 +391,10 @@ d
 {
 if
 (
-JSVAL_IS_DOUBLE
-(
 v
+.
+isDouble
+(
 )
 )
 {
