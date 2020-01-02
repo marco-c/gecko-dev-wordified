@@ -2680,16 +2680,6 @@ if
 aBackgroundColor
 )
 {
-MOZ_ASSERT
-(
-aOpacity
-=
-=
-1
-.
-0f
-)
-;
 aEffectChain
 .
 mPrimaryEffect
