@@ -5873,6 +5873,11 @@ bool
 aNew
 )
 {
+MOZ_ASSERT
+(
+obj
+)
+;
 /
 /
 First
@@ -6033,11 +6038,6 @@ c
 =
 nullptr
 ;
-if
-(
-obj
-)
-{
 /
 /
 Retrieve
@@ -6358,7 +6358,6 @@ Append
 buf
 )
 ;
-}
 }
 }
 JS
