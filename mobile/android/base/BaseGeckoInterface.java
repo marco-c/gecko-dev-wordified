@@ -245,6 +245,7 @@ Bug
 Implement
 GeckoEventResponder
 private
+final
 Context
 mContext
 ;
@@ -445,11 +446,8 @@ bar
 Window
 window
 =
+getActivity
 (
-(
-Activity
-)
-mContext
 )
 .
 getWindow
@@ -487,6 +485,7 @@ SDK_INT
 =
 11
 )
+{
 window
 .
 getDecorView
@@ -502,6 +501,7 @@ fullscreen
 0
 )
 ;
+}
 }
 }
 )
