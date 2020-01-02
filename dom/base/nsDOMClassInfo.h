@@ -1398,6 +1398,10 @@ JSPropertyDescriptor
 desc
 )
 ;
+friend
+class
+nsGlobalWindow
+;
 public
 :
 NS_IMETHOD
