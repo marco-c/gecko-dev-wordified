@@ -1904,6 +1904,10 @@ nsIAtom
 aOrigin
 =
 nullptr
+bool
+aIsMomentum
+=
+false
 )
 =
 0
