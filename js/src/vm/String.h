@@ -4466,6 +4466,7 @@ length
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 jschar
 latin1OrTwoByteChar
 (

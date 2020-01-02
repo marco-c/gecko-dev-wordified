@@ -3027,6 +3027,9 @@ ScriptAndCountsVector
 *
 scriptAndCountsVector
 ;
+#
+ifdef
+DEBUG
 /
 *
 *
@@ -3084,6 +3087,8 @@ GC
 int
 inUnsafeRegion
 ;
+#
+endif
 private
 :
 /
