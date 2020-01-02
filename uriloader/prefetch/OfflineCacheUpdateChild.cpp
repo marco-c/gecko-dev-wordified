@@ -401,6 +401,9 @@ gOfflineCacheUpdateLog
 args
 )
 #
+undef
+LOG_ENABLED
+#
 define
 LOG_ENABLED
 (

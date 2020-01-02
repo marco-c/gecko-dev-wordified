@@ -57,6 +57,12 @@ MPL
 *
 /
 #
+ifndef
+nsGNOMERegistry_h
+#
+define
+nsGNOMERegistry_h
+#
 include
 "
 nsIURI
@@ -138,3 +144,8 @@ aMIMEType
 ;
 }
 ;
+#
+endif
+/
+/
+nsGNOMERegistry_h

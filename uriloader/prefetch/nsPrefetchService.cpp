@@ -325,6 +325,9 @@ gPrefetchLog
 #
 endif
 #
+undef
+LOG
+#
 define
 LOG
 (
@@ -336,6 +339,9 @@ gPrefetchLog
 4
 args
 )
+#
+undef
+LOG_ENABLED
 #
 define
 LOG_ENABLED
