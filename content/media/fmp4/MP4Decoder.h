@@ -189,6 +189,16 @@ CreateStateMachine
 (
 )
 ;
+virtual
+nsresult
+SetCDMProxy
+(
+CDMProxy
+*
+aProxy
+)
+MOZ_OVERRIDE
+;
 /
 /
 Returns
