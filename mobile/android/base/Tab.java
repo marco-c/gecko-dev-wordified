@@ -136,6 +136,17 @@ mozilla
 .
 gecko
 .
+toolbar
+.
+SiteIdentityPopup
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 ThreadUtils

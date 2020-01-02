@@ -168,15 +168,6 @@ mozilla
 .
 gecko
 .
-SiteIdentityPopup
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 Tab
 ;
 import
