@@ -19800,6 +19800,8 @@ protected
 void
 SetupJustificationSpacing
 (
+bool
+aPostReflow
 )
 ;
 void
@@ -22339,6 +22341,7 @@ mLength
 ;
 SetupJustificationSpacing
 (
+true
 )
 ;
 }
@@ -22383,6 +22386,7 @@ mLength
 ;
 SetupJustificationSpacing
 (
+false
 )
 ;
 }
@@ -22651,6 +22655,8 @@ PropertyProvider
 :
 SetupJustificationSpacing
 (
+bool
+aPostReflow
 )
 {
 NS_PRECONDITION
@@ -22748,6 +22754,7 @@ GetTrimmedOffsets
 (
 mFrag
 true
+aPostReflow
 )
 ;
 end
