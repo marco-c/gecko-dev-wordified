@@ -3289,6 +3289,14 @@ MOZ_WIDGET_GTK
 =
 3
 )
+if
+(
+mProcessType
+=
+=
+GeckoProcessType_Plugin
+)
+{
 const
 char
 *
@@ -3368,6 +3376,7 @@ get
 (
 )
 ;
+}
 #
 endif
 /
