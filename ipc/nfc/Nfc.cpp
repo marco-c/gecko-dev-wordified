@@ -223,6 +223,15 @@ h
 #
 include
 "
+mozilla
+/
+ArrayUtils
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -939,7 +948,10 @@ obj
 "
 onNfcMessage
 "
-NS_ARRAY_LENGTH
+mozilla
+:
+:
+ArrayLength
 (
 argv
 )

@@ -85,17 +85,6 @@ MAXPATHLEN
 #
 include
 "
-nsMemory
-.
-h
-"
-/
-/
-for
-NS_ARRAY_LENGTH
-#
-include
-"
 nsXULAppAPI
 .
 h

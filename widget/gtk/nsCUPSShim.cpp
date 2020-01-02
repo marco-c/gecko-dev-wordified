@@ -133,6 +133,15 @@ h
 #
 include
 "
+mozilla
+/
+ArrayUtils
+.
+h
+"
+#
+include
+"
 prlink
 .
 h
@@ -235,7 +244,10 @@ const
 int
 gSymNameCt
 =
-NS_ARRAY_LENGTH
+mozilla
+:
+:
+ArrayLength
 (
 gSymName
 )

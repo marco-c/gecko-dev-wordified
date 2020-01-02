@@ -385,6 +385,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 battery
@@ -5914,7 +5923,7 @@ const
 size_t
 regex_count
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 regexes_raw
 )

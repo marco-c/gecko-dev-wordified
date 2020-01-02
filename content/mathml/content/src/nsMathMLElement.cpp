@@ -4256,7 +4256,7 @@ const
 int32_t
 values
 [
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 sizes
 )
@@ -5273,7 +5273,7 @@ const
 int32_t
 values
 [
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 sizes
 )
@@ -6390,7 +6390,7 @@ const
 int32_t
 dirValues
 [
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 dirs
 )

@@ -670,6 +670,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -3538,7 +3547,7 @@ TypeObject
 ;
 JS_STATIC_ASSERT
 (
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 trace_types
 )

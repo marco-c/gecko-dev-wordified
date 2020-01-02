@@ -1162,7 +1162,7 @@ thread
 ;
 static_assert
 (
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 gStringChars
 )

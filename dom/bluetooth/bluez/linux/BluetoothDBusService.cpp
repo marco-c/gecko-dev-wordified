@@ -7444,7 +7444,7 @@ DBUS_TYPE_ARRAY
 DBUS_TYPE_UINT32
 &
 services
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sServices
 )

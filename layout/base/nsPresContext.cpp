@@ -109,6 +109,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -3805,7 +3814,7 @@ mDefaultFantasyFont
 ;
 static_assert
 (
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 fontTypes
 )

@@ -473,7 +473,7 @@ static
 Atom
 XAtoms
 [
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 XAtomNames
 )

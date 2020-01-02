@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -2377,7 +2370,7 @@ false
 nsCString
 rawArray
 [
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 kdata
 )
@@ -3136,7 +3129,7 @@ data
 nsAutoTArray
 <
 uint32_t
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 data
 )
@@ -3180,7 +3173,7 @@ hdr
 nsAutoTArray
 <
 uint32_t
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 data
 )
@@ -3452,7 +3445,7 @@ data3
 nsAutoTArray
 <
 uint32_t
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 data3
 )
