@@ -284,6 +284,7 @@ BasicImplData
 {
 public
 :
+explicit
 BasicColorLayer
 (
 BasicLayerManager

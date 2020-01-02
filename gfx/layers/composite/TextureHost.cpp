@@ -551,6 +551,7 @@ PTextureParent
 {
 public
 :
+explicit
 TextureParent
 (
 CompositableParentManager

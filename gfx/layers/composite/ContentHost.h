@@ -586,6 +586,7 @@ mPaintWillResample
 }
 protected
 :
+explicit
 ContentHost
 (
 const
@@ -721,6 +722,7 @@ RotatedContentBuffer
 PaintState
 PaintState
 ;
+explicit
 ContentHostBase
 (
 const
@@ -865,6 +867,7 @@ ContentHostBase
 {
 public
 :
+explicit
 ContentHostTexture
 (
 const
@@ -1205,6 +1208,7 @@ ContentHostTexture
 {
 public
 :
+explicit
 ContentHostDoubleBuffered
 (
 const
@@ -1307,6 +1311,7 @@ ContentHostTexture
 {
 public
 :
+explicit
 ContentHostSingleBuffered
 (
 const
@@ -1439,6 +1444,7 @@ ContentHostBase
 {
 public
 :
+explicit
 ContentHostIncremental
 (
 const

@@ -745,6 +745,7 @@ mFinished
 struct
 AutoEndTransaction
 {
+explicit
 AutoEndTransaction
 (
 CompositableTransaction
@@ -2637,6 +2638,7 @@ AutoRemoveTextures
 {
 public
 :
+explicit
 AutoRemoveTextures
 (
 ImageBridgeChild

@@ -575,6 +575,7 @@ CompositorParent
 )
 public
 :
+explicit
 CompositorParent
 (
 nsIWidget

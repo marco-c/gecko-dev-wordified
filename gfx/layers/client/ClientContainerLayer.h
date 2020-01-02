@@ -233,6 +233,7 @@ ClientLayer
 {
 public
 :
+explicit
 ClientContainerLayer
 (
 ClientLayerManager
@@ -905,6 +906,7 @@ ClientLayer
 {
 public
 :
+explicit
 ClientRefLayer
 (
 ClientLayerManager

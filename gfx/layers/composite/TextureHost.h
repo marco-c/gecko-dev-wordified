@@ -1788,6 +1788,7 @@ TextureHost
 ;
 public
 :
+explicit
 TextureHost
 (
 TextureFlags
@@ -3689,6 +3690,7 @@ AutoLockTextureHost
 {
 public
 :
+explicit
 AutoLockTextureHost
 (
 TextureHost
@@ -3802,6 +3804,7 @@ TextureSource
 {
 public
 :
+explicit
 CompositingRenderTarget
 (
 const

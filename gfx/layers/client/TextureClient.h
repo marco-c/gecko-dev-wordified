@@ -1002,6 +1002,7 @@ TextureClient
 {
 public
 :
+explicit
 TextureClient
 (
 TextureFlags
@@ -2905,6 +2906,7 @@ Task
 {
 public
 :
+explicit
 TextureClientReleaseTask
 (
 TextureClient
@@ -3659,6 +3661,7 @@ TextureClient
 {
 public
 :
+explicit
 StreamTextureClient
 (
 TextureFlags
@@ -3906,6 +3909,7 @@ TextureClient
 *
 mTexture
 ;
+explicit
 TextureClientAutoUnlock
 (
 TextureClient
@@ -3961,6 +3965,7 @@ KeepAlive
 {
 public
 :
+explicit
 TKeepAlive
 (
 T

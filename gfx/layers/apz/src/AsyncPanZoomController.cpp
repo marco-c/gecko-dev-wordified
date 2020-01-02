@@ -5437,6 +5437,7 @@ AsyncPanZoomAnimation
 {
 public
 :
+explicit
 OverscrollSnapBackAnimation
 (
 AsyncPanZoomController

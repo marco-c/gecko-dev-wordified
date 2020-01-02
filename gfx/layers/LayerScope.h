@@ -234,6 +234,7 @@ LayerScopeAutoFrame
 {
 public
 :
+explicit
 LayerScopeAutoFrame
 (
 int64_t

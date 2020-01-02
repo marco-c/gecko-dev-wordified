@@ -335,6 +335,7 @@ Axis
 {
 public
 :
+explicit
 Axis
 (
 AsyncPanZoomController
@@ -1764,6 +1765,7 @@ Axis
 {
 public
 :
+explicit
 AxisX
 (
 AsyncPanZoomController
@@ -1814,6 +1816,7 @@ Axis
 {
 public
 :
+explicit
 AxisY
 (
 AsyncPanZoomController

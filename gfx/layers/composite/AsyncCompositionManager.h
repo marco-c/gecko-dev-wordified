@@ -286,6 +286,7 @@ view
 struct
 ViewTransform
 {
+explicit
 ViewTransform
 (
 ParentLayerToScreenScale
@@ -589,6 +590,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 AsyncCompositionManager
 )
+explicit
 AsyncCompositionManager
 (
 LayerManagerComposite
@@ -1414,6 +1416,7 @@ AutoResolveRefLayers
 {
 public
 :
+explicit
 AutoResolveRefLayers
 (
 AsyncCompositionManager

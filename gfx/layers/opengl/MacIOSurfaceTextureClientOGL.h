@@ -124,6 +124,7 @@ TextureClient
 {
 public
 :
+explicit
 MacIOSurfaceTextureClientOGL
 (
 TextureFlags

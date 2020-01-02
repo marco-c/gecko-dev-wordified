@@ -145,6 +145,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 TextRenderer
 )
+explicit
 TextRenderer
 (
 Compositor

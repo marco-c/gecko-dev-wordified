@@ -174,6 +174,7 @@ FenceHandle
 )
 {
 }
+explicit
 FenceHandle
 (
 const
@@ -218,6 +219,7 @@ FenceHandleFromChild
 )
 {
 }
+explicit
 FenceHandleFromChild
 (
 const

@@ -570,6 +570,7 @@ nsRunnable
 {
 public
 :
+explicit
 SurfaceReleaser
 (
 RawRef
@@ -2294,6 +2295,7 @@ ENABLE_ASYNC
 0x01
 }
 ;
+explicit
 ImageContainer
 (
 int
@@ -4423,6 +4425,7 @@ AutoLockImage
 {
 public
 :
+explicit
 AutoLockImage
 (
 ImageContainer
@@ -5568,6 +5571,7 @@ return
 mSize
 ;
 }
+explicit
 PlanarYCbCrImage
 (
 BufferRecycleBin

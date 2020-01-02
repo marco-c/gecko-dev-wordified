@@ -485,6 +485,7 @@ FPSCounter
 {
 public
 :
+explicit
 FPSCounter
 (
 const

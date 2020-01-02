@@ -225,6 +225,7 @@ ISharedImage
 {
 public
 :
+explicit
 SharedPlanarYCbCrImage
 (
 ImageClient

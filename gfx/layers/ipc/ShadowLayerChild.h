@@ -166,6 +166,7 @@ PLayerChild
 {
 public
 :
+explicit
 ShadowLayerChild
 (
 ShadowableLayer

@@ -242,6 +242,7 @@ GLManager
 {
 public
 :
+explicit
 GLManagerCompositor
 (
 CompositorOGL

@@ -355,6 +355,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 GestureEventListener
 )
+explicit
 GestureEventListener
 (
 AsyncPanZoomController

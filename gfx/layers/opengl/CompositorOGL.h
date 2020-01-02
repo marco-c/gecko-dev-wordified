@@ -652,6 +652,7 @@ CompositorTexturePoolOGL
 {
 public
 :
+explicit
 PerUnitTexturePoolOGL
 (
 gl
@@ -836,6 +837,7 @@ CompositorTexturePoolOGL
 {
 public
 :
+explicit
 PerFrameTexturePoolOGL
 (
 gl
@@ -1002,6 +1004,7 @@ mPrograms
 ;
 public
 :
+explicit
 CompositorOGL
 (
 nsIWidget

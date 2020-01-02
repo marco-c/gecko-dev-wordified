@@ -278,6 +278,7 @@ RotatedContentBuffer
 ContentType
 ContentType
 ;
+explicit
 ClientThebesLayer
 (
 ClientLayerManager

@@ -182,6 +182,7 @@ BasicImplData
 {
 public
 :
+explicit
 BasicCanvasLayer
 (
 BasicLayerManager

@@ -798,6 +798,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 CompositableClient
 )
+explicit
 CompositableClient
 (
 CompositableForwarder
@@ -1444,6 +1445,7 @@ scope
 struct
 AutoRemoveTexture
 {
+explicit
 AutoRemoveTexture
 (
 CompositableClient

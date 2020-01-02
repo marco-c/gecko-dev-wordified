@@ -317,6 +317,7 @@ aClipRect
 ;
 public
 :
+explicit
 ContainerLayerComposite
 (
 LayerManagerComposite
@@ -615,6 +616,7 @@ aClipRect
 ;
 public
 :
+explicit
 RefLayerComposite
 (
 LayerManagerComposite

@@ -323,6 +323,7 @@ BasicImplData
 {
 public
 :
+explicit
 BasicReadbackLayer
 (
 BasicLayerManager

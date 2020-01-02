@@ -2050,6 +2050,7 @@ DebugGLData
 {
 public
 :
+explicit
 DebugGLData
 (
 Packet
@@ -2208,6 +2209,7 @@ aValue
 )
 {
 }
+explicit
 DebugGLFrameStatusData
 (
 Packet
@@ -3010,6 +3012,7 @@ DebugGLData
 {
 public
 :
+explicit
 DebugGLLayersData
 (
 UniquePtr

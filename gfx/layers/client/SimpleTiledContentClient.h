@@ -671,6 +671,7 @@ Base
 ;
 public
 :
+explicit
 SimpleClientTiledThebesLayer
 (
 ClientLayerManager

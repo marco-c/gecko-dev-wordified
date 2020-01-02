@@ -756,6 +756,7 @@ AsyncTransactionTracker
 {
 public
 :
+explicit
 FenceDeliveryTracker
 (
 FenceHandle

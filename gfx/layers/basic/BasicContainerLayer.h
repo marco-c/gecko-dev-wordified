@@ -183,6 +183,7 @@ BasicImplData
 {
 public
 :
+explicit
 BasicContainerLayer
 (
 BasicLayerManager

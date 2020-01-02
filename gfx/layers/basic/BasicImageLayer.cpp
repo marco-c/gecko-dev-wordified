@@ -291,6 +291,7 @@ BasicImplData
 {
 public
 :
+explicit
 BasicImageLayer
 (
 BasicLayerManager

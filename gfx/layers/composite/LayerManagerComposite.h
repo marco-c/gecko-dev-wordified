@@ -485,6 +485,7 @@ SurfaceFormat
 ;
 public
 :
+explicit
 LayerManagerComposite
 (
 Compositor
@@ -1807,6 +1808,7 @@ LayerComposite
 {
 public
 :
+explicit
 LayerComposite
 (
 LayerManagerComposite

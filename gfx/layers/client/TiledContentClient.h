@@ -635,6 +635,7 @@ readCount
 ;
 public
 :
+explicit
 gfxShmSharedReadLock
 (
 ISurfaceAllocator

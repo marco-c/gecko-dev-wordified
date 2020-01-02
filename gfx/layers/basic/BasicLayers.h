@@ -402,6 +402,7 @@ retained
 .
 *
 /
+explicit
 BasicLayerManager
 (
 BasicLayerManagerType
@@ -544,6 +545,7 @@ dies
 .
 *
 /
+explicit
 BasicLayerManager
 (
 nsIWidget
