@@ -3301,7 +3301,7 @@ _currentSessionId
 =
 null
 ;
-this
+gMessageManager
 .
 currentPeerAppId
 =
