@@ -2841,7 +2841,7 @@ contentLength
 NS_ENSURE_TRUE
 (
 !
-IsPending
+Pending
 (
 )
 NS_ERROR_IN_PROGRESS
