@@ -622,7 +622,7 @@ background
 thread
 private
 Bitmap
-loadFaviconFromDb
+loadFaviconFromDB
 (
 )
 {
@@ -1499,7 +1499,7 @@ storedFaviconUrl
 =
 Favicons
 .
-getFaviconUrlForPageUrlFromCache
+getFaviconURLForPageURLFromCache
 (
 mPageUrl
 )
@@ -1530,7 +1530,7 @@ storedFaviconUrl
 =
 Favicons
 .
-getFaviconUrlForPageUrl
+getFaviconURLForPageURL
 (
 mPageUrl
 )
@@ -1560,7 +1560,7 @@ memory
 .
 Favicons
 .
-putFaviconUrlForPageUrlInCache
+putFaviconURLForPageURLInCache
 (
 mPageUrl
 storedFaviconUrl
@@ -1615,7 +1615,7 @@ mFaviconUrl
 =
 Favicons
 .
-guessDefaultFaviconUrl
+guessDefaultFaviconURL
 (
 mPageUrl
 )
@@ -1888,7 +1888,7 @@ null
 }
 image
 =
-loadFaviconFromDb
+loadFaviconFromDB
 (
 )
 ;
@@ -2083,7 +2083,7 @@ guessed
 =
 Favicons
 .
-guessDefaultFaviconUrl
+guessDefaultFaviconURL
 (
 mPageUrl
 )
