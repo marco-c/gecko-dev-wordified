@@ -10585,9 +10585,10 @@ MAryInstruction
 1
 >
 public
-StringPolicy
+BoxExceptPolicy
 <
 0
+MIRType_String
 >
 {
 protected
@@ -10698,9 +10699,10 @@ ObjectPolicy
 >
 MixPolicy
 <
-StringPolicy
+BoxExceptPolicy
 <
 1
+MIRType_String
 >
 BoxPolicy
 <
