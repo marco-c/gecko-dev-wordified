@@ -283,13 +283,8 @@ aDirection
 ;
 }
 ;
-}
-/
-/
-namespace
-mozilla
 class
-nsScrollbarsForWheel
+ScrollbarsForWheel
 {
 public
 :
@@ -303,9 +298,6 @@ aESM
 nsIFrame
 *
 aTargetFrame
-mozilla
-:
-:
 WidgetWheelEvent
 *
 aEvent
@@ -371,9 +363,6 @@ kNumberOfTargets
 ;
 static
 const
-mozilla
-:
-:
 DeltaValues
 directions
 [
@@ -434,9 +423,6 @@ aESM
 nsIFrame
 *
 aTargetFrame
-mozilla
-:
-:
 WidgetWheelEvent
 *
 aEvent
@@ -450,6 +436,11 @@ DeactivateAllTemporarilyActivatedScrollTargets
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 class
 nsMouseWheelTransaction
 {

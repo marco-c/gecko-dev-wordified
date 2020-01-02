@@ -1026,7 +1026,7 @@ event
 "
 )
 ;
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 OwnWheelTransaction
@@ -1263,7 +1263,7 @@ if
 sOwnScrollbars
 &
 &
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 IsActive
@@ -1271,7 +1271,7 @@ IsActive
 )
 )
 {
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 OwnWheelTransaction
@@ -1324,7 +1324,7 @@ sOwnScrollbars
 =
 false
 ;
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 OwnWheelTransaction
@@ -1332,7 +1332,7 @@ OwnWheelTransaction
 false
 )
 ;
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 Inactivate
@@ -2649,6 +2649,9 @@ aEvent
 overriddenDeltaValues
 ;
 }
+namespace
+mozilla
+{
 /
 *
 *
@@ -2719,7 +2722,10 @@ overriddenDeltaValues
 /
 /
 *
-nsScrollbarsForWheel
+mozilla
+:
+:
+ScrollbarsForWheel
 *
 /
 /
@@ -2792,7 +2798,7 @@ nsScrollbarsForWheel
 /
 const
 DeltaValues
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 directions
@@ -2828,7 +2834,7 @@ DeltaValues
 }
 ;
 nsWeakFrame
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 sActiveOwner
@@ -2836,7 +2842,7 @@ sActiveOwner
 nullptr
 ;
 nsWeakFrame
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 sActivatedScrollTargets
@@ -2852,7 +2858,7 @@ nullptr
 }
 ;
 bool
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 sHadWheelStart
@@ -2860,7 +2866,7 @@ sHadWheelStart
 false
 ;
 bool
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 sOwnWheelTransaction
@@ -2868,7 +2874,7 @@ sOwnWheelTransaction
 false
 ;
 void
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 PrepareToScrollText
@@ -2933,7 +2939,7 @@ DeactivateAllTemporarilyActivatedScrollTargets
 }
 }
 void
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 SetActiveScrollTarget
@@ -2990,7 +2996,7 @@ ScrollbarActivityStarted
 ;
 }
 void
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 MayInactivate
@@ -3029,7 +3035,7 @@ Inactivate
 }
 }
 void
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 Inactivate
@@ -3093,7 +3099,7 @@ EndTransaction
 }
 }
 bool
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 IsActive
@@ -3143,7 +3149,7 @@ false
 ;
 }
 void
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 OwnWheelTransaction
@@ -3158,7 +3164,7 @@ aOwn
 ;
 }
 void
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 TemporarilyActivateAllPossibleScrollTargets
@@ -3290,7 +3296,7 @@ ScrollbarActivityStarted
 }
 }
 void
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 DeactivateAllTemporarilyActivatedScrollTargets
@@ -3360,3 +3366,8 @@ nullptr
 }
 }
 }
+}
+/
+/
+namespace
+mozilla
