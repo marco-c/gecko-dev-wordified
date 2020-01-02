@@ -186,12 +186,6 @@ WebGLMemoryTracker
 (
 )
 ;
-virtual
-~
-WebGLMemoryTracker
-(
-)
-;
 static
 StaticRefPtr
 <
@@ -338,6 +332,12 @@ nullptr
 }
 private
 :
+virtual
+~
+WebGLMemoryTracker
+(
+)
+;
 static
 int64_t
 GetTextureMemoryUsed

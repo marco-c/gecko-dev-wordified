@@ -144,12 +144,6 @@ WebGLUniformInfo
 info
 )
 ;
-~
-WebGLUniformLocation
-(
-)
-{
-}
 /
 /
 needed
@@ -259,6 +253,12 @@ WebGLUniformLocation
 )
 protected
 :
+~
+WebGLUniformLocation
+(
+)
+{
+}
 /
 /
 nsRefPtr

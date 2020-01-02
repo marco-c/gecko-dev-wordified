@@ -164,12 +164,6 @@ WebGLContext
 *
 )
 ;
-virtual
-~
-WebGLExtensionBase
-(
-)
-;
 WebGLContext
 *
 GetParentObject
@@ -198,6 +192,12 @@ WebGLExtensionBase
 )
 protected
 :
+virtual
+~
+WebGLExtensionBase
+(
+)
+;
 bool
 mIsLost
 ;
