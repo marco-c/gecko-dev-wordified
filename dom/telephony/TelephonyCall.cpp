@@ -680,6 +680,10 @@ live
 "
 )
 ;
+mLive
+=
+false
+;
 if
 (
 mGroup
@@ -705,10 +709,6 @@ this
 )
 ;
 }
-mLive
-=
-false
-;
 }
 else
 if
@@ -717,6 +717,10 @@ if
 mLive
 )
 {
+mLive
+=
+true
+;
 if
 (
 mGroup
@@ -742,10 +746,6 @@ this
 )
 ;
 }
-mLive
-=
-true
-;
 }
 if
 (
