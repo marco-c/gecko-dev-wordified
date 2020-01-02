@@ -178,6 +178,13 @@ nsStyleContext
 .
 h
 "
+#
+include
+"
+nsIDocument
+.
+h
+"
 namespace
 css
 =

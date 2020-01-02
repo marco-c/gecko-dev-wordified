@@ -139,6 +139,17 @@ include
 "
 mozilla
 /
+dom
+/
+ElementInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MathAlgorithms
 .
 h

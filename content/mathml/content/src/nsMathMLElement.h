@@ -111,6 +111,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ElementInlines
+.
+h
+"
+#
+include
+"
 nsMappedAttributeElement
 .
 h

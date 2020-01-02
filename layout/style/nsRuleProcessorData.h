@@ -178,6 +178,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AutoRestore

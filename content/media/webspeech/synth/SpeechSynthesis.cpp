@@ -174,6 +174,13 @@ nsSynthVoiceRegistry
 h
 "
 #
+include
+"
+nsIDocument
+.
+h
+"
+#
 undef
 LOG
 #

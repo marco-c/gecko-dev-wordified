@@ -114,6 +114,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ElementInlines
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

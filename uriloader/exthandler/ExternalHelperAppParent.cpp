@@ -216,6 +216,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 mozilla
 /
 unused

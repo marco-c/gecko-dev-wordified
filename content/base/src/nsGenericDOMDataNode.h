@@ -182,6 +182,13 @@ nsISMILAttr
 .
 h
 "
+#
+include
+"
+nsIDocument
+.
+h
+"
 class
 nsIDOMAttr
 ;

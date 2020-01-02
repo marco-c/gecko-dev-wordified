@@ -360,6 +360,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 prtime
 .
 h

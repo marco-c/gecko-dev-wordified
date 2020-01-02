@@ -320,6 +320,13 @@ nsIURI
 h
 "
 #
+include
+"
+nsIDocument
+.
+h
+"
+#
 if
 defined
 (
