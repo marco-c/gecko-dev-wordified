@@ -548,14 +548,6 @@ float
 aContents
 )
 ;
-void
-MixToMono
-(
-JSContext
-*
-aJSContext
-)
-;
 protected
 :
 bool
