@@ -9182,7 +9182,7 @@ IsCalcUnit
 )
 |
 |
-mRadiusX
+mRadiusY
 .
 IsCalcUnit
 (
