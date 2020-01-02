@@ -3902,7 +3902,6 @@ read
 this
 .
 _storePath
-null
 {
 compression
 :
