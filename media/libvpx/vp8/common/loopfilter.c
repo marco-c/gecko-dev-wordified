@@ -122,11 +122,6 @@ vpx_mem
 .
 h
 "
-typedef
-unsigned
-char
-uc
-;
 static
 void
 lf_init_lut
