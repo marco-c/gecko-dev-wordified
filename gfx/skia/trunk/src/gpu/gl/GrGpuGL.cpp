@@ -3727,7 +3727,7 @@ of
 the
 src
 pixels
-SkAutoSMalloc
+GrAutoMalloc
 <
 128
 *
@@ -10998,7 +10998,7 @@ a
 scratch
 buffer
 .
-SkAutoSMalloc
+GrAutoMalloc
 <
 32
 *

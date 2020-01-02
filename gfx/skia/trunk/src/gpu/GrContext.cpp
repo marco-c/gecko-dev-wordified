@@ -2327,7 +2327,7 @@ desc
 fConfig
 )
 ;
-SkAutoSMalloc
+GrAutoMalloc
 <
 128
 *

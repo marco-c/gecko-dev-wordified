@@ -1817,7 +1817,7 @@ area
 *
 bytesPerPixel
 ;
-SkAutoSMalloc
+GrAutoMalloc
 <
 1024
 >
