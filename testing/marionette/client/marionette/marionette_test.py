@@ -1006,24 +1006,6 @@ KeyboardInterrupt
 raise
                 
 except
-self
-.
-failureException
-:
-                    
-result
-.
-addFailure
-(
-self
-sys
-.
-exc_info
-(
-)
-)
-                
-except
 _ExpectedFailure
 as
 e
@@ -1811,9 +1793,6 @@ self
 :
         
 pass
-#
-bug
-874599
     
 def
 cleanTest
@@ -2280,6 +2259,14 @@ tearDown
 self
 )
 :
+        
+self
+.
+marionette
+.
+check_for_crash
+(
+)
         
 self
 .
