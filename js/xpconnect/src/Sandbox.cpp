@@ -5245,8 +5245,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 JS
@@ -5290,7 +5288,6 @@ JS_GetPropertyDescriptorById
 cx
 obj
 id
-flags
 desc
 )
 )
@@ -5655,8 +5652,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 if
@@ -5668,7 +5663,6 @@ cx
 proxy
 id
 desc
-flags
 )
 )
 return

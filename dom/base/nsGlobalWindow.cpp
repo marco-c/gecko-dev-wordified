@@ -3783,8 +3783,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 MOZ_OVERRIDE
 ;
@@ -3820,8 +3818,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 MOZ_OVERRIDE
 ;
@@ -4773,8 +4769,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 /
@@ -4843,7 +4837,6 @@ cx
 proxy
 id
 desc
-flags
 )
 )
 {
@@ -4877,7 +4870,6 @@ cx
 proxy
 id
 desc
-flags
 )
 ;
 }
@@ -4915,8 +4907,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 bool
@@ -4982,7 +4972,6 @@ cx
 proxy
 id
 desc
-flags
 )
 ;
 }

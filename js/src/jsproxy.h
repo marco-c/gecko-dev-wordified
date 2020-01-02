@@ -1343,8 +1343,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 =
 0
@@ -1365,8 +1363,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 =
 0
@@ -2008,8 +2004,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 MOZ_OVERRIDE
 ;
@@ -2029,8 +2023,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 MOZ_OVERRIDE
 ;
@@ -2501,8 +2493,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 ;
 static
@@ -2514,8 +2504,6 @@ JSContext
 cx
 HandleObject
 proxy
-unsigned
-flags
 HandleId
 id
 MutableHandleValue
@@ -2538,8 +2526,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 ;
 static
@@ -2551,8 +2537,6 @@ JSContext
 cx
 HandleObject
 proxy
-unsigned
-flags
 HandleId
 id
 MutableHandleValue

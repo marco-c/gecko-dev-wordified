@@ -1449,7 +1449,6 @@ cx
 obj
 id
 desc
-0
 )
 ;
 RootedObject
@@ -32324,7 +32323,6 @@ pobj
 id
 &
 pd
-0
 )
 )
 return

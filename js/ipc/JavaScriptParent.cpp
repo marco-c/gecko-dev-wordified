@@ -404,8 +404,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 MOZ_OVERRIDE
 ;
@@ -425,8 +423,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 MOZ_OVERRIDE
 ;
@@ -830,8 +826,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 FORWARD
@@ -842,7 +836,6 @@ cx
 proxy
 id
 desc
-flags
 )
 )
 ;
@@ -865,8 +858,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 ObjectId
@@ -907,7 +898,6 @@ CallGetPropertyDescriptor
 (
 objId
 idstr
-flags
 &
 status
 &
@@ -959,8 +949,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 FORWARD
@@ -971,7 +959,6 @@ cx
 proxy
 id
 desc
-flags
 )
 )
 ;
@@ -994,8 +981,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 ObjectId
@@ -1036,7 +1021,6 @@ CallGetOwnPropertyDescriptor
 (
 objId
 idstr
-flags
 &
 status
 &

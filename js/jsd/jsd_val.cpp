@@ -3088,7 +3088,6 @@ JS_GetOwnPropertyDescriptorById
 cx
 obj
 id
-0
 &
 desc
 )

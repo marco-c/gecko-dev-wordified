@@ -68759,7 +68759,6 @@ cx
 wrapper
 id
 desc
-flags
 )
 ;
 \
@@ -68895,7 +68894,6 @@ unsigned
 flags
 '
 )
-                
 ]
         
 CGAbstractBindingMethod
@@ -72038,16 +72036,6 @@ JSPropertyDescriptor
 desc
 '
 )
-                
-Argument
-(
-'
-unsigned
-'
-'
-flags
-'
-)
 ]
         
 ClassMethod
@@ -72283,7 +72271,6 @@ cx
 holder
 }
 id
-flags
 desc
 )
 )
@@ -72784,7 +72771,6 @@ JS_GetPropertyDescriptorById
 cx
 expando
 id
-flags
 desc
 )
 )

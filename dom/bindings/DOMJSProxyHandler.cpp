@@ -1011,8 +1011,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 if
@@ -1024,7 +1022,6 @@ cx
 proxy
 id
 desc
-flags
 )
 )
 {
@@ -1104,7 +1101,6 @@ JS_GetPropertyDescriptorById
 cx
 proto
 id
-0
 desc
 )
 ;

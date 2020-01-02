@@ -1005,7 +1005,6 @@ JS_GetPropertyDescriptorById
 cx
 obj
 id
-0
 &
 desc
 )

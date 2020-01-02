@@ -332,8 +332,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 return
@@ -346,7 +344,6 @@ cx
 wrapper
 id
 desc
-flags
 )
 &
 &
@@ -392,8 +389,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 return
@@ -406,7 +401,6 @@ cx
 wrapper
 id
 desc
-flags
 )
 &
 &

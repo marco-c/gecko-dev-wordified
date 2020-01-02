@@ -424,7 +424,6 @@ wrapper
 id
 &
 desc
-0
 )
 |
 |
@@ -470,8 +469,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 assertEnteredPolicy
@@ -532,7 +529,6 @@ cx
 wrapper
 id
 desc
-flags
 )
 )
 {
@@ -681,7 +677,6 @@ JS_GetPropertyDescriptorById
 cx
 wrapperProto
 id
-0
 desc
 )
 ;
@@ -843,7 +838,6 @@ JS_GetPropertyDescriptorById
 cx
 wrapperProto
 id
-0
 &
 desc
 )

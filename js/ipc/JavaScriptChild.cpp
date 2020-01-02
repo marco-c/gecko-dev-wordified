@@ -923,10 +923,6 @@ const
 nsString
 &
 id
-const
-uint32_t
-&
-flags
 ReturnStatus
 *
 rs
@@ -1015,7 +1011,6 @@ JS_GetPropertyDescriptorById
 cx
 obj
 internedId
-flags
 &
 desc
 )
@@ -1080,10 +1075,6 @@ const
 nsString
 &
 id
-const
-uint32_t
-&
-flags
 ReturnStatus
 *
 rs
@@ -1172,7 +1163,6 @@ JS_GetPropertyDescriptorById
 cx
 obj
 internedId
-flags
 &
 desc
 )
@@ -1750,7 +1740,6 @@ JS_GetPropertyDescriptorById
 cx
 obj
 internedId
-0
 &
 desc
 )
