@@ -3316,9 +3316,6 @@ at
 the
 moment
 .
-#
-ifdef
-MOZ_WIDGET_GONK
 /
 /
 enable
@@ -3383,8 +3380,6 @@ of
 /
 240
 "
-#
-endif
 #
 ifdef
 MOZ_SAFE_BROWSING
