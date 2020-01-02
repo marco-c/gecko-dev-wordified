@@ -939,15 +939,6 @@ JS_ALWAYS_INLINE
 MOZ_ALWAYS_INLINE
 #
 endif
-#
-ifndef
-JS_NEVER_INLINE
-#
-define
-JS_NEVER_INLINE
-MOZ_NEVER_INLINE
-#
-endif
 /
 *
 *

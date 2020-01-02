@@ -890,7 +890,7 @@ hasStackToScan
 #
 endif
 }
-JS_NEVER_INLINE
+MOZ_NEVER_INLINE
 void
 recordStackTop
 (
