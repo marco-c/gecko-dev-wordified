@@ -443,13 +443,13 @@ static
 HWND
 sWinlessPopupSurrogateHWND
 =
-NULL
+nullptr
 ;
 static
 User32TrackPopupMenu
 sUser32TrackPopupMenuStub
 =
-NULL
+nullptr
 ;
 using
 mozilla
@@ -765,11 +765,11 @@ ifdef
 XP_WIN
 mCurrentSurfaceActor
 (
-NULL
+nullptr
 )
 mBackSurfaceActor
 (
-NULL
+nullptr
 )
 #
 endif
@@ -898,13 +898,13 @@ mWsInfo
 .
 display
 =
-NULL
+nullptr
 ;
 mXtClient
 .
 top_widget
 =
-NULL
+nullptr
 ;
 #
 else
@@ -1100,7 +1100,7 @@ PluginScriptableObjectChild
 *
 actor
 =
-NULL
+nullptr
 ;
 NPError
 result
@@ -3320,7 +3320,7 @@ char
 *
 plugId
 =
-NULL
+nullptr
 ;
 NPError
 result
@@ -5460,7 +5460,7 @@ mXtClient
 .
 top_widget
 =
-NULL
+nullptr
 ;
 }
 #
@@ -5761,7 +5761,7 @@ gtk_check_version
 )
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -5883,7 +5883,7 @@ gtk_check_version
 )
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -6893,7 +6893,7 @@ hInstance
 =
 GetModuleHandle
 (
-NULL
+nullptr
 )
 ;
 wcex
@@ -7011,11 +7011,11 @@ WS_CLIPSIBLINGS
 0
 0
 0
-NULL
+nullptr
 0
 GetModuleHandle
 (
-NULL
+nullptr
 )
 0
 )
@@ -7302,7 +7302,7 @@ height
 SetWindowPos
 (
 mPluginWindowHWND
-NULL
+nullptr
 0
 0
 width
@@ -7812,7 +7812,7 @@ if
 (
 InSendMessageEx
 (
-NULL
+nullptr
 )
 &
 (
@@ -8227,13 +8227,13 @@ static
 User32SetWindowLongPtrA
 sUser32SetWindowLongAHookStub
 =
-NULL
+nullptr
 ;
 static
 User32SetWindowLongPtrW
 sUser32SetWindowLongWHookStub
 =
-NULL
+nullptr
 ;
 #
 else
@@ -8273,13 +8273,13 @@ static
 User32SetWindowLongA
 sUser32SetWindowLongAHookStub
 =
-NULL
+nullptr
 ;
 static
 User32SetWindowLongW
 sUser32SetWindowLongWHookStub
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -9210,7 +9210,7 @@ sWinlessPopupSurrogateHWND
 ;
 sWinlessPopupSurrogateHWND
 =
-NULL
+nullptr
 ;
 /
 /
@@ -9449,7 +9449,7 @@ return
 HWND
 hwnd
 =
-NULL
+nullptr
 ;
 NPError
 result
@@ -9487,7 +9487,7 @@ L
 "
 Static
 "
-NULL
+nullptr
 WS_CHILD
 0
 0
@@ -9497,7 +9497,7 @@ hwnd
 0
 GetModuleHandle
 (
-NULL
+nullptr
 )
 0
 )
@@ -9545,7 +9545,7 @@ mWinlessPopupSurrogateHWND
 ;
 mWinlessPopupSurrogateHWND
 =
-NULL
+nullptr
 ;
 }
 int16_t
@@ -9594,7 +9594,7 @@ handled
 HWND
 focusHwnd
 =
-NULL
+nullptr
 ;
 /
 /
@@ -9770,7 +9770,7 @@ event
 ;
 sWinlessPopupSurrogateHWND
 =
-NULL
+nullptr
 ;
 if
 (
@@ -10032,7 +10032,7 @@ x
 aWindow
 .
 y
-NULL
+nullptr
 )
 ;
 if
@@ -10120,7 +10120,7 @@ hdc
 :
 CreateCompatibleDC
 (
-NULL
+nullptr
 )
 ;
 if
@@ -10225,7 +10225,7 @@ void
 )
 &
 ppvBits
-NULL
+nullptr
 (
 unsigned
 long
@@ -10307,13 +10307,13 @@ mAlphaExtract
 .
 bmp
 =
-NULL
+nullptr
 ;
 mAlphaExtract
 .
 hdc
 =
-NULL
+nullptr
 ;
 }
 void
@@ -12415,7 +12415,7 @@ callable
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -12485,7 +12485,7 @@ reached
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -12536,11 +12536,11 @@ mBrowserStream
 >
 mStreamNotify
 =
-NULL
+nullptr
 ;
 mBrowserStream
 =
-NULL
+nullptr
 ;
 }
 }
@@ -13084,7 +13084,7 @@ result
 *
 aStream
 =
-NULL
+nullptr
 ;
 PPluginStreamChild
 :
@@ -13339,7 +13339,7 @@ bitmap
 .
 data
 =
-NULL
+nullptr
 ;
 if
 (
@@ -13814,7 +13814,7 @@ mBitmap
 .
 mData
 =
-NULL
+nullptr
 ;
 data
 -
@@ -13883,7 +13883,7 @@ data
 >
 mTextureHandle
 =
-NULL
+nullptr
 ;
 data
 -
@@ -13975,7 +13975,7 @@ mBitmap
 .
 mData
 =
-NULL
+nullptr
 ;
 data
 -
@@ -14282,7 +14282,7 @@ mAsyncInvalidateMutex
 ;
 mAsyncInvalidateTask
 =
-NULL
+nullptr
 ;
 }
 SendRedrawPlugin
@@ -14564,7 +14564,7 @@ mWindow
 .
 window
 =
-NULL
+nullptr
 ;
 if
 (
@@ -16293,7 +16293,7 @@ XP_WIN
 HDC
 dc
 =
-NULL
+nullptr
 ;
 if
 (
@@ -17061,7 +17061,7 @@ x
 mWindow
 .
 y
-NULL
+nullptr
 )
 ;
 :
@@ -17074,7 +17074,7 @@ HDC
 mWindow
 .
 window
-NULL
+nullptr
 )
 ;
 :
@@ -19651,7 +19651,7 @@ base
 SharedMemoryHandle
 handle
 =
-NULL
+nullptr
 ;
 s
 -
@@ -21435,7 +21435,7 @@ mCurrentSurfaceActor
 ;
 mCurrentSurfaceActor
 =
-NULL
+nullptr
 ;
 }
 #
@@ -21581,7 +21581,7 @@ mCurrentSurfaceActor
 ;
 mCurrentSurfaceActor
 =
-NULL
+nullptr
 ;
 }
 if
@@ -21599,7 +21599,7 @@ mBackSurfaceActor
 ;
 mBackSurfaceActor
 =
-NULL
+nullptr
 ;
 }
 #
@@ -22038,7 +22038,7 @@ mDeletingHash
 EnumerateEntries
 (
 InvalidateObject
-NULL
+nullptr
 )
 ;
 mDeletingHash
@@ -22047,7 +22047,7 @@ mDeletingHash
 EnumerateEntries
 (
 DeleteObject
-NULL
+nullptr
 )
 ;
 /

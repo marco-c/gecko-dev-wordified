@@ -151,7 +151,7 @@ pmc
 )
 mQTimer
 (
-NULL
+nullptr
 )
 {
 }
@@ -180,7 +180,7 @@ mQTimer
 ;
 mQTimer
 =
-NULL
+nullptr
 ;
 }
 }

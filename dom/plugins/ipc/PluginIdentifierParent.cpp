@@ -355,7 +355,7 @@ aIdentifier
 :
 mIdentifier
 (
-NULL
+nullptr
 )
 {
 PluginInstanceParent

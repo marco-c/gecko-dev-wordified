@@ -3306,7 +3306,7 @@ true
 ;
 mObject
 =
-NULL
+nullptr
 ;
 }
 bool

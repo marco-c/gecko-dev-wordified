@@ -155,7 +155,7 @@ NPObject
 )
 parent
 (
-NULL
+nullptr
 )
 invalidated
 (

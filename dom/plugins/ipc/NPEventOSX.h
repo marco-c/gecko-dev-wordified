@@ -509,9 +509,9 @@ it
 would
 always
 be
-NULL
 /
 /
+nullptr
 and
 is
 just
@@ -1155,7 +1155,7 @@ draw
 .
 context
 =
-NULL
+nullptr
 ;
 if
 (

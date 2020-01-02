@@ -619,7 +619,7 @@ OleInitialize
 :
 OleInitialize
 (
-NULL
+nullptr
 )
 ;
 #

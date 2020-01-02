@@ -334,7 +334,7 @@ aIsString
 :
 mCanonicalIdentifier
 (
-NULL
+nullptr
 )
 mHashed
 (
@@ -507,7 +507,7 @@ mCanonicalIdentifier
 is
 non
 -
-NULL
+nullptr
 :
 this
 is

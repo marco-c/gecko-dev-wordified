@@ -164,11 +164,11 @@ aURL
 )
 mClosure
 (
-NULL
+nullptr
 )
 mBrowserStream
 (
-NULL
+nullptr
 )
 {
 }

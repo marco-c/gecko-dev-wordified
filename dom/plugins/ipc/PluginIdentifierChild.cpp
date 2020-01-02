@@ -560,7 +560,7 @@ mString
 )
 =
 =
-NULL
+nullptr
 "
 Replacing
 Hash
@@ -708,7 +708,7 @@ mInt
 )
 =
 =
-NULL
+nullptr
 "
 Replacing
 Hash

@@ -425,7 +425,7 @@ DELETING
 ;
 mStreamNotify
 =
-NULL
+nullptr
 ;
 }
 else
@@ -1267,7 +1267,7 @@ mStreamNotify
 ;
 mStreamNotify
 =
-NULL
+nullptr
 ;
 }
 if

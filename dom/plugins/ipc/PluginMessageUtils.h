@@ -1121,7 +1121,7 @@ char
 *
 =
 =
-NULL
+nullptr
 is
 sometimes
 meaningful
@@ -1198,7 +1198,7 @@ IsVoid
 )
 )
 return
-NULL
+nullptr
 ;
 return
 str
@@ -2588,7 +2588,7 @@ don
 t
 write
 a
-NULL
+nullptr
 terminating
 character
 in
@@ -2626,7 +2626,7 @@ a
 string
 false
 represents
-NULL
+nullptr
 .
 aMsg
 -
@@ -2821,7 +2821,7 @@ haveString
 *
 aResult
 =
-NULL
+nullptr
 ;
 return
 true
@@ -3178,7 +3178,7 @@ uint8_t
 *
 data
 =
-NULL
+nullptr
 ;
 if
 (

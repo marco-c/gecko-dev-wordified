@@ -372,7 +372,7 @@ size
 .
 next
 =
-NULL
+nullptr
 ;
 *
 result
@@ -523,7 +523,7 @@ false
 }
 mStreamPeer
 =
-NULL
+nullptr
 ;
 mState
 =
