@@ -3066,6 +3066,7 @@ CallArgs
 &
 args
 )
+const
 {
 /
 /
@@ -4046,6 +4047,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 {
 JS
 :
@@ -4453,6 +4455,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 {
 if
 (
@@ -4554,6 +4557,7 @@ bool
 *
 bp
 )
+const
 {
 return
 BaseProxyHandler
@@ -4601,6 +4605,7 @@ bool
 *
 bp
 )
+const
 {
 return
 BaseProxyHandler
@@ -4662,6 +4667,7 @@ Value
 >
 vp
 )
+const
 {
 return
 BaseProxyHandler
@@ -4726,6 +4732,7 @@ Value
 >
 vp
 )
+const
 {
 return
 BaseProxyHandler
@@ -4767,6 +4774,7 @@ AutoIdVector
 &
 props
 )
+const
 {
 return
 BaseProxyHandler
@@ -4812,6 +4820,7 @@ Value
 >
 vp
 )
+const
 {
 return
 BaseProxyHandler

@@ -326,6 +326,7 @@ AutoIdVector
 &
 props
 )
+const
 MOZ_OVERRIDE
 ;
 bool
@@ -360,6 +361,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 MOZ_OVERRIDE
 ;
 bool
@@ -395,6 +397,7 @@ JSObject
 >
 callable
 )
+const
 MOZ_OVERRIDE
 ;
 bool
@@ -421,6 +424,7 @@ jsid
 >
 id
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -446,6 +450,7 @@ AutoIdVector
 &
 props
 )
+const
 MOZ_OVERRIDE
 ;
 /
@@ -515,6 +520,7 @@ AutoIdVector
 &
 props
 )
+const
 MOZ_OVERRIDE
 ;
 protected
@@ -590,6 +596,7 @@ AutoIdVector
 &
 props
 )
+const
 =
 0
 ;
@@ -631,6 +638,7 @@ JSObject
 >
 proxy
 )
+const
 MOZ_OVERRIDE
 ;
 bool
@@ -665,6 +673,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 MOZ_OVERRIDE
 {
 bool
@@ -718,6 +727,7 @@ bool
 *
 defined
 )
+const
 ;
 bool
 set
@@ -765,6 +775,7 @@ Value
 >
 vp
 )
+const
 MOZ_OVERRIDE
 ;
 bool
@@ -794,6 +805,7 @@ bool
 *
 bp
 )
+const
 MOZ_OVERRIDE
 ;
 bool
@@ -823,6 +835,7 @@ bool
 *
 bp
 )
+const
 MOZ_OVERRIDE
 ;
 bool
@@ -844,6 +857,7 @@ bool
 *
 extensible
 )
+const
 MOZ_OVERRIDE
 ;
 /
@@ -927,6 +941,7 @@ bool
 *
 done
 )
+const
 ;
 static
 JSObject

@@ -3713,6 +3713,8 @@ JS
 Value
 priv
 )
+const
+MOZ_OVERRIDE
 {
 return
 false
@@ -3737,6 +3739,7 @@ JSObject
 >
 wrapper
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -3750,6 +3753,7 @@ JSObject
 *
 proxy
 )
+const
 MOZ_OVERRIDE
 ;
 /
@@ -3776,6 +3780,7 @@ bool
 *
 extensible
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -3795,6 +3800,7 @@ JSObject
 >
 proxy
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -3830,6 +3836,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -3865,6 +3872,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -3900,6 +3908,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -3925,6 +3934,7 @@ AutoIdVector
 &
 props
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -3955,6 +3965,7 @@ bool
 *
 bp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -3980,6 +3991,7 @@ AutoIdVector
 &
 props
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4016,6 +4028,7 @@ JSObject
 >
 callable
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4043,6 +4056,7 @@ jsid
 >
 id
 )
+const
 MOZ_OVERRIDE
 ;
 /
@@ -4077,6 +4091,7 @@ bool
 *
 bp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4107,6 +4122,7 @@ bool
 *
 bp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4154,6 +4170,7 @@ Value
 >
 vp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4203,6 +4220,7 @@ Value
 >
 vp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4228,6 +4246,7 @@ AutoIdVector
 &
 props
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4260,6 +4279,7 @@ Value
 >
 vp
 )
+const
 MOZ_OVERRIDE
 ;
 static
@@ -4277,6 +4297,7 @@ JSObject
 *
 proxy
 )
+const
 {
 return
 nsGlobalWindow
@@ -4377,6 +4398,7 @@ bool
 &
 found
 )
+const
 ;
 /
 /
@@ -4430,6 +4452,7 @@ jsid
 >
 id
 )
+const
 ;
 bool
 AppendIndexedPropertyNames
@@ -4447,6 +4470,7 @@ AutoIdVector
 &
 props
 )
+const
 ;
 }
 ;
@@ -4538,6 +4562,7 @@ bool
 *
 extensible
 )
+const
 {
 /
 /
@@ -4619,6 +4644,7 @@ JSObject
 >
 proxy
 )
+const
 {
 /
 /
@@ -4658,6 +4684,7 @@ JSObject
 >
 proxy
 )
+const
 {
 MOZ_ASSERT
 (
@@ -4689,6 +4716,7 @@ JSObject
 *
 proxy
 )
+const
 {
 nsGlobalWindow
 *
@@ -4817,6 +4845,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 {
 /
 /
@@ -4955,6 +4984,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 {
 bool
 found
@@ -5057,6 +5087,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 {
 int32_t
 index
@@ -5170,6 +5201,7 @@ AutoIdVector
 &
 props
 )
+const
 {
 /
 /
@@ -5274,6 +5306,7 @@ bool
 *
 bp
 )
+const
 {
 if
 (
@@ -5414,6 +5447,7 @@ AutoIdVector
 &
 props
 )
+const
 {
 /
 /
@@ -5518,6 +5552,7 @@ bool
 *
 bp
 )
+const
 {
 if
 (
@@ -5590,6 +5625,7 @@ bool
 *
 bp
 )
+const
 {
 if
 (
@@ -5679,6 +5715,7 @@ Value
 >
 vp
 )
+const
 {
 if
 (
@@ -5832,6 +5869,7 @@ Value
 >
 vp
 )
+const
 {
 int32_t
 index
@@ -5931,6 +5969,7 @@ AutoIdVector
 &
 props
 )
+const
 {
 /
 /
@@ -6007,6 +6046,7 @@ Value
 >
 vp
 )
+const
 {
 /
 /
@@ -6097,6 +6137,7 @@ bool
 &
 found
 )
+const
 {
 nsCOMPtr
 <
@@ -6281,6 +6322,7 @@ jsid
 >
 id
 )
+const
 {
 int32_t
 index
@@ -6346,6 +6388,7 @@ AutoIdVector
 &
 props
 )
+const
 {
 uint32_t
 length
@@ -6462,6 +6505,7 @@ JSObject
 >
 callable
 )
+const
 {
 return
 js
@@ -6503,6 +6547,7 @@ jsid
 >
 id
 )
+const
 {
 return
 js
@@ -6559,6 +6604,7 @@ JSObject
 >
 wrapper
 )
+const
 MOZ_OVERRIDE
 ;
 static
@@ -6589,6 +6635,7 @@ JSObject
 >
 proxy
 )
+const
 {
 MOZ_ASSERT
 (

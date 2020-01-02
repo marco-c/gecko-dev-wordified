@@ -218,6 +218,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -253,6 +254,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -278,6 +280,7 @@ AutoIdVector
 &
 props
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -303,6 +306,7 @@ AutoIdVector
 &
 props
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -328,6 +332,7 @@ AutoIdVector
 &
 props
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -360,6 +365,7 @@ Value
 >
 vp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -385,6 +391,7 @@ JS
 CallArgs
 args
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -411,6 +418,7 @@ JS
 MutableHandleValue
 vp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -449,6 +457,7 @@ bool
 *
 bp
 )
+const
 MOZ_OVERRIDE
 ;
 static
