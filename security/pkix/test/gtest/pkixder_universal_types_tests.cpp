@@ -542,9 +542,8 @@ value
 )
 )
 ;
-ASSERT_EQ
+ASSERT_TRUE
 (
-true
 value
 )
 ;
@@ -607,9 +606,8 @@ value
 )
 )
 ;
-ASSERT_EQ
+ASSERT_FALSE
 (
-false
 value
 )
 ;

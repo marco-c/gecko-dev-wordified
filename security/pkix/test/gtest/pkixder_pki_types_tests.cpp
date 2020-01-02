@@ -433,7 +433,7 @@ expectedAlgorithmID
 ;
 ASSERT_EQ
 (
-0
+0u
 algorithmID
 .
 parameters
