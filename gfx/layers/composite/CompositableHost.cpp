@@ -241,6 +241,17 @@ h
 /
 for
 gfxPlatform
+#
+include
+"
+mozilla
+/
+layers
+/
+PCompositableParent
+.
+h
+"
 namespace
 mozilla
 {

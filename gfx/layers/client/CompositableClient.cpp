@@ -181,6 +181,17 @@ operator
 delete
 etc
 #
+include
+"
+mozilla
+/
+layers
+/
+PCompositableChild
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
