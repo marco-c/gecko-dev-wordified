@@ -1631,6 +1631,9 @@ DrawSingleImage
 (
 &
 aRenderingContext
+PresContext
+(
+)
 imageCon
 nsLayoutUtils
 :

@@ -33258,6 +33258,7 @@ DrawSingleImage
 (
 &
 aRenderingContext
+aPresContext
 mImageContainer
 graphicsFilter
 aFill
@@ -33338,6 +33339,7 @@ DrawPixelSnapped
 (
 &
 aRenderingContext
+aPresContext
 drawable
 graphicsFilter
 aDest
@@ -33655,6 +33657,7 @@ DrawBackgroundImage
 (
 &
 aRenderingContext
+aPresContext
 mImageContainer
 nsIntSize
 (
@@ -34343,6 +34346,7 @@ DrawSingleImage
 (
 &
 aRenderingContext
+aPresContext
 subImage
 graphicsFilter
 aFill
@@ -34375,6 +34379,7 @@ DrawImage
 (
 &
 aRenderingContext
+aPresContext
 subImage
 graphicsFilter
 tile
@@ -34908,6 +34913,7 @@ DrawPixelSnapped
 (
 &
 aRenderingContext
+aPresContext
 srcSliceDrawable
 graphicsFilter
 destTile

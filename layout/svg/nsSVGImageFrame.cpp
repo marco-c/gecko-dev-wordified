@@ -2457,6 +2457,9 @@ nsLayoutUtils
 DrawSingleImage
 (
 aContext
+PresContext
+(
+)
 mImageContainer
 nsLayoutUtils
 :
@@ -2496,6 +2499,9 @@ nsLayoutUtils
 DrawSingleUnscaledImage
 (
 aContext
+PresContext
+(
+)
 mImageContainer
 nsLayoutUtils
 :

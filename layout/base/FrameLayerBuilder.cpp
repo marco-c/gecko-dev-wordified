@@ -23786,6 +23786,9 @@ DebugPaintItem
 nsRenderingContext
 *
 aDest
+nsPresContext
+*
+aPresContext
 nsDisplayItem
 *
 aItem
@@ -23831,7 +23834,7 @@ bounds
 .
 ScaleInverse
 (
-aDest
+aPresContext
 -
 >
 AppUnitsPerDevPixel
@@ -24854,6 +24857,7 @@ sDumpPainting
 DebugPaintItem
 (
 aRC
+aPresContext
 cdi
 -
 >
