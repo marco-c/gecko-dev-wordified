@@ -230,6 +230,12 @@ JS
 :
 DoubleNaNValue
 ;
+using
+JS
+:
+:
+ForOfIterator
+;
 /
 *
 *
