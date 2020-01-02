@@ -494,7 +494,7 @@ gfxContext
 *
 aContext
 const
-gfxMatrix
+Matrix
 &
 aTransform
 )

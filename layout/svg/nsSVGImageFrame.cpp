@@ -114,13 +114,6 @@ h
 #
 include
 "
-gfxMatrix
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h
@@ -3241,7 +3234,7 @@ height
 -
 6
 ;
-gfxMatrix
+Matrix
 scaling
 ;
 if
