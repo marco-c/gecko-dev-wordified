@@ -12,7 +12,7 @@ table_generator
 f
 )
 :
-    
+  
 return
 "
 \
@@ -73,7 +73,7 @@ with
 open
 (
 "
-DeprecatedPremultiplyTables
+PremultiplyTables
 .
 h
 "
@@ -92,10 +92,7 @@ write
 "
 const
 uint8_t
-gfxUtils
-:
-:
-sPremultiplyTable
+PremultiplyTable
 [
 256
 *
@@ -163,10 +160,7 @@ write
 "
 const
 uint8_t
-gfxUtils
-:
-:
-sUnpremultiplyTable
+UnpremultiplyTable
 [
 256
 *

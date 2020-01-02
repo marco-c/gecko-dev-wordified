@@ -193,7 +193,7 @@ gfx
 #
 include
 "
-PremultiplyTables
+DeprecatedPremultiplyTables
 .
 h
 "
