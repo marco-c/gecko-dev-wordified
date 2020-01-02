@@ -655,12 +655,6 @@ AutoCreateAndDestroyReentrantMonitor
 (
 )
 {
-if
-(
-*
-mReentrantMonitorPtr
-)
-{
 delete
 *
 mReentrantMonitorPtr
@@ -670,7 +664,6 @@ mReentrantMonitorPtr
 =
 nullptr
 ;
-}
 }
 private
 :

@@ -499,17 +499,11 @@ BaseStringEnumerator
 (
 )
 {
-if
-(
-mArray
-)
-{
 delete
 [
 ]
 mArray
 ;
-}
 }
 void
 Sort

@@ -5387,11 +5387,6 @@ NS_IF_RELEASE
 gDebug
 )
 ;
-if
-(
-sIOThread
-)
-{
 delete
 sIOThread
 ;
@@ -5399,12 +5394,6 @@ sIOThread
 =
 nullptr
 ;
-}
-if
-(
-sMessageLoop
-)
-{
 delete
 sMessageLoop
 ;
@@ -5412,7 +5401,6 @@ sMessageLoop
 =
 nullptr
 ;
-}
 if
 (
 sCommandLineWasInitialized
@@ -5430,11 +5418,6 @@ sCommandLineWasInitialized
 false
 ;
 }
-if
-(
-sExitManager
-)
-{
 delete
 sExitManager
 ;
@@ -5442,7 +5425,6 @@ sExitManager
 =
 nullptr
 ;
-}
 Omnijar
 :
 :
@@ -5457,11 +5439,6 @@ Shutdown
 (
 )
 ;
-if
-(
-sMainHangMonitor
-)
-{
 delete
 sMainHangMonitor
 ;
@@ -5469,7 +5446,6 @@ sMainHangMonitor
 =
 nullptr
 ;
-}
 BackgroundHangMonitor
 :
 :
