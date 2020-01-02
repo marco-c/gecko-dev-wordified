@@ -1012,6 +1012,17 @@ SIMD
 )
 )
 \
+real
+(
+WeakSet
+42
+js_InitWeakSetClass
+OCLASP
+(
+WeakSet
+)
+)
+\
 #
 define
 JS_FOR_EACH_PROTOTYPE
