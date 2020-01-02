@@ -152,6 +152,13 @@ object_static_methods
 [
 ]
 ;
+extern
+const
+JSFunctionSpec
+object_static_selfhosted_methods
+[
+]
+;
 /
 /
 Object
