@@ -17321,7 +17321,7 @@ pn
 =
 loopStack_
 .
-back
+popCopy
 (
 )
 ;
@@ -17334,12 +17334,6 @@ has
 (
 pn
 )
-)
-;
-loopStack_
-.
-popBack
-(
 )
 ;
 breakableStack_

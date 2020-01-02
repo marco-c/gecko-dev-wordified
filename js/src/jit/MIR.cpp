@@ -4928,14 +4928,12 @@ useValueNumbers
 {
 JS_ASSERT
 (
+!
 inputs_
 .
-length
+empty
 (
 )
-!
-=
-0
 )
 ;
 MDefinition

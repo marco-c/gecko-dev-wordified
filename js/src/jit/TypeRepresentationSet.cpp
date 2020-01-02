@@ -485,12 +485,9 @@ if
 (
 entries_
 .
-length
+empty
 (
 )
-=
-=
-0
 )
 return
 entries_
