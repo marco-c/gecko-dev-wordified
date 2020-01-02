@@ -5321,7 +5321,7 @@ GAUSSIAN_SCALE_FACTOR
 +
 0
 .
-5f
+5
 )
 )
 static_cast
@@ -5339,7 +5339,7 @@ GAUSSIAN_SCALE_FACTOR
 +
 0
 .
-5f
+5
 )
 )
 )
