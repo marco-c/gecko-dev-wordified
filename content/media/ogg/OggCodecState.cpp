@@ -1791,10 +1791,7 @@ pic_height
 if
 (
 !
-VideoInfo
-:
-:
-ValidateVideoRegion
+IsValidVideoRegion
 (
 frame
 picture

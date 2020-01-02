@@ -853,10 +853,7 @@ height
 if
 (
 !
-VideoInfo
-:
-:
-ValidateVideoRegion
+IsValidVideoRegion
 (
 frameSize
 pictureRect

@@ -1152,10 +1152,7 @@ aspectDenom
 if
 (
 !
-VideoInfo
-:
-:
-ValidateVideoRegion
+IsValidVideoRegion
 (
 frameSize
 pictureRegion
