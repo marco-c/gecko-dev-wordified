@@ -4863,7 +4863,14 @@ NativeWindow
 .
 contextmenus
 .
+_disableInGuest
+(
+NativeWindow
+.
+contextmenus
+.
 linkBookmarkableContext
+)
 function
 (
 aTarget
