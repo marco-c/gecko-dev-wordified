@@ -1782,6 +1782,7 @@ GeckoProfilerInitRAII
 {
 public
 :
+explicit
 GeckoProfilerInitRAII
 (
 void
