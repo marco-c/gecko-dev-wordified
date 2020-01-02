@@ -1180,7 +1180,7 @@ c1
 *
 This
 destroys
-c1
+c2
 moves
 c1
 '
