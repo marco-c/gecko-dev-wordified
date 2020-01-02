@@ -6549,6 +6549,7 @@ method
 method
 )
 false
+false
 )
 ;
 ProcessHeader
@@ -6564,6 +6565,7 @@ path
 )
 path
 )
+true
 false
 )
 ;
@@ -6581,6 +6583,7 @@ authority
 host
 )
 false
+false
 )
 ;
 ProcessHeader
@@ -6596,6 +6599,7 @@ scheme
 )
 scheme
 )
+false
 false
 )
 ;
@@ -6616,6 +6620,7 @@ method
 method
 )
 false
+false
 )
 ;
 ProcessHeader
@@ -6631,6 +6636,7 @@ authority
 )
 host
 )
+false
 false
 )
 ;
@@ -7251,6 +7257,7 @@ nvPair
 name
 cookie
 )
+false
 name
 .
 Length
@@ -7288,6 +7295,7 @@ nvPair
 name
 value
 )
+false
 name
 .
 EqualsLiteral
@@ -9803,6 +9811,8 @@ const
 nvPair
 inputPair
 bool
+noLocalIndex
+bool
 neverIndex
 )
 {
@@ -9953,6 +9963,9 @@ if
 match
 |
 |
+noLocalIndex
+|
+|
 neverIndex
 )
 {
@@ -9992,6 +10005,9 @@ return
 }
 if
 (
+noLocalIndex
+|
+|
 (
 newSize
 >
