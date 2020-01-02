@@ -18988,7 +18988,7 @@ false
 if
 (
 !
-js_NewbornArrayPush
+NewbornArrayPush
 (
 cx
 result
@@ -20964,7 +20964,7 @@ s
 |
 |
 !
-js_NewbornArrayPush
+NewbornArrayPush
 (
 cx
 result
@@ -23045,7 +23045,7 @@ array
 if
 (
 !
-js_NewbornArrayPush
+NewbornArrayPush
 (
 cx
 offsets
@@ -23428,7 +23428,7 @@ false
 if
 (
 !
-js_NewbornArrayPush
+NewbornArrayPush
 (
 cx
 result
@@ -23736,7 +23736,7 @@ lineno
 if
 (
 !
-js_NewbornArrayPush
+NewbornArrayPush
 (
 cx
 result
@@ -24500,7 +24500,7 @@ dbg
 &
 &
 !
-js_NewbornArrayPush
+NewbornArrayPush
 (
 cx
 arr
@@ -38418,7 +38418,7 @@ false
 if
 (
 !
-js_NewbornArrayPush
+NewbornArrayPush
 (
 cx
 arr
