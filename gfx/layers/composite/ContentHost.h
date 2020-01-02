@@ -1471,7 +1471,7 @@ LayerRenderState
 ;
 }
 virtual
-void
+bool
 CreatedIncrementalTexture
 (
 ISurfaceAllocator

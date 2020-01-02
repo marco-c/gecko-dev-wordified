@@ -1178,7 +1178,7 @@ later
 *
 /
 virtual
-void
+bool
 CreatedIncrementalTexture
 (
 ISurfaceAllocator
@@ -1194,9 +1194,8 @@ nsIntRect
 aBufferRect
 )
 {
-MOZ_ASSERT
+NS_ERROR
 (
-false
 "
 should
 be
@@ -1206,6 +1205,9 @@ not
 used
 "
 )
+;
+return
+false
 ;
 }
 /

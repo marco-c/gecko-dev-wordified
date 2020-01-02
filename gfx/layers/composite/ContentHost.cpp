@@ -2496,7 +2496,7 @@ Clear
 )
 ;
 }
-void
+bool
 ContentHostIncremental
 :
 :
@@ -2534,6 +2534,9 @@ aAllocator
 FlushUpdateQueue
 (
 )
+;
+return
+true
 ;
 }
 void
