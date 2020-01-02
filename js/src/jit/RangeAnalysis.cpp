@@ -7302,10 +7302,7 @@ u
 =
 INT32_MIN
 ?
-int32_t
-(
 INT32_MAX
-)
 :
 -
 u
@@ -7326,10 +7323,7 @@ l
 =
 INT32_MIN
 ?
-int32_t
-(
 INT32_MAX
-)
 :
 -
 l
