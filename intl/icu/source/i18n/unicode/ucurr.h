@@ -77,7 +77,7 @@ c
 )
 2002
 -
-2013
+2012
 International
 Business
 Machines
@@ -2475,6 +2475,9 @@ UErrorCode
 status
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -2542,12 +2545,12 @@ of
 the
 currency
 *
-stable
+draft
 ICU
 49
 *
 /
-U_STABLE
+U_DRAFT
 int32_t
 U_EXPORT2
 ucurr_getNumericCode
@@ -2558,6 +2561,13 @@ UChar
 currency
 )
 ;
+#
+endif
+/
+*
+U_HIDE_DRAFT_API
+*
+/
 #
 endif
 /

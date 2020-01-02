@@ -86,7 +86,7 @@ C
 )
 2008
 -
-2013
+2012
 International
 Business
 Machines
@@ -311,13 +311,6 @@ h
 include
 "
 cmemory
-.
-h
-"
-#
-include
-"
-scriptset
 .
 h
 "
@@ -2149,10 +2142,9 @@ bsset
 sset
 -
 >
-set
+Union
 (
 targScript
-status
 )
 ;
 bsset
@@ -2161,10 +2153,9 @@ bsset
 sset
 -
 >
-set
+Union
 (
 srcScript
-status
 )
 ;
 if

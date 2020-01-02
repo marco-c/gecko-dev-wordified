@@ -87,7 +87,7 @@ C
 )
 1998
 -
-2014
+2012
 International
 Business
 Machines
@@ -2366,6 +2366,12 @@ value
 }
 initParser
 (
+options
+[
+NO_COLLATION_RULES
+]
+.
+doesOccur
 )
 ;
 /
@@ -4318,12 +4324,6 @@ inputDir
 outputDir
 !
 omitBinaryCollation
-options
-[
-NO_COLLATION_RULES
-]
-.
-doesOccur
 status
 )
 ;

@@ -85826,16 +85826,12 @@ DECDPUN
 4
 U_ASSERT
 (
-/
-*
 cut
 >
 =
 0
 &
 &
-*
-/
 cut
 <
 =

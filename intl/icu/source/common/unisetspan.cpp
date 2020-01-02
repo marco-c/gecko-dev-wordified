@@ -86,7 +86,7 @@ C
 )
 2007
 -
-2012
+2011
 International
 Business
 Machines
@@ -3764,7 +3764,7 @@ non
 ASCII
 fastpaths
 in
-U8_NEXT_OR_FFFD
+U8_NEXT
 (
 )
 .
@@ -3773,7 +3773,7 @@ i
 =
 0
 ;
-U8_NEXT_OR_FFFD
+U8_NEXT
 (
 s
 i
@@ -3864,7 +3864,7 @@ s
 i
 c
 -
-3
+1
 )
 ;
 length

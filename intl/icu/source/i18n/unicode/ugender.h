@@ -96,7 +96,7 @@ C
 )
 2010
 -
-2013
+2012
 International
 Business
 Machines
@@ -273,7 +273,7 @@ element
 *
 Genders
 *
-stable
+draft
 ICU
 50
 *
@@ -289,7 +289,7 @@ Male
 gender
 .
 *
-stable
+draft
 ICU
 50
 *
@@ -303,7 +303,7 @@ Female
 gender
 .
 *
-stable
+draft
 ICU
 50
 *
@@ -317,7 +317,7 @@ Neutral
 gender
 .
 *
-stable
+draft
 ICU
 50
 *
@@ -329,7 +329,7 @@ UGENDER_OTHER
 *
 *
 *
-stable
+draft
 ICU
 50
 *
@@ -353,7 +353,7 @@ C
 programs
 .
 *
-stable
+draft
 ICU
 50
 *
@@ -391,11 +391,6 @@ are
 desired
 .
 *
-param
-status
-UErrorCode
-pointer
-*
 return
 A
 UGenderInfo
@@ -411,7 +406,7 @@ error
 occurred
 .
 *
-stable
+draft
 ICU
 50
 *
@@ -500,12 +495,12 @@ the
 list
 .
 *
-stable
+draft
 ICU
 50
 *
 /
-U_STABLE
+U_DRAFT
 UGender
 U_EXPORT2
 ugender_getListGender

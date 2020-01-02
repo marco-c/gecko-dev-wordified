@@ -85,8 +85,6 @@ Copyright
 C
 )
 2011
--
-2012
 International
 Business
 Machines
@@ -482,6 +480,10 @@ return
 scratch
 ;
 }
+UOBJECT_DEFINE_NO_RTTI_IMPLEMENTATION
+(
+Appendable
+)
 /
 /
 UnicodeStringAppendable

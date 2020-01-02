@@ -86,7 +86,7 @@ C
 )
 1999
 -
-2013
+2011
 International
 Business
 Machines
@@ -310,9 +310,6 @@ endif
 #
 if
 U_PLATFORM_IS_LINUX_BASED
-&
-&
-U_HAVE_ELF_H
 #
 define
 U_ELF

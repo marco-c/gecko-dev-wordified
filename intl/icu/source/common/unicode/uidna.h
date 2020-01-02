@@ -87,7 +87,7 @@ C
 )
 2003
 -
-2013
+2012
 International
 Business
 Machines
@@ -789,6 +789,9 @@ ICU
 UIDNA_NONTRANSITIONAL_TO_UNICODE
 =
 0x20
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -867,7 +870,7 @@ CONTEXTO
 check
 .
 *
-stable
+draft
 ICU
 49
 *
@@ -875,6 +878,13 @@ ICU
 UIDNA_CHECK_CONTEXTO
 =
 0x40
+#
+endif
+/
+*
+U_HIDE_DRAFT_API
+*
+/
 }
 ;
 /
@@ -3590,6 +3600,9 @@ ICU
 UIDNA_ERROR_CONTEXTJ
 =
 0x1000
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -3631,7 +3644,7 @@ RFC
 5892
 )
 *
-stable
+draft
 ICU
 49
 *
@@ -3682,7 +3695,7 @@ U
 )
 .
 *
-stable
+draft
 ICU
 49
 *
@@ -3690,6 +3703,13 @@ ICU
 UIDNA_ERROR_CONTEXTO_DIGITS
 =
 0x4000
+#
+endif
+/
+*
+U_HIDE_DRAFT_API
+*
+/
 }
 ;
 /

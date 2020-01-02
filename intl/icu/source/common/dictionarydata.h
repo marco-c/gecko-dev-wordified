@@ -84,7 +84,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -281,9 +281,6 @@ static
 const
 int32_t
 TRIE_TYPE_BYTES
-;
-/
-/
 =
 0
 ;
@@ -291,9 +288,6 @@ static
 const
 int32_t
 TRIE_TYPE_UCHARS
-;
-/
-/
 =
 1
 ;
@@ -301,9 +295,6 @@ static
 const
 int32_t
 TRIE_TYPE_MASK
-;
-/
-/
 =
 7
 ;
@@ -311,9 +302,6 @@ static
 const
 int32_t
 TRIE_HAS_VALUES
-;
-/
-/
 =
 8
 ;
@@ -321,9 +309,6 @@ static
 const
 int32_t
 TRANSFORM_NONE
-;
-/
-/
 =
 0
 ;
@@ -331,9 +316,6 @@ static
 const
 int32_t
 TRANSFORM_TYPE_OFFSET
-;
-/
-/
 =
 0x1000000
 ;
@@ -341,9 +323,6 @@ static
 const
 int32_t
 TRANSFORM_TYPE_MASK
-;
-/
-/
 =
 0x7f000000
 ;
@@ -351,9 +330,6 @@ static
 const
 int32_t
 TRANSFORM_OFFSET_MASK
-;
-/
-/
 =
 0x1fffff
 ;

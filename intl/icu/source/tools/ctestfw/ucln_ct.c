@@ -77,7 +77,7 @@ c
 )
 2007
 -
-2013
+2010
 International
 Business
 Machines
@@ -180,13 +180,13 @@ ucln_imp
 h
 "
 int
-uprv_dummyFunction_CT
+dummyFunction
 (
 void
 )
 ;
 int
-uprv_dummyFunction_CT
+dummyFunction
 (
 void
 )
