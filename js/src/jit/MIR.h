@@ -26945,7 +26945,14 @@ MArrayPush
 public
 MBinaryInstruction
 public
+MixPolicy
+<
 SingleObjectPolicy
+NoFloatPolicy
+<
+1
+>
+>
 {
 MArrayPush
 (
