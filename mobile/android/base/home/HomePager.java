@@ -1414,6 +1414,17 @@ boolean
 hasFocus
 )
 {
+if
+(
+mHomeBanner
+=
+=
+null
+)
+{
+return
+;
+}
 /
 /
 We
