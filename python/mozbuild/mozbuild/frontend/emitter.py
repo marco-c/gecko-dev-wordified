@@ -1413,36 +1413,6 @@ RELATIVEDIR
 )
 )
         
-if
-sandbox
-.
-get
-(
-'
-LIBXUL_LIBRARY
-'
-)
-and
-sandbox
-.
-get
-(
-'
-FORCE_STATIC_LIB
-'
-)
-:
-            
-raise
-SandboxValidationError
-(
-'
-LIBXUL_LIBRARY
-implies
-FORCE_STATIC_LIB
-'
-)
-        
 #
 Proxy
 some
@@ -1587,10 +1557,6 @@ JS_MODULES_PATH
             
 '
 LIBS
-'
-            
-'
-LIBXUL_LIBRARY
 '
             
 '

@@ -2753,21 +2753,6 @@ host_bar
 ]
             
 '
-LIBXUL_LIBRARY
-'
-:
-[
-                
-'
-LIBXUL_LIBRARY
-:
-=
-1
-'
-            
-]
-            
-'
 MSVC_ENABLE_PGO
 '
 :

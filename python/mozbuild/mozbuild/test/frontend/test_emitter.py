@@ -1260,10 +1260,6 @@ lib
 '
 ]
             
-LIBXUL_LIBRARY
-=
-True
-            
 MSVC_ENABLE_PGO
 =
 True
