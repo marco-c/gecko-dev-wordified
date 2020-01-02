@@ -578,7 +578,9 @@ BACKEND_SKIA
 InitBackendPrefs
 (
 canvasMask
+BACKEND_CAIRO
 contentMask
+BACKEND_CAIRO
 )
 ;
 }

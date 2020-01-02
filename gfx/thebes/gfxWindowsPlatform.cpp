@@ -2515,6 +2515,11 @@ contentMask
 <
 BACKEND_CAIRO
 ;
+BackendType
+defaultBackend
+=
+BACKEND_CAIRO
+;
 if
 (
 mRenderMode
@@ -2539,6 +2544,10 @@ contentMask
 <
 BACKEND_DIRECT2D
 ;
+defaultBackend
+=
+BACKEND_DIRECT2D
+;
 }
 else
 {
@@ -2554,7 +2563,9 @@ BACKEND_SKIA
 InitBackendPrefs
 (
 canvasMask
+defaultBackend
 contentMask
+defaultBackend
 )
 ;
 }
