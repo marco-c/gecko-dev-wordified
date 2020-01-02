@@ -311,8 +311,8 @@ nsACString
 aType
 )
 ;
-void
-CallDecoderInitialization
+nsresult
+EnqueueDecoderInitialization
 (
 )
 ;
