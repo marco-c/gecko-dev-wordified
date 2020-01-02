@@ -2248,13 +2248,6 @@ BufferType
 GMP_BufferSingle
 )
 ;
-aEncodedFrame
--
->
-Destroy
-(
-)
-;
 return
 ;
 }
@@ -2304,13 +2297,6 @@ size
 ;
 }
 }
-aEncodedFrame
--
->
-Destroy
-(
-)
-;
 }
 /
 /

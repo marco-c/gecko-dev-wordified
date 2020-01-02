@@ -472,6 +472,12 @@ mCallback
 GMPVideoHostImpl
 mVideoHost
 ;
+nsCOMPtr
+<
+nsIThread
+>
+mEncodedThread
+;
 }
 ;
 }
