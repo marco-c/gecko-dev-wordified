@@ -1932,6 +1932,12 @@ pseudoElement
 aPseudoElement
 )
 {
+mFlags
+.
+mCancelable
+=
+false
+;
 }
 nsString
 propertyName
@@ -2198,6 +2204,12 @@ pseudoElement
 aPseudoElement
 )
 {
+mFlags
+.
+mCancelable
+=
+false
+;
 }
 nsString
 animationName
