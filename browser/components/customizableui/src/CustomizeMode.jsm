@@ -1481,7 +1481,7 @@ pass
 true
 "
 to
-ensureRegistered
+ensureReady
 to
 /
 /
@@ -1498,6 +1498,18 @@ and
 /
 endBatchUpdate
 .
+if
+(
+!
+window
+.
+PanelUI
+.
+isReady
+(
+)
+)
+{
 yield
 window
 .
@@ -1508,6 +1520,7 @@ ensureReady
 true
 )
 ;
+}
 /
 /
 Hide
