@@ -1588,6 +1588,9 @@ IsNull
 )
 )
 {
+mozilla
+:
+:
 TimeDuration
 delta
 =
@@ -1893,6 +1896,9 @@ IsNull
 sample
 )
 {
+mozilla
+:
+:
 TimeDuration
 delta
 =
@@ -1931,6 +1937,9 @@ if
 sample
 )
 {
+mozilla
+:
+:
 TimeDuration
 delta
 =

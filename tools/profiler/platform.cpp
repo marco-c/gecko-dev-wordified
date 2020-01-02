@@ -307,6 +307,9 @@ itself
 bool
 stack_key_initialized
 ;
+mozilla
+:
+:
 TimeStamp
 sLastTracerEvent
 ;
@@ -315,6 +318,9 @@ sLastTracerEvent
 is
 raced
 on
+mozilla
+:
+:
 TimeStamp
 sStartTime
 ;
@@ -5375,6 +5381,9 @@ void
 mozilla_sampler_responsiveness
 (
 const
+mozilla
+:
+:
 TimeStamp
 &
 aTime
@@ -5714,6 +5723,9 @@ double
 mozilla_sampler_time
 (
 const
+mozilla
+:
+:
 TimeStamp
 &
 aTime
@@ -5733,6 +5745,9 @@ return
 0
 ;
 }
+mozilla
+:
+:
 TimeDuration
 delta
 =
@@ -5756,6 +5771,9 @@ mozilla_sampler_time
 return
 mozilla_sampler_time
 (
+mozilla
+:
+:
 TimeStamp
 :
 :
@@ -6075,9 +6093,15 @@ stack
 return
 ;
 }
+mozilla
+:
+:
 TimeDuration
 delta
 =
+mozilla
+:
+:
 TimeStamp
 :
 :
