@@ -196,13 +196,6 @@ space
 ;
 const
 char16_t
-nbsp
-(
-0xa0
-)
-;
-const
-char16_t
 nl
 (
 '
@@ -863,6 +856,13 @@ char16_t
 c
 )
 {
+const
+char16_t
+nbsp
+(
+0xa0
+)
+;
 return
 (
 nsCRT

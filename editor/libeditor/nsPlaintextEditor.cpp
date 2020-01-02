@@ -1890,8 +1890,6 @@ editor
 /
 libeditor
 /
-text
-/
 tests
 /
 test_texteditor_keyevent_handling
