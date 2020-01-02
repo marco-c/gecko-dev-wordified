@@ -2532,6 +2532,13 @@ AssertCurrentThreadIn
 )
 ;
 }
+void
+SetState
+(
+State
+aState
+)
+;
 /
 /
 Inserts
