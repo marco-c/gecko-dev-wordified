@@ -3996,7 +3996,10 @@ index
 count
 <
 =
+uint32_t
+(
 index
+)
 )
 return
 true
@@ -4155,7 +4158,10 @@ index
 count
 <
 =
+uint32_t
+(
 index
+)
 )
 return
 true
