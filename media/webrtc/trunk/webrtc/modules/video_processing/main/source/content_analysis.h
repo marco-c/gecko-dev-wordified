@@ -417,8 +417,10 @@ uint8_t
 *
 orig_frame_
 ;
+scoped_ptr
+<
 uint8_t
-*
+>
 prev_frame_
 ;
 int
@@ -480,8 +482,10 @@ first_frame_
 bool
 ca_Init_
 ;
+scoped_ptr
+<
 VideoContentMetrics
-*
+>
 content_metrics_
 ;
 }
