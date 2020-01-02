@@ -935,6 +935,14 @@ ins
 )
 ;
 bool
+visitClz
+(
+MClz
+*
+ins
+)
+;
+bool
 visitSqrt
 (
 MSqrt

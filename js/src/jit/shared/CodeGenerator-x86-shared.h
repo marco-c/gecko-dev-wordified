@@ -1060,6 +1060,15 @@ ins
 ;
 virtual
 bool
+visitClzI
+(
+LClzI
+*
+ins
+)
+;
+virtual
+bool
 visitSqrtD
 (
 LSqrtD

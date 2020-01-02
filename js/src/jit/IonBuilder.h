@@ -4499,6 +4499,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineMathClz32
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineMathRound
 (
 CallInfo
