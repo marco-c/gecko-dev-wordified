@@ -528,8 +528,6 @@ FUNCTION
 |
 HAS_SCOPECHAIN
 |
-HAS_BLOCKCHAIN
-|
 flagsArg
 ;
 argv_
