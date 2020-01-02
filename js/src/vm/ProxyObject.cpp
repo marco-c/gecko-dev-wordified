@@ -120,6 +120,13 @@ h
 #
 include
 "
+jscompartment
+.
+h
+"
+#
+include
+"
 jsgcinlines
 .
 h
