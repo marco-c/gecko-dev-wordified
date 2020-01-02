@@ -1538,6 +1538,9 @@ stderr
 sys
 .
 stderr
+abort_on_missing
+=
+False
 )
 :
         
@@ -1669,6 +1672,15 @@ test_modules
 #
 for
 runtime
+        
+self
+.
+abort_on_missing
+=
+abort_on_missing
+#
+cfx
+eol
     
 def
 build
@@ -3929,6 +3941,66 @@ intentionally
                         
 continue
                     
+if
+not
+self
+.
+abort_on_missing
+:
+                        
+#
+print
+a
+warning
+but
+tolerate
+missing
+modules
+                        
+#
+unless
+cfx
+-
+-
+abort
+-
+on
+-
+missing
+-
+module
+flag
+was
+set
+                        
+print
+>
+>
+self
+.
+stderr
+"
+Warning
+:
+missing
+module
+:
+%
+s
+"
+%
+reqname
+                        
+me
+.
+add_requirement
+(
+reqname
+reqname
+)
+                        
+continue
+                    
 lineno
 =
 locations
@@ -5766,6 +5838,9 @@ extra_modules
 =
 [
 ]
+abort_on_missing
+=
+False
 )
 :
     
@@ -5981,6 +6056,10 @@ target_cfg
 pkg_cfg
 deps
 extra_modules
+                          
+abort_on_missing
+=
+abort_on_missing
 )
     
 mxt

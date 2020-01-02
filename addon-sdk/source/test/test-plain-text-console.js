@@ -2609,6 +2609,16 @@ ID
 "
 )
 ;
+prefs
+.
+set
+(
+SDK_LOG_LEVEL_PREF
+"
+all
+"
+)
+;
 let
 messages
 =
@@ -2850,6 +2860,10 @@ log
 event
 "
 onMessage
+)
+;
+restorePrefs
+(
 )
 ;
 }
