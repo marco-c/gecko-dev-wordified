@@ -189,12 +189,6 @@ mozJSSubScriptLoader
 (
 )
 ;
-virtual
-~
-mozJSSubScriptLoader
-(
-)
-;
 /
 /
 all
@@ -209,6 +203,12 @@ NS_DECL_ISUPPORTS
 NS_DECL_MOZIJSSUBSCRIPTLOADER
 private
 :
+virtual
+~
+mozJSSubScriptLoader
+(
+)
+;
 nsresult
 ReadScript
 (

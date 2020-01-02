@@ -6831,6 +6831,8 @@ use_watchdog
 )
 ;
 }
+protected
+:
 virtual
 ~
 WatchdogManager
@@ -6902,6 +6904,8 @@ use_watchdog
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Observe
 (
@@ -10621,6 +10625,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+JSMainRuntimeTemporaryPeakReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -16367,6 +16377,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+JSMainRuntimeCompartmentsReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

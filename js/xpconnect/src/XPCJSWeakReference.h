@@ -150,6 +150,12 @@ MOZ_FINAL
 public
 xpcIJSWeakReference
 {
+~
+xpcJSWeakReference
+(
+)
+{
+}
 public
 :
 xpcJSWeakReference

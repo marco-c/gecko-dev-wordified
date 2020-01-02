@@ -1242,6 +1242,12 @@ MOZ_FINAL
 public
 nsIXPCScriptable
 {
+~
+SharedScriptableHelperForJSIID
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

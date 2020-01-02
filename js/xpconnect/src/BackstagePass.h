@@ -243,6 +243,8 @@ prin
 )
 {
 }
+private
+:
 virtual
 ~
 BackstagePass
@@ -250,8 +252,6 @@ BackstagePass
 )
 {
 }
-private
-:
 nsCOMPtr
 <
 nsIPrincipal
