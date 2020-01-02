@@ -2176,7 +2176,7 @@ isUndefined
 (
 )
 ?
-NULL
+nullptr
 :
 &
 get_
@@ -2215,7 +2215,7 @@ isUndefined
 (
 )
 ?
-NULL
+nullptr
 :
 &
 set_
@@ -2332,7 +2332,7 @@ isUndefined
 (
 )
 ?
-NULL
+nullptr
 :
 &
 get_
@@ -2358,7 +2358,7 @@ isUndefined
 (
 )
 ?
-NULL
+nullptr
 :
 &
 set_
@@ -4966,7 +4966,7 @@ return
 table_
 !
 =
-NULL
+nullptr
 ;
 }
 ShapeTable
@@ -5629,11 +5629,11 @@ metadata
 )
 rawGetter
 (
-NULL
+nullptr
 )
 rawSetter
 (
-NULL
+nullptr
 )
 compartment
 (
@@ -6485,7 +6485,7 @@ this
 >
 listp
 =
-NULL
+nullptr
 ;
 insertIntoDictionary
 (
@@ -6908,7 +6908,7 @@ cursor
 ExclusiveContext
 *
 )
-NULL
+nullptr
 shape
 )
 {
@@ -10195,7 +10195,7 @@ return
 shape
 =
 =
-NULL
+nullptr
 ;
 }
 inline
@@ -10468,7 +10468,7 @@ shortid
 )
 parent
 (
-NULL
+nullptr
 )
 {
 kids
@@ -10524,7 +10524,7 @@ shortid_
 )
 parent
 (
-NULL
+nullptr
 )
 {
 JS_ASSERT
@@ -10601,7 +10601,7 @@ pspp
 *
 pspp
 =
-NULL
+nullptr
 ;
 if
 (
@@ -10789,7 +10789,7 @@ shape
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -10934,7 +10934,7 @@ shape
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 inline
@@ -11036,11 +11036,11 @@ return
 a
 non
 -
-NULL
+nullptr
 shape
+/
+/
 to
-/
-/
 signify
 that
 the

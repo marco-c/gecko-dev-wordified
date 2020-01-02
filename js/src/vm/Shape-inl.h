@@ -206,11 +206,11 @@ metadata
 )
 rawGetter
 (
-NULL
+nullptr
 )
 rawSetter
 (
-NULL
+nullptr
 )
 compartment
 (

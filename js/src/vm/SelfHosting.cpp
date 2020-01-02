@@ -453,7 +453,7 @@ if
 shClass
 )
 return
-NULL
+nullptr
 ;
 cx
 -
@@ -508,7 +508,7 @@ if
 proto
 )
 return
-NULL
+nullptr
 ;
 return
 proto
@@ -702,7 +702,7 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
+nullptr
 }
 ;
 bool
@@ -958,9 +958,9 @@ errorArgs
 ]
 =
 {
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 }
 ;
 for
@@ -1111,7 +1111,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 errorNumber
 errorArgs
 [
@@ -4265,7 +4265,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEFAULT_LOCALE_ERROR
 )
 ;
@@ -4758,7 +4758,7 @@ DefaultObjectForContextOrNull
 cx
 )
 :
-NULL
+nullptr
 )
 ;
 if
@@ -4772,7 +4772,7 @@ JS_NewGlobalObject
 cx
 &
 self_hosting_global_class
-NULL
+nullptr
 JS
 :
 :
@@ -5327,7 +5327,7 @@ finishSelfHosting
 {
 selfHostingGlobal_
 =
-NULL
+nullptr
 ;
 SelfHostedClass
 *
@@ -5361,7 +5361,7 @@ tmp
 }
 selfHostedClasses_
 =
-NULL
+nullptr
 ;
 }
 void
@@ -5593,8 +5593,8 @@ val
 get
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 )
@@ -5928,7 +5928,7 @@ clone
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -6025,7 +6025,7 @@ reobj
 getFlags
 (
 )
-NULL
+nullptr
 )
 ;
 }
@@ -6193,7 +6193,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 str
 =
@@ -6233,7 +6233,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 clone
 =
@@ -6266,7 +6266,7 @@ clone
 NewDenseEmptyArray
 (
 cx
-NULL
+nullptr
 TenuredObject
 )
 ;
@@ -6294,7 +6294,7 @@ srcObj
 getClass
 (
 )
-NULL
+nullptr
 cx
 -
 >
@@ -6351,7 +6351,7 @@ clonedObjects
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return

@@ -239,7 +239,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 jschar
 *
@@ -412,7 +412,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 jschar
 *
@@ -575,7 +575,7 @@ if
 allowGC
 )
 return
-NULL
+nullptr
 ;
 jschar
 tmp
@@ -895,7 +895,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 JSRope
 *
@@ -919,7 +919,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 str
 -
@@ -1414,7 +1414,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 str
 -
@@ -1547,7 +1547,7 @@ if
 atom
 )
 return
-NULL
+nullptr
 ;
 return
 atom
@@ -1646,7 +1646,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 JSStableString
 *
@@ -1670,7 +1670,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 str
 -
@@ -1970,7 +1970,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 JSExternalString
 *
@@ -1987,7 +1987,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 str
 -
@@ -2082,7 +2082,7 @@ c
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (

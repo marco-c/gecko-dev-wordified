@@ -600,7 +600,7 @@ parent
 ;
 listp
 =
-NULL
+nullptr
 ;
 }
 void
@@ -1369,7 +1369,7 @@ else
 {
 firstRemoved
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1544,7 +1544,7 @@ NOTREACHED
 *
 /
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -2077,7 +2077,7 @@ if
 nbase
 )
 return
-NULL
+nullptr
 ;
 child
 .
@@ -2272,7 +2272,7 @@ slot
 )
 )
 return
-NULL
+nullptr
 ;
 child
 .
@@ -2392,7 +2392,7 @@ if
 shape
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2448,7 +2448,7 @@ slot
 )
 )
 return
-NULL
+nullptr
 ;
 }
 shape
@@ -2504,7 +2504,7 @@ if
 shape
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -2554,7 +2554,7 @@ shape
 )
 )
 return
-NULL
+nullptr
 ;
 }
 return
@@ -2967,7 +2967,7 @@ JSPROP_SETTER
 ;
 setter
 =
-NULL
+nullptr
 ;
 }
 if
@@ -2990,7 +2990,7 @@ JSPROP_GETTER
 ;
 getter
 =
-NULL
+nullptr
 ;
 }
 return
@@ -3059,7 +3059,7 @@ extensible
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3090,7 +3090,7 @@ asJSContext
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 NormalizeGetterAndSetter
@@ -3108,7 +3108,7 @@ Shape
 *
 spp
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3306,7 +3306,7 @@ ShapeTable
 *
 table
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3398,7 +3398,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 table
 =
@@ -3467,7 +3467,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 spp
 =
@@ -3650,7 +3650,7 @@ if
 nbase
 )
 return
-NULL
+nullptr
 ;
 }
 StackShape
@@ -3804,7 +3804,7 @@ checkShapeConsistency
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -4220,7 +4220,7 @@ extensible
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4251,7 +4251,7 @@ asJSContext
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -4311,7 +4311,7 @@ attrs
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -4477,7 +4477,7 @@ if
 nbase
 )
 return
-NULL
+nullptr
 ;
 }
 /
@@ -4611,7 +4611,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 spp
 =
@@ -4766,7 +4766,7 @@ if
 shape
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4784,7 +4784,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -4835,7 +4835,7 @@ slot
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -4983,7 +4983,7 @@ if
 nbase
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -5070,7 +5070,7 @@ checkShapeConsistency
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 shape
@@ -5392,7 +5392,7 @@ JS_PropertyStub
 )
 getter
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5403,7 +5403,7 @@ JS_StrictPropertyStub
 )
 setter
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5418,7 +5418,7 @@ attrs
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6168,7 +6168,7 @@ else
 *
 spp
 =
-NULL
+nullptr
 ;
 -
 -
@@ -6867,7 +6867,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 oldShape
 =
@@ -6924,7 +6924,7 @@ if
 newShape
 )
 return
-NULL
+nullptr
 ;
 new
 (
@@ -6983,7 +6983,7 @@ isEmptyShape
 (
 )
 ?
-NULL
+nullptr
 :
 table
 .
@@ -8666,7 +8666,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 BaseShapeSet
 :
@@ -8719,7 +8719,7 @@ if
 nbase_
 )
 return
-NULL
+nullptr
 ;
 new
 (
@@ -8757,7 +8757,7 @@ nbase
 )
 )
 return
-NULL
+nullptr
 ;
 return
 nbase
@@ -9017,7 +9017,7 @@ table_
 ;
 table_
 =
-NULL
+nullptr
 ;
 }
 }
@@ -9031,11 +9031,11 @@ InitialShapeEntry
 :
 shape
 (
-NULL
+nullptr
 )
 proto
 (
-NULL
+nullptr
 )
 {
 }
@@ -9428,7 +9428,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 typedef
 InitialShapeEntry
@@ -9550,7 +9550,7 @@ if
 nbase
 )
 return
-NULL
+nullptr
 ;
 Shape
 *
@@ -9577,7 +9577,7 @@ if
 shape
 )
 return
-NULL
+nullptr
 ;
 new
 (
@@ -9615,7 +9615,7 @@ protoRoot
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return

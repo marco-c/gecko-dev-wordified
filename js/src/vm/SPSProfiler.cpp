@@ -184,11 +184,11 @@ rt
 )
 stack_
 (
-NULL
+nullptr
 )
 size_
 (
-NULL
+nullptr
 )
 max_
 (
@@ -208,7 +208,7 @@ JS_ASSERT
 rt
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -539,10 +539,10 @@ if
 str
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -570,7 +570,7 @@ str
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -746,7 +746,7 @@ if
 str
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -791,13 +791,13 @@ pc
 )
 !
 =
-NULL
+nullptr
 )
 ;
 push
 (
 str
-NULL
+nullptr
 script
 script
 -
@@ -888,7 +888,7 @@ JS_ASSERT
 str
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -1111,7 +1111,7 @@ size_
 .
 setLabel
 (
-NULL
+nullptr
 )
 ;
 stack_
@@ -1122,7 +1122,7 @@ size_
 .
 setPC
 (
-NULL
+nullptr
 )
 ;
 }
@@ -1221,7 +1221,7 @@ current
 .
 setScript
 (
-NULL
+nullptr
 )
 ;
 stack
@@ -1528,7 +1528,7 @@ hasAtom
 maybeFun
 !
 =
-NULL
+nullptr
 &
 &
 maybeFun
@@ -1539,7 +1539,7 @@ displayAtom
 )
 !
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1562,7 +1562,7 @@ displayAtom
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1577,7 +1577,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1615,7 +1615,7 @@ filename
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -1635,7 +1635,7 @@ unknown
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1651,7 +1651,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1670,7 +1670,7 @@ buf
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1688,7 +1688,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 size_t
 len
@@ -1718,10 +1718,10 @@ if
 cstr
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 const
 jschar
@@ -1821,7 +1821,7 @@ enabled
 {
 profiler
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -1846,8 +1846,8 @@ js
 RunScript
 "
 this
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -1864,7 +1864,7 @@ if
 profiler
 !
 =
-NULL
+nullptr
 )
 {
 profiler
@@ -1932,7 +1932,7 @@ idx
 =
 NullPCIndex
 ?
-NULL
+nullptr
 :
 script
 (
@@ -1964,7 +1964,7 @@ JS_ASSERT_IF
 pc
 !
 =
-NULL
+nullptr
 script
 (
 )
@@ -1998,7 +1998,7 @@ idx
 pc
 =
 =
-NULL
+nullptr
 ?
 NullPCIndex
 :

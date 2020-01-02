@@ -769,7 +769,7 @@ chars
 =
 getChars
 (
-NULL
+nullptr
 )
 )
 {
@@ -860,7 +860,7 @@ c
 =
 getChars
 (
-NULL
+nullptr
 )
 ;
 if
@@ -1154,7 +1154,7 @@ return
 chars
 !
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -2263,7 +2263,7 @@ wholeCapacity
 )
 )
 return
-NULL
+nullptr
 ;
 pos
 =
@@ -2959,7 +2959,7 @@ wholeLength
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2998,7 +2998,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 ScopedThreadSafeStringInspector
 leftInspector
@@ -3032,7 +3032,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 jschar
 *
@@ -3344,7 +3344,7 @@ if
 s
 )
 return
-NULL
+nullptr
 ;
 PodCopy
 (
@@ -3485,7 +3485,7 @@ if
 news
 )
 return
-NULL
+nullptr
 ;
 js_strncpy
 (
