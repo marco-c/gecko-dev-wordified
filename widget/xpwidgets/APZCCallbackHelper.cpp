@@ -576,6 +576,7 @@ display
 port
 to
 the
+expanded
 scrollable
 rect
 .
@@ -584,7 +585,9 @@ scrollableRect
 =
 aFrameMetrics
 .
-mScrollableRect
+GetExpandedScrollableRect
+(
+)
 ;
 displayPort
 =
