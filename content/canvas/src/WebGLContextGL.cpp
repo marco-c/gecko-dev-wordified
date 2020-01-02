@@ -15360,7 +15360,7 @@ gfxImageFormatARGB32
 *
 format
 =
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 BGRA8
@@ -15380,7 +15380,7 @@ gfxImageFormatRGB24
 *
 format
 =
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 BGRX8
@@ -15406,7 +15406,7 @@ gfxImageFormatA8
 *
 format
 =
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 A8
@@ -15419,7 +15419,7 @@ gfxImageFormatRGB16_565
 *
 format
 =
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 RGB565
@@ -20960,7 +20960,7 @@ actualSrcFormat
 srcFormat
 =
 =
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 Auto
@@ -21576,7 +21576,7 @@ Obj
 (
 )
 )
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 Auto
@@ -21695,7 +21695,7 @@ Length
 )
 -
 1
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 RGBA8
@@ -21916,7 +21916,7 @@ actualSrcFormat
 srcFormat
 =
 =
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 Auto
@@ -22540,7 +22540,7 @@ Obj
 (
 )
 )
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 Auto
@@ -22654,7 +22654,7 @@ Length
 )
 -
 1
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 RGBA8
@@ -22970,7 +22970,7 @@ case
 LOCAL_GL_UNSIGNED_SHORT
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 D16
@@ -22979,7 +22979,7 @@ case
 LOCAL_GL_UNSIGNED_INT
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 D32
@@ -23019,7 +23019,7 @@ case
 LOCAL_GL_UNSIGNED_INT_24_8_EXT
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 D24S8
@@ -23058,7 +23058,7 @@ case
 LOCAL_GL_RGBA
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 RGBA8
@@ -23067,7 +23067,7 @@ case
 LOCAL_GL_RGB
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 RGB8
@@ -23076,7 +23076,7 @@ case
 LOCAL_GL_ALPHA
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 A8
@@ -23085,7 +23085,7 @@ case
 LOCAL_GL_LUMINANCE
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 R8
@@ -23094,7 +23094,7 @@ case
 LOCAL_GL_LUMINANCE_ALPHA
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 RA8
@@ -23119,7 +23119,7 @@ point
 )
 ;
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 BadFormat
@@ -23147,7 +23147,7 @@ case
 LOCAL_GL_RGBA
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 RGBA32F
@@ -23156,7 +23156,7 @@ case
 LOCAL_GL_RGB
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 RGB32F
@@ -23165,7 +23165,7 @@ case
 LOCAL_GL_ALPHA
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 A32F
@@ -23174,7 +23174,7 @@ case
 LOCAL_GL_LUMINANCE
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 R32F
@@ -23183,7 +23183,7 @@ case
 LOCAL_GL_LUMINANCE_ALPHA
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 RA32F
@@ -23208,7 +23208,7 @@ point
 )
 ;
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 BadFormat
@@ -23226,7 +23226,7 @@ case
 LOCAL_GL_UNSIGNED_SHORT_4_4_4_4
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 RGBA4444
@@ -23235,7 +23235,7 @@ case
 LOCAL_GL_UNSIGNED_SHORT_5_5_5_1
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 RGBA5551
@@ -23244,7 +23244,7 @@ case
 LOCAL_GL_UNSIGNED_SHORT_5_6_5
 :
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 RGB565
@@ -23269,7 +23269,7 @@ point
 )
 ;
 return
-WebGLTexelConversions
+WebGLTexelFormat
 :
 :
 BadFormat
