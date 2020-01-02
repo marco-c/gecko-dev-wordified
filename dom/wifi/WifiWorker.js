@@ -2168,6 +2168,14 @@ wanted
 }
 )
 ;
+if
+(
+p2pSupported
+&
+&
+p2pManager
+)
+{
 p2pManager
 .
 setDebug
@@ -2175,6 +2183,7 @@ setDebug
 DEBUG
 )
 ;
+}
 }
 }
 function
