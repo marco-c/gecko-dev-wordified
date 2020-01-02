@@ -1883,6 +1883,17 @@ nsACString
 aCharset
 )
 ;
+void
+TryTLD
+(
+int32_t
+&
+aCharsetSource
+nsACString
+&
+aCharset
+)
+;
 static
 void
 TryFallback
