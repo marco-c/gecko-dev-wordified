@@ -664,7 +664,7 @@ and
 cycle
 collection
 implementation
-NS_IMPL_CYCLE_COLLECTION_INHERITED_2
+NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeAccessible
 Accessible
@@ -4551,7 +4551,7 @@ XULTreeItemAccessibleBase
 :
 nsISupports
 implementation
-NS_IMPL_CYCLE_COLLECTION_INHERITED_1
+NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeItemAccessibleBase
 Accessible
@@ -7037,7 +7037,7 @@ XULTreeItemAccessible
 :
 nsISupports
 implementation
-NS_IMPL_CYCLE_COLLECTION_INHERITED_1
+NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeItemAccessible
 XULTreeItemAccessibleBase

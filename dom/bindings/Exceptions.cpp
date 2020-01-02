@@ -1806,7 +1806,7 @@ JSStackFrame
 )
 {
 }
-NS_IMPL_CYCLE_COLLECTION_2
+NS_IMPL_CYCLE_COLLECTION
 (
 JSStackFrame
 mStackDescription

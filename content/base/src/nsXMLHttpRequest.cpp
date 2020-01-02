@@ -18600,7 +18600,7 @@ mXHR
 ;
 }
 ;
-NS_IMPL_CYCLE_COLLECTION_1
+NS_IMPL_CYCLE_COLLECTION
 (
 AsyncVerifyRedirectCallbackForwarder
 mXHR
@@ -20997,7 +20997,8 @@ nsXMLHttpRequestXPCOMifier
 Can
 '
 t
-NS_IMPL_CYCLE_COLLECTION_1
+NS_IMPL_CYCLE_COLLECTION
+(
 because
 mXHR
 has

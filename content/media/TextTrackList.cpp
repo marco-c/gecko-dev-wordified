@@ -161,7 +161,7 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_CYCLE_COLLECTION_INHERITED_2
+NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 TextTrackList
 DOMEventTargetHelper

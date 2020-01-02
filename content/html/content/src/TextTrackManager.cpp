@@ -596,7 +596,7 @@ return
 true
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_4
+NS_IMPL_CYCLE_COLLECTION
 (
 TextTrackManager
 mMediaElement

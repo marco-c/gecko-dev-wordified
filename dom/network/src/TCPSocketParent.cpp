@@ -269,7 +269,7 @@ connecting
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_2
+NS_IMPL_CYCLE_COLLECTION
 (
 TCPSocketParentBase
 mSocket

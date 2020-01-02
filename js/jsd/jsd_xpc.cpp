@@ -12401,7 +12401,7 @@ nsISupports
 jsdIDebuggerService
 )
 NS_INTERFACE_MAP_END
-NS_IMPL_CYCLE_COLLECTION_10
+NS_IMPL_CYCLE_COLLECTION
 (
 jsdService
 mErrorHook

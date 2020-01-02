@@ -2020,21 +2020,13 @@ fd
 write
 (
 "
-NS_IMPL_CYCLE_COLLECTION_
-%
-u
+NS_IMPL_CYCLE_COLLECTION
 (
 %
 s
 "
 %
-(
-len
-(
-ccattributes
-)
 classname
-)
 )
     
 for

@@ -250,7 +250,7 @@ this
 /
 nsISupports
 methods
-NS_IMPL_CYCLE_COLLECTION_INHERITED_1
+NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 SVGSwitchElement
 SVGSwitchElementBase

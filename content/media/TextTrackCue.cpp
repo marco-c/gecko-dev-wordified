@@ -148,7 +148,7 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_CYCLE_COLLECTION_INHERITED_5
+NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 TextTrackCue
 DOMEventTargetHelper

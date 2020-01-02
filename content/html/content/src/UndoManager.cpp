@@ -817,7 +817,7 @@ mUndoValue
 ;
 }
 ;
-NS_IMPL_CYCLE_COLLECTION_2
+NS_IMPL_CYCLE_COLLECTION
 (
 UndoAttrChanged
 mElement
@@ -1351,7 +1351,7 @@ mUndoValue
 ;
 }
 ;
-NS_IMPL_CYCLE_COLLECTION_1
+NS_IMPL_CYCLE_COLLECTION
 (
 UndoTextChanged
 mContent
@@ -2067,7 +2067,7 @@ mChildren
 ;
 }
 ;
-NS_IMPL_CYCLE_COLLECTION_2
+NS_IMPL_CYCLE_COLLECTION
 (
 UndoContentAppend
 mContent
@@ -2462,7 +2462,7 @@ mNextNode
 ;
 }
 ;
-NS_IMPL_CYCLE_COLLECTION_3
+NS_IMPL_CYCLE_COLLECTION
 (
 UndoContentInsert
 mContent
@@ -2920,7 +2920,7 @@ mNextNode
 ;
 }
 ;
-NS_IMPL_CYCLE_COLLECTION_3
+NS_IMPL_CYCLE_COLLECTION
 (
 UndoContentRemove
 mContent
@@ -4145,7 +4145,7 @@ mFlags
 ;
 }
 ;
-NS_IMPL_CYCLE_COLLECTION_1
+NS_IMPL_CYCLE_COLLECTION
 (
 FunctionCallTxn
 mTransaction
