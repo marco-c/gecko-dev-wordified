@@ -32,7 +32,7 @@ if
 !
 jitTogglesMatch
 (
-Opts_IonEagerNoParallelCompilation
+Opts_IonEagerNoOffthreadCompilation
 )
 )
 quit
@@ -42,7 +42,7 @@ quit
 ;
 withJitOptions
 (
-Opts_IonEagerNoParallelCompilation
+Opts_IonEagerNoOffthreadCompilation
 function
 (
 )

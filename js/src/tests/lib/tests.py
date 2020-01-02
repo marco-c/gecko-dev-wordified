@@ -89,7 +89,7 @@ eager
 -
 ion
 -
-parallel
+offthread
 -
 compile
 =
@@ -117,7 +117,7 @@ eager
 -
 ion
 -
-parallel
+offthread
 -
 compile
 =

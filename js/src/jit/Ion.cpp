@@ -10686,7 +10686,7 @@ runtime
 )
 -
 >
-canUseParallelIonCompilation
+canUseOffthreadIonCompilation
 (
 )
 &

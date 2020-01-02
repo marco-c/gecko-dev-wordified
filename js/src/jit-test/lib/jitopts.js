@@ -282,7 +282,7 @@ trigger
 :
 0
 '
-parallel
+offthread
 -
 compilation
 .
@@ -296,7 +296,7 @@ enable
 /
 Checking
 for
-parallel
+offthread
 compilation
 being
 off
@@ -340,7 +340,7 @@ compiled
 code
 .
 var
-Opts_IonEagerNoParallelCompilation
+Opts_IonEagerNoOffthreadCompilation
 =
 {
 '
@@ -376,7 +376,7 @@ trigger
 :
 0
 '
-parallel
+offthread
 -
 compilation
 .
@@ -387,7 +387,7 @@ enable
 }
 ;
 var
-Opts_Ion2NoParallelCompilation
+Opts_Ion2NoOffthreadCompilation
 =
 {
 '
@@ -423,7 +423,7 @@ trigger
 :
 1
 '
-parallel
+offthread
 -
 compilation
 .
@@ -470,7 +470,7 @@ enable
 :
 0
 '
-parallel
+offthread
 -
 compilation
 .

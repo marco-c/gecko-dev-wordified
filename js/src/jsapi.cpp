@@ -35167,7 +35167,7 @@ JS_PUBLIC_API
 (
 void
 )
-JS_SetParallelIonCompilationEnabled
+JS_SetOffthreadIonCompilation
 (
 JSRuntime
 *
@@ -35182,7 +35182,7 @@ JS_ION
 rt
 -
 >
-setParallelIonCompilationEnabled
+setOffthreadIonCompilationEnabled
 (
 enabled
 )
@@ -35468,7 +35468,7 @@ baseline
 break
 ;
 case
-JSJITCOMPILER_PARALLEL_COMPILATION_ENABLE
+JSJITCOMPILER_OFFTHREAD_COMPILATION_ENABLE
 :
 if
 (
@@ -35481,7 +35481,7 @@ value
 rt
 -
 >
-setParallelIonCompilationEnabled
+setOffthreadIonCompilationEnabled
 (
 true
 )
@@ -35497,7 +35497,7 @@ jit
 IonSpew_Scripts
 "
 Enable
-parallel
+offthread
 compilation
 "
 )
@@ -35515,7 +35515,7 @@ value
 rt
 -
 >
-setParallelIonCompilationEnabled
+setOffthreadIonCompilationEnabled
 (
 false
 )
@@ -35531,7 +35531,7 @@ jit
 IonSpew_Scripts
 "
 Disable
-parallel
+offthread
 compilation
 "
 )
@@ -35623,13 +35623,13 @@ baseline
 )
 ;
 case
-JSJITCOMPILER_PARALLEL_COMPILATION_ENABLE
+JSJITCOMPILER_OFFTHREAD_COMPILATION_ENABLE
 :
 return
 rt
 -
 >
-canUseParallelIonCompilation
+canUseOffthreadIonCompilation
 (
 )
 ;
