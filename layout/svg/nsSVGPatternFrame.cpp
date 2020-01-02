@@ -4561,7 +4561,7 @@ gfxMatrix
 /
 singular
 }
-gfxMatrix
+Matrix
 tm
 =
 SVGContentUtils
@@ -4589,7 +4589,10 @@ GetPreserveAspectRatio
 )
 ;
 return
+ThebesMatrix
+(
 tm
+)
 *
 tCTM
 ;

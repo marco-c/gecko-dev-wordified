@@ -102,13 +102,6 @@ mozilla_dom_SVGMarkerElement_h
 #
 include
 "
-gfxMatrix
-.
-h
-"
-#
-include
-"
 nsSVGAngle
 .
 h
@@ -667,9 +660,6 @@ MOZ_OVERRIDE
 /
 public
 helpers
-mozilla
-:
-:
 gfx
 :
 :
@@ -693,7 +683,10 @@ GetViewBoxRect
 (
 )
 ;
-gfxMatrix
+gfx
+:
+:
+Matrix
 GetViewBoxTransform
 (
 )
@@ -991,7 +984,10 @@ mCoordCtx
 ;
 nsAutoPtr
 <
-gfxMatrix
+gfx
+:
+:
+Matrix
 >
 mViewBoxToViewportTransform
 ;

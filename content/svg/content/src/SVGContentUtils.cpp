@@ -1891,7 +1891,10 @@ return
 r
 ;
 }
-gfxMatrix
+gfx
+:
+:
+Matrix
 SVGContentUtils
 :
 :
@@ -1932,7 +1935,10 @@ GetAnimValue
 )
 ;
 }
-gfxMatrix
+gfx
+:
+:
+Matrix
 SVGContentUtils
 :
 :
@@ -2362,7 +2368,10 @@ d
 aViewboxY
 ;
 return
-gfxMatrix
+gfx
+:
+:
+Matrix
 (
 a
 0

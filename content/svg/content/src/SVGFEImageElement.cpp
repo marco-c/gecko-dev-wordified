@@ -1574,7 +1574,7 @@ nativeSize
 height
 )
 ;
-gfxMatrix
+Matrix
 viewBoxTM
 =
 SVGContentUtils
@@ -1619,10 +1619,7 @@ y
 Matrix
 TM
 =
-ToMatrix
-(
 viewBoxTM
-)
 *
 xyTM
 ;

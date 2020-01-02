@@ -1351,7 +1351,7 @@ height
 nullptr
 )
 ;
-gfxMatrix
+Matrix
 viewBoxTM
 =
 SVGContentUtils
@@ -1372,7 +1372,10 @@ mPreserveAspectRatio
 )
 ;
 return
+ThebesMatrix
+(
 viewBoxTM
+)
 *
 gfxMatrix
 (

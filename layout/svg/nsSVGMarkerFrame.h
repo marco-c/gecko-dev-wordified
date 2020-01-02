@@ -460,12 +460,6 @@ SVGBBox
 GetMarkBBoxContribution
 (
 const
-mozilla
-:
-:
-gfx
-:
-:
 Matrix
 &
 aToBBoxUserspace

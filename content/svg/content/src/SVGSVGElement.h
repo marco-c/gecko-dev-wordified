@@ -1003,7 +1003,10 @@ ShouldSynthesizeViewBox
 )
 ;
 }
-gfxMatrix
+gfx
+:
+:
+Matrix
 GetViewBoxTransform
 (
 )
