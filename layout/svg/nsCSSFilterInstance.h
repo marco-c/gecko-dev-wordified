@@ -486,6 +486,14 @@ aDescr
 )
 ;
 nsresult
+SetAttributesForInvert
+(
+FilterPrimitiveDescription
+&
+aDescr
+)
+;
+nsresult
 SetAttributesForSaturate
 (
 FilterPrimitiveDescription
