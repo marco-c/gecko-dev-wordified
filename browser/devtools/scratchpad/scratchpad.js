@@ -9251,7 +9251,7 @@ the
 Scratchpad
 and
 its
-Editor
+SourceEditor
 are
 ready
 .

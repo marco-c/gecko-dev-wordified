@@ -1376,11 +1376,6 @@ this
 _getKeyBindings
 (
 )
-contextMenu
-:
-"
-sourceEditorContextMenu
-"
 }
 ;
 let
@@ -2348,10 +2343,10 @@ objects
 as
 expected
 by
-Editor
+SourceEditor
 .
 *
-Editor
+SourceEditor
 action
 names
 are

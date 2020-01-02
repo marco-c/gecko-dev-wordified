@@ -298,7 +298,7 @@ still
 references
 the
 same
-Editor
+SourceEditor
 instance
 "
 )
