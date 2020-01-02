@@ -239,6 +239,7 @@ GMPState
 {
 GMPStateNotLoaded
 GMPStateLoaded
+GMPStateUnloading
 GMPStateClosing
 }
 ;

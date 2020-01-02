@@ -442,8 +442,10 @@ MOZ_OVERRIDE
 bool
 mCanSendMessages
 ;
+nsRefPtr
+<
 GMPParent
-*
+>
 mPlugin
 ;
 GMPVideoDecoderCallback

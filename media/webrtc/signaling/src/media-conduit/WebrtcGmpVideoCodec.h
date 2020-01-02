@@ -472,8 +472,10 @@ mozIGeckoMediaPluginService
 >
 mMPS
 ;
+nsCOMPtr
+<
 nsIThread
-*
+>
 mGMPThread
 ;
 GMPVideoEncoderProxy
@@ -728,8 +730,10 @@ mozIGeckoMediaPluginService
 >
 mMPS
 ;
+nsCOMPtr
+<
 nsIThread
-*
+>
 mGMPThread
 ;
 GMPVideoDecoderProxy
