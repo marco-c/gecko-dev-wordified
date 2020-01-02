@@ -4252,6 +4252,7 @@ nsTAString
 .
 *
 /
+MOZ_IMPLICIT
 nsTSubstring_CharT
 (
 const

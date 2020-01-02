@@ -3252,6 +3252,7 @@ typedef
 char
 value_type
 ;
+explicit
 CopyToUpperCase
 (
 nsACString
@@ -3639,6 +3640,7 @@ typedef
 char
 value_type
 ;
+explicit
 CopyToLowerCase
 (
 nsACString

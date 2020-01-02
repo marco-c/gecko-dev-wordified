@@ -964,6 +964,52 @@ to
 do
 here
 }
+#
+ifdef
+MOZ_HAVE_CXX11_NULLPTR
+/
+/
+We
+have
+to
+keep
+this
+constructor
+implicit
+if
+we
+don
+'
+t
+have
+nullptr
+support
+/
+/
+so
+that
+returning
+nullptr
+from
+a
+function
+which
+returns
+an
+already_AddRefed
+/
+/
+type
+works
+on
+the
+older
+b2g
+toolchains
+.
+explicit
+#
+endif
 already_AddRefed
 (
 T
@@ -2404,6 +2450,7 @@ void
 {
 public
 :
+explicit
 nsCOMPtr_base
 (
 nsISupports
@@ -3053,6 +3100,7 @@ mRawPtr
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 T
@@ -3099,6 +3147,7 @@ NSCAP_ASSERT_NO_QUERY_NEEDED
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 already_AddRefed
@@ -3136,6 +3185,7 @@ NSCAP_ASSERT_NO_QUERY_NEEDED
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 already_AddRefed
@@ -3183,6 +3233,7 @@ template
 typename
 U
 >
+MOZ_IMPLICIT
 nsCOMPtr
 (
 already_AddRefed
@@ -3274,6 +3325,7 @@ template
 typename
 U
 >
+MOZ_IMPLICIT
 nsCOMPtr
 (
 already_AddRefed
@@ -3365,6 +3417,7 @@ NSCAP_ASSERT_NO_QUERY_NEEDED
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 const
@@ -3403,6 +3456,7 @@ T
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 const
@@ -3444,6 +3498,7 @@ T
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 const
@@ -3482,6 +3537,7 @@ T
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 const
@@ -3523,6 +3579,7 @@ T
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 const
@@ -3561,6 +3618,7 @@ T
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 const
@@ -3602,6 +3660,7 @@ T
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 const
@@ -5081,6 +5140,7 @@ mRawPtr
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 nsISupports
@@ -5123,6 +5183,7 @@ aRawPtr
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 already_AddRefed
@@ -5156,6 +5217,7 @@ mRawPtr
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 already_AddRefed
@@ -5194,6 +5256,7 @@ mRawPtr
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 const
@@ -5232,6 +5295,7 @@ nsISupports
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 const
@@ -5273,6 +5337,7 @@ nsISupports
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 const
@@ -5311,6 +5376,7 @@ nsISupports
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 const
@@ -5352,6 +5418,7 @@ nsISupports
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 const
@@ -5390,6 +5457,7 @@ nsISupports
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 const
@@ -5431,6 +5499,7 @@ nsISupports
 )
 ;
 }
+MOZ_IMPLICIT
 nsCOMPtr
 (
 const

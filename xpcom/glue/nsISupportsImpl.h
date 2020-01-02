@@ -1554,6 +1554,7 @@ mValue
 )
 {
 }
+explicit
 ThreadSafeAutoRefCnt
 (
 nsrefcnt

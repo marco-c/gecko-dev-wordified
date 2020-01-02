@@ -6375,12 +6375,13 @@ i
 ;
 nsDependentAtomString
 attrName
-=
+(
 attr
 -
 >
 LocalName
 (
+)
 )
 ;
 mBinding
