@@ -1130,7 +1130,7 @@ Action
 static
 const
 Action
-VOID
+NONE
 =
 0x00
 ;
@@ -3688,7 +3688,7 @@ enteredAction
 BaseProxyHandler
 :
 :
-VOID
+NONE
 )
 #
 endif
