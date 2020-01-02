@@ -269,9 +269,6 @@ class
 nsIPrincipal
 ;
 class
-nsSupportsHashtable
-;
-class
 nsHashtable
 ;
 namespace
