@@ -2731,6 +2731,18 @@ See
 nsStyleConsts
 .
 h
+uint8_t
+mBlendMode
+;
+/
+/
+[
+reset
+]
+See
+nsStyleConsts
+.
+h
 Repeat
 mRepeat
 ;
@@ -3031,6 +3043,7 @@ mRepeatCount
 mPositionCount
 mImageCount
 mSizeCount
+mBlendModeCount
 ;
 /
 /

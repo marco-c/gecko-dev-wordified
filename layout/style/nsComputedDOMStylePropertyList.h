@@ -579,6 +579,11 @@ BackgroundAttachment
 )
 COMPUTED_STYLE_PROP
 (
+background_blend_mode
+BackgroundBlendMode
+)
+COMPUTED_STYLE_PROP
+(
 background_clip
 BackgroundClip
 )
