@@ -2290,6 +2290,10 @@ ContentChild
 :
 AllocPMemoryReportRequestChild
 (
+const
+uint32_t
+&
+generation
 )
 {
 return
@@ -2483,6 +2487,10 @@ RecvPMemoryReportRequestConstructor
 PMemoryReportRequestChild
 *
 child
+const
+uint32_t
+&
+generation
 )
 {
 nsCOMPtr
@@ -2641,6 +2649,7 @@ child
 Send__delete__
 (
 child
+generation
 reports
 )
 ;
