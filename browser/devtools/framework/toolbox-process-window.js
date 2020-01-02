@@ -385,11 +385,6 @@ addonActor
 addonActor
 .
 actor
-consoleActor
-:
-addonActor
-.
-consoleActor
 title
 :
 addonActor
