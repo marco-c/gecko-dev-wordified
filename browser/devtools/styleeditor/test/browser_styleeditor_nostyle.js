@@ -140,9 +140,9 @@ UI
 once
 (
 "
-document
+stylesheets
 -
-load
+reset
 "
 testDocumentLoad
 )

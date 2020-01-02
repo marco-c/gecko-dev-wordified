@@ -395,7 +395,6 @@ change
 "
 function
 (
-event
 property
 )
 {
