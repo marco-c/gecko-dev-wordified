@@ -862,6 +862,10 @@ UNSAFE_OP
 (
 ComputeThis
 )
+UNSAFE_OP
+(
+LoadArrowThis
+)
 CUSTOM_OP
 (
 Call

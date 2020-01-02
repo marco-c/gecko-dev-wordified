@@ -691,6 +691,14 @@ ins
 )
 ;
 bool
+visitLoadArrowThis
+(
+MLoadArrowThis
+*
+ins
+)
+;
+bool
 visitCall
 (
 MCall
