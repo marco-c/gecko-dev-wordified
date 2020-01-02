@@ -12606,12 +12606,11 @@ value
 ;
 aOutDescription
 .
-AppendLiteral
+Append
 (
+'
 "
-\
-"
-"
+'
 )
 ;
 }

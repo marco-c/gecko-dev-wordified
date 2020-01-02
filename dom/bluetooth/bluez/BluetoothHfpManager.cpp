@@ -4676,12 +4676,11 @@ mOperatorName
 ;
 message
 .
-AppendLiteral
+Append
 (
+'
 "
-\
-"
-"
+'
 )
 ;
 SendLine

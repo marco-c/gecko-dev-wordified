@@ -6539,12 +6539,12 @@ open
 command
 application
 .
-AppendLiteral
+Append
 (
-"
+'
 \
 \
-"
+'
 )
 ;
 application
