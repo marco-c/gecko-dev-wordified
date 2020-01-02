@@ -204,6 +204,7 @@ require
 (
 '
 .
+.
 /
 places
 -
@@ -2575,17 +2576,5 @@ resetPlaces
 (
 done
 )
-)
-;
-require
-(
-'
-test
-'
-)
-.
-run
-(
-exports
 )
 ;

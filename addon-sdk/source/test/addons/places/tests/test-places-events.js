@@ -224,6 +224,7 @@ require
 (
 '
 .
+.
 /
 places
 -
@@ -2835,17 +2836,3 @@ done
 }
 ;
 }
-require
-(
-'
-sdk
-/
-test
-'
-)
-.
-run
-(
-exports
-)
-;

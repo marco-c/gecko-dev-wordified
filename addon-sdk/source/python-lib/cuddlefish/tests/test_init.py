@@ -538,7 +538,7 @@ tmp_addon_sample
 "
                                          
 "
-fullName
+title
 "
 :
 "

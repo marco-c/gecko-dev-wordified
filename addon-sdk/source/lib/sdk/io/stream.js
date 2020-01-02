@@ -982,9 +982,6 @@ new
 Buffer
 (
 buffer
-stream
-.
-encoding
 )
 )
 ;
