@@ -1687,6 +1687,16 @@ startsWith
 Rooted
 '
 )
+|
+|
+name
+.
+startsWith
+(
+'
+PersistentRooted
+'
+)
 ;
 }
 function
