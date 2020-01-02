@@ -60413,7 +60413,7 @@ if
 jitinfo
 -
 >
-isInSlot
+isAlwaysInSlot
 )
 {
 /
@@ -60443,6 +60443,8 @@ to
 alias
 DOM
 setters
+as
+needed
 .
 get
 =

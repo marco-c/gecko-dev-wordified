@@ -59398,8 +59398,10 @@ infallible
 movable
                       
 aliasSet
-hasSlot
+alwaysInSlot
+lazilyInSlot
 slotIndex
+                      
 returnTypes
 args
 )
@@ -59501,13 +59503,14 @@ things
 assert
 (
 not
-hasSlot
+alwaysInSlot
 or
 movable
 )
 #
 Things
-with
+always
+in
 slots
 had
 better
@@ -59634,11 +59637,26 @@ setters
 /
                   
 {
-isInSlot
+isAlwaysInSlot
 }
 /
 *
-isInSlot
+isAlwaysInSlot
+.
+Only
+relevant
+for
+getters
+.
+*
+/
+                  
+{
+isLazilyCachedInSlot
+}
+/
+*
+isLazilyCachedInSlot
 .
 Only
 relevant
@@ -59738,11 +59756,18 @@ toStringBool
 movable
 )
                 
-isInSlot
+isAlwaysInSlot
 =
 toStringBool
 (
-hasSlot
+alwaysInSlot
+)
+                
+isLazilyCachedInSlot
+=
+toStringBool
+(
+lazilyInSlot
 )
                 
 isTypedMethod
@@ -60131,7 +60156,7 @@ self
 descriptor
 )
             
-isInSlot
+isAlwaysInSlot
 =
 self
 .
@@ -60145,8 +60170,34 @@ StoreInSlot
 )
             
 if
-isInSlot
+self
+.
+member
+.
+slotIndex
+is
+not
+None
 :
+                
+assert
+isAlwaysInSlot
+or
+self
+.
+member
+.
+getExtendedAttribute
+(
+"
+Cached
+"
+)
+                
+isLazilyCachedInSlot
+=
+not
+isAlwaysInSlot
                 
 slotIndex
 =
@@ -60173,9 +60224,23 @@ in
                 
 #
 CGUpdateMemberSlotsMethod
+in
+the
+case
+when
+                
+#
+isAlwaysInSlot
+is
+true
+.
             
 else
 :
+                
+isLazilyCachedInSlot
+=
+False
                 
 slotIndex
 =
@@ -60199,7 +60264,9 @@ getterinfal
 movable
 aliasSet
                                         
-isInSlot
+isAlwaysInSlot
+isLazilyCachedInSlot
+                                        
 slotIndex
                                         
 [
@@ -60340,6 +60407,7 @@ False
 AliasEverything
 "
                                              
+False
 False
 "
 0
@@ -60791,6 +60859,8 @@ Method
 methodInfal
 movable
 aliasSet
+                                        
+False
 False
 "
 0
