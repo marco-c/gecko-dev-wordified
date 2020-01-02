@@ -414,6 +414,8 @@ class
 MacOSMutex
 :
 public
+:
+:
 Mutex
 {
 public
@@ -554,6 +556,8 @@ mutex_
 ;
 }
 ;
+:
+:
 Mutex
 *
 OS
@@ -1773,6 +1777,8 @@ state
 below
 .
 static
+:
+:
 Mutex
 *
 mutex_
