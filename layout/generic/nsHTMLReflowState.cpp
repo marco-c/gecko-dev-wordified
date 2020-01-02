@@ -2248,7 +2248,7 @@ aPadding
 {
 NS_WARN_IF_FALSE
 (
-AvailableWidth
+AvailableISize
 (
 )
 !
@@ -2257,7 +2257,9 @@ NS_UNCONSTRAINEDSIZE
 "
 have
 unconstrained
-width
+inline
+-
+size
 ;
 this
 should
@@ -2273,7 +2275,9 @@ not
 attempts
 at
 intrinsic
-width
+inline
+-
+size
 "
 "
 calculation
@@ -2861,7 +2865,7 @@ nsGkAtoms
 textFrame
 |
 |
-ComputedWidth
+ComputedISize
 (
 )
 !
@@ -2870,7 +2874,9 @@ NS_UNCONSTRAINEDSIZE
 "
 have
 unconstrained
-width
+inline
+-
+size
 ;
 this
 should
@@ -2886,7 +2892,9 @@ not
 attempts
 at
 intrinsic
-width
+inline
+-
+size
 "
 "
 calculation
