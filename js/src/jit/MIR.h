@@ -28698,7 +28698,7 @@ MLoadTypedArrayElement
 public
 MBinaryInstruction
 {
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type
@@ -28712,7 +28712,7 @@ elements
 MDefinition
 *
 index
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type
@@ -28774,7 +28774,7 @@ arrayType
 &
 arrayType
 <
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_MAX
@@ -28801,7 +28801,7 @@ elements
 MDefinition
 *
 index
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type
@@ -28821,7 +28821,7 @@ arrayType
 )
 ;
 }
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type
@@ -28857,7 +28857,7 @@ return
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT32
@@ -28945,7 +28945,7 @@ return
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -29052,7 +29052,7 @@ arrayType
 &
 arrayType
 <
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_MAX
@@ -29129,7 +29129,7 @@ return
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT32
@@ -29206,7 +29206,7 @@ return
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -29278,7 +29278,7 @@ if
 type
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -29294,7 +29294,7 @@ if
 type
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT64
@@ -29484,7 +29484,7 @@ type
 )
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -29583,7 +29583,7 @@ arrayType
 &
 arrayType
 <
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_MAX
@@ -29652,7 +29652,7 @@ return
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT8
@@ -29661,7 +29661,7 @@ TYPE_INT8
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8
@@ -29670,7 +29670,7 @@ TYPE_UINT8
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8_CLAMPED
@@ -29688,7 +29688,7 @@ return
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -29697,7 +29697,7 @@ TYPE_FLOAT32
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT64
@@ -29813,7 +29813,7 @@ return
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -29941,7 +29941,7 @@ arrayType
 &
 arrayType
 <
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_MAX
@@ -30014,7 +30014,7 @@ return
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT8
@@ -30023,7 +30023,7 @@ TYPE_INT8
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8
@@ -30032,7 +30032,7 @@ TYPE_UINT8
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8_CLAMPED
@@ -30050,7 +30050,7 @@ return
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -30059,7 +30059,7 @@ TYPE_FLOAT32
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT64
@@ -30169,7 +30169,7 @@ return
 arrayType_
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -30416,7 +30416,7 @@ type
 )
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -44884,7 +44884,7 @@ obj
 MDefinition
 *
 id
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type

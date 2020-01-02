@@ -119,7 +119,7 @@ include
 "
 builtin
 /
-TypeRepresentation
+TypedObject
 .
 h
 "
@@ -503,9 +503,6 @@ typename
 T
 :
 :
-TypeRepr
-:
-:
 Type
 *
 out
@@ -699,7 +696,7 @@ empty
 bool
 allOfKind
 (
-TypeRepresentation
+TypeDescr
 :
 :
 Kind
@@ -722,7 +719,7 @@ kind
 is
 /
 /
-TypeRepresentation
+TypeDescr
 :
 :
 Array
@@ -932,7 +929,7 @@ non
 empty
 set
 :
-TypeRepresentation
+TypeDescr
 :
 :
 Kind
@@ -1026,7 +1023,7 @@ kind
 )
 =
 =
-TypeRepresentation
+TypeDescr
 :
 :
 Scalar
@@ -1059,7 +1056,7 @@ false
 bool
 scalarType
 (
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type
@@ -1153,7 +1150,7 @@ kind
 )
 =
 =
-TypeRepresentation
+TypeDescr
 :
 :
 Reference
@@ -1186,7 +1183,7 @@ false
 bool
 referenceType
 (
-ReferenceTypeRepresentation
+ReferenceTypeDescr
 :
 :
 Type
@@ -1280,7 +1277,7 @@ kind
 )
 =
 =
-TypeRepresentation
+TypeDescr
 :
 :
 X4
@@ -1313,7 +1310,7 @@ false
 bool
 x4Type
 (
-X4TypeRepresentation
+X4TypeDescr
 :
 :
 Type
@@ -1407,7 +1404,7 @@ kind
 )
 =
 =
-TypeRepresentation
+TypeDescr
 :
 :
 SizedArray
@@ -1583,7 +1580,7 @@ kind
 )
 =
 =
-TypeRepresentation
+TypeDescr
 :
 :
 Struct

@@ -3519,7 +3519,7 @@ fp
 %
 s
 "
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 typeName
@@ -18134,7 +18134,7 @@ obj
 MDefinition
 *
 id
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type
@@ -18207,7 +18207,7 @@ false
 arrayType
 =
 (
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type
@@ -18224,7 +18224,7 @@ return
 arrayType
 !
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_MAX

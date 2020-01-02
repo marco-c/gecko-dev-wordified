@@ -8764,7 +8764,7 @@ int8_t
 )
 {
 return
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT8
@@ -8784,7 +8784,7 @@ uint8_t
 )
 {
 return
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8
@@ -8804,7 +8804,7 @@ int16_t
 )
 {
 return
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT16
@@ -8824,7 +8824,7 @@ uint16_t
 )
 {
 return
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT16
@@ -8844,7 +8844,7 @@ int32_t
 )
 {
 return
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT32
@@ -8864,7 +8864,7 @@ uint32_t
 )
 {
 return
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT32
@@ -8884,7 +8884,7 @@ float
 )
 {
 return
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -8904,7 +8904,7 @@ double
 )
 {
 return
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT64
@@ -8924,7 +8924,7 @@ uint8_clamped
 )
 {
 return
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8_CLAMPED
@@ -9708,7 +9708,7 @@ ArrayTypeID
 )
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8_CLAMPED
@@ -15314,7 +15314,7 @@ type
 )
 {
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT8
@@ -15370,13 +15370,13 @@ break
 ;
 }
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8
 :
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8_CLAMPED
@@ -15432,7 +15432,7 @@ break
 ;
 }
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT16
@@ -15488,7 +15488,7 @@ break
 ;
 }
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT16
@@ -15544,7 +15544,7 @@ break
 ;
 }
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT32
@@ -15600,7 +15600,7 @@ break
 ;
 }
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT32
@@ -15656,7 +15656,7 @@ break
 ;
 }
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -15712,7 +15712,7 @@ break
 ;
 }
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT64
@@ -15981,7 +15981,7 @@ type
 )
 {
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT8
@@ -16034,13 +16034,13 @@ break
 ;
 }
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8
 :
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8_CLAMPED
@@ -16093,7 +16093,7 @@ break
 ;
 }
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT16
@@ -16146,7 +16146,7 @@ break
 ;
 }
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT16
@@ -16199,7 +16199,7 @@ break
 ;
 }
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT32
@@ -16252,7 +16252,7 @@ break
 ;
 }
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT32
@@ -16305,7 +16305,7 @@ break
 ;
 }
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -16358,7 +16358,7 @@ break
 ;
 }
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT64
@@ -16523,7 +16523,7 @@ enum
 {
 ACTUAL_TYPE
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT8
@@ -16560,7 +16560,7 @@ enum
 {
 ACTUAL_TYPE
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8
@@ -16597,7 +16597,7 @@ enum
 {
 ACTUAL_TYPE
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT16
@@ -16634,7 +16634,7 @@ enum
 {
 ACTUAL_TYPE
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT16
@@ -16671,7 +16671,7 @@ enum
 {
 ACTUAL_TYPE
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT32
@@ -16708,7 +16708,7 @@ enum
 {
 ACTUAL_TYPE
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT32
@@ -16745,7 +16745,7 @@ enum
 {
 ACTUAL_TYPE
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -16782,7 +16782,7 @@ enum
 {
 ACTUAL_TYPE
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT64
@@ -16819,7 +16819,7 @@ enum
 {
 ACTUAL_TYPE
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8_CLAMPED
@@ -21667,7 +21667,7 @@ type
 )
 {
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT8
@@ -21688,7 +21688,7 @@ vp
 break
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8
@@ -21709,7 +21709,7 @@ vp
 break
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8_CLAMPED
@@ -21730,7 +21730,7 @@ vp
 break
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT16
@@ -21751,7 +21751,7 @@ vp
 break
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT16
@@ -21772,7 +21772,7 @@ vp
 break
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT32
@@ -21793,7 +21793,7 @@ vp
 break
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT32
@@ -21814,7 +21814,7 @@ vp
 break
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -21835,7 +21835,7 @@ vp
 break
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT64
@@ -23553,7 +23553,7 @@ TypedArrayObject
 :
 classes
 [
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_MAX
@@ -23605,7 +23605,7 @@ TypedArrayObject
 :
 protoClasses
 [
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_MAX
@@ -25124,7 +25124,7 @@ type
 )
 {
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT8
@@ -25140,7 +25140,7 @@ class_constructor
 )
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8
@@ -25156,7 +25156,7 @@ class_constructor
 )
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT16
@@ -25172,7 +25172,7 @@ class_constructor
 )
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT16
@@ -25188,7 +25188,7 @@ class_constructor
 )
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT32
@@ -25204,7 +25204,7 @@ class_constructor
 )
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT32
@@ -25220,7 +25220,7 @@ class_constructor
 )
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -25236,7 +25236,7 @@ class_constructor
 )
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT64
@@ -25252,7 +25252,7 @@ class_constructor
 )
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8_CLAMPED

@@ -128,6 +128,15 @@ include
 "
 builtin
 /
+TypedObject
+.
+h
+"
+#
+include
+"
+builtin
+/
 TypeRepresentation
 .
 h
