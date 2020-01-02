@@ -411,6 +411,12 @@ destroy
 (
 )
 ;
+toolbox
+=
+inspector
+=
+null
+;
 gBrowser
 .
 removeCurrentTab

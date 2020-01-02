@@ -786,7 +786,7 @@ ok
 (
 container
 .
-highlighter
+tagState
 .
 classList
 .
