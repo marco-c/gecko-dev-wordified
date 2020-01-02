@@ -868,7 +868,10 @@ SEC_ERROR_UNTRUSTED_ISSUER
 0
 /
 /
-Insanity
+mozilla
+:
+:
+pkix
 is
 OK
 NSS
