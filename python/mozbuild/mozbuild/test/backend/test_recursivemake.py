@@ -2866,20 +2866,6 @@ VISIBILITY_FLAGS
 '
             
 ]
-            
-'
-DELAYLOAD_DLLS
-'
-:
-[
-                
-'
-EXTRA_DSO_LDOPTS
-:
-=
-'
-            
-]
         
 }
         
