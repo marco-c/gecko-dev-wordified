@@ -2238,7 +2238,7 @@ nsRefPtr
 nsXPCWrappedJSClass
 >
 clasp
-;
+=
 nsXPCWrappedJSClass
 :
 :
@@ -2246,10 +2246,6 @@ GetNewOrUsed
 (
 cx
 aIID
-getter_AddRefs
-(
-clasp
-)
 )
 ;
 if
@@ -2381,7 +2377,7 @@ nsRefPtr
 nsXPCWrappedJSClass
 >
 rootClasp
-;
+=
 nsXPCWrappedJSClass
 :
 :
@@ -2391,10 +2387,6 @@ cx
 NS_GET_IID
 (
 nsISupports
-)
-getter_AddRefs
-(
-rootClasp
 )
 )
 ;
