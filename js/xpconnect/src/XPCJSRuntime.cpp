@@ -2930,6 +2930,9 @@ aAllowed
 mDocShellAllowsScript
 =
 aAllowed
+|
+|
+mImmuneToScriptPolicy
 ;
 }
 /
