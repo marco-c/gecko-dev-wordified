@@ -515,15 +515,6 @@ UpdateIndex
 (
 )
 ;
-bool
-IsSupportedAudioMimeType
-(
-const
-char
-*
-aMimeType
-)
-;
 void
 NotifyResourcesStatusChanged
 (
