@@ -3472,7 +3472,7 @@ used
 for
 constructors
 which
-intent
+intend
 to
 provide
 implicit
