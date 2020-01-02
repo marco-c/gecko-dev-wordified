@@ -947,11 +947,11 @@ n
 {
 if
 (
+bump
+-
 bumpBase
 (
 )
--
-bump
 <
 ptrdiff_t
 (
