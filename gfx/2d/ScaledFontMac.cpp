@@ -665,6 +665,9 @@ aBuffer
 PathBuilder
 *
 aBuilder
+const
+Matrix
+*
 )
 {
 PathBuilderCG

@@ -1572,6 +1572,9 @@ aBuffer
 PathBuilder
 *
 aBuilder
+const
+Matrix
+*
 )
 {
 /

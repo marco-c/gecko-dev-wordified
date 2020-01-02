@@ -215,6 +215,10 @@ aBuffer
 PathBuilder
 *
 aBuilder
+const
+Matrix
+*
+aTransformHint
 )
 ;
 float
