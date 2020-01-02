@@ -2353,6 +2353,9 @@ a
 history
 expiration
 .
+let
+expire
+=
 Cc
 [
 "
@@ -2374,6 +2377,8 @@ Ci
 .
 nsIObserver
 )
+;
+expire
 .
 observe
 (
