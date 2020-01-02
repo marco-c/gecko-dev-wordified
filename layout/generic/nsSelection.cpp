@@ -28544,11 +28544,10 @@ nsCOMPtr
 nsIContent
 >
 content
-;
-content
 =
 do_QueryInterface
 (
+&
 aParentNode
 )
 ;
