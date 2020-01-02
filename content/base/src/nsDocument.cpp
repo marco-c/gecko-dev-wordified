@@ -848,7 +848,7 @@ include
 "
 mozilla
 /
-MutationEvent
+InternalMutationEvent
 .
 h
 "

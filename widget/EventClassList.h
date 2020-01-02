@@ -366,7 +366,7 @@ PluginEvent
 )
 /
 /
-MutationEvent
+InternalMutationEvent
 .
 h
 (

@@ -474,7 +474,7 @@ NS_PLUGIN_EVENT
 WidgetPluginEvent
 /
 /
-MutationEvent
+InternalMutationEvent
 .
 h
 (
