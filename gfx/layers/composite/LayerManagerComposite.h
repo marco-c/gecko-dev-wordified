@@ -943,13 +943,6 @@ manager
 ;
 }
 virtual
-bool
-AreComponentAlphaLayersEnabled
-(
-)
-MOZ_OVERRIDE
-;
-virtual
 TemporaryRef
 <
 DrawTarget

@@ -1177,13 +1177,6 @@ aMixBlendModes
 aMixBlendModes
 ;
 }
-virtual
-bool
-AreComponentAlphaLayersEnabled
-(
-)
-MOZ_OVERRIDE
-;
 /
 /
 Log
