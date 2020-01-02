@@ -158,6 +158,12 @@ EnableWebSpeechRecognitionCheck
 :
 PrefEnabled
 (
+JSContext
+*
+aCx
+JSObject
+*
+aGlobal
 )
 {
 if

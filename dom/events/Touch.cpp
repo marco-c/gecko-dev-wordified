@@ -360,6 +360,12 @@ Touch
 :
 PrefEnabled
 (
+JSContext
+*
+aCx
+JSObject
+*
+aGlobal
 )
 {
 return
@@ -368,6 +374,8 @@ nsDOMTouchEvent
 :
 PrefEnabled
 (
+aCx
+aGlobal
 )
 ;
 }

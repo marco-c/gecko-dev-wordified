@@ -6110,6 +6110,12 @@ WebSocket
 :
 PrefEnabled
 (
+JSContext
+*
+aCx
+JSObject
+*
+aGlobal
 )
 {
 return

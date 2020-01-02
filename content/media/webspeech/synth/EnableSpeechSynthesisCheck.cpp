@@ -158,6 +158,12 @@ EnableSpeechSynthesisCheck
 :
 PrefEnabled
 (
+JSContext
+*
+aCx
+JSObject
+*
+aGlobal
 )
 {
 if

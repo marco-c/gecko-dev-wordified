@@ -145,6 +145,12 @@ static
 bool
 PrefEnabled
 (
+JSContext
+*
+aCx
+JSObject
+*
+aGlobal
 )
 ;
 Touch

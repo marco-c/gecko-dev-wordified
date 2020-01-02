@@ -217,12 +217,6 @@ mSuspended
 public
 :
 static
-bool
-PrefEnabled
-(
-)
-;
-static
 already_AddRefed
 <
 SharedWorker

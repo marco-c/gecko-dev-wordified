@@ -244,12 +244,6 @@ nsIAtom
 aId
 )
 ;
-static
-bool
-PrefEnabled
-(
-)
-;
 void
 InsertSheet
 (

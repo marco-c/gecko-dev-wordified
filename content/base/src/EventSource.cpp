@@ -4007,6 +4007,12 @@ EventSource
 :
 PrefEnabled
 (
+JSContext
+*
+aCx
+JSObject
+*
+aGlobal
 )
 {
 return
