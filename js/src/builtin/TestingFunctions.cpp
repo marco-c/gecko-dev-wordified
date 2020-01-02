@@ -4972,7 +4972,7 @@ base
 }
 else
 {
-JS_CallValueTracer
+JS_CallUnbarrieredValueTracer
 (
 &
 countTracer

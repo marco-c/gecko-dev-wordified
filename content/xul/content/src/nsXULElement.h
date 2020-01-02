@@ -1450,7 +1450,7 @@ if
 mScriptObject
 )
 {
-JS_CallHeapScriptTracer
+JS_CallScriptTracer
 (
 aTrc
 &

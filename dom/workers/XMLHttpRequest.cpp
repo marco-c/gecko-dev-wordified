@@ -2083,7 +2083,7 @@ JSTracer
 aTrc
 )
 {
-JS_CallHeapValueTracer
+JS_CallValueTracer
 (
 aTrc
 &

@@ -246,7 +246,7 @@ Length
 +
 i
 )
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 trc
 &

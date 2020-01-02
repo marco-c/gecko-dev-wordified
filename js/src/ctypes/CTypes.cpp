@@ -23455,7 +23455,7 @@ key
 (
 )
 ;
-JS_CallStringTracer
+JS_CallUnbarrieredStringTracer
 (
 trc
 &
@@ -23490,7 +23490,7 @@ key
 )
 )
 ;
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 trc
 &
@@ -23578,7 +23578,7 @@ to
 the
 tracer
 .
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 trc
 &
@@ -23591,7 +23591,7 @@ abi
 "
 )
 ;
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 trc
 &
@@ -23626,7 +23626,7 @@ length
 +
 i
 )
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 trc
 &
@@ -33320,7 +33320,7 @@ prior
 =
 key
 ;
-JS_CallStringTracer
+JS_CallUnbarrieredStringTracer
 (
 trc
 &
@@ -42522,7 +42522,7 @@ s
 us
 .
 )
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 trc
 &
@@ -42535,7 +42535,7 @@ typeObj
 "
 )
 ;
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 trc
 &
@@ -42555,7 +42555,7 @@ cinfo
 >
 thisObj
 )
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 trc
 &

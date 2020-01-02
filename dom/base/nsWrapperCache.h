@@ -1324,7 +1324,7 @@ if
 mWrapper
 )
 {
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 aTrc
 &

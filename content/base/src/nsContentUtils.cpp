@@ -10883,7 +10883,7 @@ AssertGCThingMustBeTenured
 global
 )
 ;
-JS_CallObjectTracer
+JS_CallUnbarrieredObjectTracer
 (
 aTrc
 &

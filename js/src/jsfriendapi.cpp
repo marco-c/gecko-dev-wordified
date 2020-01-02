@@ -5777,7 +5777,7 @@ char
 name
 )
 {
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 trc
 &

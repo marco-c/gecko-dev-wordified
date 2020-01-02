@@ -281,7 +281,7 @@ get
 (
 )
 ;
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 trc
 &
@@ -815,7 +815,7 @@ prior
 =
 key
 ;
-JS_CallObjectTracer
+JS_CallUnbarrieredObjectTracer
 (
 trc
 &

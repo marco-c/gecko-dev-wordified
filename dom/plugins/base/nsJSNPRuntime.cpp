@@ -5235,7 +5235,7 @@ p
 )
 return
 ;
-JS_CallObjectTracer
+JS_CallUnbarrieredObjectTracer
 (
 trc
 &
@@ -11953,7 +11953,7 @@ root
 it
 explicitly
 .
-JS_CallHeapIdTracer
+JS_CallIdTracer
 (
 trc
 &
@@ -11981,7 +11981,7 @@ isPrimitive
 )
 )
 {
-JS_CallHeapValueTracer
+JS_CallValueTracer
 (
 trc
 &
@@ -12047,7 +12047,7 @@ memberPrivate
 npobjWrapper
 )
 {
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 trc
 &

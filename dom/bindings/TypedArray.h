@@ -288,7 +288,7 @@ if
 mTypedObj
 )
 {
-JS_CallObjectTracer
+JS_CallUnbarrieredObjectTracer
 (
 trc
 &
@@ -306,7 +306,7 @@ if
 mWrappedObj
 )
 {
-JS_CallObjectTracer
+JS_CallUnbarrieredObjectTracer
 (
 trc
 &
