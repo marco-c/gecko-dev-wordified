@@ -4441,12 +4441,12 @@ PR_GetCurrentThread
 )
 ;
 case
-WorkerThreadStateLock
+HelperThreadStateLock
 :
 JS_ASSERT
 (
 !
-WorkerThreadState
+HelperThreadState
 (
 )
 .

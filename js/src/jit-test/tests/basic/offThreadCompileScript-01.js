@@ -44,7 +44,7 @@ js
 ;
 if
 (
-workerThreadCount
+helperThreadCount
 (
 )
 =

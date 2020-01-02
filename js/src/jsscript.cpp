@@ -10388,11 +10388,10 @@ wait
 /
 on
 the
-compresion
+compression
 task
 '
 s
-worker
 thread
 require
 that
@@ -10403,7 +10402,7 @@ least
 2
 /
 /
-worker
+helper
 threads
 :
 /
@@ -10414,13 +10413,13 @@ we
 are
 on
 a
-worker
+helper
 thread
 there
 must
 be
 another
-worker
+helper
 thread
 to
 /
@@ -10446,7 +10445,7 @@ be
 at
 least
 two
-worker
+helper
 /
 /
 threads
@@ -10454,7 +10453,7 @@ since
 at
 most
 one
-worker
+helper
 thread
 can
 be
@@ -10467,7 +10466,7 @@ main
 thread
 (
 see
-WorkerThreadState
+HelperThreadState
 :
 :
 canStartParseTask
@@ -10486,7 +10485,7 @@ wasn
 t
 a
 second
-worker
+helper
 thread
 that
 could
@@ -10514,7 +10513,7 @@ USE_ZLIB
 bool
 canCompressOffThread
 =
-WorkerThreadState
+HelperThreadState
 (
 )
 .
@@ -10523,7 +10522,7 @@ cpuCount
 1
 &
 &
-WorkerThreadState
+HelperThreadState
 (
 )
 .

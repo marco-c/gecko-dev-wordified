@@ -9249,7 +9249,7 @@ true
 }
 static
 bool
-WorkerThreadCount
+HelperThreadCount
 (
 JSContext
 *
@@ -9281,7 +9281,7 @@ rval
 .
 setInt32
 (
-WorkerThreadState
+HelperThreadState
 (
 )
 .
@@ -11824,13 +11824,13 @@ neutering
 JS_FN_HELP
 (
 "
-workerThreadCount
+helperThreadCount
 "
-WorkerThreadCount
+HelperThreadCount
 0
 0
 "
-workerThreadCount
+helperThreadCount
 (
 )
 "
@@ -11839,7 +11839,7 @@ Returns
 the
 number
 of
-worker
+helper
 threads
 available
 for

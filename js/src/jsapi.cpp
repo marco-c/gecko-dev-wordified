@@ -3425,7 +3425,7 @@ endif
 #
 ifdef
 JS_THREADSAFE
-WorkerThreadState
+HelperThreadState
 (
 )
 .
@@ -27426,7 +27426,7 @@ maybecx
 )
 ;
 return
-WorkerThreadState
+HelperThreadState
 (
 )
 .

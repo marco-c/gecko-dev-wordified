@@ -15,7 +15,7 @@ thread
 .
 if
 (
-workerThreadCount
+helperThreadCount
 (
 )
 =
