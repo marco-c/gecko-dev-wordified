@@ -449,13 +449,8 @@ used
 void
 AttachIOSurface
 (
-mozilla
-:
-:
-RefPtr
-<
 MacIOSurface
->
+*
 aSurface
 )
 ;
