@@ -364,9 +364,6 @@ if
 privateDOMWindow
 &
 &
-mVideoSource
-&
-&
 privateDOMWindow
 -
 >
@@ -1672,6 +1669,14 @@ mozilla
 TrackID
 )
 {
+if
+(
+!
+mWindow
+)
+return
+NS_OK
+;
 NS_DispatchToMainThread
 (
 new
