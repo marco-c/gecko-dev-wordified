@@ -2318,6 +2318,12 @@ EventTarget
 aChromeEventHandler
 )
 ;
+/
+/
+Outer
+windows
+only
+.
 virtual
 NS_HIDDEN_
 (

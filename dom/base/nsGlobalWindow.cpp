@@ -11945,9 +11945,9 @@ SetInitialPrincipalToSubject
 (
 )
 {
-FORWARD_TO_OUTER_VOID
+MOZ_ASSERT
 (
-SetInitialPrincipalToSubject
+IsOuterWindow
 (
 )
 )

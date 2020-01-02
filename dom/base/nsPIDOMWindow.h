@@ -1266,6 +1266,12 @@ subject
 /
 principal
 .
+/
+/
+Outer
+windows
+only
+.
 virtual
 void
 SetInitialPrincipalToSubject
