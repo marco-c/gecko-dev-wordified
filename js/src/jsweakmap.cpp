@@ -2006,6 +2006,14 @@ if
 (
 !
 map
+)
+return
+false
+;
+if
+(
+!
+map
 -
 >
 init
