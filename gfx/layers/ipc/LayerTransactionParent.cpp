@@ -1353,6 +1353,7 @@ mShadowLayersManager
 >
 GetCompositionManager
 (
+this
 )
 )
 ;
@@ -3359,6 +3360,7 @@ mShadowLayersManager
 >
 GetCompositionManager
 (
+this
 )
 )
 ;

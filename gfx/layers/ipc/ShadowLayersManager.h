@@ -161,6 +161,9 @@ AsyncCompositionManager
 *
 GetCompositionManager
 (
+LayerTransactionParent
+*
+aLayerTree
 )
 {
 return

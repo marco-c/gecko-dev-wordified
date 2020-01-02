@@ -3531,7 +3531,7 @@ mRenderTarget
 -
 >
 mDrawTarget
-aInvalidRegion
+invalidRegionSafe
 )
 ;
 if

@@ -702,6 +702,9 @@ AsyncCompositionManager
 *
 GetCompositionManager
 (
+LayerTransactionParent
+*
+aLayerTree
 )
 MOZ_OVERRIDE
 {
