@@ -1585,6 +1585,7 @@ new
 FilePickerResultHandler
 (
 handler
+mContext
 )
 ;
 getFilePickerIntentAsync
