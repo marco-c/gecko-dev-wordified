@@ -4932,10 +4932,10 @@ HashNumber
 ;
 #
 if
-JS_BYTES_PER_WORD
+JS_BITS_PER_WORD
 =
 =
-4
+32
 return
 HashNumber
 (
