@@ -150,6 +150,16 @@ cert
 is
 NOT
 EV
+/
+/
+Only
+one
+usage
+per
+verification
+is
+supported
+.
 SECStatus
 VerifyCert
 (
