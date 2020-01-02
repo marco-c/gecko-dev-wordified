@@ -142,6 +142,12 @@ aStream
 ;
 private
 :
+~
+nsZipDataStream
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIStreamListener

@@ -208,12 +208,6 @@ nsJARProtocolHandler
 (
 )
 ;
-virtual
-~
-nsJARProtocolHandler
-(
-)
-;
 static
 nsJARProtocolHandler
 *
@@ -284,6 +278,12 @@ aStatus
 ;
 protected
 :
+virtual
+~
+nsJARProtocolHandler
+(
+)
+;
 nsCOMPtr
 <
 nsIZipReaderCache
