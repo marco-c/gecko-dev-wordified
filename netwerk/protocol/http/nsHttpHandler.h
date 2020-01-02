@@ -2342,6 +2342,16 @@ mDoNotTrackValue
 ;
 /
 /
+for
+broadcasting
+safe
+hint
+;
+bool
+mSafeHintEnabled
+;
+/
+/
 Whether
 telemetry
 is

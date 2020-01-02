@@ -570,6 +570,13 @@ Pragma
 )
 HTTP_ATOM
 (
+Prefer
+"
+Prefer
+"
+)
+HTTP_ATOM
+(
 Proxy_Authenticate
 "
 Proxy
