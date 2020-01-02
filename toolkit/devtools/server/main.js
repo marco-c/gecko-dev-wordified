@@ -2588,7 +2588,7 @@ if
 !
 (
 "
-ContentAppActor
+ContentActor
 "
 in
 this
@@ -4021,7 +4021,7 @@ actor
 /
 /
 The
-ContentAppActor
+ContentActor
 within
 the
 child

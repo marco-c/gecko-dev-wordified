@@ -1685,7 +1685,7 @@ target
 /
 Request
 the
-ContentAppActor
+ContentActor
 to
 reload
 the

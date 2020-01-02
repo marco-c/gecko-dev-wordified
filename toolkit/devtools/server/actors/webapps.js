@@ -817,7 +817,7 @@ message
 manager
 value
 :
-ContentTabActor
+ContentActor
 '
 s
 grip

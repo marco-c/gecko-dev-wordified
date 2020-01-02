@@ -1347,7 +1347,7 @@ B2G
 tabActor
 is
 a
-ContentAppActor
+ContentActor
 which
 doesn
 '
