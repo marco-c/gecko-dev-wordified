@@ -7657,7 +7657,6 @@ shape
 }
 /
 *
-*
 Contextless
 ;
 can
@@ -7666,17 +7665,6 @@ called
 from
 parallel
 code
-.
-Returns
-false
-if
-the
-*
-operation
-would
-have
-been
-effectful
 .
 *
 /
