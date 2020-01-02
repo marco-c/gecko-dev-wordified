@@ -9452,9 +9452,7 @@ size
 CodeOffsetLabel
 PushWithPatch
 (
-const
 ImmWord
-&
 word
 )
 {
@@ -10003,9 +10001,7 @@ dest
 void
 movePtr
 (
-const
 ImmWord
-&
 imm
 Register
 dest
@@ -10840,9 +10836,7 @@ cmpPtr
 (
 Register
 lhs
-const
 ImmWord
-&
 rhs
 )
 ;
@@ -10904,9 +10898,7 @@ const
 Address
 &
 lhs
-const
 ImmWord
-&
 rhs
 )
 ;

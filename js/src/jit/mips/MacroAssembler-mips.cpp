@@ -9643,9 +9643,7 @@ MacroAssemblerMIPSCompat
 :
 movePtr
 (
-const
 ImmWord
-&
 imm
 Register
 dest
