@@ -409,6 +409,9 @@ DMX_LOG
 .
 .
 )
+(
+void
+)
 0
 #
 endif
@@ -455,6 +458,9 @@ DMX_LOG
 .
 .
 .
+)
+(
+void
 )
 0
 #
