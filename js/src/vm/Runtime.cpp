@@ -1423,6 +1423,10 @@ largeAllocationFailureCallback
 (
 nullptr
 )
+oomCallback
+(
+nullptr
+)
 {
 liveRuntimesCount
 +
