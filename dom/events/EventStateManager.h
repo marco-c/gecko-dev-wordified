@@ -230,7 +230,10 @@ class
 TabParent
 ;
 }
-}
+/
+/
+namespace
+dom
 class
 OverOutElementsWrapper
 MOZ_FINAL
@@ -331,9 +334,6 @@ mFirstOutEventElement
 ;
 }
 ;
-namespace
-mozilla
-{
 class
 EventStateManager
 :

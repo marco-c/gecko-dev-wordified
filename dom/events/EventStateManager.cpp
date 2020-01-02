@@ -1529,6 +1529,9 @@ nullptr
 /
 /
 *
+mozilla
+:
+:
 OverOutElementsWrapper
 *
 /
@@ -1600,6 +1603,9 @@ OverOutElementsWrapper
 *
 *
 /
+namespace
+mozilla
+{
 OverOutElementsWrapper
 :
 :
@@ -1790,9 +1796,6 @@ EventStateManager
 *
 *
 /
-namespace
-mozilla
-{
 static
 uint32_t
 sESMInstanceCount
