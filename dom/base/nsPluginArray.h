@@ -148,6 +148,13 @@ h
 #
 include
 "
+nsMimeTypeArray
+.
+h
+"
+#
+include
+"
 nsPluginTags
 .
 h
