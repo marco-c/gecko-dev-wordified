@@ -2157,14 +2157,6 @@ action
 store
 '
                         
-default
-=
-'
-browser
-+
-b2g
-'
-                        
 help
 =
 "
