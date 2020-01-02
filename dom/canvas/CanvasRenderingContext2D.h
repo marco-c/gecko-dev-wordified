@@ -3938,8 +3938,6 @@ double
 sh
 gfxIntSize
 imgSize
-gfxFloat
-opacity
 )
 ;
 nsString

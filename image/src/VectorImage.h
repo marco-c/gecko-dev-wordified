@@ -447,8 +447,6 @@ const
 SVGDrawingParameters
 &
 aParams
-gfxFloat
-aOpacity
 )
 ;
 void
@@ -461,8 +459,6 @@ const
 SVGDrawingParameters
 &
 aParams
-gfxFloat
-aOpacity
 )
 ;
 private
