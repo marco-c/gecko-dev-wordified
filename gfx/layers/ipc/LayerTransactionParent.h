@@ -517,12 +517,12 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-RecvGetTransform
+RecvGetAnimationTransform
 (
 PLayerParent
 *
 aParent
-gfx3DMatrix
+MaybeTransform
 *
 aTransform
 )
