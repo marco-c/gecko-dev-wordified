@@ -133,7 +133,7 @@ CSSIntSize
 kViewportMinSize
 (
 200
-223
+40
 )
 ;
 static
