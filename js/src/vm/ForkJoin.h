@@ -3651,6 +3651,11 @@ ParallelBailoutRecord
 bailoutRecord
 )
 ;
+bool
+initialize
+(
+)
+;
 /
 /
 Get
@@ -4193,7 +4198,7 @@ state
 .
 static
 bool
-initialize
+initializeTls
 (
 )
 ;
