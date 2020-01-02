@@ -6985,10 +6985,6 @@ const
 nsIFrame
 *
 aFixedPosFrame
-const
-nsIFrame
-*
-aReferenceFrame
 nsPresContext
 *
 aPresContext
@@ -7055,7 +7051,7 @@ aViewportFrame
 >
 GetOffsetToCrossDoc
 (
-aReferenceFrame
+aFixedPosFrame
 )
 ;
 LayerRect

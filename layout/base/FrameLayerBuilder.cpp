@@ -10727,7 +10727,6 @@ aLayer
 viewportFrame
 viewportSize
 aFixedPosFrame
-mContainerReferenceFrame
 presContext
 mParameters
 )

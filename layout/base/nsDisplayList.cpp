@@ -21063,9 +21063,6 @@ layer
 scrollFrame
 scrollFrameSize
 mStickyPosFrame
-ReferenceFrame
-(
-)
 presContext
 aContainerParameters
 )
