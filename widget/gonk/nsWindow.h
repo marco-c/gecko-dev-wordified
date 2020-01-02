@@ -565,9 +565,6 @@ mParent
 bool
 mVisible
 ;
-nsIntRegion
-mDirtyRegion
-;
 InputContext
 mInputContext
 ;
