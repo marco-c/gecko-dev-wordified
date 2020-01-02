@@ -1452,7 +1452,7 @@ IsSVG
 nsGkAtoms
 :
 :
-title
+desc
 )
 )
 {
@@ -1843,7 +1843,7 @@ IsSVG
 nsGkAtoms
 :
 :
-title
+desc
 )
 )
 {
@@ -14643,7 +14643,7 @@ IsSVG
 nsGkAtoms
 :
 :
-desc
+title
 )
 )
 {
