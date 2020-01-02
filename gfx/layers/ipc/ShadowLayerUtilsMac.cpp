@@ -430,7 +430,10 @@ SurfaceDescriptor
 aDescriptor
 OpenMode
 aMode
-gfxIntSize
+gfx
+:
+:
+IntSize
 *
 aSize
 gfxASurface
