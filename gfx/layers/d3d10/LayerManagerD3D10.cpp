@@ -119,6 +119,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 gfxD2DSurface
 .
 h
@@ -4805,7 +4812,7 @@ GetMaskLayer
 )
 )
 {
-gfxIntSize
+IntSize
 size
 ;
 nsRefPtr
@@ -4891,7 +4898,10 @@ gfxRect
 gfxPoint
 (
 )
+ThebesIntSize
+(
 size
+)
 )
 ;
 bounds

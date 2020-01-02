@@ -208,7 +208,10 @@ ID3D10ShaderResourceView
 >
 GetAsTexture
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 *
 aSize
 )
