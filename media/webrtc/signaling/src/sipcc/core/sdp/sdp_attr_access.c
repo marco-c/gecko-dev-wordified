@@ -81719,9 +81719,7 @@ FALSE
 )
 {
 return
-(
-NULL
-)
+0
 ;
 }
 attr_p
