@@ -5001,9 +5001,9 @@ resolve
 /
 /
 Send
-a
+an
 '
-back
+active
 '
 event
 to
@@ -5017,7 +5017,7 @@ observe
 (
 null
 "
-back
+active
 "
 Svc
 .
@@ -5045,7 +5045,7 @@ add_identity_test
 (
 this
 function
-test_back_triggersSync_observesBackoff
+test_active_triggersSync_observesBackoff
 (
 )
 {
@@ -5262,9 +5262,9 @@ timer
 /
 /
 Send
-a
+an
 '
-back
+active
 '
 event
 to
@@ -5280,7 +5280,7 @@ observe
 (
 null
 "
-back
+active
 "
 Svc
 .
@@ -5463,7 +5463,7 @@ observe
 (
 null
 "
-back
+active
 "
 Svc
 .
