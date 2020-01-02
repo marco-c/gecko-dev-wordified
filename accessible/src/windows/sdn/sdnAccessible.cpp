@@ -2396,7 +2396,7 @@ if
 mNode
 -
 >
-IsElement
+IsContent
 (
 )
 )
@@ -2408,7 +2408,7 @@ GetLanguageFor
 mNode
 -
 >
-AsElement
+AsContent
 (
 )
 nullptr
