@@ -1279,6 +1279,16 @@ LayerTransactionParent
 "
 RecvUpdate
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 #

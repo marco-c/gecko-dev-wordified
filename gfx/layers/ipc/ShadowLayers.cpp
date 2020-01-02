@@ -2564,6 +2564,16 @@ ShadowLayerForwarder
 "
 EndTranscation
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 RenderTraceScope

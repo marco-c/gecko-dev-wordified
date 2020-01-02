@@ -13295,6 +13295,16 @@ DrawBorders
 :
 multipass
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 /

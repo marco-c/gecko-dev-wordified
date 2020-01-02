@@ -1329,6 +1329,16 @@ RotatedBuffer
 "
 DrawBufferWithRotation
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 /

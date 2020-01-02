@@ -5876,6 +5876,16 @@ nsStyleSet
 "
 FileRules
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+CSS
 )
 ;
 /

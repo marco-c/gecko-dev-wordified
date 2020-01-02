@@ -4809,6 +4809,16 @@ PluginModuleParent
 "
 NPP_NewStream
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+OTHER
 )
 ;
 PluginInstanceParent

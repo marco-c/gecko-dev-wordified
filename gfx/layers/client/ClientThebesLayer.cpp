@@ -364,6 +364,16 @@ ClientThebesLayer
 "
 PaintThebes
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 NS_ASSERTION

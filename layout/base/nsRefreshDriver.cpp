@@ -6144,6 +6144,16 @@ nsRefreshDriver
 "
 Tick
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 /

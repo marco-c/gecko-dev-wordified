@@ -14283,6 +14283,16 @@ nsWindow
 "
 DrawWindowOverlay
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 JNIEnv

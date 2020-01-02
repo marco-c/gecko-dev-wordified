@@ -2161,6 +2161,16 @@ EventDispatcher
 "
 Dispatch
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+EVENTS
 )
 ;
 NS_ASSERTION

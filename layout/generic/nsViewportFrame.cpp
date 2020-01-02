@@ -299,6 +299,16 @@ ViewportFrame
 "
 BuildDisplayList
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 nsIFrame

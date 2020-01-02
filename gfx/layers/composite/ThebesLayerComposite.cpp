@@ -703,6 +703,16 @@ ThebesLayerComposite
 "
 RenderLayer
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 MOZ_ASSERT

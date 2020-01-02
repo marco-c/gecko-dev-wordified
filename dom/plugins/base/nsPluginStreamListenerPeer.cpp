@@ -2181,6 +2181,16 @@ nsPluginStreamListenerPeer
 "
 OnStartRequest
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+OTHER
 )
 ;
 if

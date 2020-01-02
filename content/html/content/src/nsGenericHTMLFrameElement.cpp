@@ -413,6 +413,16 @@ nsGenericHTMLFrameElement
 "
 BindToTree
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+OTHER
 )
 ;
 /

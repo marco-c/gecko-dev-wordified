@@ -1855,6 +1855,16 @@ SVGIFrameElement
 "
 BindToTree
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+OTHER
 )
 ;
 /

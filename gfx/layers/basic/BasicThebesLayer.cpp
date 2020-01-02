@@ -489,6 +489,16 @@ BasicThebesLayer
 "
 PaintThebes
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 NS_ASSERTION
