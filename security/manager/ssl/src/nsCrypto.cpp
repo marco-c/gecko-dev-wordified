@@ -12262,7 +12262,7 @@ numResponses
 If
 this
 is
-NULL
+nullptr
 chances
 are
 we
@@ -12271,9 +12271,9 @@ re
 gonna
 fail
 really
+/
+/
 soon
-/
-/
 but
 let
 '

@@ -353,7 +353,7 @@ if
 slot
 =
 =
-NULL
+nullptr
 )
 {
 return

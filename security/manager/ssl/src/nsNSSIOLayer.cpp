@@ -11109,7 +11109,7 @@ if
 successful
 ;
 otherwise
-NULL
+nullptr
 *
 -
 pRetKey
@@ -11129,7 +11129,7 @@ if
 successful
 ;
 otherwise
-NULL
+nullptr
 *
 -
 returns

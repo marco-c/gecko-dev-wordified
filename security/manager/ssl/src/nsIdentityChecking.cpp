@@ -731,8 +731,7 @@ pp
 *
 -
 a
-NULL
-pointer
+nullptr
 value
 *
 *

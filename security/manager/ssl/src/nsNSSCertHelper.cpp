@@ -4964,7 +4964,7 @@ array
 which
 is
 a
-NULL
+nullptr
 pointer
 .
 So
@@ -4985,7 +4985,7 @@ the
 last
 non
 -
-NULL
+nullptr
 entry
 in
 /

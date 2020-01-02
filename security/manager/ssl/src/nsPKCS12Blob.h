@@ -428,7 +428,7 @@ single
 terminating
 /
 /
-NULL
+null
 UTF16
 character
 )
