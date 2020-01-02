@@ -332,6 +332,15 @@ ThemeNeedsComboboxDropmarker
 )
 ;
 virtual
+bool
+WidgetAppearanceDependsOnWindowFocus
+(
+uint8_t
+aWidgetType
+)
+MOZ_OVERRIDE
+;
+virtual
 Transparency
 GetWidgetTransparency
 (
