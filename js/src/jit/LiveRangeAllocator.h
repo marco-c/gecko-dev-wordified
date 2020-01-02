@@ -3646,6 +3646,11 @@ from
 LiveInterval
 *
 to
+LDefinition
+:
+:
+Type
+type
 )
 {
 JS_ASSERT
@@ -3686,6 +3691,7 @@ to
 getAllocation
 (
 )
+type
 )
 ;
 }
@@ -3700,6 +3706,11 @@ from
 LiveInterval
 *
 to
+LDefinition
+:
+:
+Type
+type
 )
 {
 if
@@ -3739,6 +3750,7 @@ addMove
 moves
 from
 to
+type
 )
 ;
 }
@@ -3753,6 +3765,11 @@ from
 LiveInterval
 *
 to
+LDefinition
+:
+:
+Type
+type
 )
 {
 if
@@ -3792,6 +3809,7 @@ addMove
 moves
 from
 to
+type
 )
 ;
 }
@@ -3807,6 +3825,11 @@ from
 LiveInterval
 *
 to
+LDefinition
+:
+:
+Type
+type
 )
 {
 if
@@ -3851,6 +3874,7 @@ addMove
 moves
 from
 to
+type
 )
 ;
 }
@@ -3866,6 +3890,11 @@ from
 LiveInterval
 *
 to
+LDefinition
+:
+:
+Type
+type
 )
 {
 if
@@ -3910,6 +3939,7 @@ addMove
 moves
 from
 to
+type
 )
 ;
 }
