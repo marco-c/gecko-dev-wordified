@@ -2590,6 +2590,9 @@ case
 LOCAL_GL_RGB
 :
 case
+LOCAL_GL_RGB32F
+:
+case
 LOCAL_GL_SRGB_EXT
 :
 return
@@ -2599,6 +2602,9 @@ multiplier
 ;
 case
 LOCAL_GL_RGBA
+:
+case
+LOCAL_GL_RGBA32F
 :
 case
 LOCAL_GL_SRGB_ALPHA_EXT
@@ -2684,6 +2690,14 @@ return
 MOZ_ASSERT
 (
 false
+"
+Unhandled
+format
++
+type
+combo
+.
+"
 )
 ;
 return
