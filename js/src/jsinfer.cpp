@@ -27038,13 +27038,12 @@ type
 if
 defined
 (
-DEBUG
+JSGC_GENERATIONAL
 )
-&
-&
+and
 defined
 (
-JSGC_GENERATIONAL
+JS_GC_ZEAL
 )
 void
 JSCompartment
