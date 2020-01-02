@@ -224,7 +224,7 @@ psm
 ;
 #
 ifdef
-MOZ_LOGGING
+PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -340,7 +340,7 @@ InitCertVerifierLog
 {
 #
 ifdef
-MOZ_LOGGING
+PR_LOGGING
 if
 (
 !
