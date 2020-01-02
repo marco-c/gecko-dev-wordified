@@ -10092,6 +10092,15 @@ JSObject
 aObjArg
 )
 {
+js
+:
+:
+AssertSameCompartment
+(
+aCx
+aObjArg
+)
+;
 /
 /
 Check

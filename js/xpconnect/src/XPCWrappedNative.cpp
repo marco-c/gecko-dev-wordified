@@ -9517,6 +9517,13 @@ GetIdentityObject
 )
 ;
 }
+JSAutoCompartment
+ac
+(
+cx
+obj
+)
+;
 return
 ReparentWrapper
 (

@@ -8054,6 +8054,13 @@ GetGlobalJSObject
 )
 )
 {
+JSAutoCompartment
+ac
+(
+cx
+existingObj
+)
+;
 nsresult
 rv
 =
