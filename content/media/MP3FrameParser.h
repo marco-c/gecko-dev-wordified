@@ -113,12 +113,6 @@ MPL
 *
 /
 #
-ifndef
-MP3FrameParser_h
-#
-define
-MP3FrameParser_h
-#
 include
 <
 stdint
@@ -1436,5 +1430,3 @@ mIsMP3
 }
 ;
 }
-#
-endif
