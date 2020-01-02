@@ -716,7 +716,10 @@ mImageFormat
 )
 ;
 }
-gfxIntSize
+gfx
+:
+:
+IntSize
 DeprecatedSharedRGBImage
 :
 :
@@ -1192,7 +1195,10 @@ GetData
 )
 ;
 }
-gfxIntSize
+gfx
+:
+:
+IntSize
 SharedRGBImage
 :
 :

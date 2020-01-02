@@ -124,6 +124,13 @@ yuv_convert
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 namespace
 mozilla
 {
@@ -319,7 +326,7 @@ GetAsSurface
 (
 )
 ;
-gfxIntSize
+IntSize
 GetSize
 (
 )
@@ -337,7 +344,7 @@ ID3D10Device
 aDevice
 )
 ;
-gfxIntSize
+IntSize
 mSize
 ;
 RemoteImageData

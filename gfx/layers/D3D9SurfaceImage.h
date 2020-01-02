@@ -353,7 +353,10 @@ GetShareHandle
 (
 )
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 GetSize
 (
 )
@@ -402,7 +405,10 @@ EnsureSynchronized
 (
 )
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 mSize
 ;
 RefPtr

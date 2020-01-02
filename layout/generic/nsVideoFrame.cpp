@@ -1183,7 +1183,13 @@ pixel
 aspect
 ratio
 .
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 frameSize
 =
 container

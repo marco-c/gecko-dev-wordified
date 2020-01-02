@@ -869,7 +869,10 @@ IsNull
 )
 )
 {
-gfxIntSize
+gfx
+:
+:
+IntSize
 imgsize
 =
 chunk

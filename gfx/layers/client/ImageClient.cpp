@@ -188,17 +188,6 @@ gfxPlatform
 #
 include
 "
-gfxPoint
-.
-h
-"
-/
-/
-for
-gfxIntSize
-#
-include
-"
 mozilla
 /
 Assertions

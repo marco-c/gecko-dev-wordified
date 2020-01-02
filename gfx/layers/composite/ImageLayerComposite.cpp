@@ -146,17 +146,6 @@ gfx3DMatrix
 #
 include
 "
-gfxPoint
-.
-h
-"
-/
-/
-for
-gfxIntSize
-#
-include
-"
 gfxRect
 .
 h
