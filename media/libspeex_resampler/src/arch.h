@@ -1153,6 +1153,17 @@ x
 )
 #
 define
+SATURATE32PSHR
+(
+x
+shift
+a
+)
+(
+x
+)
+#
+define
 PSHR
 (
 a
