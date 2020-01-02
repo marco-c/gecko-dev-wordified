@@ -5590,13 +5590,6 @@ onkeyup
 )
 GK_ATOM
 (
-onlanguagechange
-"
-onlanguagechange
-"
-)
-GK_ATOM
-(
 onlevelchange
 "
 onlevelchange
