@@ -2194,6 +2194,10 @@ DispatchMouseToPlugin
 nsIDOMEvent
 *
 aMouseEvent
+bool
+aAllowPropagate
+=
+false
 )
 ;
 nsresult
