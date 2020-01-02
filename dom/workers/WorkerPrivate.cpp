@@ -10377,17 +10377,10 @@ AssertIsOnParentThread
 (
 )
 ;
-JS
-:
-:
-Rooted
-<
 JSObject
 *
->
 obj
-(
-aCx
+=
 WorkerBinding
 :
 :
@@ -10397,7 +10390,6 @@ aCx
 aScope
 ParentAsWorkerPrivate
 (
-)
 )
 )
 ;
