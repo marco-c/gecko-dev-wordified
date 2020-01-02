@@ -656,7 +656,7 @@ AutoFilterReferencer
 ;
 friend
 class
-nsAutoFilterInstance
+nsSVGFilterInstance
 ;
 nsSVGFilterFrame
 *
