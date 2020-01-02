@@ -8528,6 +8528,7 @@ MDiv
 fallible
 (
 )
+const
 {
 return
 !
@@ -8711,6 +8712,7 @@ MMod
 fallible
 (
 )
+const
 {
 return
 !
@@ -8797,6 +8799,7 @@ MAdd
 fallible
 (
 )
+const
 {
 /
 /
@@ -8869,6 +8872,7 @@ MSub
 fallible
 (
 )
+const
 {
 /
 /
@@ -9277,6 +9281,7 @@ MMul
 canOverflow
 (
 )
+const
 {
 if
 (
@@ -9312,6 +9317,7 @@ MUrsh
 fallible
 (
 )
+const
 {
 if
 (
