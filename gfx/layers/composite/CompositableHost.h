@@ -1336,7 +1336,7 @@ buffer
 virtual
 TextureHost
 *
-GetTextureHost
+GetAsTextureHost
 (
 )
 {

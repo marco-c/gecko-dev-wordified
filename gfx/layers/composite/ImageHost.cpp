@@ -329,7 +329,7 @@ TextureHost
 ImageHost
 :
 :
-GetTextureHost
+GetAsTextureHost
 (
 )
 {

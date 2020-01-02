@@ -832,7 +832,7 @@ TextureHost
 >
 host
 =
-GetTextureHost
+GetAsTextureHost
 (
 )
 ;
@@ -962,7 +962,7 @@ TextureHost
 >
 host
 =
-GetTextureHost
+GetAsTextureHost
 (
 )
 ;
