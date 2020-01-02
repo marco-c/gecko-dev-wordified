@@ -201,14 +201,6 @@ aOutDescriptor
 MOZ_OVERRIDE
 ;
 virtual
-TextureClientData
-*
-DropTextureData
-(
-)
-MOZ_OVERRIDE
-;
-virtual
 gfx
 :
 :
