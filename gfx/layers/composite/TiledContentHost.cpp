@@ -353,7 +353,7 @@ resolution
 ;
 mFrameResolution
 =
-CSSToScreenScale
+CSSToParentLayerScale
 (
 aDescriptor
 .
@@ -2389,7 +2389,7 @@ GetFrameResolution
 )
 {
 const
-CSSToScreenScale
+CSSToParentLayerScale
 &
 layerResolution
 =
@@ -2400,7 +2400,7 @@ GetFrameResolution
 )
 ;
 const
-CSSToScreenScale
+CSSToParentLayerScale
 &
 localResolution
 =

@@ -729,7 +729,7 @@ layers
 FrameMetrics
 .
 const
-CSSToScreenScale
+CSSToParentLayerScale
 &
 GetFrameResolution
 (
@@ -888,7 +888,7 @@ aTileB
 }
 private
 :
-CSSToScreenScale
+CSSToParentLayerScale
 mFrameResolution
 ;
 bool
