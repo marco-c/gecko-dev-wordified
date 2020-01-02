@@ -643,6 +643,16 @@ use_mozillapkix_verification
 true
 )
 ;
+/
+/
+Default
+to
+MITM
+mode
+for
+pinning
+checks
+.
 pref
 (
 "
@@ -652,6 +662,6 @@ cert_pinning
 .
 enforcement_level
 "
-0
+1
 )
 ;
