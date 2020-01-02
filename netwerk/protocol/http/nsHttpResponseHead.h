@@ -1013,6 +1013,11 @@ result
 private
 :
 void
+AssignDefaultStatusText
+(
+)
+;
+void
 ParseVersion
 (
 const
