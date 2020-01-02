@@ -18,11 +18,11 @@ libpng
 .
 6
 .
-9
+0
 [
 February
-6
-2014
+14
+2013
 ]
 *
 Copyright
@@ -31,7 +31,7 @@ c
 )
 1998
 -
-2014
+2013
 Glenn
 Randers
 -
@@ -707,9 +707,6 @@ read_data_fn
 ;
 #
 endif
-#
-ifdef
-PNG_WRITE_SUPPORTED
 /
 *
 It
@@ -764,8 +761,6 @@ structure
 )
 ;
 }
-#
-endif
 #
 ifdef
 PNG_WRITE_FLUSH_SUPPORTED

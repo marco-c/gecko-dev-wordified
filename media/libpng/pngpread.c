@@ -21,10 +21,10 @@ libpng
 .
 6
 .
-8
+0
 [
-December
-19
+February
+14
 2013
 ]
 *
@@ -900,7 +900,7 @@ chunk_name
 ;
 #
 ifdef
-PNG_HANDLE_AS_UNKNOWN_SUPPORTED
+PNG_SET_UNKNOWN_CHUNKS_SUPPORTED
 int
 keep
 ;
@@ -1878,7 +1878,7 @@ info_ptr
 }
 #
 ifdef
-PNG_HANDLE_AS_UNKNOWN_SUPPORTED
+PNG_SET_UNKNOWN_CHUNKS_SUPPORTED
 else
 if
 (
