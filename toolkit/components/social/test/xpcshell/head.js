@@ -513,6 +513,16 @@ xml
 "
 )
 ;
+blocklistFile
+.
+lastModifiedTime
+=
+Date
+.
+now
+(
+)
+;
 }
 function
 AsyncRunner

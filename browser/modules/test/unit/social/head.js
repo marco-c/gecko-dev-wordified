@@ -576,6 +576,16 @@ xml
 "
 )
 ;
+blocklistFile
+.
+lastModifiedTime
+=
+Date
+.
+now
+(
+)
+;
 let
 internalManager
 =
