@@ -2158,6 +2158,10 @@ CreateThisForFunction
 cx
 callee
 newType
+?
+SingletonObject
+:
+GenericObject
 )
 )
 ;
@@ -2362,6 +2366,10 @@ invoke
 useNewType
 (
 )
+?
+SingletonObject
+:
+GenericObject
 )
 )
 ;

@@ -1994,6 +1994,10 @@ callee
 useNewType
 (
 )
+?
+SingletonObject
+:
+GenericObject
 )
 ;
 if

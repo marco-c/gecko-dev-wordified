@@ -11300,6 +11300,10 @@ invoke
 useNewType
 (
 )
+?
+SingletonObject
+:
+GenericObject
 )
 )
 ;
