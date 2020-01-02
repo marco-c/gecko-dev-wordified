@@ -551,12 +551,6 @@ updateStarState
 (
 )
 ;
-SocialMark
-.
-updateMarkState
-(
-)
-;
 }
 /
 /
