@@ -33054,7 +33054,7 @@ descriptorProvider
 result
 successCode
                            
-returnsNewObject
+isCreator
 exceptionCode
 typedArraysAreStructs
 )
@@ -33850,7 +33850,7 @@ Value
 result
 successCode
                                                               
-returnsNewObject
+isCreator
 exceptionCode
                                                               
 typedArraysAreStructs
@@ -34030,10 +34030,10 @@ tmp
 "
                 
 '
-returnsNewObject
+isCreator
 '
 :
-returnsNewObject
+isCreator
                 
 '
 exceptionCode
@@ -34419,11 +34419,11 @@ else
                 
 if
 not
-returnsNewObject
+isCreator
 :
                     
 raise
-MethodNotNewObjectError
+MethodNotCreatorError
 (
 descriptor
 .
@@ -35522,7 +35522,7 @@ Value
 result
 successCode
                                                          
-returnsNewObject
+isCreator
 exceptionCode
                                                          
 typedArraysAreStructs
@@ -36302,7 +36302,7 @@ appropriate
       
 *
 '
-returnsNewObject
+isCreator
 '
 (
 optional
@@ -36317,17 +36317,16 @@ wrapping
 for
 the
 return
-                                       
 value
 of
+                                
 a
 [
-NewObject
+Creator
 ]
 method
 .
 Assumed
-                                       
 false
 if
 not
@@ -36409,7 +36408,7 @@ templateValues
 get
 (
 '
-returnsNewObject
+isCreator
 '
 False
 )
@@ -36510,13 +36509,13 @@ attribute
 .
 Apart
 from
-returnsNewObject
+isCreator
 all
 the
 defaults
-    
 are
 used
+    
 since
 the
 fallbility
@@ -36572,7 +36571,7 @@ result
 None
 \
                                   
-memberReturnsNewObject
+memberIsCreator
 (
 member
 )
@@ -38831,7 +38830,7 @@ type
 .
 name
 class
-MethodNotNewObjectError
+MethodNotCreatorError
 (
 Exception
 )
@@ -41176,9 +41175,9 @@ self
 )
 :
         
-returnsNewObject
+isCreator
 =
-memberReturnsNewObject
+memberIsCreator
 (
 self
 .
@@ -41186,7 +41185,7 @@ idlNode
 )
         
 if
-returnsNewObject
+isCreator
 :
             
 #
@@ -41209,7 +41208,7 @@ extendedAttributes
 or
                    
 #
-NewObject
+Creators
 can
 return
 raw
@@ -41331,10 +41330,10 @@ rval
 '
                                  
 '
-returnsNewObject
+isCreator
 '
 :
-returnsNewObject
+isCreator
 }
         
 try
@@ -41354,13 +41353,13 @@ resultTemplateValues
 )
         
 except
-MethodNotNewObjectError
+MethodNotCreatorError
 err
 :
             
 assert
 not
-returnsNewObject
+isCreator
             
 raise
 TypeError
@@ -41373,7 +41372,7 @@ returned
 from
 non
 -
-NewObject
+creator
 method
 or
 property
@@ -49710,7 +49709,7 @@ define
 (
 )
 def
-memberReturnsNewObject
+memberIsCreator
 (
 member
 )
@@ -49722,7 +49721,7 @@ member
 getExtendedAttribute
 (
 "
-NewObject
+Creator
 "
 )
 is
@@ -73593,7 +73592,7 @@ temp
 "
                 
 '
-returnsNewObject
+isCreator
 '
 :
 False
@@ -78645,7 +78644,7 @@ already_AddRefed
 "
                 
 if
-memberReturnsNewObject
+memberIsCreator
 (
 self
 .
@@ -86783,7 +86782,7 @@ to
 be
 a
 [
-NewObject
+Creator
 ]
 so
 we
@@ -86813,7 +86812,7 @@ name
 =
 =
 "
-NewObject
+Creator
 "
 :
             
@@ -88157,7 +88156,7 @@ CallbackPreserveColor
 '
                 
 '
-returnsNewObject
+isCreator
 '
 :
 False
