@@ -1287,6 +1287,9 @@ texture
 >
 Lock
 (
+OpenMode
+:
+:
 OPEN_READ_WRITE
 )
 )
@@ -1643,6 +1646,9 @@ client
 >
 Lock
 (
+OpenMode
+:
+:
 OPEN_READ_WRITE
 )
 )

@@ -425,8 +425,13 @@ false
 }
 if
 (
-!
 mDiagnosticTypes
+=
+=
+DiagnosticTypes
+:
+:
+NO_DIAGNOSTIC
 )
 {
 return
