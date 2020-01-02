@@ -7759,7 +7759,7 @@ void
 MediaDecoder
 :
 :
-BreakCycles
+ReleaseStateMachine
 (
 )
 {

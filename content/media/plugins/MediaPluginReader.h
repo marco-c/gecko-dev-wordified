@@ -253,6 +253,11 @@ nsACString
 aContentType
 )
 ;
+~
+MediaPluginReader
+(
+)
+;
 virtual
 nsresult
 Init
@@ -331,13 +336,6 @@ aEndTime
 int64_t
 aCurrentTime
 )
-;
-virtual
-void
-Shutdown
-(
-)
-MOZ_OVERRIDE
 ;
 class
 ImageBufferCallback
