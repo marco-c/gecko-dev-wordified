@@ -6761,7 +6761,9 @@ Ci
 nsILocalFile
 .
 DIRECTORY_TYPE
-0755
+FileUtils
+.
+PERMS_DIRECTORY
 )
 ;
 }
