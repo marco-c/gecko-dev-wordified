@@ -385,6 +385,9 @@ pinningAllowUserCAMITM
 pinningStrict
 =
 2
+pinningEnforceTestMode
+=
+3
 }
 ;
 enum
