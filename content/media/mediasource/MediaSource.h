@@ -502,14 +502,6 @@ MediaSourceReadyState
 aState
 )
 ;
-void
-GetBuffered
-(
-TimeRanges
-*
-aRanges
-)
-;
 /
 /
 Used
