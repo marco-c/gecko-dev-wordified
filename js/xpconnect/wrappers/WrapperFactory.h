@@ -401,11 +401,6 @@ JS
 :
 :
 HandleObject
-wrappedProto
-JS
-:
-:
-HandleObject
 parent
 unsigned
 flags

@@ -3356,8 +3356,6 @@ existing
 HandleObject
 obj
 HandleObject
-wrappedProto
-HandleObject
 parent
 unsigned
 flags
