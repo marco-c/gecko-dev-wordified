@@ -224,6 +224,9 @@ class
 DOMSVGAnimatedPreserveAspectRatio
 ;
 class
+DOMSVGLength
+;
+class
 EventChainPreVisitor
 ;
 class
@@ -1454,7 +1457,7 @@ CreateSVGNumber
 ;
 already_AddRefed
 <
-nsIDOMSVGLength
+DOMSVGLength
 >
 CreateSVGLength
 (

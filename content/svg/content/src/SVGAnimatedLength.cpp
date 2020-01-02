@@ -122,6 +122,13 @@ nsSVGLength2
 .
 h
 "
+#
+include
+"
+DOMSVGLength
+.
+h
+"
 namespace
 mozilla
 {
@@ -168,7 +175,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGLength
+DOMSVGLength
 >
 SVGAnimatedLength
 :
@@ -179,7 +186,7 @@ BaseVal
 {
 nsRefPtr
 <
-nsIDOMSVGLength
+DOMSVGLength
 >
 angle
 ;
@@ -205,7 +212,7 @@ forget
 }
 already_AddRefed
 <
-nsIDOMSVGLength
+DOMSVGLength
 >
 SVGAnimatedLength
 :
@@ -216,7 +223,7 @@ AnimVal
 {
 nsRefPtr
 <
-nsIDOMSVGLength
+DOMSVGLength
 >
 angle
 ;
