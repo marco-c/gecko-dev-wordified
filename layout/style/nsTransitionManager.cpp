@@ -2757,6 +2757,12 @@ eCSSPropertyExtra_no_properties
 property
 =
 =
+eCSSPropertyExtra_variable
+|
+|
+property
+=
+=
 eCSSProperty_UNKNOWN
 )
 {
@@ -3048,6 +3054,12 @@ property
 =
 =
 eCSSPropertyExtra_no_properties
+|
+|
+property
+=
+=
+eCSSPropertyExtra_variable
 |
 |
 property
