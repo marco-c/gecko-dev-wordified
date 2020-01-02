@@ -720,6 +720,14 @@ aFileList
 ;
 break
 ;
+default
+:
+rv
+=
+NS_ERROR_UNEXPECTED
+;
+break
+;
 }
 if
 (
