@@ -2987,7 +2987,7 @@ range
 )
 -
 >
-canBeInfiniteOrNaN
+canBeNaN
 (
 )
 )
@@ -3167,7 +3167,7 @@ range
 )
 -
 >
-canBeInfiniteOrNaN
+canBeNaN
 (
 )
 )
