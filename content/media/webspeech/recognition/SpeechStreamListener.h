@@ -186,11 +186,16 @@ aQueuedMedia
 MOZ_OVERRIDE
 ;
 void
-NotifyFinished
+NotifyEvent
 (
 MediaStreamGraph
 *
 aGraph
+MediaStreamListener
+:
+:
+MediaStreamGraphEvent
+event
 )
 MOZ_OVERRIDE
 ;

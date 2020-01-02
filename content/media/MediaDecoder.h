@@ -3280,11 +3280,16 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-NotifyFinished
+NotifyEvent
 (
 MediaStreamGraph
 *
 aGraph
+MediaStreamListener
+:
+:
+MediaStreamGraphEvent
+event
 )
 MOZ_OVERRIDE
 ;

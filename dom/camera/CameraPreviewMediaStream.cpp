@@ -587,9 +587,13 @@ aListener
 listener
 -
 >
-NotifyRemoved
+NotifyEvent
 (
 gm
+MediaStreamListener
+:
+:
+EVENT_REMOVED
 )
 ;
 }

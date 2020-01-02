@@ -597,6 +597,7 @@ MediaSegment
 &
 aQueuedMedia
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -613,12 +614,18 @@ removed
 /
 virtual
 void
-NotifyRemoved
+NotifyEvent
 (
 MediaStreamGraph
 *
 aGraph
+MediaStreamListener
+:
+:
+MediaStreamGraphEvent
+event
 )
+MOZ_OVERRIDE
 ;
 /
 *
