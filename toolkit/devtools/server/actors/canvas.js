@@ -4078,7 +4078,7 @@ actual
 canvas
 (
 maximum
-512x512
+256x256
 pixels
 )
 .
@@ -4535,15 +4535,6 @@ name
 args
 ;
 }
-else
-{
-/
-/
-Ignore
-getter
-calls
-.
-}
 if
 (
 CanvasFront
@@ -4959,7 +4950,7 @@ texture
 as
 the
 color
-rendebuffer
+renderbuffer
 attachment
 since
 consumers
