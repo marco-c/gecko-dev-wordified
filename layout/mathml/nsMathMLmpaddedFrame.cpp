@@ -1882,7 +1882,7 @@ amount
 ;
 }
 }
-nsresult
+void
 nsMathMLmpaddedFrame
 :
 :
@@ -1959,9 +1959,6 @@ bad
 status
 "
 )
-;
-return
-NS_OK
 ;
 }
 /

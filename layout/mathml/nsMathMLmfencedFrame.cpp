@@ -1052,7 +1052,7 @@ count
 ;
 }
 }
-nsresult
+void
 nsMathMLmfencedFrame
 :
 :
@@ -2421,9 +2421,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 static

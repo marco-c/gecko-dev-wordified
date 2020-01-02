@@ -569,7 +569,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsContainerFrame
 )
-nsresult
+void
 nsMeterFrame
 :
 :
@@ -778,9 +778,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 void

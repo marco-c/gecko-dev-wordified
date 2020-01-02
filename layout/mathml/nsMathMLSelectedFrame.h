@@ -191,7 +191,7 @@ aDesiredSize
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext

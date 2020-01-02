@@ -22148,7 +22148,7 @@ ResetPosition
 ;
 }
 }
-nsresult
+void
 nsFlexContainerFrame
 :
 :
@@ -22218,7 +22218,6 @@ aStatus
 )
 {
 return
-NS_OK
 ;
 }
 /
@@ -22769,8 +22768,6 @@ of
 collapsed
 items
 .
-rv
-=
 DoFlexLayout
 (
 aPresContext
@@ -22784,9 +22781,6 @@ axisTracker
 )
 ;
 }
-return
-rv
-;
 }
 /
 /

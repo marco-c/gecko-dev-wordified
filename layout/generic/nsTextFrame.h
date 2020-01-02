@@ -1293,7 +1293,7 @@ aXMost
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext

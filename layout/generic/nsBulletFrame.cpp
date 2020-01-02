@@ -8974,7 +8974,7 @@ break
 ;
 }
 }
-nsresult
+void
 nsBulletFrame
 :
 :
@@ -9317,9 +9317,6 @@ aStatus
 aReflowState
 aMetrics
 )
-;
-return
-NS_OK
 ;
 }
 /

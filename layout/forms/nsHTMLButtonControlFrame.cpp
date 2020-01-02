@@ -818,7 +818,7 @@ return
 result
 ;
 }
-nsresult
+void
 nsHTMLButtonControlFrame
 :
 :
@@ -1084,9 +1084,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 /

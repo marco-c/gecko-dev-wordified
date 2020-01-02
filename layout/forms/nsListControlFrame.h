@@ -332,7 +332,7 @@ aRenderingContext
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext
@@ -1988,7 +1988,7 @@ needed
 .
 *
 /
-nsresult
+void
 ReflowAsDropdown
 (
 nsPresContext

@@ -311,7 +311,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsBlockFrame
 )
-nsresult
+void
 nsLegendFrame
 :
 :

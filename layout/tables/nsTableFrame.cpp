@@ -12079,7 +12079,7 @@ table
 .
 *
 /
-nsresult
+void
 nsTableFrame
 :
 :
@@ -12157,14 +12157,8 @@ Init
 )
 ;
 return
-NS_ERROR_NULL_POINTER
 ;
 }
-nsresult
-rv
-=
-NS_OK
-;
 /
 /
 see
@@ -13176,9 +13170,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-rv
 ;
 }
 void

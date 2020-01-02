@@ -497,7 +497,7 @@ ShrinkWrapChildren
 *
 /
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext

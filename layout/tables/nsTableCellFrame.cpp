@@ -5111,7 +5111,7 @@ return
 computedHeight
 ;
 }
-nsresult
+void
 nsTableCellFrame
 :
 :
@@ -6310,9 +6310,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 /

@@ -888,7 +888,7 @@ aSqrOffset
 dxSqr
 ;
 }
-nsresult
+void
 nsMathMLmrootFrame
 :
 :
@@ -1212,7 +1212,6 @@ childFrame
 )
 ;
 return
-NS_OK
 ;
 }
 /
@@ -2382,9 +2381,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 /
