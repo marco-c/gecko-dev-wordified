@@ -2805,7 +2805,7 @@ NotifyObservers
 (
 NS_XPCOM_CATEGORY_ENTRY_REMOVED_OBSERVER_ID
 aCategoryName
-oldEntry
+aEntryName
 )
 ;
 }
