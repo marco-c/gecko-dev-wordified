@@ -72,7 +72,6 @@ Automation
 from
 devicemanager
 import
-NetworkTools
 DMError
 import
 mozcrash
@@ -1310,26 +1309,6 @@ args
 return
 app
 args
-    
-def
-getLanIp
-(
-self
-)
-:
-        
-nettools
-=
-NetworkTools
-(
-)
-        
-return
-nettools
-.
-getLanIp
-(
-)
     
 def
 Process
