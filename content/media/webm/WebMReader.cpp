@@ -6225,10 +6225,6 @@ aStartTime
 NS_PER_USEC
 &
 offset
-WebMBufferedState
-:
-:
-CLUSTER_START
 )
 ;
 if
@@ -6675,10 +6671,6 @@ aTime
 NS_PER_USEC
 &
 offset
-WebMBufferedState
-:
-:
-CLUSTER_START
 )
 )
 {
