@@ -521,10 +521,6 @@ friend
 class
 DeprecatedCanvasClientSurfaceStream
 ;
-friend
-class
-CanvasClientSurfaceStream
-;
 }
 ;
 }
