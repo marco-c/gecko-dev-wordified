@@ -3233,7 +3233,7 @@ ifdef
 MOZ_WIDGET_GONK
 mProvider
 =
-do_GetService
+do_CreateInstance
 (
 GONK_GPS_GEOLOCATION_PROVIDER_CONTRACTID
 )
@@ -3291,7 +3291,7 @@ false
 {
 mProvider
 =
-do_GetService
+do_CreateInstance
 (
 "
 mozilla
