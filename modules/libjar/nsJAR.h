@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsJAR_h__
+nsJAR_h_
 #
 define
-nsJAR_h__
+nsJAR_h_
 #
 include
 "
@@ -841,7 +841,7 @@ A
 set
 of
 nsJARItems
-macthing
+matching
 a
 *
 supplied
@@ -1286,6 +1286,6 @@ endif
 endif
 /
 *
-nsJAR_h__
+nsJAR_h_
 *
 /
