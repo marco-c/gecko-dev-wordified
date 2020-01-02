@@ -1550,6 +1550,10 @@ FORCE_STATIC_LIB
 '
             
 '
+USE_STATIC_LIBS
+'
+            
+'
 GENERATED_FILES
 '
             

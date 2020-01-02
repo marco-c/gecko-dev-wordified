@@ -1360,6 +1360,10 @@ bar
 .
 res
 '
+            
+USE_STATIC_LIBS
+=
+True
         
 )
         
