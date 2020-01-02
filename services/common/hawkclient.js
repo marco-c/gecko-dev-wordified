@@ -1365,7 +1365,6 @@ that
 resolves
 to
 the
-text
 response
 of
 the
@@ -1902,8 +1901,8 @@ We
 just
 return
 the
-raw
-text
+whole
+response
 .
 deferred
 .
@@ -1912,8 +1911,6 @@ resolve
 this
 .
 response
-.
-body
 )
 ;
 }
