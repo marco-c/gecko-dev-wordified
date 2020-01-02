@@ -331,6 +331,14 @@ aRetval
 )
 const
 ;
+const
+nsString
+&
+GetSessionId
+(
+)
+const
+;
 /
 /
 Number
@@ -445,7 +453,7 @@ uint8_t
 &
 aMessage
 const
-nsString
+nsAString
 &
 aURL
 )

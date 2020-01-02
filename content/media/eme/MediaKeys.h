@@ -539,7 +539,7 @@ LoadSession
 succeeds
 .
 void
-OnSessionActivated
+OnSessionCreated
 (
 PromiseId
 aId
@@ -681,6 +681,14 @@ PromiseId
 aId
 )
 ;
+nsresult
+GetOrigin
+(
+nsString
+&
+aOutOrigin
+)
+;
 private
 :
 /
@@ -759,6 +767,9 @@ mPromises
 ;
 PendingKeySessionsHashMap
 mPendingSessions
+;
+PromiseId
+mCreatePromiseId
 ;
 }
 ;
