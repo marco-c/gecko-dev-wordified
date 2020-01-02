@@ -304,6 +304,9 @@ None
 crashreporter
 =
 True
+debugger
+=
+False
 )
 :
         
@@ -373,7 +376,7 @@ through
 the
         
 #
-MOZ_CRASHREPORTER_DISABLE
+MOZ_HIDE_RESULTS_TABLE
 environment
 variable
 .
@@ -406,6 +409,9 @@ MOZ_HIDE_RESULTS_TABLE
         
 if
 crashreporter
+and
+not
+debugger
 :
             
 env
