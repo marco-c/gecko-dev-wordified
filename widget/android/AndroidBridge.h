@@ -594,7 +594,7 @@ the
 Gecko
 /
 /
-NotificationToIME
+IMEMessage
 enum
 ;
 use

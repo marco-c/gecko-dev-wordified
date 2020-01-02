@@ -543,8 +543,8 @@ NotifyIME
 widget
 :
 :
-NotificationToIME
-aNotification
+IMEMessage
+aMessage
 )
 ;
 /

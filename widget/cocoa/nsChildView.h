@@ -3592,8 +3592,10 @@ indexString
 NS_IMETHOD
 NotifyIME
 (
-NotificationToIME
-aNotification
+const
+IMENotification
+&
+aIMENotification
 )
 MOZ_OVERRIDE
 ;
