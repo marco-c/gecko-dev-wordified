@@ -4270,30 +4270,24 @@ ipdl
 topsrcdir
             
 "
+"
+            
+"
 CPPSRCS
 +
 =
 bar
 .
 cpp
-"
-            
-"
-CPPSRCS
-+
-=
 barChild
 .
 cpp
-"
-            
-"
-CPPSRCS
-+
-=
 barParent
 .
 cpp
+"
+            
+"
 "
             
 "
@@ -4313,12 +4307,18 @@ ipdlh
 topsrcdir
             
 "
+"
+            
+"
 CPPSRCS
 +
 =
 bar2
 .
 cpp
+"
+            
+"
 "
             
 "
@@ -4338,30 +4338,24 @@ ipdl
 topsrcdir
             
 "
+"
+            
+"
 CPPSRCS
 +
 =
 foo
 .
 cpp
-"
-            
-"
-CPPSRCS
-+
-=
 fooChild
 .
 cpp
-"
-            
-"
-CPPSRCS
-+
-=
 fooParent
 .
 cpp
+"
+            
+"
 "
             
 "
@@ -4381,12 +4375,18 @@ ipdlh
 topsrcdir
             
 "
+"
+            
+"
 CPPSRCS
 +
 =
 foo2
 .
 cpp
+"
+            
+"
 "
             
 "
@@ -4407,6 +4407,9 @@ foo
 topsrcdir
 topsrcdir
 )
+            
+"
+"
         
 ]
         
