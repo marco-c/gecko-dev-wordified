@@ -153,7 +153,7 @@ not
 /
 /
 *
-PublicKeyPinningSerice
+PublicKeyPinningService
 .
 cpp
 you
@@ -1254,6 +1254,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1409782406553000
+1409867186821000
 )
 ;
