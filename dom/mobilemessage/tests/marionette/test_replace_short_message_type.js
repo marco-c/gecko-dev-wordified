@@ -151,6 +151,9 @@ PDU_PIDS
 "
 47
 "
+"
+5F
+"
 ]
 ;
 const
