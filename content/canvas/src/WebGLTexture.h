@@ -243,6 +243,7 @@ bool
 HasEverBeenBound
 (
 )
+const
 {
 return
 mHasEverBeenBound
@@ -264,6 +265,7 @@ GLuint
 GLName
 (
 )
+const
 {
 return
 mGLName
