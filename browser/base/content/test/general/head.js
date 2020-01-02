@@ -2026,9 +2026,9 @@ resolve
 ;
 }
 "
-browser
--
-fullZoom
+FullZoom
+:
+TESTS
 :
 location
 -

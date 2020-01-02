@@ -168,9 +168,9 @@ level
 FullZoom
 broadcasts
 "
-browser
--
-fullZoom
+FullZoom
+:
+TESTS
 :
 location
 -
@@ -291,9 +291,9 @@ aCallback
 ;
 }
 "
-browser
--
-fullZoom
+FullZoom
+:
+TESTS
 :
 location
 -
