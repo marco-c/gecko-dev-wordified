@@ -452,6 +452,13 @@ Mutated
 )
 ;
 }
+MOZ_LAYER_DECL_NAME
+(
+"
+ThebesLayerComposite
+"
+TYPE_THEBES
+)
 protected
 :
 virtual
