@@ -1154,6 +1154,13 @@ nsIPrincipal
 aRedirect
 )
 ;
+NS_IMETHOD
+ForcePending
+(
+bool
+aForcePending
+)
+;
 inline
 void
 CleanRedirectCacheChainIfNecessary
@@ -2153,6 +2160,9 @@ nsIPrincipal
 >
 mPrincipal
 ;
+bool
+mForcePending
+;
 }
 ;
 /
@@ -2472,13 +2482,6 @@ mThis
 mStatus
 =
 status
-;
-mThis
--
->
-mIsPending
-=
-false
 ;
 /
 /

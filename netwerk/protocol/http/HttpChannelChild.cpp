@@ -4031,10 +4031,6 @@ mStatus
 =
 status
 ;
-mIsPending
-=
-false
-;
 /
 /
 We
