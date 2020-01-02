@@ -11841,7 +11841,7 @@ zone
 JS
 :
 :
-GetGCThingZone
+GetTenuredGCThingZone
 (
 aGcthing
 )

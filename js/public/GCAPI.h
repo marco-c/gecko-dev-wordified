@@ -2842,7 +2842,7 @@ return
 endif
 if
 (
-IsIncrementalBarrierNeededOnGCThing
+IsIncrementalBarrierNeededOnTenuredGCThing
 (
 rt
 thing
@@ -2990,7 +2990,7 @@ return
 endif
 if
 (
-IsIncrementalBarrierNeededOnGCThing
+IsIncrementalBarrierNeededOnTenuredGCThing
 (
 rt
 thing
