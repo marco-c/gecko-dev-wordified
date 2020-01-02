@@ -1147,7 +1147,6 @@ http
 example
 .
 com
-/
 "
 ;
 const
@@ -1171,6 +1170,10 @@ const
 URL_UPDATE
 =
 URL_HOST
++
+"
+/
+"
 +
 URL_PATH
 +

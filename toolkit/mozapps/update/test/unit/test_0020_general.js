@@ -891,6 +891,7 @@ serviceURL
 URL_HOST
 +
 "
+/
 update
 .
 xml
@@ -1623,6 +1624,7 @@ serviceURL
 URL_HOST
 +
 "
+/
 update
 .
 xml

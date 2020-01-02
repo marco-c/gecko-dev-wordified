@@ -99,7 +99,8 @@ logTestInfo
 (
 "
 testing
-removing
+removal
+of
 an
 active
 update
