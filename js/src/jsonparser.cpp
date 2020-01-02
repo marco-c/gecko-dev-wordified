@@ -185,11 +185,11 @@ mozilla
 :
 RangedPtr
 ;
-JSONParser
+JSONParserBase
 :
 :
 ~
-JSONParser
+JSONParserBase
 (
 )
 {
@@ -309,7 +309,7 @@ i
 ;
 }
 void
-JSONParser
+JSONParserBase
 :
 :
 trace
@@ -718,7 +718,7 @@ columnNumber
 }
 }
 bool
-JSONParser
+JSONParserBase
 :
 :
 errorReturn
@@ -734,13 +734,13 @@ NoError
 }
 template
 <
-JSONParser
+JSONParserBase
 :
 :
 StringType
 ST
 >
-JSONParser
+JSONParserBase
 :
 :
 Token
@@ -1688,7 +1688,7 @@ Error
 )
 ;
 }
-JSONParser
+JSONParserBase
 :
 :
 Token
@@ -2519,7 +2519,7 @@ c
 '
 ;
 }
-JSONParser
+JSONParserBase
 :
 :
 Token
@@ -2988,7 +2988,7 @@ Error
 ;
 }
 }
-JSONParser
+JSONParserBase
 :
 :
 Token
@@ -3395,7 +3395,7 @@ current
 )
 ;
 }
-JSONParser
+JSONParserBase
 :
 :
 Token
@@ -3527,7 +3527,7 @@ Error
 )
 ;
 }
-JSONParser
+JSONParserBase
 :
 :
 Token
@@ -3634,7 +3634,7 @@ Error
 )
 ;
 }
-JSONParser
+JSONParserBase
 :
 :
 Token
@@ -3753,7 +3753,7 @@ Error
 )
 ;
 }
-JSONParser
+JSONParserBase
 :
 :
 Token
@@ -3885,7 +3885,7 @@ Error
 }
 JSObject
 *
-JSONParser
+JSONParserBase
 :
 :
 createFinishedObject
@@ -4150,7 +4150,7 @@ obj
 }
 inline
 bool
-JSONParser
+JSONParserBase
 :
 :
 finishObject
@@ -4231,7 +4231,7 @@ true
 }
 inline
 bool
-JSONParser
+JSONParserBase
 :
 :
 finishArray
