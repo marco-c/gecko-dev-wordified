@@ -1277,7 +1277,7 @@ Matrixgfx
 (
 )
 .
-x0
+_31
 =
 =
 tx
@@ -1287,7 +1287,7 @@ Matrixgfx
 (
 )
 .
-y0
+_32
 =
 =
 ty
@@ -1361,7 +1361,7 @@ Matrixgfx
 (
 )
 .
-xx
+_11
 =
 =
 sx
@@ -1371,7 +1371,7 @@ Matrixgfx
 (
 )
 .
-yy
+_22
 =
 =
 sy

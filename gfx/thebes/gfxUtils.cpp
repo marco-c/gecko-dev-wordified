@@ -1878,7 +1878,7 @@ IsSafeImageTransformComponent
 (
 aDeviceSpaceToImageSpace
 .
-xx
+_11
 )
 |
 |
@@ -1887,7 +1887,7 @@ IsSafeImageTransformComponent
 (
 aDeviceSpaceToImageSpace
 .
-xy
+_21
 )
 |
 |
@@ -1896,7 +1896,7 @@ IsSafeImageTransformComponent
 (
 aDeviceSpaceToImageSpace
 .
-yx
+_12
 )
 |
 |
@@ -1905,7 +1905,7 @@ IsSafeImageTransformComponent
 (
 aDeviceSpaceToImageSpace
 .
-yy
+_22
 )
 )
 {
@@ -1934,7 +1934,7 @@ IsSafeImageTransformComponent
 (
 aDeviceSpaceToImageSpace
 .
-x0
+_31
 )
 &
 &
@@ -1942,7 +1942,7 @@ IsSafeImageTransformComponent
 (
 aDeviceSpaceToImageSpace
 .
-y0
+_32
 )
 )
 return
@@ -3087,7 +3087,7 @@ doTile
 (
 userSpaceToImageSpace
 .
-y0
+_32
 >
 16384
 .
@@ -3096,7 +3096,7 @@ y0
 |
 userSpaceToImageSpace
 .
-x0
+_31
 >
 16384
 .
@@ -3106,13 +3106,13 @@ x0
 {
 userSpaceToImageSpace
 .
-x0
+_31
 =
 fmod
 (
 userSpaceToImageSpace
 .
-x0
+_31
 aImageRect
 .
 width
@@ -3120,13 +3120,13 @@ width
 ;
 userSpaceToImageSpace
 .
-y0
+_32
 =
 fmod
 (
 userSpaceToImageSpace
 .
-y0
+_32
 aImageRect
 .
 height
@@ -4352,11 +4352,11 @@ are
 zero
 m
 .
-xy
+_21
 =
 m
 .
-yx
+_12
 =
 0
 .
@@ -4364,7 +4364,7 @@ yx
 ;
 m
 .
-xx
+_11
 =
 (
 aToBottomRight
@@ -4382,7 +4382,7 @@ width
 ;
 m
 .
-yy
+_22
 =
 (
 aToBottomRight
@@ -4400,7 +4400,7 @@ height
 ;
 m
 .
-x0
+_31
 =
 aToTopLeft
 .
@@ -4408,7 +4408,7 @@ x
 -
 m
 .
-xx
+_11
 *
 aFrom
 .
@@ -4416,7 +4416,7 @@ x
 ;
 m
 .
-y0
+_32
 =
 aToTopLeft
 .
@@ -4424,7 +4424,7 @@ y
 -
 m
 .
-yy
+_22
 *
 aFrom
 .
@@ -4465,11 +4465,11 @@ aligned
 ;
 m
 .
-xx
+_11
 =
 m
 .
-yy
+_22
 =
 0
 .
@@ -4477,7 +4477,7 @@ yy
 ;
 m
 .
-xy
+_21
 =
 (
 aToBottomRight
@@ -4495,7 +4495,7 @@ height
 ;
 m
 .
-yx
+_12
 =
 (
 aToBottomRight
@@ -4513,7 +4513,7 @@ width
 ;
 m
 .
-x0
+_31
 =
 aToTopLeft
 .
@@ -4521,7 +4521,7 @@ x
 -
 m
 .
-xy
+_21
 *
 aFrom
 .
@@ -4529,7 +4529,7 @@ y
 ;
 m
 .
-y0
+_32
 =
 aToTopLeft
 .
@@ -4537,7 +4537,7 @@ y
 -
 m
 .
-yx
+_12
 *
 aFrom
 .

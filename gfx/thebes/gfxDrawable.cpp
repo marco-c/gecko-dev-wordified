@@ -641,7 +641,7 @@ isDownscale
 =
 aDeviceToImage
 .
-xx
+_11
 >
 =
 1
@@ -651,7 +651,7 @@ xx
 &
 aDeviceToImage
 .
-yy
+_22
 >
 =
 1
@@ -661,7 +661,7 @@ yy
 &
 aDeviceToImage
 .
-xy
+_21
 =
 =
 0
@@ -671,7 +671,7 @@ xy
 &
 aDeviceToImage
 .
-yx
+_12
 =
 =
 0

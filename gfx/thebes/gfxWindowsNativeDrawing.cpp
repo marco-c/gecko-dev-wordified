@@ -536,7 +536,7 @@ FLOAT
 )
 m
 .
-xx
+_11
 ;
 mWorldTransform
 .
@@ -547,7 +547,7 @@ FLOAT
 )
 m
 .
-yx
+_12
 ;
 mWorldTransform
 .
@@ -558,7 +558,7 @@ FLOAT
 )
 m
 .
-xy
+_21
 ;
 mWorldTransform
 .
@@ -569,7 +569,7 @@ FLOAT
 )
 m
 .
-yy
+_22
 ;
 mWorldTransform
 .
@@ -580,7 +580,7 @@ FLOAT
 )
 m
 .
-x0
+_31
 ;
 mWorldTransform
 .
@@ -591,7 +591,7 @@ FLOAT
 )
 m
 .
-y0
+_32
 ;
 mRenderState
 =
