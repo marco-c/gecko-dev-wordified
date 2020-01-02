@@ -112,15 +112,15 @@ html
 function
 map
 (
-test
+assert
 f
 n
 form
 )
 {
-test
+assert
 .
-assertEqual
+equal
 (
 f
 (
@@ -149,7 +149,7 @@ testFrench
 =
 function
 (
-test
+assert
 )
 {
 let
@@ -164,7 +164,7 @@ fr
 ;
 map
 (
-test
+assert
 f
 -
 1
@@ -175,7 +175,7 @@ other
 ;
 map
 (
-test
+assert
 f
 0
 "
@@ -185,7 +185,7 @@ one
 ;
 map
 (
-test
+assert
 f
 1
 "
@@ -195,7 +195,7 @@ one
 ;
 map
 (
-test
+assert
 f
 1
 .
@@ -207,7 +207,7 @@ one
 ;
 map
 (
-test
+assert
 f
 2
 "
@@ -217,7 +217,7 @@ other
 ;
 map
 (
-test
+assert
 f
 100
 "
@@ -232,7 +232,7 @@ testEnglish
 =
 function
 (
-test
+assert
 )
 {
 let
@@ -247,7 +247,7 @@ en
 ;
 map
 (
-test
+assert
 f
 -
 1
@@ -258,7 +258,7 @@ other
 ;
 map
 (
-test
+assert
 f
 0
 "
@@ -268,7 +268,7 @@ other
 ;
 map
 (
-test
+assert
 f
 1
 "
@@ -278,7 +278,7 @@ one
 ;
 map
 (
-test
+assert
 f
 1
 .
@@ -290,7 +290,7 @@ other
 ;
 map
 (
-test
+assert
 f
 2
 "
@@ -300,7 +300,7 @@ other
 ;
 map
 (
-test
+assert
 f
 100
 "
@@ -315,7 +315,7 @@ testArabic
 =
 function
 (
-test
+assert
 )
 {
 let
@@ -330,7 +330,7 @@ ar
 ;
 map
 (
-test
+assert
 f
 -
 1
@@ -341,7 +341,7 @@ other
 ;
 map
 (
-test
+assert
 f
 0
 "
@@ -351,7 +351,7 @@ zero
 ;
 map
 (
-test
+assert
 f
 0
 .
@@ -363,7 +363,7 @@ other
 ;
 map
 (
-test
+assert
 f
 1
 "
@@ -373,7 +373,7 @@ one
 ;
 map
 (
-test
+assert
 f
 1
 .
@@ -385,7 +385,7 @@ other
 ;
 map
 (
-test
+assert
 f
 2
 "
@@ -395,7 +395,7 @@ two
 ;
 map
 (
-test
+assert
 f
 2
 .
@@ -407,7 +407,7 @@ other
 ;
 map
 (
-test
+assert
 f
 3
 "
@@ -417,7 +417,7 @@ few
 ;
 map
 (
-test
+assert
 f
 3
 .
@@ -454,7 +454,7 @@ few
 .
 map
 (
-test
+assert
 f
 5
 "
@@ -464,7 +464,7 @@ few
 ;
 map
 (
-test
+assert
 f
 10
 "
@@ -474,7 +474,7 @@ few
 ;
 map
 (
-test
+assert
 f
 103
 "
@@ -484,7 +484,7 @@ few
 ;
 map
 (
-test
+assert
 f
 105
 "
@@ -494,7 +494,7 @@ few
 ;
 map
 (
-test
+assert
 f
 110
 "
@@ -504,7 +504,7 @@ few
 ;
 map
 (
-test
+assert
 f
 203
 "
@@ -514,7 +514,7 @@ few
 ;
 map
 (
-test
+assert
 f
 205
 "
@@ -524,7 +524,7 @@ few
 ;
 map
 (
-test
+assert
 f
 210
 "
@@ -534,7 +534,7 @@ few
 ;
 map
 (
-test
+assert
 f
 11
 "
@@ -544,7 +544,7 @@ many
 ;
 map
 (
-test
+assert
 f
 50
 "
@@ -554,7 +554,7 @@ many
 ;
 map
 (
-test
+assert
 f
 99
 "
@@ -564,7 +564,7 @@ many
 ;
 map
 (
-test
+assert
 f
 111
 "
@@ -574,7 +574,7 @@ many
 ;
 map
 (
-test
+assert
 f
 150
 "
@@ -584,7 +584,7 @@ many
 ;
 map
 (
-test
+assert
 f
 199
 "
@@ -594,7 +594,7 @@ many
 ;
 map
 (
-test
+assert
 f
 100
 "
@@ -604,7 +604,7 @@ other
 ;
 map
 (
-test
+assert
 f
 101
 "
@@ -614,7 +614,7 @@ other
 ;
 map
 (
-test
+assert
 f
 102
 "
@@ -624,7 +624,7 @@ other
 ;
 map
 (
-test
+assert
 f
 200
 "
@@ -634,7 +634,7 @@ other
 ;
 map
 (
-test
+assert
 f
 201
 "
@@ -644,7 +644,7 @@ other
 ;
 map
 (
-test
+assert
 f
 202
 "
@@ -659,7 +659,7 @@ testJapanese
 =
 function
 (
-test
+assert
 )
 {
 /
@@ -684,7 +684,7 @@ ja
 ;
 map
 (
-test
+assert
 f
 -
 1
@@ -695,7 +695,7 @@ other
 ;
 map
 (
-test
+assert
 f
 0
 "
@@ -705,7 +705,7 @@ other
 ;
 map
 (
-test
+assert
 f
 1
 "
@@ -715,7 +715,7 @@ other
 ;
 map
 (
-test
+assert
 f
 1
 .
@@ -727,7 +727,7 @@ other
 ;
 map
 (
-test
+assert
 f
 2
 "
@@ -737,7 +737,7 @@ other
 ;
 map
 (
-test
+assert
 f
 100
 "
@@ -746,3 +746,17 @@ other
 )
 ;
 }
+require
+(
+'
+sdk
+/
+test
+'
+)
+.
+run
+(
+exports
+)
+;
