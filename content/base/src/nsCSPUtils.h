@@ -2003,7 +2003,7 @@ aSrcs
 ;
 }
 bool
-directiveNameEqualsContentType
+restrictsContentType
 (
 nsContentPolicyType
 aContentType
