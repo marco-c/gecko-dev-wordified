@@ -3818,6 +3818,13 @@ obj
 )
 ;
 bool
+IsCData
+(
+HandleValue
+v
+)
+;
+bool
 IsCDataProto
 (
 JSObject
