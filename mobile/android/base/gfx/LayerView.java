@@ -1044,8 +1044,6 @@ TouchEventInterceptor
 private
 PointF
 mInitialTouchPoint
-=
-null
 ;
 Override
 public

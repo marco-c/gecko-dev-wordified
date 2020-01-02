@@ -189,8 +189,6 @@ String
 Object
 >
 mProperties
-=
-null
 ;
 /
 /

@@ -174,8 +174,6 @@ String
 INISection
 >
 mSections
-=
-null
 ;
 /
 /

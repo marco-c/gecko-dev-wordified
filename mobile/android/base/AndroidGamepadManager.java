@@ -283,7 +283,6 @@ axis
 ;
 }
 }
-;
 /
 /
 A
@@ -341,7 +340,6 @@ button
 ;
 }
 }
-;
 private
 static
 final
@@ -441,7 +439,6 @@ positiveButton
 ;
 }
 }
-;
 private
 static
 enum
@@ -564,7 +561,6 @@ button
 ;
 }
 }
-;
 private
 static
 class
@@ -807,8 +803,6 @@ Integer
 Gamepad
 >
 sGamepads
-=
-null
 ;
 private
 static
@@ -821,8 +815,6 @@ KeyEvent
 >
 >
 sPendingGamepads
-=
-null
 ;
 private
 static
@@ -830,8 +822,6 @@ InputManager
 .
 InputDeviceListener
 sListener
-=
-null
 ;
 private
 static

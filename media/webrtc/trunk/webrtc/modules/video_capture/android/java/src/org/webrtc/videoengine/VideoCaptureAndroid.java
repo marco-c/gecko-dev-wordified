@@ -373,8 +373,6 @@ Camera
 .
 CameraInfo
 info
-=
-null
 ;
 private
 final
@@ -485,14 +483,10 @@ mCaptureHeight
 private
 int
 mCaptureMinFPS
-=
-0
 ;
 private
 int
 mCaptureMaxFPS
-=
-0
 ;
 /
 /
