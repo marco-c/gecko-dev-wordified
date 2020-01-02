@@ -434,6 +434,7 @@ category
 description
 allow_all
 conditions
+parser
 =
 getattr
 (
@@ -443,6 +444,7 @@ value
 _mach_command
 '
 (
+None
 None
 None
 None
@@ -614,6 +616,9 @@ allow_all
 conditions
 =
 conditions
+parser
+=
+parser
 arguments
 =
 arguments
@@ -727,6 +732,27 @@ to
 the
 command
 .
+         
+parser
+-
+-
+an
+optional
+argparse
+.
+ArgumentParser
+instance
+to
+use
+as
+             
+the
+basis
+for
+the
+command
+arguments
+.
     
 For
 example
@@ -776,11 +802,14 @@ None
 description
 =
 None
-        
+                 
 allow_all_args
 =
 False
 conditions
+=
+None
+parser
 =
 None
 )
@@ -815,6 +844,12 @@ self
 _conditions
 =
 conditions
+        
+self
+.
+_parser
+=
+parser
     
 def
 __call__
@@ -838,13 +873,16 @@ _category
 self
 .
 _description
-            
+                              
 self
 .
 _allow_all_args
 self
 .
 _conditions
+self
+.
+_parser
 )
         
 return

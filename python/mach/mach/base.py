@@ -526,6 +526,27 @@ conditions
 '
         
 #
+argparse
+.
+ArgumentParser
+instance
+to
+use
+as
+the
+basis
+for
+command
+        
+#
+arguments
+.
+        
+'
+parser
+'
+        
+#
 Arguments
 added
 to
@@ -575,6 +596,9 @@ allow_all_arguments
 =
 False
 conditions
+=
+None
+parser
 =
 None
 arguments
@@ -631,6 +655,12 @@ conditions
 or
 [
 ]
+        
+self
+.
+parser
+=
+parser
         
 self
 .
