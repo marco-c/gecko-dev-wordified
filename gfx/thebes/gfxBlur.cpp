@@ -1867,7 +1867,7 @@ aSkipRect
 aDT
 -
 >
-GetType
+GetBackendType
 (
 )
 &
@@ -1971,7 +1971,7 @@ aSkipRect
 aDT
 -
 >
-GetType
+GetBackendType
 (
 )
 nullptr
@@ -2011,7 +2011,7 @@ aSkipRect
 aDT
 -
 >
-GetType
+GetBackendType
 (
 )
 )

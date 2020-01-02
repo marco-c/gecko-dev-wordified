@@ -269,7 +269,7 @@ if
 dt
 -
 >
-GetType
+GetBackendType
 (
 )
 !

@@ -1267,7 +1267,7 @@ GetDrawTarget
 )
 -
 >
-GetType
+GetBackendType
 (
 )
 !

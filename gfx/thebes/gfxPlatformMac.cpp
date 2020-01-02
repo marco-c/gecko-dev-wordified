@@ -2093,7 +2093,7 @@ if
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 =
@@ -2232,7 +2232,7 @@ if
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 =

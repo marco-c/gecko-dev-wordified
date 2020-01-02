@@ -215,7 +215,7 @@ GetBackendType
 aRT
 -
 >
-GetType
+GetBackendType
 (
 )
 )

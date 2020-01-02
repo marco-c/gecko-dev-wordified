@@ -1193,7 +1193,7 @@ aExtend
 aDT
 -
 >
-GetType
+GetBackendType
 (
 )
 )
@@ -1293,7 +1293,7 @@ aExtend
 aDT
 -
 >
-GetType
+GetBackendType
 (
 )
 )
