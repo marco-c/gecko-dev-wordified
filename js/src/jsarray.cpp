@@ -20908,14 +20908,10 @@ proto
 &
 &
 !
-FindProto
+GetBuiltinPrototype
 (
 cxArg
-&
-ArrayObject
-:
-:
-class_
+JSProto_Array
 &
 proto
 )

@@ -42245,7 +42245,7 @@ JSObject
 *
 proto
 =
-GetClassPrototypePure
+GetBuiltinPrototypePure
 (
 &
 script

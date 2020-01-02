@@ -2085,7 +2085,7 @@ cx
 if
 (
 !
-js_GetClassPrototype
+GetBuiltinPrototype
 (
 cx
 key

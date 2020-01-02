@@ -4804,11 +4804,14 @@ cx
 if
 (
 !
-FindProto
+GetBuiltinPrototype
 (
 cx
+JSCLASS_CACHED_PROTO_KEY
+(
 fastClass
 (
+)
 )
 &
 proto
