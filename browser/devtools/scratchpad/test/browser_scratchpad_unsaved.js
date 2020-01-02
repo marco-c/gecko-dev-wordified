@@ -46,6 +46,12 @@ zero
 *
 /
 /
+*
+Bug
+669612
+*
+/
+/
 /
 only
 finish

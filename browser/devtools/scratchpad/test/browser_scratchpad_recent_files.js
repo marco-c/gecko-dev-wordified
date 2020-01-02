@@ -45,6 +45,12 @@ zero
 /
 *
 /
+/
+*
+Bug
+651942
+*
+/
 let
 tempScope
 =

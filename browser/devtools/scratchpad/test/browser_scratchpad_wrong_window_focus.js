@@ -45,6 +45,12 @@ zero
 /
 *
 /
+/
+*
+Bug
+661762
+*
+/
 function
 test
 (

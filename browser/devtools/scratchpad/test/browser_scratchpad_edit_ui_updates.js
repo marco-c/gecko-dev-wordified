@@ -45,6 +45,12 @@ zero
 /
 *
 /
+/
+*
+Bug
+699130
+*
+/
 "
 use
 strict
