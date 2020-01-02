@@ -10978,7 +10978,7 @@ start
 *
 /
 virtual
-void
+bool
 RepositionChild
 (
 Layer
@@ -13087,7 +13087,7 @@ false
 ;
 }
 virtual
-void
+bool
 RepositionChild
 (
 Layer
@@ -13101,6 +13101,9 @@ aAfter
 MOZ_CRASH
 (
 )
+;
+return
+false
 ;
 }
 using
