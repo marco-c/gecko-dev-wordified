@@ -513,11 +513,8 @@ XPCConvert
 :
 NativeData2JS
 (
+&
 resultVal
-.
-address
-(
-)
 &
 v
 .

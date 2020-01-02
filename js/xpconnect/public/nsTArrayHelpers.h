@@ -236,13 +236,7 @@ rv
 JS
 :
 :
-Rooted
-<
-JS
-:
-:
-Value
->
+RootedValue
 wrappedVal
 (
 aCx
@@ -258,11 +252,8 @@ WrapNative
 aCx
 global
 obj
+&
 wrappedVal
-.
-address
-(
-)
 nullptr
 true
 )
