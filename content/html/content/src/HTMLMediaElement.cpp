@@ -7663,7 +7663,10 @@ stream
 )
 {
 return
-MediaTimeToSeconds
+stream
+-
+>
+StreamTimeToSeconds
 (
 stream
 -
