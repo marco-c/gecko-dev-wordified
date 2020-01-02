@@ -231,7 +231,7 @@ h
 -
 -
 namespace
-android
+stagefright
 {
 class
 SharedBuffer
@@ -924,7 +924,7 @@ mRefs
 /
 /
 namespace
-android
+stagefright
 /
 /
 -

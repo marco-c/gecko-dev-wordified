@@ -151,7 +151,7 @@ the
 library
 .
 namespace
-android
+stagefright
 {
 /
 /
@@ -236,4 +236,4 @@ gDarwinCantLoadAllObjects
 /
 /
 namespace
-android
+stagefright

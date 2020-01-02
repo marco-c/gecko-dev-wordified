@@ -147,7 +147,7 @@ RefBase
 h
 >
 namespace
-android
+stagefright
 {
 struct
 DataSource
@@ -482,7 +482,7 @@ ID3
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /

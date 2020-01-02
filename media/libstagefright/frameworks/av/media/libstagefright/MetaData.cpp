@@ -138,6 +138,9 @@ define
 LOG_NDEBUG
 0
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -217,7 +220,7 @@ MetaData
 h
 >
 namespace
-android
+stagefright
 {
 MetaData
 :
@@ -1966,4 +1969,7 @@ string
 /
 /
 namespace
-android
+stagefright
+#
+undef
+LOG_TAG

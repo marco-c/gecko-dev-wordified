@@ -156,7 +156,7 @@ MediaErrors
 h
 >
 namespace
-android
+stagefright
 {
 class
 ESDS
@@ -348,7 +348,7 @@ ESDS
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /

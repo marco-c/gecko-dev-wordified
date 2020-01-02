@@ -167,7 +167,7 @@ threads
 h
 >
 namespace
-android
+stagefright
 {
 class
 MediaBuffer
@@ -288,7 +288,7 @@ MediaBufferGroup
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /

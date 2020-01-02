@@ -138,6 +138,9 @@ define
 LOG_NDEBUG
 0
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -195,7 +198,7 @@ stdio
 h
 >
 namespace
-android
+stagefright
 {
 static
 void
@@ -532,4 +535,7 @@ offset
 /
 /
 namespace
-android
+stagefright
+#
+undef
+LOG_TAG

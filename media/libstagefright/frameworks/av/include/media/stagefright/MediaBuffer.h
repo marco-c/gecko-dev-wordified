@@ -163,7 +163,7 @@ RefBase
 h
 >
 namespace
-android
+stagefright
 {
 struct
 ABuffer
@@ -573,7 +573,7 @@ MediaBuffer
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /

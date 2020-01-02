@@ -334,7 +334,7 @@ C
 -
 -
 namespace
-android
+stagefright
 {
 /
 /
@@ -1711,7 +1711,7 @@ mString
 /
 /
 namespace
-android
+stagefright
 /
 /
 -

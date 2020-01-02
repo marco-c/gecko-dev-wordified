@@ -143,7 +143,7 @@ MediaSource
 h
 >
 namespace
-android
+stagefright
 {
 MediaSource
 :
@@ -413,4 +413,4 @@ mLatenessUs
 /
 /
 namespace
-android
+stagefright

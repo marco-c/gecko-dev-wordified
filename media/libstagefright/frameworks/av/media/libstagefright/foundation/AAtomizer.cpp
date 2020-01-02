@@ -148,7 +148,7 @@ AAtomizer
 h
 "
 namespace
-android
+stagefright
 {
 /
 /
@@ -419,4 +419,4 @@ sum
 /
 /
 namespace
-android
+stagefright

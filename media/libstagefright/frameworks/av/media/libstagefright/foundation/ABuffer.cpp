@@ -160,7 +160,7 @@ AMessage
 h
 "
 namespace
-android
+stagefright
 {
 ABuffer
 :
@@ -374,4 +374,4 @@ mMeta
 /
 /
 namespace
-android
+stagefright

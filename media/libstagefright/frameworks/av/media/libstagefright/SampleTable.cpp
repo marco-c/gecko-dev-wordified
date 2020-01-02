@@ -132,6 +132,9 @@ License
 *
 /
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -215,7 +218,7 @@ Utils
 h
 >
 namespace
-android
+stagefright
 {
 /
 /
@@ -3956,4 +3959,7 @@ sampleIndex
 /
 /
 namespace
-android
+stagefright
+#
+undef
+LOG_TAG

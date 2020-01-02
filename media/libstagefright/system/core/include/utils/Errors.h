@@ -154,7 +154,7 @@ errno
 h
 >
 namespace
-android
+stagefright
 {
 /
 /
@@ -410,7 +410,7 @@ endif
 /
 /
 namespace
-android
+stagefright
 /
 /
 -

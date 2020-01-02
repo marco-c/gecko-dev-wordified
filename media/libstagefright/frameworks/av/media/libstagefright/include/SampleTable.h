@@ -183,7 +183,7 @@ threads
 h
 >
 namespace
-android
+stagefright
 {
 class
 DataSource
@@ -653,7 +653,7 @@ SampleTable
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /

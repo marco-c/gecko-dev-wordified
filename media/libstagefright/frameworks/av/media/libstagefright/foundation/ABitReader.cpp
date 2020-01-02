@@ -141,6 +141,15 @@ h
 #
 include
 <
+log
+/
+log
+.
+h
+>
+#
+include
+<
 media
 /
 stagefright
@@ -152,7 +161,7 @@ ADebug
 h
 >
 namespace
-android
+stagefright
 {
 ABitReader
 :
@@ -514,4 +523,4 @@ mNumBitsLeft
 /
 /
 namespace
-android
+stagefright

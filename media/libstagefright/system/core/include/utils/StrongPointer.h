@@ -247,7 +247,7 @@ h
 -
 -
 namespace
-android
+stagefright
 {
 template
 <
@@ -1509,7 +1509,7 @@ ptr
 /
 /
 namespace
-android
+stagefright
 /
 /
 -

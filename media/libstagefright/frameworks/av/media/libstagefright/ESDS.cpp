@@ -138,6 +138,9 @@ define
 LOG_NDEBUG
 0
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -169,7 +172,7 @@ string
 h
 >
 namespace
-android
+stagefright
 {
 ESDS
 :
@@ -991,4 +994,7 @@ OK
 /
 /
 namespace
-android
+stagefright
+#
+undef
+LOG_TAG

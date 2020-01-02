@@ -274,7 +274,7 @@ h
 *
 /
 namespace
-android
+stagefright
 {
 /
 /
@@ -4265,4 +4265,4 @@ i
 /
 /
 namespace
-android
+stagefright

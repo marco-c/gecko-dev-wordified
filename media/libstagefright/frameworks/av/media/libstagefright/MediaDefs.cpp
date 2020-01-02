@@ -143,7 +143,7 @@ MediaDefs
 h
 >
 namespace
-android
+stagefright
 {
 const
 char
@@ -537,4 +537,4 @@ subrip
 /
 /
 namespace
-android
+stagefright

@@ -275,7 +275,7 @@ h
 ifdef
 __cplusplus
 namespace
-android
+stagefright
 {
 /
 *
@@ -415,7 +415,7 @@ timeoutMillis
 message
 )
 \
-android
+stagefright
 :
 :
 LogIfSlow
@@ -431,7 +431,7 @@ message
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /

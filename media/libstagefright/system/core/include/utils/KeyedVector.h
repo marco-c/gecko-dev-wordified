@@ -274,7 +274,7 @@ h
 -
 -
 namespace
-android
+stagefright
 {
 template
 <
@@ -1725,7 +1725,7 @@ mDefault
 /
 /
 namespace
-android
+stagefright
 /
 /
 -

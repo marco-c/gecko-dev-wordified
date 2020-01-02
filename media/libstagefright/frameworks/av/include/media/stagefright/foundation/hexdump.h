@@ -147,7 +147,7 @@ types
 h
 >
 namespace
-android
+stagefright
 {
 struct
 AString
@@ -176,7 +176,7 @@ NULL
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /

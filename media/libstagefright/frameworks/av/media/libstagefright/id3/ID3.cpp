@@ -138,6 +138,9 @@ define
 LOG_NDEBUG
 0
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -216,7 +219,7 @@ byteswap
 h
 >
 namespace
-android
+stagefright
 {
 static
 const
@@ -4938,4 +4941,7 @@ true
 /
 /
 namespace
-android
+stagefright
+#
+undef
+LOG_TAG

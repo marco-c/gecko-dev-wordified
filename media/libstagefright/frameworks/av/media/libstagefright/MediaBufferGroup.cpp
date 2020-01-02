@@ -132,6 +132,9 @@ License
 *
 /
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -182,7 +185,7 @@ MediaBufferGroup
 h
 >
 namespace
-android
+stagefright
 {
 MediaBufferGroup
 :
@@ -471,4 +474,7 @@ signal
 /
 /
 namespace
-android
+stagefright
+#
+undef
+LOG_TAG

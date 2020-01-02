@@ -198,7 +198,7 @@ threads
 h
 >
 namespace
-android
+stagefright
 {
 struct
 AAtomizer
@@ -269,7 +269,7 @@ AAtomizer
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /

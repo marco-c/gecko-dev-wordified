@@ -167,7 +167,7 @@ stdint
 h
 >
 namespace
-android
+stagefright
 {
 struct
 ABitReader
@@ -257,7 +257,7 @@ ABitReader
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /

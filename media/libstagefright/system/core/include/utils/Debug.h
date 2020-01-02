@@ -154,7 +154,7 @@ types
 h
 >
 namespace
-android
+stagefright
 {
 /
 /
@@ -506,7 +506,7 @@ endif
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /

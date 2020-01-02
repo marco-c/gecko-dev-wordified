@@ -264,7 +264,7 @@ h
 -
 -
 namespace
-android
+stagefright
 {
 /
 /
@@ -894,7 +894,7 @@ HAVE_PTHREADS
 /
 /
 namespace
-android
+stagefright
 /
 /
 -

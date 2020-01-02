@@ -180,7 +180,7 @@ Log
 h
 >
 namespace
-android
+stagefright
 {
 #
 define
@@ -577,7 +577,7 @@ here
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /

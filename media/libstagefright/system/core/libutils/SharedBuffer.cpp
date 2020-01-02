@@ -241,7 +241,7 @@ h
 -
 -
 namespace
-android
+stagefright
 {
 SharedBuffer
 *
@@ -714,4 +714,4 @@ prev
 /
 /
 namespace
-android
+stagefright

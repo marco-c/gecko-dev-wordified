@@ -249,7 +249,7 @@ stdint
 h
 >
 namespace
-android
+stagefright
 {
 namespace
 sysutils
@@ -2191,7 +2191,7 @@ sysutils
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /

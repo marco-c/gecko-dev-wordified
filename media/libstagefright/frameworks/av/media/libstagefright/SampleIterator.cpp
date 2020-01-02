@@ -132,6 +132,9 @@ License
 *
 /
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -215,7 +218,7 @@ SampleTable
 h
 "
 namespace
-android
+stagefright
 {
 SampleIterator
 :
@@ -1465,4 +1468,7 @@ OK
 /
 /
 namespace
-android
+stagefright
+#
+undef
+LOG_TAG

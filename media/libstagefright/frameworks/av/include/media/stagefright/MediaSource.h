@@ -176,7 +176,7 @@ Vector
 h
 >
 namespace
-android
+stagefright
 {
 class
 MediaBuffer
@@ -739,7 +739,7 @@ MediaSource
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /

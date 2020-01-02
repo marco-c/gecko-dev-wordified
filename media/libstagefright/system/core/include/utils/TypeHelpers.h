@@ -243,7 +243,7 @@ h
 -
 -
 namespace
-android
+stagefright
 {
 /
 *
@@ -1463,7 +1463,15 @@ has_trivial_move
 {
 memmove
 (
+(
+void
+*
+)
 d
+(
+void
+*
+)
 s
 n
 *
@@ -2200,7 +2208,7 @@ value
 /
 /
 namespace
-android
+stagefright
 /
 /
 -

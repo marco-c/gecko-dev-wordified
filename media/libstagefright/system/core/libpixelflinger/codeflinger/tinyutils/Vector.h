@@ -263,7 +263,7 @@ h
 -
 -
 namespace
-android
+stagefright
 {
 namespace
 tinyutils
@@ -2753,7 +2753,7 @@ tinyutils
 /
 /
 namespace
-android
+stagefright
 /
 /
 -

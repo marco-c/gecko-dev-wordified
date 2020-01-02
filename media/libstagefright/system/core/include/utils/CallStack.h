@@ -249,7 +249,7 @@ h
 -
 -
 namespace
-android
+stagefright
 {
 class
 CallStack
@@ -491,7 +491,7 @@ MAX_DEPTH
 /
 /
 namespace
-android
+stagefright
 /
 /
 -

@@ -158,7 +158,7 @@ MediaExtractor
 h
 >
 namespace
-android
+stagefright
 {
 struct
 AMessage
@@ -315,7 +315,7 @@ AMessage
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /

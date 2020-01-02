@@ -160,7 +160,7 @@ RefBase
 h
 >
 namespace
-android
+stagefright
 {
 struct
 AMessage
@@ -257,7 +257,7 @@ AHandler
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /

@@ -138,7 +138,7 @@ MEDIA_DEFS_H_
 define
 MEDIA_DEFS_H_
 namespace
-android
+stagefright
 {
 extern
 const
@@ -340,7 +340,7 @@ MEDIA_MIMETYPE_TEXT_SUBRIP
 /
 /
 namespace
-android
+stagefright
 #
 endif
 /
