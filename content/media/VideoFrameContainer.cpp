@@ -672,8 +672,10 @@ void
 VideoFrameContainer
 :
 :
-Invalidate
+InvalidateWithFlags
 (
+uint32_t
+aFlags
 )
 {
 NS_ASSERTION
@@ -694,6 +696,14 @@ if
 (
 !
 mNeedInvalidation
+&
+&
+!
+(
+aFlags
+&
+INVALIDATE_FORCE
+)
 )
 {
 return
