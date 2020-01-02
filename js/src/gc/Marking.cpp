@@ -3026,6 +3026,11 @@ ArrayBufferViewObject
 DeclMarkerImpl
 (
 Object
+SharedArrayBufferObject
+)
+DeclMarkerImpl
+(
+Object
 DebugScopeObject
 )
 DeclMarkerImpl

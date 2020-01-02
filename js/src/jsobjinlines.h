@@ -7152,6 +7152,17 @@ ArrayBufferObject
 >
 (
 )
+|
+|
+obj
+-
+>
+is
+<
+SharedArrayBufferObject
+>
+(
+)
 ;
 case
 ESClass_Date
