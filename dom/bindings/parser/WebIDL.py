@@ -6476,7 +6476,7 @@ True
 Constructors
 are
 always
-Creators
+NewObject
 and
 are
 always
@@ -6525,7 +6525,7 @@ self
 location
 (
 "
-Creator
+NewObject
 "
 )
 )
@@ -19641,7 +19641,7 @@ identifier
 =
 =
 "
-Creator
+NewObject
 "
 )
 :
@@ -23698,7 +23698,7 @@ identifier
 =
 =
 "
-Creator
+NewObject
 "
 or
               
