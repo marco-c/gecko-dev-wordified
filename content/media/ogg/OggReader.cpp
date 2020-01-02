@@ -12792,9 +12792,6 @@ OggReader
 :
 GetBuffered
 (
-dom
-:
-:
 TimeRanges
 *
 aBuffered

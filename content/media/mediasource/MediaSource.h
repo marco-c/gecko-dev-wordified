@@ -256,6 +256,9 @@ SourceBuffer
 class
 SourceBufferList
 ;
+class
+TimeRanges
+;
 template
 <
 typename

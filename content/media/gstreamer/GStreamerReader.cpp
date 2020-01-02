@@ -4015,9 +4015,6 @@ GStreamerReader
 :
 GetBuffered
 (
-dom
-:
-:
 TimeRanges
 *
 aBuffered

@@ -856,9 +856,6 @@ owner
 NS_ERROR_FAILURE
 )
 ;
-dom
-:
-:
 HTMLMediaElement
 *
 element
@@ -3997,9 +3994,6 @@ owner
 NS_ERROR_FAILURE
 )
 ;
-dom
-:
-:
 HTMLMediaElement
 *
 element
@@ -4393,9 +4387,6 @@ owner
 return
 ;
 }
-dom
-:
-:
 HTMLMediaElement
 *
 element
@@ -5299,9 +5290,6 @@ nothing
 return
 ;
 }
-dom
-:
-:
 HTMLMediaElement
 *
 element
@@ -5489,9 +5477,6 @@ nothing
 return
 ;
 }
-dom
-:
-:
 HTMLMediaElement
 *
 element
@@ -5819,9 +5804,6 @@ return
 NS_OK
 ;
 }
-dom
-:
-:
 HTMLMediaElement
 *
 element
@@ -7983,9 +7965,6 @@ owner
 NS_ERROR_FAILURE
 )
 ;
-dom
-:
-:
 HTMLMediaElement
 *
 element
@@ -8348,9 +8327,6 @@ return
 nullptr
 ;
 }
-dom
-:
-:
 HTMLMediaElement
 *
 element
@@ -9291,9 +9267,6 @@ MoveLoadsToBackground
 return
 ;
 }
-dom
-:
-:
 HTMLMediaElement
 *
 element

@@ -355,9 +355,6 @@ aOffset
 nsresult
 GetBuffered
 (
-dom
-:
-:
 TimeRanges
 *
 aBuffered

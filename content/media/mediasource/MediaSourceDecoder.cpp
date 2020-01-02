@@ -622,9 +622,6 @@ MediaSourceDecoder
 :
 MediaSourceDecoder
 (
-dom
-:
-:
 HTMLMediaElement
 *
 aElement
@@ -715,9 +712,6 @@ MediaSourceDecoder
 :
 GetSeekable
 (
-dom
-:
-:
 TimeRanges
 *
 aSeekable
@@ -767,17 +761,11 @@ duration
 {
 nsRefPtr
 <
-dom
-:
-:
 TimeRanges
 >
 bufferedRanges
 =
 new
-dom
-:
-:
 TimeRanges
 (
 )
@@ -824,9 +812,6 @@ MediaSourceDecoder
 :
 AttachMediaSource
 (
-dom
-:
-:
 MediaSource
 *
 aMediaSource
