@@ -9098,7 +9098,7 @@ mStencilWriteMaskBack
 ;
 mDitherEnabled
 =
-true
+false
 ;
 mRasterizerDiscardEnabled
 =
