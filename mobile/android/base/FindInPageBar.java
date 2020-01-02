@@ -567,6 +567,15 @@ onDestroy
 (
 )
 {
+if
+(
+!
+mInflated
+)
+{
+return
+;
+}
 GeckoAppShell
 .
 getEventDispatcher
