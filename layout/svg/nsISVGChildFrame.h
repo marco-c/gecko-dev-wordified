@@ -515,7 +515,7 @@ Get
 bounds
 in
 our
-gfxContext
+nsSVGOuterSVGFrame
 '
 s
 coordinates
