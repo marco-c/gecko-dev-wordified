@@ -11796,6 +11796,13 @@ tooltip
 "
 aHTMLTooltip
 "
+"
+context
+"
+:
+"
+contentAreaContextMenu
+"
 /
 /
 work
