@@ -369,7 +369,7 @@ rs
 ;
 nsTArray
 <
-nsTWeakRef
+WeakPtr
 <
 Promise
 >
@@ -403,7 +403,7 @@ Length
 i
 )
 {
-nsTWeakRef
+WeakPtr
 <
 Promise
 >
@@ -566,7 +566,7 @@ Rejected
 ;
 nsTArray
 <
-nsTWeakRef
+WeakPtr
 <
 Promise
 >
@@ -600,7 +600,7 @@ Length
 i
 )
 {
-nsTWeakRef
+WeakPtr
 <
 Promise
 >
@@ -709,7 +709,7 @@ Rejected
 ;
 nsTArray
 <
-nsTWeakRef
+WeakPtr
 <
 Promise
 >
@@ -743,7 +743,7 @@ Length
 i
 )
 {
-nsTWeakRef
+WeakPtr
 <
 Promise
 >
