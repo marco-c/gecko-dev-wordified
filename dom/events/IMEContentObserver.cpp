@@ -1991,6 +1991,7 @@ aInfo
 mChangeStart
 &
 offset
+LINE_BREAK_TYPE_NATIVE
 )
 ;
 NS_ENSURE_SUCCESS_VOID
@@ -2096,6 +2097,7 @@ aContainer
 aStartIndex
 &
 offset
+LINE_BREAK_TYPE_NATIVE
 )
 ;
 NS_ENSURE_SUCCESS_VOID
@@ -2144,6 +2146,7 @@ aContainer
 aEndIndex
 &
 addingLength
+LINE_BREAK_TYPE_NATIVE
 )
 ;
 NS_ENSURE_SUCCESS_VOID
@@ -2311,6 +2314,7 @@ aDocument
 aIndexInContainer
 &
 offset
+LINE_BREAK_TYPE_NATIVE
 )
 ;
 NS_ENSURE_SUCCESS_VOID
@@ -2410,6 +2414,7 @@ aChild
 nodeLength
 &
 textLength
+LINE_BREAK_TYPE_NATIVE
 )
 ;
 NS_ENSURE_SUCCESS_VOID
@@ -2658,6 +2663,7 @@ content
 0
 &
 start
+LINE_BREAK_TYPE_NATIVE
 )
 ;
 NS_ENSURE_SUCCESS_VOID
