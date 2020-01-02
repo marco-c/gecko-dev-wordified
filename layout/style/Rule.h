@@ -677,6 +677,12 @@ nsIDOMCSSStyleSheet
 aSheet
 )
 ;
+Rule
+*
+GetCSSRule
+(
+)
+;
 /
 /
 This
