@@ -9696,6 +9696,16 @@ experimental_forms
 false
 )
 ;
+/
+/
+Enable
+<
+input
+type
+=
+number
+>
+:
 pref
 (
 "
@@ -9705,7 +9715,7 @@ forms
 .
 number
 "
-false
+true
 )
 ;
 /
