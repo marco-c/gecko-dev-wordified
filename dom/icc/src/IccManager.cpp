@@ -971,8 +971,12 @@ const
 nsAString
 &
 aContactType
-nsISupports
-*
+const
+JS
+:
+:
+Value
+&
 aContact
 const
 nsAString
