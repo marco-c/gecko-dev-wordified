@@ -1108,9 +1108,10 @@ val
 &
 &
 !
-JSVAL_IS_PRIMITIVE
-(
 val
+.
+isPrimitive
+(
 )
 )
 {
@@ -3325,9 +3326,10 @@ false
 ;
 if
 (
-JSVAL_IS_PRIMITIVE
-(
 vp
+.
+isPrimitive
+(
 )
 )
 return

@@ -2242,9 +2242,10 @@ ErrorCode
 MOZ_ASSERT
 (
 !
-JSVAL_IS_PRIMITIVE
-(
 result
+.
+isPrimitive
+(
 )
 )
 ;

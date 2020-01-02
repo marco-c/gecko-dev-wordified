@@ -186,12 +186,13 @@ not
 assert
 :
 !
-JSVAL_IS_PRIMITIVE
-(
 vp
 [
 1
 ]
+.
+isPrimitive
+(
 )
 '
 ;

@@ -2677,12 +2677,13 @@ vp
 )
 {
 return
-JSVAL_IS_PRIMITIVE
-(
 vp
 [
 1
 ]
+.
+isPrimitive
+(
 )
 ?
 JS_ComputeThis

@@ -462,8 +462,6 @@ Assertion
 failure
 :
 !
-JSVAL_IS_PRIMITIVE
-(
 regs
 .
 sp
@@ -471,6 +469,9 @@ sp
 -
 2
 ]
+.
+isPrimitive
+(
 )
 at
 .

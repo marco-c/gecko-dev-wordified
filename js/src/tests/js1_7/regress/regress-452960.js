@@ -188,9 +188,10 @@ with
 JIT
 :
 !
-JSVAL_IS_PRIMITIVE
-(
 v
+.
+isPrimitive
+(
 )
 '
 ;

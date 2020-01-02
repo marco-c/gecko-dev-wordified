@@ -703,9 +703,10 @@ MAX_NUM_DASHES
 if
 (
 !
-JSVAL_IS_PRIMITIVE
-(
 patternArray
+.
+isPrimitive
+(
 )
 )
 {

@@ -583,9 +583,10 @@ JSObject
 obj
 (
 aCx
-JSVAL_IS_PRIMITIVE
-(
 aValue
+.
+isPrimitive
+(
 )
 ?
 nullptr
@@ -803,9 +804,10 @@ steps
 .
 if
 (
-JSVAL_IS_PRIMITIVE
-(
 intermediate
+.
+isPrimitive
+(
 )
 )
 {

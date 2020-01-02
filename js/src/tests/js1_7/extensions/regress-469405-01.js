@@ -186,8 +186,6 @@ not
 assert
 :
 !
-JSVAL_IS_PRIMITIVE
-(
 regs
 .
 sp
@@ -195,6 +193,9 @@ sp
 -
 2
 ]
+.
+isPrimitive
+(
 )
 '
 ;

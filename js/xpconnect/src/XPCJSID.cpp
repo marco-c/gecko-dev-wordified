@@ -3813,9 +3813,10 @@ iidobj
 ;
 if
 (
-JSVAL_IS_PRIMITIVE
-(
 val
+.
+isPrimitive
+(
 )
 |
 |

@@ -11651,9 +11651,10 @@ object
 .
 if
 (
-JSVAL_IS_PRIMITIVE
-(
 aObject
+.
+isPrimitive
+(
 )
 )
 {
@@ -15597,9 +15598,10 @@ NS_ERROR_DOM_SECURITY_ERR
 if
 (
 !
-JSVAL_IS_PRIMITIVE
-(
 aFile
+.
+isPrimitive
+(
 )
 )
 {

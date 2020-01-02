@@ -1433,9 +1433,10 @@ wrapper
 {
 if
 (
-JSVAL_IS_PRIMITIVE
-(
 wrapper
+.
+isPrimitive
+(
 )
 )
 return

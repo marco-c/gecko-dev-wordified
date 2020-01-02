@@ -5088,9 +5088,10 @@ rv
 |
 |
 !
-JSVAL_IS_PRIMITIVE
-(
 rval
+.
+isPrimitive
+(
 )
 "
 Bad
@@ -5113,9 +5114,10 @@ rv
 &
 &
 !
-JSVAL_IS_PRIMITIVE
-(
 rval
+.
+isPrimitive
+(
 )
 )
 {
