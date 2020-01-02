@@ -1053,8 +1053,8 @@ from
 MoveOp
 :
 :
-Kind
-kind
+Type
+type
 )
 {
 +
@@ -1072,7 +1072,7 @@ stackForCall_
 ;
 switch
 (
-kind
+type
 )
 {
 case
@@ -1130,7 +1130,7 @@ MOZ_ASSUME_UNREACHABLE
 "
 Unexpected
 argument
-kind
+type
 "
 )
 ;
@@ -1144,7 +1144,7 @@ addMove
 (
 from
 to
-kind
+type
 )
 ;
 }
@@ -1186,8 +1186,8 @@ reg
 MoveOp
 :
 :
-Kind
-kind
+Type
+type
 )
 {
 passABIArg
@@ -1196,7 +1196,7 @@ MoveOperand
 (
 reg
 )
-kind
+type
 )
 ;
 }
@@ -1365,7 +1365,7 @@ stackAdjust
 MoveOp
 :
 :
-Kind
+Type
 result
 )
 {
@@ -1500,7 +1500,7 @@ fun
 MoveOp
 :
 :
-Kind
+Type
 result
 )
 {
@@ -1539,7 +1539,7 @@ fun
 MoveOp
 :
 :
-Kind
+Type
 result
 )
 {
@@ -1577,7 +1577,7 @@ fun
 MoveOp
 :
 :
-Kind
+Type
 result
 )
 {

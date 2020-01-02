@@ -7782,8 +7782,8 @@ isConstant
 MoveOp
 :
 :
-Kind
-kind
+Type
+moveType
 ;
 switch
 (
@@ -7833,7 +7833,7 @@ LDefinition
 :
 GENERAL
 :
-kind
+moveType
 =
 MoveOp
 :
@@ -7848,7 +7848,7 @@ LDefinition
 :
 FLOAT32
 :
-kind
+moveType
 =
 MoveOp
 :
@@ -7863,7 +7863,7 @@ LDefinition
 :
 DOUBLE
 :
-kind
+moveType
 =
 MoveOp
 :
@@ -7899,7 +7899,7 @@ toMoveOperand
 (
 to
 )
-kind
+moveType
 )
 )
 return

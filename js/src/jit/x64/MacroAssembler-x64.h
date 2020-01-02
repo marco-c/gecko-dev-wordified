@@ -8656,8 +8656,8 @@ from
 MoveOp
 :
 :
-Kind
-kind
+Type
+type
 )
 ;
 void
@@ -8679,8 +8679,8 @@ reg
 MoveOp
 :
 :
-Kind
-kind
+Type
+type
 )
 ;
 private
@@ -8701,7 +8701,7 @@ stackAdjust
 MoveOp
 :
 :
-Kind
+Type
 result
 )
 ;
@@ -8734,7 +8734,7 @@ fun
 MoveOp
 :
 :
-Kind
+Type
 result
 =
 MoveOp
@@ -8751,7 +8751,7 @@ imm
 MoveOp
 :
 :
-Kind
+Type
 result
 =
 MoveOp
@@ -8768,7 +8768,7 @@ fun
 MoveOp
 :
 :
-Kind
+Type
 result
 =
 MoveOp

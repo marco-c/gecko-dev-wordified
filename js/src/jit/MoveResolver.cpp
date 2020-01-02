@@ -171,8 +171,8 @@ to
 MoveOp
 :
 :
-Kind
-kind
+Type
+type
 )
 {
 /
@@ -226,7 +226,7 @@ PendingMove
 (
 from
 to
-kind
+type
 )
 ;
 pending_
