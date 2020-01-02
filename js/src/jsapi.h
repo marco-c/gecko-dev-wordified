@@ -27522,6 +27522,17 @@ cx
 extern
 JS_PUBLIC_API
 (
+bool
+)
+JS_IsStopIteration
+(
+jsval
+v
+)
+;
+extern
+JS_PUBLIC_API
+(
 intptr_t
 )
 JS_GetCurrentThread
