@@ -1243,8 +1243,7 @@ RegisterPerfMeasurement
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 globalArg
 )
 {
