@@ -646,6 +646,15 @@ return
 mChildProcessHandle
 ;
 }
+GeckoProcessType
+GetProcessType
+(
+)
+{
+return
+mProcessType
+;
+}
 #
 ifdef
 XP_MACOSX
