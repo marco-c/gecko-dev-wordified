@@ -335,7 +335,7 @@ return
 TimesEight
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -430,7 +430,7 @@ Imm32
 ;
 }
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid

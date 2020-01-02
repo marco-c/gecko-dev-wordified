@@ -2203,7 +2203,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown
@@ -5567,7 +5567,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -5912,7 +5912,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid

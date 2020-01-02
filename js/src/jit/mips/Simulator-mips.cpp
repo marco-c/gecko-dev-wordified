@@ -5341,7 +5341,7 @@ FloatRegisters
 Invalid
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -12024,7 +12024,7 @@ defined
 (
 USES_O32_ABI
 )
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Only
@@ -12970,7 +12970,7 @@ break
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 call
@@ -13779,7 +13779,7 @@ i
 =
 0
 )
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Error
@@ -20655,7 +20655,7 @@ isForbiddenInBranchDelay
 )
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Eror

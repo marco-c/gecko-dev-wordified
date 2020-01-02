@@ -2373,7 +2373,7 @@ return
 MIRType_None
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -2486,7 +2486,7 @@ void
 "
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -2713,7 +2713,7 @@ AsmJSModule
 Return_Double
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -2759,7 +2759,7 @@ return
 MIRType_Float32
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -3221,7 +3221,7 @@ return
 MIRType_Float32
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 VarType
@@ -3266,7 +3266,7 @@ return
 AsmJS_FRound
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 VarType
@@ -3464,7 +3464,7 @@ isFloat
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -4386,7 +4386,7 @@ default
 :
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -10750,7 +10750,7 @@ OutOfRangeInt
 :
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -11658,7 +11658,7 @@ return
 false
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -20398,7 +20398,7 @@ default
 break
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -23841,7 +23841,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -27389,7 +27389,7 @@ return
 true
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 return
@@ -27839,7 +27839,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -29816,7 +29816,7 @@ return
 false
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -31656,7 +31656,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 not
@@ -32098,7 +32098,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 not
@@ -43001,8 +43001,6 @@ dstAddr
 )
 ;
 }
-break
-;
 }
 }
 }
@@ -43823,7 +43821,7 @@ RetType
 :
 Float
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Float32
@@ -43837,8 +43835,6 @@ a
 FFI
 "
 )
-;
-break
 ;
 }
 /
@@ -45776,7 +45772,7 @@ RetType
 :
 Float
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Float
@@ -45790,8 +45786,6 @@ a
 FFI
 "
 )
-;
-break
 ;
 }
 Label
@@ -46266,7 +46260,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unsupported

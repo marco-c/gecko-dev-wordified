@@ -3424,7 +3424,7 @@ GENERAL
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -4370,7 +4370,7 @@ op
 *
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI

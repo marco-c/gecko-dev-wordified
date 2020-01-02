@@ -208,7 +208,7 @@ Optimization_AsmJS
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid

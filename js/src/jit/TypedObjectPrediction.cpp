@@ -734,7 +734,7 @@ fields
 return
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -825,7 +825,7 @@ kind
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -894,7 +894,7 @@ return
 true
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -1075,7 +1075,7 @@ return
 false
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown
@@ -1130,7 +1130,7 @@ return
 false
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -1236,7 +1236,7 @@ proto
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -1324,7 +1324,7 @@ return
 nullptr
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -1452,7 +1452,7 @@ never
 scalars
 etc
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -1668,7 +1668,7 @@ structs
 never
 arrays
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -1820,7 +1820,7 @@ structs
 never
 arrays
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -2082,7 +2082,7 @@ fieldIndex
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad

@@ -25132,7 +25132,7 @@ size_t
 index
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 no
@@ -25152,7 +25152,7 @@ LDefinition
 temp
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 no
@@ -25180,7 +25180,7 @@ i
 )
 const
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 no
@@ -25198,7 +25198,7 @@ MBasicBlock
 *
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 no
@@ -26543,7 +26543,7 @@ size_t
 index
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 no
@@ -26563,7 +26563,7 @@ LDefinition
 a
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 no
@@ -26591,7 +26591,7 @@ i
 )
 const
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 no
@@ -26609,7 +26609,7 @@ MBasicBlock
 *
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 no

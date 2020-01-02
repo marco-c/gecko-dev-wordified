@@ -2210,8 +2210,14 @@ sizeof
 double
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
+"
+Unexpected
+register
+dump
+offset
+"
 )
 ;
 }
