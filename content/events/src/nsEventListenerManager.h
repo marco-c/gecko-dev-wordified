@@ -183,9 +183,6 @@ class
 nsPIDOMWindow
 ;
 class
-nsCxPusher
-;
-class
 nsIEventListenerInfo
 ;
 class
@@ -1480,9 +1477,6 @@ aCurrentTarget
 nsEventStatus
 *
 aEventStatus
-nsCxPusher
-*
-aPusher
 )
 {
 if
@@ -1595,7 +1589,6 @@ aEvent
 aDOMEvent
 aCurrentTarget
 aEventStatus
-aPusher
 )
 ;
 }
@@ -2076,9 +2069,6 @@ aCurrentTarget
 nsEventStatus
 *
 aEventStatus
-nsCxPusher
-*
-aPusher
 )
 ;
 nsresult
@@ -2099,9 +2089,6 @@ dom
 EventTarget
 *
 aCurrentTarget
-nsCxPusher
-*
-aPusher
 )
 ;
 /
@@ -2151,9 +2138,6 @@ CompileEventHandlerInternal
 nsListenerStruct
 *
 aListenerStruct
-nsCxPusher
-&
-aPusher
 const
 nsAString
 *
