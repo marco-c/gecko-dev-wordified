@@ -1502,6 +1502,12 @@ const
 nsRect
 &
 aDirtyRect
+float
+aOpacity
+=
+1
+.
+0
 )
 ;
 static
