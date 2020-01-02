@@ -221,10 +221,15 @@ void
 aResult
 )
 {
-NS_ENSURE_NO_AGGREGATION
+if
+(
+NS_WARN_IF
 (
 aOuter
 )
+)
+return
+NS_ERROR_NO_AGGREGATION
 ;
 /
 /
