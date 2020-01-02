@@ -8999,6 +8999,7 @@ if
 (
 origContextLoader
 )
+{
 origContextLoader
 -
 >
@@ -9010,6 +9011,7 @@ mOriginalChannel
 )
 )
 ;
+}
 bool
 isPrivate
 =
@@ -9039,6 +9041,7 @@ if
 (
 oldLoadGroup
 )
+{
 oldLoadGroup
 -
 >
@@ -9049,6 +9052,7 @@ nullptr
 NS_BINDING_RETARGETED
 )
 ;
+}
 aChannel
 -
 >
@@ -10921,9 +10925,11 @@ XRE_GetProcessType
 =
 GeckoProcessType_Content
 )
+{
 return
 NS_OK
 ;
+}
 rv
 =
 SetUpTempFile
@@ -11376,6 +11382,7 @@ if
 (
 handlerSvc
 )
+{
 handlerSvc
 -
 >
@@ -11386,6 +11393,7 @@ mMimeInfo
 mimeTypeIsInDatastore
 )
 ;
+}
 if
 (
 !
@@ -11988,14 +11996,6 @@ false
 ;
 }
 else
-/
-/
-Various
-unknown
-actions
-go
-here
-too
 {
 rv
 =
@@ -13062,6 +13062,7 @@ mCanceled
 !
 mSaver
 )
+{
 /
 /
 then
@@ -13080,6 +13081,7 @@ Cancel
 NS_BINDING_ABORTED
 )
 ;
+}
 /
 /
 read
@@ -13185,6 +13187,7 @@ if
 (
 mTempFile
 )
+{
 mTempFile
 -
 >
@@ -13193,6 +13196,7 @@ GetPath
 tempFilePath
 )
 ;
+}
 SendStatusChange
 (
 kReadError
@@ -13359,9 +13363,11 @@ mCanceled
 !
 mSaver
 )
+{
 return
 NS_OK
 ;
+}
 return
 mSaver
 -
