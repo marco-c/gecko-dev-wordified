@@ -1560,12 +1560,12 @@ table
 ifdef
 JSGC_HASH_TABLE_CHECKS
 void
-checkNewTypeObjectTablesAfterMovingGC
+checkTypeObjectTablesAfterMovingGC
 (
 )
 ;
 void
-checkNewTypeObjectTableAfterMovingGC
+checkTypeObjectTableAfterMovingGC
 (
 js
 :
