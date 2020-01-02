@@ -8620,6 +8620,12 @@ LOCAL_GL_MAX_RENDERBUFFER_SIZE
 mMaxRenderbufferSize
 )
 ;
+raw_fGetIntegerv
+(
+LOCAL_GL_MAX_VIEWPORT_DIMS
+mMaxViewportDims
+)
+;
 #
 ifdef
 XP_MACOSX
