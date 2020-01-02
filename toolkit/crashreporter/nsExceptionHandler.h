@@ -599,7 +599,7 @@ it
 is
 non
 -
-NULL
+nullptr
 .
 The
 sequence
@@ -632,7 +632,7 @@ uint32_t
 *
 aSequence
 =
-NULL
+nullptr
 )
 ;
 #

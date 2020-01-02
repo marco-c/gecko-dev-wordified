@@ -387,7 +387,7 @@ hThread
 CreateRemoteThread
 (
 hProcess
-NULL
+nullptr
 0
 (
 LPTHREAD_START_ROUTINE
@@ -399,7 +399,7 @@ void
 )
 hRemotePipe
 0
-NULL
+nullptr
 )
 )
 ;

@@ -817,7 +817,7 @@ HTTP_PROXY_DIR
 /
 use_http_proxy
 "
-NULL
+nullptr
 )
 )
 {
@@ -828,11 +828,11 @@ gchar
 *
 host
 =
-NULL
+nullptr
 *
 httpproxy
 =
-NULL
+nullptr
 ;
 host
 =
@@ -844,7 +844,7 @@ HTTP_PROXY_DIR
 /
 host
 "
-NULL
+nullptr
 )
 ;
 port
@@ -857,7 +857,7 @@ HTTP_PROXY_DIR
 /
 port
 "
-NULL
+nullptr
 )
 ;
 if
@@ -923,7 +923,7 @@ HTTP_PROXY_DIR
 /
 use_authentication
 "
-NULL
+nullptr
 )
 )
 {
@@ -935,7 +935,7 @@ password
 *
 auth
 =
-NULL
+nullptr
 ;
 user
 =
@@ -947,7 +947,7 @@ HTTP_PROXY_DIR
 /
 authentication_user
 "
-NULL
+nullptr
 )
 ;
 password
@@ -960,7 +960,7 @@ HTTP_PROXY_DIR
 /
 authentication_password
 "
-NULL
+nullptr
 )
 ;
 if
@@ -1163,7 +1163,7 @@ success
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 gboolean
@@ -1399,7 +1399,7 @@ use
 threads
 g_thread_init
 (
-NULL
+nullptr
 )
 ;
 if
@@ -1472,7 +1472,7 @@ errorDialog
 =
 gtk_message_dialog_new
 (
-NULL
+nullptr
 GTK_DIALOG_MODAL
 GTK_MESSAGE_ERROR
 GTK_BUTTONS_CLOSE
@@ -1569,7 +1569,7 @@ errorDialog
 =
 gtk_message_dialog_new
 (
-NULL
+nullptr
 GTK_DIALOG_MODAL
 GTK_MESSAGE_ERROR
 GTK_BUTTONS_CLOSE

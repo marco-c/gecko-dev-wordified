@@ -232,7 +232,7 @@ void
 *
 gnomeLib
 =
-NULL
+nullptr
 ;
 /
 /
@@ -247,7 +247,7 @@ void
 *
 gnomeuiLib
 =
-NULL
+nullptr
 ;
 static
 void
@@ -784,7 +784,7 @@ gSendThreadID
 g_thread_create
 (
 SendThread
-NULL
+nullptr
 TRUE
 &
 err
@@ -1110,7 +1110,7 @@ gWindow
 GTK_DIALOG_MODAL
 GTK_STOCK_OK
 GTK_RESPONSE_OK
-NULL
+nullptr
 )
 )
 ;
@@ -1435,7 +1435,7 @@ GtkTextBuffer
 *
 buffer
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1470,7 +1470,7 @@ if
 buffer
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -1507,7 +1507,7 @@ gtk_widget_modify_text
 (
 widget
 GTK_STATE_NORMAL
-NULL
+nullptr
 )
 ;
 *
@@ -1528,14 +1528,14 @@ char
 *
 text
 =
-NULL
+nullptr
 ;
 if
 (
 buffer
 =
 =
-NULL
+nullptr
 )
 {
 text
@@ -1587,7 +1587,7 @@ if
 text
 =
 =
-NULL
+nullptr
 |
 |
 text
@@ -1612,7 +1612,7 @@ if
 buffer
 =
 =
-NULL
+nullptr
 )
 {
 gtk_entry_set_text
@@ -2005,7 +2005,7 @@ libgnomeui_module_info_get
 )
 gArgc
 gArgv
-NULL
+nullptr
 )
 ;
 }
@@ -3136,7 +3136,7 @@ small
 .
 gif
 "
-NULL
+nullptr
 )
 ;
 g_free
