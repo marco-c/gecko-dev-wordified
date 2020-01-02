@@ -47,6 +47,9 @@ for
 Cendio
 AB
 *
+libjpeg
+-
+turbo
 Modifications
 :
 *

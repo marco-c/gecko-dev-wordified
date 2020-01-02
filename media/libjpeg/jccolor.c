@@ -33,6 +33,9 @@ G
 Lane
 .
 *
+libjpeg
+-
+turbo
 Modifications
 :
 *

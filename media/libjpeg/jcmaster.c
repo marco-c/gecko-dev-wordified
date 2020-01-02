@@ -42,6 +42,9 @@ Guido
 Vollbeding
 .
 *
+libjpeg
+-
+turbo
 Modifications
 :
 *
@@ -4476,6 +4479,13 @@ cinfo
 -
 >
 progressive_mode
+&
+&
+!
+cinfo
+-
+>
+arith_code
 )
 /
 *

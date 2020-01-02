@@ -40,6 +40,9 @@ Guido
 Vollbeding
 .
 *
+libjpeg
+-
+turbo
 Modifications
 :
 *
