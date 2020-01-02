@@ -146,7 +146,9 @@ postMessage
 "
 step
 "
-masterFrameOrigin
+"
+*
+"
 )
 ;
 else
@@ -161,7 +163,9 @@ postMessage
 "
 step
 "
-slaveFrameOrigin
+"
+*
+"
 )
 ;
 else
@@ -190,7 +194,9 @@ postMessage
 "
 step
 "
-slaveFrameOrigin
+"
+*
+"
 )
 ;
 callMasterFrame
