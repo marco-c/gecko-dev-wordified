@@ -1079,6 +1079,17 @@ return
 nullptr
 ;
 }
+virtual
+bool
+ResponseTimeoutEnabled
+(
+)
+const
+{
+return
+false
+;
+}
 /
 /
 Every
