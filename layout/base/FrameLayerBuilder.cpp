@@ -235,6 +235,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Preferences
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -22115,6 +22124,9 @@ if
 sPaintRectsSeparatelyPrefCached
 )
 {
+mozilla
+:
+:
 Preferences
 :
 :
