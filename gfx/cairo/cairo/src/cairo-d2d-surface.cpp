@@ -680,7 +680,13 @@ device
 >
 mBlendStates
 [
+static_cast
+<
+size_t
+>
+(
 op
+)
 ]
 )
 {
