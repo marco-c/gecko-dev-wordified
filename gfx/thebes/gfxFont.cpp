@@ -39350,8 +39350,7 @@ if
 lineBreakHere
 &
 &
-!
-wordWrapping
+hyphenation
 )
 {
 hyphenatedAdvance
@@ -39407,8 +39406,7 @@ lastBreakUsedHyphenation
 lineBreakHere
 &
 &
-!
-wordWrapping
+hyphenation
 ;
 *
 aBreakPriority
