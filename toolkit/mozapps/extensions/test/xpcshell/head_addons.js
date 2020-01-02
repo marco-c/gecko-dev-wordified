@@ -176,8 +176,6 @@ gre
 /
 modules
 /
-addons
-/
 AddonRepository
 .
 jsm
@@ -2892,8 +2890,6 @@ gre
 /
 modules
 /
-addons
-/
 XPIProvider
 .
 jsm
@@ -2968,8 +2964,6 @@ resource
 gre
 /
 modules
-/
-addons
 /
 XPIProvider
 .

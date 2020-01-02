@@ -664,8 +664,6 @@ mozapps
 /
 extensions
 /
-internal
-/
 XPIProvider
 .
 jsm
