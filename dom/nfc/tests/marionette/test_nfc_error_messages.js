@@ -192,7 +192,9 @@ emulator
 .
 activateRE
 (
-0
+emulator
+.
+P2P_RE_INDEX_0
 )
 )
 .
@@ -333,7 +335,9 @@ emulator
 .
 activateRE
 (
-0
+emulator
+.
+P2P_RE_INDEX_0
 )
 )
 .
@@ -365,7 +369,9 @@ emulator
 .
 activateRE
 (
-0
+emulator
+.
+P2P_RE_INDEX_0
 )
 )
 .
@@ -502,7 +508,9 @@ emulator
 .
 activateRE
 (
-0
+emulator
+.
+P2P_RE_INDEX_0
 )
 )
 .
@@ -625,7 +633,9 @@ emulator
 .
 activateRE
 (
-0
+emulator
+.
+P2P_RE_INDEX_0
 )
 )
 .

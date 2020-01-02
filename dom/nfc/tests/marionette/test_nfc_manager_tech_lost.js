@@ -151,7 +151,7 @@ type
 '
 )
 ;
-emulator
+NCI
 .
 deactivate
 (
@@ -222,11 +222,13 @@ then
 )
 =
 >
-emulator
+NCI
 .
 activateRE
 (
-0
+emulator
+.
+P2P_RE_INDEX_0
 )
 )
 ;
