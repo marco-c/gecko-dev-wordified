@@ -519,6 +519,7 @@ C
 "
 {
 extern
+MOZ_EXPORT
 int64_t
 __aeabi_idivmod
 (

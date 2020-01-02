@@ -218,6 +218,7 @@ extern
 "
 C
 "
+MOZ_EXPORT
 __attribute__
 (
 (

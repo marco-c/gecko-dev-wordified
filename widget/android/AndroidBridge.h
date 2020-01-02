@@ -226,6 +226,15 @@ TimeStamp
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Types
+.
+h
+"
 /
 /
 Some
@@ -270,6 +279,7 @@ extern
 "
 C
 "
+MOZ_EXPORT
 JNIEnv
 *
 GetJNIForThread

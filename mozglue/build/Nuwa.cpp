@@ -322,6 +322,14 @@ extern
 C
 "
 {
+#
+pragma
+GCC
+visibility
+push
+(
+default
+)
 int
 __real_pthread_create
 (
@@ -535,6 +543,11 @@ int
 aFd
 )
 ;
+#
+pragma
+GCC
+visibility
+pop
 }
 #
 define

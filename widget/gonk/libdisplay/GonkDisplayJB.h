@@ -187,6 +187,7 @@ namespace
 mozilla
 {
 class
+MOZ_EXPORT
 GonkDisplayJB
 :
 public

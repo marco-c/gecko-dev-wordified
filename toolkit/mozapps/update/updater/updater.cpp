@@ -480,6 +480,15 @@ Compiler
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Types
+.
+h
+"
 /
 /
 Amount
@@ -762,6 +771,7 @@ extern
 "
 C
 "
+MOZ_EXPORT
 int
 ioprio_set
 (

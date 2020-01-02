@@ -106,6 +106,7 @@ offset
 ;
 }
 ;
+NS_EXPORT
 const
 struct
 mapping_info

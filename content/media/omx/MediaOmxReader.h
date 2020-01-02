@@ -179,6 +179,7 @@ class
 OmxDecoder
 ;
 class
+MOZ_EXPORT
 MediaExtractor
 ;
 }

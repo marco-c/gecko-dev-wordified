@@ -140,6 +140,15 @@ A_AVC_ASSEMBLER_H_
 #
 include
 "
+mozilla
+/
+Types
+.
+h
+"
+#
+include
+"
 ARTPAssembler
 .
 h
@@ -166,9 +175,11 @@ namespace
 android
 {
 struct
+MOZ_EXPORT
 ABuffer
 ;
 struct
+MOZ_EXPORT
 AMessage
 ;
 struct

@@ -99,6 +99,15 @@ define
 AndroidJNIWrapper_h__
 #
 include
+"
+mozilla
+/
+Types
+.
+h
+"
+#
+include
 <
 jni
 .
@@ -117,6 +126,7 @@ extern
 "
 C
 "
+MOZ_EXPORT
 jclass
 jsjni_FindClass
 (
@@ -184,6 +194,7 @@ extern
 "
 C
 "
+MOZ_EXPORT
 jclass
 jsjni_GetGlobalClassRef
 (
@@ -197,6 +208,7 @@ extern
 "
 C
 "
+MOZ_EXPORT
 jmethodID
 jsjni_GetStaticMethodID
 (
@@ -216,6 +228,7 @@ extern
 "
 C
 "
+MOZ_EXPORT
 bool
 jsjni_ExceptionCheck
 (
@@ -225,6 +238,7 @@ extern
 "
 C
 "
+MOZ_EXPORT
 void
 jsjni_CallStaticVoidMethodA
 (
@@ -241,6 +255,7 @@ extern
 "
 C
 "
+MOZ_EXPORT
 int
 jsjni_CallStaticIntMethodA
 (
@@ -257,6 +272,7 @@ extern
 "
 C
 "
+MOZ_EXPORT
 jobject
 jsjni_GetGlobalContextRef
 (
@@ -266,6 +282,7 @@ extern
 "
 C
 "
+MOZ_EXPORT
 JavaVM
 *
 jsjni_GetVM
@@ -276,6 +293,7 @@ extern
 "
 C
 "
+MOZ_EXPORT
 JNIEnv
 *
 jsjni_GetJNIForThread

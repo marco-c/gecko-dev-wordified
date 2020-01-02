@@ -139,6 +139,15 @@ define
 A_RTP_CONNECTION_H_
 #
 include
+"
+mozilla
+/
+Types
+.
+h
+"
+#
+include
 <
 media
 /
@@ -163,6 +172,7 @@ namespace
 android
 {
 struct
+MOZ_EXPORT
 ABuffer
 ;
 struct

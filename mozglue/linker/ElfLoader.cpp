@@ -238,6 +238,7 @@ extern
 "
 C
 "
+MOZ_EXPORT
 const
 void
 *

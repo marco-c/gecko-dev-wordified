@@ -139,6 +139,15 @@ define
 A_SESSION_DESCRIPTION_H_
 #
 include
+"
+mozilla
+/
+Types
+.
+h
+"
+#
+include
 <
 sys
 /
@@ -190,6 +199,7 @@ namespace
 android
 {
 struct
+MOZ_EXPORT
 AString
 ;
 struct

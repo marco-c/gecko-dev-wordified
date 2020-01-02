@@ -142,6 +142,15 @@ window
 .
 h
 >
+#
+include
+"
+mozilla
+/
+Types
+.
+h
+"
 namespace
 mozilla
 {
@@ -163,6 +172,7 @@ void
 EGLSurface
 ;
 class
+MOZ_EXPORT
 GonkDisplay
 {
 public
@@ -352,6 +362,7 @@ surfaceformat
 ;
 }
 ;
+MOZ_EXPORT
 __attribute__
 (
 (
