@@ -1115,14 +1115,6 @@ ins
 )
 ;
 bool
-visitStringReplace
-(
-MStringReplace
-*
-ins
-)
-;
-bool
 visitLambda
 (
 MLambda

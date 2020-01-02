@@ -4095,7 +4095,7 @@ callInfo
 )
 ;
 InliningStatus
-inlineStrReplace
+inlineStrReplaceRegExp
 (
 CallInfo
 &
