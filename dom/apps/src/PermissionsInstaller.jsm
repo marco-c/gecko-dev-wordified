@@ -470,6 +470,9 @@ manifest
 aApp
 .
 origin
+aApp
+.
+manifestURL
 )
 ;
 if
