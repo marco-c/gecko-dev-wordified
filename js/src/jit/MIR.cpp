@@ -10058,12 +10058,9 @@ uses
 .
 if
 (
-truncateKind
+isTruncated
 (
 )
->
-=
-IndirectTruncate
 )
 return
 false
@@ -10113,12 +10110,9 @@ fallible
 )
 if
 (
-truncateKind
+isTruncated
 (
 )
->
-=
-IndirectTruncate
 )
 return
 false
