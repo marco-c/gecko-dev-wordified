@@ -177,6 +177,8 @@ querySelector
 (
 "
 .
+message
+-
 body
 "
 )
@@ -439,6 +441,8 @@ querySelector
 (
 "
 .
+message
+-
 body
 "
 )

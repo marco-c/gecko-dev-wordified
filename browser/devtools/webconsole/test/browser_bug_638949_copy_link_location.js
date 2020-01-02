@@ -496,6 +496,12 @@ network
 /
 messages
 .
+message
+.
+scrollIntoView
+(
+)
+;
 waitForContextMenu
 (
 menu
@@ -768,6 +774,12 @@ related
 /
 messages
 .
+message
+.
+scrollIntoView
+(
+)
+;
 waitForContextMenu
 (
 menu
