@@ -1431,13 +1431,11 @@ NS_SELECTION_EVENT
 :
 mIMELastReceivedSeqno
 =
-static_cast
-<
-WidgetSelectionEvent
-*
->
-(
 event
+-
+>
+AsSelectionEvent
+(
 )
 -
 >
