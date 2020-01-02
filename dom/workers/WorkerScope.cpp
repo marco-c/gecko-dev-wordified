@@ -1503,7 +1503,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 const
-nsString
+nsCString
 &
 aName
 )

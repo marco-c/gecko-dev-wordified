@@ -391,7 +391,7 @@ return
 nullptr
 ;
 }
-nsString
+nsCString
 name
 ;
 if
@@ -405,10 +405,13 @@ WasPassed
 {
 name
 =
+NS_ConvertUTF16toUTF8
+(
 aName
 .
 Value
 (
+)
 )
 ;
 }
