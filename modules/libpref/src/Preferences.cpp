@@ -6376,15 +6376,12 @@ Length
 4
 )
 .
-Equals
-(
-NS_LITERAL_CSTRING
+EqualsLiteral
 (
 "
 .
 xpi
 "
-)
 )
 )
 ReadExtensionPrefs

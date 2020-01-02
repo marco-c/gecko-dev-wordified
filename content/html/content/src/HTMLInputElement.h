@@ -3206,14 +3206,11 @@ if
 (
 aValue
 .
-Equals
-(
-NS_LITERAL_STRING
+EqualsLiteral
 (
 "
 number
 "
-)
 )
 )
 {

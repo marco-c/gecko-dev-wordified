@@ -2999,9 +2999,7 @@ if
 (
 host
 .
-Equals
-(
-NS_LITERAL_CSTRING
+EqualsLiteral
 (
 "
 chart
@@ -3012,7 +3010,6 @@ google
 .
 com
 "
-)
 )
 |
 |

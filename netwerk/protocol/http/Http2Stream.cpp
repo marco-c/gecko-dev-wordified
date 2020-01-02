@@ -5996,14 +5996,11 @@ if
 !
 method
 .
-Equals
-(
-NS_LITERAL_CSTRING
+EqualsLiteral
 (
 "
 GET
 "
-)
 )
 )
 {

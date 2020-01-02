@@ -4104,14 +4104,11 @@ if
 !
 aContextId
 .
-Equals
-(
-NS_LITERAL_STRING
+EqualsLiteral
 (
 "
 2d
 "
-)
 )
 )
 return

@@ -5792,14 +5792,11 @@ if
 (
 aError
 .
-Equals
-(
-NS_LITERAL_STRING
+EqualsLiteral
 (
 "
 BusyError
 "
-)
 )
 )
 {

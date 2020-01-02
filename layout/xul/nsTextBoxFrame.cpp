@@ -713,14 +713,11 @@ gAlwaysAppendAccessKey
 =
 val
 .
-Equals
-(
-NS_LITERAL_STRING
+EqualsLiteral
 (
 "
 true
 "
-)
 )
 ;
 }
