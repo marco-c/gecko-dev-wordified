@@ -2283,14 +2283,6 @@ endif
 JS_HAS_OBJ_PROTO_PROP
 *
 /
-self
--
->
-setProtoGetter
-(
-getter
-)
-;
 if
 (
 !
