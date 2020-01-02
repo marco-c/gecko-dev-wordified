@@ -258,6 +258,10 @@ MtpStorage
 ;
 class
 MOZ_EXPORT
+MtpStringBuffer
+;
+class
+MOZ_EXPORT
 MtpDatabase
 ;
 class
@@ -308,6 +312,13 @@ h
 include
 <
 MtpStorage
+.
+h
+>
+#
+include
+<
+MtpStringBuffer
 .
 h
 >
