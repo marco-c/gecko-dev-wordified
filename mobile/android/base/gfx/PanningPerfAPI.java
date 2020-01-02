@@ -99,6 +99,17 @@ gecko
 gfx
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
+import
 android
 .
 os
@@ -289,6 +300,7 @@ clear
 ;
 }
 }
+RobocopTarget
 public
 static
 void
@@ -343,6 +355,7 @@ uptimeMillis
 )
 ;
 }
+RobocopTarget
 public
 static
 List
@@ -444,6 +457,7 @@ return
 mRecordingCheckerboard
 ;
 }
+RobocopTarget
 public
 static
 void
@@ -498,6 +512,7 @@ uptimeMillis
 )
 ;
 }
+RobocopTarget
 public
 static
 List
