@@ -950,16 +950,6 @@ uint32_t
 aSampleRate
 )
 {
-uint32_t
-outputChannels
-=
-aOutput
--
->
-GetChannels
-(
-)
-;
 nsAutoTArray
 <
 AudioDataValue
@@ -1438,6 +1428,8 @@ Elements
 )
 aOutputChannels
 offset
+/
+aOutputChannels
 aSampleRate
 )
 ;
