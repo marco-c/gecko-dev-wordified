@@ -4175,13 +4175,11 @@ NS_NewDOMFocusEvent
 aDOMEvent
 aOwner
 aPresContext
-static_cast
-<
-InternalFocusEvent
-*
->
-(
 aEvent
+-
+>
+AsFocusEvent
+(
 )
 )
 ;
