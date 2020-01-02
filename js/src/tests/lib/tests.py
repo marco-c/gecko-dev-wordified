@@ -151,6 +151,13 @@ baseline
 -
 eager
 '
+'
+-
+-
+latin1
+-
+strings
+'
 ]
     
 [
