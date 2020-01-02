@@ -582,12 +582,12 @@ char16ptr_t
 const
 char16_t
 *
-ptr
+p
 )
 :
 ptr
 (
-ptr
+p
 )
 {
 }
@@ -596,7 +596,7 @@ char16ptr_t
 const
 wchar_t
 *
-ptr
+p
 )
 :
 ptr
@@ -608,7 +608,7 @@ char16_t
 *
 >
 (
-ptr
+p
 )
 )
 {
