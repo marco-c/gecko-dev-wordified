@@ -163,13 +163,6 @@ h
 #
 include
 "
-nsIPlatformCharset
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h
