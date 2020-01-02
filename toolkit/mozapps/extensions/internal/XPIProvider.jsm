@@ -176,6 +176,8 @@ gre
 /
 modules
 /
+addons
+/
 AddonRepository
 .
 jsm
@@ -1640,6 +1642,8 @@ gre
 /
 modules
 /
+addons
+/
 AddonLogging
 .
 jsm
@@ -1726,6 +1730,8 @@ resource
 gre
 /
 modules
+/
+addons
 /
 XPIProviderUtils
 .
@@ -27842,6 +27848,8 @@ gre
 /
 modules
 /
+addons
+/
 SpellCheckDictionaryBootstrap
 .
 js
@@ -38539,6 +38547,8 @@ resource
 gre
 /
 modules
+/
+addons
 /
 AddonUpdateChecker
 .

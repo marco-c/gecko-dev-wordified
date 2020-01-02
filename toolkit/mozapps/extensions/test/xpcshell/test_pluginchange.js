@@ -73,6 +73,8 @@ gre
 /
 modules
 /
+addons
+/
 PluginProvider
 .
 jsm
