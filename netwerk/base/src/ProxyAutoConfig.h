@@ -343,6 +343,14 @@ PROXY
 "
 |
 "
+HTTP
+"
+|
+"
+HTTPS
+"
+|
+"
 SOCKS
 "
 |
