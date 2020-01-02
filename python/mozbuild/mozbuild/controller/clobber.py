@@ -1383,6 +1383,29 @@ or
 performed
 :
         
+if
+performed
+and
+env
+.
+get
+(
+'
+TINDERBOX_OUTPUT
+'
+)
+:
+            
+print
+(
+'
+TinderboxPrint
+:
+auto
+clobber
+'
+)
+        
 return
 0
     
