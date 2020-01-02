@@ -972,6 +972,24 @@ testPath
 =
 test_path
         
+elif
+conditions
+.
+is_b2g_desktop
+:
+            
+options
+.
+testManifest
+=
+'
+b2g
+-
+desktop
+.
+json
+'
+        
 else
 :
             
