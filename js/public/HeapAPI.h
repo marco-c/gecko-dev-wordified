@@ -174,8 +174,10 @@ runtime
 or
 zone
 .
-extern
+JS_FRIEND_API
+(
 bool
+)
 CurrentThreadCanAccessRuntime
 (
 JSRuntime
@@ -183,8 +185,10 @@ JSRuntime
 rt
 )
 ;
-extern
+JS_FRIEND_API
+(
 bool
+)
 CurrentThreadCanAccessZone
 (
 JS
