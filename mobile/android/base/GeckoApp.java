@@ -8782,6 +8782,15 @@ makeNotificationClient
 )
 )
 ;
+NotificationHelper
+.
+init
+(
+getApplicationContext
+(
+)
+)
+;
 }
 protected
 void
