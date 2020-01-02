@@ -1032,14 +1032,6 @@ ins
 )
 ;
 bool
-visitHypot
-(
-MHypot
-*
-ins
-)
-;
-bool
 visitPow
 (
 MPow

@@ -3619,14 +3619,6 @@ callInfo
 )
 ;
 InliningStatus
-inlineMathHypot
-(
-CallInfo
-&
-callInfo
-)
-;
-InliningStatus
 inlineMathMinMax
 (
 CallInfo

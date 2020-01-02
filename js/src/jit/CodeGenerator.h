@@ -1331,14 +1331,6 @@ lir
 )
 ;
 bool
-visitHypot
-(
-LHypot
-*
-lir
-)
-;
-bool
 visitPowI
 (
 LPowI
