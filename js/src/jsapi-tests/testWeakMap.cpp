@@ -755,7 +755,7 @@ when
 the
 delegate
 becomes
-unreachable
+unreacable
 the
 entry
 is

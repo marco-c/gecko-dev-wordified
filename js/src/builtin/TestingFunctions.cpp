@@ -12840,17 +12840,6 @@ GC
 n
 "
 "
-14
-:
-Always
-compact
-arenas
-after
-GC
-\
-n
-"
-"
 Period
 specifies
 that
