@@ -307,11 +307,13 @@ mResultData
 ;
 /
 /
-not
+allocated
+in
+loader
+but
 owned
-refers
-to
-mLoader
+by
+listener
 uint32_t
 mResultLen
 ;
