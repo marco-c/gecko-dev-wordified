@@ -330,6 +330,17 @@ CAIRO_SURFACE
 *
 *
 *
+A
+MacIOSurface
+object
+.
+*
+/
+MAC_IOSURFACE
+/
+*
+*
+*
 An
 bitmap
 image
