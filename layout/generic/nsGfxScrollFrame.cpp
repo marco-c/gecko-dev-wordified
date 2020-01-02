@@ -6012,7 +6012,7 @@ rv
 /
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHODIMP
 nsHTMLScrollFrame
 :
@@ -7559,7 +7559,7 @@ maxSize
 }
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHODIMP
 nsXULScrollFrame
 :

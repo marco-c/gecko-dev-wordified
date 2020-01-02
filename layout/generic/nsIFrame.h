@@ -24086,7 +24086,7 @@ aSource
 ;
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 public
 :
 static
@@ -24283,6 +24283,13 @@ const
 =
 0
 ;
+#
+endif
+#
+ifdef
+DEBUG
+public
+:
 NS_IMETHOD_
 (
 nsFrameState

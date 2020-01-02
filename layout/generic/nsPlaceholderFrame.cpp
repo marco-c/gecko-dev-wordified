@@ -1468,7 +1468,7 @@ MOZ_REFLOW_PERF
 )
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHODIMP
 nsPlaceholderFrame
 :
@@ -1553,6 +1553,3 @@ out
 }
 #
 endif
-/
-/
-DEBUG

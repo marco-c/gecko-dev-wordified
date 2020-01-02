@@ -344,7 +344,7 @@ MOZ_OVERRIDE
 ;
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHOD
 GetFrameName
 (
@@ -816,6 +816,11 @@ aPrevInFlow
 )
 MOZ_OVERRIDE
 ;
+#
+endif
+#
+ifdef
+DEBUG_FRAME_DUMP
 NS_IMETHOD
 GetFrameName
 (

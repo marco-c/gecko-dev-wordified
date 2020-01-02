@@ -12139,7 +12139,7 @@ StepForward
 Debugging
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 void
 nsContainerFrame
 :

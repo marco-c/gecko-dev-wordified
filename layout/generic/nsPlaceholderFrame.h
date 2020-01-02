@@ -803,7 +803,7 @@ MOZ_REFLOW_PERF
 )
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 void
 List
 (

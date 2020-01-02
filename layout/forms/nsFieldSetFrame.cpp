@@ -574,6 +574,11 @@ nsFrameList
 aChildList
 )
 ;
+#
+endif
+#
+ifdef
+DEBUG_FRAME_DUMP
 NS_IMETHOD
 GetFrameName
 (

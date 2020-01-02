@@ -1136,7 +1136,7 @@ nullptr
 }
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 static
 void
 ListFloats
@@ -1278,11 +1278,6 @@ Next
 ;
 }
 }
-#
-endif
-#
-ifdef
-DEBUG
 const
 char
 *

@@ -428,7 +428,7 @@ eReplaced
 }
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHOD
 GetFrameName
 (

@@ -9233,7 +9233,7 @@ flexContainerFrame
 }
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHODIMP
 nsFlexContainerFrame
 :
@@ -9261,9 +9261,6 @@ aResult
 }
 #
 endif
-/
-/
-DEBUG
 /
 /
 Helper

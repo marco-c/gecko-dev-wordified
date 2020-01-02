@@ -333,7 +333,7 @@ nsContainerFrame
 )
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHODIMP
 nsInlineFrame
 :
@@ -7039,7 +7039,7 @@ mozLineFrame
 }
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHODIMP
 nsFirstLineFrame
 :

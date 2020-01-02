@@ -3254,7 +3254,7 @@ CSSPixelsToAppUnits
 }
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 void
 nsSubDocumentFrame
 :

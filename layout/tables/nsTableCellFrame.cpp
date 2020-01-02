@@ -6468,7 +6468,7 @@ tableCellFrame
 }
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHODIMP
 nsTableCellFrame
 :
@@ -6615,7 +6615,7 @@ false
 }
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHODIMP
 nsBCTableCellFrame
 :

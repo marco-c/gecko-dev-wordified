@@ -4053,7 +4053,7 @@ MOZ_OVERRIDE
 ;
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHOD
 GetFrameName
 (
@@ -5709,7 +5709,7 @@ aFlags
 }
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHOD
 GetFrameName
 (

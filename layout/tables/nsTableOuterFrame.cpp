@@ -798,7 +798,7 @@ eNoType
 endif
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHODIMP
 nsTableCaptionFrame
 :
@@ -6737,7 +6737,7 @@ nsTableOuterFrame
 )
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHODIMP
 nsTableOuterFrame
 :

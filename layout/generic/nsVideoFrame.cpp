@@ -3228,7 +3228,7 @@ eHTMLMediaType
 endif
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHODIMP
 nsVideoFrame
 :
