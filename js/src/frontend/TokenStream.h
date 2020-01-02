@@ -352,6 +352,11 @@ TOK_STRING
 /
 string
 constant
+TOK_TEMPLATE_STRING
+/
+/
+template
+string
 TOK_REGEXP
 /
 /
@@ -1558,6 +1563,12 @@ type
 =
 =
 TOK_STRING
+|
+|
+type
+=
+=
+TOK_TEMPLATE_STRING
 )
 ;
 JS_ASSERT
@@ -1701,6 +1712,12 @@ type
 =
 =
 TOK_STRING
+|
+|
+type
+=
+=
+TOK_TEMPLATE_STRING
 )
 ;
 return
