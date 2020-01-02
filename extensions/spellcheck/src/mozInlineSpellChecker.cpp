@@ -3835,6 +3835,10 @@ mEditor
 =
 nullptr
 ;
+mFullSpellCheckScheduled
+=
+false
+;
 return
 rv
 ;
