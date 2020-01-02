@@ -17207,7 +17207,9 @@ protoCache
 "
 &
 aProtoAndIfaceArray
-[
+.
+EntrySlotOrCreate
+(
 prototypes
 :
 :
@@ -17216,7 +17218,7 @@ id
 :
 %
 s
-]
+)
 "
 %
 self
@@ -17258,7 +17260,9 @@ interfaceCache
 "
 &
 aProtoAndIfaceArray
-[
+.
+EntrySlotOrCreate
+(
 constructors
 :
 :
@@ -17267,7 +17271,7 @@ id
 :
 %
 s
-]
+)
 "
 %
 self
@@ -17557,7 +17561,9 @@ JSObject
 proto
 =
 aProtoAndIfaceArray
-[
+.
+EntrySlotOrCreate
+(
 prototypes
 :
 :
@@ -17566,7 +17572,7 @@ id
 :
 %
 s
-]
+)
 ;
 \
 n
@@ -17887,10 +17893,12 @@ if
 (
 !
 protoAndIfaceArray
-[
+.
+EntrySlotIfExists
+(
 %
 s
-]
+)
 )
 {
     
@@ -17973,10 +17981,12 @@ JSObject
 fromMarkedLocation
 (
 protoAndIfaceArray
-[
+.
+EntrySlotMustExist
+(
 %
 s
-]
+)
 .
 address
 (
@@ -17987,7 +17997,6 @@ address
 "
 "
 %
-                
 (
 self
 .

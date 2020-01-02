@@ -6970,9 +6970,11 @@ JSObject
 protoOrIface
 =
 protoAndIfaceArray
-[
+.
+EntrySlotIfExists
+(
 protoAndIfaceArrayIndex
-]
+)
 ;
 if
 (
