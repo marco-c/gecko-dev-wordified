@@ -705,7 +705,7 @@ DXGI_FORMAT_UNKNOWN
 static
 inline
 D2D1_ALPHA_MODE
-AlphaMode
+D2DAlphaModeForFormat
 (
 SurfaceFormat
 aFormat
@@ -748,7 +748,7 @@ DXGIFormat
 (
 aFormat
 )
-AlphaMode
+D2DAlphaModeForFormat
 (
 aFormat
 )
