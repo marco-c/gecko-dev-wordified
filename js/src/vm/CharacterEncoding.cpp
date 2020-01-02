@@ -317,6 +317,9 @@ c
 )
 continue
 ;
+uint32_t
+v
+;
 if
 (
 0xD800
@@ -411,7 +414,7 @@ Surrogate
 continue
 ;
 }
-c
+v
 =
 (
 (
@@ -441,7 +444,14 @@ chars
 +
 ;
 }
+else
+{
+v
+=
 c
+;
+}
+v
 >
 >
 =
@@ -453,10 +463,10 @@ nbytes
 ;
 while
 (
-c
+v
 )
 {
-c
+v
 >
 >
 =
@@ -1072,6 +1082,8 @@ UTF8
 .
 *
 /
+JS_ALWAYS_TRUE
+(
 DeflateStringToUTF8Buffer
 (
 cx
@@ -1084,6 +1096,7 @@ length
 utf8
 &
 len
+)
 )
 ;
 utf8
