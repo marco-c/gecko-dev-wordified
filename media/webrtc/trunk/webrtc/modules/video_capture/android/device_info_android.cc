@@ -582,6 +582,13 @@ javaDeviceNameObj
 =
 =
 NULL
+|
+|
+jniFrame
+.
+CheckForException
+(
+)
 )
 {
 WEBRTC_TRACE
@@ -1155,6 +1162,13 @@ if
 (
 !
 javaCapabilitiesObj
+|
+|
+jniFrame
+.
+CheckForException
+(
+)
 )
 {
 WEBRTC_TRACE
