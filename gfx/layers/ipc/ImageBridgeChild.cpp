@@ -2755,6 +2755,14 @@ size
 )
 ;
 }
+if
+(
+!
+IsSameProcess
+(
+)
+)
+{
 ShadowLayerForwarder
 :
 :
@@ -2762,6 +2770,7 @@ PlatformSyncBeforeUpdate
 (
 )
 ;
+}
 AutoInfallibleTArray
 <
 EditReply

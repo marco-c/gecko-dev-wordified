@@ -3527,6 +3527,14 @@ mTargetOrientation
 aRegionToClear
 )
 ;
+if
+(
+!
+IsSameProcess
+(
+)
+)
+{
 MOZ_LAYERS_LOG
 (
 (
@@ -3548,6 +3556,7 @@ PlatformSyncBeforeUpdate
 (
 )
 ;
+}
 profiler_tracing
 (
 "

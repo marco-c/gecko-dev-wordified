@@ -828,6 +828,14 @@ size
 )
 ;
 }
+if
+(
+!
+IsSameProcess
+(
+)
+)
+{
 /
 /
 Ensure
@@ -866,6 +874,7 @@ PlatformSyncBeforeReplyUpdate
 (
 )
 ;
+}
 return
 true
 ;

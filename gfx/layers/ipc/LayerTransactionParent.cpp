@@ -3605,6 +3605,14 @@ size
 ;
 }
 }
+if
+(
+!
+IsSameProcess
+(
+)
+)
+{
 /
 /
 Ensure
@@ -3643,6 +3651,7 @@ PlatformSyncBeforeReplyUpdate
 (
 )
 ;
+}
 mShadowLayersManager
 -
 >
