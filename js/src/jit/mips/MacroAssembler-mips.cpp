@@ -1452,9 +1452,7 @@ ma_li
 (
 Register
 dest
-const
 ImmGCPtr
-&
 ptr
 )
 {
@@ -9667,9 +9665,7 @@ MacroAssemblerMIPSCompat
 :
 movePtr
 (
-const
 ImmGCPtr
-&
 imm
 Register
 dest

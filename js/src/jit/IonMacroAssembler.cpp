@@ -1788,9 +1788,7 @@ const
 Address
 &
 ptr1
-const
 ImmMaybeNurseryPtr
-&
 ptr2
 Label
 *
@@ -1853,9 +1851,7 @@ MacroAssembler
 :
 moveNurseryPtr
 (
-const
 ImmMaybeNurseryPtr
-&
 ptr
 Register
 reg

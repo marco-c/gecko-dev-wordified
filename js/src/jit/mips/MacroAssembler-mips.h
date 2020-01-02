@@ -611,9 +611,7 @@ ma_li
 (
 Register
 dest
-const
 ImmGCPtr
-&
 ptr
 )
 ;
@@ -7246,9 +7244,7 @@ dest
 void
 movePtr
 (
-const
 ImmGCPtr
-&
 imm
 Register
 dest

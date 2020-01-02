@@ -4374,9 +4374,7 @@ after
 void
 writeDataRelocation
 (
-const
 ImmGCPtr
-&
 ptr
 )
 {
