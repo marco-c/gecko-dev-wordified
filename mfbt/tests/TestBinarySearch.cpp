@@ -251,7 +251,7 @@ append
 8
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -275,7 +275,7 @@ m
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BinarySearch
 (
@@ -298,7 +298,7 @@ m
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -322,7 +322,7 @@ m
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BinarySearch
 (
@@ -345,7 +345,7 @@ m
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -369,7 +369,7 @@ m
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BinarySearch
 (
@@ -392,7 +392,7 @@ m
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -416,7 +416,7 @@ m
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BinarySearch
 (
@@ -439,7 +439,7 @@ m
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -463,7 +463,7 @@ m
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -483,7 +483,7 @@ m
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -503,7 +503,7 @@ m
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -523,7 +523,7 @@ m
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BinarySearch
 (
@@ -542,7 +542,7 @@ m
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -562,7 +562,7 @@ m
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BinarySearch
 (
@@ -581,7 +581,7 @@ m
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -601,7 +601,7 @@ m
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -621,7 +621,7 @@ m
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -641,7 +641,7 @@ m
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -661,7 +661,7 @@ m
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -687,7 +687,7 @@ int
 >
 v2
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -707,7 +707,7 @@ m
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -766,7 +766,7 @@ Person
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -793,7 +793,7 @@ m
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BinarySearch
 (
@@ -819,7 +819,7 @@ m
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -846,7 +846,7 @@ m
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BinarySearch
 (
@@ -872,7 +872,7 @@ m
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
@@ -899,7 +899,7 @@ m
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BinarySearch
 (
@@ -925,7 +925,7 @@ m
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 BinarySearch
