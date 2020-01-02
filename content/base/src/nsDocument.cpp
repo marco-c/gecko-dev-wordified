@@ -5042,13 +5042,14 @@ GetFullZoom
 toCtxt
 -
 >
-SetBaseMinFontSize
+SetMinFontSize
 (
 fromCtxt
 -
 >
-BaseMinFontSize
+MinFontSize
 (
+nullptr
 )
 )
 ;
