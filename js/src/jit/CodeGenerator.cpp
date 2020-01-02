@@ -23400,7 +23400,7 @@ mir
 )
 -
 >
-getTemplateObject
+templateObject
 (
 )
 ;
