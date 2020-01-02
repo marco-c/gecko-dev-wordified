@@ -146,13 +146,6 @@ h
 #
 include
 "
-nsIDOMCustomEvent
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestorUtils
 .
 h
@@ -185,7 +178,11 @@ h
 #
 include
 "
-GeneratedEventClasses
+mozilla
+/
+dom
+/
+CustomEvent
 .
 h
 "
