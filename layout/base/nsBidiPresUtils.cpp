@@ -4300,6 +4300,14 @@ frame
 endif
 #
 endif
+frame
+-
+>
+AddStateBits
+(
+NS_FRAME_IS_BIDI
+)
+;
 return
 NS_OK
 ;
