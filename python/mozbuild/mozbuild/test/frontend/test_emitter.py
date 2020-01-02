@@ -2118,7 +2118,7 @@ len
 (
 objs
 )
-5
+6
 )
         
 metadata
@@ -2230,6 +2230,46 @@ support1
                     
 '
 support2
+'
+                
+}
+            
+}
+            
+'
+metro
+.
+ini
+'
+:
+{
+                
+'
+flavor
+'
+:
+'
+metro
+-
+chrome
+'
+                
+'
+installs
+'
+:
+{
+                    
+'
+metro
+.
+ini
+'
+                    
+'
+test_metro
+.
+js
 '
                 
 }
