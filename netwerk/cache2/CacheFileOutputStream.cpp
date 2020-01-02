@@ -1711,7 +1711,10 @@ mFile
 GetChunkLocked
 (
 chunkIdx
-true
+CacheFile
+:
+:
+WRITER
 nullptr
 getter_AddRefs
 (

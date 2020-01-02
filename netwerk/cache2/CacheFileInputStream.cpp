@@ -2723,7 +2723,10 @@ mFile
 GetChunkLocked
 (
 chunkIdx
-false
+CacheFile
+:
+:
+READER
 this
 getter_AddRefs
 (
