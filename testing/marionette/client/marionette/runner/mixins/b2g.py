@@ -93,10 +93,8 @@ _device_manager
 =
 None
     
-property
-    
 def
-device_manager
+get_device_manager
 (
 self
 *
@@ -147,6 +145,9 @@ mozdevice
 .
 DeviceManagerADB
 (
+*
+*
+kwargs
 )
             
 elif
@@ -225,3 +226,19 @@ return
 self
 .
 _device_manager
+    
+property
+    
+def
+device_manager
+(
+self
+)
+:
+        
+return
+self
+.
+get_device_manager
+(
+)
