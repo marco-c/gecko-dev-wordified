@@ -246,11 +246,6 @@ thirdparty
 sessionOnly
 "
 ;
-static
-CookieServiceChild
-*
-gCookieService
-;
 CookieServiceChild
 *
 CookieServiceChild
@@ -263,9 +258,9 @@ GetSingleton
 if
 (
 !
-gCookieService
+sCookieServiceChild
 )
-gCookieService
+sCookieServiceChild
 =
 new
 CookieServiceChild
@@ -274,11 +269,11 @@ CookieServiceChild
 ;
 NS_ADDREF
 (
-gCookieService
+sCookieServiceChild
 )
 ;
 return
-gCookieService
+sCookieServiceChild
 ;
 }
 NS_IMPL_ISUPPORTS3
@@ -423,7 +418,7 @@ CookieServiceChild
 (
 )
 {
-gCookieService
+sCookieServiceChild
 =
 nullptr
 ;
