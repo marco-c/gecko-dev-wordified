@@ -49,6 +49,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 let
 monitor
 debuggee
