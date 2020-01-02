@@ -160,13 +160,6 @@ prlock
 h
 "
 #
-include
-"
-prtypes
-.
-h
-"
-#
 endif
 #
 include

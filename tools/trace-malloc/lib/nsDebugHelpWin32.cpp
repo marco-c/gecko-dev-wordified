@@ -138,13 +138,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 prprf
 .
 h
