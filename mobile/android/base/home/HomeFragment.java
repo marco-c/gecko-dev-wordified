@@ -891,10 +891,6 @@ context
 getActivity
 (
 )
-.
-getApplicationContext
-(
-)
 ;
 final
 int
@@ -1244,9 +1240,7 @@ applications
 new
 EditBookmarkDialog
 (
-getActivity
-(
-)
+context
 )
 .
 show
