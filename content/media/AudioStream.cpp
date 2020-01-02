@@ -3375,9 +3375,9 @@ aMicrophoneActive
 #
 ifdef
 XP_MACOSX
-cubeb_output_device
+cubeb_device
 *
-out
+device
 ;
 int
 rv
@@ -3435,11 +3435,11 @@ MacBookPro
 {
 if
 (
-cubeb_stream_get_current_output_device
+cubeb_stream_get_current_evice
 (
 mCubebStream
 &
-out
+device
 )
 =
 =
@@ -3464,7 +3464,7 @@ if
 !
 strcmp
 (
-out
+device
 -
 >
 name
@@ -3586,10 +3586,10 @@ center
 ;
 }
 }
-cubeb_stream_output_device_destroy
+cubeb_stream_device_destroy
 (
 mCubebStream
-out
+device
 )
 ;
 }
