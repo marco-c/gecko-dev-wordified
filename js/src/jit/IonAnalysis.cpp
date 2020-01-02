@@ -950,7 +950,7 @@ if
 ins
 -
 >
-isFolded
+isImplicitlyUsed
 (
 )
 )
@@ -1665,7 +1665,7 @@ if
 phi
 -
 >
-isFolded
+isImplicitlyUsed
 (
 )
 )
@@ -2213,7 +2213,7 @@ nullptr
 /
 Propagate
 the
-Folded
+ImplicitlyUsed
 flag
 if
 |
@@ -2230,14 +2230,14 @@ if
 phi
 -
 >
-isFolded
+isImplicitlyUsed
 (
 )
 )
 first
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;

@@ -5217,7 +5217,7 @@ setIterator
 phi
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -9132,7 +9132,7 @@ either
 )
 Have
 the
-Folded
+ImplicitlyUsed
 flag
 set
 on
@@ -9194,7 +9194,7 @@ doesn
 '
 t
 call
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 on
 it
 .
@@ -9461,7 +9461,7 @@ setting
 /
 /
 the
-Folded
+ImplicitlyUsed
 flag
 .
 If
@@ -9531,7 +9531,7 @@ i
 ]
 -
 >
-isFolded
+isImplicitlyUsed
 (
 )
 |
@@ -25149,7 +25149,7 @@ pc
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -27706,7 +27706,8 @@ definition
 as
 /
 /
-folded
+implicitly
+used
 to
 ensure
 this
@@ -27719,7 +27720,7 @@ fun
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -28980,7 +28981,7 @@ current
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -29164,7 +29165,7 @@ fun
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -29697,7 +29698,7 @@ constraints
 funcDef
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -32361,7 +32362,7 @@ calleeDepth
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -32885,7 +32886,7 @@ calleeDepth
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -33130,7 +33131,7 @@ pop
 vp
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -33362,7 +33363,7 @@ pop
 vp
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -34145,7 +34146,7 @@ target
 fun
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -35277,7 +35278,7 @@ thisArg
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -36032,7 +36033,7 @@ false
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -36043,7 +36044,7 @@ fun
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -43008,7 +43009,7 @@ JSVAL_TYPE_UNDEFINED
 def
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -43035,7 +43036,7 @@ JSVAL_TYPE_NULL
 def
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -46554,14 +46555,14 @@ LoadTypedArrayElementStatic
 obj
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
 index
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -47150,7 +47151,7 @@ object
 obj
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -47389,7 +47390,7 @@ arguments
 obj
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -47476,7 +47477,7 @@ toInt32
 index
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -48768,7 +48769,7 @@ length
 obj
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -48931,7 +48932,7 @@ constraints
 obj
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -50456,14 +50457,14 @@ StoreTypedArrayElementStatic
 object
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
 index
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -52716,7 +52717,7 @@ pop
 args
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -56509,7 +56510,7 @@ else
 obj
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -63798,7 +63799,7 @@ scopeChainSlot
 scope
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -65159,7 +65160,7 @@ break
 rhs
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;

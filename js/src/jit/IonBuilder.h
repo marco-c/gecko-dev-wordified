@@ -5845,14 +5845,14 @@ fun
 ;
 }
 void
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 {
 thisArg_
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -5879,7 +5879,7 @@ i
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;

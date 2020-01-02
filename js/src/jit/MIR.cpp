@@ -11736,7 +11736,7 @@ getOperand
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -11764,7 +11764,7 @@ getOperand
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
