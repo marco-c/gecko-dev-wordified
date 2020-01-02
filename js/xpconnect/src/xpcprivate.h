@@ -5729,12 +5729,6 @@ XPCCallContext
 *
 mPrevCallContext
 ;
-JS
-:
-:
-RootedObject
-mFlattenedJSObject
-;
 XPCWrappedNative
 *
 mWrapper
