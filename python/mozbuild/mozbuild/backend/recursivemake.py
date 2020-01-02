@@ -457,9 +457,16 @@ self
 srcdir
 objdir
 environment
+topsrcdir
 topobjdir
 )
 :
+        
+self
+.
+topsrcdir
+=
+topsrcdir
         
 self
 .
@@ -2108,6 +2115,9 @@ obj
 .
 config
                     
+obj
+.
+topsrcdir
 self
 .
 environment
@@ -5228,9 +5238,7 @@ obj
 .
 topsrcdir
 =
-bf
-.
-environment
+backend_file
 .
 topsrcdir
                 
