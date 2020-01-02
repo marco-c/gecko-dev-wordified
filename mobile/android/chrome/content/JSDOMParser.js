@@ -5377,12 +5377,14 @@ child
 ;
 while
 (
+(
 child
 =
 this
 .
 readNode
 (
+)
 )
 )
 {
