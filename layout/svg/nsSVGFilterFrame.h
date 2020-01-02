@@ -155,9 +155,6 @@ class
 nsStyleContext
 ;
 class
-nsSVGFilterPaintCallback
-;
-class
 nsSVGIntegerPair
 ;
 class

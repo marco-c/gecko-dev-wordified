@@ -154,9 +154,6 @@ nsIFrame
 class
 nsSVGFilterFrame
 ;
-class
-nsSVGFilterPaintCallback
-;
 namespace
 mozilla
 {
