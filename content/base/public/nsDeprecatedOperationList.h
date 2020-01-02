@@ -220,3 +220,11 @@ DEPRECATED_OPERATION
 (
 ShowModalDialog
 )
+DEPRECATED_OPERATION
+(
+UnsafeCloneNode
+)
+DEPRECATED_OPERATION
+(
+UnsafeImportNode
+)
