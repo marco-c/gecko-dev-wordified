@@ -347,6 +347,7 @@ step
 forceReload
 )
 {
+yield
 forceReload
 (
 inspector
@@ -391,6 +392,7 @@ shwon
 "
 )
 ;
+yield
 assertChildren
 (
 step
@@ -414,6 +416,7 @@ everything
 "
 )
 ;
+yield
 clickShowMoreNodes
 (
 inspector
@@ -428,6 +431,7 @@ _waitForChildren
 (
 )
 ;
+yield
 assertChildren
 (
 "
@@ -440,6 +444,7 @@ inspector
 )
 ;
 function
+*
 assertChildren
 (
 expected
@@ -449,7 +454,8 @@ inspector
 let
 container
 =
-getContainerForRawNode
+yield
+getContainerForSelector
 (
 "
 body
@@ -536,6 +542,7 @@ children
 ;
 }
 function
+*
 forceReload
 (
 inspector
@@ -544,7 +551,8 @@ inspector
 let
 container
 =
-getContainerForRawNode
+yield
+getContainerForSelector
 (
 "
 body
@@ -560,6 +568,7 @@ true
 ;
 }
 function
+*
 clickShowMoreNodes
 (
 inspector
@@ -568,7 +577,8 @@ inspector
 let
 container
 =
-getContainerForRawNode
+yield
+getContainerForSelector
 (
 "
 body
