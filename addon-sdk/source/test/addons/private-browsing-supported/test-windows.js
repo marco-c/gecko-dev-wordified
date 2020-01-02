@@ -770,7 +770,7 @@ private
 ;
 assert
 .
-notDeepEqual
+notStrictEqual
 (
 winUtils
 .
@@ -1013,7 +1013,7 @@ function
 {
 assert
 .
-deepEqual
+strictEqual
 (
 winUtils
 .
@@ -1032,7 +1032,7 @@ window
 ;
 assert
 .
-deepEqual
+strictEqual
 (
 winUtils
 .
@@ -1073,7 +1073,7 @@ function
 {
 assert
 .
-deepEqual
+strictEqual
 (
 winUtils
 .
@@ -1097,7 +1097,7 @@ supported
 ;
 assert
 .
-deepEqual
+strictEqual
 (
 winUtils
 .

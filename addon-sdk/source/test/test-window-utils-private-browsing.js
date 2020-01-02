@@ -749,7 +749,7 @@ private
 ;
 assert
 .
-notDeepEqual
+notStrictEqual
 (
 windowUtils
 .
@@ -997,7 +997,7 @@ function
 {
 assert
 .
-deepEqual
+strictEqual
 (
 windowUtils
 .
@@ -1016,7 +1016,7 @@ window
 ;
 assert
 .
-deepEqual
+strictEqual
 (
 windowUtils
 .
@@ -1062,7 +1062,7 @@ _
 {
 assert
 .
-deepEqual
+strictEqual
 (
 windowUtils
 .
@@ -1086,7 +1086,7 @@ supported
 ;
 assert
 .
-deepEqual
+strictEqual
 (
 windowUtils
 .
