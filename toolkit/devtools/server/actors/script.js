@@ -23719,6 +23719,13 @@ _blackBoxedSources
 new
 Set
 (
+[
+"
+self
+-
+hosted
+"
+]
 )
 ;
 ThreadSources
