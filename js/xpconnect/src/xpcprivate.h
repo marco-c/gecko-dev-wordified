@@ -16492,8 +16492,6 @@ const
 nsXPTType
 &
 type
-bool
-useAllocator
 const
 nsID
 *
