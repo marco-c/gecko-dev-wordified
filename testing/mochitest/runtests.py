@@ -458,12 +458,31 @@ __call__
 data
 )
         
+log_level
+=
+data
+.
+get
+(
+'
+level
+'
+'
+info
+'
+)
+.
+upper
+(
+)
+        
 output
 =
 '
 %
 d
-INFO
+%
+s
 %
 s
 '
@@ -472,6 +491,7 @@ s
 MochitestFormatter
 .
 log_num
+log_level
 tbpl_output
 )
         
