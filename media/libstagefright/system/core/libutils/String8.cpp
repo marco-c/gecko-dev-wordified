@@ -2660,6 +2660,9 @@ dst
 /
 Path
 functions
+#
+if
+0
 void
 String8
 :
@@ -3530,6 +3533,8 @@ return
 this
 ;
 }
+#
+endif
 }
 ;
 /
