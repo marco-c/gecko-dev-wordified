@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsIMEStateManager
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h
@@ -171,6 +164,15 @@ h
 include
 "
 nsPresContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
+IMEStateManager
 .
 h
 "
@@ -973,7 +975,7 @@ NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
-nsIMEStateManager
+IMEStateManager
 :
 :
 NotifyIME
@@ -1536,7 +1538,7 @@ mReply
 .
 mString
 ;
-nsIMEStateManager
+IMEStateManager
 :
 :
 DispatchCompositionEvent
@@ -1574,7 +1576,7 @@ data
 =
 mData
 ;
-nsIMEStateManager
+IMEStateManager
 :
 :
 DispatchCompositionEvent
@@ -1609,7 +1611,7 @@ theText
 =
 mData
 ;
-nsIMEStateManager
+IMEStateManager
 :
 :
 DispatchCompositionEvent

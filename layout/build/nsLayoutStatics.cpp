@@ -770,7 +770,9 @@ h
 #
 include
 "
-nsIMEStateManager
+mozilla
+/
+IMEStateManager
 .
 h
 "
@@ -1645,7 +1647,7 @@ Shutdown
 (
 )
 ;
-nsIMEStateManager
+IMEStateManager
 :
 :
 Shutdown

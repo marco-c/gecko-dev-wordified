@@ -2390,7 +2390,7 @@ IMEMessage
 is
 shared
 by
-nsIMEStateManager
+IMEStateManager
 and
 TextComposition
 .

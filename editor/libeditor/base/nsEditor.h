@@ -4469,7 +4469,7 @@ the
 argument
 of
 some
-nsIMEStateManager
+IMEStateManager
 '
 s
 /

@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+IMEStateManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MiscEvents
 .
 h
@@ -216,13 +225,6 @@ h
 include
 "
 nsFocusManager
-.
-h
-"
-#
-include
-"
-nsIMEStateManager
 .
 h
 "
@@ -23411,7 +23413,7 @@ nsPresContext
 aPresContext
 )
 {
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnDestroyPresContext
@@ -31508,7 +31510,7 @@ GetPresContext
 )
 ;
 }
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnRemoveContent

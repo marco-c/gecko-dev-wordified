@@ -485,7 +485,7 @@ range
 also
 used
 by
-nsIMEStateManager
+IMEContentObserver
 )
 static
 nsresult

@@ -199,12 +199,12 @@ nsDispatchingCallback
 class
 nsIEditor
 ;
-class
-nsIMEStateManager
-;
 namespace
 mozilla
 {
+class
+IMEStateManager
+;
 /
 *
 *
@@ -251,9 +251,7 @@ MOZ_FINAL
 {
 friend
 class
-:
-:
-nsIMEStateManager
+IMEStateManager
 ;
 NS_INLINE_DECL_REFCOUNTING
 (
@@ -571,7 +569,7 @@ This
 is
 called
 when
-nsIMEStateManager
+IMEStateManager
 stops
 managing
 the
@@ -942,7 +940,7 @@ notified
 to
 /
 /
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnDestroyPresContext
@@ -1524,7 +1522,7 @@ which
 is
 managed
 by
-nsIMEStateManager
+IMEStateManager
 may
 be
 *
@@ -1647,7 +1645,7 @@ this
 is
 used
 by
-nsIMEStateManager
+IMEStateManager
 for
 storing
 all
