@@ -2743,6 +2743,16 @@ loop
 statement
 *
 /
+STMT_FOR_OF_LOOP
+/
+*
+for
+/
+of
+loop
+statement
+*
+/
 STMT_WHILE_LOOP
 /
 *

@@ -371,6 +371,15 @@ currencyDisplay
 \
 macro
 (
+std_iterator
+std_iterator
+"
+iterator
+"
+)
+\
+macro
+(
 DateTimeFormat
 DateTimeFormat
 "
