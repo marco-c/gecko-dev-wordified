@@ -118,12 +118,12 @@ h
 class
 nsSVGLength2
 ;
+class
+nsIDOMSVGLength
+;
 namespace
 mozilla
 {
-class
-DOMSVGLength
-;
 namespace
 dom
 {
@@ -199,7 +199,7 @@ MOZ_OVERRIDE
 ;
 already_AddRefed
 <
-DOMSVGLength
+nsIDOMSVGLength
 >
 BaseVal
 (
@@ -207,7 +207,7 @@ BaseVal
 ;
 already_AddRefed
 <
-DOMSVGLength
+nsIDOMSVGLength
 >
 AnimVal
 (

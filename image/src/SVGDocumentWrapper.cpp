@@ -266,13 +266,6 @@ nsMimeTypes
 .
 h
 "
-#
-include
-"
-DOMSVGLength
-.
-h
-"
 /
 /
 undef
@@ -510,7 +503,7 @@ the
 object
 nsRefPtr
 <
-DOMSVGLength
+nsIDOMSVGLength
 >
 domLength
 =

@@ -242,6 +242,10 @@ SVG
 classes
 DOMCI_CLASS
 (
+SVGLength
+)
+DOMCI_CLASS
+(
 SVGNumber
 )
 /
