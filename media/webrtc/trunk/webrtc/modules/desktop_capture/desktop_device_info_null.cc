@@ -95,6 +95,12 @@ Init
 (
 )
 ;
+virtual
+int32_t
+Refresh
+(
+)
+;
 }
 ;
 DesktopDeviceInfo
