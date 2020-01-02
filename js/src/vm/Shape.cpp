@@ -11007,6 +11007,17 @@ checkInitialShapesTableAfterMovingGC
 (
 )
 {
+if
+(
+!
+initialShapes
+.
+initialized
+(
+)
+)
+return
+;
 /
 *
 *
