@@ -807,6 +807,14 @@ nsIFrame
 aFrame
 )
 ;
+bool
+IsParentScrollbarRolledOver
+(
+nsIFrame
+*
+aFrame
+)
+;
 private
 :
 NSButtonCell
