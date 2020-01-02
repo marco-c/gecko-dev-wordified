@@ -2389,8 +2389,10 @@ Declaration
 *
 mDeclaration
 ;
+nsRefPtr
+<
 ImportantRule
-*
+>
 mImportantRule
 ;
 /
