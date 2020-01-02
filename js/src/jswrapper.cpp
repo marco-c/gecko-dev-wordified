@@ -1188,7 +1188,7 @@ CrossCompartmentWrapper
 {
 }
 bool
-CrossCompartmentWrapper
+Wrapper
 :
 :
 finalizeInBackground
