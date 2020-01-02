@@ -16177,6 +16177,7 @@ _ellipsis
 .
 cloneNode
 (
+true
 )
 )
 ;
