@@ -465,6 +465,9 @@ int
 >
 mPrevReleaseFds
 ;
+int
+mPrevRetireFence
+;
 nsTArray
 <
 layers
