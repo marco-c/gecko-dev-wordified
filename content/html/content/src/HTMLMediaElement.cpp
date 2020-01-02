@@ -20862,9 +20862,12 @@ mFragmentEnd
 /
 /
 Update
-visible
-text
-tracks
+the
+cues
+displaying
+on
+the
+video
 .
 /
 /
@@ -20909,9 +20912,8 @@ mTextTrackManager
 mTextTrackManager
 -
 >
-Update
+UpdateCueDisplay
 (
-time
 )
 ;
 }
