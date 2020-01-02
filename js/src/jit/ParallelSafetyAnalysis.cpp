@@ -1086,6 +1086,10 @@ SAFE_OP
 (
 ObjectState
 )
+SAFE_OP
+(
+ArrayState
+)
 UNSAFE_OP
 (
 InitElem
