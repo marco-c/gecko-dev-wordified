@@ -950,7 +950,7 @@ DEBUGGERS
 static
 const
 unsigned
-FLOAT32X4_TYPE_OBJECT
+FLOAT32X4_TYPE_DESCR
 =
 INTRINSICS
 +
@@ -959,9 +959,9 @@ INTRINSICS
 static
 const
 unsigned
-INT32X4_TYPE_OBJECT
+INT32X4_TYPE_DESCR
 =
-FLOAT32X4_TYPE_OBJECT
+FLOAT32X4_TYPE_DESCR
 +
 1
 ;
@@ -983,7 +983,7 @@ const
 unsigned
 RESERVED_SLOTS
 =
-INT32X4_TYPE_OBJECT
+INT32X4_TYPE_DESCR
 +
 1
 ;
@@ -2855,7 +2855,7 @@ initTypedObjectModule
 ;
 }
 void
-setFloat32x4TypeObject
+setFloat32x4TypeDescr
 (
 JSObject
 &
@@ -2866,7 +2866,7 @@ JS_ASSERT
 (
 getSlotRef
 (
-FLOAT32X4_TYPE_OBJECT
+FLOAT32X4_TYPE_DESCR
 )
 .
 isUndefined
@@ -2876,7 +2876,7 @@ isUndefined
 ;
 setSlot
 (
-FLOAT32X4_TYPE_OBJECT
+FLOAT32X4_TYPE_DESCR
 ObjectValue
 (
 obj
@@ -2886,7 +2886,7 @@ obj
 }
 JSObject
 &
-float32x4TypeObject
+float32x4TypeDescr
 (
 )
 {
@@ -2894,7 +2894,7 @@ JS_ASSERT
 (
 getSlotRef
 (
-FLOAT32X4_TYPE_OBJECT
+FLOAT32X4_TYPE_DESCR
 )
 .
 isObject
@@ -2905,7 +2905,7 @@ isObject
 return
 getSlotRef
 (
-FLOAT32X4_TYPE_OBJECT
+FLOAT32X4_TYPE_DESCR
 )
 .
 toObject
@@ -2914,7 +2914,7 @@ toObject
 ;
 }
 void
-setInt32x4TypeObject
+setInt32x4TypeDescr
 (
 JSObject
 &
@@ -2925,7 +2925,7 @@ JS_ASSERT
 (
 getSlotRef
 (
-INT32X4_TYPE_OBJECT
+INT32X4_TYPE_DESCR
 )
 .
 isUndefined
@@ -2935,7 +2935,7 @@ isUndefined
 ;
 setSlot
 (
-INT32X4_TYPE_OBJECT
+INT32X4_TYPE_DESCR
 ObjectValue
 (
 obj
@@ -2945,7 +2945,7 @@ obj
 }
 JSObject
 &
-int32x4TypeObject
+int32x4TypeDescr
 (
 )
 {
@@ -2953,7 +2953,7 @@ JS_ASSERT
 (
 getSlotRef
 (
-INT32X4_TYPE_OBJECT
+INT32X4_TYPE_DESCR
 )
 .
 isObject
@@ -2964,7 +2964,7 @@ isObject
 return
 getSlotRef
 (
-INT32X4_TYPE_OBJECT
+INT32X4_TYPE_DESCR
 )
 .
 toObject

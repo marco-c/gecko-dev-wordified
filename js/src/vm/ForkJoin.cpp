@@ -13914,8 +13914,6 @@ isObject
 )
 &
 &
-IsTypedDatum
-(
 args
 [
 0
@@ -13924,6 +13922,12 @@ args
 toObject
 (
 )
+.
+is
+<
+TypedDatum
+>
+(
 )
 )
 ;
@@ -13955,8 +13959,6 @@ uint8_t
 *
 mem
 =
-AsTypedDatum
-(
 args
 [
 0
@@ -13965,6 +13967,12 @@ args
 toObject
 (
 )
+.
+as
+<
+TypedDatum
+>
+(
 )
 .
 typedMem
