@@ -725,9 +725,9 @@ BluetoothInterface
 void
 Init
 (
-bthf_callbacks_t
+BluetoothHandsfreeNotificationHandler
 *
-aCallbacks
+aNotificationHandler
 BluetoothHandsfreeResultHandler
 *
 aRes
