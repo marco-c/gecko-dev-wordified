@@ -4744,6 +4744,7 @@ if
 controller
 &
 &
+!
 mAllowZoom
 )
 {
