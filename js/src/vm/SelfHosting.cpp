@@ -422,8 +422,10 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
 intrinsic_ToInteger
 (
 JSContext
@@ -471,7 +473,7 @@ rval
 (
 )
 .
-setDouble
+setNumber
 (
 result
 )
