@@ -9108,11 +9108,6 @@ void
 data
 )
 {
-AssertHeapIsIdle
-(
-rt
-)
-;
 for
 (
 size_t
