@@ -3203,6 +3203,9 @@ Edit
 TCompositableOperation
 :
 {
+if
+(
+!
 ReceiveCompositableUpdate
 (
 edit
@@ -3212,7 +3215,12 @@ get_CompositableOperation
 )
 replyv
 )
+)
+{
+return
+false
 ;
+}
 break
 ;
 }

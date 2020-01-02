@@ -703,6 +703,9 @@ Length
 i
 )
 {
+if
+(
+!
 ReceiveCompositableUpdate
 (
 aEdits
@@ -711,7 +714,12 @@ i
 ]
 replyv
 )
+)
+{
+return
+false
 ;
+}
 }
 aReply
 -
