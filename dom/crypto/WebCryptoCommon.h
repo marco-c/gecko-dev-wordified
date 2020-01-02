@@ -239,6 +239,14 @@ PKCS1
 -
 v1_5
 "
+#
+define
+WEBCRYPTO_ALG_RSA_OAEP
+"
+RSA
+-
+OAEP
+"
 /
 /
 WebCrypto
