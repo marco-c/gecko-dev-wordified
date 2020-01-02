@@ -3011,8 +3011,6 @@ self
 _process_simple_program
 (
 obj
-.
-program
 backend_file
 )
             
@@ -8294,11 +8292,39 @@ def
 _process_simple_program
 (
 self
-program
+obj
 backend_file
 )
 :
         
+if
+obj
+.
+is_unit_test
+:
+            
+backend_file
+.
+write
+(
+'
+CPP_UNIT_TESTS
++
+=
+%
+s
+\
+n
+'
+%
+obj
+.
+program
+)
+        
+else
+:
+            
 backend_file
 .
 write
@@ -8313,6 +8339,8 @@ s
 n
 '
 %
+obj
+.
 program
 )
     

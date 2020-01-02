@@ -2122,6 +2122,9 @@ __init__
 self
 sandbox
 program
+is_unit_test
+=
+False
 )
 :
         
@@ -2171,6 +2174,12 @@ self
 program
 =
 program
+        
+self
+.
+is_unit_test
+=
+is_unit_test
 class
 Program
 (
