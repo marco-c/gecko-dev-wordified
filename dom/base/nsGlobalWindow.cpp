@@ -317,6 +317,13 @@ nsScriptNameSpaceManager
 .
 h
 "
+#
+include
+"
+nsWindowMemoryReporter
+.
+h
+"
 /
 /
 Helper
