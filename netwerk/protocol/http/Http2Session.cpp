@@ -13088,6 +13088,11 @@ mInputFrameDataStream
 mInputFrameDataSize
 )
 ;
+if
+(
+mInputFrameDataStream
+)
+{
 mInputFrameDataStream
 -
 >
@@ -13096,6 +13101,7 @@ SetRecvdData
 true
 )
 ;
+}
 return
 NS_OK
 ;
