@@ -7948,6 +7948,13 @@ window
 .
 innerHeight
 ;
+var
+scale
+=
+window
+.
+devicePixelRatio
+;
 canvas
 .
 setAttribute
@@ -7956,6 +7963,8 @@ setAttribute
 width
 '
 width
+*
+scale
 )
 ;
 canvas
@@ -7966,6 +7975,8 @@ setAttribute
 height
 '
 height
+*
+scale
 )
 ;
 var
@@ -7994,6 +8005,14 @@ DRAWWINDOW_DRAW_VIEW
 context
 .
 DRAWWINDOW_USE_WIDGET_LAYERS
+;
+context
+.
+scale
+(
+scale
+scale
+)
 ;
 context
 .
