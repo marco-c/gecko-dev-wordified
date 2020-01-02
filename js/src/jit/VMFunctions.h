@@ -2243,7 +2243,7 @@ by
 the
 gc
 see
-MarkIonExitFrame
+MarkJitExitFrame
 .
 template
 <
