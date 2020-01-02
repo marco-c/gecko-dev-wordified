@@ -90,7 +90,7 @@ nsISupportsImpl
 .
 h
 "
-struct
+class
 DeviceStorageFileDescriptor
 ;
 class
