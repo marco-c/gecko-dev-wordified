@@ -173,6 +173,13 @@ nsRenderingContext
 .
 h
 "
+#
+include
+"
+nsIContent
+.
+h
+"
 using
 namespace
 mozilla
