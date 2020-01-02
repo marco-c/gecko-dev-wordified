@@ -393,11 +393,11 @@ IonCode
 :
 code_
 (
-NULL
+nullptr
 )
 pool_
 (
-NULL
+nullptr
 )
 {
 }
@@ -741,7 +741,7 @@ object
 can
 be
 allocated
-NULL
+nullptr
 is
 returned
 .
@@ -931,7 +931,7 @@ Entrypoint
 for
 OSR
 or
-NULL
+nullptr
 .
 jsbytecode
 *
@@ -1390,7 +1390,7 @@ is
 only
 non
 -
-NULL
+nullptr
 for
 parallel
 IonScripts
@@ -3568,7 +3568,7 @@ return
 blocks_
 !
 =
-NULL
+nullptr
 ;
 }
 size_t

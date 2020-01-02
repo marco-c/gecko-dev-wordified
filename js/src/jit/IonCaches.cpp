@@ -286,7 +286,7 @@ if
 masm
 !
 =
-NULL
+nullptr
 )
 {
 #
@@ -404,7 +404,7 @@ if
 masm
 !
 =
-NULL
+nullptr
 )
 {
 #
@@ -964,7 +964,7 @@ If
 a
 non
 -
-NULL
+nullptr
 label
 is
 passed
@@ -977,9 +977,9 @@ will
 be
 made
 to
+/
+/
 that
-/
-/
 label
 instead
 of
@@ -1224,7 +1224,7 @@ if
 label
 !
 =
-NULL
+nullptr
 )
 masm
 .
@@ -3341,7 +3341,7 @@ getProto
 The
 pc
 is
-NULL
+nullptr
 if
 the
 cache
@@ -4567,7 +4567,7 @@ Label
 *
 failures
 =
-NULL
+nullptr
 )
 {
 JS_ASSERT
@@ -4639,7 +4639,7 @@ holder
 failures
 !
 =
-NULL
+nullptr
 &
 &
 failures
@@ -20009,7 +20009,7 @@ NotEqual
 tmpReg
 ImmPtr
 (
-NULL
+nullptr
 )
 &
 failurePopIndex
@@ -23811,7 +23811,7 @@ GenerateScopeChainGuard
 masm
 tobj
 outputReg
-NULL
+nullptr
 failures
 )
 ;
@@ -23960,7 +23960,7 @@ scopeChain
 &
 failures
 :
-NULL
+nullptr
 )
 ;
 if
@@ -24340,7 +24340,7 @@ holder
 )
 )
 return
-NULL
+nullptr
 ;
 }
 /
@@ -24396,7 +24396,7 @@ scopeChain
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -24423,7 +24423,7 @@ holder
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -24599,7 +24599,7 @@ used
 &
 failures
 :
-NULL
+nullptr
 )
 ;
 return
@@ -25591,7 +25591,7 @@ if
 clone
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -25616,7 +25616,7 @@ clone
 )
 )
 return
-NULL
+nullptr
 ;
 }
 return

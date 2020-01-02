@@ -1211,7 +1211,7 @@ Location
 of
 this
 operation
-NULL
+nullptr
 for
 idempotent
 caches
@@ -1285,11 +1285,11 @@ fallbackLabel_
 )
 script_
 (
-NULL
+nullptr
 )
 pc_
 (
-NULL
+nullptr
 )
 {
 }
@@ -3918,7 +3918,7 @@ DispatchIonCache
 :
 firstStub_
 (
-NULL
+nullptr
 )
 rejoinLabel_
 (
@@ -6253,7 +6253,7 @@ ParallelIonCache
 :
 stubbedShapes_
 (
-NULL
+nullptr
 )
 {
 }

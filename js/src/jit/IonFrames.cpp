@@ -328,7 +328,7 @@ IonFrame_Exit
 )
 returnAddressToFp_
 (
-NULL
+nullptr
 )
 frameSize_
 (
@@ -336,7 +336,7 @@ frameSize_
 )
 cachedSafepointIndex_
 (
-NULL
+nullptr
 )
 activation_
 (
@@ -718,7 +718,7 @@ callee
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -761,7 +761,7 @@ ionCode
 )
 =
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -1479,7 +1479,7 @@ prevFrameLocalSize
 ;
 cachedSafepointIndex_
 =
-NULL
+nullptr
 ;
 /
 /
@@ -2241,7 +2241,7 @@ BaselineBailoutInfo
 *
 info
 =
-NULL
+nullptr
 ;
 uint32_t
 retval
@@ -3390,7 +3390,7 @@ IonScript
 *
 ionScript
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3489,7 +3489,7 @@ script
 function
 (
 )
-NULL
+nullptr
 )
 ;
 if
@@ -3512,7 +3512,7 @@ IonScript
 *
 ionScript
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3836,7 +3836,7 @@ jsFrame
 (
 )
 :
-NULL
+nullptr
 ;
 +
 +
@@ -4058,7 +4058,7 @@ iter
 script
 (
 )
-NULL
+nullptr
 )
 ;
 break
@@ -4903,7 +4903,7 @@ IonScript
 *
 ionScript
 =
-NULL
+nullptr
 ;
 if
 (
@@ -4948,7 +4948,7 @@ ion
 /
 is
 now
-NULL
+nullptr
 or
 recompiled
 )
@@ -6769,7 +6769,7 @@ if
 f
 =
 =
-NULL
+nullptr
 |
 |
 f
@@ -6860,7 +6860,7 @@ bake
 in
 HandleObjects
 to
-NULL
+nullptr
 .
 JSObject
 *
@@ -7600,7 +7600,7 @@ rootList
 root
 !
 =
-NULL
+nullptr
 ;
 root
 =
@@ -7867,7 +7867,7 @@ JS_ASSERT
 retAddr
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -7897,7 +7897,7 @@ rt
 ionPcScriptCache
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -8004,7 +8004,7 @@ jsbytecode
 *
 pc
 =
-NULL
+nullptr
 ;
 if
 (
@@ -8335,16 +8335,16 @@ SnapshotIterator
 :
 SnapshotReader
 (
-NULL
-NULL
+nullptr
+nullptr
 )
 fp_
 (
-NULL
+nullptr
 )
 ionScript_
 (
-NULL
+nullptr
 )
 {
 }
@@ -9030,7 +9030,7 @@ IonScript
 *
 ionScript
 =
-NULL
+nullptr
 ;
 if
 (
@@ -10172,7 +10172,7 @@ parent
 .
 baselineScriptAndPc
 (
-NULL
+nullptr
 &
 pc
 )
