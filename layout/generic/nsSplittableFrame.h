@@ -710,14 +710,6 @@ GetLogicalSkipSides
 (
 )
 *
-see
-nsIFrame
-:
-:
-ApplyLogicalSkipSides
-(
-)
-*
 /
 virtual
 int

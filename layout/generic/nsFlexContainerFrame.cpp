@@ -24662,11 +24662,15 @@ ComputedPhysicalBorderPadding
 )
 )
 ;
+containerBorderPadding
+.
 ApplySkipSides
 (
-containerBorderPadding
+GetSkipSides
+(
 &
 aReflowState
+)
 )
 ;
 const

@@ -486,9 +486,13 @@ ComputedPhysicalBorderPadding
 (
 )
 ;
+bp
+.
 ApplySkipSides
 (
-bp
+GetSkipSides
+(
+)
 )
 ;
 nscoord
