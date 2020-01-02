@@ -86,6 +86,12 @@ tree
 *
 /
 #
+ifndef
+WEBRTC_MODULES_RTP_RTCP_SOURCE_FORWARD_ERROR_CORRECTION_INTERNAL_H_
+#
+define
+WEBRTC_MODULES_RTP_RTCP_SOURCE_FORWARD_ERROR_CORRECTION_INTERNAL_H_
+#
 include
 "
 webrtc
@@ -482,3 +488,5 @@ internal
 /
 namespace
 webrtc
+#
+endif

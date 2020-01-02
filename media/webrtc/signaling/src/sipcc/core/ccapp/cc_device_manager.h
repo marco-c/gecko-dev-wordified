@@ -56,6 +56,12 @@ MPL
 .
 *
 /
+#
+ifndef
+__CC_DEVICE_MANAGER_H__
+#
+define
+__CC_DEVICE_MANAGER_H__
 /
 *
 *
@@ -125,3 +131,5 @@ is_phone_registered
 (
 )
 ;
+#
+endif

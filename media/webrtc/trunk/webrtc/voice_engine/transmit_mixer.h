@@ -1015,11 +1015,6 @@ swap_stereo_channels_
 ;
 }
 ;
-#
-endif
-/
-/
-WEBRTC_VOICE_ENGINE_TRANSMIT_MIXER_H
 }
 /
 /
@@ -1030,3 +1025,8 @@ voe
 /
 namespace
 webrtc
+#
+endif
+/
+/
+WEBRTC_VOICE_ENGINE_TRANSMIT_MIXER_H
