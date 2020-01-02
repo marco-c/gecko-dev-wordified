@@ -178,9 +178,6 @@ h
 /
 for
 SurfaceFormat
-class
-gfxImageSurface
-;
 namespace
 mozilla
 {
@@ -262,14 +259,6 @@ gfx
 DataSourceSurface
 >
 GetAsSurface
-(
-)
-;
-TemporaryRef
-<
-gfxImageSurface
->
-GetAsThebesSurface
 (
 )
 ;

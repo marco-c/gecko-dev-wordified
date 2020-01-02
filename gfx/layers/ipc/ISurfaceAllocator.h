@@ -341,8 +341,7 @@ efficiently
 mappable
 as
 a
-*
-gfxImageSurface
+DataSourceSurface
 .
 *
 /

@@ -219,17 +219,6 @@ ScopedGfxFeatureReporter
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-/
-/
-for
-gfxImageSurface
-#
-include
-"
 gfxMatrix
 .
 h
