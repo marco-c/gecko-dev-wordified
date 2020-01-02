@@ -1418,8 +1418,14 @@ Get
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aScope
 nsIPrincipal
 *
