@@ -14421,14 +14421,6 @@ if
 (
 !
 iccInfo
-|
-|
-!
-(
-iccInfo
-instanceof
-GsmIccInfo
-)
 )
 {
 return

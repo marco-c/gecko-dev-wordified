@@ -2188,16 +2188,6 @@ if
 (
 !
 iccInfo
-|
-|
-!
-(
-iccInfo
-instanceof
-Ci
-.
-nsIDOMMozGsmIccInfo
-)
 )
 {
 return
