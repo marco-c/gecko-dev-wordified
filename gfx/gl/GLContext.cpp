@@ -276,6 +276,15 @@ h
 #
 include
 "
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
 OGLShaderProgram
 .
 h
@@ -9426,7 +9435,9 @@ KHR_debug
 :
 0x
 %
-x
+"
+PRIxPTR
+"
 ]
 ID
 %
