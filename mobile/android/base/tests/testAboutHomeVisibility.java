@@ -30,11 +30,13 @@ mozilla
 .
 gecko
 .
-home
+tests
 .
-HomePager
+components
 .
-Page
+AboutHomeComponent
+.
+PageType
 ;
 import
 org
@@ -114,7 +116,7 @@ assertVisible
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 TOP_SITES
 )
@@ -210,7 +212,7 @@ assertVisible
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 TOP_SITES
 )
@@ -281,7 +283,7 @@ assertVisible
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 TOP_SITES
 )

@@ -30,11 +30,13 @@ mozilla
 .
 gecko
 .
-home
+tests
 .
-HomePager
+components
 .
-Page
+AboutHomeComponent
+.
+PageType
 ;
 import
 org
@@ -136,7 +138,7 @@ assertVisible
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 TOP_SITES
 )
@@ -151,7 +153,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 BOOKMARKS
 )
@@ -166,7 +168,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 READING_LIST
 )
@@ -240,7 +242,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 HISTORY
 )
@@ -260,7 +262,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 HISTORY
 )
@@ -275,7 +277,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 READING_LIST
 )
@@ -290,7 +292,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 BOOKMARKS
 )
@@ -305,7 +307,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 TOP_SITES
 )
@@ -325,7 +327,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 TOP_SITES
 )
@@ -352,7 +354,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 READING_LIST
 )
@@ -367,7 +369,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 BOOKMARKS
 )
@@ -382,7 +384,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 TOP_SITES
 )
@@ -397,7 +399,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 HISTORY
 )
@@ -417,7 +419,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 HISTORY
 )
@@ -432,7 +434,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-Page
+PageType
 .
 TOP_SITES
 )
