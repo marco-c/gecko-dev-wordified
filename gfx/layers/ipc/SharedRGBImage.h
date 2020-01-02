@@ -497,8 +497,10 @@ mSize
 gfxImageFormat
 mImageFormat
 ;
+RefPtr
+<
 ISurfaceAllocator
-*
+>
 mSurfaceAllocator
 ;
 bool
