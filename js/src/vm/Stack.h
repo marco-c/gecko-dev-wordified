@@ -7450,7 +7450,7 @@ top
 activation
 /
 /
-JS_DescribeScriptedCaller
+DescribeScriptedCaller
 will
 return
 null

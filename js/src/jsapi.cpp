@@ -35432,7 +35432,7 @@ null
 from
 /
 /
-JS_DescribeScriptedCaller
+DescribeScriptedCaller
 anyway
 so
 there
@@ -35442,8 +35442,6 @@ no
 need
 to
 annotate
-/
-/
 anything
 .
 Activation

@@ -1219,7 +1219,7 @@ nice
 to
 assert
 !
-JS_DescribeScriptedCaller
+DescribeScriptedCaller
 here
 to
 be

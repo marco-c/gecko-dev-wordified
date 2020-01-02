@@ -31002,9 +31002,9 @@ which
 it
 inspects
 when
-JS_DescribeScriptedCaller
-*
+DescribeScriptedCaller
 returns
+*
 null
 .
 *
