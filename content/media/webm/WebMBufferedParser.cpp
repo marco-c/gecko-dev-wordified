@@ -1396,6 +1396,9 @@ aTime
 int64_t
 *
 aOffset
+enum
+OffsetType
+aType
 )
 {
 ReentrantMonitorAutoEnter
@@ -1467,6 +1470,15 @@ o
 *
 aOffset
 =
+aType
+=
+=
+CLUSTER_START
+?
+result
+.
+mSyncOffset
+:
 result
 .
 mOffset
