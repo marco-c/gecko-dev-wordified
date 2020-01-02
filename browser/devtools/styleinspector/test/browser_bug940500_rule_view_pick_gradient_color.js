@@ -682,8 +682,8 @@ cPicker
 1
 ]
 )
-.
-then
+;
+executeSoon
 (
 (
 )
@@ -892,7 +892,6 @@ no
 event
 simulations
 here
-return
 colorPicker
 .
 spectrum
