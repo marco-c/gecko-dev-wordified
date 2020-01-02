@@ -435,7 +435,6 @@ raw_filename
 =
 JS_GetScriptFilename
 (
-cx
 script
 )
 ;

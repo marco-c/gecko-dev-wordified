@@ -550,7 +550,6 @@ ctorURL
 =
 JS_GetScriptFilename
 (
-cx
 script
 )
 ;
