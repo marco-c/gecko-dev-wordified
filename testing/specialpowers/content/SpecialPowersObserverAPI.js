@@ -562,6 +562,8 @@ addDumpIDToMessage
 propertyName
 )
 {
+try
+{
 var
 id
 =
@@ -572,6 +574,18 @@ getPropertyAsAString
 propertyName
 )
 ;
+}
+catch
+(
+ex
+)
+{
+var
+id
+=
+null
+;
+}
 if
 (
 id
