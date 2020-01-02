@@ -409,7 +409,7 @@ sandboxes
 out
 [
 '
-RELATIVEDIR
+OBJDIR
 '
 ]
 ]
@@ -497,7 +497,7 @@ out
 )
         
 for
-reldir
+objdir
 libname
 final_lib
 in
@@ -538,7 +538,7 @@ LIBRARY_NAME
 '
 %
 (
-reldir
+objdir
 final_lib
 )
 )
@@ -591,7 +591,7 @@ s
 %
                                 
 (
-reldir
+objdir
 final_lib
 '
 '
@@ -618,7 +618,7 @@ values
 .
 link_static_lib
 (
-reldir
+objdir
 libname
 )
             
@@ -629,7 +629,7 @@ _libs
 libname
 ]
 [
-reldir
+objdir
 ]
 .
 refcount
@@ -696,7 +696,7 @@ _libs
 libname
 ]
 [
-reldir
+objdir
 ]
 .
 refcount
@@ -2288,7 +2288,7 @@ libname
 sandbox
 [
 '
-RELATIVEDIR
+OBJDIR
 '
 ]
 ]
@@ -2336,7 +2336,7 @@ append
 sandbox
 [
 '
-RELATIVEDIR
+OBJDIR
 '
 ]
 libname
