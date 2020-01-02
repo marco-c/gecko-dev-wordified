@@ -131,6 +131,8 @@ Program
     
 ReaderSummary
     
+Resources
+    
 SandboxWrapped
     
 SimpleProgram
@@ -2199,6 +2201,29 @@ yield
 Defines
 (
 sandbox
+defines
+)
+        
+resources
+=
+sandbox
+.
+get
+(
+'
+RESOURCE_FILES
+'
+)
+        
+if
+resources
+:
+            
+yield
+Resources
+(
+sandbox
+resources
 defines
 )
         
