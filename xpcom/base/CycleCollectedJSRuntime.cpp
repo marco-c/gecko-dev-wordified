@@ -3073,7 +3073,9 @@ JSRuntime
 *
 aParentRuntime
 uint32_t
-aMaxbytes
+aMaxBytes
+uint32_t
+aMaxNurseryBytes
 )
 :
 mGCThingCycleCollectorGlobal
@@ -3121,11 +3123,8 @@ mJSRuntime
 =
 JS_NewRuntime
 (
-aMaxbytes
-JS
-:
-:
-DefaultNurseryBytes
+aMaxBytes
+aMaxNurseryBytes
 aParentRuntime
 )
 ;
