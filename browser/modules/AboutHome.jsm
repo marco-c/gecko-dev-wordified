@@ -1271,6 +1271,15 @@ snippetsVersion
 AboutHomeUtils
 .
 snippetsVersion
+defaultEngineName
+:
+Services
+.
+search
+.
+defaultEngine
+.
+name
 }
 ;
 if
