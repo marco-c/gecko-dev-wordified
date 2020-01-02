@@ -478,7 +478,7 @@ mozilla
 :
 Atomic
 <
-uint32_t
+bool
 >
 asmJSCompilationInProgress
 ;
@@ -2372,15 +2372,12 @@ on
 the
 source
 .
-#
-ifdef
-JS_THREADSAFE
 mozilla
 :
 :
 Atomic
 <
-int32_t
+bool
 mozilla
 :
 :
@@ -2388,13 +2385,6 @@ Relaxed
 >
 abort_
 ;
-#
-else
-int32_t
-abort_
-;
-#
-endif
 public
 :
 explicit
@@ -2423,7 +2413,7 @@ false
 )
 abort_
 (
-0
+false
 )
 {
 #
@@ -2463,7 +2453,7 @@ abort
 {
 abort_
 =
-1
+true
 ;
 }
 bool

@@ -877,7 +877,7 @@ mozilla
 :
 Atomic
 <
-int32_t
+bool
 >
 jsCacheOpened
 (

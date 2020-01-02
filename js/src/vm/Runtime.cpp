@@ -646,7 +646,7 @@ this
 )
 interrupt
 (
-0
+false
 )
 #
 if
@@ -3320,7 +3320,7 @@ setIonStackLimit
 ;
 interrupt
 =
-1
+true
 ;
 #
 ifdef
