@@ -19424,7 +19424,9 @@ gmp
 -
 gmpopenh264
 .
-providerEnabled
+provider
+.
+enabled
 "
 true
 )
