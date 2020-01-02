@@ -102,6 +102,9 @@ class
 IccListener
 ;
 class
+Icc
+;
+class
 IccManager
 MOZ_FINAL
 :
@@ -174,10 +177,8 @@ nsString
 aIccIds
 )
 ;
-already_AddRefed
-<
-nsISupports
->
+Icc
+*
 GetIccById
 (
 const
