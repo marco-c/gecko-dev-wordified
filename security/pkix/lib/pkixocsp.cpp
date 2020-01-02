@@ -1174,6 +1174,8 @@ Reader
 extnID
 Input
 extnValue
+bool
+critical
 /
 *
 out
@@ -5212,6 +5214,12 @@ Input
 /
 *
 extnValue
+*
+/
+bool
+/
+*
+critical
 *
 /
 /
