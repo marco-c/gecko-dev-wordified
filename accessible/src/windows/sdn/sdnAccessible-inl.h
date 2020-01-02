@@ -192,7 +192,7 @@ document
 document
 -
 >
-GetAccessible
+GetAccessibleEvenIfNotInMap
 (
 mNode
 )
