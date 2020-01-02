@@ -1041,6 +1041,11 @@ IonCompilation
 \
 _
 (
+IonCompilationPaused
+)
+\
+_
+(
 IonLinking
 )
 \
