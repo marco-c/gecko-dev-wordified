@@ -1262,13 +1262,6 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-RecvCancelMinimizeMemoryUsage
-(
-)
-MOZ_OVERRIDE
-;
-virtual
-bool
 RecvLoadAndRegisterSheet
 (
 const
@@ -1577,9 +1570,6 @@ mIsForBrowser
 ;
 nsString
 mProcessName
-;
-nsWeakPtr
-mMemoryMinimizerRunnable
 ;
 static
 ContentChild
