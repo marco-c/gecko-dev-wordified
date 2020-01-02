@@ -2468,8 +2468,10 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
 str_resolve
 (
 JSContext
