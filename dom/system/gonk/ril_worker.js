@@ -31775,6 +31775,17 @@ false
 return
 ;
 }
+options
+.
+errorMsg
+=
+RIL_ERROR_TO_GECKO_ERROR
+[
+options
+.
+rilRequestError
+]
+;
 this
 .
 sendChromeMessage
