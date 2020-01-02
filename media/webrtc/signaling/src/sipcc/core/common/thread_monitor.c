@@ -80,6 +80,13 @@ h
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
