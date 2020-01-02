@@ -276,11 +276,6 @@ JSObject
 obj
 )
 ;
-void
-ClearJSObject
-(
-)
-;
 protected
 :
 nsJSObjWrapper
