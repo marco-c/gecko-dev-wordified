@@ -168,7 +168,7 @@ struct
 _cairo
 cairo_t
 ;
-struct
+class
 GlyphBufferAzure
 ;
 template
@@ -4073,7 +4073,7 @@ class
 GeneralPattern
 ;
 friend
-struct
+class
 GlyphBufferAzure
 ;
 typedef
