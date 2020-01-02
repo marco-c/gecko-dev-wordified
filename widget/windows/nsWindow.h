@@ -437,12 +437,6 @@ nsWindow
 (
 )
 ;
-virtual
-~
-nsWindow
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 friend
 class
@@ -1761,6 +1755,12 @@ ShouldUseOffMainThreadCompositing
 ;
 protected
 :
+virtual
+~
+nsWindow
+(
+)
+;
 virtual
 void
 WindowUsesOMTC

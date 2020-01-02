@@ -162,6 +162,12 @@ nsNativeTheme
 public
 nsITheme
 {
+virtual
+~
+nsNativeThemeWin
+(
+)
+;
 public
 :
 typedef
@@ -356,12 +362,6 @@ ShouldHideScrollbars
 )
 MOZ_OVERRIDE
 ;
-nsNativeThemeWin
-(
-)
-;
-virtual
-~
 nsNativeThemeWin
 (
 )
