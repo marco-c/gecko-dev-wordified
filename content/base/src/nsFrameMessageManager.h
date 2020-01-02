@@ -284,7 +284,7 @@ namespace
 dom
 {
 class
-nsIContentParent
+ContentParent
 ;
 class
 ContentChild
@@ -483,7 +483,7 @@ protected
 bool
 BuildClonedMessageDataForParent
 (
-nsIContentParent
+ContentParent
 *
 aParent
 const
@@ -1106,7 +1106,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aProcess
 )

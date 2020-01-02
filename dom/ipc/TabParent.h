@@ -272,7 +272,7 @@ class
 ClonedMessageData
 ;
 class
-nsIContentParent
+ContentParent
 ;
 class
 Element
@@ -324,7 +324,7 @@ nsITabParent
 NS_DECL_NSITABPARENT
 TabParent
 (
-nsIContentParent
+ContentParent
 *
 aManager
 const
@@ -1818,7 +1818,7 @@ nsIContent
 aContent
 )
 ;
-nsIContentParent
+ContentParent
 *
 Manager
 (
@@ -2152,7 +2152,7 @@ GetRenderFrame
 ;
 nsRefPtr
 <
-nsIContentParent
+ContentParent
 >
 mManager
 ;

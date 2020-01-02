@@ -13156,7 +13156,7 @@ tabParent
 ClonedMessageData
 data
 ;
-nsIContentParent
+ContentParent
 *
 cp
 =
