@@ -116,9 +116,6 @@ class
 imgStatusTrackerObserver
 ;
 class
-imgStatusTrackerNotifyingObserver
-;
-class
 nsIRunnable
 ;
 #
@@ -2238,10 +2235,6 @@ imgRequestNotifyRunnable
 friend
 class
 imgStatusTrackerObserver
-;
-friend
-class
-imgStatusTrackerNotifyingObserver
 ;
 friend
 class
