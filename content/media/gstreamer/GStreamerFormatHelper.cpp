@@ -233,11 +233,6 @@ Shutdown
 (
 )
 {
-if
-(
-gInstance
-)
-{
 delete
 gInstance
 ;
@@ -245,7 +240,6 @@ gInstance
 =
 nullptr
 ;
-}
 }
 static
 char

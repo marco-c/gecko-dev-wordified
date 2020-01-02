@@ -2134,11 +2134,6 @@ Shutdown
 (
 )
 {
-if
-(
-sMediaPluginHost
-)
-{
 delete
 sMediaPluginHost
 ;
@@ -2146,7 +2141,6 @@ sMediaPluginHost
 =
 nullptr
 ;
-}
 }
 }
 /
