@@ -3052,6 +3052,7 @@ bool
 ShouldUseOffMainThreadCompositing
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetCursor

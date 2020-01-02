@@ -3846,6 +3846,9 @@ notification
 )
 ;
 }
+.
+plugin
+-
 popupnotification
 -
 centeritem
@@ -3870,6 +3873,10 @@ urlbarBindings
 .
 xml
 #
+plugin
+-
+popupnotification
+-
 center
 -
 item
@@ -4320,10 +4327,6 @@ gclitoolbar
 complete
 -
 node
-.
-gclitoolbar
--
-prompt
 {
 direction
 :
