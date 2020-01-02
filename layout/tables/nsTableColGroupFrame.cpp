@@ -2224,9 +2224,6 @@ GetPrevInFlow
 skip
 |
 =
-1
-<
-<
 LOGICAL_SIDE_B_START
 ;
 }
@@ -2243,9 +2240,6 @@ GetNextInFlow
 skip
 |
 =
-1
-<
-<
 LOGICAL_SIDE_B_END
 ;
 }
