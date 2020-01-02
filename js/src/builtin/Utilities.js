@@ -513,6 +513,13 @@ prototype
 hasOwnProperty
 ;
 var
+std_Object_getPrototypeOf
+=
+Object
+.
+getPrototypeOf
+;
+var
 std_RegExp_test
 =
 RegExp
