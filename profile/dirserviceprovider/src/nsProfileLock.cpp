@@ -3642,7 +3642,6 @@ mPidLockFileName
 nullptr
 ;
 }
-else
 if
 (
 mLockFileDesc
