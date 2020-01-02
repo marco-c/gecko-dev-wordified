@@ -470,6 +470,7 @@ bool
 js
 (
 )
+const
 volatile
 {
 JS_ASSERT_IF
@@ -495,6 +496,7 @@ uint32_t
 line
 (
 )
+const
 volatile
 {
 JS_ASSERT
@@ -514,6 +516,7 @@ JSScript
 script
 (
 )
+const
 volatile
 {
 JS_ASSERT
@@ -532,6 +535,7 @@ void
 stackAddress
 (
 )
+const
 volatile
 {
 return
@@ -544,6 +548,7 @@ char
 label
 (
 )
+const
 volatile
 {
 return
@@ -642,6 +647,7 @@ jsbytecode
 pc
 (
 )
+const
 volatile
 ;
 JS_FRIEND_API
