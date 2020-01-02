@@ -3741,20 +3741,6 @@ ThrowError
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
-return
-null
-;
-/
-/
-pacify
-silly
-"
-always
-returns
-a
-value
-"
-lint
 }
 /
 /
@@ -4199,14 +4185,12 @@ a
 number
 "
 )
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
 else
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -4283,14 +4267,12 @@ b
 number
 "
 )
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
 else
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -4298,7 +4280,6 @@ JSMSG_TYPEDOBJECT_BAD_ARGS
 ;
 default
 :
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -4464,7 +4445,6 @@ b
 )
 ;
 else
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -4528,14 +4508,12 @@ if
 (
 explicitDepth
 )
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
 else
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -4572,7 +4550,6 @@ ObjectIsTypedObject
 this
 )
 )
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -4594,7 +4571,6 @@ TypeDescrIsArrayType
 thisType
 )
 )
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -4659,7 +4635,6 @@ thisType
 a
 )
 ;
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -4847,7 +4822,6 @@ ObjectIsTypedObject
 this
 )
 )
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -4869,7 +4843,6 @@ TypeDescrIsArrayType
 thisType
 )
 )
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -4893,7 +4866,6 @@ a
 function
 "
 )
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -4955,7 +4927,6 @@ ObjectIsTypedObject
 this
 )
 )
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -4977,7 +4948,6 @@ TypeDescrIsArrayType
 thisType
 )
 )
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -5005,7 +4975,6 @@ TypeDescrIsSizedArrayType
 a
 )
 )
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -5029,7 +4998,6 @@ d
 function
 "
 )
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -5079,7 +5047,6 @@ ObjectIsTypedObject
 this
 )
 )
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -5101,7 +5068,6 @@ TypeDescrIsArrayType
 thisType
 )
 )
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
@@ -5118,7 +5084,6 @@ func
 function
 "
 )
-return
 ThrowError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
