@@ -4199,6 +4199,7 @@ asmJSFrames_
 =
 AsmJSFrameIterator
 (
+*
 data_
 .
 activations_
@@ -4480,7 +4481,6 @@ ionInlineFrameNo_
 )
 asmJSFrames_
 (
-nullptr
 )
 #
 endif
@@ -9684,7 +9684,7 @@ resumePC_
 (
 nullptr
 )
-exitSP_
+exitFP_
 (
 nullptr
 )
