@@ -28689,8 +28689,8 @@ templateObject
 )
 ;
 }
-JSObject
-*
+HeapPtrObject
+&
 templateObject
 (
 )
