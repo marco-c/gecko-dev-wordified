@@ -197,13 +197,13 @@ MediaData
 object
 .
 class
-WMFOutputSource
+MFTManager
 {
 public
 :
 virtual
 ~
-WMFOutputSource
+MFTManager
 (
 )
 {
@@ -384,7 +384,7 @@ MFTDecoder
 created
 by
 the
-WMFOutputSource
+MFTManager
 .
 This
 class
@@ -422,7 +422,7 @@ type
 are
 handled
 by
-WMFOutputSource
+MFTManager
 and
 the
 MFTDecoder
@@ -439,7 +439,7 @@ public
 :
 WMFMediaDataDecoder
 (
-WMFOutputSource
+MFTManager
 *
 aOutputSource
 MediaTaskQueue
@@ -611,9 +611,9 @@ mDecoder
 ;
 nsAutoPtr
 <
-WMFOutputSource
+MFTManager
 >
-mSource
+mMFTManager
 ;
 /
 /

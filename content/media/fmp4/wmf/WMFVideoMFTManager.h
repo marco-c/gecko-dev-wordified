@@ -117,11 +117,11 @@ if
 !
 defined
 (
-WMFVideoOutputSource_h_
+WMFVideoMFTManager_h_
 )
 #
 define
-WMFVideoOutputSource_h_
+WMFVideoMFTManager_h_
 #
 include
 "
@@ -173,14 +173,14 @@ class
 DXVA2Manager
 ;
 class
-WMFVideoOutputSource
+WMFVideoMFTManager
 :
 public
-WMFOutputSource
+MFTManager
 {
 public
 :
-WMFVideoOutputSource
+WMFVideoMFTManager
 (
 const
 mp4_demuxer
@@ -211,7 +211,7 @@ aDXVAEnabled
 )
 ;
 ~
-WMFVideoOutputSource
+WMFVideoMFTManager
 (
 )
 ;
@@ -378,4 +378,4 @@ mozilla
 endif
 /
 /
-WMFVideoOutputSource_h_
+WMFVideoMFTManager_h_

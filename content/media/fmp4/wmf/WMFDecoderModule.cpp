@@ -136,14 +136,14 @@ h
 #
 include
 "
-WMFVideoOutputSource
+WMFVideoMFTManager
 .
 h
 "
 #
 include
 "
-WMFAudioOutputSource
+WMFAudioMFTManager
 .
 h
 "
@@ -440,7 +440,7 @@ new
 WMFMediaDataDecoder
 (
 new
-WMFVideoOutputSource
+WMFVideoMFTManager
 (
 aConfig
 aLayersBackend
@@ -479,7 +479,7 @@ new
 WMFMediaDataDecoder
 (
 new
-WMFAudioOutputSource
+WMFAudioMFTManager
 (
 aConfig
 )

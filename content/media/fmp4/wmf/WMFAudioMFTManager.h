@@ -163,14 +163,14 @@ namespace
 mozilla
 {
 class
-WMFAudioOutputSource
+WMFAudioMFTManager
 :
 public
-WMFOutputSource
+MFTManager
 {
 public
 :
-WMFAudioOutputSource
+WMFAudioMFTManager
 (
 const
 mp4_demuxer
@@ -182,7 +182,7 @@ aConfig
 )
 ;
 ~
-WMFAudioOutputSource
+WMFAudioMFTManager
 (
 )
 ;
