@@ -631,10 +631,6 @@ ANGLE_instanced_arrays
 WebGLExtensionID
 :
 :
-EXT_blend_minmax
-WebGLExtensionID
-:
-:
 OES_element_index_uint
 WebGLExtensionID
 :
@@ -669,6 +665,10 @@ sFeatureRequiredArr
 ]
 =
 {
+GLFeature
+:
+:
+blend_minmax
 GLFeature
 :
 :
