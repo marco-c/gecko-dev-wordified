@@ -178,6 +178,9 @@ reportException
 makeInfallible
 :
 makeInfallible
+zip
+:
+zip
 yieldingEach
 :
 yieldingEach

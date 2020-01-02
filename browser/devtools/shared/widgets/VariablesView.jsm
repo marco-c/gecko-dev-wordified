@@ -21192,7 +21192,7 @@ e
 /
 Hide
 the
-Varible
+Variable
 or
 Property
 if
