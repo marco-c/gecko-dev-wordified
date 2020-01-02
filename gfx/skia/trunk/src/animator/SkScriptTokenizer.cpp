@@ -1394,10 +1394,13 @@ string
 int
 size
 =
+SkToInt
+(
 string
 .
 size
 (
+)
 )
 ;
 addTokenInt
@@ -7324,7 +7327,10 @@ branch
 .
 fOffset
 =
+SkToU16
+(
 newOffset
+)
 ;
 fAccumulatorType
 =

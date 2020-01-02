@@ -357,10 +357,7 @@ static
 ColorProc
 ColorFactory
 (
-SkBitmap
-:
-:
-Config
+SkColorType
 SkMask
 :
 :
@@ -395,10 +392,7 @@ static
 ColorProc
 PlatformColorProcs
 (
-SkBitmap
-:
-:
-Config
+SkColorType
 SkMask
 :
 :
@@ -504,10 +498,7 @@ static
 RowProc
 RowFactory
 (
-SkBitmap
-:
-:
-Config
+SkColorType
 SkMask
 :
 :
@@ -542,10 +533,7 @@ static
 RowProc
 PlatformRowProcs
 (
-SkBitmap
-:
-:
-Config
+SkColorType
 SkMask
 :
 :

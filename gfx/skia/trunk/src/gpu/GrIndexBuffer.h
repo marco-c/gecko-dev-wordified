@@ -109,7 +109,7 @@ int
 this
 -
 >
-sizeInBytes
+gpuMemorySize
 (
 )
 /
@@ -134,7 +134,7 @@ gpu
 bool
 isWrapped
 size_t
-sizeInBytes
+gpuMemorySize
 bool
 dynamic
 bool
@@ -145,7 +145,7 @@ INHERITED
 (
 gpu
 isWrapped
-sizeInBytes
+gpuMemorySize
 dynamic
 cpuBacked
 )

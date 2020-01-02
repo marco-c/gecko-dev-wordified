@@ -146,7 +146,7 @@ GrGLStencilBuffer
 ;
 virtual
 size_t
-sizeInBytes
+gpuMemorySize
 (
 )
 const

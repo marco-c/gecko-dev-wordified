@@ -114,7 +114,7 @@ depending
 on
 the
 bitmap
-config
+colortype
 we
 may
 need

@@ -35,6 +35,13 @@ file
 /
 #
 include
+<
+emmintrin
+.
+h
+>
+#
+include
 "
 SkBlitRect_opts_SSE2
 .
@@ -54,15 +61,7 @@ SkColorPriv
 .
 h
 "
-#
-include
-<
-emmintrin
-.
-h
->
 /
-*
 *
 Simple
 blitting
@@ -75,6 +74,7 @@ than
 pixels
 wide
 :
+*
 inlines
 and
 merges
@@ -242,6 +242,7 @@ least
 pixels
 wide
 :
+*
 inlines
 and
 merges
@@ -251,6 +252,7 @@ Color32_SSE2
 and
 sk_memset32_SSE2
 .
+*
 A
 31
 pixel
@@ -262,6 +264,7 @@ have
 at
 least
 one
+*
 16
 -
 pixel

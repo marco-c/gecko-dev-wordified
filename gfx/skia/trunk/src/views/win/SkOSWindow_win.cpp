@@ -1736,7 +1736,7 @@ SkCreateWGLContext
 (
 dc
 msaaSampleCount
-false
+kGLPreferCompatibilityProfile_SkWGLContextRequest
 )
 ;
 if

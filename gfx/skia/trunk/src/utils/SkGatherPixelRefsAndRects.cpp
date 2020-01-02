@@ -162,7 +162,6 @@ canvas
 .
 drawPicture
 (
-*
 pict
 )
 ;

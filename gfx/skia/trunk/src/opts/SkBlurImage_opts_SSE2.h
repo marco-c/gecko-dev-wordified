@@ -36,6 +36,12 @@ file
 *
 /
 #
+ifndef
+SkBlurImage_opts_SSE2_DEFINED
+#
+define
+SkBlurImage_opts_SSE2_DEFINED
+#
 include
 "
 SkBlurImage_opts
@@ -59,3 +65,5 @@ SkBoxBlurProc
 boxBlurYX
 )
 ;
+#
+endif

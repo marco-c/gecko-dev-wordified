@@ -159,6 +159,7 @@ SkData
 *
 GatherPixelRefs
 (
+const
 SkPicture
 *
 pict

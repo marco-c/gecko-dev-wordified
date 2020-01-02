@@ -272,7 +272,7 @@ shader
 *
 /
 static
-GrEffectRef
+GrEffect
 *
 Create
 (
@@ -311,10 +311,6 @@ NULL
 ;
 }
 return
-CreateEffectRef
-(
-AutoEffectUnref
-(
 SkNEW_ARGS
 (
 GrConvexPolyEffect
@@ -322,8 +318,6 @@ GrConvexPolyEffect
 edgeType
 n
 edges
-)
-)
 )
 )
 ;
@@ -382,7 +376,7 @@ vector
 *
 /
 static
-GrEffectRef
+GrEffect
 *
 Create
 (
@@ -418,7 +412,7 @@ edges
 *
 /
 static
-GrEffectRef
+GrEffect
 *
 Create
 (

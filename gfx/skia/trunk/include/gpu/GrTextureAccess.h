@@ -730,7 +730,6 @@ generation
 class
 GrTextureAccess
 :
-public
 SkNoncopyable
 {
 public

@@ -119,6 +119,7 @@ SkTypes
 h
 "
 class
+SK_API
 SkWriter32
 :
 SkNoncopyable

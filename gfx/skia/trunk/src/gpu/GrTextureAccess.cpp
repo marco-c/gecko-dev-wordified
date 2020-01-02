@@ -584,7 +584,7 @@ break
 ;
 default
 :
-GrCrash
+SkFAIL
 (
 "
 Unexpected

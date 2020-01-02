@@ -89,6 +89,8 @@ GrGLInterface
 *
 createGLContext
 (
+GrGLStandard
+forcedGpuAPI
 )
 SK_OVERRIDE
 ;

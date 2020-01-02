@@ -36,6 +36,12 @@ file
 *
 /
 #
+ifndef
+SkBitmapProcState_opts_SSSE3_DEFINED
+#
+define
+SkBitmapProcState_opts_SSSE3_DEFINED
+#
 include
 "
 SkBitmapProcState
@@ -114,3 +120,5 @@ uint32_t
 colors
 )
 ;
+#
+endif

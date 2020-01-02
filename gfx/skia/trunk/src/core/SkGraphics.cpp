@@ -636,13 +636,6 @@ Term
 (
 )
 ;
-SkXfermode
-:
-:
-Term
-(
-)
-;
 }
 /
 /

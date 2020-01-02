@@ -44,7 +44,7 @@ SkDrawBlur_DEFINED
 #
 include
 "
-SkPaintParts
+SkPaintPart
 .
 h
 "
@@ -86,10 +86,7 @@ fSigma
 int
 /
 *
-SkBlurMaskFilter
-:
-:
-BlurStyle
+SkBlurStyle
 *
 /
 fBlurStyle

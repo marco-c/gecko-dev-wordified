@@ -102,13 +102,13 @@ SkTDArray
 SkOpSpan
 *
 >
-&
+*
 chase
 int
-&
+*
 tIndex
 int
-&
+*
 endIndex
 )
 ;
@@ -146,6 +146,11 @@ unsortable
 bool
 *
 done
+bool
+*
+onlyVertical
+bool
+firstPass
 )
 ;
 SkOpSegment
@@ -191,7 +196,7 @@ bool
 oppEvenOdd
 )
 ;
-void
+bool
 HandleCoincidence
 (
 SkTArray

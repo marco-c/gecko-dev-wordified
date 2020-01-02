@@ -49,7 +49,6 @@ h
 class
 GrAllocPool
 :
-public
 SkNoncopyable
 {
 public

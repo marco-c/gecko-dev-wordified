@@ -271,9 +271,6 @@ getTexture
 )
 SK_OVERRIDE
 ;
-SK_DECLARE_UNFLATTENABLE_OBJECT
-(
-)
 protected
 :
 /
@@ -300,11 +297,7 @@ SkPixelRef
 *
 deepCopy
 (
-SkBitmap
-:
-:
-Config
-dstConfig
+SkColorType
 const
 SkIRect
 *

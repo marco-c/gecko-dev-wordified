@@ -244,6 +244,9 @@ const
 SkDPoint
 &
 xy
+bool
+*
+unequal
 )
 const
 ;
@@ -321,16 +324,12 @@ t2
 )
 const
 ;
-#
-ifdef
-SK_DEBUG
 void
 dump
 (
 )
+const
 ;
-#
-endif
 private
 :
 SkDVector

@@ -386,6 +386,7 @@ if
 (
 value
 )
+{
 *
 value
 =
@@ -396,6 +397,7 @@ index
 .
 fValue
 ;
+}
 return
 true
 ;
@@ -461,8 +463,10 @@ fValue
 =
 value
 )
+{
 continue
 ;
+}
 *
 name
 =
@@ -627,6 +631,7 @@ if
 (
 value
 )
+{
 *
 value
 =
@@ -635,6 +640,7 @@ fIter
 >
 fValue
 ;
+}
 fIter
 +
 =
@@ -729,6 +735,7 @@ if
 (
 count
 )
+{
 index
 =
 SkStrSearch
@@ -751,6 +758,7 @@ Pair
 )
 )
 ;
+}
 return
 index
 ;

@@ -124,6 +124,10 @@ int16_t
 fTop
 fLeft
 ;
+void
+*
+fDistanceField
+;
 uint8_t
 fMaskFormat
 ;
@@ -154,6 +158,10 @@ fImage
 NULL
 ;
 fPath
+=
+NULL
+;
+fDistanceField
 =
 NULL
 ;

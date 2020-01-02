@@ -186,13 +186,16 @@ context
 .
 *
 /
-GrGLSLGeneration
+bool
 GrGetGLSLGeneration
 (
 const
 GrGLInterface
 *
 gl
+GrGLSLGeneration
+*
+generation
 )
 ;
 /
@@ -332,7 +335,7 @@ sampler2D
 ;
 default
 :
-GrCrash
+SkFAIL
 (
 "
 Unknown

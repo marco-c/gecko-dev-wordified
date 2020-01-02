@@ -49,7 +49,7 @@ h
 #
 include
 "
-GrResource
+GrGpuResource
 .
 h
 "
@@ -73,7 +73,7 @@ class
 GrSurface
 :
 public
-GrResource
+GrGpuResource
 {
 public
 :
@@ -320,11 +320,9 @@ return
 fDesc
 ;
 }
-void
-asImageInfo
-(
 SkImageInfo
-*
+info
+(
 )
 const
 ;
@@ -911,7 +909,7 @@ fDesc
 private
 :
 typedef
-GrResource
+GrGpuResource
 INHERITED
 ;
 }

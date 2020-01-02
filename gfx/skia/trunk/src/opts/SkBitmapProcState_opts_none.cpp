@@ -36,6 +36,13 @@ file
 #
 include
 "
+SkBitmapScaler
+.
+h
+"
+#
+include
+"
 SkBitmapProcState
 .
 h
@@ -125,10 +132,10 @@ supplied
 function
 pointers
 void
-SkBitmapProcState
+SkBitmapScaler
 :
 :
-platformConvolutionProcs
+PlatformConvolutionProcs
 (
 SkConvolutionProcs
 *

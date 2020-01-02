@@ -98,7 +98,7 @@ len
 this
 -
 >
-readInt
+readU32
 (
 )
 ;
@@ -311,7 +311,10 @@ len
 *
 ptr
 =
+SkToU32
+(
 len
+)
 ;
 char
 *

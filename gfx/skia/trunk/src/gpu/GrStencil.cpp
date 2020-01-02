@@ -2039,7 +2039,7 @@ break
 ;
 default
 :
-GrCrash
+SkFAIL
 (
 "
 Unknown

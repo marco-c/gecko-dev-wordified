@@ -416,14 +416,6 @@ onRelease
 (
 )
 {
-GPUGL
--
->
-notifyRenderTargetDelete
-(
-this
-)
-;
 if
 (
 !

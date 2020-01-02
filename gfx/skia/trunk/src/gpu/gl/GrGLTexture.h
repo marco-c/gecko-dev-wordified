@@ -264,7 +264,7 @@ class
 GrGLTexture
 :
 public
-GrTexture
+GrTextureImpl
 {
 public
 :
@@ -392,7 +392,7 @@ SK_OVERRIDE
 ;
 virtual
 void
-invalidateCachedState
+textureParamsModified
 (
 )
 SK_OVERRIDE
@@ -552,7 +552,7 @@ rtDesc
 )
 ;
 typedef
-GrTexture
+GrTextureImpl
 INHERITED
 ;
 }

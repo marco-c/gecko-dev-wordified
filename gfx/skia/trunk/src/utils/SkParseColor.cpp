@@ -3509,7 +3509,7 @@ result
 )
 =
 =
-false
+NULL
 )
 ;
 bad
@@ -3532,7 +3532,7 @@ result
 )
 =
 =
-false
+NULL
 )
 ;
 }

@@ -217,10 +217,7 @@ Factory
 (
 unsigned
 flags
-SkBitmap
-:
-:
-Config
+SkColorType
 )
 ;
 /

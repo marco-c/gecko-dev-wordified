@@ -580,7 +580,7 @@ int
 attribCount
 )
 :
-GrResource
+INHERITED
 (
 gpu
 false

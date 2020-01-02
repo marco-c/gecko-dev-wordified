@@ -125,7 +125,7 @@ user
 specified
 kernel
 static
-GrEffectRef
+GrEffect
 *
 Create
 (
@@ -149,9 +149,7 @@ bounds
 ]
 )
 {
-AutoEffectUnref
-effect
-(
+return
 SkNEW_ARGS
 (
 GrConvolutionEffect
@@ -164,13 +162,6 @@ useBounds
 bounds
 )
 )
-)
-;
-return
-CreateEffectRef
-(
-effect
-)
 ;
 }
 /
@@ -182,7 +173,7 @@ a
 Gaussian
 kernel
 static
-GrEffectRef
+GrEffect
 *
 CreateGaussian
 (
@@ -204,9 +195,7 @@ bounds
 ]
 )
 {
-AutoEffectUnref
-effect
-(
+return
 SkNEW_ARGS
 (
 GrConvolutionEffect
@@ -218,13 +207,6 @@ gaussianSigma
 useBounds
 bounds
 )
-)
-)
-;
-return
-CreateEffectRef
-(
-effect
 )
 ;
 }

@@ -91,6 +91,9 @@ SkString
 class
 SkRRect
 ;
+class
+SkWStream
+;
 /
 *
 *
@@ -6891,15 +6894,10 @@ const
 void
 dump
 (
+SkWStream
+*
 bool
 forceClose
-const
-char
-title
-[
-]
-=
-NULL
 )
 const
 ;

@@ -61,7 +61,6 @@ T
 class
 GrOrderedSet
 :
-public
 SkNoncopyable
 {
 public

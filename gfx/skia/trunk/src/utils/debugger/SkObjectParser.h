@@ -92,7 +92,7 @@ a
 bitmaps
 bounds
 and
-config
+colortype
 .
 param
 bitmap

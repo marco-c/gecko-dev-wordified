@@ -52,6 +52,11 @@ Create
 (
 SkScalar
 scale
+SkImageFilter
+*
+input
+=
+NULL
 )
 {
 return
@@ -60,6 +65,7 @@ SkNEW_ARGS
 SkDownSampleImageFilter
 (
 scale
+input
 )
 )
 ;
@@ -74,11 +80,16 @@ SkDownSampleImageFilter
 (
 SkScalar
 scale
+SkImageFilter
+*
+input
 )
 :
 INHERITED
 (
-0
+1
+&
+input
 )
 fScale
 (

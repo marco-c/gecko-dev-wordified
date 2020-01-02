@@ -289,7 +289,6 @@ shader
 class
 GrCoordTransform
 :
-public
 SkNoncopyable
 {
 public

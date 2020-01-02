@@ -50,7 +50,7 @@ xTileCount
 int
 yTileCount
 const
-SkTileGridPicture
+SkTileGridFactory
 :
 :
 TileGridInfo

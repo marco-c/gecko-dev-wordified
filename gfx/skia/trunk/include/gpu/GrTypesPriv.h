@@ -257,7 +257,7 @@ kSampler2D_GrSLType
 ;
 GR_STATIC_ASSERT
 (
-GR_ARRAY_COUNT
+SK_ARRAY_COUNT
 (
 kCounts
 )
@@ -597,7 +597,7 @@ kVec4ub_GrVertexAttribType
 ;
 GR_STATIC_ASSERT
 (
-GR_ARRAY_COUNT
+SK_ARRAY_COUNT
 (
 kCounts
 )
@@ -746,7 +746,7 @@ kVec4ub_GrVertexAttribType
 ;
 GR_STATIC_ASSERT
 (
-GR_ARRAY_COUNT
+SK_ARRAY_COUNT
 (
 kSizes
 )
@@ -1389,7 +1389,7 @@ kFillAA_GrEffectEdgeType
 case
 kHairlineAA_GrEffectEdgeType
 :
-GrCrash
+SkFAIL
 (
 "
 Hairline

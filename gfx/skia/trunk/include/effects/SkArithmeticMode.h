@@ -186,6 +186,10 @@ SkScalar
 k3
 SkScalar
 k4
+bool
+enforcePMColor
+=
+true
 )
 ;
 SK_DECLARE_FLATTENABLE_REGISTRAR_GROUP

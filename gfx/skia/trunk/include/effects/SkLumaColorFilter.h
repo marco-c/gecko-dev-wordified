@@ -172,7 +172,7 @@ SK_OVERRIDE
 if
 SK_SUPPORT_GPU
 virtual
-GrEffectRef
+GrEffect
 *
 asNewEffect
 (

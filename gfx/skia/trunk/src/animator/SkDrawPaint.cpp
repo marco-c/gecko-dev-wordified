@@ -73,7 +73,7 @@ h
 #
 include
 "
-SkPaintParts
+SkPaintPart
 .
 h
 "

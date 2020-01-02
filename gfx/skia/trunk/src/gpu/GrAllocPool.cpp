@@ -223,7 +223,7 @@ bytes
 size_t
 free
 =
-GrMin
+SkTMin
 (
 bytes
 fBytesTotal
@@ -356,7 +356,7 @@ NULL
 ;
 fMinBlockSize
 =
-GrMax
+SkTMax
 (
 blockSize
 GrAllocPool_MIN_BLOCK_SIZE
@@ -480,7 +480,7 @@ size
 size_t
 blockSize
 =
-GrMax
+SkTMax
 (
 fMinBlockSize
 size

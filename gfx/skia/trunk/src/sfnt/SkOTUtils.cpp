@@ -831,9 +831,12 @@ offset
 =
 SkEndian_SwapBE32
 (
+SkToU32
+(
 oldOffset
 -
 oldNameTablePhysicalSize
+)
 )
 ;
 }
@@ -906,7 +909,10 @@ logicalLength
 =
 SkEndian_SwapBE32
 (
+SkToU32
+(
 nameTableLogicalSize
+)
 )
 ;
 nameTableEntry
@@ -916,7 +922,10 @@ offset
 =
 SkEndian_SwapBE32
 (
+SkToU32
+(
 originalDataSize
+)
 )
 ;
 /

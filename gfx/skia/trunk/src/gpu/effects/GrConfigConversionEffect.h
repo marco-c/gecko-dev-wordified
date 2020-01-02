@@ -183,7 +183,7 @@ conversion
 .
 static
 const
-GrEffectRef
+GrEffect
 *
 Create
 (

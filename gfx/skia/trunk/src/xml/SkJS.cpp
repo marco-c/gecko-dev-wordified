@@ -452,10 +452,9 @@ fun
 if
 (
 !
-id
-.
-isString
+JSVAL_IS_STRING
 (
+id
 )
 )
 return
@@ -498,10 +497,9 @@ name
 =
 JS_GetStringBytes
 (
-id
-.
-toString
+JSVAL_TO_STRING
 (
+id
 )
 )
 ;

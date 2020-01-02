@@ -230,7 +230,7 @@ getEffect
 ;
 }
 const
-GrEffectRef
+GrEffect
 *
 effect
 (
@@ -272,11 +272,6 @@ this
 -
 >
 effect
-(
-)
--
->
-get
 (
 )
 )

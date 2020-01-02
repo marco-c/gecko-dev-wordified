@@ -44,7 +44,7 @@ SkDrawShader_DEFINED
 #
 include
 "
-SkPaintParts
+SkPaintPart
 .
 h
 "

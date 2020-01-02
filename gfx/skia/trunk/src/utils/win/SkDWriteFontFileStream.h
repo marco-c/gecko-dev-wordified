@@ -360,6 +360,13 @@ SkStream
 stream
 )
 ;
+virtual
+~
+SkDWriteFontFileStreamWrapper
+(
+)
+{
+}
 ULONG
 fRefCount
 ;

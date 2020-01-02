@@ -79,7 +79,7 @@ fAllocationCnt
 ;
 minAllocSize
 =
-GrMax
+SkTMax
 <
 size_t
 >
@@ -112,7 +112,7 @@ kAlignment
 ;
 fPreallocSize
 =
-GrMax
+SkTMax
 (
 fPreallocSize
 fMinAllocSize
@@ -234,7 +234,7 @@ size
 ;
 blockSize
 =
-GrMax
+SkTMax
 <
 size_t
 >

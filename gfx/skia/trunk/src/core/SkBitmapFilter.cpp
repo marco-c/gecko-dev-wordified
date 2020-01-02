@@ -987,7 +987,7 @@ colorType
 )
 !
 =
-kPMColor_SkColorType
+kN32_SkColorType
 )
 {
 return

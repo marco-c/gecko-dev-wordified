@@ -63,9 +63,6 @@ SkIntArray
 h
 "
 class
-SkUnitMapper
-;
-class
 SkDrawGradient
 :
 public
@@ -132,10 +129,6 @@ fColors
 ;
 SkTDDrawColorArray
 fDrawColors
-;
-SkUnitMapper
-*
-fUnitMapper
 ;
 int
 addPrelude

@@ -373,7 +373,6 @@ a
 new
 /
 /
-kARGB_8888_Config
 version
 of
 the
@@ -395,7 +394,7 @@ copyTo
 (
 &
 copyBitmap
-kPMColor_SkColorType
+kN32_SkColorType
 )
 )
 {

@@ -117,7 +117,7 @@ pool
 *
 it
 calls
-unlock
+unmap
 on
 the
 pool
@@ -192,7 +192,6 @@ destroyed
 class
 GrBufferAllocPool
 :
-public
 SkNoncopyable
 {
 public
@@ -205,7 +204,7 @@ Ensures
 all
 buffers
 are
-unlocked
+unmapped
 and
 have
 all
@@ -227,7 +226,7 @@ pool
 *
 /
 void
-unlock
+unmap
 (
 )
 ;
@@ -436,7 +435,7 @@ pool
 should
 expect
 frequent
-unlock
+unmap
 (
 )
 calls
@@ -624,7 +623,7 @@ again
 .
 *
 *
-unlock
+unmap
 is
 called
 .
@@ -644,7 +643,7 @@ destroyed
 *
 *
 Once
-unlock
+unmap
 on
 the
 pool
@@ -936,9 +935,10 @@ destroyBlock
 void
 flushCpuData
 (
-GrGeometryBuffer
-*
-buffer
+const
+BufferBlock
+&
+block
 size_t
 flushSize
 )
@@ -1079,7 +1079,7 @@ pool
 should
 expect
 frequent
-unlock
+unmap
 (
 )
 calls
@@ -1215,7 +1215,7 @@ again
 .
 *
 *
-unlock
+unmap
 is
 called
 .
@@ -1235,7 +1235,7 @@ destroyed
 *
 *
 Once
-unlock
+unmap
 on
 the
 pool
@@ -1645,7 +1645,7 @@ pool
 should
 expect
 frequent
-unlock
+unmap
 (
 )
 calls
@@ -1782,7 +1782,7 @@ again
 .
 *
 *
-unlock
+unmap
 is
 called
 .
@@ -1802,7 +1802,7 @@ destroyed
 *
 *
 Once
-unlock
+unmap
 on
 the
 pool

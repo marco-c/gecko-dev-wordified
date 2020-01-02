@@ -42,7 +42,7 @@ GrGLVertexArray_DEFINED
 #
 include
 "
-GrResource
+GrGpuResource
 .
 h
 "
@@ -710,7 +710,7 @@ class
 GrGLVertexArray
 :
 public
-GrResource
+GrGpuResource
 {
 public
 :
@@ -849,7 +849,7 @@ invalidateCachedState
 ;
 virtual
 size_t
-sizeInBytes
+gpuMemorySize
 (
 )
 const
@@ -890,7 +890,7 @@ bool
 fIndexBufferIDIsValid
 ;
 typedef
-GrResource
+GrGpuResource
 INHERITED
 ;
 }

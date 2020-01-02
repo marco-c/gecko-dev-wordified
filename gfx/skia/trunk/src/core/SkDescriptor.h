@@ -177,7 +177,7 @@ addEntry
 (
 uint32_t
 tag
-uint32_t
+size_t
 length
 const
 void
@@ -248,7 +248,10 @@ entry
 >
 fLen
 =
+SkToU32
+(
 length
+)
 ;
 if
 (
@@ -758,7 +761,7 @@ return
 SkChecksum
 :
 :
-Compute
+Murmur3
 (
 ptr
 len

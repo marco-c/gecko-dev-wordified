@@ -60,3 +60,12 @@ return
 NULL
 ;
 }
+SkMemcpy32Proc
+SkMemcpy32GetPlatformProc
+(
+)
+{
+return
+NULL
+;
+}

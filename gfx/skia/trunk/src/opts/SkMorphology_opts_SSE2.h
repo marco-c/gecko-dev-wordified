@@ -35,6 +35,19 @@ file
 .
 *
 /
+#
+ifndef
+SkMorphology_opts_SSE2_DEFINED
+#
+define
+SkMorphology_opts_SSE2_DEFINED
+#
+include
+"
+SkColor
+.
+h
+"
 void
 SkDilateX_SSE2
 (
@@ -123,3 +136,5 @@ int
 dstStride
 )
 ;
+#
+endif

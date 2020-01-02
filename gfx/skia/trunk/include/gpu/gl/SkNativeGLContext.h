@@ -138,6 +138,13 @@ GL
 h
 >
 #
+include
+"
+SkWGL
+.
+h
+"
+#
 endif
 class
 SkNativeGLContext
@@ -269,6 +276,8 @@ GrGLInterface
 *
 createGLContext
 (
+GrGLStandard
+forcedGpuAPI
 )
 SK_OVERRIDE
 ;
@@ -348,6 +357,10 @@ fGlRenderContext
 static
 ATOM
 gWC
+;
+SkWGLPbufferContext
+*
+fPbufferContext
 ;
 #
 elif

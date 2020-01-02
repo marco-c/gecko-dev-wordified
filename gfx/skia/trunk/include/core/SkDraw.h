@@ -66,9 +66,6 @@ class
 SkBitmap
 ;
 class
-SkBounder
-;
-class
 SkClipStack
 ;
 class
@@ -944,13 +941,6 @@ optional
 SkBaseDevice
 *
 fDevice
-;
-/
-/
-optional
-SkBounder
-*
-fBounder
 ;
 /
 /

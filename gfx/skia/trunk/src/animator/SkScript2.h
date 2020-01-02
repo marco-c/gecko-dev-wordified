@@ -513,13 +513,16 @@ Op
 op
 int
 depth
-unsigned
+size_t
 offset
 )
 :
 fOffset
 (
+SkToU16
+(
 offset
+)
 )
 fOpStackDepth
 (

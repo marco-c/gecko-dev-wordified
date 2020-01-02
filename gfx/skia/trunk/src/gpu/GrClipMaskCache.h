@@ -99,7 +99,6 @@ paths
 class
 GrClipMaskCache
 :
-public
 SkNoncopyable
 {
 public

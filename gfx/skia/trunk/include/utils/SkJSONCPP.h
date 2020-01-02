@@ -143,6 +143,15 @@ value
 h
 "
 #
+include
+"
+json
+/
+writer
+.
+h
+"
+#
 ifdef
 SK_BUILD_FOR_WIN
 #
@@ -155,3 +164,6 @@ pop
 endif
 #
 endif
+/
+/
+SkJSONCPP_DEFINED

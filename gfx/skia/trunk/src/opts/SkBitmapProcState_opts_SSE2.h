@@ -36,6 +36,12 @@ file
 *
 /
 #
+ifndef
+SkBitmapProcState_opts_SSE2_DEFINED
+#
+define
+SkBitmapProcState_opts_SSE2_DEFINED
+#
 include
 "
 SkBitmapProcState
@@ -190,3 +196,5 @@ uint16_t
 colors
 )
 ;
+#
+endif

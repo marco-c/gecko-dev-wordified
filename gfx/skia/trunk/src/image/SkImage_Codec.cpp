@@ -546,10 +546,7 @@ size
 )
 &
 bitmap
-SkBitmap
-:
-:
-kNo_Config
+kUnknown_SkColorType
 SkImageDecoder
 :
 :

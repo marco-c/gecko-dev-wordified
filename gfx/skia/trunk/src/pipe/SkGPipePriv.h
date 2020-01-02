@@ -1089,6 +1089,11 @@ kColor_PaintOp
 /
 arg
 32
+kFilterLevel_PaintOp
+/
+/
+arg
+inline
 kStyle_PaintOp
 /
 /

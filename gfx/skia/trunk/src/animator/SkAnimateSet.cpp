@@ -345,6 +345,9 @@ SkType_DynamicString
 ?
 1
 :
+(
+int
+)
 fFieldInfo
 -
 >

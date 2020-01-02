@@ -531,8 +531,6 @@ const
 CropRect
 *
 cropRect
-=
-NULL
 )
 ;
 explicit

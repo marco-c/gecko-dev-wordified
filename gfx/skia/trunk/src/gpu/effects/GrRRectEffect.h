@@ -54,7 +54,7 @@ GrTypesPriv
 h
 "
 class
-GrEffectRef
+GrEffect
 ;
 class
 SkRRect
@@ -101,7 +101,7 @@ return
 .
 *
 /
-GrEffectRef
+GrEffect
 *
 Create
 (

@@ -1648,7 +1648,7 @@ return
 ;
 default
 :
-GrCrash
+SkFAIL
 (
 "
 Unexpected
@@ -1776,7 +1776,7 @@ out
 ;
 default
 :
-GrCrash
+SkFAIL
 (
 "
 Unknown

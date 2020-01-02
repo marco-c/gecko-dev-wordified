@@ -237,6 +237,8 @@ hasBounds
 )
 )
 {
+/
+/
 fMaker
 .
 fCanvas
@@ -284,6 +286,8 @@ false
 )
 return
 ;
+/
+/
 fMaker
 .
 fCanvas

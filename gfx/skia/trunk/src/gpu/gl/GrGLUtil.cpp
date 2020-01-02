@@ -648,7 +648,7 @@ NULL
 versionString
 )
 {
-SkDEBUGFAIL
+SkDebugf
 (
 "
 NULL
@@ -895,7 +895,7 @@ NULL
 versionString
 )
 {
-SkDEBUGFAIL
+SkDebugf
 (
 "
 NULL
@@ -907,7 +907,7 @@ string
 )
 ;
 return
-0
+GR_GL_INVALID_VER
 ;
 }
 int
@@ -983,7 +983,7 @@ minor
 else
 {
 return
-0
+GR_GL_INVALID_VER
 ;
 }
 }
@@ -1109,7 +1109,7 @@ minor
 ;
 }
 return
-0
+GR_GL_INVALID_VER
 ;
 }
 GrGLSLVersion
@@ -1129,7 +1129,7 @@ NULL
 versionString
 )
 {
-SkDEBUGFAIL
+SkDebugf
 (
 "
 NULL
@@ -1141,7 +1141,7 @@ string
 )
 ;
 return
-0
+GR_GLSL_INVALID_VER
 ;
 }
 int
@@ -1275,7 +1275,7 @@ minor
 #
 endif
 return
-0
+GR_GLSL_INVALID_VER
 ;
 }
 GrGLVendor
@@ -1379,6 +1379,25 @@ Qualcomm
 {
 return
 kQualcomm_GrGLVendor
+;
+}
+if
+(
+0
+=
+=
+strcmp
+(
+vendorString
+"
+NVIDIA
+Corporation
+"
+)
+)
+{
+return
+kNVIDIA_GrGLVendor
 ;
 }
 }

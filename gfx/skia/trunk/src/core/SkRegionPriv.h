@@ -189,6 +189,8 @@ curr
 ;
 }
 return
+SkToInt
+(
 (
 curr
 -
@@ -197,6 +199,7 @@ runs
 >
 >
 1
+)
 ;
 }
 #
@@ -1377,6 +1380,8 @@ sentinel
 int
 runCount
 =
+SkToInt
+(
 runs
 -
 this
@@ -1387,6 +1392,7 @@ writable_runs
 )
 +
 1
+)
 ;
 SkASSERT
 (

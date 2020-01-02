@@ -91,6 +91,9 @@ uniforms
 /
 class
 GrGLUniformManager
+:
+public
+SkRefCnt
 {
 public
 :
@@ -702,6 +705,10 @@ fUniforms
 GrGpuGL
 *
 fGpu
+;
+typedef
+SkRefCnt
+INHERITED
 ;
 }
 ;

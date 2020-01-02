@@ -227,7 +227,6 @@ ID
 class
 GrFakeRefObj
 :
-public
 SkNoncopyable
 {
 public
