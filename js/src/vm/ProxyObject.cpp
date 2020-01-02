@@ -413,6 +413,14 @@ clasp
 ;
 if
 (
+!
+options
+.
+forceForegroundFinalization
+(
+)
+&
+&
 handler
 -
 >
