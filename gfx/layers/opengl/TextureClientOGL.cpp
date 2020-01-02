@@ -193,6 +193,10 @@ mInverted
 (
 false
 )
+mIsLocked
+(
+false
+)
 {
 /
 /
