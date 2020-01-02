@@ -1852,7 +1852,7 @@ nsSVGDisplayContainerFrame
 GetFrameForPoint
 (
 const
-nsPoint
+gfxPoint
 &
 aPoint
 )
