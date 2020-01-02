@@ -20685,7 +20685,7 @@ ASAN
 builds
 have
 roughly
-twice
+thrice
 the
 stack
 overhead
@@ -20724,11 +20724,11 @@ of
 .
 2
 *
-2
+3
 *
 10
 =
-164k
+246k
 .
 const
 size_t
@@ -20742,7 +20742,7 @@ const
 size_t
 kTrustedScriptBuffer
 =
-164
+246
 *
 1024
 ;
