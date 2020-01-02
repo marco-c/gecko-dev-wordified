@@ -103,6 +103,9 @@ namespace
 mozilla
 ;
 #
+undef
+LOG
+#
 if
 defined
 (

@@ -155,6 +155,9 @@ gRequestObserverProxyLog
 #
 endif
 #
+undef
+LOG
+#
 define
 LOG
 (
