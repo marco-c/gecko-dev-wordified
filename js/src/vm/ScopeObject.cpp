@@ -1056,10 +1056,8 @@ object
 given
 a
 shape
-type
 and
-slots
-pointer
+type
 .
 *
 The
@@ -1091,9 +1089,6 @@ HandleShape
 shape
 HandleTypeObject
 type
-HeapSlot
-*
-slots
 )
 {
 gc
@@ -1175,7 +1170,6 @@ kind
 heap
 shape
 type
-slots
 )
 ;
 if
