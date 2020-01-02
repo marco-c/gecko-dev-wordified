@@ -21845,7 +21845,7 @@ nsIDOMCrypto
 aCrypto
 )
 {
-FORWARD_TO_OUTER
+FORWARD_TO_INNER
 (
 GetCrypto
 (
