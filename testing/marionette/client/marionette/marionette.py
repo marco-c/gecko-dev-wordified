@@ -72,10 +72,6 @@ application_cache
 import
 ApplicationCache
 from
-client
-import
-MarionetteClient
-from
 decorators
 import
 do_crash_check
@@ -95,6 +91,10 @@ from
 keys
 import
 Keys
+from
+marionette_transport
+import
+MarionetteTransport
 import
 geckoinstance
 class
@@ -3950,7 +3950,7 @@ self
 .
 client
 =
-MarionetteClient
+MarionetteTransport
 (
 self
 .
@@ -4009,6 +4009,7 @@ MarionetteException
 socket
 .
 error
+IOError
 )
 :
                 

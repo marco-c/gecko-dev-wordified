@@ -76,10 +76,6 @@ b2ginstance
 import
 B2GInstance
 from
-client
-import
-MarionetteClient
-from
 errors
 import
 InvalidResponseException
@@ -92,6 +88,10 @@ marionette_test
 import
 MarionetteTestCase
 from
+marionette_transport
+import
+MarionetteTransport
+from
 runtests
 import
 MarionetteTestRunner
@@ -99,7 +99,7 @@ cli
 class
 B2GUpdateMarionetteClient
 (
-MarionetteClient
+MarionetteTransport
 )
 :
     
@@ -131,11 +131,14 @@ runner
 )
 :
         
-MarionetteClient
+super
+(
+B2GUpdateMarionetteClient
+self
+)
 .
 __init__
 (
-self
 addr
 port
 )
@@ -224,7 +227,7 @@ MAX_RETRIES
 try
 :
                 
-MarionetteClient
+MarionetteTransport
 .
 connect
 (

@@ -2320,7 +2320,10 @@ work
 pass
         
 except
+(
 InvalidResponseException
+IOError
+)
 :
             
 self
