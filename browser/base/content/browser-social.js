@@ -6220,7 +6220,9 @@ document
 .
 getAnonymousElementByAttribute
 (
-aToolbarButton
+this
+.
+shareButton
 "
 class
 "
