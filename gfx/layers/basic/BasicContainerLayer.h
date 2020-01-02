@@ -604,6 +604,9 @@ aCallback
 void
 *
 aCallbackData
+ReadbackProcessor
+*
+aReadback
 )
 MOZ_OVERRIDE
 ;
