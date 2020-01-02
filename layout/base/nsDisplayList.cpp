@@ -469,6 +469,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+layout
+;
 typedef
 FrameMetrics
 :
@@ -9362,6 +9369,12 @@ END_NO_REMOTE_COMPOSITE
 ;
 }
 }
+MaybeSetupTransactionIdAllocator
+(
+layerManager
+view
+)
+;
 layerManager
 -
 >
