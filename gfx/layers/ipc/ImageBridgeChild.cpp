@@ -4283,8 +4283,10 @@ here
 struct
 AllocShmemParams
 {
+RefPtr
+<
 ISurfaceAllocator
-*
+>
 mAllocator
 ;
 size_t
