@@ -133,6 +133,13 @@ gcli
 /
 commands
 /
+inject
+"
+"
+gcli
+/
+commands
+/
 jsb
 "
 "
