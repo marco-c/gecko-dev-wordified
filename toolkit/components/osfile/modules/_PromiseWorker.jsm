@@ -620,12 +620,6 @@ worker
 error
 .
 message
-error
-.
-filename
-error
-.
-lineno
 )
 ;
 error
