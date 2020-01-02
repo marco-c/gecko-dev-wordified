@@ -1427,7 +1427,10 @@ Element
 ;
 RestyleTracker
 (
-uint32_t
+Element
+:
+:
+FlagsType
 aRestyleBits
 )
 :
@@ -1713,7 +1716,10 @@ ANIMATION_
 )
 RESTYLE_ROOT
 bit
-uint32_t
+Element
+:
+:
+FlagsType
 RootBit
 (
 )
@@ -2005,7 +2011,10 @@ not
 in
 ELEMENT_PENDING_RESTYLE_FLAGS
 .
-uint32_t
+Element
+:
+:
+FlagsType
 mRestyleBits
 ;
 RestyleManager

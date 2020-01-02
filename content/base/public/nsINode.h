@@ -1365,7 +1365,16 @@ n
 )
 <
 =
-32
+\
+sizeof
+(
+nsWrapperCache
+:
+:
+FlagsType
+)
+*
+8
 \
 "
 Not
@@ -6367,7 +6376,7 @@ endif
 void
 SetFlags
 (
-uint32_t
+FlagsType
 aFlagsToSet
 )
 {
@@ -6421,7 +6430,7 @@ aFlagsToSet
 void
 UnsetFlags
 (
-uint32_t
+FlagsType
 aFlagsToUnset
 )
 {
