@@ -327,7 +327,7 @@ GMPAllocErr
 GMPNotImplementedErr
 =
 4
-GMPNotClosedErr
+GMPRecordInUse
 =
 5
 GMPQuotaExceededErr

@@ -728,7 +728,7 @@ MOZ_OVERRIDE
 ;
 virtual
 const
-GMPEncryptedBufferData
+GMPEncryptedBufferMetadata
 *
 GetDecryptionData
 (

@@ -351,7 +351,7 @@ Buffer
 /
 /
 Get
-data
+metadata
 describing
 how
 this
@@ -371,7 +371,7 @@ encrypted
 .
 virtual
 const
-GMPEncryptedBufferData
+GMPEncryptedBufferMetadata
 *
 GetDecryptionData
 (
