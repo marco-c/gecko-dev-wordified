@@ -183,6 +183,17 @@ pass00
 .
 *
 /
+if
+(
+!
+this
+.
+TypedObject
+)
+quit
+(
+)
+;
 var
 T
 =

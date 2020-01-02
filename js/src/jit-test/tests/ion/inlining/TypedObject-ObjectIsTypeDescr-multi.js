@@ -228,6 +228,17 @@ written
 .
 *
 /
+if
+(
+!
+this
+.
+TypedObject
+)
+quit
+(
+)
+;
 var
 T
 =
