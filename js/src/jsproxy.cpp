@@ -20161,7 +20161,7 @@ setProperty
 /
 JS_EnumerateStub
 JS_ResolveStub
-JS_ConvertStub
+proxy_Convert
 proxy_Finalize
 /
 *
@@ -20174,7 +20174,7 @@ nullptr
 call
 *
 /
-nullptr
+proxy_HasInstance
 /
 *
 hasInstance
