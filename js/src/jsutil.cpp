@@ -283,7 +283,7 @@ zs
 .
 opaque
 =
-NULL
+nullptr
 ;
 zs
 .
@@ -305,7 +305,7 @@ zs
 .
 next_out
 =
-NULL
+nullptr
 ;
 zs
 .
@@ -737,7 +737,7 @@ zs
 .
 opaque
 =
-NULL
+nullptr
 ;
 zs
 .

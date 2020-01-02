@@ -958,7 +958,7 @@ rhs
 >
 name
 =
-NULL
+nullptr
 ;
 }
 Edge
@@ -1055,14 +1055,14 @@ this
 edge
 originates
 .
-NULL
+nullptr
 means
 a
 root
 .
 This
-is
 *
+is
 a
 cell
 address
@@ -1205,7 +1205,7 @@ cx
 )
 parent
 (
-NULL
+nullptr
 )
 {
 JS_TracerInit
@@ -1333,7 +1333,7 @@ s
 context
 and
 return
-NULL
+nullptr
 .
 *
 *
@@ -2281,7 +2281,7 @@ if
 name
 )
 return
-NULL
+nullptr
 ;
 strcpy
 (
@@ -2333,7 +2333,7 @@ if
 name
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3125,7 +3125,7 @@ if
 path
 !
 =
-NULL
+nullptr
 )
 {
 jsval
@@ -3415,7 +3415,7 @@ if
 path
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -3825,9 +3825,9 @@ result
 JS_NewObject
 (
 context
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -3836,7 +3836,7 @@ if
 result
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3844,11 +3844,11 @@ if
 visit
 (
 target
-NULL
+nullptr
 )
 )
 return
-NULL
+nullptr
 ;
 return
 result
@@ -3888,7 +3888,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 findReferences
@@ -3933,7 +3933,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNEXPECTED_TYPE
 "
 argument

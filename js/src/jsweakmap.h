@@ -1057,7 +1057,7 @@ of
 the
 list
 has
-NULL
+nullptr
 as
 its
 next
@@ -1068,9 +1068,9 @@ in
 the
 list
 have
+/
+/
 WeakMapNotInList
-/
-/
 as
 their
 next
@@ -1081,10 +1081,10 @@ distinguish
 these
 cases
 to
+/
+/
 avoid
 creating
-/
-/
 infinite
 lists
 when
@@ -1096,6 +1096,8 @@ traced
 twice
 due
 to
+/
+/
 delayed
 marking
 .
@@ -1171,7 +1173,7 @@ JSObject
 *
 memOf
 =
-NULL
+nullptr
 )
 :
 Base
@@ -1697,7 +1699,7 @@ key
 .
 unsafeSet
 (
-NULL
+nullptr
 )
 ;
 }
@@ -1833,7 +1835,7 @@ assertEntriesNotAboutToBeFinalized
 memberOf
 can
 be
-NULL
+nullptr
 which
 means
 that

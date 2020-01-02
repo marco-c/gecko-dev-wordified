@@ -1879,7 +1879,7 @@ trc
 callback
 (
 trc
-NULL
+nullptr
 entry
 .
 key

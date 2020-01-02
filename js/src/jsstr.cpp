@@ -581,7 +581,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 args
 [
@@ -2595,8 +2595,8 @@ uint32_t
 slot
 )
 value
-NULL
-NULL
+nullptr
+nullptr
 STRING_ELEMENT_ATTRS
 )
 )
@@ -2759,7 +2759,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-NULL
+nullptr
 )
 ;
 if
@@ -2915,7 +2915,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_CONVERT_TO
 call
 .
@@ -2940,7 +2940,7 @@ object
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSString
@@ -2966,7 +2966,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 call
 .
@@ -3873,7 +3873,7 @@ if
 lhs
 )
 return
-NULL
+nullptr
 ;
 RootedString
 rhs
@@ -3899,7 +3899,7 @@ if
 rhs
 )
 return
-NULL
+nullptr
 ;
 return
 JSRope
@@ -4270,7 +4270,7 @@ if
 s
 )
 return
-NULL
+nullptr
 ;
 jschar
 *
@@ -4295,7 +4295,7 @@ if
 news
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -4359,7 +4359,7 @@ news
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -4650,7 +4650,7 @@ if
 s
 )
 return
-NULL
+nullptr
 ;
 jschar
 *
@@ -4675,7 +4675,7 @@ if
 news
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -4739,7 +4739,7 @@ news
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -7351,7 +7351,7 @@ return
 cur
 =
 =
-NULL
+nullptr
 ;
 }
 JSLinearString
@@ -7401,7 +7401,7 @@ empty
 {
 cur
 =
-NULL
+nullptr
 ;
 return
 true
@@ -10637,7 +10637,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 static
 const
@@ -10722,7 +10722,7 @@ it
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -10739,7 +10739,7 @@ it
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -10953,8 +10953,8 @@ flags
 argument
 metachars
 in
-the
 *
+the
 pattern
 string
 or
@@ -10999,7 +10999,7 @@ B
 .
 tryFlatMatch
 returns
-NULL
+nullptr
 on
 OOM
 so
@@ -11007,6 +11007,7 @@ the
 caller
 must
 check
+*
 cx
 -
 >
@@ -11046,7 +11047,7 @@ initialized
 )
 )
 return
-NULL
+nullptr
 ;
 fm
 .
@@ -11081,7 +11082,7 @@ optarg
 argc
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -11109,7 +11110,7 @@ patlen
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -11166,7 +11167,7 @@ match_
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -11315,7 +11316,7 @@ else
 {
 opt
 =
-NULL
+nullptr
 ;
 }
 Rooted
@@ -11487,7 +11488,7 @@ return
 obj_
 !
 =
-NULL
+nullptr
 ;
 }
 HandleObject
@@ -14760,7 +14761,7 @@ rdata
 .
 elembase
 =
-NULL
+nullptr
 ;
 }
 if
@@ -17055,7 +17056,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 jschar
 *
@@ -17225,7 +17226,7 @@ if
 chars
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -17251,7 +17252,7 @@ RootedString
 part
 (
 cx
-NULL
+nullptr
 )
 ;
 while
@@ -17411,7 +17412,7 @@ if
 part
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -19325,13 +19326,13 @@ rdata
 .
 elembase
 =
-NULL
+nullptr
 ;
 rdata
 .
 repstr
 =
-NULL
+nullptr
 ;
 rdata
 .
@@ -19341,7 +19342,7 @@ rdata
 .
 dollarEnd
 =
-NULL
+nullptr
 ;
 if
 (
@@ -19369,13 +19370,13 @@ rdata
 .
 lambda
 =
-NULL
+nullptr
 ;
 rdata
 .
 elembase
 =
-NULL
+nullptr
 ;
 rdata
 .
@@ -19925,7 +19926,7 @@ result
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -20117,7 +20118,7 @@ result
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -20437,7 +20438,7 @@ sub
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -20661,7 +20662,7 @@ sub
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -20684,7 +20685,7 @@ AddTypeProperty
 (
 cx
 type
-NULL
+nullptr
 UndefinedValue
 (
 )
@@ -20703,7 +20704,7 @@ UndefinedValue
 )
 )
 return
-NULL
+nullptr
 ;
 }
 /
@@ -20816,7 +20817,7 @@ sub
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -21330,7 +21331,7 @@ AddTypeProperty
 (
 cx
 type
-NULL
+nullptr
 Type
 :
 :
@@ -23223,7 +23224,7 @@ b
 NullPtr
 (
 )
-NULL
+nullptr
 CallReceiverFromVp
 (
 vp
@@ -23255,7 +23256,7 @@ i
 NullPtr
 (
 )
-NULL
+nullptr
 CallReceiverFromVp
 (
 vp
@@ -23287,7 +23288,7 @@ tt
 NullPtr
 (
 )
-NULL
+nullptr
 CallReceiverFromVp
 (
 vp
@@ -23451,7 +23452,7 @@ strike
 NullPtr
 (
 )
-NULL
+nullptr
 CallReceiverFromVp
 (
 vp
@@ -23483,7 +23484,7 @@ small
 NullPtr
 (
 )
-NULL
+nullptr
 CallReceiverFromVp
 (
 vp
@@ -23515,7 +23516,7 @@ big
 NullPtr
 (
 )
-NULL
+nullptr
 CallReceiverFromVp
 (
 vp
@@ -23547,7 +23548,7 @@ blink
 NullPtr
 (
 )
-NULL
+nullptr
 CallReceiverFromVp
 (
 vp
@@ -23579,7 +23580,7 @@ sup
 NullPtr
 (
 )
-NULL
+nullptr
 CallReceiverFromVp
 (
 vp
@@ -23611,7 +23612,7 @@ sub
 NullPtr
 (
 )
-NULL
+nullptr
 CallReceiverFromVp
 (
 vp
@@ -24708,7 +24709,7 @@ empty
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -24752,7 +24753,7 @@ if
 ctor
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -24765,7 +24766,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -24774,7 +24775,7 @@ DefinePropertiesAndBrand
 (
 cx
 proto
-NULL
+nullptr
 string_methods
 )
 |
@@ -24784,13 +24785,13 @@ DefinePropertiesAndBrand
 (
 cx
 ctor
-NULL
+nullptr
 string_static_methods
 )
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -24806,7 +24807,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -24843,7 +24844,7 @@ string_functions
 )
 )
 return
-NULL
+nullptr
 ;
 return
 proto
@@ -24968,7 +24969,7 @@ if
 base
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -25110,7 +25111,7 @@ if
 news
 )
 return
-NULL
+nullptr
 ;
 js_strncpy
 (
@@ -25257,7 +25258,7 @@ if
 chars
 )
 return
-NULL
+nullptr
 ;
 JSFlatString
 *
@@ -25411,7 +25412,7 @@ if
 news
 )
 return
-NULL
+nullptr
 ;
 js_memcpy
 (
@@ -25609,7 +25610,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 str
 =
@@ -25626,7 +25627,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 return
 bytes
@@ -25726,7 +25727,7 @@ shouldBeJSContext
 allowGC
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 v2
@@ -25752,7 +25753,7 @@ v2
 )
 )
 return
-NULL
+nullptr
 ;
 v
 =
@@ -25950,7 +25951,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-NULL
+nullptr
 )
 ;
 assertSameCompartment
@@ -26134,7 +26135,7 @@ fval
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -26163,13 +26164,13 @@ obj
 )
 fval
 0
-NULL
+nullptr
 &
 rval
 )
 )
 return
-NULL
+nullptr
 ;
 return
 ToString
@@ -26774,7 +26775,7 @@ if
 ret
 )
 return
-NULL
+nullptr
 ;
 js_strncpy
 (
@@ -26841,7 +26842,7 @@ s
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 jschar
@@ -26972,7 +26973,7 @@ lengthp
 0
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -27054,7 +27055,7 @@ JS_ReportErrorNumber
 (
 maybecx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BUFFER_TOO_SMALL
 )
 ;
@@ -28766,9 +28767,9 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_URI
-NULL
+nullptr
 )
 ;
 return
@@ -28813,9 +28814,9 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_URI
-NULL
+nullptr
 )
 ;
 return
@@ -28850,9 +28851,9 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_URI
-NULL
+nullptr
 )
 ;
 return
@@ -29536,7 +29537,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_URI
 )
 ;
@@ -29663,7 +29664,7 @@ Decode
 (
 cx
 str
-NULL
+nullptr
 args
 .
 rval
@@ -29787,7 +29788,7 @@ Encode
 cx
 str
 js_isUriUnescaped
-NULL
+nullptr
 args
 .
 rval
@@ -30103,7 +30104,7 @@ bufferSize
 )
 buffer
 =
-NULL
+nullptr
 ;
 else
 bufferSize
@@ -30520,7 +30521,7 @@ n
 ;
 buffer
 =
-NULL
+nullptr
 ;
 }
 }
