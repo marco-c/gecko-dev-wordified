@@ -554,6 +554,10 @@ bool
 RecvOnStartRequest
 (
 const
+nsresult
+&
+channelStatus
+const
 nsHttpResponseHead
 &
 responseHead
@@ -599,6 +603,10 @@ MOZ_OVERRIDE
 bool
 RecvOnTransportAndData
 (
+const
+nsresult
+&
+channelStatus
 const
 nsresult
 &
@@ -926,6 +934,10 @@ void
 OnStartRequest
 (
 const
+nsresult
+&
+channelStatus
+const
 nsHttpResponseHead
 &
 responseHead
@@ -973,6 +985,10 @@ OnTransportAndData
 const
 nsresult
 &
+channelStatus
+const
+nsresult
+&
 status
 const
 uint64_t
@@ -1001,7 +1017,7 @@ OnStopRequest
 const
 nsresult
 &
-statusCode
+channelStatus
 )
 ;
 void
