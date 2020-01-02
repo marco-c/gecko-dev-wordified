@@ -47499,7 +47499,7 @@ disabled
 ;
 #
 ifdef
-NIGHTLY_BUILD
+E10S_TESTING_ONLY
 menuItems
 =
 aPopupMenu
