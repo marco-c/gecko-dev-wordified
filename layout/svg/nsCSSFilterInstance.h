@@ -462,6 +462,14 @@ aDescr
 )
 ;
 nsresult
+SetAttributesForBrightness
+(
+FilterPrimitiveDescription
+&
+aDescr
+)
+;
+nsresult
 SetAttributesForDropShadow
 (
 FilterPrimitiveDescription
