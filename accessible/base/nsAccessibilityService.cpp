@@ -9159,7 +9159,9 @@ role
 EqualsLiteral
 (
 "
-xulstatusbar
+xul
+:
+statusbar
 "
 )
 )
