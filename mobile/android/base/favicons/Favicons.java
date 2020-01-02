@@ -2784,7 +2784,7 @@ static
 void
 removeLoadTask
 (
-long
+int
 taskId
 )
 {
