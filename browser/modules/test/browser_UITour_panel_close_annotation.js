@@ -247,8 +247,6 @@ getElementById
 "
 PanelUI
 -
-menu
--
 button
 "
 )
@@ -1371,8 +1369,6 @@ getElementById
 (
 "
 PanelUI
--
-menu
 -
 button
 "
