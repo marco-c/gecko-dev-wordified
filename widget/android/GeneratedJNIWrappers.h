@@ -532,6 +532,12 @@ GetSystemColoursWrapper
 )
 ;
 static
+jstring
+GetUserRestrictions
+(
+)
+;
+static
 void
 HandleGeckoMessageWrapper
 (
@@ -586,6 +592,12 @@ IsNetworkLinkUp
 static
 bool
 IsTablet
+(
+)
+;
+static
+bool
+IsUserRestricted
 (
 )
 ;
@@ -1137,6 +1149,10 @@ jGetSystemColoursWrapper
 ;
 static
 jmethodID
+jGetUserRestrictions
+;
+static
+jmethodID
 jHandleGeckoMessageWrapper
 ;
 static
@@ -1162,6 +1178,10 @@ jIsNetworkLinkUp
 static
 jmethodID
 jIsTablet
+;
+static
+jmethodID
+jIsUserRestricted
 ;
 static
 jmethodID
