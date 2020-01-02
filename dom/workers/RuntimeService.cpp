@@ -636,10 +636,11 @@ bytes
 #
 define
 WORKER_DEFAULT_NURSERY_SIZE
-JS
-:
-:
-DefaultNurseryBytes
+1
+*
+1024
+*
+1024
 /
 /
 The
