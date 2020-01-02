@@ -9721,6 +9721,7 @@ FunctionSyntaxKind
 Expression
 Statement
 Arrow
+Method
 }
 ;
 static
