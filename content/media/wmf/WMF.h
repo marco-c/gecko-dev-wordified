@@ -267,6 +267,13 @@ wmcodecdsp
 .
 h
 >
+#
+include
+<
+codecapi
+.
+h
+>
 /
 /
 Some
