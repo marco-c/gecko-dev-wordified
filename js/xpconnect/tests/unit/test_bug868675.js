@@ -126,7 +126,7 @@ example
 com
 '
 {
-wantDOMConstructors
+wantGlobalProperties
 :
 [
 "

@@ -23367,9 +23367,9 @@ struct
 SandboxOptions
 {
 struct
-DOMConstructors
+GlobalProperties
 {
-DOMConstructors
+GlobalProperties
 (
 )
 {
@@ -23482,8 +23482,8 @@ JS
 RootedObject
 sameZoneAs
 ;
-DOMConstructors
-DOMConstructors
+GlobalProperties
+GlobalProperties
 ;
 JS
 :

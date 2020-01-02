@@ -71,7 +71,7 @@ com
 '
 ]
 {
-wantDOMConstructors
+wantGlobalProperties
 :
 [
 "
