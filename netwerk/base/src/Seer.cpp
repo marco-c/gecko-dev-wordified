@@ -13098,6 +13098,16 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+if
+(
+!
+mEnabled
+)
+{
+return
+NS_OK
+;
+}
 nsRefPtr
 <
 SeerResetEvent
