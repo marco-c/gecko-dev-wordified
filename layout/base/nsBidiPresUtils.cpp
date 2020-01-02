@@ -5414,6 +5414,13 @@ contentOffset
 fragmentLength
 )
 ;
+currentLine
+-
+>
+MarkDirty
+(
+)
+;
 }
 }
 /
