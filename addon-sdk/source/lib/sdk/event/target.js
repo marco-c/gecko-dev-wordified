@@ -107,6 +107,8 @@ require
 lang
 /
 functional
+/
+core
 '
 )
 ;
