@@ -537,11 +537,6 @@ def
 find_mozconfig
 (
 self
-env
-=
-os
-.
-environ
 )
 :
         
@@ -676,7 +671,9 @@ if
 MOZ_MYCONFIG
 '
 in
-env
+os
+.
+environ
 :
             
 raise
@@ -687,7 +684,9 @@ MOZ_MYCONFIG_ERROR
         
 env_path
 =
-env
+os
+.
+environ
 .
 get
 (
@@ -940,7 +939,9 @@ DEPRECATED_TOPSRCDIR_PATHS
         
 home
 =
-env
+os
+.
+environ
 .
 get
 (
