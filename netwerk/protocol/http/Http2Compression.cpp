@@ -8138,7 +8138,7 @@ Length
 ;
 EncodeInteger
 (
-4
+5
 newMaxSize
 )
 ;
