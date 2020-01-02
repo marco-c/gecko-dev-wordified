@@ -370,7 +370,7 @@ InternalUIEvent
 TextEvents
 .
 h
-NS_KEY_EVENT
+eKeyboardEventClass
 /
 /
 WidgetKeyboardEvent

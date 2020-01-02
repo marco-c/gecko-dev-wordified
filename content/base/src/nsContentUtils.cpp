@@ -26984,7 +26984,7 @@ nativeKeyEvent
 mClass
 =
 =
-NS_KEY_EVENT
+eKeyboardEventClass
 "
 wrong
 type

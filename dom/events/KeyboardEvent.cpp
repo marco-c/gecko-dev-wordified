@@ -182,7 +182,7 @@ mEvent
 mClass
 =
 =
-NS_KEY_EVENT
+eKeyboardEventClass
 "
 event
 type

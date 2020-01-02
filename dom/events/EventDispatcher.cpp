@@ -4126,7 +4126,7 @@ AsScrollAreaEvent
 )
 ;
 case
-NS_KEY_EVENT
+eKeyboardEventClass
 :
 return
 NS_NewDOMKeyboardEvent

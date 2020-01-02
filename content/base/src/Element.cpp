@@ -9815,7 +9815,7 @@ aSourceEvent
 mClass
 =
 =
-NS_KEY_EVENT
+eKeyboardEventClass
 )
 {
 inputSource

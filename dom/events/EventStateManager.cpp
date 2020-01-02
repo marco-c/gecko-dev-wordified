@@ -3121,7 +3121,7 @@ aEvent
 mClass
 =
 =
-NS_KEY_EVENT
+eKeyboardEventClass
 )
 )
 {
@@ -6527,7 +6527,7 @@ AsMouseEvent
 ;
 }
 case
-NS_KEY_EVENT
+eKeyboardEventClass
 :
 {
 return
@@ -6924,7 +6924,7 @@ mClass
 )
 {
 case
-NS_KEY_EVENT
+eKeyboardEventClass
 :
 case
 NS_WHEEL_EVENT
