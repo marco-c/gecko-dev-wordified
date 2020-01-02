@@ -212,6 +212,9 @@ class
 nsPIDOMWindow
 ;
 class
+nsIDOMMozMobileMessageManager
+;
+class
 nsIDOMNavigatorSystemMessages
 ;
 class
@@ -1106,7 +1109,7 @@ ErrorResult
 aRv
 )
 ;
-MobileMessageManager
+nsIDOMMozMobileMessageManager
 *
 GetMozMobileMessage
 (
