@@ -175,10 +175,7 @@ LayoutHelpers
 "
 ]
 ;
-this
-.
-LayoutHelpers
-=
+let
 LayoutHelpers
 =
 function
@@ -214,6 +211,12 @@ nsIDocShell
 )
 ;
 }
+;
+this
+.
+LayoutHelpers
+=
+LayoutHelpers
 ;
 LayoutHelpers
 .
