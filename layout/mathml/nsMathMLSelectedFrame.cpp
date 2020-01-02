@@ -637,11 +637,6 @@ nsReflowStatus
 aStatus
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 aStatus
 =
 NS_FRAME_COMPLETE
@@ -706,8 +701,6 @@ childFrame
 availSize
 )
 ;
-rv
-=
 ReflowChild
 (
 childFrame
@@ -750,7 +743,7 @@ aDesiredSize
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 /

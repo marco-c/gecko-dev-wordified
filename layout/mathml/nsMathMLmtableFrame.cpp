@@ -3563,9 +3563,6 @@ nsReflowStatus
 aStatus
 )
 {
-nsresult
-rv
-;
 nsAutoString
 value
 ;
@@ -3585,8 +3582,6 @@ to
 the
 align
 attribute
-rv
-=
 nsTableOuterFrame
 :
 :
@@ -4291,7 +4286,7 @@ aDesiredSize
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 nsIFrame
@@ -5503,9 +5498,6 @@ class
 do
 the
 reflow
-nsresult
-rv
-=
 nsBlockFrame
 :
 :
@@ -5537,7 +5529,7 @@ later
 .
 .
 return
-rv
+NS_OK
 ;
 }
 const
