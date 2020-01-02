@@ -1082,6 +1082,10 @@ CUSTOM_OP
 (
 NewArray
 )
+UNSAFE_OP
+(
+NewArrayCopyOnWrite
+)
 CUSTOM_OP
 (
 NewObject
@@ -1736,6 +1740,10 @@ safe
 UNSAFE_OP
 (
 ConvertElementsToDoubles
+)
+UNSAFE_OP
+(
+MaybeCopyElementsForWrite
 )
 }
 ;

@@ -539,6 +539,11 @@ NewArray
 \
 _
 (
+NewArrayCopyOnWrite
+)
+\
+_
+(
 NewObject
 )
 \
@@ -675,6 +680,11 @@ ConvertElementsToDoubles
 _
 (
 MaybeToDoubleElement
+)
+\
+_
+(
+MaybeCopyElementsForWrite
 )
 \
 _

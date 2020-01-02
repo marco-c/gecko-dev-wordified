@@ -8987,7 +8987,10 @@ toObjectOrNull
 )
 ;
 }
-void
+gc
+:
+:
+Cell
 *
 toGCThing
 (
