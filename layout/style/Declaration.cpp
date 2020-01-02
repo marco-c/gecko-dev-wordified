@@ -9004,6 +9004,7 @@ default
 :
 MOZ_ASSERT
 (
+false
 "
 unexpected
 aType
