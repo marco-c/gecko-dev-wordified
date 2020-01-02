@@ -4668,10 +4668,10 @@ getLoadedTestURL
 (
 )
 "
-ERROR
+FAIL
 "
 "
-OK
+PASS
 "
 "
 finished
