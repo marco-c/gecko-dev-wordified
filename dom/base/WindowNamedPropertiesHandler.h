@@ -201,7 +201,7 @@ false
 }
 virtual
 bool
-getOwnPropertyDescriptor
+getOwnPropDescriptor
 (
 JSContext
 *
@@ -223,6 +223,12 @@ Handle
 jsid
 >
 aId
+bool
+/
+*
+unused
+*
+/
 JS
 :
 :
