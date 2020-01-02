@@ -745,7 +745,7 @@ quoteChar
 static
 *
 /
-void
+bool
 nsStyleUtil
 :
 :
@@ -940,6 +940,7 @@ in
 end
 )
 return
+true
 ;
 /
 /
@@ -1189,6 +1190,18 @@ in
 if
 (
 ch
+=
+=
+0x00
+)
+{
+return
+false
+;
+}
+if
+(
+ch
 <
 0x20
 |
@@ -1354,6 +1367,9 @@ ch
 ;
 }
 }
+return
+true
+;
 }
 /
 *
