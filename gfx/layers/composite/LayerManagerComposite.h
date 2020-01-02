@@ -1530,6 +1530,9 @@ TextRenderer
 >
 mTextRenderer
 ;
+bool
+mGeometryChanged
+;
 }
 ;
 /

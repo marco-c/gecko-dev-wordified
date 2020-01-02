@@ -500,6 +500,8 @@ gfx
 Matrix
 &
 aGLWorldTransform
+bool
+aGeometryChanged
 )
 MOZ_OVERRIDE
 ;
@@ -574,6 +576,13 @@ HwcLayer
 layer
 hwc_rect_t
 srcCrop
+)
+;
+void
+setHwcGeometry
+(
+bool
+aGeometryChanged
 )
 ;
 HwcDevice

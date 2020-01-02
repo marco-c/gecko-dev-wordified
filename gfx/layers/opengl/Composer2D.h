@@ -404,6 +404,8 @@ gfx
 Matrix
 &
 aWorldTransform
+bool
+aGeometryChanged
 )
 =
 0

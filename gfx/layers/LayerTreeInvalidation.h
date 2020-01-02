@@ -357,6 +357,11 @@ Layer
 aRoot
 NotifySubDocInvalidationFunc
 aCallback
+bool
+*
+aGeometryChanged
+=
+nullptr
 )
 =
 0
