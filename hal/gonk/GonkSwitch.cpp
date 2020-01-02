@@ -410,6 +410,10 @@ SwitchHandler
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+SwitchHandler
+)
 SwitchHandler
 (
 const
@@ -1179,6 +1183,10 @@ SwitchEventObserver
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+SwitchEventObserver
+)
 SwitchEventObserver
 (
 )

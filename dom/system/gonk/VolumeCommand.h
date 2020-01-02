@@ -357,6 +357,10 @@ VolumeResponseCallback
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+VolumeResponseCallback
+)
 VolumeResponseCallback
 (
 )
@@ -898,6 +902,10 @@ VolumeCommand
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+VolumeCommand
+)
 VolumeCommand
 (
 VolumeResponseCallback

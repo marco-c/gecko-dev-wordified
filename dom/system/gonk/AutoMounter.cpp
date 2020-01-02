@@ -1460,6 +1460,10 @@ AutoMounter
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+AutoMounter
+)
 typedef
 nsTArray
 <
@@ -4923,6 +4927,10 @@ UsbCableObserver
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+UsbCableObserver
+)
 UsbCableObserver
 (
 )
