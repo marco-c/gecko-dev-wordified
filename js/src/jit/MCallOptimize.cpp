@@ -1785,6 +1785,9 @@ New
 alloc
 (
 )
+constraints
+(
+)
 initLength
 templateObject
 templateObject
@@ -3564,6 +3567,9 @@ MArrayConcat
 New
 (
 alloc
+(
+)
+constraints
 (
 )
 callInfo
@@ -6718,6 +6724,9 @@ MStringSplit
 New
 (
 alloc
+(
+)
+constraints
 (
 )
 callInfo
