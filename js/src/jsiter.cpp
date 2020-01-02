@@ -8149,8 +8149,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_StopIteration
 )
-|
-JSCLASS_FREEZE_PROTO
 JS_PropertyStub
 /
 *
