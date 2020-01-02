@@ -10346,9 +10346,6 @@ with
 Firefox
 Accounts
 .
-#
-ifdef
-MOZ_SERVICES_FXACCOUNTS
 pref
 (
 "
@@ -10375,8 +10372,6 @@ enabled
 true
 )
 ;
-#
-endif
 /
 /
 Mobile
