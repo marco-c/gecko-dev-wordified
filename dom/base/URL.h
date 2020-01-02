@@ -593,6 +593,12 @@ URLSearchParamsUpdated
 )
 MOZ_OVERRIDE
 ;
+void
+URLSearchParamsNeedsUpdates
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 nsIURI
@@ -618,11 +624,6 @@ const
 nsAString
 &
 aSearch
-)
-;
-void
-UpdateURLSearchParams
-(
 )
 ;
 static
