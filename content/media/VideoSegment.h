@@ -599,6 +599,10 @@ const
 IntSize
 &
 aIntrinsicSize
+bool
+aForceBlack
+=
+false
 )
 ;
 const

@@ -275,6 +275,8 @@ const
 IntSize
 &
 aIntrinsicSize
+bool
+aForceBlack
 )
 {
 VideoChunk
@@ -294,6 +296,13 @@ ThebesIntSize
 (
 aIntrinsicSize
 )
+)
+;
+frame
+.
+SetForceBlack
+(
+aForceBlack
 )
 ;
 chunk
