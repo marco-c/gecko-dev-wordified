@@ -2252,6 +2252,12 @@ finish
 return
 ;
 }
+PopupNotifications
+.
+transitionsEnabled
+=
+false
+;
 registerCleanupFunction
 (
 cleanUp
@@ -2504,6 +2510,12 @@ cleanup
 resetState
 (
 )
+;
+PopupNotifications
+.
+transitionsEnabled
+=
+true
 ;
 for
 (

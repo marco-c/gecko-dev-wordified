@@ -80,6 +80,12 @@ waitForExplicitFinish
 (
 )
 ;
+PopupNotifications
+.
+transitionsEnabled
+=
+false
+;
 /
 /
 We
@@ -438,6 +444,12 @@ testPageURL
 indexedDB
 "
 )
+;
+PopupNotifications
+.
+transitionsEnabled
+=
+true
 ;
 executeSoon
 (

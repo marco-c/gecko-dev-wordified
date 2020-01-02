@@ -103,6 +103,12 @@ requestLongerTimeout
 10
 )
 ;
+PopupNotifications
+.
+transitionsEnabled
+=
+false
+;
 removePermission
 (
 testPageURL
@@ -300,6 +306,12 @@ unregisterAllPopupEventHandlers
 addMoreTest1Count
 =
 seenPopupCount
+;
+PopupNotifications
+.
+transitionsEnabled
+=
+true
 ;
 executeSoon
 (

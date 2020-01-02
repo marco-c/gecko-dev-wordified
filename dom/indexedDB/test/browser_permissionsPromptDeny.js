@@ -87,6 +87,12 @@ want
 the
 prompt
 .
+PopupNotifications
+.
+transitionsEnabled
+=
+false
+;
 setPermission
 (
 testPageURL
@@ -463,6 +469,12 @@ gBrowser
 removeCurrentTab
 (
 )
+;
+PopupNotifications
+.
+transitionsEnabled
+=
+true
 ;
 executeSoon
 (

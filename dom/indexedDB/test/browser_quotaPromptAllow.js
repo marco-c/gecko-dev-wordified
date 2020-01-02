@@ -103,6 +103,12 @@ requestLongerTimeout
 10
 )
 ;
+PopupNotifications
+.
+transitionsEnabled
+=
+false
+;
 removePermission
 (
 testPageURL
@@ -731,6 +737,12 @@ indexedDB
 warningQuota
 "
 )
+;
+PopupNotifications
+.
+transitionsEnabled
+=
+true
 ;
 executeSoon
 (
