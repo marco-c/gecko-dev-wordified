@@ -2970,6 +2970,11 @@ setEditorLocation
 (
 aSourceURL
 aSourceLine
+{
+noDebug
+:
+true
+}
 )
 ;
 return
