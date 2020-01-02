@@ -9700,6 +9700,7 @@ false
 ;
 if
 (
+!
 extensible
 &
 &
