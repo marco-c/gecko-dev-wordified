@@ -354,7 +354,7 @@ void
 GetSupportedNames
 (
 unsigned
-flags
+aFlags
 nsTArray
 <
 nsString
@@ -362,8 +362,7 @@ nsString
 &
 aNames
 )
-{
-}
+;
 bool
 NameIsEnumerable
 (
