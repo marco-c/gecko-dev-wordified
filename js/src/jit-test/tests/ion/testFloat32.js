@@ -1115,7 +1115,7 @@ refuseAbs
 )
 ;
 function
-acceptTrigo
+refuseTrigo
 (
 )
 {
@@ -1142,7 +1142,7 @@ res
 assertFloat32
 (
 res
-true
+false
 )
 ;
 var
@@ -1168,7 +1168,7 @@ res
 assertFloat32
 (
 res
-true
+false
 )
 ;
 var
@@ -1194,7 +1194,7 @@ res
 assertFloat32
 (
 res
-true
+false
 )
 ;
 var
@@ -1220,7 +1220,7 @@ res
 assertFloat32
 (
 res
-true
+false
 )
 ;
 var
@@ -1246,7 +1246,7 @@ res
 assertFloat32
 (
 res
-true
+false
 )
 ;
 res
@@ -1271,13 +1271,13 @@ res
 assertFloat32
 (
 res
-true
+false
 )
 ;
 }
 test
 (
-acceptTrigo
+refuseTrigo
 )
 ;
 function
@@ -1922,7 +1922,7 @@ fround
 (
 Math
 .
-cos
+sqrt
 (
 y
 )
@@ -2080,7 +2080,7 @@ fround
 (
 Math
 .
-cos
+sqrt
 (
 y
 )
