@@ -609,7 +609,7 @@ cpp
 JS
 :
 :
-ExposeGCThingToActiveJS
+ExposeObjectToActiveJS
 (
 p
 -
@@ -619,7 +619,6 @@ value
 )
 .
 closure
-JSTRACE_OBJECT
 )
 ;
 *
@@ -932,10 +931,9 @@ cpp
 JS
 :
 :
-ExposeGCThingToActiveJS
+ExposeObjectToActiveJS
 (
 closure
-JSTRACE_OBJECT
 )
 ;
 /
