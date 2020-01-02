@@ -287,9 +287,9 @@ script
 bool
 init
 (
-JSContext
-*
-cx
+GSNCache
+&
+gsn
 )
 ;
 BytecodeInfo

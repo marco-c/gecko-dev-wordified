@@ -259,9 +259,9 @@ BytecodeAnalysis
 :
 init
 (
-JSContext
-*
-cx
+GSNCache
+&
+gsn
 )
 {
 if
@@ -853,9 +853,9 @@ jssrcnote
 *
 sn
 =
-js_GetSrcNote
+GetSrcNote
 (
-cx
+gsn
 script_
 pc
 )
