@@ -142,6 +142,9 @@ js
 namespace
 jit
 {
+class
+MDefinition
+;
 static
 MOZ_CONSTEXPR_VAR
 Register
