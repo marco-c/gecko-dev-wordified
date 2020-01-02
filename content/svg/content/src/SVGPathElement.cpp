@@ -2541,8 +2541,14 @@ mStrokeLinecap
 ;
 strokeWidth
 =
+SVGContentUtils
+:
+:
 GetStrokeWidth
 (
+this
+styleContext
+nullptr
 )
 ;
 }
