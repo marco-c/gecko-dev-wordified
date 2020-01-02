@@ -279,6 +279,11 @@ NS_EVENT_CLASS
 Widget
 WheelEvent
 )
+NS_EVENT_CLASS
+(
+Widget
+PointerEvent
+)
 /
 /
 TouchEvents
