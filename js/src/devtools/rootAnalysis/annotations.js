@@ -1748,5 +1748,17 @@ test
 (
 name
 )
+|
+|
+/
+:
+:
+AutoAssertNoGC
+/
+.
+test
+(
+name
+)
 ;
 }
