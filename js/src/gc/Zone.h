@@ -2116,6 +2116,7 @@ nullptr
 }
 public
 :
+explicit
 CompartmentsInZoneIter
 (
 JS
@@ -2286,6 +2287,7 @@ comp
 ;
 public
 :
+explicit
 CompartmentsIterT
 (
 JSRuntime
