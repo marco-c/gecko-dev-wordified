@@ -8098,12 +8098,7 @@ p
 >
 MaybeReject
 (
-NS_LITERAL_STRING
-(
-"
-Abnormal
-"
-)
+NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
