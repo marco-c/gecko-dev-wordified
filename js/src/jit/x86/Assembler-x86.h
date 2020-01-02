@@ -2407,9 +2407,7 @@ kind
 void
 cmpl
 (
-const
 AsmJSAbsoluteAddress
-&
 lhs
 Register
 rhs

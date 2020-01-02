@@ -9711,9 +9711,7 @@ MacroAssemblerMIPSCompat
 :
 movePtr
 (
-const
 AsmJSImmPtr
-&
 imm
 Register
 dest
@@ -10070,9 +10068,7 @@ MacroAssemblerMIPSCompat
 :
 loadPtr
 (
-const
 AsmJSAbsoluteAddress
-&
 address
 Register
 dest
