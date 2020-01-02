@@ -1827,6 +1827,14 @@ ins
 )
 ;
 bool
+visitHasClass
+(
+MHasClass
+*
+ins
+)
+;
+bool
 visitAsmJSLoadGlobalVar
 (
 MAsmJSLoadGlobalVar

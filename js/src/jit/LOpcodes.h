@@ -1458,6 +1458,11 @@ HaveSameClass
 \
 _
 (
+HasClass
+)
+\
+_
+(
 AsmJSLoadHeap
 )
 \
