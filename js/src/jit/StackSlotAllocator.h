@@ -351,6 +351,12 @@ case
 LDefinition
 :
 :
+INT32
+:
+case
+LDefinition
+:
+:
 FLOAT32
 :
 return
@@ -479,6 +485,12 @@ SLOTS
 :
 #
 endif
+case
+LDefinition
+:
+:
+INT32
+:
 case
 LDefinition
 :
