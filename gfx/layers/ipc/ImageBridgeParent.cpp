@@ -1209,11 +1209,11 @@ protocolId
 )
 =
 =
+unsigned
 (
-int
-)
 GetProtocolId
 (
+)
 )
 )
 {
