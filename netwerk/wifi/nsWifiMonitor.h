@@ -174,9 +174,13 @@ h
 #
 ifdef
 XP_WIN
-class
-WinWifiScanner
-;
+#
+include
+"
+win_wifiScanner
+.
+h
+"
 #
 endif
 #
