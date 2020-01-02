@@ -394,7 +394,11 @@ to
 .
 try
 {
-LocaleManager
+BrowserLocaleManager
+.
+getInstance
+(
+)
 .
 correctLocale
 (
@@ -425,7 +429,7 @@ have
 no
 ContextGetter
 in
-LocaleManager
+BrowserLocaleManager
 .
 Log
 .
