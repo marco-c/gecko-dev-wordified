@@ -486,7 +486,7 @@ equals
 (
 VisibilityTransition
 .
-ANIMATE
+IMMEDIATE
 )
 ;
 if
