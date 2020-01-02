@@ -315,6 +315,8 @@ finish
 (
 )
 ;
+return
+;
 }
 EventUtils
 .
