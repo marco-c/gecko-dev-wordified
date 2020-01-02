@@ -2428,7 +2428,10 @@ nsIntSize
 aWidth
 aHeight
 )
-gfxImageFormatRGB16_565
+gfxImageFormat
+:
+:
+RGB16_565
 )
 ;
 if

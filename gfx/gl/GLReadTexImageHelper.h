@@ -316,7 +316,10 @@ as
 the
 format
 a
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 surface
 is
 returned
@@ -335,7 +338,10 @@ as
 the
 format
 a
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 surface
 is
 returned
@@ -349,7 +355,10 @@ as
 the
 format
 a
-gfxImageFormatA8
+gfxImageFormat
+:
+:
+A8
 surface
 is
 returned

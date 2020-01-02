@@ -874,7 +874,10 @@ return
 CreateOptimalSurface
 (
 aSize
-gfxImageFormatA8
+gfxImageFormat
+:
+:
+A8
 )
 ;
 }

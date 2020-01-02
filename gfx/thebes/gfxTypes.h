@@ -357,10 +357,11 @@ opaque
 .
 *
 /
-enum
+MOZ_BEGIN_ENUM_CLASS
+(
 gfxImageFormat
-{
-gfxImageFormatARGB32
+)
+ARGB32
 /
 /
 /
@@ -373,7 +374,7 @@ endianness
 using
 premultiplied
 alpha
-gfxImageFormatRGB24
+RGB24
 /
 /
 /
@@ -383,7 +384,7 @@ data
 in
 native
 endianness
-gfxImageFormatA8
+A8
 /
 /
 /
@@ -392,7 +393,7 @@ Only
 an
 alpha
 channel
-gfxImageFormatA1
+A1
 /
 /
 /
@@ -408,7 +409,7 @@ to
 8
 pixels
 )
-gfxImageFormatRGB16_565
+RGB16_565
 /
 /
 /
@@ -418,9 +419,11 @@ data
 in
 native
 endianness
-gfxImageFormatUnknown
-}
-;
+Unknown
+MOZ_END_ENUM_CLASS
+(
+gfxImageFormat
+)
 enum
 gfxSurfaceType
 {

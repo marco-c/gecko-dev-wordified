@@ -734,7 +734,10 @@ Format
 )
 {
 case
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 :
 format
 =
@@ -753,7 +756,10 @@ AppendInt
 break
 ;
 case
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 :
 format
 =

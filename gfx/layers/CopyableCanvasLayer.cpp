@@ -801,9 +801,15 @@ GetContentFlags
 CONTENT_OPAQUE
 )
 ?
-gfxImageFormatRGB24
+gfxImageFormat
 :
-gfxImageFormatARGB32
+:
+RGB24
+:
+gfxImageFormat
+:
+:
+ARGB32
 ;
 if
 (

@@ -2554,7 +2554,10 @@ gfxXlibSurface
 FindVisual
 (
 visualScreen
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 if
@@ -2627,7 +2630,10 @@ gfxXlibSurface
 FindVisual
 (
 screen
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 )
 ;
 if
@@ -3874,7 +3880,10 @@ CopyXlibSurfaceToImage
 (
 tempXlibSurface
 size
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 cairo_t
@@ -3940,7 +3949,10 @@ CopyXlibSurfaceToImage
 (
 tempXlibSurface
 size
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 )
 ;
 if

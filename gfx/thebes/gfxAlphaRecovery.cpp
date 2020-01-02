@@ -168,7 +168,10 @@ Format
 )
 !
 =
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 &
 &
 blackSurf
@@ -179,7 +182,10 @@ Format
 )
 !
 =
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 )
 |
 |
@@ -192,7 +198,10 @@ Format
 )
 !
 =
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 &
 &
 whiteSurf
@@ -203,7 +212,10 @@ Format
 )
 !
 =
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 )
 )
 return

@@ -1249,7 +1249,10 @@ aSize
 .
 height
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 if

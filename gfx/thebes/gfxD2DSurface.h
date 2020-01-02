@@ -148,7 +148,10 @@ size
 gfxImageFormat
 imageFormat
 =
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 )
 ;
 gfxD2DSurface

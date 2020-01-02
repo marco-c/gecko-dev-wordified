@@ -742,7 +742,10 @@ here
 gfxImageFormat
 format
 =
-gfxImageFormatRGB16_565
+gfxImageFormat
+:
+:
+RGB16_565
 ;
 int
 bytesPerPixel

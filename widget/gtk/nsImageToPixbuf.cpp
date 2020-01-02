@@ -940,7 +940,10 @@ gfxIntSize
 aWidth
 aHeight
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 if

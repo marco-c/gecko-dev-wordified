@@ -3022,7 +3022,10 @@ This
 function
 will
 return
-gfxImageFormatUnknown
+gfxImageFormat
+:
+:
+Unknown
 only
 if
 |

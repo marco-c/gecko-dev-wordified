@@ -9991,9 +9991,15 @@ bufH
 stride
 is24bit
 ?
-gfxImageFormatRGB24
+gfxImageFormat
 :
-gfxImageFormatRGB16_565
+:
+RGB24
+:
+gfxImageFormat
+:
+:
+RGB16_565
 )
 ;
 if

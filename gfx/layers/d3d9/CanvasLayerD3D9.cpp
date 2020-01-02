@@ -871,7 +871,10 @@ Format
 )
 !
 =
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 &
 &
 sourceSurface
@@ -882,7 +885,10 @@ Format
 )
 !
 =
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 )
 {
 return
@@ -905,7 +911,10 @@ mBounds
 .
 height
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 nsRefPtr
@@ -978,7 +987,10 @@ Format
 )
 !
 =
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 {
 mHasAlpha

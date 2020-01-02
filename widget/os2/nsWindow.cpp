@@ -12939,7 +12939,10 @@ if
 format
 =
 =
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 {
 /

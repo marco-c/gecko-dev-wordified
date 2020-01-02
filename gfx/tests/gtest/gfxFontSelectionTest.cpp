@@ -947,7 +947,10 @@ gfxASurface
 :
 ContentFromFormat
 (
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 )
 )
 ;

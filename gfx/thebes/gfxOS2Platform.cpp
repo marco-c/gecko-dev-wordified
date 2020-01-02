@@ -513,7 +513,10 @@ aImageFormat
 =
 0
 or
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 but
 /
 /

@@ -582,7 +582,10 @@ gfxASurface
 :
 ContentFromFormat
 (
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 )
 ;

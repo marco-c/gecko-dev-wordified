@@ -22416,7 +22416,10 @@ gfxIntSize
 w
 h
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 false
 )
 ;

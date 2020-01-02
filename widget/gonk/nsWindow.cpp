@@ -1048,7 +1048,10 @@ gfxIntSize
 1
 1
 )
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 )
 ;
 }
@@ -3049,7 +3052,10 @@ gfxIntSize
 5
 5
 )
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 )
 ;
 }

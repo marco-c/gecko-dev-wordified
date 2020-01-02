@@ -803,7 +803,10 @@ gfxIntSize
 bmWidth
 bmHeight
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 if

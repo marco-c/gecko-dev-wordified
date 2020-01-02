@@ -1277,7 +1277,10 @@ height
 map
 .
 RowPitch
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 nsRefPtr

@@ -689,7 +689,10 @@ if
 format
 =
 =
-gfxImageFormatA8
+gfxImageFormat
+:
+:
+A8
 )
 {
 memset

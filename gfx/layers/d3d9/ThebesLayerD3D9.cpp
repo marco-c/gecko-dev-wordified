@@ -2736,7 +2736,10 @@ bounds
 .
 height
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 /
@@ -3423,7 +3426,10 @@ Size
 r
 .
 Pitch
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 if

@@ -190,7 +190,10 @@ the
 source
 is
 not
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 no
 operation
 is
@@ -805,7 +808,10 @@ will
 be
 set
 to
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 *
 if
 the

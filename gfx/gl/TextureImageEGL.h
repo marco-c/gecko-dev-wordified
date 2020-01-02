@@ -152,7 +152,10 @@ TextureImage
 ImageFormat
 aImageFormat
 =
-gfxImageFormatUnknown
+gfxImageFormat
+:
+:
+Unknown
 )
 ;
 virtual

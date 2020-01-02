@@ -532,7 +532,10 @@ mBlur
 GetStride
 (
 )
-gfxImageFormatA8
+gfxImageFormat
+:
+:
+A8
 )
 ;
 dt

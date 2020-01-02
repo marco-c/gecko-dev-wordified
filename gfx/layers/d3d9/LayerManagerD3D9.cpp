@@ -1826,7 +1826,10 @@ Height
 rect
 .
 Pitch
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 mTarget

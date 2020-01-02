@@ -603,7 +603,10 @@ B8G8R8X8
 ;
 imageFormat
 =
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 ;
 }
 else
@@ -620,7 +623,10 @@ B8G8R8A8
 ;
 imageFormat
 =
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 ;
 }
 /

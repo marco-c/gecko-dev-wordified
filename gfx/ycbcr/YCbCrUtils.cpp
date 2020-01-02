@@ -783,7 +783,10 @@ else
 aDestFormat
 !
 =
-gfxImageFormatRGB16_565
+gfxImageFormat
+:
+:
+RGB16_565
 #
 endif
 ConvertYCbCrToRGB32

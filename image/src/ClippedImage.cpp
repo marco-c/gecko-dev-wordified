@@ -1528,7 +1528,10 @@ imageRect
 imageRect
 imageRect
 imageRect
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 GraphicsFilter
 :
 :
@@ -2043,7 +2046,10 @@ subimage
 sourceRect
 imageRect
 aFill
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 aFilter
 )
 ;

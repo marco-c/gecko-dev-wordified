@@ -29577,7 +29577,10 @@ pixelArea
 .
 height
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 if
@@ -55237,7 +55240,10 @@ gfxIntSize
 width
 height
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 nsRefPtr
@@ -55278,7 +55284,10 @@ gfxASurface
 :
 ContentFromFormat
 (
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 )
 ;

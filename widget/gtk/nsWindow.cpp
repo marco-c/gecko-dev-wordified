@@ -12508,7 +12508,10 @@ aBoundsRect
 Size
 (
 )
-gfxImageFormatA8
+gfxImageFormat
+:
+:
+A8
 )
 ;
 if

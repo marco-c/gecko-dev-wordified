@@ -763,7 +763,10 @@ ThebesIntSize
 (
 mSize
 )
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 )
 ;
 if

@@ -363,6 +363,9 @@ cairo_win32_surface_create_with_dib
 (
 cairo_format_t
 )
+(
+int
+)
 imageFormat
 size
 .
@@ -480,6 +483,9 @@ dc
 (
 cairo_format_t
 )
+(
+int
+)
 imageFormat
 size
 .
@@ -520,7 +526,10 @@ bytesPerPixel
 imageFormat
 =
 =
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 )
 ?
 3
@@ -847,8 +856,12 @@ surface
 =
 cairo_win32_surface_create_with_dib
 (
-cairo_format_t
 (
+cairo_format_t
+)
+(
+int
+)
 gfxPlatform
 :
 :
@@ -860,7 +873,6 @@ GetPlatform
 OptimalFormatForContent
 (
 aContent
-)
 )
 aSize
 .
