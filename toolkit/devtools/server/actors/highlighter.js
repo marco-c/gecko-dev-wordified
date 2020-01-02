@@ -708,6 +708,9 @@ options
 {
 if
 (
+node
+&
+&
 this
 .
 _isNodeValidForHighlighting
@@ -2894,7 +2897,6 @@ this
 .
 currentNodeObserver
 =
-new
 win
 .
 MutationObserver
