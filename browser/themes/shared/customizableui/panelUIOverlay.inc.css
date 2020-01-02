@@ -1828,6 +1828,13 @@ customizationmode
 -
 button
 :
+not
+(
+[
+disabled
+]
+)
+:
 hover
 :
 active
