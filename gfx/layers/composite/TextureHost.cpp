@@ -3644,6 +3644,15 @@ AsHostOGL
 (
 )
 ;
+if
+(
+!
+hostOGL
+)
+{
+return
+;
+}
 android
 :
 :
