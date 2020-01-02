@@ -1110,6 +1110,16 @@ _imageDocument
 =
 null
 ;
+this
+.
+_browser
+.
+_mayEnableCharacterEncodingMenu
+=
+json
+.
+mayEnableCharacterEncodingMenu
+;
 }
 this
 .
