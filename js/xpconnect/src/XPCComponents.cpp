@@ -20533,7 +20533,7 @@ NewFunctionForwarder
 (
 cx
 obj
-false
+true
 &
 functionValue
 )
