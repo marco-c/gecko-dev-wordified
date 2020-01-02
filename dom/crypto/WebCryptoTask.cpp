@@ -1568,7 +1568,7 @@ MOZ_OVERRIDE
 {
 TypedArrayCreator
 <
-Uint8Array
+ArrayBuffer
 >
 ret
 (
@@ -5004,7 +5004,7 @@ computed
 MAC
 TypedArrayCreator
 <
-Uint8Array
+ArrayBuffer
 >
 ret
 (
@@ -5652,7 +5652,7 @@ mSign
 {
 TypedArrayCreator
 <
-Uint8Array
+ArrayBuffer
 >
 ret
 (
@@ -8891,7 +8891,7 @@ return
 }
 TypedArrayCreator
 <
-Uint8Array
+ArrayBuffer
 >
 ret
 (
