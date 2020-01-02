@@ -9000,11 +9000,12 @@ asyncGetBookmarkIds
 this
 .
 _uri
-function
 (
 aItemIds
 aURI
 )
+=
+>
 {
 /
 /
@@ -9186,7 +9187,6 @@ this
 _pendingStmt
 ;
 }
-this
 )
 ;
 }
