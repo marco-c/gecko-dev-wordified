@@ -2820,6 +2820,8 @@ FramebufferTexture2D
 (
 LOCAL_GL_FRAMEBUFFER
 LOCAL_GL_COLOR_ATTACHMENT0
++
+i
 LOCAL_GL_TEXTURE_2D
 nullptr
 0
@@ -2943,7 +2945,7 @@ if
 (
 mColorAttachments
 [
-0
+i
 ]
 .
 Renderbuffer
@@ -2958,6 +2960,8 @@ FramebufferRenderbuffer
 (
 LOCAL_GL_FRAMEBUFFER
 LOCAL_GL_COLOR_ATTACHMENT0
++
+i
 LOCAL_GL_RENDERBUFFER
 nullptr
 )
