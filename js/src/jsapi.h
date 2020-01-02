@@ -14017,6 +14017,9 @@ char
 *
 name
 ;
+int8_t
+tinyid
+;
 uint8_t
 flags
 ;
@@ -14353,6 +14356,7 @@ flags
 \
 {
 name
+0
 \
 uint8_t
 (
@@ -14389,6 +14393,7 @@ flags
 \
 {
 name
+0
 \
 uint8_t
 (
@@ -14431,6 +14436,7 @@ flags
 \
 {
 name
+0
 \
 uint8_t
 (
@@ -14469,6 +14475,7 @@ flags
 \
 {
 name
+0
 \
 uint8_t
 (
@@ -14510,7 +14517,8 @@ JSJitInfo
 define
 JS_PS_END
 {
-nullptr
+0
+0
 0
 JSOP_NULLWRAPPER
 JSOP_NULLWRAPPER
