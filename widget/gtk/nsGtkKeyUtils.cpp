@@ -6128,13 +6128,13 @@ enough
 )
 aKeyEvent
 .
-pluginEvent
-=
+mPluginEvent
+.
+Copy
 (
-void
 *
-)
 aGdkKeyEvent
+)
 ;
 aKeyEvent
 .

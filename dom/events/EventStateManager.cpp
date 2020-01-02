@@ -22133,12 +22133,12 @@ pressure
 aNewEvent
 -
 >
-pluginEvent
+mPluginEvent
 =
 aMouseEvent
 -
 >
-pluginEvent
+mPluginEvent
 ;
 aNewEvent
 -

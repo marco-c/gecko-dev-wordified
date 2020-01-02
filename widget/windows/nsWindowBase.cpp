@@ -244,10 +244,12 @@ lParam
 ;
 pluginEvent
 .
-pluginEvent
-=
-&
+mPluginEvent
+.
+Copy
+(
 npEvent
+)
 ;
 pluginEvent
 .
