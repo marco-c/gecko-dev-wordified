@@ -4826,8 +4826,6 @@ it
 *
 /
 virtual
-NS_HIDDEN_
-(
 already_AddRefed
 <
 mozilla
@@ -4835,7 +4833,6 @@ mozilla
 :
 SelectionCarets
 >
-)
 GetSelectionCarets
 (
 )
@@ -4862,8 +4859,6 @@ presshell
 *
 /
 virtual
-NS_HIDDEN_
-(
 mozilla
 :
 :
@@ -4872,7 +4867,6 @@ dom
 :
 Element
 *
-)
 GetSelectionCaretsStartElement
 (
 )
@@ -4899,8 +4893,6 @@ presshell
 *
 /
 virtual
-NS_HIDDEN_
-(
 mozilla
 :
 :
@@ -4909,7 +4901,6 @@ dom
 :
 Element
 *
-)
 GetSelectionCaretsEndElement
 (
 )
