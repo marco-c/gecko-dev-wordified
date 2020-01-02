@@ -4434,6 +4434,9 @@ mtransport
 datachannel
 :
 5
+nsThreadManager
+:
+5
 '
 )
   
