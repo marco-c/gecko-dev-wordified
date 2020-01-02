@@ -1379,7 +1379,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 name
 numBuf
@@ -1866,7 +1866,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_CHAR
 format
 )
@@ -2022,7 +2022,7 @@ ok
 obj
 !
 =
-NULL
+nullptr
 )
 ;
 break
@@ -2047,7 +2047,7 @@ ok
 str
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -2133,7 +2133,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_TYPE
 numBuf
 )
@@ -2913,7 +2913,7 @@ unsigned
 JSTYPE_LIMIT
 )
 return
-NULL
+nullptr
 ;
 return
 TypeStrings
@@ -3998,7 +3998,7 @@ if
 rt
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4018,7 +4018,7 @@ rt
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -4096,7 +4096,7 @@ context
 =
 *
 /
-NULL
+nullptr
 allocFn
 reallocFn
 freeFn
@@ -4883,14 +4883,14 @@ JSVERSION_DEFAULT
 }
 {
 JSVERSION_UNKNOWN
-NULL
+nullptr
 }
 /
 *
 must
 be
 last
-NULL
+nullptr
 is
 sentinel
 *
@@ -7962,9 +7962,9 @@ Type
 #
 endif
 {
-NULL
+nullptr
 0
-NULL
+nullptr
 }
 }
 ;
@@ -8516,9 +8516,9 @@ class_
 #
 endif
 {
-NULL
+nullptr
 0
-NULL
+nullptr
 }
 }
 ;
@@ -8731,9 +8731,9 @@ class_
 #
 endif
 {
-NULL
+nullptr
 0
-NULL
+nullptr
 }
 }
 ;
@@ -8942,7 +8942,7 @@ atoms
 /
 stdnm
 =
-NULL
+nullptr
 ;
 for
 (
@@ -9950,7 +9950,7 @@ compartment
 )
 )
 return
-NULL
+nullptr
 ;
 return
 cx
@@ -10274,7 +10274,7 @@ if
 p
 )
 return
-NULL
+nullptr
 ;
 return
 static_cast
@@ -10324,7 +10324,7 @@ AddValueRoot
 (
 cx
 vp
-NULL
+nullptr
 )
 ;
 }
@@ -10358,7 +10358,7 @@ AddStringRoot
 (
 cx
 rp
-NULL
+nullptr
 )
 ;
 }
@@ -10392,7 +10392,7 @@ AddObjectRoot
 (
 cx
 rp
-NULL
+nullptr
 )
 ;
 }
@@ -11456,7 +11456,7 @@ node
 >
 next
 =
-NULL
+nullptr
 ;
 node
 -
@@ -11672,7 +11672,7 @@ MAX_PARENTS_TO_PRINT
 ;
 prev
 =
-NULL
+nullptr
 ;
 for
 (
@@ -12022,13 +12022,13 @@ dtrc
 .
 parentNode
 =
-NULL
+nullptr
 ;
 JSHeapDumpNode
 *
 node
 =
-NULL
+nullptr
 ;
 dtrc
 .
@@ -12148,7 +12148,7 @@ if
 thingToFind
 =
 =
-NULL
+nullptr
 |
 |
 thingToFind
@@ -12214,7 +12214,7 @@ node
 ;
 children
 =
-NULL
+nullptr
 ;
 dtrc
 .
@@ -12258,7 +12258,7 @@ if
 children
 !
 =
-NULL
+nullptr
 )
 {
 +
@@ -14034,7 +14034,7 @@ JS_ASSERT
 obj
 !
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -14672,7 +14672,7 @@ argv
 )
 )
 return
-NULL
+nullptr
 ;
 return
 obj
@@ -14985,7 +14985,7 @@ cval
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -15001,7 +15001,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NO_CONSTRUCTOR
 proto
 -
@@ -15015,7 +15015,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -15334,7 +15334,7 @@ FreshZone
 )
 zone
 =
-NULL
+nullptr
 ;
 else
 zone
@@ -15370,7 +15370,7 @@ if
 compartment
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -15475,7 +15475,7 @@ if
 global
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -17171,7 +17171,7 @@ foundp
 prop
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -17744,7 +17744,7 @@ ret
 .
 info
 =
-NULL
+nullptr
 ;
 return
 ret
@@ -17771,7 +17771,7 @@ ret
 .
 info
 =
-NULL
+nullptr
 ;
 return
 ret
@@ -18132,7 +18132,7 @@ cx
 JSPROP_GETTER
 &
 getter
-NULL
+nullptr
 )
 ;
 RootedObject
@@ -18240,7 +18240,7 @@ JSObject
 getter
 )
 :
-NULL
+nullptr
 (
 attrs
 &
@@ -18254,7 +18254,7 @@ JSObject
 setter
 )
 :
-NULL
+nullptr
 )
 ;
 JSAutoResolveFlags
@@ -19157,7 +19157,7 @@ if
 nobj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -19174,11 +19174,11 @@ nobj
 )
 GetterWrapper
 (
-NULL
+nullptr
 )
 SetterWrapper
 (
-NULL
+nullptr
 )
 attrs
 0
@@ -19187,7 +19187,7 @@ attrs
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -19240,7 +19240,7 @@ noget
 =
 GetterWrapper
 (
-NULL
+nullptr
 )
 ;
 JSStrictPropertyOpWrapper
@@ -19248,7 +19248,7 @@ noset
 =
 SetterWrapper
 (
-NULL
+nullptr
 )
 ;
 for
@@ -19715,7 +19715,7 @@ getter
 )
 =
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -19727,7 +19727,7 @@ setter
 )
 =
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -21261,7 +21261,7 @@ shape
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 JS_PUBLIC_API
@@ -21664,7 +21664,7 @@ ida
 )
 )
 return
-NULL
+nullptr
 ;
 return
 ida
@@ -22045,25 +22045,25 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 prop_iter_finalize
-NULL
+nullptr
 /
 *
 checkAccess
 *
 /
-NULL
+nullptr
 /
 *
 call
 *
 /
-NULL
+nullptr
 /
 *
 hasInstance
 *
 /
-NULL
+nullptr
 /
 *
 construct
@@ -22119,7 +22119,7 @@ NewObjectWithClassProto
 cx
 &
 prop_iter_class
-NULL
+nullptr
 obj
 )
 )
@@ -22130,7 +22130,7 @@ if
 iterobj
 )
 return
-NULL
+nullptr
 ;
 int
 index
@@ -22215,7 +22215,7 @@ if
 ida
 )
 return
-NULL
+nullptr
 ;
 iterobj
 -
@@ -23144,7 +23144,7 @@ rt
 >
 securityCallbacks
 :
-NULL
+nullptr
 ;
 }
 JS_PUBLIC_API
@@ -23306,7 +23306,7 @@ if
 atom
 )
 return
-NULL
+nullptr
 ;
 }
 JSFunction
@@ -23700,7 +23700,7 @@ funobj
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -23779,7 +23779,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -23836,12 +23836,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_CLONE_FUNOBJ_SCOPE
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -23858,12 +23858,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_CLONE_OBJECT
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -23891,12 +23891,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_CLONE_OBJECT
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -24174,7 +24174,7 @@ js_fun_bind
 cx
 target
 thisArg
-NULL
+nullptr
 0
 )
 ;
@@ -24784,7 +24784,7 @@ by
 passing
 DefineFunction
 a
-NULL
+nullptr
 JSNative
 which
 *
@@ -25004,8 +25004,8 @@ cx
 obj
 id
 funVal
-NULL
-NULL
+nullptr
+nullptr
 flags
 )
 )
@@ -25163,7 +25163,7 @@ if
 atom
 )
 return
-NULL
+nullptr
 ;
 Rooted
 <
@@ -25286,7 +25286,7 @@ if
 atom
 )
 return
-NULL
+nullptr
 ;
 Rooted
 <
@@ -25734,7 +25734,7 @@ AutoFile
 :
 fp_
 (
-NULL
+nullptr
 )
 {
 }
@@ -25831,7 +25831,7 @@ Supports
 -
 "
 and
-NULL
+nullptr
 to
 mean
 stdin
@@ -25910,7 +25910,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_OPEN
 filename
 "
@@ -25948,11 +25948,11 @@ version
 :
 principals_
 (
-NULL
+nullptr
 )
 originPrincipals_
 (
-NULL
+nullptr
 )
 version
 (
@@ -25980,11 +25980,11 @@ false
 )
 filename
 (
-NULL
+nullptr
 )
 sourceMapURL
 (
-NULL
+nullptr
 )
 lineno
 (
@@ -26276,7 +26276,7 @@ if
 chars
 )
 return
-NULL
+nullptr
 ;
 JSScript
 *
@@ -26336,7 +26336,7 @@ buffer
 )
 )
 return
-NULL
+nullptr
 ;
 JSScript
 *
@@ -26398,7 +26398,7 @@ filename
 )
 )
 return
-NULL
+nullptr
 ;
 options
 =
@@ -26674,7 +26674,7 @@ js
 "
 #
 endif
-NULL
+nullptr
 }
 ;
 const
@@ -27288,8 +27288,8 @@ foldConstants
 *
 /
 true
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 older
@@ -27297,7 +27297,7 @@ older
 JS_SetErrorReporter
 (
 cx
-NULL
+nullptr
 )
 ;
 if
@@ -27548,7 +27548,7 @@ if
 funAtom
 )
 return
-NULL
+nullptr
 ;
 }
 AutoNameVector
@@ -27614,7 +27614,7 @@ asPropertyName
 )
 )
 return
-NULL
+nullptr
 ;
 }
 RootedFunction
@@ -27627,7 +27627,7 @@ cx
 NullPtr
 (
 )
-NULL
+nullptr
 0
 JSFunction
 :
@@ -27649,7 +27649,7 @@ if
 fun
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -27669,7 +27669,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -27715,13 +27715,13 @@ cx
 obj
 id
 value
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
 return
-NULL
+nullptr
 ;
 }
 return
@@ -27810,7 +27810,7 @@ if
 chars
 )
 return
-NULL
+nullptr
 ;
 JSFunction
 *
@@ -28190,7 +28190,7 @@ haveSource
 )
 )
 return
-NULL
+nullptr
 ;
 return
 haveSource
@@ -28834,7 +28834,7 @@ NullPtr
 options
 chars
 length
-NULL
+nullptr
 0
 &
 sct
@@ -28970,7 +28970,7 @@ LARGE_SCRIPT_LENGTH
 {
 script
 =
-NULL
+nullptr
 ;
 PrepareZoneForGC
 (
@@ -30314,7 +30314,7 @@ argc
 )
 )
 return
-NULL
+nullptr
 ;
 args
 .
@@ -30357,7 +30357,7 @@ args
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -30423,7 +30423,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_NEW_RESULT
 bytes
 .
@@ -30434,7 +30434,7 @@ ptr
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 return
@@ -30841,7 +30841,7 @@ if
 js
 )
 return
-NULL
+nullptr
 ;
 str
 =
@@ -31471,7 +31471,7 @@ if
 flat
 )
 return
-NULL
+nullptr
 ;
 *
 plength
@@ -31551,7 +31551,7 @@ if
 linear
 )
 return
-NULL
+nullptr
 ;
 *
 plength
@@ -31604,7 +31604,7 @@ str
 >
 ensureFlat
 (
-NULL
+nullptr
 )
 ;
 if
@@ -31613,7 +31613,7 @@ if
 flat
 )
 return
-NULL
+nullptr
 ;
 return
 flat
@@ -31664,7 +31664,7 @@ str
 >
 ensureFlat
 (
-NULL
+nullptr
 )
 ;
 if
@@ -31673,7 +31673,7 @@ if
 flat
 )
 return
-NULL
+nullptr
 ;
 *
 plength
@@ -31744,7 +31744,7 @@ if
 flat
 )
 return
-NULL
+nullptr
 ;
 return
 flat
@@ -32013,7 +32013,7 @@ str
 >
 ensureLinear
 (
-NULL
+nullptr
 )
 ;
 return
@@ -32182,7 +32182,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BUFFER_TOO_SMALL
 )
 ;
@@ -32249,7 +32249,7 @@ if
 linear
 )
 return
-NULL
+nullptr
 ;
 return
 LossyTwoByteCharsToNewLatin1CharsZ
@@ -32311,7 +32311,7 @@ if
 linear
 )
 return
-NULL
+nullptr
 ;
 return
 TwoByteCharsToNewUTF8CharsZ
@@ -32460,7 +32460,7 @@ str
 >
 getChars
 (
-NULL
+nullptr
 )
 ;
 if
@@ -32479,7 +32479,7 @@ if
 (
 DeflateStringToBuffer
 (
-NULL
+nullptr
 chars
 str
 -
@@ -33701,7 +33701,7 @@ if
 chars
 )
 return
-NULL
+nullptr
 ;
 RegExpStatics
 *
@@ -33738,7 +33738,7 @@ RegExpFlag
 (
 flags
 )
-NULL
+nullptr
 )
 ;
 js_free
@@ -33813,7 +33813,7 @@ RegExpFlag
 (
 flags
 )
-NULL
+nullptr
 )
 ;
 }
@@ -34050,7 +34050,7 @@ if
 chars
 )
 return
-NULL
+nullptr
 ;
 RegExpObject
 *
@@ -34068,7 +34068,7 @@ RegExpFlag
 (
 flags
 )
-NULL
+nullptr
 )
 ;
 js_free
@@ -34122,7 +34122,7 @@ RegExpFlag
 (
 flags
 )
-NULL
+nullptr
 )
 ;
 }
@@ -34165,7 +34165,7 @@ return
 ExecuteRegExpLegacy
 (
 cx
-NULL
+nullptr
 obj
 -
 >
@@ -35086,8 +35086,8 @@ js_ErrorToException
 cx
 message
 reportp
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -35798,7 +35798,7 @@ script
 .
 set
 (
-NULL
+nullptr
 )
 ;
 if
@@ -36151,7 +36151,7 @@ script
 )
 )
 return
-NULL
+nullptr
 ;
 return
 encoder
@@ -36204,7 +36204,7 @@ funobj
 )
 )
 return
-NULL
+nullptr
 ;
 return
 encoder
@@ -36267,7 +36267,7 @@ script
 )
 )
 return
-NULL
+nullptr
 ;
 return
 script
@@ -36325,7 +36325,7 @@ funobj
 )
 )
 return
-NULL
+nullptr
 ;
 return
 funobj
@@ -36467,7 +36467,7 @@ if
 linear
 )
 return
-NULL
+nullptr
 ;
 mBytes
 =

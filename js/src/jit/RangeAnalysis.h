@@ -2027,11 +2027,11 @@ e
 :
 symbolicLower_
 (
-NULL
+nullptr
 )
 symbolicUpper_
 (
-NULL
+nullptr
 )
 {
 rawInitialize

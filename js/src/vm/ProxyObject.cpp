@@ -369,7 +369,7 @@ protoObj
 )
 )
 return
-NULL
+nullptr
 ;
 }
 NewObjectKind
@@ -457,7 +457,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 Rooted
 <

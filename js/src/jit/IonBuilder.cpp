@@ -52296,7 +52296,7 @@ so
 propSet
 cannot
 be
-NULL
+nullptr
 .
 while
 (

@@ -424,7 +424,7 @@ p
 =
 onOutOfMemory
 (
-NULL
+nullptr
 bytes
 )
 ;
@@ -461,7 +461,7 @@ p
 =
 onOutOfMemory
 (
-NULL
+nullptr
 bytes
 )
 ;

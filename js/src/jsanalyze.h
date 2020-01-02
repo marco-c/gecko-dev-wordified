@@ -1951,7 +1951,7 @@ next
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 /
