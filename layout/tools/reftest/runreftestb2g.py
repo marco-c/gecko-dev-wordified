@@ -3715,21 +3715,6 @@ False
 prefs
 [
 "
-browser
-.
-tabs
-.
-remote
-.
-autostart
-"
-]
-=
-True
-        
-prefs
-[
-"
 dom
 .
 ipc
@@ -3821,7 +3806,7 @@ enabled
 "
 ]
 =
-True
+False
         
 prefs
 [
