@@ -1916,10 +1916,6 @@ GLuint
 >
 mTextures
 ;
-static
-bool
-sDrawFPS
-;
 /
 *
 *
