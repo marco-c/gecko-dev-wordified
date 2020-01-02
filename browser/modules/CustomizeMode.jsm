@@ -2880,9 +2880,10 @@ this
 .
 visiblePalette
 .
-appendChild
+insertBefore
 (
 draggedWrapper
+targetNode
 )
 ;
 return
