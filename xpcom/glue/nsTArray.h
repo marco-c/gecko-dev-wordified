@@ -12242,7 +12242,7 @@ buffer
 nsAutoArrayBase
 (
 const
-TArrayBase
+self_type
 &
 aOther
 )
