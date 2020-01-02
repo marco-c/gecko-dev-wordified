@@ -132,21 +132,6 @@ kwargs
         
 process_args
 =
-kwargs
-.
-get
-(
-'
-process_args
-'
-{
-}
-)
-        
-process_args
-.
-update
-(
 {
 '
 stream
@@ -155,7 +140,7 @@ stream
 sys
 .
 stdout
-                              
+                        
 '
 processOutputLine
 '
@@ -163,7 +148,7 @@ processOutputLine
 self
 .
 on_output
-                              
+                        
 '
 onTimeout
 '
@@ -171,6 +156,22 @@ onTimeout
 self
 .
 on_timeout
+}
+        
+process_args
+.
+update
+(
+kwargs
+.
+get
+(
+'
+process_args
+'
+)
+or
+{
 }
 )
         
