@@ -378,7 +378,7 @@ break
 ;
 }
 case
-NS_SCROLLPORT_EVENT
+eScrollPortEventClass
 :
 {
 InternalScrollPortEvent

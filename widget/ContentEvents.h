@@ -377,7 +377,7 @@ WidgetGUIEvent
 aIsTrusted
 aMessage
 aWidget
-NS_SCROLLPORT_EVENT
+eScrollPortEventClass
 )
 orient
 (
@@ -399,7 +399,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_SCROLLPORT_EVENT
+eScrollPortEventClass
 "
 Duplicate
 (

@@ -441,7 +441,7 @@ WidgetTouchEvent
 ContentEvents
 .
 h
-NS_SCROLLPORT_EVENT
+eScrollPortEventClass
 /
 /
 InternalScrollPortEvent

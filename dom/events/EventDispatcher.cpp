@@ -4089,7 +4089,7 @@ case
 eGUIEventClass
 :
 case
-NS_SCROLLPORT_EVENT
+eScrollPortEventClass
 :
 case
 eUIEventClass
