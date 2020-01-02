@@ -1041,7 +1041,15 @@ bsearch
 (
 evalHost
 kPublicKeyPinningPreloadList
-kPublicKeyPinningPreloadListLength
+sizeof
+(
+kPublicKeyPinningPreloadList
+)
+/
+sizeof
+(
+TransportSecurityPreload
+)
 sizeof
 (
 TransportSecurityPreload
