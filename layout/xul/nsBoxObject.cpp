@@ -893,7 +893,7 @@ docElement
 mContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 -

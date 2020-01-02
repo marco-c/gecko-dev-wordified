@@ -9890,7 +9890,7 @@ doc
 mContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

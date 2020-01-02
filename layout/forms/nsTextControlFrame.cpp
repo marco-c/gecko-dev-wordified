@@ -3778,7 +3778,7 @@ GetContent
 )
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

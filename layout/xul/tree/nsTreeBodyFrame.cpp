@@ -15031,7 +15031,7 @@ GetContent
 )
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 -
@@ -16898,7 +16898,7 @@ GetContent
 )
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 -
