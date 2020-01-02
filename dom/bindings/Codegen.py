@@ -29919,7 +29919,7 @@ members
 typeName
 =
 "
-detail
+dictionary_detail
 :
 :
 Fast
@@ -72839,7 +72839,7 @@ build
 (
 [
 '
-detail
+dictionary_detail
 '
 ]
                                          
