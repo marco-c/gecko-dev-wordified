@@ -400,7 +400,7 @@ know
 as
 /
 /
-nsStyleAnimation
+StyleAnimationValue
 does
 )
 that
@@ -1314,7 +1314,7 @@ GetPercentValue
 ;
 aMatrix
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 InterpolateTransformMatrix
@@ -3642,7 +3642,7 @@ pixels
 as
 /
 /
-nsStyleAnimation
+StyleAnimationValue
 does
 )
 .

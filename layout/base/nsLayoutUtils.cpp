@@ -2163,10 +2163,7 @@ gfxSize
 GetScaleForValue
 (
 const
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 &
 aValue
 nsIFrame
@@ -2204,7 +2201,7 @@ GetUnit
 )
 !
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 eUnit_Transform

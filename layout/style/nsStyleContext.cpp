@@ -5495,10 +5495,7 @@ aProperty
 nsStyleContext
 *
 aStyleContext
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 &
 aResult
 )
@@ -5509,7 +5506,7 @@ bool
 >
 success
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 ExtractComputedValue
@@ -5528,7 +5525,7 @@ must
 be
 extractable
 by
-nsStyleAnimation
+StyleAnimationValue
 "
 )
 ;
@@ -5544,10 +5541,7 @@ nsStyleContext
 aStyleContext
 )
 {
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 val
 ;
 ExtractAnimationValue
@@ -5576,10 +5570,7 @@ nsStyleContext
 aStyleContext
 )
 {
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 val
 ;
 ExtractAnimationValue
@@ -5598,7 +5589,7 @@ GetUnit
 )
 =
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 eUnit_Color

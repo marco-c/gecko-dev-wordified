@@ -2626,10 +2626,7 @@ particular
 the
 /
 /
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 values
 in
 AnimationPropertySegment
@@ -4122,10 +4119,7 @@ nsStyleContext
 aToContext
 )
 {
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 fromValue
 toValue
 dummyValue
@@ -4187,7 +4181,7 @@ now
 .
 )
 !
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 Interpolate

@@ -403,10 +403,10 @@ in
 a
 row
 .
-nsStyleAnimation
+mozilla
 :
 :
-Value
+StyleAnimationValue
 mStartForReversingTest
 ;
 /

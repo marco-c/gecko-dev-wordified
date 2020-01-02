@@ -380,10 +380,7 @@ they
 are
 in
 an
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 )
 *
 /

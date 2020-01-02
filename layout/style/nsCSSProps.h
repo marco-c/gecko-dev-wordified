@@ -1919,7 +1919,7 @@ implementation
 in
 /
 /
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 ExtractComputedValue

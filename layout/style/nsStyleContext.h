@@ -2278,7 +2278,7 @@ color
 valued
 property
 that
-nsStyleAnimation
+StyleAnimationValue
 *
 knows
 how

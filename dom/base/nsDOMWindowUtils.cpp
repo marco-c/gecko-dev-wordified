@@ -12539,10 +12539,7 @@ const
 nsAString
 &
 aInput
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 &
 aOutput
 )
@@ -12550,7 +12547,7 @@ aOutput
 if
 (
 !
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 ComputeValue
@@ -12585,7 +12582,7 @@ aProperty
 eCSSProperty_visibility
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aOutput
 .
@@ -12594,7 +12591,7 @@ GetUnit
 )
 =
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 eUnit_Enumerated
@@ -12613,7 +12610,7 @@ aOutput
 GetIntValue
 (
 )
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 eUnit_Visibility
@@ -13352,10 +13349,7 @@ shorthand
 "
 )
 ;
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 v1
 v2
 ;
@@ -13404,7 +13398,7 @@ NS_ERROR_ILLEGAL_VALUE
 if
 (
 !
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 ComputeDistance
