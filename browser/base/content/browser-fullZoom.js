@@ -2331,7 +2331,7 @@ browser
 -
 fullZoom
 :
-reset
+zoomReset
 "
 "
 "
