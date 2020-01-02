@@ -184,7 +184,7 @@ class
 HTMLImageElement
 ;
 class
-OwningNodeListOrElement
+OwningRadioNodeListOrElement
 ;
 template
 <
@@ -265,7 +265,7 @@ bool
 aFound
 Nullable
 <
-OwningNodeListOrElement
+OwningRadioNodeListOrElement
 >
 &
 aResult
@@ -280,7 +280,7 @@ nsAString
 aName
 Nullable
 <
-OwningNodeListOrElement
+OwningRadioNodeListOrElement
 >
 &
 aResult
