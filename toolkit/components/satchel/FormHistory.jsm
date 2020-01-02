@@ -4992,6 +4992,13 @@ this
 FormHistory
 =
 {
+get
+enabled
+(
+)
+Prefs
+.
+enabled
 search
 :
 function
