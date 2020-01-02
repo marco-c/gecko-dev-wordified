@@ -225,11 +225,17 @@ LOGTAG
 GeckoButtonToast
 "
 ;
-private
-final
+public
 static
 int
-TOAST_DURATION
+LENGTH_SHORT
+=
+3000
+;
+public
+static
+int
+LENGTH_LONG
 =
 5000
 ;
@@ -296,6 +302,11 @@ CharSequence
 message
 ;
 public
+final
+int
+duration
+;
+public
 ToastListener
 listener
 ;
@@ -304,6 +315,8 @@ Toast
 (
 CharSequence
 aMessage
+int
+aDuration
 CharSequence
 aButtonMessage
 Drawable
@@ -315,6 +328,10 @@ aListener
 message
 =
 aMessage
+;
+duration
+=
+aDuration
 ;
 buttonMessage
 =
@@ -472,6 +489,8 @@ boolean
 immediate
 CharSequence
 message
+int
+duration
 CharSequence
 buttonMessage
 int
@@ -503,6 +522,7 @@ show
 (
 false
 message
+duration
 buttonMessage
 d
 listener
@@ -517,6 +537,8 @@ boolean
 immediate
 CharSequence
 message
+int
+duration
 CharSequence
 buttonMessage
 Drawable
@@ -531,6 +553,7 @@ new
 Toast
 (
 message
+duration
 buttonMessage
 buttonDrawable
 listener
@@ -690,7 +713,9 @@ mHideHandler
 postDelayed
 (
 mHideRunnable
-TOAST_DURATION
+t
+.
+duration
 )
 ;
 mView
