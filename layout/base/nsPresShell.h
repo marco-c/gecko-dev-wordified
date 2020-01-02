@@ -3324,7 +3324,7 @@ already_AddRefed
 <
 nsIPresShell
 >
-GetParentPresShell
+GetParentPresShellForEventHandling
 (
 )
 ;
