@@ -3060,9 +3060,9 @@ js
 :
 MarkInterpreterActivations
 (
-JSRuntime
+PerThreadData
 *
-rt
+ptd
 JSTracer
 *
 trc
@@ -3073,7 +3073,7 @@ for
 ActivationIterator
 iter
 (
-rt
+ptd
 )
 ;
 !
