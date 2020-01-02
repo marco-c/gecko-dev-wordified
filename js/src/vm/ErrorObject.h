@@ -566,6 +566,15 @@ toPrivate
 )
 ;
 }
+JSErrorReport
+*
+getOrCreateErrorReport
+(
+JSContext
+*
+cx
+)
+;
 JSString
 *
 fileName
