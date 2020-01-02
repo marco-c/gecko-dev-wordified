@@ -1587,6 +1587,10 @@ MOZ_FINAL
 public
 OMXCodecWrapper
 {
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+OMXVideoEncoder
+)
 public
 :
 /
