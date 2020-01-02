@@ -547,9 +547,6 @@ PathLength
 float
 GetTotalLength
 (
-ErrorResult
-&
-rv
 )
 ;
 already_AddRefed
