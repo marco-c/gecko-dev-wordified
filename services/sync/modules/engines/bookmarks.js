@@ -2845,6 +2845,7 @@ function
 for
 each
 (
+let
 [
 query
 stmt
