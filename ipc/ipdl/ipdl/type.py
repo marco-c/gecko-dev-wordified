@@ -1995,9 +1995,8 @@ self
 .
 managers
 =
-set
-(
-)
+[
+]
 #
 ProtocolType
         
@@ -2089,7 +2088,7 @@ self
 .
 managers
 .
-add
+append
 (
 mgrtype
 )
@@ -2166,7 +2165,10 @@ self
 .
 managers
 =
+list
+(
 mgr
+)
     
 def
 toplevel
