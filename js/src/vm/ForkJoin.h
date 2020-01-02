@@ -3063,7 +3063,7 @@ Interrupt
 /
 /
 /
-\
+|
 /
 /
 Unsupported
