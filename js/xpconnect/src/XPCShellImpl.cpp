@@ -2062,6 +2062,11 @@ ptr
 )
 1
 )
+.
+setCompileAndGo
+(
+true
+)
 ;
 JS
 :
@@ -5661,6 +5666,11 @@ setFileAndLine
 filename
 1
 )
+.
+setCompileAndGo
+(
+true
+)
 ;
 if
 (
@@ -5902,6 +5912,11 @@ setFileAndLine
 typein
 "
 startline
+)
+.
+setCompileAndGo
+(
+true
 )
 ;
 if
