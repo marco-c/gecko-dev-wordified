@@ -4361,9 +4361,6 @@ relocations_
 CompactBufferWriter
 preBarriers_
 ;
-bool
-enoughMemory_
-;
 MIPSBuffer
 m_buffer
 ;
@@ -4373,10 +4370,6 @@ Assembler
 (
 )
 :
-enoughMemory_
-(
-true
-)
 m_buffer
 (
 )

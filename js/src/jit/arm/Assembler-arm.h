@@ -7386,9 +7386,6 @@ relocations_
 CompactBufferWriter
 preBarriers_
 ;
-bool
-enoughMemory_
-;
 /
 /
 typedef
@@ -7570,10 +7567,6 @@ Assembler
 (
 )
 :
-enoughMemory_
-(
-true
-)
 m_buffer
 (
 4
