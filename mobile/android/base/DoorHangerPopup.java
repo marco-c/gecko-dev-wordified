@@ -1695,7 +1695,6 @@ thread
 .
 *
 /
-private
 void
 updatePopup
 (
@@ -1912,7 +1911,7 @@ isShowing
 )
 )
 {
-update
+show
 (
 )
 ;
