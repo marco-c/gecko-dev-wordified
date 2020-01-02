@@ -9303,9 +9303,7 @@ else
                 
 relpath
 =
-os
-.
-path
+mozpath
 .
 relpath
 (
