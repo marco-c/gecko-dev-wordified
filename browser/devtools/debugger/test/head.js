@@ -712,7 +712,7 @@ promise
 .
 resolve
 (
-getDOMWindow
+getChromeWindow
 (
 window
 .
@@ -725,13 +725,13 @@ aUrl
 ;
 }
 function
-getDOMWindow
+getChromeWindow
 (
-aReference
+aWindow
 )
 {
 return
-aReference
+aWindow
 .
 QueryInterface
 (
