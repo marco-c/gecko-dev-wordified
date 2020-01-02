@@ -4122,7 +4122,7 @@ dom
 :
 BarProp
 *
-Scrollbars
+GetScrollbars
 (
 )
 ;

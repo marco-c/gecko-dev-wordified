@@ -12594,7 +12594,7 @@ scrollbars
 window
 -
 >
-Scrollbars
+GetScrollbars
 (
 )
 ;
