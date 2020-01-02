@@ -266,13 +266,13 @@ to
 handle
 any
 new
-lists
+panels
 that
 are
 added
 after
 the
-lists
+panels
 have
 been
 loaded
@@ -286,7 +286,7 @@ getEventDispatcher
 registerEventListener
 (
 "
-HomeLists
+HomePanels
 :
 Added
 "
@@ -528,7 +528,7 @@ panelInfos
 Listens
 for
 "
-HomeLists
+HomePanels
 :
 Added
 "
