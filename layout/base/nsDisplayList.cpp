@@ -8685,6 +8685,7 @@ aCtx
 uint32_t
 aFlags
 )
+const
 {
 PROFILER_LABEL
 (
@@ -8777,6 +8778,7 @@ aForFrame
 uint32_t
 aFlags
 )
+const
 {
 NS_ASSERTION
 (
@@ -9206,6 +9208,7 @@ aBuilder
 layerManager
 aForFrame
 nullptr
+*
 this
 containerParameters
 nullptr
@@ -21046,7 +21049,6 @@ aBuilder
 aManager
 mFrame
 this
-&
 mList
 aContainerParameters
 nullptr
@@ -21936,7 +21938,6 @@ aBuilder
 aManager
 mFrame
 this
-&
 mList
 newContainerParameters
 nullptr
@@ -22408,7 +22409,6 @@ aBuilder
 aManager
 mFrame
 this
-&
 mList
 newContainerParameters
 nullptr
@@ -22670,7 +22670,6 @@ aBuilder
 aManager
 mFrame
 this
-&
 mList
 aContainerParameters
 nullptr
@@ -24425,7 +24424,6 @@ aBuilder
 aManager
 mFrame
 this
-&
 mList
 aContainerParameters
 nullptr
@@ -30386,6 +30384,7 @@ aBuilder
 aManager
 mFrame
 this
+*
 mStoredList
 .
 GetChildren
@@ -33809,7 +33808,6 @@ aBuilder
 aManager
 mFrame
 this
-&
 mList
 newContainerParameters
 nullptr

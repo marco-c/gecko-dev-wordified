@@ -11283,6 +11283,7 @@ aCtx
 uint32_t
 aFlags
 )
+const
 ;
 /
 *
@@ -11326,6 +11327,7 @@ aForFrame
 uint32_t
 aFlags
 )
+const
 ;
 /
 *
