@@ -77,7 +77,7 @@ nsParserBase
 h
 "
 class
-nsHtml5TreeOpExecutor
+nsHtml5OplessBuilder
 ;
 class
 nsHtml5TreeBuilder
@@ -299,7 +299,7 @@ aScriptingEnabledForNoscriptParsing
 ;
 private
 :
-void
+nsresult
 Tokenize
 (
 const
@@ -325,9 +325,9 @@ executor
 /
 nsRefPtr
 <
-nsHtml5TreeOpExecutor
+nsHtml5OplessBuilder
 >
-mExecutor
+mBuilder
 ;
 /
 *
