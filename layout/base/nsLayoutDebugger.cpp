@@ -598,7 +598,7 @@ fName
 ;
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 f
 -
 >
@@ -675,9 +675,6 @@ GetClip
 nsRegion
 opaque
 ;
-#
-ifdef
-DEBUG
 if
 (
 !
@@ -705,8 +702,6 @@ snap
 )
 ;
 }
-#
-endif
 if
 (
 aDumpHtml
