@@ -1373,7 +1373,7 @@ dumpRegisterGroups
 )
 ;
 void
-dumpLiveness
+dumpFixedRanges
 (
 )
 ;
