@@ -239,7 +239,7 @@ cx
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TOO_BIG_TO_ENCODE
 )
 ;
@@ -488,7 +488,7 @@ cx
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_SCRIPT_MAGIC
 )
 ;
@@ -529,7 +529,7 @@ objp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 if
@@ -593,13 +593,13 @@ XDR_DECODE
 {
 script
 =
-NULL
+nullptr
 ;
 scriptp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 }
@@ -684,7 +684,7 @@ cx
 (
 )
 script
-NULL
+nullptr
 )
 ;
 scriptp

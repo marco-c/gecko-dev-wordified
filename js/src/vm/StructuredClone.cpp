@@ -2177,7 +2177,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
 truncated
@@ -3556,7 +3556,7 @@ extractRawBuffer
 )
 !
 =
-NULL
+nullptr
 ;
 }
 JS_STATIC_ASSERT
@@ -4535,7 +4535,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NEED_DIET
 "
 object
@@ -5349,7 +5349,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SC_UNSUPPORTED_TYPE
 )
 ;
@@ -5822,7 +5822,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
 unrecognized
@@ -5866,7 +5866,7 @@ cx
 )
 p
 (
-NULL
+nullptr
 )
 {
 }
@@ -5960,7 +5960,7 @@ forget
 {
 p
 =
-NULL
+nullptr
 ;
 }
 }
@@ -5999,7 +5999,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
 string
@@ -6008,7 +6008,7 @@ length
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 Chars
@@ -6044,7 +6044,7 @@ nchars
 )
 )
 return
-NULL
+nullptr
 ;
 JSString
 *
@@ -6141,7 +6141,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
 unhandled
@@ -6310,7 +6310,7 @@ obj
 context
 (
 )
-NULL
+nullptr
 )
 ;
 switch
@@ -7244,7 +7244,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
 date
@@ -7333,7 +7333,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
 regexp
@@ -7423,7 +7423,7 @@ get
 )
 length
 flags
-NULL
+nullptr
 )
 ;
 if
@@ -7538,7 +7538,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
 invalid
@@ -7591,7 +7591,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
 invalid
@@ -7627,7 +7627,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
 invalid
@@ -7797,7 +7797,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
 unsupported
@@ -8009,7 +8009,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
 id
@@ -8403,7 +8403,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_CLONE_VERSION
 )
 ;
@@ -8829,7 +8829,7 @@ nbytes_
 ;
 data_
 =
-NULL
+nullptr
 ;
 nbytes_
 =
@@ -9006,7 +9006,7 @@ version_
 ;
 data_
 =
-NULL
+nullptr
 ;
 nbytes_
 =
@@ -9173,7 +9173,7 @@ ok
 {
 data_
 =
-NULL
+nullptr
 ;
 nbytes_
 =
@@ -9490,7 +9490,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
 expected

@@ -411,7 +411,7 @@ uint8_t
 *
 contents
 =
-NULL
+nullptr
 )
 ;
 static
@@ -1011,9 +1011,9 @@ by
 GetViewList
 to
 store
+/
+/
 the
-/
-/
 '
 views
 '
@@ -1029,8 +1029,10 @@ initialize
 '
 views
 '
+/
+/
 to
-NULL
+nullptr
 .
 header
 -
@@ -1087,7 +1089,7 @@ uint8_t
 *
 contents
 =
-NULL
+nullptr
 )
 ;
 void
@@ -1982,7 +1984,7 @@ uint32_t
 *
 ip
 =
-NULL
+nullptr
 )
 ;
 void

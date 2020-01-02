@@ -1277,7 +1277,7 @@ numWorkers_
 strtol
 (
 jsthreads
-NULL
+nullptr
 10
 )
 ;

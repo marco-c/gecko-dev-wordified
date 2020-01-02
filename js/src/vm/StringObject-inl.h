@@ -315,7 +315,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 Rooted
 <
@@ -350,7 +350,7 @@ str
 )
 )
 return
-NULL
+nullptr
 ;
 return
 strobj
