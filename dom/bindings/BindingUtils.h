@@ -10206,6 +10206,9 @@ internally
 by
 codegen
 .
+namespace
+binding_detail
+{
 template
 <
 typename
@@ -10274,6 +10277,11 @@ this
 }
 }
 ;
+}
+/
+/
+namespace
+binding_detail
 /
 /
 Class

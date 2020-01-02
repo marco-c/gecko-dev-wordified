@@ -25773,6 +25773,9 @@ else
 sequenceClass
 =
 "
+binding_detail
+:
+:
 AutoSequence
 "
         
@@ -32484,7 +32487,7 @@ members
 typeName
 =
 "
-dictionary_detail
+binding_detail
 :
 :
 Fast
@@ -35249,6 +35252,9 @@ seqType
 CGTemplatedType
 (
 "
+binding_detail
+:
+:
 AutoSequence
 "
                                               
@@ -80221,7 +80227,7 @@ build
 (
 [
 '
-dictionary_detail
+binding_detail
 '
 ]
                                          
