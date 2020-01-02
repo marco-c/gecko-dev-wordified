@@ -69562,7 +69562,6 @@ GetUnit
 eCSSUnit_Enumerated
 &
 &
-!
 values
 [
 1
@@ -69571,7 +69570,7 @@ values
 GetIntValue
 (
 )
-=
+!
 =
 NS_FONT_VARIANT_CAPS_SMALLCAPS
 )
