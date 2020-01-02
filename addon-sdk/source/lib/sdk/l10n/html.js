@@ -389,6 +389,13 @@ replacing
 all
 text
 content
+if
+(
+document
+.
+defaultView
+)
+{
 let
 winUtils
 =
@@ -420,6 +427,7 @@ winUtils
 USER_SHEET
 )
 ;
+}
 }
 catch
 (
