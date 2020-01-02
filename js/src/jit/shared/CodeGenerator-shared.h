@@ -507,7 +507,7 @@ SystemAllocPolicy
 patchableBackedges_
 ;
 #
-if
+ifdef
 JS_TRACE_LOGGING
 js
 :
@@ -3088,7 +3088,7 @@ ool
 0
 ;
 #
-if
+ifdef
 JS_TRACE_LOGGING
 protected
 :

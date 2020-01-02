@@ -213,6 +213,15 @@ ForkJoin
 h
 "
 #
+include
+"
+vm
+/
+TraceLogging
+.
+h
+"
+#
 ifdef
 JSGC_GENERATIONAL
 #
@@ -7570,7 +7579,7 @@ Volatile
 ;
 }
 #
-if
+ifdef
 JS_TRACE_LOGGING
 void
 MacroAssembler

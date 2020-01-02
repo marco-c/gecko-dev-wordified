@@ -208,6 +208,15 @@ h
 #
 include
 "
+vm
+/
+TraceLogging
+.
+h
+"
+#
+include
+"
 jsscriptinlines
 .
 h
@@ -383,7 +392,7 @@ returnLabel_
 )
 ;
 #
-if
+ifdef
 JS_TRACE_LOGGING
 if
 (

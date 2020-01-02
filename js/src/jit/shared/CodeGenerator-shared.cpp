@@ -6726,7 +6726,7 @@ firstIndex
 ;
 }
 #
-if
+ifdef
 JS_TRACE_LOGGING
 bool
 CodeGeneratorShared

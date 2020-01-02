@@ -406,7 +406,7 @@ class
 AutoKeepAtoms
 ;
 #
-if
+ifdef
 JS_TRACE_LOGGING
 class
 TraceLogger
@@ -3108,7 +3108,7 @@ limit
 )
 ;
 #
-if
+ifdef
 JS_TRACE_LOGGING
 TraceLogger
 *

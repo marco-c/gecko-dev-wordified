@@ -183,6 +183,15 @@ h
 #
 include
 "
+vm
+/
+TraceLogging
+.
+h
+"
+#
+include
+"
 jsgcinlines
 .
 h

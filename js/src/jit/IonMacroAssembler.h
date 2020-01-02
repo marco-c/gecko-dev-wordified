@@ -125,13 +125,6 @@ jscompartment
 h
 "
 #
-include
-"
-TraceLogging
-.
-h
-"
-#
 if
 defined
 (
@@ -7532,7 +7525,7 @@ value
 )
 ;
 #
-if
+ifdef
 JS_TRACE_LOGGING
 void
 tracelogStart
