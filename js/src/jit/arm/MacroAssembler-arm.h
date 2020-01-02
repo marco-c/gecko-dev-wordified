@@ -12411,7 +12411,7 @@ as_vmov
 (
 VFPRegister
 (
-src
+dest
 )
 .
 singleOverlay
@@ -12419,7 +12419,7 @@ singleOverlay
 )
 VFPRegister
 (
-dest
+src
 )
 .
 singleOverlay
