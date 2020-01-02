@@ -11255,6 +11255,9 @@ such
 a
 lag
 .
+dom
+:
+:
 TimeRanges
 buffered
 ;
@@ -12934,6 +12937,9 @@ work
 "
 )
 ;
+dom
+:
+:
 TimeRanges
 buffered
 ;
@@ -19347,6 +19353,9 @@ MediaDecoderStateMachine
 :
 GetBuffered
 (
+dom
+:
+:
 TimeRanges
 *
 aBuffered
