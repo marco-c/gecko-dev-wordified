@@ -837,6 +837,16 @@ IsForApp
 (
 )
 ;
+#
+ifdef
+MOZ_NUWA_PROCESS
+bool
+IsNuwaProcess
+(
+)
+;
+#
+endif
 GeckoChildProcessHost
 *
 Process
@@ -3260,6 +3270,9 @@ mSendPermissionUpdates
 ;
 bool
 mIsForBrowser
+;
+bool
+mIsNuwaProcess
 ;
 /
 /
