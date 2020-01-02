@@ -1600,7 +1600,7 @@ internal
 .
 notifyObservers
 (
-ONLOGIN_NOTIFICATION
+ONVERIFIED_NOTIFICATION
 )
 ;
 return
@@ -2465,7 +2465,7 @@ it
 will
 fire
 the
-onlogin
+onverified
 observer
 /
 /
@@ -3392,7 +3392,7 @@ The
 "
 fxaccounts
 :
-onlogin
+onverified
 "
 event
 will
@@ -3401,9 +3401,9 @@ only
 when
 the
 verified
+/
+/
 state
-/
-/
 goes
 from
 false
@@ -3708,6 +3708,13 @@ then
 =
 >
 {
+internal
+.
+notifyObservers
+(
+ONLOGIN_NOTIFICATION
+)
+;
 if
 (
 !

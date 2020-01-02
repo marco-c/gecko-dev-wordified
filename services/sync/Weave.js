@@ -1020,7 +1020,7 @@ the
 '
 fxaccounts
 :
-onlogin
+onverified
 '
 handler
 .
@@ -1213,7 +1213,7 @@ this
 "
 fxaccounts
 :
-onlogin
+onverified
 "
 true
 )
@@ -1498,7 +1498,7 @@ case
 '
 fxaccounts
 :
-onlogin
+onverified
 '
 :
 /

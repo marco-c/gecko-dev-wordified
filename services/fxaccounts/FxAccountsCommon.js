@@ -415,6 +415,16 @@ onlogin
 ;
 this
 .
+ONVERIFIED_NOTIFICATION
+=
+"
+fxaccounts
+:
+onverified
+"
+;
+this
+.
 ONLOGOUT_NOTIFICATION
 =
 "
