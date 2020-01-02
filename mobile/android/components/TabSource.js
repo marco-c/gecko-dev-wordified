@@ -404,15 +404,6 @@ tab
 browser
 .
 contentURI
-&
-&
-tab
-.
-browser
-.
-contentURI
-.
-spec
 )
 label
 =
@@ -430,6 +421,8 @@ label
 tab
 .
 originalURI
+.
+spec
 ;
 return
 {
