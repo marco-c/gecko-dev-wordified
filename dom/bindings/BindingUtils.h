@@ -14373,17 +14373,6 @@ nullptr
 }
 }
 ;
-bool
-ThreadsafeCheckIsChrome
-(
-JSContext
-*
-aCx
-JSObject
-*
-aObj
-)
-;
 /
 *
 *
