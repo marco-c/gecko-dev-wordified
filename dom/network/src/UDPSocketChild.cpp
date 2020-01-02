@@ -932,6 +932,7 @@ else
 {
 MOZ_ASSERT
 (
+false
 "
 Invalid
 callback

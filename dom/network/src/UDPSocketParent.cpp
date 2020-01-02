@@ -345,6 +345,7 @@ default
 impossible
 MOZ_ASSERT
 (
+false
 "
 Unexpected
 address

@@ -2967,6 +2967,7 @@ exceeded
 ;
 MOZ_ASSERT
 (
+false
 "
 Global
 rate
