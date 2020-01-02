@@ -194,6 +194,8 @@ DatasetHandler
 datasetHandler
 OnUrlOpenListener
 urlOpenListener
+ContextMenuRegistry
+contextMenuRegistry
 )
 {
 super
@@ -202,6 +204,7 @@ context
 panelConfig
 datasetHandler
 urlOpenListener
+contextMenuRegistry
 )
 ;
 /
