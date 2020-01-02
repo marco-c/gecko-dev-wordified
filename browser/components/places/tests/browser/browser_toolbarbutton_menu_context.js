@@ -364,11 +364,11 @@ the
 way
 EventUtils
 .
-synthesizeMouse
+synthesizeKey
 (
-dropmarker
-2
-2
+"
+VK_ESCAPE
+"
 {
 }
 )
