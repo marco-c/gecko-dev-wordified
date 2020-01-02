@@ -1616,7 +1616,7 @@ GTEST_CPP_SOURCES
 '
 :
 (
-list
+StrictOrderingOnAppendList
 list
 [
 ]
