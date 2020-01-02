@@ -1207,6 +1207,9 @@ static
 int
 audiounit_uninstall_device_changed_callback
 (
+cubeb_stream
+*
+stm
 )
 {
 OSStatus
@@ -1249,7 +1252,7 @@ id
 datasource_address
 &
 audiounit_property_listener_callback
-NULL
+stm
 )
 ;
 if
@@ -1282,7 +1285,7 @@ kAudioObjectSystemObject
 default_device_address
 &
 audiounit_property_listener_callback
-NULL
+stm
 )
 ;
 if
@@ -2795,6 +2798,7 @@ endif
 }
 audiounit_uninstall_device_changed_callback
 (
+stm
 )
 ;
 r
