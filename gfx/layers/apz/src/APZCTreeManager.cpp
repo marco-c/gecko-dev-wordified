@@ -1590,8 +1590,7 @@ AsyncPanZoomController
 aOutParent
 AsyncPanZoomController
 *
-&
-aOutNextSibling
+aNextSibling
 TreeBuildingState
 &
 aState
@@ -2588,10 +2587,10 @@ of
 APZCs
 if
 (
-aOutNextSibling
+aNextSibling
 )
 {
-aOutNextSibling
+aNextSibling
 -
 >
 SetPrevSibling
