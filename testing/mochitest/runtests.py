@@ -10332,13 +10332,25 @@ in
 line
 :
         
+if
+not
+line
+.
+endswith
+(
+'
+Shutdown
+'
+)
+:
+          
 self
 .
 output_buffer
 =
 [
 ]
-        
+          
 self
 .
 running_test
