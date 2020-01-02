@@ -549,6 +549,13 @@ if
 (
 entry
 .
+isCpp
+(
+)
+&
+&
+entry
+.
 stackAddress
 (
 )
@@ -978,6 +985,15 @@ sampleLabel
 )
 )
 ;
+if
+(
+entry
+.
+isCpp
+(
+)
+)
+{
 lineno
 =
 entry
@@ -986,6 +1002,7 @@ line
 (
 )
 ;
+}
 }
 if
 (
