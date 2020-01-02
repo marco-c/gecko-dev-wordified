@@ -541,7 +541,10 @@ PreallocateAppProcess
 )
 ;
 static
-void
+already_AddRefed
+<
+ContentParent
+>
 RunNuwaProcess
 (
 )
@@ -1148,12 +1151,6 @@ aActor
 )
 ;
 }
-virtual
-bool
-SendNuwaFork
-(
-)
-;
 protected
 :
 void
