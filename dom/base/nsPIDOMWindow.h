@@ -3621,6 +3621,12 @@ _retval
 =
 0
 ;
+/
+/
+Inner
+windows
+only
+.
 void
 AddAudioContext
 (
