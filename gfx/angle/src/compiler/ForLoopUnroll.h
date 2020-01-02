@@ -45,6 +45,12 @@ file
 /
 /
 #
+ifndef
+ForLoopUnroll_h
+#
+define
+ForLoopUnroll_h
+#
 include
 "
 compiler
@@ -226,3 +232,5 @@ mLoopIndexStack
 ;
 }
 ;
+#
+endif
