@@ -2538,10 +2538,13 @@ reg
 {
 JS_ASSERT
 (
+uint32_t
+(
 reg
 .
 code
 (
+)
 )
 <
 MIN_REG_FIELD_ESC
@@ -3350,10 +3353,13 @@ reg
 {
 JS_ASSERT
 (
+uint32_t
+(
 reg
 .
 code
 (
+)
 )
 <
 MIN_REG_FIELD_ESC
