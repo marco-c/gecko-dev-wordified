@@ -9863,6 +9863,15 @@ mWorkerType
 (
 aWorkerType
 )
+mCreationTimeStamp
+(
+TimeStamp
+:
+:
+Now
+(
+)
+)
 {
 SetIsDOMBinding
 (

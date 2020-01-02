@@ -1000,6 +1000,9 @@ mMainThreadObjectsForgotten
 WorkerType
 mWorkerType
 ;
+TimeStamp
+mCreationTimeStamp
+;
 protected
 :
 /
@@ -1882,6 +1885,16 @@ return
 mLoadInfo
 .
 mResolvedScriptURI
+;
+}
+TimeStamp
+CreationTimeStamp
+(
+)
+const
+{
+return
+mCreationTimeStamp
 ;
 }
 nsIPrincipal
