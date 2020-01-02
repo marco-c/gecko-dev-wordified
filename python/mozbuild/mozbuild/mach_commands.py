@@ -8462,6 +8462,28 @@ replace
 "
 )
             
+if
+self
+.
+mozconfig
+[
+'
+configure_args
+'
+]
+and
+\
+                    
+'
+COMM_BUILD
+'
+not
+in
+os
+.
+environ
+:
+                
 print
 (
 '
@@ -8474,7 +8496,7 @@ from
 s
 '
 %
-                
+                    
 mozpath
 .
 normsep
@@ -8492,17 +8514,6 @@ file
 =
 out
 )
-            
-if
-self
-.
-mozconfig
-[
-'
-configure_args
-'
-]
-:
                 
 for
 arg
@@ -8563,7 +8574,7 @@ file
 =
 out
 )
-                
+            
 for
 key
 value
@@ -8586,7 +8597,7 @@ items
 (
 )
 :
-                    
+                
 print
 (
 "
@@ -8611,7 +8622,7 @@ file
 =
 out
 )
-                
+            
 for
 key
 (
@@ -8637,7 +8648,7 @@ items
 (
 )
 :
-                    
+                
 print
 (
 "
@@ -8662,7 +8673,7 @@ file
 =
 out
 )
-                
+            
 for
 key
 value
@@ -8685,7 +8696,7 @@ items
 (
 )
 :
-                    
+                
 print
 (
 "
@@ -8709,7 +8720,7 @@ file
 =
 out
 )
-                
+            
 for
 key
 (
@@ -8735,7 +8746,7 @@ items
 (
 )
 :
-                    
+                
 print
 (
 "
@@ -8759,7 +8770,7 @@ file
 =
 out
 )
-                
+            
 for
 key
 in
@@ -8782,7 +8793,7 @@ keys
 )
 +
 \
-                        
+                    
 self
 .
 mozconfig
@@ -8801,7 +8812,7 @@ keys
 (
 )
 :
-                    
+                
 print
 (
 "
