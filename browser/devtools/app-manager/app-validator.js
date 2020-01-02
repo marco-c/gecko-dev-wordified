@@ -910,8 +910,6 @@ missNameManifestProperty
 )
 )
 ;
-return
-;
 }
 if
 (
