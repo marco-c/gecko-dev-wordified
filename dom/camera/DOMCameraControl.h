@@ -1643,8 +1643,10 @@ mListener
 our
 viewfinder
 stream
+nsRefPtr
+<
 CameraPreviewMediaStream
-*
+>
 mInput
 ;
 /

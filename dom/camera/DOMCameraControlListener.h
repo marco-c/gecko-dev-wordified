@@ -204,6 +204,15 @@ OnShutter
 MOZ_OVERRIDE
 ;
 virtual
+void
+OnRateLimitPreview
+(
+bool
+aLimit
+)
+MOZ_OVERRIDE
+;
+virtual
 bool
 OnNewPreviewFrame
 (

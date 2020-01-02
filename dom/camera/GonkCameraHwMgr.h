@@ -329,6 +329,14 @@ Close
 (
 )
 ;
+virtual
+void
+OnRateLimitPreview
+(
+bool
+aLimit
+)
+;
 /
 /
 derived

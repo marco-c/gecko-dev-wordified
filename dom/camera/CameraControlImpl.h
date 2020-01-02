@@ -434,6 +434,13 @@ nsAString
 aMimeType
 )
 ;
+void
+OnRateLimitPreview
+(
+bool
+aLimit
+)
+;
 bool
 OnNewPreviewFrame
 (

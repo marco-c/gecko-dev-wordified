@@ -686,6 +686,9 @@ int64_t
 >
 mFrameTimes
 ;
+bool
+mRateLimit
+;
 int64_t
 mFirstFrameTimeUs
 ;
