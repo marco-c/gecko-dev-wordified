@@ -410,6 +410,14 @@ lir
 )
 ;
 bool
+visitOsrArgumentsObject
+(
+LOsrArgumentsObject
+*
+lir
+)
+;
+bool
 visitStackArgT
 (
 LStackArgT

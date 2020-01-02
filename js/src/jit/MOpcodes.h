@@ -194,6 +194,11 @@ OsrScopeChain
 \
 _
 (
+OsrArgumentsObject
+)
+\
+_
+(
 ReturnFromCtor
 )
 \
