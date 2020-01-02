@@ -381,6 +381,11 @@ getContentWindow
 )
 )
 ;
+yield
+whenPagesUpdated
+(
+)
+;
 /
 /
 Block
