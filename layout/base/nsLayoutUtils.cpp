@@ -11689,7 +11689,7 @@ aEvent
 mClass
 !
 =
-NS_QUERY_CONTENT_EVENT
+eQueryContentEventClass
 )
 )
 return

@@ -382,7 +382,7 @@ eTextEventClass
 /
 /
 WidgetTextEvent
-NS_QUERY_CONTENT_EVENT
+eQueryContentEventClass
 /
 /
 WidgetQueryContentEvent

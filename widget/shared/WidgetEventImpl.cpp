@@ -612,7 +612,7 @@ return
 mClass
 =
 =
-NS_QUERY_CONTENT_EVENT
+eQueryContentEventClass
 ;
 }
 bool
@@ -1645,7 +1645,7 @@ DOM
 tree
 .
 case
-NS_QUERY_CONTENT_EVENT
+eQueryContentEventClass
 :
 case
 NS_SELECTION_EVENT
