@@ -4890,10 +4890,10 @@ true
 }
 if
 (
-gfxPlatform
+CompositorParent
 :
 :
-UsesOffMainThreadCompositing
+CompositorLoop
 (
 )
 )

@@ -408,6 +408,12 @@ size_t
 size
 )
 ;
+virtual
+bool
+SupportsOffMainThreadCompositing
+(
+)
+;
 /
 /
 read

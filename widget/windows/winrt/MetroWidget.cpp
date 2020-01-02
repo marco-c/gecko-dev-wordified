@@ -5679,10 +5679,11 @@ have
 ICoreWindow
 .
 return
-gfxPlatform
+(
+CompositorParent
 :
 :
-UsesOffMainThreadCompositing
+CompositorLoop
 (
 )
 &
@@ -5691,6 +5692,7 @@ mWindowType
 =
 =
 eWindowType_toplevel
+)
 ;
 }
 bool
@@ -5727,11 +5729,12 @@ false
 ;
 }
 return
+(
 !
-gfxPlatform
+CompositorParent
 :
 :
-UsesOffMainThreadCompositing
+CompositorLoop
 (
 )
 &
@@ -5740,6 +5743,7 @@ mWindowType
 =
 =
 eWindowType_toplevel
+)
 ;
 }
 bool
