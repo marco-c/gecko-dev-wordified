@@ -33084,7 +33084,7 @@ if
 templateType
 -
 >
-hasNewScript
+newScript
 (
 )
 )

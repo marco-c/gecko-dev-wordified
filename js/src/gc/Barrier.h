@@ -6420,7 +6420,7 @@ struct
 TypeObject
 ;
 struct
-TypeObjectAddendum
+TypeNewScript
 ;
 }
 typedef
@@ -6606,10 +6606,10 @@ HeapPtr
 types
 :
 :
-TypeObjectAddendum
+TypeNewScript
 *
 >
-HeapPtrTypeObjectAddendum
+HeapPtrTypeNewScript
 ;
 typedef
 PreBarriered
