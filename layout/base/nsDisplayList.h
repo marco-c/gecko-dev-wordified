@@ -19599,6 +19599,9 @@ GetTransform
 float
 GetHitDepthAtPoint
 (
+nsDisplayListBuilder
+*
+aBuilder
 const
 nsPoint
 &
@@ -19855,6 +19858,9 @@ transform
 bool
 UntransformVisibleRect
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsRect
 *
 aOutRect
