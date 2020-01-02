@@ -2400,6 +2400,9 @@ cx
 )
 ;
 {
+JS
+:
+:
 AutoSaveContextOptions
 asco
 (
@@ -4149,6 +4152,9 @@ argc
 vp
 )
 ;
+JS
+:
+:
 ContextOptions
 oldOptions
 =
@@ -6338,6 +6344,9 @@ cx
 )
 ;
 {
+JS
+:
+:
 AutoSaveContextOptions
 asco
 (
@@ -7384,6 +7393,9 @@ PRMJ_Now
 )
 ;
 {
+JS
+:
+:
 AutoSaveContextOptions
 asco
 (
@@ -12318,6 +12330,9 @@ cx
 )
 ;
 {
+JS
+:
+:
 AutoSaveContextOptions
 asco
 (
@@ -18406,6 +18421,9 @@ JSVAL_TO_STRING
 arg0
 )
 ;
+JS
+:
+:
 AutoSaveContextOptions
 asco
 (
