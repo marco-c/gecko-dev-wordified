@@ -265,7 +265,7 @@ jclass
 mGLControllerClass
 ;
 jmethodID
-jProvideEGLSurfaceWrapper
+jCreateEGLSurfaceForCompositorWrapper
 ;
 jclass
 mLayerViewClass
@@ -1104,7 +1104,7 @@ a2
 )
 ;
 jobject
-ProvideEGLSurfaceWrapper
+CreateEGLSurfaceForCompositorWrapper
 (
 jobject
 aTarget

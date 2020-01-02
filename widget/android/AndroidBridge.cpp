@@ -4136,7 +4136,7 @@ EGLSurface
 AndroidBridge
 :
 :
-ProvideEGLSurface
+CreateEGLSurfaceForCompositor
 (
 )
 {
@@ -4157,7 +4157,7 @@ mGLControllerObj
 AndroidBridge
 :
 :
-ProvideEGLSurface
+CreateEGLSurfaceForCompositor
 called
 with
 a
@@ -4196,7 +4196,7 @@ nullptr
 jobject
 eglSurface
 =
-ProvideEGLSurfaceWrapper
+CreateEGLSurfaceForCompositorWrapper
 (
 mGLControllerObj
 )

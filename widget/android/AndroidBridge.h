@@ -1236,7 +1236,7 @@ nullptr
 )
 ;
 EGLSurface
-ProvideEGLSurface
+CreateEGLSurfaceForCompositor
 (
 )
 ;
