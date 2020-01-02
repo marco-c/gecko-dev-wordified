@@ -3444,6 +3444,17 @@ ImageFactory
 )
 ;
 }
+ImageFactory
+*
+GetImageFactory
+(
+)
+const
+{
+return
+mImageFactory
+;
+}
 /
 *
 *
