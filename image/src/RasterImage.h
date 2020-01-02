@@ -3986,10 +3986,6 @@ InitDecoder
 (
 bool
 aDoSizeDecode
-bool
-aIsSynchronous
-=
-false
 )
 ;
 nsresult
