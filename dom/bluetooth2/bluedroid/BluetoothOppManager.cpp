@@ -876,7 +876,7 @@ NS_IsMainThread
 mSocket
 -
 >
-CloseDroidSocket
+CloseSocket
 (
 )
 ;
@@ -1303,7 +1303,7 @@ mServerSocket
 mServerSocket
 -
 >
-Disconnect
+CloseSocket
 (
 )
 ;
@@ -1364,7 +1364,7 @@ true
 mSocket
 -
 >
-Connect
+ConnectSocket
 (
 aDeviceAddress
 -
@@ -1480,7 +1480,7 @@ mServerSocket
 mServerSocket
 -
 >
-Disconnect
+CloseSocket
 (
 )
 ;
@@ -1509,7 +1509,7 @@ if
 mServerSocket
 -
 >
-Listen
+ListenSocket
 (
 BluetoothReservedChannels
 :
@@ -6685,7 +6685,7 @@ mSize
 mSocket
 -
 >
-SendDroidSocketData
+SendSocketData
 (
 s
 )
@@ -7584,7 +7584,7 @@ mSocket
 mSocket
 -
 >
-Disconnect
+CloseSocket
 (
 )
 ;
