@@ -10003,6 +10003,7 @@ p
 .
 add
 (
+cx
 table
 &
 base
@@ -10952,6 +10953,7 @@ p
 .
 add
 (
+cx
 table
 lookup
 InitialShapeEntry
