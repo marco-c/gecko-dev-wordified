@@ -100,7 +100,9 @@ mozunit
 import
 MockedOpen
 from
-Preprocessor
+mozbuild
+.
+preprocessor
 import
 Preprocessor
 from

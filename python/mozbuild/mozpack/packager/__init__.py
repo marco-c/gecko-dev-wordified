@@ -54,7 +54,9 @@ MPL
 /
 .
 from
-Preprocessor
+mozbuild
+.
+preprocessor
 import
 Preprocessor
 import

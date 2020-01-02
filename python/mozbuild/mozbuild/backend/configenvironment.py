@@ -70,7 +70,9 @@ path
 import
 relpath
 from
-Preprocessor
+mozbuild
+.
+preprocessor
 import
 Preprocessor
 from

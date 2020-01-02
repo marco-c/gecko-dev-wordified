@@ -128,7 +128,9 @@ lock_file
 PushbackIter
 )
 from
-Preprocessor
+mozbuild
+.
+preprocessor
 import
 Preprocessor
 from
