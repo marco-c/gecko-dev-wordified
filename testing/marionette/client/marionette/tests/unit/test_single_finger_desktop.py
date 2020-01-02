@@ -45,7 +45,9 @@ chain
 chain_flick
 context_menu
 double_tap
+        
 long_press_action
+long_press_on_xy_action
         
 move_element
 move_element_offset
@@ -663,6 +665,36 @@ self
 :
         
 long_press_action
+(
+self
+.
+marionette
+self
+.
+wait_for_condition
+"
+button1
+-
+mousemove
+-
+mousedown
+-
+contextmenu
+-
+mouseup
+-
+click
+"
+)
+    
+def
+test_long_press_on_xy_action
+(
+self
+)
+:
+        
+long_press_on_xy_action
 (
 self
 .
