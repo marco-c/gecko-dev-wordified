@@ -639,7 +639,7 @@ GSNCache
 :
 code
 (
-NULL
+nullptr
 )
 {
 }
@@ -681,7 +681,7 @@ unless
 the
 latter
 is
-NULL
+nullptr
 .
 *
 /
@@ -865,7 +865,7 @@ updateForRequestEnd
 {
 nativeStackTop
 =
-NULL
+nullptr
 ;
 }
 #
@@ -915,7 +915,7 @@ SourceDataCache
 :
 map_
 (
-NULL
+nullptr
 )
 {
 }
@@ -1176,7 +1176,7 @@ pscript
 *
 pscript
 =
-NULL
+nullptr
 ;
 }
 static
@@ -1278,7 +1278,7 @@ NativeIterCache
 :
 last
 (
-NULL
+nullptr
 )
 {
 mozilla
@@ -1297,7 +1297,7 @@ purge
 {
 last
 =
-NULL
+nullptr
 ;
 mozilla
 :
@@ -1652,7 +1652,7 @@ and
 private
 data
 (
-NULL
+nullptr
 )
 .
 *
@@ -1855,7 +1855,7 @@ lookup
 method
 or
 *
-NULL
+nullptr
 if
 returning
 the
@@ -3546,7 +3546,7 @@ client
 >
 onOutOfMemory
 (
-NULL
+nullptr
 bytes
 )
 ;
@@ -3901,7 +3901,7 @@ reportAllocationOverflow
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3935,12 +3935,12 @@ JSCompartment
 *
 comp
 =
-NULL
+nullptr
 JSContext
 *
 cx
 =
-NULL
+nullptr
 )
 {
 if
@@ -3986,7 +3986,7 @@ reportAllocationOverflow
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -4411,7 +4411,7 @@ rt
 >
 operationCallbackOwner
 =
-NULL
+nullptr
 ;
 PR_Unlock
 (
@@ -7441,11 +7441,11 @@ ExtraTracer
 :
 op
 (
-NULL
+nullptr
 )
 data
 (
-NULL
+nullptr
 )
 {
 }
@@ -9179,7 +9179,7 @@ reportAllocationOverflow
 {
 js_ReportAllocationOverflow
 (
-NULL
+nullptr
 )
 ;
 }
@@ -9232,7 +9232,7 @@ malloc
 /
 realloc
 returns
-NULL
+nullptr
 to
 try
 *
@@ -9933,7 +9933,7 @@ JSRuntime
 *
 rt
 =
-NULL
+nullptr
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :

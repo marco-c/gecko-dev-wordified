@@ -1038,7 +1038,7 @@ the
 first
 arg
 is
-NULL
+nullptr
 -
 reserved
 for
@@ -1052,7 +1052,7 @@ filename
 /
 JAVASCRIPT_OBJECT_FINALIZE
 (
-NULL
+nullptr
 (
 char
 *

@@ -332,7 +332,7 @@ obj
 >
 initPrivate
 (
-NULL
+nullptr
 )
 ;
 reobj_
@@ -432,7 +432,7 @@ clone
 >
 initPrivate
 (
-NULL
+nullptr
 )
 ;
 reobj_
@@ -474,7 +474,7 @@ getOrCreate
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -494,7 +494,7 @@ getFlags
 )
 )
 return
-NULL
+nullptr
 ;
 reobj_
 -
@@ -530,7 +530,7 @@ getOrCreate
 )
 )
 return
-NULL
+nullptr
 ;
 return
 reobj_
@@ -549,7 +549,7 @@ get
 (
 )
 :
-NULL
+nullptr
 ;
 }
 RegExpObject
@@ -582,7 +582,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -734,7 +734,7 @@ g
 )
 )
 return
-NULL
+nullptr
 ;
 Rooted
 <
@@ -1259,7 +1259,7 @@ obj
 >
 setPrivate
 (
-NULL
+nullptr
 )
 ;
 }
@@ -1320,31 +1320,31 @@ enumerate
 /
 JS_ResolveStub
 JS_ConvertStub
-NULL
+nullptr
 /
 *
 finalize
 *
 /
-NULL
+nullptr
 /
 *
 checkAccess
 *
 /
-NULL
+nullptr
 /
 *
 call
 *
 /
-NULL
+nullptr
 /
 *
 hasInstance
 *
 /
-NULL
+nullptr
 /
 *
 construct
@@ -1449,7 +1449,7 @@ if
 source
 )
 return
-NULL
+nullptr
 ;
 return
 createNoStatics
@@ -1494,7 +1494,7 @@ source
 )
 )
 return
-NULL
+nullptr
 ;
 RegExpObjectBuilder
 builder
@@ -1716,7 +1716,7 @@ JSPROP_PERMANENT
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -1763,7 +1763,7 @@ attrs
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1787,7 +1787,7 @@ attrs
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1811,7 +1811,7 @@ attrs
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1835,7 +1835,7 @@ attrs
 )
 )
 return
-NULL
+nullptr
 ;
 return
 self
@@ -2186,7 +2186,7 @@ JSObject
 :
 setPrivate
 (
-NULL
+nullptr
 )
 ;
 self
@@ -2301,7 +2301,7 @@ len
 )
 )
 return
-NULL
+nullptr
 ;
 sb
 .
@@ -2355,7 +2355,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2376,7 +2376,7 @@ g
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2396,7 +2396,7 @@ i
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2416,7 +2416,7 @@ m
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2436,7 +2436,7 @@ y
 )
 )
 return
-NULL
+nullptr
 ;
 return
 sb
@@ -2487,7 +2487,7 @@ codeBlock
 endif
 bytecode
 (
-NULL
+nullptr
 )
 activeUseCount
 (
@@ -2615,7 +2615,7 @@ asJSContext
 \
 JSREPORT_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 __msg
 )
 ;
@@ -3036,7 +3036,7 @@ yarrError
 reportYarrError
 (
 cx
-NULL
+nullptr
 yarrError
 )
 ;
@@ -4771,7 +4771,7 @@ JS_ReportErrorFlagsAndNumber
 cx
 JSREPORT_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_REGEXP_FLAG
 charBuf
 )
@@ -4944,7 +4944,7 @@ cx
 )
 source
 flags
-NULL
+nullptr
 )
 ;
 if
@@ -5056,7 +5056,7 @@ reobj
 getFlags
 (
 )
-NULL
+nullptr
 )
 ;
 }

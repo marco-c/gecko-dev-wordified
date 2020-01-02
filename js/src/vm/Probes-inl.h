@@ -449,7 +449,7 @@ known
 fp
 =
 =
-NULL
+nullptr
 )
 but
 *

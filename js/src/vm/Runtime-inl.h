@@ -451,7 +451,7 @@ obj
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 }

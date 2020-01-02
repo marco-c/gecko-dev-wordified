@@ -314,7 +314,7 @@ RegExpStatics
 :
 bufferLink
 (
-NULL
+nullptr
 )
 copied
 (
@@ -543,7 +543,7 @@ InitBuffer
 :
 bufferLink
 (
-NULL
+nullptr
 )
 copied
 (
@@ -2748,7 +2748,7 @@ this
 >
 lazySource
 =
-NULL
+nullptr
 ;
 this
 -
@@ -2824,11 +2824,11 @@ forgetArray
 ;
 matchesInput
 =
-NULL
+nullptr
 ;
 lazySource
 =
-NULL
+nullptr
 ;
 lazyFlags
 =
@@ -2847,7 +2847,7 @@ size_t
 ;
 pendingInput
 =
-NULL
+nullptr
 ;
 flags
 =
