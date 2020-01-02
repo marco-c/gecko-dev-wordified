@@ -9184,7 +9184,7 @@ nsStyleBackground
 *
 aCount
 const
-int32_t
+KTableValue
 aTable
 [
 ]
@@ -14675,7 +14675,7 @@ aAlign
 bool
 aAlignTrue
 const
-int32_t
+KTableValue
 aTable
 [
 ]
@@ -21764,7 +21764,7 @@ aClampNegativeCalc
 PercentageBaseGetter
 aPercentageBaseGetter
 const
-int32_t
+KTableValue
 aTable
 [
 ]

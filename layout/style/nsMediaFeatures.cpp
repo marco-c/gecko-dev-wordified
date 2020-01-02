@@ -167,7 +167,10 @@ mozilla
 ;
 static
 const
-int32_t
+nsCSSProps
+:
+:
+KTableValue
 kOrientationKeywords
 [
 ]
@@ -184,7 +187,10 @@ eCSSKeyword_UNKNOWN
 ;
 static
 const
-int32_t
+nsCSSProps
+:
+:
+KTableValue
 kScanKeywords
 [
 ]

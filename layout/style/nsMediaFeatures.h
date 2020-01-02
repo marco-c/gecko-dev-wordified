@@ -97,6 +97,13 @@ nsError
 .
 h
 "
+#
+include
+"
+nsCSSProps
+.
+h
+"
 class
 nsIAtom
 ;
@@ -410,7 +417,10 @@ in
 nsCSSProps
 .
 const
-int32_t
+nsCSSProps
+:
+:
+KTableValue
 *
 mKeywordTable
 ;
