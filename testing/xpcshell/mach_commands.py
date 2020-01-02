@@ -249,8 +249,18 @@ kwargs
 )
 :
         
+from
+manifestparser
+import
+TestManifest
+        
 manifest
 =
+TestManifest
+(
+manifests
+=
+[
 os
 .
 path
@@ -260,18 +270,20 @@ join
 self
 .
 topobjdir
+            
 '
 _tests
 '
 '
 xpcshell
 '
-            
 '
 xpcshell
 .
 ini
 '
+)
+]
 )
         
 return
