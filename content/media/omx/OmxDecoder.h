@@ -1402,7 +1402,7 @@ AMessage
 msg
 )
 ;
-bool
+int64_t
 ProcessCachedData
 (
 int64_t
