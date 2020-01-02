@@ -227,16 +227,6 @@ JSObject
 aObj
 )
 ;
-static
-nsIScriptContext
-*
-GetDynamicScriptContext
-(
-JSContext
-*
-aContext
-)
-;
 /
 *
 *
