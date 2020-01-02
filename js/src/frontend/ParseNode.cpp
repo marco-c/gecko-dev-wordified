@@ -2184,6 +2184,9 @@ js
 namespace
 frontend
 {
+#
+if
+JS_HAS_DESTRUCTURING
 /
 *
 *
@@ -2861,6 +2864,13 @@ return
 pn
 ;
 }
+#
+endif
+/
+*
+JS_HAS_DESTRUCTURING
+*
+/
 /
 *
 *
@@ -3051,6 +3061,9 @@ isUsed
 )
 )
 ;
+#
+if
+JS_HAS_DESTRUCTURING
 if
 (
 opn
@@ -3279,6 +3292,8 @@ return
 pn
 ;
 }
+#
+endif
 JS_ASSERT
 (
 opn
