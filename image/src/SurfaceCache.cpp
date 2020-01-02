@@ -174,6 +174,13 @@ h
 #
 include
 "
+nsIMemoryReporter
+.
+h
+"
+#
+include
+"
 gfx2DGlue
 .
 h
