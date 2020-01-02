@@ -793,6 +793,9 @@ bool
 isSystem
 ;
 bool
+isSelfHosting
+;
+bool
 marked
 ;
 #
