@@ -798,6 +798,9 @@ mRestrictedPortList
 bool
 mAutoDialEnabled
 ;
+bool
+mNetworkNotifyChanged
+;
 int32_t
 mPreviousWifiState
 ;
