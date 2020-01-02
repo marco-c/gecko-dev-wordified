@@ -8408,11 +8408,6 @@ graph
 return
 false
 ;
-AssertGraphCoherency
-(
-graph
-)
-;
 IonSpewPass
 (
 "
@@ -8420,6 +8415,11 @@ Bounds
 Check
 Elimination
 "
+)
+;
+AssertGraphCoherency
+(
+graph
 )
 ;
 }
@@ -8501,8 +8501,6 @@ generate
 return
 nullptr
 ;
-/
-/
 IonSpewPass
 (
 "
@@ -8609,8 +8607,6 @@ nullptr
 ;
 #
 endif
-/
-/
 IonSpewPass
 (
 "
@@ -8688,8 +8684,6 @@ nullptr
 ;
 #
 endif
-/
-/
 IonSpewPass
 (
 "
@@ -8774,8 +8768,6 @@ true
 return
 nullptr
 ;
-/
-/
 IonSpewPass
 (
 "
@@ -8851,8 +8843,6 @@ lir
 return
 nullptr
 ;
-/
-/
 IonSpewPass
 (
 "
