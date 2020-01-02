@@ -1388,6 +1388,15 @@ toolkitDir
 "
 gcli
 "
+"
+source
+"
+"
+lib
+"
+"
+gcli
+"
 )
 )
 ;
