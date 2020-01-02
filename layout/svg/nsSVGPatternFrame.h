@@ -149,6 +149,9 @@ class
 nsSVGLength2
 ;
 class
+nsSVGPathGeometryFrame
+;
+class
 nsSVGViewBox
 ;
 namespace
@@ -661,7 +664,7 @@ reference
 this
 one
 frame
-nsSVGGeometryFrame
+nsSVGPathGeometryFrame
 *
 mSource
 ;

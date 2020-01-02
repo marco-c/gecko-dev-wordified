@@ -380,6 +380,7 @@ uint16_t
 GetHitTestFlags
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /

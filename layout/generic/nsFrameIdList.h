@@ -586,10 +586,6 @@ nsSVGGenericContainerFrame
 )
 FRAME_ID
 (
-nsSVGGeometryFrame
-)
-FRAME_ID
-(
 nsSVGGFrame
 )
 FRAME_ID
