@@ -544,6 +544,10 @@ DDT
 ;
 protected
 :
+typedef
+bool
+AcquisitionState
+;
 /
 *
 *
@@ -1018,7 +1022,7 @@ resource
 .
 *
 /
-bool
+AcquisitionState
 GetAcquisitionState
 (
 )
@@ -1061,7 +1065,9 @@ resource
 void
 SetAcquisitionState
 (
-bool
+const
+AcquisitionState
+&
 aAcquisitionState
 )
 {
@@ -1204,7 +1210,7 @@ acquired
 .
 *
 /
-bool
+AcquisitionState
 mAcquired
 ;
 /

@@ -2005,7 +2005,7 @@ savedEntryCount
 =
 mEntryCount
 ;
-bool
+AcquisitionState
 savedAcquisitionState
 =
 GetAcquisitionState
@@ -2138,7 +2138,7 @@ and
 reset
 to
 empty
-bool
+AcquisitionState
 savedAcquisitionState
 =
 mLock
