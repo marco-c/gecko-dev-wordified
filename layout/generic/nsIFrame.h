@@ -13605,7 +13605,7 @@ reflow
 *
 /
 virtual
-nsresult
+void
 DidReflow
 (
 nsPresContext
