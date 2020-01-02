@@ -407,7 +407,7 @@ mPanelConfigs
 =
 panelConfigs
 ;
-displayPanelConfig
+displayHomeConfig
 (
 )
 ;
@@ -423,7 +423,7 @@ execute
 }
 private
 void
-displayPanelConfig
+displayHomeConfig
 (
 )
 {
