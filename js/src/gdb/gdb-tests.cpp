@@ -482,15 +482,6 @@ options
 )
 )
 ;
-js
-:
-:
-SetDefaultObjectForContext
-(
-cx
-global
-)
-;
 JSAutoCompartment
 ac
 (
