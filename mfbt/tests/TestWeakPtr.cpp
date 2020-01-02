@@ -105,6 +105,10 @@ C
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+C
+)
 int
 num
 ;
@@ -302,6 +306,10 @@ SupportsWeakPtr
 A
 >
 {
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+A
+)
 int
 data
 ;
