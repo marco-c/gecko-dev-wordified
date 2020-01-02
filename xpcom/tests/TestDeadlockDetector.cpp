@@ -784,9 +784,6 @@ buf
 4096
 ]
 ;
-int32_t
-len
-;
 PRIntervalTime
 now
 =
@@ -1000,6 +997,11 @@ i
 .
 fd
 ;
+int32_t
+len
+=
+0
+;
 if
 (
 PR_POLL_READ
@@ -1049,6 +1051,8 @@ PR_GetError
 else
 if
 (
+!
+(
 PR_POLL_HUP
 &
 pollfds
@@ -1058,13 +1062,7 @@ i
 .
 out_flags
 )
-{
-len
-=
-0
-;
-}
-else
+)
 {
 NS_ERROR
 (

@@ -3448,6 +3448,8 @@ aData
 {
 int64_t
 amount
+=
+0
 ;
 nsresult
 rv
