@@ -2809,10 +2809,16 @@ happen
 .
 class
 FilterCachedColorModels
+:
+public
+RefCounted
+<
+FilterCachedColorModels
+>
 {
 public
 :
-NS_INLINE_DECL_REFCOUNTING
+MOZ_DECLARE_REFCOUNTED_TYPENAME
 (
 FilterCachedColorModels
 )

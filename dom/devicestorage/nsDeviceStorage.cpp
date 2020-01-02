@@ -1140,10 +1140,16 @@ false
 }
 class
 GlobalDirs
+:
+public
+RefCounted
+<
+GlobalDirs
+>
 {
 public
 :
-NS_INLINE_DECL_REFCOUNTING
+MOZ_DECLARE_REFCOUNTED_TYPENAME
 (
 GlobalDirs
 )
