@@ -4896,14 +4896,6 @@ JSContext
 cx
 )
 ;
-bool
-ForcedRecompile
-(
-JSContext
-*
-cx
-)
-;
 JSString
 *
 RegExpReplace
