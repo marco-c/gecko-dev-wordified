@@ -143,6 +143,15 @@ SECFailure
 )
 ;
 }
+#
+ifdef
+DEBUG
+ssl3_CheckCipherSuiteOrderConsistency
+(
+)
+;
+#
+endif
 ssl_inited
 =
 1
