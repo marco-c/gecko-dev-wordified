@@ -223,6 +223,16 @@ nsFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+#
+ifdef
+DEBUG
+NS_DECL_QUERYFRAME_TARGET
+(
+nsBulletFrame
+)
+NS_DECL_QUERYFRAME
+#
+endif
 nsBulletFrame
 (
 nsStyleContext
