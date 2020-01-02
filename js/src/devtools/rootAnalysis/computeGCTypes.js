@@ -906,6 +906,16 @@ jsid
 '
 )
 ;
+addGCPointer
+(
+'
+JS
+:
+:
+AutoCheckCannotGC
+'
+)
+;
 function
 explain
 (
