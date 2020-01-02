@@ -1772,6 +1772,12 @@ MOZ_FINAL
 public
 nsITimerCallback
 {
+~
+PluginTimerCallBack
+(
+)
+{
+}
 public
 :
 PluginTimerCallBack

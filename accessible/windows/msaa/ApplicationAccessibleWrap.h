@@ -143,6 +143,12 @@ ApplicationAccessible
 public
 IAccessibleApplication
 {
+~
+ApplicationAccessibleWrap
+(
+)
+{
+}
 public
 :
 /

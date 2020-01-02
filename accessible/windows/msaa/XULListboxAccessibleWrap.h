@@ -153,6 +153,12 @@ XULListboxAccessible
 public
 ia2AccessibleTable
 {
+~
+XULListboxAccessibleWrap
+(
+)
+{
+}
 public
 :
 XULListboxAccessibleWrap
@@ -218,6 +224,12 @@ XULListCellAccessible
 public
 ia2AccessibleTableCell
 {
+~
+XULListCellAccessibleWrap
+(
+)
+{
+}
 public
 :
 XULListCellAccessibleWrap

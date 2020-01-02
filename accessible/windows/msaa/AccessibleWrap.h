@@ -262,13 +262,6 @@ aDoc
 )
 {
 }
-virtual
-~
-AccessibleWrap
-(
-)
-{
-}
 /
 /
 nsISupports
@@ -1424,6 +1417,13 @@ aXPAccessible
 ;
 protected
 :
+virtual
+~
+AccessibleWrap
+(
+)
+{
+}
 /
 *
 *

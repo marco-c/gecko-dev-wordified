@@ -170,6 +170,14 @@ DECL_IUNKNOWN_INHERITED
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
+protected
+:
+~
+ImageAccessibleWrap
+(
+)
+{
+}
 }
 ;
 }
