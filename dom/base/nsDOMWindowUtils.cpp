@@ -2842,11 +2842,11 @@ NS_IMETHODIMP
 nsDOMWindowUtils
 :
 :
-GetIsHistoryRestored
+GetIsResolutionSet
 (
 bool
 *
-aIsHistoryRestored
+aIsResolutionSet
 )
 {
 if
@@ -2895,7 +2895,7 @@ GetRootScrollFrameAsScrollable
 )
 ;
 *
-aIsHistoryRestored
+aIsResolutionSet
 =
 sf
 &
@@ -2903,7 +2903,7 @@ sf
 sf
 -
 >
-DidHistoryRestore
+IsResolutionSet
 (
 )
 ;
