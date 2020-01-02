@@ -991,7 +991,7 @@ Once
 "
 apz
 .
-max_velocity_pixels_per_ms
+max_velocity_pixels_per_inch
 "
 APZMaxVelocity
 float
