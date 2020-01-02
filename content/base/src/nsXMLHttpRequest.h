@@ -1980,6 +1980,11 @@ aBody
 )
 ;
 }
+bool
+IsDeniedCrossSiteRequest
+(
+)
+;
 public
 :
 void
@@ -2238,6 +2243,14 @@ Abort
 /
 /
 response
+void
+GetResponseURL
+(
+nsAString
+&
+aUrl
+)
+;
 uint32_t
 Status
 (
