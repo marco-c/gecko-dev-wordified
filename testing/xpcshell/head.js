@@ -7201,12 +7201,8 @@ clone
 )
 ;
 }
-throw
-Components
-.
-results
-.
-NS_ERROR_FAILURE
+return
+null
 ;
 }
 QueryInterface
