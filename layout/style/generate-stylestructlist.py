@@ -468,6 +468,15 @@ SVG
 nullptr
 "
 )
+    
+(
+"
+Variables
+"
+"
+nullptr
+"
+)
 ]
 ]
 +
