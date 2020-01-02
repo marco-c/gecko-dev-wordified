@@ -1627,6 +1627,10 @@ SDK_LIBRARY
 '
 WIN32_EXE_LDFLAGS
 '
+            
+'
+LD_VERSION_SCRIPT
+'
         
 ]
         
