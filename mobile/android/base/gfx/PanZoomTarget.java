@@ -224,16 +224,6 @@ action
 )
 ;
 public
-boolean
-postDelayed
-(
-Runnable
-action
-long
-delayMillis
-)
-;
-public
 void
 postRenderTask
 (
