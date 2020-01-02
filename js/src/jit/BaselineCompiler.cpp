@@ -15624,6 +15624,7 @@ BaselineFrame
 *
 jsbytecode
 *
+bool
 )
 ;
 static
@@ -15639,7 +15640,7 @@ DebugEpilogueFn
 jit
 :
 :
-DebugEpilogueOnBaselineReturn
+DebugEpilogue
 )
 ;
 bool
@@ -15727,6 +15728,14 @@ scratchReg
 ;
 prepareVMCall
 (
+)
+;
+pushArg
+(
+Imm32
+(
+1
+)
 )
 ;
 pushArg
