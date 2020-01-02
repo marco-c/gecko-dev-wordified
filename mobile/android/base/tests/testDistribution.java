@@ -1106,7 +1106,7 @@ sendGeckoEvent
 "
 SearchEngines
 :
-GetVisible
+Get
 "
 null
 )
