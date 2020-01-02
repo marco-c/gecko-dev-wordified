@@ -1125,13 +1125,6 @@ ProgramName
 )
 ;
 #
-include
-"
-nsX11ErrorHandler
-.
-h
-"
-#
 define
 FILE_COMPATIBILITY_INFO
 NS_LITERAL_CSTRING
@@ -20185,7 +20178,7 @@ its
 own
 handler
 .
-InstallX11ErrorHandler
+XRE_InstallX11ErrorHandler
 (
 )
 ;
