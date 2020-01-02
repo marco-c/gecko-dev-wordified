@@ -975,6 +975,16 @@ aChannelName
 )
 const
 ;
+void
+ReportMessageRouteError
+(
+const
+char
+*
+channelName
+)
+const
+;
 bool
 MaybeHandleError
 (
