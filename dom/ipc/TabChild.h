@@ -3374,6 +3374,9 @@ aPoint
 )
 ;
 bool
+mTouchEndCancelled
+;
+bool
 mIgnoreKeyPressEvent
 ;
 nsRefPtr
