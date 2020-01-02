@@ -849,10 +849,10 @@ document
 )
 ;
 let
-bingTranslation
+bingTranslator
 =
 new
-BingTranslation
+BingTranslator
 (
 translationDocument
 msg
@@ -903,7 +903,7 @@ translationError
 =
 false
 ;
-bingTranslation
+bingTranslator
 .
 translate
 (
