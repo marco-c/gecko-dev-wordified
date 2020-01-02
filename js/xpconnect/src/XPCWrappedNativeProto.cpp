@@ -517,13 +517,6 @@ CallPostCreatePrototype
 )
 ;
 }
-DEBUG_ReportShadowedMembers
-(
-mSet
-nullptr
-this
-)
-;
 return
 success
 ;
