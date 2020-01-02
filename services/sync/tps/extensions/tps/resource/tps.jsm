@@ -108,6 +108,9 @@ EXPORTED_SYMBOLS
 =
 [
 "
+ACTIONS
+"
+"
 TPS
 "
 ]
@@ -500,9 +503,9 @@ resource
 /
 mozmill
 /
-modules
+driver
 /
-init
+mozmill
 .
 js
 '
@@ -5508,7 +5511,7 @@ runTestFile
 mozmillfile
 .
 path
-false
+null
 )
 ;
 }

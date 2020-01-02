@@ -34,7 +34,7 @@ with
 this
 *
 file
-You
+you
 can
 obtain
 one
