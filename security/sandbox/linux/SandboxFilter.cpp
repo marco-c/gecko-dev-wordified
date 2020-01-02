@@ -1123,6 +1123,10 @@ ALLOW_SYSCALL
 (
 sched_setscheduler
 )
+ALLOW_SYSCALL
+(
+sigaltstack
+)
 #
 endif
 /
