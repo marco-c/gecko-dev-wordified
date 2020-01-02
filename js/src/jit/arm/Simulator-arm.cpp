@@ -5000,6 +5000,12 @@ grep
 -
 v
 pure_instructions
+|
+grep
+-
+v
+.
+text
 \
 "
 "
