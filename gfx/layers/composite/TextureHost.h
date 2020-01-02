@@ -5021,9 +5021,12 @@ CompositingRenderTarget
 ifdef
 MOZ_DUMP_PAINTING
 virtual
-already_AddRefed
+TemporaryRef
 <
-gfxImageSurface
+gfx
+:
+:
+DataSourceSurface
 >
 Dump
 (

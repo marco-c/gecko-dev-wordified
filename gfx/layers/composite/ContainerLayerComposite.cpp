@@ -2653,9 +2653,12 @@ gfxUtils
 sDumpPainting
 )
 {
-nsRefPtr
+RefPtr
 <
-gfxImageSurface
+gfx
+:
+:
+DataSourceSurface
 >
 surf
 =
