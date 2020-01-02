@@ -304,6 +304,9 @@ data
 *
 *
 /
+namespace
+mozilla
+{
 struct
 ElementPropertyTransition
 :
@@ -618,6 +621,11 @@ const
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 class
 nsTransitionManager
 MOZ_FINAL

@@ -191,14 +191,14 @@ nsPresContext
 class
 nsStyleChangeList
 ;
-struct
-ElementPropertyTransition
-;
 namespace
 mozilla
 {
 class
 StyleAnimationValue
+;
+struct
+ElementPropertyTransition
 ;
 namespace
 css
