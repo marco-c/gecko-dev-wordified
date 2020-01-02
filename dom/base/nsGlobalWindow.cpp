@@ -21483,9 +21483,8 @@ aVal
 JS
 :
 :
-ObjectValue
+ObjectOrNullValue
 (
-*
 content
 )
 ;
