@@ -133,13 +133,6 @@ h
 #
 include
 "
-GeneratedEvents
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences

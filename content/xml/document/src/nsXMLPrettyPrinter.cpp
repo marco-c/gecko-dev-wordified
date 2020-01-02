@@ -246,13 +246,6 @@ nsIDOMCustomEvent
 .
 h
 "
-#
-include
-"
-GeneratedEvents
-.
-h
-"
 using
 namespace
 mozilla

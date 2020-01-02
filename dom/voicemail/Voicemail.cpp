@@ -183,13 +183,6 @@ nsServiceManagerUtils
 h
 "
 #
-include
-"
-GeneratedEvents
-.
-h
-"
-#
 define
 NS_RILCONTENTHELPER_CONTRACTID
 "

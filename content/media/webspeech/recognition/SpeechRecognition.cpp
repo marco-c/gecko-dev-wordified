@@ -190,13 +190,6 @@ h
 #
 include
 "
-GeneratedEvents
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

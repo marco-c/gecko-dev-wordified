@@ -188,13 +188,6 @@ h
 #
 include
 "
-GeneratedEvents
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

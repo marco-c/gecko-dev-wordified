@@ -130,13 +130,6 @@ h
 #
 include
 "
-GeneratedEvents
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
