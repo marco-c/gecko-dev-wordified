@@ -639,8 +639,6 @@ TextureHost
 >
 CreateTextureHostOGL
 (
-uint64_t
-aID
 const
 SurfaceDescriptor
 &
@@ -684,7 +682,6 @@ result
 =
 CreateBackendIndependentTextureHost
 (
-aID
 aDesc
 aDeallocator
 aFlags
@@ -716,7 +713,6 @@ result
 new
 SharedTextureHostOGL
 (
-aID
 aFlags
 desc
 .
@@ -775,7 +771,6 @@ result
 new
 MacIOSurfaceTextureHostOGL
 (
-aID
 aFlags
 desc
 )
@@ -811,7 +806,6 @@ result
 new
 GrallocTextureHostOGL
 (
-aID
 aFlags
 desc
 )
@@ -2010,8 +2004,6 @@ SharedTextureHostOGL
 :
 SharedTextureHostOGL
 (
-uint64_t
-aID
 TextureFlags
 aFlags
 gl
@@ -2035,7 +2027,6 @@ inverted
 :
 TextureHost
 (
-aID
 aFlags
 )
 mSize
