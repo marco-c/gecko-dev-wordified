@@ -660,6 +660,17 @@ if
 _MSC_VER
 >
 =
+1800
+#
+define
+MOZ_HAVE_CXX11_DELETE
+#
+endif
+#
+if
+_MSC_VER
+>
+=
 1700
 #
 define
