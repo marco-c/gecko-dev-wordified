@@ -1584,9 +1584,6 @@ output_
 bool
 print_time_
 ;
-bool
-pretty_
-;
 internal
 :
 :
