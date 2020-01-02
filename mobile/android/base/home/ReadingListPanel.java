@@ -727,9 +727,9 @@ mList
 setContextMenuInfoFactory
 (
 new
-HomeListView
+HomeContextMenuInfo
 .
-ContextMenuInfoFactory
+Factory
 (
 )
 {
