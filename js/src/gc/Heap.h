@@ -226,9 +226,6 @@ Arena
 class
 ArenaList
 ;
-class
-SortedArenaList
-;
 struct
 ArenaHeader
 ;
@@ -3614,7 +3611,7 @@ template
 typename
 T
 >
-size_t
+bool
 finalize
 (
 FreeOp
@@ -5105,13 +5102,11 @@ recycleArena
 ArenaHeader
 *
 aheader
-SortedArenaList
+ArenaList
 &
 dest
 AllocKind
 thingKind
-size_t
-thingsPerArena
 )
 ;
 static
