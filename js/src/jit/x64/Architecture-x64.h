@@ -1769,7 +1769,7 @@ dances
 in
 lowering
 .
-static
+inline
 bool
 hasUnaliasedDouble
 (
@@ -1814,7 +1814,7 @@ temporary
 double
 register
 .
-static
+inline
 bool
 hasMultiAlias
 (
