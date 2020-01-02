@@ -10916,11 +10916,13 @@ Clear
 (
 )
 ;
-controlMessagesToRunDuringShutdown
-.
-MoveElementsFrom
+MOZ_ASSERT
 (
 mCurrentTaskMessageQueue
+.
+IsEmpty
+(
+)
 )
 ;
 /
