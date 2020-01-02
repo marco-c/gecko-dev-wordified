@@ -134,7 +134,7 @@ nsAString
 &
 aCallID
 const
-MediaStreamConstraintsInternal
+MediaStreamConstraints
 &
 aConstraints
 bool
@@ -171,7 +171,7 @@ aCallID
 mConstraints
 (
 new
-MediaStreamConstraintsInternal
+MediaStreamConstraints
 (
 aConstraints
 )
@@ -302,7 +302,7 @@ GetUserMediaRequest
 :
 GetConstraints
 (
-MediaStreamConstraintsInternal
+MediaStreamConstraints
 &
 result
 )

@@ -3460,9 +3460,6 @@ NS_ENSURE_SUCCESS_VOID
 rv
 )
 ;
-AutoSafeJSContext
-cx
-;
 MediaStreamConstraints
 constraints
 ;
@@ -3500,7 +3497,6 @@ manager
 >
 GetUserMedia
 (
-cx
 false
 GetOwner
 (
