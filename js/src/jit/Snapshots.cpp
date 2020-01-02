@@ -1708,7 +1708,7 @@ JSValueType
 *
 mode
 &
-0x07
+PACKED_TAG_MASK
 )
 ;
 *
@@ -1718,7 +1718,7 @@ mode
 mode
 &
 ~
-0x07
+PACKED_TAG_MASK
 ;
 break
 ;
@@ -1987,7 +1987,7 @@ MOZ_ASSERT
 *
 mode
 &
-0x07
+PACKED_TAG_MASK
 )
 =
 =
@@ -2000,7 +2000,7 @@ p
 type
 &
 ~
-0x07
+PACKED_TAG_MASK
 )
 =
 =
