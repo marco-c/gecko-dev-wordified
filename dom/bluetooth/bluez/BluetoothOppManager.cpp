@@ -7817,6 +7817,10 @@ if
 ProcessNextBatch
 (
 )
+&
+&
+!
+mIsServer
 )
 {
 Listen
