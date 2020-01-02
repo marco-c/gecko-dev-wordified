@@ -457,19 +457,6 @@ export
 #
 -
 '
-compile
-'
-:
-everything
-in
-relation
-with
-compiling
-objects
-.
-#
--
-'
 binaries
 '
 :
@@ -495,8 +482,6 @@ everything
 that
 is
 not
-compile
-or
 binaries
 and
 that
@@ -783,9 +768,7 @@ C
 "
 "
 "
-'
-compile
-'
+None
 )
     
 '
@@ -836,9 +819,7 @@ C
 "
 "
 "
-'
-compile
-'
+None
 )
     
 '
@@ -941,9 +922,7 @@ size
 "
 "
 "
-'
-compile
-'
+None
 )
     
 '
@@ -1017,9 +996,7 @@ size
 "
 "
 "
-'
-compile
-'
+None
 )
     
 '
@@ -2159,9 +2136,7 @@ compiler
 "
 "
 "
-'
-compile
-'
+None
 )
     
 '
@@ -6828,6 +6803,7 @@ list
 ]
 bool
 bool
+str
 )
         
 "
@@ -7118,6 +7094,49 @@ external
 =
 True
 )
+        
+Note
+there
+is
+a
+temporary
+trigger
+parameter
+that
+tells
+the
+build
+        
+system
+that
+if
+it
+sees
+the
+given
+string
+in
+a
+Makefile
+then
+the
+compile
+        
+rules
+in
+that
+directory
+depend
+on
+the
+directories
+listed
+in
+the
+        
+add_tier_dir
+call
+.
         
 "
 "
