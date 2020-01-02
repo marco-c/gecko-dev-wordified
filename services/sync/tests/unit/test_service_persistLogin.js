@@ -125,6 +125,10 @@ slate
 to
 start
 .
+ensureLegacyIdentityManager
+(
+)
+;
 Services
 .
 logins

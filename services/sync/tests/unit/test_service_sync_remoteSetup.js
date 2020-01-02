@@ -623,6 +623,10 @@ in
 "
 )
 ;
+ensureLegacyIdentityManager
+(
+)
+;
 Service
 .
 serverURL

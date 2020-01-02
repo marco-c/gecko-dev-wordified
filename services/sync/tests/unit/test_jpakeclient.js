@@ -1357,6 +1357,10 @@ include
 those
 data
 .
+ensureLegacyIdentityManager
+(
+)
+;
 setBasicCredentials
 (
 "
