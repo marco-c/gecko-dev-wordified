@@ -2122,7 +2122,7 @@ msg
 cmsgptr
 !
 =
-NULL
+nullptr
 ;
 cmsgptr
 =

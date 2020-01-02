@@ -6978,7 +6978,7 @@ events
 =
 CreateEvent
 (
-NULL
+nullptr
 TRUE
 FALSE
 TEXT
@@ -7009,7 +7009,7 @@ events
 =
 CreateEvent
 (
-NULL
+nullptr
 TRUE
 FALSE
 TEXT

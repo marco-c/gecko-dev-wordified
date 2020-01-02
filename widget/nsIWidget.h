@@ -2551,7 +2551,7 @@ the
 arguments
 can
 be
-NULL
+null
 in
 which
 case

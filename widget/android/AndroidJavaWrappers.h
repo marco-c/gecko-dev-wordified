@@ -393,7 +393,7 @@ WrappedJavaObject
 :
 wrapped_obj
 (
-NULL
+nullptr
 )
 {
 }
@@ -405,7 +405,7 @@ jobj
 :
 wrapped_obj
 (
-NULL
+nullptr
 )
 {
 Init
@@ -436,7 +436,7 @@ return
 wrapped_obj
 =
 =
-NULL
+nullptr
 ;
 }
 jobject
@@ -470,7 +470,7 @@ AutoGlobalWrappedJavaObject
 :
 wrapped_obj
 (
-NULL
+nullptr
 )
 {
 }
@@ -485,7 +485,7 @@ env
 :
 wrapped_obj
 (
-NULL
+nullptr
 )
 {
 Init
@@ -554,7 +554,7 @@ return
 wrapped_obj
 =
 =
-NULL
+nullptr
 ;
 }
 jobject

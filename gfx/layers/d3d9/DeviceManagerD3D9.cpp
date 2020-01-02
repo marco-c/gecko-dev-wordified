@@ -759,8 +759,8 @@ mSwapChain
 >
 Present
 (
-NULL
-NULL
+nullptr
+nullptr
 0
 0
 0

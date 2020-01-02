@@ -107,7 +107,6 @@ h
 /
 for
 FILE
-NULL
 #
 include
 "
@@ -494,7 +493,7 @@ FILE
 *
 aFile
 =
-NULL
+nullptr
 const
 char
 *

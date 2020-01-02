@@ -4975,7 +4975,7 @@ aLoader
 )
 mToken
 (
-NULL
+nullptr
 )
 {
 }

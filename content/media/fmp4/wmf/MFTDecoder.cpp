@@ -256,7 +256,7 @@ hr
 CoCreateInstance
 (
 aMFTClsID
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_IMFTransform
 reinterpret_cast

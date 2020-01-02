@@ -4510,7 +4510,8 @@ base
 result
 will
 be
-NULL
+null
+-
 terminated
 nsCString
 encodedImg

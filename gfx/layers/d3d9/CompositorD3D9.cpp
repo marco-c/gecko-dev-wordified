@@ -515,7 +515,7 @@ byRef
 (
 texture
 )
-NULL
+nullptr
 )
 ;
 if
@@ -636,7 +636,7 @@ byRef
 (
 texture
 )
-NULL
+nullptr
 )
 ;
 if
@@ -2232,7 +2232,7 @@ d3d9Device
 SetTexture
 (
 1
-NULL
+nullptr
 )
 ;
 }
@@ -3179,7 +3179,7 @@ device
 Clear
 (
 0
-NULL
+nullptr
 D3DCLEAR_TARGET
 0x00000000
 0
@@ -3809,7 +3809,7 @@ getter_AddRefs
 (
 destSurf
 )
-NULL
+nullptr
 )
 ;
 device
@@ -3833,7 +3833,7 @@ LockRect
 (
 &
 rect
-NULL
+nullptr
 D3DLOCK_READONLY
 )
 ;

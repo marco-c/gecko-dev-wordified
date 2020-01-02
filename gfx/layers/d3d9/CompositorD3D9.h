@@ -1048,7 +1048,7 @@ mWidget
 *
 Context
 target
-NULL
+nullptr
 when
 drawing
 directly

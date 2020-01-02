@@ -1004,7 +1004,7 @@ LockRect
 (
 &
 aLockedRect
-NULL
+nullptr
 0
 )
 ;
@@ -1107,9 +1107,9 @@ device
 UpdateSurface
 (
 aSurface
-NULL
+nullptr
 dstSurface
-NULL
+nullptr
 )
 ;
 }

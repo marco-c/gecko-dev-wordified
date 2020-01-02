@@ -4398,7 +4398,7 @@ Bridge
 >
 SetNativePanZoomController
 (
-NULL
+nullptr
 )
 ;
 if

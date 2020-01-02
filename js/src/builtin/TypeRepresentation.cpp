@@ -4706,7 +4706,7 @@ while
 arrayType
 !
 =
-NULL
+nullptr
 )
 {
 if
