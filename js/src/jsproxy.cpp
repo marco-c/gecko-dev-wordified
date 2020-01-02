@@ -4511,9 +4511,7 @@ static
 bool
 ValueToBool
 (
-const
-Value
-&
+HandleValue
 v
 bool
 *

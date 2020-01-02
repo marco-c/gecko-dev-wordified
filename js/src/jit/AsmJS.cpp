@@ -16389,8 +16389,6 @@ isConstant
 )
 &
 &
-ToBoolean
-(
 cond
 -
 >
@@ -16399,9 +16397,8 @@ toConstant
 )
 -
 >
-value
+valueToBoolean
 (
-)
 )
 )
 {
@@ -16791,8 +16788,6 @@ isConstant
 {
 if
 (
-ToBoolean
-(
 cond
 -
 >
@@ -16801,9 +16796,8 @@ toConstant
 )
 -
 >
-value
+valueToBoolean
 (
-)
 )
 )
 {

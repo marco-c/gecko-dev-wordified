@@ -4260,8 +4260,6 @@ isConstant
 bool
 result
 =
-ToBoolean
-(
 opd
 -
 >
@@ -4270,9 +4268,8 @@ toConstant
 )
 -
 >
-value
+valueToBoolean
 (
-)
 )
 ;
 return
@@ -4320,8 +4317,6 @@ isConstant
 bool
 result
 =
-ToBoolean
-(
 opd
 -
 >
@@ -4330,9 +4325,8 @@ toConstant
 )
 -
 >
-value
+valueToBoolean
 (
-)
 )
 ;
 return

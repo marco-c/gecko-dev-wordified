@@ -14921,10 +14921,8 @@ isConstant
 )
 )
 {
-const
-Value
-&
-v
+bool
+result
 =
 operand
 (
@@ -14936,7 +14934,7 @@ toConstant
 )
 -
 >
-value
+valueToBoolean
 (
 )
 ;
@@ -14958,10 +14956,7 @@ New
 Int32Value
 (
 !
-ToBoolean
-(
-v
-)
+result
 )
 )
 ;
@@ -14969,8 +14964,9 @@ v
 /
 ToBoolean
 can
+'
+t
 cause
-no
 side
 effects
 so
@@ -14987,10 +14983,7 @@ New
 BooleanValue
 (
 !
-ToBoolean
-(
-v
-)
+result
 )
 )
 ;
