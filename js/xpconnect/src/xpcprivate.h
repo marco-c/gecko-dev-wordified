@@ -1321,13 +1321,6 @@ h
 #
 include
 "
-nsISecurityCheckedComponent
-.
-h
-"
-#
-include
-"
 xpcObjectHelper
 .
 h
