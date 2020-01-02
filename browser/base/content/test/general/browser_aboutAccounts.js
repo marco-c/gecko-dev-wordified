@@ -251,6 +251,8 @@ fxaccounts
 .
 remote
 .
+signup
+.
 uri
 "
 "
@@ -905,6 +907,8 @@ fxaccounts
 .
 remote
 .
+signup
+.
 uri
 "
 expected_url
@@ -1052,6 +1056,8 @@ identity
 fxaccounts
 .
 remote
+.
+signup
 .
 uri
 "
@@ -1358,6 +1364,8 @@ identity
 fxaccounts
 .
 remote
+.
+signup
 .
 uri
 "

@@ -750,7 +750,7 @@ url
 |
 fxAccounts
 .
-getAccountsURI
+getAccountsSignUpURI
 (
 )
 ;
@@ -1709,7 +1709,7 @@ authUrl
 =
 fxAccounts
 .
-getAccountsURI
+getAccountsSignUpURI
 (
 )
 ;

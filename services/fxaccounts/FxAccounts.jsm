@@ -359,7 +359,7 @@ getAccountsClient
 getAccountsSignInURI
 "
 "
-getAccountsURI
+getAccountsSignUpURI
 "
 "
 getAssertion
@@ -5007,7 +5007,7 @@ remote
 UI
 flows
 .
-getAccountsURI
+getAccountsSignUpURI
 :
 function
 (
@@ -5028,6 +5028,8 @@ identity
 fxaccounts
 .
 remote
+.
+signup
 .
 uri
 "
