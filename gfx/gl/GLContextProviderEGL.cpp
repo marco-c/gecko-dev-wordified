@@ -1816,6 +1816,12 @@ surface
 mContext
 )
 ;
+if
+(
+!
+succeeded
+)
+{
 int
 eglError
 =
@@ -1825,12 +1831,6 @@ fGetError
 (
 )
 ;
-if
-(
-!
-succeeded
-)
-{
 if
 (
 eglError
