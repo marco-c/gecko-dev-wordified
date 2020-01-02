@@ -142,7 +142,7 @@ nsAppShell
 :
 mEventWnd
 (
-NULL
+nullptr
 )
 {
 }

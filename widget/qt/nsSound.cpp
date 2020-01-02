@@ -1644,7 +1644,7 @@ EsdPlayStream
 (
 mask
 samples_per_sec
-NULL
+nullptr
 "
 mozillaSound
 "

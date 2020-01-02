@@ -190,11 +190,11 @@ nsDragService
 :
 mDrag
 (
-NULL
+nullptr
 )
 mHiddenWidget
 (
-NULL
+nullptr
 )
 {
 }

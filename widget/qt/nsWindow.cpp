@@ -13509,7 +13509,7 @@ char
 *
 role
 =
-NULL
+nullptr
 ;
 class_hint
 -
@@ -15275,7 +15275,7 @@ char
 *
 windowName
 =
-NULL
+nullptr
 ;
 Qt
 :

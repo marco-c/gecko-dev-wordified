@@ -635,13 +635,13 @@ SizeNeeded
 :
 SplQueryQueue
 (
-NULL
+nullptr
 pInfo
 -
 >
 pszName
 3
-NULL
+nullptr
 0
 &
 SizeNeeded
@@ -662,7 +662,7 @@ SizeNeeded
 :
 SplQueryQueue
 (
-NULL
+nullptr
 pInfo
 -
 >
@@ -914,9 +914,9 @@ rc
 :
 SplEnumQueue
 (
-NULL
+nullptr
 3
-NULL
+nullptr
 0
 &
 mQueueCount
@@ -924,7 +924,7 @@ mQueueCount
 TotalQueues
 &
 MemNeeded
-NULL
+nullptr
 )
 ;
 PRQINFO3
@@ -946,7 +946,7 @@ rc
 :
 SplEnumQueue
 (
-NULL
+nullptr
 3
 pPQI3Buf
 MemNeeded
@@ -956,7 +956,7 @@ mQueueCount
 TotalQueues
 &
 MemNeeded
-NULL
+nullptr
 )
 ;
 if
@@ -1139,9 +1139,9 @@ rc
 :
 SplEnumQueue
 (
-NULL
+nullptr
 3
-NULL
+nullptr
 0
 &
 newQueueCount
@@ -1149,7 +1149,7 @@ newQueueCount
 TotalQueues
 &
 MemNeeded
-NULL
+nullptr
 )
 ;
 PRQINFO3
@@ -1171,7 +1171,7 @@ rc
 :
 SplEnumQueue
 (
-NULL
+nullptr
 3
 pPQI3Buf
 MemNeeded
@@ -1181,7 +1181,7 @@ newQueueCount
 TotalQueues
 &
 MemNeeded
-NULL
+nullptr
 )
 ;
 if
@@ -1650,7 +1650,7 @@ PRTQUEUE
 *
 pPQ
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1660,7 +1660,7 @@ printerNdx
 mQueueCount
 )
 return
-NULL
+nullptr
 ;
 pPQ
 =
@@ -1723,7 +1723,7 @@ printerNdx
 mQueueCount
 )
 return
-NULL
+nullptr
 ;
 return
 mPQBuf
@@ -1910,7 +1910,7 @@ pOldDrivData
 PDRIVDATA
 pNewDrivData
 =
-NULL
+nullptr
 ;
 LONG
 buflen
@@ -1937,7 +1937,7 @@ DevPostDeviceModes
 hab
 *
 /
-NULL
+nullptr
 mPQBuf
 [
 printerNdx
@@ -2711,7 +2711,7 @@ DevQueryHardcopyCaps
 hdc
 0
 0
-NULL
+nullptr
 )
 ;
 pBuffer

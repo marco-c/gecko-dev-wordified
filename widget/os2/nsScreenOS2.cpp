@@ -296,7 +296,7 @@ PWRECT
 pwrcWorkArea
 )
 =
-NULL
+nullptr
 ;
 GetRect
 (
@@ -373,7 +373,7 @@ DosQueryProcAddr
 (
 hmod
 5469
-NULL
+nullptr
 (
 PFN
 *

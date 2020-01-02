@@ -336,7 +336,7 @@ if
 WinQueryQueueInfo
 (
 HMQ_CURRENT
-NULL
+nullptr
 0
 )
 =
@@ -426,7 +426,7 @@ nsAppShell
 EventWindowClass
 "
 EventWindowProc
-NULL
+nullptr
 0
 )
 ;
@@ -564,7 +564,7 @@ HAB
 0
 &
 qmsg
-NULL
+nullptr
 WM_CHAR
 WM_VIOCHAR
 PM_REMOVE
@@ -579,7 +579,7 @@ HAB
 0
 &
 qmsg
-NULL
+nullptr
 WM_MOUSEFIRST
 WM_MOUSELAST
 PM_REMOVE
@@ -594,7 +594,7 @@ HAB
 0
 &
 qmsg
-NULL
+nullptr
 0
 WM_USER
 -
@@ -611,7 +611,7 @@ HAB
 0
 &
 qmsg
-NULL
+nullptr
 0
 0
 PM_REMOVE

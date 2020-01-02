@@ -2665,7 +2665,7 @@ char
 *
 flavor
 =
-NULL
+nullptr
 ;
 QStringList
 formats
