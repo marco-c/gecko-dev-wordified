@@ -1189,6 +1189,13 @@ mIsRepeatTransaction
 +
 mPaintSequenceNumber
 ;
+mApzTestData
+.
+StartNewPaint
+(
+mPaintSequenceNumber
+)
+;
 }
 }
 void
