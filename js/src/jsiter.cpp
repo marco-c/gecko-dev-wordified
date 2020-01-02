@@ -9387,8 +9387,6 @@ pushInterpreterFrame
 JSContext
 *
 cx
-FrameGuard
-*
 )
 {
 /
