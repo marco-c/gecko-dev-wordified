@@ -4811,8 +4811,6 @@ mName
 length
 (
 )
-+
-1
 ;
 memset
 (
@@ -4838,6 +4836,8 @@ plname
 )
 <
 plNameLength
++
+1
 )
 {
 CSFLogError
@@ -4872,14 +4872,7 @@ mName
 c_str
 (
 )
-codecInfo
--
->
-mName
-.
-length
-(
-)
+plNameLength
 )
 ;
 cinst
