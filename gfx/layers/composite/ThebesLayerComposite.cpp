@@ -463,7 +463,7 @@ CleanupResources
 )
 ;
 }
-void
+bool
 ThebesLayerComposite
 :
 :
@@ -484,6 +484,9 @@ ContentHost
 (
 aHost
 )
+;
+return
+true
 ;
 }
 void

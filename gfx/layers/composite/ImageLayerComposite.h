@@ -268,7 +268,7 @@ Disconnect
 MOZ_OVERRIDE
 ;
 virtual
-void
+bool
 SetCompositableHost
 (
 CompositableHost

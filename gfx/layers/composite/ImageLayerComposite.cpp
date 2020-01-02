@@ -426,7 +426,7 @@ CleanupResources
 )
 ;
 }
-void
+bool
 ImageLayerComposite
 :
 :
@@ -440,6 +440,9 @@ aHost
 mImageHost
 =
 aHost
+;
+return
+true
 ;
 }
 void

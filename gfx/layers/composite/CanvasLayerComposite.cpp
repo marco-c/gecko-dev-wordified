@@ -366,7 +366,7 @@ CleanupResources
 )
 ;
 }
-void
+bool
 CanvasLayerComposite
 :
 :
@@ -380,6 +380,9 @@ aHost
 mImageHost
 =
 aHost
+;
+return
+true
 ;
 }
 Layer
