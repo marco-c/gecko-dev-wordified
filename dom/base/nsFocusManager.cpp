@@ -16199,6 +16199,16 @@ if
 aNoParentTraversal
 )
 {
+if
+(
+startContent
+=
+=
+rootContent
+)
+return
+NS_OK
+;
 startContent
 =
 rootContent
