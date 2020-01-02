@@ -40325,7 +40325,7 @@ sendChromeMessage
 rilMessageType
 :
 "
-USSDReceived
+ussdreceived
 "
 message
 :
