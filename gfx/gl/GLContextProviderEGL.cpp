@@ -1887,8 +1887,7 @@ virtual
 void
 SetEGLSurfaceOverride
 (
-void
-*
+EGLSurface
 surf
 )
 MOZ_OVERRIDE
