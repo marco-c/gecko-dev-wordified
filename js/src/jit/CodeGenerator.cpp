@@ -23392,6 +23392,9 @@ iter
 +
 )
 {
+#
+ifdef
+DEBUG
 IonSpewStart
 (
 IonSpew_Codegen
@@ -23408,9 +23411,6 @@ opName
 )
 )
 ;
-#
-ifdef
-DEBUG
 if
 (
 const
@@ -23436,13 +23436,13 @@ s
 extra
 )
 ;
-#
-endif
 IonSpewFin
 (
 IonSpew_Codegen
 )
 ;
+#
+endif
 if
 (
 counts
