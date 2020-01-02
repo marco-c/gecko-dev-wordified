@@ -5944,11 +5944,8 @@ browserArgs
 append
 (
 "
-org
-.
-mozilla
-.
-gecko
+%
+s
 .
 tests
 .
@@ -5956,12 +5953,17 @@ tests
 s
 "
 %
+(
+options
+.
+remoteappname
 test
 [
 '
 name
 '
 ]
+)
 )
             
 options
@@ -5979,14 +5981,15 @@ roboexample
 .
 test
 /
-org
-.
-mozilla
-.
-gecko
+%
+s
 .
 FennecInstrumentationTestRunner
 "
+%
+options
+.
+remoteappname
 )
             
 #
