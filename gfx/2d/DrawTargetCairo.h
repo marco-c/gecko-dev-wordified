@@ -899,6 +899,10 @@ DrawOptions
 aOptions
 DrawPatternType
 aDrawType
+bool
+aPathBoundsClip
+=
+false
 )
 ;
 void
