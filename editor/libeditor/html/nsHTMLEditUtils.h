@@ -239,6 +239,15 @@ aNode
 ;
 static
 bool
+IsTable
+(
+nsINode
+*
+aNode
+)
+;
+static
+bool
 IsTableRow
 (
 nsIDOMNode
