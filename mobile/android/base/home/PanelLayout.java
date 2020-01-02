@@ -2850,7 +2850,7 @@ icon_home_empty_firefox
 }
 else
 {
-Picasso
+ImageLoader
 .
 with
 (
