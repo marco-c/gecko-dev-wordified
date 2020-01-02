@@ -458,6 +458,10 @@ nsNSSShutDownPreventionLock
 proofOfLock
 )
 ;
+nsNSSCertList
+(
+)
+;
 static
 CERTCertList
 *
