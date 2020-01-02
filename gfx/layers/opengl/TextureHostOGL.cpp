@@ -1462,6 +1462,17 @@ GetFormat
 (
 )
 )
+WrapMode
+(
+mGL
+mFlags
+&
+TEXTURE_ALLOW_REPEAT
+)
+FlagsToGLFlags
+(
+mFlags
+)
 SurfaceFormatToImageFormat
 (
 aSurface
