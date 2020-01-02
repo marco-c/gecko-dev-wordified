@@ -2657,8 +2657,11 @@ DO_NOT_FINISH_TEST
 )
 SimpleTest
 .
-finish
+executeSoon
 (
+SimpleTest
+.
+finish
 )
 ;
 return
