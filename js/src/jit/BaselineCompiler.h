@@ -424,6 +424,11 @@ JSOP_OBJECT
 \
 _
 (
+JSOP_CALLSITEOBJ
+)
+\
+_
+(
 JSOP_REGEXP
 )
 \
