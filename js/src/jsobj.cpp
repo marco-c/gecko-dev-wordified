@@ -10458,14 +10458,6 @@ newKind
 if
 (
 res
-&
-&
-cx
--
->
-typeInferenceEnabled
-(
-)
 )
 {
 JSScript

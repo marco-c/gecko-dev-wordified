@@ -2223,13 +2223,6 @@ from
 an
 ExclusiveContext
 .
-inline
-bool
-typeInferenceEnabled
-(
-)
-const
-;
 types
 :
 :

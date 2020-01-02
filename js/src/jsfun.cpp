@@ -11833,14 +11833,6 @@ parent
 JS_ASSERT_IF
 (
 native
-&
-&
-cx
--
->
-typeInferenceEnabled
-(
-)
 funobj
 -
 >

@@ -1592,14 +1592,6 @@ Zone
 (
 )
 ;
-bool
-init
-(
-JSContext
-*
-cx
-)
-;
 void
 findOutgoingEdges
 (
