@@ -903,6 +903,15 @@ setDelegate
 this
 )
 ;
+GeckoAccessibility
+.
+setAccessibilityStateChangeListener
+(
+getContext
+(
+)
+)
+;
 }
 private
 static
