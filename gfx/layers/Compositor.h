@@ -2742,6 +2742,15 @@ endif
 /
 /
 MOZ_DUMP_PAINTING
+virtual
+LayersBackend
+GetBackendType
+(
+)
+const
+=
+0
+;
 /
 *
 *
