@@ -95,6 +95,8 @@ org
 mozilla
 .
 gecko
+.
+widget
 ;
 import
 org
@@ -103,9 +105,16 @@ mozilla
 .
 gecko
 .
-widget
+R
+;
+import
+org
 .
-Divider
+mozilla
+.
+gecko
+.
+Tabs
 ;
 import
 org

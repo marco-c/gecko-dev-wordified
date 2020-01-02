@@ -125,6 +125,17 @@ mozilla
 .
 gecko
 .
+widget
+.
+DoorHanger
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 prompts
 .
 PromptInput
