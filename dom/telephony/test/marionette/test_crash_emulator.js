@@ -230,7 +230,7 @@ callDuration
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm

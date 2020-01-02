@@ -153,7 +153,7 @@ incomingCall
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -218,7 +218,7 @@ answerIncoming
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -365,7 +365,7 @@ active
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -594,7 +594,7 @@ incomingCall
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -823,7 +823,7 @@ alerting
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -1006,7 +1006,7 @@ active
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -1090,7 +1090,7 @@ holdSecondCall
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -1436,7 +1436,7 @@ outgoingCall
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -1700,7 +1700,7 @@ outgoingCall
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -1940,7 +1940,7 @@ length
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm

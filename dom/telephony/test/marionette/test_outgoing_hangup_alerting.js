@@ -182,7 +182,7 @@ event
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -384,7 +384,7 @@ length
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm

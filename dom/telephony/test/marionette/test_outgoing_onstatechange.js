@@ -214,7 +214,7 @@ alerting
 {
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -366,7 +366,7 @@ active
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -431,7 +431,7 @@ hold
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -559,7 +559,7 @@ outgoingCall
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -746,7 +746,7 @@ outgoingCall
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -929,7 +929,7 @@ length
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
