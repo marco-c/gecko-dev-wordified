@@ -12658,8 +12658,15 @@ before
 :
 after
 content
+/
+*
 static
+*
+/
 void
+RestyleManager
+:
+:
 TryStartingTransition
 (
 nsPresContext
@@ -18481,6 +18488,9 @@ if
 copyFromContinuation
 )
 {
+RestyleManager
+:
+:
 TryStartingTransition
 (
 mPresContext
