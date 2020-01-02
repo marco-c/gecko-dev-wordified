@@ -9434,6 +9434,13 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
+&
+&
+!
+defined
+(
+MOZ_ANDROID_APZ
+)
 FrameMetrics
 compositorMetrics
 =
