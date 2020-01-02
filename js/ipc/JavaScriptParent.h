@@ -693,11 +693,11 @@ aCtx
 )
 MOZ_OVERRIDE
 ;
-protected
+private
 :
 JSObject
 *
-unwrap
+fromId
 (
 JSContext
 *
@@ -706,10 +706,8 @@ ObjectId
 objId
 )
 ;
-private
-:
 bool
-makeId
+toId
 (
 JSContext
 *

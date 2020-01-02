@@ -367,7 +367,7 @@ bool
 JavaScriptChild
 :
 :
-makeId
+toId
 (
 JSContext
 *
@@ -509,7 +509,7 @@ JSObject
 JavaScriptChild
 :
 :
-unwrap
+fromId
 (
 JSContext
 *

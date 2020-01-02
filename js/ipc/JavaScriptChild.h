@@ -513,11 +513,11 @@ instanceof
 )
 MOZ_OVERRIDE
 ;
-protected
+private
 :
 JSObject
 *
-unwrap
+fromId
 (
 JSContext
 *
@@ -526,10 +526,8 @@ ObjectId
 id
 )
 ;
-private
-:
 bool
-makeId
+toId
 (
 JSContext
 *
