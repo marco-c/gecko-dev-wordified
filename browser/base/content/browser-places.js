@@ -7049,7 +7049,7 @@ node
 removeAttribute
 (
 "
-noautoclose
+closemenu
 "
 )
 ;
@@ -8073,10 +8073,10 @@ node
 setAttribute
 (
 "
-noautoclose
+closemenu
 "
 "
-true
+none
 "
 )
 ;
@@ -8151,7 +8151,7 @@ node
 removeAttribute
 (
 "
-noautoclose
+closemenu
 "
 )
 ;
@@ -8163,10 +8163,10 @@ node
 setAttribute
 (
 "
-noautoclose
+closemenu
 "
 "
-true
+none
 "
 )
 ;
