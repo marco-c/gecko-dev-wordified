@@ -639,9 +639,9 @@ void
 submitSlices
 (
 uint16_t
-sliceFrom
+sliceStart
 uint16_t
-sliceTo
+sliceEnd
 )
 ;
 /
@@ -1788,6 +1788,13 @@ workers_
 )
 ;
 }
+static
+const
+uint16_t
+MAX_SLICE_ID
+=
+UINT16_MAX
+;
 ThreadPool
 (
 JSRuntime
