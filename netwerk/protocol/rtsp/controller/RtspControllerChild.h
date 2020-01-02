@@ -279,6 +279,8 @@ already_AddRefed
 <
 nsIStreamingProtocolMetaData
 >
+&
+&
 meta
 )
 ;

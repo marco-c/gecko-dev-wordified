@@ -280,6 +280,7 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
 aNodeInfo
 bool
 aNsAware
@@ -404,6 +405,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 const
 nsAString

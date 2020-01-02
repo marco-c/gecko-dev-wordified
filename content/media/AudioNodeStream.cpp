@@ -833,6 +833,8 @@ already_AddRefed
 <
 ThreadSharedFloatArrayBufferList
 >
+&
+&
 aBuffer
 )
 {
@@ -853,6 +855,7 @@ already_AddRefed
 <
 ThreadSharedFloatArrayBufferList
 >
+&
 aBuffer
 )
 :

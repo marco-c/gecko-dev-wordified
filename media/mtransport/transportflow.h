@@ -456,6 +456,8 @@ class
 TransportFlow
 :
 public
+nsISupports
+public
 sigslot
 :
 :
@@ -847,10 +849,7 @@ layer
 )
 const
 ;
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-TransportFlow
-)
+NS_DECL_THREADSAFE_ISUPPORTS
 private
 :
 DISALLOW_COPY_ASSIGN

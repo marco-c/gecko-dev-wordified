@@ -212,6 +212,7 @@ mozilla
 :
 DataChannel
 >
+&
 aDataChannel
 nsPIDOMWindow
 *

@@ -1119,9 +1119,9 @@ aItems
 ErrorResult
 rv
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsISupports
+DOMStringList
 >
 items
 =

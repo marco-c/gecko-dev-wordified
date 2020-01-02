@@ -969,6 +969,8 @@ already_AddRefed
 <
 nsIEventTarget
 >
+&
+&
 aSyncLoopTarget
 )
 ;
@@ -1071,13 +1073,18 @@ already_AddRefed
 <
 nsIEventTarget
 >
+&
+&
 aSyncLoopTarget
 )
 :
 WorkerSyncRunnable
 (
 aWorkerPrivate
+Move
+(
 aSyncLoopTarget
+)
 )
 {
 AssertIsOnMainThread
@@ -1203,6 +1210,8 @@ already_AddRefed
 <
 nsIEventTarget
 >
+&
+&
 aSyncLoopTarget
 bool
 aResult
@@ -1350,6 +1359,8 @@ already_AddRefed
 <
 nsIEventTarget
 >
+&
+&
 aSyncLoopTarget
 bool
 aResult
@@ -1358,7 +1369,10 @@ aResult
 StopSyncLoopRunnable
 (
 aWorkerPrivate
+Move
+(
 aSyncLoopTarget
+)
 aResult
 )
 {

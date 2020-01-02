@@ -191,6 +191,7 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
 aNodeInfo
 mozilla
 :

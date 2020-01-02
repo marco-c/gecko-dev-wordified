@@ -349,6 +349,10 @@ nsDOMEventTargetHelper
 class
 Session
 ;
+friend
+class
+CreateAndDispatchBlobEventRunnable
+;
 public
 :
 MediaRecorder
@@ -677,11 +681,11 @@ thread
 nsresult
 CreateAndDispatchBlobEvent
 (
-const
 already_AddRefed
 <
 nsIDOMBlob
 >
+&
 &
 aBlob
 )

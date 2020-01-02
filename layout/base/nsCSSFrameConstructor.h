@@ -4933,6 +4933,8 @@ already_AddRefed
 <
 nsStyleContext
 >
+&
+&
 aStyleContext
 bool
 aSuppressWhiteSpaceOptimizations
@@ -6202,6 +6204,7 @@ already_AddRefed
 <
 nsStyleContext
 >
+&
 aStyleContext
 bool
 aSuppressWhiteSpaceOptimizations

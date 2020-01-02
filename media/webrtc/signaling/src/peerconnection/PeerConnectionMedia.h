@@ -1190,6 +1190,7 @@ already_AddRefed
 <
 DOMMediaStream
 >
+&
 aMediaStream
 PeerConnectionMedia
 *

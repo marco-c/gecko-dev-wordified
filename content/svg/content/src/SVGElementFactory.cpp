@@ -248,6 +248,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 )
 ;
@@ -274,6 +276,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 \
 FromParser
@@ -292,7 +296,13 @@ _classname
 Element
 (
 aResult
+mozilla
+:
+:
+Move
+(
 aNodeInfo
+)
 )
 ;
 \
@@ -324,6 +334,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 \
 FromParser
@@ -354,6 +366,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 )
 ;
@@ -372,6 +386,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 FromParser
 aFromParser
@@ -663,6 +679,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 FromParser
 aFromParser

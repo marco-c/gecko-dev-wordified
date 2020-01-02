@@ -489,6 +489,8 @@ already_AddRefed
 <
 ThreadSharedFloatArrayBufferList
 >
+&
+&
 aBuffer
 )
 ;

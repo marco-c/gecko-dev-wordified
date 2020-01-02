@@ -1217,9 +1217,10 @@ already_AddRefed
 <
 DataChannel
 >
-channel
+&
+&
+aChannel
 )
-NS_WARN_UNUSED_RESULT
 ;
 void
 StartDefer
