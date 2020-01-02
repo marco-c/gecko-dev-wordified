@@ -184,6 +184,16 @@ nsRangeFrame
 (
 )
 ;
+typedef
+mozilla
+:
+:
+dom
+:
+:
+Element
+Element
+;
 public
 :
 NS_DECL_QUERYFRAME_TARGET
@@ -756,9 +766,9 @@ UpdateForValueChange
 )
 ;
 virtual
-nsIContent
+Element
 *
-GetPseudoElementContent
+GetPseudoElement
 (
 nsCSSPseudoElements
 :
@@ -773,7 +783,7 @@ private
 nsresult
 MakeAnonymousDiv
 (
-nsIContent
+Element
 *
 *
 aResult
@@ -872,7 +882,7 @@ CreateAnonymousContent
 /
 nsCOMPtr
 <
-nsIContent
+Element
 >
 mTrackDiv
 ;
@@ -932,7 +942,7 @@ CreateAnonymousContent
 /
 nsCOMPtr
 <
-nsIContent
+Element
 >
 mProgressDiv
 ;
@@ -968,7 +978,7 @@ CreateAnonymousContent
 /
 nsCOMPtr
 <
-nsIContent
+Element
 >
 mThumbDiv
 ;

@@ -22480,9 +22480,15 @@ content
 *
 /
 virtual
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
-GetPseudoElementContent
+GetPseudoElement
 (
 nsCSSPseudoElements
 :

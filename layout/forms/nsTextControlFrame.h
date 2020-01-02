@@ -483,9 +483,15 @@ aLists
 MOZ_OVERRIDE
 ;
 virtual
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
-GetPseudoElementContent
+GetPseudoElement
 (
 nsCSSPseudoElements
 :
