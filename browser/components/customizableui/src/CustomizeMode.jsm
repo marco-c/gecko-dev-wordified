@@ -1072,11 +1072,12 @@ and
 /
 endBatchUpdate
 .
+yield
 window
 .
 PanelUI
 .
-ensureRegistered
+ensureReady
 (
 true
 )
