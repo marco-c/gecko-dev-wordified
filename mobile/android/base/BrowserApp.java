@@ -17216,7 +17216,7 @@ isBookmarkAction
 =
 GeckoApp
 .
-ACTION_BOOKMARK
+ACTION_HOMESCREEN_SHORTCUT
 .
 equals
 (
@@ -17263,7 +17263,7 @@ cancelEdit
 /
 GeckoApp
 .
-ACTION_BOOKMARK
+ACTION_HOMESCREEN_SHORTCUT
 means
 we
 '
