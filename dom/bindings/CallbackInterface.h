@@ -213,11 +213,15 @@ CallbackInterface
 JSObject
 *
 aCallback
+nsIGlobalObject
+*
+aIncumbentGlobal
 )
 :
 CallbackObject
 (
 aCallback
+aIncumbentGlobal
 )
 {
 }
