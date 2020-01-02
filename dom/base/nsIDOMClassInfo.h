@@ -205,12 +205,6 @@ WANT_NEWRESOLVE
 nsIXPCScriptable
 :
 :
-WANT_CHECKACCESS
-|
-\
-nsIXPCScriptable
-:
-:
 WANT_PRECREATE
 )
 #

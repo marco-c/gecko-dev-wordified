@@ -10618,14 +10618,6 @@ GET_IT
 WANT_FINALIZE
 )
 bool
-WantCheckAccess
-(
-)
-GET_IT
-(
-WANT_CHECKACCESS
-)
-bool
 WantCall
 (
 )
