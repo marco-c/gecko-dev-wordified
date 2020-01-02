@@ -374,6 +374,16 @@ return
 aTexture
 -
 >
+SetCompositableBackendSpecificData
+(
+GetCompositableBackendSpecificData
+(
+)
+)
+;
+aTexture
+-
+>
 SetCompositor
 (
 GetCompositor
