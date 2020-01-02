@@ -123,6 +123,13 @@ __FilteringWrapper_h__
 #
 include
 "
+XrayWrapper
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes

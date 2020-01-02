@@ -149,6 +149,13 @@ jsapi
 .
 h
 "
+#
+include
+"
+jswrapper
+.
+h
+"
 using
 namespace
 JS
@@ -563,6 +570,9 @@ if
 handler
 -
 >
+js
+:
+:
 CrossCompartmentSecurityWrapper
 :
 :
