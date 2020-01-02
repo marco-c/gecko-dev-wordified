@@ -399,9 +399,7 @@ mAcquisitionContext
 CallStack
 :
 :
-NullCallStack
-(
-)
+kNone
 )
 {
 NS_ABORT_IF_FALSE
@@ -682,9 +680,7 @@ or
 CallStack
 :
 :
-NullCallStack
-(
-)
+kNone
 |
 if
 it
@@ -1346,9 +1342,7 @@ or
 CallStack
 :
 :
-NullCallStack
-(
-)
+kNone
 if
 it
 '
