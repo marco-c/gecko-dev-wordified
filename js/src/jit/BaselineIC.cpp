@@ -4150,11 +4150,6 @@ about
 those
 edges
 .
-if
-(
-hasFallbackStub_
-)
-{
 for
 (
 ICStub
@@ -4193,7 +4188,6 @@ barrierTracer
 )
 )
 ;
-}
 }
 firstMonitorStub_
 =
