@@ -409,6 +409,13 @@ using
 namespace
 mozilla
 ;
+static
+NS_DEFINE_CID
+(
+kRDFServiceCID
+NS_RDFSERVICE_CID
+)
+;
 /
 /
 -
@@ -648,7 +655,7 @@ rv
 =
 CallGetService
 (
-NS_RDFSERVICE_CID
+kRDFServiceCID
 &
 gRDF
 )
