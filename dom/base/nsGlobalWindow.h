@@ -2520,6 +2520,12 @@ bool
 aForceReuseInnerWindow
 )
 ;
+/
+/
+Outer
+windows
+only
+.
 void
 DispatchDOMWindowCreated
 (

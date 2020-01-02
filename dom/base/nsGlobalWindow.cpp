@@ -16289,6 +16289,13 @@ DispatchDOMWindowCreated
 (
 )
 {
+MOZ_ASSERT
+(
+IsOuterWindow
+(
+)
+)
+;
 if
 (
 !
