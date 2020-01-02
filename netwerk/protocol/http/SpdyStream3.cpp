@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsHttp
 .
 h
@@ -204,6 +197,13 @@ h
 include
 "
 SpdyStream3
+.
+h
+"
+#
+include
+"
+PSpdyPush3
 .
 h
 "

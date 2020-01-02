@@ -147,6 +147,13 @@ h
 #
 include
 "
+nsAHttpConnection
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h

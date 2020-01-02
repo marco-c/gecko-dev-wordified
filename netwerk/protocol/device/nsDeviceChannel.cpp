@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsComponentManagerUtils
-.
-h
-"
-#
-include
-"
 nsDeviceChannel
 .
 h
@@ -122,6 +115,9 @@ nsDeviceCaptureProvider
 h
 "
 #
+ifdef
+MOZ_WIDGET_ANDROID
+#
 include
 "
 mozilla
@@ -130,9 +126,6 @@ Preferences
 .
 h
 "
-#
-ifdef
-MOZ_WIDGET_ANDROID
 #
 include
 "

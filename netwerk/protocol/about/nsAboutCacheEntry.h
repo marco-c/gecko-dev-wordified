@@ -127,16 +127,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-nsString
-.
-h
-"
-class
-nsICacheEntryDescriptor
-;
 class
 nsIAsyncOutputStream
 ;
@@ -145,6 +135,9 @@ nsIInputStream
 ;
 class
 nsIURI
+;
+class
+nsCString
 ;
 class
 nsAboutCacheEntry

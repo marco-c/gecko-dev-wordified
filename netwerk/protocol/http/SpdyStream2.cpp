@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 prnetdb
 .
 h

@@ -185,13 +185,6 @@ h
 #
 include
 "
-nsMimeTypes
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

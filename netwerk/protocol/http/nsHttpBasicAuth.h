@@ -106,9 +106,6 @@ nsIHttpAuthenticator
 .
 h
 "
-class
-nsIURI
-;
 /
 /
 -

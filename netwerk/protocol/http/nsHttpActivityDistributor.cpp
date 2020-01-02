@@ -83,13 +83,6 @@ h
 #
 include
 "
-nsIChannel
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -98,13 +91,6 @@ h
 include
 "
 nsAutoPtr
-.
-h
-"
-#
-include
-"
-nsNetUtil
 .
 h
 "

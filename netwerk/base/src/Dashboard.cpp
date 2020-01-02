@@ -157,6 +157,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+nsURLHelper
+.
+h
+"
 using
 mozilla
 :

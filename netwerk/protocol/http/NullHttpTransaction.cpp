@@ -145,14 +145,14 @@ h
 #
 include
 "
-nsProxyRelease
+nsHttpHandler
 .
 h
 "
 #
 include
 "
-nsHttpHandler
+nsHttpRequestHead
 .
 h
 "

@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsIIOService
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
@@ -134,6 +127,9 @@ nsStandardURL
 .
 h
 "
+class
+nsIIOService
+;
 struct
 ResourceMapping
 ;

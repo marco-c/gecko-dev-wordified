@@ -164,13 +164,6 @@ h
 #
 include
 "
-nsURLHelper
-.
-h
-"
-#
-include
-"
 nsMimeTypes
 .
 h
@@ -193,13 +186,6 @@ h
 include
 "
 nsAutoPtr
-.
-h
-"
-#
-include
-"
-nsStandardURL
 .
 h
 "

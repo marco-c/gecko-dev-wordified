@@ -84,6 +84,13 @@ nsIAboutModule
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 inline
 nsresult
 NS_GetAboutModuleName
