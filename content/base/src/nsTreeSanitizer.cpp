@@ -1719,6 +1719,14 @@ feDistantLight
 nsGkAtoms
 :
 :
+feDropShadow
+/
+/
+feDropShadow
+&
+nsGkAtoms
+:
+:
 feFlood
 /
 /

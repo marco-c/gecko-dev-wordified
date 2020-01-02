@@ -9254,6 +9254,13 @@ feDistantLight
 )
 GK_ATOM
 (
+feDropShadow
+"
+feDropShadow
+"
+)
+GK_ATOM
+(
 feFlood
 "
 feFlood
