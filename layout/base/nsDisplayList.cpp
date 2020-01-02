@@ -3402,10 +3402,6 @@ mIncludeAllOutOfFlows
 (
 false
 )
-mDescendIntoSubdocuments
-(
-true
-)
 mSelectedFramesOnly
 (
 false
