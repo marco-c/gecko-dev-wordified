@@ -4186,6 +4186,11 @@ JSFunction
 DeclMarkerImpl
 (
 Object
+NestedScopeObject
+)
+DeclMarkerImpl
+(
+Object
 ObjectImpl
 )
 DeclMarkerImpl
