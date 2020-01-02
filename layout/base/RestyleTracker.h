@@ -1123,7 +1123,17 @@ parentEntry
 >
 mChangeKind
 =
+std
+:
+:
+max
+(
+parentEntry
+-
+>
+mChangeKind
 CHILDREN_CHANGED
+)
 ;
 }
 else
