@@ -18205,7 +18205,7 @@ things
 KIND_OTHER
 rtStats
 .
-gcHeapGcThings
+gcHeapGCThings
 "
 Memory
 on
