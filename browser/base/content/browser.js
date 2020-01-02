@@ -16059,6 +16059,11 @@ switch
 elementId
 )
 {
+case
+"
+exceptionDialogButton
+"
+:
 let
 docshell
 =
@@ -16110,11 +16115,6 @@ nsISSLStatusProvider
 .
 SSLStatus
 ;
-case
-"
-exceptionDialogButton
-"
-:
 if
 (
 isTopFrame
