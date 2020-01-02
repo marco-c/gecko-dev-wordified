@@ -3582,7 +3582,7 @@ char
 result
 )
 {
-int16_t
+uint16_t
 methodLen
 =
 method
@@ -3591,7 +3591,7 @@ Length
 (
 )
 ;
-int16_t
+uint32_t
 pathLen
 =
 path
@@ -3600,7 +3600,7 @@ Length
 (
 )
 ;
-int16_t
+uint32_t
 len
 =
 methodLen
