@@ -2500,6 +2500,10 @@ gDebugger
 =
 null
 ;
+gVariables
+=
+null
+;
 }
 )
 ;
