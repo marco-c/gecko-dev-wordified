@@ -6533,7 +6533,7 @@ transition
 -
 duration
 :
-150ms
+200ms
 ;
 transition
 -
@@ -6541,9 +6541,7 @@ timing
 -
 function
 :
-ease
--
-out
+linear
 ;
 }
 #
