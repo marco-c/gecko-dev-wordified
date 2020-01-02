@@ -186,6 +186,7 @@ CK_ULONG
 count
 )
 {
+unsigned
 int
 i
 ;
