@@ -148,10 +148,6 @@ LayerTransactionParent
 *
 aLayerTree
 const
-uint64_t
-&
-aTransactionId
-const
 TargetConfig
 &
 aTargetConfig
