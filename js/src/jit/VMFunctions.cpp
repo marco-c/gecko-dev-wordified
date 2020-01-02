@@ -5847,10 +5847,15 @@ pc
 {
 JS_ASSERT
 (
-cx
+frame
 -
 >
-compartment
+script
+(
+)
+-
+>
+baselineScript
 (
 )
 -
