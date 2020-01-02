@@ -6888,12 +6888,12 @@ gService
 =
 nullptr
 ;
-NS_IMPL_ISUPPORTS_INHERITED2
+NS_IMPL_ISUPPORTS3
 (
 nsCacheService
-MemoryMultiReporter
 nsICacheService
 nsICacheServiceInternal
+nsIMemoryReporter
 )
 nsCacheService
 :
@@ -18849,6 +18849,10 @@ EvictPrivateEntries
 ;
 }
 }
+MOZ_DEFINE_MALLOC_SIZE_OF
+(
+DiskCacheDeviceMallocSizeOf
+)
 NS_IMETHODIMP
 nsCacheService
 :
@@ -18889,7 +18893,7 @@ mDiskDevice
 >
 SizeOfIncludingThis
 (
-MallocSizeOf
+DiskCacheDeviceMallocSizeOf
 )
 ;
 }

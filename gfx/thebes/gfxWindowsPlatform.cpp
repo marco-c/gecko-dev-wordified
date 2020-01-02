@@ -1011,7 +1011,7 @@ class
 GPUAdapterReporter
 :
 public
-MemoryMultiReporter
+nsIMemoryReporter
 {
 /
 /
@@ -1122,11 +1122,7 @@ result
 }
 public
 :
-GPUAdapterReporter
-(
-)
-{
-}
+NS_DECL_ISUPPORTS
 NS_IMETHOD
 CollectReports
 (
@@ -1716,6 +1712,11 @@ NS_OK
 }
 }
 ;
+NS_IMPL_ISUPPORTS1
+(
+GPUAdapterReporter
+nsIMemoryReporter
+)
 static
 __inline
 void

@@ -381,6 +381,10 @@ mozilla
 namespace
 scache
 {
+MOZ_DEFINE_MALLOC_SIZE_OF
+(
+StartupCacheMallocSizeOf
+)
 NS_IMETHODIMP
 StartupCache
 :
@@ -512,7 +516,7 @@ data
 KIND_HEAP
 HeapSizeOfIncludingThis
 (
-MallocSizeOf
+StartupCacheMallocSizeOf
 )
 "
 Memory
@@ -743,10 +747,10 @@ StartupCache
 :
 IGNORE_AGE
 ;
-NS_IMPL_ISUPPORTS_INHERITED0
+NS_IMPL_ISUPPORTS1
 (
 StartupCache
-MemoryMultiReporter
+nsIMemoryReporter
 )
 StartupCache
 :

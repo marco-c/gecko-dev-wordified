@@ -1079,12 +1079,12 @@ NS_OK
 /
 nsObserverService
 Implementation
-NS_IMPL_ISUPPORTS_INHERITED2
+NS_IMPL_ISUPPORTS3
 (
 nsObserverService
-MemoryMultiReporter
 nsIObserverService
 nsObserverService
+nsIMemoryReporter
 )
 nsObserverService
 :

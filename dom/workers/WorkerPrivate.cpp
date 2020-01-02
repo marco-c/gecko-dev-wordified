@@ -9600,8 +9600,9 @@ MemoryReporter
 MOZ_FINAL
 :
 public
-MemoryMultiReporter
+nsIMemoryReporter
 {
+NS_DECL_THREADSAFE_ISUPPORTS
 friend
 class
 WorkerPrivate
@@ -10119,6 +10120,14 @@ explicitLength
 }
 }
 ;
+NS_IMPL_ISUPPORTS1
+(
+WorkerPrivate
+:
+:
+MemoryReporter
+nsIMemoryReporter
+)
 template
 <
 class
