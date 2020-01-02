@@ -235,11 +235,13 @@ data
 test_id
 =
 data
-[
+.
+get
+(
 "
 test
 "
-]
+)
         
 if
 isinstance
@@ -498,7 +500,7 @@ status_buffer
             
 self
 .
-buffer
+status_buffer
 [
 test
 ]
@@ -523,7 +525,7 @@ pass
         
 self
 .
-buffer
+status_buffer
 [
 test
 ]
@@ -546,7 +548,7 @@ data
             
 self
 .
-buffer
+status_buffer
 [
 test
 ]
@@ -575,7 +577,7 @@ PASS
             
 self
 .
-buffer
+status_buffer
 [
 test
 ]
@@ -1099,7 +1101,7 @@ self
 .
 _time
 (
-entry
+data
 )
 )
 )
@@ -1118,7 +1120,7 @@ self
 .
 _colorize
 (
-entry
+data
 s
 )
 )
@@ -1272,6 +1274,13 @@ s
 len_action
 :
 ]
+        
+else
+:
+            
+result
+=
+s
         
 return
 result

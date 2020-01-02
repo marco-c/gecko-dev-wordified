@@ -728,6 +728,9 @@ suite_start
 (
 self
 tests
+run_info
+=
+None
 )
 :
         
@@ -760,13 +763,8 @@ suite
 "
 "
         
-self
-.
-_log_data
-(
-"
-suite_start
-"
+data
+=
 {
 "
 tests
@@ -774,6 +772,31 @@ tests
 :
 tests
 }
+        
+if
+run_info
+is
+not
+None
+:
+            
+data
+[
+"
+run_info
+"
+]
+=
+run_info
+        
+self
+.
+_log_data
+(
+"
+suite_start
+"
+data
 )
     
 def
@@ -1360,7 +1383,6 @@ None
 "
 "
 "
-        
 Log
 output
 from
