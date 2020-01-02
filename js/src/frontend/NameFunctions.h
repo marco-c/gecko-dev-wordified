@@ -126,9 +126,6 @@ h
 namespace
 js
 {
-class
-ExclusiveContext
-;
 namespace
 frontend
 {
@@ -138,7 +135,7 @@ ParseNode
 bool
 NameFunctions
 (
-ExclusiveContext
+JSContext
 *
 cx
 ParseNode
