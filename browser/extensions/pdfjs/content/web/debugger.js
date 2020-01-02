@@ -503,6 +503,7 @@ dataset
 fontName
 !
 =
+=
 fontName
 )
 {
@@ -1687,6 +1688,7 @@ stepper
 pageIndex
 =
 =
+=
 pageIndex
 )
 {
@@ -1754,9 +1756,14 @@ option
 .
 selected
 =
+(
 option
 .
 value
+|
+0
+)
+=
 =
 =
 pageIndex
@@ -2490,6 +2497,7 @@ i
 )
 !
 =
+=
 -
 1
 ;
@@ -3163,11 +3171,16 @@ x
 ;
 if
 (
+parseInt
+(
 row
 .
 dataset
 .
 idx
+10
+)
+=
 =
 =
 idx
@@ -4358,6 +4371,7 @@ j
 if
 (
 j
+=
 =
 =
 index
