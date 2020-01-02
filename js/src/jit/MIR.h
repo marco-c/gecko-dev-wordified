@@ -16605,6 +16605,11 @@ computeRange
 (
 )
 ;
+void
+collectRangeInfoPreTrunc
+(
+)
+;
 }
 ;
 class
