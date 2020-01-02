@@ -3087,14 +3087,6 @@ rv
 return
 rv
 ;
-nsDeleteDir
-:
-:
-RemoveOldTrashes
-(
-mCacheDirectory
-)
-;
 /
 /
 Open
