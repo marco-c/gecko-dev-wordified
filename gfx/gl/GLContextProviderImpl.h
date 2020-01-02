@@ -493,10 +493,6 @@ const
 SurfaceCaps
 &
 caps
-ContextFlags
-flags
-=
-ContextFlagsNone
 )
 ;
 /
@@ -526,10 +522,6 @@ GLContext
 *
 GetGlobalContext
 (
-ContextFlags
-flags
-=
-ContextFlagsNone
 )
 ;
 /

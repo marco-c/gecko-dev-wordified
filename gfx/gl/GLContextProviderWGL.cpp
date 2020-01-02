@@ -1399,11 +1399,6 @@ mInitialized
 =
 true
 ;
-ContextFlags
-flag
-=
-ContextFlagsNone
-;
 /
 /
 Call
@@ -1449,7 +1444,6 @@ GLContextProviderWGL
 :
 GetGlobalContext
 (
-flag
 )
 =
 =
@@ -2162,11 +2156,6 @@ GLContextWGL
 *
 GetGlobalContextWGL
 (
-const
-ContextFlags
-aFlags
-=
-ContextFlagsNone
 )
 {
 return
@@ -2181,7 +2170,6 @@ GLContextProviderWGL
 :
 GetGlobalContext
 (
-aFlags
 )
 )
 ;
@@ -2915,8 +2903,6 @@ GLContextWGL
 >
 CreateWindowOffscreenContext
 (
-ContextFlags
-aFlags
 )
 {
 /
@@ -2935,7 +2921,6 @@ shareContext
 =
 GetGlobalContextWGL
 (
-aFlags
 )
 ;
 if
@@ -3143,8 +3128,6 @@ const
 SurfaceCaps
 &
 caps
-ContextFlags
-flags
 )
 {
 if
@@ -3243,7 +3226,6 @@ glContext
 =
 CreateWindowOffscreenContext
 (
-flags
 )
 ;
 }
@@ -3306,9 +3288,6 @@ GLContextProviderWGL
 :
 GetGlobalContext
 (
-const
-ContextFlags
-flags
 )
 {
 if

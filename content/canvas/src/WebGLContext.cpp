@@ -3170,17 +3170,6 @@ useOpenGL
 )
 {
 gl
-:
-:
-ContextFlags
-flag
-=
-gl
-:
-:
-ContextFlagsNone
-;
-gl
 =
 gl
 :
@@ -3192,7 +3181,6 @@ CreateOffscreen
 (
 size
 caps
-flag
 )
 ;
 if

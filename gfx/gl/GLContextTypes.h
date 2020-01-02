@@ -152,17 +152,6 @@ MOZ_END_ENUM_CLASS
 SharedTextureBufferType
 )
 enum
-ContextFlags
-{
-ContextFlagsNone
-=
-0x0
-ContextFlagsGlobal
-=
-0x1
-}
-;
-enum
 GLContextType
 {
 ContextTypeUnknown
