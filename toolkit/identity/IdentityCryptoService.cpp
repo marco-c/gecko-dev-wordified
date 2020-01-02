@@ -899,10 +899,6 @@ destructorSafeDestroyNSSReference
 (
 )
 {
-mKeyPair
-=
-nullptr
-;
 }
 const
 KeyType
