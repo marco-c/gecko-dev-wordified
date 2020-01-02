@@ -235,6 +235,10 @@ FinalizationWitnessService
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 /
@@ -616,9 +620,6 @@ FINALIZATIONWITNESSSERVICE_CID
 ;
 static
 const
-mozilla
-:
-:
 Module
 :
 :
@@ -789,9 +790,6 @@ nullptr
 ;
 static
 const
-mozilla
-:
-:
 Module
 :
 :
@@ -932,16 +930,10 @@ nullptr
 ;
 static
 const
-mozilla
-:
-:
 Module
 kToolkitModule
 =
 {
-mozilla
-:
-:
 Module
 :
 :

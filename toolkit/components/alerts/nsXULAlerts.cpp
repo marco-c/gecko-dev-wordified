@@ -151,6 +151,10 @@ nsIWindowWatcher
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 define
 ALERT_CHROME_URL

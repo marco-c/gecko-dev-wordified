@@ -127,10 +127,6 @@ nsIObserver
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 nsXULAlerts
 {
