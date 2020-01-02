@@ -16114,14 +16114,6 @@ src
 return
 false
 ;
-SkipRoot
-skip
-(
-cx
-&
-src
-)
-;
 bool
 lazy
 =

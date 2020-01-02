@@ -5608,12 +5608,6 @@ descriptors
 (
 cx
 )
-skip
-(
-cx
-&
-descriptors
-)
 {
 }
 PropDesc
@@ -5706,9 +5700,6 @@ private
 :
 PropDescArray
 descriptors
-;
-SkipRoot
-skip
 ;
 }
 ;

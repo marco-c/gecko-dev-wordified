@@ -2502,12 +2502,6 @@ CustomAutoRooter
 (
 cx
 )
-skip
-(
-cx
-&
-propDesc
-)
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
@@ -2904,9 +2898,6 @@ trc
 ;
 PropDesc
 propDesc
-;
-SkipRoot
-skip
 ;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
@@ -9204,10 +9195,6 @@ pgetter
 StrictPropertyOp
 *
 psetter
-;
-SkipRoot
-getterRoot
-setterRoot
 ;
 }
 ;
