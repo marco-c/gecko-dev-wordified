@@ -595,9 +595,6 @@ mutable
 AccessibleHashtable
 mAccessibleCache
 ;
-nsString
-mCachedName
-;
 }
 ;
 /
@@ -940,8 +937,15 @@ been
 changed
 .
 *
+return
+true
+if
+name
+has
+changed
+*
 /
-void
+bool
 CellInvalidated
 (
 )
