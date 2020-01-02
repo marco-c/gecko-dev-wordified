@@ -2237,6 +2237,10 @@ unreadablePlaceholder
 UndefinedValue
 (
 )
+bool
+silentFailure
+=
+false
 )
 {
 /
@@ -2413,6 +2417,7 @@ v
 maybeRead
 (
 unreadablePlaceholder
+silentFailure
 )
 ;
 op
@@ -2856,6 +2861,10 @@ unreadablePlaceholder
 UndefinedValue
 (
 )
+bool
+silentFailure
+=
+false
 )
 const
 {
@@ -2989,6 +2998,7 @@ script
 (
 )
 unreadablePlaceholder
+silentFailure
 )
 ;
 }
@@ -3408,6 +3418,7 @@ s
 maybeRead
 (
 unreadablePlaceholder
+silentFailure
 )
 )
 ;

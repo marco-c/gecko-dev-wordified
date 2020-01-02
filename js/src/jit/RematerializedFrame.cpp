@@ -284,6 +284,13 @@ MagicValue
 (
 JS_OPTIMIZED_OUT
 )
+/
+*
+silentFailure
+=
+*
+/
+true
 )
 ;
 }
