@@ -2832,7 +2832,7 @@ layers
 CompositorParent
 :
 :
-StartUpCompositorThread
+StartUp
 (
 )
 ;
@@ -2968,7 +2968,7 @@ layers
 CompositorParent
 :
 :
-ShutDownCompositorThreadWhenCompositorParentsGone
+ShutDown
 (
 )
 ;
