@@ -9137,7 +9137,10 @@ Inverse
 (
 )
 *
-gfx3DMatrix
+gfx
+:
+:
+To3DMatrix
 (
 aApzc
 -
@@ -10496,7 +10499,10 @@ Inverse
 gfx3DMatrix
 asyncUntransform
 =
-gfx3DMatrix
+gfx
+:
+:
+To3DMatrix
 (
 aApzc
 -
@@ -10721,7 +10727,10 @@ parent
 P
 asyncUntransform
 =
-gfx3DMatrix
+gfx
+:
+:
+To3DMatrix
 (
 parent
 -
