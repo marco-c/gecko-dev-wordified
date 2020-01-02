@@ -10241,8 +10241,8 @@ node
 .
 EdgeName
 edgeName
-(
-js_strdup
+=
+DuplicateString
 (
 traversal
 .
@@ -10250,7 +10250,6 @@ cx
 edge
 .
 name
-)
 )
 ;
 if
