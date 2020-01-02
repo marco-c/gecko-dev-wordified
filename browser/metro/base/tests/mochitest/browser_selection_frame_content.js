@@ -100,7 +100,7 @@ null
 const
 kMarkerOffsetY
 =
-12
+6
 ;
 const
 kCommonWaitMs

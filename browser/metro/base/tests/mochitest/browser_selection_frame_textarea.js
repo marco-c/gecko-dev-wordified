@@ -103,11 +103,6 @@ gTextArea
 null
 ;
 const
-kMarkerOffsetY
-=
-12
-;
-const
 kCommonWaitMs
 =
 5000
