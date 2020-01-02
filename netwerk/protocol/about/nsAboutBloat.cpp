@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsTraceRefcnt
+nsTraceRefcntImpl
 .
 h
 "
@@ -224,13 +224,13 @@ rv
 return
 rv
 ;
-nsTraceRefcnt
+nsTraceRefcntImpl
 :
 :
 StatisticsType
 statType
 =
-nsTraceRefcnt
+nsTraceRefcntImpl
 :
 :
 ALL_STATS
@@ -301,7 +301,7 @@ new
 )
 statType
 =
-nsTraceRefcnt
+nsTraceRefcntImpl
 :
 :
 NEW_STATS
@@ -350,7 +350,7 @@ if
 clear
 )
 {
-nsTraceRefcnt
+nsTraceRefcntImpl
 :
 :
 ResetStatistics
@@ -586,7 +586,7 @@ if
 statType
 =
 =
-nsTraceRefcnt
+nsTraceRefcntImpl
 :
 :
 ALL_STATS
@@ -713,7 +713,7 @@ rv
 ;
 rv
 =
-nsTraceRefcnt
+nsTraceRefcntImpl
 :
 :
 DumpStatistics
@@ -764,6 +764,8 @@ rv
 nsIChannel
 *
 channel
+=
+nullptr
 ;
 rv
 =
