@@ -3010,6 +3010,10 @@ wchar_t
 *
 dll_part
 ;
+char
+*
+dot
+;
 DllBlockInfo
 *
 info
@@ -3471,8 +3475,6 @@ dll
 bug
 973138
 )
-char
-*
 dot
 =
 strchr
