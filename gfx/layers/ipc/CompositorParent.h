@@ -1406,9 +1406,13 @@ CancelableTask
 int
 )
 ;
-virtual
 void
 Composite
+(
+)
+;
+void
+CompositeInTransaction
 (
 )
 ;
