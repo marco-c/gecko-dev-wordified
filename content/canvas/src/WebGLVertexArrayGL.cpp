@@ -161,6 +161,13 @@ BindVertexArrayImpl
 mContext
 -
 >
+mBoundVertexArray
+=
+this
+;
+mContext
+-
+>
 gl
 -
 >
