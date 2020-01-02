@@ -2869,16 +2869,6 @@ enabled
 :
 False
                    
-'
-toolkit
-.
-telemetry
-.
-enabledPreRelease
-'
-:
-False
-                   
 }
 class
 MetroFirefoxProfile
@@ -3323,16 +3313,6 @@ toolkit
 telemetry
 .
 enabled
-'
-:
-False
-                   
-'
-toolkit
-.
-telemetry
-.
-enabledPreRelease
 '
 :
 False

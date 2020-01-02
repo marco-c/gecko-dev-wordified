@@ -691,7 +691,7 @@ String
 PREFS_TELEMETRY_ENABLED
 =
 "
-datareporting
+toolkit
 .
 telemetry
 .
