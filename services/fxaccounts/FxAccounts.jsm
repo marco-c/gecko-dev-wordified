@@ -3951,6 +3951,17 @@ data
 )
 ;
 }
+err
+=
+>
+currentState
+.
+whenKeysReadyDeferred
+.
+reject
+(
+err
+)
 )
 ;
 }
