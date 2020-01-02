@@ -185,7 +185,7 @@ void
 )
 ;
 extern
-MFBT_API
+MOZ_EXPORT
 SandboxCrashFunc
 gSandboxCrashFunc
 ;
