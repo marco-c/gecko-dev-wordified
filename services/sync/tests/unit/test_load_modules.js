@@ -42,6 +42,11 @@ addonsreconciler
 js
 "
 "
+browserid_identity
+.
+js
+"
+"
 constants
 .
 js
