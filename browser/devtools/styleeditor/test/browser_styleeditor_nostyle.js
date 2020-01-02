@@ -126,7 +126,7 @@ page
 is
 loaded
 .
-addTabAndOpenStyleEditor
+addTabAndCheckOnStyleEditorAdded
 (
 function
 (
@@ -153,6 +153,12 @@ location
 =
 TESTCASE_URI
 ;
+}
+(
+)
+=
+>
+{
 }
 )
 ;

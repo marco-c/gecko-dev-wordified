@@ -155,8 +155,9 @@ waitForExplicitFinish
 (
 )
 ;
-addTabAndOpenStyleEditor
+addTabAndOpenStyleEditors
 (
+1
 function
 (
 aPanel
