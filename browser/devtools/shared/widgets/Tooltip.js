@@ -8927,6 +8927,8 @@ stopPropagation
 (
 )
 ;
+return
+;
 }
 let
 doc
