@@ -164,9 +164,6 @@ engine
 namespace
 js
 {
-class
-MatchConduit
-;
 /
 /
 Whether
@@ -205,7 +202,7 @@ HandleObject
 regexp
 HandleString
 string
-MatchConduit
+MatchPairs
 &
 matches
 RegExpStaticsUpdate
