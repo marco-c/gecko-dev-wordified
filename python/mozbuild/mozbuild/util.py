@@ -1715,6 +1715,40 @@ other
 )
 :
         
+#
+Allow
+None
+is
+a
+special
+case
+because
+it
+makes
+undefined
+variable
+        
+#
+references
+in
+moz
+.
+build
+behave
+better
+.
+        
+other
+=
+[
+]
+if
+other
+is
+None
+else
+other
+        
 if
 not
 isinstance
@@ -1740,12 +1774,15 @@ lists
 )
         
 return
+List
+(
 list
 .
 __add__
 (
 self
 other
+)
 )
     
 def
@@ -1755,6 +1792,17 @@ self
 other
 )
 :
+        
+other
+=
+[
+]
+if
+other
+is
+None
+else
+other
         
 if
 not
