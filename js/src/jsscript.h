@@ -5636,8 +5636,8 @@ hold
 all
 the
 data
-sections
 *
+sections
 (
 which
 can
@@ -5657,6 +5657,7 @@ size_t
 computedSizeOfData
 (
 )
+const
 ;
 size_t
 sizeOfData
@@ -5667,6 +5668,18 @@ mozilla
 MallocSizeOf
 mallocSizeOf
 )
+const
+;
+size_t
+sizeOfTypeScript
+(
+mozilla
+:
+:
+MallocSizeOf
+mallocSizeOf
+)
+const
 ;
 uint32_t
 numNotes
