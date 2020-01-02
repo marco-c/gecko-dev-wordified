@@ -6218,12 +6218,9 @@ tabindex
 return
 aResult
 .
-ParseIntWithBounds
+ParseIntValue
 (
 aValue
--
-32768
-32767
 )
 ;
 }
