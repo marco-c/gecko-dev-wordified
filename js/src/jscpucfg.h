@@ -212,12 +212,6 @@ defined
 (
 _WIN32
 )
-|
-|
-defined
-(
-XP_OS2
-)
 #
 ifdef
 __WATCOMC__

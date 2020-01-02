@@ -1019,12 +1019,6 @@ defined
 (
 XP_WIN
 )
-|
-|
-defined
-(
-XP_OS2
-)
 /
 /
 Not
@@ -3872,12 +3866,6 @@ if
 defined
 (
 XP_WIN
-)
-|
-|
-defined
-(
-XP_OS2
 )
 /
 /

@@ -112,12 +112,6 @@ MPL
 if
 defined
 (
-XP_OS2
-)
-|
-|
-defined
-(
 XP_WIN
 )
 #

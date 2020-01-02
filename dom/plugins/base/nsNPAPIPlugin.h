@@ -136,50 +136,6 @@ PluginLibrary
 .
 h
 "
-/
-*
-*
-Use
-this
-macro
-before
-each
-exported
-function
-*
-(
-between
-the
-return
-address
-and
-the
-function
-*
-itself
-)
-to
-ensure
-that
-the
-function
-has
-the
-*
-right
-calling
-conventions
-on
-OS
-/
-2
-.
-*
-/
-#
-define
-NP_CALLBACK
-NP_LOADDS
 #
 if
 defined
@@ -196,25 +152,6 @@ _name
 _type
 (
 __stdcall
-*
-_name
-)
-#
-elif
-defined
-(
-XP_OS2
-)
-#
-define
-NS_NPAPIPLUGIN_CALLBACK
-(
-_type
-_name
-)
-_type
-(
-_System
 *
 _name
 )
@@ -719,7 +656,6 @@ JSID_VOID
 )
 NPObject
 *
-NP_CALLBACK
 _getwindowobject
 (
 NPP
@@ -728,7 +664,6 @@ npp
 ;
 NPObject
 *
-NP_CALLBACK
 _getpluginelement
 (
 NPP
@@ -736,7 +671,6 @@ npp
 )
 ;
 NPIdentifier
-NP_CALLBACK
 _getstringidentifier
 (
 const
@@ -746,7 +680,6 @@ name
 )
 ;
 void
-NP_CALLBACK
 _getstringidentifiers
 (
 const
@@ -762,7 +695,6 @@ identifiers
 )
 ;
 bool
-NP_CALLBACK
 _identifierisstring
 (
 NPIdentifier
@@ -770,7 +702,6 @@ identifiers
 )
 ;
 NPIdentifier
-NP_CALLBACK
 _getintidentifier
 (
 int32_t
@@ -779,7 +710,6 @@ intid
 ;
 NPUTF8
 *
-NP_CALLBACK
 _utf8fromidentifier
 (
 NPIdentifier
@@ -787,7 +717,6 @@ identifier
 )
 ;
 int32_t
-NP_CALLBACK
 _intfromidentifier
 (
 NPIdentifier
@@ -796,7 +725,6 @@ identifier
 ;
 NPObject
 *
-NP_CALLBACK
 _createobject
 (
 NPP
@@ -808,7 +736,6 @@ aClass
 ;
 NPObject
 *
-NP_CALLBACK
 _retainobject
 (
 NPObject
@@ -817,7 +744,6 @@ npobj
 )
 ;
 void
-NP_CALLBACK
 _releaseobject
 (
 NPObject
@@ -826,7 +752,6 @@ npobj
 )
 ;
 bool
-NP_CALLBACK
 _invoke
 (
 NPP
@@ -848,7 +773,6 @@ result
 )
 ;
 bool
-NP_CALLBACK
 _invokeDefault
 (
 NPP
@@ -868,7 +792,6 @@ result
 )
 ;
 bool
-NP_CALLBACK
 _evaluate
 (
 NPP
@@ -885,7 +808,6 @@ result
 )
 ;
 bool
-NP_CALLBACK
 _getproperty
 (
 NPP
@@ -901,7 +823,6 @@ result
 )
 ;
 bool
-NP_CALLBACK
 _setproperty
 (
 NPP
@@ -918,7 +839,6 @@ value
 )
 ;
 bool
-NP_CALLBACK
 _removeproperty
 (
 NPP
@@ -931,7 +851,6 @@ property
 )
 ;
 bool
-NP_CALLBACK
 _hasproperty
 (
 NPP
@@ -944,7 +863,6 @@ propertyName
 )
 ;
 bool
-NP_CALLBACK
 _hasmethod
 (
 NPP
@@ -957,7 +875,6 @@ methodName
 )
 ;
 bool
-NP_CALLBACK
 _enumerate
 (
 NPP
@@ -975,7 +892,6 @@ count
 )
 ;
 bool
-NP_CALLBACK
 _construct
 (
 NPP
@@ -995,7 +911,6 @@ result
 )
 ;
 void
-NP_CALLBACK
 _releasevariantvalue
 (
 NPVariant
@@ -1004,7 +919,6 @@ variant
 )
 ;
 void
-NP_CALLBACK
 _setexception
 (
 NPObject
@@ -1017,7 +931,6 @@ message
 )
 ;
 void
-NP_CALLBACK
 _pushpopupsenabledstate
 (
 NPP
@@ -1027,7 +940,6 @@ enabled
 )
 ;
 void
-NP_CALLBACK
 _poppopupsenabledstate
 (
 NPP
@@ -1046,7 +958,6 @@ void
 )
 ;
 void
-NP_CALLBACK
 _pluginthreadasynccall
 (
 NPP
@@ -1059,7 +970,6 @@ userData
 )
 ;
 NPError
-NP_CALLBACK
 _getvalueforurl
 (
 NPP
@@ -1080,7 +990,6 @@ len
 )
 ;
 NPError
-NP_CALLBACK
 _setvalueforurl
 (
 NPP
@@ -1100,7 +1009,6 @@ len
 )
 ;
 NPError
-NP_CALLBACK
 _getauthenticationinfo
 (
 NPP
@@ -1153,7 +1061,6 @@ timerID
 )
 ;
 uint32_t
-NP_CALLBACK
 _scheduletimer
 (
 NPP
@@ -1167,7 +1074,6 @@ timerFunc
 )
 ;
 void
-NP_CALLBACK
 _unscheduletimer
 (
 NPP
@@ -1177,7 +1083,6 @@ timerID
 )
 ;
 NPError
-NP_CALLBACK
 _popupcontextmenu
 (
 NPP
@@ -1188,7 +1093,6 @@ menu
 )
 ;
 NPError
-NP_CALLBACK
 _initasyncsurface
 (
 NPP
@@ -1207,7 +1111,6 @@ surface
 )
 ;
 NPError
-NP_CALLBACK
 _finalizeasyncsurface
 (
 NPP
@@ -1218,7 +1121,6 @@ surface
 )
 ;
 void
-NP_CALLBACK
 _setcurrentasyncsurface
 (
 NPP
@@ -1232,7 +1134,6 @@ changed
 )
 ;
 NPBool
-NP_CALLBACK
 _convertpoint
 (
 NPP
@@ -1254,7 +1155,6 @@ destSpace
 )
 ;
 NPError
-NP_CALLBACK
 _requestread
 (
 NPStream
@@ -1266,7 +1166,6 @@ rangeList
 )
 ;
 NPError
-NP_CALLBACK
 _geturlnotify
 (
 NPP
@@ -1285,7 +1184,6 @@ notifyData
 )
 ;
 NPError
-NP_CALLBACK
 _getvalue
 (
 NPP
@@ -1298,7 +1196,6 @@ r_value
 )
 ;
 NPError
-NP_CALLBACK
 _setvalue
 (
 NPP
@@ -1311,7 +1208,6 @@ r_value
 )
 ;
 NPError
-NP_CALLBACK
 _geturl
 (
 NPP
@@ -1327,7 +1223,6 @@ target
 )
 ;
 NPError
-NP_CALLBACK
 _posturlnotify
 (
 NPP
@@ -1354,7 +1249,6 @@ notifyData
 )
 ;
 NPError
-NP_CALLBACK
 _posturl
 (
 NPP
@@ -1378,7 +1272,6 @@ file
 )
 ;
 NPError
-NP_CALLBACK
 _newstream
 (
 NPP
@@ -1396,7 +1289,6 @@ pstream
 )
 ;
 int32_t
-NP_CALLBACK
 _write
 (
 NPP
@@ -1412,7 +1304,6 @@ buffer
 )
 ;
 NPError
-NP_CALLBACK
 _destroystream
 (
 NPP
@@ -1425,7 +1316,6 @@ reason
 )
 ;
 void
-NP_CALLBACK
 _status
 (
 NPP
@@ -1437,7 +1327,6 @@ message
 )
 ;
 void
-NP_CALLBACK
 _memfree
 (
 void
@@ -1446,7 +1335,6 @@ ptr
 )
 ;
 uint32_t
-NP_CALLBACK
 _memflush
 (
 uint32_t
@@ -1454,7 +1342,6 @@ size
 )
 ;
 void
-NP_CALLBACK
 _reloadplugins
 (
 NPBool
@@ -1462,7 +1349,6 @@ reloadPages
 )
 ;
 void
-NP_CALLBACK
 _invalidaterect
 (
 NPP
@@ -1473,7 +1359,6 @@ invalidRect
 )
 ;
 void
-NP_CALLBACK
 _invalidateregion
 (
 NPP
@@ -1483,7 +1368,6 @@ invalidRegion
 )
 ;
 void
-NP_CALLBACK
 _forceredraw
 (
 NPP
@@ -1493,7 +1377,6 @@ npp
 const
 char
 *
-NP_CALLBACK
 _useragent
 (
 NPP
@@ -1502,7 +1385,6 @@ npp
 ;
 void
 *
-NP_CALLBACK
 _memalloc
 (
 uint32_t
@@ -1522,7 +1404,6 @@ plugin
 .
 void
 *
-NP_CALLBACK
 /
 *
 OJI
@@ -1538,7 +1419,6 @@ _getJavaEnv
 ;
 void
 *
-NP_CALLBACK
 /
 *
 OJI
@@ -1554,7 +1434,6 @@ npp
 )
 ;
 void
-NP_CALLBACK
 _urlredirectresponse
 (
 NPP

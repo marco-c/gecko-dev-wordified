@@ -136,12 +136,6 @@ defined
 (
 WIN32
 )
-|
-|
-defined
-(
-OS2
-)
 /
 *
 *

@@ -140,12 +140,6 @@ defined
 (
 XP_WIN
 )
-|
-|
-defined
-(
-XP_OS2
-)
 #
 define
 NS_LINEBREAK
@@ -187,9 +181,6 @@ endif
 /
 *
 XP_WIN
-|
-|
-XP_OS2
 *
 /
 extern
@@ -1334,12 +1325,6 @@ if
 defined
 (
 XP_WIN
-)
-|
-|
-defined
-(
-XP_OS2
 )
 #
 define

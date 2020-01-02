@@ -160,12 +160,6 @@ XP_UNIX
 |
 defined
 (
-XP_OS2
-)
-|
-|
-defined
-(
 XP_WIN
 )
 #

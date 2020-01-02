@@ -1422,12 +1422,6 @@ defined
 (
 XP_WIN32
 )
-|
-|
-defined
-(
-XP_OS2
-)
 #
 define
 XPCOM_SEARCH_KEY
@@ -1598,12 +1592,6 @@ if
 defined
 (
 XP_WIN
-)
-|
-|
-defined
-(
-XP_OS2
 )
 #
 define

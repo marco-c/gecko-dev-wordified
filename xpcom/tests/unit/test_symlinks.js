@@ -118,16 +118,6 @@ Win
 )
 ;
 const
-isOS2
-=
-checkOS
-(
-"
-OS2
-"
-)
-;
-const
 isMac
 =
 checkOS
@@ -143,9 +133,6 @@ isUnix
 !
 (
 isWin
-|
-|
-isOS2
 |
 |
 isMac
@@ -955,9 +942,6 @@ Windows
 if
 (
 isWin
-|
-|
-isOS2
 )
 return
 ;

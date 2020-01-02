@@ -98,49 +98,12 @@ npapi_h_
 define
 npapi_h_
 #
-if
-defined
-(
-__OS2__
-)
-#
-pragma
-pack
-(
-1
-)
-#
-endif
-#
 include
 "
 nptypes
 .
 h
 "
-#
-if
-defined
-(
-__OS2__
-)
-|
-|
-defined
-(
-OS2
-)
-#
-ifndef
-XP_OS2
-#
-define
-XP_OS2
-1
-#
-endif
-#
-endif
 #
 if
 defined
@@ -3069,28 +3032,6 @@ NPEvent
 elif
 defined
 (
-XP_OS2
-)
-typedef
-struct
-_NPEvent
-{
-uint32_t
-event
-;
-uint32_t
-wParam
-;
-uint32_t
-lParam
-;
-}
-NPEvent
-;
-#
-elif
-defined
-(
 XP_UNIX
 )
 &
@@ -4297,23 +4238,6 @@ Prototypes
 *
 /
 #
-if
-defined
-(
-__OS2__
-)
-#
-define
-NP_LOADDS
-_System
-#
-else
-#
-define
-NP_LOADDS
-#
-endif
-#
 ifdef
 __cplusplus
 extern
@@ -4358,7 +4282,6 @@ void
 #
 endif
 NPError
-NP_LOADDS
 NPP_New
 (
 NPMIMEType
@@ -4385,7 +4308,6 @@ saved
 )
 ;
 NPError
-NP_LOADDS
 NPP_Destroy
 (
 NPP
@@ -4397,7 +4319,6 @@ save
 )
 ;
 NPError
-NP_LOADDS
 NPP_SetWindow
 (
 NPP
@@ -4408,7 +4329,6 @@ window
 )
 ;
 NPError
-NP_LOADDS
 NPP_NewStream
 (
 NPP
@@ -4426,7 +4346,6 @@ stype
 )
 ;
 NPError
-NP_LOADDS
 NPP_DestroyStream
 (
 NPP
@@ -4439,7 +4358,6 @@ reason
 )
 ;
 int32_t
-NP_LOADDS
 NPP_WriteReady
 (
 NPP
@@ -4450,7 +4368,6 @@ stream
 )
 ;
 int32_t
-NP_LOADDS
 NPP_Write
 (
 NPP
@@ -4468,7 +4385,6 @@ buffer
 )
 ;
 void
-NP_LOADDS
 NPP_StreamAsFile
 (
 NPP
@@ -4483,7 +4399,6 @@ fname
 )
 ;
 void
-NP_LOADDS
 NPP_Print
 (
 NPP
@@ -4494,7 +4409,6 @@ platformPrint
 )
 ;
 int16_t
-NP_LOADDS
 NPP_HandleEvent
 (
 NPP
@@ -4505,7 +4419,6 @@ event
 )
 ;
 void
-NP_LOADDS
 NPP_URLNotify
 (
 NPP
@@ -4522,7 +4435,6 @@ notifyData
 )
 ;
 NPError
-NP_LOADDS
 NPP_GetValue
 (
 NPP
@@ -4535,7 +4447,6 @@ value
 )
 ;
 NPError
-NP_LOADDS
 NPP_SetValue
 (
 NPP
@@ -4548,7 +4459,6 @@ value
 )
 ;
 NPBool
-NP_LOADDS
 NPP_GotFocus
 (
 NPP
@@ -4558,7 +4468,6 @@ direction
 )
 ;
 void
-NP_LOADDS
 NPP_LostFocus
 (
 NPP
@@ -4566,7 +4475,6 @@ instance
 )
 ;
 void
-NP_LOADDS
 NPP_URLRedirectNotify
 (
 NPP
@@ -4583,7 +4491,6 @@ notifyData
 )
 ;
 NPError
-NP_LOADDS
 NPP_ClearSiteData
 (
 const
@@ -4599,14 +4506,12 @@ maxAge
 char
 *
 *
-NP_LOADDS
 NPP_GetSitesWithData
 (
 void
 )
 ;
 void
-NP_LOADDS
 NPP_DidComposite
 (
 NPP
@@ -4632,7 +4537,6 @@ plugin
 *
 /
 void
-NP_LOADDS
 NPN_Version
 (
 int
@@ -4650,7 +4554,6 @@ netscape_minor
 )
 ;
 NPError
-NP_LOADDS
 NPN_GetURLNotify
 (
 NPP
@@ -4669,7 +4572,6 @@ notifyData
 )
 ;
 NPError
-NP_LOADDS
 NPN_GetURL
 (
 NPP
@@ -4685,7 +4587,6 @@ target
 )
 ;
 NPError
-NP_LOADDS
 NPN_PostURLNotify
 (
 NPP
@@ -4712,7 +4613,6 @@ notifyData
 )
 ;
 NPError
-NP_LOADDS
 NPN_PostURL
 (
 NPP
@@ -4736,7 +4636,6 @@ file
 )
 ;
 NPError
-NP_LOADDS
 NPN_RequestRead
 (
 NPStream
@@ -4748,7 +4647,6 @@ rangeList
 )
 ;
 NPError
-NP_LOADDS
 NPN_NewStream
 (
 NPP
@@ -4766,7 +4664,6 @@ stream
 )
 ;
 int32_t
-NP_LOADDS
 NPN_Write
 (
 NPP
@@ -4782,7 +4679,6 @@ buffer
 )
 ;
 NPError
-NP_LOADDS
 NPN_DestroyStream
 (
 NPP
@@ -4795,7 +4691,6 @@ reason
 )
 ;
 void
-NP_LOADDS
 NPN_Status
 (
 NPP
@@ -4809,7 +4704,6 @@ message
 const
 char
 *
-NP_LOADDS
 NPN_UserAgent
 (
 NPP
@@ -4818,7 +4712,6 @@ instance
 ;
 void
 *
-NP_LOADDS
 NPN_MemAlloc
 (
 uint32_t
@@ -4826,7 +4719,6 @@ size
 )
 ;
 void
-NP_LOADDS
 NPN_MemFree
 (
 void
@@ -4835,7 +4727,6 @@ ptr
 )
 ;
 uint32_t
-NP_LOADDS
 NPN_MemFlush
 (
 uint32_t
@@ -4843,7 +4734,6 @@ size
 )
 ;
 void
-NP_LOADDS
 NPN_ReloadPlugins
 (
 NPBool
@@ -4851,7 +4741,6 @@ reloadPages
 )
 ;
 NPError
-NP_LOADDS
 NPN_GetValue
 (
 NPP
@@ -4864,7 +4753,6 @@ value
 )
 ;
 NPError
-NP_LOADDS
 NPN_SetValue
 (
 NPP
@@ -4877,7 +4765,6 @@ value
 )
 ;
 void
-NP_LOADDS
 NPN_InvalidateRect
 (
 NPP
@@ -4888,7 +4775,6 @@ invalidRect
 )
 ;
 void
-NP_LOADDS
 NPN_InvalidateRegion
 (
 NPP
@@ -4898,7 +4784,6 @@ invalidRegion
 )
 ;
 void
-NP_LOADDS
 NPN_ForceRedraw
 (
 NPP
@@ -4906,7 +4791,6 @@ instance
 )
 ;
 void
-NP_LOADDS
 NPN_PushPopupsEnabledState
 (
 NPP
@@ -4916,7 +4800,6 @@ enabled
 )
 ;
 void
-NP_LOADDS
 NPN_PopPopupsEnabledState
 (
 NPP
@@ -4924,7 +4807,6 @@ instance
 )
 ;
 void
-NP_LOADDS
 NPN_PluginThreadAsyncCall
 (
 NPP
@@ -4944,7 +4826,6 @@ userData
 )
 ;
 NPError
-NP_LOADDS
 NPN_GetValueForURL
 (
 NPP
@@ -4965,7 +4846,6 @@ len
 )
 ;
 NPError
-NP_LOADDS
 NPN_SetValueForURL
 (
 NPP
@@ -4985,7 +4865,6 @@ len
 )
 ;
 NPError
-NP_LOADDS
 NPN_GetAuthenticationInfo
 (
 NPP
@@ -5025,7 +4904,6 @@ plen
 )
 ;
 uint32_t
-NP_LOADDS
 NPN_ScheduleTimer
 (
 NPP
@@ -5048,7 +4926,6 @@ timerID
 )
 ;
 void
-NP_LOADDS
 NPN_UnscheduleTimer
 (
 NPP
@@ -5058,7 +4935,6 @@ timerID
 )
 ;
 NPError
-NP_LOADDS
 NPN_PopUpContextMenu
 (
 NPP
@@ -5069,7 +4945,6 @@ menu
 )
 ;
 NPBool
-NP_LOADDS
 NPN_ConvertPoint
 (
 NPP
@@ -5091,7 +4966,6 @@ destSpace
 )
 ;
 NPBool
-NP_LOADDS
 NPN_HandleEvent
 (
 NPP
@@ -5104,7 +4978,6 @@ handled
 )
 ;
 NPBool
-NP_LOADDS
 NPN_UnfocusInstance
 (
 NPP
@@ -5114,7 +4987,6 @@ direction
 )
 ;
 void
-NP_LOADDS
 NPN_URLRedirectResponse
 (
 NPP
@@ -5127,7 +4999,6 @@ allow
 )
 ;
 NPError
-NP_LOADDS
 NPN_InitAsyncSurface
 (
 NPP
@@ -5146,7 +5017,6 @@ surface
 )
 ;
 NPError
-NP_LOADDS
 NPN_FinalizeAsyncSurface
 (
 NPP
@@ -5157,7 +5027,6 @@ surface
 )
 ;
 void
-NP_LOADDS
 NPN_SetCurrentAsyncSurface
 (
 NPP
@@ -5192,19 +5061,6 @@ endif
 RC_INVOKED
 *
 /
-#
-if
-defined
-(
-__OS2__
-)
-#
-pragma
-pack
-(
-)
-#
-endif
 #
 endif
 /

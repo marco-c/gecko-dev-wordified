@@ -156,13 +156,6 @@ defined
 (
 __i386__
 )
-&
-&
-!
-defined
-(
-XP_OS2
-)
 #
 define
 PL_DHASH_FASTCALL

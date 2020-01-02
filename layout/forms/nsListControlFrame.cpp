@@ -14548,12 +14548,6 @@ defined
 (
 XP_WIN
 )
-|
-|
-defined
-(
-XP_OS2
-)
 case
 NS_VK_F4
 :

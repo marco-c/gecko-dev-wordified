@@ -422,12 +422,6 @@ defined
 (
 XP_WIN
 )
-|
-|
-defined
-(
-XP_OS2
-)
 #
 define
 NS_CONTEXT_MENU_IS_MOUSEUP

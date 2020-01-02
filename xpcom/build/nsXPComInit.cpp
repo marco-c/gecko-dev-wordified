@@ -436,12 +436,6 @@ defined
 (
 XP_UNIX
 )
-|
-|
-defined
-(
-XP_OS2
-)
 #
 include
 "
@@ -2461,12 +2455,6 @@ if
 defined
 (
 XP_UNIX
-)
-|
-|
-defined
-(
-XP_OS2
 )
 NS_StartupNativeCharsetUtils
 (
