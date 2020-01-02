@@ -4816,14 +4816,6 @@ callInfo
 )
 ;
 InliningStatus
-inlineToString
-(
-CallInfo
-&
-callInfo
-)
-;
-InliningStatus
 inlineDump
 (
 CallInfo
