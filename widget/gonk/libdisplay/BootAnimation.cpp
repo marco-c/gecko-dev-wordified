@@ -1380,14 +1380,9 @@ state
 offset
 )
 )
-png_error
+png_err
 (
 png_ptr
-"
-PNG
-read
-overrun
-"
 )
 ;
 memcpy
