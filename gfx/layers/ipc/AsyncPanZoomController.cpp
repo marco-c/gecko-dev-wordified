@@ -8402,7 +8402,7 @@ overscroll
 y
 aFrameMetrics
 .
-GetDisableScrollingY
+GetDisableScrollingX
 (
 )
 )
@@ -8994,9 +8994,7 @@ APZC_LOG_FM
 (
 aFrameMetrics
 "
-%
-p
-calculated
+Calculated
 displayport
 as
 (
@@ -9030,7 +9028,6 @@ time
 f
 metrics
 "
-this
 displayPort
 .
 x
