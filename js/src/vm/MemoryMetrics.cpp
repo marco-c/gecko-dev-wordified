@@ -947,7 +947,7 @@ SystemAllocPolicy
 SourceSet
 ;
 struct
-IteratorClosure
+StatsClosure
 {
 RuntimeStats
 *
@@ -960,7 +960,7 @@ opv
 SourceSet
 seenSources
 ;
-IteratorClosure
+StatsClosure
 (
 RuntimeStats
 *
@@ -1269,7 +1269,7 @@ rtStats
 =
 static_cast
 <
-IteratorClosure
+StatsClosure
 *
 >
 (
@@ -1414,7 +1414,7 @@ rtStats
 =
 static_cast
 <
-IteratorClosure
+StatsClosure
 *
 >
 (
@@ -1519,7 +1519,7 @@ rtStats
 =
 static_cast
 <
-IteratorClosure
+StatsClosure
 *
 >
 (
@@ -1701,13 +1701,13 @@ size_t
 thingSize
 )
 {
-IteratorClosure
+StatsClosure
 *
 closure
 =
 static_cast
 <
-IteratorClosure
+StatsClosure
 *
 >
 (
@@ -3110,7 +3110,7 @@ per
 compartment
 measurements
 .
-IteratorClosure
+StatsClosure
 closure
 (
 rtStats
