@@ -7,7 +7,9 @@ test
 |
 error
 :
-TypeError
+is
+not
+iterable
 try
 {
 x

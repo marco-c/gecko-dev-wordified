@@ -12573,9 +12573,9 @@ append
 name
 "
 :
-"
+'
 iterator
-"
+'
                                  
 "
 methodInfo
@@ -12584,11 +12584,11 @@ methodInfo
 False
                                  
 "
-selfHostedName
+nativeName
 "
 :
 "
-ArrayIterator
+JS_ArrayIterator
 "
                                  
 "

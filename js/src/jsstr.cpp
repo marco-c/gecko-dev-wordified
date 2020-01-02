@@ -24071,17 +24071,6 @@ str_sub
 )
 #
 endif
-JS_SELF_HOSTED_FN
-(
-"
-iterator
-"
-"
-ArrayIterator
-"
-0
-0
-)
 JS_FN
 (
 "

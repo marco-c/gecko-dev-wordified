@@ -10618,9 +10618,6 @@ break
 case
 SRC_FOR_IN
 :
-case
-SRC_FOR_OF
-:
 Sprint
 (
 sp

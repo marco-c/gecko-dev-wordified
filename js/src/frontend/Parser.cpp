@@ -26425,10 +26425,6 @@ forStmt
 .
 type
 =
-isForOf
-?
-STMT_FOR_OF_LOOP
-:
 STMT_FOR_IN_LOOP
 ;
 /
@@ -28150,10 +28146,6 @@ forStmt
 .
 type
 =
-isForOf
-?
-STMT_FOR_OF_LOOP
-:
 STMT_FOR_IN_LOOP
 ;
 /
