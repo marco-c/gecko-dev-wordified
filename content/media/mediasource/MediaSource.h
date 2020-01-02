@@ -471,6 +471,14 @@ Detach
 (
 )
 ;
+void
+GetBuffered
+(
+TimeRanges
+*
+aBuffered
+)
+;
 /
 /
 Set
