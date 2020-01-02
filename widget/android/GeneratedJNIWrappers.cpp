@@ -2254,7 +2254,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -2346,7 +2346,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -2499,7 +2499,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -2636,7 +2636,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -2720,7 +2720,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -2815,7 +2815,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -2896,7 +2896,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -2980,7 +2980,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -3087,7 +3087,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -3253,7 +3253,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -3408,7 +3408,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -3490,7 +3490,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -3570,7 +3570,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -3650,7 +3650,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -3732,7 +3732,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -3813,7 +3813,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -3895,7 +3895,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -3978,7 +3978,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -4059,7 +4059,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -4139,7 +4139,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -4221,7 +4221,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -4299,7 +4299,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -4394,7 +4394,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -4489,7 +4489,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -4584,7 +4584,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -4670,7 +4670,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -4760,7 +4760,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -4876,7 +4876,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -5005,7 +5005,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -5132,7 +5132,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -5245,7 +5245,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -5331,7 +5331,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -5443,7 +5443,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -5539,7 +5539,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -5698,7 +5698,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -5784,7 +5784,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -5870,7 +5870,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -5956,7 +5956,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -6053,7 +6053,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -6191,7 +6191,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -6281,7 +6281,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -6426,7 +6426,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -6512,7 +6512,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -6598,7 +6598,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -6684,7 +6684,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -6769,7 +6769,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -6892,7 +6892,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -6977,7 +6977,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -7070,7 +7070,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -7150,7 +7150,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -7238,7 +7238,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -7321,7 +7321,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -7412,7 +7412,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -7556,7 +7556,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -7708,7 +7708,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -7814,7 +7814,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -7918,7 +7918,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -8109,7 +8109,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -8190,7 +8190,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -8280,7 +8280,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -8366,7 +8366,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -8456,7 +8456,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -8562,7 +8562,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -8652,7 +8652,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -8782,7 +8782,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -8865,7 +8865,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -8954,7 +8954,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -9080,7 +9080,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -9247,7 +9247,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -9327,7 +9327,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -9413,7 +9413,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -9492,7 +9492,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -9575,7 +9575,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -9660,7 +9660,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -10083,7 +10083,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -10191,7 +10191,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -10763,7 +10763,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -10893,7 +10893,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -10980,7 +10980,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -11073,7 +11073,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -11154,7 +11154,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -11233,7 +11233,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -11310,7 +11310,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -11579,7 +11579,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -12001,7 +12001,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -12277,7 +12277,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -12576,7 +12576,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -13054,7 +13054,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -13134,7 +13134,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -13211,7 +13211,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -13303,7 +13303,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -13391,7 +13391,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -13529,7 +13529,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -13626,7 +13626,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -13802,7 +13802,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -13957,7 +13957,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -14105,7 +14105,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -14342,7 +14342,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -14628,7 +14628,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -14939,7 +14939,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -15162,7 +15162,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -15250,7 +15250,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -15640,7 +15640,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -15718,7 +15718,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -16428,7 +16428,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -17163,7 +17163,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -17493,7 +17493,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -17573,7 +17573,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -17653,7 +17653,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -17738,7 +17738,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -17822,7 +17822,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -18059,7 +18059,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -18138,7 +18138,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -18436,7 +18436,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -18516,7 +18516,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -18611,7 +18611,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
@@ -18701,7 +18701,7 @@ HandleUncaughtException
 env
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Exception
