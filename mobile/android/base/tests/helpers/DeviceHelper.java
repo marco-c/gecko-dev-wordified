@@ -251,7 +251,7 @@ assertIsTablet
 (
 )
 {
-assertTrue
+fAssertTrue
 (
 "
 The

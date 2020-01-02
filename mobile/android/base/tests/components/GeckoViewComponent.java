@@ -388,7 +388,7 @@ Context
 INPUT_METHOD_SERVICE
 )
 ;
-assertNotNull
+fAssertNotNull
 (
 "
 Must
@@ -445,7 +445,7 @@ assertActive
 (
 )
 {
-assertTrue
+fAssertTrue
 (
 "
 Current
@@ -596,7 +596,7 @@ assertInputConnection
 (
 )
 {
-assertTrue
+fAssertTrue
 (
 "
 Current
@@ -753,7 +753,7 @@ InputConnectionTest
 test
 )
 {
-assertNotNull
+fAssertNotNull
 (
 "
 Test
@@ -989,7 +989,7 @@ to
 make
 sure
 .
-assertNotSame
+fAssertNotSame
 (
 "
 InputConnection
@@ -1081,7 +1081,7 @@ onCreateInputConnection
 info
 )
 ;
-assertNotNull
+fAssertNotNull
 (
 "
 Must

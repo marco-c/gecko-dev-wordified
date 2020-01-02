@@ -226,7 +226,7 @@ String
 text
 )
 {
-assertEquals
+fAssertEquals
 (
 message
 text
@@ -264,7 +264,7 @@ getExtractedText
 ic
 )
 ;
-assertEquals
+fAssertEquals
 (
 message
 start
@@ -273,7 +273,7 @@ extract
 selectionStart
 )
 ;
-assertEquals
+fAssertEquals
 (
 message
 end
@@ -338,7 +338,7 @@ getExtractedText
 ic
 )
 ;
-assertEquals
+fAssertEquals
 (
 message
 text
@@ -347,7 +347,7 @@ extract
 text
 )
 ;
-assertEquals
+fAssertEquals
 (
 message
 start
@@ -356,7 +356,7 @@ extract
 selectionStart
 )
 ;
-assertEquals
+fAssertEquals
 (
 message
 end
