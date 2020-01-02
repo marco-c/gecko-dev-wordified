@@ -2614,9 +2614,6 @@ GetComposer2D
 ;
 if
 (
-mFPS
-&
-&
 composer2D
 &
 &
@@ -2628,6 +2625,11 @@ TryRender
 mRoot
 mWorldMatrix
 )
+)
+{
+if
+(
+mFPS
 )
 {
 double
@@ -2673,6 +2675,7 @@ n
 fps
 )
 ;
+}
 }
 mCompositor
 -
