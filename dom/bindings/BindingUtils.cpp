@@ -11112,11 +11112,15 @@ NS_IsMainThread
 )
 )
 {
-return
+mGlobalObject
+=
 UnwrapDOMObjectToISupports
 (
 mGlobalJSObject
 )
+;
+return
+mGlobalObject
 ;
 }
 JS
