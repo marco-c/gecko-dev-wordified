@@ -245,10 +245,6 @@ entrySnapshot_
 (
 nullptr
 )
-osrBlock_
-(
-nullptr
-)
 mir_
 (
 *
