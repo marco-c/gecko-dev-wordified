@@ -5052,6 +5052,11 @@ rv
 rv
 )
 ;
+NotifyEditorObservers
+(
+eNotifyEditorObserversOfBefore
+)
+;
 nsRefPtr
 <
 nsCaret
@@ -5174,6 +5179,7 @@ IsIMEComposing
 {
 NotifyEditorObservers
 (
+eNotifyEditorObserversOfEnd
 )
 ;
 }
@@ -6328,6 +6334,11 @@ ForceCompositionEnd
 (
 )
 ;
+NotifyEditorObservers
+(
+eNotifyEditorObserversOfBefore
+)
+;
 nsAutoRules
 beginRulesSniffing
 (
@@ -6420,6 +6431,7 @@ result
 }
 NotifyEditorObservers
 (
+eNotifyEditorObserversOfEnd
 )
 ;
 return
@@ -6462,6 +6474,11 @@ this
 ;
 ForceCompositionEnd
 (
+)
+;
+NotifyEditorObservers
+(
+eNotifyEditorObserversOfBefore
 )
 ;
 nsAutoRules
@@ -6556,6 +6573,7 @@ result
 }
 NotifyEditorObservers
 (
+eNotifyEditorObserversOfEnd
 )
 ;
 return
