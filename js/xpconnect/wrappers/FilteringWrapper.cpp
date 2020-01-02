@@ -341,8 +341,7 @@ FilterPropertyDescriptor
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 wrapper
 HandleId
 id
