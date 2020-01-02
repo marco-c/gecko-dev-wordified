@@ -2822,7 +2822,7 @@ document
 mRoot
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

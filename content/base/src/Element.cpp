@@ -9408,7 +9408,7 @@ document
 aContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

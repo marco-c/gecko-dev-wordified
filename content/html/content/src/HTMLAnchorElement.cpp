@@ -1005,7 +1005,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

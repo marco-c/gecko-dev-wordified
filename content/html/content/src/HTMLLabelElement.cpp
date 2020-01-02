@@ -1277,6 +1277,7 @@ presContext
 =
 GetPresContext
 (
+eForUncomposedDoc
 )
 ;
 if

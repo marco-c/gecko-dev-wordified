@@ -52601,7 +52601,7 @@ doc
 chromeElement
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
@@ -52756,7 +52756,7 @@ doc
 chromeElement
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

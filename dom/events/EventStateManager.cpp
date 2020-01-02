@@ -29110,6 +29110,10 @@ element
 >
 GetPresContext
 (
+nsGenericHTMLElement
+:
+:
+eForComposedDoc
 )
 )
 ;

@@ -8084,7 +8084,7 @@ do_QueryInterface
 mRoot
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 )
@@ -8147,7 +8147,7 @@ doc
 mRoot
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
@@ -8693,7 +8693,7 @@ do_QueryInterface
 mRoot
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 )
@@ -9433,7 +9433,7 @@ do_QueryInterface
 mRoot
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 )
@@ -10256,7 +10256,7 @@ do_QueryInterface
 aElement
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 )
@@ -10409,7 +10409,7 @@ doc
 mRoot
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

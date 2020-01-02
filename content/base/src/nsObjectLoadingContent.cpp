@@ -1868,7 +1868,7 @@ doc
 mContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

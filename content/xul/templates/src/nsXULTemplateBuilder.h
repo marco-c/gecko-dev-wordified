@@ -607,7 +607,7 @@ mRoot
 mRoot
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 :

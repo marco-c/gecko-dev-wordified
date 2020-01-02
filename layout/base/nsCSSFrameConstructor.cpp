@@ -42819,7 +42819,7 @@ document
 aStartChild
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

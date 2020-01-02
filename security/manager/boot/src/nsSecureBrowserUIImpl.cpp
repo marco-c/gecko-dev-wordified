@@ -2124,7 +2124,7 @@ document
 formNode
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

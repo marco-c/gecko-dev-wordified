@@ -6721,7 +6721,7 @@ do_QueryInterface
 condition
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 )

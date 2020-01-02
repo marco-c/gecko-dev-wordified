@@ -10760,7 +10760,7 @@ doc
 aContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

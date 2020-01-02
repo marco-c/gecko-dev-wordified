@@ -552,7 +552,7 @@ doc
 content
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

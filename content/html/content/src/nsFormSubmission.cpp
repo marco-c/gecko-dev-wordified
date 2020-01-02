@@ -4865,7 +4865,7 @@ doc
 aForm
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

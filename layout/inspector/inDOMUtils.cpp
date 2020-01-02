@@ -5376,7 +5376,7 @@ doc
 aElement
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

@@ -1340,16 +1340,6 @@ Send
 the
 submit
 event
-nsRefPtr
-<
-nsPresContext
->
-presContext
-=
-GetPresContext
-(
-)
-;
 if
 (
 mPendingSubmission

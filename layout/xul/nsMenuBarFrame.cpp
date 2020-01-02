@@ -446,7 +446,7 @@ mTarget
 aContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

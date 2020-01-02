@@ -7876,7 +7876,7 @@ doc
 startContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

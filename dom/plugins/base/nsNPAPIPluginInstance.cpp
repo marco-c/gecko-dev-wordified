@@ -8331,7 +8331,7 @@ DispatchTrustedEvent
 mContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 mContent

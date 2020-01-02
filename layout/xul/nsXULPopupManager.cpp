@@ -11310,7 +11310,7 @@ Content
 )
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
@@ -11343,7 +11343,7 @@ GetContent
 )
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
