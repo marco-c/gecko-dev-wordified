@@ -512,7 +512,7 @@ virtual
 nsresult
 DrawWithXlib
 (
-gfxXlibSurface
+cairo_surface_t
 *
 surface
 nsIntPoint
@@ -523,6 +523,7 @@ clipRects
 uint32_t
 numClipRects
 )
+MOZ_OVERRIDE
 ;
 #
 if
