@@ -307,6 +307,8 @@ virtual
 void
 GetSupportedNames
 (
+unsigned
+aFlags
 nsTArray
 <
 nsString
@@ -314,6 +316,7 @@ nsString
 &
 aNames
 )
+MOZ_OVERRIDE
 ;
 nsresult
 AddElementToTable

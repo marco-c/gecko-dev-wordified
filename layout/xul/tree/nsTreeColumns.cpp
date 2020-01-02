@@ -2706,6 +2706,7 @@ nsTreeColumns
 :
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString

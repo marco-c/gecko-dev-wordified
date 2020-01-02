@@ -72823,6 +72823,13 @@ getOwnPropertyDescriptor
 bool
 "
 args
+                             
+virtual
+=
+True
+override
+=
+True
 )
         
 self
@@ -74860,6 +74867,13 @@ delete_
 bool
 "
 args
+                             
+virtual
+=
+True
+override
+=
+True
 )
         
 self
@@ -75584,7 +75598,7 @@ bp
 return
 delete
 class
-CGDOMJSProxyHandler_getOwnPropertyNames
+CGDOMJSProxyHandler_ownPropNames
 (
 ClassMethod
 )
@@ -75632,6 +75646,16 @@ proxy
 Argument
 (
 '
+unsigned
+'
+'
+flags
+'
+)
+                
+Argument
+(
+'
 JS
 :
 :
@@ -75650,12 +75674,19 @@ __init__
 (
 self
 "
-getOwnPropertyNames
+ownPropNames
 "
 "
 bool
 "
 args
+                             
+virtual
+=
+True
+override
+=
+True
 )
         
 self
@@ -75836,6 +75867,7 @@ proxy
 >
 GetSupportedNames
 (
+flags
 names
 )
 ;
@@ -75898,9 +75930,7 @@ cx
 {
 holder
 }
-JSITER_OWNONLY
-|
-JSITER_HIDDEN
+flags
 &
 props
 )
@@ -76018,9 +76048,7 @@ GetPropertyNames
 (
 cx
 expando
-JSITER_OWNONLY
-|
-JSITER_HIDDEN
+flags
 &
 props
 )
@@ -76123,6 +76151,13 @@ hasOwn
 bool
 "
 args
+                             
+virtual
+=
+True
+override
+=
+True
 )
         
 self
@@ -76722,6 +76757,13 @@ get
 bool
 "
 args
+                             
+virtual
+=
+True
+override
+=
+True
 )
         
 self
@@ -77480,6 +77522,13 @@ finalizeInBackground
 bool
 "
 args
+                             
+virtual
+=
+True
+override
+=
+True
 )
         
 self
@@ -77555,6 +77604,13 @@ finalize
 void
 "
 args
+                             
+virtual
+=
+True
+override
+=
+True
 )
         
 self
@@ -78279,7 +78335,7 @@ defineProperty
 "
 )
                    
-CGDOMJSProxyHandler_getOwnPropertyNames
+CGDOMJSProxyHandler_ownPropNames
 (
 descriptor
 )
@@ -93012,7 +93068,58 @@ domstring
 ]
 )
                      
+#
+Let
+'
+s
+use
+unsigned
+long
+for
+the
+type
+here
+though
+really
+                     
+#
+it
+'
+s
+just
+a
+C
++
++
+"
+unsigned
+"
+.
+.
+.
+                     
 [
+FakeArgument
+(
+BuiltinTypes
+[
+IDLBuiltinType
+.
+Types
+.
+unsigned_long
+]
+                                   
+FakeMember
+(
+)
+                                   
+name
+=
+"
+aFlags
+"
+)
 ]
 )
                     

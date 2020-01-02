@@ -1443,6 +1443,7 @@ HTMLPropertiesCollection
 :
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString

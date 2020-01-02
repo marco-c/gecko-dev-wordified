@@ -432,6 +432,8 @@ virtual
 void
 GetSupportedNames
 (
+unsigned
+aFlags
 nsTArray
 <
 nsString

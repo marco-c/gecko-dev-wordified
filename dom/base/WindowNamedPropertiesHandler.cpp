@@ -1414,7 +1414,7 @@ bool
 WindowNamedPropertiesHandler
 :
 :
-getOwnPropertyNames
+ownPropNames
 (
 JSContext
 *
@@ -1428,6 +1428,8 @@ JSObject
 *
 >
 aProxy
+unsigned
+flags
 JS
 :
 :
@@ -1541,6 +1543,7 @@ document
 >
 GetSupportedNames
 (
+flags
 names
 )
 ;
