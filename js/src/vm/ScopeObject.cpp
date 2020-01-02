@@ -9371,6 +9371,7 @@ const
 DebugScopeProxy
 singleton
 ;
+MOZ_CONSTEXPR
 DebugScopeProxy
 (
 )

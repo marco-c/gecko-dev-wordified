@@ -71817,6 +71817,9 @@ private
 explicit
 =
 False
+constexpr
+=
+False
 baseConstructors
 =
 None
@@ -71827,6 +71830,22 @@ body
 "
 )
 :
+        
+assert
+not
+(
+inline
+and
+constexpr
+)
+        
+assert
+not
+(
+bodyInHeader
+and
+constexpr
+)
         
 self
 .
@@ -71847,12 +71866,20 @@ self
 bodyInHeader
 =
 bodyInHeader
+or
+constexpr
         
 self
 .
 explicit
 =
 explicit
+        
+self
+.
+constexpr
+=
+constexpr
         
 self
 .
@@ -71920,6 +71947,23 @@ append
 (
 '
 inline
+'
+)
+        
+if
+self
+.
+constexpr
+and
+declaring
+:
+            
+decorators
+.
+append
+(
+'
+MOZ_CONSTEXPR
 '
 )
         
@@ -84082,7 +84126,7 @@ ClassConstructor
 [
 ]
                 
-bodyInHeader
+constexpr
 =
 True
                 

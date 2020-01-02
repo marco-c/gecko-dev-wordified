@@ -311,6 +311,7 @@ BaseProxyHandler
 {
 public
 :
+MOZ_CONSTEXPR
 CPOWProxyHandler
 (
 )
