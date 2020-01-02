@@ -7555,6 +7555,7 @@ n
 mov
 "
 SYS_SYSCALL_ENTRYPOINT
+\
 "
 GOT
 (
