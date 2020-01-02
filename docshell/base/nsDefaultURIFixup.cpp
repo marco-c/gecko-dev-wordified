@@ -6558,6 +6558,12 @@ asciiHost
 ;
 if
 (
+aFixupInfo
+-
+>
+mFixedURI
+&
+&
 NS_SUCCEEDED
 (
 aFixupInfo
