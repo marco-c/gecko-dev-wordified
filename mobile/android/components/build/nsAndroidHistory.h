@@ -227,6 +227,17 @@ nsString
 >
 mPendingURIs
 ;
+nsresult
+CanAddURI
+(
+nsIURI
+*
+aURI
+bool
+*
+canAdd
+)
+;
 }
 ;
 #
