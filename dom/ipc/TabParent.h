@@ -1029,6 +1029,14 @@ bool
 RecvUpdateZoomConstraints
 (
 const
+uint32_t
+&
+aPresShellId
+const
+ViewID
+&
+aViewId
+const
 bool
 &
 aAllowZoom

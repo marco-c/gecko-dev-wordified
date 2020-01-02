@@ -667,6 +667,10 @@ aPreventDefault
 void
 UpdateZoomConstraints
 (
+uint32_t
+aPresShellId
+ViewID
+aViewId
 bool
 aAllowZoom
 const
