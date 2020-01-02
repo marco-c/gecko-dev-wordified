@@ -3164,7 +3164,7 @@ SSRCS
 SSRCS
 +
 =
-bar
+baz
 .
 S
 '
