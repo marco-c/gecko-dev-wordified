@@ -260,15 +260,6 @@ include
 "
 mozilla
 /
-TelemetryHistogramEnums
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 2D
