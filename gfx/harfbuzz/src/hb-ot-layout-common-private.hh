@@ -273,6 +273,10 @@ int
 define
 MAX_NESTING_LEVEL
 8
+#
+define
+MAX_CONTEXT_LENGTH
+64
 /
 *
 *

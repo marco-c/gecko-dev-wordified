@@ -497,10 +497,10 @@ hb_tag_t
 define
 HB_TAG
 (
-a
-b
-c
-d
+c1
+c2
+c3
+c4
 )
 (
 (
@@ -513,7 +513,7 @@ hb_tag_t
 uint8_t
 )
 (
-a
+c1
 )
 )
 <
@@ -527,7 +527,7 @@ a
 uint8_t
 )
 (
-b
+c2
 )
 )
 <
@@ -541,7 +541,7 @@ b
 uint8_t
 )
 (
-c
+c3
 )
 )
 <
@@ -554,7 +554,7 @@ c
 uint8_t
 )
 (
-d
+c4
 )
 )
 )
