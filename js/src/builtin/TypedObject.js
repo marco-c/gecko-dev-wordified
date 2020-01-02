@@ -2292,8 +2292,16 @@ fieldOffset
 0
 &
 &
+(
 fieldOffset
++
+DESCR_SIZE
+(
+fieldDescr
+)
+)
 <
+=
 DESCR_SIZE
 (
 this
