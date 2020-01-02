@@ -988,9 +988,9 @@ appendQueryParameter
 "
 profile
 "
-"
-default
-"
+GeckoProfile
+.
+DEFAULT_PROFILE
 )
 .
 appendQueryParameter

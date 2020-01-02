@@ -249,6 +249,16 @@ LOCK_FILE_NAME
 active_lock
 "
 ;
+public
+static
+final
+String
+DEFAULT_PROFILE
+=
+"
+default
+"
+;
 private
 static
 HashMap
@@ -795,9 +805,7 @@ null
 )
 profileName
 =
-"
-default
-"
+DEFAULT_PROFILE
 ;
 }
 /

@@ -547,9 +547,9 @@ final
 String
 profile
 =
-"
-default
-"
+Constants
+.
+DEFAULT_PROFILE
 ;
 try
 {
