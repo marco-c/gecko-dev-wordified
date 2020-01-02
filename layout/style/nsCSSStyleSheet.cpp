@@ -6728,11 +6728,6 @@ GetExistingDOMRule
 ;
 }
 }
-DOMCI_DATA
-(
-CSSStyleSheet
-nsCSSStyleSheet
-)
 /
 /
 QueryInterface
@@ -6764,10 +6759,6 @@ NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
 nsIStyleSheet
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-CSSStyleSheet
 )
 if
 (

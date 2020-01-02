@@ -145,10 +145,6 @@ DOMCI_CLASS
 (
 CSSNameSpaceRule
 )
-DOMCI_CLASS
-(
-CSSStyleSheet
-)
 /
 /
 XUL
