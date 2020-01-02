@@ -56,13 +56,6 @@ MPL
 .
 *
 /
-let
-Ci
-=
-Components
-.
-interfaces
-;
 /
 *
 *

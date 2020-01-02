@@ -1024,15 +1024,3 @@ SpecialPowersManager
 (
 )
 ;
-this
-.
-SpecialPowers
-=
-SpecialPowers
-;
-this
-.
-attachSpecialPowersToWindow
-=
-attachSpecialPowersToWindow
-;
