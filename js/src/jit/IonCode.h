@@ -3179,6 +3179,9 @@ code
 PatchableBackedgeInfo
 *
 backedges
+MacroAssembler
+&
+masm
 )
 ;
 bool
