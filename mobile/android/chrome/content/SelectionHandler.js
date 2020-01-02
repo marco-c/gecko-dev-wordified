@@ -3046,13 +3046,7 @@ aElement
 ;
 SelectionHandler
 .
-_positionHandles
-(
-)
-;
-SelectionHandler
-.
-_updateMenu
+_closeSelection
 (
 )
 ;
