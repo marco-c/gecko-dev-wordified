@@ -6888,16 +6888,6 @@ aFlushLayout
 true
 )
 ;
-void
-GetMarkup
-(
-bool
-aIncludeSelf
-nsAString
-&
-aMarkup
-)
-;
 /
 /
 Data
