@@ -9264,7 +9264,7 @@ transform
 Matrix
 glToCairoTransform
 =
-MatrixForThebesMatrix
+ToMatrix
 (
 aTransform
 )
