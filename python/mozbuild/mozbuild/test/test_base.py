@@ -500,11 +500,11 @@ get_base
 (
 )
         
-guess
+cmd
 =
-subprocess
+base
 .
-check_output
+_normalize_command
 (
             
 [
@@ -529,6 +529,16 @@ guess
 )
 ]
             
+True
+)
+        
+guess
+=
+subprocess
+.
+check_output
+(
+cmd
 cwd
 =
 topsrcdir
