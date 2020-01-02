@@ -919,6 +919,10 @@ GetParentObject
 kind
 label
 srcLang
+TextTrackSource
+:
+:
+Track
 )
 ;
 mTrack

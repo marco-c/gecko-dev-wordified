@@ -155,6 +155,9 @@ class
 TextTrackManager
 ;
 class
+CompareTextTracks
+;
+class
 TrackEvent
 ;
 class
@@ -287,6 +290,12 @@ const
 nsAString
 &
 aLanguage
+TextTrackSource
+aTextTrackSource
+const
+CompareTextTracks
+&
+aCompareTT
 )
 ;
 TextTrack
@@ -305,6 +314,10 @@ AddTextTrack
 TextTrack
 *
 aTextTrack
+const
+CompareTextTracks
+&
+aCompareTT
 )
 ;
 void
