@@ -14853,15 +14853,8 @@ aGlobal
 Argument
 (
 '
-JS
-:
-:
-Heap
-<
-JSObject
-*
->
-*
+ProtoAndIfaceArray
+&
 '
 '
 aProtoAndIfaceArray
@@ -16663,17 +16656,11 @@ installed
 *
 /
   
-JS
-:
-:
-Heap
-<
-JSObject
-*
->
-*
+ProtoAndIfaceArray
+&
 protoAndIfaceArray
 =
+*
 GetProtoAndIfaceArray
 (
 aGlobal
@@ -78171,6 +78158,15 @@ addInMozillaDom
 (
 "
 NativePropertyHooks
+"
+)
+        
+builder
+.
+addInMozillaDom
+(
+"
+ProtoAndIfaceArray
 "
 )
         
