@@ -2397,7 +2397,6 @@ key
 &
 IsInsideNursery
 (
-rt
 key
 )
 )

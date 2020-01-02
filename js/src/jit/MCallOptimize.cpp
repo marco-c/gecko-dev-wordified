@@ -13225,17 +13225,6 @@ JSFunction
 )
 )
 ;
-JSRuntime
-*
-runtime
-=
-scriptedTarget
--
->
-runtimeFromMainThread
-(
-)
-;
 /
 /
 Don
@@ -13313,7 +13302,6 @@ gc
 :
 IsInsideNursery
 (
-runtime
 scriptedTarget
 )
 )
@@ -13367,7 +13355,6 @@ gc
 :
 IsInsideNursery
 (
-runtime
 &
 val
 .
@@ -13405,7 +13392,6 @@ gc
 :
 IsInsideNursery
 (
-runtime
 &
 thisVal
 .
