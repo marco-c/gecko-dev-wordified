@@ -1480,13 +1480,6 @@ h
 #
 include
 "
-nsIDOMMediaQueryList
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -27376,7 +27369,7 @@ const
 nsAString
 &
 aMediaQueryList
-nsIDOMMediaQueryList
+nsISupports
 *
 *
 aResult
@@ -27385,9 +27378,9 @@ aResult
 ErrorResult
 rv
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMMediaQueryList
+MediaQueryList
 >
 mediaQueryList
 =
