@@ -3920,8 +3920,6 @@ MOZ_CRASH
 #
 endif
 }
-namespace
-{
 /
 /
 Superclass
@@ -4090,11 +4088,6 @@ recompileInfo
 ;
 }
 ;
-}
-/
-/
-anonymous
-namespace
 class
 types
 :

@@ -9051,6 +9051,8 @@ return
 blockChain
 ;
 }
+namespace
+{
 /
 *
 *
@@ -10962,6 +10964,11 @@ return
 true
 ;
 }
+}
+/
+/
+anonymous
+namespace
 static
 bool
 FindStartPC
