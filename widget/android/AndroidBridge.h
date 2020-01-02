@@ -1090,13 +1090,13 @@ aDrawingCritical
 mozilla
 :
 :
-ParentLayerRect
+ScreenPoint
 &
-aCompositionBounds
+aScrollOffset
 mozilla
 :
 :
-CSSToParentLayerScale
+CSSToScreenScale
 &
 aZoom
 )
