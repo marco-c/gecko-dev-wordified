@@ -687,6 +687,12 @@ KillCCTimer
 ;
 static
 void
+KillICCTimer
+(
+)
+;
+static
+void
 KillFullGCTimer
 (
 )
