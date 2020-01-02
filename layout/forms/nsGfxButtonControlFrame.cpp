@@ -1131,7 +1131,7 @@ recentering
 we
 do
 in
-nsHTMLButtonFrame
+nsHTMLButtonControlFrame
 :
 :
 Reflow
@@ -1139,10 +1139,10 @@ Reflow
 So
 to
 solve
+/
+/
 this
 even
-/
-/
 if
 the
 whitespace
@@ -1152,9 +1152,9 @@ single
 leading
 and
 trailing
+/
+/
 _spaces_
-/
-/
 (
 and
 not
@@ -1167,9 +1167,9 @@ removed
 The
 proper
 solution
+/
+/
 of
-/
-/
 course
 is
 to
