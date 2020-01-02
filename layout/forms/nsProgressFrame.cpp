@@ -1310,9 +1310,9 @@ FinishReflowChild
 (
 aBarFrame
 aPresContext
+barDesiredSize
 &
 reflowState
-barDesiredSize
 xoffset
 yoffset
 0

@@ -4163,8 +4163,8 @@ FinishReflowChild
 (
 baseFrame
 aPresContext
-nullptr
 baseSize
+nullptr
 aFrame
 -
 >
@@ -4396,8 +4396,8 @@ FinishReflowChild
 (
 subScriptFrame
 aPresContext
-nullptr
 subScriptSize
+nullptr
 aFrame
 -
 >
@@ -4465,8 +4465,8 @@ FinishReflowChild
 (
 supScriptFrame
 aPresContext
-nullptr
 supScriptSize
+nullptr
 aFrame
 -
 >

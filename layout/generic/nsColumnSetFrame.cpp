@@ -4372,9 +4372,9 @@ child
 PresContext
 (
 )
+kidDesiredSize
 &
 kidReflowState
-kidDesiredSize
 childOrigin
 .
 x

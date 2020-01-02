@@ -2356,8 +2356,8 @@ FinishReflowChild
 (
 frameNum
 presContext
-nullptr
 sizeNum
+nullptr
 dxNum
 dy
 0
@@ -2385,8 +2385,8 @@ FinishReflowChild
 (
 frameDen
 presContext
-nullptr
 sizeDen
+nullptr
 dxDen
 dy
 0
@@ -3196,8 +3196,8 @@ FinishReflowChild
 (
 frameNum
 presContext
-nullptr
 sizeNum
+nullptr
 dx
 dy
 0
@@ -3309,8 +3309,8 @@ FinishReflowChild
 (
 frameDen
 presContext
-nullptr
 sizeDen
+nullptr
 dx
 dy
 0

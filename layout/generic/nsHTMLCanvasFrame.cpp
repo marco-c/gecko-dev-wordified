@@ -1256,9 +1256,9 @@ FinishReflowChild
 (
 childFrame
 aPresContext
+childDesiredSize
 &
 childReflowState
-childDesiredSize
 0
 0
 0

@@ -2262,8 +2262,8 @@ FinishReflowChild
 (
 indexFrame
 aPresContext
-nullptr
 indexSize
+nullptr
 MirrorIfRTL
 (
 aDesiredSize
@@ -2395,8 +2395,8 @@ FinishReflowChild
 (
 baseFrame
 aPresContext
-nullptr
 baseSize
+nullptr
 MirrorIfRTL
 (
 aDesiredSize

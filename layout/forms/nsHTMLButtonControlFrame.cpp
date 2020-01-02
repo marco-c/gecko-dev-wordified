@@ -1992,9 +1992,9 @@ FinishReflowChild
 (
 aFirstKid
 aPresContext
+contentsDesiredSize
 &
 contentsReflowState
-contentsDesiredSize
 xoffset
 yoffset
 0

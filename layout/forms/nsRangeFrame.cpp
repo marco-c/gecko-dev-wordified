@@ -2215,9 +2215,9 @@ FinishReflowChild
 (
 trackFrame
 aPresContext
+trackDesiredSize
 &
 trackReflowState
-trackDesiredSize
 trackX
 trackY
 0
@@ -2363,9 +2363,9 @@ FinishReflowChild
 (
 thumbFrame
 aPresContext
+thumbDesiredSize
 &
 thumbReflowState
-thumbDesiredSize
 0
 0
 0
@@ -2535,9 +2535,9 @@ FinishReflowChild
 (
 rangeProgressFrame
 aPresContext
+progressDesiredSize
 &
 progressReflowState
-progressDesiredSize
 0
 0
 0

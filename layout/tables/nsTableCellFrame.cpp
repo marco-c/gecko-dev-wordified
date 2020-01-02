@@ -5924,9 +5924,9 @@ FinishReflowChild
 (
 firstKid
 aPresContext
+kidSize
 &
 kidReflowState
-kidSize
 kidOrigin
 .
 x

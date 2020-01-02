@@ -7058,9 +7058,9 @@ Frame
 (
 )
 aPresContext
+childDesiredSize
 &
 childRSForMeasuringHeight
-childDesiredSize
 0
 0
 flags
@@ -18733,9 +18733,9 @@ Frame
 (
 )
 aPresContext
+childDesiredSize
 &
 aChildReflowState
-childDesiredSize
 0
 0
 flags
@@ -21569,9 +21569,9 @@ Frame
 (
 )
 aPresContext
+childDesiredSize
 &
 childReflowState
-childDesiredSize
 physicalPosn
 .
 x

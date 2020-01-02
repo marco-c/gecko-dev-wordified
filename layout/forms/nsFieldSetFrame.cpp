@@ -3064,13 +3064,13 @@ FinishReflowChild
 (
 legend
 aPresContext
+legendDesiredSize
 &
 legendReflowState
 .
 ref
 (
 )
-legendDesiredSize
 0
 0
 NS_FRAME_NO_MOVE_FRAME
@@ -3423,9 +3423,9 @@ FinishReflowChild
 (
 inner
 aPresContext
+kidDesiredSize
 &
 kidReflowState
-kidDesiredSize
 pt
 .
 x

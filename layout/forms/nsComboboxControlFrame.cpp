@@ -3093,9 +3093,9 @@ FinishReflowChild
 (
 mDropdownFrame
 aPresContext
+desiredSize
 &
 kidReflowState
-desiredSize
 rect
 .
 x
