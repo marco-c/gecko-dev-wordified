@@ -15523,6 +15523,7 @@ GetChildAt
 uint32_t
 aIndex
 )
+const
 {
 Accessible
 *

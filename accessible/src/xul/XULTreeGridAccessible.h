@@ -418,6 +418,8 @@ CreateTreeItemAccessible
 int32_t
 aRow
 )
+const
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -539,6 +541,8 @@ GetChildAt
 uint32_t
 aIndex
 )
+const
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
@@ -546,6 +550,7 @@ ChildCount
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -559,6 +564,8 @@ nsITreeColumn
 *
 aColumn
 )
+const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -584,6 +591,7 @@ CacheChildren
 /
 /
 XULTreeItemAccessibleBase
+mutable
 AccessibleHashtable
 mAccessibleCache
 ;
