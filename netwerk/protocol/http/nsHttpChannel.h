@@ -1968,6 +1968,8 @@ nsICacheEntry
 cacheEntry
 bool
 startBuffering
+bool
+checkingAppCacheEntry
 )
 ;
 private
