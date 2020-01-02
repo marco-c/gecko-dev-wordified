@@ -930,7 +930,7 @@ NS_ASSERTION
 (
 mTable
 .
-entrySize
+ops
 "
 nsTHashtable
 was
@@ -1143,7 +1143,7 @@ NS_ASSERTION
 (
 mTable
 .
-entrySize
+ops
 "
 nsTHashtable
 was
@@ -1210,7 +1210,7 @@ NS_ASSERTION
 (
 mTable
 .
-entrySize
+ops
 "
 nsTHashtable
 was
@@ -1489,7 +1489,7 @@ NS_ASSERTION
 (
 mTable
 .
-entrySize
+ops
 "
 nsTHashtable
 was
@@ -1546,7 +1546,7 @@ NS_ASSERTION
 (
 mTable
 .
-entrySize
+ops
 "
 nsTHashtable
 was
@@ -1985,7 +1985,7 @@ NS_ASSERTION
 (
 mTable
 .
-entrySize
+ops
 "
 nsTHashtable
 was
@@ -2455,9 +2455,9 @@ aOther
 .
 mTable
 .
-entrySize
+ops
 =
-0
+nullptr
 ;
 }
 template
@@ -2480,7 +2480,7 @@ if
 (
 mTable
 .
-entrySize
+ops
 )
 {
 PL_DHashTableFinish
