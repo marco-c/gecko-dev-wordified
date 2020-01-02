@@ -142,6 +142,8 @@ const
 MediaStreamConstraintsInternal
 &
 aConstraints
+bool
+aIsSecure
 )
 ;
 virtual
@@ -184,6 +186,11 @@ InnerWindowID
 (
 )
 ;
+bool
+IsSecure
+(
+)
+;
 void
 GetCallID
 (
@@ -215,6 +222,9 @@ nsAutoPtr
 MediaStreamConstraintsInternal
 >
 mConstraints
+;
+bool
+mIsSecure
 ;
 }
 ;
