@@ -64,7 +64,7 @@ startup
 homepage_override_url
 "
 "
-http
+https
 :
 /
 /
@@ -101,7 +101,7 @@ startup
 homepage_welcome_url
 "
 "
-http
+https
 :
 /
 /
