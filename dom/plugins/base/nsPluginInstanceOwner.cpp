@@ -17233,7 +17233,6 @@ height
 rendererFlags
 screen
 visual
-nullptr
 )
 ;
 }
