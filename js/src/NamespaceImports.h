@@ -404,6 +404,12 @@ using
 JS
 :
 :
+Latin1Char
+;
+using
+JS
+:
+:
 Latin1CharsZ
 ;
 using

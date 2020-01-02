@@ -247,6 +247,11 @@ jschar
 namespace
 JS
 {
+typedef
+unsigned
+char
+Latin1Char
+;
 class
 Value
 ;

@@ -242,8 +242,7 @@ mozilla
 :
 Range
 <
-unsigned
-char
+Latin1Char
 >
 {
 typedef
@@ -252,8 +251,7 @@ mozilla
 :
 Range
 <
-unsigned
-char
+Latin1Char
 >
 Base
 ;
@@ -281,8 +279,7 @@ Base
 (
 reinterpret_cast
 <
-unsigned
-char
+Latin1Char
 *
 >
 (
@@ -306,8 +303,7 @@ Base
 (
 reinterpret_cast
 <
-unsigned
-char
+Latin1Char
 *
 >
 (
@@ -351,8 +347,7 @@ mozilla
 :
 RangedPtr
 <
-unsigned
-char
+Latin1Char
 >
 {
 typedef
@@ -361,8 +356,7 @@ mozilla
 :
 RangedPtr
 <
-unsigned
-char
+Latin1Char
 >
 Base
 ;
@@ -392,8 +386,7 @@ Base
 (
 reinterpret_cast
 <
-unsigned
-char
+Latin1Char
 *
 >
 (
@@ -419,8 +412,7 @@ aLength
 }
 Latin1CharsZ
 (
-unsigned
-char
+Latin1Char
 *
 aBytes
 size_t
