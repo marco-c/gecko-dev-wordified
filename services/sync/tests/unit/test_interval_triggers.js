@@ -464,7 +464,7 @@ Trace
 "
 )
 ;
-Log4Moz
+Log
 .
 repository
 .
@@ -479,13 +479,13 @@ Service
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 .
 Trace
 ;
-Log4Moz
+Log
 .
 repository
 .
@@ -500,7 +500,7 @@ SyncScheduler
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 .

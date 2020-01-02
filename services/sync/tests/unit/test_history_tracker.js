@@ -483,7 +483,7 @@ Trace
 "
 )
 ;
-Log4Moz
+Log
 .
 repository
 .
@@ -500,7 +500,7 @@ History
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 .

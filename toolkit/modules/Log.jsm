@@ -66,9 +66,9 @@ this
 EXPORTED_SYMBOLS
 =
 [
-'
-Log4Moz
-'
+"
+Log
+"
 ]
 ;
 const
@@ -185,7 +185,7 @@ jsm
 ;
 this
 .
-Log4Moz
+Log
 =
 {
 Level
@@ -310,11 +310,11 @@ repository
 )
 {
 delete
-Log4Moz
+Log
 .
 repository
 ;
-Log4Moz
+Log
 .
 repository
 =
@@ -324,7 +324,7 @@ LoggerRepository
 )
 ;
 return
-Log4Moz
+Log
 .
 repository
 ;
@@ -336,11 +336,11 @@ value
 )
 {
 delete
-Log4Moz
+Log
 .
 repository
 ;
-Log4Moz
+Log
 .
 repository
 =
@@ -393,7 +393,7 @@ helper
 let
 logger
 =
-Log4Moz
+Log
 .
 repository
 .
@@ -410,7 +410,7 @@ logger
 .
 info
 (
-Log4Moz
+Log
 .
 enumerateInterfaces
 (
@@ -427,7 +427,7 @@ join
 enumerateInterfaces
 :
 function
-Log4Moz_enumerateInterfaces
+Log_enumerateInterfaces
 (
 aObject
 )
@@ -486,7 +486,7 @@ helper
 let
 logger
 =
-Log4Moz
+Log
 .
 repository
 .
@@ -503,7 +503,7 @@ logger
 .
 info
 (
-Log4Moz
+Log
 .
 enumerateProperties
 (
@@ -520,7 +520,7 @@ join
 enumerateProperties
 :
 function
-Log4Moz_enumerateProps
+Log_enumerateProps
 (
 aObject
 aExcludeComplexTypes
@@ -728,14 +728,14 @@ this
 .
 level
 in
-Log4Moz
+Log
 .
 Level
 .
 Desc
 )
 return
-Log4Moz
+Log
 .
 Level
 .
@@ -848,7 +848,7 @@ repository
 )
 repository
 =
-Log4Moz
+Log
 .
 repository
 ;
@@ -940,7 +940,7 @@ level
 dump
 (
 "
-log4moz
+Log
 warning
 :
 root
@@ -957,7 +957,7 @@ n
 )
 ;
 return
-Log4Moz
+Log
 .
 Level
 .
@@ -1480,7 +1480,7 @@ string
 &
 level
 in
-Log4Moz
+Log
 .
 Level
 .
@@ -1489,7 +1489,7 @@ Numbers
 {
 level
 =
-Log4Moz
+Log
 .
 Level
 .
@@ -1629,7 +1629,7 @@ this
 .
 log
 (
-Log4Moz
+Log
 .
 Level
 .
@@ -1651,7 +1651,7 @@ this
 .
 log
 (
-Log4Moz
+Log
 .
 Level
 .
@@ -1673,7 +1673,7 @@ this
 .
 log
 (
-Log4Moz
+Log
 .
 Level
 .
@@ -1695,7 +1695,7 @@ this
 .
 log
 (
-Log4Moz
+Log
 .
 Level
 .
@@ -1717,7 +1717,7 @@ this
 .
 log
 (
-Log4Moz
+Log
 .
 Level
 .
@@ -1739,7 +1739,7 @@ this
 .
 log
 (
-Log4Moz
+Log
 .
 Level
 .
@@ -1761,7 +1761,7 @@ this
 .
 log
 (
-Log4Moz
+Log
 .
 Level
 .
@@ -1835,7 +1835,7 @@ _rootLogger
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 .
@@ -2478,7 +2478,7 @@ prototype
 {
 level
 :
-Log4Moz
+Log
 .
 Level
 .
@@ -2678,7 +2678,7 @@ message
 .
 level
 >
-Log4Moz
+Log
 .
 Level
 .

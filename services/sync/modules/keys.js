@@ -120,13 +120,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-log4moz
+modules
+/
+Log
 .
-js
+jsm
 "
 )
 ;
@@ -709,7 +709,7 @@ collection
 let
 log
 =
-Log4Moz
+Log
 .
 repository
 .
@@ -1064,7 +1064,7 @@ syncKey
 let
 log
 =
-Log4Moz
+Log
 .
 repository
 .
