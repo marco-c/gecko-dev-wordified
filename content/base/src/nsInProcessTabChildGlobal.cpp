@@ -259,7 +259,7 @@ bool
 nsInProcessTabChildGlobal
 :
 :
-DoSendSyncMessage
+DoSendBlockingMessage
 (
 JSContext
 *
@@ -293,6 +293,8 @@ nsString
 >
 *
 aJSONRetVal
+bool
+aIsSync
 )
 {
 nsTArray
