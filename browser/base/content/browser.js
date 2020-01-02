@@ -9734,12 +9734,6 @@ e
 }
 }
 }
-SocialUI
-.
-nonBrowserWindowInit
-(
-)
-;
 if
 (
 PrivateBrowsingUtils
