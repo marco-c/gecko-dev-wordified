@@ -397,7 +397,13 @@ settings
 '
                   
 '
-build
+pre_build
+.
+xml
+'
+                  
+'
+post_build
 .
 xml
 '
