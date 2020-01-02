@@ -7566,11 +7566,7 @@ CompartmentOptionsRef
 cx
 )
 .
-cloneSingletonsOverride
-(
-)
-.
-set
+setCloneSingletons
 (
 true
 )

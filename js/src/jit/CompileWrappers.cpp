@@ -1210,7 +1210,6 @@ options
 .
 cloneSingletons
 (
-cx
 )
 ;
 spsSlowAssertionsEnabled_

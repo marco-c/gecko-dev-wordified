@@ -16881,7 +16881,6 @@ cx
 .
 cloneSingletons
 (
-cx
 )
 )
 {
