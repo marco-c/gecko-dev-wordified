@@ -1957,6 +1957,15 @@ aNode
 )
 {
 }
+DOMAudioNodeMediaStream
+:
+:
+~
+DOMAudioNodeMediaStream
+(
+)
+{
+}
 already_AddRefed
 <
 DOMAudioNodeMediaStream
