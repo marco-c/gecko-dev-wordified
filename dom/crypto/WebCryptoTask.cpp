@@ -5988,8 +5988,14 @@ Value
 }
 else
 {
+nsRefPtr
+<
 KeyAlgorithm
+>
 hashAlg
+=
+new
+KeyAlgorithm
 (
 global
 hashName
@@ -5998,7 +6004,8 @@ hashName
 switch
 (
 hashAlg
-.
+-
+>
 Mechanism
 (
 )
