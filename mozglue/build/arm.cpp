@@ -657,7 +657,7 @@ if
 fin
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -707,7 +707,7 @@ fin
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -744,7 +744,7 @@ if
 p
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -790,7 +790,7 @@ if
 p
 !
 =
-NULL
+nullptr
 &
 &
 (

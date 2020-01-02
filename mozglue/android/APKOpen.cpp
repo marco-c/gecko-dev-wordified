@@ -717,7 +717,7 @@ mapping_info
 *
 lib_mapping
 =
-NULL
+nullptr
 ;
 NS_EXPORT
 const
@@ -777,7 +777,7 @@ if
 cls
 =
 =
-NULL
+nullptr
 )
 {
 __android_log_print
@@ -884,7 +884,7 @@ void
 *
 xul_handle
 =
-NULL
+nullptr
 ;
 #
 ifndef
@@ -894,21 +894,21 @@ void
 *
 sqlite_handle
 =
-NULL
+nullptr
 ;
 static
 void
 *
 nspr_handle
 =
-NULL
+nullptr
 ;
 static
 void
 *
 plc_handle
 =
-NULL
+nullptr
 ;
 #
 else
@@ -931,7 +931,7 @@ void
 *
 nss_handle
 =
-NULL
+nullptr
 ;
 template
 <
@@ -2005,7 +2005,7 @@ jenv
 GetStringUTFChars
 (
 jApkName
-NULL
+nullptr
 )
 ;
 if
@@ -2013,7 +2013,7 @@ if
 str
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -2133,7 +2133,7 @@ jenv
 GetStringUTFChars
 (
 jApkName
-NULL
+nullptr
 )
 ;
 if
@@ -2141,7 +2141,7 @@ if
 str
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -2291,7 +2291,7 @@ jenv
 GetStringUTFChars
 (
 jApkName
-NULL
+nullptr
 )
 ;
 if
@@ -2299,7 +2299,7 @@ if
 str
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -2427,7 +2427,7 @@ if
 GeckoStart
 =
 =
-NULL
+nullptr
 )
 return
 ;

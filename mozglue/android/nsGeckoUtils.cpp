@@ -198,7 +198,7 @@ jenv
 GetStringUTFChars
 (
 map
-NULL
+nullptr
 )
 ;
 if
@@ -206,7 +206,7 @@ if
 str
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -258,7 +258,7 @@ size
 jobject
 buffer
 =
-NULL
+nullptr
 ;
 void
 *
@@ -379,7 +379,7 @@ jenv
 GetStringUTFChars
 (
 path
-NULL
+nullptr
 )
 ;
 if
@@ -709,7 +709,7 @@ jenv
 GetStringUTFChars
 (
 path
-NULL
+nullptr
 )
 ;
 Zip
@@ -747,7 +747,7 @@ res
 )
 {
 return
-NULL
+nullptr
 ;
 }
 jobject
@@ -802,7 +802,7 @@ ByteBuffer
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 jclass

@@ -1102,7 +1102,7 @@ thread_info_t
 *
 sCurrentRecreatingThread
 =
-NULL
+nullptr
 ;
 /
 *
@@ -1150,7 +1150,7 @@ tinfo
 recrFunc
 !
 =
-NULL
+nullptr
 )
 {
 tinfo
@@ -1639,7 +1639,7 @@ tinfo
 }
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1875,7 +1875,7 @@ else
 /
 Is
 not
-NULL
+nullptr
 only
 for
 threads
@@ -1894,7 +1894,7 @@ process
 It
 is
 always
-NULL
+nullptr
 for
 the
 main
@@ -1906,7 +1906,7 @@ thread_info_t
 *
 sCurThreadInfo
 =
-NULL
+nullptr
 ;
 #
 define
@@ -2334,7 +2334,7 @@ if
 oldinfo
 !
 =
-NULL
+nullptr
 )
 {
 abort
@@ -2384,7 +2384,7 @@ end
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -2518,7 +2518,7 @@ sInstance
 ;
 sInstance
 =
-NULL
+nullptr
 ;
 }
 private
@@ -2594,14 +2594,14 @@ tinfo
 >
 recrFunc
 =
-NULL
+nullptr
 ;
 tinfo
 -
 >
 recrArg
 =
-NULL
+nullptr
 ;
 tinfo
 -
@@ -2615,7 +2615,7 @@ tinfo
 >
 reacquireMutex
 =
-NULL
+nullptr
 ;
 tinfo
 -
@@ -3345,7 +3345,7 @@ if
 value
 =
 =
-NULL
+nullptr
 )
 {
 continue
@@ -3739,7 +3739,7 @@ if
 tinfo
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -6955,7 +6955,7 @@ if
 info
 =
 =
-NULL
+nullptr
 )
 {
 abort
@@ -7254,7 +7254,7 @@ retEnv
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -7291,7 +7291,7 @@ abort
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -7483,7 +7483,7 @@ while
 tinfo
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -8316,14 +8316,14 @@ NuwaProtoFdInfo
 int
 )
 =
-NULL
+nullptr
 ;
 if
 (
 AddNewIPCProcess
 =
 =
-NULL
+nullptr
 )
 {
 AddNewIPCProcess
@@ -8986,7 +8986,7 @@ int
 *
 )
 =
-NULL
+nullptr
 ;
 void
 (
@@ -8996,7 +8996,7 @@ OnNuwaProcessReady
 (
 )
 =
-NULL
+nullptr
 ;
 sIsFreezing
 =
@@ -9185,7 +9185,7 @@ if
 tinfo
 =
 =
-NULL
+nullptr
 )
 {
 abort
@@ -9267,7 +9267,7 @@ if
 tinfo
 =
 =
-NULL
+nullptr
 )
 {
 abort

@@ -278,19 +278,19 @@ if
 nss_handle
 =
 =
-NULL
+nullptr
 |
 |
 nspr_handle
 =
 =
-NULL
+nullptr
 |
 |
 plc_handle
 =
 =
-NULL
+nullptr
 )
 {
 LOG
@@ -675,7 +675,7 @@ jenv
 GetStringUTFChars
 (
 jPath
-NULL
+nullptr
 )
 ;
 const
@@ -691,7 +691,7 @@ jenv
 GetStringUTFChars
 (
 jValue
-NULL
+nullptr
 )
 ;
 char
@@ -801,7 +801,7 @@ jenv
 GetStringUTFChars
 (
 jPath
-NULL
+nullptr
 )
 ;
 const
@@ -817,7 +817,7 @@ jenv
 GetStringUTFChars
 (
 jValue
-NULL
+nullptr
 )
 ;
 char
@@ -1048,8 +1048,8 @@ rv
 f_PK11_InitPin
 (
 slot
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -1170,7 +1170,7 @@ keyid
 request
 &
 reply
-NULL
+nullptr
 )
 ;
 if
@@ -1303,7 +1303,7 @@ f_PK11SDR_Decrypt
 request
 &
 reply
-NULL
+nullptr
 )
 ;
 if
@@ -1486,7 +1486,7 @@ char
 )
 data
 dataLen
-NULL
+nullptr
 )
 ;
 if
@@ -1673,7 +1673,7 @@ f_PL_Base64Decode
 (
 data
 len
-NULL
+nullptr
 )
 ;
 if
