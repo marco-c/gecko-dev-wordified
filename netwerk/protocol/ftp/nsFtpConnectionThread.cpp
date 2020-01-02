@@ -8810,7 +8810,7 @@ methods
 static
 inline
 uint32_t
-NowInSeconds
+GetFtpTime
 (
 )
 {
@@ -8831,7 +8831,7 @@ nsFtpState
 :
 mSessionStartTime
 =
-NowInSeconds
+GetFtpTime
 (
 )
 ;
@@ -9213,7 +9213,7 @@ false
 ;
 return
 (
-NowInSeconds
+GetFtpTime
 (
 )
 <
