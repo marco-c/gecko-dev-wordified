@@ -1307,6 +1307,9 @@ numLocks
 WakeLockInformation
 info
 ;
+hal
+:
+:
 GetWakeLockInfo
 (
 aTopic
