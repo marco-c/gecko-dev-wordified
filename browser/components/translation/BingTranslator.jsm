@@ -2340,7 +2340,7 @@ function
 err
 )
 {
-this
+BingTokenManager
 .
 _pendingRequest
 =
