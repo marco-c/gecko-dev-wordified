@@ -72,7 +72,7 @@ gre
 /
 modules
 /
-FxAccountsConsts
+FxAccountsCommon
 .
 js
 "
