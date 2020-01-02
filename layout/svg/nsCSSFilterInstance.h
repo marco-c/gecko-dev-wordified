@@ -477,6 +477,14 @@ FilterPrimitiveDescription
 aDescr
 )
 ;
+nsresult
+SetAttributesForSaturate
+(
+FilterPrimitiveDescription
+&
+aDescr
+)
+;
 /
 *
 *
