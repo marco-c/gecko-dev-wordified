@@ -9619,7 +9619,7 @@ bool
 nsContentUtils
 :
 :
-IsCallerXBL
+IsCallerContentXBL
 (
 )
 {
@@ -9691,7 +9691,7 @@ if
 xpc
 :
 :
-AllowXBLScope
+AllowContentXBLScope
 (
 c
 )
@@ -9722,7 +9722,7 @@ return
 xpc
 :
 :
-IsXBLScope
+IsContentXBLScope
 (
 c
 )
@@ -31241,7 +31241,7 @@ IsCallerChrome
 )
 |
 |
-IsCallerXBL
+IsCallerContentXBL
 (
 )
 ;

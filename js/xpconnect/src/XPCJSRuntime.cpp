@@ -2992,7 +2992,7 @@ scriptability
 ;
 }
 bool
-IsXBLScope
+IsContentXBLScope
 (
 JSCompartment
 *
@@ -3042,13 +3042,13 @@ priv
 scope
 -
 >
-IsXBLScope
+IsContentXBLScope
 (
 )
 ;
 }
 bool
-IsInXBLScope
+IsInContentXBLScope
 (
 JSObject
 *
@@ -3056,7 +3056,7 @@ obj
 )
 {
 return
-IsXBLScope
+IsContentXBLScope
 (
 js
 :

@@ -16010,7 +16010,7 @@ ChromeOnlyAccess
 xpc
 :
 :
-IsInXBLScope
+IsInContentXBLScope
 (
 obj
 )
@@ -16020,7 +16020,7 @@ obj
 xpc
 :
 :
-UseXBLScope
+UseContentXBLScope
 (
 js
 :

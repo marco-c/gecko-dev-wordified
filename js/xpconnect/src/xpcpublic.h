@@ -484,7 +484,7 @@ target
 )
 ;
 bool
-IsXBLScope
+IsContentXBLScope
 (
 JSCompartment
 *
@@ -492,7 +492,7 @@ compartment
 )
 ;
 bool
-IsInXBLScope
+IsInContentXBLScope
 (
 JSObject
 *
@@ -662,7 +662,7 @@ obj
 {
 if
 (
-IsInXBLScope
+IsInContentXBLScope
 (
 obj
 )
@@ -707,10 +707,10 @@ See
 the
 comment
 around
-mAllowXBLScope
+mAllowContentXBLScope
 .
 bool
-AllowXBLScope
+AllowContentXBLScope
 (
 JSCompartment
 *
@@ -773,7 +773,7 @@ already
 exist
 .
 bool
-UseXBLScope
+UseContentXBLScope
 (
 JSCompartment
 *

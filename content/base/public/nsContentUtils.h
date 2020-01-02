@@ -850,7 +850,7 @@ ThreadsafeIsCallerChrome
 ;
 static
 bool
-IsCallerXBL
+IsCallerContentXBL
 (
 )
 ;

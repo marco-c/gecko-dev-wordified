@@ -398,7 +398,7 @@ mIsBoundToChrome
 (
 false
 )
-mUsingXBLScope
+mUsingContentXBLScope
 (
 false
 )
@@ -538,7 +538,7 @@ mIsBoundToChrome
 &
 &
 !
-mUsingXBLScope
+mUsingContentXBLScope
 )
 )
 &

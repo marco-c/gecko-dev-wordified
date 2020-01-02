@@ -787,7 +787,7 @@ mMarkedForDeath
 (
 false
 )
-mUsingXBLScope
+mUsingContentXBLScope
 (
 false
 )
@@ -862,7 +862,7 @@ mMarkedForDeath
 (
 false
 )
-mUsingXBLScope
+mUsingContentXBLScope
 (
 false
 )
@@ -1819,12 +1819,12 @@ GetGlobalJSObject
 )
 )
 ;
-mUsingXBLScope
+mUsingContentXBLScope
 =
 xpc
 :
 :
-UseXBLScope
+UseContentXBLScope
 (
 js
 :
@@ -3363,7 +3363,7 @@ isChromeDoc
 &
 &
 !
-mUsingXBLScope
+mUsingContentXBLScope
 )
 )
 {
@@ -3450,9 +3450,9 @@ isChromeDoc
 handler
 -
 >
-SetUsingXBLScope
+SetUsingContentXBLScope
 (
-mUsingXBLScope
+mUsingContentXBLScope
 )
 ;
 nsAutoString
@@ -6017,7 +6017,7 @@ name
 xpc
 :
 :
-IsInXBLScope
+IsInContentXBLScope
 (
 proto
 )
@@ -7499,7 +7499,7 @@ MOZ_RELEASE_ASSERT
 xpc
 :
 :
-IsInXBLScope
+IsInContentXBLScope
 (
 boundScope
 )

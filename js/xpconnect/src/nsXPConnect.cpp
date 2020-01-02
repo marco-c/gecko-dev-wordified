@@ -9004,7 +9004,7 @@ on
 the
 fact
 that
-AllowXBLScope
+AllowContentXBLScope
 (
 )
 only
@@ -9027,14 +9027,14 @@ c
 )
 |
 |
-IsXBLScope
+IsContentXBLScope
 (
 c
 )
 |
 |
 !
-AllowXBLScope
+AllowContentXBLScope
 (
 c
 )
