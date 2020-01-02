@@ -6400,9 +6400,6 @@ size_t
 script
 )
 ;
-#
-ifdef
-JS_THREADSAFE
 JS_FRIEND_API
 (
 bool
@@ -6415,8 +6412,6 @@ JSContext
 cx
 )
 ;
-#
-endif
 typedef
 void
 (

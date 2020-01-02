@@ -2298,9 +2298,6 @@ hasStackToScan
 )
 )
 {
-#
-ifdef
-JS_THREADSAFE
 JS_ASSERT
 (
 !
@@ -2310,8 +2307,6 @@ rt
 requestDepth
 )
 ;
-#
-endif
 return
 ;
 }

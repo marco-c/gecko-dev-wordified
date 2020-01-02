@@ -4737,9 +4737,6 @@ runtime
 structuredCloneCallbacks
 ;
 }
-#
-ifdef
-JS_THREADSAFE
 JS_FRIEND_API
 (
 bool
@@ -4764,8 +4761,6 @@ outstandingRequests
 0
 ;
 }
-#
-endif
 JS_FRIEND_API
 (
 void
@@ -6621,9 +6616,6 @@ JSContext
 cx
 )
 {
-#
-ifdef
-JS_THREADSAFE
 return
 !
 !
@@ -6637,13 +6629,6 @@ runtime
 >
 requestDepth
 ;
-#
-else
-return
-true
-;
-#
-endif
 }
 #
 endif

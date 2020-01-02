@@ -332,9 +332,6 @@ addressOfInterrupt
 (
 )
 ;
-#
-ifdef
-JS_THREADSAFE
 const
 void
 *
@@ -342,8 +339,6 @@ addressOfInterruptPar
 (
 )
 ;
-#
-endif
 const
 void
 *

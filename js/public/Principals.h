@@ -167,9 +167,6 @@ below
 .
 *
 /
-#
-ifdef
-JS_THREADSAFE
 mozilla
 :
 :
@@ -179,13 +176,6 @@ int32_t
 >
 refcount
 ;
-#
-else
-int32_t
-refcount
-;
-#
-endif
 #
 ifdef
 JS_DEBUG

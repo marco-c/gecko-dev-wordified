@@ -705,14 +705,6 @@ start
 (
 )
 {
-#
-ifndef
-JS_THREADSAFE
-return
-false
-;
-#
-else
 if
 (
 isMainThread
@@ -767,8 +759,6 @@ PR_UNJOINABLE_THREAD
 WORKER_THREAD_STACK_SIZE
 )
 ;
-#
-endif
 }
 #
 ifdef
@@ -1461,9 +1451,6 @@ clearChunkCache
 (
 )
 ;
-#
-ifdef
-JS_THREADSAFE
 if
 (
 chunkLock_
@@ -1482,8 +1469,6 @@ PR_DestroyCondVar
 joinBarrier_
 )
 ;
-#
-endif
 }
 bool
 ThreadPool
@@ -1493,9 +1478,6 @@ init
 (
 )
 {
-#
-ifdef
-JS_THREADSAFE
 if
 (
 !
@@ -1538,8 +1520,6 @@ chunkLock_
 return
 false
 ;
-#
-endif
 return
 true
 ;
@@ -1553,9 +1533,6 @@ numWorkers
 )
 const
 {
-#
-ifdef
-JS_THREADSAFE
 return
 HelperThreadState
 (
@@ -1563,13 +1540,6 @@ HelperThreadState
 .
 cpuCount
 ;
-#
-else
-return
-1
-;
-#
-endif
 }
 bool
 ThreadPool
@@ -1693,9 +1663,6 @@ upon
 failure
 )
 .
-#
-ifdef
-JS_THREADSAFE
 if
 (
 !
@@ -1924,8 +1891,6 @@ false
 ;
 }
 }
-#
-endif
 return
 true
 ;

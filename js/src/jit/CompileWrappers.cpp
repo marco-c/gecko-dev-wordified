@@ -384,9 +384,6 @@ runtime
 interrupt
 ;
 }
-#
-ifdef
-JS_THREADSAFE
 const
 void
 *
@@ -407,8 +404,6 @@ runtime
 interruptPar
 ;
 }
-#
-endif
 const
 void
 *

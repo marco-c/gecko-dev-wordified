@@ -129,9 +129,6 @@ init
 (
 )
 {
-#
-ifdef
-JS_THREADSAFE
 lock_
 =
 PR_NewLock
@@ -161,8 +158,6 @@ condVar_
 return
 false
 ;
-#
-endif
 return
 true
 ;

@@ -2612,9 +2612,6 @@ init
 (
 )
 {
-#
-ifdef
-JS_THREADSAFE
 lock_
 =
 PR_NewLock
@@ -2629,8 +2626,6 @@ lock_
 return
 false
 ;
-#
-endif
 if
 (
 !
@@ -2653,9 +2648,6 @@ icache
 (
 )
 {
-#
-ifdef
-JS_THREADSAFE
 MOZ_ASSERT
 (
 lockOwner_
@@ -2666,8 +2658,6 @@ PR_GetCurrentThread
 )
 )
 ;
-#
-endif
 return
 icache_
 ;
@@ -2679,9 +2669,6 @@ redirection
 )
 const
 {
-#
-ifdef
-JS_THREADSAFE
 MOZ_ASSERT
 (
 lockOwner_
@@ -2692,8 +2679,6 @@ PR_GetCurrentThread
 )
 )
 ;
-#
-endif
 return
 redirection_
 ;
@@ -2712,9 +2697,6 @@ Redirection
 redirection
 )
 {
-#
-ifdef
-JS_THREADSAFE
 MOZ_ASSERT
 (
 lockOwner_
@@ -2725,8 +2707,6 @@ PR_GetCurrentThread
 )
 )
 ;
-#
-endif
 redirection_
 =
 redirection
@@ -2757,9 +2737,6 @@ srt_
 srt
 )
 {
-#
-ifdef
-JS_THREADSAFE
 PR_Lock
 (
 srt_
@@ -2791,17 +2768,12 @@ PR_GetCurrentThread
 ;
 #
 endif
-#
-endif
 }
 ~
 AutoLockSimulatorRuntime
 (
 )
 {
-#
-ifdef
-JS_THREADSAFE
 MOZ_ASSERT
 (
 srt_
@@ -2830,8 +2802,6 @@ srt_
 lock_
 )
 ;
-#
-endif
 }
 }
 ;
@@ -9133,9 +9103,6 @@ r
 next
 ;
 }
-#
-ifdef
-JS_THREADSAFE
 if
 (
 lock_
@@ -9145,8 +9112,6 @@ PR_DestroyLock
 lock_
 )
 ;
-#
-endif
 }
 /
 /
