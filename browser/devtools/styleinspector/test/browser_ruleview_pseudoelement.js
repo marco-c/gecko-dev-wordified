@@ -850,8 +850,7 @@ scroll
 %
 0
 %
-#
-F00
+red
 ;
 content
 :
@@ -3177,8 +3176,7 @@ scroll
 %
 0
 %
-#
-00F
+blue
 "
 "
 Paragraph
@@ -3255,8 +3253,7 @@ textProps
 "
 color
 :
-#
-F00
+red
 ;
 font
 -
@@ -3340,8 +3337,7 @@ textProps
 "
 color
 :
-#
-FFF
+white
 ;
 background
 :
@@ -3352,8 +3348,7 @@ scroll
 %
 0
 %
-#
-000
+black
 "
 "
 Paragraph

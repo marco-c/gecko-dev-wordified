@@ -179,7 +179,8 @@ modifiers
 expected
 :
 "
-red
+#
+F00
 "
 }
 {
@@ -203,7 +204,8 @@ true
 expected
 :
 "
-blue
+#
+00F
 "
 }
 ]
@@ -470,7 +472,7 @@ propEditor
 .
 valueSpan
 .
-innerHTML
+textContent
 testData
 [
 index
