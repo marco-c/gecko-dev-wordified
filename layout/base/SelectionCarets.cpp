@@ -4710,17 +4710,6 @@ caret
 nullptr
 )
 ;
-nsISelection
-*
-caretSelection
-=
-caret
--
->
-GetCaretDOMSelection
-(
-)
-;
 nsRect
 focusRect
 ;
@@ -4730,7 +4719,6 @@ caret
 >
 GetGeometry
 (
-caretSelection
 &
 focusRect
 )
