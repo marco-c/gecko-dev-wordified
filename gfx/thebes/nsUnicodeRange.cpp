@@ -173,11 +173,6 @@ el_
 nsGkAtoms
 :
 :
-tr
-&
-nsGkAtoms
-:
-:
 he
 &
 nsGkAtoms
@@ -376,7 +371,6 @@ unicode
 x
 -
 western
-tr
 -
 >
 latin
