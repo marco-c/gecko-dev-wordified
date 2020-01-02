@@ -389,12 +389,8 @@ GLLibraryEGL
 *
 egl
 =
-prodGL
--
->
-GetLibraryEGL
-(
-)
+&
+sEGLLibrary
 ;
 MOZ_ASSERT
 (
