@@ -5792,7 +5792,7 @@ bookmarks
 .
 max_backups
 "
-15
+10
 )
 ;
 /
