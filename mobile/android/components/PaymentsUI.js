@@ -916,7 +916,7 @@ browser
 addEventListener
 (
 "
-DOMContentLoaded
+DOMWindowCreated
 "
 function
 loadPaymentShim
@@ -1142,7 +1142,7 @@ browser
 removeEventListener
 (
 "
-DOMContentLoaded
+DOMWindowCreated
 "
 loadPaymentShim
 )
