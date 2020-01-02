@@ -2758,6 +2758,16 @@ removePrompt
 newPrompt
 )
 ;
+domWin
+.
+removeEventListener
+(
+"
+pagehide
+"
+pagehide
+)
+;
 winUtils
 .
 leaveModalState
