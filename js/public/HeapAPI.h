@@ -645,6 +645,11 @@ void
 thing
 )
 {
+JS_ASSERT
+(
+thing
+)
+;
 uintptr_t
 addr
 =
@@ -705,6 +710,11 @@ void
 thing
 )
 {
+JS_ASSERT
+(
+thing
+)
+;
 uintptr_t
 addr
 =
