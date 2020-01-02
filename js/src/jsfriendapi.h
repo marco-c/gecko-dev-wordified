@@ -8829,6 +8829,14 @@ JSObject
 obj
 )
 ;
+typedef
+enum
+{
+ChangeData
+KeepData
+}
+NeuterDataDisposition
+;
 /
 *
 *
@@ -8864,6 +8872,8 @@ JS
 :
 HandleObject
 obj
+NeuterDataDisposition
+changeData
 )
 ;
 /

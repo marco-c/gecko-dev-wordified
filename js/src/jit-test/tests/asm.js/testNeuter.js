@@ -179,6 +179,11 @@ get
 neuter
 (
 buffer
+"
+same
+-
+data
+"
 )
 ;
 /
@@ -345,6 +350,11 @@ try
 neuter
 (
 buffer
+"
+same
+-
+data
+"
 )
 ;
 }
