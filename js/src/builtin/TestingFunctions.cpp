@@ -9332,7 +9332,7 @@ IsAsmJSModuleLoadedFromCache
 1
 0
 "
-isAsmJSModule
+isAsmJSModuleLoadedFromCache
 (
 fn
 )
