@@ -8770,7 +8770,7 @@ new
 nsNSSCertList
 (
 certList
-true
+locker
 )
 ;
 *

@@ -245,12 +245,9 @@ new
 nsNSSCertList
 (
 newList
-true
+locker
 )
 ;
-/
-/
-adopt
 }
 return
 NS_OK
