@@ -958,6 +958,9 @@ flags
 unsigned
 parenCount
 ;
+bool
+canStringMatch
+;
 #
 if
 ENABLE_YARR_JIT
@@ -1338,6 +1341,9 @@ JS_ASSERT
 isCompiled
 (
 )
+|
+|
+canStringMatch
 )
 ;
 return
