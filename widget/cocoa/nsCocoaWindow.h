@@ -2164,12 +2164,7 @@ AdjustWindowShadow
 )
 ;
 void
-SetUpWindowFilter
-(
-)
-;
-void
-CleanUpWindowFilter
+SetWindowBackgroundBlur
 (
 )
 ;
@@ -2320,9 +2315,6 @@ content
 widget
 int32_t
 mShadowStyle
-;
-NSUInteger
-mWindowFilter
 ;
 CGFloat
 mBackingScaleFactor
