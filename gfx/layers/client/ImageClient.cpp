@@ -2632,7 +2632,7 @@ this
 mDeprecatedTextureClient
 -
 >
-GetDescriptor
+LockSurfaceDescriptor
 (
 )
 )
