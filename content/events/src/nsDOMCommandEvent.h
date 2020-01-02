@@ -157,7 +157,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsCommandEvent
+mozilla
+:
+:
+WidgetCommandEvent
 *
 aEvent
 )

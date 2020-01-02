@@ -8255,7 +8255,7 @@ nsIAtom
 aCommand
 )
 {
-nsCommandEvent
+WidgetCommandEvent
 event
 (
 true

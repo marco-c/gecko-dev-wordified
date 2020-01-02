@@ -24695,7 +24695,7 @@ return
 false
 ;
 }
-nsCommandEvent
+WidgetCommandEvent
 event
 (
 true

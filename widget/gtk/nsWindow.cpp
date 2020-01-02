@@ -16250,7 +16250,7 @@ aCommand
 nsEventStatus
 status
 ;
-nsCommandEvent
+WidgetCommandEvent
 event
 (
 true
