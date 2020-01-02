@@ -8180,6 +8180,19 @@ starred
 "
 )
 ;
+this
+.
+button
+.
+setAttribute
+(
+"
+buttontooltiptext
+"
+"
+"
+)
+;
 }
 else
 {
@@ -8859,7 +8872,7 @@ button
 setAttribute
 (
 "
-tooltiptext
+buttontooltiptext
 "
 this
 .
@@ -8883,7 +8896,7 @@ button
 setAttribute
 (
 "
-tooltiptext
+buttontooltiptext
 "
 this
 .

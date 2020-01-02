@@ -104,7 +104,7 @@ button
 getAttribute
 (
 "
-tooltiptext
+buttontooltiptext
 "
 )
 BookmarkingUI
