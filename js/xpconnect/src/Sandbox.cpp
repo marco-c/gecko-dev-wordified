@@ -5540,9 +5540,6 @@ bool
 xpc
 :
 :
-SandboxOptions
-:
-:
 GlobalProperties
 :
 :
@@ -5790,9 +5787,6 @@ true
 }
 bool
 xpc
-:
-:
-SandboxOptions
 :
 :
 GlobalProperties
@@ -6714,7 +6708,7 @@ if
 !
 options
 .
-GlobalProperties
+globalProperties
 .
 Define
 (
@@ -8300,7 +8294,7 @@ ok
 =
 options
 .
-GlobalProperties
+globalProperties
 .
 Parse
 (
