@@ -66,6 +66,16 @@ mozbuild
 base
 import
 MozbuildObject
+os
+.
+environ
+.
+pop
+(
+'
+MOZ_OBJDIR
+'
+)
 build_obj
 =
 MozbuildObject
