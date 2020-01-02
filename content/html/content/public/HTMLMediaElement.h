@@ -217,6 +217,17 @@ mozilla
 /
 dom
 /
+Promise
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 TextTrackManager
 .
 h
@@ -229,6 +240,9 @@ MediaDecoder
 h
 "
 #
+ifdef
+MOZ_EME
+#
 include
 "
 mozilla
@@ -239,6 +253,8 @@ MediaKeys
 .
 h
 "
+#
+endif
 /
 /
 Something
@@ -2875,6 +2891,9 @@ MozPreservesPitch
 )
 is
 OK
+#
+ifdef
+MOZ_EME
 MediaKeys
 *
 GetMediaKeys
@@ -2953,6 +2972,11 @@ aName
 )
 MOZ_OVERRIDE
 ;
+#
+endif
+/
+/
+MOZ_EME
 bool
 MozAutoplayEnabled
 (
@@ -6256,6 +6280,9 @@ TimeRanges
 >
 mPlayed
 ;
+#
+ifdef
+MOZ_EME
 /
 /
 Encrypted
@@ -6270,6 +6297,8 @@ MediaKeys
 >
 mMediaKeys
 ;
+#
+endif
 /
 /
 Stores
