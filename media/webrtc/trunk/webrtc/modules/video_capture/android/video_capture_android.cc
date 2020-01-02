@@ -88,6 +88,13 @@ tree
 #
 include
 "
+AndroidJNIWrapper
+.
+h
+"
+#
+include
+"
 webrtc
 /
 modules

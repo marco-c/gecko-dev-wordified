@@ -125,6 +125,13 @@ functions
 #
 include
 "
+AndroidJNIWrapper
+.
+h
+"
+#
+include
+"
 webrtc
 /
 modules
