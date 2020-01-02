@@ -7320,7 +7320,7 @@ cx
 )
 {
 }
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 init
 (
@@ -7380,7 +7380,7 @@ return
 cur
 ;
 }
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 popFront
 (

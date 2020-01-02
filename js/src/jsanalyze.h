@@ -489,7 +489,7 @@ debugMode
 #
 endif
 }
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 analyzeBytecode
 (
@@ -551,7 +551,7 @@ pc
 }
 private
 :
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 analyzeSSA
 (
@@ -560,7 +560,7 @@ JSContext
 cx
 )
 ;
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 analyzeLifetimes
 (
@@ -1024,7 +1024,7 @@ Bytecode
 helpers
 *
 /
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 inline
 bool
 addJump
@@ -1053,7 +1053,7 @@ Lifetime
 helpers
 *
 /
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 inline
 bool
 addVariable
@@ -1076,7 +1076,7 @@ unsigned
 savedCount
 )
 ;
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 inline
 bool
 killVariable
@@ -1099,7 +1099,7 @@ unsigned
 savedCount
 )
 ;
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 inline
 bool
 extendVariable
@@ -1133,7 +1133,7 @@ SSA
 helpers
 *
 /
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 makePhi
 (
@@ -1149,7 +1149,7 @@ SSAValue
 pv
 )
 ;
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 insertPhi
 (
@@ -1165,7 +1165,7 @@ SSAValue
 v
 )
 ;
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 mergeValue
 (
@@ -1183,7 +1183,7 @@ SlotValue
 pv
 )
 ;
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 checkPendingValue
 (
@@ -1204,7 +1204,7 @@ SlotValue
 pending
 )
 ;
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 checkBranchTarget
 (
@@ -1226,7 +1226,7 @@ uint32_t
 stackDepth
 )
 ;
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 checkExceptionTarget
 (
@@ -1243,7 +1243,7 @@ uint32_t
 exceptionTargets
 )
 ;
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 mergeBranchTarget
 (
@@ -1266,7 +1266,7 @@ uint32_t
 currentOffset
 )
 ;
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 mergeExceptionTarget
 (
@@ -1288,7 +1288,7 @@ uint32_t
 exceptionTargets
 )
 ;
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 mergeAllExceptionTargets
 (
@@ -1307,7 +1307,7 @@ uint32_t
 exceptionTargets
 )
 ;
-JS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 freezeNewValues
 (
