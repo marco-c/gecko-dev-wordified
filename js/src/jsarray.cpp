@@ -7629,7 +7629,7 @@ false
 if
 (
 !
-js_IsCallable
+IsCallable
 (
 join
 )

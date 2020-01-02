@@ -2451,7 +2451,7 @@ length
 |
 |
 !
-js_IsCallable
+IsCallable
 (
 args
 [

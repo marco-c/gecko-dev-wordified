@@ -1290,7 +1290,7 @@ false
 ;
 if
 (
-js_IsCallable
+IsCallable
 (
 toJSON
 )
@@ -1762,7 +1762,7 @@ isUndefined
 )
 |
 |
-js_IsCallable
+IsCallable
 (
 v
 )
@@ -5507,7 +5507,7 @@ steps
 /
 if
 (
-js_IsCallable
+IsCallable
 (
 reviver
 )

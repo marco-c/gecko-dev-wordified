@@ -6624,7 +6624,7 @@ fval
 &
 (
 !
-js_IsCallable
+IsCallable
 (
 fval
 )

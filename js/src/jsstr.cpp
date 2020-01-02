@@ -21902,7 +21902,7 @@ length
 ReplaceOptArg
 &
 &
-js_IsCallable
+IsCallable
 (
 args
 [
@@ -28226,7 +28226,7 @@ nullptr
 ;
 if
 (
-js_IsCallable
+IsCallable
 (
 fval
 )

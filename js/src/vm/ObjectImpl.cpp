@@ -268,7 +268,7 @@ hasGet_
 if
 (
 !
-js_IsCallable
+IsCallable
 (
 get_
 )
@@ -319,7 +319,7 @@ hasSet_
 if
 (
 !
-js_IsCallable
+IsCallable
 (
 set_
 )
