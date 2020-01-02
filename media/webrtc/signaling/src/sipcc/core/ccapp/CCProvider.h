@@ -561,11 +561,14 @@ sessMgmt
 ;
 extern
 void
-CCApp_task
+CCApp_prepare_task
 (
+)
+;
+extern
 void
-*
-arg
+GSM_prepare_task
+(
 )
 ;
 extern
