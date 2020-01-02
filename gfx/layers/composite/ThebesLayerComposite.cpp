@@ -880,6 +880,13 @@ tiledLayerProps
 nullptr
 )
 ;
+mBuffer
+-
+>
+BumpFlashCounter
+(
+)
+;
 if
 (
 mRequiresTiledProperties

@@ -847,6 +847,7 @@ DIAGNOSTIC_BIGIMAGE
 rect
 aClipRect
 aTransform
+mFlashCounter
 )
 ;
 }
@@ -882,6 +883,7 @@ DIAGNOSTIC_IMAGE
 gfxPictureRect
 aClipRect
 aTransform
+mFlashCounter
 )
 ;
 }
@@ -1064,6 +1066,7 @@ DIAGNOSTIC_IMAGE
 rect
 aClipRect
 aTransform
+mFlashCounter
 )
 ;
 }
@@ -1816,6 +1819,7 @@ DIAGNOSTIC_BIGIMAGE
 rect
 aClipRect
 aTransform
+mFlashCounter
 )
 ;
 }
@@ -2022,6 +2026,7 @@ DIAGNOSTIC_IMAGE
 rect
 aClipRect
 aTransform
+mFlashCounter
 )
 ;
 }

@@ -671,6 +671,13 @@ mFilter
 clipRect
 )
 ;
+mImageHost
+-
+>
+BumpFlashCounter
+(
+)
+;
 }
 void
 ImageLayerComposite

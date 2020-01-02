@@ -2759,6 +2759,16 @@ mDiagnosticTypes
 aDiagnostics
 ;
 }
+DiagnosticTypes
+GetDiagnosticTypes
+(
+)
+const
+{
+return
+mDiagnosticTypes
+;
+}
 void
 DrawDiagnostics
 (
@@ -2785,6 +2795,10 @@ gfx
 Matrix4x4
 &
 transform
+uint32_t
+aFlashCounter
+=
+DIAGNOSTIC_FLASH_COUNTER_MAX
 )
 ;
 void
@@ -2810,6 +2824,10 @@ gfx
 Matrix4x4
 &
 transform
+uint32_t
+aFlashCounter
+=
+DIAGNOSTIC_FLASH_COUNTER_MAX
 )
 ;
 #
@@ -3451,6 +3469,8 @@ gfx
 Matrix4x4
 &
 transform
+uint32_t
+aFlashCounter
 )
 ;
 bool

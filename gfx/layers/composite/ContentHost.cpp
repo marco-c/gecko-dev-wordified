@@ -1304,6 +1304,7 @@ diagnostics
 rect
 aClipRect
 aTransform
+mFlashCounter
 )
 ;
 }
@@ -1389,6 +1390,7 @@ diagnostics
 aVisibleRegion
 aClipRect
 aTransform
+mFlashCounter
 )
 ;
 }
@@ -2745,6 +2747,7 @@ diagnostics
 rect
 aClipRect
 aTransform
+mFlashCounter
 )
 ;
 }
@@ -2830,6 +2833,7 @@ diagnostics
 aVisibleRegion
 aClipRect
 aTransform
+mFlashCounter
 )
 ;
 }
