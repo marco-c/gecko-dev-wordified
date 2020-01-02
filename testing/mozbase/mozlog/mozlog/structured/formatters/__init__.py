@@ -71,7 +71,6 @@ from
 machformatter
 import
 MachFormatter
-MachTerminalFormatter
 from
 tbplformatter
 import

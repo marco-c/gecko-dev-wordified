@@ -54,13 +54,14 @@ MPL
 /
 .
 from
-machformatter
+.
+base
 import
-BaseMachFormatter
+BaseFormatter
 class
 TbplFormatter
 (
-BaseMachFormatter
+BaseFormatter
 )
 :
     
