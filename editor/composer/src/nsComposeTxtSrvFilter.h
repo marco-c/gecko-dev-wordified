@@ -207,6 +207,12 @@ aIsForMail
 }
 private
 :
+~
+nsComposeTxtSrvFilter
+(
+)
+{
+}
 bool
 mIsForMail
 ;

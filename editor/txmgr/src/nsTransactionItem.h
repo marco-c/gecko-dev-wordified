@@ -175,12 +175,6 @@ nsITransaction
 aTransaction
 )
 ;
-virtual
-~
-nsTransactionItem
-(
-)
-;
 NS_METHOD_
 (
 MozExternalRefCountType
@@ -349,6 +343,12 @@ CleanUp
 ;
 protected
 :
+virtual
+~
+nsTransactionItem
+(
+)
+;
 nsCycleCollectingAutoRefCnt
 mRefCnt
 ;

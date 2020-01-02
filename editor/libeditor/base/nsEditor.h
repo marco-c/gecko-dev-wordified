@@ -799,6 +799,8 @@ nsEditor
 (
 )
 ;
+protected
+:
 /
 *
 *
@@ -840,6 +842,8 @@ nsEditor
 (
 )
 ;
+public
+:
 /
 /
 Interfaces

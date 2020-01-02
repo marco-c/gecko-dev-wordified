@@ -234,12 +234,6 @@ nsEditorSpellCheck
 (
 )
 ;
-virtual
-~
-nsEditorSpellCheck
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
@@ -259,6 +253,12 @@ interface
 NS_DECL_NSIEDITORSPELLCHECK
 protected
 :
+virtual
+~
+nsEditorSpellCheck
+(
+)
+;
 nsCOMPtr
 <
 nsISpellChecker

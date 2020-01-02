@@ -345,12 +345,6 @@ nsTextEditRules
 (
 )
 ;
-virtual
-~
-nsTextEditRules
-(
-)
-;
 /
 /
 nsIEditRules
@@ -447,6 +441,14 @@ aDocumentIsEmpty
 ;
 NS_IMETHOD
 DocumentModified
+(
+)
+;
+protected
+:
+virtual
+~
+nsTextEditRules
 (
 )
 ;

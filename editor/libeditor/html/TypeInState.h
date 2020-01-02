@@ -218,12 +218,6 @@ Reset
 (
 )
 ;
-virtual
-~
-TypeInState
-(
-)
-;
 nsresult
 UpdateSelState
 (
@@ -646,6 +640,12 @@ outIndex
 ;
 protected
 :
+virtual
+~
+TypeInState
+(
+)
+;
 void
 RemovePropFromSetList
 (

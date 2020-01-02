@@ -285,12 +285,6 @@ nsEditingSession
 (
 )
 ;
-virtual
-~
-nsEditingSession
-(
-)
-;
 /
 /
 nsISupports
@@ -305,6 +299,12 @@ nsIEditingSession
 NS_DECL_NSIEDITINGSESSION
 protected
 :
+virtual
+~
+nsEditingSession
+(
+)
+;
 nsIDocShell
 *
 GetDocShellFromWindow

@@ -211,12 +211,6 @@ nsComposerCommandsUpdater
 (
 )
 ;
-virtual
-~
-nsComposerCommandsUpdater
-(
-)
-;
 /
 /
 nsISupports
@@ -409,6 +403,12 @@ aDOMWindow
 ;
 protected
 :
+virtual
+~
+nsComposerCommandsUpdater
+(
+)
+;
 enum
 {
 eStateUninitialized
