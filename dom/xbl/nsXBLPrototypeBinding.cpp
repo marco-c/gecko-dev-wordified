@@ -2486,15 +2486,6 @@ Handle
 JSObject
 *
 >
-aGlobal
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
 aScriptObject
 JS
 :
@@ -2517,7 +2508,6 @@ nsXBLBinding
 DoInitJSClass
 (
 aContext
-aGlobal
 aScriptObject
 aClassName
 this

@@ -1601,7 +1601,6 @@ InitClass
 (
 mClassName
 cx
-global
 value
 aTargetClassObject
 aTargetIsNew
@@ -1763,7 +1762,6 @@ InitClass
 (
 mClassName
 cx
-compilationGlobal
 compilationGlobal
 &
 classObject
@@ -2514,7 +2512,6 @@ InitClass
 (
 mClassName
 cx
-global
 global
 &
 classObject
