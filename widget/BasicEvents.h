@@ -445,7 +445,7 @@ eScrollPortEventClass
 /
 /
 InternalScrollPortEvent
-NS_SCROLLAREA_EVENT
+eScrollAreaEventClass
 /
 /
 InternalScrollAreaEvent

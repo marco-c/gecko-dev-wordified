@@ -685,7 +685,7 @@ WidgetGUIEvent
 aIsTrusted
 aMessage
 aWidget
-NS_SCROLLAREA_EVENT
+eScrollAreaEventClass
 )
 {
 }
@@ -703,7 +703,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_SCROLLAREA_EVENT
+eScrollAreaEventClass
 "
 Duplicate
 (

@@ -4109,7 +4109,7 @@ AsGUIEvent
 )
 ;
 case
-NS_SCROLLAREA_EVENT
+eScrollAreaEventClass
 :
 return
 NS_NewDOMScrollAreaEvent
