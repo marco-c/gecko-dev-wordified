@@ -8776,6 +8776,17 @@ baseNode
 selector
 )
 {
+if
+(
+!
+baseNode
+)
+{
+return
+{
+}
+}
+;
 let
 node
 =
