@@ -1279,6 +1279,8 @@ class
 TabChild
 :
 public
+TabChildBase
+public
 PBrowserChild
 public
 nsIWebBrowserChrome2
@@ -1304,8 +1306,6 @@ public
 TabContext
 public
 nsITooltipListener
-public
-TabChildBase
 {
 typedef
 mozilla
@@ -1434,7 +1434,7 @@ IsRootContentDocument
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIWEBBROWSERCHROME
 NS_DECL_NSIWEBBROWSERCHROME2
 NS_DECL_NSIEMBEDDINGSITEWINDOW
