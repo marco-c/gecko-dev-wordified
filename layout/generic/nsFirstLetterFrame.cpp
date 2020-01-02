@@ -2034,9 +2034,7 @@ first
 letter
 style
 from
-it
-'
-s
+its
 /
 /
 prev
