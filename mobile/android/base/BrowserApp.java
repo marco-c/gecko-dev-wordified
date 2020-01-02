@@ -9087,13 +9087,6 @@ onSaveInstanceState
 outState
 )
 ;
-mToast
-.
-onSaveInstanceState
-(
-outState
-)
-;
 outState
 .
 putBoolean
@@ -14842,7 +14835,9 @@ addBookmark
 (
 )
 ;
-mToast
+getButtonToast
+(
+)
 .
 show
 (
