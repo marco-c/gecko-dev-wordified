@@ -188,11 +188,6 @@ ar
 nsGkAtoms
 :
 :
-x_baltic
-&
-nsGkAtoms
-:
-:
 th
 &
 nsGkAtoms
@@ -387,9 +382,6 @@ central
 -
 euro
 tr
-x
--
-baltic
 -
 >
 latin

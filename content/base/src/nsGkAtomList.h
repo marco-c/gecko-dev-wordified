@@ -14917,15 +14917,6 @@ ar
 )
 GK_ATOM
 (
-x_baltic
-"
-x
--
-baltic
-"
-)
-GK_ATOM
-(
 x_devanagari
 "
 x
