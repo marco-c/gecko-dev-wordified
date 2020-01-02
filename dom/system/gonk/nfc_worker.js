@@ -2313,6 +2313,11 @@ techList
 ]
 ;
 let
+records
+=
+null
+;
+let
 sessionId
 =
 Buf
@@ -2412,7 +2417,13 @@ readInt32
 (
 )
 ;
-let
+if
+(
+ndefMsgCount
+>
+0
+)
+{
 records
 =
 this
@@ -2421,6 +2432,7 @@ unMarshallNdefMessage
 (
 )
 ;
+}
 this
 .
 sendDOMMessage
