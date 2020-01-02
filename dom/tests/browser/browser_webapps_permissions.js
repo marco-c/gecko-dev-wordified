@@ -481,9 +481,11 @@ window
 /
 (
 see
-webappsUI
+notifyInstallSuccess
+in
+WebappManager
 .
-installationSuccessNotification
+jsm
 )
 .
 /
