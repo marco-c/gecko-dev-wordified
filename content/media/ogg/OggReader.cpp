@@ -831,6 +831,9 @@ res
 NS_ERROR_FAILURE
 ;
 }
+#
+ifdef
+MOZ_OPUS
 if
 (
 mOpusState
@@ -853,6 +856,13 @@ res
 NS_ERROR_FAILURE
 ;
 }
+#
+endif
+/
+*
+MOZ_OPUS
+*
+/
 if
 (
 mTheoraState
@@ -13260,6 +13270,9 @@ time
 )
 ;
 }
+#
+ifdef
+MOZ_OPUS
 else
 if
 (
@@ -13298,6 +13311,13 @@ time
 )
 ;
 }
+#
+endif
+/
+*
+MOZ_OPUS
+*
+/
 else
 if
 (
