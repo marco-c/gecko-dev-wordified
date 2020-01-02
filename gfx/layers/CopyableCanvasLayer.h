@@ -275,13 +275,6 @@ h
 for
 MOZ_COUNT_CTOR
 etc
-using
-namespace
-mozilla
-:
-:
-gfx
-;
 namespace
 mozilla
 {

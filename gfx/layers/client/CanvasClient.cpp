@@ -307,6 +307,13 @@ namespace
 mozilla
 :
 :
+gfx
+;
+using
+namespace
+mozilla
+:
+:
 gl
 ;
 namespace
