@@ -4382,6 +4382,27 @@ MOZ_CRASHREPORTER_DISABLE
 '
   
 #
+Crash
+on
+non
+-
+local
+network
+connections
+.
+  
+env
+[
+'
+MOZ_DISABLE_NONLOCAL_CONNECTIONS
+'
+]
+=
+'
+1
+'
+  
+#
 Set
 WebRTC
 logging

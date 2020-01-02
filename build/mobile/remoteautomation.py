@@ -488,6 +488,27 @@ MOZ_CRASHREPORTER_DISABLE
 1
 '
         
+#
+Crash
+on
+non
+-
+local
+network
+connections
+.
+        
+env
+[
+'
+MOZ_DISABLE_NONLOCAL_CONNECTIONS
+'
+]
+=
+'
+1
+'
+        
 return
 env
     
