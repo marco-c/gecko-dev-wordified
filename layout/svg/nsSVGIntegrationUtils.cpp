@@ -654,7 +654,8 @@ here
 All
 continuations
 and
-special
+IB
+split
 siblings
 of
 a
@@ -759,7 +760,8 @@ mozAnonymousBlock
 .
 These
 "
-special
+IB
+split
 sibling
 "
 anonymous
