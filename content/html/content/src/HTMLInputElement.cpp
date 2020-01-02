@@ -826,13 +826,10 @@ nsMathUtils
 .
 h
 inline
-NS_HIDDEN_
-(
 mozilla
 :
 :
 Decimal
-)
 NS_floorModulo
 (
 mozilla

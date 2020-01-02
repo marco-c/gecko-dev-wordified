@@ -132,10 +132,7 @@ nsStyleContext
 aContext
 )
 ;
-NS_HIDDEN_
-(
 nscoord
-)
 GetIntrinsicWidth
 (
 nsRenderingContext

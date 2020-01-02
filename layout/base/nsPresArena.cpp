@@ -323,11 +323,8 @@ mPool
 )
 ;
 }
-NS_HIDDEN_
-(
 void
 *
-)
 nsPresArena
 :
 :
@@ -723,10 +720,7 @@ return
 result
 ;
 }
-NS_HIDDEN_
-(
 void
-)
 nsPresArena
 :
 :

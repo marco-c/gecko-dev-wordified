@@ -521,10 +521,7 @@ gService
 nullptr
 ;
 }
-NS_HIDDEN_
-(
 nsresult
-)
 Init
 (
 )

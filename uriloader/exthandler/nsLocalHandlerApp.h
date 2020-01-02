@@ -294,10 +294,7 @@ command
 line
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 LaunchWithIProcess
 (
 const

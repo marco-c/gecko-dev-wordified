@@ -136,10 +136,7 @@ aFile
 protected
 :
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 LoadUriInternal
 (
 nsIURI
@@ -151,10 +148,7 @@ aURI
 ifdef
 DEBUG
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 LaunchDefaultWithFile
 (
 nsIFile
@@ -182,10 +176,7 @@ NS_ERROR_UNEXPECTED
 #
 endif
 static
-NS_HIDDEN_
-(
 nsresult
-)
 OpenApplicationWithURI
 (
 nsIFile

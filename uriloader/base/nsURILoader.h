@@ -242,10 +242,7 @@ already
 .
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 OpenChannel
 (
 nsIChannel

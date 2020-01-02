@@ -5487,10 +5487,7 @@ attribute
 .
 *
 /
-NS_HIDDEN_
-(
 bool
-)
 GetBoolAttr
 (
 nsIAtom
@@ -5561,10 +5558,7 @@ attribute
 .
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 SetBoolAttr
 (
 nsIAtom

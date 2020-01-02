@@ -378,10 +378,7 @@ instantiated
 .
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 Init
 (
 )
@@ -703,10 +700,7 @@ aFile
 )
 ;
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 OSProtocolHandlerExists
 (
 const
@@ -792,10 +786,7 @@ if
 found
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 FillMIMEInfoForMimeTypeFromExtras
 (
 const
@@ -848,10 +839,7 @@ see
 FillMIMEInfoForMimeTypeFromExtras
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 FillMIMEInfoForExtensionFromExtras
 (
 const
@@ -914,10 +902,7 @@ otherwise
 .
 *
 /
-NS_HIDDEN_
-(
 bool
-)
 GetTypeFromExtras
 (
 const

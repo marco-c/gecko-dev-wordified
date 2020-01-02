@@ -1212,10 +1212,7 @@ load
 .
 *
 /
-NS_HIDDEN_
-(
 void
-)
 StartObjectLoad
 (
 bool

@@ -181,10 +181,7 @@ _retval
 )
 ;
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 LoadUriInternal
 (
 nsIURI
@@ -193,10 +190,7 @@ aURI
 )
 ;
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 LaunchDefaultWithFile
 (
 nsIFile

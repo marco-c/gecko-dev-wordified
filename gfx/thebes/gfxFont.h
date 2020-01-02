@@ -24621,11 +24621,8 @@ closure
 )
 ;
 static
-NS_HIDDEN_
-(
 nsILanguageAtomService
 *
-)
 gLangService
 ;
 }

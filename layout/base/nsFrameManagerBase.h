@@ -303,11 +303,8 @@ hierarchy
 .
 *
 /
-NS_HIDDEN_
-(
 nsIFrame
 *
-)
 GetRootFrame
 (
 )
@@ -317,10 +314,7 @@ return
 mRootFrame
 ;
 }
-NS_HIDDEN_
-(
 void
-)
 SetRootFrame
 (
 nsIFrame

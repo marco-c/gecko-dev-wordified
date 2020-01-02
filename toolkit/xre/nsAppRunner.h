@@ -362,10 +362,7 @@ nsINativeAppSupport
 aResult
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 NS_NewToolkitProfileService
 (
 nsIToolkitProfileService
@@ -374,10 +371,7 @@ nsIToolkitProfileService
 aResult
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 NS_NewToolkitProfileFactory
 (
 nsIFactory
@@ -482,10 +476,7 @@ unlocked
 .
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 NS_LockProfilePath
 (
 nsIFile
@@ -504,10 +495,7 @@ nsIProfileLock
 aResult
 )
 ;
-NS_HIDDEN_
-(
 void
-)
 WriteConsoleLog
 (
 )

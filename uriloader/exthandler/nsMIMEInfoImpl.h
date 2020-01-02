@@ -762,10 +762,7 @@ opened
 *
 /
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 LaunchDefaultWithFile
 (
 nsIFile
@@ -804,10 +801,7 @@ OS
 *
 /
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 LoadUriInternal
 (
 nsIURI
@@ -908,10 +902,7 @@ line
 *
 /
 static
-NS_HIDDEN_
-(
 nsresult
-)
 LaunchWithIProcess
 (
 nsIFile
@@ -924,10 +915,7 @@ aArg
 )
 ;
 static
-NS_HIDDEN_
-(
 nsresult
-)
 LaunchWithIProcess
 (
 nsIFile
@@ -975,10 +963,7 @@ param
 *
 /
 static
-NS_HIDDEN_
-(
 nsresult
-)
 GetLocalFileFromURI
 (
 nsIURI
@@ -1318,10 +1303,7 @@ behaviour
 *
 /
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 LaunchDefaultWithFile
 (
 nsIFile
@@ -1357,10 +1339,7 @@ implementation
 *
 /
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 LoadUriInternal
 (
 nsIURI

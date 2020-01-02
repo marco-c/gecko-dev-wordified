@@ -957,10 +957,7 @@ tmp
 )
 ;
 }
-NS_HIDDEN_
-(
 nsresult
-)
 Init
 (
 nsISystemProxySettings

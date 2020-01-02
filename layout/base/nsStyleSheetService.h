@@ -257,10 +257,7 @@ NS_HIDDEN
 NS_DECL_ISUPPORTS
 NS_DECL_NSISTYLESHEETSERVICE
 NS_DECL_NSIMEMORYREPORTER
-NS_HIDDEN_
-(
 nsresult
-)
 Init
 (
 )
@@ -341,10 +338,7 @@ gInstance
 ;
 private
 :
-NS_HIDDEN_
-(
 void
-)
 RegisterFromEnumerator
 (
 nsICategoryManager
@@ -361,10 +355,7 @@ uint32_t
 aSheetType
 )
 ;
-NS_HIDDEN_
-(
 int32_t
-)
 FindSheetByURI
 (
 const
@@ -407,10 +398,7 @@ mSheets
 aSheetType
 ]
 .
-NS_HIDDEN_
-(
 nsresult
-)
 LoadAndRegisterSheetInternal
 (
 nsIURI

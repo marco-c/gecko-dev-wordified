@@ -561,10 +561,7 @@ null
 .
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 ReparentStyleContext
 (
 nsIFrame
@@ -604,10 +601,7 @@ aFrame
 .
 *
 /
-NS_HIDDEN_
-(
 void
-)
 ComputeStyleChangeFor
 (
 nsIFrame
@@ -646,10 +640,7 @@ frame
 tree
 *
 /
-NS_HIDDEN_
-(
 void
-)
 DebugVerifyStyleTree
 (
 nsIFrame

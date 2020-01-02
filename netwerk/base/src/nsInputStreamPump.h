@@ -189,10 +189,7 @@ nsInputStreamPump
 )
 ;
 static
-NS_HIDDEN_
-(
 nsresult
-)
 Create
 (
 nsInputStreamPump
@@ -335,10 +332,7 @@ onStopRequest
 .
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 PeekStream
 (
 PeekSegmentFun

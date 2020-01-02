@@ -423,13 +423,10 @@ the
 DOM
 window
 .
-NS_HIDDEN_
-(
 already_AddRefed
 <
 nsIPresShell
 >
-)
 GetPresShell
 (
 )

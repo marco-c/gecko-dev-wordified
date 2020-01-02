@@ -1632,10 +1632,7 @@ aDebug
 ;
 #
 endif
-NS_HIDDEN_
-(
 nsresult
-)
 Notify
 (
 nsITimer

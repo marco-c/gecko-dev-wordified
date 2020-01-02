@@ -336,10 +336,7 @@ out
 )
 MOZ_OVERRIDE
 ;
-NS_HIDDEN_
-(
 void
-)
 PropagateDebug
 (
 nsBoxLayoutState
@@ -399,10 +396,7 @@ ComputesOwnOverflowArea
 =
 0
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 SyncLayout
 (
 nsBoxLayoutState
@@ -606,10 +600,7 @@ uint32_t
 aFlags
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 BeginLayout
 (
 nsBoxLayoutState
@@ -625,10 +616,7 @@ nsBoxLayoutState
 aBoxLayoutState
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 EndLayout
 (
 nsBoxLayoutState
@@ -648,10 +636,7 @@ nsAutoString
 aName
 )
 ;
-NS_HIDDEN_
-(
 void
-)
 PropagateDebug
 (
 nsBoxLayoutState

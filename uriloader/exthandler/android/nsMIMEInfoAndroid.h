@@ -186,10 +186,7 @@ aMIMEType
 protected
 :
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 LaunchDefaultWithFile
 (
 nsIFile
@@ -198,10 +195,7 @@ aFile
 )
 ;
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 LoadUriInternal
 (
 nsIURI

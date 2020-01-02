@@ -267,10 +267,7 @@ void
 aResult
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 FlushMemory
 (
 const
@@ -281,10 +278,7 @@ bool
 aImmediate
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 RunFlushers
 (
 const

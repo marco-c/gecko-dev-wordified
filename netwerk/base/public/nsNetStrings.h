@@ -109,11 +109,8 @@ kChannelPolicy
 }
 ;
 extern
-NS_HIDDEN_
-(
 nsNetStrings
 *
-)
 gNetStrings
 ;
 #

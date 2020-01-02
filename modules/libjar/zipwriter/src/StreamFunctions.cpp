@@ -105,10 +105,7 @@ hit
 .
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 ZW_ReadData
 (
 nsIInputStream
@@ -224,10 +221,7 @@ hit
 .
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 ZW_WriteData
 (
 nsIOutputStream

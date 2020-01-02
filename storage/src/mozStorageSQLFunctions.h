@@ -181,10 +181,7 @@ failure
 .
 *
 /
-NS_HIDDEN_
-(
 int
-)
 registerFunctions
 (
 sqlite3
@@ -353,10 +350,7 @@ with
 .
 *
 /
-NS_HIDDEN_
-(
 void
-)
 caseFunction
 (
 sqlite3_context
@@ -443,10 +437,7 @@ with
 .
 *
 /
-NS_HIDDEN_
-(
 void
-)
 likeFunction
 (
 sqlite3_context
@@ -527,10 +518,7 @@ with
 .
 *
 /
-NS_HIDDEN_
-(
 void
-)
 levenshteinDistanceFunction
 (
 sqlite3_context

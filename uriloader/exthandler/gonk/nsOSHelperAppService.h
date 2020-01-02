@@ -224,10 +224,7 @@ aFound
 )
 ;
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 OSProtocolHandlerExists
 (
 const

@@ -224,11 +224,8 @@ namespaces
 *
 /
 static
-NS_HIDDEN_
-(
 nsXMLNameSpaceMap
 *
-)
 Create
 (
 bool
@@ -276,10 +273,7 @@ kNameSpaceID_None
 .
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 AddPrefix
 (
 nsIAtom
@@ -318,10 +312,7 @@ ID
 .
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 AddPrefix
 (
 nsIAtom
@@ -396,10 +387,7 @@ returned
 .
 *
 /
-NS_HIDDEN_
-(
 int32_t
-)
 FindNameSpaceID
 (
 nsIAtom
@@ -441,11 +429,8 @@ returned
 .
 *
 /
-NS_HIDDEN_
-(
 nsIAtom
 *
-)
 FindPrefix
 (
 int32_t
@@ -462,10 +447,7 @@ mappings
 .
 *
 /
-NS_HIDDEN_
-(
 void
-)
 Clear
 (
 )
