@@ -9049,6 +9049,15 @@ AllowXBLScope
 (
 )
 ;
+bool
+UseXBLScope
+(
+)
+{
+return
+mUseXBLScope
+;
+}
 protected
 :
 virtual
