@@ -6155,6 +6155,13 @@ isString
 |
 value
 .
+isSymbol
+(
+)
+|
+|
+value
+.
 isObject
 (
 )
