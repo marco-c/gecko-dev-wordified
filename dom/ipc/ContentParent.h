@@ -3449,6 +3449,16 @@ aXSocketFd
 MOZ_OVERRIDE
 ;
 virtual
+bool
+RecvOpenAnonymousTemporaryFile
+(
+FileDescriptor
+*
+aFD
+)
+MOZ_OVERRIDE
+;
+virtual
 PFileDescriptorSetParent
 *
 AllocPFileDescriptorSetParent

@@ -598,6 +598,13 @@ h
 #
 include
 "
+nsAnonymousTemporaryFile
+.
+h
+"
+#
+include
+"
 IHistory
 .
 h
