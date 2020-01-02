@@ -1141,6 +1141,17 @@ t
 be
 deleted
           
+if
+sys
+.
+platform
+=
+=
+"
+win32
+"
+:
+            
 os
 .
 chmod
