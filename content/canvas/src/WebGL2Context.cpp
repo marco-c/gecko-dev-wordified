@@ -646,9 +646,6 @@ WEBGL_draw_buffers
 ;
 const
 GLFeature
-:
-:
-Enum
 sFeatureRequiredArr
 [
 ]
