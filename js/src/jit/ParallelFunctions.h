@@ -357,6 +357,17 @@ double
 d
 )
 ;
+JSString
+*
+PrimitiveToStringPar
+(
+ForkJoinSlice
+*
+slice
+HandleValue
+input
+)
+;
 bool
 StringToNumberPar
 (
