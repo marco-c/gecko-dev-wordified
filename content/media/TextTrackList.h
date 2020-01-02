@@ -250,7 +250,7 @@ active
 cues
 .
 void
-GetAllActiveCues
+UpdateAndGetShowingCues
 (
 nsTArray
 <

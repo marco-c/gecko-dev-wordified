@@ -1083,7 +1083,7 @@ activeCues
 mTextTracks
 -
 >
-GetAllActiveCues
+UpdateAndGetShowingCues
 (
 activeCues
 )

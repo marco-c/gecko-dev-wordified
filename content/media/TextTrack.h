@@ -427,6 +427,11 @@ GetActiveCues
 )
 ;
 void
+UpdateActiveCueList
+(
+)
+;
+void
 GetActiveCueArray
 (
 nsTArray
@@ -525,11 +530,6 @@ mTextTrackSource
 }
 private
 :
-void
-UpdateActiveCueList
-(
-)
-;
 nsCOMPtr
 <
 nsISupports
