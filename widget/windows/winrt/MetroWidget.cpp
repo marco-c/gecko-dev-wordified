@@ -8631,10 +8631,7 @@ CSSToScreenScale
 )
 ;
 }
-else
-{
 return
 NS_OK
 ;
-}
 }
