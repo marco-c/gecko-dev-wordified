@@ -3422,7 +3422,7 @@ activateMgr
 CoCreateInstance
 (
 CLSID_ApplicationActivationManager
-NULL
+nullptr
 CLSCTX_LOCAL_SERVER
 )
 ;
@@ -3558,7 +3558,7 @@ bRequestMet
 ;
 CoInitialize
 (
-NULL
+nullptr
 )
 ;
 CComPtr
@@ -3797,13 +3797,13 @@ thread
 =
 CreateThread
 (
-NULL
+nullptr
 0
 DelayedExecuteThread
 &
 mRequestMet
 0
-NULL
+nullptr
 )
 ;
 CloseHandle

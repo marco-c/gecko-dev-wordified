@@ -220,11 +220,11 @@ kSimpleCIDs
 &
 kSIMPLETEST_CID
 false
-NULL
+nullptr
 SimpleTestConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -266,7 +266,7 @@ c
 kSIMPLETEST_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

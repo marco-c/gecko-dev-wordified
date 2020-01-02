@@ -6144,7 +6144,7 @@ nsITimeServiceConstructor
 &
 kNS_MEDIASTREAMCONTROLLERSERVICE_CID
 false
-NULL
+nullptr
 nsIStreamingProtocolControllerServiceConstructor
 }
 #

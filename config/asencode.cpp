@@ -327,7 +327,7 @@ EXIT_IF_FALSE
 input
 !
 =
-NULL
+nullptr
 )
 ;
 while
@@ -637,7 +637,7 @@ if
 output
 =
 =
-NULL
+nullptr
 )
 {
 printf
@@ -1282,9 +1282,9 @@ fsref
 kFSCatInfoGettableInfo
 &
 cat_info
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 =
 =

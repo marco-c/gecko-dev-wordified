@@ -117,7 +117,7 @@ nsAndroidHistory
 :
 sHistory
 =
-NULL
+nullptr
 ;
 /
 *

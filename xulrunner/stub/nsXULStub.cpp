@@ -399,7 +399,7 @@ wchar_t
 ;
 MessageBoxW
 (
-NULL
+nullptr
 wide_msg
 L
 "
@@ -1000,7 +1000,7 @@ if
 :
 GetModuleFileNameW
 (
-NULL
+nullptr
 wide_path
 MAX_PATH
 )
@@ -1017,8 +1017,8 @@ wide_path
 1
 iniPath
 MAX_PATH
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 #
@@ -1313,7 +1313,7 @@ token
 =
 strtok
 (
-NULL
+nullptr
 "
 :
 "
@@ -1930,7 +1930,7 @@ xulurl
 =
 CFURLCreateCopyAppendingPathComponent
 (
-NULL
+nullptr
 absfwurl
 CFSTR
 (
@@ -1953,7 +1953,7 @@ xpcomurl
 =
 CFURLCreateCopyAppendingPathComponent
 (
-NULL
+nullptr
 xulurl
 CFSTR
 (

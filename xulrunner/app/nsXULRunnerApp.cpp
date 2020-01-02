@@ -376,7 +376,7 @@ MB_ICONINFORMATION
 ;
 MessageBoxW
 (
-NULL
+nullptr
 msg
 L
 "

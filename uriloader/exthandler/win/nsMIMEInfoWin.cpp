@@ -618,13 +618,13 @@ seinfo
 .
 hwnd
 =
-NULL
+nullptr
 ;
 seinfo
 .
 lpVerb
 =
-NULL
+nullptr
 ;
 seinfo
 .
@@ -646,7 +646,7 @@ seinfo
 .
 lpDirectory
 =
-NULL
+nullptr
 ;
 seinfo
 .
@@ -1364,7 +1364,7 @@ sinfo
 .
 hwnd
 =
-NULL
+nullptr
 ;
 sinfo
 .
@@ -1385,7 +1385,7 @@ SW_SHOWNORMAL
 LPITEMIDLIST
 pidl
 =
-NULL
+nullptr
 ;
 SFGAOF
 sfgao
@@ -1405,7 +1405,7 @@ utf16Spec
 get
 (
 )
-NULL
+nullptr
 &
 pidl
 0
@@ -2892,7 +2892,7 @@ len
 =
 GetModuleFileNameW
 (
-NULL
+nullptr
 exe
 MAX_PATH
 )

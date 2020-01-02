@@ -9295,7 +9295,7 @@ nsOfflineCacheUpdateService
 OfflineAppPinnedForURI
 (
 aDocumentURI
-NULL
+nullptr
 &
 mPinned
 )
@@ -9554,7 +9554,7 @@ nsOfflineCacheUpdateService
 OfflineAppPinnedForURI
 (
 aManifestURI
-NULL
+nullptr
 &
 mPinned
 )
@@ -9804,7 +9804,7 @@ nsOfflineCacheUpdateService
 OfflineAppPinnedForURI
 (
 aDocumentURI
-NULL
+nullptr
 &
 mPinned
 )
@@ -13776,7 +13776,7 @@ nsOfflineCacheUpdateService
 OfflineAppPinnedForURI
 (
 uri
-NULL
+nullptr
 &
 pinned
 )

@@ -453,7 +453,7 @@ aChan
 )
 mExistingListener
 (
-NULL
+nullptr
 )
 {
 }
