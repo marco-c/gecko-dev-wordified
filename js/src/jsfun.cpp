@@ -1271,7 +1271,7 @@ id
 =
 NameToId
 (
-AtomStateOffsetToName
+OFFSET_TO_NAME
 (
 cx
 -
@@ -1279,9 +1279,6 @@ cx
 runtime
 (
 )
--
->
-atomState
 offset
 )
 )
@@ -1774,10 +1771,9 @@ js
 :
 FunctionHasResolveHook
 (
-const
-JSAtomState
-&
-atomState
+JSRuntime
+*
+rt
 PropertyName
 *
 name
@@ -1788,6 +1784,9 @@ if
 name
 =
 =
+rt
+-
+>
 atomState
 .
 prototype
@@ -1796,6 +1795,9 @@ prototype
 name
 =
 =
+rt
+-
+>
 atomState
 .
 length
@@ -1804,6 +1806,9 @@ length
 name
 =
 =
+rt
+-
+>
 atomState
 .
 name
@@ -1844,9 +1849,9 @@ if
 name
 =
 =
-AtomStateOffsetToName
+OFFSET_TO_NAME
 (
-atomState
+rt
 offset
 )
 )
@@ -2304,7 +2309,7 @@ if
 JSID_IS_ATOM
 (
 id
-AtomStateOffsetToName
+OFFSET_TO_NAME
 (
 cx
 -
@@ -2312,9 +2317,6 @@ cx
 runtime
 (
 )
--
->
-atomState
 offset
 )
 )

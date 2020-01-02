@@ -1741,6 +1741,7 @@ Assembler
 NotEqual
 AbsoluteAddress
 (
+&
 GetIonContext
 (
 )
@@ -1749,9 +1750,7 @@ GetIonContext
 runtime
 -
 >
-addressOfInterrupt
-(
-)
+interrupt
 )
 Imm32
 (

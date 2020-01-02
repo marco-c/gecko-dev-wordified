@@ -6439,7 +6439,7 @@ stdn
 )
 {
 return
-AtomStateOffsetToName
+OFFSET_TO_NAME
 (
 cx
 -
@@ -6447,9 +6447,6 @@ cx
 runtime
 (
 )
--
->
-atomState
 stdn
 -
 >
@@ -7620,12 +7617,9 @@ clasp
 ;
 atom
 =
-AtomStateOffsetToName
+OFFSET_TO_NAME
 (
 rt
--
->
-atomState
 standard_class_atoms
 [
 i

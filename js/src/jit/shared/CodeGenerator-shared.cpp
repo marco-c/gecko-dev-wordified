@@ -326,8 +326,6 @@ runtime
 -
 >
 spsProfiler
-(
-)
 &
 lastPC_
 )
@@ -4297,8 +4295,6 @@ runtime
 -
 >
 jitSupportsFloatingPoint
-(
-)
 )
 ;
 #
