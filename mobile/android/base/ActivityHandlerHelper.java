@@ -279,7 +279,7 @@ mActivityResultHandlerMap
 ;
 public
 interface
-FileResultHandler
+ResultHandler
 {
 public
 void
@@ -422,19 +422,6 @@ extensions
 )
 )
 ;
-Log
-.
-i
-(
-LOGTAG
-"
-Mime
-:
-"
-+
-mimeType
-)
-;
 showFilePickerAsync
 (
 GeckoAppShell
@@ -448,7 +435,7 @@ getActivity
 )
 mimeType
 new
-FileResultHandler
+ResultHandler
 (
 )
 {
@@ -1686,7 +1673,7 @@ parentActivity
 String
 aMimeType
 final
-FileResultHandler
+ResultHandler
 handler
 )
 {
@@ -1710,6 +1697,7 @@ IntentHandler
 (
 )
 {
+Override
 public
 void
 gotIntent
