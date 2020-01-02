@@ -250,6 +250,17 @@ onsuccess
 =
 continueToNextStep
 ;
+/
+/
+Bug
+943409
+.
+eval
+(
+'
+'
+)
+;
 for
 (
 let
