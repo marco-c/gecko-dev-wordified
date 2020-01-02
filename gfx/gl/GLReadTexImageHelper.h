@@ -423,9 +423,12 @@ here
 .
 *
 /
-already_AddRefed
+TemporaryRef
 <
-gfxImageSurface
+gfx
+:
+:
+DataSourceSurface
 >
 ReadTexImage
 (
@@ -434,7 +437,10 @@ aTextureId
 GLenum
 aTextureTarget
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 /
