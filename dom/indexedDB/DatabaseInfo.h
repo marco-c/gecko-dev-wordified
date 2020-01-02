@@ -396,8 +396,9 @@ static
 bool
 Get
 (
-nsIAtom
-*
+const
+nsACString
+&
 aId
 DatabaseInfo
 *
@@ -418,8 +419,9 @@ static
 void
 Remove
 (
-nsIAtom
-*
+const
+nsACString
+&
 aId
 )
 ;
@@ -478,10 +480,7 @@ Clone
 (
 )
 ;
-nsCOMPtr
-<
-nsIAtom
->
+nsCString
 id
 ;
 nsString

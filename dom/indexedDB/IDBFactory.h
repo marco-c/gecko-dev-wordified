@@ -194,9 +194,6 @@ class
 mozIStorageConnection
 ;
 class
-nsIAtom
-;
-class
 nsIFile
 ;
 class
@@ -535,8 +532,9 @@ LoadDatabaseInformation
 mozIStorageConnection
 *
 aConnection
-nsIAtom
-*
+const
+nsACString
+&
 aDatabaseId
 uint64_t
 *

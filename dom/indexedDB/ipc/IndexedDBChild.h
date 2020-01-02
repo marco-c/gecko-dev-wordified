@@ -197,9 +197,6 @@ PIndexedDBTransactionChild
 .
 h
 "
-class
-nsIAtom
-;
 BEGIN_INDEXEDDB_NAMESPACE
 class
 AsyncConnectionHelper
@@ -3033,10 +3030,7 @@ IDBOpenDBRequest
 >
 mOpenRequest
 ;
-nsCOMPtr
-<
-nsIAtom
->
+nsCString
 mDatabaseId
 ;
 public
@@ -3049,8 +3043,9 @@ aFactory
 IDBOpenDBRequest
 *
 aOpenRequest
-nsIAtom
-*
+const
+nsACString
+&
 aDatabaseId
 )
 ;

@@ -320,8 +320,9 @@ aTransaction
 ObjectStoreInfo
 *
 aInfo
-nsIAtom
-*
+const
+nsACString
+&
 aDatabaseId
 bool
 aCreating
@@ -1783,10 +1784,7 @@ mRooted
 bool
 mAutoIncrement
 ;
-nsCOMPtr
-<
-nsIAtom
->
+nsCString
 mDatabaseId
 ;
 nsRefPtr

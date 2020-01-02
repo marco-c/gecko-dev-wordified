@@ -138,7 +138,7 @@ namespace
 typedef
 nsDataHashtable
 <
-nsISupportsHashKey
+nsCStringHashKey
 DatabaseInfo
 *
 >
@@ -581,8 +581,9 @@ DatabaseInfo
 :
 Get
 (
-nsIAtom
-*
+const
+nsACString
+&
 aId
 DatabaseInfo
 *
@@ -604,7 +605,12 @@ thread
 ;
 NS_ASSERTION
 (
+!
 aId
+.
+IsEmpty
+(
+)
 "
 Bad
 id
@@ -760,8 +766,9 @@ DatabaseInfo
 :
 Remove
 (
-nsIAtom
-*
+const
+nsACString
+&
 aId
 )
 {

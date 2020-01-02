@@ -4138,8 +4138,9 @@ aTransaction
 ObjectStoreInfo
 *
 aStoreInfo
-nsIAtom
-*
+const
+nsACString
+&
 aDatabaseId
 bool
 aCreating
