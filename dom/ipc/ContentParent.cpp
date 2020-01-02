@@ -10749,6 +10749,7 @@ opened
 #
 endif
 }
+}
 #
 ifdef
 MOZ_WIDGET_GONK
@@ -10773,7 +10774,6 @@ opened
 ;
 #
 endif
-}
 if
 (
 aSendRegisteredChrome
