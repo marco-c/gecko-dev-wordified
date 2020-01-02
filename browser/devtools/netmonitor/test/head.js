@@ -1349,9 +1349,16 @@ once
 "
 destroyed
 "
+(
+)
+=
+>
+executeSoon
+(
 deferred
 .
 resolve
+)
 )
 ;
 removeTab
