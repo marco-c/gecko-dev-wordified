@@ -487,13 +487,11 @@ tmpAction
 uint16_t
 button
 =
-static_cast
-<
-WidgetMouseEvent
-*
->
-(
 aEvent
+-
+>
+AsMouseEvent
+(
 )
 -
 >

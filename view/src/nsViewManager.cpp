@@ -4333,13 +4333,11 @@ that
 we
 synthesize
 .
-static_cast
-<
-WidgetMouseEvent
-*
->
-(
 aEvent
+-
+>
+AsMouseEvent
+(
 )
 -
 >

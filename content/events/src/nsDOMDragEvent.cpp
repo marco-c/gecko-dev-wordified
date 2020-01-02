@@ -214,13 +214,11 @@ y
 =
 0
 ;
-static_cast
-<
-WidgetMouseEvent
-*
->
-(
 mEvent
+-
+>
+AsMouseEvent
+(
 )
 -
 >
