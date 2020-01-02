@@ -850,7 +850,7 @@ removeProvider
 =
 SocialService
 .
-removeProvider
+disableProvider
 .
 bind
 (
@@ -874,7 +874,7 @@ try
 {
 SocialService
 .
-removeProvider
+disableProvider
 (
 origin
 cb
@@ -909,7 +909,7 @@ indexOf
 "
 SocialService
 .
-removeProvider
+disableProvider
 :
 no
 provider

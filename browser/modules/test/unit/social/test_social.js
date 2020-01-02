@@ -192,7 +192,7 @@ SocialService
 ;
 SocialService
 .
-removeProvider
+disableProvider
 (
 Social
 .
@@ -261,7 +261,7 @@ run_next_test
 ;
 SocialService
 .
-removeProvider
+disableProvider
 (
 Social
 .

@@ -1084,7 +1084,7 @@ window
 ;
 SocialService
 .
-removeProvider
+disableProvider
 (
 manifest2
 .
@@ -1255,7 +1255,7 @@ have
 appeared
 SocialService
 .
-addBuiltinProvider
+enableProvider
 (
 manifest3
 .
@@ -1494,7 +1494,7 @@ addonManifest
 {
 SocialService
 .
-addBuiltinProvider
+enableProvider
 (
 manifest2
 .
@@ -3231,7 +3231,7 @@ installed
 ;
 SocialService
 .
-removeProvider
+disableProvider
 (
 manifest2
 .
@@ -3622,7 +3622,7 @@ have
 appeared
 SocialService
 .
-addBuiltinProvider
+enableProvider
 (
 manifest
 .

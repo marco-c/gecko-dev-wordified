@@ -659,7 +659,7 @@ social
 .
 SocialService
 .
-removeProvider
+disableProvider
 (
 SocialSidebar
 .
