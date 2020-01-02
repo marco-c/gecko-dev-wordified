@@ -143,10 +143,6 @@ mWindowPixelFormat
 (
 0
 )
-mUseDoubleBufferedWindows
-(
-false
-)
 mLibType
 (
 OPENGL_LIB
@@ -529,16 +525,6 @@ return
 mWindowPixelFormat
 ;
 }
-bool
-UseDoubleBufferedWindows
-(
-)
-const
-{
-return
-mUseDoubleBufferedWindows
-;
-}
 LibraryType
 GetLibraryType
 (
@@ -582,9 +568,6 @@ mWindowGLContext
 ;
 int
 mWindowPixelFormat
-;
-bool
-mUseDoubleBufferedWindows
 ;
 LibraryType
 mLibType
