@@ -246,13 +246,6 @@ mozilla
 :
 psm
 ;
-static
-NS_DEFINE_CID
-(
-kNSSComponentCID
-NS_NSSCOMPONENT_CID
-)
-;
 #
 ifdef
 PR_LOGGING
@@ -3619,6 +3612,13 @@ RunOnTargetThread
 (
 )
 {
+static
+NS_DEFINE_CID
+(
+kNSSComponentCID
+NS_NSSCOMPONENT_CID
+)
+;
 nsNSSShutDownPreventionLock
 locker
 ;
