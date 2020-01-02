@@ -851,13 +851,13 @@ AsyncShutdown
 function
 safeGetState
 (
-state
+fetchState
 )
 {
 if
 (
 !
-state
+fetchState
 )
 {
 return
@@ -877,7 +877,7 @@ try
 /
 /
 Evaluate
-state
+fetchState
 (
 )
 normalize
@@ -901,7 +901,7 @@ JSON
 .
 stringify
 (
-state
+fetchState
 (
 )
 )
@@ -1585,7 +1585,7 @@ param
 function
 *
 }
-state
+fetchState
 Optionally
 a
 function
@@ -1767,7 +1767,7 @@ function
 (
 name
 condition
-state
+fetchState
 =
 null
 )
@@ -1778,7 +1778,7 @@ addBlocker
 (
 name
 condition
-state
+fetchState
 )
 ;
 }
@@ -2184,7 +2184,7 @@ function
 (
 name
 condition
-state
+fetchState
 )
 {
 this
@@ -2197,7 +2197,7 @@ addBlocker
 (
 name
 condition
-state
+fetchState
 )
 ;
 }
@@ -2582,7 +2582,7 @@ of
 name
 :
 string
-state
+fetchState
 :
 function
 }
@@ -2901,7 +2901,7 @@ param
 function
 *
 }
-state
+fetchState
 Optionally
 a
 function
@@ -2940,7 +2940,7 @@ function
 (
 name
 condition
-state
+fetchState
 )
 {
 if
@@ -2974,11 +2974,11 @@ argument
 }
 if
 (
-state
+fetchState
 &
 &
 typeof
-state
+fetchState
 !
 =
 "
@@ -3092,9 +3092,9 @@ push
 name
 :
 name
-state
+fetchState
 :
-state
+fetchState
 }
 )
 ;
@@ -3360,7 +3360,7 @@ let
 {
 name
 isComplete
-state
+fetchState
 }
 of
 this
@@ -3386,7 +3386,7 @@ state
 :
 safeGetState
 (
-state
+fetchState
 )
 }
 )
@@ -3793,7 +3793,7 @@ variable
 let
 {
 name
-state
+fetchState
 }
 =
 current
@@ -3976,9 +3976,9 @@ false
 name
 :
 name
-state
+fetchState
 :
-state
+fetchState
 }
 ;
 condition
@@ -4038,7 +4038,7 @@ State
 +
 safeGetState
 (
-state
+fetchState
 )
 ;
 warn
@@ -4149,7 +4149,7 @@ State
 +
 safeGetState
 (
-state
+fetchState
 )
 ;
 warn
