@@ -204,8 +204,7 @@ true
 expected
 :
 "
-#
-00F
+blue
 "
 }
 ]
