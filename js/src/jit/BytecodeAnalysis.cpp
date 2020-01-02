@@ -176,6 +176,10 @@ hasTryFinally_
 (
 false
 )
+hasSetArg_
+(
+false
+)
 {
 }
 /
