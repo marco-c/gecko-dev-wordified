@@ -1352,6 +1352,9 @@ bool
 mContentConsumingTouch
 ;
 bool
+mApzConsumingTouch
+;
+bool
 mCancelable
 ;
 bool
