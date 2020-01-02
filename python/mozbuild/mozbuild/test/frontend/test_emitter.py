@@ -1121,6 +1121,10 @@ cpp
 '
 ]
             
+DISABLE_STL_WRAPPING
+=
+True
+            
 EXPORT_LIBRARY
 =
 True

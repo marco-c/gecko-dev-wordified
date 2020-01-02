@@ -1510,6 +1510,10 @@ CPP_UNIT_TESTS
 '
             
 '
+DISABLE_STL_WRAPPING
+'
+            
+'
 EXPORT_LIBRARY
 '
             
