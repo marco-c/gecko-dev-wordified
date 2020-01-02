@@ -785,9 +785,15 @@ Slots
 for
 typed
 objects
+(
+actually
+any
+TypedContents
+objects
+)
 #
 define
-JS_TYPEDOBJ_SLOT_TYPE_OBJ
+JS_DATUM_SLOT_TYPE_OBJ
 0
 /
 /
@@ -800,7 +806,7 @@ typed
 object
 #
 define
-JS_TYPEDOBJ_SLOT_OWNER
+JS_DATUM_SLOT_OWNER
 1
 /
 /
@@ -816,7 +822,7 @@ owner
 )
 #
 define
-JS_TYPEDOBJ_SLOTS
+JS_DATUM_SLOTS
 2
 /
 /

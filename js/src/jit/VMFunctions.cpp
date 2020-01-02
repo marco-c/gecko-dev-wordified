@@ -5611,7 +5611,7 @@ offset
 )
 {
 return
-BinaryBlock
+TypedObject
 :
 :
 createDerived
