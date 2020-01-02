@@ -294,6 +294,14 @@ bcast_windowState
 ]
 [
 "
+chromeState
+"
+"
+bcast_chromeState
+"
+]
+[
+"
 mainKeyset
 "
 "
