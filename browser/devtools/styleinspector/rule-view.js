@@ -8533,10 +8533,6 @@ null
 return
 {
 type
-:
-type
-value
-:
 value
 }
 ;
