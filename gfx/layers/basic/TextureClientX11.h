@@ -157,6 +157,8 @@ public
 TextureClient
 public
 TextureClientSurface
+public
+TextureClientDrawTarget
 {
 public
 :
@@ -184,6 +186,17 @@ TextureClient
 TextureClientSurface
 *
 AsTextureClientSurface
+(
+)
+MOZ_OVERRIDE
+{
+return
+this
+;
+}
+TextureClientDrawTarget
+*
+AsTextureClientDrawTarget
 (
 )
 MOZ_OVERRIDE
@@ -287,6 +300,9 @@ flags
 )
 MOZ_OVERRIDE
 ;
+/
+/
+TextureClientDrawTarget
 TemporaryRef
 <
 gfx
