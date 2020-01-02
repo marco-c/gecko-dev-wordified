@@ -376,7 +376,7 @@ if
 cx
 -
 >
-fjNursery
+nursery
 (
 )
 .
@@ -2730,7 +2730,7 @@ nursery
 cx
 -
 >
-fjNursery
+nursery
 (
 )
 ;
@@ -3347,7 +3347,7 @@ if
 cx
 -
 >
-hasNursery
+isJSContext
 (
 )
 &
@@ -3355,6 +3355,11 @@ hasNursery
 ShouldNurseryAllocate
 (
 cx
+-
+>
+asJSContext
+(
+)
 -
 >
 nursery
@@ -3412,7 +3417,7 @@ asForkJoinContext
 )
 -
 >
-fjNursery
+nursery
 (
 )
 kind

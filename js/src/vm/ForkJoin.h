@@ -4244,12 +4244,12 @@ gc
 :
 ForkJoinNursery
 &
-fjNursery
+nursery
 (
 )
 {
 return
-fjNursery_
+nursery_
 ;
 }
 /
@@ -4278,7 +4278,7 @@ evacuateLiveData
 (
 )
 {
-fjNursery_
+nursery_
 .
 evacuatingGC
 (
@@ -4322,7 +4322,7 @@ return
 offsetof
 (
 ForkJoinContext
-fjNursery_
+nursery_
 )
 ;
 }
@@ -4370,7 +4370,7 @@ gc
 :
 :
 ForkJoinNursery
-fjNursery_
+nursery_
 ;
 #
 endif

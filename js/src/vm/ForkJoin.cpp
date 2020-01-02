@@ -12082,7 +12082,7 @@ gcShared_
 (
 shared
 )
-fjNursery_
+nursery_
 (
 const_cast
 <
@@ -12206,7 +12206,7 @@ JSGC_FJGENERATIONAL
 if
 (
 !
-fjNursery_
+nursery_
 .
 initialize
 (

@@ -11530,7 +11530,7 @@ if
 cx
 -
 >
-hasNursery
+isJSContext
 (
 )
 )
