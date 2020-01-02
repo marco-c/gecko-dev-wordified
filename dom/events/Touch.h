@@ -269,11 +269,7 @@ EventTarget
 GetParentObject
 (
 )
-{
-return
-mTarget
 ;
-}
 /
 /
 WebIDL
