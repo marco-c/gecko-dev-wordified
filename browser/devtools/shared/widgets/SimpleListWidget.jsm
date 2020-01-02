@@ -1109,8 +1109,6 @@ displayed
 in
 this
 container
-as
-a
 when
 empty
 .
