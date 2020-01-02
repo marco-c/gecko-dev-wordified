@@ -560,9 +560,6 @@ shortcutId
 "
 key_gotoHistory
 "
-removable
-:
-true
 defaultArea
 :
 CustomizableUI
@@ -1193,9 +1190,6 @@ privatebrowsing
 -
 button
 "
-removable
-:
-true
 shortcutId
 :
 "
@@ -1285,9 +1279,6 @@ page
 -
 button
 "
-removable
-:
-true
 shortcutId
 :
 "
@@ -1366,9 +1357,6 @@ find
 -
 button
 "
-removable
-:
-true
 shortcutId
 :
 "
@@ -1440,9 +1428,6 @@ file
 -
 button
 "
-removable
-:
-true
 shortcutId
 :
 "
@@ -1528,9 +1513,6 @@ PanelUI
 -
 developer
 "
-removable
-:
-true
 shortcutId
 :
 "
@@ -2004,9 +1986,6 @@ ons
 -
 button
 "
-removable
-:
-true
 shortcutId
 :
 "
@@ -2080,9 +2059,6 @@ preferences
 -
 button
 "
-removable
-:
-true
 defaultArea
 :
 CustomizableUI
@@ -2179,9 +2155,6 @@ type
 "
 custom
 "
-removable
-:
-true
 defaultArea
 :
 CustomizableUI
@@ -3152,9 +3125,6 @@ type
 "
 custom
 "
-removable
-:
-true
 defaultArea
 :
 CustomizableUI
@@ -3727,9 +3697,6 @@ PanelUI
 -
 feeds
 "
-removable
-:
-true
 defaultArea
 :
 CustomizableUI
@@ -4028,9 +3995,6 @@ PanelUI
 -
 characterEncodingView
 "
-removable
-:
-true
 defaultArea
 :
 CustomizableUI
@@ -5321,9 +5285,6 @@ link
 -
 button
 "
-removable
-:
-true
 onCommand
 :
 function
@@ -5452,9 +5413,6 @@ label
 tooltiptext
 :
 metroTooltip
-removable
-:
-true
 defaultArea
 :
 CustomizableUI
