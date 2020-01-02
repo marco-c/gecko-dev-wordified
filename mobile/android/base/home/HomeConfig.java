@@ -341,7 +341,7 @@ HISTORY
 "
 history
 "
-HistoryPanel
+MostRecentPanel
 .
 class
 )
