@@ -622,6 +622,16 @@ Pane
 *
 /
 #
+isNotDefaultLabel
+{
+font
+-
+weight
+:
+bold
+;
+}
+#
 downloadFolder
 {
 -
