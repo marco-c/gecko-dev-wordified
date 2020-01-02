@@ -5704,6 +5704,19 @@ only
 option
 if
 (
+certVerifier
+.
+mImplementation
+=
+=
+CertVerifier
+:
+:
+classic
+)
+{
+if
+(
 stapledOCSPResponse
 )
 {
@@ -6007,6 +6020,7 @@ SSL_OCSP_MAY_FETCH
 reasonsForNotFetching
 )
 ;
+}
 }
 /
 /

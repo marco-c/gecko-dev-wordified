@@ -1479,6 +1479,7 @@ trustDomain
 (
 trustEmail
 ocspFetching
+mOCSPCache
 pinArg
 )
 ;
@@ -1598,6 +1599,7 @@ NSSCertDBTrustDomain
 :
 :
 FetchOCSPForEV
+mOCSPCache
 pinArg
 )
 ;
@@ -1701,6 +1703,7 @@ trustDomain
 (
 trustSSL
 ocspFetching
+mOCSPCache
 pinArg
 )
 ;
@@ -1745,6 +1748,7 @@ trustDomain
 (
 trustSSL
 ocspFetching
+mOCSPCache
 pinArg
 )
 ;
@@ -1775,6 +1779,7 @@ trustDomain
 (
 trustEmail
 ocspFetching
+mOCSPCache
 pinArg
 )
 ;
@@ -1848,6 +1853,7 @@ trustDomain
 (
 trustEmail
 ocspFetching
+mOCSPCache
 pinArg
 )
 ;
@@ -1887,6 +1893,7 @@ trustDomain
 (
 trustObjectSigning
 ocspFetching
+mOCSPCache
 pinArg
 )
 ;
@@ -2033,6 +2040,7 @@ sslTrust
 (
 trustSSL
 ocspFetching
+mOCSPCache
 pinArg
 )
 ;
@@ -2072,6 +2080,7 @@ emailTrust
 (
 trustEmail
 ocspFetching
+mOCSPCache
 pinArg
 )
 ;
@@ -2106,6 +2115,7 @@ objectSigningTrust
 (
 trustObjectSigning
 ocspFetching
+mOCSPCache
 pinArg
 )
 ;
