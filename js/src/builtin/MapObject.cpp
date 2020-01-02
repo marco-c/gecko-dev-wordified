@@ -8637,7 +8637,7 @@ RootedObject
 pairobj
 (
 cx
-js_ValueToNonNullObject
+ToObject
 (
 cx
 iter
