@@ -1979,6 +1979,8 @@ listbox
 option
 '
 :
+INCLUDE_DESC
+|
 NAME_FROM_SUBTREE_RULE
 '
 listbox

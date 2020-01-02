@@ -342,6 +342,15 @@ nsIAccessibleRole
 ROLE_LISTBOX
 ;
 const
+ROLE_OPTION
+=
+Ci
+.
+nsIAccessibleRole
+.
+ROLE_OPTION
+;
+const
 ROLE_SLIDER
 =
 Ci
@@ -651,6 +660,7 @@ ROLE_HEADER
 ROLE_HEADING
 ROLE_SLIDER
 ROLE_SPINBUTTON
+ROLE_OPTION
 /
 /
 Used
