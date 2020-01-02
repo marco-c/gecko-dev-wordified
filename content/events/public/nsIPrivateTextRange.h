@@ -123,7 +123,9 @@ h
 #
 include
 "
-nsGUIEvent
+mozilla
+/
+EventForwards
 .
 h
 "
