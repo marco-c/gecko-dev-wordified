@@ -831,6 +831,8 @@ nsBorderColors
 const
 *
 aCompositeColors
+int
+aSkipSides
 nscolor
 aBackgroundColor
 )
@@ -866,6 +868,10 @@ aCompositeColors
 mAUPP
 (
 aAppUnitsPerPixel
+)
+mSkipSides
+(
+aSkipSides
 )
 mBackgroundColor
 (

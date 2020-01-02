@@ -1589,6 +1589,11 @@ Appearance
 )
 COMPUTED_STYLE_PROP
 (
+_moz_background_inline_policy
+BackgroundInlinePolicy
+)
+COMPUTED_STYLE_PROP
+(
 binding
 Binding
 )
