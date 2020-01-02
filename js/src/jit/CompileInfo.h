@@ -1640,7 +1640,7 @@ localOffset
 <
 blockObj
 .
-slotCount
+numVariables
 (
 )
 )
