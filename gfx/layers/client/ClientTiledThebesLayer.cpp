@@ -353,12 +353,6 @@ ClearCachedResources
 )
 ;
 }
-mValidRegion
-.
-SetEmpty
-(
-)
-;
 }
 void
 ClientTiledThebesLayer
