@@ -1243,9 +1243,9 @@ ins
 )
 ;
 bool
-visitCheckInterruptPar
+visitInterruptCheckPar
 (
-MCheckInterruptPar
+MInterruptCheckPar
 *
 ins
 )

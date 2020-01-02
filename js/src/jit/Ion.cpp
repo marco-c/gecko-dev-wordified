@@ -2562,6 +2562,12 @@ JSRuntime
 :
 TriggerCallbackAnyThreadDontStopIon
 :
+case
+JSRuntime
+:
+:
+TriggerCallbackAnyThreadForkJoin
+:
 /
 /
 When

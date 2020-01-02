@@ -1562,7 +1562,7 @@ false
 ;
 }
 return
-CheckInterruptPar
+InterruptCheckPar
 (
 cx
 )
@@ -1572,7 +1572,7 @@ bool
 jit
 :
 :
-CheckInterruptPar
+InterruptCheckPar
 (
 ForkJoinContext
 *

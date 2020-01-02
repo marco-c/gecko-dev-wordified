@@ -5097,7 +5097,7 @@ that
 case
 .
 void
-checkInterruptFlagsPar
+checkInterruptFlagPar
 (
 const
 Register

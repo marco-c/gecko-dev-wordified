@@ -3242,7 +3242,7 @@ oolEntry
 }
 ;
 class
-LCheckInterruptPar
+LInterruptCheckPar
 :
 public
 LInstructionHelper
@@ -3256,10 +3256,10 @@ public
 :
 LIR_HEADER
 (
-CheckInterruptPar
+InterruptCheckPar
 )
 ;
-LCheckInterruptPar
+LInterruptCheckPar
 (
 const
 LAllocation

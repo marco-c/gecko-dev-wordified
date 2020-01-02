@@ -22629,12 +22629,12 @@ parallel
 mode
 .
 class
-MCheckInterruptPar
+MInterruptCheckPar
 :
 public
 MUnaryInstruction
 {
-MCheckInterruptPar
+MInterruptCheckPar
 (
 MDefinition
 *
@@ -22664,11 +22664,11 @@ public
 :
 INSTRUCTION_HEADER
 (
-CheckInterruptPar
+InterruptCheckPar
 )
 ;
 static
-MCheckInterruptPar
+MInterruptCheckPar
 *
 New
 (
@@ -22685,7 +22685,7 @@ new
 (
 alloc
 )
-MCheckInterruptPar
+MInterruptCheckPar
 (
 cx
 )
