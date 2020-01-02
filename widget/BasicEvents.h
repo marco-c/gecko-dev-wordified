@@ -386,7 +386,7 @@ eQueryContentEventClass
 /
 /
 WidgetQueryContentEvent
-NS_SELECTION_EVENT
+eSelectionEventClass
 /
 /
 WidgetSelectionEvent
