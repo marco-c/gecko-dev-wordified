@@ -2259,6 +2259,12 @@ if
 addOutOfLineCode
 (
 ool
+ins
+-
+>
+mir
+(
+)
 )
 )
 return
@@ -2633,6 +2639,7 @@ if
 addOutOfLineCode
 (
 ool
+mir
 )
 )
 return
@@ -4653,6 +4660,12 @@ if
 addOutOfLineCode
 (
 ool
+ins
+-
+>
+mir
+(
+)
 )
 )
 return
@@ -4746,6 +4759,12 @@ if
 addOutOfLineCode
 (
 ool
+ins
+-
+>
+mir
+(
+)
 )
 )
 return

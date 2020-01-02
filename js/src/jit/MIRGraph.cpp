@@ -269,6 +269,14 @@ modifiesFrameArguments_
 (
 false
 )
+instrumentedProfiling_
+(
+false
+)
+instrumentedProfilingIsCached_
+(
+false
+)
 options
 (
 options
