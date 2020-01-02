@@ -1241,13 +1241,6 @@ nargs
 )
 HTML5_ATOM
 (
-keysystem
-"
-keysystem
-"
-)
-HTML5_ATOM
-(
 media
 "
 media
@@ -2642,6 +2635,13 @@ font_size
 font
 -
 size
+"
+)
+HTML5_ATOM
+(
+keysystem
+"
+keysystem
 "
 )
 HTML5_ATOM
