@@ -1748,6 +1748,7 @@ aWindow
 )
 =
 >
+{
 this
 .
 openBrowserConsole
@@ -1790,6 +1791,10 @@ null
 ;
 }
 )
+}
+console
+.
+error
 )
 ;
 return
