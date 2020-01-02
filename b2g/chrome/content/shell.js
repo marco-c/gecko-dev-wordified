@@ -7399,6 +7399,7 @@ actors
 inspector
 "
 )
+;
 DebuggerServer
 .
 registerModule
