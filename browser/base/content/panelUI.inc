@@ -721,13 +721,6 @@ PanelUI
 -
 bookmarks
 "
-class
-=
-"
-PanelUI
--
-subView
-"
 flex
 =
 "
