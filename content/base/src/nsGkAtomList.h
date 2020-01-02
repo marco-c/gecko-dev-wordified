@@ -10895,7 +10895,6 @@ columnalign_
 columnlines_
 /
 /
-fontstyle_
 rowalign_
 and
 rowlines_
@@ -10919,19 +10918,6 @@ _moz
 math
 -
 columnline
-"
-)
-GK_ATOM
-(
-_moz_math_fontstyle_
-"
-_moz
--
-math
--
-font
--
-style
 "
 )
 GK_ATOM
