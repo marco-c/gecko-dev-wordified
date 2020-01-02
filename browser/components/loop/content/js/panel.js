@@ -529,7 +529,7 @@ callback
 function
 (
 err
-callUrl
+callUrlData
 )
 {
 this
@@ -561,7 +561,7 @@ this
 .
 onCallUrlReceived
 (
-callUrl
+callUrlData
 )
 ;
 }
@@ -666,7 +666,7 @@ onCallUrlReceived
 :
 function
 (
-callUrl
+callUrlData
 )
 {
 this
@@ -724,7 +724,9 @@ input
 .
 val
 (
-callUrl
+callUrlData
+.
+call_url
 )
 ;
 this
