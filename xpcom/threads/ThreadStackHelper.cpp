@@ -157,6 +157,9 @@ prprf
 h
 "
 #
+ifdef
+MOZ_THREADSTACKHELPER_NATIVE
+#
 include
 "
 shared
@@ -165,6 +168,8 @@ libraries
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -220,6 +225,9 @@ Scoped
 h
 "
 #
+ifdef
+MOZ_THREADSTACKHELPER_NATIVE
+#
 include
 "
 google_breakpad
@@ -270,6 +278,8 @@ basic_code_modules
 .
 h
 "
+#
+endif
 #
 if
 defined
@@ -482,6 +492,9 @@ endif
 #
 endif
 #
+ifdef
+MOZ_THREADSTACKHELPER_NATIVE
+#
 if
 defined
 (
@@ -529,6 +542,11 @@ architecture
 "
 #
 endif
+#
+endif
+/
+/
+MOZ_THREADSTACKHELPER_NATIVE
 namespace
 mozilla
 {
@@ -728,8 +746,6 @@ mozilla_get_pseudo_stack
 )
 )
 #
-endif
-#
 ifdef
 MOZ_THREADSTACKHELPER_NATIVE
 mContextToFill
@@ -749,6 +765,8 @@ mMaxBufferSize
 (
 0
 )
+#
+endif
 {
 #
 if
