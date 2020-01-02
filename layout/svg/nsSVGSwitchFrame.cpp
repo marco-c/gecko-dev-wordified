@@ -295,7 +295,8 @@ MOZ_OVERRIDE
 nsISVGChildFrame
 interface
 :
-NS_IMETHOD
+virtual
+nsresult
 PaintSVG
 (
 nsRenderingContext
@@ -311,11 +312,8 @@ aTransformRoot
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHODIMP_
-(
 nsIFrame
 *
-)
 GetFrameForPoint
 (
 const
@@ -324,10 +322,7 @@ nsPoint
 aPoint
 )
 ;
-NS_IMETHODIMP_
-(
 nsRect
-)
 GetCoveredRegion
 (
 )
@@ -581,7 +576,7 @@ aLists
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsSVGSwitchFrame
 :
 :
@@ -681,11 +676,8 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP_
-(
 nsIFrame
 *
-)
 nsSVGSwitchFrame
 :
 :
@@ -777,10 +769,7 @@ return
 nullptr
 ;
 }
-NS_IMETHODIMP_
-(
 nsRect
-)
 nsSVGSwitchFrame
 :
 :

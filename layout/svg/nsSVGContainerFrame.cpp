@@ -1732,7 +1732,7 @@ foundTransform
 /
 nsISVGChildFrame
 methods
-NS_IMETHODIMP
+nsresult
 nsSVGDisplayContainerFrame
 :
 :
@@ -1860,11 +1860,8 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP_
-(
 nsIFrame
 *
-)
 nsSVGDisplayContainerFrame
 :
 :
@@ -1926,10 +1923,7 @@ aPoint
 )
 ;
 }
-NS_IMETHODIMP_
-(
 nsRect
-)
 nsSVGDisplayContainerFrame
 :
 :

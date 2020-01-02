@@ -21360,7 +21360,7 @@ return
 false
 ;
 }
-NS_IMETHODIMP
+nsresult
 SVGTextFrame
 :
 :
@@ -22242,11 +22242,8 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP_
-(
 nsIFrame
 *
-)
 SVGTextFrame
 :
 :
@@ -22527,10 +22524,7 @@ return
 hit
 ;
 }
-NS_IMETHODIMP_
-(
 nsRect
-)
 SVGTextFrame
 :
 :

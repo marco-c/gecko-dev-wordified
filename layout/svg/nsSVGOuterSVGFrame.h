@@ -643,7 +643,8 @@ MOZ_OVERRIDE
 nsISVGChildFrame
 methods
 :
-NS_IMETHOD
+virtual
+nsresult
 PaintSVG
 (
 nsRenderingContext

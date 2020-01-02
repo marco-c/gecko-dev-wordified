@@ -5913,7 +5913,7 @@ aFlags
 nsISVGChildFrame
 methods
 :
-NS_IMETHODIMP
+nsresult
 nsSVGOuterSVGFrame
 :
 :

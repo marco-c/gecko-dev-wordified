@@ -1460,7 +1460,7 @@ this
 /
 nsISVGChildFrame
 methods
-NS_IMETHODIMP
+nsresult
 nsSVGPathGeometryFrame
 :
 :
@@ -1601,11 +1601,8 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP_
-(
 nsIFrame
 *
-)
 nsSVGPathGeometryFrame
 :
 :
@@ -1980,10 +1977,7 @@ return
 nullptr
 ;
 }
-NS_IMETHODIMP_
-(
 nsRect
-)
 nsSVGPathGeometryFrame
 :
 :

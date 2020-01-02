@@ -426,7 +426,8 @@ chain
 to
 go
 .
-NS_IMETHOD
+virtual
+nsresult
 PaintSVG
 (
 nsRenderingContext
@@ -498,11 +499,9 @@ for
 foreignObject
 complications
 .
-NS_IMETHOD_
-(
+virtual
 nsIFrame
 *
-)
 GetFrameForPoint
 (
 const
@@ -529,10 +528,8 @@ in
 app
 units
 )
-NS_IMETHOD_
-(
+virtual
 nsRect
-)
 GetCoveredRegion
 (
 )
@@ -1125,10 +1122,8 @@ a
 container
 frame
 ?
-NS_IMETHOD_
-(
+virtual
 bool
-)
 IsDisplayContainer
 (
 )

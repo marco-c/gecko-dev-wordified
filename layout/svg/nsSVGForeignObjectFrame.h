@@ -399,7 +399,8 @@ endif
 nsISVGChildFrame
 interface
 :
-NS_IMETHOD
+virtual
+nsresult
 PaintSVG
 (
 nsRenderingContext
@@ -417,11 +418,9 @@ nullptr
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD_
-(
+virtual
 nsIFrame
 *
-)
 GetFrameForPoint
 (
 const
@@ -431,10 +430,8 @@ aPoint
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD_
-(
+virtual
 nsRect
-)
 GetCoveredRegion
 (
 )
@@ -469,10 +466,8 @@ aFlags
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD_
-(
+virtual
 bool
-)
 IsDisplayContainer
 (
 )

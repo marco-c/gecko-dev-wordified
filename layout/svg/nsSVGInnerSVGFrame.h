@@ -272,7 +272,8 @@ MOZ_OVERRIDE
 nsISVGChildFrame
 interface
 :
-NS_IMETHOD
+virtual
+nsresult
 PaintSVG
 (
 nsRenderingContext
@@ -306,11 +307,9 @@ aFlags
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD_
-(
+virtual
 nsIFrame
 *
-)
 GetFrameForPoint
 (
 const
