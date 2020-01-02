@@ -341,6 +341,17 @@ Data
 aData
 )
 ;
+bool
+IsGLLayer
+(
+)
+{
+return
+!
+!
+mGLContext
+;
+}
 protected
 :
 void
