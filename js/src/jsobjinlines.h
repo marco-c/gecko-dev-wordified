@@ -6120,7 +6120,7 @@ clasp
 if
 (
 !
-js_GetClassPrototype
+js_FindClassPrototype
 (
 cx
 protoKey
