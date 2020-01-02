@@ -340,13 +340,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsPluginLogging
 .
 h

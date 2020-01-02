@@ -147,13 +147,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h

@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 pldhash
 .
 h
