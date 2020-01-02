@@ -2938,13 +2938,7 @@ NetworkInformation
 curEvent
 -
 >
-Bandwidth
-(
-)
-curEvent
--
->
-CanBeMetered
+ConnectionType
 (
 )
 curEvent
