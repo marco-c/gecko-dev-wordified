@@ -739,9 +739,9 @@ mEAttr
 )
 &
 0xfff
+)
 |
 0x100
-)
 ;
 return
 NS_OK
