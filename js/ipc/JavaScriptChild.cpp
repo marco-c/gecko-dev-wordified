@@ -334,7 +334,7 @@ JSObject
 *
 obj
 =
-findObject
+findObjectById
 (
 objId
 )
@@ -522,7 +522,7 @@ JSObject
 *
 obj
 =
-findObject
+findObjectById
 (
 id
 )
@@ -808,7 +808,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
@@ -949,7 +949,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
@@ -1101,7 +1101,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
@@ -1251,7 +1251,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
@@ -1447,7 +1447,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
@@ -1557,7 +1557,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
@@ -1678,7 +1678,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
@@ -1845,7 +1845,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
@@ -1863,7 +1863,7 @@ RootedObject
 receiver
 (
 cx
-findObject
+findObjectById
 (
 receiverId
 )
@@ -2042,7 +2042,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
@@ -2060,7 +2060,7 @@ RootedObject
 receiver
 (
 cx
-findObject
+findObjectById
 (
 receiverId
 )
@@ -2215,7 +2215,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
@@ -2349,7 +2349,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
@@ -3039,7 +3039,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
@@ -3108,7 +3108,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
@@ -3183,7 +3183,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
@@ -3332,7 +3332,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
@@ -3443,7 +3443,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findObjectById
 (
 objId
 )
