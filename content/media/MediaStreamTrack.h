@@ -317,11 +317,6 @@ bool
 aEnabled
 )
 ;
-void
-Stop
-(
-)
-;
 /
 /
 Notifications
