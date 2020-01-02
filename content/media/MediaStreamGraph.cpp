@@ -3537,7 +3537,6 @@ if
 (
 bufferEnd
 <
-=
 aEndBlockingDecisions
 &
 &
