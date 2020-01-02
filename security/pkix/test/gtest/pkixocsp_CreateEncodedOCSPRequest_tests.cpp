@@ -351,7 +351,7 @@ out
 *
 /
 TrustLevel
-*
+&
 )
 {
 ADD_FAILURE

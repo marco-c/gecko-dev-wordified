@@ -821,7 +821,7 @@ out
 *
 /
 TrustLevel
-*
+&
 trustLevel
 )
 {
@@ -836,20 +836,11 @@ IsAnyPolicy
 ;
 MOZ_ASSERT
 (
-trustLevel
-)
-;
-MOZ_ASSERT
-(
 mTrustedRoot
 )
 ;
 if
 (
-!
-trustLevel
-|
-|
 !
 policy
 .
@@ -1094,7 +1085,6 @@ CERTDB_TERMINAL_RECORD
 CERTDB_TERMINAL_RECORD
 )
 {
-*
 trustLevel
 =
 TrustLevel
@@ -1136,7 +1126,6 @@ get
 )
 )
 {
-*
 trustLevel
 =
 TrustLevel
@@ -1148,7 +1137,6 @@ return
 Success
 ;
 }
-*
 trustLevel
 =
 TrustLevel

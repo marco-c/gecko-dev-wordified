@@ -1412,7 +1412,6 @@ return
 with
 /
 /
-*
 trustLevel
 =
 =
@@ -1469,14 +1468,12 @@ result
 in
 /
 /
-*
 trustLevel
 =
 =
 InheritsTrust
 instead
 of
-*
 trustLevel
 =
 =
@@ -1514,7 +1511,7 @@ out
 *
 /
 TrustLevel
-*
+&
 trustLevel
 )
 =

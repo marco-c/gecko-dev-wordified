@@ -323,15 +323,12 @@ int
 subCACount
 /
 *
-optional
 out
 *
 /
 TrustLevel
-*
+&
 trustLevel
-=
-nullptr
 )
 ;
 Result

@@ -889,6 +889,9 @@ passed
 to
 CheckIssuerIndependentProperties
 .
+TrustLevel
+unusedTrustLevel
+;
 rv
 =
 CheckIssuerIndependentProperties
@@ -909,6 +912,7 @@ CertPolicyId
 :
 anyPolicy
 0
+unusedTrustLevel
 )
 ;
 if

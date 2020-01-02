@@ -436,7 +436,7 @@ pkix
 :
 :
 TrustLevel
-*
+&
 trustLevel
 )
 MOZ_OVERRIDE

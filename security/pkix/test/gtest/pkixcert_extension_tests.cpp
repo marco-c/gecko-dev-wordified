@@ -557,11 +557,10 @@ out
 *
 /
 TrustLevel
-*
+&
 trustLevel
 )
 {
-*
 trustLevel
 =
 TrustLevel
