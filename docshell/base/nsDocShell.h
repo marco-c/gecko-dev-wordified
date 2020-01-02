@@ -4706,8 +4706,15 @@ Set
 in
 DoURILoad
 when
+either
 the
 LOAD_RELOAD_ALLOW_MIXED_CONTENT
+flag
+or
+/
+/
+the
+LOAD_NORMAL_ALLOW_MIXED_CONTENT
 flag
 is
 set
