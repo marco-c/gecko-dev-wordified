@@ -4406,14 +4406,9 @@ aContext
 {
 if
 (
-gfxPlatform
+gfxPrefs
 :
 :
-GetPlatform
-(
-)
--
->
 WidgetUpdateFlashing
 (
 )
