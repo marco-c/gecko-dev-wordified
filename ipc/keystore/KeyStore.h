@@ -502,13 +502,6 @@ KeyStore
 (
 )
 ;
-virtual
-~
-KeyStore
-(
-)
-{
-}
 void
 Shutdown
 (
@@ -516,6 +509,12 @@ Shutdown
 ;
 private
 :
+virtual
+~
+KeyStore
+(
+)
+;
 virtual
 void
 ReceiveSocketData
