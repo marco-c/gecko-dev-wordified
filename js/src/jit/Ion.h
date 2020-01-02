@@ -483,7 +483,7 @@ Default
 :
 true
 bool
-assertGraphConsistency
+checkGraphConsistency
 ;
 /
 /
@@ -1125,7 +1125,7 @@ checkThreadSafety
 (
 false
 )
-assertGraphConsistency
+checkGraphConsistency
 (
 true
 )

@@ -3375,7 +3375,7 @@ if
 !
 js_IonOptions
 .
-assertGraphConsistency
+checkGraphConsistency
 )
 return
 ;

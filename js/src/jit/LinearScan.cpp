@@ -9335,7 +9335,7 @@ if
 !
 js_IonOptions
 .
-assertGraphConsistency
+checkGraphConsistency
 )
 return
 ;
@@ -9796,7 +9796,7 @@ if
 !
 js_IonOptions
 .
-assertGraphConsistency
+checkGraphConsistency
 )
 return
 ;
