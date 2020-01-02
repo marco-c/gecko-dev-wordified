@@ -4259,10 +4259,8 @@ if
 we
 have
 nested
-<
 iframe
-mozbrowser
->
+.
 let
 currentWindow
 =
@@ -4276,7 +4274,10 @@ while
 (
 currentWindow
 .
-realFrameElement
+top
+!
+=
+currentWindow
 )
 {
 let
@@ -4284,7 +4285,7 @@ currentRect
 =
 currentWindow
 .
-realFrameElement
+frameElement
 .
 getBoundingClientRect
 (
@@ -4338,11 +4339,7 @@ currentWindow
 =
 currentWindow
 .
-realFrameElement
-.
-ownerDocument
-.
-defaultView
+parent
 ;
 }
 sendAsyncMsg
