@@ -1752,6 +1752,11 @@ MOZ_OVERRIDE
 bool
 IsWaitingForPaint
 (
+mozilla
+:
+:
+TimeStamp
+aTime
 )
 ;
 /
@@ -2180,7 +2185,7 @@ the
 next
 interval
 .
-uint32_t
+bool
 mSkippedPaints
 ;
 int64_t
@@ -2191,6 +2196,12 @@ mozilla
 :
 TimeStamp
 mMostRecentRefresh
+;
+mozilla
+:
+:
+TimeStamp
+mMostRecentTick
 ;
 /
 /
