@@ -3765,7 +3765,7 @@ winmm_stream_set_panning
 /
 *
 .
-stream_get_current_output_device
+stream_get_current_device
 =
 *
 /
@@ -3773,7 +3773,7 @@ NULL
 /
 *
 .
-stream_output_device_destroy
+stream_device_destroy
 =
 *
 /
