@@ -21657,6 +21657,19 @@ return
 %
 s
   
+MOZ_ASSERT
+(
+js
+:
+:
+IsObjectInContextCompartment
+(
+aScope
+aCx
+)
+)
+;
+  
 JS
 :
 :
@@ -21668,10 +21681,12 @@ JSObject
 global
 (
 aCx
-JS_GetGlobalForObject
+JS
+:
+:
+CurrentGlobalOrNull
 (
 aCx
-aScope
 )
 )
 ;
