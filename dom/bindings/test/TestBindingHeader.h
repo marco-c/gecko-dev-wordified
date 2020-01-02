@@ -4780,6 +4780,16 @@ ObjectSequenceOrLong
 )
 ;
 void
+PassUnion20
+(
+JSContext
+*
+const
+ObjectSequenceOrLong
+&
+)
+;
+void
 PassUnionWithCallback
 (
 const
