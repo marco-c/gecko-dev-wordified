@@ -2888,7 +2888,7 @@ out
 types
 :
 :
-TypeTypedObject
+TypedObjectAddendum
 :
 :
 Kind

@@ -8644,7 +8644,7 @@ cx
 types
 :
 :
-TypeTypedObject
+TypedObjectAddendum
 :
 :
 Datum
