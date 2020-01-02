@@ -546,7 +546,7 @@ DOWNLOAD_BLOCK_TABLE_PREF
 "
 urlclassifier
 .
-download_block_table
+downloadBlockTable
 "
 #
 define
@@ -554,7 +554,7 @@ DOWNLOAD_ALLOW_TABLE_PREF
 "
 urlclassifier
 .
-download_allow_table
+downloadAllowTable
 "
 #
 define
