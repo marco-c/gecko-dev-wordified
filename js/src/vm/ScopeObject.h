@@ -3458,7 +3458,7 @@ frontend
 :
 Definition
 *
-maybeDefinitionParseNode
+definitionParseNode
 (
 unsigned
 i
@@ -3473,14 +3473,6 @@ i
 )
 ;
 return
-v
-.
-isUndefined
-(
-)
-?
-nullptr
-:
 reinterpret_cast
 <
 frontend
