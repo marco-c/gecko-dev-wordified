@@ -3785,7 +3785,7 @@ _getAnnotatedMetaData
 ;
 metaData
 .
-endTme
+endTime
 =
 annotatedMetaData
 .
