@@ -154,6 +154,9 @@ ENUM_ENTRY_VARIABLE_NAME
 '
 strings
 '
+INSTANCE_RESERVED_SLOTS
+=
+3
 def
 replaceFileIfChanged
 (
@@ -1520,6 +1523,10 @@ else
 nullptr
 '
         
+slotCount
+=
+INSTANCE_RESERVED_SLOTS
+        
 classFlags
 =
 "
@@ -1577,9 +1584,12 @@ classFlags
 "
 JSCLASS_HAS_RESERVED_SLOTS
 (
-3
+%
+d
 )
 "
+%
+slotCount
         
 if
 self
@@ -51462,6 +51472,8 @@ infallible
 constant
                       
 pure
+hasSlot
+slotIndex
 returnTypes
 )
 :
@@ -51477,6 +51489,22 @@ pure
 constants
 are
 always
+pure
+        
+assert
+(
+not
+hasSlot
+or
+pure
+)
+#
+Things
+with
+slots
+had
+better
+be
 pure
         
 protoID
@@ -51532,6 +51560,13 @@ purestr
 toStringBool
 (
 pure
+)
+        
+slotStr
+=
+toStringBool
+(
+hasSlot
 )
         
 returnType
@@ -51657,6 +51692,49 @@ n
 s
 /
 *
+hasSlot
+.
+Only
+relevant
+for
+getters
+.
+*
+/
+\
+n
+"
+                
+"
+%
+d
+/
+*
+Reserved
+slot
+index
+if
+we
+'
+re
+stored
+in
+a
+slot
+else
+0
+.
+*
+/
+\
+n
+"
+                
+"
+%
+s
+/
+*
 returnType
 .
 Only
@@ -51689,6 +51767,9 @@ failstr
                           
 conststr
 purestr
+slotStr
+slotIndex
+                          
 returnType
 )
 )
@@ -51867,6 +51948,41 @@ self
 descriptor
 )
             
+isInSlot
+=
+self
+.
+member
+.
+getExtendedAttribute
+(
+"
+StoreInSlot
+"
+)
+            
+if
+isInSlot
+:
+                
+slotIndex
+=
+INSTANCE_RESERVED_SLOTS
++
+self
+.
+member
+.
+slotIndex
+;
+            
+else
+:
+                
+slotIndex
+=
+0
+            
 result
 =
 self
@@ -51882,6 +51998,9 @@ Getter
 getterinfal
 getterconst
 getterpure
+                                        
+isInSlot
+slotIndex
                                         
 [
 self
@@ -52017,6 +52136,8 @@ Setter
 False
 False
 False
+False
+0
                                              
 [
 BuiltinTypes
@@ -52277,6 +52398,8 @@ Method
 methodInfal
 False
 False
+False
+0
                                         
 [
 s
