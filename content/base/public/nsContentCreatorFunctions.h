@@ -191,7 +191,13 @@ mozilla
 nsresult
 NS_NewElement
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 *
 aResult

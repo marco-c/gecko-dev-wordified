@@ -142,6 +142,17 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 using
 namespace
 mozilla
@@ -246,7 +257,7 @@ else
 {
 nsCOMPtr
 <
-nsIContent
+Element
 >
 menu
 ;
@@ -288,7 +299,7 @@ false
 ;
 nsCOMPtr
 <
-nsIContent
+Element
 >
 menuPopup
 ;
@@ -381,7 +392,7 @@ NS_ERROR_NOT_INITIALIZED
 }
 nsCOMPtr
 <
-nsIContent
+Element
 >
 menuitem
 ;
@@ -686,7 +697,7 @@ NS_ERROR_NOT_INITIALIZED
 }
 nsCOMPtr
 <
-nsIContent
+Element
 >
 menuseparator
 ;
@@ -983,7 +994,7 @@ aTag
 nsIDOMHTMLElement
 *
 aHTMLElement
-nsIContent
+Element
 *
 *
 aResult

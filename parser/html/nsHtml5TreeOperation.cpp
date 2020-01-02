@@ -2148,7 +2148,10 @@ select
 }
 nsCOMPtr
 <
-nsIContent
+dom
+:
+:
+Element
 >
 newContent
 ;
@@ -2438,7 +2441,10 @@ i
 {
 nsCOMPtr
 <
-nsIContent
+dom
+:
+:
+Element
 >
 optionElt
 ;
