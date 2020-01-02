@@ -1147,8 +1147,10 @@ JS_SetSingleStepMode
 JSContext
 *
 cx
-JSScript
-*
+JS
+:
+:
+HandleScript
 script
 bool
 singleStep
@@ -3680,8 +3682,10 @@ JS_DumpPCCounts
 JSContext
 *
 cx
-JSScript
-*
+JS
+:
+:
+HandleScript
 script
 )
 ;

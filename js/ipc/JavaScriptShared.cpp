@@ -889,13 +889,10 @@ return
 false
 ;
 return
-JS_ValueToId
+JS_StringToId
 (
 cx
-StringValue
-(
 str
-)
 to
 )
 ;

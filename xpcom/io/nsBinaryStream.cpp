@@ -3924,12 +3924,7 @@ data
 JS_GetStableArrayBufferData
 (
 cx
-&
-aBuffer
-.
-toObject
-(
-)
+buffer
 )
 ;
 if
