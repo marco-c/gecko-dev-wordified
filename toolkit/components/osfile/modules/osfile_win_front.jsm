@@ -3725,10 +3725,11 @@ pop
 /
 One
 component
-and
-an
-absolute
-path
+consisting
+of
+a
+drive
+letter
 implies
 a
 directory
@@ -3748,7 +3749,7 @@ ERROR_ACCESS_DENIED
 &
 splitPath
 .
-absolute
+winDrive
 &
 &
 splitPath
