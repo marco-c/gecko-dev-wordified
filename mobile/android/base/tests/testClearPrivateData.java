@@ -875,9 +875,11 @@ mSolo
 .
 getView
 (
-"
+R
+.
+id
+.
 browser_toolbar
-"
 )
 ;
 mSolo
