@@ -274,8 +274,10 @@ JSObject
 *
 GetXrayWaiver
 (
-JSObject
-*
+JS
+:
+:
+HandleObject
 obj
 )
 ;
