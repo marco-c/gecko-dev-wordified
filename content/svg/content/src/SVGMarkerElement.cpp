@@ -1905,7 +1905,7 @@ bool
 aIsStart
 )
 {
-gfxFloat
+float
 scale
 =
 mEnumAttributes
@@ -1924,9 +1924,9 @@ aStrokeWidth
 :
 1
 .
-0
+0f
 ;
-gfxFloat
+float
 angle
 ;
 switch
@@ -1961,7 +1961,7 @@ M_PI
 :
 0
 .
-0
+0f
 )
 ;
 break
@@ -1986,7 +1986,7 @@ M_PI
 /
 180
 .
-0
+0f
 ;
 break
 ;
