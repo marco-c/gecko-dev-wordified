@@ -1964,7 +1964,7 @@ apzc
 >
 SetScrollHandoffParentId
 (
-container
+aLayer
 -
 >
 GetScrollHandoffParentId
