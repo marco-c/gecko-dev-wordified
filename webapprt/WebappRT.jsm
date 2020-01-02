@@ -261,7 +261,11 @@ webappFile
 -
 1
 0
-0
+Ci
+.
+nsIFileInputStream
+.
+CLOSE_ON_EOF
 )
 ;
 let
