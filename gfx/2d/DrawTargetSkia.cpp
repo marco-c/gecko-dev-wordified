@@ -2420,10 +2420,6 @@ mCanvas
 >
 save
 (
-SkCanvas
-:
-:
-kMatrix_SaveFlag
 )
 ;
 mCanvas
@@ -5383,10 +5379,6 @@ mCanvas
 >
 save
 (
-SkCanvas
-:
-:
-kClip_SaveFlag
 )
 ;
 mCanvas
@@ -5433,10 +5425,6 @@ mCanvas
 >
 save
 (
-SkCanvas
-:
-:
-kClip_SaveFlag
 )
 ;
 mCanvas
