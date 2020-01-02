@@ -2956,7 +2956,7 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 &
 &
 def
@@ -8451,7 +8451,7 @@ kind
 Requirement
 :
 :
-SAME_AS_OTHER
+MUST_REUSE_INPUT
 )
 {
 LiveInterval
@@ -10655,12 +10655,12 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 )
 {
 /
 /
-Preset
+Fixed
 policies
 get
 a

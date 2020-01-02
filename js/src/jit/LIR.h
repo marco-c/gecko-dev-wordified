@@ -2190,7 +2190,7 @@ none
 is
 /
 /
-preset
+fixed
 .
 /
 /
@@ -2380,7 +2380,7 @@ will
 be
 assigned
 .
-DEFAULT
+REGISTER
 /
 /
 The
@@ -2435,10 +2435,10 @@ will
 not
 modify
 a
-preset
+fixed
 allocation
 .
-PRESET
+FIXED
 /
 /
 One
@@ -2715,7 +2715,7 @@ type
 Policy
 policy
 =
-DEFAULT
+REGISTER
 )
 {
 set
@@ -2734,7 +2734,7 @@ type
 Policy
 policy
 =
-DEFAULT
+REGISTER
 )
 {
 set
@@ -2764,7 +2764,7 @@ set
 (
 0
 type
-PRESET
+FIXED
 )
 ;
 }
@@ -2789,7 +2789,7 @@ set
 (
 index
 type
-PRESET
+FIXED
 )
 ;
 }
@@ -2931,7 +2931,7 @@ output_
 ;
 }
 bool
-isPreset
+isFixed
 (
 )
 const
@@ -2942,7 +2942,7 @@ policy
 )
 =
 =
-PRESET
+FIXED
 ;
 }
 bool
@@ -2952,7 +2952,7 @@ isBogusTemp
 const
 {
 return
-isPreset
+isFixed
 (
 )
 &
@@ -3038,7 +3038,7 @@ POLICY_SHIFT
 bits_
 |
 =
-PRESET
+FIXED
 <
 <
 POLICY_SHIFT

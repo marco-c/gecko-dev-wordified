@@ -2136,7 +2136,7 @@ def
 )
 -
 >
-isPreset
+isFixed
 (
 )
 &
@@ -3118,7 +3118,7 @@ for
 registers
 which
 are
-preset
+fixed
 /
 /
 for
@@ -3157,7 +3157,7 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 &
 &
 !
@@ -4954,12 +4954,12 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 )
 {
 /
 /
-Preset
+Fixed
 policies
 get
 a
@@ -4981,7 +4981,7 @@ IonSpew_RegAlloc
 Requirement
 %
 s
-preset
+fixed
 by
 definition
 "
@@ -8351,7 +8351,7 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 &
 &
 !
@@ -10795,7 +10795,7 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 &
 &
 reg
@@ -11079,7 +11079,7 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 &
 &
 reg

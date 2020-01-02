@@ -529,7 +529,7 @@ type
 LDefinition
 :
 :
-PRESET
+FIXED
 )
 ;
 def
