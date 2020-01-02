@@ -6215,15 +6215,3 @@ binaryStream
 }
 }
 ;
-var
-NSGetFactory
-=
-XPCOMUtils
-.
-generateNSGetFactory
-(
-[
-PdfStreamConverter
-]
-)
-;

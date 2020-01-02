@@ -904,15 +904,3 @@ nothing
 }
 }
 ;
-var
-NSGetFactory
-=
-XPCOMUtils
-.
-generateNSGetFactory
-(
-[
-PdfRedirector
-]
-)
-;
