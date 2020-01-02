@@ -567,10 +567,8 @@ DOMString
 srcdoc
 )
 ;
-already_AddRefed
-<
 nsDOMSettableTokenList
->
+*
 Sandbox
 (
 )

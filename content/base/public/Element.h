@@ -3122,6 +3122,15 @@ N
 )
 ;
 }
+static
+nsIAtom
+*
+*
+*
+HTMLSVGPropertiesToTraverseAndUnlink
+(
+)
+;
 private
 :
 void
