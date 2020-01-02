@@ -271,7 +271,7 @@ final
 int
 CHANGE_WAIT_MS
 =
-10000
+15000
 ;
 /
 /
