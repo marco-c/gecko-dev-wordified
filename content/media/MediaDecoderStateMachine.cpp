@@ -274,7 +274,7 @@ gMediaDecoderLog
 ;
 #
 define
-DECODER_LOG
+LOG
 (
 type
 msg
@@ -289,7 +289,7 @@ msg
 else
 #
 define
-DECODER_LOG
+LOG
 (
 type
 msg
@@ -2140,7 +2140,7 @@ mStateMachineCount
 0
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -3580,7 +3580,7 @@ fails
 "
 )
 ;
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -3693,7 +3693,7 @@ fails
 "
 )
 ;
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -3780,7 +3780,7 @@ mDecodeThreadIdle
 =
 true
 ;
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -4001,7 +4001,7 @@ silence
 to
 catch
 up
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -4281,7 +4281,7 @@ aAudio
 mFrames
 )
 ;
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -4956,7 +4956,7 @@ v
 mTime
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -5084,7 +5084,7 @@ GetEndTime
 )
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -5200,7 +5200,7 @@ mDisplay
 }
 else
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -5881,7 +5881,7 @@ DecodeLoop
 (
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -6577,7 +6577,7 @@ skipToNextKeyframe
 =
 true
 ;
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -6817,7 +6817,7 @@ lowAudioThreshold
 ampleAudioThreshold
 )
 ;
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -7301,7 +7301,7 @@ ScheduleStateMachine
 )
 ;
 }
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -7522,7 +7522,7 @@ thread
 "
 )
 ;
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -8501,7 +8501,7 @@ value
 )
 )
 ;
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -8869,7 +8869,7 @@ mAudioEndTime
 }
 }
 }
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -8994,7 +8994,7 @@ NotifyAll
 ;
 }
 }
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -9275,7 +9275,7 @@ MOZ_QUIET
 )
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -9465,7 +9465,7 @@ StopPlayback
 (
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -9589,7 +9589,7 @@ StartPlayback
 (
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -10762,7 +10762,7 @@ the
 Shutdown
 call
 .
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -11051,7 +11051,7 @@ mState
 DECODER_STATE_BUFFERING
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -11616,7 +11616,7 @@ mSeekTime
 -
 mStartTime
 ;
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -11786,7 +11786,7 @@ if
 mDecodeThread
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -11966,7 +11966,7 @@ if
 mAudioThread
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -12561,7 +12561,7 @@ rv
 )
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -13129,7 +13129,7 @@ state
 "
 )
 ;
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -13558,7 +13558,7 @@ duration
 "
 )
 ;
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -13777,7 +13777,7 @@ mState
 DECODER_STATE_DECODING_METADATA
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -14548,7 +14548,7 @@ end
 .
 .
 .
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -14690,7 +14690,7 @@ download
 more
 data
 !
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -14737,7 +14737,7 @@ DECODER_STATE_COMPLETED
 }
 else
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -16042,7 +16042,7 @@ IsSuspended
 )
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -16102,7 +16102,7 @@ NS_OK
 }
 else
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -16124,7 +16124,7 @@ get
 )
 )
 ;
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -16681,7 +16681,7 @@ MOZ_QUIET
 )
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -17481,7 +17481,7 @@ MOZ_QUIET
 )
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -17514,7 +17514,7 @@ droppedFrames
 +
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -18709,7 +18709,7 @@ mAudioStartTime
 =
 mStartTime
 ;
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -19152,7 +19152,7 @@ mState
 =
 DECODER_STATE_BUFFERING
 ;
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -19202,7 +19202,7 @@ GetStatistics
 ;
 #
 endif
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (

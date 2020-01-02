@@ -295,7 +295,7 @@ gMediaResourceLog
 ;
 #
 define
-RESOURCE_LOG
+LOG
 (
 msg
 .
@@ -336,7 +336,7 @@ msg
 .
 )
 \
-RESOURCE_LOG
+LOG
 (
 "
 %
@@ -356,7 +356,7 @@ __VA_ARGS__
 else
 #
 define
-RESOURCE_LOG
+LOG
 (
 msg
 .
@@ -3319,7 +3319,7 @@ re
 up
 to
 .
-RESOURCE_LOG
+LOG
 (
 "
 %

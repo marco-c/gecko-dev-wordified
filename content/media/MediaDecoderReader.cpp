@@ -307,7 +307,7 @@ gMediaDecoderLog
 ;
 #
 define
-DECODER_LOG
+LOG
 (
 type
 msg
@@ -349,7 +349,7 @@ endif
 else
 #
 define
-DECODER_LOG
+LOG
 (
 type
 msg
@@ -3019,7 +3019,7 @@ int64_t
 aTarget
 )
 {
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -3325,7 +3325,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -4015,7 +4015,7 @@ break
 ;
 }
 }
-DECODER_LOG
+LOG
 (
 PR_LOG_DEBUG
 (

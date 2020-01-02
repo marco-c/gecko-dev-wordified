@@ -220,7 +220,7 @@ gTextTrackLog
 ;
 #
 define
-VTT_LOG
+LOG
 (
 .
 .
@@ -238,7 +238,7 @@ __VA_ARGS__
 else
 #
 define
-VTT_LOG
+LOG
 (
 msg
 )
@@ -294,7 +294,7 @@ TextTrack
 }
 #
 endif
-VTT_LOG
+LOG
 (
 "
 WebVTTListener
@@ -312,7 +312,7 @@ WebVTTListener
 (
 )
 {
-VTT_LOG
+LOG
 (
 "
 WebVTTListener
@@ -675,7 +675,7 @@ buffer
 )
 )
 {
-VTT_LOG
+LOG
 (
 "
 Unable
