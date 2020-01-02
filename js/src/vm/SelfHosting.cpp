@@ -5416,6 +5416,17 @@ arguments
 /
 options
 .
+setIntroductionType
+(
+"
+self
+-
+hosted
+"
+)
+;
+options
+.
 setFileAndLine
 (
 "
