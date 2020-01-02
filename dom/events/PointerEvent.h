@@ -75,7 +75,11 @@ PointerEvent_h__
 #
 include
 "
-nsDOMMouseEvent
+mozilla
+/
+dom
+/
+MouseEvent
 .
 h
 "
@@ -103,7 +107,7 @@ class
 PointerEvent
 :
 public
-nsDOMMouseEvent
+MouseEvent
 {
 public
 :

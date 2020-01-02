@@ -160,7 +160,7 @@ WidgetWheelEvent
 aWheelEvent
 )
 :
-nsDOMMouseEvent
+MouseEvent
 (
 aOwner
 aPresContext
@@ -238,12 +238,12 @@ MOZ_SOURCE_UNKNOWN
 NS_IMPL_ADDREF_INHERITED
 (
 WheelEvent
-nsDOMMouseEvent
+MouseEvent
 )
 NS_IMPL_RELEASE_INHERITED
 (
 WheelEvent
-nsDOMMouseEvent
+MouseEvent
 )
 NS_INTERFACE_MAP_BEGIN
 (
@@ -255,7 +255,7 @@ nsIDOMWheelEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMMouseEvent
+MouseEvent
 )
 NS_IMETHODIMP
 WheelEvent
@@ -306,7 +306,7 @@ aDeltaMode
 nsresult
 rv
 =
-nsDOMMouseEvent
+MouseEvent
 :
 :
 InitMouseEvent

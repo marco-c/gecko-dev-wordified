@@ -109,7 +109,11 @@ h
 #
 include
 "
-nsDOMMouseEvent
+mozilla
+/
+dom
+/
+MouseEvent
 .
 h
 "
@@ -134,7 +138,7 @@ class
 MouseScrollEvent
 :
 public
-nsDOMMouseEvent
+MouseEvent
 public
 nsIDOMMouseScrollEvent
 {
@@ -165,7 +169,7 @@ Forward
 to
 base
 class
-NS_FORWARD_TO_NSDOMMOUSEEVENT
+NS_FORWARD_TO_MOUSEEVENT
 virtual
 JSObject
 *

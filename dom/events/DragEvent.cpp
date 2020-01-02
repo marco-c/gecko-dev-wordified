@@ -149,7 +149,7 @@ WidgetDragEvent
 aEvent
 )
 :
-nsDOMMouseEvent
+MouseEvent
 (
 aOwner
 aPresContext
@@ -227,12 +227,12 @@ MOZ_SOURCE_UNKNOWN
 NS_IMPL_ADDREF_INHERITED
 (
 DragEvent
-nsDOMMouseEvent
+MouseEvent
 )
 NS_IMPL_RELEASE_INHERITED
 (
 DragEvent
-nsDOMMouseEvent
+MouseEvent
 )
 NS_INTERFACE_MAP_BEGIN
 (
@@ -244,7 +244,7 @@ nsIDOMDragEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMMouseEvent
+MouseEvent
 )
 void
 DragEvent
@@ -296,7 +296,7 @@ aError
 {
 aError
 =
-nsDOMMouseEvent
+MouseEvent
 :
 :
 InitMouseEvent
@@ -416,7 +416,7 @@ dataTransfer
 nsresult
 rv
 =
-nsDOMMouseEvent
+MouseEvent
 :
 :
 InitMouseEvent

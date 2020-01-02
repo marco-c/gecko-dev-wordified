@@ -148,7 +148,7 @@ WidgetPointerEvent
 aEvent
 )
 :
-nsDOMMouseEvent
+MouseEvent
 (
 aOwner
 aPresContext
