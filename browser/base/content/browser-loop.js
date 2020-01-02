@@ -240,7 +240,6 @@ PanelFrame
 showPopup
 (
 window
-PanelUI
 event
 .
 target
