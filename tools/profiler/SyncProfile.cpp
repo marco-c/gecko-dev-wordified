@@ -317,6 +317,17 @@ AssertCurrentThreadOwns
 ;
 if
 (
+mUtb
+)
+{
+utb__end_sync_buffer_unwind
+(
+mUtb
+)
+;
+}
+if
+(
 mOwnerState
 !
 =
