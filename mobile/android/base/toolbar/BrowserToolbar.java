@@ -4008,9 +4008,12 @@ getY
 getHeight
 (
 )
--
-getScrollY
++
+ViewHelper
+.
+getTranslationY
 (
+this
 )
 )
 {
@@ -5032,8 +5035,11 @@ isVisible
 )
 {
 return
-getScrollY
+ViewHelper
+.
+getTranslationY
 (
+this
 )
 =
 =
