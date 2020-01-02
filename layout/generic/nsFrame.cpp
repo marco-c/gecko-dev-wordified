@@ -18531,7 +18531,7 @@ nsWeakFrame
 fc
 -
 >
-SetMouseDownState
+SetDragState
 (
 true
 )
@@ -18809,7 +18809,7 @@ parentContent
 fc
 -
 >
-SetMouseDownState
+SetDragState
 (
 true
 )
@@ -19111,7 +19111,7 @@ inSelection
 fc
 -
 >
-SetMouseDownState
+SetDragState
 (
 false
 )
@@ -19132,7 +19132,7 @@ NS_OK
 fc
 -
 >
-SetMouseDownState
+SetDragState
 (
 true
 )
@@ -19329,7 +19329,7 @@ this
 fc
 -
 >
-SetMouseDownState
+SetDragState
 (
 false
 )
@@ -20327,7 +20327,7 @@ mouseDown
 frameselection
 -
 >
-GetMouseDownState
+GetDragState
 (
 )
 ;
@@ -20790,7 +20790,7 @@ selection
 aFrameSelection
 -
 >
-SetMouseDownState
+SetDragState
 (
 true
 )
@@ -20849,7 +20849,7 @@ aParentContentForTableSel
 aFrameSelection
 -
 >
-SetMouseDownState
+SetDragState
 (
 false
 )
@@ -20897,7 +20897,7 @@ SetDelayedCaretData
 aFrameSelection
 -
 >
-SetMouseDownState
+SetDragState
 (
 false
 )
@@ -21110,7 +21110,7 @@ mouseDown
 frameselection
 -
 >
-GetMouseDownState
+GetDragState
 (
 )
 ;
@@ -21389,7 +21389,7 @@ frameSelection
 frameSelection
 -
 >
-SetMouseDownState
+SetDragState
 (
 false
 )

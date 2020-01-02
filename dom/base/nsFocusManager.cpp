@@ -4003,7 +4003,7 @@ FrameSelection
 frameSelection
 -
 >
-SetMouseDownState
+SetDragState
 (
 false
 )

@@ -2247,7 +2247,7 @@ const
 /
 *
 *
-SetMouseDownState
+SetDragState
 (
 bool
 )
@@ -2255,7 +2255,7 @@ bool
 *
 sets
 the
-mouse
+drag
 state
 to
 aState
@@ -2273,7 +2273,7 @@ the
 new
 state
 of
-mousedown
+drag
 *
 /
 /
@@ -2282,7 +2282,7 @@ unsafe
 *
 /
 void
-SetMouseDownState
+SetDragState
 (
 bool
 aState
@@ -2291,7 +2291,7 @@ aState
 /
 *
 *
-GetMouseDownState
+GetDragState
 (
 bool
 *
@@ -2300,7 +2300,7 @@ bool
 *
 gets
 the
-mouse
+drag
 state
 to
 aState
@@ -2318,17 +2318,17 @@ hold
 the
 state
 of
-mousedown
+drag
 *
 /
 bool
-GetMouseDownState
+GetDragState
 (
 )
 const
 {
 return
-mMouseDownState
+mDragState
 ;
 }
 /
@@ -4825,7 +4825,7 @@ bool
 mDragSelectingCells
 ;
 bool
-mMouseDownState
+mDragState
 ;
 /
 /

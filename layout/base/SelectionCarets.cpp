@@ -970,7 +970,7 @@ SetSelectionDirection
 false
 )
 ;
-SetMouseDownState
+SetSelectionDragState
 (
 true
 )
@@ -1014,7 +1014,7 @@ SetSelectionDirection
 true
 )
 ;
-SetMouseDownState
+SetSelectionDragState
 (
 true
 )
@@ -1102,7 +1102,7 @@ mActiveTouchId
 nowTouchId
 )
 {
-SetMouseDownState
+SetSelectionDragState
 (
 false
 )
@@ -3136,7 +3136,7 @@ GetFrameSelection
 fs
 -
 >
-SetMouseDownState
+SetDragState
 (
 true
 )
@@ -3177,7 +3177,7 @@ eSelectWord
 fs
 -
 >
-SetMouseDownState
+SetDragState
 (
 false
 )
@@ -4198,7 +4198,7 @@ void
 SelectionCarets
 :
 :
-SetMouseDownState
+SetSelectionDragState
 (
 bool
 aState
@@ -4230,7 +4230,7 @@ if
 fs
 -
 >
-GetMouseDownState
+GetDragState
 (
 )
 =
@@ -4244,7 +4244,7 @@ return
 fs
 -
 >
-SetMouseDownState
+SetDragState
 (
 aState
 )

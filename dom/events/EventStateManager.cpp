@@ -8749,7 +8749,7 @@ frameSel
 frameSel
 -
 >
-GetMouseDownState
+GetDragState
 (
 )
 )
@@ -8784,7 +8784,7 @@ mCurrentTarget
 frameSel
 -
 >
-SetMouseDownState
+SetDragState
 (
 false
 )
@@ -9516,7 +9516,7 @@ frameSel
 frameSel
 -
 >
-GetMouseDownState
+GetDragState
 (
 )
 )
@@ -18258,7 +18258,7 @@ FrameSelection
 frameSelection
 -
 >
-SetMouseDownState
+SetDragState
 (
 false
 )

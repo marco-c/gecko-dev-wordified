@@ -11264,7 +11264,7 @@ if
 frameselection
 -
 >
-GetMouseDownState
+GetDragState
 (
 )
 |

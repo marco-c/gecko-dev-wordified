@@ -612,8 +612,7 @@ GetCaretYCenterPosition
 *
 *
 Simulate
-mouse
-down
+drag
 state
 when
 we
@@ -635,7 +634,7 @@ normally
 *
 /
 void
-SetMouseDownState
+SetSelectionDragState
 (
 bool
 aState
