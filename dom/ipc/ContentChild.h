@@ -432,12 +432,8 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-RecvSetProcessPrivileges
+RecvSetProcessSandbox
 (
-const
-ChildPrivileges
-&
-aPrivs
 )
 MOZ_OVERRIDE
 ;
