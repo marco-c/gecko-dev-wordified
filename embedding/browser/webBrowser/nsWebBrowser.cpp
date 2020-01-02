@@ -234,13 +234,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsISHistoryListener
 .
 h

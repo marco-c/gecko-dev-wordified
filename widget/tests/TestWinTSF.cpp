@@ -500,13 +500,6 @@ nsTArray
 h
 "
 #
-include
-"
-nsGUIEvent
-.
-h
-"
-#
 ifndef
 MOZILLA_INTERNAL_API
 #

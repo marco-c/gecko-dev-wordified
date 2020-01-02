@@ -119,7 +119,9 @@ pragma
 private
 include
 "
-nsGUIEvent
+mozilla
+/
+KeyTextEvents
 .
 h
 "

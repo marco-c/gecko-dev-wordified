@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsIDOMWheelEvent
 .
 h

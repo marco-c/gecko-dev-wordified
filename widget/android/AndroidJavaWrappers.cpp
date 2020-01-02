@@ -136,13 +136,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 TouchEvents

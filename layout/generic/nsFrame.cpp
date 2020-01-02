@@ -245,13 +245,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsAsyncDOMEvent
 .
 h

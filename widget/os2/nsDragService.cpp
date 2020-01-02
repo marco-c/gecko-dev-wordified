@@ -170,13 +170,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsISelection
 .
 h

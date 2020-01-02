@@ -387,13 +387,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h

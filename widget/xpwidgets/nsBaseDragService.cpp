@@ -278,13 +278,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsXULPopupManager
 .
 h

@@ -87,7 +87,9 @@ h
 #
 include
 "
-nsGUIEvent
+mozilla
+/
+BasicEvents
 .
 h
 "

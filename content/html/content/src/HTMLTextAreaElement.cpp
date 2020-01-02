@@ -219,13 +219,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsIComponentManager
 .
 h

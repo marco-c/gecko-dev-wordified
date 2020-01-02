@@ -264,13 +264,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences

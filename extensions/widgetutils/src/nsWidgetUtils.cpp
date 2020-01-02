@@ -328,13 +328,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsViewManager
 .
 h

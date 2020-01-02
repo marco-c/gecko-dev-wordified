@@ -143,13 +143,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsIDOMMouseEvent
 .
 h

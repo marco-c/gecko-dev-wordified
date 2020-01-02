@@ -273,13 +273,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsCharsetSource
 .
 h

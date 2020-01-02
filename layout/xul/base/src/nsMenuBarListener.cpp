@@ -121,13 +121,6 @@ nsIDOMEvent
 .
 h
 "
-#
-include
-"
-nsGUIEvent
-.
-h
-"
 /
 /
 Drag

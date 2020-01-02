@@ -313,13 +313,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

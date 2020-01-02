@@ -292,13 +292,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsIChannel
 .
 h

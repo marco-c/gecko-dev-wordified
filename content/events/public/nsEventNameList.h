@@ -161,7 +161,7 @@ event
 ID
 (
 see
-nsGUIEvent
+BasicEvents
 .
 h
 )

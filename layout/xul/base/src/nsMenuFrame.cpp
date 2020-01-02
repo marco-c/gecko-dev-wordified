@@ -285,13 +285,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

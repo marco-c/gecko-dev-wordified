@@ -122,13 +122,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

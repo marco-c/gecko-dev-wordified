@@ -244,13 +244,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h

@@ -226,13 +226,6 @@ endif
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 unused

@@ -5100,7 +5100,7 @@ from
 nsSizeMode
 (
 see
-nsGUIEvent
+nsIWidgetListener
 .
 h
 )
@@ -5136,7 +5136,7 @@ from
 nsSizeMode
 (
 see
-nsGUIEvent
+nsIWidgetListener
 .
 h
 )

@@ -303,7 +303,7 @@ event
 type
 (
 see
-nsGUIEvent
+BasicEvents
 .
 h
 for
@@ -428,7 +428,7 @@ event
 type
 (
 see
-nsGUIEvent
+BasicEvents
 .
 h
 for

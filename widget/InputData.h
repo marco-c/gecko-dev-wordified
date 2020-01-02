@@ -183,7 +183,8 @@ almost
 as
 many
 as
-nsGUIEvent
+*
+Events
 .
 h
 has
