@@ -354,7 +354,7 @@ copyTo
 (
 &
 mBitmap
-GfxFormatToSkiaConfig
+GfxFormatToSkiaColorType
 (
 aFormat
 )
@@ -552,7 +552,7 @@ copyTo
 mBitmap
 temp
 .
-getConfig
+colorType
 (
 )
 )
