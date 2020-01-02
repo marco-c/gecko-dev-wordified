@@ -264,6 +264,7 @@ image
 ImageURL
 ImageURL
 ;
+explicit
 imgRequest
 (
 imgLoader

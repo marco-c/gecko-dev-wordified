@@ -1888,6 +1888,7 @@ nsIThreadRetargetableStreamListener
 {
 public
 :
+explicit
 ProxyListener
 (
 nsIStreamListener

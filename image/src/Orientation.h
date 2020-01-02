@@ -195,6 +195,7 @@ image
 struct
 Orientation
 {
+explicit
 Orientation
 (
 Angle
