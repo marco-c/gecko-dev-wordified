@@ -456,7 +456,7 @@ current
 widget
 state
 virtual
-nsresult
+void
 SetInitialChildList
 (
 ChildListID

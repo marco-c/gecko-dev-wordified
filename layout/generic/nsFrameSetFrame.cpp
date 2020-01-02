@@ -2848,7 +2848,7 @@ mNonBorderChildCount
 mChildCount
 ;
 }
-nsresult
+void
 nsHTMLFramesetFrame
 :
 :
@@ -2937,10 +2937,8 @@ IsEmpty
 )
 {
 return
-NS_OK
 ;
 }
-return
 nsContainerFrame
 :
 :

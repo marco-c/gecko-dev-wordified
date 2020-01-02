@@ -670,7 +670,7 @@ Init
 *
 /
 virtual
-nsresult
+void
 SetInitialChildList
 (
 ChildListID
@@ -804,7 +804,7 @@ list
 *
 /
 virtual
-nsresult
+void
 AppendFrames
 (
 ChildListID
@@ -958,7 +958,7 @@ list
 *
 /
 virtual
-nsresult
+void
 InsertFrames
 (
 ChildListID
@@ -1083,7 +1083,7 @@ otherwise
 *
 /
 virtual
-nsresult
+void
 RemoveFrame
 (
 ChildListID

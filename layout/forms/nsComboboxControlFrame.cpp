@@ -9150,7 +9150,7 @@ kSelectPopupList
 )
 ;
 }
-nsresult
+void
 nsComboboxControlFrame
 :
 :
@@ -9163,11 +9163,6 @@ nsFrameList
 aChildList
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 if
 (
 kSelectPopupList
@@ -9273,8 +9268,6 @@ list
 "
 )
 ;
-rv
-=
 nsBlockFrame
 :
 :
@@ -9285,9 +9278,6 @@ aChildList
 )
 ;
 }
-return
-rv
-;
 }
 /
 /

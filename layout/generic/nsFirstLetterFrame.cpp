@@ -437,7 +437,7 @@ aPrevInFlow
 )
 ;
 }
-nsresult
+void
 nsFirstLetterFrame
 :
 :
@@ -540,9 +540,6 @@ SetFrames
 (
 aChildList
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
@@ -1843,11 +1840,6 @@ aContinuation
 =
 nullptr
 ;
-nsresult
-rv
-=
-NS_OK
-;
 nsIPresShell
 *
 presShell
@@ -2067,8 +2059,6 @@ continuation
 continuation
 )
 ;
-rv
-=
 parent
 -
 >
@@ -2085,7 +2075,7 @@ aContinuation
 continuation
 ;
 return
-rv
+NS_OK
 ;
 }
 void

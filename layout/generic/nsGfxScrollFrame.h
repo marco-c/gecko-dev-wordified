@@ -2882,7 +2882,7 @@ horizontal
 scrollbar
 .
 virtual
-nsresult
+void
 SetInitialChildList
 (
 ChildListID
@@ -3121,7 +3121,7 @@ return
 /
 NS_ERROR_FAILURE
 virtual
-nsresult
+void
 AppendFrames
 (
 ChildListID
@@ -3133,7 +3133,7 @@ aFrameList
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 InsertFrames
 (
 ChildListID
@@ -3158,7 +3158,7 @@ aDestructRoot
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 RemoveFrame
 (
 ChildListID
@@ -4560,7 +4560,7 @@ horizontal
 scrollbar
 .
 virtual
-nsresult
+void
 SetInitialChildList
 (
 ChildListID
@@ -4655,7 +4655,7 @@ return
 /
 NS_ERROR_FAILURE
 virtual
-nsresult
+void
 AppendFrames
 (
 ChildListID
@@ -4667,7 +4667,7 @@ aFrameList
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 InsertFrames
 (
 ChildListID
@@ -4692,7 +4692,7 @@ aDestructRoot
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 RemoveFrame
 (
 ChildListID

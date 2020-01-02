@@ -1335,7 +1335,7 @@ GetShadowStyle
 )
 ;
 virtual
-nsresult
+void
 SetInitialChildList
 (
 ChildListID

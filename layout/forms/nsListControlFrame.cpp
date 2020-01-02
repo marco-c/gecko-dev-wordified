@@ -6417,7 +6417,7 @@ aEventStatus
 -
 -
 -
-nsresult
+void
 nsListControlFrame
 :
 :
@@ -6467,9 +6467,6 @@ mHasBeenInitialized
 false
 ;
 }
-nsresult
-rv
-=
 nsHTMLScrollFrame
 :
 :
@@ -6542,9 +6539,6 @@ true
 }
 *
 /
-return
-rv
-;
 }
 /
 /

@@ -974,7 +974,7 @@ return
 mSelectedFrame
 ;
 }
-nsresult
+void
 nsMathMLmactionFrame
 :
 :
@@ -987,9 +987,6 @@ nsFrameList
 aChildList
 )
 {
-nsresult
-rv
-=
 nsMathMLSelectedFrame
 :
 :
@@ -1104,9 +1101,6 @@ false
 )
 ;
 }
-return
-rv
-;
 }
 nsresult
 nsMathMLmactionFrame

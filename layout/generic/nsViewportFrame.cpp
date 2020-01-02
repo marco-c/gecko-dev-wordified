@@ -272,7 +272,7 @@ NS_FRAME_IN_POPUP
 ;
 }
 }
-nsresult
+void
 ViewportFrame
 :
 :
@@ -285,17 +285,6 @@ nsFrameList
 aChildList
 )
 {
-/
-/
-See
-which
-child
-list
-to
-add
-the
-frames
-to
 #
 ifdef
 DEBUG
@@ -309,7 +298,6 @@ aChildList
 ;
 #
 endif
-return
 nsContainerFrame
 :
 :
@@ -413,7 +401,7 @@ aLists
 )
 ;
 }
-nsresult
+void
 ViewportFrame
 :
 :
@@ -476,7 +464,6 @@ kids
 "
 )
 ;
-return
 nsContainerFrame
 :
 :
@@ -487,7 +474,7 @@ aFrameList
 )
 ;
 }
-nsresult
+void
 ViewportFrame
 :
 :
@@ -553,7 +540,6 @@ kids
 "
 )
 ;
-return
 nsContainerFrame
 :
 :
@@ -565,7 +551,7 @@ aFrameList
 )
 ;
 }
-nsresult
+void
 ViewportFrame
 :
 :
@@ -599,7 +585,6 @@ list
 "
 )
 ;
-return
 nsContainerFrame
 :
 :

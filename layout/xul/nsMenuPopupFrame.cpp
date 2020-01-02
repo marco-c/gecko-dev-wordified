@@ -2233,7 +2233,7 @@ mPresContext
 ;
 }
 ;
-nsresult
+void
 nsMenuPopupFrame
 :
 :
@@ -2272,7 +2272,6 @@ mGeneratedChildren
 =
 true
 ;
-return
 nsBoxFrame
 :
 :

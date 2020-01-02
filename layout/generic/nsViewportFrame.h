@@ -248,7 +248,7 @@ aPrevInFlow
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 SetInitialChildList
 (
 ChildListID
@@ -260,7 +260,7 @@ aChildList
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 AppendFrames
 (
 ChildListID
@@ -272,7 +272,7 @@ aFrameList
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 InsertFrames
 (
 ChildListID
@@ -287,7 +287,7 @@ aFrameList
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 RemoveFrame
 (
 ChildListID

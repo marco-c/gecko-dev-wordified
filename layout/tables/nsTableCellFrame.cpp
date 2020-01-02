@@ -1490,7 +1490,7 @@ damageArea
 ;
 }
 }
-nsresult
+void
 nsTableCellFrame
 :
 :
@@ -1512,11 +1512,8 @@ operation
 "
 )
 ;
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
 }
-nsresult
+void
 nsTableCellFrame
 :
 :
@@ -1541,11 +1538,8 @@ operation
 "
 )
 ;
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
 }
-nsresult
+void
 nsTableCellFrame
 :
 :
@@ -1566,9 +1560,6 @@ unsupported
 operation
 "
 )
-;
-return
-NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 void

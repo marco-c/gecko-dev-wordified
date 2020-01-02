@@ -278,7 +278,7 @@ fieldSetFrame
 #
 ifdef
 DEBUG
-nsresult
+void
 nsFieldSetFrame
 :
 :
@@ -291,9 +291,6 @@ nsFrameList
 aChildList
 )
 {
-nsresult
-rv
-=
 nsContainerFrame
 :
 :
@@ -309,9 +306,6 @@ GetInner
 (
 )
 )
-;
-return
-rv
 ;
 }
 #
@@ -3519,7 +3513,7 @@ aDesiredSize
 )
 ;
 }
-nsresult
+void
 nsFieldSetFrame
 :
 :
@@ -3544,11 +3538,8 @@ supported
 "
 )
 ;
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
 }
-nsresult
+void
 nsFieldSetFrame
 :
 :
@@ -3576,11 +3567,8 @@ supported
 "
 )
 ;
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
 }
-nsresult
+void
 nsFieldSetFrame
 :
 :
@@ -3604,9 +3592,6 @@ not
 supported
 "
 )
-;
-return
-NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 #

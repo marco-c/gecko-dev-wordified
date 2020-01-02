@@ -303,7 +303,7 @@ aBGFlags
 )
 ;
 virtual
-nsresult
+void
 AppendFrames
 (
 ChildListID
@@ -315,7 +315,7 @@ aFrameList
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 InsertFrames
 (
 ChildListID
@@ -330,7 +330,7 @@ aFrameList
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 RemoveFrame
 (
 ChildListID
@@ -415,7 +415,7 @@ endif
 ifdef
 DEBUG
 virtual
-nsresult
+void
 SetInitialChildList
 (
 ChildListID

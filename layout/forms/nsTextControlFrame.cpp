@@ -6837,7 +6837,7 @@ false
 END
 IMPLEMENTING
 NS_IFORMCONTROLFRAME
-nsresult
+void
 nsTextControlFrame
 :
 :
@@ -6850,9 +6850,6 @@ nsFrameList
 aChildList
 )
 {
-nsresult
-rv
-=
 nsContainerFrame
 :
 :
@@ -7065,9 +7062,6 @@ contentScrollPos
 ;
 }
 }
-return
-rv
-;
 }
 void
 nsTextControlFrame

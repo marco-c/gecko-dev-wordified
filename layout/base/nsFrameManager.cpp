@@ -2347,7 +2347,7 @@ GetParent
 -
 -
 -
-nsresult
+void
 nsFrameManager
 :
 :
@@ -2384,7 +2384,6 @@ GetAbsoluteListID
 )
 )
 {
-return
 aParentFrame
 -
 >
@@ -2403,7 +2402,6 @@ aFrameList
 }
 else
 {
-return
 aParentFrame
 -
 >
@@ -2415,7 +2413,7 @@ aFrameList
 ;
 }
 }
-nsresult
+void
 nsFrameManager
 :
 :
@@ -2518,7 +2516,6 @@ GetAbsoluteListID
 )
 )
 {
-return
 aParentFrame
 -
 >
@@ -2538,7 +2535,6 @@ aFrameList
 }
 else
 {
-return
 aParentFrame
 -
 >
@@ -2551,7 +2547,7 @@ aFrameList
 ;
 }
 }
-nsresult
+void
 nsFrameManager
 :
 :
@@ -2739,11 +2735,6 @@ flows
 "
 )
 ;
-nsresult
-rv
-=
-NS_OK
-;
 nsContainerFrame
 *
 parentFrame
@@ -2794,8 +2785,6 @@ aOldFrame
 }
 else
 {
-rv
-=
 parentFrame
 -
 >
@@ -2809,9 +2798,6 @@ aOldFrame
 mIsDestroyingFrames
 =
 wasDestroyingFrames
-;
-return
-rv
 ;
 }
 /

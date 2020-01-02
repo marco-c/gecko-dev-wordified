@@ -366,7 +366,7 @@ aModType
 )
 ;
 }
-nsresult
+void
 nsMathMLSelectedFrame
 :
 :
@@ -379,9 +379,6 @@ nsFrameList
 aChildList
 )
 {
-nsresult
-rv
-=
 nsMathMLContainerFrame
 :
 :
@@ -424,9 +421,6 @@ operator
 GetSelectedFrame
 (
 )
-;
-return
-rv
 ;
 }
 /

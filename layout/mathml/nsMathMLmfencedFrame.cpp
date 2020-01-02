@@ -230,7 +230,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsMathMLmfencedFrame
 :
 :
@@ -253,9 +253,6 @@ class
 do
 its
 work
-nsresult
-rv
-=
 nsMathMLContainerFrame
 :
 :
@@ -264,16 +261,6 @@ SetInitialChildList
 aListID
 aChildList
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 /
 /
@@ -361,9 +348,6 @@ PresContext
 (
 )
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
