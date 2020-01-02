@@ -3164,6 +3164,7 @@ path
 =
 \
                     
+(
 mozpath
 .
 join
@@ -3175,6 +3176,8 @@ test
 relpath
 '
 ]
+)
+True
 )
                 
 for
@@ -3388,12 +3391,17 @@ installs
 full
 ]
 =
+\
+                                    
+(
 mozpath
 .
 join
 (
 out_dir
 f
+)
+False
 )
                         
 else
@@ -3415,39 +3423,6 @@ pattern
 )
 )
                             
-#
-Only
-install
-paths
-in
-our
-directory
-.
-This
-                            
-#
-rule
-is
-somewhat
-arbitrary
-and
-could
-be
-lifted
-.
-                            
-if
-not
-full
-.
-startswith
-(
-manifest_dir
-)
-:
-                                
-continue
-                            
 obj
 .
 installs
@@ -3455,12 +3430,21 @@ installs
 full
 ]
 =
+(
+mozpath
+.
+normpath
+(
+                                
 mozpath
 .
 join
 (
 out_dir
 pattern
+)
+)
+False
 )
             
 #
@@ -3499,7 +3483,10 @@ installs
 path
 ]
 =
+(
 out_path
+False
+)
             
 #
 Some

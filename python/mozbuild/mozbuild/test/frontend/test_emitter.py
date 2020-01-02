@@ -2158,12 +2158,16 @@ a11y
 .
 ini
 '
+:
+False
                     
 '
 test_a11y
 .
 js
 '
+:
+True
                     
 #
 From
@@ -2179,6 +2183,8 @@ support
 /
 foo
 '
+:
+False
                     
 '
 a11y
@@ -2189,6 +2195,8 @@ dir1
 /
 bar
 '
+:
+False
                 
 }
             
@@ -2223,20 +2231,28 @@ browser
 .
 ini
 '
+:
+False
                     
 '
 test_browser
 .
 js
 '
+:
+True
                     
 '
 support1
 '
+:
+False
                     
 '
 support2
 '
+:
+False
                 
 }
             
@@ -2271,12 +2287,16 @@ metro
 .
 ini
 '
+:
+False
                     
 '
 test_metro
 .
 js
 '
+:
+True
                 
 }
             
@@ -2309,12 +2329,16 @@ mochitest
 .
 ini
 '
+:
+False
                     
 '
 test_mochitest
 .
 js
 '
+:
+True
                 
 }
                 
@@ -2363,12 +2387,16 @@ chrome
 .
 ini
 '
+:
+False
                     
 '
 test_chrome
 .
 js
 '
+:
+True
                 
 }
             
@@ -2407,28 +2435,40 @@ xpcshell
 .
 ini
 '
+:
+False
                     
 '
 test_xpcshell
 .
 js
 '
+:
+True
                     
 '
 head1
 '
+:
+False
                     
 '
 head2
 '
+:
+False
                     
 '
 tail1
 '
+:
+False
                     
 '
 tail2
 '
+:
+False
                 
 }
             
@@ -2593,7 +2633,7 @@ directory
 )
 )
                 
-path
+relpath
 =
 path
 [
@@ -2612,12 +2652,36 @@ self
 .
 assertIn
 (
-path
+relpath
 m
 [
 '
 installs
 '
+]
+)
+                
+self
+.
+assertEqual
+(
+o
+.
+installs
+[
+path
+]
+[
+1
+]
+m
+[
+'
+installs
+'
+]
+[
+relpath
 ]
 )
     
@@ -2820,6 +2884,152 @@ test_active
 html
 '
 }
+)
+    
+def
+test_test_manifest_parent_support_files_dir
+(
+self
+)
+:
+        
+"
+"
+"
+support
+-
+files
+referencing
+a
+file
+in
+a
+parent
+directory
+works
+.
+"
+"
+"
+        
+reader
+=
+self
+.
+reader
+(
+'
+test
+-
+manifest
+-
+parent
+-
+support
+-
+files
+-
+dir
+'
+)
+        
+objs
+=
+[
+o
+for
+o
+in
+self
+.
+read_topsrcdir
+(
+reader
+)
+                
+if
+isinstance
+(
+o
+TestManifest
+)
+]
+        
+self
+.
+assertEqual
+(
+len
+(
+objs
+)
+1
+)
+        
+o
+=
+objs
+[
+0
+]
+        
+expected
+=
+os
+.
+path
+.
+join
+(
+o
+.
+srcdir
+'
+support
+-
+file
+.
+txt
+'
+)
+        
+self
+.
+assertIn
+(
+expected
+o
+.
+installs
+)
+        
+self
+.
+assertEqual
+(
+o
+.
+installs
+[
+expected
+]
+            
+(
+'
+testing
+/
+mochitest
+/
+tests
+/
+support
+-
+file
+.
+txt
+'
+False
+)
 )
     
 def
