@@ -944,6 +944,11 @@ skippedFirings
 =
 false
 ;
+var
+lastUpdateTime
+=
+null
+;
 function
 tryFire
 (
@@ -1330,7 +1335,6 @@ s
 first
 use
 .
-let
 lastUpdateTime
 =
 getPref
