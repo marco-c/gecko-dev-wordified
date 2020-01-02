@@ -1024,9 +1024,3 @@ SpecialPowersManager
 (
 )
 ;
-this
-.
-SpecialPowers
-=
-SpecialPowers
-;

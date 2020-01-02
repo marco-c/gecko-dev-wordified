@@ -731,7 +731,6 @@ loadFrameScript
 (
 kFormsFrameScript
 true
-true
 )
 ;
 }

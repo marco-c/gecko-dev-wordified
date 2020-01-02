@@ -2247,7 +2247,6 @@ loadFrameScript
 (
 kIdentityShimFile
 true
-true
 )
 ;
 log
