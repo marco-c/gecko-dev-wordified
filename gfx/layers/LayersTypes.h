@@ -291,9 +291,6 @@ mozilla
 namespace
 layers
 {
-class
-TextureHost
-;
 typedef
 uint32_t
 TextureFlags
@@ -481,10 +478,6 @@ mHasOwnOffset
 (
 false
 )
-mTexture
-(
-nullptr
-)
 #
 endif
 {
@@ -506,9 +499,6 @@ nsIntSize
 aSize
 uint32_t
 aFlags
-TextureHost
-*
-aTexture
 )
 :
 mSurface
@@ -526,10 +516,6 @@ aFlags
 mHasOwnOffset
 (
 false
-)
-mTexture
-(
-aTexture
 )
 {
 }
@@ -616,10 +602,6 @@ of
 mSurface
 nsIntSize
 mSize
-;
-TextureHost
-*
-mTexture
 ;
 #
 endif
