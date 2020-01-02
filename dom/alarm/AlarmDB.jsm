@@ -261,7 +261,7 @@ upgradeSchema
 )
 ;
 let
-objectStore
+objStore
 =
 aDb
 .
@@ -280,7 +280,7 @@ true
 }
 )
 ;
-objectStore
+objStore
 .
 createIndex
 (
@@ -297,7 +297,7 @@ false
 }
 )
 ;
-objectStore
+objStore
 .
 createIndex
 (
@@ -314,7 +314,7 @@ false
 }
 )
 ;
-objectStore
+objStore
 .
 createIndex
 (
@@ -331,7 +331,7 @@ false
 }
 )
 ;
-objectStore
+objStore
 .
 createIndex
 (
@@ -348,7 +348,7 @@ false
 }
 )
 ;
-objectStore
+objStore
 .
 createIndex
 (
@@ -365,7 +365,7 @@ false
 }
 )
 ;
-objectStore
+objStore
 .
 createIndex
 (

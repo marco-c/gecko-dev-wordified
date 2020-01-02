@@ -2010,6 +2010,7 @@ the
 next
 alarm
 from
+the
 queue
 .
 if
@@ -2802,6 +2803,7 @@ previous
 alarm
 back
 to
+the
 queue
 .
 let
@@ -3203,6 +3205,7 @@ alarm
 /
 /
 from
+the
 queue
 if
 any
@@ -3275,6 +3278,18 @@ aTopic
 aData
 )
 {
+debug
+(
+"
+observe
+(
+)
+:
+"
++
+aTopic
+)
+;
 switch
 (
 aTopic
