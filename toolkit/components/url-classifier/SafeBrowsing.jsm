@@ -270,6 +270,11 @@ safebrowsing
 this
 .
 readPrefs
+.
+bind
+(
+this
+)
 false
 )
 ;
