@@ -2398,8 +2398,10 @@ mImportantRule
 initialized
 by
 RuleMatched
+nsRefPtr
+<
 DOMCSSStyleRule
-*
+>
 mDOMRule
 ;
 /
