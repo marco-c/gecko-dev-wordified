@@ -2469,7 +2469,7 @@ about
 :
 home
 ?
-page
+panel
 =
 "
 +
