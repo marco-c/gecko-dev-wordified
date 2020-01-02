@@ -41246,6 +41246,7 @@ cpp
 .
 class
 MResumePoint
+MOZ_FINAL
 :
 public
 MNode
