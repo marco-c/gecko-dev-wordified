@@ -2240,7 +2240,7 @@ cx
 mBoundVertexArray
 -
 >
-mBoundElementArrayBuffer
+mElementArrayBuffer
 .
 get
 (

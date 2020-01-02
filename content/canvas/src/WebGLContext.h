@@ -8401,6 +8401,14 @@ friend
 class
 WebGLVertexArray
 ;
+friend
+class
+WebGLVertexArrayFake
+;
+friend
+class
+WebGLVertexArrayGL
+;
 }
 ;
 /

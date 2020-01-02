@@ -2384,7 +2384,7 @@ curBuff
 mBoundVertexArray
 -
 >
-mBoundElementArrayBuffer
+mElementArrayBuffer
 ;
 bound
 =
