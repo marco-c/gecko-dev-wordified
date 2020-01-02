@@ -1234,13 +1234,13 @@ else
 if
 defined
 (
-WTF_OS_LINUX
+__linux__
 )
 |
 |
 defined
 (
-WTF_OS_ANDROID
+ANDROID
 )
 |
 |

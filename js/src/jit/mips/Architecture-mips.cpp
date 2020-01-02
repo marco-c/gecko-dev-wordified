@@ -210,8 +210,8 @@ flags
 #
 else
 #
-if
-WTF_OS_LINUX
+ifdef
+__linux__
 FILE
 *
 fp

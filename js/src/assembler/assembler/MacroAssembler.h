@@ -375,7 +375,7 @@ support
 .
 #
 elif
-WTF_CPU_MIPS
+JS_CODEGEN_MIPS
 #
 include
 "
@@ -397,7 +397,7 @@ MacroAssembler
 }
 #
 elif
-WTF_CPU_X86
+JS_CODEGEN_X86
 #
 include
 "
@@ -419,7 +419,7 @@ MacroAssembler
 }
 #
 elif
-WTF_CPU_X86_64
+JS_CODEGEN_X64
 #
 include
 "
