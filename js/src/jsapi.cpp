@@ -26288,6 +26288,11 @@ runtime
 canUseParallelParsing
 (
 )
+&
+&
+CanUseExtraThreads
+(
+)
 ;
 }
 JS_PUBLIC_API
