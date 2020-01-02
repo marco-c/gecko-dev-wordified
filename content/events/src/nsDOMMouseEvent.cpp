@@ -505,7 +505,7 @@ NS_SIMPLE_GESTURE_EVENT
 {
 static_cast
 <
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 >
 (
@@ -519,7 +519,7 @@ aRelatedTarget
 ;
 static_cast
 <
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 >
 (
@@ -963,7 +963,7 @@ NS_SIMPLE_GESTURE_EVENT
 :
 static_cast
 <
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 >
 (
@@ -1074,7 +1074,7 @@ rv
 ;
 static_cast
 <
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 >
 (
@@ -1088,7 +1088,7 @@ aPressure
 ;
 static_cast
 <
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 >
 (
@@ -1165,7 +1165,7 @@ NS_SIMPLE_GESTURE_EVENT
 return
 static_cast
 <
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 >
 (
@@ -1263,7 +1263,7 @@ NS_SIMPLE_GESTURE_EVENT
 return
 static_cast
 <
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 >
 (
@@ -1384,7 +1384,7 @@ do_QueryInterface
 (
 static_cast
 <
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 >
 (

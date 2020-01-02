@@ -777,7 +777,7 @@ NS_SIMPLE_GESTURE_EVENT
 :
 static_cast
 <
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 >
 (
@@ -816,7 +816,7 @@ nullptr
 ;
 static_cast
 <
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 >
 (
@@ -995,7 +995,7 @@ NoteXPCOMChild
 (
 static_cast
 <
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 >
 (
@@ -1062,7 +1062,7 @@ NoteXPCOMChild
 (
 static_cast
 <
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 >
 (
