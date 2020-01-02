@@ -13933,6 +13933,9 @@ case
 Bailout_NonStringInput
 :
 case
+Bailout_NonSymbolInput
+:
+case
 Bailout_GuardThreadExclusive
 :
 case

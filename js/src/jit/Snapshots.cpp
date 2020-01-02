@@ -2327,6 +2327,14 @@ string
 "
 ;
 case
+JSVAL_TYPE_SYMBOL
+:
+return
+"
+symbol
+"
+;
+case
 JSVAL_TYPE_BOOLEAN
 :
 return

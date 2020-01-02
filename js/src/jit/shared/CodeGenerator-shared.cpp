@@ -1263,6 +1263,9 @@ case
 MIRType_String
 :
 case
+MIRType_Symbol
+:
+case
 MIRType_Object
 :
 case
