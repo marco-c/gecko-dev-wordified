@@ -1078,7 +1078,9 @@ gRIL
 .
 getRadioInterface
 (
-0
+options
+.
+serviceId
 )
 .
 rilContext
