@@ -3078,6 +3078,7 @@ write
 n
 %
 s
+MOZ_OVERRIDE
 ;
 "
 %
@@ -3106,6 +3107,7 @@ write
 n
 %
 s
+MOZ_OVERRIDE
 ;
 "
 %
@@ -3137,6 +3139,7 @@ write
 n
 %
 s
+MOZ_OVERRIDE
 ;
 "
 %
@@ -3494,6 +3497,7 @@ n
 asNative
 )
 s
+MOZ_OVERRIDE
 {
 return
 _to
@@ -3568,6 +3572,7 @@ n
 asNative
 )
 s
+MOZ_OVERRIDE
 {
 return
 !
@@ -3604,6 +3609,7 @@ n
 asNative
 )
 s
+MOZ_OVERRIDE
 ;
 "
 )
