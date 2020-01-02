@@ -337,6 +337,17 @@ JS_DESCR_SLOT_ARRAY_ELEM_TYPE
 /
 Slots
 on
+sized
+array
+descriptors
+#
+define
+JS_DESCR_SLOT_SIZED_ARRAY_LENGTH
+4
+/
+/
+Slots
+on
 struct
 type
 objects
@@ -356,7 +367,7 @@ descriptor
 #
 define
 JS_DESCR_SLOTS
-4
+5
 /
 /
 /
