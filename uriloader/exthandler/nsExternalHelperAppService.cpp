@@ -3381,6 +3381,17 @@ Sheet
 "
 }
 {
+TEXT_VCARD
+"
+vcf
+vcard
+"
+"
+Contact
+Information
+"
+}
+{
 VIDEO_OGG
 "
 ogv
