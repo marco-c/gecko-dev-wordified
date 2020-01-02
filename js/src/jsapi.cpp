@@ -11504,11 +11504,12 @@ JSGC_MODE
 rt
 -
 >
-gcMode
-=
+setGCMode
+(
 JSGCMode
 (
 value
+)
 )
 ;
 JS_ASSERT
@@ -11517,6 +11518,8 @@ rt
 -
 >
 gcMode
+(
+)
 =
 =
 JSGC_MODE_GLOBAL
@@ -11526,6 +11529,8 @@ rt
 -
 >
 gcMode
+(
+)
 =
 =
 JSGC_MODE_COMPARTMENT
@@ -11535,6 +11540,8 @@ rt
 -
 >
 gcMode
+(
+)
 =
 =
 JSGC_MODE_INCREMENTAL
@@ -11605,6 +11612,8 @@ rt
 -
 >
 gcMode
+(
+)
 )
 ;
 case
