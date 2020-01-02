@@ -1606,6 +1606,10 @@ RESFILE
 '
             
 '
+RCINCLUDE
+'
+            
+'
 DEFFILE
 '
             

@@ -2949,6 +2949,23 @@ res
 ]
             
 '
+RCINCLUDE
+'
+:
+[
+                
+'
+RCINCLUDE
+:
+=
+bar
+.
+rc
+'
+            
+]
+            
+'
 DEFFILE
 '
 :
