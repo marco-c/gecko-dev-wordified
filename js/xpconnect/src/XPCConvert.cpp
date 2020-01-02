@@ -4743,9 +4743,10 @@ JSString
 *
 str
 =
-JSVAL_TO_STRING
-(
 s
+.
+toString
+(
 )
 ;
 const

@@ -2169,9 +2169,10 @@ chars
 JS_GetStringCharsZAndLength
 (
 aCtx
-JSVAL_TO_STRING
-(
 aValue
+.
+toString
+(
 )
 &
 length

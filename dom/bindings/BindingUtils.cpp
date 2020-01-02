@@ -2228,9 +2228,10 @@ JSString
 *
 >
 (
-JSVAL_TO_STRING
-(
 v
+.
+toString
+(
 )
 )
 ;

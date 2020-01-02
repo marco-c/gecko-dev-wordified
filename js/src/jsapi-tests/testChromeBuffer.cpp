@@ -978,9 +978,10 @@ CHECK
 JS_StringEqualsAscii
 (
 cx
-JSVAL_TO_STRING
-(
 rval
+.
+toString
+(
 )
 "
 From

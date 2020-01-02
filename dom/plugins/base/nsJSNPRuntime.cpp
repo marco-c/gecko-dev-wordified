@@ -2213,9 +2213,10 @@ JSString
 *
 jsstr
 =
-JSVAL_TO_STRING
-(
 val
+.
+toString
+(
 )
 ;
 size_t

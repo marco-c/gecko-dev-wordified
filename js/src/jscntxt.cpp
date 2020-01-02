@@ -3480,9 +3480,10 @@ JSString
 *
 str
 =
-JSVAL_TO_STRING
-(
 usage
+.
+toString
+(
 )
 ;
 JS

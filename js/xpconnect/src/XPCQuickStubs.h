@@ -1297,9 +1297,10 @@ isString
 {
 s
 =
-JSVAL_TO_STRING
-(
 v
+.
+toString
+(
 )
 ;
 }
