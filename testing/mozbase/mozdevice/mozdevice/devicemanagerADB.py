@@ -1717,6 +1717,9 @@ remoteDir
 retryLimit
 =
 None
+timeout
+=
+None
 )
 :
         
@@ -1946,6 +1949,9 @@ remoteZip
 retryLimit
 =
 retryLimit
+timeout
+=
+timeout
 )
                 
 if
