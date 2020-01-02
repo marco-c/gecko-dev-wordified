@@ -455,13 +455,6 @@ mozilla
 WidgetMouseEvent
 nsMouseEvent
 ;
-typedef
-mozilla
-:
-:
-WidgetMouseScrollEvent
-nsMouseScrollEvent
-;
 namespace
 mozilla
 {

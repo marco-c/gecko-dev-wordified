@@ -192,7 +192,7 @@ class
 ctor
 allocate
 an
-nsMouseScrollEvent
+WidgetMouseScrollEvent
 .
 /
 /

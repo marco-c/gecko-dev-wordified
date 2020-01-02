@@ -151,7 +151,7 @@ aEvent
 aEvent
 :
 new
-nsMouseScrollEvent
+WidgetMouseScrollEvent
 (
 false
 0
@@ -233,7 +233,7 @@ mDetail
 =
 static_cast
 <
-nsMouseScrollEvent
+WidgetMouseScrollEvent
 *
 >
 (
@@ -275,7 +275,7 @@ NS_MOUSE_SCROLL_EVENT
 delete
 static_cast
 <
-nsMouseScrollEvent
+WidgetMouseScrollEvent
 *
 >
 (
@@ -408,7 +408,7 @@ NS_MOUSE_SCROLL_EVENT
 {
 static_cast
 <
-nsMouseScrollEvent
+WidgetMouseScrollEvent
 *
 >
 (
@@ -479,7 +479,7 @@ NS_MOUSE_SCROLL_EVENT
 return
 static_cast
 <
-nsMouseScrollEvent
+WidgetMouseScrollEvent
 *
 >
 (
