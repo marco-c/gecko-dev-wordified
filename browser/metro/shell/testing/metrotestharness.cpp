@@ -1109,6 +1109,11 @@ s
 buffer
 )
 ;
+fflush
+(
+stdout
+)
+;
 }
 }
 static
