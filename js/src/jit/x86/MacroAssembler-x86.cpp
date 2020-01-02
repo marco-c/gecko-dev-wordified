@@ -1425,7 +1425,7 @@ Operand
 esp
 0
 )
-ReturnFloatReg
+ReturnDoubleReg
 )
 ;
 freeStack
@@ -1473,7 +1473,7 @@ Operand
 esp
 0
 )
-ReturnFloatReg
+ReturnFloat32Reg
 )
 ;
 freeStack

@@ -6256,7 +6256,7 @@ Address
 sp
 0
 )
-ReturnFloatReg
+ReturnDoubleReg
 )
 ;
 else

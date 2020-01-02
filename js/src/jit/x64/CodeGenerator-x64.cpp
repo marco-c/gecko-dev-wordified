@@ -457,12 +457,12 @@ masm
 convertFloat32ToDouble
 (
 reg
-ScratchFloatReg
+ScratchDoubleReg
 )
 ;
 reg
 =
-ScratchFloatReg
+ScratchDoubleReg
 ;
 }
 masm

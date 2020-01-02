@@ -1072,7 +1072,7 @@ LDefinition
 FLOAT32
 LFloatReg
 (
-ReturnFloatReg
+ReturnFloat32Reg
 )
 )
 )
@@ -1097,7 +1097,7 @@ LDefinition
 DOUBLE
 LFloatReg
 (
-ReturnFloatReg
+ReturnDoubleReg
 )
 )
 )

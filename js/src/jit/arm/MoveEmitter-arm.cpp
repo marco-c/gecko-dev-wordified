@@ -778,7 +778,7 @@ isMemory
 FloatRegister
 temp
 =
-ScratchFloatReg
+ScratchDoubleReg
 ;
 masm
 .
@@ -1056,7 +1056,7 @@ isMemory
 FloatRegister
 temp
 =
-ScratchFloatReg
+ScratchDoubleReg
 ;
 masm
 .
@@ -1712,7 +1712,7 @@ isMemory
 FloatRegister
 reg
 =
-ScratchFloatReg
+ScratchFloat32Reg
 ;
 masm
 .
@@ -1869,7 +1869,7 @@ isMemory
 FloatRegister
 reg
 =
-ScratchFloatReg
+ScratchDoubleReg
 ;
 masm
 .

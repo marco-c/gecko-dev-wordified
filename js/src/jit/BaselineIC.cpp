@@ -19453,7 +19453,7 @@ DOUBLE
 ;
 JS_ASSERT
 (
-ReturnFloatReg
+ReturnDoubleReg
 =
 =
 FloatReg0
@@ -36735,7 +36735,7 @@ masm
 convertDoubleToFloat32
 (
 FloatReg0
-ScratchFloatReg
+ScratchFloat32Reg
 )
 ;
 masm
@@ -36743,7 +36743,7 @@ masm
 storeToTypedFloatArray
 (
 type_
-ScratchFloatReg
+ScratchFloat32Reg
 dest
 )
 ;

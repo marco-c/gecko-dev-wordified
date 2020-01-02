@@ -5716,7 +5716,7 @@ masm
 .
 Pop
 (
-ReturnFloatReg
+ReturnDoubleReg
 )
 ;
 else

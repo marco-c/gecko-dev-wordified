@@ -1330,14 +1330,14 @@ masm
 convertUInt32ToDouble
 (
 ExtractTemp0
-ScratchFloatReg
+ScratchDoubleReg
 )
 ;
 masm
 .
 boxDouble
 (
-ScratchFloatReg
+ScratchDoubleReg
 R0
 )
 ;

@@ -5217,7 +5217,7 @@ Address
 esp
 0
 )
-ReturnFloatReg
+ReturnDoubleReg
 )
 ;
 masm
