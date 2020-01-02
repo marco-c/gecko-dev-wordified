@@ -713,6 +713,13 @@ GetIsMainThread
 "
 :
 true
+"
+PLDHashTableOps
+.
+hashKey
+"
+:
+true
 }
 ;
 function
