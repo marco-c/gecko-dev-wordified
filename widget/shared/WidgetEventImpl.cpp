@@ -644,7 +644,7 @@ return
 mClass
 =
 =
-NS_CONTENT_COMMAND_EVENT
+eContentCommandEventClass
 ;
 }
 bool
@@ -1651,7 +1651,7 @@ case
 eSelectionEventClass
 :
 case
-NS_CONTENT_COMMAND_EVENT
+eContentCommandEventClass
 :
 return
 false
