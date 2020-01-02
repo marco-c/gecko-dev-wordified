@@ -5093,6 +5093,9 @@ RepatchIonCache
 {
 protected
 :
+RegisterSet
+liveRegs_
+;
 Register
 object_
 ;
@@ -5134,6 +5137,8 @@ public
 :
 GetElementIC
 (
+RegisterSet
+liveRegs
 Register
 object
 ConstantOrRegister
@@ -5144,6 +5149,10 @@ bool
 monitoredResult
 )
 :
+liveRegs_
+(
+liveRegs
+)
 object_
 (
 object
@@ -5287,8 +5296,16 @@ allowGetters
 )
 const
 {
+JS_ASSERT
+(
+!
+idempotent
+(
+)
+)
+;
 return
-false
+true
 ;
 }
 bool
@@ -5379,6 +5396,9 @@ Value
 idval
 HandlePropertyName
 name
+void
+*
+returnAddr
 )
 ;
 bool
