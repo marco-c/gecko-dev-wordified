@@ -152,6 +152,17 @@ util
 .
 Log
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+WebRTCJNITarget
+;
 class
 WebRTCAudioDevice
 {
@@ -167,6 +178,7 @@ _audioRecord
 =
 null
 ;
+WebRTCJNITarget
 private
 Context
 _context
@@ -257,6 +269,7 @@ _playPosition
 =
 0
 ;
+WebRTCJNITarget
 WebRTCAudioDevice
 (
 )
@@ -347,6 +360,7 @@ SuppressWarnings
 unused
 "
 )
+WebRTCJNITarget
 private
 int
 InitRecording
@@ -570,6 +584,7 @@ SuppressWarnings
 unused
 "
 )
+WebRTCJNITarget
 private
 int
 StartRecording
@@ -634,6 +649,7 @@ SuppressWarnings
 unused
 "
 )
+WebRTCJNITarget
 private
 int
 InitPlayback
@@ -935,6 +951,7 @@ SuppressWarnings
 unused
 "
 )
+WebRTCJNITarget
 private
 int
 StartPlayback
@@ -999,6 +1016,7 @@ SuppressWarnings
 unused
 "
 )
+WebRTCJNITarget
 private
 int
 StopRecording
@@ -1139,6 +1157,7 @@ SuppressWarnings
 unused
 "
 )
+WebRTCJNITarget
 private
 int
 StopPlayback
@@ -1290,6 +1309,7 @@ SuppressWarnings
 unused
 "
 )
+WebRTCJNITarget
 private
 int
 PlayAudio
@@ -1616,6 +1636,7 @@ SuppressWarnings
 unused
 "
 )
+WebRTCJNITarget
 private
 int
 RecordAudio
@@ -1885,6 +1906,7 @@ SuppressWarnings
 unused
 "
 )
+WebRTCJNITarget
 private
 int
 SetPlayoutSpeaker
@@ -2214,6 +2236,7 @@ SuppressWarnings
 unused
 "
 )
+WebRTCJNITarget
 private
 int
 SetPlayoutVolume
@@ -2298,6 +2321,7 @@ SuppressWarnings
 unused
 "
 )
+WebRTCJNITarget
 private
 int
 GetPlayoutVolume

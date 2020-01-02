@@ -288,6 +288,17 @@ util
 .
 ThreadUtils
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+WebRTCJNITarget
+;
 public
 class
 VideoCaptureAndroid
@@ -688,6 +699,7 @@ preview
 frame
 }
 }
+WebRTCJNITarget
 public
 static
 void
@@ -1930,6 +1942,7 @@ return
 0
 ;
 }
+WebRTCJNITarget
 public
 int
 StartCapture

@@ -202,6 +202,17 @@ util
 .
 Log
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+WebRTCJNITarget
+;
 public
 class
 ViEAndroidGLES20
@@ -306,6 +317,7 @@ viewHeight
 =
 0
 ;
+WebRTCJNITarget
 public
 static
 boolean
@@ -346,6 +358,7 @@ false
 )
 ;
 }
+WebRTCJNITarget
 public
 ViEAndroidGLES20
 (
@@ -1983,6 +1996,7 @@ config
 )
 {
 }
+WebRTCJNITarget
 public
 void
 RegisterNativeObject
@@ -2014,6 +2028,7 @@ unlock
 )
 ;
 }
+WebRTCJNITarget
 public
 void
 DeRegisterNativeObject
@@ -2047,6 +2062,7 @@ unlock
 )
 ;
 }
+WebRTCJNITarget
 public
 void
 ReDraw

@@ -443,6 +443,17 @@ videoengine
 ViERenderer
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+WebRTCJNITarget
+;
+import
 java
 .
 io
@@ -6267,6 +6278,7 @@ selected
 )
 ;
 }
+WebRTCJNITarget
 public
 int
 updateStats

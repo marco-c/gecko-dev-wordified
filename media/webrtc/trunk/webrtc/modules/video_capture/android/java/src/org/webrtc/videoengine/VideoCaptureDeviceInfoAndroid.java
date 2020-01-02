@@ -175,6 +175,17 @@ util
 .
 Log
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+WebRTCJNITarget
+;
 public
 class
 VideoCaptureDeviceInfoAndroid
@@ -234,6 +245,7 @@ cameras
 and
 the
 capabilities
+WebRTCJNITarget
 public
 class
 AndroidVideoCaptureDevice
@@ -366,6 +378,7 @@ AndroidVideoCaptureDevice
 >
 deviceList
 ;
+WebRTCJNITarget
 public
 static
 VideoCaptureDeviceInfoAndroid
@@ -1404,6 +1417,7 @@ devices
 that
 is
 supported
+WebRTCJNITarget
 public
 int
 NumberOfDevices
@@ -1418,6 +1432,7 @@ size
 )
 ;
 }
+WebRTCJNITarget
 public
 String
 GetDeviceUniqueName
@@ -1458,6 +1473,7 @@ deviceNumber
 deviceUniqueName
 ;
 }
+WebRTCJNITarget
 public
 CaptureCapabilityAndroid
 [
@@ -1524,6 +1540,7 @@ Camera
 CameraInfo
 .
 orientation
+WebRTCJNITarget
 public
 int
 GetOrientation
@@ -1572,6 +1589,7 @@ instance
 of
 VideoCaptureAndroid
 .
+WebRTCJNITarget
 public
 VideoCaptureAndroid
 AllocateCamera
@@ -1880,6 +1898,7 @@ device
 specific
 code
 .
+WebRTCJNITarget
 private
 Camera
 .

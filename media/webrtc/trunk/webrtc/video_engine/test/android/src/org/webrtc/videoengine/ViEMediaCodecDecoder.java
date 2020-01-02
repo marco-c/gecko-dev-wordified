@@ -169,6 +169,17 @@ util
 .
 LinkedList
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+WebRTCJNITarget
+;
 class
 CodecState
 {
@@ -242,6 +253,7 @@ private
 long
 mLastMediaTimeUs
 ;
+WebRTCJNITarget
 public
 CodecState
 (
@@ -1272,6 +1284,7 @@ private
 Thread
 mLooperThread
 ;
+WebRTCJNITarget
 public
 void
 configure
@@ -1489,6 +1502,7 @@ initMediaCodecView
 )
 ;
 }
+WebRTCJNITarget
 public
 void
 setEncodedImage
@@ -1884,6 +1898,7 @@ end
 )
 ;
 }
+WebRTCJNITarget
 public
 void
 start
