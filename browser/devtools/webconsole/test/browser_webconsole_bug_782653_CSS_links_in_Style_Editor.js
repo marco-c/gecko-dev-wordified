@@ -283,6 +283,8 @@ querySelector
 (
 "
 .
+message
+-
 location
 "
 )
@@ -292,6 +294,8 @@ querySelector
 (
 "
 .
+message
+-
 location
 "
 )
@@ -305,6 +309,8 @@ nodes
 ]
 "
 .
+message
+-
 location
 node
 for
@@ -322,6 +328,8 @@ nodes
 ]
 "
 .
+message
+-
 location
 node
 for
