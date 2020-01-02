@@ -50,8 +50,6 @@ browser_urifixup_search_engine
 "
 ;
 const
-kTest
-const
 kSearchEngineURL
 =
 "
