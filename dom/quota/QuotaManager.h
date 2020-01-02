@@ -1188,6 +1188,11 @@ const
 nsACString
 &
 aOrigin
+Client
+:
+:
+Type
+aClientType
 const
 nsAString
 &

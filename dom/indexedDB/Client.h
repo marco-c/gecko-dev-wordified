@@ -139,12 +139,6 @@ h
 "
 #
 define
-IDB_DIRECTORY_NAME
-"
-idb
-"
-#
-define
 JOURNAL_DIRECTORY_NAME
 "
 journals
