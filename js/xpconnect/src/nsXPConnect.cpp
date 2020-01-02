@@ -8487,8 +8487,14 @@ Init
 xpc
 :
 :
-GetJunkScopeGlobal
+GetNativeForGlobal
 (
+xpc
+:
+:
+PrivilegedJunkScope
+(
+)
 )
 )
 ;

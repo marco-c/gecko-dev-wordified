@@ -6031,7 +6031,7 @@ cx
 xpc
 :
 :
-GetJunkScope
+PrivilegedJunkScope
 (
 )
 )

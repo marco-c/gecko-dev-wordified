@@ -11640,8 +11640,14 @@ global
 xpc
 :
 :
-GetJunkScopeGlobal
+GetNativeForGlobal
 (
+xpc
+:
+:
+PrivilegedJunkScope
+(
+)
 )
 ;
 NS_ENSURE_TRUE

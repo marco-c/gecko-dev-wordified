@@ -2058,15 +2058,9 @@ cx
 xpc
 :
 :
-GetCompilationScope
+CompilationScope
 (
 )
-)
-;
-NS_ENSURE_TRUE
-(
-compilationGlobal
-NS_ERROR_UNEXPECTED
 )
 ;
 JSAutoCompartment
