@@ -1895,10 +1895,7 @@ FrameMetrics
 &
 aFrameMetrics
 const
-gfx
-:
-:
-Point
+ScreenPoint
 &
 aVelocity
 const
@@ -3042,10 +3039,7 @@ axis
 *
 /
 const
-gfx
-:
-:
-Point
+ScreenPoint
 GetVelocityVector
 (
 )

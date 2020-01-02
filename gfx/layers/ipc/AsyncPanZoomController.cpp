@@ -6290,10 +6290,7 @@ PanDistance
 ;
 }
 const
-gfx
-:
-:
-Point
+ScreenPoint
 AsyncPanZoomController
 :
 :
@@ -6302,10 +6299,7 @@ GetVelocityVector
 )
 {
 return
-gfx
-:
-:
-Point
+ScreenPoint
 (
 mX
 .
@@ -8171,10 +8165,7 @@ FrameMetrics
 &
 aFrameMetrics
 const
-gfx
-:
-:
-Point
+ScreenPoint
 &
 aVelocity
 const
@@ -11012,10 +11003,7 @@ mDisplayPort
 CalculatePendingDisplayPort
 (
 endZoomToMetrics
-gfx
-:
-:
-Point
+ScreenPoint
 (
 0
 0

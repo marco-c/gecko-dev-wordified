@@ -3688,10 +3688,7 @@ will
 take
 .
 metrics
-gfx
-:
-:
-Point
+ScreenPoint
 (
 0
 .
