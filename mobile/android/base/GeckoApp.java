@@ -14139,6 +14139,13 @@ rec
 !
 =
 null
+&
+&
+rec
+.
+isEnabled
+(
+)
 )
 {
 /
@@ -18553,6 +18560,7 @@ osLocale
 final
 String
 appLocale
+final
 SessionInformation
 previousSession
 )

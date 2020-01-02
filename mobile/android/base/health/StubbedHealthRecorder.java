@@ -142,6 +142,16 @@ implements
 HealthRecorder
 {
 public
+boolean
+isEnabled
+(
+)
+{
+return
+false
+;
+}
+public
 void
 setCurrentSession
 (

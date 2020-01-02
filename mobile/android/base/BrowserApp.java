@@ -16386,6 +16386,7 @@ osLocale
 final
 String
 appLocale
+final
 SessionInformation
 previousSession
 )

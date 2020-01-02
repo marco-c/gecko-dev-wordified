@@ -1248,6 +1248,16 @@ e
 ;
 }
 }
+public
+boolean
+isEnabled
+(
+)
+{
+return
+true
+;
+}
 /
 *
 *
