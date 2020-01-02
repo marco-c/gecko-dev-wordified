@@ -436,14 +436,12 @@ remainBufCount
 =
 bufCount
 ;
-if
-(
-NS_SUCCEEDED
+NS_ENSURE_SUCCESS
 (
 rv
+rv
 )
-)
-{
+;
 NS_ASSERTION
 (
 write_result
@@ -465,7 +463,6 @@ write
 "
 )
 ;
-}
 mStartPos
 +
 =
