@@ -504,7 +504,7 @@ dom
 /
 events
 )
-NS_MUTATION_EVENT
+eMutationEventClass
 /
 /
 InternalMutationEvent

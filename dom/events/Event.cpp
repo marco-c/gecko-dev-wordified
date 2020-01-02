@@ -928,7 +928,7 @@ nullptr
 break
 ;
 case
-NS_MUTATION_EVENT
+eMutationEventClass
 :
 tmp
 -
@@ -1178,7 +1178,7 @@ clipboardData
 break
 ;
 case
-NS_MUTATION_EVENT
+eMutationEventClass
 :
 NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
 (

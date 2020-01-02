@@ -4069,7 +4069,7 @@ mClass
 )
 {
 case
-NS_MUTATION_EVENT
+eMutationEventClass
 :
 return
 NS_NewDOMMutationEvent
