@@ -58,11 +58,11 @@ marionette_test
 import
 MarionetteTestCase
 from
-errors
+marionette
 import
 MarionetteException
 from
-errors
+marionette
 import
 TimeoutException
 class

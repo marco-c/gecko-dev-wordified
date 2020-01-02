@@ -59,7 +59,7 @@ import
 MarionetteTestCase
 skip_if_b2g
 from
-errors
+marionette
 import
 JavascriptException
 MarionetteException
