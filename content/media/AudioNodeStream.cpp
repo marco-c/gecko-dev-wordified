@@ -1218,7 +1218,7 @@ uint32_t
 AudioNodeStream
 :
 :
-ComputeFinalOuputChannelCount
+ComputedNumberOfChannels
 (
 uint32_t
 aInputChannelCount
@@ -1660,7 +1660,7 @@ Length
 }
 outputChannelCount
 =
-ComputeFinalOuputChannelCount
+ComputedNumberOfChannels
 (
 outputChannelCount
 )
