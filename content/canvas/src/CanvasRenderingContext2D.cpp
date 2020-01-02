@@ -13087,6 +13087,19 @@ off
 return
 ;
 }
+RefPtr
+<
+GlyphRenderingOptions
+>
+renderingOptions
+=
+font
+-
+>
+GetGlyphRenderingOptions
+(
+)
+;
 GlyphBuffer
 buffer
 ;
@@ -13630,6 +13643,7 @@ UsedOperation
 (
 )
 )
+renderingOptions
 )
 ;
 }
