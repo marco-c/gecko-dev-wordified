@@ -3708,13 +3708,10 @@ MOZ_ASSERT
 xpc
 :
 :
-GetCompartmentPrivate
+GetObjectScope
 (
 key
 )
--
->
-scope
 -
 >
 mWaiverWrapperMap
