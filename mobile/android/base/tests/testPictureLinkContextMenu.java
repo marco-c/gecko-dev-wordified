@@ -152,12 +152,12 @@ html
 "
 )
 ;
-inputAndLoadUrl
+loadAndPaint
 (
 PICTURE_PAGE_URL
 )
 ;
-waitForText
+verifyPageTitle
 (
 PICTURE_PAGE_TITLE
 )
