@@ -190,9 +190,6 @@ js
 namespace
 gc
 {
-class
-AccumulateEdgesTracer
-;
 /
 *
 *
