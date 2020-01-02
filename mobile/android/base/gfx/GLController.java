@@ -337,7 +337,7 @@ mView
 ;
 private
 boolean
-mSurfaceValid
+mServerSurfaceValid
 ;
 private
 int
@@ -546,7 +546,7 @@ mCompositorCreated
 mCompositorCreated
 )
 ;
-mSurfaceValid
+mServerSurfaceValid
 =
 false
 ;
@@ -741,11 +741,11 @@ newHeight
 "
 )
 with
-mSurfaceValid
+mServerSurfaceValid
 =
 "
 +
-mSurfaceValid
+mServerSurfaceValid
 )
 ;
 mWidth
@@ -758,7 +758,7 @@ newHeight
 ;
 if
 (
-mSurfaceValid
+mServerSurfaceValid
 )
 {
 /
@@ -828,7 +828,7 @@ resume
 return
 ;
 }
-mSurfaceValid
+mServerSurfaceValid
 =
 true
 ;
@@ -1001,11 +1001,11 @@ mCompositorCreated
 mCompositorCreated
 +
 "
-mSurfaceValid
+mServerSurfaceValid
 =
 "
 +
-mSurfaceValid
+mServerSurfaceValid
 )
 ;
 try
@@ -1015,7 +1015,7 @@ try
 Re
 -
 check
-mSurfaceValid
+mServerSurfaceValid
 in
 case
 the
@@ -1041,7 +1041,7 @@ run
 /
 /
 If
-mSurfaceValid
+mServerSurfaceValid
 is
 still
 true
@@ -1053,7 +1053,7 @@ mEGLSurface
 If
 /
 /
-mSurfaceValid
+mServerSurfaceValid
 is
 false
 leave
@@ -1085,14 +1085,14 @@ eglCreateWindowSurface
 failed
 or
 if
-mSurfaceValid
+mServerSurfaceValid
 changed
 to
 false
 .
 if
 (
-mSurfaceValid
+mServerSurfaceValid
 )
 {
 if
@@ -1164,7 +1164,7 @@ EGL10
 EGL_NO_SURFACE
 )
 {
-mSurfaceValid
+mServerSurfaceValid
 =
 false
 ;
@@ -1211,7 +1211,7 @@ return
 At
 this
 point
-mSurfaceValid
+mServerSurfaceValid
 is
 true
 and
@@ -1539,7 +1539,7 @@ hasValidSurface
 )
 {
 return
-mSurfaceValid
+mServerSurfaceValid
 ;
 }
 private
