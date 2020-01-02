@@ -39887,10 +39887,10 @@ CompilerConstraintList
 constraints
 )
 {
-JSScript
-*
+RootedScript
 script
-=
+(
+cx
 gen
 -
 >
@@ -39900,6 +39900,7 @@ info
 .
 script
 (
+)
 )
 ;
 ExecutionMode

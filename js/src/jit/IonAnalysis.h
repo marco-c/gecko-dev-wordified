@@ -566,8 +566,7 @@ AnalyzeNewScriptProperties
 JSContext
 *
 cx
-JSFunction
-*
+HandleFunction
 fun
 types
 :
