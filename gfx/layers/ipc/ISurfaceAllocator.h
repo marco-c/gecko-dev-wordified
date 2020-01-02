@@ -762,6 +762,15 @@ return
 true
 ;
 }
+virtual
+bool
+IsSameProcess
+(
+)
+const
+=
+0
+;
 /
 /
 Returns
