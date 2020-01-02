@@ -4092,6 +4092,15 @@ bool
 aAllowNativeWrapper
 )
 {
+js
+:
+:
+AssertSameCompartment
+(
+aCx
+aScope
+)
+;
 nsresult
 rv
 ;
@@ -4170,7 +4179,6 @@ cache
 WrapObject
 (
 aCx
-aScope
 )
 ;
 }

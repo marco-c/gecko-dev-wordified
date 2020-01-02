@@ -205,15 +205,6 @@ WrapObject
 JSContext
 *
 aCx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aScope
 bool
 *
 aTookOwnership

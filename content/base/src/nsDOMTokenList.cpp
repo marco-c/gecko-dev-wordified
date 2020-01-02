@@ -1534,15 +1534,6 @@ WrapObject
 JSContext
 *
 cx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-scope
 )
 {
 return

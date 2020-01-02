@@ -205,15 +205,6 @@ WrapObject
 JSContext
 *
 cx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-scope
 )
 ;
 NS_INLINE_DECL_REFCOUNTING

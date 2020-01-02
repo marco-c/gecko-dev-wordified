@@ -288,15 +288,6 @@ WrapObject
 JSContext
 *
 aCx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aScope
 )
 ;
 uint32_t

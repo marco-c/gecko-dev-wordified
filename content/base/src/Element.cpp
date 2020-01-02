@@ -2016,15 +2016,6 @@ WrapObject
 JSContext
 *
 aCx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aScope
 )
 {
 JS
@@ -2044,7 +2035,6 @@ nsINode
 WrapObject
 (
 aCx
-aScope
 )
 )
 ;

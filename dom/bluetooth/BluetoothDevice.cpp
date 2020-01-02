@@ -1371,15 +1371,6 @@ WrapObject
 JSContext
 *
 aContext
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aScope
 )
 {
 return
