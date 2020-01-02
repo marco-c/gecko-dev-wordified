@@ -1237,6 +1237,7 @@ property
 findBreakpoints
 :
 function
+*
 (
 aSearchParams
 =
@@ -1418,6 +1419,7 @@ column
 _iterUrls
 :
 function
+*
 (
 aUrl
 )
@@ -1507,6 +1509,7 @@ url
 _iterLines
 :
 function
+*
 (
 aUrl
 aLine
@@ -1671,6 +1674,7 @@ line
 _iterColumns
 :
 function
+*
 (
 aUrl
 aLine
@@ -29230,6 +29234,7 @@ spec
 iter
 :
 function
+*
 (
 )
 {
