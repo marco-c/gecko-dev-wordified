@@ -2190,6 +2190,7 @@ MOZ_DELETE
 ;
 protected
 :
+explicit
 VirtualRegister
 (
 TempAllocator
@@ -3104,7 +3105,7 @@ VREG
 class
 LiveRangeAllocator
 :
-public
+protected
 RegisterAllocator
 {
 protected

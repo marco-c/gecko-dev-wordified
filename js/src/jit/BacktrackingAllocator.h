@@ -322,6 +322,7 @@ group
 LAllocation
 spill
 ;
+explicit
 VirtualRegisterGroup
 (
 TempAllocator
@@ -522,6 +523,7 @@ group_
 ;
 public
 :
+explicit
 BacktrackingVirtualRegister
 (
 TempAllocator
@@ -702,7 +704,7 @@ SplitPositionVector
 class
 BacktrackingAllocator
 :
-public
+private
 LiveRangeAllocator
 <
 BacktrackingVirtualRegister
