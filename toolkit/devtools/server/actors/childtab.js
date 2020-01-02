@@ -163,6 +163,12 @@ connection
 chromeGlobal
 )
 {
+this
+.
+_chromeGlobal
+=
+chromeGlobal
+;
 TabActor
 .
 call
@@ -222,7 +228,7 @@ function
 return
 this
 .
-chromeEventHandler
+_chromeGlobal
 .
 docShell
 ;
