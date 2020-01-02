@@ -5199,7 +5199,7 @@ loadType
 nsIDocShellLoadInfo
 :
 :
-loadMixedContent
+loadReloadMixedContent
 ;
 }
 else
