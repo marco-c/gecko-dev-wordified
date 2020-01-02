@@ -4421,9 +4421,9 @@ patchInlinedReturns
 CallInfo
 &
 callInfo
-MIRGraphExits
+MIRGraphReturns
 &
-exits
+returns
 MBasicBlock
 *
 bottom
