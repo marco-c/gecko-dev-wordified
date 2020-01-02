@@ -8147,7 +8147,7 @@ here
 instead
 of
 just
-failling
+failing
 because
 we
 want
@@ -11356,13 +11356,6 @@ hostInfo
 )
 ;
 }
-PRTime
-now
-=
-PR_Now
-(
-)
-;
 if
 (
 haveResource
@@ -11372,7 +11365,9 @@ UpdateSubresource
 (
 QUERY_PAGE
 resourceInfo
-now
+pageInfo
+.
+lastLoad
 )
 ;
 }
@@ -11391,7 +11386,9 @@ id
 targetURI
 .
 spec
-now
+pageInfo
+.
+lastLoad
 )
 ;
 }
@@ -11424,7 +11421,9 @@ UpdateSubresource
 (
 QUERY_ORIGIN
 hostInfo
-now
+originInfo
+.
+lastLoad
 )
 ;
 }
@@ -11443,7 +11442,9 @@ id
 targetURI
 .
 origin
-now
+originInfo
+.
+lastLoad
 )
 ;
 }
