@@ -444,8 +444,11 @@ eeeeee
 titlebar
 -
 buttonbox
+>
+.
+titlebar
 -
-container
+button
 {
 display
 :
@@ -455,9 +458,11 @@ none
 #
 titlebar
 {
-height
+padding
+-
+top
 :
-22px
+9px
 ;
 }
 #
