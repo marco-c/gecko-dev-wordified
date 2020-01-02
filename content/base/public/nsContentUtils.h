@@ -12918,10 +12918,6 @@ aAttr
 nsAString
 &
 aResult
-AutocompleteAttrState
-aCachedState
-=
-eAutocompleteAttrState_Unknown
 )
 ;
 /
