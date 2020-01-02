@@ -370,6 +370,8 @@ Value
 result
 (
 cx
+)
+;
 StringToJsval
 (
 mRequest
@@ -379,7 +381,8 @@ GetOwner
 (
 )
 fullPath
-)
+&
+result
 )
 ;
 mRequest
@@ -432,6 +435,8 @@ Value
 result
 (
 cx
+)
+;
 StringToJsval
 (
 mRequest
@@ -441,7 +446,8 @@ GetOwner
 (
 )
 fullPath
-)
+&
+result
 )
 ;
 mDSFileDescriptor
@@ -702,6 +708,8 @@ Value
 result
 (
 cx
+)
+;
 StringToJsval
 (
 mRequest
@@ -715,7 +723,8 @@ r
 mountState
 (
 )
-)
+&
+result
 )
 ;
 mRequest
@@ -757,6 +766,8 @@ Value
 result
 (
 cx
+)
+;
 StringToJsval
 (
 mRequest
@@ -770,7 +781,8 @@ r
 storageStatus
 (
 )
-)
+&
+result
 )
 ;
 mRequest
@@ -812,6 +824,8 @@ Value
 result
 (
 cx
+)
+;
 StringToJsval
 (
 mRequest
@@ -825,7 +839,8 @@ r
 mountState
 (
 )
-)
+&
+result
 )
 ;
 mRequest
@@ -867,6 +882,8 @@ Value
 result
 (
 cx
+)
+;
 StringToJsval
 (
 mRequest
@@ -880,7 +897,8 @@ r
 storageStatus
 (
 )
-)
+&
+result
 )
 ;
 mRequest
@@ -922,6 +940,8 @@ Value
 result
 (
 cx
+)
+;
 StringToJsval
 (
 mRequest
@@ -935,7 +955,8 @@ r
 storageStatus
 (
 )
-)
+&
+result
 )
 ;
 mRequest
