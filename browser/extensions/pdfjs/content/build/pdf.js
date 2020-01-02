@@ -233,7 +233,7 @@ version
 .
 0
 .
-645
+712
 '
 ;
 PDFJS
@@ -241,7 +241,7 @@ PDFJS
 build
 =
 '
-66bfb9c
+6969ed4
 '
 ;
 (
@@ -15130,8 +15130,6 @@ if
 intentState
 .
 displayReadyCapability
-.
-promise
 )
 {
 intentState
@@ -28369,7 +28367,7 @@ ctx
 scale
 (
 textHScale
-1
+fontDirection
 )
 ;
 for
@@ -28576,8 +28574,6 @@ fontMatrix
 ;
 width
 =
-(
-(
 transformed
 [
 0
@@ -28586,10 +28582,6 @@ transformed
 fontSize
 +
 charSpacing
-)
-*
-fontDirection
-)
 ;
 ctx
 .
