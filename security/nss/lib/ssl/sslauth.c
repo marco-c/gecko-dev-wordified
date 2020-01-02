@@ -1490,13 +1490,9 @@ certStatusArray
 len
 )
 {
-PORT_SetError
-(
-0
-)
-;
-if
-(
+SECStatus
+test_rv
+=
 CERT_CacheOCSPResponseFromSideChannel
 (
 handle
@@ -1520,6 +1516,10 @@ ss
 >
 pkcs11PinArg
 )
+;
+if
+(
+test_rv
 !
 =
 SECSuccess
