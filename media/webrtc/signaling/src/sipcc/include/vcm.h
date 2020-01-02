@@ -1593,6 +1593,12 @@ is_video
 cc_boolean
 rtcp_mux
 ;
+cc_boolean
+audio_level
+;
+uint8_t
+audio_level_id
+;
 vcm_audioAttrs_t
 audio
 ;
