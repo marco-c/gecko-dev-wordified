@@ -9781,7 +9781,7 @@ syncPromo
 .
 enabled
 "
-false
+true
 )
 ;
 #
