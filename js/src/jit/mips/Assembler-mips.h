@@ -2892,7 +2892,7 @@ encode
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInvalid
@@ -2909,7 +2909,7 @@ decode
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInvalid
@@ -2955,7 +2955,7 @@ offset
 Imm16Mask
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 offset
@@ -2967,7 +2967,7 @@ offset
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isInRange
 (
@@ -3099,7 +3099,7 @@ encode
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInvalid
@@ -3116,7 +3116,7 @@ decode
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInvalid
@@ -3162,7 +3162,7 @@ offset
 Imm26Mask
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 offset
@@ -3174,7 +3174,7 @@ offset
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isInRange
 (
@@ -3564,7 +3564,7 @@ toReg
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tag
 =
@@ -3588,7 +3588,7 @@ toFReg
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tag
 =
@@ -3618,7 +3618,7 @@ dest
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tag
 =
@@ -3652,7 +3652,7 @@ toAddress
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tag
 =
@@ -3680,7 +3680,7 @@ disp
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tag
 =
@@ -3698,7 +3698,7 @@ base
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tag
 =
@@ -3716,7 +3716,7 @@ baseReg
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tag
 =
@@ -5387,7 +5387,7 @@ FloatRegister
 reg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 reg
 .
@@ -7968,7 +7968,7 @@ have
 to
 guess
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 usedFloatArgs
 =
@@ -8055,7 +8055,7 @@ uint32_t
 usedArgSlots
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 usedArgSlots
 >

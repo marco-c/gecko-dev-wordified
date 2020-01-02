@@ -307,7 +307,7 @@ Register
 r
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 r
@@ -348,7 +348,7 @@ Register
 r
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 r
@@ -389,7 +389,7 @@ FloatRegister
 r
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 r
 .
@@ -427,7 +427,7 @@ Register
 r
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 r
@@ -468,7 +468,7 @@ FloatRegister
 r
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 r
 .
@@ -506,7 +506,7 @@ uint32_t
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 <
@@ -533,7 +533,7 @@ FloatRegister
 r
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 r
 .
@@ -803,7 +803,7 @@ finish
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFinished
@@ -825,7 +825,7 @@ uint8_t
 buffer
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 )
@@ -1640,7 +1640,7 @@ masmrel32
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 code
 =
@@ -2374,7 +2374,7 @@ uint32_t
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dest
 !
@@ -2401,7 +2401,7 @@ alignment
 BufferOffset
 ret
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 m_buffer
 .
@@ -2454,7 +2454,7 @@ tmp
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 alignment
@@ -2673,7 +2673,7 @@ int32_t
 j
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Imm16
 :
@@ -2718,7 +2718,7 @@ int32_t
 j
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Imm16
 :
@@ -2763,7 +2763,7 @@ int32_t
 j
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Imm16
 :
@@ -2888,7 +2888,7 @@ Condition
 c
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 c
 =
@@ -3118,7 +3118,7 @@ FPConditionBit
 fcc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -3344,7 +3344,7 @@ int32_t
 j
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Imm16
 :
@@ -3567,7 +3567,7 @@ int32_t
 j
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Imm16
 :
@@ -3616,7 +3616,7 @@ uint16_t
 sa
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sa
 <
@@ -3688,7 +3688,7 @@ uint16_t
 sa
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sa
 <
@@ -3760,7 +3760,7 @@ uint16_t
 sa
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sa
 <
@@ -3832,7 +3832,7 @@ uint16_t
 sa
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sa
 <
@@ -4451,7 +4451,7 @@ int32_t
 j
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Imm16
 :
@@ -4496,7 +4496,7 @@ uint32_t
 j
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Imm16
 :
@@ -4757,7 +4757,7 @@ uint16_t
 size
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pos
 <
@@ -4844,7 +4844,7 @@ uint16_t
 size
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pos
 <
@@ -4931,7 +4931,7 @@ int32_t
 off
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Imm16
 :
@@ -4976,7 +4976,7 @@ int32_t
 off
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Imm16
 :
@@ -5021,7 +5021,7 @@ int32_t
 off
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Imm16
 :
@@ -5066,7 +5066,7 @@ int32_t
 off
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Imm16
 :
@@ -6751,7 +6751,7 @@ decode
 4
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 BOffImm16
 :
@@ -7543,7 +7543,7 @@ offset
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 int32_t
@@ -7590,7 +7590,7 @@ uint32_t
 code
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 code
 <
@@ -7828,7 +7828,7 @@ InstImm
 )
 inst1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i0
 -
@@ -7849,7 +7849,7 @@ OpcodeShift
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i1
 -
@@ -7914,7 +7914,7 @@ uint32_t
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inst0
 -
@@ -7935,7 +7935,7 @@ OpcodeShift
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inst1
 -
@@ -8118,7 +8118,7 @@ inst
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 =
@@ -8639,7 +8639,7 @@ branch
 case
 op_cop1
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 branch
 .
@@ -8758,7 +8758,7 @@ raw
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inst
 -
@@ -8847,7 +8847,7 @@ for
 short
 jumps
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 inst
 -
@@ -8971,7 +8971,7 @@ next
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i0
 -
@@ -8992,7 +8992,7 @@ OpcodeShift
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i1
 -

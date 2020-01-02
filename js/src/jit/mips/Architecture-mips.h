@@ -552,7 +552,7 @@ uint32_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -1281,6 +1281,7 @@ coprocessor
 is
 32
 bit
+.
 /
 /
 When
@@ -1479,7 +1480,7 @@ uint32_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
