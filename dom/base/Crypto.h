@@ -219,8 +219,6 @@ aVersion
 )
 ;
 virtual
-already_AddRefed
-<
 mozilla
 :
 :
@@ -228,7 +226,7 @@ dom
 :
 :
 CRMFObject
->
+*
 GenerateCRMFRequest
 (
 JSContext
