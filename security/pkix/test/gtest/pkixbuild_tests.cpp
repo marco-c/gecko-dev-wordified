@@ -973,7 +973,7 @@ SECStatus
 VerifySignedData
 (
 const
-CERTSignedData
+SignedDataWithSignature
 &
 signedData
 const

@@ -1067,7 +1067,7 @@ SECStatus
 VerifySignedData
 (
 const
-CERTSignedData
+SignedDataWithSignature
 &
 sd
 const

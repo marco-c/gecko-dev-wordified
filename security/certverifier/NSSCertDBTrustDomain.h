@@ -434,7 +434,13 @@ SECStatus
 VerifySignedData
 (
 const
-CERTSignedData
+mozilla
+:
+:
+pkix
+:
+:
+SignedDataWithSignature
 &
 signedData
 const
