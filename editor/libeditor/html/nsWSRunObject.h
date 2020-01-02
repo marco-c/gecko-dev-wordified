@@ -1253,6 +1253,18 @@ nsWSRunObject
 nsHTMLEditor
 *
 aEd
+nsINode
+*
+aNode
+int32_t
+aOffset
+)
+;
+nsWSRunObject
+(
+nsHTMLEditor
+*
+aEd
 nsIDOMNode
 *
 aNode
@@ -2468,7 +2480,7 @@ mChar
 }
 WSPoint
 (
-nsIDOMNode
+nsINode
 *
 aNode
 int32_t
