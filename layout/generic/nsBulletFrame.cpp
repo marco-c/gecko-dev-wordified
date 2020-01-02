@@ -5380,6 +5380,12 @@ lang
 =
 =
 KOREAN
+&
+&
+idx
+!
+=
+NUM_BUF_SIZE
 )
 {
 buf
