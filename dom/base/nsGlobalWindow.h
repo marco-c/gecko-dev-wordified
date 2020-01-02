@@ -4889,6 +4889,17 @@ public
 void
 Alert
 (
+mozilla
+:
+:
+ErrorResult
+&
+aError
+)
+;
+void
+Alert
+(
 const
 nsAString
 &
