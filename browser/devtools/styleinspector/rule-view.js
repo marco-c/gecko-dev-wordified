@@ -7965,12 +7965,6 @@ _elementStyle
 )
 {
 return
-promise
-.
-resolve
-(
-null
-)
 ;
 }
 this
@@ -7986,7 +7980,6 @@ the
 element
 style
 .
-return
 this
 .
 _populate
