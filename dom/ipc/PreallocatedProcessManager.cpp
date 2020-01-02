@@ -1678,7 +1678,7 @@ mPreallocatedAppProcess
 hal
 :
 :
-PROCESS_PRIORITY_FOREGROUND
+PROCESS_PRIORITY_MASTER
 )
 ;
 mIsNuwaReady
