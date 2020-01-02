@@ -1829,7 +1829,7 @@ JS
 SymbolCode
 :
 :
-Unique
+UniqueSymbol
 )
 ;
 astr
