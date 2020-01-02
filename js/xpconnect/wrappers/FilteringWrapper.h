@@ -452,7 +452,6 @@ bp
 MOZ_OVERRIDE
 ;
 static
-const
 FilteringWrapper
 singleton
 ;

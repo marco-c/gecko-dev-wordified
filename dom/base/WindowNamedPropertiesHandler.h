@@ -384,7 +384,6 @@ WindowProperties
 ;
 }
 static
-const
 WindowNamedPropertiesHandler
 *
 getInstance
@@ -392,7 +391,6 @@ getInstance
 )
 {
 static
-const
 WindowNamedPropertiesHandler
 instance
 ;

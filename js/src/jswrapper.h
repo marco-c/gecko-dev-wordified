@@ -458,7 +458,6 @@ obj
 JSObject
 *
 parent
-const
 Wrapper
 *
 handler
@@ -484,7 +483,6 @@ existing
 JSObject
 *
 obj
-const
 Wrapper
 *
 handler
@@ -551,12 +549,10 @@ priv
 MOZ_OVERRIDE
 ;
 static
-const
 Wrapper
 singleton
 ;
 static
-const
 Wrapper
 singletonWithPrototype
 ;
@@ -1060,12 +1056,10 @@ bp
 MOZ_OVERRIDE
 ;
 static
-const
 CrossCompartmentWrapper
 singleton
 ;
 static
-const
 CrossCompartmentWrapper
 singletonWithPrototype
 ;
@@ -1756,7 +1750,6 @@ protop
 MOZ_OVERRIDE
 ;
 static
-const
 DeadObjectProxy
 singleton
 ;

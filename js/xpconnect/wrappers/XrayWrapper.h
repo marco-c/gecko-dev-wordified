@@ -982,7 +982,6 @@ bp
 MOZ_OVERRIDE
 ;
 static
-const
 XrayWrapper
 singleton
 ;
@@ -1596,7 +1595,6 @@ MOZ_OVERRIDE
 }
 ;
 extern
-const
 SandboxProxyHandler
 sandboxProxyHandler
 ;
@@ -1685,7 +1683,6 @@ MOZ_OVERRIDE
 }
 ;
 extern
-const
 SandboxCallableProxyHandler
 sandboxCallableProxyHandler
 ;

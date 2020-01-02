@@ -480,7 +480,6 @@ id
 }
 ;
 extern
-const
 js
 :
 :

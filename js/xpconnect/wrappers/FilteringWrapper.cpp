@@ -1352,7 +1352,6 @@ GentlyOpaque
 template
 <
 >
-const
 XOW
 XOW
 :
@@ -1365,7 +1364,6 @@ singleton
 template
 <
 >
-const
 DXOW
 DXOW
 :
@@ -1378,7 +1376,6 @@ singleton
 template
 <
 >
-const
 NNXOW
 NNXOW
 :
@@ -1391,7 +1388,6 @@ singleton
 template
 <
 >
-const
 NNXOWC
 NNXOWC
 :
@@ -1404,7 +1400,6 @@ singleton
 template
 <
 >
-const
 GO
 GO
 :

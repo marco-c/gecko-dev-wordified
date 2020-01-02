@@ -636,13 +636,11 @@ proxy
 MOZ_OVERRIDE
 ;
 static
-const
 CPOWProxyHandler
 singleton
 ;
 }
 ;
-const
 CPOWProxyHandler
 CPOWProxyHandler
 :

@@ -513,7 +513,6 @@ skip
 these
 .
 static
-const
 ChromeObjectWrapper
 singleton
 ;

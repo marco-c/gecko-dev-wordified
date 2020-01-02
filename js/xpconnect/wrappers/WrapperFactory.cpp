@@ -317,7 +317,6 @@ X
 ray
 wrapper
 .
-const
 Wrapper
 XrayWaiver
 (
@@ -372,7 +371,6 @@ get
 off
 it
 .
-const
 WaiveXrayWrapper
 WaiveXrayWrapper
 :
@@ -2796,7 +2794,6 @@ DEBUG_CheckUnwrapSafety
 (
 HandleObject
 obj
-const
 js
 :
 :
@@ -2967,7 +2964,6 @@ target
 #
 endif
 static
-const
 Wrapper
 *
 SelectWrapper
@@ -3607,7 +3603,6 @@ flags
 &
 WAIVE_XRAY_WRAPPER_FLAG
 ;
-const
 Wrapper
 *
 wrapper
