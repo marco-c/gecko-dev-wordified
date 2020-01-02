@@ -687,6 +687,9 @@ mTextureClient
 >
 Lock
 (
+OpenMode
+:
+:
 OPEN_WRITE_ONLY
 )
 )

@@ -841,7 +841,10 @@ GetCompositor
 >
 DrawDiagnostics
 (
-DIAGNOSTIC_IMAGE
+DiagnosticFlags
+:
+:
+IMAGE
 |
 DIAGNOSTIC_BIGIMAGE
 rect
@@ -879,7 +882,10 @@ GetCompositor
 >
 DrawDiagnostics
 (
-DIAGNOSTIC_IMAGE
+DiagnosticFlags
+:
+:
+IMAGE
 gfxPictureRect
 aClipRect
 aTransform
@@ -1065,7 +1071,10 @@ GetCompositor
 >
 DrawDiagnostics
 (
-DIAGNOSTIC_IMAGE
+DiagnosticFlags
+:
+:
+IMAGE
 rect
 aClipRect
 aTransform

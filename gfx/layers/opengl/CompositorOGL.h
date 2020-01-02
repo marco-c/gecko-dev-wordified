@@ -306,6 +306,9 @@ for
 MaskType
 :
 :
+MaskType
+:
+:
 NumMaskTypes
 etc
 #
@@ -2069,6 +2072,9 @@ aEffect
 MaskType
 aMask
 =
+MaskType
+:
+:
 MaskNone
 )
 const
