@@ -167,17 +167,6 @@ SurfaceStream
 #
 include
 "
-gfxMatrix
-.
-h
-"
-/
-/
-for
-gfxMatrix
-#
-include
-"
 gfxPattern
 .
 h
