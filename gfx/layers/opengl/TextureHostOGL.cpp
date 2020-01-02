@@ -1267,6 +1267,10 @@ mTexture
 )
 ;
 }
+mTexture
+=
+0
+;
 }
 }
 bool
