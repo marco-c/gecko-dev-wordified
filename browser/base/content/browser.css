@@ -6446,12 +6446,6 @@ navigator
 toolbox
 >
 toolbar
-:
-not
-(
-#
-TabsToolbar
-)
 #
 content
 -
@@ -6500,12 +6494,6 @@ navigator
 toolbox
 >
 toolbar
-:
-not
-(
-#
-TabsToolbar
-)
 #
 tab
 -

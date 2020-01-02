@@ -122,12 +122,6 @@ navigator
 toolbox
 >
 toolbar
-:
-not
-(
-#
-TabsToolbar
-)
 {
 margin
 -
