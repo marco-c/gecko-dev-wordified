@@ -1326,6 +1326,10 @@ adb
 host
 =
 None
+                 
+device_serial
+=
+None
 *
 *
 kwargs
@@ -1358,6 +1362,9 @@ mozdevice
 .
 DeviceManagerADB
 (
+deviceSerial
+=
+device_serial
 )
         
 elif
@@ -1825,6 +1832,10 @@ None
 host
 =
 None
+                
+device_serial
+=
+None
 )
 :
     
@@ -1980,6 +1991,20 @@ instance
 SUT
 )
     
+:
+param
+device_serial
+:
+Serial
+identifier
+of
+Firefox
+OS
+device
+(
+ADB
+)
+    
 "
 "
 "
@@ -2082,6 +2107,10 @@ dm_type
 host
 =
 host
+                                   
+device_serial
+=
+device_serial
 )
     
 return
@@ -2169,6 +2198,36 @@ only
 '
 )
     
+parser
+.
+add_option
+(
+'
+-
+-
+device
+'
+                      
+help
+=
+'
+serial
+identifier
+of
+device
+to
+target
+(
+Firefox
+OS
+'
+                           
+'
+only
+)
+'
+)
+    
 (
 options
 args
@@ -2231,6 +2290,12 @@ dm_type
 host
 =
 host
+                          
+device_serial
+=
+options
+.
+device
 )
     
 for
