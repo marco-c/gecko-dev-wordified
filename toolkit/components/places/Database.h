@@ -153,7 +153,7 @@ below
 #
 define
 DATABASE_SCHEMA_VERSION
-23
+24
 /
 /
 Fired
@@ -1572,6 +1572,11 @@ MigrateV22Up
 ;
 nsresult
 MigrateV23Up
+(
+)
+;
+nsresult
+MigrateV24Up
 (
 )
 ;
