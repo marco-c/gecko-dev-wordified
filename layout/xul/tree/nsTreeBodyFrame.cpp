@@ -20907,7 +20907,7 @@ DrawSingleUnscaledImage
 &
 aRenderingContext
 image
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST
@@ -23197,7 +23197,7 @@ DrawSingleUnscaledImage
 &
 aRenderingContext
 image
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST

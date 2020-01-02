@@ -1896,6 +1896,9 @@ mPattern
 (
 cairo_filter_t
 )
+(
+int
+)
 filter
 )
 ;
@@ -1911,9 +1914,6 @@ filter
 ;
 }
 }
-gfxPattern
-:
-:
 GraphicsFilter
 gfxPattern
 :

@@ -8893,9 +8893,6 @@ GLContext
 :
 ApplyFilterToBoundTexture
 (
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 )
@@ -8915,9 +8912,6 @@ ApplyFilterToBoundTexture
 (
 GLuint
 aTarget
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 )
@@ -8927,7 +8921,7 @@ if
 aFilter
 =
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST

@@ -1799,7 +1799,7 @@ pat
 >
 SetFilter
 (
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_FAST

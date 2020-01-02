@@ -11889,9 +11889,6 @@ GL_TEXTURE_2D
 void
 ApplyFilterToBoundTexture
 (
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 )
@@ -11917,9 +11914,6 @@ ApplyFilterToBoundTexture
 (
 GLuint
 aTarget
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 )

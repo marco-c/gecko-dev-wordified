@@ -138,7 +138,7 @@ h
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
@@ -1419,9 +1419,6 @@ mWrapMode
 void
 SetFilter
 (
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 )
@@ -1553,7 +1550,7 @@ aImageFormat
 )
 mFilter
 (
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_GOOD
@@ -1617,9 +1614,6 @@ gfx
 SurfaceFormat
 mTextureFormat
 ;
-gfxPattern
-:
-:
 GraphicsFilter
 mFilter
 ;

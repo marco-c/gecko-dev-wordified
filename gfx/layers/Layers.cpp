@@ -8939,7 +8939,7 @@ if
 mFilter
 !
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_GOOD
@@ -8994,7 +8994,7 @@ if
 mFilter
 !
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_GOOD

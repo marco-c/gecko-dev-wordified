@@ -106,7 +106,7 @@ h
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
@@ -426,9 +426,6 @@ aFill
 const
 gfxImageFormat
 aFormat
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 uint32_t

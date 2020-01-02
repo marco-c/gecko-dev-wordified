@@ -258,15 +258,14 @@ gfxMatrix
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
 /
 /
 for
-gfxPattern
-etc
+GraphicsFilter
 #
 include
 "
@@ -7271,9 +7270,6 @@ texture
 return
 ;
 }
-gfxPattern
-:
-:
 GraphicsFilter
 filter
 =

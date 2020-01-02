@@ -1193,7 +1193,7 @@ if
 mFilter
 =
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST
@@ -1310,7 +1310,7 @@ if
 mFilter
 =
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST

@@ -874,9 +874,6 @@ RenderContextsExternal
 gfxContext
 *
 aContext
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 uint32_t

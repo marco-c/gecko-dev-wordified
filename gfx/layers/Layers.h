@@ -211,15 +211,14 @@ gfxMatrix
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
 /
 /
 for
-gfxPattern
-etc
+GraphicsFilter
 #
 include
 "
@@ -11917,9 +11916,6 @@ necessary
 void
 SetFilter
 (
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 )
@@ -11961,9 +11957,6 @@ Mutated
 ;
 }
 }
-gfxPattern
-:
-:
 GraphicsFilter
 GetFilter
 (
@@ -12117,7 +12110,7 @@ nullptr
 )
 mFilter
 (
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_GOOD
@@ -12187,9 +12180,6 @@ void
 *
 mPostTransCallbackData
 ;
-gfxPattern
-:
-:
 GraphicsFilter
 mFilter
 ;

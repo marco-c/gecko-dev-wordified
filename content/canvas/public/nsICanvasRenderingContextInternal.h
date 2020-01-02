@@ -134,7 +134,7 @@ h
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
@@ -375,9 +375,6 @@ Render
 gfxContext
 *
 ctx
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 uint32_t

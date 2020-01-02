@@ -111,15 +111,14 @@ etc
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
 /
 /
 for
-gfxPattern
-etc
+GraphicsFilter
 #
 include
 "
@@ -279,9 +278,6 @@ nsACString
 &
 s
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 f

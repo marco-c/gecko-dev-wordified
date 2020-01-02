@@ -139,15 +139,14 @@ gfxImageSurface
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
 /
 /
 for
-gfxPattern
-etc
+GraphicsFilter
 #
 include
 "
@@ -515,9 +514,6 @@ surf
 }
 #
 endif
-gfxPattern
-:
-:
 GraphicsFilter
 filter
 =
@@ -582,7 +578,7 @@ HasNonTranslationOrFlip
 {
 filter
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST

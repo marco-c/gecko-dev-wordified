@@ -141,7 +141,7 @@ h
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
@@ -153,6 +153,9 @@ gfxImageSurface
 ;
 class
 gfxContext
+;
+class
+gfxPattern
 ;
 /
 *
@@ -281,9 +284,6 @@ aFillRect
 bool
 aRepeat
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 aFilter
@@ -392,9 +392,6 @@ aFillRect
 bool
 aRepeat
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 aFilter
@@ -532,9 +529,6 @@ gfxRect
 &
 aFillRect
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 aFilter
@@ -607,9 +601,6 @@ aFillRect
 bool
 aRepeat
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 aFilter
@@ -632,13 +623,10 @@ gfxSurfaceDrawable
 MakeSurfaceDrawable
 (
 const
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_FAST
@@ -713,9 +701,6 @@ aFillRect
 bool
 aRepeat
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 aFilter

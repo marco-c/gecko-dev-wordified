@@ -9440,9 +9440,6 @@ SetContainer
 container
 )
 ;
-gfxPattern
-:
-:
 GraphicsFilter
 filter
 =
@@ -9479,7 +9476,7 @@ filter
 scaling
 filter
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST

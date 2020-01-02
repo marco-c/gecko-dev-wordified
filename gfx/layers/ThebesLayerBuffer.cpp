@@ -918,13 +918,10 @@ source
 #
 ifdef
 MOZ_GFX_OPTIMIZE_MOBILE
-gfxPattern
-:
-:
 GraphicsFilter
 filter
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST

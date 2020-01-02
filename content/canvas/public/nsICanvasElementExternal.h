@@ -109,7 +109,7 @@ h
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
@@ -303,9 +303,6 @@ RenderContextsExternal
 gfxContext
 *
 ctx
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 uint32_t

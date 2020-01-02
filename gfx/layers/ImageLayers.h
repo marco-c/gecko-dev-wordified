@@ -111,15 +111,14 @@ etc
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
 /
 /
 for
-gfxPattern
-etc
+GraphicsFilter
 #
 include
 "
@@ -271,9 +270,6 @@ necessary
 void
 SetFilter
 (
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 )
@@ -390,9 +386,6 @@ return
 mContainer
 ;
 }
-gfxPattern
-:
-:
 GraphicsFilter
 GetFilter
 (
@@ -539,9 +532,6 @@ ImageContainer
 >
 mContainer
 ;
-gfxPattern
-:
-:
 GraphicsFilter
 mFilter
 ;

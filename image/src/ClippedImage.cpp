@@ -451,9 +451,6 @@ gfxRect
 &
 aFillRect
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 aFilter
@@ -1468,7 +1465,7 @@ imageRect
 imageRect
 imageRect
 gfxImageFormatARGB32
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_FAST
@@ -1775,9 +1772,6 @@ Draw
 gfxContext
 *
 aContext
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 const
@@ -2101,9 +2095,6 @@ DrawSingleTile
 gfxContext
 *
 aContext
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 const

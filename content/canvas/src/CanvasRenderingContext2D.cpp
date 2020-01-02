@@ -5409,9 +5409,6 @@ Render
 gfxContext
 *
 ctx
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 uint32_t

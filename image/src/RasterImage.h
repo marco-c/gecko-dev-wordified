@@ -3022,9 +3022,6 @@ aFrame
 gfxContext
 *
 aContext
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 const
@@ -4035,9 +4032,6 @@ inline
 bool
 CanScale
 (
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 gfxSize

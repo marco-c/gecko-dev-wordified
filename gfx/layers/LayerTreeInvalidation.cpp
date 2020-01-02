@@ -169,15 +169,14 @@ gfxRGBA
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
 /
 /
 for
-gfxPattern
-etc
+GraphicsFilter
 #
 include
 "
@@ -2186,9 +2185,6 @@ ImageContainer
 >
 mContainer
 ;
-gfxPattern
-:
-:
 GraphicsFilter
 mFilter
 ;

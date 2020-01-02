@@ -273,9 +273,6 @@ gfxASurface
 *
 currentTarget
 const
-gfxPattern
-:
-:
 GraphicsFilter
 aDefaultFilter
 )
@@ -602,9 +599,6 @@ yx
 .
 0
 ;
-gfxPattern
-:
-:
 GraphicsFilter
 filter
 =
@@ -612,7 +606,7 @@ isDownscale
 ?
 aDefaultFilter
 :
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_FAST
@@ -717,9 +711,6 @@ aFillRect
 bool
 aRepeat
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 aFilter
@@ -768,9 +759,6 @@ aFilter
 }
 else
 {
-gfxPattern
-:
-:
 GraphicsFilter
 filter
 =
@@ -830,7 +818,7 @@ backends
 .
 filter
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_FAST
@@ -970,9 +958,6 @@ gfxCallbackDrawable
 MakeSurfaceDrawable
 (
 const
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 )
@@ -1083,9 +1068,6 @@ aFillRect
 bool
 aRepeat
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 aFilter
@@ -1225,9 +1207,6 @@ gfxRect
 &
 aFillRect
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 aFilter
@@ -1325,9 +1304,6 @@ aFillRect
 bool
 aRepeat
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 aFilter
