@@ -2087,16 +2087,6 @@ HandleEventSubType
 nsListenerStruct
 *
 aListenerStruct
-const
-mozilla
-:
-:
-dom
-:
-:
-EventListenerHolder
-&
-aListener
 nsIDOMEvent
 *
 aDOMEvent
