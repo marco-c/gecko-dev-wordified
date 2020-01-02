@@ -247,6 +247,9 @@ WakeLock
 class
 ArrayBufferViewOrBlobOrStringOrFormData
 ;
+struct
+MobileIdOptions
+;
 }
 }
 #
@@ -1172,6 +1175,10 @@ Promise
 >
 GetMobileIdAssertion
 (
+const
+MobileIdOptions
+&
+options
 ErrorResult
 &
 aRv
@@ -1222,7 +1229,7 @@ aRv
 endif
 /
 /
-MOZ_B2G_RILi
+MOZ_B2G_RIL
 #
 ifdef
 MOZ_GAMEPAD
