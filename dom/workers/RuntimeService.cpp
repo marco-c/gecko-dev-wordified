@@ -10592,7 +10592,7 @@ cx
 =
 aGlobal
 .
-GetContext
+Context
 (
 )
 ;

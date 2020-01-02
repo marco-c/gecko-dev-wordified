@@ -509,7 +509,7 @@ Create
 (
 aGlobal
 .
-GetContext
+Context
 (
 )
 owner

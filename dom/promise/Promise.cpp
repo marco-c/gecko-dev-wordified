@@ -2909,7 +2909,7 @@ cx
 =
 aGlobal
 .
-GetContext
+Context
 (
 )
 ;
@@ -3782,7 +3782,7 @@ cx
 =
 aGlobal
 .
-GetContext
+Context
 (
 )
 ;
@@ -3793,7 +3793,7 @@ only
 time
 aGlobal
 .
-GetContext
+Context
 (
 )
 and

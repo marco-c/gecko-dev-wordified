@@ -17334,7 +17334,7 @@ cx
 =
 aGlobal
 .
-GetContext
+Context
 (
 )
 ;

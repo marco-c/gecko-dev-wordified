@@ -308,7 +308,7 @@ AssertSameCompartment
 (
 aGlobal
 .
-GetContext
+Context
 (
 )
 aGlobal
@@ -329,7 +329,7 @@ Create
 (
 aGlobal
 .
-GetContext
+Context
 (
 )
 length

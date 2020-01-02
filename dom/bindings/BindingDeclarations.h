@@ -487,7 +487,7 @@ compartment
 .
 JSContext
 *
-GetContext
+Context
 (
 )
 const

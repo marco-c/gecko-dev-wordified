@@ -543,7 +543,7 @@ Create
 (
 aGlobal
 .
-GetContext
+Context
 (
 )
 owner
@@ -574,7 +574,7 @@ Create
 (
 aGlobal
 .
-GetContext
+Context
 (
 )
 owner
