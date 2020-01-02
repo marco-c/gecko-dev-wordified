@@ -2934,7 +2934,10 @@ NestedOf
 input
 SEQUENCE
 INTEGER
-MustNotBeEmpty
+EmptyAllowed
+:
+:
+No
 mozilla
 :
 :
@@ -3054,7 +3057,10 @@ NestedOf
 input
 SEQUENCE
 INTEGER
-MustNotBeEmpty
+EmptyAllowed
+:
+:
+No
 mozilla
 :
 :

@@ -1626,6 +1626,9 @@ BuildCertChain
 trustDomain
 cert
 time
+EndEntityOrCA
+:
+:
 MustBeEndEntity
 ku1
 eku
@@ -1660,6 +1663,9 @@ BuildCertChain
 trustDomain
 cert
 time
+EndEntityOrCA
+:
+:
 MustBeEndEntity
 ku2
 eku
@@ -1694,6 +1700,9 @@ BuildCertChain
 trustDomain
 cert
 time
+EndEntityOrCA
+:
+:
 MustBeEndEntity
 ku3
 eku
@@ -2081,6 +2090,9 @@ BuildCertChain
 trustDomain
 cert
 time
+EndEntityOrCA
+:
+:
 MustBeEndEntity
 KU_DIGITAL_SIGNATURE
 SEC_OID_EXT_KEY_USAGE_CLIENT_AUTH
@@ -2354,6 +2366,9 @@ BuildCertChain
 trustDomain
 cert
 time
+EndEntityOrCA
+:
+:
 MustBeCA
 KU_KEY_CERT_SIGN
 SEC_OID_EXT_KEY_USAGE_SERVER_AUTH
@@ -2385,6 +2400,9 @@ BuildCertChain
 trustDomain
 cert
 time
+EndEntityOrCA
+:
+:
 MustBeEndEntity
 KU_DIGITAL_SIGNATURE
 SEC_OID_EXT_KEY_USAGE_EMAIL_PROTECT
@@ -2499,6 +2517,9 @@ BuildCertChain
 trustDomain
 cert
 time
+EndEntityOrCA
+:
+:
 MustBeEndEntity
 KU_DIGITAL_SIGNATURE
 SEC_OID_EXT_KEY_USAGE_CODE_SIGN
@@ -2604,6 +2625,9 @@ certificateUsageVerifyCA
 {
 endEntityOrCA
 =
+EndEntityOrCA
+:
+:
 MustBeCA
 ;
 keyUsage
@@ -2619,6 +2643,9 @@ else
 {
 endEntityOrCA
 =
+EndEntityOrCA
+:
+:
 MustBeEndEntity
 ;
 keyUsage

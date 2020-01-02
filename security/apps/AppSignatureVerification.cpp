@@ -3868,6 +3868,9 @@ signerCert
 PR_Now
 (
 )
+EndEntityOrCA
+:
+:
 MustBeEndEntity
 KU_DIGITAL_SIGNATURE
 SEC_OID_EXT_KEY_USAGE_CODE_SIGN
