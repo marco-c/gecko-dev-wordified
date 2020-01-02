@@ -476,6 +476,18 @@ aPointList
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
+MOZ_ASSERT
+(
+mPointList
+"
+Expecting
+non
+-
+null
+pointList
+"
+)
+;
 mEmptyOrOldValue
 =
 mPointList
@@ -537,6 +549,7 @@ private
 :
 DOMSVGPointList
 *
+const
 mPointList
 ;
 nsAttrValue

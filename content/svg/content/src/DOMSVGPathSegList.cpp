@@ -396,6 +396,18 @@ aPathSegList
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
+MOZ_ASSERT
+(
+mPathSegList
+"
+Expecting
+non
+-
+null
+pathSegList
+"
+)
+;
 mEmptyOrOldValue
 =
 mPathSegList
@@ -457,6 +469,7 @@ private
 :
 DOMSVGPathSegList
 *
+const
 mPathSegList
 ;
 nsAttrValue

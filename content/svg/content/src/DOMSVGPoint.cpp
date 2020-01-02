@@ -276,6 +276,18 @@ MOZ_GUARD_OBJECT_NOTIFIER_INIT
 MOZ_ASSERT
 (
 mPoint
+"
+Expecting
+non
+-
+null
+point
+"
+)
+;
+MOZ_ASSERT
+(
+mPoint
 -
 >
 HasOwner
@@ -357,6 +369,7 @@ private
 :
 DOMSVGPoint
 *
+const
 mPoint
 ;
 nsAttrValue

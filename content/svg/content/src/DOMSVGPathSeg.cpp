@@ -139,10 +139,9 @@ DOMSVGPathSegList
 .
 h
 .
-using
 namespace
 mozilla
-;
+{
 /
 /
 We
@@ -287,9 +286,6 @@ NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
 DOMSVGPathSeg
 Release
 )
-namespace
-mozilla
-{
 /
 /
 -
@@ -409,6 +405,18 @@ MOZ_GUARD_OBJECT_NOTIFIER_INIT
 MOZ_ASSERT
 (
 mPathSeg
+"
+Expecting
+non
+-
+null
+pathSeg
+"
+)
+;
+MOZ_ASSERT
+(
+mPathSeg
 -
 >
 HasOwner
@@ -490,6 +498,7 @@ private
 :
 DOMSVGPathSeg
 *
+const
 mPathSeg
 ;
 nsAttrValue
@@ -498,7 +507,6 @@ mEmptyOrOldValue
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
-}
 DOMSVGPathSeg
 :
 :
@@ -3278,3 +3286,8 @@ nullptr
 ;
 }
 }
+}
+/
+/
+namespace
+mozilla
