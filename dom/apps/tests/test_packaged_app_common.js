@@ -71,9 +71,6 @@ strict
 "
 ;
 var
-launchableValue
-;
-var
 steps
 ;
 var
@@ -351,13 +348,6 @@ timeoutID
 )
 ;
 }
-SpecialPowers
-.
-setAllAppsLaunchable
-(
-launchableValue
-)
-;
 SpecialPowers
 .
 removePermission
@@ -1532,9 +1522,6 @@ aValue
 gInstallOrigin
 :
 gInstallOrigin
-launchableValue
-:
-launchableValue
 }
 ;
 }

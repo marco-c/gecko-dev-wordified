@@ -205,11 +205,6 @@ runTest
 (
 )
 ;
-var
-launchableValue
-=
-undefined
-;
 function
 go
 (
@@ -430,8 +425,6 @@ runTest
 Set
 up
 .
-launchableValue
-=
 SpecialPowers
 .
 setAllAppsLaunchable
@@ -2110,15 +2103,6 @@ dom
 .
 mozBrowserFramesEnabled
 "
-)
-;
-/
-/
-SpecialPowers
-.
-setAllAppsLaunchable
-(
-launchableValue
 )
 ;
 SimpleTest

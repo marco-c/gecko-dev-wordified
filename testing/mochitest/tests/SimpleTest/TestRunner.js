@@ -3270,6 +3270,12 @@ cleanUpCrashDumpFiles
 ;
 SpecialPowers
 .
+flushAllAppsLaunchable
+(
+)
+;
+SpecialPowers
+.
 flushPermissions
 (
 function

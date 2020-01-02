@@ -244,11 +244,6 @@ strict
 "
 ;
 var
-launchableValue
-=
-undefined
-;
-var
 index
 =
 -
@@ -360,13 +355,6 @@ finish
 (
 )
 {
-SpecialPowers
-.
-setAllAppsLaunchable
-(
-launchableValue
-)
-;
 SpecialPowers
 .
 removePermission
@@ -512,8 +500,6 @@ SETUP
 /
 Set
 up
-launchableValue
-=
 SpecialPowers
 .
 setAllAppsLaunchable
