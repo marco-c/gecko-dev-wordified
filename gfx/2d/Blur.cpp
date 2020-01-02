@@ -2781,7 +2781,9 @@ aRect
 int32_t
 aStride
 float
-aSigma
+aSigmaX
+float
+aSigmaY
 )
 :
 mRect
@@ -2820,8 +2822,8 @@ CalculateBlurRadius
 (
 Point
 (
-aSigma
-aSigma
+aSigmaX
+aSigmaY
 )
 )
 )
