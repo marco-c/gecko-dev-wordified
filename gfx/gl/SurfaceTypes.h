@@ -350,7 +350,6 @@ uint8_t
 )
 SingleBuffer
 TripleBuffer_Copy
-TripleBuffer_Async
 TripleBuffer
 Max
 MOZ_END_ENUM_CLASS
