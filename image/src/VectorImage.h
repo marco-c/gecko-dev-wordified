@@ -461,6 +461,11 @@ CancelAllListeners
 (
 )
 ;
+void
+SendInvalidationNotifications
+(
+)
+;
 nsRefPtr
 <
 SVGDocumentWrapper
