@@ -104,6 +104,10 @@ nsIUDPSocketFilterHandler
 {
 public
 :
+NS_DECL_ISUPPORTS
+NS_DECL_NSIUDPSOCKETFILTERHANDLER
+private
+:
 virtual
 ~
 nsStunUDPSocketFilterHandler
@@ -111,8 +115,6 @@ nsStunUDPSocketFilterHandler
 )
 {
 }
-NS_DECL_ISUPPORTS
-NS_DECL_NSIUDPSOCKETFILTERHANDLER
 }
 ;
 #

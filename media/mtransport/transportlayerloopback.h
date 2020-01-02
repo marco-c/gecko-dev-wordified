@@ -566,13 +566,6 @@ layer
 )
 {
 }
-virtual
-~
-Deliverer
-(
-)
-{
-}
 void
 Detach
 (
@@ -587,6 +580,13 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITIMERCALLBACK
 private
 :
+virtual
+~
+Deliverer
+(
+)
+{
+}
 DISALLOW_COPY_ASSIGN
 (
 Deliverer
