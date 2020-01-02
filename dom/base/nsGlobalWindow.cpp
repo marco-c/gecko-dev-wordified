@@ -61917,6 +61917,13 @@ StorageEvent
 aEvent
 )
 {
+MOZ_ASSERT
+(
+IsInnerWindow
+(
+)
+)
+;
 StorageEventInit
 dict
 ;
