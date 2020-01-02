@@ -2785,7 +2785,7 @@ NULL
 ;
 if
 (
-oid
+name
 =
 =
 NULL
