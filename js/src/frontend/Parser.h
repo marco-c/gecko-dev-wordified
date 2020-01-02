@@ -2642,6 +2642,11 @@ sawDeprecatedDestructuringForIn
 :
 1
 ;
+bool
+sawDeprecatedLegacyGenerator
+:
+1
+;
 typedef
 typename
 ParseHandler

@@ -19363,7 +19363,7 @@ MOZ_ASSERT
 sample
 <
 =
-1
+2
 )
 ;
 Telemetry
