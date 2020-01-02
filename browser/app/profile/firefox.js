@@ -13847,6 +13847,9 @@ toolbarSpec
 '
 [
 "
+splitconsole
+"
+"
 paintflashing
 toggle
 "
