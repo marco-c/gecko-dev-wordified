@@ -564,11 +564,6 @@ VK_RETURN
 view
 )
 ;
-yield
-waitForUpdate
-(
-)
-;
 is
 (
 getStyle
@@ -861,11 +856,6 @@ VK_RETURN
 view
 )
 ;
-yield
-waitForUpdate
-(
-)
-;
 is
 (
 getStyle
@@ -1087,11 +1077,6 @@ VK_RETURN
 {
 }
 view
-)
-;
-yield
-waitForUpdate
-(
 )
 ;
 is
