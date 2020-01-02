@@ -5814,15 +5814,6 @@ FMT
 #
 endif
 }
-#
-undef
-TIME_START
-#
-undef
-TIME_END
-#
-undef
-TIME_TOTAL
 void
 js
 :
