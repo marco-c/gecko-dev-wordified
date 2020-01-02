@@ -214,6 +214,16 @@ fullscreen
 "
 :
 PERM_UNKNOWN
+"
+camera
+"
+:
+PERM_UNKNOWN
+"
+microphone
+"
+:
+PERM_UNKNOWN
 }
 ;
 const
@@ -243,7 +253,7 @@ interface
 const
 TEST_PERMS_COUNT
 =
-6
+8
 ;
 function
 test
