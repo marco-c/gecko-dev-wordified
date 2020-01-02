@@ -439,6 +439,9 @@ alive
 .
 *
 /
+JS
+:
+:
 Rooted
 <
 T
@@ -454,6 +457,9 @@ get
 )
 )
 ;
+JS
+:
+:
 RootedValue
 value
 (
@@ -508,6 +514,9 @@ NurseryObject
 (
 )
 {
+JS
+:
+:
 RootedObject
 obj
 (
