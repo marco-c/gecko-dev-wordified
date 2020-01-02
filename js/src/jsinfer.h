@@ -9532,6 +9532,11 @@ obj
 )
 ;
 void
+clearTables
+(
+)
+;
+void
 sweep
 (
 FreeOp
