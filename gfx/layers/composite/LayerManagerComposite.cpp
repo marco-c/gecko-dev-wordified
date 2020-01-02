@@ -1494,14 +1494,14 @@ EndTransaction
 #
 endif
 }
-already_AddRefed
+TemporaryRef
 <
-gfxASurface
+DrawTarget
 >
 LayerManagerComposite
 :
 :
-CreateOptimalMaskSurface
+CreateOptimalMaskDrawTarget
 (
 const
 IntSize
