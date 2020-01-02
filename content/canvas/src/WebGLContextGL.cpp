@@ -21291,11 +21291,8 @@ lost
 ;
 ForceLoseContext
 (
-)
-;
-mLastLossWasSimulated
-=
 true
+)
 ;
 }
 void
