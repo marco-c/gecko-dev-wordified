@@ -2288,6 +2288,7 @@ _copyPrebuiltFiles
 (
 )
 ;
+yield
 this
 .
 _createConfigFiles
@@ -3237,6 +3238,7 @@ InstallDir
 webapp
 .
 json
+yield
 writeToFile
 (
 OS
@@ -3592,6 +3594,7 @@ zip
 "
 ;
 }
+yield
 writeToFile
 (
 OS
@@ -4683,6 +4686,7 @@ _copyPrebuiltFiles
 (
 )
 ;
+yield
 this
 .
 _createConfigFiles
@@ -5217,6 +5221,7 @@ ProfileDir
 webapp
 .
 json
+yield
 writeToFile
 (
 OS
@@ -5771,6 +5776,7 @@ plist
 >
 '
 ;
+yield
 writeToFile
 (
 OS
@@ -6207,6 +6213,7 @@ _copyPrebuiltFiles
 (
 )
 ;
+yield
 this
 .
 _createConfigFiles
@@ -6940,6 +6947,7 @@ InstallDir
 webapp
 .
 json
+yield
 writeToFile
 (
 OS
@@ -7725,6 +7733,10 @@ aData
 ;
 let
 file
+;
+try
+{
+file
 =
 yield
 OS
@@ -7736,6 +7748,9 @@ open
 aPath
 {
 truncate
+:
+true
+write
 :
 true
 }
@@ -7754,6 +7769,9 @@ write
 data
 )
 ;
+}
+finally
+{
 yield
 file
 .
@@ -7761,6 +7779,7 @@ close
 (
 )
 ;
+}
 }
 )
 ;
