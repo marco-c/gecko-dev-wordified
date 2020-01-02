@@ -374,7 +374,7 @@ eKeyboardEventClass
 /
 /
 WidgetKeyboardEvent
-NS_COMPOSITION_EVENT
+eCompositionEventClass
 /
 /
 WidgetCompositionEvent
