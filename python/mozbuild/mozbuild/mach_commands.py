@@ -5974,8 +5974,8 @@ store_true
 help
 =
 '
-Specifiy
-thr
+Specify
+the
 profile
 to
 use
