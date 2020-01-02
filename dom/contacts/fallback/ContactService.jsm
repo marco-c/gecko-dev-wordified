@@ -119,6 +119,9 @@ this
 EXPORTED_SYMBOLS
 =
 [
+"
+ContactService
+"
 ]
 ;
 Cu
