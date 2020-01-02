@@ -188,7 +188,9 @@ gecko
 .
 mozglue
 .
-GeneratableAndroidBridgeTarget
+generatorannotations
+.
+WrapElementForJNI
 ;
 import
 org
@@ -3061,7 +3063,7 @@ getSurfaceTexture
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 allowMultithread
 =

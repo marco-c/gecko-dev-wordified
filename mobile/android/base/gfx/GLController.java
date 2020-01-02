@@ -134,7 +134,9 @@ gecko
 .
 mozglue
 .
-GeneratableAndroidBridgeTarget
+generatorannotations
+.
+WrapElementForJNI
 ;
 import
 org
@@ -1512,7 +1514,7 @@ found
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 allowMultithread
 =

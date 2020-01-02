@@ -158,6 +158,32 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+generatorannotations
+.
+OptionalGeneratedParameter
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+generatorannotations
+.
+WrapElementForJNI
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 prompts
 .
 PromptService
@@ -172,28 +198,6 @@ gecko
 mozglue
 .
 GeckoLoader
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-mozglue
-.
-GeneratableAndroidBridgeTarget
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-mozglue
-.
-OptionalGeneratedParameter
 ;
 import
 org
@@ -2529,7 +2533,7 @@ Gecko
 calls
 *
 /
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 generateStatic
 =
@@ -2561,7 +2565,7 @@ type
 ;
 }
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 generateStatic
 =
@@ -2602,7 +2606,7 @@ actionHint
 ;
 }
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 generateStatic
 =
@@ -2878,7 +2882,7 @@ time
 to
 wake
 up
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -3061,7 +3065,7 @@ return
 lastKnownLocation
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -3410,7 +3414,7 @@ null
 ;
 }
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -3426,7 +3430,7 @@ mLocationHighAccuracy
 enable
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -3779,7 +3783,7 @@ aSensortype
 ;
 }
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -4007,7 +4011,7 @@ aSensortype
 ;
 }
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -4088,7 +4092,7 @@ selection
 indexes
 .
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -4191,7 +4195,7 @@ exit
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 static
 void
 scheduleRestart
@@ -4517,7 +4521,7 @@ from
 AndroidBridge
 .
 h
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 static
 void
 createShortcut
@@ -5885,7 +5889,7 @@ return
 bitmap
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -5943,7 +5947,7 @@ intent
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -6318,7 +6322,7 @@ aAction
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -6347,7 +6351,7 @@ aMimeType
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -7310,7 +7314,7 @@ otherwise
 .
 *
 /
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 boolean
@@ -8623,7 +8627,7 @@ set
 ;
 }
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -8855,7 +8859,7 @@ contentIntent
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -8891,7 +8895,7 @@ aAlertText
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -9032,7 +9036,7 @@ aAlertName
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -9076,9 +9080,7 @@ return
 sDensityDpi
 ;
 }
-GeneratableAndroidBridgeTarget
-(
-)
+WrapElementForJNI
 public
 static
 float
@@ -9303,7 +9305,7 @@ or
 .
 *
 /
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -9437,7 +9439,7 @@ sScreenDepth
 aScreenDepth
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -9466,7 +9468,7 @@ fullscreen
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -9515,7 +9517,7 @@ return
 "
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -9561,7 +9563,7 @@ return
 "
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -9668,7 +9670,7 @@ VIBRATOR_SERVICE
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -9711,7 +9713,7 @@ milliseconds
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -9840,7 +9842,7 @@ repeat
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -9865,7 +9867,7 @@ cancel
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -9897,7 +9899,7 @@ showInputMethodPicker
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -9932,7 +9934,7 @@ TODO
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -10005,7 +10007,7 @@ defaultPrevented
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 boolean
@@ -10061,7 +10063,7 @@ return
 true
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 boolean
@@ -10104,7 +10106,7 @@ return
 true
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -10431,7 +10433,7 @@ getDisplayMetrics
 *
 /
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -10672,7 +10674,7 @@ return
 result
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -11724,7 +11726,7 @@ e
 {
 }
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -11828,7 +11830,7 @@ aMimeType
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -12193,7 +12195,7 @@ pm
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 boolean
@@ -12246,7 +12248,7 @@ true
 ;
 }
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -12305,7 +12307,7 @@ isFullScreen
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -13840,7 +13842,7 @@ static
 ContextGetter
 sContextGetter
 ;
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 allowMultithread
 =
@@ -14128,7 +14130,7 @@ sCameraBuffer
 =
 null
 ;
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -14890,7 +14892,7 @@ return
 result
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 static
 synchronized
 void
@@ -15212,7 +15214,7 @@ methods
 .
 *
 /
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -15227,7 +15229,7 @@ enableNotifications
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -15253,7 +15255,7 @@ message
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -15268,7 +15270,7 @@ disableNotifications
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -15293,7 +15295,7 @@ getCurrentInformation
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -15321,7 +15323,7 @@ uri
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -15370,7 +15372,7 @@ uri
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -15423,7 +15425,7 @@ title
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 static
 void
 hideProgressDialog
@@ -15444,7 +15446,7 @@ methods
 .
 *
 /
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -15494,7 +15496,7 @@ aRequestId
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -15541,7 +15543,7 @@ aRequestId
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -15588,7 +15590,7 @@ aRequestId
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -15652,7 +15654,7 @@ aRequestId
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -15699,7 +15701,7 @@ aRequestId
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -15756,7 +15758,7 @@ java
 in
 *
 /
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 boolean
@@ -15819,7 +15821,7 @@ FocusedInput
 ;
 }
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -15848,7 +15850,7 @@ getCurrentInformation
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -15867,7 +15869,7 @@ enableNotifications
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -17171,7 +17173,7 @@ flags
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -17198,7 +17200,7 @@ getScreenOrientation
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -17217,7 +17219,7 @@ enableNotifications
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -17236,7 +17238,7 @@ disableNotifications
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -17258,7 +17260,7 @@ aOrientation
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -17277,7 +17279,7 @@ unlockScreenOrientation
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 boolean
@@ -17410,7 +17412,7 @@ long
 id
 )
 ;
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
@@ -17470,7 +17472,7 @@ id
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -17502,7 +17504,7 @@ state
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 void
@@ -17553,7 +17555,7 @@ id
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 allowMultithread
 =
@@ -17581,7 +17583,7 @@ null
 )
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 public
 static
 boolean
@@ -17669,7 +17671,7 @@ return
 false
 ;
 }
-GeneratableAndroidBridgeTarget
+WrapElementForJNI
 (
 stubName
 =
