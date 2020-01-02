@@ -792,9 +792,6 @@ info
 ;
 if
 (
-clazz
-&
-&
 !
 clazz
 -
