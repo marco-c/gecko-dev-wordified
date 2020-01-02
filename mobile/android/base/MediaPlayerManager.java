@@ -114,6 +114,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+JNITarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 NativeEventListener
@@ -484,6 +495,7 @@ static
 MediaPlayerManager
 instance
 ;
+JNITarget
 public
 static
 void
@@ -509,6 +521,8 @@ initialized
 twice
 "
 )
+;
+return
 ;
 }
 instance
@@ -622,6 +636,7 @@ Message
 )
 ;
 }
+JNITarget
 public
 static
 void
