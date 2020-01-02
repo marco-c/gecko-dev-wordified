@@ -49,7 +49,7 @@ sjs
 ?
 testid
 =
-xhr_spec_compliant_good
+xhr_good
 "
 ;
 xhr_good
@@ -115,7 +115,7 @@ sjs
 ?
 testid
 =
-xhr_spec_compliant_bad
+xhr_bad
 "
 ;
 xhr_bad
