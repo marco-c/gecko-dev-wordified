@@ -10855,9 +10855,7 @@ void
 *
 p
 size_t
-oldBytes
-size_t
-newBytes
+nbytes
 )
 ;
 /

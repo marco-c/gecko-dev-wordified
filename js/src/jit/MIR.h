@@ -25504,7 +25504,7 @@ vector
 .
 May
 call
-realloc
+realloc_
 (
 )
 .
