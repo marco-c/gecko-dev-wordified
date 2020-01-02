@@ -220,7 +220,7 @@ mItems
 0
 ]
 .
-Matrix
+GetMatrix
 (
 )
 ;
@@ -267,7 +267,7 @@ mItems
 i
 ]
 .
-Matrix
+GetMatrix
 (
 )
 )

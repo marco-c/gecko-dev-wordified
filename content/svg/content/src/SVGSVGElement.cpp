@@ -2430,7 +2430,7 @@ SVGTransform
 (
 matrix
 .
-Matrix
+GetMatrix
 (
 )
 )

@@ -2256,7 +2256,7 @@ SVGTransform
 (
 matrix
 .
-Matrix
+GetMatrix
 (
 )
 )

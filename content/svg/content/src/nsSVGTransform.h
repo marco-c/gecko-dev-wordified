@@ -405,7 +405,7 @@ mType
 const
 gfxMatrix
 &
-Matrix
+GetMatrix
 (
 )
 const

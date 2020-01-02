@@ -653,7 +653,7 @@ SetIsDOMBinding
 const
 gfxMatrix
 &
-Matrix
+GetMatrix
 (
 )
 const
@@ -713,7 +713,7 @@ static_cast
 float
 >
 (
-Matrix
+GetMatrix
 (
 )
 .
@@ -743,7 +743,7 @@ static_cast
 float
 >
 (
-Matrix
+GetMatrix
 (
 )
 .
@@ -773,7 +773,7 @@ static_cast
 float
 >
 (
-Matrix
+GetMatrix
 (
 )
 .
@@ -803,7 +803,7 @@ static_cast
 float
 >
 (
-Matrix
+GetMatrix
 (
 )
 .
@@ -833,7 +833,7 @@ static_cast
 float
 >
 (
-Matrix
+GetMatrix
 (
 )
 .
@@ -863,7 +863,7 @@ static_cast
 float
 >
 (
-Matrix
+GetMatrix
 (
 )
 .
