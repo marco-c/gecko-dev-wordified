@@ -1172,6 +1172,11 @@ RangeAnalysis
 \
 _
 (
+LoopUnrolling
+)
+\
+_
+(
 EffectiveAddressAnalysis
 )
 \

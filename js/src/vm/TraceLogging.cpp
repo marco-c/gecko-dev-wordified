@@ -4940,6 +4940,16 @@ enabledTextIds
 TraceLogger
 :
 :
+LoopUnrolling
+]
+=
+true
+;
+enabledTextIds
+[
+TraceLogger
+:
+:
 EffectiveAddressAnalysis
 ]
 =

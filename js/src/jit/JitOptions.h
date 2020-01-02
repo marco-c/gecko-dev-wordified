@@ -247,6 +247,9 @@ bool
 disableRangeAnalysis
 ;
 bool
+disableLoopUnrolling
+;
+bool
 disableUce
 ;
 bool
