@@ -568,12 +568,6 @@ aGlobal
 )
 |
 |
-(
-PromiseEnabled
-(
-)
-&
-&
 !
 PromiseBinding
 :
@@ -582,7 +576,6 @@ GetConstructorObject
 (
 aCx
 aGlobal
-)
 )
 |
 |
