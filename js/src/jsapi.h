@@ -758,7 +758,7 @@ js
 AutoIdArray
 *
 /
-DESCRIPTORS
+DESCVECTOR
 =
 -
 7
@@ -767,7 +767,7 @@ DESCRIPTORS
 js
 :
 :
-AutoPropDescArrayRooter
+AutoPropDescVector
 *
 /
 VALVECTOR
