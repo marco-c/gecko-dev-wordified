@@ -290,6 +290,14 @@ topcenter
 bottomleft
 "
 ;
+const
+TOOLBAR_ORDER_POPUP_POSITION
+=
+"
+topcenter
+bottomleft
+"
+;
 /
 *
 *
