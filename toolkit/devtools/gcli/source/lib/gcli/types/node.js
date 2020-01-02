@@ -133,7 +133,7 @@ strict
 '
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -146,6 +146,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 Highlighter
@@ -936,7 +938,7 @@ nodeParseSyntax
 }
 }
 return
-promise
+Promise
 .
 resolve
 (
@@ -1398,7 +1400,7 @@ doc
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (

@@ -148,7 +148,7 @@ util
 )
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -161,6 +161,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 domtemplate
@@ -285,7 +287,7 @@ intro
 var
 RESOLVED
 =
-promise
+Promise
 .
 resolve
 (
@@ -694,7 +696,7 @@ this
 .
 commandDom
 =
-util
+host
 .
 toDom
 (
@@ -1773,7 +1775,7 @@ this
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (
@@ -1861,7 +1863,7 @@ this
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (
@@ -1913,7 +1915,7 @@ VALID
 )
 {
 return
-promise
+Promise
 .
 resolve
 (

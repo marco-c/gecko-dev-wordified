@@ -133,7 +133,7 @@ strict
 '
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -146,6 +146,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 util
@@ -1353,7 +1355,7 @@ to
 )
 {
 return
-promise
+Promise
 .
 resolve
 (

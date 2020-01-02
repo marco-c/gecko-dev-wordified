@@ -133,7 +133,7 @@ strict
 '
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -146,6 +146,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 Status
@@ -591,7 +593,7 @@ text
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -888,7 +890,7 @@ g
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (

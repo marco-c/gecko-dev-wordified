@@ -133,7 +133,7 @@ strict
 '
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -146,6 +146,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 l10n
@@ -507,7 +509,7 @@ typed
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -547,7 +549,7 @@ typed
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -602,7 +604,7 @@ false
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -664,7 +666,7 @@ err
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -721,7 +723,7 @@ COMPLEX
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -776,7 +778,7 @@ NORMAL
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -897,7 +899,7 @@ null
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -932,7 +934,7 @@ prop
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -999,7 +1001,7 @@ prop
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -1076,7 +1078,7 @@ we
 ignore
 it
 return
-promise
+Promise
 .
 resolve
 (
@@ -1172,7 +1174,7 @@ z
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -1223,7 +1225,7 @@ prop
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (
@@ -1307,7 +1309,7 @@ z
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -1338,7 +1340,7 @@ scope
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -1637,7 +1639,7 @@ ex
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -2326,7 +2328,7 @@ predictions
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (
@@ -2337,7 +2339,7 @@ typed
 arg
 status
 message
-promise
+Promise
 .
 resolve
 (

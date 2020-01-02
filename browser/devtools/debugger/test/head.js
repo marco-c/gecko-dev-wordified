@@ -199,9 +199,15 @@ gre
 /
 modules
 /
-Promise
+devtools
+/
+deprecated
+-
+sync
+-
+thenables
 .
-jsm
+js
 "
 {
 }

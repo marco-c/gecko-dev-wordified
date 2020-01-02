@@ -133,7 +133,7 @@ strict
 '
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -146,6 +146,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 Status
@@ -288,7 +290,7 @@ TrueNamedArgument
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -315,7 +317,7 @@ FalseNamedArgument
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -392,7 +394,7 @@ Status
 VALID
 '
 '
-promise
+Promise
 .
 resolve
 (

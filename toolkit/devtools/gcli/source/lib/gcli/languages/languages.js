@@ -148,7 +148,7 @@ util
 )
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -161,11 +161,13 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 RESOLVED
 =
-promise
+Promise
 .
 resolve
 (
@@ -276,7 +278,7 @@ function
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -291,7 +293,7 @@ function
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -563,7 +565,7 @@ function
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -971,7 +973,7 @@ terminal
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (
@@ -994,7 +996,7 @@ newInstance
 else
 {
 return
-promise
+Promise
 .
 resolve
 (

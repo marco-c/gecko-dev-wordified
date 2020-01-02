@@ -133,7 +133,7 @@ strict
 '
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -146,6 +146,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 /
 *
@@ -209,7 +211,7 @@ url
 {
 *
 return
-promise
+Promise
 .
 resolve
 (
@@ -639,7 +641,7 @@ function
 )
 {
 return
-promise
+Promise
 .
 resolve
 (

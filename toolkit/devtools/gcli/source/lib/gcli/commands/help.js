@@ -133,7 +133,7 @@ strict
 '
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -146,6 +146,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 l10n
@@ -487,7 +489,7 @@ defaultValue
 ;
 input
 =
-promise
+Promise
 .
 resolve
 (
@@ -526,7 +528,7 @@ this
 /
 }
 return
-promise
+Promise
 .
 resolve
 (

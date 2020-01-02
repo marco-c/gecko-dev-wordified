@@ -133,7 +133,7 @@ strict
 '
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -146,6 +146,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 ArrayConversion
@@ -504,7 +506,7 @@ subArgParse
 )
 ;
 return
-promise
+Promise
 .
 all
 (
