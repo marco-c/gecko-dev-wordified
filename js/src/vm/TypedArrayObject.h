@@ -419,7 +419,7 @@ vp
 )
 ;
 static
-JSObject
+ArrayBufferObject
 *
 create
 (
@@ -1102,18 +1102,6 @@ addView
 ArrayBufferViewObject
 *
 view
-)
-;
-bool
-allocateSlots
-(
-JSContext
-*
-cx
-uint32_t
-size
-bool
-clear
 )
 ;
 void
