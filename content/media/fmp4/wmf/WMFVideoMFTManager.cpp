@@ -1396,7 +1396,7 @@ pictureRegion
 LOG
 (
 "
-WMFReader
+WMFVideoMFTManager
 frame
 geometry
 frame
