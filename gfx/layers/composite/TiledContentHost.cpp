@@ -579,7 +579,6 @@ OpenDescriptor
 (
 aAllocator
 aTiledDescriptor
-nullptr
 )
 ;
 mLowPrecisionRegionToUpload
@@ -616,7 +615,6 @@ OpenDescriptor
 (
 aAllocator
 aTiledDescriptor
-nullptr
 )
 ;
 mRegionToUpload
