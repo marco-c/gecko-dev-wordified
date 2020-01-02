@@ -2733,6 +2733,11 @@ msg
 if
 (
 gCrashReporter
+&
+&
+gCrashReporter
+.
+enabled
 )
 {
 let
