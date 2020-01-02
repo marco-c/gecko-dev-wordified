@@ -772,7 +772,10 @@ return
 ;
 }
 return
-MediaTimeToSeconds
+mStream
+-
+>
+StreamTimeToSeconds
 (
 mStream
 -
