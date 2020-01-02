@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 var
 gInstanceUID
 ;
@@ -588,10 +593,6 @@ ext
 "
 true
 "
-;
-gLightMode
-=
-true
 ;
 gFileList
 =

@@ -446,6 +446,11 @@ reporter
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 gDebugExpectedDurations
 =

@@ -86,6 +86,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 importScripts
 (
 "
@@ -1589,6 +1594,9 @@ switch
 rawProfile
 .
 format
+|
+|
+null
 )
 {
 case
