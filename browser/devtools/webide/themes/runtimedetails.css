@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+html
+body
+{
+background
+:
+white
+;
+}
 #
 devicePrivileges
 {
