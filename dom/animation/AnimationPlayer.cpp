@@ -461,6 +461,11 @@ GetSource
 )
 |
 |
+GetSource
+(
+)
+-
+>
 IsFinishedTransition
 (
 )
@@ -505,12 +510,6 @@ const
 {
 return
 GetSource
-(
-)
-&
-&
-!
-IsFinishedTransition
 (
 )
 &

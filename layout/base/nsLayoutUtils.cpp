@@ -2972,6 +2972,11 @@ GetSource
 player
 -
 >
+GetSource
+(
+)
+-
+>
 IsFinishedTransition
 (
 )
