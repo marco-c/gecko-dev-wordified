@@ -171,8 +171,6 @@ gfx
 :
 SurfaceFormat
 aFormat
-TextureFlags
-aFlags
 )
 ;
 virtual
@@ -244,7 +242,11 @@ GetFormat
 )
 const
 MOZ_OVERRIDE
+{
+return
+mFormat
 ;
+}
 virtual
 GLenum
 GetWrapMode
@@ -355,9 +357,6 @@ mFormat
 ;
 bool
 mNeedsReset
-;
-TextureFlags
-mFlags
 ;
 }
 ;
