@@ -3820,6 +3820,17 @@ UpdateImageVisibility
 (
 )
 ;
+void
+UpdateActivePointerState
+(
+mozilla
+:
+:
+WidgetGUIEvent
+*
+aEvent
+)
+;
 nsRevocableEventPtr
 <
 nsRunnableMethod
