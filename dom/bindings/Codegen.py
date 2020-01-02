@@ -1896,22 +1896,6 @@ sNativePropertyHooks
 "
 "
 )
-.
-rstrip
-(
-)
-#
-BOGUS
-strip
-newline
-from
-the
-last
-line
-here
-(
-!
-)
     
 def
 define
@@ -2987,14 +2971,6 @@ JS_EnumerateStub
 return
 fill
 (
-#
-BOGUS
-extra
-blank
-line
-at
-the
-top
             
 "
 "
@@ -3410,14 +3386,6 @@ nullptr
 return
 fill
 (
-#
-BOGUS
-extra
-blank
-line
-at
-the
-top
             
 "
 "
@@ -4574,13 +4542,6 @@ namedConstructors
 return
 fill
 (
-#
-BOGUS
-extra
-newline
-at
-the
-top
             
 "
 "
@@ -10562,20 +10523,6 @@ self
 return
 (
 "
-\
-n
-"
-#
-BOGUS
-extra
-blank
-line
-at
-start
-of
-function
-                
-"
 %
 s
 *
@@ -11542,16 +11489,6 @@ preamble
 =
 fill
 (
-#
-BOGUS
-extra
-blank
-line
-at
-beginning
-of
-function
-body
             
 "
 "
@@ -11734,6 +11671,11 @@ ctorName
         
 return
 preamble
++
+"
+\
+n
+"
 +
 callGenerator
 .
@@ -12692,16 +12634,6 @@ self
 )
 :
         
-#
-BOGUS
-extra
-blank
-line
-at
-start
-of
-function
-        
 header
 =
 dedent
@@ -12924,15 +12856,6 @@ true
 "
 "
 "
-#
-BOGUS
-extra
-blank
-line
-at
-end
-of
-function
                     
 nativeType
 =
@@ -17684,23 +17607,12 @@ self
 )
 :
         
-#
-BOGUSly
-strip
-off
-a
-newline
-        
 return
 CGList
 .
 define
 (
 self
-)
-.
-rstrip
-(
 )
 class
 CGCreateInterfaceObjectsMethod
@@ -19492,37 +19404,6 @@ self
 )
 :
         
-#
-BOGUS
-extra
-blank
-line
-at
-the
-beginning
-of
-the
-code
-below
-        
-#
-BOGUS
--
-should
-be
-a
-blank
-line
-between
-an
-if
--
-block
-and
-following
-comment
-below
-        
 return
 fill
 (
@@ -19780,16 +19661,6 @@ self
 )
 :
         
-#
-BOGUS
-extra
-blank
-line
-at
-start
-of
-method
-        
 return
 dedent
 (
@@ -19911,16 +19782,6 @@ definition_body
 self
 )
 :
-        
-#
-BOGUS
-extra
-blank
-line
-at
-start
-of
-method
         
 return
 dedent
@@ -21316,17 +21177,7 @@ object
 \
 n
 "
-            
-"
-\
-n
-"
 )
-#
-BOGUS
-extra
-blank
-line
     
 else
 :
@@ -21649,18 +21500,7 @@ hasMembersInSlots
         
 return
 "
-\
-n
 "
-#
-BOGUS
-blank
-line
-only
-if
-this
-returns
-empty
     
 if
 wrapperCache
@@ -32705,24 +32545,6 @@ s
 name
 )
             
-#
-BOGUS
-extra
-blank
-line
-here
-turns
-out
-to
-be
-at
-the
-end
-of
-a
-block
-:
-            
 conversion
 =
 indent
@@ -32736,11 +32558,6 @@ define
 (
 )
 )
-+
-"
-\
-n
-"
             
 template
 =
@@ -33943,11 +33760,6 @@ badType
 "
 "
 "
-#
-BOGUS
-extra
-blank
-line
             
 objRef
 =
@@ -34635,10 +34447,6 @@ assign
 "
 "
 "
-#
-BOGUS
-extra
-newline
                     
 convert
 =
@@ -35700,17 +35508,7 @@ haveObject
 CGGeneric
 (
 conversion
-+
-"
-\
-n
-"
 )
-#
-BOGUS
-extra
-blank
-line
                                            
 CGGeneric
 (
@@ -50122,11 +49920,6 @@ code
 =
 fill
 (
-#
-BOGUS
-extra
-blank
-line
                     
 "
 "
@@ -53142,17 +52935,6 @@ argcount
                      
 argCountCases
                      
-#
-BOGUS
-extra
-blank
-line
-at
-end
-of
-default
-block
-                     
 CGGeneric
 (
 '
@@ -53167,8 +52949,6 @@ s
 "
 )
 ;
-\
-n
 \
 n
 '
@@ -53219,18 +52999,9 @@ self
 .
 cgRoot
 =
-CGWrapper
-(
 CGList
 (
 overloadCGThings
-)
-pre
-=
-"
-\
-n
-"
 )
     
 def
@@ -62622,12 +62393,6 @@ decl
 =
 fill
 (
-#
-BOGUS
-extra
-newline
-at
-top
             
 "
 "
@@ -62763,12 +62528,6 @@ strings
 =
 fill
 (
-#
-BOGUS
-extra
-newline
-at
-top
             
 "
 "
@@ -62857,31 +62616,6 @@ values
 )
 )
 )
-        
-#
-BOGUS
--
-CGNamespace
-automatically
-indents
-;
-the
-extra
-indent
-(
-)
-below
-causes
-        
-#
-the
-output
-to
-be
-indented
-4
-spaces
-.
         
 return
 CGNamespace
@@ -66007,14 +65741,6 @@ if
 traceCases
 :
                 
-#
-BOGUS
-blank
-line
-in
-default
-case
-                
 traceBody
 =
 CGSwitch
@@ -66029,8 +65755,6 @@ default
 CGGeneric
 (
 "
-\
-n
 "
 )
 )
@@ -66042,18 +65766,9 @@ define
 else
 :
                 
-#
-BOGUS
-blank
-line
-in
-method
-                
 traceBody
 =
 "
-\
-n
 "
             
 methods
@@ -69222,19 +68937,7 @@ self
 getBody
 (
 )
-or
-"
-\
-n
-"
 )
-#
-BOGUS
-extra
-blank
-line
-if
-empty
 class
 ClassMember
 (
@@ -71075,16 +70778,6 @@ self
 )
 :
         
-#
-BOGUS
-extra
-blank
-line
-at
-end
-of
-function
-        
 return
 "
 return
@@ -71105,8 +70798,6 @@ id
 desc
 )
 ;
-\
-n
 \
 n
 "
@@ -71610,11 +71301,6 @@ self
 )
 :
         
-#
-BOGUS
-extra
-newline
-        
 return
 "
 return
@@ -71634,8 +71320,6 @@ wrapper
 props
 )
 ;
-\
-n
 \
 n
 "
@@ -75566,12 +75250,9 @@ defined
 =
 true
 ;
+\
+n
 "
-#
-SUPER
-BOGUS
-missing
-newline
                                    
 "
 bool
@@ -75604,23 +75285,7 @@ n
 \
 n
 "
-                                   
-"
-\
-n
-"
 )
-#
-BOGUS
-extra
-blank
-line
-at
-end
-of
-block
-or
-method
             
 set
 +
@@ -75755,15 +75420,6 @@ true
 "
 "
 "
-#
-BOGUS
-extra
-blank
-line
-at
-end
-of
-method
                 
 callSetter
 =
@@ -76585,15 +76241,8 @@ n
 }
 \
 n
-\
-n
 "
 )
-#
-BOGUS
-extra
-blank
-line
             
 if
 not
@@ -76634,22 +76283,6 @@ id
 define
 (
 )
-        
-else
-:
-            
-delete
-+
-=
-"
-\
-n
-"
-#
-BOGUS
-extra
-blank
-line
         
 delete
 +
@@ -77552,16 +77185,6 @@ OverrideBuiltins
 )
 :
                 
-#
-BOGUS
-extra
-blank
-line
-at
-end
-of
-block
-                
 named
 =
 CGIfWrapper
@@ -77574,8 +77197,6 @@ named
 return
 true
 ;
-\
-n
 \
 n
 "
@@ -84234,22 +83855,6 @@ self
 memberInfo
 )
         
-else
-:
-            
-body
-+
-=
-"
-\
-n
-"
-#
-BOGUS
-extra
-blank
-line
-        
 body
 +
 =
@@ -84619,21 +84224,6 @@ join
 memberTraces
 )
         
-else
-:
-            
-body
-+
-=
-"
-\
-n
-"
-#
-BOGUS
-extra
-newline
-        
 return
 ClassMethod
 (
@@ -84906,18 +84496,7 @@ body
 define
 (
 )
-or
-"
-\
-n
-"
 )
-#
-BOGUS
-blank
-line
-when
-empty
     
 def
 getStructs
@@ -101509,46 +101088,6 @@ define
 (
 )
         
-if
-type
-=
-=
-"
-"
-:
-            
-type
-=
-"
-\
-n
-"
-#
-BOGUS
-extra
-blank
-line
-        
-if
-assignRetval
-=
-=
-"
-"
-:
-            
-assignRetval
-=
-"
-\
-n
-"
-#
-BOGUS
-extra
-blank
-line
-        
 return
 type
 +
@@ -101638,14 +101177,7 @@ return
 "
 \
 n
-\
-n
 "
-#
-BOGUS
-extra
-blank
-line
         
 #
 Do
