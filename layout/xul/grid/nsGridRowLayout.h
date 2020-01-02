@@ -403,6 +403,12 @@ nsGridRowLayout
 (
 )
 ;
+virtual
+~
+nsGridRowLayout
+(
+)
+;
 }
 ;
 #

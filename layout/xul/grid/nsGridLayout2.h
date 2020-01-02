@@ -509,6 +509,12 @@ nsIPresShell
 aShell
 )
 ;
+virtual
+~
+nsGridLayout2
+(
+)
+;
 nsGrid
 mGrid
 ;

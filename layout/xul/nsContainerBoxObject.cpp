@@ -205,6 +205,15 @@ nsIEditorBoxObject
 public
 nsIIFrameBoxObject
 {
+protected
+:
+virtual
+~
+nsContainerBoxObject
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS_INHERITED

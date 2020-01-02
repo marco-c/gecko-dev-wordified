@@ -210,6 +210,15 @@ nsStackLayout
 )
 {
 }
+nsGridLayout2
+:
+:
+~
+nsGridLayout2
+(
+)
+{
+}
 /
 /
 static

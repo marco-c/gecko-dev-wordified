@@ -172,6 +172,8 @@ nsMenuBoxObject
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsMenuBoxObject

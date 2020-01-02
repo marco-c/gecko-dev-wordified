@@ -153,11 +153,6 @@ nsTreeBoxObject
 (
 )
 ;
-~
-nsTreeBoxObject
-(
-)
-;
 nsTreeBodyFrame
 *
 GetTreeBody
@@ -198,6 +193,11 @@ MOZ_OVERRIDE
 ;
 protected
 :
+~
+nsTreeBoxObject
+(
+)
+;
 nsTreeBodyFrame
 *
 mTreeBody

@@ -1177,6 +1177,15 @@ DoUpdate
 ;
 }
 ;
+protected
+:
+virtual
+~
+nsSVGFilterReference
+(
+)
+{
+}
 private
 :
 /

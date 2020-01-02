@@ -2868,6 +2868,12 @@ const
 ;
 protected
 :
+virtual
+~
+CSSSupportsRule
+(
+)
+;
 bool
 mUseGroup
 ;

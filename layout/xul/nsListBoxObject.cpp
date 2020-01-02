@@ -218,6 +218,13 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+nsListBoxObject
+(
+)
+{
+}
 nsListBoxBodyFrame
 *
 mListBoxBody
