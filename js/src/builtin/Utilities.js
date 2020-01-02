@@ -446,6 +446,13 @@ Math
 min
 ;
 var
+std_Math_imul
+=
+Math
+.
+imul
+;
+var
 std_Number_valueOf
 =
 Number

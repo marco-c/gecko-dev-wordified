@@ -63651,10 +63651,7 @@ MLoadFixedSlot
 New
 (
 typedObj
-js
-:
-:
-SLOT_DATATYPE
+JS_TYPEDOBJ_SLOT_TYPE_OBJ
 )
 ;
 current
@@ -64193,7 +64190,7 @@ MLoadFixedSlot
 New
 (
 typeObj
-SLOT_STRUCT_FIELD_TYPES
+JS_TYPEOBJ_SLOT_STRUCT_FIELD_TYPES
 )
 ;
 current

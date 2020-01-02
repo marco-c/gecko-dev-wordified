@@ -795,8 +795,8 @@ mario
 1
 ]
 =
-[
-]
+{
+}
 ;
 assertEq
 (
