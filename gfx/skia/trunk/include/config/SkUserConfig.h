@@ -542,12 +542,10 @@ release
 .
 *
 /
-/
-/
 #
 define
 SK_ENABLE_INST_COUNT
-1
+0
 /
 *
 If
