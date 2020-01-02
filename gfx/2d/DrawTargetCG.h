@@ -91,6 +91,12 @@ MPL
 *
 /
 #
+ifndef
+mozilla_gfx_DrawTargetCG_h
+#
+define
+mozilla_gfx_DrawTargetCG_h
+#
 include
 <
 ApplicationServices
@@ -1077,3 +1083,5 @@ mSnapshot
 ;
 }
 }
+#
+endif

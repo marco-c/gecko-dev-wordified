@@ -884,7 +884,7 @@ const
 ;
 virtual
 ReferencePtr
-GetObject
+GetObjectRef
 (
 )
 const
@@ -1042,7 +1042,7 @@ const
 ;
 virtual
 ReferencePtr
-GetObject
+GetObjectRef
 (
 )
 const
@@ -1151,7 +1151,7 @@ Creation
 }
 virtual
 ReferencePtr
-GetObject
+GetObjectRef
 (
 )
 const
@@ -1269,7 +1269,7 @@ Destruction
 }
 virtual
 ReferencePtr
-GetObject
+GetObjectRef
 (
 )
 const
@@ -3271,7 +3271,7 @@ Creation
 }
 virtual
 ReferencePtr
-GetObject
+GetObjectRef
 (
 )
 const
@@ -3393,7 +3393,7 @@ Destruction
 }
 virtual
 ReferencePtr
-GetObject
+GetObjectRef
 (
 )
 const
@@ -3538,7 +3538,7 @@ Creation
 }
 virtual
 ReferencePtr
-GetObject
+GetObjectRef
 (
 )
 const
@@ -3663,7 +3663,7 @@ Destruction
 }
 virtual
 ReferencePtr
-GetObject
+GetObjectRef
 (
 )
 const
@@ -3800,7 +3800,7 @@ Creation
 }
 virtual
 ReferencePtr
-GetObject
+GetObjectRef
 (
 )
 const
@@ -3922,7 +3922,7 @@ Destruction
 }
 virtual
 ReferencePtr
-GetObject
+GetObjectRef
 (
 )
 const
@@ -4037,7 +4037,7 @@ Snapshot
 }
 virtual
 ReferencePtr
-GetObject
+GetObjectRef
 (
 )
 const
@@ -4209,7 +4209,7 @@ Creation
 }
 virtual
 ReferencePtr
-GetObject
+GetObjectRef
 (
 )
 const
@@ -4346,7 +4346,7 @@ Destruction
 }
 virtual
 ReferencePtr
-GetObject
+GetObjectRef
 (
 )
 const
