@@ -2662,15 +2662,6 @@ lengthIsWritable
 )
 )
 ;
-JS_ASSERT
-(
-!
-ObjectMayHaveExtraIndexedProperties
-(
-obj
-)
-)
-;
 uint32_t
 idx
 =
