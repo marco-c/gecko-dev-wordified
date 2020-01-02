@@ -934,11 +934,6 @@ AllowScripts
 (
 )
 ;
-/
-/
-XXX
-make
-const
 mozilla
 :
 :
