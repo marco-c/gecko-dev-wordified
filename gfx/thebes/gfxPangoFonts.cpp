@@ -4697,7 +4697,7 @@ family
 mUserFontSet
 -
 >
-LookupFamily
+GetFamily
 (
 utf16Family
 )
