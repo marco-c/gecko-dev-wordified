@@ -888,7 +888,7 @@ reporting
 .
 *
 /
-nsresult
+void
 ParseMediaList
 (
 const

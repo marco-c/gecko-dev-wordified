@@ -728,7 +728,7 @@ bool
 aIsSVGMode
 )
 ;
-nsresult
+void
 ParseMediaList
 (
 const
@@ -6320,7 +6320,7 @@ on
 )
 #
 endif
-nsresult
+void
 CSSParserImpl
 :
 :
@@ -6659,9 +6659,6 @@ ReleaseScanner
 mHTMLMediaMode
 =
 false
-;
-return
-NS_OK
 ;
 }
 bool
@@ -64673,7 +64670,7 @@ aIsSVGMode
 )
 ;
 }
-nsresult
+void
 nsCSSParser
 :
 :
@@ -64695,7 +64692,6 @@ bool
 aHTMLMode
 )
 {
-return
 static_cast
 <
 CSSParserImpl

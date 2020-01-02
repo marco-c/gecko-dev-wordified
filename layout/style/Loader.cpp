@@ -7622,9 +7622,6 @@ sheet
 "
 )
 ;
-nsresult
-rv
-;
 nsRefPtr
 <
 nsMediaList
@@ -7666,12 +7663,6 @@ nsMediaList
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-mediaList
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 nsCSSParser
 mediumParser
 (
@@ -7699,8 +7690,6 @@ so
 pass
 true
 .
-rv
-=
 mediumParser
 .
 ParseMediaList
@@ -7710,12 +7699,6 @@ nullptr
 0
 mediaList
 true
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 }
