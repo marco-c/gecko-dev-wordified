@@ -43455,7 +43455,7 @@ Lock
 the
 runtime
 against
-operation
+interrupt
 callbacks
 during
 the
@@ -43469,8 +43469,8 @@ don
 t
 want
 an
-operation
-callback
+interrupt
+request
 to
 protect
 the
@@ -43507,7 +43507,7 @@ updated
 JSRuntime
 :
 :
-AutoLockForOperationCallback
+AutoLockForInterrupt
 lock
 (
 cx

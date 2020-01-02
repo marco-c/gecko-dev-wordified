@@ -762,14 +762,13 @@ when
 another
 thread
 is
-triggering
+requesting
 an
 /
 /
-operation
-callback
+interrupt
 .
-AutoLockForOperationCallback
+AutoLockForInterrupt
 lock
 (
 this

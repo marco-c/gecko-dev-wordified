@@ -57579,10 +57579,10 @@ JS_GetRuntime
 cx
 )
 ;
-JSOperationCallback
+JSInterruptCallback
 old
 =
-JS_SetOperationCallback
+JS_SetInterruptCallback
 (
 rt
 nullptr
@@ -57614,7 +57614,7 @@ neverShowDlgChk
 buttonPressed
 )
 ;
-JS_SetOperationCallback
+JS_SetInterruptCallback
 (
 rt
 old

@@ -12305,9 +12305,8 @@ to
 return
 or
 hit
-the
-operation
-limit
+an
+interrupt
 is
 irrelevant
 .
@@ -12522,7 +12521,7 @@ charsLen
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -14324,7 +14323,7 @@ count
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -17891,7 +17890,7 @@ charsLen
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )

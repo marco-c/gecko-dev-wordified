@@ -1946,7 +1946,7 @@ are
 updated
 in
 the
-operation
+interrupt
 *
 callback
 without
@@ -2093,7 +2093,7 @@ data
 }
 static
 bool
-ShellOperationCallback
+ShellInterruptCallback
 (
 JSContext
 *
@@ -18810,9 +18810,9 @@ has
 just
 expired
 .
-Trigger
-the
-operation
+Request
+an
+interrupt
 callback
 *
 outside
@@ -18876,7 +18876,7 @@ yet
 .
 Simulate
 an
-operation
+interrupt
 callback
 *
 which
@@ -18888,7 +18888,7 @@ execution
 .
 *
 /
-JS_TriggerOperationCallback
+JS_RequestInterruptCallback
 (
 rt
 )
@@ -19336,7 +19336,7 @@ gTimedOut
 =
 true
 ;
-JS_TriggerOperationCallback
+JS_RequestInterruptCallback
 (
 rt
 )
@@ -33776,7 +33776,7 @@ not
 really
 reentrant
 but
-JS_TriggerAllOperationCallbacks
+JS_RequestInterruptCallback
 *
 is
 mostly
@@ -38903,10 +38903,10 @@ ShellPrincipals
 destroy
 )
 ;
-JS_SetOperationCallback
+JS_SetInterruptCallback
 (
 rt
-ShellOperationCallback
+ShellInterruptCallback
 )
 ;
 JS

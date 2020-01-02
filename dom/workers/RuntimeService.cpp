@@ -3320,7 +3320,7 @@ aReport
 ;
 }
 bool
-OperationCallback
+InterruptCallback
 (
 JSContext
 *
@@ -3366,7 +3366,7 @@ return
 worker
 -
 >
-OperationCallback
+InterruptCallback
 (
 aCx
 )
@@ -4266,10 +4266,10 @@ workerCx
 ErrorReporter
 )
 ;
-JS_SetOperationCallback
+JS_SetInterruptCallback
 (
 aRuntime
-OperationCallback
+InterruptCallback
 )
 ;
 js

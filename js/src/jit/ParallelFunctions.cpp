@@ -1382,7 +1382,7 @@ When
 an
 interrupt
 is
-triggered
+requested
 the
 main
 thread
@@ -1423,8 +1423,8 @@ check
 whether
 an
 interrupt
-is
-needed
+was
+requested
 .
 /
 /

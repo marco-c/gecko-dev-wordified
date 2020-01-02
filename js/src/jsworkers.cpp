@@ -4819,7 +4819,7 @@ incorporated
 at
 the
 next
-operation
+interrupt
 callback
 .
 Don
@@ -4859,12 +4859,12 @@ code
 rt
 -
 >
-triggerOperationCallback
+requestInterrupt
 (
 JSRuntime
 :
 :
-TriggerCallbackAnyThreadDontStopIon
+RequestInterruptAnyThreadDontStopIon
 )
 ;
 /

@@ -6233,7 +6233,10 @@ nullptr
 ;
 }
 bool
-js_InvokeOperationCallback
+js
+:
+:
+InvokeInterruptCallback
 (
 JSContext
 *
@@ -6321,7 +6324,7 @@ to
 UINTPTR_MAX
 to
 trigger
-operation
+interrupt
 /
 /
 callbacks
@@ -6366,9 +6369,9 @@ worker
 thread
 may
 have
-set
-the
-callback
+requested
+an
+interrupt
 after
 finishing
 an
@@ -6428,7 +6431,7 @@ re
 -
 entry
 .
-JSOperationCallback
+JSInterruptCallback
 cb
 =
 cx
@@ -6439,7 +6442,7 @@ runtime
 )
 -
 >
-operationCallback
+interruptCallback
 ;
 if
 (
@@ -6538,7 +6541,10 @@ false
 ;
 }
 bool
-js_HandleExecutionInterrupt
+js
+:
+:
+HandleExecutionInterrupt
 (
 JSContext
 *
@@ -6558,7 +6564,7 @@ runtime
 interrupt
 )
 return
-js_InvokeOperationCallback
+InvokeInterruptCallback
 (
 cx
 )

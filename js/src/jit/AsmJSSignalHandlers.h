@@ -185,11 +185,14 @@ to
 call
 /
 /
-js_HandleExecutionInterrupt
+js
+:
+:
+HandleExecutionInterrupt
 .
 extern
 void
-TriggerOperationCallbackForAsmJSCode
+RequestInterruptForAsmJSCode
 (
 JSRuntime
 *

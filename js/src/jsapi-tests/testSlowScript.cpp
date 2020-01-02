@@ -69,7 +69,7 @@ h
 "
 static
 bool
-OperationCallback
+InterruptCallback
 (
 JSContext
 *
@@ -86,7 +86,7 @@ sRemain
 ;
 static
 bool
-TriggerOperationCallback
+RequestInterruptCallback
 (
 JSContext
 *
@@ -105,7 +105,7 @@ sRemain
 -
 -
 )
-JS_TriggerOperationCallback
+JS_RequestInterruptCallback
 (
 JS_GetRuntime
 (
@@ -127,10 +127,10 @@ BEGIN_TEST
 testSlowScript
 )
 {
-JS_SetOperationCallback
+JS_SetInterruptCallback
 (
 cx
-OperationCallback
+InterruptCallback
 )
 ;
 JS_DefineFunction
@@ -138,9 +138,9 @@ JS_DefineFunction
 cx
 global
 "
-triggerOperationCallback
+requestInterruptCallback
 "
-TriggerOperationCallback
+RequestInterruptCallback
 0
 0
 )
@@ -167,7 +167,7 @@ in
 )
 "
 "
-triggerOperationCallback
+requestInterruptCallback
 (
 )
 ;
@@ -209,7 +209,7 @@ in
 )
 "
 "
-triggerOperationCallback
+requestInterruptCallback
 (
 )
 ;
@@ -264,7 +264,7 @@ in
 )
 "
 "
-triggerOperationCallback
+requestInterruptCallback
 (
 )
 ;
@@ -284,7 +284,7 @@ while
 true
 )
 yield
-triggerOperationCallback
+requestInterruptCallback
 (
 )
 }
@@ -329,7 +329,7 @@ f
 )
 "
 "
-triggerOperationCallback
+requestInterruptCallback
 (
 )
 ;
@@ -362,7 +362,7 @@ x
 eval
 (
 '
-triggerOperationCallback
+requestInterruptCallback
 (
 )
 '

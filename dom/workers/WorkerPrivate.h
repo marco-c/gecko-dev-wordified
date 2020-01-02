@@ -2841,7 +2841,7 @@ aCx
 )
 ;
 bool
-OperationCallback
+InterruptCallback
 (
 JSContext
 *

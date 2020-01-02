@@ -4364,7 +4364,7 @@ i
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -6105,7 +6105,7 @@ hole
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -6576,7 +6576,7 @@ initLength
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -6786,7 +6786,7 @@ length
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -8407,7 +8407,7 @@ MAX_ARRAY_INDEX
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -9099,7 +9099,7 @@ hole2
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -9317,7 +9317,7 @@ lessOrEqualp
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -9881,7 +9881,7 @@ lessOrEqualp
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -10264,7 +10264,7 @@ isUndefined
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -11490,7 +11490,7 @@ i
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -11735,7 +11735,7 @@ i
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -12356,7 +12356,7 @@ i
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -12898,7 +12898,7 @@ undefs
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -12947,7 +12947,7 @@ n
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -14336,7 +14336,7 @@ i
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -14746,7 +14746,7 @@ hole
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -15813,7 +15813,7 @@ hole
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -16100,7 +16100,7 @@ pessimistic
 thing
 and
 let
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 handle
 the
 *
@@ -16153,7 +16153,7 @@ to
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -16705,7 +16705,7 @@ k
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -17410,7 +17410,7 @@ i
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -17509,7 +17509,7 @@ hole
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -18179,7 +18179,7 @@ hole
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -18544,7 +18544,7 @@ len
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )

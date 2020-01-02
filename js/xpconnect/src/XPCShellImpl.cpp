@@ -3883,7 +3883,7 @@ true
 }
 static
 Value
-sScriptedOperationCallback
+sScriptedInterruptCallback
 =
 UndefinedValue
 (
@@ -3891,7 +3891,7 @@ UndefinedValue
 ;
 static
 bool
-XPCShellOperationCallback
+XPCShellInterruptCallback
 (
 JSContext
 *
@@ -3902,7 +3902,7 @@ cx
 /
 If
 no
-operation
+interrupt
 callback
 was
 set
@@ -3914,7 +3914,7 @@ op
 .
 if
 (
-sScriptedOperationCallback
+sScriptedInterruptCallback
 .
 isUndefined
 (
@@ -3928,7 +3928,7 @@ ac
 (
 cx
 &
-sScriptedOperationCallback
+sScriptedInterruptCallback
 .
 toObject
 (
@@ -3945,7 +3945,7 @@ RootedValue
 callback
 (
 cx
-sScriptedOperationCallback
+sScriptedInterruptCallback
 )
 ;
 if
@@ -3987,7 +3987,7 @@ NS_WARNING
 (
 "
 Scripted
-operation
+interrupt
 callback
 failed
 !
@@ -4016,7 +4016,7 @@ toBoolean
 }
 static
 bool
-SetOperationCallback
+SetInterruptCallback
 (
 JSContext
 *
@@ -4084,7 +4084,7 @@ callers
 to
 remove
 the
-operation
+interrupt
 callback
 by
 passing
@@ -4102,7 +4102,7 @@ isUndefined
 )
 )
 {
-sScriptedOperationCallback
+sScriptedInterruptCallback
 =
 UndefinedValue
 (
@@ -4166,7 +4166,7 @@ return
 false
 ;
 }
-sScriptedOperationCallback
+sScriptedInterruptCallback
 =
 args
 [
@@ -4448,9 +4448,9 @@ JSFUN_CONSTRUCTOR
 JS_FS
 (
 "
-setOperationCallback
+setInterruptCallback
 "
-SetOperationCallback
+SetInterruptCallback
 1
 0
 )
@@ -8800,7 +8800,7 @@ Override
 the
 default
 XPConnect
-operation
+interrupt
 callback
 .
 We
@@ -8830,10 +8830,10 @@ reason
 to
 bother
 .
-JS_SetOperationCallback
+JS_SetInterruptCallback
 (
 rt
-XPCShellOperationCallback
+XPCShellInterruptCallback
 )
 ;
 cx
@@ -9449,7 +9449,7 @@ JS_AddValueRoot
 (
 cx
 &
-sScriptedOperationCallback
+sScriptedInterruptCallback
 )
 ;
 result
@@ -9468,7 +9468,7 @@ JS_RemoveValueRoot
 (
 cx
 &
-sScriptedOperationCallback
+sScriptedInterruptCallback
 )
 ;
 JS_DropPrincipals

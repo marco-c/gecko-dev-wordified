@@ -9425,7 +9425,7 @@ interrupt
 &
 &
 !
-js_HandleExecutionInterrupt
+HandleExecutionInterrupt
 (
 cx
 )
@@ -22781,7 +22781,7 @@ runtime
 interrupt
 )
 return
-js_HandleExecutionInterrupt
+HandleExecutionInterrupt
 (
 cx
 )

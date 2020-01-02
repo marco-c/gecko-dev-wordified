@@ -6784,7 +6784,7 @@ time
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 this
 -
@@ -7832,7 +7832,7 @@ time
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 this
 -

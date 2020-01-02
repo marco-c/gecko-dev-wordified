@@ -4273,13 +4273,13 @@ that
 is
 accessed
 when
-triggering
+requesting
 interrupts
 .
 JSRuntime
 :
 :
-AutoLockForOperationCallback
+AutoLockForInterrupt
 lock
 (
 fop
@@ -13295,7 +13295,7 @@ true
 }
 static
 void
-TriggerOperationCallback
+RequestInterrupt
 (
 JSRuntime
 *
@@ -13336,12 +13336,12 @@ reason
 rt
 -
 >
-triggerOperationCallback
+requestInterrupt
 (
 JSRuntime
 :
 :
-TriggerCallbackMainThread
+RequestInterruptMainThread
 )
 ;
 }
@@ -13413,7 +13413,7 @@ when
 allocating
 under
 the
-operation
+interrupt
 callback
 lock
 .
@@ -13424,7 +13424,7 @@ if
 rt
 -
 >
-currentThreadOwnsOperationCallbackLock
+currentThreadOwnsInterruptLock
 (
 )
 )
@@ -13468,7 +13468,7 @@ PrepareForFullGC
 rt
 )
 ;
-TriggerOperationCallback
+RequestInterrupt
 (
 rt
 reason
@@ -13594,7 +13594,7 @@ when
 allocating
 under
 the
-operation
+interrupt
 callback
 lock
 .
@@ -13605,7 +13605,7 @@ if
 rt
 -
 >
-currentThreadOwnsOperationCallbackLock
+currentThreadOwnsInterruptLock
 (
 )
 )
@@ -13699,7 +13699,7 @@ PrepareZoneForGC
 zone
 )
 ;
-TriggerOperationCallback
+RequestInterrupt
 (
 rt
 reason

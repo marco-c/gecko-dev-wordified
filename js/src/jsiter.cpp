@@ -6080,8 +6080,8 @@ stuck
 A
 value
 might
-be
 *
+be
 left
 in
 iterValue
@@ -6093,10 +6093,7 @@ left
 due
 to
 an
-operation
-time
--
-out
+interrupt
 after
 *
 JSOP_MOREITER
@@ -8752,7 +8749,7 @@ NOT_ARRAY
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx_
 )

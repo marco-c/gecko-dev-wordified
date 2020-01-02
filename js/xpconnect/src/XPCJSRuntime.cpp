@@ -7472,9 +7472,9 @@ TimestampWatchdogWakeup
 Don
 '
 t
-trigger
-the
-operation
+request
+an
+interrupt
 callback
 if
 activity
@@ -7580,7 +7580,7 @@ if
 !
 debuggerAttached
 )
-JS_TriggerOperationCallback
+JS_RequestInterruptCallback
 (
 manager
 -
@@ -7873,7 +7873,7 @@ bool
 XPCJSRuntime
 :
 :
-OperationCallback
+InterruptCallback
 (
 JSContext
 *
@@ -7900,7 +7900,7 @@ the
 first
 time
 the
-operation
+interrupt
 callback
 has
 fired
@@ -7954,7 +7954,7 @@ at
 least
 the
 second
-operation
+interrupt
 callback
 we
 '
@@ -20806,10 +20806,10 @@ runtime
 CTypesActivityCallback
 )
 ;
-JS_SetOperationCallback
+JS_SetInterruptCallback
 (
 runtime
-OperationCallback
+InterruptCallback
 )
 ;
 JS
