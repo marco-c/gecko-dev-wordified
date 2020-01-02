@@ -5624,6 +5624,14 @@ size_t
 length
 )
 {
+JS_ASSERT
+(
+length
+>
+=
+1
+)
+;
 MemoryInitVisitor
 visitor
 (

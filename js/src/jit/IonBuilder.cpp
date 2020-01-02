@@ -45707,15 +45707,9 @@ JS_ASSERT
 (
 objTypeReprs
 .
-kind
+allOfArrayKind
 (
 )
-=
-=
-TypeRepresentation
-:
-:
-SizedArray
 )
 ;
 /

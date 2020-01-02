@@ -1398,6 +1398,16 @@ instances
 of
 this
 type
+.
+/
+/
+count
+must
+be
+at
+least
+1
+.
 void
 initInstance
 (
