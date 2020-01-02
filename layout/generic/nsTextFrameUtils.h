@@ -315,7 +315,7 @@ textframe
 whose
 /
 /
-TEXT_IS_IN_SINGLE_CHAR_MI
+NS_FRAME_IS_IN_SINGLE_CHAR_MI
 flag
 is
 set
