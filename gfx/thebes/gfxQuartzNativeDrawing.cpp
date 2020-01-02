@@ -107,6 +107,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 cairo
 -
 quartz
