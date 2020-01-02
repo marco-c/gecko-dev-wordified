@@ -409,6 +409,8 @@ pre
 .
 appendChild
 (
+document
+.
 createTextNode
 (
 "
@@ -433,6 +435,8 @@ pre
 .
 appendChild
 (
+document
+.
 createTextNode
 (
 "
@@ -457,6 +461,8 @@ pre
 .
 appendChild
 (
+document
+.
 createTextNode
 (
 "
