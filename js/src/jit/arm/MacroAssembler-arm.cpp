@@ -15308,7 +15308,10 @@ Imm32
 (
 arg
 *
-STACK_SLOT_SIZE
+sizeof
+(
+intptr_t
+)
 )
 reg
 )
@@ -22976,7 +22979,10 @@ else
 {
 /
 /
-STACK_SLOT_SIZE
+sizeof
+(
+intptr_t
+)
 account
 for
 the
@@ -22995,7 +23001,10 @@ ComputeByteAlignment
 *
 stackAdjust
 +
-STACK_SLOT_SIZE
+sizeof
+(
+intptr_t
+)
 StackAlignment
 )
 ;

@@ -1274,7 +1274,10 @@ ComputeByteAlignment
 (
 stackForCall_
 +
-STACK_SLOT_SIZE
+sizeof
+(
+intptr_t
+)
 StackAlignment
 )
 ;

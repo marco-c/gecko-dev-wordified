@@ -5194,7 +5194,10 @@ Operand
 esp
 arg
 *
-STACK_SLOT_SIZE
+sizeof
+(
+intptr_t
+)
 )
 )
 ;

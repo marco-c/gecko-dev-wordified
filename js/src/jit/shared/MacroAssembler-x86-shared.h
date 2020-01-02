@@ -1289,7 +1289,10 @@ t
 framePushed_
 +
 =
-STACK_SLOT_SIZE
+sizeof
+(
+intptr_t
+)
 ;
 }
 void
@@ -1387,7 +1390,10 @@ t
 framePushed_
 -
 =
-STACK_SLOT_SIZE
+sizeof
+(
+intptr_t
+)
 ;
 }
 void
@@ -1424,7 +1430,10 @@ JS_ASSERT
 (
 args
 %
-STACK_SLOT_SIZE
+sizeof
+(
+intptr_t
+)
 =
 =
 0

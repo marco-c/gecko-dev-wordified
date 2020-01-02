@@ -249,7 +249,7 @@ THIS_SLOT
 )
 offset
 =
-THIS_FRAME_SLOT
+THIS_FRAME_ARGSLOT
 ;
 else
 offset
