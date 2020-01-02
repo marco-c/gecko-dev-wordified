@@ -6158,6 +6158,14 @@ mLayersId
 0
 )
 {
+CompositorParent
+:
+:
+DeallocateLayerTreeId
+(
+mLayersId
+)
+;
 if
 (
 mContentController
