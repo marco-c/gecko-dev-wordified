@@ -219,6 +219,13 @@ include
 <
 algorithm
 >
+#
+include
+"
+Http2Compression
+.
+h
+"
 /
 /
 defined
@@ -941,6 +948,10 @@ NS_ProcessNextEvent
 NS_GetCurrentThread
 (
 )
+)
+;
+Http2CompressionCleanup
+(
 )
 ;
 return

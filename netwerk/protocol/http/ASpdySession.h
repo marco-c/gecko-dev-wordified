@@ -232,7 +232,7 @@ static
 uint32_t
 kSendingChunkSize
 =
-4096
+4095
 ;
 const
 static
@@ -397,7 +397,7 @@ const
 uint32_t
 kCount
 =
-2
+3
 ;
 /
 /

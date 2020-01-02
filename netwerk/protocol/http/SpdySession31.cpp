@@ -4322,7 +4322,7 @@ if
 gHttpHandler
 -
 >
-AllowSpdyPush
+AllowPush
 (
 )
 )
@@ -4753,7 +4753,7 @@ Window
 Bump
 "
 packet
-12
+16
 )
 ;
 generateSettings_complete
@@ -6069,7 +6069,7 @@ if
 gHttpHandler
 -
 >
-AllowSpdyPush
+AllowPush
 (
 )
 )
