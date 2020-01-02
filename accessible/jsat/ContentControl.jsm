@@ -2801,7 +2801,6 @@ startOffset
 vc
 .
 endOffset
-false
 )
 )
 ;
@@ -2938,7 +2937,6 @@ moveMethod
 rule
 acc
 true
-false
 )
 ;
 }
@@ -2975,7 +2973,6 @@ moveMethod
 ]
 (
 rule
-false
 )
 ;
 }

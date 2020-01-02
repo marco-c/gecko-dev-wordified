@@ -460,20 +460,6 @@ See
 nsIAccessiblePivot
 .
 *
-param
-{
-bool
-}
-aIsFromUserInput
-the
-pivot
-change
-was
-invoked
-by
-the
-user
-*
 /
 pivotChanged
 :
@@ -482,7 +468,6 @@ pivotChanged
 (
 aContext
 aReason
-aIsFromUserInput
 )
 {
 }
@@ -616,7 +601,7 @@ aStart
 aEnd
 aOldStart
 aOldEnd
-aIsFromUserInput
+aIsFromUser
 )
 {
 }
@@ -2329,7 +2314,7 @@ aStart
 aEnd
 aOldStart
 aOldEnd
-aIsFromUserInput
+aIsFromUser
 )
 {
 let
@@ -2349,7 +2334,7 @@ AndroidSdkVersion
 &
 &
 !
-aIsFromUserInput
+aIsFromUser
 )
 {
 if
@@ -2384,7 +2369,7 @@ aStart
 aEnd
 aOldStart
 aOldEnd
-aIsFromUserInput
+aIsFromUser
 )
 .
 details
@@ -2432,7 +2417,7 @@ AndroidSdkVersion
 16
 &
 &
-aIsFromUserInput
+aIsFromUser
 )
 {
 let
@@ -2828,7 +2813,6 @@ B2GPresenter_pivotChanged
 (
 aContext
 aReason
-aIsUserInput
 )
 {
 if
@@ -2897,9 +2881,6 @@ pivotChangedReasons
 [
 aReason
 ]
-isUserInput
-:
-aIsUserInput
 }
 }
 }
@@ -3311,7 +3292,6 @@ aOldPosition
 aReason
 aStartOffset
 aEndOffset
-aIsUserInput
 )
 {
 let
@@ -3334,7 +3314,6 @@ pivotChanged
 (
 context
 aReason
-aIsUserInput
 )
 for
 each
@@ -3454,7 +3433,7 @@ aStart
 aEnd
 aOldStart
 aOldEnd
-aIsFromUserInput
+aIsFromUser
 )
 {
 return
@@ -3474,7 +3453,7 @@ jshint
 ignore
 :
 line
-aIsFromUserInput
+aIsFromUser
 )
 for
 each
