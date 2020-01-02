@@ -3203,8 +3203,10 @@ AddSizeOfTab
 JSRuntime
 *
 rt
-JSObject
-*
+JS
+:
+:
+HandleObject
 obj
 mozilla
 :

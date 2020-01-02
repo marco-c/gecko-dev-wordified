@@ -18460,7 +18460,7 @@ JSSizeOfTab
 (
 JSObject
 *
-obj
+objArg
 size_t
 *
 jsObjectsSize
@@ -18489,6 +18489,16 @@ GetRuntimeInstance
 >
 Runtime
 (
+)
+;
+JS
+:
+:
+RootedObject
+obj
+(
+rt
+objArg
 )
 ;
 TabSizes
