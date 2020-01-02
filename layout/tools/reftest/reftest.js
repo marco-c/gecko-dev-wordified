@@ -1766,9 +1766,9 @@ prefs
 getCharPref
 (
 "
-browser
+b2g
 .
-manifestURL
+system_manifest_url
 "
 )
 )

@@ -8,9 +8,9 @@ mochitests
 user_pref
 (
 "
-browser
+b2g
 .
-homescreenURL
+system_startup_url
 "
 "
 app
@@ -34,9 +34,9 @@ html
 user_pref
 (
 "
-browser
+b2g
 .
-manifestURL
+system_manifest_url
 "
 "
 app
