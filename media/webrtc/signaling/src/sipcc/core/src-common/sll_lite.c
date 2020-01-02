@@ -197,7 +197,7 @@ node
 4
 )
 Lite
-verion
+version
 is
 higher
 risk

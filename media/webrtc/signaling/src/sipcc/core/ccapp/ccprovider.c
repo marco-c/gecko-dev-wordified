@@ -14011,7 +14011,7 @@ DEB_F_PREFIX
 "
 The
 SIS
-verion
+version
 is
 :
 %
