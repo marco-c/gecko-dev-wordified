@@ -5072,7 +5072,7 @@ StyleBorder
 )
 -
 >
-GetBorderImage
+GetBorderImageRequest
 (
 )
 :
@@ -5087,7 +5087,7 @@ StyleBorder
 )
 -
 >
-GetBorderImage
+GetBorderImageRequest
 (
 )
 ;
