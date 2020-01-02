@@ -577,6 +577,12 @@ return
 mChromeEventHandler
 ;
 }
+/
+/
+Outer
+windows
+only
+.
 virtual
 void
 SetChromeEventHandler
