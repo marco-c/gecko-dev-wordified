@@ -5962,7 +5962,7 @@ value
 }
 iccContact
 .
-id
+contactId
 =
 contact
 .
@@ -10106,13 +10106,9 @@ contact
 .
 id
 =
-message
-.
-iccid
-+
 c
 .
-recordId
+contactId
 ;
 return
 contact

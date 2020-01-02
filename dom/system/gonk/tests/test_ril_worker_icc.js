@@ -7965,6 +7965,9 @@ onsuccess
 adn
 :
 {
+fileId
+:
+0x6f3a
 }
 email
 :
@@ -8082,6 +8085,7 @@ contacts
 ;
 for
 (
+let
 key
 in
 contact
@@ -8185,6 +8189,9 @@ let
 expectedContact1
 =
 {
+pbrIndex
+:
+0
 recordId
 :
 1
@@ -8204,6 +8211,9 @@ let
 expectedContact2
 =
 {
+pbrIndex
+:
+0
 recordId
 :
 1
@@ -9022,6 +9032,9 @@ let
 contact
 =
 {
+pbrIndex
+:
+0
 recordId
 :
 ADN_RECORD_ID
@@ -9329,6 +9342,11 @@ RECORD_ID
 =
 1
 ;
+const
+PBR_INDEX
+=
+0
+;
 recordHelper
 .
 readPBR
@@ -9384,9 +9402,16 @@ successCb
 =
 function
 (
+pbrIndex
 recordId
 )
 {
+do_check_eq
+(
+pbrIndex
+PBR_INDEX
+)
+;
 do_check_eq
 (
 recordId
