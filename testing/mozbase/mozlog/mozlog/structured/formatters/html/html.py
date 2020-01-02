@@ -126,6 +126,23 @@ BaseFormatter
 )
 :
     
+"
+"
+"
+Formatter
+that
+produces
+a
+simple
+HTML
+-
+formatted
+report
+.
+"
+"
+"
+    
 def
 __init__
 (
