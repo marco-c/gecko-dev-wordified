@@ -1351,6 +1351,7 @@ WindowsHandle
 )
 sharedHandle
 mFormat
+mSize
 )
 ;
 return
