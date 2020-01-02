@@ -201,9 +201,8 @@ gTestAddon
 =
 addon
 ;
-executeSoon
-(
 aCallback
+(
 )
 ;
 }
