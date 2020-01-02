@@ -368,7 +368,7 @@ are
 .
 /
 /
-preventFurtherDialogs
+disableDialogs
 only
 works
 on
@@ -418,7 +418,7 @@ Ci
 nsIDOMWindowUtils
 )
 .
-preventFurtherDialogs
+disableDialogs
 (
 )
 ;
