@@ -555,9 +555,9 @@ MODERN_MERCURIAL_VERSION
 StrictVersion
 (
 '
-2
+3
 .
-5
+0
 '
 )
 #
