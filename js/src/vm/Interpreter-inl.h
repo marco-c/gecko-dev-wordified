@@ -1862,10 +1862,7 @@ if
 scope
 -
 >
-is
-<
-GlobalObject
->
+isUnqualifiedVarObj
 (
 )
 )
@@ -1953,7 +1950,7 @@ JS_ASSERT
 varobj
 -
 >
-isVarObj
+isQualifiedVarObj
 (
 )
 )

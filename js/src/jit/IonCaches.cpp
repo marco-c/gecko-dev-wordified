@@ -27309,7 +27309,7 @@ else
 if
 (
 !
-LookupNameWithGlobalDefault
+LookupNameUnqualified
 (
 cx
 name

@@ -4265,7 +4265,7 @@ if
 scopeChain
 -
 >
-setVarObj
+setQualifiedVarObj
 (
 cx
 )
@@ -12923,7 +12923,7 @@ rootObject1
 if
 (
 !
-LookupNameWithGlobalDefault
+LookupNameUnqualified
 (
 cx
 name
@@ -21953,7 +21953,7 @@ while
 parent
 -
 >
-isVarObj
+isQualifiedVarObj
 (
 )
 )

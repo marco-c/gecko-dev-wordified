@@ -960,7 +960,7 @@ nfixed
 BaseShape
 :
 :
-VAROBJ
+QUALIFIED_VAROBJ
 |
 BaseShape
 :
@@ -1102,7 +1102,7 @@ nullptr
 BaseShape
 :
 :
-VAROBJ
+QUALIFIED_VAROBJ
 |
 BaseShape
 :

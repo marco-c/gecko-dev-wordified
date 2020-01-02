@@ -39840,7 +39840,7 @@ cx
 if
 (
 !
-LookupNameWithGlobalDefault
+LookupNameUnqualified
 (
 cx
 name
