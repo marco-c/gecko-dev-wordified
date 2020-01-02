@@ -3245,7 +3245,7 @@ them
 altogether
 if
 (
-IsWin7RTMOrLater
+IsNotWin7PreRTM
 (
 )
 &
