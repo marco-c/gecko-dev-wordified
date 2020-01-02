@@ -4396,7 +4396,7 @@ nullptr
 ;
 private
 :
-nsresult
+void
 BoxReflow
 (
 nsBoxLayoutState
