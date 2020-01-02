@@ -31251,10 +31251,7 @@ iteration
 .
 *
 /
-JS_PUBLIC_API
-(
 bool
-)
 init
 (
 JS
@@ -31296,10 +31293,7 @@ val
 .
 *
 /
-JS_PUBLIC_API
-(
 bool
-)
 next
 (
 JS
