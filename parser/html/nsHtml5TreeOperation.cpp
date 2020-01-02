@@ -1363,14 +1363,14 @@ FlushPendingAppendNotifications
 ;
 nsCOMPtr
 <
-nsIContent
+nsINode
 >
 parent
 =
 node
 -
 >
-GetParent
+GetParentNode
 (
 )
 ;
