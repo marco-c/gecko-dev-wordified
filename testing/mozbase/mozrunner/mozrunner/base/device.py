@@ -292,6 +292,14 @@ self
 on_output
                         
 '
+onFinish
+'
+:
+self
+.
+on_finish
+                        
+'
 onTimeout
 '
 :
@@ -1046,6 +1054,19 @@ last_test
 timeout
 )
 )
+        
+self
+.
+check_for_crashes
+(
+)
+    
+def
+on_finish
+(
+self
+)
+:
         
 self
 .
