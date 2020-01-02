@@ -243,17 +243,17 @@ Id
 res_books_uncoupled
 .
 h
-17022
-2010
+19057
+2014
 -
-03
+01
 -
-25
-03
+22
+12
 :
-45
+32
 :
-42Z
+31Z
 xiphmont
 *
 *
@@ -346,7 +346,7 @@ _vq_quantlist__16u0__p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u0__p1_0
 [
 ]
@@ -444,7 +444,7 @@ _16u0__p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__16u0__p1_0
@@ -477,7 +477,7 @@ _vq_quantlist__16u0__p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u0__p2_0
 [
 ]
@@ -575,7 +575,7 @@ _16u0__p2_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__16u0__p2_0
@@ -610,7 +610,7 @@ _vq_quantlist__16u0__p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u0__p3_0
 [
 ]
@@ -1252,7 +1252,7 @@ _16u0__p3_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__16u0__p3_0
@@ -1287,7 +1287,7 @@ _vq_quantlist__16u0__p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u0__p4_0
 [
 ]
@@ -1929,7 +1929,7 @@ _16u0__p4_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__16u0__p4_0
@@ -1968,7 +1968,7 @@ _vq_quantlist__16u0__p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u0__p5_0
 [
 ]
@@ -2066,7 +2066,7 @@ _16u0__p5_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__16u0__p5_0
@@ -2109,7 +2109,7 @@ _vq_quantlist__16u0__p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u0__p6_0
 [
 ]
@@ -2295,7 +2295,7 @@ _16u0__p6_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__16u0__p6_0
@@ -2330,7 +2330,7 @@ _vq_quantlist__16u0__p6_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u0__p6_1
 [
 ]
@@ -2372,7 +2372,7 @@ _16u0__p6_1
 2
 25
 (
-long
+char
 *
 )
 _vq_lengthlist__16u0__p6_1
@@ -2405,7 +2405,7 @@ _vq_quantlist__16u0__p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u0__p7_0
 [
 ]
@@ -2503,7 +2503,7 @@ _16u0__p7_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__16u0__p7_0
@@ -2548,7 +2548,7 @@ _vq_quantlist__16u0__p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u0__p7_1
 [
 ]
@@ -2790,7 +2790,7 @@ _16u0__p7_1
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__16u0__p7_1
@@ -2841,7 +2841,7 @@ _vq_quantlist__16u0__p7_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u0__p7_2
 [
 ]
@@ -3299,7 +3299,7 @@ _16u0__p7_2
 2
 441
 (
-long
+char
 *
 )
 _vq_lengthlist__16u0__p7_2
@@ -3319,7 +3319,7 @@ _vq_quantlist__16u0__p7_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__16u0__single
 [
 ]
@@ -3400,7 +3400,7 @@ _huff_book__16u0__single
 2
 64
 (
-long
+char
 *
 )
 _huff_lengthlist__16u0__single
@@ -3415,7 +3415,7 @@ NULL
 ;
 static
 const
-long
+char
 _huff_lengthlist__16u1__long
 [
 ]
@@ -3532,7 +3532,7 @@ _huff_book__16u1__long
 2
 100
 (
-long
+char
 *
 )
 _huff_lengthlist__16u1__long
@@ -3560,7 +3560,7 @@ _vq_quantlist__16u1__p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u1__p1_0
 [
 ]
@@ -3658,7 +3658,7 @@ _16u1__p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__16u1__p1_0
@@ -3691,7 +3691,7 @@ _vq_quantlist__16u1__p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u1__p2_0
 [
 ]
@@ -3789,7 +3789,7 @@ _16u1__p2_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__16u1__p2_0
@@ -3824,7 +3824,7 @@ _vq_quantlist__16u1__p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u1__p3_0
 [
 ]
@@ -4466,7 +4466,7 @@ _16u1__p3_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__16u1__p3_0
@@ -4501,7 +4501,7 @@ _vq_quantlist__16u1__p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u1__p4_0
 [
 ]
@@ -5143,7 +5143,7 @@ _16u1__p4_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__16u1__p4_0
@@ -5182,7 +5182,7 @@ _vq_quantlist__16u1__p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u1__p5_0
 [
 ]
@@ -5280,7 +5280,7 @@ _16u1__p5_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__16u1__p5_0
@@ -5319,7 +5319,7 @@ _vq_quantlist__16u1__p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u1__p6_0
 [
 ]
@@ -5417,7 +5417,7 @@ _16u1__p6_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__16u1__p6_0
@@ -5450,7 +5450,7 @@ _vq_quantlist__16u1__p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u1__p7_0
 [
 ]
@@ -5548,7 +5548,7 @@ _16u1__p7_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__16u1__p7_0
@@ -5589,7 +5589,7 @@ _vq_quantlist__16u1__p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u1__p7_1
 [
 ]
@@ -5727,7 +5727,7 @@ _16u1__p7_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__16u1__p7_1
@@ -5768,7 +5768,7 @@ _vq_quantlist__16u1__p8_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u1__p8_0
 [
 ]
@@ -5906,7 +5906,7 @@ _16u1__p8_0
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__16u1__p8_0
@@ -5947,7 +5947,7 @@ _vq_quantlist__16u1__p8_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u1__p8_1
 [
 ]
@@ -6085,7 +6085,7 @@ _16u1__p8_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__16u1__p8_1
@@ -6130,7 +6130,7 @@ _vq_quantlist__16u1__p9_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u1__p9_0
 [
 ]
@@ -6372,7 +6372,7 @@ _16u1__p9_0
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__16u1__p9_0
@@ -6417,7 +6417,7 @@ _vq_quantlist__16u1__p9_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u1__p9_1
 [
 ]
@@ -6659,7 +6659,7 @@ _16u1__p9_1
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__16u1__p9_1
@@ -6706,7 +6706,7 @@ _vq_quantlist__16u1__p9_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u1__p9_2
 [
 ]
@@ -7012,7 +7012,7 @@ _16u1__p9_2
 2
 289
 (
-long
+char
 *
 )
 _vq_lengthlist__16u1__p9_2
@@ -7032,7 +7032,7 @@ _vq_quantlist__16u1__p9_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__16u1__short
 [
 ]
@@ -7149,7 +7149,7 @@ _huff_book__16u1__short
 2
 100
 (
-long
+char
 *
 )
 _huff_lengthlist__16u1__short
@@ -7164,7 +7164,7 @@ NULL
 ;
 static
 const
-long
+char
 _huff_lengthlist__16u2__long
 [
 ]
@@ -7281,7 +7281,7 @@ _huff_book__16u2__long
 2
 100
 (
-long
+char
 *
 )
 _huff_lengthlist__16u2__long
@@ -7309,7 +7309,7 @@ _vq_quantlist__16u2_p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u2_p1_0
 [
 ]
@@ -7407,7 +7407,7 @@ _16u2_p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__16u2_p1_0
@@ -7442,7 +7442,7 @@ _vq_quantlist__16u2_p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u2_p2_0
 [
 ]
@@ -8084,7 +8084,7 @@ _16u2_p2_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__16u2_p2_0
@@ -8123,7 +8123,7 @@ _vq_quantlist__16u2_p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u2_p3_0
 [
 ]
@@ -8221,7 +8221,7 @@ _16u2_p3_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__16u2_p3_0
@@ -8268,7 +8268,7 @@ _vq_quantlist__16u2_p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u2_p4_0
 [
 ]
@@ -8574,7 +8574,7 @@ _16u2_p4_0
 2
 289
 (
-long
+char
 *
 )
 _vq_lengthlist__16u2_p4_0
@@ -8607,7 +8607,7 @@ _vq_quantlist__16u2_p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u2_p5_0
 [
 ]
@@ -8705,7 +8705,7 @@ _16u2_p5_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__16u2_p5_0
@@ -8746,7 +8746,7 @@ _vq_quantlist__16u2_p5_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u2_p5_1
 [
 ]
@@ -8884,7 +8884,7 @@ _16u2_p5_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__16u2_p5_1
@@ -8927,7 +8927,7 @@ _vq_quantlist__16u2_p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u2_p6_0
 [
 ]
@@ -9113,7 +9113,7 @@ _16u2_p6_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__16u2_p6_0
@@ -9148,7 +9148,7 @@ _vq_quantlist__16u2_p6_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u2_p6_1
 [
 ]
@@ -9190,7 +9190,7 @@ _16u2_p6_1
 2
 25
 (
-long
+char
 *
 )
 _vq_lengthlist__16u2_p6_1
@@ -9233,7 +9233,7 @@ _vq_quantlist__16u2_p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u2_p7_0
 [
 ]
@@ -9419,7 +9419,7 @@ _16u2_p7_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__16u2_p7_0
@@ -9460,7 +9460,7 @@ _vq_quantlist__16u2_p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u2_p7_1
 [
 ]
@@ -9598,7 +9598,7 @@ _16u2_p7_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__16u2_p7_1
@@ -9643,7 +9643,7 @@ _vq_quantlist__16u2_p8_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u2_p8_0
 [
 ]
@@ -9885,7 +9885,7 @@ _16u2_p8_0
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__16u2_p8_0
@@ -9936,7 +9936,7 @@ _vq_quantlist__16u2_p8_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u2_p8_1
 [
 ]
@@ -10394,7 +10394,7 @@ _16u2_p8_1
 2
 441
 (
-long
+char
 *
 )
 _vq_lengthlist__16u2_p8_1
@@ -10439,7 +10439,7 @@ _vq_quantlist__16u2_p9_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u2_p9_0
 [
 ]
@@ -10681,7 +10681,7 @@ _16u2_p9_0
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__16u2_p9_0
@@ -10730,7 +10730,7 @@ _vq_quantlist__16u2_p9_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u2_p9_1
 [
 ]
@@ -11108,7 +11108,7 @@ _16u2_p9_1
 2
 361
 (
-long
+char
 *
 )
 _vq_lengthlist__16u2_p9_1
@@ -11187,7 +11187,7 @@ _vq_quantlist__16u2_p9_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__16u2_p9_2
 [
 ]
@@ -11253,7 +11253,7 @@ _16u2_p9_2
 1
 49
 (
-long
+char
 *
 )
 _vq_lengthlist__16u2_p9_2
@@ -11273,7 +11273,7 @@ _vq_quantlist__16u2_p9_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__16u2__short
 [
 ]
@@ -11390,7 +11390,7 @@ _huff_book__16u2__short
 2
 100
 (
-long
+char
 *
 )
 _huff_lengthlist__16u2__short
@@ -11418,7 +11418,7 @@ _vq_quantlist__8u0__p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u0__p1_0
 [
 ]
@@ -11516,7 +11516,7 @@ _8u0__p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__8u0__p1_0
@@ -11549,7 +11549,7 @@ _vq_quantlist__8u0__p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u0__p2_0
 [
 ]
@@ -11647,7 +11647,7 @@ _8u0__p2_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__8u0__p2_0
@@ -11682,7 +11682,7 @@ _vq_quantlist__8u0__p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u0__p3_0
 [
 ]
@@ -12324,7 +12324,7 @@ _8u0__p3_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__8u0__p3_0
@@ -12359,7 +12359,7 @@ _vq_quantlist__8u0__p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u0__p4_0
 [
 ]
@@ -13001,7 +13001,7 @@ _8u0__p4_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__8u0__p4_0
@@ -13040,7 +13040,7 @@ _vq_quantlist__8u0__p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u0__p5_0
 [
 ]
@@ -13138,7 +13138,7 @@ _8u0__p5_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__8u0__p5_0
@@ -13181,7 +13181,7 @@ _vq_quantlist__8u0__p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u0__p6_0
 [
 ]
@@ -13367,7 +13367,7 @@ _8u0__p6_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__8u0__p6_0
@@ -13402,7 +13402,7 @@ _vq_quantlist__8u0__p6_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u0__p6_1
 [
 ]
@@ -13444,7 +13444,7 @@ _8u0__p6_1
 2
 25
 (
-long
+char
 *
 )
 _vq_lengthlist__8u0__p6_1
@@ -13477,7 +13477,7 @@ _vq_quantlist__8u0__p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u0__p7_0
 [
 ]
@@ -13575,7 +13575,7 @@ _8u0__p7_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__8u0__p7_0
@@ -13620,7 +13620,7 @@ _vq_quantlist__8u0__p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u0__p7_1
 [
 ]
@@ -13862,7 +13862,7 @@ _8u0__p7_1
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__8u0__p7_1
@@ -13913,7 +13913,7 @@ _vq_quantlist__8u0__p7_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u0__p7_2
 [
 ]
@@ -14371,7 +14371,7 @@ _8u0__p7_2
 2
 441
 (
-long
+char
 *
 )
 _vq_lengthlist__8u0__p7_2
@@ -14391,7 +14391,7 @@ _vq_quantlist__8u0__p7_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__8u0__single
 [
 ]
@@ -14472,7 +14472,7 @@ _huff_book__8u0__single
 2
 64
 (
-long
+char
 *
 )
 _huff_lengthlist__8u0__single
@@ -14500,7 +14500,7 @@ _vq_quantlist__8u1__p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u1__p1_0
 [
 ]
@@ -14598,7 +14598,7 @@ _8u1__p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__8u1__p1_0
@@ -14631,7 +14631,7 @@ _vq_quantlist__8u1__p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u1__p2_0
 [
 ]
@@ -14729,7 +14729,7 @@ _8u1__p2_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__8u1__p2_0
@@ -14764,7 +14764,7 @@ _vq_quantlist__8u1__p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u1__p3_0
 [
 ]
@@ -15406,7 +15406,7 @@ _8u1__p3_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__8u1__p3_0
@@ -15441,7 +15441,7 @@ _vq_quantlist__8u1__p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u1__p4_0
 [
 ]
@@ -16083,7 +16083,7 @@ _8u1__p4_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__8u1__p4_0
@@ -16122,7 +16122,7 @@ _vq_quantlist__8u1__p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u1__p5_0
 [
 ]
@@ -16220,7 +16220,7 @@ _8u1__p5_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__8u1__p5_0
@@ -16259,7 +16259,7 @@ _vq_quantlist__8u1__p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u1__p6_0
 [
 ]
@@ -16357,7 +16357,7 @@ _8u1__p6_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__8u1__p6_0
@@ -16390,7 +16390,7 @@ _vq_quantlist__8u1__p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u1__p7_0
 [
 ]
@@ -16488,7 +16488,7 @@ _8u1__p7_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__8u1__p7_0
@@ -16529,7 +16529,7 @@ _vq_quantlist__8u1__p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u1__p7_1
 [
 ]
@@ -16667,7 +16667,7 @@ _8u1__p7_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__8u1__p7_1
@@ -16708,7 +16708,7 @@ _vq_quantlist__8u1__p8_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u1__p8_0
 [
 ]
@@ -16846,7 +16846,7 @@ _8u1__p8_0
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__8u1__p8_0
@@ -16887,7 +16887,7 @@ _vq_quantlist__8u1__p8_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u1__p8_1
 [
 ]
@@ -17025,7 +17025,7 @@ _8u1__p8_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__8u1__p8_1
@@ -17070,7 +17070,7 @@ _vq_quantlist__8u1__p9_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u1__p9_0
 [
 ]
@@ -17312,7 +17312,7 @@ _8u1__p9_0
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__8u1__p9_0
@@ -17357,7 +17357,7 @@ _vq_quantlist__8u1__p9_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u1__p9_1
 [
 ]
@@ -17599,7 +17599,7 @@ _8u1__p9_1
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__8u1__p9_1
@@ -17646,7 +17646,7 @@ _vq_quantlist__8u1__p9_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__8u1__p9_2
 [
 ]
@@ -17952,7 +17952,7 @@ _8u1__p9_2
 2
 289
 (
-long
+char
 *
 )
 _vq_lengthlist__8u1__p9_2
@@ -17972,7 +17972,7 @@ _vq_quantlist__8u1__p9_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__8u1__single
 [
 ]
@@ -18089,7 +18089,7 @@ _huff_book__8u1__single
 2
 100
 (
-long
+char
 *
 )
 _huff_lengthlist__8u1__single
@@ -18104,7 +18104,7 @@ NULL
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u0__long
 [
 ]
@@ -18185,7 +18185,7 @@ _huff_book__44u0__long
 2
 64
 (
-long
+char
 *
 )
 _huff_lengthlist__44u0__long
@@ -18213,7 +18213,7 @@ _vq_quantlist__44u0__p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u0__p1_0
 [
 ]
@@ -18311,7 +18311,7 @@ _44u0__p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u0__p1_0
@@ -18344,7 +18344,7 @@ _vq_quantlist__44u0__p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u0__p2_0
 [
 ]
@@ -18442,7 +18442,7 @@ _44u0__p2_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u0__p2_0
@@ -18477,7 +18477,7 @@ _vq_quantlist__44u0__p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u0__p3_0
 [
 ]
@@ -19119,7 +19119,7 @@ _44u0__p3_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u0__p3_0
@@ -19154,7 +19154,7 @@ _vq_quantlist__44u0__p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u0__p4_0
 [
 ]
@@ -19796,7 +19796,7 @@ _44u0__p4_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u0__p4_0
@@ -19835,7 +19835,7 @@ _vq_quantlist__44u0__p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u0__p5_0
 [
 ]
@@ -19933,7 +19933,7 @@ _44u0__p5_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u0__p5_0
@@ -19976,7 +19976,7 @@ _vq_quantlist__44u0__p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u0__p6_0
 [
 ]
@@ -20162,7 +20162,7 @@ _44u0__p6_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u0__p6_0
@@ -20197,7 +20197,7 @@ _vq_quantlist__44u0__p6_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u0__p6_1
 [
 ]
@@ -20239,7 +20239,7 @@ _44u0__p6_1
 2
 25
 (
-long
+char
 *
 )
 _vq_lengthlist__44u0__p6_1
@@ -20274,7 +20274,7 @@ _vq_quantlist__44u0__p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u0__p7_0
 [
 ]
@@ -20916,7 +20916,7 @@ _44u0__p7_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u0__p7_0
@@ -20959,7 +20959,7 @@ _vq_quantlist__44u0__p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u0__p7_1
 [
 ]
@@ -21145,7 +21145,7 @@ _44u0__p7_1
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u0__p7_1
@@ -21188,7 +21188,7 @@ _vq_quantlist__44u0__p7_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u0__p7_2
 [
 ]
@@ -21374,7 +21374,7 @@ _44u0__p7_2
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u0__p7_2
@@ -21394,7 +21394,7 @@ _vq_quantlist__44u0__p7_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u0__short
 [
 ]
@@ -21475,7 +21475,7 @@ _huff_book__44u0__short
 2
 64
 (
-long
+char
 *
 )
 _huff_lengthlist__44u0__short
@@ -21490,7 +21490,7 @@ NULL
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u1__long
 [
 ]
@@ -21571,7 +21571,7 @@ _huff_book__44u1__long
 2
 64
 (
-long
+char
 *
 )
 _huff_lengthlist__44u1__long
@@ -21599,7 +21599,7 @@ _vq_quantlist__44u1__p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u1__p1_0
 [
 ]
@@ -21697,7 +21697,7 @@ _44u1__p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u1__p1_0
@@ -21730,7 +21730,7 @@ _vq_quantlist__44u1__p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u1__p2_0
 [
 ]
@@ -21828,7 +21828,7 @@ _44u1__p2_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u1__p2_0
@@ -21863,7 +21863,7 @@ _vq_quantlist__44u1__p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u1__p3_0
 [
 ]
@@ -22505,7 +22505,7 @@ _44u1__p3_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u1__p3_0
@@ -22540,7 +22540,7 @@ _vq_quantlist__44u1__p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u1__p4_0
 [
 ]
@@ -23182,7 +23182,7 @@ _44u1__p4_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u1__p4_0
@@ -23221,7 +23221,7 @@ _vq_quantlist__44u1__p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u1__p5_0
 [
 ]
@@ -23319,7 +23319,7 @@ _44u1__p5_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u1__p5_0
@@ -23362,7 +23362,7 @@ _vq_quantlist__44u1__p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u1__p6_0
 [
 ]
@@ -23548,7 +23548,7 @@ _44u1__p6_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u1__p6_0
@@ -23583,7 +23583,7 @@ _vq_quantlist__44u1__p6_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u1__p6_1
 [
 ]
@@ -23625,7 +23625,7 @@ _44u1__p6_1
 2
 25
 (
-long
+char
 *
 )
 _vq_lengthlist__44u1__p6_1
@@ -23662,7 +23662,7 @@ _vq_quantlist__44u1__p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u1__p7_0
 [
 ]
@@ -23728,7 +23728,7 @@ _44u1__p7_0
 2
 49
 (
-long
+char
 *
 )
 _vq_lengthlist__44u1__p7_0
@@ -23771,7 +23771,7 @@ _vq_quantlist__44u1__p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u1__p7_1
 [
 ]
@@ -23957,7 +23957,7 @@ _44u1__p7_1
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u1__p7_1
@@ -24000,7 +24000,7 @@ _vq_quantlist__44u1__p7_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u1__p7_2
 [
 ]
@@ -24186,7 +24186,7 @@ _44u1__p7_2
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u1__p7_2
@@ -24206,7 +24206,7 @@ _vq_quantlist__44u1__p7_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u1__short
 [
 ]
@@ -24287,7 +24287,7 @@ _huff_book__44u1__short
 2
 64
 (
-long
+char
 *
 )
 _huff_lengthlist__44u1__short
@@ -24302,7 +24302,7 @@ NULL
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u2__long
 [
 ]
@@ -24383,7 +24383,7 @@ _huff_book__44u2__long
 2
 64
 (
-long
+char
 *
 )
 _huff_lengthlist__44u2__long
@@ -24411,7 +24411,7 @@ _vq_quantlist__44u2__p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u2__p1_0
 [
 ]
@@ -24509,7 +24509,7 @@ _44u2__p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u2__p1_0
@@ -24542,7 +24542,7 @@ _vq_quantlist__44u2__p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u2__p2_0
 [
 ]
@@ -24640,7 +24640,7 @@ _44u2__p2_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u2__p2_0
@@ -24675,7 +24675,7 @@ _vq_quantlist__44u2__p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u2__p3_0
 [
 ]
@@ -25317,7 +25317,7 @@ _44u2__p3_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u2__p3_0
@@ -25352,7 +25352,7 @@ _vq_quantlist__44u2__p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u2__p4_0
 [
 ]
@@ -25994,7 +25994,7 @@ _44u2__p4_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u2__p4_0
@@ -26033,7 +26033,7 @@ _vq_quantlist__44u2__p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u2__p5_0
 [
 ]
@@ -26131,7 +26131,7 @@ _44u2__p5_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u2__p5_0
@@ -26174,7 +26174,7 @@ _vq_quantlist__44u2__p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u2__p6_0
 [
 ]
@@ -26360,7 +26360,7 @@ _44u2__p6_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u2__p6_0
@@ -26395,7 +26395,7 @@ _vq_quantlist__44u2__p6_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u2__p6_1
 [
 ]
@@ -26437,7 +26437,7 @@ _44u2__p6_1
 2
 25
 (
-long
+char
 *
 )
 _vq_lengthlist__44u2__p6_1
@@ -26476,7 +26476,7 @@ _vq_quantlist__44u2__p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u2__p7_0
 [
 ]
@@ -26574,7 +26574,7 @@ _44u2__p7_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u2__p7_0
@@ -26617,7 +26617,7 @@ _vq_quantlist__44u2__p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u2__p7_1
 [
 ]
@@ -26803,7 +26803,7 @@ _44u2__p7_1
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u2__p7_1
@@ -26846,7 +26846,7 @@ _vq_quantlist__44u2__p7_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u2__p7_2
 [
 ]
@@ -27032,7 +27032,7 @@ _44u2__p7_2
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u2__p7_2
@@ -27052,7 +27052,7 @@ _vq_quantlist__44u2__p7_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u2__short
 [
 ]
@@ -27133,7 +27133,7 @@ _huff_book__44u2__short
 2
 64
 (
-long
+char
 *
 )
 _huff_lengthlist__44u2__short
@@ -27148,7 +27148,7 @@ NULL
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u3__long
 [
 ]
@@ -27229,7 +27229,7 @@ _huff_book__44u3__long
 2
 64
 (
-long
+char
 *
 )
 _huff_lengthlist__44u3__long
@@ -27257,7 +27257,7 @@ _vq_quantlist__44u3__p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u3__p1_0
 [
 ]
@@ -27355,7 +27355,7 @@ _44u3__p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u3__p1_0
@@ -27388,7 +27388,7 @@ _vq_quantlist__44u3__p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u3__p2_0
 [
 ]
@@ -27486,7 +27486,7 @@ _44u3__p2_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u3__p2_0
@@ -27521,7 +27521,7 @@ _vq_quantlist__44u3__p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u3__p3_0
 [
 ]
@@ -28163,7 +28163,7 @@ _44u3__p3_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u3__p3_0
@@ -28198,7 +28198,7 @@ _vq_quantlist__44u3__p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u3__p4_0
 [
 ]
@@ -28840,7 +28840,7 @@ _44u3__p4_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u3__p4_0
@@ -28879,7 +28879,7 @@ _vq_quantlist__44u3__p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u3__p5_0
 [
 ]
@@ -28977,7 +28977,7 @@ _44u3__p5_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u3__p5_0
@@ -29020,7 +29020,7 @@ _vq_quantlist__44u3__p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u3__p6_0
 [
 ]
@@ -29206,7 +29206,7 @@ _44u3__p6_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u3__p6_0
@@ -29241,7 +29241,7 @@ _vq_quantlist__44u3__p6_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u3__p6_1
 [
 ]
@@ -29283,7 +29283,7 @@ _44u3__p6_1
 2
 25
 (
-long
+char
 *
 )
 _vq_lengthlist__44u3__p6_1
@@ -29322,7 +29322,7 @@ _vq_quantlist__44u3__p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u3__p7_0
 [
 ]
@@ -29420,7 +29420,7 @@ _44u3__p7_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u3__p7_0
@@ -29465,7 +29465,7 @@ _vq_quantlist__44u3__p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u3__p7_1
 [
 ]
@@ -29707,7 +29707,7 @@ _44u3__p7_1
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__44u3__p7_1
@@ -29754,7 +29754,7 @@ _vq_quantlist__44u3__p7_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u3__p7_2
 [
 ]
@@ -30060,7 +30060,7 @@ _44u3__p7_2
 2
 289
 (
-long
+char
 *
 )
 _vq_lengthlist__44u3__p7_2
@@ -30080,7 +30080,7 @@ _vq_quantlist__44u3__p7_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u3__short
 [
 ]
@@ -30161,7 +30161,7 @@ _huff_book__44u3__short
 2
 64
 (
-long
+char
 *
 )
 _huff_lengthlist__44u3__short
@@ -30176,7 +30176,7 @@ NULL
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u4__long
 [
 ]
@@ -30257,7 +30257,7 @@ _huff_book__44u4__long
 2
 64
 (
-long
+char
 *
 )
 _huff_lengthlist__44u4__long
@@ -30285,7 +30285,7 @@ _vq_quantlist__44u4__p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u4__p1_0
 [
 ]
@@ -30383,7 +30383,7 @@ _44u4__p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u4__p1_0
@@ -30416,7 +30416,7 @@ _vq_quantlist__44u4__p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u4__p2_0
 [
 ]
@@ -30514,7 +30514,7 @@ _44u4__p2_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u4__p2_0
@@ -30549,7 +30549,7 @@ _vq_quantlist__44u4__p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u4__p3_0
 [
 ]
@@ -31191,7 +31191,7 @@ _44u4__p3_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u4__p3_0
@@ -31226,7 +31226,7 @@ _vq_quantlist__44u4__p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u4__p4_0
 [
 ]
@@ -31868,7 +31868,7 @@ _44u4__p4_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u4__p4_0
@@ -31907,7 +31907,7 @@ _vq_quantlist__44u4__p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u4__p5_0
 [
 ]
@@ -32005,7 +32005,7 @@ _44u4__p5_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u4__p5_0
@@ -32048,7 +32048,7 @@ _vq_quantlist__44u4__p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u4__p6_0
 [
 ]
@@ -32234,7 +32234,7 @@ _44u4__p6_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u4__p6_0
@@ -32269,7 +32269,7 @@ _vq_quantlist__44u4__p6_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u4__p6_1
 [
 ]
@@ -32311,7 +32311,7 @@ _44u4__p6_1
 2
 25
 (
-long
+char
 *
 )
 _vq_lengthlist__44u4__p6_1
@@ -32354,7 +32354,7 @@ _vq_quantlist__44u4__p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u4__p7_0
 [
 ]
@@ -32540,7 +32540,7 @@ _44u4__p7_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u4__p7_0
@@ -32585,7 +32585,7 @@ _vq_quantlist__44u4__p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u4__p7_1
 [
 ]
@@ -32827,7 +32827,7 @@ _44u4__p7_1
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__44u4__p7_1
@@ -32874,7 +32874,7 @@ _vq_quantlist__44u4__p7_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u4__p7_2
 [
 ]
@@ -33180,7 +33180,7 @@ _44u4__p7_2
 2
 289
 (
-long
+char
 *
 )
 _vq_lengthlist__44u4__p7_2
@@ -33200,7 +33200,7 @@ _vq_quantlist__44u4__p7_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u4__short
 [
 ]
@@ -33281,7 +33281,7 @@ _huff_book__44u4__short
 2
 64
 (
-long
+char
 *
 )
 _huff_lengthlist__44u4__short
@@ -33296,7 +33296,7 @@ NULL
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u5__long
 [
 ]
@@ -33413,7 +33413,7 @@ _huff_book__44u5__long
 2
 100
 (
-long
+char
 *
 )
 _huff_lengthlist__44u5__long
@@ -33441,7 +33441,7 @@ _vq_quantlist__44u5__p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u5__p1_0
 [
 ]
@@ -33539,7 +33539,7 @@ _44u5__p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u5__p1_0
@@ -33572,7 +33572,7 @@ _vq_quantlist__44u5__p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u5__p2_0
 [
 ]
@@ -33670,7 +33670,7 @@ _44u5__p2_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u5__p2_0
@@ -33705,7 +33705,7 @@ _vq_quantlist__44u5__p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u5__p3_0
 [
 ]
@@ -34347,7 +34347,7 @@ _44u5__p3_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u5__p3_0
@@ -34382,7 +34382,7 @@ _vq_quantlist__44u5__p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u5__p4_0
 [
 ]
@@ -35024,7 +35024,7 @@ _44u5__p4_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u5__p4_0
@@ -35063,7 +35063,7 @@ _vq_quantlist__44u5__p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u5__p5_0
 [
 ]
@@ -35161,7 +35161,7 @@ _44u5__p5_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u5__p5_0
@@ -35200,7 +35200,7 @@ _vq_quantlist__44u5__p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u5__p6_0
 [
 ]
@@ -35298,7 +35298,7 @@ _44u5__p6_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u5__p6_0
@@ -35331,7 +35331,7 @@ _vq_quantlist__44u5__p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u5__p7_0
 [
 ]
@@ -35429,7 +35429,7 @@ _44u5__p7_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u5__p7_0
@@ -35470,7 +35470,7 @@ _vq_quantlist__44u5__p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u5__p7_1
 [
 ]
@@ -35608,7 +35608,7 @@ _44u5__p7_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__44u5__p7_1
@@ -35649,7 +35649,7 @@ _vq_quantlist__44u5__p8_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u5__p8_0
 [
 ]
@@ -35787,7 +35787,7 @@ _44u5__p8_0
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__44u5__p8_0
@@ -35828,7 +35828,7 @@ _vq_quantlist__44u5__p8_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u5__p8_1
 [
 ]
@@ -35966,7 +35966,7 @@ _44u5__p8_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__44u5__p8_1
@@ -36009,7 +36009,7 @@ _vq_quantlist__44u5__p9_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u5__p9_0
 [
 ]
@@ -36195,7 +36195,7 @@ _44u5__p9_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u5__p9_0
@@ -36240,7 +36240,7 @@ _vq_quantlist__44u5__p9_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u5__p9_1
 [
 ]
@@ -36482,7 +36482,7 @@ _44u5__p9_1
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__44u5__p9_1
@@ -36529,7 +36529,7 @@ _vq_quantlist__44u5__p9_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u5__p9_2
 [
 ]
@@ -36835,7 +36835,7 @@ _44u5__p9_2
 2
 289
 (
-long
+char
 *
 )
 _vq_lengthlist__44u5__p9_2
@@ -36855,7 +36855,7 @@ _vq_quantlist__44u5__p9_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u5__short
 [
 ]
@@ -36972,7 +36972,7 @@ _huff_book__44u5__short
 2
 100
 (
-long
+char
 *
 )
 _huff_lengthlist__44u5__short
@@ -36987,7 +36987,7 @@ NULL
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u6__long
 [
 ]
@@ -37104,7 +37104,7 @@ _huff_book__44u6__long
 2
 100
 (
-long
+char
 *
 )
 _huff_lengthlist__44u6__long
@@ -37132,7 +37132,7 @@ _vq_quantlist__44u6__p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u6__p1_0
 [
 ]
@@ -37230,7 +37230,7 @@ _44u6__p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u6__p1_0
@@ -37263,7 +37263,7 @@ _vq_quantlist__44u6__p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u6__p2_0
 [
 ]
@@ -37361,7 +37361,7 @@ _44u6__p2_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u6__p2_0
@@ -37396,7 +37396,7 @@ _vq_quantlist__44u6__p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u6__p3_0
 [
 ]
@@ -38038,7 +38038,7 @@ _44u6__p3_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u6__p3_0
@@ -38073,7 +38073,7 @@ _vq_quantlist__44u6__p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u6__p4_0
 [
 ]
@@ -38715,7 +38715,7 @@ _44u6__p4_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u6__p4_0
@@ -38754,7 +38754,7 @@ _vq_quantlist__44u6__p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u6__p5_0
 [
 ]
@@ -38852,7 +38852,7 @@ _44u6__p5_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u6__p5_0
@@ -38891,7 +38891,7 @@ _vq_quantlist__44u6__p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u6__p6_0
 [
 ]
@@ -38989,7 +38989,7 @@ _44u6__p6_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u6__p6_0
@@ -39022,7 +39022,7 @@ _vq_quantlist__44u6__p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u6__p7_0
 [
 ]
@@ -39120,7 +39120,7 @@ _44u6__p7_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u6__p7_0
@@ -39161,7 +39161,7 @@ _vq_quantlist__44u6__p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u6__p7_1
 [
 ]
@@ -39299,7 +39299,7 @@ _44u6__p7_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__44u6__p7_1
@@ -39340,7 +39340,7 @@ _vq_quantlist__44u6__p8_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u6__p8_0
 [
 ]
@@ -39478,7 +39478,7 @@ _44u6__p8_0
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__44u6__p8_0
@@ -39519,7 +39519,7 @@ _vq_quantlist__44u6__p8_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u6__p8_1
 [
 ]
@@ -39657,7 +39657,7 @@ _44u6__p8_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__44u6__p8_1
@@ -39702,7 +39702,7 @@ _vq_quantlist__44u6__p9_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u6__p9_0
 [
 ]
@@ -39944,7 +39944,7 @@ _44u6__p9_0
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__44u6__p9_0
@@ -39989,7 +39989,7 @@ _vq_quantlist__44u6__p9_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u6__p9_1
 [
 ]
@@ -40231,7 +40231,7 @@ _44u6__p9_1
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__44u6__p9_1
@@ -40278,7 +40278,7 @@ _vq_quantlist__44u6__p9_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u6__p9_2
 [
 ]
@@ -40584,7 +40584,7 @@ _44u6__p9_2
 2
 289
 (
-long
+char
 *
 )
 _vq_lengthlist__44u6__p9_2
@@ -40604,7 +40604,7 @@ _vq_quantlist__44u6__p9_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u6__short
 [
 ]
@@ -40721,7 +40721,7 @@ _huff_book__44u6__short
 2
 100
 (
-long
+char
 *
 )
 _huff_lengthlist__44u6__short
@@ -40736,7 +40736,7 @@ NULL
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u7__long
 [
 ]
@@ -40853,7 +40853,7 @@ _huff_book__44u7__long
 2
 100
 (
-long
+char
 *
 )
 _huff_lengthlist__44u7__long
@@ -40881,7 +40881,7 @@ _vq_quantlist__44u7__p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u7__p1_0
 [
 ]
@@ -40979,7 +40979,7 @@ _44u7__p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u7__p1_0
@@ -41012,7 +41012,7 @@ _vq_quantlist__44u7__p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u7__p2_0
 [
 ]
@@ -41110,7 +41110,7 @@ _44u7__p2_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u7__p2_0
@@ -41145,7 +41145,7 @@ _vq_quantlist__44u7__p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u7__p3_0
 [
 ]
@@ -41787,7 +41787,7 @@ _44u7__p3_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u7__p3_0
@@ -41822,7 +41822,7 @@ _vq_quantlist__44u7__p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u7__p4_0
 [
 ]
@@ -42464,7 +42464,7 @@ _44u7__p4_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u7__p4_0
@@ -42503,7 +42503,7 @@ _vq_quantlist__44u7__p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u7__p5_0
 [
 ]
@@ -42601,7 +42601,7 @@ _44u7__p5_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u7__p5_0
@@ -42640,7 +42640,7 @@ _vq_quantlist__44u7__p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u7__p6_0
 [
 ]
@@ -42738,7 +42738,7 @@ _44u7__p6_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u7__p6_0
@@ -42771,7 +42771,7 @@ _vq_quantlist__44u7__p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u7__p7_0
 [
 ]
@@ -42869,7 +42869,7 @@ _44u7__p7_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u7__p7_0
@@ -42910,7 +42910,7 @@ _vq_quantlist__44u7__p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u7__p7_1
 [
 ]
@@ -43048,7 +43048,7 @@ _44u7__p7_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__44u7__p7_1
@@ -43089,7 +43089,7 @@ _vq_quantlist__44u7__p8_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u7__p8_0
 [
 ]
@@ -43227,7 +43227,7 @@ _44u7__p8_0
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__44u7__p8_0
@@ -43268,7 +43268,7 @@ _vq_quantlist__44u7__p8_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u7__p8_1
 [
 ]
@@ -43406,7 +43406,7 @@ _44u7__p8_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__44u7__p8_1
@@ -43447,7 +43447,7 @@ _vq_quantlist__44u7__p9_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u7__p9_0
 [
 ]
@@ -43585,7 +43585,7 @@ _44u7__p9_0
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__44u7__p9_0
@@ -43628,7 +43628,7 @@ _vq_quantlist__44u7__p9_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u7__p9_1
 [
 ]
@@ -43814,7 +43814,7 @@ _44u7__p9_1
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u7__p9_1
@@ -43893,7 +43893,7 @@ _vq_quantlist__44u7__p9_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u7__p9_2
 [
 ]
@@ -43959,7 +43959,7 @@ _44u7__p9_2
 1
 49
 (
-long
+char
 *
 )
 _vq_lengthlist__44u7__p9_2
@@ -43979,7 +43979,7 @@ _vq_quantlist__44u7__p9_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u7__short
 [
 ]
@@ -44096,7 +44096,7 @@ _huff_book__44u7__short
 2
 100
 (
-long
+char
 *
 )
 _huff_lengthlist__44u7__short
@@ -44111,7 +44111,7 @@ NULL
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u8__long
 [
 ]
@@ -44228,7 +44228,7 @@ _huff_book__44u8__long
 2
 100
 (
-long
+char
 *
 )
 _huff_lengthlist__44u8__long
@@ -44243,7 +44243,7 @@ NULL
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u8__short
 [
 ]
@@ -44360,7 +44360,7 @@ _huff_book__44u8__short
 2
 100
 (
-long
+char
 *
 )
 _huff_lengthlist__44u8__short
@@ -44388,7 +44388,7 @@ _vq_quantlist__44u8_p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u8_p1_0
 [
 ]
@@ -44486,7 +44486,7 @@ _44u8_p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u8_p1_0
@@ -44521,7 +44521,7 @@ _vq_quantlist__44u8_p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u8_p2_0
 [
 ]
@@ -45163,7 +45163,7 @@ _44u8_p2_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u8_p2_0
@@ -45202,7 +45202,7 @@ _vq_quantlist__44u8_p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u8_p3_0
 [
 ]
@@ -45300,7 +45300,7 @@ _44u8_p3_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u8_p3_0
@@ -45347,7 +45347,7 @@ _vq_quantlist__44u8_p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u8_p4_0
 [
 ]
@@ -45653,7 +45653,7 @@ _44u8_p4_0
 2
 289
 (
-long
+char
 *
 )
 _vq_lengthlist__44u8_p4_0
@@ -45686,7 +45686,7 @@ _vq_quantlist__44u8_p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u8_p5_0
 [
 ]
@@ -45784,7 +45784,7 @@ _44u8_p5_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u8_p5_0
@@ -45825,7 +45825,7 @@ _vq_quantlist__44u8_p5_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u8_p5_1
 [
 ]
@@ -45963,7 +45963,7 @@ _44u8_p5_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__44u8_p5_1
@@ -46006,7 +46006,7 @@ _vq_quantlist__44u8_p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u8_p6_0
 [
 ]
@@ -46192,7 +46192,7 @@ _44u8_p6_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u8_p6_0
@@ -46227,7 +46227,7 @@ _vq_quantlist__44u8_p6_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u8_p6_1
 [
 ]
@@ -46269,7 +46269,7 @@ _44u8_p6_1
 2
 25
 (
-long
+char
 *
 )
 _vq_lengthlist__44u8_p6_1
@@ -46312,7 +46312,7 @@ _vq_quantlist__44u8_p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u8_p7_0
 [
 ]
@@ -46498,7 +46498,7 @@ _44u8_p7_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u8_p7_0
@@ -46539,7 +46539,7 @@ _vq_quantlist__44u8_p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u8_p7_1
 [
 ]
@@ -46677,7 +46677,7 @@ _44u8_p7_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__44u8_p7_1
@@ -46722,7 +46722,7 @@ _vq_quantlist__44u8_p8_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u8_p8_0
 [
 ]
@@ -46964,7 +46964,7 @@ _44u8_p8_0
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__44u8_p8_0
@@ -47015,7 +47015,7 @@ _vq_quantlist__44u8_p8_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u8_p8_1
 [
 ]
@@ -47473,7 +47473,7 @@ _44u8_p8_1
 2
 441
 (
-long
+char
 *
 )
 _vq_lengthlist__44u8_p8_1
@@ -47512,7 +47512,7 @@ _vq_quantlist__44u8_p9_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u8_p9_0
 [
 ]
@@ -47610,7 +47610,7 @@ _44u8_p9_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u8_p9_0
@@ -47659,7 +47659,7 @@ _vq_quantlist__44u8_p9_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u8_p9_1
 [
 ]
@@ -48037,7 +48037,7 @@ _44u8_p9_1
 2
 361
 (
-long
+char
 *
 )
 _vq_lengthlist__44u8_p9_1
@@ -48116,7 +48116,7 @@ _vq_quantlist__44u8_p9_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u8_p9_2
 [
 ]
@@ -48182,7 +48182,7 @@ _44u8_p9_2
 1
 49
 (
-long
+char
 *
 )
 _vq_lengthlist__44u8_p9_2
@@ -48202,7 +48202,7 @@ _vq_quantlist__44u8_p9_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u9__long
 [
 ]
@@ -48319,7 +48319,7 @@ _huff_book__44u9__long
 2
 100
 (
-long
+char
 *
 )
 _huff_lengthlist__44u9__long
@@ -48334,7 +48334,7 @@ NULL
 ;
 static
 const
-long
+char
 _huff_lengthlist__44u9__short
 [
 ]
@@ -48451,7 +48451,7 @@ _huff_book__44u9__short
 2
 100
 (
-long
+char
 *
 )
 _huff_lengthlist__44u9__short
@@ -48479,7 +48479,7 @@ _vq_quantlist__44u9_p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u9_p1_0
 [
 ]
@@ -48577,7 +48577,7 @@ _44u9_p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u9_p1_0
@@ -48612,7 +48612,7 @@ _vq_quantlist__44u9_p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u9_p2_0
 [
 ]
@@ -49254,7 +49254,7 @@ _44u9_p2_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44u9_p2_0
@@ -49293,7 +49293,7 @@ _vq_quantlist__44u9_p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u9_p3_0
 [
 ]
@@ -49391,7 +49391,7 @@ _44u9_p3_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u9_p3_0
@@ -49438,7 +49438,7 @@ _vq_quantlist__44u9_p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u9_p4_0
 [
 ]
@@ -49744,7 +49744,7 @@ _44u9_p4_0
 2
 289
 (
-long
+char
 *
 )
 _vq_lengthlist__44u9_p4_0
@@ -49777,7 +49777,7 @@ _vq_quantlist__44u9_p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u9_p5_0
 [
 ]
@@ -49875,7 +49875,7 @@ _44u9_p5_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44u9_p5_0
@@ -49916,7 +49916,7 @@ _vq_quantlist__44u9_p5_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u9_p5_1
 [
 ]
@@ -50054,7 +50054,7 @@ _44u9_p5_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__44u9_p5_1
@@ -50097,7 +50097,7 @@ _vq_quantlist__44u9_p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u9_p6_0
 [
 ]
@@ -50283,7 +50283,7 @@ _44u9_p6_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u9_p6_0
@@ -50318,7 +50318,7 @@ _vq_quantlist__44u9_p6_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u9_p6_1
 [
 ]
@@ -50360,7 +50360,7 @@ _44u9_p6_1
 2
 25
 (
-long
+char
 *
 )
 _vq_lengthlist__44u9_p6_1
@@ -50403,7 +50403,7 @@ _vq_quantlist__44u9_p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u9_p7_0
 [
 ]
@@ -50589,7 +50589,7 @@ _44u9_p7_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44u9_p7_0
@@ -50630,7 +50630,7 @@ _vq_quantlist__44u9_p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u9_p7_1
 [
 ]
@@ -50768,7 +50768,7 @@ _44u9_p7_1
 2
 121
 (
-long
+char
 *
 )
 _vq_lengthlist__44u9_p7_1
@@ -50813,7 +50813,7 @@ _vq_quantlist__44u9_p8_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u9_p8_0
 [
 ]
@@ -51055,7 +51055,7 @@ _44u9_p8_0
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__44u9_p8_0
@@ -51106,7 +51106,7 @@ _vq_quantlist__44u9_p8_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u9_p8_1
 [
 ]
@@ -51564,7 +51564,7 @@ _44u9_p8_1
 2
 441
 (
-long
+char
 *
 )
 _vq_lengthlist__44u9_p8_1
@@ -51609,7 +51609,7 @@ _vq_quantlist__44u9_p9_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u9_p9_0
 [
 ]
@@ -51851,7 +51851,7 @@ _44u9_p9_0
 2
 225
 (
-long
+char
 *
 )
 _vq_lengthlist__44u9_p9_0
@@ -51900,7 +51900,7 @@ _vq_quantlist__44u9_p9_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u9_p9_1
 [
 ]
@@ -52278,7 +52278,7 @@ _44u9_p9_1
 2
 361
 (
-long
+char
 *
 )
 _vq_lengthlist__44u9_p9_1
@@ -52357,7 +52357,7 @@ _vq_quantlist__44u9_p9_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__44u9_p9_2
 [
 ]
@@ -52423,7 +52423,7 @@ _44u9_p9_2
 1
 49
 (
-long
+char
 *
 )
 _vq_lengthlist__44u9_p9_2
@@ -52443,7 +52443,7 @@ _vq_quantlist__44u9_p9_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__44un1__long
 [
 ]
@@ -52524,7 +52524,7 @@ _huff_book__44un1__long
 2
 64
 (
-long
+char
 *
 )
 _huff_lengthlist__44un1__long
@@ -52552,7 +52552,7 @@ _vq_quantlist__44un1__p1_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44un1__p1_0
 [
 ]
@@ -52650,7 +52650,7 @@ _44un1__p1_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44un1__p1_0
@@ -52683,7 +52683,7 @@ _vq_quantlist__44un1__p2_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44un1__p2_0
 [
 ]
@@ -52781,7 +52781,7 @@ _44un1__p2_0
 4
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44un1__p2_0
@@ -52816,7 +52816,7 @@ _vq_quantlist__44un1__p3_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44un1__p3_0
 [
 ]
@@ -53458,7 +53458,7 @@ _44un1__p3_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44un1__p3_0
@@ -53493,7 +53493,7 @@ _vq_quantlist__44un1__p4_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44un1__p4_0
 [
 ]
@@ -54135,7 +54135,7 @@ _44un1__p4_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44un1__p4_0
@@ -54174,7 +54174,7 @@ _vq_quantlist__44un1__p5_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44un1__p5_0
 [
 ]
@@ -54272,7 +54272,7 @@ _44un1__p5_0
 2
 81
 (
-long
+char
 *
 )
 _vq_lengthlist__44un1__p5_0
@@ -54315,7 +54315,7 @@ _vq_quantlist__44un1__p6_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44un1__p6_0
 [
 ]
@@ -54501,7 +54501,7 @@ _44un1__p6_0
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44un1__p6_0
@@ -54536,7 +54536,7 @@ _vq_quantlist__44un1__p6_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44un1__p6_1
 [
 ]
@@ -54578,7 +54578,7 @@ _44un1__p6_1
 2
 25
 (
-long
+char
 *
 )
 _vq_lengthlist__44un1__p6_1
@@ -54613,7 +54613,7 @@ _vq_quantlist__44un1__p7_0
 ;
 static
 const
-long
+char
 _vq_lengthlist__44un1__p7_0
 [
 ]
@@ -55255,7 +55255,7 @@ _44un1__p7_0
 4
 625
 (
-long
+char
 *
 )
 _vq_lengthlist__44un1__p7_0
@@ -55298,7 +55298,7 @@ _vq_quantlist__44un1__p7_1
 ;
 static
 const
-long
+char
 _vq_lengthlist__44un1__p7_1
 [
 ]
@@ -55484,7 +55484,7 @@ _44un1__p7_1
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44un1__p7_1
@@ -55527,7 +55527,7 @@ _vq_quantlist__44un1__p7_2
 ;
 static
 const
-long
+char
 _vq_lengthlist__44un1__p7_2
 [
 ]
@@ -55713,7 +55713,7 @@ _44un1__p7_2
 2
 169
 (
-long
+char
 *
 )
 _vq_lengthlist__44un1__p7_2
@@ -55733,7 +55733,7 @@ _vq_quantlist__44un1__p7_2
 ;
 static
 const
-long
+char
 _huff_lengthlist__44un1__short
 [
 ]
@@ -55814,7 +55814,7 @@ _huff_book__44un1__short
 2
 64
 (
-long
+char
 *
 )
 _huff_lengthlist__44un1__short
