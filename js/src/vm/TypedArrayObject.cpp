@@ -2373,13 +2373,13 @@ are
 being
 transferred
 so
-NULL
+null
 it
 out
 SetViewList
 (
 this
-NULL
+nullptr
 )
 ;
 elements
@@ -2688,7 +2688,7 @@ if
 newheader
 )
 return
-NULL
+nullptr
 ;
 initElementsHeader
 (
@@ -25304,7 +25304,7 @@ buffer
 .
 ensureNonInline
 (
-NULL
+nullptr
 )
 )
 return

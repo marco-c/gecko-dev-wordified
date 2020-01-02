@@ -7386,8 +7386,8 @@ nbytes
 JS_STRUCTURED_CLONE_VERSION
 &
 deserialized
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 {

@@ -2652,7 +2652,7 @@ its
 data
 pointer
 is
-NULL
+nullptr
 )
 .
 *

@@ -4056,7 +4056,7 @@ uint32_t
 *
 bytecodeMap
 =
-NULL
+nullptr
 ;
 MOZ_CRASH
 (
@@ -4398,7 +4398,7 @@ uint32_t
 *
 hint
 =
-NULL
+nullptr
 ;
 MOZ_CRASH
 (

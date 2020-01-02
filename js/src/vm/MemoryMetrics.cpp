@@ -3901,7 +3901,7 @@ comp
 >
 compartmentStats
 =
-NULL
+nullptr
 ;
 rtStats
 .
