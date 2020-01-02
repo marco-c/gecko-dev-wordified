@@ -158,6 +158,10 @@ format
 define
 SSL_LIBRARY_VERSION_DTLS_1_0
 0x0302
+#
+define
+SSL_LIBRARY_VERSION_DTLS_1_2
+0x0303
 /
 *
 deprecated
@@ -173,7 +177,7 @@ SSL_LIBRARY_VERSION_TLS_1_0
 *
 The
 DTLS
-version
+versions
 used
 in
 the
@@ -187,6 +191,17 @@ SSL_LIBRARY_VERSION_DTLS_1_0_WIRE
 (
 ~
 0x0100
+)
+&
+0xffff
+)
+#
+define
+SSL_LIBRARY_VERSION_DTLS_1_2_WIRE
+(
+(
+~
+0x0102
 )
 &
 0xffff
