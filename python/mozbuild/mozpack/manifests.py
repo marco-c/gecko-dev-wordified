@@ -1897,8 +1897,10 @@ base
 path
 )
                     
-dest
-=
+registry
+.
+add
+(
 mozpath
 .
 join
@@ -1906,12 +1908,6 @@ join
 dest
 path
 )
-                    
-registry
-.
-add
-(
-dest
 cls
 (
 source
