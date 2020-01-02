@@ -1144,6 +1144,10 @@ MaybeHandleError
 Result
 code
 const
+Message
+&
+aMsg
+const
 char
 *
 channelName
