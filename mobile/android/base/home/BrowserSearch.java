@@ -1267,6 +1267,15 @@ savedInstanceState
 ;
 mList
 .
+setTag
+(
+HomePager
+.
+LIST_TAG_BROWSER_SEARCH
+)
+;
+mList
+.
 setOnItemClickListener
 (
 new

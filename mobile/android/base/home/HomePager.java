@@ -400,6 +400,15 @@ LIST_TAG_LAST_TABS
 last_tabs
 "
 ;
+static
+final
+String
+LIST_TAG_BROWSER_SEARCH
+=
+"
+browser_search
+"
+;
 private
 EnumMap
 <
