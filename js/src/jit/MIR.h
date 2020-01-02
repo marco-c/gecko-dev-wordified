@@ -31833,6 +31833,8 @@ MNeuterCheck
 :
 public
 MUnaryInstruction
+public
+SingleObjectPolicy
 {
 private
 :
@@ -31964,6 +31966,16 @@ AliasSet
 :
 ObjectFields
 )
+;
+}
+TypePolicy
+*
+typePolicy
+(
+)
+{
+return
+this
 ;
 }
 }
