@@ -699,7 +699,10 @@ aDeprecatedTextureClientType
 gfxContentType
 aContentType
 =
-GFX_CONTENT_SENTINEL
+gfxContentType
+:
+:
+SENTINEL
 )
 ;
 virtual

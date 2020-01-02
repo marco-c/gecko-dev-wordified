@@ -2134,7 +2134,10 @@ ctx
 >
 PushGroup
 (
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 ;
 }

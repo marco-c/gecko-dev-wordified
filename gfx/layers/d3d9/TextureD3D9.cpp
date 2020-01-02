@@ -3911,7 +3911,10 @@ aType
 )
 {
 case
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 :
 format
 =
@@ -3920,7 +3923,10 @@ D3DFMT_X8R8G8B8
 break
 ;
 case
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 :
 /
 /
@@ -3933,7 +3939,10 @@ return
 false
 ;
 case
-GFX_CONTENT_ALPHA
+gfxContentType
+:
+:
+ALPHA
 :
 format
 =

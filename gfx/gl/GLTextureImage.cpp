@@ -888,7 +888,10 @@ GetContentType
 )
 =
 =
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 )
 ?
 gfxImageFormat
@@ -2944,7 +2947,10 @@ GetContentType
 )
 =
 =
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 )
 ?
 gfxImageFormat

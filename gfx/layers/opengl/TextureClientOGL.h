@@ -562,7 +562,10 @@ GetContentType
 MOZ_OVERRIDE
 {
 return
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 ;
 }
 protected
@@ -743,7 +746,10 @@ GetContentType
 MOZ_OVERRIDE
 {
 return
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 ;
 }
 }

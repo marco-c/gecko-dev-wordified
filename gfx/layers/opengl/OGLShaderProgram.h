@@ -516,7 +516,10 @@ if
 aContentType
 =
 =
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 return
 RGBALayerProgramType

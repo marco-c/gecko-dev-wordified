@@ -15740,7 +15740,10 @@ CanPaintOnBackground
 mBackground
 &
 &
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 !
 =
 mCurrentSurface
@@ -15760,7 +15763,10 @@ mBackground
 mIsTransparent
 &
 &
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 =
 =
 mCurrentSurface
@@ -17519,7 +17525,10 @@ GetContentType
 )
 =
 =
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 "
 Refusing
 to
@@ -18960,7 +18969,10 @@ height
 bool
 haveTransparentPixels
 =
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 =
 =
 mCurrentSurface

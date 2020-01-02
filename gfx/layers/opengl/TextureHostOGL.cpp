@@ -5475,7 +5475,10 @@ CreateBasicTextureImage
 (
 mGL
 gfxSize
-GFX_CONTENT_ALPHA
+gfxContentType
+:
+:
+ALPHA
 WrapMode
 (
 mGL
@@ -5522,7 +5525,10 @@ CreateBasicTextureImage
 (
 mGL
 gfxCbCrSize
-GFX_CONTENT_ALPHA
+gfxContentType
+:
+:
+ALPHA
 WrapMode
 (
 mGL
@@ -5569,7 +5575,10 @@ CreateBasicTextureImage
 (
 mGL
 gfxCbCrSize
-GFX_CONTENT_ALPHA
+gfxContentType
+:
+:
+ALPHA
 WrapMode
 (
 mGL

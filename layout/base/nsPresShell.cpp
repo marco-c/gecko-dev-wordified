@@ -27042,9 +27042,15 @@ aBackgroundColor
 =
 0xff
 ?
-GFX_CONTENT_COLOR
+gfxContentType
 :
-GFX_CONTENT_COLOR_ALPHA
+:
+COLOR
+:
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 ;
 aThebesContext

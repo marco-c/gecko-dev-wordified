@@ -8989,6 +8989,9 @@ mCairo
 (
 cairo_content_t
 )
+(
+int
+)
 content
 )
 ;
@@ -9160,7 +9163,10 @@ if
 content
 =
 =
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 &
 &
 !
@@ -9218,7 +9224,10 @@ GetContentType
 )
 =
 =
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 |
 |
 s
@@ -9574,7 +9583,10 @@ deviceOffset
 ;
 PushNewDT
 (
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 )
 ;
 Point

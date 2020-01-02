@@ -546,7 +546,10 @@ aContext
 >
 PushGroup
 (
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 ;
 aContext
@@ -651,7 +654,10 @@ aContext
 >
 PushGroup
 (
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 ;
 aContext

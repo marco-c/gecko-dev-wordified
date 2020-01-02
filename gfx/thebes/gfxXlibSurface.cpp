@@ -1449,7 +1449,10 @@ if
 aContent
 =
 =
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 )
 {
 /

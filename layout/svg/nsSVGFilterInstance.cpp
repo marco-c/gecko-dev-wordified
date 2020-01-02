@@ -1966,7 +1966,10 @@ neededRect
 Size
 (
 )
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 ;
 if
@@ -2443,7 +2446,10 @@ neededRect
 Size
 (
 )
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 ;
 if
@@ -2961,7 +2967,10 @@ filterRect
 Size
 (
 )
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 ;
 if

@@ -2804,7 +2804,10 @@ mContentType
 )
 {
 case
-GFX_CONTENT_ALPHA
+gfxContentType
+:
+:
+ALPHA
 :
 format
 =
@@ -2816,7 +2819,10 @@ A8
 break
 ;
 case
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 :
 format
 =
@@ -2828,7 +2834,10 @@ B8G8R8X8
 break
 ;
 case
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 :
 format
 =

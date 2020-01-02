@@ -382,7 +382,10 @@ GetContentType
 )
 =
 =
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 |
 |
 (
@@ -394,7 +397,10 @@ GetContentType
 )
 =
 =
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 &
 &
 (
@@ -1378,7 +1384,10 @@ GetContentType
 )
 !
 =
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 |
 |
 (
@@ -1390,7 +1399,10 @@ GetContentType
 )
 =
 =
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 &
 &
 !

@@ -2003,7 +2003,10 @@ false
 )
 mContentType
 (
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 {
 }
@@ -3152,7 +3155,10 @@ aFwd
 )
 mContentType
 (
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 mHasBuffer
 (
