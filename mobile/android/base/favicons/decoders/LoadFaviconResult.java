@@ -216,7 +216,7 @@ int
 mLength
 ;
 boolean
-mHasMultipleBitmaps
+mIsICO
 ;
 Iterator
 <
@@ -367,7 +367,7 @@ space
 if
 (
 !
-mHasMultipleBitmaps
+mIsICO
 )
 {
 Bitmap
