@@ -262,6 +262,10 @@ RootedScript
 script
 (
 cx
+)
+;
+CHECK
+(
 JS_CompileScript
 (
 cx
@@ -272,6 +276,8 @@ strlen
 code
 )
 options
+&
+script
 )
 )
 ;

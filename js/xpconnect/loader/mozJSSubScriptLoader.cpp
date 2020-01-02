@@ -1113,10 +1113,6 @@ setSourceIsLazy
 true
 )
 ;
-script
-.
-set
-(
 JS
 :
 :
@@ -1131,16 +1127,12 @@ get
 (
 )
 len
-)
+script
 )
 ;
 }
 else
 {
-function
-.
-set
-(
 JS
 :
 :
@@ -1158,7 +1150,7 @@ get
 (
 )
 len
-)
+function
 )
 ;
 }

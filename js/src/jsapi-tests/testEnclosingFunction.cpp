@@ -277,8 +277,6 @@ checkEnclosing
 )
 "
 ;
-fun
-=
 JS_CompileFunction
 (
 cx
@@ -294,6 +292,8 @@ strlen
 s1chars
 )
 options
+&
+fun
 )
 ;
 CHECK
@@ -336,8 +336,6 @@ checkEnclosing
 }
 "
 ;
-fun
-=
 JS_CompileFunction
 (
 cx
@@ -353,6 +351,8 @@ strlen
 s2chars
 )
 options
+&
+fun
 )
 ;
 CHECK
@@ -413,8 +413,6 @@ g
 }
 "
 ;
-fun
-=
 JS_CompileFunction
 (
 cx
@@ -430,6 +428,8 @@ strlen
 s3chars
 )
 options
+&
+fun
 )
 ;
 CHECK
