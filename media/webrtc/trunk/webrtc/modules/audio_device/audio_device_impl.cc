@@ -2582,6 +2582,8 @@ utilized
 ;
 }
 }
+#
+endif
 if
 (
 ptrAudioDevice
@@ -2612,8 +2614,6 @@ Id
 )
 ;
 }
-#
-endif
 /
 /
 Create
