@@ -61,6 +61,15 @@ containers
 '
 attribute
 fields
+loadHelperScript
+(
+"
+helper_attributes_test_runner
+.
+js
+"
+)
+;
 const
 TEST_URL
 =

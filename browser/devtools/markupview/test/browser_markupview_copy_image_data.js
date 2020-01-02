@@ -45,6 +45,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test

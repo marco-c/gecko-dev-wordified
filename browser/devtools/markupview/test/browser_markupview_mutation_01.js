@@ -45,10 +45,13 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
-*
-*
-*
+/
 Tests
 that
 various
@@ -62,7 +65,8 @@ markup
 view
 correctly
 .
-*
+/
+/
 The
 test
 for
@@ -79,7 +83,8 @@ a
 bit
 weird
 :
-*
+/
+/
 -
 Select
 the
@@ -88,7 +93,8 @@ in
 the
 markup
 view
-*
+/
+/
 -
 Parse
 that
@@ -105,7 +111,8 @@ for
 the
 purpose
 .
-*
+/
+/
 -
 Remove
 extraneous
@@ -113,7 +120,8 @@ whitespace
 in
 that
 tree
-*
+/
+/
 -
 Compare
 it
@@ -124,8 +132,6 @@ dom
 with
 isEqualNode
 .
-*
-/
 const
 TEST_URL
 =
