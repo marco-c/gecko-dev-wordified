@@ -225,9 +225,6 @@ MediaStreamConstraintsInternal
 ifdef
 MOZ_B2G_RIL
 class
-nsIDOMMozMobileConnection
-;
-class
 nsIDOMMozIccManager
 ;
 #
@@ -485,7 +482,7 @@ Connection
 ifdef
 MOZ_B2G_RIL
 class
-MobileConnection
+MobileConnectionArray
 ;
 #
 endif
@@ -1175,9 +1172,12 @@ aRv
 #
 ifdef
 MOZ_B2G_RIL
-nsIDOMMozMobileConnection
+network
+:
+:
+MobileConnectionArray
 *
-GetMozMobileConnection
+GetMozMobileConnections
 (
 ErrorResult
 &
@@ -1951,9 +1951,9 @@ nsRefPtr
 network
 :
 :
-MobileConnection
+MobileConnectionArray
 >
-mMobileConnection
+mMobileConnections
 ;
 nsRefPtr
 <
