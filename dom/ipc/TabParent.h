@@ -1152,7 +1152,7 @@ void
 Show
 (
 const
-ScreenIntSize
+nsIntSize
 &
 size
 )
@@ -1165,7 +1165,7 @@ nsRect
 &
 rect
 const
-ScreenIntSize
+nsIntSize
 &
 size
 )
@@ -1350,10 +1350,7 @@ bool
 &
 flushLayout
 const
-gfx
-:
-:
-IntSize
+nsIntSize
 &
 renderSize
 )
@@ -1862,7 +1859,7 @@ mEventCaptureDepth
 nsRect
 mRect
 ;
-ScreenIntSize
+nsIntSize
 mDimensions
 ;
 ScreenOrientation

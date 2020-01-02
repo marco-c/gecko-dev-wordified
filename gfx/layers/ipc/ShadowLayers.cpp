@@ -442,13 +442,6 @@ h
 for
 XRE_GetProcessType
 etc
-#
-include
-"
-gfx2DGlue
-.
-h
-"
 struct
 nsIntPoint
 ;
@@ -4053,13 +4046,10 @@ image
 data
 (
 )
-ThebesIntSize
-(
 image
 .
 size
 (
-)
 )
 image
 .

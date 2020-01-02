@@ -2231,10 +2231,7 @@ bool
 ShowRemoteFrame
 (
 const
-mozilla
-:
-:
-ScreenIntSize
+nsIntSize
 &
 size
 nsSubDocumentFrame
