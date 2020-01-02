@@ -10926,11 +10926,13 @@ askMenuItem
 setAttribute
 (
 "
+action
+"
+Ci
+.
+nsIHandlerInfo
+.
 alwaysAsk
-"
-"
-true
-"
 )
 ;
 let
