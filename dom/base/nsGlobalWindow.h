@@ -3138,6 +3138,12 @@ DisableDialogs
 (
 )
 ;
+/
+/
+Outer
+windows
+only
+.
 bool
 AreDialogsEnabled
 (

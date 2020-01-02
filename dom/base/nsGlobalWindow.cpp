@@ -18208,6 +18208,13 @@ AreDialogsEnabled
 (
 )
 {
+MOZ_ASSERT
+(
+IsOuterWindow
+(
+)
+)
+;
 nsGlobalWindow
 *
 topWindow
