@@ -4577,7 +4577,7 @@ add
 this
 functionality
 into
-manifestDestiny
+manifestparser
       
 with
 open

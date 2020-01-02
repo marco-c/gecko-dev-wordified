@@ -60,7 +60,7 @@ setup
 PACKAGE_NAME
 =
 "
-ManifestDestiny
+manifestparser
 "
 PACKAGE_VERSION
 =

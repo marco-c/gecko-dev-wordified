@@ -93,14 +93,12 @@ deps
 =
 [
 '
-ManifestDestiny
+manifestparser
 >
 =
 0
 .
-5
-.
-4
+6
 '
         
 '

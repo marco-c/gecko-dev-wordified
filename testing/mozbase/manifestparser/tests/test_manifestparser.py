@@ -120,7 +120,7 @@ parser
 You
 must
 have
-ManifestDestiny
+manifestparser
 installed
 before
 running
