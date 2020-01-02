@@ -10381,7 +10381,6 @@ LINK_TYPE_UNKNOWN
 ;
 }
 }
-WrapElementForJNI
 public
 static
 void

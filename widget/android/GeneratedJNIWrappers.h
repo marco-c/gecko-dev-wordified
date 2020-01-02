@@ -781,16 +781,6 @@ a0
 ;
 static
 void
-SetSelectedLocale
-(
-const
-nsAString
-&
-a0
-)
-;
-static
-void
 SetURITitle
 (
 const
