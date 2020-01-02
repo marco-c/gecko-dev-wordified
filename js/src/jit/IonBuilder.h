@@ -2345,7 +2345,7 @@ ensureDefiniteType
 MDefinition
 *
 def
-JSValueType
+MIRType
 definiteType
 )
 ;
