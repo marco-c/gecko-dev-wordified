@@ -1731,7 +1731,7 @@ buffer
 ;
 #
 ifdef
-_MSC_VER
+WIN32
 int
 n
 =
