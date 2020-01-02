@@ -4812,7 +4812,6 @@ jitRuntime
 >
 getVMWrapper
 (
-cx
 fun
 )
 ;
@@ -4884,7 +4883,6 @@ jitRuntime
 >
 getVMWrapper
 (
-cx
 fun
 )
 ;
@@ -4938,7 +4936,6 @@ jitRuntime
 >
 getVMWrapper
 (
-cx
 DoTypeUpdateFallbackInfo
 )
 ;

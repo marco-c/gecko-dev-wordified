@@ -9288,17 +9288,6 @@ Register
 dynStack
 )
 ;
-typedef
-CodeOffsetLabel
-CodeOffsetCall
-;
-CodeOffsetCall
-lastPatchableCall
-(
-uint32_t
-callOffset
-)
-;
 /
 /
 Makes
