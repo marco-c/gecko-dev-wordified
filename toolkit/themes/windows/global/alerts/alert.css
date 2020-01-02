@@ -581,16 +581,3 @@ none
 important
 ;
 }
-.
-alertCloseButton
->
-.
-toolbarbutton
--
-text
-{
-display
-:
-none
-;
-}
