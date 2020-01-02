@@ -9764,7 +9764,7 @@ that
 nsAutoString
 currentValue
 ;
-GetValueInternal
+GetValue
 (
 currentValue
 )
@@ -9819,7 +9819,7 @@ currentValue
 )
 )
 {
-GetValueInternal
+GetValue
 (
 mFocusedValue
 )
@@ -13726,10 +13726,10 @@ FireChangeEventIfNeeded
 (
 )
 {
-nsString
+nsAutoString
 value
 ;
-GetValueInternal
+GetValue
 (
 value
 )
@@ -19074,7 +19074,7 @@ by
 then
 )
 .
-GetValueInternal
+GetValue
 (
 mFocusedValue
 )
@@ -20245,7 +20245,7 @@ StartRangeThumbDrag
 already
 set
 mFocusedValue
-GetValueInternal
+GetValue
 (
 mFocusedValue
 )
@@ -25057,7 +25057,7 @@ oldType
 )
 )
 {
-GetValueInternal
+GetValue
 (
 mFocusedValue
 )
