@@ -3329,7 +3329,7 @@ break
 break
 ;
 case
-NS_GUI_EVENT
+NS_EDITOR_INPUT_EVENT
 :
 /
 /
@@ -3383,7 +3383,7 @@ message
 )
 {
 case
-NS_FORM_INPUT
+NS_EDITOR_INPUT
 :
 if
 (

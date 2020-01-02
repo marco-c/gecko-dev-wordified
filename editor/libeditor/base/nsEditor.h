@@ -906,6 +906,14 @@ GetPresShell
 (
 )
 ;
+already_AddRefed
+<
+nsIWidget
+>
+GetWidget
+(
+)
+;
 void
 NotifyEditorObservers
 (
