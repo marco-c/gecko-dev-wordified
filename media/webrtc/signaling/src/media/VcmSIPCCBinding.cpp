@@ -8813,7 +8813,7 @@ stream_id
 payload
 -
 >
-remote_rtp_pt
+local_rtp_pt
 attrs
 -
 >
@@ -8882,7 +8882,7 @@ stream_id
 payload
 -
 >
-remote_rtp_pt
+local_rtp_pt
 0
 port
 0
@@ -9991,7 +9991,7 @@ payloads
 i
 ]
 .
-remote_rtp_pt
+local_rtp_pt
 ccsdpCodecName
 (
 payloads
@@ -10423,7 +10423,7 @@ payloads
 i
 ]
 .
-remote_rtp_pt
+local_rtp_pt
 ccsdpCodecName
 (
 payloads
