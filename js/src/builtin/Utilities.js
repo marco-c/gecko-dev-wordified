@@ -341,6 +341,15 @@ prototype
 push
 ;
 var
+std_Array_pop
+=
+Array
+.
+prototype
+.
+pop
+;
+var
 std_Array_shift
 =
 Array
