@@ -1680,7 +1680,9 @@ ComputedWidth
 +
 aReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 LeftRight
 (
@@ -1694,7 +1696,9 @@ computedHeight
 +
 aReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 TopBottom
 (
@@ -2077,7 +2081,9 @@ trackX
 =
 trackReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 left
 +
@@ -2094,7 +2100,9 @@ trackY
 =
 trackReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 top
 +
@@ -2125,7 +2133,9 @@ trackX
 =
 aReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 left
 ;
@@ -2134,7 +2144,9 @@ trackY
 =
 aReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 top
 ;

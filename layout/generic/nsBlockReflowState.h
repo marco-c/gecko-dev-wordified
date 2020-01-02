@@ -608,7 +608,9 @@ BRS_ISFIRSTINFLOW
 ?
 mReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 top
 :
@@ -654,7 +656,9 @@ result
 =
 mReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 ;
 if
 (

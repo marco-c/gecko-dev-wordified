@@ -225,7 +225,9 @@ width
 =
 reflowState
 .
-availableWidth
+AvailableWidth
+(
+)
 ;
 availSize
 .
@@ -233,7 +235,9 @@ height
 =
 reflowState
 .
-availableHeight
+AvailableHeight
+(
+)
 ;
 y
 =

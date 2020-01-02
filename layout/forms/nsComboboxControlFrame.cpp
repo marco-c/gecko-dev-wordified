@@ -2817,7 +2817,9 @@ availSize
 (
 aReflowState
 .
-availableWidth
+AvailableWidth
+(
+)
 NS_UNCONSTRAINEDSIZE
 )
 ;
@@ -2890,7 +2892,9 @@ ComputedWidth
 +
 aReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 LeftRight
 (
@@ -2898,7 +2902,9 @@ LeftRight
 -
 kidReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 LeftRight
 (
@@ -8700,7 +8706,9 @@ mDisplayWidth
 -
 state
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 LeftRight
 (

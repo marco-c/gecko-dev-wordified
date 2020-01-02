@@ -949,10 +949,14 @@ availSize
 (
 aReflowState
 .
-availableWidth
+AvailableWidth
+(
+)
 aReflowState
 .
-availableHeight
+AvailableHeight
+(
+)
 )
 ;
 const
@@ -962,7 +966,9 @@ bp
 =
 aReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 ;
 nscoord
 lr

@@ -49666,7 +49666,9 @@ NS_ASSERTION
 (
 reflowState
 .
-mComputedMargin
+ComputedPhysicalMargin
+(
+)
 =
 =
 nsMargin
@@ -49708,7 +49710,9 @@ height
 -
 reflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 TopBottom
 (
@@ -49748,7 +49752,9 @@ width
 -
 reflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 LeftRight
 (

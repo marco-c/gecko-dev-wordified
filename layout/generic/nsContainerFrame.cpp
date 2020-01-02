@@ -7592,7 +7592,9 @@ prevRect
 width
 aReflowState
 .
-availableHeight
+AvailableHeight
+(
+)
 )
 ;
 nsHTMLReflowMetrics

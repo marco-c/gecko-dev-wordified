@@ -401,7 +401,9 @@ if
 (
 aReflowState
 .
-availableWidth
+AvailableWidth
+(
+)
 =
 =
 0
@@ -418,7 +420,9 @@ if
 (
 aReflowState
 .
-availableHeight
+AvailableHeight
+(
+)
 =
 =
 0
