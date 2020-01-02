@@ -2617,13 +2617,6 @@ abort
 return
 ;
 }
-tab
-.
-updateURL
-(
-url
-)
-;
 }
 else
 {
