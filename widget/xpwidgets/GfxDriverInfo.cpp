@@ -1202,6 +1202,16 @@ IntelIvyBridge
 break
 ;
 case
+IntelHD3000
+:
+APPEND_DEVICE
+(
+0x0126
+)
+;
+break
+;
+case
 IntelMobileHDGraphics
 :
 APPEND_DEVICE
