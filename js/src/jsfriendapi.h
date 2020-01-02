@@ -126,6 +126,15 @@ h
 #
 include
 "
+mozilla
+/
+TypedEnum
+.
+h
+"
+#
+include
+"
 jsbytecode
 .
 h
@@ -8660,6 +8669,10 @@ JSJitInfo
 {
 enum
 OpType
+MOZ_ENUM_TYPE
+(
+uint8_t
+)
 {
 Getter
 Setter
@@ -8813,6 +8826,10 @@ ArgTypeListEnd
 ;
 enum
 AliasSet
+MOZ_ENUM_TYPE
+(
+uint8_t
+)
 {
 /
 /
@@ -9187,7 +9204,7 @@ of
 the
 member
 ?
-size_t
+uint16_t
 slotIndex
 ;
 /
