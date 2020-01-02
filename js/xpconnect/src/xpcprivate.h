@@ -2825,15 +2825,6 @@ nsXPConnect
 ;
 private
 :
-static
-PRThread
-*
-FindMainThread
-(
-)
-;
-private
-:
 /
 /
 Singleton
