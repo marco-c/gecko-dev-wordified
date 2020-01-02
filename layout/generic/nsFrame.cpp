@@ -35198,7 +35198,7 @@ i
 +
 )
 {
-char16_t
+PRUnichar
 ch
 =
 aString
@@ -51202,6 +51202,11 @@ nsHTMLReflowState
 DUMMY_PARENT_REFLOW_STATE
 )
 ;
+AddStateBits
+(
+NS_FRAME_IN_REFLOW
+)
+;
 /
 /
 Set
@@ -51243,6 +51248,11 @@ PresContext
 desiredSize
 reflowState
 reflowStatus
+)
+;
+RemoveStateBits
+(
+NS_FRAME_IN_REFLOW
 )
 ;
 }
