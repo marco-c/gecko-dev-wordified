@@ -714,6 +714,10 @@ string
 fxaccount_link_forgot_password
 )
 ;
+updateFromIntentExtras
+(
+)
+;
 }
 Override
 public
