@@ -1447,6 +1447,11 @@ MOZ_ASSERT
 mRemoteStream
 )
 ;
+cpr_free
+(
+streams
+)
+;
 }
 else
 if

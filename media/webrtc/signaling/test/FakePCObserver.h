@@ -296,8 +296,10 @@ streams
 ResponseState
 state
 ;
-char
-*
+std
+:
+:
+string
 lastString
 ;
 sipcc

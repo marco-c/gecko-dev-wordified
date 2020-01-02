@@ -357,7 +357,17 @@ ccsnap_line_init
 )
 ;
 void
+ccsnap_line_free
+(
+)
+;
+void
 ccsnap_device_init
+(
+)
+;
+void
+ccsnap_device_free
 (
 )
 ;
