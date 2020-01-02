@@ -13098,7 +13098,7 @@ break
 /
 XXX
 case
-NS_MOUSE_SCROLL_EVENT
+eMouseScrollEventClass
 :
 not
 received

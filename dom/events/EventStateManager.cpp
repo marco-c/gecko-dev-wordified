@@ -31319,7 +31319,7 @@ dispatching
 legacy
 /
 /
-NS_MOUSE_SCROLL_EVENT
+eMouseScrollEventClass
 (
 DOMMouseScroll
 )

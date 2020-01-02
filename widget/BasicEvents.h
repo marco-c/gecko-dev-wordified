@@ -407,7 +407,7 @@ eDragEventClass
 /
 /
 WidgetDragEvent
-NS_MOUSE_SCROLL_EVENT
+eMouseScrollEventClass
 /
 /
 WidgetMouseScrollEvent
