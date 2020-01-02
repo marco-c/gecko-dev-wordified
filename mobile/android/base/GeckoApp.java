@@ -239,8 +239,6 @@ gecko
 .
 health
 .
-BrowserHealthRecorder
-.
 SessionInformation
 ;
 import
