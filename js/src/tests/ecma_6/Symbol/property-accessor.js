@@ -24,6 +24,18 @@ publicdomain
 /
 *
 /
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 var
 obj
 =
@@ -226,6 +238,7 @@ sets
 ]
 )
 ;
+}
 if
 (
 typeof

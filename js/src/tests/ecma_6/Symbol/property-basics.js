@@ -24,6 +24,18 @@ publicdomain
 /
 *
 /
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 var
 symbols
 =
@@ -242,6 +254,7 @@ sym
 13
 )
 ;
+}
 }
 if
 (

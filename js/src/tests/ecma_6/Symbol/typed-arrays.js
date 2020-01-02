@@ -24,6 +24,18 @@ publicdomain
 /
 *
 /
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 /
 /
 Symbol
@@ -132,6 +144,7 @@ arr
 1
 )
 ;
+}
 }
 if
 (

@@ -24,6 +24,18 @@ publicdomain
 /
 *
 /
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 assertEq
 (
 typeof
@@ -79,6 +91,7 @@ object
 "
 )
 ;
+}
 if
 (
 typeof

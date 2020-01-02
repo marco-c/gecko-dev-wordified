@@ -7,6 +7,18 @@ pic
 support
 for
 symbols
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 /
 /
 assignments
@@ -218,3 +230,4 @@ hits
 10
 )
 ;
+}

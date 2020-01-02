@@ -24,6 +24,18 @@ publicdomain
 /
 *
 /
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 /
 /
 Symbol
@@ -291,6 +303,7 @@ valueOf
 TypeError
 )
 ;
+}
 if
 (
 typeof

@@ -74,6 +74,17 @@ true
 }
 )
 ;
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
 objCD
 [
 Symbol

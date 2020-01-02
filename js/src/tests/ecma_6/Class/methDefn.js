@@ -919,6 +919,18 @@ foo4
 /
 Symbols
 .
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 var
 unique_sym
 =
@@ -986,6 +998,7 @@ registered_sym
 3
 )
 ;
+}
 /
 /
 Method

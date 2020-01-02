@@ -24,6 +24,18 @@ publicdomain
 /
 *
 /
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 var
 m
 =
@@ -301,6 +313,7 @@ it
 ]
 )
 ;
+}
 if
 (
 typeof

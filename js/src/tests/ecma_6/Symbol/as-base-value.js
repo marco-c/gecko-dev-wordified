@@ -24,6 +24,18 @@ publicdomain
 /
 *
 /
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 /
 /
 Like
@@ -567,6 +579,7 @@ noSuchPropName
 TypeError
 )
 ;
+}
 }
 if
 (

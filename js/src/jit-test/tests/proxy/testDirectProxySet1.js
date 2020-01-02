@@ -116,6 +116,18 @@ buz
 '
 )
 ;
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 var
 sym
 =
@@ -157,4 +169,5 @@ sym
 =
 undefined
 ;
+}
 }

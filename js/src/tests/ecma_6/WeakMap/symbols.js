@@ -24,6 +24,18 @@ publicdomain
 /
 *
 /
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 /
 /
 Symbols
@@ -63,6 +75,7 @@ sym
 TypeError
 )
 ;
+}
 if
 (
 typeof

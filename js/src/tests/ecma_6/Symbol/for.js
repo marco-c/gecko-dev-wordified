@@ -24,6 +24,18 @@ publicdomain
 /
 *
 /
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 /
 /
 Symbol
@@ -297,6 +309,7 @@ for
 foo
 "
 )
+;
 assertEq
 (
 Symbol
@@ -331,6 +344,7 @@ foo
 foo
 )
 ;
+}
 if
 (
 typeof

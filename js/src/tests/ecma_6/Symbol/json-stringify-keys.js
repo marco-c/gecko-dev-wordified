@@ -24,6 +24,18 @@ publicdomain
 /
 *
 /
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 /
 /
 JSON
@@ -165,6 +177,7 @@ a
 '
 )
 ;
+}
 if
 (
 typeof

@@ -24,6 +24,18 @@ publicdomain
 /
 *
 /
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 /
 /
 To
@@ -224,6 +236,7 @@ ding
 '
 )
 ;
+}
 }
 if
 (

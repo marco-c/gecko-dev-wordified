@@ -8,6 +8,18 @@ test
 error
 :
 TypeError
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 g
 =
 (
@@ -62,3 +74,4 @@ g
 (
 )
 ;
+}

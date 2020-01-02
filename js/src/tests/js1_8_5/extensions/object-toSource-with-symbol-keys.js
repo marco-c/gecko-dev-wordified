@@ -24,6 +24,18 @@ publicdomain
 /
 *
 /
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 var
 obj
 =
@@ -148,6 +160,7 @@ ponies
 '
 )
 ;
+}
 if
 (
 typeof

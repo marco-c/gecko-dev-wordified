@@ -24,6 +24,18 @@ publicdomain
 /
 *
 /
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 assertEq
 (
 Symbol
@@ -138,6 +150,7 @@ length
 1
 )
 ;
+}
 if
 (
 typeof

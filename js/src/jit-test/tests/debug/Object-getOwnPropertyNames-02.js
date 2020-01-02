@@ -61,6 +61,17 @@ cross
 -
 compartment
 wrapper
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
 g
 .
 p

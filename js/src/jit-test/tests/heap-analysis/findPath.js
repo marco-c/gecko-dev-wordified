@@ -503,6 +503,18 @@ toString
 )
 )
 ;
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 /
 /
 Check
@@ -585,3 +597,4 @@ toString
 )
 )
 ;
+}

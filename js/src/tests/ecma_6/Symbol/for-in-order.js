@@ -24,6 +24,18 @@ publicdomain
 /
 *
 /
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 /
 /
 ES6
@@ -280,6 +292,7 @@ w
 ]
 )
 ;
+}
 if
 (
 typeof
