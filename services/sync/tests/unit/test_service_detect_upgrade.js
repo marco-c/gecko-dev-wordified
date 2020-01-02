@@ -543,10 +543,6 @@ handler
 }
 )
 ;
-ensureLegacyIdentityManager
-(
-)
-;
 try
 {
 _

@@ -662,10 +662,6 @@ state
 "
 )
 ;
-ensureLegacyIdentityManager
-(
-)
-;
 Service
 .
 status
