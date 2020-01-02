@@ -5895,6 +5895,12 @@ purple
 #
 800080
 "
+rebeccapurple
+:
+"
+#
+663399
+"
 red
 :
 "
