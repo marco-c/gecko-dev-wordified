@@ -1385,9 +1385,6 @@ jsval
 vp
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 CallArgs
 args
 =
@@ -1397,6 +1394,9 @@ argc
 vp
 )
 ;
+#
+ifdef
+JSGC_GENERATIONAL
 if
 (
 args
@@ -1437,6 +1437,16 @@ API
 ;
 #
 endif
+args
+.
+rval
+(
+)
+.
+setUndefined
+(
+)
+;
 return
 true
 ;
