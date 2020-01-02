@@ -427,9 +427,10 @@ aResult
 bool
 isSharingEnabled
 =
-JSVAL_TO_BOOLEAN
-(
 aResult
+.
+toBoolean
+(
 )
 ;
 SetAutoMounterSharingMode

@@ -13089,8 +13089,6 @@ isConstant
 bool
 mustBeFloat32
 =
-JSVAL_TO_BOOLEAN
-(
 secondArg
 -
 >
@@ -13102,6 +13100,9 @@ toConstant
 value
 (
 )
+.
+toBoolean
+(
 )
 ;
 current

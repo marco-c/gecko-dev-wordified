@@ -2055,9 +2055,10 @@ SkType_Boolean
 :
 s32
 =
-JSVAL_TO_BOOLEAN
-(
 value
+.
+toBoolean
+(
 )
 ;
 break
