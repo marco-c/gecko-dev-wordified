@@ -8633,6 +8633,12 @@ optionsObject
 options
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 bool
 found
 ;
