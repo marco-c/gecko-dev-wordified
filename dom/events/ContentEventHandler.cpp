@@ -6645,7 +6645,13 @@ Length
 )
 >
 =
+static_cast
+<
+uint32_t
+>
+(
 aNodeOffset
+)
 )
 {
 /
