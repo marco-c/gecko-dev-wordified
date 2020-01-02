@@ -403,6 +403,7 @@ if
 assignSnapshot
 (
 guard
+Bailout_ObjectIdentityOrTypeGuard
 )
 )
 return
@@ -922,7 +923,7 @@ fallible
 assignSnapshot
 (
 lir
-Bailout_BaselineInfo
+Bailout_DoubleOutput
 )
 )
 return
@@ -1205,7 +1206,7 @@ fallible
 assignSnapshot
 (
 lir
-Bailout_BaselineInfo
+Bailout_DoubleOutput
 )
 )
 return
@@ -1273,7 +1274,7 @@ fallible
 assignSnapshot
 (
 lir
-Bailout_BaselineInfo
+Bailout_DoubleOutput
 )
 )
 return
@@ -1345,7 +1346,7 @@ fallible
 assignSnapshot
 (
 lir
-Bailout_BaselineInfo
+Bailout_DoubleOutput
 )
 )
 return
@@ -1503,7 +1504,7 @@ fallible
 assignSnapshot
 (
 lir
-Bailout_BaselineInfo
+Bailout_DoubleOutput
 )
 )
 return
@@ -1571,7 +1572,7 @@ fallible
 assignSnapshot
 (
 lir
-Bailout_BaselineInfo
+Bailout_DoubleOutput
 )
 )
 return
@@ -1643,7 +1644,7 @@ fallible
 assignSnapshot
 (
 lir
-Bailout_BaselineInfo
+Bailout_DoubleOutput
 )
 )
 return
@@ -1849,7 +1850,7 @@ fallible
 assignSnapshot
 (
 lir
-Bailout_BaselineInfo
+Bailout_DoubleOutput
 )
 )
 return
@@ -1931,7 +1932,7 @@ fallible
 assignSnapshot
 (
 lir
-Bailout_BaselineInfo
+Bailout_DoubleOutput
 )
 )
 return
