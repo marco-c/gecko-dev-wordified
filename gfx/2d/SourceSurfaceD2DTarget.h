@@ -400,6 +400,8 @@ public
 :
 DataSourceSurfaceD2DTarget
 (
+SurfaceFormat
+aFormat
 )
 ;
 ~
