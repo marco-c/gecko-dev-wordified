@@ -193,6 +193,12 @@ LSPAnnotationGatherer
 public
 nsRunnable
 {
+~
+LSPAnnotationGatherer
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
