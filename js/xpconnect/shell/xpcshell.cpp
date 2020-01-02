@@ -134,6 +134,15 @@ h
 #
 include
 "
+mozilla
+/
+WindowsDllBlocklist
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
@@ -249,8 +258,8 @@ stdout
 endif
 #
 ifdef
-XRE_HAS_DLL_BLOCKLIST
-XRE_SetupDllBlocklist
+HAS_DLL_BLOCKLIST
+DllBlocklist_Initialize
 (
 )
 ;
