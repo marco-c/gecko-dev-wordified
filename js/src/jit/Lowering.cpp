@@ -7400,7 +7400,7 @@ comp
 )
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unrecognized
@@ -12532,7 +12532,7 @@ handle
 them
 yet
 .
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -12798,7 +12798,7 @@ handle
 them
 yet
 .
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -13043,7 +13043,7 @@ NaN
 not
 int32
 .
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 ToInt32
@@ -13058,7 +13058,7 @@ false
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -13245,7 +13245,7 @@ handle
 them
 yet
 .
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -13599,7 +13599,7 @@ are
 not
 supported
 .
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -15194,7 +15194,7 @@ MIRType_Undefined
 case
 MIRType_Null
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 typed
@@ -15903,7 +15903,7 @@ ins
 case
 MIRType_Float32
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Float32
@@ -17781,7 +17781,7 @@ ins
 }
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -18352,7 +18352,7 @@ MIRType_Undefined
 case
 MIRType_Null
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 typed
@@ -19125,7 +19125,7 @@ MIRType_Undefined
 case
 MIRType_Null
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 typed
@@ -19907,7 +19907,7 @@ ins
 }
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -22370,7 +22370,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -22379,6 +22379,8 @@ for
 MIRType
 "
 )
+;
+break
 ;
 }
 lir
@@ -25387,7 +25389,7 @@ ReturnReg
 )
 ;
 else
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected

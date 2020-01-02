@@ -6292,7 +6292,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -6537,7 +6537,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -6691,7 +6691,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -7766,7 +7766,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -7933,7 +7933,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -13378,7 +13378,7 @@ LLoadTypedArrayElementStatic
 ins
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI
@@ -13397,7 +13397,7 @@ LStoreTypedArrayElementStatic
 ins
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI
@@ -13603,7 +13603,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -14266,7 +14266,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -15965,7 +15965,7 @@ LForkJoinGetSlice
 ins
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI
@@ -15985,7 +15985,7 @@ JSContext
 cx
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI

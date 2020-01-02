@@ -4129,7 +4129,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -4138,6 +4138,8 @@ for
 ma_load
 "
 )
+;
+break
 ;
 }
 }
@@ -4317,7 +4319,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -4326,6 +4328,8 @@ for
 ma_store
 "
 )
+;
+break
 ;
 }
 }
@@ -6043,7 +6047,7 @@ Signed
 case
 NotSigned
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 There
@@ -6059,10 +6063,12 @@ equality
 "
 )
 ;
+break
+;
 case
 Overflow
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Overflow
@@ -6075,9 +6081,11 @@ MIPS
 "
 )
 ;
+break
+;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -6575,7 +6583,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -6585,6 +6593,8 @@ ma_cmp_set
 .
 "
 )
+;
+break
 ;
 }
 }
@@ -6868,7 +6878,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -6876,6 +6886,8 @@ DoubleCondition
 .
 "
 )
+;
+break
 ;
 }
 }
@@ -17477,7 +17489,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -18158,7 +18170,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -18249,7 +18261,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid

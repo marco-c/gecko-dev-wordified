@@ -1411,7 +1411,7 @@ stackLayout
 ;
 }
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Wrong
@@ -2356,7 +2356,7 @@ magic
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 no

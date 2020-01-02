@@ -1226,7 +1226,7 @@ Bailout_IonExceptionDebugMode
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -1601,7 +1601,7 @@ MIRType_Value
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -1901,7 +1901,7 @@ ForkJoinContext
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unknown

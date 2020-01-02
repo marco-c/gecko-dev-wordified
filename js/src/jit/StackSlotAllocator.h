@@ -435,7 +435,7 @@ index
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unknown
@@ -571,7 +571,7 @@ allocateDoubleSlot
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unknown

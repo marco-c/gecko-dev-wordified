@@ -9948,7 +9948,7 @@ code
 13
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 ARM
@@ -10617,7 +10617,7 @@ PatchedImmPtr
 imm
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unused

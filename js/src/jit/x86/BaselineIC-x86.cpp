@@ -1584,7 +1584,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unhandled
@@ -1938,7 +1938,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected

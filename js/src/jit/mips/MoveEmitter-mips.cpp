@@ -727,7 +727,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -1051,7 +1051,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -1160,7 +1160,7 @@ to
 )
 ;
 else
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -1245,7 +1245,7 @@ to
 }
 else
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -1331,7 +1331,7 @@ to
 }
 else
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -1345,7 +1345,7 @@ arguments
 }
 else
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -1902,7 +1902,7 @@ a3
 )
 ;
 else
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2084,7 +2084,7 @@ a3
 )
 ;
 else
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2309,7 +2309,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected

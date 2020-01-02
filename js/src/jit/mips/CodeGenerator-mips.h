@@ -518,7 +518,7 @@ rhs
 snapshot
 )
 ;
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid

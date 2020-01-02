@@ -2134,7 +2134,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2528,7 +2528,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2923,7 +2923,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -6977,7 +6977,7 @@ fail
 ;
 #
 else
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 JSRuntime
@@ -8595,7 +8595,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 No
@@ -8819,7 +8819,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 No
@@ -8891,7 +8891,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 No
@@ -8995,7 +8995,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 No
@@ -10474,7 +10474,7 @@ VMFunction
 :
 RootNone
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Handle
@@ -10572,7 +10572,7 @@ VMFunction
 :
 RootNone
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Handle
@@ -10951,7 +10951,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad
@@ -12086,7 +12086,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad
@@ -12652,7 +12652,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unsupported
