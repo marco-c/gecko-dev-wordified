@@ -4213,8 +4213,6 @@ JS
 :
 HandleObject
 parent
-unsigned
-flags
 )
 ;
 /
@@ -4283,8 +4281,11 @@ JS
 :
 HandleObject
 obj
-unsigned
-flags
+JS
+:
+:
+HandleObject
+objectPassedToWrap
 )
 ;
 struct

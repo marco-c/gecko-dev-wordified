@@ -287,8 +287,11 @@ JS
 :
 HandleObject
 obj
-unsigned
-flags
+JS
+:
+:
+HandleObject
+objectPassedToWrap
 )
 {
 JS_GC
@@ -326,8 +329,6 @@ JS
 :
 HandleObject
 parent
-unsigned
-flags
 )
 {
 return
