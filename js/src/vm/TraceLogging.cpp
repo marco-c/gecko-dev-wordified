@@ -4958,16 +4958,6 @@ enabledTextIds
 TraceLogger
 :
 :
-FoldTests
-]
-=
-true
-;
-enabledTextIds
-[
-TraceLogger
-:
-:
 SplitCriticalEdges
 ]
 =
