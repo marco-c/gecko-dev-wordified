@@ -3350,6 +3350,10 @@ ClippedDisplayItem
 >
 &
 aItems
+const
+nsIntRect
+&
+aRect
 gfxContext
 *
 aContext
@@ -3362,6 +3366,14 @@ aBuilder
 nsPresContext
 *
 aPresContext
+const
+nsIntPoint
+&
+aOffset
+float
+aXScale
+float
+aYScale
 int32_t
 aCommonClipCount
 )
