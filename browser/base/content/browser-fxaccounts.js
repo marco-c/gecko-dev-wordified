@@ -186,6 +186,13 @@ weave
 :
 service
 :
+ready
+"
+"
+weave
+:
+service
+:
 sync
 :
 start
