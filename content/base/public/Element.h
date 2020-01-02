@@ -3775,7 +3775,6 @@ MozRequestFullScreen
 (
 )
 ;
-inline
 void
 MozRequestPointerLock
 (

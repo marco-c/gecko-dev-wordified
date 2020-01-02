@@ -236,6 +236,12 @@ endif
 /
 /
 MOZILLA_INTERNAL_API
+virtual
+~
+nsIAttribute
+(
+)
+;
 nsRefPtr
 <
 nsDOMAttributeMap

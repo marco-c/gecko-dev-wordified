@@ -299,6 +299,15 @@ aNsAware
 )
 {
 }
+nsIAttribute
+:
+:
+~
+nsIAttribute
+(
+)
+{
+}
 namespace
 mozilla
 {
