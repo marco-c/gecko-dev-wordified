@@ -195,6 +195,12 @@ nsWrapperCache
 public
 AudioParamTimeline
 {
+virtual
+~
+AudioParam
+(
+)
+;
 public
 :
 typedef
@@ -217,12 +223,6 @@ CallbackType
 aCallback
 float
 aDefaultValue
-)
-;
-virtual
-~
-AudioParam
-(
 )
 ;
 NS_IMETHOD_

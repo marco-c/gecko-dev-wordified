@@ -200,11 +200,6 @@ nsISupports
 aParent
 )
 ;
-~
-SpeechGrammar
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
@@ -287,6 +282,11 @@ aRv
 ;
 private
 :
+~
+SpeechGrammar
+(
+)
+;
 nsCOMPtr
 <
 nsISupports

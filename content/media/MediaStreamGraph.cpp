@@ -10953,6 +10953,12 @@ MOZ_FINAL
 public
 nsIObserver
 {
+~
+MediaStreamGraphShutdownObserver
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

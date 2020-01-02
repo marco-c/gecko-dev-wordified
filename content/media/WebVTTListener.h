@@ -186,11 +186,6 @@ HTMLTrackElement
 aElement
 )
 ;
-~
-WebVTTListener
-(
-)
-;
 /
 *
 *
@@ -229,6 +224,11 @@ LoadResource
 ;
 private
 :
+~
+WebVTTListener
+(
+)
+;
 /
 /
 List

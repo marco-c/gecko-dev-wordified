@@ -309,12 +309,6 @@ DOMMediaStream
 (
 )
 ;
-virtual
-~
-DOMMediaStream
-(
-)
-;
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMMediaStream
@@ -1271,6 +1265,12 @@ aConsumer
 }
 protected
 :
+virtual
+~
+DOMMediaStream
+(
+)
+;
 void
 Destroy
 (

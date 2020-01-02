@@ -22037,6 +22037,12 @@ mTimerId
 }
 private
 :
+~
+TimerEvent
+(
+)
+{
+}
 const
 nsRefPtr
 <

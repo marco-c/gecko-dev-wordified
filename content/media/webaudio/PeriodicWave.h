@@ -267,6 +267,12 @@ const
 ;
 private
 :
+~
+PeriodicWave
+(
+)
+{
+}
 nsRefPtr
 <
 AudioContext

@@ -288,6 +288,11 @@ nsISupports
 public
 nsWrapperCache
 {
+~
+MediaKeys
+(
+)
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -304,11 +309,6 @@ const
 nsAString
 &
 aKeySystem
-)
-;
-~
-MediaKeys
-(
 )
 ;
 nsPIDOMWindow

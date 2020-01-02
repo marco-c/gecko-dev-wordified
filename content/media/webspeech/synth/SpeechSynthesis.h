@@ -199,12 +199,6 @@ nsPIDOMWindow
 aParent
 )
 ;
-virtual
-~
-SpeechSynthesis
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
@@ -294,6 +288,12 @@ aResult
 ;
 private
 :
+virtual
+~
+SpeechSynthesis
+(
+)
+;
 void
 AdvanceQueue
 (

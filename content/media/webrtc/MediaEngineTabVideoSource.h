@@ -352,6 +352,14 @@ mVideoSource
 ;
 }
 ;
+protected
+:
+~
+MediaEngineTabVideoSource
+(
+)
+{
+}
 private
 :
 int

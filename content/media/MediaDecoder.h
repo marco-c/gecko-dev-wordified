@@ -1992,12 +1992,6 @@ MediaDecoder
 (
 )
 ;
-virtual
-~
-MediaDecoder
-(
-)
-;
 /
 /
 Reset
@@ -6997,6 +6991,12 @@ aDecoded
 }
 protected
 :
+virtual
+~
+MediaDecoder
+(
+)
+;
 /
 *
 *

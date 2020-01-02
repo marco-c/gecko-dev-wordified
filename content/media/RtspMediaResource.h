@@ -1414,6 +1414,12 @@ nsIInterfaceRequestor
 public
 nsIStreamingProtocolListener
 {
+~
+Listener
+(
+)
+{
+}
 public
 :
 Listener
@@ -1426,12 +1432,6 @@ aResource
 mResource
 (
 aResource
-)
-{
-}
-~
-Listener
-(
 )
 {
 }

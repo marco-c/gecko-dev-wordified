@@ -360,6 +360,11 @@ aCues
 ;
 private
 :
+~
+TextTrackCueList
+(
+)
+;
 nsCOMPtr
 <
 nsISupports

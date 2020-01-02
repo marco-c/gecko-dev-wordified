@@ -246,6 +246,12 @@ mCorruptedFrames
 }
 private
 :
+~
+VideoPlaybackQuality
+(
+)
+{
+}
 nsRefPtr
 <
 HTMLMediaElement
