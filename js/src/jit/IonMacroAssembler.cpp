@@ -5280,11 +5280,15 @@ return
 uint32_t
 nfixed
 =
+Min
+(
 templateObj
 -
 >
 numFixedSlots
 (
+)
+nslots
 )
 ;
 uint32_t
