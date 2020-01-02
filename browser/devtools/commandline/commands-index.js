@@ -140,6 +140,13 @@ gcli
 /
 commands
 /
+highlight
+"
+"
+gcli
+/
+commands
+/
 inject
 "
 "
