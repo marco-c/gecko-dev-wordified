@@ -921,14 +921,9 @@ if
 (
 mPanelConfig
 .
-getType
+isDynamic
 (
 )
-=
-=
-PanelType
-.
-DYNAMIC
 )
 {
 args
