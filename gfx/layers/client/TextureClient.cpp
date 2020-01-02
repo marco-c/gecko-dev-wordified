@@ -732,6 +732,11 @@ MOZ_ASSERT
 mActor
 )
 ;
+MOZ_ASSERT
+(
+aForwarder
+)
+;
 SurfaceDescriptor
 desc
 ;
