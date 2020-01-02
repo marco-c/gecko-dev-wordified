@@ -867,7 +867,7 @@ NextRecord
 uint8_t
 *
 ct
-RefPtr
+nsAutoPtr
 <
 DataBuffer
 >
@@ -1094,7 +1094,7 @@ len
 uint8_t
 ct
 ;
-RefPtr
+nsAutoPtr
 <
 DataBuffer
 >
