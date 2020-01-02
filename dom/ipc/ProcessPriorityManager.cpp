@@ -357,8 +357,6 @@ huge
 mess
 .
 )
-/
-/
 #
 define
 ENABLE_LOGGING
