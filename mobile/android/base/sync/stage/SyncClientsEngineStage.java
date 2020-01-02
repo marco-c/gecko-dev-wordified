@@ -2330,6 +2330,15 @@ ClientRecord
 PROTOCOL_LEGACY_SYNC
 )
 ;
+protocols
+.
+add
+(
+ClientRecord
+.
+PROTOCOL_FXA_SYNC
+)
+;
 return
 protocols
 ;

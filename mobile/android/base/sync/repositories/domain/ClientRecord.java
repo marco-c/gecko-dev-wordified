@@ -221,8 +221,6 @@ PROTOCOL_LEGACY_SYNC
 1
 "
 ;
-/
-/
 public
 static
 final
