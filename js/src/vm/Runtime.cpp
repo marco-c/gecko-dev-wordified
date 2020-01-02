@@ -1308,6 +1308,10 @@ threadPool
 (
 this
 )
+defaultJSContextCallback
+(
+NULL
+)
 ctypesActivityCallback
 (
 NULL

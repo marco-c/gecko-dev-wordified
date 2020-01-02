@@ -8711,6 +8711,12 @@ threadPool
 js
 :
 :
+DefaultJSContextCallback
+defaultJSContextCallback
+;
+js
+:
+:
 CTypesActivityCallback
 ctypesActivityCallback
 ;

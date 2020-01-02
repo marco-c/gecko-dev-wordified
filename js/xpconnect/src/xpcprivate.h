@@ -5344,6 +5344,16 @@ cb
 )
 ;
 static
+JSContext
+*
+DefaultJSContextCallback
+(
+JSRuntime
+*
+rt
+)
+;
+static
 void
 ActivityCallback
 (

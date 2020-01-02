@@ -2721,17 +2721,6 @@ corresponding
 to
 this
 object
-SLOT_CLOSURECX
-=
-13
-/
-/
-JSContext
-for
-use
-with
-FunctionType
-closures
 CTYPEPROTO_SLOTS
 }
 ;
