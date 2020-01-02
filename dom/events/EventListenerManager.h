@@ -184,6 +184,9 @@ nsIScriptContext
 class
 nsPIDOMWindow
 ;
+class
+JSTracer
+;
 struct
 EventTypeData
 ;
@@ -1910,6 +1913,14 @@ Length
 void
 MarkForCC
 (
+)
+;
+void
+TraceListeners
+(
+JSTracer
+*
+aTrc
 )
 ;
 dom
