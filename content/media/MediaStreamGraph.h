@@ -4846,6 +4846,15 @@ Our
 media
 stream
 graph
+.
+null
+if
+destroyed
+on
+the
+graph
+thread
+.
 MediaStreamGraphImpl
 *
 mGraph
@@ -4953,10 +4962,6 @@ mPullEnabled
 false
 )
 mUpdateFinished
-(
-false
-)
-mDestroyed
 (
 false
 )
@@ -6049,9 +6054,6 @@ mPullEnabled
 ;
 bool
 mUpdateFinished
-;
-bool
-mDestroyed
 ;
 bool
 mNeedsMixing
