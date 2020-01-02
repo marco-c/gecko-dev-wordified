@@ -913,6 +913,15 @@ uint16_t
 i
 )
 ;
+const
+char
+*
+GetEntryNameAt
+(
+uint16_t
+i
+)
+;
 private
 :
 xptiTypelibGuts
