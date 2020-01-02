@@ -2600,7 +2600,7 @@ HeapSlot
 )
 ;
 }
-void
+bool
 rollbackProperties
 (
 js
