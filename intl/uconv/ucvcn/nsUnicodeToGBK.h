@@ -255,6 +255,7 @@ constructor
 .
 *
 /
+explicit
 nsUnicodeToGBK
 (
 uint32_t

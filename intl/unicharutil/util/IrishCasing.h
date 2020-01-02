@@ -106,6 +106,15 @@ stdint
 .
 h
 >
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -179,6 +188,7 @@ kState_Start
 )
 {
 }
+MOZ_IMPLICIT
 State
 (
 const
@@ -215,6 +225,7 @@ mState
 }
 private
 :
+explicit
 State
 (
 uint8_t

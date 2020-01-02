@@ -128,6 +128,7 @@ nsHyphenator
 {
 public
 :
+explicit
 nsHyphenator
 (
 nsIURI

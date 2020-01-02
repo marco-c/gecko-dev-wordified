@@ -831,6 +831,7 @@ constructor
 .
 *
 /
+explicit
 nsBufferDecoderSupport
 (
 uint32_t
@@ -1646,6 +1647,7 @@ constructor
 .
 *
 /
+explicit
 nsOneByteDecoderSupport
 (
 uMappingTable
@@ -2281,6 +2283,7 @@ constructor
 .
 *
 /
+explicit
 nsEncoderSupport
 (
 uint32_t
