@@ -815,7 +815,7 @@ double
 >
 :
 :
-ExponentShift
+kExponentShift
 ;
 /
 /
@@ -839,7 +839,7 @@ double
 >
 :
 :
-ExponentBias
+kExponentBias
 ;
 /
 /

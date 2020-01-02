@@ -61993,7 +61993,7 @@ double
 >
 :
 :
-ExponentBias
+kExponentBias
 )
 {
 /

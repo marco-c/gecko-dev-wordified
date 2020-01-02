@@ -3135,12 +3135,15 @@ if
 (
 cond
 )
+{
 \
 MOZ_ASSERT
 (
 expr
 )
 ;
+\
+}
 \
 }
 while

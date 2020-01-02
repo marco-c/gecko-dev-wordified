@@ -136,9 +136,9 @@ HashBytes
 const
 void
 *
-bytes
+aBytes
 size_t
-length
+aLength
 )
 {
 uint32_t
@@ -158,7 +158,7 @@ char
 *
 >
 (
-bytes
+aBytes
 )
 ;
 /
@@ -180,10 +180,10 @@ for
 ;
 i
 <
-length
+aLength
 -
 (
-length
+aLength
 %
 sizeof
 (
@@ -256,12 +256,13 @@ for
 ;
 i
 <
-length
+aLength
 ;
 i
 +
 +
 )
+{
 hash
 =
 AddToHash
@@ -273,6 +274,7 @@ i
 ]
 )
 ;
+}
 return
 hash
 ;

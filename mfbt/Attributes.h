@@ -1798,7 +1798,7 @@ NonCopyable
 const
 NonCopyable
 &
-other
+aOther
 )
 MOZ_DELETE
 ;
@@ -1810,7 +1810,7 @@ operator
 const
 NonCopyable
 &
-other
+aOther
 )
 MOZ_DELETE
 ;

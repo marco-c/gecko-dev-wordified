@@ -3779,7 +3779,7 @@ double
 >
 :
 :
-SignificandBits
+kSignificandBits
 )
 ScratchFloatReg
 )
@@ -3860,7 +3860,7 @@ float
 >
 :
 :
-SignificandBits
+kSignificandBits
 )
 ScratchFloatReg
 )

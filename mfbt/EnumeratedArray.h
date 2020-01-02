@@ -322,7 +322,7 @@ public
 static
 const
 size_t
-Size
+kSize
 =
 size_t
 (
@@ -334,7 +334,7 @@ private
 Array
 <
 ValueType
-Size
+kSize
 >
 mArray
 ;
@@ -363,12 +363,13 @@ i
 ;
 i
 <
-Size
+kSize
 ;
 i
 +
 +
 )
+{
 mArray
 [
 i
@@ -381,6 +382,7 @@ mArray
 i
 ]
 ;
+}
 }
 ValueType
 &

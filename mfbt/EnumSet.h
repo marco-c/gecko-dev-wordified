@@ -757,6 +757,7 @@ contained
 in
 the
 set
+.
 *
 /
 bool
@@ -788,6 +789,7 @@ elements
 in
 the
 set
+.
 *
 /
 uint8_t
@@ -822,10 +824,12 @@ bitField
 &
 1
 )
+{
 count
 +
 +
 ;
+}
 }
 return
 count

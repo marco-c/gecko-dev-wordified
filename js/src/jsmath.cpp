@@ -4502,7 +4502,7 @@ double
 >
 :
 :
-ExponentShift
+kExponentShift
 )
 )
 return
@@ -4584,7 +4584,7 @@ float
 >
 :
 :
-ExponentShift
+kExponentShift
 )
 )
 return

@@ -360,7 +360,7 @@ double
 >
 :
 :
-ExponentShift
+kExponentShift
 ;
 /
 /
@@ -407,7 +407,7 @@ double
 >
 :
 :
-ExponentBits
+kExponentBits
 )
 >
 >
@@ -425,7 +425,7 @@ double
 >
 :
 :
-ExponentBias
+kExponentBias
 )
 ;
 /
@@ -1085,7 +1085,7 @@ double
 >
 :
 :
-SignBit
+kSignBit
 )
 ?
 ~

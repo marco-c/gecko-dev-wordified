@@ -530,7 +530,7 @@ construct
 U
 &
 &
-u
+aU
 )
 {
 MOZ_ASSERT
@@ -565,7 +565,7 @@ T
 (
 Move
 (
-u
+aU
 )
 )
 ;
@@ -583,7 +583,7 @@ construct
 const
 U1
 &
-u1
+aU1
 )
 {
 MOZ_ASSERT
@@ -616,7 +616,7 @@ addr
 )
 T
 (
-u1
+aU1
 )
 ;
 }
@@ -635,11 +635,11 @@ construct
 const
 U1
 &
-u1
+aU1
 const
 U2
 &
-u2
+aU2
 )
 {
 MOZ_ASSERT
@@ -672,8 +672,8 @@ addr
 )
 T
 (
-u1
-u2
+aU1
+aU2
 )
 ;
 }
@@ -745,6 +745,7 @@ state
 =
 SomeT1
 )
+{
 as
 <
 T1
@@ -757,6 +758,7 @@ T1
 (
 )
 ;
+}
 else
 if
 (
@@ -765,6 +767,7 @@ state
 =
 SomeT2
 )
+{
 as
 <
 T2
@@ -777,6 +780,7 @@ T2
 (
 )
 ;
+}
 state
 =
 None
@@ -794,10 +798,12 @@ empty
 (
 )
 )
+{
 destroy
 (
 )
 ;
+}
 }
 private
 :
@@ -806,7 +812,7 @@ MaybeOneOf
 const
 MaybeOneOf
 &
-other
+aOther
 )
 MOZ_DELETE
 ;
@@ -819,7 +825,7 @@ operator
 const
 MaybeOneOf
 &
-other
+aOther
 )
 MOZ_DELETE
 ;
