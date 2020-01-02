@@ -160,15 +160,15 @@ JSContext
 class
 nsPIDOMWindow
 ;
-class
-nsIDOMMozVoicemailStatus
-;
 namespace
 mozilla
 {
 namespace
 dom
 {
+class
+MozVoicemailStatus
+;
 class
 Voicemail
 MOZ_FINAL
@@ -285,7 +285,7 @@ MOZ_OVERRIDE
 ;
 already_AddRefed
 <
-nsIDOMMozVoicemailStatus
+MozVoicemailStatus
 >
 GetStatus
 (
