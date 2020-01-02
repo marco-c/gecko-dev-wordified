@@ -429,6 +429,8 @@ uint32_t
 scopeObject
 uint32_t
 offset
+uint32_t
+parent
 )
 ;
 void
