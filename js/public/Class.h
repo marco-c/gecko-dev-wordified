@@ -4441,7 +4441,7 @@ JSProto_LIMIT
 *
 3
 +
-27
+29
 )
 #
 define

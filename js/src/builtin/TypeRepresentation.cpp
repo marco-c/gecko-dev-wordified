@@ -2260,7 +2260,8 @@ try
 to
 create
 the
-typed
+TI
+type
 object
 to
 associate
@@ -2314,13 +2315,9 @@ clasp
 if
 (
 !
-global
--
->
-getTypedObjectModule
-(
-)
-.
+TypedObjectModuleObject
+:
+:
 getSuitableClaspAndProto
 (
 cx
