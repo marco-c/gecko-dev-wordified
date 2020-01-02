@@ -444,13 +444,13 @@ LOCAL_INCLUDES
 =
 -
 I
-"
+'
 (
 MOZ_DIRECTX_SDK_PATH
 )
 /
 include
-"
+'
 endif
 #
 Don
@@ -581,9 +581,9 @@ INSTALL
 (
 IFLAGS1
 )
-"
+'
 <
-"
+'
 .
 endef
 #
