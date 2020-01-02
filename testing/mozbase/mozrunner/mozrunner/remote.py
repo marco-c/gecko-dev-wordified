@@ -9,6 +9,8 @@ re
 import
 shutil
 import
+signal
+import
 subprocess
 import
 tempfile
@@ -1556,6 +1558,27 @@ self
 last_test
 timeout
 )
+)
+        
+self
+.
+dm
+.
+killProcess
+(
+"
+/
+system
+/
+b2g
+/
+b2g
+"
+sig
+=
+signal
+.
+SIGABRT
 )
         
 self
