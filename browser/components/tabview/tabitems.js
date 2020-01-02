@@ -5969,6 +5969,13 @@ function
 tabItem
 )
 {
+delete
+tabItem
+.
+tab
+.
+_tabViewTabItem
+;
 for
 (
 let
