@@ -1326,7 +1326,10 @@ Flush_Layout
 )
 ;
 }
-gfxMatrix
+gfx
+:
+:
+Matrix
 m
 =
 SVGContentUtils
@@ -1355,7 +1358,10 @@ nullptr
 new
 SVGMatrix
 (
+ThebesMatrix
+(
 m
+)
 )
 ;
 return
@@ -1413,7 +1419,10 @@ Flush_Layout
 )
 ;
 }
-gfxMatrix
+gfx
+:
+:
+Matrix
 m
 =
 SVGContentUtils
@@ -1442,7 +1451,10 @@ nullptr
 new
 SVGMatrix
 (
+ThebesMatrix
+(
 m
+)
 )
 ;
 return

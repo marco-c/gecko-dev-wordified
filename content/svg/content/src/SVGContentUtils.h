@@ -669,7 +669,13 @@ aParamsLength
 )
 ;
 static
-gfxMatrix
+mozilla
+:
+:
+gfx
+:
+:
+Matrix
 GetCTM
 (
 nsSVGElement
