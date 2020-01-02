@@ -2918,6 +2918,14 @@ parentType
 "
 ContinueStatement
 "
+|
+|
+parentType
+=
+=
+"
+BreakStatement
+"
 )
 {
 /
@@ -2928,6 +2936,11 @@ g
 .
 continue
 label
+;
+or
+break
+label
+;
 /
 /
 The
