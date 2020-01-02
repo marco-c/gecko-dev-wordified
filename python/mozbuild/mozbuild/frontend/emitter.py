@@ -105,6 +105,8 @@ Exports
     
 GeneratedEventWebIDLFile
     
+GeneratedInclude
+    
 GeneratedWebIDLFile
     
 InstallationTarget
@@ -1309,6 +1311,13 @@ IPDLFile
 LOCAL_INCLUDES
 '
 LocalInclude
+)
+            
+(
+'
+GENERATED_INCLUDES
+'
+GeneratedInclude
 )
             
 (
