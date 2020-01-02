@@ -116,6 +116,10 @@ MouseEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsDOMMouseScrollEvent
 :
 :
@@ -133,7 +137,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsInputEvent
+WidgetInputEvent
 *
 aEvent
 )
@@ -525,7 +529,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsInputEvent
+WidgetInputEvent
 *
 aEvent
 )

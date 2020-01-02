@@ -576,7 +576,7 @@ return
 }
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (

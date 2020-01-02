@@ -7904,7 +7904,7 @@ DispatchClickEvent
 nsPresContext
 *
 aPresContext
-nsInputEvent
+WidgetInputEvent
 *
 aSourceEvent
 nsIContent
@@ -12540,13 +12540,13 @@ IsLeftClickEvent
 )
 )
 {
-nsInputEvent
+WidgetInputEvent
 *
 inputEvent
 =
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (

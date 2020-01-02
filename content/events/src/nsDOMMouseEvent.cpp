@@ -151,7 +151,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsInputEvent
+WidgetInputEvent
 *
 aEvent
 )
@@ -531,13 +531,13 @@ button
 =
 aButton
 ;
-nsInputEvent
+WidgetInputEvent
 *
 inputEvent
 =
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (
@@ -756,7 +756,7 @@ NS_SIMPLE_GESTURE_EVENT
 :
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (
@@ -1957,7 +1957,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsInputEvent
+WidgetInputEvent
 *
 aEvent
 )

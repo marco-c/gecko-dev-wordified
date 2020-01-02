@@ -3191,7 +3191,7 @@ mCachedModifiers
 =
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (

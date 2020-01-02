@@ -7372,7 +7372,7 @@ nsWindow
 :
 DispatchMotionEvent
 (
-nsInputEvent
+WidgetInputEvent
 &
 event
 AndroidGeckoEvent

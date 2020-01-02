@@ -183,7 +183,7 @@ h
 /
 /
 for
-nsInputEvent
+WidgetInputEvent
 nsEventStatus
 #
 include
@@ -1021,7 +1021,7 @@ aEvent
 *
 *
 *
-nsInputEvent
+WidgetInputEvent
 handler
 .
 Sets
@@ -1042,7 +1042,7 @@ existing
 instance
 of
 an
-nsInputEvent
+WidgetInputEvent
 which
 may
 be
@@ -1086,7 +1086,7 @@ careful
 of
 invoking
 the
-nsInputEvent
+WidgetInputEvent
 variant
 .
 This
@@ -1116,7 +1116,7 @@ we
 have
 InputData
 and
-nsInputEvent
+WidgetInputEvent
 separated
 .
 *
@@ -1169,10 +1169,10 @@ nsEventStatus
 ReceiveInputEvent
 (
 const
-nsInputEvent
+WidgetInputEvent
 &
 aEvent
-nsInputEvent
+WidgetInputEvent
 *
 aOutEvent
 )
@@ -1181,7 +1181,7 @@ aOutEvent
 *
 *
 *
-nsInputEvent
+WidgetInputEvent
 handler
 with
 inline
@@ -1192,7 +1192,7 @@ the
 passed
 in
 *
-nsInputEvent
+WidgetInputEvent
 .
 Must
 be
@@ -1214,7 +1214,7 @@ object
 nsEventStatus
 ReceiveInputEvent
 (
-nsInputEvent
+WidgetInputEvent
 &
 aEvent
 )
@@ -2258,10 +2258,10 @@ nsEventStatus
 ProcessEvent
 (
 const
-nsInputEvent
+WidgetInputEvent
 &
 inputEvent
-nsInputEvent
+WidgetInputEvent
 *
 aOutEvent
 )

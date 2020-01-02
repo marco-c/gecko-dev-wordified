@@ -3161,10 +3161,10 @@ APZCTreeManager
 ProcessEvent
 (
 const
-nsInputEvent
+WidgetInputEvent
 &
 aEvent
-nsInputEvent
+WidgetInputEvent
 *
 aOutEvent
 )
@@ -3262,10 +3262,10 @@ APZCTreeManager
 ReceiveInputEvent
 (
 const
-nsInputEvent
+WidgetInputEvent
 &
 aEvent
-nsInputEvent
+WidgetInputEvent
 *
 aOutEvent
 )
@@ -3462,7 +3462,7 @@ APZCTreeManager
 :
 ReceiveInputEvent
 (
-nsInputEvent
+WidgetInputEvent
 &
 aEvent
 )

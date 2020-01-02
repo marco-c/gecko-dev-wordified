@@ -7734,13 +7734,13 @@ nullptr
 ;
 }
 }
-nsInputEvent
+WidgetInputEvent
 *
 orig
 =
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (

@@ -20175,13 +20175,13 @@ is
 already
 capturing
 }
-nsInputEvent
+WidgetInputEvent
 *
 inputEvent
 =
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (
@@ -20429,7 +20429,7 @@ GetValueAtEventPoint
 (
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (
@@ -20531,7 +20531,7 @@ FinishRangeThumbDrag
 (
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (

@@ -621,7 +621,7 @@ static
 void
 InitInputEvent
 (
-nsInputEvent
+WidgetInputEvent
 &
 aInputEvent
 guint

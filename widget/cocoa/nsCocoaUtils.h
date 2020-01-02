@@ -2049,7 +2049,7 @@ aCocoaEvent
 *
 *
 Initializes
-nsInputEvent
+WidgetInputEvent
 for
 aNativeEvent
 or
@@ -2061,7 +2061,10 @@ static
 void
 InitInputEvent
 (
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 &
 aInputEvent
 NSEvent
@@ -2073,7 +2076,10 @@ static
 void
 InitInputEvent
 (
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 &
 aInputEvent
 NSUInteger

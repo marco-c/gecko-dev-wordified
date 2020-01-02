@@ -5642,13 +5642,13 @@ IsInputDerivedEvent
 false
 )
 ;
-nsInputEvent
+WidgetInputEvent
 *
 inputEvent
 =
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (

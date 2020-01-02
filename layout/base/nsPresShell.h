@@ -3044,7 +3044,10 @@ nullptr
 )
 {
 }
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 *
 mEvent
 ;

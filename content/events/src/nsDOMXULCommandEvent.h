@@ -183,7 +183,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 *
 aEvent
 )
@@ -403,7 +406,10 @@ accessor
 for
 the
 event
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 *
 Event
 (
@@ -412,7 +418,10 @@ Event
 return
 static_cast
 <
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 *
 >
 (

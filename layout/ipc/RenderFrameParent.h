@@ -516,10 +516,10 @@ void
 NotifyInputEvent
 (
 const
-nsInputEvent
+WidgetInputEvent
 &
 aEvent
-nsInputEvent
+WidgetInputEvent
 *
 aOutEvent
 )

@@ -7305,7 +7305,7 @@ shift
 =
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (
@@ -7321,7 +7321,7 @@ control
 =
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (
@@ -7337,7 +7337,7 @@ alt
 =
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (
@@ -7353,7 +7353,7 @@ meta
 =
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (

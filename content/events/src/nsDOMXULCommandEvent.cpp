@@ -126,6 +126,10 @@ prtime
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsDOMXULCommandEvent
 :
 :
@@ -143,7 +147,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsInputEvent
+WidgetInputEvent
 *
 aEvent
 )
@@ -157,7 +161,7 @@ aEvent
 aEvent
 :
 new
-nsInputEvent
+WidgetInputEvent
 (
 false
 0
@@ -453,7 +457,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsInputEvent
+WidgetInputEvent
 *
 aEvent
 )

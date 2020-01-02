@@ -1316,7 +1316,10 @@ pluginEvent
 void
 DispatchMotionEvent
 (
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 &
 event
 mozilla

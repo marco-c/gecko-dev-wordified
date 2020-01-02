@@ -1949,7 +1949,7 @@ dispatching
 void
 DispatchAsyncEventIgnoreStatus
 (
-nsInputEvent
+WidgetInputEvent
 *
 aEvent
 )

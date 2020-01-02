@@ -4160,7 +4160,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (
@@ -4198,7 +4198,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (

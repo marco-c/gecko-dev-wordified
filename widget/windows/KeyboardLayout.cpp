@@ -795,7 +795,7 @@ ModifierKeyState
 :
 InitInputEvent
 (
-nsInputEvent
+WidgetInputEvent
 &
 aInputEvent
 )
@@ -848,7 +848,7 @@ ModifierKeyState
 :
 InitMouseEvent
 (
-nsInputEvent
+WidgetInputEvent
 &
 aMouseEvent
 )

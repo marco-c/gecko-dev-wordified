@@ -330,13 +330,13 @@ easier
 to
 convert
 from
-nsInputEvent
+WidgetInputEvent
 .
 The
 time
+/
+/
 is
-/
-/
 platform
 -
 specific
@@ -352,6 +352,8 @@ Fennec
 it
 is
 since
+/
+/
 startup
 .
 uint32_t
