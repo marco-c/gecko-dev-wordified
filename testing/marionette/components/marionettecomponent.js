@@ -242,9 +242,13 @@ gre
 /
 modules
 /
-Log
+services
+-
+common
+/
+log4moz
 .
-jsm
+js
 "
 )
 ;
@@ -304,7 +308,7 @@ this
 .
 logger
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -321,7 +325,7 @@ logger
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 [
@@ -358,7 +362,7 @@ let
 formatter
 =
 new
-Log
+Log4Moz
 .
 BasicFormatter
 (
@@ -371,7 +375,7 @@ logger
 addAppender
 (
 new
-Log
+Log4Moz
 .
 BoundedFileAppender
 (
@@ -412,7 +416,7 @@ logger
 addAppender
 (
 new
-Log
+Log4Moz
 .
 DumpAppender
 (

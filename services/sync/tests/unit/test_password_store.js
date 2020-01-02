@@ -98,7 +98,7 @@ Trace
 "
 )
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -115,13 +115,13 @@ Passwords
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .
 Trace
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -138,7 +138,7 @@ Passwords
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .

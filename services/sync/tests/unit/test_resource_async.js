@@ -37,13 +37,13 @@ resource
 :
 /
 /
-gre
+services
+-
+common
 /
-modules
-/
-Log
+log4moz
 .
-jsm
+js
 "
 )
 ;
@@ -1219,7 +1219,7 @@ run_test
 {
 logger
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -1230,7 +1230,7 @@ Test
 '
 )
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -1239,7 +1239,7 @@ rootLogger
 addAppender
 (
 new
-Log
+Log4Moz
 .
 DumpAppender
 (

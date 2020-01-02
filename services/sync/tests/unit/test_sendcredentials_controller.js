@@ -168,7 +168,7 @@ Trace
 "
 )
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -183,13 +183,13 @@ SendCredentialsController
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .
 Trace
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -204,7 +204,7 @@ SyncScheduler
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .

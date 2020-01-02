@@ -200,7 +200,7 @@ run_test
 (
 )
 {
-Log
+Log4Moz
 .
 repository
 .
@@ -209,7 +209,7 @@ rootLogger
 addAppender
 (
 new
-Log
+Log4Moz
 .
 DumpAppender
 (

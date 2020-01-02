@@ -207,13 +207,13 @@ run_test
 let
 logger
 =
-Log
+Log4Moz
 .
 repository
 .
 rootLogger
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -222,7 +222,7 @@ rootLogger
 addAppender
 (
 new
-Log
+Log4Moz
 .
 DumpAppender
 (

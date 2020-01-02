@@ -674,7 +674,7 @@ run_test
 (
 )
 {
-Log
+Log4Moz
 .
 repository
 .
@@ -693,7 +693,7 @@ StorageServer
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .

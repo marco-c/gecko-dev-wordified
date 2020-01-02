@@ -3744,7 +3744,7 @@ Trace
 "
 )
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -3761,7 +3761,7 @@ Clients
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .

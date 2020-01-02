@@ -491,7 +491,7 @@ Trace
 "
 )
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -508,13 +508,13 @@ Addons
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .
 Trace
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -529,7 +529,7 @@ AddonsRepository
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .

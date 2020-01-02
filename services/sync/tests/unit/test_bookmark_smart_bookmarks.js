@@ -55,13 +55,13 @@ resource
 :
 /
 /
-gre
+services
+-
+common
 /
-modules
-/
-Log
+log4moz
 .
-jsm
+js
 "
 )
 ;
@@ -1744,7 +1744,7 @@ Trace
 "
 )
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -1761,7 +1761,7 @@ Bookmarks
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .

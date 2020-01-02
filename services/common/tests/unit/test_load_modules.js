@@ -43,6 +43,11 @@ bagheeraclient
 js
 "
 "
+log4moz
+.
+js
+"
+"
 rest
 .
 js
