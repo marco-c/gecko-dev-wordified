@@ -4234,15 +4234,13 @@ CallInfo
 callInfo
 )
 ;
-bool
+JSObject
+*
 testSingletonProperty
 (
 JSObject
 *
 obj
-JSObject
-*
-singleton
 PropertyName
 *
 name
